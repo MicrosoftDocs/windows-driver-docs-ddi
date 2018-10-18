@@ -6,11 +6,8 @@ description: The NETWORK_OPEN_INTEGRITY_QUALIFIER enumeration type contains valu
 old-location: ifsk\network_open_integrity_qualifier.htm
 tech.root: ifsk
 ms.assetid: 6a51ee2e-2df6-44f4-8e95-776851d743a6
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: ECP_Structures_e5f36510-f63f-47bc-941c-690d51ea0608.xml, NETWORK_OPEN_INTEGRITY_QUALIFIER, NETWORK_OPEN_INTEGRITY_QUALIFIER enumeration [Installable File System Drivers], NetworkOpenIntegrityAny, NetworkOpenIntegrityEncrypted, NetworkOpenIntegrityMaximum, NetworkOpenIntegrityNone, NetworkOpenIntegritySigned, ifsk.network_open_integrity_qualifier, ntifs/NETWORK_OPEN_INTEGRITY_QUALIFIER, ntifs/NetworkOpenIntegrityAny, ntifs/NetworkOpenIntegrityEncrypted, ntifs/NetworkOpenIntegrityMaximum, ntifs/NetworkOpenIntegrityNone, ntifs/NetworkOpenIntegritySigned
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntifs.h
 req.include-header: Ntifs.h

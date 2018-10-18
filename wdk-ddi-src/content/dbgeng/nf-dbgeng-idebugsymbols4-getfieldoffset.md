@@ -6,11 +6,8 @@ description: The GetFieldOffset function returns the offset of a member from the
 old-location: debugger\getfieldoffset.htm
 tech.root: debugger
 ms.assetid: 3e5e782b-1a72-446d-9d15-c0f513f3440c
-ms.author: windowsdriverdev
 ms.date: 1/19/2018
 ms.keywords: WdbgExts_Ref_22c8a9bc-dec9-4eec-95c6-b265694b4385.xml, IDebugSymbols2::GetFieldOffset, IDebugSymbols::GetFieldOffset, IDebugSymbols4::GetFieldOffset, wdbgexts/GetFieldOffset, GetFieldOffset, IDebugSymbols2, IDebugSymbols4, GetFieldOffset function [Windows Debugging], debugger.getfieldoffset, IDebugSymbols
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Wdbgexts.h, Dbgeng.h
@@ -56,13 +53,13 @@ The <b>GetFieldOffset</b> function returns the offset of a member from the begin
 ## -syntax
 
 
-````
+```cpp
 __inline ULONG GetFieldOffset(
   _In_  LPCSTR Type,
   _In_  LPCSTR Field,
   _Out_ PULONG pOffset
 );
-````
+```
 
 
 ## -parameters

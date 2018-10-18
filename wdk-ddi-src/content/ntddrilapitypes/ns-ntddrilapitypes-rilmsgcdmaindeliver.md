@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilmsgcdmaindeliver.htm
 tech.root: netvista
 ms.assetid: fdff17ac-2ffd-45b0-8f01-a21af1ffa9d0
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*LPRILMSGCDMAINDELIVER, RILMSGCDMAINDELIVER, RILMSGCDMAINDELIVER structure [Network Drivers Starting with Windows Vista], netvista.rilmsgcdmaindeliver, ntddrilapitypes/RILMSGCDMAINDELIVER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h

@@ -4,11 +4,8 @@ title: PFND3DKMT_SETSYNCREFRESHCOUNTWAITTARGET
 author: windows-driver-content
 description: The PFND3DKMT_SETSYNCREFRESHCOUNTWAITTARGET callback function sets sync refresh count for wait target.
 ms.assetid: 012ee806-e75f-49c3-aedf-395298324cbc
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3DKMT_SETSYNCREFRESHCOUNTWAITTARGET callback function sets sync refresh 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SETSYNCREFRESHCOUNTWAITTARGET Pfnd3dkmtSetsyncrefreshcountwaittarget; 

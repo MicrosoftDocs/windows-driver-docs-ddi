@@ -4,11 +4,8 @@ title: *PFN_SENSORSCXSENSORCREATE
 author: windows-driver-content
 description: Creates an instance of a sensor in the class extension.
 ms.assetid: 5a5df8e4-11e9-4958-b622-64e15bcd8023
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: sensorscx.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Creates an instance of a sensor in the class extension.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 *PFN_SENSORSCXSENSORCREATE *PfnSensorscxsensorcreate; 

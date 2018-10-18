@@ -6,11 +6,8 @@ description: The HwStorFreeAdapterResources callback routine allows the Storport
 old-location: storage\hwstorfreeadapterresources.htm
 tech.root: storage
 ms.assetid: 2f12aab4-ca6e-473b-a342-2881c4a7b133
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: HW_FREE_ADAPTER_RESOURCES, HwStorFreeAdapterResources, HwStorFreeAdapterResources routine [Storage Devices], storage.hwstorfreeadapterresources, storport/HwStorFreeAdapterResources, storvmini_88adb6fa-10a8-4ee7-90d3-881564ed5cfd.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: storport.h
 req.include-header: Storport.h
@@ -130,7 +127,7 @@ MyHwAdapterFreeResources (
 </td>
 </tr>
 </table></span></div>
-The <b>HW_FREE_ADAPTER_RESOURCES</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_FREE_ADAPTER_RESOURCES</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/40BD11CD-A559-4F90-BF39-4ED2FB800392">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/en-us/library/jj159529.aspx">Annotating Function Behavior</a>.
+The <b>HW_FREE_ADAPTER_RESOURCES</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_FREE_ADAPTER_RESOURCES</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/40BD11CD-A559-4F90-BF39-4ED2FB800392">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/library/jj159529.aspx">Annotating Function Behavior</a>.
 
 
 

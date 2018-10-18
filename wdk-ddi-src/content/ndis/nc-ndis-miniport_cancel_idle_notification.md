@@ -6,11 +6,8 @@ description: NDIS calls the MiniportCancelIdleNotification handler function to n
 old-location: netvista\miniportcancelidlenotification.htm
 tech.root: netvista
 ms.assetid: 9965E4EA-10E3-4240-9E4F-D3B49B8F9593
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: MINIPORT_CANCEL_IDLE_NOTIFICATION, MINIPORT_CANCEL_IDLE_NOTIFICATION callback, MiniportCancelIdleNotification, MiniportCancelIdleNotification callback function [Network Drivers Starting with Windows Vista], ndis/MiniportCancelIdleNotification, netvista.miniportcancelidlenotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

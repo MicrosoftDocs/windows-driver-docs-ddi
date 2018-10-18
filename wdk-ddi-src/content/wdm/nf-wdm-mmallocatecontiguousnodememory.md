@@ -6,11 +6,8 @@ description: The MmAllocateContiguousNodeMemory routine allocates a range of con
 old-location: kernel\mmallocatecontiguousnodememory.htm
 tech.root: kernel
 ms.assetid: 08960797-4846-46D4-8DD9-3A935EAD7D48
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: MmAllocateContiguousNodeMemory, MmAllocateContiguousNodeMemory routine [Kernel-Mode Driver Architecture], kernel.mmallocatecontiguousnodememory, wdm/MmAllocateContiguousNodeMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h

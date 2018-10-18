@@ -6,11 +6,8 @@ description: The NDIS_NDK_PROVIDER_CHARACTERISTICS structure specifies NDK provi
 old-location: netvista\ndis_ndk_provider_characteristics.htm
 tech.root: netvista
 ms.assetid: 40F07AC8-80F7-4DBC-BDC9-236530B011D4
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNDIS_NDK_PROVIDER_CHARACTERISTICS, NDIS_NDK_PROVIDER_CHARACTERISTICS, NDIS_NDK_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_PROVIDER_CHARACTERISTICS, PNDIS_NDK_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_PROVIDER_CHARACTERISTICS, ndisndk/NDIS_NDK_PROVIDER_CHARACTERISTICS, ndisndk/PNDIS_NDK_PROVIDER_CHARACTERISTICS, netvista.ndis_ndk_provider_characteristics"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndisndk.h
 req.include-header: Ndis.h

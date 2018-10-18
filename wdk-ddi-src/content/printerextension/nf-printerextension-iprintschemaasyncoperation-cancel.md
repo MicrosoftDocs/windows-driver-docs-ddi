@@ -6,11 +6,8 @@ description: Cancels the asynchronous PrintSchema operation.
 old-location: print\iprintschemaasyncoperation_cancel.htm
 tech.root: print
 ms.assetid: 08DC764B-4410-4D7C-B199-29E38BA09CA6
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: Cancel, Cancel method [Print Devices], Cancel method [Print Devices],IPrintSchemaAsyncOperation interface, IPrintSchemaAsyncOperation interface [Print Devices],Cancel method, IPrintSchemaAsyncOperation.Cancel, IPrintSchemaAsyncOperation::Cancel, print.iprintschemaasyncoperation_cancel, printerextension/IPrintSchemaAsyncOperation::Cancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header: 

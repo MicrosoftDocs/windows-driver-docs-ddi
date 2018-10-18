@@ -6,11 +6,8 @@ description: The ScsiPortReadPortUchar routine reads an unsigned byte value from
 old-location: storage\scsiportreadportuchar.htm
 tech.root: storage
 ms.assetid: aaf7e821-4f60-4018-b0ee-d0f3995482c4
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: ScsiPortReadPortUchar, ScsiPortReadPortUchar routine [Storage Devices], scsiprt_bdc335c6-bee2-47f6-ad8e-61bece6f7c15.xml, srb/ScsiPortReadPortUchar, storage.scsiportreadportuchar
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h, Storport.h
@@ -52,7 +49,7 @@ req.typenames:
 
 
 The <b>ScsiPortReadPortUchar</b> routine reads an unsigned byte value from the HBA.
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 

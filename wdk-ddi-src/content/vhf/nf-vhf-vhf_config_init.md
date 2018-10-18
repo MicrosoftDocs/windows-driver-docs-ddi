@@ -6,11 +6,8 @@ description: Use the VHF_CONFIG_INIT function to initialize the required members
 old-location: hid\vhf_config_init.htm
 tech.root: hid
 ms.assetid: 4A87D9E2-F1FC-4CA8-834C-E545D8F0277B
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: VHF_CONFIG_INIT, VHF_CONFIG_INIT function [Human Input Devices], hid.vhf_config_init, vhf/VHF_CONFIG_INIT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vhf.h
 req.include-header: 

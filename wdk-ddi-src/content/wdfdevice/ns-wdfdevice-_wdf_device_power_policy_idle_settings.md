@@ -6,11 +6,8 @@ description: The WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure contains driver
 old-location: wdf\wdf_device_power_policy_idle_settings.htm
 tech.root: wdf
 ms.assetid: 8d5acd3a-3ec3-4190-98d4-e7ce9ea8d3e8
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*PWDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, DFDeviceObjectGeneralRef_82f4a32c-ff51-4b0f-a67a-c45b4777ce23.xml, PWDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, PWDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure pointer, WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure, _WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, kmdf.wdf_device_power_policy_idle_settings, wdf.wdf_device_power_policy_idle_settings, wdfdevice/PWDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, wdfdevice/WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdfdevice.h
 req.include-header: Wdf.h
@@ -77,7 +74,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff554628">DEVICE_
 
 ### -field IdleTimeout
 
-The amount of time, in milliseconds, that the device will remain idle before the framework places it in the <b>DxState</b>-supplied low-power state. To use the framework's default idle timeout value, specify <b>IdleTimeoutDefaultValue</b>. For more information on when the framework considers the device to be idle, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-idle-power-down">Supporting Idle Power-Down</a>.
+The amount of time, in milliseconds, that the device will remain idle before the framework places it in the <b>DxState</b>-supplied low-power state. To use the framework's default idle timeout value, specify <b>IdleTimeoutDefaultValue</b>. For more information on when the framework considers the device to be idle, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-idle-power-down">Supporting Idle Power-Down</a>.
 
 
 ### -field UserControlOfIdleSettings
@@ -93,7 +90,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552533">WDF_TRI
 
 <b>WdfFalse</b> - Powering down is disabled.
 
-<b>WdfUseDefault</b> - Powering down is initially enabled by default; but if the <b>UserControlOfIdleSettings</b> member is set to <b>IdleAllowUserControl</b>, the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/user-control-of-device-idle-and-wake-behavior">user's setting or driver's INF file</a> overrides the initial value.
+<b>WdfUseDefault</b> - Powering down is initially enabled by default; but if the <b>UserControlOfIdleSettings</b> member is set to <b>IdleAllowUserControl</b>, the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/user-control-of-device-idle-and-wake-behavior">user's setting or driver's INF file</a> overrides the initial value.
 
 If powering down is enabled, the device has a wake-up capability, and the idle timeout value expires, the framework calls the driver's <a href="https://msdn.microsoft.com/a3579239-517f-4df0-a632-31e1176c6552">EvtDeviceArmWakeFromS0</a> callback function before the device enters a low-power state.
 
@@ -108,7 +105,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552533">WDF_TRI
 
 <b>WdfUseDefault</b> - The default value that the framework uses if the driver does not set a different value. This value has the same meaning as <b>WdfFalse</b>. 
 
-If the <b>PowerUpIdleDeviceOnSystemWake</b> member is set to <b>WdfFalse</b> or <b>WdfUseDefault</b>, the device returns to its working state only when software accesses the device, such as when an application sends an I/O request to the device. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/a-device-returns-to-its-working-state">A Device Returns to Its Working State</a>.
+If the <b>PowerUpIdleDeviceOnSystemWake</b> member is set to <b>WdfFalse</b> or <b>WdfUseDefault</b>, the device returns to its working state only when software accesses the device, such as when an application sends an I/O request to the device. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/a-device-returns-to-its-working-state">A Device Returns to Its Working State</a>.
 
 The <b>PowerUpIdleDeviceOnSystemWake</b> member is available in version 1.9 and later versions of KMDF, and starting in version 2.0 of UMDF.
 
@@ -204,9 +201,9 @@ If the value of the <b>IdleCaps</b> member is <b>IdleCanWakeFromS0</b>, you cann
 </ul>
 In operating systems earlier than Windows 8, the D3 power state signifies that the device is in a low-power state, but that some power to the bus is still maintained. Starting in Windows 8, the former D3 power state is called D3hot, and a new power state (D3cold) is available. A device can enter the D3cold state either while the system is in its working (S0) state or in a low-power state.  When a device is in the D3cold  power state, the bus is inactive and the device must trigger its own wake signal when an external action (for example plugging in a network cable) causes a hardware event.
 
-Starting in KMDF 1.11 and UMDF 2.0, a device that <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-idle-power-down">supports idle power-down</a> can use the <b>ExcludeD3Cold</b> member of this structure to specify whether the D3cold power state should be an allowable choice for the low <a href="https://msdn.microsoft.com/2229f34c-9b88-4e3e-802e-f7be2c7ef168">device power state</a> that the device will enter after the idle timeout period ends.
+Starting in KMDF 1.11 and UMDF 2.0, a device that <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-idle-power-down">supports idle power-down</a> can use the <b>ExcludeD3Cold</b> member of this structure to specify whether the D3cold power state should be an allowable choice for the low <a href="https://msdn.microsoft.com/2229f34c-9b88-4e3e-802e-f7be2c7ef168">device power state</a> that the device will enter after the idle timeout period ends.
 
-For information about registry entries that control a device's idle capabilities, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/user-control-of-device-idle-and-wake-behavior">User Control of Device Idle and Wake Behavior</a>. 
+For information about registry entries that control a device's idle capabilities, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/user-control-of-device-idle-and-wake-behavior">User Control of Device Idle and Wake Behavior</a>. 
 
 To initialize its <b>WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</b> structure, your driver should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551271">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT</a>.
 

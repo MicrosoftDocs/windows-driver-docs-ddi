@@ -6,11 +6,8 @@ description: NDIS drivers call the NdisMGetBusData function to read the configur
 old-location: netvista\ndismgetbusdata.htm
 tech.root: netvista
 ms.assetid: 495191f4-a5c6-4223-8c5d-e4c0ecb0cc5d
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisMGetBusData, NdisMGetBusData function [Network Drivers Starting with Windows Vista], hardware_configuration_ref_e2ffab8c-2dba-4b49-a7dc-246a4792ca43.xml, ndis/NdisMGetBusData, netvista.ndismgetbusdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

@@ -4,11 +4,8 @@ title: DXGKDDI_RESUMEHWENGINE
 author: windows-driver-content
 description: Instructs the GPU scheduler to re-submit contexts that were not invalidated by the reset.
 ms.assetid: 9dfb8a10-6ee2-4263-ba0c-b246736973bb
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Instructs the GPU scheduler to re-submit contexts that were not invalidated by t
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_RESUMEHWENGINE DxgkddiResumehwengine;

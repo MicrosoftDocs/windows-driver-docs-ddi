@@ -6,11 +6,8 @@ description: The AcquireLock method prevents the framework from calling methods 
 old-location: wdf\iwdfobject_acquirelock.htm
 tech.root: wdf
 ms.assetid: f69328fb-356b-4381-ae6e-df39ac60e032
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: AcquireLock, AcquireLock method, AcquireLock method,IWDFObject interface, IWDFObject interface,AcquireLock method, IWDFObject.AcquireLock, IWDFObject::AcquireLock, UMDFBaseObjectRef_3a9b581b-87cd-489d-b945-924489d5c3b9.xml, umdf.iwdfobject_acquirelock, wdf.iwdfobject_acquirelock, wudfddi/IWDFObject::AcquireLock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>AcquireLock</b> method prevents the framework from calling methods of interfaces that a driver registered.
 
@@ -75,7 +72,7 @@ None
 
 
 
-If a driver configured itself to use the <b>AcquireLock</b> locking scheme, the framework automatically acquires the "presentation" lock before calling into the driver. (For more information about this locking scheme, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/specifying-a-callback-synchronization-mode">Specifying a Callback Synchronization Mode</a>.) The <b>AcquireLock</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff560214">IWDFObject::ReleaseLock</a> methods acquire and release the presentation lock, respectively. <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Framework device objects</a> and <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-i-o-queue-object">framework I/O queue objects</a> currently support the <b>AcquireLock</b> method.
+If a driver configured itself to use the <b>AcquireLock</b> locking scheme, the framework automatically acquires the "presentation" lock before calling into the driver. (For more information about this locking scheme, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/specifying-a-callback-synchronization-mode">Specifying a Callback Synchronization Mode</a>.) The <b>AcquireLock</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff560214">IWDFObject::ReleaseLock</a> methods acquire and release the presentation lock, respectively. <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-a-framework-device-object">Framework device objects</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-i-o-queue-object">framework I/O queue objects</a> currently support the <b>AcquireLock</b> method.
 
 The driver calls the <b>AcquireLock</b> method to manipulate its objects that were created from its callback interfaces outside the callback scope in a thread-safe manner. The <b>AcquireLock</b> method represents an advanced feature of the framework that most drivers will not use because improper usage can result in deadlocks.
 

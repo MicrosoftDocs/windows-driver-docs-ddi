@@ -6,11 +6,8 @@ description: The KeSetTimerEx routine sets the absolute or relative interval at 
 old-location: kernel\kesettimerex.htm
 tech.root: kernel
 ms.assetid: 9a2a092d-f9b5-42a2-9be4-bc934a9304fb
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: KeSetTimerEx, KeSetTimerEx routine [Kernel-Mode Driver Architecture], k105_ca0b6adf-7903-485b-b29c-c406701c3032.xml, kernel.kesettimerex, wdm/KeSetTimerEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

@@ -4,11 +4,8 @@ title: PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME_RS4_0
 author: windows-driver-content
 description: Starts a DirectX Video Acceleration (DXVA) decoding operation to decode a video frame.
 ms.assetid: 803a326d-735e-44c3-b27b-a6330094f9af
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d10umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Starts a DirectX Video Acceleration (DXVA) decoding operation to decode a video 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME_RS4_0 Pfnd3dwddm24DdiVideodecoderbeginframeRs40;

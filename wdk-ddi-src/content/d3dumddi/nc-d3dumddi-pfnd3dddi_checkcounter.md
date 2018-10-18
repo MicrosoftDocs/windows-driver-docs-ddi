@@ -6,11 +6,8 @@ description: Called by the Microsoft Direct3D runtime to retrieve info that desc
 old-location: display\pfncheckcounter.htm
 tech.root: display
 ms.assetid: 3A8B040D-7B48-4CDB-985B-906AE1762E22
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_CHECKCOUNTER, PFND3DDDI_CHECKCOUNTER callback, d3dumddi/pfnCheckCounter, display.pfncheckcounter, pfnCheckCounter, pfnCheckCounter callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h

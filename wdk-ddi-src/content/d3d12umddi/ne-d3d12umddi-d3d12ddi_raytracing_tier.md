@@ -4,12 +4,9 @@ title: D3D12DDI_RAYTRACING_TIER
 author: windows-driver-content
 description: Specifies the ray tracing tier.
 ms.assetid: 3bf1c7c9-6c13-4111-a185-71c5ddaf1067
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: D3D12DDI_RAYTRACING_TIER, D3D12DDI_RAYTRACING_TIER, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

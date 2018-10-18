@@ -6,11 +6,8 @@ description: A driver's EvtDeviceDisarmWakeFromSx event callback function disarm
 old-location: wdf\evtdevicedisarmwakefromsx.htm
 tech.root: wdf
 ms.assetid: 79bf7a42-5053-428a-a78b-dd8bdff93a69
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_ea30bcf7-25ce-493a-a8e0-310657a98c60.xml, EVT_WDF_DEVICE_DISARM_WAKE_FROM_SX, EVT_WDF_DEVICE_DISARM_WAKE_FROM_SX callback, EvtDeviceDisarmWakeFromSx, EvtDeviceDisarmWakeFromSx callback function, kmdf.evtdevicedisarmwakefromsx, wdf.evtdevicedisarmwakefromsx, wdfdevice/EvtDeviceDisarmWakeFromSx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfdevice.h
 req.include-header: Wdf.h
@@ -88,7 +85,7 @@ For more information about when the framework calls this callback function, see 
 
 For more information about this callback function, see <a href="https://msdn.microsoft.com/519dcd1a-9975-48b1-a032-04348b903ac5">Supporting System Wake-Up</a>.
 
-The <i>EvtDeviceDisarmWakeFromSx</i> callback function is called at IRQL = PASSIVE_LEVEL. You should not make this callback function <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-pageable-code-in-a-kmdf-driver">pageable</a>.
+The <i>EvtDeviceDisarmWakeFromSx</i> callback function is called at IRQL = PASSIVE_LEVEL. You should not make this callback function <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-pageable-code-in-a-kmdf-driver">pageable</a>.
 
 
 #### Examples
@@ -124,7 +121,7 @@ VOID
 </td>
 </tr>
 </table></span></div>
-The <b>EVT_WDF_DEVICE_DISARM_WAKE_FROM_SX</b> function type is defined in the Wdfdevice.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDF_DEVICE_DISARM_WAKE_FROM_SX</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/en-US/library/c0aa268d-6fa3-4ced-a8c6-f7652b152e61">Annotating Function Behavior</a>.
+The <b>EVT_WDF_DEVICE_DISARM_WAKE_FROM_SX</b> function type is defined in the Wdfdevice.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDF_DEVICE_DISARM_WAKE_FROM_SX</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/library/c0aa268d-6fa3-4ced-a8c6-f7652b152e61">Annotating Function Behavior</a>.
 
 
 

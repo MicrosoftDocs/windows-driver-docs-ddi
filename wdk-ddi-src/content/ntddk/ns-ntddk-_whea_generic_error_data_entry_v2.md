@@ -6,11 +6,8 @@ description: The WHEA_GENERIC_ERROR_DATA_ENTRY structure describes an error data
 old-location: whea\whea_generic_error_data_entry.htm
 tech.root: whea
 ms.assetid: 86834d99-34bd-487a-bbd4-4c0143d849a0
-ms.author: windowsdriverdev
 ms.date: 2/20/2018
 ms.keywords: "*PWHEA_GENERIC_ERROR_DATA_ENTRY, *PWHEA_GENERIC_ERROR_DATA_ENTRY_V2, PWHEA_GENERIC_ERROR_DATA_ENTRY, PWHEA_GENERIC_ERROR_DATA_ENTRY structure pointer [WHEA Drivers and Applications], WHEA_GENERIC_ERROR_DATA_ENTRY, WHEA_GENERIC_ERROR_DATA_ENTRY structure [WHEA Drivers and Applications], WHEA_GENERIC_ERROR_DATA_ENTRY_V2, _WHEA_GENERIC_ERROR_DATA_ENTRY_V2, ntddk/PWHEA_GENERIC_ERROR_DATA_ENTRY, ntddk/WHEA_GENERIC_ERROR_DATA_ENTRY, whea.whea_generic_error_data_entry, whearef_9e532654-fd5a-4936-8465-f9d6f9eafad2.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddk.h
 req.include-header: Ntddk.h

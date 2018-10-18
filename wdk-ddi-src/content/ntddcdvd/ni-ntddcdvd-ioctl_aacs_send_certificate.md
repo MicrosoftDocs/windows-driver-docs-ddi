@@ -6,11 +6,8 @@ description: Sends the host certificate to the logical unit.
 old-location: storage\ioctl_aacs_send_certificate.htm
 tech.root: storage
 ms.assetid: e56b2d31-cb59-489d-ab12-7657406ba67a
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IOCTL_AACS_SEND_CERTIFICATE, IOCTL_AACS_SEND_CERTIFICATE control, IOCTL_AACS_SEND_CERTIFICATE control code [Storage Devices], k307_c275c772-8b16-4397-ba4d-3ff3ebc5eb40.xml, ntddcdvd/IOCTL_AACS_SEND_CERTIFICATE, storage.ioctl_aacs_send_certificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h

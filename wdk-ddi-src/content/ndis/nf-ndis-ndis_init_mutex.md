@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NDIS_INIT_MUTEX macro initializes a mutex object and sets it to a signaled state.
 tech.root: netvista
 ms.assetid: b55ee6e6-ae83-43fb-af92-1f005057d4ae
-ms.author: windowsdriverdev
 ms.date: 04/16/2018
 ms.topic: macro
 ms.keywords: NDIS_INIT_MUTEX

@@ -4,7 +4,6 @@ title: D3DKMTSetSyncRefreshCountWaitTarget function
 author: windows-driver-content
 description: Sets sync refresh count for wait target.
 ms.assetid: 2703869c-1caa-4cda-a6a7-01516a4ecb85
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: D3DKMTSetSyncRefreshCountWaitTarget

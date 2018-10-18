@@ -6,11 +6,8 @@ description: The WWAN_READY_INFO structure represents the ready-state of the MB 
 old-location: netvista\wwan_ready_info.htm
 tech.root: netvista
 ms.assetid: 6db8730e-a1da-428b-9938-fd9f3f71283a
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PWWAN_READY_INFO, PWWAN_READY_INFO, PWWAN_READY_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_READY_INFO, WWAN_READY_INFO structure [Network Drivers Starting with Windows Vista], WwanRef_8ab0bf23-8ad9-4786-bf5e-013a23d9c16e.xml, _WWAN_READY_INFO, netvista.wwan_ready_info, wwan/PWWAN_READY_INFO, wwan/WWAN_READY_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wwan.h
 req.include-header: Wwan.h

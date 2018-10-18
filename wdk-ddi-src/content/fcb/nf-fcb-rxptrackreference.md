@@ -6,11 +6,8 @@ description: RxpTrackReference tracks requests to reference SRV_CALL, NET_ROOT, 
 old-location: ifsk\rxptrackreference.htm
 tech.root: ifsk
 ms.assetid: af697ccd-a748-45f8-97bb-fe595d81b693
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RxpTrackReference, RxpTrackReference function [Installable File System Drivers], fcb/RxpTrackReference, ifsk.rxptrackreference, rxref_12b9266b-6cd9-4011-b764-b62376e0a5fb.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fcb.h
 req.include-header: Fcb.h

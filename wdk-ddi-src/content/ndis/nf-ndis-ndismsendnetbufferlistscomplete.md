@@ -6,11 +6,8 @@ description: Miniport drivers call the NdisMSendNetBufferListsComplete function 
 old-location: netvista\ndismsendnetbufferlistscomplete.htm
 tech.root: netvista
 ms.assetid: 33890582-5eba-4cc1-a0d9-ec07f18da453
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisMSendNetBufferListsComplete, NdisMSendNetBufferListsComplete function [Network Drivers Starting with Windows Vista], ndis/NdisMSendNetBufferListsComplete, ndis_sendrcv_ref_11bdd96b-0ba8-475a-ba6e-03492e2993d7.xml, netvista.ndismsendnetbufferlistscomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -79,7 +76,7 @@ associated with the completed send requests. While the status of the send reques
 After a miniport driver calls **NdisMSendNetBufferListsComplete**, NDIS calls the
 [ProtocolSendNetBufferListsComplete](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_send_net_buffer_lists_complete) function of the driver that called the [NdisSendNetBufferLists](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndissendnetbufferlists) function to     initiate the send request.
 
-The miniport driver can complete send requests in any order. For example, the miniport driver could concatenate the NET_BUFFER_LIST structure lists from multiple *MiniportSendNetBufferLists* calls or split up a list from a *MiniportSendNetBufferLists* call. However, the miniport driver must not modify the list of [NET_BUFFER](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer) structures that are associated with a
+The miniport driver can complete send requests in any order. For example, the miniport driver could concatenate the NET_BUFFER_LIST structure lists from multiple *MiniportSendNetBufferLists* calls or split up a list from a *MiniportSendNetBufferLists* call. However, the miniport driver must not modify the list of [NET_BUFFER](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer) structures that are associated with a
     NET_BUFFER_LIST structure.
 
 The miniport driver must set one of the following status codes in the **Status** member of each NET_BUFFER_LIST structure that the *NetBufferLists* parameter specifies:
@@ -101,9 +98,9 @@ A miniport driver's call to
 
 [MiniportCancelSend](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_cancel_send)</a>
 
-[MiniportInitializeEx](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize)
+[MiniportInitializeEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize)
 
-[MiniportSendNetBufferLists](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_send_net_buffer_lists)
+[MiniportSendNetBufferLists](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_send_net_buffer_lists)
 
 [NET_BUFFER](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer)
 

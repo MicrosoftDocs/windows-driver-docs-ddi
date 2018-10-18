@@ -6,11 +6,8 @@ description: The WdfDeviceUnmapIoSpace function unmaps a specified range of phys
 old-location: wdf\wdfdeviceunmapiospace.htm
 tech.root: wdf
 ms.assetid: C8963667-D2FB-4360-A523-33429D6FBF1B
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WdfDeviceUnmapIoSpace, WdfDeviceUnmapIoSpace function, wdf.wdfdeviceunmapiospace, wdfdevice/WdfDeviceUnmapIoSpace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h

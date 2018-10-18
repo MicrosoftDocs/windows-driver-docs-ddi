@@ -4,12 +4,9 @@ title: _SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE
 author: windows-driver-content
 description: Describes the type of transport resource.
 ms.assetid: dde5fd97-0209-4a49-9386-16de45de40fb
-ms.author: windowsdriverdev
 ms.date: 09/06/2018
 ms.topic: enum
 ms.keywords: _SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE, SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: usbsidebandaudio.h
 req.include-header: usbsidebandaudio.h
 req.target-type:

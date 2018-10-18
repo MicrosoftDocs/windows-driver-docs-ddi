@@ -4,11 +4,8 @@ title: PFND3D12DDI_COPY_RAYTRACING_ACCELERATION_STRUCTURE_0054
 author: windows-driver-content
 description: Copies a ray tracing acceleration structure.
 ms.assetid: eb51f7de-53bd-4433-bf6b-d040020a8fc7
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Copies a ray tracing acceleration structure.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_COPY_RAYTRACING_ACCELERATION_STRUCTURE_0054 Pfnd3d12ddiCopyRaytracingAccelerationStructure0054; 

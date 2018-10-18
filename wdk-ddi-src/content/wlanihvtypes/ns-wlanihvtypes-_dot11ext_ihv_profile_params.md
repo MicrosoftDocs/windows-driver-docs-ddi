@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11ext_ihv_profile_params.htm
 tech.root: netvista
 ms.assetid: 9bf4b27c-3cf0-45a0-9e56-b01ad1ba6b19
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*PDOT11EXT_IHV_PROFILE_PARAMS, DOT11EXT_IHV_PROFILE_PARAMS, DOT11EXT_IHV_PROFILE_PARAMS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_3fe01c80-477b-4851-8b7e-4d4540cc22b6.xml, PDOT11EXT_IHV_PROFILE_PARAMS, PDOT11EXT_IHV_PROFILE_PARAMS structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_PROFILE_PARAMS, netvista.dot11ext_ihv_profile_params, wlanihvtypes/DOT11EXT_IHV_PROFILE_PARAMS, wlanihvtypes/PDOT11EXT_IHV_PROFILE_PARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wlanihvtypes.h
 req.include-header: Wlanihv.h
@@ -58,13 +55,13 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DOT11EXT_IHV_PROFILE_PARAMS {
   PDOT11EXT_IHV_SSID_LIST    pSsidList;
   DOT11_BSS_TYPE             BssType;
   PDOT11_MSSECURITY_SETTINGS pMSSecuritySettings;
 } DOT11EXT_IHV_PROFILE_PARAMS, *PDOT11EXT_IHV_PROFILE_PARAMS;
-````
+```
 
 
 ## -struct-fields
@@ -103,7 +100,7 @@ A pointer to a
 The operating system passes a pointer to a DOT11EXT_IHV_PROFILE_PARAMS structure as a parameter to any
     IHV handler function that processes the IHV-defined fragments of connectivity and security profiles. For
     more information, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
     Functions</a>.
 
 Although the IHV handler function cannot access the entire network profile, the function can access
@@ -123,7 +120,7 @@ Although the IHV handler function cannot access the entire network profile, the 
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
    Functions</a>
 
 

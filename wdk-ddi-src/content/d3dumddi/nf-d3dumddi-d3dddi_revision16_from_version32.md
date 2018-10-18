@@ -4,7 +4,6 @@ title: D3DDDI_REVISION16_FROM_VERSION32 macro
 author: windows-driver-content
 description: Converts a 16 bit revision from a 32 bit version.
 ms.assetid: cb5d25f6-7477-49ee-9781-0f727f7c7f94
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: macro
 ms.keywords: D3DDDI_REVISION16_FROM_VERSION32

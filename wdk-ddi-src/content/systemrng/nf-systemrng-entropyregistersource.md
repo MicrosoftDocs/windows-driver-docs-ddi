@@ -4,7 +4,6 @@ title: EntropyRegisterSource function
 author: windows-driver-content
 description: 
 ms.assetid: df2ccd42-3f5c-4d00-9ff1-337d4bf815b6
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: EntropyRegisterSource

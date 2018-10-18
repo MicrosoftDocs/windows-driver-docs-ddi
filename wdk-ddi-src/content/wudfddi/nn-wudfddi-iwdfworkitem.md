@@ -6,11 +6,8 @@ description: This interface exposes a work item object.
 old-location: wdf\iwdfworkitem.htm
 tech.root: wdf
 ms.assetid: F9EDA26E-92E0-4936-87B7-E1E2A02A9D96
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IWDFWorkItem, IWDFWorkItem interface, IWDFWorkItem interface,described, umdf.iwdfworkitem, wdf.iwdfworkitem, wudfddi/IWDFWorkItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wudfddi.h
 req.include-header: 
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 This interface exposes a work item object.
 

@@ -6,11 +6,8 @@ description: The WdfDeviceInitRegisterPnpStateChangeCallback method registers a 
 old-location: wdf\wdfdeviceinitregisterpnpstatechangecallback.htm
 tech.root: wdf
 ms.assetid: a14b790a-28d7-4fb8-823f-f37f05e7529f
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_51127783-092b-409d-85ad-e502760b62e7.xml, WdfDeviceInitRegisterPnpStateChangeCallback, WdfDeviceInitRegisterPnpStateChangeCallback method, kmdf.wdfdeviceinitregisterpnpstatechangecallback, wdf.wdfdeviceinitregisterpnpstatechangecallback, wdfdevice/WdfDeviceInitRegisterPnpStateChangeCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h

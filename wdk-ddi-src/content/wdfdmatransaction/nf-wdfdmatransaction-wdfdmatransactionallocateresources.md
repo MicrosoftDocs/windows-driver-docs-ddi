@@ -6,11 +6,8 @@ description: The WdfDmaTransactionAllocateResources method reserves a single-pac
 old-location: wdf\wdfdmatransactionallocateresources.htm
 tech.root: wdf
 ms.assetid: 69D251D9-1B33-49FD-8D48-EFCBD6640632
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WdfDmaTransactionAllocateResources, WdfDmaTransactionAllocateResources method, kmdf.wdfdmatransactionallocateresources, wdf.wdfdmatransactionallocateresources, wdfdmatransaction/WdfDmaTransactionAllocateResources
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
@@ -143,7 +140,7 @@ DMA version 3 or later is not enabled, or the driver called this method for a sc
 
 <b>WdfDmaTransactionAllocateResources</b> sends a request for map registers to the system DMA engine.  When the request has been fulfilled, the framework calls the driver's <a href="https://msdn.microsoft.com/3663EF19-5F16-43D1-BFBC-28280E28D4DE">EvtReserveDma</a> event callback function. For more information about reserving resources, see <a href="https://msdn.microsoft.com/8C5FF779-8D54-47D9-8EC6-7D4921F8F697">Reserving DMA Resources</a>.
 
-Framework-based drivers typically call <b>WdfDmaTransactionAllocateResources</b> from within an <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-handlers">I/O request handler</a>.  A driver can also call <b>WdfDmaTransactionAllocateResources</b> from its <a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a> callback function, after creating a DMA enabler object.
+Framework-based drivers typically call <b>WdfDmaTransactionAllocateResources</b> from within an <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/request-handlers">I/O request handler</a>.  A driver can also call <b>WdfDmaTransactionAllocateResources</b> from its <a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a> callback function, after creating a DMA enabler object.
 
   When called with a scatter/gather DMA enabler, <b>WdfDmaTransactionAllocateResources</b> causes a verifier bug check.
 
@@ -152,7 +149,7 @@ The driver must create the transaction specified by <i>DmaTransaction</i> prior 
 A driver could call <b>WdfDmaTransactionAllocateResources</b> in the following situations:
 
 <ul>
-<li>The driver receives a set of DMA channels in its <a href="https://msdn.microsoft.com/a3d4a983-8a75-44be-bd72-8673d89f9f87">EvtDevicePrepareHardware</a> callback function.  In <i>EvtDevicePrepareHardware</i>, the driver initializes a DMA transaction and calls <b>WdfDmaTransactionAllocateResources</b> to reserve the enabler for exclusive use with this transaction. Alternatively, the driver can call <b>WdfDmaTransactionAllocateResources</b> from a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-handlers">request handler</a> and then initiate the transaction multiple times.</li>
+<li>The driver receives a set of DMA channels in its <a href="https://msdn.microsoft.com/a3d4a983-8a75-44be-bd72-8673d89f9f87">EvtDevicePrepareHardware</a> callback function.  In <i>EvtDevicePrepareHardware</i>, the driver initializes a DMA transaction and calls <b>WdfDmaTransactionAllocateResources</b> to reserve the enabler for exclusive use with this transaction. Alternatively, the driver can call <b>WdfDmaTransactionAllocateResources</b> from a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/request-handlers">request handler</a> and then initiate the transaction multiple times.</li>
 <li>The driver needs to perform a series of transactions on the enabler. The driver reserves the enabler, initializes and initiates multiple transactions using the same transaction object, and then releases the enabler.</li>
 </ul>
 Before calling <b>WdfDmaTransactionAllocateResources</b>, the driver must determine the number of map registers needed for any transaction that it will initiate using this reservation. To do so, the driver can call either the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540562">ADDRESS_AND_SIZE_TO_SPAN_PAGES</a> macro or <a href="https://msdn.microsoft.com/library/windows/hardware/hh451179">WdfDmaTransactionGetTransferInfo</a>.

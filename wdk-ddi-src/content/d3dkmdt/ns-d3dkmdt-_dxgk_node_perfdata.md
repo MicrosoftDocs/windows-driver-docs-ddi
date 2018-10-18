@@ -4,11 +4,8 @@ title: _DXGK_NODE_PERFDATA
 author: windows-driver-content
 description: Input arguments for the call to node performance data.
 ms.assetid: 3dd040ac-12ce-4fa6-81c5-b867dbe942ce
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGK_NODE_PERFDATA, DXGK_NODE_PERFDATA,
 req.header: d3dkmdt.h
 req.include-header:

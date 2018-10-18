@@ -6,11 +6,8 @@ description: RxCreateNetFCB allocates, initializes, and inserts a new FCB struct
 old-location: ifsk\rxcreatenetfcb.htm
 tech.root: ifsk
 ms.assetid: 8be20f25-d72d-4c4d-be05-abb38cdd492d
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RxCreateNetFCB, RxCreateNetFcb, RxCreateNetFcb function [Installable File System Drivers], fcb/RxCreateNetFcb, ifsk.rxcreatenetfcb, rxref_d5f0cde4-daba-475d-9a63-b56047cc24e2.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fcb.h
 req.include-header: Rxcontx.h, Mrxfcb.h, Fcb.h
@@ -191,7 +188,7 @@ If the <b>Create.Flags</b> member in the RX_CONTEXT has the RX_CONTEXT_CREATE_FL
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fcb-structure">The FCB Structure</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-fcb-structure">The FCB Structure</a>
 
 
 

@@ -6,11 +6,8 @@ description: The NDIS_SWITCH_PORT_PROPERTY_SECURITY structure specifies a securi
 old-location: netvista\ndis_switch_port_property_security.htm
 tech.root: netvista
 ms.assetid: 632ce2d0-4dff-422e-a968-436bd17dd6d8
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNDIS_SWITCH_PORT_PROPERTY_SECURITY, NDIS_SWITCH_PORT_PROPERTY_SECURITY, NDIS_SWITCH_PORT_PROPERTY_SECURITY structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PROPERTY_SECURITY, PNDIS_SWITCH_PORT_PROPERTY_SECURITY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PROPERTY_SECURITY, netvista.ndis_switch_port_property_security, ntddndis/NDIS_SWITCH_PORT_PROPERTY_SECURITY, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_SECURITY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ndis.h
@@ -100,7 +97,7 @@ A UINT32 value that specifies the network virtualization <b>VirtualSubnetId</b> 
 
 ### -field AllowTeaming
 
-A <b>BOOLEAN</b> value that, if set to <b>TRUE</b>, specifies that teaming failover for the port is allowed, such that the port can send packets with a source media access control (MAC) address that is different than its <b>PermanentMacAddress</b>, but equal to the MAC address currently in use by another port that is connected to the same virtual machine. The port's permanent MAC address is configured through an object identifier (OID) set request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh598263">OID_SWITCH_NIC_CREATE</a>/<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-switch-nic-updated">OID_SWITCH_NIC_UPDATE</a>. 
+A <b>BOOLEAN</b> value that, if set to <b>TRUE</b>, specifies that teaming failover for the port is allowed, such that the port can send packets with a source media access control (MAC) address that is different than its <b>PermanentMacAddress</b>, but equal to the MAC address currently in use by another port that is connected to the same virtual machine. The port's permanent MAC address is configured through an object identifier (OID) set request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh598263">OID_SWITCH_NIC_CREATE</a>/<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-updated">OID_SWITCH_NIC_UPDATE</a>. 
 
 
 ### -field DynamicIPAddressLimit

@@ -4,7 +4,6 @@ title: TranslateAxes function
 author: windows-driver-content
 description: The TranslateAxes function applies the rotation matrix to the given sample.
 ms.assetid: 5274642e-dbb3-4605-8c29-813d406ed6a3
-ms.author: windowsdriverdev
 ms.date: 04/19/2018
 ms.topic: function
 ms.keywords: TranslateAxes

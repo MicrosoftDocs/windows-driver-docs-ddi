@@ -6,11 +6,8 @@ description: The WSK_PROVIDER_CHARACTERISTICS structure specifies the characteri
 old-location: netvista\wsk_provider_characteristics.htm
 tech.root: netvista
 ms.assetid: 25371620-23bb-4a98-9554-14057742b0ca
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PWSK_PROVIDER_CHARACTERISTICS, PWSK_PROVIDER_CHARACTERISTICS, PWSK_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], WSK_PROVIDER_CHARACTERISTICS, WSK_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], _WSK_PROVIDER_CHARACTERISTICS, netvista.wsk_provider_characteristics, wsk/PWSK_PROVIDER_CHARACTERISTICS, wsk/WSK_PROVIDER_CHARACTERISTICS, wskref_f552c7d1-89a7-4cb6-aa7c-5f5ddb906deb.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsk.h
 req.include-header: Wsk.h
@@ -61,7 +58,7 @@ The WSK_PROVIDER_CHARACTERISTICS structure specifies the characteristics of the 
 ### -field HighestVersion
 
 The highest version of the WSK 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
      (NPI)</a> that is supported by the WSK subsystem.
 
 
@@ -127,7 +124,7 @@ If a WSK application determines that the WSK subsystem supports a version of the
     <b>Version</b> member of the structure.
 
 For more information about attaching a WSK application to the WSK subsystem, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
     Application</a>.
 
 

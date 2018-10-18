@@ -6,11 +6,8 @@ description: The KoCreateInstance function creates an object of the class with t
 old-location: stream\kocreateinstance.htm
 tech.root: stream
 ms.assetid: ee719cbe-0933-4adc-b5c7-62b66f2bf4e1
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KoCreateInstance, KoCreateInstance function [Streaming Media Devices], kcom/KoCreateInstance, ksfunc_57c8ab23-3163-4ef8-a381-bd81ce01d18e.xml, stream.kocreateinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: kcom.h
 req.include-header: Kcom.h

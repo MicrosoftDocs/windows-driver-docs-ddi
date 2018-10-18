@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extgetprofilecustomuserdata.htm
 tech.root: netvista
 ms.assetid: 1a88138f-aada-410a-a985-249de793aa51
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: DOT11EXT_GET_PROFILE_CUSTOM_USER_DATA, Dot11ExtGetProfileCustomUserData, Dot11ExtGetProfileCustomUserData callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_ee7fad1d-d3c2-400d-bf87-b2bdccd61f58.xml, netvista.dot11extgetprofilecustomuserdata, wlanihv/Dot11ExtGetProfileCustomUserData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
@@ -60,7 +57,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```cpp
 DWORD WINAPI * Dot11ExtGetProfileCustomUserData(
   _In_opt_ HANDLE hDot11SvcHandle,
   _In_opt_ HANDLE hConnectSession,
@@ -68,7 +65,7 @@ DWORD WINAPI * Dot11ExtGetProfileCustomUserData(
   _Out_    DWORD  *pdwDataSize,
   _Out_    LPVOID *ppvData
 );
-````
+```
 
 
 ## -parameters

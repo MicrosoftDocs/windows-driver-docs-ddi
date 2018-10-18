@@ -6,11 +6,8 @@ description: The KsPinGetReferenceClockInterface function returns a COM style in
 old-location: stream\kspingetreferenceclockinterface.htm
 tech.root: stream
 ms.assetid: 49c78b4e-aa3a-4c4b-8720-0302a537c84c
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsPinGetReferenceClockInterface, KsPinGetReferenceClockInterface function [Streaming Media Devices], avfunc_7434698b-f441-4d80-91db-8fa5d7d10c60.xml, ks/KsPinGetReferenceClockInterface, stream.kspingetreferenceclockinterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

@@ -6,11 +6,8 @@ description: The PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE function initializes a
 old-location: kernel\pep_acpi_initialize_extended_io_resource.htm
 tech.root: kernel
 ms.assetid: 95464DE1-221A-4053-B124-4CFD44557CD3
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE, PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_extended_io_resource, pepfx/PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pep_x.h
 req.include-header: Pep_x.h

@@ -6,11 +6,8 @@ description: Specifies resources used for Direct Flip operations, in which video
 old-location: display\d3dddiarg_checkdirectflipsupport.htm
 tech.root: display
 ms.assetid: 70df85b6-286a-45a2-813d-adb54daee122
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DDDIARG_CHECKDIRECTFLIPSUPPORT, D3DDDIARG_CHECKDIRECTFLIPSUPPORT structure [Display Devices], _D3DDDIARG_CHECKDIRECTFLIPSUPPORT, d3dumddi/D3DDDIARG_CHECKDIRECTFLIPSUPPORT, display.d3dddiarg_checkdirectflipsupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h

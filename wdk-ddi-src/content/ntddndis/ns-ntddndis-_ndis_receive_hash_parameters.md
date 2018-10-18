@@ -6,11 +6,8 @@ description: The NDIS_RECEIVE_HASH_PARAMETERS structure specifies the receive ha
 old-location: netvista\ndis_receive_hash_parameters.htm
 tech.root: netvista
 ms.assetid: 02c333d3-9ea7-4d24-9e09-32943c00d6a5
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNDIS_RECEIVE_HASH_PARAMETERS, NDIS_RECEIVE_HASH_PARAMETERS, NDIS_RECEIVE_HASH_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_HASH_PARAMETERS, PNDIS_RECEIVE_HASH_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_HASH_PARAMETERS, netvista.ndis_receive_hash_parameters, ntddndis/NDIS_RECEIVE_HASH_PARAMETERS, ntddndis/PNDIS_RECEIVE_HASH_PARAMETERS, receive_scaling_structures_ref_80a59146-35c0-44f9-9001-142356cdccdf.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ndis.h
@@ -133,16 +130,16 @@ In a set request, the hash type and hash function that the NIC should use to com
 In a query request, the hash type and hash function that the NIC is using.
 
 Overlying drivers and NDIS can use the 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567266">
      NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a> macro to combine the hash type and hash function into hash
      information and set the 
      <b>HashInformation</b> member.
 
 Miniport drivers can use the 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567266">
      NDIS_RSS_HASH_TYPE_FROM_HASH_INFO</a> macro to get the hash type from 
      <b>HashInformation</b> and the 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567266">
      NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a> macro to get the hash function.
 
 
@@ -189,17 +186,17 @@ The NDIS_RECEIVE_HASH_PARAMETERS structure defines the hash parameters for the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567266">
    NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567266">
    NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567266">
    NDIS_RSS_HASH_TYPE_FROM_HASH_INFO</a>
 
 

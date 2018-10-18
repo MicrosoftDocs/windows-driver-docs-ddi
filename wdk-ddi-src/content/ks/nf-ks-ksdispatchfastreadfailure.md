@@ -6,11 +6,8 @@ description: The KsDispatchFastReadFailure function is used in a KSDISPATCH_TABL
 old-location: stream\ksdispatchfastreadfailure.htm
 tech.root: stream
 ms.assetid: 7e0c72ce-0959-4835-ac1a-3f37869cc81f
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsDispatchFastReadFailure, KsDispatchFastReadFailure function [Streaming Media Devices], KsDispatchFastWriteFailure, ks/KsDispatchFastReadFailure, ksfunc_fe3ea42f-80ae-4fbd-a2c2-55e957e913cc.xml, stream.ksdispatchfastreadfailure
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

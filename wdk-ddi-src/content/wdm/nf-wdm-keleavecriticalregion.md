@@ -6,11 +6,8 @@ description: The KeLeaveCriticalRegion routine reenables the delivery of normal 
 old-location: kernel\keleavecriticalregion.htm
 tech.root: kernel
 ms.assetid: d3e90c3b-5ead-40d1-9143-a2b1fc8c255d
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: KeLeaveCriticalRegion, KeLeaveCriticalRegion routine [Kernel-Mode Driver Architecture], k105_f9344044-a57f-4ee4-800c-a03edcc27196.xml, kernel.keleavecriticalregion, wdm/KeLeaveCriticalRegion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

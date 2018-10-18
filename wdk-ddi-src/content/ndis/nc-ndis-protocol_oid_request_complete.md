@@ -6,11 +6,8 @@ description: The ProtocolOidRequestComplete function completes the processing of
 old-location: netvista\protocoloidrequestcomplete.htm
 tech.root: netvista
 ms.assetid: 2706577e-ba03-4347-9672-7303752ec0fe
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: PROTOCOL_OID_REQUEST_COMPLETE, PROTOCOL_OID_REQUEST_COMPLETE callback, ProtocolOidRequestComplete, ProtocolOidRequestComplete callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolOidRequestComplete, ndis_request_ref_0460f62c-1ffe-4c81-ade3-56b5061eccb6.xml, netvista.protocoloidrequestcomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -122,7 +119,7 @@ If the protocol driver made a query,
       <b>Oid</b> member.
 
 For example, if the protocol driver originally initiated an 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-maximum-send-packets">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-maximum-send-packets">
       OID_GEN_MAXIMUM_SEND_PACKETS</a> query, 
       <i>ProtocolOidRequestComplete</i> might set up state variables in the 
       <i>ProtocolBindingContext</i> area to throttle the number of outstanding sends the
@@ -249,7 +246,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-maximum-send-packets">OID_GEN_MAXIMUM_SEND_PACKETS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-maximum-send-packets">OID_GEN_MAXIMUM_SEND_PACKETS</a>
  
 
  

@@ -4,11 +4,8 @@ title: PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0043
 author: windows-driver-content
 description: Used to calculate the size of a video processor.
 ms.assetid: d3793818-114a-4668-af13-b2eedbb39577
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ This method is used to calculate the driver object size. The Direct3D runtime al
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0043 Pfnd3d12ddiCalcprivatevideoprocessorsize0043;

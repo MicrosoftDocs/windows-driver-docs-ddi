@@ -6,11 +6,8 @@ description: IDebugEventCallbacks interface
 old-location: debugger\idebugeventcallbacks.htm
 tech.root: debugger
 ms.assetid: f5e51d0e-0967-4e35-b24b-4bd99c975569
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: ComCallbacks_72745555-ec34-41fa-9305-cf23357bcd17.xml, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], IDebugEventCallbacks interface [Windows Debugging],described, dbgeng/IDebugEventCallbacks, debugger.idebugeventcallbacks
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

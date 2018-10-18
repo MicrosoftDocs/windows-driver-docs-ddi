@@ -4,7 +4,6 @@ title: IModelObject::GetLocation
 author: windows-driver-content
 description: The GetLocation method will return the location of the native object. While such a location is typically a virtual address within the address space of the debug target, it is not necessarily so.
 ms.assetid: d66a6e6d-bd87-46fe-a09e-04b7d5632180
-ms.author: windowsdriverdev
 ms.date: 08/09/2018
 ms.topic: method
 ms.keywords: IModelObject::GetLocation, GetLocation, IModelObject.GetLocation, IModelObject::GetLocation, IModelObject.GetLocation

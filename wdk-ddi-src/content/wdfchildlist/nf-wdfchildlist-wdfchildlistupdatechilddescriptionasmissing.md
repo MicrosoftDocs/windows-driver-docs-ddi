@@ -6,11 +6,8 @@ description: The WdfChildListUpdateChildDescriptionAsMissing method informs the 
 old-location: wdf\wdfchildlistupdatechilddescriptionasmissing.htm
 tech.root: wdf
 ms.assetid: 21932a96-285c-490d-a1fb-a137aed57bbb
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectChildListRef_1a871104-3d76-4ecb-936e-c27c2a107f2e.xml, WdfChildListUpdateChildDescriptionAsMissing, WdfChildListUpdateChildDescriptionAsMissing method, kmdf.wdfchildlistupdatechilddescriptionasmissing, wdf.wdfchildlistupdatechilddescriptionasmissing, wdfchildlist/WdfChildListUpdateChildDescriptionAsMissing
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
@@ -68,7 +65,7 @@ A handle to a child list object.
 
 ### -param IdentificationDescription [in]
 
-A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff551223">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure that identifies a driver-supplied child <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">identification description</a>.
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff551223">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure that identifies a driver-supplied child <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">identification description</a>.
 
 
 ## -returns
@@ -136,7 +133,7 @@ Your driver can report that a device is unavailable even if the driver never cal
 
 If you want to report that all devices in a child list are unavailable, your driver can simply call <a href="https://msdn.microsoft.com/library/windows/hardware/ff545608">WdfChildListBeginScan</a>, followed immediately by <a href="https://msdn.microsoft.com/library/windows/hardware/ff545626">WdfChildListEndScan</a>, instead of calling <b>WdfChildListUpdateChildDescriptionAsMissing</b> for each device.
 
-For more information about child devices and child lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
+For more information about child devices and child lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
 
 #### Examples

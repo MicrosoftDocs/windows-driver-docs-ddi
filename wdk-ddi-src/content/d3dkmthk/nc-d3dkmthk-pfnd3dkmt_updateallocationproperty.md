@@ -4,11 +4,8 @@ title: PFND3DKMT_UPDATEALLOCATIONPROPERTY
 author: windows-driver-content
 description: The PFND3DKMT_UPDATEALLOCATIONPROPERTY callback function updates allocation property of a context.
 ms.assetid: 70da6f66-26d7-47c6-8236-2003cfa6edf3
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3DKMT_UPDATEALLOCATIONPROPERTY callback function updates allocation prop
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_UPDATEALLOCATIONPROPERTY Pfnd3dkmtUpdateallocationproperty; 

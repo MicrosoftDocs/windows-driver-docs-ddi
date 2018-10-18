@@ -6,11 +6,8 @@ description: NdisReadRegisterUlong is called by the miniport driver to read a UL
 old-location: netvista\ndisreadregisterulong.htm
 tech.root: netvista
 ms.assetid: 18812c18-ec5e-4e8e-9ecf-c3c2a58ca8a2
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisReadRegisterUlong, NdisReadRegisterUlong macro [Network Drivers Starting with Windows Vista], miniport_register_ref_44b40f81-b21f-4b5c-b875-deb9b4bd62ab.xml, ndis/NdisReadRegisterUlong, netvista.ndisreadregisterulong
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ndis.h
 req.include-header: Ndis.h

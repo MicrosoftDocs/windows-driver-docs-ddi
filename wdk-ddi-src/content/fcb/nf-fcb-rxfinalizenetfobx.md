@@ -6,11 +6,8 @@ description: RxFinalizeNetFOBX finalizes the given FOBX structure. The caller mu
 old-location: ifsk\rxfinalizenetfobx.htm
 tech.root: ifsk
 ms.assetid: 052e7995-fab8-4863-a3a2-8b9bd6f21ec9
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RxFinalizeNetFOBX, RxFinalizeNetFobx, RxFinalizeNetFobx function [Installable File System Drivers], fcb/RxFinalizeNetFobx, ifsk.rxfinalizenetfobx, rxref_72a759e2-f9e6-44ce-b561-cb968b668a6f.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fcb.h
 req.include-header: Mrxfcb.h, Fcb.h
@@ -178,11 +175,11 @@ The <b>RxFinalizeNetFOBX</b> routine will call the <b>MRxDeallocateForFobx</b> r
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fcb-structure">The FCB Structure</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-fcb-structure">The FCB Structure</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fobx-structure">The FOBX Structure</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-fobx-structure">The FOBX Structure</a>
  
 
  

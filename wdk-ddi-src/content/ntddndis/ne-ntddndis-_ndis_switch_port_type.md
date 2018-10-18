@@ -6,11 +6,8 @@ description: The NDIS_SWITCH_PORT_TYPE enumeration specifies the type of a Hyper
 old-location: netvista\ndis_switch_port_type.htm
 tech.root: netvista
 ms.assetid: 4FCE88BC-6FA1-44D0-9BC1-3065A5EEE1A0
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NDIS_SWITCH_PORT_TYPE, NDIS_SWITCH_PORT_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortTypeEmulated, NdisSwitchPortTypeExternal, NdisSwitchPortTypeGeneric, NdisSwitchPortTypeInternal, NdisSwitchPortTypeSynthetic, PNDIS_SWITCH_PORT_TYPE, PNDIS_SWITCH_PORT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_TYPE, netvista.ndis_switch_port_type, ntddndis/NDIS_SWITCH_PORT_TYPE, ntddndis/NdisSwitchPortTypeEmulated, ntddndis/NdisSwitchPortTypeExternal, ntddndis/NdisSwitchPortTypeGeneric, ntddndis/NdisSwitchPortTypeInternal, ntddndis/NdisSwitchPortTypeSynthetic, ntddndis/PNDIS_SWITCH_PORT_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddndis.h
 req.include-header: Ndis.h
@@ -72,7 +69,7 @@ This value specifies a port that is connected to an external network adapter. Th
 
 The external network adapter provides the connection to the  physical network interface that is available on the host. This allows processes that run in either the management or guest operating systems to send or receive packets over the extensible switch.
 
-<div class="alert"><b>Note</b>  An extensible switch supports no more than one external network adapter. The external network adapter can be bound to one or more underlying physical network adapters. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/external-network-adapters">External Network Adapters</a>.</div>
+<div class="alert"><b>Note</b>  An extensible switch supports no more than one external network adapter. The external network adapter can be bound to one or more underlying physical network adapters. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/external-network-adapters">External Network Adapters</a>.</div>
 <div> </div>
 
 ### -field NdisSwitchPortTypeSynthetic

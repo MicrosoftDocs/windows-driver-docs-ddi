@@ -4,11 +4,8 @@ title: _DXGKARG_SETUPPRIORITYBANDS
 author: windows-driver-content
 description: Arguments used in a call to DxgkddiSetupPriorityBands.
 ms.assetid: 971b5d7f-5423-476a-a89d-b1d3f7a84301
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKARG_SETUPPRIORITYBANDS, DXGKARG_SETUPPRIORITYBANDS,
 req.header: d3dkmddi.h
 req.include-header:

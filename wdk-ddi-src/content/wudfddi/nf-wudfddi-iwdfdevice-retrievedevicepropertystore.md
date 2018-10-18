@@ -6,11 +6,8 @@ description: The RetrieveDevicePropertyStore method retrieves a property store i
 old-location: wdf\iwdfdevice_retrievedevicepropertystore.htm
 tech.root: wdf
 ms.assetid: be47a1f0-03ff-432c-a3ef-5978c9b48183
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IWDFDevice interface,RetrieveDevicePropertyStore method, IWDFDevice.RetrieveDevicePropertyStore, IWDFDevice::RetrieveDevicePropertyStore, RetrieveDevicePropertyStore, RetrieveDevicePropertyStore method, RetrieveDevicePropertyStore method,IWDFDevice interface, UMDFDeviceObjectRef_daa1a135-2ca7-4d59-92b0-b44c917af73d.xml, umdf.iwdfdevice_retrievedevicepropertystore, wdf.iwdfdevice_retrievedevicepropertystore, wudfddi/IWDFDevice::RetrieveDevicePropertyStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>RetrieveDevicePropertyStore</b> method retrieves a property store interface that drivers can use to access the registry.
 
@@ -95,7 +92,7 @@ A pointer to a variable that receives a <a href="https://msdn.microsoft.com/libr
 
 The caller should call the <b>Release</b> method of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560164">IWDFNamedPropertyStore</a> interface after finishing with the property store. 
 
-For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in UMDF-based Drivers</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in UMDF-based Drivers</a>.
 
 
 

@@ -6,11 +6,8 @@ description: The WskSendTo function sends datagram data to a remote transport ad
 old-location: netvista\wsksendto.htm
 tech.root: netvista
 ms.assetid: 34257ef2-947a-463a-b234-04fbaffa9344
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: PFN_WSK_SEND_TO, PFN_WSK_SEND_TO callback, WskSendTo, WskSendTo callback function [Network Drivers Starting with Windows Vista], netvista.wsksendto, wsk/WskSendTo, wskref_9e00d25c-f00b-4656-8e67-37a22bd36a16.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wsk.h
 req.include-header: Wsk.h
@@ -92,11 +89,11 @@ If the WSK application has set either a fixed remote transport address or a fixe
      non-<b>NULL</b>, the datagram is sent to the specified remote transport address.
 
 For more information about setting a fixed remote transport address for a datagram socket, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/sio-wsk-set-remote-address">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/sio-wsk-set-remote-address">
      SIO_WSK_SET_REMOTE_ADDRESS</a>.
 
 For more information about setting a fixed destination transport address for a datagram socket, see 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570821">
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570821">
      SIO_WSK_SET_SENDTO_ADDRESS</a>.
 
 
@@ -120,7 +117,7 @@ A pointer to a buffer that contains control information that is associated with 
 
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the send operation
      asynchronously. For more information about using IRPs with WSK functions, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
      Kernel Functions</a>.
 
 

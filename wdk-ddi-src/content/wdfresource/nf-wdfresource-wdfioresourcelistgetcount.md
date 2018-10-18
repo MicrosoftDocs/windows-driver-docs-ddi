@@ -6,11 +6,8 @@ description: The WdfIoResourceListGetCount method returns the number of resource
 old-location: wdf\wdfioresourcelistgetcount.htm
 tech.root: wdf
 ms.assetid: d8f3d743-acc1-4884-b0ec-a6cea5d8e437
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFResourceObjectRef_19542c4c-aed9-412b-83c7-38209836a679.xml, WdfIoResourceListGetCount, WdfIoResourceListGetCount method, kmdf.wdfioresourcelistgetcount, wdf.wdfioresourcelistgetcount, wdfresource/WdfIoResourceListGetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfresource.h
 req.include-header: Wdf.h
@@ -83,7 +80,7 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
-For more information about resource requirements lists and logical configurations, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
+For more information about resource requirements lists and logical configurations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 
 #### Examples

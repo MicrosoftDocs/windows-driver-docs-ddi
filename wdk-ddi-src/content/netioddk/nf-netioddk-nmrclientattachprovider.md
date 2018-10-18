@@ -6,11 +6,8 @@ description: The NmrClientAttachProvider function attaches a client module to a 
 old-location: netvista\nmrclientattachprovider.htm
 tech.root: netvista
 ms.assetid: dca8f82b-f058-4765-890c-973f8462c2f5
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NmrClientAttachProvider, NmrClientAttachProvider function [Network Drivers Starting with Windows Vista], netioddk/NmrClientAttachProvider, netvista.nmrclientattachprovider, nmrref_6d66009c-5262-4a75-986d-1eb91dcc61a2.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netioddk.h
 req.include-header: Wsk.h
@@ -74,7 +71,7 @@ A pointer to a caller-supplied context for the binding between the client module
      module. The client module uses this context to keep track of the state of the binding. The contents of
      the client module's binding context are opaque to the provider module. The provider module passes this
      pointer to the client module whenever it calls any of the client module's 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions that
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions that
      require the client module's binding context. The client module must make sure that this context remains
      valid and resident in memory as long as the provider module is attached to the client module.
 
@@ -82,7 +79,7 @@ A pointer to a caller-supplied context for the binding between the client module
 ### -param ClientDispatch [in]
 
 A pointer to a constant structure that contains the dispatch table of 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions for the
      client module. The client module must make sure that this structure remains valid and resident in memory
      as long as the provider module is attached to the client module. The contents of the structure are 
      NPI-specific. If the 
@@ -97,14 +94,14 @@ A pointer to a variable that receives a pointer to the provider module's context
      of the state of the binding. The contents of the provider module's binding context are opaque to the
      client module. The client module passes this pointer to the provider module whenever it calls any of the
      provider module's 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions that require the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions that require the
      provider module's binding context.
 
 
 ### -param ProviderDispatch [out]
 
 A pointer to a variable that receives a pointer to a structure that contains the dispatch table of     
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions for the provider
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions for the provider
      module. The contents of the structure are 
      NPI-specific.
 
@@ -196,7 +193,7 @@ If the
     returned in the 
     <i>ProviderBindingContext</i> and 
     <i>ProviderDispatch</i> parameters so that it can call the provider module's 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions.
 
 
 

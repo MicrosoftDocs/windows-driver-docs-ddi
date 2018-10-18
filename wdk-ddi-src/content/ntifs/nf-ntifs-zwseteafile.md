@@ -6,11 +6,8 @@ description: The ZwSetEaFile routine sets extended-attribute (EA) values for a f
 old-location: kernel\zwseteafile.htm
 tech.root: kernel
 ms.assetid: e791900a-06a8-4c8b-8ca8-c4e73d94f609
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: ZwSetEaFile, ZwSetEaFile routine [Kernel-Mode Driver Architecture], kernel.zwseteafile, ntifs/ZwSetEaFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h

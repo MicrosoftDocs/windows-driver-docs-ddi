@@ -4,12 +4,9 @@ title: D3D12DDI_GRAPHICS_STATES
 author: windows-driver-content
 description: Specifies the graphics state.
 ms.assetid: 6fce2772-69de-4545-ab56-1513da715dfa
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: D3D12DDI_GRAPHICS_STATES, D3D12DDI_GRAPHICS_STATES, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

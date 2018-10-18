@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilopenuicclogicalchannelparammask.htm
 tech.root: netvista
 ms.assetid: 28512a46-506b-40c2-a14d-165823bf94fb
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RILOPENUICCLOGICALCHANNELPARAMMASK, RILOPENUICCLOGICALCHANNELPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_OULC_ALL, RIL_PARAM_OULC_SELECTRESPLENGTH, RIL_PARAM_OULC_SELECTRESPONSE, netvista.rilopenuicclogicalchannelparammask, ntddrilapitypes/RILOPENUICCLOGICALCHANNELPARAMMASK, ntddrilapitypes/RIL_PARAM_OULC_ALL, ntddrilapitypes/RIL_PARAM_OULC_SELECTRESPLENGTH, ntddrilapitypes/RIL_PARAM_OULC_SELECTRESPONSE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h

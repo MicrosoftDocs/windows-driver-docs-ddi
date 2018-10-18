@@ -6,11 +6,8 @@ description: The WWAN_IPV6_ADDRESS structure represents an IPV6 address of a PDP
 old-location: netvista\wwan_ipv6_address.htm
 tech.root: netvista
 ms.assetid: 3DAC7E30-B938-429C-B389-59F924216B04
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PWWAN_IPV6_ADDRESS, PWWAN_IPV6_ADDRESS, PWWAN_IPV6_ADDRESS structure pointer [Network Drivers Starting with Windows Vista], WWAN_IPV6_ADDRESS, WWAN_IPV6_ADDRESS structure [Network Drivers Starting with Windows Vista], _WWAN_IPV6_ADDRESS, netvista.wwan_ipv6_address, wwan/PWWAN_IPV6_ADDRESS, wwan/WWAN_IPV6_ADDRESS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wwan.h
 req.include-header: Wwan.h

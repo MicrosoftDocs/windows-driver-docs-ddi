@@ -6,11 +6,8 @@ description: The PARALLEL_1284_COMMAND structure specifies information that a cl
 old-location: parports\parallel_1284_command.htm
 tech.root: parports
 ms.assetid: 5b46253c-c111-4675-898e-78b81ecbddb8
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PPARALLEL_1284_COMMAND, PARALLEL_1284_COMMAND, PARALLEL_1284_COMMAND structure [Parallel Ports], PPARALLEL_1284_COMMAND, PPARALLEL_1284_COMMAND structure pointer [Parallel Ports], _PARALLEL_1284_COMMAND, cisspd_082268fb-79fd-46df-85a7-89dd56098ed0.xml, parallel/PARALLEL_1284_COMMAND, parallel/PPARALLEL_1284_COMMAND, parports.parallel_1284_command"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: parallel.h
 req.include-header: Parallel.h
@@ -56,13 +53,13 @@ The PARALLEL_1284_COMMAND structure specifies information that a client uses to 
 ## -syntax
 
 
-````
+```cpp
 typedef struct _PARALLEL_1284_COMMAND {
   UCHAR ID;
   UCHAR Port;
   ULONG CommandFlags;
 } PARALLEL_1284_COMMAND, *PPARALLEL_1284_COMMAND;
-````
+```
 
 
 ## -struct-fields

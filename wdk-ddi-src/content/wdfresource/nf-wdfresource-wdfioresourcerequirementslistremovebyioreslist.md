@@ -6,11 +6,8 @@ description: The WdfIoResourceRequirementsListRemoveByIoResList method removes a
 old-location: wdf\wdfioresourcerequirementslistremovebyioreslist.htm
 tech.root: wdf
 ms.assetid: 507729e9-96da-461c-badb-a3725abf6591
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFResourceObjectRef_fa50f423-3ade-4deb-89a0-d79cd3f98710.xml, WdfIoResourceRequirementsListRemoveByIoResList, WdfIoResourceRequirementsListRemoveByIoResList method, kmdf.wdfioresourcerequirementslistremovebyioreslist, wdf.wdfioresourcerequirementslistremovebyioreslist, wdfresource/WdfIoResourceRequirementsListRemoveByIoResList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfresource.h
 req.include-header: Wdf.h
@@ -90,7 +87,7 @@ The <b>WdfIoResourceRequirementsListRemoveByIoResList</b> method removes the log
 
 When <b>WdfIoResourceRequirementsListRemoveByIoResList</b> removes the logical configuration that has the index value <i>n</i>, the index value of the next logical configuration changes from <i>n</i>+1 to <i>n</i>.
 
-For more information about resource requirements lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
+For more information about resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 
 #### Examples

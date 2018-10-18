@@ -4,11 +4,8 @@ title: ArrayDimension
 author: windows-driver-content
 description: Defines the memory layout of one dimension of an array.
 ms.assetid: e99b1f99-d853-4159-9656-1a6b83f43ac1
-ms.author: windowsdriverdev
 ms.date: 07/16/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: ArrayDimension, , 
 req.header: dbgmodel.h
 req.include-header:

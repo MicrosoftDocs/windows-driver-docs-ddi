@@ -6,11 +6,8 @@ description: The IOCTL_HID_GET_REPORT_DESCRIPTOR request obtains the report desc
 old-location: hid\ioctl_hid_get_report_descriptor.htm
 tech.root: hid
 ms.assetid: 7f0e6295-9c96-4167-8414-6f7b7b171f37
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IOCTL_HID_GET_REPORT_DESCRIPTOR, IOCTL_HID_GET_REPORT_DESCRIPTOR control, IOCTL_HID_GET_REPORT_DESCRIPTOR control code [Human Input Devices], hid.ioctl_hid_get_report_descriptor, hidioreq_01b638bd-f2d5-4acc-8527-9fd98bde8144.xml, hidport/IOCTL_HID_GET_REPORT_DESCRIPTOR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: hidport.h
 req.include-header: Hidport.h

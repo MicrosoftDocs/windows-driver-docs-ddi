@@ -6,11 +6,8 @@ description: The IOCTL_SERENUM_PORT_DESC request returns a description of the RS
 old-location: serports\ioctl_serenum_port_desc.htm
 tech.root: serports
 ms.assetid: 9ecaa3fa-137d-4f79-9316-727ecab35da8
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: IOCTL_SERENUM_PORT_DESC, IOCTL_SERENUM_PORT_DESC control, IOCTL_SERENUM_PORT_DESC control code [Serial Ports], ntddser/IOCTL_SERENUM_PORT_DESC, senumref_2afa4ab9-ceac-4477-9ac6-10f572444e61.xml, serports.ioctl_serenum_port_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddser.h
 req.include-header: Ntddser.h
@@ -122,7 +119,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 
 

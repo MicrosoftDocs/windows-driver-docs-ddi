@@ -6,11 +6,8 @@ description: The WdfIoQueueAssignForwardProgressPolicy method enables the framew
 old-location: wdf\wdfioqueueassignforwardprogresspolicy.htm
 tech.root: wdf
 ms.assetid: 9512ecf2-ca59-4df8-bb60-c644444bc6fa
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFQueueObjectRef_cd40c10b-367c-403a-8002-39662120f697.xml, WdfIoQueueAssignForwardProgressPolicy, WdfIoQueueAssignForwardProgressPolicy method, kmdf.wdfioqueueassignforwardprogresspolicy, wdf.wdfioqueueassignforwardprogresspolicy, wdfio/WdfIoQueueAssignForwardProgressPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfio.h
 req.include-header: Wdf.h
@@ -53,7 +50,7 @@ req.typenames:
 
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfIoQueueAssignForwardProgressPolicy</b> method enables the framework's ability to <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/guaranteeing-forward-progress-of-i-o-operations">guarantee forward progress</a> for a specified I/O queue. 
+The <b>WdfIoQueueAssignForwardProgressPolicy</b> method enables the framework's ability to <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/guaranteeing-forward-progress-of-i-o-operations">guarantee forward progress</a> for a specified I/O queue. 
 
 
 ## -parameters
@@ -135,7 +132,7 @@ The<b>WdfIoQueueAssignForwardProgressPolicy</b> method creates request objects t
 
 In KMDF version 1.9, the I/O queue that the <i>Queue</i> parameter represents must be a device's default I/O queue, or a queue for which your driver has called <a href="https://msdn.microsoft.com/library/windows/hardware/ff545920">WdfDeviceConfigureRequestDispatching</a>. The driver can call <b>WdfIoQueueAssignForwardProgressPolicy</b> any time after it has called <b>WdfDeviceConfigureRequestDispatching</b>.
 
-In KMDF versions 1.11 and later,  the I/O queue that the <i>Queue</i> parameter represents can be any queue that receives a request directly from the framework. For example, the driver might specify a queue to which it will <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dispatching-irps-to-i-o-queues">dynamically forward IRPs</a>.
+In KMDF versions 1.11 and later,  the I/O queue that the <i>Queue</i> parameter represents can be any queue that receives a request directly from the framework. For example, the driver might specify a queue to which it will <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dispatching-irps-to-i-o-queues">dynamically forward IRPs</a>.
 
 Before <b>WdfIoQueueAssignForwardProgressPolicy</b> returns, the framework does the following:
 
@@ -157,7 +154,7 @@ After the driver has called <b>WdfIoQueueAssignForwardProgressPolicy</b> to crea
 
 The framework deletes its reserved request objects only when it deletes the framework queue object that they belong to. If your driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff546786">WdfDeviceInitSetRequestAttributes</a> and specifies an <a href="https://msdn.microsoft.com/aba2efca-7d1f-4594-af65-13356f0e3f8b">EvtCleanupCallback</a> or <a href="https://msdn.microsoft.com/4c3b08d2-bb25-40bd-b2fc-1b9ea2d452b3">EvtDestroyCallback</a> callback function for its request objects, the framework calls these callback functions for its reserved request objects when it deletes the objects.
 
-For more information about the <b>WdfIoQueueAssignForwardProgressPolicy</b> method and how to use the framework's guaranteed forward progress capability, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/guaranteeing-forward-progress-of-i-o-operations">Guaranteeing Forward Progress of I/O Operations</a>.
+For more information about the <b>WdfIoQueueAssignForwardProgressPolicy</b> method and how to use the framework's guaranteed forward progress capability, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/guaranteeing-forward-progress-of-i-o-operations">Guaranteeing Forward Progress of I/O Operations</a>.
 
 
 #### Examples

@@ -6,11 +6,8 @@ description: Describes precision support options for shaders in the user-mode di
 old-location: display\d3dddicaps_shader_min_precision_support.htm
 tech.root: display
 ms.assetid: c3ad65e7-8a91-464b-9a7f-e5c47ee54048
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT, D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT structure [Display Devices], d3dumddi/D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT, display.d3dddicaps_shader_min_precision_support
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

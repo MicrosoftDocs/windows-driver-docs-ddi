@@ -6,11 +6,8 @@ description: The WdfIoTargetWdmGetTargetFileHandle method returns a handle to th
 old-location: wdf\wdfiotargetwdmgettargetfilehandle.htm
 tech.root: wdf
 ms.assetid: 3312e6ca-bf2c-4a53-bd86-d36d708ed596
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFIOTargetRef_a3147001-4aa4-4fc2-8000-c6b1fcc4e972.xml, WdfIoTargetWdmGetTargetFileHandle, WdfIoTargetWdmGetTargetFileHandle method, kmdf.wdfiotargetwdmgettargetfilehandle, wdf.wdfiotargetwdmgettargetfilehandle, wdfiotarget/WdfIoTargetWdmGetTargetFileHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfiotarget.h
 req.include-header: Wdf.h

@@ -4,7 +4,6 @@ title: IEquatableConcept::Release
 author: windows-driver-content
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 1e78ef6c-0494-423e-81ee-c01691dc40be
-ms.author: windowsdriverdev
 ms.date: 09/21/2018
 ms.topic: method
 ms.keywords: IEquatableConcept::Release, Release, IEquatableConcept.Release, IEquatableConcept::Release, IEquatableConcept.Release

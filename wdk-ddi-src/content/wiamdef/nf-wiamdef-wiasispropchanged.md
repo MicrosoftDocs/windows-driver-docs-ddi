@@ -6,11 +6,8 @@ description: The wiasIsPropChanged function tests whether a specified property h
 old-location: image\wiasispropchanged.htm
 tech.root: image
 ms.assetid: 4b8f140c-ca4f-48fd-bee4-35d5a7beea52
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: image.wiasispropchanged, wiamdef/wiasIsPropChanged, wiasFncs_11e49124-0147-4140-ba56-879ae3fcbf46.xml, wiasIsPropChanged, wiasIsPropChanged function [Imaging Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiamdef.h
 req.include-header: Wiamdef.h

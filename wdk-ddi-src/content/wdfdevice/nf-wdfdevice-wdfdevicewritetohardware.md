@@ -6,11 +6,8 @@ description: The WdfDeviceWriteToHardware method is used internally by the frame
 old-location: wdf\wdfdevicewritetohardware.htm
 tech.root: wdf
 ms.assetid: D79F1D98-E326-4401-86B8-2C3D071DF27C
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: PFN_WDFDEVICEWRITETOHARDWARE, WdfDeviceWriteToHardware, WdfDeviceWriteToHardware method, wdf.wdfdevicewritetohardware, wdfdevice/WdfDeviceWriteToHardware, wdfhwaccess/WdfDeviceWriteToHardware
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h

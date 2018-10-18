@@ -6,11 +6,8 @@ description: The KsQueryInterfaces method retrieves interfaces that a pin suppor
 old-location: stream\ikspin_ksqueryinterfaces.htm
 tech.root: stream
 ms.assetid: e8b0a1c0-c018-4556-b43c-fae4f7cf43de
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: IKsPin interface [Streaming Media Devices],KsQueryInterfaces method, IKsPin.KsQueryInterfaces, IKsPin::KsQueryInterfaces, KsQueryInterfaces, KsQueryInterfaces method [Streaming Media Devices], KsQueryInterfaces method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsQueryInterfaces, ksproxy_6a22f676-b7bd-4212-a79a-3a02da890e9f.xml, stream.ikspin_ksqueryinterfaces
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ksproxy.h
 req.include-header: Ksproxy.h

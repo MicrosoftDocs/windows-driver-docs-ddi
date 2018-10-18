@@ -4,11 +4,8 @@ title: _VPD_EXTENDED_INQUIRY_DATA_PAGE
 author: windows-driver-content
 description: 
 ms.assetid: c1576a19-8f1a-44f5-af68-6fb1804a1878
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _VPD_EXTENDED_INQUIRY_DATA_PAGE, VPD_EXTENDED_INQUIRY_DATA_PAGE, *PVPD_EXTENDED_INQUIRY_DATA_PAGE, 
 req.header: scsi.h
 req.include-header:

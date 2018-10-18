@@ -6,11 +6,8 @@ description: The WdfDeviceAssignMofResourceName method registers a MOF resource 
 old-location: wdf\wdfdeviceassignmofresourcename.htm
 tech.root: wdf
 ms.assetid: b4ab0a7b-9c5a-4295-94fc-35310ca8e05b
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_8cdcec0f-02df-4e8d-83e2-ae1fdc11343d.xml, WdfDeviceAssignMofResourceName, WdfDeviceAssignMofResourceName method, kmdf.wdfdeviceassignmofresourcename, wdf.wdfdeviceassignmofresourcename, wdfdevice/WdfDeviceAssignMofResourceName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h
@@ -120,9 +117,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 A driver that provides a MOF file to support WMI must call <b>WdfDeviceAssignMofResourceName</b>, typically from within its <a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a> or <a href="https://msdn.microsoft.com/a3d4a983-8a75-44be-bd72-8673d89f9f87">EvtDevicePrepareHardware</a> callback function. The MOF resource name is the file name that the driver specifies in a <b>MofResource</b> statement in its resource script (RC) file. For more information about specifying a MOF resource name, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff542012">Compiling a Driver's MOF File</a>.
 
-A driver that <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/enumerating-the-devices-on-a-bus">enumerates the devices on a bus</a> can call <b>WdfDeviceAssignMofResourceName</b> for the parent device, and the framework will use the parent's MOF resource name for child devices.
+A driver that <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/enumerating-the-devices-on-a-bus">enumerates the devices on a bus</a> can call <b>WdfDeviceAssignMofResourceName</b> for the parent device, and the framework will use the parent's MOF resource name for child devices.
 
-For more information about WMI, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-wmi-in-kmdf-drivers">Supporting WMI in Framework-Based Drivers</a>.
+For more information about WMI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-wmi-in-kmdf-drivers">Supporting WMI in Framework-Based Drivers</a>.
 
 
 #### Examples

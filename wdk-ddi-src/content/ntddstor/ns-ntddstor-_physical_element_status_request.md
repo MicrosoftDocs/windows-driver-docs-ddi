@@ -4,11 +4,8 @@ title: _PHYSICAL_ELEMENT_STATUS_REQUEST
 author: windows-driver-content
 description: The PHYSICAL_ELEMENT_STATUS_REQUEST structure defines the starting element to look for the physical element status of a device.
 ms.assetid: 982f2bcd-3206-458c-af5d-9a01dddb1a8c
-ms.author: windowsdriverdev
 ms.date: 09/10/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _PHYSICAL_ELEMENT_STATUS_REQUEST, PHYSICAL_ELEMENT_STATUS_REQUEST, *PPHYSICAL_ELEMENT_STATUS_REQUEST, 
 req.header: ntddstor.h
 req.include-header:

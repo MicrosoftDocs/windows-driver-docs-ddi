@@ -6,11 +6,8 @@ description: The WdfFdoGetDefaultChildList method returns a handle to a specifie
 old-location: wdf\wdffdogetdefaultchildlist.htm
 tech.root: wdf
 ms.assetid: b90c82ad-0531-4564-b30d-48e980282e85
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_b91b8c48-179f-42e5-8015-67eaf1b38226.xml, WdfFdoGetDefaultChildList, WdfFdoGetDefaultChildList method, kmdf.wdffdogetdefaultchildlist, wdf.wdffdogetdefaultchildlist, wdffdo/WdfFdoGetDefaultChildList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdffdo.h
 req.include-header: Wdf.h
@@ -83,7 +80,7 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 Before calling <b>WdfFdoGetDefaultChildList</b>, your driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff547258">WdfFdoInitSetDefaultChildListConfig</a> to configure the default child list. Otherwise, <b>WdfFdoGetDefaultChildList</b> returns <b>NULL</b>.
 
-For more information about child lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
+For more information about child lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
 
 #### Examples

@@ -6,11 +6,8 @@ description: The SCSIWMI_ENABLE_DISABLE_CONTROL enumerator is used to specify wh
 old-location: storage\scsiwmi_enable_disable_control.htm
 tech.root: storage
 ms.assetid: 0327bdc0-e4a4-4c2f-a9b9-5854e3330068
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: SCSIWMI_ENABLE_DISABLE_CONTROL, SCSIWMI_ENABLE_DISABLE_CONTROL enumeration [Storage Devices], ScsiWmiDataBlockControl, ScsiWmiEventControl, scsiwmi/SCSIWMI_ENABLE_DISABLE_CONTROL, scsiwmi/ScsiWmiDataBlockControl, scsiwmi/ScsiWmiEventControl, storage.scsiwmi_enable_disable_control, structs-scsibus_58a70c92-6ee7-4385-b212-45672a12ac8b.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: scsiwmi.h
 req.include-header: Scsiwmi.h
@@ -51,7 +48,7 @@ req.typenames: SCSIWMI_ENABLE_DISABLE_CONTROL
 
 
 The SCSIWMI_ENABLE_DISABLE_CONTROL enumerator is used to specify what to enable or disable. 
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -enum-fields
 

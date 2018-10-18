@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Writes a byte to the specified port address.
 tech.root: serports
 ms.assetid: d40c35cf-b369-40cd-bf55-97ce6fe7288b
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: uart.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to ...
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 UART_HARDWARE_WRITE_INDEXED_UCHAR UartHardwareWriteIndexedUchar;

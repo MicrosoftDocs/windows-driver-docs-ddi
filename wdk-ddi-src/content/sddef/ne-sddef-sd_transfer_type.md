@@ -6,11 +6,8 @@ description: The SD_TRANSFER_TYPE enumeration specifies the type of a Secure Dig
 old-location: sd\sd_transfer_type.htm
 tech.root: SD
 ms.assetid: 5ae1c898-d06e-42ff-bddb-42d6748dac0f
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: SD.sd_transfer_type, SDTT_CMD_ONLY, SDTT_MULTI_BLOCK, SDTT_MULTI_BLOCK_NO_CMD12, SDTT_SINGLE_BLOCK, SDTT_UNSPECIFIED, SD_TRANSFER_TYPE, SD_TRANSFER_TYPE enumeration [Buses], sd-structs_5a149cc8-e6ba-4700-ad7c-148429d9731f.xml, sddef/SDTT_CMD_ONLY, sddef/SDTT_MULTI_BLOCK, sddef/SDTT_MULTI_BLOCK_NO_CMD12, sddef/SDTT_SINGLE_BLOCK, sddef/SDTT_UNSPECIFIED, sddef/SD_TRANSFER_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: sddef.h
 req.include-header: Sddef.h

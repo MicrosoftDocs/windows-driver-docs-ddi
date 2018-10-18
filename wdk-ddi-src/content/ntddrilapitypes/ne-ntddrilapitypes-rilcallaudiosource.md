@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilcallaudiosource.htm
 tech.root: netvista
 ms.assetid: ec6d45ba-3afe-44cb-a699-ef3b3b804b6b
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RILCALLAUDIOSOURCE, RILCALLAUDIOSOURCE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLAUDIOSOURCE_MAX, RIL_CALLAUDIOSOURCE_PKT_APP, RIL_CALLAUDIOSOURCE_PKT_MODEM, netvista.rilcallaudiosource, ntddrilapitypes/RILCALLAUDIOSOURCE, ntddrilapitypes/RIL_CALLAUDIOSOURCE_MAX, ntddrilapitypes/RIL_CALLAUDIOSOURCE_PKT_APP, ntddrilapitypes/RIL_CALLAUDIOSOURCE_PKT_MODEM
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h

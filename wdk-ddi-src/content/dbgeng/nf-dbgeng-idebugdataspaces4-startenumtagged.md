@@ -6,11 +6,8 @@ description: The StartEnumTagged method initializes a enumeration over the tagge
 old-location: debugger\startenumtagged.htm
 tech.root: debugger
 ms.assetid: b79b1f09-baff-4071-a209-6fc399c9aef9
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugDataSpaces3 interface [Windows Debugging],StartEnumTagged method, IDebugDataSpaces3::StartEnumTagged, IDebugDataSpaces4 interface [Windows Debugging],StartEnumTagged method, IDebugDataSpaces4.StartEnumTagged, IDebugDataSpaces4::StartEnumTagged, IDebugDataSpaces_bc6f5148-04e1-4912-8ca2-8c095519af8f.xml, StartEnumTagged, StartEnumTagged method [Windows Debugging], StartEnumTagged method [Windows Debugging],IDebugDataSpaces3 interface, StartEnumTagged method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces3::StartEnumTagged, dbgeng/IDebugDataSpaces4::StartEnumTagged, debugger.startenumtagged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

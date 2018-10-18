@@ -6,11 +6,8 @@ description: The KsDereferenceSoftwareBusObject function decrements the referenc
 old-location: stream\ksdereferencesoftwarebusobject.htm
 tech.root: stream
 ms.assetid: 11203a5d-1484-4a49-aedc-e11baf22cac9
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsDereferenceSoftwareBusObject, KsDereferenceSoftwareBusObject function [Streaming Media Devices], ksfunc_e9066001-173a-40e1-a933-2f646a21afad.xml, stream.ksdereferencesoftwarebusobject, swenum/KsDereferenceSoftwareBusObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: swenum.h
 req.include-header: Swenum.h

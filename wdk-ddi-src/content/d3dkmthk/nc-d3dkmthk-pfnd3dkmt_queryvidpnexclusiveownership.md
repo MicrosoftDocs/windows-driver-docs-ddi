@@ -4,11 +4,8 @@ title: PFND3DKMT_QUERYVIDPNEXCLUSIVEOWNERSHIP
 author: windows-driver-content
 description: The PFND3DKMT_QUERYVIDPNEXCLUSIVEOWNERSHIP callback function queries for VidPn exclusive ownership.
 ms.assetid: af3082f5-6afd-4a93-b0d4-a5411e0f41df
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3DKMT_QUERYVIDPNEXCLUSIVEOWNERSHIP callback function queries for VidPn e
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_QUERYVIDPNEXCLUSIVEOWNERSHIP Pfnd3dkmtQueryvidpnexclusiveownership; 

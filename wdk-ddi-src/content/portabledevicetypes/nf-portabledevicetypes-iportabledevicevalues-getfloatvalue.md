@@ -6,11 +6,8 @@ description: The GetFloatValue method retrieves a FLOAT value (type VT_R4) speci
 old-location: wpddk\iportabledevicevalues_getfloatvalue.htm
 tech.root: wpd_dk
 ms.assetid: f281c407-7d1c-48e8-ab5e-c18bf0c080e0
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: GetFloatValue, GetFloatValue method, GetFloatValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetFloatValue method, IPortableDeviceValues.GetFloatValue, IPortableDeviceValues::GetFloatValue, IPortableDeviceValuesGetFloatValue, portabledevicetypes/IPortableDeviceValues::GetFloatValue, wpddk.iportabledevicevalues_getfloatvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledevicetypes.h
 req.include-header: 

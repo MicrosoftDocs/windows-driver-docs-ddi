@@ -6,11 +6,8 @@ description: The CreateRemoteTarget method creates a remote target object that r
 old-location: wdf\iwdfdevice2_createremotetarget.htm
 tech.root: wdf
 ms.assetid: 0b11d913-f488-4237-85e3-4469eefc0b91
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: CreateRemoteTarget, CreateRemoteTarget method, CreateRemoteTarget method,IWDFDevice2 interface, IWDFDevice2 interface,CreateRemoteTarget method, IWDFDevice2.CreateRemoteTarget, IWDFDevice2::CreateRemoteTarget, UMDFDeviceObjectRef_877f2d10-92a7-4e04-b07e-683b728c691a.xml, umdf.iwdfdevice2_createremotetarget, wdf.iwdfdevice2_createremotetarget, wudfddi/IWDFDevice2::CreateRemoteTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,9 +47,9 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
-The <b>CreateRemoteTarget</b> method creates a remote target object that represents a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a>.
+The <b>CreateRemoteTarget</b> method creates a remote target object that represents a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a>.
 
 
 ## -parameters
@@ -120,11 +117,11 @@ This method might return one of the other values that Winerror.h contains.
 
 
 
-After your driver has called <b>CreateRemoteTarget</b>, the driver can open the remote target by calling either <a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a> (to open a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a>) or <a href="https://msdn.microsoft.com/library/windows/hardware/ff560273">IWDFRemoteTarget::OpenFileByName</a> (to open a file).
+After your driver has called <b>CreateRemoteTarget</b>, the driver can open the remote target by calling either <a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a> (to open a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a>) or <a href="https://msdn.microsoft.com/library/windows/hardware/ff560273">IWDFRemoteTarget::OpenFileByName</a> (to open a file).
 
 If the driver uses the <i>pParentObject</i> parameter to specify a parent object, the parent object can be the device object that provides the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556918">IWDFDevice2</a> interface, or it can be any object whose chain of parents leads to that device object. The framework will delete the remote target object when it (or the driver) deletes the device object.
 
-For more information about remote I/O targets, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-i-o-targets-in-umdf">Using I/O Targets in UMDF</a>.
+For more information about remote I/O targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-i-o-targets-in-umdf">Using I/O Targets in UMDF</a>.
 
 
 #### Examples

@@ -4,11 +4,8 @@ title: _DXGK_INVALIDATEHWCONTEXTFLAGS
 author: windows-driver-content
 description: Contains running contexts that were are were not affected by the GPU engine reset operation.
 ms.assetid: 67f6eb63-d277-4c36-a43a-f4dd22209a72
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGK_INVALIDATEHWCONTEXTFLAGS, DXGK_INVALIDATEHWCONTEXTFLAGS,
 req.header: d3dkmddi.h
 req.include-header:

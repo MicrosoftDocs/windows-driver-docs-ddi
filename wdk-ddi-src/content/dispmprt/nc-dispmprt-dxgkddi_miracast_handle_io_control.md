@@ -6,11 +6,8 @@ description: Called by the operating system to request that the display miniport
 old-location: display\dxgkddimiracastiocontrol.htm
 tech.root: display
 ms.assetid: 83E817C3-A30D-4597-A490-C4FB93A78FCE
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGKDDI_MIRACAST_HANDLE_IO_CONTROL, DXGKDDI_MIRACAST_HANDLE_IO_CONTROL callback, DxgkDdiMiracastIoControl, DxgkDdiMiracastIoControl callback function [Display Devices], display.dxgkddimiracastiocontrol, dispmprt/DxgkDdiMiracastIoControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dispmprt.h
 req.include-header: Dispmprt.h

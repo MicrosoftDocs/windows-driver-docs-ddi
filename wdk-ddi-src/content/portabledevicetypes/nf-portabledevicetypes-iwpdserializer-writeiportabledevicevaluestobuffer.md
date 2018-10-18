@@ -6,11 +6,8 @@ description: Serializes an IPortableDeviceValues interface to a caller-allocated
 old-location: wpddk\iwpdserializer_writeiportabledevicevaluestobuffer.htm
 tech.root: wpd_dk
 ms.assetid: ceddaff0-2c97-4de9-9a2e-3727f48eab87
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IWpdSerializer interface,WriteIPortableDeviceValuesToBuffer method, IWpdSerializer.WriteIPortableDeviceValuesToBuffer, IWpdSerializer::WriteIPortableDeviceValuesToBuffer, IWpdSerializerWriteIPortableDeviceValuesToBuffer, WriteIPortableDeviceValuesToBuffer, WriteIPortableDeviceValuesToBuffer method, WriteIPortableDeviceValuesToBuffer method,IWpdSerializer interface, portabledevicetypes/IWpdSerializer::WriteIPortableDeviceValuesToBuffer, wpddk.iwpdserializer_writeiportabledevicevaluestobuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledevicetypes.h
 req.include-header: 

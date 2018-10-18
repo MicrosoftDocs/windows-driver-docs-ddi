@@ -6,11 +6,8 @@ description: The D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR structure describes a Mic
 old-location: display\d3dddiarg_dxvahd_createvideoprocessor.htm
 tech.root: display
 ms.assetid: fafb1b1f-409d-4eab-a5dd-22fd1ab830d2
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR, D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR structure [Display Devices], UMDisplayDriver_param_Structs_c2d925e2-646c-46dc-9795-1a885aa64a02.xml, _D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR, d3dumddi/D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR, display.d3dddiarg_dxvahd_createvideoprocessor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

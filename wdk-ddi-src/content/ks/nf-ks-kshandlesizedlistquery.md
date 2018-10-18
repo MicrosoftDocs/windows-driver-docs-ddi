@@ -6,11 +6,8 @@ description: The KsHandleSizedListQuery function, depending on the length of the
 old-location: stream\kshandlesizedlistquery.htm
 tech.root: stream
 ms.assetid: 014ca1bd-6e18-4110-aefb-ec36e816f013
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsHandleSizedListQuery, KsHandleSizedListQuery function [Streaming Media Devices], ks/KsHandleSizedListQuery, ksfunc_31d10c58-ce60-43ca-aae7-27a0bd83d2e2.xml, stream.kshandlesizedlistquery
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

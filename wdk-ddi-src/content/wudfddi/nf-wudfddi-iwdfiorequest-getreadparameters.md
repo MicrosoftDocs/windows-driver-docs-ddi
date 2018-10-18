@@ -6,11 +6,8 @@ description: The GetReadParameters method retrieves the request parameters for a
 old-location: wdf\iwdfiorequest_getreadparameters.htm
 tech.root: wdf
 ms.assetid: 3d5691fa-f5dc-4d13-b19c-a169a43aa7b9
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: GetReadParameters, GetReadParameters method, GetReadParameters method,IWDFIoRequest interface, IWDFIoRequest interface,GetReadParameters method, IWDFIoRequest.GetReadParameters, IWDFIoRequest::GetReadParameters, UMDFRequestObjectRef_449eedbd-5e32-4e7c-81ee-77a341fa0d75.xml, umdf.iwdfiorequest_getreadparameters, wdf.iwdfiorequest_getreadparameters, wudfddi/IWDFIoRequest::GetReadParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetReadParameters</b> method retrieves the request parameters for a read-type request.
 

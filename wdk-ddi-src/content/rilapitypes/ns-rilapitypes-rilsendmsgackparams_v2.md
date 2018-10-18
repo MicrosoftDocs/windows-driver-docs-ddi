@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilsendmsgackparams_v2.htm
 tech.root: netvista
 ms.assetid: 3c05c1a0-339e-447f-b0df-18303ee63f98
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*LPRILSENDMSGACKPARAMS, RILSENDMSGACKPARAMS, RILSENDMSGACKPARAMS_V2, RILSENDMSGACKPARAMS_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilsendmsgackparams_v2, ntddrilapitypes/RILSENDMSGACKPARAMS_V2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h

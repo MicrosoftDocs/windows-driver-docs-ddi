@@ -4,7 +4,6 @@ title: ARM64_SYSREG_CRM macro
 author: windows-driver-content
 description: Returns the CRn field for a given ARM system register.
 ms.assetid: 10ce6710-1755-452e-919a-40862842560a
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: macro
 ms.keywords: ARM64_SYSREG_CRM

@@ -6,11 +6,8 @@ description: The FsRtlSetEcpListIntoIrp routine attaches an extra create paramet
 old-location: ifsk\fsrtlsetecplistintoirp.htm
 tech.root: ifsk
 ms.assetid: 370da53a-3c20-4e45-8732-8f08aa2d96ae
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FsRtlSetEcpListIntoIrp, FsRtlSetEcpListIntoIrp routine [Installable File System Drivers], fsrtlref_b292fe42-cbfa-430d-abca-528482cecbed.xml, ifsk.fsrtlsetecplistintoirp, ntifs/FsRtlSetEcpListIntoIrp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

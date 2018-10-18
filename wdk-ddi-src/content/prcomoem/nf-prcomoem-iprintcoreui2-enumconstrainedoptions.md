@@ -6,11 +6,8 @@ description: The IPrintCoreUI2::EnumConstrainedOptions method determines which o
 old-location: print\iprintcoreui2_enumconstrainedoptions.htm
 tech.root: print
 ms.assetid: 815a20f4-9bd7-4f8d-8444-545097d1c4b3
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: EnumConstrainedOptions, EnumConstrainedOptions method [Print Devices], EnumConstrainedOptions method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],EnumConstrainedOptions method, IPrintCoreUI2.EnumConstrainedOptions, IPrintCoreUI2::EnumConstrainedOptions, prcomoem/IPrintCoreUI2::EnumConstrainedOptions, print.iprintcoreui2_enumconstrainedoptions, print_unidrv-pscript_ui_43a11382-d457-4845-aaa0-4eb87a11929a.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

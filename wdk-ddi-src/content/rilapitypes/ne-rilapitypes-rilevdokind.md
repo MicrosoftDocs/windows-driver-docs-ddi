@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilevdokind.htm
 tech.root: netvista
 ms.assetid: 9887342b-85bd-4161-b9de-06ceb56014e5
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RILEVDOKIND, RILEVDOKIND enumeration [Network Drivers Starting with Windows Vista], RIL_EVDOKIND_MAX, RIL_EVDOKIND_REVA, RIL_EVDOKIND_REVB, netvista.rilevdokind, ntddrilapitypes/RILEVDOKIND, ntddrilapitypes/RIL_EVDOKIND_MAX, ntddrilapitypes/RIL_EVDOKIND_REVA, ntddrilapitypes/RIL_EVDOKIND_REVB
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h

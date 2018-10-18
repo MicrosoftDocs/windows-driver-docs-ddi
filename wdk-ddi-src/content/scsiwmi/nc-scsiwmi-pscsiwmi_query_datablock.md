@@ -6,11 +6,8 @@ description: A miniport driver's HwScsiWmiQueryDataBlock routine is called to ob
 old-location: storage\hwscsiwmiquerydatablock.htm
 tech.root: storage
 ms.assetid: a2e588b8-50d6-4bed-b50c-c42be24955f1
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: HwScsiWmiQueryDataBlock, HwScsiWmiQueryDataBlock callback function [Storage Devices], PSCSIWMI_QUERY_DATABLOCK, PSCSIWMI_QUERY_DATABLOCK callback, Scsimini_1405dcfc-840b-4cc6-bd4c-63d071aa993e.xml, scsiwmi/HwScsiWmiQueryDataBlock, storage.hwscsiwmiquerydatablock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: scsiwmi.h
 req.include-header: Scsiwmi.h
@@ -51,7 +48,7 @@ req.typenames:
 
 
 A miniport driver's <b>HwScsiWmiQueryDataBlock</b> routine is called to obtain either a single instance or all instances of a data block. This routine is required.
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 

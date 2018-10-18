@@ -6,11 +6,8 @@ description: Drivers obtain the IWDFDevice2 interface by calling IWDFDevice::Que
 old-location: wdf\iwdfdevice2.htm
 tech.root: wdf
 ms.assetid: f4d3d2cf-8877-4071-8e75-f971803beca4
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IWDFDevice2, IWDFDevice2 interface, IWDFDevice2 interface,described, UMDFDeviceObjectRef_0b02d642-234d-4f98-b6d1-5557aa74eb14.xml, umdf.iwdfdevice2, wdf.iwdfdevice2, wudfddi/IWDFDevice2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 Drivers obtain the <b>IWDFDevice2</b> interface by calling <b>IWDFDevice::QueryInterface</b>.
 
@@ -93,7 +90,7 @@ The <a href="https://msdn.microsoft.com/32d3b680-298b-443e-a2c4-db8fc057bf75">As
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556925">IWDFDevice2::CreateRemoteInterface</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/fb2def4b-c027-465d-b734-20b4b83a6308">CreateRemoteInterface</a> method creates a remote interface object that represents a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a>.
+The <a href="https://msdn.microsoft.com/fb2def4b-c027-465d-b734-20b4b83a6308">CreateRemoteInterface</a> method creates a remote interface object that represents a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a>.
 
 </td>
 </tr>
@@ -102,7 +99,7 @@ The <a href="https://msdn.microsoft.com/fb2def4b-c027-465d-b734-20b4b83a6308">Cr
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556928">IWDFDevice2::CreateRemoteTarget</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/0b11d913-f488-4237-85e3-4469eefc0b91">CreateRemoteTarget</a> method creates a remote target object that represents a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a>.
+The <a href="https://msdn.microsoft.com/0b11d913-f488-4237-85e3-4469eefc0b91">CreateRemoteTarget</a> method creates a remote target object that represents a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a>.
 
 </td>
 </tr>
@@ -138,7 +135,7 @@ The <a href="https://msdn.microsoft.com/0030d64b-3f88-4bb3-b7d2-fcdc57d4d887">Ge
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556939">IWDFDevice2::RegisterRemoteInterfaceNotification</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/48e1fc20-03e7-42ef-b57c-9246a56df4ef">RegisterRemoteInterfaceNotification</a> method registers a driver to receive a notification when a specified <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a> becomes available.
+The <a href="https://msdn.microsoft.com/48e1fc20-03e7-42ef-b57c-9246a56df4ef">RegisterRemoteInterfaceNotification</a> method registers a driver to receive a notification when a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a> becomes available.
 
 </td>
 </tr>

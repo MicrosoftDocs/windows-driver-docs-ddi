@@ -6,11 +6,8 @@ description: Sets the TRANSMIT_BUFER Register defined as per the Universal Seria
 old-location: buses\ioctl_ucmtcpci_port_controller_set_transmit_buffer.htm
 tech.root: usbref
 ms.assetid: D91AFBA0-BCB4-4B4B-9EBC-CF34450DC06B
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT_BUFFER, IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT_BUFFER control, IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT_BUFFER control code [Buses], buses.ioctl_ucmtcpci_port_controller_set_transmit_buffer, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT_BUFFER
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ucmtcpciportcontrollerrequests.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The FwpsInjectTransportReceiveAsync0 function injects packet data f
 old-location: netvista\fwpsinjecttransportreceiveasync0.htm
 tech.root: netvista
 ms.assetid: 0809a013-9977-44fc-b800-576b4fd983e8
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FwpsInjectTransportReceiveAsync0, FwpsInjectTransportReceiveAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectTransportReceiveAsync0, netvista.fwpsinjecttransportreceiveasync0, wfp_ref_2_funct_3_fwps_I_2d92a340-1ab7-4eb2-b0c4-47ce8de3daa4.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpsk.h
 req.include-header: Fwpsk.h

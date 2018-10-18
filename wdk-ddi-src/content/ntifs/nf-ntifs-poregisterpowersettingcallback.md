@@ -6,11 +6,8 @@ description: The PoRegisterPowerSettingCallback routine registers a power-settin
 old-location: kernel\poregisterpowersettingcallback.htm
 tech.root: kernel
 ms.assetid: a4dd91c4-f6b1-4751-a2be-9b4872fa7bb2
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: PoRegisterPowerSettingCallback, PoRegisterPowerSettingCallback routine [Kernel-Mode Driver Architecture], kernel.poregisterpowersettingcallback, portn_ddaef830-5cf5-4b7f-9fa6-e29a2b9f847f.xml, wdm/PoRegisterPowerSettingCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

@@ -6,11 +6,8 @@ description: Stores function pointers to callback functions implemented by the p
 old-location: pci\mitigable_device_interface.htm
 tech.root: PCI
 ms.assetid: 1fac7c03-2a48-4b29-951d-c777fbec7dd3
-ms.author: windowsdriverdev
 ms.date: 2/24/2018
 ms.keywords: "*PMITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE structure [Buses], PCI.mitigable_device_interface, _MITIGABLE_DEVICE_INTERFACE, pcivirt/MITIGABLE_DEVICE_INTERFACE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pcivirt.h
 req.include-header:
@@ -56,7 +53,7 @@ Stores function pointers to callback functions implemented by the physical funct
 ## -syntax
 
 
-````
+```cpp
 typedef struct _MITIGABLE_DEVICE_INTERFACE {
   USHORT                         Size;
   USHORT                         Version;
@@ -65,7 +62,7 @@ typedef struct _MITIGABLE_DEVICE_INTERFACE {
   PINTERFACE_REFERENCE           InterfaceDereference;
   PREAD_WRITE_MITIGATED_REGISTER ReadWriteMitigatedRegister;
 } MITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE;
-````
+```
 
 
 ## -struct-fields

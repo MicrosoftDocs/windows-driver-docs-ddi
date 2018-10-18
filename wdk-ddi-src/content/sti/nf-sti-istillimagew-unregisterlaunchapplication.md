@@ -6,11 +6,8 @@ description: The IStillImage::UnregisterLaunchApplication method removes an appl
 old-location: image\istillimage_unregisterlaunchapplication.htm
 tech.root: image
 ms.assetid: cf57265a-d343-4e49-9635-6a4663c9a3a5
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IStillImageW interface [Imaging Devices],UnregisterLaunchApplication method, IStillImageW.UnregisterLaunchApplication, IStillImageW::UnregisterLaunchApplication, UnregisterLaunchApplication, UnregisterLaunchApplication method [Imaging Devices], UnregisterLaunchApplication method [Imaging Devices],IStillImageW interface, image.istillimage_unregisterlaunchapplication, sti/IStillImageW::UnregisterLaunchApplication, stifnc_7e477efa-efa3-445d-bd68-a23f87cee5de.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sti.h
 req.include-header: Sti.h

@@ -6,11 +6,8 @@ description: The GPIO_CLX_ProcessAddDevicePostDeviceCreate method passes a frame
 old-location: gpio\gpio_clx_processadddevicepostdevicecreate.htm
 tech.root: GPIO
 ms.assetid: 4B88820F-32B9-4AA2-867A-316A3796BE86
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: GPIO.gpio_clx_processadddevicepostdevicecreate, GPIO_CLX_ProcessAddDevicePostDeviceCreate, GPIO_CLX_ProcessAddDevicePostDeviceCreate method [Parallel Ports], gpioclx/GPIO_CLX_ProcessAddDevicePostDeviceCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: gpioclx.h
 req.include-header: 

@@ -4,11 +4,8 @@ title: PFLUSH_DMA_BUFFER
 author: windows-driver-content
 description: 
 ms.assetid: f51783e4-9956-4608-ba45-affdafda2416
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -49,7 +46,7 @@ The callback routine flushes any data remaining in the memory region described b
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFLUSH_DMA_BUFFER PflushDmaBuffer; 
@@ -80,7 +77,7 @@ NTSTATUS PflushDmaBuffer
 
 ## -returns
 
-Returns STATUS_SUCCESS if the call is successful. Otherwise, returns an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+Returns STATUS_SUCCESS if the call is successful. Otherwise, returns an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 
 ## -remarks
@@ -88,4 +85,4 @@ Returns STATUS_SUCCESS if the call is successful. Otherwise, returns an appropri
 
 
 ## -see-also
-[Flushing Cached Data during DMA Operations](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/flushing-cached-data-during-dma-operations)
+[Flushing Cached Data during DMA Operations](https://docs.microsoft.com/windows-hardware/drivers/kernel/flushing-cached-data-during-dma-operations)

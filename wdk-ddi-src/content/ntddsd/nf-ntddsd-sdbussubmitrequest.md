@@ -6,11 +6,8 @@ description: The SdBusSubmitRequest routine sends a synchronous Secure Digital (
 old-location: sd\sdbussubmitrequest.htm
 tech.root: SD
 ms.assetid: 8f794681-afa9-474b-a3b9-bc7c21c7c423
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: SD.sdbussubmitrequest, SdBusSubmitRequest, SdBusSubmitRequest function [Buses], ntddsd/SdBusSubmitRequest, sd-rtns_2709a5bb-0cc9-42b0-9fd1-2b8206a383d5.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddsd.h
 req.include-header: Ntddsd.h

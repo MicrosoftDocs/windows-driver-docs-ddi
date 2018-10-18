@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMT_QUEUEDLIMIT_TYPE enumeration type contains values that indicate the type of operations to set or retrieve the queued limit for in a call to the D3DKMTSetQueuedLimit function.
 old-location: display\d3dkmt_queuedlimit_type.htm
 ms.assetid: 5e57e2cc-91a2-4150-9805-8a963530080a
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DKMT_GET_QUEUEDLIMIT_PRESENT, D3DKMT_QUEUEDLIMIT_TYPE, D3DKMT_QUEUEDLIMIT_TYPE enumeration [Display Devices], D3DKMT_SET_QUEUEDLIMIT_PRESENT, OpenGL_Structs_8908789d-6be7-41de-9aff-526cf8b1684c.xml, _D3DKMT_QUEUEDLIMIT_TYPE, d3dkmthk/D3DKMT_GET_QUEUEDLIMIT_PRESENT, d3dkmthk/D3DKMT_QUEUEDLIMIT_TYPE, d3dkmthk/D3DKMT_SET_QUEUEDLIMIT_PRESENT, display.d3dkmt_queuedlimit_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

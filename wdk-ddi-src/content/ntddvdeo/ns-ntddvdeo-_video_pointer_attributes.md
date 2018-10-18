@@ -6,11 +6,8 @@ description: The VIDEO_POINTER_ATTRIBUTES structure contains attributes of the s
 old-location: display\video_pointer_attributes.htm
 tech.root: display
 ms.assetid: aa897435-443b-4145-b6ca-7bafdb36b9c1
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: "*PVIDEO_POINTER_ATTRIBUTES, PVIDEO_POINTER_ATTRIBUTES, PVIDEO_POINTER_ATTRIBUTES structure pointer [Display Devices], VIDEO_MODE_ANIMATE_START, VIDEO_MODE_ANIMATE_UPDATE, VIDEO_MODE_ASYNC_POINTER, VIDEO_MODE_COLOR_POINTER, VIDEO_MODE_MONO_POINTER, VIDEO_POINTER_ATTRIBUTES, VIDEO_POINTER_ATTRIBUTES structure [Display Devices], Video_Structs_5ade2674-a930-46b3-aaad-6d3a8d017453.xml, _VIDEO_POINTER_ATTRIBUTES, display.video_pointer_attributes, ntddvdeo/PVIDEO_POINTER_ATTRIBUTES, ntddvdeo/VIDEO_POINTER_ATTRIBUTES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddvdeo.h
 req.include-header: Ntddvdeo.h

@@ -6,11 +6,8 @@ description: The IdeHwInitialize miniport driver routine configures the indicate
 old-location: storage\idehwinitialize.htm
 tech.root: storage
 ms.assetid: 5665ff0a-3cbf-4ac5-adf7-5b383bac5117
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IDE_HW_INITIALIZE, IdeHwInitialize, IdeHwInitialize routine [Storage Devices], atartns_dcb52bc9-05c9-436f-a2b2-f9c1b68d1d33.xml, irb/IdeHwInitialize, storage.idehwinitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: irb.h
 req.include-header: Irb.h
@@ -51,7 +48,7 @@ req.typenames:
 
 
 The <b><i>IdeHwInitialize</i></b> miniport driver routine configures the indicated device.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 

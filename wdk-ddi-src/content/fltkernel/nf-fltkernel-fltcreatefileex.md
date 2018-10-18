@@ -6,11 +6,8 @@ description: Minifilter drivers call FltCreateFileEx to create a new file or ope
 old-location: ifsk\fltcreatefileex.htm
 tech.root: ifsk
 ms.assetid: 83b672dd-26fc-4c22-815d-72143159983d
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_a_to_d_3bc45f49-48cd-4c08-8906-09074f48e712.xml, FltCreateFileEx, FltCreateFileEx routine [Installable File System Drivers], fltkernel/FltCreateFileEx, ifsk.fltcreatefileex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: FltKernel.h

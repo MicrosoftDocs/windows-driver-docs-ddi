@@ -6,11 +6,8 @@ description: The GetDeviceIoControlParameters method retrieves the request param
 old-location: wdf\iwdfiorequest_getdeviceiocontrolparameters.htm
 tech.root: wdf
 ms.assetid: 96de6f7a-da1d-44a6-b1f7-44859312a662
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: GetDeviceIoControlParameters, GetDeviceIoControlParameters method, GetDeviceIoControlParameters method,IWDFIoRequest interface, IWDFIoRequest interface,GetDeviceIoControlParameters method, IWDFIoRequest.GetDeviceIoControlParameters, IWDFIoRequest::GetDeviceIoControlParameters, UMDFRequestObjectRef_8a0fa5cd-af16-4599-8282-4ca0a81591ac.xml, umdf.iwdfiorequest_getdeviceiocontrolparameters, wdf.iwdfiorequest_getdeviceiocontrolparameters, wudfddi/IWDFIoRequest::GetDeviceIoControlParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetDeviceIoControlParameters</b> method retrieves the request parameters for a device I/O control-type request.
 

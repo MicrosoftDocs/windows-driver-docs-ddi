@@ -6,11 +6,8 @@ description: The StorPortGetNodeAffinity routine constructs a mask of the active
 old-location: storage\storportgetnodeaffinity.htm
 tech.root: storage
 ms.assetid: 183940c9-f8d9-411f-a593-e283f72e05f8
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: StorPortGetNodeAffinity, StorPortGetNodeAffinity routine [Storage Devices], storage.storportgetnodeaffinity, storport/StorPortGetNodeAffinity, storprt_fdd62c09-d9ce-49cd-b390-c7c9a76a098f.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

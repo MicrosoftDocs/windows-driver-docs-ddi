@@ -6,11 +6,8 @@ description: The IoRegisterDeviceInterface routine registers a device interface 
 old-location: kernel\ioregisterdeviceinterface.htm
 tech.root: kernel
 ms.assetid: 4d0782c7-0516-4326-9994-7820446f2af6
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IoRegisterDeviceInterface, IoRegisterDeviceInterface routine [Kernel-Mode Driver Architecture], k104_4916c641-8510-425d-953f-68ed7a3f8976.xml, kernel.ioregisterdeviceinterface, wdm/IoRegisterDeviceInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>IoRegisterDeviceInterface</b> routine registers a [device interface class](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-interface-classes), if it has not been previously registered, and creates a new instance of the interface class, which a driver can subsequently enable for use by applications or other system components.
+The <b>IoRegisterDeviceInterface</b> routine registers a [device interface class](https://docs.microsoft.com/windows-hardware/drivers/install/device-interface-classes), if it has not been previously registered, and creates a new instance of the interface class, which a driver can subsequently enable for use by applications or other system components.
 
 
 ## -parameters

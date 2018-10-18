@@ -6,11 +6,8 @@ description: Notifies the USB connector manager framework extension (UcmCx) with
 old-location: buses\ucmconnectorchargingstatechanged.htm
 tech.root: usbref
 ms.assetid: A645BFE0-4B7F-416F-9096-596ADAA37951
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: UcmConnectorChargingStateChanged, UcmConnectorChargingStateChanged method [Buses], buses.ucmconnectorchargingstatechanged, ucmmanager/UcmConnectorChargingStateChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h

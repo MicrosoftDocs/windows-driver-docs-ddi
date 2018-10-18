@@ -4,11 +4,8 @@ title: _D3DKMT_CHANGEVIDEOMMEMORYRESERVATION
 author: windows-driver-content
 description: Used to change the video memory management reservation.
 ms.assetid: e0af83c8-8fce-45ba-9449-ac45a638d287
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_CHANGEVIDEOMMEMORYRESERVATION, D3DKMT_CHANGEVIDEOMEMORYRESERVATION, 
 req.header: d3dkmthk.h
 req.include-header:

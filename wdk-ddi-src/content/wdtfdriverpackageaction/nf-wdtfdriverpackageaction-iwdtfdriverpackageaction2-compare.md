@@ -6,11 +6,8 @@ description: Compares two driver packages.
 old-location: dtf\iwdtfdriverpackageaction2_compare.htm
 tech.root: dtf
 ms.assetid: fa93d535-fe26-40cc-b08a-88841dcfdc96
-ms.author: windowsdriverdev
 ms.date: 4/4/2018
 ms.keywords: Compare, Compare method [Windows Device Testing Framework], Compare method [Windows Device Testing Framework],IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],Compare method, IWDTFDriverPackageAction2.Compare, IWDTFDriverPackageAction2::Compare, Microsoft.WDTF.IWDTFDriverPackageAction2.Compare, Microsoft::WDTF::IWDTFDriverPackageAction2::Compare, dtf.iwdtfdriverpackageaction2_compare, wdtfdriverpackageaction/IWDTFDriverPackageAction2::Compare
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtfdriverpackageaction.h
 req.include-header: 

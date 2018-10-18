@@ -6,11 +6,8 @@ description: The DEBUG_SYMBOL_ENTRY structure describes a symbol in a symbol gro
 old-location: debugger\debug_symbol_entry.htm
 tech.root: debugger
 ms.assetid: 31ffab25-ec34-42ff-bdde-c98fef003bfc
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: "*PDEBUG_SYMBOL_ENTRY, DEBUG_SYMBOL_ENTRY, DEBUG_SYMBOL_ENTRY structure [Windows Debugging], PDEBUG_SYMBOL_ENTRY, PDEBUG_SYMBOL_ENTRY structure pointer [Windows Debugging], Structures_5673550e-274a-429f-9a31-88e401bca68e.xml, _DEBUG_SYMBOL_ENTRY, dbgeng/DEBUG_SYMBOL_ENTRY, dbgeng/PDEBUG_SYMBOL_ENTRY, debugger.debug_symbol_entry"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dbgeng.h
 req.include-header: DbgEng.h, DbgHelp.h, DbgHelp.h

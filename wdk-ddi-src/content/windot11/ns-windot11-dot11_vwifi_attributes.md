@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_vwifi_attributes.htm
 tech.root: netvista
 ms.assetid: 46eee6ea-8259-4036-b1c4-f0eef6587879
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*PDOT11_VWIFI_ATTRIBUTES, DOT11_VWIFI_ATTRIBUTES, DOT11_VWIFI_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_fdecf787-d328-4546-a4fc-ac7205851ebf.xml, PDOT11_VWIFI_ATTRIBUTES, PDOT11_VWIFI_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_vwifi_attributes, windot11/DOT11_VWIFI_ATTRIBUTES, windot11/PDOT11_VWIFI_ATTRIBUTES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -59,13 +56,13 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef struct DOT11_VWIFI_ATTRIBUTES {
   NDIS_OBJECT_HEADER      Header;
   ULONG                   uTotalNumOfEntries;
   DOT11_VWIFI_COMBINATION Combinations[1];
 } DOT11_VWIFI_ATTRIBUTES, *PDOT11_VWIFI_ATTRIBUTES;
-````
+```
 
 
 ## -struct-fields

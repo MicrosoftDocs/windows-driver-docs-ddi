@@ -4,12 +4,9 @@ title: D3D12DDI_RESOURCE_DIMENSION
 author: windows-driver-content
 description: Identifies the type of resource dimension to use.
 ms.assetid: d53f3355-2abc-4b16-855e-e2716faaa99c
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: D3D12DDI_RESOURCE_DIMENSION, D3D12DDI_RESOURCE_DIMENSION, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

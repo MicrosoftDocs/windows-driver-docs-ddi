@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT method initializes a NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: 6ca814a1-599b-498c-af32-a21fe3359cd0
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT

@@ -6,11 +6,8 @@ description: The OnDefaultIoHandler method handles I/O requests that no other me
 old-location: wdf\iqueuecallbackdefaultiohandler_ondefaultiohandler.htm
 tech.root: wdf
 ms.assetid: d0973dc9-58d6-486f-860e-a891600be73e
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IQueueCallbackDefaultIoHandler interface,OnDefaultIoHandler method, IQueueCallbackDefaultIoHandler.OnDefaultIoHandler, IQueueCallbackDefaultIoHandler::OnDefaultIoHandler, OnDefaultIoHandler, OnDefaultIoHandler method, OnDefaultIoHandler method,IQueueCallbackDefaultIoHandler interface, UMDFQueueObjectRef_21f994ea-feca-4c50-aa83-401581713c3f.xml, umdf.iqueuecallbackdefaultiohandler_ondefaultiohandler, wdf.iqueuecallbackdefaultiohandler_ondefaultiohandler, wudfddi/IQueueCallbackDefaultIoHandler::OnDefaultIoHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>OnDefaultIoHandler</b> method handles I/O requests that no other method is registered to handle. 
 

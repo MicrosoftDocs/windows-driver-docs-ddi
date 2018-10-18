@@ -6,11 +6,8 @@ description: The NdisEqualUnicodeString function compares two Unicode strings an
 old-location: netvista\ndisequalunicodestring.htm
 tech.root: netvista
 ms.assetid: 8f3abf40-bb47-4fa6-862b-6126edb00b36
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisEqualUnicodeString, NdisEqualUnicodeString macro [Network Drivers Starting with Windows Vista], ndis/NdisEqualUnicodeString, ndis_string_ref_ccfcf1e6-b983-47a3-a46e-3a6ff1eb7158.xml, netvista.ndisequalunicodestring
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ndis.h
 req.include-header: Ndis.h

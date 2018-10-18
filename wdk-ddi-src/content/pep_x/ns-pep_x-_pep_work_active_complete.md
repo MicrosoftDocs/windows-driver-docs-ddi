@@ -6,11 +6,8 @@ description: The PEP_WORK_ACTIVE_COMPLETE structure identifies a component that 
 old-location: kernel\pep_work_active_complete.htm
 tech.root: kernel
 ms.assetid: DD7D7E5F-D35C-40B4-B414-A6D2EB8D3A02
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PPEP_WORK_ACTIVE_COMPLETE, PEP_WORK_ACTIVE_COMPLETE, PEP_WORK_ACTIVE_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_WORK_ACTIVE_COMPLETE, PPEP_WORK_ACTIVE_COMPLETE structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_ACTIVE_COMPLETE, kernel.pep_work_active_complete, pep_x/PEP_WORK_ACTIVE_COMPLETE, pep_x/PPEP_WORK_ACTIVE_COMPLETE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pep_x.h
 req.include-header: Pepfx.h
@@ -60,7 +57,7 @@ The <b>PEP_WORK_ACTIVE_COMPLETE</b> structure identifies a component that is now
 
 ### -field DeviceHandle
 
-A handle that represents the registration of the device with the Windows <a href="https://msdn.microsoft.com/9F2D8ACD-44D5-46E0-9FC7-1B38B99450FF">power management framework</a> (PoFx). A POHANDLE value that represents the registration of the device with PoFx. The platform extension plug-in (PEP) previously received this handle from PoFx during the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification that informed the PEP that the device's driver stack registered the device with PoFx.
+A handle that represents the registration of the device with the Windows <a href="https://msdn.microsoft.com/9F2D8ACD-44D5-46E0-9FC7-1B38B99450FF">power management framework</a> (PoFx). A POHANDLE value that represents the registration of the device with PoFx. The platform extension plug-in (PEP) previously received this handle from PoFx during the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification that informed the PEP that the device's driver stack registered the device with PoFx.
 
 
 ### -field Component
@@ -86,7 +83,7 @@ The <b>ActiveComplete</b> member of the <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
 
 

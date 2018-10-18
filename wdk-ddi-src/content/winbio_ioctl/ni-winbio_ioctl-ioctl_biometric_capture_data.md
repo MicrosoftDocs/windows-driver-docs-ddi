@@ -6,11 +6,8 @@ description: The IOCTL_BIOMETRIC_CAPTURE_DATA IOCTL directs the driver to retrie
 old-location: biometric\ioctl_biometric_capture_data.htm
 tech.root: biometric
 ms.assetid: 52c7007f-6038-41d8-b459-f0fa1b90fd5e
-ms.author: windowsdriverdev
 ms.date: 2/20/2018
 ms.keywords: IOCTL_BIOMETRIC_CAPTURE_DATA, IOCTL_BIOMETRIC_CAPTURE_DATA control, IOCTL_BIOMETRIC_CAPTURE_DATA control code [Biometric Devices], biometric.ioctl_biometric_capture_data, biometric_ref_8337ca76-e92a-4efe-a73f-3f23c01f35c2.xml, winbio_ioctl/IOCTL_BIOMETRIC_CAPTURE_DATA
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: winbio_ioctl.h
 req.include-header: 

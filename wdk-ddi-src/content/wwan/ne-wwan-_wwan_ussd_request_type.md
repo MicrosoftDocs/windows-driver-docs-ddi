@@ -6,11 +6,8 @@ description: The WWAN_USSD_REQUEST_TYPE enumeration lists the different types of
 old-location: netvista\wwan_ussd_request_type.htm
 tech.root: netvista
 ms.assetid: 773490EE-ECFC-4089-869D-19683A76E4FA
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PWWAN_USSD_REQUEST_TYPE, WWAN_USSD_REQUEST_TYPE, WWAN_USSD_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanUssdRequestCancel, WwanUssdRequestContinue, WwanUssdRequestInitiate, _WWAN_USSD_REQUEST_TYPE, netvista.wwan_ussd_request_type, wwan/WWAN_USSD_REQUEST_TYPE, wwan/WwanUssdRequestCancel, wwan/WwanUssdRequestContinue, wwan/WwanUssdRequestInitiate"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wwan.h
 req.include-header: 

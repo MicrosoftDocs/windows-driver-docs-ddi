@@ -6,11 +6,8 @@ description: The WdfIoResourceRequirementsListInsertIoResList method inserts a l
 old-location: wdf\wdfioresourcerequirementslistinsertioreslist.htm
 tech.root: wdf
 ms.assetid: d70d9fed-22fd-4bcf-a4bf-fbd941559529
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFResourceObjectRef_193f75e1-39a1-4a93-947b-550e7ad99494.xml, WdfIoResourceRequirementsListInsertIoResList, WdfIoResourceRequirementsListInsertIoResList method, kmdf.wdfioresourcerequirementslistinsertioreslist, wdf.wdfioresourcerequirementslistinsertioreslist, wdfresource/WdfIoResourceRequirementsListInsertIoResList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfresource.h
 req.include-header: Wdf.h
@@ -147,7 +144,7 @@ The <b>WdfIoResourceRequirementsListInsertIoResList</b> method inserts the logic
 
 To add a logical configuration to the end of a resource requirements list, use WDF_INSERT_AT_END or the return value from <a href="https://msdn.microsoft.com/library/windows/hardware/ff548545">WdfIoResourceRequirementsListGetCount</a> as the <i>Index</i> value. Alternatively, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548537">WdfIoResourceRequirementsListAppendIoResList</a> method.
 
-For more information about resource requirements lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
+For more information about resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 
 #### Examples

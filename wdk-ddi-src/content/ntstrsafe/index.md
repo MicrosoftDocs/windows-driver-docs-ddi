@@ -30,4 +30,4 @@ Unicode strings are specified within [**UNICODE_STRING**](../wudfwdm/ns-wudfwdm-
 
 For more information, see:
 
-- [Using Safe String Functions](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-safe-string-functions)
+- [Using Safe String Functions](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions)

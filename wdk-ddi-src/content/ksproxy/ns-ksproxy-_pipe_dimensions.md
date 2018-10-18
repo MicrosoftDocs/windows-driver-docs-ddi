@@ -6,11 +6,8 @@ description: The PIPE_DIMENSIONS structure is for proxy use and not recommended 
 old-location: stream\pipe_dimensions.htm
 tech.root: stream
 ms.assetid: 0a919dd8-a266-42c8-8f97-3314a5d52f4f
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PPIPE_DIMENSIONS, PIPE_DIMENSIONS, PIPE_DIMENSIONS structure [Streaming Media Devices], PPIPE_DIMENSIONS, PPIPE_DIMENSIONS structure pointer [Streaming Media Devices], _PIPE_DIMENSIONS, ksproxy/PIPE_DIMENSIONS, ksproxy/PPIPE_DIMENSIONS, ksproxy_29ffc785-a205-468d-a604-ac4022bdf488.xml, stream.pipe_dimensions"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksproxy.h
 req.include-header: Ksproxy.h

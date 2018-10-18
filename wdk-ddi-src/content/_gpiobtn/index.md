@@ -22,4 +22,4 @@ For additional information about the KMDF, see [Using WDF to Develop a Driver](h
 
 To provide support for hardware notifications, you need:
 
-- [hwnclx.h](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/hwnclx/)
+- [hwnclx.h](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hwnclx/)

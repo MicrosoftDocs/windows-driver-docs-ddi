@@ -6,11 +6,8 @@ description: PORT_CONFIGURATION_INFORMATION (SCSI) contains configuration inform
 old-location: storage\port_configuration_information__scsi_.htm
 tech.root: storage
 ms.assetid: f3c9d851-d30d-4757-82a3-225ee67528c1
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PPORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION structure [Storage Devices], PPORT_CONFIGURATION_INFORMATION, PPORT_CONFIGURATION_INFORMATION structure pointer [Storage Devices], _PORT_CONFIGURATION_INFORMATION, _PORT_CONFIGURATION_INFORMATION structure [Storage Devices], srb/PPORT_CONFIGURATION_INFORMATION, srb/_PORT_CONFIGURATION_INFORMATION, storage.port_configuration_information__scsi_, structs-scsiport_1a472219-5839-443c-a3a1-26c9708b3b18.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: storport.h
 req.include-header: Srb.h, Storport.h, Strmini.h
@@ -51,7 +48,7 @@ req.typenames: PORT_CONFIGURATION_INFORMATION, *PPORT_CONFIGURATION_INFORMATION
 
 
 PORT_CONFIGURATION_INFORMATION (SCSI) contains configuration information for an HBA. The OS-specific port driver allocates and initializes this structure, supplies as much HBA-specific configuration information as possible, and passes the structure to the miniport driver's <i>HwScsiFindAdapter</i> routine. The port driver gets some of the information for this structure from the miniport driver's HW_INITIALIZATION_DATA structure. The miniport driver's <i>HwScsiFindAdapter</i> routine is responsible for determining whether the miniport driver can support the HBA and, if so, for filling in the pertinent remaining information in the PORT_CONFIGURATION_INFORMATION structure.
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -struct-fields
 

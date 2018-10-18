@@ -4,11 +4,8 @@ title: PFND3DKMT_SUBMITCOMMANDTOHWQUEUE
 author: windows-driver-content
 description: Implemented by the client driver to submit a command to queue hardware flags.
 ms.assetid: 4d21d4b5-4b23-44d0-be9c-25d2abbcf628
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to submit a command to queue hardware flags.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SUBMITCOMMANDTOHWQUEUE Pfnd3dkmtSubmitcommandtohwqueue;

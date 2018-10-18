@@ -6,11 +6,8 @@ description: The POS_CX_EVENT_ATTRIBUTES describes the priority and access right
 old-location: pos\pos_cx_event_attributes.htm
 tech.root: pos
 ms.assetid: 5B8B38B6-ACF3-44F9-BC83-71F0A2FC4DDD
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: POS_CX_EVENT_ATTRIBUTES, POS_CX_EVENT_ATTRIBUTES enumeration, POS_CX_EVENT_ATTR_BCAST_CONTROL, POS_CX_EVENT_ATTR_CONTROL, POS_CX_EVENT_ATTR_DATA, _POS_CX_EVENT_ATTRIBUTES, pos.pos_cx_event_attributes, poscx/POS_CX_EVENT_ATTRIBUTES, poscx/POS_CX_EVENT_ATTR_BCAST_CONTROL, poscx/POS_CX_EVENT_ATTR_CONTROL, poscx/POS_CX_EVENT_ATTR_DATA
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: poscx.h
 req.include-header: Poscx.h

@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NET_BUFFER_LIST_SET_HASH_FUNCTION macro sets the hash function information in a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: e586100e-39f4-4ecf-8f50-65470bc6d9d3
-ms.author: windowsdriverdev
 ms.date: 04/13/2018
 ms.topic: function
 ms.keywords: NET_BUFFER_LIST_SET_HASH_FUNCTION

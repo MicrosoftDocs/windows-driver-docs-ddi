@@ -4,11 +4,8 @@ title: IDebugHostSymbols
 author: windows-driver-content
 description: The symbols interface to the underlying debugger.
 ms.assetid: 9a26c85b-fc46-4a01-864d-c9c2fe51f9b3
-ms.author: windowsdriverdev
 ms.date: 07/13/2018
 ms.topic: interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

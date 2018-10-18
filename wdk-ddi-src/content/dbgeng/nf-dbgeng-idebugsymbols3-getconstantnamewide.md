@@ -6,11 +6,8 @@ description: The GetConstantNameWide method returns the name of the specified co
 old-location: debugger\getconstantnamewide.htm
 tech.root: debugger
 ms.assetid: 743d2f83-905b-4bc9-8e23-b330c3ca7629
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetConstantNameWide, GetConstantNameWide method [Windows Debugging], GetConstantNameWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetConstantNameWide method, IDebugSymbols3.GetConstantNameWide, IDebugSymbols3::GetConstantNameWide, dbgeng/IDebugSymbols3::GetConstantNameWide, debugger.getconstantnamewide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

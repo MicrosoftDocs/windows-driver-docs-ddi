@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilgsmmnmrparammask_2.htm
 tech.root: netvista
 ms.assetid: 9e58bd61-9cb7-40fb-a6e5-1e8a8d428774
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: RILGSMMNMRPARAMMASK, RILGSMMNMRPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_GSMNMR_ALL, RIL_PARAM_GSMNMR_ARFCN, RIL_PARAM_GSMNMR_BSID, RIL_PARAM_GSMNMR_CELLID, RIL_PARAM_GSMNMR_LAC, RIL_PARAM_GSMNMR_MNC, RIL_PARAM_GSMNMR_RXLEVEL, netvista.rilgsmmnmrparammask_2, rilapitypes/RILGSMMNMRPARAMMASK, rilapitypes/RIL_PARAM_GSMNMR_ALL, rilapitypes/RIL_PARAM_GSMNMR_ARFCN, rilapitypes/RIL_PARAM_GSMNMR_BSID, rilapitypes/RIL_PARAM_GSMNMR_CELLID, rilapitypes/RIL_PARAM_GSMNMR_LAC, rilapitypes/RIL_PARAM_GSMNMR_MNC, rilapitypes/RIL_PARAM_GSMNMR_RXLEVEL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
 req.include-header:
@@ -57,7 +54,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```cpp
 typedef enum _RILGSMMNMRPARAMMASK {
   RIL_PARAM_GSMNMR_MNC,
   RIL_PARAM_GSMNMR_LAC,
@@ -67,7 +64,7 @@ typedef enum _RILGSMMNMRPARAMMASK {
   RIL_PARAM_GSMNMR_RXLEVEL,
   RIL_PARAM_GSMNMR_ALL
 } RILGSMMNMRPARAMMASK;
-````
+```
 
 
 ## -enum-fields

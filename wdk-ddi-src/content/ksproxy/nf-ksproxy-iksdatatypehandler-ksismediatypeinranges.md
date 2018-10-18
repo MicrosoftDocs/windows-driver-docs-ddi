@@ -6,11 +6,8 @@ description: The KsIsMediaTypeInRanges method validates that a media type is wit
 old-location: stream\iksdatatypehandler_ksismediatypeinranges.htm
 tech.root: stream
 ms.assetid: 354dcd2b-fa63-4574-94d8-149e3f199751
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: IKsDataTypeHandler interface [Streaming Media Devices],KsIsMediaTypeInRanges method, IKsDataTypeHandler.KsIsMediaTypeInRanges, IKsDataTypeHandler::KsIsMediaTypeInRanges, KsIsMediaTypeInRanges, KsIsMediaTypeInRanges method [Streaming Media Devices], KsIsMediaTypeInRanges method [Streaming Media Devices],IKsDataTypeHandler interface, ksproxy/IKsDataTypeHandler::KsIsMediaTypeInRanges, ksproxy_ebd4f24e-02a2-4228-b11b-890693ece498.xml, stream.iksdatatypehandler_ksismediatypeinranges
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ksproxy.h
 req.include-header: 

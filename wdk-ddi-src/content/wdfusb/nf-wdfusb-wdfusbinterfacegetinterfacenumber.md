@@ -6,11 +6,8 @@ description: The WdfUsbInterfaceGetInterfaceNumber method returns the interface 
 old-location: wdf\wdfusbinterfacegetinterfacenumber.htm
 tech.root: wdf
 ms.assetid: bc39e3ae-6899-423d-be1d-b3322efface8
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFUsbRef_035fbae3-67d4-4df6-8718-30851a0d60ca.xml, WdfUsbInterfaceGetInterfaceNumber, WdfUsbInterfaceGetInterfaceNumber method, kmdf.wdfusbinterfacegetinterfacenumber, wdf.wdfusbinterfacegetinterfacenumber, wdfusb/WdfUsbInterfaceGetInterfaceNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

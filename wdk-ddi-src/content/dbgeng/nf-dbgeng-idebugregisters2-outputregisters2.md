@@ -6,11 +6,8 @@ description: The OutputRegisters2 method formats and outputs the target's regist
 old-location: debugger\outputregisters2.htm
 tech.root: debugger
 ms.assetid: 444f7264-6072-4ee2-b3fd-030affa502b7
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugRegisters2 interface [Windows Debugging],OutputRegisters2 method, IDebugRegisters2.OutputRegisters2, IDebugRegisters2::OutputRegisters2, IDebugRegisters_ecc2b40a-622b-4f1f-867b-2eb6b575559d.xml, OutputRegisters2, OutputRegisters2 method [Windows Debugging], OutputRegisters2 method [Windows Debugging],IDebugRegisters2 interface, dbgeng/IDebugRegisters2::OutputRegisters2, debugger.outputregisters2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: DbgEng.h

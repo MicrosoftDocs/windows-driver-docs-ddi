@@ -6,11 +6,8 @@ description: An EventHandler routine processes event requests.
 old-location: audio\eventhandler.htm
 tech.root: audio
 ms.assetid: 06239870-8ed8-49c9-a9d4-fd3e28f3ab58
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: EventHandler, EventHandler callback function [Audio Devices], PCPFNEVENT_HANDLER, PCPFNEVENT_HANDLER callback, audio.eventhandler, audmp-routines_f75ad8d3-9abe-4f8a-97d4-605a18586ecb.xml, portcls/EventHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: portcls.h
 req.include-header: Portcls.h

@@ -6,11 +6,8 @@ description: The WdfDeviceAssignInterfaceProperty method modifies the current va
 old-location: wdf\wdfdeviceassigninterfaceproperty.htm
 tech.root: wdf
 ms.assetid: 49608EE6-1666-4430-AD22-9627EEF6F223
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WdfDeviceAssignInterfaceProperty, WdfDeviceAssignInterfaceProperty method, wdf.wdfdeviceassigninterfaceproperty, wdfdevice/WdfDeviceAssignInterfaceProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h

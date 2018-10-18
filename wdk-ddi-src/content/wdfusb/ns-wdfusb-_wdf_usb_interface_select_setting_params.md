@@ -6,11 +6,8 @@ description: The WDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure contains sele
 old-location: wdf\wdf_usb_interface_select_setting_params.htm
 tech.root: wdf
 ms.assetid: fad8a205-8427-48c5-b4b5-b125aa9fe85c
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS, DFUsbRef_a32b6d83-abf8-4cc6-9ce3-3d03551164a4.xml, PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS, PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure pointer, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure, _WDF_USB_INTERFACE_SELECT_SETTING_PARAMS, kmdf.wdf_usb_interface_select_setting_params, wdf.wdf_usb_interface_select_setting_params, wdfusb/PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS, wdfusb/WDF_USB_INTERFACE_SELECT_SETTING_PARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

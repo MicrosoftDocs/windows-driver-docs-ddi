@@ -6,11 +6,8 @@ description: The AddSymbolWide method adds a symbol to a symbol group.
 old-location: debugger\addsymbolwide.htm
 tech.root: debugger
 ms.assetid: 1c363649-4eff-4ad1-bc31-b060e2eb15d5
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: AddSymbolWide, AddSymbolWide method [Windows Debugging], AddSymbolWide method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],AddSymbolWide method, IDebugSymbolGroup2.AddSymbolWide, IDebugSymbolGroup2::AddSymbolWide, dbgeng/IDebugSymbolGroup2::AddSymbolWide, debugger.addsymbolwide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

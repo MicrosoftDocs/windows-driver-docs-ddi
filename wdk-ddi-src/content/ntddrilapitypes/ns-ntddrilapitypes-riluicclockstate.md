@@ -6,11 +6,8 @@ description: This structure represents a RILUICCLOCKSTATE.
 old-location: netvista\riluicclockstate.htm
 tech.root: netvista
 ms.assetid: bc27f7b8-8de0-4eae-a22b-0e5c76378b1a
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*LPRILUICCLOCKSTATE, RILUICCLOCKSTATE, RILUICCLOCKSTATE structure [Network Drivers Starting with Windows Vista], netvista.riluicclockstate, rilapitypes/RILUICCLOCKSTATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
 req.include-header: Ntddrilapitypes.h
@@ -56,7 +53,7 @@ req.typenames: RILUICCLOCKSTATE, *LPRILUICCLOCKSTATE
 ## -syntax
 
 
-````
+```cpp
 struct RILUICCLOCKSTATE {
   DWORD       cbSize;
   DWORD       dwParams;
@@ -65,7 +62,7 @@ struct RILUICCLOCKSTATE {
   DWORD       dwVerifyAttemptsLeft;
   DWORD       dwUnblockAttemptsLeft;
 };
-````
+```
 
 
 ## -struct-fields

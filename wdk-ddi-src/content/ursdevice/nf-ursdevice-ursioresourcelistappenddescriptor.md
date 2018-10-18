@@ -6,11 +6,8 @@ description: Appends the specified resource descriptor to the specified I/O reso
 old-location: buses\ursioresourcelistappenddescriptor.htm
 tech.root: usbref
 ms.assetid: 80AE8211-EA8F-4967-A496-39053CD578D1
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: UrsIoResourceListAppendDescriptor, UrsIoResourceListAppendDescriptor function [Buses], buses.ursioresourcelistappenddescriptor, ursdevice/UrsIoResourceListAppendDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ursdevice.h
 req.include-header: Urscx.h
@@ -89,7 +86,7 @@ To add a resource descriptors for a role, the driver calls <b>UrsIoResourceListA
 
 For a code example, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt595921">EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS</a>.
 
-For more information about resource requirements lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Handling Hardware Resources</a>.
+For more information about resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Handling Hardware Resources</a>.
 
 
 

@@ -6,11 +6,8 @@ description: The WdfRequestIsCanceled method determines whether the I/O manager 
 old-location: wdf\wdfrequestiscanceled.htm
 tech.root: wdf
 ms.assetid: 73ec4bf1-ba48-4b51-8824-61ce42f9708d
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFRequestObjectRef_2306854d-71f7-475f-bd8c-a74e2e6630ca.xml, WdfRequestIsCanceled, WdfRequestIsCanceled method, kmdf.wdfrequestiscanceled, wdf.wdfrequestiscanceled, wdfrequest/WdfRequestIsCanceled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfrequest.h
 req.include-header: Wdf.h
@@ -99,11 +96,11 @@ If your driver has not called <a href="https://msdn.microsoft.com/library/window
 
 If the driver has called <a href="https://msdn.microsoft.com/library/windows/hardware/ff549983">WdfRequestMarkCancelable</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff549984">WdfRequestMarkCancelableEx</a>, it must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550035">WdfRequestUnmarkCancelable</a> before calling <b>WdfRequestIsCanceled</b>.
 
-A driver can call <b>WdfRequestIsCanceled</b> for a request only if the driver <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-ownership">owns</a> the I/O request. 
+A driver can call <b>WdfRequestIsCanceled</b> for a request only if the driver <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/request-ownership">owns</a> the I/O request. 
 
 If <b>WdfRequestIsCanceled</b> returns <b>TRUE</b>, your driver should cancel the request by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549945">WdfRequestComplete</a> with a <i>Status</i> parameter of STATUS_CANCELLED. If the driver attempts to complete a request that it does not own, the driver can cause the system to crash.
 
-For more information about <b>WdfRequestIsCanceled</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/canceling-i-o-requests">Canceling I/O Requests</a>
+For more information about <b>WdfRequestIsCanceled</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/canceling-i-o-requests">Canceling I/O Requests</a>
 
 
 

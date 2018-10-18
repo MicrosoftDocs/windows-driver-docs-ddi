@@ -6,11 +6,8 @@ description: Adds a single number to the collection.
 old-location: dtf\iwdtfnumbers2_add.htm
 tech.root: dtf
 ms.assetid: 162f8fce-c944-4ed2-82f1-332e986b9f77
-ms.author: windowsdriverdev
 ms.date: 4/4/2018
 ms.keywords: Add, Add method [Windows Device Testing Framework], Add method [Windows Device Testing Framework],IWDTFNumbers2 interface, IWDTFNumbers2 interface [Windows Device Testing Framework],Add method, IWDTFNumbers2.Add, IWDTFNumbers2::Add, Microsoft.WDTF.IWDTFNumbers2.Add, Microsoft::WDTF::IWDTFNumbers2::Add, dtf.iwdtfnumbers2_add, wdtf/IWDTFNumbers2::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtf.h
 req.include-header: 

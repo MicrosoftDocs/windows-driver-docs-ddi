@@ -4,11 +4,8 @@ title: EVT_SENSOR_DRIVER_START_HISTORY_RETRIEVAL
 author: windows-driver-content
 description: Starts retrieving the history recorded so far in the sensor.
 ms.assetid: 97eccb93-e184-4350-a47e-2072bf368893
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: sensorscx.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Starts retrieving the history recorded so far in the sensor.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_SENSOR_DRIVER_START_HISTORY_RETRIEVAL EvtSensorDriverStartHistoryRetrieval; 

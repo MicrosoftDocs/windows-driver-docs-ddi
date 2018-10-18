@@ -4,11 +4,8 @@ title: _USBPM_CONNECTOR_STATE
 author: windows-driver-content
 description: Describes the state of a connector.
 ms.assetid: 5430de09-aae7-49da-ae7f-50fd996e4386
-ms.author: windowsdriverdev
 ms.date: 9/30/2018 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 tech.root: usbref
 ms.keywords: _USBPM_CONNECTOR_STATE, USBPM_CONNECTOR_STATE, *PUSBPM_CONNECTOR_STATE, 
 req.header: usbpmapi.h

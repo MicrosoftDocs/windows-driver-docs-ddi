@@ -6,11 +6,8 @@ description: This structure contains the ROI info structure for white balance.
 old-location: stream\kscamera_extendedprop_roi_whitebalance.htm
 tech.root: stream
 ms.assetid: 16BDC61E-390C-4D79-A8D0-049404974733
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE, KSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE, KSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE, PKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE, ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE, stream.kscamera_extendedprop_roi_whitebalance, tagKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksmedia.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The ZwQueryVolumeInformationFile routine retrieves information abou
 old-location: kernel\zwqueryvolumeinformationfile.htm
 tech.root: kernel
 ms.assetid: f83b7171-e250-4c2c-b3cc-2924f58e406e
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: NtQueryVolumeInformationFile, ZwQueryVolumeInformationFile, ZwQueryVolumeInformationFile routine [Kernel-Mode Driver Architecture], k111_1ca2c72d-6eb1-4bfa-a1f9-06cc26643662.xml, kernel.zwqueryvolumeinformationfile, ntifs/NtQueryVolumeInformationFile, ntifs/ZwQueryVolumeInformationFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h, Ntddk.h

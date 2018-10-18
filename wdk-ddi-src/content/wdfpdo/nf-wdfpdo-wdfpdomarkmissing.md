@@ -6,11 +6,8 @@ description: The WdfPdoMarkMissing method informs the framework that a device is
 old-location: wdf\wdfpdomarkmissing.htm
 tech.root: wdf
 ms.assetid: f35e1ed4-eaa9-423c-95cb-5eb96231d592
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_a4198313-bd10-4b8a-a032-f253cdaccc7b.xml, WdfPdoMarkMissing, WdfPdoMarkMissing method, kmdf.wdfpdomarkmissing, wdf.wdfpdomarkmissing, wdfpdo/WdfPdoMarkMissing
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfpdo.h
 req.include-header: Wdf.h
@@ -118,7 +115,7 @@ For more information about <b>WdfPdoMarkMissing</b>, see <a href="https://msdn.m
 
 #### Examples
 
-The following code example searches a list of child devices to find one that matches a specified serial number. When the example finds the correct child, it calls <b>WdfPdoMarkMissing</b> to indicate that the child is not accessible. This example was taken from the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">Toaster</a> sample bus driver and simplified.
+The following code example searches a list of child devices to find one that matches a specified serial number. When the example finds the correct child, it calls <b>WdfPdoMarkMissing</b> to indicate that the child is not accessible. This example was taken from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">Toaster</a> sample bus driver and simplified.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

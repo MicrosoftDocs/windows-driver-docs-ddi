@@ -6,11 +6,8 @@ description: The PsIsSystemThread routine checks whether a given thread is a sys
 old-location: kernel\psissystemthread.htm
 tech.root: kernel
 ms.assetid: ecbea013-b876-4690-a455-ebe420a4f050
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: PsIsSystemThread, PsIsSystemThread routine [Kernel-Mode Driver Architecture], k108_eacaf1ad-4ab8-49a6-9d43-3aba7821e110.xml, kernel.psissystemthread, ntifs/PsIsSystemThread
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

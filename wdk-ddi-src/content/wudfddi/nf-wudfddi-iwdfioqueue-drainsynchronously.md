@@ -6,11 +6,8 @@ description: The DrainSynchronously method directs the queue to reject new incom
 old-location: wdf\iwdfioqueue_drainsynchronously.htm
 tech.root: wdf
 ms.assetid: 6dc32dd7-e15b-4c93-92d1-5b7206ed98c0
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DrainSynchronously, DrainSynchronously method, DrainSynchronously method,IWDFIoQueue interface, IWDFIoQueue interface,DrainSynchronously method, IWDFIoQueue.DrainSynchronously, IWDFIoQueue::DrainSynchronously, UMDFQueueObjectRef_35105420-0461-4879-aba2-28c32ece9aab.xml, umdf.iwdfioqueue_drainsynchronously, wdf.iwdfioqueue_drainsynchronously, wudfddi/IWDFIoQueue::DrainSynchronously
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>DrainSynchronously</b> method directs the queue to reject new incoming I/O requests and allows already-queued requests to be delivered to the driver for processing. This method returns after all requests are completed or canceled.
 

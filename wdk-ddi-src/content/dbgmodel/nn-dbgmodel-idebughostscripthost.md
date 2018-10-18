@@ -4,11 +4,8 @@ title: IDebugHostScriptHost
 author: windows-driver-content
 description: An interface which the underlying debugger host must implement in order to manage data model scripts.
 ms.assetid: d0376d3b-d770-44e6-8b8f-5d8cc361bf14
-ms.author: windowsdriverdev
 ms.date: 07/13/2018
 ms.topic: interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

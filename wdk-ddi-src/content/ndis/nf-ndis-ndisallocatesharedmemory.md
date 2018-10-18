@@ -6,11 +6,8 @@ description: The NdisAllocateSharedMemory function allocates shared memory from 
 old-location: netvista\ndisallocatesharedmemory.htm
 tech.root: netvista
 ms.assetid: 1e4919df-7897-44c3-876f-0f1acfe6d5af
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisAllocateSharedMemory, NdisAllocateSharedMemory function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateSharedMemory, ndis_shared_memory_ref_252ce78e-6920-4825-9537-c1ddd2f9f900.xml, netvista.ndisallocatesharedmemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

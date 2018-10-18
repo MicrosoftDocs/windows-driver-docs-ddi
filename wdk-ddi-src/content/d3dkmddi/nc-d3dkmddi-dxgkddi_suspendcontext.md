@@ -4,11 +4,8 @@ title: DXGKDDI_SUSPENDCONTEXT
 author: windows-driver-content
 description: Instruct the GPU to suspend a context.
 ms.assetid: 05af5f3c-0884-4d16-9320-874a3e0a1b4d
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Instruct the GPU to suspend a context. If the GPU doesn’t acknowledge the susp
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_SUSPENDCONTEXT DxgkddiSuspendcontext;

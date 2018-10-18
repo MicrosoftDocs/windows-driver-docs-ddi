@@ -6,11 +6,8 @@ description: This structure is used to hold parameters for a transmit or receive
 old-location: netvista\ndis_pd_queue_parameters.htm
 tech.root: netvista
 ms.assetid: AE9110D8-FB13-43DA-8BAA-8DD88CA3492A
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NDIS_PD_QUEUE_PARAMETERS, NDIS_PD_QUEUE_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_PD_QUEUE_PARAMETERS, ndis/NDIS_PD_QUEUE_PARAMETERS, netvista.ndis_pd_queue_parameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndis.h
 req.include-header: 
@@ -90,7 +87,7 @@ The minimum <a href="https://msdn.microsoft.com/library/windows/hardware/dn93186
 
 ### -field Affinity
 
-The processor affinity is a hint to the provider for performance optimization. The platform will primarily be processing the queue on processors indicated by this mask. The provider must set this value to the processor core derived from the indirection table configured from <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">OID_GEN_RECEIVE_SCALE_PARAMETERS</a>
+The processor affinity is a hint to the provider for performance optimization. The platform will primarily be processing the queue on processors indicated by this mask. The provider must set this value to the processor core derived from the indirection table configured from <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">OID_GEN_RECEIVE_SCALE_PARAMETERS</a>
 
 
 
@@ -112,7 +109,7 @@ For receive queues, this is the maximum number of partial <a href="https://msdn.
 
 This is a handle to the transmit queue counter for transmit queues and a receive queue counter for receive queues.During queue creation, a client can optionally provide a counter handle. In this case and depending on the queue type, the provider must update the counter values as activity occurs on the queue. The client is responsible for closing the counter handle only after the queue is closed.
 
-For queues that are not directly created by the client, such as RSS receive queues obtained using the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt808524(d=robot)">NdisPDOnRssReceiveQueues</a>routine, the provider must always have an associated counter handle with the queue. That is, for a given set of RSS receive queues, the provider must have one dedicated receive queue counter for each receive queue.
+For queues that are not directly created by the client, such as RSS receive queues obtained using the <a href="https://msdn.microsoft.com/library/windows/hardware/mt808524(d=robot)">NdisPDOnRssReceiveQueues</a>routine, the provider must always have an associated counter handle with the queue. That is, for a given set of RSS receive queues, the provider must have one dedicated receive queue counter for each receive queue.
 
 
 #### - UserPriority

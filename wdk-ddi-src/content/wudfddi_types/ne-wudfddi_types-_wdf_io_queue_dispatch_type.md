@@ -6,11 +6,8 @@ description: The WDF_IO_QUEUE_DISPATCH_TYPE enumeration contains values that ide
 old-location: wdf\wdf_io_queue_dispatch_type_umdf.htm
 tech.root: wdf
 ms.assetid: 40f4cd91-ba84-426c-b248-6027d1e8d1a4
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WDF_IO_QUEUE_DISPATCH_TYPE, WDF_IO_QUEUE_DISPATCH_TYPE enumeration, WdfIoQueueDispatchManual, WdfIoQueueDispatchMaximum, WdfIoQueueDispatchParallel, WdfIoQueueDispatchSequential, _WDF_IO_QUEUE_DISPATCH_TYPE, umdf.wdf_io_queue_dispatch_type, umdfstructs_7f7744f6-7f47-4e8e-a74d-fb0217a59f34.xml, wdf.wdf_io_queue_dispatch_type_umdf, wudfddi_types/WDF_IO_QUEUE_DISPATCH_TYPE, wudfddi_types/WdfIoQueueDispatchManual, wudfddi_types/WdfIoQueueDispatchMaximum, wudfddi_types/WdfIoQueueDispatchParallel, wudfddi_types/WdfIoQueueDispatchSequential
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wudfddi_types.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames: WDF_IO_QUEUE_DISPATCH_TYPE
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff552362">WDF_IO_QUEUE_DISPATCH_TYPE</a> enumeration contains values that identify how a driver must receive requests from an I/O queue.

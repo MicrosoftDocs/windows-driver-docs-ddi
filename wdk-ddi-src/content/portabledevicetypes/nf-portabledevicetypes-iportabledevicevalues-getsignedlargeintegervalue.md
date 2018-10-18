@@ -6,11 +6,8 @@ description: Retrieves a LONGLONG value (type VT_I8) that is specified by a key.
 old-location: wpddk\iportabledevicevalues_getsignedlargeintegervalue.htm
 tech.root: wpd_dk
 ms.assetid: 3a086a7e-22e3-4d60-9f10-4db442fcc6f9
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: GetSignedLargeIntegerValue, GetSignedLargeIntegerValue method, GetSignedLargeIntegerValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetSignedLargeIntegerValue method, IPortableDeviceValues.GetSignedLargeIntegerValue, IPortableDeviceValues::GetSignedLargeIntegerValue, IPortableDeviceValuesGetSignedLargeIntegerValue, portabledevicetypes/IPortableDeviceValues::GetSignedLargeIntegerValue, wpddk.iportabledevicevalues_getsignedlargeintegervalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledevicetypes.h
 req.include-header: 

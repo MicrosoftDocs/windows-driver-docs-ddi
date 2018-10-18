@@ -4,11 +4,8 @@ title: PFND3D12DDI_CREATESCHEDULINGGROUPCONTEXTVIRTUAL_CB_0050
 author: windows-driver-content
 description: Creates a virtual context associated with a scheduling group.
 ms.assetid: 2f9548d8-0cde-42f4-9eee-ce1af049265b
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Creates a virtual context associated with a scheduling group.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATESCHEDULINGGROUPCONTEXTVIRTUAL_CB_0050 Pfnd3d12ddiCreateschedulinggroupcontextvirtualCb0050; 

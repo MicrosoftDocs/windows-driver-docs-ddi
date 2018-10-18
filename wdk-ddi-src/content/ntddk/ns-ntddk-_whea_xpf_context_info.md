@@ -6,11 +6,8 @@ description: The WHEA_XPF_CONTEXT_INFO structure describes processor context inf
 old-location: whea\whea_xpf_context_info.htm
 tech.root: whea
 ms.assetid: 044af92b-b77c-415c-9ca5-4436bfe497e5
-ms.author: windowsdriverdev
 ms.date: 2/20/2018
 ms.keywords: "*PWHEA_XPF_CONTEXT_INFO, PWHEA_XPF_CONTEXT_INFO, PWHEA_XPF_CONTEXT_INFO structure pointer [WHEA Drivers and Applications], WHEA_XPF_CONTEXT_INFO, WHEA_XPF_CONTEXT_INFO structure [WHEA Drivers and Applications], _WHEA_XPF_CONTEXT_INFO, ntddk/PWHEA_XPF_CONTEXT_INFO, ntddk/WHEA_XPF_CONTEXT_INFO, whea.whea_xpf_context_info, whearef_3e1bae81-9b21-4b0c-bd86-b957afb95713.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddk.h
 req.include-header: Ntddk.h

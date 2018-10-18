@@ -4,11 +4,8 @@ title: PFND3DKMT_QUERYHYBRIDLISTVALUE
 author: windows-driver-content
 description: The PFND3DKMT_QUERYHYBRIDLISTVALUE callback function queries for the hybrid list value.
 ms.assetid: ccfe5778-0d18-4196-b840-2f53d9ed36a8
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3DKMT_QUERYHYBRIDLISTVALUE callback function queries for the hybrid list
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_QUERYHYBRIDLISTVALUE Pfnd3dkmtQueryhybridlistvalue; 

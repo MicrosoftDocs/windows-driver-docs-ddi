@@ -6,11 +6,8 @@ description: The GetInformation method retrieves information about a USB pipe (e
 old-location: wdf\iwdfusbtargetpipe_getinformation.htm
 tech.root: wdf
 ms.assetid: b1462a64-debf-441f-8964-4644074e5e53
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: GetInformation, GetInformation method, GetInformation method,IWDFUsbTargetPipe interface, IWDFUsbTargetPipe interface,GetInformation method, IWDFUsbTargetPipe.GetInformation, IWDFUsbTargetPipe::GetInformation, UMDFUSBref_4d7b2b77-fa26-45e2-8f3f-e0315d70f937.xml, umdf.iwdfusbtargetpipe_getinformation, wdf.iwdfusbtargetpipe_getinformation, wudfusb/IWDFUsbTargetPipe::GetInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetInformation</b> method retrieves information about a USB pipe (endpoint).
 

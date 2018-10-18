@@ -6,11 +6,8 @@ description: Re-enumerates all devices in the system.
 old-location: dtf\iwdtfdriversetupsystemaction2_rescanalldevices.htm
 tech.root: dtf
 ms.assetid: 8577428f-aefa-46f5-831e-98f6514177a1
-ms.author: windowsdriverdev
 ms.date: 4/4/2018
 ms.keywords: IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework],RescanAllDevices method, IWDTFDriverSetupSystemAction2.RescanAllDevices, IWDTFDriverSetupSystemAction2::RescanAllDevices, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.RescanAllDevices, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::RescanAllDevices, RescanAllDevices, RescanAllDevices method [Windows Device Testing Framework], RescanAllDevices method [Windows Device Testing Framework],IWDTFDriverSetupSystemAction2 interface, dtf.iwdtfdriversetupsystemaction2_rescanalldevices, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::RescanAllDevices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtfdriversetupsystemaction.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The IDebugClient7 interface is reserved for internal use.
 old-location: debugger\idebugclient7.htm
 tech.root: debugger
 ms.assetid: 16FBD831-D7AE-4B10-B76E-6CA42C9CABEB
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugClient7, IDebugClient7 interface [Windows Debugging], IDebugClient7 interface [Windows Debugging],described, dbgeng/IDebugClient7, debugger.idebugclient7
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

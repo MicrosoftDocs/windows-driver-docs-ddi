@@ -6,11 +6,8 @@ description: The wiauDbgErrorHr function logs a message containing an HRESULT an
 old-location: image\wiaudbgerrorhr.htm
 tech.root: image
 ms.assetid: 18d248d9-d447-4d3e-9eaa-f6befb4bef58
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: image.wiaudbgerrorhr, wiauDbgErrorHr, wiauDbgErrorHr function [Imaging Devices], wiauFncs_1400188e-53d1-481c-a470-8a2247b7f34f.xml, wiautil/wiauDbgErrorHr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiautil.h
 req.include-header: Wiautil.h

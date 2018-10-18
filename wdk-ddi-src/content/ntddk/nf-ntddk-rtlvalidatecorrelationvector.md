@@ -6,11 +6,8 @@ description: Validates the specified correlation vector to check whether it conf
 old-location: kernel\rtlvalidatecorrelationvector.htm
 tech.root: kernel
 ms.assetid: a73ab33b-3e8c-43d8-8547-1483bcd2af52
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlValidateCorrelationVector, RtlValidateCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlvalidatecorrelationvector, ntddk/RtlValidateCorrelationVector
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: 

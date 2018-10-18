@@ -6,11 +6,8 @@ description: Holds per-driver Indirect Display information. Reserved for use by 
 old-location: display\idd_driver_globals.htm
 tech.root: display
 ms.assetid: 77d2c668-21e4-4c6d-9f3d-7e34c660d1da
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: "*PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS structure [Display Devices], display.idd_driver_globals, iddcx/IDD_DRIVER_GLOBALS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iddcx.h
 req.include-header: 

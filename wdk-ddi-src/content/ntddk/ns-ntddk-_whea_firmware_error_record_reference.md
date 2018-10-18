@@ -6,11 +6,8 @@ description: The WHEA_FIRMWARE_ERROR_RECORD_REFERENCE structure describes a refe
 old-location: whea\whea_firmware_error_record_reference.htm
 tech.root: whea
 ms.assetid: 950a9b93-ef69-4075-9231-eb481a53c617
-ms.author: windowsdriverdev
 ms.date: 2/20/2018
 ms.keywords: "*PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE, *PWHEA_FIRMWARE_RECORD, PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE, PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE structure pointer [WHEA Drivers and Applications], WHEA_FIRMWARE_ERROR_RECORD_REFERENCE, WHEA_FIRMWARE_ERROR_RECORD_REFERENCE structure [WHEA Drivers and Applications], WHEA_FIRMWARE_RECORD, _WHEA_FIRMWARE_ERROR_RECORD_REFERENCE, ntddk/PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE, ntddk/WHEA_FIRMWARE_ERROR_RECORD_REFERENCE, whea.whea_firmware_error_record_reference, whearef_b43d8c6f-f768-47a1-9494-4a4bfac7d586.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddk.h
 req.include-header: Ntddk.h

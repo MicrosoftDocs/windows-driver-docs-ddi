@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMTSetDisplayMode function sets the allocation that is used to scan out to the display.
 old-location: display\d3dkmtsetdisplaymode.htm
 ms.assetid: bf51b8dc-82e8-420e-bc3d-7cb9e8d72b9f
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DKMTSetDisplayMode, D3DKMTSetDisplayMode function [Display Devices], OpenGL_Functions_dc92e1c9-5873-42b6-a8f8-f6827091dac4.xml, d3dkmthk/D3DKMTSetDisplayMode, display.d3dkmtsetdisplaymode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

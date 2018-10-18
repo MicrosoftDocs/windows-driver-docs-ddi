@@ -6,11 +6,8 @@ description: IDebugAdvanced2 interface
 old-location: debugger\idebugadvanced2.htm
 tech.root: debugger
 ms.assetid: 9b5f73db-1fb8-4e07-8053-67cb5020505e
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugAdvanced2, IDebugAdvanced2 interface [Windows Debugging], IDebugAdvanced2 interface [Windows Debugging],described, dbgeng/IDebugAdvanced2, debugger.idebugadvanced2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

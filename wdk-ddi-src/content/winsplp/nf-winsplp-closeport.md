@@ -6,11 +6,8 @@ description: A language or port monitor's ClosePort function closes a printer po
 old-location: print\closeport.htm
 tech.root: print
 ms.assetid: 1d63f36d-4c62-40e9-b3c0-f6d847340b07
-ms.author: windowsdriverdev
 ms.date: 2/2/2018
 ms.keywords: print.closeport, winsplp/ClosePort, spoolfnc_fdd98daa-d14c-4534-a8c6-0070ccbbc3fe.xml, ClosePort, ClosePort function [Print Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsplp.h
 req.include-header: Winsplp.h
@@ -57,11 +54,11 @@ A language or port monitor's <b>ClosePort</b> function closes a printer port.
 ## -syntax
 
 
-````
+```cpp
 BOOL ClosePort(
   _In_ HANDLE hPort
 );
-````
+```
 
 
 ## -parameters

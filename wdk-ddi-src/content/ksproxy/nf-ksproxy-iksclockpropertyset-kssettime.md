@@ -6,11 +6,8 @@ description: The KsSetTime method sets the current time on the underlying clock.
 old-location: stream\iksclockpropertyset_kssettime.htm
 tech.root: stream
 ms.assetid: b1489593-9458-4e78-b59d-c8a780a3a3f1
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: IKsClockPropertySet interface [Streaming Media Devices],KsSetTime method, IKsClockPropertySet.KsSetTime, IKsClockPropertySet::KsSetTime, KsSetTime, KsSetTime method [Streaming Media Devices], KsSetTime method [Streaming Media Devices],IKsClockPropertySet interface, ksproxy/IKsClockPropertySet::KsSetTime, ksproxy_6d169c35-dd1b-4ccb-b028-f6a8d19e51ea.xml, stream.iksclockpropertyset_kssettime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ksproxy.h
 req.include-header: Ksproxy.h

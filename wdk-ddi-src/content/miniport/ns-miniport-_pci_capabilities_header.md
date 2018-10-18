@@ -6,11 +6,8 @@ description: The PCI_CAPABILITIES_HEADER structure defines a header that is pres
 old-location: pci\pci_capabilities_header.htm
 tech.root: PCI
 ms.assetid: 6a2ee9be-03bc-436d-91c7-f00222911b19
-ms.author: windowsdriverdev
 ms.date: 2/24/2018
 ms.keywords: "*PPCI_CAPABILITIES_HEADER, PCI.pci_capabilities_header, PCI_CAPABILITIES_HEADER, PCI_CAPABILITIES_HEADER structure [Buses], PPCI_CAPABILITIES_HEADER, PPCI_CAPABILITIES_HEADER structure pointer [Buses], _PCI_CAPABILITIES_HEADER, pci_struct_4e7e5552-8a1b-4081-9197-df863319b01d.xml, wdm/PCI_CAPABILITIES_HEADER, wdm/PPCI_CAPABILITIES_HEADER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: miniport.h
 req.include-header: Wdm.h, Miniport.h
@@ -56,12 +53,12 @@ The PCI_CAPABILITIES_HEADER structure defines a header that is present in every 
 ## -syntax
 
 
-````
+```cpp
 typedef struct _PCI_CAPABILITIES_HEADER {
   UCHAR CapabilityID;
   UCHAR Next;
 } PCI_CAPABILITIES_HEADER, *PPCI_CAPABILITIES_HEADER;
-````
+```
 
 
 ## -struct-fields

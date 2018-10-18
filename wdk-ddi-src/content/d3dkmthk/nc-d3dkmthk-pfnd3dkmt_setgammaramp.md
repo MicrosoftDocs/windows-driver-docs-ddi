@@ -4,11 +4,8 @@ title: PFND3DKMT_SETGAMMARAMP
 author: windows-driver-content
 description: The PFND3DKMT_SETGAMMARAMP callback function sets the gamma ramp.
 ms.assetid: 504b7ebc-5814-4c59-b9f4-0964e1e51f00
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3DKMT_SETGAMMARAMP callback function sets the gamma ramp.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SETGAMMARAMP Pfnd3dkmtSetgammaramp; 

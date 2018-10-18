@@ -6,11 +6,8 @@ description: A minifilter can register a routine of type PFLT_CONTEXT_FREE_CALLB
 old-location: ifsk\pflt_context_free_callback.htm
 tech.root: ifsk
 ms.assetid: 11c397c2-51a5-4acd-8029-cd002f990366
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: ContextFreeCallback, ContextFreeCallback routine [Installable File System Drivers], FltCallbacks_c7e2b5e1-5666-431c-9032-59914ef23336.xml, PFLT_CONTEXT_FREE_CALLBACK, fltkernel/ContextFreeCallback, ifsk.pflt_context_free_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

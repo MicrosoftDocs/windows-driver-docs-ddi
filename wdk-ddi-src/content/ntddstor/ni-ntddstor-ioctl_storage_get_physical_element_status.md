@@ -6,11 +6,8 @@ description: The IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS control code queries 
 old-location: storage\ioctl_storage_get_physical_element_status.htm
 tech.root: storage
 ms.assetid: ED46241E-1A71-447A-8D96-E81B4500E070
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS, IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS control, IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS control code [Storage Devices], ntddstor/IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS, storage.ioctl_storage_get_physical_element_status
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddstor.h
 req.include-header: WinIoctl.h
@@ -86,7 +83,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status is set to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 
 ## -remarks

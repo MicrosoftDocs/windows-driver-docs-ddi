@@ -6,11 +6,8 @@ description: The NdisIfAllocateNetLuidIndex function allocates a NET_LUID index 
 old-location: netvista\ndisifallocatenetluidindex.htm
 tech.root: netvista
 ms.assetid: bc62da04-242a-4d9a-8a85-2342a1b3e628
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisIfAllocateNetLuidIndex, NdisIfAllocateNetLuidIndex function [Network Drivers Starting with Windows Vista], ndis/NdisIfAllocateNetLuidIndex, net_if_functions_ref_3ffcc5c8-7475-475d-8732-dc59ee632285.xml, netvista.ndisifallocatenetluidindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

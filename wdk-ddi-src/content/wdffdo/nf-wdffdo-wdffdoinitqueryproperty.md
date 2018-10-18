@@ -6,11 +6,8 @@ description: The WdfFdoInitQueryProperty method retrieves a specified device pro
 old-location: wdf\wdffdoinitqueryproperty.htm
 tech.root: wdf
 ms.assetid: e58def50-3e35-43d9-9f7e-31283256b204
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_92306389-1cdf-4751-a0c5-552cdb5e4556.xml, WdfFdoInitQueryProperty, WdfFdoInitQueryProperty method, kmdf.wdffdoinitqueryproperty, wdf.wdffdoinitqueryproperty, wdffdo/WdfFdoInitQueryProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdffdo.h
 req.include-header: Wdf.h
@@ -149,7 +146,7 @@ Before receiving device property data, drivers typically must make an initial ca
 
 It is best to use <b>WdfFdoInitQueryProperty</b> only if the required buffer size is known and unchanging, because in that case the driver has to call <b>WdfFdoInitQueryProperty</b> only once. If the required buffer size is unknown or varies, the driver should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff547239">WdfFdoInitAllocAndQueryProperty</a>. 
 
-The driver can call <b>WdfFdoInitQueryProperty</b> only before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
+The driver can call <b>WdfFdoInitQueryProperty</b> only before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
 
 After calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>, a driver can obtain device property information by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff546820">WdfDeviceQueryProperty</a>.
 

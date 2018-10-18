@@ -4,12 +4,9 @@ title: D3D12DDI_RESOURCE_MAPPING_FLAGS
 author: windows-driver-content
 description: Specifies the resource mapping flags.
 ms.assetid: 2fe66683-3710-4ac6-9e98-3927c563d463
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: D3D12DDI_RESOURCE_MAPPING_FLAGS, D3D12DDI_RESOURCE_MAPPING_FLAGS, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

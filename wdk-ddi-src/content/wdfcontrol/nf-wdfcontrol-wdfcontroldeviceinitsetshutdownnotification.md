@@ -6,11 +6,8 @@ description: The WdfControlDeviceInitSetShutdownNotification method sets shutdow
 old-location: wdf\wdfcontroldeviceinitsetshutdownnotification.htm
 tech.root: wdf
 ms.assetid: 43a5a017-f5de-4906-acbb-96419b4a3f1c
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectControllerDevObjRef_ee736de4-6e27-46d9-8f83-40d7368c960a.xml, WdfControlDeviceInitSetShutdownNotification, WdfControlDeviceInitSetShutdownNotification method, kmdf.wdfcontroldeviceinitsetshutdownnotification, wdf.wdfcontroldeviceinitsetshutdownnotification, wdfcontrol/WdfControlDeviceInitSetShutdownNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfcontrol.h
 req.include-header: Wdf.h
@@ -89,7 +86,7 @@ None
 
 
 
-The driver must call <b>WdfControlDeviceInitSetShutdownNotification</b> before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>. For more information about calling <b>WdfControlDeviceInitSetShutdownNotification</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-control-device-objects">Using Control Device Objects</a>.
+The driver must call <b>WdfControlDeviceInitSetShutdownNotification</b> before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>. For more information about calling <b>WdfControlDeviceInitSetShutdownNotification</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-control-device-objects">Using Control Device Objects</a>.
 
 
 #### Examples

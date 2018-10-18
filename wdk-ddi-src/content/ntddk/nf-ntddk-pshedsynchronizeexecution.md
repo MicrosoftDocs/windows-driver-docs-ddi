@@ -6,11 +6,8 @@ description: The PshedSynchronizeExecution function synchronizes the execution o
 old-location: whea\pshedsynchronizeexecution.htm
 tech.root: whea
 ms.assetid: 299fd2fc-d7f4-4176-addd-d45d010b1056
-ms.author: windowsdriverdev
 ms.date: 2/20/2018
 ms.keywords: PshedSynchronizeExecution, PshedSynchronizeExecution function [WHEA Drivers and Applications], ntddk/PshedSynchronizeExecution, whea.pshedsynchronizeexecution, whearef_7a6363f4-466d-498a-97c4-b5f7937005dd.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

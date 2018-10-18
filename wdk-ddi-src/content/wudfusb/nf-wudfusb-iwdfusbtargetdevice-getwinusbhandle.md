@@ -6,11 +6,8 @@ description: The GetWinUsbHandle method retrieves the WinUsb interface handle th
 old-location: wdf\iwdfusbtargetdevice_getwinusbhandle.htm
 tech.root: wdf
 ms.assetid: 458cbe27-be75-49f4-9849-969d881e0cd2
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: GetWinUsbHandle, GetWinUsbHandle method, GetWinUsbHandle method,IWDFUsbTargetDevice interface, IWDFUsbTargetDevice interface,GetWinUsbHandle method, IWDFUsbTargetDevice.GetWinUsbHandle, IWDFUsbTargetDevice::GetWinUsbHandle, UMDFUSBref_7568c92e-e43d-4013-ab7c-1f4834cd5c14.xml, umdf.iwdfusbtargetdevice_getwinusbhandle, wdf.iwdfusbtargetdevice_getwinusbhandle, wudfusb/IWDFUsbTargetDevice::GetWinUsbHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetWinUsbHandle</b> method retrieves the WinUsb interface handle that is associated with a I/O target device object.
 

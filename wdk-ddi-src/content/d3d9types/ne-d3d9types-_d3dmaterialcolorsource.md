@@ -4,12 +4,9 @@ title: _D3DMATERIALCOLORSOURCE
 author: windows-driver-content
 description: 
 ms.assetid: 46d90afd-3ec6-41b8-aae6-f8b9daddd121
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: _D3DMATERIALCOLORSOURCE, D3DMATERIALCOLORSOURCE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d9types.h
 req.include-header:
 req.target-type:

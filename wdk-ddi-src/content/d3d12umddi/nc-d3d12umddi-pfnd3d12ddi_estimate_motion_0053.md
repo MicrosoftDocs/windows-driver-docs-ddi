@@ -4,11 +4,8 @@ title: PFND3D12DDI_ESTIMATE_MOTION_0053
 author: windows-driver-content
 description: Performs the motion estimation operation.
 ms.assetid: 52009f15-ea7a-4993-adce-c3b0a3b1e5ee
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Performs the motion estimation operation.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_ESTIMATE_MOTION_0053 Pfnd3d12ddiEstimateMotion0053; 

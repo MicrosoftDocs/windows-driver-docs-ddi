@@ -6,11 +6,8 @@ description: The FltGetFileNameInformation routine returns name information for 
 old-location: ifsk\fltgetfilenameinformation.htm
 tech.root: ifsk
 ms.assetid: 707e7e83-31d8-46cf-a2ef-e53a20edaeff
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_1ce08fd0-5e23-43de-b012-dd71086282ea.xml, FltGetFileNameInformation, FltGetFileNameInformation routine [Installable File System Drivers], fltkernel/FltGetFileNameInformation, ifsk.fltgetfilenameinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

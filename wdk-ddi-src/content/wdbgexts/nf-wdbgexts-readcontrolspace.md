@@ -6,11 +6,8 @@ description: The ReadControlSpace function reads the processor-specific control 
 old-location: debugger\readcontrolspace.htm
 tech.root: debugger
 ms.assetid: 4b6955a5-ca03-418d-9eba-fdbe48599922
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: ReadControlSpace, ReadControlSpace function [Windows Debugging], WdbgExts_Ref_8337344a-4a97-4f74-9be4-8fdd771d8bbf.xml, debugger.readcontrolspace, wdbgexts/ReadControlSpace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h

@@ -6,11 +6,8 @@ description: Not recommended for application use.
 old-location: stream\ikspinpipe_kssetpinbuscache.htm
 tech.root: stream
 ms.assetid: 5340DB05-12D9-4965-B207-BA113F3801A7
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsSetPinBusCache method, IKsPinPipe.KsSetPinBusCache, IKsPinPipe::KsSetPinBusCache, KsSetPinBusCache, KsSetPinBusCache method [Streaming Media Devices], KsSetPinBusCache method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsSetPinBusCache, stream.ikspinpipe_kssetpinbuscache
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ksproxy.h
 req.include-header: Ksproxy.h

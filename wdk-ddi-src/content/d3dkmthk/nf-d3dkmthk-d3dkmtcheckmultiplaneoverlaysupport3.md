@@ -4,7 +4,6 @@ title: D3DKMTCheckMultiPlaneOverlaySupport3 function
 author: windows-driver-content
 description: Checks multiplane overlay support.
 ms.assetid: 395fe4ec-ee7b-4c02-9ae0-ca3d2e062f1f
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: D3DKMTCheckMultiPlaneOverlaySupport3

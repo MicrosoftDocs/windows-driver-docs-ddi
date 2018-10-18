@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbChannelCleanup function disposes of a channel that was allocated by using the VmbChannelAllocate function or initialized by using a VMBus channel initialization function.
 tech.root: netvista
 ms.assetid: 08ed4d5b-5a84-43ac-b8b4-1bce6ece7f67
-ms.author: windowsdriverdev
 ms.date: 05/21/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:
@@ -50,7 +47,7 @@ The <b>VmbChannelCleanup</b> function disposes of a channel that was allocated b
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_CLEANUP FnVmbChannelCleanup; 

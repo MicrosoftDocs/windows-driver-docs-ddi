@@ -6,11 +6,8 @@ description: The GPIO_DISABLE_INTERRUPT_PARAMETERS structure describes a general
 old-location: gpio\gpio_disable_interrupt_parameters.htm
 tech.root: GPIO
 ms.assetid: 6F71C67C-ACA6-405A-9371-9DC72CC6DDCE
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PGPIO_DISABLE_INTERRUPT_PARAMETERS, GPIO.gpio_disable_interrupt_parameters, GPIO_DISABLE_INTERRUPT_PARAMETERS, GPIO_DISABLE_INTERRUPT_PARAMETERS structure [Parallel Ports], PGPIO_DISABLE_INTERRUPT_PARAMETERS, PGPIO_DISABLE_INTERRUPT_PARAMETERS structure pointer [Parallel Ports], _GPIO_DISABLE_INTERRUPT_PARAMETERS, gpioclx/GPIO_DISABLE_INTERRUPT_PARAMETERS, gpioclx/PGPIO_DISABLE_INTERRUPT_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: gpioclx.h
 req.include-header: 

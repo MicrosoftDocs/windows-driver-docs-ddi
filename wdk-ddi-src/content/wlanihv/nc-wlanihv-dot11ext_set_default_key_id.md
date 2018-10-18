@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extsetdefaultkeyid.htm
 tech.root: netvista
 ms.assetid: 405da147-9b41-4563-8694-6619f86ed366
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: DOT11EXT_SET_DEFAULT_KEY_ID, Dot11ExtSetDefaultKeyId, Dot11ExtSetDefaultKeyId callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_60922941-d9b1-4d73-8029-513d127944e2.xml, netvista.dot11extsetdefaultkeyid, wlanihv/Dot11ExtSetDefaultKeyId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
@@ -60,12 +57,12 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```cpp
 DWORD WINAPI * Dot11ExtSetDefaultKeyId(
   _In_opt_ HANDLE hDot11SvcHandle,
   _In_     ULONG  uDefaultKeyId
 );
-````
+```
 
 
 ## -parameters
@@ -115,7 +112,7 @@ The default key identifier (ID) specifies the index of a cipher key in the adapt
 
 A call to the
     <b>Dot11ExtSetDefaultKeyId</b> function results in a set request of the
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">
     OID_DOT11_CIPHER_DEFAULT_KEY_ID</a> object identifier (OID) to the Native 802.11 miniport driver, which
     manages the WLAN adapter.
 
@@ -124,7 +121,7 @@ A call to the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY_ID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY_ID</a>
 
 
 

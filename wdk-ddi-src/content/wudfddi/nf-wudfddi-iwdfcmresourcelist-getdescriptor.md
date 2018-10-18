@@ -6,11 +6,8 @@ description: The GetDescriptor method returns a pointer to a resource descriptor
 old-location: wdf\iwdfcmresourcelist_getdescriptor.htm
 tech.root: wdf
 ms.assetid: 5E870D10-A03B-4CD8-A2DD-54A6AB527DB2
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: GetDescriptor, GetDescriptor method, GetDescriptor method,IWDFCmResourceList interface, IWDFCmResourceList interface,GetDescriptor method, IWDFCmResourceList.GetDescriptor, IWDFCmResourceList::GetDescriptor, umdf.iwdfcmresourcelist_getdescriptor, wdf.iwdfcmresourcelist_getdescriptor, wudfddi/IWDFCmResourceList::GetDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: 
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 
 The <b>GetDescriptor</b> method returns a pointer to a resource descriptor that is contained in this interface's resource list.
@@ -85,7 +82,7 @@ Drivers typically call <b>GetDescriptor</b> from within <a href="https://msdn.mi
 
 The <a href="https://msdn.microsoft.com/96bf7bab-b8f5-439c-8717-ea6956ed0213">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure  is defined in Wudfwdm.h.
 
-For more information about parsing hardware resources, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/finding-and-mapping-hardware-resources-in-umdf-1-x-drivers">Finding and Mapping Hardware Resources in a UMDF Driver</a>.
+For more information about parsing hardware resources, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/finding-and-mapping-hardware-resources-in-umdf-1-x-drivers">Finding and Mapping Hardware Resources in a UMDF Driver</a>.
 
 
 #### Examples

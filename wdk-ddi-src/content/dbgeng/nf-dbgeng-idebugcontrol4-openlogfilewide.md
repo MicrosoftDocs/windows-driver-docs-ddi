@@ -6,11 +6,8 @@ description: The OpenLogFileWide method opens a log file that will receive outpu
 old-location: debugger\openlogfilewide.htm
 tech.root: debugger
 ms.assetid: 1e69812e-077e-476f-a253-f0c39575eb32
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugControl4 interface [Windows Debugging],OpenLogFileWide method, IDebugControl4.OpenLogFileWide, IDebugControl4::OpenLogFileWide, OpenLogFileWide, OpenLogFileWide method [Windows Debugging], OpenLogFileWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::OpenLogFileWide, debugger.openlogfilewide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

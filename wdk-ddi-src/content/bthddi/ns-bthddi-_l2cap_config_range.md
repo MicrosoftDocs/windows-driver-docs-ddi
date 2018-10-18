@@ -6,11 +6,8 @@ description: The L2CAP_CONFIG_RANGE structure is used to specify a range of poss
 old-location: bltooth\l2cap_config_range.htm
 tech.root: bltooth
 ms.assetid: 95f288ea-a32a-478f-870b-5aa6ff1edf44
-ms.author: windowsdriverdev
 ms.date: 4/27/2018
 ms.keywords: "*PL2CAP_CONFIG_RANGE, L2CAP_CONFIG_RANGE, L2CAP_CONFIG_RANGE structure [Bluetooth Devices], PL2CAP_CONFIG_RANGE, PL2CAP_CONFIG_RANGE structure pointer [Bluetooth Devices], _L2CAP_CONFIG_RANGE, bltooth.l2cap_config_range, bth_structs_86178813-5f20-4c58-8d70-c863217350b3.xml, bthddi/L2CAP_CONFIG_RANGE, bthddi/PL2CAP_CONFIG_RANGE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h

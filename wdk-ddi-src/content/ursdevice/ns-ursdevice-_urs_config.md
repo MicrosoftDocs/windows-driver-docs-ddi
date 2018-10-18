@@ -6,11 +6,8 @@ description: Contains pointers to event callback functions implemented by the UR
 old-location: buses\urs_config.htm
 tech.root: usbref
 ms.assetid: 3857CA53-6992-410A-96D1-EEA9CC586EDF
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: "*PURS_CONFIG, PURS_CONFIG, PURS_CONFIG structure pointer [Buses], URS_CONFIG, URS_CONFIG structure [Buses], _URS_CONFIG, buses.urs_config, ursdevice/PURS_CONFIG, ursdevice/URS_CONFIG"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ursdevice.h
 req.include-header: Urscx.h

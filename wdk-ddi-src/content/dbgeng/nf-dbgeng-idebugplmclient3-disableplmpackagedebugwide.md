@@ -6,11 +6,8 @@ description: Disables a Process Lifecycle Management (PLM) package debug.
 old-location: debugger\idebugplmclient3_disableplmpackagedebugwide.htm
 tech.root: debugger
 ms.assetid: 23A5BAC2-E8F3-47FF-9B63-3FFF447C33B4
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: DisablePlmPackageDebugWide, DisablePlmPackageDebugWide method [Windows Debugging], DisablePlmPackageDebugWide method [Windows Debugging],IDebugPlmClient3 interface, IDebugPlmClient3 interface [Windows Debugging],DisablePlmPackageDebugWide method, IDebugPlmClient3.DisablePlmPackageDebugWide, IDebugPlmClient3::DisablePlmPackageDebugWide, dbgeng/IDebugPlmClient3::DisablePlmPackageDebugWide, debugger.idebugplmclient3_disableplmpackagedebugwide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

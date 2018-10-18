@@ -6,11 +6,8 @@ description: The PEP_WORK_DEVICE_IDLE structure indicates whether to ignore the 
 old-location: kernel\pep_work_device_idle.htm
 tech.root: kernel
 ms.assetid: 054D45D8-EDAA-41F2-9884-4301F08B67CB
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PPEP_WORK_DEVICE_IDLE, PEP_WORK_DEVICE_IDLE, PEP_WORK_DEVICE_IDLE structure [Kernel-Mode Driver Architecture], PPEP_WORK_DEVICE_IDLE, PPEP_WORK_DEVICE_IDLE structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_DEVICE_IDLE, kernel.pep_work_device_idle, pep_x/PEP_WORK_DEVICE_IDLE, pep_x/PPEP_WORK_DEVICE_IDLE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pep_x.h
 req.include-header: Pepfx.h
@@ -60,7 +57,7 @@ The <b>PEP_WORK_DEVICE_IDLE</b> structure indicates whether to ignore the idle t
 
 ### -field DeviceHandle
 
-A handle that represents the registration of the device with the Windows <a href="https://msdn.microsoft.com/9F2D8ACD-44D5-46E0-9FC7-1B38B99450FF">power management framework</a> (PoFx). A POHANDLE value that represents the registration of the device with PoFx. The platform extension plug-in (PEP) previously received this handle from PoFx during the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification that informed the PEP that the device's driver stack registered the device with PoFx.
+A handle that represents the registration of the device with the Windows <a href="https://msdn.microsoft.com/9F2D8ACD-44D5-46E0-9FC7-1B38B99450FF">power management framework</a> (PoFx). A POHANDLE value that represents the registration of the device with PoFx. The platform extension plug-in (PEP) previously received this handle from PoFx during the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification that informed the PEP that the device's driver stack registered the device with PoFx.
 
 
 ### -field IgnoreIdleTimeout
@@ -82,7 +79,7 @@ The <b>DeviceIdle</b> member of the <a href="https://msdn.microsoft.com/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
 
 

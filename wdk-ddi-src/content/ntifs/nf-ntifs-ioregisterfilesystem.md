@@ -6,11 +6,8 @@ description: The IoRegisterFileSystem routine adds a file system's control devic
 old-location: ifsk\ioregisterfilesystem.htm
 tech.root: ifsk
 ms.assetid: 19d53afd-b63c-4fd3-9b08-c51e2a1247af
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: IoRegisterFileSystem, IoRegisterFileSystem routine [Installable File System Drivers], ifsk.ioregisterfilesystem, ioref_42200300-9ef6-4be9-8fee-bf42b027a809.xml, ntifs/IoRegisterFileSystem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

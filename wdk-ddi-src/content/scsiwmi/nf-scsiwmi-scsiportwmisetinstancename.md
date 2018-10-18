@@ -6,11 +6,8 @@ description: The ScsiPortWmiSetInstanceName routine updates the WNODE_ALL_DATA s
 old-location: storage\scsiportwmisetinstancename.htm
 tech.root: storage
 ms.assetid: f624959f-e232-4918-8f0b-f232471c2c67
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: ScsiPortWmiSetInstanceName, ScsiPortWmiSetInstanceName routine [Storage Devices], scsiprt_a6ff8339-8734-4635-a17e-c3ad7bb524c3.xml, scsiwmi/ScsiPortWmiSetInstanceName, storage.scsiportwmisetinstancename
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: scsiwmi.h
 req.include-header: Miniport.h, Scsi.h
@@ -51,7 +48,7 @@ req.typenames:
 
 
 The <b>ScsiPortWmiSetInstanceName</b> routine updates the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566372">WNODE_ALL_DATA</a> structure within the request context to specify the position and length of an instance name. 
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 

@@ -6,11 +6,8 @@ description: The DVD_REGION structure is used in conjunction with the IOCTL_DVD_
 old-location: storage\dvd_region.htm
 tech.root: storage
 ms.assetid: a2e31a1a-59e4-4a83-b866-944ef1693f65
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PDVD_REGION, DVD_REGION, DVD_REGION structure [Storage Devices], PDVD_REGION, PDVD_REGION structure pointer [Storage Devices], _DVD_REGION, ntddcdvd/DVD_REGION, ntddcdvd/PDVD_REGION, storage.dvd_region, structs-DVD_b1569a34-c55e-482b-b87e-30becd20e2c1.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h

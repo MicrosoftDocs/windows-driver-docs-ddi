@@ -6,11 +6,8 @@ description: NDIS calls a filter driver's FilterAttach function to allocate and 
 old-location: netvista\filterattach.htm
 tech.root: netvista
 ms.assetid: 0a15a8c9-74af-4d93-bd12-a3c81c177684
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FILTER_ATTACH, FILTER_ATTACH callback, FilterAttach, FilterAttach callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_1e3f64d6-a779-4732-824a-87af6a7adc25.xml, ndis/FilterAttach, netvista.filterattach
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -144,7 +141,7 @@ A pointer to an
     <i>FilterAttach</i> function when the specified filter module is in the 
     <i>Detached</i> state. NDIS can call 
     <i>FilterAttach</i> at any time after the call to the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a> function returns.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">FilterSetOptions</a> function returns.
 
 At the start of execution in 
     <i>FilterAttach</i>, the filter module enters the 
@@ -257,7 +254,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">FilterSetOptions</a>
 
 
 

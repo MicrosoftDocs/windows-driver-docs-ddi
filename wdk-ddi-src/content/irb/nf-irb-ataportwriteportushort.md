@@ -6,11 +6,8 @@ description: The AtaPortWritePortUshort routine transfers a USHORT value to the 
 old-location: storage\ataportwriteportushort.htm
 tech.root: storage
 ms.assetid: 14b47f0a-5de8-4650-8a90-40e9da8537f1
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: AtaPortWritePortUshort, AtaPortWritePortUshort routine [Storage Devices], atartns_1766efcd-f235-43ae-8fbe-ab56a858a7ee.xml, irb/AtaPortWritePortUshort, storage.ataportwriteportushort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
@@ -54,7 +51,7 @@ req.typenames:
 
 
 The <b>AtaPortWritePortUshort</b> routine transfers a USHORT value to the HBA.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 

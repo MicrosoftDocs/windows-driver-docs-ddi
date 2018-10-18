@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Creates an enumeration object for the video processor capabilities of the driver.
 old-location: display\createvideoprocessorenum.htm
 ms.assetid: 38c27502-7e8a-45a1-8a7c-315300502480
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: CreateVideoProcessorEnum, CreateVideoProcessorEnum callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM, PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM callback, d3d10umddi/CreateVideoProcessorEnum, display.createvideoprocessorenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

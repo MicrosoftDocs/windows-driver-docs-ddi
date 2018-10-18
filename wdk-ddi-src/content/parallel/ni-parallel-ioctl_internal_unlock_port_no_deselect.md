@@ -6,11 +6,8 @@ description: The IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT request frees a parallel
 old-location: parports\ioctl_internal_unlock_port_no_deselect.htm
 tech.root: parports
 ms.assetid: 516441bc-d240-43d2-a206-3d0bd8e712e9
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT, IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT control code [Parallel Ports], cisspd_a62d2a09-93e4-4fc4-ac5d-9589d930c794.xml, parallel/IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT, parports.ioctl_internal_unlock_port_no_deselect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: parallel.h
 req.include-header: Parallel.h
@@ -50,7 +47,7 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ##  Major Code:
 
 
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

@@ -6,11 +6,8 @@ description: The KsAddDevice function is the default AddDevice handler installed
 old-location: stream\ksadddevice.htm
 tech.root: stream
 ms.assetid: e7be1bb8-eb8a-4ebd-b824-bbaa41b21ca5
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsAddDevice, KsAddDevice function [Streaming Media Devices], avfunc_8d3f4443-fa48-4484-a2b3-2f3b70cc2ce5.xml, ks/KsAddDevice, stream.ksadddevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

@@ -6,11 +6,8 @@ description: The DOT11_WFD_DEVICE_LISTEN_CHANNEL structure describes the Wi-Fi D
 old-location: netvista\dot11_wfd_device_listen_channel.htm
 tech.root: netvista
 ms.assetid: F493F295-A133-454B-99AD-E216D105E707
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*PDOT11_WFD_DEVICE_LISTEN_CHANNEL, DOT11_WFD_DEVICE_LISTEN_CHANNEL, DOT11_WFD_DEVICE_LISTEN_CHANNEL structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_DEVICE_LISTEN_CHANNEL, PDOT11_WFD_DEVICE_LISTEN_CHANNEL structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_DEVICE_LISTEN_CHANNEL, netvista.dot11_wfd_device_listen_channel, windot11/DOT11_WFD_DEVICE_LISTEN_CHANNEL, windot11/PDOT11_WFD_DEVICE_LISTEN_CHANNEL"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Windot11.h
@@ -58,12 +55,12 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DOT11_WFD_DEVICE_LISTEN_CHANNEL {
   NDIS_OBJECT_HEADER Header;
   UCHAR              ChannelNumber;
 } DOT11_WFD_DEVICE_LISTEN_CHANNEL, *PDOT11_WFD_DEVICE_LISTEN_CHANNEL;
-````
+```
 
 
 ## -struct-fields

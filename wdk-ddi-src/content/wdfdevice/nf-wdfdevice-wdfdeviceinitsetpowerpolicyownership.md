@@ -6,11 +6,8 @@ description: The WdfDeviceInitSetPowerPolicyOwnership method establishes whether
 old-location: wdf\wdfdeviceinitsetpowerpolicyownership.htm
 tech.root: wdf
 ms.assetid: 4db198f5-9472-476d-bb0c-4858a3f98672
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_0c94f8f0-3b23-404a-83c2-1742785ff17d.xml, WdfDeviceInitSetPowerPolicyOwnership, WdfDeviceInitSetPowerPolicyOwnership method, kmdf.wdfdeviceinitsetpowerpolicyownership, wdf.wdfdeviceinitsetpowerpolicyownership, wdfdevice/WdfDeviceInitSetPowerPolicyOwnership
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h
@@ -104,14 +101,14 @@ If you are writing a framework-based bus driver or filter driver, and if the dev
 
 Only one driver in each stack can be the power policy owner, so you must ensure that only one driver calls <b>WdfDeviceInitSetPowerPolicyOwnership</b> with <i>IsPowerPolicyOwner</i> set to <b>TRUE</b>.
 
-If your driver calls <b>WdfDeviceInitSetPowerPolicyOwnership</b>, it must do so before it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
+If your driver calls <b>WdfDeviceInitSetPowerPolicyOwnership</b>, it must do so before it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
 
-For more information about calling <b>WdfDeviceInitSetPowerPolicyOwnership</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/power-policy-ownership">Power Policy Ownership</a>.
+For more information about calling <b>WdfDeviceInitSetPowerPolicyOwnership</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/power-policy-ownership">Power Policy Ownership</a>.
 
 
 #### Examples
 
-The following code example is from the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">Serial</a> sample driver. This example checks a registry value to determine if a driver should be the power policy owner. If the driver should not be the power policy owner, the example calls <b>WdfDeviceInitSetPowerPolicyOwnership</b>.
+The following code example is from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">Serial</a> sample driver. This example checks a registry value to determine if a driver should be the power policy owner. If the driver should not be the power policy owner, the example calls <b>WdfDeviceInitSetPowerPolicyOwnership</b>.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

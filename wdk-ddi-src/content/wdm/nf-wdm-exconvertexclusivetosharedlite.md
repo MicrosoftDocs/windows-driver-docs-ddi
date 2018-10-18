@@ -6,11 +6,8 @@ description: The ExConvertExclusiveToSharedLite routine converts a given resourc
 old-location: kernel\exconvertexclusivetosharedlite.htm
 tech.root: kernel
 ms.assetid: 140de330-7e6d-4f23-96cb-ea1228c8036c
-ms.author: windowsdriverdev
 ms.date: 3/28/2018
 ms.keywords: ExConvertExclusiveToSharedLite, ExConvertExclusiveToSharedLite routine [Kernel-Mode Driver Architecture], k102_3c58f8e7-3da6-413d-9662-89a29928a6c1.xml, kernel.exconvertexclusivetosharedlite, wdm/ExConvertExclusiveToSharedLite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

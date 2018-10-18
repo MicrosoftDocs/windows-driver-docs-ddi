@@ -6,11 +6,8 @@ description: A driver's EvtDeviceSetLock event callback function locks the speci
 old-location: wdf\evtdevicesetlock.htm
 tech.root: wdf
 ms.assetid: 2ac42710-9f44-4982-a0d9-c49048870aeb
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_932fbb3b-df8b-49ca-9b86-3d98b6fdd39f.xml, EVT_WDF_DEVICE_SET_LOCK, EVT_WDF_DEVICE_SET_LOCK callback, EvtDeviceSetLock, EvtDeviceSetLock callback function, kmdf.evtdevicesetlock, wdf.evtdevicesetlock, wdfpdo/EvtDeviceSetLock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfpdo.h
 req.include-header: Wdf.h
@@ -78,7 +75,7 @@ If the driver successfully locks or unlocks the device, it must return STATUS_SU
 
  
 
-For more information about this callback function's return values, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/reporting-device-failures">Reporting Device Failures</a>.
+For more information about this callback function's return values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/reporting-device-failures">Reporting Device Failures</a>.
 
 
 
@@ -132,7 +129,7 @@ NTSTATUS
 </td>
 </tr>
 </table></span></div>
-The <b>EVT_WDF_DEVICE_SET_LOCK</b> function type is defined in the Wdfpdo.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDF_DEVICE_SET_LOCK</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/en-US/library/c0aa268d-6fa3-4ced-a8c6-f7652b152e61">Annotating Function Behavior</a>.
+The <b>EVT_WDF_DEVICE_SET_LOCK</b> function type is defined in the Wdfpdo.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDF_DEVICE_SET_LOCK</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/library/c0aa268d-6fa3-4ced-a8c6-f7652b152e61">Annotating Function Behavior</a>.
 
 
 

@@ -6,11 +6,8 @@ description: The WmiFireEvent routine sends an event to WMI for delivery to data
 old-location: kernel\wmifireevent.htm
 tech.root: kernel
 ms.assetid: 600391ef-f4bb-479b-ad73-305e365ed70d
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: WmiFireEvent, WmiFireEvent routine [Kernel-Mode Driver Architecture], k902_bae3b7d7-89d9-4ab9-8f26-2bd12e6b6caa.xml, kernel.wmifireevent, wmilib/WmiFireEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wmilib.h
 req.include-header: Wmilib.h

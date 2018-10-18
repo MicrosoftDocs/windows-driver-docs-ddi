@@ -6,11 +6,8 @@ description: The IG_POINTER_SEARCH_PHYSICAL Ioctl operation searches the target'
 old-location: debugger\ig_pointer_search_physical.htm
 tech.root: debugger
 ms.assetid: fdb8376b-fbda-4bee-895e-a306fd0f632a
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: "*PPOINTER_SEARCH_PHYSICAL, POINTER_SEARCH_PHYSICAL, POINTER_SEARCH_PHYSICAL structure [Windows Debugging], PPOINTER_SEARCH_PHYSICAL, PPOINTER_SEARCH_PHYSICAL structure pointer [Windows Debugging], WdbgExts_Ref_ce742570-c023-4e34-a8e2-aef530e61c04.xml, _POINTER_SEARCH_PHYSICAL, debugger.ig_pointer_search_physical, wdbgexts/POINTER_SEARCH_PHYSICAL, wdbgexts/PPOINTER_SEARCH_PHYSICAL"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h

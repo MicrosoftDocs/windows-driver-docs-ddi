@@ -6,11 +6,8 @@ description: The IoGetCurrentIrpStackLocation routine returns a pointer to the c
 old-location: kernel\iogetcurrentirpstacklocation.htm
 tech.root: kernel
 ms.assetid: 75144188-728b-4613-ac69-8cadf0f60233
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IoGetCurrentIrpStackLocation, IoGetCurrentIrpStackLocation routine [Kernel-Mode Driver Architecture], k104_f92e53c7-8a26-4cb0-859b-b0a7be4dce6a.xml, kernel.iogetcurrentirpstacklocation, wdm/IoGetCurrentIrpStackLocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

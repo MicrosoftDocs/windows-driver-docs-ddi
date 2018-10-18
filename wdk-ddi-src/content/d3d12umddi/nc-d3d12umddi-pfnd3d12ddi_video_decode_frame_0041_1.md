@@ -4,11 +4,8 @@ title: PFND3D12DDI_VIDEO_DECODE_FRAME_0041_1
 author: windows-driver-content
 description: Implemented by the client driver to decode a video frame.
 ms.assetid: 9cb62916-22cb-42c6-925d-16cc320ddb5a
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to decode a video frame.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_VIDEO_DECODE_FRAME_0041_1 Pfnd3d12ddiVideoDecodeFrame00411;

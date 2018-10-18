@@ -6,11 +6,8 @@ description: The class driver sends this request to register a USB string descri
 old-location: buses\ioctl_internal_usbfn_register_usb_string.htm
 tech.root: usbref
 ms.assetid: 80CB670A-4E64-4E53-815C-12580BE982B5
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: IOCTL_INTERNAL_USBFN_REGISTER_USB_STRING, IOCTL_INTERNAL_USBFN_REGISTER_USB_STRING control, IOCTL_INTERNAL_USBFN_REGISTER_USB_STRING control code [Buses], buses.ioctl_internal_usbfn_register_usb_string, usbfnioctl/IOCTL_INTERNAL_USBFN_REGISTER_USB_STRING
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: usbfnioctl.h
 req.include-header: 

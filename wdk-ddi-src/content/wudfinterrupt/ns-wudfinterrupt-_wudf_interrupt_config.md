@@ -6,11 +6,8 @@ description: The WUDF_INTERRUPT_CONFIG structure contains configuration informat
 old-location: wdf\wudf_interrupt_config.htm
 tech.root: wdf
 ms.assetid: 7A849A10-2C47-42E2-8BEB-E1D979D3C893
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*PWUDF_INTERRUPT_CONFIG, PWUDF_INTERRUPT_CONFIG, PWUDF_INTERRUPT_CONFIG structure pointer, WUDF_INTERRUPT_CONFIG, WUDF_INTERRUPT_CONFIG structure, _WUDF_INTERRUPT_CONFIG, umdf.wudf_interrupt_config, wdf.wudf_interrupt_config, wudfinterrupt/PWUDF_INTERRUPT_CONFIG, wudfinterrupt/WUDF_INTERRUPT_CONFIG"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wudfinterrupt.h
 req.include-header: 
@@ -50,7 +47,7 @@ req.typenames: WUDF_INTERRUPT_CONFIG, *PWUDF_INTERRUPT_CONFIG
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 
    The <b>WUDF_INTERRUPT_CONFIG</b> structure contains configuration information for a device interrupt.
@@ -73,7 +70,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552533">WDF_TRI
 
 ### -field AutomaticSerialization
 
-A Boolean value that, if TRUE, indicates that the framework will synchronize execution of the interrupt object's <a href="https://msdn.microsoft.com/10677BC2-2A98-41C8-BAE9-1FA3689ACD93">OnInterruptWorkItem</a> callback function with other callback functions that use the framework's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/specifying-a-callback-synchronization-mode">callback synchronization</a> functionality.  See  Remarks for more information.
+A Boolean value that, if TRUE, indicates that the framework will synchronize execution of the interrupt object's <a href="https://msdn.microsoft.com/10677BC2-2A98-41C8-BAE9-1FA3689ACD93">OnInterruptWorkItem</a> callback function with other callback functions that use the framework's <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/specifying-a-callback-synchronization-mode">callback synchronization</a> functionality.  See  Remarks for more information.
 
 
 ### -field OnInterruptIsr
@@ -98,12 +95,12 @@ A pointer to the driver's <a href="https://msdn.microsoft.com/10677BC2-2A98-41C8
 
 ### -field InterruptRaw
 
-A pointer to the <a href="https://msdn.microsoft.com/96bf7bab-b8f5-439c-8717-ea6956ed0213">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that describes the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/raw-and-translated-resources">raw resources</a> that the system assigned to the interrupt. This member is only used if the interrupt is created in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439734">OnPrepareHardware</a> callback.
+A pointer to the <a href="https://msdn.microsoft.com/96bf7bab-b8f5-439c-8717-ea6956ed0213">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that describes the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/raw-and-translated-resources">raw resources</a> that the system assigned to the interrupt. This member is only used if the interrupt is created in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439734">OnPrepareHardware</a> callback.
 
 
 ### -field InterruptTranslated
 
-A pointer to the <a href="https://msdn.microsoft.com/96bf7bab-b8f5-439c-8717-ea6956ed0213">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that describes the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/raw-and-translated-resources">translated resources</a> that the system assigned to the interrupt. This member is only used if the interrupt is created in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439734">OnPrepareHardware</a> callback.
+A pointer to the <a href="https://msdn.microsoft.com/96bf7bab-b8f5-439c-8717-ea6956ed0213">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that describes the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/raw-and-translated-resources">translated resources</a> that the system assigned to the interrupt. This member is only used if the interrupt is created in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439734">OnPrepareHardware</a> callback.
 
 
 ## -remarks

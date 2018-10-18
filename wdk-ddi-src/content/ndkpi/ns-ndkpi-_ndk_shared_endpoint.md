@@ -6,11 +6,8 @@ description: The NDK_SHARED_ENDPOINT structure specifies the attributes of an ND
 old-location: netvista\ndk_shared_endpoint.htm
 tech.root: netvista
 ms.assetid: 1A6B6EA3-66EE-4736-9457-2A295A7FAF4D
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NDK_SHARED_ENDPOINT, NDK_SHARED_ENDPOINT structure [Network Drivers Starting with Windows Vista], PNDK_SHARED_ENDPOINT, PNDK_SHARED_ENDPOINT structure pointer [Network Drivers Starting with Windows Vista], _NDK_SHARED_ENDPOINT, ndkpi/NDK_SHARED_ENDPOINT, ndkpi/PNDK_SHARED_ENDPOINT, netvista.ndk_shared_endpoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndkpi.h
 req.include-header: Ndkpi.h

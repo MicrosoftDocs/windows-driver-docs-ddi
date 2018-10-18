@@ -6,11 +6,8 @@ description: Attempts to handle an IOCTL request sent by a user-mode software.
 old-location: buses\udecxwdfdevicetryhandleuserioctl.htm
 tech.root: usbref
 ms.assetid: CC199F5C-BF05-4F1F-BEE4-8693F9156D8A
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: UdecxWdfDeviceTryHandleUserIoctl, UdecxWdfDeviceTryHandleUserIoctl function [Buses], buses.udecxwdfdevicetryhandleuserioctl, udecxwdfdevice/UdecxWdfDeviceTryHandleUserIoctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: udecxwdfdevice.h
 req.include-header: Udecx.h
@@ -88,7 +85,7 @@ The UDE client driver presents itself to user-mode software as a host controller
 <div class="alert"><b>Note</b>  Note that other interface's IOCTL codes may overlap with the USB host controller interface. If
     such I/O reaches this function the IOCTL will not be handled correctly.</div>
 <div> </div>
- The client driver does not need to process the received IOCTL. It can send the request to the class extension by calling <b>UdecxWdfDeviceTryHandleUserIoctl</b>. If the class extension recognizes the request as a standard request, it completes it. Otherwise, the call fails and the client driver is then expected to complete the request. For a list of IOCTLs that must be handled, see <a href="https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/hardwarecompatlist">USB IOCTLs for applications and services</a>.
+ The client driver does not need to process the received IOCTL. It can send the request to the class extension by calling <b>UdecxWdfDeviceTryHandleUserIoctl</b>. If the class extension recognizes the request as a standard request, it completes it. Otherwise, the call fails and the client driver is then expected to complete the request. For a list of IOCTLs that must be handled, see <a href="https://docs.microsoft.com/windows/iot-core/learn-about-hardware/hardwarecompatlist">USB IOCTLs for applications and services</a>.
 
 <ul>
 <li>

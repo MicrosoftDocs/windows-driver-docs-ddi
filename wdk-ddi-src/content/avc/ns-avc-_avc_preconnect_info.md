@@ -6,11 +6,8 @@ description: The AVC_PRECONNECT_INFO structure specifies the preconnection infor
 old-location: stream\avc_preconnect_info.htm
 tech.root: stream
 ms.assetid: 823713de-16d4-45cd-936e-1af4a8425c94
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PAVC_PRECONNECT_INFO, AVC_PRECONNECT_INFO, AVC_PRECONNECT_INFO structure [Streaming Media Devices], PAVC_PRECONNECT_INFO, PAVC_PRECONNECT_INFO structure pointer [Streaming Media Devices], _AVC_PRECONNECT_INFO, avc/AVC_PRECONNECT_INFO, avc/PAVC_PRECONNECT_INFO, avcref_86ee1545-848a-4186-9b6a-bee1c689fa68.xml, stream.avc_preconnect_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: avc.h
 req.include-header: Avc.h

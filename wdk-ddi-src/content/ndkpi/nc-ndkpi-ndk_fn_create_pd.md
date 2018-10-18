@@ -6,11 +6,8 @@ description: The NdkCreatePd (NDK_FN_CREATE_PD) function creates an NDK protecti
 old-location: netvista\ndk_fn_create_pd.htm
 tech.root: netvista
 ms.assetid: 18698FAC-1BE6-45E4-911E-661D63607B3F
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NDK_FN_CREATE_PD, NDK_FN_CREATE_PD callback, NdkCreatePd, NdkCreatePd callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreatePd, netvista.ndk_fn_create_pd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndkpi.h
 req.include-header: Ndkpi.h

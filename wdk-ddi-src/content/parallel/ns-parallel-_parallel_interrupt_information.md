@@ -6,11 +6,8 @@ description: The PARALLEL_INTERRUPT_INFORMATION structure specifies information 
 old-location: parports\parallel_interrupt_information.htm
 tech.root: parports
 ms.assetid: aa4baa12-c349-4961-9694-b8fb3cd8dc50
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PPARALLEL_INTERRUPT_INFORMATION, PARALLEL_INTERRUPT_INFORMATION, PARALLEL_INTERRUPT_INFORMATION structure [Parallel Ports], PPARALLEL_INTERRUPT_INFORMATION, PPARALLEL_INTERRUPT_INFORMATION structure pointer [Parallel Ports], _PARALLEL_INTERRUPT_INFORMATION, cisspd_3912e608-5549-4b0a-a48d-fdc34af7bc04.xml, parallel/PARALLEL_INTERRUPT_INFORMATION, parallel/PPARALLEL_INTERRUPT_INFORMATION, parports.parallel_interrupt_information"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: parallel.h
 req.include-header: Parallel.h
@@ -56,14 +53,14 @@ The PARALLEL_INTERRUPT_INFORMATION structure specifies information that a kernel
 ## -syntax
 
 
-````
+```cpp
 typedef struct _PARALLEL_INTERRUPT_INFORMATION {
   PKINTERRUPT                    InterruptObject;
   PPARALLEL_TRY_ALLOCATE_ROUTINE TryAllocatePortAtInterruptLevel;
   PPARALLEL_FREE_ROUTINE         FreePortFromInterruptLevel;
   PVOID                          Context;
 } PARALLEL_INTERRUPT_INFORMATION, *PPARALLEL_INTERRUPT_INFORMATION;
-````
+```
 
 
 ## -struct-fields

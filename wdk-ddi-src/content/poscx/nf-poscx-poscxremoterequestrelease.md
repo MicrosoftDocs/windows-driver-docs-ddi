@@ -6,11 +6,8 @@ description: PosCxRemoteRequestRelease is called whenever a remote device asks f
 old-location: pos\poscxremoterequestrelease.htm
 tech.root: pos
 ms.assetid: 1755E30C-15F8-41A9-9F4C-26455C92B66A
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: PosCxRemoteRequestRelease, PosCxRemoteRequestRelease function, pos.poscxremoterequestrelease, poscx/PosCxRemoteRequestRelease
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: poscx.h
 req.include-header: Poscx.h

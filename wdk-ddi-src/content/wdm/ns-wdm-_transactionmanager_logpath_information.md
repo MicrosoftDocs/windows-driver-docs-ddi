@@ -6,11 +6,8 @@ description: The TRANSACTIONMANAGER_LOGPATH_INFORMATION structure contains infor
 old-location: kernel\transactionmanager_logpath_information.htm
 tech.root: kernel
 ms.assetid: 53d7e8a9-fc89-4b11-8bbb-e9b5b0504f5e
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PTRANSACTIONMANAGER_LOGPATH_INFORMATION, PTRANSACTIONMANAGER_LOGPATH_INFORMATION, PTRANSACTIONMANAGER_LOGPATH_INFORMATION structure pointer [Kernel-Mode Driver Architecture], TRANSACTIONMANAGER_LOGPATH_INFORMATION, TRANSACTIONMANAGER_LOGPATH_INFORMATION structure [Kernel-Mode Driver Architecture], _TRANSACTIONMANAGER_LOGPATH_INFORMATION, kernel.transactionmanager_logpath_information, ktm_ref_2e3d26b5-525c-4953-a871-7eb6535d926e.xml, wdm/PTRANSACTIONMANAGER_LOGPATH_INFORMATION, wdm/TRANSACTIONMANAGER_LOGPATH_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

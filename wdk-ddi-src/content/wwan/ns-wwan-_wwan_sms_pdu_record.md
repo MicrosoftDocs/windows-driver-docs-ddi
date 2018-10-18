@@ -6,11 +6,8 @@ description: The WWAN_SMS_PDU_RECORD structure represents a PDU-style SMS messag
 old-location: netvista\wwan_sms_pdu_record.htm
 tech.root: netvista
 ms.assetid: 20200222-8539-497e-891e-2d29c3207c56
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PWWAN_SMS_PDU_RECORD, PWWAN_SMS_PDU_RECORD, PWWAN_SMS_PDU_RECORD structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_PDU_RECORD, WWAN_SMS_PDU_RECORD structure [Network Drivers Starting with Windows Vista], WwanRef_b21c5d84-e8d4-4cf4-9942-f6f1a14c23c0.xml, _WWAN_SMS_PDU_RECORD, netvista.wwan_sms_pdu_record, wwan/PWWAN_SMS_PDU_RECORD, wwan/WWAN_SMS_PDU_RECORD"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wwan.h
 req.include-header: Wwan.h

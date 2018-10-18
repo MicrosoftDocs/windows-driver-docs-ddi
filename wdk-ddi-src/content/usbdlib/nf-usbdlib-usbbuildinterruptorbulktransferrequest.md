@@ -6,11 +6,8 @@ description: The UsbBuildInterruptOrBulkTransferRequest macro formats an URB to 
 old-location: buses\usbbuildinterruptorbulktransferrequest.htm
 tech.root: usbref
 ms.assetid: 2500fa22-b3f9-419d-9e37-5060b83403fb
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: UsbBuildInterruptOrBulkTransferRequest, UsbBuildInterruptOrBulkTransferRequest routine [Buses], buses.usbbuildinterruptorbulktransferrequest, usbdlib/UsbBuildInterruptOrBulkTransferRequest, usbfunc_ecc1d157-942d-4d0e-9c07-9fef00cd5faf.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: usbdlib.h
 req.include-header: Usbdlib.h

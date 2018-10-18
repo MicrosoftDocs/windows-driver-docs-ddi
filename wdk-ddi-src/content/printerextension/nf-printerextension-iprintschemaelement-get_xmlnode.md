@@ -6,11 +6,8 @@ description: Gets the IXMLDOMNode object associated with this item.
 old-location: print\iprintschemaelement_xmlnode.htm
 tech.root: print
 ms.assetid: 5E7F2292-1F71-4581-8E34-86F1464EC08F
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrintSchemaElement interface [Print Devices],XmlNode property, IPrintSchemaElement.XmlNode, IPrintSchemaElement.get_XmlNode, IPrintSchemaElement::XmlNode, IPrintSchemaElement::get_XmlNode, XmlNode property [Print Devices], XmlNode property [Print Devices],IPrintSchemaElement interface, get_XmlNode, print.iprintschemaelement_xmlnode, printerextension/IPrintSchemaElement::XmlNode, printerextension/IPrintSchemaElement::get_XmlNode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header: 
@@ -63,7 +60,7 @@ This property is read-only.
 
 
 
-When you dereference the <i>ppXmlNode</i> parameter (using *ppXmlNode ), you obtain a pointer to an interface of type <b>IUnknown</b>. Use this pointer to  call the <b>QueryInterface</b> method, to access the underlying <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms760248(v=vs.85).aspx">IXMLDOMElement</a> object.print.
+When you dereference the <i>ppXmlNode</i> parameter (using *ppXmlNode ), you obtain a pointer to an interface of type <b>IUnknown</b>. Use this pointer to  call the <b>QueryInterface</b> method, to access the underlying <a href="http://msdn.microsoft.com/library/windows/desktop/ms760248(v=vs.85).aspx">IXMLDOMElement</a> object.print.
 
 
 
@@ -93,7 +90,7 @@ When you dereference the <i>ppXmlNode</i> parameter (using *ppXmlNode ), you obt
 
 
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms760248(v=vs.85).aspx">IXMLDOMElement</a>
+<a href="http://msdn.microsoft.com/library/windows/desktop/ms760248(v=vs.85).aspx">IXMLDOMElement</a>
  
 
  

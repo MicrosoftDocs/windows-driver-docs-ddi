@@ -4,11 +4,8 @@ title: PFND3DKMT_OPENADAPTERFROMDEVICENAME
 author: windows-driver-content
 description: Pfnd3dkmtOpenadapterfromdevicename maps a device name to a graphics adapter handle and, if the adapter contains multiple monitor outputs, to one of those outputs.
 ms.assetid: 30832e65-d6bd-4d48-bd57-1b29620b47fe
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Pfnd3dkmtOpenadapterfromdevicename maps a device name to a graphics adapter hand
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_OPENADAPTERFROMDEVICENAME Pfnd3dkmtOpenadapterfromdevicename; 

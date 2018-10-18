@@ -6,11 +6,8 @@ description: The NdisIfRegisterProvider function registers an NDIS network inter
 old-location: netvista\ndisifregisterprovider.htm
 tech.root: netvista
 ms.assetid: 1624426b-9e67-4aa2-83d8-f1e6fa484858
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisIfRegisterProvider, NdisIfRegisterProvider function [Network Drivers Starting with Windows Vista], ndis/NdisIfRegisterProvider, net_if_functions_ref_a2d7c012-0ca6-4512-88dd-a51a85edae0a.xml, netvista.ndisifregisterprovider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -156,7 +153,7 @@ NDIS drivers call the
     <b>NdisIfRegisterProvider</b> from its 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. An interface provider is a
     software component that manages network interfaces to support the MIB (
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/overview-of-ndis-network-interfaces">RFC 2863</a>).
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/overview-of-ndis-network-interfaces">RFC 2863</a>).
 
 To handle interface provider OID requests, interface providers provide entry points for callback
     functions in the 

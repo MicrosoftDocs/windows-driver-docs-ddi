@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extprocessonexpacket.htm
 tech.root: netvista
 ms.assetid: 796c2976-b7b1-49ea-bf23-c018efd228ee
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: DOT11EXT_PROCESS_ONEX_PACKET, Dot11ExtProcessOneXPacket, Dot11ExtProcessOneXPacket callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_261bf893-01bf-45d2-96da-b11745a2ae56.xml, netvista.dot11extprocessonexpacket, wlanihv/Dot11ExtProcessOneXPacket
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
@@ -60,13 +57,13 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```cpp
 DWORD WINAPI * Dot11ExtProcessOneXPacket(
   _In_opt_ HANDLE hDot11SvcHandle,
   _In_     DWORD  dwInPacketSize,
   _In_     LPVOID pvInPacket
 );
-````
+```
 
 
 ## -parameters
@@ -130,7 +127,7 @@ While the 802.1X authentication operation is pending, the IHV Extensions DLL for
 For more information about EAPOL packets, refer to Clause 7 of the IEEE 802.1X-2001 standard.
 
 For more information about using the 802.1X module for authentication, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/interface-to-the-native-802-11-802-1x-module">Interface to the Native
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/interface-to-the-native-802-11-802-1x-module">Interface to the Native
     802.11 802.1X Module</a>
 
 

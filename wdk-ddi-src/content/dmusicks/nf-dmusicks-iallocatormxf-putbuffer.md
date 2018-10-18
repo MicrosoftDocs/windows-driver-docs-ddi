@@ -6,11 +6,8 @@ description: This method is not currently used by the miniport driver. The PutBu
 old-location: audio\iallocatormxf_putbuffer.htm
 tech.root: audio
 ms.assetid: 20daf292-9476-4435-915d-f97fba3a6ec2
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: IAllocatorMXF interface [Audio Devices],PutBuffer method, IAllocatorMXF.PutBuffer, IAllocatorMXF::PutBuffer, PutBuffer, PutBuffer method [Audio Devices], PutBuffer method [Audio Devices],IAllocatorMXF interface, audio.iallocatormxf_putbuffer, audmp-routines_8afbc000-69b1-45a5-8fe3-3f6ff8d5518d.xml, dmusicks/IAllocatorMXF::PutBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dmusicks.h
 req.include-header: Dmusicks.h

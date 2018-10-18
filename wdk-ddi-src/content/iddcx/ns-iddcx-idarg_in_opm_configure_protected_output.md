@@ -6,11 +6,8 @@ description: Gives information about the buffer that the driver will copy config
 old-location: display\idarg_in_opm_configure_protected_output.htm
 tech.root: display
 ms.assetid: 523b904c-c833-40f2-8173-7ec1c6687b26
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT, IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT structure [Display Devices], display.idarg_in_opm_configure_protected_output, iddcx/IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iddcx.h
 req.include-header: 

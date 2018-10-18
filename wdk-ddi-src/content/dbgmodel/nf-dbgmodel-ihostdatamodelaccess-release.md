@@ -4,7 +4,6 @@ title: IHostDataModelAccess::Release
 author: windows-driver-content
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 5b5320b2-fee9-494f-b2ba-07f0a2b83ae2
-ms.author: windowsdriverdev
 ms.date: 07/20/2018
 ms.topic: method
 ms.keywords: IHostDataModelAccess::Release, Release, IHostDataModelAccess.Release, IHostDataModelAccess::Release, IHostDataModelAccess.Release

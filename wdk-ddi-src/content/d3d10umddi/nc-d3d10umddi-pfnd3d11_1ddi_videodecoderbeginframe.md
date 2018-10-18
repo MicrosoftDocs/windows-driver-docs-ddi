@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Starts a DirectX Video Acceleration (DXVA) decoding operation to decode a video frame.
 old-location: display\videodecoderbeginframe.htm
 ms.assetid: 5aebc8c9-baa1-457f-9e46-3a86929ba0b5
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEODECODERBEGINFRAME, PFND3D11_1DDI_VIDEODECODERBEGINFRAME callback, d3d10umddi/pfnVideoDecoderBeginFrame, display.videodecoderbeginframe, pfnVideoDecoderBeginFrame, pfnVideoDecoderBeginFrame callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

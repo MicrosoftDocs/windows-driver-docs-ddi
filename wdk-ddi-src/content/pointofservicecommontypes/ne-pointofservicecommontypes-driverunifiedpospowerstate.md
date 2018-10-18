@@ -6,11 +6,8 @@ description: This enumeration is not implemented.
 old-location: pos\driverunifiedpospowerstate.htm
 tech.root: pos
 ms.assetid: D782F879-A016-46CA-AF96-1230C22A71C1
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: DriverUnifiedPosPowerState, DriverUnifiedPosPowerState enumeration, pointofservicecommontypes/, pointofservicecommontypes/DriverUnifiedPosPowerState, pos.driverunifiedpospowerstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h

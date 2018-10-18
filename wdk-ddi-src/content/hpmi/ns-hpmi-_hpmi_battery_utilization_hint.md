@@ -6,11 +6,8 @@ description: This hint indicates if the OEM Battery Manager should attempt to sa
 old-location: powermeter\hpmi_battery_utilization_hint.htm
 tech.root: powermeter
 ms.assetid: A974998F-C9AF-496E-88B1-510413C17C4A
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: "*PHPMI_BATTERY_UTILIZATION_HINT, HPMI_BATTERY_UTILIZATION_HINT, HPMI_BATTERY_UTILIZATION_HINT structure [Power Metering and Budgeting Devices], PHPMI_BATTERY_UTILIZATION_HINT, PHPMI_BATTERY_UTILIZATION_HINT structure pointer [Power Metering and Budgeting Devices], _HPMI_BATTERY_UTILIZATION_HINT, hpmi/HPMI_BATTERY_UTILIZATION_HINT, hpmi/PHPMI_BATTERY_UTILIZATION_HINT, powermeter.hpmi_battery_utilization_hint"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hpmi.h
 req.include-header: 

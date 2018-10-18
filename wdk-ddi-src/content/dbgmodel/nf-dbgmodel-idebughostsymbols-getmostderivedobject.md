@@ -4,7 +4,6 @@ title: IDebugHostSymbols::GetMostDerivedObject
 author: windows-driver-content
 description: The GetMostDerivedObject will use the type system of the debugger to determine the runtime type of an object from its static type.
 ms.assetid: 8fb7a3ae-b941-4332-9699-87b907f33c4a
-ms.author: windowsdriverdev
 ms.date: 08/22/2018
 ms.topic: method
 ms.keywords: IDebugHostSymbols::GetMostDerivedObject, GetMostDerivedObject, IDebugHostSymbols.GetMostDerivedObject, IDebugHostSymbols::GetMostDerivedObject, IDebugHostSymbols.GetMostDerivedObject

@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_incoming_assoc_request_received_parameters.htm
 tech.root: netvista
 ms.assetid: bd65cac6-ca53-46fc-943f-0f698c531554
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*PDOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS, DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS, DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_00b02485-5af1-4945-a902-cceb1ac2e345.xml, PDOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS, PDOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS, netvista.dot11_incoming_assoc_request_received_parameters, windot11/DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS, windot11/PDOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -60,7 +57,7 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS {
   NDIS_OBJECT_HEADER Header;
   DOT11_MAC_ADDRESS  PeerMacAddr;
@@ -68,7 +65,7 @@ typedef struct _DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS {
   ULONG              uAssocReqOffset;
   ULONG              uAssocReqSize;
 } DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS, *PDOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS;
-````
+```
 
 
 ## -struct-fields
@@ -146,7 +143,7 @@ For nonzero values of
 
 The Native 802.11 miniport driver includes a DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS
     structure when the driver makes an
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-incoming-assoc-request-received">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-incoming-assoc-request-received">
     NDIS_STATUS_DOT11_INCOMING_ASSOC_REQUEST_RECEIVED</a> status indication.
 
 
@@ -154,7 +151,7 @@ The Native 802.11 miniport driver includes a DOT11_INCOMING_ASSOC_REQUEST_RECEIV
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-incoming-assoc-request-received">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-incoming-assoc-request-received">
    NDIS_STATUS_DOT11_INCOMING_ASSOC_REQUEST_RECEIVED</a>
 
 

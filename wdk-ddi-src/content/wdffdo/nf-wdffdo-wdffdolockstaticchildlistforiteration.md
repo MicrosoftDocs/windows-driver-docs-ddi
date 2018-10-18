@@ -6,11 +6,8 @@ description: The WdfFdoLockStaticChildListForIteration method prepares the frame
 old-location: wdf\wdffdolockstaticchildlistforiteration.htm
 tech.root: wdf
 ms.assetid: 79ff278c-a30e-49f6-9146-badf24970de2
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_d20e71b2-fc76-4eb5-9911-bb7014467b4e.xml, WdfFdoLockStaticChildListForIteration, WdfFdoLockStaticChildListForIteration method, kmdf.wdffdolockstaticchildlistforiteration, wdf.wdffdolockstaticchildlistforiteration, wdffdo/WdfFdoLockStaticChildListForIteration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdffdo.h
 req.include-header: Wdf.h

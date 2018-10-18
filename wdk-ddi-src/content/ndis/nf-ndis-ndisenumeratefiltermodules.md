@@ -6,11 +6,8 @@ description: The NdisEnumerateFilterModules function enumerates all the filters 
 old-location: netvista\ndisenumeratefiltermodules.htm
 tech.root: netvista
 ms.assetid: cab7609e-cf87-46f6-af23-891e19ef1b80
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisEnumerateFilterModules, NdisEnumerateFilterModules function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_3caad0fd-b579-4787-bebb-b1a93726cbf0.xml, ndis/NdisEnumerateFilterModules, netvista.ndisenumeratefiltermodules
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

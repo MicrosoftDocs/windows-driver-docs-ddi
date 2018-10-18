@@ -4,11 +4,8 @@ title: _PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_1
 author: windows-driver-content
 description: Represents the Designated Vendor-Specific Extended Capability Header 1 defined by PCI-SIG. 
 ms.assetid: 52d809bb-18e3-4c47-9443-d2f1d654108b
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_1, PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_1, *PPCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_1, 
 req.header: ntddk.h
 req.include-header:

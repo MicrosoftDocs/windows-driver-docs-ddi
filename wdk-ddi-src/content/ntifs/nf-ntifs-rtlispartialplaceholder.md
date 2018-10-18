@@ -6,11 +6,8 @@ description: The RtlIsPartialPlaceholder routine determines if a file or a direc
 old-location: ifsk\rtlispartialplaceholder.htm
 tech.root: ifsk
 ms.assetid: FB47F5BE-76B4-4A99-A15F-DE3E11D1DA2B
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RtlIsPartialPlaceholder, RtlIsPartialPlaceholder routine [Installable File System Drivers], ifsk.rtlispartialplaceholder, ntifs/RtlIsPartialPlaceholder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

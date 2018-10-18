@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The NDIS_WWAN_NETWORK_BLACKLIST structure describes a mobile broadband (MBB) device's network blacklists.
 tech.root: netvista
 ms.assetid: 0d203d04-dcd7-46d6-9dc0-62880068949d
-ms.author: windowsdriverdev
 ms.date: 08/21/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _NDIS_WWAN_NETWORK_BLACKLIST, NDIS_WWAN_NETWORK_BLACKLIST, *PNDIS_WWAN_NETWORK_BLACKLIST, 
 req.header: ndiswwan.h
 req.include-header:

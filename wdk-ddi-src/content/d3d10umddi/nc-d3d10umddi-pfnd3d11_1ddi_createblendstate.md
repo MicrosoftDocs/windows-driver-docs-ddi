@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Creates a blend state.
 old-location: display\createblendstate_d3d11_1_.htm
 ms.assetid: 5956412e-ae35-4960-afc0-a82c6a2aa9f1
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: CreateBlendState(D3D11_1), CreateBlendState(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CREATEBLENDSTATE, PFND3D11_1DDI_CREATEBLENDSTATE callback, d3d10umddi/CreateBlendState(D3D11_1), display.createblendstate_d3d11_1_, display.pfncreateblendstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

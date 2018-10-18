@@ -6,11 +6,8 @@ description: The DxgkDdiAddDevice function creates a context block for a display
 old-location: display\dxgkddiadddevice.htm
 tech.root: display
 ms.assetid: 5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGKDDI_ADD_DEVICE, DXGKDDI_ADD_DEVICE callback, DmFunctions_83323c62-42ac-45f5-80c8-b914fda642b5.xml, DxgkDdiAddDevice, DxgkDdiAddDevice callback function [Display Devices], display.dxgkddiadddevice, dispmprt/DxgkDdiAddDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dispmprt.h
 req.include-header: 

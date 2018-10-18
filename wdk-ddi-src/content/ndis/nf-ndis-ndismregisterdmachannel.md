@@ -6,11 +6,8 @@ description: The NdisMRegisterDmaChannel function claims a system DMA controller
 old-location: netvista\ndismregisterdmachannel.htm
 tech.root: netvista
 ms.assetid: 32e92f77-8f45-408b-a284-c00d3b5bd1b4
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisMRegisterDmaChannel, NdisMRegisterDmaChannel function [Network Drivers Starting with Windows Vista], dma_ref_c0361623-95c8-4218-b848-8da949f22033.xml, ndis/NdisMRegisterDmaChannel, netvista.ndismregisterdmachannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

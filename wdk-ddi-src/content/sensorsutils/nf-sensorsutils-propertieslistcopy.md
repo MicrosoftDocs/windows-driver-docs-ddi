@@ -4,10 +4,7 @@ title: PropertiesListCopy function
 author: windows-driver-content
 description: This routine copies a properties list from source to target.
 ms.assetid: 75d16f0b-ded0-49fe-b2a3-ee751f05391c
-ms.author: windowsdriverdev
 ms.date: 08/08/18
-ms.prod: windows-hardware
-ms.technology: windows-devices
 tech.root: sensors
 ms.topic: function
 ms.keywords: PropertiesListCopy

@@ -6,11 +6,8 @@ description: The BdaCreateTopology function creates the topology between two pin
 old-location: stream\bdacreatetopology.htm
 tech.root: stream
 ms.assetid: 855ef77c-2a85-4c8c-b8e3-c4aaa0d2a089
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: BdaCreateTopology, BdaCreateTopology function [Streaming Media Devices], bdaref_bbf47d95-2b93-4e05-a5fa-aa5ed4968b0a.xml, bdasup/BdaCreateTopology, stream.bdacreatetopology
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bdasup.h
 req.include-header: Bdasup.h

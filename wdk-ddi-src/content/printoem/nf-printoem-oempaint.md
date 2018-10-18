@@ -6,11 +6,8 @@ description: The OEMPaint function is obsolete, and is no longer called by GDI i
 old-location: print\oempaint.htm
 tech.root: print
 ms.assetid: 4054c805-5307-41f4-a7ff-65743ae4be69
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: OEMPaint, OEMPaint function [Print Devices], print.oempaint, print_unidrv-pscript_rendering_c9624a47-02fd-4eba-80d9-4035713ac594.xml, printoem/OEMPaint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: printoem.h
 req.include-header: Printoem.h

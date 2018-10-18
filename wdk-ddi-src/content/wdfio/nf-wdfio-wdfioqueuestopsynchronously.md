@@ -6,11 +6,8 @@ description: The WdfIoQueueStopSynchronously method prevents an I/O queue from d
 old-location: wdf\wdfioqueuestopsynchronously.htm
 tech.root: wdf
 ms.assetid: b92072a6-fa6e-4b8d-83c3-b2844443f5c8
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFQueueObjectRef_9f415317-56ca-4c4f-9f33-560258351999.xml, WdfIoQueueStopSynchronously, WdfIoQueueStopSynchronously method, kmdf.wdfioqueuestopsynchronously, wdf.wdfioqueuestopsynchronously, wdfio/WdfIoQueueStopSynchronously
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfio.h
 req.include-header: Wdf.h
@@ -94,7 +91,7 @@ Do not call <b>WdfIoQueueStopSynchronously</b> from the following queue object e
 <a href="https://msdn.microsoft.com/268d2323-57a3-4674-90e6-d7142804175b">EvtIoInternalDeviceControl</a>
 <a href="https://msdn.microsoft.com/d6fbb153-1355-4e94-b5d3-a218bd8c565d">EvtIoRead</a>
 <a href="https://msdn.microsoft.com/5a0fa3b4-d020-4664-afa4-352573d4f079">EvtIoWrite</a>
-For more information about the <b>WdfIoQueueStopSynchronously</b> method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>.
+For more information about the <b>WdfIoQueueStopSynchronously</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>.
 
 
 #### Examples

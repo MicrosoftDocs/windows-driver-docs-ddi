@@ -6,11 +6,8 @@ description: The ZwFsControlFile routine sends a control code directly to a spec
 old-location: kernel\zwfscontrolfile.htm
 tech.root: kernel
 ms.assetid: 2e98d111-5af5-4854-9b58-f5237ba913e7
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: NtFsControlFile, ZwFsControlFile, ZwFsControlFile routine [Kernel-Mode Driver Architecture], k111_5da20655-11b0-4366-bca2-8cee3aadbeab.xml, kernel.zwfscontrolfile, ntifs/NtFsControlFile, ntifs/ZwFsControlFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

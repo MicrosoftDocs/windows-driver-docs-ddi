@@ -4,11 +4,8 @@ title: _PAYMENT_SERVICE_IN structure
 author: windows-driver-content
 description: Input structure for PAYMENT_FUNCTION_PROGRAM_KEY.
 ms.assetid: 69ab7349-5e68-4da5-bbfb-4300140aeac5
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _PAYMENT_SERVICE_IN, PAYMENT_SERVICE_IN, *PPAYMENT_SERVICE_IN, 
 req.header: treepaymentservice.h
 req.include-header:

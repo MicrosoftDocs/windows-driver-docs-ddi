@@ -4,11 +4,8 @@ title: _VIRTUALIZATION_INSTANCE_INFO_INPUT_EX
 author: windows-driver-content
 description: 
 ms.assetid: c1970081-986e-4432-9cf9-e91b923a9dd8
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _VIRTUALIZATION_INSTANCE_INFO_INPUT_EX, VIRTUALIZATION_INSTANCE_INFO_INPUT_EX, *PVIRTUALIZATION_INSTANCE_INFO_INPUT_EX, 
 req.header: ntifs.h
 req.include-header:

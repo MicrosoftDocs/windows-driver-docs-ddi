@@ -6,11 +6,8 @@ description: The NdisAcquireReadWriteLock function acquires a lock that the call
 old-location: netvista\ndisacquirereadwritelock.htm
 tech.root: netvista
 ms.assetid: 563b4bff-36ee-4597-ae6e-7d3811592549
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisAcquireReadWriteLock, NdisAcquireReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisAcquireReadWriteLock, ndis_read_write_lock_ref_6a27c811-da37-410d-8ca6-d982832b1d09.xml, netvista.ndisacquirereadwritelock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -133,7 +130,7 @@ The driver cannot use a lock to protect resources from read or write access that
     <b>NdisAcquireReadWriteLock</b> explicitly raises the IRQL to IRQL = <b>DISPATCH_LEVEL</b>.
 
 For more information about acquiring and releasing NDIS spin locks, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/synchronization-and-notification-in-network-drivers">Synchronization
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronization-and-notification-in-network-drivers">Synchronization
     and Notification in Network Drivers</a>.
 
 

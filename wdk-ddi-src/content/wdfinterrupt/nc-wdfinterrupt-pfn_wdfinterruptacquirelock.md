@@ -6,11 +6,8 @@ description: The WdfInterruptAcquireLock method begins a code sequence that exec
 old-location: wdf\wdfinterruptacquirelock.htm
 tech.root: wdf
 ms.assetid: 6a2fe0d5-bc7e-4d3e-8f47-8206fd42a36f
-ms.author: windowsdriverdev
 ms.date: 1/11/2018
 ms.keywords: wdf.wdfinterruptacquirelock, PFN_WDFINTERRUPTACQUIRELOCK, WdfInterruptAcquireLock callback function, WdfInterruptAcquireLock, wdfinterrupt/WdfInterruptAcquireLock, DFInterruptObjectRef_9d3cd9a1-801c-437a-b1df-7e2819d1465a.xml, kmdf.wdfinterruptacquirelock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
@@ -63,11 +60,11 @@ For passive level interrupt objects, the method begins a code sequence that exec
 ## -prototype
 
 
-````
+```cpp
 VOID WdfInterruptAcquireLock(
   _In_ WDFINTERRUPT Interrupt
 );
-````
+```
 
 
 ## -parameters
@@ -115,7 +112,7 @@ When the driver calls <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 For passive level interrupts, the driver must call <b>WdfInterruptAcquireLock</b> at IRQL = PASSIVE_LEVEL.
 
-Do not call <b>WdfInterruptAcquireLock</b> from an arbitrary thread context,  such as a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-handlers">request handler</a>.
+Do not call <b>WdfInterruptAcquireLock</b> from an arbitrary thread context,  such as a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/request-handlers">request handler</a>.
 
 You can use <b>WdfInterruptAcquireLock</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff547376">WdfInterruptReleaseLock</a> if your driver must execute a few lines of code without being preempted and with servicing of device interrupts effectively disabled. For larger sections of code, your driver should provide an <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_synchronize.md">EvtInterruptSynchronize</a> callback function.
 

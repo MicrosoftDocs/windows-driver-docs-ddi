@@ -6,11 +6,8 @@ description: The WdfRegistryClose method closes the registry key that is associa
 old-location: wdf\wdfregistryclose.htm
 tech.root: wdf
 ms.assetid: c97fe47d-bd6b-45d7-936b-3b46554e5093
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFRegKeyObjectRef_31a198b2-e149-4fd4-951a-5fd03cf06555.xml, WdfRegistryClose, WdfRegistryClose method, kmdf.wdfregistryclose, wdf.wdfregistryclose, wdfregistry/WdfRegistryClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfregistry.h
 req.include-header: Wdf.h
@@ -87,7 +84,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 After your driver has finished accessing a registry key, it must call <b>WdfRegistryClose</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548734">WdfObjectDelete</a>. Both of these methods close the registry key and delete the registry-key object. 
 
-For more information about registry-key objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
+For more information about registry-key objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
 
 
 #### Examples

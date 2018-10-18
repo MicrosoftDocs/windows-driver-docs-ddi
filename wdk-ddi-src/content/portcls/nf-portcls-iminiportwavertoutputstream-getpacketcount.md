@@ -6,11 +6,8 @@ description: GetPacketCount returns the (1-based) count of packets completely tr
 old-location: audio\iminiportwavertoutputstream_getpacketcount.htm
 tech.root: audio
 ms.assetid: F2870421-2A6F-4E63-AC91-E251E0B67C06
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: GetPacketCount, GetPacketCount method [Audio Devices], GetPacketCount method [Audio Devices],IMiniportWaveRTOutputStream interface, IMiniportWaveRTOutputStream interface [Audio Devices],GetPacketCount method, IMiniportWaveRTOutputStream.GetPacketCount, IMiniportWaveRTOutputStream::GetPacketCount, audio.iminiportwavertoutputstream_getpacketcount, portcls/IMiniportWaveRTOutputStream::GetPacketCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: 

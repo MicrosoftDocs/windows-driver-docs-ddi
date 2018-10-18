@@ -6,11 +6,8 @@ description: The MRxAreFilesAliased routine is called by RDBSS to request the ne
 old-location: ifsk\mrxarefilesaliased.htm
 tech.root: ifsk
 ms.assetid: 273266b3-98f4-4c93-a06b-8e149440ad24
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: MRxAreFilesAliased, MRxAreFilesAliased routine [Installable File System Drivers], PMRX_CHKFCB_CALLDOWN, ifsk.mrxarefilesaliased, mrx/MRxAreFilesAliased, mrxref_5d6e6988-84d7-43ac-860e-4f184686a9e6.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: mrx.h
 req.include-header: Mrx.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The<b> MRxAreFilesAliased</b> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request the network mini-redirector to determine if two FCB structures represent the same file. 
+The<b> MRxAreFilesAliased</b> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request the network mini-redirector to determine if two FCB structures represent the same file. 
 
 
 ## -parameters

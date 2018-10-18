@@ -6,11 +6,8 @@ description: The Exception callback method is called by the engine when an excep
 old-location: debugger\idebugeventcallbackswide_exception.htm
 tech.root: debugger
 ms.assetid: 02f5bec1-f2d2-4b72-bd9e-b30315c334da
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: Exception, Exception method [Windows Debugging], Exception method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],Exception method, IDebugEventCallbacksWide.Exception, IDebugEventCallbacksWide::Exception, dbgeng/IDebugEventCallbacksWide::Exception, debugger.idebugeventcallbackswide_exception
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

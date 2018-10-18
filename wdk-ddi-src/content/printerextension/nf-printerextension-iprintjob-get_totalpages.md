@@ -6,11 +6,8 @@ description: Gets the total number of pages that the document contains.
 old-location: print\iprintjob_totalpages.htm
 tech.root: print
 ms.assetid: 1035337F-2EDD-4538-AF39-3828B6DE424B
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrintJob interface [Print Devices],TotalPages property, IPrintJob.TotalPages, IPrintJob.get_TotalPages, IPrintJob::TotalPages, IPrintJob::get_TotalPages, TotalPages property [Print Devices], TotalPages property [Print Devices],IPrintJob interface, get_TotalPages, print.iprintjob_totalpages, printerextension/IPrintJob::TotalPages, printerextension/IPrintJob::get_TotalPages
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header: 

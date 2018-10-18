@@ -6,11 +6,8 @@ description: Describes video memory resources that are to be reclaimed and that 
 old-location: display\d3dddiarg_reclaimresources.htm
 tech.root: display
 ms.assetid: 58e8738c-b10a-4c93-b179-03efcb65412d
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DDDIARG_RECLAIMRESOURCES, D3DDDIARG_RECLAIMRESOURCES structure [Display Devices], _D3DDDIARG_RECLAIMRESOURCES, d3dumddi/D3DDDIARG_RECLAIMRESOURCES, display.d3dddiarg_reclaimresources
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: 

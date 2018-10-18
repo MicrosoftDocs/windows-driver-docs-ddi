@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Called by the display miniport driver to set the latency tolerance for a power component of type DXGK_POWER_COMPONENT_OTHER.
 old-location: display\dxgkcbsetpowercomponentlatency.htm
 ms.assetid: 8FF86746-15A2-4BDF-98AF-23B5F9960DB9
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGKCB_SETPOWERCOMPONENTLATENCY, DXGKCB_SETPOWERCOMPONENTLATENCY callback, DxgkCbSetPowerComponentLatency, DxgkCbSetPowerComponentLatency callback function [Display Devices], d3dkmddi/DxgkCbSetPowerComponentLatency, display.dxgkcbsetpowercomponentlatency
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

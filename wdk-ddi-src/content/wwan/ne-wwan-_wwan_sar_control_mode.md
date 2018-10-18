@@ -5,12 +5,9 @@ author: windows-driver-content
 description: The WWAN_SAR_CONTROL_MODE enumeration specifies how the SAR back off mechanism is controlled.
 tech.root: netvista
 ms.assetid: a951b293-b261-4daa-aeb6-7a037ea5fc47
-ms.author: windowsdriverdev
 ms.date: 08/20/2018
 ms.topic: enum
 ms.keywords: _WWAN_SAR_CONTROL_MODE, WWAN_SAR_CONTROL_MODE, *PWWAN_SAR_CONTROL_MODE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wwan.h
 req.include-header:
 req.target-type:

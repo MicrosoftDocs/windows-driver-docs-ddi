@@ -6,11 +6,8 @@ description: Warning  Starting with Windows 10, the APIs which support third-
 old-location: print\findfirstprinterchangenotification.htm
 tech.root: print
 ms.assetid: f6d2034a-0906-42ea-a4bd-9cdb1b36c5cf
-ms.author: windowsdriverdev
 ms.date: 2/2/2018
 ms.keywords: spoolfnc_cf13c78b-91e2-4d6e-b7be-fda42b3e7588.xml, print.findfirstprinterchangenotification, FindFirstPrinterChangeNotification, winspool/FindFirstPrinterChangeNotification, FindFirstPrinterChangeNotification function [Print Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winspool.h
 req.include-header: Winspool.h
@@ -59,7 +56,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```cpp
 BOOL FindFirstPrinterChangeNotification(
    HANDLE hPrinter,
    DWORD  fdwFlags,
@@ -69,7 +66,7 @@ BOOL FindFirstPrinterChangeNotification(
    PVOID  pPrinterNotifyOptions,
    PVOID  pPrinterNotifyInit
 );
-````
+```
 
 
 ## -parameters

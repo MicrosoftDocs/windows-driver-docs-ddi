@@ -6,11 +6,8 @@ description: The FwpsCalloutUnregisterById0 function unregisters a callout from 
 old-location: netvista\fwpscalloutunregisterbyid0.htm
 tech.root: netvista
 ms.assetid: 81e7e704-c387-48a0-a222-cae751bba1d3
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FwpsCalloutUnregisterById0, FwpsCalloutUnregisterById0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCalloutUnregisterById0, netvista.fwpscalloutunregisterbyid0, wfp_ref_2_funct_3_fwps_C_7bfae7f1-e5f2-4361-bbc0-6c5fef63a267.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpsk.h
 req.include-header: Fwpsk.h

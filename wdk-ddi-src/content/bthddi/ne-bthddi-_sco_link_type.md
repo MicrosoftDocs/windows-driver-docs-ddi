@@ -6,11 +6,8 @@ description: The SCO_LINK_TYPE enumeration type describes the type of link used 
 old-location: bltooth\sco_link_type.htm
 tech.root: bltooth
 ms.assetid: 6867a88d-6bce-46eb-894a-cc034a1c3ece
-ms.author: windowsdriverdev
 ms.date: 4/27/2018
 ms.keywords: "*PSCO_LINK_TYPE, PSCO_LINK_TYPE, PSCO_LINK_TYPE enumeration pointer [Bluetooth Devices], SCO_LINK_TYPE, SCO_LINK_TYPE enumeration [Bluetooth Devices], ScoLinkType, _SCO_LINK_TYPE, bltooth.sco_link_type, bth_enums_c5b9357f-7046-4115-a8a7-add459e59f27.xml, bthddi/PSCO_LINK_TYPE, bthddi/SCO_LINK_TYPE, bthddi/ScoLinkType, bthddi/eScoLinkType, eScoLinkType"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: bthddi.h
 req.include-header: Bthddi.h

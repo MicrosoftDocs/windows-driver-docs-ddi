@@ -6,11 +6,8 @@ description: The SetTexture function inserts a texture at a particular stage in 
 old-location: display\settexture.htm
 tech.root: display
 ms.assetid: b2ed86c5-cd4f-4aaa-a062-4c7ae4e088df
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_SETTEXTURE, PFND3DDDI_SETTEXTURE callback, SetTexture, SetTexture callback function [Display Devices], UserModeDisplayDriver_Functions_f85a8797-cbcc-40df-a339-af69ce128e95.xml, d3dumddi/SetTexture, display.settexture
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rildeletephonebookentryparams.htm
 tech.root: netvista
 ms.assetid: 1a372468-2bad-44d4-a19a-d3b517b7ed7b
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*LPRILDELETEPHONEBOOKENTRYPARAMS, RILDELETEPHONEBOOKENTRYPARAMS, RILDELETEPHONEBOOKENTRYPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rildeletephonebookentryparams, ntddrilapitypes/RILDELETEPHONEBOOKENTRYPARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h

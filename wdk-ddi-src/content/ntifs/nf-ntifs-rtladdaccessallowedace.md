@@ -6,11 +6,8 @@ description: The RtlAddAccessAllowedAce routine adds an access-allowed access co
 old-location: ifsk\rtladdaccessallowedace.htm
 tech.root: ifsk
 ms.assetid: 39a50efc-b27a-4c73-b436-c6495256d9c6
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RtlAddAccessAllowedAce, RtlAddAccessAllowedAce routine [Installable File System Drivers], ifsk.rtladdaccessallowedace, ntifs/RtlAddAccessAllowedAce, rtlref_ab4b97bd-c68c-4f7b-a50e-8584f53e6720.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

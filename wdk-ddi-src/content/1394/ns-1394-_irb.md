@@ -6,11 +6,8 @@ description: Drivers use this structure to pass most requests to IEEE 1394 bus d
 old-location: ieee\irb.htm
 tech.root: IEEE
 ms.assetid: 456712c9-720c-436c-b1db-a6d53c358e22
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PIRB, 1394/IRB, 1394/PIRB, 1394stct_84bb3968-39fc-4b3b-90cb-a4e917b8310a.xml, IEEE.irb, IRB, IRB structure [Buses], PIRB, PIRB structure pointer [Buses], _IRB"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 1394.h
 req.include-header: 1394.h
@@ -209,7 +206,7 @@ Specifies a union of structures, one for each value of <b>FunctionNumber</b>. Th
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ieee/device-driver-interface--ddi--changes-in-windows-7">REQUEST_RECEIVE_PHY_PACKET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ieee/device-driver-interface--ddi--changes-in-windows-7">REQUEST_RECEIVE_PHY_PACKET</a>
 </td>
 <td>ReceivePhyPackets</td>
 </tr>

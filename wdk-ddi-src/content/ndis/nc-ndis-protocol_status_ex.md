@@ -6,11 +6,8 @@ description: The ProtocolStatusEx function indicates status-changes from underly
 old-location: netvista\protocolstatusex.htm
 tech.root: netvista
 ms.assetid: 5bc5a24f-5f28-4502-8776-b1cf15fd8283
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: PROTOCOL_STATUS_EX, PROTOCOL_STATUS_EX callback, ProtocolStatusEx, ProtocolStatusEx callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolStatusEx, ndis_status_ref_c14c8c6e-b2ed-41a7-a4da-c7415ee8b290.xml, netvista.protocolstatusex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

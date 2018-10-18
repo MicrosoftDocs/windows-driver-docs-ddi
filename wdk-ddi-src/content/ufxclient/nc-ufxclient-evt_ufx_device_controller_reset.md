@@ -6,11 +6,8 @@ description: The client driver's implementation to reset the function controller
 old-location: buses\evt_ufx_device_controller_reset.htm
 tech.root: usbref
 ms.assetid: 37CE6358-68F8-49E2-8B3E-126D5D135ADF
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: EVT_UFX_DEVICE_CONTROLLER_RESET, EVT_UFX_DEVICE_CONTROLLER_RESET callback, EvtUfxDeviceControllerReset, EvtUfxDeviceControllerReset callback function [Buses], PFN_UFX_DEVICE_CONTROLLER_RESET, PFN_UFX_DEVICE_CONTROLLER_RESET callback function pointer [Buses], buses.evt_ufx_device_controller_reset, ufxclient/EvtUfxDeviceControllerReset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ufxclient.h
 req.include-header: 

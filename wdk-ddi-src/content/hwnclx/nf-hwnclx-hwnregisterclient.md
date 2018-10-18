@@ -6,11 +6,8 @@ description: Registers the hardware notification client driver and its callback 
 old-location: gpiobtn\hwnregisterclient.htm
 tech.root: gpiobtn
 ms.assetid: 69de1551-e41f-4d18-89db-28d190676922
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: HwNRegisterClient, HwNRegisterClient function, gpiobtn.hwnregisterclient, hwnclx/HwNRegisterClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hwnclx.h
 req.include-header:
@@ -57,13 +54,13 @@ Registers the hardware notification client driver and its callback functions wit
 ## -syntax
 
 
-````
+```cpp
 FORCEINLINE NTSTATUS  HwNRegisterClient(
   _In_    WDFDRIVER                        Driver,
   _Inout_ PHWN_CLIENT_REGISTRATION_PACKET  RegistrationPacket,
   _In_    PUNICODE_STRING                  RegistryPath
 );
-````
+```
 
 
 ## -parameters
@@ -78,7 +75,7 @@ Handle to the client drivers framework driver object.
 
 ### -param RegistrationPacket [in, out]
 
-Pointer to the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/gpiobtn/create-a-hardware-notification-client-driver">HWN_CLIENT_REGISTRATION_PACKET</a> structure that contains function pointers to the callback functions defined in the client driver implementation and required by the class extension.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/gpiobtn/create-a-hardware-notification-client-driver">HWN_CLIENT_REGISTRATION_PACKET</a> structure that contains function pointers to the callback functions defined in the client driver implementation and required by the class extension.
 
 
 ### -param RegistryPath [in]
@@ -97,7 +94,7 @@ Returns STATUS_SUCCESS if function succeeds. Returns STATUS_INVALID_PARAMETER if
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn789335">Hardware notifications support</a>
 
 
 

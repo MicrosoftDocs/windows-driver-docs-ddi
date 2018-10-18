@@ -6,11 +6,8 @@ description: The DXVAHDDDI_STREAM_DATA structure describes an input stream that 
 old-location: display\dxvahdddi_stream_data.htm
 tech.root: display
 ms.assetid: 3b8fc849-8794-4dab-af28-a1c0dfd859d3
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXVA2_Structs_d7fc6fd4-0b17-49b3-bb42-0e0c8f3cc124.xml, DXVAHDDDI_STREAM_DATA, DXVAHDDDI_STREAM_DATA structure [Display Devices], _DXVAHDDDI_STREAM_DATA, d3dumddi/DXVAHDDDI_STREAM_DATA, display.dxvahdddi_stream_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

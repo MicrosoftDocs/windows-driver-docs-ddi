@@ -6,11 +6,8 @@ description: The FindTranslatedEntry method returns a pointer to a translated en
 old-location: audio\iresourcelist_findtranslatedentry.htm
 tech.root: audio
 ms.assetid: b3e8ae4d-a923-406e-ad1a-f7ed7277f676
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: FindTranslatedEntry, FindTranslatedEntry method [Audio Devices], FindTranslatedEntry method [Audio Devices],IResourceList interface, IResourceList interface [Audio Devices],FindTranslatedEntry method, IResourceList.FindTranslatedEntry, IResourceList::FindTranslatedEntry, audio.iresourcelist_findtranslatedentry, audmp-routines_a4100c1c-8955-46bb-a9cc-8cee22609598.xml, portcls/IResourceList::FindTranslatedEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: Portcls.h

@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilsubscriberinfoservice_2.htm
 tech.root: netvista
 ms.assetid: 32ae6058-586d-44b4-b2b1-be61875e2f9f
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: RILSUBSCRIBERINFOSERVICE, RILSUBSCRIBERINFOSERVICE enumeration [Network Drivers Starting with Windows Vista], RIL_SERVICE_FAX, RIL_SERVICE_MAX, RIL_SERVICE_OTHER, RIL_SERVICE_VOICE, netvista.rilsubscriberinfoservice_2, rilapitypes/RILSUBSCRIBERINFOSERVICE, rilapitypes/RIL_SERVICE_FAX, rilapitypes/RIL_SERVICE_MAX, rilapitypes/RIL_SERVICE_OTHER, rilapitypes/RIL_SERVICE_VOICE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
 req.include-header:
@@ -57,14 +54,14 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```cpp
 typedef enum _RILSUBSCRIBERINFOSERVICE {
   RIL_SERVICE_VOICE,
   RIL_SERVICE_FAX,
   RIL_SERVICE_OTHER,
   RIL_SERVICE_MAX
 } RILSUBSCRIBERINFOSERVICE;
-````
+```
 
 
 ## -enum-fields

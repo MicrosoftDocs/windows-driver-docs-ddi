@@ -4,12 +4,9 @@ title: _D3DDDITEXTUREFILTERTYPE
 author: windows-driver-content
 description: The texture filter type.
 ms.assetid: 4219ecb5-c052-4952-b955-4b8f3653744b
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: _D3DDDITEXTUREFILTERTYPE, D3DDDITEXTUREFILTERTYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dumddi.h
 req.include-header:
 req.target-type:

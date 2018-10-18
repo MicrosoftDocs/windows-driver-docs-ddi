@@ -6,11 +6,8 @@ description: Obsolete.
 old-location: ifsk\seimpersonateclient.htm
 tech.root: ifsk
 ms.assetid: b039609e-d259-44d7-bbde-20993576e18a
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: SeImpersonateClient, SeImpersonateClient function [Installable File System Drivers], ifsk.seimpersonateclient, ntifs/SeImpersonateClient, seref_27996dfe-95b9-4d36-8182-9528fedef7d8.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

@@ -6,11 +6,8 @@ description: Contains the necessary data for logging that the offline log archiv
 old-location: print\branchofficelogofflinefilefull.htm
 tech.root: print
 ms.assetid: 41190CE8-8779-477C-BFB0-6410DF096EFD
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: "*PBranchOfficeLogOfflineFileFull, BranchOfficeLogOfflineFileFull, BranchOfficeLogOfflineFileFull structure [Print Devices], PBranchOfficeLogOfflineFileFull, PBranchOfficeLogOfflineFileFull structure pointer [Print Devices], print.branchofficelogofflinefilefull, winsplp/BranchOfficeLogOfflineFileFull, winsplp/PBranchOfficeLogOfflineFileFull"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winsplp.h
 req.include-header: 

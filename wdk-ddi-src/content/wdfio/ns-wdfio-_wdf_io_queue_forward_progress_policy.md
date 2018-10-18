@@ -6,11 +6,8 @@ description: The WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY structure contains driver-
 old-location: wdf\wdf_io_queue_forward_progress_policy.htm
 tech.root: wdf
 ms.assetid: cee3de1f-eaee-40e9-97a9-979e75e22c0a
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*PWDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, DFQueueObjectRef_cfd7143c-1ca1-4ecf-a840-0007971f9197.xml, PWDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, PWDF_IO_QUEUE_FORWARD_PROGRESS_POLICY structure pointer, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY structure, _WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, kmdf.wdf_io_queue_forward_progress_policy, wdf.wdf_io_queue_forward_progress_policy, wdfio/PWDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdfio.h
 req.include-header: Wdf.h
@@ -52,7 +49,7 @@ req.typenames: WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, *PWDF_IO_QUEUE_FORWARD_PROG
 
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY</b> structure contains driver-supplied information that the framework uses to enable <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/guaranteeing-forward-progress-of-i-o-operations">guaranteed forward progress</a> for an I/O queue.
+The <b>WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY</b> structure contains driver-supplied information that the framework uses to enable <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/guaranteeing-forward-progress-of-i-o-operations">guaranteed forward progress</a> for an I/O queue.
 
 
 ## -struct-fields

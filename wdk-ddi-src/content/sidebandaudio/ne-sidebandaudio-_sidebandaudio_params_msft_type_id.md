@@ -4,12 +4,9 @@ title: _SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID
 author: windows-driver-content
 description: 
 ms.assetid: 09b1f42f-a428-4bdf-96df-ca022c1e974e
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: _SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID, SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:

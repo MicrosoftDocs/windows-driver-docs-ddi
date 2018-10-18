@@ -6,11 +6,8 @@ description: The WDF_DEVICE_PNP_CAPABILITIES structure describes a device's Plug
 old-location: wdf\wdf_device_pnp_capabilities.htm
 tech.root: wdf
 ms.assetid: 0857e32e-9962-44ca-9d61-b98b09073c16
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*PWDF_DEVICE_PNP_CAPABILITIES, DFDeviceObjectGeneralRef_58325ea6-665b-4cf2-bf99-d47636013ee1.xml, PWDF_DEVICE_PNP_CAPABILITIES, PWDF_DEVICE_PNP_CAPABILITIES structure pointer, WDF_DEVICE_PNP_CAPABILITIES, WDF_DEVICE_PNP_CAPABILITIES structure, _WDF_DEVICE_PNP_CAPABILITIES, kmdf.wdf_device_pnp_capabilities, wdf.wdf_device_pnp_capabilities, wdfdevice/PWDF_DEVICE_PNP_CAPABILITIES, wdfdevice/WDF_DEVICE_PNP_CAPABILITIES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdfdevice.h
 req.include-header: Wdf.h
@@ -87,7 +84,7 @@ A WDF_TRI_STATE-typed value that indicates, if set to <b>WdfTrue</b>, that the d
 
 ### -field UniqueID
 
-A WDF_TRI_STATE-typed value that indicates, if set to <b>WdfTrue</b>, that the device's instance ID is unique to the entire system. If <b>UniqueID</b> is set to <b>WdfFalse</b>, the instance ID is unique only to the device's bus. For more information about instance IDs, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
+A WDF_TRI_STATE-typed value that indicates, if set to <b>WdfTrue</b>, that the device's instance ID is unique to the entire system. If <b>UniqueID</b> is set to <b>WdfFalse</b>, the instance ID is unique only to the device's bus. For more information about instance IDs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
 
 
 ### -field SilentInstall

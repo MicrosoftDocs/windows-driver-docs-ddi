@@ -6,11 +6,8 @@ description: The PEP_PPM_PARK_SELECTION structure indicates the preferences of t
 old-location: kernel\pep_ppm_park_selection.htm
 tech.root: kernel
 ms.assetid: 1957D03D-7C85-4A58-A5CC-94D3C9913F5A
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PPEP_PPM_PARK_SELECTION, PEP_PPM_PARK_SELECTION, PEP_PPM_PARK_SELECTION structure [Kernel-Mode Driver Architecture], PPEP_PPM_PARK_SELECTION, PPEP_PPM_PARK_SELECTION structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_PARK_SELECTION, kernel.pep_ppm_park_selection, pepfx/PEP_PPM_PARK_SELECTION, pepfx/PPEP_PPM_PARK_SELECTION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pep_x.h
 req.include-header: Pep_x.h
@@ -107,7 +104,7 @@ Returns the PEP parking preference for each processor.
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186812">PEP_NOTIFY_PPM_PARK_SELECTION</a> notification. All three members of the structure contain input values that are set by the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) before this notification is sent to the PEP.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186812">PEP_NOTIFY_PPM_PARK_SELECTION</a> notification. All three members of the structure contain input values that are set by the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) before this notification is sent to the PEP.
 
 
 
@@ -117,7 +114,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186812">PEP_NOTIFY_PPM_PARK_SELECTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186812">PEP_NOTIFY_PPM_PARK_SELECTION</a>
 
 
 

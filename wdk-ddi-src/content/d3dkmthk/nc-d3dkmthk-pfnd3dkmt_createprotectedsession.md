@@ -4,11 +4,8 @@ title: PFND3DKMT_CREATEPROTECTEDSESSION
 author: windows-driver-content
 description: Implemented by the client driver to create a protected session.
 ms.assetid: 000fb6fc-0d6e-4c2a-ac7c-05759d7e0d28
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to create a protected session.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_CREATEPROTECTEDSESSION Pfnd3dkmtCreateprotectedsession;

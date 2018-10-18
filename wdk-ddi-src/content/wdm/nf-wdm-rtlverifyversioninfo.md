@@ -6,11 +6,8 @@ description: The RtlVerifyVersionInfo routine compares a specified set of operat
 old-location: kernel\rtlverifyversioninfo.htm
 tech.root: kernel
 ms.assetid: 7c0ca9a0-dfa4-44ab-8d3a-ab43f72c806f
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlVerifyVersionInfo, RtlVerifyVersionInfo routine [Kernel-Mode Driver Architecture], k109_c0301686-a323-499f-ac04-3bc414b016cd.xml, kernel.rtlverifyversioninfo, wdm/RtlVerifyVersionInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Ntddk.h

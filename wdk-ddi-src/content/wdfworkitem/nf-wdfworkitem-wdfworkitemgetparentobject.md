@@ -6,11 +6,8 @@ description: The WdfWorkItemGetParentObject method returns the framework object 
 old-location: wdf\wdfworkitemgetparentobject.htm
 tech.root: wdf
 ms.assetid: 6ebb1955-1ffc-4869-84c8-69d672ac782e
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFWorkItemObjectRef_d01f85c6-ab9e-413a-8352-49db7ae053d0.xml, WdfWorkItemGetParentObject, WdfWorkItemGetParentObject method, kmdf.wdfworkitemgetparentobject, wdf.wdfworkitemgetparentobject, wdfworkitem/WdfWorkItemGetParentObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfworkitem.h
 req.include-header: Wdf.h
@@ -85,12 +82,12 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-For more information about work items, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-framework-work-items">Using Framework Work Items</a>.
+For more information about work items, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-framework-work-items">Using Framework Work Items</a>.
 
 
 #### Examples
 
-The following code example is an <a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a> callback function from the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">1394</a> sample driver. The example obtains a work item's parent device object, calls a driver-defined routine to process the work item, and then deletes the work item object.
+The following code example is an <a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a> callback function from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">1394</a> sample driver. The example obtains a work item's parent device object, calls a driver-defined routine to process the work item, and then deletes the work item object.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

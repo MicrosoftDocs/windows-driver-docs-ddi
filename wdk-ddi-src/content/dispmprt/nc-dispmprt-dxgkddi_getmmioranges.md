@@ -4,11 +4,8 @@ title: DXGKDDI_GETMMIORANGES
 author: windows-driver-content
 description: Get the memory ranges for a single MMIO (memory mapped input output) BAR in the virtual device.
 ms.assetid: b5bdfe10-a053-4003-94e9-0205e49f05c6
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dispmprt.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Get the memory ranges for a single MMIO (memory mapped input output) BAR (base a
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_GETMMIORANGES DxgkddiGetmmioranges; 

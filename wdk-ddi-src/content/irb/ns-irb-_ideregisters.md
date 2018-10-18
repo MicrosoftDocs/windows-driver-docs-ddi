@@ -6,11 +6,8 @@ description: The IDEREGISTERS structure is used to report the contents of the ID
 old-location: storage\ideregisters.htm
 tech.root: storage
 ms.assetid: a3df8ce0-4414-49d1-a02c-3f5a3efc0de2
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PIDEREGISTERS, IDEREGISTERS, IDEREGISTERS structure [Storage Devices], PIDEREGISTERS, PIDEREGISTERS structure pointer [Storage Devices], _IDEREGISTERS, irb/IDEREGISTERS, irb/PIDEREGISTERS, storage.ideregisters, structs-ATA_8e024553-553c-4a64-9f74-7259f530b3b5.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: irb.h
 req.include-header: Irb.h
@@ -51,7 +48,7 @@ req.typenames: IDEREGISTERS, *PIDEREGISTERS
 
 
 The IDEREGISTERS structure is used to report the contents of the IDE controller registers.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -struct-fields
 

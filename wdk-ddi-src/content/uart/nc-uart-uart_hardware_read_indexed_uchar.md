@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Reads a byte from the port specified by index.
 tech.root: serports
 ms.assetid: 2553b85b-da83-4fd8-b6f0-5ab629af1fdd
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: uart.h
 req.include-header:
 req.target-type:
@@ -49,7 +46,7 @@ Reads a byte from the specified port.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 UART_HARDWARE_READ_INDEXED_UCHAR UartHardwareReadIndexedUchar;

@@ -6,11 +6,8 @@ description: PosCxIsDeviceOwner checks if the caller currently owns the claim on
 old-location: pos\poscxisdeviceowner.htm
 tech.root: pos
 ms.assetid: 48D30A9D-3BA2-4929-865A-D9A34DC6E497
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: PosCxIsDeviceOwner, PosCxIsDeviceOwner function, pos.poscxisdeviceowner, poscx/PosCxIsDeviceOwner
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: poscx.h
 req.include-header: Poscx.h

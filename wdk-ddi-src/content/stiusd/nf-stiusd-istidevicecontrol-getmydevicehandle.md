@@ -6,11 +6,8 @@ description: This topic describes the GetMyDeviceHandle method.
 old-location: image\istidevicecontrol_getmydevicehandle.htm
 tech.root: image
 ms.assetid: B20B2AE6-A408-451C-B46D-803139E8B57F
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetMyDeviceHandle, GetMyDeviceHandle method [Imaging Devices], GetMyDeviceHandle method [Imaging Devices],IStiDeviceControl interface, IStiDeviceControl interface [Imaging Devices],GetMyDeviceHandle method, IStiDeviceControl.GetMyDeviceHandle, IStiDeviceControl::GetMyDeviceHandle, image.istidevicecontrol_getmydevicehandle, stiusd/IStiDeviceControl::GetMyDeviceHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: stiusd.h
 req.include-header: 
@@ -77,7 +74,7 @@ Defines the <b>HRESULT</b> return value.
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/image/istidevicecontrol-com-interface">IStiDeviceControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/image/istidevicecontrol-com-interface">IStiDeviceControl</a>
  
 
  

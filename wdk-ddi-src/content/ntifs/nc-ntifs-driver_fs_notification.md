@@ -6,11 +6,8 @@ description: A PDRIVER_FS_NOTIFICATION-typed routine is called by the operating 
 old-location: ifsk\pdriver_fs_notification.htm
 tech.root: ifsk
 ms.assetid: 571aaa9b-8620-46ff-af29-19b00804e0ad
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: DRIVER_FS_NOTIFICATION, DriverNotificationRoutine, DriverNotificationRoutine routine [Installable File System Drivers], FilterCallbacks_5b421108-0db7-47ba-afba-3a8b79a61d66.xml, PDRIVER_FS_NOTIFICATION, ifsk.pdriver_fs_notification, ntifs/DriverNotificationRoutine
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h

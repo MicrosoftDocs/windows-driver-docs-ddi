@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMTDestroySynchronizationObject function destroys a kernel-mode synchronization object.
 old-location: display\d3dkmtdestroysynchronizationobject.htm
 ms.assetid: 38e77d21-a386-4de8-8d1c-db48434828c6
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DKMTDestroySynchronizationObject, D3DKMTDestroySynchronizationObject function [Display Devices], OpenGL_Functions_181e72ed-9dd7-4b4c-b6e6-9231a2603f20.xml, d3dkmthk/D3DKMTDestroySynchronizationObject, display.d3dkmtdestroysynchronizationobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

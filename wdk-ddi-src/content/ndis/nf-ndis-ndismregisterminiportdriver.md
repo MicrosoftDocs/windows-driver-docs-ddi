@@ -6,11 +6,8 @@ description: A miniport driver calls the NdisMRegisterMiniportDriver function to
 old-location: netvista\ndismregisterminiportdriver.htm
 tech.root: netvista
 ms.assetid: bed68aa8-499d-41fd-997b-a46316913cc8
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisMRegisterMiniportDriver, NdisMRegisterMiniportDriver function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_d6406d6d-f738-4f65-90af-38038b188cc7.xml, ndis/NdisMRegisterMiniportDriver, netvista.ndismregisterminiportdriver
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -66,7 +63,7 @@ A miniport driver calls the
 A pointer to an opaque driver object that the miniport driver received in its 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine at the 
      <i>Argument1</i> parameter (see 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548818">DriverEntry of NDIS
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff548818">DriverEntry of NDIS
      Miniport Drivers</a>).
 
 
@@ -183,7 +180,7 @@ This is a default error status, returned when none of the preceding errors cause
 An NDIS driver calls 
     <b>NdisMRegisterMiniportDriver</b> from its 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. For more information, see 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548818">DriverEntry of NDIS
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff548818">DriverEntry of NDIS
     Miniport Drivers</a>.
 
 Every miniport driver exports a set of standard 
@@ -206,7 +203,7 @@ Drivers can register as a combined miniport driver and intermediate driver. To r
     <i>MiniportDriverCharacteristics</i> parameter.
 
 To enable miniport drivers to register optional services, NDIS calls the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a> function within
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">MiniportSetOptions</a> function within
     the context of 
     <b>NdisMRegisterMiniportDriver</b>.
 
@@ -246,7 +243,7 @@ If an error occurs in
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
 
 

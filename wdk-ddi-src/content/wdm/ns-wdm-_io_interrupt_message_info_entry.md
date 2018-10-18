@@ -6,11 +6,8 @@ description: The IO_INTERRUPT_MESSAGE_INFO_ENTRY structure describes the propert
 old-location: kernel\io_interrupt_message_info_entry.htm
 tech.root: kernel
 ms.assetid: e5007381-2436-4eb6-85cd-7145361ab793
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PIO_INTERRUPT_MESSAGE_INFO_ENTRY, IO_INTERRUPT_MESSAGE_INFO_ENTRY, IO_INTERRUPT_MESSAGE_INFO_ENTRY structure [Kernel-Mode Driver Architecture], PIO_INTERRUPT_MESSAGE_INFO_ENTRY, PIO_INTERRUPT_MESSAGE_INFO_ENTRY structure pointer [Kernel-Mode Driver Architecture], _IO_INTERRUPT_MESSAGE_INFO_ENTRY, kernel.io_interrupt_message_info_entry, kstruct_b_eb31dbfa-458d-47c4-b1df-96c315bd3ff6.xml, wdm/IO_INTERRUPT_MESSAGE_INFO_ENTRY, wdm/PIO_INTERRUPT_MESSAGE_INFO_ENTRY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
@@ -65,7 +62,7 @@ Specifies the physical address that triggers the interrupt message.
 
 ### -field TargetProcessorSet
 
-Specifies a [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) value that determines the set of processors that can receive the interrupt.
+Specifies a [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) value that determines the set of processors that can receive the interrupt.
 
 
 ### -field InterruptObject

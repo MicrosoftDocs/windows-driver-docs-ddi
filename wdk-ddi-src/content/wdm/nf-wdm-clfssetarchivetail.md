@@ -6,11 +6,8 @@ description: The ClfsSetArchiveTail routine sets the archive tail of a CLFS log 
 old-location: kernel\clfssetarchivetail.htm
 tech.root: kernel
 ms.assetid: 58c1d222-72c5-4b40-9ae5-f633bac599f0
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: ClfsSetArchiveTail, ClfsSetArchiveTail routine [Kernel-Mode Driver Architecture], Clfs_f5685e7e-3098-461d-aff1-807011c36526.xml, kernel.clfssetarchivetail, wdm/ClfsSetArchiveTail
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h

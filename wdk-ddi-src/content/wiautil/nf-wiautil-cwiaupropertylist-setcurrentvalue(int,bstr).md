@@ -6,11 +6,8 @@ description: The CWiauPropertyList::SetCurrentValue(INT,BSTR) method sets the cu
 old-location: image\cwiaupropertylist_setcurrentvalue_bstr_.htm
 tech.root: image
 ms.assetid: 017ab648-ee62-47f5-abd3-f4eac4378b8a
-ms.author: windowsdriverdev
 ms.date: 9/7/2018
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetCurrentValue method, CWiauPropertyList.SetCurrentValue, CWiauPropertyList.SetCurrentValue(INT,BSTR), CWiauPropertyList::SetCurrentValue, CWiauPropertyList::SetCurrentValue(INT  ,BSTR  ), CWiauPropertyList::SetCurrentValue(INT,BSTR ), CWiauPropertyList::SetCurrentValue(INT,BSTR), SetCurrentValue, SetCurrentValue method [Imaging Devices], SetCurrentValue method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_setcurrentvalue_bstr_, wiauFncs_dfd640f7-63c2-41a6-adf3-589e87aa85cc.xml, wiautil/CWiauPropertyList::SetCurrentValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h

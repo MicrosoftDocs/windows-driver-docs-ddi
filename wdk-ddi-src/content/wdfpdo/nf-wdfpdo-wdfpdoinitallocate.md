@@ -6,11 +6,8 @@ description: The WdfPdoInitAllocate method allocates a WDFDEVICE_INIT structure 
 old-location: wdf\wdfpdoinitallocate.htm
 tech.root: wdf
 ms.assetid: 86e48354-d4cd-4ad0-a6bd-e8ba662075d8
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_bc23c37b-d595-4672-ad92-4a29aea9c2dd.xml, WdfPdoInitAllocate, WdfPdoInitAllocate method, kmdf.wdfpdoinitallocate, wdf.wdfpdoinitallocate, wdfpdo/WdfPdoInitAllocate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfpdo.h
 req.include-header: Wdf.h
@@ -87,7 +84,7 @@ Calling <b>WdfPdoInitAllocate</b> to allocate a <a href="https://msdn.microsoft.
 
 </li>
 <li>
-Calling <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn265631">framework device object initialization methods</a> and <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn265631">framework PDO initialization methods</a>, as needed, to initialize the WDFDEVICE_INIT structure. If a call to one of these methods fails, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff546050">WdfDeviceInitFree</a>. 
+Calling <a href="https://msdn.microsoft.com/library/windows/hardware/dn265631">framework device object initialization methods</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/dn265631">framework PDO initialization methods</a>, as needed, to initialize the WDFDEVICE_INIT structure. If a call to one of these methods fails, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff546050">WdfDeviceInitFree</a>. 
 
 </li>
 <li>
@@ -95,7 +92,7 @@ Calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">W
 
 </li>
 </ol>
-For more information about static enumeration, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/enumerating-the-devices-on-a-bus">Enumerating the Devices on a Bus</a>.
+For more information about static enumeration, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/enumerating-the-devices-on-a-bus">Enumerating the Devices on a Bus</a>.
 
 
 #### Examples

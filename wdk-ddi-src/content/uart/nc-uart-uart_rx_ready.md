@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Determines whether there is data pending in the UART hardware.
 tech.root: serports
 ms.assetid: c0c52445-f45a-4032-9fee-af6206d77809
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: uart.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Determines whether there is data pending in the UART hardware.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 UART_RX_READY UartRxReady;

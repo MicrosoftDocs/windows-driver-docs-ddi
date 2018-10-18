@@ -6,11 +6,8 @@ description: The Stop method stops sending queued requests to a local I/O target
 old-location: wdf\iwdfiotargetstatemanagement_stop.htm
 tech.root: wdf
 ms.assetid: c0d5ea59-c1df-403b-9e74-b1ab60761640
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IWDFIoTargetStateManagement interface,Stop method, IWDFIoTargetStateManagement.Stop, IWDFIoTargetStateManagement::Stop, Stop, Stop method, Stop method,IWDFIoTargetStateManagement interface, UMDFIoTargetObjectRef_e3b5b892-9d72-49ad-8d58-9cf751f831ad.xml, umdf.iwdfiotargetstatemanagement_stop, wdf.iwdfiotargetstatemanagement_stop, wudfddi/IWDFIoTargetStateManagement::Stop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,9 +47,9 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
-The <b>Stop</b> method stops sending queued requests to a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">local  I/O target</a>.
+The <b>Stop</b> method stops sending queued requests to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">local  I/O target</a>.
 
 
 ## -parameters
@@ -104,7 +101,7 @@ If the target should resume, call <a href="https://msdn.microsoft.com/library/wi
 </ol>
 For more information about <b>Stop</b>, see <a href="https://msdn.microsoft.com/37f756bf-b655-428e-b72c-f86c71f1a2db">Controlling a General I/O Target's State</a>. 
 
-For more information about I/O targets, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-i-o-targets-in-umdf">Using I/O Targets</a>.
+For more information about I/O targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-i-o-targets-in-umdf">Using I/O Targets</a>.
 
 
 #### Examples

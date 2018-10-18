@@ -6,11 +6,8 @@ description: The WdfWmiInstanceCreate method creates a WMI instance object that 
 old-location: wdf\wdfwmiinstancecreate.htm
 tech.root: wdf
 ms.assetid: ed662d6f-c42f-4dcb-86c5-135a302c59d7
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFWMIRef_8d75a5ee-d683-46fb-ba16-a2f8a2e892e3.xml, WdfWmiInstanceCreate, WdfWmiInstanceCreate method, kmdf.wdfwmiinstancecreate, wdf.wdfwmiinstancecreate, wdfwmi/WdfWmiInstanceCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfwmi.h
 req.include-header: Wdf.h
@@ -63,7 +60,7 @@ The <b>WdfWmiInstanceCreate</b> method creates a WMI instance object that repres
 
 ### -param Device [in]
 
-A handle to a framework device object that represents the device that the instance is being created for. The device object cannot be a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-control-device-objects">control device object</a>.
+A handle to a framework device object that represents the device that the instance is being created for. The device object cannot be a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-control-device-objects">control device object</a>.
 
 
 ### -param InstanceConfig [in]
@@ -166,14 +163,14 @@ The WMI instance object's parent is the WMI provider object. The driver cannot c
 
 After the driver calls <b>WdfWmiInstanceCreate</b>, it can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551187">WdfWmiInstanceGetProvider</a> to obtain a handle to the parent provider object and <a href="https://msdn.microsoft.com/library/windows/hardware/ff551184">WdfWmiInstanceGetDevice</a> to obtain a handle to the provider's device.
 
-For more information about the <b>WdfWmiInstanceCreate</b> method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-wmi-in-kmdf-drivers">Supporting WMI in Framework-Based Drivers</a>.
+For more information about the <b>WdfWmiInstanceCreate</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-wmi-in-kmdf-drivers">Supporting WMI in Framework-Based Drivers</a>.
 
 If the <b>Register</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553058">WDF_WMI_INSTANCE_CONFIG</a> structure that <i>InstanceConfig</i> points to is <b>TRUE</b>, <b>WdfWmiInstanceCreate</b> registers the provider instance synchronously (that is, before returning) if this method is called at IRQL = PASSIVE_LEVEL and asynchronously if it is called at IRQL &gt; PASSIVE_LEVEL. 
 
 
 #### Examples
 
-The following code example is from the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">PCIDRV</a> sample driver. This example registers a MOF resource name for a device, initializes a WDF_WMI_PROVIDER_CONFIG structure and a WDF_WMI_INSTANCE_CONFIG structure, and calls <b>WdfWmiInstanceCreate</b>.
+The following code example is from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">PCIDRV</a> sample driver. This example registers a MOF resource name for a device, initializes a WDF_WMI_PROVIDER_CONFIG structure and a WDF_WMI_INSTANCE_CONFIG structure, and calls <b>WdfWmiInstanceCreate</b>.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

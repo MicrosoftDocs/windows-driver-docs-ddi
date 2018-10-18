@@ -6,11 +6,8 @@ description: The WdfCollectionCreate method creates a framework collection objec
 old-location: wdf\wdfcollectioncreate.htm
 tech.root: wdf
 ms.assetid: b185b1ca-6fd9-4508-b001-d1853f2948c2
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFCollectionObjectRef_0c567e7a-209b-4ac2-a721-0c2ee4122aaa.xml, WdfCollectionCreate, WdfCollectionCreate method, kmdf.wdfcollectioncreate, wdf.wdfcollectioncreate, wdfcollection/WdfCollectionCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfcollection.h
 req.include-header: Wdf.h
@@ -122,7 +119,7 @@ After calling <b>WdfCollectionCreate</b> to create a framework collection object
 
 By default, the new collection object's parent is the framework driver object that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547175">WdfDriverCreate</a> method created. You can use the <b>ParentObject</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure to specify a different parent. The framework deletes the collection object when it deletes the parent object. If your driver does not change the default parent, the driver should delete the collection object when it has finished using the object; otherwise, the object will remain until the I/O manager unloads your driver. 
 
-For more information about object collections, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-collections">Framework Object Collections</a>.
+For more information about object collections, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-collections">Framework Object Collections</a>.
 
 
 #### Examples

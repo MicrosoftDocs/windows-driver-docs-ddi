@@ -6,11 +6,8 @@ description: The IOCTL_HID_DISABLE_SECURE_READ request cancels an IOCTL_HID_ENAB
 old-location: hid\ioctl_hid_disable_secure_read.htm
 tech.root: hid
 ms.assetid: 7e63110d-6383-4e57-a66a-7d5190a98314
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IOCTL_HID_DISABLE_SECURE_READ, IOCTL_HID_DISABLE_SECURE_READ control, IOCTL_HID_DISABLE_SECURE_READ control code [Human Input Devices], hid.ioctl_hid_disable_secure_read, hidclass/IOCTL_HID_DISABLE_SECURE_READ, hidioreq_a1eddca2-c66a-4311-ac07-71f5880cbffb.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: hidclass.h
 req.include-header: Hidclass.h

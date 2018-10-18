@@ -6,11 +6,8 @@ description: AVStream calls a minidriver's AVStrMiniDeviceSetPower routine when 
 old-location: stream\avstrminidevicesetpower.htm
 tech.root: stream
 ms.assetid: 40d5eb14-b7bd-42b6-a3f5-fe9e8c5c806e
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: AVStrMiniDeviceSetPower, AVStrMiniDeviceSetPower routine [Streaming Media Devices], PFNKSDEVICESETPOWER, avstclbk_8b833d83-a199-44a9-97b8-c4afc624d6d5.xml, ks/AVStrMiniDeviceSetPower, stream.avstrminidevicesetpower
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ks.h
 req.include-header: Ks.h

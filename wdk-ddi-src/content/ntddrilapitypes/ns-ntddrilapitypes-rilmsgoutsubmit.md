@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilmsgoutsubmit.htm
 tech.root: netvista
 ms.assetid: 83d15e40-b93f-4c7a-bfe4-db939c24b94f
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*LPRILMSGOUTSUBMIT, RILMSGOUTSUBMIT, RILMSGOUTSUBMIT structure [Network Drivers Starting with Windows Vista], netvista.rilmsgoutsubmit, ntddrilapitypes/RILMSGOUTSUBMIT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h

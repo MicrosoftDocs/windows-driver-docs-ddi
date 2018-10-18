@@ -6,11 +6,8 @@ description: The SetBuffer method searches a DebugFailureAnalysis object for the
 old-location: debugger\idebugfailureanalysis2_setbuffer.htm
 tech.root: debugger
 ms.assetid: 366EE066-AD47-4A75-87B4-17279C66C741
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging],SetBuffer method, IDebugFailureAnalysis2.SetBuffer, IDebugFailureAnalysis2::SetBuffer, SetBuffer, SetBuffer method [Windows Debugging], SetBuffer method [Windows Debugging],IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_setbuffer, extsfns/IDebugFailureAnalysis2::SetBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: extsfns.h
 req.include-header: 
@@ -60,12 +57,12 @@ The <b>SetBuffer</b> method searches a <a href="https://msdn.microsoft.com/0B44F
 
 ### -param Tag
 
-A value in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
+A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
 
 ### -param EntryType [in]
 
-A value in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_ENTRY_TYPE</a> enumeration. This parameter specifies the data type of the data in <i>Buf</i>.
+A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_ENTRY_TYPE</a> enumeration. This parameter specifies the data type of the data in <i>Buf</i>.
 
 
 ### -param Buf [in]

@@ -6,11 +6,8 @@ description: Gives information about the monitor that is exposed to the OS.
 old-location: display\idarg_out_monitorarrival.htm
 tech.root: display
 ms.assetid: 0e5c4b23-cb62-4320-9e55-d0da67b62aa1
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: IDARG_OUT_MONITORARRIVAL, IDARG_OUT_MONITORARRIVAL structure [Display Devices], display.idarg_out_monitorarrival, iddcx/IDARG_OUT_MONITORARRIVAL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iddcx.h
 req.include-header: 

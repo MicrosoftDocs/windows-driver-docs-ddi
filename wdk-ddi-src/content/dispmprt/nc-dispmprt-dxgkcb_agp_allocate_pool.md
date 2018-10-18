@@ -6,11 +6,8 @@ description: The AgpAllocatePool function reserves, commits, and maps AGP memory
 old-location: display\agpallocatepool.htm
 tech.root: display
 ms.assetid: abac76e0-eb8a-450a-a797-3733a8f71990
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: AgpAllocatePool, AgpAllocatePool callback function [Display Devices], DXGKCB_AGP_ALLOCATE_POOL, DXGKCB_AGP_ALLOCATE_POOL callback, DpFunctions_2bd4981c-c9f1-4b37-a921-9eb33d1b622b.xml, display.agpallocatepool, dispmprt/AgpAllocatePool
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dispmprt.h
 req.include-header: Dispmprt.h

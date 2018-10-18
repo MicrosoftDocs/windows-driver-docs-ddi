@@ -6,11 +6,8 @@ description: The CreateVideoProcessor function creates a Microsoft DirectX Video
 old-location: display\createvideoprocessor.htm
 tech.root: display
 ms.assetid: 68a7c394-4b0f-4446-a54b-5aee6cf8a913
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: CreateVideoProcessor, CreateVideoProcessor callback function [Display Devices], PFND3DDDI_DXVAHD_CREATEVIDEOPROCESSOR, PFND3DDDI_DXVAHD_CREATEVIDEOPROCESSOR callback, UserModeDisplayDriver_Functions_ce6a0d51-9da3-43d9-ac23-c2e250ca4cfa.xml, d3dumddi/CreateVideoProcessor, display.createvideoprocessor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

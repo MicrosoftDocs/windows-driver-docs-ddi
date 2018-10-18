@@ -6,11 +6,8 @@ description: The WDF_FILEOBJECT_CONFIG structure contains configuration informat
 old-location: wdf\wdf_fileobject_config.htm
 tech.root: wdf
 ms.assetid: 6fefc35f-fbbd-4c5e-bb8f-25ad3b6cdb67
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*PWDF_FILEOBJECT_CONFIG, DFDeviceObjectGeneralRef_5f843338-f299-48d3-80ad-d5d35c122d0f.xml, PWDF_FILEOBJECT_CONFIG, PWDF_FILEOBJECT_CONFIG structure pointer, WDF_FILEOBJECT_CONFIG, WDF_FILEOBJECT_CONFIG structure, _WDF_FILEOBJECT_CONFIG, kmdf.wdf_fileobject_config, wdf.wdf_fileobject_config, wdfdevice/PWDF_FILEOBJECT_CONFIG, wdfdevice/WDF_FILEOBJECT_CONFIG"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdfdevice.h
 req.include-header: Wdf.h
@@ -103,7 +100,7 @@ If <b>AutoForwardCleanupClose</b> is set to <b>WdfTrue</b>, the framework does t
 
 <ul>
 <li>
-The framework forwards file creation requests to the next-lower driver if the driver does not provide an <a href="https://msdn.microsoft.com/ee44c0bf-1fca-442d-8871-df6079e89ced">EvtDeviceFileCreate</a> callback function and has not called <a href="https://msdn.microsoft.com/library/windows/hardware/ff545920">WdfDeviceConfigureRequestDispatching</a> to set an I/O queue to receive file creation requests. The framework does not forward file creation requests if the driver provides a callback function or a queue to handle the requests, so the driver must <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/forwarding-i-o-requests">forward</a>, <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">complete</a>, or <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/canceling-i-o-requests">cancel</a> the requests.
+The framework forwards file creation requests to the next-lower driver if the driver does not provide an <a href="https://msdn.microsoft.com/ee44c0bf-1fca-442d-8871-df6079e89ced">EvtDeviceFileCreate</a> callback function and has not called <a href="https://msdn.microsoft.com/library/windows/hardware/ff545920">WdfDeviceConfigureRequestDispatching</a> to set an I/O queue to receive file creation requests. The framework does not forward file creation requests if the driver provides a callback function or a queue to handle the requests, so the driver must <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/forwarding-i-o-requests">forward</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-i-o-requests">complete</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/canceling-i-o-requests">cancel</a> the requests.
 
 </li>
 <li>

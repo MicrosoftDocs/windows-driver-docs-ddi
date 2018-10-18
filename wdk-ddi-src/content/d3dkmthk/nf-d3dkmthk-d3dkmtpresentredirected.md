@@ -4,7 +4,6 @@ title: D3DKMTPresentRedirected function
 author: windows-driver-content
 description: Redirects the present command.
 ms.assetid: 1811b73a-c33f-4fd5-add5-4e6986ceb539
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: function
 ms.keywords: D3DKMTPresentRedirected

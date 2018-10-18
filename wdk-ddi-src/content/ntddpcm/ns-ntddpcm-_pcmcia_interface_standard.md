@@ -6,11 +6,8 @@ description: The PCMCIA bus driver makes the PCMCIA_INTERFACE_STANDARD interface
 old-location: pcmcia\pcmcia_interface_standard.htm
 tech.root: PCMCIA
 ms.assetid: 3c98fe7b-e60a-4494-b1f0-847a7cbe9d3a
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PPCMCIA_INTERFACE_STANDARD, PCMCIA.pcmcia_interface_standard, PCMCIA_INTERFACE_STANDARD, PCMCIA_INTERFACE_STANDARD structure [Buses], PPCMCIA_INTERFACE_STANDARD, PPCMCIA_INTERFACE_STANDARD structure pointer [Buses], _PCMCIA_INTERFACE_STANDARD, memcdref_768387a3-0148-4f5e-972a-983b7827a634.xml, ntddpcm/PCMCIA_INTERFACE_STANDARD, ntddpcm/PPCMCIA_INTERFACE_STANDARD"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddpcm.h
 req.include-header: Ntddpcm.h

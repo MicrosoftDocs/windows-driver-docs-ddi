@@ -6,11 +6,8 @@ description: The ADDRESS_RANGE structure describes a range in a IEEE 1394 device
 old-location: ieee\address_range.htm
 tech.root: IEEE
 ms.assetid: 4eeb543b-0c23-4119-8e42-ff086b4b7682
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PADDRESS_RANGE, 1394/ADDRESS_RANGE, 1394/PADDRESS_RANGE, 1394stct_e03538df-3b91-483d-99da-95645f017bef.xml, ADDRESS_RANGE, ADDRESS_RANGE structure [Buses], IEEE.address_range, PADDRESS_RANGE, PADDRESS_RANGE structure pointer [Buses], _ADDRESS_RANGE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 1394.h
 req.include-header: 1394.h

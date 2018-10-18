@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilradiostatepassword.htm
 tech.root: netvista
 ms.assetid: 5329a688-ca72-456c-b9fa-32a922783d97
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*LPRILRADIOSTATEPASSWORD, RILRADIOSTATEPASSWORD, RILRADIOSTATEPASSWORD structure [Network Drivers Starting with Windows Vista], netvista.rilradiostatepassword, ntddrilapitypes/RILRADIOSTATEPASSWORD"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h

@@ -6,11 +6,8 @@ description: The driver for a PCI Express (PCIe) virtual function (VF) issues th
 old-location: pci\IOCTL_VPCI_INVALIDATE_BLOCK.htm
 tech.root: PCI
 ms.assetid: 66D1626A-7F22-48B8-8DB3-7B6E1634BABE
-ms.author: windowsdriverdev
 ms.date: 2/24/2018
 ms.keywords: IOCTL_VPCI_INVALIDATE_BLOCK, IOCTL_VPCI_INVALIDATE_BLOCK control code, PCI.IOCTL_VPCI_INVALIDATE_BLOCK, vpci/IOCTL_VPCI_INVALIDATE_BLOCK
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: vpci.h
 req.include-header: Wdm.h
@@ -51,7 +48,7 @@ req.product: Windows 10 or later.
 ##  Major Code:
 
 
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

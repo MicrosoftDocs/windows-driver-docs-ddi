@@ -6,11 +6,8 @@ description: The WDF_IO_QUEUE_DISPATCH_TYPE enumeration type identifies the requ
 old-location: wdf\wdf_io_queue_dispatch_type.htm
 tech.root: wdf
 ms.assetid: 90f2f490-ee29-4e20-94b2-65a9bba3e831
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFQueueObjectRef_dd3d1037-0355-4f02-b0ec-4bd988df33d2.xml, WDF_IO_QUEUE_DISPATCH_TYPE, WDF_IO_QUEUE_DISPATCH_TYPE enumeration, WdfIoQueueDispatchInvalid, WdfIoQueueDispatchManual, WdfIoQueueDispatchMax, WdfIoQueueDispatchParallel, WdfIoQueueDispatchSequential, _WDF_IO_QUEUE_DISPATCH_TYPE, kmdf.wdf_io_queue_dispatch_type, wdf.wdf_io_queue_dispatch_type, wdfio/WDF_IO_QUEUE_DISPATCH_TYPE, wdfio/WdfIoQueueDispatchInvalid, wdfio/WdfIoQueueDispatchManual, wdfio/WdfIoQueueDispatchMax, wdfio/WdfIoQueueDispatchParallel, wdfio/WdfIoQueueDispatchSequential
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wdfio.h
 req.include-header: Wdf.h
@@ -67,7 +64,7 @@ Reserved for internal use.
 
 ### -field WdfIoQueueDispatchSequential
 
-The I/O queue's requests are presented to the driver's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-handlers">request handlers</a> one at a time. The framework does not deliver the next request until a driver has called <a href="https://msdn.microsoft.com/library/windows/hardware/ff549945">WdfRequestComplete</a> to complete the current request.
+The I/O queue's requests are presented to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/request-handlers">request handlers</a> one at a time. The framework does not deliver the next request until a driver has called <a href="https://msdn.microsoft.com/library/windows/hardware/ff549945">WdfRequestComplete</a> to complete the current request.
 
 
 ### -field WdfIoQueueDispatchParallel
@@ -89,7 +86,7 @@ Reserved for internal use only.
 
 
 
-For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">Dispatching Methods for I/O Requests</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">Dispatching Methods for I/O Requests</a>.
 
 
 

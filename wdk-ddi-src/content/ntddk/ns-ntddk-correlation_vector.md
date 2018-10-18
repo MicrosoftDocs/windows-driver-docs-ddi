@@ -6,11 +6,8 @@ description: Store the correlation vector that is used to reference events and t
 old-location: kernel\correlation_vector.htm
 tech.root: kernel
 ms.assetid: 35c1799f-2012-42b0-95e6-6902c818a094
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PCORRELATION_VECTOR, CORRELATION_VECTOR, CORRELATION_VECTOR structure [Kernel-Mode Driver Architecture], kernel.correlation_vector, ntddk/CORRELATION_VECTOR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddk.h
 req.include-header: 

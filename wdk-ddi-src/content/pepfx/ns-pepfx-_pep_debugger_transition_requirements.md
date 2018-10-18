@@ -6,11 +6,8 @@ description: The PEP_DEBUGGER_TRANSITION_REQUIREMENTS structure indicates the pl
 old-location: kernel\pep_debugger_transition_requirements.htm
 tech.root: kernel
 ms.assetid: 5DF830CA-ECC3-404A-AA5F-3DB487BC85B3
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PPEP_DEBUGGER_TRANSITION_REQUIREMENTS, PEP_DEBUGGER_TRANSITION_REQUIREMENTS, PEP_DEBUGGER_TRANSITION_REQUIREMENTS structure [Kernel-Mode Driver Architecture], PPEP_DEBUGGER_TRANSITION_REQUIREMENTS, PPEP_DEBUGGER_TRANSITION_REQUIREMENTS structure pointer [Kernel-Mode Driver Architecture], _PEP_DEBUGGER_TRANSITION_REQUIREMENTS, kernel.pep_debugger_transition_requirements, pepfx/PEP_DEBUGGER_TRANSITION_REQUIREMENTS, pepfx/PPEP_DEBUGGER_TRANSITION_REQUIREMENTS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
 req.include-header: Pep_x.h
@@ -60,12 +57,12 @@ The <b>PEP_DEBUGGER_TRANSITION_REQUIREMENTS</b> structure indicates the platform
 
 ### -field DeviceHandle
 
-[in] A PEPHANDLE value that identifies the debugger device. The platform extension plug-in (PEP) supplied this handle in response to a previous <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification.
+[in] A PEPHANDLE value that identifies the debugger device. The platform extension plug-in (PEP) supplied this handle in response to a previous <a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification.
 
 
 ### -field PlatformStateCount
 
-[in] The number of entries in the array pointed to by the <b>PowerTransitionRequired</b> member. This number is the same as the number of supported platform idle states that the PEP specified in response to a previous <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186827">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a> notification.
+[in] The number of entries in the array pointed to by the <b>PowerTransitionRequired</b> member. This number is the same as the number of supported platform idle states that the PEP specified in response to a previous <a href="https://msdn.microsoft.com/library/windows/hardware/mt186827">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a> notification.
 
 
 ### -field PowerTransitionRequired
@@ -77,7 +74,7 @@ The <b>PEP_DEBUGGER_TRANSITION_REQUIREMENTS</b> structure indicates the platform
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186709">PEP_DPM_QUERY_DEBUGGER_TRANSITION_REQUIREMENTS</a> notification. All three members of the structure contain input values that are supplied by PoFx when this notification is sent to the PEP.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186709">PEP_DPM_QUERY_DEBUGGER_TRANSITION_REQUIREMENTS</a> notification. All three members of the structure contain input values that are supplied by PoFx when this notification is sent to the PEP.
 
 During a debugging session, the debugger component that runs on the target computer communicates with the host computer through a debugger device such as a USB host controller, UART, or networking device.
 
@@ -89,15 +86,15 @@ During a debugging session, the debugger component that runs on the target compu
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186709">PEP_DPM_QUERY_DEBUGGER_TRANSITION_REQUIREMENTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186709">PEP_DPM_QUERY_DEBUGGER_TRANSITION_REQUIREMENTS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186827">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186827">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a>
  
 
  

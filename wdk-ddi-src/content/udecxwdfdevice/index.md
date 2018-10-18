@@ -26,4 +26,4 @@ This header is used for developing an emulated Universal Serial Bus (USB) host c
 For more information, see:
 
 - [Universal Serial Bus (USB)](../_usbref/index.md)
-- [Developing Windows drivers for emulated USB devices (UDE)](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/developing-windows-drivers-for-emulated-usb-host-controllers-and-devices)
+- [Developing Windows drivers for emulated USB devices (UDE)](https://docs.microsoft.com/windows-hardware/drivers/usbcon/developing-windows-drivers-for-emulated-usb-host-controllers-and-devices)

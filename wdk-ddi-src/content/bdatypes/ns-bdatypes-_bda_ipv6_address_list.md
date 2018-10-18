@@ -6,11 +6,8 @@ description:
 old-location: stream\bda_ipv6_address_list.htm
 tech.root: stream
 ms.assetid: 45C8C690-7545-47D5-8E98-FB976797AA1A
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PBDA_IPv6_ADDRESS_LIST, BDA_IPv6_ADDRESS_LIST, BDA_IPv6_ADDRESS_LIST structure [Streaming Media Devices], PBDA_IPv6_ADDRESS_LIST, PBDA_IPv6_ADDRESS_LIST structure pointer [Streaming Media Devices], _BDA_IPv6_ADDRESS_LIST, bdatypes/BDA_IPv6_ADDRESS_LIST, bdatypes/PBDA_IPv6_ADDRESS_LIST, stream.bda_ipv6_address_list"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bdatypes.h
 req.include-header: 

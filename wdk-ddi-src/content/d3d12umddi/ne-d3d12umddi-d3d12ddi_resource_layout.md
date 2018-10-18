@@ -4,12 +4,9 @@ title: D3D12DDI_RESOURCE_LAYOUT
 author: windows-driver-content
 description: Specifies the resource layout.
 ms.assetid: 125cd86b-b88b-4752-a37f-420ed68b5d28
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: D3D12DDI_RESOURCE_LAYOUT, D3D12DDI_RESOURCE_LAYOUT, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

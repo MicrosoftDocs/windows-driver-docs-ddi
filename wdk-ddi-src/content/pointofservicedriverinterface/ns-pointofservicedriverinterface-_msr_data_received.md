@@ -6,11 +6,8 @@ description: This structure contains the data read from a swiped magnetic stripe
 old-location: pos\msr_data_received.htm
 tech.root: pos
 ms.assetid: f103724c-25c4-4dec-a7a3-9713440ca833
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: "*PMSR_DATA_RECEIVED, MSR_DATA_RECEIVED, MSR_DATA_RECEIVED structure, PMSR_DATA_RECEIVED, PMSR_DATA_RECEIVED structure pointer, _MSR_DATA_RECEIVED, pointofservicedriverinterface/MSR_DATA_RECEIVED, pointofservicedriverinterface/PMSR_DATA_RECEIVED, pos.msr_data_received"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h

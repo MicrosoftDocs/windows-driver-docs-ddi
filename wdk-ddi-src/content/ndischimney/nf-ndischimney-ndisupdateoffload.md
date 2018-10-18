@@ -6,11 +6,8 @@ description: A protocol or intermediate driver calls the NdisUpdateOffload funct
 old-location: netvista\ndisupdateoffload.htm
 tech.root: netvista
 ms.assetid: 1e85357d-9fe2-406b-bc1a-69e4357a0f8b
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisUpdateOffload, NdisUpdateOffload function [Network Drivers Starting with Windows Vista], ndischimney/NdisUpdateOffload, netvista.ndisupdateoffload, tcp_chim_ndis_func_e33474cc-f963-48b8-8122-14f78bceb38f.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
@@ -96,7 +93,7 @@ None
 An intermediate driver calls the 
     <b>NdisUpdateOffload</b> function to propagate an update offload operation that was initiated by the host
     stack. For more information, see 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff563771">Propagating
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563771">Propagating
     State-Manipulation Operations</a>.
 
 From the 
@@ -105,7 +102,7 @@ From the
     <a href="https://msdn.microsoft.com/b98b2e21-8b28-4da0-9cc9-6fa8cb6e5be7">MiniportUpdateOffload</a> function,
     the intermediate driver constructs an NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure. For more information,
     see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/reusing-an-ndis-miniport-offload-block-list-structure">Reusing an
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/reusing-an-ndis-miniport-offload-block-list-structure">Reusing an
     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST Structure</a>. The intermediate driver passes a pointer (the 
     <i>OffloadBlockList</i> parameter) to this NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure when calling the 
     <b>NdisUpdateOffload</b> function.

@@ -4,12 +4,9 @@ title: _D3DKMT_VAD_ESCAPE_COMMAND
 author: windows-driver-content
 description: The VAD (video acceleration display) escape commands.
 ms.assetid: de9e71e2-2e6f-4219-9c03-99978f3ef972
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: _D3DKMT_VAD_ESCAPE_COMMAND, D3DKMT_VAD_ESCAPE_COMMAND, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

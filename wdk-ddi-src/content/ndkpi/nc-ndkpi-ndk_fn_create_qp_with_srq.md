@@ -6,11 +6,8 @@ description: The NdkCreateQpWithSrq (NDK_FN_CREATE_QP_WITH_SRQ) function create 
 old-location: netvista\ndk_fn_create_qp_with_srq.htm
 tech.root: netvista
 ms.assetid: B3AAC8BE-E874-48C7-9DF6-0C9A6BDBB9B5
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NDK_FN_CREATE_QP_WITH_SRQ, NDK_FN_CREATE_QP_WITH_SRQ callback, NdkCreateQpWithSrq, NdkCreateQpWithSrq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateQpWithSrq, netvista.ndk_fn_create_qp_with_srq
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndkpi.h
 req.include-header: Ndkpi.h

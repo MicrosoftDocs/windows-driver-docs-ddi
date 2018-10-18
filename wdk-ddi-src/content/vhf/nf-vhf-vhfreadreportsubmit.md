@@ -6,11 +6,8 @@ description: The HID source driver calls this method to submit a HID Read (Input
 old-location: hid\vhfreadreportsubmit.htm
 tech.root: hid
 ms.assetid: DCC4EB4C-B9A0-4E25-B3BD-4CAB07022A7B
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: VhfReadReportSubmit, VhfReadReportSubmit method [Human Input Devices], hid.vhfreadreportsubmit, vhf/VhfReadReportSubmit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vhf.h
 req.include-header: 

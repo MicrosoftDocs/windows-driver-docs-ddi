@@ -6,11 +6,8 @@ description: pfnCreatePagingQueueCb is used to create a device paging queue that
 old-location: display\pfncreatepagingqueuecb.htm
 tech.root: display
 ms.assetid: 99E4CFCF-7A0A-43A9-9E23-B7A9F9375690
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_CREATEPAGINGQUEUECB, PFND3DDDI_CREATEPAGINGQUEUECB callback, d3dumddi/pfnCreatePagingQueueCb, display.pfncreatepagingqueuecb, pfnCreatePagingQueueCb, pfnCreatePagingQueueCb callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

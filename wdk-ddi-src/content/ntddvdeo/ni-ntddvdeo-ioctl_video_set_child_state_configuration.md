@@ -6,11 +6,8 @@ description: Performs a display device switch, a state change in which the video
 old-location: display\ioctl_video_set_child_state_configuration.htm
 tech.root: display
 ms.assetid: ae70c0e5-0ce0-4e44-983c-9bc0f9a1f600
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION, IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION control, IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION control code [Display Devices], Video_IOCTLs_bd76ef78-623a-4f72-b0fd-1ac70b211a98.xml, display.ioctl_video_set_child_state_configuration, ntddvdeo/IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddvdeo.h
 req.include-header: 

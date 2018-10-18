@@ -6,11 +6,8 @@ description: The RequestCommon routine is a generic request handler.
 old-location: kernel\requestcommon.htm
 tech.root: kernel
 ms.assetid: 16699B3D-D02B-4D01-9EBE-003C92B06D31
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: POFXCALLBACKREQUESTCOMMON, RequestCommon, RequestCommon routine [Kernel-Mode Driver Architecture], kernel.requestcommon, pepfx/RequestCommon
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: pepfx.h
 req.include-header: Pep_x.h

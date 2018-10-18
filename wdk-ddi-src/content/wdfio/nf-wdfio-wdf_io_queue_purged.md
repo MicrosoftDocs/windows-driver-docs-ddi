@@ -6,11 +6,8 @@ description: The WDF_IO_QUEUE_PURGED function returns TRUE if an I/O queue's sta
 old-location: wdf\wdf_io_queue_purged.htm
 tech.root: wdf
 ms.assetid: dbb061a6-a770-411c-9c3a-8453662b4362
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFQueueObjectRef_2d745708-c310-494a-aedc-362bdc930650.xml, WDF_IO_QUEUE_PURGED, WDF_IO_QUEUE_PURGED function, kmdf.wdf_io_queue_purged, wdf.wdf_io_queue_purged, wdfio/WDF_IO_QUEUE_PURGED
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfio.h
 req.include-header: Wdf.h

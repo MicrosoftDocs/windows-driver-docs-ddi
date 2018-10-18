@@ -6,11 +6,8 @@ description: A miniport driver calls the NdisMResetMiniport function to trigger 
 old-location: netvista\ndismresetminiport.htm
 tech.root: netvista
 ms.assetid: 614C6E21-00D0-4F57-9E09-D1BAB166BA42
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisMResetMiniport, NdisMResetMiniport function [Network Drivers Starting with Windows Vista], ndis/NdisMResetMiniport, netvista.ndismresetminiport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

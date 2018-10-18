@@ -6,11 +6,8 @@ description: The VideoPortReadPortBufferUchar function reads a number of bytes f
 old-location: display\videoportreadportbufferuchar.htm
 tech.root: display
 ms.assetid: 7eda10df-56f8-4bb5-8f36-6246e51c1638
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: VideoPortReadPortBufferUchar, VideoPortReadPortBufferUchar function [Display Devices], VideoPort_Functions_b3c67bc0-e12c-4625-bba6-d7fb64e0c824.xml, display.videoportreadportbufferuchar, video/VideoPortReadPortBufferUchar
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: video.h
 req.include-header: Video.h

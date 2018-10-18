@@ -6,11 +6,8 @@ description: The FormatRequestForWrite method formats an I/O request object for 
 old-location: wdf\iwdfiotarget_formatrequestforwrite.htm
 tech.root: wdf
 ms.assetid: dd579620-4fe9-4cd0-8e21-f32b07338de1
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: FormatRequestForWrite, FormatRequestForWrite method, FormatRequestForWrite method,IWDFIoTarget interface, IWDFIoTarget interface,FormatRequestForWrite method, IWDFIoTarget.FormatRequestForWrite, IWDFIoTarget::FormatRequestForWrite, UMDFIoTargetObjectRef_5bd52747-0a43-477e-8240-0481d671a7bb.xml, umdf.iwdfiotarget_formatrequestforwrite, wdf.iwdfiotarget_formatrequestforwrite, wudfddi/IWDFIoTarget::FormatRequestForWrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>FormatRequestForWrite</b> method formats an I/O request object for a write operation.
 

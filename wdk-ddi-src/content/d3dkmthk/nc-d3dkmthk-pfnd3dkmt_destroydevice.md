@@ -4,11 +4,8 @@ title: PFND3DKMT_DESTROYDEVICE
 author: windows-driver-content
 description: The PFND3DKMT_DESTROYDEVICE callback function destroys a graphics context device.
 ms.assetid: f8c8bc39-b32f-40e7-a707-065fd56210bd
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3DKMT_DESTROYDEVICE callback function destroys a graphics context device
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_DESTROYDEVICE Pfnd3dkmtDestroydevice; 

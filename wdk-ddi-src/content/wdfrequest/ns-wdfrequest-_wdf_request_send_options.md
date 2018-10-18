@@ -6,11 +6,8 @@ description: The WDF_REQUEST_SEND_OPTIONS structure specifies options that are a
 old-location: wdf\wdf_request_send_options.htm
 tech.root: wdf
 ms.assetid: 0d561e0f-ca7e-44ed-9025-1a6513e4cd28
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*PWDF_REQUEST_SEND_OPTIONS, DFRequestObjectRef_3fc871af-dae6-454f-8ff8-35a8b0c5ae9a.xml, PWDF_REQUEST_SEND_OPTIONS, PWDF_REQUEST_SEND_OPTIONS structure pointer, WDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS structure, _WDF_REQUEST_SEND_OPTIONS, kmdf.wdf_request_send_options, wdf.wdf_request_send_options, wdfrequest/PWDF_REQUEST_SEND_OPTIONS, wdfrequest/WDF_REQUEST_SEND_OPTIONS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdfrequest.h
 req.include-header: Wdf.h

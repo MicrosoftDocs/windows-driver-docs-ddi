@@ -6,11 +6,8 @@ description: A miniport driver's HwScsiWmiQueryReginfo routine is called to obta
 old-location: storage\hwscsiwmiqueryreginfo.htm
 tech.root: storage
 ms.assetid: 416f8629-324f-4698-bbe9-699f5d53011e
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: HwScsiWmiQueryReginfo, HwScsiWmiQueryReginfo callback function [Storage Devices], PSCSIWMI_QUERY_REGINFO, PSCSIWMI_QUERY_REGINFO callback, Scsimini_16dc5cef-69cd-488a-b941-9819951a3652.xml, scsiwmi/HwScsiWmiQueryReginfo, storage.hwscsiwmiqueryreginfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: scsiwmi.h
 req.include-header: Scsiwmi.h
@@ -51,7 +48,7 @@ req.typenames:
 
 
 A miniport driver's <b>HwScsiWmiQueryReginfo</b> routine is called to obtain information about the data and event blocks to be registered on behalf of the miniport driver by the SCSI port driver. This routine is required.
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 

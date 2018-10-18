@@ -6,11 +6,8 @@ description: The PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS structure describes a PC
 old-location: pci\pci_express_uncorrectable_error_status.htm
 tech.root: PCI
 ms.assetid: 9d7dcdee-052a-4082-a337-be3a35c5eef9
-ms.author: windowsdriverdev
 ms.date: 2/24/2018
 ms.keywords: "*PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, PCI.pci_express_uncorrectable_error_status, PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS union [Buses], PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS union pointer [Buses], _PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, pci_struct_9341a010-06c8-46ee-931f-2a67756c12d2.xml, wdm/PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, wdm/PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
 req.include-header: Ntddk.h, Wdm.h, Miniport.h
@@ -57,7 +54,7 @@ The PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS structure describes a PCI Express (PC
 ## -syntax
 
 
-````
+```cpp
 typedef union _PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS {
   struct {
     ULONG Undefined  :1;
@@ -78,7 +75,7 @@ typedef union _PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS {
   };
   ULONG  AsULONG;
 } PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, *PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS;
-````
+```
 
 
 ## -struct-fields

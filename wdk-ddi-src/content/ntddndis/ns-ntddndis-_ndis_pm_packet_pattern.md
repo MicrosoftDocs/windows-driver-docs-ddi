@@ -6,11 +6,8 @@ description: The NDIS_PM_PACKET_PATTERN structure specifies a wake-up pattern, w
 old-location: netvista\ndis_pm_packet_pattern.htm
 tech.root: netvista
 ms.assetid: dfda0b5f-06fc-4e94-b14c-6bd32c2c138a
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNDIS_PM_PACKET_PATTERN, 212pnpoid_bfc58374-2745-4c29-a2ac-b7ef864aa710.xml, NDIS_PM_PACKET_PATTERN, NDIS_PM_PACKET_PATTERN structure [Network Drivers Starting with Windows Vista], PNDIS_PM_PACKET_PATTERN, PNDIS_PM_PACKET_PATTERN structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_PACKET_PATTERN, netvista.ndis_pm_packet_pattern, ntddndis/NDIS_PM_PACKET_PATTERN, ntddndis/PNDIS_PM_PACKET_PATTERN"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ndis.h
@@ -113,7 +110,7 @@ A protocol driver sends this OID to a miniport driver to specify a wake-up patte
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">
        OID_PNP_REMOVE_WAKE_UP_PATTERN</a>
 
 
@@ -149,7 +146,7 @@ A protocol uses this OID to request a list of the wake-up patterns currently set
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">OID_PNP_REMOVE_WAKE_UP_PATTERN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">OID_PNP_REMOVE_WAKE_UP_PATTERN</a>
 
 
 

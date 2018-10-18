@@ -6,11 +6,8 @@ description: A bus driver's EvtDeviceResourceRequirementsQuery event callback fu
 old-location: wdf\evtdeviceresourcerequirementsquery.htm
 tech.root: wdf
 ms.assetid: bacd7e7c-9f71-4dda-98ed-a8d813360943
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_7b6a59e4-0131-45fc-9a9b-f9e2c39660a6.xml, EVT_WDF_DEVICE_RESOURCE_REQUIREMENTS_QUERY, EVT_WDF_DEVICE_RESOURCE_REQUIREMENTS_QUERY callback, EvtDeviceResourceRequirementsQuery, EvtDeviceResourceRequirementsQuery callback function, kmdf.evtdeviceresourcerequirementsquery, wdf.evtdeviceresourcerequirementsquery, wdfpdo/EvtDeviceResourceRequirementsQuery
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfpdo.h
 req.include-header: Wdf.h
@@ -78,7 +75,7 @@ If the driver did not encounter any errors, it must return STATUS_SUCCESS (wheth
 
  
 
-For more information about this callback function's return values, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/reporting-device-failures">Reporting Device Failures</a>.
+For more information about this callback function's return values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/reporting-device-failures">Reporting Device Failures</a>.
 
 
 
@@ -97,11 +94,11 @@ The driver must populate the supplied resource-requirements-list object with log
 
 To create a resource requirements list, the driver calls <a href="https://msdn.microsoft.com/2361CEA9-A58C-4019-B4F6-BA1D7DEE3A80">framework resource-range-list object methods</a>, which add resource descriptors to logical configurations, and framework resource-requirements-list object methods, which add logical configurations to the resource requirements list.
 
-For more information about hardware resources and creating resource requirements lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
+For more information about hardware resources and creating resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 If a driver is running on an operating system version that is earlier than Windows 7, a bus driver can use <i>EvtDeviceResourceRequirementsQuery</i> to <a href="https://msdn.microsoft.com/8e535a6a-9b17-4ef6-b068-43042a589ac0">set a device property</a> on a child device prior to enumerating the child.
 
-To <a href="https://msdn.microsoft.com/8e535a6a-9b17-4ef6-b068-43042a589ac0">set a device property</a> on Windows 7 or later, a bus driver can  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/preprocessing-and-postprocessing-irps">provide  a preprocess routine</a> for  <a href="https://msdn.microsoft.com/library/windows/hardware/hh285209">IRP_MN_DEVICE_ENUMERATED</a>.
+To <a href="https://msdn.microsoft.com/8e535a6a-9b17-4ef6-b068-43042a589ac0">set a device property</a> on Windows 7 or later, a bus driver can  <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/preprocessing-and-postprocessing-irps">provide  a preprocess routine</a> for  <a href="https://msdn.microsoft.com/library/windows/hardware/hh285209">IRP_MN_DEVICE_ENUMERATED</a>.
 
 
 #### Examples
@@ -138,7 +135,7 @@ NTSTATUS
 </td>
 </tr>
 </table></span></div>
-The <b>EVT_WDF_DEVICE_RESOURCE_REQUIREMENTS_QUERY</b> function type is defined in the Wdfpdo.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDF_DEVICE_RESOURCE_REQUIREMENTS_QUERY</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/en-US/library/c0aa268d-6fa3-4ced-a8c6-f7652b152e61">Annotating Function Behavior</a>.
+The <b>EVT_WDF_DEVICE_RESOURCE_REQUIREMENTS_QUERY</b> function type is defined in the Wdfpdo.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDF_DEVICE_RESOURCE_REQUIREMENTS_QUERY</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/library/c0aa268d-6fa3-4ced-a8c6-f7652b152e61">Annotating Function Behavior</a>.
 
 
 

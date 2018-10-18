@@ -6,11 +6,8 @@ description: The IPSEC_OFFLOAD_V2_ADD_SA structure defines information about a s
 old-location: netvista\ipsec_offload_v2_add_sa.htm
 tech.root: netvista
 ms.assetid: 78c5e765-40e5-47f0-8460-a86124fb43d8
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PIPSEC_OFFLOAD_V2_ADD_SA, IPSEC_OFFLOAD_V2_ADD_SA, IPSEC_OFFLOAD_V2_ADD_SA structure [Network Drivers Starting with Windows Vista], PIPSEC_OFFLOAD_V2_ADD_SA, PIPSEC_OFFLOAD_V2_ADD_SA structure pointer [Network Drivers Starting with Windows Vista], _IPSEC_OFFLOAD_V2_ADD_SA, ndis/IPSEC_OFFLOAD_V2_ADD_SA, ndis/PIPSEC_OFFLOAD_V2_ADD_SA, netvista.ipsec_offload_v2_add_sa, task_offload_IPsecv2_ref_0358b0f6-783e-4466-8615-12bd95ce4638.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -208,14 +205,14 @@ The IPv6 address of the destination host (the host that is receiving the packets
 ### -field OffloadHandle
 
 The handle to the newly created SA. The miniport driver supplies this handle before completing the     
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
      OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a> request. The TCP/IP transport must specify this handle in the     
      <a href="https://msdn.microsoft.com/f528ae2f-54fc-4edc-99bf-b1958837584b">
      NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</a> or 
      <a href="https://msdn.microsoft.com/3ca223a1-75d2-48b6-b4c2-f20e6fc57111">
      NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO</a> structure before passing a send packet to the
      miniport driver. The TCP/IP transport must also specify this handle when deleting the SA with an 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
      OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a> request.
 
 
@@ -307,7 +304,7 @@ This structure is obsolete, use <a href="https://msdn.microsoft.com/library/wind
 The IPSEC_OFFLOAD_V2_ADD_SA structure specifies a security SA that should be added and a pointer to
     the next IPSEC_OFFLOAD_V2_ADD_SA structure in a linked list. The IPSEC_OFFLOAD_V2_ADD_SA structure is
     used with the 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
     OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a> OID.
 
 The IPSEC_OFFLOAD_V2_ADD_SA structure specifies the source and destination, as well as the IP
@@ -357,12 +354,12 @@ If a member is set to zero, that parameter is not used to filter packets for the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
    OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
    OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a>
  
 

@@ -6,11 +6,8 @@ description: The IPrintOemUni::ImageProcessing method can be used with Unidrv-su
 old-location: print\iprintoemuni_imageprocessing.htm
 tech.root: print
 ms.assetid: 201450cb-cda6-4dd3-93ee-056d1627b00d
-ms.author: windowsdriverdev
 ms.date: 07/03/2018
 ms.keywords: IPrintOemUni interface [Print Devices],ImageProcessing method, IPrintOemUni.ImageProcessing, IPrintOemUni::ImageProcessing, ImageProcessing, ImageProcessing method [Print Devices], ImageProcessing method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::ImageProcessing, print.iprintoemuni_imageprocessing, print_unidrv-pscript_rendering_7b1177ff-0077-4bee-9469-7825f42323eb.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

@@ -6,11 +6,8 @@ description: The SERCX2_CUSTOM_TRANSMIT_CONFIG structure contains information th
 old-location: serports\sercx2_custom_transmit_config.htm
 tech.root: serports
 ms.assetid: CC043EA0-391F-48D5-B37D-13136527BFCE
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PSERCX2_CUSTOM_TRANSMIT_CONFIG, 2/PSERCX2_CUSTOM_TRANSMIT_CONFIG, 2/SERCX2_CUSTOM_TRANSMIT_CONFIG, PSERCX2_CUSTOM_TRANSMIT_CONFIG, PSERCX2_CUSTOM_TRANSMIT_CONFIG structure pointer [Serial Ports], SERCX2_CUSTOM_TRANSMIT_CONFIG, SERCX2_CUSTOM_TRANSMIT_CONFIG structure [Serial Ports], _SERCX2_CUSTOM_TRANSMIT_CONFIG, serports.sercx2_custom_transmit_config"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: sercx.h
 req.include-header: 

@@ -4,11 +4,8 @@ title: IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER
 author: windows-driver-content
 description: For internal use only. Do not use.
 ms.assetid: 4f49199d-f3ba-455e-bda4-17d816e929ff
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: ioctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -36,7 +33,7 @@ targetos: Windows
 
 # IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
+### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -73,7 +70,7 @@ targetos: Windows
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

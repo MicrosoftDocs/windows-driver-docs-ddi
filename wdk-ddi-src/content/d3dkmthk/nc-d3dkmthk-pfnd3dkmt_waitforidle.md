@@ -4,11 +4,8 @@ title: PFND3DKMT_WAITFORIDLE
 author: windows-driver-content
 description: The PFND3DKMT_WAITFORIDLE callback function waits for a display device to be idle.
 ms.assetid: a9d632cc-0f23-4a65-a036-afac2739319c
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3DKMT_WAITFORIDLE callback function waits for a display device to be idl
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_WAITFORIDLE Pfnd3dkmtWaitforidle; 

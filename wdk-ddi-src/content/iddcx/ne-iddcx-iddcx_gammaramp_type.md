@@ -6,11 +6,8 @@ description: An enumeration indicating the type of gamma ramp being set.
 old-location: display\iddcx_gammaramp_type.htm
 tech.root: display
 ms.assetid: 40fa5169-e295-429c-a63d-3e4ab9c14672
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: IDDCX_GAMMARAMP_TYPE, IDDCX_GAMMARAMP_TYPE enumeration [Display Devices], IDDCX_GAMMARAMP_TYPE_DEFAULT, IDDCX_GAMMARAMP_TYPE_RGB256x3x16, IDDCX_GAMMARAMP_TYPE_UNINITIALIZED, display.iddcx_gammaramp_type, iddcx/IDDCX_GAMMARAMP_TYPE, iddcx/IDDCX_GAMMARAMP_TYPE_DEFAULT, iddcx/IDDCX_GAMMARAMP_TYPE_RGB256x3x16, iddcx/IDDCX_GAMMARAMP_TYPE_UNINITIALIZED
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: iddcx.h
 req.include-header: 

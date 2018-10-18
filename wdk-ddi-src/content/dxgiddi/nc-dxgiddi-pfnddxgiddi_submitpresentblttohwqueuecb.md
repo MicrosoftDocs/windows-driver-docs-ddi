@@ -4,11 +4,8 @@ title: PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB
 author: windows-driver-content
 description: Implemented by the client driver to submit a present Blt to hardware queue.
 ms.assetid: 3341a253-26f4-4897-a3c0-c66f37288b44
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dxgiddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to submit a present Blt to hardware queue.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB PfnddxgiddiSubmitpresentblttohwqueuecb;

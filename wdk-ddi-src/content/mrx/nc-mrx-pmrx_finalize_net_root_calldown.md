@@ -6,11 +6,8 @@ description: The MRxFinalizeNetRoot routine is called by RDBSS to request that a
 old-location: ifsk\mrxfinalizenetroot.htm
 tech.root: ifsk
 ms.assetid: 59f5b6e0-9edc-45c9-9d22-1555edb8f7c6
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: MRxFinalizeNetRoot, MRxFinalizeNetRoot routine [Installable File System Drivers], PMRX_FINALIZE_NET_ROOT_CALLDOWN, ifsk.mrxfinalizenetroot, mrx/MRxFinalizeNetRoot, mrxref_5f5d7468-3257-4800-99fe-e5e6b7c99e37.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: mrx.h
 req.include-header: Mrx.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The<i> MRxFinalizeNetRoot</i> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector finalize a NET_ROOT structure.
+The<i> MRxFinalizeNetRoot</i> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector finalize a NET_ROOT structure.
 
 
 ## -parameters

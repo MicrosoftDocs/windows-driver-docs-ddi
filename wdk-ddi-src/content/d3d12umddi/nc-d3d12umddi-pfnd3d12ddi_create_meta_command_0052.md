@@ -4,11 +4,8 @@ title: PFND3D12DDI_CREATE_META_COMMAND_0052
 author: windows-driver-content
 description: Creates a meta-command.
 ms.assetid: 9fafcd8c-e783-4d28-af99-b784cb687430
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Creates a meta-command.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATE_META_COMMAND_0052 Pfnd3d12ddiCreateMetaCommand0052; 

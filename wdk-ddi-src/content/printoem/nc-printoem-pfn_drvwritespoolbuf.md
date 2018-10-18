@@ -6,11 +6,8 @@ description: The DrvWriteSpoolBuf function pointed to by this function pointer i
 old-location: print\drvwritespoolbuf.htm
 tech.root: print
 ms.assetid: a0de6757-3be8-4c8f-bc6f-93c2e097fec7
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: DrvWriteSpoolBuf, DrvWriteSpoolBuf callback function [Print Devices], PFN_DrvWriteSpoolBuf, PFN_DrvWriteSpoolBuf callback, print.drvwritespoolbuf, print_obsoletefunctions_06e6fe98-5851-4c2e-863a-5afe735321fb.xml, printoem/DrvWriteSpoolBuf
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: printoem.h
 req.include-header: 

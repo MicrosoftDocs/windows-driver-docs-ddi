@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_getimsi.htm
 tech.root: netvista
 ms.assetid: 2bc038bb-fe8a-4a22-b4e2-d6dcf2589a12
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RIL_GetIMSI, RIL_GetIMSI method [Network Drivers Starting with Windows Vista], netvista.ril_getimsi, rilapi/RIL_GetIMSI
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rilapi.h
 req.include-header: 

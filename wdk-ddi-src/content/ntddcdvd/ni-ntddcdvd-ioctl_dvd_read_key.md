@@ -6,11 +6,8 @@ description: Returns a copy-protection key of the specified type:\_challenge key
 old-location: storage\ioctl_dvd_read_key.htm
 tech.root: storage
 ms.assetid: 42745dae-f472-4f64-8f16-9f4dec1e986a
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IOCTL_DVD_READ_KEY, IOCTL_DVD_READ_KEY control, IOCTL_DVD_READ_KEY control code [Storage Devices], k307_6baca45d-504c-46b9-9724-f82132c2bead.xml, ntddcdvd/IOCTL_DVD_READ_KEY, storage.ioctl_dvd_read_key
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h

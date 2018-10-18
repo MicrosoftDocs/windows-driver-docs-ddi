@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Specifies the rate at which the video processor produces output frames from an input stream.
 old-location: display\d3d11_1ddi_video_processor_output_rate.htm
 ms.assetid: ff34c208-9b42-4f72-bb2a-43f3bb44fd68
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE, D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE enumeration [Display Devices], D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM, D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_HALF, D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_NORMAL, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_HALF, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_NORMAL, display.d3d11_1ddi_video_processor_output_rate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

@@ -6,11 +6,8 @@ description: The MRxCreateSrvCall routine is called by RDBSS to request that the
 old-location: ifsk\mrxcreatesrvcall.htm
 tech.root: ifsk
 ms.assetid: 2f6325e1-4ede-41e5-87d3-833c6b52157a
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: MRxCreateSrvCall, MRxCreateSrvCall routine [Installable File System Drivers], PMRX_CREATE_SRVCALL, ifsk.mrxcreatesrvcall, mrx/MRxCreateSrvCall, mrxref_bc85d9c3-6d64-4510-ae94-0ec858c49110.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: mrx.h
 req.include-header: Mrx.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The<i> MRxCreateSrvCall</i> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that the network mini-redirector create an SRV_CALL structure and establish connection with a server.
+The<i> MRxCreateSrvCall</i> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that the network mini-redirector create an SRV_CALL structure and establish connection with a server.
 
 
 ## -parameters

@@ -4,11 +4,8 @@ title: PFND3D12DDI_DESTROYCOMMANDLIST
 author: windows-driver-content
 description: Destroys a command list.
 ms.assetid: 275e31b7-359b-447d-90c7-7d69e6234645
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Destroys a command list.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROYCOMMANDLIST Pfnd3d12ddiDestroycommandlist; 

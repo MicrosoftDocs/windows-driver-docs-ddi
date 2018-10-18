@@ -6,11 +6,8 @@ description: This interface supports Process Lifecycle Management (PLM) for the 
 old-location: debugger\idebugplmclient.htm
 tech.root: debugger
 ms.assetid: 2D713354-4C93-4DC1-A3E9-7E6BC991FD08
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugPlmClient, IDebugPlmClient interface [Windows Debugging], IDebugPlmClient interface [Windows Debugging],described, dbgeng/IDebugPlmClient, debugger.idebugplmclient
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

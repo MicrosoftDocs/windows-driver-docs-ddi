@@ -6,11 +6,8 @@ description: The IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE IOCTL is used by the USB h
 old-location: buses\ioctl_internal_usb_get_device_handle.htm
 tech.root: usbref
 ms.assetid: 4c2c7b8b-4b4b-4a76-8dac-106c94f347c5
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE, IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE control, IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE control code [Buses], buses.ioctl_internal_usb_get_device_handle, usbioctl/IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
@@ -120,7 +117,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 
 

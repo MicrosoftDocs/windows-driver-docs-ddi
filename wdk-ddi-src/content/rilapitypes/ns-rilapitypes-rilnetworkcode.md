@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilnetworkcode_2.htm
 tech.root: netvista
 ms.assetid: 13d5914e-b42f-41ce-b86b-b7d638244558
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*LPRILNETWORKCODE, RILNETWORKCODE, RILNETWORKCODE structure [Network Drivers Starting with Windows Vista], netvista.rilnetworkcode_2, rilapitypes/RILNETWORKCODE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
 req.include-header:
@@ -57,7 +54,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```cpp
 typedef struct _RILNETWORKCODE {
   DWORD  cbSize;
   DWORD  dwParams;
@@ -68,7 +65,7 @@ typedef struct _RILNETWORKCODE {
   DWORD  dwNID;
   DWORD  dwRI;
 } RILNETWORKCODE, RILNETWORKCODE;
-````
+```
 
 
 ## -struct-fields

@@ -6,11 +6,8 @@ description: The GetWriteParameters method retrieves parameters that are associa
 old-location: wdf\iwdfiorequestcompletionparams_getwriteparameters.htm
 tech.root: wdf
 ms.assetid: 7161ba67-d94a-4f05-bb8f-a97ef418e580
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: GetWriteParameters, GetWriteParameters method, GetWriteParameters method,IWDFIoRequestCompletionParams interface, IWDFIoRequestCompletionParams interface,GetWriteParameters method, IWDFIoRequestCompletionParams.GetWriteParameters, IWDFIoRequestCompletionParams::GetWriteParameters, UMDFRequestObjectRef_018d6259-d6c5-4004-966a-6d18bca94057.xml, umdf.iwdfiorequestcompletionparams_getwriteparameters, wdf.iwdfiorequestcompletionparams_getwriteparameters, wudfddi/IWDFIoRequestCompletionParams::GetWriteParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetWriteParameters</b> method retrieves parameters that are associated with the completion of a write request.
 

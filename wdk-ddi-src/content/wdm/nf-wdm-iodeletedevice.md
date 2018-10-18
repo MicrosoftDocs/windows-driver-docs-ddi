@@ -6,11 +6,8 @@ description: The IoDeleteDevice routine removes a device object from the system,
 old-location: kernel\iodeletedevice.htm
 tech.root: kernel
 ms.assetid: 973549c3-c570-48ab-9a82-9398c920dbd9
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IoDeleteDevice, IoDeleteDevice routine [Kernel-Mode Driver Architecture], k104_246c1fe6-75cc-434e-a1d4-7e573eff96de.xml, kernel.iodeletedevice, wdm/IoDeleteDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

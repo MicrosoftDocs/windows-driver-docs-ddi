@@ -6,11 +6,8 @@ description: The GetNewEmptyPart method creates a new XPS part.
 old-location: print\ixpsdocumentconsumer_getnewemptypart.htm
 tech.root: print
 ms.assetid: cc0911da-46ca-4cf7-a59e-da0d53e1d10c
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: GetNewEmptyPart, GetNewEmptyPart method [Print Devices], GetNewEmptyPart method [Print Devices],IXpsDocumentConsumer interface, IXpsDocumentConsumer interface [Print Devices],GetNewEmptyPart method, IXpsDocumentConsumer.GetNewEmptyPart, IXpsDocumentConsumer::GetNewEmptyPart, filterpipeline/IXpsDocumentConsumer::GetNewEmptyPart, filterpipeline_c4770528-f57a-4197-b60b-5b780d5e7752.xml, print.ixpsdocumentconsumer_getnewemptypart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: filterpipeline.h
 req.include-header: 

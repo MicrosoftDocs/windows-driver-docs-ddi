@@ -4,7 +4,6 @@ title: OUR_GUID_ENTRY macro
 author: windows-driver-content
 description: 
 ms.assetid: 732b59a0-0445-4ded-9f7a-67ad8a878b84
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: macro
 ms.keywords: OUR_GUID_ENTRY

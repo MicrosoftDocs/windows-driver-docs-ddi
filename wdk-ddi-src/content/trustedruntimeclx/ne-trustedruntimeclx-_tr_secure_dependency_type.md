@@ -4,12 +4,9 @@ title: _TR_SECURE_DEPENDENCY_TYPE
 author: windows-driver-content
 description: 
 ms.assetid: 44acec5b-464f-4eec-9ba0-c27b5d8ad6d4
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: _TR_SECURE_DEPENDENCY_TYPE, TR_SECURE_DEPENDENCY_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:

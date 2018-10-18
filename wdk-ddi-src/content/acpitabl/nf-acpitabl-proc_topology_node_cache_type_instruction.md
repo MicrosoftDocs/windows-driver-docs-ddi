@@ -4,7 +4,6 @@ title: PROC_TOPOLOGY_NODE_CACHE_TYPE_INSTRUCTION macro
 author: windows-driver-content
 description: Defines the processor topology node cache type instruction macro.
 ms.assetid: 95029449-5656-4098-9e83-a8fead0941fd
-ms.author: windowsdriverdev
 ms.date: 10/1/2018
 ms.topic: macro
 ms.keywords: PROC_TOPOLOGY_NODE_CACHE_TYPE_INSTRUCTION

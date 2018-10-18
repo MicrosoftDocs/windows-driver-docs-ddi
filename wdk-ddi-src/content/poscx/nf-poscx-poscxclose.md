@@ -6,11 +6,8 @@ description: PosCxClose is called to delete an opened PosCx library instance. Th
 old-location: pos\poscxclose.htm
 tech.root: pos
 ms.assetid: 90D097B9-EE7B-49FA-B0F7-6A255D140C06
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: PosCxClose, PosCxClose function, pos.poscxclose, poscx/PosCxClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: poscx.h
 req.include-header: Poscx.h

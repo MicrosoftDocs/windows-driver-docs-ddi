@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilgetpreferencedoperatorlistformat.htm
 tech.root: netvista
 ms.assetid: 77526649-dc98-4c40-b348-6e5620f6e4eb
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RILGETPREFERENCEDOPERATORLISTFORMAT, RILGETPREFERENCEDOPERATORLISTFORMAT enumeration [Network Drivers Starting with Windows Vista], RIL_OPFORMAT_MAX, RIL_OPFORMAT_NUM, RIL_OPFORMAT_SHORT, netvista.rilgetpreferencedoperatorlistformat, ntddrilapitypes/RILGETPREFERENCEDOPERATORLISTFORMAT, ntddrilapitypes/RIL_OPFORMAT_MAX, ntddrilapitypes/RIL_OPFORMAT_NUM, ntddrilapitypes/RIL_OPFORMAT_SHORT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h

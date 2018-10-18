@@ -6,11 +6,8 @@ description: The EXT_COMMAND macro is used to define an extension command that w
 old-location: debugger\ext_command.htm
 tech.root: debugger
 ms.assetid: 349712b1-bd1f-4f1f-a242-b6aa36e48773
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: EXT_COMMAND, EXT_COMMAND function [Windows Debugging], EngExtCpp_Ref_a6dc21d7-b0c2-4e13-add5-ecfe3c38a94a.xml, debugger.ext_command, engextcpp/EXT_COMMAND
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

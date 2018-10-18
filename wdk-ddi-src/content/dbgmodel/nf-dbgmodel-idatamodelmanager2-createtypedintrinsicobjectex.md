@@ -4,7 +4,6 @@ title: IDataModelManager2::CreateTypedIntrinsicObjectEx
 author: windows-driver-content
 description: The CreateTypedIntrinsicObjectEx method is semantically similar to the CreateTypedIntrinsicObject method.
 ms.assetid: 4a5450f4-d14d-41bb-b0ac-520fe1dc49f7
-ms.author: windowsdriverdev
 ms.date: 09/11/2018
 ms.topic: method
 ms.keywords: IDataModelManager2::CreateTypedIntrinsicObjectEx, CreateTypedIntrinsicObjectEx, IDataModelManager2.CreateTypedIntrinsicObjectEx, IDataModelManager2::CreateTypedIntrinsicObjectEx, IDataModelManager2.CreateTypedIntrinsicObjectEx

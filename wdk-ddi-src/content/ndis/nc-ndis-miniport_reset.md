@@ -6,11 +6,8 @@ description: NDIS calls an NDIS miniport driver's MiniportResetEx function to in
 old-location: netvista\miniportresetex.htm
 tech.root: netvista
 ms.assetid: 15f82163-a1b5-4cef-a53e-8a97adb2cd92
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: MINIPORT_RESET, MINIPORT_RESET callback, MiniportResetEx, MiniportResetEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_13afeb89-4956-4a8d-ade8-8d17a4a84128.xml, ndis/MiniportResetEx, netvista.miniportresetex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -54,7 +51,7 @@ req.typenames:
 
 
 NDIS calls an NDIS miniport driver's 
-   <i>MiniportResetEx</i> function to initiate a reset of a network interface card (NIC). For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations">Miniport Adapter Check-for-Hang and Reset Operations</a> and <a href="https://msdn.microsoft.com/d5209809-039c-4ac2-afdf-1f5144307850">Miniport Driver Hardware Reset</a>.
+   <i>MiniportResetEx</i> function to initiate a reset of a network interface card (NIC). For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations">Miniport Adapter Check-for-Hang and Reset Operations</a> and <a href="https://msdn.microsoft.com/d5209809-039c-4ac2-afdf-1f5144307850">Miniport Driver Hardware Reset</a>.
 <div class="alert"><b>Note</b>  An NDIS miniport driver may declare this function by using the <b>MINIPORT_RESET</b> type.</div><div> </div>
 
 ## -parameters
@@ -237,7 +234,7 @@ NDIS calls the
     <i>MiniportResetEx</i>. The default time-out for calling 
     <i>MiniportCheckForHangEx</i> is 2 seconds. If this default is too short, a miniport driver can set a larger <b>CheckForHangTimeInSeconds</b> value when calling the    
     <a href="https://msdn.microsoft.com/861626af-23ea-40dc-a91a-7da42d4b0a1c">
-    NdisMSetMiniportAttributes</a> function during initialization. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations">Miniport Adapter Check-for-Hang and Reset Operations</a>.
+    NdisMSetMiniportAttributes</a> function during initialization. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations">Miniport Adapter Check-for-Hang and Reset Operations</a>.
 
 NDIS cannot determine whether a NIC has stopped responding for receive operations. To handle this kind
     of failure, the 
@@ -292,7 +289,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations">Miniport Adapter Check-for-Hang and Reset Operations</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations">Miniport Adapter Check-for-Hang and Reset Operations</a>
 
 
 

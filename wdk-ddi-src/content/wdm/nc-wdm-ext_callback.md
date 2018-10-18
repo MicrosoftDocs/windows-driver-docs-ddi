@@ -6,11 +6,8 @@ description: An ExTimerCallback callback routine runs after an EX_TIMER timer ob
 old-location: kernel\extimercallback.htm
 tech.root: kernel
 ms.assetid: 4BE0A753-58A6-4868-9A04-B9A0710A02A5
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: EXT_CALLBACK, ExTimerCallback, ExTimerCallback routine [Kernel-Mode Driver Architecture], kernel.extimercallback, wdm/ExTimerCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-An <i>ExTimerCallback</i> callback routine runs after an <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a> timer object's time interval expires.
+An <i>ExTimerCallback</i> callback routine runs after an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a> timer object's time interval expires.
 
 
 ## -parameters
@@ -60,7 +57,7 @@ An <i>ExTimerCallback</i> callback routine runs after an <a href="https://docs.m
 
 ### -param Timer [in]
 
-A pointer to an <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a> structure. This structure is a timer object that was previously allocated by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265179">ExAllocateTimer</a> routine.
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a> structure. This structure is a timer object that was previously allocated by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265179">ExAllocateTimer</a> routine.
 
 
 ### -param Context [in]
@@ -141,7 +138,7 @@ The EXT_CALLBACK function type is defined in the Wdm.h header file. To more accu
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
 
 
 

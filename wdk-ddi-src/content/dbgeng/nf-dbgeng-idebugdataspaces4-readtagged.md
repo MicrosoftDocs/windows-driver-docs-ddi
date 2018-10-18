@@ -6,11 +6,8 @@ description: The ReadTagged method reads the tagged data that might be associate
 old-location: debugger\readtagged.htm
 tech.root: debugger
 ms.assetid: d7ca67d2-7156-44f7-ab16-178e6307e412
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugDataSpaces3 interface [Windows Debugging],ReadTagged method, IDebugDataSpaces3::ReadTagged, IDebugDataSpaces4 interface [Windows Debugging],ReadTagged method, IDebugDataSpaces4.ReadTagged, IDebugDataSpaces4::ReadTagged, IDebugDataSpaces_cdf64ddf-da14-4607-8df2-1d4703a2eebf.xml, ReadTagged, ReadTagged method [Windows Debugging], ReadTagged method [Windows Debugging],IDebugDataSpaces3 interface, ReadTagged method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces3::ReadTagged, dbgeng/IDebugDataSpaces4::ReadTagged, debugger.readtagged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

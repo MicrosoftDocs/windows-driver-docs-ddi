@@ -6,11 +6,8 @@ description: The WdfWaitLockAcquire method acquires a specified wait lock.
 old-location: wdf\wdfwaitlockacquire.htm
 tech.root: wdf
 ms.assetid: 6fe7465d-938a-400f-b141-76e8a5ffbe90
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFSynchroRef_eccb7d51-5e5e-4b2b-8156-c22d35f46809.xml, WdfWaitLockAcquire, WdfWaitLockAcquire method, kmdf.wdfwaitlockacquire, wdf.wdfwaitlockacquire, wdfsync/WdfWaitLockAcquire
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfsync.h
 req.include-header: Wdf.h
@@ -158,7 +155,7 @@ If the <i>Timeout</i> pointer is <b>NULL</b>, or if the time-out value is not ze
 
 If the time-out value is zero, <b>WdfWaitLockAcquire</b> must be called at IRQL &lt; DISPATCH_LEVEL. Note that this is in disagreement with the header file (wdfsync.h), which indicates that this method can be called at DISPATCH_LEVEL.
 
-For more information about wait locks, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/synchronization-techniques-for-wdf-drivers">Synchronization Techniques for Framework-Based Drivers</a>.
+For more information about wait locks, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/synchronization-techniques-for-wdf-drivers">Synchronization Techniques for Framework-Based Drivers</a>.
 
 
 #### Examples

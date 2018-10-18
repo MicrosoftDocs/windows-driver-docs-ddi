@@ -6,11 +6,8 @@ description: The WDF_POWER_DEVICE_STATE enumeration identifies the device power 
 old-location: wdf\wdf_power_device_state.htm
 tech.root: wdf
 ms.assetid: 66ff00fd-43b0-4fe1-a010-4b5ef65fa811
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*PWDF_POWER_DEVICE_STATE, DFDeviceObjectGeneralRef_5a921767-81e1-4a80-b775-8f91819c6ea5.xml, PWDF_POWER_DEVICE_STATE, PWDF_POWER_DEVICE_STATE enumeration pointer, WDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE enumeration, WdfPowerDeviceD0, WdfPowerDeviceD1, WdfPowerDeviceD2, WdfPowerDeviceD3, WdfPowerDeviceD3Final, WdfPowerDeviceInvalid, WdfPowerDeviceMaximum, WdfPowerDevicePrepareForHibernation, _WDF_POWER_DEVICE_STATE, kmdf.wdf_power_device_state, wdf.wdf_power_device_state, wdfdevice/PWDF_POWER_DEVICE_STATE, wdfdevice/WDF_POWER_DEVICE_STATE, wdfdevice/WdfPowerDeviceD0, wdfdevice/WdfPowerDeviceD1, wdfdevice/WdfPowerDeviceD2, wdfdevice/WdfPowerDeviceD3, wdfdevice/WdfPowerDeviceD3Final, wdfdevice/WdfPowerDeviceInvalid, wdfdevice/WdfPowerDeviceMaximum, wdfdevice/WdfPowerDevicePrepareForHibernation"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wdfdevice.h
 req.include-header: Wdf.h
@@ -87,7 +84,7 @@ The D3 device power state.
 
 ### -field WdfPowerDeviceD3Final
 
-Represents the final time that the device enters the D3 device power state. Typically, this enumerator means that the system is being turned off, the device is about to be removed, or a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/the-pnp-manager-redistributes-system-resources">resource rebalance</a> is in progress. The device might have been already removed.
+Represents the final time that the device enters the D3 device power state. Typically, this enumerator means that the system is being turned off, the device is about to be removed, or a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/the-pnp-manager-redistributes-system-resources">resource rebalance</a> is in progress. The device might have been already removed.
 
 
 ### -field WdfPowerDevicePrepareForHibernation

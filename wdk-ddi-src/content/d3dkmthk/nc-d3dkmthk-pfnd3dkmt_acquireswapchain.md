@@ -4,11 +4,8 @@ title: PFND3DKMT_ACQUIRESWAPCHAIN
 author: windows-driver-content
 description: The PFND3DKMT_ACQUIRESWAPCHAIN callback function acquires a swap chain.
 ms.assetid: a657e5a6-68e1-484b-8724-533887a417cf
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3DKMT_ACQUIRESWAPCHAIN callback function acquires a swap chain.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_ACQUIRESWAPCHAIN Pfnd3dkmtAcquireswapchain; 

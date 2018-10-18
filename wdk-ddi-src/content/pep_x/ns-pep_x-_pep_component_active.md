@@ -6,11 +6,8 @@ description: The PEP_COMPONENT_ACTIVE structure identifies a component that is m
 old-location: kernel\pep_component_active.htm
 tech.root: kernel
 ms.assetid: 58C2FFFC-2EAC-406B-943A-491AF3538F78
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PPEP_COMPONENT_ACTIVE, PEP_COMPONENT_ACTIVE, PEP_COMPONENT_ACTIVE structure [Kernel-Mode Driver Architecture], PPEP_COMPONENT_ACTIVE, PPEP_COMPONENT_ACTIVE structure pointer [Kernel-Mode Driver Architecture], _PEP_COMPONENT_ACTIVE, kernel.pep_component_active, pep_x/PEP_COMPONENT_ACTIVE, pep_x/PPEP_COMPONENT_ACTIVE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pep_x.h
 req.include-header: Pepfx.h
@@ -60,7 +57,7 @@ The <b>PEP_COMPONENT_ACTIVE</b> structure identifies a component that is making 
 
 ### -field DeviceHandle
 
-[in] A PEPHANDLE value that identifies the device. The PEP supplied this handle in response to a previous <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification.
+[in] A PEPHANDLE value that identifies the device. The PEP supplied this handle in response to a previous <a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification.
 
 
 ### -field Component
@@ -87,7 +84,7 @@ The <b>PEP_COMPONENT_ACTIVE</b> structure identifies a component that is making 
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629112">PEP_DPM_COMPONENT_ACTIVE</a> notification. The first three members of the structure contain input values that are supplied by the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx). The last two members contain output values that the PEP writes to the structure in response to this notification.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt629112">PEP_DPM_COMPONENT_ACTIVE</a> notification. The first three members of the structure contain input values that are supplied by the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx). The last two members contain output values that the PEP writes to the structure in response to this notification.
 
 
 
@@ -101,11 +98,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629112">PEP_DPM_COMPONENT_ACTIVE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt629112">PEP_DPM_COMPONENT_ACTIVE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
 
 

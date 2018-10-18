@@ -6,11 +6,8 @@ description: The SyncToMaster method allows synchronization to the master clock 
 old-location: audio\isynthsinkdmus_synctomaster.htm
 tech.root: audio
 ms.assetid: 5009e4d8-5299-4eeb-a70d-5be87694b1d0
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: ISynthSinkDMus interface [Audio Devices],SyncToMaster method, ISynthSinkDMus.SyncToMaster, ISynthSinkDMus::SyncToMaster, SyncToMaster, SyncToMaster method [Audio Devices], SyncToMaster method [Audio Devices],ISynthSinkDMus interface, audio.isynthsinkdmus_synctomaster, audmp-routines_35d431eb-a92c-4e73-b75c-8a3a1f0451ce.xml, dmusicks/ISynthSinkDMus::SyncToMaster
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dmusicks.h
 req.include-header: Dmusicks.h

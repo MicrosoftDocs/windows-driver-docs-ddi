@@ -6,11 +6,8 @@ description: The completion parameters for a Group Owner (GO) negotiation reques
 old-location: netvista\_dot11_go_negotiation_request_send_complete_parameters.htm
 tech.root: netvista
 ms.assetid: 2F10078E-CE9F-425D-AB48-7A27906830B0
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*PDOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, PDOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, netvista._dot11_go_negotiation_request_send_complete_parameters, windot11/ DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, windot11/PDOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Windot11.h
@@ -58,7 +55,7 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS {
   NDIS_OBJECT_HEADER Header;
   DOT11_MAC_ADDRESS  PeerDeviceAddress;
@@ -67,7 +64,7 @@ typedef struct _DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS {
   ULONG              uIEsOffset;
   ULONG              uIEsLength;
 }  DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, *PDOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS;
-````
+```
 
 
 ## -struct-fields

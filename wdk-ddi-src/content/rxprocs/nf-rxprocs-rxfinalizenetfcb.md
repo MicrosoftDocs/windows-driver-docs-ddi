@@ -6,11 +6,8 @@ description: RxFinalizeNetFCB finalizes the given FCB structure. The caller must
 old-location: ifsk\rxfinalizenetfcb.htm
 tech.root: ifsk
 ms.assetid: 1eed44e2-f9ed-45a1-a5fa-dbf6a9c7c703
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RxFinalizeNetFCB, RxFinalizeNetFcb, RxFinalizeNetFcb function [Installable File System Drivers], ifsk.rxfinalizenetfcb, rxprocs/RxFinalizeNetFcb, rxref_5aaa19aa-c75c-4978-b731-f3046e84217d.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rxprocs.h
 req.include-header: Rxprocs.h
@@ -201,7 +198,7 @@ if the reference count goes to zero, the FCB is finalized and the memory used fo
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fcb-structure">The FCB Structure</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-fcb-structure">The FCB Structure</a>
  
 
  

@@ -4,11 +4,8 @@ title: PFND3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054
 author: windows-driver-content
 description: Performs a ray tracing acceleration structure build on the GPU.
 ms.assetid: c85f6b3b-0420-4acd-8f4a-891e4432fb4a
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ BuildRaytracingAccelerationStructure performs a ray tracing acceleration structu
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054 Pfnd3d12ddiBuildRaytracingAccelerationStructure0054; 

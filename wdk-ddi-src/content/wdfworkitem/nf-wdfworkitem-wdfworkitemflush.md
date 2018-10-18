@@ -6,11 +6,8 @@ description: The WdfWorkItemFlush method returns after a specified work item has
 old-location: wdf\wdfworkitemflush.htm
 tech.root: wdf
 ms.assetid: 5868dd01-17ba-4edf-b665-c90d2b1aa2ba
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFWorkItemObjectRef_620a50e7-1995-4806-b71a-932f7fc7c35a.xml, WdfWorkItemFlush, WdfWorkItemFlush method, kmdf.wdfworkitemflush, wdf.wdfworkitemflush, wdfworkitem/WdfWorkItemFlush
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfworkitem.h
 req.include-header: Wdf.h
@@ -89,12 +86,12 @@ If your driver calls the <b>WdfWorkItemFlush</b> method, the method does not ret
 
 Most drivers that use work items do not need to call <b>WdfWorkItemFlush</b>. A driver might call <b>WdfWorkItemFlush</b> if it must synchronize completion of work items with the removal of a remote I/O target. In this case, the driver can call <b>WdfWorkItemFlush</b> from within its <a href="https://msdn.microsoft.com/cb7c97e5-081e-44fc-a759-9a1ae81de41c">EvtIoTargetQueryRemove</a> callback function. 
 
-For more information about work items, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-framework-work-items">Using Framework Work Items</a>.
+For more information about work items, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-framework-work-items">Using Framework Work Items</a>.
 
 
 #### Examples
 
-The following code example is an <a href="https://msdn.microsoft.com/cb7c97e5-081e-44fc-a759-9a1ae81de41c">EvtIoTargetQueryRemove</a> callback function from the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">Toaster</a> sample driver. 
+The following code example is an <a href="https://msdn.microsoft.com/cb7c97e5-081e-44fc-a759-9a1ae81de41c">EvtIoTargetQueryRemove</a> callback function from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">Toaster</a> sample driver. 
 
 <div class="code"><span codelanguage=""><table>
 <tr>

@@ -6,11 +6,8 @@ description: The WDF_INTERRUPT_EXTENDED_POLICY_INIT function initializes a WDF_I
 old-location: wdf\wdf_interrupt_extended_policy_init_umdf.htm
 tech.root: wdf
 ms.assetid: 6CD02F5B-0E34-46F5-8AEA-3B30293E1875
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WDF_INTERRUPT_EXTENDED_POLICY_INIT, WDF_INTERRUPT_EXTENDED_POLICY_INIT function, umdf.wdf_interrupt_extended_policy_init, wdf.wdf_interrupt_extended_policy_init_umdf, wudfinterrupt/WDF_INTERRUPT_EXTENDED_POLICY_INIT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wudfinterrupt.h
 req.include-header: 
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff552350">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552349">WDF_INTERRUPT_EXTENDED_POLICY</a> structure.

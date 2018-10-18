@@ -6,11 +6,8 @@ description: The IPortWaveRTStream interface is supported in Windows Vista and l
 old-location: audio\iportwavertstream.htm
 tech.root: audio
 ms.assetid: ca5039ff-d34a-4a61-b288-64f0c1f31b91
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: IPortWaveRTStream, IPortWaveRTStream interface [Audio Devices], IPortWaveRTStream interface [Audio Devices],described, audio.iportwavertstream, audmp-routines_485f04fa-bdd1-4b92-bb3b-4f8653393811.xml, portcls/IPortWaveRTStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: portcls.h
 req.include-header: 

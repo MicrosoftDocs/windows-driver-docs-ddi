@@ -6,11 +6,8 @@ description: The GetQueryInformationParameters method retrieves parameters that 
 old-location: wdf\iwdfiorequest2_getqueryinformationparameters.htm
 tech.root: wdf
 ms.assetid: e189d2f6-ef1c-45ed-8b55-8aae0661a426
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: GetQueryInformationParameters, GetQueryInformationParameters method, GetQueryInformationParameters method,IWDFIoRequest2 interface, IWDFIoRequest2 interface,GetQueryInformationParameters method, IWDFIoRequest2.GetQueryInformationParameters, IWDFIoRequest2::GetQueryInformationParameters, UMDFRequestObjectRef_595d2b4c-1286-4243-b440-0efaae03980d.xml, umdf.iwdfiorequest2_getqueryinformationparameters, wdf.iwdfiorequest2_getqueryinformationparameters, wudfddi/IWDFIoRequest2::GetQueryInformationParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetQueryInformationParameters</b> method retrieves parameters that are associated with a <a href="https://msdn.microsoft.com/a883f22e-0d6f-4755-882b-ad5a60a09271">WdfRequestQueryInformation</a>-typed I/O request.
 

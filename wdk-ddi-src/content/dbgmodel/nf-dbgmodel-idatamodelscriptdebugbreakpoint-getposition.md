@@ -4,7 +4,6 @@ title: IDataModelScriptDebugBreakpoint::GetPosition
 author: windows-driver-content
 description: The GetPosition method returns the position of the breakpoint within the script.
 ms.assetid: cdc328af-b80c-45cb-b4a1-5b31e878014e
-ms.author: windowsdriverdev
 ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebugBreakpoint::GetPosition, GetPosition, IDataModelScriptDebugBreakpoint.GetPosition, IDataModelScriptDebugBreakpoint::GetPosition, IDataModelScriptDebugBreakpoint.GetPosition

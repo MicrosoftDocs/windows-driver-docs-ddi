@@ -4,7 +4,6 @@ title: IDebugHostType::CreatePointerTo
 author: windows-driver-content
 description: For any given type, this returns a new IDebugHostType which is a pointer to this type.
 ms.assetid: 7809e00f-93db-4ddd-80d0-6259cea77382
-ms.author: windowsdriverdev
 ms.date: 08/22/2018
 ms.topic: method
 ms.keywords: IDebugHostType::CreatePointerTo, CreatePointerTo, IDebugHostType.CreatePointerTo, IDebugHostType::CreatePointerTo, IDebugHostType.CreatePointerTo

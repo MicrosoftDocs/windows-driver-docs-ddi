@@ -6,11 +6,8 @@ description: The SeDeassignSecurity routine deallocates the memory associated wi
 old-location: kernel\sedeassignsecurity.htm
 tech.root: kernel
 ms.assetid: c7060b86-8ff6-4229-94e0-7965ae59aa90
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: SeDeassignSecurity, SeDeassignSecurity routine [Kernel-Mode Driver Architecture], k110_9c1ca048-addd-4343-bfee-34e905b143b3.xml, kernel.sedeassignsecurity, wdm/SeDeassignSecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

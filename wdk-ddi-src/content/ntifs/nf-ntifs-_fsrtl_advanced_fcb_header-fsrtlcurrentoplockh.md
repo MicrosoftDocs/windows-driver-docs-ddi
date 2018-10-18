@@ -6,11 +6,8 @@ description: A file system or filter driver calls FsRtlCurrentOplockH to determi
 old-location: ifsk\fsrtlcurrentoplockh.htm
 tech.root: ifsk
 ms.assetid: 98eb2bef-18ac-449f-b180-7b0f768cc093
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FsRtlCurrentOplockH, FsRtlCurrentOplockH function [Installable File System Drivers], fsrtlref_4997ca62-379d-45d8-bc22-32efd2076692.xml, ifsk.fsrtlcurrentoplockh, ntifs/FsRtlCurrentOplockH
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

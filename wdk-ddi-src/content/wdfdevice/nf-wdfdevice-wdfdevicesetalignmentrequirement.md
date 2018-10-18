@@ -6,11 +6,8 @@ description: The WdfDeviceSetAlignmentRequirement method registers the driver's 
 old-location: wdf\wdfdevicesetalignmentrequirement.htm
 tech.root: wdf
 ms.assetid: 47e857d0-1423-45e5-a5a5-54507b8fa315
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_9648c639-95b8-4dd9-8d30-8fb6352fe5f6.xml, WdfDeviceSetAlignmentRequirement, WdfDeviceSetAlignmentRequirement method, kmdf.wdfdevicesetalignmentrequirement, wdf.wdfdevicesetalignmentrequirement, wdfdevice/WdfDeviceSetAlignmentRequirement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h
@@ -98,12 +95,12 @@ If your driver specifies an alignment requirement that is greater that the compu
 
 If your driver specifies an alignment requirement that is less than the computer's page size, all logical and virtual addresses are aligned to the specified alignment requirement.
 
-For more information about calling <b>WdfDeviceSetAlignmentRequirement</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/enabling-dma-transactions">Enabling DMA Transactions</a> and <a href="https://msdn.microsoft.com/81a56f62-917e-4798-b2cc-6469c802fab8">Using Common Buffers</a>.
+For more information about calling <b>WdfDeviceSetAlignmentRequirement</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/enabling-dma-transactions">Enabling DMA Transactions</a> and <a href="https://msdn.microsoft.com/81a56f62-917e-4798-b2cc-6469c802fab8">Using Common Buffers</a>.
 
 
 #### Examples
 
-The following code example is from the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">AMCC5933</a> sample driver. This example checks a device's current alignment requirement and sets the alignment requirement to a new value, if necessary.
+The following code example is from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">AMCC5933</a> sample driver. This example checks a device's current alignment requirement and sets the alignment requirement to a new value, if necessary.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

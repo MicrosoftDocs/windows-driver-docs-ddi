@@ -6,11 +6,8 @@ description: The OnPrepareHardware method performs any operations that are neede
 old-location: wdf\ipnpcallbackhardware2_onpreparehardware.htm
 tech.root: wdf
 ms.assetid: 830D706A-016C-4637-829F-2014AD1A1309
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IPnpCallbackHardware2 interface,OnPrepareHardware method, IPnpCallbackHardware2.OnPrepareHardware, IPnpCallbackHardware2::OnPrepareHardware, OnPrepareHardware, OnPrepareHardware method, OnPrepareHardware method,IPnpCallbackHardware2 interface, umdf.ipnpcallbackhardware2_onpreparehardware, wdf.ipnpcallbackhardware2_onpreparehardware, wudfddi/IPnpCallbackHardware2::OnPrepareHardware
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: 
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 
    The <b>OnPrepareHardware</b> method performs any operations that are needed to make a device accessible to the driver.
@@ -94,7 +91,7 @@ If <b>OnPrepareHardware</b> returns an error code, the framework will still call
 
 The <b>IPnpCallbackHardware2::OnPrepareHardware</b> method differs from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556766">IPnpCallbackHardware::OnPrepareHardware</a> method in that it receives raw and translated resources.
 
-For information about parsing hardware resources, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/finding-and-mapping-hardware-resources-in-umdf-1-x-drivers">Finding and Mapping Hardware Resources in a UMDF Driver</a>.
+For information about parsing hardware resources, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/finding-and-mapping-hardware-resources-in-umdf-1-x-drivers">Finding and Mapping Hardware Resources in a UMDF Driver</a>.
 
 
 

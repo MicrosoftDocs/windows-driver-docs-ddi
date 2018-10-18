@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The EvtMbbDeviceCreateAdapter callback function is implemented by the client driver to create a NETADAPTER object for a data session.
 tech.root: netvista
 ms.assetid: db841566-dd24-4687-b00c-1bf2a22f4243
-ms.author: windowsdriverdev
 ms.date: 07/02/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: mbbcx.h
 req.include-header:
 req.target-type: Universal
@@ -53,7 +50,7 @@ The *EvtMbbDeviceCreateAdapter* callback function is implemented by the client d
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_MBB_DEVICE_CREATE_ADAPTER EvtMbbDeviceCreateAdapter; 

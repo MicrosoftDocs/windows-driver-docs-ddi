@@ -6,11 +6,8 @@ description: The POWER_CHANGE_INFO structure is used in conjunction with the IDE
 old-location: storage\power_change_info.htm
 tech.root: storage
 ms.assetid: 10f6c449-f0f8-4261-825e-127c477c06eb
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PIDE_POWER_INFO, IDE_POWER_INFO, IDE_POWER_INFO structure [Storage Devices], PIDE_POWER_INFO, PIDE_POWER_INFO structure pointer [Storage Devices], POWER_CHANGE_INFO, POWER_CHANGE_INFO structure [Storage Devices], _IDE_POWER_INFO, irb/IDE_POWER_INFO, irb/PIDE_POWER_INFO, storage.power_change_info, structs-ATA_b4b67f22-359b-4c12-ad21-7de1c39a8259.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: irb.h
 req.include-header: Irb.h
@@ -51,7 +48,7 @@ req.typenames: IDE_POWER_INFO, *PIDE_POWER_INFO
 
 
 The POWER_CHANGE_INFO structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559140">IDE_REQUEST_BLOCK</a> to request a power state change.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -struct-fields
 

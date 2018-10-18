@@ -6,11 +6,8 @@ description: The IPrintCoreHelper::WhyConstrained method provides a list of opti
 old-location: print\iprintcorehelper_whyconstrained.htm
 tech.root: print
 ms.assetid: de3fdbd4-9647-4369-9c23-4779aa768b1b
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrintCoreHelper interface [Print Devices],WhyConstrained method, IPrintCoreHelper.WhyConstrained, IPrintCoreHelper::WhyConstrained, WhyConstrained, WhyConstrained method [Print Devices], WhyConstrained method [Print Devices],IPrintCoreHelper interface, prcomoem/IPrintCoreHelper::WhyConstrained, print.iprintcorehelper_whyconstrained, print_unidrv-pscript_allplugins_256e3fde-bcef-4883-99bc-803a3de99841.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

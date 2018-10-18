@@ -6,11 +6,8 @@ description: The PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK structure describes a 
 old-location: pci\pci_express_sec_uncorrectable_error_mask.htm
 tech.root: PCI
 ms.assetid: 99387bcc-301d-4406-bcff-fb5569c88c90
-ms.author: windowsdriverdev
 ms.date: 2/24/2018
 ms.keywords: "*PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK, PCI.pci_express_sec_uncorrectable_error_mask, PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK, PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK union [Buses], PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK, PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK union pointer [Buses], _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK, pci_struct_80f14fae-7c43-4a78-bdb7-211abd0e43fd.xml, wdm/PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK, wdm/PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: miniport.h
 req.include-header: Ntddk.h, Wdm.h, Miniport.h
@@ -56,7 +53,7 @@ The PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK structure describes a PCI Express (
 ## -syntax
 
 
-````
+```cpp
 typedef union _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK {
   struct {
     ULONG TargetAbortOnSplitCompletion  :1;
@@ -77,7 +74,7 @@ typedef union _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK {
   };
   ULONG  AsULONG;
 } PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK, *PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK;
-````
+```
 
 
 ## -struct-fields

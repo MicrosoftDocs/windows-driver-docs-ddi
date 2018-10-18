@@ -6,11 +6,8 @@ description: The PEP_QUERY_COMPONENT_PERF_SET_NAME structure contains query info
 old-location: kernel\pep_query_component_perf_set_name.htm
 tech.root: kernel
 ms.assetid: 7F0C550A-A443-4936-B961-17813F23D6AD
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PPEP_QUERY_COMPONENT_PERF_SET_NAME, PEP_QUERY_COMPONENT_PERF_SET_NAME, PEP_QUERY_COMPONENT_PERF_SET_NAME structure [Kernel-Mode Driver Architecture], PPEP_QUERY_COMPONENT_PERF_SET_NAME, PPEP_QUERY_COMPONENT_PERF_SET_NAME structure pointer [Kernel-Mode Driver Architecture], _PEP_QUERY_COMPONENT_PERF_SET_NAME, kernel.pep_query_component_perf_set_name, pepfx/PEP_QUERY_COMPONENT_PERF_SET_NAME, pepfx/PPEP_QUERY_COMPONENT_PERF_SET_NAME"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pep_x.h
 req.include-header: Pep_x.h
@@ -60,7 +57,7 @@ The <b>PEP_QUERY_COMPONENT_PERF_SET_NAME</b> structure contains query informatio
 
 ### -field DeviceHandle
 
-[in] A PEPHANDLE value that identifies the device. The PEP supplied this handle in response to a previous <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification.
+[in] A PEPHANDLE value that identifies the device. The PEP supplied this handle in response to a previous <a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification.
 
 
 ### -field Component
@@ -70,7 +67,7 @@ The <b>PEP_QUERY_COMPONENT_PERF_SET_NAME</b> structure contains query informatio
 
 ### -field Set
 
-[in] The index that identifies this P-state set. If this component has M P-state sets, P-state set indexes range from 0 to M–1. The PEP previously specified the number of P-state sets in response to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186839">PEP_DPM_QUERY_COMPONENT_PERF_CAPABILITIES</a> notification.
+[in] The index that identifies this P-state set. If this component has M P-state sets, P-state set indexes range from 0 to M–1. The PEP previously specified the number of P-state sets in response to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186839">PEP_DPM_QUERY_COMPONENT_PERF_CAPABILITIES</a> notification.
 
 
 ### -field NameSize
@@ -87,7 +84,7 @@ The <b>PEP_QUERY_COMPONENT_PERF_SET_NAME</b> structure contains query informatio
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186841">PEP_DPM_QUERY_COMPONENT_PERF_SET_NAME</a> notification. The <b>DeviceHandle</b>, <b>Component</b>, and <b>Set</b> members of the structure contain input values supplied by PoFx when this notification is sent. If the <b>Name</b> member is non-NULL, the PEP writes a string to the buffer pointed to by <b>Name</b>. If <b>Name</b> is NULL, PEP writes the required buffer size to the <b>NameSize</b> member.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186841">PEP_DPM_QUERY_COMPONENT_PERF_SET_NAME</a> notification. The <b>DeviceHandle</b>, <b>Component</b>, and <b>Set</b> members of the structure contain input values supplied by PoFx when this notification is sent. If the <b>Name</b> member is non-NULL, the PEP writes a string to the buffer pointed to by <b>Name</b>. If <b>Name</b> is NULL, PEP writes the required buffer size to the <b>NameSize</b> member.
 
 The string that the PEP writes to the output buffer should contain a descriptive name for the P-state set. This name is intended to make log entries and diagnostic messages easier to understand.
 
@@ -103,15 +100,15 @@ The string that the PEP writes to the output buffer should contain a descriptive
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186839">PEP_DPM_QUERY_COMPONENT_PERF_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186839">PEP_DPM_QUERY_COMPONENT_PERF_CAPABILITIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186841">PEP_DPM_QUERY_COMPONENT_PERF_SET_NAME</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186841">PEP_DPM_QUERY_COMPONENT_PERF_SET_NAME</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
  
 
  

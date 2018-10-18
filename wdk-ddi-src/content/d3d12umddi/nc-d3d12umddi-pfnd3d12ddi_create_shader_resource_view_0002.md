@@ -4,11 +4,8 @@ title: PFND3D12DDI_CREATE_SHADER_RESOURCE_VIEW_0002
 author: windows-driver-content
 description: Create shader resource view.
 ms.assetid: 90c30af4-5cf6-4a7e-b052-2f78a890b715
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Create shader resource view.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATE_SHADER_RESOURCE_VIEW_0002 Pfnd3d12ddiCreateShaderResourceView0002; 

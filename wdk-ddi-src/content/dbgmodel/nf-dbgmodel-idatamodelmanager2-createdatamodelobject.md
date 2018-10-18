@@ -4,7 +4,6 @@ title: IDataModelManager2::CreateDataModelObject
 author: windows-driver-content
 description: The CreateDataModelObject method is a simple helper wrapper to create objects which are data models -- that is objects which are going to be attached as parent models to other objects.
 ms.assetid: 18106e3b-de00-4fbd-9af6-5f6011fa095b
-ms.author: windowsdriverdev
 ms.date: 07/20/2018
 ms.topic: method
 ms.keywords: IDataModelManager2::CreateDataModelObject, CreateDataModelObject, IDataModelManager2.CreateDataModelObject, IDataModelManager2::CreateDataModelObject, IDataModelManager2.CreateDataModelObject

@@ -6,11 +6,8 @@ description: The SetTransform function sets up a transform.
 old-location: display\settransform.htm
 tech.root: display
 ms.assetid: 0e989ea4-3693-4c0b-86a5-96b865a0193f
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_SETTRANSFORM, PFND3DDDI_SETTRANSFORM callback, SetTransform, SetTransform callback function [Display Devices], UserModeDisplayDriver_Functions_721be745-bcea-4eeb-9bd4-ddda1f1912a5.xml, d3dumddi/SetTransform, display.settransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

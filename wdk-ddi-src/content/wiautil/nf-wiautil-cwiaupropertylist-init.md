@@ -6,11 +6,8 @@ description: The CWiauPropertyList::Init method initializes a property list obje
 old-location: image\cwiaupropertylist_init.htm
 tech.root: image
 ms.assetid: cbbe0d76-7fd1-4653-ad79-d5e6d692dec0
-ms.author: windowsdriverdev
 ms.date: 9/7/2018
 ms.keywords: CWiauPropertyList interface [Imaging Devices],Init method, CWiauPropertyList.Init, CWiauPropertyList::Init, Init, Init method [Imaging Devices], Init method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_init, wiauFncs_4bc30663-6fd6-45b7-a18f-1adc766489be.xml, wiautil/CWiauPropertyList::Init
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h

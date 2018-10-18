@@ -4,12 +4,9 @@ title: CallingConventionKind
 author: windows-driver-content
 description: Defines the kind of calling convention of a function type.
 ms.assetid: c25b87e4-c917-4feb-94c7-9cffe4f4193e
-ms.author: windowsdriverdev
 ms.date: 10/05/2018
 ms.topic: enum
 ms.keywords: CallingConventionKind, , 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

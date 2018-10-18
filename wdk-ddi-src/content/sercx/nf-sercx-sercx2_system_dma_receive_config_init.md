@@ -6,11 +6,8 @@ description: The SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT function initializes a SE
 old-location: serports\sercx2_system_dma_receive_config_init.htm
 tech.root: serports
 ms.assetid: 9BD18E2C-731D-4C7D-8363-67136521B4A7
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: 2/SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT, SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT, SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT function [Serial Ports], serports.sercx2_system_dma_receive_config_init
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 

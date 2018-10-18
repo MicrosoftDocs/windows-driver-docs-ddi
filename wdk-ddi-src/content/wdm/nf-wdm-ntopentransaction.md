@@ -6,11 +6,8 @@ description: The ZwOpenTransaction routine obtains a handle to an existing trans
 old-location: kernel\zwopentransaction.htm
 tech.root: kernel
 ms.assetid: 5ffa50af-24e6-4dab-81cc-6ac26356e9c6
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: NtOpenTransaction, ZwOpenTransaction, ZwOpenTransaction routine [Kernel-Mode Driver Architecture], kernel.zwopentransaction, ktm_ref_ed0e1a06-e5e2-4328-aeeb-d56a78d6a757.xml, wdm/NtOpenTransaction, wdm/ZwOpenTransaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntifs.h

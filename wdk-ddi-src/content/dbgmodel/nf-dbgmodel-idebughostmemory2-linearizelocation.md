@@ -4,7 +4,6 @@ title: IDebugHostMemory2::LinearizeLocation
 author: windows-driver-content
 description: Takes a location which may represent something other than a virtual memory address and attempts to linearize the location into a virtual memory address within the given context.
 ms.assetid: 2c835fe9-e18e-4847-a377-70cf5058f98c
-ms.author: windowsdriverdev
 ms.date: 09/28/2018
 ms.topic: method
 ms.keywords: IDebugHostMemory2::LinearizeLocation, LinearizeLocation, IDebugHostMemory2.LinearizeLocation, IDebugHostMemory2::LinearizeLocation, IDebugHostMemory2.LinearizeLocation

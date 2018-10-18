@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Destroys the video decoder.
 old-location: display\pfnd3d12ddi_destroyvideodecoder_.htm
 ms.assetid: 97028FEB-A3C2-4C2F-B64E-07024BC3C382
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: PFND3D12DDI_DESTROYVIDEODECODER_0021, PFND3D12DDI_DESTROYVIDEODECODER_0021 callback, PFND3D12DDI_DESTROYVIDEODECODER_0021 callback function [Display Devices], d3d12umddi/PFND3D12DDI_DESTROYVIDEODECODER_0021, display.pfnd3d12ddi_destroyvideodecoder_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:

@@ -6,11 +6,8 @@ description: Sets the power state of the specified PCI Express SR-IOV Virtual Fu
 old-location: pci\sriov_set_power_state.htm
 tech.root: PCI
 ms.assetid: d43a21cb-5cee-4e72-8f0c-7aa8b2453507
-ms.author: windowsdriverdev
 ms.date: 2/24/2018
 ms.keywords: PCI.sriov_set_power_state, SRIOV_SET_POWER_STATE, SRIOV_SET_POWER_STATE callback function [Buses], pcivirt/SRIOV_SET_POWER_STATE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: pcivirt.h
 req.include-header:
@@ -56,14 +53,14 @@ Sets the power state of the specified PCI Express SR-IOV Virtual Function (VF).
 ## -prototype
 
 
-````
+```cpp
 NTSTATUS  SRIOV_SET_POWER_STATE(
   _In_ PVOID              Context,
   _In_ USHORT             VfIndex,
   _In_ DEVICE_POWER_STATE PowerState,
   _In_ BOOLEAN            Wake
 );
-````
+```
 
 
 ## -parameters

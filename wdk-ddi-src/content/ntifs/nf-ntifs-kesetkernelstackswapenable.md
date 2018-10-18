@@ -6,11 +6,8 @@ description: The KeSetKernelStackSwapEnable routine enables and disables swappin
 old-location: kernel\kesetkernelstackswapenable.htm
 tech.root: kernel
 ms.assetid: ec914f67-b2c2-4370-8685-770bca045034
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: KeSetKernelStackSwapEnable, KeSetKernelStackSwapEnable routine [Kernel-Mode Driver Architecture], k105_160eb1a2-1d12-4ca4-b83d-4bcb5636145e.xml, kernel.kesetkernelstackswapenable, ntifs/KeSetKernelStackSwapEnable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h

@@ -6,11 +6,8 @@ description: The WdfDriverOpenParametersRegistryKey method opens the driver's Pa
 old-location: wdf\wdfdriveropenparametersregistrykey.htm
 tech.root: wdf
 ms.assetid: e0f22096-3d82-4e1c-9398-d5e441fbb473
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDriverObjectRef_c79992f7-2a85-4c1b-859d-9bfdf441a9c4.xml, WdfDriverOpenParametersRegistryKey, WdfDriverOpenParametersRegistryKey method, kmdf.wdfdriveropenparametersregistrykey, wdf.wdfdriveropenparametersregistrykey, wdfdriver/WdfDriverOpenParametersRegistryKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdriver.h
 req.include-header: Wdf.h
@@ -138,7 +135,7 @@ The driver's <b>Parameters</b> key is located in the registry's <a href="https:/
 
 When the driver has finished using the <b>Parameters</b> registry key, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549914">WdfRegistryClose</a>.
 
-For more information about the registry, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
+For more information about the registry, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
 
 
 #### Examples

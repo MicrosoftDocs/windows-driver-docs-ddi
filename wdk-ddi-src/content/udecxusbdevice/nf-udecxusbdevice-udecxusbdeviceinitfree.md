@@ -6,11 +6,8 @@ description: Releases the resources that were allocated by the UdecxUsbDeviceIni
 old-location: buses\udecxusbdeviceinitfree.htm
 tech.root: usbref
 ms.assetid: BBFB8DAD-C187-4EB9-8EB0-BE28284437E1
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: UdecxUsbDeviceInitFree, UdecxUsbDeviceInitFree function [Buses], buses.udecxusbdeviceinitfree, udecxusbdevice/UdecxUsbDeviceInitFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h

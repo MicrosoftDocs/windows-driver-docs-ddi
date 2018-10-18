@@ -6,11 +6,8 @@ description: The WDF_DEVICE_POWER_CAPABILITIES structure describes a device's po
 old-location: wdf\wdf_device_power_capabilities.htm
 tech.root: wdf
 ms.assetid: 56bb271f-d69c-4523-87cb-4922b405f808
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*PWDF_DEVICE_POWER_CAPABILITIES, DFDeviceObjectGeneralRef_6678d7f5-5de1-473f-a2db-777405225add.xml, PWDF_DEVICE_POWER_CAPABILITIES, PWDF_DEVICE_POWER_CAPABILITIES structure pointer, WDF_DEVICE_POWER_CAPABILITIES, WDF_DEVICE_POWER_CAPABILITIES structure, _WDF_DEVICE_POWER_CAPABILITIES, kmdf.wdf_device_power_capabilities, wdf.wdf_device_power_capabilities, wdfdevice/PWDF_DEVICE_POWER_CAPABILITIES, wdfdevice/WDF_DEVICE_POWER_CAPABILITIES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdfdevice.h
 req.include-header: Wdf.h
@@ -150,7 +147,7 @@ Function drivers and filter drivers can specify <b>WdfTrue</b> or <b>WdfFalse</b
 
 </li>
 <li>
-When a bus driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff546901">WdfDeviceSetPowerCapabilities</a> after it <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-device-objects-in-a-bus-driver">creates a device object</a> for a child device, it should specify <b>WdfTrue</b> or <b>WdfFalse</b>. A bus driver can specify <b>WdfUseDefault</b> for a child device, but in this case <b>WdfUseDefault</b> is the same as <b>WdfFalse</b>.
+When a bus driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff546901">WdfDeviceSetPowerCapabilities</a> after it <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-device-objects-in-a-bus-driver">creates a device object</a> for a child device, it should specify <b>WdfTrue</b> or <b>WdfFalse</b>. A bus driver can specify <b>WdfUseDefault</b> for a child device, but in this case <b>WdfUseDefault</b> is the same as <b>WdfFalse</b>.
 
 </li>
 </ul>

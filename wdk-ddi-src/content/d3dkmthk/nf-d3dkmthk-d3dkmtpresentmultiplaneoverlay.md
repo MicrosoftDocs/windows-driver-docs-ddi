@@ -4,7 +4,6 @@ title: D3DKMTPresentMultiPlaneOverlay function
 author: windows-driver-content
 description: Copies content from a source multiplane overlay allocation to a destination allocation.
 ms.assetid: acf7922c-f3f8-4873-b8f0-df30700a32db
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: D3DKMTPresentMultiPlaneOverlay

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3D10DDIARG_OPENADAPTER structure describes the graphics adapter object.
 old-location: display\d3d10ddiarg_openadapter.htm
 ms.assetid: ac1bf173-8c18-4bb4-9a85-79b59f27ee55
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3D10DDIARG_OPENADAPTER, D3D10DDIARG_OPENADAPTER structure [Display Devices], UMDisplayDriver_Dx10param_Structs_3dd9df89-1d5e-4eab-bbe5-c6585543c093.xml, d3d10umddi/D3D10DDIARG_OPENADAPTER, display.d3d10ddiarg_openadapter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

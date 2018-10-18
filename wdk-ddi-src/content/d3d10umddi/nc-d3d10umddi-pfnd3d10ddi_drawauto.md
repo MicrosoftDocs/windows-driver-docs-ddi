@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The DrawAuto function works similarly to the Draw function, except DrawAuto is used for the special case where vertex data is written through the stream-output unit and then recycled as a vertex buffer.
 old-location: display\drawauto.htm
 ms.assetid: 83d96dc0-dfd4-449e-9e14-18f354d44534
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DrawAuto, DrawAuto callback function [Display Devices], PFND3D10DDI_DRAWAUTO, PFND3D10DDI_DRAWAUTO callback, UserModeDisplayDriverDx10_Functions_ff0a6fae-2ed9-4b49-8095-fe5f61cac148.xml, d3d10umddi/DrawAuto, display.drawauto
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

@@ -6,11 +6,8 @@ description: The ExGetExclusiveWaiterCount routine returns the number of waiters
 old-location: kernel\exgetexclusivewaitercount.htm
 tech.root: kernel
 ms.assetid: 032989b7-ba61-4cb3-b6b5-ac66124cdd79
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: ExGetExclusiveWaiterCount, ExGetExclusiveWaiterCount routine [Kernel-Mode Driver Architecture], k102_bd65d9e8-06bf-4492-88f1-bfd4e46fb29e.xml, kernel.exgetexclusivewaitercount, wdm/ExGetExclusiveWaiterCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

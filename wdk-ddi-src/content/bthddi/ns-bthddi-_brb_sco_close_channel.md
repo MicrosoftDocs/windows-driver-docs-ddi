@@ -6,11 +6,8 @@ description: The _BRB_SCO_CLOSE_CHANNEL structure describes a currently open SCO
 old-location: bltooth\_brb_sco_close_channel.htm
 tech.root: bltooth
 ms.assetid: 1921cee1-411b-4fec-acfd-3380e84823b8
-ms.author: windowsdriverdev
 ms.date: 4/27/2018
 ms.keywords: "_BRB_SCO_CLOSE_CHANNEL, _BRB_SCO_CLOSE_CHANNEL structure [Bluetooth Devices], bltooth._brb_sco_close_channel, bth_structs_d031efa4-0a68-47c0-8344-e95c677661c9.xml, bthddi/_BRB_SCO_CLOSE_CHANNEL"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h

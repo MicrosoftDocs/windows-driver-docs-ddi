@@ -6,11 +6,8 @@ description: This structure contains the scanned data that is passed to the Barc
 old-location: pos\posbarcodescannerdatareceivedeventdata.htm
 tech.root: pos
 ms.assetid: 220713c4-ecfe-43a2-aebf-f1b00b75e49b
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: PosBarcodeScannerDataReceivedEventData, PosBarcodeScannerDataReceivedEventData structure, _PosBarcodeScannerDataReceivedEventData, pointofservicedriverinterface/PosBarcodeScannerDataReceivedEventData, pos.posbarcodescannerdatareceivedeventdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h

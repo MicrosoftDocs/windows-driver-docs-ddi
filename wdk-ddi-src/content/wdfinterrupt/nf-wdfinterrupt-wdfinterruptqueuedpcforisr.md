@@ -6,11 +6,8 @@ description: The WdfInterruptQueueDpcForIsr method queues a framework interrupt 
 old-location: wdf\wdfinterruptqueuedpcforisr.htm
 tech.root: wdf
 ms.assetid: ba9a292d-12c8-41b5-bddb-7c8ebf4fdc48
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFInterruptObjectRef_c77c2aa3-e142-4226-aa9d-fb31d408e335.xml, WdfInterruptQueueDpcForIsr, WdfInterruptQueueDpcForIsr method, kmdf.wdfinterruptqueuedpcforisr, wdf.wdfinterruptqueuedpcforisr, wdfinterrupt/WdfInterruptQueueDpcForIsr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h

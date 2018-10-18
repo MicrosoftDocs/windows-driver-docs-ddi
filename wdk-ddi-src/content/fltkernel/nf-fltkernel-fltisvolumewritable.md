@@ -6,11 +6,8 @@ description: The FltIsVolumeWritable routine determines whether the disk device 
 old-location: ifsk\fltisvolumewritable.htm
 tech.root: ifsk
 ms.assetid: 9347bc8d-e8fb-440c-8ceb-ce5e8cb1429e
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_8b8316b0-5943-425e-a978-a2999629f93c.xml, FltIsVolumeWritable, FltIsVolumeWritable routine [Installable File System Drivers], fltkernel/FltIsVolumeWritable, ifsk.fltisvolumewritable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

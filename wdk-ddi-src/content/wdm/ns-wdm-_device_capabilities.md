@@ -6,11 +6,8 @@ description: A DEVICE_CAPABILITIES structure describes PnP and power capabilitie
 old-location: kernel\device_capabilities.htm
 tech.root: kernel
 ms.assetid: 1edae050-8e72-42e7-9dc9-8f449699969c
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: DEVICE_CAPABILITIES, DEVICE_CAPABILITIES structure [Kernel-Mode Driver Architecture], PDEVICE_CAPABILITIES, PDEVICE_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], _DEVICE_CAPABILITIES, kernel.device_capabilities, kstruct_a_53ec6d40-84a0-45f6-a78c-73fcc3c12e11.xml, wdm/DEVICE_CAPABILITIES, wdm/PDEVICE_CAPABILITIES
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
@@ -106,7 +103,7 @@ Specifies whether the device is a docking peripheral.
 
 ### -field UniqueID
 
-Specifies whether the device's instance ID is unique system-wide. This bit is clear if the instance ID is unique only within the scope of the bus. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
+Specifies whether the device's instance ID is unique system-wide. This bit is clear if the instance ID is unique only within the scope of the bus. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
 
 
 ### -field SilentInstall
@@ -169,7 +166,7 @@ Reserved for future use.
 
 ### -field NoDisplayInUI
 
-Do not display the device in the user interface. If this bit is set, the device is <u>never</u> displayed in the user interface, even if the device is present but fails to start. Only bus drivers and associated bus filter drivers should set this bit. (Also see the <b>PNP_DEVICE_DONT_DISPLAY_IN_UI</b> flag in the [PNP_DEVICE_STATE](https://microsoft.com/en-us/windows-hardware/drivers/kernel/handling-an-irp-mn-surprise-removal-request#about-pnp_device_state) structure.)
+Do not display the device in the user interface. If this bit is set, the device is <u>never</u> displayed in the user interface, even if the device is present but fails to start. Only bus drivers and associated bus filter drivers should set this bit. (Also see the <b>PNP_DEVICE_DONT_DISPLAY_IN_UI</b> flag in the [PNP_DEVICE_STATE](https://microsoft.com/windows-hardware/drivers/kernel/handling-an-irp-mn-surprise-removal-request#about-pnp_device_state) structure.)
 
 
 ### -field Reserved1
@@ -319,7 +316,7 @@ For more information about using the <b>DEVICE_CAPABILITIES</b> structure to des
 
 
 
-[PNP_DEVICE_STATE](https://microsoft.com/en-us/windows-hardware/drivers/kernel/handling-an-irp-mn-surprise-removal-request#about-pnp_device_state)
+[PNP_DEVICE_STATE](https://microsoft.com/windows-hardware/drivers/kernel/handling-an-irp-mn-surprise-removal-request#about-pnp_device_state)
  
 
  

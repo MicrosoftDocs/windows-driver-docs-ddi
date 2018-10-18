@@ -6,11 +6,8 @@ description: The RtlDecompressFragment function is used to decompress part of a 
 old-location: ifsk\rtldecompressfragment.htm
 tech.root: ifsk
 ms.assetid: 80450bfb-ae3a-46cd-8cf2-905df5adf70d
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RtlDecompressFragment, RtlDecompressFragment function [Installable File System Drivers], ifsk.rtldecompressfragment, ntifs/RtlDecompressFragment, rtlref_40a25add-c5bc-40f5-bb79-d5dcd6c11d69.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Fltkernel.h, Ntifs.h

@@ -6,11 +6,8 @@ description: The port class driver (PortCls) uses the RegisterPowerControlCallba
 old-location: audio\iportclsruntimepower_registerpowercontrolcallback.htm
 tech.root: audio
 ms.assetid: 1500E2C2-240F-4087-9275-9FD4170B8BED
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: IPortClsRuntimePower interface [Audio Devices],RegisterPowerControlCallback method, IPortClsRuntimePower.RegisterPowerControlCallback, IPortClsRuntimePower::RegisterPowerControlCallback, RegisterPowerControlCallback, RegisterPowerControlCallback method [Audio Devices], RegisterPowerControlCallback method [Audio Devices],IPortClsRuntimePower interface, audio.iportclsruntimepower_registerpowercontrolcallback, portcls/IPortClsRuntimePower::RegisterPowerControlCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The StorPortIsCurrentOsInstallationUpgrade routine checks if the cu
 old-location: storage\storportiscurrentosinstallationupgrade.htm
 tech.root: storage
 ms.assetid: 68D944D9-1A52-4FB0-B2D7-9680AB1EDABB
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: StorPortIsCurrentOsInstallationUpgrade, StorPortIsCurrentOsInstallationUpgrade routine [Storage Devices], storage.storportiscurrentosinstallationupgrade, storport/StorPortIsCurrentOsInstallationUpgrade
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: 

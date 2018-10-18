@@ -6,11 +6,8 @@ description: The IOCTL_SERIAL_CLR_DTR request clears the data terminal ready (DT
 old-location: serports\ioctl_serial_clr_dtr.htm
 tech.root: serports
 ms.assetid: e537c39a-4f79-4854-91df-7a08346c17ea
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: IOCTL_SERIAL_CLR_DTR, IOCTL_SERIAL_CLR_DTR control, IOCTL_SERIAL_CLR_DTR control code [Serial Ports], ntddser/IOCTL_SERIAL_CLR_DTR, serports.ioctl_serial_clr_dtr, serref_37ec12d3-15ad-4a49-90c7-766ffb3943f7.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddser.h
 req.include-header: Ntddser.h
@@ -104,7 +101,7 @@ None.
 
 The <b>Information</b> member is set to zero.
 
-The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. A status of STATUS_INVALID_PARAMETER indicates that the handshake flow control of the device is set to automatically use DTR.
+The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. A status of STATUS_INVALID_PARAMETER indicates that the handshake flow control of the device is set to automatically use DTR.
 
 
 ## -see-also

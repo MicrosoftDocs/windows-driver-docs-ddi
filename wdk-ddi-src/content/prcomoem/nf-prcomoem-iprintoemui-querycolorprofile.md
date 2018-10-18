@@ -6,11 +6,8 @@ description: The IPrintOemUI::QueryColorProfile method allows a user interface p
 old-location: print\iprintoemui_querycolorprofile.htm
 tech.root: print
 ms.assetid: ce1131f9-4b9c-4f20-afc9-514ccbc7ecf7
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrintOemUI interface [Print Devices],QueryColorProfile method, IPrintOemUI.QueryColorProfile, IPrintOemUI::QueryColorProfile, QueryColorProfile, QueryColorProfile method [Print Devices], QueryColorProfile method [Print Devices],IPrintOemUI interface, prcomoem/IPrintOemUI::QueryColorProfile, print.iprintoemui_querycolorprofile, print_unidrv-pscript_ui_7541a49f-f14c-4c73-88d7-80f316ae3602.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

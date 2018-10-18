@@ -6,11 +6,8 @@ description: This routine returns the silo context slot that was allocated by th
 old-location: kernel\psgetsilomonitorcontextslot.htm
 tech.root: kernel
 ms.assetid: 0871EA8C-4F59-451E-89FB-8A0D44219456
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: PsGetSiloMonitorContextSlot, PsGetSiloMonitorContextSlot routine [Kernel-Mode Driver Architecture], kernel.psgetsilomonitorcontextslot, ntddk/PsGetSiloMonitorContextSlot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: 

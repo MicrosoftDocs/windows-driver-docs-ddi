@@ -6,11 +6,8 @@ description: The ScsiPortValidateRange routine indicates whether the specified a
 old-location: storage\scsiportvalidaterange.htm
 tech.root: storage
 ms.assetid: a9ad58c2-16fc-410a-abc7-01c3f2354b88
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: ScsiPortValidateRange, ScsiPortValidateRange routine [Storage Devices], scsiprt_a5bae9f5-7912-4607-890d-ca08fda0c19c.xml, srb/ScsiPortValidateRange, storage.scsiportvalidaterange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h
@@ -52,7 +49,7 @@ req.typenames:
 
 
 The <b>ScsiPortValidateRange</b> routine indicates whether the specified access range values have already been claimed in the registry by another driver.
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
@@ -141,7 +138,7 @@ If a miniport driver uses a range successfully passed to <b>ScsiPortValidateRang
 </table></span></div>
 The <b>SCSI_PHYSICAL_ADDRESS</b> type is an operating system-independent data type that SCSI miniport drivers use to represent either a physical addresses or a bus-relative address. 
 
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div>
 <div> </div>
 
 

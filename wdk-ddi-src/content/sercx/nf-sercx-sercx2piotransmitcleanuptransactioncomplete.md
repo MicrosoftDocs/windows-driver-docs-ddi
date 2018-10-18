@@ -6,11 +6,8 @@ description: The SerCx2PioTransmitCleanupTransactionComplete method notifies ver
 old-location: serports\sercx2piotransmitcleanuptransactioncomplete.htm
 tech.root: serports
 ms.assetid: 44ADAAB7-E0EE-4908-A0D8-366EC1C3AC2E
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: 2/SerCx2PioTransmitCleanupTransactionComplete, SerCx2PioTransmitCleanupTransactionComplete, SerCx2PioTransmitCleanupTransactionComplete method [Serial Ports], serports.sercx2piotransmitcleanuptransactioncomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 
@@ -60,7 +57,7 @@ The <b>SerCx2PioTransmitCleanupTransactionComplete</b> method notifies version 2
 
 ### -param PioTransmit [in]
 
-A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a> handle to a PIO-transmit object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265269">SerCx2PioTransmitCreate</a> method to create this object.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a> handle to a PIO-transmit object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265269">SerCx2PioTransmitCreate</a> method to create this object.
 
 
 ## -returns
@@ -94,7 +91,7 @@ For more information, see <a href="https://msdn.microsoft.com/3BEF9A3D-1FEF-4626
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a>
 
 
 

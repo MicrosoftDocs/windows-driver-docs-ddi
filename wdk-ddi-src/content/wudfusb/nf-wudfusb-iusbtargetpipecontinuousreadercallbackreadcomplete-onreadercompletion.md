@@ -6,11 +6,8 @@ description: A driver's OnReaderCompletion event callback function informs the d
 old-location: wdf\iusbtargetpipecontinuousreadercallbackreadcomplete_onreadercompletion.htm
 tech.root: wdf
 ms.assetid: 946e0206-7609-4dc7-91c2-a6aadad91751
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IUsbTargetPipeContinuousReaderCallbackReadComplete interface,OnReaderCompletion method, IUsbTargetPipeContinuousReaderCallbackReadComplete.OnReaderCompletion, IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion, OnReaderCompletion, OnReaderCompletion method, OnReaderCompletion method,IUsbTargetPipeContinuousReaderCallbackReadComplete interface, UMDFUSBref_a221433f-9a32-4205-8f12-a0c891dbe8bf.xml, umdf.iusbtargetpipecontinuousreadercallbackreadcomplete_onreadercompletion, wdf.iusbtargetpipecontinuousreadercallbackreadcomplete_onreadercompletion, wudfusb/IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 A driver's <b>OnReaderCompletion</b> event callback function informs the driver that a continuous reader has successfully completed a read request.
 
@@ -99,7 +96,7 @@ If a driver has created a continuous reader for a USB pipe, the framework calls 
 
 To access the buffer that contains data that was read from the device, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff560152">IWDFMemory::GetDataBuffer</a>. The framework writes the data into the buffer, after the header that is defined by the <i>HeaderLength</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff560395">IWDFUsbTargetPipe2::ConfigureContinuousReader</a>. Note that the pointer that <b>IWDFMemory::GetDataBuffer</b> returns points to the beginning of the header, but the <b>OnReaderCompletion</b> callback function's <i>NumBytesTransferred</i> parameter does not include the header's length.
 
-By default, the framework deletes the buffer's memory object after the <b>OnReaderCompletion</b> callback function returns. However, you might want the memory object to remain valid after the callback function returns. For example, you might want your driver to store the memory object's interface pointer in the framework pipe object's <a href="https://msdn.microsoft.com/9b543d5d-ed6d-4440-b5ad-aefca69dd489">context space</a> so that the driver can process the memory object's contents after the callback function returns. To extend the lifetime of the memory object, the callback function must call the buffer's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/umdf-based-on-com-subset">IWDFMemory::AddRef</a> method. Subsequently, the driver must call the buffer's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/umdf-based-on-com-subset">IWDFMemory::Release</a> method so that the framework can delete the object.
+By default, the framework deletes the buffer's memory object after the <b>OnReaderCompletion</b> callback function returns. However, you might want the memory object to remain valid after the callback function returns. For example, you might want your driver to store the memory object's interface pointer in the framework pipe object's <a href="https://msdn.microsoft.com/9b543d5d-ed6d-4440-b5ad-aefca69dd489">context space</a> so that the driver can process the memory object's contents after the callback function returns. To extend the lifetime of the memory object, the callback function must call the buffer's <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/umdf-based-on-com-subset">IWDFMemory::AddRef</a> method. Subsequently, the driver must call the buffer's <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/umdf-based-on-com-subset">IWDFMemory::Release</a> method so that the framework can delete the object.
 
 The framework synchronizes calls to the <b>OnReaderCompletion</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff556915">IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure</a> callback functions according to the following rules:
 
@@ -123,7 +120,7 @@ The framework does not synchronize these callback functions with any other callb
 </ul>
 When your driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff560395">IWDFUsbTargetPipe2::ConfigureContinuousReader</a>, it can specify an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a> callback function. The framework will call that callback function when it attempts to delete the memory object, after the <b>OnReaderCompletion</b> callback function returns. 
 
-For more information about the <b>OnReaderCompletion</b> callback function and USB I/O targets, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/usb-i-o-targets-in-umdf">Handling a USB I/O Target</a>.
+For more information about the <b>OnReaderCompletion</b> callback function and USB I/O targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/usb-i-o-targets-in-umdf">Handling a USB I/O Target</a>.
 
 
 

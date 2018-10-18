@@ -6,11 +6,8 @@ description: The GetNextSymbolMatch method returns the next symbol found in a sy
 old-location: debugger\getnextsymbolmatch.htm
 tech.root: debugger
 ms.assetid: 0de394a0-9ae8-4ac9-970b-8575bb7dcc99
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetNextSymbolMatch, GetNextSymbolMatch method [Windows Debugging], GetNextSymbolMatch method [Windows Debugging],IDebugSymbols interface, GetNextSymbolMatch method [Windows Debugging],IDebugSymbols2 interface, GetNextSymbolMatch method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetNextSymbolMatch method, IDebugSymbols2 interface [Windows Debugging],GetNextSymbolMatch method, IDebugSymbols2.GetNextSymbolMatch, IDebugSymbols2::GetNextSymbolMatch, IDebugSymbols3 interface [Windows Debugging],GetNextSymbolMatch method, IDebugSymbols3::GetNextSymbolMatch, IDebugSymbols::GetNextSymbolMatch, IDebugSymbols_9918b348-5b29-4b38-849e-3a36414b773d.xml, dbgeng/IDebugSymbols2::GetNextSymbolMatch, dbgeng/IDebugSymbols3::GetNextSymbolMatch, dbgeng/IDebugSymbols::GetNextSymbolMatch, debugger.getnextsymbolmatch
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

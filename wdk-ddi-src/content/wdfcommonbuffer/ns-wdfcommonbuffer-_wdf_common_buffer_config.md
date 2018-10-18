@@ -6,11 +6,8 @@ description: The WDF_COMMON_BUFFER_CONFIG structure contains configuration infor
 old-location: wdf\wdf_common_buffer_config.htm
 tech.root: wdf
 ms.assetid: 19e98448-6951-4eb4-bca1-8119cd6f7713
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*PWDF_COMMON_BUFFER_CONFIG, DFCommonBufferObjectRef_6b9d3f2e-8954-4777-b5e4-9828f73feec3.xml, PWDF_COMMON_BUFFER_CONFIG, PWDF_COMMON_BUFFER_CONFIG structure pointer, WDF_COMMON_BUFFER_CONFIG, WDF_COMMON_BUFFER_CONFIG structure, _WDF_COMMON_BUFFER_CONFIG, kmdf.wdf_common_buffer_config, wdf.wdf_common_buffer_config, wdfcommonbuffer/PWDF_COMMON_BUFFER_CONFIG, wdfcommonbuffer/WDF_COMMON_BUFFER_CONFIG"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdfcommonbuffer.h
 req.include-header: WdfCommonBuffer.h
@@ -80,7 +77,7 @@ If your driver specifies an alignment requirement that is greater that the compu
 
 If your driver specifies an alignment requirement that is less than the computer's page size, all logical and virtual addresses are aligned to the specified alignment requirement.
 
-For more information about specifying alignment requirements, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/enabling-dma-transactions">Enabling DMA Transactions</a> and <a href="https://msdn.microsoft.com/81a56f62-917e-4798-b2cc-6469c802fab8">Using Common Buffers</a>.
+For more information about specifying alignment requirements, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/enabling-dma-transactions">Enabling DMA Transactions</a> and <a href="https://msdn.microsoft.com/81a56f62-917e-4798-b2cc-6469c802fab8">Using Common Buffers</a>.
 
 
 

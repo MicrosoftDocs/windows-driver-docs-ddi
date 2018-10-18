@@ -6,11 +6,8 @@ description: NdisCoCreateVc sets up a connection endpoint from which a client ca
 old-location: netvista\ndiscocreatevc.htm
 tech.root: netvista
 ms.assetid: ae9175e5-c1fc-44ae-a7c9-921ac8483e33
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisCoCreateVc, NdisCoCreateVc function [Network Drivers Starting with Windows Vista], condis_protocol_ref_6b168c4f-016d-4fa8-911a-d89fd9de2829.xml, ndis/NdisCoCreateVc, netvista.ndiscocreatevc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

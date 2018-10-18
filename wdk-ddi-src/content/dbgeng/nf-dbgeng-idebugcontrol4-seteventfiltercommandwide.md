@@ -6,11 +6,8 @@ description: The SetEventFilterCommandWide method sets a debugger command for th
 old-location: debugger\seteventfiltercommandwide.htm
 tech.root: debugger
 ms.assetid: e0e14c8b-0b11-482f-93e2-31c522235110
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugControl4 interface [Windows Debugging],SetEventFilterCommandWide method, IDebugControl4.SetEventFilterCommandWide, IDebugControl4::SetEventFilterCommandWide, SetEventFilterCommandWide, SetEventFilterCommandWide method [Windows Debugging], SetEventFilterCommandWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::SetEventFilterCommandWide, debugger.seteventfiltercommandwide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

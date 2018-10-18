@@ -6,11 +6,8 @@ description: The WDF_DMA_PROFILE enumeration identifies the types of bus-master 
 old-location: wdf\wdf_dma_profile.htm
 tech.root: wdf
 ms.assetid: a2672bca-5c2e-423d-9ba0-fad610170e88
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDmaObjectRef_24cd95b0-ec51-4af4-a507-04f9a91276cf.xml, WDF_DMA_PROFILE, WDF_DMA_PROFILE enumeration, WdfDmaProfileInvalid, WdfDmaProfilePacket, WdfDmaProfilePacket64, WdfDmaProfileScatterGather, WdfDmaProfileScatterGather64, WdfDmaProfileScatterGather64Duplex, WdfDmaProfileScatterGatherDuplex, WdfDmaProfileSystem, WdfDmaProfileSystemDuplex, _WDF_DMA_PROFILE, kmdf.wdf_dma_profile, wdf.wdf_dma_profile, wdfdmaenabler/WDF_DMA_PROFILE, wdfdmaenabler/WdfDmaProfileInvalid, wdfdmaenabler/WdfDmaProfilePacket, wdfdmaenabler/WdfDmaProfilePacket64, wdfdmaenabler/WdfDmaProfileScatterGather, wdfdmaenabler/WdfDmaProfileScatterGather64, wdfdmaenabler/WdfDmaProfileScatterGather64Duplex, wdfdmaenabler/WdfDmaProfileScatterGatherDuplex, wdfdmaenabler/WdfDmaProfileSystem, wdfdmaenabler/WdfDmaProfileSystemDuplex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h
@@ -113,7 +110,7 @@ The device supports system-mode DMA operations. The device also supports duplex 
 
 If the driver selects one of the system-mode DMA profiles, the framework requests the DMA version 3 interface from WDM.  System-mode DMA is available starting in Windows 8. For more information about system-mode DMA, see <a href="https://msdn.microsoft.com/CCC77C15-69CA-44CB-8DEB-29F3EAEA44F6">Supporting System-Mode DMA</a>.
 
-Kernel-Mode Driver Framework (KMDF) miniport drivers such as NDIS miniport drivers can request the system-mode DMA profiles. For information about how to write a framework-based miniport driver, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-kmdf-miniport-drivers">Creating Framework-based Miniport Drivers</a>. 
+Kernel-Mode Driver Framework (KMDF) miniport drivers such as NDIS miniport drivers can request the system-mode DMA profiles. For information about how to write a framework-based miniport driver, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-kmdf-miniport-drivers">Creating Framework-based Miniport Drivers</a>. 
 
 
 

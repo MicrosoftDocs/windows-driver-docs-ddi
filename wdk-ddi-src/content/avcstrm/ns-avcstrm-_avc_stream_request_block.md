@@ -6,11 +6,8 @@ description: The AVC_STREAM_REQUEST_BLOCK structure describes an AV/C streaming 
 old-location: stream\avc_stream_request_block.htm
 tech.root: stream
 ms.assetid: 077fc4ab-94a0-42eb-a0c5-684e447cb038
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PAVC_STREAM_REQUEST_BLOCK, AVC_STREAM_REQUEST_BLOCK, AVC_STREAM_REQUEST_BLOCK structure [Streaming Media Devices], PAVC_STREAM_REQUEST_BLOCK, PAVC_STREAM_REQUEST_BLOCK structure pointer [Streaming Media Devices], _AVC_STREAM_REQUEST_BLOCK, avcsref_1ea2a63f-ba4a-4fc3-834c-0f0a88de5023.xml, avcstrm/AVC_STREAM_REQUEST_BLOCK, avcstrm/PAVC_STREAM_REQUEST_BLOCK, stream.avc_stream_request_block"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: avcstrm.h
 req.include-header: Avcstrm.h

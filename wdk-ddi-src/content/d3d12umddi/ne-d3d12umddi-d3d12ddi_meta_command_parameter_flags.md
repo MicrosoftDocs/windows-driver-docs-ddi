@@ -4,12 +4,9 @@ title: D3D12DDI_META_COMMAND_PARAMETER_FLAGS
 author: windows-driver-content
 description: The available meta-command parameter flags.
 ms.assetid: ea52d577-cd40-48f1-a630-4fa1070551d5
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: D3D12DDI_META_COMMAND_PARAMETER_FLAGS, D3D12DDI_META_COMMAND_PARAMETER_FLAGS, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

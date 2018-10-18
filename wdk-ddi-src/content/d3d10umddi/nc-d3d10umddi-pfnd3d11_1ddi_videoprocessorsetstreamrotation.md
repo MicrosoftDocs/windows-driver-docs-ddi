@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Enables or disables rotation on an input stream of the video processor.
 old-location: display\videoprocessorsetstreamrotation.htm
 ms.assetid: 9b7d91e0-4913-404c-b7d7-eb63e9919919
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION callback, d3d10umddi/pfnVideoProcessorSetStreamRotation, display.videoprocessorsetstreamrotation, pfnVideoProcessorSetStreamRotation, pfnVideoProcessorSetStreamRotation callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

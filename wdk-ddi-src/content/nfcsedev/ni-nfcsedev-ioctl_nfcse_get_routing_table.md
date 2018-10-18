@@ -6,11 +6,8 @@ description: Returns information regarding the current configuration of listen m
 old-location: nfpdrivers\ioctl_nfcse_get_routing_table.htm
 tech.root: nfpdrivers
 ms.assetid: 838D31E8-1835-47C7-8201-93910610F5EC
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IOCTL_NFCSE_GET_ROUTING_TABLE, IOCTL_NFCSE_GET_ROUTING_TABLE control, IOCTL_NFCSE_GET_ROUTING_TABLE control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_GET_ROUTING_TABLE, nfpdrivers.ioctl_nfcse_get_routing_table
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: nfcsedev.h
 req.include-header: 

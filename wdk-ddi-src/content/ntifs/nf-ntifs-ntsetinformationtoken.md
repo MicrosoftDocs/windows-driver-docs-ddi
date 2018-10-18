@@ -6,11 +6,8 @@ description: The ZwSetInformationToken routine modifies information in a specifi
 old-location: kernel\zwsetinformationtoken.htm
 tech.root: kernel
 ms.assetid: fdb1245c-7804-4cb9-9632-bedb9f7f7b2b
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: NtSetInformationToken, ZwSetInformationToken, ZwSetInformationToken routine [Kernel-Mode Driver Architecture], k111_1122461b-dab8-4a40-8f05-db62ca25763b.xml, kernel.zwsetinformationtoken, ntifs/NtSetInformationToken, ntifs/ZwSetInformationToken
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

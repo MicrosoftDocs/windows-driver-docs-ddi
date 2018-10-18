@@ -6,11 +6,8 @@ description: This function is used by the Avstream miniport driver to register c
 old-location: stream\ksdeviceregisterthermaldispatch.htm
 tech.root: stream
 ms.assetid: 7998B753-8E43-471F-9BDE-729D0E38E022
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsDeviceRegisterThermalDispatch, KsDeviceRegisterThermalDispatch function [Streaming Media Devices], ks/KsDeviceRegisterThermalDispatch, stream.ksdeviceregisterthermaldispatch
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: 

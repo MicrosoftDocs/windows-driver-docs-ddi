@@ -4,7 +4,6 @@ title: IDataModelScriptDebugStackFrame::EnumerateArguments
 author: windows-driver-content
 description: Enumerates arguments to the function in this frame.
 ms.assetid: 2e74264f-f0c4-4951-8cbd-dc63d5b32037
-ms.author: windowsdriverdev
 ms.date: 10/03/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebugStackFrame::EnumerateArguments, EnumerateArguments, IDataModelScriptDebugStackFrame.EnumerateArguments, IDataModelScriptDebugStackFrame::EnumerateArguments, IDataModelScriptDebugStackFrame.EnumerateArguments

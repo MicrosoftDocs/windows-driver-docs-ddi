@@ -6,11 +6,8 @@ description: The IKsPinFactory interface provides a method that retrieves the id
 old-location: stream\ikspinfactory.htm
 tech.root: stream
 ms.assetid: b86f4048-c175-4062-969c-c9c443d6d394
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: IKsPinFactory, IKsPinFactory interface [Streaming Media Devices], IKsPinFactory interface [Streaming Media Devices],described, ksproxy/IKsPinFactory, ksproxy_df24cea8-a5d7-474c-bd70-53068078e6c6.xml, stream.ikspinfactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: ksproxy.h
 req.include-header: 

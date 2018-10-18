@@ -6,11 +6,8 @@ description: The WdfUsbTargetDeviceCreate method creates a framework USB device 
 old-location: wdf\wdfusbtargetdevicecreate.htm
 tech.root: wdf
 ms.assetid: 5a2d3430-ca94-42f0-bfeb-fd38d9d4958a
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFUsbRef_be9c210e-6cf0-4e0b-a5d5-f0b02d7a2141.xml, WdfUsbTargetDeviceCreate, WdfUsbTargetDeviceCreate method, kmdf.wdfusbtargetdevicecreate, wdf.wdfusbtargetdevicecreate, wdfusb/WdfUsbTargetDeviceCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

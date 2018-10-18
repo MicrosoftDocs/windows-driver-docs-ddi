@@ -6,11 +6,8 @@ description: The PEP_WORK structure indicates whether the PEP has a work request
 old-location: kernel\pep_work.htm
 tech.root: kernel
 ms.assetid: 7C6ACFDD-809E-4E75-8E4D-8A4E0207593E
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PPEP_WORK, PEP_WORK, PEP_WORK structure [Kernel-Mode Driver Architecture], PPEP_WORK, PPEP_WORK structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK, kernel.pep_work, pepfx/PEP_WORK, pepfx/PPEP_WORK"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pep_x.h
 req.include-header: Pep_x.h
@@ -72,7 +69,7 @@ The <b>PEP_WORK</b> structure indicates whether the PEP has a work request to su
 
 
 
-This structure is used by the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a> notification. Both members of the structure contain values that the PEP writes to the structure in response to this notification.
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a> notification. Both members of the structure contain values that the PEP writes to the structure in response to this notification.
 
 
 
@@ -82,7 +79,7 @@ This structure is used by the <a href="https://docs.microsoft.com/en-us/windows-
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a>
 
 
 

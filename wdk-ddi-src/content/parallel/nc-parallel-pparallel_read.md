@@ -6,11 +6,8 @@ description: The PPARALLEL_READ-typed callback routine reads data from a paralle
 old-location: parports\pparallel_read.htm
 tech.root: parports
 ms.assetid: a478fd0d-3fbe-4cd9-aaf9-67b74b607770
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: PPARALLEL_READ, PPARALLEL_READ function pointer [Parallel Ports], cisspd_ae27b566-d561-4bc8-9519-fc3c35069791.xml, parallel/PPARALLEL_READ, parports.pparallel_read
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: parallel.h
 req.include-header: Parallel.h
@@ -56,7 +53,7 @@ The PPARALLEL_READ-typed callback routine reads data from a parallel device. The
 ## -prototype
 
 
-````
+```cpp
 typedef NTSTATUS ( *PPARALLEL_READ)(
   _In_  PVOID  Context,
   _Out_ PVOID  Buffer,
@@ -64,7 +61,7 @@ typedef NTSTATUS ( *PPARALLEL_READ)(
   _Out_ PULONG NumBytesRead,
   _In_  UCHAR  Channel
 );
-````
+```
 
 
 ## -parameters

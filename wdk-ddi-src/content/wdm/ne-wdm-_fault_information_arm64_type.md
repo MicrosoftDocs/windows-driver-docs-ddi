@@ -4,12 +4,9 @@ title: _FAULT_INFORMATION_ARM64_TYPE
 author: windows-driver-content
 description: Defines values for the type of fault. 
 ms.assetid: a9fee055-614c-4122-a60b-8975d67e771e
-ms.author: windowsdriverdev
 ms.date: 09/30/2018
 ms.topic: enum
 ms.keywords: _FAULT_INFORMATION_ARM64_TYPE, FAULT_INFORMATION_ARM64_TYPE, *PFAULT_INFORMATION_ARM64_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:

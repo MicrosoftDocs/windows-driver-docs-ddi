@@ -6,11 +6,8 @@ description: The GetCurrentProcessAddr function returns the location of the syst
 old-location: debugger\getcurrentprocessaddr.htm
 tech.root: debugger
 ms.assetid: 31fada1c-53eb-4e55-bf5f-bf852a8df3ad
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetCurrentProcessAddr, GetCurrentProcessAddr function [Windows Debugging], WdbgExts_Ref_cf956b74-b0e4-43fa-911f-289b01dbf8c8.xml, debugger.getcurrentprocessaddr, wdbgexts/GetCurrentProcessAddr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h

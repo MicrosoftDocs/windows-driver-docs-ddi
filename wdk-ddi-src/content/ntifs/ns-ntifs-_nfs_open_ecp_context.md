@@ -6,11 +6,8 @@ description: The NFS_OPEN_ECP_CONTEXT structure is used by the Network File Syst
 old-location: ifsk\nfs_open_ecp_context.htm
 tech.root: ifsk
 ms.assetid: f3600dca-d246-41b5-99b4-4054e677b03b
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: "*PNFS_OPEN_ECP_CONTEXT, ECP_Structures_d19b2618-0b21-424c-b5bd-abc9b6bdc518.xml, NFS_OPEN_ECP_CONTEXT, NFS_OPEN_ECP_CONTEXT structure [Installable File System Drivers], PNFS_OPEN_ECP_CONTEXT, PNFS_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], PPNFS_OPEN_ECP_CONTEXT, PPNFS_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], _NFS_OPEN_ECP_CONTEXT, ifsk.nfs_open_ecp_context, ntifs/NFS_OPEN_ECP_CONTEXT, ntifs/PNFS_OPEN_ECP_CONTEXT, ntifs/PPNFS_OPEN_ECP_CONTEXT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntifs.h
 req.include-header: Ntifs.h
@@ -72,7 +69,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff57
 
 
 
-The file-system stack can determine whether NFS_OPEN_ECP_CONTEXT is attached to the create file request. The file-system stack can then use the information in NFS_OPEN_ECP_CONTEXT to determine the client that requested that the file be opened and why it was requested. For information about how to retrieve the NFS_OPEN_ECP_CONTEXT extra information that is attached to a create file request, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/using-ecps-to-process-irp-mj-create-operations-in-a-file-system-filter">Retrieving ECPs</a>. 
+The file-system stack can determine whether NFS_OPEN_ECP_CONTEXT is attached to the create file request. The file-system stack can then use the information in NFS_OPEN_ECP_CONTEXT to determine the client that requested that the file be opened and why it was requested. For information about how to retrieve the NFS_OPEN_ECP_CONTEXT extra information that is attached to a create file request, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/using-ecps-to-process-irp-mj-create-operations-in-a-file-system-filter">Retrieving ECPs</a>. 
 
 The NFS_OPEN_ECP_CONTEXT structure is read-only. You should use it to retrieve information about the open file ECP only. For more information about this issue, see <a href="https://msdn.microsoft.com/6acb4be4-a7aa-431d-b2d8-3ef6d41cb4ef">System-Defined ECPs</a>.
 

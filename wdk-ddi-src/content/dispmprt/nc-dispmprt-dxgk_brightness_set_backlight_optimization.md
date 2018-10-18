@@ -6,11 +6,8 @@ description: Called by the Microsoft DirectX graphics kernel subsystem to set th
 old-location: display\dxgkddisetbacklightoptimization.htm
 tech.root: display
 ms.assetid: b8c37df8-ba86-4cfd-add0-49ba9c90f04a
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION, DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION callback, DxgkDdiSetBacklightOptimization, DxgkDdiSetBacklightOptimization callback function [Display Devices], display.dxgkddisetbacklightoptimization, dispmprt/DxgkDdiSetBacklightOptimization
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dispmprt.h
 req.include-header: Dispmprt.h

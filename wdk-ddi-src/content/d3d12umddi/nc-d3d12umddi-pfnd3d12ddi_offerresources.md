@@ -4,11 +4,8 @@ title: PFND3D12DDI_OFFERRESOURCES
 author: windows-driver-content
 description: Offer resources.
 ms.assetid: 794a29be-a6e8-4548-9de8-8230cb781cf8
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to offer resources.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_OFFERRESOURCES Pfnd3d12ddiOfferresources; 

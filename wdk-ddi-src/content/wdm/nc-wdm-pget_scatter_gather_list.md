@@ -6,11 +6,8 @@ description: The GetScatterGatherList routine prepares the system for a DMA scat
 old-location: kernel\getscattergatherlist.htm
 tech.root: kernel
 ms.assetid: 44c597ed-a41e-4170-b75b-dcd61aa70350
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: GetScatterGatherList, GetScatterGatherList callback function [Kernel-Mode Driver Architecture], PGET_SCATTER_GATHER_LIST, PGET_SCATTER_GATHER_LIST callback, kdma_b451cb34-7181-4272-a1ef-0c8fc233a7fd.xml, kernel.getscattergatherlist, ntddk/GetScatterGatherList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

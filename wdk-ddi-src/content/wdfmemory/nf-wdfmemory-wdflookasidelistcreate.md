@@ -6,11 +6,8 @@ description: The WdfLookasideListCreate method creates a lookaside-list object, 
 old-location: wdf\wdflookasidelistcreate.htm
 tech.root: wdf
 ms.assetid: 37fc86b0-de8c-469b-94bb-ad482b9c7202
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFMemoryObjectRef_f5146f3e-a9ae-459c-9361-37a4f33edd67.xml, WdfLookasideListCreate, WdfLookasideListCreate method, kmdf.wdflookasidelistcreate, wdf.wdflookasidelistcreate, wdfmemory/WdfLookasideListCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfmemory.h
 req.include-header: Wdf.h
@@ -150,7 +147,7 @@ By default, the new lookaside-list object's parent is the framework driver objec
 
 If your driver supplies a WDF_OBJECT_ATTRIBUTES structure for both the <i>LookasideAttributes</i> and the <i>MemoryAttributes</i> parameters, and if both structures specify a device object as the parent object, the device object handles must be the same. 
 
-For more information about framework memory objects and lookaside lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-memory-buffers">Using Memory Buffers</a>.
+For more information about framework memory objects and lookaside lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-memory-buffers">Using Memory Buffers</a>.
 
 If your driver specifies <b>PagedPool</b> for the <i>PoolType</i> parameter, the <b>WdfLookasideListCreate</b> method must be called at IRQL &lt;= APC_LEVEL. Otherwise, the method can be called at IRQL &lt;= DISPATCH_LEVEL.
 

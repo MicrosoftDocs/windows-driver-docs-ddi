@@ -6,11 +6,8 @@ description: The filter engine calls a callout's classifyFn2 callout function wh
 old-location: netvista\classifyfn2.htm
 tech.root: netvista
 ms.assetid: de8220de-cf71-4718-876e-ef02c15fc948
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FWPS_CALLOUT_CLASSIFY_FN2, FWPS_CALLOUT_CLASSIFY_FN2 callback, classifyFn2, classifyFn2 callback function [Network Drivers Starting with Windows Vista], fwpsk/classifyFn2, netvista.classifyfn2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
@@ -229,7 +226,7 @@ This function is essentially identical to the previous version,
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-a-callout-for-deep-inspection-of-stream-data">Using a Callout
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-a-callout-for-deep-inspection-of-stream-data">Using a Callout
     for Deep Inspection of Stream Data</a>
 
 

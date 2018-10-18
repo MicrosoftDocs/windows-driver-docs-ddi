@@ -6,11 +6,8 @@ description: The WdfIoResourceListInsertDescriptor method inserts a resource des
 old-location: wdf\wdfioresourcelistinsertdescriptor.htm
 tech.root: wdf
 ms.assetid: 604182ea-3712-4670-bab8-edc3cb2fcd06
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFResourceObjectRef_6f8fc17d-c5db-47fa-854a-5536dfc11705.xml, WdfIoResourceListInsertDescriptor, WdfIoResourceListInsertDescriptor method, kmdf.wdfioresourcelistinsertdescriptor, wdf.wdfioresourcelistinsertdescriptor, wdfresource/WdfIoResourceListInsertDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfresource.h
 req.include-header: Wdf.h
@@ -151,7 +148,7 @@ To add a resource descriptor to the end of a logical configuration, specify WDF_
 
 The framework copies the contents of the <a href="https://msdn.microsoft.com/03e3a656-c691-4aff-bcc8-4e0bc8390fd7">IO_RESOURCE_DESCRIPTOR</a> structure into internal storage, so the driver routine that calls <b>WdfIoResourceListInsertDescriptor</b> can allocate the structure locally. After the driver calls <b>WdfIoResourceListInsertDescriptor</b>, the driver can reuse the <b>IO_RESOURCE_DESCRIPTOR</b> structure.
 
-For more information about resource requirements lists and logical configurations, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
+For more information about resource requirements lists and logical configurations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 
 #### Examples

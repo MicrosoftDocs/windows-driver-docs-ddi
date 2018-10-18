@@ -6,11 +6,8 @@ description: The STOR_RICH_DEVICE_DESCRIPTION structure describes the attributes
 old-location: storage\stor_rich_device_description.htm
 tech.root: storage
 ms.assetid: 765A420C-F406-4A46-BDCC-26A451549F8D
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PSTOR_RICH_DEVICE_DESCRIPTION, PSTOR_RICH_DEVICE_DESCRIPTION, PSTOR_RICH_DEVICE_DESCRIPTION structure pointer [Storage Devices], STOR_RICH_DEVICE_DESCRIPTION, STOR_RICH_DEVICE_DESCRIPTION structure [Storage Devices], _STOR_RICH_DEVICE_DESCRIPTION, storage.stor_rich_device_description, storport/PSTOR_RICH_DEVICE_DESCRIPTION, storport/STOR_RICH_DEVICE_DESCRIPTION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: storport.h
 req.include-header: 

@@ -4,11 +4,8 @@ title: _FPGA_CONTROL_INTERFACE
 author: windows-driver-content
 description: Reserved for future use.
 ms.assetid: e0dae56e-1f6c-4695-8168-58c1a5439e37
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _FPGA_CONTROL_INTERFACE, FPGA_CONTROL_INTERFACE, *PFPGA_CONTROL_INTERFACE, 
 req.header: wdm.h
 req.include-header:
@@ -53,10 +50,10 @@ The driver-defined interface version. The current version of this interface is F
 A pointer to interface-specific context information.
  
 ### -field InterfaceReference
-A pointer to an [InterfaceReference](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wudfwdm/nc-wudfwdm-pinterface_reference) routine that increments the interface's reference count.
+A pointer to an [InterfaceReference](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfwdm/nc-wudfwdm-pinterface_reference) routine that increments the interface's reference count.
  
 ### -field InterfaceDereference
-A pointer to an [InterfaceDereference](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wudfwdm/nc-wudfwdm-pinterface_dereference) routine that decrements the interface's reference count.
+A pointer to an [InterfaceDereference](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfwdm/nc-wudfwdm-pinterface_dereference) routine that decrements the interface's reference count.
  
 ### -field BusScan
 A pointer to a [_FPGA_BUS_SCAN_](nc-wdm-fpga_bus_scan.md) callback function that triggers a bus scan at the parent of the FPGA device.

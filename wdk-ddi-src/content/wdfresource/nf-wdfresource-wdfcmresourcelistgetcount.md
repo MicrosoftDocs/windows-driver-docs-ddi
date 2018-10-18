@@ -6,11 +6,8 @@ description: The WdfCmResourceListGetCount method returns the number of resource
 old-location: wdf\wdfcmresourcelistgetcount.htm
 tech.root: wdf
 ms.assetid: f1a38276-4964-422d-9b3c-8450b1028f27
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFResourceObjectRef_8161cc12-7f39-44f4-a4a1-28329911ac96.xml, WdfCmResourceListGetCount, WdfCmResourceListGetCount method, kmdf.wdfcmresourcelistgetcount, wdf.wdfcmresourcelistgetcount, wdfresource/WdfCmResourceListGetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfresource.h
 req.include-header: Wdf.h
@@ -85,12 +82,12 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
-For more information about resource lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
+For more information about resource lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 
 #### Examples
 
-The following code example shows how an <a href="https://msdn.microsoft.com/a3d4a983-8a75-44be-bd72-8673d89f9f87">EvtDevicePrepareHardware</a> callback function might locate the memory, port, and interrupt resources in the list of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/raw-and-translated-resources">translated hardware resources</a> that the Plug and Play (PnP) manager has assigned to a device.
+The following code example shows how an <a href="https://msdn.microsoft.com/a3d4a983-8a75-44be-bd72-8673d89f9f87">EvtDevicePrepareHardware</a> callback function might locate the memory, port, and interrupt resources in the list of <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/raw-and-translated-resources">translated hardware resources</a> that the Plug and Play (PnP) manager has assigned to a device.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

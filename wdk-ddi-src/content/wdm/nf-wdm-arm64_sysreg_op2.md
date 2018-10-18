@@ -4,7 +4,6 @@ title: ARM64_SYSREG_OP2 macro
 author: windows-driver-content
 description: Returns the op2 field for a given ARM system register.
 ms.assetid: 471bbc4d-b999-4a74-91ae-229d2264fd9c
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: macro
 ms.keywords: ARM64_SYSREG_OP2

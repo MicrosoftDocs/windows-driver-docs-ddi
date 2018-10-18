@@ -4,11 +4,8 @@ title: IDataModelScriptProviderEnumerator
 author: windows-driver-content
 description: An enumerator which returns a set of known script providers.
 ms.assetid: 4a1a5912-3247-426d-afb8-7bbec29e490b
-ms.author: windowsdriverdev
 ms.date: 07/13/2018
 ms.topic: interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

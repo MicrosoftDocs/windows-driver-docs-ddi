@@ -4,12 +4,9 @@ title: _USBC_CHARGING_STATE
 author: windows-driver-content
 description: Defines the charging state of a Type-C connector.
 ms.assetid: dc25a168-6fc0-49a6-8b68-e01451a06b45
-ms.author: windowsdriverdev
 ms.date: 09/30/2018
 ms.topic: enum
 ms.keywords: _USBC_CHARGING_STATE, USBC_CHARGING_STATE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: usbctypes.h
 req.include-header: usbctypes.h
 req.target-type:

@@ -6,11 +6,8 @@ description: Queries the container ID for the specified target. Implemented by W
 old-location: display\dxgkddigetchildcontainerid.htm
 tech.root: display
 ms.assetid: e7073fb3-0cb7-425e-9ffb-d7eaa963a70f
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGKDDI_GET_CHILD_CONTAINER_ID, DXGKDDI_GET_CHILD_CONTAINER_ID callback, DxgkDdiGetChildContainerId, DxgkDdiGetChildContainerId callback function [Display Devices], display.dxgkddigetchildcontainerid, dispmprt/DxgkDdiGetChildContainerId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dispmprt.h
 req.include-header: 
@@ -128,7 +125,7 @@ Based on the device's EDID data, the operating system generates a default contai
 
 The display miniport driver can either accept the default container ID or set the <b>ContainerId</b> member to a unique identifier for the device before it returns from the call to <i>DxgkDdiGetChildContainerId</i>.
 
-For more information about Container IDs, see <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd542646">Container IDs</a>.
+For more information about Container IDs, see <a href="https://msdn.microsoft.com/library/windows/desktop/dd542646">Container IDs</a>.
 
 
 

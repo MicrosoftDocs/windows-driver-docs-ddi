@@ -6,11 +6,8 @@ description: The IOCTL_SMARTCARD_EJECT request ejects the currently inserted sma
 old-location: smartcrd\ioctl_smartcard_eject.htm
 tech.root: smartcrd
 ms.assetid: 58bdd794-9061-4aae-a9a6-523db4e2e360
-ms.author: windowsdriverdev
 ms.date: 2/22/2018
 ms.keywords: IOCTL_SMARTCARD_EJECT, IOCTL_SMARTCARD_EJECT control, IOCTL_SMARTCARD_EJECT control code [Smart Card Reader Devices], scioctls_e12f239a-b997-4af6-bace-92e9c65c88b6.xml, smartcrd.ioctl_smartcard_eject, winsmcrd/IOCTL_SMARTCARD_EJECT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: winsmcrd.h
 req.include-header: 

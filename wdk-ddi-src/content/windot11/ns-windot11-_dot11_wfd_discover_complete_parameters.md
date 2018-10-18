@@ -6,11 +6,8 @@ description: the DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS structure is returned in
 old-location: netvista\_dot11_wfd_discover_complete_parameters.htm
 tech.root: netvista
 ms.assetid: 0CAB1436-357F-4F9F-98F8-F05B3D86B00A
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, netvista._dot11_wfd_discover_complete_parameters, windot11/ DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, windot11/PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Windot11.h
@@ -58,7 +55,7 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS {
   NDIS_OBJECT_HEADER Header;
   NDIS_STATUS        Status;
@@ -67,7 +64,7 @@ typedef struct _DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS {
   ULONG              uListOffset;
   ULONG              uListLength;
 } DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, *PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS;
-````
+```
 
 
 ## -struct-fields

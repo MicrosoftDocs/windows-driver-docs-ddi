@@ -6,11 +6,8 @@ description: The VideoPortReadStateEvent function returns the current state of a
 old-location: display\videoportreadstateevent.htm
 tech.root: display
 ms.assetid: b09787b3-aede-4e53-9e22-0e81cf2dadb1
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: VideoPortReadStateEvent, VideoPortReadStateEvent function [Display Devices], VideoPort_Functions_8cd6da91-d349-4ef7-b61c-2e9a22c5f25e.xml, display.videoportreadstateevent, video/VideoPortReadStateEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: video.h
 req.include-header: Video.h

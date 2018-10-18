@@ -6,11 +6,8 @@ description: The WskConnect function connects a connection-oriented or stream so
 old-location: netvista\wskconnect.htm
 tech.root: netvista
 ms.assetid: 66942ba4-40f9-4fdc-97f3-859309cd870d
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: PFN_WSK_CONNECT, PFN_WSK_CONNECT callback, WskConnect, WskConnect callback function [Network Drivers Starting with Windows Vista], netvista.wskconnect, wsk/WskConnect, wskref_16a15402-b34a-40b7-87a7-881d422e0d1c.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wsk.h
 req.include-header: Wsk.h
@@ -83,7 +80,7 @@ This parameter is reserved for system use. A WSK application must set this param
 
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the connect operation
      asynchronously. For more information about using IRPs with WSK functions, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
      Kernel Functions</a>.
 
 

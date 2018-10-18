@@ -6,11 +6,8 @@ description: The WDF_IO_TYPE_CONFIG structure specifies the driver's preferred b
 old-location: wdf\wdf_io_type_config.htm
 tech.root: wdf
 ms.assetid: EB3CEC0E-5635-410D-B8D2-031FDB0557C1
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*PWDF_IO_TYPE_CONFIG, PWDF_IO_TYPE_CONFIG, PWDF_IO_TYPE_CONFIG structure pointer, WDF_IO_TYPE_CONFIG, WDF_IO_TYPE_CONFIG structure, _WDF_IO_TYPE_CONFIG, wdf.wdf_io_type_config, wdfdevice/PWDF_IO_TYPE_CONFIG, wdfdevice/WDF_IO_TYPE_CONFIG"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdfdevice.h
 req.include-header: Wdf.h

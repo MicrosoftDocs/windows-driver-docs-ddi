@@ -6,11 +6,8 @@ description: The RtlClearAllBits routine sets all bits in a given bitmap variabl
 old-location: kernel\rtlclearallbits.htm
 tech.root: kernel
 ms.assetid: 8271b13a-a64e-4d5e-b319-283255b8127f
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlClearAllBits, RtlClearAllBits routine [Kernel-Mode Driver Architecture], k109_6fb17a55-6839-411c-9289-720657ba4983.xml, kernel.rtlclearallbits, wdm/RtlClearAllBits
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

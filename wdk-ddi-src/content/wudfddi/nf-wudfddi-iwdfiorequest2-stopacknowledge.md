@@ -6,11 +6,8 @@ description: The StopAcknowledge method informs the framework that the driver ha
 old-location: wdf\iwdfiorequest2_stopacknowledge.htm
 tech.root: wdf
 ms.assetid: af4ae2c0-b1e1-45af-bd0e-3b9a91566caa
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IWDFIoRequest2 interface,StopAcknowledge method, IWDFIoRequest2.StopAcknowledge, IWDFIoRequest2::StopAcknowledge, StopAcknowledge, StopAcknowledge method, StopAcknowledge method,IWDFIoRequest2 interface, UMDFRequestObjectRef_9a125e95-f59a-4338-a7af-cb7f99289eb7.xml, umdf.iwdfiorequest2_stopacknowledge, wdf.iwdfiorequest2_stopacknowledge, wudfddi/IWDFIoRequest2::StopAcknowledge
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>StopAcknowledge</b> method informs the framework that the driver has stopped processing a specified I/O request.
 

@@ -6,11 +6,8 @@ description: The RtlCompareString routine compares two counted strings.
 old-location: kernel\rtlcomparestring.htm
 tech.root: kernel
 ms.assetid: 59d023d4-a2b4-4183-9572-cb48621c76fb
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlCompareString, RtlCompareString routine [Kernel-Mode Driver Architecture], k109_a794007b-a40a-4081-8302-f7426c4ceaef.xml, kernel.rtlcomparestring, ntddk/RtlCompareString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h

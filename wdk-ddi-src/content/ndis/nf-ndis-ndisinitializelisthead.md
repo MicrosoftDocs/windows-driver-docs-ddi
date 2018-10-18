@@ -6,11 +6,8 @@ description: The NdisInitializeListHead function initializes a doubly linked, dr
 old-location: netvista\ndisinitializelisthead.htm
 tech.root: netvista
 ms.assetid: da3f5f28-2794-491b-a359-be8508b050bf
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisInitializeListHead, NdisInitializeListHead macro [Network Drivers Starting with Windows Vista], ndis/NdisInitializeListHead, ndis_interlocked_ref_35d40751-6f2b-43db-801d-40479f3e0b6b.xml, netvista.ndisinitializelisthead
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -72,7 +69,7 @@ A pointer to driver-allocated nonpaged storage for the head of the interlocked q
 <b>NdisInitializeListHead</b> can be called from a 
     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function or
     from a protocol driver's 
-    <a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry</a> routine
+    <a href="https://msdn.microsoft.com/library/gg156036.aspx">DriverEntry</a> routine
     if the driver queues requests internally. However, miniport drivers seldom set up internal queues because
     the NDIS library serializes requests and packets sent to miniport drivers.
 
@@ -98,7 +95,7 @@ Callers of <b>NdisInitializeListHead</b> can be running at any IRQL. If <b>NdisI
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
+<a href="https://msdn.microsoft.com/library/gg156036.aspx">DriverEntry of NDIS Protocol
    Drivers</a>
 
 

@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilexecutorfocusstate.htm
 tech.root: netvista
 ms.assetid: 74fc88c0-3edf-4831-a03b-4ace6ca2ec04
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*LPRILEXECUTORFOCUSSTATE, RILEXECUTORFOCUSSTATE, RILEXECUTORFOCUSSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilexecutorfocusstate, ntddrilapitypes/RILEXECUTORFOCUSSTATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h

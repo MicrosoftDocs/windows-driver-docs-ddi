@@ -6,11 +6,8 @@ description: The ScsiPortGetLogicalUnit routine returns a pointer to the minipor
 old-location: storage\scsiportgetlogicalunit.htm
 tech.root: storage
 ms.assetid: 10088043-fc0b-4df9-a5bf-fdee9740b88a
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: ScsiPortGetLogicalUnit, ScsiPortGetLogicalUnit routine [Storage Devices], scsiprt_2b4c797a-4fbb-4c0c-913a-628bfb6dab3d.xml, srb/ScsiPortGetLogicalUnit, storage.scsiportgetlogicalunit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h
@@ -52,7 +49,7 @@ req.typenames:
 
 
 The <b>ScsiPortGetLogicalUnit</b> routine returns a pointer to the miniport driver's per-LU storage area for a given peripheral.
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 

@@ -6,11 +6,8 @@ description: Gives information about the OPM configure parameters.
 old-location: display\iddcx_opm_configure_parameters.htm
 tech.root: display
 ms.assetid: 88d8171f-8ed4-40af-8c05-7421895dca26
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: IDDCX_OPM_CONFIGURE_PARAMETERS, IDDCX_OPM_CONFIGURE_PARAMETERS structure [Display Devices], display.iddcx_opm_configure_parameters, iddcx/IDDCX_OPM_CONFIGURE_PARAMETERS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iddcx.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The ExInterlockedFlushSList routine atomically removes all entries 
 old-location: kernel\exinterlockedflushslist.htm
 tech.root: kernel
 ms.assetid: 98fcada7-5160-4eb2-ac7c-0ab1192340a9
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: ExInterlockedFlushSList, ExInterlockedFlushSList routine [Kernel-Mode Driver Architecture], k102_493935e2-44c7-471b-807f-ca6f110d8155.xml, kernel.exinterlockedflushslist, wdm/ExInterlockedFlushSList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

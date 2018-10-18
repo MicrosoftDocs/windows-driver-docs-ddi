@@ -6,11 +6,8 @@ description: The PIPE_TERMINATION structure is for proxy use and not recommended
 old-location: stream\pipe_termination.htm
 tech.root: stream
 ms.assetid: 6c425b5d-8d9f-4438-b9e4-256dcc8878c5
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: PIPE_TERMINATION, PIPE_TERMINATION structure [Streaming Media Devices], PPIPE_TERMINATION, PPIPE_TERMINATION structure pointer [Streaming Media Devices], _PIPE_TERMINATION, ksproxy/PIPE_TERMINATION, ksproxy/PPIPE_TERMINATION, ksproxy_ee6f14a8-dda3-4b28-b6a9-e99bafd7e921.xml, stream.pipe_termination
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksproxy.h
 req.include-header: Ksproxy.h

@@ -4,7 +4,6 @@ title: IComparableConcept::Release
 author: windows-driver-content
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: b3628482-1c1e-4a01-94d9-4e357b20b87a
-ms.author: windowsdriverdev
 ms.date: 09/21/2018
 ms.topic: method
 ms.keywords: IComparableConcept::Release, Release, IComparableConcept.Release, IComparableConcept::Release, IComparableConcept.Release

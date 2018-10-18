@@ -6,11 +6,8 @@ description: The RtlSetDaclSecurityDescriptor routine sets the DACL information 
 old-location: kernel\rtlsetdaclsecuritydescriptor.htm
 tech.root: kernel
 ms.assetid: d22f4a14-2293-4210-bead-5814484a1471
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlSetDaclSecurityDescriptor, RtlSetDaclSecurityDescriptor routine [Kernel-Mode Driver Architecture], k109_b2723172-ac75-4ada-b421-ae144d10d560.xml, kernel.rtlsetdaclsecuritydescriptor, wdm/RtlSetDaclSecurityDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

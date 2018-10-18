@@ -6,11 +6,8 @@ description: The NDIS_PM_PROTOCOL_OFFLOAD structure specifies parameters for a l
 old-location: netvista\ndis_pm_protocol_offload.htm
 tech.root: netvista
 ms.assetid: 1ae68e5c-f9ea-4454-b015-82e3af0f7ccd
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNDIS_PM_PROTOCOL_OFFLOAD, NDIS_PM_PROTOCOL_OFFLOAD, NDIS_PM_PROTOCOL_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_PM_PROTOCOL_OFFLOAD, PNDIS_PM_PROTOCOL_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_PROTOCOL_OFFLOAD, miniport_power_management_ref_f8a5be81-c46e-41cd-ac96-9877e1f9ebec.xml, netvista.ndis_pm_protocol_offload, ntddndis/NDIS_PM_PROTOCOL_OFFLOAD, ntddndis/PNDIS_PM_PROTOCOL_OFFLOAD"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ntddndis.h
@@ -271,7 +268,7 @@ A <b>ULONGLONG</b> value that contains a replay counter.
 
 The <b>NDIS_PM_PROTOCOL_OFFLOAD</b> structure is used in the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569763">OID_PM_ADD_PROTOCOL_OFFLOAD</a> and 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pm-protocol-offload-list">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-protocol-offload-list">
     OID_PM_PROTOCOL_OFFLOAD_LIST</a> OIDs.
 
 
@@ -298,7 +295,7 @@ The <b>NDIS_PM_PROTOCOL_OFFLOAD</b> structure is used in the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pm-protocol-offload-list">OID_PM_PROTOCOL_OFFLOAD_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-protocol-offload-list">OID_PM_PROTOCOL_OFFLOAD_LIST</a>
  
 
  

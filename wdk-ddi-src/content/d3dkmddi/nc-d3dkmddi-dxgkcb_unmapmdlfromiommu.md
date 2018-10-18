@@ -4,11 +4,8 @@ title: DXGKCB_UNMAPMDLFROMIOMMU
 author: windows-driver-content
 description: Implemented by the client driver to release the mapping that was set by DXGKCB_MAPMDLTOIOMMU.
 ms.assetid: 1b2a9208-b16c-4fe2-a3be-5102a6b2676e
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to release the mapping that was set by [DXGKCB_
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKCB_UNMAPMDLFROMIOMMU DxgkcbUnmapmdlfromiommu;

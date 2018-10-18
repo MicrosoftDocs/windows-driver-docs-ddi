@@ -6,11 +6,8 @@ description: The DELETE_OBJECT_OPTIONS enumeration type describes options that a
 old-location: wpddk\delete_object_options.htm
 tech.root: wpd_dk
 ms.assetid: 38ad1645-1c38-440a-bec2-13052b9082a9
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: DELETE_OBJECT_OPTIONS, DELETE_OBJECT_OPTIONS enumeration, PORTABLE_DEVICE_DELETE_NO_RECURSION, PORTABLE_DEVICE_DELETE_WITH_RECURSION, enumeration, portabledevice/DELETE_OBJECT_OPTIONS, portabledevice/PORTABLE_DEVICE_DELETE_NO_RECURSION, portabledevice/PORTABLE_DEVICE_DELETE_WITH_RECURSION, tagDELETE_OBJECT_OPTIONS, wpddk.delete_object_options
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: portabledevice.h
 req.include-header: 

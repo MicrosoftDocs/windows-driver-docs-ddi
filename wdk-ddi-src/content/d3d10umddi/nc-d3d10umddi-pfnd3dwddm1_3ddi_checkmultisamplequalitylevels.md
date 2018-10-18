@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Retrieves the number of quality levels that the device supports for the specified number of samples. Supported.
 old-location: display\checkmultisamplequalitylevels_d3d11_2_.htm
 ms.assetid: A3AD5F2F-4FB9-407C-A436-A0B5F96002D7
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: CheckMultisampleQualityLevels, CheckMultisampleQualityLevels callback function [Display Devices], PFND3DWDDM1_3DDI_CHECKMULTISAMPLEQUALITYLEVELS, PFND3DWDDM1_3DDI_CHECKMULTISAMPLEQUALITYLEVELS callback, d3d10umddi/CheckMultisampleQualityLevels, display.checkmultisamplequalitylevels_d3d11_2_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

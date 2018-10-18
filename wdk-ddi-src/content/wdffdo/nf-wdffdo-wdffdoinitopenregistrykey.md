@@ -6,11 +6,8 @@ description: The WdfFdoInitOpenRegistryKey method opens a device's hardware key 
 old-location: wdf\wdffdoinitopenregistrykey.htm
 tech.root: wdf
 ms.assetid: 1b720e3e-8858-4567-ada3-30ac0dcf9696
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_8768fe63-0134-467f-9610-0cdaf018f784.xml, WdfFdoInitOpenRegistryKey, WdfFdoInitOpenRegistryKey method, kmdf.wdffdoinitopenregistrykey, wdf.wdffdoinitopenregistrykey, wdffdo/WdfFdoInitOpenRegistryKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdffdo.h
 req.include-header: Wdf.h
@@ -276,11 +273,11 @@ The method might also return other <a href="https://msdn.microsoft.com/library/w
 
 
 
-The driver must call <b>WdfFdoInitOpenRegistryKey</b> before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
+The driver must call <b>WdfFdoInitOpenRegistryKey</b> before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
 
 For more information about the <b>WdfFdoInitOpenRegistryKey</b> method, see <a href="https://msdn.microsoft.com/3b988f6d-c50e-412d-85cb-031746535ff4">Creating Device Objects in a Function Driver</a>.
 
-or more information about the registry, hardware and software keys, and registry objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
+or more information about the registry, hardware and software keys, and registry objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
 
 
 #### Examples

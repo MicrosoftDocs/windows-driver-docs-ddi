@@ -4,12 +4,9 @@ title: TypeKind
 author: windows-driver-content
 description: Defines the kind of a type.
 ms.assetid: 82d1212c-5997-4c81-aa2f-3b390c0b2aaa
-ms.author: windowsdriverdev
 ms.date: 07/16/2018
 ms.topic: enum
 ms.keywords: TypeKind, , 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

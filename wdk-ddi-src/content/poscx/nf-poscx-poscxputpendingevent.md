@@ -6,11 +6,8 @@ description: PosCxPutPendingEvent creates a new event object, copies the event d
 old-location: pos\poscxputpendingevent.htm
 tech.root: pos
 ms.assetid: 4E2EA8F5-2D4A-4AEB-AF59-97D6C3FB09BC
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: PosCxPutPendingEvent, PosCxPutPendingEvent function, pos.poscxputpendingevent, poscx/PosCxPutPendingEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: poscx.h
 req.include-header: Poscx.h

@@ -6,11 +6,8 @@ description: One D3DHAL_DP2TRIANGLEFAN_IMM structure is parsed from the command 
 old-location: display\d3dhal_dp2trianglefan_imm.htm
 tech.root: display
 ms.assetid: a2f6f184-1178-4578-aafa-0bd088d42634
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: "*LPD3DHAL_DP2TRIANGLEFAN_IMM, D3DHAL_DP2TRIANGLEFAN_IMM, D3DHAL_DP2TRIANGLEFAN_IMM structure [Display Devices], LPD3DHAL_DP2TRIANGLEFAN_IMM, LPD3DHAL_DP2TRIANGLEFAN_IMM structure pointer [Display Devices], _D3DHAL_DP2TRIANGLEFAN_IMM, d3dhal/D3DHAL_DP2TRIANGLEFAN_IMM, d3dhal/LPD3DHAL_DP2TRIANGLEFAN_IMM, d3dstrct_a3365200-9001-4f6b-bb38-2ca384a89b25.xml, display.d3dhal_dp2trianglefan_imm"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dhal.h
 req.include-header: D3dhal.h

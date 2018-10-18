@@ -4,11 +4,8 @@ title: _DXGKARG_RESUMEHWENGINE
 author: windows-driver-content
 description: Arguments used to resume the hardware engine.
 ms.assetid: 745bf4ce-87ca-4471-b162-5687380ae09c
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKARG_RESUMEHWENGINE, DXGKARG_RESUMEHWENGINE, *INOUT_PDXGKARG_RESUMEHWENGINE
 req.header: d3dkmddi.h
 req.include-header:

@@ -6,11 +6,8 @@ description: The FltGetContextsEx routine retrieves a minifilter driver's contex
 old-location: ifsk\fltgetcontextsex.htm
 tech.root: ifsk
 ms.assetid: 99903B10-5FA8-430F-9E1F-90A45E07B7D0
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltGetContextsEx, FltGetContextsEx routine [Installable File System Drivers], fltkernel/FltGetContextsEx, ifsk.fltgetcontextsex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

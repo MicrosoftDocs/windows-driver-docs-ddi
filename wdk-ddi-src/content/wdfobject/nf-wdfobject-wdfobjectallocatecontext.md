@@ -6,11 +6,8 @@ description: The WdfObjectAllocateContext method allocates context space for a s
 old-location: wdf\wdfobjectallocatecontext.htm
 tech.root: wdf
 ms.assetid: dbabd045-4f18-4103-b3c0-5405173628d6
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFGenObjectRef_9b172283-f4b6-4ade-9cd2-38f10c0ff9bd.xml, WdfObjectAllocateContext, WdfObjectAllocateContext method, kmdf.wdfobjectallocatecontext, wdf.wdfobjectallocatecontext, wdfobject/WdfObjectAllocateContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfobject.h
 req.include-header: Wdf.h
@@ -168,7 +165,7 @@ When calling <b>WdfObjectAllocateContext</b>, do not specify a <b>ParentObject</
 
 When the framework allocates context space for an object, it also zero-initializes the context space.
 
-For more information about object context space, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-context-space">Framework Object Context Space</a>.
+For more information about object context space, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-context-space">Framework Object Context Space</a>.
 
 
 #### Examples

@@ -4,7 +4,6 @@ title: D3DKMTGetProcessDeviceRemovalSupport function
 author: windows-driver-content
 description: Used to get process device removal support.
 ms.assetid: 3f055101-a1de-4997-9c39-ebaffe736991
-ms.author: windowsdriverdev
 ms.date: 08/03/18
 ms.topic: function
 ms.keywords: D3DKMTGetProcessDeviceRemovalSupport

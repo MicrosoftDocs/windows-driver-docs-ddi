@@ -4,11 +4,8 @@ title: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0053
 author: windows-driver-content
 description: Command list functions for video encode.
 ms.assetid: 2f120f70-da11-44a2-9c43-341fcad41bf3
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0053, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0053, 
 req.header: d3d12umddi.h
 req.include-header:

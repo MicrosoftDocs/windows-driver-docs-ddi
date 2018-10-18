@@ -6,11 +6,8 @@ description: The HidP_MaxDataListLength routine returns the maximum number of HI
 old-location: hid\hidp_maxdatalistlength.htm
 tech.root: hid
 ms.assetid: 525a44a5-4271-4079-917e-48eb679cb96d
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: HidP_MaxDataListLength, HidP_MaxDataListLength routine [Human Input Devices], hid.hidp_maxdatalistlength, hidfunc_2c103c6f-6177-47b3-9d52-9e15c97d758d.xml, hidpi/HidP_MaxDataListLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hidpi.h
 req.include-header: Hidpi.h
@@ -106,7 +103,7 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
  
 
  

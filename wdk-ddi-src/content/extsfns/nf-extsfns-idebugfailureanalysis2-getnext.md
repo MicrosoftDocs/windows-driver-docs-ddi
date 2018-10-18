@@ -6,11 +6,8 @@ description: The GetNext method searches a DebugFailureAnalysis object for the n
 old-location: debugger\idebugfailureanalysis2_getnext.htm
 tech.root: debugger
 ms.assetid: 935E4BAD-2B4E-44DD-8AE6-A0FD1FE9F2BF
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetNext, GetNext method [Windows Debugging], GetNext method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetNext method, IDebugFailureAnalysis2.GetNext, IDebugFailureAnalysis2::GetNext, debugger.idebugfailureanalysis2_getnext, extsfns/IDebugFailureAnalysis2::GetNext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: extsfns.h
 req.include-header: 
@@ -65,7 +62,7 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/jj9
 
 ### -param Tag [in]
 
-A value in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
+A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
 
 ### -param TagMask [in]
@@ -90,11 +87,11 @@ This method searches for an <a href="https://msdn.microsoft.com/library/windows/
 
 entry-&gt;Tag &amp; <i>TagMask</i> == <i>Tag</i>
 
-Tags are defined in extsfns.h as values of the <a href="https://msdn.microsoft.com/library/windows/hardware/jj991806">DEBUG_FLR_PARAM_TYPE</a> enumeration, which is also called the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration. The tags are arranged in groups so that you can use <i>TagMask</i> to search within a particular group. For example there is a group of tags related to pool errors. The numerical values assigned to the tags in this group are in the range 0x400, 0x401 ... 0x406. Every <a href="https://msdn.microsoft.com/library/windows/hardware/jj991808">FA_ENTRY</a> that has a tag in this group satisfies the following condition:
+Tags are defined in extsfns.h as values of the <a href="https://msdn.microsoft.com/library/windows/hardware/jj991806">DEBUG_FLR_PARAM_TYPE</a> enumeration, which is also called the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration. The tags are arranged in groups so that you can use <i>TagMask</i> to search within a particular group. For example there is a group of tags related to pool errors. The numerical values assigned to the tags in this group are in the range 0x400, 0x401 ... 0x406. Every <a href="https://msdn.microsoft.com/library/windows/hardware/jj991808">FA_ENTRY</a> that has a tag in this group satisfies the following condition:
 
 <code>entry-&gt;Tag &amp; 0xFFFFFF00 == 0x400</code>
 
-The following code snippet shows a portion of the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
+The following code snippet shows a portion of the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

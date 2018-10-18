@@ -6,11 +6,8 @@ description: The WDF_IO_TARGET_OPEN_PARAMS structure contains parameters that th
 old-location: wdf\wdf_io_target_open_params.htm
 tech.root: wdf
 ms.assetid: 9539868c-127b-4781-9a73-b56fbfda3233
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*PWDF_IO_TARGET_OPEN_PARAMS, DFIOTargetRef_6363f7be-6768-4c90-88c4-88c5fdea0019.xml, PWDF_IO_TARGET_OPEN_PARAMS, PWDF_IO_TARGET_OPEN_PARAMS structure pointer, WDF_IO_TARGET_OPEN_PARAMS, WDF_IO_TARGET_OPEN_PARAMS structure, _WDF_IO_TARGET_OPEN_PARAMS, kmdf.wdf_io_target_open_params, wdf.wdf_io_target_open_params, wdfiotarget/PWDF_IO_TARGET_OPEN_PARAMS, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdfiotarget.h
 req.include-header: Wdf.h

@@ -6,11 +6,8 @@ description: The DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS structure co
 old-location: display\dxgkmdt_opm_set_acp_and_cgmsa_signaling_parameters.htm
 tech.root: display
 ms.assetid: e4151e72-e0a6-4873-a2e8-c3321941cfd4
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS structure [Display Devices], DmStructs_64a3857d-3c66-4653-980b-72df307eba0f.xml, _DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, d3dkmdt/DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, display.dxgkmdt_opm_set_acp_and_cgmsa_signaling_parameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h

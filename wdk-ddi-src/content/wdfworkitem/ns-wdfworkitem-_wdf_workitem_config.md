@@ -6,11 +6,8 @@ description: The WDF_WORKITEM_CONFIG structure contains information that is asso
 old-location: wdf\wdf_workitem_config.htm
 tech.root: wdf
 ms.assetid: b6186c05-ccb9-432c-bd83-9a3fb3af7f0b
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*PWDF_WORKITEM_CONFIG, DFWorkItemObjectRef_48012621-6363-421b-8b95-2bdae4e63b32.xml, PWDF_WORKITEM_CONFIG, PWDF_WORKITEM_CONFIG structure pointer, WDF_WORKITEM_CONFIG, WDF_WORKITEM_CONFIG structure, _WDF_WORKITEM_CONFIG, kmdf.wdf_workitem_config, wdf.wdf_workitem_config, wdfworkitem/PWDF_WORKITEM_CONFIG, wdfworkitem/WDF_WORKITEM_CONFIG"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdfworkitem.h
 req.include-header: Wdf.h
@@ -85,7 +82,7 @@ Setting the <b>AutomaticSerialization</b> member of <b>WDF_WORKITEM_CONFIG</b> t
 
 If <b>AutomaticSerialization</b> is <b>TRUE</b>, the parent object's execution level must be <b>WdfExecutionLevelPassive</b>.
 
-For more information about <b>AutomaticSerialization</b> and synchronizing driver callback functions, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/synchronization-techniques-for-wdf-drivers">Synchronization Techniques for Framework-Based Drivers</a>.
+For more information about <b>AutomaticSerialization</b> and synchronizing driver callback functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/synchronization-techniques-for-wdf-drivers">Synchronization Techniques for Framework-Based Drivers</a>.
 
 
 

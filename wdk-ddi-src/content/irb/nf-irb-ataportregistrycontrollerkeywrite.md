@@ -6,11 +6,8 @@ description: The AtaPortRegistryControllerKeyWrite routine writes the data to th
 old-location: storage\ataportregistrycontrollerkeywrite.htm
 tech.root: storage
 ms.assetid: dfe97cce-f349-49a1-9075-c3c3d1a60681
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: AtaPortRegistryControllerKeyWrite, AtaPortRegistryControllerKeyWrite routine [Storage Devices], atartns_c17cd629-759c-4469-a7f4-61125a791736.xml, irb/AtaPortRegistryControllerKeyWrite, storage.ataportregistrycontrollerkeywrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
@@ -51,7 +48,7 @@ req.typenames:
 
 
 The <b>AtaPortRegistryControllerKeyWrite</b> routine writes the data to the indicated value name under the registry key <b>HKLM\CurrentControlSet\Services\</b><i>&lt;service name&gt;</i><b>\Controller</b><i>N</i>, where <i>N </i>is the number of the controller. 
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 

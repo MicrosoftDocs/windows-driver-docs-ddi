@@ -6,11 +6,8 @@ description: Called by the operating system to notify the driver when a driver i
 old-location: kernel\pload_image_notify_routine.htm
 tech.root: kernel
 ms.assetid: 613962D6-DF27-4AAE-BD8F-6BC0A538D7F8
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: PLOAD_IMAGE_NOTIFY_ROUTINE, PLOAD_IMAGE_NOTIFY_ROUTINE callback, SetLoadImageNotifyRoutine, SetLoadImageNotifyRoutine callback function [Kernel-Mode Driver Architecture], kernel.pload_image_notify_routine, ntddk/SetLoadImageNotifyRoutine
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ntddk.h
 req.include-header: Ntddk.h
@@ -51,7 +48,7 @@ req.typenames:
 
 
 Called by the operating system to notify the driver when a driver image or a user image (for example, a DLL or EXE) is mapped into virtual memory. 
-<div class="alert"><b>Warning</b>  The actions that  you can perform in this routine are restricted for safe calls. See <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/windows-kernel-mode-process-and-thread-manager#best">Best Practices</a>. </div><div> </div>
+<div class="alert"><b>Warning</b>  The actions that  you can perform in this routine are restricted for safe calls. See <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/windows-kernel-mode-process-and-thread-manager#best">Best Practices</a>. </div><div> </div>
 
 ## -parameters
 

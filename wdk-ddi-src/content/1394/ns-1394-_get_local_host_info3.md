@@ -6,11 +6,8 @@ description: The GET_LOCAL_HOST_INFO3 structure contains the data returned by a 
 old-location: ieee\get_local_host_info3.htm
 tech.root: IEEE
 ms.assetid: 49c24328-dfd9-4d4d-a40f-a375f1384a5c
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PGET_LOCAL_HOST_INFO3, 1394/GET_LOCAL_HOST_INFO3, 1394/PGET_LOCAL_HOST_INFO3, 1394stct_327b0f83-9367-41ef-8b04-a07338f8725b.xml, GET_LOCAL_HOST_INFO3, GET_LOCAL_HOST_INFO3 structure [Buses], IEEE.get_local_host_info3, PGET_LOCAL_HOST_INFO3, PGET_LOCAL_HOST_INFO3 structure pointer [Buses], _GET_LOCAL_HOST_INFO3"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 1394.h
 req.include-header: 1394.h

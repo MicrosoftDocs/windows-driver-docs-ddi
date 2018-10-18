@@ -6,11 +6,8 @@ description: The FwpmBfeStateSubscribeChanges0 function registers a callback fun
 old-location: netvista\fwpmbfestatesubscribechanges0.htm
 tech.root: netvista
 ms.assetid: 375af8a1-9e05-4830-9074-6313b4e082d9
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FwpmBfeStateSubscribeChanges0, FwpmBfeStateSubscribeChanges0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmBfeStateSubscribeChanges0, netvista.fwpmbfestatesubscribechanges0, wfp_ref_2_funct_2_fwpm_79b78030-bb8c-462d-98fc-6f3818dead3d.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmk.h
 req.include-header: Fwpmk.h
@@ -200,7 +197,7 @@ For example, a callout driver cannot open a session to the filter
     engine by calling  the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550075">FwpmEngineOpen0</a> function unless the filter engine is currently running. A callout driver can use the <b>FWPM_SERVICE_RUNNING</b>
     notification to open a session to the filter engine so that it can make calls to the other Windows
     Filtering Platform 
-    <a href="https://answers.microsoft.com/en-us/windows/forum/windows_xp-performance/computer-management-storage-disk-management/f93a4e9b-5516-4e5c-9cd3-f04453ec963f">management functions</a>. Similarly, a
+    <a href="https://answers.microsoft.com/windows/forum/windows_xp-performance/computer-management-storage-disk-management/f93a4e9b-5516-4e5c-9cd3-f04453ec963f">management functions</a>. Similarly, a
     callout driver can use the <b>FWPM_SERVICE_STOP_PENDING</b> notification to perform any cleanup before the
     filter engine is stopped.
 

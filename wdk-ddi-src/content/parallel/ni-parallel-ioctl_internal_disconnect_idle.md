@@ -6,11 +6,8 @@ description: The IOCTL_INTERNAL_DISCONNECT_IDLE request disconnects the IEEE 128
 old-location: parports\ioctl_internal_disconnect_idle.htm
 tech.root: parports
 ms.assetid: 02fd4277-502d-4a9e-b809-10134ed0900b
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IOCTL_INTERNAL_DISCONNECT_IDLE, IOCTL_INTERNAL_DISCONNECT_IDLE control code [Parallel Ports], cisspd_ff4b2feb-d3b4-4b80-9f6f-f4fd16bab4c1.xml, parallel/IOCTL_INTERNAL_DISCONNECT_IDLE, parports.ioctl_internal_disconnect_idle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: parallel.h
 req.include-header: Parallel.h
@@ -50,7 +47,7 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ##  Major Code:
 
 
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

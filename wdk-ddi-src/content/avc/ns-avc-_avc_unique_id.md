@@ -6,11 +6,8 @@ description: The AVC_UNIQUE_ID describe the unique ID of the AV/C unit.
 old-location: stream\avc_unique_id.htm
 tech.root: stream
 ms.assetid: d2a355e2-e5ff-4d20-ae8c-cdee3f5ddb76
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PAVC_UNIQUE_ID, AVC_UNIQUE_ID, AVC_UNIQUE_ID structure [Streaming Media Devices], PAVC_UNIQUE_ID, PAVC_UNIQUE_ID structure pointer [Streaming Media Devices], _AVC_UNIQUE_ID, avc/AVC_UNIQUE_ID, avc/PAVC_UNIQUE_ID, avcref_c7dadbdc-3227-4462-b2e3-5064e8f96e1a.xml, stream.avc_unique_id"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: avc.h
 req.include-header: Avc.h

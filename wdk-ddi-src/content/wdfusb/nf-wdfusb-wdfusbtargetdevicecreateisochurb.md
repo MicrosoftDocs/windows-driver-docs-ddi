@@ -6,11 +6,8 @@ description: The WdfUsbTargetDeviceCreateIsochUrb method allocates an isochronou
 old-location: wdf\wdfusbtargetdevicecreateisochurb.htm
 tech.root: wdf
 ms.assetid: 2D25A276-A367-4E59-9CA0-4F480675DD77
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WdfUsbTargetDeviceCreateIsochUrb, WdfUsbTargetDeviceCreateIsochUrb method, kmdf.wdfusbtargetdevicecreateisochurb, wdf.wdfusbtargetdevicecreateisochurb, wdfusb/WdfUsbTargetDeviceCreateIsochUrb
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
@@ -148,7 +145,7 @@ Before calling <b>WdfUsbTargetDeviceCreateIsochUrb</b>, a driver must call <a hr
 
 A driver can call <b>WdfUsbTargetDeviceCreateIsochUrb</b> to allocate a URB structure before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550088">WdfUsbTargetDeviceFormatRequestForUrb</a>.
 
-Typically, a driver calls <b>WdfUsbTargetDeviceCreateIsochUrb</b> from within a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-handlers">request handler</a>.
+Typically, a driver calls <b>WdfUsbTargetDeviceCreateIsochUrb</b> from within a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/request-handlers">request handler</a>.
 
 The memory object and its buffer are deleted when the parent object is deleted. A driver can also delete a memory object and its buffer by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548734">WdfObjectDelete</a>.
 

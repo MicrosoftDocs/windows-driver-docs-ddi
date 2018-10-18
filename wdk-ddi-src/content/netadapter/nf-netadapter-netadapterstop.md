@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NetAdapterStop method stops a NETADAPTER object.
 tech.root: netvista
 ms.assetid: b566be39-c819-4d37-bf35-9b3d56e04818
-ms.author: windowsdriverdev
 ms.date: 03/05/2018
 ms.topic: function
 ms.keywords: NetAdapterStop

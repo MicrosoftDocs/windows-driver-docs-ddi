@@ -6,11 +6,8 @@ description: This function is obsolete for Windows XP and later.wcs
 old-location: print\oemmemoryusage__function_.htm
 tech.root: print
 ms.assetid: ae78fc9a-06a2-466f-875c-9c35aec13336
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: OEMMemoryUsage, OEMMemoryUsage function [Print Devices], print.oemmemoryusage__function_, print_obsoletefunctions_35165216-4a29-4096-95b6-5f5b00418193.xml, printoem/OEMMemoryUsage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: printoem.h
 req.include-header: Printoem.h

@@ -6,11 +6,8 @@ description: The WppRecorderIsDefaultLogAvailable method determines whether the 
 old-location: devtest\wpprecorderisdefaultlogavailable.htm
 tech.root: devtest
 ms.assetid: 5685540F-B4C4-4ED9-B783-85A898EC5A62
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: WppRecorderIsDefaultLogAvailable, devtest.wpprecorderisdefaultlogavailable, imp_WppRecorderIsDefaultLogAvailable, imp_WppRecorderIsDefaultLogAvailable function [Driver Development Tools], wpprecorder/imp_WppRecorderIsDefaultLogAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wpprecorder.h
 req.include-header: 

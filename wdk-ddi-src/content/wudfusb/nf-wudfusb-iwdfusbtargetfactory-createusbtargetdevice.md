@@ -6,11 +6,8 @@ description: The CreateUsbTargetDevice method creates a USB device object that i
 old-location: wdf\iwdfusbtargetfactory_createusbtargetdevice.htm
 tech.root: wdf
 ms.assetid: c5aeb5f4-be62-4418-981c-1dd4acdccf07
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: CreateUsbTargetDevice, CreateUsbTargetDevice method, CreateUsbTargetDevice method,IWDFUsbTargetFactory interface, IWDFUsbTargetFactory interface,CreateUsbTargetDevice method, IWDFUsbTargetFactory.CreateUsbTargetDevice, IWDFUsbTargetFactory::CreateUsbTargetDevice, UMDFDeviceObjectRef_fafba7c5-57d5-4b05-bc46-46807b94ec6d.xml, umdf.iwdfusbtargetfactory_createusbtargetdevice, wdf.iwdfusbtargetfactory_createusbtargetdevice, wudfusb/IWDFUsbTargetFactory::CreateUsbTargetDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>CreateUsbTargetDevice</b> method creates a USB device object that is also an I/O target.
 
@@ -127,7 +124,7 @@ If the file object that is associated with the created I/O target object is requ
 
 <div class="alert"><b>Note</b>  <b>CreateUsbTargetDevice</b> inherits all of the methods of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559170">IWDFIoTarget</a> interface.</div>
 <div> </div>
-To use the newly created USB I/O target object in a device stack, the INF file that installs the UMDF driver must contain the <b>UmdfDispatcher</b> directive and set <b>UmdfDispatcher</b> to <b>WinUsb</b> (<code>UmdfDispatcher=WinUsb</code>) in the <b>DDInstall.WDF</b> section. <b>UmdfDispatcher</b> is required to inform the UMDF platform that it can allow access to the USB I/O target. For more information about <b>UmdfDispatcher</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/specifying-wdf-directives-in-inf-files">Specifying WDF Directives</a>.
+To use the newly created USB I/O target object in a device stack, the INF file that installs the UMDF driver must contain the <b>UmdfDispatcher</b> directive and set <b>UmdfDispatcher</b> to <b>WinUsb</b> (<code>UmdfDispatcher=WinUsb</code>) in the <b>DDInstall.WDF</b> section. <b>UmdfDispatcher</b> is required to inform the UMDF platform that it can allow access to the USB I/O target. For more information about <b>UmdfDispatcher</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/specifying-wdf-directives-in-inf-files">Specifying WDF Directives</a>.
 
 
 #### Examples

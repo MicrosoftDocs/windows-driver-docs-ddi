@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NetConfigurationQueryLinkLayerAddress method retrieves the software-configurable link layer address address that was stored in the registry for a NIC.
 tech.root: netvista
 ms.assetid: 6431d2ff-fdf8-4343-9860-08b3370aa271
-ms.author: windowsdriverdev
 ms.date: 02/07/2018
 ms.topic: function
 ms.keywords: NetConfigurationQueryLinkLayerAddress

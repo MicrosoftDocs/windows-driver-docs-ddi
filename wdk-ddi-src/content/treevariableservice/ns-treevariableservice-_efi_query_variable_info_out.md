@@ -4,11 +4,8 @@ title: _EFI_QUERY_VARIABLE_INFO_OUT
 author: windows-driver-content
 description: 
 ms.assetid: b8e00ca2-f24d-4266-9492-aa6c4f1dcd76
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _EFI_QUERY_VARIABLE_INFO_OUT, EFI_QUERY_VARIABLE_INFO_OUT, *PEFI_QUERY_VARIABLE_INFO_OUT, 
 req.header: treevariableservice.h
 req.include-header:

@@ -4,11 +4,8 @@ title: PFND3DKMT_DESTROYCONTEXT
 author: windows-driver-content
 description: Implemented by the client driver to destroy the specified graphics processing unit (GPU) context.
 ms.assetid: 6b88e83a-a211-417e-a34d-ed98ae9b4b4b
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Implemented by the client driver to destroy the specified graphics processing un
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_DESTROYCONTEXT Pfnd3dkmtDestroycontext; 

@@ -6,11 +6,8 @@ description: The MmGetMdlByteCount macro returns the length, in bytes, of the bu
 old-location: kernel\mmgetmdlbytecount.htm
 tech.root: Benchmark
 ms.assetid: a0493418-2ce2-4917-bf9f-e4dc726a3847
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: MmGetMdlByteCount, MmGetMdlByteCount macro [Tools], k106_f750d750-c5ca-44cf-b8f1-f52d2eb8bc27.xml, kernel.mmgetmdlbytecount, wdm/MmGetMdlByteCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

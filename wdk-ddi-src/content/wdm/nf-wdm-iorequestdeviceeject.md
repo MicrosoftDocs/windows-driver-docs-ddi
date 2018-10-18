@@ -6,11 +6,8 @@ description: The IoRequestDeviceEject routine notifies the PnP manager that the 
 old-location: kernel\iorequestdeviceeject.htm
 tech.root: kernel
 ms.assetid: ceaa6793-43ba-4998-827e-8a2c7c892e50
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IoRequestDeviceEject, IoRequestDeviceEject routine [Kernel-Mode Driver Architecture], k104_59a74c47-2538-400a-a9b5-a27a5fc495dd.xml, kernel.iorequestdeviceeject, wdm/IoRequestDeviceEject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

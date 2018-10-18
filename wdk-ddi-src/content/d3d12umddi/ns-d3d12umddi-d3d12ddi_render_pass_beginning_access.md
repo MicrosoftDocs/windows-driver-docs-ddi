@@ -4,11 +4,8 @@ title: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS
 author: windows-driver-content
 description: Specifies the resources needed to start a Render Pass.
 ms.assetid: ac703ac4-da4d-450a-8ca9-3c25c563431a
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS, D3D12DDI_RENDER_PASS_BEGINNING_ACCESS, 
 req.header: d3d12umddi.h
 req.include-header:

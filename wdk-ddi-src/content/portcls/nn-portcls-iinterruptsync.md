@@ -6,11 +6,8 @@ description: The IInterruptSync interface represents an interrupt sync object th
 old-location: audio\iinterruptsync.htm
 tech.root: audio
 ms.assetid: fffdee8e-6298-45b9-94ee-23426598fbee
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: IInterruptSync, IInterruptSync interface [Audio Devices], IInterruptSync interface [Audio Devices],described, audio.iinterruptsync, audmp-routines_5b5b2127-b0d5-48de-9840-2cdffa0bea6a.xml, portcls/IInterruptSync
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: portcls.h
 req.include-header: 

@@ -4,12 +4,9 @@ title: D3D12DDI_EXPORT_SUMMARY_FLAGS
 author: windows-driver-content
 description: Flags indicating properties the runtime has determined about a given shader export.
 ms.assetid: 3b2c93b4-4ec7-4208-8cdc-dba1bda085a9
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: D3D12DDI_EXPORT_SUMMARY_FLAGS, D3D12DDI_EXPORT_SUMMARY_FLAGS, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

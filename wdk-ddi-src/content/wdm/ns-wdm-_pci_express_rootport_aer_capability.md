@@ -6,11 +6,8 @@ description: The PCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure describes a PCI E
 old-location: pci\pci_express_rootport_aer_capability.htm
 tech.root: PCI
 ms.assetid: 19272158-96bb-4efa-b32b-f8848d01bad1
-ms.author: windowsdriverdev
 ms.date: 2/24/2018
 ms.keywords: "*PPCI_EXPRESS_ROOTPORT_AER_CAPABILITY, PCI.pci_express_rootport_aer_capability, PCI_EXPRESS_ROOTPORT_AER_CAPABILITY, PCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure [Buses], PPCI_EXPRESS_ROOTPORT_AER_CAPABILITY, PPCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure pointer [Buses], _PCI_EXPRESS_ROOTPORT_AER_CAPABILITY, pci_struct_f65551d3-2213-468e-aa94-508b29c11844.xml, wdm/PCI_EXPRESS_ROOTPORT_AER_CAPABILITY, wdm/PPCI_EXPRESS_ROOTPORT_AER_CAPABILITY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
 req.include-header: Ntddk.h, Wdm.h, Miniport.h
@@ -57,7 +54,7 @@ The PCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure describes a PCI Express (PCIe)
 ## -syntax
 
 
-````
+```cpp
 typedef struct _PCI_EXPRESS_ROOTPORT_AER_CAPABILITY {
   PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER   Header;
   PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS   UncorrectableErrorStatus;
@@ -71,7 +68,7 @@ typedef struct _PCI_EXPRESS_ROOTPORT_AER_CAPABILITY {
   PCI_EXPRESS_ROOT_ERROR_STATUS            RootErrorStatus;
   PCI_EXPRESS_ERROR_SOURCE_ID              ErrorSourceId;
 } PCI_EXPRESS_ROOTPORT_AER_CAPABILITY, *PPCI_EXPRESS_ROOTPORT_AER_CAPABILITY;
-````
+```
 
 
 ## -struct-fields

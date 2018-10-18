@@ -4,11 +4,8 @@ title: CWiaLogProcEx
 author: windows-driver-content
 description: 
 ms.assetid: 40432fb3-ec6f-44ac-a757-0de2b99320fb
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: class
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wiamdef.h
 req.include-header:
 req.target-type:

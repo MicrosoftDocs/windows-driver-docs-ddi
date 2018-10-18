@@ -6,11 +6,8 @@ description: The PsSetCreateProcessNotifyRoutineEx routine registers or removes 
 old-location: kernel\pssetcreateprocessnotifyroutineex.htm
 tech.root: kernel
 ms.assetid: e982200c-f30c-423e-bd85-03365850c996
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: PsSetCreateProcessNotifyRoutineEx, PsSetCreateProcessNotifyRoutineEx routine [Kernel-Mode Driver Architecture], k108_b68156fb-55d5-4192-a4d0-d74603647f42.xml, kernel.pssetcreateprocessnotifyroutineex, ntddk/PsSetCreateProcessNotifyRoutineEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

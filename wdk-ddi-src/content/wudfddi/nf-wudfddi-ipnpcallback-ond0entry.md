@@ -6,11 +6,8 @@ description: The OnD0Entry method notifies a driver when a device enters the D0 
 old-location: wdf\ipnpcallback_ond0entry.htm
 tech.root: wdf
 ms.assetid: 6efa3d8e-3e54-4ab1-82e0-08ba12bb1877
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IPnpCallback interface,OnD0Entry method, IPnpCallback.OnD0Entry, IPnpCallback::OnD0Entry, OnD0Entry, OnD0Entry method, OnD0Entry method,IPnpCallback interface, UMDFDeviceObjectRef_96da33eb-c6ef-41f0-9a4c-1a8e8158d023.xml, umdf.ipnpcallback_ond0entry, wdf.ipnpcallback_ond0entry, wudfddi/IPnpCallback::OnD0Entry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>OnD0Entry</b> method notifies a driver when a device enters the D0 power state so that the driver can perform necessary operations, such as enabling the device. 
 

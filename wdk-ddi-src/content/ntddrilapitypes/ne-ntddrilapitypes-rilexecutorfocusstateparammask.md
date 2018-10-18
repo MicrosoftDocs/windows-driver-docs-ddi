@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilexecutorfocusstateparammask.htm
 tech.root: netvista
 ms.assetid: ffe6cedc-bdac-4e39-855f-99f909f6b0e6
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RILEXECUTORFOCUSSTATEPARAMMASK, RILEXECUTORFOCUSSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_EXECUTORFOCUSSTATE_ALL, RIL_PARAM_EXECUTORFOCUSSTATE_STATE, netvista.rilexecutorfocusstateparammask, ntddrilapitypes/RILEXECUTORFOCUSSTATEPARAMMASK, ntddrilapitypes/RIL_PARAM_EXECUTORFOCUSSTATE_ALL, ntddrilapitypes/RIL_PARAM_EXECUTORFOCUSSTATE_STATE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h

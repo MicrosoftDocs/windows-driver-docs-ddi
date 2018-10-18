@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_cipher_key_mapping_key_value.htm
 tech.root: netvista
 ms.assetid: 0ab5239d-422e-483e-a633-4efab47311fc
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, DOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_3be84a7b-4b5b-49d1-8611-3217962483fe.xml, PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_cipher_key_mapping_key_value, windot11/DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, windot11/PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -61,7 +58,7 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef struct DOT11_CIPHER_KEY_MAPPING_KEY_VALUE {
   DOT11_MAC_ADDRESS      PeerMacAddr;
   DOT11_CIPHER_ALGORITHM AlgorithmId;
@@ -71,7 +68,7 @@ typedef struct DOT11_CIPHER_KEY_MAPPING_KEY_VALUE {
   USHORT                 usKeyLength;
   UCHAR                  ucKey[1];
 } DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, *PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE;
-````
+```
 
 
 ## -struct-fields
@@ -146,7 +143,7 @@ If set to <b>TRUE</b>, the default key referenced by
 <ul>
 <li>
 Explicitly deleted through a set request of
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
        OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>.
 
 </li>
@@ -190,7 +187,7 @@ If
 The Native 802.11 miniport driver uniquely identifies key-mapping keys through the
     <b>PeerMacAddr</b> and
     <b>Direction</b> members. When the
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
     OID_DOT11_CIPHER_KEY_MAPPING_KEY</a> is set, the miniport driver can modify or delete an existing key
     only if the values of the
     <b>PeerMacAddr</b> and
@@ -218,7 +215,7 @@ If the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
    OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
 
 
@@ -235,7 +232,7 @@ If the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
 
 
 

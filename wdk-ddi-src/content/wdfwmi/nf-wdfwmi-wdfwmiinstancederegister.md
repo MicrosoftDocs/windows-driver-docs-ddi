@@ -6,11 +6,8 @@ description: The WdfWmiInstanceDeregister method deregisters a specified instanc
 old-location: wdf\wdfwmiinstancederegister.htm
 tech.root: wdf
 ms.assetid: 2167504e-ca92-4427-9101-04a2c2bf66df
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFWMIRef_4e04e7da-3a14-4bd4-a430-8f5f3624b61a.xml, WdfWmiInstanceDeregister, WdfWmiInstanceDeregister method, kmdf.wdfwmiinstancederegister, wdf.wdfwmiinstancederegister, wdfwmi/WdfWmiInstanceDeregister
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfwmi.h
 req.include-header: Wdf.h
@@ -83,7 +80,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-For more information about the <b>WdfWmiInstanceDeregister</b> method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/initializing-wmi-support-in-your-driver">Registering Provider Instances</a>. For more information about WMI, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-wmi-in-kmdf-drivers">Supporting WMI in Framework-Based Drivers</a>.
+For more information about the <b>WdfWmiInstanceDeregister</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/initializing-wmi-support-in-your-driver">Registering Provider Instances</a>. For more information about WMI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-wmi-in-kmdf-drivers">Supporting WMI in Framework-Based Drivers</a>.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551190">WdfWmiInstanceRegister</a> deregisters the provider instance synchronously (that is, before returning) if it is called at IRQL = PASSIVE_LEVEL and asynchronously if it is called at IRQL &gt; PASSIVE_LEVEL. 

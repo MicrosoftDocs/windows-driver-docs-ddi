@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMT_ADAPTERADDRESS structure describes the physical location of the graphics adapter.
 old-location: display\d3dkmt_adapteraddress.htm
 ms.assetid: 70f45ca2-4be6-4e74-b2e8-55ef7a43192f
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DKMT_ADAPTERADDRESS, D3DKMT_ADAPTERADDRESS structure [Display Devices], OpenGL_Structs_98b1caf8-46c4-4f78-896c-031e8f3f61d0.xml, _D3DKMT_ADAPTERADDRESS, d3dkmthk/D3DKMT_ADAPTERADDRESS, display.d3dkmt_adapteraddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

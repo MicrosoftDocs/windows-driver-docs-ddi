@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_getradioconfiguration.htm
 tech.root: netvista
 ms.assetid: 8e450e58-41e0-4df2-83d9-8975d437cdcb
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RIL_GetRadioConfiguration, RIL_GetRadioConfiguration method [Network Drivers Starting with Windows Vista], netvista.ril_getradioconfiguration, rilapi/RIL_GetRadioConfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rilapi.h
 req.include-header: 

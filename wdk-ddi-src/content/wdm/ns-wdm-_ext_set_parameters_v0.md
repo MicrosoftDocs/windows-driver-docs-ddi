@@ -6,11 +6,8 @@ description: The EXT_SET_PARAMETERS structure contains an extended set of parame
 old-location: kernel\ext_set_parameters.htm
 tech.root: kernel
 ms.assetid: 8872AA79-1D54-4952-A45E-A2DB97730CA7
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PEXT_SET_PARAMETERS, *PKT2_SET_PARAMETERS, EXT_SET_PARAMETERS, EXT_SET_PARAMETERS structure [Kernel-Mode Driver Architecture], KT2_SET_PARAMETERS, PEXT_SET_PARAMETERS, PEXT_SET_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], _EXT_SET_PARAMETERS_V0, kernel.ext_set_parameters, wdm/EXT_SET_PARAMETERS, wdm/PEXT_SET_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

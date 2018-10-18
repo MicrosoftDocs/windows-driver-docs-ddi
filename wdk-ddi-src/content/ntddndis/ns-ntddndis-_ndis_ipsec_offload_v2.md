@@ -6,11 +6,8 @@ description: The NDIS_IPSEC_OFFLOAD_V2 structure provides information about Inte
 old-location: netvista\ndis_ipsec_offload_v2.htm
 tech.root: netvista
 ms.assetid: 2319fe88-8f32-415c-bea1-4b7e723f6dbb
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNDIS_IPSEC_OFFLOAD_V2, NDIS_IPSEC_OFFLOAD_V2, NDIS_IPSEC_OFFLOAD_V2 structure [Network Drivers Starting with Windows Vista], PNDIS_IPSEC_OFFLOAD_V2, PNDIS_IPSEC_OFFLOAD_V2 structure pointer [Network Drivers Starting with Windows Vista], _NDIS_IPSEC_OFFLOAD_V2, netvista.ndis_ipsec_offload_v2, ntddndis/NDIS_IPSEC_OFFLOAD_V2, ntddndis/PNDIS_IPSEC_OFFLOAD_V2, task_offload_IPsecv2_ref_e1c132dd-5f77-48e0-98c5-d27b253ec182.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ndis.h
@@ -345,16 +342,16 @@ NDIS_OFFLOAD is used in the
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a> structure, 
     <a href="https://msdn.microsoft.com/d46a1e62-9d03-4ab9-86f6-81b06c04d0f6">
     NDIS_FILTER_ATTACH_PARAMETERS</a> structure, 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config">
     OID_TCP_OFFLOAD_CURRENT_CONFIG</a> OID, and the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567424">
     NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a> status indication.
 
 For 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>,
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>,
     the NDIS_OFFLOAD structure specifies the task offload capabilities that a miniport adapter supports. If
     the current offload capabilities change, a miniport driver reports the new capabilities in an 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567424">
     NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a> status indication.
 
 The 
@@ -362,14 +359,14 @@ The
     adapter supports for IPsec offload.
 
 In response to an 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config">
     OID_TCP_OFFLOAD_CURRENT_CONFIG</a> query request, NDIS provides a bitwise OR of the encapsulation
     flags, which indicate the supported encapsulation settings, in the 
     <b>Encapsulation</b> member. Miniport drivers must provide Ethernet encapsulation
     (NDIS_ENCAPSULATION_IEEE_802_3). The other types of encapsulation are optional.
 
 For an 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567424">
     NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a> status indication, the miniport driver provides a bitwise
     OR of the encapsulation flags, which indicate the current capabilities, in the 
     <b>Encapsulation</b> member.
@@ -412,7 +409,7 @@ The following flags are defined for the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567424">
    NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a>
 
 
@@ -421,7 +418,7 @@ The following flags are defined for the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
  
 
  

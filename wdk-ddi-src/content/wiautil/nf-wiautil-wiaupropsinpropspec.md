@@ -6,11 +6,8 @@ description: The wiauPropsInPropSpec function determines whether any of a list o
 old-location: image\wiaupropsinpropspec.htm
 tech.root: image
 ms.assetid: c376297a-11a6-4e9f-b551-36a573cdb7e0
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: image.wiaupropsinpropspec, wiauFncs_2490b5b3-8051-4711-b681-1aef18580182.xml, wiauPropsInPropSpec, wiauPropsInPropSpec function [Imaging Devices], wiautil/wiauPropsInPropSpec
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiautil.h
 req.include-header: Wiautil.h

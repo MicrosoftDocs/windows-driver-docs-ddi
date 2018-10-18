@@ -4,11 +4,8 @@ title: PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0003
 author: windows-driver-content
 description: The pfnCheckResourceAllocationInfo callback function supports checking resource allocation information.
 ms.assetid: 88c3cb14-acf1-4391-a8f0-059a2533a183
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ The pfnCheckResourceAllocationInfo callback function supports checking resource 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0003 Pfnd3d12ddiCheckresourceallocationinfo0003; 

@@ -6,11 +6,8 @@ description: Removes all items from a Storport managed singly linked list. Acces
 old-location: storage\storportinterlockedflushslist.htm
 tech.root: storage
 ms.assetid: C686ABA7-BC44-45CE-A35B-63E76961A032
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: StorPortInterlockedFlushSList, StorPortInterlockedFlushSList routine [Storage Devices], storage.storportinterlockedflushslist, storport/StorPortInterlockedFlushSList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

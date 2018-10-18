@@ -6,11 +6,8 @@ description: The SetIndices function sets the current index buffer.
 old-location: display\setindices.htm
 tech.root: display
 ms.assetid: 5348b3f9-78c5-4915-ba68-296d6f9f916c
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_SETINDICES, PFND3DDDI_SETINDICES callback, SetIndices, SetIndices callback function [Display Devices], UserModeDisplayDriver_Functions_c51c5796-e271-4b76-a013-88038767d356.xml, d3dumddi/SetIndices, display.setindices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

@@ -6,11 +6,8 @@ description: The HBA_GetDiscoveredPortAttributes routine retrieves the attribute
 old-location: storage\hba_getdiscoveredportattributes.htm
 tech.root: storage
 ms.assetid: 64c6ed50-a4b9-4a8c-b38c-b2fcdf5ccee9
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: HBA_GetDiscoveredPortAttributes, HBA_GetDiscoveredPortAttributes routine [Storage Devices], fibreHBA_rtns_3f74a187-728d-4534-8ad8-29e1a9b0add5.xml, hbaapi/HBA_GetDiscoveredPortAttributes, storage.hba_getdiscoveredportattributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hbaapi.h
 req.include-header: Hbaapi.h

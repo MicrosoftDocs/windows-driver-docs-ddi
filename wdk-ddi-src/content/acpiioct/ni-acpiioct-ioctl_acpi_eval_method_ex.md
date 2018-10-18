@@ -6,11 +6,8 @@ description: A driver for a device can use the IOCTL_ACPI_EVAL_METHOD_EX device 
 old-location: acpi\ioctl_acpi_eval_method_ex.htm
 tech.root: acpi
 ms.assetid: 5c8a1038-efc7-424a-8ef9-fd28d0dcb13c
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IOCTL_ACPI_EVAL_METHOD_EX, IOCTL_ACPI_EVAL_METHOD_EX control, IOCTL_ACPI_EVAL_METHOD_EX control code [ACPI Devices], acpi-meth-eval-ref_b4baf4b9-b239-4b7e-b171-775b6b59a929.xml, acpi.ioctl_acpi_eval_method_ex, acpiioct/IOCTL_ACPI_EVAL_METHOD_EX
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
@@ -169,7 +166,7 @@ IOCTL_ACPI_EVAL_METHOD_EX supports the following types of input buffer structure
 
 The output arguments from the control method are returned in the variable-length <a href="https://msdn.microsoft.com/library/windows/hardware/ff536123">ACPI_EVAL_OUTPUT_BUFFER</a> structure that is supplied by the <i>OutBuffer</i> pointer. The ACPI_EVAL_OUTPUT_BUFFER includes an array of variable-length <a href="https://msdn.microsoft.com/library/windows/hardware/ff536125">ACPI_METHOD_ARGUMENT</a> structures, each one of which returns an output argument.
 
-For more information about how to synchronously evaluate control methods, see <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/acpi/evaluating-acpi-control-methods-synchronously">Evaluating ACPI Control Methods Synchronously</a>.
+For more information about how to synchronously evaluate control methods, see <a href="https://msdn.microsoft.com/windows/hardware/drivers/acpi/evaluating-acpi-control-methods-synchronously">Evaluating ACPI Control Methods Synchronously</a>.
 
 A driver can also use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536148">IOCTL_ACPI_EVAL_METHOD</a> request to synchronously evaluate a control method that is an immediate child object of a device.
 

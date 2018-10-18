@@ -6,11 +6,8 @@ description: The WdfObjectAcquireLock method acquires an object's synchronizatio
 old-location: wdf\wdfobjectacquirelock.htm
 tech.root: wdf
 ms.assetid: 9a6aca10-f0b2-4476-93c7-b3670d239b15
-ms.author: windowsdriverdev
 ms.date: 1/11/2018
 ms.keywords: wdf.wdfobjectacquirelock, PFN_WDFOBJECTACQUIRELOCK, WdfObjectAcquireLock callback function, WdfObjectAcquireLock, wdfsync/WdfObjectAcquireLock, DFSynchroRef_d6a841c3-cbcb-4072-861a-5666dc2b4b02.xml, kmdf.wdfobjectacquirelock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfsync.h
 req.include-header: Wdf.h
@@ -59,11 +56,11 @@ The <b>WdfObjectAcquireLock</b> method acquires an object's synchronization lock
 ## -prototype
 
 
-````
+```cpp
 VOID WdfObjectAcquireLock(
   _In_ WDFOBJECT Object
 );
-````
+```
 
 
 ## -parameters
@@ -109,7 +106,7 @@ If the driver specified <b>WdfExecutionLevelPassive</b> for the <b>ExecutionLeve
 
 If the driver did <i>not</i> specify <b>WdfExecutionLevelPassive</b> for the <b>ExecutionLevel</b> member of the specified object's WDF_OBJECT_ATTRIBUTES structure, the driver must call <b>WdfObjectAcquireLock</b> at IRQL &lt;= DISPATCH_LEVEL. <b>WdfObjectAcquireLock</b> acquires a <a href="https://msdn.microsoft.com/0585fc2a-0d0b-434d-92b3-da07a9385444">spin lock</a> and returns at IRQL = DISPATCH_LEVEL.
 
-For more information about synchronization locks, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/synchronization-techniques-for-wdf-drivers">Synchronization Techniques for Framework-Based Drivers</a>.
+For more information about synchronization locks, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/synchronization-techniques-for-wdf-drivers">Synchronization Techniques for Framework-Based Drivers</a>.
 
 
 

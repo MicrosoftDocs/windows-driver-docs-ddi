@@ -4,11 +4,8 @@ title: PFND3DKMT_SHAREDPRIMARYLOCKNOTIFICATION
 author: windows-driver-content
 description: The PFND3DKMT_SHAREDPRIMARYLOCKNOTIFICATION callback function notifies the operating system about an upcoming lock to a shared primary surface.
 ms.assetid: ceb858a0-a82b-4649-9a97-884cdf09b822
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3DKMT_SHAREDPRIMARYLOCKNOTIFICATION callback function notifies the opera
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SHAREDPRIMARYLOCKNOTIFICATION Pfnd3dkmtSharedprimarylocknotification; 

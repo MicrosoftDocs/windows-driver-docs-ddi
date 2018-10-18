@@ -6,11 +6,8 @@ description: The ConfigureContinuousReader method configures the framework to co
 old-location: wdf\iwdfusbtargetpipe2_configurecontinuousreader.htm
 tech.root: wdf
 ms.assetid: accb2690-0ab7-4623-8493-545e6e722a7a
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: ConfigureContinuousReader, ConfigureContinuousReader method, ConfigureContinuousReader method,IWDFUsbTargetPipe2 interface, IWDFUsbTargetPipe2 interface,ConfigureContinuousReader method, IWDFUsbTargetPipe2.ConfigureContinuousReader, IWDFUsbTargetPipe2::ConfigureContinuousReader, UMDFUSBref_fbf1e16d-97a6-43c4-b667-a4715769009b.xml, umdf.iwdfusbtargetpipe2_configurecontinuousreader, wdf.iwdfusbtargetpipe2_configurecontinuousreader, wudfusb/IWDFUsbTargetPipe2::ConfigureContinuousReader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>ConfigureContinuousReader</b> method configures the framework to continuously read from a USB pipe.
 
@@ -194,7 +191,7 @@ A <i>NumPendingReads</i> value that is too large can slow down a system's perfor
 
 After a driver has called <b>ConfigureContinuousReader</b>, the driver cannot use <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a> to send I/O requests to the pipe unless the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556915">IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure</a> callback function is called and returns <b>FALSE</b>.
 
-For more information about the <b>ConfigureContinuousReader</b> method and USB I/O targets, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/working-with-usb-pipes-in-umdf-1-x-drivers">Reading from a UMDF-USB Pipe</a>.
+For more information about the <b>ConfigureContinuousReader</b> method and USB I/O targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/working-with-usb-pipes-in-umdf-1-x-drivers">Reading from a UMDF-USB Pipe</a>.
 
 
 #### Examples

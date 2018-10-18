@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The CreateSampler function creates a sampler.
 old-location: display\createsampler.htm
 ms.assetid: 603bb033-390b-4965-b6ea-6acc2c7a8fcf
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: CreateSampler, CreateSampler callback function [Display Devices], PFND3D10DDI_CREATESAMPLER, PFND3D10DDI_CREATESAMPLER callback, UserModeDisplayDriverDx10_Functions_16c89dca-e337-42c7-a666-f0f4c9a6d3e3.xml, d3d10umddi/CreateSampler, display.createsampler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

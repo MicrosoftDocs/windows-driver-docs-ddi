@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The DXGK_SETPOINTERPOSITIONFLAGS structure identifies, in bit-field flags, information about a mouse pointer.
 old-location: display\dxgk_setpointerpositionflags.htm
 ms.assetid: c834080a-1a0a-4327-b80b-6e5eb3728605
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGK_SETPOINTERPOSITIONFLAGS, DXGK_SETPOINTERPOSITIONFLAGS structure [Display Devices], DmStructs_57c5d8e6-b270-4423-8d85-5db8103e2492.xml, _DXGK_SETPOINTERPOSITIONFLAGS, d3dkmddi/DXGK_SETPOINTERPOSITIONFLAGS, display.dxgk_setpointerpositionflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

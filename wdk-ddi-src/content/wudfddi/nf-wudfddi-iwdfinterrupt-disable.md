@@ -6,11 +6,8 @@ description: The Disable method disables a specified device interrupt by calling
 old-location: wdf\iwdfinterrupt_disable.htm
 tech.root: wdf
 ms.assetid: D87C868D-9538-4752-AEBD-2A15E53628CF
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: Disable, Disable method, Disable method,IWDFInterrupt interface, IWDFInterrupt interface,Disable method, IWDFInterrupt.Disable, IWDFInterrupt::Disable, umdf.iwdfinterrupt_disable, wdf.iwdfinterrupt_disable, wudfddi/IWDFInterrupt::Disable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: 
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>Disable</b> method disables a specified device interrupt by calling the driver's <a href="https://msdn.microsoft.com/3ADBD4C2-075E-4988-BF13-EB0C3E0C02BF">OnInterruptDisable</a> callback function.
 

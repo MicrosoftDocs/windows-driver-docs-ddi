@@ -6,11 +6,8 @@ description: The OnReleaseHardware method performs operations that are needed wh
 old-location: wdf\ipnpcallbackhardware2_onreleasehardware.htm
 tech.root: wdf
 ms.assetid: 652B92C2-EF04-482A-BB57-9F64F947EE4F
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IPnpCallbackHardware2 interface,OnReleaseHardware method, IPnpCallbackHardware2.OnReleaseHardware, IPnpCallbackHardware2::OnReleaseHardware, OnReleaseHardware, OnReleaseHardware method, OnReleaseHardware method,IPnpCallbackHardware2 interface, umdf.ipnpcallbackhardware2_onreleasehardware, wdf.ipnpcallbackhardware2_onreleasehardware, wudfddi/IPnpCallbackHardware2::OnReleaseHardware
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: 
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>OnReleaseHardware</b> method performs operations that are needed when a device is no longer accessible.
 
@@ -90,7 +87,7 @@ The <b>OnReleaseHardware</b> method must free resources that were allocated duri
 
 For information about deleting an interrupt object, see <a href="https://msdn.microsoft.com/B72DA452-B22F-47CD-8C5D-E741F09F556E">Deleting an Interrupt Object</a>.
 
-For information about parsing hardware resources, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/finding-and-mapping-hardware-resources-in-umdf-1-x-drivers">Finding and Mapping Hardware Resources in a UMDF Driver</a>.
+For information about parsing hardware resources, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/finding-and-mapping-hardware-resources-in-umdf-1-x-drivers">Finding and Mapping Hardware Resources in a UMDF Driver</a>.
 
 
 

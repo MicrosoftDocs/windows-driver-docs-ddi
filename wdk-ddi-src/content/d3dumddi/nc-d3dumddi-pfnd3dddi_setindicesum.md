@@ -6,11 +6,8 @@ description: The SetIndicesUM function sets the current index buffer to the give
 old-location: display\setindicesum.htm
 tech.root: display
 ms.assetid: 9ca38004-8953-4416-8552-c76813192561
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_SETINDICESUM, PFND3DDDI_SETINDICESUM callback, SetIndicesUM, SetIndicesUM callback function [Display Devices], UserModeDisplayDriver_Functions_f692c944-6130-46e3-8e63-f3dbeb051782.xml, d3dumddi/SetIndicesUM, display.setindicesum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

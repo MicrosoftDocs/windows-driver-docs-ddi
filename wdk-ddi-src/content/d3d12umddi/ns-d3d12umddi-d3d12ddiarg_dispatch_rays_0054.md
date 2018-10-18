@@ -4,11 +4,8 @@ title: D3D12DDIARG_DISPATCH_RAYS_0054
 author: windows-driver-content
 description: 
 ms.assetid: 48489559-e7f7-4c8d-874e-f9d9b9daf78e
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDIARG_DISPATCH_RAYS_0054, D3D12DDIARG_DISPATCH_RAYS_0054, 
 req.header: d3d12umddi.h
 req.include-header:

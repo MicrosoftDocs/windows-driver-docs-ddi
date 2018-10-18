@@ -6,11 +6,8 @@ description: The HwStorInitialize routine initializes the miniport driver after 
 old-location: storage\hwstorinitialize.htm
 tech.root: storage
 ms.assetid: c6c70f15-2614-4623-8979-6046cdc6239b
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: HW_INITIALIZE, HwStorInitialize, HwStorInitialize routine [Storage Devices], storage.hwstorinitialize, stormini_ef5f6b0d-443d-4ee4-a319-117e5be40831.xml, storport/HwStorInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: storport.h
 req.include-header: Storport.h
@@ -146,7 +143,7 @@ BOOLEAN
 </td>
 </tr>
 </table></span></div>
-The <b>HW_INITIALIZE</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_INITIALIZE</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/40BD11CD-A559-4F90-BF39-4ED2FB800392">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/en-us/library/jj159529.aspx">Annotating Function Behavior</a>.
+The <b>HW_INITIALIZE</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_INITIALIZE</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/40BD11CD-A559-4F90-BF39-4ED2FB800392">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/library/jj159529.aspx">Annotating Function Behavior</a>.
 
 
 

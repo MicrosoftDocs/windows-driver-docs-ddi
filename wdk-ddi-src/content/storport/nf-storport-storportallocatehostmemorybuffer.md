@@ -6,11 +6,8 @@ description: This function allocates one or more ranges of physically contiguous
 old-location: storage\storportallocatehostmemorybuffer.htm
 tech.root: storage
 ms.assetid: B8413B02-32A6-40AE-9DD2-C25AD2D2D45C
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: StorPortAllocateHostMemoryBuffer, StorPortAllocateHostMemoryBuffer routine [Storage Devices], storage.storportallocatehostmemorybuffer, storport/StorPortAllocateHostMemoryBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

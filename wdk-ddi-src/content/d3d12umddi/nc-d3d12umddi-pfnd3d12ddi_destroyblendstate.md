@@ -4,11 +4,8 @@ title: PFND3D12DDI_DESTROYBLENDSTATE
 author: windows-driver-content
 description: Destroys a blend state.
 ms.assetid: eb4b3ebd-be63-41cf-af25-9c58ffe69deb
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Destroys a blend state.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROYBLENDSTATE Pfnd3d12ddiDestroyblendstate; 

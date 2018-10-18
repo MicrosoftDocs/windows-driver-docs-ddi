@@ -4,11 +4,8 @@ title: PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
 author: windows-driver-content
 description: The PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU callback function waits for a monitored fence to reach a certain value before processing subsequent context commands.
 ms.assetid: 4f71fab2-4776-42bc-b329-aa31ada29550
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU callback function waits for a 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU Pfnd3dkmtWaitforsynchronizationobjectfromgpu; 

@@ -6,11 +6,8 @@ description: The IStiDeviceControl::Release method closes the instance of the CO
 old-location: image\istidevicecontrol_release.htm
 tech.root: image
 ms.assetid: 56c2ddc0-9f25-4d4f-9f6e-d8c96c9acc91
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IStiDeviceControl interface [Imaging Devices],Release method, IStiDeviceControl.Release, IStiDeviceControl::Release, Release, Release method [Imaging Devices], Release method [Imaging Devices],IStiDeviceControl interface, image.istidevicecontrol_release, stifnc_c0e50ea5-46e3-4b30-92b4-be6906647671.xml, stiusd/IStiDeviceControl::Release
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: stiusd.h
 req.include-header: Stiusd.h

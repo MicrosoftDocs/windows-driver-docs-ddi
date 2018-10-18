@@ -6,11 +6,8 @@ description: The WdfTimerStart method starts a timer's clock.
 old-location: wdf\wdftimerstart.htm
 tech.root: wdf
 ms.assetid: 32c40be2-dee0-4ac7-9f78-a64b9f985f51
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFTimerObjectRef_42b50b58-85f6-4f1b-9824-f1c9ed675371.xml, WdfTimerStart, WdfTimerStart method, kmdf.wdftimerstart, wdf.wdftimerstart, wdftimer/WdfTimerStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdftimer.h
 req.include-header: Wdf.h
@@ -117,7 +114,7 @@ A driver might call <b>WdfTimerStart</b> from its <a href="https://msdn.microsof
 
 To stop the timer's clock, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550056">WdfTimerStop</a>.
 
-For more information about framework timer objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-timers">Using Timers</a>.
+For more information about framework timer objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-timers">Using Timers</a>.
 
 
 #### Examples

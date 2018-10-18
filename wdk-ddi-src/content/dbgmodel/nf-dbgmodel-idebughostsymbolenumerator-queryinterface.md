@@ -4,7 +4,6 @@ title: IDebugHostSymbolEnumerator::QueryInterface
 author: windows-driver-content
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: 27784335-4eb9-48f9-a442-7ce943178a15
-ms.author: windowsdriverdev
 ms.date: 08/22/2018
 ms.topic: method
 ms.keywords: IDebugHostSymbolEnumerator::QueryInterface, QueryInterface, IDebugHostSymbolEnumerator.QueryInterface, IDebugHostSymbolEnumerator::QueryInterface, IDebugHostSymbolEnumerator.QueryInterface

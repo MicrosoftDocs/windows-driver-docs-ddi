@@ -6,11 +6,8 @@ description: The SendSRL_OUT structure is used to report the output parameter da
 old-location: storage\sendsrl_out.htm
 tech.root: storage
 ms.assetid: f7a08e0e-cbb1-4ec5-96c6-dade9d298d0a
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PSendSRL_OUT, PSendSRL_OUT, PSendSRL_OUT structure pointer [Storage Devices], SendSRL_OUT, SendSRL_OUT structure [Storage Devices], _SendSRL_OUT, hbapiwmi/PSendSRL_OUT, hbapiwmi/SendSRL_OUT, storage.sendsrl_out, structs-Fibre_4cef4091-719d-457e-aeca-d3ab10b23344.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h

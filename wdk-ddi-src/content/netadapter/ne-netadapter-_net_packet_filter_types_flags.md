@@ -5,12 +5,9 @@ author: windows-driver-content
 description: Specifies packet filters that control the types of packets the NIC completes on its receive path.
 tech.root: netvista
 ms.assetid: a701a508-aaf8-4272-bdb5-d5d57b33ae08
-ms.author: windowsdriverdev
 ms.date: 02/05/2018
 ms.topic: enum
 ms.keywords: _NET_PACKET_FILTER_TYPES_FLAGS, NET_PACKET_FILTER_TYPES_FLAGS, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: netadapter.h
 req.include-header:
 req.target-type:

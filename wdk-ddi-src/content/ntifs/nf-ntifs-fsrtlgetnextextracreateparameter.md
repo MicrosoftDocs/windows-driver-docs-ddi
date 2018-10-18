@@ -6,11 +6,8 @@ description: The FsRtlGetNextExtraCreateParameter routine returns a pointer to t
 old-location: ifsk\fsrtlgetnextextracreateparameter.htm
 tech.root: ifsk
 ms.assetid: b9dd2890-4b2d-4fe1-88bb-30d94ff36c44
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FsRtlGetNextExtraCreateParameter, FsRtlGetNextExtraCreateParameter routine [Installable File System Drivers], fsrtlref_096516d0-6888-4dfa-98b3-b7b67794bf08.xml, ifsk.fsrtlgetnextextracreateparameter, ntifs/FsRtlGetNextExtraCreateParameter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

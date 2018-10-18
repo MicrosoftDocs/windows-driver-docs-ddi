@@ -6,11 +6,8 @@ description: The ChangerClassAllocatePool function allocates pool memory.
 old-location: storage\changerclassallocatepool.htm
 tech.root: storage
 ms.assetid: d211bab9-4932-41c5-9b6f-528a75bb2ae4
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: ChangerClassAllocatePool, ChangerClassAllocatePool function [Storage Devices], chgrclas_e1b15ece-f3e4-446f-adc4-39301fc0346f.xml, mcd/ChangerClassAllocatePool, storage.changerclassallocatepool
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h

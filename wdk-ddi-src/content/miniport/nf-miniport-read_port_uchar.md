@@ -6,11 +6,8 @@ description: The READ_PORT_UCHAR routine reads a byte from the specified port ad
 old-location: kernel\read_port_uchar.htm
 tech.root: kernel
 ms.assetid: a58e55f5-d657-43bf-afef-05af7c6c02cc
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: READ_PORT_UCHAR, READ_PORT_UCHAR routine [Kernel-Mode Driver Architecture], k103_d0d69b7f-15ad-4a72-ad99-6a5753348f6a.xml, kernel.read_port_uchar, wdm/READ_PORT_UCHAR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: miniport.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h

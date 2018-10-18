@@ -4,11 +4,8 @@ title: PFND3DKMT_DESTROYDCFROMMEMORY
 author: windows-driver-content
 description: The PFND3DKMT_DESTROYDCFROMMEMORY callback function destroys a device context from memory.
 ms.assetid: bd569dac-e7ff-4782-833a-227eb7ccdd82
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3DKMT_DESTROYDCFROMMEMORY callback function destroys a device context fr
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_DESTROYDCFROMMEMORY Pfnd3dkmtDestroydcfrommemory; 

@@ -6,11 +6,8 @@ description: The IOCTL_BIOMETRIC_RESET and IOCTL_BIOMETRIC_UPDATE_FIRMWARE IOCTL
 old-location: biometric\winbio_blank_payload.htm
 tech.root: biometric
 ms.assetid: 0bc28853-1c00-42d3-a269-198093d64dd7
-ms.author: windowsdriverdev
 ms.date: 2/20/2018
 ms.keywords: "*PWINBIO_BLANK_PAYLOAD, PWINBIO_BLANK_PAYLOAD, PWINBIO_BLANK_PAYLOAD structure pointer [Biometric Devices], WINBIO_BLANK_PAYLOAD, WINBIO_BLANK_PAYLOAD structure [Biometric Devices], _WINBIO_BLANK_PAYLOAD, biometric.winbio_blank_payload, biometric_ref_4a39daf0-52f5-40bf-abc6-40cd3d866f39.xml, winbio_ioctl/PWINBIO_BLANK_PAYLOAD, winbio_ioctl/WINBIO_BLANK_PAYLOAD"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winbio_ioctl.h
 req.include-header: 

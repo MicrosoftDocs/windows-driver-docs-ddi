@@ -6,11 +6,8 @@ description: The NdisCloseFile function releases a handle returned by the NdisOp
 old-location: netvista\ndisclosefile.htm
 tech.root: netvista
 ms.assetid: a12f7597-cfe7-466f-a5b5-aafd885d5adf
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisCloseFile, NdisCloseFile function [Network Drivers Starting with Windows Vista], ndis/NdisCloseFile, ndis_file_ref_17933dee-e6d5-4b5d-a078-84617c38c46c.xml, netvista.ndisclosefile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

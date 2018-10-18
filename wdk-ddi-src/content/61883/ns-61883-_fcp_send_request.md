@@ -6,11 +6,8 @@ description: This structure is used for a send request.
 old-location: ieee\fcp_send_request.htm
 tech.root: IEEE
 ms.assetid: 82F36729-57E0-49AB-8C2D-BCBA6EED33EE
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PFCP_REQUEST, *PFCP_SEND_REQUEST, 61883/FCP_SEND_REQUEST, 61883/PFCP_SEND_REQUEST, FCP_REQUEST, FCP_SEND_REQUEST, FCP_SEND_REQUEST structure [Buses], IEEE.fcp_send_request, PFCP_SEND_REQUEST, PFCP_SEND_REQUEST structure pointer [Buses], _FCP_SEND_REQUEST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 61883.h
 req.include-header: 

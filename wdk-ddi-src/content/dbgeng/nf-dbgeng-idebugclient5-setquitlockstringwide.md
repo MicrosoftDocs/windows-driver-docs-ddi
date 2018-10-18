@@ -6,11 +6,8 @@ description: Sets a quit lock Unicode character string.
 old-location: debugger\idebugclient5_setquitlockstringwide.htm
 tech.root: debugger
 ms.assetid: B9A2C636-BF18-4D1B-A013-8CAE65FCC56F
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugClient5 interface [Windows Debugging],SetQuitLockStringWide method, IDebugClient5.SetQuitLockStringWide, IDebugClient5::SetQuitLockStringWide, SetQuitLockStringWide, SetQuitLockStringWide method [Windows Debugging], SetQuitLockStringWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::SetQuitLockStringWide, debugger.idebugclient5_setquitlockstringwide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

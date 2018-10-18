@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The DXGK_CONTEXTINFO structure describes a device context.
 old-location: display\dxgk_contextinfo.htm
 ms.assetid: 52c98ca7-8024-42d6-9001-1a7a69d24a95
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGK_CONTEXTINFO, DXGK_CONTEXTINFO structure [Display Devices], DmStructs_e95e533c-2156-4384-9e7e-718e7d61c458.xml, _DXGK_CONTEXTINFO, d3dkmddi/DXGK_CONTEXTINFO, display.dxgk_contextinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

@@ -6,11 +6,8 @@ description: The OnImpersonate method handles impersonation.
 old-location: wdf\iimpersonatecallback_onimpersonate.htm
 tech.root: wdf
 ms.assetid: 6f06e89c-5298-4335-ab9a-ef69e635152c
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IImpersonateCallback interface,OnImpersonate method, IImpersonateCallback.OnImpersonate, IImpersonateCallback::OnImpersonate, OnImpersonate, OnImpersonate method, OnImpersonate method,IImpersonateCallback interface, UMDFRequestObjectRef_e3752371-61b0-44ba-af86-0cf244e27894.xml, umdf.iimpersonatecallback_onimpersonate, wdf.iimpersonatecallback_onimpersonate, wudfddi/IImpersonateCallback::OnImpersonate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>OnImpersonate</b> method handles impersonation.
 
@@ -84,7 +81,7 @@ To ensure that impersonation does not leak across driver callback functions or b
 
 A driver registers the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554912">IImpersonateCallback</a> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559136">IWDFIoRequest::Impersonate</a> method. 
 
-For more information about how UMDF and UMDF drivers handle impersonation, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/handling-client-impersonation-in-umdf-drivers">Handling Impersonation</a>.
+For more information about how UMDF and UMDF drivers handle impersonation, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/handling-client-impersonation-in-umdf-drivers">Handling Impersonation</a>.
 
 
 

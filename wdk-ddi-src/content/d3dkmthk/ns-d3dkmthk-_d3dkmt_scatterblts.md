@@ -4,11 +4,8 @@ title: _D3DKMT_SCATTERBLTS
 author: windows-driver-content
 description: Reserved for system use.
 ms.assetid: 7c2bd4d6-643a-4342-bda7-70b351743f93
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_SCATTERBLTS, D3DKMT_SCATTERBLTS, 
 req.header: d3dkmthk.h
 req.include-header:

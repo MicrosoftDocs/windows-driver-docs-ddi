@@ -6,11 +6,8 @@ description: A driver's CompletionRoutine event callback function executes when 
 old-location: wdf\completionroutine.htm
 tech.root: wdf
 ms.assetid: 7d3eb4d6-9fc7-4924-9b95-f5824713049b
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: CompletionRoutine, CompletionRoutine callback function, DFRequestObjectRef_5eed5273-6939-4a56-846a-ee80c92c005a.xml, EVT_WDF_REQUEST_COMPLETION_ROUTINE, EVT_WDF_REQUEST_COMPLETION_ROUTINE callback, kmdf.completionroutine, wdf.completionroutine, wdfrequest/CompletionRoutine
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfrequest.h
 req.include-header: Wdf.h
@@ -94,7 +91,7 @@ None
 
 
 
-To register a <i>CompletionRoutine</i> callback function for an I/O request, a driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550030">WdfRequestSetCompletionRoutine</a>. For more information about this callback function, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
+To register a <i>CompletionRoutine</i> callback function for an I/O request, a driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550030">WdfRequestSetCompletionRoutine</a>. For more information about this callback function, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
 
 Note that the completion parameters structure contains valid information only if the driver has formatted the request by calling one of the <b>WdfIoTargetFormat</b><i>Xxx</i> methods. For an example, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548612">WdfIoTargetFormatRequestForRead</a>.
 

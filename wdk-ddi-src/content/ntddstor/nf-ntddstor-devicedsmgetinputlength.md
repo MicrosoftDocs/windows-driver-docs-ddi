@@ -4,7 +4,6 @@ title: DeviceDsmGetInputLength function
 author: windows-driver-content
 description: The DeviceDsmGetInputLength function gets the number of bytes in a DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure.
 ms.assetid: 689bb265-239d-442c-b2ae-be648cf8d641
-ms.author: windowsdriverdev
 ms.date: 04/11/2018
 ms.topic: function
 ms.keywords: DeviceDsmGetInputLength

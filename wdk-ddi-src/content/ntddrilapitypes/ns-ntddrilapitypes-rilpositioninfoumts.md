@@ -6,11 +6,8 @@ description: This structure represents a RILPOSITIONINFOUMTS.
 old-location: netvista\rilpositioninfoumts.htm
 tech.root: netvista
 ms.assetid: c17760c4-6f75-41e8-84a5-f13e26735af5
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*LPRILPOSITIONINFOUMTS, RILPOSITIONINFOUMTS, RILPOSITIONINFOUMTS structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfoumts, rilapitypes/RILPOSITIONINFOUMTS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
@@ -56,7 +53,7 @@ req.typenames: RILPOSITIONINFOUMTS, *LPRILPOSITIONINFOUMTS
 ## -syntax
 
 
-````
+```cpp
 struct RILPOSITIONINFOUMTS {
   DWORD dwParams;
   DWORD dwMobileCountryCode;
@@ -72,7 +69,7 @@ struct RILPOSITIONINFOUMTS {
   DWORD dwECNO;
   DWORD dwPathLoss;
 };
-````
+```
 
 
 ## -struct-fields

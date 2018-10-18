@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMTGetProcessSchedulingPriorityClass function retrieves the scheduling priority for a process.
 old-location: display\d3dkmtgetprocessschedulingpriorityclass.htm
 ms.assetid: 994df4be-d0ce-4f64-91f5-b5516ce947ec
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DKMTGetProcessSchedulingPriorityClass, D3DKMTGetProcessSchedulingPriorityClass function [Display Devices], OpenGL_Functions_7af39e72-516e-440a-b4be-f0b3f82156d0.xml, d3dkmthk/D3DKMTGetProcessSchedulingPriorityClass, display.d3dkmtgetprocessschedulingpriorityclass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

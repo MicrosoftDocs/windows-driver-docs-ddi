@@ -6,11 +6,8 @@ description: This structure indicates the PD capabilities for a provider.
 old-location: netvista\ndis_pd_capabilities.htm
 tech.root: netvista
 ms.assetid: A31D3F92-FB03-489B-894D-5E2F76AC3A99
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NDIS_PD_CAPABILITIES, NDIS_PD_CAPABILITIES structure [Network Drivers Starting with Windows Vista], _NDIS_PD_CAPABILITIES, netvista.ndis_pd_capabilities, ntddndis/NDIS_PD_CAPABILITIES
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ndis.h
@@ -107,9 +104,9 @@ Flags that contain additional capabilities that the provider supports.
 
 ### -field MaxNumberOfRxQueues
 
-The maximum number of receive queues the provider supports. This is only relevant to queues created by the  <a href="https://msdn.microsoft.com/E9091C69-0E21-40CC-B3D3-1F770ABA0D47">NdisPDAllocateQueue</a> routine, therefore this number is not accurate for the client because additional pre-existing RSS queues (that the client can request PD-mode access to using the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt808524(d=robot)">NdisPDOnRssReceiveQueues</a>) are not accounted for in the <i>NdisPDAllocateQueue</i> routine.
+The maximum number of receive queues the provider supports. This is only relevant to queues created by the  <a href="https://msdn.microsoft.com/E9091C69-0E21-40CC-B3D3-1F770ABA0D47">NdisPDAllocateQueue</a> routine, therefore this number is not accurate for the client because additional pre-existing RSS queues (that the client can request PD-mode access to using the <a href="https://msdn.microsoft.com/library/windows/hardware/mt808524(d=robot)">NdisPDOnRssReceiveQueues</a>) are not accounted for in the <i>NdisPDAllocateQueue</i> routine.
 
-It is possible for providers to set this value to 0, if it only supports clients to put pre-existing RSS queues into PD-mode using the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt808524(d=robot)">NdisPDOnRssReceiveQueues</a> routine.
+It is possible for providers to set this value to 0, if it only supports clients to put pre-existing RSS queues into PD-mode using the <a href="https://msdn.microsoft.com/library/windows/hardware/mt808524(d=robot)">NdisPDOnRssReceiveQueues</a> routine.
 
 
 ### -field MaxNumberOfTxQueues

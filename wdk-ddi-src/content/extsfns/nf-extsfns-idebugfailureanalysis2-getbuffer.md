@@ -6,11 +6,8 @@ description: The GetBuffer method searches a DebugFailureAnalysis object for the
 old-location: debugger\idebugfailureanalysis2_getbuffer.htm
 tech.root: debugger
 ms.assetid: 262B5237-86BF-43D6-A29A-A868663EA5D9
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetBuffer, GetBuffer method [Windows Debugging], GetBuffer method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetBuffer method, IDebugFailureAnalysis2.GetBuffer, IDebugFailureAnalysis2::GetBuffer, debugger.idebugfailureanalysis2_getbuffer, extsfns/IDebugFailureAnalysis2::GetBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: extsfns.h
 req.include-header: 
@@ -60,7 +57,7 @@ The <b>GetBuffer</b> method searches a <a href="https://msdn.microsoft.com/0B44F
 
 ### -param Tag [in]
 
-A value in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
+A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
 
 ### -param Buf [out]

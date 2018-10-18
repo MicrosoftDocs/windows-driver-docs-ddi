@@ -4,12 +4,9 @@ title: _KMTUMDVERSION
 author: windows-driver-content
 description: Kernel mode transfer UMD (user mode driver) version.
 ms.assetid: 4077ea93-cbb5-45be-ad36-ded07dced647
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: _KMTUMDVERSION, KMTUMDVERSION, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

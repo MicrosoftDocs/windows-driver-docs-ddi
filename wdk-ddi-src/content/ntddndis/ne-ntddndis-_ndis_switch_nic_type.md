@@ -6,11 +6,8 @@ description: The NDIS_SWITCH_NIC_TYPE enumeration specifies the type of the virt
 old-location: netvista\ndis_switch_nic_type.htm
 tech.root: netvista
 ms.assetid: 0ff7a803-9de4-4b2f-ab5f-3eb5107d5b64
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NDIS_SWITCH_NIC_TYPE, NDIS_SWITCH_NIC_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchNicTypeEmulated, NdisSwitchNicTypeExternal, NdisSwitchNicTypeInternal, NdisSwitchNicTypeSynthetic, PNDIS_SWITCH_NIC_TYPE, PNDIS_SWITCH_NIC_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_NIC_TYPE, netvista.ndis_switch_nic_type, ntddndis/NDIS_SWITCH_NIC_TYPE, ntddndis/NdisSwitchNicTypeEmulated, ntddndis/NdisSwitchNicTypeExternal, ntddndis/NdisSwitchNicTypeInternal, ntddndis/NdisSwitchNicTypeSynthetic, ntddndis/PNDIS_SWITCH_NIC_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddndis.h
 req.include-header: Ndis.h
@@ -64,7 +61,7 @@ The <b>NDIS_SWITCH_NIC_TYPE</b> enumeration specifies the type of the virtual ne
 
 This value specifies a virtual network adapter that is exposed in the management operating system that runs in the Hyper-V parent partition. The external network adapter provides the connection to the  physical network interface that is available on the host. This allows processes that run in either the management or guest operating systems to send or receive packets over the extensible switch.
 
-<div class="alert"><b>Note</b>  An extensible switch supports no more than one external network adapter. The external network adapter can be bound to one or more underlying physical network adapters. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/external-network-adapters">External Network Adapters</a>.</div>
+<div class="alert"><b>Note</b>  An extensible switch supports no more than one external network adapter. The external network adapter can be bound to one or more underlying physical network adapters. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/external-network-adapters">External Network Adapters</a>.</div>
 <div> </div>
 
 ### -field NdisSwitchNicTypeSynthetic

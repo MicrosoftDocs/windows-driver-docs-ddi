@@ -6,11 +6,8 @@ description: The IOCTL_BTH_SDP_ATTRIBUTE_SEARCH request obtains attributes for t
 old-location: bltooth\ioctl_bth_sdp_attribute_search.htm
 tech.root: bltooth
 ms.assetid: 30daf70e-34d1-45f7-a69b-503e275b83af
-ms.author: windowsdriverdev
 ms.date: 4/27/2018
 ms.keywords: IOCTL_BTH_SDP_ATTRIBUTE_SEARCH, IOCTL_BTH_SDP_ATTRIBUTE_SEARCH control, IOCTL_BTH_SDP_ATTRIBUTE_SEARCH control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_attribute_search, bth_ioctls_19f12c1a-aaf5-4751-ba53-94054d3fb725.xml, bthioctl/IOCTL_BTH_SDP_ATTRIBUTE_SEARCH
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: bthioctl.h
 req.include-header: Bthioctl.h

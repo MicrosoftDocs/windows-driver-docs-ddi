@@ -4,7 +4,6 @@ title: D3DDDI_MAJOR16_FROM_VERSION64 macro
 author: windows-driver-content
 description: Converts a 16 bit major from a 64 bit version.
 ms.assetid: 0a663636-0158-452b-bdff-dc4e7488c88e
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: macro
 ms.keywords: D3DDDI_MAJOR16_FROM_VERSION64

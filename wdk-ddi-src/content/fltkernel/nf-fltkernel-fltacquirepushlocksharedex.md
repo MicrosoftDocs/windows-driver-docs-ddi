@@ -4,7 +4,6 @@ title: FltAcquirePushLockSharedEx function
 author: windows-driver-content
 description: The FltAcquirePushLockSharedEx routine acquires the given push lock for shared access by the calling thread.
 ms.assetid: 760a310c-c6eb-493c-8535-9f601fa2882f
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: FltAcquirePushLockSharedEx

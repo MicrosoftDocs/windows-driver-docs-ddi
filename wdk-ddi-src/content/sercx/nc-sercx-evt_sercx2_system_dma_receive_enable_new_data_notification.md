@@ -6,11 +6,8 @@ description: The EvtSerCx2SystemDmaReceiveEnableNewDataNotification event callba
 old-location: serports\evtsercx2systemdmareceiveenablenewdatanotification.htm
 tech.root: serports
 ms.assetid: E2B7FE14-1D06-48E7-95FB-C103358340EA
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: 2/EvtSerCx2SystemDmaReceiveEnableNewDataNotification, EVT_SERCX2_SYSTEM_DMA_RECEIVE_ENABLE_NEW_DATA_NOTIFICATION, EVT_SERCX2_SYSTEM_DMA_RECEIVE_ENABLE_NEW_DATA_NOTIFICATION callback, EvtSerCx2SystemDmaReceiveEnableNewDataNotification, EvtSerCx2SystemDmaReceiveEnableNewDataNotification callback function [Serial Ports], serports.evtsercx2systemdmareceiveenablenewdatanotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sercx.h
 req.include-header: 
@@ -60,7 +57,7 @@ The <i>EvtSerCx2SystemDmaReceiveEnableNewDataNotification</i> event callback fun
 
 ### -param SystemDmaReceive [in]
 
-A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a> handle to a system-DMA-receive object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265279">SerCx2SystemDmaReceiveCreate</a> method to create this object.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a> handle to a system-DMA-receive object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265279">SerCx2SystemDmaReceiveCreate</a> method to create this object.
 
 
 ## -returns
@@ -153,7 +150,7 @@ The <b>EVT_SERCX2_SYSTEM_DMA_RECEIVE_ENABLE_NEW_DATA_NOTIFICATION</b> function t
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a>
 
 
 

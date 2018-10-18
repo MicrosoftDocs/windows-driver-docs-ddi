@@ -4,11 +4,8 @@ title: PFND3D12DDI_QUERY_NODE_MAP
 author: windows-driver-content
 description: Query node map.
 ms.assetid: e3b3025e-80a9-4dad-96fc-3298260a1742
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Query node map.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_QUERY_NODE_MAP Pfnd3d12ddiQueryNodeMap; 

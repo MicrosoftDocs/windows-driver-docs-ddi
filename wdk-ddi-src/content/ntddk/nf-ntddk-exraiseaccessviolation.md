@@ -6,11 +6,8 @@ description: The ExRaiseAccessViolation routine can be used with structured exce
 old-location: kernel\exraiseaccessviolation.htm
 tech.root: kernel
 ms.assetid: c35e07c0-ffbd-4110-bb32-b47a512129dd
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: ExRaiseAccessViolation, ExRaiseAccessViolation routine [Kernel-Mode Driver Architecture], k102_71b4c053-599c-4a6d-8a59-08aae6bdc534.xml, kernel.exraiseaccessviolation, ntddk/ExRaiseAccessViolation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

@@ -6,11 +6,8 @@ description: Miniport drivers call NdisMIdleNotificationConfirm to notify NDIS t
 old-location: netvista\ndismidlenotificationconfirm.htm
 tech.root: netvista
 ms.assetid: 726B392E-3C7F-4F55-B045-CE022C242F0A
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisMIdleNotificationConfirm, NdisMIdleNotificationConfirm function [Network Drivers Starting with Windows Vista], ndis/NdisMIdleNotificationConfirm, netvista.ndismidlenotificationconfirm
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

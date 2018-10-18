@@ -6,11 +6,8 @@ description: The GetRunningProcessSystemIdByExecutableName method searches for a
 old-location: debugger\getrunningprocesssystemidbyexecutablename.htm
 tech.root: debugger
 ms.assetid: 67e231b4-c693-4824-b895-b7f3085e6f4e
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetRunningProcessSystemIdByExecutableName, GetRunningProcessSystemIdByExecutableName method [Windows Debugging], GetRunningProcessSystemIdByExecutableName method [Windows Debugging],IDebugClient interface, GetRunningProcessSystemIdByExecutableName method [Windows Debugging],IDebugClient2 interface, GetRunningProcessSystemIdByExecutableName method [Windows Debugging],IDebugClient3 interface, GetRunningProcessSystemIdByExecutableName method [Windows Debugging],IDebugClient4 interface, GetRunningProcessSystemIdByExecutableName method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],GetRunningProcessSystemIdByExecutableName method, IDebugClient2 interface [Windows Debugging],GetRunningProcessSystemIdByExecutableName method, IDebugClient2::GetRunningProcessSystemIdByExecutableName, IDebugClient3 interface [Windows Debugging],GetRunningProcessSystemIdByExecutableName method, IDebugClient3.GetRunningProcessSystemIdByExecutableName, IDebugClient3::GetRunningProcessSystemIdByExecutableName, IDebugClient4 interface [Windows Debugging],GetRunningProcessSystemIdByExecutableName method, IDebugClient4::GetRunningProcessSystemIdByExecutableName, IDebugClient5 interface [Windows Debugging],GetRunningProcessSystemIdByExecutableName method, IDebugClient5::GetRunningProcessSystemIdByExecutableName, IDebugClient::GetRunningProcessSystemIdByExecutableName, IDebugClient_c7e63b9d-45fe-4125-9fbf-984de939b089.xml, dbgeng/IDebugClient2::GetRunningProcessSystemIdByExecutableName, dbgeng/IDebugClient3::GetRunningProcessSystemIdByExecutableName, dbgeng/IDebugClient4::GetRunningProcessSystemIdByExecutableName, dbgeng/IDebugClient5::GetRunningProcessSystemIdByExecutableName, dbgeng/IDebugClient::GetRunningProcessSystemIdByExecutableName, debugger.getrunningprocesssystemidbyexecutablename
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

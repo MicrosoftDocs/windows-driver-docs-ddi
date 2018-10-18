@@ -6,11 +6,8 @@ description: The ExInitializeSetTimerParameters routine initializes an EXT_SET_P
 old-location: kernel\exinitializesettimerparameters.htm
 tech.root: kernel
 ms.assetid: 43A07E6E-C69F-4D6C-9B9C-EB7FFDF7651E
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: ExInitializeSetTimerParameters, ExInitializeSetTimerParameters routine [Kernel-Mode Driver Architecture], kernel.exinitializesettimerparameters, wdm/ExInitializeSetTimerParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

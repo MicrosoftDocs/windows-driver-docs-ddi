@@ -6,11 +6,8 @@ description: The GetWindbgExtensionApis64 method returns a structure that facili
 old-location: debugger\getwindbgextensionapis64.htm
 tech.root: debugger
 ms.assetid: 01b34b26-2835-4a58-abf3-190da63d25eb
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetWindbgExtensionApis64, GetWindbgExtensionApis64 method [Windows Debugging], GetWindbgExtensionApis64 method [Windows Debugging],IDebugControl interface, GetWindbgExtensionApis64 method [Windows Debugging],IDebugControl2 interface, GetWindbgExtensionApis64 method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetWindbgExtensionApis64 method, IDebugControl2 interface [Windows Debugging],GetWindbgExtensionApis64 method, IDebugControl2.GetWindbgExtensionApis64, IDebugControl2::GetWindbgExtensionApis64, IDebugControl3 interface [Windows Debugging],GetWindbgExtensionApis64 method, IDebugControl3::GetWindbgExtensionApis64, IDebugControl::GetWindbgExtensionApis64, IDebugControl_51215e32-dcd3-440f-92ee-6ff82ae1c8e6.xml, dbgeng/IDebugControl2::GetWindbgExtensionApis64, dbgeng/IDebugControl3::GetWindbgExtensionApis64, dbgeng/IDebugControl::GetWindbgExtensionApis64, debugger.getwindbgextensionapis64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Wdbgexts.h, Dbgeng.h, Wdbgexts.h

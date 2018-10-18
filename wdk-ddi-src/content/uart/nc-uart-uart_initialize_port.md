@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Initializes or resets the UART hardware.
 tech.root: serports
 ms.assetid: f5691b9c-0c57-4333-adc3-dbbdfdc5ecb8
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: uart.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Initializes or resets the UART hardware. This callback function is called before
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 UART_INITIALIZE_PORT UartInitializePort;

@@ -6,11 +6,8 @@ description: The WdfWorkItemCreate method creates a framework work-item object, 
 old-location: wdf\wdfworkitemcreate.htm
 tech.root: wdf
 ms.assetid: f5bb3af4-c687-47ad-88ce-d56067c78d6d
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFWorkItemObjectRef_0041ea62-aa06-4e8b-8f84-807731ecc516.xml, WdfWorkItemCreate, WdfWorkItemCreate method, kmdf.wdfworkitemcreate, wdf.wdfworkitemcreate, wdfworkitem/WdfWorkItemCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfworkitem.h
 req.include-header: Wdf.h
@@ -154,19 +151,19 @@ The <i>Attributes</i> parameter was <b>NULL</b>, or the <b>ParentObject</b> memb
 
 
 
-After a driver calls <b>WdfWorkItemCreate</b> to create a work item, it typically stores item-specific information in the context memory of the work-item object. The driver's <a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a> callback function, which performs the work item's tasks, can access this information to determine the tasks that it must perform. (For more information about storing information in the context memory, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-context-space">Framework Object Context Space</a>.)
+After a driver calls <b>WdfWorkItemCreate</b> to create a work item, it typically stores item-specific information in the context memory of the work-item object. The driver's <a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a> callback function, which performs the work item's tasks, can access this information to determine the tasks that it must perform. (For more information about storing information in the context memory, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-context-space">Framework Object Context Space</a>.)
 
 After storing work-item information, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551203">WdfWorkItemEnqueue</a> to add the work item to the system's work-item queue. When a system worker thread becomes available, the thread removes the work item from the queue and calls the <a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a> callback function.
 
 When the driver creates a work-item object, it must specify a parent object for the work-item object in the <b>ParentObject</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure. The parent object must be a framework device object or any object whose chain of parents leads to a framework device object. The framework will delete the work-item object when it deletes the device object.
 
-To delete the work-item object earlier, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548734">WdfObjectDelete</a>, as described in <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-framework-work-items">Using Framework Work Items</a>.
+To delete the work-item object earlier, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548734">WdfObjectDelete</a>, as described in <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-framework-work-items">Using Framework Work Items</a>.
 
 The driver can retrieve a work item's parent object by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff551207">WdfWorkItemGetParentObject</a>. 
 
 If your driver provides <a href="https://msdn.microsoft.com/aba2efca-7d1f-4594-af65-13356f0e3f8b">EvtCleanupCallback</a> or <a href="https://msdn.microsoft.com/4c3b08d2-bb25-40bd-b2fc-1b9ea2d452b3">EvtDestroyCallback</a> callback functions for the work-item object, note that the framework calls these callback functions at IRQL = PASSIVE_LEVEL.
 
-For more information about work items, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-framework-work-items">Using Framework Work Items</a>.
+For more information about work items, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-framework-work-items">Using Framework Work Items</a>.
 
 
 #### Examples

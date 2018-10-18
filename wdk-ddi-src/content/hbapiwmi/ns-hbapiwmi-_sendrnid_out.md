@@ -6,11 +6,8 @@ description: The SendRNID_OUT structure is used to report the output parameter d
 old-location: storage\sendrnid_out.htm
 tech.root: storage
 ms.assetid: 80f264f6-51cb-4125-832b-603ed8417d32
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PSendRNID_OUT, PSendRNID_OUT, PSendRNID_OUT structure pointer [Storage Devices], SendRNID_OUT, SendRNID_OUT structure [Storage Devices], _SendRNID_OUT, hbapiwmi/PSendRNID_OUT, hbapiwmi/SendRNID_OUT, storage.sendrnid_out, structs-Fibre_fb365ea2-b9ff-4108-af6c-48c2d812eac3.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h

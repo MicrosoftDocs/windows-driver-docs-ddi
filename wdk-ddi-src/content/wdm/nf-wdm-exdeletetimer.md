@@ -6,11 +6,8 @@ description: The ExDeleteTimer routine deletes a timer object that was previousl
 old-location: kernel\exdeletetimer.htm
 tech.root: kernel
 ms.assetid: CE0C1D49-1505-464E-90DB-2C6D30C04EC1
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: ExDeleteTimer, ExDeleteTimer routine [Kernel-Mode Driver Architecture], kernel.exdeletetimer, wdm/ExDeleteTimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
@@ -61,7 +58,7 @@ The <b>ExDeleteTimer</b> routine deletes a timer object that was previously allo
 
 ### -param Timer [in]
 
-A pointer to an <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a> structure. This structure is a timer object that was previously allocated by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265179">ExAllocateTimer</a> routine.
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a> structure. This structure is a timer object that was previously allocated by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265179">ExAllocateTimer</a> routine.
 
 
 ### -param Cancel [in]
@@ -114,7 +111,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
 
 
 

@@ -6,11 +6,8 @@ description: Retrieves the data type of the items in the collection.
 old-location: wpddk\iportabledevicepropvariantcollection_gettype.htm
 tech.root: wpd_dk
 ms.assetid: d1d84b17-96e6-49a5-bf54-ffce1cb8f405
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: GetType, GetType method, GetType method,IPortableDevicePropVariantCollection interface, IPortableDevicePropVariantCollection interface,GetType method, IPortableDevicePropVariantCollection.GetType, IPortableDevicePropVariantCollection::GetType, IPortableDevicePropVariantCollectionGetType, portabledevicetypes/IPortableDevicePropVariantCollection::GetType, wpddk.iportabledevicepropvariantcollection_gettype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledevicetypes.h
 req.include-header: 

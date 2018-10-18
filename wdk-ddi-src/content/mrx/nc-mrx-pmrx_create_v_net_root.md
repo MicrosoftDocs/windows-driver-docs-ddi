@@ -6,11 +6,8 @@ description: The MRxCreateVNetRoot routine is called by RDBSS to request that th
 old-location: ifsk\mrxcreatevnetroot.htm
 tech.root: ifsk
 ms.assetid: 8cd5aa01-c814-4737-9088-0361e6ee9a61
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: MRxCreateVNetRoot, MRxCreateVNetRoot routine [Installable File System Drivers], PMRX_CREATE_V_NET_ROOT, ifsk.mrxcreatevnetroot, mrx/MRxCreateVNetRoot, mrxref_8d77acec-f7a5-40c6-8543-421c5c1f79f5.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: mrx.h
 req.include-header: Mrx.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The<i> MRxCreateVNetRoot</i> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that the network mini-redirector create a V_NET_ROOT structure and, in some cases, a NET_ROOT structure. 
+The<i> MRxCreateVNetRoot</i> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that the network mini-redirector create a V_NET_ROOT structure and, in some cases, a NET_ROOT structure. 
 
 
 ## -parameters

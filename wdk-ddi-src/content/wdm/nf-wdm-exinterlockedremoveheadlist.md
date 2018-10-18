@@ -6,11 +6,8 @@ description: The ExInterlockedRemoveHeadList routine removes an entry from the b
 old-location: kernel\exinterlockedremoveheadlist.htm
 tech.root: kernel
 ms.assetid: d024da2c-9629-4907-98b8-a29dc6022ac0
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: ExInterlockedRemoveHeadList, ExInterlockedRemoveHeadList routine [Kernel-Mode Driver Architecture], k102_6ab2420a-7522-4445-9a6e-c8a603f5cff8.xml, kernel.exinterlockedremoveheadlist, wdm/ExInterlockedRemoveHeadList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

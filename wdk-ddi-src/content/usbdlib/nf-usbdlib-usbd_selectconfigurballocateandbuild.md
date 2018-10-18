@@ -6,11 +6,8 @@ description: The USBD_SelectConfigUrbAllocateAndBuild routine allocates and form
 old-location: buses\usbd_selectconfigurballocateandbuild.htm
 tech.root: usbref
 ms.assetid: 2B2F721C-9201-472B-8629-352CB212235C
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: USBD_SelectConfigUrbAllocateAndBuild, USBD_SelectConfigUrbAllocateAndBuild routine [Buses], buses.usbd_selectconfigurballocateandbuild, usbdlib/USBD_SelectConfigUrbAllocateAndBuild
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usbdlib.h
 req.include-header: 

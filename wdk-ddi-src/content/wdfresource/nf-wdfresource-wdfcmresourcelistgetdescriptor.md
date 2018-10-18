@@ -6,11 +6,8 @@ description: The WdfCmResourceListGetDescriptor method returns a pointer to a re
 old-location: wdf\wdfcmresourcelistgetdescriptor.htm
 tech.root: wdf
 ms.assetid: 5aa96fed-83ca-417e-876d-a734be6f27dd
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFResourceObjectRef_bdc580d1-2283-4549-a26b-cbe0f2a84e19.xml, WdfCmResourceListGetDescriptor, WdfCmResourceListGetDescriptor method, kmdf.wdfcmresourcelistgetdescriptor, wdf.wdfcmresourcelistgetdescriptor, wdfresource/WdfCmResourceListGetDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfresource.h
 req.include-header: Wdf.h
@@ -92,7 +89,7 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 Your driver cannot modify the resource descriptor that <b>WdfCmResourceListGetDescriptor</b> retrieves. 
 
-For more information about resource lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
+For more information about resource lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 
 #### Examples

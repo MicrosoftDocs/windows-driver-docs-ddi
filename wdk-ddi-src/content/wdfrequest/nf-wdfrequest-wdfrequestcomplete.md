@@ -6,11 +6,8 @@ description: The WdfRequestComplete method completes a specified I/O request and
 old-location: wdf\wdfrequestcomplete.htm
 tech.root: wdf
 ms.assetid: cb5bfd4f-e45a-4894-acb4-0ece2de91510
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFRequestObjectRef_e723fb4c-f8f2-4eb9-9152-7f7ac74329df.xml, WdfRequestComplete, WdfRequestComplete method, kmdf.wdfrequestcomplete, wdf.wdfrequestcomplete, wdfrequest/WdfRequestComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfrequest.h
 req.include-header: Wdf.h
@@ -122,7 +119,7 @@ Instead of calling <b>WdfRequestComplete</b>, the driver can call <a href="https
 
 When your driver calls <b>WdfRequestComplete</b>, the framework supplies a default value that the system uses to boost the run-time priority of the thread that requested the I/O operation. For information about default priority boost values, see <a href="https://msdn.microsoft.com/9a501ca1-58c9-4458-b202-9581f8ce5e5f">Specifying Priority Boosts When Completing I/O Requests</a>. Your driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549949">WdfRequestCompleteWithPriorityBoost</a> to override the default priority boost value.
 
-For more information about calling <b>WdfRequestComplete</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
+For more information about calling <b>WdfRequestComplete</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
 
 
 #### Examples

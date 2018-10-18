@@ -6,11 +6,8 @@ description: The DrmGetContentRights function retrieves the DRM content rights a
 old-location: audio\drmgetcontentrights.htm
 tech.root: audio
 ms.assetid: 706a5749-e288-4275-84fc-e500a848d541
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: DrmGetContentRights, DrmGetContentRights function [Audio Devices], aud-prop2_9f836831-bb65-45d1-8701-4aaa77999b81.xml, audio.drmgetcontentrights, drmk/DrmGetContentRights
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: drmk.h
 req.include-header: Drmk.h

@@ -6,11 +6,8 @@ description: The PEP_ABANDON_DEVICE structure identifies a device that has been 
 old-location: kernel\pep_abandon_device.htm
 tech.root: kernel
 ms.assetid: 15F54054-F20B-43A6-8BCD-3A1C47433B12
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PPEP_ABANDON_DEVICE, PEP_ABANDON_DEVICE, PEP_ABANDON_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_ABANDON_DEVICE, PPEP_ABANDON_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_ABANDON_DEVICE, kernel.pep_abandon_device, pepfx/PEP_ABANDON_DEVICE, pepfx/PPEP_ABANDON_DEVICE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pep_x.h
 req.include-header: Pep_x.h
@@ -60,7 +57,7 @@ The <b>PEP_ABANDON_DEVICE</b> structure identifies a device that has been abando
 
 ### -field DeviceId
 
-[in] A string that uniquely identifies the device. This member is a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
+[in] A string that uniquely identifies the device. This member is a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
 
 
 ### -field DeviceAccepted
@@ -72,7 +69,7 @@ The <b>PEP_ABANDON_DEVICE</b> structure identifies a device that has been abando
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186656">PEP_DPM_ABANDON_DEVICE</a> notification. The <b>DeviceId</b> member of the structure contains an input value that is supplied by the Windows <a href="https://msdn.microsoft.com/9F2D8ACD-44D5-46E0-9FC7-1B38B99450FF">power management framework</a> (PoFx). The <b>DeviceAccepted</b> member contains an output value that the PEP writes to the structure in response to this notification.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186656">PEP_DPM_ABANDON_DEVICE</a> notification. The <b>DeviceId</b> member of the structure contains an input value that is supplied by the Windows <a href="https://msdn.microsoft.com/9F2D8ACD-44D5-46E0-9FC7-1B38B99450FF">power management framework</a> (PoFx). The <b>DeviceAccepted</b> member contains an output value that the PEP writes to the structure in response to this notification.
 
 
 
@@ -82,7 +79,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186656">PEP_DPM_ABANDON_DEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186656">PEP_DPM_ABANDON_DEVICE</a>
 
 
 

@@ -6,11 +6,8 @@ description: The IDrmAudioStream interface assigns DRM protection to the digital
 old-location: audio\idrmaudiostream.htm
 tech.root: audio
 ms.assetid: 18c90367-f87d-4028-af58-cfb65e8ff01b
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: IDrmAudioStream, IDrmAudioStream interface [Audio Devices], IDrmAudioStream interface [Audio Devices],described, audio.idrmaudiostream, audmp-routines_aba04fe2-a050-48c5-82ba-3ce454e0bc84.xml, drmk/IDrmAudioStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: drmk.h
 req.include-header: 

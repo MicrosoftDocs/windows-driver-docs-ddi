@@ -6,11 +6,8 @@ description: The WDF_WMI_INSTANCE_CONFIG structure contains configuration inform
 old-location: wdf\wdf_wmi_instance_config.htm
 tech.root: wdf
 ms.assetid: b2b2fd0c-c331-4132-b037-05c816626563
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*PWDF_WMI_INSTANCE_CONFIG, DFWMIRef_20be4139-3dcc-425e-9aaf-2851ceb794fb.xml, PWDF_WMI_INSTANCE_CONFIG, PWDF_WMI_INSTANCE_CONFIG structure pointer, WDF_WMI_INSTANCE_CONFIG, WDF_WMI_INSTANCE_CONFIG structure, _WDF_WMI_INSTANCE_CONFIG, kmdf.wdf_wmi_instance_config, wdf.wdf_wmi_instance_config, wdfwmi/PWDF_WMI_INSTANCE_CONFIG, wdfwmi/WDF_WMI_INSTANCE_CONFIG"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdfwmi.h
 req.include-header: Wdf.h

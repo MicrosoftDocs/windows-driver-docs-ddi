@@ -6,11 +6,8 @@ description: The WRITE_REGISTER_UCHAR routine writes a byte to the specified add
 old-location: kernel\write_register_uchar.htm
 tech.root: kernel
 ms.assetid: 2d97d31f-d8c6-45d6-9aee-69397a523bbd
-ms.author: windowsdriverdev
 ms.date: 3/1/2018
 ms.keywords: WRITE_REGISTER_UCHAR, WRITE_REGISTER_UCHAR routine [Kernel-Mode Driver Architecture], k103_052039f1-0f3c-4b4b-9061-ea92046f7167.xml, kernel.write_register_uchar, wdm/WRITE_REGISTER_UCHAR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ioaccess.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h, Wudfwdm.h
@@ -56,12 +53,12 @@ The <b>WRITE_REGISTER_UCHAR</b> routine writes a byte to the specified address.
 ## -syntax
 
 
-````
+```cpp
 VOID WRITE_REGISTER_UCHAR(
   _In_ PUCHAR Register,
   _In_ UCHAR  Value
 );
-````
+```
 
 
 ## -parameters

@@ -4,11 +4,8 @@ title: _D3DKMT_GET_MULTIPLANE_OVERLAY_CAPS
 author: windows-driver-content
 description: Used to get multiplane overlay capabilities.
 ms.assetid: 350738c4-0d00-4fcf-ba92-511e1ba2c113
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_GET_MULTIPLANE_OVERLAY_CAPS, D3DKMT_GET_MULTIPLANE_OVERLAY_CAPS, 
 req.header: d3dkmthk.h
 req.include-header:

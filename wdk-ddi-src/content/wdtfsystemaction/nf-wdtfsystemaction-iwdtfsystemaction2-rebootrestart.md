@@ -6,11 +6,8 @@ description: Restart the system and the current test.
 old-location: dtf\iwdtfsystemaction2_rebootrestart.htm
 tech.root: dtf
 ms.assetid: E03A617F-BC5E-41D6-B22F-CFE9FE11D7E1
-ms.author: windowsdriverdev
 ms.date: 4/4/2018
 ms.keywords: IWDTFSystemAction2 interface [Windows Device Testing Framework],RebootRestart method, IWDTFSystemAction2.RebootRestart, IWDTFSystemAction2::RebootRestart, Microsoft.WDTF.IWDTFSystemAction2.RebootRestart, Microsoft::WDTF::IWDTFSystemAction2::RebootRestart, RebootRestart, RebootRestart method [Windows Device Testing Framework], RebootRestart method [Windows Device Testing Framework],IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_rebootrestart, wdtfsystemaction/IWDTFSystemAction2::RebootRestart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtfsystemaction.h
 req.include-header: 

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The CalcPrivateDepthStencilStateSize function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a depth stencil state.
 old-location: display\calcprivatedepthstencilstatesize.htm
 ms.assetid: dcc02e1e-97e0-4ccd-8329-8219cad5d09a
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: CalcPrivateDepthStencilStateSize, CalcPrivateDepthStencilStateSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATEDEPTHSTENCILSTATESIZE, PFND3D10DDI_CALCPRIVATEDEPTHSTENCILSTATESIZE callback, UserModeDisplayDriverDx10_Functions_9eb00c77-fbc0-443d-848b-b7e254de4efe.xml, d3d10umddi/CalcPrivateDepthStencilStateSize, display.calcprivatedepthstencilstatesize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

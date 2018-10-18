@@ -4,11 +4,8 @@ title: DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY2
 author: windows-driver-content
 description: Reports the colorimetry values selected by the OS for a target.
 ms.assetid: 6177791c-0854-4902-bcbb-d5a58676dbb4
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dispmprt.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Reports the colorimetry values selected by the OS for a target.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY2 DxgkddiSettargetadjustedcolorimetry2; 

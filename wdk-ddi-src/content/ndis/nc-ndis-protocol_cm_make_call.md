@@ -6,11 +6,8 @@ description: The ProtocolCmMakeCall function is a required function that sets up
 old-location: netvista\protocolcmmakecall.htm
 tech.root: netvista
 ms.assetid: ede0a18a-cd3b-4fbb-a16b-e7493940d633
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: PROTOCOL_CM_MAKE_CALL, PROTOCOL_CM_MAKE_CALL callback, ProtocolCmMakeCall, ProtocolCmMakeCall callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_4f72c0f7-470b-496c-adbb-ea465246fb48.xml, ndis/ProtocolCmMakeCall, netvista.protocolcmmakecall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

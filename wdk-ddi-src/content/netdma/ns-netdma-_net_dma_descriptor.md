@@ -6,11 +6,8 @@ description: The NET_DMA_DESCRIPTOR structure specifies the DMA transfer informa
 old-location: netvista\net_dma_descriptor.htm
 tech.root: netvista
 ms.assetid: 0465a8d7-1cdd-4647-9b78-557256f60c05
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNET_DMA_DESCRIPTOR, NET_DMA_DESCRIPTOR, NET_DMA_DESCRIPTOR structure [Network Drivers Starting with Windows Vista], NET_DMA_DESTINATION_DCA_ENABLE, NET_DMA_DESTINATION_NO_SNOOP, NET_DMA_DESTINATION_PAGE_BREAK, NET_DMA_INTERRUPT_ON_COMPLETION, NET_DMA_NULL_TRANSFER, NET_DMA_OP_TYPE_CONTEXT_CHANGE, NET_DMA_OP_TYPE_MASK, NET_DMA_RESERVED_MASK, NET_DMA_SERIALIZE_TRANSFER, NET_DMA_SOURCE_NO_SNOOP, NET_DMA_SOURCE_PAGE_BREAK, NET_DMA_STATUS_UPDATE_ON_COMPLETION, PNET_DMA_DESCRIPTOR, PNET_DMA_DESCRIPTOR structure pointer [Network Drivers Starting with Windows Vista], _NET_DMA_DESCRIPTOR, netdma/NET_DMA_DESCRIPTOR, netdma/PNET_DMA_DESCRIPTOR, netdma_ref_06e1861b-7904-4bf5-9ce5-e85ae1daa22e.xml, netvista.net_dma_descriptor"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: netdma.h
 req.include-header: Netdma.h
@@ -69,7 +66,7 @@ NetDMA 2.0 and later provider drivers use the
       <b>DCAContext16</b>, and 
       <b>DCAContext8</b> members of the union with 
       <b>TransferSize</b> to support 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/direct-cache-access--dca-">Direct Cache Access
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/direct-cache-access--dca-">Direct Cache Access
       (DCA)</a>.
 
 
@@ -361,7 +358,7 @@ A ULONG64 value that is reserved for the DMA engine or the DMA provider driver t
       and later provider drivers use the 
       <b>NextSourceAddress</b> member of the union with 
       <b>Reserved1</b> to support 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/source-and-destination-page-break">Source and Destination Page
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/source-and-destination-page-break">Source and Destination Page
       Break</a>.
 
 
@@ -377,7 +374,7 @@ A ULONG64 value that is reserved for use the DMA engine or the DMA provider driv
       2.0 and later provider drivers use the 
       <b>NextDestinationAddress</b> member of the union with 
       <b>Reserved2</b> to support 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/source-and-destination-page-break">Source and Destination Page
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/source-and-destination-page-break">Source and Destination Page
       Break</a>.
 
 

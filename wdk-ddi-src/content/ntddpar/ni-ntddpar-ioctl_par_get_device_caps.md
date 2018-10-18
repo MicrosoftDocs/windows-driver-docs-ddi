@@ -6,11 +6,8 @@ description: The IOCTL_PAR_GET_DEVICE_CAPS request does the following:Specifies 
 old-location: parports\ioctl_par_get_device_caps.htm
 tech.root: parports
 ms.assetid: 6446d667-1a35-4055-b9e7-41d372df9db2
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IOCTL_PAR_GET_DEVICE_CAPS, IOCTL_PAR_GET_DEVICE_CAPS control code [Parallel Ports], cisspd_ea215140-7641-4554-bf95-362942d13143.xml, ntddpar/IOCTL_PAR_GET_DEVICE_CAPS, parports.ioctl_par_get_device_caps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddpar.h
 req.include-header: Ntddpar.h
@@ -50,7 +47,7 @@ req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 ##  Major Code:
 
 
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

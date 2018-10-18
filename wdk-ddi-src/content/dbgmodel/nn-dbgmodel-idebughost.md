@@ -4,11 +4,8 @@ title: IDebugHost
 author: windows-driver-content
 description: The core interface to the underlying debugger.
 ms.assetid: 1eb195cc-10aa-4820-9e1b-a892f8d08e39
-ms.author: windowsdriverdev
 ms.date: 07/13/2018
 ms.topic: interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

@@ -6,11 +6,8 @@ description: The PCPIN_DESCRIPTOR structure describes a pin factory.
 old-location: audio\pcpin_descriptor.htm
 tech.root: audio
 ms.assetid: 1eeee706-b7f4-4b4d-93c8-969eac7c56d9
-ms.author: windowsdriverdev
 ms.date: 12/14/2017
 ms.keywords: PCPIN_DESCRIPTOR structure [Audio Devices], PCPIN_DESCRIPTOR, PPCPIN_DESCRIPTOR structure pointer [Audio Devices], audio.pcpin_descriptor, audpc-struct_475141ba-bf2e-4425-92ac-02649248e19f.xml, *PPCPIN_DESCRIPTOR, PPCPIN_DESCRIPTOR, portcls/PPCPIN_DESCRIPTOR, portcls/PCPIN_DESCRIPTOR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: portcls.h
 req.include-header: Portcls.h
@@ -56,7 +53,7 @@ The <b>PCPIN_DESCRIPTOR</b> structure describes a pin factory.
 ## -syntax
 
 
-````
+```cpp
 typedef struct {
   ULONG                    MaxGlobalInstanceCount;
   ULONG                    MaxFilterInstanceCount;
@@ -64,7 +61,7 @@ typedef struct {
   const PCAUTOMATION_TABLE *AutomationTable;
   KSPIN_DESCRIPTOR         KsPinDescriptor;
 } PCPIN_DESCRIPTOR, *PPCPIN_DESCRIPTOR;
-````
+```
 
 
 ## -struct-fields

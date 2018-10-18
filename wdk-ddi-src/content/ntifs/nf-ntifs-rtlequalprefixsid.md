@@ -6,11 +6,8 @@ description: The RtlEqualPrefixSid routine determines whether two security-ident
 old-location: ifsk\rtlequalprefixsid.htm
 tech.root: ifsk
 ms.assetid: 6db96d3b-721f-40d5-8f8d-54cdd33f85c8
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RtlEqualPrefixSid, RtlEqualPrefixSid routine [Installable File System Drivers], ifsk.rtlequalprefixsid, ntifs/RtlEqualPrefixSid, rtlref_67b0c7e1-647f-426a-8d9d-dde2d98b0cc3.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

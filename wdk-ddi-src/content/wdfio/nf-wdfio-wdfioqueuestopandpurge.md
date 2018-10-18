@@ -6,11 +6,8 @@ description: The WdfIoQueueStopAndPurge method prevents an I/O queue from delive
 old-location: wdf\wdfioqueuestopandpurge.htm
 tech.root: wdf
 ms.assetid: 3A9CF1BD-77F1-4F4C-AEB5-0E77B67C45D3
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WdfIoQueueStopAndPurge, WdfIoQueueStopAndPurge method, kmdf.wdfioqueuestopandpurge, wdf.wdfioqueuestopandpurge, wdfio/WdfIoQueueStopAndPurge
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfio.h
 req.include-header: Wdf.h

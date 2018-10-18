@@ -6,11 +6,8 @@ description: The ISensorDriver::OnClientUnsubscribeFromEvents method notifies th
 old-location: sensors\isensordriver_onclientunsubscribefromevents.htm
 tech.root: sensors
 ms.assetid: f51f1091-232f-4e41-9cc2-9938870aeef8
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: ISensorDriver interface [Sensor Devices],OnClientUnsubscribeFromEvents method, ISensorDriver.OnClientUnsubscribeFromEvents, ISensorDriver::OnClientUnsubscribeFromEvents, OnClientUnsubscribeFromEvents, OnClientUnsubscribeFromEvents method [Sensor Devices], OnClientUnsubscribeFromEvents method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_onclientunsubscribefromevents, sensorsclassextension/ISensorDriver::OnClientUnsubscribeFromEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsclassextension.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The TmSinglePhaseReject routine informs KTM that the calling resour
 old-location: kernel\tmsinglephasereject.htm
 tech.root: kernel
 ms.assetid: 8fc92d51-40be-439b-abee-54ad19a86a89
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: TmSinglePhaseReject, TmSinglePhaseReject routine [Kernel-Mode Driver Architecture], kernel.tmsinglephasereject, ktm_ref_16802b39-057c-4d45-9da0-3f63f4589a44.xml, wdm/TmSinglePhaseReject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

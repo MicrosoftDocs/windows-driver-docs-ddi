@@ -6,11 +6,8 @@ description: Unregisters the hardware notification client driver and its callbac
 old-location: gpiobtn\hwnunregisterclient.htm
 tech.root: gpiobtn
 ms.assetid: 94e5153a-3ce5-400c-b53a-5323b34a6c34
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: HwNUnregisterClient, HwNUnregisterClient function, gpiobtn.hwnunregisterclient, hwnclx/HwNUnregisterClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hwnclx.h
 req.include-header:
@@ -59,11 +56,11 @@ Unregisters the hardware notification client driver and its callback functions w
 ## -syntax
 
 
-````
+```cpp
 FORCEINLINE NTSTATUS  HwNUnregisterClient(
   _In_ WDFDRIVER  Driver
 );
-````
+```
 
 
 ## -parameters
@@ -87,7 +84,7 @@ Returns STATUS_SUCCESS if function succeeds. Returns STATUS_INVALID_PARAMETER if
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn789335">Hardware notifications support</a>
 
 
 

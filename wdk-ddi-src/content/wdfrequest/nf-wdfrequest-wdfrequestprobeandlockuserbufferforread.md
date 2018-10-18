@@ -6,11 +6,8 @@ description: The WdfRequestProbeAndLockUserBufferForRead method verifies that an
 old-location: wdf\wdfrequestprobeandlockuserbufferforread.htm
 tech.root: wdf
 ms.assetid: 68fbaa04-ca7a-46b4-a7ca-c3d44443c2af
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFRequestObjectRef_01a2309b-8cae-4a38-9e47-68619f422af2.xml, WdfRequestProbeAndLockUserBufferForRead, WdfRequestProbeAndLockUserBufferForRead method, kmdf.wdfrequestprobeandlockuserbufferforread, wdf.wdfrequestprobeandlockuserbufferforread, wdfrequest/WdfRequestProbeAndLockUserBufferForRead
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfrequest.h
 req.include-header: Wdf.h
@@ -174,12 +171,12 @@ The buffer length that the <i>Length</i> parameter specifies must not be larger 
 
 If <b>WdfRequestProbeAndLockUserBufferForRead</b> returns STATUS_SUCCESS, the driver receives a handle to a framework memory object that represents the user-mode buffer. To access the buffer, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548715">WdfMemoryGetBuffer</a>.
 
-For more information about <b>WdfRequestProbeAndLockUserBufferForRead</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in Framework-Based Drivers</a>.
+For more information about <b>WdfRequestProbeAndLockUserBufferForRead</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in Framework-Based Drivers</a>.
 
 
 #### Examples
 
-The following code example is a shortened version of the <a href="https://msdn.microsoft.com/b8bcea29-e404-490e-9d0c-02c96a5690ab">EvtIoInCallerContext</a> callback function that the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">NONPNP</a> sample driver contains. When the callback function receives an I/O request, it determines if the request contains an I/O control code with a transfer type of METHOD_NEITHER. If the request does contain such an I/O control code, the function:
+The following code example is a shortened version of the <a href="https://msdn.microsoft.com/b8bcea29-e404-490e-9d0c-02c96a5690ab">EvtIoInCallerContext</a> callback function that the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">NONPNP</a> sample driver contains. When the callback function receives an I/O request, it determines if the request contains an I/O control code with a transfer type of METHOD_NEITHER. If the request does contain such an I/O control code, the function:
 
 <ol>
 <li>

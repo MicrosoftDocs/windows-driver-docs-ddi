@@ -6,11 +6,8 @@ description: IDebugClient5 interface
 old-location: debugger\idebugclient5.htm
 tech.root: debugger
 ms.assetid: 4230fbc2-524a-44b1-a090-011e334629a7
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugClient5, IDebugClient5 interface [Windows Debugging], IDebugClient5 interface [Windows Debugging],described, dbgeng/IDebugClient5, debugger.idebugclient5
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

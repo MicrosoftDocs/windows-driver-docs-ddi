@@ -6,11 +6,8 @@ description: Adds a new ULONG value (type VT_UI4) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setunsignedintegervalue.htm
 tech.root: wpd_dk
 ms.assetid: a442a94a-2086-4b09-a795-86f53334fadd
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IPortableDeviceValues interface,SetUnsignedIntegerValue method, IPortableDeviceValues.SetUnsignedIntegerValue, IPortableDeviceValues::SetUnsignedIntegerValue, IPortableDeviceValuesSetUnsignedIntegerValue, SetUnsignedIntegerValue, SetUnsignedIntegerValue method, SetUnsignedIntegerValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetUnsignedIntegerValue, wpddk.iportabledevicevalues_setunsignedintegervalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledevicetypes.h
 req.include-header: 

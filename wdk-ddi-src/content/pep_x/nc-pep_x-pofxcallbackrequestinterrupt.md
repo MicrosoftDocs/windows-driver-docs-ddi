@@ -6,11 +6,8 @@ description: The RequestInterrupt routine requests that the operating system rep
 old-location: kernel\requestinterrupt.htm
 tech.root: kernel
 ms.assetid: B999405D-D6A5-4DFF-A902-F9C938C29063
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: POFXCALLBACKREQUESTINTERRUPT, RequestInterrupt, RequestInterrupt routine [Kernel-Mode Driver Architecture], kernel.requestinterrupt, pepfx/RequestInterrupt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: pep_x.h
 req.include-header: Pep_x.h

@@ -6,11 +6,8 @@ description: The BarcodeSymbologyDecodeLengthType enum describes values for the 
 old-location: pos\barcodesymbologydecodelengthtype.htm
 tech.root: pos
 ms.assetid: 155D1C71-7935-4512-8AA2-0EB167FCBF5E
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: BarcodeSymbologyDecodeLengthType, BarcodeSymbologyDecodeLengthType enumeration, DecodeLengthType_AnyLength, DecodeLengthType_Discrete, DecodeLengthType_Range, _BarcodeSymbologyDecodeLengthType, pointofservicecommontypes/BarcodeSymbologyDecodeLengthType, pointofservicecommontypes/DecodeLengthType_AnyLength, pointofservicecommontypes/DecodeLengthType_Discrete, pointofservicecommontypes/DecodeLengthType_Range, pos.barcodesymbologydecodelengthtype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: pointofservicecommontypes.h
 req.include-header: 

@@ -4,7 +4,6 @@ title: D3DKMTChangeVideoMemoryReservation function
 author: windows-driver-content
 description: Changes video memory reservation.
 ms.assetid: 973e9070-c41d-40a4-a24d-13af3976baa9
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: D3DKMTChangeVideoMemoryReservation

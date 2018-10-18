@@ -6,11 +6,8 @@ description: The OFFLOAD_IPSEC_ADD_SA structure contains information for each se
 old-location: netvista\offload_ipsec_add_sa.htm
 tech.root: netvista
 ms.assetid: 592d338c-8ab0-4163-bcfa-75c941b83c3d
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*POFFLOAD_IPSEC_ADD_SA, 216offload_12f95ec9-ed81-43cc-b90d-fe06600ec349.xml, OFFLOAD_IPSEC_ADD_SA, OFFLOAD_IPSEC_ADD_SA structure [Network Drivers Starting with Windows Vista], POFFLOAD_IPSEC_ADD_SA, POFFLOAD_IPSEC_ADD_SA structure pointer [Network Drivers Starting with Windows Vista], _OFFLOAD_IPSEC_ADD_SA, netvista.offload_ipsec_add_sa, ntddndis/OFFLOAD_IPSEC_ADD_SA, ntddndis/POFFLOAD_IPSEC_ADD_SA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ndis.h
@@ -163,7 +160,7 @@ The handle to the newly created SA. The miniport driver supplies this handle bef
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff557028">NDIS_IPSEC_PACKET_INFO</a> structure before
      passing a send packet to the miniport driver. The TCP/IP transport must also specify this handle when
      deleting the SA with an 
-     <a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">
+     <a href="https://msdn.microsoft.com/library/gg155485.aspx">
      OID_TCP_TASK_IPSEC_DELETE_SA</a> request.
 
 
@@ -225,7 +222,7 @@ The OFFLOAD_IPSEC_ADD_SA structure is used in the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a>
+<a href="https://msdn.microsoft.com/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a>
  
 
  

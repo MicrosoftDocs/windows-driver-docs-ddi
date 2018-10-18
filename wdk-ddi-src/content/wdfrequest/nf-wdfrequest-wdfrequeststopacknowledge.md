@@ -6,11 +6,8 @@ description: The WdfRequestStopAcknowledge method informs the framework that the
 old-location: wdf\wdfrequeststopacknowledge.htm
 tech.root: wdf
 ms.assetid: 70f90cfd-9828-41a6-a7f9-6b0033e46b74
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFRequestObjectRef_14594eba-ca7f-433b-9fd4-717053a09158.xml, WdfRequestStopAcknowledge, WdfRequestStopAcknowledge method, kmdf.wdfrequeststopacknowledge, wdf.wdfrequeststopacknowledge, wdfrequest/WdfRequestStopAcknowledge
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfrequest.h
 req.include-header: Wdf.h
@@ -88,7 +85,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-If a driver registers an <a href="https://msdn.microsoft.com/71a789f1-4f10-44c3-8bd0-a0ea74ec28ab">EvtIoStop</a> callback function for an I/O queue, the framework calls it when the queue's underlying device is leaving its working (D0) state. The framework calls the <i>EvtIoStop</i> callback function for every I/O request that the driver has not <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">completed</a>, including requests that the driver <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-ownership">owns</a> and those that it has <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/forwarding-i-o-requests">forwarded</a> to an I/O target. The driver must complete, cancel, or postpone processing of each request by doing one of the following: 
+If a driver registers an <a href="https://msdn.microsoft.com/71a789f1-4f10-44c3-8bd0-a0ea74ec28ab">EvtIoStop</a> callback function for an I/O queue, the framework calls it when the queue's underlying device is leaving its working (D0) state. The framework calls the <i>EvtIoStop</i> callback function for every I/O request that the driver has not <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-i-o-requests">completed</a>, including requests that the driver <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/request-ownership">owns</a> and those that it has <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/forwarding-i-o-requests">forwarded</a> to an I/O target. The driver must complete, cancel, or postpone processing of each request by doing one of the following: 
 
 <ul>
 <li>
@@ -118,7 +115,7 @@ When the underlying device returns to its working (D0) state, the framework will
 
 </li>
 <li>
-Setting <i>Requeue</i> to <b>FALSE</b> causes the framework not to requeue the request. If the driver <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-ownership">owns</a> the request, ownership remains with the driver. If the driver has forwarded the request, the driver is responsible for handling the request when it is completed. The driver must stop doing any I/O processing that requires hardware access. 
+Setting <i>Requeue</i> to <b>FALSE</b> causes the framework not to requeue the request. If the driver <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/request-ownership">owns</a> the request, ownership remains with the driver. If the driver has forwarded the request, the driver is responsible for handling the request when it is completed. The driver must stop doing any I/O processing that requires hardware access. 
 
 When the underlying device returns to its working (D0) state, the framework will call the driver's <a href="https://msdn.microsoft.com/97731224-bf08-4578-958e-729acbb5a628">EvtIoResume</a> callback function, so that the driver can continue processing the request.
 
@@ -128,7 +125,7 @@ If the driver had previously called <a href="https://msdn.microsoft.com/library/
 
 Before calling <b>WdfRequestStopAcknowledge</b>, the driver's <a href="https://msdn.microsoft.com/71a789f1-4f10-44c3-8bd0-a0ea74ec28ab">EvtIoStop</a> callback function must stop all processing of the I/O request that requires accessing the underlying device, because the device is about to enter a low-power state.
 
-For more information about the <b>WdfRequestStopAcknowledge</b> method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-power-managed-i-o-queues">Using Power-Managed I/O Queues</a>.
+For more information about the <b>WdfRequestStopAcknowledge</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-power-managed-i-o-queues">Using Power-Managed I/O Queues</a>.
 
 
 #### Examples

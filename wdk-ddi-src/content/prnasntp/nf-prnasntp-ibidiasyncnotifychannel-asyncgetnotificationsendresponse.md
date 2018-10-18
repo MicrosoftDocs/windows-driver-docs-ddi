@@ -6,11 +6,8 @@ description:
 old-location: print\ibidiasyncnotifychannel_asyncgetnotificationsendresponse.htm
 tech.root: print
 ms.assetid: F30A1DEA-2B54-417A-AFE7-289655C815E2
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: AsyncGetNotificationSendResponse, AsyncGetNotificationSendResponse method [Print Devices], AsyncGetNotificationSendResponse method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],AsyncGetNotificationSendResponse method, IBidiAsyncNotifyChannel.AsyncGetNotificationSendResponse, IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse, print.ibidiasyncnotifychannel_asyncgetnotificationsendresponse, prnasntp/IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prnasntp.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The SerCxGetConnectionParameters method retrieves the connection pa
 old-location: serports\sercxgetconnectionparameters.htm
 tech.root: serports
 ms.assetid: 361BC3A7-AE86-4C92-B7E1-A30D467D4A65
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: 1/SerCxGetConnectionParameters, SerCxGetConnectionParameters, SerCxGetConnectionParameters method [Serial Ports], serports.sercxgetconnectionparameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 

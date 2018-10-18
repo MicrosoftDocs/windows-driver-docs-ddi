@@ -6,11 +6,8 @@ description: The PcRegisterAdapterPowerManagement function registers the adapter
 old-location: audio\pcregisteradapterpowermanagement.htm
 tech.root: audio
 ms.assetid: a9e2537d-4d67-4495-b391-55f885b7041a
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: PcRegisterAdapterPowerManagement, PcRegisterAdapterPowerManagement function [Audio Devices], audio.pcregisteradapterpowermanagement, audpc-routines_524bed01-a6ba-492c-9e18-7495de15be46.xml, portcls/PcRegisterAdapterPowerManagement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: portcls.h
 req.include-header: Portcls.h

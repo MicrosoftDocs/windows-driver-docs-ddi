@@ -6,11 +6,8 @@ description: A driver's OnInterruptIsr event callback function services a hardwa
 old-location: wdf\oninterruptisr.htm
 tech.root: wdf
 ms.assetid: D4B8182A-67A5-4D64-A95C-5EB6A1C1E4F0
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: OnInterruptIsr, OnInterruptIsr callback function, WUDF_INTERRUPT_ISR, WUDF_INTERRUPT_ISR callback, umdf.oninterruptisr, wdf.oninterruptisr, wudfinterrupt/OnInterruptIsr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wudfinterrupt.h
 req.include-header: 
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 A driver's <i>OnInterruptIsr</i> event callback function services a hardware interrupt.
 

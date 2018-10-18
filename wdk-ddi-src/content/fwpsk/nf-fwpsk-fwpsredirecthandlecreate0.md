@@ -6,11 +6,8 @@ description: The FwpsRedirectHandleCreate0 function creates a handle that connec
 old-location: netvista\fwpsredirecthandlecreate0.htm
 tech.root: netvista
 ms.assetid: 841f3885-509a-457e-854d-e8ead657de54
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FwpsRedirectHandleCreate0, FwpsRedirectHandleCreate0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsRedirectHandleCreate0, netvista.fwpsredirecthandlecreate0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
@@ -51,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>FwpsRedirectHandleCreate0</b> function creates a handle that  connection redirection functions can use to redirect connections to a local process. For more information about redirection, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-bind-or-connect-redirection">Using Bind or Connect Redirection</a>.<div class="alert"><b>Note</b>  <b>FwpsRedirectHandleCreate0</b> is a specific version of <b>FwpsRedirectHandleCreate</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div>
+The <b>FwpsRedirectHandleCreate0</b> function creates a handle that  connection redirection functions can use to redirect connections to a local process. For more information about redirection, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-bind-or-connect-redirection">Using Bind or Connect Redirection</a>.<div class="alert"><b>Note</b>  <b>FwpsRedirectHandleCreate0</b> is a specific version of <b>FwpsRedirectHandleCreate</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div>
 <div> </div>
 
 
@@ -123,7 +120,7 @@ An error occurred.
 
 A callout driver calls the <b>FwpsRedirectHandleCreate0</b> function to create a handle that can be used to redirect connections.
 
-For more information about redirection, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-bind-or-connect-redirection">Using Bind or Connect Redirection</a>.
+For more information about redirection, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-bind-or-connect-redirection">Using Bind or Connect Redirection</a>.
 
 Your callout driver should call <b>FwpsRedirectHandleCreate0</b> once and cache the handle so that it can reuse the handle.
 

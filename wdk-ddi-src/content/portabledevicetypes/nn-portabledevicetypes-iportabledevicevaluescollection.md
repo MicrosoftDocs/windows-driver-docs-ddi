@@ -6,11 +6,8 @@ description: Holds a collection of indexed IPortableDeviceValues interfaces. Thi
 old-location: wpddk\iportabledevicevaluescollection.htm
 tech.root: wpd_dk
 ms.assetid: f6115732-00d2-48db-9087-6e33a769ca4b
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IPortableDeviceValuesCollection, IPortableDeviceValuesCollection interface, IPortableDeviceValuesCollection interface,described, IPortableDeviceValuesCollectionInterface, portabledevicetypes/IPortableDeviceValuesCollection, wpddk.iportabledevicevaluescollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: portabledevicetypes.h
 req.include-header: 

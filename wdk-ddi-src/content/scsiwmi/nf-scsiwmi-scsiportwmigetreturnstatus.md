@@ -6,11 +6,8 @@ description: The ScsiPortWmiGetReturnStatus routine returns the status of a WMI 
 old-location: storage\scsiportwmigetreturnstatus.htm
 tech.root: storage
 ms.assetid: 79213f47-ba4c-41b0-b095-1b5c25c79456
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: ScsiPortWmiGetReturnStatus, ScsiPortWmiGetReturnStatus macro [Storage Devices], scsiprt_cb3693a3-2fab-4d25-9c64-84327a7ef61c.xml, scsiwmi/ScsiPortWmiGetReturnStatus, storage.scsiportwmigetreturnstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: scsiwmi.h
 req.include-header: Miniport.h, Scsi.h
@@ -51,7 +48,7 @@ req.typenames:
 
 
 The <b>ScsiPortWmiGetReturnStatus</b> routine returns the status of a WMI SRB. 
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 

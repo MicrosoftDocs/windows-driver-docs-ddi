@@ -4,7 +4,6 @@ title: ColorAdapterGetDisplayProfile function
 author: windows-driver-content
 description: This DDI construct is intended for OEM use only.
 ms.assetid: ea95bc91-08fc-47f2-ae34-95f2b5fa2b5d
-ms.author: windowsdriverdev
 ms.date: 9/10/2018
 ms.topic: function
 ms.keywords: ColorAdapterGetDisplayProfile

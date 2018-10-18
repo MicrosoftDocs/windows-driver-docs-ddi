@@ -6,11 +6,8 @@ description: The RtlDeleteElementGenericTableAvl routine deletes an element from
 old-location: ifsk\rtldeleteelementgenerictableavl.htm
 tech.root: ifsk
 ms.assetid: 700412A3-5905-4401-BA65-C2DE1613398D
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RtlDeleteElementGenericTableAvl, RtlDeleteElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtldeleteelementgenerictableavl, ntddk/RtlDeleteElementGenericTableAvl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h

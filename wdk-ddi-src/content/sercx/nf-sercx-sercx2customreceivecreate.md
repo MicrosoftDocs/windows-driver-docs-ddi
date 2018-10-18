@@ -6,11 +6,8 @@ description: The SerCx2CustomReceiveCreate method creates a custom-receive objec
 old-location: serports\sercx2customreceivecreate.htm
 tech.root: serports
 ms.assetid: EC2DBC18-C3F6-4663-891E-AFF43A6D1CE3
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: 2/SerCx2CustomReceiveCreate, SerCx2CustomReceiveCreate, SerCx2CustomReceiveCreate method [Serial Ports], serports.sercx2customreceivecreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 
@@ -75,7 +72,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 
 ### -param CustomReceive [out]
 
-A pointer to a location to which this method writes a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMRECEIVE</a> handle to the newly created custom-receive object. SerCx2 and the serial controller driver use this handle in subsequent calls to refer to this object.
+A pointer to a location to which this method writes a <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMRECEIVE</a> handle to the newly created custom-receive object. SerCx2 and the serial controller driver use this handle in subsequent calls to refer to this object.
 
 
 ## -returns
@@ -171,7 +168,7 @@ As an option, a serial controller driver can use the <i>Attributes</i> parameter
 
 If the <i>Attributes</i> parameter points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure, the caller must not overwrite the values that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552402">WDF_OBJECT_ATTRIBUTES_INIT</a> initialization function writes to the <b>ParentObject</b>, <b>ExecutionLevel</b>, and <b>SynchronizationScope</b> members of this structure.
 
-For more information about creating custom-receive objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMRECEIVE</a>. For more information about custom-receive transactions, see <a href="https://msdn.microsoft.com/29849A8C-6656-444C-BE91-405A4BA2D5B0">SerCx2 Custom-Receive Transactions</a>.
+For more information about creating custom-receive objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMRECEIVE</a>. For more information about custom-receive transactions, see <a href="https://msdn.microsoft.com/29849A8C-6656-444C-BE91-405A4BA2D5B0">SerCx2 Custom-Receive Transactions</a>.
 
 
 
@@ -193,7 +190,7 @@ For more information about creating custom-receive objects, see <a href="https:/
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMRECEIVE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMRECEIVE</a>
 
 
 

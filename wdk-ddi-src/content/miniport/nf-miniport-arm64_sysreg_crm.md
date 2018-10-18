@@ -4,7 +4,6 @@ title: ARM64_SYSREG_CRM macro
 author: windows-driver-content
 description: Returns the CRm field for a given ARM system register encoding value. For more information, see the ARM Architecture Reference Manual.
 ms.assetid: a40eba0a-d060-4813-8b15-80f2dd1cf418
-ms.author: windowsdriverdev
 ms.date: 09/20/2018
 ms.topic: macro
 ms.keywords: ARM64_SYSREG_CRM

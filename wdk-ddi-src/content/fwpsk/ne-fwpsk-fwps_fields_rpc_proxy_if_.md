@@ -6,11 +6,8 @@ description: The FWPS_FIELDS_RPC_PROXY_IF_IF enumeration type specifies the data
 old-location: netvista\fwps_fields_rpc_proxy_if_if.htm
 tech.root: netvista
 ms.assetid: 60389be9-8cda-40cf-b02a-c13a2d17091f
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FWPS_FIELDS_RPC_PROXY_IF_, FWPS_FIELDS_RPC_PROXY_IF_IF, FWPS_FIELDS_RPC_PROXY_IF_IF enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELD_RPC_PROXY_IF_CLIENT_CERT_KEY_LENGTH, FWPS_FIELD_RPC_PROXY_IF_CLIENT_CERT_OID, FWPS_FIELD_RPC_PROXY_IF_CLIENT_TOKEN, FWPS_FIELD_RPC_PROXY_IF_IF_UUID, FWPS_FIELD_RPC_PROXY_IF_IF_VERSION, FWPS_FIELD_RPC_PROXY_IF_MAX, FWPS_FIELD_RPC_PROXY_IF_PROXY_AUTH_TYPE, FWPS_FIELD_RPC_PROXY_IF_SERVER_NAME, FWPS_FIELD_RPC_PROXY_IF_SERVER_PORT, fwpsk/FWPS_FIELDS_RPC_PROXY_IF_IF, fwpsk/FWPS_FIELD_RPC_PROXY_IF_CLIENT_CERT_KEY_LENGTH, fwpsk/FWPS_FIELD_RPC_PROXY_IF_CLIENT_CERT_OID, fwpsk/FWPS_FIELD_RPC_PROXY_IF_CLIENT_TOKEN, fwpsk/FWPS_FIELD_RPC_PROXY_IF_IF_UUID, fwpsk/FWPS_FIELD_RPC_PROXY_IF_IF_VERSION, fwpsk/FWPS_FIELD_RPC_PROXY_IF_MAX, fwpsk/FWPS_FIELD_RPC_PROXY_IF_PROXY_AUTH_TYPE, fwpsk/FWPS_FIELD_RPC_PROXY_IF_SERVER_NAME, fwpsk/FWPS_FIELD_RPC_PROXY_IF_SERVER_PORT, netvista.fwps_fields_rpc_proxy_if_if, wfp_ref_5_const_3_data_fields_666debd4-c19e-4dcd-91d9-024f298b342f.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
@@ -52,7 +49,7 @@ req.typenames: FWPS_FIELDS_RPC_PROXY_IF_IF
 
 The FWPS_FIELDS_RPC_PROXY_IF_IF enumeration type specifies the data field identifiers for the
   FWPS_LAYER_RPC_PROXY_IF 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
+  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layer</a>.
 
 
 ## -enum-fields

@@ -6,11 +6,8 @@ description: The FsRtlCheckUpperOplock routine provides opportunistic lock (oplo
 old-location: ifsk\fsrtlcheckupperoplock.htm
 tech.root: ifsk
 ms.assetid: 36439793-DEE4-48A8-87C4-25BB11BA9CE5
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FsRtlCheckUpperOplock, FsRtlCheckUpperOplock routine [Installable File System Drivers], OPLOCK_LEVEL_CACHE_HANDLE, OPLOCK_LEVEL_CACHE_READ, OPLOCK_LEVEL_CACHE_WRITE, ifsk.fsrtlcheckupperoplock, ntifs/FsRtlCheckUpperOplock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

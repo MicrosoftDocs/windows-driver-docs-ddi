@@ -6,11 +6,8 @@ description: The RegisterRemoteInterfaceNotification method registers a driver t
 old-location: wdf\iwdfdevice2_registerremoteinterfacenotification.htm
 tech.root: wdf
 ms.assetid: 48e1fc20-03e7-42ef-b57c-9246a56df4ef
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IWDFDevice2 interface,RegisterRemoteInterfaceNotification method, IWDFDevice2.RegisterRemoteInterfaceNotification, IWDFDevice2::RegisterRemoteInterfaceNotification, RegisterRemoteInterfaceNotification, RegisterRemoteInterfaceNotification method, RegisterRemoteInterfaceNotification method,IWDFDevice2 interface, UMDFDeviceObjectRef_2629392c-5f58-4e33-be77-3422267c6a4b.xml, umdf.iwdfdevice2_registerremoteinterfacenotification, wdf.iwdfdevice2_registerremoteinterfacenotification, wudfddi/IWDFDevice2::RegisterRemoteInterfaceNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,9 +47,9 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
-The <b>RegisterRemoteInterfaceNotification</b> method registers a driver to receive a notification when a specified <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a> becomes available.
+The <b>RegisterRemoteInterfaceNotification</b> method registers a driver to receive a notification when a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a> becomes available.
 
 
 ## -parameters
@@ -87,7 +84,7 @@ If the driver sets this value to <b>FALSE</b>, the framework notifies the driver
 
 Your driver can call <b>RegisterRemoteInterfaceNotification</b> only if the callback interface that the driver previously passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> supports the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556772">IPnpCallbackRemoteInterfaceNotification</a> interface.
 
-For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">Using Device Interfaces in UMDF-based Drivers</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">Using Device Interfaces in UMDF-based Drivers</a>.
 
 
 #### Examples

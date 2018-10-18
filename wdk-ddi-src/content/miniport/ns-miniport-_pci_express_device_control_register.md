@@ -6,11 +6,8 @@ description: The PCI_EXPRESS_DEVICE_CONTROL_REGISTER structure describes a PCI E
 old-location: pci\pci_express_device_control_register.htm
 tech.root: PCI
 ms.assetid: 888f88db-2149-4da2-acdb-4bf88a5362dd
-ms.author: windowsdriverdev
 ms.date: 2/24/2018
 ms.keywords: "*PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, PCI.pci_express_device_control_register, PCI_EXPRESS_DEVICE_CONTROL_REGISTER, PCI_EXPRESS_DEVICE_CONTROL_REGISTER union [Buses], PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, PPCI_EXPRESS_DEVICE_CONTROL_REGISTER union pointer [Buses], _PCI_EXPRESS_DEVICE_CONTROL_REGISTER, ntddk/PCI_EXPRESS_DEVICE_CONTROL_REGISTER, ntddk/PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, pci_struct_344c5f1d-566f-4755-ba52-57635c4fabfe.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: miniport.h
 req.include-header: Ntddk.h, Miniport.h
@@ -56,7 +53,7 @@ The PCI_EXPRESS_DEVICE_CONTROL_REGISTER structure describes a PCI Express (PCIe)
 ## -syntax
 
 
-````
+```cpp
 typedef union _PCI_EXPRESS_DEVICE_CONTROL_REGISTER {
   struct {
     USHORT CorrectableErrorEnable  :1;
@@ -74,7 +71,7 @@ typedef union _PCI_EXPRESS_DEVICE_CONTROL_REGISTER {
   };
   USHORT AsUSHORT;
 } PCI_EXPRESS_DEVICE_CONTROL_REGISTER, *PPCI_EXPRESS_DEVICE_CONTROL_REGISTER;
-````
+```
 
 
 ## -struct-fields

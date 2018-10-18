@@ -6,11 +6,8 @@ description: The MSiSCSI_PersistentLogins structure contains the list of persist
 old-location: storage\msiscsi_persistentlogins.htm
 tech.root: storage
 ms.assetid: c735d9c9-8e87-4a80-af1d-c97d457f78fa
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PMSiSCSI_PersistentLogins, MSiSCSI_PersistentLogins, MSiSCSI_PersistentLogins structure [Storage Devices], PMSiSCSI_PersistentLogins, PMSiSCSI_PersistentLogins structure pointer [Storage Devices], _MSiSCSI_PersistentLogins, iscsiop/MSiSCSI_PersistentLogins, iscsiop/PMSiSCSI_PersistentLogins, storage.msiscsi_persistentlogins, structs-iSCSI_150a8086-8025-4140-9fdb-75d05bfcb0ac.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iscsiop.h
 req.include-header: Iscsiop.h

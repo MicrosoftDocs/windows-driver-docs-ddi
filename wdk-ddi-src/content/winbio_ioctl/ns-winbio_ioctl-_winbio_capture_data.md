@@ -6,11 +6,8 @@ description: The IOCTL_BIOMETRIC_CAPTURE_DATA IOCTL returns the WINBIO_CAPTURE_D
 old-location: biometric\winbio_capture_data.htm
 tech.root: biometric
 ms.assetid: 1d1df123-4c1a-498b-b629-ca63336a762b
-ms.author: windowsdriverdev
 ms.date: 2/20/2018
 ms.keywords: "*PWINBIO_CAPTURE_DATA, PWINBIO_CAPTURE_DATA, PWINBIO_CAPTURE_DATA structure pointer [Biometric Devices], WINBIO_CAPTURE_DATA, WINBIO_CAPTURE_DATA structure [Biometric Devices], _WINBIO_CAPTURE_DATA, biometric.winbio_capture_data, biometric_ref_be8dfe0a-ed13-4b31-af93-8fde60a1640f.xml, winbio_ioctl/PWINBIO_CAPTURE_DATA, winbio_ioctl/WINBIO_CAPTURE_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winbio_ioctl.h
 req.include-header: 

@@ -4,11 +4,8 @@ title: _D3DKMT_SETDODINDIRECTSWAPCHAIN
 author: windows-driver-content
 description: Used to set the device owner display's (DOD) indirect swap chain resources.
 ms.assetid: 1361b90e-5462-44ba-b117-c83fe4c6c040
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_SETDODINDIRECTSWAPCHAIN, D3DKMT_SETDODINDIRECTSWAPCHAIN, 
 req.header: d3dkmthk.h
 req.include-header:

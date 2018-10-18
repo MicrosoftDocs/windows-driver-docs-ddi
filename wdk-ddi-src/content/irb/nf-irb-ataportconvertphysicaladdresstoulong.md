@@ -6,11 +6,8 @@ description: The AtaPortConvertPhysicalAddressToUlong routine truncates an addre
 old-location: storage\ataportconvertphysicaladdresstoulong.htm
 tech.root: storage
 ms.assetid: cd63cb65-701e-46e2-ba32-971f91f9eb29
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: AtaPortConvertPhysicalAddressToUlong, AtaPortConvertPhysicalAddressToUlong routine [Storage Devices], atartns_b9df7c2c-3309-4d5a-88d9-bc1eee37fae0.xml, irb/AtaPortConvertPhysicalAddressToUlong, storage.ataportconvertphysicaladdresstoulong
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
@@ -54,7 +51,7 @@ req.typenames:
 
 
 The <b>AtaPortConvertPhysicalAddressToUlong</b> routine truncates an address of type IDE_PHYSICAL_ADDRESS to a ULONG.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 

@@ -6,11 +6,8 @@ description: The IWDFIoRequest interface exposes an I/O request object.
 old-location: wdf\iwdfiorequest.htm
 tech.root: wdf
 ms.assetid: 3104284a-4277-4f05-ae3f-3b2bb3c3437d
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IWDFIoRequest, IWDFIoRequest interface, IWDFIoRequest interface,described, UMDFRequestObjectRef_65cbf2de-e966-4eb3-8f3f-2012dba23d99.xml, umdf.iwdfiorequest, wdf.iwdfiorequest, wudfddi/IWDFIoRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wudfddi.h
 req.include-header: 
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>IWDFIoRequest</b> interface exposes an I/O request object.
 

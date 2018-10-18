@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilmsgclass.htm
 tech.root: netvista
 ms.assetid: 2f7e2c4f-56bc-4efd-8911-5161b657dbea
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RILMSGCLASS, RILMSGCLASS enumeration [Network Drivers Starting with Windows Vista], RIL_MSGCLASS_ALL, RIL_MSGCLASS_BROADCAST, RIL_MSGCLASS_INCOMING, RIL_MSGCLASS_OUTGOING, netvista.rilmsgclass, ntddrilapitypes/RILMSGCLASS, ntddrilapitypes/RIL_MSGCLASS_ALL, ntddrilapitypes/RIL_MSGCLASS_BROADCAST, ntddrilapitypes/RIL_MSGCLASS_INCOMING, ntddrilapitypes/RIL_MSGCLASS_OUTGOING
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h

@@ -6,11 +6,8 @@ description: HwVidFindAdapter performs initialization of data specific to the mi
 old-location: display\hwvidfindadapter.htm
 tech.root: display
 ms.assetid: 8c880eff-4b4c-439e-9239-f2343c1fe084
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: HwVidFindAdapter, HwVidFindAdapter callback function [Display Devices], PVIDEO_HW_FIND_ADAPTER, PVIDEO_HW_FIND_ADAPTER callback, VideoMiniport_Functions_f035d610-08b2-4403-b9dc-c069520d61bb.xml, display.hwvidfindadapter, video/HwVidFindAdapter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: video.h
 req.include-header: Video.h

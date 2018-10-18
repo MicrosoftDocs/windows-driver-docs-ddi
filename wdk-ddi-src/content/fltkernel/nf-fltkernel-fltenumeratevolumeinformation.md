@@ -6,11 +6,8 @@ description: The FltEnumerateVolumeInformation routine provides information abou
 old-location: ifsk\fltenumeratevolumeinformation.htm
 tech.root: ifsk
 ms.assetid: cdec7faa-299c-4a4e-a037-9900bc3cffa1
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_2fec9273-857a-4c22-b970-27882f88d58d.xml, FltEnumerateVolumeInformation, FltEnumerateVolumeInformation routine [Installable File System Drivers], fltkernel/FltEnumerateVolumeInformation, ifsk.fltenumeratevolumeinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: FltKernel.h

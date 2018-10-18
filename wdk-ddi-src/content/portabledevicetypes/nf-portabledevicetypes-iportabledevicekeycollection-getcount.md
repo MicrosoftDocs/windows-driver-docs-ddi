@@ -6,11 +6,8 @@ description: Retrieves the number of keys in this collection.
 old-location: wpddk\iportabledevicekeycollection_getcount.htm
 tech.root: wpd_dk
 ms.assetid: b0cc6f5b-04ca-40ca-ad30-466859c5aaa6
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: GetCount, GetCount method, GetCount method,IPortableDeviceKeyCollection interface, IPortableDeviceKeyCollection interface,GetCount method, IPortableDeviceKeyCollection.GetCount, IPortableDeviceKeyCollection::GetCount, IPortableDeviceKeyCollectionGetCount, portabledevicetypes/IPortableDeviceKeyCollection::GetCount, wpddk.iportabledevicekeycollection_getcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledevicetypes.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The D3DDDIARG_DESTROYOVERLAY structure contains a handle to the ove
 old-location: display\d3dddiarg_destroyoverlay.htm
 tech.root: display
 ms.assetid: a468205c-288c-49d5-ab14-0ee39dca7b7c
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DDDIARG_DESTROYOVERLAY, D3DDDIARG_DESTROYOVERLAY structure [Display Devices], UMDisplayDriver_param_Structs_e7a2d82a-2e1c-4362-ae4d-23617911de3b.xml, _D3DDDIARG_DESTROYOVERLAY, d3dumddi/D3DDDIARG_DESTROYOVERLAY, display.d3dddiarg_destroyoverlay
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

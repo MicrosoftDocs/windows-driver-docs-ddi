@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilmsgdcsalphabet.htm
 tech.root: netvista
 ms.assetid: 21886c34-ca8d-4466-a3db-6841b2f59137
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RILMSGDCSALPHABET, RILMSGDCSALPHABET enumeration [Network Drivers Starting with Windows Vista], RIL_DCSALPHABET_8BIT, RIL_DCSALPHABET_MAX, RIL_DCSALPHABET_UCS2, netvista.rilmsgdcsalphabet, ntddrilapitypes/RILMSGDCSALPHABET, ntddrilapitypes/RIL_DCSALPHABET_8BIT, ntddrilapitypes/RIL_DCSALPHABET_MAX, ntddrilapitypes/RIL_DCSALPHABET_UCS2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h

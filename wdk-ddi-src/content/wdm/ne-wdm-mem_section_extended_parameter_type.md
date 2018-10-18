@@ -4,12 +4,9 @@ title: MEM_SECTION_EXTENDED_PARAMETER_TYPE
 author: windows-driver-content
 description: 
 ms.assetid: befad141-3eee-4c01-8763-9d92e6b6942e
-ms.author: windowsdriverdev
 ms.date: 09/30/2018
 ms.topic: enum
 ms.keywords: MEM_SECTION_EXTENDED_PARAMETER_TYPE, MEM_SECTION_EXTENDED_PARAMETER_TYPE, *PMEM_SECTION_EXTENDED_PARAMETER_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header: 
 req.target-type:

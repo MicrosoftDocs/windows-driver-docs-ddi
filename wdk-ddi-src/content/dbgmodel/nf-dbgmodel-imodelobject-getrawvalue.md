@@ -4,7 +4,6 @@ title: IModelObject::GetRawValue
 author: windows-driver-content
 description: The GetRawValue method finds a native construct within the given object. Such a construct may be a field, a base class, a field in a base class, a member function, etc.
 ms.assetid: 2750984d-5639-40ce-aa42-c8624f9775ca
-ms.author: windowsdriverdev
 ms.date: 08/09/2018  
 ms.topic: method
 ms.keywords: IModelObject::GetRawValue, GetRawValue, IModelObject.GetRawValue, IModelObject::GetRawValue, IModelObject.GetRawValue

@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extsenduirequest.htm
 tech.root: netvista
 ms.assetid: c8d2ff26-d233-4683-9811-c23896203bd5
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: DOT11EXT_SEND_UI_REQUEST, Dot11ExtSendUIRequest, Dot11ExtSendUIRequest callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_1adad832-45d5-4691-85d9-0acc0534cdc0.xml, netvista.dot11extsenduirequest, wlanihv/Dot11ExtSendUIRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
@@ -61,12 +58,12 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```cpp
 DWORD WINAPI * Dot11ExtSendUIRequest(
   _In_opt_ HANDLE                   hDot11SvcHandle,
   _In_     PDOT11EXT_IHV_UI_REQUEST pIhvUIRequest
 );
-````
+```
 
 
 ## -parameters

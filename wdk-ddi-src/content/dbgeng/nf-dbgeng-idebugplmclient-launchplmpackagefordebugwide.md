@@ -6,11 +6,8 @@ description: Launches a suspended Process Lifecycle Management (PLM) application
 old-location: debugger\idebugplmclient_launchplmpackagefordebugwide.htm
 tech.root: debugger
 ms.assetid: DE11B4A5-5AE3-4369-AF6D-6CE34B9AAFAB
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugPlmClient interface [Windows Debugging],LaunchPlmPackageForDebugWide method, IDebugPlmClient.LaunchPlmPackageForDebugWide, IDebugPlmClient::LaunchPlmPackageForDebugWide, LaunchPlmPackageForDebugWide, LaunchPlmPackageForDebugWide method [Windows Debugging], LaunchPlmPackageForDebugWide method [Windows Debugging],IDebugPlmClient interface, dbgeng/IDebugPlmClient::LaunchPlmPackageForDebugWide, debugger.idebugplmclient_launchplmpackagefordebugwide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

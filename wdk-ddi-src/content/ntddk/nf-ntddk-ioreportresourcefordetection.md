@@ -6,11 +6,8 @@ description: The IoReportResourceForDetection routine claims hardware resources 
 old-location: kernel\ioreportresourcefordetection.htm
 tech.root: kernel
 ms.assetid: 83b8e0b0-112c-4263-91f8-0c2e20dd76a4
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IoReportResourceForDetection, IoReportResourceForDetection routine [Kernel-Mode Driver Architecture], k104_e2a8d386-d1bb-4bf5-aa30-d3a905e91174.xml, kernel.ioreportresourcefordetection, ntddk/IoReportResourceForDetection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

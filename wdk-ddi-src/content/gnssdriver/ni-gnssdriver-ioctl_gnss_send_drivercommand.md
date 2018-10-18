@@ -6,11 +6,8 @@ description: The IOCTL_GNSS_SEND_DRIVERCOMMAND control code is used by the GNSS 
 old-location: gnss\ioctl_gnss_send_drivercommand.htm
 tech.root: gnss
 ms.assetid: CC991E95-D7E2-4B40-9D51-EA38C6732C7B
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IOCTL_GNSS_SEND_DRIVERCOMMAND, IOCTL_GNSS_SEND_DRIVERCOMMAND control, IOCTL_GNSS_SEND_DRIVERCOMMAND control code [Sensor Devices], gnss.ioctl_gnss_send_drivercommand, gnssdriver/IOCTL_GNSS_SEND_DRIVERCOMMAND
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: gnssdriver.h
 req.include-header: 

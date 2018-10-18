@@ -6,11 +6,8 @@ description: The DeRegisterOpRegionHandler routine deregisters an operation regi
 old-location: acpi\deregisteropregionhandler.htm
 tech.root: acpi
 ms.assetid: b50a63cd-69eb-46a8-9d0b-660795c7047f
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: DeRegisterOpRegionHandler, DeRegisterOpRegionHandler routine [ACPI Devices], acpi.deregisteropregionhandler, opregref_e991e152-6162-4d45-9418-282afb447d18.xml, oprghdlr/DeRegisterOpRegionHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oprghdlr.h
 req.include-header: Oprghdlr.h
@@ -125,7 +122,7 @@ An internal error occurred.
 
 This routine is used in combination with <a href="https://msdn.microsoft.com/library/windows/hardware/ff536158">RegisterOpRegionHandler</a>. To deregister an operation region handler, the caller must specify the operation region object returned by <b>RegisterOpRegionHandler</b> when it registered the operation region handler.
 
-For more information about operation regions, see <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/acpi/supporting-an-operation-region">Supporting an Operation Region</a>. 
+For more information about operation regions, see <a href="https://msdn.microsoft.com/windows/hardware/drivers/acpi/supporting-an-operation-region">Supporting an Operation Region</a>. 
 
 
 

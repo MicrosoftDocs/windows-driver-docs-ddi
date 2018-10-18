@@ -6,11 +6,8 @@ description: The KsGetOuterUnknown function returns the outer IUnknown of a give
 old-location: stream\ksgetouterunknown.htm
 tech.root: stream
 ms.assetid: e86e2c96-9ae5-4f6d-9c76-1c2816f318e7
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsGetOuterUnknown, KsGetOuterUnknown function [Streaming Media Devices], avfunc_5b660e76-03af-4fba-92f9-f11eeeaa3da0.xml, ks/KsGetOuterUnknown, stream.ksgetouterunknown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

@@ -6,11 +6,8 @@ description: The RtlPrefixUnicodeString routine compares two Unicode strings to 
 old-location: kernel\rtlprefixunicodestring.htm
 tech.root: kernel
 ms.assetid: 9b26f4ed-6621-4dc5-8b60-9e4d3bf8d898
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlPrefixUnicodeString, RtlPrefixUnicodeString routine [Kernel-Mode Driver Architecture], k109_b6130d6d-1a25-460b-a962-3b9353626768.xml, kernel.rtlprefixunicodestring, ntddk/RtlPrefixUnicodeString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

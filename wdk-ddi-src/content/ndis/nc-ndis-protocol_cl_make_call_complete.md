@@ -6,11 +6,8 @@ description: The ProtocolClMakeCallComplete function is used by connection-orien
 old-location: netvista\protocolclmakecallcomplete.htm
 tech.root: netvista
 ms.assetid: 6bb69f78-8dab-46a7-84fb-7bc17e894535
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: PROTOCOL_CL_MAKE_CALL_COMPLETE, PROTOCOL_CL_MAKE_CALL_COMPLETE callback, ProtocolClMakeCallComplete, ProtocolClMakeCallComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_1c839b17-947a-44cb-85d1-d6246b82a827.xml, ndis/ProtocolClMakeCallComplete, netvista.protocolclmakecallcomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

@@ -6,11 +6,8 @@ description: The NdisReadConfiguration function returns the value of a named ent
 old-location: netvista\ndisreadconfiguration.htm
 tech.root: netvista
 ms.assetid: 74560229-9e97-40b9-961c-6bf726586e27
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NDIS_STATUS_FAILURE, NDIS_STATUS_RESOURCES, NDIS_STATUS_SUCCESS, NdisReadConfiguration, NdisReadConfiguration function [Network Drivers Starting with Windows Vista], ndis/NdisReadConfiguration, ndis_configuration_ref_fb5d2879-b30e-470b-aa07-f5f5286973bf.xml, netvista.ndisreadconfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -213,7 +210,7 @@ Every NDIS driver can set up configuration information in the registry for itsel
     own name as an entry with a preformatted string value that can be passed in calls to the 
     <a href="https://msdn.microsoft.com/b48571eb-13a2-4541-80ac-c8d31f378d37">
     NdisRegisterProtocolDriver</a> function. For more information, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/add-registry-sections-in-a-network-inf-file">Add-registry-sections in
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/add-registry-sections-in-a-network-inf-file">Add-registry-sections in
     a Network INF File</a>.
 
 Each miniport driver also has associated value entries in the registry. The value entries for any
@@ -241,7 +238,7 @@ Note that NDIS does not validate values that a driver reads from the registry. T
     caller determines that a value is out of bounds, it should use a default value instead.
 
 For more information about setup and installation files, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/overview-of-device-and-driver-installation">Device Installation
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/install/overview-of-device-and-driver-installation">Device Installation
     Overview</a>.
 
 

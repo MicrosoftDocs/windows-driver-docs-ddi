@@ -6,11 +6,8 @@ description: This structure contains the fields necessary to carry out a Receive
 old-location: ieee\irb_req_receive_phy_packets.htm
 tech.root: IEEE
 ms.assetid: FE160EB4-EDBD-4783-A02D-F82D2842ADD0
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: 1394/IRB_REQ_RECEIVE_PHY_PACKETS, IEEE.irb_req_receive_phy_packets, IRB_REQ_RECEIVE_PHY_PACKETS, IRB_REQ_RECEIVE_PHY_PACKETS structure [Buses], _IRB_RECEIVE_PHY_PACKETS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 1394.h
 req.include-header: 
@@ -85,7 +82,7 @@ Points to the notification routine for received PHY packets. The following proto
 
 </td>
 <td width="60%">
-The argument that is specified in the <b>u.ReceivePhyPackets.PhyPacketContext</b> parameter when the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ieee/device-driver-interface--ddi--changes-in-windows-7">REQUEST_RECEIVE_PHY_PACKET</a> request is sent.
+The argument that is specified in the <b>u.ReceivePhyPackets.PhyPacketContext</b> parameter when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ieee/device-driver-interface--ddi--changes-in-windows-7">REQUEST_RECEIVE_PHY_PACKET</a> request is sent.
 
 </td>
 </tr>

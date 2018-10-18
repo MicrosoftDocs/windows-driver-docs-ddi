@@ -6,11 +6,8 @@ description: The EvtSerCxFileCleanup event callback function notifies the serial
 old-location: serports\evtsercxfilecleanup.htm
 tech.root: serports
 ms.assetid: D9E19BD1-2C44-4F86-9AEB-F50443FAE8DC
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: 1/EvtSerCxFileCleanup, EVT_SERCX_FILECLEANUP, EVT_SERCX_FILECLEANUP callback, EvtSerCxFileCleanup, EvtSerCxFileCleanup callback function [Serial Ports], serports.evtsercxfilecleanup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sercx.h
 req.include-header: 

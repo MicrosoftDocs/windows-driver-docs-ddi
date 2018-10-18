@@ -6,11 +6,8 @@ description: Gives information about the OPM certificate size.
 old-location: display\idarg_out_opm_get_certificate_size.htm
 tech.root: display
 ms.assetid: 983e4bda-160d-4a3d-9a50-0ceabc70114f
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: IDARG_OUT_OPM_GET_CERTIFICATE_SIZE, IDARG_OUT_OPM_GET_CERTIFICATE_SIZE structure [Display Devices], display.idarg_out_opm_get_certificate_size, iddcx/IDARG_OUT_OPM_GET_CERTIFICATE_SIZE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iddcx.h
 req.include-header: 

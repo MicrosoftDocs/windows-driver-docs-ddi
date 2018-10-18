@@ -4,11 +4,8 @@ title: PFND3D12DDI_CREATE_COMMAND_LIST_0001
 author: windows-driver-content
 description: Creates a command list.
 ms.assetid: ff7999b0-ba8c-4302-b1b8-a65d6ccb2822
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Creates a command list.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATE_COMMAND_LIST_0001 Pfnd3d12ddiCreateCommandList0001; 

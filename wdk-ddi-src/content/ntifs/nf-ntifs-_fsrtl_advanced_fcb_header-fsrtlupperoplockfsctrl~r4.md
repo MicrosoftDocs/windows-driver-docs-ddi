@@ -6,11 +6,8 @@ description: The FsRtlUpperOplockFsctrl routine processes opportunistic lock (op
 old-location: ifsk\fsrtlupperoplockfsctrl.htm
 tech.root: ifsk
 ms.assetid: 1E3C48A0-A161-481C-BF69-69D3FA7B941F
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: FsRtlUpperOplockFsctrl, FsRtlUpperOplockFsctrl routine [Installable File System Drivers], OPLOCK_LEVEL_CACHE_HANDLE, OPLOCK_LEVEL_CACHE_READ, OPLOCK_LEVEL_CACHE_WRITE, ifsk.fsrtlupperoplockfsctrl, ntifs/FsRtlUpperOplockFsctrl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

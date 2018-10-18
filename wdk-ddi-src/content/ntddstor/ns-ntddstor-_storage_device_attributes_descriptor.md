@@ -6,11 +6,8 @@ description: The STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure is used to retri
 old-location: storage\storage_device_attributes_descriptor.htm
 tech.root: storage
 ms.assetid: DA8434EF-6163-4D07-A81D-D1AC2D55BFB4
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure pointer [Storage Devices], STORAGE_ATTRIBUTE_ASYNC_EVENT_NOTIFICATION, STORAGE_ATTRIBUTE_BLOCK_IO, STORAGE_ATTRIBUTE_BYTE_ADDRESSABLE_IO, STORAGE_ATTRIBUTE_DYNAMIC_PERSISTENCE, STORAGE_ATTRIBUTE_PERF_SIZE_INDEPENDENT, STORAGE_ATTRIBUTE_VOLATILE, STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure [Storage Devices], _STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, ntddstor/PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, ntddstor/STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, storage.storage_device_attributes_descriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddstor.h
 req.include-header: Ntddstor.h

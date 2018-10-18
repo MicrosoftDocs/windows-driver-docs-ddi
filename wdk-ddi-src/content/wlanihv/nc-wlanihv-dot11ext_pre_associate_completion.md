@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extpreassociatecompletion.htm
 tech.root: netvista
 ms.assetid: e617c0ac-0f02-4e15-ba11-81de6331b83d
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: DOT11EXT_PRE_ASSOCIATE_COMPLETION, Dot11ExtPreAssociateCompletion, Dot11ExtPreAssociateCompletion callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_aca82f29-a84e-48e3-b239-754b5b49d99c.xml, netvista.dot11extpreassociatecompletion, wlanihv/Dot11ExtPreAssociateCompletion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
@@ -61,14 +58,14 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```cpp
 DWORD WINAPI * Dot11ExtPreAssociateCompletion(
   _In_opt_ HANDLE hDot11SvcHandle,
   _In_opt_ HANDLE hConnectSession,
   _In_     DWORD  dwReasonCode,
   _In_     DWORD  dwWin32Error
 );
-````
+```
 
 
 ## -parameters
@@ -202,7 +199,7 @@ The IHV Extensions DLL must call
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
    Functions</a>
 
 

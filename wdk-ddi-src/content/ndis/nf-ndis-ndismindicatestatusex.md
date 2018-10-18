@@ -6,11 +6,8 @@ description: The NdisMIndicateStatusEx function reports a change in the status o
 old-location: netvista\ndismindicatestatusex.htm
 tech.root: netvista
 ms.assetid: df857349-4ae1-470b-b41a-ff014f40b79b
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisMIndicateStatusEx, NdisMIndicateStatusEx function [Network Drivers Starting with Windows Vista], ndis/NdisMIndicateStatusEx, ndis_status_ref_73b76336-b2c8-41f9-9d4f-12e5c5988a3d.xml, netvista.ndismindicatestatusex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

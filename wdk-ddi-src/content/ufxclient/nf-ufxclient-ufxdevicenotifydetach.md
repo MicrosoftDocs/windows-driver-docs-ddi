@@ -6,11 +6,8 @@ description: Notifies UFX that the device's USB cable has been detached.
 old-location: buses\ufxdevicenotifydetach.htm
 tech.root: usbref
 ms.assetid: 890C7451-D9BF-4019-ABBE-D97446728E6B
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: UfxDeviceNotifyDetach, UfxDeviceNotifyDetach method [Buses], buses.ufxdevicenotifydetach, ufxclient/UfxDeviceNotifyDetach
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ufxclient.h
 req.include-header: 
@@ -96,7 +93,7 @@ DeviceInterrupt_EvtInterruptDpc (
 Routine Description:
 
     'EvtInterruptDpc' handler for the device interrupt object.
-    http://msdn.microsoft.com/en-us/library/windows/hardware/ff541721(v=vs.85).aspx
+    http://msdn.microsoft.com/library/windows/hardware/ff541721(v=vs.85).aspx
 
 Arguments:
 

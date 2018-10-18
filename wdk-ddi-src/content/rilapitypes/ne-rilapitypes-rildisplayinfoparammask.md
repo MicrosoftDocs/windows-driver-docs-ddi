@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rildisplayinfoparammask.htm
 tech.root: netvista
 ms.assetid: deb9da97-7a61-4642-bebd-ab0e4082b410
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RILDISPLAYINFOPARAMMASK, RILDISPLAYINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_DISPLAY_ALL, RIL_PARAM_DISPLAY_MESSAGE, RIL_PARAM_DISPLAY_MESSAGESIZE, RIL_PARAM_DISPLAY_TAG, RIL_PARAM_DISPLAY_TYPE, netvista.rildisplayinfoparammask, ntddrilapitypes/RILDISPLAYINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_DISPLAY_ALL, ntddrilapitypes/RIL_PARAM_DISPLAY_MESSAGE, ntddrilapitypes/RIL_PARAM_DISPLAY_MESSAGESIZE, ntddrilapitypes/RIL_PARAM_DISPLAY_TAG, ntddrilapitypes/RIL_PARAM_DISPLAY_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h

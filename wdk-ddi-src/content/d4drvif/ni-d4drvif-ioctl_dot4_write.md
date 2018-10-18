@@ -6,11 +6,8 @@ description: This topic describes IOCTL_DOT4_WRITE.
 old-location: print\ioctl_ioctl_dot4_write.htm
 tech.root: print
 ms.assetid: 40B095ED-BB8C-4FBC-BA09-A40BC70B8F9D
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IOCTL_DOT4_WRITE, IOCTL_DOT4_WRITE control, IOCTL_DOT4_WRITE control code [Print Devices], d4drvif/IOCTL_DOT4_WRITE, print.ioctl_ioctl_dot4_write
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: d4drvif.h
 req.include-header: 

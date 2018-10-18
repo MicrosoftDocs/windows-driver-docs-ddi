@@ -6,11 +6,8 @@ description: The Storport driver calls the HwStorInterrupt routine after the HBA
 old-location: storage\hwstorinterrupt.htm
 tech.root: storage
 ms.assetid: 3c61d947-3e05-4750-a50c-be9b2dc573f0
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: HW_INTERRUPT, HwStorInterrupt, HwStorInterrupt routine [Storage Devices], storage.hwstorinterrupt, stormini_17f68641-1cfd-47b3-a52f-be98f96e693f.xml, storport/HwStorInterrupt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: storport.h
 req.include-header: Storport.h
@@ -123,7 +120,7 @@ MyHwInterrupt (
 </td>
 </tr>
 </table></span></div>
-The <b>HW_INTERRUPT</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_INTERRUPT</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/40BD11CD-A559-4F90-BF39-4ED2FB800392">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/en-us/library/jj159529.aspx">Annotating Function Behavior</a>.
+The <b>HW_INTERRUPT</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_INTERRUPT</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/40BD11CD-A559-4F90-BF39-4ED2FB800392">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/library/jj159529.aspx">Annotating Function Behavior</a>.
 
 
 

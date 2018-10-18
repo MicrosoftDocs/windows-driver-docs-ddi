@@ -4,7 +4,6 @@ title: IModelIterator::QueryInterface
 author: windows-driver-content
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: 7689b08e-7cfa-4e76-a303-721dd06b0223
-ms.author: windowsdriverdev
 ms.date: 08/13/2018
 ms.topic: method
 ms.keywords: IModelIterator::QueryInterface, QueryInterface, IModelIterator.QueryInterface, IModelIterator::QueryInterface, IModelIterator.QueryInterface

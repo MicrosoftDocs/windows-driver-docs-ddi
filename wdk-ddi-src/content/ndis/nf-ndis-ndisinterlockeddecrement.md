@@ -6,11 +6,8 @@ description: The NdisInterlockedDecrement function decrements a caller-supplied 
 old-location: netvista\ndisinterlockeddecrement.htm
 tech.root: netvista
 ms.assetid: cf425cd6-88e6-479f-a5c7-364ae896145d
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisInterlockedDecrement, NdisInterlockedDecrement macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedDecrement, ndis_interlocked_ref_bbf1ad9d-0f18-4746-9fa3-b2b2c4101a41.xml, netvista.ndisinterlockeddecrement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ndis.h
 req.include-header: Ndis.h

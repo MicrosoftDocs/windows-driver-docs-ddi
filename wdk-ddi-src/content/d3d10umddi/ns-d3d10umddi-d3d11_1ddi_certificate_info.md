@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Specifies a cryptographic session certificate or authenticated channel.
 old-location: display\d3d11_1ddi_certificate_info.htm
 ms.assetid: 9a687c45-2201-483c-b1ad-958b9f651e54
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3D11_1DDI_CERTIFICATE_INFO, D3D11_1DDI_CERTIFICATE_INFO structure [Display Devices], d3d10umddi/D3D11_1DDI_CERTIFICATE_INFO, display.d3d11_1ddi_certificate_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

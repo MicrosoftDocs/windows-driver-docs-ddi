@@ -6,11 +6,8 @@ description: In Microsoft Windows 2000 and later operating systems, this IOCTL i
 old-location: storage\ioctl_disk_check_verify.htm
 tech.root: storage
 ms.assetid: bf2604fe-e7d3-43af-916e-b03979ee71aa
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IOCTL_DISK_CHECK_VERIFY, IOCTL_DISK_CHECK_VERIFY control, IOCTL_DISK_CHECK_VERIFY control code [Storage Devices], k307_6a32996e-8526-466a-bcbe-b79b8bacadc6.xml, ntdddisk/IOCTL_DISK_CHECK_VERIFY, storage.ioctl_disk_check_verify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntdddisk.h
 req.include-header:
@@ -120,7 +117,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 
 

@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_extsta_send_context.htm
 tech.root: netvista
 ms.assetid: 0a4af7dc-0210-42b6-b15b-a0f885664da9
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*PDOT11_EXTAP_SEND_CONTEXT, *PDOT11_EXTSTA_SEND_CONTEXT, DOT11_EXTAP_SEND_CONTEXT, DOT11_EXTSTA_SEND_CONTEXT, DOT11_EXTSTA_SEND_CONTEXT structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_c340a64e-8d74-4e25-83ca-2b93776bd220.xml, PDOT11_EXTSTA_SEND_CONTEXT, PDOT11_EXTSTA_SEND_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_extsta_send_context, windot11/DOT11_EXTSTA_SEND_CONTEXT, windot11/PDOT11_EXTSTA_SEND_CONTEXT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -55,14 +52,14 @@ product:
 <div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_EXTSTA_SEND_CONTEXT structure defines the Native 802.11 attributes of a packet to be sent
   by the miniport driver operating in Extensible Station (ExtSTA) mode. For more information about this
   operation mode, see
-  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
   Mode</a>.
 
 
 ## -syntax
 
 
-````
+```cpp
 typedef struct DOT11_EXTSTA_SEND_CONTEXT {
   NDIS_OBJECT_HEADER Header;
   USHORT             usExemptionActionType;
@@ -71,7 +68,7 @@ typedef struct DOT11_EXTSTA_SEND_CONTEXT {
   PVOID              pvMediaSpecificInfo;
   ULONG              uSendFlags;
 } DOT11_EXTSTA_SEND_CONTEXT, *PDOT11_EXTSTA_SEND_CONTEXT;
-````
+```
 
 
 ## -struct-fields
@@ -160,7 +157,7 @@ The value of an entry in the list of active PHY types defined by the
        that have been activated for use over the current basic service set (BSS) network connection. For more
        information about the
        <b>msDot11ActivePhyList</b> MIB object, see
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>.
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>.
 
 </li>
 <li>
@@ -197,7 +194,7 @@ The 802.11 station is operating in a power save (PS) mode. In this situation, th
        <b>msDot11PowerSavingLevel</b> management information base (MIB) object has any value except
        DOT11_POWER_SAVING_NO_POWER_SAVING. For more information about the
        <b>msDot11PowerSavingLevel</b> MIB value, see
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-power-mgmt-request">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-power-mgmt-request">
        OID_DOT11_POWER_MGMT_REQUEST</a>.
 
 </li>
@@ -265,7 +262,7 @@ The _
 </li>
 </ul>
 For more information about Native 802.11 send operations, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-send-operations">Native 802.11 Send
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-send-operations">Native 802.11 Send
     Operations</a>.
 
 
@@ -281,7 +278,7 @@ For more information about Native 802.11 send operations, see
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>
 
 
 
@@ -289,7 +286,7 @@ For more information about Native 802.11 send operations, see
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-power-mgmt-request">OID_DOT11_POWER_MGMT_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-power-mgmt-request">OID_DOT11_POWER_MGMT_REQUEST</a>
 
 
 

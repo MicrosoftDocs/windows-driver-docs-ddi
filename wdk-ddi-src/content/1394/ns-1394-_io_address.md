@@ -6,11 +6,8 @@ description: The IO_ADDRESS structure specifies the 1394 64-bit destination addr
 old-location: ieee\io_address.htm
 tech.root: IEEE
 ms.assetid: db703d46-d37f-442a-a543-ce9e9c5ea3cb
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PIO_ADDRESS, 1394/IO_ADDRESS, 1394/PIO_ADDRESS, 1394stct_1683915b-161d-4741-91b9-32f632b56e59.xml, IEEE.io_address, IO_ADDRESS, IO_ADDRESS structure [Buses], PIO_ADDRESS, PIO_ADDRESS structure pointer [Buses], _IO_ADDRESS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 1394.h
 req.include-header: 1394.h

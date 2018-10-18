@@ -6,11 +6,8 @@ description: The PERF_CONFIGURATION_DATA structure describes the performance opt
 old-location: storage\perf_configuration_data.htm
 tech.root: storage
 ms.assetid: 47db8f0f-9f3b-44d9-8110-dc0b79d0e26a
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PPERF_CONFIGURATION_DATA, PERF_CONFIGURATION_DATA, PERF_CONFIGURATION_DATA structure [Storage Devices], PPERF_CONFIGURATION_DATA, PPERF_CONFIGURATION_DATA structure pointer [Storage Devices], _PERF_CONFIGURATION_DATA, storage.perf_configuration_data, storport/PERF_CONFIGURATION_DATA, storport/PPERF_CONFIGURATION_DATA, structs-storport_3ff35217-29b1-43ab-a6e4-72aeaf90e931.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: storport.h
 req.include-header: Storport.h

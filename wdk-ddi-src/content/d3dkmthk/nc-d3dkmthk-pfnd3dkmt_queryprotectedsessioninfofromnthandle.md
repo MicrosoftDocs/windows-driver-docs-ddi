@@ -4,11 +4,8 @@ title: PFND3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE
 author: windows-driver-content
 description: Implemented by the client driver to query protected session info from NT handle.
 ms.assetid: d446a771-1b71-458a-9dbb-f36f8838ba19
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to query protected session info from NT handle.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE Pfnd3dkmtQueryprotectedsessioninfofromnthandle;

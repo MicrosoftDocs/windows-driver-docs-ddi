@@ -6,11 +6,8 @@ description: Gets a specified boolean property.
 old-location: print\iprinterscriptablepropertybag_getbool.htm
 tech.root: print
 ms.assetid: EEBB916B-0E7B-4523-BB13-A4758F5491BB
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: GetBool, GetBool method [Print Devices], GetBool method [Print Devices],IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag interface [Print Devices],GetBool method, IPrinterScriptablePropertyBag.GetBool, IPrinterScriptablePropertyBag::GetBool, print.iprinterscriptablepropertybag_getbool, printerextension/IPrinterScriptablePropertyBag::GetBool
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header: 

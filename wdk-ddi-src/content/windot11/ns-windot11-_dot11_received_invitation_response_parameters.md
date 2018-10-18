@@ -6,11 +6,8 @@ description: The parameters for a received invitation response are specified in 
 old-location: netvista\_dot11_received_invitation_response_parameters.htm
 tech.root: netvista
 ms.assetid: 9DAFC0E0-A3F9-4EF1-8FD1-3213AA1CBD18
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*PDOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS, DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS, DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS, PDOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS, netvista._dot11_received_invitation_response_parameters, windot11/DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS, windot11/PDOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Windot11.h
@@ -58,7 +55,7 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS {
   NDIS_OBJECT_HEADER Header;
   DOT11_MAC_ADDRESS  TransmitterDeviceAddress;
@@ -67,7 +64,7 @@ typedef struct _DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS {
   ULONG              uIEsOffset;
   ULONG              uIEsLength;
 } DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS, *PDOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS;
-````
+```
 
 
 ## -struct-fields

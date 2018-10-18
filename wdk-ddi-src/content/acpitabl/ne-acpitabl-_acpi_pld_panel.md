@@ -4,12 +4,9 @@ title: _ACPI_PLD_PANEL enumeration
 author: windows-driver-content
 description: Describes panel surface bits 67:69.
 ms.assetid: 7eb82460-e490-481b-8ef3-18131e876a74
-ms.author: windowsdriverdev
 ms.date: 10/2/2018
 ms.topic: enum
 ms.keywords: _ACPI_PLD_PANEL, ACPI_PLD_PANEL, *PACPI_PLD_PANEL, AcpiPldPanel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: acpitabl.h
 req.include-header:
 req.target-type:

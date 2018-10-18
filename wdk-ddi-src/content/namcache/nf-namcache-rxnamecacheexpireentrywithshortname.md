@@ -6,11 +6,8 @@ description: RxNameCacheExpireEntryWithShortName expires all of the name cache e
 old-location: ifsk\rxnamecacheexpireentrywithshortname.htm
 tech.root: ifsk
 ms.assetid: 4d842454-4a59-4f82-9aeb-3dfbe9d8cd8a
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RxNameCacheExpireEntryWithShortName, RxNameCacheExpireEntryWithShortName function [Installable File System Drivers], ifsk.rxnamecacheexpireentrywithshortname, namcache/RxNameCacheExpireEntryWithShortName, rxref_fcde2e61-9855-4d66-8b81-a437921d5ec5.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: namcache.h
 req.include-header: Namcache.h

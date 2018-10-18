@@ -6,11 +6,8 @@ description: The IOCTL_INTERNAL_RELEASE_PARALLEL_PORT_INFO request returns STATU
 old-location: parports\ioctl_internal_release_parallel_port_info.htm
 tech.root: parports
 ms.assetid: 1a28e6db-b140-42aa-be52-fb5655983383
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IOCTL_INTERNAL_RELEASE_PARALLEL_PORT_INFO, IOCTL_INTERNAL_RELEASE_PARALLEL_PORT_INFO control code [Parallel Ports], cisspd_3bbcd68f-ea0d-46c8-8aab-0e33dcb4afad.xml, parallel/IOCTL_INTERNAL_RELEASE_PARALLEL_PORT_INFO, parports.ioctl_internal_release_parallel_port_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: parallel.h
 req.include-header: Parallel.h
@@ -50,7 +47,7 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ##  Major Code:
 
 
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

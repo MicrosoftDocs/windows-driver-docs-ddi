@@ -4,11 +4,8 @@ title: PFND3D12DDI_CREATE_ROOT_SIGNATURE_0001
 author: windows-driver-content
 description: Create a root signature.
 ms.assetid: d490391a-016e-480f-a9b7-db2182f62b52
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Create a root signature.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATE_ROOT_SIGNATURE_0001 Pfnd3d12ddiCreateRootSignature0001; 

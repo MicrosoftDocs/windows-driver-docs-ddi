@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Arguments for the DxgkDdiGetPostCompositionCaps function.
 old-location: display\dxgkarg_getpostcompositioncaps.htm
 ms.assetid: 0C8A0F83-9D12-46F1-A8B1-3BCF219A3BF7
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: "*IN_OUT_PDXGKARG_GETPOSTCOMPOSITIONCAPS, DXGKARG_GETPOSTCOMPOSITIONCAPS, DXGKARG_GETPOSTCOMPOSITIONCAPS structure [Display Devices], _DXGKARG_GETPOSTCOMPOSITIONCAPS, d3dkmddi/DXGKARG_GETPOSTCOMPOSITIONCAPS, display.dxgkarg_getpostcompositioncaps"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmddi.h
 req.include-header: 

@@ -4,11 +4,8 @@ title: _D3DDDIRECTPATCH_INFO
 author: windows-driver-content
 description: Contains direct patch info.
 ms.assetid: a70a51fa-7efb-4b84-afe4-524fe3295b34
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DDDIRECTPATCH_INFO, D3DDDIRECTPATCH_INFO, 
 req.header: d3dumddi.h
 req.include-header:

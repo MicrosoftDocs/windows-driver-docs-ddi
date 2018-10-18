@@ -6,11 +6,8 @@ description: A UMDF-based driver's OnRemoteInterfaceEvent event callback functio
 old-location: wdf\iremoteinterfacecallbackevent_onremoteinterfaceevent.htm
 tech.root: wdf
 ms.assetid: 6cee6662-2eef-4caf-ab70-780748521ba9
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IRemoteInterfaceCallbackEvent interface,OnRemoteInterfaceEvent method, IRemoteInterfaceCallbackEvent.OnRemoteInterfaceEvent, IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent, OnRemoteInterfaceEvent, OnRemoteInterfaceEvent method, OnRemoteInterfaceEvent method,IRemoteInterfaceCallbackEvent interface, UMDFIoTargetObjectRef_4adfa540-b8f4-416f-b8c2-f0aec6e87619.xml, umdf.iremoteinterfacecallbackevent_onremoteinterfaceevent, wdf.iremoteinterfacecallbackevent_onremoteinterfaceevent, wudfddi/IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,9 +47,9 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
-A UMDF-based driver's <b>OnRemoteInterfaceEvent</b> event callback function handles device events that are associated with a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a>.
+A UMDF-based driver's <b>OnRemoteInterfaceEvent</b> event callback function handles device events that are associated with a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a>.
 
 
 ## -parameters
@@ -100,9 +97,9 @@ None.
 
 A driver's <b>OnRemoteInterfaceEvent</b> event callback function handles all device events except arrival and removal events. Such events can originate from a UMDF-based driver's call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff558835">IWDFDevice::PostEvent</a> or from a kernel-mode driver's call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549625">IoReportTargetDeviceChange</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff549634">IoReportTargetDeviceChangeAsynchronous</a>.
 
-The framework begins calling the <b>OnRemoteInterfaceEvent</b> event callback function after the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a> and continues to call the callback function until the device interface's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a> is closed.
+The framework begins calling the <b>OnRemoteInterfaceEvent</b> event callback function after the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a> and continues to call the callback function until the device interface's <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a> is closed.
 
-For more information about a driver's <b>OnRemoteInterfaceEvent</b> event callback function, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">Using Device Interfaces in UMDF-based Drivers</a>.
+For more information about a driver's <b>OnRemoteInterfaceEvent</b> event callback function, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">Using Device Interfaces in UMDF-based Drivers</a>.
 
 
 

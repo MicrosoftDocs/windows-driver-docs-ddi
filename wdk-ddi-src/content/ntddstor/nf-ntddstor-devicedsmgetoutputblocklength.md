@@ -4,7 +4,6 @@ title: DeviceDsmGetOutputBlockLength function
 author: windows-driver-content
 description: The DeviceDsmGetOutputBlockLength function gets the length, in bytes, of an output block.
 ms.assetid: 57512e92-810a-423e-98c0-be892cc81c88
-ms.author: windowsdriverdev
 ms.date: 04/11/2018
 ms.topic: function
 ms.keywords: DeviceDsmGetOutputBlockLength

@@ -6,11 +6,8 @@ description: The FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER structure holds informa
 old-location: storage\feature_data_logical_unit_serial_number.htm
 tech.root: storage
 ms.assetid: 74917f45-5a76-4112-ade2-992249500dc3
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PFEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER, FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER, FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER structure [Storage Devices], PFEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER, PFEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER structure pointer [Storage Devices], _FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER, ntddmmc/FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER, ntddmmc/PFEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER, storage.feature_data_logical_unit_serial_number, structs-CD-ROM_c7f48548-00ff-49a8-93ac-2cab0e838e14.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h

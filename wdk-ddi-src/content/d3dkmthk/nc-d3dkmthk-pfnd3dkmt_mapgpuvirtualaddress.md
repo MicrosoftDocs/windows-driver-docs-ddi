@@ -4,11 +4,8 @@ title: PFND3DKMT_MAPGPUVIRTUALADDRESS
 author: windows-driver-content
 description: Pfnd3dkmtMapgpuvirtualaddress maps a graphics processing unit (GPU) virtual address ranges to a specific allocation range or puts it to the Invalid or Zero state.
 ms.assetid: 261e50b0-8a71-4f06-84d5-b5601c469aac
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Pfnd3dkmtMapgpuvirtualaddress maps a graphics processing unit (GPU) virtual addr
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_MAPGPUVIRTUALADDRESS Pfnd3dkmtMapgpuvirtualaddress; 

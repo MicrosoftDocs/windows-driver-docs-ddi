@@ -6,11 +6,8 @@ description: The KSIDENTIFIER structure specifies a GUID that uniquely identifie
 old-location: stream\ksidentifier.htm
 tech.root: stream
 ms.assetid: b89977da-d3ac-4f1f-867e-b3b7912b955d
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PKSDEGRADE, *PKSEVENT, *PKSIDENTIFIER, *PKSMETHOD, *PKSPIN_INTERFACE, *PKSPIN_MEDIUM, *PKSPROPERTY, KSDEGRADE, KSEVENT, KSIDENTIFIER, KSIDENTIFIER structure [Streaming Media Devices], KSMETHOD, KSPIN_INTERFACE, KSPIN_MEDIUM, KSPROPERTY, PKSIDENTIFIER, PKSIDENTIFIER structure pointer [Streaming Media Devices], ks-struct_652a0465-0c2b-4e46-ac43-7a6c5bbdaf80.xml, ks/KSIDENTIFIER, ks/PKSIDENTIFIER, stream.ksidentifier"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ks.h
 req.include-header: Ks.h

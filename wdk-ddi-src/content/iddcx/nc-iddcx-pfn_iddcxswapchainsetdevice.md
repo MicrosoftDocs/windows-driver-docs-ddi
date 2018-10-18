@@ -4,11 +4,8 @@ title: *PFN_IDDCXSWAPCHAINSETDEVICE
 author: windows-driver-content
 description: An OS callback function that the driver calls within its SetSwapChain routine, to set up the swap-chain with a particular DXGI device.
 ms.assetid: b1f26c55-3171-4421-9948-ebdeaea12454
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: iddcx.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ An OS callback function that the driver calls within its SetSwapChain routine, t
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 *PFN_IDDCXSWAPCHAINSETDEVICE *PfnIddcxswapchainsetdevice;

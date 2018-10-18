@@ -4,11 +4,8 @@ title: _D3DDDICB_SUBMITPRESENTTOHWQUEUE
 author: windows-driver-content
 description: Arguments used by the PFND3DDDI_SUBMITPRESENTTOHWQUEUECB callback function.
 ms.assetid: 47ca9041-9e7a-4afa-9e82-0148f8985078
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DDDICB_SUBMITPRESENTTOHWQUEUE, D3DDDICB_SUBMITPRESENTTOHWQUEUE, 
 req.header: d3dumddi.h
 req.include-header:

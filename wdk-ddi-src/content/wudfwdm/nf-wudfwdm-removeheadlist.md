@@ -6,11 +6,8 @@ description: The RemoveHeadList routine removes an entry from the beginning of a
 old-location: kernel\removeheadlist.htm
 tech.root: kernel
 ms.assetid: 8748451c-3e57-4acf-b1e6-b80fe7f461d8
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RemoveHeadList, RemoveHeadList routine [Kernel-Mode Driver Architecture], k109_f16481a9-4fd3-4b81-9fd3-aa77b20f9873.xml, kernel.removeheadlist, wdm/RemoveHeadList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wudfwdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h

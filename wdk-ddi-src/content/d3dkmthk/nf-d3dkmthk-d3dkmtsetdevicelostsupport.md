@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Used to indicate that the device has lost support.
 old-location: display\d3dkmtsetdevicelostsupport.htm
 ms.assetid: 9b7469cb-d489-4428-8167-91b26e1fa348
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DKMTSetDeviceLostSupport, D3DKMTSetDeviceLostSupport method [Display Devices], d3dkmthk/D3DKMTSetDeviceLostSupport, display.d3dkmtsetdevicelostsupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dkmthk.h
 req.include-header:

@@ -6,11 +6,8 @@ description: Describes device interface class information associated with a USB 
 old-location: buses\usbfn_class_information_packet_ex.htm
 tech.root: usbref
 ms.assetid: 373D7CA9-AF1B-46E8-AE6A-F693A9214527
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: "*PUSBFN_CLASS_INFORMATION_PACKET_EX, PUSBFN_CLASS_INFORMATION_PACKET_EX, PUSBFN_CLASS_INFORMATION_PACKET_EX structure pointer [Buses], USBFN_CLASS_INFORMATION_PACKET_EX, USBFN_CLASS_INFORMATION_PACKET_EX structure [Buses], _USBFN_CLASS_INFORMATION_PACKET_EX, buses.usbfn_class_information_packet_ex, usbfnbase/PUSBFN_CLASS_INFORMATION_PACKET_EX, usbfnbase/USBFN_CLASS_INFORMATION_PACKET_EX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: usbfnbase.h
 req.include-header: 

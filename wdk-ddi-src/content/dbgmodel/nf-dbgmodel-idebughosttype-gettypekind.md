@@ -4,7 +4,6 @@ title: IDebugHostType::GetTypeKind
 author: windows-driver-content
 description: The GetTypeKind method returns what kind of type (pointer, array, intrinsic, etc...) the symbol refers to. 
 ms.assetid: e91dc827-48b6-4295-abe8-78ff7bb25b29
-ms.author: windowsdriverdev
 ms.date: 09/10/2018 
 ms.topic: method
 ms.keywords: IDebugHostType::GetTypeKind, GetTypeKind, IDebugHostType.GetTypeKind, IDebugHostType::GetTypeKind, IDebugHostType.GetTypeKind

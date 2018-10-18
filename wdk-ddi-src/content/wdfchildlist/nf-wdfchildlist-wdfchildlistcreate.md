@@ -6,11 +6,8 @@ description: The WdfChildListCreate method creates a child list for a specified 
 old-location: wdf\wdfchildlistcreate.htm
 tech.root: wdf
 ms.assetid: 88af6933-09f0-4248-9003-62f486d38645
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectChildListRef_750e00c2-f0a0-4a3f-a357-09de7568e268.xml, WdfChildListCreate, WdfChildListCreate method, kmdf.wdfchildlistcreate, wdf.wdfchildlistcreate, wdfchildlist/WdfChildListCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
@@ -137,7 +134,7 @@ The parent of each child-list object is the device's framework device object. Th
 
 Your driver cannot delete the child-list object that <b>WdfChildListCreate</b> creates. The framework deletes the object at the proper time.
 
-For more information about child lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
+For more information about child lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
 
 #### Examples

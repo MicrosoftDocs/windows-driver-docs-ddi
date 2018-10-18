@@ -6,11 +6,8 @@ description: The NdisDprAcquireReadWriteLock function acquires a lock that the c
 old-location: netvista\ndisdpracquirereadwritelock.htm
 tech.root: netvista
 ms.assetid: 09B574FA-BCBA-4370-8F9F-BF30CE0BE52D
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisDprAcquireReadWriteLock, NdisDprAcquireReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisDprAcquireReadWriteLock, netvista.ndisdpracquirereadwritelock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -130,7 +127,7 @@ The driver cannot use a lock to protect resources from read or write access that
     MiniportDisableInterruptEx</i> functions do.
 
 For more information about acquiring and releasing NDIS spin locks, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/synchronization-and-notification-in-network-drivers">Synchronization
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronization-and-notification-in-network-drivers">Synchronization
     and Notification in Network Drivers</a>.
 
 

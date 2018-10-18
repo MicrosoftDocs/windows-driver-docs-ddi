@@ -6,11 +6,8 @@ description: The WSK_EVENT_CALLBACK_CONTROL structure specifies the information 
 old-location: netvista\wsk_event_callback_control.htm
 tech.root: netvista
 ms.assetid: 152e142a-dda4-4540-b1a9-14625f4653bb
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PWSK_EVENT_CALLBACK_CONTROL, PWSK_EVENT_CALLBACK_CONTROL, PWSK_EVENT_CALLBACK_CONTROL structure pointer [Network Drivers Starting with Windows Vista], WSK_EVENT_CALLBACK_CONTROL, WSK_EVENT_CALLBACK_CONTROL structure [Network Drivers Starting with Windows Vista], _WSK_EVENT_CALLBACK_CONTROL, netvista.wsk_event_callback_control, wsk/PWSK_EVENT_CALLBACK_CONTROL, wsk/WSK_EVENT_CALLBACK_CONTROL, wskref_22cd0a01-12fe-4e5a-a423-c3198cc5ab05.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsk.h
 req.include-header: Wsk.h
@@ -62,7 +59,7 @@ The WSK_EVENT_CALLBACK_CONTROL structure specifies the information for enabling 
 ### -field NpiId
 
 A pointer to a 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
      (NPI)</a> identifier that specifies the NPI for the event callback function that is being enabled or
      disabled. For enabling or disabling any of the standard WSK event callback functions, this member is a
      pointer to the WSK NPI identifier, NPI_WSK_INTERFACE_ID. For enabling or disabling any event callback
@@ -92,11 +89,11 @@ A WSK application can enable any combination of event callback functions for a s
 
 For more information about statically enabling certain event callback functions for all of the sockets
     that are created by a WSK application, see 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff571181">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571181">
     WSK_SET_STATIC_EVENT_CALLBACKS</a>.
 
 For more information about enabling and disabling a socket's event callback functions, see 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa363707">Enabling and
+    <a href="https://msdn.microsoft.com/library/windows/desktop/aa363707">Enabling and
     Disabling Event Callback Functions</a>.
 
 
@@ -111,7 +108,7 @@ For more information about enabling and disabling a socket's event callback func
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff571181">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571181">
    WSK_SET_STATIC_EVENT_CALLBACKS</a>
 
 

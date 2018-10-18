@@ -6,11 +6,8 @@ description: Disables the counters that were enabled by previous calls to IOCTL_
 old-location: storage\ioctl_disk_performance_off.htm
 tech.root: storage
 ms.assetid: 9a56ac86-2d39-4367-8e64-b6f6bc0da0ea
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IOCTL_DISK_PERFORMANCE_OFF, IOCTL_DISK_PERFORMANCE_OFF control, IOCTL_DISK_PERFORMANCE_OFF control code [Storage Devices], k307_af1f6a33-e2e5-4ba0-96ad-f1d84c30ef76.xml, ntdddisk/IOCTL_DISK_PERFORMANCE_OFF, storage.ioctl_disk_performance_off
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h

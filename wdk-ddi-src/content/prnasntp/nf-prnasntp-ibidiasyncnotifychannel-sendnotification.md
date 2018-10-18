@@ -6,11 +6,8 @@ description:
 old-location: print\ibidiasyncnotifychannel_sendnotification.htm
 tech.root: print
 ms.assetid: FADB79BD-0404-4116-9EE8-AE7C063DBF26
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IBidiAsyncNotifyChannel interface [Print Devices],SendNotification method, IBidiAsyncNotifyChannel.SendNotification, IBidiAsyncNotifyChannel::SendNotification, SendNotification, SendNotification method [Print Devices], SendNotification method [Print Devices],IBidiAsyncNotifyChannel interface, print.ibidiasyncnotifychannel_sendnotification, prnasntp/IBidiAsyncNotifyChannel::SendNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prnasntp.h
 req.include-header: 

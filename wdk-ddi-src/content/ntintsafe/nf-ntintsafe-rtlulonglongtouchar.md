@@ -6,11 +6,8 @@ description: Converts a value of type ULONGLONG to a value of type UCHAR.
 old-location: kernel\rtlulonglongtouchar.htm
 tech.root: kernel
 ms.assetid: 3A701A1B-257F-42C4-80A7-8CFF0DAD1A83
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlULongLongToUChar, RtlULongLongToUChar function [Kernel-Mode Driver Architecture], kernel.rtlulonglongtouchar, ntintsafe/RtlULongLongToUChar
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

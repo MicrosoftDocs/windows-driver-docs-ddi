@@ -6,11 +6,8 @@ description: The SRBEX_DATA_SCSI_CDB_VAR structure contains the extended SRB dat
 old-location: storage\srbex_data_scsi_cdb_var.htm
 tech.root: storage
 ms.assetid: 8D3BD2E0-02EA-4745-AA1C-86D829E6BA81
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PSRBEX_DATA_SCSI_CDB_VAR, PSRBEX_DATA_SCSI_CDB_VAR, PSRBEX_DATA_SCSI_CDB_VAR structure pointer [Storage Devices], SRBEX_DATA_SCSI_CDB_VAR, SRBEX_DATA_SCSI_CDB_VAR structure [Storage Devices], _SRBEX_DATA_SCSI_CDB_VAR, storage.srbex_data_scsi_cdb_var, storport/PSRBEX_DATA_SCSI_CDB_VAR, storport/SRBEX_DATA_SCSI_CDB_VAR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: minitape.h
 req.include-header: Storport.h, Srb.h, Minitape.h
@@ -51,7 +48,7 @@ req.typenames: SRBEX_DATA_SCSI_CDB_VAR, *PSRBEX_DATA_SCSI_CDB_VAR
 
 
 The <b>SRBEX_DATA_SCSI_CDB_VAR</b> structure contains the extended SRB data for a variable length SCSI command data block (CDB).
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -struct-fields
 

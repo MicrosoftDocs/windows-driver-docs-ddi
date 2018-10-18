@@ -6,11 +6,8 @@ description: The ProviderSetObject function sets information that is associated 
 old-location: netvista\providersetobject.htm
 tech.root: netvista
 ms.assetid: e5dcb46e-5a8a-45b7-b6aa-150a9cec0155
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*IFP_SET_OBJECT, *IFP_SET_OBJECT callback function [Network Drivers Starting with Windows Vista], IF_SET_OBJECT, IF_SET_OBJECT callback, ProviderSetObject, ProviderSetObject callback function [Network Drivers Starting with Windows Vista], ndis/ProviderSetObject, net_if_provider_functions_ref_8da505c4-dd64-43c8-a6a4-ad13cc4b18d0.xml, netvista.providersetobject"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -71,7 +68,7 @@ A handle that identifies the interface provider's context area for the interface
 
 An identifier for the object that is the target of the set request. For a list of object
      identifiers (OIDs) that apply to interface providers, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/mapping-of-ndis-network-interfaces-to-ndis-oids">NDIS Network Interface
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mapping-of-ndis-network-interfaces-to-ndis-oids">NDIS Network Interface
      OIDs</a>.
 
 
@@ -156,7 +153,7 @@ The call failed for some other reason. This function can propagate error codes f
 NDIS calls a network interface provider's 
     <i>ProviderSetObject</i> function to set information that is associated with an interface that the
     provider registered. For a list of OIDs that apply to interface providers, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/mapping-of-ndis-network-interfaces-to-ndis-oids">NDIS Network Interface OIDs</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mapping-of-ndis-network-interfaces-to-ndis-oids">NDIS Network Interface OIDs</a>.
 
 Note that there are currently no set OIDs defined.
 

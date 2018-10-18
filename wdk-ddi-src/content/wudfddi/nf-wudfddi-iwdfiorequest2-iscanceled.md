@@ -6,11 +6,8 @@ description: The IsCanceled method determines whether the I/O manager has attemp
 old-location: wdf\iwdfiorequest2_iscanceled.htm
 tech.root: wdf
 ms.assetid: 68523fcb-bb0d-492f-b6ae-3dab4f6aa637
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IWDFIoRequest2 interface,IsCanceled method, IWDFIoRequest2.IsCanceled, IWDFIoRequest2::IsCanceled, IsCanceled, IsCanceled method, IsCanceled method,IWDFIoRequest2 interface, UMDFRequestObjectRef_7fdd0046-2e99-4221-9e73-c1bebf6251aa.xml, umdf.iwdfiorequest2_iscanceled, wdf.iwdfiorequest2_iscanceled, wudfddi/IWDFIoRequest2::IsCanceled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>IsCanceled</b> method determines whether the I/O manager has attempted to cancel an I/O request.
 
@@ -90,7 +87,7 @@ A driver can call <b>IsCanceled</b> for a request only if the driver owns the I/
 
 If <b>IsCanceled</b> returns <b>TRUE</b>, your driver should cancel the request by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a> with the <i>CompletionStatus</i> parameter set to HRESULT_FROM_WIN32(ERROR_OPERATION_ABORTED).
 
-For more information about <b>IsCanceled</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/canceling-i-o-requests">Canceling I/O Requests</a>.
+For more information about <b>IsCanceled</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/canceling-i-o-requests">Canceling I/O Requests</a>.
 
 
 #### Examples

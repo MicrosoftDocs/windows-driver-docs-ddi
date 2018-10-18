@@ -6,11 +6,8 @@ description: The IWiaLog interface is obsolete for Windows XP and later, and is 
 old-location: image\iwialog_log.htm
 tech.root: image
 ms.assetid: bca012b4-76ae-4ba5-99b4-92a367774de7
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IWiaLog interface [Imaging Devices],Log method, IWiaLog.Log, IWiaLog::Log, IWiaLog_e3605b5e-0494-46a7-85c1-3a0707a74764.xml, Log, Log method [Imaging Devices], Log method [Imaging Devices],IWiaLog interface, image.iwialog_log, wia_lh/IWiaLog::Log
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_lh.h
 req.include-header: 

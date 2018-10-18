@@ -6,11 +6,8 @@ description: The RtlSetOwnerSecurityDescriptor routine sets the owner informatio
 old-location: ifsk\rtlsetownersecuritydescriptor.htm
 tech.root: ifsk
 ms.assetid: 43392c57-8fe9-4219-9f00-ac73c83c3abc
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RtlSetOwnerSecurityDescriptor, RtlSetOwnerSecurityDescriptor routine [Installable File System Drivers], ifsk.rtlsetownersecuritydescriptor, ntifs/RtlSetOwnerSecurityDescriptor, rtlref_c8ec0e44-dadc-42ad-9947-2ecb5ec4aa57.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

@@ -6,11 +6,8 @@ description: The PCI_EXPRESS_CORRECTABLE_ERROR_MASK structure describes a PCI Ex
 old-location: pci\pci_express_correctable_error_mask.htm
 tech.root: PCI
 ms.assetid: d666cdd3-a673-4105-b982-e7cc942131ee
-ms.author: windowsdriverdev
 ms.date: 2/24/2018
 ms.keywords: "*PPCI_CORRECTABLE_ERROR_MASK, PCI.pci_express_correctable_error_mask, PCI_EXPRESS_CORRECTABLE_ERROR_MASK, PCI_EXPRESS_CORRECTABLE_ERROR_MASK union [Buses], PPCI_CORRECTABLE_ERROR_MASK, PPCI_CORRECTABLE_ERROR_MASK union pointer [Buses], _PCI_EXPRESS_CORRECTABLE_ERROR_MASK, pci_struct_770185be-12f9-4519-8077-6d90e8344590.xml, wdm/PCI_EXPRESS_CORRECTABLE_ERROR_MASK, wdm/PPCI_CORRECTABLE_ERROR_MASK"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: miniport.h
 req.include-header: Ntddk.h, Wdm.h, Miniport.h
@@ -56,7 +53,7 @@ The PCI_EXPRESS_CORRECTABLE_ERROR_MASK structure describes a PCI Express (PCIe) 
 ## -syntax
 
 
-````
+```cpp
 typedef union _PCI_EXPRESS_CORRECTABLE_ERROR_MASK {
   struct {
     ULONG ReceiverError  :1;
@@ -71,7 +68,7 @@ typedef union _PCI_EXPRESS_CORRECTABLE_ERROR_MASK {
   };
   ULONG  AsULONG;
 } PCI_EXPRESS_CORRECTABLE_ERROR_MASK, *PPCI_CORRECTABLE_ERROR_MASK;
-````
+```
 
 
 ## -struct-fields

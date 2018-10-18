@@ -6,11 +6,8 @@ description: NdisRawWritePortBufferUlong writes a specified number of ULONG valu
 old-location: netvista\ndisrawwriteportbufferulong.htm
 tech.root: netvista
 ms.assetid: f97aa977-289b-4a46-b724-9a5c1b468b74
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisRawWritePortBufferUlong, NdisRawWritePortBufferUlong macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_6d507471-8935-42d8-8e13-8b82496bca57.xml, ndis/NdisRawWritePortBufferUlong, netvista.ndisrawwriteportbufferulong
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ndis.h
 req.include-header: Ndis.h

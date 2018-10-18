@@ -6,11 +6,8 @@ description: Given an IRP_MJ_CREATE request, the KsCreateDefaultClock function c
 old-location: stream\kscreatedefaultclock.htm
 tech.root: stream
 ms.assetid: 38ac85bc-9ace-4e70-a886-92e18afb32db
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsCreateDefaultClock, KsCreateDefaultClock function [Streaming Media Devices], ks/KsCreateDefaultClock, ksfunc_eb8617e1-d6e0-434d-bace-cec6b2b1cce1.xml, stream.kscreatedefaultclock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

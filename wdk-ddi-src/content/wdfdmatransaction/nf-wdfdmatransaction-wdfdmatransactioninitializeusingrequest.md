@@ -6,11 +6,8 @@ description: The WdfDmaTransactionInitializeUsingRequest method initializes a sp
 old-location: wdf\wdfdmatransactioninitializeusingrequest.htm
 tech.root: wdf
 ms.assetid: 5a59c1cc-b5a9-4e94-966d-9998a98d6ad2
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDmaObjectRef_b61c1d2b-b62e-4f04-b7ff-53a8e819062a.xml, WdfDmaTransactionInitializeUsingRequest, WdfDmaTransactionInitializeUsingRequest method, kmdf.wdfdmatransactioninitializeusingrequest, wdf.wdfdmatransactioninitializeusingrequest, wdfdmatransaction/WdfDmaTransactionInitializeUsingRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
@@ -127,11 +124,11 @@ The request type is <b>WdfRequestTypeDeviceControl</b> or <b>WdfRequestTypeDevic
 </ul>
 For more information about transfer types for I/O control codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543023">Defining I/O Control Codes</a>.
 
-Framework-based drivers typically call <b>WdfDmaTransactionInitializeUsingRequest</b> from within an <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-handlers">I/O queue event callback function</a>. 
+Framework-based drivers typically call <b>WdfDmaTransactionInitializeUsingRequest</b> from within an <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/request-handlers">I/O queue event callback function</a>. 
 
 Your driver should call <b>WdfDmaTransactionInitializeUsingRequest</b> if you are creating a DMA transaction that is based on information that a framework request object contains. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff547099">WdfDmaTransactionInitialize</a> if you are creating a DMA transaction that is not based on a request object.
 
-If the buffer that the request object describes is larger than the maximum transfer length that your driver specified when it called <a href="https://msdn.microsoft.com/library/windows/hardware/ff546983">WdfDmaEnablerCreate</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff547127">WdfDmaTransactionSetMaximumLength</a>, the framework breaks the transaction into multiple <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dma-transactions-and-dma-transfers">transfers</a>.  
+If the buffer that the request object describes is larger than the maximum transfer length that your driver specified when it called <a href="https://msdn.microsoft.com/library/windows/hardware/ff546983">WdfDmaEnablerCreate</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff547127">WdfDmaTransactionSetMaximumLength</a>, the framework breaks the transaction into multiple <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dma-transactions-and-dma-transfers">transfers</a>.  
 
 For more information about DMA transactions, see <a href="https://msdn.microsoft.com/1982c3fa-9e4a-4b26-8902-321223d9159f">Creating and Initializing a DMA Transaction</a>. 
 

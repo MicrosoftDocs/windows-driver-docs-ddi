@@ -6,11 +6,8 @@ description: The MmBuildMdlForNonPagedPool routine receives an MDL that specifie
 old-location: kernel\mmbuildmdlfornonpagedpool.htm
 tech.root: kernel
 ms.assetid: f83a9a57-be44-4aa0-bb2e-740f48d82e06
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: MmBuildMdlForNonPagedPool, MmBuildMdlForNonPagedPool routine [Kernel-Mode Driver Architecture], k106_58d8437c-b6da-4b88-85a4-300392fb58f9.xml, kernel.mmbuildmdlfornonpagedpool, wdm/MmBuildMdlForNonPagedPool
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

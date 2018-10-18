@@ -6,11 +6,8 @@ description: The WdfUsbTargetPipeGetIoTarget method returns a handle to the I/O 
 old-location: wdf\wdfusbtargetpipegetiotarget.htm
 tech.root: wdf
 ms.assetid: 73835623-fa35-46f0-90a2-62d6d596dc64
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFUsbRef_87bfc4fc-266b-44ca-911f-fc5d73735a6a.xml, WdfUsbTargetPipeGetIoTarget, WdfUsbTargetPipeGetIoTarget method, kmdf.wdfusbtargetpipegetiotarget, wdf.wdfusbtargetpipegetiotarget, wdfusb/WdfUsbTargetPipeGetIoTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

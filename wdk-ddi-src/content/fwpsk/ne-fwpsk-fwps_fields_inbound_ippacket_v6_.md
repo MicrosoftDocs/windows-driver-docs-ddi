@@ -6,11 +6,8 @@ description: The FWPS_FIELDS_INBOUND_IPPACKET_V6 enumeration type specifies the 
 old-location: netvista\fwps_fields_inbound_ippacket_v6.htm
 tech.root: netvista
 ms.assetid: 764cee8d-d690-4d31-a6fc-677419513a15
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FWPS_FIELDS_INBOUND_IPPACKET_V6, FWPS_FIELDS_INBOUND_IPPACKET_V6 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELDS_INBOUND_IPPACKET_V6_, FWPS_FIELD_INBOUND_IPPACKET_V6_FLAGS, FWPS_FIELD_INBOUND_IPPACKET_V6_INTERFACE_INDEX, FWPS_FIELD_INBOUND_IPPACKET_V6_INTERFACE_TYPE, FWPS_FIELD_INBOUND_IPPACKET_V6_IP_LOCAL_ADDRESS, FWPS_FIELD_INBOUND_IPPACKET_V6_IP_LOCAL_ADDRESS_TYPE, FWPS_FIELD_INBOUND_IPPACKET_V6_IP_LOCAL_INTERFACE, FWPS_FIELD_INBOUND_IPPACKET_V6_IP_REMOTE_ADDRESS, FWPS_FIELD_INBOUND_IPPACKET_V6_MAX, FWPS_FIELD_INBOUND_IPPACKET_V6_SUB_INTERFACE_INDEX, FWPS_FIELD_INBOUND_IPPACKET_V6_TUNNEL_TYPE, fwpsk/FWPS_FIELDS_INBOUND_IPPACKET_V6, fwpsk/FWPS_FIELD_INBOUND_IPPACKET_V6_FLAGS, fwpsk/FWPS_FIELD_INBOUND_IPPACKET_V6_INTERFACE_INDEX, fwpsk/FWPS_FIELD_INBOUND_IPPACKET_V6_INTERFACE_TYPE, fwpsk/FWPS_FIELD_INBOUND_IPPACKET_V6_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_INBOUND_IPPACKET_V6_IP_LOCAL_ADDRESS_TYPE, fwpsk/FWPS_FIELD_INBOUND_IPPACKET_V6_IP_LOCAL_INTERFACE, fwpsk/FWPS_FIELD_INBOUND_IPPACKET_V6_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_INBOUND_IPPACKET_V6_MAX, fwpsk/FWPS_FIELD_INBOUND_IPPACKET_V6_SUB_INTERFACE_INDEX, fwpsk/FWPS_FIELD_INBOUND_IPPACKET_V6_TUNNEL_TYPE, netvista.fwps_fields_inbound_ippacket_v6, wfp_ref_5_const_3_data_fields_7185d69a-4508-4b06-b2e3-edee65a7f8c0.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
@@ -52,7 +49,7 @@ req.typenames: FWPS_FIELDS_INBOUND_IPPACKET_V6
 
 The FWPS_FIELDS_INBOUND_IPPACKET_V6 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_INBOUND_IPPACKET_V6 and FWPS_LAYER_INBOUND_IPPACKET_V6_DISCARD 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layers</a>.
+  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layers</a>.
 
 
 ## -enum-fields

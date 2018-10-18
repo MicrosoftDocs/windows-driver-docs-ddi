@@ -6,11 +6,8 @@ description: The INDICATION_PARAMETERS_ENHANCED structure is passed as the Param
 old-location: bltooth\indication_parameters_enhanced.htm
 tech.root: bltooth
 ms.assetid: D0FBA555-B61F-4D6F-B93F-C77D395F2BCD
-ms.author: windowsdriverdev
 ms.date: 4/27/2018
 ms.keywords: "*PINDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED structure [Bluetooth Devices], PINDICATION_PARAMETERS_ENHANCED, PINDICATION_PARAMETERS_ENHANCED structure pointer [Bluetooth Devices], _INDICATION_PARAMETERS_ENHANCED, bltooth.indication_parameters_enhanced, bthddi/INDICATION_PARAMETERS_ENHANCED, bthddi/PINDICATION_PARAMETERS_ENHANCED"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h

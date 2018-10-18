@@ -69,5 +69,5 @@ To develop Windows Driver Framework, you need these headers:
  * [wudfwdm.h](..\wudfwdm\index.md)
  * [wudfworkitem.h](..\wudfworkitem\index.md)
 
-For the programming guide, see [Windows Driver Framework](https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf).
+For the programming guide, see [Windows Driver Framework](https://docs.microsoft.com/windows-hardware/drivers/wdf).
 

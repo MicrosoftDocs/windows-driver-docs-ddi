@@ -6,11 +6,8 @@ description: The FltGetActivityIdCallbackData routine retrieves the current acti
 old-location: ifsk\fltgetactivityidcallbackdata.htm
 tech.root: ifsk
 ms.assetid: 3DAA2135-768E-4A37-B2FD-9915F16D8A66
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltGetActivityIdCallbackData, FltGetActivityIdCallbackData routine [Installable File System Drivers], fltkernel/FltGetActivityIdCallbackData, ifsk.fltgetactivityidcallbackdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

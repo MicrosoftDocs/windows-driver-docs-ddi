@@ -6,11 +6,8 @@ description: The WDF_REQUEST_STOP_ACTION_FLAGS enumeration contains values that 
 old-location: wdf\wdf_request_stop_action_flags_umdf.htm
 tech.root: wdf
 ms.assetid: b9e3ea22-be24-4f36-abde-339495b9ed1c
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WDF_REQUEST_STOP_ACTION_FLAGS, WDF_REQUEST_STOP_ACTION_FLAGS enumeration, WdfRequestStopActionInvalid, WdfRequestStopActionPurge, WdfRequestStopActionSuspend, WdfRequestStopRequestCancelable, _WDF_REQUEST_STOP_ACTION_FLAGS, umdf.wdf_request_stop_action_flags, umdfstructs_ecbf4eac-7d5f-4c44-a8c3-96731737264b.xml, wdf.wdf_request_stop_action_flags_umdf, wudfddi_types/WDF_REQUEST_STOP_ACTION_FLAGS, wudfddi_types/WdfRequestStopActionInvalid, wudfddi_types/WdfRequestStopActionPurge, wudfddi_types/WdfRequestStopActionSuspend, wudfddi_types/WdfRequestStopRequestCancelable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wudfddi_types.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames: WDF_REQUEST_STOP_ACTION_FLAGS
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff561465">WDF_REQUEST_STOP_ACTION_FLAGS</a> enumeration contains values that identify the state of a stop action request in a call to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556871">IQueueCallbackIoStop::OnIoStop</a> method.

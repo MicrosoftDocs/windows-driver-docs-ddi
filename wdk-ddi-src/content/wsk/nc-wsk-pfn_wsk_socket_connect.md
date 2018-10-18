@@ -6,11 +6,8 @@ description: The WskSocketConnect function creates a new connection-oriented soc
 old-location: netvista\wsksocketconnect.htm
 tech.root: netvista
 ms.assetid: b1482160-49db-4490-b347-ff9396abf2ff
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: PFN_WSK_SOCKET_CONNECT, PFN_WSK_SOCKET_CONNECT callback, WskSocketConnect, WskSocketConnect callback function [Network Drivers Starting with Windows Vista], netvista.wsksocketconnect, wsk/WskSocketConnect, wskref_326c63cb-233d-4b6e-9c36-15e7f2cb1f1c.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wsk.h
 req.include-header: Wsk.h
@@ -183,7 +180,7 @@ For more information about the SECURITY_DESCRIPTOR structure, see the reference 
 
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the creation of the
      new socket asynchronously. For more information about using IRPs with WSK functions, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
      Kernel Functions</a>.
 
 
@@ -272,7 +269,7 @@ If the WSK application needs to set a socket option or issue an I/O control oper
 When a WSK application successfully creates a new socket, all of the event callback functions on the
     new socket are disabled by default. For more information about enabling any of the new socket's event
     callback functions, see 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa363707">Enabling and
+    <a href="https://msdn.microsoft.com/library/windows/desktop/aa363707">Enabling and
     Disabling Event Callback Functions</a>.
 
 If a WSK application specifies a non-<b>NULL</b> pointer for the 

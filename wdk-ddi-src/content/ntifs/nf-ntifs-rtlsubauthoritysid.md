@@ -6,11 +6,8 @@ description: The RtlSubAuthoritySid routine returns a pointer to a specified sub
 old-location: ifsk\rtlsubauthoritysid.htm
 tech.root: ifsk
 ms.assetid: bd3f84ad-d617-4744-b423-1d82da3b05c0
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RtlSubAuthoritySid, RtlSubAuthoritySid routine [Installable File System Drivers], ifsk.rtlsubauthoritysid, ntifs/RtlSubAuthoritySid, rtlref_d901f9ac-d7c4-49e1-871e-75aee9fa8c2b.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

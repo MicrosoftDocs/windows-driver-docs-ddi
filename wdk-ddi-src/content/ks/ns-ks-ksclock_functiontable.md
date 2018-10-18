@@ -6,11 +6,8 @@ description: The KSCLOCK_FUNCTIONTABLE structure describes a function table for 
 old-location: stream\ksclock_functiontable.htm
 tech.root: stream
 ms.assetid: ed16588e-1c63-411d-b5c8-a8151a218328
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PKSCLOCK_FUNCTIONTABLE, KSCLOCK_FUNCTIONTABLE, KSCLOCK_FUNCTIONTABLE structure [Streaming Media Devices], PKSCLOCK_FUNCTIONTABLE, PKSCLOCK_FUNCTIONTABLE structure pointer [Streaming Media Devices], ks-struct_b86dda38-016f-4116-9770-5b447c664b2e.xml, ks/KSCLOCK_FUNCTIONTABLE, ks/PKSCLOCK_FUNCTIONTABLE, stream.ksclock_functiontable"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ks.h
 req.include-header: Ks.h

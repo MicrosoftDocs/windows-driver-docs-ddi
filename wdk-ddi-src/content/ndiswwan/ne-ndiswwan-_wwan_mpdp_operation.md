@@ -5,12 +5,9 @@ author: windows-driver-content
 description: The WWAN_MPDP_OPERATION enumeration describes an operation to perform on a Multiple Packet Data Protocol (MPDP) interface.
 tech.root: netvista
 ms.assetid: b8436268-3236-4c86-9aa6-f8b6ae65c121
-ms.author: windowsdriverdev
 ms.date: 06/25/2018
 ms.topic: enum
 ms.keywords: _WWAN_MPDP_OPERATION, WWAN_MPDP_OPERATION, *PWWAN_MPDP_OPERATION, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: ndiswwan.h
 req.include-header:
 req.target-type:
@@ -66,4 +63,4 @@ This enumeration is a member of the [**NDIS_WWAN_MPDP_INFO**](ns-ndiswwan-_ndis_
 
 [**NDIS_WWAN_MPDP_STATE**](ns-ndiswwan-_ndis_wwan_mpdp_state.md)
 
-[OID_WWAN_MPDP](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-mpdp)
+[OID_WWAN_MPDP](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-mpdp)

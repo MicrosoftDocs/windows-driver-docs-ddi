@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The NDIS_WWAN_MPDP_LIST structure contains a list of existing Multiple Packet Data Protocol (MPDP) interfaces for the mobile broadband device representing the primary PDP context/EPS bearer.
 tech.root: netvista
 ms.assetid: 42de1468-e1ef-4391-a454-c7978987ded1
-ms.author: windowsdriverdev
 ms.date: 06/25/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _NDIS_WWAN_MPDP_LIST, NDIS_WWAN_MPDP_LIST, *PNDIS_WWAN_MPDP_LIST, 
 req.header: ndiswwan.h
 req.include-header:
@@ -65,10 +62,10 @@ If **uStatus** == WWAN_STATUS_SUCCESS, this field contains a list of the existin
 
 ## -remarks
 
-This structure is used in an [NDIS_STATUS_WWAN_MPDP_LIST](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-wwan-mpdp-list) status indication, which is sent as an asynchronous response to an [OID_WWAN_MPDP](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-mpdp) query request.
+This structure is used in an [NDIS_STATUS_WWAN_MPDP_LIST](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-mpdp-list) status indication, which is sent as an asynchronous response to an [OID_WWAN_MPDP](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-mpdp) query request.
 
 ## -see-also
 
-[NDIS_STATUS_WWAN_MPDP_LIST](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-wwan-mpdp-list)
+[NDIS_STATUS_WWAN_MPDP_LIST](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-mpdp-list)
 
-[OID_WWAN_MPDP](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-mpdp)
+[OID_WWAN_MPDP](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-mpdp)

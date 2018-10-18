@@ -6,11 +6,8 @@ description: NdisMCmModifyCallQoSComplete indicates the completion of the client
 old-location: netvista\ndismcmmodifycallqoscomplete.htm
 tech.root: netvista
 ms.assetid: 66157bc7-8094-481f-8aae-a438031b61d0
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisMCmModifyCallQoSComplete, NdisMCmModifyCallQoSComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_4b742f65-7e96-4e8b-aa3d-64f9c90aa4be.xml, ndis/NdisMCmModifyCallQoSComplete, netvista.ndismcmmodifycallqoscomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ndis.h
 req.include-header: Ndis.h

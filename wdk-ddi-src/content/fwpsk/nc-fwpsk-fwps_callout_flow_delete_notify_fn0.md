@@ -6,11 +6,8 @@ description: The filter engine calls a callout's flowDeleteFn callout function t
 old-location: netvista\flowdeletefn.htm
 tech.root: netvista
 ms.assetid: 65449a23-da5d-4884-b98e-030461eb019a
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FWPS_CALLOUT_FLOW_DELETE_NOTIFY_FN0, FWPS_CALLOUT_FLOW_DELETE_NOTIFY_FN0 callback, flowDeleteFn, flowDeleteFn callback function [Network Drivers Starting with Windows Vista], fwpsk/flowDeleteFn, netvista.flowdeletefn, wfp_ref_2_funct_4_callout_b89bd091-32f2-4d86-a394-84aa027219f7.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
@@ -64,7 +61,7 @@ The filter engine calls a callout's
 
 The run-time identifier for the filtering layer at which the data flow is being terminated. For
      more information, see 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">Run-time Filtering Layer
+     <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">Run-time Filtering Layer
      Identifiers</a>.
 
 

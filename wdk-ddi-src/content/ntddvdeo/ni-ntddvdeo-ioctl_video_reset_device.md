@@ -6,11 +6,8 @@ description: Resets the video hardware to the default mode, to which it was init
 old-location: display\ioctl_video_reset_device.htm
 tech.root: display
 ms.assetid: 98746cae-aed1-4cf4-86d2-eb7cc91e45fc
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: IOCTL_VIDEO_RESET_DEVICE, IOCTL_VIDEO_RESET_DEVICE control, IOCTL_VIDEO_RESET_DEVICE control code [Display Devices], Video_IOCTLs_18bd8312-fd29-4e9c-bd8b-83c5f0e84fbf.xml, display.ioctl_video_reset_device, ntddvdeo/IOCTL_VIDEO_RESET_DEVICE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddvdeo.h
 req.include-header: 

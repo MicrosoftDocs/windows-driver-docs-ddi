@@ -6,11 +6,8 @@ description: The IPrintOemUni::HalftonePattern method can be used with Unidrv-su
 old-location: print\iprintoemuni_halftonepattern.htm
 tech.root: print
 ms.assetid: 1b899492-f4a7-4c13-9e19-0f086b2b6b47
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: HalftonePattern, HalftonePattern method [Print Devices], HalftonePattern method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],HalftonePattern method, IPrintOemUni.HalftonePattern, IPrintOemUni::HalftonePattern, prcomoem/IPrintOemUni::HalftonePattern, print.iprintoemuni_halftonepattern, print_unidrv-pscript_rendering_672da2b9-981c-4c4c-a303-88377fe01741.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

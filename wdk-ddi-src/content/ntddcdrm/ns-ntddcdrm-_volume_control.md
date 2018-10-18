@@ -6,11 +6,8 @@ description: The VOLUME_CONTROL structure is used in conjunction with the IOCTL_
 old-location: storage\volume_control.htm
 tech.root: storage
 ms.assetid: 47512360-60fe-43f2-8052-58ca78e36d86
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PVOLUME_CONTROL, PVOLUME_CONTROL, PVOLUME_CONTROL structure pointer [Storage Devices], VOLUME_CONTROL, VOLUME_CONTROL structure [Storage Devices], _VOLUME_CONTROL, ntddcdrm/PVOLUME_CONTROL, ntddcdrm/VOLUME_CONTROL, storage.volume_control, structs-CD-ROM_d0d59b00-4eb3-4e98-b164-cb8f3e11de31.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h

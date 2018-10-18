@@ -6,11 +6,8 @@ description: The IBidiRequest interface allows an application or other objects t
 old-location: print\ibidirequest.htm
 tech.root: print
 ms.assetid: e7b16853-7f1d-45e4-af5e-4ae9cbb9b191
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IBidiRequest, IBidiRequest interface [Print Devices], IBidiRequest interface [Print Devices],described, _win32_IBidiRequest, bidispl/IBidiRequest, gdi.ibidirequest, print.ibidirequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bidispl.h
 req.include-header: 

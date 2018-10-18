@@ -6,11 +6,8 @@ description: The MiniportRestart function initiates a restart request for a mini
 old-location: netvista\miniportrestart.htm
 tech.root: netvista
 ms.assetid: 31a18040-2c66-4074-9ace-dd604b4bfe22
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: MINIPORT_RESTART, MINIPORT_RESTART callback, MiniportRestart, MiniportRestart callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_3ab5d6bf-6192-4c9b-af88-a5dd0efe4d37.xml, ndis/MiniportRestart, netvista.miniportrestart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -223,7 +220,7 @@ Can modify any field in the
       <b>Oid</b> member in the 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff567255">NDIS_RESTART_ATTRIBUTES</a> structure
       is 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
       OID_GEN_MINIPORT_RESTART_ATTRIBUTES</a> and the 
       <b>Data</b> member contains an NDIS_RESTART_GENERAL_ATTRIBUTES structure.
 
@@ -368,7 +365,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
    OID_GEN_MINIPORT_RESTART_ATTRIBUTES</a>
  
 

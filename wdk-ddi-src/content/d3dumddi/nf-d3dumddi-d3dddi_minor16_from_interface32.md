@@ -4,7 +4,6 @@ title: D3DDDI_MINOR16_FROM_INTERFACE32 macro
 author: windows-driver-content
 description: Converts a 16 bit minor from a 32 bit interface.
 ms.assetid: a099608b-ab54-40a8-ab69-956144f68d4c
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: macro
 ms.keywords: D3DDDI_MINOR16_FROM_INTERFACE32

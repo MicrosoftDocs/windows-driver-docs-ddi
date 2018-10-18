@@ -4,11 +4,8 @@ title: PFND3D12DDI_DISPATCH_RAYS_0054
 author: windows-driver-content
 description: Launch threads of a ray generation shader. 
 ms.assetid: 89f29b62-d9da-4afb-a6d9-6c3584354f81
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Launch threads of a ray generation shader.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DISPATCH_RAYS_0054 Pfnd3d12ddiDispatchRays0054; 

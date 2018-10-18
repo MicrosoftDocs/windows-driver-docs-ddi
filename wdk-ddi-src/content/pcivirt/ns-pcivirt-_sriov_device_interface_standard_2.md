@@ -6,11 +6,8 @@ description: Stores function pointers to callback functions implemented by the p
 old-location: pci\sriov_device_interface_standard_2.htm
 tech.root: PCI
 ms.assetid: 46c9fa94-283c-481e-9fb1-2ed63df00386
-ms.author: windowsdriverdev
 ms.date: 2/24/2018
 ms.keywords: "*PSRIOV_DEVICE_INTERFACE_STANDARD_2, PCI.sriov_device_interface_standard_2, SRIOV_DEVICE_INTERFACE_STANDARD_2, SRIOV_DEVICE_INTERFACE_STANDARD_2 structure [Buses], _SRIOV_DEVICE_INTERFACE_STANDARD_2, pcivirt/SRIOV_DEVICE_INTERFACE_STANDARD_2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pcivirt.h
 req.include-header:
@@ -56,7 +53,7 @@ Stores function pointers to callback functions implemented by the physical funct
 ## -syntax
 
 
-````
+```cpp
 typedef struct _SRIOV_DEVICE_INTERFACE_STANDARD_2 {
   USHORT                           Size;
   USHORT                           Version;
@@ -78,7 +75,7 @@ typedef struct _SRIOV_DEVICE_INTERFACE_STANDARD_2 {
   PSRIOV_QUERY_VF_LUID             QueryVfLuid;
   PSRIOV_QUERY_LUID_VF             QueryLuidVf;
 } SRIOV_DEVICE_INTERFACE_STANDARD_2, SRIOV_DEVICE_INTERFACE_STANDARD_2;
-````
+```
 
 
 ## -struct-fields

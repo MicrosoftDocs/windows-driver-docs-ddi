@@ -4,11 +4,8 @@ title: _D3DKMT_OUTDUPL_POINTER_SHAPE_INFO
 author: windows-driver-content
 description: Contains output duplicate pointer shape info.
 ms.assetid: 245f5926-df34-41f3-9c04-280507583961
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_OUTDUPL_POINTER_SHAPE_INFO, D3DKMT_OUTDUPL_POINTER_SHAPE_INFO, 
 req.header: d3dkmthk.h
 req.include-header:

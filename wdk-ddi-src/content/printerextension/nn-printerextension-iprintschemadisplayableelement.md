@@ -6,11 +6,8 @@ description: Provides the displayable string for a PrintCapabilites PrintSchema 
 old-location: print\iprintschemadisplayableelement_interface.htm
 tech.root: print
 ms.assetid: A1ACF7C4-2DEE-405E-AEEE-BC03B9D5FAD2
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrintSchemaDisplayableElement, IPrintSchemaDisplayableElement interface [Print Devices], IPrintSchemaDisplayableElement interface [Print Devices],described, print.iprintschemadisplayableelement_interface, printerextension/IPrintSchemaDisplayableElement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: printerextension.h
 req.include-header: 

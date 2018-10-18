@@ -4,11 +4,8 @@ title: PFND3D12DDI_ADD_PIPELINE_STATE_TO_LIBRARY_0010
 author: windows-driver-content
 description: Adds the input pipeline state to the corresponding library.
 ms.assetid: b7f4ac02-7138-420f-b633-8f93fd7b5b86
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Adds the input pipeline state to the corresponding library.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_ADD_PIPELINE_STATE_TO_LIBRARY_0010 Pfnd3d12ddiAddPipelineStateToLibrary0010; 

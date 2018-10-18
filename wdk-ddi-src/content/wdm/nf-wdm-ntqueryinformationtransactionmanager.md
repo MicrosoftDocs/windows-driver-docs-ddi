@@ -6,11 +6,8 @@ description: The ZwQueryInformationTransactionManager routine retrieves informat
 old-location: kernel\zwqueryinformationtransactionmanager.htm
 tech.root: kernel
 ms.assetid: c87e0635-ad0a-4832-97ed-30c731559fb9
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: NtQueryInformationTransactionManager, ZwQueryInformationTransactionManager, ZwQueryInformationTransactionManager routine [Kernel-Mode Driver Architecture], kernel.zwqueryinformationtransactionmanager, ktm_ref_3311322f-0cc0-4198-8c80-1b203403b080.xml, wdm/NtQueryInformationTransactionManager, wdm/ZwQueryInformationTransactionManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

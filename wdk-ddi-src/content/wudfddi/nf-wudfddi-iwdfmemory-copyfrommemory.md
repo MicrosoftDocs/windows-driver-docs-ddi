@@ -6,11 +6,8 @@ description: The CopyFromMemory method safely copies data from the specified sou
 old-location: wdf\iwdfmemory_copyfrommemory.htm
 tech.root: wdf
 ms.assetid: 29b77215-9c7e-47f2-8c94-0bcd733f54a2
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: CopyFromMemory, CopyFromMemory method, CopyFromMemory method,IWDFMemory interface, IWDFMemory interface,CopyFromMemory method, IWDFMemory.CopyFromMemory, IWDFMemory::CopyFromMemory, UMDFMemoryObjectRef_c5bc961a-62e9-4692-bbd7-6551b268b08b.xml, umdf.iwdfmemory_copyfrommemory, wdf.iwdfmemory_copyfrommemory, wudfddi/IWDFMemory::CopyFromMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>CopyFromMemory</b> method safely copies data from the specified source buffer and prevents overruns that the copy operation might otherwise cause.
 

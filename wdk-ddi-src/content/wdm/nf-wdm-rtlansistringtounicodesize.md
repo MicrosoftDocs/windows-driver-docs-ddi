@@ -6,11 +6,8 @@ description: The RtlAnsiStringToUnicodeSize routine returns the number of bytes 
 old-location: kernel\rtlansistringtounicodesize.htm
 tech.root: kernel
 ms.assetid: 32687aa7-4e14-40cb-baa3-4a97d834bf86
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlAnsiStringToUnicodeSize, RtlAnsiStringToUnicodeSize routine [Kernel-Mode Driver Architecture], k109_90cc45c4-2e5b-4f11-823d-5dbc52017e15.xml, kernel.rtlansistringtounicodesize, wdm/RtlAnsiStringToUnicodeSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

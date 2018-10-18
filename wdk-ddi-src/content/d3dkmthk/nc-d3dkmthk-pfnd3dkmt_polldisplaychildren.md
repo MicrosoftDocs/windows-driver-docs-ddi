@@ -4,11 +4,8 @@ title: PFND3DKMT_POLLDISPLAYCHILDREN
 author: windows-driver-content
 description: The PFND3DKMT_POLLDISPLAYCHILDREN callback function queries for connectivity status of all child devices of the given adapter.
 ms.assetid: 198d78c5-7e56-4b14-a60e-ffef8447e169
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3DKMT_POLLDISPLAYCHILDREN callback function queries for connectivity sta
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_POLLDISPLAYCHILDREN Pfnd3dkmtPolldisplaychildren; 

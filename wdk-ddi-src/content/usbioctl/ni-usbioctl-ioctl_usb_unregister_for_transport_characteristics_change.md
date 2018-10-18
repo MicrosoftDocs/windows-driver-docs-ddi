@@ -6,11 +6,8 @@ description: This request unregisters the caller from getting notifications abou
 old-location: buses\ioctl_usb_unregister_for_transport_characteristics_change.htm
 tech.root: usbref
 ms.assetid: A6D17761-4E5F-42FC-AB40-C2BCE7769243
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: IOCTL_USB_UNREGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE, IOCTL_USB_UNREGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE control, IOCTL_USB_UNREGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE control code [Buses], buses.ioctl_usb_unregister_for_transport_characteristics_change, usbioctl/IOCTL_USB_UNREGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: usbioctl.h
 req.include-header: 
@@ -127,7 +124,7 @@ After this request completes the registration handle is considered to be stale a
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a>
 
 
 

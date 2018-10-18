@@ -6,11 +6,8 @@ description: The ProviderSuspendDma function suspends the DMA transfers that are
 old-location: netvista\providersuspenddma.htm
 tech.root: netvista
 ms.assetid: b020b0c6-eb69-44d0-a374-b39eb2f536f1
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: DMA_SUSPEND_HANDLER, DMA_SUSPEND_HANDLER callback, ProviderSuspendDma, ProviderSuspendDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderSuspendDma, netdma_ref_f194d9b0-083c-46a1-9e39-aa33c62af512.xml, netvista.providersuspenddma
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: netdma.h
 req.include-header: Netdma.h

@@ -6,11 +6,8 @@ description: The SetViewport function informs guard-band-aware drivers of the vi
 old-location: display\setviewport.htm
 tech.root: display
 ms.assetid: ef0847a3-d4f5-4a9e-a041-1b8f8523fdf7
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_SETVIEWPORT, PFND3DDDI_SETVIEWPORT callback, SetViewport, SetViewport callback function [Display Devices], UserModeDisplayDriver_Functions_6b0d00a2-6316-4ac0-878c-e8554e92ef57.xml, d3dumddi/SetViewport, display.setviewport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

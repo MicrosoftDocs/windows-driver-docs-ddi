@@ -6,11 +6,8 @@ description: The PEP_REGISTER_DEVICE_V2 structure describes a device whose drive
 old-location: kernel\pep_register_device_v2.htm
 tech.root: kernel
 ms.assetid: A1363B34-CC5C-482E-8E8D-62D7263545E3
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PPEP_REGISTER_DEVICE, *PPEP_REGISTER_DEVICE_V2, PEP_REGISTER_DEVICE, PEP_REGISTER_DEVICE_V2, PEP_REGISTER_DEVICE_V2 structure [Kernel-Mode Driver Architecture], PPEP_REGISTER_DEVICE_V2, PPEP_REGISTER_DEVICE_V2 structure pointer [Kernel-Mode Driver Architecture], _PEP_REGISTER_DEVICE_V2, kernel.pep_register_device_v2, pepfx/PEP_REGISTER_DEVICE_V2, pepfx/PPEP_REGISTER_DEVICE_V2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
 req.include-header: Pep_x.h
@@ -60,12 +57,12 @@ The <b>PEP_REGISTER_DEVICE_V2</b> structure describes a device whose driver stac
 
 ### -field DeviceId
 
-[in] A string that uniquely identifies the device. This member is a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
+[in] A string that uniquely identifies the device. This member is a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
 
 
 ### -field KernelHandle
 
-[in] A POHANDLE value that represents the registration of the device with PoFx. The platform extension plug-in (PEP) previously received this handle from PoFx during the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification that informed the PEP that the device's driver stack registered the device with PoFx.
+[in] A POHANDLE value that represents the registration of the device with PoFx. The platform extension plug-in (PEP) previously received this handle from PoFx during the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification that informed the PEP that the device's driver stack registered the device with PoFx.
 
 
 ### -field Register
@@ -87,9 +84,9 @@ The <b>PEP_REGISTER_DEVICE_V2</b> structure describes a device whose driver stac
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification. The first three members of this structure contain input values supplied by PoFx. The last two members contain output values that the PEP writes to the structure in response to this notification.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification. The first three members of this structure contain input values supplied by PoFx. The last two members contain output values that the PEP writes to the structure in response to this notification.
 
-The <b>Register</b> member contains a pointer to an input buffer allocated by PoFx. PoFx writes the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186713">PEP_DEVICE_REGISTER_V2</a> structure and associated data to this structure before sending the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification to the PEP. The contents of this buffer remain valid only until the PEP finishes handling the notification and returns from the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186626">AcceptDeviceNotification</a> callback.
+The <b>Register</b> member contains a pointer to an input buffer allocated by PoFx. PoFx writes the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186713">PEP_DEVICE_REGISTER_V2</a> structure and associated data to this structure before sending the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification to the PEP. The contents of this buffer remain valid only until the PEP finishes handling the notification and returns from the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186626">AcceptDeviceNotification</a> callback.
 
 
 
@@ -111,7 +108,7 @@ The <b>Register</b> member contains a pointer to an input buffer allocated by Po
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
 
 

@@ -4,7 +4,6 @@ title: StorPortAllocateDmaMemory function
 author: windows-driver-content
 description: This function is the extended version of the StorPortAllocateContiguousMemorySpecifyCacheNode function. It allocates a range of physically contiguous noncached, nonpaged memory, and returns the physical address of the allocated buffer.
 ms.assetid: f56640ac-4a31-4384-86bf-423fb7c5cd21
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: StorPortAllocateDmaMemory
@@ -44,7 +43,7 @@ targetos: Windows
 
 ## -description
 
-This function is the extended version of the [StorPortAllocateContiguousMemorySpecifyCacheNode function](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/storport/nf-storport-storportallocatecontiguousmemoryspecifycachenode). It allocates a range of physically contiguous noncached, nonpaged memory, and returns the physical address of the allocated buffer.
+This function is the extended version of the [StorPortAllocateContiguousMemorySpecifyCacheNode function](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportallocatecontiguousmemoryspecifycachenode). It allocates a range of physically contiguous noncached, nonpaged memory, and returns the physical address of the allocated buffer.
 
 ## -parameters
 

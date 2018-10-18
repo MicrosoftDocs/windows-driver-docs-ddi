@@ -6,11 +6,8 @@ description: The WdfFdoInitSetEventCallbacks method registers a framework-based 
 old-location: wdf\wdffdoinitseteventcallbacks.htm
 tech.root: wdf
 ms.assetid: 0a47ea47-590c-4395-b38e-d1f1fb1929e1
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_3a3fbec9-836c-422e-a921-654fa4866989.xml, WdfFdoInitSetEventCallbacks, WdfFdoInitSetEventCallbacks method, kmdf.wdffdoinitseteventcallbacks, wdf.wdffdoinitseteventcallbacks, wdffdo/WdfFdoInitSetEventCallbacks
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdffdo.h
 req.include-header: Wdf.h
@@ -86,7 +83,7 @@ None
 
 Before calling <b>WdfFdoInitSetEventCallbacks</b>, the driver must allocate a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551311">WDF_FDO_EVENT_CALLBACKS</a> structure and fill in the structure with pointers to the driver's event callback functions.
 
-The driver must call <b>WdfFdoInitSetEventCallbacks</b> before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
+The driver must call <b>WdfFdoInitSetEventCallbacks</b> before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
 
 For more information about the <b>WdfFdoInitSetEventCallbacks</b> method, see <a href="https://msdn.microsoft.com/3b988f6d-c50e-412d-85cb-031746535ff4">Creating Device Objects in a Function Driver</a>.
 

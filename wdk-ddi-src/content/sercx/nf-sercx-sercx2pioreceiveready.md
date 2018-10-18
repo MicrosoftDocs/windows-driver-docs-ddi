@@ -6,11 +6,8 @@ description: The SerCx2PioReceiveReady method notifies version 2 of the serial f
 old-location: serports\sercx2pioreceiveready.htm
 tech.root: serports
 ms.assetid: 81DE84F8-7D2D-464F-BA5D-4D92D0EE9149
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: 2/SerCx2PioReceiveReady, SerCx2PioReceiveReady, SerCx2PioReceiveReady method [Serial Ports], serports.sercx2pioreceiveready
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 
@@ -60,7 +57,7 @@ The <b>SerCx2PioReceiveReady</b> method notifies version 2 of the serial framewo
 
 ### -param PioReceive [in]
 
-A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a> handle to a PIO-receive object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265264">SerCx2PioReceiveCreate</a> method to create this object.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a> handle to a PIO-receive object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265264">SerCx2PioReceiveCreate</a> method to create this object.
 
 
 ## -returns
@@ -96,7 +93,7 @@ Additionally, SerCx2 uses these ready notifications to detect interval time-outs
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
 
 
 

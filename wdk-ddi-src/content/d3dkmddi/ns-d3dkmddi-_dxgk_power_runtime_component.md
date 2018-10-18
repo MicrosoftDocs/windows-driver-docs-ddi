@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Describes information about a power component&#8212;for example, a graphics processing engine, a display device, or a block of memory.
 old-location: display\dxgk_power_runtime_component.htm
 ms.assetid: ed7e6fc4-651d-4dc3-9c90-cca3c5f0eb67
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGK_POWER_RUNTIME_COMPONENT, DXGK_POWER_RUNTIME_COMPONENT structure [Display Devices], _DXGK_POWER_RUNTIME_COMPONENT, d3dkmddi/DXGK_POWER_RUNTIME_COMPONENT, display.dxgk_power_runtime_component
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmddi.h
 req.include-header: 

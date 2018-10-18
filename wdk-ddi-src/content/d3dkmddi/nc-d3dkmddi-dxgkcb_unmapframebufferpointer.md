@@ -4,11 +4,8 @@ title: DXGKCB_UNMAPFRAMEBUFFERPOINTER
 author: windows-driver-content
 description: Implemented by the client driver to release the mapping that was set by DXGKCB_MAPFRAMEBUFFERPOINTER.
 ms.assetid: d70a65f4-2dd2-45d5-85a6-fe2f695960a0
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to release the mapping that was set by [DXGKCB_
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKCB_UNMAPFRAMEBUFFERPOINTER DxgkcbUnmapframebufferpointer;

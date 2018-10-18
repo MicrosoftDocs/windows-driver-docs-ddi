@@ -4,11 +4,8 @@ title: _D3DKMT_PRESENT_REDIRECTEDS_FLAGS
 author: windows-driver-content
 description: Used to specify the flags needed to get redirected present history tokens.
 ms.assetid: a9799f00-c1a4-4da1-bc09-4e6d2ca3ade2
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_PRESENT_REDIRECTEDS_FLAGS, D3DKMT_PRESENT_REDIRECTED_FLAGS, 
 req.header: d3dkmthk.h
 req.include-header:

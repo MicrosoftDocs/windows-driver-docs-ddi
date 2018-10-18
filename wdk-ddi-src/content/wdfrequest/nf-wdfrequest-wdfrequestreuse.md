@@ -6,11 +6,8 @@ description: The WdfRequestReuse method reinitializes a framework request object
 old-location: wdf\wdfrequestreuse.htm
 tech.root: wdf
 ms.assetid: 3d649cc5-6512-432c-9bd9-60e18507a873
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFRequestObjectRef_8815216b-4632-4cc8-8afd-c4b1412ddbad.xml, WdfRequestReuse, WdfRequestReuse method, kmdf.wdfrequestreuse, wdf.wdfrequestreuse, wdfrequest/WdfRequestReuse
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfrequest.h
 req.include-header: Wdf.h
@@ -118,7 +115,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-A framework-based driver can reuse framework request objects that it created by previous calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549951">WdfRequestCreate</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff549953">WdfRequestCreateFromIrp</a>. Drivers can also reuse request objects that they have <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/receiving-i-o-requests">received from the framework</a>, but they cannot set the <a href="https://msdn.microsoft.com/3d1f8f38-b875-4661-9941-4dec28b7e8fb">WDF_REQUEST_REUSE_SET_NEW_IRP</a> flag for those request objects.
+A framework-based driver can reuse framework request objects that it created by previous calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549951">WdfRequestCreate</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff549953">WdfRequestCreateFromIrp</a>. Drivers can also reuse request objects that they have <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/receiving-i-o-requests">received from the framework</a>, but they cannot set the <a href="https://msdn.microsoft.com/3d1f8f38-b875-4661-9941-4dec28b7e8fb">WDF_REQUEST_REUSE_SET_NEW_IRP</a> flag for those request objects.
 
 A driver can reuse a request object after the original request has been completed. After a driver has called <b>WdfRequestReuse</b>, the request's contents must be reinitialized. The driver can specify some request parameters in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552480">WDF_REQUEST_REUSE_PARAMS</a> structure. 
 

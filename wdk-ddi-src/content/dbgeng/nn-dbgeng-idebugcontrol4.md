@@ -6,11 +6,8 @@ description: IDebugControl4 interface
 old-location: debugger\idebugcontrol4.htm
 tech.root: debugger
 ms.assetid: 693207c2-70d7-45be-ae22-436555225928
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], IDebugControl4 interface [Windows Debugging],described, dbgeng/IDebugControl4, debugger.idebugcontrol4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

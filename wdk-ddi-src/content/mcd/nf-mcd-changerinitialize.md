@@ -6,11 +6,8 @@ description: ChangerInitialize readies the changer to receive other requests.
 old-location: storage\changerinitialize.htm
 tech.root: storage
 ms.assetid: 7cb90d35-53e5-4c73-a1f5-9fc3f99cf1b2
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: ChangerInitialize, ChangerInitialize function [Storage Devices], chgrmini_025ae048-8625-4039-82a2-29d99dcc4972.xml, mcd/ChangerInitialize, storage.changerinitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h

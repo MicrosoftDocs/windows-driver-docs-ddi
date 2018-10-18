@@ -6,11 +6,8 @@ description: The ZwCreateResourceManager routine creates a resource manager obje
 old-location: kernel\zwcreateresourcemanager.htm
 tech.root: kernel
 ms.assetid: 4812eeb4-134f-4ecb-870b-dbab04c1137b
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: NtCreateResourceManager, ZwCreateResourceManager, ZwCreateResourceManager routine [Kernel-Mode Driver Architecture], kernel.zwcreateresourcemanager, ktm_ref_9cb25714-3d40-48b3-8f24-a4a4fb10c4d1.xml, wdm/NtCreateResourceManager, wdm/ZwCreateResourceManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

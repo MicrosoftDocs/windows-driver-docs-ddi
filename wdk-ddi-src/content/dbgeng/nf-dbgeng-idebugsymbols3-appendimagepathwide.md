@@ -6,11 +6,8 @@ description: The AppendImagePathWide method appends directories to the executabl
 old-location: debugger\appendimagepathwide.htm
 tech.root: debugger
 ms.assetid: 9a129ce5-4493-4838-9a6c-8a3c054e7c27
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: AppendImagePathWide, AppendImagePathWide method [Windows Debugging], AppendImagePathWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],AppendImagePathWide method, IDebugSymbols3.AppendImagePathWide, IDebugSymbols3::AppendImagePathWide, dbgeng/IDebugSymbols3::AppendImagePathWide, debugger.appendimagepathwide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

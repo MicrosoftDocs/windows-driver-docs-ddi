@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilpositioninfoumts_2.htm
 tech.root: netvista
 ms.assetid: f0603990-d63c-433f-b5ac-c8d0efcc4243
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*LPRILPOSITIONINFOUMTS, RILPOSITIONINFOUMTS, RILPOSITIONINFOUMTS structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfoumts_2, rilapitypes/RILPOSITIONINFOUMTS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
 req.include-header:
@@ -57,7 +54,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```cpp
 typedef struct _RILPOSITIONINFOUMTS {
   DWORD  dwParams;
   DWORD  dwMobileCountryCode;
@@ -73,7 +70,7 @@ typedef struct _RILPOSITIONINFOUMTS {
   LONG   dwECNO;
   DWORD  dwPathLoss;
 } RILPOSITIONINFOUMTS, RILPOSITIONINFOUMTS;
-````
+```
 
 
 ## -struct-fields

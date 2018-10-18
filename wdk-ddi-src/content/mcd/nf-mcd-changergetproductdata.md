@@ -6,11 +6,8 @@ description: ChangerGetProductData handles the device-specific aspects of a devi
 old-location: storage\changergetproductdata.htm
 tech.root: storage
 ms.assetid: b2723a34-d9c2-40c9-b6c9-6441ead63d2e
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: ChangerGetProductData, ChangerGetProductData function [Storage Devices], chgrmini_05ad3aaa-8975-44ee-ad09-149f288d8eef.xml, mcd/ChangerGetProductData, storage.changergetproductdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h

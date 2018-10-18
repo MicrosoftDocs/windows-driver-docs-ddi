@@ -5,11 +5,8 @@ author: windows-driver-content
 description: From a provided adapter handle, returns the engine type and friendly name of an engine on a specified GPU node. Must be implemented by Windows Display Driver Model (WDDM) 1.3 and later display miniport drivers.
 old-location: display\dxgkddigetnodemetadata.htm
 ms.assetid: ECE54E1C-5291-43AF-8A71-BD95DE5DF0A6
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGKDDI_GETNODEMETADATA, DXGKDDI_GETNODEMETADATA callback, DxgkDdiGetNodeMetadata, DxgkDdiGetNodeMetadata callback function [Display Devices], d3dkmddi/DxgkDdiGetNodeMetadata, display.dxgkddigetnodemetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

@@ -6,11 +6,8 @@ description: The ListType function calls a specified callback function for every
 old-location: debugger\listtype.htm
 tech.root: debugger
 ms.assetid: 5c250438-8805-4f45-b08f-65ec87b3e61a
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: ListType, ListType function [Windows Debugging], WdbgExts_Ref_aa50fe48-2a66-4d5e-aec7-d225966cfab2.xml, debugger.listtype, wdbgexts/ListType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h

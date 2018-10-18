@@ -4,11 +4,8 @@ title: PFND3D12DDI_CREATE_PIPELINE_LIBRARY_0010
 author: windows-driver-content
 description: Create a pipeline library.
 ms.assetid: 7c53cb2f-55a5-4777-b11d-c0bfc0e703f8
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Create a pipeline library.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATE_PIPELINE_LIBRARY_0010 Pfnd3d12ddiCreatePipelineLibrary0010; 

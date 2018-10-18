@@ -6,11 +6,8 @@ description: The GPIO_MASK_INTERRUPT_PARAMETERS structure describes a set of gen
 old-location: gpio\gpio_mask_interrupt_parameters.htm
 tech.root: GPIO
 ms.assetid: E7975BAE-4255-4D07-A747-481D210D1244
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PGPIO_MASK_INTERRUPT_PARAMETERS, GPIO.gpio_mask_interrupt_parameters, GPIO_MASK_INTERRUPT_PARAMETERS, GPIO_MASK_INTERRUPT_PARAMETERS structure [Parallel Ports], PGPIO_MASK_INTERRUPT_PARAMETERS, PGPIO_MASK_INTERRUPT_PARAMETERS structure pointer [Parallel Ports], _GPIO_MASK_INTERRUPT_PARAMETERS, gpioclx/GPIO_MASK_INTERRUPT_PARAMETERS, gpioclx/PGPIO_MASK_INTERRUPT_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: gpioclx.h
 req.include-header: 

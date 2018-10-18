@@ -6,11 +6,8 @@ description: Defines classes of memory information that can be retrieved by usin
 old-location: kernel\memory_information_class.htm
 tech.root: kernel
 ms.assetid: 7E3B531F-935C-41D6-94F7-DB18F82B9109
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: MEMORY_INFORMATION_CLASS, MEMORY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], MemoryBasicInformation, _MEMORY_INFORMATION_CLASS, kernel.memory_information_class, ntifs/MEMORY_INFORMATION_CLASS, ntifs/MemoryBasicInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntifs.h
 req.include-header: 
