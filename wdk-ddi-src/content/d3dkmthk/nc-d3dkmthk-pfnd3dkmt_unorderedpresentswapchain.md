@@ -45,7 +45,7 @@ Implemented by the client driver to store information about the swap chain being
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_UNORDEREDPRESENTSWAPCHAIN Pfnd3dkmtUnorderedpresentswapchain;

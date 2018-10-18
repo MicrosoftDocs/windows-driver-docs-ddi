@@ -45,7 +45,7 @@ Implemented by the client driver to serialize the library.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_SERIALIZE_LIBRARY_0010 Pfnd3d12ddiSerializeLibrary0010; 

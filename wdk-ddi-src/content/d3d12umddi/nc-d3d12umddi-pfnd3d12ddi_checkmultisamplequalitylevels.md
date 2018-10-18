@@ -45,7 +45,7 @@ Implemented by the client driver to check multi-sample quality levels.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CHECKMULTISAMPLEQUALITYLEVELS Pfnd3d12ddiCheckmultisamplequalitylevels;

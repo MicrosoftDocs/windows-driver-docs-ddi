@@ -45,7 +45,7 @@ Instructs the GPU scheduler to re-submit contexts that were not invalidated by t
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_RESUMEHWENGINE DxgkddiResumehwengine;

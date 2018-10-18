@@ -45,7 +45,7 @@ This callback function allocates the memory for a domain common buffer.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PALLOCATE_DOMAIN_COMMON_BUFFER PallocateDomainCommonBuffer; 

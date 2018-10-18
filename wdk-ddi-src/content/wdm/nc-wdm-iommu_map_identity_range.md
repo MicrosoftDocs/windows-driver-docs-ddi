@@ -44,7 +44,7 @@ Creates an identity mapping for the provided MDL in the specified domain.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 IOMMU_MAP_IDENTITY_RANGE IommuMapIdentityRange; 

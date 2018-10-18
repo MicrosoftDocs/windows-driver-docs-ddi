@@ -53,7 +53,7 @@ The PNEGOTIATE_IEEE_MODE-typed callback routine selects the fastest forward and 
 ## -prototype
 
 
-```
+```cpp
 typedef NTSTATUS  ( *PNEGOTIATE_IEEE_MODE)(
   _In_ PVOID           Context,
   _In_ USHORT          ModeMaskFwd,

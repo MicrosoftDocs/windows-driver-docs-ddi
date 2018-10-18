@@ -55,7 +55,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11EXT_IHV_UI_REQUEST {
   DWORD dwSessionId;
   GUID  guidUIRequest;

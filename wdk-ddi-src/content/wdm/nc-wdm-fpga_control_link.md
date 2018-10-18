@@ -45,7 +45,7 @@ Enables or disables the link between the given FPGA device and its parent bridge
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FPGA_CONTROL_LINK FpgaControlLink;

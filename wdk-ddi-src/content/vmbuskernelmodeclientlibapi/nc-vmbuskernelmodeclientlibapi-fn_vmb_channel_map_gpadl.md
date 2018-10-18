@@ -47,7 +47,7 @@ The <b>VmbChannelMapGpadl</b>  function maps a client-side buffer into server-si
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_MAP_GPADL FnVmbChannelMapGpadl; 

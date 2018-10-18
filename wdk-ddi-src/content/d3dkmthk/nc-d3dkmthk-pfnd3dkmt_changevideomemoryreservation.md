@@ -44,7 +44,7 @@ The PFND3DKMT_CHANGEVIDEOMEMORYRESERVATION callback function changes a video mem
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_CHANGEVIDEOMEMORYRESERVATION Pfnd3dkmtChangevideomemoryreservation; 

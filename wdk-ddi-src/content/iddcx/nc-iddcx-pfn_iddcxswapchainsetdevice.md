@@ -44,7 +44,7 @@ An OS callback function that the driver calls within its SetSwapChain routine, t
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 *PFN_IDDCXSWAPCHAINSETDEVICE *PfnIddcxswapchainsetdevice;

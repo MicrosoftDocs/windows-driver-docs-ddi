@@ -53,7 +53,7 @@ The PCI_EXPRESS_ROOT_ERROR_COMMAND structure describes a PCI Express (PCIe) root
 ## -syntax
 
 
-```
+```cpp
 typedef union _PCI_EXPRESS_ROOT_ERROR_COMMAND {
   struct {
     ULONG CorrectableErrorReportingEnable  :1;

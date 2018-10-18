@@ -44,7 +44,7 @@ Unmaps a linear range from a domain.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 IOMMU_UNMAP_LOGICAL_RANGE IommuUnmapLogicalRange; 

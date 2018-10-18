@@ -48,7 +48,7 @@ PASSIVE_LEVEL.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_SET_INCOMING_PROCESSING_AT_PASSIVE FnVmbChannelSetIncomingProcessingAtPassive; 

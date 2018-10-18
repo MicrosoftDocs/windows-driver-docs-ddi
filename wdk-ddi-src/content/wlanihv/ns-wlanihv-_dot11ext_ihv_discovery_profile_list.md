@@ -54,7 +54,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11EXT_IHV_DISCOVERY_PROFILE_LIST {
   DWORD                           dwCount;
   PDOT11EXT_IHV_DISCOVERY_PROFILE pIhvDiscoveryProfiles;

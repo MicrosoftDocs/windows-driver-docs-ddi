@@ -44,7 +44,7 @@ PFND3DKMT_UPDATEOVERLAY callback function modifies a kernel-mode overlay object.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_UPDATEOVERLAY Pfnd3dkmtUpdateoverlay; 

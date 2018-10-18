@@ -53,7 +53,7 @@ req.typenames: RILSMSFORMAT
 ## -syntax
 
 
-```
+```cpp
 enum RILSMSFORMAT  {
   RIL_SMSFORMAT_NONE   = 0,
   RIL_SMSFORMAT_3GPP   = 0x1,

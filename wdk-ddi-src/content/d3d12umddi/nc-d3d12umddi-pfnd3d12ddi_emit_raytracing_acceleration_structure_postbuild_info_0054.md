@@ -45,7 +45,7 @@ Emits post-build properties for a set of acceleration structures.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_EMIT_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_0054 Pfnd3d12ddiEmitRaytracingAccelerationStructurePostbuildInfo0054; 

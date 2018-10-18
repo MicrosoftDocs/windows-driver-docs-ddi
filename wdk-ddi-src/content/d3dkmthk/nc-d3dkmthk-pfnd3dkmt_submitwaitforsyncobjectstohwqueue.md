@@ -45,7 +45,7 @@ Implemented by the client driver to submit a wait on the hardware queue.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE Pfnd3dkmtSubmitwaitforsyncobjectstohwqueue;

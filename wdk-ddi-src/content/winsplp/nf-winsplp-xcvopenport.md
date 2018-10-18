@@ -54,7 +54,7 @@ A port monitor server DLL's <b>XcvOpenPort</b> function opens a port for configu
 ## -syntax
 
 
-```
+```cpp
 BOOL XcvOpenPort(
    HANDLE      hMonitor,
    LPCWSTR     pszObject,

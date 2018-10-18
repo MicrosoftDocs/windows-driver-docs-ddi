@@ -44,7 +44,7 @@ The PFND3DKMT_OUTPUTDUPLGETPOINTERSHAPEDATA callback function gets output duplic
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_OUTPUTDUPLGETPOINTERSHAPEDATA Pfnd3dkmtOutputduplgetpointershapedata; 

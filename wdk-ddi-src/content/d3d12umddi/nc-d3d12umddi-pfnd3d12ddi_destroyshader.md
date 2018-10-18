@@ -45,7 +45,7 @@ Destroy shader.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROYSHADER Pfnd3d12ddiDestroyshader; 

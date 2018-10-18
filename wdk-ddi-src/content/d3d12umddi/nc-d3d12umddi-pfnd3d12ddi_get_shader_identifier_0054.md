@@ -45,7 +45,7 @@ Retrieves the unique identifier for a shader that can be used in a shader record
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_GET_SHADER_IDENTIFIER_0054 Pfnd3d12ddiGetShaderIdentifier0054; 

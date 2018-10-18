@@ -55,7 +55,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_WFD_DISCOVER_REQUEST {
   NDIS_OBJECT_HEADER      Header;
   DOT11_WFD_DISCOVER_TYPE DiscoverType;

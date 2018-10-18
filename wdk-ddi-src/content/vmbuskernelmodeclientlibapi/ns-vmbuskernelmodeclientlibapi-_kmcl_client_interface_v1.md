@@ -44,7 +44,7 @@ For more information about how to access the KMCL interface, see the Remarks sec
 
 ## -syntax
 
-```
+```cpp
 typedef struct _KMCL_CLIENT_INTERFACE_V1 {
     INTERFACE;
     PFN_VMB_CHANNEL_ALLOCATE                                         VmbChannelAllocate;

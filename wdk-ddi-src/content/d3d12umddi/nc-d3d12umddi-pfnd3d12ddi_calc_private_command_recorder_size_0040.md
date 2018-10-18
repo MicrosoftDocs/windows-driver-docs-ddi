@@ -45,7 +45,7 @@ Calculates the command recorder size.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALC_PRIVATE_COMMAND_RECORDER_SIZE_0040 Pfnd3d12ddiCalcPrivateCommandRecorderSize0040;

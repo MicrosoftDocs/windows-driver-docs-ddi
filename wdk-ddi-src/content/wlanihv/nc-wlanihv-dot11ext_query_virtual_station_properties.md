@@ -56,7 +56,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-```
+```cpp
 DWORD WINAPI * Dot11ExtQueryVirtualStationProperties(
   _In_opt_   HANDLE hDot11SvcHandle,
   _Out_      BOOL   *pbIsVirtualStation,

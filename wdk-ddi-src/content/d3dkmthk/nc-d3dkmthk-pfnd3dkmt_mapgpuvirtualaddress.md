@@ -44,7 +44,7 @@ Pfnd3dkmtMapgpuvirtualaddress maps a graphics processing unit (GPU) virtual addr
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_MAPGPUVIRTUALADDRESS Pfnd3dkmtMapgpuvirtualaddress; 

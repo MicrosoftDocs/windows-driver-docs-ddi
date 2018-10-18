@@ -45,7 +45,7 @@ Creates a render target view.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATE_RENDER_TARGET_VIEW_0002 Pfnd3d12ddiCreateRenderTargetView0002; 

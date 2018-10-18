@@ -44,7 +44,7 @@ The PFND3DKMT_SETALLOCATIONPRIORITY callback function sets the priority level of
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SETALLOCATIONPRIORITY Pfnd3dkmtSetallocationpriority; 

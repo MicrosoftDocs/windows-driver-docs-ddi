@@ -54,7 +54,7 @@ This structures is the output buffer received by the <a href="https://msdn.micro
 ## -syntax
 
 
-```
+```cpp
 typedef struct _SRIOV_MITIGATED_RANGE_COUNT_OUTPUT {
   ULONG [6] RangeCount;
 } SRIOV_MITIGATED_RANGE_COUNT_OUTPUT, SRIOV_MITIGATED_RANGE_COUNT_OUTPUT;

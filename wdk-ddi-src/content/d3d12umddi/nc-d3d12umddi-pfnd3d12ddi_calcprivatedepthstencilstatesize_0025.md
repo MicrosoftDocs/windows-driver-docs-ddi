@@ -45,7 +45,7 @@ The **CalcPrivateDepthStencilStateSize** function determines the size of the use
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALCPRIVATEDEPTHSTENCILSTATESIZE_0025 Pfnd3d12ddiCalcprivatedepthstencilstatesize0025; 

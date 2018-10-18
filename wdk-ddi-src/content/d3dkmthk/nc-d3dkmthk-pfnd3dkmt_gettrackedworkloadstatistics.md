@@ -47,7 +47,7 @@ Note that it just returns stats for work that is currently completed.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_GETTRACKEDWORKLOADSTATISTICS Pfnd3dkmtGettrackedworkloadstatistics; 

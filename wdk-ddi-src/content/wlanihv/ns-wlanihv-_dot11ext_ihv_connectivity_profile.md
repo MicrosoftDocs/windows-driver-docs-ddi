@@ -55,7 +55,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11EXT_IHV_CONNECTIVITY_PROFILE {
   LPWSTR pszXmlFragmentIhvConnectivity;
 } DOT11EXT_IHV_CONNECTIVITY_PROFILE, *PDOT11EXT_IHV_CONNECTIVITY_PROFILE;

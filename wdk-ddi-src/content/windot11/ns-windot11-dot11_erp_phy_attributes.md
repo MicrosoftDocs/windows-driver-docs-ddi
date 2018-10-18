@@ -56,7 +56,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct DOT11_ERP_PHY_ATTRIBUTES {
   DOT11_HRDSSS_PHY_ATTRIBUTES HRDSSSAttributes;
   BOOLEAN                     bERPPBCCOptionImplemented;

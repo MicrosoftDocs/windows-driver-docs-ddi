@@ -45,7 +45,7 @@ Map heap.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_MAPHEAP Pfnd3d12ddiMapheap; 

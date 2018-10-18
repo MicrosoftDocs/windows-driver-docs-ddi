@@ -53,7 +53,7 @@ req.typenames: RILUICCSUBSCRIBERNUMBERS, *LPRILUICCSUBSCRIBERNUMBERS
 ## -syntax
 
 
-```
+```cpp
 struct RILUMTSMRL {
   DWORD             cbSize;
   DWORD             dwNumSubscribers;

@@ -69,7 +69,7 @@ Register with the operating system for the EtherTypes of received packets that w
 ## -prototype
 
 
-```
+```cpp
 DWORD WINAPI * Dot11ExtSetEtherTypeHandling(
   _In_opt_ HANDLE                   hDot11SvcHandle,
   _In_     ULONG                    uMaxBackLog,

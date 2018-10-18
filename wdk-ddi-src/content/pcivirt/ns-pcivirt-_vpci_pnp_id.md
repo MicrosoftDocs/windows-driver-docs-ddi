@@ -53,7 +53,7 @@ Stores the PnP identifiers for a virtual PCI device. For example strings, see <a
 ## -syntax
 
 
-```
+```cpp
 typedef struct _VPCI_PNP_ID {
   USHORT  VendorID;
   USHORT  DeviceID;

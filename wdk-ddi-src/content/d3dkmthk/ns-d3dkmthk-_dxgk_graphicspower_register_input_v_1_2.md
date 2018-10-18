@@ -46,7 +46,7 @@ Used to register the power state of a new input.
 
 The current version being used. This value must be set to one of the following DXGK_GRAPHICSPOWER_VERSIONs:
 
-```
+```cpp
 #define DXGK_GRAPHICSPOWER_VERSION_1_0 0x1000
 #define DXGK_GRAPHICSPOWER_VERSION_1_1 0x1001
 #define DXGK_GRAPHICSPOWER_VERSION_1_2 0x1002

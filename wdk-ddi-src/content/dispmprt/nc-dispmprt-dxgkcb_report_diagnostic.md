@@ -44,7 +44,7 @@ Implemented by the kernel mode driver to report diagnostic logging.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKCB_REPORT_DIAGNOSTIC DxgkcbReportDiagnostic;

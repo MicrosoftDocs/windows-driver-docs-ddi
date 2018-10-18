@@ -47,7 +47,7 @@ The <b>VmbChannelSaveEnd</b> function cleans up any resources that were allocate
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_SAVE_END FnVmbChannelSaveEnd; 

@@ -45,7 +45,7 @@ Creates a scheduling group.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATESCHEDULINGGROUP_0050 Pfnd3d12ddiCreateschedulinggroup0050; 

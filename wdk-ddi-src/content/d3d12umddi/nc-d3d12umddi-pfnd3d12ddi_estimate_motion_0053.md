@@ -45,7 +45,7 @@ Performs the motion estimation operation.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_ESTIMATE_MOTION_0053 Pfnd3d12ddiEstimateMotion0053; 

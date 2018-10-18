@@ -44,7 +44,7 @@ Maps a range of pages into the address space of the specified domain.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 IOMMU_MAP_LOGICAL_RANGE IommuMapLogicalRange; 

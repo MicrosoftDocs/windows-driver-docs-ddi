@@ -53,7 +53,7 @@ The <b>PCPROPERTY_ITEM</b> structure describes a property that is supported by a
 ## -syntax
 
 
-```
+```cpp
 typedef struct {
   const GUID            *Set;
   ULONG                 Id;

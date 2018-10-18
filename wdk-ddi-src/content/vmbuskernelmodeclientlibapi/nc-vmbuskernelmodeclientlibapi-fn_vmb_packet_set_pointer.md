@@ -48,7 +48,7 @@ context.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_PACKET_SET_POINTER FnVmbPacketSetPointer; 

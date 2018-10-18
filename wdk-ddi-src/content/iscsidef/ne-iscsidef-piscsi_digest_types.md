@@ -53,7 +53,7 @@ The ISCSI_DIGEST_TYPES enumeration indicates the digest type.
 ## -syntax
 
 
-```
+```cpp
 typedef enum  {
   ISCSI_DIGEST_TYPE_NONE    = 0,
   ISCSI_DIGEST_TYPE_CRC32C  = 1

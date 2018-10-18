@@ -55,7 +55,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_WFD_GROUP_START_PARAMETERS {
   NDIS_OBJECT_HEADER Header;
   DOT11_WFD_CHANNEL  AdvertisedOperatingChannel;

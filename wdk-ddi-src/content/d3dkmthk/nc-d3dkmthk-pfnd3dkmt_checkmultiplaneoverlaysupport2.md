@@ -44,7 +44,7 @@ The PFND3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2 callback function checks the detail
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2 Pfnd3dkmtCheckmultiplaneoverlaysupport2; 

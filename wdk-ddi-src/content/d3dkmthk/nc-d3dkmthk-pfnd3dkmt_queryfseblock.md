@@ -44,7 +44,7 @@ The PFND3DKMT_QUERYFSEBLOCK callback function queries FSE blocks.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_QUERYFSEBLOCK Pfnd3dkmtQueryfseblock; 

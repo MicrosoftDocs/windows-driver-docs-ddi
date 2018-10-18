@@ -53,7 +53,7 @@ Stores function pointers to callback functions implemented by the physical funct
 ## -syntax
 
 
-```
+```cpp
 typedef struct _SRIOV_DEVICE_INTERFACE_STANDARD {
   USHORT                           Size;
   USHORT                           Version;

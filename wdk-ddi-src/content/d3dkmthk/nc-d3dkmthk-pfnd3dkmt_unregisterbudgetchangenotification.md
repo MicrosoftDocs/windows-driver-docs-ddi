@@ -44,7 +44,7 @@ The PFND3DKMT_UNREGISTERBUDGETCHANGENOTIFICATION callback function unregisters b
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_UNREGISTERBUDGETCHANGENOTIFICATION Pfnd3dkmtUnregisterbudgetchangenotification; 

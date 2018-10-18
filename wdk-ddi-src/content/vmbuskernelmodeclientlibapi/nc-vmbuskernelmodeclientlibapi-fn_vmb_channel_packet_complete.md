@@ -49,7 +49,7 @@ completion packet.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_PACKET_COMPLETE FnVmbChannelPacketComplete; 

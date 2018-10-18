@@ -43,7 +43,7 @@ Core device functions.
 ## -syntax
 
 
-```
+```cpp
 typedef struct D3D12DDI_DEVICE_FUNCS_CORE_0040
 {
     PFND3D12DDI_CHECKFORMATSUPPORT                                      pfnCheckFormatSupport;

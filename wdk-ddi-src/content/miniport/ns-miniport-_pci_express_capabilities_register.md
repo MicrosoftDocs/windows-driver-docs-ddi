@@ -53,7 +53,7 @@ The PCI_EXPRESS_CAPABILITIES_REGISTER structure describes a PCI Express (PCIe) c
 ## -syntax
 
 
-```
+```cpp
 typedef union _PCI_EXPRESS_CAPABILITIES_REGISTER {
   struct {
     USHORT CapabilityVersion  :4;

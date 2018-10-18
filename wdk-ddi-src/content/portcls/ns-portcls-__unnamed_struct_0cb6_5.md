@@ -53,7 +53,7 @@ The <b>PCEVENT_ITEM</b> structure is used to describe an event that is supported
 ## -syntax
 
 
-```
+```cpp
 typedef struct {
   const GUID         *Set;
   ULONG              Id;

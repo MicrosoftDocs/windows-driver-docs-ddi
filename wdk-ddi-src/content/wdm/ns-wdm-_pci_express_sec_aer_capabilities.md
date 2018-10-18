@@ -54,7 +54,7 @@ The PCI_EXPRESS_SEC_AER_CAPABILITIES structure describes a PCI Express (PCIe) se
 ## -syntax
 
 
-```
+```cpp
 typedef union _PCI_EXPRESS_SEC_AER_CAPABILITIES {
   struct {
     ULONG SecondaryUncorrectableFirstErrorPtr  :5;

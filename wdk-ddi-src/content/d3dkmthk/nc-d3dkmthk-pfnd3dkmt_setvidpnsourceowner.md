@@ -44,7 +44,7 @@ The PFND3DKMT_SETVIDPNSOURCEOWNER callback function sets and releases the video 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SETVIDPNSOURCEOWNER Pfnd3dkmtSetvidpnsourceowner; 

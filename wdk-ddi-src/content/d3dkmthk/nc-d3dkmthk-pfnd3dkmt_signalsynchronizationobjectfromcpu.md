@@ -44,7 +44,7 @@ The PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU callback function enables a dri
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU Pfnd3dkmtSignalsynchronizationobjectfromcpu; 

@@ -45,7 +45,7 @@ The CalcPrivateCommandListSize function determines the size of the user-mode dis
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALC_PRIVATE_COMMAND_LIST_SIZE_0001 Pfnd3d12ddiCalcPrivateCommandListSize0001; 

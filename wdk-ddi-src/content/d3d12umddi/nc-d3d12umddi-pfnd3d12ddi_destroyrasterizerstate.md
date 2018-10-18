@@ -45,7 +45,7 @@ Destroy rasterizer state.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROYRASTERIZERSTATE Pfnd3d12ddiDestroyrasterizerstate; 

@@ -44,7 +44,7 @@ The PFND3DKMT_DESTROYPAGINGQUEUE callback function destroys paging queue.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_DESTROYPAGINGQUEUE Pfnd3dkmtDestroypagingqueue; 

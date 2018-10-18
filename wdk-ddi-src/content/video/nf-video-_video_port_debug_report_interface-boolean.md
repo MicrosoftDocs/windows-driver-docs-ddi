@@ -58,7 +58,7 @@ Miniport drivers call the
 ## -syntax
 
 
-```
+```cpp
 BOOLEAN NdisMSynchronizeWithInterruptEx(
   _In_ NDIS_HANDLE NdisInterruptHandle,
   _In_ ULONG       MessageId,

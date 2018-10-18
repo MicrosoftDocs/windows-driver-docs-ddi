@@ -53,7 +53,7 @@ Implemented by the client driver and invoked as  invoked as a result of a call t
 ## -prototype
 
 
-```
+```cpp
 HWN_CLIENT_UNINITIALIZE_DEVICE HwnClientUninitializeDevice;
 
 NTSTATUS HwnClientUninitializeDevice(

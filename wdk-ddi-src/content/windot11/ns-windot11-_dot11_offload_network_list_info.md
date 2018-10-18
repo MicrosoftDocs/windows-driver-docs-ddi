@@ -55,7 +55,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_OFFLOAD_NETWORK_LIST_INFO {
   NDIS_OBJECT_HEADER    Header;
   ULONG                 ulFlags;

@@ -48,7 +48,7 @@ The driver must check the return value of the function.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_RESTORE_FROM_BUFFER FnVmbChannelRestoreFromBuffer; 

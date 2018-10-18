@@ -44,7 +44,7 @@ The PFND3DKMT_SETCONTEXTSCHEDULINGPRIORITY callback function sets the scheduling
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SETCONTEXTSCHEDULINGPRIORITY Pfnd3dkmtSetcontextschedulingpriority; 

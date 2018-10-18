@@ -55,7 +55,7 @@ The DOT11_PHY_TYPE_INFO structure defines parameters that the 802.11 station use
 
 ## -syntax
 
-```
+```cpp
 typedef struct _DOT11_PHY_TYPE_INFO {
   union {
     DOT11_PHY_TYPE dot11PhyType;

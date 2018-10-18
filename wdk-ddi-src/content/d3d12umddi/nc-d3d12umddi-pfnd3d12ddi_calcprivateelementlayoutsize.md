@@ -45,7 +45,7 @@ The CalcPrivateElementLayoutSize function determines the size of the user-mode d
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALCPRIVATEELEMENTLAYOUTSIZE Pfnd3d12ddiCalcprivateelementlayoutsize; 

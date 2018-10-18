@@ -57,7 +57,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-```
+```cpp
 DOT11EXTIHV_VALIDATE_PROFILE Dot11ExtIhvValidateProfile;
 
 DWORD APIENTRY Dot11ExtIhvValidateProfile(

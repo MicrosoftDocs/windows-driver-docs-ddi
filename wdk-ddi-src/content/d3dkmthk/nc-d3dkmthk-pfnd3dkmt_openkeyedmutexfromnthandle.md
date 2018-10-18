@@ -45,7 +45,7 @@ Implemented by the client driver to open a keyed mutex from an NT handle to the 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_OPENKEYEDMUTEXFROMNTHANDLE Pfnd3dkmtOpenkeyedmutexfromnthandle;

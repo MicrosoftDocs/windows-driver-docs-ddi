@@ -45,7 +45,7 @@ Implemented by the client driver to get process device removal support.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_GETPROCESSDEVICEREMOVALSUPPORT Pfnd3dkmtGetprocessdeviceremovalsupport;

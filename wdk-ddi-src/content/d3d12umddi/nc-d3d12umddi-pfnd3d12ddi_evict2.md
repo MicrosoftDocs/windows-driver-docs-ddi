@@ -45,7 +45,7 @@ PFND3D12DDI_EVICT2 instructs the OS to decrement the residency reference count. 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_EVICT2 Pfnd3d12ddiEvict2; 

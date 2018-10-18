@@ -57,7 +57,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-```
+```cpp
 DWORD WINAPI * Dot11ExtSetCurrentProfile(
   _In_opt_ HANDLE                             hDot11SvcHandle,
   _In_opt_ HANDLE                             hConnectSession,

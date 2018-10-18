@@ -44,7 +44,7 @@ Pfnd3dkmtOpenadapterfromhdc maps a device context handle (HDC) to a graphics ada
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_OPENADAPTERFROMHDC Pfnd3dkmtOpenadapterfromhdc; 

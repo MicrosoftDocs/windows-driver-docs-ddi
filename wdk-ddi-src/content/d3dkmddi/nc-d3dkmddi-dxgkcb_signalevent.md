@@ -47,7 +47,7 @@ Note that the callback can be used to signal events of the  host processes as we
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKCB_SIGNALEVENT DxgkcbSignalevent; 

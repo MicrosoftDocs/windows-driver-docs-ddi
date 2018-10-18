@@ -44,7 +44,7 @@ Trim notification.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_TRIMNOTIFICATIONCALLBACK Pfnd3dkmtTrimnotificationcallback; 

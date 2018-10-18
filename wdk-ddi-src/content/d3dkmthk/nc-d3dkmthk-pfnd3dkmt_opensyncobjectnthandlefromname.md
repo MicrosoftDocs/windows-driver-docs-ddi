@@ -44,7 +44,7 @@ The PFND3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME callback function opens an NT handl
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME Pfnd3dkmtOpensyncobjectnthandlefromname; 

@@ -44,7 +44,7 @@ Implemented by the client driver to set the level of optimization used to contro
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION_3 DxgkBrightnessSetBacklightOptimization3;

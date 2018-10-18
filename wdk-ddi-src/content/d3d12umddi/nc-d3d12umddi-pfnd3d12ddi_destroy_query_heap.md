@@ -45,7 +45,7 @@ Destroys the query heap.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROY_QUERY_HEAP Pfnd3d12ddiDestroyQueryHeap; 

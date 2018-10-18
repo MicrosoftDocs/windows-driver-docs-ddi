@@ -44,7 +44,7 @@ The PFND3DKMT_SETHYBRIDLISTVVALUE callback function sets the hybrid list value.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SETHYBRIDLISTVVALUE Pfnd3dkmtSethybridlistvvalue; 

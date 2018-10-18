@@ -45,7 +45,7 @@ Notifies the GPU scheduler of a particular Present N, and the GPU scheduler will
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_NOTIFYFOCUSPRESENT DxgkddiNotifyfocuspresent;

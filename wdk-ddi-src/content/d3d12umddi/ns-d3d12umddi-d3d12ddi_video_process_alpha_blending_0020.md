@@ -71,7 +71,7 @@ The planar alpha value. The value can range from 0.0 (transparent) to 1.0 (opaqu
 
 For each pixel, the destination color value is computed as the following:
 
-```
+```cpp
 Cd = Cs * (As * Ap * Ae) + Cd * (1.0 - As * Ap * Ae)
 ```
 

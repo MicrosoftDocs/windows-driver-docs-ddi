@@ -44,7 +44,7 @@ The PFND3DKMT_SETFSEBLOCK callback function sets FSE block.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SETFSEBLOCK Pfnd3dkmtSetfseblock; 

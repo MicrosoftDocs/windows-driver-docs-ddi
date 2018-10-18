@@ -45,7 +45,7 @@ pfnSubmitPresentToHwQueueCb submits a Present operation to a hardware queue.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB PfnddxgiddiSubmitpresenttohwqueuecb; 

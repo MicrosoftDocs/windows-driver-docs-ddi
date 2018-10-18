@@ -54,7 +54,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-```
+```cpp
 typedef enum _RILUICCFILELOCKSTATUSACCESSCONDITION {
   RIL_UICCFILEACCESSCONDITION_PIN1,
   RIL_UICCFILEACCESSCONDITION_PIN2,

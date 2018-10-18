@@ -44,7 +44,7 @@ The PFND3DKMT_SETSTABLEPOWERSTATE callback function sets stable power state.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SETSTABLEPOWERSTATE Pfnd3dkmtSetstablepowerstate; 

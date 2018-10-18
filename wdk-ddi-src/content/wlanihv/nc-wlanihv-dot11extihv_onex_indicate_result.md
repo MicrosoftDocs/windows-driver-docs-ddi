@@ -56,7 +56,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-```
+```cpp
 DOT11EXTIHV_ONEX_INDICATE_RESULT Dot11ExtIhvOneXIndicateResult;
 
 DWORD APIENTRY Dot11ExtIhvOneXIndicateResult(

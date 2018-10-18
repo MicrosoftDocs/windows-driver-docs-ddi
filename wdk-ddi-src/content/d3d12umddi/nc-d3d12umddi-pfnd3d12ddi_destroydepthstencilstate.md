@@ -45,7 +45,7 @@ Destroy depth stencil state.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROYDEPTHSTENCILSTATE Pfnd3d12ddiDestroydepthstencilstate; 

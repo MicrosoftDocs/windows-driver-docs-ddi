@@ -44,7 +44,7 @@ Abandon the swap chain effect.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_ABANDONSWAPCHAIN Pfnd3dkmtAbandonswapchain; 

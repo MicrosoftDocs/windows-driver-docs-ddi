@@ -45,7 +45,7 @@ Implemented by the client driver to query protected session info from NT handle.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE Pfnd3dkmtQueryprotectedsessioninfofromnthandle;

@@ -45,7 +45,7 @@ Implemented by the client driver to set the command pool as a target for the com
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_COMMAND_RECORDER_SET_COMMAND_POOL_AS_TARGET_0040 Pfnd3d12ddiCommandRecorderSetCommandPoolAsTarget0040;

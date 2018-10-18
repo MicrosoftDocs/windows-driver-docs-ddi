@@ -45,7 +45,7 @@ Implemented by the client driver to end a Render Pass.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_END_RENDER_PASS Pfnd3d12ddiEndRenderPass; 

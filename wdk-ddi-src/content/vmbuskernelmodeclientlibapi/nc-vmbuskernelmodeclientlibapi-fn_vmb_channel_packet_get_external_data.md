@@ -48,7 +48,7 @@ Memory Descriptor Lists (MDLs) associated with a packet during packet processing
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_PACKET_GET_EXTERNAL_DATA FnVmbChannelPacketGetExternalData; 

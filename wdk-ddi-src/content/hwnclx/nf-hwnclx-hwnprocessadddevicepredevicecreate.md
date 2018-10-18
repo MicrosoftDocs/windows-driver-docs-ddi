@@ -54,7 +54,7 @@ Supplies the device prepare/release and entry/exit callbacks to the Windows Driv
 ## -syntax
 
 
-```
+```cpp
 FORCEINLINE NTSTATUS  HwNProcessAddDevicePreDeviceCreate(
   _In_  WDFDRIVER               Driver,
   _In_  PWDFDEVICE_INIT         DeviceInit,

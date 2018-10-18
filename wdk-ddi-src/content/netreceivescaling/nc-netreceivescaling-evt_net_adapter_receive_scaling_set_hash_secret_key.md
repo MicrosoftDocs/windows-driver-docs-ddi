@@ -49,7 +49,7 @@ The *EvtNetAdapterReceiveScalingSetHashSecretKey* callback function is implement
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_NET_ADAPTER_RECEIVE_SCALING_SET_HASH_SECRET_KEY EvtNetAdapterReceiveScalingSetHashSecretKey; 

@@ -45,7 +45,7 @@ Writes a data byte to the UART device.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 UART_PUT_BYTE UartPutByte;

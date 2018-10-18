@@ -44,7 +44,7 @@ The Pfnd3dkmtFlipoverlay callback function displays a new allocation by using th
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_FLIPOVERLAY Pfnd3dkmtFlipoverlay; 

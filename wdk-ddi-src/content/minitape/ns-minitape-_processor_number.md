@@ -53,7 +53,7 @@ The <b>PROCESSOR_NUMBER</b> structure identifies a processor by its group number
 ## -syntax
 
 
-```
+```cpp
 typedef struct _PROCESSOR_NUMBER {
   USHORT Group;
   UCHAR  Number;

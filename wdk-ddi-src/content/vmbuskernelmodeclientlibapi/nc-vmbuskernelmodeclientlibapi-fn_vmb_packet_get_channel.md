@@ -47,7 +47,7 @@ The <b>VmbPacketGetChannel</b> function returns the VMBus channel with which a V
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_PACKET_GET_CHANNEL FnVmbPacketGetChannel; 

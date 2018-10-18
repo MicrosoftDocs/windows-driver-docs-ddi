@@ -48,7 +48,7 @@ before it returns.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_DISABLE FnVmbChannelDisable; 

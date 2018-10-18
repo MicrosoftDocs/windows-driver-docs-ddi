@@ -55,7 +55,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_KEY_ALGO_BIP {
   UCHAR ucIPN[6];
   ULONG ulBIPKeyLength;

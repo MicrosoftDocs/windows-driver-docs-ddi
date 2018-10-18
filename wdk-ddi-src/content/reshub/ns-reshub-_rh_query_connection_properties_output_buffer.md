@@ -54,7 +54,7 @@ The <b>RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER</b> structure contains the c
 ## -syntax
 
 
-```
+```cpp
 typedef struct _RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER {
   ULONG Version;
   ULONG PropertiesLength;

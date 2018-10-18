@@ -55,7 +55,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-```
+```cpp
 DOT11EXTIHV_DEINIT_SERVICE Dot11ExtIhvDeinitService;
 
 VOID APIENTRY Dot11ExtIhvDeinitService(

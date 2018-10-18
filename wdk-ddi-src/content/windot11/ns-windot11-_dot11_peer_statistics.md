@@ -56,7 +56,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_PEER_STATISTICS {
   ULONGLONG ullDecryptSuccessCount;
   ULONGLONG ullDecryptFailureCount;

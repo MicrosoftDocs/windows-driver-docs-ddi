@@ -45,7 +45,7 @@ Implemented by the client driver to open heap and resource.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_OPENHEAPANDRESOURCE_0003 Pfnd3d12ddiOpenheapandresource0003; 

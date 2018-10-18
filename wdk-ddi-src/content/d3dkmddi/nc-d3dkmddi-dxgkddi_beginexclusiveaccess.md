@@ -45,7 +45,7 @@ Implemented by the client driver to begin exclusive access.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_BEGINEXCLUSIVEACCESS DxgkddiBeginexclusiveaccess;

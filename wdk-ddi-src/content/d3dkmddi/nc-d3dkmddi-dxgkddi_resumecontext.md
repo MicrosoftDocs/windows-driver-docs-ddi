@@ -45,7 +45,7 @@ Resumes a context. A context is created in a resumed state by default.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_RESUMECONTEXT DxgkddiResumecontext;

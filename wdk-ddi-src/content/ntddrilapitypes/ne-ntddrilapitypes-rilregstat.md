@@ -53,7 +53,7 @@ req.typenames: RILREGSTAT
 ## -syntax
 
 
-```
+```cpp
 enum RILREGSTAT  {
   RIL_REGSTAT_UNKNOWN       = 0x00000000,
   RIL_REGSTAT_UNREGISTERED  = 0x00000001,

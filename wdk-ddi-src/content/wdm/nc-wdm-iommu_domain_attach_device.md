@@ -44,7 +44,7 @@ Attaches a device to an existing domain.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 IOMMU_DOMAIN_ATTACH_DEVICE IommuDomainAttachDevice; 

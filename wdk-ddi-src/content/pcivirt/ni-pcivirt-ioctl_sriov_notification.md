@@ -91,7 +91,7 @@ that an event notification has been delivered and must not complete two IOCTL re
 
   It is pended by the PF driver until it is canceled by the sender or until the PF driver experiences one of several PnP events, at which point it is completed.
 
-```
+```cpp
 
 case IOCTL_SRIOV_NOTIFICATION:
         TraceEvents(TRACE_LEVEL_VERBOSE, DBG_IOCTL,
@@ -120,7 +120,7 @@ case IOCTL_SRIOV_NOTIFICATION:
 
 ```
 
-```
+```cpp
 VOID
 CheckPendingNotifications(
     __in PDEVICE_CONTEXT DeviceContext

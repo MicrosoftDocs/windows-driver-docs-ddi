@@ -56,7 +56,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_PORT_STATE {
   DOT11_MAC_ADDRESS PeerMacAddress;
   ULONG             uSessionId;

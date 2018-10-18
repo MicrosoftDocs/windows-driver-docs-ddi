@@ -53,7 +53,7 @@ req.typenames: RILPOSITIONINFOLTE, *LPRILPOSITIONINFOLTE
 ## -syntax
 
 
-```
+```cpp
 struct RILPOSITIONINFOLTE {
   DWORD dwParams;
   DWORD dwMobileCountryCode;

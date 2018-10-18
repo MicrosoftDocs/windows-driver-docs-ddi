@@ -53,7 +53,7 @@ The LOGINSESSIONTYPE enumeration indicates the type of logon session.
 ## -syntax
 
 
-```
+```cpp
 typedef enum  {
   ISCSI_LOGINTARGET_DISCOVERY      = 0,
   ISCSI_LOGINTARGET_INFORMATIONAL  = 1,

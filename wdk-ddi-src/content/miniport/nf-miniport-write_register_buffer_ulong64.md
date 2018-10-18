@@ -55,7 +55,7 @@ The <b>WRITE_REGISTER_BUFFER_ULONG64</b> function writes a number of ULONG64 val
 ## -syntax
 
 
-```
+```cpp
 void WRITE_REGISTER_BUFFER_ULONG64(
   _In_ IWDFDevice3 *pDevice,
   _In_ PULONG64    Register,

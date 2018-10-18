@@ -55,7 +55,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11EXT_IHV_SSID_LIST {
   ULONG      ulCount;
   DOT11_SSID SSIDs[1];

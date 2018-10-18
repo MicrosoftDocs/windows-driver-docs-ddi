@@ -44,7 +44,7 @@ The PFND3DKMT_CREATESWAPCHAIN callback function creates a swap chain.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_CREATESWAPCHAIN Pfnd3dkmtCreateswapchain; 

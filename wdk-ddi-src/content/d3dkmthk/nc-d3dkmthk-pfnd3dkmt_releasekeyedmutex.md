@@ -44,7 +44,7 @@ The PFND3DKMT_RELEASEKEYEDMUTEX callback function releases a keyed mutex object.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_RELEASEKEYEDMUTEX Pfnd3dkmtReleasekeyedmutex; 

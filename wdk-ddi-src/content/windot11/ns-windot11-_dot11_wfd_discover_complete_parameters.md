@@ -55,7 +55,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS {
   NDIS_OBJECT_HEADER Header;
   NDIS_STATUS        Status;

@@ -44,7 +44,7 @@ Pfnd3dkmtGetmultiplaneoverlaycaps retrieves multiplane overlay capabilities.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_GETMULTIPLANEOVERLAYCAPS Pfnd3dkmtGetmultiplaneoverlaycaps; 

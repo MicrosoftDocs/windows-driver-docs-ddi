@@ -44,7 +44,7 @@ Reserved for system use. Do not use in your driver.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_CREATEOUTPUTDUPL Pfnd3dkmtCreateoutputdupl; 

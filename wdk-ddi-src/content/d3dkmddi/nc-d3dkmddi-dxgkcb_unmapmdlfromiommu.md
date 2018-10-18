@@ -45,7 +45,7 @@ Implemented by the client driver to release the mapping that was set by [DXGKCB_
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKCB_UNMAPMDLFROMIOMMU DxgkcbUnmapmdlfromiommu;

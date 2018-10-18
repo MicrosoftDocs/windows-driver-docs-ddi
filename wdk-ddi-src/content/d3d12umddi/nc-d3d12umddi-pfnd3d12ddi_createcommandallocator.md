@@ -45,7 +45,7 @@ Creates a command allocator.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATECOMMANDALLOCATOR Pfnd3d12ddiCreatecommandallocator; 

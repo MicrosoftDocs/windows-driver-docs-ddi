@@ -45,7 +45,7 @@ Creates a context associated with a scheduling group.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATESCHEDULINGGROUPCONTEXT_CB_0050 Pfnd3d12ddiCreateschedulinggroupcontextCb0050; 

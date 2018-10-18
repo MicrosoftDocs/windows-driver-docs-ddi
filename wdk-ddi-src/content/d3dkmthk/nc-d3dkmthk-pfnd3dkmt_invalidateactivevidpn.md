@@ -44,7 +44,7 @@ Pfnd3dkmtInvalidateactivevidpn invalidates the active video present network (Vid
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_INVALIDATEACTIVEVIDPN Pfnd3dkmtInvalidateactivevidpn; 

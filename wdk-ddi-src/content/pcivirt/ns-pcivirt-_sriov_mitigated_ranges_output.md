@@ -53,7 +53,7 @@ This structure is the output buffer received by the <a href="https://msdn.micros
 ## -syntax
 
 
-```
+```cpp
 typedef struct _SRIOV_MITIGATED_RANGES_OUTPUT {
   ULONG64  BasePageNumber;
   ULONG    PageCount;

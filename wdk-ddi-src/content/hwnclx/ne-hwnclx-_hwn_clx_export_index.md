@@ -54,7 +54,7 @@ Defines the position for each of the Hardware Notification exports in the export
 ## -syntax
 
 
-```
+```cpp
 typedef enum _HWN_CLX_EXPORT_INDEX {
   RegisterClientIndex             = 0x0,
   UnregisterClientIndex,

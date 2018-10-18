@@ -59,7 +59,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct DOT11_ROAMING_COMPLETION_PARAMETERS {
   NDIS_OBJECT_HEADER Header;
   DOT11_ASSOC_STATUS uStatus;

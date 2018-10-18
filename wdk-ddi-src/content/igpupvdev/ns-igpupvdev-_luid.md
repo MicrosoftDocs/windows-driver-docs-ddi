@@ -58,7 +58,7 @@ An LUID is not for direct manipulation. Drivers must use support routines and st
 ## -syntax
 
 
-```
+```cpp
 typedef struct _LUID {
   DWORD LowPart;
   LONG  HighPart;

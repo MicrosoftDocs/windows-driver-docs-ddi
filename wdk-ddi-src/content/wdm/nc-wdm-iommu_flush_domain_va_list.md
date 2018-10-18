@@ -44,7 +44,7 @@ Flushes the TLB for all entries that match the specified domain's ASID and one o
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 IOMMU_FLUSH_DOMAIN_VA_LIST IommuFlushDomainVaList; 

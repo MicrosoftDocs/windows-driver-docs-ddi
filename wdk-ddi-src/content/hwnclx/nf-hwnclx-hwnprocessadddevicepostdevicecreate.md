@@ -56,7 +56,7 @@ req.typenames: HWN_CLX_EXPORT_INDEX, *PHWN_CLX_EXPORT_INDEX
 ## -syntax
 
 
-```
+```cpp
 FORCEINLINE NTSTATUS  HwNProcessAddDevicePostDeviceCreate(
   _In_ WDFDRIVER  Driver,
   _In_ WDFDEVICE  Device,

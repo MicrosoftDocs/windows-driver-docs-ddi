@@ -53,7 +53,7 @@ The KSSTATE enumeration lists possible states of a kernel streaming object.
 ## -syntax
 
 
-```
+```cpp
 typedef enum  {
   KSSTATE_STOP     = 0,
   KSSTATE_ACQUIRE  = 1,

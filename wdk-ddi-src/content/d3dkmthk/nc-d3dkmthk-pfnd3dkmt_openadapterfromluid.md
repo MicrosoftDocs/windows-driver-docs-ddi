@@ -44,7 +44,7 @@ Pfnd3dkmtOpenadapterfromluid maps a locally unique identifier (LUID) to a graphi
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_OPENADAPTERFROMLUID Pfnd3dkmtOpenadapterfromluid; 

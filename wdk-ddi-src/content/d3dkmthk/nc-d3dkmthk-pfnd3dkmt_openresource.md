@@ -44,7 +44,7 @@ Pfnd3dkmtOpenresource opens a shared resource.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_OPENRESOURCE Pfnd3dkmtOpenresource; 

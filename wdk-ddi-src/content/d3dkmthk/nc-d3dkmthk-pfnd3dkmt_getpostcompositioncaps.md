@@ -44,7 +44,7 @@ Pfnd3dkmtGetpostcompositioncaps retrieves post composition capabilities.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_GETPOSTCOMPOSITIONCAPS Pfnd3dkmtGetpostcompositioncaps; 

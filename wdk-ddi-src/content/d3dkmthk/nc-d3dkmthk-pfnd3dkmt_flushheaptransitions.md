@@ -44,7 +44,7 @@ The Pfnd3dkmtFlushheaptransitions callback function flushes heap transitions.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_FLUSHHEAPTRANSITIONS Pfnd3dkmtFlushheaptransitions; 

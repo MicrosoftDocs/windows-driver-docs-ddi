@@ -53,7 +53,7 @@ req.typenames: RILDEVICEINFORMATION
 ## -syntax
 
 
-```
+```cpp
 enum RILDEVICEINFORMATION {
   RIL_DEVICEINFO_MANUFACTURER       = 0x01,
   RIL_DEVICEINFO_MODEL              = 0x02,

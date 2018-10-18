@@ -57,7 +57,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-```
+```cpp
 DOT11EXTIHV_PROCESS_UI_RESPONSE Dot11ExtIhvProcessUIResponse;
 
 DWORD APIENTRY Dot11ExtIhvProcessUIResponse(

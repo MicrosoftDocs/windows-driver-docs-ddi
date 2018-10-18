@@ -45,7 +45,7 @@ pfnSubmitPresentToHwQueueCb is invoked by user mode drivers to submit a Blt Pres
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SUBMITPRESENTTOHWQUEUE Pfnd3dkmtSubmitpresenttohwqueue; 

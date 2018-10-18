@@ -56,7 +56,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct DOT11_VWIFI_ATTRIBUTES {
   NDIS_OBJECT_HEADER      Header;
   ULONG                   uTotalNumOfEntries;

@@ -44,7 +44,7 @@ The PFND3DKMT_PINDIRECTFLIPRESOURCES callback function pins direct flip resource
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_PINDIRECTFLIPRESOURCES Pfnd3dkmtPindirectflipresources; 

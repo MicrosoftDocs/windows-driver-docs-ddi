@@ -44,7 +44,7 @@ Pfnd3dkmtGetdevicestate retrieves the state of a device.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_GETDEVICESTATE Pfnd3dkmtGetdevicestate; 

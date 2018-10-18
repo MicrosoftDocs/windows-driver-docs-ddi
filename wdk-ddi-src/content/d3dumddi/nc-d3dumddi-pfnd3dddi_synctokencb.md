@@ -44,7 +44,7 @@ The PFND3DDDI_SYNCTOKENCB callback creates a sync token.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DDDI_SYNCTOKENCB Pfnd3dddiSynctokencb; 

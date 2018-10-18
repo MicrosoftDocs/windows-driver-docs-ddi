@@ -45,7 +45,7 @@ Triggers a bus scan at the parent of the FPGA device.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FPGA_BUS_SCAN FpgaBusScan; 

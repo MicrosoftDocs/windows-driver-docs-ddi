@@ -45,7 +45,7 @@ Copy descriptors.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_COPY_DESCRIPTORS_0003 Pfnd3d12ddiCopyDescriptors0003; 

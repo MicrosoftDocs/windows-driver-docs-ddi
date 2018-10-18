@@ -47,7 +47,7 @@ The <b>VmbChannelInitSetFlags</b> function sets flags common to server or client
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_INIT_SET_FLAGS FnVmbChannelInitSetFlags; 

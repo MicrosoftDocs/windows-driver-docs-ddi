@@ -45,7 +45,7 @@ Implemented by the client driver to map physical pages described by a memory des
 This callback function is generally used to allocate memory that can't be allocated through one of the other allocation callbacks.
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKCB_MAPMDLTOIOMMU DxgkcbMapmdltoiommu;

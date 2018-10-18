@@ -43,7 +43,7 @@ Reports the latest resource lists.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 GET_UPDATED_BUS_RESOURCE GetUpdatedBusResource; 

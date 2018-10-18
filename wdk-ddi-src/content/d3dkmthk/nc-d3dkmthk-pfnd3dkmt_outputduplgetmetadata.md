@@ -44,7 +44,7 @@ The PFND3DKMT_OUTPUTDUPLGETMETADATA callback function gets output duplicate meta
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_OUTPUTDUPLGETMETADATA Pfnd3dkmtOutputduplgetmetadata; 

@@ -44,7 +44,7 @@ Pfnd3dkmtGetsharedresourceadapterluid maps a shared resource to a locally unique
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_GETSHAREDRESOURCEADAPTERLUID Pfnd3dkmtGetsharedresourceadapterluid; 

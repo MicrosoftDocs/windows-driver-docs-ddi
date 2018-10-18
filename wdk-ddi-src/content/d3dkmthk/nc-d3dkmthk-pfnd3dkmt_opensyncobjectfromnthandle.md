@@ -44,7 +44,7 @@ The PFND3DKMT_OPENSYNCOBJECTFROMNTHANDLE callback function maps an NT process ha
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_OPENSYNCOBJECTFROMNTHANDLE Pfnd3dkmtOpensyncobjectfromnthandle; 

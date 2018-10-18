@@ -44,7 +44,7 @@ The PFND3DKMT_UPDATEGPUVIRTUALADDRESS callback function allows the driver to spe
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_UPDATEGPUVIRTUALADDRESS Pfnd3dkmtUpdategpuvirtualaddress; 

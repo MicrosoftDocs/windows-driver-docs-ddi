@@ -53,7 +53,7 @@ The PCI_EXPRESS_ROOT_CONTROL_REGISTER structure describes a PCI Express (PCIe) r
 ## -syntax
 
 
-```
+```cpp
 typedef union _PCI_EXPRESS_ROOT_CONTROL_REGISTER {
   struct {
     USHORT CorrectableSerrEnable  :1;

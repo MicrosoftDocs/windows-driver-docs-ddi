@@ -56,7 +56,7 @@ The DOT11EXT_IHV_HANDLERS structure specifies a list of pointers to the IHV hand
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11EXT_IHV_HANDLERS {
   DOT11EXTIHV_DEINIT_SERVICE            Dot11ExtIhvDeinitService;
   DOT11EXTIHV_INIT_ADAPTER              Dot11ExtIhvInitAdapter;

@@ -54,7 +54,7 @@ A port monitor server DLL's <b>XcvDataPort</b> function receives information fro
 ## -syntax
 
 
-```
+```cpp
 DWORD XcvDataPort(
   _In_  HANDLE  hXcv,
   _In_  LPCWSTR pszDataName,

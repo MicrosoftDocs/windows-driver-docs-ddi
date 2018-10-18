@@ -53,7 +53,7 @@ Battery miniclass drivers fill in this structure in response to certain <a href=
 ## -syntax
 
 
-```
+```cpp
 typedef struct _BATTERY_INFORMATION {
   ULONG Capabilities;
   UCHAR Technology;

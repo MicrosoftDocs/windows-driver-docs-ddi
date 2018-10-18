@@ -45,7 +45,7 @@ Set the virtual machine data.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_SETVIRTUALMACHINEDATA DxgkddiSetvirtualmachinedata;

@@ -45,7 +45,7 @@ Launch threads of a ray generation shader.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DISPATCH_RAYS_0054 Pfnd3d12ddiDispatchRays0054; 

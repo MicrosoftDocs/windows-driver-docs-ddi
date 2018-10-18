@@ -44,7 +44,7 @@ The PFND3DKMT_QUERYRESOURCEINFO callback function retrieves information about a 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_QUERYRESOURCEINFO Pfnd3dkmtQueryresourceinfo; 

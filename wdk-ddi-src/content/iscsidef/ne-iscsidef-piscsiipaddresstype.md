@@ -53,7 +53,7 @@ The ISCSIIPADDRESSTYPE enumeration indicates formats for an IP address.
 ## -syntax
 
 
-```
+```cpp
 typedef enum  {
   ISCSI_IP_ADDRESS_TEXT   = 0,
   ISCSI_IP_ADDRESS_IPV4   = 1,

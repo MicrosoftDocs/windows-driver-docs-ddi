@@ -53,7 +53,7 @@ The <b>PEP_PROCESSOR_IDLE_CANCEL_CODE</b> enumeration values indicate reasons wh
 ## -syntax
 
 
-```
+```cpp
 typedef enum _PEP_PROCESSOR_IDLE_CANCEL_CODE {
   PepIdleCancelWorkPending            = 0,
   PepIdleCancelDependencyCheckFailed,

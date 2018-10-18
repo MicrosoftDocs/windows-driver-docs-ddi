@@ -54,7 +54,7 @@ A port monitor UI DLL's <b>ConfigurePortUI</b> function obtains port configurati
 ## -syntax
 
 
-```
+```cpp
 BOOL WINAPI pfnConfigurePortUI(
   _In_opt_ PCWSTR pszServer,
   _In_     HWND   hWnd,

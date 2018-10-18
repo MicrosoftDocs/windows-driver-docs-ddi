@@ -56,7 +56,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_PEER_INFO {
   DOT11_MAC_ADDRESS       MacAddress;
   USHORT                  usCapabilityInformation;

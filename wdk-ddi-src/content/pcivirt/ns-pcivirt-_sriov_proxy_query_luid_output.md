@@ -54,7 +54,7 @@ identifier of the SR_IOV device implementing the interface. This structure is th
 ## -syntax
 
 
-```
+```cpp
 typedef struct _SRIOV_PROXY_QUERY_LUID_OUTPUT {
   LUID  DeviceLuid;
 } SRIOV_PROXY_QUERY_LUID_OUTPUT, SRIOV_PROXY_QUERY_LUID_OUTPUT;

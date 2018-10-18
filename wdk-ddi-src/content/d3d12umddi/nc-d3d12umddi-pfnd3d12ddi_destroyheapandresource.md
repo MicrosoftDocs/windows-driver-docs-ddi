@@ -45,7 +45,7 @@ Destroy heap and resource.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROYHEAPANDRESOURCE Pfnd3d12ddiDestroyheapandresource; 

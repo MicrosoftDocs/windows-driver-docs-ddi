@@ -55,7 +55,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_POWER_MGMT_MODE_STATUS_INFO {
   NDIS_OBJECT_HEADER      Header;
   DOT11_POWER_MODE        PowerSaveMode;

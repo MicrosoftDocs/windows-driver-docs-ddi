@@ -45,7 +45,7 @@ Implemented by the client driver to unmap a heap.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_UNMAPHEAP Pfnd3d12ddiUnmapheap; 

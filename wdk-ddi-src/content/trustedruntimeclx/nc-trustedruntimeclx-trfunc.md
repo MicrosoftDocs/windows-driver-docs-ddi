@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 TRFUNC Trfunc; 

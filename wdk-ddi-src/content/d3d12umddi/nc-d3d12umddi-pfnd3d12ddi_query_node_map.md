@@ -45,7 +45,7 @@ Query node map.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_QUERY_NODE_MAP Pfnd3d12ddiQueryNodeMap; 

@@ -58,7 +58,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-```
+```cpp
 DOT11EXTIHV_QUERY_UI_REQUEST Dot11ExtIhvQueryUIRequest;
 
 DWORD APIENTRY Dot11ExtIhvQueryUIRequest(

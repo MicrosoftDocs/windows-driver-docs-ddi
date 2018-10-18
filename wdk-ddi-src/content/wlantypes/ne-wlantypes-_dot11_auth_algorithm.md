@@ -54,7 +54,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-```
+```cpp
 typedef enum _DOT11_AUTH_ALGORITHM {
   DOT11_AUTH_ALGO_80211_OPEN        = 1,
   DOT11_AUTH_ALGO_80211_SHARED_KEY  = 2,

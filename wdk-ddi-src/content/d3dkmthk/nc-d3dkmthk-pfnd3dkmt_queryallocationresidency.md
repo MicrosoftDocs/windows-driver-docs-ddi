@@ -44,7 +44,7 @@ The PFND3DKMT_QUERYALLOCATIONRESIDENCY callback function retrieves the residency
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_QUERYALLOCATIONRESIDENCY Pfnd3dkmtQueryallocationresidency; 

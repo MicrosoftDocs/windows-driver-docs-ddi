@@ -44,7 +44,7 @@ Pfnd3dkmtInvalidatecache invalidates cache.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_INVALIDATECACHE Pfnd3dkmtInvalidatecache; 

@@ -44,7 +44,7 @@ The PFND3DDDI_INVALIDATECACHECB callback function invalidates cache.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DDDI_INVALIDATECACHECB Pfnd3dddiInvalidatecachecb; 

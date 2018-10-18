@@ -45,7 +45,7 @@ Implemented by the client driver to submit a command to queue hardware flags.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SUBMITCOMMANDTOHWQUEUE Pfnd3dkmtSubmitcommandtohwqueue;

@@ -53,7 +53,7 @@ The PARALLEL_INTERRUPT_SERVICE_ROUTINE structure specifies interrupt services th
 ## -syntax
 
 
-```
+```cpp
 typedef struct _PARALLEL_INTERRUPT_SERVICE_ROUTINE {
   PKSERVICE_ROUTINE          InterruptServiceRoutine;
   PVOID                      InterruptServiceContext;

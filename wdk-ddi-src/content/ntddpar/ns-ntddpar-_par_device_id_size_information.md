@@ -53,7 +53,7 @@ The PAR_DEVICE_ID_SIZE_INFORMATION structure specifies the size, in bytes, of a 
 ## -syntax
 
 
-```
+```cpp
 typedef struct _PAR_DEVICE_ID_SIZE_INFORMATION {
   ULONG DeviceIdSize;
 } PAR_DEVICE_ID_SIZE_INFORMATION, *PPAR_DEVICE_ID_SIZE_INFORMATION;

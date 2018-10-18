@@ -44,7 +44,7 @@ This routine sets the device fault reporting state to a device already attached 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 IOMMU_SET_DEVICE_FAULT_REPORTING IommuSetDeviceFaultReporting; 

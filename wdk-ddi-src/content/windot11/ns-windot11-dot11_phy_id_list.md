@@ -55,7 +55,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct DOT11_PHY_ID_LIST {
   NDIS_OBJECT_HEADER Header;
   ULONG              uNumOfEntries;

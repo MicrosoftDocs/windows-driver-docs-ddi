@@ -53,7 +53,7 @@ The D3DKMT_PRESENT_MODEL enumeration type contains values that indicate the mode
 ## -syntax
 
 
-```
+```cpp
 typedef enum _D3DKMT_PRESENT_MODEL {
   D3DKMT_PM_UNINITIALIZED           = 0,
   D3DKMT_PM_REDIRECTED_GDI          = 1,

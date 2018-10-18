@@ -44,7 +44,7 @@ The PFND3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION callback function notifies the ope
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION Pfnd3dkmtSharedprimaryunlocknotification; 

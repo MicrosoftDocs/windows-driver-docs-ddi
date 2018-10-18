@@ -53,7 +53,7 @@ The PCI_EXPRESS_CAPABILITY structure describes a PCI Express (PCIe) capability s
 ## -syntax
 
 
-```
+```cpp
 typedef struct _PCI_EXPRESS_CAPABILITY {
   PCI_CAPABILITIES_HEADER                  Header;
   PCI_EXPRESS_CAPABILITIES_REGISTER        ExpressCapabilities;

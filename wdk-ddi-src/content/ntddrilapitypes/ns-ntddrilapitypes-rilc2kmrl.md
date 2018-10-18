@@ -53,7 +53,7 @@ req.typenames: RILC2KMRL, *LPRILC2KMRL
 ## -syntax
 
 
-```
+```cpp
 struct RILC2KMRL {
   DWORD dwParams;
   BOOL  fServing;

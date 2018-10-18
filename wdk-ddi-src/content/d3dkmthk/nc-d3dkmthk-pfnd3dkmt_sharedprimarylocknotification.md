@@ -44,7 +44,7 @@ The PFND3DKMT_SHAREDPRIMARYLOCKNOTIFICATION callback function notifies the opera
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SHAREDPRIMARYLOCKNOTIFICATION Pfnd3dkmtSharedprimarylocknotification; 

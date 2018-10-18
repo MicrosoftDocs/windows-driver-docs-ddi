@@ -54,7 +54,7 @@ The PCI_EXPRESS_ROOT_ERROR_STATUS structure describes a PCI Express (PCIe) root 
 ## -syntax
 
 
-```
+```cpp
 typedef union _PCI_EXPRESS_ROOT_ERROR_STATUS {
   struct {
     ULONG CorrectableErrorReceived  :1;

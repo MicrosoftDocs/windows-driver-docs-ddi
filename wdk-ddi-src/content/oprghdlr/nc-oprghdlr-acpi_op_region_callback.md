@@ -42,7 +42,7 @@ targetos: Windows
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 ACPI_OP_REGION_CALLBACK AcpiOpRegionCallback; 

@@ -45,7 +45,7 @@ The PFND3D12DDI_ENUMERATE_META_COMMANDS_0052 callback function enumerates meta-c
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_ENUMERATE_META_COMMANDS_0052 Pfnd3d12ddiEnumerateMetaCommands0052; 

@@ -44,7 +44,7 @@ The PFND3DKMT_RELEASEPROCESSVIDPNSOURCEOWNERS callback function releases the vid
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_RELEASEPROCESSVIDPNSOURCEOWNERS Pfnd3dkmtReleaseprocessvidpnsourceowners; 

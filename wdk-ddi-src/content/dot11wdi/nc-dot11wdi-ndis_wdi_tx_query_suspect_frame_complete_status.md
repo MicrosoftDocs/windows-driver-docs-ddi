@@ -45,7 +45,7 @@ The *TxQuerySuspectFrameStatus* callback function is implemented by the IHV mini
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 NDIS_WDI_TX_QUERY_SUSPECT_FRAME_COMPLETE_STATUS NdisWdiTxQuerySuspectFrameCompleteStatus; 

@@ -56,7 +56,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_STOP_AP_PARAMETERS {
   NDIS_OBJECT_HEADER Header;
   ULONG              ulReason;

@@ -53,7 +53,7 @@ req.typenames: RILUICCKEYREF
 ## -syntax
 
 
-```
+```cpp
 enum RILUICCKEYREF {
   RIL_UICCKEYREF_ALW   = 0x00,
   RIL_UICCKEYREF_PIN1  = 0x01,

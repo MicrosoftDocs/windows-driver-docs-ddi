@@ -57,7 +57,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-```
+```cpp
 DWORD WINAPI * Dot11ExtSetKeyMappingKey(
   _In_opt_ HANDLE                              hDot11SvcHandle,
   _In_     PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE pKey

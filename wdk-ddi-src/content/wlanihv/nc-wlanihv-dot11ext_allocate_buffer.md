@@ -56,7 +56,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-```
+```cpp
 DWORD WINAPI * Dot11ExtAllocateBuffer(
   _In_  DWORD  dwByteCount,
   _Out_ LPVOID *ppvBuffer

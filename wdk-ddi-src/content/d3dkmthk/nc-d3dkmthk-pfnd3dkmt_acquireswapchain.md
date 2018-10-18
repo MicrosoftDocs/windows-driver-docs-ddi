@@ -44,7 +44,7 @@ The PFND3DKMT_ACQUIRESWAPCHAIN callback function acquires a swap chain.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_ACQUIRESWAPCHAIN Pfnd3dkmtAcquireswapchain; 

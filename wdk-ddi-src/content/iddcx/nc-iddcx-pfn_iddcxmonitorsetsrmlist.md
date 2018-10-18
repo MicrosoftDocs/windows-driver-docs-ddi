@@ -44,7 +44,7 @@ Implemented by the client driver to pass a HDCP SRM list to the GPU driver assoc
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 *PFN_IDDCXMONITORSETSRMLIST *PfnIddcxmonitorsetsrmlist;

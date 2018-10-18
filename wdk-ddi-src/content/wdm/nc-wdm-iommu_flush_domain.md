@@ -44,7 +44,7 @@ Flushes the TLB for all entries which match this domain.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 IOMMU_FLUSH_DOMAIN IommuFlushDomain; 

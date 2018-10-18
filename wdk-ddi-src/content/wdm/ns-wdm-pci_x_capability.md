@@ -54,7 +54,7 @@ The PCI_X_CAPABILITY structure reports the contents of the command and status re
 ## -syntax
 
 
-```
+```cpp
 typedef struct {
   PCI_CAPABILITIES_HEADER Header;
   union {

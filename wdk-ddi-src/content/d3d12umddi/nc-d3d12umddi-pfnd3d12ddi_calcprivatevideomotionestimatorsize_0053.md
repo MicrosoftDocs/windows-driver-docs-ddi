@@ -45,7 +45,7 @@ Calculates the driver object size. The Direct3D runtime allocates memory for sto
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALCPRIVATEVIDEOMOTIONESTIMATORSIZE_0053 Pfnd3d12ddiCalcprivatevideomotionestimatorsize0053; 

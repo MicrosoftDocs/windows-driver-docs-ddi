@@ -54,7 +54,7 @@ The DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure specifies the results o
 
 ## -syntax
 
-```
+```cpp
 typedef struct _DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS {
   NDIS_OBJECT_HEADER     Header;
   DOT11_MAC_ADDRESS      PeerMacAddr;

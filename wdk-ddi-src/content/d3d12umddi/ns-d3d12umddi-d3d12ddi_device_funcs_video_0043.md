@@ -44,7 +44,7 @@ The device functions of video.
 ## -syntax
 
 
-```
+```cpp
 typedef struct D3D12DDI_DEVICE_FUNCS_VIDEO_0043
 {
     PFND3D12DDI_VIDEO_GETCAPS                                           pfnGetCaps;

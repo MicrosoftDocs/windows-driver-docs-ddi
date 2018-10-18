@@ -45,7 +45,7 @@ Reads a data byte from the UART device.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 UART_GET_BYTE UartGetByte;

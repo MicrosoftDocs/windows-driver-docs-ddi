@@ -45,7 +45,7 @@ Sets the pipeline state.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_SET_PIPELINE_STATE1_0054 Pfnd3d12ddiSetPipelineState10054; 

@@ -44,7 +44,7 @@ Implemented by the client driver to retrieve the brightness control capabilities
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGK_BRIGHTNESS_GET_CAPS_3 DxgkBrightnessGetCaps3;

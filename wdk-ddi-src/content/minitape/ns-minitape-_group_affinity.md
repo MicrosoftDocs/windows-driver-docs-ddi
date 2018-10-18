@@ -53,7 +53,7 @@ The <b>GROUP_AFFINITY</b> structure specifies a group number and the processor <
 ## -syntax
 
 
-```
+```cpp
 typedef struct _GROUP_AFFINITY {
   KAFFINITY Mask;
   WORD      Group;

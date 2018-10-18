@@ -44,7 +44,7 @@ The PFND3DKMT_DESTROYDEVICE callback function destroys a graphics context device
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_DESTROYDEVICE Pfnd3dkmtDestroydevice; 

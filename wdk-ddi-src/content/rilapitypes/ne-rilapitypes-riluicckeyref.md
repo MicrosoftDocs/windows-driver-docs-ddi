@@ -54,7 +54,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-```
+```cpp
 typedef enum _RILUICCKEYREF {
   RIL_UICCKEYREF_PIN1,
   RIL_UICCKEYREF_UPIN,

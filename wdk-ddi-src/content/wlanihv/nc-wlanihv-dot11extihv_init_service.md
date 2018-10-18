@@ -56,7 +56,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-```
+```cpp
 DOT11EXTIHV_INIT_SERVICE Dot11ExtIhvInitService;
 
 DWORD APIENTRY Dot11ExtIhvInitService(

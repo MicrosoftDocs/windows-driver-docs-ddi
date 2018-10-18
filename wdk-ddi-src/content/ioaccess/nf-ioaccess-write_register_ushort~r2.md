@@ -53,7 +53,7 @@ The <b>WRITE_REGISTER_USHORT</b> routine writes a USHORT value to the specified 
 ## -syntax
 
 
-```
+```cpp
 VOID WRITE_REGISTER_USHORT(
   _In_ PUSHORT Register,
   _In_ USHORT  Value

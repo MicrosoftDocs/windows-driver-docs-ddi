@@ -45,7 +45,7 @@ Implemented by the client driver to retrieve shader comment.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_RETRIEVE_SHADER_COMMENT_0003 Pfnd3d12ddiRetrieveShaderComment0003; 

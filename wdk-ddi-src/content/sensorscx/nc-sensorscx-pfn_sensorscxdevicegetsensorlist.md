@@ -44,7 +44,7 @@ Returns a list of sensor instances associated with a WDFDEVICE.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 *PFN_SENSORSCXDEVICEGETSENSORLIST *PfnSensorscxdevicegetsensorlist; 

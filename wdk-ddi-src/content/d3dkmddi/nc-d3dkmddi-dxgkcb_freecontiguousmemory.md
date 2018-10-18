@@ -45,7 +45,7 @@ Implemented by the client driver to release a range of physically contiguous mem
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKCB_FREECONTIGUOUSMEMORY DxgkcbFreecontiguousmemory;

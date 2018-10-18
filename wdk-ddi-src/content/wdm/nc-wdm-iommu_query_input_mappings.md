@@ -44,7 +44,7 @@ Attempts to find input mapping IDs which are valid for the given device and popu
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 IOMMU_QUERY_INPUT_MAPPINGS IommuQueryInputMappings; 

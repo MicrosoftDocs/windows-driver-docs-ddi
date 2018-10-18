@@ -48,7 +48,7 @@ The <b>VmbChannelDeleteGpadl</b> function deletes a Guest Physical Address Descr
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_DELETE_GPADL FnVmbChannelDeleteGpadl; 

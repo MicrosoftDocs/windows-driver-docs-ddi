@@ -44,7 +44,7 @@ Pfnd3dkmtMakeresident adds a resource to the device residency list and increment
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_MAKERESIDENT Pfnd3dkmtMakeresident; 

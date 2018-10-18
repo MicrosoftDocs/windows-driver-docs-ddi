@@ -55,7 +55,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef enum _DOT11_POWER_MODE_REASON {
   dot11_power_mode_reason_no_change             = 0,
   dot11_power_mode_reason_noncompliant_AP       = 1,

@@ -56,7 +56,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct DOT11_PHY_FRAME_STATISTICS {
   ULONGLONG ullTransmittedFrameCount;
   ULONGLONG ullMulticastTransmittedFrameCount;

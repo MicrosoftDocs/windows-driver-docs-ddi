@@ -45,7 +45,7 @@ Implemented by the client driver to reset a command list back to its initial sta
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_RESETCOMMANDLIST_0040 Pfnd3d12ddiResetcommandlist0040;

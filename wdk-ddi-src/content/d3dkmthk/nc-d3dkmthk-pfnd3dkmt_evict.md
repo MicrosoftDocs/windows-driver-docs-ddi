@@ -44,7 +44,7 @@ The Pfnd3dkmtEvict instructs the OS to decrement the residency reference count.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_EVICT Pfnd3dkmtEvict; 

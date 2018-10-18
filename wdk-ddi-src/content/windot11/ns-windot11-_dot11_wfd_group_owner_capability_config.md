@@ -55,7 +55,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG {
   NDIS_OBJECT_HEADER Header;
   BOOLEAN            bPersistentGroupEnabled;

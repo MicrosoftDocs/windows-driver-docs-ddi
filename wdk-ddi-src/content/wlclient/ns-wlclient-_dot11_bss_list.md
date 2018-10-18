@@ -55,7 +55,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_BSS_LIST {
   ULONG  uNumOfBytes;
   PUCHAR pucBuffer;

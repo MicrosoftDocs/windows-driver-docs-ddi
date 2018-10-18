@@ -55,7 +55,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_WFD_ADDITIONAL_IE {
   NDIS_OBJECT_HEADER Header;
   ULONG              uBeaconIEsOffset;

@@ -53,7 +53,7 @@ Reads or writes to mitigated address spaces.
 ## -prototype
 
 
-```
+```cpp
 READ_WRITE_MITIGATED_REGISTER ReadWriteMitigatedRegister;
 
 NTSTATUS ReadWriteMitigatedRegister(

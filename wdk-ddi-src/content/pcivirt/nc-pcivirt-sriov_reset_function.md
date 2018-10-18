@@ -53,7 +53,7 @@ Resets the specified PCI Express SR-IOV Virtual Function (VF).
 ## -prototype
 
 
-```
+```cpp
 SRIOV_RESET_FUNCTION SriovResetFunction;
 
 NTSTATUS SriovResetFunction(

@@ -53,7 +53,7 @@ req.typenames: RILPOSITIONINFOGSM, *LPRILPOSITIONINFOGSM
 ## -syntax
 
 
-```
+```cpp
 struct RILPOSITIONINFOGSM {
   DWORD dwParams;
   DWORD dwMobileCountryCode;

@@ -53,7 +53,7 @@ The PARALLEL_PNP_INFORMATION structure specifies information about the capabilit
 ## -syntax
 
 
-```
+```cpp
 typedef struct _PARALLEL_PNP_INFORMATION {
   PHYSICAL_ADDRESS             OriginalEcpController;
   PUCHAR                       EcpController;

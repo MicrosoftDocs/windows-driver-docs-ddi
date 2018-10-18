@@ -45,7 +45,7 @@ Implemented by the client driver to allocate contiguous memory regions in the Io
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKCB_ALLOCATECONTIGUOUSMEMORY DxgkcbAllocatecontiguousmemory;

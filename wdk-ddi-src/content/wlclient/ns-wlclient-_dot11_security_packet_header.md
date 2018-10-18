@@ -55,7 +55,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_SECURITY_PACKET_HEADER {
   DOT11_MAC_ADDRESS PeerMac;
   USHORT            usEtherType;

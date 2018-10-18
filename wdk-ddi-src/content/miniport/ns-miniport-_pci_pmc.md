@@ -53,7 +53,7 @@ The PCI_PMC structure is used to report the contents of the power management cap
 ## -syntax
 
 
-```
+```cpp
 typedef struct _PCI_PMC {
   UCHAR              Version  :3;
   UCHAR              PMEClock  :1;

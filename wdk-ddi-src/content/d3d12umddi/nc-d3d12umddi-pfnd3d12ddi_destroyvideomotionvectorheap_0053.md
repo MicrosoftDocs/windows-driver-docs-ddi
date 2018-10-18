@@ -45,7 +45,7 @@ Destroys the video motion vector heap.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROYVIDEOMOTIONVECTORHEAP_0053 Pfnd3d12ddiDestroyvideomotionvectorheap0053; 

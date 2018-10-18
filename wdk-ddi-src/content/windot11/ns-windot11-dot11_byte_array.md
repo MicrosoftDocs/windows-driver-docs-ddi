@@ -58,7 +58,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct DOT11_BYTE_ARRAY {
   NDIS_OBJECT_HEADER Header;
   ULONG              uNumOfBytes;

@@ -44,7 +44,7 @@ The PFND3DKMT_RECLAIMALLOCATIONS2 callback function reclaims video memory alloca
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_RECLAIMALLOCATIONS2 Pfnd3dkmtReclaimallocations2; 

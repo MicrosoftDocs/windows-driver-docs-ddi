@@ -44,7 +44,7 @@ Used to initialize a sensor state change.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 *PFN_SENSORSCXSTATECHANGE *PfnSensorscxstatechange; 

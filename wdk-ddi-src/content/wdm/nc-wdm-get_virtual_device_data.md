@@ -54,7 +54,7 @@ The  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451137">GetV
 ## -prototype
 
 
-```
+```cpp
 GET_VIRTUAL_DEVICE_DATA GetVirtualFunctionData;
 
 ULONG GetVirtualFunctionData(

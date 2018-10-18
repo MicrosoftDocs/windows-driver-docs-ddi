@@ -44,7 +44,7 @@ Read MCA banks' status registers.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 pHalQuerySystemInformation Phalquerysysteminformation; 
@@ -73,7 +73,7 @@ pHalQuerySystemInformation
 [in] The size, in bytes, of the buffer that the caller supplies.
 ### -param Buffer
 [out] A pointer to a caller-supplied buffer of type MCA_EXCEPTION that will contain the information returned by this routine. For Intel Itanium processors, the returned information must be compliant, at a minimum, with the V3.0 SAL specification, Error Record Structures, January 2001, Appendix B"". For Intel Pentium Pro processors, the information is as described in the following code example.
-```
+```cpp
 typedef union _MCI_STATS {
   struct {
     USHORT  McaCod;

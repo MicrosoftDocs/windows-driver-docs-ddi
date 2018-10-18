@@ -56,7 +56,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-```
+```cpp
 DOT11EXTIHV_RECEIVE_PACKET Dot11ExtIhvReceivePacket;
 
 DWORD APIENTRY Dot11ExtIhvReceivePacket(

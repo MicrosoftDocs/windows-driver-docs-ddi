@@ -53,7 +53,7 @@ The <i>PPARALLEL_TRY_SELECT_ROUTINE</i>-typed callback routine selects an IEEE 1
 ## -prototype
 
 
-```
+```cpp
 typedef NTSTATUS (*PPARALLEL_TRY_SELECT_ROUTINE)(
   _In_ PVOID TrySelectContext,
   _In_ PVOID TrySelectCommand

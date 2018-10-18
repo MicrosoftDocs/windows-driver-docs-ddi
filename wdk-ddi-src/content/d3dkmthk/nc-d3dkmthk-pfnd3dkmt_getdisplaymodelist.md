@@ -44,7 +44,7 @@ Pfnd3dkmtGetdisplaymodelist retrieves a list of available display modes, includi
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_GETDISPLAYMODELIST Pfnd3dkmtGetdisplaymodelist; 

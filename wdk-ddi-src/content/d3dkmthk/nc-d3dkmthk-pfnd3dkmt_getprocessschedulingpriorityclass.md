@@ -44,7 +44,7 @@ Pfnd3dkmtGetprocessschedulingpriorityclass retrieves the scheduling priority for
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_GETPROCESSSCHEDULINGPRIORITYCLASS Pfnd3dkmtGetprocessschedulingpriorityclass; 

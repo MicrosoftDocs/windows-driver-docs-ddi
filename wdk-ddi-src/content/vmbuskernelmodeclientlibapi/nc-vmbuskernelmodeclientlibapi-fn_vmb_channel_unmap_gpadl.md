@@ -48,7 +48,7 @@ use by the server before this function is called.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_UNMAP_GPADL FnVmbChannelUnmapGpadl; 

@@ -54,7 +54,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_SSID {
   ULONG uSSIDLength;
   UCHAR ucSSID[DOT11_SSID_MAX_LENGTH];

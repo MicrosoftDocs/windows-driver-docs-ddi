@@ -45,7 +45,7 @@ Implemented by the client driver to remove meta-command resources.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROY_METACOMMAND Pfnd3d12ddiDestroyMetacommand;

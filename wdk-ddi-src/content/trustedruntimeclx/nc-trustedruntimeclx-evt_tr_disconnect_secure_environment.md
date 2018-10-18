@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_TR_DISCONNECT_SECURE_ENVIRONMENT EvtTrDisconnectSecureEnvironment; 

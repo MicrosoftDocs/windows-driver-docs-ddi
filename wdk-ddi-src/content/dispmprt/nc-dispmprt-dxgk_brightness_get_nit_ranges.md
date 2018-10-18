@@ -44,7 +44,7 @@ Implemented by the client driver to retrieve a list of supported nit ranges.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGK_BRIGHTNESS_GET_NIT_RANGES DxgkBrightnessGetNitRanges;

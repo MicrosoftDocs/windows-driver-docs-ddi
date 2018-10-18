@@ -46,7 +46,7 @@ Reads a byte from the specified port.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 UART_HARDWARE_READ_INDEXED_UCHAR UartHardwareReadIndexedUchar;

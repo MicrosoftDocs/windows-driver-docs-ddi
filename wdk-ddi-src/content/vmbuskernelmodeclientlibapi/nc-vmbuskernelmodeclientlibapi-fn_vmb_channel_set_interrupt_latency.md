@@ -47,7 +47,7 @@ Guest VM updates to the outgoing monitor latency for MNF interrupts.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_SET_INTERRUPT_LATENCY FnVmbChannelSetInterruptLatency; 

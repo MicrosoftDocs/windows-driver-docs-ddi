@@ -47,7 +47,7 @@ The <b>VmbChannelStart</b> function moves a channel out of the paused state.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_START FnVmbChannelStart; 

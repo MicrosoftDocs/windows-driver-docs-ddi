@@ -53,7 +53,7 @@ req.typenames: RILIMSSERVICE
 ## -syntax
 
 
-```
+```cpp
 enum RILIMSSERVICE  {
   RIL_IMS_SERVICE_SMS     = 0x00000001,
   RIL_IMS_SERVICE_VOICE   = 0x00000002,

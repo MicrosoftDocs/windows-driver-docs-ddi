@@ -53,7 +53,7 @@ The <i>DxgkDdiGetBrightness</i> function retrieves the currently active brightne
 ## -prototype
 
 
-```
+```cpp
 DXGK_BRIGHTNESS_GET DxgkDdiGetBrightness;
 
 NTSTATUS* DxgkDdiGetBrightness(

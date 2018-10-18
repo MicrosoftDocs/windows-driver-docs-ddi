@@ -44,7 +44,7 @@ The PFND3DKMT_RENDER callback function submits the current command buffer to the
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_RENDER Pfnd3dkmtRender; 

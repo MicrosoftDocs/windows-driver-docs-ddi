@@ -58,7 +58,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-```
+```cpp
 DWORD WINAPI * Dot11ExtSendUIRequest(
   _In_opt_ HANDLE                   hDot11SvcHandle,
   _In_     PDOT11EXT_IHV_UI_REQUEST pIhvUIRequest

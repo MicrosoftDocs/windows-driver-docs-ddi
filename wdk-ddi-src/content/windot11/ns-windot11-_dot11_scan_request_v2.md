@@ -57,7 +57,7 @@ The DOT11_SCAN_REQUEST_V2 structure defines the parameters for the explicit scan
 
 ## -syntax
 
-```
+```cpp
 typedef struct _DOT11_SCAN_REQUEST_V2 {
   DOT11_BSS_TYPE    dot11BSSType;
   DOT11_MAC_ADDRESS dot11BSSID;

@@ -53,7 +53,7 @@ req.typenames: RILSUBSCRIBERINFO, *LPRILSUBSCRIBERINFO
 ## -syntax
 
 
-```
+```cpp
 struct RILSUBSCRIBERINFO {
   DWORD                    cbSize;
   DWORD                    dwParams;

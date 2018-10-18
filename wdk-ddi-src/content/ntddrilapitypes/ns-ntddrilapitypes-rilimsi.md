@@ -55,7 +55,7 @@ req.typenames: RILIMSI, *LPRILIMSI
 ## -syntax
 
 
-```
+```cpp
 struct RILIMSI {
   DWORD cbSize;
   DWORD dwParams;

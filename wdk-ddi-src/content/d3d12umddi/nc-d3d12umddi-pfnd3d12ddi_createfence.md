@@ -45,7 +45,7 @@ Creates a fence.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATEFENCE Pfnd3d12ddiCreatefence; 

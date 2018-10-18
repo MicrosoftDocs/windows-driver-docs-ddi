@@ -44,7 +44,7 @@ The PFND3DKMT_SETVIDPNSOURCEHWPROTECTION callback function sets VidPn source har
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SETVIDPNSOURCEHWPROTECTION Pfnd3dkmtSetvidpnsourcehwprotection; 

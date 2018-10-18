@@ -44,7 +44,7 @@ The PFND3DKMT_CREATEPAGINGQUEUE callback function creates a paging queue.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_CREATEPAGINGQUEUE Pfnd3dkmtCreatepagingqueue; 

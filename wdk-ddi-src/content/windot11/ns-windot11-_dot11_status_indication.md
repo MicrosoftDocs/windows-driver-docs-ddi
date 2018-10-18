@@ -56,7 +56,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_STATUS_INDICATION {
   ULONG       uStatusType;
   NDIS_STATUS ndisStatus;

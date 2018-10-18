@@ -50,7 +50,7 @@ A client driver's *EvtMbbDeviceSendServiceSessionData* event callback function s
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_MBB_DEVICE_SEND_DEVICE_SERVICE_SESSION_DATA EvtMbbDeviceSendDeviceServiceSessionData; 

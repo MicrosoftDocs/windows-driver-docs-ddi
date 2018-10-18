@@ -44,7 +44,7 @@ The PFND3DKMT_SUBMITCOMMAND callback function is used to submit command buffers 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SUBMITCOMMAND Pfnd3dkmtSubmitcommand; 

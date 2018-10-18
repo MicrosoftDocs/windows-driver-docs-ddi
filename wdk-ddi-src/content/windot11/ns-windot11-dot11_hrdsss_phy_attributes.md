@@ -56,7 +56,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct DOT11_HRDSSS_PHY_ATTRIBUTES {
   BOOLEAN bShortPreambleOptionImplemented;
   BOOLEAN bPBCCOptionImplemented;

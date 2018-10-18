@@ -53,7 +53,7 @@ Enum used to specify the display type being used.
 ## -syntax
 
 
-```
+```cpp
 typedef enum _DXGK_DISPLAY_USAGE {
   DXGK_DU_INVALID  = 0,
   DXGK_DU_GENERIC,

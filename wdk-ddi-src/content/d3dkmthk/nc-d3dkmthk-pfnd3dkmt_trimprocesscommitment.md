@@ -44,7 +44,7 @@ Trim process commitment.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_TRIMPROCESSCOMMITMENT Pfnd3dkmtTrimprocesscommitment; 

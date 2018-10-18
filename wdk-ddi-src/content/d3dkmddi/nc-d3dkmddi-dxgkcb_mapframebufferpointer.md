@@ -45,7 +45,7 @@ Implemented by the client driver to obtain a pointer to a subregion of the secti
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKCB_MAPFRAMEBUFFERPOINTER DxgkcbMapframebufferpointer;

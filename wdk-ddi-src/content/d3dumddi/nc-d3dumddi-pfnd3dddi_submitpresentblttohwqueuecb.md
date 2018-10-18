@@ -45,7 +45,7 @@ Implemented by the client driver to submit a present blt to the hardware queue.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB Pfnd3dddiSubmitpresentblttohwqueuecb;

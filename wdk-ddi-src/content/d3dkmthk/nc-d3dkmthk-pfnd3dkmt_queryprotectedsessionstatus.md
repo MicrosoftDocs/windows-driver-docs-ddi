@@ -45,7 +45,7 @@ Implemented by the client driver to query a protected session.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_QUERYPROTECTEDSESSIONSTATUS Pfnd3dkmtQueryprotectedsessionstatus;

@@ -56,7 +56,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct DOT11_MAC_INFO {
   ULONG             uReserved;
   ULONG             uNdisPortNumber;

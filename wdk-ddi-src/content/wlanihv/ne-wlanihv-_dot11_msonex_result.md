@@ -56,7 +56,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-```
+```cpp
 typedef enum _DOT11_MSONEX_RESULT {
   DOT11_MSONEX_SUCCESS      = 0,
   DOT11_MSONEX_FAILURE      = 1,

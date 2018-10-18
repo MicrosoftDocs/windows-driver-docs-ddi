@@ -53,7 +53,7 @@ The <b>PCPIN_DESCRIPTOR</b> structure describes a pin factory.
 ## -syntax
 
 
-```
+```cpp
 typedef struct {
   ULONG                    MaxGlobalInstanceCount;
   ULONG                    MaxFilterInstanceCount;

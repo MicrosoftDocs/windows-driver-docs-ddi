@@ -44,7 +44,7 @@ Pfnd3dkmtGetscanline determines whether the given video present source of a vide
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_GETSCANLINE Pfnd3dkmtGetscanline; 

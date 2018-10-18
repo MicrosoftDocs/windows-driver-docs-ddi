@@ -53,7 +53,7 @@ req.typenames: RILOPERATORNAMES, *LPRILOPERATORNAMES
 ## -syntax
 
 
-```
+```cpp
 struct RILOPERATORNAMES {
   DWORD cbSize;
   DWORD dwParams;

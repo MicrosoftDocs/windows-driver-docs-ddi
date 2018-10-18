@@ -47,7 +47,7 @@ The  <b>VmbChannelInitSetMaximumPacketSize</b> function sets the maximum packet 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_INIT_SET_MAXIMUM_PACKET_SIZE FnVmbChannelInitSetMaximumPacketSize; 

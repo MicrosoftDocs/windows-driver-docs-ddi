@@ -53,7 +53,7 @@ The CAPTURE_MEMORY_ALLOCATION_FLAGS enumeration defines types of memory surfaces
 ## -syntax
 
 
-```
+```cpp
 typedef enum  {
   KS_CAPTURE_ALLOC_INVALID      = 0,
   KS_CAPTURE_ALLOC_SYSTEM       = 0x0001,

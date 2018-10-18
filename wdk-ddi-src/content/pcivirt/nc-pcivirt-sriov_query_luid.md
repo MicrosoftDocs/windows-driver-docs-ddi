@@ -53,7 +53,7 @@ Gets the local unique identifier of the SR-IOV device.
 ## -prototype
 
 
-```
+```cpp
 SRIOV_QUERY_LUID SriovQueryLuid;
 
 NTSTATUS SriovQueryLuid(

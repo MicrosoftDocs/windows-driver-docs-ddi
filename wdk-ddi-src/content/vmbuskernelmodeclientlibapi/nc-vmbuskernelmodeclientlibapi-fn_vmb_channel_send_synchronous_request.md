@@ -47,7 +47,7 @@ The <b>VmbChannelSendSynchronousRequest</b> function sends a packet to the oppos
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_SEND_SYNCHRONOUS_REQUEST FnVmbChannelSendSynchronousRequest; 

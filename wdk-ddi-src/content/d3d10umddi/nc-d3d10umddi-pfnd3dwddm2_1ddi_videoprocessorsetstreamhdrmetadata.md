@@ -45,7 +45,7 @@ Implemented by the client driver to set stream HDR metadata to optimize video fo
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DWDDM2_1DDI_VIDEOPROCESSORSETSTREAMHDRMETADATA Pfnd3dwddm21DdiVideoprocessorsetstreamhdrmetadata;

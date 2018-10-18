@@ -55,7 +55,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_IHV_VERSION_INFO {
   DWORD dwVerMin;
   DWORD dwVerMax;

@@ -57,7 +57,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-```
+```cpp
 DOT11EXTIHV_SEND_PACKET_COMPLETION Dot11ExtIhvSendPacketCompletion;
 
 DWORD APIENTRY Dot11ExtIhvSendPacketCompletion(

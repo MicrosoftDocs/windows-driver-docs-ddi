@@ -58,7 +58,7 @@ The DOT11_PEER_INFO_LIST structure specifies a list of <a href="..\windot11\ns-w
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_PEER_INFO_LIST {
   NDIS_OBJECT_HEADER Header;
   ULONG              uNumOfEntries;

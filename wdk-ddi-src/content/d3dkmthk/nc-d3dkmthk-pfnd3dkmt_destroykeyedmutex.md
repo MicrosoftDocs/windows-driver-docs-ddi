@@ -44,7 +44,7 @@ The PFND3DKMT_DESTROYKEYEDMUTEX callback function destroys keyed mutex.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_DESTROYKEYEDMUTEX Pfnd3dkmtDestroykeyedmutex; 

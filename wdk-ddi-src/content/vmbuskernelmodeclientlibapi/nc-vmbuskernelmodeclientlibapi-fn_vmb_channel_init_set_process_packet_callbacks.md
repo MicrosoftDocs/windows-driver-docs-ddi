@@ -47,7 +47,7 @@ The <b>VmbChannelInitSetProcessPacketCallbacks</b>  function sets callback funct
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_INIT_SET_PROCESS_PACKET_CALLBACKS FnVmbChannelInitSetProcessPacketCallbacks; 

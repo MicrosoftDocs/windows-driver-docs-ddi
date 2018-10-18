@@ -55,7 +55,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef enum _DOT11_WFD_DISCOVER_TYPE {
   dot11_wfd_discover_type_scan_only             = 1,
   dot11_wfd_discover_type_find_only             = 2,

@@ -47,7 +47,7 @@ The <b>VmbChannelInitSetStateChangeCallbacks</b>  function sets optional callbac
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_INIT_SET_STATE_CHANGE_CALLBACKS FnVmbChannelInitSetStateChangeCallbacks; 

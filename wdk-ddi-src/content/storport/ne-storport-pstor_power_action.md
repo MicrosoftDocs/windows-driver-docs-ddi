@@ -54,7 +54,7 @@ The STOR_POWER_ACTION enumerator indicates the power state that the system is ab
 ## -syntax
 
 
-```
+```cpp
 typedef enum  {
   StorPowerActionNone           = 0,
   StorPowerActionReserved       = 1,

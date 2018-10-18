@@ -42,7 +42,7 @@ targetos: Windows
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EMFPLAYPROC Emfplayproc; 

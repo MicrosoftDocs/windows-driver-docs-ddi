@@ -54,7 +54,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-```
+```cpp
 typedef enum _RILGSMMNMRPARAMMASK {
   RIL_PARAM_GSMNMR_MNC,
   RIL_PARAM_GSMNMR_LAC,

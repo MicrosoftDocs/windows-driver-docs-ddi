@@ -110,6 +110,7 @@ The function specifies the symbolic link to hub device and port index to query. 
 - SPEED_PATHERROR: if unable to open path.
 - SPEED_IOCTLERROR: Hub IOCTL failed.
 
+```
 void GetPortSpeed(const WCHAR *Path, ULONG PortIndex, UCHAR *pPortSpeed)
 
 {

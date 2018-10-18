@@ -45,7 +45,7 @@ Creates a rasterizer state.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATERASTERIZERSTATE_0010 Pfnd3d12ddiCreaterasterizerstate0010; 

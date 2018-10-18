@@ -53,7 +53,7 @@ The PARALLEL_1284_COMMAND structure specifies information that a client uses to 
 ## -syntax
 
 
-```
+```cpp
 typedef struct _PARALLEL_1284_COMMAND {
   UCHAR ID;
   UCHAR Port;

@@ -45,7 +45,7 @@ Destroys a hardware scheduling group.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROYSCHEDULINGGROUP_0050 Pfnd3d12ddiDestroyschedulinggroup0050; 

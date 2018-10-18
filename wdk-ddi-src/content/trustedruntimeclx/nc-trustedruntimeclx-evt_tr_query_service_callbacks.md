@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_TR_QUERY_SERVICE_CALLBACKS EvtTrQueryServiceCallbacks; 

@@ -45,7 +45,7 @@ This callback function gets the handle to the DMA domain.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PGET_DMA_DOMAIN PgetDmaDomain; 

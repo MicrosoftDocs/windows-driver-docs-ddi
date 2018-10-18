@@ -55,7 +55,7 @@ The <b>NdisMapFile</b> function maps an already open file into a caller-accessib
 ## -syntax
 
 
-```
+```cpp
 VOID NdisMapFile(
   _Out_ PNDIS_STATUS Status,
   _Out_ PVOID *      MappedBuffer,

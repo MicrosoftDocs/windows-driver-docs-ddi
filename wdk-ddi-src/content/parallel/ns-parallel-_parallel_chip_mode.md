@@ -53,7 +53,7 @@ The PARALLEL_CHIP_MODE structure specifies the operating mode of a parallel port
 ## -syntax
 
 
-```
+```cpp
 typedef struct _PARALLEL_CHIP_MODE {
   UCHAR   ModeFlags;
   BOOLEAN success;

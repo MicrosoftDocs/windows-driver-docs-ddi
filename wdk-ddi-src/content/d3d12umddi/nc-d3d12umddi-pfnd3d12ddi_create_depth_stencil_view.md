@@ -44,7 +44,7 @@ The PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW callback function creates a depth sten
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW Pfnd3d12ddiCreateDepthStencilView; 

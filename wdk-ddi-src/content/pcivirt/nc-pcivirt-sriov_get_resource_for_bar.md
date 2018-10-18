@@ -53,7 +53,7 @@ Gets the translated resource for a specific Base Address Register (BAR)
 ## -prototype
 
 
-```
+```cpp
 SRIOV_GET_RESOURCE_FOR_BAR SriovGetResourceForBar;
 
 NTSTATUS SriovGetResourceForBar(

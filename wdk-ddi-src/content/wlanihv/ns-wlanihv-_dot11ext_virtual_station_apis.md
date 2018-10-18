@@ -55,7 +55,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11EXT_VIRTUAL_STATION_APIS {
   DOT11EXT_REQUEST_VIRTUAL_STATION           Dot11ExtRequestVirtualStation;
   DOT11EXT_RELEASE_VIRTUAL_STATION           Dot11ExtReleaseVirtualStation;

@@ -44,7 +44,7 @@ Implemented by the client driver to destroy the specified graphics processing un
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_DESTROYCONTEXT Pfnd3dkmtDestroycontext; 

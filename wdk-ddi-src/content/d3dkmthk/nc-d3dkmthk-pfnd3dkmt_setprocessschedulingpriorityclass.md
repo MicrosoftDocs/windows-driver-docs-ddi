@@ -44,7 +44,7 @@ The PFND3DKMT_SETPROCESSSCHEDULINGPRIORITYCLASS callback function sets the sched
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SETPROCESSSCHEDULINGPRIORITYCLASS Pfnd3dkmtSetprocessschedulingpriorityclass; 

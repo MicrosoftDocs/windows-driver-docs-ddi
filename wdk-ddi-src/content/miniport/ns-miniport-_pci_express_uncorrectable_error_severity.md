@@ -53,7 +53,7 @@ The PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure describes a PCI Express (
 ## -syntax
 
 
-```
+```cpp
 typedef union _PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY {
   struct {
     ULONG Undefined  :1;

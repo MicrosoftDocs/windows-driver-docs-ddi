@@ -47,7 +47,7 @@ The <b>VmbChannelCleanup</b> function disposes of a channel that was allocated b
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_CLEANUP FnVmbChannelCleanup; 

@@ -54,7 +54,7 @@ A port monitor server DLL's <code>XcvClosePort</code> function closes a printer 
 ## -syntax
 
 
-```
+```cpp
 BOOL XcvClosePort(
   _In_ HANDLE hXcv
 );

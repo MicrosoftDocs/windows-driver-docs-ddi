@@ -45,7 +45,7 @@ Gets present private driver data size.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE Pfnd3d12ddiGetPresentPrivateDriverDataSize; 

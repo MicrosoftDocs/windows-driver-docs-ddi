@@ -45,7 +45,7 @@ The pfnCheckExistingResourceAllocationInfo callback function supports checking e
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO Pfnd3d12ddiCheckexisitingresourceallocationinfo; 

@@ -45,7 +45,7 @@ Calculates the size of the command pool for display.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALC_PRIVATE_COMMAND_POOL_SIZE_0040 Pfnd3d12ddiCalcPrivateCommandPoolSize0040;

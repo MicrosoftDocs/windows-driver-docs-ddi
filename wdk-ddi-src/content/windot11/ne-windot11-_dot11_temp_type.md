@@ -56,7 +56,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef enum _DOT11_TEMP_TYPE {
   dot11_temp_type_unknown  = 0,
   dot11_temp_type_1        = 1,

@@ -44,7 +44,7 @@ Pfnd3dkmtGetsharedprimaryhandle retrieves the global shared handle for the prima
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_GETSHAREDPRIMARYHANDLE Pfnd3dkmtGetsharedprimaryhandle; 

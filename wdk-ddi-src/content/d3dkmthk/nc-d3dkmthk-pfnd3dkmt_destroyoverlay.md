@@ -44,7 +44,7 @@ The D3dkmtDestroyOverlay callback function disables overlay hardware and deletes
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_DESTROYOVERLAY Pfnd3dkmtDestroyoverlay; 

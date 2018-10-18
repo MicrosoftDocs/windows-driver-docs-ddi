@@ -44,7 +44,7 @@ Implemented by the client driver to release handle data.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKCB_RELEASEHANDLEDATA DxgkcbReleasehandledata; 

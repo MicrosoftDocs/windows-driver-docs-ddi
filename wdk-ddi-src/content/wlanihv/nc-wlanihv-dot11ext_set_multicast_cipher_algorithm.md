@@ -58,7 +58,7 @@ The IHV Extensions DLL calls the
 ## -prototype
 
 
-```
+```cpp
 DWORD WINAPI * Dot11ExtSetMulticastCipherAlgorithm(
   _In_opt_ HANDLE hDot11SvcHandle,
   _In_     DWORD  dwMulticastCipherAlgo

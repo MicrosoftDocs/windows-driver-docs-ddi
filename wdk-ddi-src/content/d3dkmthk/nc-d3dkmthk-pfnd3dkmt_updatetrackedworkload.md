@@ -45,7 +45,7 @@ Updates the tracked workload.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_UPDATETRACKEDWORKLOAD Pfnd3dkmtUpdatetrackedworkload; 

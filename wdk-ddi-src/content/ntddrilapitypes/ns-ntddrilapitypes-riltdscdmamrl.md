@@ -53,7 +53,7 @@ req.typenames: RILTDSCDMAMRL, *LPRILTDSCDMAMRL
 ## -syntax
 
 
-```
+```cpp
 struct RILTDSCDMAMRL {
   DWORD dwParams;
   DWORD dwMobileCountryCode;

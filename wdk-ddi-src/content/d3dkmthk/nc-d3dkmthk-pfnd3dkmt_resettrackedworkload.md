@@ -47,7 +47,7 @@ Note that it will reset all previously tracked workloads, and current work in fl
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_RESETTRACKEDWORKLOAD Pfnd3dkmtResettrackedworkload; 

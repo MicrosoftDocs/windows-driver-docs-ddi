@@ -53,7 +53,7 @@ req.typenames: RILSYSTEMTYPE
 ## -syntax
 
 
-```
+```cpp
 enum RILSYSTEMTYPE {
   RIL_SYSTEMTYPE_NONE     = 0x00000000,
   RIL_SYSTEMTYPE_1XRTT    = 0x00000001,

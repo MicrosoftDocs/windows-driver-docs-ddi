@@ -45,7 +45,7 @@ The <b>VmbServerChannelInitSetMmioMegabytes</b> function specifies the amount, m
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_SERVER_CHANNEL_INIT_SET_MMIO_MEGABYTES FnVmbServerChannelInitSetMmioMegabytes; 

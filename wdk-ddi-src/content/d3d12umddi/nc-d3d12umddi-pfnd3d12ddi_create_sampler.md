@@ -45,7 +45,7 @@ Create sampler.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATE_SAMPLER Pfnd3d12ddiCreateSampler; 

@@ -55,7 +55,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef enum _DOT11_WPS_CONFIG_METHOD {
   DOT11_WPS_CONFIG_METHOD_NULL        = 0,
   DOT11_WPS_CONFIG_METHOD_DISPLAY     = 0x0008,

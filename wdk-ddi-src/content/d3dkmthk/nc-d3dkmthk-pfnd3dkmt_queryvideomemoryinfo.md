@@ -44,7 +44,7 @@ The PFND3DKMT_QUERYVIDEOMEMORYINFO callback function queries for video memory in
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_QUERYVIDEOMEMORYINFO Pfnd3dkmtQueryvideomemoryinfo; 

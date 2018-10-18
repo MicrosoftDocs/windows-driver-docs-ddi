@@ -53,7 +53,7 @@ The <b>DXGKRNL_INTERFACE</b> structure contains a handle to a display adapter an
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DXGKRNL_INTERFACE {
   ULONG                                 Size;
   ULONG                                 Version;

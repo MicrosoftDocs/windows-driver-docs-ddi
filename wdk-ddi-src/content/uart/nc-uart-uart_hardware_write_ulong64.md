@@ -45,7 +45,7 @@ Writes a ULONG64 value to the specified register address.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 UART_HARDWARE_WRITE_ULONG64 UartHardwareWriteUlong64;

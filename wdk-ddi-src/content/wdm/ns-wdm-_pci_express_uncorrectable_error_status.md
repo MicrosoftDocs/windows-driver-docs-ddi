@@ -54,7 +54,7 @@ The PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS structure describes a PCI Express (PC
 ## -syntax
 
 
-```
+```cpp
 typedef union _PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS {
   struct {
     ULONG Undefined  :1;

@@ -44,7 +44,7 @@ The PFND3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY callback function sets the hardwar
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY Pfnd3dkmtSethwprotectionteardownrecovery; 

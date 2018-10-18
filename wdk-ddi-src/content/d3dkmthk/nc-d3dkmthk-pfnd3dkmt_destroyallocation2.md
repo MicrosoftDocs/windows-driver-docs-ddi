@@ -44,7 +44,7 @@ The PFND3DKMT_DESTROYALLOCATION2 callback function releases allocations.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_DESTROYALLOCATION2 Pfnd3dkmtDestroyallocation2; 

@@ -53,7 +53,7 @@ An <i>EnumerateInterruptSource</i> callback routine supplies a platform extensio
 ## -prototype
 
 
-```
+```cpp
 PO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK EnumerateInterruptSource;
 
 BOOLEAN EnumerateInterruptSource(

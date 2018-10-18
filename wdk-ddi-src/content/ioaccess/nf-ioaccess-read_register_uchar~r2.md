@@ -53,7 +53,7 @@ The <b>READ_REGISTER_UCHAR</b> routine reads a byte from the specified register 
 ## -syntax
 
 
-```
+```cpp
 UCHAR READ_REGISTER_UCHAR(
   _In_ PUCHAR Register
 );

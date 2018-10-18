@@ -44,7 +44,7 @@ The OS calls the DXGKDDI_QUERYDIAGNOSTICTYPESSUPPORT callback function to discov
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_QUERYDIAGNOSTICTYPESSUPPORT DxgkddiQuerydiagnostictypessupport; 

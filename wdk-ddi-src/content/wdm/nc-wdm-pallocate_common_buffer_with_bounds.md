@@ -45,7 +45,7 @@ This callback function allocates the memory for a common buffer and maps it so t
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PALLOCATE_COMMON_BUFFER_WITH_BOUNDS PallocateCommonBufferWithBounds; 

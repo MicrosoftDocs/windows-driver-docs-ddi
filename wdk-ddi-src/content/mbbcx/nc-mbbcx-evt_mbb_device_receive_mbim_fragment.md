@@ -50,7 +50,7 @@ A client driver's *EvtMbbDeviceReceiveMbimFragment* event callback function prov
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_MBB_DEVICE_RECEIVE_MBIM_FRAGMENT EvtMbbDeviceReceiveMbimFragment; 

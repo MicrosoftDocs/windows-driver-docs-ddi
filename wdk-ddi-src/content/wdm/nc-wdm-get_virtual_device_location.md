@@ -54,7 +54,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451128">GetLo
 ## -prototype
 
 
-```
+```cpp
 GET_VIRTUAL_DEVICE_LOCATION GetLocation;
 
 NTSTATUS GetLocation(

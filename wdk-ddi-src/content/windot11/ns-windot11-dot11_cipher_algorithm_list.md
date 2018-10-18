@@ -57,7 +57,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct DOT11_CIPHER_ALGORITHM_LIST {
   NDIS_OBJECT_HEADER     Header;
   ULONG                  uNumOfEntries;

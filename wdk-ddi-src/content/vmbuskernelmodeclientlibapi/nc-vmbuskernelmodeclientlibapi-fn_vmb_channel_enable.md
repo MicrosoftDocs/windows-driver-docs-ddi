@@ -48,7 +48,7 @@ offering or opening a channel, as  appropriate for the endpoint type.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_ENABLE FnVmbChannelEnable; 

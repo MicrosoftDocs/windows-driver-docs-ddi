@@ -44,7 +44,7 @@ Sets the fault report on a device that is already attached to a domain.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 IOMMU_DOMAIN_FAULT_HANDLER IommuDomainFaultHandler; 

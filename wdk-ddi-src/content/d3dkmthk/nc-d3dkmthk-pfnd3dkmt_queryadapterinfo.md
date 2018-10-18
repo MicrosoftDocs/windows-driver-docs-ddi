@@ -44,7 +44,7 @@ The PFND3DKMT_QUERYADAPTERINFO callback function retrieves graphics adapter info
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_QUERYADAPTERINFO Pfnd3dkmtQueryadapterinfo; 

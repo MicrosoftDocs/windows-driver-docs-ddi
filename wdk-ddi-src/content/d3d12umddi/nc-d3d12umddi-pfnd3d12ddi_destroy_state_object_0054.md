@@ -45,7 +45,7 @@ Destroys the state object.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROY_STATE_OBJECT_0054 Pfnd3d12ddiDestroyStateObject0054; 

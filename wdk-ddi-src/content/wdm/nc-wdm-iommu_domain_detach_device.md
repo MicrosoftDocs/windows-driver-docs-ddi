@@ -44,7 +44,7 @@ Detaches a device from an existing domain.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 IOMMU_DOMAIN_DETACH_DEVICE IommuDomainDetachDevice; 

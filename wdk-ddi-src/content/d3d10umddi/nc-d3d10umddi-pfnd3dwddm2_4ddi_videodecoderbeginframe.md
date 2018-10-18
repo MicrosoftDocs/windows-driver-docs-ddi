@@ -45,7 +45,7 @@ Starts a DirectX Video Acceleration (DXVA) decoding operation to decode a video 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME Pfnd3dwddm24DdiVideodecoderbeginframe;

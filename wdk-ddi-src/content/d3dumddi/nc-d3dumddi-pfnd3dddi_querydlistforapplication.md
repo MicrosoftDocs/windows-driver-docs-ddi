@@ -44,7 +44,7 @@ The PFND3DDDI_QUERYDLISTFORAPPLICATION callback function queries a DList for an 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DDDI_QUERYDLISTFORAPPLICATION Pfnd3dddiQuerydlistforapplication; 

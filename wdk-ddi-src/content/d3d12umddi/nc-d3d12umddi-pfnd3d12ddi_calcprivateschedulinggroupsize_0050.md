@@ -45,7 +45,7 @@ The **pfnCalcPrivateSchedulingGroupSize** callback function returns the size of 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALCPRIVATESCHEDULINGGROUPSIZE_0050 Pfnd3d12ddiCalcprivateschedulinggroupsize0050; 

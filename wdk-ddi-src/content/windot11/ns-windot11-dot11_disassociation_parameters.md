@@ -59,7 +59,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct DOT11_DISASSOCIATION_PARAMETERS {
   NDIS_OBJECT_HEADER Header;
   DOT11_MAC_ADDRESS  MacAddr;

@@ -44,7 +44,7 @@ The PFND3DKMT_SETDODINDIRECTSWAPCHAIN callback function sets indirect swap chain
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SETDODINDIRECTSWAPCHAIN Pfnd3dkmtSetdodindirectswapchain; 

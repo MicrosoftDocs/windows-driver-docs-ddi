@@ -59,7 +59,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct DOT11_EXTSTA_SEND_CONTEXT {
   NDIS_OBJECT_HEADER Header;
   USHORT             usExemptionActionType;

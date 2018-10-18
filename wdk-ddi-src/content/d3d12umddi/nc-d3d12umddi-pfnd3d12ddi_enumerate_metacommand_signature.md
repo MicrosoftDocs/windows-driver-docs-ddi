@@ -45,7 +45,7 @@ Implemented by the client driver to enumerate meta-command signatures.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_ENUMERATE_METACOMMAND_SIGNATURE Pfnd3d12ddiEnumerateMetacommandSignature;

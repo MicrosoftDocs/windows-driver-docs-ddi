@@ -54,7 +54,7 @@ The PRINTIFI32 structure is a fixed-size version of the <a href="https://msdn.mi
 ## -syntax
 
 
-```
+```cpp
 typedef struct _PRINTIFI32 {
   ULONG   cjThis;
   ULONG   cjIfiExtra;

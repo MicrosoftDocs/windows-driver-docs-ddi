@@ -44,7 +44,7 @@ Notifies the class extension that the driver has retrieved data.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 *PFN_SENSORSCXSENSORDATAREADY *PfnSensorscxsensordataready; 

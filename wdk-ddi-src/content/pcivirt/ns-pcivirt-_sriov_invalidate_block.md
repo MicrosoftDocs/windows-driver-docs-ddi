@@ -53,7 +53,7 @@ Contains the configuration block information. This structure is used in a <a hre
 ## -syntax
 
 
-```
+```cpp
 typedef struct _SRIOV_INVALIDATE_BLOCK {
   USHORT  VfIndex;
   UINT64  BlockMask;

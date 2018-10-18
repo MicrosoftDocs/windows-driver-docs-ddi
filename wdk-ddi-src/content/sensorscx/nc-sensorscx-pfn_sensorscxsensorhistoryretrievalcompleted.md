@@ -44,7 +44,7 @@ Indicates that the history retrieval has completed.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 *PFN_SENSORSCXSENSORHISTORYRETRIEVALCOMPLETED *PfnSensorscxsensorhistoryretrievalcompleted; 

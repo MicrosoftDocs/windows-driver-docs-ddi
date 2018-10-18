@@ -44,7 +44,7 @@ The PFND3DDDI_CREATECONTEXTCB callback function creates a context.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DDDI_CREATECONTEXTCB Pfnd3dddiCreatecontextcb; 

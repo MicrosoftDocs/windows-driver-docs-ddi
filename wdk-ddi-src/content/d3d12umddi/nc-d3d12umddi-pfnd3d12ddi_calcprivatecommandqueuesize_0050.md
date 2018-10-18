@@ -45,7 +45,7 @@ The PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0050 callback function is used to ca
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0050 Pfnd3d12ddiCalcprivatecommandqueuesize0050; 

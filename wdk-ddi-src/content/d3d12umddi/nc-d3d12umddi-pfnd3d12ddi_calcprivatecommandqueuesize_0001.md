@@ -45,7 +45,7 @@ The <i>pfnCalcPrivateCommandQueueSize</i> callback function is used to calculate
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0001 Pfnd3d12ddiCalcprivatecommandqueuesize0001; 

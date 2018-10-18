@@ -45,7 +45,7 @@ Writes a USHORT value to the specified port or register.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 UART_HARDWARE_WRITE_USHORT UartHardwareWriteUshort;

@@ -48,7 +48,7 @@ context.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_SET_POINTER FnVmbChannelSetPointer; 

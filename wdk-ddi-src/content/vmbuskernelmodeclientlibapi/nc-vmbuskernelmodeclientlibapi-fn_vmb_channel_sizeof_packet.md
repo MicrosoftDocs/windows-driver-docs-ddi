@@ -48,7 +48,7 @@ the <a href="https://msdn.microsoft.com/D5D8D994-0BB6-44FC-A696-F2E0264445C1">Vm
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_SIZEOF_PACKET FnVmbChannelSizeofPacket; 

@@ -45,7 +45,7 @@ Creates a meta-command.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATE_META_COMMAND_0052 Pfnd3d12ddiCreateMetaCommand0052; 

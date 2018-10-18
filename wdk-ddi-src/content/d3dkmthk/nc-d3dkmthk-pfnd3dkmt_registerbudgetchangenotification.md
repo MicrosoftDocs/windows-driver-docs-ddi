@@ -44,7 +44,7 @@ The PFND3DKMT_REGISTERBUDGETCHANGENOTIFICATION callback function receives notifi
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_REGISTERBUDGETCHANGENOTIFICATION Pfnd3dkmtRegisterbudgetchangenotification; 

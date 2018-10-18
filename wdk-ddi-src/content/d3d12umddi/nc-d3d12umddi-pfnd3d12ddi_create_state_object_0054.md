@@ -45,7 +45,7 @@ Creates a state object. A state object represents a variable amount of configura
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATE_STATE_OBJECT_0054 Pfnd3d12ddiCreateStateObject0054; 

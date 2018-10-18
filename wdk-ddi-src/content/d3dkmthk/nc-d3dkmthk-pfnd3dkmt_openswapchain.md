@@ -44,7 +44,7 @@ PfnOpenSwapChain opens a swap chain.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_OPENSWAPCHAIN Pfnd3dkmtOpenswapchain; 

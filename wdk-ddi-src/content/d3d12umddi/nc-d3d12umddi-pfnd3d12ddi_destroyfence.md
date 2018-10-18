@@ -45,7 +45,7 @@ Destroy fence.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROYFENCE Pfnd3d12ddiDestroyfence; 

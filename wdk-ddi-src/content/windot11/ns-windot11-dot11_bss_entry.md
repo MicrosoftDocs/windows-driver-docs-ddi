@@ -56,7 +56,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct DOT11_BSS_ENTRY {
   ULONG                             uPhyId;
   DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO PhySpecificInfo;

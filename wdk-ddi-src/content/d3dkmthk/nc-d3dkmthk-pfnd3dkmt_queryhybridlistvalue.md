@@ -44,7 +44,7 @@ The PFND3DKMT_QUERYHYBRIDLISTVALUE callback function queries for the hybrid list
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_QUERYHYBRIDLISTVALUE Pfnd3dkmtQueryhybridlistvalue; 

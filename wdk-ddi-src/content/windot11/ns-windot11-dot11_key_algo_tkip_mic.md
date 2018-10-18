@@ -57,7 +57,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct DOT11_KEY_ALGO_TKIP_MIC {
   UCHAR ucIV48Counter[6];
   ULONG ulTKIPKeyLength;

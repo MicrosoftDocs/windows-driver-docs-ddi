@@ -55,7 +55,7 @@ Queries the data read from
 ## -prototype
 
 
-```
+```cpp
 SRIOV_QUERY_PROBED_BARS SriovQueryProbedBars;
 
 NTSTATUS SriovQueryProbedBars(

@@ -53,7 +53,7 @@ The PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER structure describes a PCI Express (
 ## -syntax
 
 
-```
+```cpp
 typedef union _PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER {
   struct {
     ULONG MaxPayloadSizeSupported  :3;

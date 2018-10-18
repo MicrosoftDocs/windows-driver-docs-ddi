@@ -56,7 +56,7 @@ product:
 ## -syntax
 
 
-```
+```cpp
 typedef struct _DOT11_AVAILABLE_FREQUENCY_LIST {
   NDIS_OBJECT_HEADER Header;
   ULONG              uNumOfEntries;
