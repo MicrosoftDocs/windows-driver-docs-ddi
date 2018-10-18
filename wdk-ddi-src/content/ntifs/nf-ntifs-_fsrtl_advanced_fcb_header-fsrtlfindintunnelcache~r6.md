@@ -6,11 +6,8 @@ description: The FsRtlFindInTunnelCache routine searches for a matching entry in
 old-location: ifsk\fsrtlfindintunnelcache.htm
 tech.root: ifsk
 ms.assetid: 80c24c5b-49a3-4ecc-92fe-3477cbb8a544
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: FsRtlFindInTunnelCache, FsRtlFindInTunnelCache routine [Installable File System Drivers], fsrtlref_ae11e9b8-bc4f-4c56-84a7-8e328e215415.xml, ifsk.fsrtlfindintunnelcache, ntifs/FsRtlFindInTunnelCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

@@ -6,11 +6,8 @@ description: The TmRenameTransactionManager routine changes the identity of the 
 old-location: kernel\tmrenametransactionmanager_.htm
 tech.root: kernel
 ms.assetid: B4124FF4-50CC-474A-B42F-17BCF698AB59
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: TmRenameTransactionManager, TmRenameTransactionManager , TmRenameTransactionManager routine [Kernel-Mode Driver Architecture], kernel.tmrenametransactionmanager_, wdm/TmRenameTransactionManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: 

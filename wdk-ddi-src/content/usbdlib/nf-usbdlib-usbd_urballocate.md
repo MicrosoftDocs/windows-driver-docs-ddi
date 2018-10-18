@@ -6,11 +6,8 @@ description: The USBD_UrbAllocate routine allocates a USB Request Block (URB).
 old-location: buses\usbd_urballocate.htm
 tech.root: usbref
 ms.assetid: 384E04BE-794F-4F87-81E5-35B974EB6172
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: USBD_UrbAllocate, USBD_UrbAllocate routine [Buses], buses.usbd_urballocate, usbdlib/USBD_UrbAllocate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usbdlib.h
 req.include-header: 
@@ -101,7 +98,7 @@ You must call <a href="https://msdn.microsoft.com/library/windows/hardware/hh406
 
 #### Examples
 
-The following code example shows how to allocate, submit, and release a URB. The example submits the URB synchronously. For the implementation of the SubmitUrbSync function, see the example section in [How to Submit an URB](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/send-requests-to-the-usb-driver-stack).
+The following code example shows how to allocate, submit, and release a URB. The example submits the URB synchronously. For the implementation of the SubmitUrbSync function, see the example section in [How to Submit an URB](https://docs.microsoft.com/windows-hardware/drivers/usbcon/send-requests-to-the-usb-driver-stack).
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

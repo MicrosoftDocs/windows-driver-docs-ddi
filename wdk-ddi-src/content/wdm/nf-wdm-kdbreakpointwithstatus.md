@@ -6,11 +6,8 @@ description: The KdBreakPointWithStatus macro breaks into the kernel debugger an
 old-location: devtest\kdbreakpointwithstatus.htm
 tech.root: devtest
 ms.assetid: 0b7f2f55-f7b8-415b-b683-3b6b96f84eb3
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: DebugFns_f34fa39a-d436-44db-97ff-3ccdd50384d8.xml, KdBreakPointWithStatus, KdBreakPointWithStatus function [Driver Development Tools], devtest.kdbreakpointwithstatus, ntddk/KdBreakPointWithStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h

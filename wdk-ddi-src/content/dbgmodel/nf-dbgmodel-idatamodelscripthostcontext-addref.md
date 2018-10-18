@@ -4,7 +4,6 @@ title: IDataModelScriptHostContext::AddRef
 author: windows-driver-content
 description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: 90277397-a848-43fa-b11a-d82c6ba310cd
-ms.author: windowsdriverdev
 ms.date: 09/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptHostContext::AddRef, AddRef, IDataModelScriptHostContext.AddRef, IDataModelScriptHostContext::AddRef, IDataModelScriptHostContext.AddRef

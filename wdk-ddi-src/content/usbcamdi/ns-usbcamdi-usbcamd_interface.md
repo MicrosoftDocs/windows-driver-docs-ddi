@@ -6,11 +6,8 @@ description: The USBCAMD_INTERFACE structure defines a set of services related t
 old-location: stream\usbcamd_interface.htm
 tech.root: stream
 ms.assetid: 864dbe8d-2771-4532-8a50-ed1bf5286658
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PUSBCAMD_INTERFACE, PUSBCAMD_INTERFACE, PUSBCAMD_INTERFACE structure pointer [Streaming Media Devices], USBCAMD_INTERFACE, USBCAMD_INTERFACE structure [Streaming Media Devices], stream.usbcamd_interface, usbcamdi/PUSBCAMD_INTERFACE, usbcamdi/USBCAMD_INTERFACE, usbcmdpr_113d60d6-c353-468a-9c3d-801c76caf7be.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h

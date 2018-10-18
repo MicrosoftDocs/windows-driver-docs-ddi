@@ -6,11 +6,8 @@ description: The NdkReleaseLam (NDK_FN_RELEASE_LAM) function releases an NDK ada
 old-location: netvista\ndk_fn_release_lam.htm
 tech.root: netvista
 ms.assetid: 8CEBDCCE-5B71-443D-9DE5-F789E16843D7
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NDK_FN_RELEASE_LAM, NDK_FN_RELEASE_LAM callback, NdkReleaseLam, NdkReleaseLam callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkReleaseLam, netvista.ndk_fn_release_lam
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndkpi.h
 req.include-header: Ndkpi.h

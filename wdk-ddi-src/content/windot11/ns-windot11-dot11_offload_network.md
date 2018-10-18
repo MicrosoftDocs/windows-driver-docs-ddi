@@ -6,11 +6,8 @@ description: The DOT11_OFFLOAD_NETWORK structure describes a network list offloa
 old-location: netvista\dot11_offload_network.htm
 tech.root: netvista
 ms.assetid: 75DC558F-801B-42ED-9282-127E86E78923
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*PDOT11_OFFLOAD_NETWORK, DOT11_OFFLOAD_NETWORK, DOT11_OFFLOAD_NETWORK structure [Network Drivers Starting with Windows Vista], PDOT11_OFFLOAD_NETWORK, PDOT11_OFFLOAD_NETWORK structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_offload_network, windot11/DOT11_OFFLOAD_NETWORK, windot11/PDOT11_OFFLOAD_NETWORK"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Windot11.h
@@ -58,14 +55,14 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DOT11_OFFLOAD_NETWORK {
   DOT11_SSID             Ssid;
   DOT11_CIPHER_ALGORITHM UnicastCipher;
   DOT11_AUTH_ALGORITHM   AuthAlgo;
   DOT11_CHANNEL_HINT     Dot11ChannelHints[DOT11_MAX_CHANNEL_HINTS];
 } DOT11_OFFLOAD_NETWORK, *PDOT11_OFFLOAD_NETWORK;
-````
+```
 
 
 ## -struct-fields

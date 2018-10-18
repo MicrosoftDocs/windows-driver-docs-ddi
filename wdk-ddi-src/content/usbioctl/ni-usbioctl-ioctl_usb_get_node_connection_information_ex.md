@@ -6,11 +6,8 @@ description: The IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX request retrieves 
 old-location: buses\ioctl_usb_get_node_connection_information_ex.htm
 tech.root: usbref
 ms.assetid: d056dd82-815d-42da-8d2a-490474f68782
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX control, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX control code [Buses], buses.ioctl_usb_get_node_connection_information_ex, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX, usbirp_61c188b5-2820-4601-b2de-08bf30109824.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
@@ -113,6 +110,7 @@ The function specifies the symbolic link to hub device and port index to query. 
 - SPEED_PATHERROR: if unable to open path.
 - SPEED_IOCTLERROR: Hub IOCTL failed.
 
+```
 void GetPortSpeed(const WCHAR *Path, ULONG PortIndex, UCHAR *pPortSpeed)
 
 {

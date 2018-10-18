@@ -6,11 +6,8 @@ description: One D3DHAL_DP2LINESTRIP structure is parsed from the command buffer
 old-location: display\d3dhal_dp2linestrip.htm
 tech.root: display
 ms.assetid: 1f893474-c132-4843-985a-5ef1d0d8f32d
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: "*LPD3DHAL_DP2LINESTRIP, D3DHAL_DP2LINESTRIP, D3DHAL_DP2LINESTRIP structure [Display Devices], LPD3DHAL_DP2LINESTRIP, LPD3DHAL_DP2LINESTRIP structure pointer [Display Devices], _D3DHAL_DP2LINESTRIP, d3dhal/D3DHAL_DP2LINESTRIP, d3dhal/LPD3DHAL_DP2LINESTRIP, d3dstrct_d49daf52-1228-463a-8db5-3802da2fc787.xml, display.d3dhal_dp2linestrip"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dhal.h
 req.include-header: D3dhal.h

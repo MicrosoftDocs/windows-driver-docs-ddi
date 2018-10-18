@@ -6,11 +6,8 @@ description: The WdfDmaTransactionGetBytesTransferred method returns the total n
 old-location: wdf\wdfdmatransactiongetbytestransferred.htm
 tech.root: wdf
 ms.assetid: 32cc50bc-a93b-43ec-98c7-bfaaebbe6c28
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDmaObjectRef_a8d61436-75d3-4c14-a81b-6ba7adb3c442.xml, WdfDmaTransactionGetBytesTransferred, WdfDmaTransactionGetBytesTransferred method, kmdf.wdfdmatransactiongetbytestransferred, wdf.wdfdmatransactiongetbytestransferred, wdfdmatransaction/WdfDmaTransactionGetBytesTransferred
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
@@ -83,7 +80,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-Framework-based drivers typically call <b>WdfDmaTransactionGetBytesTransferred</b> from within an <a href="https://msdn.microsoft.com/d2d505e0-aeac-4871-8c60-d026b2833043">EvtInterruptDpc</a> event callback function, after all DMA transfers are complete, to obtain the final transferred byte count. Drivers typically use the final byte count as input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549948">WdfRequestCompleteWithInformation</a> method. For more information about this method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-a-dma-transaction">Completing a DMA Transaction</a>.
+Framework-based drivers typically call <b>WdfDmaTransactionGetBytesTransferred</b> from within an <a href="https://msdn.microsoft.com/d2d505e0-aeac-4871-8c60-d026b2833043">EvtInterruptDpc</a> event callback function, after all DMA transfers are complete, to obtain the final transferred byte count. Drivers typically use the final byte count as input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549948">WdfRequestCompleteWithInformation</a> method. For more information about this method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-a-dma-transaction">Completing a DMA Transaction</a>.
 
 
 #### Examples

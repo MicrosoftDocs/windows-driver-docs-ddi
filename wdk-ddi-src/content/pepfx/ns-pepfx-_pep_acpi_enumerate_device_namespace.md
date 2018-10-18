@@ -6,11 +6,8 @@ description: The PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure contains an enume
 old-location: kernel\pep_acpi_enumerate_device_namespace.htm
 tech.root: kernel
 ms.assetid: 61315EFB-DEA7-4CF2-97D3-EACD223AFB50
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, kernel.pep_acpi_enumerate_device_namespace, pepfx/PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, pepfx/PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
 req.include-header: Pep_x.h
@@ -60,7 +57,7 @@ The <b>PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE</b> structure contains an enumeration
 
 ### -field DeviceHandle
 
-[in] A PEPHANDLE value that identifies the device's registration for ACPI services. The platform extension plug-in (PEP) supplied this handle in response to a previous <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a> notification.
+[in] A PEPHANDLE value that identifies the device's registration for ACPI services. The platform extension plug-in (PEP) supplied this handle in response to a previous <a href="https://msdn.microsoft.com/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a> notification.
 
 
 ### -field RequestFlags
@@ -97,7 +94,7 @@ The <b>PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE</b> structure contains an enumeration
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186658">PEP_NOTIFY_ACPI_ENUMERATE_DEVICE_NAMESPACE</a> notification. The <b>RequestFlags</b> and <b>TotalBufferSize</b> members contain input values supplied by PoFx when the notification is sent. The PEP may overwrite the <b>TotalBufferSize</b> input value with an output value if the input value is less than the required output buffer size. The <b>Status</b>, <b>ObjectCount</b>, and <b>Objects</b> members contain output values that the PEP writes to the structure.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186658">PEP_NOTIFY_ACPI_ENUMERATE_DEVICE_NAMESPACE</a> notification. The <b>RequestFlags</b> and <b>TotalBufferSize</b> members contain input values supplied by PoFx when the notification is sent. The PEP may overwrite the <b>TotalBufferSize</b> input value with an output value if the input value is less than the required output buffer size. The <b>Status</b>, <b>ObjectCount</b>, and <b>Objects</b> members contain output values that the PEP writes to the structure.
 
 If N is the number of objects listed in the ACPI namespace under this device, the PEP should verify that the storage allocated by PoFx for the <b>Objects</b> array is large enough to contain N array elements. If N &gt; 1, the additional N–1 array elements follow the end of the <b>PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE</b> structure. The buffer size required to contain the structure and additional array elements is calculated as follows:
 
@@ -105,7 +102,7 @@ If N is the number of objects listed in the ACPI namespace under this device, th
 <b>PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE</b>
 <b>sizeof</b>
 <b>PEP_ACPI_OBJECT_NAME_WITH_TYPE</b>
-If the input value specified in the <b>TotalBufferSize</b> member is less than the required size, the PEP overwrites the <b>TotalBufferSize</b> input value with the required size, and sets the <b>Status</b> member to STATUS_BUFFER_TOO_SMALL. In response, PoFx will allocate a buffer of the required size and send a second <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186658">PEP_NOTIFY_ACPI_ENUMERATE_DEVICE_NAMESPACE</a> notification to the PEP for this device.
+If the input value specified in the <b>TotalBufferSize</b> member is less than the required size, the PEP overwrites the <b>TotalBufferSize</b> input value with the required size, and sets the <b>Status</b> member to STATUS_BUFFER_TOO_SMALL. In response, PoFx will allocate a buffer of the required size and send a second <a href="https://msdn.microsoft.com/library/windows/hardware/mt186658">PEP_NOTIFY_ACPI_ENUMERATE_DEVICE_NAMESPACE</a> notification to the PEP for this device.
 
 
 
@@ -119,11 +116,11 @@ If the input value specified in the <b>TotalBufferSize</b> member is less than t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186658">PEP_NOTIFY_ACPI_ENUMERATE_DEVICE_NAMESPACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186658">PEP_NOTIFY_ACPI_ENUMERATE_DEVICE_NAMESPACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
  
 
  

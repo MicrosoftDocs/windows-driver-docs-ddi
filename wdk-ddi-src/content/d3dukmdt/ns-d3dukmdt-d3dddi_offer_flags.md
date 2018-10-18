@@ -4,11 +4,8 @@ title: D3DDDI_OFFER_FLAGS
 author: windows-driver-content
 description: Offer flags.
 ms.assetid: 2666f6d1-2dd4-4fa1-8951-aa05be2d3a51
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3DDDI_OFFER_FLAGS, D3DDDI_OFFER_FLAGS, 
 req.header: d3dukmdt.h
 req.include-header:

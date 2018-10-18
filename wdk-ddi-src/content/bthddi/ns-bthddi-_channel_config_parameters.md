@@ -6,11 +6,8 @@ description: The CHANNEL_CONFIG_PARAMETERS structure contains configuration para
 old-location: bltooth\channel_config_parameters.htm
 tech.root: bltooth
 ms.assetid: c2201e3c-c680-4a22-adf5-5131fb138066
-ms.author: windowsdriverdev
 ms.date: 4/27/2018
 ms.keywords: "*PCHANNEL_CONFIG_PARAMETERS, CHANNEL_CONFIG_PARAMETERS, CHANNEL_CONFIG_PARAMETERS structure [Bluetooth Devices], PCHANNEL_CONFIG_PARAMETERS, PCHANNEL_CONFIG_PARAMETERS structure pointer [Bluetooth Devices], _CHANNEL_CONFIG_PARAMETERS, bltooth.channel_config_parameters, bth_structs_c5360d7a-eb76-4b27-8507-8de862737a06.xml, bthddi/CHANNEL_CONFIG_PARAMETERS, bthddi/PCHANNEL_CONFIG_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h

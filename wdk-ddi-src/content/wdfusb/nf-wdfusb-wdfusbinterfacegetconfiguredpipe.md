@@ -6,11 +6,8 @@ description: The WdfUsbInterfaceGetConfiguredPipe method returns a handle to the
 old-location: wdf\wdfusbinterfacegetconfiguredpipe.htm
 tech.root: wdf
 ms.assetid: 0836a969-e484-485f-9b65-202c177b4f43
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFUsbRef_65a97d99-39c5-4750-95e1-6c9c20c169bb.xml, WdfUsbInterfaceGetConfiguredPipe, WdfUsbInterfaceGetConfiguredPipe method, kmdf.wdfusbinterfacegetconfiguredpipe, wdf.wdfusbinterfacegetconfiguredpipe, wdfusb/WdfUsbInterfaceGetConfiguredPipe
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

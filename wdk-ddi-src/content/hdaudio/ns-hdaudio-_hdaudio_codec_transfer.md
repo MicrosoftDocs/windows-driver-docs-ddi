@@ -6,11 +6,8 @@ description: The HDAUDIO_CODEC_TRANSFER structure specifies a codec command and 
 old-location: audio\hdaudio_codec_transfer.htm
 tech.root: audio
 ms.assetid: ee73c5d2-9c4d-4d6f-b792-7966964fedf7
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: "*PHDAUDIO_CODEC_TRANSFER, HDAUDIO_CODEC_TRANSFER, HDAUDIO_CODEC_TRANSFER structure [Audio Devices], PHDAUDIO_CODEC_TRANSFER, PHDAUDIO_CODEC_TRANSFER structure pointer [Audio Devices], _HDAUDIO_CODEC_TRANSFER, aud-prop2_7bb7a1d5-ed28-48d4-8ca4-ff2f85002d7c.xml, audio.hdaudio_codec_transfer, hdaudio/HDAUDIO_CODEC_TRANSFER, hdaudio/PHDAUDIO_CODEC_TRANSFER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hdaudio.h
 req.include-header: Hdaudio.h

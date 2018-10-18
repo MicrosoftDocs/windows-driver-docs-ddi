@@ -4,12 +4,9 @@ title: _D3DDDIQUERYTYPE
 author: windows-driver-content
 description: The query type.
 ms.assetid: dbaf8ce2-277d-4754-a4fc-c0969fdea2a1
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: _D3DDDIQUERYTYPE, D3DDDIQUERYTYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dumddi.h
 req.include-header:
 req.target-type:

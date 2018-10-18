@@ -6,11 +6,8 @@ description: Creates a WDFDEVICE initialization structure to allow indirect disp
 old-location: display\iddcxdeviceinitconfig.htm
 tech.root: display
 ms.assetid: 4789e848-bb95-43e1-9768-8f94a475f9c8
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: IddCxDeviceInitConfig, IddCxDeviceInitConfig method [Display Devices], display.iddcxdeviceinitconfig, iddcx/IddCxDeviceInitConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iddcx.h
 req.include-header: 

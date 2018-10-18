@@ -6,11 +6,8 @@ description: The FltGetRequestorProcessId routine returns the unique 32-bit proc
 old-location: ifsk\fltgetrequestorprocessid.htm
 tech.root: ifsk
 ms.assetid: 45965b8c-749c-42ef-b29f-22a46028e4d3
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_1e770f18-5024-4f82-9d63-eba6a9e6fd5b.xml, FltGetRequestorProcessId, FltGetRequestorProcessId routine [Installable File System Drivers], fltkernel/FltGetRequestorProcessId, ifsk.fltgetrequestorprocessid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

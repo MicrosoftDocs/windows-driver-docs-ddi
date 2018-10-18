@@ -5,12 +5,9 @@ author: windows-driver-content
 description: The WWAN_CONTEXT_OPERATIONS enumeration specifies the types of operation used in a Set request for a provisioned context in a mobile broadband (MBB) modem.
 tech.root: netvista
 ms.assetid: 30c43b14-55c8-4f24-855d-23a3e017ad01
-ms.author: windowsdriverdev
 ms.date: 08/22/2018
 ms.topic: enum
 ms.keywords: _WWAN_CONTEXT_OPERATIONS, WWAN_CONTEXT_OPERATIONS, *PWWAN_CONTEXT_OPERATIONS, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wwan.h
 req.include-header:
 req.target-type:

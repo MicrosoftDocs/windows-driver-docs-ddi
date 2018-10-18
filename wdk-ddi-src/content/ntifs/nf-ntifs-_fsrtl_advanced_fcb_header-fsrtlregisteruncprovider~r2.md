@@ -6,11 +6,8 @@ description: The FsRtlRegisterUncProvider routine registers a network redirector
 old-location: ifsk\fsrtlregisteruncprovider.htm
 tech.root: ifsk
 ms.assetid: 25bd13de-cbac-408f-b985-e131499f05f0
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: FsRtlRegisterUncProvider, FsRtlRegisterUncProvider routine [Installable File System Drivers], fsrtlref_275d75b9-0033-4cfc-bb22-5ebfcab8d6ba.xml, ifsk.fsrtlregisteruncprovider, ntifs/FsRtlRegisterUncProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extsetvirtualstationapproperties.htm
 tech.root: netvista
 ms.assetid: 11ba5799-2bb5-475f-bf69-cf1a1c3c128c
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: DOT11EXT_SET_VIRTUAL_STATION_AP_PROPERTIES, Dot11ExtSetVirtualStationAPProperties, Dot11ExtSetVirtualStationAPProperties callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_99551e02-eec3-413e-a14d-60d6ce5c09ee.xml, netvista.dot11extsetvirtualstationapproperties, wlanihv/Dot11ExtSetVirtualStationAPProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
@@ -61,7 +58,7 @@ The IHV Extensions DLL calls the
 ## -prototype
 
 
-````
+```cpp
 DWORD WINAPI * Dot11ExtSetVirtualStationAPProperties(
   _In_opt_   HANDLE                                hDot11SvcHandle,
   _In_opt_   HANDLE                                hConnectSession,
@@ -69,7 +66,7 @@ DWORD WINAPI * Dot11ExtSetVirtualStationAPProperties(
   _In_       PDOT11EXT_VIRTUAL_STATION_AP_PROPERTY pProperties,
   _Reserved_ LPVOID                                pvReserved
 );
-````
+```
 
 
 ## -parameters

@@ -6,11 +6,8 @@ description: The STORAGE_DEVICE_NUMBER structure is used in conjunction with the
 old-location: storage\storage_device_number.htm
 tech.root: storage
 ms.assetid: 3efed879-bde4-44ea-9af5-fc35a2ac27fc
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PSTORAGE_DEVICE_NUMBER, PSTORAGE_DEVICE_NUMBER, PSTORAGE_DEVICE_NUMBER structure pointer [Storage Devices], STORAGE_DEVICE_NUMBER, STORAGE_DEVICE_NUMBER structure [Storage Devices], _STORAGE_DEVICE_NUMBER, ntddstor/PSTORAGE_DEVICE_NUMBER, ntddstor/STORAGE_DEVICE_NUMBER, storage.storage_device_number, structs-general_e5b6df4e-787c-415b-82ed-14dffa34a95e.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddstor.h
 req.include-header: Ntddstor.h

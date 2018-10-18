@@ -6,11 +6,8 @@ description: This structure describes a buffer of barcode symbologies supported 
 old-location: pos\posbarcodescandatatypedata.htm
 tech.root: pos
 ms.assetid: 1b6fcad3-a6a0-4180-8e36-ae4e597b4eb0
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: PosBarcodeScanDataTypeData, PosBarcodeScanDataTypeData structure, _PosBarcodeScanDataTypeData, pointofservicedriverinterface/PosBarcodeScanDataTypeData, pos.posbarcodescandatatypedata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h

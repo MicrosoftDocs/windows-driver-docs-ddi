@@ -6,11 +6,8 @@ description: The SECURITY_IMPERSONATION_LEVEL enumeration contains values that i
 old-location: wdf\security_impersonation_level.htm
 tech.root: wdf
 ms.assetid: 5c325c16-6bc6-4eae-a58c-234d11616780
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: SECURITY_IMPERSONATION_LEVEL, SECURITY_IMPERSONATION_LEVEL enumeration, SecurityAnonymous, SecurityDelegation, SecurityIdentification, SecurityImpersonation, _SECURITY_IMPERSONATION_LEVEL, umdf.security_impersonation_level, umdfstructs_f81ccb0e-4b8c-4a8a-bdd3-4b4a45a750ab.xml, wdf.security_impersonation_level, wudfddi/SECURITY_IMPERSONATION_LEVEL, wudfddi/SecurityAnonymous, wudfddi/SecurityDelegation, wudfddi/SecurityIdentification, wudfddi/SecurityImpersonation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -84,7 +81,7 @@ The driver can impersonate the client's security context on remote systems.
 
 
 
-For more information about impersonation in the UMDF, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/handling-client-impersonation-in-umdf-drivers">Handling Client Impersonation</a>.
+For more information about impersonation in the UMDF, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/handling-client-impersonation-in-umdf-drivers">Handling Client Impersonation</a>.
 
 A UMDF driver supplies one of the values of <b>SECURITY_IMPERSONATION_LEVEL</b> to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559136">IWDFIoRequest::Impersonate</a> method to set the security impersonation level.
 

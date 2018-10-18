@@ -6,11 +6,8 @@ description: Supplies the Vendor and Device ID for a PCI Express SR-IOV Virtual 
 old-location: pci\sriov_get_vendor_and_device_ids.htm
 tech.root: PCI
 ms.assetid: d08bbaea-6f2b-49ef-bb8b-c1fe357e1c90
-ms.author: windowsdriverdev
 ms.date: 2/24/2018
 ms.keywords: "*PSRIOV_GET_VENDOR_AND_DEVICE_IDS, *PSRIOV_GET_VENDOR_AND_DEVICE_IDS callback function pointer [Buses], PCI.sriov_get_vendor_and_device_ids, SRIOV_GET_VENDOR_AND_DEVICE_IDS, SriovGetVendorAndDeviceIds, SriovGetVendorAndDeviceIds callback function [Buses], pcivirt/SriovGetVendorAndDeviceIds"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: pcivirt.h
 req.include-header:
@@ -56,7 +53,7 @@ Supplies the Vendor and Device ID for a PCI Express SR-IOV Virtual Function (VF)
 ## -prototype
 
 
-````
+```cpp
 SRIOV_GET_VENDOR_AND_DEVICE_IDS SriovGetVendorAndDeviceIds;
 
 NTSTATUS SriovGetVendorAndDeviceIds(
@@ -68,7 +65,7 @@ NTSTATUS SriovGetVendorAndDeviceIds(
 { ... }
 
 typedef SRIOV_GET_VENDOR_AND_DEVICE_IDS *PSRIOV_GET_VENDOR_AND_DEVICE_IDS;
-````
+```
 
 
 ## -parameters

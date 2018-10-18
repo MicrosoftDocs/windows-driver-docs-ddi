@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Used to hold the arguments for DXGKDDI_SETTARGETCONTENTTYPE.
 old-location: display\dxgkarg_settargetcontenttype.htm
 ms.assetid: BD849954-97CC-4314-B375-22829B0CEE86
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGKARG_SETTARGETCONTENTTYPE, DXGKARG_SETTARGETCONTENTTYPE structure [Display Devices], PDXGKARG_SETTARGETCONTENTTYPE, PDXGKARG_SETTARGETCONTENTTYPE structure pointer [Display Devices], _DXGKARG_SETTARGETCONTENTTYPE, d3dkmddi/DXGKARG_SETTARGETCONTENTTYPE, d3dkmddi/PDXGKARG_SETTARGETCONTENTTYPE, display.dxgkarg_settargetcontenttype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmddi.h
 req.include-header: 

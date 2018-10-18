@@ -6,11 +6,8 @@ description: The WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT function initi
 old-location: wdf\wdf_child_identification_description_header_init.htm
 tech.root: wdf
 ms.assetid: 5c0d7abf-05e3-45fc-b5a4-db6f79a94a87
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectChildListRef_dbb576dd-7020-4c96-8f3a-568fd58f6cf5.xml, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT function, kmdf.wdf_child_identification_description_header_init, wdf.wdf_child_identification_description_header_init, wdfchildlist/WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
@@ -85,7 +82,7 @@ None
 
 The <b>WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</b> function zeros the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff551223">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure and sets the structure's <b>IdentificationDescriptionSize</b> member to the specified value.
 
-For more information about child identification descriptions, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
+For more information about child identification descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
 
 #### Examples

@@ -6,11 +6,8 @@ description: The MPIO_DEVINSTANCE_HEALTH_INFO structure is used to query the ava
 old-location: storage\mpio_devinstance_health_info.htm
 tech.root: storage
 ms.assetid: 7f254389-58cf-43da-8611-a1598cc2eb66
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PMPIO_DEVINSTANCE_HEALTH_INFO, MPIO_DEVINSTANCE_HEALTH_INFO, MPIO_DEVINSTANCE_HEALTH_INFO structure [Storage Devices], PMPIO_DEVINSTANCE_HEALTH_INFO, PMPIO_DEVINSTANCE_HEALTH_INFO structure pointer [Storage Devices], _MPIO_DEVINSTANCE_HEALTH_INFO, mpiodisk/MPIO_DEVINSTANCE_HEALTH_INFO, mpiodisk/PMPIO_DEVINSTANCE_HEALTH_INFO, storage.mpio_devinstance_health_info, structs-scsibus_4e13f03b-88d3-4ab7-a2a8-5b4064b4edd2.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mpiodisk.h
 req.include-header: Mpiowmi.h

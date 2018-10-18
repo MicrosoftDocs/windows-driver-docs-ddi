@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extsetkeymappingkey.htm
 tech.root: netvista
 ms.assetid: 7fbca90d-c5cd-40d4-a284-ca059aa6cacf
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: DOT11EXT_SET_KEY_MAPPING_KEY, Dot11ExtSetKeyMappingKey, Dot11ExtSetKeyMappingKey callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_a96af10f-97f4-406e-bc75-2cdc19564df0.xml, netvista.dot11extsetkeymappingkey, wlanihv/Dot11ExtSetKeyMappingKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
@@ -60,12 +57,12 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```cpp
 DWORD WINAPI * Dot11ExtSetKeyMappingKey(
   _In_opt_ HANDLE                              hDot11SvcHandle,
   _In_     PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE pKey
 );
-````
+```
 
 
 ## -parameters
@@ -110,7 +107,7 @@ A key-mapping cipher key is deleted from the adapter's key tables if the
 
 A call to the
     <b>Dot11ExtSetKeyMappingKey</b> function results in a set request of the
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
     OID_DOT11_CIPHER_KEY_MAPPING_KEY</a> object identifier (OID) to the Native 802.11 miniport driver that
     manages the WLAN adapter.
 
@@ -119,7 +116,7 @@ A call to the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
    OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
 
 

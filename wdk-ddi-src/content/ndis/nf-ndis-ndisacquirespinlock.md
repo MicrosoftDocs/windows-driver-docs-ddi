@@ -6,11 +6,8 @@ description: The NdisAcquireSpinLock function acquires a spin lock so the caller
 old-location: netvista\ndisacquirespinlock.htm
 tech.root: netvista
 ms.assetid: c19c9396-bc24-4f4b-a0c9-f8de76a9c46b
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisAcquireSpinLock, NdisAcquireSpinLock macro [Network Drivers Starting with Windows Vista], ndis/NdisAcquireSpinLock, ndis_spin_lock_ref_54c55d32-a190-4454-ad0d-670427754b8b.xml, netvista.ndisacquirespinlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -103,7 +100,7 @@ A miniport driver cannot use a spin lock to protect resources that its other fun
     <i>MiniportDisableInterruptEx</i> functions do.
 
 For more information about acquiring and releasing NDIS spin locks, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/synchronization-and-notification-in-network-drivers">Synchronization
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronization-and-notification-in-network-drivers">Synchronization
     and Notification in Network Drivers</a>.
 
 

@@ -6,11 +6,8 @@ description: The _BRB_SCO_FLUSH_CHANNEL structure describes a flush operation fo
 old-location: bltooth\_brb_sco_flush_channel.htm
 tech.root: bltooth
 ms.assetid: 17ee1a71-2aaf-421d-9ae9-019fe0d2f595
-ms.author: windowsdriverdev
 ms.date: 4/27/2018
 ms.keywords: "_BRB_SCO_FLUSH_CHANNEL, _BRB_SCO_FLUSH_CHANNEL structure [Bluetooth Devices], bltooth._brb_sco_flush_channel, bth_structs_d2a9941d-7091-402d-87bc-a5da139dfc1f.xml, bthddi/_BRB_SCO_FLUSH_CHANNEL"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h

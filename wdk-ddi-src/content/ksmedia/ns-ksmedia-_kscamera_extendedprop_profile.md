@@ -6,11 +6,8 @@ description: The payload of the KSPROPERTY_CAMERACONTROL_EXTENDED_PROFILE contro
 old-location: stream\kscamera_extendedprop_profile.htm
 tech.root: stream
 ms.assetid: 43529BA7-1F5A-4B9B-9792-2D6050F0480D
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_PROFILE, KSCAMERA_EXTENDEDPROP_PROFILE, KSCAMERA_EXTENDEDPROP_PROFILE structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_PROFILE, PKSCAMERA_EXTENDEDPROP_PROFILE structure pointer [Streaming Media Devices], _KSCAMERA_EXTENDEDPROP_PROFILE, ksmedia/KSCAMERA_EXTENDEDPROP_PROFILE, ksmedia/PKSCAMERA_EXTENDEDPROP_PROFILE, stream.kscamera_extendedprop_profile"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksmedia.h
 req.include-header: 

@@ -25,7 +25,7 @@ To develop Serial port, you need these headers:
  * [serfuncenum.h](..\serfuncenum\index.md)
  * [uart.h](..\uart\index.md)
 
-For the programming guide, see [Serial port](https://docs.microsoft.com/en-us/windows-hardware/drivers/serports).
+For the programming guide, see [Serial port](https://docs.microsoft.com/windows-hardware/drivers/serports).
 
 ## Functions
 

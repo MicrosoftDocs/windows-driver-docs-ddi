@@ -4,11 +4,8 @@ title: PFND3D12DDI_CREATEHEAPANDRESOURCE_0003
 author: windows-driver-content
 description: Used to simultaneously create a heap and resource.
 ms.assetid: 478dfbcd-4472-4469-bd6e-66d6f7b45a3a
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Used to simultaneously create a heap and resource.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATEHEAPANDRESOURCE_0003 Pfnd3d12ddiCreateheapandresource0003; 

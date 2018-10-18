@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Queries the size in bytes of the certificate that the display miniport driver uses for either the cryptographic session certificate or authenticated channel.
 old-location: display\getcertificatesize.htm
 ms.assetid: 7f9a2a76-ee50-4f72-a588-d7b9145c14a6
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: PFND3D11_1DDI_GETCERTIFICATESIZE, PFND3D11_1DDI_GETCERTIFICATESIZE callback, d3d10umddi/pfnGetCertificateSize, display.getcertificatesize, pfnGetCertificateSize, pfnGetCertificateSize callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

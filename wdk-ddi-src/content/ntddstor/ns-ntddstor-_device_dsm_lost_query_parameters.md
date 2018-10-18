@@ -4,11 +4,8 @@ title: _DEVICE_DSM_LOST_QUERY_PARAMETERS
 author: windows-driver-content
 description: 
 ms.assetid: 202e9749-20af-409f-93d6-52ad52fa9b49
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DEVICE_DSM_LOST_QUERY_PARAMETERS, DEVICE_DSM_LOST_QUERY_PARAMETERS, *PDEVICE_DSM_LOST_QUERY_PARAMETERS, 
 req.header: ntddstor.h
 req.include-header:

@@ -4,7 +4,6 @@ title: D3DDDI_VERSION64_FROM32 macro
 author: windows-driver-content
 description: Converts a 64 bit version from a 32 bit.
 ms.assetid: 2c8cc385-2105-4692-8042-cda03fb2e0cf
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: macro
 ms.keywords: D3DDDI_VERSION64_FROM32

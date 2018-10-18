@@ -6,11 +6,8 @@ description: The PoFxIdleComponent routine decrements the activation reference c
 old-location: kernel\pofxidlecomponent.htm
 tech.root: kernel
 ms.assetid: 07282994-5E04-432D-85A6-4677DB2DA84A
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: PoFxIdleComponent, PoFxIdleComponent routine [Kernel-Mode Driver Architecture], kernel.pofxidlecomponent, wdm/PoFxIdleComponent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: 
@@ -70,7 +67,7 @@ The index that identifies the component. This parameter is an index into the <b>
 
 ### -param Flags [in]
 
-The flags for the idle operation. Set this member to zero or to one of the following flag <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn939769">PO_FX_FLAG_XXX</a> bits:
+The flags for the idle operation. Set this member to zero or to one of the following flag <a href="https://msdn.microsoft.com/library/windows/hardware/dn939769">PO_FX_FLAG_XXX</a> bits:
 
 <ul>
 <li><b>PO_FX_FLAG_BLOCKING</b></li>
@@ -120,7 +117,7 @@ The driver can set <i>Flags</i> = 0 to indicate that it does not care whether th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn939769">PO_FX_FLAG_XXX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn939769">PO_FX_FLAG_XXX</a>
 
 
 

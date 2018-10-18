@@ -6,11 +6,8 @@ description: The KeSetSystemAffinityThread routine sets the system affinity of t
 old-location: kernel\kesetsystemaffinitythread.htm
 tech.root: kernel
 ms.assetid: eb66ed06-356d-4550-8ccf-10854e4ca259
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: KeSetSystemAffinityThread, KeSetSystemAffinityThread routine [Kernel-Mode Driver Architecture], k105_86ff0d26-a53d-4da4-b776-35ed30b950ad.xml, kernel.kesetsystemaffinitythread, wdm/KeSetSystemAffinityThread
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
@@ -60,7 +57,7 @@ The <b>KeSetSystemAffinityThread</b> routine sets the system affinity of the cur
 
 ### -param Affinity [in]
 
-A [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)-typed variable that specifies the new system affinity of the current thread. 
+A [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)-typed variable that specifies the new system affinity of the current thread. 
 
 
 ## -returns
@@ -88,7 +85,7 @@ If <b>KeSetSystemAffinityThread</b> is called at IRQL &lt;= APC_LEVEL and the ca
 
 
 
-[**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)
+[**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)
 
 
 

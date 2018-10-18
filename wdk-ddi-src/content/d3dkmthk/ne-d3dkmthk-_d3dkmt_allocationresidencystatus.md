@@ -4,12 +4,9 @@ title: _D3DKMT_ALLOCATIONRESIDENCYSTATUS
 author: windows-driver-content
 description: The allocation residency status.
 ms.assetid: d4174517-650d-49f6-95f3-0959640ee88b
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: _D3DKMT_ALLOCATIONRESIDENCYSTATUS, D3DKMT_ALLOCATIONRESIDENCYSTATUS, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

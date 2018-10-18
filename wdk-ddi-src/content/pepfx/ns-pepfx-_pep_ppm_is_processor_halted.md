@@ -6,11 +6,8 @@ description: The PEP_PPM_IS_PROCESSOR_HALTED structure indicates whether the pro
 old-location: kernel\pep_ppm_is_processor_halted.htm
 tech.root: kernel
 ms.assetid: 284BAFE1-C632-428D-800C-60C538052C02
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PPEP_PPM_IS_PROCESSOR_HALTED, PEP_PPM_IS_PROCESSOR_HALTED, PEP_PPM_IS_PROCESSOR_HALTED structure [Kernel-Mode Driver Architecture], PPEP_PPM_IS_PROCESSOR_HALTED, PPEP_PPM_IS_PROCESSOR_HALTED structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_IS_PROCESSOR_HALTED, kernel.pep_ppm_is_processor_halted, pepfx/PEP_PPM_IS_PROCESSOR_HALTED, pepfx/PPEP_PPM_IS_PROCESSOR_HALTED"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
 req.include-header: Pep_x.h
@@ -67,7 +64,7 @@ The <b>PEP_PPM_IS_PROCESSOR_HALTED</b> structure indicates whether the processor
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186810">PEP_NOTIFY_PPM_IS_PROCESSOR_HALTED</a> notification. The <b>Halted</b> member contains an output value that the platform extension plug-in (PEP) writes to the structure in response to this notification.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186810">PEP_NOTIFY_PPM_IS_PROCESSOR_HALTED</a> notification. The <b>Halted</b> member contains an output value that the platform extension plug-in (PEP) writes to the structure in response to this notification.
 
 
 
@@ -77,7 +74,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186810">PEP_NOTIFY_PPM_IS_PROCESSOR_HALTED</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186810">PEP_NOTIFY_PPM_IS_PROCESSOR_HALTED</a>
  
 
  

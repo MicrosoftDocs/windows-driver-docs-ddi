@@ -6,11 +6,8 @@ description: The GetCurrentProcessExecutableNameWide method returns the name of 
 old-location: debugger\getcurrentprocessexecutablenamewide.htm
 tech.root: debugger
 ms.assetid: 4b87adca-e838-471b-a600-1327253ee45d
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetCurrentProcessExecutableNameWide, GetCurrentProcessExecutableNameWide method [Windows Debugging], GetCurrentProcessExecutableNameWide method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects4 interface [Windows Debugging],GetCurrentProcessExecutableNameWide method, IDebugSystemObjects4.GetCurrentProcessExecutableNameWide, IDebugSystemObjects4::GetCurrentProcessExecutableNameWide, dbgeng/IDebugSystemObjects4::GetCurrentProcessExecutableNameWide, debugger.getcurrentprocessexecutablenamewide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

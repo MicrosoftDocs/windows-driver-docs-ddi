@@ -4,11 +4,8 @@ title: _ACPI_PLD_INTERFACE_INSTANCE_UNICODE_BUFFER structure
 author: windows-driver-content
 description: Describes the ACPI PLD interface instance Unicode descriptor buffer, revision 1 (Microsoft custom PLD buffer extension, 128-bits).
 ms.assetid: c3ded0b4-c497-4b7c-bc88-fec4cbdf8aef
-ms.author: windowsdriverdev
 ms.date: 10/2/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _ACPI_PLD_INTERFACE_INSTANCE_UNICODE_BUFFER, ACPI_PLD_INTERFACE_INSTANCE_UNICODE_BUFFER, *PACPI_PLD_INTERFACE_INSTANCE_UNICODE_BUFFER, 
 req.header: acpitabl.h
 req.include-header:

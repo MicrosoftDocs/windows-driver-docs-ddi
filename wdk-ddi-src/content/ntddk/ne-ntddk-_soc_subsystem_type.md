@@ -6,11 +6,8 @@ description: The SOC_SYBSYSTEM_TYPE enumeration defines different types of Syste
 old-location: whea\soc_sybsystem_type.htm
 tech.root: whea
 ms.assetid: 179D61E3-C2EE-4821-93F8-DB763892DD3D
-ms.author: windowsdriverdev
 ms.date: 2/20/2018
 ms.keywords: "*PSOC_SUBSYSTEM_TYPE, SOC_SUBSYSTEM_TYPE, SOC_SUBSYSTEM_TYPE enumeration [WHEA Drivers and Applications], SOC_SUBSYSTEM_WIRELESS_MODEM, SOC_SUBSYS_AUDIO_DSP, SOC_SUBSYS_SENSORS, SOC_SUBSYS_VENDOR_DEFINED, SOC_SUBSYS_WIRELSS_CONNECTIVITY, _SOC_SUBSYSTEM_TYPE, ntddk/SOC_SUBSYSTEM_TYPE, ntddk/SOC_SUBSYSTEM_WIRELESS_MODEM, ntddk/SOC_SUBSYS_AUDIO_DSP, ntddk/SOC_SUBSYS_SENSORS, ntddk/SOC_SUBSYS_VENDOR_DEFINED, ntddk/SOC_SUBSYS_WIRELSS_CONNECTIVITY, whea.soc_sybsystem_type"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddk.h
 req.include-header: 

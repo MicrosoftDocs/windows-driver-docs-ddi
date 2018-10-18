@@ -6,11 +6,8 @@ description: The WriteDumpFile method creates a user-mode or kernel-modecrash du
 old-location: debugger\writedumpfile.htm
 tech.root: debugger
 ms.assetid: 5f410561-b848-471e-8230-f12aa512a897
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugClient interface [Windows Debugging],WriteDumpFile method, IDebugClient2 interface [Windows Debugging],WriteDumpFile method, IDebugClient2::WriteDumpFile, IDebugClient3 interface [Windows Debugging],WriteDumpFile method, IDebugClient3.WriteDumpFile, IDebugClient3::WriteDumpFile, IDebugClient4 interface [Windows Debugging],WriteDumpFile method, IDebugClient4::WriteDumpFile, IDebugClient5 interface [Windows Debugging],WriteDumpFile method, IDebugClient5::WriteDumpFile, IDebugClient::WriteDumpFile, IDebugClient_d9fa8d64-3c92-425b-82fc-dec8553bdb52.xml, WriteDumpFile, WriteDumpFile method [Windows Debugging], WriteDumpFile method [Windows Debugging],IDebugClient interface, WriteDumpFile method [Windows Debugging],IDebugClient2 interface, WriteDumpFile method [Windows Debugging],IDebugClient3 interface, WriteDumpFile method [Windows Debugging],IDebugClient4 interface, WriteDumpFile method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::WriteDumpFile, dbgeng/IDebugClient3::WriteDumpFile, dbgeng/IDebugClient4::WriteDumpFile, dbgeng/IDebugClient5::WriteDumpFile, dbgeng/IDebugClient::WriteDumpFile, debugger.writedumpfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

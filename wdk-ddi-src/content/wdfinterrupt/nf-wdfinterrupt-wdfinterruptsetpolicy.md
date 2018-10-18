@@ -6,11 +6,8 @@ description: The WdfInterruptSetPolicy method specifies the interrupt priority, 
 old-location: wdf\wdfinterruptsetpolicy.htm
 tech.root: wdf
 ms.assetid: f61bef13-d9b5-4e6a-8657-995a1fcbf7b1
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFInterruptObjectRef_86b7a562-3aee-4c0b-9a68-f98a2b76588f.xml, WdfInterruptSetPolicy, WdfInterruptSetPolicy method, kmdf.wdfinterruptsetpolicy, wdf.wdfinterruptsetpolicy, wdfinterrupt/WdfInterruptSetPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
@@ -80,7 +77,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552355">WDF_INT
 
 ### -param TargetProcessorSet [in]
 
-A [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)-typed value that specifies a processor affinity for the interrupt, if the <i>Policy</i> parameter is set to <b>WdfIrqPolicySpecifiedProcessors</b>.
+A [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)-typed value that specifies a processor affinity for the interrupt, if the <i>Policy</i> parameter is set to <b>WdfIrqPolicySpecifiedProcessors</b>.
 
 
 ## -returns

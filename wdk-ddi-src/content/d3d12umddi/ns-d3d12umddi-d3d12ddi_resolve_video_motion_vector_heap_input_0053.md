@@ -4,11 +4,8 @@ title: D3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_INPUT_0053
 author: windows-driver-content
 description: 
 ms.assetid: 3ca50bea-cc8b-4dfb-99ab-88e37147733a
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_INPUT_0053, D3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_INPUT_0053, 
 req.header: d3d12umddi.h
 req.include-header:

@@ -6,11 +6,8 @@ description: The PO_FX_PERF_STATE_CHANGE structure contains information about a 
 old-location: kernel\po_fx_perf_state_change.htm
 tech.root: kernel
 ms.assetid: AE7A79DE-0202-4816-A36C-5A15C4539392
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PPO_FX_PERF_STATE_CHANGE, PO_FX_PERF_STATE_CHANGE, PO_FX_PERF_STATE_CHANGE structure [Kernel-Mode Driver Architecture], PPO_FX_PERF_STATE_CHANGE, PPO_FX_PERF_STATE_CHANGE structure pointer [Kernel-Mode Driver Architecture], _PO_FX_PERF_STATE_CHANGE, kernel.po_fx_perf_state_change, wdm/PO_FX_PERF_STATE_CHANGE, wdm/PPO_FX_PERF_STATE_CHANGE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
 req.include-header: Wudfwdm.h

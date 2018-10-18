@@ -6,11 +6,8 @@ description: The FwpsNetBufferListRemoveContext0 function removes the context as
 old-location: netvista\fwpsnetbufferlistremovecontext0.htm
 tech.root: netvista
 ms.assetid: bd3aa1a2-3ff5-47e4-93f6-5cb2022ec630
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FwpsNetBufferListRemoveContext0, FwpsNetBufferListRemoveContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsNetBufferListRemoveContext0, netvista.fwpsnetbufferlistremovecontext0, wfp_ref_2_funct_3_fwps_J-Q_320b667d-7f90-4a71-acff-e5b0b216ea3c.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpsk.h
 req.include-header: Fwpsk.h

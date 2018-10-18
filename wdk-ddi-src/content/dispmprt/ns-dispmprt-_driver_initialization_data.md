@@ -6,11 +6,8 @@ description: The DRIVER_INITIALIZATION_DATA structure contains pointers to funct
 old-location: display\driver_initialization_data.htm
 tech.root: display
 ms.assetid: 3ab00f9c-7ce9-41bf-85c5-96be31d19719
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: "*PDRIVER_INITIALIZATION_DATA, DRIVER_INITIALIZATION_DATA, DRIVER_INITIALIZATION_DATA structure [Display Devices], DmStructs_7b91bf58-dfda-4c7c-ae26-21e577bdc152.xml, PDRIVER_INITIALIZATION_DATA, PDRIVER_INITIALIZATION_DATA structure pointer [Display Devices], _DRIVER_INITIALIZATION_DATA, display.driver_initialization_data, dispmprt/DRIVER_INITIALIZATION_DATA, dispmprt/PDRIVER_INITIALIZATION_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dispmprt.h
 req.include-header: Dispmprt.h

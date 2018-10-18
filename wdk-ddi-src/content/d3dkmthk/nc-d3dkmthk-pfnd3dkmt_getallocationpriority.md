@@ -4,11 +4,8 @@ title: PFND3DKMT_GETALLOCATIONPRIORITY
 author: windows-driver-content
 description: The Pfnd3dkmtGetallocationpriority callback function gets allocation priority.
 ms.assetid: 896340a0-408c-41ec-81e2-f720f10e20d7
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The Pfnd3dkmtGetallocationpriority callback function gets allocation priority.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_GETALLOCATIONPRIORITY Pfnd3dkmtGetallocationpriority; 

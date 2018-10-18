@@ -6,11 +6,8 @@ description: The IPrintCoreHelper::EnumConstrainedOptions method provides a list
 old-location: print\iprintcorehelper_enumconstrainedoptions.htm
 tech.root: print
 ms.assetid: 16a9417c-6d47-49fc-9ba9-e2b522255942
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: EnumConstrainedOptions, EnumConstrainedOptions method [Print Devices], EnumConstrainedOptions method [Print Devices],IPrintCoreHelper interface, IPrintCoreHelper interface [Print Devices],EnumConstrainedOptions method, IPrintCoreHelper.EnumConstrainedOptions, IPrintCoreHelper::EnumConstrainedOptions, prcomoem/IPrintCoreHelper::EnumConstrainedOptions, print.iprintcorehelper_enumconstrainedoptions, print_unidrv-pscript_allplugins_7a6e6657-1af2-4719-998a-a41090bee035.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

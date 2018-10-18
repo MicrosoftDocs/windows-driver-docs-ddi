@@ -6,11 +6,8 @@ description: The MmPageEntireDriver routine causes all of a driver's code and da
 old-location: kernel\mmpageentiredriver.htm
 tech.root: kernel
 ms.assetid: 467a8e64-c4ed-4bd0-81f8-b792367d33bf
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: MmPageEntireDriver, MmPageEntireDriver routine [Kernel-Mode Driver Architecture], k106_2e2de4d8-8b4f-4f8b-9451-f4f1ea8a5325.xml, kernel.mmpageentiredriver, wdm/MmPageEntireDriver
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

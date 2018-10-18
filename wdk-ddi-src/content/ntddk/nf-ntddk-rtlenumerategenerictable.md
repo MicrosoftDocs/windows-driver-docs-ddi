@@ -6,11 +6,8 @@ description: The RtlEnumerateGenericTable routine is used to enumerate the eleme
 old-location: ifsk\rtlenumerategenerictable.htm
 tech.root: ifsk
 ms.assetid: 53a5348c-71d1-4d58-82bf-1f8bf8daff90
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RtlEnumerateGenericTable, RtlEnumerateGenericTable routine [Installable File System Drivers], ifsk.rtlenumerategenerictable, ntddk/RtlEnumerateGenericTable, rtlref_5fb7c196-aee1-4dcc-a39c-587472a2fbe9.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h

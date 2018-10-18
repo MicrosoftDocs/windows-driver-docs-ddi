@@ -6,11 +6,8 @@ description: Retrieves the current level of backlight reduction that is applied 
 old-location: display\dxgkddigetbacklightreduction.htm
 tech.root: display
 ms.assetid: 018cb4a0-e71d-407e-8fe9-716312099b73
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGK_BRIGHTNESS_GET_BACKLIGHT_REDUCTION, DXGK_BRIGHTNESS_GET_BACKLIGHT_REDUCTION callback, DxgkDdiGetBacklightReduction, DxgkDdiGetBacklightReduction callback function [Display Devices], display.dxgkddigetbacklightreduction, dispmprt/DxgkDdiGetBacklightReduction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dispmprt.h
 req.include-header: Dispmprt.h

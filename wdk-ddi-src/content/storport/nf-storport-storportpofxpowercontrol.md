@@ -6,11 +6,8 @@ description: The StorPortPoFxPowerControl routine sends a power control request 
 old-location: storage\storportpofxpowercontrol.htm
 tech.root: storage
 ms.assetid: 1EBEBD5D-E0E5-48A3-8CDA-C336575E53C6
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: StorPortPoFxPowerControl, StorPortPoFxPowerControl routine [Storage Devices], storage.storportpofxpowercontrol, storport/StorPortPoFxPowerControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: 

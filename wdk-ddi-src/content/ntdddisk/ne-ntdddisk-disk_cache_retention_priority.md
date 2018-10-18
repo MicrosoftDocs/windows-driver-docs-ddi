@@ -6,11 +6,8 @@ description: The DISK_CACHE_RETENTION_PRIORITY enumeration is used in conjunctio
 old-location: storage\disk_cache_retention_priority.htm
 tech.root: storage
 ms.assetid: 238d0b22-bd35-4e8d-9bb5-283af2bbb75b
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: DISK_CACHE_RETENTION_PRIORITY, DISK_CACHE_RETENTION_PRIORITY enumeration [Storage Devices], EqualPriority, KeepPrefetchedData, KeepReadData, ntdddisk/DISK_CACHE_RETENTION_PRIORITY, ntdddisk/EqualPriority, ntdddisk/KeepPrefetchedData, ntdddisk/KeepReadData, storage.disk_cache_retention_priority, structs-disk_19939b68-659e-4546-8419-7e1e141b8291.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h

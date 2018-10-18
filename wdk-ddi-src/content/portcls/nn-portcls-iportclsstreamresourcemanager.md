@@ -6,11 +6,8 @@ description: IPortClsStreamResourceManager is used to manage the registration of
 old-location: audio\iportclsstreamresourcemanager.htm
 tech.root: audio
 ms.assetid: FC13CB2E-2027-4BCE-AEEE-346CB0784819
-ms.author: windowsdriverdev
 ms.date: 3/19/2018
 ms.keywords: IPortClsStreamResourceManager, IPortClsStreamResourceManager interface [Audio Devices], IPortClsStreamResourceManager interface [Audio Devices], described, audio.iportclsstreamresourcemanager, portcls/IPortClsStreamResourceManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: portcls.h
 req.include-header:

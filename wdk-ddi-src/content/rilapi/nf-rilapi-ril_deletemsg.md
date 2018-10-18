@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_deletemsg.htm
 tech.root: netvista
 ms.assetid: bda4663b-0aae-481a-8bd6-f242c6e6b1de
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RIL_DeleteMsg, RIL_DeleteMsg method [Network Drivers Starting with Windows Vista], netvista.ril_deletemsg, rilapi/RIL_DeleteMsg
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rilapi.h
 req.include-header: 

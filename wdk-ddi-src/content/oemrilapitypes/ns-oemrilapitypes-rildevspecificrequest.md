@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rildevspecificrequest.htm
 tech.root: netvista
 ms.assetid: 36e2ae4b-cc2f-4980-95fe-25a38a1c07b1
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*LPRILDEVSPECIFICREQUEST, LPRILDEVSPECIFICREQUEST, LPRILDEVSPECIFICREQUEST structure pointer [Network Drivers Starting with Windows Vista], RILDEVSPECIFICREQUEST, RILDEVSPECIFICREQUEST structure [Network Drivers Starting with Windows Vista], netvista.rildevspecificrequest, oemrilapitypes/LPRILDEVSPECIFICREQUEST, oemrilapitypes/RILDEVSPECIFICREQUEST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: oemrilapitypes.h
 req.include-header: 

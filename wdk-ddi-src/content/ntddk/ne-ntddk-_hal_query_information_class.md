@@ -4,12 +4,9 @@ title: _HAL_QUERY_INFORMATION_CLASS
 author: windows-driver-content
 description:  The values are reserved for internal use.
 ms.assetid: 1512ba13-b7a4-4418-bccb-7a65ec5f43c6
-ms.author: windowsdriverdev
 ms.date: 09/30/2018
 ms.topic: enum
 ms.keywords: _HAL_QUERY_INFORMATION_CLASS, HAL_QUERY_INFORMATION_CLASS, *PHAL_QUERY_INFORMATION_CLASS, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: ntddk.h
 req.include-header:
 req.target-type:

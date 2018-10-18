@@ -6,11 +6,8 @@ description: The SerCx2CustomTransmitTransactionCreate method creates a custom-t
 old-location: serports\sercx2customtransmittransactioncreate.htm
 tech.root: serports
 ms.assetid: 1A308BD8-E28E-4618-99D0-55FBD6FA7CF4
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: 2/SerCx2CustomTransmitTransactionCreate, SerCx2CustomTransmitTransactionCreate, SerCx2CustomTransmitTransactionCreate method [Serial Ports], serports.sercx2customtransmittransactioncreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 
@@ -60,7 +57,7 @@ The <b>SerCx2CustomTransmitTransactionCreate</b> method creates a custom-transmi
 
 ### -param CustomTransmit [in]
 
-A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMTRANSMIT</a> handle to a custom-transmit object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265256">SerCx2CustomTransmitCreate</a> method to create this object.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMTRANSMIT</a> handle to a custom-transmit object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265256">SerCx2CustomTransmitCreate</a> method to create this object.
 
 
 ### -param CustomTransmitTransactionConfig [in]
@@ -173,7 +170,7 @@ For more information about creating custom-transmit-transaction objects, see <a 
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMTRANSMIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMTRANSMIT</a>
 
 
 

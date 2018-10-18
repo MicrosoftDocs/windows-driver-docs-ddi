@@ -6,11 +6,8 @@ description: The _BRB_L2CA_PING structure describes a request to ping a remote r
 old-location: bltooth\_brb_l2ca_ping.htm
 tech.root: bltooth
 ms.assetid: 699d2ea6-3bf3-457c-b05e-c45ec4c71fb6
-ms.author: windowsdriverdev
 ms.date: 4/27/2018
 ms.keywords: "_BRB_L2CA_PING, _BRB_L2CA_PING structure [Bluetooth Devices], bltooth._brb_l2ca_ping, bth_structs_40384235-0f47-4870-a6be-72e807ee439d.xml, bthddi/_BRB_L2CA_PING"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h

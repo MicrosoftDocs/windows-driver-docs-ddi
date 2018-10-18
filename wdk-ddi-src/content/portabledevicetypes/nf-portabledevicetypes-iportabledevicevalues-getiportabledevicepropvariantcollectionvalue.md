@@ -6,11 +6,8 @@ description: Retrieves an IPortableDevicePropVariantCollection value (type VT_UN
 old-location: wpddk\iportabledevicevalues_getiportabledevicepropvariantcollectionvalue.htm
 tech.root: wpd_dk
 ms.assetid: fd3f1a45-1787-4390-9d0e-2ed9295904bb
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: GetIPortableDevicePropVariantCollectionValue, GetIPortableDevicePropVariantCollectionValue method, GetIPortableDevicePropVariantCollectionValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetIPortableDevicePropVariantCollectionValue method, IPortableDeviceValues.GetIPortableDevicePropVariantCollectionValue, IPortableDeviceValues::GetIPortableDevicePropVariantCollectionValue, IPortableDeviceValuesGetIPortableDevicePropVariantCollectionValue, portabledevicetypes/IPortableDeviceValues::GetIPortableDevicePropVariantCollectionValue, wpddk.iportabledevicevalues_getiportabledevicepropvariantcollectionvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledevicetypes.h
 req.include-header: 

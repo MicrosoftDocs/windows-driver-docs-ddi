@@ -4,10 +4,7 @@ title: PropKeyFindKeyGetDouble function
 author: windows-driver-content
 description: This routine gets a double precision floating point value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
 ms.assetid: 8dc6e964-d55a-4b06-b571-985e1c302e84
-ms.author: windowsdriverdev
 ms.date: 08/08/18
-ms.prod: windows-hardware
-ms.technology: windows-devices
 tech.root: sensors
 ms.topic: function
 ms.keywords: PropKeyFindKeyGetDouble

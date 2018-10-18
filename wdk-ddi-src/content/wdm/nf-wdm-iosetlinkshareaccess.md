@@ -6,11 +6,8 @@ description: The IoSetLinkShareAccess routine sets the access rights for link sh
 old-location: kernel\iosetlinkshareaccess.htm
 tech.root: kernel
 ms.assetid: 206D74F6-09D5-4C04-8A0A-A7765E64BB27
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IoSetLinkShareAccess, IoSetLinkShareAccess function [Kernel-Mode Driver Architecture], kernel.iosetlinkshareaccess, wdm/IoSetLinkShareAccess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: 

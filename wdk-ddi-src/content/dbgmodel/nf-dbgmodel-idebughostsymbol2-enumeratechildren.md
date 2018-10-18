@@ -4,7 +4,6 @@ title: IDebugHostSymbol2::EnumerateChildren
 author: windows-driver-content
 description: The EnumerateChildren method returns an enumerator which will enumerate all children of a given symbol.
 ms.assetid: 498ad04b-feb3-4c5b-88fb-352110c0390e
-ms.author: windowsdriverdev
 ms.date: 09/20/2018 
 ms.topic: method
 ms.keywords: IDebugHostSymbol2::EnumerateChildren, EnumerateChildren, IDebugHostSymbol2.EnumerateChildren, IDebugHostSymbol2::EnumerateChildren, IDebugHostSymbol2.EnumerateChildren

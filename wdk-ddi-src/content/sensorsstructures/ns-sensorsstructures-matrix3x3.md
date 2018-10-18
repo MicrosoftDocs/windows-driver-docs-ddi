@@ -4,11 +4,8 @@ title: MATRIX3X3
 author: windows-driver-content
 description: Defines a 3x3 matrix.
 ms.assetid: 313cc2e2-544a-4c5e-a6fe-56443cf83f2f
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 tech.root: sensors
 ms.keywords: MATRIX3X3, MATRIX3X3, *PMATRIX3X3, 
 req.header: sensorsstructures.h

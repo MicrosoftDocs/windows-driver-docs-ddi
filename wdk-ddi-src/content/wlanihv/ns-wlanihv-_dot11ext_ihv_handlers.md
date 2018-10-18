@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11ext_ihv_handlers.htm
 tech.root: netvista
 ms.assetid: 6dacd330-45f1-46f8-b2bf-2006c89f664f
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*PDOT11EXT_IHV_HANDLERS, DOT11EXT_IHV_HANDLERS, DOT11EXT_IHV_HANDLERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_e072dcd6-e41c-4c08-b958-9302f62f02c1.xml, PDOT11EXT_IHV_HANDLERS, PDOT11EXT_IHV_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_HANDLERS, netvista.dot11ext_ihv_handlers, wlanihv/DOT11EXT_IHV_HANDLERS, wlanihv/PDOT11EXT_IHV_HANDLERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
@@ -59,7 +56,7 @@ The DOT11EXT_IHV_HANDLERS structure specifies a list of pointers to the IHV hand
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DOT11EXT_IHV_HANDLERS {
   DOT11EXTIHV_DEINIT_SERVICE            Dot11ExtIhvDeinitService;
   DOT11EXTIHV_INIT_ADAPTER              Dot11ExtIhvInitAdapter;
@@ -81,7 +78,7 @@ typedef struct _DOT11EXT_IHV_HANDLERS {
   DOT11EXTIHV_ONEX_INDICATE_RESULT      Dot11ExtIhvOnexIndicateResult;
   DOT11EXTIHV_CONTROL                   Dot11ExtIhvControl;
 } DOT11EXT_IHV_HANDLERS, *PDOT11EXT_IHV_HANDLERS;
-````
+```
 
 
 ## -struct-fields
@@ -263,7 +260,7 @@ All of the function pointers are required and must not be set to <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
    Functions</a>
 
 
@@ -292,7 +289,7 @@ All of the function pointers are required and must not be set to <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-extensibility-functions">Native 802.11 IHV
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-ihv-extensibility-functions">Native 802.11 IHV
    Extensibility Functions</a>
 
 

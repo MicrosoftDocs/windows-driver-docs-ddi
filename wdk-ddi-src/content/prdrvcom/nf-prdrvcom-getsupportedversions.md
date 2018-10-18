@@ -6,11 +6,8 @@ description: The IPrintTicketProvider::GetSupportedVersions method retrieves maj
 old-location: print\iprintticketprovider_getsupportedversions.htm
 tech.root: print
 ms.assetid: ea22cc52-f47b-4a54-b507-5963faa41c2d
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: GetSupportedVersions, GetSupportedVersions method [Print Devices], GetSupportedVersions method [Print Devices],IPrintTicketProvider interface, IPrintTicketProvider interface [Print Devices],GetSupportedVersions method, IPrintTicketProvider::GetSupportedVersions, prdrvcom/IPrintTicketProvider::GetSupportedVersions, print.iprintticketprovider_getsupportedversions, print_ticket-package_3c9ed7b7-a38f-49b2-a7fc-7fc78aa39a27.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: prdrvcom.h
 req.include-header: Prdrvcom.h

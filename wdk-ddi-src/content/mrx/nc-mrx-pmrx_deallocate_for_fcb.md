@@ -6,11 +6,8 @@ description: The MRxDeallocateForFcb routine is called by RDBSS to request that 
 old-location: ifsk\mrxdeallocateforfcb.htm
 tech.root: ifsk
 ms.assetid: 4347f481-cd8f-4a88-92e0-f6bc7a4b7ffb
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: MRxDeallocateForFcb, MRxDeallocateForFcb routine [Installable File System Drivers], PMRX_DEALLOCATE_FOR_FCB, ifsk.mrxdeallocateforfcb, mrx/MRxDeallocateForFcb, mrxref_02a9e4a3-db00-48e1-ac2e-cd6a47ae4c37.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: mrx.h
 req.include-header: Mrx.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The<i> MRxDeallocateForFcb</i> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that the network mini-redirector deallocate an FCB structure. This call is in response to a request to close a file system object.
+The<i> MRxDeallocateForFcb</i> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that the network mini-redirector deallocate an FCB structure. This call is in response to a request to close a file system object.
 
 
 ## -parameters

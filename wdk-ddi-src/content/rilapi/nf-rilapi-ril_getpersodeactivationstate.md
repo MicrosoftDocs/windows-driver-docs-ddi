@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_getpersodeactivationstate.htm
 tech.root: netvista
 ms.assetid: c82cfde4-f214-4722-8f59-d727ad5bfe7e
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RIL_GetPersoDeactivationState, RIL_GetPersoDeactivationState method [Network Drivers Starting with Windows Vista], netvista.ril_getpersodeactivationstate, rilapi/RIL_GetPersoDeactivationState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rilapi.h
 req.include-header: 

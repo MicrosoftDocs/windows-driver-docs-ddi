@@ -6,11 +6,8 @@ description: The FWPS_FIELDS_STREAM_V6 enumeration type specifies the data field
 old-location: netvista\fwps_fields_stream_v6.htm
 tech.root: netvista
 ms.assetid: a6fd200c-e573-4bca-aa0d-3e4717c7e81c
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FWPS_FIELDS_STREAM_V6, FWPS_FIELDS_STREAM_V6 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELDS_STREAM_V6_, FWPS_FIELD_STREAM_V6_DIRECTION, FWPS_FIELD_STREAM_V6_FLAGS, FWPS_FIELD_STREAM_V6_IP_LOCAL_ADDRESS, FWPS_FIELD_STREAM_V6_IP_LOCAL_ADDRESS_TYPE, FWPS_FIELD_STREAM_V6_IP_LOCAL_PORT, FWPS_FIELD_STREAM_V6_IP_REMOTE_ADDRESS, FWPS_FIELD_STREAM_V6_IP_REMOTE_PORT, FWPS_FIELD_STREAM_V6_MAX, fwpsk/FWPS_FIELDS_STREAM_V6, fwpsk/FWPS_FIELD_STREAM_V6_DIRECTION, fwpsk/FWPS_FIELD_STREAM_V6_FLAGS, fwpsk/FWPS_FIELD_STREAM_V6_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_STREAM_V6_IP_LOCAL_ADDRESS_TYPE, fwpsk/FWPS_FIELD_STREAM_V6_IP_LOCAL_PORT, fwpsk/FWPS_FIELD_STREAM_V6_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_STREAM_V6_IP_REMOTE_PORT, fwpsk/FWPS_FIELD_STREAM_V6_MAX, netvista.fwps_fields_stream_v6, wfp_ref_5_const_3_data_fields_77276444-32ee-40f1-a227-547aa7c2fd6c.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
@@ -52,7 +49,7 @@ req.typenames: FWPS_FIELDS_STREAM_V6
 
 The FWPS_FIELDS_STREAM_V6 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_STREAM_V6 and FWPS_LAYER_STREAM_V6_DISCARD 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layers</a>.
+  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layers</a>.
 
 
 ## -enum-fields
@@ -108,6 +105,10 @@ A bitwise OR of a combination of filtering condition flags. For information abou
 
 ### -field FWPS_FIELD_STREAM_V6_COMPARTMENT_ID
 
+The compartment that the network interface belongs to.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_STREAM_V6_MAX
 

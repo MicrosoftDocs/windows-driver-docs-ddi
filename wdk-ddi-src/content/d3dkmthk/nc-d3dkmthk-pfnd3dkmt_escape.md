@@ -4,11 +4,8 @@ title: PFND3DKMT_ESCAPE
 author: windows-driver-content
 description: The Pfnd3dkmtEscape callback function shares info with the kernel mode display driver.
 ms.assetid: a23f8430-f752-440b-a7bf-f07eede5e889
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The Pfnd3dkmtEscape callback function shares info with the kernel mode display d
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_ESCAPE Pfnd3dkmtEscape; 

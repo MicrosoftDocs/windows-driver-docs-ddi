@@ -6,11 +6,8 @@ description: The FWPS_FIELDS_ALE_AUTH_LISTEN_V6 enumeration type specifies the d
 old-location: netvista\fwps_fields_ale_auth_listen_v6.htm
 tech.root: netvista
 ms.assetid: 8225be6d-b7a4-44db-bdff-bc223aa213c5
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FWPS_FIELDS_ALE_AUTH_LISTEN_V6, FWPS_FIELDS_ALE_AUTH_LISTEN_V6 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELDS_ALE_AUTH_LISTEN_V6_, FWPS_FIELD_ALE_AUTH_LISTEN_V6_ALE_APP_ID, FWPS_FIELD_ALE_AUTH_LISTEN_V6_ALE_PACKAGE_ID, FWPS_FIELD_ALE_AUTH_LISTEN_V6_ALE_USER_ID, FWPS_FIELD_ALE_AUTH_LISTEN_V6_FLAGS, FWPS_FIELD_ALE_AUTH_LISTEN_V6_INTERFACE_TYPE, FWPS_FIELD_ALE_AUTH_LISTEN_V6_IP_LOCAL_ADDRESS, FWPS_FIELD_ALE_AUTH_LISTEN_V6_IP_LOCAL_ADDRESS_TYPE, FWPS_FIELD_ALE_AUTH_LISTEN_V6_IP_LOCAL_INTERFACE, FWPS_FIELD_ALE_AUTH_LISTEN_V6_IP_LOCAL_PORT, FWPS_FIELD_ALE_AUTH_LISTEN_V6_LOCAL_INTERFACE_PROFILE_ID, FWPS_FIELD_ALE_AUTH_LISTEN_V6_MAX, FWPS_FIELD_ALE_AUTH_LISTEN_V6_SIO_FIREWALL_SOCKET_PROPERTY, FWPS_FIELD_ALE_AUTH_LISTEN_V6_TUNNEL_TYPE, fwpsk/FWPS_FIELDS_ALE_AUTH_LISTEN_V6, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_ALE_APP_ID, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_ALE_PACKAGE_ID, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_ALE_USER_ID, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_FLAGS, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_INTERFACE_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_IP_LOCAL_ADDRESS_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_IP_LOCAL_INTERFACE, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_IP_LOCAL_PORT, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_LOCAL_INTERFACE_PROFILE_ID, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_MAX, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_SIO_FIREWALL_SOCKET_PROPERTY, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_TUNNEL_TYPE, netvista.fwps_fields_ale_auth_listen_v6, wfp_ref_5_const_3_data_fields_2dfb65c6-8813-4193-bd8a-5fa5c2726633.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
@@ -52,7 +49,7 @@ req.typenames: FWPS_FIELDS_ALE_AUTH_LISTEN_V6
 
 The FWPS_FIELDS_ALE_AUTH_LISTEN_V6 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_ALE_AUTH_LISTEN_V6 and FWPS_LAYER_ALE_AUTH_LISTEN_V6_DISCARD 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layers</a>
+  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layers</a>
 
 
 
@@ -142,9 +139,17 @@ The package identifier is a security identifier (SID) that identifies the associ
 
 ### -field FWPS_FIELD_ALE_AUTH_LISTEN_V6_ALE_SECURITY_ATTRIBUTE_FQBN_VALUE
 
+The fully qualified binary name (FQBN) value of the application.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_ALE_AUTH_LISTEN_V6_COMPARTMENT_ID
 
+The compartment that the network interface belongs to.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_ALE_AUTH_LISTEN_V6_MAX
 

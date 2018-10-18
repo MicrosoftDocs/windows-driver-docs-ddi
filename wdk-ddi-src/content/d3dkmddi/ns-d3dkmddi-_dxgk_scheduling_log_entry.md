@@ -4,11 +4,8 @@ title: _DXGK_SCHEDULING_LOG_ENTRY
 author: windows-driver-content
 description: Contains information about a scheduling log entry.
 ms.assetid: 66e7d724-9605-486a-b02a-62378cf95319
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGK_SCHEDULING_LOG_ENTRY, DXGK_SCHEDULING_LOG_ENTRY,
 req.header: d3dkmddi.h
 req.include-header:

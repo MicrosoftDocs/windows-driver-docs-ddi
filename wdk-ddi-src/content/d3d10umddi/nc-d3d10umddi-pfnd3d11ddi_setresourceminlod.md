@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The SetResourceMinLOD function sets the minimum level of detail (LOD) for a resource.
 old-location: display\setresourceminlod.htm
 ms.assetid: a54b2fa7-c0c2-42b7-ae89-7984282d4af4
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: PFND3D11DDI_SETRESOURCEMINLOD, PFND3D11DDI_SETRESOURCEMINLOD callback, SetResourceMinLOD, SetResourceMinLOD callback function [Display Devices], UserModeDisplayDriverDx11_Functions_3c56a9a6-a13e-4377-a997-e84af3ff12ef.xml, d3d10umddi/SetResourceMinLOD, display.setresourceminlod
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

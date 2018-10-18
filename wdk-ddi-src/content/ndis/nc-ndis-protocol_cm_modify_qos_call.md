@@ -6,11 +6,8 @@ description: The ProtocolCmModifyCallQoS function is required.
 old-location: netvista\protocolcmmodifycallqos.htm
 tech.root: netvista
 ms.assetid: 24523677-9f5a-4109-8484-95883a4d1bbf
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: PROTOCOL_CM_MODIFY_QOS_CALL, PROTOCOL_CM_MODIFY_QOS_CALL callback, ProtocolCmModifyCallQoS, ProtocolCmModifyCallQoS callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_208d4e81-1f4f-46e9-9b78-7724504b68bc.xml, ndis/ProtocolCmModifyCallQoS, netvista.protocolcmmodifycallqos
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

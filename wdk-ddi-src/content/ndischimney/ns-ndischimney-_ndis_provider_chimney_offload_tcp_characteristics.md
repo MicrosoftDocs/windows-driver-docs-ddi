@@ -6,11 +6,8 @@ description: The NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure spe
 old-location: netvista\ndis_provider_chimney_offload_tcp_characteristics.htm
 tech.root: netvista
 ms.assetid: 3eabbad5-b84b-4034-a0b6-d4d515cbc117
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, PNDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, ndischimney/NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, ndischimney/PNDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, netvista.ndis_provider_chimney_offload_tcp_characteristics, tcp_chim_struct_f701c1a0-6057-4cf3-ae27-6e72352b4829.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
@@ -125,7 +122,7 @@ The entry point of the driver's
 To register its TCP chimney offload-specific entry points, an offload target calls the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a> function
     in the context of the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a> function. To the 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">MiniportSetOptions</a> function. To the 
     <b>NdisSetOptionalHandlers</b> function, the offload target passes a pointer to the
     NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure.
 
@@ -137,7 +134,7 @@ To register its TCP chimney offload-specific entry points, an offload target cal
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
 
 

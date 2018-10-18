@@ -6,11 +6,8 @@ description: The IdeHwReset miniport driver routine resets the channel.Note  T
 old-location: storage\idehwreset.htm
 tech.root: storage
 ms.assetid: 722810c8-ddf2-4910-8cf3-af3511d8c167
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IDE_HW_RESET, IdeHwReset, IdeHwReset routine [Storage Devices], atartns_c3c999ac-3737-48ab-be9b-99c83013b878.xml, irb/IdeHwReset, storage.idehwreset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: irb.h
 req.include-header: Irb.h
@@ -51,7 +48,7 @@ req.typenames:
 
 
 The <b><i>IdeHwReset</i></b> miniport driver routine resets the channel.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 

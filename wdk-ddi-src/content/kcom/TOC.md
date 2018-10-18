@@ -1,6 +1,0 @@
-# [Streaming media devices](../_stream/index.md)
-## [Kcom.h](index.md)
-### [KoCreateInstance function](../kcom/nf-kcom-kocreateinstance.md)
-### [KoDeviceInitialize function](../kcom/nf-kcom-kodeviceinitialize.md)
-### [KoDriverInitialize function](../kcom/nf-kcom-kodriverinitialize.md)
-### [KoRelease function](../kcom/nf-kcom-korelease.md)

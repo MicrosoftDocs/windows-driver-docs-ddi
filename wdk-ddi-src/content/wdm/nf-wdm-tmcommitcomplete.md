@@ -6,11 +6,8 @@ description: The TmCommitComplete routine notifies KTM that the calling resource
 old-location: kernel\tmcommitcomplete.htm
 tech.root: kernel
 ms.assetid: a5f55966-98d9-42ec-9af6-254d2cb9a5bd
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: TmCommitComplete, TmCommitComplete routine [Kernel-Mode Driver Architecture], kernel.tmcommitcomplete, ktm_ref_e6357c60-303b-4d42-a0a2-1ff3766acbb9.xml, wdm/TmCommitComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

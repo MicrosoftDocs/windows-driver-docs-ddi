@@ -6,11 +6,8 @@ description: The EvtSerCx2SystemDmaTransmitInitializeTransaction event callback 
 old-location: serports\evtsercx2systemdmatransmitinitializetransaction.htm
 tech.root: serports
 ms.assetid: 2B6B33D9-1756-4C0B-91BB-AB36D4B6A913
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: 2/EvtSerCx2SystemDmaTransmitInitializeTransaction, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_INITIALIZE_TRANSACTION, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_INITIALIZE_TRANSACTION callback, EvtSerCx2SystemDmaTransmitInitializeTransaction, EvtSerCx2SystemDmaTransmitInitializeTransaction callback function [Serial Ports], serports.evtsercx2systemdmatransmitinitializetransaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sercx.h
 req.include-header: 
@@ -60,7 +57,7 @@ The <i>EvtSerCx2SystemDmaTransmitInitializeTransaction</i> event callback functi
 
 ### -param SystemDmaTransmit [in]
 
-A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a> handle to a system-DMA-transmit object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265288">SerCx2SystemDmaTransmitCreate</a> method to create this object.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a> handle to a system-DMA-transmit object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265288">SerCx2SystemDmaTransmitCreate</a> method to create this object.
 
 
 ### -param Length [in]
@@ -133,7 +130,7 @@ The <b>EVT_SERCX2_SYSTEM_DMA_TRANSMIT_INITIALIZE_TRANSACTION</b> function type i
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a>
 
 
 

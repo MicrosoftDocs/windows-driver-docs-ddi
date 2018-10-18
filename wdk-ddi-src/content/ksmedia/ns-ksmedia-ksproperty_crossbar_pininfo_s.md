@@ -6,11 +6,8 @@ description: The KSPROPERTY_CROSSBAR_PININFO_S structure describes the crossbar 
 old-location: stream\ksproperty_crossbar_pininfo_s.htm
 tech.root: stream
 ms.assetid: 7ddef9cf-aa2f-4383-b37f-8c2f3e9c99d6
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_CROSSBAR_PININFO_S, KSPROPERTY_CROSSBAR_PININFO_S, KSPROPERTY_CROSSBAR_PININFO_S structure [Streaming Media Devices], PKSPROPERTY_CROSSBAR_PININFO_S, PKSPROPERTY_CROSSBAR_PININFO_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CROSSBAR_PININFO_S, ksmedia/PKSPROPERTY_CROSSBAR_PININFO_S, stream.ksproperty_crossbar_pininfo_s, vidcapstruct_a8532e73-5b8e-4ed1-a27e-e151642fff2a.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksmedia.h
 req.include-header: Ksmedia.h

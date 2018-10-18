@@ -4,11 +4,8 @@ title: PFND3D12DDI_MAPHEAP
 author: windows-driver-content
 description: Map heap.
 ms.assetid: 2187b018-e5d2-4a82-8232-ba9f1ae3a988
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Map heap.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_MAPHEAP Pfnd3d12ddiMapheap; 

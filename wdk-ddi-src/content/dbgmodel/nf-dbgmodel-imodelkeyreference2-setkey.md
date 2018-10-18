@@ -4,7 +4,6 @@ title: IModelKeyReference2::SetKey
 author: windows-driver-content
 description: The SetKey method on a key reference behaves as the SetKey method on IModelObject would. 
 ms.assetid: 0be584a7-9024-4b41-8957-d506b3b7b965
-ms.author: windowsdriverdev
 ms.date: 08/14/2018
 ms.topic: method
 ms.keywords: IModelKeyReference2::SetKey, SetKey, IModelKeyReference2.SetKey, IModelKeyReference2::SetKey, IModelKeyReference2.SetKey

@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilmsgmwidetaillist.htm
 tech.root: netvista
 ms.assetid: 026cf4d6-2f34-4911-8ec6-0b4170463e4d
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*LPRILMSGMWIDETAILLIST, RILMSGMWIDETAILLIST, RILMSGMWIDETAILLIST structure [Network Drivers Starting with Windows Vista], netvista.rilmsgmwidetaillist, ntddrilapitypes/RILMSGMWIDETAILLIST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h

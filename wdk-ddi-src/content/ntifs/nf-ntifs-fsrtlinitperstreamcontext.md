@@ -6,11 +6,8 @@ description: The FsRtlInitPerStreamContext macro initializes a filter driver con
 old-location: ifsk\fsrtlinitperstreamcontext.htm
 tech.root: ifsk
 ms.assetid: eea0c2d7-0338-4f34-acae-6ab869011696
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FsRtlInitPerStreamContext, FsRtlInitPerStreamContext function [Installable File System Drivers], fsrtlref_13a48f5e-d3e7-49fa-8c4c-bb2d061f2b2a.xml, ifsk.fsrtlinitperstreamcontext, ntifs/FsRtlInitPerStreamContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ntifs.h
 req.include-header: Ntifs.h

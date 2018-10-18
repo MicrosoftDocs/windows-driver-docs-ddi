@@ -6,11 +6,8 @@ description: The ZwQueryInformationEnlistment routine retrieves information abou
 old-location: kernel\zwqueryinformationenlistment.htm
 tech.root: kernel
 ms.assetid: d8aa5227-7150-4fb1-a8ab-cb0f8ae4f74a
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: NtQueryInformationEnlistment, ZwQueryInformationEnlistment, ZwQueryInformationEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwqueryinformationenlistment, ktm_ref_f9039d82-41a8-4696-9393-cb9ea0d8d279.xml, wdm/NtQueryInformationEnlistment, wdm/ZwQueryInformationEnlistment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

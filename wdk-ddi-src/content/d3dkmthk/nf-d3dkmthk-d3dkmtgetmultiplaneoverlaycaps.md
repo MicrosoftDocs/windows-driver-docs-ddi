@@ -4,7 +4,6 @@ title: D3DKMTGetMultiPlaneOverlayCaps function
 author: windows-driver-content
 description: Retrieves multiplane overlay capabilities.
 ms.assetid: dbd72a04-5c62-4707-97ca-3efeded2df1e
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: D3DKMTGetMultiPlaneOverlayCaps

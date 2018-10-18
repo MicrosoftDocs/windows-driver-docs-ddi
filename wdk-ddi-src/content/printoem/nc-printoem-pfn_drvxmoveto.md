@@ -6,11 +6,8 @@ description: The DrvXMoveTo function is obsolete.
 old-location: print\drvxmoveto.htm
 tech.root: print
 ms.assetid: 20bebaea-a542-4cdd-8661-4c452a50efe5
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: DrvXMoveTo, DrvXMoveTo callback function [Print Devices], PFN_DrvXMoveTo, PFN_DrvXMoveTo callback, print.drvxmoveto, print_obsoletefunctions_a9d1de5a-71ef-4533-ab48-5e56a113dfb9.xml, printoem/DrvXMoveTo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: printoem.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: Call the NdisCopyFromNetBufferToNetBuffer function to copy data fro
 old-location: netvista\ndiscopyfromnetbuffertonetbuffer.htm
 tech.root: netvista
 ms.assetid: b760e176-3ef7-4495-89c7-ec6b8bb3ed30
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisCopyFromNetBufferToNetBuffer, NdisCopyFromNetBufferToNetBuffer function [Network Drivers Starting with Windows Vista], ndis/NdisCopyFromNetBufferToNetBuffer, ndis_netbuf_functions_ref_28d10afe-d78a-49ef-8c9c-f90b87d4eeb1.xml, netvista.ndiscopyfromnetbuffertonetbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

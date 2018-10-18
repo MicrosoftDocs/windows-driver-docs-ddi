@@ -6,11 +6,8 @@ description: RxpDereferenceNetFcb decrements the reference count on an FCB struc
 old-location: ifsk\rxpdereferencenetfcb.htm
 tech.root: ifsk
 ms.assetid: 6e59a1c7-ddd4-40a6-8e75-879cbef010db
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RxpDereferenceNetFcb, RxpDereferenceNetFcb function [Installable File System Drivers], fcb/RxpDereferenceNetFcb, ifsk.rxpdereferencenetfcb, rxref_5b67e32d-12f2-4c52-9099-16505e00233f.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fcb.h
 req.include-header: Fcb.h
@@ -102,7 +99,7 @@ On checked builds, <b>RxpDereferenceNetFcb</b> causes the system to ASSERT if th
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fcb-structure">The FCB Structure</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-fcb-structure">The FCB Structure</a>
  
 
  

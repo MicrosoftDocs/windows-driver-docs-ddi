@@ -6,11 +6,8 @@ description: The KeLowerIrql routine restores the IRQL on the current processor 
 old-location: kernel\kelowerirql.htm
 tech.root: kernel
 ms.assetid: 95598654-71dd-41cc-a663-b0bcaee77687
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: KeLowerIrql, KeLowerIrql routine [Kernel-Mode Driver Architecture], k105_06c56235-3b9e-4413-aadb-91e86898121d.xml, kernel.kelowerirql, wdm/KeLowerIrql
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
@@ -51,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>KeLowerIrql</b> routine restores the IRQL on the current processor to its original value. For information about IRQLs, see [Managing Hardware Priorities](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/managing-hardware-priorities).
+The <b>KeLowerIrql</b> routine restores the IRQL on the current processor to its original value. For information about IRQLs, see [Managing Hardware Priorities](https://docs.microsoft.com/windows-hardware/drivers/kernel/managing-hardware-priorities).
 
 
 ## -parameters

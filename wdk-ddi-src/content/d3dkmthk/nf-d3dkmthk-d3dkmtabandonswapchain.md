@@ -4,7 +4,6 @@ title: D3DKMTAbandonSwapChain function
 author: windows-driver-content
 description: Abandons the swap chain.
 ms.assetid: 1746dbcd-a799-41d2-a4bc-ae485ea1362c
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: D3DKMTAbandonSwapChain

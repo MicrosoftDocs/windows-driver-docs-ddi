@@ -6,11 +6,8 @@ description: The GET_ISO_URB_SIZE macro returns the number of bytes required to 
 old-location: buses\get_iso_urb_size.htm
 tech.root: usbref
 ms.assetid: 37e96d41-3a8c-429a-a8fd-463f9be5555f
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: GET_ISO_URB_SIZE, GET_ISO_URB_SIZE macro [Buses], buses.get_iso_urb_size, usbdlib/GET_ISO_URB_SIZE, usbfunc_949a4f14-4bc8-4ba1-821c-f81c6bcec0fa.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: usbdlib.h
 req.include-header: Usbdlib.h
@@ -72,7 +69,7 @@ The <b>GET_ISO_URB_SIZE</b> macro returns the number of bytes required to hold a
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/hardwarecompatlist">Routines for USB Client Drivers</a>
+<a href="https://docs.microsoft.com/windows/iot-core/learn-about-hardware/hardwarecompatlist">Routines for USB Client Drivers</a>
 
 
 

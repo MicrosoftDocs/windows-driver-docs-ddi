@@ -4,7 +4,6 @@ title: D3DKMTInvalidateCache function
 author: windows-driver-content
 description: Invalidates cache.
 ms.assetid: 06ebaf46-0a44-41da-9e36-2d86fe23c517
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: D3DKMTInvalidateCache

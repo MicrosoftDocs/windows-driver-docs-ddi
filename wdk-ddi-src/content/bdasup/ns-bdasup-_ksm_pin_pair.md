@@ -6,11 +6,8 @@ description: The KSM_PIN_PAIR structure describes a method request to retrieve t
 old-location: stream\ksm_pin_pair.htm
 tech.root: stream
 ms.assetid: a38e1215-4689-4b75-9a32-4d6570694b77
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PKSM_PIN_PAIR, KSM_PIN_PAIR, KSM_PIN_PAIR structure [Streaming Media Devices], PKSM_PIN_PAIR, PKSM_PIN_PAIR structure pointer [Streaming Media Devices], _KSM_PIN_PAIR, bdaref_4d2071d5-ba64-4026-95a9-0763dc2f13cf.xml, bdasup/KSM_PIN_PAIR, bdasup/PKSM_PIN_PAIR, stream.ksm_pin_pair"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bdasup.h
 req.include-header: Bdasup.h

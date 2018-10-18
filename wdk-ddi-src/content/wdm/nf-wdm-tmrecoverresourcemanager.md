@@ -6,11 +6,8 @@ description: The TmRecoverResourceManager routine tries to recover the transacti
 old-location: kernel\tmrecoverresourcemanager.htm
 tech.root: kernel
 ms.assetid: d327ea40-ce4d-4218-a367-919240a5a60c
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: TmRecoverResourceManager, TmRecoverResourceManager routine [Kernel-Mode Driver Architecture], kernel.tmrecoverresourcemanager, ktm_ref_e3f0b5e1-18fc-4edf-9270-f6d01e458166.xml, wdm/TmRecoverResourceManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntifs.h

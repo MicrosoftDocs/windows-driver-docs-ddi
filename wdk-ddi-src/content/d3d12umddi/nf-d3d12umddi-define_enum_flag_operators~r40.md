@@ -4,7 +4,6 @@ title: DEFINE_ENUM_FLAG_OPERATORS function
 author: windows-driver-content
 description: Defines operator overloads to enable bit operations on enum values that are used to define flags.
 ms.assetid: 5cb4b764-b51d-4df5-8f08-1cf6246bedf0
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: function
 ms.keywords: DEFINE_ENUM_FLAG_OPERATORS

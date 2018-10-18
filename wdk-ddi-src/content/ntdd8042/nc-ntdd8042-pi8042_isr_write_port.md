@@ -6,11 +6,8 @@ description: The PI8042_ISR_WRITE_PORT-typed callback routine writes data to an 
 old-location: hid\pi8042_isr_write_port.htm
 tech.root: hid
 ms.assetid: deded3fb-f0b3-4af5-b8b4-03658293b0fc
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: I8042IsrWritePort, I8042IsrWritePort callback function [Human Input Devices], PI8042_ISR_WRITE_PORT, PI8042_ISR_WRITE_PORT callback, hid.pi8042_isr_write_port, i8042ref_775d438e-5883-455b-86c4-2ce28099598f.xml, ntdd8042/I8042IsrWritePort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ntdd8042.h
 req.include-header: Ntdd8042.h

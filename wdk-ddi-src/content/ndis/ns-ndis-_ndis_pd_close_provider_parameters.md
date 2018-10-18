@@ -6,11 +6,8 @@ description: This structure represents the parameters that are used when calling
 old-location: netvista\ndis_pd_close_provider_parameters.htm
 tech.root: netvista
 ms.assetid: 9C33CA12-E725-4634-A1EC-0A919987BA6E
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NDIS_PD_CLOSE_PROVIDER_PARAMETERS, NDIS_PD_CLOSE_PROVIDER_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_PD_CLOSE_PROVIDER_PARAMETERS, ndis/NDIS_PD_CLOSE_PROVIDER_PARAMETERS, netvista.ndis_pd_close_provider_parameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndis.h
 req.include-header: 

@@ -4,12 +4,9 @@ title: _D3DDDI_QUERYREGISTRY_TYPE
 author: windows-driver-content
 description: Used to query the registry type.
 ms.assetid: c01641d0-ff58-4e3a-9f2e-e8918c84b4b5
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: enum
 ms.keywords: _D3DDDI_QUERYREGISTRY_TYPE, D3DDDI_QUERYREGISTRY_TYPE,
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dukmdt.h
 req.include-header:
 req.target-type:

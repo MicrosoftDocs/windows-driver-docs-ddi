@@ -6,11 +6,8 @@ description: The WcsEnumColorProfilesSize function returns the size, in bytes, o
 old-location: print\wcsenumcolorprofilessize.htm
 tech.root: print
 ms.assetid: bcd9c781-aa44-4e90-9290-c9f13b192cae
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: WcsEnumColorProfilesSize, WcsEnumColorProfilesSize function [Print Devices], colorfnc_dec9b73e-e492-4fed-841f-bbc0c8a5f225.xml, icm/WcsEnumColorProfilesSize, print.wcsenumcolorprofilessize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: icm.h
 req.include-header:

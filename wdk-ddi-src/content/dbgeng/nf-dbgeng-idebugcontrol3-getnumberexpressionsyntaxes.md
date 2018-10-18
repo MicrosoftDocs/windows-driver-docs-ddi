@@ -6,11 +6,8 @@ description: The GetNumberExpressionSyntaxes method returns the number of expres
 old-location: debugger\getnumberexpressionsyntaxes.htm
 tech.root: debugger
 ms.assetid: eb96dd47-300a-49b7-b3c3-ee3bcb6662ba
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetNumberExpressionSyntaxes, GetNumberExpressionSyntaxes method [Windows Debugging], GetNumberExpressionSyntaxes method [Windows Debugging],IDebugControl3 interface, IDebugControl3 interface [Windows Debugging],GetNumberExpressionSyntaxes method, IDebugControl3.GetNumberExpressionSyntaxes, IDebugControl3::GetNumberExpressionSyntaxes, IDebugControl_af12dddf-1d15-4abf-8500-8beab99b69ea.xml, dbgeng/IDebugControl3::GetNumberExpressionSyntaxes, debugger.getnumberexpressionsyntaxes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

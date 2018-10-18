@@ -6,11 +6,8 @@ description: The VideoPortProtectWCMemory callback routine protects Write Combin
 old-location: display\videoportprotectwcmemory.htm
 tech.root: display
 ms.assetid: 0cee4f4d-4d9c-44be-94ad-459000f2adb1
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: PROTECT_WC_MEMORY, PROTECT_WC_MEMORY callback, VideoPortProtectWCMemory, VideoPortProtectWCMemory callback function [Display Devices], VideoPort_Functions_5aead504-6c27-4b86-95e0-b4ec1b2b3e7d.xml, display.videoportprotectwcmemory, video/VideoPortProtectWCMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: video.h
 req.include-header: Video.h

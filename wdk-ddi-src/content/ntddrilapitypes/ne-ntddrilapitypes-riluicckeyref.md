@@ -6,11 +6,8 @@ description: This enumeration describes the RILUICCAPPTYPE.
 old-location: netvista\riluicckeyref.htm
 tech.root: netvista
 ms.assetid: 7812008b-867f-4b17-b715-7a1f10c38368
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: RILUICCKEYREF, RILUICCKEYREF enumeration [Network Drivers Starting with Windows Vista], RIL_UICCKEYREF_ALW, RIL_UICCKEYREF_NEV, RIL_UICCKEYREF_PIN1, RIL_UICCKEYREF_PIN2, RIL_UICCKEYREF_UPIN, netvista.riluicckeyref, rilapitypes/RILUICCKEYREF, rilapitypes/RIL_UICCKEYREF_ALW, rilapitypes/RIL_UICCKEYREF_NEV, rilapitypes/RIL_UICCKEYREF_PIN1, rilapitypes/RIL_UICCKEYREF_PIN2, rilapitypes/RIL_UICCKEYREF_UPIN
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
@@ -56,7 +53,7 @@ req.typenames: RILUICCKEYREF
 ## -syntax
 
 
-````
+```cpp
 enum RILUICCKEYREF {
   RIL_UICCKEYREF_ALW   = 0x00,
   RIL_UICCKEYREF_PIN1  = 0x01,
@@ -65,7 +62,7 @@ enum RILUICCKEYREF {
   RIL_UICCKEYREF_NEV   = 0xff
 
 };
-````
+```
 
 
 ## -enum-fields

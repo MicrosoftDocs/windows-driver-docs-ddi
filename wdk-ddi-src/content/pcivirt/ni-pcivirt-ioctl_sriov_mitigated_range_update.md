@@ -6,11 +6,8 @@ description: The IOCTL_SRIOV_MITIGATED_RANGE_UPDATE request indicates that the v
 old-location: pci\ioctl-sriov-mitigated-range-update.htm
 tech.root: PCI
 ms.assetid: f49e6d9e-0b62-4742-9868-1717f8482d9a
-ms.author: windowsdriverdev
 ms.date: 2/24/2018
 ms.keywords: IOCTL_SRIOV_MITIGATED_RANGE_UPDATE, IOCTL_SRIOV_MITIGATED_RANGE_UPDATE control code [Buses], PCI.ioctl-sriov-mitigated-range-update, pcivirt/IOCTL_SRIOV_MITIGATED_RANGE_UPDATE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: pcivirt.h
 req.include-header:

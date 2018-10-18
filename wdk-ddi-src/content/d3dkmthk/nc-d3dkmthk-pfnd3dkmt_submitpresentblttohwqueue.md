@@ -4,11 +4,8 @@ title: PFND3DKMT_SUBMITPRESENTBLTTOHWQUEUE
 author: windows-driver-content
 description: Implemented by the client driver to submit a present Blt to hardware queue.
 ms.assetid: 779315a3-96ce-493a-82b3-63c8b9d289c3
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to submit a present Blt to hardware queue.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SUBMITPRESENTBLTTOHWQUEUE Pfnd3dkmtSubmitpresentblttohwqueue;

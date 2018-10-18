@@ -6,11 +6,8 @@ description: The IoCreateSystemThread routine creates a system thread that execu
 old-location: kernel\iocreatesystemthread.htm
 tech.root: kernel
 ms.assetid: B2879353-3917-46AA-89CC-A20F0BB78BC4
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IoCreateSystemThread, IoCreateSystemThread routine [Kernel-Mode Driver Architecture], kernel.iocreatesystemthread, wdm/IoCreateSystemThread
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

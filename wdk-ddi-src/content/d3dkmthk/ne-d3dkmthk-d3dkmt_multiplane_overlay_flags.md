@@ -4,12 +4,9 @@ title: D3DKMT_MULTIPLANE_OVERLAY_FLAGS
 author: windows-driver-content
 description: Multiplane overlay flags.
 ms.assetid: 015949bd-aa42-462a-b9d8-8579bd32c34b
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: D3DKMT_MULTIPLANE_OVERLAY_FLAGS, D3DKMT_MULTIPLANE_OVERLAY_FLAGS, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

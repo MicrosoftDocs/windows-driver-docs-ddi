@@ -6,11 +6,8 @@ description: The IOCTL_SERIAL_SET_CHARS request sets the special characters that
 old-location: serports\ioctl_serial_set_chars.htm
 tech.root: serports
 ms.assetid: f792bd01-19e1-4f15-917a-19ad46e7a4a9
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: IOCTL_SERIAL_SET_CHARS, IOCTL_SERIAL_SET_CHARS control, IOCTL_SERIAL_SET_CHARS control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_CHARS, serports.ioctl_serial_set_chars, serref_57af2187-3244-4b5d-a096-684050127a24.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddser.h
 req.include-header: Ntddser.h
@@ -102,7 +99,7 @@ None.
 
 The <b>Information</b> member is set to zero.
 
-The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. A status of STATUS_INVALID_PARAMETER indicates that <b>XoffChar</b> equals <b>XonChar</b>, or that one of them equals the handshake flow control escape character.
+The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. A status of STATUS_INVALID_PARAMETER indicates that <b>XoffChar</b> equals <b>XonChar</b>, or that one of them equals the handshake flow control escape character.
 
 
 ## -see-also

@@ -4,11 +4,8 @@ title: PFND3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
 author: windows-driver-content
 description: Implemented by the client driver to submit a wait on the hardware queue.
 ms.assetid: 0f4b3b58-85e3-420f-9e14-9eca73c391b5
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to submit a wait on the hardware queue.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE Pfnd3dkmtSubmitwaitforsyncobjectstohwqueue;

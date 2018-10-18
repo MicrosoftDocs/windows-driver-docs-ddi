@@ -6,11 +6,8 @@ description: The Read method reads data from an incoming MIDI stream.
 old-location: audio\iminiportmidistream_read.htm
 tech.root: audio
 ms.assetid: 448dc408-c47f-4c8b-8baf-a831c69c3020
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: IMiniportMidiStream interface [Audio Devices],Read method, IMiniportMidiStream.Read, IMiniportMidiStream::Read, Read, Read method [Audio Devices], Read method [Audio Devices],IMiniportMidiStream interface, audio.iminiportmidistream_read, audmp-routines_35ce63a1-ab31-4758-887a-9043e1f65915.xml, portcls/IMiniportMidiStream::Read
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: Portcls.h

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The DXGK_QUERYSEGMENTOUT structure describes memory-segment information that the display miniport driver should return from a call to its DxgkDdiQueryAdapterInfo function.
 old-location: display\dxgk_querysegmentout.htm
 ms.assetid: df640b7a-865a-4a8b-94be-ebc60e44cf72
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGK_QUERYSEGMENTOUT, DXGK_QUERYSEGMENTOUT structure [Display Devices], DmStructs_69650838-cd41-4786-aa3c-b2617b7d97b4.xml, _DXGK_QUERYSEGMENTOUT, d3dkmddi/DXGK_QUERYSEGMENTOUT, display.dxgk_querysegmentout
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

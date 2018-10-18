@@ -4,11 +4,8 @@ title: *PFN_SENSORSCXSENSORDATAREADY
 author: windows-driver-content
 description: Notifies the class extension that the driver has retrieved data.
 ms.assetid: 3f3740d2-5c45-483f-9ed4-5d4b65726705
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: sensorscx.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Notifies the class extension that the driver has retrieved data.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 *PFN_SENSORSCXSENSORDATAREADY *PfnSensorscxsensordataready; 

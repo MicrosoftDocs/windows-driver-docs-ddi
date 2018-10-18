@@ -6,11 +6,8 @@ description: The DOT11_WFD_SCAN_TYPE enumeration indicates the type of scan used
 old-location: netvista\dot11_wfd_scan_type.htm
 tech.root: netvista
 ms.assetid: E7F76E93-79B8-48AE-A1D1-E3215E2402F8
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*PDOT11_WFD_SCAN_TYPE, DOT11_WFD_SCAN_TYPE, DOT11_WFD_SCAN_TYPE enumeration [Network Drivers Starting with Windows Vista], _DOT11_WFD_SCAN_TYPE, dot11_wfd_scan_type_active, dot11_wfd_scan_type_auto, dot11_wfd_scan_type_passive, netvista.dot11_wfd_scan_type, windot11/DOT11_WFD_SCAN_TYPE, windot11/dot11_wfd_scan_type_active, windot11/dot11_wfd_scan_type_auto, windot11/dot11_wfd_scan_type_passive"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: windot11.h
 req.include-header:
@@ -58,13 +55,13 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef enum _DOT11_WFD_SCAN_TYPE {
   dot11_wfd_scan_type_active   = 1,
   dot11_wfd_scan_type_passive  = 2,
   dot11_wfd_scan_type_auto     = 3
 } DOT11_WFD_SCAN_TYPE;
-````
+```
 
 
 ## -enum-fields

@@ -6,11 +6,8 @@ description: The GPIO_CONNECT_IO_PINS_MODE enumeration indicates whether a set o
 old-location: gpio\gpio_connect_io_pins_mode.htm
 tech.root: GPIO
 ms.assetid: 17E98D35-8C63-4EEC-B8DD-896FA2B084A8
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PGPIO_CONNECT_IO_PINS_MODE, ConnectModeInput, ConnectModeInvalid, ConnectModeMaximum, ConnectModeOutput, GPIO.gpio_connect_io_pins_mode, GPIO_CONNECT_IO_PINS_MODE, GPIO_CONNECT_IO_PINS_MODE enumeration [Parallel Ports], _GPIO_CONNECT_IO_PINS_MODE, gpioclx/ConnectModeInput, gpioclx/ConnectModeInvalid, gpioclx/ConnectModeMaximum, gpioclx/ConnectModeOutput, gpioclx/GPIO_CONNECT_IO_PINS_MODE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: gpioclx.h
 req.include-header: 

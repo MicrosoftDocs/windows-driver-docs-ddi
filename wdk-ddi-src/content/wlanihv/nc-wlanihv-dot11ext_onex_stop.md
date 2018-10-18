@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extstoponex.htm
 tech.root: netvista
 ms.assetid: b4893698-47ae-4888-9dcd-0dbdf051266b
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: DOT11EXT_ONEX_STOP, Dot11ExtStopOneX, Dot11ExtStopOneX callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_fcc1f11d-938e-431e-8327-42d34fedff04.xml, netvista.dot11extstoponex, wlanihv/Dot11ExtStopOneX
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
@@ -60,11 +57,11 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```cpp
 DWORD WINAPI * Dot11ExtStopOneX(
   _In_opt_ HANDLE hDot11SvcHandle
 );
-````
+```
 
 
 ## -parameters
@@ -128,7 +125,7 @@ After the IHV Extensions DLL calls
 </li>
 </ul>
 For more information about using the 802.1X module for authentication, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/interface-to-the-native-802-11-802-1x-module">Interface to the Native
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/interface-to-the-native-802-11-802-1x-module">Interface to the Native
     802.11 802.1X Module</a>.
 
 

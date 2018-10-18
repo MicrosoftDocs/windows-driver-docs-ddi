@@ -6,11 +6,8 @@ description: The WriteToHardware method is used internally by the framework. Do 
 old-location: wdf\iwdfdevice3_writetohardware.htm
 tech.root: wdf
 ms.assetid: 55FBE72C-E74E-4116-9602-6D491592350F
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IWDFDevice3 interface,WriteToHardware method, IWDFDevice3.WriteToHardware, IWDFDevice3::WriteToHardware, WriteToHardware, WriteToHardware method, WriteToHardware method,IWDFDevice3 interface, umdf.iwdfdevice3_writetohardware, wdf.iwdfdevice3_writetohardware, wudfddi/IWDFDevice3::WriteToHardware
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: 
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>WriteToHardware</b> method is used internally by the framework. Do not use.
 

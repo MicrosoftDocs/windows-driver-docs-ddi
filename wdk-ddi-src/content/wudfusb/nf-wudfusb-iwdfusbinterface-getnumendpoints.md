@@ -6,11 +6,8 @@ description: The GetNumEndPoints method retrieves the number of endpoints (pipes
 old-location: wdf\iwdfusbinterface_getnumendpoints.htm
 tech.root: wdf
 ms.assetid: 60ec8b38-8ab2-45d8-92ab-5943fd9bba79
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: GetNumEndPoints, GetNumEndPoints method, GetNumEndPoints method,IWDFUsbInterface interface, IWDFUsbInterface interface,GetNumEndPoints method, IWDFUsbInterface.GetNumEndPoints, IWDFUsbInterface::GetNumEndPoints, UMDFUSBref_ae1352c4-217e-49fd-9275-6c80103af753.xml, umdf.iwdfusbinterface_getnumendpoints, wdf.iwdfusbinterface_getnumendpoints, wudfusb/IWDFUsbInterface::GetNumEndPoints
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetNumEndPoints</b> method retrieves the number of endpoints (pipes) on a USB interface.
 

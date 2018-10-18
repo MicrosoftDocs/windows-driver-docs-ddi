@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Specifies driver-specific data for the extended Microsoft DirectX Video Acceleration (DXVA) decoding function that is provided by a call to the VideoDecoderExtension function.
 old-location: display\d3d11_1ddiarg_videodecoderextension.htm
 ms.assetid: d11a6be1-f723-47eb-b131-e1b02451e18a
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3D11_1DDIARG_VIDEODECODEREXTENSION, D3D11_1DDIARG_VIDEODECODEREXTENSION structure [Display Devices], d3d10umddi/D3D11_1DDIARG_VIDEODECODEREXTENSION, display.d3d11_1ddiarg_videodecoderextension
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

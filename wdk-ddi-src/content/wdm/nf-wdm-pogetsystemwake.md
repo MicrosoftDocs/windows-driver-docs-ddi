@@ -6,11 +6,8 @@ description: The PoGetSystemWake routine determines whether a specified IRP has 
 old-location: kernel\pogetsystemwake.htm
 tech.root: kernel
 ms.assetid: f2e6bcd6-ed6b-4c88-af96-768284bddb24
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: PoGetSystemWake, PoGetSystemWake routine [Kernel-Mode Driver Architecture], kernel.pogetsystemwake, portn_0762df5c-0956-4561-9984-83c680bdd764.xml, wdm/PoGetSystemWake
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

@@ -6,11 +6,8 @@ description: The NdisMDeregisterDmaChannel function releases a miniport driver's
 old-location: netvista\ndismderegisterdmachannel.htm
 tech.root: netvista
 ms.assetid: 1581cbfd-bdab-40ed-9978-f60ec220c17a
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisMDeregisterDmaChannel, NdisMDeregisterDmaChannel function [Network Drivers Starting with Windows Vista], dma_ref_8babcd45-1946-4928-a0a2-2fc0871b9f90.xml, ndis/NdisMDeregisterDmaChannel, netvista.ndismderegisterdmachannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

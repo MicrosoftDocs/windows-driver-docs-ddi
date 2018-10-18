@@ -6,11 +6,8 @@ description: Gets the current volume level that is applied to the audio stream.
 old-location: audio\iminiportstreamaudioenginenode_getstreamchannelvolume.htm
 tech.root: audio
 ms.assetid: 0BD6FCB7-1705-4343-AD41-7362FE095ECB
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: GetStreamChannelVolume, GetStreamChannelVolume method [Audio Devices], GetStreamChannelVolume method [Audio Devices],IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices],GetStreamChannelVolume method, IMiniportStreamAudioEngineNode.GetStreamChannelVolume, IMiniportStreamAudioEngineNode::GetStreamChannelVolume, audio.iminiportstreamaudioenginenode_getstreamchannelvolume, portcls/IMiniportStreamAudioEngineNode::GetStreamChannelVolume
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: 

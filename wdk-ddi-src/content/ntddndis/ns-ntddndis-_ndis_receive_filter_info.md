@@ -6,11 +6,8 @@ description: The NDIS_RECEIVE_FILTER_INFO structure contains information about a
 old-location: netvista\ndis_receive_filter_info.htm
 tech.root: netvista
 ms.assetid: 12029cfd-58d0-4621-8cbc-c07e68db61b8
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNDIS_RECEIVE_FILTER_INFO, NDIS_RECEIVE_FILTER_INFO, NDIS_RECEIVE_FILTER_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_FILTER_INFO, PNDIS_RECEIVE_FILTER_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_FILTER_INFO, netvista.ndis_receive_filter_info, ntddndis/NDIS_RECEIVE_FILTER_INFO, ntddndis/PNDIS_RECEIVE_FILTER_INFO, virtual_machine_queue_ref_4c711292-ce17-4eb9-a051-c32f8ad6f49e.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ndis.h
@@ -126,7 +123,7 @@ A receive filter identifier. The filter identifier
 The <b>NDIS_RECEIVE_FILTER_INFO</b> structure is used with the 
     <a href="https://msdn.microsoft.com/32896b46-1143-4598-ad15-2eb4dbdea6e8">
     NDIS_RECEIVE_FILTER_INFO_ARRAY</a> structure for the 
-    OID request of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-filters">OID_RECEIVE_FILTER_ENUM_FILTERS</a>. This OID request enumerates receive filters that have been configured on the miniport driver. This includes packet coalescing receive filters or the receive filters configured on a  receive queue that is used in the VMQ or SR-IOV interface.
+    OID request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-enum-filters">OID_RECEIVE_FILTER_ENUM_FILTERS</a>. This OID request enumerates receive filters that have been configured on the miniport driver. This includes packet coalescing receive filters or the receive filters configured on a  receive queue that is used in the VMQ or SR-IOV interface.
 
 
 
@@ -145,7 +142,7 @@ The <b>NDIS_RECEIVE_FILTER_INFO</b> structure is used with the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-filters">OID_RECEIVE_FILTER_ENUM_FILTERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-enum-filters">OID_RECEIVE_FILTER_ENUM_FILTERS</a>
  
 
  

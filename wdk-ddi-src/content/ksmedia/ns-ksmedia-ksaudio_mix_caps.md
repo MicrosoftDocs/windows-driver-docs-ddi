@@ -6,11 +6,8 @@ description: The KSAUDIO_MIX_CAPS structure specifies the mixing capabilities of
 old-location: audio\ksaudio_mix_caps.htm
 tech.root: audio
 ms.assetid: d201fdce-ae56-4ba5-a947-e3e0cecc6e17
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: "*PKSAUDIO_MIX_CAPS, KSAUDIO_MIX_CAPS, KSAUDIO_MIX_CAPS structure [Audio Devices], PKSAUDIO_MIX_CAPS, PKSAUDIO_MIX_CAPS structure pointer [Audio Devices], aud-prop_5468df9e-d7f4-4449-a59f-694100f2f825.xml, audio.ksaudio_mix_caps, ksmedia/KSAUDIO_MIX_CAPS, ksmedia/PKSAUDIO_MIX_CAPS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksmedia.h
 req.include-header: Ksmedia.h

@@ -4,7 +4,6 @@ title: IDataModelManager2::RegisterModelForTypeSignature
 author: windows-driver-content
 description: The RegisterModelForTypeSignature method is the primary method that a caller utilizes to register a canonical visualizer for a given type (or set of types).
 ms.assetid: 41a6f6d2-749f-47e0-aad5-41ca41674320
-ms.author: windowsdriverdev
 ms.date: 09/11/2018
 ms.topic: method
 ms.keywords: IDataModelManager2::RegisterModelForTypeSignature, RegisterModelForTypeSignature, IDataModelManager2.RegisterModelForTypeSignature, IDataModelManager2::RegisterModelForTypeSignature, IDataModelManager2.RegisterModelForTypeSignature

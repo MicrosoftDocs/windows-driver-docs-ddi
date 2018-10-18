@@ -24,4 +24,4 @@ To develop Simple Peripheral Bus (SPB), you need these headers:
  * [spbcx.h](..\spbcx\index.md)
  * [spbfuncenum.h](..\spbfuncenum\index.md)
 
-For the programming guide, see [Simple Peripheral Bus (SPB)](https://docs.microsoft.com/en-us/windows-hardware/drivers/spb).
+For the programming guide, see [Simple Peripheral Bus (SPB)](https://docs.microsoft.com/windows-hardware/drivers/spb).

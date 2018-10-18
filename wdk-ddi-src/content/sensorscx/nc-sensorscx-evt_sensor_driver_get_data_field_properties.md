@@ -6,11 +6,8 @@ description: This callback function returns the properties of a given data field
 old-location: sensors\evtsensorgetdatafieldproperties.htm
 tech.root: sensors
 ms.assetid: E3BE0351-724E-4407-AA5B-D7AAEFE508D4
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES, EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES callback, EvtSensorGetDataFieldProperties, EvtSensorGetDataFieldProperties callback function [Sensor Devices], sensors.evtsensorgetdatafieldproperties, sensorscx/EvtSensorGetDataFieldProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sensorscx.h
 req.include-header: 

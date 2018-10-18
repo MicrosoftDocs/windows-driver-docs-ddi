@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The client driver's implementation of the EvtNetAdapterCreateRxQueue event callback function that sets up a receive (Rx) queue.
 tech.root: netvista
 ms.assetid: 30a51b5b-5da7-4cfa-aaff-433c39f90bd0
-ms.author: windowsdriverdev
 ms.date: 02/05/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: netadapter.h
 req.include-header:
 req.target-type: Universal

@@ -6,11 +6,8 @@ description: The FWPS_FIELDS_OUTBOUND_MAC_FRAME_NATIVE enumeration type specifie
 old-location: netvista\fwps_fields_outbound_mac_frame_native.htm
 tech.root: netvista
 ms.assetid: 71244290-3DCD-45AF-9EF0-AD1C9103A69C
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FWPS_FIELDS_OUTBOUND_MAC_FRAME_NATIVE, FWPS_FIELDS_OUTBOUND_MAC_FRAME_NATIVE enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELDS_OUTBOUND_MAC_FRAME_NATIVE_, FWPS_FIELD_OUTBOUND_MAC_FRAME_NATIVE_FLAGS, FWPS_FIELD_OUTBOUND_MAC_FRAME_NATIVE_INTERFACE, FWPS_FIELD_OUTBOUND_MAC_FRAME_NATIVE_INTERFACE_INDEX, FWPS_FIELD_OUTBOUND_MAC_FRAME_NATIVE_INTERFACE_TYPE, FWPS_FIELD_OUTBOUND_MAC_FRAME_NATIVE_MAX, FWPS_FIELD_OUTBOUND_MAC_FRAME_NATIVE_NDIS_MEDIA_TYPE, FWPS_FIELD_OUTBOUND_MAC_FRAME_NATIVE_NDIS_PHYSICAL_MEDIA_TYPE, FWPS_FIELD_OUTBOUND_MAC_FRAME_NATIVE_NDIS_PORT, fwpsk/FWPS_FIELDS_OUTBOUND_MAC_FRAME_NATIVE, fwpsk/FWPS_FIELD_OUTBOUND_MAC_FRAME_NATIVE_FLAGS, fwpsk/FWPS_FIELD_OUTBOUND_MAC_FRAME_NATIVE_INTERFACE, fwpsk/FWPS_FIELD_OUTBOUND_MAC_FRAME_NATIVE_INTERFACE_INDEX, fwpsk/FWPS_FIELD_OUTBOUND_MAC_FRAME_NATIVE_INTERFACE_TYPE, fwpsk/FWPS_FIELD_OUTBOUND_MAC_FRAME_NATIVE_MAX, fwpsk/FWPS_FIELD_OUTBOUND_MAC_FRAME_NATIVE_NDIS_MEDIA_TYPE, fwpsk/FWPS_FIELD_OUTBOUND_MAC_FRAME_NATIVE_NDIS_PHYSICAL_MEDIA_TYPE, fwpsk/FWPS_FIELD_OUTBOUND_MAC_FRAME_NATIVE_NDIS_PORT, netvista.fwps_fields_outbound_mac_frame_native
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
@@ -52,7 +49,7 @@ req.typenames: FWPS_FIELDS_OUTBOUND_MAC_FRAME_NATIVE
 
 The FWPS_FIELDS_OUTBOUND_MAC_FRAME_NATIVE enumeration type specifies the data field identifiers for the
   FWPS_LAYER_OUTBOUND_MAC_FRAME_NATIVE 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
+  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layer</a>.
 
 
 ## -enum-fields
@@ -92,9 +89,14 @@ The outbound MAC frame native NDIS port field.
 
 ### -field FWPS_FIELD_OUTBOUND_MAC_FRAME_NATIVE_L2_FLAGS
 
+A bitwise OR of Layer 2 (L2) flags. For a list of filtering condition flags, see [Filtering Condition Flags](https://docs.microsoft.com/windows/desktop/FWP/filtering-condition-flags-).
 
 ### -field FWPS_FIELD_OUTBOUND_MAC_FRAME_NATIVE_COMPARTMENT_ID
 
+The compartment that the network interface belongs to.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_OUTBOUND_MAC_FRAME_NATIVE_MAX
 

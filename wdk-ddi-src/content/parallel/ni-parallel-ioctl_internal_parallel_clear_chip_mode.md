@@ -6,11 +6,8 @@ description: The IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE request clears the oper
 old-location: parports\ioctl_internal_parallel_clear_chip_mode.htm
 tech.root: parports
 ms.assetid: bca93bca-96f6-46bb-ba24-9f39b5ad1ab4
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE, IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE control code [Parallel Ports], cisspd_912d58fe-f6f8-40c5-b4fe-e8237ea64c04.xml, parallel/IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE, parports.ioctl_internal_parallel_clear_chip_mode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: parallel.h
 req.include-header: Parallel.h
@@ -50,7 +47,7 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ##  Major Code:
 
 
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

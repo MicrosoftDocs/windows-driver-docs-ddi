@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_encap_entry.htm
 tech.root: netvista
 ms.assetid: d17547c5-47a3-4d10-b27f-6a3bbf7aad03
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*PDOT11_ENCAP_ENTRY, DOT11_ENCAP_ENTRY, DOT11_ENCAP_ENTRY structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_3304c37a-c08f-488e-a75d-d31d59a4a491.xml, PDOT11_ENCAP_ENTRY, PDOT11_ENCAP_ENTRY structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_encap_entry, windot11/DOT11_ENCAP_ENTRY, windot11/PDOT11_ENCAP_ENTRY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -59,12 +56,12 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef struct DOT11_ENCAP_ENTRY {
   USHORT usEtherType;
   USHORT usEncapType;
 } DOT11_ENCAP_ENTRY, *PDOT11_ENCAP_ENTRY;
-````
+```
 
 
 ## -struct-fields
@@ -111,7 +108,7 @@ The encapsulation that is defined through the IEEE 802.1h-1997 standard.
 
 
 The miniport driver returns an encapsulation list when it makes an
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
     NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</a> indication. The encapsulation list specified in the
     indication applies to the association with an access point (AP) in an infrastructure basic service set
     (BSS) network.
@@ -120,14 +117,14 @@ The miniport driver returns an encapsulation list when it makes an
     stations within an independent BSS network.</div>
 <div> </div>
 For more information about 802.11 packet payload encapsulation, see
-    <a href="https://technet.microsoft.com/en-us/library/cc757419">802.11 Payload Encapsulation</a>.
+    <a href="https://technet.microsoft.com/library/cc757419">802.11 Payload Encapsulation</a>.
 
 
 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
    NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</a>
 
 

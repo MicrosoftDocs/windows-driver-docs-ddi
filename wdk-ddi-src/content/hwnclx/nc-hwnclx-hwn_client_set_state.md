@@ -6,11 +6,8 @@ description: Implemented by the client driver to set hardware notification compo
 old-location: gpiobtn\hwn_client_set_state.htm
 tech.root: gpiobtn
 ms.assetid: 5d2ccc29-4022-467c-9f37-d49badcceba4
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PHWN_CLIENT_SET_STATE, *PHWN_CLIENT_SET_STATE callback function pointer, HWN_CLIENT_SET_STATE, HwnClientSetState, HwnClientSetState callback function, gpiobtn.hwn_client_set_state, hwnclx/HwnClientSetState"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: hwnclx.h
 req.include-header:
@@ -57,7 +54,7 @@ Implemented by the client driver to set hardware notification component state. I
 ## -prototype
 
 
-````
+```cpp
 HWN_CLIENT_SET_STATE HwnClientSetState;
 
 NTSTATUS HwnClientSetState(
@@ -69,7 +66,7 @@ NTSTATUS HwnClientSetState(
 { ... }
 
 typedef HWN_CLIENT_SET_STATE *PHWN_CLIENT_SET_STATE;
-````
+```
 
 
 ## -parameters
@@ -79,12 +76,12 @@ typedef HWN_CLIENT_SET_STATE *PHWN_CLIENT_SET_STATE;
 
 ### -param Context [in]
 
-Pointer to the client driver's context information. This memory space is available for use by the client driver. It is allocated as part of the framework object context space by <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/gpiobtn/create-a-hardware-notification-client-driver">HWN_CLIENT_REGISTRATION_PACKET</a> and  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-context-space">Framework Object Context Space</a>.
+Pointer to the client driver's context information. This memory space is available for use by the client driver. It is allocated as part of the framework object context space by <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/gpiobtn/create-a-hardware-notification-client-driver">HWN_CLIENT_REGISTRATION_PACKET</a> and  <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-context-space">Framework Object Context Space</a>.
 
 
 ### -param Buffer [in]
 
-Buffer of <i>BufferLength</i> bytes containing a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/gpiobtn/create-a-hardware-notification-client-driver">HWN_HEADER</a> structure including one or more <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/gpiobtn/create-a-hardware-notification-client-driver">HWN_SETTINGS</a> structures that specify the hardware notifications to be set.
+Buffer of <i>BufferLength</i> bytes containing a <a href="https://docs.microsoft.com/windows-hardware/drivers/gpiobtn/create-a-hardware-notification-client-driver">HWN_HEADER</a> structure including one or more <a href="https://docs.microsoft.com/windows-hardware/drivers/gpiobtn/create-a-hardware-notification-client-driver">HWN_SETTINGS</a> structures that specify the hardware notifications to be set.
 
 
 ### -param BufferLength [in]
@@ -111,14 +108,14 @@ Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriat
 
 
 
-Register your implementation of this callback function by setting the appropriate member of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/gpiobtn/create-a-hardware-notification-client-driver">HWN_CLIENT_REGISTRATION_PACKET</a> and then calling <a href="..\hwnclx\nf-hwnclx-hwnregisterclient.md">HwNRegisterClient</a>.
+Register your implementation of this callback function by setting the appropriate member of <a href="https://docs.microsoft.com/windows-hardware/drivers/gpiobtn/create-a-hardware-notification-client-driver">HWN_CLIENT_REGISTRATION_PACKET</a> and then calling <a href="..\hwnclx\nf-hwnclx-hwnregisterclient.md">HwNRegisterClient</a>.
 
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn789335">Hardware notifications support</a>
 
 
 

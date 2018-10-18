@@ -6,11 +6,8 @@ description: The IStiDevice::Diagnostic method executes diagnostic tests on a st
 old-location: image\istidevice_diagnostic.htm
 tech.root: image
 ms.assetid: eee5c6d7-17a3-461f-85e0-17f6b7114b19
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: Diagnostic, Diagnostic method [Imaging Devices], Diagnostic method [Imaging Devices],IStiDevice interface, IStiDevice interface [Imaging Devices],Diagnostic method, IStiDevice.Diagnostic, IStiDevice::Diagnostic, image.istidevice_diagnostic, sti/IStiDevice::Diagnostic, stifnc_68471629-529f-48c5-bcaf-8be60f5f50c0.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sti.h
 req.include-header: Sti.h

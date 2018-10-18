@@ -6,11 +6,8 @@ description: The FWPS_PACKET_LIST_FWP_INFORMATION0 structure defines Windows Fil
 old-location: netvista\fwps_packet_list_fwp_information0.htm
 tech.root: netvista
 ms.assetid: e2d3faf3-cd3b-4147-8ceb-5b3f0c257939
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FWPS_PACKET_LIST_FWP_INFORMATION0, FWPS_PACKET_LIST_FWP_INFORMATION0 structure [Network Drivers Starting with Windows Vista], FWPS_PACKET_LIST_FWP_INFORMATION0_, fwpsk/FWPS_PACKET_LIST_FWP_INFORMATION0, netvista.fwps_packet_list_fwp_information0, wfp_ref_3_struct_3_fwps_P-Z_ae770ad6-5c74-4954-98ca-ffb23f8dcc7c.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: fwpsk.h
 req.include-header: Fwpsk.h

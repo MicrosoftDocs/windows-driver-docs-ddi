@@ -6,11 +6,8 @@ description: The KsRecalculateStackDepth function recalculates the maximum stack
 old-location: stream\ksrecalculatestackdepth.htm
 tech.root: stream
 ms.assetid: 0b8f23a5-af8a-4b99-8f17-092076523914
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsRecalculateStackDepth, KsRecalculateStackDepth , KsRecalculateStackDepth function [Streaming Media Devices], ks/KsRecalculateStackDepth, ksfunc_745f6176-dc53-467f-885e-028da49b81a1.xml, stream.ksrecalculatestackdepth
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

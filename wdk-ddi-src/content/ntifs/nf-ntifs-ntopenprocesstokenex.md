@@ -6,11 +6,8 @@ description: The ZwOpenProcessTokenEx routine opens the access token associated 
 old-location: kernel\zwopenprocesstokenex.htm
 tech.root: kernel
 ms.assetid: 2ea6f764-b884-4764-a2ff-19d0170f9b31
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: NtOpenProcessTokenEx, ZwOpenProcessTokenEx, ZwOpenProcessTokenEx routine [Kernel-Mode Driver Architecture], k111_ab983257-9c27-4f73-af7c-d903de3a33d3.xml, kernel.zwopenprocesstokenex, ntifs/NtOpenProcessTokenEx, ntifs/ZwOpenProcessTokenEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

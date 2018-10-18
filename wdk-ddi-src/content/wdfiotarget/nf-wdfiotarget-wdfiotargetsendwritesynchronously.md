@@ -6,11 +6,8 @@ description: The WdfIoTargetSendWriteSynchronously method builds a write request
 old-location: wdf\wdfiotargetsendwritesynchronously.htm
 tech.root: wdf
 ms.assetid: a730ac71-2a9b-4667-88b5-7c84d0728d40
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFIOTargetRef_2d272a81-583d-4d22-888e-797ace9a134c.xml, WdfIoTargetSendWriteSynchronously, WdfIoTargetSendWriteSynchronously method, kmdf.wdfiotargetsendwritesynchronously, wdf.wdfiotargetsendwritesynchronously, wdfiotarget/WdfIoTargetSendWriteSynchronously
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
@@ -206,7 +203,7 @@ The driver must call <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 </li>
 </ol>
-For more information about forwarding an I/O request, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/forwarding-i-o-requests">Forwarding I/O Requests</a>.
+For more information about forwarding an I/O request, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/forwarding-i-o-requests">Forwarding I/O Requests</a>.
 
 Drivers often divide received I/O requests into smaller requests that they send to an I/O target, so your driver might create new requests.
 
@@ -228,7 +225,7 @@ Provide buffer space for the <b>WdfIoTargetSendWriteSynchronously</b> method's <
 
 Your driver can specify this buffer space as a locally allocated buffer, as a WDFMEMORY handle, or as a memory descriptor list (MDL). You can use whichever method is most convenient. 
 
-If necessary, the framework converts the buffer description to one that is correct for the I/O target's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">method for accessing data buffers</a>. 
+If necessary, the framework converts the buffer description to one that is correct for the I/O target's <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">method for accessing data buffers</a>. 
 
 The following techniques to specify buffer space are available:
 
@@ -292,7 +289,7 @@ Drivers can obtain the MDL that is associated with a received I/O request by cal
 </ol>
 Some I/O targets accept write requests that have a zero-length buffer. For such I/O targets, your driver can specify <b>NULL</b> for the <i>InputBuffer</i> parameter.
 
-For information about obtaining status information after an I/O request completes, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Obtaining Completion Information</a>.
+For information about obtaining status information after an I/O request completes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-i-o-requests">Obtaining Completion Information</a>.
 
 For more information about <b>WdfIoTargetSendWriteSynchronously</b>, see <a href="https://msdn.microsoft.com/3fa897f5-2de8-484b-becb-c2de23fb5e8c">Sending I/O Requests to General I/O Targets</a>.
 

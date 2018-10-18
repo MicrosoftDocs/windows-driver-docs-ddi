@@ -6,11 +6,8 @@ description: The FWPS_FIELDS_STREAM_PACKET_V4 enumeration type specifies the dat
 old-location: netvista\fwps_fields_stream_packet_v4.htm
 tech.root: netvista
 ms.assetid: 454d9cb6-f4a8-406b-8cc4-39d96796ffc4
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FWPS_FIELDS_STREAM_PACKET_V4, FWPS_FIELDS_STREAM_PACKET_V4 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELDS_STREAM_PACKET_V4_, FWPS_FIELD_STREAM_PACKET_V4_DIRECTION, FWPS_FIELD_STREAM_PACKET_V4_FLAGS, FWPS_FIELD_STREAM_PACKET_V4_INTERFACE_INDEX, FWPS_FIELD_STREAM_PACKET_V4_INTERFACE_TYPE, FWPS_FIELD_STREAM_PACKET_V4_IP_LOCAL_ADDRESS, FWPS_FIELD_STREAM_PACKET_V4_IP_LOCAL_INTERFACE, FWPS_FIELD_STREAM_PACKET_V4_IP_LOCAL_PORT, FWPS_FIELD_STREAM_PACKET_V4_IP_REMOTE_ADDRESS, FWPS_FIELD_STREAM_PACKET_V4_IP_REMOTE_PORT, FWPS_FIELD_STREAM_PACKET_V4_MAX, FWPS_FIELD_STREAM_PACKET_V4_SUB_INTERFACE_INDEX, FWPS_FIELD_STREAM_PACKET_V4_TUNNEL_TYPE, fwpsk/FWPS_FIELDS_STREAM_PACKET_V4, fwpsk/FWPS_FIELD_STREAM_PACKET_V4_DIRECTION, fwpsk/FWPS_FIELD_STREAM_PACKET_V4_FLAGS, fwpsk/FWPS_FIELD_STREAM_PACKET_V4_INTERFACE_INDEX, fwpsk/FWPS_FIELD_STREAM_PACKET_V4_INTERFACE_TYPE, fwpsk/FWPS_FIELD_STREAM_PACKET_V4_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_STREAM_PACKET_V4_IP_LOCAL_INTERFACE, fwpsk/FWPS_FIELD_STREAM_PACKET_V4_IP_LOCAL_PORT, fwpsk/FWPS_FIELD_STREAM_PACKET_V4_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_STREAM_PACKET_V4_IP_REMOTE_PORT, fwpsk/FWPS_FIELD_STREAM_PACKET_V4_MAX, fwpsk/FWPS_FIELD_STREAM_PACKET_V4_SUB_INTERFACE_INDEX, fwpsk/FWPS_FIELD_STREAM_PACKET_V4_TUNNEL_TYPE, netvista.fwps_fields_stream_packet_v4, wfp_ref_5_const_3_data_fields_c752002f-ca36-435a-9abb-5119e247258a.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
@@ -52,7 +49,7 @@ req.typenames: FWPS_FIELDS_STREAM_PACKET_V4
 
 The FWPS_FIELDS_STREAM_PACKET_V4 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_STREAM_PACKET_V4 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
+  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layer</a>.
 
 
 ## -enum-fields
@@ -128,6 +125,10 @@ The encapsulation method used by a tunnel if the
 
 ### -field FWPS_FIELD_STREAM_PACKET_V4_COMPARTMENT_ID
 
+The compartment that the network interface belongs to.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_STREAM_PACKET_V4_MAX
 

@@ -6,11 +6,8 @@ description: NDIS calls a protocol driver's ProtocolCloseAdapterCompleteEx funct
 old-location: netvista\protocolcloseadaptercompleteex.htm
 tech.root: netvista
 ms.assetid: 62cc047a-bc91-4e1e-817e-7fd509d4d90e
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: PROTOCOL_CLOSE_ADAPTER_COMPLETE_EX, PROTOCOL_CLOSE_ADAPTER_COMPLETE_EX callback, ProtocolCloseAdapterCompleteEx, ProtocolCloseAdapterCompleteEx callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolCloseAdapterCompleteEx, netvista.protocolcloseadaptercompleteex, protocol_functions_ref_ebd02bc7-54f9-4b38-a2a5-9db0b64f1747.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

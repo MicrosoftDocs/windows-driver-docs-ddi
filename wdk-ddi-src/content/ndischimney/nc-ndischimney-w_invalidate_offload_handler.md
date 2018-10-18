@@ -6,11 +6,8 @@ description: The MiniportInvalidateOffload function invalidates previously offlo
 old-location: netvista\miniportinvalidateoffload.htm
 tech.root: netvista
 ms.assetid: 58226149-daea-40aa-afb6-13ce615434b3
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: MiniportInvalidateOffload, MiniportInvalidateOffload callback function [Network Drivers Starting with Windows Vista], W_INVALIDATE_OFFLOAD_HANDLER, W_INVALIDATE_OFFLOAD_HANDLER callback, ndischimney/MiniportInvalidateOffload, netvista.miniportinvalidateoffload, tcp_chim_miniport_func_226472dd-905a-42ef-8251-b32acfa93f0b.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
@@ -103,23 +100,23 @@ The
 The tree passed to the 
     <i>MiniportInvalidateOffload</i> function contains only NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structures. The
     tree does not contain any 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570939">offload state structures</a>. That is,
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570939">offload state structures</a>. That is,
     there are no such structures following the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structures in memory.
 
 The NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structures in the tree indicate the state object to be
     invalidated. A non-NULL 
     <b>*MiniportOffloadContext</b> member points to a memory location containing a PVOID value that was
     supplied by the offload target when the state object was offloaded. For more information, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/storing-and-referencing-offloaded-state">Storing and Referencing
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/storing-and-referencing-offloaded-state">Storing and Referencing
     Offloaded State</a>. This PVOID value references the miniport offload context in which the offload
     target stores the state object to be invalidated.
 
 For information about an offload target's treatment of invalidated state objects, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-invalidated-state-objects">Treatment of Invalidated State
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/handling-invalidated-state-objects">Treatment of Invalidated State
     Objects</a>.
 
 Eventually, the host stack will 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/terminating-offload-state">terminate the offload of the invalidated
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/terminating-offload-state">terminate the offload of the invalidated
     state object</a>. However, until that time, the offload target owns the invalidated state object. The
     offload target must not free the resources for the invalidated state object until the host stack has
     terminated the offload of that state object. The offload target must not use the invalidated state object

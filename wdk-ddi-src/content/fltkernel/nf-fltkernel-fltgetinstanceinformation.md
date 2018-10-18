@@ -6,11 +6,8 @@ description: The FltGetInstanceInformation routine returns information about a m
 old-location: ifsk\fltgetinstanceinformation.htm
 tech.root: ifsk
 ms.assetid: eb8ba04a-dbf8-4964-8b45-2620447418b5
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_d476d1f7-fff3-45d1-91e9-25879ab9e90e.xml, FltGetInstanceInformation, FltGetInstanceInformation routine [Installable File System Drivers], fltkernel/FltGetInstanceInformation, ifsk.fltgetinstanceinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: FltKernel.h

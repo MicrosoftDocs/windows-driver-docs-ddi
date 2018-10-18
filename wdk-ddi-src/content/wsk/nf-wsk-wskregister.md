@@ -6,11 +6,8 @@ description: The WskRegister function registers a WSK application, given the app
 old-location: netvista\wskregister.htm
 tech.root: netvista
 ms.assetid: 340933ad-1a71-421c-b1e1-360aa9c441fd
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: WskRegister, WskRegister function [Network Drivers Starting with Windows Vista], netvista.wskregister, wsk/WskRegister, wskref_21a26aab-f817-457f-bfde-28bcf1e2c8d0.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wsk.h
 req.include-header: Wsk.h
@@ -53,7 +50,7 @@ req.typenames:
 
 The 
   <b>WskRegister</b> function registers a WSK application, given the application's WSK client 
-  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
   (NPI)</a>.
 
 
@@ -142,7 +139,7 @@ Using the
     available for compatibility.
 
 For more information about attaching a WSK application to the WSK subsystem, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
     Application</a>.
 
 

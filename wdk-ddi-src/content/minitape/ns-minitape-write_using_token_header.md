@@ -6,11 +6,8 @@ description: The WRITE_USING_TOKEN_HEADER structure describes the destination da
 old-location: storage\write_using_token_header.htm
 tech.root: storage
 ms.assetid: A46ED23A-7DB0-4792-B903-F748BCDAD55E
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PWRITE_USING_TOKEN_HEADER, PWRITE_USING_TOKEN_HEADER, PWRITE_USING_TOKEN_HEADER structure pointer [Storage Devices], WRITE_USING_TOKEN_HEADER, WRITE_USING_TOKEN_HEADER structure [Storage Devices], scsi/PWRITE_USING_TOKEN_HEADER, scsi/WRITE_USING_TOKEN_HEADER, storage.write_using_token_header"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: minitape.h
 req.include-header: Scsi.h, Minitape.h, Storport.h

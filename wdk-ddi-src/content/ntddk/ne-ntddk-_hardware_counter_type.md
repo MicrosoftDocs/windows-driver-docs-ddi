@@ -6,11 +6,8 @@ description: The HARDWARE_COUNTER_TYPE enumeration specifies the type of a hardw
 old-location: kernel\hardware_counter_type.htm
 tech.root: kernel
 ms.assetid: 837f5a55-ca07-4462-85d7-203d02df168c
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PHARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_TYPE enumeration [Kernel-Mode Driver Architecture], MaxHardwareCounterType, PHARDWARE_COUNTER_TYPE, PHARDWARE_COUNTER_TYPE enumeration pointer [Kernel-Mode Driver Architecture], PMCCounter, _HARDWARE_COUNTER_TYPE, kernel.hardware_counter_type, ntddk/HARDWARE_COUNTER_TYPE, ntddk/MaxHardwareCounterType, ntddk/PHARDWARE_COUNTER_TYPE, ntddk/PMCCounter, sysenum_861db9b8-cd2d-4cfe-ae99-5c292f28c420.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddk.h
 req.include-header: Winnt.h, Ntddk.h

@@ -4,12 +4,9 @@ title: _KMTQUERYADAPTERINFOTYPE
 author: windows-driver-content
 description: The available types of display adapters in the registry.
 ms.assetid: bb3888be-1948-4b72-b3f4-c04ff33f2573
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: enum
 ms.keywords: _KMTQUERYADAPTERINFOTYPE, KMTQUERYADAPTERINFOTYPE,
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

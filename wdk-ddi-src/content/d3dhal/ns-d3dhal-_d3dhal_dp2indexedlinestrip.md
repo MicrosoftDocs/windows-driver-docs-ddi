@@ -6,11 +6,8 @@ description: D3DHAL_DP2INDEXEDLINESTRIP is parsed from the command buffer by the
 old-location: display\d3dhal_dp2indexedlinestrip.htm
 tech.root: display
 ms.assetid: 92809162-c39e-4dbb-9ab1-a5b6535d5beb
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: "*LPD3DHAL_DP2INDEXEDLINESTRIP, D3DHAL_DP2INDEXEDLINESTRIP, D3DHAL_DP2INDEXEDLINESTRIP structure [Display Devices], LPD3DHAL_DP2INDEXEDLINESTRIP, LPD3DHAL_DP2INDEXEDLINESTRIP structure pointer [Display Devices], _D3DHAL_DP2INDEXEDLINESTRIP, d3dhal/D3DHAL_DP2INDEXEDLINESTRIP, d3dhal/LPD3DHAL_DP2INDEXEDLINESTRIP, d3dstrct_ab23071d-9180-48d0-b14c-7c8005652968.xml, display.d3dhal_dp2indexedlinestrip"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dhal.h
 req.include-header: D3dhal.h

@@ -6,11 +6,8 @@ description: The IPrintCoreHelper::GetOption method gets a specified option for 
 old-location: print\iprintcorehelper_getoption.htm
 tech.root: print
 ms.assetid: 515eed09-d386-4908-9d76-4e64930af5ab
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: GetOption, GetOption method [Print Devices], GetOption method [Print Devices],IPrintCoreHelper interface, IPrintCoreHelper interface [Print Devices],GetOption method, IPrintCoreHelper.GetOption, IPrintCoreHelper::GetOption, prcomoem/IPrintCoreHelper::GetOption, print.iprintcorehelper_getoption, print_unidrv-pscript_allplugins_38a01e42-9d70-47d1-9d3d-2b488af4c3f3.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

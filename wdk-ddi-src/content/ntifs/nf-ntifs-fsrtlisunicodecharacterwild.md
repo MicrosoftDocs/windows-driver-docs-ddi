@@ -6,11 +6,8 @@ description: The FsRtlIsUnicodeCharacterWild macro determines whether a Unicode 
 old-location: ifsk\fsrtlisunicodecharacterwild.htm
 tech.root: ifsk
 ms.assetid: 5e72aa2e-3aa6-49e5-b49f-339722060d5b
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FsRtlIsUnicodeCharacterWild, FsRtlIsUnicodeCharacterWild function [Installable File System Drivers], fsrtlref_90047321-d510-4139-bfcf-d2f48c126834.xml, ifsk.fsrtlisunicodecharacterwild, ntifs/FsRtlIsUnicodeCharacterWild
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ntifs.h
 req.include-header: Ntifs.h

@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_drainmodemlogs.htm
 tech.root: netvista
 ms.assetid: 2a9f3bb8-3de5-439c-86a3-7fdc6b025b8d
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RIL_DrainModemLogs, RIL_DrainModemLogs method [Network Drivers Starting with Windows Vista], netvista.ril_drainmodemlogs, rilapi/RIL_DrainModemLogs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rilapi.h
 req.include-header: 

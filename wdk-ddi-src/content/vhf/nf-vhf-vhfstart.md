@@ -6,11 +6,8 @@ description: The HID source driver calls this method to start the virtual HID de
 old-location: hid\vhfstart.htm
 tech.root: hid
 ms.assetid: F3DA4CBB-5749-4E7D-828F-398714575173
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: VhfStart, VhfStart method [Human Input Devices], hid.vhfstart, vhf/VhfStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vhf.h
 req.include-header: 

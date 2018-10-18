@@ -6,11 +6,8 @@ description: The BindDevice method binds a printer to a bidirectional printer co
 old-location: print\ibidispl2_ibidispl2__binddevice.htm
 tech.root: print
 ms.assetid: c5bd238d-4b85-4463-aa73-ff3a7798ccff
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: BIDI_ACCESS_ADMINISTRATOR, BIDI_ACCESS_USER, BindDevice, BindDevice method [Print Devices], BindDevice method [Print Devices],IBidiSpl2 interface, IBidiSpl2 interface [Print Devices],BindDevice method, IBidiSpl2.BindDevice, IBidiSpl2::BindDevice, _win32_IBidiSpl2_BindDevice, bidispl/IBidiSpl2::BindDevice, gdi.ibidispl2_ibidispl2__binddevice, print.ibidispl2_ibidispl2__binddevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bidispl.h
 req.include-header: 

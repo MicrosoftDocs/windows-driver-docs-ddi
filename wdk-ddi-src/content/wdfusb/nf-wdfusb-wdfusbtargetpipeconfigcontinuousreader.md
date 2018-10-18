@@ -6,11 +6,8 @@ description: The WdfUsbTargetPipeConfigContinuousReader method configures the fr
 old-location: wdf\wdfusbtargetpipeconfigcontinuousreader.htm
 tech.root: wdf
 ms.assetid: 56ed3c4f-bcfa-417d-a276-9934e3bc1666
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFUsbRef_80432bbe-cb71-4bd1-9c0b-a71ea1f5c809.xml, WdfUsbTargetPipeConfigContinuousReader, WdfUsbTargetPipeConfigContinuousReader method, kmdf.wdfusbtargetpipeconfigcontinuousreader, wdf.wdfusbtargetpipeconfigcontinuousreader, wdfusb/WdfUsbTargetPipeConfigContinuousReader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
@@ -182,7 +179,7 @@ After a driver has called <b>WdfUsbTargetPipeConfigContinuousReader</b>, the dri
 
 The framework sets the USBD_SHORT_TRANSFER_OK flag in its internal <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>. Setting this flag allows the last packet of a data transfer to be less than the maximum packet size.
 
-For more information about the <b>WdfUsbTargetPipeConfigContinuousReader</b> method and USB I/O targets, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/working-with-usb-pipes">Reading from a Pipe</a>.
+For more information about the <b>WdfUsbTargetPipeConfigContinuousReader</b> method and USB I/O targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/working-with-usb-pipes">Reading from a Pipe</a>.
 
 
 #### Examples

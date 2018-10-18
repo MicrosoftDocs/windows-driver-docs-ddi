@@ -6,11 +6,8 @@ description: This enumeration indicates the severity of the error.
 old-location: pos\unifiedposerrorseverity.htm
 tech.root: pos
 ms.assetid: a8c592fa-2736-49e4-8d4d-8729baef9c49
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: AssistanceRequired, DriverUnifiedPosErrorSeverity, DriverUnifiedPosErrorSeverity enumeration, Fatal, Recoverable, UnknownErrorSeverity, Unrecoverable, Warning, pointofservicecommontypes/ AssistanceRequired, pointofservicecommontypes/DriverUnifiedPosErrorSeverity, pointofservicecommontypes/Fatal, pointofservicecommontypes/Recoverable, pointofservicecommontypes/UnknownErrorSeverity, pointofservicecommontypes/Unrecoverable, pointofservicecommontypes/Warning, pos.unifiedposerrorseverity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h

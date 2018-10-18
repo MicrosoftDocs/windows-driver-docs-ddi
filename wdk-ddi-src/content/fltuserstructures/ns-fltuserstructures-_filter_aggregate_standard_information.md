@@ -6,11 +6,8 @@ description: The FILTER_AGGREGATE_STANDARD_INFORMATION structure contains inform
 old-location: ifsk\filter_aggregate_standard_information.htm
 tech.root: ifsk
 ms.assetid: 76703a53-45c1-4dfa-b8aa-4f73d4d84538
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: "*PFILTER_AGGREGATE_STANDARD_INFORMATION, FILTER_AGGREGATE_STANDARD_INFORMATION, FILTER_AGGREGATE_STANDARD_INFORMATION structure [Installable File System Drivers], FltSystemStructures_2b06b94c-69dc-4b0c-a9bc-56bba1592036.xml, PFILTER_AGGREGATE_STANDARD_INFORMATION, PFILTER_AGGREGATE_STANDARD_INFORMATION structure pointer [Installable File System Drivers], _FILTER_AGGREGATE_STANDARD_INFORMATION, fltuserstructures/FILTER_AGGREGATE_STANDARD_INFORMATION, fltuserstructures/PFILTER_AGGREGATE_STANDARD_INFORMATION, ifsk.filter_aggregate_standard_information"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: fltuserstructures.h
 req.include-header: FltUser.h, FltKernel.h

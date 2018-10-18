@@ -6,11 +6,8 @@ description: The KsPinAttachOrGate function connects Pin as an input to a previo
 old-location: stream\kspinattachorgate.htm
 tech.root: stream
 ms.assetid: 14fb5b30-7169-4d8a-ad72-d0ee86da7f98
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsPinAttachOrGate, KsPinAttachOrGate function [Streaming Media Devices], avfunc_bcc291d4-ee61-4196-88df-b7aef567a06b.xml, ks/KsPinAttachOrGate, stream.kspinattachorgate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

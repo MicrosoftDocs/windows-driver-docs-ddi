@@ -6,11 +6,8 @@ description: The PAR_QUERY_INFORMATION structure specifies the operating status 
 old-location: parports\par_query_information.htm
 tech.root: parports
 ms.assetid: 3115b0c2-0190-4c5c-8b31-dbafddc9c44d
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PPAR_QUERY_INFORMATION, PAR_QUERY_INFORMATION, PAR_QUERY_INFORMATION structure [Parallel Ports], PPAR_QUERY_INFORMATION, PPAR_QUERY_INFORMATION structure pointer [Parallel Ports], _PAR_QUERY_INFORMATION, cisspd_d7d19b6f-e1a0-4ad7-b0ee-b8e291e63956.xml, ntddpar/PAR_QUERY_INFORMATION, ntddpar/PPAR_QUERY_INFORMATION, parports.par_query_information"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddpar.h
 req.include-header: Ntddpar.h
@@ -56,11 +53,11 @@ The PAR_QUERY_INFORMATION structure specifies the operating status of a parallel
 ## -syntax
 
 
-````
+```cpp
 typedef struct _PAR_QUERY_INFORMATION {
   UCHAR Status;
 } PAR_QUERY_INFORMATION, *PPAR_QUERY_INFORMATION;
-````
+```
 
 
 ## -struct-fields

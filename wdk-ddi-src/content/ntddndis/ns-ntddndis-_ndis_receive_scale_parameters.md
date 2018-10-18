@@ -6,11 +6,8 @@ description: The NDIS_RECEIVE_SCALE_PARAMETERS structure specifies the receive s
 old-location: netvista\ndis_receive_scale_parameters.htm
 tech.root: netvista
 ms.assetid: 0d51042e-06b4-4105-889f-84a368e5735a
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNDIS_RECEIVE_SCALE_PARAMETERS, NDIS_RECEIVE_SCALE_PARAMETERS, NDIS_RECEIVE_SCALE_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_RSS_PARAM_FLAG_BASE_CPU_UNCHANGED, NDIS_RSS_PARAM_FLAG_DISABLE_RSS, NDIS_RSS_PARAM_FLAG_HASH_INFO_UNCHANGED, NDIS_RSS_PARAM_FLAG_HASH_KEY_UNCHANGED, NDIS_RSS_PARAM_FLAG_ITABLE_UNCHANGED, PNDIS_RECEIVE_SCALE_PARAMETERS, PNDIS_RECEIVE_SCALE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_SCALE_PARAMETERS, netvista.ndis_receive_scale_parameters, ntddndis/NDIS_RECEIVE_SCALE_PARAMETERS, ntddndis/PNDIS_RECEIVE_SCALE_PARAMETERS, receive_scaling_structures_ref_1055bbcb-da8b-4ee1-bd03-55abfa79b5ab.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ndis.h
@@ -50,7 +47,7 @@ req.typenames: NDIS_RECEIVE_SCALE_PARAMETERS, *PNDIS_RECEIVE_SCALE_PARAMETERS
 ## -description
 
 
-The <b>NDIS_RECEIVE_SCALE_PARAMETERS</b> structure specifies the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">receive side scaling (RSS)</a> parameters for a miniport adapter.
+The <b>NDIS_RECEIVE_SCALE_PARAMETERS</b> structure specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-receive-side-scaling2">receive side scaling (RSS)</a> parameters for a miniport adapter.
   
 
 <b>Version Information
@@ -176,14 +173,14 @@ In a set request, this member is the hash type and hash function that the NIC sh
 In a query request, this member is the hash type and hash function that the NIC is using.
 
 Overlying drivers and NDIS can use the 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a> macro to combine the hash type and hash function into hash
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567266">NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a> macro to combine the hash type and hash function into hash
      information and set the 
      <b>HashInformation</b> member.
 
 Miniport drivers can use the 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">NDIS_RSS_HASH_TYPE_FROM_HASH_INFO</a> macro to get the hash type from 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567266">NDIS_RSS_HASH_TYPE_FROM_HASH_INFO</a> macro to get the hash type from 
      <b>HashInformation</b> and the 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a> macro to get the hash function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567266">NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a> macro to get the hash function.
 
 
 ### -field IndirectionTableSize
@@ -238,8 +235,8 @@ Specifies the default RSS processor.
 
 
 
-The <b>NDIS_RECEIVE_SCALE_PARAMETERS</b> structure defines the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">receive side scaling (RSS)</a> parameters for the 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
+The <b>NDIS_RECEIVE_SCALE_PARAMETERS</b> structure defines the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-receive-side-scaling2">receive side scaling (RSS)</a> parameters for the 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
     OID_GEN_RECEIVE_SCALE_PARAMETERS</a> OID.
 
 <div class="alert"><b>Note</b>  The indirection table and secret key are appended after the
@@ -278,7 +275,7 @@ The miniport driver must examine the indirection table to determine the CPU numb
     queues.
 
 The miniport driver specified the number of receive queues value in response to 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
     OID_GEN_RECEIVE_SCALE_CAPABILITIES</a>.
 
 To clear the RSS parameters and disable RSS, NDIS sets the hash function that is specified
@@ -301,32 +298,32 @@ If RSS is disabled, the miniport driver should handle receive operations without
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567266">
    NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567266">
    NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567266">
    NDIS_RSS_HASH_TYPE_FROM_HASH_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
    OID_GEN_RECEIVE_SCALE_CAPABILITIES</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
    OID_GEN_RECEIVE_SCALE_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
  
 
  

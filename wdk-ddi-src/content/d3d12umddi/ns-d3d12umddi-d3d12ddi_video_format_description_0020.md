@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Defines the combination of a pixel format and color space for a resource content description.
 old-location: display\d3d12ddi_video_format_description.htm
 ms.assetid: 47C0C369-B31B-4291-A420-A1E75BA990CF
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020, D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020, display.d3d12ddi_video_format_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h

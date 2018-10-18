@@ -6,11 +6,8 @@ description: The StorPortGetLogicalProcessorRelationship routine returns relatio
 old-location: storage\storportgetlogicalprocessorrelationship.htm
 tech.root: storage
 ms.assetid: 32b92771-7f23-492c-a3b0-b10032c9f80a
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: StorPortGetLogicalProcessorRelationship, StorPortGetLogicalProcessorRelationship routine [Storage Devices], storage.storportgetlogicalprocessorrelationship, storport/StorPortGetLogicalProcessorRelationship, storprt_65b00469-41a4-446b-aaa5-fee877aaff3c.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

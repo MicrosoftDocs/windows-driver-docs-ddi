@@ -6,11 +6,8 @@ description: Given a pointer to the section object pointers for a cached file, t
 old-location: ifsk\ccgetfileobjectfromsectionptrs.htm
 tech.root: ifsk
 ms.assetid: da756f88-e2c6-4bff-8390-be48902fe130
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: CcGetFileObjectFromSectionPtrs, CcGetFileObjectFromSectionPtrs routine [Installable File System Drivers], ccref_2e9f9f04-b5e3-47e5-beff-5e4d7181ca9d.xml, ifsk.ccgetfileobjectfromsectionptrs, ntifs/CcGetFileObjectFromSectionPtrs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

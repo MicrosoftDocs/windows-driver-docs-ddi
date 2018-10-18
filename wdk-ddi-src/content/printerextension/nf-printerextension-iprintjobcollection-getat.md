@@ -6,11 +6,8 @@ description: Gets a pointer to an IPrintJob object.
 old-location: print\iprintjobcollection_getat.htm
 tech.root: print
 ms.assetid: B920E5D1-D565-4626-A15E-8500DFFBC9FF
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: GetAt, GetAt method [Print Devices], GetAt method [Print Devices],IPrintJobCollection interface, IPrintJobCollection interface [Print Devices],GetAt method, IPrintJobCollection.GetAt, IPrintJobCollection::GetAt, print.iprintjobcollection_getat, printerextension/IPrintJobCollection::GetAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header: 

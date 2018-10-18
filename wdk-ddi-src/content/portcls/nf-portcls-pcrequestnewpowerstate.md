@@ -6,11 +6,8 @@ description: The PcRequestNewPowerState function is used to request a new power 
 old-location: audio\pcrequestnewpowerstate.htm
 tech.root: audio
 ms.assetid: fbe2c665-a7e8-43e4-95e5-a7e87521e163
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: PcRequestNewPowerState, PcRequestNewPowerState function [Audio Devices], audio.pcrequestnewpowerstate, audpc-routines_c3341fb0-4609-4b3f-a0b2-ef589c804f1d.xml, portcls/PcRequestNewPowerState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: portcls.h
 req.include-header: Portcls.h

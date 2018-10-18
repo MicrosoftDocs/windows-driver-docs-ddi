@@ -4,7 +4,6 @@ title: IoGetDriverDirectory function
 author: windows-driver-content
 description: Returns a handle to a directory on disk from which the driver can read and write files. The files in that directory apply to a specific driver object.
 ms.assetid: ff2a6c2a-e402-4e8a-920a-c9baa9aa237e
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: IoGetDriverDirectory
@@ -62,7 +61,7 @@ Returns a handle to a directory on disk from which the driver can read and write
 
 ## -returns
 
-Returns an appropriate [NTSTATUS value](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values). Possible values include:
+Returns an appropriate [NTSTATUS value](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values). Possible values include:
 | Error code               | Description                                                                                        |
 | ------------------------ | -------------------------------------------------------------------------------------------------- |
 | STATUS_SUCCESS           | The call successfully opened a handle to the requested driver directory.                           |

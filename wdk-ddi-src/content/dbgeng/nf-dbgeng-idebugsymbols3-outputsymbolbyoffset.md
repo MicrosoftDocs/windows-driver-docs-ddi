@@ -6,11 +6,8 @@ description: The OutputSymbolByOffset method looks up a symbol by address and pr
 old-location: debugger\outputsymbolbyoffset.htm
 tech.root: debugger
 ms.assetid: a9b3ac31-2001-45cc-a917-de687419b561
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],OutputSymbolByOffset method, IDebugSymbols3.OutputSymbolByOffset, IDebugSymbols3::OutputSymbolByOffset, IDebugSymbols_45f0a841-85cf-4be8-82bc-e962b5af2f5d.xml, OutputSymbolByOffset, OutputSymbolByOffset method [Windows Debugging], OutputSymbolByOffset method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::OutputSymbolByOffset, debugger.outputsymbolbyoffset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

@@ -6,11 +6,8 @@ description: The NDIS_TCP_LARGE_SEND_OFFLOAD_V2 structure provides large send of
 old-location: netvista\ndis_tcp_large_send_offload_v2.htm
 tech.root: netvista
 ms.assetid: e53e5771-a3ca-4867-a0ac-65adb66e574c
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNDIS_TCP_LARGE_SEND_OFFLOAD_V2, NDIS_TCP_LARGE_SEND_OFFLOAD_V2, NDIS_TCP_LARGE_SEND_OFFLOAD_V2 structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_LARGE_SEND_OFFLOAD_V2, PNDIS_TCP_LARGE_SEND_OFFLOAD_V2 structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_LARGE_SEND_OFFLOAD_V2, netvista.ndis_tcp_large_send_offload_v2, ntddndis/NDIS_TCP_LARGE_SEND_OFFLOAD_V2, ntddndis/PNDIS_TCP_LARGE_SEND_OFFLOAD_V2, tcpip_offload_ref_739d5001-8b37-437f-ad2e-8ad817feb59d.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ndis.h
@@ -157,16 +154,16 @@ The <b>NDIS_TCP_LARGE_SEND_OFFLOAD_V2</b> structure is used in the
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a> structure, 
     <a href="https://msdn.microsoft.com/d46a1e62-9d03-4ab9-86f6-81b06c04d0f6">
     NDIS_FILTER_ATTACH_PARAMETERS</a> structure, 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config">
     OID_TCP_OFFLOAD_CURRENT_CONFIG</a> OID, and the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567424">
     NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a> status indication.
 
 For 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>,
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>,
     the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566599">NDIS_OFFLOAD</a> structure specifies the task offload capabilities that a miniport adapter supports. If
     the current offloads capabilities change, a miniport driver reports the new capabilities in an 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567424">
     NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a> status indication.
 
 The 
@@ -174,14 +171,14 @@ The
     the miniport adapter.
 
 In response to an 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config">
     OID_TCP_OFFLOAD_CURRENT_CONFIG</a> query request, NDIS provides a bitwise OR of the encapsulation
     flags, which indicate the supported encapsulation settings, in each of the 
     <b>Encapsulation</b> members. Miniport drivers must provide Ethernet encapsulation
     (NDIS_ENCAPSULATION_IEEE_802_3). The other types of encapsulation are optional.
 
 For an 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567424">
     NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a> status indication, the miniport driver provides a bitwise
     OR of the encapsulation flags, which indicate the current capabilities, in each of the 
     <b>Encapsulation</b> members.
@@ -233,7 +230,7 @@ Specifies logical link control (LLC) encapsulation for routed protocols, as desc
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567424">
    NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a>
 
 
@@ -247,7 +244,7 @@ Specifies logical link control (LLC) encapsulation for routed protocols, as desc
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
  
 
  

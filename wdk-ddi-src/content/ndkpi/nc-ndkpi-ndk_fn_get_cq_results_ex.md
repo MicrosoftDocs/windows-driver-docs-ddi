@@ -6,11 +6,8 @@ description: The NdkGetCqResultsEx (NDK_FN_GET_CQ_RESULTS_EX) function removes c
 old-location: netvista\ndk_fn_get_cq_results_ex.htm
 tech.root: netvista
 ms.assetid: DC2782AB-BDFA-45C2-BC2E-ED4B946597D4
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NDK_FN_GET_CQ_RESULTS_EX, NDK_FN_GET_CQ_RESULTS_EX callback, NDK_FN_GET_CQ_RESULTS_EX callback function [Network Drivers Starting with Windows Vista], ndkpi/NDK_FN_GET_CQ_RESULTS_EX, netvista.ndk_fn_get_cq_results_ex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndkpi.h
 req.include-header: Ndkpi.h

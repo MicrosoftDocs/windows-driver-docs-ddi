@@ -6,11 +6,8 @@ description: ChangerQueryVolumeTags handles the device-specific aspects of a dev
 old-location: storage\changerqueryvolumetags.htm
 tech.root: storage
 ms.assetid: 65579299-829c-48e2-b2f6-dc1a09578e9a
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: ChangerQueryVolumeTags, ChangerQueryVolumeTags function [Storage Devices], chgrmini_8d729e15-eade-4300-b640-d5e99f1f5e05.xml, mcd/ChangerQueryVolumeTags, storage.changerqueryvolumetags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h

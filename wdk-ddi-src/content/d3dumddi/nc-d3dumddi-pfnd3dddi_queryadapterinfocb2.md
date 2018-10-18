@@ -4,11 +4,8 @@ title: PFND3DDDI_QUERYADAPTERINFOCB2
 author: windows-driver-content
 description: Implemented by the client driver to retrieve graphics adapter information.
 ms.assetid: f60b6167-b294-4f6e-9338-4f937a838712
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dumddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to retrieve graphics adapter information.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DDDI_QUERYADAPTERINFOCB2 Pfnd3dddiQueryadapterinfocb2;

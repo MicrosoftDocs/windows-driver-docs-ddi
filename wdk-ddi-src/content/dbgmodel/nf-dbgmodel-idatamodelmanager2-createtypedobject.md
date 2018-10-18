@@ -4,7 +4,6 @@ title: IDataModelManager2::CreateTypedObject
 author: windows-driver-content
 description: The CreateTypedObject method is the method which allows a client to create a representation of a native/language object in the address space of a debug target. 
 ms.assetid: 91d1fc43-f4ce-424e-bbaf-9798b841e328
-ms.author: windowsdriverdev
 ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelManager2::CreateTypedObject, CreateTypedObject, IDataModelManager2.CreateTypedObject, IDataModelManager2::CreateTypedObject, IDataModelManager2.CreateTypedObject

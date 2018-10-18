@@ -6,11 +6,8 @@ description: The DxgkDdiStopDevice function resets a display adapter and frees r
 old-location: display\dxgkddistopdevice.htm
 tech.root: display
 ms.assetid: 3c17c7cf-9cfa-421d-a503-88726519fb6c
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGKDDI_STOP_DEVICE, DXGKDDI_STOP_DEVICE callback, DmFunctions_c2d7e95b-beba-488a-b046-98e5daa728b9.xml, DxgkDdiStopDevice, DxgkDdiStopDevice callback function [Display Devices], display.dxgkddistopdevice, dispmprt/DxgkDdiStopDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dispmprt.h
 req.include-header: 

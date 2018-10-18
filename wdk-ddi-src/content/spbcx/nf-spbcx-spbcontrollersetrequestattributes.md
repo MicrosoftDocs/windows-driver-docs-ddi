@@ -6,11 +6,8 @@ description: The SpbControllerSetRequestAttributes method sets object attributes
 old-location: spb\spbcontrollersetrequestattributes.htm
 tech.root: SPB
 ms.assetid: 9BE790DB-DB7A-44A3-8A89-673CBFCF4D65
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: SPB.spbcontrollersetrequestattributes, SpbControllerSetRequestAttributes, SpbControllerSetRequestAttributes method [Buses], spbcx/SpbControllerSetRequestAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: spbcx.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: UCX invokes this callback function to send a device suspend state.
 old-location: buses\evt_ucx_usbdevice_suspend.htm
 tech.root: usbref
 ms.assetid: 809F946C-DDD4-4C4D-9F0F-F2B4A4657D12
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: "*PFN_UCX_USBDEVICE_SUSPEND, *PFN_UCX_USBDEVICE_SUSPEND callback function [Buses], EVT_UCX_USBDEVICE_SUSPEND, EVT_UCX_USBDEVICE_SUSPEND callback, EvtUcxDeviceSuspend, EvtUcxDeviceSuspend callback function [Buses], buses.evt_ucx_usbdevice_suspend, ucxusbdevice/EvtUcxDeviceSuspend"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h

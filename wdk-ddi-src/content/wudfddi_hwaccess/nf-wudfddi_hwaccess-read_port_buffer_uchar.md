@@ -6,11 +6,8 @@ description: The READ_PORT_BUFFER_UCHAR function reads a number of bytes from th
 old-location: wdf\read_port_buffer_uchar.htm
 tech.root: wdf
 ms.assetid: CDA0A86B-94E7-4825-9826-0E12ECF42B57
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: READ_PORT_BUFFER_UCHAR, READ_PORT_BUFFER_UCHAR function, umdf.read_port_buffer_uchar, wdf.read_port_buffer_uchar, wudfddi_hwaccess/READ_PORT_BUFFER_UCHAR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wudfddi_hwaccess.h
 req.include-header: 
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>READ_PORT_BUFFER_UCHAR</b> function reads a number of bytes from the specified port address into a buffer.
 

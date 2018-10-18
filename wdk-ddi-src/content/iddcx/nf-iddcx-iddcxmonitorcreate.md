@@ -6,11 +6,8 @@ description: An OS callback function the driver calls to create a monitor object
 old-location: display\iddcxmonitorcreate.htm
 tech.root: display
 ms.assetid: 2e089827-dd50-43cb-9e1a-34c439780831
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: IddCxMonitorCreate, IddCxMonitorCreate method [Display Devices], display.iddcxmonitorcreate, iddcx/IddCxMonitorCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iddcx.h
 req.include-header: 

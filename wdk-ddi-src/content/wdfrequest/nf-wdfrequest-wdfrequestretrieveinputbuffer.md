@@ -6,11 +6,8 @@ description: The WdfRequestRetrieveInputBuffer method retrieves an I/O request's
 old-location: wdf\wdfrequestretrieveinputbuffer.htm
 tech.root: wdf
 ms.assetid: fa02a787-502c-48a3-a5e1-710d7513c42e
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFRequestObjectRef_7b0c1902-f3a3-4b89-8a9d-3e05e1639fd3.xml, WdfRequestRetrieveInputBuffer, WdfRequestRetrieveInputBuffer method, kmdf.wdfrequestretrieveinputbuffer, wdf.wdfrequestretrieveinputbuffer, wdfrequest/WdfRequestRetrieveInputBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfrequest.h
 req.include-header: Wdf.h
@@ -172,16 +169,16 @@ The <b>WdfRequestRetrieveInputBuffer</b> method retrieves the input buffer for I
 
 If <b>WdfRequestRetrieveInputBuffer</b> returns STATUS_SUCCESS, the driver receives the address and, optionally, the size of the input buffer. 
 
-The driver can access the retrieved buffer until it <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">completes the I/O request</a> that the <i>Request</i> parameter represents.
+The driver can access the retrieved buffer until it <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-i-o-requests">completes the I/O request</a> that the <i>Request</i> parameter represents.
 
 Instead of calling <b>WdfRequestRetrieveInputBuffer</b>, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550015">WdfRequestRetrieveInputMemory</a>, which creates a framework memory object that represents the buffer.
 
-For more information about <b>WdfRequestRetrieveInputBuffer</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in Framework-Based Drivers</a>.
+For more information about <b>WdfRequestRetrieveInputBuffer</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in Framework-Based Drivers</a>.
 
 
 #### Examples
 
-The following code example is part of the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">Serial</a> sample driver's <a href="https://msdn.microsoft.com/3e3c4c53-e557-4bd1-8b7d-be59dde4b9ce">EvtIoDeviceControl</a> callback function. If the I/O control code is IOCTL_SERIAL_SET_TIMEOUT, the driver obtains new time-out values from the I/O request's input buffer.
+The following code example is part of the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">Serial</a> sample driver's <a href="https://msdn.microsoft.com/3e3c4c53-e557-4bd1-8b7d-be59dde4b9ce">EvtIoDeviceControl</a> callback function. If the I/O control code is IOCTL_SERIAL_SET_TIMEOUT, the driver obtains new time-out values from the I/O request's input buffer.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

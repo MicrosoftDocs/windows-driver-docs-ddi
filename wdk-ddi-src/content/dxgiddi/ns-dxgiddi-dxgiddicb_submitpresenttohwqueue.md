@@ -4,11 +4,8 @@ title: DXGIDDICB_SUBMITPRESENTTOHWQUEUE
 author: windows-driver-content
 description: Arguments used by the PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB callback function.
 ms.assetid: 6a7a5e66-d569-44ef-8be6-a01ea4dbd3ab
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: DXGIDDICB_SUBMITPRESENTTOHWQUEUE, DXGIDDICB_SUBMITPRESENTTOHWQUEUE, 
 req.header: dxgiddi.h
 req.include-header:

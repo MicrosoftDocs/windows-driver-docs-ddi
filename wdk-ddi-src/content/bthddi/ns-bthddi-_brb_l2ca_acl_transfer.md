@@ -6,11 +6,8 @@ description: The _BRB_L2CA_ACL_TRANSFER structure describes a buffer to read asy
 old-location: bltooth\_brb_l2ca_acl_transfer.htm
 tech.root: bltooth
 ms.assetid: 8ab1365a-99bd-47b3-bf3d-8f70b4a7028a
-ms.author: windowsdriverdev
 ms.date: 4/27/2018
 ms.keywords: "_BRB_L2CA_ACL_TRANSFER, _BRB_L2CA_ACL_TRANSFER structure [Bluetooth Devices], bltooth._brb_l2ca_acl_transfer, bth_structs_5dfd1186-d8a1-4ec5-9ce8-028d462fcb21.xml, bthddi/_BRB_L2CA_ACL_TRANSFER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h
@@ -75,7 +72,7 @@ The address of the remote device.
 
 The L2CAP channel handle that was returned by Bluetooth driver stack in response to an earlier 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a> or 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536616">
      BRB_L2CA_OPEN_CHANNEL_RESPONSE</a> request.
 
 
@@ -208,7 +205,7 @@ If the ACL_TRANSFER_TIMEOUT flag is set in the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536616">
    BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
  
 

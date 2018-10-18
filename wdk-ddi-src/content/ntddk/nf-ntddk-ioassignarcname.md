@@ -6,11 +6,8 @@ description: The IoAssignArcName routine creates a symbolic link between the ARC
 old-location: kernel\ioassignarcname.htm
 tech.root: kernel
 ms.assetid: ef8a132a-f593-4a25-bb9e-b4ed57801db2
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IoAssignArcName, IoAssignArcName routine [Kernel-Mode Driver Architecture], k104_ceeba02c-47cf-4c25-a339-d55ee9ebc216.xml, kernel.ioassignarcname, ntddk/IoAssignArcName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ntddk.h
 req.include-header: Ntddk.h

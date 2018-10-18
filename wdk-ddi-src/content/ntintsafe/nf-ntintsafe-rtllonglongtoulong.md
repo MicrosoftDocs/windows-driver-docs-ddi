@@ -6,11 +6,8 @@ description: Converts a value of type LONGLONG to a value of type ULONG.
 old-location: kernel\rtllonglongtoulong.htm
 tech.root: kernel
 ms.assetid: EA5C57D3-E4EF-49B2-9B0E-DB99CD32C888
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlLongLongToULong, RtlLongLongToULong function [Kernel-Mode Driver Architecture], kernel.rtllonglongtoulong, ntintsafe/RtlLongLongToULong
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The WdfRegistryAssignMemory method assigns data that is contained i
 old-location: wdf\wdfregistryassignmemory.htm
 tech.root: wdf
 ms.assetid: 692a9cdf-3cb7-41c1-96a8-28daed13aa60
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFRegKeyObjectRef_263749e2-fb1e-4153-9387-32cc256d7fe4.xml, WdfRegistryAssignMemory, WdfRegistryAssignMemory method, kmdf.wdfregistryassignmemory, wdf.wdfregistryassignmemory, wdfregistry/WdfRegistryAssignMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfregistry.h
 req.include-header: Wdf.h
@@ -162,7 +159,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 If the value name that the <i>ValueName</i> parameter specifies already exists, <b>WdfRegistryAssignMemory</b> updates the value's data.
 
-For more information about registry-key objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
+For more information about registry-key objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
 
 
 #### Examples

@@ -6,11 +6,8 @@ description: The DISK_GROW_PARTITION structure is used in conjunction with the I
 old-location: storage\disk_grow_partition.htm
 tech.root: storage
 ms.assetid: cab9877c-3b7b-4644-83eb-0aa1e9fc77b9
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PDISK_GROW_PARTITION, DISK_GROW_PARTITION, DISK_GROW_PARTITION structure [Storage Devices], PDISK_GROW_PARTITION, PDISK_GROW_PARTITION structure pointer [Storage Devices], _DISK_GROW_PARTITION, ntdddisk/DISK_GROW_PARTITION, ntdddisk/PDISK_GROW_PARTITION, storage.disk_grow_partition, structs-disk_cc7d52cd-b0b6-4e5c-a323-6d513f37e602.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h

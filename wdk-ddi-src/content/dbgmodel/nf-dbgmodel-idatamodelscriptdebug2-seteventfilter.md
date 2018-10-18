@@ -4,7 +4,6 @@ title: IDataModelScriptDebug2::SetEventFilter
 author: windows-driver-content
 description: The SetEventFilter method changes the "break on event" behavior for a particular event as defined by a member of the ScriptDebugEventFilter enumeration.
 ms.assetid: cabb3bfa-e704-4209-82a3-7334f950fb34
-ms.author: windowsdriverdev
 ms.date: 09/11/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebug2::SetEventFilter, SetEventFilter, IDataModelScriptDebug2.SetEventFilter, IDataModelScriptDebug2::SetEventFilter, IDataModelScriptDebug2.SetEventFilter

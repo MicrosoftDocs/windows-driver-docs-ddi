@@ -6,11 +6,8 @@ description: The VideoPortCompareMemory function compares two blocks of system m
 old-location: display\videoportcomparememory.htm
 tech.root: display
 ms.assetid: 89528b31-4d81-4612-92d7-5f64bdca8108
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: VideoPortCompareMemory, VideoPortCompareMemory function [Display Devices], VideoPort_Functions_87b1236e-d77b-4930-897f-d5b33b1130aa.xml, display.videoportcomparememory, video/VideoPortCompareMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: video.h
 req.include-header: Video.h

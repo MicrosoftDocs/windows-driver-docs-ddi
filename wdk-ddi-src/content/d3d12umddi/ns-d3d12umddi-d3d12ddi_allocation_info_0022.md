@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Specifies allocation information.
 old-location: display\d3d12ddi_allocation_info_0022.htm
 ms.assetid: A600C402-EB77-4C44-8349-96DAF11B807C
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3D12DDI_ALLOCATION_INFO_0022, D3D12DDI_ALLOCATION_INFO_0022 structure [Display Devices], d3d12umddi/D3D12DDI_ALLOCATION_INFO_0022, display.d3d12ddi_allocation_info_0022
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h

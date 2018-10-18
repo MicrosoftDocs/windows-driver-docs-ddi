@@ -6,11 +6,8 @@ description: Notifies UFX about the port type that was detected, and optionally 
 old-location: buses\ufxdeviceportdetectcompleteex.htm
 tech.root: usbref
 ms.assetid: EB3A65B5-EB21-45CA-B26D-F57A28F9F2CB
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: UfxDevicePortDetectCompleteEx, UfxDevicePortDetectCompleteEx method [Buses], buses.ufxdeviceportdetectcompleteex, ufxclient/UfxDevicePortDetectCompleteEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ufxclient.h
 req.include-header: 

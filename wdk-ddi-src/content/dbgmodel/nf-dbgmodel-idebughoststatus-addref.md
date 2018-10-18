@@ -4,7 +4,6 @@ title: IDebugHostStatus::AddRef
 author: windows-driver-content
 description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: 6a246cf8-df04-4567-a18e-56b56ded5689
-ms.author: windowsdriverdev
 ms.date: 09/21/2018 
 ms.topic: method
 ms.keywords: IDebugHostStatus::AddRef, AddRef, IDebugHostStatus.AddRef, IDebugHostStatus::AddRef, IDebugHostStatus.AddRef

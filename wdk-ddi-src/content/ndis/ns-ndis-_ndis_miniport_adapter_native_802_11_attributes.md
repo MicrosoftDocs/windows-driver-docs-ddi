@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\ndis_miniport_adapter_native_802_11_attributes.htm
 tech.root: netvista
 ms.assetid: f841c7f9-9ad3-4b53-b2d9-0d66d6e64b8b
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_7b3396ce-7830-4b08-8df4-e0d8f49c7144.xml, PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, ndis/NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, ndis/PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, netvista.ndis_miniport_adapter_native_802_11_attributes"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndis.h
 req.include-header:
@@ -57,7 +54,7 @@ req.typenames: NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, *PNDIS_MINIPORT_A
 ## -syntax
 
 
-````
+```cpp
 typedef struct {
   NDIS_OBJECT_HEADER       Header;
   ULONG                    OpModeCapability;
@@ -75,7 +72,7 @@ typedef struct {
   PDOT11_WFD_ATTRIBUTES    WFDAttributes;
 #endif
 } NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, *PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES;
-````
+```
 
 
 ## -struct-fields
@@ -156,7 +153,7 @@ Specifies that the miniport driver supports the Extensible Station (ExtSTA) oper
 Specifies that the miniport driver supports the Network Monitor (NetMon) operation mode.
 
 For more information about operation modes, see
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation
      Modes</a>.
 
 
@@ -196,7 +193,7 @@ A pointer to an array of
      array must have
      <b>NumSupportedPhys</b> entries and must be sorted in the same order as the list of PHY types returned
      through a query of
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
      OID_DOT11_SUPPORTED_PHY_TYPES</a>.
 
 
@@ -206,7 +203,7 @@ A pointer to a
      <a href="..\windot11\ns-windot11-dot11_extsta_attributes.md">DOT11_EXTSTA_ATTRIBUTES</a> structure
      that specifies the attributes of the miniport driver and 802.11 station when operating in Extensible
      Station (ExtSTA) mode. For more information about this operation mode, see
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
      Mode</a>.
 
 
@@ -277,7 +274,7 @@ The
 </li>
 </ul>
 For more information about the initialization requirements for a Native 802.11 miniport driver, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-miniport-drivers2">Native 802.11 Miniport
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-miniport-drivers2">Native 802.11 Miniport
     Driver Initialization</a>.
 
 
@@ -285,12 +282,12 @@ For more information about the initialization requirements for a Native 802.11 m
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
    Mode</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation Modes</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation Modes</a>
 
 
 
@@ -302,7 +299,7 @@ For more information about the initialization requirements for a Native 802.11 m
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>
 
 
 
@@ -310,7 +307,7 @@ For more information about the initialization requirements for a Native 802.11 m
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-miniport-drivers2">Native 802.11 Miniport
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-miniport-drivers2">Native 802.11 Miniport
    Driver Initialization</a>
 
 

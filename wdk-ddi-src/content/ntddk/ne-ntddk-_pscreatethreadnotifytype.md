@@ -6,11 +6,8 @@ description: Indicates the type of thread notification. This enumeration is used
 old-location: kernel\pscreatethreadnotifytype.htm
 tech.root: kernel
 ms.assetid: C38F8222-7F22-4D6B-A3F2-C326ECE22E8B
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: PSCREATETHREADNOTIFYTYPE, PSCREATETHREADNOTIFYTYPE enumeration [Kernel-Mode Driver Architecture], PsCreateThreadNotifyNonSystem, PsCreateThreadNotifySubsystems, _PSCREATETHREADNOTIFYTYPE, kernel.pscreatethreadnotifytype, ntddk/PSCREATETHREADNOTIFYTYPE, ntddk/PsCreateThreadNotifyNonSystem, ntddk/PsCreateThreadNotifySubsystems
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddk.h
 req.include-header: Ntddk.h

@@ -4,12 +4,9 @@ title: _USBC_PARTNER
 author: windows-driver-content
 description: Defines values for the type of connector partner detected on the USB Type-C connector.
 ms.assetid: c5dd981e-327f-45d2-8d0a-507cd118b1ae
-ms.author: windowsdriverdev
 ms.date: 09/30/2018
 ms.topic: enum
 ms.keywords: _USBC_PARTNER, USBC_PARTNER, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: usbctypes.h
 req.include-header: usbctypes.h
 req.target-type:

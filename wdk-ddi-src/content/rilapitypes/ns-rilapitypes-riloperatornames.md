@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\riloperatornames_2.htm
 tech.root: netvista
 ms.assetid: 5a066e35-1e8c-431e-897f-9d864991b15f
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*LPRILOPERATORNAMES, RILOPERATORNAMES, RILOPERATORNAMES structure [Network Drivers Starting with Windows Vista], netvista.riloperatornames_2, rilapitypes/RILOPERATORNAMES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
 req.include-header:
@@ -57,7 +54,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```cpp
 typedef struct _RILOPERATORNAMES {
   DWORD                                   cbSize;
   DWORD                                   dwParams;
@@ -67,7 +64,7 @@ typedef struct _RILOPERATORNAMES {
   WCHAR [MAXLENGTH_OPERATOR_NUMERIC]      wszNumName;
   WCHAR [MAXLENGTH_OPERATOR_COUNTRY_CODE] wszCountryCode;
 } RILOPERATORNAMES, RILOPERATORNAMES;
-````
+```
 
 
 ## -struct-fields

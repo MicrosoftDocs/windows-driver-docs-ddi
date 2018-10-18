@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The client driver calls NetRxQueueNotifyMoreReceivedPacketsAvailable to resume queue operations after NetAdapterCx calls the client's EVT_RXQUEUE_SET_NOTIFICATION_ENABLED event callback routine.
 tech.root: netvista
 ms.assetid: 81463460-f494-4265-a557-134a50a91d52
-ms.author: windowsdriverdev
 ms.date: 07/13/2018
 ms.topic: function
 ms.keywords: NetRxQueueNotifyMoreReceivedPacketsAvailable

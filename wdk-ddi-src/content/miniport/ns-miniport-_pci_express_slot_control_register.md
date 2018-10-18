@@ -6,11 +6,8 @@ description: The PCI_EXPRESS_SLOT_CONTROL_REGISTER structure describes a PCI Exp
 old-location: pci\pci_express_slot_control_register.htm
 tech.root: PCI
 ms.assetid: 4755f4c3-305e-41a5-afdf-eda8e8e81b74
-ms.author: windowsdriverdev
 ms.date: 2/24/2018
 ms.keywords: "*PPCI_EXPRESS_SLOT_CONTROL_REGISTER, PCI.pci_express_slot_control_register, PCI_EXPRESS_SLOT_CONTROL_REGISTER, PCI_EXPRESS_SLOT_CONTROL_REGISTER union [Buses], PPCI_EXPRESS_SLOT_CONTROL_REGISTER, PPCI_EXPRESS_SLOT_CONTROL_REGISTER union pointer [Buses], _PCI_EXPRESS_SLOT_CONTROL_REGISTER, ntddk/PCI_EXPRESS_SLOT_CONTROL_REGISTER, ntddk/PPCI_EXPRESS_SLOT_CONTROL_REGISTER, pci_struct_d554e74d-130d-4d6d-8801-c65ea66653cb.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: miniport.h
 req.include-header: Ntddk.h, Miniport.h
@@ -56,7 +53,7 @@ The PCI_EXPRESS_SLOT_CONTROL_REGISTER structure describes a PCI Express (PCIe) s
 ## -syntax
 
 
-````
+```cpp
 typedef union _PCI_EXPRESS_SLOT_CONTROL_REGISTER {
   struct {
     USHORT AttentionButtonEnable  :1;
@@ -74,7 +71,7 @@ typedef union _PCI_EXPRESS_SLOT_CONTROL_REGISTER {
   };
   USHORT AsUSHORT;
 } PCI_EXPRESS_SLOT_CONTROL_REGISTER, *PPCI_EXPRESS_SLOT_CONTROL_REGISTER;
-````
+```
 
 
 ## -struct-fields

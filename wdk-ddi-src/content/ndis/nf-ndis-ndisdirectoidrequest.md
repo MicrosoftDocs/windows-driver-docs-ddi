@@ -6,11 +6,8 @@ description: The NdisDirectOidRequest function forwards a direct OID request to 
 old-location: netvista\ndisdirectoidrequest.htm
 tech.root: netvista
 ms.assetid: 771e5761-beea-4a31-9ebe-d65e9157f1f4
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisDirectOidRequest, NdisDirectOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisDirectOidRequest, ndis_request_direct_ref_3a98c424-2d24-4841-87a7-e782d4e6c79d.xml, netvista.ndisdirectoidrequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -252,17 +249,17 @@ The
     interface. For example, the following OIDs can be used:
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
        OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
        OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-update-sa">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-update-sa">
        OID_TCP_TASK_IPSEC_OFFLOAD_V2_UPDATE_SA</a>
 
 
@@ -308,17 +305,17 @@ The direct OID request interface is similar to the general OID request interface
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
    OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
    OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-update-sa">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-update-sa">
    OID_TCP_TASK_IPSEC_OFFLOAD_V2_UPDATE_SA</a>
 
 

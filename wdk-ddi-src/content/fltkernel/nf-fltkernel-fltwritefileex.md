@@ -6,11 +6,8 @@ description: FltWriteFileEx is used to write data to an open file, stream, or de
 old-location: ifsk\fltwritefileex.htm
 tech.root: ifsk
 ms.assetid: 18B2B486-5525-4132-96E8-EEA74342E0EA
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltWriteFileEx, FltWriteFileEx function [Installable File System Drivers], fltkernel/FltWriteFileEx, ifsk.fltwritefileex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

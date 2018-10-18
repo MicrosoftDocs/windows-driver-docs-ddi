@@ -4,11 +4,8 @@ title: PFND3D12DDI_CALC_SERIALIZED_LIBRARY_SIZE_0010
 author: windows-driver-content
 description: Calculates serialized library size.
 ms.assetid: 40e47e56-5a99-431d-b821-a610a8c66601
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Calculates serialized library size.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALC_SERIALIZED_LIBRARY_SIZE_0010 Pfnd3d12ddiCalcSerializedLibrarySize0010; 

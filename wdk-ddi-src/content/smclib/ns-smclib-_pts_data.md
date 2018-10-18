@@ -6,11 +6,8 @@ description: The PTS_DATA structure is used for protocol type selection (PTS).
 old-location: smartcrd\pts_data.htm
 tech.root: smartcrd
 ms.assetid: aa542c6f-24f9-4ef4-a425-93905cca976a
-ms.author: windowsdriverdev
 ms.date: 2/22/2018
 ms.keywords: "*PPTS_DATA, PPTS_DATA, PPTS_DATA structure pointer [Smart Card Reader Devices], PTS_DATA, PTS_DATA structure [Smart Card Reader Devices], _PTS_DATA, scstruct_8540d432-b29a-4227-a305-da7aba23a26d.xml, smartcrd.pts_data, smclib/PPTS_DATA, smclib/PTS_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: smclib.h
 req.include-header: Smclib.h

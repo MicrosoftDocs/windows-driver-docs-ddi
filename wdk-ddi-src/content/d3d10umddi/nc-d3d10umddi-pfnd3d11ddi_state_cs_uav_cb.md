@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The pfnStateCsUavCb function causes the Microsoft Direct3D 11 runtime to refresh the constant unordered access view state for the compute shader.
 old-location: display\pfnstatecsuavcb.htm
 ms.assetid: 2ff9e226-2981-4670-9164-7138f25528a0
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: PFND3D11DDI_STATE_CS_UAV_CB, PFND3D11DDI_STATE_CS_UAV_CB callback, d3d10umddi/pfnStateCsUavCb, d3d11state_functions_2818f407-e0b4-4923-ae5e-43b1450d4a82.xml, display.pfnstatecsuavcb, pfnStateCsUavCb, pfnStateCsUavCb callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

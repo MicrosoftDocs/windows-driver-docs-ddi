@@ -6,11 +6,8 @@ description: The wiauGetResourceString function gets a resource string, storing 
 old-location: image\wiaugetresourcestring.htm
 tech.root: image
 ms.assetid: b042702a-46ff-4ec9-8a92-af8516802e64
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: image.wiaugetresourcestring, wiauFncs_aa163759-0e49-4612-9f6c-78bd6534a62e.xml, wiauGetResourceString, wiauGetResourceString function [Imaging Devices], wiautil/wiauGetResourceString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiautil.h
 req.include-header: Wiautil.h

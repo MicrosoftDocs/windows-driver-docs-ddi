@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The MBB_DEVICE_MBIM_PARAMETERS_INIT method initializes a MBB_DEVICE_MBIM_PARAMETERS structure.
 tech.root: netvista
 ms.assetid: 679409cd-b6bd-4eb7-9f15-d8cd8216e785
-ms.author: windowsdriverdev
 ms.date: 06/26/2018
 ms.topic: function
 ms.keywords: MBB_DEVICE_MBIM_PARAMETERS_INIT

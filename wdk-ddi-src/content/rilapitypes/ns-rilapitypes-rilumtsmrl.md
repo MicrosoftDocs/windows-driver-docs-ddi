@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilumtsmrl_2.htm
 tech.root: netvista
 ms.assetid: 38235a1e-c9fd-4d4d-96a2-18559e4cf655
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*LPRILUMTSMRL, RILUMTSMRL, RILUMTSMRL structure [Network Drivers Starting with Windows Vista], netvista.rilumtsmrl_2, rilapitypes/RILUMTSMRL"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
 req.include-header:
@@ -57,7 +54,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```cpp
 typedef struct _RILUMTSMRL {
   DWORD  dwParams;
   DWORD  dwMobileCountryCode;
@@ -70,7 +67,7 @@ typedef struct _RILUMTSMRL {
   LONG   dwECNO;
   DWORD  dwPathLoss;
 } RILUMTSMRL, RILUMTSMRL;
-````
+```
 
 
 ## -struct-fields

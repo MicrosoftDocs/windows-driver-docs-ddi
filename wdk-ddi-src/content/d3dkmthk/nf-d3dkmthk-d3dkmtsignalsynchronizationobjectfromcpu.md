@@ -5,11 +5,8 @@ author: windows-driver-content
 description: D3DKMTSignalSynchronizationObjectFromCpu enables a driver to signal a monitored fence.
 old-location: display\d3dkmtsignalsynchronizationobjectfromcpu.htm
 ms.assetid: 23DC5EB1-E606-499D-B78A-AFF95E6B00A3
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DKMTSignalSynchronizationObjectFromCpu, D3DKMTSignalSynchronizationObjectFromCpu function [Display Devices], d3dkmthk/D3DKMTSignalSynchronizationObjectFromCpu, display.d3dkmtsignalsynchronizationobjectfromcpu
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

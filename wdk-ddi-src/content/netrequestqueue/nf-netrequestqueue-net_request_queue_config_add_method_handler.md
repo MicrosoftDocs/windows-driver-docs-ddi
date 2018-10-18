@@ -5,7 +5,6 @@ author: windows-driver-content
 description: Adds a caller-provided handler for a specific OID method request to a NET_REQUEST_QUEUE_CONFIG structure.
 tech.root: netvista
 ms.assetid: 6dba1c38-fcf3-49f3-a1ad-925ab6f545b5
-ms.author: windowsdriverdev
 ms.date: 02/09/2018
 ms.topic: function
 ms.keywords: NET_REQUEST_QUEUE_CONFIG_ADD_METHOD_HANDLER

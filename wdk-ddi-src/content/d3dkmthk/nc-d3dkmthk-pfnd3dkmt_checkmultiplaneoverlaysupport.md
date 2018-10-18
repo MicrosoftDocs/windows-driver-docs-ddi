@@ -4,11 +4,8 @@ title: PFND3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT
 author: windows-driver-content
 description: The PFND3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT callback function checks the details of hardware support for multiplane overlays.
 ms.assetid: d67108d9-c3fa-41dc-ac6f-79243c1f7b68
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT callback function checks the details
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT Pfnd3dkmtCheckmultiplaneoverlaysupport; 

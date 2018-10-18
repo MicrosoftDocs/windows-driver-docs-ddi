@@ -6,11 +6,8 @@ description: FltBuildDefaultSecurityDescriptor builds a default security descrip
 old-location: ifsk\fltbuilddefaultsecuritydescriptor.htm
 tech.root: ifsk
 ms.assetid: 0e886c08-38dd-4960-9b79-4c6e68ac488d
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_a_to_d_5b763c42-6bea-4c52-8148-60c18a2f2aeb.xml, FltBuildDefaultSecurityDescriptor, FltBuildDefaultSecurityDescriptor function [Installable File System Drivers], fltkernel/FltBuildDefaultSecurityDescriptor, ifsk.fltbuilddefaultsecuritydescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

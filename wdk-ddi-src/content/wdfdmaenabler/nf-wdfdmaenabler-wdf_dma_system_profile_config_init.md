@@ -6,11 +6,8 @@ description: The WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function initializes a drive
 old-location: wdf\wdf_dma_system_profile_config_init.htm
 tech.root: wdf
 ms.assetid: C3E9B4D6-A1BB-425E-A131-D93C3219D28B
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT, WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function, kmdf.wdf_dma_system_profile_config_init, wdf.wdf_dma_system_profile_config_init, wdfdmaenabler/WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h

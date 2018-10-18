@@ -6,11 +6,8 @@ description: The IOCTL_GNSS_LISTEN_AGNSS control code is used by the GNSS adapte
 old-location: gnss\ioctl_gnss_listen_agnss.htm
 tech.root: gnss
 ms.assetid: B065CDE1-BB6D-4209-881B-50743A38EDBE
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IOCTL_GNSS_LISTEN_AGNSS, IOCTL_GNSS_LISTEN_AGNSS control, IOCTL_GNSS_LISTEN_AGNSS control code [Sensor Devices], gnss.ioctl_gnss_listen_agnss, gnssdriver/IOCTL_GNSS_LISTEN_AGNSS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: gnssdriver.h
 req.include-header: 

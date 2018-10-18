@@ -6,11 +6,8 @@ description: The KsGetMultiplePinFactoryItems function retrieves pin property it
 old-location: stream\ksgetmultiplepinfactoryitems.htm
 tech.root: stream
 ms.assetid: 43210484-dcae-49b7-bda3-50d6c06ee2c0
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsGetMultiplePinFactoryItems, KsGetMultiplePinFactoryItems function [Streaming Media Devices], ksproxy/KsGetMultiplePinFactoryItems, ksproxy_cd252212-9317-4e1a-9f57-ee18afc23766.xml, stream.ksgetmultiplepinfactoryitems
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ksproxy.h
 req.include-header: Ksproxy.h

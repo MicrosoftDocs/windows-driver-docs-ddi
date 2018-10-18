@@ -6,11 +6,8 @@ description: The OutputAsTypeWide method changes the type of a symbol in a symbo
 old-location: debugger\outputastypewide.htm
 tech.root: debugger
 ms.assetid: f43b702d-37a7-484d-8a18-fa190e9189b2
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging],OutputAsTypeWide method, IDebugSymbolGroup2.OutputAsTypeWide, IDebugSymbolGroup2::OutputAsTypeWide, OutputAsTypeWide, OutputAsTypeWide method [Windows Debugging], OutputAsTypeWide method [Windows Debugging],IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::OutputAsTypeWide, debugger.outputastypewide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

@@ -6,11 +6,8 @@ description: Assigns a framework queue object to which the UcmTcpciCx dispatches
 old-location: buses\ucmtcpciportcontrollersethardwarerequestqueue.htm
 tech.root: usbref
 ms.assetid: 47142adb-4d22-41eb-b455-93409bbffffb
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: UcmTcpciPortControllerSetHardwareRequestQueue, UcmTcpciPortControllerSetHardwareRequestQueue method [Buses], buses.ucmtcpciportcontrollersethardwarerequestqueue, ucmtcpciportcontroller/UcmTcpciPortControllerSetHardwareRequestQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ucmtcpciportcontroller.h
 req.include-header: 

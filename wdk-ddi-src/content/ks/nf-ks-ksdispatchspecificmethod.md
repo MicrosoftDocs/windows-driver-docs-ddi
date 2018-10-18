@@ -6,11 +6,8 @@ description: The KsDispatchSpecificMethod function dispatches a method to a spec
 old-location: stream\ksdispatchspecificmethod.htm
 tech.root: stream
 ms.assetid: d23ba3a3-9fcf-46a5-88dd-42af389c8598
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsDispatchSpecificMethod, KsDispatchSpecificMethod function [Streaming Media Devices], ks/KsDispatchSpecificMethod, ksfunc_9304d127-8930-4e0e-b39f-aefc10e54131.xml, stream.ksdispatchspecificmethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

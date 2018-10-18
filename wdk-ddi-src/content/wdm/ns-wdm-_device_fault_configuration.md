@@ -4,11 +4,8 @@ title: _DEVICE_FAULT_CONFIGURATION
 author: windows-driver-content
 description: This structure is used in seting the device fault reporting state
 ms.assetid: ccd97b0c-9ecc-47e3-b0c3-1c202139b06b
-ms.author: windowsdriverdev
 ms.date: 09/30/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DEVICE_FAULT_CONFIGURATION, DEVICE_FAULT_CONFIGURATION, *PDEVICE_FAULT_CONFIGURATION, 
 req.header: wdm.h
 req.include-header:

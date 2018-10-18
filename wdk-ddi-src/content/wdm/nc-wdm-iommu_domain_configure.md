@@ -4,11 +4,8 @@ title: IOMMU_DOMAIN_CONFIGURE
 author: windows-driver-content
 description: Configures a domain for use.
 ms.assetid: 1b5394c2-0dc9-49a2-a749-37c40c60bf3b
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Configures a domain for use. All DMA blocked until the domain is configured.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 IOMMU_DOMAIN_CONFIGURE IommuDomainConfigure; 
@@ -77,7 +74,7 @@ IOMMU_DOMAIN_CONFIGURE *PIOMMU_DOMAIN_CONFIGURE
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

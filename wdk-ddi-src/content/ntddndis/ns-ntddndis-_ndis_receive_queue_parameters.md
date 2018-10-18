@@ -6,11 +6,8 @@ description: The NDIS_RECEIVE_QUEUE_PARAMETERS structure contains the configurat
 old-location: netvista\ndis_receive_queue_parameters.htm
 tech.root: netvista
 ms.assetid: fba87554-766d-45e2-8257-584ee78dd873
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNDIS_RECEIVE_QUEUE_PARAMETERS, NDIS_RECEIVE_QUEUE_PARAMETERS, NDIS_RECEIVE_QUEUE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_QUEUE_PARAMETERS, PNDIS_RECEIVE_QUEUE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_QUEUE_PARAMETERS, netvista.ndis_receive_queue_parameters, ntddndis/NDIS_RECEIVE_QUEUE_PARAMETERS, ntddndis/PNDIS_RECEIVE_QUEUE_PARAMETERS, virtual_machine_queue_ref_7c1b89fc-ccdb-4bf4-89ab-d2278be7355b.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ndis.h
@@ -87,9 +84,9 @@ Set the <b>Size</b> member to <b>NDIS_SIZEOF_RECEIVE_QUEUE_PARAMETERS_REVISION_1
 ### -field Flags
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of the following flags. The following flags are valid for the 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-allocate-queue">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-allocate-queue">
      OID_RECEIVE_FILTER_ALLOCATE_QUEUE</a> OID and the 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-queue-parameters">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-queue-parameters">
      OID_RECEIVE_FILTER_QUEUE_PARAMETERS</a> set and query OID:
 
 
@@ -114,7 +111,7 @@ The network adapter must split a received packet at an offset equal to or greate
 <div class="alert"><b>Note</b>  Starting with NDIS 6.30, splitting packet data into separate lookahead buffers is no longer supported. Miniport drivers that support NDIS 6.30 or later versions must ignore this flag.</div>
 
 The following flags are valid for the 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-queue-parameters">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-queue-parameters">
      OID_RECEIVE_FILTER_QUEUE_PARAMETERS</a> set OID and <a href="https://msdn.microsoft.com/library/windows/hardware/hh439820">NDIS_STATUS_RECEIVE_FILTER_QUEUE_PARAMETERS</a> status indication:
 
 #### NDIS_RECEIVE_QUEUE_PARAMETERS_FLAGS_CHANGED
@@ -231,9 +228,9 @@ This member is reserved for NDIS.
 
 
 The <b>NDIS_RECEIVE_QUEUE_PARAMETERS</b> structure is used in the 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-allocate-queue">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-allocate-queue">
     OID_RECEIVE_FILTER_ALLOCATE_QUEUE</a> OID and the 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-queue-parameters">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-queue-parameters">
     OID_RECEIVE_FILTER_QUEUE_PARAMETERS</a> OID.
 
 In NDIS 6.30, the <b>NDIS_RECEIVE_QUEUE_PARAMETERS</b> structure is also used in <a href="https://msdn.microsoft.com/library/windows/hardware/hh439820">NDIS_STATUS_RECEIVE_FILTER_QUEUE_PARAMETERS</a> status indications.
@@ -263,12 +260,12 @@ In NDIS 6.30, the <b>NDIS_RECEIVE_QUEUE_PARAMETERS</b> structure is also used in
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-allocate-queue">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-allocate-queue">
    OID_RECEIVE_FILTER_ALLOCATE_QUEUE</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-queue-parameters">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-queue-parameters">
    OID_RECEIVE_FILTER_QUEUE_PARAMETERS</a>
  
 

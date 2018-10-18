@@ -6,11 +6,8 @@ description: The WDF_WRITE_PORT_BUFFER_ULONG function writes a number of ULONG v
 old-location: wdf\wdf_write_port_buffer_ulong.htm
 tech.root: wdf
 ms.assetid: 4FBBC349-B6D0-4F99-AF34-FA237199431E
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WDF_WRITE_PORT_BUFFER_ULONG, WDF_WRITE_PORT_BUFFER_ULONG function, wdf.wdf_write_port_buffer_ulong, wdfhwaccess/WDF_WRITE_PORT_BUFFER_ULONG
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfhwaccess.h
 req.include-header: 

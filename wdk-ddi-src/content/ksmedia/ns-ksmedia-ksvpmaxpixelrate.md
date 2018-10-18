@@ -6,11 +6,8 @@ description: The KSVPMAXPIXELRATE structure is used to describe the maximum pixe
 old-location: stream\ksvpmaxpixelrate.htm
 tech.root: stream
 ms.assetid: 6510e732-b0ad-43c7-87a3-3630fdfd848d
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PKSVPMAXPIXELRATE, KSVPMAXPIXELRATE, KSVPMAXPIXELRATE structure [Streaming Media Devices], PKSVPMAXPIXELRATE, PKSVPMAXPIXELRATE structure pointer [Streaming Media Devices], dvdref_c9ca0c83-e189-48b3-a798-95456c07ae0b.xml, ksmedia/KSVPMAXPIXELRATE, ksmedia/PKSVPMAXPIXELRATE, stream.ksvpmaxpixelrate"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksmedia.h
 req.include-header: Ksmedia.h

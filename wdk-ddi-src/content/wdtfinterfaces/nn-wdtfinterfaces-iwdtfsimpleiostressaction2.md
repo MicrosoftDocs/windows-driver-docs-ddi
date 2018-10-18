@@ -6,11 +6,8 @@ description: Defines operations for a simple asynchronous I/O functionality test
 old-location: dtf\iwdtfsimpleiostressaction2.htm
 tech.root: dtf
 ms.assetid: dc594873-2347-4ad8-9748-2d5a1fa4d8a7
-ms.author: windowsdriverdev
 ms.date: 4/4/2018
 ms.keywords: IWDTFSimpleIOStressAction2, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFSimpleIOStressAction2, dtf.iwdtfsimpleiostressaction2, wdtfinterfaces/IWDTFSimpleIOStressAction2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wdtfinterfaces.h
 req.include-header: 

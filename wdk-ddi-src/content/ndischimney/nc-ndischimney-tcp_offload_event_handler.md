@@ -6,11 +6,8 @@ description: NDIS calls a protocol driver's or intermediate driver's ProtocolInd
 old-location: netvista\protocoltcpoffloadevent.htm
 tech.root: netvista
 ms.assetid: b64c0f9e-aa3d-43c5-bdf5-c40cae3929e3
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: ProtocolTcpOffloadEvent, ProtocolTcpOffloadEvent callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_EVENT_HANDLER, TCP_OFFLOAD_EVENT_HANDLER callback, ndischimney/ProtocolTcpOffloadEvent, netvista.protocoltcpoffloadevent, tcp_chim_protocol_func_8cc440e3-7686-42dc-8fff-baf397394951.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
@@ -167,7 +164,7 @@ To propagate the indication to the overlying driver or host stack, the intermedi
 The 
       <b>NdisOffloadHandle</b> that the offload target stored in its context for the offloaded TCP connection.
       For more information, see 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/referencing-offloaded-state-through-an-intermediate-driver">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/referencing-offloaded-state-through-an-intermediate-driver">
       Referencing Offloaded State Through an Intermediate Driver</a>.
 
 </li>

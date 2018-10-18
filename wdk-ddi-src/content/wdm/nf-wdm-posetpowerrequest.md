@@ -6,11 +6,8 @@ description: The PoSetPowerRequest routine increments the count for the specifie
 old-location: kernel\posetpowerrequest.htm
 tech.root: kernel
 ms.assetid: 5670a4dd-3804-4532-8765-2fdffe1c4a0b
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: PoSetPowerRequest, PoSetPowerRequest routine [Kernel-Mode Driver Architecture], kernel.posetpowerrequest, portn_8f3abb03-a324-4841-b630-b62344d656ce.xml, wdm/PoSetPowerRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

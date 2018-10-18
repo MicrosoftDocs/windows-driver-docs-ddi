@@ -6,11 +6,8 @@ description: Multiplies one value of type LONG_PTR by another.
 old-location: kernel\rtllongptrmult.htm
 tech.root: kernel
 ms.assetid: AF602DBE-E106-4105-B56B-DE9EE7691A05
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlLongPtrMult, RtlLongPtrMult function [Kernel-Mode Driver Architecture], kernel.rtllongptrmult, ntintsafe/RtlLongPtrMult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

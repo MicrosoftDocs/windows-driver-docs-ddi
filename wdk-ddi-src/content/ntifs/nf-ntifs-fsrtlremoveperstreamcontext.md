@@ -6,11 +6,8 @@ description: FsRtlRemovePerStreamContext removes a per-stream context structure 
 old-location: ifsk\fsrtlremoveperstreamcontext.htm
 tech.root: ifsk
 ms.assetid: 4b046cfa-8f38-4910-8cb3-125395292bd2
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FsRtlRemovePerStreamContext, FsRtlRemovePerStreamContext function [Installable File System Drivers], fsrtlref_904bd4dd-c254-4762-8af6-dcc49aaa5c92.xml, ifsk.fsrtlremoveperstreamcontext, ntifs/FsRtlRemovePerStreamContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

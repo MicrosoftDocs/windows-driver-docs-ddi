@@ -6,11 +6,8 @@ description: The NET_DMA_PNP_NOTIFICATION structure specifies a power management
 old-location: netvista\net_dma_pnp_notification.htm
 tech.root: netvista
 ms.assetid: 8a505077-dec6-47cc-8730-d68e19309d3b
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNET_DMA_PNP_NOTIFICATION, NET_DMA_PNP_NOTIFICATION, NET_DMA_PNP_NOTIFICATION structure [Network Drivers Starting with Windows Vista], PNET_DMA_PNP_NOTIFICATION, PNET_DMA_PNP_NOTIFICATION structure pointer [Network Drivers Starting with Windows Vista], _NET_DMA_PNP_NOTIFICATION, netdma/NET_DMA_PNP_NOTIFICATION, netdma/PNET_DMA_PNP_NOTIFICATION, netdma_ref_276d7903-f1d8-4fd4-91f0-dda490f8da02.xml, netvista.net_dma_pnp_notification"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: netdma.h
 req.include-header: Netdma.h

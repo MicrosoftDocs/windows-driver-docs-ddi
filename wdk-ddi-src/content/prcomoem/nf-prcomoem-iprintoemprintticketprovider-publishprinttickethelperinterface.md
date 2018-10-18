@@ -6,11 +6,8 @@ description: The IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface
 old-location: print\iprintoemprintticketprovider_publishprinttickethelperinterface.htm
 tech.root: print
 ms.assetid: d7512da3-eb47-4e22-9df8-b152b39cbcad
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrintOemPrintTicketProvider interface [Print Devices],PublishPrintTicketHelperInterface method, IPrintOemPrintTicketProvider.PublishPrintTicketHelperInterface, IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface, PublishPrintTicketHelperInterface, PublishPrintTicketHelperInterface method [Print Devices], PublishPrintTicketHelperInterface method [Print Devices],IPrintOemPrintTicketProvider interface, prcomoem/IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface, print.iprintoemprintticketprovider_publishprinttickethelperinterface, print_ticket-package_b314b169-8111-4320-89fc-a99fb6e30639.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

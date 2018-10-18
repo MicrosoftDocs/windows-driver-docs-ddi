@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The pfnGetCaps callback function defines an entry point for video specific caps.
 old-location: display\pfnd3d12ddi_video_getcaps.htm
 ms.assetid: 6875B754-115F-481D-8D46-2A383BA6B5E7
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: PFND3D12DDI_VIDEO_GETCAPS, PFND3D12DDI_VIDEO_GETCAPS callback, d3d12umddi/pfnGetCaps, display.pfnd3d12ddi_video_getcaps, pfnGetCaps, pfnGetCaps callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h

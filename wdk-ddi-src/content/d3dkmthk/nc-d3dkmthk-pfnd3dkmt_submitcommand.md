@@ -4,11 +4,8 @@ title: PFND3DKMT_SUBMITCOMMAND
 author: windows-driver-content
 description: The PFND3DKMT_SUBMITCOMMAND callback function is used to submit command buffers on contexts that support graphics processing unit (GPU) virtual addressing.
 ms.assetid: 1c4650b3-31ef-4432-908d-fb8511727686
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3DKMT_SUBMITCOMMAND callback function is used to submit command buffers 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SUBMITCOMMAND Pfnd3dkmtSubmitcommand; 

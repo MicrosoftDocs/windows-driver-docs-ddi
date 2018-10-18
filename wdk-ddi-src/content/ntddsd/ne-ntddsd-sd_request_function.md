@@ -6,11 +6,8 @@ description: The SD_REQUEST_FUNCTION enumeration indicates the type of request p
 old-location: sd\sd_request_function.htm
 tech.root: SD
 ms.assetid: 9eec7597-be3a-4811-8786-11de0f9ac3da
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: SD.sd_request_function, SDRF_DEVICE_COMMAND, SDRF_GET_PROPERTY, SDRF_SET_PROPERTY, SD_REQUEST_FUNCTION, SD_REQUEST_FUNCTION enumeration [Buses], ntddsd/SDRF_DEVICE_COMMAND, ntddsd/SDRF_GET_PROPERTY, ntddsd/SDRF_SET_PROPERTY, ntddsd/SD_REQUEST_FUNCTION, sd-structs_db2d511c-e3e2-46e6-9d01-1723c1c8ec7f.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddsd.h
 req.include-header: Ntddsd.h

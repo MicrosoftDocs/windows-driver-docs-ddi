@@ -6,11 +6,8 @@ description: The IWiaMiniDrv::drvAcquireItemData method is called by the WIA ser
 old-location: image\iwiaminidrv_drvacquireitemdata.htm
 tech.root: image
 ms.assetid: ab49643b-ab77-49ea-9a3b-e3a184cd29d0
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvAcquireItemData method, IWiaMiniDrv.drvAcquireItemData, IWiaMiniDrv::drvAcquireItemData, MiniDrv_fb4ad9e4-6648-4038-9b72-4e521d4dd5f2.xml, drvAcquireItemData, drvAcquireItemData method [Imaging Devices], drvAcquireItemData method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvacquireitemdata, wiamindr_lh/IWiaMiniDrv::drvAcquireItemData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h

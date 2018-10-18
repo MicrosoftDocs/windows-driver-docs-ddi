@@ -6,11 +6,8 @@ description: The FlushAdapterBuffersEx routine flushes any data that remains in 
 old-location: kernel\flushadapterbuffersex.htm
 tech.root: kernel
 ms.assetid: D211CB5B-9FE6-4829-950D-F7DDD1A00F76
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: FlushAdapterBuffersEx, FlushAdapterBuffersEx callback function [Kernel-Mode Driver Architecture], PFLUSH_ADAPTER_BUFFERS_EX, PFLUSH_ADAPTER_BUFFERS_EX callback, kernel.flushadapterbuffersex, wdm/FlushAdapterBuffersEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

@@ -6,11 +6,8 @@ description: Sets stream information for each stream enabled by the client drive
 old-location: buses\_ucxstaticstreamssetstreaminfo.htm
 tech.root: usbref
 ms.assetid: 40AE9327-ABB7-4A63-AC90-494E2BC26C08
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: UcxStaticStreamsSetStreamInfo, UcxStaticStreamsSetStreamInfo method [Buses], buses._ucxstaticstreamssetstreaminfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ucxsstreams.h
 req.include-header: Ucxclass.h, Ucxstreams.h

@@ -6,11 +6,8 @@ description: The GetMessage method serves as the retrieval point for any DirectM
 old-location: audio\iallocatormxf_getmessage.htm
 tech.root: audio
 ms.assetid: d5b56926-bcfb-4411-b24d-cc0758852510
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: GetMessage, GetMessage method [Audio Devices], GetMessage method [Audio Devices],IAllocatorMXF interface, IAllocatorMXF interface [Audio Devices],GetMessage method, IAllocatorMXF.GetMessage, IAllocatorMXF::GetMessage, audio.iallocatormxf_getmessage, audmp-routines_24207ff5-69a9-47bd-a756-78c2a218080e.xml, dmusicks/IAllocatorMXF::GetMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dmusicks.h
 req.include-header: Dmusicks.h

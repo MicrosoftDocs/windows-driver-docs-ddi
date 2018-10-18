@@ -4,11 +4,8 @@ title: IOCTL_PANEL_GET_BRIGHTNESS
 author: windows-driver-content
 description: Returns the brightness level for the display panel.
 ms.assetid: 1bbd8248-a81a-40dd-972b-80b187da28da
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: ioctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: ntddvdeo.h
 req.include-header:
 req.target-type:

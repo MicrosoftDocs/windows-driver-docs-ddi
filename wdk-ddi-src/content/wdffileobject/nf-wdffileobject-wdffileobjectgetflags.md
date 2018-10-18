@@ -6,11 +6,8 @@ description: The WdfFileObjectGetFlags method returns the flags that a specified
 old-location: wdf\wdffileobjectgetflags.htm
 tech.root: wdf
 ms.assetid: f2f30acb-cab7-444a-8b86-6001a8a325b9
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFFileObjectRef_5f2f8f12-9a16-4fb5-88ae-ee726a278cc5.xml, WdfFileObjectGetFlags, WdfFileObjectGetFlags method, kmdf.wdffileobjectgetflags, wdf.wdffileobjectgetflags, wdffileobject/WdfFileObjectGetFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdffileobject.h
 req.include-header: Wdf.h

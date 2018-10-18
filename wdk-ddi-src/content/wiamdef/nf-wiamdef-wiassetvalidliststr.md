@@ -6,11 +6,8 @@ description: The wiasSetValidListStr function sets the valid values for a WIA_PR
 old-location: image\wiassetvalidliststr.htm
 tech.root: image
 ms.assetid: d2745d91-6696-4946-9f90-a9cb48c7980f
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: image.wiassetvalidliststr, wiamdef/wiasSetValidListStr, wiasFncs_c18aeb74-5c44-43ea-be9e-5132f45a5f77.xml, wiasSetValidListStr, wiasSetValidListStr function [Imaging Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiamdef.h
 req.include-header: Wiamdef.h

@@ -6,11 +6,8 @@ description:
 old-location: print\iprintoemengine_disabledriver.htm
 tech.root: print
 ms.assetid: 1BCE08D6-B25E-4C1B-B0F7-A53BE0E705A1
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: DisableDriver, DisableDriver method [Print Devices], DisableDriver method [Print Devices],IPrintOemEngine interface, IPrintOemEngine interface [Print Devices],DisableDriver method, IPrintOemEngine.DisableDriver, IPrintOemEngine::DisableDriver, prcomoem/IPrintOemEngine::DisableDriver, print.iprintoemengine_disabledriver
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: 

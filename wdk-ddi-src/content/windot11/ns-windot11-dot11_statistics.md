@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_statistics.htm
 tech.root: netvista
 ms.assetid: 714ad442-596b-4e67-82ce-a50e1808a3af
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*PDOT11_STATISTICS, DOT11_STATISTICS, DOT11_STATISTICS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_613cdf17-03f8-47df-963b-f64ce23031e9.xml, PDOT11_STATISTICS, PDOT11_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_statistics, windot11/DOT11_STATISTICS, windot11/PDOT11_STATISTICS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -59,7 +56,7 @@ The DOT11_STATISTICS structure records statistical counters for the 802.11 inter
 ## -syntax
 
 
-````
+```cpp
 typedef struct DOT11_STATISTICS {
   NDIS_OBJECT_HEADER         Header;
   ULONGLONG                  ullFourWayHandshakeFailures;
@@ -69,7 +66,7 @@ typedef struct DOT11_STATISTICS {
   DOT11_MAC_FRAME_STATISTICS MacMcastCounters;
   DOT11_PHY_FRAME_STATISTICS PhyCounters[1];
 } DOT11_STATISTICS, *PDOT11_STATISTICS;
-````
+```
 
 
 ## -struct-fields
@@ -175,7 +172,7 @@ The miniport driver must maintain an entry within the
 Entries within the
      <b>PhyCounters</b> array must be in the same order as the list of supported PHYs that the driver returns
      when queried by
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
      OID_DOT11_SUPPORTED_PHY_TYPES</a>.
 
 

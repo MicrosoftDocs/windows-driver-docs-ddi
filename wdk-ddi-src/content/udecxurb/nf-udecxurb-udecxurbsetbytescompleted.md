@@ -6,11 +6,8 @@ description: Sets the number of bytes transferred for the URB contained within a
 old-location: buses\udecxurbsetbytescompleted.htm
 tech.root: usbref
 ms.assetid: 86C320B0-F679-4A8E-9015-D2BD8059A6CD
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: UdecxUrbSetBytesCompleted, UdecxUrbSetBytesCompleted function [Buses], buses.udecxurbsetbytescompleted, udecxurb/UdecxUrbSetBytesCompleted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: udecxurb.h
 req.include-header: Udecx.h

@@ -4,11 +4,8 @@ title: _D3DKMT_PINDIRECTFLIPRESOURCES
 author: windows-driver-content
 description: Indirect flip resources.
 ms.assetid: 85ecd291-4c2d-4cb2-bb8c-67c21d61b0a6
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_PINDIRECTFLIPRESOURCES, D3DKMT_PINDIRECTFLIPRESOURCES, 
 req.header: d3dkmthk.h
 req.include-header:

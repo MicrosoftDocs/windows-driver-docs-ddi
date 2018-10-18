@@ -6,11 +6,8 @@ description: The StorPortPauseDevice routine pauses a specific logical unit devi
 old-location: storage\storportpausedevice.htm
 tech.root: storage
 ms.assetid: b656882a-1cc7-45e8-bda4-c1450b599b4b
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: StorPortPauseDevice, StorPortPauseDevice routine [Storage Devices], storage.storportpausedevice, storport/StorPortPauseDevice, storprt_5506e943-789f-49d7-a9bc-c837fcd1bba2.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

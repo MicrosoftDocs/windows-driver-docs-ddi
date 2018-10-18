@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NET_PACKET_CONTEXT_ATTRIBUTES_INIT_TYPE macro initializes a NetAdapterCx client driver's NET_PACKET_CONTEXT_ATTRIBUTES structure for a NET_PACKET and inserts driver-defined context information into the structure.
 tech.root: netvista
 ms.assetid: b0c8ae6f-e12d-473b-9278-3dc768af9a22
-ms.author: windowsdriverdev
 ms.date: 02/07/2018
 ms.topic: macro
 ms.keywords: NET_PACKET_CONTEXT_ATTRIBUTES_INIT_TYPE

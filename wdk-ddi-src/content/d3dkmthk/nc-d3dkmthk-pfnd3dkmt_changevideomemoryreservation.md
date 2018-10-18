@@ -4,11 +4,8 @@ title: PFND3DKMT_CHANGEVIDEOMEMORYRESERVATION
 author: windows-driver-content
 description: The PFND3DKMT_CHANGEVIDEOMEMORYRESERVATION callback function changes a video memory reservation.
 ms.assetid: 2c2dd799-7d1f-4837-8e77-13c3107908ba
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3DKMT_CHANGEVIDEOMEMORYRESERVATION callback function changes a video mem
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_CHANGEVIDEOMEMORYRESERVATION Pfnd3dkmtChangevideomemoryreservation; 

@@ -6,11 +6,8 @@ description: NDIS calls a protocol driver's or intermediate driver's ProtocolIni
 old-location: netvista\protocolinitiateoffloadcomplete.htm
 tech.root: netvista
 ms.assetid: 0300d841-b211-42f8-b60d-d7d37201e778
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: INITIATE_OFFLOAD_COMPLETE_HANDLER, INITIATE_OFFLOAD_COMPLETE_HANDLER callback, ProtocolInitiateOffloadComplete, ProtocolInitiateOffloadComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/ProtocolInitiateOffloadComplete, netvista.protocolinitiateoffloadcomplete, tcp_chim_protocol_func_24008ba0-91ac-43de-a1b7-ba82e15057ad.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
@@ -102,14 +99,14 @@ In response to an underlying offload target's or intermediate driver's call to t
 An intermediate driver must propagate the completion of the initiate offload operation to the driver
     above it by calling 
     <b>NdisMInitiateOffloadComplete</b>. For more information, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/propagating-the-completion-of-a-state-manipulation-operation">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/propagating-the-completion-of-a-state-manipulation-operation">
     Propagating the Completion of a State-Manipulation Operation</a>.
 
 From the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure that was passed to its 
     <i>ProtocolInitiateOffloadComplete</i> function, the intermediate driver constructs an 
     <a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure. For more information, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/reusing-an-ndis-protocol-offload-block-list-structure">Reusing an
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/reusing-an-ndis-protocol-offload-block-list-structure">Reusing an
     NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST Structure</a>. When calling the 
     <b>NdisMInitiateOffloadComplete</b> function, the intermediate driver passes a pointer (the 
     <i>OffloadBlockList</i> parameter) to this newly constructed NDIS_MINIPORT_OFFLOAD_BLOCK_LIST

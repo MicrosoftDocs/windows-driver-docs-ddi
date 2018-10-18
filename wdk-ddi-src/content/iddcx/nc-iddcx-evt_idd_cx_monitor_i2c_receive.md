@@ -6,11 +6,8 @@ description: EVT_IDD_CX_MONITOR_I2C_RECEIVE is called by the OS to return data r
 old-location: display\evt_idd_cx_monitor_i2c_receive.htm
 tech.root: display
 ms.assetid: f4d55fb9-57da-4f75-a0ab-89cc9516ac49
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: EVT_IDD_CX_MONITOR_I2C_RECEIVE, EVT_IDD_CX_MONITOR_I2C_RECEIVE callback, EvtIddCxMonitorI2cReceive, EvtIddCxMonitorI2cReceive callback function [Display Devices], PFN_IDD_CX_MONITOR_I2C_RECEIVE, PFN_IDD_CX_MONITOR_I2C_RECEIVE callback function pointer [Display Devices], display.evt_idd_cx_monitor_i2c_receive, iddcx/EvtIddCxMonitorI2cReceive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: iddcx.h
 req.include-header: 

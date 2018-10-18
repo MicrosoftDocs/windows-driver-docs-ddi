@@ -6,11 +6,8 @@ description:
 old-location: stream\kspin_communication.htm
 tech.root: stream
 ms.assetid: DBBEEE9D-82C1-4387-AA6D-C5D86EDB138C
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: "*PKSPIN_COMMUNICATION, KSPIN_COMMUNICATION, KSPIN_COMMUNICATION enumeration [Streaming Media Devices], KSPIN_COMMUNICATION_BOTH, KSPIN_COMMUNICATION_BRIDGE, KSPIN_COMMUNICATION_NONE, KSPIN_COMMUNICATION_SINK, KSPIN_COMMUNICATION_SOURCE, PKSPIN_COMMUNICATION, PKSPIN_COMMUNICATION enumeration pointer [Streaming Media Devices], ks/KSPIN_COMMUNICATION, ks/KSPIN_COMMUNICATION_BOTH, ks/KSPIN_COMMUNICATION_BRIDGE, ks/KSPIN_COMMUNICATION_NONE, ks/KSPIN_COMMUNICATION_SINK, ks/KSPIN_COMMUNICATION_SOURCE, ks/PKSPIN_COMMUNICATION, stream.kspin_communication"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ks.h
 req.include-header:
@@ -56,7 +53,7 @@ req.typenames: KSPIN_COMMUNICATION, *PKSPIN_COMMUNICATION
 ## -syntax
 
 
-````
+```cpp
 typedef enum  {
   KSPIN_COMMUNICATION_NONE,
   KSPIN_COMMUNICATION_SINK,
@@ -64,7 +61,7 @@ typedef enum  {
   KSPIN_COMMUNICATION_BOTH,
   KSPIN_COMMUNICATION_BRIDGE
 } KSPIN_COMMUNICATION, *PKSPIN_COMMUNICATION;
-````
+```
 
 
 ## -enum-fields

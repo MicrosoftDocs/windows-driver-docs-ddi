@@ -6,11 +6,8 @@ description: The class driver passes an HW_TIME_CONTEXT structure as a parameter
 old-location: stream\hw_time_context.htm
 tech.root: stream
 ms.assetid: 4f349089-ff50-4f69-941f-ba3e9225abec
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PHW_TIME_CONTEXT, HW_TIME_CONTEXT, HW_TIME_CONTEXT structure [Streaming Media Devices], PHW_TIME_CONTEXT, PHW_TIME_CONTEXT structure pointer [Streaming Media Devices], _HW_TIME_CONTEXT, strclass-struct_2c3e01ab-3b53-47cb-816f-994c0b7113b0.xml, stream.hw_time_context, strmini/HW_TIME_CONTEXT, strmini/PHW_TIME_CONTEXT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: strmini.h
 req.include-header: Strmini.h

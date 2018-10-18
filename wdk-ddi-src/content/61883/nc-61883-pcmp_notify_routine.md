@@ -6,11 +6,8 @@ description: This routine is called for plug notification.
 old-location: ieee\pcmp_notify_routine.htm
 tech.root: IEEE
 ms.assetid: 0576D73A-0A36-4AB7-952C-19B56FD246D8
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: 61883/CmpNotifyRoutine, CmpNotifyRoutine, CmpNotifyRoutine callback function, IEEE.pcmp_notify_routine, PCMP_NOTIFY_ROUTINE, PCMP_NOTIFY_ROUTINE callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: 61883.h
 req.include-header: 

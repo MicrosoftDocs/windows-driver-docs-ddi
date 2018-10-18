@@ -1,5 +1,0 @@
-# [Display](../_display/index.md)
-## [D3Dcaps.h](index.md)
-### [_D3DLIGHTINGCAPS structure](../d3dcaps/ns-d3dcaps-_d3dlightingcaps.md)
-### [_D3DPrimCaps structure](../d3dcaps/ns-d3dcaps-_d3dprimcaps.md)
-### [_D3DTRANSFORMCAPS structure](../d3dcaps/ns-d3dcaps-_d3dtransformcaps.md)

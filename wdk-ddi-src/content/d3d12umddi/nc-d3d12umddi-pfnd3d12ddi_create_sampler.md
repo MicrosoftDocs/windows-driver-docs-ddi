@@ -4,11 +4,8 @@ title: PFND3D12DDI_CREATE_SAMPLER
 author: windows-driver-content
 description: Create sampler.
 ms.assetid: b15f237f-2ef3-4b88-88cb-4a2f3c9e6fc9
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Create sampler.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATE_SAMPLER Pfnd3d12ddiCreateSampler; 

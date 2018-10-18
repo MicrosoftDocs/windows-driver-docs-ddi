@@ -4,12 +4,9 @@ title: _D3DSTENCILOP
 author: windows-driver-content
 description: 
 ms.assetid: 9c7e713d-edef-4725-b55c-600916dfb7aa
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: _D3DSTENCILOP, D3DSTENCILOP, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d9types.h
 req.include-header:
 req.target-type:

@@ -6,11 +6,8 @@ description: The EvtSerCx2Control event callback function is called by version 2
 old-location: serports\evtsercx2control.htm
 tech.root: serports
 ms.assetid: C7032B34-5912-48B1-8D59-BAE6C0FEFB2C
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: 2/EvtSerCx2Control, EVT_SERCX2_CONTROL, EVT_SERCX2_CONTROL callback, EvtSerCx2Control, EvtSerCx2Control callback function [Serial Ports], serports.evtsercx2control
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sercx.h
 req.include-header: 
@@ -413,7 +410,7 @@ The <b>EVT_SERCX2_CONTROL</b> function type is defined in the Sercx.h header fil
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/peripheral-drivers-for-devices-on-sercx2-managed-serial-ports">SERIAL_EV_XXX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/serports/peripheral-drivers-for-devices-on-sercx2-managed-serial-ports">SERIAL_EV_XXX</a>
 
 
 

@@ -6,11 +6,8 @@ description: The IPrintCoreUI2::QuerySimulationSupport method retrieves a spoole
 old-location: print\iprintcoreui2_querysimulationsupport.htm
 tech.root: print
 ms.assetid: 0136df19-9491-47ea-9a8f-c9a932646686
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrintCoreUI2 interface [Print Devices],QuerySimulationSupport method, IPrintCoreUI2.QuerySimulationSupport, IPrintCoreUI2::QuerySimulationSupport, QuerySimulationSupport, QuerySimulationSupport method [Print Devices], QuerySimulationSupport method [Print Devices],IPrintCoreUI2 interface, prcomoem/IPrintCoreUI2::QuerySimulationSupport, print.iprintcoreui2_querysimulationsupport, print_unidrv-pscript_ui_96f40d94-5dfc-4707-ac4d-0f043a829dd2.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

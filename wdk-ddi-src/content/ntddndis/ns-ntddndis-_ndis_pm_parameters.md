@@ -6,11 +6,8 @@ description: The NDIS_PM_PARAMETERS structure specifies the current or new power
 old-location: netvista\ndis_pm_parameters.htm
 tech.root: netvista
 ms.assetid: 7747645c-398f-434e-9f0c-21b6d3c7d963
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNDIS_PM_PARAMETERS, NDIS_PM_PARAMETERS, NDIS_PM_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_PM_PARAMETERS, PNDIS_PM_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_PARAMETERS, miniport_power_management_ref_dc82d32a-ee0e-4167-b322-f0b91ece8002.xml, netvista.ndis_pm_parameters, ntddndis/NDIS_PM_PARAMETERS, ntddndis/PNDIS_PM_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ntddndis.h
@@ -244,7 +241,7 @@ If this flag is set, the network adapter is enabled to generate a wake-up event 
        
 
 For more information about this WOL capability, see 
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/low-power-on-media-disconnect">Low Power on Media
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/low-power-on-media-disconnect">Low Power on Media
        Disconnect</a>.
 
 
@@ -262,7 +259,7 @@ If this flag is set, the  network adapter is enabled to generate a wake-up event
 
 <ul>
 <li>
-The network adapter receives a packet that matches a receive packet filter. The adapter is configured with these filters through OID set requests of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>.
+The network adapter receives a packet that matches a receive packet filter. The adapter is configured with these filters through OID set requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>.
 
 </li>
 <li>
@@ -383,7 +380,7 @@ An overlying driver should not try to enable capabilities that a network adapter
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>
 
 
 

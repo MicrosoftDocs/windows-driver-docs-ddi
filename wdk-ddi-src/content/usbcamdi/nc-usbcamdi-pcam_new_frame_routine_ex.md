@@ -6,11 +6,8 @@ description: A camera minidriver's CamNewVideoFrameEx callback function initiali
 old-location: stream\camnewvideoframeex.htm
 tech.root: stream
 ms.assetid: 739e434e-9621-4927-bf1d-2e7c3b2828d7
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: CamNewVideoFrameEx, CamNewVideoFrameEx routine [Streaming Media Devices], PCAM_NEW_FRAME_ROUTINE_EX, stream.camnewvideoframeex, usbcamdi/CamNewVideoFrameEx, usbcmdpr_e7d56a12-73a6-4778-91be-24962683c475.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h

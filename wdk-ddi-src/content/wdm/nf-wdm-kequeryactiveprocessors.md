@@ -6,11 +6,8 @@ description: The KeQueryActiveProcessors routine returns a bitmask of the curren
 old-location: kernel\kequeryactiveprocessors.htm
 tech.root: kernel
 ms.assetid: 3a7e50e9-0aeb-46e8-a1d2-7267df4921ad
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: KeQueryActiveProcessors, KeQueryActiveProcessors routine [Kernel-Mode Driver Architecture], k105_963f6993-c875-4939-89ce-7abf2e7a9c22.xml, kernel.kequeryactiveprocessors, wdm/KeQueryActiveProcessors
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
@@ -64,7 +61,7 @@ The <b>KeQueryActiveProcessors</b> routine returns a bitmask of the currently ac
 
 
 
-<b>KeQueryActiveProcessors</b> returns a [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) value that represents the set of currently active processors.
+<b>KeQueryActiveProcessors</b> returns a [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) value that represents the set of currently active processors.
 
 
 

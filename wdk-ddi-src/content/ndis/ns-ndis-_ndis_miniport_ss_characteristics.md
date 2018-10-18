@@ -6,11 +6,8 @@ description: The NDIS_MINIPORT_SS_CHARACTERISTICS structure specifies the pointe
 old-location: netvista\ndis_miniport_ss_characteristics.htm
 tech.root: netvista
 ms.assetid: 325E5717-6B84-45AE-85D4-BA1839DB76A2
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNDIS_MINIPORT_SS_CHARACTERISTICS, NDIS_MINIPORT_SS_CHARACTERISTICS, NDIS_MINIPORT_SS_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_SS_CHARACTERISTICS, PNDIS_MINIPORT_SS_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_SS_CHARACTERISTICS, ndis/NDIS_MINIPORT_SS_CHARACTERISTICS, ndis/PNDIS_MINIPORT_SS_CHARACTERISTICS, netvista.ndis_miniport_ss_characteristics"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -97,7 +94,7 @@ A pointer to the miniport driver's <a href="https://msdn.microsoft.com/9965E4EA-
 
 
 
-To register the handler functions for NDIS selective suspend, the miniport driver follows these steps when its <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a> function is called:
+To register the handler functions for NDIS selective suspend, the miniport driver follows these steps when its <a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">MiniportSetOptions</a> function is called:
 
 <ol>
 <li>
@@ -131,7 +128,7 @@ For more information on how to handle idle notifications for NDIS selective susp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
 
 

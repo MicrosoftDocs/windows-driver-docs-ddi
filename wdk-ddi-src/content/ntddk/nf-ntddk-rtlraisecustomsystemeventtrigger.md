@@ -4,7 +4,6 @@ title: RtlRaiseCustomSystemEventTrigger function
 author: windows-driver-content
 description: Allows NT services and kernel-mode and user-mode drivers to raise a custom trigger for a device.
 ms.assetid: b5f212a3-3b2a-46ce-ae89-112320d0b2a9
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: RtlRaiseCustomSystemEventTrigger
@@ -52,7 +51,7 @@ Allows NT services and kernel-mode and user-mode drivers to raise a custom trigg
 [_In_] A pointer to a [**_CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG**](ns-ntddk-_custom_system_event_trigger_config.md) structure that contains hte trigger identfier. Call [**CUSTOM_SYSTEM_EVENT_TRIGGER_INIT**](nf-ntddk-custom_system_event_trigger_init.md) to initialize the structure before calling the function.
 
 ## -returns
-This function returns STATUS_SUCCESS if the custom trigger was raised. Otherwise, an appropriate [NTSTATUS Value](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values) is returned.
+This function returns STATUS_SUCCESS if the custom trigger was raised. Otherwise, an appropriate [NTSTATUS Value](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values) is returned.
 
 | Error code                    | Description                                 |
 | ----------------------------- | ------------------------------------------- |

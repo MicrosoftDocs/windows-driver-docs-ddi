@@ -4,7 +4,6 @@ title: StorPortFreeDmaMemory function
 author: windows-driver-content
 description:  This function is the extended version of the StorPortFreeContiguousMemorySpecifyCache function. It deallocates a range of noncached memory in the nonpaged portion of the system address space.
 ms.assetid: c32b4578-c75b-45ec-82f7-ff8081346aa8
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: StorPortFreeDmaMemory
@@ -44,7 +43,7 @@ targetos: Windows
 
 ## -description
 
-This function is the extended version of the [StorPortFreeContiguousMemorySpecifyCache function](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/storport/nf-storport-storportfreecontiguousmemoryspecifycache). It deallocates a range of noncached memory in the nonpaged portion of the system address space.
+This function is the extended version of the [StorPortFreeContiguousMemorySpecifyCache function](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportfreecontiguousmemoryspecifycache). It deallocates a range of noncached memory in the nonpaged portion of the system address space.
 
 ## -parameters
 

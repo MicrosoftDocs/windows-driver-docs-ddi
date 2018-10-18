@@ -6,11 +6,8 @@ description: The MarkCancelable method enables the canceling of the I/O request.
 old-location: wdf\iwdfiorequest_markcancelable.htm
 tech.root: wdf
 ms.assetid: 73e323a4-d40e-4414-92b7-310bfb0f6457
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IWDFIoRequest interface,MarkCancelable method, IWDFIoRequest.MarkCancelable, IWDFIoRequest::MarkCancelable, MarkCancelable, MarkCancelable method, MarkCancelable method,IWDFIoRequest interface, UMDFRequestObjectRef_c1304e95-724d-4ced-abc2-801b1606f43b.xml, umdf.iwdfiorequest_markcancelable, wdf.iwdfiorequest_markcancelable, wudfddi/IWDFIoRequest::MarkCancelable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>MarkCancelable</b> method enables the canceling of the I/O request.
 

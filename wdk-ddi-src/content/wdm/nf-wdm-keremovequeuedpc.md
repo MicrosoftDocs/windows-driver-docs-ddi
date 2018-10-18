@@ -6,11 +6,8 @@ description: The KeRemoveQueueDpc routine removes the specified DPC object from 
 old-location: kernel\keremovequeuedpc.htm
 tech.root: kernel
 ms.assetid: 9f4b076f-006b-47cd-b970-8beed8d7e804
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: KeRemoveQueueDpc, KeRemoveQueueDpc routine [Kernel-Mode Driver Architecture], k105_b07492b0-b6b2-4d15-b62c-437a4b33c0b6.xml, kernel.keremovequeuedpc, wdm/KeRemoveQueueDpc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

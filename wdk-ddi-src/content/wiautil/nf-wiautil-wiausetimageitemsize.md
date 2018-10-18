@@ -6,11 +6,8 @@ description: The wiauSetImageItemSize function calculates the size and width, in
 old-location: image\wiausetimageitemsize.htm
 tech.root: image
 ms.assetid: 5bf56435-df81-4555-91ca-5419883bb1e8
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: image.wiausetimageitemsize, wiauFncs_9def0e29-20fe-4e9b-b473-a2dbca9088da.xml, wiauSetImageItemSize, wiauSetImageItemSize function [Imaging Devices], wiautil/wiauSetImageItemSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiautil.h
 req.include-header: Wiautil.h

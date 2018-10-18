@@ -4,12 +4,9 @@ title: _ACPI_PLD_ROTATION enumeration
 author: windows-driver-content
 description: Describes rotation bits 115:118.
 ms.assetid: aac7540e-8bb2-4208-b917-ebdc74ff170a
-ms.author: windowsdriverdev
 ms.date: 10/2/2018
 ms.topic: enum
 ms.keywords: _ACPI_PLD_ROTATION, ACPI_PLD_ROTATION, *PACPI_PLD_ROTATION, AcpiPldRotation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: acpitabl.h
 req.include-header:
 req.target-type:

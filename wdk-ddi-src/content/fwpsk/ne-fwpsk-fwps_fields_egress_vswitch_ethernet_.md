@@ -6,11 +6,8 @@ description: The FWPS_FIELDS_EGRESS_VSWITCH_ETHERNET (formerly FWPS_FIELDS_EGRES
 old-location: netvista\fwps_fields_egress_vswitch_802_3.htm
 tech.root: netvista
 ms.assetid: de899526-ea77-4f0c-a05a-b28bb422a9b4
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FWPS_FIELDS_EGRESS_VSWITCH_ETHERNET, FWPS_FIELDS_EGRESS_VSWITCH_ETHERNET enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELDS_EGRESS_VSWITCH_ETHERNET_, FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_ETHER_TYPE, FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_FLAGS, FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_MAC_DESTINATION_ADDRESS, FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_MAC_DESTINATION_ADDRESS_TYPE, FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_MAC_SOURCE_ADDRESS, FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_MAC_SOURCE_ADDRESS_TYPE, FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_MAX, FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_VLAN_ID, FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_VSWITCH_DESTINATION_INTERFACE_ID, FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_VSWITCH_DESTINATION_INTERFACE_TYPE, FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_VSWITCH_DESTINATION_VM_ID, FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_VSWITCH_ID, FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_VSWITCH_NETWORK_TYPE, FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_VSWITCH_SOURCE_INTERFACE_ID, FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_VSWITCH_SOURCE_INTERFACE_TYPE, FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_VSWITCH_TENANT_NETWORK_ID, fwpsk/FWPS_FIELDS_EGRESS_VSWITCH_ETHERNET, fwpsk/FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_ETHER_TYPE, fwpsk/FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_FLAGS, fwpsk/FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_MAC_DESTINATION_ADDRESS, fwpsk/FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_MAC_DESTINATION_ADDRESS_TYPE, fwpsk/FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_MAC_SOURCE_ADDRESS, fwpsk/FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_MAC_SOURCE_ADDRESS_TYPE, fwpsk/FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_MAX, fwpsk/FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_VLAN_ID, fwpsk/FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_VSWITCH_DESTINATION_INTERFACE_ID, fwpsk/FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_VSWITCH_DESTINATION_INTERFACE_TYPE, fwpsk/FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_VSWITCH_DESTINATION_VM_ID, fwpsk/FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_VSWITCH_ID, fwpsk/FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_VSWITCH_NETWORK_TYPE, fwpsk/FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_VSWITCH_SOURCE_INTERFACE_ID, fwpsk/FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_VSWITCH_SOURCE_INTERFACE_TYPE, fwpsk/FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_VSWITCH_TENANT_NETWORK_ID, netvista.fwps_fields_egress_vswitch_802_3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
@@ -51,8 +48,8 @@ req.typenames: FWPS_FIELDS_EGRESS_VSWITCH_ETHERNET
 
 
 The FWPS_FIELDS_EGRESS_VSWITCH_ETHERNET (formerly FWPS_FIELDS_EGRESS_VSWITCH_802_3) enumeration type specifies the data field identifiers for the
-  FWPS_LAYER_EGRESS_VSWITCH_ETHERNET 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
+ FWPS_LAYER_EGRESS_VSWITCH_ETHERNET 
+ <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layer</a>.
 
 
 ## -enum-fields
@@ -92,7 +89,7 @@ The virtual switch egress virtual LAN (VLAN) identifier field.
 
 ### -field FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_VSWITCH_TENANT_NETWORK_ID
 
-The virtual switch egress  tenant network identifier field.
+The virtual switch egress tenant network identifier field.
 
 
 ### -field FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_VSWITCH_ID
@@ -112,7 +109,7 @@ The virtual switch egress Ethernet virtual switch source identifier field.
 
 ### -field FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_VSWITCH_SOURCE_INTERFACE_TYPE
 
-The virtual switch egress Ethernet virtual switch source interface type  field.
+The virtual switch egress Ethernet virtual switch source interface type field.
 
 
 ### -field FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_VSWITCH_SOURCE_VM_ID
@@ -120,24 +117,29 @@ The virtual switch egress Ethernet virtual switch source interface type  field.
 
 ### -field FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_VSWITCH_DESTINATION_INTERFACE_ID
 
-The virtual switch egress Ethernet virtual switch destination  interface identifier  field.
+The virtual switch egress Ethernet virtual switch destination interface identifier field.
 
 
 ### -field FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_VSWITCH_DESTINATION_INTERFACE_TYPE
 
-The virtual switch egress Ethernet virtual switch destination interface type  field.
+The virtual switch egress Ethernet virtual switch destination interface type field.
 
 
 ### -field FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_VSWITCH_DESTINATION_VM_ID
 
-The virtual switch egress Ethernet virtual switch destination virtual machine (VM) identifier  field.
+The virtual switch egress Ethernet virtual switch destination virtual machine (VM) identifier field.
 
 
 ### -field FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_L2_FLAGS
 
+A bitwise OR of Layer 2 (L2) flags. For a list of filtering condition flags, see [Filtering Condition Flags](https://docs.microsoft.com/windows/desktop/FWP/filtering-condition-flags-).
 
 ### -field FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_COMPARTMENT_ID
 
+The compartment that the network interface belongs to.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_MAX
 
@@ -146,5 +148,5 @@ The maximum value for this enumeration. This value might change in future versio
 
 #### - FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_FLAGS
 
-The virtual switch egress Ethernet flags  field.
+The virtual switch egress Ethernet flags field.
 

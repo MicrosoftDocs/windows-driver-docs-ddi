@@ -4,11 +4,8 @@ title: PFND3D12DDI_GETMIPPACKING
 author: windows-driver-content
 description: Gets MIP packing info.
 ms.assetid: 9b95e67c-7a52-4ae2-814a-b0358b0cb755
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Gets MIP packing info.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_GETMIPPACKING Pfnd3d12ddiGetmippacking; 

@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extihvperformpreassociate.htm
 tech.root: netvista
 ms.assetid: 5bf7a1ce-bff0-481e-8053-584fb6319146
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: DOT11EXTIHV_PERFORM_PRE_ASSOCIATE, Dot11ExtIhvPerformPreAssociate, Dot11ExtIhvPerformPreAssociate callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_431e221a-0022-47ad-b2bf-e7580eb889e8.xml, netvista.dot11extihvperformpreassociate, wlanihv/Dot11ExtIhvPerformPreAssociate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wlanihv.h
 req.include-header: Wlanihv.h, L2cmn.h
@@ -59,7 +56,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```cpp
 DOT11EXTIHV_PERFORM_PRE_ASSOCIATE Dot11ExtIhvPerformPreAssociate;
 
 DWORD APIENTRY Dot11ExtIhvPerformPreAssociate(
@@ -72,7 +69,7 @@ DWORD APIENTRY Dot11ExtIhvPerformPreAssociate(
   _Out_    PDWORD                             pdwReasonCode
 )
 { ... }
-````
+```
 
 
 ## -parameters
@@ -202,7 +199,7 @@ An IHV-defined value in the range from L2_REASON_CODE_IHV_BASE to (L2_REASON_COD
 </li>
 </ul>
 For more information about the pre-association operation, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/pre-association-operation-overview">Pre-Association Operation</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/pre-association-operation-overview">Pre-Association Operation</a>.
 
 
 
@@ -235,7 +232,7 @@ For more information about the pre-association operation, see
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-extensibility-functions">Native 802.11 IHV
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-ihv-extensibility-functions">Native 802.11 IHV
    Extensibility Functions</a>
 
 

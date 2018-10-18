@@ -6,11 +6,8 @@ description: Represents the context for the activation of a UWP device app for p
 old-location: print\iprinterextensioncontext_interface.htm
 tech.root: print
 ms.assetid: DD0B5E6F-8E16-48E1-967B-D188535E1320
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrinterExtensionContext, IPrinterExtensionContext interface [Print Devices], IPrinterExtensionContext interface [Print Devices],described, print.iprinterextensioncontext_interface, printerextension/IPrinterExtensionContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: printerextension.h
 req.include-header: 

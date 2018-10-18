@@ -6,11 +6,8 @@ description: The ScsiPortWriteRegisterUchar routine transfers a unsigned byte va
 old-location: storage\scsiportwriteregisteruchar.htm
 tech.root: storage
 ms.assetid: 67764b34-3bd3-42ad-a1f8-765b4f11fcf6
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: ScsiPortWriteRegisterUchar, ScsiPortWriteRegisterUchar routine [Storage Devices], scsiprt_11b9d3b9-2866-4f07-a685-68d48e993748.xml, srb/ScsiPortWriteRegisterUchar, storage.scsiportwriteregisteruchar
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: storport.h
 req.include-header: Miniport.h, Scsi.h, Storport.h
@@ -52,7 +49,7 @@ req.typenames:
 
 
 The <b>ScsiPortWriteRegisterUchar</b> routine transfers a unsigned byte value to the HBA.
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 

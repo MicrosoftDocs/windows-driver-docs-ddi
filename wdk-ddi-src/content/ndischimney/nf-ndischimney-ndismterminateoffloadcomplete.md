@@ -6,11 +6,8 @@ description: An offload target calls the NdisMTerminateOffloadComplete function 
 old-location: netvista\ndismterminateoffloadcomplete.htm
 tech.root: netvista
 ms.assetid: d444eae5-2e7c-41f2-9fb2-55e172505cf6
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisMTerminateOffloadComplete, NdisMTerminateOffloadComplete function [Network Drivers Starting with Windows Vista], ndischimney/NdisMTerminateOffloadComplete, netvista.ndismterminateoffloadcomplete, tcp_chim_ndis_func_3e692d5c-5cad-4567-8639-76f97bf2e39c.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
@@ -175,7 +172,7 @@ SndMax
 </li>
 </ul>
 For more information about passing outstanding send data, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-outstanding-send-data-during-and-after-an-offload-operation">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/handling-outstanding-send-data-during-and-after-an-offload-operation">
     Handling Outstanding Send Data During and After an Offload Operation</a>.
 
 If there is no outstanding send data on a TCP connection that is being terminated, the offload target
@@ -185,7 +182,7 @@ If there is no outstanding send data on a TCP connection that is being terminate
 There might be outstanding receive data on a TCP connection that is being uploaded. This is data that
     the offload target has received off the wire, processed, and acknowledged. For more information about
     processing such data, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/push-timer">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/push-timer">
     Handling Buffered Receive Data During a Terminate Offload Operation</a>.
 
 The offload target frees all resources, such as memory, that are associated with the terminated state

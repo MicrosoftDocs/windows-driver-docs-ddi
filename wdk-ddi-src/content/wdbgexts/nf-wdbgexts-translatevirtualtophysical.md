@@ -6,11 +6,8 @@ description: The TranslateVirtualToPhysical function translates a virtual memory
 old-location: debugger\translatevirtualtophysical.htm
 tech.root: debugger
 ms.assetid: 803f766a-e02f-4b9c-bfe0-6197e0f2855c
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: TranslateVirtualToPhysical, TranslateVirtualToPhysical function [Windows Debugging], WdbgExts_Ref_ec3ff314-8800-4f77-a40e-e127e6cf0133.xml, debugger.translatevirtualtophysical, wdbgexts/TranslateVirtualToPhysical
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h

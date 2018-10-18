@@ -6,11 +6,8 @@ description: The OpenLogFile2Wide method opens a log file that will receive outp
 old-location: debugger\openlogfile2wide.htm
 tech.root: debugger
 ms.assetid: 28d23e5e-4daf-4176-8d7b-af92eee8ccef
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugControl4 interface [Windows Debugging],OpenLogFile2Wide method, IDebugControl4.OpenLogFile2Wide, IDebugControl4::OpenLogFile2Wide, OpenLogFile2Wide, OpenLogFile2Wide method [Windows Debugging], OpenLogFile2Wide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::OpenLogFile2Wide, debugger.openlogfile2wide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

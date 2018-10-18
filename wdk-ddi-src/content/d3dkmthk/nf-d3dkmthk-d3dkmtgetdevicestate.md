@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMTGetDeviceState function retrieves the state of a device.
 old-location: display\d3dkmtgetdevicestate.htm
 ms.assetid: 8ea84934-63a7-40bf-8523-ccd2b9e5aceb
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DKMTGetDeviceState, D3DKMTGetDeviceState function [Display Devices], OpenGL_Functions_396da637-bbc6-478c-8ec9-534d82691c45.xml, d3dkmthk/D3DKMTGetDeviceState, display.d3dkmtgetdevicestate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

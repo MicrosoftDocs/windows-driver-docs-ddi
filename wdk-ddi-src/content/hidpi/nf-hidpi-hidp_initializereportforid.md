@@ -6,11 +6,8 @@ description: The HidP_InitializeReportForID routine initializes a HID report.
 old-location: hid\hidp_initializereportforid.htm
 tech.root: hid
 ms.assetid: 9d56a07e-8898-4bd6-93ae-752ff7d3b215
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: HidP_InitializeReportForID, HidP_InitializeReportForID routine [Human Input Devices], hid.hidp_initializereportforid, hidfunc_b02350cf-7d33-4a71-9afb-4b3c07e52650.xml, hidpi/HidP_InitializeReportForID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hidpi.h
 req.include-header: Hidpi.h
@@ -196,7 +193,7 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
  
 
  

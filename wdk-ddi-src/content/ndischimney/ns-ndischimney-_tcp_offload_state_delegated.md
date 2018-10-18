@@ -6,11 +6,8 @@ description: The TCP_OFFLOAD_STATE_DELEGATED structure contains the delegated va
 old-location: netvista\tcp_offload_state_delegated.htm
 tech.root: netvista
 ms.assetid: ab16cfa1-24f6-434a-a687-07e19172f185
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PTCP_OFFLOAD_STATE_DELEGATED, PTCP_OFFLOAD_STATE_DELEGATED, PTCP_OFFLOAD_STATE_DELEGATED structure pointer [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATE_DELEGATED, TCP_OFFLOAD_STATE_DELEGATED structure [Network Drivers Starting with Windows Vista], _TCP_OFFLOAD_STATE_DELEGATED, ndischimney/PTCP_OFFLOAD_STATE_DELEGATED, ndischimney/TCP_OFFLOAD_STATE_DELEGATED, netvista.tcp_offload_state_delegated, tcp_chim_struct_e835c163-e154-4b9c-b1bb-b658376fd89d.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
@@ -320,8 +317,8 @@ The
 
 This variable is used only in an initiate offload or terminate offload operation. For more
        information about how this variable is used, see 
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-outstanding-send-data-during-and-after-an-offload-operation">Handling Outstanding Send Data During and After an Offload Operation</a> and 
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-outstanding-send-data-during-a-terminate-offload-operation">Handling Outstanding Send Data During a Terminate Offload Operation</a>.
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/handling-outstanding-send-data-during-and-after-an-offload-operation">Handling Outstanding Send Data During and After an Offload Operation</a> and 
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/handling-outstanding-send-data-during-a-terminate-offload-operation">Handling Outstanding Send Data During a Terminate Offload Operation</a>.
 
 
 ### -field SendDataTail
@@ -339,9 +336,9 @@ The SendDataTail pointer points to the last NET_BUFFER_LIST structure whose NET_
 
 This variable is used only in an initiate offload or terminate offload operation. For more
        information about how this variable is used, see 
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-outstanding-send-data-during-and-after-an-offload-operation">Handling Outstanding Send Data During and After an Offload
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/handling-outstanding-send-data-during-and-after-an-offload-operation">Handling Outstanding Send Data During and After an Offload
        Operation</a> and 
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-outstanding-send-data-during-a-terminate-offload-operation">Handling Outstanding Send Data During a Terminate Offload
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/handling-outstanding-send-data-during-a-terminate-offload-operation">Handling Outstanding Send Data During a Terminate Offload
        Operation</a>
 
 
@@ -373,10 +370,10 @@ If the offload target does not support the send-backlog-size feature, it must wr
 
 A pointer to buffered receive data. The host stack can pass such data to the offload target when
       offloading a TCP connection. (For more information, see 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-buffered-receive-data-during-and-after-an-offload-operation">Handling Buffered Receive Data During and After an Offload Operation</a>.) The
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/handling-buffered-receive-data-during-and-after-an-offload-operation">Handling Buffered Receive Data During and After an Offload Operation</a>.) The
       offload target can pass such data to the host stack when uploading a TCP connection. (For more
       information, see 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/push-timer">Handling Buffered Receive Data During a Terminate Offload Operation</a>.)
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/push-timer">Handling Buffered Receive Data During a Terminate Offload Operation</a>.)
 
 
 ### -field ReceiveBacklogSize

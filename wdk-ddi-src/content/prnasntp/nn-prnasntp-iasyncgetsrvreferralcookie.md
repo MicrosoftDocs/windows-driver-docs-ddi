@@ -6,11 +6,8 @@ description:
 old-location: print\iasyncgetsrvreferralcookie.htm
 tech.root: print
 ms.assetid: F22F5706-7238-43C1-B1F6-E41A0F9F3665
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IAsyncGetSrvReferralCookie, IAsyncGetSrvReferralCookie interface [Print Devices], IAsyncGetSrvReferralCookie interface [Print Devices],described, print.iasyncgetsrvreferralcookie, prnasntp/IAsyncGetSrvReferralCookie
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: prnasntp.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_setrfstate_v1.htm
 tech.root: netvista
 ms.assetid: c4cc9119-6e95-4c76-a320-536cc2609e3e
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RIL_SetRFState_V1, RIL_SetRFState_V1 method [Network Drivers Starting with Windows Vista], netvista.ril_setrfstate_v1, rilapi/RIL_SetRFState_V1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rilapi.h
 req.include-header: 

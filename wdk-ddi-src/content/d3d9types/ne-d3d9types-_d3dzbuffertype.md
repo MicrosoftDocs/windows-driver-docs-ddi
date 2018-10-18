@@ -4,12 +4,9 @@ title: _D3DZBUFFERTYPE
 author: windows-driver-content
 description: 
 ms.assetid: 1a8382b7-a271-4a4c-8d0f-71c0f1ff9f3c
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: _D3DZBUFFERTYPE, D3DZBUFFERTYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d9types.h
 req.include-header:
 req.target-type:

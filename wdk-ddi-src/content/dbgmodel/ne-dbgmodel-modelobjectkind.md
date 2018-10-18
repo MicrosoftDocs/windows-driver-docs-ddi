@@ -4,12 +4,9 @@ title: ModelObjectKind
 author: windows-driver-content
 description: Describes what an IModelObject is intrinsically.
 ms.assetid: a51f5f4b-faf4-4a52-ba02-65fde8fc8654
-ms.author: windowsdriverdev
 ms.date: 07/16/2018
 ms.topic: enum
 ms.keywords: ModelObjectKind, , 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

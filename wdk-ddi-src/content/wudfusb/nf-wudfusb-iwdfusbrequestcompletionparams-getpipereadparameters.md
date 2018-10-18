@@ -6,11 +6,8 @@ description: The GetPipeReadParameters method retrieves parameters that are asso
 old-location: wdf\iwdfusbrequestcompletionparams_getpipereadparameters.htm
 tech.root: wdf
 ms.assetid: e5e3dfa0-49cc-4c2d-828e-fa5c95d3db8c
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: GetPipeReadParameters, GetPipeReadParameters method, GetPipeReadParameters method,IWDFUsbRequestCompletionParams interface, IWDFUsbRequestCompletionParams interface,GetPipeReadParameters method, IWDFUsbRequestCompletionParams.GetPipeReadParameters, IWDFUsbRequestCompletionParams::GetPipeReadParameters, UMDFRequestObjectRef_d98f8b7f-c264-4044-aaef-893c717be50a.xml, umdf.iwdfusbrequestcompletionparams_getpipereadparameters, wdf.iwdfusbrequestcompletionparams_getpipereadparameters, wudfusb/IWDFUsbRequestCompletionParams::GetPipeReadParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetPipeReadParameters</b> method retrieves parameters that are associated with the completion of a read request.
 

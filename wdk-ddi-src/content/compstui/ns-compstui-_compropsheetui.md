@@ -6,11 +6,8 @@ description: The COMPROPSHEETUI structure is used as an input parameter to CPSUI
 old-location: print\compropsheetui.htm
 tech.root: print
 ms.assetid: 7ebf46b7-5c31-482e-8644-a3d81f7dc5cc
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: "*PCOMPROPSHEETUI, COMPROPSHEETUI, COMPROPSHEETUI structure [Print Devices], PCOMPROPSHEETUI, PCOMPROPSHEETUI structure pointer [Print Devices], _COMPROPSHEETUI, compstui/COMPROPSHEETUI, compstui/PCOMPROPSHEETUI, cpsuifnc_9b1aab20-fcd7-41b5-8bc5-959ae606d6b8.xml, print.compropsheetui"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: compstui.h
 req.include-header: Compstui.h

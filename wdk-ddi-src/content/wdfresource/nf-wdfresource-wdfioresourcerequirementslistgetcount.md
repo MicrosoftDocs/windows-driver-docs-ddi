@@ -6,11 +6,8 @@ description: The WdfIoResourceRequirementsListGetCount method returns the number
 old-location: wdf\wdfioresourcerequirementslistgetcount.htm
 tech.root: wdf
 ms.assetid: 00a79e57-5915-49a3-b11f-223cc93c2e99
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFResourceObjectRef_927d5729-0c1e-4363-9f2d-b5fefba8e2f6.xml, WdfIoResourceRequirementsListGetCount, WdfIoResourceRequirementsListGetCount method, kmdf.wdfioresourcerequirementslistgetcount, wdf.wdfioresourcerequirementslistgetcount, wdfresource/WdfIoResourceRequirementsListGetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfresource.h
 req.include-header: Wdf.h
@@ -81,12 +78,12 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
-For more information about resource requirements lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
+For more information about resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 
 #### Examples
 
-The following code example shows how an <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff540870">EvtDeviceFilterRemoveResourceRequirements</a> callback function can obtain the number of logical configurations that are contained in a resource requirements list.
+The following code example shows how an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540870">EvtDeviceFilterRemoveResourceRequirements</a> callback function can obtain the number of logical configurations that are contained in a resource requirements list.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

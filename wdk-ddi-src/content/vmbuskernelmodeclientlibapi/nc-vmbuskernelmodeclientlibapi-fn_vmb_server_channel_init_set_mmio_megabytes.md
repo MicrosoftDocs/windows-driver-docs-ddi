@@ -4,11 +4,8 @@ title: FN_VMB_SERVER_CHANNEL_INIT_SET_MMIO_MEGABYTES
 author: windows-driver-content
 description: The VmbServerChannelInitSetMmioMegabytes function specifies the amount, megabytes, of guest memory-mapped I/O (MMIO) space to reserve for the device. 
 ms.assetid: d08cc2fd-2418-4047-b34c-09519ae0b531
-ms.author: windowsdriverdev
 ms.date: 09/13/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ The <b>VmbServerChannelInitSetMmioMegabytes</b> function specifies the amount, m
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_SERVER_CHANNEL_INIT_SET_MMIO_MEGABYTES FnVmbServerChannelInitSetMmioMegabytes; 

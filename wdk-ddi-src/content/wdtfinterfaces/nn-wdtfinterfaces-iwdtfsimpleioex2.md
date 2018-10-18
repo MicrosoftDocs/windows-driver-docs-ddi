@@ -6,11 +6,8 @@ description: Defines operations for a simple synchronous I/O functionality test.
 old-location: dtf\iwdtfsimpleioex2.htm
 tech.root: dtf
 ms.assetid: a916e6b1-692c-47e9-83cc-3aeae80fb624
-ms.author: windowsdriverdev
 ms.date: 4/4/2018
 ms.keywords: IWDTFSimpleIOEx2, IWDTFSimpleIOEx2 interface [Windows Device Testing Framework], IWDTFSimpleIOEx2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFSimpleIOEx2, dtf.iwdtfsimpleioex2, wdtfinterfaces/IWDTFSimpleIOEx2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wdtfinterfaces.h
 req.include-header: 
@@ -137,7 +134,7 @@ Storage volumes (class = Volume)
 </li>
 </ul>
 For more information about device classes, see 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">Device Setup Classes</a>.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">Device Setup Classes</a>.
 
 To learn more about the specifics of how the <b>IWDTFSimpleIOEx2</b> action 
 interface works, or to support additional device classes, try to implement a target-specific version 

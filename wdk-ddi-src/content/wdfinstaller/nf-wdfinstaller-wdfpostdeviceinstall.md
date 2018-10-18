@@ -6,11 +6,8 @@ description: The co-installer's WdfPostDeviceInstall function performs any opera
 old-location: wdf\wdfpostdeviceinstall.htm
 tech.root: wdf
 ms.assetid: 78942ef8-ecf9-481f-af60-2f1266a9e73f
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFCoinstallerRef_6a05795f-99bb-4f4d-975f-8d2de85adff0.xml, WdfPostDeviceInstall, WdfPostDeviceInstall function, kmdf.wdfpostdeviceinstall, wdf.wdfpostdeviceinstall, wdfinstaller/WdfPostDeviceInstall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfinstaller.h
 req.include-header: Wdfinstaller.h
@@ -68,7 +65,7 @@ A pointer to a null-terminated wide-character string that contains the directory
 
 ### -param InfSectionName [in, optional]
 
-A pointer to a null-terminated wide-character string that contains the <i>Wdf-install-section</i> name in the driver's INF file. For more information about this name, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/installing-the-framework-s-co-installer">Using the KMDF Co-installer</a>. If this pointer is <b>NULL</b>, the co-installer uses <b>WdfSection</b> for the name.
+A pointer to a null-terminated wide-character string that contains the <i>Wdf-install-section</i> name in the driver's INF file. For more information about this name, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/installing-the-framework-s-co-installer">Using the KMDF Co-installer</a>. If this pointer is <b>NULL</b>, the co-installer uses <b>WdfSection</b> for the name.
 
 
 ## -returns
@@ -93,7 +90,7 @@ For more information about the <b>WdfPostDeviceInstall</b> function and installe
 
 #### Examples
 
-For a code example that uses the <b>WdfPostDeviceInstall</b> function, see the installer for the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">NONPNP</a> sample.
+For a code example that uses the <b>WdfPostDeviceInstall</b> function, see the installer for the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">NONPNP</a> sample.
 
 <div class="code"></div>
 

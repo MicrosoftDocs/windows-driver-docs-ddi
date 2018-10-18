@@ -6,11 +6,8 @@ description: The IPortWMIRegistration interface is provided in Windows 7 and lat
 old-location: audio\iportwmiregistration.htm
 tech.root: audio
 ms.assetid: 0fb18e82-4853-459f-b8d3-4841ca3d8301
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: IPortWMIRegistration, IPortWMIRegistration interface [Audio Devices], IPortWMIRegistration interface [Audio Devices],described, audio.iportwmiregistration, audmp-routines_c7591b25-80f3-4d0e-ac6b-bc1dea55adb1.xml, portcls/IPortWMIRegistration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: portcls.h
 req.include-header: 

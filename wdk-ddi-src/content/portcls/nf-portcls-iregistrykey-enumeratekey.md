@@ -6,11 +6,8 @@ description: The EnumerateKey method returns information about the subkeys of th
 old-location: audio\iregistrykey_enumeratekey.htm
 tech.root: audio
 ms.assetid: 2438c994-a283-49fe-a39b-99de678df2e2
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: EnumerateKey, EnumerateKey method [Audio Devices], EnumerateKey method [Audio Devices],IRegistryKey interface, IRegistryKey interface [Audio Devices],EnumerateKey method, IRegistryKey.EnumerateKey, IRegistryKey::EnumerateKey, audio.iregistrykey_enumeratekey, audmp-routines_ef31b848-c963-4327-ba86-bca98383ad90.xml, portcls/IRegistryKey::EnumerateKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: Portcls.h

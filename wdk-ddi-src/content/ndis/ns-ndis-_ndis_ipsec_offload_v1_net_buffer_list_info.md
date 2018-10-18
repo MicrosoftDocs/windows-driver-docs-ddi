@@ -6,11 +6,8 @@ description: The NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO structure specifies 
 old-location: netvista\ndis_ipsec_offload_v1_net_buffer_list_info.htm
 tech.root: netvista
 ms.assetid: 990b3df6-5ef7-4201-a09d-d94822d0a8bb
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, CRYPTO_GENERIC_ERROR, CRYPTO_INVALID_PACKET_SYNTAX, CRYPTO_INVALID_PROTOCOL, CRYPTO_SUCCESS, CRYPTO_TRANSPORT_AH_AUTH_FAILED, CRYPTO_TRANSPORT_ESP_AUTH_FAILED, CRYPTO_TUNNEL_AH_AUTH_FAILED, CRYPTO_TUNNEL_ESP_AUTH_FAILED, NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, ndis/NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, ndis/PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, netvista.ndis_ipsec_offload_v1_net_buffer_list_info, tcpip_offload_ref_2e052bb5-6546-47a9-b51b-f1f77116835d.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -79,7 +76,7 @@ A structure that contains the following members:
 ### -field Receive.SaDeleteReq
 
 A USHORT value that, when set, indicates that the TCP/IP transport should issue the 
-       <a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">
+       <a href="https://msdn.microsoft.com/library/gg155485.aspx">
        OID_TCP_TASK_IPSEC_DELETE_SA</a> OID once to delete the inbound SA that the packet was received over
        and once again to delete the outbound SA that corresponds to the deleted inbound SA. The network
        interface card (NIC) must not remove either of these SAs before it receives the corresponding
@@ -266,7 +263,7 @@ If the NIC did not perform IPsec checks on the packet, the miniport driver does 
 To create space for another SA on the NIC, the miniport driver of the NIC can set 
     <b>SaDeleteReq</b> in the <b>NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO</b> structure for a receive packet. The
     TCP/IP transport subsequently issues 
-    <a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a> once
+    <a href="https://msdn.microsoft.com/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a> once
     to delete the inbound SA that the packet was received over and once again to delete the outbound SA that
     corresponds to the deleted inbound SA. The NIC must not remove either of these SAs before receiving the
     corresponding OID_TCP_TASK_IPSEC_DELETE_SA request. The miniport driver of the NIC can set 
@@ -302,7 +299,7 @@ To set and get the IPsec information, use the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a>
+<a href="https://msdn.microsoft.com/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a>
  
 
  

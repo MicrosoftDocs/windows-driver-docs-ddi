@@ -4,11 +4,8 @@ title: _D3DKMT_PLANE_SPECIFIC_OUTPUT_FLAGS
 author: windows-driver-content
 description: Plane-specific output flags.
 ms.assetid: 3d12b392-98c7-424c-a4a3-de0ab8138688
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_PLANE_SPECIFIC_OUTPUT_FLAGS, D3DKMT_PLANE_SPECIFIC_OUTPUT_FLAGS, 
 req.header: d3dkmthk.h
 req.include-header:

@@ -6,11 +6,8 @@ description: The SpbControllerSetIoOtherCallback method registers an SPB control
 old-location: spb\spbcontrollersetioothercallback.htm
 tech.root: SPB
 ms.assetid: 605E2353-8C82-4005-BB72-4CB44146A253
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: SPB.spbcontrollersetioothercallback, SpbControllerSetIoOtherCallback, SpbControllerSetIoOtherCallback method [Buses], spbcx/SpbControllerSetIoOtherCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: spbcx.h
 req.include-header: 

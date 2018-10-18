@@ -6,11 +6,8 @@ description: RxAcquireSharedFcbResourceInMRxEx acquires the FCB resource for a n
 old-location: ifsk\rxacquiresharedfcbresourceinmrxex.htm
 tech.root: ifsk
 ms.assetid: bf8390db-7e42-4860-8cf6-df3459f16cea
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RxAcquireSharedFcbResourceInMRxEx, RxAcquireSharedFcbResourceInMRxEx routine [Installable File System Drivers], ifsk.rxacquiresharedfcbresourceinmrxex, mrxfcb/RxAcquireSharedFcbResourceInMRxEx, rxref_2b8fc5d6-96e5-45a0-897a-f55964e6cc8a.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mrxfcb.h
 req.include-header: Mrxfcb.h

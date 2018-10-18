@@ -6,11 +6,8 @@ description: The KeClearEvent routine sets an event to a not-signaled state.
 old-location: kernel\keclearevent.htm
 tech.root: kernel
 ms.assetid: ded54c88-3da0-42ec-88be-865d3cb87651
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: KeClearEvent, KeClearEvent routine [Kernel-Mode Driver Architecture], k105_1ea5c68a-0b59-48ec-911b-058b6a3e586b.xml, kernel.keclearevent, wdm/KeClearEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

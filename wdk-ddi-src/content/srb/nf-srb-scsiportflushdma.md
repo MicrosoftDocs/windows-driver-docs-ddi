@@ -6,11 +6,8 @@ description: The ScsiPortFlushDma routine flushes any data cached in the system 
 old-location: storage\scsiportflushdma.htm
 tech.root: storage
 ms.assetid: 9cf4286b-1ff7-4113-a2dc-d8813c633dd6
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: ScsiPortFlushDma, ScsiPortFlushDma routine [Storage Devices], scsiprt_3c2fc1a8-0f37-4735-a9b8-dcec220ee5bf.xml, srb/ScsiPortFlushDma, storage.scsiportflushdma
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h
@@ -52,7 +49,7 @@ req.typenames:
 
 
 The <b>ScsiPortFlushDma</b> routine flushes any data cached in the system DMA controller at the end of a transfer or terminates a system DMA transfer.
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 

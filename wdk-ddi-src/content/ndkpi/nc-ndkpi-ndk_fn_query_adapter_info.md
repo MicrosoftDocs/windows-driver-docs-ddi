@@ -6,11 +6,8 @@ description: The NdkQueryAdapterInfo (NDK_FN_QUERY_ADAPTER_INFO) function retrie
 old-location: netvista\ndk_fn_query_adapter_info.htm
 tech.root: netvista
 ms.assetid: A307584E-CBF6-4CEB-8A0F-D519DA7599D3
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NDK_FN_QUERY_ADAPTER_INFO, NDK_FN_QUERY_ADAPTER_INFO callback, NdkQueryAdapterInfo, NdkQueryAdapterInfo callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkQueryAdapterInfo, netvista.ndk_fn_query_adapter_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndkpi.h
 req.include-header: Ndkpi.h

@@ -4,7 +4,6 @@ title: D3DKMTGetPresentQueueEvent function
 author: windows-driver-content
 description: Get present queue event.
 ms.assetid: 4cdafbbf-1868-48c2-8f0e-68b334dfb872
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: D3DKMTGetPresentQueueEvent

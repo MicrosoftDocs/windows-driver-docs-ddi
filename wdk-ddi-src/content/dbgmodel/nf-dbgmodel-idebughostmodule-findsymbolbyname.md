@@ -4,7 +4,6 @@ title: IDebugHostModule::FindSymbolByName
 author: windows-driver-content
 description: The FindSymbolByName method will find a single global symbol of the given name within the module. 
 ms.assetid: 05e3a31b-cab3-43fe-b764-1610ba5ca981
-ms.author: windowsdriverdev
 ms.date: 09/18/2018 
 ms.topic: method
 ms.keywords: IDebugHostModule::FindSymbolByName, FindSymbolByName, IDebugHostModule.FindSymbolByName, IDebugHostModule::FindSymbolByName, IDebugHostModule.FindSymbolByName

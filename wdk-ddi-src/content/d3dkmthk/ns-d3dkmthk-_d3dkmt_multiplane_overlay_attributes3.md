@@ -4,11 +4,8 @@ title: _D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES3
 author: windows-driver-content
 description: Contains multiplane overlay attributes.
 ms.assetid: df7e60d8-a1f8-4bca-9e7f-70c575b5cc96
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES3, D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES3, 
 req.header: d3dkmthk.h
 req.include-header:

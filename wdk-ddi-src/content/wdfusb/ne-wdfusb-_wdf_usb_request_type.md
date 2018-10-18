@@ -6,11 +6,8 @@ description: The WDF_USB_REQUEST_TYPE enumeration identifies the types of USB re
 old-location: wdf\wdf_usb_request_type.htm
 tech.root: wdf
 ms.assetid: 4d10cefb-1039-4c48-b9f7-c4a530a6514b
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*PWDF_USB_REQUEST_TYPE, DFUsbRef_b3c4cd6e-66ac-40b3-b78b-c550f14c3e94.xml, PWDF_USB_REQUEST_TYPE, PWDF_USB_REQUEST_TYPE enumeration pointer, WDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE enumeration, WdfUsbRequestTypeDeviceControlTransfer, WdfUsbRequestTypeDeviceString, WdfUsbRequestTypeDeviceUrb, WdfUsbRequestTypeInvalid, WdfUsbRequestTypeNoFormat, WdfUsbRequestTypePipeAbort, WdfUsbRequestTypePipeRead, WdfUsbRequestTypePipeReset, WdfUsbRequestTypePipeUrb, WdfUsbRequestTypePipeWrite, _WDF_USB_REQUEST_TYPE, kmdf.wdf_usb_request_type, wdf.wdf_usb_request_type, wdfusb/PWDF_USB_REQUEST_TYPE, wdfusb/WDF_USB_REQUEST_TYPE, wdfusb/WdfUsbRequestTypeDeviceControlTransfer, wdfusb/WdfUsbRequestTypeDeviceString, wdfusb/WdfUsbRequestTypeDeviceUrb, wdfusb/WdfUsbRequestTypeInvalid, wdfusb/WdfUsbRequestTypeNoFormat, wdfusb/WdfUsbRequestTypePipeAbort, wdfusb/WdfUsbRequestTypePipeRead, wdfusb/WdfUsbRequestTypePipeReset, wdfusb/WdfUsbRequestTypePipeUrb, wdfusb/WdfUsbRequestTypePipeWrite"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
@@ -72,42 +69,42 @@ This value is not used.
 
 ### -field WdfUsbRequestTypeDeviceString
 
-A request to <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/working-with-usb-devices">obtain a device's Unicode strings</a>.
+A request to <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/working-with-usb-devices">obtain a device's Unicode strings</a>.
 
 
 ### -field WdfUsbRequestTypeDeviceControlTransfer
 
-A request to <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/working-with-usb-devices">send a control transfer</a>.
+A request to <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/working-with-usb-devices">send a control transfer</a>.
 
 
 ### -field WdfUsbRequestTypeDeviceUrb
 
-A request to <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/working-with-usb-devices">send a URB to a device</a>.
+A request to <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/working-with-usb-devices">send a URB to a device</a>.
 
 
 ### -field WdfUsbRequestTypePipeWrite
 
-A request to <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/working-with-usb-pipes">write to a pipe</a>.
+A request to <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/working-with-usb-pipes">write to a pipe</a>.
 
 
 ### -field WdfUsbRequestTypePipeRead
 
-A request to <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/working-with-usb-pipes">read from a pipe</a>.
+A request to <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/working-with-usb-pipes">read from a pipe</a>.
 
 
 ### -field WdfUsbRequestTypePipeAbort
 
-A request to <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/working-with-usb-pipes">stop a pipe</a>.
+A request to <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/working-with-usb-pipes">stop a pipe</a>.
 
 
 ### -field WdfUsbRequestTypePipeReset
 
-A request to <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/working-with-usb-pipes">reset a pipe</a>.
+A request to <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/working-with-usb-pipes">reset a pipe</a>.
 
 
 ### -field WdfUsbRequestTypePipeUrb
 
-A request to <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/working-with-usb-pipes">send a URB to a pipe</a>.
+A request to <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/working-with-usb-pipes">send a URB to a pipe</a>.
 
 
 ## -remarks

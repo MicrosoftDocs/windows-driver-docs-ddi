@@ -6,11 +6,8 @@ description: The NdisGetCurrentSystemTime function returns the current system ti
 old-location: netvista\ndisgetcurrentsystemtime.htm
 tech.root: netvista
 ms.assetid: eef32784-ea27-42c0-9a7a-74ce3d76665d
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisGetCurrentSystemTime, NdisGetCurrentSystemTime macro [Network Drivers Starting with Windows Vista], ndis/NdisGetCurrentSystemTime, ndis_sysinfo_ref_cfd2358c-a52a-43d9-a07b-c64abb3e28b1.xml, netvista.ndisgetcurrentsystemtime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ndis.h
 req.include-header: Ndis.h

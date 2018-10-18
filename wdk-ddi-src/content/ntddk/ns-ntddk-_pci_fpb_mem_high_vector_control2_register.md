@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The FPB MEM High Vector Control 2 Register. See section 7.y.7.
 tech.root: pci 
 ms.assetid: 435ee278-e851-4f1c-a041-a66a975eb3ac
-ms.author: windowsdriverdev
 ms.date: 09/30/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _PCI_FPB_MEM_HIGH_VECTOR_CONTROL2_REGISTER, PCI_FPB_MEM_HIGH_VECTOR_CONTROL2_REGISTER, *PPCI_FPB_MEM_HIGH_VECTOR_CONTROL2_REGISTER, 
 req.header: ntddk.h
 req.include-header:

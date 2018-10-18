@@ -6,11 +6,8 @@ description: The KsPersistDeviceProfile API commits the profile information to t
 old-location: stream\kspersistdeviceprofile.htm
 tech.root: stream
 ms.assetid: 4EC3E99B-C73C-4EAC-9EBD-BB45ABFCE8EC
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsPersistDeviceProfile, KsPersistDeviceProfile function [Streaming Media Devices], ks/KsPersistDeviceProfile, stream.kspersistdeviceprofile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ksmedia.h

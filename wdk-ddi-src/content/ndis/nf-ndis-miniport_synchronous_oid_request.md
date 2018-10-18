@@ -6,11 +6,8 @@ description: NDIS calls a miniport driver's MiniportSynchronousOidRequest callba
 old-location: netvista\miniport_synchronous_oid_request.htm
 tech.root: netvista
 ms.assetid: 0DDF9CF8-91F6-4D7C-A8E8-FC425BF155CB
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: MINIPORT_SYNCHRONOUS_OID_REQUEST, MiniportSynchronousOidRequest, MiniportSynchronousOidRequest function [Network Drivers Starting with Windows Vista], ndis/MiniportSynchronousOidRequest, netvista.miniport_synchronous_oid_request
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -209,7 +206,7 @@ Miniport drivers must not return NDIS_STATUS_PENDING or NDIS_STATUS_REQUEST_ABOR
 Miniport drivers may return NDIS_STATUS_NOT_ACCEPTED after NDIS calls <a href="https://msdn.microsoft.com/e41240c0-17be-42ef-a72c-c5311115cf64">
        MiniportDevicePnPEventNotify</a> to notify the driver of the device’s surprise removal. However, miniport drivers may still complete the OID request with a different status code, if it is possible to do so. For more info, see each OID’s specific documentation.
 
-Miniport drivers are expected to complete Synchronous OID requests quickly without blocking, waiting, or sleeping. Synchronous OID requests are only used for low-latency operations, and miniport drivers should strive to complete them within several milliseconds. Most OID requests are delivered to <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-oid-requests-in-a-miniport-adapter">MiniportOidRequest</a>, which is permitted to pend or wait for longer durations.
+Miniport drivers are expected to complete Synchronous OID requests quickly without blocking, waiting, or sleeping. Synchronous OID requests are only used for low-latency operations, and miniport drivers should strive to complete them within several milliseconds. Most OID requests are delivered to <a href="https://docs.microsoft.com/windows-hardware/drivers/network/handling-oid-requests-in-a-miniport-adapter">MiniportOidRequest</a>, which is permitted to pend or wait for longer durations.
 
 
 NDIS does not serialize Synchronous OID requests against each other, against other OID requests, against <a href="https://msdn.microsoft.com/047241a5-6f52-4a82-a334-8508f0de5e1a">MiniportPause</a>, against <a href="https://msdn.microsoft.com/15f82163-a1b5-4cef-a53e-8a97adb2cd92">MiniportResetEx</a>, or against power transitions. It is the responsibility of the miniport driver to implement its own synchronization and to fail requests that are delivered at a time when the request cannot be handled successfully.
@@ -240,7 +237,7 @@ Miniport drivers that implement NDIS Selective Suspend are incompatible with Syn
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-oid-requests-in-a-miniport-adapter">MiniportOidRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/handling-oid-requests-in-a-miniport-adapter">MiniportOidRequest</a>
 
 
 

@@ -4,11 +4,8 @@ title: _EFI_QUERY_VARIABLE_INFO_IN
 author: windows-driver-content
 description: 
 ms.assetid: 7ac6192e-d0f5-4e0a-a3c8-11cf3041d551
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _EFI_QUERY_VARIABLE_INFO_IN, EFI_QUERY_VARIABLE_INFO_IN, *PEFI_QUERY_VARIABLE_INFO_IN, 
 req.header: treevariableservice.h
 req.include-header:

@@ -6,11 +6,8 @@ description: The FsRtlIsAnsiCharacterLegalFat macro determines whether an ANSI c
 old-location: ifsk\fsrtlisansicharacterlegalfat.htm
 tech.root: ifsk
 ms.assetid: 4bbd50a8-1f1f-45d9-9b63-6c1576fe7b98
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FsRtlIsAnsiCharacterLegalFat, FsRtlIsAnsiCharacterLegalFat function [Installable File System Drivers], fsrtlref_9d13203c-5fc4-4f4f-9372-09459f053bbc.xml, ifsk.fsrtlisansicharacterlegalfat, ntifs/FsRtlIsAnsiCharacterLegalFat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ntifs.h
 req.include-header: Ntifs.h

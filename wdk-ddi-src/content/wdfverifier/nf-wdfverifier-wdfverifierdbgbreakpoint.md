@@ -6,11 +6,8 @@ description: The WdfVerifierDbgBreakPoint function breaks into a kernel debugger
 old-location: wdf\wdfverifierdbgbreakpoint.htm
 tech.root: wdf
 ms.assetid: 55b8a6de-f20b-4d2d-8235-4837bc4a0d7d
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDebugRef_e59a7661-75d0-49ac-bac3-a5845cb78226.xml, WdfVerifierDbgBreakPoint, WdfVerifierDbgBreakPoint function, kmdf.wdfverifierdbgbreakpoint, wdf.wdfverifierdbgbreakpoint, wdfverifier/WdfVerifierDbgBreakPoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfverifier.h
 req.include-header: Wdf.h
@@ -86,9 +83,9 @@ The <b>WdfVerifierDbgBreakPoint</b> function breaks into a kernel debugger if on
 								</li>
 <li>Driver Verifier is enabled, the  driver was built with framework version 1.9 or later, and neither <b>VerifierOn</b> nor <b>DbgBreakOnError</b> is set.</li>
 </ul>
-For more information about registry entries that you can use to debug your driver, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/registry-values-for-debugging-kmdf-drivers">Registry Entries for Debugging Framework-Based Drivers</a>.
+For more information about registry entries that you can use to debug your driver, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/registry-values-for-debugging-kmdf-drivers">Registry Entries for Debugging Framework-Based Drivers</a>.
 
-For more information about debugging your driver, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/debugging-driver-installation">Debugging a KMDF Driver</a>.
+For more information about debugging your driver, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/debugging-driver-installation">Debugging a KMDF Driver</a>.
 
 
 #### Examples

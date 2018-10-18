@@ -6,11 +6,8 @@ description: This function is not supported.
 old-location: netvista\fwpsdereferencevswitchpacketcontext0.htm
 tech.root: netvista
 ms.assetid: 9A315227-7305-4068-81DE-BD25F733E650
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FwpsDereferencevSwitchPacketContext0, FwpsDereferencevSwitchPacketContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsDereferencevSwitchPacketContext0, netvista.fwpsdereferencevswitchpacketcontext0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpsk.h
 req.include-header: Fwpsk.h

@@ -6,11 +6,8 @@ description: This function is used by clients (miniport drivers) that do not wan
 old-location: stream\ksgeneratethermalevent.htm
 tech.root: stream
 ms.assetid: CE450017-1792-4B69-8289-902396D0D7B1
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsGenerateThermalEvent, KsGenerateThermalEvent function [Streaming Media Devices], ks/KsGenerateThermalEvent, stream.ksgeneratethermalevent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: 

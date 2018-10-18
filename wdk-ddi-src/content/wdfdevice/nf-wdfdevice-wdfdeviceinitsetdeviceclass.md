@@ -6,11 +6,8 @@ description: The WdfDeviceInitSetDeviceClass method specifies a GUID that identi
 old-location: wdf\wdfdeviceinitsetdeviceclass.htm
 tech.root: wdf
 ms.assetid: c87a8368-3804-4a07-92c8-65a453d0808f
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_9c2c2390-3dcc-40f4-ba43-16c8988dbfae.xml, WdfDeviceInitSetDeviceClass, WdfDeviceInitSetDeviceClass method, kmdf.wdfdeviceinitsetdeviceclass, wdf.wdfdeviceinitsetdeviceclass, wdfdevice/WdfDeviceInitSetDeviceClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h
@@ -53,7 +50,7 @@ req.typenames:
 
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfDeviceInitSetDeviceClass</b> method specifies a GUID that identifies the device's <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a>. 
+The <b>WdfDeviceInitSetDeviceClass</b> method specifies a GUID that identifies the device's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">device setup class</a>. 
 
 
 ## -parameters
@@ -88,13 +85,13 @@ None
 
 The registry can contain values that override the values that a driver specifies when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff546035">WdfDeviceInitAssignSDDLString</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff546090">WdfDeviceInitSetDeviceType</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff546074">WdfDeviceInitSetCharacteristics</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff546097">WdfDeviceInitSetExclusive</a>. The driver can call <b>WdfDeviceInitSetDeviceClass</b> to specify a GUID that identifies the section of the registry that contains the override values.
 
-Typically, a driver calls <b>WdfDeviceInitSetDeviceClass</b> only if it is creating a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-control-device-objects">control device</a>. 
+Typically, a driver calls <b>WdfDeviceInitSetDeviceClass</b> only if it is creating a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-control-device-objects">control device</a>. 
 
 For more information about using the registry, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563755">Setting Device Object Registry Properties After Installation</a>.
 
 If a driver calls <b>WdfDeviceInitSetDeviceClass</b>, it must do so before it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>.
 
-For more information about calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
+For more information about calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
 
 
 #### Examples

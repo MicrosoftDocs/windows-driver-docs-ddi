@@ -6,11 +6,8 @@ description: The SERCX_STATUS enumeration indicates the status of a serial recei
 old-location: serports\sercx_status.htm
 tech.root: serports
 ms.assetid: 7EF129C7-25C3-49D2-8FC5-FFA1C4E77935
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PSERCX_STATUS, 1/SERCX_STATUS, 1/SerCxStatusCancelled, 1/SerCxStatusSuccess, 1/SerCxStatusTimeout, SERCX_STATUS, SERCX_STATUS enumeration [Serial Ports], SerCxStatusCancelled, SerCxStatusSuccess, SerCxStatusTimeout, _SERCX_STATUS, serports.sercx_status"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: sercx.h
 req.include-header: 

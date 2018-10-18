@@ -6,11 +6,8 @@ description: The GetResources routine returns the resources that the PCI Express
 old-location: pci\getresources.htm
 tech.root: PCI
 ms.assetid: 4F29E9BD-F534-45EC-99C3-F006A0E03B31
-ms.author: windowsdriverdev
 ms.date: 2/24/2018
 ms.keywords: GET_VIRTUAL_DEVICE_RESOURCES, GetResources, GetResources routine, PCI.getresources, wdm/GetResources
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
 req.include-header: Wdm.h
@@ -57,7 +54,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451131">GetRe
 ## -prototype
 
 
-````
+```cpp
 GET_VIRTUAL_DEVICE_RESOURCES GetResources;
 
 VOID GetResources(
@@ -65,7 +62,7 @@ VOID GetResources(
   _Out_   PUINT8 CapturedBusNumbers
 )
 { ... }
-````
+```
 
 
 ## -parameters

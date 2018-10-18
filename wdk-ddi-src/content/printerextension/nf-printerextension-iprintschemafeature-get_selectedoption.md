@@ -6,11 +6,8 @@ description: Gets an IPrintSchemaOption representing the selected option.
 old-location: print\iprintschemafeature_selectedoption.htm
 tech.root: print
 ms.assetid: C22BC037-05D2-4F44-8704-D1D56909B603
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrintSchemaFeature interface [Print Devices],SelectedOption property, IPrintSchemaFeature.SelectedOption, IPrintSchemaFeature.get_SelectedOption, IPrintSchemaFeature::SelectedOption, IPrintSchemaFeature::get_SelectedOption, SelectedOption property [Print Devices], SelectedOption property [Print Devices],IPrintSchemaFeature interface, get_SelectedOption, print.iprintschemafeature_selectedoption, printerextension/IPrintSchemaFeature::SelectedOption, printerextension/IPrintSchemaFeature::get_SelectedOption
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header: 

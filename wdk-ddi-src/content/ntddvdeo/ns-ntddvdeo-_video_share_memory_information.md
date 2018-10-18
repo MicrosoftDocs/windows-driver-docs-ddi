@@ -6,11 +6,8 @@ description: The VIDEO_SHARE_MEMORY_INFORMATION structure is used to communicate
 old-location: display\video_share_memory_information.htm
 tech.root: display
 ms.assetid: 004ecb65-a462-45e5-a647-9655727b202b
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: "*PVIDEO_SHARE_MEMORY_INFORMATION, PVIDEO_SHARE_MEMORY_INFORMATION, PVIDEO_SHARE_MEMORY_INFORMATION structure pointer [Display Devices], VIDEO_SHARE_MEMORY_INFORMATION, VIDEO_SHARE_MEMORY_INFORMATION structure [Display Devices], Video_Structs_bed1b1c4-1ee2-4f6b-862e-d6dd85d11e35.xml, _VIDEO_SHARE_MEMORY_INFORMATION, display.video_share_memory_information, ntddvdeo/PVIDEO_SHARE_MEMORY_INFORMATION, ntddvdeo/VIDEO_SHARE_MEMORY_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddvdeo.h
 req.include-header: Ntddvdeo.h

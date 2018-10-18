@@ -6,11 +6,8 @@ description: The MSiSCSI_SecurityCapabilities structure describes the security c
 old-location: storage\msiscsi_securitycapabilities.htm
 tech.root: storage
 ms.assetid: a385283a-7b24-43aa-b291-541bfd6a91a6
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PMSiSCSI_SecurityCapabilities, MSiSCSI_SecurityCapabilities, MSiSCSI_SecurityCapabilities structure [Storage Devices], PMSiSCSI_SecurityCapabilities, PMSiSCSI_SecurityCapabilities structure pointer [Storage Devices], _MSiSCSI_SecurityCapabilities, iscsicfg/MSiSCSI_SecurityCapabilities, iscsicfg/PMSiSCSI_SecurityCapabilities, storage.msiscsi_securitycapabilities, structs-iSCSI_0e8b2bb9-69df-4d36-8002-ac32177b724a.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iscsicfg.h
 req.include-header: Iscsicfg.h

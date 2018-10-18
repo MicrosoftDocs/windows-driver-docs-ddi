@@ -6,11 +6,8 @@ description: The AppendSourcePath method appends directories to the source path.
 old-location: debugger\appendsourcepath.htm
 tech.root: debugger
 ms.assetid: b82c2206-b81d-4ebf-a8fd-c08d7f57ffc9
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: AppendSourcePath, AppendSourcePath method [Windows Debugging], AppendSourcePath method [Windows Debugging],IDebugSymbols interface, AppendSourcePath method [Windows Debugging],IDebugSymbols2 interface, AppendSourcePath method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],AppendSourcePath method, IDebugSymbols.AppendSourcePath, IDebugSymbols2 interface [Windows Debugging],AppendSourcePath method, IDebugSymbols2::AppendSourcePath, IDebugSymbols3 interface [Windows Debugging],AppendSourcePath method, IDebugSymbols3::AppendSourcePath, IDebugSymbols::AppendSourcePath, IDebugSymbols_8e47c1ea-e190-4f34-a952-1dcf4ef9e971.xml, dbgeng/IDebugSymbols2::AppendSourcePath, dbgeng/IDebugSymbols3::AppendSourcePath, dbgeng/IDebugSymbols::AppendSourcePath, debugger.appendsourcepath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

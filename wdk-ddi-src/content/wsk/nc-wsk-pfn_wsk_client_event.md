@@ -6,11 +6,8 @@ description: The WskClientEvent event callback function notifies a WSK applicati
 old-location: netvista\wskclientevent.htm
 tech.root: netvista
 ms.assetid: 5511f540-4448-4cbe-849a-b1712453fae1
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: PFN_WSK_CLIENT_EVENT, PFN_WSK_CLIENT_EVENT callback, WskClientEvent, WskClientEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskclientevent, wsk/WskClientEvent, wskref_c9f563f1-19c1-4f8d-ab44-04eedd74763f.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wsk.h
 req.include-header: Wsk.h

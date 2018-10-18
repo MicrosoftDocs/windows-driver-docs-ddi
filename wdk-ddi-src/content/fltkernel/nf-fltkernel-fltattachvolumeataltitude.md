@@ -6,11 +6,8 @@ description: FltAttachVolumeAtAltitude is a debugging support routine that attac
 old-location: ifsk\fltattachvolumeataltitude.htm
 tech.root: ifsk
 ms.assetid: d6e6f66a-77ed-4c1c-92d5-97a806cfbd68
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_a_to_d_5a0e9e03-7d81-4894-9430-fed1c32181b6.xml, FltAttachVolumeAtAltitude, FltAttachVolumeAtAltitude routine [Installable File System Drivers], fltkernel/FltAttachVolumeAtAltitude, ifsk.fltattachvolumeataltitude
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

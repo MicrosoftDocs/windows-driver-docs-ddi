@@ -6,11 +6,8 @@ description: The StorPortGetCurrentProcessorNumber routine retrieves the current
 old-location: storage\storportgetcurrentprocessornumber.htm
 tech.root: storage
 ms.assetid: 10d77823-fcaa-43c3-b55e-74f2da97ecf0
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: StorPortGetCurrentProcessorNumber, StorPortGetCurrentProcessorNumber routine [Storage Devices], storage.storportgetcurrentprocessornumber, storport/StorPortGetCurrentProcessorNumber, storprt_ac4d7e8b-eeb7-4b10-9c9e-cfe9acfddb24.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

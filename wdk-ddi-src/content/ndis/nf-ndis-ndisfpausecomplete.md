@@ -6,11 +6,8 @@ description: A filter driver must call the NdisFPauseComplete function to comple
 old-location: netvista\ndisfpausecomplete.htm
 tech.root: netvista
 ms.assetid: 7f5730d3-6e6c-490f-b2e5-e2d3615b4c3a
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisFPauseComplete, NdisFPauseComplete function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_2f2cd8ef-a148-49d2-a00d-ec0acef7e310.xml, ndis/NdisFPauseComplete, netvista.ndisfpausecomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

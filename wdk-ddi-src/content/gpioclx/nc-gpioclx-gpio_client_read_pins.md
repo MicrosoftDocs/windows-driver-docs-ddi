@@ -6,11 +6,8 @@ description: The CLIENT_ReadGpioPins event callback function reads a set of gene
 old-location: gpio\client_readgpiopins.htm
 tech.root: GPIO
 ms.assetid: FE1AB8D5-DEA7-47BE-921E-BB33BBB61AC9
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: CLIENT_ReadGpioPins, CLIENT_ReadGpioPins callback, CLIENT_ReadGpioPins callback function [Parallel Ports], GPIO.client_readgpiopins, GPIO_CLIENT_READ_PINS, gpioclx/CLIENT_ReadGpioPins
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: gpioclx.h
 req.include-header: 

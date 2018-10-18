@@ -6,11 +6,8 @@ description:
 old-location: print\iprintoemengine_enablepdev.htm
 tech.root: print
 ms.assetid: F84B7A8F-5B75-4E2F-93EB-AFFE24637647
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: EnablePDEV, EnablePDEV method [Print Devices], EnablePDEV method [Print Devices],IPrintOemEngine interface, IPrintOemEngine interface [Print Devices],EnablePDEV method, IPrintOemEngine.EnablePDEV, IPrintOemEngine::EnablePDEV, prcomoem/IPrintOemEngine::EnablePDEV, print.iprintoemengine_enablepdev
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: 

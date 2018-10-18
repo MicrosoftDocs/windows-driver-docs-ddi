@@ -6,11 +6,8 @@ description: Returns disk cache configuration data.
 old-location: storage\ioctl_disk_get_cache_information.htm
 tech.root: storage
 ms.assetid: fc651954-2048-4358-91b0-4d99e38e9a67
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IOCTL_DISK_GET_CACHE_INFORMATION, IOCTL_DISK_GET_CACHE_INFORMATION control, IOCTL_DISK_GET_CACHE_INFORMATION control code [Storage Devices], k307_1471eb7a-169f-4653-9bfe-01714d6299b7.xml, ntdddisk/IOCTL_DISK_GET_CACHE_INFORMATION, storage.ioctl_disk_get_cache_information
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h

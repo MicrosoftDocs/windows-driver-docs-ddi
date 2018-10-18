@@ -6,11 +6,8 @@ description: The filter engine calls a callout's classifyFn1 callout function wh
 old-location: netvista\classifyfn1.htm
 tech.root: netvista
 ms.assetid: 128fd929-6e83-46a0-9475-e459ede58f30
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FWPS_CALLOUT_CLASSIFY_FN1, FWPS_CALLOUT_CLASSIFY_FN1 callback, classifyFn1, classifyFn1 callback function [Network Drivers Starting with Windows Vista], fwpsk/classifyFn1, netvista.classifyfn1, wfp_ref_2_funct_4_callout_db29c2d0-9b7c-4737-b66f-472c78fff234.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
@@ -227,7 +224,7 @@ When a callout has indicated that it intends to modify the clone net buffer list
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-a-callout-for-deep-inspection-of-stream-data">Using a Callout
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-a-callout-for-deep-inspection-of-stream-data">Using a Callout
     for Deep Inspection of Stream Data</a>
 
 

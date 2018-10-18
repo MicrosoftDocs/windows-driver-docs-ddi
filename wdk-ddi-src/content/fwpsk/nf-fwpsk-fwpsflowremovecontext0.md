@@ -6,11 +6,8 @@ description: The FwpsFlowRemoveContext0 function removes a previously associated
 old-location: netvista\fwpsflowremovecontext0.htm
 tech.root: netvista
 ms.assetid: edc257bc-2805-47d8-827a-536e5d74793b
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FwpsFlowRemoveContext0, FwpsFlowRemoveContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsFlowRemoveContext0, netvista.fwpsflowremovecontext0, wfp_ref_2_funct_3_fwps_D-H_97a48a00-87f5-414f-9a6c-fb15873454e1.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
@@ -72,7 +69,7 @@ A run-time identifier that specifies the data flow from which to remove the cont
 
 The run-time identifier for the filtering layer from which the context is being removed. For more
      information, see 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">Run-time Filtering Layer
+     <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">Run-time Filtering Layer
      Identifiers</a>. A callout driver should specify the same identifier that it specified when it called
      the 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff551165">FwpsFlowAssociateContext0</a> function to associate the context with the data flow.

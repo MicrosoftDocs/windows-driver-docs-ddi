@@ -6,11 +6,8 @@ description: The RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER structure contains
 old-location: spb\rh_query_connection_properties_output_buffer.htm
 tech.root: SPB
 ms.assetid: 36B2C20C-AA92-4860-9FBC-BA65AFD546E1
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER structure pointer [Buses], RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER structure [Buses], SPB.rh_query_connection_properties_output_buffer, _RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, reshub/PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, reshub/RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: reshub.h
 req.include-header:
@@ -57,13 +54,13 @@ The <b>RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER</b> structure contains the c
 ## -syntax
 
 
-````
+```cpp
 typedef struct _RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER {
   ULONG Version;
   ULONG PropertiesLength;
   UCHAR ConnectionProperties[ANYSIZE_ARRAY];
 } RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER;
-````
+```
 
 
 ## -struct-fields

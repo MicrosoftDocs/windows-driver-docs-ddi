@@ -6,11 +6,8 @@ description: The MRxFinalizeSrvCall routine is called by RDBSS to request that a
 old-location: ifsk\mrxfinalizesrvcall.htm
 tech.root: ifsk
 ms.assetid: f870334a-cf39-47a2-868a-f6fd7c3aee1c
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: MRxFinalizeSrvCall, MRxFinalizeSrvCall routine [Installable File System Drivers], PMRX_FINALIZE_SRVCALL_CALLDOWN, ifsk.mrxfinalizesrvcall, mrx/MRxFinalizeSrvCall, mrxref_7f2d4c59-1668-4c73-adc4-bdb6fac34d38.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: mrx.h
 req.include-header: Mrx.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <i>MRxFinalizeSrvCall</i> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector finalize an SRV_CALL structure. 
+The <i>MRxFinalizeSrvCall</i> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector finalize an SRV_CALL structure. 
 
 
 ## -parameters

@@ -6,11 +6,8 @@ description: The IoAllocateIrp routine allocates an IRP, given the number of I/O
 old-location: kernel\ioallocateirp.htm
 tech.root: kernel
 ms.assetid: 40abbdf8-3712-4724-8aef-16c247780c86
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IoAllocateIrp, IoAllocateIrp routine [Kernel-Mode Driver Architecture], k104_326eb80d-9bc3-4a91-9f33-710f7975808a.xml, kernel.ioallocateirp, wdm/IoAllocateIrp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

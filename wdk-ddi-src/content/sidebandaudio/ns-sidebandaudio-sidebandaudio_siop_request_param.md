@@ -4,11 +4,8 @@ title: SIDEBANDAUDIO_SIOP_REQUEST_PARAM
 author: windows-driver-content
 description: Describes the variable I/O parameter.
 ms.assetid: 02dcc788-480c-44d9-811f-56ac20077ffa
-ms.author: windowsdriverdev
 ms.date: 09/07/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: SIDEBANDAUDIO_SIOP_REQUEST_PARAM, SIDEBANDAUDIO_SIOP_REQUEST_PARAM, *PSIDEBANDAUDIO_SIOP_REQUEST_PARAM, 
 req.header: sidebandaudio.h
 req.include-header:

@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilerrordetails.htm
 tech.root: netvista
 ms.assetid: 9c9aaece-5c16-40c4-a039-5e32541500f7
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*LPRILERRORDETAILS, RILERRORDETAILS, RILERRORDETAILS structure [Network Drivers Starting with Windows Vista], netvista.rilerrordetails, ntddrilapitypes/RILERRORDETAILS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h

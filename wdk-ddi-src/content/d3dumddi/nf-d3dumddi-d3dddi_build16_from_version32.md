@@ -4,7 +4,6 @@ title: D3DDDI_BUILD16_FROM_VERSION32 macro
 author: windows-driver-content
 description: Converts a 16 bit build from a 32 bit version.
 ms.assetid: 1a96c613-a6d8-4294-8fa6-0b15f2c99120
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: macro
 ms.keywords: D3DDDI_BUILD16_FROM_VERSION32

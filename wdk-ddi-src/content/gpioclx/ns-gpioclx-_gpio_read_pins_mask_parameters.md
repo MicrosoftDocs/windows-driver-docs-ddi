@@ -6,11 +6,8 @@ description: The GPIO_READ_PINS_MASK_PARAMETERS structure describes a read opera
 old-location: gpio\gpio_read_pins_mask_parameters.htm
 tech.root: GPIO
 ms.assetid: 679C9A71-7F39-4344-93D0-6B1332D76CF7
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PGPIO_READ_PINS_MASK_PARAMETERS, GPIO.gpio_read_pins_mask_parameters, GPIO_READ_PINS_MASK_PARAMETERS, GPIO_READ_PINS_MASK_PARAMETERS structure [Parallel Ports], PGPIO_READ_PINS_MASK_PARAMETERS, PGPIO_READ_PINS_MASK_PARAMETERS structure pointer [Parallel Ports], _GPIO_READ_PINS_MASK_PARAMETERS, gpioclx/GPIO_READ_PINS_MASK_PARAMETERS, gpioclx/PGPIO_READ_PINS_MASK_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: gpioclx.h
 req.include-header: 

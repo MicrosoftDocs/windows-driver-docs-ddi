@@ -4,11 +4,8 @@ title: PFND3DWDDM2_4DDI_VIDEODECODERSUBMITBUFFERS
 author: windows-driver-content
 description: Submits one or more video frame buffers for DirectX Video Acceleration (DXVA) decoding.
 ms.assetid: c5e55baf-a822-42ce-ac97-830873b75da0
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d10umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Submits one or more video frame buffers for DirectX Video Acceleration (DXVA) de
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DWDDM2_4DDI_VIDEODECODERSUBMITBUFFERS Pfnd3dwddm24DdiVideodecodersubmitbuffers;

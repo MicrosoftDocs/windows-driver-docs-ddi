@@ -4,11 +4,8 @@ title: _DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT
 author: windows-driver-content
 description: Arguments for the DxgkddiQueryDiagnosticTypesSupport callback function.
 ms.assetid: 05382c90-2195-4352-b12a-b9fcaec51033
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT, *PDXGKARG_QUERYDIAGNOSTICTYPESSUPPORT, DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT,
 req.header: dispmprt.h
 req.include-header:

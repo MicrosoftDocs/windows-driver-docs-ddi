@@ -6,11 +6,8 @@ description: The DXVADDI_FREQUENCY structure describes the video frame rate in H
 old-location: display\dxvaddi_frequency.htm
 tech.root: display
 ms.assetid: 5bfb02f6-4482-4260-827f-54c5f74b6b46
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXVA2_Structs_bf2ee217-d321-4302-8bd3-1621081fdb09.xml, DXVADDI_FREQUENCY, DXVADDI_FREQUENCY structure [Display Devices], _DXVADDI_FREQUENCY, d3dumddi/DXVADDI_FREQUENCY, display.dxvaddi_frequency
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

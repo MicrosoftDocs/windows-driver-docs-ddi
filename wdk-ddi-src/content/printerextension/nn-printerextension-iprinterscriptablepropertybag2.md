@@ -6,11 +6,8 @@ description:
 old-location: print\iprinterscriptablepropertybag2.htm
 tech.root: print
 ms.assetid: 97586B8D-D070-4DF1-AECE-50EB4D28414B
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrinterScriptablePropertyBag2, IPrinterScriptablePropertyBag2 interface [Print Devices], IPrinterScriptablePropertyBag2 interface [Print Devices],described, print.iprinterscriptablepropertybag2, printerextension/IPrinterScriptablePropertyBag2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: printerextension.h
 req.include-header: 

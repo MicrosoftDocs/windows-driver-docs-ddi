@@ -6,11 +6,8 @@ description: The TmRollbackEnlistment routine rolls back a specified enlistment.
 old-location: kernel\tmrollbackenlistment.htm
 tech.root: kernel
 ms.assetid: 1f089f2c-73e2-4c77-a398-0d369aafdf3a
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: TmRollbackEnlistment, TmRollbackEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmrollbackenlistment, ktm_ref_adca7b83-77e1-4c1d-9ed8-aac2c713d43c.xml, wdm/TmRollbackEnlistment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

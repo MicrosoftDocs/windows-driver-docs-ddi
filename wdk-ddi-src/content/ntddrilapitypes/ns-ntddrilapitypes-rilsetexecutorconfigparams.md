@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilsetexecutorconfigparams.htm
 tech.root: netvista
 ms.assetid: de392c8c-3153-48e8-85ad-dc1a5ed2812c
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*LPRILSETEXECUTORCONFIGPARAMS, RILSETEXECUTORCONFIGPARAMS, RILSETEXECUTORCONFIGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetexecutorconfigparams, ntddrilapitypes/RILSETEXECUTORCONFIGPARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h

@@ -6,11 +6,8 @@ description: The wiasUpdateValidFormat function updates the valid format of the 
 old-location: image\wiasupdatevalidformat.htm
 tech.root: image
 ms.assetid: 04e66f34-3771-4b09-b546-f814e4b41906
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: image.wiasupdatevalidformat, wiamdef/wiasUpdateValidFormat, wiasFncs_dfbd0aa5-1c7c-4b4f-a1da-82176b36e914.xml, wiasUpdateValidFormat, wiasUpdateValidFormat function [Imaging Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiamdef.h
 req.include-header: Wiamdef.h

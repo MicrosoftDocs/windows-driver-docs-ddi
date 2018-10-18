@@ -6,11 +6,8 @@ description: The GetNextSymbolMatchWide method returns the next symbol found in 
 old-location: debugger\getnextsymbolmatchwide.htm
 tech.root: debugger
 ms.assetid: 0400ff8c-a6d5-4fbf-b2fb-eb9fd7aabd7e
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetNextSymbolMatchWide, GetNextSymbolMatchWide method [Windows Debugging], GetNextSymbolMatchWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetNextSymbolMatchWide method, IDebugSymbols3.GetNextSymbolMatchWide, IDebugSymbols3::GetNextSymbolMatchWide, dbgeng/IDebugSymbols3::GetNextSymbolMatchWide, debugger.getnextsymbolmatchwide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

@@ -6,11 +6,8 @@ description: The FltEnumerateInstanceInformationByVolume routine provides inform
 old-location: ifsk\fltenumerateinstanceinformationbyvolume.htm
 tech.root: ifsk
 ms.assetid: 2bccd6db-5538-43f3-a4b2-7d14b1cf12d7
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_682cf119-8631-4725-b2cc-eb0218acb4d7.xml, FltEnumerateInstanceInformationByVolume, FltEnumerateInstanceInformationByVolume routine [Installable File System Drivers], fltkernel/FltEnumerateInstanceInformationByVolume, ifsk.fltenumerateinstanceinformationbyvolume
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: FltKernel.h

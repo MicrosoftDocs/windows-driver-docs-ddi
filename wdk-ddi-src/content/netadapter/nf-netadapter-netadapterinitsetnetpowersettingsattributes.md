@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NetAdapterInitSetNetPowerSettingsAttributes method sets the attributes of a net adapter's NETPOWERSETTINGS object that is created by NetAdapterCx.
 tech.root: netvista
 ms.assetid: d5761ef2-3e9b-4fb5-86df-4db9563e2e65
-ms.author: windowsdriverdev
 ms.date: 08/01/2018
 ms.topic: function
 ms.keywords: NetAdapterInitSetNetPowerSettingsAttributes

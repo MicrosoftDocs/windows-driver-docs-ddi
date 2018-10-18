@@ -4,11 +4,8 @@ title: PFND3D12DDI_DESTROY_STATE_OBJECT_0054
 author: windows-driver-content
 description: Destroys the state object.
 ms.assetid: 73822e25-6b9a-4593-aaa9-13c375b8e4c1
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Destroys the state object.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROY_STATE_OBJECT_0054 Pfnd3d12ddiDestroyStateObject0054; 

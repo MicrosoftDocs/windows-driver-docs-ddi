@@ -6,11 +6,8 @@ description: NDIS calls a miniport driver's MiniportDirectOidRequest function to
 old-location: netvista\miniportdirectoidrequest.htm
 tech.root: netvista
 ms.assetid: 60daba60-3e04-4e98-a458-4dc263f17761
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: MINIPORT_DIRECT_OID_REQUEST, MINIPORT_DIRECT_OID_REQUEST callback, MiniportDirectOidRequest, MiniportDirectOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/MiniportDirectOidRequest, ndis_request_direct_ref_8650027d-37db-4165-9bf6-c239b6db2919.xml, netvista.miniportdirectoidrequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

@@ -6,11 +6,8 @@ description: The FltIsEcpFromUserMode routine is used to determine if an extra c
 old-location: ifsk\fltisecpfromusermode.htm
 tech.root: ifsk
 ms.assetid: d00cb2b1-b579-43c9-9e4d-cbdefd8a343a
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_ea63cca7-3efb-4b45-b075-7efbc8138f88.xml, FltIsEcpFromUserMode, FltIsEcpFromUserMode routine [Installable File System Drivers], fltkernel/FltIsEcpFromUserMode, ifsk.fltisecpfromusermode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

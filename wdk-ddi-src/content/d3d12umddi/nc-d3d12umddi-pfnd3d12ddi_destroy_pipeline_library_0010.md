@@ -4,11 +4,8 @@ title: PFND3D12DDI_DESTROY_PIPELINE_LIBRARY_0010
 author: windows-driver-content
 description: Destroys the pipeline library.
 ms.assetid: c57be6ff-bfd1-4709-96a1-e4b9552c29b9
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Destroys the pipeline library.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROY_PIPELINE_LIBRARY_0010 Pfnd3d12ddiDestroyPipelineLibrary0010; 

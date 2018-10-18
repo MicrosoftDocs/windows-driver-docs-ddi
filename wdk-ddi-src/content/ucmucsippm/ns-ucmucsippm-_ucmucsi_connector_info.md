@@ -5,11 +5,8 @@ author: windows-driver-content
 tech.root: usbref
 description: Stores information about connectors that cannot be obtained by sending UCSI commands such as “Get Connector Capability”. 
 ms.assetid: 074f3d8d-a2b6-4c80-b3f7-7610672bfd6f
-ms.author: windowsdriverdev
 ms.date: 09/30/2018 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _UCMUCSI_CONNECTOR_INFO, UCMUCSI_CONNECTOR_INFO, *PUCMUCSI_CONNECTOR_INFO, 
 req.header: ucmucsippm.h
 req.include-header: UcmUcsiCx.h

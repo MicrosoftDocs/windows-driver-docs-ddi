@@ -4,11 +4,8 @@ title: *PFN_TRSECUREDEVICELOGMESSAGE
 author: windows-driver-content
 description: 
 ms.assetid: 796ac627-fd80-4074-bcf3-a7c23108d518
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ targetos: Windows
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 *PFN_TRSECUREDEVICELOGMESSAGE *PfnTrsecuredevicelogmessage; 
@@ -79,7 +76,7 @@ NTSTATUS *PfnTrsecuredevicelogmessage
 ## -returns
 
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

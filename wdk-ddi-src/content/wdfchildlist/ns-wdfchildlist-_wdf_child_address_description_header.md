@@ -6,11 +6,8 @@ description: The WDF_CHILD_ADDRESS_DESCRIPTION_HEADER structure is a header stru
 old-location: wdf\wdf_child_address_description_header.htm
 tech.root: wdf
 ms.assetid: 2ea8041c-be80-42ff-9693-f6331508f6b2
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*PWDF_CHILD_ADDRESS_DESCRIPTION_HEADER, DFDeviceObjectChildListRef_3fc67e2b-a0f5-4e03-a901-b2629e494157.xml, PWDF_CHILD_ADDRESS_DESCRIPTION_HEADER, PWDF_CHILD_ADDRESS_DESCRIPTION_HEADER structure pointer, WDF_CHILD_ADDRESS_DESCRIPTION_HEADER, WDF_CHILD_ADDRESS_DESCRIPTION_HEADER structure, _WDF_CHILD_ADDRESS_DESCRIPTION_HEADER, kmdf.wdf_child_address_description_header, wdf.wdf_child_address_description_header, wdfchildlist/PWDF_CHILD_ADDRESS_DESCRIPTION_HEADER, wdfchildlist/WDF_CHILD_ADDRESS_DESCRIPTION_HEADER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
@@ -52,7 +49,7 @@ req.typenames: WDF_CHILD_ADDRESS_DESCRIPTION_HEADER, *PWDF_CHILD_ADDRESS_DESCRIP
 
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</b> structure is a header structure that must be the first member of every <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">address description</a> structure.
+The <b>WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</b> structure is a header structure that must be the first member of every <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">address description</a> structure.
 
 
 ## -struct-fields
@@ -105,7 +102,7 @@ WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT (&amp;Addr_Description,
 </td>
 </tr>
 </table></span></div>
-For more information about address descriptions, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
+For more information about address descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
 
 

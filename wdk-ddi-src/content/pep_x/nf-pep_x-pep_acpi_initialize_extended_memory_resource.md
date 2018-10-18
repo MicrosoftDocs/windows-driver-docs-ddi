@@ -6,11 +6,8 @@ description: The PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE function initializ
 old-location: kernel\pep_acpi_initialize_extended_memory_resource.htm
 tech.root: kernel
 ms.assetid: F566E078-9446-49E1-9325-AF65F3ABB6B9
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE, PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_extended_memory_resource, pepfx/PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pep_x.h
 req.include-header: Pep_x.h

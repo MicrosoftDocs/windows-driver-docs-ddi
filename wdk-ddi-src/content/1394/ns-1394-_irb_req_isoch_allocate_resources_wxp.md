@@ -6,11 +6,8 @@ description: This structure contains the fields necessary for the 1394 bus drive
 old-location: ieee\irb_req_isoch_allocate_resources_wxp.htm
 tech.root: IEEE
 ms.assetid: 8DE03C05-48A4-4699-8513-F2B596EED37F
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: 1394/IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP, 1394/PIRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP, IEEE.irb_req_isoch_allocate_resources_wxp, IRB_REQ_ISOCH_ALLOCATE_RESOURCES, IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP, IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP structure [Buses], PIRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP, PIRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP structure pointer [Buses], _IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 1394.h
 req.include-header: 

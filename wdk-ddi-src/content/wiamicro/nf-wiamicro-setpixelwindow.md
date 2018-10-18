@@ -6,11 +6,8 @@ description: The SetPixelWindow function sets the image area to be scanned.
 old-location: image\setpixelwindow.htm
 tech.root: image
 ms.assetid: e1b5af5d-9bb8-4bf0-898a-5972f1f09a35
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: MicroDrv_45542a77-e61e-49ba-a9f3-df7d8dd57402.xml, SetPixelWindow, SetPixelWindow function [Imaging Devices], image.setpixelwindow, wiamicro/SetPixelWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiamicro.h
 req.include-header: Wiamicro.h

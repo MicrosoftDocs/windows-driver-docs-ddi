@@ -6,11 +6,8 @@ description: Drivers obtain the IWDFNamedPropertyStore2 interface by calling IWD
 old-location: wdf\iwdfnamedpropertystore2.htm
 tech.root: wdf
 ms.assetid: f6935379-bf0d-4319-bcd9-56f0e4016945
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IWDFNamedPropertyStore2, IWDFNamedPropertyStore2 interface, IWDFNamedPropertyStore2 interface,described, UMDFPropertyStoreObjectRef_6a5d155a-6311-4a43-9b21-2572b04da323.xml, umdf.iwdfnamedpropertystore2, wdf.iwdfnamedpropertystore2, wudfddi/IWDFNamedPropertyStore2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wudfddi.h
 req.include-header: 
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 Drivers obtain the <b>IWDFNamedPropertyStore2</b> interface by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>.
 

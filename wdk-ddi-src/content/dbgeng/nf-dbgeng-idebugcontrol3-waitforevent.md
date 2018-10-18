@@ -6,11 +6,8 @@ description: The WaitForEvent method waits for an event that breaks into the deb
 old-location: debugger\waitforevent.htm
 tech.root: debugger
 ms.assetid: b7038bcf-2469-4d5f-ac73-0c7835da23c3
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugControl interface [Windows Debugging],WaitForEvent method, IDebugControl2 interface [Windows Debugging],WaitForEvent method, IDebugControl2::WaitForEvent, IDebugControl3 interface [Windows Debugging],WaitForEvent method, IDebugControl3.WaitForEvent, IDebugControl3::WaitForEvent, IDebugControl::WaitForEvent, IDebugControl_19a7d8b3-1f16-400e-bf8f-c782d48b2cf5.xml, WaitForEvent, WaitForEvent method [Windows Debugging], WaitForEvent method [Windows Debugging],IDebugControl interface, WaitForEvent method [Windows Debugging],IDebugControl2 interface, WaitForEvent method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::WaitForEvent, dbgeng/IDebugControl3::WaitForEvent, dbgeng/IDebugControl::WaitForEvent, debugger.waitforevent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Winbase.h

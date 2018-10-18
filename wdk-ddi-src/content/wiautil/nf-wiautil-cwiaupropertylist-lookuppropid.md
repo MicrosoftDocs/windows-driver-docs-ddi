@@ -6,11 +6,8 @@ description: The CWiauPropertyList::LookupPropId method finds a property's index
 old-location: image\cwiaupropertylist_lookuppropid.htm
 tech.root: image
 ms.assetid: 454e51fc-f81a-49c8-9e07-e32819af2642
-ms.author: windowsdriverdev
 ms.date: 9/7/2018
 ms.keywords: CWiauPropertyList interface [Imaging Devices],LookupPropId method, CWiauPropertyList.LookupPropId, CWiauPropertyList::LookupPropId, LookupPropId, LookupPropId method [Imaging Devices], LookupPropId method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_lookuppropid, wiauFncs_087766c2-718f-4d02-be7f-869df198c3a7.xml, wiautil/CWiauPropertyList::LookupPropId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h

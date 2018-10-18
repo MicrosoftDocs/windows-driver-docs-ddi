@@ -6,11 +6,8 @@ description: The SetLockingConstraint method sets the synchronization (or lockin
 old-location: wdf\iwdfdeviceinitialize_setlockingconstraint.htm
 tech.root: wdf
 ms.assetid: c0062ad4-6666-49db-9d53-70f2ed2353d1
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IWDFDeviceInitialize interface,SetLockingConstraint method, IWDFDeviceInitialize.SetLockingConstraint, IWDFDeviceInitialize::SetLockingConstraint, SetLockingConstraint, SetLockingConstraint method, SetLockingConstraint method,IWDFDeviceInitialize interface, UMDFDeviceObjectRef_ec613925-df47-4231-8f53-3769df71f288.xml, umdf.iwdfdeviceinitialize_setlockingconstraint, wdf.iwdfdeviceinitialize_setlockingconstraint, wudfddi/IWDFDeviceInitialize::SetLockingConstraint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>SetLockingConstraint</b> method sets the synchronization (or locking) model for callback functions into the driver.
 

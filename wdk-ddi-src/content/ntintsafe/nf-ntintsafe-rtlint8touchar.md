@@ -6,11 +6,8 @@ description: Converts a value of type INT8 to a value of type UCHAR.
 old-location: kernel\rtlint8touchar.htm
 tech.root: kernel
 ms.assetid: 3E8BF45A-D968-4C9F-8C38-65B39665496B
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlInt8ToUChar, RtlInt8ToUChar function [Kernel-Mode Driver Architecture], kernel.rtlint8touchar, ntintsafe/RtlInt8ToUChar
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

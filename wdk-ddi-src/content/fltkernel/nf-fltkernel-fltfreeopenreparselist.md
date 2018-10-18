@@ -6,11 +6,8 @@ description: This routine deallocates any information copied into a create opera
 old-location: ifsk\fltfreeopenreparselist.htm
 tech.root: ifsk
 ms.assetid: 78FA1585-F834-48E4-BB15-78BA5563F9D0
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], FltFreeOpenReparseList, fltkernel/FltAddOpenReparseEntry, ifsk.fltfreeopenreparselist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: 

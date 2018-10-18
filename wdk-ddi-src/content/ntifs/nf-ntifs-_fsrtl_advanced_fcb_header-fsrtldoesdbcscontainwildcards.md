@@ -6,11 +6,8 @@ description: The FsRtlDoesDbcsContainWildCards routine determines whether an ANS
 old-location: ifsk\fsrtldoesdbcscontainwildcards.htm
 tech.root: ifsk
 ms.assetid: 4a33014a-c980-4186-b7b2-68fda22fa152
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FsRtlDoesDbcsContainWildCards, FsRtlDoesDbcsContainWildCards routine [Installable File System Drivers], fsrtlref_07aa2ec1-8e37-4ffb-bd22-a3877ae8f7ee.xml, ifsk.fsrtldoesdbcscontainwildcards, ntifs/FsRtlDoesDbcsContainWildCards
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h

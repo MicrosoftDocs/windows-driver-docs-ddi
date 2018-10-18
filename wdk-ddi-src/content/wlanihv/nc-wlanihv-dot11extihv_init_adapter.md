@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extihvinitadapter.htm
 tech.root: netvista
 ms.assetid: 96dc1718-ee35-440a-94e8-eba4a41c9559
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: DOT11EXTIHV_INIT_ADAPTER, Dot11ExtIhvInitAdapter, Dot11ExtIhvInitAdapter callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_c2fbb863-6b05-4444-90f1-37f375db9b9e.xml, netvista.dot11extihvinitadapter, wlanihv/Dot11ExtIhvInitAdapter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
@@ -59,7 +56,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```cpp
 DOT11EXTIHV_INIT_ADAPTER Dot11ExtIhvInitAdapter;
 
 DWORD APIENTRY Dot11ExtIhvInitAdapter(
@@ -68,7 +65,7 @@ DWORD APIENTRY Dot11ExtIhvInitAdapter(
   _Out_    PHANDLE        phIhvExtAdapter
 )
 { ... }
-````
+```
 
 
 ## -parameters
@@ -127,14 +124,14 @@ The operating system calls the
     as when a PCMCIA adapter is inserted.
 
 For more information about WLAN adapter initialization, see
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff557044">802.11 WLAN Adapter Arrival</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff557044">802.11 WLAN Adapter Arrival</a>.
 
 
 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-extensibility-functions">Native 802.11 IHV
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-ihv-extensibility-functions">Native 802.11 IHV
    Extensibility Functions</a>
 
 

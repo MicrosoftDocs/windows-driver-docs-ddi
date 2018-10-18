@@ -6,11 +6,8 @@ description: The PcAddAdapterDevice function adds an adapter device to the WDM d
 old-location: audio\pcaddadapterdevice.htm
 tech.root: audio
 ms.assetid: fa571ca0-194c-4018-9b93-a3cc687f7632
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: PcAddAdapterDevice, PcAddAdapterDevice function [Audio Devices], audio.pcaddadapterdevice, audpc-routines_5b2b0ba0-67b7-4c8d-bd47-b7e664500637.xml, portcls/PcAddAdapterDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: portcls.h
 req.include-header: Portcls.h

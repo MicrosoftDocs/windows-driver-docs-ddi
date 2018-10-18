@@ -4,7 +4,6 @@ title: IDataModelScriptTemplateEnumerator::Reset
 author: windows-driver-content
 description: The Reset method resets the enumerator to the position it was at when it was first created -- before the first template produced. 
 ms.assetid: 465eb32a-bb01-4bf6-ad62-5187ec877972
-ms.author: windowsdriverdev
 ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptTemplateEnumerator::Reset, Reset, IDataModelScriptTemplateEnumerator.Reset, IDataModelScriptTemplateEnumerator::Reset, IDataModelScriptTemplateEnumerator.Reset

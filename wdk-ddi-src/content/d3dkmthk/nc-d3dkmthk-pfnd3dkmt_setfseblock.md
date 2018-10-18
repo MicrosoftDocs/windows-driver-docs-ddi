@@ -4,11 +4,8 @@ title: PFND3DKMT_SETFSEBLOCK
 author: windows-driver-content
 description: The PFND3DKMT_SETFSEBLOCK callback function sets FSE block.
 ms.assetid: b0a3d6d7-9b7d-46eb-b3a5-a2faf0e1c9a6
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3DKMT_SETFSEBLOCK callback function sets FSE block.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SETFSEBLOCK Pfnd3dkmtSetfseblock; 

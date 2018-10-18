@@ -4,7 +4,6 @@ title: D3DKMTDestroyOutputDupl function
 author: windows-driver-content
 description: Destroys output duplicate.
 ms.assetid: a648d054-10d2-44d3-a2e2-ea4855480453
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: D3DKMTDestroyOutputDupl

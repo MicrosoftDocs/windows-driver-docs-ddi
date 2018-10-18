@@ -4,11 +4,8 @@ title: PFND3D12DDI_CREATEVIDEOMOTIONESTIMATOR_0053
 author: windows-driver-content
 description: Creates the video motion estimator.
 ms.assetid: 044c1e98-b151-42dc-ab5b-1f137460e9f4
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Creates the video motion estimator.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATEVIDEOMOTIONESTIMATOR_0053 Pfnd3d12ddiCreatevideomotionestimator0053; 

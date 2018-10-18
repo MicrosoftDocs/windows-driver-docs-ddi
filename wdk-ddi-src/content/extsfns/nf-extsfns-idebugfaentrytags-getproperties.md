@@ -6,11 +6,8 @@ description: The GetProperties method gets the name or description (or both) of 
 old-location: debugger\idebugfaentrytags_getproperties.htm
 tech.root: debugger
 ms.assetid: 140EAE7D-E349-4096-8578-6CF011C1FBA7
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetProperties, GetProperties method [Windows Debugging], GetProperties method [Windows Debugging],IDebugFAEntryTags interface, IDebugFAEntryTags interface [Windows Debugging],GetProperties method, IDebugFAEntryTags.GetProperties, IDebugFAEntryTags::GetProperties, debugger.idebugfaentrytags_getproperties, extsfns/IDebugFAEntryTags::GetProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: extsfns.h
 req.include-header: 
@@ -60,7 +57,7 @@ The <b>GetProperties</b> method gets the name or description (or both) of a tag 
 
 ### -param Tag
 
-A value in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration. This method gets the name or description (or both) of this tag.
+A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration. This method gets the name or description (or both) of this tag.
 
 
 ### -param Name [out]

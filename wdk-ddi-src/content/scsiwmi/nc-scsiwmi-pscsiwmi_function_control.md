@@ -6,11 +6,8 @@ description: A miniport driver's HwScsiWmiFunctionControl routine is called to e
 old-location: storage\hwscsiwmifunctioncontrol.htm
 tech.root: storage
 ms.assetid: a975e201-9015-4315-830e-4cd7cc5a3bc5
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: HwScsiWmiFunctionControl, HwScsiWmiFunctionControl callback function [Storage Devices], PSCSIWMI_FUNCTION_CONTROL, PSCSIWMI_FUNCTION_CONTROL callback, Scsimini_42361f5c-fc45-4883-997e-afa65bc376c4.xml, scsiwmi/HwScsiWmiFunctionControl, storage.hwscsiwmifunctioncontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: scsiwmi.h
 req.include-header: Scsiwmi.h
@@ -51,7 +48,7 @@ req.typenames:
 
 
 A miniport driver's <b>HwScsiWmiFunctionControl</b> routine is called to enable or disable notification of events. It is also called to enable or disable data collection for data blocks that the miniport driver designated as expensive to collect. This routine is optional.
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 

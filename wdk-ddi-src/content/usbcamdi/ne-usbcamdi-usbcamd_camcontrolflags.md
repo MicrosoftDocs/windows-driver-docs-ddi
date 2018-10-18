@@ -4,12 +4,9 @@ title: USBCAMD_CamControlFlags
 author: windows-driver-content
 description: 
 ms.assetid: bd137228-b5a9-4e97-8a89-d42ac59a3d7d
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: USBCAMD_CamControlFlags, USBCAMD_CamControlFlags, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: usbcamdi.h
 req.include-header:
 req.target-type:

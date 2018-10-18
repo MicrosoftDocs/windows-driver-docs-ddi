@@ -4,11 +4,8 @@ title: PFND3D12DDI_COMMAND_RECORDER_SET_COMMAND_POOL_AS_TARGET_0040
 author: windows-driver-content
 description: Implemented by the client driver to set the command pool as a target for the command recorder.
 ms.assetid: 1b264f1f-635b-44dd-aa4c-0e28ca010a2b
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to set the command pool as a target for the com
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_COMMAND_RECORDER_SET_COMMAND_POOL_AS_TARGET_0040 Pfnd3d12ddiCommandRecorderSetCommandPoolAsTarget0040;

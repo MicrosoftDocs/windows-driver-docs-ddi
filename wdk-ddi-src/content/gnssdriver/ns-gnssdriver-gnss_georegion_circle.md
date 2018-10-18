@@ -6,11 +6,8 @@ description: This structure is used for defining a circular geofence.
 old-location: gnss\gnss_georegion_circle.htm
 tech.root: gnss
 ms.assetid: 498F8325-C887-4FDE-8BCF-A713639E3B35
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PGNSS_GEOREGION_CIRCLE, GNSS_GEOREGION_CIRCLE, GNSS_GEOREGION_CIRCLE structure [Sensor Devices], PGNSS_GEOREGION_CIRCLE, PGNSS_GEOREGION_CIRCLE structure pointer [Sensor Devices], gnss.gnss_georegion_circle, gnssdriver/GNSS_GEOREGION_CIRCLE, gnssdriver/PGNSS_GEOREGION_CIRCLE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: gnssdriver.h
 req.include-header: 

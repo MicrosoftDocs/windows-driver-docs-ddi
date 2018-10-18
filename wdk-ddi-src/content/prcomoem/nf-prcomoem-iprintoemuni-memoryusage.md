@@ -6,11 +6,8 @@ description: The IPrintOemUni::MemoryUsage method can be used with Unidrv-suppor
 old-location: print\iprintoemuni_memoryusage.htm
 tech.root: print
 ms.assetid: bdf9c43d-d747-40e8-86ba-976f3f6a19d6
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrintOemUni interface [Print Devices],MemoryUsage method, IPrintOemUni.MemoryUsage, IPrintOemUni::MemoryUsage, MemoryUsage, MemoryUsage method [Print Devices], MemoryUsage method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::MemoryUsage, print.iprintoemuni_memoryusage, print_unidrv-pscript_rendering_3c23be3a-ed61-452d-8bd9-0b9137ea777f.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

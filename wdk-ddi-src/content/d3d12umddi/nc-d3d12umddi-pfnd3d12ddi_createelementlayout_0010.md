@@ -4,11 +4,8 @@ title: PFND3D12DDI_CREATEELEMENTLAYOUT_0010
 author: windows-driver-content
 description: Creates an element layout.
 ms.assetid: 4d9e1109-4d2c-4234-b989-0bc270a5fb0c
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Creates an element layout.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATEELEMENTLAYOUT_0010 Pfnd3d12ddiCreateelementlayout0010; 

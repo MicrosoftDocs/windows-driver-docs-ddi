@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbPacketFree function releases a packet allocated by using the VmbPacketAllocate function.
 tech.root: netvista
 ms.assetid: 9fd81789-09b7-43ac-bcfc-452b1feca9ce
-ms.author: windowsdriverdev
 ms.date: 05/22/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:
@@ -50,7 +47,7 @@ The <b>VmbPacketFree</b> function releases a packet allocated by using the <a hr
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_PACKET_FREE FnVmbPacketFree; 

@@ -6,11 +6,8 @@ description: The FltFreeDeferredIoWorkItem routine frees a work item allocated b
 old-location: ifsk\fltfreedeferredioworkitem.htm
 tech.root: ifsk
 ms.assetid: e061c8c3-b0f9-4341-b064-91df43303f70
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_677ca3fc-8c9e-4e3e-8ed4-00a25779913d.xml, FltFreeDeferredIoWorkItem, FltFreeDeferredIoWorkItem routine [Installable File System Drivers], fltkernel/FltFreeDeferredIoWorkItem, ifsk.fltfreedeferredioworkitem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

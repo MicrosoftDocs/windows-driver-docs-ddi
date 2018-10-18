@@ -6,11 +6,8 @@ description: The RtlIsCloudFilesPlaceholder routine determines if a file or a di
 old-location: ifsk\rtliscloudfilesplaceholder.htm
 tech.root: ifsk
 ms.assetid: 9FF2EC69-0844-4FD7-A2BC-F16C42922212
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RtlIsCloudFilesPlaceholder, RtlIsCloudFilesPlaceholder routine [Installable File System Drivers], ifsk.rtliscloudfilesplaceholder, ntifs/RtlIsCloudFilesPlaceholder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

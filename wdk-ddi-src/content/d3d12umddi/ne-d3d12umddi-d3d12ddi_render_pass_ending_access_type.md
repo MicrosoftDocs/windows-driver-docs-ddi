@@ -4,12 +4,9 @@ title: D3D12DDI_RENDER_PASS_ENDING_ACCESS_TYPE
 author: windows-driver-content
 description: Indicates that the application will have no future dependencies on the data written to the resource during this Render Pass.
 ms.assetid: 19119cc2-5c96-48ca-81fc-634eaf99bf36
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: D3D12DDI_RENDER_PASS_ENDING_ACCESS_TYPE, D3D12DDI_RENDER_PASS_ENDING_ACCESS_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

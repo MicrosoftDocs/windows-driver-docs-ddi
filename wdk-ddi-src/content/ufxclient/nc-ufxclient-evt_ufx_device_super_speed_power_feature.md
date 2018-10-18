@@ -6,11 +6,8 @@ description: The client driver's implementation to set or clear the specified po
 old-location: buses\evt_ufx_device_super_speed_power_feature.htm
 tech.root: usbref
 ms.assetid: 5A2B787B-13B8-48E9-B53E-7F6409820B88
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE, EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE callback, EvtUfxDeviceSuperSpeedPowerFeature, EvtUfxDeviceSuperSpeedPowerFeature callback function [Buses], PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE, PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE callback function pointer [Buses], buses.evt_ufx_device_super_speed_power_feature, ufxclient/EvtUfxDeviceSuperSpeedPowerFeature
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ufxclient.h
 req.include-header: 

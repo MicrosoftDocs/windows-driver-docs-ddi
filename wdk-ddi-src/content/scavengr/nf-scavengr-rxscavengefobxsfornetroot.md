@@ -6,11 +6,8 @@ description: RxScavengeFobxsForNetRoot scavenges all of the FOBX structures asso
 old-location: ifsk\rxscavengefobxsfornetroot.htm
 tech.root: ifsk
 ms.assetid: 2a2320e6-b114-4ea7-9f2f-27fd47fef770
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RxScavengeFobxsForNetRoot, RxScavengeFobxsForNetRoot function [Installable File System Drivers], ifsk.rxscavengefobxsfornetroot, rxref_9fac9a87-f068-4ee4-909c-85a41c9884d6.xml, scavengr/RxScavengeFobxsForNetRoot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: scavengr.h
 req.include-header: Rxprocs.h

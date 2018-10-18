@@ -6,11 +6,8 @@ description: The SerCx2CustomReceiveTransactionReportProgress method reports whe
 old-location: serports\sercx2customreceivetransactionreportprogress.htm
 tech.root: serports
 ms.assetid: FBC776FE-1056-4D3B-BECB-124FC41DD68F
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: 2/SerCx2CustomReceiveTransactionReportProgress, SerCx2CustomReceiveTransactionReportProgress, SerCx2CustomReceiveTransactionReportProgress method [Serial Ports], serports.sercx2customreceivetransactionreportprogress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The HBA_GetNumberOfAdapters routine returns the number of HBAs supp
 old-location: storage\hba_getnumberofadapters.htm
 tech.root: storage
 ms.assetid: 5864a535-4ff8-4c9a-abf9-f835c7fde305
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: HBA_GetNumberOfAdapters, HBA_GetNumberOfAdapters routine [Storage Devices], fibreHBA_rtns_de5ced35-f290-47fb-ada1-df032be61bfd.xml, hbaapi/HBA_GetNumberOfAdapters, storage.hba_getnumberofadapters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hbaapi.h
 req.include-header: Hbaapi.h

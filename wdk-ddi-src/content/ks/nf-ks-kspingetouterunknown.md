@@ -6,11 +6,8 @@ description: The KsPinGetOuterUnknown function returns the outer IUnknown of the
 old-location: stream\kspingetouterunknown.htm
 tech.root: stream
 ms.assetid: 58b14ddd-6698-487a-925d-7d559057e55d
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsPinGetOuterUnknown, KsPinGetOuterUnknown function [Streaming Media Devices], avfunc_6a9c21cd-38ab-4277-8379-346af4c9c4c9.xml, ks/KsPinGetOuterUnknown, stream.kspingetouterunknown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

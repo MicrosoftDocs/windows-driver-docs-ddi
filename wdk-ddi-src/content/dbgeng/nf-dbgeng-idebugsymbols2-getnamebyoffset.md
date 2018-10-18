@@ -6,11 +6,8 @@ description: The GetNameByOffset method returns the name of the symbol at the sp
 old-location: debugger\getnamebyoffset.htm
 tech.root: debugger
 ms.assetid: 47f87684-339a-49e0-a349-491054ab26ff
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetNameByOffset, GetNameByOffset method [Windows Debugging], GetNameByOffset method [Windows Debugging],IDebugSymbols interface, GetNameByOffset method [Windows Debugging],IDebugSymbols2 interface, GetNameByOffset method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetNameByOffset method, IDebugSymbols2 interface [Windows Debugging],GetNameByOffset method, IDebugSymbols2.GetNameByOffset, IDebugSymbols2::GetNameByOffset, IDebugSymbols3 interface [Windows Debugging],GetNameByOffset method, IDebugSymbols3::GetNameByOffset, IDebugSymbols::GetNameByOffset, IDebugSymbols_5045ed52-43b3-4f5c-90fe-d9725aeb5782.xml, dbgeng/IDebugSymbols2::GetNameByOffset, dbgeng/IDebugSymbols3::GetNameByOffset, dbgeng/IDebugSymbols::GetNameByOffset, debugger.getnamebyoffset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

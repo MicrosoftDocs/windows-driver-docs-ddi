@@ -4,12 +4,9 @@ title: _DXGK_SCHEDULING_PRIORITY_BAND
 author: windows-driver-content
 description: Describes the types of scheduling priority band.
 ms.assetid: fde901af-ea53-479c-8ea5-c719c6b98e10
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: enum
 ms.keywords: _DXGK_SCHEDULING_PRIORITY_BAND, DXGK_SCHEDULING_PRIORITY_BAND,
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

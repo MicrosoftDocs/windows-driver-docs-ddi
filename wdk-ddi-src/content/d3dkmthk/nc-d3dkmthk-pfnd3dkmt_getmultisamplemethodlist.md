@@ -4,11 +4,8 @@ title: PFND3DKMT_GETMULTISAMPLEMETHODLIST
 author: windows-driver-content
 description: Pfnd3dkmtGetmultisamplemethodlist retrieves a list of multiple-sample methods that are used for an allocation.
 ms.assetid: a3421422-c620-44b7-8799-2115e8bbb6ac
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Pfnd3dkmtGetmultisamplemethodlist retrieves a list of multiple-sample methods th
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_GETMULTISAMPLEMETHODLIST Pfnd3dkmtGetmultisamplemethodlist; 

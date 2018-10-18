@@ -6,11 +6,8 @@ description: A minifilter driver can register a routine of type PFLT_CONTEXT_ALL
 old-location: ifsk\pflt_context_allocate_callback.htm
 tech.root: ifsk
 ms.assetid: ca737e84-5b03-4fcd-b715-3344d8bbaaf3
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: ContextAllocateCallback, ContextAllocateCallback routine [Installable File System Drivers], FltCallbacks_bbb085f4-6850-424b-9885-01549171458b.xml, PFLT_CONTEXT_ALLOCATE_CALLBACK, fltkernel/ContextAllocateCallback, ifsk.pflt_context_allocate_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

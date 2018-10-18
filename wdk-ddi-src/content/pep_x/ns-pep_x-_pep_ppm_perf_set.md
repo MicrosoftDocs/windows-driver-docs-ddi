@@ -6,11 +6,8 @@ description: The PEP_PPM_PERF_SET structure specifies the new performance level 
 old-location: kernel\pep_ppm_perf_set.htm
 tech.root: kernel
 ms.assetid: BA2495F6-09E8-4AF9-9489-E745B759F999
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PPEP_PPM_PERF_SET, PEP_PPM_PERF_SET, PEP_PPM_PERF_SET structure [Kernel-Mode Driver Architecture], PPEP_PPM_PERF_SET, PPEP_PPM_PERF_SET structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_PERF_SET, kernel.pep_ppm_perf_set, pepfx/PEP_PPM_PERF_SET, pepfx/PPEP_PPM_PERF_SET"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pep_x.h
 req.include-header: Pep_x.h
@@ -87,7 +84,7 @@ The <b>PEP_PPM_PERF_SET</b> structure specifies the new performance level that t
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186816">PEP_NOTIFY_PPM_PERF_SET</a> notification. All five members of this structure contain input values that PoFx supplies when this notification is sent to the PEP.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186816">PEP_NOTIFY_PPM_PERF_SET</a> notification. All five members of this structure contain input values that PoFx supplies when this notification is sent to the PEP.
 
 Processor performance levels are specified in platform-specific units. For example, a hardware platform might use a metric such as the processor clock frequency to provide a rough approximation to the amount of processing work  that is being done. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt629132">Platform Performance Thresholds</a>.
 
@@ -99,7 +96,7 @@ Processor performance levels are specified in platform-specific units. For examp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186816">PEP_NOTIFY_PPM_PERF_SET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186816">PEP_NOTIFY_PPM_PERF_SET</a>
 
 
 

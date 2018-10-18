@@ -6,11 +6,8 @@ description: The NdkCreateQp (NDK_FN_CREATE_QP) function creates an NDK queue pa
 old-location: netvista\ndk_fn_create_qp.htm
 tech.root: netvista
 ms.assetid: 8B601E53-9BE9-4D84-819E-3B0BD07560BC
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NDK_FN_CREATE_QP, NDK_FN_CREATE_QP callback, NdkCreateQp, NdkCreateQp callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateQp, netvista.ndk_fn_create_qp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndkpi.h
 req.include-header: Ndkpi.h

@@ -6,11 +6,8 @@ description: The KsStreamPointerGetIrp function returns the IRP associated with 
 old-location: stream\ksstreampointergetirp.htm
 tech.root: stream
 ms.assetid: 3ed4ed2f-66be-4429-b2d6-2d9d3f9bcf3e
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsStreamPointerGetIrp, KsStreamPointerGetIrp function [Streaming Media Devices], avfunc_57ecd1af-c967-473c-b475-1d91bc42f2eb.xml, ks/KsStreamPointerGetIrp, stream.ksstreampointergetirp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

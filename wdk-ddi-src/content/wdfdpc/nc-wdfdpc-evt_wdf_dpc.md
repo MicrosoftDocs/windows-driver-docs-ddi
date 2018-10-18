@@ -6,11 +6,8 @@ description: A driver's EvtDpcFunc callback function performs driver-defined ope
 old-location: wdf\evtdpcfunc.htm
 tech.root: wdf
 ms.assetid: b934a0da-0709-4427-bbf2-8d53f9511cf1
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDpcObjectRef_ed441283-63f3-4ad3-84fc-05fb2404f634.xml, EVT_WDF_DPC, EVT_WDF_DPC callback, EvtDpcFunc, EvtDpcFunc callback function, kmdf.evtdpcfunc, wdf.evtdpcfunc, wdfdpc/EvtDpcFunc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfdpc.h
 req.include-header: Wdf.h
@@ -80,9 +77,9 @@ None
 
 To register an <i>EvtDpcFunc</i> callback function, your driver must place the function's address in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551296">WDF_DPC_CONFIG</a> structure and call <a href="https://msdn.microsoft.com/library/windows/hardware/ff547140">WdfDpcCreate</a>.
 
-Drivers typically <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">complete I/O requests</a> in their <i>EvtDpcFunc</i> callback functions.
+Drivers typically <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-i-o-requests">complete I/O requests</a> in their <i>EvtDpcFunc</i> callback functions.
 
-The <i>EvtDpcFunc</i> callback function executes at DISPATCH_LEVEL and must not access <a href="https://msdn.microsoft.com/0b3c1e00-2416-4534-9934-bb05f91c7482">pageable</a> code. If an <i>EvtDpcFunc</i> callback function must perform operations at IRQL = PASSIVE_LEVEL, it can <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-framework-work-items">use framework work items</a>.
+The <i>EvtDpcFunc</i> callback function executes at DISPATCH_LEVEL and must not access <a href="https://msdn.microsoft.com/0b3c1e00-2416-4534-9934-bb05f91c7482">pageable</a> code. If an <i>EvtDpcFunc</i> callback function must perform operations at IRQL = PASSIVE_LEVEL, it can <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-framework-work-items">use framework work items</a>.
 
 Instead of providing <i>EvtDpcFunc</i> callback functions, many drivers provide a single <a href="https://msdn.microsoft.com/d2d505e0-aeac-4871-8c60-d026b2833043">EvtInterruptDpc</a> callback function for each type of interrupt that its devices support. If your driver creates multiple <a href="https://msdn.microsoft.com/42736e2d-2482-46b4-bf52-4efe369db40b">framework queue objects</a> for each device, you might consider using a separate DPC object and <i>EvtDpcFunc</i> callback function for each queue.
 
@@ -132,7 +129,7 @@ VOID
 </td>
 </tr>
 </table></span></div>
-The <b>EVT_WDF_DPC</b> function type is defined in the Wdfdpc.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDF_DPC</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/en-US/library/c0aa268d-6fa3-4ced-a8c6-f7652b152e61">Annotating Function Behavior</a>.
+The <b>EVT_WDF_DPC</b> function type is defined in the Wdfdpc.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDF_DPC</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/library/c0aa268d-6fa3-4ced-a8c6-f7652b152e61">Annotating Function Behavior</a>.
 
 
 

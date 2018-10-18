@@ -6,11 +6,8 @@ description: The MINIDRV_TRANSFER_CONTEXT structure is used to store image and o
 old-location: image\minidrv_transfer_context.htm
 tech.root: image
 ms.assetid: 26583873-4f84-4254-86c1-2063df85000c
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: "*PMINIDRV_TRANSFER_CONTEXT, MINIDRV_TRANSFER_CONTEXT, MINIDRV_TRANSFER_CONTEXT structure [Imaging Devices], PMINIDRV_TRANSFER_CONTEXT, PMINIDRV_TRANSFER_CONTEXT structure pointer [Imaging Devices], _MINIDRV_TRANSFER_CONTEXT, image.minidrv_transfer_context, wiamindr_lh/MINIDRV_TRANSFER_CONTEXT, wiamindr_lh/PMINIDRV_TRANSFER_CONTEXT, wiastrct_36e477d2-73a8-41b7-af46-82fb7c6f0bca.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h

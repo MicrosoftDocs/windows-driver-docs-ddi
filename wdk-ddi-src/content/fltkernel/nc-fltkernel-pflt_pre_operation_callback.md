@@ -6,11 +6,8 @@ description: A minifilter driver's PFLT_PRE_OPERATION_CALLBACK routine performs 
 old-location: ifsk\pflt_pre_operation_callback.htm
 tech.root: ifsk
 ms.assetid: 758a480a-b52c-45e4-8c78-74c805c61e07
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 10/12/2018
 ms.keywords: FltCallbacks_cfde61cc-2054-4263-8697-aa50a1c9d267.xml, PFLT_PRE_OPERATION_CALLBACK, PFLT_PRE_OPERATION_CALLBACK function pointer [Installable File System Drivers], fltkernel/PFLT_PRE_OPERATION_CALLBACK, ifsk.pflt_pre_operation_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: fltkernel.h
 req.include-header: FltKernel.h
@@ -150,11 +147,19 @@ The minifilter driver is returning the I/O operation to the filter manager for f
 
 </td>
 </tr>
+
+<tr>
+<td width="40%">
+<dl>
+<dt><b>FLT_PREOP_DISALLOW_FSFILTER_IO</b></dt>
+</dl>
+</td>
+<td width="60%">
+The minifilter driver is disallowing a fast QueryOpen operation and forcing the operation down the slow path. Doing so causes the I/O manager to service the request by performing an open/query/close of the file. Minifilter drivers should only return this status for QueryOpen.
+</td>
+</tr>
+
 </table>
- 
-
-
-
 
 ## -remarks
 

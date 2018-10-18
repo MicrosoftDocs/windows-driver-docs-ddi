@@ -6,11 +6,8 @@ description: A miniport driver must call the NdisMRestartComplete function to co
 old-location: netvista\ndismrestartcomplete.htm
 tech.root: netvista
 ms.assetid: f43137ed-2ea3-4b7c-8d61-bda76bcb5f34
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisMRestartComplete, NdisMRestartComplete function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_ee1a63ca-c2c4-422b-8c8a-163785c58802.xml, ndis/NdisMRestartComplete, netvista.ndismrestartcomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

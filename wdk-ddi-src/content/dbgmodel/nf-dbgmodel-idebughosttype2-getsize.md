@@ -4,7 +4,6 @@ title: IDebugHostType2::GetSize
 author: windows-driver-content
 description: The GetSize method returns the size of the type (as if one had done sizeof(type) in C++). 
 ms.assetid: 9e7cd050-5830-43ba-af50-9978acdc9944
-ms.author: windowsdriverdev
 ms.date: 10/04/2018  
 ms.topic: method
 ms.keywords: IDebugHostType2::GetSize, GetSize, IDebugHostType2.GetSize, IDebugHostType2::GetSize, IDebugHostType2.GetSize
@@ -64,7 +63,8 @@ if (SUCCEEDED(spType->GetSize(&size)))
 {
     // size is equivalent to sizeof( <type> )
 }
-``
+```
+
 ## -remarks
 
 ## -see-also

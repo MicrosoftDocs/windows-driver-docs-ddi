@@ -6,11 +6,8 @@ description: The KeQueryNodeMaximumProcessorCount routine returns the maximum nu
 old-location: kernel\kequerynodemaximumprocessorcount.htm
 tech.root: kernel
 ms.assetid: 56688002-d481-45a6-bfb0-e7761f9ae055
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: KeQueryNodeMaximumProcessorCount, KeQueryNodeMaximumProcessorCount routine [Kernel-Mode Driver Architecture], k105_15c5df15-b04a-41bd-9aec-2e402e2824a9.xml, kernel.kequerynodemaximumprocessorcount, wdm/KeQueryNodeMaximumProcessorCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

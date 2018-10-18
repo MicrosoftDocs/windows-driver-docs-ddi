@@ -6,11 +6,8 @@ description: The DxgkDdiI2CReceiveDataFromDisplay returns data received from an 
 old-location: display\dxgkddii2creceivedatafromdisplay.htm
 tech.root: display
 ms.assetid: 7b412180-e453-4ae4-95a5-e5393e1d9197
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGKDDI_I2C_RECEIVE_DATA_FROM_DISPLAY, DXGKDDI_I2C_RECEIVE_DATA_FROM_DISPLAY callback, DmFunctions_5fcf0936-1f93-4445-9a80-545ad88b472b.xml, DxgkDdiI2CReceiveDataFromDisplay, DxgkDdiI2CReceiveDataFromDisplay callback function [Display Devices], display.dxgkddii2creceivedatafromdisplay, dispmprt/DxgkDdiI2CReceiveDataFromDisplay
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dispmprt.h
 req.include-header: Dispmprt.h

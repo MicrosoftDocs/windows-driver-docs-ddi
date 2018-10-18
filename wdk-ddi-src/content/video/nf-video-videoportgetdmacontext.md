@@ -6,11 +6,8 @@ description: The VideoPortGetDmaContext function is obsolete in Windows 2000 and
 old-location: display\videoportgetdmacontext.htm
 tech.root: display
 ms.assetid: 1bd9a156-a366-4f35-956f-d195c41ae722
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: VideoPortGetDmaContext, VideoPortGetDmaContext function [Display Devices], VideoPort_Functions_97335d32-fa36-4130-a050-39fbdfc08517.xml, display.videoportgetdmacontext, video/VideoPortGetDmaContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: video.h
 req.include-header: Video.h

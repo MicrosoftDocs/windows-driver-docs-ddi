@@ -6,11 +6,8 @@ description: The AddUlong64 method adds a new FA entry to a DebugFailureAnalysis
 old-location: debugger\idebugfailureanalysis2_addulong64.htm
 tech.root: debugger
 ms.assetid: E5FB5911-C6E5-44C1-B33F-75B4DD86A3D9
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: AddUlong64, AddUlong64 method [Windows Debugging], AddUlong64 method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],AddUlong64 method, IDebugFailureAnalysis2.AddUlong64, IDebugFailureAnalysis2::AddUlong64, debugger.idebugfailureanalysis2_addulong64, extsfns/IDebugFailureAnalysis2::AddUlong64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: extsfns.h
 req.include-header: 
@@ -60,7 +57,7 @@ The <b>AddUlong64</b> method adds a new <a href="https://msdn.microsoft.com/759D
 
 ### -param Tag
 
-A value in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration. The data type associated with this tag must be <b>DEBUG_FA_ENTRY_ULONG64</b> or <b>DEBUG_FA_ENTRY_POINTER</b> or <b>DEBUG_FA_ENTRY_INSTRUCTION_OFFSET</b>.
+A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration. The data type associated with this tag must be <b>DEBUG_FA_ENTRY_ULONG64</b> or <b>DEBUG_FA_ENTRY_POINTER</b> or <b>DEBUG_FA_ENTRY_INSTRUCTION_OFFSET</b>.
 
 
 

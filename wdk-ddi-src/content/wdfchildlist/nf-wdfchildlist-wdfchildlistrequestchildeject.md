@@ -6,11 +6,8 @@ description: The WdfChildListRequestChildEject method informs the framework that
 old-location: wdf\wdfchildlistrequestchildeject.htm
 tech.root: wdf
 ms.assetid: d7729edf-e92d-4707-83e2-fece90daeacf
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectChildListRef_52991ad9-29ef-4ab8-b746-168fcc0b8e99.xml, WdfChildListRequestChildEject, WdfChildListRequestChildEject method, kmdf.wdfchildlistrequestchildeject, wdf.wdfchildlistrequestchildeject, wdfchildlist/WdfChildListRequestChildEject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
@@ -95,7 +92,7 @@ The <b>WdfChildListRequestChildEject</b> method's <i>IdentificationDescription</
 
 The framework uses the identification description to locate the device in the child list.
 
-For more information about child lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
+For more information about child lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
 For more information about ejectable devices, see <a href="https://msdn.microsoft.com/7820bb71-7218-4c5f-af2b-f41e1b5f696d">Supporting Ejectable Devices</a>.
 

@@ -5,12 +5,9 @@ author: windows-driver-content
 description: The NET_MEMORY_MAPPING_REQUIREMENT enumeration identifies the memory mapping requirement that a net adapter can specify for its receive and transmit buffers.
 tech.root: netvista
 ms.assetid: bc46ac6b-7971-408a-ab7b-aa920523bb9d
-ms.author: windowsdriverdev
 ms.date: 02/15/2018
 ms.topic: enum
 ms.keywords: _NET_MEMORY_MAPPING_REQUIREMENT, NET_MEMORY_MAPPING_REQUIREMENT, *PNET_MEMORY_MAPPING_REQUIREMENT, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: netadapter.h
 req.include-header:
 req.target-type:

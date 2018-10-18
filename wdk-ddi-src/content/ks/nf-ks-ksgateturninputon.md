@@ -6,11 +6,8 @@ description: The KsGateTurnInputOn function turns on an existing input to Gate.
 old-location: stream\ksgateturninputon.htm
 tech.root: stream
 ms.assetid: 68c914bf-a293-42b0-85aa-c9e8f2ba18ac
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsGateTurnInputOn, KsGateTurnInputOn function [Streaming Media Devices], avfunc_9aaa9c85-b3a1-49ae-8135-6402f7bc1755.xml, ks/KsGateTurnInputOn, stream.ksgateturninputon
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

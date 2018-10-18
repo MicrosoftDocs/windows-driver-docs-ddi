@@ -6,11 +6,8 @@ description: The WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure is a head
 old-location: wdf\wdf_child_identification_description_header.htm
 tech.root: wdf
 ms.assetid: 9bec95c9-785f-4578-a28a-6cffc986a3b9
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, DFDeviceObjectChildListRef_543d7f3d-e182-4147-a1cb-62d39fdde4e3.xml, PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure pointer, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure, _WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, kmdf.wdf_child_identification_description_header, wdf.wdf_child_identification_description_header, wdfchildlist/PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, wdfchildlist/WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
@@ -52,7 +49,7 @@ req.typenames: WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, *PWDF_CHILD_IDENTIFI
 
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</b> structure is a header structure that must be the first member of every <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">identification description</a> structure.
+The <b>WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</b> structure is a header structure that must be the first member of every <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">identification description</a> structure.
 
 
 ## -struct-fields
@@ -105,7 +102,7 @@ WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT(&amp;ID_Description,
 </td>
 </tr>
 </table></span></div>
-For more information about identification descriptions, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
+For more information about identification descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
 
 

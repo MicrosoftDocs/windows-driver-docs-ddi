@@ -6,11 +6,8 @@ description: The PEP_PPM_QUERY_IDLE_STATES structure describes the idle states o
 old-location: kernel\pep_ppm_query_idle_states.htm
 tech.root: kernel
 ms.assetid: 27B43684-6564-41A0-9F0D-D49F88D1F14D
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PPEP_PPM_QUERY_IDLE_STATES, PEP_PPM_QUERY_IDLE_STATES, PEP_PPM_QUERY_IDLE_STATES structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_IDLE_STATES, PPEP_PPM_QUERY_IDLE_STATES structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_IDLE_STATES, kernel.pep_ppm_query_idle_states, pep_x/PEP_PPM_QUERY_IDLE_STATES, pep_x/PPEP_PPM_QUERY_IDLE_STATES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pep_x.h
 req.include-header: Pepfx.h
@@ -60,7 +57,7 @@ The <b>PEP_PPM_QUERY_IDLE_STATES</b> structure describes the idle states of a pa
 
 ### -field Count
 
-[in] The number of elements in the <b>IdleStates</b> array. This member is set to the <b>IdleStateCount</b> value that the PEP previously supplied for this processor in response to the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186820">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a> notification.
+[in] The number of elements in the <b>IdleStates</b> array. This member is set to the <b>IdleStateCount</b> value that the PEP previously supplied for this processor in response to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186820">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a> notification.
 
 
 ### -field MaximumCoordinatedProcessors
@@ -77,7 +74,7 @@ The <b>PEP_PPM_QUERY_IDLE_STATES</b> structure describes the idle states of a pa
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629121">PEP_NOTIFY_PPM_QUERY_IDLE_STATES</a> notification. The <b>Count</b> member of the structure contains an input value that PoFx supplies when this notification is sent. The other two members contain output values that the PEP writes to the structure in response to the notification.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt629121">PEP_NOTIFY_PPM_QUERY_IDLE_STATES</a> notification. The <b>Count</b> member of the structure contains an input value that PoFx supplies when this notification is sent. The other two members contain output values that the PEP writes to the structure in response to the notification.
 
 
 
@@ -87,11 +84,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186820">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186820">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629121">PEP_NOTIFY_PPM_QUERY_IDLE_STATES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt629121">PEP_NOTIFY_PPM_QUERY_IDLE_STATES</a>
 
 
 

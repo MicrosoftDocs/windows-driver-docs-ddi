@@ -6,11 +6,8 @@ description: UFS_INTERCONNECT_DESCRIPTOR contains the MIPI M-PHY® specification
 old-location: storage\ufs_interconnect_descriptor.htm
 tech.root: storage
 ms.assetid: 6C6EAA96-40E9-467F-903B-AE44CE5B77CF
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PUFS_INTERCONNECT_DESCRIPTOR, PUFS_INTERCONNECT_DESCRIPTOR, PUFS_INTERCONNECT_DESCRIPTOR structure pointer [Storage Devices], UFS_INTERCONNECT_DESCRIPTOR, UFS_INTERCONNECT_DESCRIPTOR structure [Storage Devices], storage.ufs_interconnect_descriptor, ufs/PUFS_INTERCONNECT_DESCRIPTOR, ufs/UFS_INTERCONNECT_DESCRIPTOR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ufs.h
 req.include-header: 

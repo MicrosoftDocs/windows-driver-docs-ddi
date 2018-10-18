@@ -6,11 +6,8 @@ description: Used in a call to the DxgkDdiCheckMultiPlaneOverlaySupport3 functio
 old-location: display\dxgkarg_checkmultiplaneoverlaysupport3.htm
 
 ms.assetid: 21FE4E54-5B7D-4068-AC83-A7AFFA739169
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: "*IN_OUT_PDXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3, DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3, DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3 structure, _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3, d3dkmddi/DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3, display.dxgkarg_checkmultiplaneoverlaysupport3"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmddi.h
 req.include-header:

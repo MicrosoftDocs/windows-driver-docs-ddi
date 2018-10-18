@@ -6,11 +6,8 @@ description: The SUB_Q_CURRENT_POSITION structure contains position information 
 old-location: storage\sub_q_current_position.htm
 tech.root: storage
 ms.assetid: 816baec4-3dd0-4025-ba34-035bf6f241d3
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PSUB_Q_CURRENT_POSITION, PSUB_Q_CURRENT_POSITION, PSUB_Q_CURRENT_POSITION structure pointer [Storage Devices], SUB_Q_CURRENT_POSITION, SUB_Q_CURRENT_POSITION structure [Storage Devices], _SUB_Q_CURRENT_POSITION, ntddcdrm/PSUB_Q_CURRENT_POSITION, ntddcdrm/SUB_Q_CURRENT_POSITION, storage.sub_q_current_position, structs-CD-ROM_f9833ad0-bb9c-418e-8e98-2c2f790a0e7e.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h

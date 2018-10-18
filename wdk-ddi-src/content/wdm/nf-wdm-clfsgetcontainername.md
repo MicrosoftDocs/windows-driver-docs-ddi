@@ -6,11 +6,8 @@ description: The ClfsGetContainerName routine returns the path name of a specifi
 old-location: kernel\clfsgetcontainername.htm
 tech.root: kernel
 ms.assetid: 727b2e29-9e2d-4386-a30b-5727e1261fad
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: ClfsGetContainerName, ClfsGetContainerName routine [Kernel-Mode Driver Architecture], Clfs_dce31248-386b-4f6d-8e88-55ef9d70fe84.xml, kernel.clfsgetcontainername, wdm/ClfsGetContainerName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h

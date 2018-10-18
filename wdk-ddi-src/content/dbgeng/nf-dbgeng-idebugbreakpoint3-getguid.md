@@ -6,11 +6,8 @@ description: Returns a GUID for the breakpoint.
 old-location: debugger\idebugbreakpoint3_getguid.htm
 tech.root: debugger
 ms.assetid: 0D279F79-FFA8-4661-A9E9-EFA62A97EEC7
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetGuid, GetGuid method [Windows Debugging], GetGuid method [Windows Debugging],IDebugBreakpoint3 interface, IDebugBreakpoint3 interface [Windows Debugging],GetGuid method, IDebugBreakpoint3.GetGuid, IDebugBreakpoint3::GetGuid, dbgeng/IDebugBreakpoint3::GetGuid, debugger.idebugbreakpoint3_getguid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

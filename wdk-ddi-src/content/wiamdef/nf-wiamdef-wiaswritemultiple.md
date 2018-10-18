@@ -6,11 +6,8 @@ description: The wiasWriteMultiple function writes multiple property values to a
 old-location: image\wiaswritemultiple.htm
 tech.root: image
 ms.assetid: 7cd8ebb2-fc5a-49f5-8708-4b562d826278
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: image.wiaswritemultiple, wiamdef/wiasWriteMultiple, wiasFncs_e29533d3-4181-41f3-b49b-fb34a20950db.xml, wiasWriteMultiple, wiasWriteMultiple function [Imaging Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiamdef.h
 req.include-header: Wiamdef.h

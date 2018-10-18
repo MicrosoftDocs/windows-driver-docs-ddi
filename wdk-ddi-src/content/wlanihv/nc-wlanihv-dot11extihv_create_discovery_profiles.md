@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extihvcreatediscoveryprofiles.htm
 tech.root: netvista
 ms.assetid: e741bfa7-eb97-4f94-beb4-545d7bedcea8
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: DOT11EXTIHV_CREATE_DISCOVERY_PROFILES, Dot11ExtIhvCreateDiscoveryProfiles, Dot11ExtIhvCreateDiscoveryProfiles callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_fadde2b4-2a9d-4c6b-8a92-e044bab5c544.xml, netvista.dot11extihvcreatediscoveryprofiles, wlanihv/Dot11ExtIhvCreateDiscoveryProfiles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wlanihv.h
 req.include-header: Wlanihv.h, Winclient.h, L2cmn.h
@@ -62,7 +59,7 @@ The operating system calls the
 ## -prototype
 
 
-````
+```cpp
 DOT11EXTIHV_CREATE_DISCOVERY_PROFILES Dot11ExtIhvCreateDiscoveryProfiles;
 
 DWORD APIENTRY Dot11ExtIhvCreateDiscoveryProfiles(
@@ -74,7 +71,7 @@ DWORD APIENTRY Dot11ExtIhvCreateDiscoveryProfiles(
   _Out_    PDWORD                               pdwReasonCode
 )
 { ... }
-````
+```
 
 
 ## -parameters
@@ -112,7 +109,7 @@ A pointer to a
      or more 802.11 Beacon or Probe Response frames received from a BSS network. This list is derived from
      the results of the last scan operation performed by the WLAN adapter. For more information about the
      scan operation, see
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan Operations</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan Operations</a>.
 
 
 <div class="alert"><b>Note</b>  For Windows Vista, the IHV Extensions DLL supports only infrastructure basic
@@ -190,7 +187,7 @@ An IHV-defined value in the range from L2_REASON_CODE_IHV_BASE to (L2_REASON_COD
 </li>
 </ul>
 For more information about creating discovery profiles, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/creating-network-profile-extensions">Creating Network Profile
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/creating-network-profile-extensions">Creating Network Profile
     Extensions</a>.
 
 

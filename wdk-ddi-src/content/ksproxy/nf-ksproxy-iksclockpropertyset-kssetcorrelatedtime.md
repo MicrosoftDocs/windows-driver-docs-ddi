@@ -6,11 +6,8 @@ description: The KsSetCorrelatedTime method sets the current time with the corre
 old-location: stream\iksclockpropertyset_kssetcorrelatedtime.htm
 tech.root: stream
 ms.assetid: 58281b50-14b6-4e24-972a-ab3b1d88eb50
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: IKsClockPropertySet interface [Streaming Media Devices],KsSetCorrelatedTime method, IKsClockPropertySet.KsSetCorrelatedTime, IKsClockPropertySet::KsSetCorrelatedTime, KsSetCorrelatedTime, KsSetCorrelatedTime method [Streaming Media Devices], KsSetCorrelatedTime method [Streaming Media Devices],IKsClockPropertySet interface, ksproxy/IKsClockPropertySet::KsSetCorrelatedTime, ksproxy_bf409d47-cdd4-467e-88f1-4358bf8934d4.xml, stream.iksclockpropertyset_kssetcorrelatedtime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ksproxy.h
 req.include-header: Ksproxy.h

@@ -4,11 +4,8 @@ title: PFND3D12DDI_CREATE_COMMAND_POOL_0040
 author: windows-driver-content
 description: Implemented by the client driver to create a command pool.
 ms.assetid: 04cc7078-a69b-4783-adea-21131baf49dd
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to create a command pool.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATE_COMMAND_POOL_0040 Pfnd3d12ddiCreateCommandPool0040;

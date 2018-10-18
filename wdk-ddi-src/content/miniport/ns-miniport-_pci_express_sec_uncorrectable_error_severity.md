@@ -6,11 +6,8 @@ description: The PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY structure describe
 old-location: pci\pci_express_sec_uncorrectable_error_severity.htm
 tech.root: PCI
 ms.assetid: b00aeced-037b-4bc5-97b7-96501262700f
-ms.author: windowsdriverdev
 ms.date: 2/24/2018
 ms.keywords: "*PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, PCI.pci_express_sec_uncorrectable_error_severity, PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY union [Buses], PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY union pointer [Buses], _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, pci_struct_94eb07f5-9b90-414b-a331-075c61f507a4.xml, wdm/PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, wdm/PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: miniport.h
 req.include-header: Ntddk.h, Wdm.h, Miniport.h
@@ -56,7 +53,7 @@ The PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY structure describes a PCI Expre
 ## -syntax
 
 
-````
+```cpp
 typedef union _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY {
   struct {
     ULONG TargetAbortOnSplitCompletion  :1;
@@ -77,7 +74,7 @@ typedef union _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY {
   };
   ULONG  AsULONG;
 } PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, *PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY;
-````
+```
 
 
 ## -struct-fields

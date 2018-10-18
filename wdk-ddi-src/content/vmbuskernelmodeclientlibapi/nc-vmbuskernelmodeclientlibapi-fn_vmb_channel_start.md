@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbChannelStart function moves a channel out of the paused state.
 tech.root: netvista
 ms.assetid: 2cc86b88-53af-4207-9bd2-829c950f87d8
-ms.author: windowsdriverdev
 ms.date: 05/22/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:
@@ -50,7 +47,7 @@ The <b>VmbChannelStart</b> function moves a channel out of the paused state.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_START FnVmbChannelStart; 

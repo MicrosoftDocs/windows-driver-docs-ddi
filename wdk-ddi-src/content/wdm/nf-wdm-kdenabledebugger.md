@@ -6,11 +6,8 @@ description: The KdEnableDebugger routine re-enables the kernel debugger after a
 old-location: devtest\kdenabledebugger.htm
 tech.root: devtest
 ms.assetid: 90151c0d-24c9-4304-bdcf-30dc89397905
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: DebugFns_080ae06e-7e0c-45e1-a470-22e99922eb72.xml, KdEnableDebugger, KdEnableDebugger routine [Driver Development Tools], devtest.kdenabledebugger, wdm/KdEnableDebugger
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h

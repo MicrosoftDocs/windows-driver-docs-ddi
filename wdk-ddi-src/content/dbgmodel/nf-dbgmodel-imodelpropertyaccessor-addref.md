@@ -4,7 +4,6 @@ title: IModelPropertyAccessor::AddRef
 author: windows-driver-content
 description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object.
 ms.assetid: f0f7bd83-41dc-4683-9a67-8f37ca521881
-ms.author: windowsdriverdev
 ms.date: 08/13/2018 
 ms.topic: method
 ms.keywords: IModelPropertyAccessor::AddRef, AddRef, IModelPropertyAccessor.AddRef, IModelPropertyAccessor::AddRef, IModelPropertyAccessor.AddRef

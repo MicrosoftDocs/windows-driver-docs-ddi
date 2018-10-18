@@ -4,11 +4,8 @@ title: EVT_SENSOR_DRIVER_STOP_SENSOR_HISTORY
 author: windows-driver-content
 description: Stops recording history in the sensor.
 ms.assetid: 6275f6dc-9c05-4fb1-a66e-60abd6052654
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: sensorscx.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Stops recording history in the sensor.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_SENSOR_DRIVER_STOP_SENSOR_HISTORY EvtSensorDriverStopSensorHistory; 

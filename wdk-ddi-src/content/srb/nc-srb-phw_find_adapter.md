@@ -6,11 +6,8 @@ description: The PHW_FIND_ADAPTER prototype declares a routine that uses supplie
 old-location: storage\phw_find_adapter.htm
 tech.root: storage
 ms.assetid: 265dce25-cecb-4bd1-8f5f-1646779da296
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "(*PHW_FIND_ADAPTER), (*PHW_FIND_ADAPTER) callback function [Storage Devices], ide_minikr_dcd06c33-80a8-417c-acf6-5c38fa4d62ed.xml, srb/(*PHW_FIND_ADAPTER), storage.phw_find_adapter"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: srb.h
 req.include-header: Storport.h, Srb.h, Storport.h

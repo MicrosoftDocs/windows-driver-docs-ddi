@@ -4,11 +4,8 @@ title: IModelMethod
 author: windows-driver-content
 description: Represents a method which can be called.
 ms.assetid: 3483b979-a5a3-49ce-9036-3c021fa14b5b
-ms.author: windowsdriverdev
 ms.date: 07/16/2018
 ms.topic: interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

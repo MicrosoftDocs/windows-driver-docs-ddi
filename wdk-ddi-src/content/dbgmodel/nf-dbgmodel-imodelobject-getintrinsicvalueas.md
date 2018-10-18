@@ -4,7 +4,6 @@ title: IModelObject::GetIntrinsicValueAs
 author: windows-driver-content
 description: The GetIntrinsicValueAs method behaves much as the GetIntrinsicValue method excepting that it converts the value to the specified variant type. 
 ms.assetid: 5fa25457-b1fc-4f9c-b576-48c087aacff7
-ms.author: windowsdriverdev
 ms.date: 08/09/2018
 ms.topic: method
 ms.keywords: IModelObject::GetIntrinsicValueAs, GetIntrinsicValueAs, IModelObject.GetIntrinsicValueAs, IModelObject::GetIntrinsicValueAs, IModelObject.GetIntrinsicValueAs

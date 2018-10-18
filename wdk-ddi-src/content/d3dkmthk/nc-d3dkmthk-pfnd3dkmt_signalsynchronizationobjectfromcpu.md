@@ -4,11 +4,8 @@ title: PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
 author: windows-driver-content
 description: The PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU callback function enables a driver to signal a monitored fence.
 ms.assetid: dd418f01-37ec-4972-a31b-eeb2d08a5b2f
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU callback function enables a dri
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU Pfnd3dkmtSignalsynchronizationobjectfromcpu; 

@@ -6,11 +6,8 @@ description: The KSDPC_ITEM structure is used to store information related to an
 old-location: stream\ksdpc_item.htm
 tech.root: stream
 ms.assetid: 7732b1a8-4f76-49d0-acbf-ce0be6b36858
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PKSDPC_ITEM, KSDPC_ITEM, KSDPC_ITEM structure [Streaming Media Devices], PKSDPC_ITEM, PKSDPC_ITEM structure pointer [Streaming Media Devices], ks-struct_c40f10e3-5732-4020-a22f-4695eaaa471a.xml, ks/KSDPC_ITEM, ks/PKSDPC_ITEM, stream.ksdpc_item"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ks.h
 req.include-header: Ks.h

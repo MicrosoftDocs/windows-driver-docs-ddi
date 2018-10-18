@@ -6,11 +6,8 @@ description: The FsRtlNotifyUninitializeSync routine deallocates the synchroniza
 old-location: ifsk\fsrtlnotifyuninitializesync.htm
 tech.root: ifsk
 ms.assetid: ac26d5cb-b342-42ec-ad76-23cefe509566
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FsRtlNotifyUninitializeSync, FsRtlNotifyUninitializeSync routine [Installable File System Drivers], fsrtlref_bb1d0439-691c-4a2d-8d0f-750f26d75995.xml, ifsk.fsrtlnotifyuninitializesync, ntifs/FsRtlNotifyUninitializeSync
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h

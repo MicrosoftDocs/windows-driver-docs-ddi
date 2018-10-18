@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_getcalllist.htm
 tech.root: netvista
 ms.assetid: 7b2e0c82-c204-4d57-a2d2-066b8772ce13
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RIL_GetCallList, RIL_GetCallList method [Network Drivers Starting with Windows Vista], netvista.ril_getcalllist, rilapi/RIL_GetCallList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rilapi.h
 req.include-header: 

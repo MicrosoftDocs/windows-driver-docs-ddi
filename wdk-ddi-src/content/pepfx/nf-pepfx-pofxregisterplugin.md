@@ -6,11 +6,8 @@ description: The PoFxRegisterPlugin routine registers a platform extension plug-
 old-location: kernel\pofxregisterplugin.htm
 tech.root: kernel
 ms.assetid: BB50112E-6706-419C-9686-79F0F76926C3
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: PoFxRegisterPlugin, PoFxRegisterPlugin routine [Kernel-Mode Driver Architecture], kernel.pofxregisterplugin, pepfx/PoFxRegisterPlugin
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pepfx.h
 req.include-header: Pep_x.h

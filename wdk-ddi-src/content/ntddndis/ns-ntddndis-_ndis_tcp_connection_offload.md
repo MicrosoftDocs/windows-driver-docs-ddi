@@ -6,11 +6,8 @@ description: The NDIS_TCP_CONNECTION_OFFLOAD structure provides connection offlo
 old-location: netvista\ndis_tcp_connection_offload.htm
 tech.root: netvista
 ms.assetid: d37a773d-0a83-4592-9c21-3ceaa6454549
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNDIS_TCP_CONNECTION_OFFLOAD, NDIS_TCP_CONNECTION_OFFLOAD, NDIS_TCP_CONNECTION_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_CONNECTION_OFFLOAD, PNDIS_TCP_CONNECTION_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_CONNECTION_OFFLOAD, netvista.ndis_tcp_connection_offload, ntddndis/NDIS_TCP_CONNECTION_OFFLOAD, ntddndis/PNDIS_TCP_CONNECTION_OFFLOAD, tcpip_offload_ref_d53e40a7-cf71-4281-ba14-80d913f810d7.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ndis.h
@@ -144,15 +141,15 @@ The NDIS_TCP_CONNECTION_OFFLOAD structure is used in the
     <a href="https://msdn.microsoft.com/9ce875fc-ed3f-43e9-bfbc-081f02cb1999">
     NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a> structure, 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a> structure, 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-current-config">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-connection-offload-current-config">
     OID_TCP_CONNECTION_OFFLOAD_CURRENT_CONFIG</a> OID, 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
     OID_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</a> OID, NDIS_STATUS_OFFLOAD_RESUME status indication,
     and 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567828">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567828">
     NDIS_STATUS_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</a> status indication. (For information on
     NDIS_STATUS_OFFLOAD_RESUME, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
     documentation</a>.)
 
 Miniport drivers do not receive the OID queries. NDIS uses the information that the miniport driver
@@ -172,13 +169,13 @@ The
     offload encapsulation settings for the miniport adapter.
 
 For an 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
     OID_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</a> query request, NDIS provides a single flag that
     indicates the hardware encapsulation capabilities, in the 
     <b>Encapsulation</b> member.
 
 For an 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-current-config">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-connection-offload-current-config">
     OID_TCP_CONNECTION_OFFLOAD_CURRENT_CONFIG</a> query request, NDIS provides a bitwise OR of the
     encapsulation flags, which indicates the current encapsulation settings.
 
@@ -192,9 +189,9 @@ The following flags are defined for the
 <h3><a id="ddk_ndis_tcp_connection_offload_nr"></a><a id="DDK_NDIS_TCP_CONNECTION_OFFLOAD_NR"></a></h3>
 <h3><a id="tcp_chimney_offload_queries"></a><a id="TCP_CHIMNEY_OFFLOAD_QUERIES"></a>TCP Chimney Offload Queries</h3>
 When an NDIS responds to a query of 
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
        OID_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</a> or 
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-current-config">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-connection-offload-current-config">
        OID_TCP_CONNECTION_OFFLOAD_CURRENT_CONFIG</a> for an offload target, NDIS provides the 
        <b>SupportIp4</b>, 
        <b>SupportIp6</b>, 
@@ -217,7 +214,7 @@ An offload target should not support any IPv4 options. The offload target must f
        MiniportTcpOffloadForward</a> function. (For information on 
        <i>
        MiniportTcpOffloadForward</i>, see 
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
        documentation</a>.)
 
 The offload target must also provide a value for the 
@@ -230,7 +227,7 @@ Note that an offload target cannot directly indicate new offload capabilities. I
        adapter is ready to resume offloading TCP connections, it issues an NDIS_STATUS_OFFLOAD_RESUME status
        indication to report the new connection offload capabilities. For more information on
        NDIS_STATUS_OFFLOAD_RESUME, see 
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
        documentation</a>.
 
 
@@ -258,7 +255,7 @@ Note that an offload target cannot directly indicate new offload capabilities. I
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567828">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567828">
    NDIS_STATUS_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</a>
 
 
@@ -268,12 +265,12 @@ Note that an offload target cannot directly indicate new offload capabilities. I
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-current-config">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-connection-offload-current-config">
    OID_TCP_CONNECTION_OFFLOAD_CURRENT_CONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
    OID_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</a>
  
 

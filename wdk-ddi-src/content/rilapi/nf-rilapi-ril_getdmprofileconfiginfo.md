@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_getdmprofileconfiginfo.htm
 tech.root: netvista
 ms.assetid: b0c4e96e-5f7f-4ee5-90b7-6d78ee321bf5
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RIL_GetDMProfileConfigInfo, RIL_GetDMProfileConfigInfo method [Network Drivers Starting with Windows Vista], netvista.ril_getdmprofileconfiginfo, rilapi/RIL_GetDMProfileConfigInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rilapi.h
 req.include-header: 

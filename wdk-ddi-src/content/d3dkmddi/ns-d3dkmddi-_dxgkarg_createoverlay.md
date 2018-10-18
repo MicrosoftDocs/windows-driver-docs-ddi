@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The DXGKARG_CREATEOVERLAY structure describes parameters to create an overlay.
 old-location: display\dxgkarg_createoverlay.htm
 ms.assetid: f95ef083-2b2f-4e13-ad60-6bc7da0fec33
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: "*INOUT_PDXGKARG_CREATEOVERLAY, DXGKARG_CREATEOVERLAY, DXGKARG_CREATEOVERLAY structure [Display Devices], DmStructs_935ab2cb-070a-4700-8ace-62c4c44c42b5.xml, _DXGKARG_CREATEOVERLAY, d3dkmddi/DXGKARG_CREATEOVERLAY, display.dxgkarg_createoverlay"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

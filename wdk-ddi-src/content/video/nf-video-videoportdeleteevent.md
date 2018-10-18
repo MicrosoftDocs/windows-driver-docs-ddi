@@ -6,11 +6,8 @@ description: The VideoPortDeleteEvent function deletes the specified event objec
 old-location: display\videoportdeleteevent.htm
 tech.root: display
 ms.assetid: 0952f6ab-6d57-4ded-b167-74a7ace47961
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: VideoPortDeleteEvent, VideoPortDeleteEvent function [Display Devices], VideoPort_Functions_66e14d53-8a5e-4322-8576-4ac06230db31.xml, display.videoportdeleteevent, video/VideoPortDeleteEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: video.h
 req.include-header: Video.h

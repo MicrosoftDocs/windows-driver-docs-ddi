@@ -6,11 +6,8 @@ description: The WINBIO_BIR_HEADER structure contains the Common Biometric Excha
 old-location: biometric\winbio_bir_header.htm
 tech.root: biometric
 ms.assetid: 5053b027-61a9-463a-967c-9e9ff1673b1c
-ms.author: windowsdriverdev
 ms.date: 2/20/2018
 ms.keywords: "*PWINBIO_BIR_HEADER, PWINBIO_BIR_HEADER, PWINBIO_BIR_HEADER structure pointer [Biometric Devices], WINBIO_BIR_HEADER, WINBIO_BIR_HEADER structure [Biometric Devices], _WINBIO_BIR_HEADER, biometric.winbio_bir_header, biometric_ref_1e5e4af7-36a5-414b-8c26-7a266c38272c.xml, winbio_types/PWINBIO_BIR_HEADER, winbio_types/WINBIO_BIR_HEADER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winbio_types.h
 req.include-header: 

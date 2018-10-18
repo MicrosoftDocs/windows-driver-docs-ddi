@@ -6,11 +6,8 @@ description: The IoUpdateShareAccess routine updates the share access for the gi
 old-location: kernel\ioupdateshareaccess.htm
 tech.root: kernel
 ms.assetid: b8e14607-a8d4-4e15-8b1d-92096879ea65
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IoUpdateShareAccess, IoUpdateShareAccess routine [Kernel-Mode Driver Architecture], k104_24b78a73-20f1-4d8b-be0e-67964e8dbc31.xml, kernel.ioupdateshareaccess, wdm/IoUpdateShareAccess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

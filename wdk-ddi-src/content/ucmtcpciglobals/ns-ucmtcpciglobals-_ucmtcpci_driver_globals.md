@@ -6,11 +6,8 @@ description: The global structure for the USB Type-C Port Controller Interface f
 old-location: buses\ucmtcpci_driver_globals.htm
 tech.root: usbref
 ms.assetid: 75a0e9ef-0791-4465-b671-36c86dc9116a
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: "*PUCMTCPCI_DRIVER_GLOBALS, UCMTCPCI_DRIVER_GLOBALS, UCMTCPCI_DRIVER_GLOBALS structure [Buses], _UCMTCPCI_DRIVER_GLOBALS, buses.ucmtcpci_driver_globals, ucmtcpciglobals/UCMTCPCI_DRIVER_GLOBALS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ucmtcpciglobals.h
 req.include-header: 

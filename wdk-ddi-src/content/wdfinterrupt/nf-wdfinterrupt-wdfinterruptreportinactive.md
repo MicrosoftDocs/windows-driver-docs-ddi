@@ -6,11 +6,8 @@ description: The WdfInterruptReportInactive method informs the system that the i
 old-location: wdf\wdfinterruptreportinactive.htm
 tech.root: wdf
 ms.assetid: 322E70AA-5825-4199-B822-B48B12E62393
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WdfInterruptReportInactive, WdfInterruptReportInactive method, kmdf._wdfinterruptreportinactive, kmdf.wdfinterruptreportinactive, wdf.wdfinterruptreportinactive, wdfinterrupt/WdfInterruptReportInactive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
@@ -87,7 +84,7 @@ When a driver calls <b>WdfInterruptReportInactive</b>, the power management fram
 
 Typically, a driver calls <b>WdfInterruptReportInactive</b> from either its  <a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a> routine, or from <a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a> when <i>State</i> is greater than zero  (indicating a low-power Fx state).
 
-If your driver calls this method on an operating system earlier than Windows 8, <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-kmdf-verifier">the framework's verifier</a> reports an error.
+If your driver calls this method on an operating system earlier than Windows 8, <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-kmdf-verifier">the framework's verifier</a> reports an error.
 
 
 #### Examples

@@ -6,11 +6,8 @@ description: The KSTELEPHONY_CALLCONTROL structure specifies the phone call type
 old-location: audio\kstelephony_callcontrol.htm
 tech.root: audio
 ms.assetid: 44CA5D9D-EF6E-4681-93EB-B803638896F9
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: "*PKSTELEPHONY_CALLCONTROL, KSTELEPHONY_CALLCONTROL, KSTELEPHONY_CALLCONTROL structure [Audio Devices], PKSTELEPHONY_CALLCONTROL, PKSTELEPHONY_CALLCONTROL structure pointer [Audio Devices], _tagKSTELEPHONY_CALLCONTROL, audio.kstelephony_callcontrol, ksmedia/KSTELEPHONY_CALLCONTROL, ksmedia/PKSTELEPHONY_CALLCONTROL"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksmedia.h
 req.include-header: 

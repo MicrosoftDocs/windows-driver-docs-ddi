@@ -4,11 +4,8 @@ title: D3D12DDI_RESOURCE_COORDINATE_0053
 author: windows-driver-content
 description: The resource coordinates of the video motion estimation operation.
 ms.assetid: c26f4161-09ce-43a0-a75b-61b5dffe4c3b
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_RESOURCE_COORDINATE_0053, D3D12DDI_RESOURCE_COORDINATE_0053, 
 req.header: d3d12umddi.h
 req.include-header:

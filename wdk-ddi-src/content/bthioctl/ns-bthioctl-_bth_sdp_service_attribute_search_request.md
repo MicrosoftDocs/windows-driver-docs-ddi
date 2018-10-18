@@ -6,11 +6,8 @@ description: The BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure contains inf
 old-location: bltooth\bth_sdp_service_attribute_search_request.htm
 tech.root: bltooth
 ms.assetid: 28255569-57ce-44b7-9d53-9e8797b914c5
-ms.author: windowsdriverdev
 ms.date: 4/27/2018
 ms.keywords: "*PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure [Bluetooth Devices], PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure pointer [Bluetooth Devices], _BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, bltooth.bth_sdp_service_attribute_search_request, bth_structs_0e06cbd7-0737-4786-bdc3-c9c1e980e3a3.xml, bthioctl/BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, bthioctl/PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bthioctl.h
 req.include-header: Bthioctl.h

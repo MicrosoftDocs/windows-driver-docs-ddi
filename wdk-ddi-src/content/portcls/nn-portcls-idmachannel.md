@@ -6,11 +6,8 @@ description: The IDmaChannel interface provides an abstraction of a DMA channel 
 old-location: audio\idmachannel.htm
 tech.root: audio
 ms.assetid: 85fad1fb-d088-46ad-917c-bdbc31134690
-ms.author: windowsdriverdev
 ms.date: 3/19/2018
 ms.keywords: IDmaChannel, IDmaChannel interface [Audio Devices], IDmaChannel interface [Audio Devices], described, audio.idmachannel, audmp-routines_55e2df1d-771f-4427-a48e-671d4e113d5c.xml, portcls/IDmaChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: portcls.h
 req.include-header:

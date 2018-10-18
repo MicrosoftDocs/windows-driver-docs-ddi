@@ -4,11 +4,8 @@ title: PFND3DKMT_ENDTRACKEDWORKLOAD
 author: windows-driver-content
 description: Indicates that the tracked workload commands are done.
 ms.assetid: ebd36bfd-86a7-45f1-8b3f-2f9f639aa334
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Indicates that the tracked workload commands are done.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_ENDTRACKEDWORKLOAD Pfnd3dkmtEndtrackedworkload; 

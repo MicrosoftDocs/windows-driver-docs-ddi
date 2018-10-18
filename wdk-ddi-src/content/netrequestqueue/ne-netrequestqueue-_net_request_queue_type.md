@@ -5,12 +5,9 @@ author: windows-driver-content
 description: Specifies the type of net request queue.
 tech.root: netvista
 ms.assetid: af41472a-ee4b-4bbe-8eac-4ac9b80fd629
-ms.author: windowsdriverdev
 ms.date: 02/09/2018
 ms.topic: enum
 ms.keywords: _NET_REQUEST_QUEUE_TYPE, NET_REQUEST_QUEUE_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: netrequestqueue.h
 req.include-header:
 req.target-type:

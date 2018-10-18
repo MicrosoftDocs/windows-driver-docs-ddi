@@ -6,11 +6,8 @@ description: DirectX 9.0 and later versions only.
 old-location: display\d3dhal_dp2response.htm
 tech.root: display
 ms.assetid: 3a8ae2a9-21cd-4b0d-b293-60865a4fdfe6
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: "*LPD3DHAL_DP2RESPONSE, D3DHAL_DP2RESPONSE, D3DHAL_DP2RESPONSE structure [Display Devices], LPD3DHAL_DP2RESPONSE, LPD3DHAL_DP2RESPONSE structure pointer [Display Devices], _D3DHAL_DP2RESPONSE, d3dhal/D3DHAL_DP2RESPONSE, d3dhal/LPD3DHAL_DP2RESPONSE, d3dstrct_cd629a64-c8e9-45d2-a0bc-048ff623cc97.xml, display.d3dhal_dp2response"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dhal.h
 req.include-header: D3dhal.h

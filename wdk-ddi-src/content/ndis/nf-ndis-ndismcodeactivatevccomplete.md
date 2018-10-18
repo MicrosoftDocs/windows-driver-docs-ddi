@@ -6,11 +6,8 @@ description: NdisMCoDeactivateVcComplete notifies NDIS and the call manager that
 old-location: netvista\ndismcodeactivatevccomplete.htm
 tech.root: netvista
 ms.assetid: 8ea36895-4728-45ad-84f7-3517afd2327d
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisMCoDeactivateVcComplete, NdisMCoDeactivateVcComplete function [Network Drivers Starting with Windows Vista], condis_miniport_ref_b4ad1f67-6e33-45ca-9d55-323aed8820be.xml, ndis/NdisMCoDeactivateVcComplete, netvista.ndismcodeactivatevccomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

@@ -6,11 +6,8 @@ description: The GdiPlayPageEMF function plays the EMF records within a specifie
 old-location: print\gdiplaypageemf.htm
 tech.root: print
 ms.assetid: e0122858-0c9d-4aa8-a394-89d65fb98fda
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: GdiPlayPageEMF, GdiPlayPageEMF function [Print Devices], gdifnc_b1c27aba-d367-481a-8012-6c2f957ff11e.xml, print.gdiplaypageemf, winppi/GdiPlayPageEMF
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winppi.h
 req.include-header: Winppi.h

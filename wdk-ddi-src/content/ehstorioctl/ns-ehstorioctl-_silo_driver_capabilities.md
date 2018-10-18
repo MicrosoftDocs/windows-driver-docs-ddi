@@ -6,11 +6,8 @@ description: This structure is used to specify the capabilities and support for 
 old-location: storage\silo_driver_capabilities.htm
 tech.root: storage
 ms.assetid: E2CD35A6-0FF2-4ABA-850E-12683C5F0D8D
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PSILO_DRIVER_CAPABILITIES, CAP_BANDING_SUPPORT, CAP_ON_DEMAND_AUTHENTICATION, PSILO_DRIVER_CAPABILITIES, PSILO_DRIVER_CAPABILITIES structure pointer [Storage Devices], SILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES structure [Storage Devices], _SILO_DRIVER_CAPABILITIES, ehstorioctl/PSILO_DRIVER_CAPABILITIES, ehstorioctl/SILO_DRIVER_CAPABILITIES, storage.silo_driver_capabilities"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ehstorioctl.h
 req.include-header: EhStorIoctl.h

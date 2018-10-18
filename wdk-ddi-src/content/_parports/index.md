@@ -26,7 +26,7 @@ To develop Parallel Ports, you need these headers:
  * [ntddser.h](..\ntddser\index.md)
  * [parallel.h](..\parallel\index.md)
 
-For the programming guide, see [Parallel Ports](https://docs.microsoft.com/en-us/windows-hardware/drivers/parports).
+For the programming guide, see [Parallel Ports](https://docs.microsoft.com/windows-hardware/drivers/parports).
 
 ## Callback functions
 

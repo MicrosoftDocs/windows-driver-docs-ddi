@@ -6,11 +6,8 @@ description: The IPrintCoreHelperUni::CreateGDLSnapshot method creates a GDL sna
 old-location: print\iprintcorehelperuni_creategdlsnapshot.htm
 tech.root: print
 ms.assetid: 3dd9c7f9-27d4-45d2-8692-4270818c1823
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: CreateGDLSnapshot, CreateGDLSnapshot method [Print Devices], CreateGDLSnapshot method [Print Devices],IPrintCoreHelperUni interface, IPrintCoreHelperUni interface [Print Devices],CreateGDLSnapshot method, IPrintCoreHelperUni.CreateGDLSnapshot, IPrintCoreHelperUni::CreateGDLSnapshot, prcomoem/IPrintCoreHelperUni::CreateGDLSnapshot, print.iprintcorehelperuni_creategdlsnapshot, print_unidrv-pscript_allplugins_c45d077d-295f-4636-829f-8595d43cd5ed.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

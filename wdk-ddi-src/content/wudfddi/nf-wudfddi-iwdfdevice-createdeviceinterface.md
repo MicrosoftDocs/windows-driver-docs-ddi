@@ -6,11 +6,8 @@ description: The CreateDeviceInterface method creates an instance of a device in
 old-location: wdf\iwdfdevice_createdeviceinterface.htm
 tech.root: wdf
 ms.assetid: 0a88cbb6-66be-4ef7-93da-27d7ce169779
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: CreateDeviceInterface, CreateDeviceInterface method, CreateDeviceInterface method,IWDFDevice interface, IWDFDevice interface,CreateDeviceInterface method, IWDFDevice.CreateDeviceInterface, IWDFDevice::CreateDeviceInterface, UMDFDeviceObjectRef_11606922-8b72-434f-a739-fd0c653ea026.xml, umdf.iwdfdevice_createdeviceinterface, wdf.iwdfdevice_createdeviceinterface, wudfddi/IWDFDevice::CreateDeviceInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>CreateDeviceInterface</b> method creates an instance of a device interface class.
 
@@ -87,7 +84,7 @@ Drivers can use the <i>pReferenceString</i> parameter to differentiate different
 
 If <b>CreateDeviceInterface</b> succeeds, the initial state of the interface is disabled. If creation succeeds, the framework automatically enables and disables the interface based on the device's PnP state.  In addition, a driver can disable and re-enable a device interface as necessary by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff557006">IWDFDevice::AssignDeviceInterfaceState</a>.
 
-For more information about device interfaces, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">Using Device Interfaces in UMDF-based Drivers</a>.
+For more information about device interfaces, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">Using Device Interfaces in UMDF-based Drivers</a>.
 
 
 #### Examples

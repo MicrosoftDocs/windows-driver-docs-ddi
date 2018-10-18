@@ -6,11 +6,8 @@ description: The WdfDmaTransactionCancel method attempts to cancel a DMA transac
 old-location: wdf\wdfdmatransactioncancel.htm
 tech.root: wdf
 ms.assetid: A0EB188E-D5C7-4C7B-A462-2C3792825FD8
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WdfDmaTransactionCancel, WdfDmaTransactionCancel method, kmdf.wdfdmatransactioncancel, wdf.wdfdmatransactioncancel, wdfdmatransaction/WdfDmaTransactionCancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
@@ -89,7 +86,7 @@ The driver might also call <b>WdfDmaTransactionCancel</b> from an <a href="https
 
 
 
-Cancellation can only succeed if the call to <b>WdfDmaTransactionCancel</b> occurs after the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547062">WdfDmaTransactionExecute</a>, but before the <b>WdfDmaTransactionExecute</b> method has started the DMA allocation.  For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/canceling-dma-transactions">Canceling DMA Transactions</a>.
+Cancellation can only succeed if the call to <b>WdfDmaTransactionCancel</b> occurs after the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547062">WdfDmaTransactionExecute</a>, but before the <b>WdfDmaTransactionExecute</b> method has started the DMA allocation.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/canceling-dma-transactions">Canceling DMA Transactions</a>.
 
 The driver must call <b>WdfDmaTransactionCancel</b> after calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff547099">WdfDmaTransactionInitialize</a>, but before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff547114">WdfDmaTransactionRelease</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548734">WdfObjectDelete</a> to delete the transaction object.
 

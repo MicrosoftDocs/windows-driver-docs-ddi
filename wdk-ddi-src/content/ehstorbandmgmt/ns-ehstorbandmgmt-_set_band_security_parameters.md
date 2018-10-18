@@ -6,11 +6,8 @@ description: The parameters to set security properties for a band on a storage d
 old-location: storage\set_band_security_parameters.htm
 tech.root: storage
 ms.assetid: D1703D6F-A453-4E3E-8705-344469D61412
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PSET_BAND_SECURITY_PARAMETERS, PSET_BAND_SECURITY_PARAMETERS, PSET_BAND_SECURITY_PARAMETERS structure pointer [Storage Devices], SETBANDSEC_AUTHKEY_CACHING_ENABLED, SET_BAND_SECURITY_PARAMETERS, SET_BAND_SECURITY_PARAMETERS structure [Storage Devices], _SET_BAND_SECURITY_PARAMETERS, ehstorbandmgmt/PSET_BAND_SECURITY_PARAMETERS, ehstorbandmgmt/SET_BAND_SECURITY_PARAMETERS, storage.set_band_security_parameters"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h

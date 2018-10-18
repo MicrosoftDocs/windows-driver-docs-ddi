@@ -6,11 +6,8 @@ description: The BdaPropertyNodeProperties function retrieves a list of properti
 old-location: stream\bdapropertynodeproperties.htm
 tech.root: stream
 ms.assetid: 1f50bf08-6134-4a97-8c9c-adc9ad697154
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: BdaPropertyNodeProperties, BdaPropertyNodeProperties function [Streaming Media Devices], bdaref_fc328c79-7b0b-4646-91cd-3e4957b30b2a.xml, bdasup/BdaPropertyNodeProperties, stream.bdapropertynodeproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bdasup.h
 req.include-header: Bdasup.h

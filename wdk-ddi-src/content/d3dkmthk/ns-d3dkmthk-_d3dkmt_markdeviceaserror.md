@@ -4,11 +4,8 @@ title: _D3DKMT_MARKDEVICEASERROR
 author: windows-driver-content
 description: Marks a device as error.
 ms.assetid: d2fd01ec-02fe-4e9e-9fc9-68202f7de079
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_MARKDEVICEASERROR, D3DKMT_MARKDEVICEASERROR, 
 req.header: d3dkmthk.h
 req.include-header:

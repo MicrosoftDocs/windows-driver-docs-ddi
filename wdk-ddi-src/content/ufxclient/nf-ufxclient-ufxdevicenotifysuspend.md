@@ -6,11 +6,8 @@ description: Notifies UFX about a USB bus suspend event.
 old-location: buses\ufxdevicenotifysuspend.htm
 tech.root: usbref
 ms.assetid: 80786A5A-E585-4092-814F-B940DD6967C6
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: UfxDeviceNotifySuspend, UfxDeviceNotifySuspend method [Buses], buses.ufxdevicenotifysuspend, ufxclient/UfxDeviceNotifySuspend
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ufxclient.h
 req.include-header: 

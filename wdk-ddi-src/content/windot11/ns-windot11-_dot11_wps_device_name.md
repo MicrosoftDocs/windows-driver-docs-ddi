@@ -6,11 +6,8 @@ description: The DOT11_WPS_DEVICE_NAME structure contains a friendly name of the
 old-location: netvista\dot11_wps_device_name.htm
 tech.root: netvista
 ms.assetid: 6C2B8E87-A88F-4244-81B2-0241E2DAE756
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME structure [Network Drivers Starting with Windows Vista], PDOT11_WPS_DEVICE_NAME, PDOT11_WPS_DEVICE_NAME structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WPS_DEVICE_NAME, netvista.dot11_wps_device_name, windot11/DOT11_WPS_DEVICE_NAME, windot11/PDOT11_WPS_DEVICE_NAME"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Windot11.h
@@ -58,13 +55,13 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DOT11_WPS_DEVICE_NAME {
    ULONG
 uDeviceNameLength;
   UCHAR   ucDeviceName[DOT11_WPS_DEVICE_NAME_MAX_LENGTH];
 } DOT11_WPS_DEVICE_NAME, *PDOT11_WPS_DEVICE_NAME;
-````
+```
 
 
 ## -struct-fields

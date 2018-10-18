@@ -6,11 +6,8 @@ description: The NFC_CX_POLL_BAILOUT_CONFIG enumeration specifies poll mode bail
 old-location: nfpdrivers\nfc_cx_poll_bailout_config.htm
 tech.root: nfpdrivers
 ms.assetid: 1085EA0A-B688-4F77-80AF-E81CFE645CDF
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PNFC_CX_POLL_BAILOUT_CONFIG, NFC_CX_POLL_BAILOUT_CONFIG, NFC_CX_POLL_BAILOUT_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_POLL_BAILOUT_CONFIG,*PNFC_CX_POLL_BAILOUT_CONFIG, NFC_CX_POLL_BAILOUT_CONFIG,*PNFC_CX_POLL_BAILOUT_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_POLL_BAILOUT_DEFAULT, NFC_CX_POLL_BAILOUT_NFC_A, NFC_CX_POLL_BAILOUT_NFC_B, _NFC_CX_POLL_BAILOUT_CONFIG, nfccx/NFC_CX_POLL_BAILOUT_CONFIG, nfccx/NFC_CX_POLL_BAILOUT_DEFAULT, nfccx/NFC_CX_POLL_BAILOUT_NFC_A, nfccx/NFC_CX_POLL_BAILOUT_NFC_B, nfpdrivers.nfc_cx_poll_bailout_config"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: nfccx.h
 req.include-header: Ncidef.h

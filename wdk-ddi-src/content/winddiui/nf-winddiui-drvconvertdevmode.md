@@ -6,11 +6,8 @@ description: A printer interface DLL's DrvConvertDevMode function converts a pri
 old-location: print\drvconvertdevmode.htm
 tech.root: print
 ms.assetid: eb0402a8-22ce-417f-9b19-25b357451307
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: DrvConvertDevMode, DrvConvertDevMode function [Print Devices], print.drvconvertdevmode, print_interface-graphics_ceabaf66-f730-4243-85a7-ffcee065192b.xml, winddiui/DrvConvertDevMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddiui.h
 req.include-header: Winddiui.h

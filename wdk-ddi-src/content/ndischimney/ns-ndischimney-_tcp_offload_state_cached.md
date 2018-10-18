@@ -6,11 +6,8 @@ description: The TCP_OFFLOAD_STATE_CACHED structure contains the cached variable
 old-location: netvista\tcp_offload_state_cached.htm
 tech.root: netvista
 ms.assetid: 953154eb-e6f3-4013-a68f-1a358953c7ad
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PTCP_OFFLOAD_STATE_CACHED, PTCP_OFFLOAD_STATE_CACHED, PTCP_OFFLOAD_STATE_CACHED structure pointer [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATE_CACHED, TCP_OFFLOAD_STATE_CACHED structure [Network Drivers Starting with Windows Vista], _TCP_OFFLOAD_STATE_CACHED, ndischimney/PTCP_OFFLOAD_STATE_CACHED, ndischimney/TCP_OFFLOAD_STATE_CACHED, netvista.tcp_offload_state_cached, tcp_chim_struct_43b44d70-521b-483d-800f-ed9528499ca3.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
@@ -220,7 +217,7 @@ A 3-bit priority value. If the offload target supports 802.1p packet information
      on the offloaded TCP connection. If the offload target does not support 802.1p packet information, it
      should ignore 
      <b>UserPriority</b> . For more information about supporting 802.1p packet information, see 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570937">802.1Q
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570937">802.1Q
      and 802.1p Processing on an Offloaded TCP Connection</a>.
 
 

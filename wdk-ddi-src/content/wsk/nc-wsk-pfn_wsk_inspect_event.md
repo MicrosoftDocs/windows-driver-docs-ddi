@@ -6,11 +6,8 @@ description: The WskInspectEvent event callback function notifies a WSK applicat
 old-location: netvista\wskinspectevent.htm
 tech.root: netvista
 ms.assetid: 40f184ac-4ef3-485a-a529-71c1f2716427
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: PFN_WSK_INSPECT_EVENT, PFN_WSK_INSPECT_EVENT callback, WskInspectEvent, WskInspectEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskinspectevent, wsk/WskInspectEvent, wskref_096ba538-90c2-454b-9334-d6241425945e.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wsk.h
 req.include-header: Wsk.h
@@ -154,7 +151,7 @@ The WSK subsystem calls a WSK application's
     enabled. A WSK application can enable conditional accept mode on a listening socket by enabling the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570829">SO_CONDITIONAL_ACCEPT</a> socket option.
     For more information about conditionally accepting incoming connections, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/listening-for-and-accepting-incoming-connections">Listening for and
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/listening-for-and-accepting-incoming-connections">Listening for and
     Accepting Incoming Connections</a>.
 
 If a WSK application returns 

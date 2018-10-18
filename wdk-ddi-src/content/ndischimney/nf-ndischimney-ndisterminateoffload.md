@@ -6,11 +6,8 @@ description: A protocol driver or intermediate driver calls the NdisTerminateOff
 old-location: netvista\ndisterminateoffload.htm
 tech.root: netvista
 ms.assetid: 13eb4c17-2cb5-4773-b2e3-e8e624473c97
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisTerminateOffload, NdisTerminateOffload function [Network Drivers Starting with Windows Vista], ndischimney/NdisTerminateOffload, netvista.ndisterminateoffload, tcp_chim_ndis_func_44201f08-cbfc-4796-b2a9-78bbc5c348c4.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
@@ -96,7 +93,7 @@ None
 An intermediate driver calls the 
     <b>NdisTerminateOffload</b> function to propagate a terminate offload operation that was initiated by the
     host stack. For more information, see 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff563771">Propagating
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563771">Propagating
     State-Manipulation Operations</a>.
 
 From the 
@@ -104,7 +101,7 @@ From the
     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure that was passed to its 
     <i>MiniportTerminateOffload</i> function, the intermediate driver constructs an
     NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure. For more information, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/reusing-an-ndis-miniport-offload-block-list-structure">Reusing an
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/reusing-an-ndis-miniport-offload-block-list-structure">Reusing an
     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST Structure</a>. The intermediate driver passes a pointer (the 
     <i>OffloadBlockList</i> parameter) to this NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure when calling the 
     <b>NdisTerminateOffload</b> function.

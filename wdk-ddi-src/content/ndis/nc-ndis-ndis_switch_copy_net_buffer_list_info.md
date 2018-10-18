@@ -6,11 +6,8 @@ description: The Hyper-V extensible switch extension calls the CopyNetBufferList
 old-location: netvista\CopyNetBufferListInfo.htm
 tech.root: netvista
 ms.assetid: 5CC345FA-C3EF-4122-8E9C-6EA27B20DD5A
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: CopyNetBufferListInfo, CopyNetBufferListInfo callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_COPY_NET_BUFFER_LIST_INFO, NDIS_SWITCH_COPY_NET_BUFFER_LIST_INFO callback, ndis/CopyNetBufferListInfo, netvista.CopyNetBufferListInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

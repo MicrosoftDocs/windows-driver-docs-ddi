@@ -5,7 +5,6 @@ author: windows-driver-content
 description: Retrieves the NDIS_OID identifier associated with the specified network request object.
 tech.root: netvista
 ms.assetid: 9e3bbfd8-0cc1-4d71-b648-c937b9e6b762
-ms.author: windowsdriverdev
 ms.date: 02/08/2018
 ms.topic: function
 ms.keywords: NetRequestGetId

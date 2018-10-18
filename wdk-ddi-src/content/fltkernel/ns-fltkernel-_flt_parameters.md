@@ -6,11 +6,8 @@ description: The FLT_PARAMETERS union defines the request-type-specific paramete
 old-location: ifsk\flt_parameters.htm
 tech.root: ifsk
 ms.assetid: 62aa20b7-ce5c-4d42-bce2-1d76a98887ed
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: "*PFLT_PARAMETERS, FLT_PARAMETERS, FLT_PARAMETERS union [Installable File System Drivers], FltSystemStructures_2ebb0ec7-76cc-49a3-b2ec-186f67369bbb.xml, PFLT_PARAMETERS, PFLT_PARAMETERS union pointer [Installable File System Drivers], _FLT_PARAMETERS, fltkernel/FLT_PARAMETERS, fltkernel/PFLT_PARAMETERS, ifsk.flt_parameters"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
@@ -143,7 +140,7 @@ For the specific FLT_PARAMETERS union component used in each type of I/O operati
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544684">FLT_PARAMETERS for IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZATION</a>
 
-
+[FLT_PARAMETERS for IRP_MJ_QUERY_OPEN](https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-query-open)
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544700">FLT_PARAMETERS for IRP_MJ_FAST_IO_CHECK_IF_POSSIBLE</a>
 

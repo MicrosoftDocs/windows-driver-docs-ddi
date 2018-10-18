@@ -6,11 +6,8 @@ description: The PcGetPhysicalDeviceObject function enables audio miniport drive
 old-location: audio\pcgetphysicaldeviceobject.htm
 tech.root: audio
 ms.assetid: A7917082-4C3F-445A-AD26-32DE670754E5
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: PcGetPhysicalDeviceObject, PcGetPhysicalDeviceObject function [Audio Devices], audio.pcgetphysicaldeviceobject, portcls/PcGetPhysicalDeviceObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: portcls.h
 req.include-header: 

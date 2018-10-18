@@ -6,11 +6,8 @@ description: The HasArg method indicates whether a specified named argument is p
 old-location: debugger\hasarg.htm
 tech.root: debugger
 ms.assetid: c71aa196-a25a-4d5c-a464-426d14a6aa72
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: EngExtCpp_Ref_a4d457bf-6e64-46d7-892a-5ddda81c7f9d.xml, ExtExtension class [Windows Debugging],HasArg method, ExtExtension.HasArg, ExtExtension::HasArg, HasArg, HasArg method [Windows Debugging], HasArg method [Windows Debugging],ExtExtension class, debugger.hasarg
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

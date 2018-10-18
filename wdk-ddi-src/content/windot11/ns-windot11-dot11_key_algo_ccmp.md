@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_key_algo_ccmp.htm
 tech.root: netvista
 ms.assetid: cf89ee80-d19d-4d97-b71f-8ebee4b96562
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*PDOT11_KEY_ALGO_CCMP, DOT11_KEY_ALGO_CCMP, DOT11_KEY_ALGO_CCMP structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_37999ce3-5aae-4c91-80f0-f47a7182a963.xml, PDOT11_KEY_ALGO_CCMP, PDOT11_KEY_ALGO_CCMP structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_key_algo_ccmp, windot11/DOT11_KEY_ALGO_CCMP, windot11/PDOT11_KEY_ALGO_CCMP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -59,13 +56,13 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef struct DOT11_KEY_ALGO_CCMP {
   UCHAR ucIV48Counter[6];
   ULONG ulCCMPKeyLength;
   UCHAR ucCCMPKey[1];
 } DOT11_KEY_ALGO_CCMP, *PDOT11_KEY_ALGO_CCMP;
-````
+```
 
 
 ## -struct-fields
@@ -115,7 +112,7 @@ Initialize the PN counter used for the send path to any value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
    OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
 
 

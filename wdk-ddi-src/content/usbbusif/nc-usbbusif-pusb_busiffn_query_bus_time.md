@@ -6,11 +6,8 @@ description: The QueryBusTime function gets the current 32-bit USB frame number.
 old-location: buses\querybustime.htm
 tech.root: usbref
 ms.assetid: 6a0a1953-070d-4335-a906-4ca3fe8a04e1
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: PUSB_BUSIFFN_QUERY_BUS_TIME, QueryBusTime, QueryBusTime callback function [Buses], USB_BUSIFFN_QUERY_BUS_TIME, USB_BUSIFFN_QUERY_BUS_TIME callback, buses.querybustime, usbbusif/QueryBusTime, usbinterKR_857e67cf-8b61-43e3-b07f-25968e2672d4.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: usbbusif.h
 req.include-header: Usbbusif.h

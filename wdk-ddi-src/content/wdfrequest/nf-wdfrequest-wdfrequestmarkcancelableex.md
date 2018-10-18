@@ -6,11 +6,8 @@ description: The WdfRequestMarkCancelableEx method enables cancellation of a spe
 old-location: wdf\wdfrequestmarkcancelableex.htm
 tech.root: wdf
 ms.assetid: 5513804b-f785-4617-81b6-1cecc72d6051
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFRequestObjectRef_6601e5df-d8a6-42b5-9e71-a46918a6bc1f.xml, WdfRequestMarkCancelableEx, WdfRequestMarkCancelableEx method, kmdf.wdfrequestmarkcancelableex, wdf.wdfrequestmarkcancelableex, wdfrequest/WdfRequestMarkCancelableEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfrequest.h
 req.include-header: Wdf.h
@@ -128,7 +125,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-After your driver has <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/receiving-i-o-requests">received an I/O request</a> from the framework, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549983">WdfRequestMarkCancelable</a> or, starting with  KMDF version 1.9, <b>WdfRequestMarkCancelableEx</b> to make the request cancelable. For info on choosing between the two methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549983">WdfRequestMarkCancelable</a>.
+After your driver has <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/receiving-i-o-requests">received an I/O request</a> from the framework, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549983">WdfRequestMarkCancelable</a> or, starting with  KMDF version 1.9, <b>WdfRequestMarkCancelableEx</b> to make the request cancelable. For info on choosing between the two methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549983">WdfRequestMarkCancelable</a>.
 
 When calling <b>WdfRequestMarkCancelableEx</b>, your driver must specify an <a href="https://msdn.microsoft.com/db54fa76-d3e0-4f8c-aa3f-bab268dd9b4d">EvtRequestCancel</a> callback function. The framework calls the callback function if the I/O manager or another driver is attempting to cancel the I/O request.
 
@@ -149,7 +146,7 @@ Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549945">WdfR
 Because <b>WdfRequestMarkCancelableEx</b> never calls <a href="https://msdn.microsoft.com/db54fa76-d3e0-4f8c-aa3f-bab268dd9b4d">EvtRequestCancel</a>, this method is safe from the deadlock risk described in the Remarks of <a href="https://msdn.microsoft.com/library/windows/hardware/ff549983">WdfRequestMarkCancelable</a>.
 
 <h3><a id="Processing_a_request_after_enabling_cancellation"></a><a id="processing_a_request_after_enabling_cancellation"></a><a id="PROCESSING_A_REQUEST_AFTER_ENABLING_CANCELLATION"></a>Processing a request after enabling cancellation</h3>
-After a driver calls <b>WdfRequestMarkCancelableEx</b> to enable canceling, the request remains cancelable while the driver <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-ownership">owns</a> the request object, unless the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff550035">WdfRequestUnmarkCancelable</a>. 
+After a driver calls <b>WdfRequestMarkCancelableEx</b> to enable canceling, the request remains cancelable while the driver <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/request-ownership">owns</a> the request object, unless the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff550035">WdfRequestUnmarkCancelable</a>. 
 
 If a driver has called <b>WdfRequestMarkCancelableEx</b>, and if the driver's <a href="https://msdn.microsoft.com/db54fa76-d3e0-4f8c-aa3f-bab268dd9b4d">EvtRequestCancel</a> callback function has not executed and called <a href="https://msdn.microsoft.com/library/windows/hardware/ff549945">WdfRequestComplete</a>, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550035">WdfRequestUnmarkCancelable</a> before it calls <b>WdfRequestComplete</b> outside of the <i>EvtRequestCancel</i> callback function.
 
@@ -173,7 +170,7 @@ After the framework has dequeued the request from the second queue and delivered
 
 </li>
 </ul>
-For more information about <b>WdfRequestMarkCancelableEx</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/canceling-i-o-requests">Canceling I/O Requests</a>.
+For more information about <b>WdfRequestMarkCancelableEx</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/canceling-i-o-requests">Canceling I/O Requests</a>.
 
 
 #### Examples
@@ -190,7 +187,7 @@ An <a href="https://msdn.microsoft.com/db54fa76-d3e0-4f8c-aa3f-bab268dd9b4d">Evt
 
 </li>
 </ul>
-In the first example, the driver is using the framework's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-automatic-synchronization">automatic synchronization</a>. In the second example, the driver is providing its own synchronization by using spinlocks.
+In the first example, the driver is using the framework's <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-automatic-synchronization">automatic synchronization</a>. In the second example, the driver is providing its own synchronization by using spinlocks.
 
 <b>Example 1: A driver that uses automatic synchronization.</b>
 

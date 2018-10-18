@@ -6,11 +6,8 @@ description: The FsRtlNotifyCleanupAll routine removes all members of the specif
 old-location: ifsk\fsrtlnotifycleanupall.htm
 tech.root: ifsk
 ms.assetid: 850728bd-6758-4c21-9bfd-10a0f3d006d6
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: FsRtlNotifyCleanupAll, FsRtlNotifyCleanupAll routine [Installable File System Drivers], fsrtlref_f0eea2f1-9bc9-41e1-843c-a69b3e63f452.xml, ifsk.fsrtlnotifycleanupall, ntifs/FsRtlNotifyCleanupAll
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h

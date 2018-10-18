@@ -6,11 +6,8 @@ description: The WdfRegistryAssignMultiString method assigns a set of strings to
 old-location: wdf\wdfregistryassignmultistring.htm
 tech.root: wdf
 ms.assetid: 2b54949b-807e-47fe-a304-872500b41212
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFRegKeyObjectRef_b96025c1-d241-4e63-9f1f-f394311d0706.xml, WdfRegistryAssignMultiString, WdfRegistryAssignMultiString method, kmdf.wdfregistryassignmultistring, wdf.wdfregistryassignmultistring, wdfregistry/WdfRegistryAssignMultiString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfregistry.h
 req.include-header: Wdf.h
@@ -145,7 +142,7 @@ The framework sets the value's data type to REG_MULTI_SZ.
 
 The object collection that <i>StringsCollection</i> specifies must contain only framework string objects.
 
-For more information about registry-key objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
+For more information about registry-key objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
 
 
 #### Examples

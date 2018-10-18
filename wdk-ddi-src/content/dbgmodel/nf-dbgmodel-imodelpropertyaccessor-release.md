@@ -4,7 +4,6 @@ title: IModelPropertyAccessor::Release
 author: windows-driver-content
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 4633f51c-783c-4944-8f3c-56c9ed01ac68
-ms.author: windowsdriverdev
 ms.date: 08/13/2018 
 ms.topic: method
 ms.keywords: IModelPropertyAccessor::Release, Release, IModelPropertyAccessor.Release, IModelPropertyAccessor::Release, IModelPropertyAccessor.Release

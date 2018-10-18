@@ -6,11 +6,8 @@ description: NdisClMakeCall sets up an outgoing call on a client-created VC.
 old-location: netvista\ndisclmakecall.htm
 tech.root: netvista
 ms.assetid: 69775220-71d8-497c-aaf7-9bc3ec90d00f
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisClMakeCall, NdisClMakeCall function [Network Drivers Starting with Windows Vista], condis_client_ref_bd9f0a4a-c8f7-418e-aa80-e97fad7e4ab1.xml, ndis/NdisClMakeCall, netvista.ndisclmakecall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

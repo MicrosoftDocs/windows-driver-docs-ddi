@@ -6,11 +6,8 @@ description: The RtlStringCbPrintfExW and RtlStringCbPrintfExA functions create 
 old-location: kernel\rtlstringcbprintfex.htm
 tech.root: kernel
 ms.assetid: 514a5b40-c9ba-4ed1-871d-fd6ffde583a6
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlStringCbPrintfEx, RtlStringCbPrintfExA, RtlStringCbPrintfExW, RtlStringCbPrintfExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcbprintfex, ntstrsafe/RtlStringCbPrintfExA, ntstrsafe/RtlStringCbPrintfExW, safestrings_44a6ae33-3b6e-4de4-893c-4a198dfa75da.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
@@ -152,7 +149,7 @@ If set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the dest
 
 ### -param pszFormat [in, optional]
 
-A pointer to a null-terminated text string that contains <b>printf</b>-styled <a href="http://msdn.microsoft.com/en-us/library/56e442dc.aspx">formatting directives</a>. The <i>pszFormat</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
+A pointer to a null-terminated text string that contains <b>printf</b>-styled <a href="http://msdn.microsoft.com/library/56e442dc.aspx">formatting directives</a>. The <i>pszFormat</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
 ### -param param

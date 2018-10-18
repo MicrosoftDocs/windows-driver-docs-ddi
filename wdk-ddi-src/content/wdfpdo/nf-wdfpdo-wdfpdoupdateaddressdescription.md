@@ -6,11 +6,8 @@ description: The WdfPdoUpdateAddressDescription method updates the address descr
 old-location: wdf\wdfpdoupdateaddressdescription.htm
 tech.root: wdf
 ms.assetid: f41e4b81-48e0-448f-b32a-6ecadbc2e45c
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_be344160-571e-4c5b-971d-a7ab78f6c292.xml, WdfPdoUpdateAddressDescription, WdfPdoUpdateAddressDescription method, kmdf.wdfpdoupdateaddressdescription, wdf.wdfpdoupdateaddressdescription, wdfpdo/WdfPdoUpdateAddressDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfpdo.h
 req.include-header: Wdf.h
@@ -53,7 +50,7 @@ req.typenames:
 
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfPdoUpdateAddressDescription</b> method updates the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">address description</a> that is associated with a specified framework device object.
+The <b>WdfPdoUpdateAddressDescription</b> method updates the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">address description</a> that is associated with a specified framework device object.
 
 
 ## -parameters
@@ -101,7 +98,7 @@ The <i>Device</i> handle does not represent a PDO.
 </dl>
 </td>
 <td width="60%">
-The <i>Device</i> handle does not represent a device that was <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">dynamically enumerated</a>,or if the <b>Size</b> member of the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff551219">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure does not match the size of the device's existing address description.
+The <i>Device</i> handle does not represent a device that was <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">dynamically enumerated</a>,or if the <b>Size</b> member of the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff551219">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure does not match the size of the device's existing address description.
 
 </td>
 </tr>

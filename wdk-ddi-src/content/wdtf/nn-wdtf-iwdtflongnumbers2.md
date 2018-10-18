@@ -6,11 +6,8 @@ description: Defines operations and properties for a collection of long numbers.
 old-location: dtf\iwdtflongnumbers2.htm
 tech.root: dtf
 ms.assetid: 2a6c4cf7-179e-4e20-bab4-a4181a0ee64c
-ms.author: windowsdriverdev
 ms.date: 4/4/2018
 ms.keywords: IWDTFLongNumbers2, IWDTFLongNumbers2 interface [Windows Device Testing Framework], IWDTFLongNumbers2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFLongNumbers2, dtf.iwdtflongnumbers2, wdtf/IWDTFLongNumbers2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wdtf.h
 req.include-header: 

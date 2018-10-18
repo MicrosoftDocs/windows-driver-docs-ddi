@@ -4,11 +4,8 @@ title: _USBC_PD_ALTERNATE_MODE
 author: windows-driver-content
 description: Stores information about the alternate mode that was detected. 
 ms.assetid: abdc59fd-adc4-4f06-90ca-25fb04998c44
-ms.author: windowsdriverdev
 ms.date: 09/30/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _USBC_PD_ALTERNATE_MODE, USBC_PD_ALTERNATE_MODE, *PUSBC_PD_ALTERNATE_MODE, 
 req.header: usbctypes.h
 req.include-header: usbctypes.h

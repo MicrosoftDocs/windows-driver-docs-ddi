@@ -4,11 +4,8 @@ title: *PFN_TRSECUREDEVICECALLOSSSERVICE
 author: windows-driver-content
 description: 
 ms.assetid: 66deec39-5ce0-4f88-8420-a2845e0f4c00
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ targetos: Windows
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 *PFN_TRSECUREDEVICECALLOSSSERVICE *PfnTrsecuredevicecallossservice; 
@@ -79,7 +76,7 @@ NTSTATUS *PfnTrsecuredevicecallossservice
 ## -returns
 
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

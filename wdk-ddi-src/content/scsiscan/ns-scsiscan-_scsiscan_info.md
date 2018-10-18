@@ -6,11 +6,8 @@ description: The SCSISCAN_INFO structure is used as a parameter to DeviceIoContr
 old-location: image\scsiscan_info.htm
 tech.root: image
 ms.assetid: 5fd9b381-c0e3-45bf-9061-da816da5e29f
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: "*PSCSISCAN_INFO, PSCSISCAN_INFO, PSCSISCAN_INFO structure pointer [Imaging Devices], SCSISCAN_INFO, SCSISCAN_INFO structure [Imaging Devices], _SCSISCAN_INFO, image.scsiscan_info, scsiscan/PSCSISCAN_INFO, scsiscan/SCSISCAN_INFO, stifnc_157af712-4f72-49f3-9da6-b8f750826d3e.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: scsiscan.h
 req.include-header: Scsiscan.h

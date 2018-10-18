@@ -6,11 +6,8 @@ description: The WdfRequestGetInformation method returns completion status infor
 old-location: wdf\wdfrequestgetinformation.htm
 tech.root: wdf
 ms.assetid: fd5f29f7-e9c6-48c4-8704-5db37b8c6337
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFRequestObjectRef_ea947de9-aea4-4e66-8686-f4ca5a1385c4.xml, WdfRequestGetInformation, WdfRequestGetInformation method, kmdf.wdfrequestgetinformation, wdf.wdfrequestgetinformation, wdfrequest/WdfRequestGetInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfrequest.h
 req.include-header: Wdf.h
@@ -89,7 +86,7 @@ A driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 If your driver calls <b>WdfRequestGetInformation</b> after it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff549945">WdfRequestComplete</a> to complete the request, <b>WdfRequestGetInformation</b> returns <b>NULL</b>.
 
-For more information about <b>WdfRequestGetInformation</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
+For more information about <b>WdfRequestGetInformation</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
 
 
 #### Examples

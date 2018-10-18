@@ -6,11 +6,8 @@ description: The FsRtlGetSectorSizeInformation routine retrieves the physical an
 old-location: ifsk\fsrtlgetsectorsizeinformation.htm
 tech.root: ifsk
 ms.assetid: 337E5450-8C90-48B7-B344-FB9420498D4F
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FsRtlGetSectorSizeInformation, FsRtlGetSectorSizeInformation routine [Installable File System Drivers], ifsk.fsrtlgetsectorsizeinformation, ntifs/FsRtlGetSectorSizeInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

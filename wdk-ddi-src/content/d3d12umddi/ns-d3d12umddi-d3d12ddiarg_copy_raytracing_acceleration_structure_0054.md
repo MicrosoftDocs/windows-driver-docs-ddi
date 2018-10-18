@@ -4,11 +4,8 @@ title: D3D12DDIARG_COPY_RAYTRACING_ACCELERATION_STRUCTURE_0054
 author: windows-driver-content
 description: Arguments used in the CopyRayTracingAccelerationStructure callback function.
 ms.assetid: 32181b08-3b0c-4c3a-bcee-1ae890d52be0
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDIARG_COPY_RAYTRACING_ACCELERATION_STRUCTURE_0054, D3D12DDIARG_COPY_RAYTRACING_ACCELERATION_STRUCTURE_0054, 
 req.header: d3d12umddi.h
 req.include-header:

@@ -6,11 +6,8 @@ description: This structure is used in conjunction with IOCTL_STORAGE_QUERY_PROP
 old-location: storage\storage_property_query.htm
 tech.root: storage
 ms.assetid: 5f8e4fbd-706c-4694-bcba-927474a66e86
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PSTORAGE_PROPERTY_QUERY, PSTORAGE_PROPERTY_QUERY, PSTORAGE_PROPERTY_QUERY structure pointer [Storage Devices], STORAGE_PROPERTY_QUERY, STORAGE_PROPERTY_QUERY structure [Storage Devices], _STORAGE_PROPERTY_QUERY, ntddstor/PSTORAGE_PROPERTY_QUERY, ntddstor/STORAGE_PROPERTY_QUERY, storage.storage_property_query, structs-general_3b25ee3b-72f2-4f41-8c76-a1764bea86af.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddstor.h
 req.include-header: Ntddstor.h

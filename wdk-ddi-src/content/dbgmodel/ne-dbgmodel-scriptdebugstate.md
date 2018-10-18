@@ -4,12 +4,9 @@ title: ScriptDebugState
 author: windows-driver-content
 description: Defines the current debugging state of a script.
 ms.assetid: 4e89a344-ef44-479e-a97a-ce78a89d3273
-ms.author: windowsdriverdev
 ms.date: 07/16/2018
 ms.topic: enum
 ms.keywords: ScriptDebugState, , 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

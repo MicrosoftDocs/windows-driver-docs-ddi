@@ -6,11 +6,8 @@ description: GNSS_GEOFENCE_STATE enumerates the various states of a single geofe
 old-location: gnss\gnss_geofence_state.htm
 tech.root: gnss
 ms.assetid: 881363B2-CF4C-4D18-9F45-829771A2D325
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: GNSS_GEOFENCE_STATE, GNSS_GEOFENCE_STATE enumeration [Sensor Devices], GNSS_GeofenceState_Entered, GNSS_GeofenceState_Exited, GNSS_GeofenceState_Unknown, gnss.gnss_geofence_state, gnssdriver/GNSS_GEOFENCE_STATE, gnssdriver/GNSS_GeofenceState_Entered, gnssdriver/GNSS_GeofenceState_Exited, gnssdriver/GNSS_GeofenceState_Unknown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: gnssdriver.h
 req.include-header: 

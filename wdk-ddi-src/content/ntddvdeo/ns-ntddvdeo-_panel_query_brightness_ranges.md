@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Queries a list of supported nit ranges.
 tech.root: display
 ms.assetid: fad94d26-2e52-4e4a-abfd-cf6596c2fecd
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _PANEL_QUERY_BRIGHTNESS_RANGES, PANEL_QUERY_BRIGHTNESS_RANGES, *PPANEL_QUERY_BRIGHTNESS_RANGES,
 req.header: ntddvdeo.h
 req.include-header:

@@ -6,11 +6,8 @@ description: The NDIS_WWAN_CONTEXT_STATE structure represents the Packet Data Pr
 old-location: netvista\ndis_wwan_context_state.htm
 tech.root: netvista
 ms.assetid: 7918ee03-c1cb-4a38-8773-4a01832357d2
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNDIS_WWAN_CONTEXT_STATE, NDIS_WWAN_CONTEXT_STATE, NDIS_WWAN_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_CONTEXT_STATE, PNDIS_WWAN_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_87098fc7-4dbd-4331-81a4-53d425cc0bb0.xml, _NDIS_WWAN_CONTEXT_STATE, ndiswwan/NDIS_WWAN_CONTEXT_STATE, ndiswwan/PNDIS_WWAN_CONTEXT_STATE, netvista.ndis_wwan_context_state"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h

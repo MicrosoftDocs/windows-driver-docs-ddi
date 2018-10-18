@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The pfnReleaseAdditionalMonitorModeSet function, available in the DXGK_MONITOR_INTERFACE_V2 interface beginning with Windows 7, releases a handle to an additional monitor source mode set object that is associated with a specified monitor.
 old-location: display\dxgk_monitor_interface_v2_pfnreleaseadditionalmonitormodeset.htm
 ms.assetid: b9f6cb52-8870-4319-a1ff-d3dbbeef8cb6
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGKDDI_MONITOR_RELEASEADDITIONALMONITORMODESET, DXGKDDI_MONITOR_RELEASEADDITIONALMONITORMODESET callback, VidPnFunctions_7b298754-19ed-420f-88f9-2910c3f5968a.xml, d3dkmddi/pfnReleaseAdditionalMonitorModeSet, display.dxgk_monitor_interface_v2_pfnreleaseadditionalmonitormodeset, pfnReleaseAdditionalMonitorModeSet, pfnReleaseAdditionalMonitorModeSet callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

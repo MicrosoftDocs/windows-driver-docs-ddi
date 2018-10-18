@@ -6,11 +6,8 @@ description: The PEP_PPM_PERF_CONSTRAINTS structure describes the performance li
 old-location: kernel\pep_ppm_perf_constraints.htm
 tech.root: kernel
 ms.assetid: 29B823A2-C645-4DA3-A3BE-4A3ED6A9799F
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PPEP_PPM_PERF_CONSTRAINTS, PEP_PPM_PERF_CONSTRAINTS, PEP_PPM_PERF_CONSTRAINTS structure [Kernel-Mode Driver Architecture], PERFORMANCE_LIMIT_DOMAIN_DEPENDENCY, PERFORMANCE_LIMIT_POWER, PERFORMANCE_LIMIT_THERMAL, PPEP_PPM_PERF_CONSTRAINTS, PPEP_PPM_PERF_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_PERF_CONSTRAINTS, kernel.pep_ppm_perf_constraints, pepfx/PEP_PPM_PERF_CONSTRAINTS, pepfx/PPEP_PPM_PERF_CONSTRAINTS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
 req.include-header: Pep_x.h
@@ -113,7 +110,7 @@ The processor performance can be limited because of a voltage or frequency depen
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186815">PEP_NOTIFY_PPM_PERF_CONSTRAINTS</a> notification. The <b>GuaranteedPerformanceLimit</b> and <b>LimitReasons</b> members contain output values that the platform extension plug-in (PEP) writes to the structure in response to this notification.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186815">PEP_NOTIFY_PPM_PERF_CONSTRAINTS</a> notification. The <b>GuaranteedPerformanceLimit</b> and <b>LimitReasons</b> members contain output values that the platform extension plug-in (PEP) writes to the structure in response to this notification.
 
 The <b>GuaranteedPerformanceLimit</b> member value is specified in platform-specific units. For example, a hardware platform might use a metric such as the processor clock frequency to provide a rough approximation to the amount of processing work that is being done. 
 
@@ -125,7 +122,7 @@ The <b>GuaranteedPerformanceLimit</b> member value is specified in platform-spec
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186815">PEP_NOTIFY_PPM_PERF_CONSTRAINTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186815">PEP_NOTIFY_PPM_PERF_CONSTRAINTS</a>
  
 
  

@@ -6,11 +6,8 @@ description: The IoWMIQueryAllDataMultiple routine returns all WMI data blocks t
 old-location: kernel\iowmiqueryalldatamultiple.htm
 tech.root: kernel
 ms.assetid: 660ed1ad-3aad-44a9-9523-e167f84fe9d5
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IoWMIQueryAllDataMultiple, IoWMIQueryAllDataMultiple routine [Kernel-Mode Driver Architecture], k104_6431ed7a-35b6-4c48-8477-390c4c31220c.xml, kernel.iowmiqueryalldatamultiple, wdm/IoWMIQueryAllDataMultiple
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

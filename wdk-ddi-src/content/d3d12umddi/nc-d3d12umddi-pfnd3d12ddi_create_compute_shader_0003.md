@@ -4,11 +4,8 @@ title: PFND3D12DDI_CREATE_COMPUTE_SHADER_0003
 author: windows-driver-content
 description: Create a compute shader.
 ms.assetid: bd3eb1b9-3238-4e2a-89ed-f0fdf2f841bc
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Create a compute shader.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATE_COMPUTE_SHADER_0003 Pfnd3d12ddiCreateComputeShader0003; 

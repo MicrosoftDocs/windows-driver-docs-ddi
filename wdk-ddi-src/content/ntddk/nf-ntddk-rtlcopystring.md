@@ -6,11 +6,8 @@ description: The RtlCopyString routine copies a source string to a destination s
 old-location: kernel\rtlcopystring.htm
 tech.root: kernel
 ms.assetid: 5295be15-b42e-4e5b-8257-434fb9ed6c83
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlCopyString, RtlCopyString routine [Kernel-Mode Driver Architecture], k109_c68983f1-ec02-405f-a3a6-d1f3884fe303.xml, kernel.rtlcopystring, ntddk/RtlCopyString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h

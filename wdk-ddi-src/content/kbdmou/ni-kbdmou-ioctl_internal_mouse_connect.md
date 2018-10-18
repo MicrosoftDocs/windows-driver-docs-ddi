@@ -6,11 +6,8 @@ description: The IOCTL_INTERNAL_MOUSE_CONNECT request connects Mouclass service 
 old-location: hid\ioctl_internal_mouse_connect.htm
 tech.root: hid
 ms.assetid: f20e424a-60d3-4bfa-9cc3-d2541c927b22
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IOCTL_INTERNAL_MOUSE_CONNECT, IOCTL_INTERNAL_MOUSE_CONNECT control, IOCTL_INTERNAL_MOUSE_CONNECT control code [Human Input Devices], hid.ioctl_internal_mouse_connect, kbdmou/IOCTL_INTERNAL_MOUSE_CONNECT, mfilref_df1ebbe7-9806-4c2a-93c5-4fcbbfdf2f1f.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: kbdmou.h
 req.include-header: Kbdmou.h

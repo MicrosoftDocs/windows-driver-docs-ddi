@@ -6,11 +6,8 @@ description: The BdaUninitFilter function removes the BDA filter context from th
 old-location: stream\bdauninitfilter.htm
 tech.root: stream
 ms.assetid: c74f5633-49bf-4c8d-8702-89723067753a
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: BdaUninitFilter, BdaUninitFilter function [Streaming Media Devices], bdaref_68d86dcd-9a84-4c5f-acf5-8174ab3ba6d8.xml, bdasup/BdaUninitFilter, stream.bdauninitfilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bdasup.h
 req.include-header: Bdasup.h

@@ -6,11 +6,8 @@ description: The FWPS_FIELDS_IKEEXT_V6 enumeration type specifies the data field
 old-location: netvista\fwps_fields_ikeext_v6.htm
 tech.root: netvista
 ms.assetid: 1e355322-23ae-4cc6-af2f-5852515c8056
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FWPS_FIELDS_IKEEXT_V6, FWPS_FIELDS_IKEEXT_V6 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELDS_IKEEXT_V6_, FWPS_FIELD_IKEEXT_V6_IP_LOCAL_ADDRESS, FWPS_FIELD_IKEEXT_V6_IP_LOCAL_INTERFACE, FWPS_FIELD_IKEEXT_V6_IP_REMOTE_ADDRESS, FWPS_FIELD_IKEEXT_V6_MAX, FWPS_FIELD_IKEEXT_V6_PROFILE_ID, fwpsk/FWPS_FIELDS_IKEEXT_V6, fwpsk/FWPS_FIELD_IKEEXT_V6_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_IKEEXT_V6_IP_LOCAL_INTERFACE, fwpsk/FWPS_FIELD_IKEEXT_V6_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_IKEEXT_V6_MAX, fwpsk/FWPS_FIELD_IKEEXT_V6_PROFILE_ID, netvista.fwps_fields_ikeext_v6, wfp_ref_5_const_3_data_fields_0fbd1f0f-2524-4bec-a340-eaaa81539655.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
@@ -52,7 +49,7 @@ req.typenames: FWPS_FIELDS_IKEEXT_V6
 
 The FWPS_FIELDS_IKEEXT_V6 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_IKEEXT_V6 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
+  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layer</a>.
 
 
 ## -enum-fields
@@ -87,6 +84,10 @@ The profile identifier (network category) of the network interface. The possible
 
 ### -field FWPS_FIELD_IKEEXT_V6_IPSEC_SECURITY_REALM_ID
 
+The IPsec security realm identifier.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_IKEEXT_V6_MAX
 

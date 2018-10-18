@@ -6,11 +6,8 @@ description: The IoTimer routine is a DPC that, if registered, is called once pe
 old-location: kernel\iotimer.htm
 tech.root: kernel
 ms.assetid: c41b7489-afd2-4ddf-b296-6d42e3ff6cbf
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: DrvrRtns_e0e54c40-37d6-41b3-8374-b1a7763d54ed.xml, IO_TIMER_ROUTINE, IoTimer, IoTimer routine [Kernel-Mode Driver Architecture], kernel.iotimer, wdm/IoTimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

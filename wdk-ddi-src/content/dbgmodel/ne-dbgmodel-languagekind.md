@@ -4,12 +4,9 @@ title: LanguageKind
 author: windows-driver-content
 description: Identifies the language of the compiland containing a given symbol.
 ms.assetid: f4f112e3-1a06-441f-92ef-dff2576274ff
-ms.author: windowsdriverdev
 ms.date: 07/16/2018
 ms.topic: enum
 ms.keywords: LanguageKind, , 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

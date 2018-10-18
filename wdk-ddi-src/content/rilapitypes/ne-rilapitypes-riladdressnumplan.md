@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\riladdressnumplan_2.htm
 tech.root: netvista
 ms.assetid: 14c0f786-4616-49f1-aa9c-0e5c8d4f0197
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: RILADDRESSNUMPLAN, RILADDRESSNUMPLAN enumeration [Network Drivers Starting with Windows Vista], RIL_NUMPLAN_DATA, RIL_NUMPLAN_ERMES, RIL_NUMPLAN_MAX, RIL_NUMPLAN_NATIONAL, RIL_NUMPLAN_PRIVATE, RIL_NUMPLAN_TELEPHONE, RIL_NUMPLAN_TELEX, netvista.riladdressnumplan_2, rilapitypes/RILADDRESSNUMPLAN, rilapitypes/RIL_NUMPLAN_DATA, rilapitypes/RIL_NUMPLAN_ERMES, rilapitypes/RIL_NUMPLAN_MAX, rilapitypes/RIL_NUMPLAN_NATIONAL, rilapitypes/RIL_NUMPLAN_PRIVATE, rilapitypes/RIL_NUMPLAN_TELEPHONE, rilapitypes/RIL_NUMPLAN_TELEX
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
 req.include-header:
@@ -57,7 +54,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```cpp
 typedef enum _RILADDRESSNUMPLAN {
   RIL_NUMPLAN_TELEPHONE,
   RIL_NUMPLAN_DATA,
@@ -67,7 +64,7 @@ typedef enum _RILADDRESSNUMPLAN {
   RIL_NUMPLAN_ERMES,
   RIL_NUMPLAN_MAX
 } RILADDRESSNUMPLAN;
-````
+```
 
 
 ## -enum-fields

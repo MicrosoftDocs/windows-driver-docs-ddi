@@ -6,11 +6,8 @@ description: The WdfDriverCreate method creates a framework driver object for th
 old-location: wdf\wdfdrivercreate.htm
 tech.root: wdf
 ms.assetid: 2b8cea0f-bca0-4ffa-834b-d7c079cf93d8
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDriverObjectRef_10e33793-b3e1-4938-9b82-439451aceb86.xml, WdfDriverCreate, WdfDriverCreate method, kmdf.wdfdrivercreate, wdf.wdfdrivercreate, wdfdriver/WdfDriverCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdriver.h
 req.include-header: Wdf.h
@@ -117,7 +114,7 @@ The driver called <a href="https://msdn.microsoft.com/library/windows/hardware/f
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-kernel-mode-driver-framework-with-non-pnp-drivers">non-Plug and Play (PnP) driver</a> specified an <a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a> callback function.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-kernel-mode-driver-framework-with-non-pnp-drivers">non-Plug and Play (PnP) driver</a> specified an <a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a> callback function.
 
 </td>
 </tr>

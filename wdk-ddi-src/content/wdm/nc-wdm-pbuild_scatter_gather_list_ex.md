@@ -6,11 +6,8 @@ description: The BuildScatterGatherListEx routine allocates the resources that a
 old-location: kernel\buildscattergatherlistex.htm
 tech.root: kernel
 ms.assetid: A1A89D52-5F39-45E4-AFBE-20DAD0E49442
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: BuildScatterGatherListEx, BuildScatterGatherListEx callback function [Kernel-Mode Driver Architecture], DMA_SYNCHRONOUS_CALLBACK, PBUILD_SCATTER_GATHER_LIST_EX, PBUILD_SCATTER_GATHER_LIST_EX callback, kernel.buildscattergatherlistex, wdm/BuildScatterGatherListEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

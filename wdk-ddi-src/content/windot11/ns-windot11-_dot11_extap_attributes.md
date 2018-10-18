@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_extap_attributes.htm
 tech.root: netvista
 ms.assetid: 0460357c-7180-45f0-a7ab-83c46c24ba68
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*PDOT11_EXTAP_ATTRIBUTES, DOT11_EXTAP_ATTRIBUTES, DOT11_EXTAP_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_a1779e69-266e-4fa0-bbd2-01701b9b8772.xml, PDOT11_EXTAP_ATTRIBUTES, PDOT11_EXTAP_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _DOT11_EXTAP_ATTRIBUTES, netvista.dot11_extap_attributes, windot11/DOT11_EXTAP_ATTRIBUTES, windot11/PDOT11_EXTAP_ATTRIBUTES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -59,7 +56,7 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DOT11_EXTAP_ATTRIBUTES {
   NDIS_OBJECT_HEADER              Header;
   ULONG                           uScanSSIDListSize;
@@ -76,7 +73,7 @@ typedef struct _DOT11_EXTAP_ATTRIBUTES {
   ULONG                           uInfraNumSupportedMcastAlgoPairs;
   PDOT11_AUTH_CIPHER_PAIR         pInfraSupportedMcastAlgoPairs;
 } DOT11_EXTAP_ATTRIBUTES, *PDOT11_EXTAP_ATTRIBUTES;
-````
+```
 
 
 ## -struct-fields
@@ -137,7 +134,7 @@ The maximum number of entries in the desired list of basic service set identifie
 
 
 For more information about the desired BSSID list, see
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">
      OID_DOT11_DESIRED_BSSID_LIST</a>.
 
 
@@ -148,7 +145,7 @@ The maximum number of entries in the privacy exemption list supported by the 802
 
 
 For more information about the privacy exemption list, see
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
      OID_DOT11_PRIVACY_EXEMPTION_LIST</a>.
 
 
@@ -270,7 +267,7 @@ If the 802.11 station does not support the IEEE 802.11d-2001 standard, the minip
 
 A pointer to an array of 802.11d country or region strings that are supported by the 802.11
      station. Each entry in the array is formatted as a
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
      DOT11_COUNTRY_OR_REGION_STRING</a> structure.
 
 
@@ -316,7 +313,7 @@ A pointer to an array of authentication and cipher algorithms supported by the 8
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
 
 
 
@@ -324,7 +321,7 @@ A pointer to an array of authentication and cipher algorithms supported by the 8
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
    DOT11_COUNTRY_OR_REGION_STRING</a>
 
 
@@ -337,7 +334,7 @@ A pointer to an array of authentication and cipher algorithms supported by the 8
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
    OID_DOT11_PRIVACY_EXEMPTION_LIST</a>
 
 

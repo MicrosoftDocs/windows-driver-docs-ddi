@@ -4,7 +4,6 @@ title: IDebugHostPublic::GetContainingModule
 author: windows-driver-content
 description: Returns the module which contains this symbol if the symbol has a containing module. 
 ms.assetid: f46b325a-09c3-406f-83d7-21a6159f23c2
-ms.author: windowsdriverdev
 ms.date: 09/21/2018  
 ms.topic: method
 ms.keywords: IDebugHostPublic::GetContainingModule, GetContainingModule, IDebugHostPublic.GetContainingModule, IDebugHostPublic::GetContainingModule, IDebugHostPublic.GetContainingModule

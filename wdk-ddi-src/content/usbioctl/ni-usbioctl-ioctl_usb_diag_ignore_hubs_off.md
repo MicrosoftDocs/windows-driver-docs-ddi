@@ -6,11 +6,8 @@ description: The IOCTL_USB_DIAG_IGNORE_HUBS_OFF I/O control has been deprecated.
 old-location: buses\ioctl_usb_diag_ignore_hubs_off.htm
 tech.root: usbref
 ms.assetid: e81b096b-273e-48ca-acff-3e4df5a607f4
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: IOCTL_USB_DIAG_IGNORE_HUBS_OFF, IOCTL_USB_DIAG_IGNORE_HUBS_OFF control, IOCTL_USB_DIAG_IGNORE_HUBS_OFF control code [Buses], buses.ioctl_usb_diag_ignore_hubs_off, usbioctl/IOCTL_USB_DIAG_IGNORE_HUBS_OFF, usbirp_5a21e20d-60c5-411a-a01d-3a5d143e076f.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
@@ -123,7 +120,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 
 

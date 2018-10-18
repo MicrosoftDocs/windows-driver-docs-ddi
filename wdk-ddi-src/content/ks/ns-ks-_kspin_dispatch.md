@@ -6,11 +6,8 @@ description: The KSPIN_DISPATCH structure describes the callbacks for which clie
 old-location: stream\kspin_dispatch.htm
 tech.root: stream
 ms.assetid: 6c4aea1f-e788-49c7-91c0-831c87c6fd39
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PKSPIN_DISPATCH, KSPIN_DISPATCH, KSPIN_DISPATCH structure [Streaming Media Devices], PKSPIN_DISPATCH, PKSPIN_DISPATCH structure pointer [Streaming Media Devices], _KSPIN_DISPATCH, avstruct_2ef1e08b-327f-476c-9c0b-804582f67815.xml, ks/KSPIN_DISPATCH, ks/PKSPIN_DISPATCH, stream.kspin_dispatch"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ks.h
 req.include-header: Ks.h

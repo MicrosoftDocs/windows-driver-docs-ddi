@@ -6,11 +6,8 @@ description: The ChangeBandwidthAllocation routine changes a DMA engine's bandwi
 old-location: audio\changebandwidthallocation.htm
 tech.root: audio
 ms.assetid: 4dcf8fb6-71f5-4e11-a92a-0292c2a1515c
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: ChangeBandwidthAllocation, ChangeBandwidthAllocation callback function [Audio Devices], PCHANGE_BANDWIDTH_ALLOCATION, PCHANGE_BANDWIDTH_ALLOCATION callback, aud-prop2_3d85fecb-4617-404b-951b-7457f9e650cc.xml, audio.changebandwidthallocation, hdaudio/ChangeBandwidthAllocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: hdaudio.h
 req.include-header: Hdaudio.h

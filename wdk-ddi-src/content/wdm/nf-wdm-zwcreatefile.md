@@ -6,11 +6,8 @@ description: The ZwCreateFile routine creates a new file or opens an existing fi
 old-location: kernel\zwcreatefile.htm
 tech.root: kernel
 ms.assetid: c40b99be-5627-44f3-9853-c3ae31a8035c
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: NtCreateFile, ZwCreateFile, ZwCreateFile routine [Kernel-Mode Driver Architecture], k111_80b1882a-8617-45d4-a783-dbc3bfc9aad4.xml, kernel.zwcreatefile, wdm/NtCreateFile, wdm/ZwCreateFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
@@ -537,7 +534,7 @@ FILE_COMPLETE_IF_OPLOCKED
 
 </td>
 <td>
-Complete this operation immediately with an alternate success code of STATUS_OPLOCK_BREAK_IN_PROGRESS if the target file is opportunistic locked (oplock), rather than blocking the caller's thread. If the file is oplocked, another caller already has access to the file. This flag is not used by device and intermediate drivers. For information about oplock, see [Opportunistic Locks](https://msdn.microsoft.com/en-us/library/windows/desktop/aa365433(v=vs.85).aspx).
+Complete this operation immediately with an alternate success code of STATUS_OPLOCK_BREAK_IN_PROGRESS if the target file is opportunistic locked (oplock), rather than blocking the caller's thread. If the file is oplocked, another caller already has access to the file. This flag is not used by device and intermediate drivers. For information about oplock, see [Opportunistic Locks](https://msdn.microsoft.com/library/windows/desktop/aa365433(v=vs.85).aspx).
 
 </td>
 </tr>
@@ -557,7 +554,7 @@ FILE_OPEN_REPARSE_POINT
 
 </td>
 <td>
-Open a file with a reparse point and bypass normal reparse point processing for the file. For more information, see the following Remarks section. For information about reparse point, see [Reparse Points](https://docs.microsoft.com/en-us/windows/desktop/FileIO/reparse-points).
+Open a file with a reparse point and bypass normal reparse point processing for the file. For more information, see the following Remarks section. For information about reparse point, see [Reparse Points](https://docs.microsoft.com/windows/desktop/FileIO/reparse-points).
 
 </td>
 </tr>
@@ -620,7 +617,7 @@ FILE_RESERVE_OPFILTER
 
 </td>
 <td>
-This flag allows an application to request a Filter opportunistic lock (oplock) to prevent other applications from getting share violations. If there are already open handles, the create request will fail with STATUS_OPLOCK_NOT_GRANTED. For more information, see the following Remarks section. For information about oplock, see [Opportunistic Locks](https://msdn.microsoft.com/en-us/library/windows/desktop/aa365433(v=vs.85).aspx).
+This flag allows an application to request a Filter opportunistic lock (oplock) to prevent other applications from getting share violations. If there are already open handles, the create request will fail with STATUS_OPLOCK_NOT_GRANTED. For more information, see the following Remarks section. For information about oplock, see [Opportunistic Locks](https://msdn.microsoft.com/library/windows/desktop/aa365433(v=vs.85).aspx).
 
 </td>
 </tr>
@@ -858,6 +855,6 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567121">ZwWriteFile</a>
  
 
- [Opportunistic Locks](https://msdn.microsoft.com/en-us/library/windows/desktop/aa365433(v=vs.85).aspx)
+ [Opportunistic Locks](https://msdn.microsoft.com/library/windows/desktop/aa365433(v=vs.85).aspx)
 
-[Reparse Points](https://docs.microsoft.com/en-us/windows/desktop/FileIO/reparse-points)
+[Reparse Points](https://docs.microsoft.com/windows/desktop/FileIO/reparse-points)

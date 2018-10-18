@@ -6,11 +6,8 @@ description: The NDIS_NIC_SWITCH_CAPABILITIES structure specifies the capabiliti
 old-location: netvista\ndis_nic_switch_capabilities.htm
 tech.root: netvista
 ms.assetid: bc4b56bd-583f-4b41-b5a7-90958ce65f42
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNDIS_NIC_SWITCH_CAPABILITIES, NDIS_NIC_SWITCH_CAPABILITIES, NDIS_NIC_SWITCH_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_CAPABILITIES, PNDIS_NIC_SWITCH_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_CAPABILITIES, netvista.ndis_nic_switch_capabilities, ntddndis/NDIS_NIC_SWITCH_CAPABILITIES, ntddndis/PNDIS_NIC_SWITCH_CAPABILITIES, virtual_machine_queue_ref_b71fb086-5613-4ebb-ac19-97bd3bd9c55f.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ndis.h
@@ -365,9 +362,9 @@ The
 
 </li>
 </ul>
-OID query requests of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-nic-switch-current-capabilities">
+OID query requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-current-capabilities">
     OID_NIC_SWITCH_CURRENT_CAPABILITIES</a> and 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-nic-switch-hardware-capabilities">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-hardware-capabilities">
     OID_NIC_SWITCH_HARDWARE_CAPABILITIES</a> return an <b>NDIS_NIC_SWITCH_CAPABILITIES</b> structure.
 
 
@@ -402,11 +399,11 @@ OID query requests of <a href="https://docs.microsoft.com/en-us/windows-hardware
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-nic-switch-current-capabilities">OID_NIC_SWITCH_CURRENT_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-current-capabilities">OID_NIC_SWITCH_CURRENT_CAPABILITIES</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-nic-switch-hardware-capabilities">OID_NIC_SWITCH_HARDWARE_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-hardware-capabilities">OID_NIC_SWITCH_HARDWARE_CAPABILITIES</a>
  
 
  

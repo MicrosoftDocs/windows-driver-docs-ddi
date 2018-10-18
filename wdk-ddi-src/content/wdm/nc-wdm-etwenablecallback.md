@@ -6,11 +6,8 @@ description: The EtwEnableCallback function is an optional driver-supplied callb
 old-location: devtest\etwenablecallback.htm
 tech.root: devtest
 ms.assetid: 5953a3ae-b130-42fd-9dc8-974d15c6dfc5
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: EtwEnableCallback, EtwEnableCallback callback function [Driver Development Tools], PETWENABLECALLBACK, PETWENABLECALLBACK callback, devtest.etwenablecallback, etw_km_6405d4d5-382c-4950-9b91-0cb224a3d069.xml, wdm/EtwEnableCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h

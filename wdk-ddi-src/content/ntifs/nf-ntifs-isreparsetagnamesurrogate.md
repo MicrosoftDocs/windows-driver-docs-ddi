@@ -6,11 +6,8 @@ description: The IsReparseTagNameSurrogate macro determines whether a tag's asso
 old-location: ifsk\isreparsetagnamesurrogate.htm
 tech.root: ifsk
 ms.assetid: 51e80cd6-19c1-4e21-b676-662c77840a8b
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: IsReparseTagNameSurrogate, IsReparseTagNameSurrogate function [Installable File System Drivers], ifsk.isreparsetagnamesurrogate, ioref_f44ef76c-2211-43a1-b151-a5804c7cd361.xml, ntifs/IsReparseTagNameSurrogate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ntifs.h
 req.include-header: Ntifs.h

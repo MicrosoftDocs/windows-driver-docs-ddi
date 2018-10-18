@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilpositioninfoumtsparammask_2.htm
 tech.root: netvista
 ms.assetid: c2e1bf17-130a-4e09-81e3-30100217e1b9
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: RILPOSITIONINFOUMTSPARAMMASK, RILPOSITIONINFOUMTSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_POSITION_UMTS_ALL, RIL_PARAM_POSITION_UMTS_CELLID, RIL_PARAM_POSITION_UMTS_ECNO, RIL_PARAM_POSITION_UMTS_FREQINFO_DL, RIL_PARAM_POSITION_UMTS_FREQINFO_NT, RIL_PARAM_POSITION_UMTS_FREQINFO_UL, RIL_PARAM_POSITION_UMTS_LAC, RIL_PARAM_POSITION_UMTS_MNC, RIL_PARAM_POSITION_UMTS_PATHLOSS, RIL_PARAM_POSITION_UMTS_PRIMARY_SC, RIL_PARAM_POSITION_UMTS_RSCP, RIL_PARAM_POSITION_UMTS_UARFCN, netvista.rilpositioninfoumtsparammask_2, rilapitypes/RILPOSITIONINFOUMTSPARAMMASK, rilapitypes/RIL_PARAM_POSITION_UMTS_ALL, rilapitypes/RIL_PARAM_POSITION_UMTS_CELLID, rilapitypes/RIL_PARAM_POSITION_UMTS_ECNO, rilapitypes/RIL_PARAM_POSITION_UMTS_FREQINFO_DL, rilapitypes/RIL_PARAM_POSITION_UMTS_FREQINFO_NT, rilapitypes/RIL_PARAM_POSITION_UMTS_FREQINFO_UL, rilapitypes/RIL_PARAM_POSITION_UMTS_LAC, rilapitypes/RIL_PARAM_POSITION_UMTS_MNC, rilapitypes/RIL_PARAM_POSITION_UMTS_PATHLOSS, rilapitypes/RIL_PARAM_POSITION_UMTS_PRIMARY_SC, rilapitypes/RIL_PARAM_POSITION_UMTS_RSCP, rilapitypes/RIL_PARAM_POSITION_UMTS_UARFCN
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
 req.include-header:
@@ -57,7 +54,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```cpp
 typedef enum _RILPOSITIONINFOUMTSPARAMMASK {
   RIL_PARAM_POSITION_UMTS_MNC,
   RIL_PARAM_POSITION_UMTS_LAC,
@@ -72,7 +69,7 @@ typedef enum _RILPOSITIONINFOUMTSPARAMMASK {
   RIL_PARAM_POSITION_UMTS_PATHLOSS,
   RIL_PARAM_POSITION_UMTS_ALL
 } RILPOSITIONINFOUMTSPARAMMASK;
-````
+```
 
 
 ## -enum-fields

@@ -6,11 +6,8 @@ description: This enumeration describes the RILEUTRAMRLPARAMMASK.
 old-location: netvista\rileutramrlparammask.htm
 tech.root: netvista
 ms.assetid: 555dd967-ea38-45fa-8e7f-5318ca5c6dd2
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: RILEUTRAMRLPARAMMASK, RILEUTRAMRLPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_EUTRAMRL_ALL, RIL_PARAM_EUTRAMRL_CELLID, RIL_PARAM_EUTRAMRL_EARFCN, RIL_PARAM_EUTRAMRL_MCC, RIL_PARAM_EUTRAMRL_MNC, RIL_PARAM_EUTRAMRL_PHYSCELLID, RIL_PARAM_EUTRAMRL_RSRP, RIL_PARAM_EUTRAMRL_RSRQ, RIL_PARAM_EUTRAMRL_TAC, netvista.rileutramrlparammask, rilapitypes/RILEUTRAMRLPARAMMASK, rilapitypes/RIL_PARAM_EUTRAMRL_ALL, rilapitypes/RIL_PARAM_EUTRAMRL_CELLID, rilapitypes/RIL_PARAM_EUTRAMRL_EARFCN, rilapitypes/RIL_PARAM_EUTRAMRL_MCC, rilapitypes/RIL_PARAM_EUTRAMRL_MNC, rilapitypes/RIL_PARAM_EUTRAMRL_PHYSCELLID, rilapitypes/RIL_PARAM_EUTRAMRL_RSRP, rilapitypes/RIL_PARAM_EUTRAMRL_RSRQ, rilapitypes/RIL_PARAM_EUTRAMRL_TAC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
@@ -58,7 +55,7 @@ req.typenames: RILEUTRAMRLPARAMMASK
 ## -syntax
 
 
-````
+```cpp
 enum RILEUTRAMRLPARAMMASK {
   RIL_PARAM_EUTRAMRL_MCC         = 0x00000001,
   RIL_PARAM_EUTRAMRL_MNC         = 0x00000002,
@@ -71,7 +68,7 @@ enum RILEUTRAMRLPARAMMASK {
   RIL_PARAM_EUTRAMRL_ALL         = 0x000000ff
 
 };
-````
+```
 
 
 ## -enum-fields

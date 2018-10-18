@@ -5,7 +5,6 @@ author: windows-driver-content
 description: Adds a caller-provided, pre-initialized query request handler structure to a NET_REQUEST_QUEUE_CONFIG structure.
 tech.root: netvista
 ms.assetid: 3c194a5c-2154-448e-bf83-4400acedc1f4
-ms.author: windowsdriverdev
 ms.date: 02/09/2018
 ms.topic: function
 ms.keywords: NET_REQUEST_QUEUE_CONFIG_ADD_INITIALIZED_QUERY_DATA_HANDLER

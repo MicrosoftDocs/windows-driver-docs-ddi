@@ -6,11 +6,8 @@ description: The PcwCreateInstance function creates a new instance for the speci
 old-location: devtest\pcwcreateinstance.htm
 tech.root: devtest
 ms.assetid: ed9bd8fa-a6e6-465a-8415-3e9c19233419
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: PcwCreateInstance, PcwCreateInstance function [Driver Development Tools], devtest.pcwcreateinstance, km_pcw_32dba149-fed7-4e86-b68c-1f3a6348cb7a.xml, wdm/PcwCreateInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h

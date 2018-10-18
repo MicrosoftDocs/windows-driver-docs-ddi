@@ -6,11 +6,8 @@ description: The WheaFindErrorRecordSection function searches for a specified Wi
 old-location: whea\wheafinderrorrecordsection.htm
 tech.root: whea
 ms.assetid: 57c94f04-82e2-4790-b198-d415e494d70b
-ms.author: windowsdriverdev
 ms.date: 2/20/2018
 ms.keywords: WheaFindErrorRecordSection, WheaFindErrorRecordSection function [WHEA Drivers and Applications], ntddk/WheaFindErrorRecordSection, whea.wheafinderrorrecordsection, whearef2_fe7f8220-081d-475c-9230-d59cff81164d.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

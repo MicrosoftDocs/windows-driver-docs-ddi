@@ -6,11 +6,8 @@ description: The WskAbortEvent event callback function notifies a WSK applicatio
 old-location: netvista\wskabortevent.htm
 tech.root: netvista
 ms.assetid: 50e0ef5d-0577-4b5c-b541-fc78079a953c
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: PFN_WSK_ABORT_EVENT, PFN_WSK_ABORT_EVENT callback, WskAbortEvent, WskAbortEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskabortevent, wsk/WskAbortEvent, wskref_592d9a56-6a77-4c24-aaec-e70f84d23e49.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wsk.h
 req.include-header: Wsk.h
@@ -131,7 +128,7 @@ If the WSK application calls the
 A WSK application can enable conditional accept mode on a listening socket by enabling the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570829">SO_CONDITIONAL_ACCEPT</a> socket option.
     For more information about conditionally accepting incoming connections, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/listening-for-and-accepting-incoming-connections">Listening for and
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/listening-for-and-accepting-incoming-connections">Listening for and
     Accepting Incoming Connections</a>.
 
 The WSK subsystem calls a WSK application's 

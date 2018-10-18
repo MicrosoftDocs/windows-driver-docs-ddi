@@ -6,11 +6,8 @@ description: The GPIO_PIN_CONFIG_TYPE enumeration describes a connection IO reso
 old-location: kernel\gpio_pin_config_type.htm
 tech.root: kernel
 ms.assetid: 76509992-E5A7-4C2F-84D3-B3FD06ACEFE1
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: GPIO_PIN_CONFIG_TYPE, GPIO_PIN_CONFIG_TYPE enumeration [Kernel-Mode Driver Architecture], PullDefault, PullDown, PullNone, PullUp, _GPIO_PIN_CONFIG_TYPE, kernel.gpio_pin_config_type, pepfx/GPIO_PIN_CONFIG_TYPE, pepfx/PullDefault, pepfx/PullDown, pepfx/PullNone, pepfx/PullUp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: pepfx.h
 req.include-header: Pep_x.h

@@ -6,11 +6,8 @@ description: The WskAcceptEvent event callback function notifies a WSK applicati
 old-location: netvista\wskacceptevent.htm
 tech.root: netvista
 ms.assetid: 672440f0-810a-4e68-82a5-d038770898c5
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: PFN_WSK_ACCEPT_EVENT, PFN_WSK_ACCEPT_EVENT callback, WskAcceptEvent, WskAcceptEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskacceptevent, wsk/WskAcceptEvent, wskref_5a830348-5fa7-4704-86f2-9d1a953f057b.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wsk.h
 req.include-header: Wsk.h
@@ -195,7 +192,7 @@ The WSK subsystem calls a WSK application's
     socket only if the event callback function was previously enabled with the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570834">SO_WSK_EVENT_CALLBACK</a> socket option.
     For more information about enabling a socket's event callback functions, see 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa363707">Enabling and
+    <a href="https://msdn.microsoft.com/library/windows/desktop/aa363707">Enabling and
     Disabling Event Callback Functions</a>.
 
 If a WSK application's 
@@ -222,7 +219,7 @@ When the WSK subsystem calls a WSK application's
     callback functions on a listening socket, those event callback functions will be enabled by default on
     all connection-oriented sockets that are accepted on that listening socket. For more information about
     enabling any of the accepted socket's event callback functions, see 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa363707">Enabling and
+    <a href="https://msdn.microsoft.com/library/windows/desktop/aa363707">Enabling and
     Disabling Event Callback Functions</a>.
 
 The 

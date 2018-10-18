@@ -4,11 +4,8 @@ title: PFND3DKMT_FLUSHHEAPTRANSITIONS
 author: windows-driver-content
 description: The Pfnd3dkmtFlushheaptransitions callback function flushes heap transitions.
 ms.assetid: a8ed0fbd-f4c0-48f9-94e7-e3ad531b59e0
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The Pfnd3dkmtFlushheaptransitions callback function flushes heap transitions.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_FLUSHHEAPTRANSITIONS Pfnd3dkmtFlushheaptransitions; 

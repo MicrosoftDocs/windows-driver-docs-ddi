@@ -1,8 +1,0 @@
-# [Windows Driver Framework](../_wdf/index.md)
-## [Wdfsync.h](index.md)
-### [PFN_WDFOBJECTACQUIRELOCK callback](../wdfsync/nc-wdfsync-pfn_wdfobjectacquirelock.md)
-### [PFN_WDFOBJECTRELEASELOCK callback](../wdfsync/nc-wdfsync-pfn_wdfobjectreleaselock.md)
-### [WdfSpinLockCreate function](../wdfsync/nf-wdfsync-wdfspinlockcreate.md)
-### [WdfWaitLockAcquire function](../wdfsync/nf-wdfsync-wdfwaitlockacquire.md)
-### [WdfWaitLockCreate function](../wdfsync/nf-wdfsync-wdfwaitlockcreate.md)
-### [WdfWaitLockRelease function](../wdfsync/nf-wdfsync-wdfwaitlockrelease.md)

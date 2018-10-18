@@ -4,7 +4,6 @@ title: IDebugHostPublic::GetSymbolKind
 author: windows-driver-content
 description: Gets the kind of symbol that this is (e.g. a field, a base class, a type, etc...).
 ms.assetid: 3b5ec3ce-84c9-41fa-8f4c-412418d912d3
-ms.author: windowsdriverdev
 ms.date: 09/21/2018 
 ms.topic: method
 ms.keywords: IDebugHostPublic::GetSymbolKind, GetSymbolKind, IDebugHostPublic.GetSymbolKind, IDebugHostPublic::GetSymbolKind, IDebugHostPublic.GetSymbolKind

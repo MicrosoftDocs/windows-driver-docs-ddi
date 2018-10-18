@@ -6,11 +6,8 @@ description: Mount manager clients that are able to keep track of their drive le
 old-location: storage\mountdev_suggested_link_name.htm
 tech.root: storage
 ms.assetid: 5c6e3337-8071-486a-826a-ade722eb8449
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PMOUNTDEV_SUGGESTED_LINK_NAME, MOUNTDEV_SUGGESTED_LINK_NAME, MOUNTDEV_SUGGESTED_LINK_NAME structure [Storage Devices], PMOUNTDEV_SUGGESTED_LINK_NAME, PMOUNTDEV_SUGGESTED_LINK_NAME structure pointer [Storage Devices], _MOUNTDEV_SUGGESTED_LINK_NAME, mountdev/MOUNTDEV_SUGGESTED_LINK_NAME, mountdev/PMOUNTDEV_SUGGESTED_LINK_NAME, storage.mountdev_suggested_link_name, structs-mntmgr_fc4a3528-34b9-4112-9501-87db4e87f9f3.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mountdev.h
 req.include-header: Mountmgr.h

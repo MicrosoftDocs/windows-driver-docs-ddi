@@ -6,11 +6,8 @@ description: The CreateWdfObject method creates a custom (or user) WDF object fr
 old-location: wdf\iwdfdriver_createwdfobject.htm
 tech.root: wdf
 ms.assetid: 9dda353d-7c39-4c3c-b9e2-38946d6cc086
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: CreateWdfObject, CreateWdfObject method, CreateWdfObject method,IWDFDriver interface, IWDFDriver interface,CreateWdfObject method, IWDFDriver.CreateWdfObject, IWDFDriver::CreateWdfObject, UMDFDriverObjectRef_8ab61a3d-78e3-4d92-8a9c-0eff2837f65f.xml, umdf.iwdfdriver_createwdfobject, wdf.iwdfdriver_createwdfobject, wudfddi/IWDFDriver::CreateWdfObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>CreateWdfObject</b> method creates a custom (or user) WDF object from a parent WDF object.
 

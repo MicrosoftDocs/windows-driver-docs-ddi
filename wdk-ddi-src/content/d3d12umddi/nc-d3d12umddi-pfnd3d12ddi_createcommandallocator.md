@@ -4,11 +4,8 @@ title: PFND3D12DDI_CREATECOMMANDALLOCATOR
 author: windows-driver-content
 description: Creates a command allocator.
 ms.assetid: 78393c5e-a99a-4b55-8302-76137bc4f4e5
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Creates a command allocator.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATECOMMANDALLOCATOR Pfnd3d12ddiCreatecommandallocator; 

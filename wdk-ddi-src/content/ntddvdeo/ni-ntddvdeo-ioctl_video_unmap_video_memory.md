@@ -6,11 +6,8 @@ description: Releases a mapping between the virtual address space and the adapte
 old-location: display\ioctl_video_unmap_video_memory.htm
 tech.root: display
 ms.assetid: 421cbe15-f2a6-495d-90f2-09a13771d018
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: IOCTL_VIDEO_UNMAP_VIDEO_MEMORY, IOCTL_VIDEO_UNMAP_VIDEO_MEMORY control, IOCTL_VIDEO_UNMAP_VIDEO_MEMORY control code [Display Devices], Video_IOCTLs_97fad6e5-d6e7-4487-84ab-cee66609ccd9.xml, display.ioctl_video_unmap_video_memory, ntddvdeo/IOCTL_VIDEO_UNMAP_VIDEO_MEMORY
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddvdeo.h
 req.include-header: 

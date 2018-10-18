@@ -4,11 +4,8 @@ title: _REPARSE_DATA_BUFFER_EX
 author: windows-driver-content
 description: 
 ms.assetid: fcbcb8e5-293f-4a19-8015-99cd870669bf
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _REPARSE_DATA_BUFFER_EX, REPARSE_DATA_BUFFER_EX, *PREPARSE_DATA_BUFFER_EX, 
 req.header: ntifs.h
 req.include-header:

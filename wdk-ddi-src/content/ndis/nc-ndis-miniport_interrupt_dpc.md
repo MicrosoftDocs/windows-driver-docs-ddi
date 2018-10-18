@@ -6,11 +6,8 @@ description: A miniport driver must provide a MiniportInterruptDPC function if t
 old-location: netvista\miniportinterruptdpc.htm
 tech.root: netvista
 ms.assetid: 345715fb-878c-44d8-bf78-f3add10dd02b
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: MINIPORT_INTERRUPT_DPC, MINIPORT_INTERRUPT_DPC callback, MiniportInterruptDPC, MiniportInterruptDPC callback function [Network Drivers Starting with Windows Vista], ndis/MiniportInterruptDPC, ndis_interrupts_miniport_functions_ref_00c0d07c-600c-4a63-bee2-045b66acdd82.xml, netvista.miniportinterruptdpc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -127,7 +124,7 @@ Miniport drivers determine the source of each interrupt and take appropriate act
     new link status to NDIS. If there are outstanding receive packets, the miniport driver indicates the
     packets to NDIS.
 
-A miniport driver that supports <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">receive side scaling (RSS)</a>, and has the feature enabled, examines its receive
+A miniport driver that supports <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-receive-side-scaling2">receive side scaling (RSS)</a>, and has the feature enabled, examines its receive
     queues in 
     <i>MiniportInterruptDPC</i>. The NIC could have already queued received packets on
     separate queues based on hash values, if the NIC provides such capabilities. Otherwise, the miniport
@@ -269,7 +266,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
  
 
  

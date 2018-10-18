@@ -6,11 +6,8 @@ description: This structure is used to indicate the radio state.
 old-location: nfpdrivers\_nfcrm_radio_state_.htm
 tech.root: nfpdrivers
 ms.assetid: 414486ED-464D-4CAF-95C2-9AC59D608816
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PNFCRM_RADIO_STATE, NFCRM_RADIO_STATE, NFCRM_RADIO_STATE , NFCRM_RADIO_STATE structure [Near-Field Proximity Drivers], PNFCRM_RADIO_STATE, PNFCRM_RADIO_STATE structure pointer [Near-Field Proximity Drivers], _NFCRM_RADIO_STATE, nfcradiodev/NFCRM_RADIO_STATE, nfcradiodev/PNFCRM_RADIO_STATE, nfpdrivers._nfcrm_radio_state_"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: nfcradiodev.h
 req.include-header: 

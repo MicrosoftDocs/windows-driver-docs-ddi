@@ -6,11 +6,8 @@ description: The VIDEO_ACCESS_RANGE structure defines a device I/O port or memor
 old-location: display\video_access_range.htm
 tech.root: display
 ms.assetid: 200c957d-2ba4-488b-afd7-609c13543a7a
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: "*PVIDEO_ACCESS_RANGE, PVIDEO_ACCESS_RANGE, PVIDEO_ACCESS_RANGE structure pointer [Display Devices], VIDEO_ACCESS_RANGE, VIDEO_ACCESS_RANGE structure [Display Devices], Video_Structs_b5c6bb55-a4a4-41be-879c-de6f71abe988.xml, _VIDEO_ACCESS_RANGE, display.video_access_range, video/PVIDEO_ACCESS_RANGE, video/VIDEO_ACCESS_RANGE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: video.h
 req.include-header: Video.h

@@ -6,11 +6,8 @@ description: Gets the JobCopiesAllDocuments parameter minimum value.
 old-location: print\iprintschemacapabilities_jobcopiesalldocumentsminvalue.htm
 tech.root: print
 ms.assetid: 181D085C-65C5-4D7E-9A1B-8641CC9B799B
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrintSchemaCapabilities interface [Print Devices],JobCopiesAllDocumentsMinValue property, IPrintSchemaCapabilities.JobCopiesAllDocumentsMinValue, IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMinValue, IPrintSchemaCapabilities::JobCopiesAllDocumentsMinValue, IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue, JobCopiesAllDocumentsMinValue property [Print Devices], JobCopiesAllDocumentsMinValue property [Print Devices],IPrintSchemaCapabilities interface, get_JobCopiesAllDocumentsMinValue, print.iprintschemacapabilities_jobcopiesalldocumentsminvalue, printerextension/IPrintSchemaCapabilities::JobCopiesAllDocumentsMinValue, printerextension/IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header: 

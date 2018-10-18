@@ -6,11 +6,8 @@ description: The ConnectProcessServer methods connect to a process server.
 old-location: debugger\connectprocessserver.htm
 tech.root: debugger
 ms.assetid: c5fd12eb-0779-400f-a271-84b7b379529f
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: ConnectProcessServer, ConnectProcessServer method [Windows Debugging], ConnectProcessServer method [Windows Debugging],IDebugClient interface, ConnectProcessServer method [Windows Debugging],IDebugClient2 interface, ConnectProcessServer method [Windows Debugging],IDebugClient3 interface, ConnectProcessServer method [Windows Debugging],IDebugClient4 interface, ConnectProcessServer method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],ConnectProcessServer method, IDebugClient2 interface [Windows Debugging],ConnectProcessServer method, IDebugClient2.ConnectProcessServer, IDebugClient2::ConnectProcessServer, IDebugClient3 interface [Windows Debugging],ConnectProcessServer method, IDebugClient3::ConnectProcessServer, IDebugClient4 interface [Windows Debugging],ConnectProcessServer method, IDebugClient4::ConnectProcessServer, IDebugClient5 interface [Windows Debugging],ConnectProcessServer method, IDebugClient5::ConnectProcessServer, IDebugClient::ConnectProcessServer, IDebugClient_519f5e11-6f3b-4469-8352-e6cd7c1ed384.xml, dbgeng/IDebugClient2::ConnectProcessServer, dbgeng/IDebugClient3::ConnectProcessServer, dbgeng/IDebugClient4::ConnectProcessServer, dbgeng/IDebugClient5::ConnectProcessServer, dbgeng/IDebugClient::ConnectProcessServer, debugger.connectprocessserver
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

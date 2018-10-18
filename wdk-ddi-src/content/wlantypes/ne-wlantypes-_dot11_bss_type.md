@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_bss_type.htm
 tech.root: netvista
 ms.assetid: 5cb263e2-e5b7-456f-9fef-deaf5434c404
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*PDOT11_BSS_TYPE, DOT11_BSS_TYPE, DOT11_BSS_TYPE enumeration [Network Drivers Starting with Windows Vista], Native_802.11_data_types_ac59d6f5-1095-4953-8079-7f616769a3fa.xml, PDOT11_BSS_TYPE, PDOT11_BSS_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _DOT11_BSS_TYPE, dot11_BSS_type_any, dot11_BSS_type_independent, dot11_BSS_type_infrastructure, netvista.dot11_bss_type, wlantypes/DOT11_BSS_TYPE, wlantypes/PDOT11_BSS_TYPE, wlantypes/dot11_BSS_type_any, wlantypes/dot11_BSS_type_independent, wlantypes/dot11_BSS_type_infrastructure"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wlantypes.h
 req.include-header: Ndis.h
@@ -57,13 +54,13 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```cpp
 typedef enum _DOT11_BSS_TYPE {
   dot11_BSS_type_infrastructure  = 1,
   dot11_BSS_type_independent     = 2,
   dot11_BSS_type_any             = 3
 } DOT11_BSS_TYPE, *PDOT11_BSS_TYPE;
-````
+```
 
 
 ## -enum-fields
@@ -105,12 +102,12 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn305127">
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn305127">
    NDIS_STATUS_DOT11_CONNECTION_START</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
 
 
 

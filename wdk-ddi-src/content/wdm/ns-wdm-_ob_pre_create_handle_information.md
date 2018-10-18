@@ -6,11 +6,8 @@ description: The OB_PRE_CREATE_HANDLE_INFORMATION structure provides information
 old-location: kernel\ob_pre_create_handle_information.htm
 tech.root: kernel
 ms.assetid: 50fd7666-cdec-4bdb-b350-2c2222124020
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*POB_PRE_CREATE_HANDLE_INFORMATION, OB_PRE_CREATE_HANDLE_INFORMATION, OB_PRE_CREATE_HANDLE_INFORMATION structure [Kernel-Mode Driver Architecture], POB_PRE_CREATE_HANDLE_INFORMATION, POB_PRE_CREATE_HANDLE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _OB_PRE_CREATE_HANDLE_INFORMATION, kernel.ob_pre_create_handle_information, kstruct_c_e7efa519-bfcd-4f16-9723-294f061bea51.xml, wdm/OB_PRE_CREATE_HANDLE_INFORMATION, wdm/POB_PRE_CREATE_HANDLE_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

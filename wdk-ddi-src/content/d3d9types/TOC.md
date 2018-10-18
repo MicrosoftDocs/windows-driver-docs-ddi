@@ -1,6 +1,0 @@
-# [Display](../_display/index.md)
-## [D3D9Types.h](index.md)
-### [_D3DRENDERSTATETYPE enumeration](../d3d9types/ne-d3d9types-_d3drenderstatetype.md)
-### [_D3DSHADER_INSTRUCTION_OPCODE_TYPE enumeration](../d3d9types/ne-d3d9types-_d3dshader_instruction_opcode_type.md)
-### [_D3DSHADER_PARAM_REGISTER_TYPE enumeration](../d3d9types/ne-d3d9types-_d3dshader_param_register_type.md)
-### [_D3DDEVINFO_VCACHE structure](../d3d9types/ns-d3d9types-_d3ddevinfo_vcache.md)

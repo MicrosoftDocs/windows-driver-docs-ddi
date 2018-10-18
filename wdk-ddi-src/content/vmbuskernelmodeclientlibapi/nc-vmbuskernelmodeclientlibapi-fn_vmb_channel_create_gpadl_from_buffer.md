@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbChannelCreateGpadlFromBuffer function creates a Guest Physical Address Descriptor List (GPADL) that describes a client-side buffer. The GPADL can be used in the server to access the buffer.
 tech.root: netvista
 ms.assetid: 08d38304-c8bb-4dcf-aa57-be05d8fe7270
-ms.author: windowsdriverdev
 ms.date: 05/21/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:
@@ -51,7 +48,7 @@ in the server to access the buffer.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_CREATE_GPADL_FROM_BUFFER FnVmbChannelCreateGpadlFromBuffer; 

@@ -6,11 +6,8 @@ description: The Bluetooth SdpCreateNodeString function is used to allocate and 
 old-location: bltooth\sdpcreatenodestring.htm
 tech.root: bltooth
 ms.assetid: 27611211-a782-4c62-8848-d9ca6e49b5f4
-ms.author: windowsdriverdev
 ms.date: 4/27/2018
 ms.keywords: SdpCreateNodeString, SdpCreateNodeString function [Bluetooth Devices], bltooth.sdpcreatenodestring, bth_funcs_509682f2-c3c7-4e27-aa1f-2a6bfaf351c1.xml, sdplib/SdpCreateNodeString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sdplib.h
 req.include-header: BthSdpddi.h

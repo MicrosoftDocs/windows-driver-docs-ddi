@@ -6,11 +6,8 @@ description: UCX invokes this callback function to set the priority on an endpoi
 old-location: buses\evt_ucx_endpoint_set_characteristic.htm
 tech.root: usbref
 ms.assetid: 4FA3F175-52E4-472D-A9B3-B3B4B37E1701
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: EVT_UCX_ENDPOINT_SET_CHARACTERISTIC, EVT_UCX_ENDPOINT_SET_CHARACTERISTIC callback, EvtUcxEndpointSetCharacteristic, EvtUcxEndpointSetCharacteristic callback function [Buses], buses.evt_ucx_endpoint_set_characteristic, ucxendpoint/EvtUcxEndpointSetCharacteristic
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h
@@ -95,7 +92,7 @@ The UCX client driver registers this callback function with the USB host control
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a>
  
 
  

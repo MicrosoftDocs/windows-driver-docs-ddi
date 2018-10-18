@@ -4,7 +4,6 @@ title: EntropyPoolTriggerReseedForIum function
 author: windows-driver-content
 description: 
 ms.assetid: e8efc920-4aea-49fa-a773-bb42d06d2e34
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: EntropyPoolTriggerReseedForIum

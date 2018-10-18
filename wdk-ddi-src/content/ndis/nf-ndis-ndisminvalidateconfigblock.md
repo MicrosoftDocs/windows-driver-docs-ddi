@@ -6,11 +6,8 @@ description: A miniport driver calls the NdisMInvalidateConfigBlock function to 
 old-location: netvista\ndisminvalidateconfigblock.htm
 tech.root: netvista
 ms.assetid: 26D07A41-C431-41F1-9F5E-880B48CC2F0B
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisMInvalidateConfigBlock, NdisMInvalidateConfigBlock function [Network Drivers Starting with Windows Vista], ndis/NdisMInvalidateConfigBlock, netvista.ndisminvalidateconfigblock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

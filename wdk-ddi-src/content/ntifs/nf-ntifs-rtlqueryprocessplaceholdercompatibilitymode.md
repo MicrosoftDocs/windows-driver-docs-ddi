@@ -4,7 +4,6 @@ title: RtlQueryProcessPlaceholderCompatibilityMode function
 author: windows-driver-content
 description: The RtlSetProcessPlaceholderCompatibilityMode function returns the placeholder compatibility mode for the current process.
 ms.assetid: 259275e9-2680-4b7a-a291-83ee9a1fb9c9
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: RtlQueryProcessPlaceholderCompatibilityMode

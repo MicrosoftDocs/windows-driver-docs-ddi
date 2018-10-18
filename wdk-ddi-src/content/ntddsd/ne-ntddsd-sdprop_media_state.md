@@ -6,11 +6,8 @@ description: The SDPROP_MEDIA_STATE enumeration lists the values associated with
 old-location: sd\sdprop_media_state.htm
 tech.root: SD
 ms.assetid: b59fd639-f2e2-4765-bcc7-01934df3a0bc
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: SD.sdprop_media_state, SDPMS_MEDIA_INSERTED, SDPMS_NO_MEDIA, SDPROP_MEDIA_STATE, SDPROP_MEDIA_STATE enumeration [Buses], ntddsd/SDPMS_MEDIA_INSERTED, ntddsd/SDPMS_NO_MEDIA, ntddsd/SDPROP_MEDIA_STATE, sd-structs_a2064f73-cec7-4703-95ec-8ab8adc0b4b2.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddsd.h
 req.include-header: Ntddsd.h

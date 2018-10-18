@@ -6,11 +6,8 @@ description: Gets the PeakMeter value for the audio device channel.
 old-location: audio\iminiportaudioenginenode_getdevicechannelpeakmeter.htm
 tech.root: audio
 ms.assetid: 31F291ED-0B04-4CDF-A83B-7CF3717EC234
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: GetDeviceChannelPeakMeter, GetDeviceChannelPeakMeter method [Audio Devices], GetDeviceChannelPeakMeter method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetDeviceChannelPeakMeter method, IMiniportAudioEngineNode.GetDeviceChannelPeakMeter, IMiniportAudioEngineNode::GetDeviceChannelPeakMeter, audio.iminiportaudioenginenode_getdevicechannelpeakmeter, portcls/IMiniportAudioEngineNode::GetDeviceChannelPeakMeter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: 

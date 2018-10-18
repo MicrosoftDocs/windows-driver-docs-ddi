@@ -6,11 +6,8 @@ description: The NdkCreateConnector (NDK_FN_CREATE_CONNECTOR) function creates a
 old-location: netvista\ndk_fn_create_connector.htm
 tech.root: netvista
 ms.assetid: E800AC7B-EAEB-44FB-96ED-890C6442F066
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NDK_FN_CREATE_CONNECTOR, NDK_FN_CREATE_CONNECTOR callback, NdkCreateConnector, NdkCreateConnector callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateConnector, netvista.ndk_fn_create_connector
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndkpi.h
 req.include-header: Ndkpi.h

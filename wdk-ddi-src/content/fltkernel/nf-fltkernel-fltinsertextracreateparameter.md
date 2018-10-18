@@ -6,11 +6,8 @@ description: The FltInsertExtraCreateParameter routine inserts an extra create p
 old-location: ifsk\fltinsertextracreateparameter.htm
 tech.root: ifsk
 ms.assetid: b4cc03e9-225f-491f-97df-064fdedc8182
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_70a06c18-83e1-45cc-be8c-87945a2a320e.xml, FltInsertExtraCreateParameter, FltInsertExtraCreateParameter routine [Installable File System Drivers], fltkernel/FltInsertExtraCreateParameter, ifsk.fltinsertextracreateparameter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

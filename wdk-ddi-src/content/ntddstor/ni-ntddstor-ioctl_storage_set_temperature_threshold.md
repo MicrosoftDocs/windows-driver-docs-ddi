@@ -6,11 +6,8 @@ description: A driver can use IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD to set the
 old-location: storage\ioctl_storage_set_temperature_threshold.htm
 tech.root: storage
 ms.assetid: 5D7348DC-1114-4346-9486-FCCE2C0F3E0F
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD, IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD control, IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD control code [Storage Devices], ntddstor/IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD, storage.ioctl_storage_set_temperature_threshold
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddstor.h
 req.include-header: Ntddstor.h

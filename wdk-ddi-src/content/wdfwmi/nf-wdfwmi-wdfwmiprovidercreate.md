@@ -6,11 +6,8 @@ description: The WdfWmiProviderCreate method creates a WMI provider object that 
 old-location: wdf\wdfwmiprovidercreate.htm
 tech.root: wdf
 ms.assetid: 07aed86f-870e-431b-b1bb-403395c35946
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFWMIRef_f1b26bb3-d191-4f2b-9289-c76ef93769b5.xml, WdfWmiProviderCreate, WdfWmiProviderCreate method, kmdf.wdfwmiprovidercreate, wdf.wdfwmiprovidercreate, wdfwmi/WdfWmiProviderCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfwmi.h
 req.include-header: Wdf.h
@@ -63,7 +60,7 @@ The <b>WdfWmiProviderCreate</b> method creates a WMI provider object that repres
 
 ### -param Device [in]
 
-A handle to a framework device object that will be the new provider object's parent object. The device object cannot be a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-control-device-objects">control device object</a>.
+A handle to a framework device object that will be the new provider object's parent object. The device object cannot be a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-control-device-objects">control device object</a>.
 
 
 ### -param WmiProviderConfig [in]
@@ -166,7 +163,7 @@ After a driver calls <b>WdfWmiProviderCreate</b>, the driver can call <a href="h
 
 After a driver creates a WMI provider object, the driver cannot delete the object. The framework deletes a device's WMI provider objects when it deletes the framework device object that represents the device. WMI provider objects use minimal system resources.
 
-For more information about the <b>WdfWmiProviderCreate</b> method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-wmi-in-kmdf-drivers">Supporting WMI in Framework-Based Drivers</a>.
+For more information about the <b>WdfWmiProviderCreate</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-wmi-in-kmdf-drivers">Supporting WMI in Framework-Based Drivers</a>.
 
 
 #### Examples

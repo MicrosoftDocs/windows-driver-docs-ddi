@@ -4,11 +4,8 @@ title: FPGA_CONTROL_LINK
 author: windows-driver-content
 description: Reserved for future use.
 ms.assetid: 3e495043-8ab0-4119-abb3-a8b3c4cf9ca3
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Enables or disables the link between the given FPGA device and its parent bridge
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FPGA_CONTROL_LINK FpgaControlLink;
@@ -78,7 +75,7 @@ FPGA_CONTROL_LINK *PFPGA_CONTROL_LINK
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

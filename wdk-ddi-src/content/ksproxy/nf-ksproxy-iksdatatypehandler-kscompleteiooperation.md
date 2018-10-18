@@ -6,11 +6,8 @@ description: The KsCompleteIoOperation method cleans up the extended header and 
 old-location: stream\iksdatatypehandler_kscompleteiooperation.htm
 tech.root: stream
 ms.assetid: 46a58007-16bf-422b-8408-30a7b65dbee6
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: IKsDataTypeHandler interface [Streaming Media Devices],KsCompleteIoOperation method, IKsDataTypeHandler.KsCompleteIoOperation, IKsDataTypeHandler::KsCompleteIoOperation, KsCompleteIoOperation, KsCompleteIoOperation method [Streaming Media Devices], KsCompleteIoOperation method [Streaming Media Devices],IKsDataTypeHandler interface, ksproxy/IKsDataTypeHandler::KsCompleteIoOperation, ksproxy_04136093-03d0-4490-bf5c-5e83bddc23c7.xml, stream.iksdatatypehandler_kscompleteiooperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ksproxy.h
 req.include-header: Ksproxy.h

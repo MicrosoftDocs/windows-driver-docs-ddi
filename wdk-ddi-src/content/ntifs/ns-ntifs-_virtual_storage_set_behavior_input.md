@@ -4,11 +4,8 @@ title: _VIRTUAL_STORAGE_SET_BEHAVIOR_INPUT
 author: windows-driver-content
 description: 
 ms.assetid: 072ced06-437c-461f-a6a9-5eac62897a54
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _VIRTUAL_STORAGE_SET_BEHAVIOR_INPUT, VIRTUAL_STORAGE_SET_BEHAVIOR_INPUT, *PVIRTUAL_STORAGE_SET_BEHAVIOR_INPUT, 
 req.header: ntifs.h
 req.include-header:

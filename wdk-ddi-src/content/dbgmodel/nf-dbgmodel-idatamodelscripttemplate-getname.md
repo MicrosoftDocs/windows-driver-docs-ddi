@@ -4,7 +4,6 @@ title: IDataModelScriptTemplate::GetName
 author: windows-driver-content
 description: The GetName method returns a name of the template. 
 ms.assetid: c5df4066-3417-43b9-bf16-a6039c73dd18
-ms.author: windowsdriverdev
 ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptTemplate::GetName, GetName, IDataModelScriptTemplate.GetName, IDataModelScriptTemplate::GetName, IDataModelScriptTemplate.GetName

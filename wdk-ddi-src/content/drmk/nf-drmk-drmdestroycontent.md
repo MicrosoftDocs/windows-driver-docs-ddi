@@ -6,11 +6,8 @@ description: The DrmDestroyContent function deletes a DRM content ID that was cr
 old-location: audio\drmdestroycontent.htm
 tech.root: audio
 ms.assetid: 197f74f8-050e-4b0b-a95d-f640c565c17e
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: DrmDestroyContent, DrmDestroyContent function [Audio Devices], aud-prop2_cfaec95c-a7e5-4488-a56d-323ebc577d90.xml, audio.drmdestroycontent, drmk/DrmDestroyContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: drmk.h
 req.include-header: Drmk.h

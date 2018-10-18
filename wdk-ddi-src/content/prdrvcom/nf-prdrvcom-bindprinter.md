@@ -6,11 +6,8 @@ description: The IPrintOemPrintTicketProvider::BindPrinter method enables the co
 old-location: print\iprintoemprintticketprovider_bindprinter.htm
 tech.root: print
 ms.assetid: 6b31b340-de94-4e6c-a48a-7c1b874eb7cd
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: BindPrinter, BindPrinter method [Print Devices], BindPrinter method [Print Devices], IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices], BindPrinter method, IPrintOemPrintTicketProvider::BindPrinter, prdrvcom/IPrintOemPrintTicketProvider::BindPrinter, print.iprintoemprintticketprovider_bindprinter, print_ticket-package_14890643-fabb-4e03-8d1e-08a6ff7f1c9c.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: prdrvcom.h
 req.include-header: Prdrvcom.h

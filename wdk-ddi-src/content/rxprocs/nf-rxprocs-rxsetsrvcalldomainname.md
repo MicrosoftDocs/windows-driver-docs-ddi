@@ -6,11 +6,8 @@ description: RxSetSrvCallDomainName is called by a network mini-redirector drive
 old-location: ifsk\rxsetsrvcalldomainname.htm
 tech.root: ifsk
 ms.assetid: 876b3932-780f-4d00-8afc-40960f8fcaaf
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RxSetSrvCallDomainName, RxSetSrvCallDomainName function [Installable File System Drivers], ifsk.rxsetsrvcalldomainname, rxprocs/RxSetSrvCallDomainName, rxref_f6d23374-7565-4922-8f1c-222886e3a90c.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rxprocs.h
 req.include-header: Mrxfcb.h, Rxprocs.h

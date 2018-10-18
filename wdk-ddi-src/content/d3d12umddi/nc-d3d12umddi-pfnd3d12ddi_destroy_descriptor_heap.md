@@ -4,11 +4,8 @@ title: PFND3D12DDI_DESTROY_DESCRIPTOR_HEAP
 author: windows-driver-content
 description: Destroys the descriptor heap.
 ms.assetid: 05e4e853-9d81-4945-b223-a66e076bbac2
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Destroys the descriptor heap.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROY_DESCRIPTOR_HEAP Pfnd3d12ddiDestroyDescriptorHeap; 

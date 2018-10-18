@@ -6,11 +6,8 @@ description: The HidP_SetUsageValueArray routine sets a HID control usage value
 old-location: hid\hidp_setusagevaluearray.htm
 tech.root: hid
 ms.assetid: 8c18c224-6d55-405d-87ec-cca99d702713
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: HidP_SetUsageValueArray, HidP_SetUsageValueArray routine [Human Input Devices], hid.hidp_setusagevaluearray, hidfunc_08ebfd84-e1da-4eb8-8741-ec2b16b488c9.xml, hidpi/HidP_SetUsageValueArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hidpi.h
 req.include-header: Hidpi.h
@@ -259,7 +256,7 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
  
 
  

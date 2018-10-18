@@ -4,12 +4,9 @@ title: D3D12DDI_CREATE_DEPTH_STENCIL_VIEW_FLAGS
 author: windows-driver-content
 description: Used to specify flags when creating a depth stencil view.
 ms.assetid: c6ba9680-5d16-4e45-8913-e993f594c11c
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: D3D12DDI_CREATE_DEPTH_STENCIL_VIEW_FLAGS, D3D12DDI_CREATE_DEPTH_STENCIL_VIEW_FLAGS, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

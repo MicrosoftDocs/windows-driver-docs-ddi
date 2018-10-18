@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbPacketSendWithExternalPfns function sends the data in a packet buffer or external data as an array of Page Frame Numbers (PFNs).
 tech.root: netvista
 ms.assetid: 680f7faf-6874-4c02-84b9-d919430ad386
-ms.author: windowsdriverdev
 ms.date: 05/22/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:
@@ -51,7 +48,7 @@ throughout the lifetime of the transaction.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_PACKET_SEND_WITH_EXTERNAL_PFNS FnVmbPacketSendWithExternalPfns; 

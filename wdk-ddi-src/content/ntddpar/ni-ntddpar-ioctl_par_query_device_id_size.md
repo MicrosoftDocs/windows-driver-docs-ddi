@@ -6,11 +6,8 @@ description: The IOCTL_PAR_QUERY_DEVICE_ID_SIZE request returns the size, in byt
 old-location: parports\ioctl_par_query_device_id_size.htm
 tech.root: parports
 ms.assetid: f593e36e-8c2b-4cdc-ade1-d1e260f37667
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IOCTL_PAR_QUERY_DEVICE_ID_SIZE, IOCTL_PAR_QUERY_DEVICE_ID_SIZE control code [Parallel Ports], cisspd_a1c3f5cd-d1bc-40e5-a1e0-dc4306107826.xml, ntddpar/IOCTL_PAR_QUERY_DEVICE_ID_SIZE, parports.ioctl_par_query_device_id_size
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddpar.h
 req.include-header: Ntddpar.h
@@ -50,7 +47,7 @@ req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 ##  Major Code:
 
 
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

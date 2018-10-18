@@ -6,11 +6,8 @@ description: The SYNTHVOICEPRIORITY_INSTANCE structure identifies a voice in a M
 old-location: audio\synthvoicepriority_instance.htm
 tech.root: audio
 ms.assetid: dc9acd16-c515-4e47-9a0b-9dec46e30f74
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: "*PSYNTHVOICEPRIORITY_INSTANCE, PSYNTHVOICEPRIORITY_INSTANCE, PSYNTHVOICEPRIORITY_INSTANCE structure pointer [Audio Devices], SYNTHVOICEPRIORITY_INSTANCE, SYNTHVOICEPRIORITY_INSTANCE structure [Audio Devices], _SYNTHVOICEPRIORITY_INSTANCE, aud-prop_86a44512-a1b5-4380-a96a-5e9184ff71c2.xml, audio.synthvoicepriority_instance, dmusprop/PSYNTHVOICEPRIORITY_INSTANCE, dmusprop/SYNTHVOICEPRIORITY_INSTANCE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dmusprop.h
 req.include-header: Dmusprop.h

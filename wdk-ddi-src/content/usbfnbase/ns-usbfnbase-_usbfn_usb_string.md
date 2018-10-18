@@ -6,11 +6,8 @@ description: Describes a USB string descriptor and the associated string index.
 old-location: buses\usbfn_usb_string.htm
 tech.root: usbref
 ms.assetid: 1169A369-0E6D-4308-ABF6-0724FED73AF9
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: "*PUSBFN_USB_STRING, PUSBFN_USB_STRING, PUSBFN_USB_STRING structure pointer [Buses], USBFN_USB_STRING, USBFN_USB_STRING structure [Buses], _USBFN_USB_STRING, buses.usbfn_usb_string, usbfnbase/PUSBFN_USB_STRING, usbfnbase/USBFN_USB_STRING"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: usbfnbase.h
 req.include-header: 

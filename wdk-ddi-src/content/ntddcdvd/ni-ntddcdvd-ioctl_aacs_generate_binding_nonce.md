@@ -6,11 +6,8 @@ description: Reads the Advanced Access Content System (AACS) binding nonce start
 old-location: storage\ioctl_aacs_generate_binding_nonce.htm
 tech.root: storage
 ms.assetid: bb0fec4e-e6be-46e1-b6be-253dd0579ca6
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IOCTL_AACS_GENERATE_BINDING_NONCE, IOCTL_AACS_GENERATE_BINDING_NONCE control, IOCTL_AACS_GENERATE_BINDING_NONCE control code [Storage Devices], k307_ff2a829d-24b6-4d74-92e4-18c342689db7.xml, ntddcdvd/IOCTL_AACS_GENERATE_BINDING_NONCE, storage.ioctl_aacs_generate_binding_nonce
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h

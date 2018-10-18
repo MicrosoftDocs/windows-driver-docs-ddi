@@ -4,12 +4,9 @@ title: D3D12DDI_STATE_SUBOBJECT_TYPE
 author: windows-driver-content
 description: The supported state subobject types.
 ms.assetid: 374a2d3d-313f-4e23-b6ad-8137e19230df
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: D3D12DDI_STATE_SUBOBJECT_TYPE, D3D12DDI_STATE_SUBOBJECT_TYPE, ray tracing
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

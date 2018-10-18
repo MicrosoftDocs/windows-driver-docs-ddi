@@ -6,11 +6,8 @@ description: The DXGI_DDI_MODE_SCALING enumeration type contains values that ide
 old-location: display\dxgi_ddi_mode_scaling.htm
 tech.root: display
 ms.assetid: dfe37343-18a6-46f2-b23f-52fc0ca2f800
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGI_DDI_MODE_SCALING, DXGI_DDI_MODE_SCALING enumeration [Display Devices], DXGI_DDI_MODE_SCALING_CENTERED, DXGI_DDI_MODE_SCALING_STRETCHED, DXGI_DDI_MODE_SCALING_UNSPECIFIED, UMDisplayDriver_Dx10param_Structs_fce25008-9fff-4a5a-9bdc-2e9a6055ef06.xml, display.dxgi_ddi_mode_scaling, dxgiddi/DXGI_DDI_MODE_SCALING, dxgiddi/DXGI_DDI_MODE_SCALING_CENTERED, dxgiddi/DXGI_DDI_MODE_SCALING_STRETCHED, dxgiddi/DXGI_DDI_MODE_SCALING_UNSPECIFIED
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h

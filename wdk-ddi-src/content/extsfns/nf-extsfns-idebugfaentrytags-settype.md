@@ -6,11 +6,8 @@ description: The SetType method sets the data type that is associated with a tag
 old-location: debugger\idebugfaentrytags_settype.htm
 tech.root: debugger
 ms.assetid: F507864B-B20C-4F71-B068-802780243106
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugFAEntryTags interface [Windows Debugging],SetType method, IDebugFAEntryTags.SetType, IDebugFAEntryTags::SetType, SetType, SetType method [Windows Debugging], SetType method [Windows Debugging],IDebugFAEntryTags interface, debugger.idebugfaentrytags_settype, extsfns/IDebugFAEntryTags::SetType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: extsfns.h
 req.include-header: 
@@ -60,12 +57,12 @@ The <b>SetType</b> method sets the data type that is associated with a tag in a 
 
 ### -param Tag [in]
 
-A value in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
+A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
 
 ### -param EntryType [in]
 
-A value in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_ENTRY_TYPE</a> enumeration.
+A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_ENTRY_TYPE</a> enumeration.
 
 
 ## -returns

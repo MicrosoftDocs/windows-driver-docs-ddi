@@ -6,11 +6,8 @@ description: The NdisGetSystemUpTimeEx function returns the number of millisecon
 old-location: netvista\ndisgetsystemuptimeex.htm
 tech.root: netvista
 ms.assetid: a52087b5-81de-4945-9d1e-bea67915ced4
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisGetSystemUpTimeEx, NdisGetSystemUpTimeEx function [Network Drivers Starting with Windows Vista], ndis/NdisGetSystemUpTimeEx, ndis_timer_ref_d487ece6-5ab0-4386-bd6e-1eaecbabf903.xml, netvista.ndisgetsystemuptimeex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

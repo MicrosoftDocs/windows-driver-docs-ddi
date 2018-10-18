@@ -4,11 +4,8 @@ title: CollectionsListGetMarshalledSizeWithoutSerialization function
 author: windows-driver-content
 description: Returns the size of the entire collection list, including size of memories blocks that are pointed by embedded pointers.
 ms.assetid: 4e1ee557-8daa-41a4-8cf7-c4bd876d8fca
-ms.author: windowsdriverdev
 ms.date: 08/08/18
 ms.topic: function
-ms.prod: windows-hardware
-ms.technology: windows-devices
 tech.root: sensors
 ms.keywords: CollectionsListGetMarshalledSizeWithoutSerialization
 req.header: sensorsutils.h

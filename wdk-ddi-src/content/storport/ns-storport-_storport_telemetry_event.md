@@ -6,11 +6,8 @@ description: The STORPORT_TELEMETRY_EVENT structure describes the miniport telem
 old-location: storage\storport_telemetry_event.htm
 tech.root: storage
 ms.assetid: 50A3EB6D-C485-4C04-8E88-9BD7D7ED0A62
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PSTORPORT_TELEMETRY_EVENT, PSTORPORT_TELEMETRY_EVENT, PSTORPORT_TELEMETRY_EVENT structure pointer [Storage Devices], STORPORT_TELEMETRY_EVENT, STORPORT_TELEMETRY_EVENT structure [Storage Devices], _STORPORT_TELEMETRY_EVENT, storage.storport_telemetry_event, storport/PSTORPORT_TELEMETRY_EVENT, storport/STORPORT_TELEMETRY_EVENT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: storport.h
 req.include-header: Storport.h

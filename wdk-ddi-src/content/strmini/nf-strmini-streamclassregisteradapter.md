@@ -6,11 +6,8 @@ description: The StreamClassRegisterAdapter routine registers a stream class min
 old-location: stream\streamclassregisterminidriver.htm
 tech.root: stream
 ms.assetid: 231a0e11-2968-4a51-9a51-ae98a483f85b
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: StreamClassRegisterAdapter, StreamClassRegisterAdapter function [Streaming Media Devices], StreamClassRegisterMinidriver, strclass-routines_5336cc3e-8abd-4943-a191-12dbf9d25b85.xml, stream.streamclassregisterminidriver, strmini/StreamClassRegisterAdapter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: strmini.h
 req.include-header: Strmini.h

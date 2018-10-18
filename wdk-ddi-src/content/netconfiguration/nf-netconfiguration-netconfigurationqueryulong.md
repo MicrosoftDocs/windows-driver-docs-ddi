@@ -5,7 +5,6 @@ author: windows-driver-content
 description: Retrieves the specified unsigned long word (REG_DWORD) data from the adapter configuration object and copies the data to a specified location.
 tech.root: netvista
 ms.assetid: c7ded93c-b025-4b23-b999-fe5d2ed0d75b
-ms.author: windowsdriverdev
 ms.date: 02/07/2018
 ms.topic: function
 ms.keywords: NetConfigurationQueryUlong

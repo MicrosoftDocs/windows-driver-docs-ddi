@@ -6,11 +6,8 @@ description: The wiasReadPropLong function retrieves a long integer property val
 old-location: image\wiasreadproplong.htm
 tech.root: image
 ms.assetid: 77fc58fd-1bcf-4a68-b083-fa2bfa3ac312
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: image.wiasreadproplong, wiamdef/wiasReadPropLong, wiasFncs_a60071a3-6ae9-431d-8d8b-a964547e9770.xml, wiasReadPropLong, wiasReadPropLong function [Imaging Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiamdef.h
 req.include-header: Wiamdef.h

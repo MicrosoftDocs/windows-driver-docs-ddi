@@ -6,11 +6,8 @@ description: The IPortWaveCyclic interface is the WaveCyclic port driver's prima
 old-location: audio\iportwavecyclic.htm
 tech.root: audio
 ms.assetid: de241c4c-2012-4d57-b069-d169b1e0aec3
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: IPortWaveCyclic, IPortWaveCyclic interface [Audio Devices], IPortWaveCyclic interface [Audio Devices],described, audio.iportwavecyclic, audmp-routines_079bd398-d9f2-4a35-9ee0-6ced8fecdeb4.xml, portcls/IPortWaveCyclic
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: portcls.h
 req.include-header: 

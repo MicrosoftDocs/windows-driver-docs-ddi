@@ -6,11 +6,8 @@ description: A callback routine implemented by a driver to notify the caller whe
 old-location: kernel\pcreate_process_notify_routine_ex.htm
 tech.root: kernel
 ms.assetid: 071BD24F-AA58-4A39-8059-CEF6D7105DB6
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: PCREATE_PROCESS_NOTIFY_ROUTINE_EX, PCREATE_PROCESS_NOTIFY_ROUTINE_EX callback, SetCreateProcessNotifyRoutineEx, SetCreateProcessNotifyRoutineEx callback function [Kernel-Mode Driver Architecture], kernel.pcreate_process_notify_routine_ex, ntddk/SetCreateProcessNotifyRoutineEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ntddk.h
 req.include-header: Ntddk.h
@@ -51,7 +48,7 @@ req.typenames:
 
 
 A callback routine implemented by a driver to notify the caller when a process is created or exits.
-<div class="alert"><b>Warning</b>  The actions that  you can perform in this routine are restricted for safe calls. See <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/windows-kernel-mode-process-and-thread-manager#best">Best Practices</a>. </div><div> </div>
+<div class="alert"><b>Warning</b>  The actions that  you can perform in this routine are restricted for safe calls. See <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/windows-kernel-mode-process-and-thread-manager#best">Best Practices</a>. </div><div> </div>
 
 ## -parameters
 

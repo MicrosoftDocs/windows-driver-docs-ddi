@@ -6,11 +6,8 @@ description: The WdfDeviceAssignProperty method modifies the current setting of 
 old-location: wdf\wdfdeviceassignproperty.htm
 tech.root: wdf
 ms.assetid: 5110C452-53E6-401A-9D14-EBD95D3F8BE2
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WdfDeviceAssignProperty, WdfDeviceAssignProperty method, wdf.wdfdeviceassignproperty, wdfdevice/WdfDeviceAssignProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h

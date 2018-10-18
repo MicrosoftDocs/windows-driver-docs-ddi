@@ -4,11 +4,8 @@ title: D3D12DDI_RAYTRACING_GEOMETRY_DESC_0054
 author: windows-driver-content
 description: Describes a ray tracing geometry.
 ms.assetid: a1950a04-049f-41c2-99ab-46d44a0b1cd6
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_RAYTRACING_GEOMETRY_DESC_0054, D3D12DDI_RAYTRACING_GEOMETRY_DESC_0054, 
 req.header: d3d12umddi.h
 req.include-header:

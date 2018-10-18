@@ -6,11 +6,8 @@ description: The ZwSetInformationFile routine changes various kinds of informati
 old-location: kernel\zwsetinformationfile.htm
 tech.root: kernel
 ms.assetid: a6f92495-89f0-4728-b6d8-083c55bc3206
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: NtSetInformationFile, ZwSetInformationFile, ZwSetInformationFile routine [Kernel-Mode Driver Architecture], k111_91ac021a-37b3-4d2d-9369-c80659e0dcd7.xml, kernel.zwsetinformationfile, wdm/NtSetInformationFile, wdm/ZwSetInformationFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

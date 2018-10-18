@@ -6,11 +6,8 @@ description: The DebugCreateEx function creates a new client object and returns 
 old-location: debugger\debugcreateex.htm
 tech.root: debugger
 ms.assetid: 851A9461-E085-4BDA-BB69-603F6932BFA6
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: DebugCreateEx, DebugCreateEx function [Windows Debugging], dbgeng/DebugCreateEx, debugger.debugcreateex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

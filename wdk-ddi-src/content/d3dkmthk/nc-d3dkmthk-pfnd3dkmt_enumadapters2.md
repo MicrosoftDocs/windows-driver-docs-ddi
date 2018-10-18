@@ -4,11 +4,8 @@ title: PFND3DKMT_ENUMADAPTERS2
 author: windows-driver-content
 description: The PFND3DKMT_ENUMADAPTERS2 callback function enumerates all graphics adapters on the system.
 ms.assetid: 06879518-8a38-4b70-ae9c-25fb4ed35c70
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3DKMT_ENUMADAPTERS2 callback function enumerates all graphics adapters o
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_ENUMADAPTERS2 Pfnd3dkmtEnumadapters2; 

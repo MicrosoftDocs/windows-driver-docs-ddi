@@ -4,11 +4,8 @@ title: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_CLEAR_PARAMETERS
 author: windows-driver-content
 description: Parameters needed to specify whether the application has a dependency on the resource being cleared, to a specific color.
 ms.assetid: c8a75393-027c-4db8-a20d-d8671c4d22e8
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_CLEAR_PARAMETERS, D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_CLEAR_PARAMETERS, 
 req.header: d3d12umddi.h
 req.include-header:

@@ -6,11 +6,8 @@ description: The GetRawArgStr method returns a string that represents the argume
 old-location: debugger\getrawargstr.htm
 tech.root: debugger
 ms.assetid: 677b56ee-3758-4f47-9f8e-fc8878d00136
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: EngExtCpp_Ref_1072b281-ece3-4641-93e8-60866c1e3ef4.xml, ExtExtension class [Windows Debugging],GetRawArgStr method, ExtExtension.GetRawArgStr, ExtExtension::GetRawArgStr, GetRawArgStr, GetRawArgStr method [Windows Debugging], GetRawArgStr method [Windows Debugging],ExtExtension class, debugger.getrawargstr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

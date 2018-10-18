@@ -6,11 +6,8 @@ description: The PO_FX_PERF_STATE_TYPE enumeration contains values that describe
 old-location: kernel\po_fx_perf_state_type.htm
 tech.root: kernel
 ms.assetid: E3BFBF03-8130-4EFF-95F4-030107AF4D75
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PPO_FX_PERF_STATE_TYPE, PO_FX_PERF_STATE_TYPE, PO_FX_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], PPO_FX_PERF_STATE_TYPE, PPO_FX_PERF_STATE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], PoFxPerfStateTypeDiscrete, PoFxPerfStateTypeMaximum, PoFxPerfStateTypeRange, _PO_FX_PERF_STATE_TYPE, kernel.po_fx_perf_state_type, wdm/PO_FX_PERF_STATE_TYPE, wdm/PPO_FX_PERF_STATE_TYPE, wdm/PoFxPerfStateTypeDiscrete, wdm/PoFxPerfStateTypeMaximum, wdm/PoFxPerfStateTypeRange"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wudfwdm.h
 req.include-header: Wudfwdm.h

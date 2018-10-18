@@ -4,7 +4,6 @@ title: GET_UNIDRV_PRIVATE_DEVMODE_SIZE macro
 author: windows-driver-content
 description: 
 ms.assetid: c77fb1c5-d713-4d66-ae3c-27609731314c
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: macro
 ms.keywords: GET_UNIDRV_PRIVATE_DEVMODE_SIZE

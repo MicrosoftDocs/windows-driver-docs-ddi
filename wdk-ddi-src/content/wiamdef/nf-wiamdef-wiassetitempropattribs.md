@@ -6,11 +6,8 @@ description: The wiasSetItemPropAttribs function sets the access flags and valid
 old-location: image\wiassetitempropattribs.htm
 tech.root: image
 ms.assetid: 354d09c3-8db4-4af9-b077-8e3bcda7a6f2
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: image.wiassetitempropattribs, wiamdef/wiasSetItemPropAttribs, wiasFncs_f3e1e830-6569-4b0f-8e0a-deac0a95022b.xml, wiasSetItemPropAttribs, wiasSetItemPropAttribs function [Imaging Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiamdef.h
 req.include-header: Wiamdef.h

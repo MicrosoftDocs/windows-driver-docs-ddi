@@ -4,7 +4,6 @@ title: D3DKMTCreateSwapChain function
 author: windows-driver-content
 description: Creates swap chain resources.
 ms.assetid: 0d40686e-8a64-4bb3-afa0-83719a597e61
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: D3DKMTCreateSwapChain

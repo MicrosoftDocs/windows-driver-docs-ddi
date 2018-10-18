@@ -4,11 +4,8 @@ title: PFND3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
 author: windows-driver-content
 description: Implemented by the client driver to submit a signal to the hardware queue.
 ms.assetid: 4d3b171d-10f1-43a7-ba73-3864d9a590a9
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to submit a signal to the hardware queue.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE Pfnd3dkmtSubmitsignalsyncobjectstohwqueue;

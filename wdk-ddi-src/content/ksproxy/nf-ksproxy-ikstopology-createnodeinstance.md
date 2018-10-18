@@ -6,11 +6,8 @@ description: The CreateNodeInstance method requests a KS filter object to open a
 old-location: stream\ikstopology_createnodeinstance.htm
 tech.root: stream
 ms.assetid: 882b47c2-8fbe-4de0-8ef3-206faaf1e990
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: CreateNodeInstance, CreateNodeInstance method [Streaming Media Devices], CreateNodeInstance method [Streaming Media Devices],IKsTopology interface, IKsTopology interface [Streaming Media Devices],CreateNodeInstance method, IKsTopology.CreateNodeInstance, IKsTopology::CreateNodeInstance, ksproxy/IKsTopology::CreateNodeInstance, ksproxy_91ff533c-4aa9-43db-9165-1c0c6f395393.xml, stream.ikstopology_createnodeinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ksproxy.h
 req.include-header: Ksproxy.h

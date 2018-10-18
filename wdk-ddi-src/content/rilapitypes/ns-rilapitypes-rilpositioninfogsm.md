@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilpositioninfogsm_2.htm
 tech.root: netvista
 ms.assetid: 6f98e5c7-41f5-434f-a18b-8615494aa220
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*LPRILPOSITIONINFOGSM, RILPOSITIONINFOGSM, RILPOSITIONINFOGSM structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfogsm_2, rilapitypes/RILPOSITIONINFOGSM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
 req.include-header:
@@ -57,7 +54,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```cpp
 typedef struct _RILPOSITIONINFOGSM {
   DWORD  dwParams;
   DWORD  dwMobileCountryCode;
@@ -69,7 +66,7 @@ typedef struct _RILPOSITIONINFOGSM {
   DWORD  dwBaseStationID;
   DWORD  dwRxLevel;
 } RILPOSITIONINFOGSM, RILPOSITIONINFOGSM;
-````
+```
 
 
 ## -struct-fields

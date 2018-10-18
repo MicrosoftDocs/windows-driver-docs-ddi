@@ -4,11 +4,8 @@ title: D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW
 author: windows-driver-content
 description: Arguments used to create a depth stencil view.
 ms.assetid: 4ea81c63-03b8-4966-9dbf-8eee2af122d2
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW, D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW, 
 req.header: d3d12umddi.h
 req.include-header:

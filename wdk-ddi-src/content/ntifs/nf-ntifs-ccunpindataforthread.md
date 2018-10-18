@@ -6,11 +6,8 @@ description: The CcUnpinDataForThread routine releases pages of a cached file wh
 old-location: ifsk\ccunpindataforthread.htm
 tech.root: ifsk
 ms.assetid: 9c29689c-ce5e-4b29-a17b-32d96f8f87e7
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: CcUnpinDataForThread, CcUnpinDataForThread routine [Installable File System Drivers], ccref_71102887-ef3b-44b1-8b1f-e2b07dea3392.xml, ifsk.ccunpindataforthread, ntifs/CcUnpinDataForThread
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

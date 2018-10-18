@@ -6,11 +6,8 @@ description: Gets the server name for the current process.
 old-location: debugger\idebugsystemobjects4_getcurrentsystemservernamewide.htm
 tech.root: debugger
 ms.assetid: 44BAB9BF-76E6-42C2-B8DD-EB1A960C429C
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetCurrentSystemServerNameWide, GetCurrentSystemServerNameWide method [Windows Debugging], GetCurrentSystemServerNameWide method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects4 interface [Windows Debugging],GetCurrentSystemServerNameWide method, IDebugSystemObjects4.GetCurrentSystemServerNameWide, IDebugSystemObjects4::GetCurrentSystemServerNameWide, dbgeng/IDebugSystemObjects4::GetCurrentSystemServerNameWide, debugger.idebugsystemobjects4_getcurrentsystemservernamewide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

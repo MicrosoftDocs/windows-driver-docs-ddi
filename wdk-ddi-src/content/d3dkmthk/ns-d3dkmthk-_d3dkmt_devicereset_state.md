@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMT_DEVICERESET_STATE structure identifies reset status.
 old-location: display\d3dkmt_devicereset_state.htm
 ms.assetid: c2037d77-8745-4307-ac12-54f62f20c2d9
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DKMT_DEVICERESET_STATE, D3DKMT_DEVICERESET_STATE structure [Display Devices], OpenGL_Structs_03e42382-c472-4f0b-9183-a1b6630f64cf.xml, _D3DKMT_DEVICERESET_STATE, d3dkmthk/D3DKMT_DEVICERESET_STATE, display.d3dkmt_devicereset_state
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

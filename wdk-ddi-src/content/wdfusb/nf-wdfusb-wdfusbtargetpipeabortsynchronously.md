@@ -6,11 +6,8 @@ description: The WdfUsbTargetPipeAbortSynchronously method builds an abort reque
 old-location: wdf\wdfusbtargetpipeabortsynchronously.htm
 tech.root: wdf
 ms.assetid: 57d0969f-bc30-4235-93a5-dda51e15b4fc
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFUsbRef_faea6716-3bb7-4f1f-93ce-36fe26bc7875.xml, WdfUsbTargetPipeAbortSynchronously, WdfUsbTargetPipeAbortSynchronously method, kmdf.wdfusbtargetpipeabortsynchronously, wdf.wdfusbtargetpipeabortsynchronously, wdfusb/WdfUsbTargetPipeAbortSynchronously
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
@@ -184,7 +181,7 @@ If you call <a href="https://msdn.microsoft.com/library/windows/hardware/ff54995
 </ul>
 Your driver can specify a non-<b>NULL</b> <i>RequestOptions</i> parameter, whether the driver provides a non-<b>NULL</b> or a <b>NULL</b> <i>Request</i> parameter. You can, for example, use the <i>RequestOptions</i> parameter to specify a time-out value. 
 
-For information about obtaining status information after an I/O request completes, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Obtaining Completion Information</a>.
+For information about obtaining status information after an I/O request completes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-i-o-requests">Obtaining Completion Information</a>.
 
 For more information about the <b>WdfUsbTargetPipeAbortSynchronously</b> method and USB I/O targets, see <a href="https://msdn.microsoft.com/195c0f4b-7f33-428a-8de7-32643ad854c6">USB I/O Targets</a>.
 

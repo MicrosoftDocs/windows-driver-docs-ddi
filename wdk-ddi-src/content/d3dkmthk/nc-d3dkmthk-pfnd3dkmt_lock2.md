@@ -4,11 +4,8 @@ title: PFND3DKMT_LOCK2
 author: windows-driver-content
 description: Pfnd3dkmtLock2 locks an entire allocation or specific pages within an allocation.
 ms.assetid: d06f98d8-dec7-4330-b3de-845205cf1ca3
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Pfnd3dkmtLock2 locks an entire allocation or specific pages within an allocation
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_LOCK2 Pfnd3dkmtLock2; 

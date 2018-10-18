@@ -6,11 +6,8 @@ description: A provider module's ProviderDetachClient callback function detaches
 old-location: netvista\providerdetachclient.htm
 tech.root: netvista
 ms.assetid: 0f29bf89-856c-4019-a966-3e666a7fc78d
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NPI_PROVIDER_DETACH_CLIENT_FN, NPI_PROVIDER_DETACH_CLIENT_FN callback, PNPI_PROVIDER_DETACH_CLIENT_FN, PNPI_PROVIDER_DETACH_CLIENT_FN callback function [Network Drivers Starting with Windows Vista], ProviderDetachClient, ProviderDetachClient callback function [Network Drivers Starting with Windows Vista], netioddk/ProviderDetachClient, netvista.providerdetachclient, nmrref_04fc189d-40e1-4cc5-87ea-dda2664f7e63.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: netioddk.h
 req.include-header: Wsk.h
@@ -121,7 +118,7 @@ The NMR calls a provider module's
 After its 
     <i>ProviderDetachClient</i> callback function has been called, a provider module should not make any more
     calls to any of the client module's 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions. If there
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions. If there
     are no in-progress calls to any of the client module's 
     NPI callback functions when the
     provider module's 
@@ -129,7 +126,7 @@ After its
     <i>ProviderDetachClient</i> callback function returns STATUS_SUCCESS.
 
 If there are in-progress calls to one or more of the client module's 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions when the
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions when the
     provider module's 
     <i>ProviderDetachClient</i> callback function is called, the provider module's 
     <i>ProviderDetachClient</i> callback function returns STATUS_PENDING. In this situation, the provider

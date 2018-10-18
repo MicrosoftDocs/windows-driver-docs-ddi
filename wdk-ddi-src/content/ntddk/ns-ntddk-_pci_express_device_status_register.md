@@ -6,11 +6,8 @@ description: The PCI_EXPRESS_DEVICE_STATUS_REGISTER structure describes a PCI Ex
 old-location: pci\pci_express_device_status_register.htm
 tech.root: PCI
 ms.assetid: a4c92364-59d4-442c-879b-fba770d8d612
-ms.author: windowsdriverdev
 ms.date: 2/24/2018
 ms.keywords: "*PPCI_EXPRESS_DEVICE_STATUS_REGISTER, PCI.pci_express_device_status_register, PCI_EXPRESS_DEVICE_STATUS_REGISTER, PCI_EXPRESS_DEVICE_STATUS_REGISTER union [Buses], PPCI_EXPRESS_DEVICE_STATUS_REGISTER, PPCI_EXPRESS_DEVICE_STATUS_REGISTER union pointer [Buses], _PCI_EXPRESS_DEVICE_STATUS_REGISTER, ntddk/PCI_EXPRESS_DEVICE_STATUS_REGISTER, ntddk/PPCI_EXPRESS_DEVICE_STATUS_REGISTER, pci_struct_90e0cf73-2c43-444d-bdaa-77fd00d483a7.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddk.h
 req.include-header: Ntddk.h, Miniport.h
@@ -56,7 +53,7 @@ The PCI_EXPRESS_DEVICE_STATUS_REGISTER structure describes a PCI Express (PCIe) 
 ## -syntax
 
 
-````
+```cpp
 typedef union _PCI_EXPRESS_DEVICE_STATUS_REGISTER {
   struct {
     USHORT CorrectableErrorDetected  :1;
@@ -69,7 +66,7 @@ typedef union _PCI_EXPRESS_DEVICE_STATUS_REGISTER {
   };
   USHORT AsUSHORT;
 } PCI_EXPRESS_DEVICE_STATUS_REGISTER, *PPCI_EXPRESS_DEVICE_STATUS_REGISTER;
-````
+```
 
 
 ## -struct-fields

@@ -6,11 +6,8 @@ description: The VideoPortReadRegisterUchar function reads a byte from a mapped 
 old-location: display\videoportreadregisteruchar.htm
 tech.root: display
 ms.assetid: 53270599-7e8e-491a-8d7b-05f550f100d3
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: VideoPortReadRegisterUchar, VideoPortReadRegisterUchar function [Display Devices], VideoPort_Functions_c8fea131-5f84-4f77-ab18-2ca8de12e598.xml, display.videoportreadregisteruchar, video/VideoPortReadRegisterUchar
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: video.h
 req.include-header: Video.h

@@ -6,11 +6,8 @@ description: The KeGetProcessorIndexFromNumber routine converts a group number a
 old-location: kernel\kegetprocessorindexfromnumber.htm
 tech.root: kernel
 ms.assetid: c7d8ca52-a1e1-4f5f-9ffe-d64cec47eac7
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: KeGetProcessorIndexFromNumber, KeGetProcessorIndexFromNumber routine [Kernel-Mode Driver Architecture], k105_57b362f6-81dc-4630-a940-0d91577bf886.xml, kernel.kegetprocessorindexfromnumber, wdm/KeGetProcessorIndexFromNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

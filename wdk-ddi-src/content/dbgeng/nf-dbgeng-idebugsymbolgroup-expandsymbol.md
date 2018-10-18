@@ -6,11 +6,8 @@ description: The ExpandSymbol method adds or removes the children of a symbol fr
 old-location: debugger\expandsymbol.htm
 tech.root: debugger
 ms.assetid: 314fdeea-10be-4cb3-8bd7-9b1b4b12e534
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: ComOther_894f45d2-9f7b-4d8d-85e3-9240d020ebbe.xml, ExpandSymbol, ExpandSymbol method [Windows Debugging], ExpandSymbol method [Windows Debugging],IDebugSymbolGroup interface, ExpandSymbol method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup interface [Windows Debugging],ExpandSymbol method, IDebugSymbolGroup.ExpandSymbol, IDebugSymbolGroup2 interface [Windows Debugging],ExpandSymbol method, IDebugSymbolGroup2::ExpandSymbol, IDebugSymbolGroup::ExpandSymbol, dbgeng/IDebugSymbolGroup2::ExpandSymbol, dbgeng/IDebugSymbolGroup::ExpandSymbol, debugger.expandsymbol
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

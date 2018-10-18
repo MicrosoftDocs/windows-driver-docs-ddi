@@ -4,11 +4,8 @@ title: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0043
 author: windows-driver-content
 description: The command list functions for video processing.
 ms.assetid: 8a0bc132-117d-47cf-8d7b-bd16d2280304
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0043, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0043,
 req.header: d3d12umddi.h
 req.include-header:
@@ -47,7 +44,7 @@ The command list functions for video processing.
 ## -syntax
 
 
-````
+```cpp
 typedef struct D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0043
 {
     PFND3D12DDI_CLOSECOMMANDLIST                            pfnCloseCommandList;
@@ -63,7 +60,7 @@ typedef struct D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0043
     PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030            pfnSetProtectedResourceSession;
     PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032                   pfnWriteBufferImmediate;
 } D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0043;
-````
+```
 
 ## -struct-fields
 

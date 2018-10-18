@@ -6,11 +6,8 @@ description: Writes to the debug output stream.
 old-location: debugger\idebugoutputstream_write.htm
 tech.root: debugger
 ms.assetid: CC609DA8-9778-4AFC-9205-5F68AF15927C
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugOutputStream interface [Windows Debugging],Write method, IDebugOutputStream.Write, IDebugOutputStream::Write, Write, Write method [Windows Debugging], Write method [Windows Debugging],IDebugOutputStream interface, dbgeng/IDebugOutputStream::Write, debugger.idebugoutputstream_write
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: 

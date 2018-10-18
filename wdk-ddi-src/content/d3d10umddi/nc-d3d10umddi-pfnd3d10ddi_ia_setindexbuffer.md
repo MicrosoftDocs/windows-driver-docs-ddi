@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The IaSetIndexBuffer function sets an index buffer for an input assembler.
 old-location: display\iasetindexbuffer.htm
 ms.assetid: 042ebb72-b794-4cb8-9d81-bd52a785f1e0
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: IaSetIndexBuffer, IaSetIndexBuffer callback function [Display Devices], PFND3D10DDI_IA_SETINDEXBUFFER, PFND3D10DDI_IA_SETINDEXBUFFER callback, UserModeDisplayDriverDx10_Functions_5b51e721-283c-447e-8170-17af90a29081.xml, d3d10umddi/IaSetIndexBuffer, display.iasetindexbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

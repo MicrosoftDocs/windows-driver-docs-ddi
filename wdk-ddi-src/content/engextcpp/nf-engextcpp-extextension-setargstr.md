@@ -6,11 +6,8 @@ description: The SetArgStr method sets a named string argument for the current e
 old-location: debugger\setargstr.htm
 tech.root: debugger
 ms.assetid: a133cc3d-7d28-436a-b2f7-0f6171ed379f
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: EngExtCpp_Ref_768f449e-fa81-4759-a16d-a8dfe1d3bf61.xml, ExtExtension class [Windows Debugging],SetArgStr method, ExtExtension.SetArgStr, ExtExtension::SetArgStr, SetArgStr, SetArgStr method [Windows Debugging], SetArgStr method [Windows Debugging],ExtExtension class, debugger.setargstr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

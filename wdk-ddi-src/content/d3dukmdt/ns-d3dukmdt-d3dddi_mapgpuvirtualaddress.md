@@ -6,11 +6,8 @@ description: D3DDDI_MAPGPUVIRTUALADDRESS is used with pfnMapGpuVirtualAddressCb 
 old-location: display\d3dddi_mapgpuvirtualaddress.htm
 tech.root: display
 ms.assetid: A23F5847-0DA9-4F3F-B1C1-DACCA35DBC53
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DDDI_MAPGPUVIRTUALADDRESS, D3DDDI_MAPGPUVIRTUALADDRESS structure [Display Devices], Execute, NoAccess, Write, Zero, d3dukmdt/D3DDDI_MAPGPUVIRTUALADDRESS, display.d3dddi_mapgpuvirtualaddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h

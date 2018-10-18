@@ -6,11 +6,8 @@ description: A port monitor server DLL's XcvDataPort function receives informati
 old-location: print\xcvdataport.htm
 tech.root: print
 ms.assetid: 2d0e3509-27d9-439f-9d47-e0e500e8907f
-ms.author: windowsdriverdev
 ms.date: 2/2/2018
 ms.keywords: print.xcvdataport, winsplp/XcvDataPort, XcvDataPort, spoolfnc_09b26a0a-26ad-43c9-995a-99cd4fb4a726.xml, XcvDataPort function [Print Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsplp.h
 req.include-header: Winsplp.h
@@ -57,7 +54,7 @@ A port monitor server DLL's <b>XcvDataPort</b> function receives information fro
 ## -syntax
 
 
-````
+```cpp
 DWORD XcvDataPort(
   _In_  HANDLE  hXcv,
   _In_  LPCWSTR pszDataName,
@@ -67,7 +64,7 @@ DWORD XcvDataPort(
         DWORD   cbOutputData,
   _Out_ PDWORD  pcbOutputNeeded
 );
-````
+```
 
 
 ## -parameters

@@ -6,11 +6,8 @@ description: A protocol or intermediate driver calls the NdisQueryOffloadState f
 old-location: netvista\ndisqueryoffload.htm
 tech.root: netvista
 ms.assetid: 97d30ba7-b67c-460b-ba80-171687495e27
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisQueryOffloadState, NdisQueryOffloadState function [Network Drivers Starting with Windows Vista], ndis/NdisQueryOffloadState, netvista.ndisqueryoffload, tcp_chim_ndis_func_9075e6da-2950-4643-b626-36b4a9ce5a33.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
@@ -95,7 +92,7 @@ None
 An intermediate driver calls the 
     <b>NdisQueryOffloadState</b> function to propagate a query offload operation that was initiated by the host
     stack. For more information, see 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff563771">Propagating
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563771">Propagating
     State-Manipulation Operations</a>.
 
 From the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure that was passed to its 

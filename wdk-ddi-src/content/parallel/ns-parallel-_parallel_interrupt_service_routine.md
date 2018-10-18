@@ -6,11 +6,8 @@ description: The PARALLEL_INTERRUPT_SERVICE_ROUTINE structure specifies interrup
 old-location: parports\parallel_interrupt_service_routine.htm
 tech.root: parports
 ms.assetid: dff10a68-f7c4-4f7a-a3f7-3697fc88992a
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PPARALLEL_INTERRUPT_SERVICE_ROUTINE, PARALLEL_INTERRUPT_SERVICE_ROUTINE, PARALLEL_INTERRUPT_SERVICE_ROUTINE structure [Parallel Ports], PPARALLEL_INTERRUPT_SERVICE_ROUTINE, PPARALLEL_INTERRUPT_SERVICE_ROUTINE structure pointer [Parallel Ports], _PARALLEL_INTERRUPT_SERVICE_ROUTINE, cisspd_db43e8c1-06d8-4a00-8f66-896987a45b83.xml, parallel/PARALLEL_INTERRUPT_SERVICE_ROUTINE, parallel/PPARALLEL_INTERRUPT_SERVICE_ROUTINE, parports.parallel_interrupt_service_routine"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: parallel.h
 req.include-header: Parallel.h
@@ -56,14 +53,14 @@ The PARALLEL_INTERRUPT_SERVICE_ROUTINE structure specifies interrupt services th
 ## -syntax
 
 
-````
+```cpp
 typedef struct _PARALLEL_INTERRUPT_SERVICE_ROUTINE {
   PKSERVICE_ROUTINE          InterruptServiceRoutine;
   PVOID                      InterruptServiceContext;
   PPARALLEL_DEFERRED_ROUTINE DeferredPortCheckRoutine;
   PVOID                      DeferredPortCheckContext;
 } PARALLEL_INTERRUPT_SERVICE_ROUTINE, *PPARALLEL_INTERRUPT_SERVICE_ROUTINE;
-````
+```
 
 
 ## -struct-fields

@@ -6,11 +6,8 @@ description: The FormatRequestForFlush method builds an I/O request for a flush 
 old-location: wdf\iwdfiotarget2_formatrequestforflush.htm
 tech.root: wdf
 ms.assetid: 28509e28-0e81-4531-947c-9ce452564682
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: FormatRequestForFlush, FormatRequestForFlush method, FormatRequestForFlush method,IWDFIoTarget2 interface, IWDFIoTarget2 interface,FormatRequestForFlush method, IWDFIoTarget2.FormatRequestForFlush, IWDFIoTarget2::FormatRequestForFlush, UMDFIoTargetObjectRef_985162ca-fae2-408e-b4df-59add8e4a760.xml, umdf.iwdfiotarget2_formatrequestforflush, wdf.iwdfiotarget2_formatrequestforflush, wudfddi/IWDFIoTarget2::FormatRequestForFlush
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>FormatRequestForFlush</b> method builds an I/O request for a flush operation but does not send the request to an I/O target.
 

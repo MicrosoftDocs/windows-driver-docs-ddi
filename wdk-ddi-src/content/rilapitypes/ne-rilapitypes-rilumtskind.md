@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilumtskind.htm
 tech.root: netvista
 ms.assetid: aedabb82-73d5-4953-bb7a-4ed526bff5a1
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RILUMTSKIND, RILUMTSKIND enumeration [Network Drivers Starting with Windows Vista], RIL_UMTSKIND_DC_HSPAPLUS, RIL_UMTSKIND_HSDPA, RIL_UMTSKIND_HSPAPLUS, RIL_UMTSKIND_HSPAPLUS_64QAM, RIL_UMTSKIND_HSUPA, RIL_UMTSKIND_MAX, netvista.rilumtskind, ntddrilapitypes/RILUMTSKIND, ntddrilapitypes/RIL_UMTSKIND_DC_HSPAPLUS, ntddrilapitypes/RIL_UMTSKIND_HSDPA, ntddrilapitypes/RIL_UMTSKIND_HSPAPLUS, ntddrilapitypes/RIL_UMTSKIND_HSPAPLUS_64QAM, ntddrilapitypes/RIL_UMTSKIND_HSUPA, ntddrilapitypes/RIL_UMTSKIND_MAX
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h

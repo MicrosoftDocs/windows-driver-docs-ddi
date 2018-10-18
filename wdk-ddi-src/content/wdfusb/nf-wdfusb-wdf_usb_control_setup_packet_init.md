@@ -6,11 +6,8 @@ description: The WDF_USB_CONTROL_SETUP_PACKET_INIT function initializes a WDF_US
 old-location: wdf\wdf_usb_control_setup_packet_init.htm
 tech.root: wdf
 ms.assetid: 4c17f679-6b01-4c6e-8dda-9aa43dc43dc6
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFUsbRef_1789fa32-1646-43f8-9673-c0d935b92a4f.xml, WDF_USB_CONTROL_SETUP_PACKET_INIT, WDF_USB_CONTROL_SETUP_PACKET_INIT function, kmdf.wdf_usb_control_setup_packet_init, wdf.wdf_usb_control_setup_packet_init, wdfusb/WDF_USB_CONTROL_SETUP_PACKET_INIT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

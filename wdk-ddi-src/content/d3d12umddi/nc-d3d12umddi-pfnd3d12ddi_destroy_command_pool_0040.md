@@ -4,11 +4,8 @@ title: PFND3D12DDI_DESTROY_COMMAND_POOL_0040
 author: windows-driver-content
 description: Implemented by the client driver to clean up command pool resources.
 ms.assetid: 3a43d9fa-07c8-441e-8d2f-d4354db225a9
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to clean up command pool resources.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROY_COMMAND_POOL_0040 Pfnd3d12ddiDestroyCommandPool0040;

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The EvtPacketQueueStart callback function is implemented by the client driver to start the data path for a packet queue.
 tech.root: netvista
 ms.assetid: 0B5CB7F0-C840-4138-8B22-4FE35120C7A5
-ms.author: windowsdriverdev
 ms.date: 07/17/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: netpacketqueue.h
 req.include-header:
 req.target-type: Universal

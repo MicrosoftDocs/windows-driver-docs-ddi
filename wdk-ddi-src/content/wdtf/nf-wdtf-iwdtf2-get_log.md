@@ -6,11 +6,8 @@ description: Gets the WDTF log object.
 old-location: dtf\iwdtf2_log.htm
 tech.root: dtf
 ms.assetid: 4c229367-bcdc-466f-ae38-f5c56ae4b840
-ms.author: windowsdriverdev
 ms.date: 4/4/2018
 ms.keywords: IWDTF2 interface [Windows Device Testing Framework],Log property, IWDTF2.Log, IWDTF2.get_Log, IWDTF2::Log, IWDTF2::get_Log, Log property [Windows Device Testing Framework], Log property [Windows Device Testing Framework],IWDTF2 interface, Microsoft.WDTF.IWDTF2.Log, Microsoft::WDTF::IWDTF2::Log, dtf.iwdtf2_log, get_Log, wdtf/IWDTF2::Log, wdtf/IWDTF2::get_Log
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtf.h
 req.include-header: 

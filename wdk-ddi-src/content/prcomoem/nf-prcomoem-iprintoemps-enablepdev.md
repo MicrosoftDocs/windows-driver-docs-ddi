@@ -6,11 +6,8 @@ description: The IPrintOemPS::EnablePDEV method allows a rendering plug-in for P
 old-location: print\iprintoemps_enablepdev.htm
 tech.root: print
 ms.assetid: f284e89f-463e-4d04-8018-5ce02786d921
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: EnablePDEV, EnablePDEV method [Print Devices], EnablePDEV method [Print Devices],IPrintOemPS interface, IPrintOemPS interface [Print Devices],EnablePDEV method, IPrintOemPS.EnablePDEV, IPrintOemPS::EnablePDEV, prcomoem/IPrintOemPS::EnablePDEV, print.iprintoemps_enablepdev, print_unidrv-pscript_rendering_0dc37946-9232-422e-99f0-df1776c3f0c8.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

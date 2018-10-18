@@ -4,11 +4,8 @@ title: PFND3D12DDI_CREATE_COMMAND_SIGNATURE_0001
 author: windows-driver-content
 description: Create a command signature.
 ms.assetid: 467a206c-9fe2-41c0-a264-05a80be53a6c
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Create a command signature.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATE_COMMAND_SIGNATURE_0001 Pfnd3d12ddiCreateCommandSignature0001; 

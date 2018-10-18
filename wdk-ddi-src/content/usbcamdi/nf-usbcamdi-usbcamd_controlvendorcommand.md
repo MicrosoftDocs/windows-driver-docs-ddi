@@ -6,11 +6,8 @@ description: The USBCAMD_ControlVendorCommand function sends vendor-specific com
 old-location: stream\usbcamd_controlvendorcommand.htm
 tech.root: stream
 ms.assetid: 3bd11885-2c33-4d4d-b9e8-8eff79eb9c61
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: USBCAMD_ControlVendorCommand, USBCAMD_ControlVendorCommand function [Streaming Media Devices], stream.usbcamd_controlvendorcommand, usbcamdi/USBCAMD_ControlVendorCommand, usbcmdpr_71f3fad0-03ef-4328-90cf-d556de6736f5.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h

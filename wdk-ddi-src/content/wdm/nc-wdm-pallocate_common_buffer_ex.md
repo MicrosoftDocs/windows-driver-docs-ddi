@@ -6,11 +6,8 @@ description: The AllocateCommonBufferEx routine allocates memory for a common bu
 old-location: kernel\allocatecommonbufferex.htm
 tech.root: kernel
 ms.assetid: F7456BD7-689C-4534-B6F0-028A5359A2E9
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: AllocateCommonBufferEx, AllocateCommonBufferEx callback function [Kernel-Mode Driver Architecture], PALLOCATE_COMMON_BUFFER_EX, PALLOCATE_COMMON_BUFFER_EX callback, kernel.allocatecommonbufferex, wdm/AllocateCommonBufferEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

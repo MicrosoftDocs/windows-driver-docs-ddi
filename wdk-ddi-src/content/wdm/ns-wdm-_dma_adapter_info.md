@@ -6,11 +6,8 @@ description: The DMA_ADAPTER_INFO structure is a container for a DMA_ADAPTER_INF
 old-location: kernel\dma_adapter_info.htm
 tech.root: kernel
 ms.assetid: 181C3421-85D1-457E-85A5-42C84AE41BD6
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PDMA_ADAPTER_INFO, DMA_ADAPTER_INFO, DMA_ADAPTER_INFO structure [Kernel-Mode Driver Architecture], PDMA_ADAPTER_INFO, PDMA_ADAPTER_INFO structure pointer [Kernel-Mode Driver Architecture], _DMA_ADAPTER_INFO, kernel.dma_adapter_info, wdm/DMA_ADAPTER_INFO, wdm/PDMA_ADAPTER_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

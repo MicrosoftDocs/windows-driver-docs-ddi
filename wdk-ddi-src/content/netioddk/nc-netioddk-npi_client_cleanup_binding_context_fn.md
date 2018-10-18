@@ -6,11 +6,8 @@ description: A client module's ClientCleanupBindingContext callback function per
 old-location: netvista\clientcleanupbindingcontext.htm
 tech.root: netvista
 ms.assetid: eebffed4-a2e0-4743-871b-f50f0cdda30d
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: ClientCleanupBindingContext, ClientCleanupBindingContext callback function [Network Drivers Starting with Windows Vista], NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN, NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN callback, PNPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN, PNPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN callback function [Network Drivers Starting with Windows Vista], netioddk/ClientCleanupBindingContext, netvista.clientcleanupbindingcontext, nmrref_75483511-e903-4f9d-bc78-29e823b22f8f.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: netioddk.h
 req.include-header: Wsk.h

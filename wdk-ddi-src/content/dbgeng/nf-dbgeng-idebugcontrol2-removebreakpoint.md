@@ -6,11 +6,8 @@ description: The RemoveBreakpoint method removes a breakpoint.
 old-location: debugger\removebreakpoint.htm
 tech.root: debugger
 ms.assetid: ce0f5e42-3f4e-48e1-9e73-96bca96e8e23
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugControl interface [Windows Debugging],RemoveBreakpoint method, IDebugControl2 interface [Windows Debugging],RemoveBreakpoint method, IDebugControl2.RemoveBreakpoint, IDebugControl2::RemoveBreakpoint, IDebugControl3 interface [Windows Debugging],RemoveBreakpoint method, IDebugControl3::RemoveBreakpoint, IDebugControl::RemoveBreakpoint, IDebugControl_431f31ce-38fb-4350-851b-49b103047943.xml, RemoveBreakpoint, RemoveBreakpoint method [Windows Debugging], RemoveBreakpoint method [Windows Debugging],IDebugControl interface, RemoveBreakpoint method [Windows Debugging],IDebugControl2 interface, RemoveBreakpoint method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::RemoveBreakpoint, dbgeng/IDebugControl3::RemoveBreakpoint, dbgeng/IDebugControl::RemoveBreakpoint, debugger.removebreakpoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

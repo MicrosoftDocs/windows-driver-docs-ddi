@@ -6,11 +6,8 @@ description: The ZwQuerySymbolicLinkObject routine returns a Unicode string that
 old-location: kernel\zwquerysymboliclinkobject.htm
 tech.root: kernel
 ms.assetid: 0294c840-2912-4137-886f-832e9f21bbea
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: NtQuerySymbolicLinkObject, ZwQuerySymbolicLinkObject, ZwQuerySymbolicLinkObject routine [Kernel-Mode Driver Architecture], k111_0909b6b6-fa4d-421f-b17f-8201a254990b.xml, kernel.zwquerysymboliclinkobject, wdm/NtQuerySymbolicLinkObject, wdm/ZwQuerySymbolicLinkObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

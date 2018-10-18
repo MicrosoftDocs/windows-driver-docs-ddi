@@ -6,11 +6,8 @@ description: Notifies the USB connector manager framework extension (UcmCx) with
 old-location: buses\ucmconnectorpdsourcecaps.htm
 tech.root: usbref
 ms.assetid: 7C52EE60-7903-42A7-B535-9B8ED7A4B021
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: UcmConnectorPdSourceCaps, UcmConnectorPdSourceCaps method [Buses], buses.ucmconnectorpdsourcecaps, ucmmanager/UcmConnectorPdSourceCaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h

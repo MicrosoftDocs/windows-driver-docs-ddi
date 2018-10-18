@@ -6,11 +6,8 @@ description: The IOCTL_BIOMETRIC_GET_ATTRIBUTES IOCTL returns a structure that c
 old-location: biometric\ioctl_biometric_get_attributes.htm
 tech.root: biometric
 ms.assetid: 7a855435-017e-4724-adb4-976403015a93
-ms.author: windowsdriverdev
 ms.date: 2/20/2018
 ms.keywords: IOCTL_BIOMETRIC_GET_ATTRIBUTES, IOCTL_BIOMETRIC_GET_ATTRIBUTES control, IOCTL_BIOMETRIC_GET_ATTRIBUTES control code [Biometric Devices], biometric.ioctl_biometric_get_attributes, biometric_ref_ee60223e-6d9a-4533-9449-b7a7463f835e.xml, winbio_ioctl/IOCTL_BIOMETRIC_GET_ATTRIBUTES
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: winbio_ioctl.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: This structure contains the fields necessary to carry out a IsochFr
 old-location: ieee\irb_req_isoch_free_resources.htm
 tech.root: IEEE
 ms.assetid: 28699952-FC15-46A2-96EC-F5F8BD2391D7
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: 1394/IRB_REQ_ISOCH_FREE_RESOURCES, IEEE.irb_req_isoch_free_resources, IRB_REQ_ISOCH_FREE_RESOURCES, IRB_REQ_ISOCH_FREE_RESOURCES structure [Buses], _IRB_REQ_ISOCH_FREE_RESOURCES
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 1394.h
 req.include-header: 

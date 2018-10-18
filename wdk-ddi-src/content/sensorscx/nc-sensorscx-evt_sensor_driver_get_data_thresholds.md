@@ -6,11 +6,8 @@ description: This callback function returns the thresholds that are associated w
 old-location: sensors\evtsensorgetdatathresholds.htm
 tech.root: sensors
 ms.assetid: 8D496490-2BB8-49A4-B575-101E61599A65
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: EVT_SENSOR_DRIVER_GET_DATA_THRESHOLDS, EVT_SENSOR_DRIVER_GET_DATA_THRESHOLDS callback, EvtSensorGetDataThresholds, EvtSensorGetDataThresholds callback function [Sensor Devices], sensors.evtsensorgetdatathresholds, sensorscx/EvtSensorGetDataThresholds
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sensorscx.h
 req.include-header: 

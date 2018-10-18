@@ -6,11 +6,8 @@ description:
 old-location: stream\bda_isdbcas_requestheader.htm
 tech.root: stream
 ms.assetid: E83111C1-5A46-4AB4-B54C-F8330943070D
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PBDA_ISDBCAS_REQUESTHEADER, BDA_ISDBCAS_REQUESTHEADER, BDA_ISDBCAS_REQUESTHEADER structure [Streaming Media Devices], PBDA_ISDBCAS_REQUESTHEADER, PBDA_ISDBCAS_REQUESTHEADER structure pointer [Streaming Media Devices], _BDA_ISDBCAS_REQUESTHEADER, bdatypes/BDA_ISDBCAS_REQUESTHEADER, bdatypes/PBDA_ISDBCAS_REQUESTHEADER, stream.bda_isdbcas_requestheader"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bdatypes.h
 req.include-header: 

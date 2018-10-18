@@ -6,11 +6,8 @@ description: Returns a collection of actions that support the interface - one IW
 old-location: dtf\iwdtftargets2_getinterfacesifexist.htm
 tech.root: dtf
 ms.assetid: 5ec2e981-87ee-4ebe-ae60-c5acae2c073e
-ms.author: windowsdriverdev
 ms.date: 4/4/2018
 ms.keywords: GetInterfacesIfExist, GetInterfacesIfExist method [Windows Device Testing Framework], GetInterfacesIfExist method [Windows Device Testing Framework],IWDTFTargets2 interface, IWDTFTargets2 interface [Windows Device Testing Framework],GetInterfacesIfExist method, IWDTFTargets2.GetInterfacesIfExist, IWDTFTargets2::GetInterfacesIfExist, Microsoft.WDTF.IWDTFTargets2.GetInterfacesIfExist, Microsoft::WDTF::IWDTFTargets2::GetInterfacesIfExist, dtf.iwdtftargets2_getinterfacesifexist, wdtf/IWDTFTargets2::GetInterfacesIfExist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtf.h
 req.include-header: 

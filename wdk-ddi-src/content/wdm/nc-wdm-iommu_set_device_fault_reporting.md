@@ -4,11 +4,8 @@ title: IOMMU_SET_DEVICE_FAULT_REPORTING
 author: windows-driver-content
 description: This routine sets the device fault reporting state to a device already attached to a domain.
 ms.assetid: 111049ce-9f18-4807-a6c2-5641b115a4b5
-ms.author: windowsdriverdev
 ms.date: 09/30/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ This routine sets the device fault reporting state to a device already attached 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 IOMMU_SET_DEVICE_FAULT_REPORTING IommuSetDeviceFaultReporting; 
@@ -82,7 +79,7 @@ NTSTATUS IommuSetDeviceFaultReporting
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

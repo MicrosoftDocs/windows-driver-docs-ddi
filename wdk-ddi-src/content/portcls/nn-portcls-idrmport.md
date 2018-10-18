@@ -6,11 +6,8 @@ description: The IDrmPort interface is used by a WaveCyclic or WavePci miniport 
 old-location: audio\idrmport.htm
 tech.root: audio
 ms.assetid: 3a4b9bf7-74cc-409f-9b63-db61d7c977cd
-ms.author: windowsdriverdev
 ms.date: 3/19/2018
 ms.keywords: IDrmPort, IDrmPort interface [Audio Devices], IDrmPort interface [Audio Devices], described, audio.idrmport, audmp-routines_c68e5cec-890e-48c8-8d1c-443b521e5477.xml, portcls/IDrmPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: portcls.h
 req.include-header:

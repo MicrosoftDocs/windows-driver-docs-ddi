@@ -6,11 +6,8 @@ description: The SetPseudoValues method sets the value of several pseudo-registe
 old-location: debugger\setpseudovalues.htm
 tech.root: debugger
 ms.assetid: 89bfe36a-6674-43b7-a889-24fe15771aea
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugRegisters2 interface [Windows Debugging],SetPseudoValues method, IDebugRegisters2.SetPseudoValues, IDebugRegisters2::SetPseudoValues, IDebugRegisters_db4bc070-c017-479f-b9ca-4b2abe513d7f.xml, SetPseudoValues, SetPseudoValues method [Windows Debugging], SetPseudoValues method [Windows Debugging],IDebugRegisters2 interface, dbgeng/IDebugRegisters2::SetPseudoValues, debugger.setpseudovalues
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: DbgEng.h

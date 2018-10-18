@@ -6,11 +6,8 @@ description: The SECURITY_IMPERSONATION_LEVEL enumeration type contains values t
 old-location: ifsk\security_impersonation_level.htm
 tech.root: ifsk
 ms.assetid: 6033b33f-74cd-4034-baff-a931b7add370
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: "*PSECURITY_IMPERSONATION_LEVEL, PSECURITY_IMPERSONATION_LEVEL, PSECURITY_IMPERSONATION_LEVEL enumeration pointer [Installable File System Drivers], SECURITY_IMPERSONATION_LEVEL, SECURITY_IMPERSONATION_LEVEL enumeration [Installable File System Drivers], SecurityAnonymous, SecurityDelegation, SecurityIdentification, SecurityImpersonation, _SECURITY_IMPERSONATION_LEVEL, ifsk.security_impersonation_level, securitystructures_d049c4aa-1df4-46b1-b789-01f04e939de2.xml, wdm/PSECURITY_IMPERSONATION_LEVEL, wdm/SECURITY_IMPERSONATION_LEVEL, wdm/SecurityAnonymous, wdm/SecurityDelegation, wdm/SecurityIdentification, wdm/SecurityImpersonation"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h

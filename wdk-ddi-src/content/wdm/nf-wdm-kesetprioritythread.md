@@ -6,11 +6,8 @@ description: The KeSetPriorityThread routine sets the run-time priority of a dri
 old-location: kernel\kesetprioritythread.htm
 tech.root: kernel
 ms.assetid: 400176a1-9192-424b-be37-9386cc3ffbb2
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: KeSetPriorityThread, KeSetPriorityThread routine [Kernel-Mode Driver Architecture], k105_b767dc2c-39ec-41de-8888-177d83de67c4.xml, kernel.kesetprioritythread, wdm/KeSetPriorityThread
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

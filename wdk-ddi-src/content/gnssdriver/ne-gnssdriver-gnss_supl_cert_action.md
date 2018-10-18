@@ -6,11 +6,8 @@ description: This enumeration indicates the action to take upon receipt of the S
 old-location: gnss\gnss_supl_cert_action.htm
 tech.root: gnss
 ms.assetid: DE51CB88-E761-40DC-B437-7572CD95FB4A
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: GNSS_SUPL_CERT_ACTION, GNSS_SUPL_CERT_ACTION enumeration [Sensor Devices], GNSS_Supl_Cert_Delete, GNSS_Supl_Cert_Inject, GNSS_Supl_Cert_Purge, gnss.gnss_supl_cert_action, gnssdriver/GNSS_SUPL_CERT_ACTION, gnssdriver/GNSS_Supl_Cert_Delete, gnssdriver/GNSS_Supl_Cert_Inject, gnssdriver/GNSS_Supl_Cert_Purge
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: gnssdriver.h
 req.include-header: 

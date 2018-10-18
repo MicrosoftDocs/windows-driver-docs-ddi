@@ -6,11 +6,8 @@ description: The HidP_GetSpecificButtonCaps routine returns a button capability 
 old-location: hid\hidp_getspecificbuttoncaps.htm
 tech.root: hid
 ms.assetid: 923693a2-cb46-4f74-bb1b-cd7bb07014e8
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: HidP_GetSpecificButtonCaps, HidP_GetSpecificButtonCaps routine [Human Input Devices], hid.hidp_getspecificbuttoncaps, hidfunc_dd31da1d-fb42-4ac9-a15e-4c6585785c20.xml, hidpi/HidP_GetSpecificButtonCaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hidpi.h
 req.include-header: Hidpi.h
@@ -165,7 +162,7 @@ See also <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac3020995
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
  
 
  

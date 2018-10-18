@@ -4,11 +4,8 @@ title: _D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA
 author: windows-driver-content
 description: Get pointer shape data.
 ms.assetid: 18d53057-6f91-407e-bd43-31711e645987
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA, D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA, 
 req.header: d3dkmthk.h
 req.include-header:

@@ -6,11 +6,8 @@ description: The ReleaseMapping method releases a mapping that was obtained by a
 old-location: audio\iportwavepcistream_releasemapping.htm
 tech.root: audio
 ms.assetid: c4464fba-cc23-47d2-87d6-82b3eba8ddbe
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: IPortWavePciStream interface [Audio Devices],ReleaseMapping method, IPortWavePciStream.ReleaseMapping, IPortWavePciStream::ReleaseMapping, ReleaseMapping, ReleaseMapping method [Audio Devices], ReleaseMapping method [Audio Devices],IPortWavePciStream interface, audio.iportwavepcistream_releasemapping, audmp-routines_a4e274f7-02f8-4775-854f-befdc7dc6f03.xml, portcls/IPortWavePciStream::ReleaseMapping
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: Portcls.h

@@ -6,11 +6,8 @@ description: The MmIsThisAnNtAsSystem routine is obsolete for Windows XP and lat
 old-location: kernel\mmisthisanntassystem.htm
 tech.root: kernel
 ms.assetid: e9daafb1-16ec-4ffe-b863-6f07c4b2a9b7
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: MmIsThisAnNtAsSystem, MmIsThisAnNtAsSystem routine [Kernel-Mode Driver Architecture], k106_3f6077c8-2ce9-4dce-b29e-afd262be1e80.xml, kernel.mmisthisanntassystem, ntddk/MmIsThisAnNtAsSystem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

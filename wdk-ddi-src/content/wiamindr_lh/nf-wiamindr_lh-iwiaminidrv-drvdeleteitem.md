@@ -6,11 +6,8 @@ description: The IWiaMiniDrv::drvDeleteItem method deletes the current driver it
 old-location: image\iwiaminidrv_drvdeleteitem.htm
 tech.root: image
 ms.assetid: 616a0edd-d769-411d-bc94-57ba18a00c4d
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvDeleteItem method, IWiaMiniDrv.drvDeleteItem, IWiaMiniDrv::drvDeleteItem, MiniDrv_7e3949ae-f170-4ccc-a139-fecaf2e97e41.xml, drvDeleteItem, drvDeleteItem method [Imaging Devices], drvDeleteItem method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvdeleteitem, wiamindr_lh/IWiaMiniDrv::drvDeleteItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h

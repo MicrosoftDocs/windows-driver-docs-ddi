@@ -6,11 +6,8 @@ description: The NdisMConfigMSIXTableEntry function performs configuration opera
 old-location: netvista\ndismconfigmsixtableentry.htm
 tech.root: netvista
 ms.assetid: 93f94a42-bffb-4e4d-a560-b0da5d7d0019
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisMConfigMSIXTableEntry, NdisMConfigMSIXTableEntry function [Network Drivers Starting with Windows Vista], ndis/NdisMConfigMSIXTableEntry, ndis_msix_ref_421b54e0-bc38-45d0-9eb8-cbc4e4570836.xml, netvista.ndismconfigmsixtableentry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -128,7 +125,7 @@ NDIS miniport drivers that support MSI-X call the
     <b>NdisMConfigMSIXTableEntry</b> to change the CPU affinity of MSI-X table entries at run time.
 
 <b>NdisMConfigMSIXTableEntry</b> is a wrapper around the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff558787">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff558787">
     GUID_MSIX_TABLE_CONFIG_INTERFACE</a> query. Miniport drivers can call 
     <b>NdisMConfigMSIXTableEntry</b> after NDIS calls the 
     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function and

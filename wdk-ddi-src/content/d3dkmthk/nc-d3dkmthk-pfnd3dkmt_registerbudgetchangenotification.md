@@ -4,11 +4,8 @@ title: PFND3DKMT_REGISTERBUDGETCHANGENOTIFICATION
 author: windows-driver-content
 description: The PFND3DKMT_REGISTERBUDGETCHANGENOTIFICATION callback function receives notifications from a graphics framework (such as OpenGL).
 ms.assetid: 687701f6-6188-4b9c-8011-51f2d9d1ebf5
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3DKMT_REGISTERBUDGETCHANGENOTIFICATION callback function receives notifi
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_REGISTERBUDGETCHANGENOTIFICATION Pfnd3dkmtRegisterbudgetchangenotification; 

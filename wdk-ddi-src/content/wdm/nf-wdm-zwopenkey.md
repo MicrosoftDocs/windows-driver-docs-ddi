@@ -6,11 +6,8 @@ description: The ZwOpenKey routine opens an existing registry key.
 old-location: kernel\zwopenkey.htm
 tech.root: kernel
 ms.assetid: e92f0297-8bfc-496d-a00b-e7b5711c7856
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: ZwOpenKey, ZwOpenKey routine [Kernel-Mode Driver Architecture], k111_8583b145-a6be-4e4f-8e46-ca7d48b8a07f.xml, kernel.zwopenkey, wdm/ZwOpenKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

@@ -6,11 +6,8 @@ description: Returns an MDL associated with the input data buffer of a SCSI requ
 old-location: storage\storportgetdatainbuffermdl.htm
 tech.root: storage
 ms.assetid: 9D41810A-7698-4462-802D-79EF793C9A9D
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: StorPortGetDataInBufferMdl, StorPortGetDataInBufferMdl routine [Storage Devices], storage.storportgetdatainbuffermdl, storport/StorPortGetDataInBufferMdl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

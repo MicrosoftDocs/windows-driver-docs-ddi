@@ -6,11 +6,8 @@ description: The parameters for a response to a Group Owner (GO) negotiation req
 old-location: netvista\dot11_send_go_negotiation_response_parameters.htm
 tech.root: netvista
 ms.assetid: F5EC240C-6438-477C-A5D3-B018B52AC4F0
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, netvista.dot11_send_go_negotiation_response_parameters, windot11/DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, windot11/PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Windot11.h
@@ -58,7 +55,7 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS {
   NDIS_OBJECT_HEADER              Header;
   DOT11_MAC_ADDRESS               PeerDeviceAddress;
@@ -75,7 +72,7 @@ typedef struct _DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS {
   ULONG                           uIEsOffset;
   ULONG                           uIEsLength;
 } DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, *PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS;
-````
+```
 
 
 ## -struct-fields

@@ -6,11 +6,8 @@ description: The SePrivilegeCheck routine determines whether a specified set of 
 old-location: ifsk\seprivilegecheck.htm
 tech.root: ifsk
 ms.assetid: 707ced39-4153-4a6e-b87d-7e4eb487e738
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: SePrivilegeCheck, SePrivilegeCheck routine [Installable File System Drivers], ifsk.seprivilegecheck, ntifs/SePrivilegeCheck, seref_45aa3a8c-26b9-4bb9-968a-5f7d4a12ca3a.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

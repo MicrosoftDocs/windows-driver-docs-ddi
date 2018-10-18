@@ -4,12 +4,9 @@ title: _D3DKMT_TRACKEDWORKLOADDEADLINETYPE
 author: windows-driver-content
 description: Specifies the tracked workload deadline type.
 ms.assetid: 7bf49b7e-0658-46c2-bc35-e5dcddb4f507
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: _D3DKMT_TRACKEDWORKLOADDEADLINETYPE, D3DKMT_TRACKEDWORKLOADDEADLINETYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

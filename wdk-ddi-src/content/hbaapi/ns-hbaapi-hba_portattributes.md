@@ -6,11 +6,8 @@ description: The structure is used by the HBA_GetPortAttributesByWWN fibre chann
 old-location: storage\hba_portattributes.htm
 tech.root: storage
 ms.assetid: 7628c68b-b851-4b41-a86b-aa54e7cd6ddf
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PHBA_PORTATTRIBUTES, HBA_PORTATTRIBUTES, HBA_PORTATTRIBUTES structure [Storage Devices], HBA_PortAttributes, HBA_PortAttributes structure [Storage Devices], PHBA_PORTATTRIBUTES, PHBA_PORTATTRIBUTES structure pointer [Storage Devices], hbaapi/HBA_PortAttributes, hbaapi/PHBA_PORTATTRIBUTES, storage.hba_portattributes, structs-Fibre_86dd88a9-06cc-4e24-a665-f4fa240795fb.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hbaapi.h
 req.include-header: Hbaapi.h

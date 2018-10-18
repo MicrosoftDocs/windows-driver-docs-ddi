@@ -6,11 +6,8 @@ description: The ISensorDriver::OnGetDataFields method retrieves current sensor 
 old-location: sensors\isensordriver_ongetdatafields.htm
 tech.root: sensors
 ms.assetid: a9233a0f-ac80-46be-9abe-7b87d25736f9
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: ISensorDriver interface [Sensor Devices],OnGetDataFields method, ISensorDriver.OnGetDataFields, ISensorDriver::OnGetDataFields, OnGetDataFields, OnGetDataFields method [Sensor Devices], OnGetDataFields method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_ongetdatafields, sensorsclassextension/ISensorDriver::OnGetDataFields
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsclassextension.h
 req.include-header: 

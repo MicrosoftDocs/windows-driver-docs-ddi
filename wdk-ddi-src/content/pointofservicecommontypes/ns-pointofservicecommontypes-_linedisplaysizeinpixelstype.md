@@ -6,11 +6,8 @@ description: This structure is not implemented.
 old-location: pos\linedisplaysizeinpixelstype.htm
 tech.root: pos
 ms.assetid: BB6B3AC2-C184-4383-B5D8-1D854BD433FA
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: LineDisplaySizeInPixelsType, LineDisplaySizeInPixelsType structure, PLineDisplaySizeInPixelsType, PLineDisplaySizeInPixelsType structure pointer, _LineDisplaySizeInPixelsType, pointofservicecommontypes/LineDisplaySizeInPixelsType, pointofservicecommontypes/PLineDisplaySizeInPixelsType, pos.linedisplaysizeinpixelstype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h

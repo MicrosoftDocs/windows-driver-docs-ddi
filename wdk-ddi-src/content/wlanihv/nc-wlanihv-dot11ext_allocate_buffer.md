@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extallocatebuffer.htm
 tech.root: netvista
 ms.assetid: 22c61f1d-027c-4e3e-af34-c513d4e1d0cc
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: DOT11EXT_ALLOCATE_BUFFER, Dot11ExtAllocateBuffer, Dot11ExtAllocateBuffer callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_5f683d7c-9185-4786-9f39-2e397b93fbf0.xml, netvista.dot11extallocatebuffer, wlanihv/Dot11ExtAllocateBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
@@ -59,12 +56,12 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```cpp
 DWORD WINAPI * Dot11ExtAllocateBuffer(
   _In_  DWORD  dwByteCount,
   _Out_ LPVOID *ppvBuffer
 );
-````
+```
 
 
 ## -parameters
@@ -138,7 +135,7 @@ The IHV Extensions DLL must call this function when returning any variable-lengt
       the return of the IHV Handler function.
 
 For more information about the IHV Handler functions, see
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
       Functions</a>.
 
 </li>
@@ -156,7 +153,7 @@ In this situation, the DLL must free the memory buffer by calling
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
    Functions</a>
 
 

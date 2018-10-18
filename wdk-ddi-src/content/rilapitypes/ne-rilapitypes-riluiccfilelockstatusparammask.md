@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\riluiccfilelockstatusparammask_2.htm
 tech.root: netvista
 ms.assetid: 238bf0cc-c9ad-4a1a-aa91-b746b0fc5d9b
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: RILUICCFILELOCKSTATUSPARAMMASK, RILUICCFILELOCKSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_UFLS_ALL, RIL_PARAM_UFLS_PINREFERENCE, netvista.riluiccfilelockstatusparammask_2, rilapitypes/RILUICCFILELOCKSTATUSPARAMMASK, rilapitypes/RIL_PARAM_UFLS_ALL, rilapitypes/RIL_PARAM_UFLS_PINREFERENCE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
 req.include-header:
@@ -57,12 +54,12 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```cpp
 typedef enum _RILUICCFILELOCKSTATUSPARAMMASK {
   RIL_PARAM_UFLS_PINREFERENCE,
   RIL_PARAM_UFLS_ALL
 } RILUICCFILELOCKSTATUSPARAMMASK;
-````
+```
 
 
 ## -enum-fields

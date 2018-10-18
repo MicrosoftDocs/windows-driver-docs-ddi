@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NetPacketGetPacketLargeSendSegmentation method retrieves large send offload (LSO) information for a packet.
 tech.root: netvista
 ms.assetid: cd6668b9-37f0-4b67-a1b1-970465f894b8
-ms.author: windowsdriverdev
 ms.date: 03/02/2018
 ms.topic: function
 ms.keywords: NetPacketGetPacketLargeSendSegmentation

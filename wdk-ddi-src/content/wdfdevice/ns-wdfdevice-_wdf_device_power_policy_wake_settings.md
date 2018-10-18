@@ -6,11 +6,8 @@ description: The WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS structure contains driver
 old-location: wdf\wdf_device_power_policy_wake_settings.htm
 tech.root: wdf
 ms.assetid: d7448873-aa96-4eac-a5be-16dff661ab40
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*PWDF_DEVICE_POWER_POLICY_WAKE_SETTINGS, DFDeviceObjectGeneralRef_08482cf6-3f3d-44d2-b0f3-4856a23d94d0.xml, PWDF_DEVICE_POWER_POLICY_WAKE_SETTINGS, PWDF_DEVICE_POWER_POLICY_WAKE_SETTINGS structure pointer, WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS, WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS structure, _WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS, kmdf.wdf_device_power_policy_wake_settings, wdf.wdf_device_power_policy_wake_settings, wdfdevice/PWDF_DEVICE_POWER_POLICY_WAKE_SETTINGS, wdfdevice/WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdfdevice.h
 req.include-header: Wdf.h
@@ -83,7 +80,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552533">WDF_TRI
 
 <b>WdfFalse</b> - Waking the system is disabled.
 
-<b>WdfUseDefault</b> - Waking the system is initially enabled by default; but if the <b>UserControlOfWakeSettings</b> member is set to <b>WakeAllowUserControl</b>, the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/user-control-of-device-idle-and-wake-behavior">user's setting or driver's INF file</a> overrides the initial value.
+<b>WdfUseDefault</b> - Waking the system is initially enabled by default; but if the <b>UserControlOfWakeSettings</b> member is set to <b>WakeAllowUserControl</b>, the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/user-control-of-device-idle-and-wake-behavior">user's setting or driver's INF file</a> overrides the initial value.
 
 If waking the system is enabled and the system is about to enter a low-power state, the framework calls the driver's <a href="https://msdn.microsoft.com/4954a278-8470-402c-a8ba-5e46ca56ddf7">EvtDeviceArmWakeFromSx</a> or <a href="https://msdn.microsoft.com/8966ea8f-9760-4a09-b9d3-8fd1ac278b12">EvtDeviceArmWakeFromSxWithReason</a> callback function before the device enters a low-power state.
 
@@ -146,7 +143,7 @@ You cannot specify a device power state that is lower than the device power stat
 
 </li>
 </ul>
-For information about registry entries that control a device's wake capabilities, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/user-control-of-device-idle-and-wake-behavior">User Control of Device Idle and Wake Behavior</a>. 
+For information about registry entries that control a device's wake capabilities, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/user-control-of-device-idle-and-wake-behavior">User Control of Device Idle and Wake Behavior</a>. 
 
 If the device that the <b>WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS</b> structure describes is a parent device, the driver for the parent device can use the <b>ArmForWakeIfChildrenAreArmedForWake</b> and <b>IndicateChildWakeOnParentWake</b> members as follows:
 

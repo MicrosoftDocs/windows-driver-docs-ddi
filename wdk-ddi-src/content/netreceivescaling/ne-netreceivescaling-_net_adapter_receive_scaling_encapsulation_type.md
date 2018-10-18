@@ -5,12 +5,9 @@ author: windows-driver-content
 description: The NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE enumeration specifies packet encapsulation technologies an RSS-capable NIC is able to bypass.
 tech.root: netvista
 ms.assetid: b5225e1b-e077-48b6-8065-40d3805589e2
-ms.author: windowsdriverdev
 ms.date: 03/07/2018
 ms.topic: enum
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE, NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: netreceivescaling.h
 req.include-header:
 req.target-type:

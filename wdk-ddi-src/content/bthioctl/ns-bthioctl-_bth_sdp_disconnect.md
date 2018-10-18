@@ -6,11 +6,8 @@ description: The BTH_SDP_DISCONNECT structure contains input information about a
 old-location: bltooth\bth_sdp_disconnect.htm
 tech.root: bltooth
 ms.assetid: d0466569-7c9d-40d2-8794-b1d877a52458
-ms.author: windowsdriverdev
 ms.date: 4/27/2018
 ms.keywords: "*PBTH_SDP_DISCONNECT, BTH_SDP_DISCONNECT, BTH_SDP_DISCONNECT structure [Bluetooth Devices], PBTH_SDP_DISCONNECT, PBTH_SDP_DISCONNECT structure pointer [Bluetooth Devices], _BTH_SDP_DISCONNECT, bltooth.bth_sdp_disconnect, bth_structs_049df802-3bad-49b0-b80e-f3b0a1579b72.xml, bthioctl/BTH_SDP_DISCONNECT, bthioctl/PBTH_SDP_DISCONNECT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bthioctl.h
 req.include-header: Bthioctl.h

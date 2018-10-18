@@ -6,11 +6,8 @@ description: The RegisterOpRegionHandler routine registers an operation region h
 old-location: acpi\registeropregionhandler.htm
 tech.root: acpi
 ms.assetid: 5795a1d1-0e13-4f9f-b2f2-37bbd71bde7a
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: RegisterOpRegionHandler, RegisterOpRegionHandler routine [ACPI Devices], acpi.registeropregionhandler, opregref_9742e50b-613d-4191-b0a2-6d1b0f365494.xml, oprghdlr/RegisterOpRegionHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oprghdlr.h
 req.include-header: Oprghdlr.h
@@ -249,7 +246,7 @@ An internal error occurred.
 
 The operation region context specified by <i>Context</i> is device-specific and is only used by the function driver. Typically, the context is the device extension for the functional device object (<a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">FDO</a>). The ACPI driver passes this context back to the function driver when it calls the operation region handler. The operation region object is only used by a function driver to uniquely identify the operation region when it deregisters the operation region handler.
 
-For more information about operation regions, see <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/acpi/supporting-an-operation-region">Supporting an Operation Region</a>. 
+For more information about operation regions, see <a href="https://msdn.microsoft.com/windows/hardware/drivers/acpi/supporting-an-operation-region">Supporting an Operation Region</a>. 
 
 
 

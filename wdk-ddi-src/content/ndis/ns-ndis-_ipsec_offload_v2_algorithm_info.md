@@ -6,11 +6,8 @@ description: The IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure specifies an algorith
 old-location: netvista\ipsec_offload_v2_algorithm_info.htm
 tech.root: netvista
 ms.assetid: 787e5a98-ba77-42d4-8624-abcc02fccf53
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, IPSEC_OFFLOAD_V2_ALGORITHM_INFO, IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure [Network Drivers Starting with Windows Vista], PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, PIPSEC_OFFLOAD_V2_ALGORITHM_INFO structure pointer [Network Drivers Starting with Windows Vista], _IPSEC_OFFLOAD_V2_ALGORITHM_INFO, ndis/IPSEC_OFFLOAD_V2_ALGORITHM_INFO, ndis/PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, netvista.ipsec_offload_v2_algorithm_info, task_offload_IPsecv2_ref_72dc6155-8044-4b56-b7c7-0587bf82889d.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndis.h
 req.include-header: Ndis.h

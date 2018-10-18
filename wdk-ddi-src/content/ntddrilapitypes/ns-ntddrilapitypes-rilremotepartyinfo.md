@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilremotepartyinfo.htm
 tech.root: netvista
 ms.assetid: 3bcaaf63-adff-4559-9e34-eae089dff6f8
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*LPRILREMOTEPARTYINFO, RILREMOTEPARTYINFO, RILREMOTEPARTYINFO structure [Network Drivers Starting with Windows Vista], netvista.rilremotepartyinfo, ntddrilapitypes/RILREMOTEPARTYINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h

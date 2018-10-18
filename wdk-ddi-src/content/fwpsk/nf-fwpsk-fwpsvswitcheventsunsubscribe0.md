@@ -6,11 +6,8 @@ description: The FwpsvSwitchEventsUnsubscribe0 function releases resources that 
 old-location: netvista\fwpsvswitcheventsunsubscribe0.htm
 tech.root: netvista
 ms.assetid: f83c6834-0438-42b8-ad9f-a1d82fcf361c
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FwpsvSwitchEventsUnsubscribe0, FwpsvSwitchEventsUnsubscribe0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsvSwitchEventsUnsubscribe0, netvista.fwpsvswitcheventsunsubscribe0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpsk.h
 req.include-header: Fwpsk.h

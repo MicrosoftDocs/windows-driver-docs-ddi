@@ -6,11 +6,8 @@ description: The WdfStringCreate method creates a framework string object and op
 old-location: wdf\wdfstringcreate.htm
 tech.root: wdf
 ms.assetid: 491b99c6-5531-4d24-83a4-c404b58d111c
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFStringObjectRef_1c460976-7e49-45c8-9fdb-c6651048d387.xml, WdfStringCreate, WdfStringCreate method, kmdf.wdfstringcreate, wdf.wdfstringcreate, wdfstring/WdfStringCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfstring.h
 req.include-header: Wdf.h
@@ -143,7 +140,7 @@ The default parent for framework string objects is the driver's framework driver
 
 If your driver provides <a href="https://msdn.microsoft.com/aba2efca-7d1f-4594-af65-13356f0e3f8b">EvtCleanupCallback</a> or <a href="https://msdn.microsoft.com/4c3b08d2-bb25-40bd-b2fc-1b9ea2d452b3">EvtDestroyCallback</a> callback functions for the framework string object, note that the framework calls these callback functions at IRQL = PASSIVE_LEVEL.
 
-For more information about framework string objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-string-objects">Using String Objects</a>.
+For more information about framework string objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-string-objects">Using String Objects</a>.
 
 
 #### Examples

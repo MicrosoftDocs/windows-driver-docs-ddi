@@ -6,11 +6,8 @@ description: The NDIS_TCP_LARGE_SEND_OFFLOAD_V1 structure provides large send of
 old-location: netvista\ndis_tcp_large_send_offload_v1.htm
 tech.root: netvista
 ms.assetid: 3e26b6ae-15e1-41d5-b00d-3e09c1534413
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNDIS_TCP_LARGE_SEND_OFFLOAD_V1, NDIS_TCP_LARGE_SEND_OFFLOAD_V1, NDIS_TCP_LARGE_SEND_OFFLOAD_V1 structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_LARGE_SEND_OFFLOAD_V1, PNDIS_TCP_LARGE_SEND_OFFLOAD_V1 structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_LARGE_SEND_OFFLOAD_V1, netvista.ndis_tcp_large_send_offload_v1, ntddndis/NDIS_TCP_LARGE_SEND_OFFLOAD_V1, ntddndis/PNDIS_TCP_LARGE_SEND_OFFLOAD_V1, tcpip_offload_ref_2a3bb0f8-f05b-462f-984d-774f607ee0da.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ndis.h
@@ -125,16 +122,16 @@ The <b>NDIS_TCP_LARGE_SEND_OFFLOAD_V1</b> structure is used in the
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a> structure, 
     <a href="https://msdn.microsoft.com/d46a1e62-9d03-4ab9-86f6-81b06c04d0f6">
     NDIS_FILTER_ATTACH_PARAMETERS</a> structure, 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config">
     OID_TCP_OFFLOAD_CURRENT_CONFIG</a> OID, and the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567424">
     NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a> status indication.
 
 For 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>,
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>,
     the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566599">NDIS_OFFLOAD</a> structure specifies the task offload capabilities that a miniport adapter supports. If
     the current offloads capabilities change, a miniport driver reports the new capabilities in an 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567424">
     NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a> status indication.
 
 The 
@@ -142,14 +139,14 @@ The
     or settings for the miniport adapter.
 
 In response to an 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config">
     OID_TCP_OFFLOAD_CURRENT_CONFIG</a> query request, NDIS provides a bitwise OR of the encapsulation
     flags, which indicate the supported encapsulation settings, in the 
     <b>Encapsulation</b> member. Miniport drivers must provide Ethernet encapsulation
     (NDIS_ENCAPSULATION_IEEE_802_3). The other types of encapsulation are optional.
 
 For an 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567424">
     NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a> status indication, the miniport driver provides a bitwise
     OR of the encapsulation flags, which indicate the current capabilities, in the 
     <b>Encapsulation</b> member.
@@ -178,9 +175,9 @@ Specifies logical link control (LLC) encapsulation for routed protocols, as desc
 The values in the 
     <b>TcpOptions</b> and 
     <b>IpOptions</b> members of NDIS_TCP_LARGE_SEND_OFFLOAD_V1 specify miniport adapter support in the 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config">
     OID_TCP_OFFLOAD_CURRENT_CONFIG</a> OID or the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567424">
     NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a> status indication. These members can have one of the
     following values:
 
@@ -217,7 +214,7 @@ The miniport adapter supports the feature that the member specifies
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567424">
    NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a>
 
 
@@ -231,7 +228,7 @@ The miniport adapter supports the feature that the member specifies
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
  
 
  

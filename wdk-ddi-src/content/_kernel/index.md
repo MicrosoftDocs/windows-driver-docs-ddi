@@ -24,13 +24,13 @@ Here are the required and optional routines that you must implement in your driv
     The following routines are required for all drivers:
 
     -    [DriverEntry](../wdm/nc-wdm-driver_initialize.md)
-    -    [AddDevice](https://msdn.microsoft.com/en-us/library/windows/hardware/ff540521)
-    -    [DispatchXxx (routines beginning with "Dispatch" such as DispatchCreate)](https://msdn.microsoft.com/en-us/library/windows/hardware/ff543233) 
-    -    [DriverUnload](https://msdn.microsoft.com/en-us/library/windows/hardware/ff564886)
+    -    [AddDevice](https://msdn.microsoft.com/library/windows/hardware/ff540521)
+    -    [DispatchXxx (routines beginning with "Dispatch" such as DispatchCreate)](https://msdn.microsoft.com/library/windows/hardware/ff543233) 
+    -    [DriverUnload](https://msdn.microsoft.com/library/windows/hardware/ff564886)
 
     The other routines are optional, but you may need to implement them depending on your driver type and the location of your driver in the device stack.
 
-    For more information about standard driver routines, see [Introduction to Standard Driver Routines](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/introduction-to-standard-driver-routines).
+    For more information about standard driver routines, see [Introduction to Standard Driver Routines](https://docs.microsoft.com/windows-hardware/drivers/kernel/introduction-to-standard-driver-routines).
 
 - Driver Support Routines
 
@@ -96,7 +96,7 @@ To develop Windows kernel, you need these headers:
  * [wmilib.h](..\wmilib\index.md)
  * [wmistr.h](..\wmistr\index.md)
 
-For the programming guide, see [Windows kernel](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel).
+For the programming guide, see [Windows kernel](https://docs.microsoft.com/windows-hardware/drivers/kernel).
 
 
 
@@ -129,11 +129,11 @@ The following obsolete routines are exported only to support existing drivers:
 
 |Obsolete routine|Replacement |
 |---|---|
-|HalAllocateCommonBuffer |See [AllocateCommonBuffer](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pallocate_common_buffer) instead.|
+|HalAllocateCommonBuffer |See [AllocateCommonBuffer](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pallocate_common_buffer) instead.|
 |HalAssignSlotResources| Drivers of PnP devices are assigned resources by the PnP manager, which passes resource lists with each IRP_MN_START_DEVICE request. Drivers that must support a legacy device that cannot be enumerated by the PnP manager should use IoReportDetectedDevice and IoReportResourceForDetection.|
-|HalFreeCommonBuffer |See [FreeCommonBuffer](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pfree_common_buffer) instead.|
-|HalGetAdapter |See [IoGetDmaAdapter](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdmaadapter) instead.|
-|HalGetBusData| Instead, use [IRP_MN_QUERY_INTERFACE](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mn-query-interface) to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to GetBusData, which can be used to read from the configuration space of a given device. |
+|HalFreeCommonBuffer |See [FreeCommonBuffer](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pfree_common_buffer) instead.|
+|HalGetAdapter |See [IoGetDmaAdapter](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdmaadapter) instead.|
+|HalGetBusData| Instead, use [IRP_MN_QUERY_INTERFACE](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-interface) to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to GetBusData, which can be used to read from the configuration space of a given device. |
 |HalGetBusDataByOffset |Instead, use IRP_MN_QUERY_INTERFACE to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to GetBusData, which can be used to read from the configuration space of a given device.|
 |HalGetDmaAlignmentRequirement| See GetDmaAlignment instead.|
 |HalGetInterruptVector| Drivers of PnP devices are assigned resources by the PnP manager, which passes resource lists with each IRP_MN_START_DEVICE request. Drivers that must support a legacy device that cannot be enumerated by the PnP manager should use IoReportDetectedDevice and IoReportResourceForDetection.|
@@ -150,7 +150,7 @@ The following routine is not supported and should not be used:
 
 Windows performs resource balancing of PCI bus resources to open an address region for a plugged device. The rebalance operation causes the bus data for some driver's device to move dynamically (between IRP_MN_STOP_DEVICE and IRP_MN_START_DEVICE calls). Therefore, a driver must not access the bus data directly. Instead the driver must pass it down to the lower bus driver because it knows the location of the device. 
 
-For more information, see [Stopping a Device to Rebalance Resources](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/stopping-a-device-to-rebalance-resources). 
+For more information, see [Stopping a Device to Rebalance Resources](https://docs.microsoft.com/windows-hardware/drivers/kernel/stopping-a-device-to-rebalance-resources). 
 
 
 ### Registry
@@ -358,13 +358,13 @@ Device power management callbacks are the callback routines that are required by
 Platform extension plug-ins (PEPs) provide interfaces for platform power management including device power management (DPM), processor power management (PPM), and, starting with Windows 10, ACPI runtime methods. 
 
 The types of notifications sent to platform extension plug-ins (PEPs) include:
-[ACPI notifications](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/acpi-notifications)
+[ACPI notifications](https://docs.microsoft.com/windows-hardware/drivers/kernel/acpi-notifications)
 
-[Device power management (DPM) notifications](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/dpm-notifications)
+[Device power management (DPM) notifications](https://docs.microsoft.com/windows-hardware/drivers/kernel/dpm-notifications)
 
-[Processor power management (PPM) notifications](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ppm-notifications)
+[Processor power management (PPM) notifications](https://docs.microsoft.com/windows-hardware/drivers/kernel/ppm-notifications)
 
-[PPM power control codes](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ppm-power-control-codes)
+[PPM power control codes](https://docs.microsoft.com/windows-hardware/drivers/kernel/ppm-power-control-codes)
 
 |Initialization Function|Description|
 |---|---|
@@ -607,15 +607,15 @@ This section contains reference pages for routines implemented by the Common Log
 
 ## IRPs
 
-Microsoft Windows use I/O Request Packets (IRPs) to send messages to device drivers. An IRP is a data structure that contains specific information used to convey the status of an event. For more information about the IRP data structure, see IRP and [IRP Major Function Codes](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-major-function-codes).
+Microsoft Windows use I/O Request Packets (IRPs) to send messages to device drivers. An IRP is a data structure that contains specific information used to convey the status of an event. For more information about the IRP data structure, see IRP and [IRP Major Function Codes](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-major-function-codes).
 
 Your driver can use System-Supplied Driver Interfaces to send IRPs to other drivers. 
 
 In addition to the Standard IRP Codes, there are three additional types of IRPs for specific technologies:
 
--   Plug and Play IRPs, see [Plug and Play Minor IRPs](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/plug-and-play-minor-irps)
--   Power Management IRPs, see [Power Management Minor IRPs](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/power-management-minor-irps)
--   Windows Management Instrumentation (WMI) IRPs, see [WMI Minor IRPs](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/wmi-minor-irps)
+-   Plug and Play IRPs, see [Plug and Play Minor IRPs](https://docs.microsoft.com/windows-hardware/drivers/kernel/plug-and-play-minor-irps)
+-   Power Management IRPs, see [Power Management Minor IRPs](https://docs.microsoft.com/windows-hardware/drivers/kernel/power-management-minor-irps)
+-   Windows Management Instrumentation (WMI) IRPs, see [WMI Minor IRPs](https://docs.microsoft.com/windows-hardware/drivers/kernel/wmi-minor-irps)
 
 This section describes kernel-mode support routines that drivers can call:
 
@@ -1504,7 +1504,7 @@ Keep notify routines short and simple.
 
 
 ## Run-Time Library (RTL) Routines
-For information about functions that copy, concatenate, and format strings in a manner that prevents buffer overrun errors, see [Safe String Functions](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/_kernel/#safe-string-functions-for-unicode-and-ansi-characters), below. Other string manipulation functions include the following:
+For information about functions that copy, concatenate, and format strings in a manner that prevents buffer overrun errors, see [Safe String Functions](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_kernel/#safe-string-functions-for-unicode-and-ansi-characters), below. Other string manipulation functions include the following:
 
 |Function|Description|
 |---|---|
@@ -1555,7 +1555,7 @@ A W-suffixed version that supports two-byte Unicode characters.
 
 An A-suffixed version that supports one-byte ANSI characters.
 
-If you use the safe string functions instead of the string manipulation functions that are provided by C-language run-time libraries, you protect your code from buffer overrun errors that can make code untrustworthy. For more information, see [Using Safe String Functions](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-safe-string-functions).
+If you use the safe string functions instead of the string manipulation functions that are provided by C-language run-time libraries, you protect your code from buffer overrun errors that can make code untrustworthy. For more information, see [Using Safe String Functions](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions).
 
 |Function|Description|
 |---|---|
@@ -1591,7 +1591,7 @@ If you use the safe string functions instead of the string manipulation function
 ### Safe String Functions for UNICODE_STRING Structures
 Use the functions in this section to manipulate strings within UNICODE_STRING structures in kernel-mode drivers.
 
-If you use the safe string functions instead of the string manipulation functions that C-language run-time libraries provide, you protect your code from buffer overrun errors that can make code untrustworthy. For more information about safe string functions, see [Using Safe String Functions](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-safe-string-functions).
+If you use the safe string functions instead of the string manipulation functions that C-language run-time libraries provide, you protect your code from buffer overrun errors that can make code untrustworthy. For more information about safe string functions, see [Using Safe String Functions](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions).
 
 |Function|Description|
 |---|---|

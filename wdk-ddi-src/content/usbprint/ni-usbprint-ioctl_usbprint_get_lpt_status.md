@@ -6,11 +6,8 @@ description: The IOCTL_USBPRINT_GET_LPT_STATUS request allows upper-layer softwa
 old-location: print\ioctl_usbprint_get_lpt_status.htm
 tech.root: print
 ms.assetid: 706e62f9-1be6-43bd-812a-dbb459877909
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IOCTL_USBPRINT_GET_LPT_STATUS, IOCTL_USBPRINT_GET_LPT_STATUS control, IOCTL_USBPRINT_GET_LPT_STATUS control code [Print Devices], print.ioctl_usbprint_get_lpt_status, usbioctl_1729d0c7-8762-426e-bdb8-aa0bf38f71ee.xml, usbprint/IOCTL_USBPRINT_GET_LPT_STATUS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: usbprint.h
 req.include-header: 

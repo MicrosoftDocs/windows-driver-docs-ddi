@@ -6,11 +6,8 @@ description: The driver for a PCI Express (PCIe) virtual function (VF) issues an
 old-location: pci\ioctl_vpci_write_block.htm
 tech.root: PCI
 ms.assetid: 5214053E-28AB-4728-9F4F-6705F8F56AC7
-ms.author: windowsdriverdev
 ms.date: 2/24/2018
 ms.keywords: IOCTL_VPCI_WRITE_BLOCK, IOCTL_VPCI_WRITE_BLOCK control code, PCI.ioctl_vpci_write_block, vpci/IOCTL_VPCI_WRITE_BLOCK
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: vpci.h
 req.include-header: Wdm.h
@@ -51,7 +48,7 @@ req.product: Windows 10 or later.
 ##  Major Code:
 
 
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

@@ -6,11 +6,8 @@ description: The RtlUnicodeStringCopyStringEx function copies a string into a UN
 old-location: kernel\rtlunicodestringcopystringex.htm
 tech.root: kernel
 ms.assetid: c7008875-f820-41ae-812f-304391240c34
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlUnicodeStringCopyStringEx, RtlUnicodeStringCopyStringEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcopystringex, ntstrsafe/RtlUnicodeStringCopyStringEx, safestrings_fdb0a962-cf2b-4e58-a1c5-351d57b2e73e.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h

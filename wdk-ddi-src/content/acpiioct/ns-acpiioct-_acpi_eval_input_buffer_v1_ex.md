@@ -6,11 +6,8 @@ description: The ACPI_EVAL_INPUT_BUFFER_EX structure is used as input to an IOCT
 old-location: acpi\acpi_eval_input_buffer_ex.htm
 tech.root: acpi
 ms.assetid: 3a5d4572-0455-4fd0-aeff-fc99d72433b6
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PACPI_EVAL_INPUT_BUFFER_EX, *PACPI_EVAL_INPUT_BUFFER_V1_EX, ACPI_EVAL_INPUT_BUFFER_EX, ACPI_EVAL_INPUT_BUFFER_V1_EX, ACPI_EVAL_INPUT_BUFFER_V1_EX structure [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_V1_EX, PACPI_EVAL_INPUT_BUFFER_V1_EX structure pointer [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_V1_EX, acpi-meth-eval-ref_13d68b28-6366-40cb-84d0-b6dcb7520c93.xml, acpi.acpi_eval_input_buffer_ex, acpiioct/ACPI_EVAL_INPUT_BUFFER_V1_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_V1_EX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
@@ -84,11 +81,11 @@ Set <b>MethodName</b> to a NULL-terminated string that supplies either the full 
 
 For example, assume that a request is sent to a device named 'ABCD' which is an immediate child of the root of an ACPI namespace, that 'ABCD' device supports a child device named 'CHLD,' and that the 'CHLD' device supports a method named '_FOO.' In this case, the evaluation request can supply either '\ABCD.CHLD._FOO,, which is the fully qualified path and name of the control method in the ACPI namespace, or 'CHLD._FOO,' which is the path and name of the control method that is relative to the 'ABCD' device in the ACPI namespace. 
 
-For more information about how to obtain the fully qualified path and name of a control method in an ACPI namespace, see <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/acpi/enumerating-child-devices-and-control-methods">Enumerating Child Devices and Control Methods</a>.
+For more information about how to obtain the fully qualified path and name of a control method in an ACPI namespace, see <a href="https://msdn.microsoft.com/windows/hardware/drivers/acpi/enumerating-child-devices-and-control-methods">Enumerating Child Devices and Control Methods</a>.
 
 </li>
 </ul>
-For more information about how to use this structure, see <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/acpi/evaluating-acpi-control-methods">Evaluating ACPI Control Methods</a>.
+For more information about how to use this structure, see <a href="https://msdn.microsoft.com/windows/hardware/drivers/acpi/evaluating-acpi-control-methods">Evaluating ACPI Control Methods</a>.
 
 
 

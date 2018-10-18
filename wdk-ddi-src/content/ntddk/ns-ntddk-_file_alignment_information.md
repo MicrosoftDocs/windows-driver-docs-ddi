@@ -6,11 +6,8 @@ description: The FILE_ALIGNMENT_INFORMATION structure is used as an argument to 
 old-location: kernel\file_alignment_information.htm
 tech.root: kernel
 ms.assetid: d3990d67-aa0c-4d17-9126-80fdcebbd306
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PFILE_ALIGNMENT_INFORMATION, FILE_ALIGNMENT_INFORMATION, FILE_ALIGNMENT_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_ALIGNMENT_INFORMATION, PFILE_ALIGNMENT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_ALIGNMENT_INFORMATION, kernel.file_alignment_information, kstruct_b_ce42b00c-17a9-4fcf-a6bb-ade557580e81.xml, ntddk/FILE_ALIGNMENT_INFORMATION, ntddk/PFILE_ALIGNMENT_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h

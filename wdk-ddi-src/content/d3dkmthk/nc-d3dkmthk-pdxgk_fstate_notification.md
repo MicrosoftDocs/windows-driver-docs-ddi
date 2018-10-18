@@ -4,11 +4,8 @@ title: PDXGK_FSTATE_NOTIFICATION
 author: windows-driver-content
 description: Implemented by the client driver to issue a state notification.
 ms.assetid: a6d6baab-576b-407d-bfb3-91b0e8f6453d
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to issue a state notification.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PDXGK_FSTATE_NOTIFICATION PdxgkFstateNotification;

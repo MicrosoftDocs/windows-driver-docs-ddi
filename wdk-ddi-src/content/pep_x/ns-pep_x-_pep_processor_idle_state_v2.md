@@ -6,11 +6,8 @@ description: The PEP_PROCESSOR_IDLE_STATE_V2 structure describes a processor idl
 old-location: kernel\pep_processor_idle_state_v2.htm
 tech.root: kernel
 ms.assetid: DEA8B166-5236-4BE3-B16D-9EE1B34796F8
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PPEP_PROCESSOR_IDLE_STATE_V2, PEP_PROCESSOR_IDLE_STATE_V2, PEP_PROCESSOR_IDLE_STATE_V2 structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_IDLE_STATE_V2, PPEP_PROCESSOR_IDLE_STATE_V2 structure pointer [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_IDLE_STATE_V2, kernel.pep_processor_idle_state_v2, pepfx/PEP_PROCESSOR_IDLE_STATE_V2, pepfx/PPEP_PROCESSOR_IDLE_STATE_V2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pep_x.h
 req.include-header: Pep_x.h
@@ -169,7 +166,7 @@ Whether the transition to this processor idle state can be performed only as par
 
 ##### Autonomous
 
-Whether a coordinated transition to this processor idle state is performed autonomously by the processor hardware. Set this flag bit to 1 if these transitions are autonomous, and to 0 if they are not. A flag value of 1 indicates that the idle state can be entered without sending a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186831">PEP_NOTIFY_PPM_TEST_IDLE_STATE</a>, <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186836">PEP_NOTIFY_PPM_IDLE_PRE_EXECUTE</a>, or <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186803">PEP_NOTIFY_PPM_IDLE_COMPLETE</a> notification. This flag can be set to 1 only if <b>CStateType</b> is nonzero.
+Whether a coordinated transition to this processor idle state is performed autonomously by the processor hardware. Set this flag bit to 1 if these transitions are autonomous, and to 0 if they are not. A flag value of 1 indicates that the idle state can be entered without sending a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186831">PEP_NOTIFY_PPM_TEST_IDLE_STATE</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/mt186836">PEP_NOTIFY_PPM_IDLE_PRE_EXECUTE</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/mt186803">PEP_NOTIFY_PPM_IDLE_COMPLETE</a> notification. This flag can be set to 1 only if <b>CStateType</b> is nonzero.
 
 
 
@@ -222,7 +219,7 @@ Whether the transition to this processor idle state can be performed only as par
 
 ##### ( unnamed struct ).Autonomous
 
-Whether a coordinated transition to this processor idle state is performed autonomously by the processor hardware. Set this flag bit to 1 if these transitions are autonomous, and to 0 if they are not. A flag value of 1 indicates that the idle state can be entered without sending a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186831">PEP_NOTIFY_PPM_TEST_IDLE_STATE</a>, <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186836">PEP_NOTIFY_PPM_IDLE_PRE_EXECUTE</a>, or <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186803">PEP_NOTIFY_PPM_IDLE_COMPLETE</a> notification. This flag can be set to 1 only if <b>CStateType</b> is nonzero.
+Whether a coordinated transition to this processor idle state is performed autonomously by the processor hardware. Set this flag bit to 1 if these transitions are autonomous, and to 0 if they are not. A flag value of 1 indicates that the idle state can be entered without sending a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186831">PEP_NOTIFY_PPM_TEST_IDLE_STATE</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/mt186836">PEP_NOTIFY_PPM_IDLE_PRE_EXECUTE</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/mt186803">PEP_NOTIFY_PPM_IDLE_COMPLETE</a> notification. This flag can be set to 1 only if <b>CStateType</b> is nonzero.
 
 
 
@@ -240,7 +237,7 @@ Flag bits and status fields accessed as a single 32-bit unsigned integer value.
 
 
 
-This structure is used in conjunction with the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186824">PEP_NOTIFY_PPM_QUERY_IDLE_STATES_V2</a> notification. The <b>IdleStates</b>  member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186824">PEP_PPM_QUERY_IDLE_STATES_V2</a> structure is the first element in an array of <b>PEP_PROCESSOR_IDLE_STATE_V2</b> structures.
+This structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186824">PEP_NOTIFY_PPM_QUERY_IDLE_STATES_V2</a> notification. The <b>IdleStates</b>  member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186824">PEP_PPM_QUERY_IDLE_STATES_V2</a> structure is the first element in an array of <b>PEP_PROCESSOR_IDLE_STATE_V2</b> structures.
 
 
 
@@ -250,7 +247,7 @@ This structure is used in conjunction with the <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186824">PEP_NOTIFY_PPM_QUERY_IDLE_STATES_V2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186824">PEP_NOTIFY_PPM_QUERY_IDLE_STATES_V2</a>
 
 
 

@@ -6,11 +6,8 @@ description: The AllocateAdapterChannelEx routine allocates the resources that a
 old-location: kernel\allocateadapterchannelex.htm
 tech.root: kernel
 ms.assetid: BF255782-0C3E-4F36-BD38-79CE88E7F37D
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: AllocateAdapterChannelEx, AllocateAdapterChannelEx callback function [Kernel-Mode Driver Architecture], DMA_SYNCHRONOUS_CALLBACK, PALLOCATE_ADAPTER_CHANNEL_EX, PALLOCATE_ADAPTER_CHANNEL_EX callback, kernel.allocateadapterchannelex, wdm/AllocateAdapterChannelEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

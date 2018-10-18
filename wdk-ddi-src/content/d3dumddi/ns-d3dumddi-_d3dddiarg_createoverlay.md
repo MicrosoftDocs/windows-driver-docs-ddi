@@ -6,11 +6,8 @@ description: The D3DDDIARG_CREATEOVERLAY structure describes an overlay to creat
 old-location: display\d3dddiarg_createoverlay.htm
 tech.root: display
 ms.assetid: 74252431-5250-408a-91cc-cc529396f720
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DDDIARG_CREATEOVERLAY, D3DDDIARG_CREATEOVERLAY structure [Display Devices], UMDisplayDriver_param_Structs_3261a00d-4b26-4c64-a5e0-abd453aee84c.xml, _D3DDDIARG_CREATEOVERLAY, d3dumddi/D3DDDIARG_CREATEOVERLAY, display.d3dddiarg_createoverlay
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

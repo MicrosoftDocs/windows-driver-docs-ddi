@@ -6,11 +6,8 @@ description: The EndInput callback method is called by the engine to indicate th
 old-location: debugger\idebuginputcallbacks_endinput.htm
 tech.root: debugger
 ms.assetid: e22b616c-51f6-4687-95b0-eb833ceb9ec3
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: ComCallbacks_3e06dd1c-483b-4934-83d5-b00241d9d88b.xml, EndInput, EndInput method [Windows Debugging], EndInput method [Windows Debugging],IDebugInputCallbacks interface, IDebugInputCallbacks interface [Windows Debugging],EndInput method, IDebugInputCallbacks.EndInput, IDebugInputCallbacks::EndInput, dbgeng/IDebugInputCallbacks::EndInput, debugger.idebuginputcallbacks_endinput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

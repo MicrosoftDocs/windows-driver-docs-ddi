@@ -6,11 +6,8 @@ description: Describes the exit process of the last event.
 old-location: debugger\debug_last_event_info_exit_process.htm
 tech.root: debugger
 ms.assetid: B4AFCD4C-0415-4EC4-BC10-D98F3AB409C5
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: "*PDEBUG_LAST_EVENT_INFO_EXIT_PROCESS, DEBUG_LAST_EVENT_INFO_EXIT_PROCESS, DEBUG_LAST_EVENT_INFO_EXIT_PROCESS structure [Windows Debugging], PDEBUG_LAST_EVENT_INFO_EXIT_PROCESS, PDEBUG_LAST_EVENT_INFO_EXIT_PROCESS structure pointer [Windows Debugging], _DEBUG_LAST_EVENT_INFO_EXIT_PROCESS, dbgeng/DEBUG_LAST_EVENT_INFO_EXIT_PROCESS, dbgeng/PDEBUG_LAST_EVENT_INFO_EXIT_PROCESS, debugger.debug_last_event_info_exit_process"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dbgeng.h
 req.include-header: DbgEng.h

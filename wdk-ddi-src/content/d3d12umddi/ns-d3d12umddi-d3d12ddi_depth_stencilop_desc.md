@@ -4,11 +4,8 @@ title: D3D12DDI_DEPTH_STENCILOP_DESC
 author: windows-driver-content
 description: Describes stencil operations that can be performed based on the results of stencil test.
 ms.assetid: e906c6d4-e4eb-42ad-b983-0fe3e4b8c498
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_DEPTH_STENCILOP_DESC, D3D12DDI_DEPTH_STENCILOP_DESC, 
 req.header: d3d12umddi.h
 req.include-header:

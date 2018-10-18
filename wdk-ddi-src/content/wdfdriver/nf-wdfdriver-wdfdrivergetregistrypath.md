@@ -6,11 +6,8 @@ description: The WdfDriverGetRegistryPath method retrieves the path to the drive
 old-location: wdf\wdfdrivergetregistrypath.htm
 tech.root: wdf
 ms.assetid: 5f237d2e-5ffd-40af-8cd8-ea1414807086
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDriverObjectRef_a21bcb6e-2211-4727-bb87-bb912f8a173b.xml, WdfDriverGetRegistryPath, WdfDriverGetRegistryPath method, kmdf.wdfdrivergetregistrypath, wdf.wdfdrivergetregistrypath, wdfdriver/WdfDriverGetRegistryPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdriver.h
 req.include-header: Wdf.h
@@ -83,7 +80,7 @@ A handle to the driver's framework driver object, obtained by a previous call to
 
 The registry path string that <b>WdfDriverGetRegistryPath</b> returns is obtained from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that the driver received as input to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. 
 
-For more information about the registry, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
+For more information about the registry, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
 
 
 #### Examples

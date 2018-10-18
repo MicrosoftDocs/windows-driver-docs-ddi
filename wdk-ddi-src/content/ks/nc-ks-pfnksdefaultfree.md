@@ -6,11 +6,8 @@ description: An AVStream minidriver's AVStrMiniAllocatorFreeFrame routine frees 
 old-location: stream\avstrminiallocatorfreeframe.htm
 tech.root: stream
 ms.assetid: ac8dd796-bc14-4b63-a0cb-5200cc1f0ce2
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: AVStrMiniAllocatorFreeFrame, AVStrMiniAllocatorFreeFrame routine [Streaming Media Devices], PFNKSDEFAULTFREE, avstclbk_c8c89d05-d36c-4a86-b92f-5465c1bc3eb2.xml, ks/AVStrMiniAllocatorFreeFrame, stream.avstrminiallocatorfreeframe
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ks.h
 req.include-header: Ks.h

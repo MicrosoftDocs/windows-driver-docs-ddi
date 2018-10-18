@@ -6,11 +6,8 @@ description: The FILE_ID_BOTH_DIR_INFORMATION structure is used to query file re
 old-location: ifsk\file_id_both_dir_information.htm
 tech.root: ifsk
 ms.assetid: 57a66b41-f9f6-42e1-95d7-010cacd1374a
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: "*PFILE_ID_BOTH_DIR_INFORMATION, FILE_ID_BOTH_DIR_INFORMATION, FILE_ID_BOTH_DIR_INFORMATION structure [Installable File System Drivers], PFILE_ID_BOTH_DIR_INFORMATION, PFILE_ID_BOTH_DIR_INFORMATION structure pointer [Installable File System Drivers], _FILE_ID_BOTH_DIR_INFORMATION, fileinformationstructures_e4d079c2-5491-4692-bdf2-a6f356bdf431.xml, ifsk.file_id_both_dir_information, ntifs/FILE_ID_BOTH_DIR_INFORMATION, ntifs/PFILE_ID_BOTH_DIR_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h

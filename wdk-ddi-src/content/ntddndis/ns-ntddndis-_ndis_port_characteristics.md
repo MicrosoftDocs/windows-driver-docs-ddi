@@ -6,11 +6,8 @@ description: The NDIS_PORT_CHARACTERISTICS structure specifies the characteristi
 old-location: netvista\ndis_port_characteristics.htm
 tech.root: netvista
 ms.assetid: fd602dd6-c216-413a-a4da-292739774937
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PNDIS_PORT_CHARACTERISTICS, NDIS_PORT_CHARACTERISTICS, NDIS_PORT_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_PORT_CHARACTERISTICS, PNDIS_PORT_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PORT_CHARACTERISTICS, ndis_ports_ref_2b3ef68d-2ed2-4a06-ab0c-3df59bf7d7a5.xml, netvista.ndis_port_characteristics, ntddndis/NDIS_PORT_CHARACTERISTICS, ntddndis/PNDIS_PORT_CHARACTERISTICS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ndis.h
@@ -133,7 +130,7 @@ Reserved for system use.
 ### -field MediaConnectState
 
 The media connection state of the port. This state is the same information that the 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">
      OID_GEN_MEDIA_CONNECT_STATUS_EX</a> OID returns.
 
 
@@ -344,7 +341,7 @@ NDIS uses a linked list of ports in port activation Plug and Play (PnP) events. 
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
 
 
 

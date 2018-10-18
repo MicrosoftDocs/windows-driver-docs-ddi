@@ -6,11 +6,8 @@ description: The PTERMINATE_IEEE_MODE-typed callback routine terminates the curr
 old-location: parports\pterminate_ieee_mode.htm
 tech.root: parports
 ms.assetid: 35c4f348-aeaa-4e6e-8cc5-62d78beaa434
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: PTERMINATE_IEEE_MODE, PTERMINATE_IEEE_MODE function pointer [Parallel Ports], cisspd_97e0ba9c-746e-4f7a-8d52-a321d6a18a4b.xml, parallel/PTERMINATE_IEEE_MODE, parports.pterminate_ieee_mode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: parallel.h
 req.include-header: Parallel.h
@@ -56,11 +53,11 @@ The PTERMINATE_IEEE_MODE-typed callback routine terminates the current IEEE oper
 ## -prototype
 
 
-````
+```cpp
 typedef NTSTATUS ( *PTERMINATE_IEEE_MODE)(
   _In_ PVOID Context
 );
-````
+```
 
 
 ## -parameters

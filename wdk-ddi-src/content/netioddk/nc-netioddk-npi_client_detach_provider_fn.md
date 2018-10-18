@@ -6,11 +6,8 @@ description: A client module's ClientDetachProvider callback function detaches t
 old-location: netvista\clientdetachprovider.htm
 tech.root: netvista
 ms.assetid: a684136a-e2f2-4f82-9e9a-166b40bd7536
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: ClientDetachProvider, ClientDetachProvider callback function [Network Drivers Starting with Windows Vista], NPI_CLIENT_DETACH_PROVIDER_FN, NPI_CLIENT_DETACH_PROVIDER_FN callback, PNPI_CLIENT_DETACH_PROVIDER_FN, PNPI_CLIENT_DETACH_PROVIDER_FN callback function [Network Drivers Starting with Windows Vista], netioddk/ClientDetachProvider, netvista.clientdetachprovider, nmrref_5197d4f5-2cd0-4134-bccb-b509853718cd.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: netioddk.h
 req.include-header: Wsk.h
@@ -122,7 +119,7 @@ The NMR calls a client module's
 After its 
     <i>ClientDetachProvider</i> callback function has been called, a client module should not make any more
     calls to any of the provider module's 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions. If there are no
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions. If there are no
     in-progress calls to any of the provider module's 
     NPI functions when the client
     module's 
@@ -130,7 +127,7 @@ After its
     <i>ClientDetachProvider</i> callback function returns STATUS_SUCCESS.
 
 If there are in-progress calls to one or more of the provider module's 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions when the client
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions when the client
     module's 
     <i>ClientDetachProvider</i> callback function is called, then the client module's 
     <i>ClientDetachProvider</i> callback function returns STATUS_PENDING. In this situation, the client module

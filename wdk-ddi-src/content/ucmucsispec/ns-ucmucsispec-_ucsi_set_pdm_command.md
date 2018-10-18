@@ -4,12 +4,9 @@ title: _UCSI_SET_PDM_COMMAND
 author: windows-driver-content
 description: Obsolete.
 ms.assetid: 9f813bd2-bfcb-450f-a8bb-77df5b79270a
-ms.author: windowsdriverdev
 tech.root: usbref
 ms.date: 09/30/2018 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _UCSI_SET_PDM_COMMAND, UCSI_SET_PDM_COMMAND, *PUCSI_SET_PDM_COMMAND, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

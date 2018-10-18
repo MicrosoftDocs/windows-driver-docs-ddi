@@ -4,11 +4,8 @@ title: EVT_SENSOR_DRIVER_START_SENSOR_HISTORY
 author: windows-driver-content
 description: Starts recording history in the sensor.
 ms.assetid: f2c80711-989b-48ff-a7f2-01635de2841d
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: sensorscx.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Starts recording history in the sensor.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_SENSOR_DRIVER_START_SENSOR_HISTORY EvtSensorDriverStartSensorHistory; 

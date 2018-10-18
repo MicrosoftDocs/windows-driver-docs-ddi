@@ -4,11 +4,8 @@ title: pHalQuerySystemInformation
 author: windows-driver-content
 description: 
 ms.assetid: 1470096d-c598-4724-9107-10678ae46a71
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: ntddk.h
 req.include-header:
 req.target-type: Desktop
@@ -47,7 +44,7 @@ Read MCA banks' status registers.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 pHalQuerySystemInformation Phalquerysysteminformation; 
@@ -76,7 +73,7 @@ pHalQuerySystemInformation
 [in] The size, in bytes, of the buffer that the caller supplies.
 ### -param Buffer
 [out] A pointer to a caller-supplied buffer of type MCA_EXCEPTION that will contain the information returned by this routine. For Intel Itanium processors, the returned information must be compliant, at a minimum, with the V3.0 SAL specification, Error Record Structures, January 2001, Appendix B"". For Intel Pentium Pro processors, the information is as described in the following code example.
-```
+```cpp
 typedef union _MCI_STATS {
   struct {
     USHORT  McaCod;
@@ -140,7 +137,7 @@ Returns STATUS_SUCCESS if an error log exists.
 ## -remarks
 
 The **HalQuerySystemInformation** function returns the first error. It is the MCA driver's responsibility to call this routine again to see if there are any more errors available.
->Windows Vista and later versions of Windows do not support the type of Machine Check Architecture (MCA) and Machine Check Exception (MCE) reporting that is described in this topic. MCA and MCE reporting are supported through [Windows Hardware Error Architecture (WHEA)](https://msdn.microsoft.com/en-us/library/Ff559509) instead.
+>Windows Vista and later versions of Windows do not support the type of Machine Check Architecture (MCA) and Machine Check Exception (MCE) reporting that is described in this topic. MCA and MCE reporting are supported through [Windows Hardware Error Architecture (WHEA)](https://msdn.microsoft.com/library/Ff559509) instead.
 
 
 ## -see-also

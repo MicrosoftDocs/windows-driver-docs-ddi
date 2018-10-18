@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\riluiccslotstate_2.htm
 tech.root: netvista
 ms.assetid: 472f7354-4b51-4fac-857e-d93083f160e8
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: RILUICCSLOTSTATE, RILUICCSLOTSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCSLOT_ACTIVE, RIL_UICCSLOT_EMPTY, RIL_UICCSLOT_ERROR, RIL_UICCSLOT_MAX, RIL_UICCSLOT_NOT_READY, RIL_UICCSLOT_OFF, netvista.riluiccslotstate_2, rilapitypes/RILUICCSLOTSTATE, rilapitypes/RIL_UICCSLOT_ACTIVE, rilapitypes/RIL_UICCSLOT_EMPTY, rilapitypes/RIL_UICCSLOT_ERROR, rilapitypes/RIL_UICCSLOT_MAX, rilapitypes/RIL_UICCSLOT_NOT_READY, rilapitypes/RIL_UICCSLOT_OFF
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
 req.include-header:
@@ -57,7 +54,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```cpp
 typedef enum _RILUICCSLOTSTATE {
   RIL_UICCSLOT_OFF,
   RIL_UICCSLOT_EMPTY,
@@ -66,7 +63,7 @@ typedef enum _RILUICCSLOTSTATE {
   RIL_UICCSLOT_ERROR,
   RIL_UICCSLOT_MAX
 } RILUICCSLOTSTATE;
-````
+```
 
 
 ## -enum-fields

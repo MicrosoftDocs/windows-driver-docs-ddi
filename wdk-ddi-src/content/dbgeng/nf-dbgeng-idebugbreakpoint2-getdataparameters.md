@@ -6,11 +6,8 @@ description: The GetDataParameters method returns the parameters for a processor
 old-location: debugger\getdataparameters.htm
 tech.root: debugger
 ms.assetid: e281c67a-df97-464e-9996-b15c18172dc4
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: ComOther_297fe316-4a1a-476b-a804-056bb56b6e77.xml, GetDataParameters, GetDataParameters method [Windows Debugging], GetDataParameters method [Windows Debugging],IDebugBreakpoint interface, GetDataParameters method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging],GetDataParameters method, IDebugBreakpoint2 interface [Windows Debugging],GetDataParameters method, IDebugBreakpoint2.GetDataParameters, IDebugBreakpoint2::GetDataParameters, IDebugBreakpoint::GetDataParameters, dbgeng/IDebugBreakpoint2::GetDataParameters, dbgeng/IDebugBreakpoint::GetDataParameters, debugger.getdataparameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

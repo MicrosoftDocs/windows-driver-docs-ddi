@@ -6,11 +6,8 @@ description: The ERASE_BAND_PARAMETERS structure contains the selection criteria
 old-location: storage\erase_band_parameters.htm
 tech.root: storage
 ms.assetid: CD7388DD-84CD-4158-91F3-9DB0559DFC2F
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PERASE_BAND_PARAMETERS, ERASEBAND_AUTHKEY_CACHING_ENABLED, ERASE_BAND_PARAMETERS, ERASE_BAND_PARAMETERS structure [Storage Devices], PERASE_BAND_PARAMETERS, PERASE_BAND_PARAMETERS structure pointer [Storage Devices], _ERASE_BAND_PARAMETERS, ehstorbandmgmt/ERASE_BAND_PARAMETERS, ehstorbandmgmt/PERASE_BAND_PARAMETERS, storage.erase_band_parameters"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h

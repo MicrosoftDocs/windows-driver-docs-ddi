@@ -4,7 +4,6 @@ title: FsRtlIsNameInUnUpcasedExpression function
 author: windows-driver-content
 description: The FsRtlIsNameInUnUpcasedExpression routine determines whether a Unicode string matches the specified pattern.
 ms.assetid: e7d84543-f480-4d05-9555-d9c4696dfe39
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: FsRtlIsNameInUnUpcasedExpression
@@ -44,7 +43,7 @@ targetos: Windows
 
 ## -description
 
-The **FsRtlIsNameInUnUpcasedExpression** routine determines whether a Unicode string matches the specified pattern. Unlike the [FsRtlIsNameInExpression routine](https://msdn.microsoft.com/en-us/library/windows/hardware/ff546850), *FsRtlIsNameInUnUpcasedExpression* does not expect the Expression to be in upper case if *IgnoreCase* is TRUE. 
+The **FsRtlIsNameInUnUpcasedExpression** routine determines whether a Unicode string matches the specified pattern. Unlike the [FsRtlIsNameInExpression routine](https://msdn.microsoft.com/library/windows/hardware/ff546850), *FsRtlIsNameInUnUpcasedExpression* does not expect the Expression to be in upper case if *IgnoreCase* is TRUE. 
 
 ## -parameters
 

@@ -6,11 +6,8 @@ description: The KeSetEvent routine sets an event object to a signaled state if 
 old-location: kernel\kesetevent.htm
 tech.root: kernel
 ms.assetid: a2017660-f001-449c-9c33-e26c2897ead1
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: KeSetEvent, KeSetEvent routine [Kernel-Mode Driver Architecture], k105_0b9a87b5-bdf2-4449-81f6-1836ea47f038.xml, kernel.kesetevent, wdm/KeSetEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

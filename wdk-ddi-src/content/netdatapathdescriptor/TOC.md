@@ -1,7 +1,0 @@
-# [Networking drivers for Windows Vista and later](../_netvista/index.md)
-## [Netdatapathdescriptor.h](index.md)
-### [_NET_DATPATH_RING_BUFFER_INDEX enumeration](../netdatapathdescriptor/ne-netdatapathdescriptor-_net_datpath_ring_buffer_index.md)
-### [NET_DATAPATH_DESCRIPTOR_GET_FRAGMENT_RING_BUFFER macro](../netdatapathdescriptor/nf-netdatapathdescriptor-net_datapath_descriptor_get_fragment_ring_buffer.md)
-### [NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER macro](../netdatapathdescriptor/nf-netdatapathdescriptor-net_datapath_descriptor_get_packet_ring_buffer.md)
-### [NET_PACKET_GET_FRAGMENT macro](../netdatapathdescriptor/nf-netdatapathdescriptor-net_packet_get_fragment.md)
-### [_NET_DATAPATH_DESCRIPTOR structure](../netdatapathdescriptor/ns-netdatapathdescriptor-_net_datapath_descriptor.md)

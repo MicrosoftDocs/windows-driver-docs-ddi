@@ -4,11 +4,8 @@ title: PFND3D12DDI_CREATE_TESS_SHADER_0003
 author: windows-driver-content
 description: Create a tessellation shader.
 ms.assetid: 9a80bdac-138c-4025-99d9-7afaee97b6da
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Create a tessellation shader.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATE_TESS_SHADER_0003 Pfnd3d12ddiCreateTessShader0003; 

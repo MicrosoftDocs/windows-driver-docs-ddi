@@ -6,11 +6,8 @@ description: RxCreateSrvOpen allocates, initializes, and inserts a new SRV_OPEN 
 old-location: ifsk\rxcreatesrvopen.htm
 tech.root: ifsk
 ms.assetid: e2cb8b92-2894-4515-bdf1-944c7f6ed3b0
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RxCreateSrvOpen, RxCreateSrvOpen function [Installable File System Drivers], fcb/RxCreateSrvOpen, ifsk.rxcreatesrvopen, rxref_663bb1d7-f914-4571-9701-e21ccf548337.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fcb.h
 req.include-header: Mrxfcb.h, Fcb.h
@@ -175,7 +172,7 @@ Windows does not currently allow having a paging file on a remote machine.
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fcb-structure">The FCB Structure</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-fcb-structure">The FCB Structure</a>
 
 
 

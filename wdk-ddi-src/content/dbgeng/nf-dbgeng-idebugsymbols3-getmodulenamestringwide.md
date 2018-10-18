@@ -6,11 +6,8 @@ description: The GetModuleNameStringWide method returns the name of the specifie
 old-location: debugger\getmodulenamestringwide.htm
 tech.root: debugger
 ms.assetid: e1b756b9-394a-4ec4-845e-867460998086
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetModuleNameStringWide, GetModuleNameStringWide method [Windows Debugging], GetModuleNameStringWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetModuleNameStringWide method, IDebugSymbols3.GetModuleNameStringWide, IDebugSymbols3::GetModuleNameStringWide, dbgeng/IDebugSymbols3::GetModuleNameStringWide, debugger.getmodulenamestringwide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

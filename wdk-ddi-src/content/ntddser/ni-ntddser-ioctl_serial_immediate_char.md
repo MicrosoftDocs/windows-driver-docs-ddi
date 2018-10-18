@@ -6,11 +6,8 @@ description: The IOCTL_SERIAL_IMMEDIATE_CHAR request causes a specified characte
 old-location: serports\ioctl_serial_immediate_char.htm
 tech.root: serports
 ms.assetid: 1bbae06c-1279-41da-82d8-ccbfe13cde9a
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: IOCTL_SERIAL_IMMEDIATE_CHAR, IOCTL_SERIAL_IMMEDIATE_CHAR control, IOCTL_SERIAL_IMMEDIATE_CHAR control code [Serial Ports], ntddser/IOCTL_SERIAL_IMMEDIATE_CHAR, serports.ioctl_serial_immediate_char, serref_f0a61fcc-3e61-4344-940b-ef9aeabec64b.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddser.h
 req.include-header: Ntddser.h
@@ -100,5 +97,5 @@ None.
 
 If the request is successful, the <b>Information</b> member is set to the size, in bytes, of a UCHAR. Otherwise, <b>Information</b> is set to zero.
 
-The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. A status of STATUS_INVALID_PARAMETER indicates that a previous immediate character request is pending.
+The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. A status of STATUS_INVALID_PARAMETER indicates that a previous immediate character request is pending.
 

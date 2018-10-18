@@ -6,11 +6,8 @@ description: The SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS enumeration defines 
 old-location: serports\sercx2_custom_receive_transaction_progress.htm
 tech.root: serports
 ms.assetid: B832554C-FB37-416F-9586-EFAB5A3633E5
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PSERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, 2/SERCX2_CUSTOM_RECEIVE_BYTES_TRANSFERRED, 2/SERCX2_CUSTOM_RECEIVE_NO_PROGRESS, 2/SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, SERCX2_CUSTOM_RECEIVE_BYTES_TRANSFERRED, SERCX2_CUSTOM_RECEIVE_NO_PROGRESS, SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS enumeration [Serial Ports], _SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, serports.sercx2_custom_receive_transaction_progress"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: sercx.h
 req.include-header: 

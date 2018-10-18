@@ -6,11 +6,8 @@ description: The RetrievePowerPolicy method retrieves a WinUsb power policy.
 old-location: wdf\iwdfusbtargetdevice_retrievepowerpolicy.htm
 tech.root: wdf
 ms.assetid: e15561e3-ba3d-4c65-bb6e-d90f3fab22af
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IWDFUsbTargetDevice interface,RetrievePowerPolicy method, IWDFUsbTargetDevice.RetrievePowerPolicy, IWDFUsbTargetDevice::RetrievePowerPolicy, RetrievePowerPolicy, RetrievePowerPolicy method, RetrievePowerPolicy method,IWDFUsbTargetDevice interface, UMDFUSBref_50da7595-0735-475b-863e-33a689f4fc2b.xml, umdf.iwdfusbtargetdevice_retrievepowerpolicy, wdf.iwdfusbtargetdevice_retrievepowerpolicy, wudfusb/IWDFUsbTargetDevice::RetrievePowerPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>RetrievePowerPolicy</b> method retrieves a WinUsb power policy.
 

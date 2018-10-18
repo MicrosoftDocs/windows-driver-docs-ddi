@@ -5,7 +5,6 @@ author: windows-driver-content
 description: Retrieves the number of wake-on-LAN (WoL) patterns stored in a NETPOWERSETTINGS object.
 tech.root: netvista
 ms.assetid: c1398d62-ed8c-4f7a-bcda-a8bab472a9cc
-ms.author: windowsdriverdev
 ms.date: 02/08/2018
 ms.topic: function
 ms.keywords: NetPowerSettingsGetWakePatternCount

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbChannelPacketFail function fails a packet during packet processing due to an unrecoverable error. This function stops the queue.
 tech.root: netvista
 ms.assetid: 00f1f4c0-60d4-46c9-b8c4-038e19cf5658
-ms.author: windowsdriverdev
 ms.date: 05/21/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:
@@ -50,7 +47,7 @@ The <b>VmbChannelPacketFail</b>  function fails a packet during packet processin
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_PACKET_FAIL FnVmbChannelPacketFail; 

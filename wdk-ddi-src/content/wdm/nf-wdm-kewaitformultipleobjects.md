@@ -6,11 +6,8 @@ description: The KeWaitForMultipleObjects routine puts the current thread into a
 old-location: kernel\kewaitformultipleobjects.htm
 tech.root: kernel
 ms.assetid: 2e533d7b-be70-4601-b9e1-4fe3ce51817f
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: KeWaitForMultipleObjects, KeWaitForMultipleObjects routine [Kernel-Mode Driver Architecture], k105_03342f87-b6a7-4e26-a7e8-5a8157026c4a.xml, kernel.kewaitformultipleobjects, wdm/KeWaitForMultipleObjects
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

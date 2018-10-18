@@ -6,11 +6,8 @@ description: The CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR structure indicates that
 old-location: storage\cdrom_exception_performance_descriptor.htm
 tech.root: storage
 ms.assetid: 054C8E89-D0A6-46D1-A5AA-2BE73931BB7A
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PCDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR, CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR, CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR structure [Storage Devices], PCDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR, PCDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR structure pointer [Storage Devices], _CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR, ntddcdrm/CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR, ntddcdrm/PCDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR, storage.cdrom_exception_performance_descriptor"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h

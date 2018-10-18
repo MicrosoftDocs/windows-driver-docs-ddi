@@ -6,11 +6,8 @@ description: The IPSEC_OFFLOAD_V2_UPDATE_SA structure updates information about 
 old-location: netvista\ipsec_offload_v2_update_sa.htm
 tech.root: netvista
 ms.assetid: d9fe5fec-75e3-4ea6-a4ac-16756fa8dc38
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PIPSEC_OFFLOAD_V2_UPDATE_SA, IPSEC_OFFLOAD_V2_UPDATE_SA, IPSEC_OFFLOAD_V2_UPDATE_SA structure [Network Drivers Starting with Windows Vista], PIPSEC_OFFLOAD_V2_UPDATE_SA, PIPSEC_OFFLOAD_V2_UPDATE_SA structure pointer [Network Drivers Starting with Windows Vista], _IPSEC_OFFLOAD_V2_UPDATE_SA, ndis/IPSEC_OFFLOAD_V2_UPDATE_SA, ndis/PIPSEC_OFFLOAD_V2_UPDATE_SA, netvista.ipsec_offload_v2_update_sa, task_offload_IPsecv2_ref_2a34fbb7-fa5d-49f3-844c-c5e8df229a54.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -76,7 +73,7 @@ The
 ### -field OffloadHandle
 
 An NDIS handle that identifies the SA. The miniport driver provided this handle in response to an 
-     OID set request of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>.
+     OID set request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>.
 
 
 ### -field Operation
@@ -104,7 +101,7 @@ The high-order bit of an IPsec sequence number. This bit is not included in the 
 The IPSEC_OFFLOAD_V2_UPDATE_SA structure specifies updates for a SA and a pointer to the next
     IPSEC_OFFLOAD_V2_UPDATE_SA structure in a linked list. The IPSEC_OFFLOAD_V2_UPDATE_SA structure is used
     with the 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-update-sa">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-update-sa">
     OID_TCP_TASK_IPSEC_OFFLOAD_V2_UPDATE_SA</a> OID.
 
 
@@ -123,12 +120,12 @@ The IPSEC_OFFLOAD_V2_UPDATE_SA structure specifies updates for a SA and a pointe
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
    OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-update-sa">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-update-sa">
    OID_TCP_TASK_IPSEC_OFFLOAD_V2_UPDATE_SA</a>
  
 

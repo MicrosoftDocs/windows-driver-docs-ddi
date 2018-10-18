@@ -4,11 +4,8 @@ title: _DXGKDDI_FLEXIOV_DEVICE_INTERFACE
 author: windows-driver-content
 description: 
 ms.assetid: 03ceba62-6439-4a5e-b15b-38dd06a6a924
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKDDI_FLEXIOV_DEVICE_INTERFACE, DXGKDDI_FLEXIOV_DEVICE_INTERFACE, *PDXGKDDI_FLEXIOV_DEVICE_INTERFACE, 
 req.header: dispmprt.h
 req.include-header:

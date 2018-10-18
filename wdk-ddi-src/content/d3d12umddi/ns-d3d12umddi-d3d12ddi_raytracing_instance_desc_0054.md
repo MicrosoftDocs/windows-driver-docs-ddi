@@ -4,11 +4,8 @@ title: D3D12DDI_RAYTRACING_INSTANCE_DESC_0054
 author: windows-driver-content
 description: Describes a ray tracing instance.
 ms.assetid: 4bb4b9cf-e076-4b9b-b231-6b69023582c0
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_RAYTRACING_INSTANCE_DESC_0054, D3D12DDI_RAYTRACING_INSTANCE_DESC_0054, 
 req.header: d3d12umddi.h
 req.include-header:

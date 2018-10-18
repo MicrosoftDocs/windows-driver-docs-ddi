@@ -6,11 +6,8 @@ description: The WdfInterruptReleaseLock method ends a code sequence that execut
 old-location: wdf\wdfinterruptreleaselock.htm
 tech.root: wdf
 ms.assetid: a3b68f6f-d482-4350-a5b8-9fe6afdefb69
-ms.author: windowsdriverdev
 ms.date: 1/11/2018
 ms.keywords: wdf.wdfinterruptreleaselock, PFN_WDFINTERRUPTRELEASELOCK, WdfInterruptReleaseLock callback function, WdfInterruptReleaseLock, wdfinterrupt/WdfInterruptReleaseLock, DFInterruptObjectRef_70637f8b-a7d9-4637-b02c-1ebed3e363c7.xml, kmdf.wdfinterruptreleaselock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
@@ -61,11 +58,11 @@ For passive level interrupt objects, the method ends a code sequence that execut
 ## -prototype
 
 
-````
+```cpp
 VOID WdfInterruptReleaseLock(
   _In_ WDFINTERRUPT Interrupt
 );
-````
+```
 
 
 ## -parameters

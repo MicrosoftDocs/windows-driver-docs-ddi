@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The ResourceResolveSubresource function resolves multiple samples to one pixel.
 old-location: display\resourceresolvesubresource.htm
 ms.assetid: f9f4a6e2-bc01-477f-a919-ec71871f665b
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: PFND3D10DDI_RESOURCERESOLVESUBRESOURCE, PFND3D10DDI_RESOURCERESOLVESUBRESOURCE callback, ResourceResolveSubresource, ResourceResolveSubresource callback function [Display Devices], UserModeDisplayDriverDx10_Functions_bddd44ef-1872-4285-9b04-fdd509e84527.xml, d3d10umddi/ResourceResolveSubresource, display.resourceresolvesubresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

@@ -6,11 +6,8 @@ description: The IOCTL_GNSS_LISTEN_DRIVER_REQUEST control code is used by the GN
 old-location: gnss\ioctl_gnss_listen_driver_request.htm
 tech.root: gnss
 ms.assetid: 204D6F80-A458-45F8-B25F-4F5D3C33EB75
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IOCTL_GNSS_LISTEN_DRIVER_REQUEST, IOCTL_GNSS_LISTEN_DRIVER_REQUEST control, IOCTL_GNSS_LISTEN_DRIVER_REQUEST control code [Sensor Devices], gnss.ioctl_gnss_listen_driver_request, gnssdriver/IOCTL_GNSS_LISTEN_DRIVER_REQUEST
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: gnssdriver.h
 req.include-header: 

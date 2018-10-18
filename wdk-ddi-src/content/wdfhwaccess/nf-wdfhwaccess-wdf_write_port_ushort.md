@@ -6,11 +6,8 @@ description: The WDF_WRITE_PORT_USHORT function writes a USHORT value to the spe
 old-location: wdf\wdf_write_port_ushort.htm
 tech.root: wdf
 ms.assetid: 310C55F8-E62C-4ABE-997E-E551CA6C4BB2
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WDF_WRITE_PORT_USHORT, WDF_WRITE_PORT_USHORT function, wdf.wdf_write_port_ushort, wdfhwaccess/WDF_WRITE_PORT_USHORT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfhwaccess.h
 req.include-header: 

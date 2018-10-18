@@ -4,11 +4,8 @@ title: PFND3DKMT_QUERYPROTECTEDSESSIONSTATUS
 author: windows-driver-content
 description: Implemented by the client driver to query a protected session.
 ms.assetid: 2b5d646e-45c8-4f15-91e5-70c9bc25ea6b
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to query a protected session.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_QUERYPROTECTEDSESSIONSTATUS Pfnd3dkmtQueryprotectedsessionstatus;

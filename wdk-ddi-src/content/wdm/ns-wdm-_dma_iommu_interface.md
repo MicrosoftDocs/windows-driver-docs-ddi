@@ -4,11 +4,8 @@ title: _DMA_IOMMU_INTERFACE
 author: windows-driver-content
 description: 
 ms.assetid: 9f82331e-29a6-4cb3-a4a9-12d079fdf7e6
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DMA_IOMMU_INTERFACE, *PDMA_IOMMU_INTERFACE, DMA_IOMMU_INTERFACE, 
 req.header: wdm.h
 req.include-header:
