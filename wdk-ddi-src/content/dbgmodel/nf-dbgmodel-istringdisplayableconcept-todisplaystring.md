@@ -4,7 +4,6 @@ title: IStringDisplayableConcept::ToDisplayString
 author: windows-driver-content
 description: The ToDisplayString method is called whenever a client wishes to convert an object into a string to display (to console, in the UI, etc...).
 ms.assetid: e6823fca-e9c4-4e2a-8c0f-95bd9f7527e9
-ms.author: windowsdriverdev
 ms.date: 10/05/2018
 ms.topic: method
 ms.keywords: IStringDisplayableConcept::ToDisplayString, ToDisplayString, IStringDisplayableConcept.ToDisplayString, IStringDisplayableConcept::ToDisplayString, IStringDisplayableConcept.ToDisplayString

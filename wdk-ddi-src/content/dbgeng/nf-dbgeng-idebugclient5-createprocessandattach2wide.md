@@ -6,11 +6,8 @@ description: The CreateProcessAndAttach2Wide method creates a process from a spe
 old-location: debugger\createprocessandattach2wide.htm
 tech.root: debugger
 ms.assetid: a1a1170b-9ecc-4432-badd-50847c974469
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: CreateProcessAndAttach2Wide, CreateProcessAndAttach2Wide method [Windows Debugging], CreateProcessAndAttach2Wide method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],CreateProcessAndAttach2Wide method, IDebugClient5.CreateProcessAndAttach2Wide, IDebugClient5::CreateProcessAndAttach2Wide, dbgeng/IDebugClient5::CreateProcessAndAttach2Wide, debugger.createprocessandattach2wide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

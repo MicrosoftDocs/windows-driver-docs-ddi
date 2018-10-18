@@ -6,11 +6,8 @@ description: The WdfCollectionGetFirstItem method returns a handle to the first 
 old-location: wdf\wdfcollectiongetfirstitem.htm
 tech.root: wdf
 ms.assetid: 4884de4d-6e5f-4c9f-bd49-2fc58481e9c6
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFCollectionObjectRef_1a816492-f120-48f9-9c10-88f71947008c.xml, WdfCollectionGetFirstItem, WdfCollectionGetFirstItem method, kmdf.wdfcollectiongetfirstitem, wdf.wdfcollectiongetfirstitem, wdfcollection/WdfCollectionGetFirstItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfcollection.h
 req.include-header: Wdf.h

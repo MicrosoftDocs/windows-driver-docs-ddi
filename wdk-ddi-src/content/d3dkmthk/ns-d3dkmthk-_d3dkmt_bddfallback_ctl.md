@@ -4,11 +4,8 @@ title: _D3DKMT_BDDFALLBACK_CTL
 author: windows-driver-content
 description: Display device fallback control.
 ms.assetid: 8f31e481-b0ba-426c-a091-f0cb6f794e28
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_BDDFALLBACK_CTL, D3DKMT_BDDFALLBACK_CTL, 
 req.header: d3dkmthk.h
 req.include-header:

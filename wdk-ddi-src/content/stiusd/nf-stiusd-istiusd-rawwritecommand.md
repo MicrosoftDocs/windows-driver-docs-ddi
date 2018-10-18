@@ -6,11 +6,8 @@ description: A still image minidriver's IStiDevice::RawWriteCommand method sends
 old-location: image\istiusd_rawwritecommand.htm
 tech.root: image
 ms.assetid: c1b03ff5-1924-4221-b177-15214a8bf4f1
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IStiUSD interface [Imaging Devices],RawWriteCommand method, IStiUSD.RawWriteCommand, IStiUSD::RawWriteCommand, RawWriteCommand, RawWriteCommand method [Imaging Devices], RawWriteCommand method [Imaging Devices],IStiUSD interface, image.istiusd_rawwritecommand, stifnc_508a67c1-4f4f-4324-bbb4-fc095fa023c4.xml, stiusd/IStiUSD::RawWriteCommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: stiusd.h
 req.include-header: Stiusd.h

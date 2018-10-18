@@ -4,11 +4,8 @@ title: SIDEBANDAUDIO_IO_PARAM_HEADER
 author: windows-driver-content
 description: Describes the size and type of parameter.
 ms.assetid: e2f0fc99-4a73-44de-97f3-24f3a3d13b18
-ms.author: windowsdriverdev
 ms.date: 09/07/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: SIDEBANDAUDIO_IO_PARAM_HEADER, SIDEBANDAUDIO_IO_PARAM_HEADER, *PSIDEBANDAUDIO_IO_PARAM_HEADER, 
 req.header: sidebandaudio.h
 req.include-header:

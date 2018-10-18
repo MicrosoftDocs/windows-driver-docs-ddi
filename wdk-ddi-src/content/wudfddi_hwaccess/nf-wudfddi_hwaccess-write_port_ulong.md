@@ -6,11 +6,8 @@ description: The WRITE_PORT_ULONG function writes a ULONG value to the specified
 old-location: wdf\write_port_ulong.htm
 tech.root: wdf
 ms.assetid: 400823C4-5F71-4334-9160-FAC0690F209F
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WRITE_PORT_ULONG, WRITE_PORT_ULONG function, umdf.write_port_ulong, wdf.write_port_ulong, wudfddi_hwaccess/WRITE_PORT_ULONG
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wudfddi_hwaccess.h
 req.include-header: 

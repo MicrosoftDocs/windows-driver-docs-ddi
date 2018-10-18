@@ -6,11 +6,8 @@ description: Describes the signature of the callback object that receives the Bi
 old-location: print\iprinterbidisetrequestcallback.htm
 tech.root: print
 ms.assetid: C85690D0-3CA7-46C7-B597-E36555879F08
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrinterBidiSetRequestCallback, IPrinterBidiSetRequestCallback interface [Print Devices], IPrinterBidiSetRequestCallback interface [Print Devices],described, print.iprinterbidisetrequestcallback, printerextension/IPrinterBidiSetRequestCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: printerextension.h
 req.include-header: 

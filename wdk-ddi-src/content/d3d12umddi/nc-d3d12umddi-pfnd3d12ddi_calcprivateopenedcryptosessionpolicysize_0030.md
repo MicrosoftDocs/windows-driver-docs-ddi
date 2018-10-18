@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Used to calculate the size of an opened session policy.
 old-location: display\pfnd3d12ddi_calcprivateopenedcryptosessionpolicysize_0030_.htm
 ms.assetid: 8D88C470-5C1F-4A72-BFB6-B09C038A07F9
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONPOLICYSIZE_0030, PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONPOLICYSIZE_0030  entry, PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONPOLICYSIZE_0030 entry point [Display Devices], d3d12umddi/PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONPOLICYSIZE_0030, display.pfnd3d12ddi_calcprivateopenedcryptosessionpolicysize_0030_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 

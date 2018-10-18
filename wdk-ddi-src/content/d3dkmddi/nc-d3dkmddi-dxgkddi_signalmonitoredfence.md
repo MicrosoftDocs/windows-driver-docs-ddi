@@ -4,11 +4,8 @@ title: DXGKDDI_SIGNALMONITOREDFENCE
 author: windows-driver-content
 description: Adds a GPU instruction to signal the paging monitored fence object to the DMA buffer.
 ms.assetid: d69e18f4-9323-4be5-ad35-3fd009c66b34
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

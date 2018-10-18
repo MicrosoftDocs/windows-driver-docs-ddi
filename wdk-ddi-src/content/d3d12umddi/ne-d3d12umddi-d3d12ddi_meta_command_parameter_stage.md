@@ -4,12 +4,9 @@ title: D3D12DDI_META_COMMAND_PARAMETER_STAGE
 author: windows-driver-content
 description: Indicates the stage of the meta-command.
 ms.assetid: 44b28355-8021-45be-bcde-e8bf33d216f9
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: D3D12DDI_META_COMMAND_PARAMETER_STAGE, D3D12DDI_META_COMMAND_PARAMETER_STAGE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

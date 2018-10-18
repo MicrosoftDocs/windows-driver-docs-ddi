@@ -6,11 +6,8 @@ description: The IOCTL_REDIR_QUERY_PATH control code is sent by the multiple UNC
 old-location: ifsk\ioctl_redir_query_path.htm
 tech.root: ifsk
 ms.assetid: 876453a7-922e-4ab7-a609-64d31e60ce88
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: IOCTL_REDIR_QUERY_PATH, IOCTL_REDIR_QUERY_PATH control, IOCTL_REDIR_QUERY_PATH control code [Installable File System Drivers], ifsk.ioctl_redir_query_path, ioctl_ref_f46fa4a1-0546-4d70-8490-7a233a2e743f.xml, ntifs/IOCTL_REDIR_QUERY_PATH
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntifs.h
 req.include-header: Ntifs.h

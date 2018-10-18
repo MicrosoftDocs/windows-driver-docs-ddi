@@ -6,11 +6,8 @@ description: The FltFastIoMdlWriteComplete routine frees the resources that FltF
 old-location: ifsk\fltfastiomdlwritecomplete.htm
 tech.root: ifsk
 ms.assetid: 7B67BB47-6F95-4B1A-A823-F796529D5C48
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: FsRtlMdlWriteCompleteDev, FsRtlMdlWriteCompleteDev routine [Installable File System Drivers], fltkernel/FsRtlMdlWriteCompleteDev, ifsk.fltfastiomdlwritecomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

@@ -6,11 +6,8 @@ description: The AddTypeOptions method turns on some type formatting options for
 old-location: debugger\addtypeoptions.htm
 tech.root: debugger
 ms.assetid: fe7fadc4-6ace-421a-986d-6fb2e0950ce8
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: AddTypeOptions, AddTypeOptions method [Windows Debugging], AddTypeOptions method [Windows Debugging],IDebugSymbols2 interface, AddTypeOptions method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging],AddTypeOptions method, IDebugSymbols2.AddTypeOptions, IDebugSymbols2::AddTypeOptions, IDebugSymbols3 interface [Windows Debugging],AddTypeOptions method, IDebugSymbols3::AddTypeOptions, IDebugSymbols_e856a688-7f26-4a00-b911-5b23a0bafa11.xml, dbgeng/IDebugSymbols2::AddTypeOptions, dbgeng/IDebugSymbols3::AddTypeOptions, debugger.addtypeoptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

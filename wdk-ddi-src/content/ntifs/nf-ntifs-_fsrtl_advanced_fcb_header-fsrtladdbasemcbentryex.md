@@ -4,7 +4,6 @@ title: FsRtlAddBaseMcbEntryEx function
 author: windows-driver-content
 description:
 ms.assetid: a99ea591-5af1-410a-9aa3-89839b4330bc
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: FsRtlAddBaseMcbEntryEx

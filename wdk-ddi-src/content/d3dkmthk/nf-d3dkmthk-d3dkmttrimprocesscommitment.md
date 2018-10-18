@@ -4,7 +4,6 @@ title: D3DKMTTrimProcessCommitment function
 author: windows-driver-content
 description: Trim process commitment.
 ms.assetid: a997c0c4-f047-4a09-a14d-a8a2b93a0d57
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: D3DKMTTrimProcessCommitment

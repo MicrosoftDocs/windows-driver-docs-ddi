@@ -4,11 +4,8 @@ title: DXGKDDI_SETUPPRIORITYBANDS
 author: windows-driver-content
 description: Set up the GPU scheduler priority band configuration, after adapter startup and before scheduling the first GPU work item.
 ms.assetid: c655afa4-9c1a-4c25-995f-1d1762ef0b6c
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

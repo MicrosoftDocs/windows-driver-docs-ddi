@@ -6,11 +6,8 @@ description: A driver's EvtIoStop event callback function completes, requeues, o
 old-location: wdf\evtiostop.htm
 tech.root: wdf
 ms.assetid: 71a789f1-4f10-44c3-8bd0-a0ea74ec28ab
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFQueueObjectRef_b9df4689-1de5-4c08-b2a2-c9f126a7d0bc.xml, EVT_WDF_IO_QUEUE_IO_STOP, EVT_WDF_IO_QUEUE_IO_STOP callback, EvtIoStop, EvtIoStop callback function, kmdf.evtiostop, wdf.evtiostop, wdfio/EvtIoStop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfio.h
 req.include-header: Wdf.h

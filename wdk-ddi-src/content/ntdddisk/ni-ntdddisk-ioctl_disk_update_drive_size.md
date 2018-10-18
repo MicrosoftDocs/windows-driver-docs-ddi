@@ -6,11 +6,8 @@ description: Updates device extension with drive size information for current me
 old-location: storage\ioctl_disk_update_drive_size.htm
 tech.root: storage
 ms.assetid: a12c1082-c3ff-40b8-b756-be320ab98b30
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IOCTL_DISK_UPDATE_DRIVE_SIZE, IOCTL_DISK_UPDATE_DRIVE_SIZE control, IOCTL_DISK_UPDATE_DRIVE_SIZE control code [Storage Devices], k307_52e1c8fb-a16b-41a6-a9bc-e0daec91f639.xml, ntdddisk/IOCTL_DISK_UPDATE_DRIVE_SIZE, storage.ioctl_disk_update_drive_size
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h

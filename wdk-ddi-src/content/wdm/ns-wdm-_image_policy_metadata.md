@@ -6,11 +6,8 @@ description: This structure is not supported.
 old-location: kernel\_image_policy_metadata.htm
 tech.root: kernel
 ms.assetid: b7dfb3c8-40d5-4ec0-9710-7c04fb414f32
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IMAGE_POLICY_METADATA, IMAGE_POLICY_METADATA structure [Kernel-Mode Driver Architecture], _IMAGE_POLICY_METADATA, kernel._image_policy_metadata, wdm/IMAGE_POLICY_METADATA
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
 req.include-header: Wdm.h, Wdm.h

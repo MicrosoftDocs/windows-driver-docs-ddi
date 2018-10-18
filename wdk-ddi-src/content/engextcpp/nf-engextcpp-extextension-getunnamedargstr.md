@@ -6,11 +6,8 @@ description: The GetUnnamedArgStr method returns an unnamed string argument from
 old-location: debugger\getunnamedargstr.htm
 tech.root: debugger
 ms.assetid: 2aaaee0d-eabe-4615-b888-8239f2791d80
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: EngExtCpp_Ref_68f021ae-574a-4bc5-bea2-545f59b8ea74.xml, ExtExtension class [Windows Debugging],GetUnnamedArgStr method, ExtExtension.GetUnnamedArgStr, ExtExtension::GetUnnamedArgStr, GetUnnamedArgStr, GetUnnamedArgStr method [Windows Debugging], GetUnnamedArgStr method [Windows Debugging],ExtExtension class, debugger.getunnamedargstr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

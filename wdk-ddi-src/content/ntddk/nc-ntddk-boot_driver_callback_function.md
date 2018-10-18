@@ -4,11 +4,8 @@ title: BOOT_DRIVER_CALLBACK_FUNCTION
 author: windows-driver-content
 description: 
 ms.assetid: 00658a7e-2c8f-44cb-aac3-97c36c39f988
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: ntddk.h
 req.include-header:
 req.target-type:

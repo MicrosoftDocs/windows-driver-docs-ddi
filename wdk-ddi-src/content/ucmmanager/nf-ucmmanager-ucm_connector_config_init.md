@@ -6,11 +6,8 @@ description: Initializes a UCM_CONNECTOR_CONFIG structure.
 old-location: buses\ucm_connector_config_init.htm
 tech.root: usbref
 ms.assetid: F9076ED0-A9D2-441A-A084-941C05EF9CCA
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: UCM_CONNECTOR_CONFIG_INIT, UCM_CONNECTOR_CONFIG_INIT function [Buses], buses.ucm_connector_config_init, ucmmanager/UCM_CONNECTOR_CONFIG_INIT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h

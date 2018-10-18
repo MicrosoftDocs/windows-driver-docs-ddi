@@ -6,11 +6,8 @@ description: The GetFailureCode method gets the bug check code or exception code
 old-location: debugger\idebugfailureanalysis2_getfailurecode.htm
 tech.root: debugger
 ms.assetid: E407482E-26DD-40C6-9405-DF5CA8996B91
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetFailureCode, GetFailureCode method [Windows Debugging], GetFailureCode method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetFailureCode method, IDebugFailureAnalysis2.GetFailureCode, IDebugFailureAnalysis2::GetFailureCode, debugger.idebugfailureanalysis2_getfailurecode, extsfns/IDebugFailureAnalysis2::GetFailureCode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: extsfns.h
 req.include-header: 

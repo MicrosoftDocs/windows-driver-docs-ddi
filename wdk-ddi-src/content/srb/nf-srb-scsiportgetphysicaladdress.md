@@ -6,11 +6,8 @@ description: The ScsiPortGetPhysicalAddress routine converts a given virtual add
 old-location: storage\scsiportgetphysicaladdress.htm
 tech.root: storage
 ms.assetid: 4a0d0b10-9773-40d7-962c-cf2acffcee47
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: ScsiPortGetPhysicalAddress, ScsiPortGetPhysicalAddress routine [Storage Devices], scsiprt_946bea8c-eb6d-4614-9dc0-004ee2501457.xml, srb/ScsiPortGetPhysicalAddress, storage.scsiportgetphysicaladdress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h

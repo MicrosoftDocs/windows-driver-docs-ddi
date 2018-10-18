@@ -6,11 +6,8 @@ description: The WdfDmaEnablerGetFragmentLength method returns the maximum trans
 old-location: wdf\wdfdmaenablergetfragmentlength.htm
 tech.root: wdf
 ms.assetid: f7481655-4413-4937-8a0a-99ca07d5b7b0
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDmaObjectRef_7c147fef-46f6-49aa-b8a9-9ef1a82ef963.xml, WdfDmaEnablerGetFragmentLength, WdfDmaEnablerGetFragmentLength method, kmdf.wdfdmaenablergetfragmentlength, wdf.wdfdmaenablergetfragmentlength, wdfdmaenabler/WdfDmaEnablerGetFragmentLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h

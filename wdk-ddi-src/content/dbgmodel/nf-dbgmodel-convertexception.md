@@ -4,7 +4,6 @@ title: ConvertException function
 author: windows-driver-content
 description: Trap and convert all exceptions coming out of a functor to an appropriate HRESULT.
 ms.assetid: cd951fc0-c5a0-4e62-ad33-cfc6a834d849
-ms.author: windowsdriverdev
 ms.date: 09/28/2018
 ms.topic: function
 ms.keywords: ConvertException

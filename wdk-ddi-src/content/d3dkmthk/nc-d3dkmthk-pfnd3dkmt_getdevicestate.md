@@ -4,11 +4,8 @@ title: PFND3DKMT_GETDEVICESTATE
 author: windows-driver-content
 description: Pfnd3dkmtGetdevicestate retrieves the state of a device.
 ms.assetid: 44a7d71a-dca6-4148-8aed-cedac873455a
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

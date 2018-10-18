@@ -4,11 +4,8 @@ title: *PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST
 author: windows-driver-content
 description: 
 ms.assetid: ec151fa2-ab0d-4858-8e4d-8201b80cd138
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:

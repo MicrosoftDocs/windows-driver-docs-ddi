@@ -4,11 +4,8 @@ title: PFND3D12DDI_CALCPRIVATEFENCESIZE
 author: windows-driver-content
 description: Calculate private fence size.
 ms.assetid: 2a259064-aa18-4870-a52c-a58b6f650ba8
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

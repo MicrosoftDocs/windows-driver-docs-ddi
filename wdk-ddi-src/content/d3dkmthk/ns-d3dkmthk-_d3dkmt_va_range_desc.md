@@ -4,11 +4,8 @@ title: _D3DKMT_VA_RANGE_DESC
 author: windows-driver-content
 description: The virtual address (VA) range description.
 ms.assetid: 96c89737-4994-46fe-af09-16339226675c
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_VA_RANGE_DESC, D3DKMT_VA_RANGE_DESC, 
 req.header: d3dkmthk.h
 req.include-header:

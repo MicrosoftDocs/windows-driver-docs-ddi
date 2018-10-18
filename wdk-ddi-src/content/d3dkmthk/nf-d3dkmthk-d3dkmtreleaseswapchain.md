@@ -4,7 +4,6 @@ title: D3DKMTReleaseSwapChain function
 author: windows-driver-content
 description: Releases swap chain resources.
 ms.assetid: ef754b92-7dcb-42a6-9544-f01b709d0065
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: D3DKMTReleaseSwapChain

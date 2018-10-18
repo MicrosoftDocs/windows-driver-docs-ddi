@@ -4,11 +4,8 @@ title: IOCTL_SBAUD_GET_SIDETONE_STATUS_UPDATE
 author: windows-driver-content
 description: 
 ms.assetid: af95d3d5-18d5-4a5b-b4ab-23405a1893d3
-ms.author: windowsdriverdev
 ms.date: 10/05/2018
 ms.topic: ioctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:

@@ -4,7 +4,6 @@ title: RtlRaiseCustomSystemEventTrigger function
 author: windows-driver-content
 description: Allows NT services and kernel-mode and user-mode drivers to raise a custom trigger for a device.
 ms.assetid: b5f212a3-3b2a-46ce-ae89-112320d0b2a9
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: RtlRaiseCustomSystemEventTrigger

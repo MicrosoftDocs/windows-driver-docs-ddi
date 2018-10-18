@@ -6,11 +6,8 @@ description: Converts a value of type SHORT to a value of type USHORT.
 old-location: kernel\rtlshorttoushort.htm
 tech.root: kernel
 ms.assetid: 6FD7C994-822A-422C-82D8-768BA842B2B2
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlShortToUShort, RtlShortToUShort function [Kernel-Mode Driver Architecture], kernel.rtlshorttoushort, ntintsafe/RtlShortToUShort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

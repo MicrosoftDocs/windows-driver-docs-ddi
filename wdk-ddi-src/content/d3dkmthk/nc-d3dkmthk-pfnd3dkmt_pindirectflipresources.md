@@ -4,11 +4,8 @@ title: PFND3DKMT_PINDIRECTFLIPRESOURCES
 author: windows-driver-content
 description: The PFND3DKMT_PINDIRECTFLIPRESOURCES callback function pins direct flip resources.
 ms.assetid: 7cb8aa84-fd33-4667-af4d-6ceb20e5edf5
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

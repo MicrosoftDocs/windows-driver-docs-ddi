@@ -6,11 +6,8 @@ description: The READ_REGISTER_BUFFER_USHORT routine reads a number of USHORT va
 old-location: kernel\read_register_buffer_ushort.htm
 tech.root: kernel
 ms.assetid: 30c3fc44-e94a-47ca-a25b-33857b485817
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: READ_REGISTER_BUFFER_USHORT, READ_REGISTER_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], k103_a4ed8007-394e-4090-bcdb-63ad37431377.xml, kernel.read_register_buffer_ushort, wdm/READ_REGISTER_BUFFER_USHORT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: miniport.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h, Wudfwdm.h

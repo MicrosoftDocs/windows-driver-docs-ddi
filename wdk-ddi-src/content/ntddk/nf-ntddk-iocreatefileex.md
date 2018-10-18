@@ -6,11 +6,8 @@ description: The IoCreateFileEx routine either causes a new file or directory to
 old-location: ifsk\iocreatefileex.htm
 tech.root: ifsk
 ms.assetid: 47d5e7e2-bc97-4413-b1ca-ef958288902c
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: IoCreateFileEx, IoCreateFileEx routine [Installable File System Drivers], ifsk.iocreatefileex, ioref_7e2e6fcc-6ec5-4329-a855-c9f4a06b5434.xml, ntddk/IoCreateFileEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, FltKernel.h

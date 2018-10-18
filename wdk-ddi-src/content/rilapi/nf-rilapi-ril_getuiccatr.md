@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_getuiccatr.htm
 tech.root: netvista
 ms.assetid: 7518f018-5ece-43e6-8aad-02038c0e94fc
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RIL_GetUiccATR, RIL_GetUiccATR method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccatr, rilapi/RIL_GetUiccATR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rilapi.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The SERIAL_TIMEOUTS structure specifies the time-out parameters for
 old-location: serports\serial_timeouts.htm
 tech.root: serports
 ms.assetid: 58DABEF8-5886-4575-BFB0-C10709BBACAE
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PSERIAL_TIMEOUTS, PSERIAL_TIMEOUTS, PSERIAL_TIMEOUTS structure pointer [Serial Ports], SERIAL_TIMEOUTS, SERIAL_TIMEOUTS structure [Serial Ports], _SERIAL_TIMEOUTS, ntddser/PSERIAL_TIMEOUTS, ntddser/SERIAL_TIMEOUTS, serports.serial_timeouts"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddser.h
 req.include-header: 

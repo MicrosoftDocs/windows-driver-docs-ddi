@@ -6,11 +6,8 @@ description: The GetKdContext function returns the total number of processors an
 old-location: debugger\getkdcontext.htm
 tech.root: debugger
 ms.assetid: cf795629-cf62-45fa-ad5e-e2eef576bcfd
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetKdContext, GetKdContext function [Windows Debugging], WdbgExts_Ref_951ca10a-3a73-433c-bd95-f054967f0df6.xml, debugger.getkdcontext, wdbgexts/GetKdContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h

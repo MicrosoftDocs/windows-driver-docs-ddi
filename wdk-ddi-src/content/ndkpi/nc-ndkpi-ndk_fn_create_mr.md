@@ -6,11 +6,8 @@ description: The NdkCreateMr (NDK_FN_CREATE_MR) function creates an NDK memory r
 old-location: netvista\ndk_fn_create_mr.htm
 tech.root: netvista
 ms.assetid: AD0F1FA1-0CE5-40BE-86B8-537C9C8C0B8F
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NDK_FN_CREATE_MR, NDK_FN_CREATE_MR callback, NdkCreateMr, NdkCreateMr callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateMr, netvista.ndk_fn_create_mr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndkpi.h
 req.include-header: Ndkpi.h

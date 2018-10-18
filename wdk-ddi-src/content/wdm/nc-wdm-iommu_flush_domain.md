@@ -4,11 +4,8 @@ title: IOMMU_FLUSH_DOMAIN
 author: windows-driver-content
 description: Flushes the TLB for all entries which match this domain.
 ms.assetid: 00bc433e-f306-485e-bc78-cab66cab879e
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:

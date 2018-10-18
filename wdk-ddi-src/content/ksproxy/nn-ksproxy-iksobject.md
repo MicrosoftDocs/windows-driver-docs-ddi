@@ -6,11 +6,8 @@ description: The IKsObject interface provides a method to retrieve the file hand
 old-location: stream\iksobject.htm
 tech.root: stream
 ms.assetid: c4422564-3fc0-4087-b628-056488c723e6
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: IKsObject, IKsObject interface [Streaming Media Devices], IKsObject interface [Streaming Media Devices],described, ksproxy_6432effa-13f1-4b39-a158-c315a93108d4.xml, stream.iksobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: ksproxy.h
 req.include-header: 

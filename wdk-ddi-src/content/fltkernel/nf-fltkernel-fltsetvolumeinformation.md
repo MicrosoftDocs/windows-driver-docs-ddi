@@ -6,11 +6,8 @@ description: FltSetVolumeInformation changes various kinds of information about 
 old-location: ifsk\fltsetvolumeinformation.htm
 tech.root: ifsk
 ms.assetid: ee6b4a41-e4a7-41b8-9ca9-77b9052724a3
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_p_to_z_54f9b03b-9c74-4403-9189-90eb8c93cb3e.xml, FltSetVolumeInformation, FltSetVolumeInformation function [Installable File System Drivers], fltkernel/FltSetVolumeInformation, ifsk.fltsetvolumeinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

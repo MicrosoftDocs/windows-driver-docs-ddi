@@ -6,11 +6,8 @@ description: Specifies the capabilities for the preemption of graphic processing
 old-location: display\d3dkmdt_preemption_caps.htm
 tech.root: display
 ms.assetid: 52172edc-77a9-46b9-8382-c57c65b80b93
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DKMDT_PREEMPTION_CAPS, D3DKMDT_PREEMPTION_CAPS structure [Display Devices], _D3DKMDT_PREEMPTION_CAPS, d3dkmdt/D3DKMDT_PREEMPTION_CAPS, display.d3dkmdt_preemption_caps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h

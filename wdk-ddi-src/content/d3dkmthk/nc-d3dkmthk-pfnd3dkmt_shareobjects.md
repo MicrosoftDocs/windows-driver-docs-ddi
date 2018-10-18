@@ -4,11 +4,8 @@ title: PFND3DKMT_SHAREOBJECTS
 author: windows-driver-content
 description: The PFND3DKMT_SHAREOBJECTS callback function shares resource objects that were created with the D3DKMTCreateAllocation, D3DKMTCreateKeyedMutex2, and D3DKMTCreateSynchronizationObject2 functions.
 ms.assetid: 735eae78-aded-49b2-9c8e-7404ce15a143
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

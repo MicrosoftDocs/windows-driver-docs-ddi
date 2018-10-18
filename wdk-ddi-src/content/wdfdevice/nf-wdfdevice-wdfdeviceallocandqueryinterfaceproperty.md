@@ -6,11 +6,8 @@ description: The WdfDeviceAllocAndQueryInterfaceProperty method allocates a buff
 old-location: wdf\wdfdeviceallocandqueryinterfaceproperty.htm
 tech.root: wdf
 ms.assetid: 40516E83-892C-4538-B452-DAB0F5ACBB25
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WdfDeviceAllocAndQueryInterfaceProperty, WdfDeviceAllocAndQueryInterfaceProperty method, wdf.wdfdeviceallocandqueryinterfaceproperty, wdfdevice/WdfDeviceAllocAndQueryInterfaceProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h

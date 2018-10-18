@@ -6,11 +6,8 @@ description: The WdfCmResourceListRemove method removes a resource descriptor fr
 old-location: wdf\wdfcmresourcelistremove.htm
 tech.root: wdf
 ms.assetid: f636d85d-f7bb-4ebe-b03f-3b9c3c17bacd
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFResourceObjectRef_5b1c7fce-45d2-454e-9d21-3f8d460ba99f.xml, WdfCmResourceListRemove, WdfCmResourceListRemove method, kmdf.wdfcmresourcelistremove, wdf.wdfcmresourcelistremove, wdfresource/WdfCmResourceListRemove
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfresource.h
 req.include-header: Wdf.h

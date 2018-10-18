@@ -6,11 +6,8 @@ description: The IStiDevice::UnLockDevice method unlocks a device that was locke
 old-location: image\istidevice_unlockdevice.htm
 tech.root: image
 ms.assetid: 0bcd48c6-be8a-47af-9e34-a06ce572925c
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IStiDevice interface [Imaging Devices],UnLockDevice method, IStiDevice.UnLockDevice, IStiDevice::UnLockDevice, UnLockDevice, UnLockDevice method [Imaging Devices], UnLockDevice method [Imaging Devices],IStiDevice interface, image.istidevice_unlockdevice, sti/IStiDevice::UnLockDevice, stifnc_7f72c1a7-41cd-4191-8c8f-390dfc991246.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sti.h
 req.include-header: Sti.h

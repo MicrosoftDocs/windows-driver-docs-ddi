@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The TxSuspectFrameListAbort callback function is implemented by the client driver to inform the TxEngine that the TxMgr has identified frames which are suspected of being hung or pending completion for a significant length of time.
 tech.root: netvista
 ms.assetid: c6d6e415-4995-4b26-b58e-a3b868ab5398
-ms.author: windowsdriverdev
 ms.date: 04/02/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dot11wdi.h
 req.include-header:
 req.target-type:

@@ -4,11 +4,8 @@ title: _D3DKMT_DEVICEPAGEFAULT_STATE
 author: windows-driver-content
 description: Contains information about the device page fault state.
 ms.assetid: e2b07b4c-6826-4fde-8a6e-ad5647f5c4b8
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_DEVICEPAGEFAULT_STATE, D3DKMT_DEVICEPAGEFAULT_STATE, 
 req.header: d3dkmthk.h
 req.include-header:

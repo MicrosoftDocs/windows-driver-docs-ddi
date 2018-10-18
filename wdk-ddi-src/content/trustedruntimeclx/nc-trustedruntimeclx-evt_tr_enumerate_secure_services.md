@@ -4,11 +4,8 @@ title: EVT_TR_ENUMERATE_SECURE_SERVICES
 author: windows-driver-content
 description: 
 ms.assetid: 23793977-ce47-48ab-abf8-2b02ebd3bdd3
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:

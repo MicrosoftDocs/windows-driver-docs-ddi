@@ -6,11 +6,8 @@ description: FltUntagFile removes a reparse point from a file or directory.
 old-location: ifsk\fltuntagfile.htm
 tech.root: ifsk
 ms.assetid: 728a9879-681b-4244-b931-7945a05e3d40
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_p_to_z_c1e51b69-c780-46bd-b3f0-b78cdc9c3b3f.xml, FltUntagFile, FltUntagFile function [Installable File System Drivers], fltkernel/FltUntagFile, ifsk.fltuntagfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

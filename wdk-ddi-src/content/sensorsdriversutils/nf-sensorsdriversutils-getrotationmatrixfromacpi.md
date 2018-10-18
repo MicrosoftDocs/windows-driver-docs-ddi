@@ -4,7 +4,6 @@ title: GetRotationMatrixFromAcpi function
 author: windows-driver-content
 description: The GetRotationMatrixFromAcpi function reads the rotation matrix from the ACPI entries.
 ms.assetid: ac29311e-066a-42ea-9edf-7d114c6b951d
-ms.author: windowsdriverdev
 ms.date: 04/19/2018
 ms.topic: function
 ms.keywords: GetRotationMatrixFromAcpi

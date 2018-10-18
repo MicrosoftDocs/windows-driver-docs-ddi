@@ -6,11 +6,8 @@ description: The FltObjectDereference routine removes a rundown reference from a
 old-location: ifsk\fltobjectdereference.htm
 tech.root: ifsk
 ms.assetid: d4add891-e90e-4fad-b862-c5cad91a277d
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_4fbb4535-c814-4af7-b68d-f0d66da9bae2.xml, FltObjectDereference, FltObjectDereference routine [Installable File System Drivers], fltkernel/FltObjectDereference, ifsk.fltobjectdereference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The EVT_NET_ADAPTER_CREATE_RSSQUEUE_GROUP callback function is reserved for system use. Do not implement this callback in your code.
 tech.root: netvista
 ms.assetid: 65acce86-1aa2-463e-be4f-12db185f38e9
-ms.author: windowsdriverdev
 ms.date: 03/06/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: netadapter.h
 req.include-header: netadaptercx.h
 req.target-type: Universal

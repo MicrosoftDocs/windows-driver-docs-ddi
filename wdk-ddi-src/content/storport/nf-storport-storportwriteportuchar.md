@@ -6,11 +6,8 @@ description: The StorPortWritePortUchar routine writes a value to a specified re
 old-location: storage\storportwriteportuchar.htm
 tech.root: storage
 ms.assetid: 421bd075-e919-4389-af38-e0dd686f7c05
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: StorPortWritePortUchar, StorPortWritePortUchar routine [Storage Devices], storage.storportwriteportuchar, storport/StorPortWritePortUchar, storprt_602c6d78-179c-4eaa-8131-ec2be13b2050.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: storport.h
 req.include-header: Storport.h

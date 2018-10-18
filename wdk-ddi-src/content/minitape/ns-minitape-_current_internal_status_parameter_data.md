@@ -4,11 +4,8 @@ title: _CURRENT_INTERNAL_STATUS_PARAMETER_DATA
 author: windows-driver-content
 description: 
 ms.assetid: 633807f0-5708-4583-ab51-5aa0467c4b30
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _CURRENT_INTERNAL_STATUS_PARAMETER_DATA, CURRENT_INTERNAL_STATUS_PARAMETER_DATA, *PCURRENT_INTERNAL_STATUS_PARAMETER_DATA, 
 req.header: minitape.h
 req.include-header:

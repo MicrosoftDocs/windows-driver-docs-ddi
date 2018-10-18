@@ -6,11 +6,8 @@ description: The SerCx2SaveReceiveFifoOnD0Exit method informs version 2 of the s
 old-location: serports\sercx2savereceivefifoond0exit.htm
 tech.root: serports
 ms.assetid: 689306DE-F83A-4C5D-B79A-DEBF2D5E79B3
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: 2/SerCx2SaveReceiveFifoOnD0Exit, SerCx2SaveReceiveFifoOnD0Exit, SerCx2SaveReceiveFifoOnD0Exit method [Serial Ports], serports.sercx2savereceivefifoond0exit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The StorPortMoveMemory routine copies memory from one buffer to ano
 old-location: storage\storportmovememory.htm
 tech.root: storage
 ms.assetid: 5481ae5e-c28a-478e-96be-c6ec8d7f163e
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: StorPortMoveMemory, StorPortMoveMemory routine [Storage Devices], storage.storportmovememory, storport/StorPortMoveMemory, storprt_7af1ec0d-f1c4-4335-9b80-1aaef26afa35.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

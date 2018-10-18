@@ -4,11 +4,8 @@ title: EVT_TR_DESTROY_SECURE_DEVICE_CONTEXT
 author: windows-driver-content
 description: 
 ms.assetid: 5b18c9f2-61dd-4243-bb1d-920870ee99de
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:

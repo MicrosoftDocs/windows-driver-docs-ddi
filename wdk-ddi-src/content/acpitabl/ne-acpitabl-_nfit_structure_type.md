@@ -4,12 +4,9 @@ title: _NFIT_STRUCTURE_TYPE enumeration
 author: windows-driver-content
 description: Describes NVDIMM Firmware Interface Table (NFIT) structure types.
 ms.assetid: a9645635-eb52-45a3-9deb-32a278337646
-ms.author: windowsdriverdev
 ms.date: 10/2/2018
 ms.topic: enum
 ms.keywords: _NFIT_STRUCTURE_TYPE, NFIT_STRUCTURE_TYPE, *PNFIT_STRUCTURE_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: acpitabl.h
 req.include-header:
 req.target-type:

@@ -6,11 +6,8 @@ description: The WWAN_DEVICE_SLOT_MAPPING_INFO structure represents the executor
 old-location: netvista\wwan_device_slot_mappings.htm
 tech.root: netvista
 ms.assetid: 48DD867C-1235-4955-A01E-FF46C850DA31
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PWWAN_DEVICE_SLOT_MAPPING_INFO, PWWAN_DEVICE_SLOT_MAPPING_INFO, PWWAN_DEVICE_SLOT_MAPPING_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SLOT_MAPPING_INFO, WWAN_DEVICE_SLOT_MAPPING_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SLOT_MAPPING_INFO, netvista.wwan_device_slot_mappings, wwan/PWWAN_DEVICE_SLOT_MAPPING_INFO, wwan/WWAN_DEVICE_SLOT_MAPPING_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wwan.h
 req.include-header: Wwan.h

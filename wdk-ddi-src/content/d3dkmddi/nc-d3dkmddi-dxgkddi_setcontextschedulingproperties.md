@@ -4,11 +4,8 @@ title: DXGKDDI_SETCONTEXTSCHEDULINGPROPERTIES
 author: windows-driver-content
 description: Set up or modify the scheduling properties for a device context.
 ms.assetid: be40d154-343b-431d-a2d7-da0dfaa4fb41
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

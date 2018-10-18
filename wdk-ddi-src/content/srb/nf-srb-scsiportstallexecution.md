@@ -6,11 +6,8 @@ description: The ScsiPortStallExecution routine stalls in the miniport driver.No
 old-location: storage\scsiportstallexecution.htm
 tech.root: storage
 ms.assetid: 2b033cfe-9649-4993-b348-6c9af2d0f4bc
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: ScsiPortStallExecution, ScsiPortStallExecution routine [Storage Devices], scsiprt_563a19de-adda-4461-9eb2-4c97a2c4f179.xml, srb/ScsiPortStallExecution, storage.scsiportstallexecution
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h

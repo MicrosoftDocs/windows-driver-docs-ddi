@@ -6,11 +6,8 @@ description: The AddMember method adds a member to the service group.
 old-location: audio\iservicegroup_addmember.htm
 tech.root: audio
 ms.assetid: 1eddb631-db85-4243-89a4-a4ab042cee28
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: AddMember, AddMember method [Audio Devices], AddMember method [Audio Devices],IServiceGroup interface, IServiceGroup interface [Audio Devices],AddMember method, IServiceGroup.AddMember, IServiceGroup::AddMember, audio.iservicegroup_addmember, audmp-routines_0d318d56-28e9-4e42-84b3-1d0eb4110f71.xml, portcls/IServiceGroup::AddMember
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: Portcls.h

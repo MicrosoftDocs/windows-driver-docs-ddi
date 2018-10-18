@@ -6,11 +6,8 @@ description: The WdfRegistryRemoveValue method removes a specified value and its
 old-location: wdf\wdfregistryremovevalue.htm
 tech.root: wdf
 ms.assetid: 485583b2-2736-4ecf-b58c-65b4d4f47a20
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFRegKeyObjectRef_2928cd6b-7fb0-46aa-bcc4-4def625bb2fe.xml, WdfRegistryRemoveValue, WdfRegistryRemoveValue method, kmdf.wdfregistryremovevalue, wdf.wdfregistryremovevalue, wdfregistry/WdfRegistryRemoveValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfregistry.h
 req.include-header: Wdf.h

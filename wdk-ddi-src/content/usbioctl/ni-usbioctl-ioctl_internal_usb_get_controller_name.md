@@ -6,11 +6,8 @@ description: The IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME I/O request queries the 
 old-location: buses\ioctl_internal_usb_get_controller_name.htm
 tech.root: usbref
 ms.assetid: 52390982-febe-4d6d-b53a-160fb281b099
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME, IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME control, IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME control code [Buses], buses.ioctl_internal_usb_get_controller_name, usbioctl/IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME, usbirp_36fbf149-8f7d-46ac-9ef3-017cbb000e1c.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: usbioctl.h
 req.include-header: 

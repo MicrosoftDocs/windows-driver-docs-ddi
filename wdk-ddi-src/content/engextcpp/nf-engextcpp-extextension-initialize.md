@@ -6,11 +6,8 @@ description: The Initialize method is called by the engine to initialize an EngE
 old-location: debugger\initialize.htm
 tech.root: debugger
 ms.assetid: 0de57ce8-cb09-40b0-8db0-ed4e910c6d53
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: EngExtCpp_Ref_e6893e43-8573-4f07-baee-e9f4adcde156.xml, ExtExtension class [Windows Debugging],Initialize method, ExtExtension.Initialize, ExtExtension::Initialize, Initialize, Initialize method [Windows Debugging], Initialize method [Windows Debugging],ExtExtension class, debugger.initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

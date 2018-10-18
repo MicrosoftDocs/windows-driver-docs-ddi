@@ -6,11 +6,8 @@ description: The ExInitializeDeleteTimerParameters routine initializes an EXT_DE
 old-location: kernel\exinitializedeletetimerparameters.htm
 tech.root: kernel
 ms.assetid: 2AD23AE1-05FF-44AF-807F-1ABD9D0D24DA
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: ExInitializeDeleteTimerParameters, ExInitializeDeleteTimerParameters routine [Kernel-Mode Driver Architecture], kernel.exinitializedeletetimerparameters, wdm/ExInitializeDeleteTimerParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

@@ -6,11 +6,8 @@ description: The wiauGetValidFormats function calls the IWiaMiniDrv::drvGetWiaFo
 old-location: image\wiaugetvalidformats.htm
 tech.root: image
 ms.assetid: 8bf1d76a-2e5b-4e9a-85fc-187fea72d38c
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: image.wiaugetvalidformats, wiauFncs_f311862b-03fe-4fe6-8b30-46cd9a53513b.xml, wiauGetValidFormats, wiauGetValidFormats function [Imaging Devices], wiautil/wiauGetValidFormats
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiautil.h
 req.include-header: Wiautil.h

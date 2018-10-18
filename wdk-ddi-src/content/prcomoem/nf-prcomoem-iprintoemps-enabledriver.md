@@ -6,11 +6,8 @@ description: The IPrintOemPS::EnableDriver method allows a rendering plug-in for
 old-location: print\iprintoemps_enabledriver.htm
 tech.root: print
 ms.assetid: 12e65e91-f540-49fd-a723-c6b93708b166
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: EnableDriver, EnableDriver method [Print Devices], EnableDriver method [Print Devices],IPrintOemPS interface, IPrintOemPS interface [Print Devices],EnableDriver method, IPrintOemPS.EnableDriver, IPrintOemPS::EnableDriver, prcomoem/IPrintOemPS::EnableDriver, print.iprintoemps_enabledriver, print_unidrv-pscript_rendering_2e2fe90b-66ce-4f39-adfa-ebb187700aac.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

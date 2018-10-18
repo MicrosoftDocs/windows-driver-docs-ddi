@@ -6,11 +6,8 @@ description: Retrieves a value from the collection, by a zero-based index.
 old-location: wpddk\iportabledevicevalues_getat.htm
 tech.root: wpd_dk
 ms.assetid: 887aab56-2f3f-4aaa-96fa-c597bc540a92
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: GetAt, GetAt method, GetAt method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetAt method, IPortableDeviceValues.GetAt, IPortableDeviceValues::GetAt, IPortableDeviceValuesGetAt, portabledevicetypes/IPortableDeviceValues::GetAt, wpddk.iportabledevicevalues_getat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledevicetypes.h
 req.include-header: 

@@ -4,7 +4,6 @@ title: D3DKMTUpdateTrackedWorkload function
 author: windows-driver-content
 description: Updates the tracked workload.
 ms.assetid: c474becc-c0c4-4474-857d-69800c780087
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: D3DKMTUpdateTrackedWorkload

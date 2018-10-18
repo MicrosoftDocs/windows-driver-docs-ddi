@@ -4,11 +4,8 @@ title: IOMMU_DEVICE_FAULT_HANDLER
 author: windows-driver-content
 description: Reports fault from a specific device and domain.
 ms.assetid: 6efa32ef-39c2-43f3-8808-d7649cfc493d
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:

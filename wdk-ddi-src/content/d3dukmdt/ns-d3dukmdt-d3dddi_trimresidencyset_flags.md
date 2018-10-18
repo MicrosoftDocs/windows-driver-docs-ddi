@@ -6,11 +6,8 @@ description: D3DDDI_TRIMRESIDENCYSET_FLAGS is used with pfnTrimResidencySet to t
 old-location: display\d3dddi_trimresidencyset_flags.htm
 tech.root: display
 ms.assetid: B063561B-FA79-44B4-A058-71DB9CBF4804
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DDDI_TRIMRESIDENCYSET_FLAGS, D3DDDI_TRIMRESIDENCYSET_FLAGS structure [Display Devices], d3dukmdt/D3DDDI_TRIMRESIDENCYSET_FLAGS, display.d3dddi_trimresidencyset_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h

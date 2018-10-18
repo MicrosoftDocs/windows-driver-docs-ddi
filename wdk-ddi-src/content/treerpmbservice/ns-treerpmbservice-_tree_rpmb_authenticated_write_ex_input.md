@@ -4,11 +4,8 @@ title: _TREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT
 author: windows-driver-content
 description: 
 ms.assetid: 2aaeaf15-1089-430f-a431-17fcf27c9518
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _TREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT, TREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT, *PTREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT, 
 req.header: treerpmbservice.h
 req.include-header:

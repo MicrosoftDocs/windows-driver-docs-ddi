@@ -4,12 +4,9 @@ title: _D3DFILLMODE
 author: windows-driver-content
 description: 
 ms.assetid: d581af24-b229-428e-9dfd-45e1ff38fa79
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: _D3DFILLMODE, D3DFILLMODE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d9types.h
 req.include-header:
 req.target-type:

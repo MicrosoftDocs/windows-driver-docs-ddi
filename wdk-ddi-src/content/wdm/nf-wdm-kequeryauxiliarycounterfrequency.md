@@ -6,11 +6,8 @@ description: The KeQueryAuxiliaryCounterFrequency routine returns frequency of t
 old-location: kernel\kequeryauxiliarycounterfrequency.htm
 tech.root: kernel
 ms.assetid: E7F9549D-F222-42BF-B82B-B0DA0F6BC60F
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: KeQueryAuxiliaryCounterFrequency, KeQueryAuxiliaryCounterFrequency routine [Kernel-Mode Driver Architecture], kernel.kequeryauxiliarycounterfrequency, wdm/KeQueryAuxiliaryCounterFrequency
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: 

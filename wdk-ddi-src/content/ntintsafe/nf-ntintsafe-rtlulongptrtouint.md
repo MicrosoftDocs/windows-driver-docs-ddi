@@ -6,11 +6,8 @@ description: Converts a value of type ULONG_PTR to a value of type UINT.
 old-location: kernel\rtlulongptrtouint.htm
 tech.root: kernel
 ms.assetid: 0AD17F2A-8681-4C30-979A-D7DBBA21AD08
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlULongPtrToUInt, RtlULongPtrToUInt function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtouint, ntintsafe/RtlULongPtrToUInt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

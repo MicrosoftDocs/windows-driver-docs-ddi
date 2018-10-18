@@ -6,11 +6,8 @@ description: This callback function is reserved for system use.
 old-location: audio\pfndrmdestroycontent.htm
 tech.root: audio
 ms.assetid: 24B98C91-9EB3-4D00-8D58-F6C96610946A
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: DRMDestroyContent, DRMDestroyContent callback function [Audio Devices], PFNDRMDESTROYCONTENT, PFNDRMDESTROYCONTENT callback, PfnDRMDestroyContent, PfnDRMDestroyContent callback function [Audio Devices], audio.pfndrmdestroycontent, drmk/PfnDRMDestroyContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: drmk.h
 req.include-header: 

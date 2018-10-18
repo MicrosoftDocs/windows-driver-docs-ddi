@@ -4,7 +4,6 @@ title: IModelKeyReference2::AddRef
 author: windows-driver-content
 description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: 15c5918c-e038-4c18-a82d-13d75310b413
-ms.author: windowsdriverdev
 ms.date: 08/14/2018
 ms.topic: method
 ms.keywords: IModelKeyReference2::AddRef, AddRef, IModelKeyReference2.AddRef, IModelKeyReference2::AddRef, IModelKeyReference2.AddRef

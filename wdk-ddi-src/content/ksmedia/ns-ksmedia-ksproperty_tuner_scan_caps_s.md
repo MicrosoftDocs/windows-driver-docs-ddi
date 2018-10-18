@@ -6,11 +6,8 @@ description: The KSPROPERTY_TUNER_SCAN_CAPS_S structure describes the hardware s
 old-location: stream\ksproperty_tuner_scan_caps_s.htm
 tech.root: stream
 ms.assetid: 5f05b24b-cf46-4302-a445-a9df029661cd
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_TUNER_SCAN_CAPS_S, KSPROPERTY_TUNER_SCAN_CAPS_S, KSPROPERTY_TUNER_SCAN_CAPS_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_SCAN_CAPS_S, PKSPROPERTY_TUNER_SCAN_CAPS_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_SCAN_CAPS_S, ksmedia/PKSPROPERTY_TUNER_SCAN_CAPS_S, stream.ksproperty_tuner_scan_caps_s, vidcapstruct_fbbea2b1-4a4d-40f0-b988-4ffab19155f5.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksmedia.h
 req.include-header: Ksmedia.h

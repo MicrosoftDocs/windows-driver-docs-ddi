@@ -6,11 +6,8 @@ description: The WdfRequestComplete method completes a specified I/O request and
 old-location: wdf\wdfrequestcomplete.htm
 tech.root: wdf
 ms.assetid: cb5bfd4f-e45a-4894-acb4-0ece2de91510
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFRequestObjectRef_e723fb4c-f8f2-4eb9-9152-7f7ac74329df.xml, WdfRequestComplete, WdfRequestComplete method, kmdf.wdfrequestcomplete, wdf.wdfrequestcomplete, wdfrequest/WdfRequestComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfrequest.h
 req.include-header: Wdf.h

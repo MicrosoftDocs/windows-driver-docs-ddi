@@ -6,11 +6,8 @@ description: The VP_DEVICE_DESCRIPTION structure describes the attributes of the
 old-location: display\vp_device_description.htm
 tech.root: display
 ms.assetid: a605e37d-56cd-4d72-a713-314e20c2f630
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: "*PVP_DEVICE_DESCRIPTION, PVP_DEVICE_DESCRIPTION, PVP_DEVICE_DESCRIPTION structure pointer [Display Devices], VP_DEVICE_DESCRIPTION, VP_DEVICE_DESCRIPTION structure [Display Devices], Video_Structs_056eb332-bc5b-4b1f-8219-91a418dd628f.xml, _VP_DEVICE_DESCRIPTION, display.vp_device_description, video/PVP_DEVICE_DESCRIPTION, video/VP_DEVICE_DESCRIPTION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: video.h
 req.include-header: Video.h

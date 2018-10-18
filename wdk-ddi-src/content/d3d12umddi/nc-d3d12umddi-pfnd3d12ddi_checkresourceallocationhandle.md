@@ -4,11 +4,8 @@ title: PFND3D12DDI_CHECKRESOURCEALLOCATIONHANDLE
 author: windows-driver-content
 description: Checks resource allocation handle.
 ms.assetid: 627c14f1-f793-40a8-b52d-ba98f90d2d1b
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

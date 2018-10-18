@@ -4,11 +4,8 @@ title: PFND3D12DDI_RESETCOMMANDALLOCATOR
 author: windows-driver-content
 description: Implemented by the client driver to reset the command allocator.
 ms.assetid: f706c981-a156-4fa1-96c1-7bb823f6d2d9
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

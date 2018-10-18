@@ -6,11 +6,8 @@ description: RxDereferenceAndDeleteRxContext_Real dereferences an RX_CONTEXT dat
 old-location: ifsk\rxdereferenceanddeleterxcontext_real.htm
 tech.root: ifsk
 ms.assetid: a2a2bb57-6f5c-4bc9-8564-ab0db2efd872
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RxDereferenceAndDeleteRxContext_Real, RxDereferenceAndDeleteRxContext_Real function [Installable File System Drivers], ifsk.rxdereferenceanddeleterxcontext_real, rxcontx/RxDereferenceAndDeleteRxContext_Real, rxref_d3ea173c-343f-4fbf-b07b-be17816e1b2e.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rxcontx.h
 req.include-header: Rxprocs.h  rxcontx.h

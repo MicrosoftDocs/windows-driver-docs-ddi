@@ -6,11 +6,8 @@ description: The filter driver's implementation to set a configurable property o
 old-location: buses\ufx_proprietary_charger_set_property.htm
 tech.root: usbref
 ms.assetid: 504878FA-3234-4BE7-95D9-6CCE08DB4D8A
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY, PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY callback function pointer [Buses], UFX_PROPRIETARY_CHARGER_SET_PROPERTY, UFX_PROPRIETARY_CHARGER_SET_PROPERTY callback, UfxProprietaryChargerSetProperty, UfxProprietaryChargerSetProperty callback function [Buses], buses.ufx_proprietary_charger_set_property, ufxproprietarycharger/UfxProprietaryChargerSetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ufxproprietarycharger.h
 req.include-header: 

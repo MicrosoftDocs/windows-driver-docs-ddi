@@ -6,11 +6,8 @@ description: The StorPortFreeHostMemoryBuffer routine frees the physically conti
 old-location: storage\storportfreehostmemorybuffer.htm
 tech.root: storage
 ms.assetid: 686D141E-E6EA-4BB6-8556-0ECAC592E8F0
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: StorPortFreeHostMemoryBuffer, StorPortFreeHostMemoryBuffer routine [Storage Devices], storage.storportfreehostmemorybuffer, storport/StorPortFreeHostMemoryBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

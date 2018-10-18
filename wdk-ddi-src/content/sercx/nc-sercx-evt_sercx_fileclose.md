@@ -6,11 +6,8 @@ description: The EvtSerCxFileClose event callback function notifies the serial c
 old-location: serports\evtsercxfileclose.htm
 tech.root: serports
 ms.assetid: C72CA6D0-DD85-46AC-9CE3-BE11233475C0
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: 1/EvtSerCxFileClose, EVT_SERCX_FILECLOSE, EVT_SERCX_FILECLOSE callback, EvtSerCxFileClose, EvtSerCxFileClose callback function [Serial Ports], serports.evtsercxfileclose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sercx.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The D3DDDI_SYNCHRONIZATIONOBJECTINFO structure contains information
 old-location: display\d3dddi_synchronizationobjectinfo.htm
 tech.root: display
 ms.assetid: 786934f5-b0ec-4ee9-8bf0-f32b64295b96
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DDDI_SYNCHRONIZATIONOBJECTINFO, D3DDDI_SYNCHRONIZATIONOBJECTINFO structure [Display Devices], D3D_other_Structs_86538364-14f8-4e40-bf0e-2e9f836729b8.xml, _D3DDDI_SYNCHRONIZATIONOBJECTINFO, d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECTINFO, display.d3dddi_synchronizationobjectinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h

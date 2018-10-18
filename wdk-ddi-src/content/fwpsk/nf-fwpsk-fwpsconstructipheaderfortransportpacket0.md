@@ -6,11 +6,8 @@ description: The FwpsConstructIpHeaderForTransportPacket0 function is called by 
 old-location: netvista\fwpsconstructipheaderfortransportpacket0.htm
 tech.root: netvista
 ms.assetid: badb7e91-1d5f-42c3-973b-c7d756d24a01
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FwpsConstructIpHeaderForTransportPacket0, FwpsConstructIpHeaderForTransportPacket0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsConstructIpHeaderForTransportPacket0, netvista.fwpsconstructipheaderfortransportpacket0, wfp_ref_2_funct_3_fwps_C_6c1cec4b-8792-49b0-bd89-eb3614b71567.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpsk.h
 req.include-header: Fwpsk.h

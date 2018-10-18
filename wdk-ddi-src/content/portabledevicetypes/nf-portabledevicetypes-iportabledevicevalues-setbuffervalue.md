@@ -6,11 +6,8 @@ description: Adds a new BYTE* value (type VT_VECTOR | VT_UI1) or overwrites an e
 old-location: wpddk\iportabledevicevalues_setbuffervalue.htm
 tech.root: wpd_dk
 ms.assetid: 991088a0-590e-4228-9445-06a7433d44f7
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IPortableDeviceValues interface,SetBufferValue method, IPortableDeviceValues.SetBufferValue, IPortableDeviceValues::SetBufferValue, IPortableDeviceValuesSetBufferValue, SetBufferValue, SetBufferValue method, SetBufferValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetBufferValue, wpddk.iportabledevicevalues_setbuffervalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledevicetypes.h
 req.include-header: 

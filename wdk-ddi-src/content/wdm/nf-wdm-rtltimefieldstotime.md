@@ -6,11 +6,8 @@ description: The RtlTimeFieldsToTime routine converts TIME_FIELDS information to
 old-location: kernel\rtltimefieldstotime.htm
 tech.root: kernel
 ms.assetid: 5873b627-6ef4-4e2c-8a53-921f37b729bc
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlTimeFieldsToTime, RtlTimeFieldsToTime routine [Kernel-Mode Driver Architecture], k109_9b5d67de-92c3-4fb7-bcd7-4e045ae9ada4.xml, kernel.rtltimefieldstotime, wdm/RtlTimeFieldsToTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

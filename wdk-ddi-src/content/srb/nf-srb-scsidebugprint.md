@@ -6,11 +6,8 @@ description: The ScsiDebugPrint routine prints debug information with a level of
 old-location: storage\scsidebugprint.htm
 tech.root: storage
 ms.assetid: bbf3ea14-1802-4433-9043-73bfc0c447bf
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: ScsiDebugPrint, ScsiDebugPrint routine [Storage Devices], scsiprt_ef011e55-85be-4ec8-8ba3-3838417bcd15.xml, srb/ScsiDebugPrint, storage.scsidebugprint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h, Minitape.h

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Describes the video decoder's output-view state.
 old-location: display\d3d11_1ddiarg_createvideodecoderoutputview.htm
 ms.assetid: 6DD555B1-01E8-48DE-B957-2752671B7EBB
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW, D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW structure [Display Devices], PD3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW, PD3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW structure pointer [Display Devices], d3d10umddi/D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW, d3d10umddi/PD3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW, display.d3d11_1ddiarg_createvideodecoderoutputview
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

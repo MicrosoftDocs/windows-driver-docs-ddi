@@ -4,7 +4,6 @@ title: IDataModelManager2::GetRootNamespace
 author: windows-driver-content
 description: The GetRootNamespace method returns the data model's root namespace. This is an object which the data model manages and into which the debug host places certain objects.
 ms.assetid: ca84b7c7-8454-420c-b94d-ecc8ab7ce89d
-ms.author: windowsdriverdev
 ms.date: 09/11/2018 
 ms.topic: method
 ms.keywords: IDataModelManager2::GetRootNamespace, GetRootNamespace, IDataModelManager2.GetRootNamespace, IDataModelManager2::GetRootNamespace, IDataModelManager2.GetRootNamespace

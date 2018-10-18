@@ -6,11 +6,8 @@ description: The InitializePrintMonitor function is obsolete and is supported on
 old-location: print\initializeprintmonitor.htm
 tech.root: print
 ms.assetid: 825ae98b-74d7-4e41-944b-0dc77cc0cc51
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: InitializePrintMonitor, InitializePrintMonitor function [Print Devices], print.initializeprintmonitor, spoolfnc_ff45a3d4-a007-4ebd-b120-582f23ccaffb.xml, winsplp/InitializePrintMonitor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsplp.h
 req.include-header: Winsplp.h

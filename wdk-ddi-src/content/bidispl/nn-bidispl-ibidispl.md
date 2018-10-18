@@ -6,11 +6,8 @@ description: The IBidiSpl interface allows an application or other objects to se
 old-location: print\ibidispl.htm
 tech.root: print
 ms.assetid: 7e4a30b2-ac3a-475a-b818-455cdb7a91bf
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IBidiSpl, IBidiSpl interface [Print Devices], IBidiSpl interface [Print Devices],described, _win32_IBidiSpl, bidispl/IBidiSpl, gdi.ibidispl, print.ibidispl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bidispl.h
 req.include-header: 

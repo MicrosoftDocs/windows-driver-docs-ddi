@@ -6,11 +6,8 @@ description:
 old-location: print\replyprinterchangenotificationex.htm
 tech.root: print
 ms.assetid: A3A906C0-FA96-4008-B904-1DA333B59833
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: ReplyPrinterChangeNotificationEx, ReplyPrinterChangeNotificationEx function [Print Devices], print.replyprinterchangenotificationex, winsplp/ReplyPrinterChangeNotificationEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsplp.h
 req.include-header: 

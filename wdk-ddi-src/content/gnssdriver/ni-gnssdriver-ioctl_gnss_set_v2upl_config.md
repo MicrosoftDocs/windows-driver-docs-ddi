@@ -6,11 +6,8 @@ description: The IOCTL_GNSS_SET_V2UPL_CONFIG control code is used by the GNSS ad
 old-location: gnss\ioctl_gnss_set_v2upl_config.htm
 tech.root: gnss
 ms.assetid: 7E06DAAF-B360-4C6C-8E6B-0F7CFC46A69E
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IOCTL_GNSS_SET_V2UPL_CONFIG, IOCTL_GNSS_SET_V2UPL_CONFIG control, IOCTL_GNSS_SET_V2UPL_CONFIG control code [Sensor Devices], gnss.ioctl_gnss_set_v2upl_config, gnssdriver/IOCTL_GNSS_SET_V2UPL_CONFIG
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: gnssdriver.h
 req.include-header: 

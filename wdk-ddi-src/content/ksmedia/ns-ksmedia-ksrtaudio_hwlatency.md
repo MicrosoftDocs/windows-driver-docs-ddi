@@ -6,11 +6,8 @@ description: The KSRTAUDIO_HWLATENCY structure describes the latency that the au
 old-location: audio\ksrtaudio_hwlatency.htm
 tech.root: audio
 ms.assetid: dd9998d0-46e6-4b12-aa96-1e6eede15f47
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: "*PKSRTAUDIO_HWLATENCY, KSRTAUDIO_HWLATENCY, KSRTAUDIO_HWLATENCY structure [Audio Devices], PKSRTAUDIO_HWLATENCY, PKSRTAUDIO_HWLATENCY structure pointer [Audio Devices], aud-prop_dd10bf1b-e1b6-4dfd-bb50-1540ef3caed5.xml, audio.ksrtaudio_hwlatency, ksmedia/KSRTAUDIO_HWLATENCY, ksmedia/PKSRTAUDIO_HWLATENCY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksmedia.h
 req.include-header: 

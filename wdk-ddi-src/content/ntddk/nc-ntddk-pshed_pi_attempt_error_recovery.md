@@ -6,11 +6,8 @@ description: A PSHED plug-in's AttemptRecovery callback function attempts to rec
 old-location: whea\attemptrecovery.htm
 tech.root: whea
 ms.assetid: e7186c16-f093-4a64-aa25-03e9ce0f967e
-ms.author: windowsdriverdev
 ms.date: 2/20/2018
 ms.keywords: AttemptRecovery, AttemptRecovery callback function [WHEA Drivers and Applications], PSHED_PI_ATTEMPT_ERROR_RECOVERY, PSHED_PI_ATTEMPT_ERROR_RECOVERY callback, ntddk/AttemptRecovery, whea.attemptrecovery, whearef_e6307253-0f45-4613-b384-ad737da27031.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ntddk.h
 req.include-header: Ntddk.h

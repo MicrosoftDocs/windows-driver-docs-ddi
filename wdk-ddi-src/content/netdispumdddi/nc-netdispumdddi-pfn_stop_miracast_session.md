@@ -6,11 +6,8 @@ description: Called by the operating system to start a Miracast connected sessio
 old-location: display\stopmiracastsession.htm
 tech.root: display
 ms.assetid: ab9ad8ee-9390-41a4-9a69-2e98579b2b77
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: PFN_STOP_MIRACAST_SESSION, PFN_STOP_MIRACAST_SESSION callback, StopMiracastSession, StopMiracastSession callback function [Display Devices], display.stopmiracastsession, netdispumdddi/StopMiracastSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h

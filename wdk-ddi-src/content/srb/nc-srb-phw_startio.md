@@ -6,11 +6,8 @@ description: The PHW_INITIALIZE routine prototype declares a routine that initia
 old-location: storage\phw_startio.htm
 tech.root: storage
 ms.assetid: 1b177ef5-2b58-425e-9b9a-428bbe15de69
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "(*PHW_STARTIO), (*PHW_STARTIO) callback function [Storage Devices], ide_minikr_16fd699a-4cb9-4741-9e50-3fa8177f49f2.xml, srb/(*PHW_STARTIO), storage.phw_startio"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: srb.h
 req.include-header: Storport.h, Srb.h, Storport.h

@@ -6,11 +6,8 @@ description: The MORE_PARALLEL_PORT_INFORMATION structure specifies information 
 old-location: parports\more_parallel_port_information.htm
 tech.root: parports
 ms.assetid: b21bfbce-5436-4865-b291-2e55abc4aad1
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PMORE_PARALLEL_PORT_INFORMATION, MORE_PARALLEL_PORT_INFORMATION, MORE_PARALLEL_PORT_INFORMATION structure [Parallel Ports], PMORE_PARALLEL_PORT_INFORMATION, PMORE_PARALLEL_PORT_INFORMATION structure pointer [Parallel Ports], _MORE_PARALLEL_PORT_INFORMATION, cisspd_0a671b2f-443c-4373-aeb0-8bf59c1d836b.xml, parallel/MORE_PARALLEL_PORT_INFORMATION, parallel/PMORE_PARALLEL_PORT_INFORMATION, parports.more_parallel_port_information"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: parallel.h
 req.include-header: Parallel.h

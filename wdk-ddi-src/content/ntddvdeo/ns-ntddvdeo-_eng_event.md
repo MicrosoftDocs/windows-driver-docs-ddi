@@ -6,11 +6,8 @@ description: The ENG_EVENT structure is reserved for system use.
 old-location: display\eng_event.htm
 tech.root: display
 ms.assetid: 8c785e23-5b80-4518-8a90-3f46e8ad9b1d
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: "*PENG_EVENT, *PEVENT, ENG_EVENT, ENG_EVENT structure [Display Devices], PENG_EVENT, PENG_EVENT structure pointer [Display Devices], Video_Structs_a4ad3c78-3ef4-42b2-9640-ef253a74637b.xml, _ENG_EVENT, display.eng_event, ntddvdeo/ENG_EVENT, ntddvdeo/PENG_EVENT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddvdeo.h
 req.include-header: Ntddvdeo.h

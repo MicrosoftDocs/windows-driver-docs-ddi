@@ -5,11 +5,8 @@ author: windows-driver-content
 description: A NET_PACKET_LAYOUT structure describes the start of each protocol header in a NET_PACKET.
 tech.root: netvista
 ms.assetid: 71300205-2332-4127-8622-86390FE54BBD
-ms.author: windowsdriverdev
 ms.date: 02/08/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _NET_PACKET_LAYOUT, NET_PACKET_LAYOUT, *PNET_PACKET_LAYOUT, _NET_PACKET_LAYER2_TYPE, NET_PACKET_LAYER2_TYPE, _NET_PACKET_LAYER3_TYPE, NET_PACKET_LAYER3_TYPE, _NET_PACKET_LAYER4_TYPE, NET_PACKET_LAYER4_TYPE
 req.header: netpacket.h
 req.include-header:

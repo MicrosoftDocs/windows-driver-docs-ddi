@@ -6,11 +6,8 @@ description: The PDETERMINE_IEEE_MODES-typed callback routine determines which I
 old-location: parports\pdetermine_ieee_modes.htm
 tech.root: parports
 ms.assetid: 9f57337b-20b8-4aa6-a303-0972cd0c92cf
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: PDETERMINE_IEEE_MODES, PDETERMINE_IEEE_MODES function pointer [Parallel Ports], cisspd_da5c1f0b-cec4-48a4-b460-9b09751531a5.xml, parallel/PDETERMINE_IEEE_MODES, parports.pdetermine_ieee_modes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: parallel.h
 req.include-header: Parallel.h

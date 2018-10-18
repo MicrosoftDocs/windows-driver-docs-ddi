@@ -4,7 +4,6 @@ title: TrSecureDeviceCallOSService function
 author: windows-driver-content
 description: 
 ms.assetid: 2178edf3-8ca9-4eff-858c-f6973f216a7e
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: TrSecureDeviceCallOSService

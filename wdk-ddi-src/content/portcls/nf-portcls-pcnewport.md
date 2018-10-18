@@ -6,11 +6,8 @@ description: The PcNewPort function creates a new system-supplied port-driver ob
 old-location: audio\pcnewport.htm
 tech.root: audio
 ms.assetid: d948b69c-c5cd-4614-a646-76acb493e8de
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: PcNewPort, PcNewPort function [Audio Devices], audio.pcnewport, audpc-routines_799c0416-dde0-4818-8da7-a38e4e6d4541.xml, portcls/PcNewPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: portcls.h
 req.include-header: Portcls.h

@@ -6,11 +6,8 @@ description: Gets the print job identifier (ID).
 old-location: print\iprintjob_id.htm
 tech.root: print
 ms.assetid: 8354E38C-0A3D-48CB-9CA5-0DC0C01FDF17
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrintJob interface [Print Devices],Id property, IPrintJob.Id, IPrintJob.get_Id, IPrintJob::Id, IPrintJob::get_Id, Id property [Print Devices], Id property [Print Devices],IPrintJob interface, get_Id, print.iprintjob_id, printerextension/IPrintJob::Id, printerextension/IPrintJob::get_Id
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header: 

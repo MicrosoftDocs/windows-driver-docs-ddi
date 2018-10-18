@@ -6,11 +6,8 @@ description: The ZwFlushKey routine forces a registry key to be committed to dis
 old-location: kernel\zwflushkey.htm
 tech.root: kernel
 ms.assetid: c5250b7d-a996-4591-b289-cfb1af00e7da
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: NtFlushKey, ZwFlushKey, ZwFlushKey routine [Kernel-Mode Driver Architecture], k111_2831bd9f-93c1-4377-9f0e-26d4ef20e095.xml, kernel.zwflushkey, wdm/NtFlushKey, wdm/ZwFlushKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

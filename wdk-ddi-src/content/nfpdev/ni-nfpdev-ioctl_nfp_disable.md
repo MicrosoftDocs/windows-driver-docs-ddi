@@ -6,11 +6,8 @@ description: A client sends the IOCTL_NFP_DISABLE request to temporarily disable
 old-location: nfpdrivers\ioctl_nfp_disable.htm
 tech.root: nfpdrivers
 ms.assetid: 5999EBAE-9B4A-469C-A8CE-E0A72B6F6A14
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IOCTL_NFP_DISABLE, IOCTL_NFP_DISABLE control, IOCTL_NFP_DISABLE control code [Near-Field Proximity Drivers], nfpdev/IOCTL_NFP_DISABLE, nfpdrivers.ioctl_nfp_disable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: nfpdev.h
 req.include-header: 

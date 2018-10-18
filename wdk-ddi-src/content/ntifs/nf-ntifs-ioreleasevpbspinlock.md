@@ -6,11 +6,8 @@ description: The IoReleaseVpbSpinLock routine releases the Volume Parameter Bloc
 old-location: ifsk\ioreleasevpbspinlock.htm
 tech.root: ifsk
 ms.assetid: c0b93f32-4c5c-472c-8c13-3e441f86475f
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: IoReleaseVpbSpinLock, IoReleaseVpbSpinLock routine [Installable File System Drivers], ifsk.ioreleasevpbspinlock, ioref_6ccdef5f-9874-4e93-8d91-a05b80d5cecf.xml, ntifs/IoReleaseVpbSpinLock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

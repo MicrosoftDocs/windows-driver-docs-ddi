@@ -6,11 +6,8 @@ description: The IoSetActivityIdThread routine associates an activity ID with th
 old-location: kernel\iosetactivityidthread.htm
 tech.root: kernel
 ms.assetid: 4C7884AB-C763-4FAF-8799-E0113B3F3AE0
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IoSetActivityIdThread, IoSetActivityIdThread routine [Kernel-Mode Driver Architecture], kernel.iosetactivityidthread, ntddk/IoSetActivityIdThread
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

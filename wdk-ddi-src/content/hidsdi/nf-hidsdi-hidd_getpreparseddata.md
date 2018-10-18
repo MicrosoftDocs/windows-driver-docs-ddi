@@ -6,11 +6,8 @@ description: The HidD_GetPreparsedData routine returns a top-level collection'sÂ
 old-location: hid\hidd_getpreparseddata.htm
 tech.root: hid
 ms.assetid: e5c550f0-a466-4d0b-ac6f-bcdce600245f
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: HidD_GetPreparsedData, HidD_GetPreparsedData routine [Human Input Devices], hid.hidd_getpreparseddata, hidfunc_e728f2ff-69e2-46d0-8266-7ff011fb8bd5.xml, hidsdi/HidD_GetPreparsedData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hidsdi.h
 req.include-header: Hidsdi.h

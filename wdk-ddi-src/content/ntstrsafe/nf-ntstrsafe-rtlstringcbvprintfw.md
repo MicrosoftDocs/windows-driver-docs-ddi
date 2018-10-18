@@ -6,11 +6,8 @@ description: The RtlStringCbVPrintfW and RtlStringCbVPrintfA functions create a 
 old-location: kernel\rtlstringcbvprintf.htm
 tech.root: kernel
 ms.assetid: 9dfd1894-c9b5-43c2-8377-c28577898754
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlStringCbVPrintf, RtlStringCbVPrintfA, RtlStringCbVPrintfW, RtlStringCbVPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbvprintf, ntstrsafe/RtlStringCbVPrintfA, ntstrsafe/RtlStringCbVPrintfW, safestrings_8b0897a4-24fb-4375-80aa-4148ca6815ce.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h

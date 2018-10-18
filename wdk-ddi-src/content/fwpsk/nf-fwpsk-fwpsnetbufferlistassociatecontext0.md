@@ -6,11 +6,8 @@ description: The FwpsNetBufferListAssociateContext0 function associates the call
 old-location: netvista\fwpsnetbufferlistassociatecontext0.htm
 tech.root: netvista
 ms.assetid: 31135396-303b-4b94-8616-a4b7be207fa1
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FwpsNetBufferListAssociateContext0, FwpsNetBufferListAssociateContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsNetBufferListAssociateContext0, netvista.fwpsnetbufferlistassociatecontext0, wfp_ref_2_funct_3_fwps_J-Q_f30e27fe-3146-4393-b967-fdb7bbfd6370.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpsk.h
 req.include-header: Fwpsk.h

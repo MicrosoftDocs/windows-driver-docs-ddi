@@ -6,11 +6,8 @@ description: The MappingAvailable method indicates that a new mapping is availab
 old-location: audio\iminiportwavepcistream_mappingavailable.htm
 tech.root: audio
 ms.assetid: 11126cc9-43a1-41b1-adc9-13af57157d74
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: IMiniportWavePciStream interface [Audio Devices],MappingAvailable method, IMiniportWavePciStream.MappingAvailable, IMiniportWavePciStream::MappingAvailable, MappingAvailable, MappingAvailable method [Audio Devices], MappingAvailable method [Audio Devices],IMiniportWavePciStream interface, audio.iminiportwavepcistream_mappingavailable, audmp-routines_931efc43-ec71-4b60-905a-47ec374da31e.xml, portcls/IMiniportWavePciStream::MappingAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: Portcls.h

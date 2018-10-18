@@ -6,11 +6,8 @@ description: The Set method sets the region of the target's memory represented b
 old-location: debugger\extremotedata_set_typed.htm
 tech.root: debugger
 ms.assetid: a335f881-7b6f-4069-87fe-c036867b0c77
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: ExtRemoteData class [Windows Debugging],Set method, ExtRemoteData.Set, ExtRemoteData.Set(const DEBUG_TYPED_DATA), ExtRemoteData.Set(const DEBUG_TYPED_DATA*), ExtRemoteData::Set, ExtRemoteData::Set(const DEBUG_TYPED_DATA), Set, Set method [Windows Debugging], Set method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_set_typed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

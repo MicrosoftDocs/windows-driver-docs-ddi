@@ -6,11 +6,8 @@ description: The ScsiPortReadPortBufferUshort routine transfers a given number o
 old-location: storage\scsiportreadportbufferushort.htm
 tech.root: storage
 ms.assetid: b218785c-170e-4a30-99c9-0db8705b7f5d
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: ScsiPortReadPortBufferUshort, ScsiPortReadPortBufferUshort routine [Storage Devices], scsiprt_27acea07-f416-4fa1-894d-6bb38c020f6b.xml, srb/ScsiPortReadPortBufferUshort, storage.scsiportreadportbufferushort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h, Storport.h

@@ -4,11 +4,8 @@ title: D3D12DDI_DEVICE_FUNCS_CORE_0040
 author: windows-driver-content
 description: Core device functions.
 ms.assetid: f4a40b3b-ce5e-4591-aab6-236297623a46
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_DEVICE_FUNCS_CORE_0040, D3D12DDI_DEVICE_FUNCS_CORE_0040,
 req.header: d3d12umddi.h
 req.include-header:

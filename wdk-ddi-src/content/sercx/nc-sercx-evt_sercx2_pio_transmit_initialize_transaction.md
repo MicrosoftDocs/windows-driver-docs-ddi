@@ -6,11 +6,8 @@ description: The EvtSerCx2PioTransmitInitializeTransaction event callback functi
 old-location: serports\evtsercx2piotransmitinitializetransaction.htm
 tech.root: serports
 ms.assetid: 2E3652CB-24F1-4467-AF1D-CFD52392B2DB
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: 2/EvtSerCx2PioTransmitInitializeTransaction, EVT_SERCX2_PIO_TRANSMIT_INITIALIZE_TRANSACTION, EVT_SERCX2_PIO_TRANSMIT_INITIALIZE_TRANSACTION callback, EvtSerCx2PioTransmitInitializeTransaction, EvtSerCx2PioTransmitInitializeTransaction callback function [Serial Ports], serports.evtsercx2piotransmitinitializetransaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sercx.h
 req.include-header: 

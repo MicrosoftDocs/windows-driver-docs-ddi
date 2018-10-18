@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_readmsg.htm
 tech.root: netvista
 ms.assetid: a38c089b-a5f4-4fd2-ab94-ead53228c5e9
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RIL_ReadMsg, RIL_ReadMsg method [Network Drivers Starting with Windows Vista], netvista.ril_readmsg, rilapi/RIL_ReadMsg
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rilapi.h
 req.include-header: 

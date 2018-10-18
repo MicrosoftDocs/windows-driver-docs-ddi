@@ -4,11 +4,8 @@ title: PFND3DKMT_UPDATEGPUVIRTUALADDRESS
 author: windows-driver-content
 description: The PFND3DKMT_UPDATEGPUVIRTUALADDRESS callback function allows the driver to specify a number of mapping operations to be applied to the process virtual address space in a single batch of page table updates.
 ms.assetid: 024f77b9-705e-4fcc-88c0-1d903aa7b951
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

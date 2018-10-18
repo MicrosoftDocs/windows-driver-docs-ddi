@@ -6,11 +6,8 @@ description: The FltGetIoPriorityHint routine is used by a minifilter driver to 
 old-location: ifsk\fltgetiopriorityhint.htm
 tech.root: ifsk
 ms.assetid: 51c2068b-3dde-4e63-985c-51b8f7020948
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_55aba7ac-700d-4cca-9ad1-abf80293041d.xml, FltGetIoPriorityHint, FltGetIoPriorityHint routine [Installable File System Drivers], fltkernel/FltGetIoPriorityHint, ifsk.fltgetiopriorityhint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: FltKernel.h

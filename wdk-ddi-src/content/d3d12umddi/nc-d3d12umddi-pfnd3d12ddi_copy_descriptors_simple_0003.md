@@ -4,11 +4,8 @@ title: PFND3D12DDI_COPY_DESCRIPTORS_SIMPLE_0003
 author: windows-driver-content
 description: Copies a descriptor.
 ms.assetid: 25baad7c-0250-45bd-8257-6d6ffc35810f
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

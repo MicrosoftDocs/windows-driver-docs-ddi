@@ -4,11 +4,8 @@ title: IOMMU_DOMAIN_ATTACH_DEVICE
 author: windows-driver-content
 description: Attaches a device to an existing domain.
 ms.assetid: 9d1b51df-e599-49e4-8465-ad283e60027a
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:

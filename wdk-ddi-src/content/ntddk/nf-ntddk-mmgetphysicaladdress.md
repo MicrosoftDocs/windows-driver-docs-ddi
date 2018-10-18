@@ -6,11 +6,8 @@ description: The MmGetPhysicalAddress routine returns the physical address corre
 old-location: kernel\mmgetphysicaladdress.htm
 tech.root: kernel
 ms.assetid: 2381c1c2-d7fc-4cb2-bbdf-2a95c78c34d0
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: MmGetPhysicalAddress, MmGetPhysicalAddress routine [Kernel-Mode Driver Architecture], k106_1dc50500-ccd1-41a9-8a6c-55e3e283b00b.xml, kernel.mmgetphysicaladdress, ntddk/MmGetPhysicalAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

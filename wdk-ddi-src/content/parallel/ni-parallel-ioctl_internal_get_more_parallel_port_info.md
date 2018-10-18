@@ -6,11 +6,8 @@ description: The IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO request returns info
 old-location: parports\ioctl_internal_get_more_parallel_port_info.htm
 tech.root: parports
 ms.assetid: fe5b9b54-b1b6-48e2-b464-f0f3e9845917
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO, IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO control code [Parallel Ports], cisspd_3f4efeec-5579-44c6-8438-bdb4b4983194.xml, parallel/IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO, parports.ioctl_internal_get_more_parallel_port_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: parallel.h
 req.include-header: Parallel.h

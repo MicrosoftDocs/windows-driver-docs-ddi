@@ -6,11 +6,8 @@ description: The GetProcessOptions method retrieves the process options affectin
 old-location: debugger\getprocessoptions.htm
 tech.root: debugger
 ms.assetid: ff2d4da4-5a10-4196-92bd-ac4b244a2257
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetProcessOptions, GetProcessOptions method [Windows Debugging], GetProcessOptions method [Windows Debugging],IDebugClient interface, GetProcessOptions method [Windows Debugging],IDebugClient2 interface, GetProcessOptions method [Windows Debugging],IDebugClient3 interface, GetProcessOptions method [Windows Debugging],IDebugClient4 interface, GetProcessOptions method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],GetProcessOptions method, IDebugClient2 interface [Windows Debugging],GetProcessOptions method, IDebugClient2::GetProcessOptions, IDebugClient3 interface [Windows Debugging],GetProcessOptions method, IDebugClient3::GetProcessOptions, IDebugClient4 interface [Windows Debugging],GetProcessOptions method, IDebugClient4.GetProcessOptions, IDebugClient4::GetProcessOptions, IDebugClient5 interface [Windows Debugging],GetProcessOptions method, IDebugClient5::GetProcessOptions, IDebugClient::GetProcessOptions, IDebugClient_5d54bc2a-5691-4a3a-b3c9-92fc577cdabb.xml, dbgeng/IDebugClient2::GetProcessOptions, dbgeng/IDebugClient3::GetProcessOptions, dbgeng/IDebugClient4::GetProcessOptions, dbgeng/IDebugClient5::GetProcessOptions, dbgeng/IDebugClient::GetProcessOptions, debugger.getprocessoptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

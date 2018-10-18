@@ -6,11 +6,8 @@ description: The IPrintOemPrintTicketProvider::GetSupportedVersions method retri
 old-location: print\iprintoemprintticketprovider_getsupportedversions.htm
 tech.root: print
 ms.assetid: bd1ca076-5007-4e38-8e90-4017d7dc8b3f
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: GetSupportedVersions, GetSupportedVersions method [Print Devices], GetSupportedVersions method [Print Devices],IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices],GetSupportedVersions method, IPrintOemPrintTicketProvider.GetSupportedVersions, IPrintOemPrintTicketProvider::GetSupportedVersions, prcomoem/IPrintOemPrintTicketProvider::GetSupportedVersions, print.iprintoemprintticketprovider_getsupportedversions, print_ticket-package_f20858fb-a11d-45b4-a8db-6a492b761cfc.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

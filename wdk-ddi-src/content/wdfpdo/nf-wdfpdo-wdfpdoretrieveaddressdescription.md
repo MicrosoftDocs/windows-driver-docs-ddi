@@ -6,11 +6,8 @@ description: The WdfPdoRetrieveAddressDescription method retrieves the address d
 old-location: wdf\wdfpdoretrieveaddressdescription.htm
 tech.root: wdf
 ms.assetid: b19e6492-af8d-48dc-8d17-81c2d8c25a6a
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_14653cca-1eb9-44c0-bcdd-cbb450617659.xml, WdfPdoRetrieveAddressDescription, WdfPdoRetrieveAddressDescription method, kmdf.wdfpdoretrieveaddressdescription, wdf.wdfpdoretrieveaddressdescription, wdfpdo/WdfPdoRetrieveAddressDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfpdo.h
 req.include-header: Wdf.h

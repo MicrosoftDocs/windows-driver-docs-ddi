@@ -6,11 +6,8 @@ description: The GetDmaTransferInfo routine calculates the allocation requiremen
 old-location: kernel\getdmatransferinfo.htm
 tech.root: kernel
 ms.assetid: 27D1FAAE-6DEF-4485-AA29-32CC85A01000
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: GetDmaTransferInfo, GetDmaTransferInfo callback function [Kernel-Mode Driver Architecture], PGET_DMA_TRANSFER_INFO, PGET_DMA_TRANSFER_INFO callback, kernel.getdmatransferinfo, wdm/GetDmaTransferInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

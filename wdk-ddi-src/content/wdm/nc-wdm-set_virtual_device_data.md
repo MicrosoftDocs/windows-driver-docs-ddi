@@ -6,11 +6,8 @@ description: The SetVirtualFunctionData routine writes data to the PCI Express (
 old-location: pci\setvirtualfunctiondata.htm
 tech.root: PCI
 ms.assetid: 12CC6973-E691-425E-A8E8-839F83116D29
-ms.author: windowsdriverdev
 ms.date: 2/24/2018
 ms.keywords: PCI.setvirtualfunctiondata, SET_VIRTUAL_DEVICE_DATA, SetVirtualFunctionData, SetVirtualFunctionData routine, wdm/SetVirtualFunctionData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
 req.include-header: Wdm.h

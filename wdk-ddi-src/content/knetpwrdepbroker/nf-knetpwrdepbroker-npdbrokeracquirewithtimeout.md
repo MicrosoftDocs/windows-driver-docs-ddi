@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\npdbrokeracquirewithtimeout.htm
 tech.root: netvista
 ms.assetid: D2067A72-0FF5-4D77-A1F6-0A6984A1735A
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NpdBrokerAcquireWithTimeout, NpdBrokerAcquireWithTimeout function [Network Drivers Starting with Windows Vista], knetpwrdepbroker/NpdBrokerAcquireWithTimeout, netvista.npdbrokeracquirewithtimeout
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: knetpwrdepbroker.h
 req.include-header: KNetPwrDepBroker.h

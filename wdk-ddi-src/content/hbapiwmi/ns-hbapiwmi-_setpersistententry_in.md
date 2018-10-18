@@ -6,11 +6,8 @@ description: The SetPersistentEntry_IN structure is used by a WMI client to deli
 old-location: storage\setpersistententry_in.htm
 tech.root: storage
 ms.assetid: f088a623-e6e8-4810-a7ab-90348f669dac
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PSetPersistentEntry_IN, PSetPersistentEntry_IN, PSetPersistentEntry_IN structure pointer [Storage Devices], SetPersistentEntry_IN, SetPersistentEntry_IN structure [Storage Devices], _SetPersistentEntry_IN, hbapiwmi/PSetPersistentEntry_IN, hbapiwmi/SetPersistentEntry_IN, storage.setpersistententry_in, structs-Fibre_7382da5e-059a-4e11-9db7-dbc3dae24928.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h

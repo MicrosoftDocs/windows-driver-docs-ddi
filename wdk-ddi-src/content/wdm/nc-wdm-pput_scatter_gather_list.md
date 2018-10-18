@@ -6,11 +6,8 @@ description: The PutScatterGatherList routine frees the previously allocated map
 old-location: kernel\putscattergatherlist.htm
 tech.root: kernel
 ms.assetid: e10091c0-0da6-4acd-8104-9d353262836a
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: PPUT_SCATTER_GATHER_LIST, PPUT_SCATTER_GATHER_LIST callback, PutScatterGatherList, PutScatterGatherList callback function [Kernel-Mode Driver Architecture], kdma_0f73e6d3-bf6c-4f2b-aff9-ae783b2130c5.xml, kernel.putscattergatherlist, ntddk/PutScatterGatherList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

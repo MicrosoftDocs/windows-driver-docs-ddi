@@ -6,11 +6,8 @@ description: The IPrintOemUni::OutputCharStr method enables a rendering plug-in 
 old-location: print\iprintoemuni_outputcharstr.htm
 tech.root: print
 ms.assetid: 73518253-d65a-40ab-8735-44e92fbbed57
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrintOemUni interface [Print Devices],OutputCharStr method, IPrintOemUni.OutputCharStr, IPrintOemUni::OutputCharStr, OutputCharStr, OutputCharStr method [Print Devices], OutputCharStr method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::OutputCharStr, print.iprintoemuni_outputcharstr, print_unidrv-pscript_rendering_89b41d7b-5ceb-44a1-9b48-71751df6e40a.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

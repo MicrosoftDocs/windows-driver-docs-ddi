@@ -6,11 +6,8 @@ description: The IPortTopology interface provides generic port driver support to
 old-location: audio\iporttopology.htm
 tech.root: audio
 ms.assetid: 820b00e8-a917-4bef-ac36-e8103f59d998
-ms.author: windowsdriverdev
 ms.date: 3/19/2018
 ms.keywords: IPortTopology, IPortTopology interface [Audio Devices], IPortTopology interface [Audio Devices], described, audio.iporttopology, audmp-routines_88974b5c-4520-41ed-b0c7-75cceff72e0f.xml, portcls/IPortTopology
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: portcls.h
 req.include-header:

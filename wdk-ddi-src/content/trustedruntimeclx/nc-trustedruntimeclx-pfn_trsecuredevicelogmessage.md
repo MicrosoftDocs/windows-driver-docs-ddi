@@ -4,11 +4,8 @@ title: *PFN_TRSECUREDEVICELOGMESSAGE
 author: windows-driver-content
 description: 
 ms.assetid: 796ac627-fd80-4074-bcf3-a7c23108d518
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:

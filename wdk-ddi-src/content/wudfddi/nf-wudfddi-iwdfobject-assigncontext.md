@@ -6,11 +6,8 @@ description: The AssignContext method registers a context and a driver-supplied 
 old-location: wdf\iwdfobject_assigncontext.htm
 tech.root: wdf
 ms.assetid: 9b543d5d-ed6d-4440-b5ad-aefca69dd489
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: AssignContext, AssignContext method, AssignContext method,IWDFObject interface, IWDFObject interface,AssignContext method, IWDFObject.AssignContext, IWDFObject::AssignContext, UMDFBaseObjectRef_1cc8c14a-66bd-487c-a58d-00f22f52adcc.xml, umdf.iwdfobject_assigncontext, wdf.iwdfobject_assigncontext, wudfddi/IWDFObject::AssignContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

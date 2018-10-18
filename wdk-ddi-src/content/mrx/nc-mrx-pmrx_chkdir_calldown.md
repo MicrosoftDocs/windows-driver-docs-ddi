@@ -6,11 +6,8 @@ description: TheMRxIsValidDirectory routine is called by RDBSS to request that a
 old-location: ifsk\mrxisvaliddirectory.htm
 tech.root: ifsk
 ms.assetid: c52441d8-b273-4e1f-b251-2b35afeda55d
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: MRxIsValidDirectory, MRxIsValidDirectory routine [Installable File System Drivers], PMRX_CHKDIR_CALLDOWN, ifsk.mrxisvaliddirectory, mrx/MRxIsValidDirectory, mrxref_85038658-4d92-4a54-99f1-082fbc61224d.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: mrx.h
 req.include-header: Mrx.h

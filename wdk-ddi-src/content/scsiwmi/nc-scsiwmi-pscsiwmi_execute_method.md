@@ -6,11 +6,8 @@ description: A miniport driver's HwScsiWmiExecuteMethod routine is called to exe
 old-location: storage\hwscsiwmiexecutemethod.htm
 tech.root: storage
 ms.assetid: 67a82442-591e-4e52-aaaf-b3cdb68c483a
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: HwScsiWmiExecuteMethod, HwScsiWmiExecuteMethod callback function [Storage Devices], PSCSIWMI_EXECUTE_METHOD, PSCSIWMI_EXECUTE_METHOD callback, Scsimini_a0b3e943-a363-478d-9d68-09acf0c5b591.xml, scsiwmi/HwScsiWmiExecuteMethod, storage.hwscsiwmiexecutemethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: scsiwmi.h
 req.include-header: Scsiwmi.h

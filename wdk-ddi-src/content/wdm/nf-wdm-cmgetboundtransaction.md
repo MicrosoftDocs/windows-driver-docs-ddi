@@ -6,11 +6,8 @@ description: The CmGetBoundTransaction routine returns a pointer to the transact
 old-location: kernel\cmgetboundtransaction.htm
 tech.root: kernel
 ms.assetid: f38a5ad6-6816-4b27-98ea-51ac1453d90f
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: CmGetBoundTransaction, CmGetBoundTransaction routine [Kernel-Mode Driver Architecture], ConfigMgrRef_bf8b79d4-04cf-4cd2-b25c-4e59c63f0b86.xml, kernel.cmgetboundtransaction, wdm/CmGetBoundTransaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

@@ -4,11 +4,8 @@ title: PFND3D12DDI_GET_META_COMMAND_REQUIRED_PARAMETER_INFO_0052
 author: windows-driver-content
 description: Gets required information for a meta-command.
 ms.assetid: 0056ecd5-aaa6-435e-9812-a88dc5ef27ab
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

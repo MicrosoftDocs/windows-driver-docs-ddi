@@ -6,11 +6,8 @@ description: The IOCTL_ACPI_EVAL_METHOD_V1_EX control code synchronously evaluat
 old-location: acpi\ioctl_acpi_eval_method_v1_ex.htm
 tech.root: acpi
 ms.assetid: 2EACDAE2-C6B4-4906-AB1E-3A8FA781D528
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IOCTL_ACPI_EVAL_METHOD_V1_EX, IOCTL_ACPI_EVAL_METHOD_V1_EX control, IOCTL_ACPI_EVAL_METHOD_V1_EX control code [ACPI Devices], acpi.ioctl_acpi_eval_method_v1_ex, acpiioct/IOCTL_ACPI_EVAL_METHOD_V1_EX
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: acpiioct.h
 req.include-header: Acpiioct.h

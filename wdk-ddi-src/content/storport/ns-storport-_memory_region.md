@@ -6,11 +6,8 @@ description: The MEMORY_REGION structure describes a region of physically contig
 old-location: storage\memory_region.htm
 tech.root: storage
 ms.assetid: b8dbc3d4-7a70-4ec6-b7b0-2b0877fb9722
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PMEMORY_REGION, MEMORY_REGION, MEMORY_REGION structure [Storage Devices], PMEMORY_REGION, PMEMORY_REGION structure pointer [Storage Devices], _MEMORY_REGION, storage.memory_region, storport/MEMORY_REGION, storport/PMEMORY_REGION, structs-storport_4ed10515-f1ce-4767-bbdc-239ac00a5cbe.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: storport.h
 req.include-header: Storport.h

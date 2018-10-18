@@ -6,11 +6,8 @@ description: The IPrintOemDriverUni::DrvUniTextOut method is provided by the Uni
 old-location: print\iprintoemdriveruni_drvunitextout.htm
 tech.root: print
 ms.assetid: f8c21813-9bfd-46a5-abb2-78ac2f2301af
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: DrvUniTextOut, DrvUniTextOut method [Print Devices], DrvUniTextOut method [Print Devices],IPrintOemDriverUni interface, IPrintOemDriverUni interface [Print Devices],DrvUniTextOut method, IPrintOemDriverUni.DrvUniTextOut, IPrintOemDriverUni::DrvUniTextOut, prcomoem/IPrintOemDriverUni::DrvUniTextOut, print.iprintoemdriveruni_drvunitextout, print_unidrv-pscript_rendering_a67dafd9-26b4-43ad-82f9-e53caca33053.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

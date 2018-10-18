@@ -6,11 +6,8 @@ description: The MPIO_TIMERS_COUNTERS structure controls the timer counters that
 old-location: storage\mpio_timers_counters.htm
 tech.root: storage
 ms.assetid: edbca8b0-53c1-4538-ac96-52238d75168d
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PMPIO_TIMERS_COUNTERS, MPIO_TIMERS_COUNTERS, MPIO_TIMERS_COUNTERS structure [Storage Devices], PMPIO_TIMERS_COUNTERS, PMPIO_TIMERS_COUNTERS structure pointer [Storage Devices], _MPIO_TIMERS_COUNTERS, mpiowmi/MPIO_TIMERS_COUNTERS, mpiowmi/PMPIO_TIMERS_COUNTERS, storage.mpio_timers_counters, structs-scsibus_4e4255c8-94e3-4eb0-bf6b-e5c8cddba010.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mpiowmi.h
 req.include-header: Mpiowmi.h

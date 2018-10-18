@@ -6,11 +6,8 @@ description: A driver's OnRemoteInterfaceArrival event callback function informs
 old-location: wdf\ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival.htm
 tech.root: wdf
 ms.assetid: 19a0eec7-1a67-42ad-86d2-20566a2c1268
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IPnpCallbackRemoteInterfaceNotification interface,OnRemoteInterfaceArrival method, IPnpCallbackRemoteInterfaceNotification.OnRemoteInterfaceArrival, IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival, OnRemoteInterfaceArrival, OnRemoteInterfaceArrival method, OnRemoteInterfaceArrival method,IPnpCallbackRemoteInterfaceNotification interface, UMDFDeviceObjectRef_68b238b1-6614-4217-90ae-12ec291fa7ba.xml, umdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival, wdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival, wudfddi/IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

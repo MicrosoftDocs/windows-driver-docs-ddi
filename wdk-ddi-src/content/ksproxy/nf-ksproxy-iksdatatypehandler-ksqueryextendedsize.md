@@ -6,11 +6,8 @@ description: The KsQueryExtendedSize method retrieves extended header informatio
 old-location: stream\iksdatatypehandler_ksqueryextendedsize.htm
 tech.root: stream
 ms.assetid: 14d03e6f-d02c-4b39-8f21-b339c65fb036
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: IKsDataTypeHandler interface [Streaming Media Devices],KsQueryExtendedSize method, IKsDataTypeHandler.KsQueryExtendedSize, IKsDataTypeHandler::KsQueryExtendedSize, KsQueryExtendedSize, KsQueryExtendedSize method [Streaming Media Devices], KsQueryExtendedSize method [Streaming Media Devices],IKsDataTypeHandler interface, ksproxy/IKsDataTypeHandler::KsQueryExtendedSize, ksproxy_b76ac8b2-6bf7-4839-9783-35c865efeb29.xml, stream.iksdatatypehandler_ksqueryextendedsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ksproxy.h
 req.include-header: Ksproxy.h

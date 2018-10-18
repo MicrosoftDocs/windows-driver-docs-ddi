@@ -6,11 +6,8 @@ description: The ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure contains an array of
 old-location: acpi\acpi_enum_children_output_buffer.htm
 tech.root: acpi
 ms.assetid: e7e9fdae-4951-4878-a5b6-81d681eca472
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PACPI_ENUM_CHILDREN_OUTPUT_BUFFER, ACPI_ENUM_CHILDREN_OUTPUT_BUFFER, ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure [ACPI Devices], _ACPI_ENUM_CHILDREN_OUTPUT_BUFFER, acpi-meth-eval-ref_cb8acde5-31cb-4b32-9337-e196db32de8b.xml, acpi.acpi_enum_children_output_buffer, acpiioct/ACPI_ENUM_CHILDREN_OUTPUT_BUFFER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: acpiioct.h
 req.include-header: Acpiioct.h

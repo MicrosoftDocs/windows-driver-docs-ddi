@@ -6,11 +6,8 @@ description: The WdfDeviceMapIoSpace function maps the given physical address ra
 old-location: wdf\wdfdevicemapiospace.htm
 tech.root: wdf
 ms.assetid: 13ECF87D-13F7-4154-A17E-D49A2BB0F83A
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WdfDeviceMapIoSpace, WdfDeviceMapIoSpace function, wdf.wdfdevicemapiospace, wdfdevice/WdfDeviceMapIoSpace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h

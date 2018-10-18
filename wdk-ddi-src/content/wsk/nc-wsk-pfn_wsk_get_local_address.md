@@ -6,11 +6,8 @@ description: The WskGetLocalAddress function retrieves the local transport addre
 old-location: netvista\wskgetlocaladdress.htm
 tech.root: netvista
 ms.assetid: 13cd4199-63f8-49f3-a12f-86e1d367b4aa
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: PFN_WSK_GET_LOCAL_ADDRESS, PFN_WSK_GET_LOCAL_ADDRESS callback, WskGetLocalAddress, WskGetLocalAddress callback function [Network Drivers Starting with Windows Vista], netvista.wskgetlocaladdress, wsk/WskGetLocalAddress, wskref_35a0f32f-247a-435c-83fe-0ba642f8519c.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wsk.h
 req.include-header: Wsk.h

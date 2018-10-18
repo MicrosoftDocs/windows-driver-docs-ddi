@@ -6,11 +6,8 @@ description: The FilterStatus function indicates status changes that are reporte
 old-location: netvista\filterstatus.htm
 tech.root: netvista
 ms.assetid: 051ce37c-a7a5-4367-9495-023fc51349ba
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FILTER_STATUS, FILTER_STATUS callback, FilterStatus, FilterStatus callback function [Network Drivers Starting with Windows Vista], ndis/FilterStatus, ndis_status_ref_4bddf4b3-3869-4e47-ba86-021e9f25484b.xml, netvista.filterstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

@@ -6,11 +6,8 @@ description: This structure represents RILGSMNMR, which is a GSM network measure
 old-location: netvista\rilgsmnmr.htm
 tech.root: netvista
 ms.assetid: 397d882d-c82a-4686-b9ca-58a2fade5256
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*LPRILGSMNMR, RILGSMNMR, RILGSMNMR structure [Network Drivers Starting with Windows Vista], netvista.rilgsmnmr, rilapitypes/RILGSMNMR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h

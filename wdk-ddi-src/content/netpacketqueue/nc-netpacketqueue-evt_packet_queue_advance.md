@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The EvtPacketQueueAdvance callback function is implemented by the client driver to process transmit or receive packets provided by NetAdapterCx.
 tech.root: netvista
 ms.assetid: d4d6becc-ae41-451d-939d-c4169456adb7
-ms.author: windowsdriverdev
 ms.date: 07/16/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: netpacketqueue.h
 req.include-header:
 req.target-type: Universal

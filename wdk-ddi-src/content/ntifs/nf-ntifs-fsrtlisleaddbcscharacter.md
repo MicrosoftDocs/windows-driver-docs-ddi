@@ -6,11 +6,8 @@ description: The FsRtlIsLeadDbcsCharacter macro determines whether a character i
 old-location: ifsk\fsrtlisleaddbcscharacter.htm
 tech.root: ifsk
 ms.assetid: 3cbae037-6205-4315-8ff7-0c67a91c4c69
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FsRtlIsLeadDbcsCharacter, FsRtlIsLeadDbcsCharacter function [Installable File System Drivers], fsrtlref_758a5e18-3446-43c4-8cce-baecdf727f98.xml, ifsk.fsrtlisleaddbcscharacter, ntifs/FsRtlIsLeadDbcsCharacter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ntifs.h
 req.include-header: Ntifs.h

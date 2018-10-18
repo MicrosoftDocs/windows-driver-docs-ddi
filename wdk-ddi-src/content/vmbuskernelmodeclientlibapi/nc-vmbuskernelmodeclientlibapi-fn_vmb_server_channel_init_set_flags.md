@@ -4,11 +4,8 @@ title: FN_VMB_SERVER_CHANNEL_INIT_SET_FLAGS
 author: windows-driver-content
 description: The VmbServerChannelInitSetFlags function sets flags unique to server channel endpoints.
 ms.assetid: 0e4db15f-ec69-4c68-8a7e-da24ec7f5718
-ms.author: windowsdriverdev
 ms.date: 09/13/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

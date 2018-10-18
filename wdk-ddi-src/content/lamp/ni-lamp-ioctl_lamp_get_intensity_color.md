@@ -6,11 +6,8 @@ description: The IOCTL_LAMP_GET_INTENSITY_COLOR control code queries the light i
 old-location: stream\ioctl_lamp_get_intensity_color.htm
 tech.root: stream
 ms.assetid: 8BAAB861-677D-4945-92B7-BDBE7A29695E
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: IOCTL_LAMP_GET_INTENSITY_COLOR, IOCTL_LAMP_GET_INTENSITY_COLOR control, IOCTL_LAMP_GET_INTENSITY_COLOR control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_INTENSITY_COLOR, stream.ioctl_lamp_get_intensity_color
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: lamp.h
 req.include-header: 

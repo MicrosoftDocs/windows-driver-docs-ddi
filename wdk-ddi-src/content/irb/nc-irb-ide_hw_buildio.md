@@ -6,11 +6,8 @@ description: The IdeHwBuildIo miniport driver routine is called one time for eve
 old-location: storage\idehwbuildio.htm
 tech.root: storage
 ms.assetid: 057fb78f-6f1c-4b16-b9fa-6fcff299a90d
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IDE_HW_BUILDIO, IdeHwBuildIo, IdeHwBuildIo routine [Storage Devices], atartns_9111d60c-e0e1-4c5c-aacf-2af56fcf7338.xml, irb/IdeHwBuildIo, storage.idehwbuildio
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: irb.h
 req.include-header: Irb.h

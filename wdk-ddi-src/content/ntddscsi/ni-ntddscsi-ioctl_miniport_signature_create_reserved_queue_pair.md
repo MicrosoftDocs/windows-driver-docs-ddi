@@ -4,11 +4,8 @@ title: IOCTL_MINIPORT_SIGNATURE_CREATE_RESERVED_QUEUE_PAIR
 author: windows-driver-content
 description: 
 ms.assetid: 48859d1c-b9c2-4d44-944f-43b88d528964
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: ioctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: ntddscsi.h
 req.include-header:
 req.target-type:

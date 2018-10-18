@@ -6,11 +6,8 @@ description: The GetResult method tells whether the bidi request was successful.
 old-location: print\ibidirequest_ibidirequest__getresult.htm
 tech.root: print
 ms.assetid: d3d37fd2-b3fa-4664-ba4b-c355197d9b40
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: GetResult, GetResult method [Print Devices], GetResult method [Print Devices],IBidiRequest interface, IBidiRequest interface [Print Devices],GetResult method, IBidiRequest.GetResult, IBidiRequest::GetResult, _win32_IBidiRequest_GetResult, bidispl/IBidiRequest::GetResult, gdi.ibidirequest_ibidirequest__getresult, print.ibidirequest_ibidirequest__getresult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bidispl.h
 req.include-header: 

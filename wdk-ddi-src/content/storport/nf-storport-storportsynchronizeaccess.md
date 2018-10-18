@@ -6,11 +6,8 @@ description: The StorPortSynchronizeAccess routine provides synchronized access 
 old-location: storage\storportsynchronizeaccess.htm
 tech.root: storage
 ms.assetid: eece67ed-faff-4166-8fa0-d501df9c1363
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: StorPortSynchronizeAccess, StorPortSynchronizeAccess routine [Storage Devices], storage.storportsynchronizeaccess, storport/StorPortSynchronizeAccess, storprt_25ee1679-940a-4758-9828-123a9ad24268.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

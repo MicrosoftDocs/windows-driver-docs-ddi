@@ -6,11 +6,8 @@ description: This structure represents the metadata information for the extended
 old-location: stream\kscamera_extendedprop_metadatainfo.htm
 tech.root: stream
 ms.assetid: 6AE59150-8A10-43B6-B910-AEBEDC2FD272
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_METADATAINFO, KSCAMERA_EXTENDEDPROP_METADATAINFO, KSCAMERA_EXTENDEDPROP_METADATAINFO structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_METADATAINFO, PKSCAMERA_EXTENDEDPROP_METADATAINFO structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_METADATAINFO, ksmedia/PKSCAMERA_EXTENDEDPROP_METADATAINFO, stream.kscamera_extendedprop_metadatainfo, tagKSCAMERA_EXTENDEDPROP_METADATAINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksmedia.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The D3dDrawPrimitives2 function renders primitives and returns the 
 old-location: display\d3ddrawprimitives2.htm
 tech.root: display
 ms.assetid: 6128ff7a-0d2c-48df-8b5e-cab33c5a74f5
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3dDrawPrimitives2, D3dDrawPrimitives2 callback function [Display Devices], LPD3DHAL_DRAWPRIMITIVES2CB, LPD3DHAL_DRAWPRIMITIVES2CB callback, d3dfncs_5f3743b4-be3f-4216-883a-af5103a38c7a.xml, d3dhal/D3dDrawPrimitives2, display.d3ddrawprimitives2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dhal.h
 req.include-header: D3dhal.h

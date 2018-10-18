@@ -6,11 +6,8 @@ description: Defines operations and properties for the collection of actions tha
 old-location: dtf\iwdtfactions2.htm
 tech.root: dtf
 ms.assetid: cf78bd7f-7d92-421f-8f68-e56db5e7c7d4
-ms.author: windowsdriverdev
 ms.date: 4/4/2018
 ms.keywords: IWDTFActions2, IWDTFActions2 interface [Windows Device Testing Framework], IWDTFActions2 interface [Windows Device Testing Framework],described, dtf.iwdtfactions2, wdtf/IWDTFActions2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wdtf.h
 req.include-header: 

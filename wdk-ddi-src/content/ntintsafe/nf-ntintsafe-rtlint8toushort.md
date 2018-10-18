@@ -6,11 +6,8 @@ description: Converts a value of type INT8 to a value of type USHORT.
 old-location: kernel\rtlint8toushort.htm
 tech.root: kernel
 ms.assetid: E0756361-CC11-4C24-9230-666836462BEF
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlInt8ToUShort, RtlInt8ToUShort function [Kernel-Mode Driver Architecture], kernel.rtlint8toushort, ntintsafe/RtlInt8ToUShort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

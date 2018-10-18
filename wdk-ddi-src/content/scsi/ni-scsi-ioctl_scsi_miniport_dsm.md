@@ -6,11 +6,8 @@ description: A Data Set Management (DSM) notification is transferred to a minipo
 old-location: storage\ioctl_scsi_miniport_dsm.htm
 tech.root: storage
 ms.assetid: CA91B623-F926-453D-A348-92655875D801
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IOCTL_SCSI_MINIPORT_DSM, IOCTL_SCSI_MINIPORT_DSM control, IOCTL_SCSI_MINIPORT_DSM control code [Storage Devices], scsi/IOCTL_SCSI_MINIPORT_DSM, storage.ioctl_scsi_miniport_dsm
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: scsi.h
 req.include-header: Ntddscsi.h, Storport.h

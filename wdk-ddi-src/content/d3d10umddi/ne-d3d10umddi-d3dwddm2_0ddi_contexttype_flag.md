@@ -5,11 +5,8 @@ author: windows-driver-content
 description: D3DWDDM2_0DDI_CONTEXTTYPE_FLAG describes the type of context being created for interacting with JPEG hardware.
 old-location: display\d3dwddm2_0ddi_contexttype_flag.htm
 ms.assetid: F767C051-637A-4912-80B0-36C4DF7E46DD
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DWDDM2_0DDI_CONTEXTTYPE_3D, D3DWDDM2_0DDI_CONTEXTTYPE_ALL, D3DWDDM2_0DDI_CONTEXTTYPE_COMPUTE, D3DWDDM2_0DDI_CONTEXTTYPE_COPY, D3DWDDM2_0DDI_CONTEXTTYPE_FLAG, D3DWDDM2_0DDI_CONTEXTTYPE_FLAG enumeration [Display Devices], D3DWDDM2_0DDI_CONTEXTTYPE_IMAGE, D3DWDDM2_0DDI_CONTEXTTYPE_VIDEO, d3d10umddi/D3DWDDM2_0DDI_CONTEXTTYPE_3D, d3d10umddi/D3DWDDM2_0DDI_CONTEXTTYPE_ALL, d3d10umddi/D3DWDDM2_0DDI_CONTEXTTYPE_COMPUTE, d3d10umddi/D3DWDDM2_0DDI_CONTEXTTYPE_COPY, d3d10umddi/D3DWDDM2_0DDI_CONTEXTTYPE_FLAG, d3d10umddi/D3DWDDM2_0DDI_CONTEXTTYPE_IMAGE, d3d10umddi/D3DWDDM2_0DDI_CONTEXTTYPE_VIDEO, display.d3dwddm2_0ddi_contexttype_flag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

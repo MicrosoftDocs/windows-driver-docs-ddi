@@ -6,11 +6,8 @@ description: The WdfUsbTargetPipeFormatRequestForRead method builds a read reque
 old-location: wdf\wdfusbtargetpipeformatrequestforread.htm
 tech.root: wdf
 ms.assetid: 33a6f597-2f33-4214-80c1-8bded182800a
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFUsbRef_5cd8eeb4-5822-44ef-ba50-e978b780463b.xml, WdfUsbTargetPipeFormatRequestForRead, WdfUsbTargetPipeFormatRequestForRead method, kmdf.wdfusbtargetpipeformatrequestforread, wdf.wdfusbtargetpipeformatrequestforread, wdfusb/WdfUsbTargetPipeFormatRequestForRead
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

@@ -6,11 +6,8 @@ description: The GetDeviceStackIoTypePreference method retrieves the buffer acce
 old-location: wdf\iwdfdevice2_getdevicestackiotypepreference.htm
 tech.root: wdf
 ms.assetid: 3a1f6432-3f61-4502-ac98-fa984539f88e
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: GetDeviceStackIoTypePreference, GetDeviceStackIoTypePreference method, GetDeviceStackIoTypePreference method,IWDFDevice2 interface, IWDFDevice2 interface,GetDeviceStackIoTypePreference method, IWDFDevice2.GetDeviceStackIoTypePreference, IWDFDevice2::GetDeviceStackIoTypePreference, UMDFDeviceObjectRef_f6402826-fe3b-46c7-a4a8-d1d4f74e4b5c.xml, umdf.iwdfdevice2_getdevicestackiotypepreference, wdf.iwdfdevice2_getdevicestackiotypepreference, wudfddi/IWDFDevice2::GetDeviceStackIoTypePreference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

@@ -6,11 +6,8 @@ description: The IOCTL_USB_HUB_CYCLE_PORT I/O control request power-cycles the p
 old-location: buses\ioctl_usb_hub_cycle_port.htm
 tech.root: usbref
 ms.assetid: 21d9af73-bd30-43d6-93b1-c29f763a4fcd
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: IOCTL_USB_HUB_CYCLE_PORT, IOCTL_USB_HUB_CYCLE_PORT control, IOCTL_USB_HUB_CYCLE_PORT control code [Buses], buses.ioctl_usb_hub_cycle_port, usbioctl/IOCTL_USB_HUB_CYCLE_PORT, usbirp_8e57d8e6-316b-475d-88cc-87e00b4ee6fb.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: usbioctl.h
 req.include-header: Usbioctl.h

@@ -6,11 +6,8 @@ description: Device control IRPs with a control code of IOCTL_CDROM_READ_TOC_EX 
 old-location: storage\cdrom_toc_atip_data.htm
 tech.root: storage
 ms.assetid: 4caf59d4-262a-49e3-8b66-9cf29ed5cee5
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PCDROM_TOC_ATIP_DATA, CDROM_TOC_ATIP_DATA, CDROM_TOC_ATIP_DATA structure [Storage Devices], PCDROM_TOC_ATIP_DATA, PCDROM_TOC_ATIP_DATA structure pointer [Storage Devices], _CDROM_TOC_ATIP_DATA, ntddcdrm/CDROM_TOC_ATIP_DATA, ntddcdrm/PCDROM_TOC_ATIP_DATA, storage.cdrom_toc_atip_data, structs-CD-ROM_57534148-0c2f-4182-8b0e-3fe4ed10505e.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h

@@ -4,12 +4,9 @@ title: _D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE
 author: windows-driver-content
 description: Specifies the final wire signaling color space values.
 ms.assetid: 56328267-47fd-4d35-b033-34b5835a3802
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: enum
 ms.keywords: _D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE, D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE,
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dukmdt.h
 req.include-header:
 req.target-type:

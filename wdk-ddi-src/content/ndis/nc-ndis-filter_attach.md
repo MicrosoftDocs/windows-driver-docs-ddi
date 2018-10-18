@@ -6,11 +6,8 @@ description: NDIS calls a filter driver's FilterAttach function to allocate and 
 old-location: netvista\filterattach.htm
 tech.root: netvista
 ms.assetid: 0a15a8c9-74af-4d93-bd12-a3c81c177684
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FILTER_ATTACH, FILTER_ATTACH callback, FilterAttach, FilterAttach callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_1e3f64d6-a779-4732-824a-87af6a7adc25.xml, ndis/FilterAttach, netvista.filterattach
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

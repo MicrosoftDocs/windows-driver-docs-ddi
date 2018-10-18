@@ -6,11 +6,8 @@ description: NDIS calls the MiniportMessageInterrupt function when a NIC generat
 old-location: netvista\miniportmessageinterrupt.htm
 tech.root: netvista
 ms.assetid: ec2e6f49-dc40-48e8-96dc-c9440a6662a3
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: MINIPORT_MESSAGE_INTERRUPT, MINIPORT_MESSAGE_INTERRUPT callback, MiniportMessageInterrupt, MiniportMessageInterrupt callback function [Network Drivers Starting with Windows Vista], ndis/MiniportMessageInterrupt, ndis_interrupts_miniport_functions_ref_77780217-8bf5-457e-81dc-3e079fe77abd.xml, netvista.miniportmessageinterrupt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

@@ -4,11 +4,8 @@ title: DXGKDDI_ENDEXCLUSIVEACCESS
 author: windows-driver-content
 description: Implemented by the client driver to end exclusive access.
 ms.assetid: 942f37e5-310a-4233-bda9-5e606d41756e
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

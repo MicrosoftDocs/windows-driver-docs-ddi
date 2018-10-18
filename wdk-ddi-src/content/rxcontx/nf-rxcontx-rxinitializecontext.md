@@ -6,11 +6,8 @@ description: RxInitializeContext initializes an existing RX_CONTEXT data structu
 old-location: ifsk\rxinitializecontext.htm
 tech.root: ifsk
 ms.assetid: 71b595be-61ac-4a8f-af5e-d504e5091e0c
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RxInitializeContext, RxInitializeContext function [Installable File System Drivers], ifsk.rxinitializecontext, rxcontx/RxInitializeContext, rxref_4092dc37-eda5-4293-ab39-bec3ed2753f6.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rxcontx.h
 req.include-header: Rxprocs.h  rxcontx.h

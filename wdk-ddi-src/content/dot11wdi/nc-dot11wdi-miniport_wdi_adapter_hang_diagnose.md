@@ -6,11 +6,8 @@ description: The MiniportWdiAdapterHangDiagnose handler function is used to coll
 old-location: netvista\miniportwdiadapterhangdiagnose.htm
 tech.root: netvista
 ms.assetid: 233CCF43-481E-4759-A2FC-0329103F8208
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE, MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE callback, MiniportWdiAdapterHangDiagnose, MiniportWdiAdapterHangDiagnose callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiAdapterHangDiagnose, netvista.miniportwdiadapterhangdiagnose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dot11wdi.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: A miniport driver calls the NdisMGetVirtualFunctionLocation functio
 old-location: netvista\ndismgetvirtualfunctionlocation.htm
 tech.root: netvista
 ms.assetid: 772A7763-67C0-4218-8C5F-23972475D2C9
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisMGetVirtualFunctionLocation, NdisMGetVirtualFunctionLocation function [Network Drivers Starting with Windows Vista], ndis/NdisMGetVirtualFunctionLocation, netvista.ndismgetvirtualfunctionlocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

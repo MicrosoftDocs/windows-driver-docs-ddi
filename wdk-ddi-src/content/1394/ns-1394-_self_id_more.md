@@ -6,11 +6,8 @@ description: The SELF_ID_MORE structure contains a raw packet one, two, or three
 old-location: ieee\self_id_more.htm
 tech.root: IEEE
 ms.assetid: d3c164a6-4830-4f1f-9fa5-5cd61e796e31
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PSELF_ID_MORE, 1394/PSELF_ID_MORE, 1394/SELF_ID_MORE, 1394stct_cbfa017d-065b-45ce-ae08-6a6589c6b477.xml, IEEE.self_id_more, PSELF_ID_MORE, PSELF_ID_MORE structure pointer [Buses], SELF_ID_MORE, SELF_ID_MORE structure [Buses], _SELF_ID_MORE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 1394.h
 req.include-header: 1394.h

@@ -6,11 +6,8 @@ description: The FltEnumerateInstanceInformationByDeviceObject routine provides 
 old-location: ifsk\fltenumerateinstanceinformationbydeviceobject.htm
 tech.root: ifsk
 ms.assetid: 3E7754A3-3A7A-4036-B524-CBA40EF22048
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltEnumerateInstanceInformationByDeviceObject, FltEnumerateInstanceInformationByDeviceObject routine [Installable File System Drivers], fltkernel/FltEnumerateInstanceInformationByDeviceObject, ifsk.fltenumerateinstanceinformationbydeviceobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

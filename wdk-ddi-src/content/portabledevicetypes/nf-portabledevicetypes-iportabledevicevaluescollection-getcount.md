@@ -6,11 +6,8 @@ description: Retrieves the number of items in the collection.
 old-location: wpddk\iportabledevicevaluescollection_getcount.htm
 tech.root: wpd_dk
 ms.assetid: e94a1a6a-8c2d-45ee-96cf-08566373e8f5
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: GetCount, GetCount method, GetCount method,IPortableDeviceValuesCollection interface, IPortableDeviceValuesCollection interface,GetCount method, IPortableDeviceValuesCollection.GetCount, IPortableDeviceValuesCollection::GetCount, IPortableDeviceValuesCollectionGetCount, portabledevicetypes/IPortableDeviceValuesCollection::GetCount, wpddk.iportabledevicevaluescollection_getcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledevicetypes.h
 req.include-header: 

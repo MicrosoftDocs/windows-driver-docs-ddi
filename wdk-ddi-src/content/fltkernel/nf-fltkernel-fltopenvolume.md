@@ -6,11 +6,8 @@ description: The FltOpenVolume routine returns a handle and a file object pointe
 old-location: ifsk\fltopenvolume.htm
 tech.root: ifsk
 ms.assetid: 99cfa1eb-3d0f-4e27-9884-f5789ee328c3
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_fa9d628c-94e6-46f5-9f8f-9923c554a15f.xml, FltOpenVolume, FltOpenVolume routine [Installable File System Drivers], fltkernel/FltOpenVolume, ifsk.fltopenvolume
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

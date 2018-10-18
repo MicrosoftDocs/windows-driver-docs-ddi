@@ -4,11 +4,8 @@ title: _D3DKMT_GETRUNTIMEDATA
 author: windows-driver-content
 description: Used to get runtime data.
 ms.assetid: cbd30292-94ee-4be6-a4b4-e0a22c2022ee
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_GETRUNTIMEDATA, D3DKMT_GETRUNTIMEDATA, 
 req.header: d3dkmthk.h
 req.include-header:

@@ -6,11 +6,8 @@ description: The StorPortAcquireSpinLock routine acquires the specified spin loc
 old-location: storage\storportacquirespinlock.htm
 tech.root: storage
 ms.assetid: 52a877c7-b274-4bec-b948-edb0585a09e1
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: StorPortAcquireSpinLock, StorPortAcquireSpinLock routine [Storage Devices], storage.storportacquirespinlock, storport/StorPortAcquireSpinLock, storprt_a5092ef5-d8ab-4175-8799-df23cfcd4dc8.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

@@ -4,11 +4,8 @@ title: IIndexableConcept
 author: windows-driver-content
 description: Any object which is a container that supports random access retrieval of elements from given N-dimensional indexers implements IIndexableConcept.
 ms.assetid: 8d92fead-7ccb-40f5-9eb7-b7d6ef5cec45
-ms.author: windowsdriverdev
 ms.date: 10/04/2018
 ms.topic: interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

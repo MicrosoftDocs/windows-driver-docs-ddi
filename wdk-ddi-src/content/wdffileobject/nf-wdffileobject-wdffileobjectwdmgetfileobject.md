@@ -6,11 +6,8 @@ description: The WdfFileObjectWdmGetFileObject method returns the Windows Driver
 old-location: wdf\wdffileobjectwdmgetfileobject.htm
 tech.root: wdf
 ms.assetid: f3cc9b23-6140-4cb2-959d-c76f23c697ea
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFFileObjectRef_1631ea08-9156-4de4-85e6-9368b89ae0f4.xml, WdfFileObjectWdmGetFileObject, WdfFileObjectWdmGetFileObject method, kmdf.wdffileobjectwdmgetfileobject, wdf.wdffileobjectwdmgetfileobject, wdffileobject/WdfFileObjectWdmGetFileObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdffileobject.h
 req.include-header: Wdf.h

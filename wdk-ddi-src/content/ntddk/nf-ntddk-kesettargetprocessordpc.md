@@ -6,11 +6,8 @@ description: The KeSetTargetProcessorDpc routine specifies the processor that a 
 old-location: kernel\kesettargetprocessordpc.htm
 tech.root: kernel
 ms.assetid: 9fd86250-a495-4628-a07b-f5c44df69c0e
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: KeSetTargetProcessorDpc, KeSetTargetProcessorDpc routine [Kernel-Mode Driver Architecture], k105_a7931e50-ba41-47a0-9056-e9479ac46808.xml, kernel.kesettargetprocessordpc, wdm/KeSetTargetProcessorDpc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

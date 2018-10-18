@@ -6,11 +6,8 @@ description: ChangerPerformDiagnostics performs diagnostic tests on the changer 
 old-location: storage\changerperformdiagnostics.htm
 tech.root: storage
 ms.assetid: 87767b2b-8ca3-4d19-8719-673562246a41
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: ChangerPerformDiagnostics, ChangerPerformDiagnostics function [Storage Devices], chgrmini_dd38573a-a1cc-4b7b-abdf-0a200ba11d88.xml, mcd/ChangerPerformDiagnostics, storage.changerperformdiagnostics
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h

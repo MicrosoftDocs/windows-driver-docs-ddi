@@ -4,11 +4,8 @@ title: D3COLD_REQUEST_AUX_POWER
 author: windows-driver-content
 description: Enables the function device object (FDO) to convey its auxiliary power requirement.
 ms.assetid: c367131f-520b-4d5a-8ccd-e465057cf102
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:

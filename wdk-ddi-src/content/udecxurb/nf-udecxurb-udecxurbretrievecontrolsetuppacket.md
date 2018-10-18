@@ -6,11 +6,8 @@ description: Retrieves a USB control setup packet from a specified framework req
 old-location: buses\udecxurbretrievecontrolsetuppacket.htm
 tech.root: usbref
 ms.assetid: 09D9AB68-12DB-442F-897B-6C6BD8B5F030
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: UdecxUrbRetrieveControlSetupPacket, UdecxUrbRetrieveControlSetupPacket function [Buses], buses.udecxurbretrievecontrolsetuppacket, udecxurb/UdecxUrbRetrieveControlSetupPacket
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: udecxurb.h
 req.include-header: Udecx.h

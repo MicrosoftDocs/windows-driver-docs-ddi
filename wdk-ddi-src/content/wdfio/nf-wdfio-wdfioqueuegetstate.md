@@ -6,11 +6,8 @@ description: The WdfIoQueueGetState method returns the status of a specified I/O
 old-location: wdf\wdfioqueuegetstate.htm
 tech.root: wdf
 ms.assetid: 83bfddd5-fc4d-4f5c-9904-7564810f5b4c
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFQueueObjectRef_756666e1-e5eb-4bcc-907e-65b10e580396.xml, WdfIoQueueGetState, WdfIoQueueGetState method, kmdf.wdfioqueuegetstate, wdf.wdfioqueuegetstate, wdfio/WdfIoQueueGetState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfio.h
 req.include-header: Wdf.h

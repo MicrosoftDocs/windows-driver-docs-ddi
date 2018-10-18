@@ -6,11 +6,8 @@ description: A SCSI_WMILIB_CONTEXT structure provides registration information f
 old-location: storage\scsi_wmilib_context.htm
 tech.root: storage
 ms.assetid: 7886cee8-1142-42e6-8206-84667621ba77
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PSCSI_WMILIB_CONTEXT, PSCSI_WMILIB_CONTEXT, PSCSI_WMILIB_CONTEXT structure pointer [Storage Devices], SCSI_WMILIB_CONTEXT, SCSI_WMILIB_CONTEXT structure [Storage Devices], _SCSIWMILIB_CONTEXT, scsiwmi/PSCSI_WMILIB_CONTEXT, scsiwmi/SCSI_WMILIB_CONTEXT, storage.scsi_wmilib_context, structs-scsibus_725dbb64-2d39-493d-b1bf-e056ca31244f.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: scsiwmi.h
 req.include-header: Scsiwmi.h

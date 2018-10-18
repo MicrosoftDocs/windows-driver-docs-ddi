@@ -6,11 +6,8 @@ description: The HidP_GetValueCaps routine returns a value capability array that
 old-location: hid\hidp_getvaluecaps.htm
 tech.root: hid
 ms.assetid: 74c26072-3b41-4d5c-96a1-d9c5b37ed97a
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: HidP_GetValueCaps, HidP_GetValueCaps routine [Human Input Devices], hid.hidp_getvaluecaps, hidfunc_e600ab99-103c-43dd-b37b-fe35a96b2482.xml, hidpi/HidP_GetValueCaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hidpi.h
 req.include-header: Hidpi.h

@@ -4,11 +4,8 @@ title: PFND3DKMT_DESTROYKEYEDMUTEX
 author: windows-driver-content
 description: The PFND3DKMT_DESTROYKEYEDMUTEX callback function destroys keyed mutex.
 ms.assetid: 35854482-8cd3-4d14-8f42-2917dfe134f2
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_setsystemselectionprefs.htm
 tech.root: netvista
 ms.assetid: 57384690-9fe0-4fee-a578-5451e57cfc6b
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RIL_SetSystemSelectionPrefs, RIL_SetSystemSelectionPrefs method [Network Drivers Starting with Windows Vista], netvista.ril_setsystemselectionprefs, rilapi/RIL_SetSystemSelectionPrefs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rilapi.h
 req.include-header: 

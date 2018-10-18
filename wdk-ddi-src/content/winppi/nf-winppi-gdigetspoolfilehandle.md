@@ -6,11 +6,8 @@ description: The GdiGetSpoolFileHandle function returns a handle to a print job'
 old-location: print\gdigetspoolfilehandle.htm
 tech.root: print
 ms.assetid: c820ee94-29c2-4478-884c-49dd68cd713a
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: GdiGetSpoolFileHandle, GdiGetSpoolFileHandle function [Print Devices], gdifnc_f7231fd8-33b0-4047-90ba-e5e2c9c37814.xml, print.gdigetspoolfilehandle, winppi/GdiGetSpoolFileHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winppi.h
 req.include-header: Winppi.h

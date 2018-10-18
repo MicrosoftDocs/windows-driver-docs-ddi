@@ -4,11 +4,8 @@ title: _PORT_DATA_LIST_1
 author: windows-driver-content
 description: 
 ms.assetid: 6b3f171b-de8f-4a5d-b72f-2c1534a6bf7a
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _PORT_DATA_LIST_1, PORT_DATA_LIST_1, *PPORT_DATA_LIST_1, 
 req.header: tcpxcv.h
 req.include-header:

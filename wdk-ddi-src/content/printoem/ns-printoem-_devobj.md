@@ -6,11 +6,8 @@ description: The DEVOBJ structure is used as an input argument to several of a r
 old-location: print\devobj.htm
 tech.root: print
 ms.assetid: cdcd0437-e4fc-4041-827f-caa3c435325c
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: "*PDEVOBJ, DEVOBJ, DEVOBJ structure [Print Devices], _DEVOBJ, print.devobj, print_unidrv-pscript_rendering_defda1bb-3862-4b55-a7bf-38b040667c97.xml, printoem/DEVOBJ"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: printoem.h
 req.include-header: Printoem.h

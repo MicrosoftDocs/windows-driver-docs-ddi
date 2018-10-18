@@ -4,7 +4,6 @@ title: USBPM_HUB_CONNECTOR_HANDLES_INIT function
 author: windows-driver-content
 description: Initializes a **USBPM_HUB_CONNECTOR_HANDLES** structure.
 ms.assetid: 0d6bdd1f-9bab-47c4-889d-d9a2bed47e20
-ms.author: windowsdriverdev
 ms.date: 9/30/2018 
 ms.topic: function
 ms.keywords: USBPM_HUB_CONNECTOR_HANDLES_INIT

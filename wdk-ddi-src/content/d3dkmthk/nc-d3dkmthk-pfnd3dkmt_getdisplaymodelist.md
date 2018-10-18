@@ -4,11 +4,8 @@ title: PFND3DKMT_GETDISPLAYMODELIST
 author: windows-driver-content
 description: Pfnd3dkmtGetdisplaymodelist retrieves a list of available display modes, including modes with extended format.
 ms.assetid: c7171063-216c-4a9e-b586-7fbad6a84357
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

@@ -4,11 +4,8 @@ title: IOCTL_SBAUD_GET_ERROR_STATUS_UPDATE
 author: windows-driver-content
 description: 
 ms.assetid: 41511734-9bbb-4a5f-ac65-e8eb0c455185
-ms.author: windowsdriverdev
 ms.date: 10/05/2018
 ms.topic: ioctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:

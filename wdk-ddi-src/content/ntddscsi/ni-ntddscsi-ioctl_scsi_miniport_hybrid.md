@@ -6,11 +6,8 @@ description: The IOCTL_SCSI_MINIPORT_HYBRID control code sends a hybrid disk con
 old-location: storage\ioctl_scsi_miniport_hybrid.htm
 tech.root: storage
 ms.assetid: 57DA022A-FAC6-4727-94E1-BCF6FEF1E945
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IOCTL_SCSI_MINIPORT_HYBRID, IOCTL_SCSI_MINIPORT_HYBRID control, IOCTL_SCSI_MINIPORT_HYBRID control code [Storage Devices], ntddscsi/IOCTL_SCSI_MINIPORT_HYBRID, storage.ioctl_scsi_miniport_hybrid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h

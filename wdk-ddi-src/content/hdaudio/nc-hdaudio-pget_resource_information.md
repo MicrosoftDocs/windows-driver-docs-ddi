@@ -6,11 +6,8 @@ description: The GetResourceInformation routine retrieves information about hard
 old-location: audio\getresourceinformation.htm
 tech.root: audio
 ms.assetid: ba1f0fa2-77dd-4ec3-86c8-c5d74465743f
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: GetResourceInformation, GetResourceInformation callback function [Audio Devices], PGET_RESOURCE_INFORMATION, PGET_RESOURCE_INFORMATION callback, aud-prop2_03b48e3f-0650-45eb-b1d2-0db5e2e98636.xml, audio.getresourceinformation, hdaudio/GetResourceInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: hdaudio.h
 req.include-header: Hdaudio.h

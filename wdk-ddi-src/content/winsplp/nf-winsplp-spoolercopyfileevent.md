@@ -6,11 +6,8 @@ description: A Point and Print DLL's SpoolerCopyFileEvent function receives noti
 old-location: print\spoolercopyfileevent.htm
 tech.root: print
 ms.assetid: 39e9b596-7726-439c-8ad9-a987fdfd3860
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: SpoolerCopyFileEvent, SpoolerCopyFileEvent function [Print Devices], poprfnc_e85f9707-18cf-4cd5-aece-ebcd5fd09270.xml, print.spoolercopyfileevent, winsplp/SpoolerCopyFileEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsplp.h
 req.include-header: Winsplp.h

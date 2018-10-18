@@ -6,11 +6,8 @@ description: The IoFreeIrp routine releases a caller-allocated IRP from the call
 old-location: kernel\iofreeirp.htm
 tech.root: kernel
 ms.assetid: 4a032d44-c6c2-4dce-97ea-28ac47f6ad6c
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IoFreeIrp, IoFreeIrp routine [Kernel-Mode Driver Architecture], k104_fc262cc4-a482-4a92-9f8e-1e5765c9b1d4.xml, kernel.iofreeirp, wdm/IoFreeIrp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

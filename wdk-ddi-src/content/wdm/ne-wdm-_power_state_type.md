@@ -6,11 +6,8 @@ description: The POWER_STATE_TYPE enumeration type indicates that a power state 
 old-location: kernel\power_state_type.htm
 tech.root: kernel
 ms.assetid: d0e97474-4119-4359-a9f9-644c82df7fab
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PPOWER_STATE_TYPE, DevicePowerState, POWER_STATE_TYPE, POWER_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], PPOWER_STATE_TYPE, PPOWER_STATE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], SystemPowerState, _POWER_STATE_TYPE, kernel.power_state_type, sysenum_bdfdaea1-ec64-4b74-96d0-95641797ebb4.xml, wdm/DevicePowerState, wdm/POWER_STATE_TYPE, wdm/PPOWER_STATE_TYPE, wdm/SystemPowerState"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ntpoapi.h

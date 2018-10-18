@@ -6,11 +6,8 @@ description: The INQUIRYDATA structure is used in conjunction with the TapeMiniE
 old-location: storage\inquirydata.htm
 tech.root: storage
 ms.assetid: 2389fb1e-b16a-4d0a-b347-8b8a0f1cf061
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PINQUIRYDATA, INQUIRYDATA, INQUIRYDATA structure [Storage Devices], PINQUIRYDATA, PINQUIRYDATA structure pointer [Storage Devices], _INQUIRYDATA, scsi/INQUIRYDATA, scsi/PINQUIRYDATA, storage.inquirydata, structs-tape_be59bcac-0d77-4186-99a6-97c34bb37793.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: minitape.h
 req.include-header: Scsi.h, Minitape.h, Storport.h

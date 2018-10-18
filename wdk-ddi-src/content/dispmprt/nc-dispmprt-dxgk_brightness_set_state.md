@@ -6,11 +6,8 @@ description: Enables smooth brightness control on an integrated display panel.
 old-location: display\dxgkddisetbrightnessstate.htm
 tech.root: display
 ms.assetid: 804046ff-0cc7-4ff0-be07-b574cb40fd2b
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGK_BRIGHTNESS_SET_STATE, DXGK_BRIGHTNESS_SET_STATE callback, DxgkDdiSetBrightnessState, DxgkDdiSetBrightnessState callback function [Display Devices], display.dxgkddisetbrightnessstate, dispmprt/DxgkDdiSetBrightnessState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dispmprt.h
 req.include-header: Dispmprt.h

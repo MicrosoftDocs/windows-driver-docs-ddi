@@ -6,11 +6,8 @@ description: The KeQueryNodeActiveAffinity routine gets the current processor af
 old-location: kernel\kequerynodeactiveaffinity.htm
 tech.root: kernel
 ms.assetid: 49d4c9c7-217f-41b7-b870-886dd78e04a9
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: KeQueryNodeActiveAffinity, KeQueryNodeActiveAffinity routine [Kernel-Mode Driver Architecture], k105_05e2547a-e13e-4ade-9139-29690a72e9ed.xml, kernel.kequerynodeactiveaffinity, wdm/KeQueryNodeActiveAffinity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

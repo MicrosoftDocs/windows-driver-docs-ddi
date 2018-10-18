@@ -4,11 +4,8 @@ title: DXGK_BRIGHTNESS_SET_3
 author: windows-driver-content
 description: DxgkBrightnessSet3 Directs the driver to linearly ramp the brightness from its current brightness level to a target brightness level over a specified length of time.
 ms.assetid: 8466303f-b811-43e0-91e2-4322a5f3fa83
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dispmprt.h
 req.include-header:
 req.target-type:

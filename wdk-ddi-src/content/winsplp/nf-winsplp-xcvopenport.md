@@ -6,11 +6,8 @@ description: A port monitor server DLL's XcvOpenPort function opens a port for c
 old-location: print\xcvopenport.htm
 tech.root: print
 ms.assetid: ba0f5820-08eb-40c7-9593-7434ee0e29c6
-ms.author: windowsdriverdev
 ms.date: 2/2/2018
 ms.keywords: print.xcvopenport, spoolfnc_d2e14d20-1b34-49f5-a627-7b08ccc79ccf.xml, winsplp/XcvOpenPort, XcvOpenPort function [Print Devices], XcvOpenPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsplp.h
 req.include-header: Winsplp.h

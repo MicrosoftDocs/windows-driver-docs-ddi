@@ -4,11 +4,8 @@ title: PFND3D12DDI_RECLAIMRESOURCES_0001
 author: windows-driver-content
 description: Implemented by the client driver to reclaim resources.
 ms.assetid: 3a8ee9d9-b122-4fe8-8243-70c3872ab95d
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

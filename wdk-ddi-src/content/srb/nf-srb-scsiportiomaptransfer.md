@@ -6,11 +6,8 @@ description: The ScsiPortIoMapTransfer routine sets up the system DMA controller
 old-location: storage\scsiportiomaptransfer.htm
 tech.root: storage
 ms.assetid: 627a2d4c-22c8-48ea-b409-dc246c85a316
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: ScsiPortIoMapTransfer, ScsiPortIoMapTransfer routine [Storage Devices], scsiprt_9473c978-7355-4296-b8ac-07b20f6ea441.xml, srb/ScsiPortIoMapTransfer, storage.scsiportiomaptransfer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h

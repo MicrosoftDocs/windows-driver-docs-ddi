@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbChannelSetTransactionQuota function sets the incoming packet quota.
 tech.root: netvista
 ms.assetid: a5e56060-b5b9-4d65-8808-1d4a430521fa
-ms.author: windowsdriverdev
 ms.date: 05/22/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

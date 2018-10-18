@@ -6,11 +6,8 @@ description: The ExitProcess callback method is called by the engine when an exi
 old-location: debugger\idebugeventcallbackswide_exitprocess.htm
 tech.root: debugger
 ms.assetid: bc104b84-4f0a-420d-8c2c-14b33cc6ca04
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: ExitProcess, ExitProcess method [Windows Debugging], ExitProcess method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],ExitProcess method, IDebugEventCallbacksWide.ExitProcess, IDebugEventCallbacksWide::ExitProcess, dbgeng/IDebugEventCallbacksWide::ExitProcess, debugger.idebugeventcallbackswide_exitprocess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

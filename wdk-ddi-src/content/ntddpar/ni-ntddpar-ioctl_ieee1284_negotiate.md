@@ -6,11 +6,8 @@ description: The IOCTL_IEEE1284_NEGOTIATE request sets the read and write protoc
 old-location: parports\ioctl_ieee1284_negotiate.htm
 tech.root: parports
 ms.assetid: 893af02d-ba26-4367-b2cc-b35d5baa9473
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IOCTL_IEEE1284_NEGOTIATE, IOCTL_IEEE1284_NEGOTIATE control code [Parallel Ports], cisspd_7d757685-3a5b-47cf-bba9-e7051956ae78.xml, ntddpar/IOCTL_IEEE1284_NEGOTIATE, parports.ioctl_ieee1284_negotiate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddpar.h
 req.include-header: Ntddpar.h

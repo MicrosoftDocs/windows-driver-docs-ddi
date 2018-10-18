@@ -5,11 +5,8 @@ author: windows-driver-content
 description: D3DKMTSignalSynchronizationObjectFromGpu is used to signal a monitored fence.
 old-location: display\d3dkmtsignalsynchronizationobjectfromgpu.htm
 ms.assetid: 5343A7F6-7EFC-4BAE-8D21-CA8FB9B6078A
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DKMTSignalSynchronizationObjectFromGpu, D3DKMTSignalSynchronizationObjectFromGpu function [Display Devices], d3dkmthk/D3DKMTSignalSynchronizationObjectFromGpu, display.d3dkmtsignalsynchronizationobjectfromgpu
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

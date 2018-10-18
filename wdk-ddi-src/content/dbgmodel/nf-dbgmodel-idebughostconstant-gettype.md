@@ -4,7 +4,6 @@ title: IDebugHostConstant::GetType
 author: windows-driver-content
 description: Returns the type (that is "int *") of the symbol if the symbol has a type.
 ms.assetid: 1cde171b-5adb-4447-b423-313874706cf3
-ms.author: windowsdriverdev
 ms.date: 09/21/2018
 ms.topic: method
 ms.keywords: IDebugHostConstant::GetType, GetType, IDebugHostConstant.GetType, IDebugHostConstant::GetType, IDebugHostConstant.GetType

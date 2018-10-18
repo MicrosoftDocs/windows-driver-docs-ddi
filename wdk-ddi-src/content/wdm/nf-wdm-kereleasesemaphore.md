@@ -6,11 +6,8 @@ description: The KeReleaseSemaphore routine releases the specified semaphore obj
 old-location: kernel\kereleasesemaphore.htm
 tech.root: kernel
 ms.assetid: 357a97e6-cb19-43df-9b90-db199c712878
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: KeReleaseSemaphore, KeReleaseSemaphore routine [Kernel-Mode Driver Architecture], k105_43c9caa4-267a-43c4-8b48-f030e1c2f0d5.xml, kernel.kereleasesemaphore, wdm/KeReleaseSemaphore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

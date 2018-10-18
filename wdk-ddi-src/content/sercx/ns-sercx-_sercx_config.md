@@ -6,11 +6,8 @@ description: The SERCX_CONFIG structure contains configuration information for t
 old-location: serports\sercx_config.htm
 tech.root: serports
 ms.assetid: 2CBCBA07-C489-4475-A856-8748FBFDC141
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PSERCX_CONFIG, 1/PSERCX_CONFIG, 1/SERCX_CONFIG, PSERCX_CONFIG, PSERCX_CONFIG structure pointer [Serial Ports], SERCX_CONFIG, SERCX_CONFIG structure [Serial Ports], _SERCX_CONFIG, serports.sercx_config"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: sercx.h
 req.include-header: 

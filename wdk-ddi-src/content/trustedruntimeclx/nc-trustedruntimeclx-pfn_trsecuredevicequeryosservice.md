@@ -4,11 +4,8 @@ title: *PFN_TRSECUREDEVICEQUERYOSSERVICE
 author: windows-driver-content
 description: 
 ms.assetid: 28894ef9-7e17-4955-a4c9-6297d1f9fb30
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:

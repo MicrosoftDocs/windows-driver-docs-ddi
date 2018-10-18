@@ -6,11 +6,8 @@ description: The BTHDDI_SDP_NODE_INTERFACE structure provides functions for mani
 old-location: bltooth\bthddi_sdp_node_interface.htm
 tech.root: bltooth
 ms.assetid: c9aeaaed-f017-4b23-b867-d704c4f8afb6
-ms.author: windowsdriverdev
 ms.date: 4/27/2018
 ms.keywords: "*PBTHDDI_SDP_NODE_INTERFACE, BTHDDI_SDP_NODE_INTERFACE, BTHDDI_SDP_NODE_INTERFACE structure [Bluetooth Devices], PBTHDDI_SDP_NODE_INTERFACE, PBTHDDI_SDP_NODE_INTERFACE structure pointer [Bluetooth Devices], _BTHDDI_SDP_NODE_INTERFACE, bltooth.bthddi_sdp_node_interface, bth_structs_54f8f76d-9f12-491d-b189-c4e2fdd9b364.xml, bthsdpddi/BTHDDI_SDP_NODE_INTERFACE, bthsdpddi/PBTHDDI_SDP_NODE_INTERFACE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bthsdpddi.h
 req.include-header: BthSdpddi.h

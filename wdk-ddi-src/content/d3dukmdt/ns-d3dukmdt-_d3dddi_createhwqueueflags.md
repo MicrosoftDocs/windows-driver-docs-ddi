@@ -6,11 +6,8 @@ description: A structure used to create hardware queue flags.
 old-location: display\d3dddi_createhwqueueflags_.htm
 tech.root: display
 ms.assetid: 50318DEC-8EE4-4208-8E7D-E8BFEA4BA06B
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DDDI_CREATEHWQUEUEFLAGS, D3DDDI_CREATEHWQUEUEFLAGS , D3DDDI_CREATEHWQUEUEFLAGS structure [Display Devices], _D3DDDI_CREATEHWQUEUEFLAGS, d3dukmdt/D3DDDI_CREATEHWQUEUEFLAGS, display.d3dddi_createhwqueueflags_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dukmdt.h
 req.include-header: 

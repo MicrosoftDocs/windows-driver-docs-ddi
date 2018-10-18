@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The DXGKARG_UPDATEOVERLAY structure describes parameters for modifying an overlay.
 old-location: display\dxgkarg_updateoverlay.htm
 ms.assetid: 077f2df2-c115-4702-9472-b43df02dac42
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGKARG_UPDATEOVERLAY, DXGKARG_UPDATEOVERLAY structure [Display Devices], DmStructs_4832993a-6e58-4951-a4ea-a954b8008a6e.xml, _DXGKARG_UPDATEOVERLAY, d3dkmddi/DXGKARG_UPDATEOVERLAY, display.dxgkarg_updateoverlay
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

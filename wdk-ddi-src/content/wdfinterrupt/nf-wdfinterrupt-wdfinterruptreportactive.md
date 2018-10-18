@@ -6,11 +6,8 @@ description: The WdfInterruptReportActive informs the system that the interrupt 
 old-location: wdf\wdfinterruptreportactive.htm
 tech.root: wdf
 ms.assetid: 9A7B4181-0592-4C40-BC5A-99AFFA57846C
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WdfInterruptReportActive, WdfInterruptReportActive method, kmdf._wdfinterruptreportactive, kmdf.wdfinterruptreportactive, wdf.wdfinterruptreportactive, wdfinterrupt/WdfInterruptReportActive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h

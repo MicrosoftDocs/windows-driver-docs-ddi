@@ -6,11 +6,8 @@ description: The FsRtlBalanceReads routine signals to a fault-tolerant disk driv
 old-location: ifsk\fsrtlbalancereads.htm
 tech.root: ifsk
 ms.assetid: 06d55d5d-1b2e-43f9-8d01-2f81489cc861
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FsRtlBalanceReads, FsRtlBalanceReads routine [Installable File System Drivers], fsrtlref_9785018d-4a2f-44e8-a533-85ab1878e855.xml, ifsk.fsrtlbalancereads, ntifs/FsRtlBalanceReads
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

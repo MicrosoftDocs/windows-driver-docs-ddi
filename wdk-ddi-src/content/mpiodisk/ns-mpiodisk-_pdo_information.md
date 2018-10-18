@@ -6,11 +6,8 @@ description: The PDO_INFORMATION structure represents a device-path pairing, whi
 old-location: storage\pdo_information.htm
 tech.root: storage
 ms.assetid: 26ce460f-b12d-4e5e-994a-047a1853325d
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PPDO_INFORMATION, PDO_INFORMATION, PDO_INFORMATION structure [Storage Devices], PPDO_INFORMATION, PPDO_INFORMATION structure pointer [Storage Devices], _PDO_INFORMATION, mpiodisk/PDO_INFORMATION, mpiodisk/PPDO_INFORMATION, storage.pdo_information, structs-scsibus_da7fe7ec-475b-4779-b4ed-7cf903fe2525.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mpiodisk.h
 req.include-header: Mpiowmi.h

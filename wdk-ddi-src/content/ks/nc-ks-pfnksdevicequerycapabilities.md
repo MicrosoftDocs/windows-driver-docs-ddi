@@ -6,11 +6,8 @@ description: An AVStream minidriver's AVStrMiniDeviceQueryCapabilities routine i
 old-location: stream\avstrminidevicequerycapabilities.htm
 tech.root: stream
 ms.assetid: 12084f07-5b6a-44d4-8ab3-325309e69372
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: AVStrMiniDeviceQueryCapabilities, AVStrMiniDeviceQueryCapabilities routine [Streaming Media Devices], PFNKSDEVICEQUERYCAPABILITIES, avstclbk_6078ead8-c11e-4f25-9742-21740e9a9da8.xml, ks/AVStrMiniDeviceQueryCapabilities, stream.avstrminidevicequerycapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ks.h
 req.include-header: Ks.h

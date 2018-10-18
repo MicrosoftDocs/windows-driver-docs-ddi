@@ -6,11 +6,8 @@ description: The WdfDeviceRetrieveDeviceInterfaceString method retrieves the sym
 old-location: wdf\wdfdeviceretrievedeviceinterfacestring.htm
 tech.root: wdf
 ms.assetid: 97c67410-851c-4352-8ace-5738ab4332d2
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_a7f98bd1-23e0-4461-9a6c-481b8e10ba63.xml, WdfDeviceRetrieveDeviceInterfaceString, WdfDeviceRetrieveDeviceInterfaceString method, kmdf.wdfdeviceretrievedeviceinterfacestring, wdf.wdfdeviceretrievedeviceinterfacestring, wdfdevice/WdfDeviceRetrieveDeviceInterfaceString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h

@@ -6,11 +6,8 @@ description: This structure contains generic (non-parsed) NMEA data.
 old-location: gnss\gnss_nmea_data.htm
 tech.root: gnss
 ms.assetid: 6B890F85-0E77-41D2-B3B9-004F1882B6B5
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PGNSS_NMEA_DATA, GNSS_NMEA_DATA, GNSS_NMEA_DATA structure [Sensor Devices], PGNSS_NMEA_DATA, PGNSS_NMEA_DATA structure pointer [Sensor Devices], gnss.gnss_nmea_data, gnssdriver/GNSS_NMEA_DATA, gnssdriver/PGNSS_NMEA_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: gnssdriver.h
 req.include-header: 

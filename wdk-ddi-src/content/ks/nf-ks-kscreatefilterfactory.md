@@ -6,11 +6,8 @@ description: The KsCreateFilterFactory function adds a filter factory to a given
 old-location: stream\kscreatefilterfactory.htm
 tech.root: stream
 ms.assetid: ebfdae87-febc-4383-93f4-5d613df273a9
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsCreateFilterFactory, KsCreateFilterFactory function [Streaming Media Devices], avfunc_0867c824-52e2-475a-9f36-05e6fba4cdd9.xml, ks/KsCreateFilterFactory, stream.kscreatefilterfactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

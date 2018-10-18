@@ -4,7 +4,6 @@ title: StorPortDelayExecution function
 author: windows-driver-content
 description: The StorPortDelayExecution function delays the current thread by the given amount of time, in microseconds. If the current IRQL is lower than DISPATCH_LEVEL then the current thread is simply put in the wait state and other threads are allowed to run. Otherwise, this routine performs a busy-wait.
 ms.assetid: 77d6e5c0-ff4d-4a2c-8fdf-a89b1c2779b3
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: StorPortDelayExecution

@@ -6,11 +6,8 @@ description: The KsFilterFactoryGetSymbolicLink function returns the symbolic li
 old-location: stream\ksfilterfactorygetsymboliclink.htm
 tech.root: stream
 ms.assetid: db657820-75b7-49fe-904d-05f8bc45b8c5
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsFilterFactoryGetSymbolicLink, KsFilterFactoryGetSymbolicLink function [Streaming Media Devices], avfunc_066ba440-b7d8-4c75-99bd-7b7cb38e4d70.xml, ks/KsFilterFactoryGetSymbolicLink, stream.ksfilterfactorygetsymboliclink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

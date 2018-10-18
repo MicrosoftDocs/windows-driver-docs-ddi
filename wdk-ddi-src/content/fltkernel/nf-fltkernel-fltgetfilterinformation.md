@@ -6,11 +6,8 @@ description: The FltGetFilterInformation routine provides information about a mi
 old-location: ifsk\fltgetfilterinformation.htm
 tech.root: ifsk
 ms.assetid: d3ffe93c-4fe8-4a2e-9448-8488d2ff909e
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_96d634cd-87a8-49a8-a34b-ad2a1352c677.xml, FltGetFilterInformation, FltGetFilterInformation routine [Installable File System Drivers], fltkernel/FltGetFilterInformation, ifsk.fltgetfilterinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: FltKernel.h

@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_getpositioninfo.htm
 tech.root: netvista
 ms.assetid: a34ed9ad-13b6-4f09-88c1-c5462a421ad8
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RIL_GetPositionInfo, RIL_GetPositionInfo method [Network Drivers Starting with Windows Vista], netvista.ril_getpositioninfo, rilapi/RIL_GetPositionInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rilapi.h
 req.include-header: 

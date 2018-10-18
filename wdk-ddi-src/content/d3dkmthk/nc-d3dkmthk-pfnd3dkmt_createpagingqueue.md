@@ -4,11 +4,8 @@ title: PFND3DKMT_CREATEPAGINGQUEUE
 author: windows-driver-content
 description: The PFND3DKMT_CREATEPAGINGQUEUE callback function creates a paging queue.
 ms.assetid: c0aa3399-4862-4836-a183-141caa8264d4
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

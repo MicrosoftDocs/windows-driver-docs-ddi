@@ -6,11 +6,8 @@ description: The WdfDmaTransactionSetImmediateExecution method marks the specifi
 old-location: wdf\wdfdmatransactionsetimmediateexecution.htm
 tech.root: wdf
 ms.assetid: BC260058-1E33-43BA-B75E-79540E36A08D
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WdfDmaTransactionSetImmediateExecution, WdfDmaTransactionSetImmediateExecution method, kmdf.wdfdmatransactionsetimmediateexecution, wdf.wdfdmatransactionsetimmediateexecution, wdfdmatransaction/WdfDmaTransactionSetImmediateExecution
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h

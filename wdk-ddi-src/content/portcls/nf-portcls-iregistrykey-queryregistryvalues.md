@@ -6,11 +6,8 @@ description: The QueryRegistryValues method allows the caller to query several v
 old-location: audio\iregistrykey_queryregistryvalues.htm
 tech.root: audio
 ms.assetid: eb3aa7ec-65f7-4e3d-8059-e9627de9818c
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: IRegistryKey interface [Audio Devices],QueryRegistryValues method, IRegistryKey.QueryRegistryValues, IRegistryKey::QueryRegistryValues, QueryRegistryValues, QueryRegistryValues method [Audio Devices], QueryRegistryValues method [Audio Devices],IRegistryKey interface, audio.iregistrykey_queryregistryvalues, audmp-routines_b2601a0c-3b8f-4e2b-868c-cf189eca7e05.xml, portcls/IRegistryKey::QueryRegistryValues
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: Portcls.h

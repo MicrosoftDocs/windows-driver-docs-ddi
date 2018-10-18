@@ -6,11 +6,8 @@ description: For the disk represented by DeviceObject, the IoSetPartitionInforma
 old-location: storage\iosetpartitioninformationex.htm
 tech.root: storage
 ms.assetid: e663a9aa-ed83-4d85-b110-390f0c03a724
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IoSetPartitionInformationEx, IoSetPartitionInformationEx routine [Storage Devices], ntddk/IoSetPartitionInformationEx, rtns-disk_7fd49999-70b3-4d59-b281-ff24b8a22a30.xml, storage.iosetpartitioninformationex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

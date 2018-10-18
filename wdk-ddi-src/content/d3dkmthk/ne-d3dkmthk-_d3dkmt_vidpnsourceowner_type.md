@@ -4,12 +4,9 @@ title: _D3DKMT_VIDPNSOURCEOWNER_TYPE
 author: windows-driver-content
 description: The VidPn source owner types.
 ms.assetid: 76f3afb4-7041-44df-92ed-9332bf33f646
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: _D3DKMT_VIDPNSOURCEOWNER_TYPE, D3DKMT_VIDPNSOURCEOWNER_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

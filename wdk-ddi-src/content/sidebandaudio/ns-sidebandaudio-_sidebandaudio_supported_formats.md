@@ -4,11 +4,8 @@ title: _SIDEBANDAUDIO_SUPPORTED_FORMATS
 author: windows-driver-content
 description: Describes the formats supported by the Audio Endpoint.
 ms.assetid: 3aaefd01-561e-42be-859c-240f1305b266
-ms.author: windowsdriverdev
 ms.date: 09/07/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _SIDEBANDAUDIO_SUPPORTED_FORMATS, SIDEBANDAUDIO_SUPPORTED_FORMATS, *PSIDEBANDAUDIO_SUPPORTED_FORMATS, 
 req.header: sidebandaudio.h
 req.include-header:

@@ -6,11 +6,8 @@ description: EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN is called by the OS to inform t
 old-location: display\evt_idd_cx_monitor_assign_swapchain.htm
 tech.root: display
 ms.assetid: ae3b4101-d006-48ad-91c9-d9b3ee9a4674
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN, EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN callback, EvtIddCxMonitorAssignSwapchain, EvtIddCxMonitorAssignSwapchain callback function [Display Devices], PFN_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN, PFN_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN callback function pointer [Display Devices], display.evt_idd_cx_monitor_assign_swapchain, iddcx/EvtIddCxMonitorAssignSwapchain
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: iddcx.h
 req.include-header: 

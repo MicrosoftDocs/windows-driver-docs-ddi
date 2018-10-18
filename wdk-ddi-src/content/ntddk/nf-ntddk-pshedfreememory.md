@@ -6,11 +6,8 @@ description: The PshedFreeMemory function frees a block of memory that was previ
 old-location: whea\pshedfreememory.htm
 tech.root: whea
 ms.assetid: e0784b46-9929-480c-88d0-9983d80fd753
-ms.author: windowsdriverdev
 ms.date: 2/20/2018
 ms.keywords: PshedFreeMemory, PshedFreeMemory function [WHEA Drivers and Applications], ntddk/PshedFreeMemory, whea.pshedfreememory, whearef_e17812c6-f817-490d-b1f7-bf5fa16d769b.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

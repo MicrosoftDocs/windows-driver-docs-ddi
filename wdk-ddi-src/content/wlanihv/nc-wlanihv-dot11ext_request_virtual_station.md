@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extrequestvirtualstation.htm
 tech.root: netvista
 ms.assetid: a7f6d53a-439e-4274-80b0-9fb183459824
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: DOT11EXT_REQUEST_VIRTUAL_STATION, Dot11ExtRequestVirtualStation, Dot11ExtRequestVirtualStation callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_d118b82f-9abc-4878-b76f-4aabf93b38ea.xml, netvista.dot11extrequestvirtualstation, wlanihv/Dot11ExtRequestVirtualStation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wlanihv.h
 req.include-header: Wlanihv.h

@@ -6,11 +6,8 @@ description: The StorPortReadRegisterUlong routine reads a value from a specifie
 old-location: storage\storportreadregisterulong.htm
 tech.root: storage
 ms.assetid: 308e6401-9726-4333-bde8-1aec9558c5fb
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: StorPortReadRegisterUlong, StorPortReadRegisterUlong routine [Storage Devices], storage.storportreadregisterulong, storport/StorPortReadRegisterUlong, storprt_dd719ccb-d625-4820-a371-dff748037a99.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: storport.h
 req.include-header: Storport.h

@@ -6,11 +6,8 @@ description: The WdfDmaEnablerCreate method creates a DMA enabler object.
 old-location: wdf\wdfdmaenablercreate.htm
 tech.root: wdf
 ms.assetid: 750c9293-7662-41e0-9a2a-5c19e49ad20e
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDmaObjectRef_f0ec3598-ae92-45b3-98af-b2ce590f996f.xml, WdfDmaEnablerCreate, WdfDmaEnablerCreate method, kmdf.wdfdmaenablercreate, wdf.wdfdmaenablercreate, wdfdmaenabler/WdfDmaEnablerCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h

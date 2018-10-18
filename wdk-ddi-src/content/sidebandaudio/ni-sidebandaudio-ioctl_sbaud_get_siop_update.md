@@ -4,11 +4,8 @@ title: IOCTL_SBAUD_GET_SIOP_UPDATE
 author: windows-driver-content
 description: 
 ms.assetid: 90d5357e-faaf-4ece-80e0-3b93e6133367
-ms.author: windowsdriverdev
 ms.date: 10/05/2018
 ms.topic: ioctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:

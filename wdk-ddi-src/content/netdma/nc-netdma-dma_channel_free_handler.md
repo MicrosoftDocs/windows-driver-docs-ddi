@@ -6,11 +6,8 @@ description: The ProviderFreeDmaChannel function frees a DMA channel that the Pr
 old-location: netvista\providerfreedmachannel.htm
 tech.root: netvista
 ms.assetid: 5bbe432d-f236-46ec-8e78-788bd676b852
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: DMA_CHANNEL_FREE_HANDLER, DMA_CHANNEL_FREE_HANDLER callback, ProviderFreeDmaChannel, ProviderFreeDmaChannel callback function [Network Drivers Starting with Windows Vista], netdma/ProviderFreeDmaChannel, netdma_ref_d81eae9f-e306-4ac7-a4ce-3e4831b45c39.xml, netvista.providerfreedmachannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: netdma.h
 req.include-header: Netdma.h

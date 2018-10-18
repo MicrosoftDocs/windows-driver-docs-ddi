@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\wdiag_ihv_wlan_id.htm
 tech.root: netvista
 ms.assetid: 72dc7128-fcbc-4ad8-ac81-e2767ac6ffa2
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: "*PWDIAG_IHV_WLAN_ID, Native_802.11_data_types_25565f34-9a6d-4c59-908f-527c1d9a43b1.xml, PWDIAG_IHV_WLAN_ID, PWDIAG_IHV_WLAN_ID structure pointer [Network Drivers Starting with Windows Vista], WDIAG_IHV_WLAN_ID, WDIAG_IHV_WLAN_ID structure [Network Drivers Starting with Windows Vista], _WDIAG_IHV_WLAN_ID, netvista.wdiag_ihv_wlan_id, wlanihv/PWDIAG_IHV_WLAN_ID, wlanihv/WDIAG_IHV_WLAN_ID"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wlanihv.h
 req.include-header: Wlanihv.h

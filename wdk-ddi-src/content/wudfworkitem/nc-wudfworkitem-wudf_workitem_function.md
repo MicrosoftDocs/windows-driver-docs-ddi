@@ -6,11 +6,8 @@ description: A driver's OnWorkItem event callback function performs the work tha
 old-location: wdf\onworkitem.htm
 tech.root: wdf
 ms.assetid: 4CCA1F5E-C92E-4D8D-A8C0-B8E9A0F29703
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: OnWorkItem, OnWorkItem callback function, PFN_WUDF_WORKITEM, PFN_WUDF_WORKITEM callback function pointer, WUDF_WORKITEM_FUNCTION, WUDF_WORKITEM_FUNCTION callback, umdf.onworkitem, wdf.onworkitem, wudfworkitem/OnWorkItem, wudfworkitem/PFN_WUDF_WORKITEM
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wudfworkitem.h
 req.include-header: 

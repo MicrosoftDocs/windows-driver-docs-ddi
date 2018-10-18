@@ -4,11 +4,8 @@ title: IOCTL_INDEX
 author: windows-driver-content
 description: 
 ms.assetid: 5f05ce18-4a4a-433c-8cab-402f0ea39155
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: ioctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: usbscan.h
 req.include-header:
 req.target-type:

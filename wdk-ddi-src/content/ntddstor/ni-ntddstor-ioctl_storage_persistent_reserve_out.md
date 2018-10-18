@@ -6,11 +6,8 @@ description: The generic storage class driver (classpnp.sys) exposes an I/O cont
 old-location: storage\ioctl_storage_persistent_reserve_out.htm
 tech.root: storage
 ms.assetid: a9863ac9-46e2-4888-879e-7d56e9260142
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IOCTL_STORAGE_PERSISTENT_RESERVE_OUT, IOCTL_STORAGE_PERSISTENT_RESERVE_OUT control, IOCTL_STORAGE_PERSISTENT_RESERVE_OUT control code [Storage Devices], k307_664b87a0-88f2-42ac-851e-b1fbbf36c66a.xml, ntddstor/IOCTL_STORAGE_PERSISTENT_RESERVE_OUT, storage.ioctl_storage_persistent_reserve_out
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddstor.h
 req.include-header: Ntddstor.h

@@ -4,11 +4,8 @@ title: _CURRENT_DEVICE_INTERNAL_STATUS_LOG
 author: windows-driver-content
 description: 
 ms.assetid: 67384834-9516-4302-bfdc-3c43b2a8ad27
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _CURRENT_DEVICE_INTERNAL_STATUS_LOG, CURRENT_DEVICE_INTERNAL_STATUS_LOG, *PCURRENT_DEVICE_INTERNAL_STATUS_LOG, 
 req.header: ata.h
 req.include-header:

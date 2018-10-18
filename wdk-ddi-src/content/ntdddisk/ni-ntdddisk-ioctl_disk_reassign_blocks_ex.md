@@ -6,11 +6,8 @@ description: Maps defective blocks to a new location on disk. This request instr
 old-location: storage\ioctl_disk_reassign_blocks_ex.htm
 tech.root: storage
 ms.assetid: 885CC365-A730-4C1E-AD74-89D47DC17407
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IOCTL_DISK_REASSIGN_BLOCKS_EX, IOCTL_DISK_REASSIGN_BLOCKS_EX control, IOCTL_DISK_REASSIGN_BLOCKS_EX control code [Storage Devices], ntdddisk/IOCTL_DISK_REASSIGN_BLOCKS_EX, storage.ioctl_disk_reassign_blocks_ex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h

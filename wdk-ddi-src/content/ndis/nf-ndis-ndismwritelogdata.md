@@ -6,11 +6,8 @@ description: NdisMWriteLogData transfers driver-supplied information into the lo
 old-location: netvista\ndismwritelogdata.htm
 tech.root: netvista
 ms.assetid: 38923308-0268-49b3-9f9d-0fa2b62f7533
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisMWriteLogData, NdisMWriteLogData function [Network Drivers Starting with Windows Vista], miniport_logging_ref_ca57cae5-4951-4c02-a745-d668bc8ec663.xml, ndis/NdisMWriteLogData, netvista.ndismwritelogdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

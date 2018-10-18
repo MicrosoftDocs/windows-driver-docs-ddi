@@ -6,11 +6,8 @@ description: The IWiaTransferCallback::TransferCallback method is implemented by
 old-location: image\iwiatransfercallback_transfercallback.htm
 tech.root: image
 ms.assetid: dc6c2057-9617-4c69-ac79-2a8f910a1ee2
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IWiaTransferCallback interface [Imaging Devices],TransferCallback method, IWiaTransferCallback.TransferCallback, IWiaTransferCallback::TransferCallback, IWiaTransfercallback_8e8bdc78-ce93-4fe1-98aa-91ffe608ee52.xml, TransferCallback, TransferCallback method [Imaging Devices], TransferCallback method [Imaging Devices],IWiaTransferCallback interface, image.iwiatransfercallback_transfercallback, wia_lh/IWiaTransferCallback::TransferCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_lh.h
 req.include-header: Wia.h

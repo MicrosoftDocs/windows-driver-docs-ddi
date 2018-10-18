@@ -6,11 +6,8 @@ description: Given a virtual block number (VBN) and a map control block (MCB), t
 old-location: ifsk\fsrtllookuplargemcbentry.htm
 tech.root: ifsk
 ms.assetid: 35c6fefb-6045-4b0e-abe8-f78176ca144a
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FsRtlLookupLargeMcbEntry, FsRtlLookupLargeMcbEntry routine [Installable File System Drivers], fsrtlref_600ea10a-a948-4169-9877-5a8a603b0426.xml, ifsk.fsrtllookuplargemcbentry, ntifs/FsRtlLookupLargeMcbEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

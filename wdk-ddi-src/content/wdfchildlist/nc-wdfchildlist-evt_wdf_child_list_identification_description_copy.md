@@ -6,11 +6,8 @@ description: A driver's EvtChildListIdentificationDescriptionCopy event callback
 old-location: wdf\evtchildlistidentificationdescriptioncopy.htm
 tech.root: wdf
 ms.assetid: c44d6a2f-c7ef-486d-973e-aada068ddc06
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectChildListRef_8568b87d-544a-4574-a9c7-c5498a30a758.xml, EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_COPY, EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_COPY callback, EvtChildListIdentificationDescriptionCopy, EvtChildListIdentificationDescriptionCopy callback function, kmdf.evtchildlistidentificationdescriptioncopy, wdf.evtchildlistidentificationdescriptioncopy, wdfchildlist/EvtChildListIdentificationDescriptionCopy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfchildlist.h
 req.include-header: Wdf.h

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: A client driver's EvtMbbDeviceSendServiceSessionData event callback function sends device service session data down to its modem device.
 tech.root: netvista
 ms.assetid: ce977d52-cc00-472c-84f9-e3d7e9fe9778
-ms.author: windowsdriverdev
 ms.date: 07/02/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: mbbcx.h
 req.include-header:
 req.target-type: Universal

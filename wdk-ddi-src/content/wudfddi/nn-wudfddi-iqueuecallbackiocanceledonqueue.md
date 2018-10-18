@@ -6,11 +6,8 @@ description: The IQueueCallbackIoCanceledOnQueue interface is optional. Your dri
 old-location: wdf\iqueuecallbackiocanceledonqueue.htm
 tech.root: wdf
 ms.assetid: d85b5c70-4e03-4a12-bc0b-e738d4dab6cf
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IQueueCallbackIoCanceledOnQueue, IQueueCallbackIoCanceledOnQueue interface, IQueueCallbackIoCanceledOnQueue interface,described, UMDFQueueObjectRef_65c767dc-7b2b-4b25-a546-d0f3fb6fba14.xml, umdf.iqueuecallbackiocanceledonqueue, wdf.iqueuecallbackiocanceledonqueue, wudfddi/IQueueCallbackIoCanceledOnQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wudfddi.h
 req.include-header: 

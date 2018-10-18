@@ -6,11 +6,8 @@ description: The WdfPdoInitSetDefaultLocale method sets a device's default local
 old-location: wdf\wdfpdoinitsetdefaultlocale.htm
 tech.root: wdf
 ms.assetid: d3c068dd-d09c-4b3a-be96-c1c55b3ebfe4
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_12f9db03-8d4b-4ce4-9cde-0081884c6b9c.xml, WdfPdoInitSetDefaultLocale, WdfPdoInitSetDefaultLocale method, kmdf.wdfpdoinitsetdefaultlocale, wdf.wdfpdoinitsetdefaultlocale, wdfpdo/WdfPdoInitSetDefaultLocale
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfpdo.h
 req.include-header: Wdf.h

@@ -4,11 +4,8 @@ title: _DXGKARG_GETMMIORANGECOUNT
 author: windows-driver-content
 description: Arguments used to get the memory mapped input output range count.
 ms.assetid: 0949fc6e-b58f-4e20-83dd-c8a8df68059b
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKARG_GETMMIORANGECOUNT, DXGKARG_GETMMIORANGECOUNT, *PDXGKARG_GETMMIORANGECOUNT, 
 req.header: dispmprt.h
 req.include-header:

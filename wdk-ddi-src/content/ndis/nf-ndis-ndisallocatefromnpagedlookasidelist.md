@@ -6,11 +6,8 @@ description: The NdisAllocateFromNPagedLookasideList function removes the first 
 old-location: netvista\ndisallocatefromnpagedlookasidelist.htm
 tech.root: netvista
 ms.assetid: df690a05-359d-44f0-b063-4fc21d6c4d76
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisAllocateFromNPagedLookasideList, NdisAllocateFromNPagedLookasideList macro [Network Drivers Starting with Windows Vista], ndis/NdisAllocateFromNPagedLookasideList, ndis_lookaside_ref_455986e8-a34c-44df-b454-87416d8eccf7.xml, netvista.ndisallocatefromnpagedlookasidelist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ndis.h
 req.include-header: Ndis.h

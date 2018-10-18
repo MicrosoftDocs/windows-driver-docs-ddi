@@ -4,11 +4,8 @@ title: PFND3DKMT_OUTPUTDUPLGETMETADATA
 author: windows-driver-content
 description: The PFND3DKMT_OUTPUTDUPLGETMETADATA callback function gets output duplicate metadata.
 ms.assetid: 1fcf334f-ebad-4a39-8357-ecc76ffec8e2
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

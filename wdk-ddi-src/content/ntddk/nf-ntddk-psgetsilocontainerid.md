@@ -4,7 +4,6 @@ title: PsGetSiloContainerId function
 author: windows-driver-content
 description: Gets the ContainerId for the given Silo.
 ms.assetid: ba43355c-380c-46a8-85e7-bae024683744
-ms.author: windowsdriverdev
 ms.date: 9/30/2018
 ms.topic: function
 ms.keywords: PsGetSiloContainerId

@@ -4,7 +4,6 @@ title: D3DKMTFlushHeapTransitions function
 author: windows-driver-content
 description: Flushes heap transitions.
 ms.assetid: ae10b2f4-9483-4a9f-9996-74daef38ddbd
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: D3DKMTFlushHeapTransitions

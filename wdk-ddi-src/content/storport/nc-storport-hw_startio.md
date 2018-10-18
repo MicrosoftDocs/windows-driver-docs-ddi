@@ -6,11 +6,8 @@ description: The Storport driver calls the HwStorStartIo routine one time for ea
 old-location: storage\hwstorstartio.htm
 tech.root: storage
 ms.assetid: 73085ca7-a442-4c16-b1e3-6de048e7f1f7
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: HW_STARTIO, HwStorStartIo, HwStorStartIo routine [Storage Devices], storage.hwstorstartio, stormini_8f910467-49f3-4f15-919d-84edee8ad053.xml, storport/HwStorStartIo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: storport.h
 req.include-header: Storport.h

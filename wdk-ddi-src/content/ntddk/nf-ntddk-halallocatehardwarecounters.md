@@ -6,11 +6,8 @@ description: The HalAllocateHardwareCounters routine allocates a set of hardware
 old-location: kernel\halallocatehardwarecounters.htm
 tech.root: kernel
 ms.assetid: 8a689889-b445-4fda-ae11-090d0d5870b8
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: HalAllocateHardwareCounters, HalAllocateHardwareCounters routine [Kernel-Mode Driver Architecture], k103_06a6696a-0b51-414e-96ea-6c7d3b70acb5.xml, kernel.halallocatehardwarecounters, ntddk/HalAllocateHardwareCounters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h

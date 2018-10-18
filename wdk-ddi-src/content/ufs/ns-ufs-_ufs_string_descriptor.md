@@ -6,11 +6,8 @@ description: The UFS_STRING_DESCRIPTOR structure describes either the Manufactur
 old-location: storage\ufs_string_descriptor.htm
 tech.root: storage
 ms.assetid: 1F32DA95-6801-4C48-B3C4-A47C3E1C678B
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PUFS_STRING_DESCRIPTOR, PUFS_STRING_DESCRIPTOR, PUFS_STRING_DESCRIPTOR structure pointer [Storage Devices], UFS_STRING_DESCRIPTOR, UFS_STRING_DESCRIPTOR structure [Storage Devices], _UFS_STRING_DESCRIPTOR, storage.ufs_string_descriptor, ufs/PUFS_STRING_DESCRIPTOR, ufs/UFS_STRING_DESCRIPTOR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ufs.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The WdfRegistryWdmGetHandle method returns a Windows Driver Model (
 old-location: wdf\wdfregistrywdmgethandle.htm
 tech.root: wdf
 ms.assetid: 60638048-9009-4943-ba61-b724612852df
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFRegKeyObjectRef_9229cd7b-fb26-4e95-a5ee-5deb31f549f4.xml, WdfRegistryWdmGetHandle, WdfRegistryWdmGetHandle method, kmdf.wdfregistrywdmgethandle, wdf.wdfregistrywdmgethandle, wdfregistry/WdfRegistryWdmGetHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfregistry.h
 req.include-header: Wdf.h

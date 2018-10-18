@@ -6,11 +6,8 @@ description: The TapeClassPhysicalBlockToLogicalBlock routine translates a physi
 old-location: storage\tapeclassphysicalblocktologicalblock.htm
 tech.root: storage
 ms.assetid: fc95f5c8-2892-479d-ac25-32c07e9c7aab
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: TapeClassPhysicalBlockToLogicalBlock, TapeClassPhysicalBlockToLogicalBlock routine [Storage Devices], minitape/TapeClassPhysicalBlockToLogicalBlock, storage.tapeclassphysicalblocktologicalblock, tapeclas_94d20234-ee4d-4096-b856-f5196b606e2d.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: minitape.h
 req.include-header: Minitape.h

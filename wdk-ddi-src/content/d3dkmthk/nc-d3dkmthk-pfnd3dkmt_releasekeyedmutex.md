@@ -4,11 +4,8 @@ title: PFND3DKMT_RELEASEKEYEDMUTEX
 author: windows-driver-content
 description: The PFND3DKMT_RELEASEKEYEDMUTEX callback function releases a keyed mutex object.
 ms.assetid: a738d7b0-4526-4549-9371-e67036b2eae8
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

@@ -4,12 +4,9 @@ title: _DOMAIN_CONFIGURATION_ARCH
 author: windows-driver-content
 description: Defines values for type of system architecture specified.
 ms.assetid: 5ca1f77c-21fe-4a4f-80dc-42cb26c51bbc
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: _DOMAIN_CONFIGURATION_ARCH, *PDOMAIN_CONFIGURATION_ARCH, DOMAIN_CONFIGURATION_ARCH, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:

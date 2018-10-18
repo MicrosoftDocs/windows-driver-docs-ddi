@@ -6,11 +6,8 @@ description: The PacketDirect (PD) platform calls a PD-capable miniport driver's
 old-location: netvista\ndispdallocatecounter.htm
 tech.root: netvista
 ms.assetid: 86AA537D-952F-4A7A-ACA4-24B8C1AE932A
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NDIS_PD_ALLOCATE_COUNTER, NDIS_PD_ALLOCATE_COUNTER callback, NdisPDAllocateCounter, NdisPDAllocateCounter callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDAllocateCounter, netvista.ndispdallocatecounter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: 

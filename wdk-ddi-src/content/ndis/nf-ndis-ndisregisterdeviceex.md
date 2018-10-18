@@ -6,11 +6,8 @@ description: The NdisRegisterDeviceEx function creates a device object that is b
 old-location: netvista\ndisregisterdeviceex.htm
 tech.root: netvista
 ms.assetid: 8e0d406e-748c-4b37-90fb-c7b9dfc28362
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisRegisterDeviceEx, NdisRegisterDeviceEx function [Network Drivers Starting with Windows Vista], ndis/NdisRegisterDeviceEx, ndis_devices_ref_57ed58e5-f149-4cbe-ad9d-667f433a7e77.xml, netvista.ndisregisterdeviceex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

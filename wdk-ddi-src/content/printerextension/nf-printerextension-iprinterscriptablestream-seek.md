@@ -6,11 +6,8 @@ description: Sets the seek pointer.
 old-location: print\iprinterscriptablestream__seek.htm
 tech.root: print
 ms.assetid: 82080353-2252-4BF2-B7F4-F297DCA99FA0
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrinterScriptableStream interface [Print Devices],Seek method, IPrinterScriptableStream.Seek, IPrinterScriptableStream::Seek, Seek, Seek method [Print Devices], Seek method [Print Devices],IPrinterScriptableStream interface, print.iprinterscriptablestream__seek, printerextension/IPrinterScriptableStream::Seek
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header: 

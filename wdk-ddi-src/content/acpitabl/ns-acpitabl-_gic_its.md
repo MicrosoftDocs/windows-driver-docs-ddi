@@ -6,11 +6,8 @@ description: This topic describes the GIC_ITS structure.
 old-location: acpi\gic_its.htm
 tech.root: acpi
 ms.assetid: C0DA1B09-230E-4DE6-98CD-F80243D63B95
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PGIC_ITS, GIC_ITS, GIC_ITS structure [ACPI Devices], _GIC_ITS, acpi.gic_its, acpitabl/GIC_ITS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: acpitabl.h
 req.include-header: Acpitabl.h

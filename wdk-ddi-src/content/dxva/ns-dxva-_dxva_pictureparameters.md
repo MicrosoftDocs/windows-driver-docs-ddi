@@ -6,11 +6,8 @@ description: The DXVA_PictureParameters structure is sent by the host decoder to
 old-location: display\dxva_pictureparameters.htm
 tech.root: display
 ms.assetid: e54c1d6a-b0bb-4754-9399-5f3b1b9b2534
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: "*LPDXVA_PictureParameters, DXVA_PictureParameters, DXVA_PictureParameters structure [Display Devices], LPDXVA_PictureParameters, LPDXVA_PictureParameters structure pointer [Display Devices], _DXVA_PictureParameters, display.dxva_pictureparameters, dxva/DXVA_PictureParameters, dxva/LPDXVA_PictureParameters, dxvaref_10ab1c20-a070-42ad-95da-0d8a20d19228.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dxva.h
 req.include-header: Dxva.h

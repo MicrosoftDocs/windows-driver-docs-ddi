@@ -6,11 +6,8 @@ description: NDIS calls a miniport driver's MiniportHaltEx function to free reso
 old-location: netvista\miniporthaltex.htm
 tech.root: netvista
 ms.assetid: b8d452b4-bef3-4991-87cf-fac15bedfde4
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: MINIPORT_HALT, MINIPORT_HALT callback, MiniportHaltEx, MiniportHaltEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_aa826b59-f204-43ea-81b6-f1bab84a7a23.xml, ndis/MiniportHaltEx, netvista.miniporthaltex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

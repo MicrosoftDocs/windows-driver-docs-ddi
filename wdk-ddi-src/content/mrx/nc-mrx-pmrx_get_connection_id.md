@@ -6,11 +6,8 @@ description: TheMRxGetConnectionId routine is called by RDBSS to request that a 
 old-location: ifsk\mrxgetconnectionid.htm
 tech.root: ifsk
 ms.assetid: c994060c-d8b3-4daa-a0dd-a734ffe34229
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: MRxGetConnectionId, MRxGetConnectionId routine [Installable File System Drivers], PMRX_GET_CONNECTION_ID, ifsk.mrxgetconnectionid, mrx/MRxGetConnectionId, mrxref_14943242-5da1-4404-bc5b-b86c2a88b347.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: mrx.h
 req.include-header: Mrx.h

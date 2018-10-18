@@ -6,11 +6,8 @@ description: Allows navigation within the symbol entry hierarchy.
 old-location: debugger\idebugsymbols3_getsymbolentrybysymbolentry.htm
 tech.root: debugger
 ms.assetid: 39AD3C10-C6E8-463F-BDDE-5941CB4B2830
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetSymbolEntryBySymbolEntry, GetSymbolEntryBySymbolEntry method [Windows Debugging], GetSymbolEntryBySymbolEntry method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolEntryBySymbolEntry method, IDebugSymbols3.GetSymbolEntryBySymbolEntry, IDebugSymbols3::GetSymbolEntryBySymbolEntry, dbgeng/IDebugSymbols3::GetSymbolEntryBySymbolEntry, debugger.idebugsymbols3_getsymbolentrybysymbolentry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

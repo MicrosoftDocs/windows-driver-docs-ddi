@@ -6,11 +6,8 @@ description: The VideoPortWriteRegisterUshort function writes a USHORT value to 
 old-location: display\videoportwriteregisterushort.htm
 tech.root: display
 ms.assetid: 0bc9b0a1-6cd8-4d76-a71e-694a8435773e
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: VideoPortWriteRegisterUshort, VideoPortWriteRegisterUshort function [Display Devices], VideoPort_Functions_b7adcb2e-bf7a-4ce3-bcd9-f11c24982b48.xml, display.videoportwriteregisterushort, video/VideoPortWriteRegisterUshort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: video.h
 req.include-header: Video.h

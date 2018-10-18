@@ -6,11 +6,8 @@ description: The RetrieveNextRequest method retrieves the next I/O request from 
 old-location: wdf\iwdfioqueue_retrievenextrequest.htm
 tech.root: wdf
 ms.assetid: 2d9dbfc8-7563-4c47-9b34-27cce2b847b2
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IWDFIoQueue interface,RetrieveNextRequest method, IWDFIoQueue.RetrieveNextRequest, IWDFIoQueue::RetrieveNextRequest, RetrieveNextRequest, RetrieveNextRequest method, RetrieveNextRequest method,IWDFIoQueue interface, UMDFQueueObjectRef_d76f57ad-f8d5-4a09-861f-26c6d5e6a709.xml, umdf.iwdfioqueue_retrievenextrequest, wdf.iwdfioqueue_retrievenextrequest, wudfddi/IWDFIoQueue::RetrieveNextRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

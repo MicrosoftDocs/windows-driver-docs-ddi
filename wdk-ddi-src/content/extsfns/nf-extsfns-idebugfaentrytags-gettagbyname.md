@@ -6,11 +6,8 @@ description: The GetTagByName method searches for a tag that has a specified nam
 old-location: debugger\idebugfaentrytags_gettagbyname.htm
 tech.root: debugger
 ms.assetid: 3EA8FE2A-85CE-4C81-81EB-F08028F0F822
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetTagByName, GetTagByName method [Windows Debugging], GetTagByName method [Windows Debugging],IDebugFAEntryTags interface, IDebugFAEntryTags interface [Windows Debugging],GetTagByName method, IDebugFAEntryTags.GetTagByName, IDebugFAEntryTags::GetTagByName, debugger.idebugfaentrytags_gettagbyname, extsfns/IDebugFAEntryTags::GetTagByName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: extsfns.h
 req.include-header: 

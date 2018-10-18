@@ -6,11 +6,8 @@ description: The FltGetIoPriorityHintFromFileObject routine is used by a minifil
 old-location: ifsk\fltgetiopriorityhintfromfileobject.htm
 tech.root: ifsk
 ms.assetid: ca854716-8f6e-42bd-ae03-e31f951b0874
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_0a239f34-f16d-4386-a171-66c537e3f241.xml, FltGetIoPriorityHintFromFileObject, FltGetIoPriorityHintFromFileObject routine [Installable File System Drivers], fltkernel/FltGetIoPriorityHintFromFileObject, ifsk.fltgetiopriorityhintfromfileobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: FltKernel.h

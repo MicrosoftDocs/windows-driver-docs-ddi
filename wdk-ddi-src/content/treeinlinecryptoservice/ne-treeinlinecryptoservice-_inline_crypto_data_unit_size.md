@@ -4,12 +4,9 @@ title: _INLINE_CRYPTO_DATA_UNIT_SIZE
 author: windows-driver-content
 description: 
 ms.assetid: 7e994576-5ad2-49d3-9784-14587bbd25cc
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: _INLINE_CRYPTO_DATA_UNIT_SIZE, INLINE_CRYPTO_DATA_UNIT_SIZE, *PINLINE_CRYPTO_DATA_UNIT_SIZE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: treeinlinecryptoservice.h
 req.include-header:
 req.target-type:

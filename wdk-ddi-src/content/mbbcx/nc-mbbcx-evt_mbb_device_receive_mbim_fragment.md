@@ -5,11 +5,8 @@ author: windows-driver-content
 description: A client driver's EvtMbbDeviceReceiveMbimFragment event callback function provides the response message returned from its device in response to a previous MBIM control message sent from MBBCx. This callback function is the equivalent of the GetEncapsulatedResponse request defined in the MBIM specification.
 tech.root: netvista
 ms.assetid: aaf0e1ca-600d-4912-93ae-10dc6d04dd7e
-ms.author: windowsdriverdev
 ms.date: 07/02/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: mbbcx.h
 req.include-header:
 req.target-type: Universal

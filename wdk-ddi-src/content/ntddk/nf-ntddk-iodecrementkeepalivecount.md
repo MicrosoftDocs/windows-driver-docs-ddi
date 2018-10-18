@@ -6,11 +6,8 @@ description: The IoDecrementKeepAliveCount routine decrements a reference count 
 old-location: kernel\iodecrementkeepalivecount.htm
 tech.root: kernel
 ms.assetid: 2A8BC777-291C-4EC4-8EF9-AA78C6295700
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IoDecrementKeepAliveCount, IoDecrementKeepAliveCount routine [Kernel-Mode Driver Architecture], kernel.iodecrementkeepalivecount, ntddk/IoDecrementKeepAliveCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

@@ -6,11 +6,8 @@ description: The WDF_REMOVE_LOCK_OPTIONS_FLAGS enumeration type defines flags th
 old-location: wdf\wdf_remove_lock_options_flags.htm
 tech.root: wdf
 ms.assetid: 3822B8A2-1EFB-45C7-A7DB-FBCE76A06336
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WDF_REMOVE_LOCK_OPTIONS_FLAGS, WDF_REMOVE_LOCK_OPTIONS_FLAGS enumeration, WDF_REMOVE_LOCK_OPTION_ACQUIRE_FOR_IO, _WDF_REMOVE_LOCK_OPTIONS_FLAGS, kmdf.wdf_remove_lock_options_flags, wdf.wdf_remove_lock_options_flags, wdfdevice/WDF_REMOVE_LOCK_OPTIONS_FLAGS, wdfdevice/WDF_REMOVE_LOCK_OPTION_ACQUIRE_FOR_IO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wdfdevice.h
 req.include-header: Wdf.h

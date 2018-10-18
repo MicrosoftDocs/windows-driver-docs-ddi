@@ -6,11 +6,8 @@ description: Obsolete.
 old-location: ifsk\exquerypoolblocksize.htm
 tech.root: ifsk
 ms.assetid: 0be3f5da-3fe6-45a2-b44a-b1634d74ede3
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: ExQueryPoolBlockSize, ExQueryPoolBlockSize function [Installable File System Drivers], exref_c8686b81-2d69-4bbf-a1fb-143574579cff.xml, ifsk.exquerypoolblocksize, ntifs/ExQueryPoolBlockSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

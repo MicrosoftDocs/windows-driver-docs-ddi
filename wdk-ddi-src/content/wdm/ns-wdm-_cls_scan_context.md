@@ -6,11 +6,8 @@ description: The CLFS_SCAN_CONTEXT structure holds context information to suppor
 old-location: kernel\clfs_scan_context.htm
 tech.root: kernel
 ms.assetid: 4f10abc6-1c86-4401-9af7-26d6c30f6fe8
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PCLFS_SCAN_CONTEXT, *PCLS_SCAN_CONTEXT, CLFS_SCAN_CONTEXT, CLFS_SCAN_CONTEXT structure [Kernel-Mode Driver Architecture], CLS_SCAN_CONTEXT, CLS_SCAN_CONTEXT structure [Kernel-Mode Driver Architecture], PCLFS_SCAN_CONTEXT, PCLFS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], PCLS_SCAN_CONTEXT, PCLS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], PPCLFS_SCAN_CONTEXT, PPCLFS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], PPCLS_SCAN_CONTEXT, PPCLS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], _CLS_SCAN_CONTEXT, kernel.clfs_scan_context, kstruct_a_286b1bd0-bd24-472c-be28-406269b7a687.xml, wdm/CLFS_SCAN_CONTEXT, wdm/CLS_SCAN_CONTEXT, wdm/PCLFS_SCAN_CONTEXT, wdm/PCLS_SCAN_CONTEXT, wdm/PPCLFS_SCAN_CONTEXT, wdm/PPCLS_SCAN_CONTEXT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
 req.include-header: Wdm.h

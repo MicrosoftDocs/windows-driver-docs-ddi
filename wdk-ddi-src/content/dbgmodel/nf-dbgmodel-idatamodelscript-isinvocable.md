@@ -4,7 +4,6 @@ title: IDataModelScript::IsInvocable
 author: windows-driver-content
 description: The IsInvocable method returns whether or not the script is invocable -- that is, whether it has a "main function" as defined by its language or provider. 
 ms.assetid: ff8dc281-89db-4ef5-afaa-f022015a6247
-ms.author: windowsdriverdev
 ms.date: 08/20/2018
 ms.topic: method
 ms.keywords: IDataModelScript::IsInvocable, IsInvocable, IDataModelScript.IsInvocable, IDataModelScript::IsInvocable, IDataModelScript.IsInvocable

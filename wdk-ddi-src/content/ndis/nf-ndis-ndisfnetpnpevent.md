@@ -6,11 +6,8 @@ description: A filter driver can call the NdisFNetPnPEvent function to forward a
 old-location: netvista\ndisfnetpnpevent.htm
 tech.root: netvista
 ms.assetid: 383f9dcb-68ba-4323-b25f-668169043f35
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisFNetPnPEvent, NdisFNetPnPEvent function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_36921970-788b-4b5e-9cf0-c54f8dcdeef2.xml, ndis/NdisFNetPnPEvent, netvista.ndisfnetpnpevent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

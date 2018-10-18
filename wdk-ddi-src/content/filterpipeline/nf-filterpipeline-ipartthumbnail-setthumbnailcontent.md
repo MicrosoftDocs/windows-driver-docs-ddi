@@ -6,11 +6,8 @@ description: The SetThumbnailContent method sets the thumbnail content for the p
 old-location: print\ipartthumbnail_setthumbnailcontent.htm
 tech.root: print
 ms.assetid: 7392aa0b-479a-473f-b8b5-34e14494e050
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPartThumbnail interface [Print Devices],SetThumbnailContent method, IPartThumbnail.SetThumbnailContent, IPartThumbnail::SetThumbnailContent, SetThumbnailContent, SetThumbnailContent method [Print Devices], SetThumbnailContent method [Print Devices],IPartThumbnail interface, filterpipeline/IPartThumbnail::SetThumbnailContent, filterpipeline_da595290-0b57-4b7d-a494-1f93b8f05470.xml, print.ipartthumbnail_setthumbnailcontent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: filterpipeline.h
 req.include-header: 

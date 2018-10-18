@@ -6,11 +6,8 @@ description: The CPSUIDATABLOCK structure is used as a parameter for the ComProp
 old-location: print\cpsuidatablock.htm
 tech.root: print
 ms.assetid: c5b488ac-dd8d-4484-81ca-b64fdf517100
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: "*PCPSUIDATABLOCK, CPSUIDATABLOCK, CPSUIDATABLOCK structure [Print Devices], PCPSUIDATABLOCK, PCPSUIDATABLOCK structure pointer [Print Devices], _CPSUIDATABLOCK, compstui/CPSUIDATABLOCK, compstui/PCPSUIDATABLOCK, cpsuifnc_c9e406f5-1d6a-403d-a286-89cf199a09d2.xml, print.cpsuidatablock"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: compstui.h
 req.include-header: Compstui.h

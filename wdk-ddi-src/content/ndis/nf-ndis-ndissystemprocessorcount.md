@@ -6,11 +6,8 @@ description: The NdisSystemProcessorCount function determines whether the caller
 old-location: netvista\ndissystemprocessorcount.htm
 tech.root: netvista
 ms.assetid: 17c7b02d-3d32-4056-9baa-2fef74765da3
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisSystemProcessorCount, NdisSystemProcessorCount function [Network Drivers Starting with Windows Vista], ndis/NdisSystemProcessorCount, ndis_sysinfo_ref_2bec0b11-bc24-4c8d-9e78-ff94c7f1645f.xml, netvista.ndissystemprocessorcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

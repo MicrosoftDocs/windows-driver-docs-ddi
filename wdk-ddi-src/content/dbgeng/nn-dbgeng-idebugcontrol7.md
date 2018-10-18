@@ -6,11 +6,8 @@ description: "."
 old-location: debugger\idebugcontrol7.htm
 tech.root: debugger
 ms.assetid: 44B8C5DF-D25F-4688-8EDB-135B63802BB6
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugControl7, IDebugControl7 interface [Windows Debugging], IDebugControl7 interface [Windows Debugging],described, dbgeng/IDebugControl7, debugger.idebugcontrol7
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

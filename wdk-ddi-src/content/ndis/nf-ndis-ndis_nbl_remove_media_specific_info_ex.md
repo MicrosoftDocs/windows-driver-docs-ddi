@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX macro removes a media-specific information data structure from a linked list of such structures that are associated with a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: 4810f8df-a629-43a0-8527-d1baeba17b8a
-ms.author: windowsdriverdev
 ms.date: 04/13/2018
 ms.topic: macro
 ms.keywords: NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX

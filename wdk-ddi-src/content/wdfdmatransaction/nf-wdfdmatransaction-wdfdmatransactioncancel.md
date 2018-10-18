@@ -6,11 +6,8 @@ description: The WdfDmaTransactionCancel method attempts to cancel a DMA transac
 old-location: wdf\wdfdmatransactioncancel.htm
 tech.root: wdf
 ms.assetid: A0EB188E-D5C7-4C7B-A462-2C3792825FD8
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WdfDmaTransactionCancel, WdfDmaTransactionCancel method, kmdf.wdfdmatransactioncancel, wdf.wdfdmatransactioncancel, wdfdmatransaction/WdfDmaTransactionCancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h

@@ -6,11 +6,8 @@ description: The AddPrintDeviceObject print provider function creates a device o
 old-location: print\addprintdeviceobject.htm
 tech.root: print
 ms.assetid: C01071FD-7D1D-4D6F-AFDD-355FFDA699EA
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: AddPrintDeviceObject, AddPrintDeviceObject function [Print Devices], print.addprintdeviceobject, winsplp/AddPrintDeviceObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsplp.h
 req.include-header: Winspool.h

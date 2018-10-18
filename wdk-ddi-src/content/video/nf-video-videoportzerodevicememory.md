@@ -6,11 +6,8 @@ description: The VideoPortZeroDeviceMemory function fills an adapter frame buffe
 old-location: display\videoportzerodevicememory.htm
 tech.root: display
 ms.assetid: 1f59ae13-022b-426c-9eef-9a8e5f5a85f2
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: VideoPortZeroDeviceMemory, VideoPortZeroDeviceMemory function [Display Devices], VideoPort_Functions_42829075-dd6d-49fd-a4d6-3ee19152335d.xml, display.videoportzerodevicememory, video/VideoPortZeroDeviceMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: video.h
 req.include-header: Video.h

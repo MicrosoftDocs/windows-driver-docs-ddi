@@ -6,11 +6,8 @@ description: This structure contains the fields required for the 1394 bus driver
 old-location: ieee\irb_req_isoch_attach_buffers.htm
 tech.root: IEEE
 ms.assetid: 7EA6E82C-D803-48CD-9955-CF576BF978CA
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: 1394/IRB_REQ_ISOCH_ATTACH_BUFFERS, IEEE.irb_req_isoch_attach_buffers, IRB_REQ_ISOCH_ATTACH_BUFFERS, IRB_REQ_ISOCH_ATTACH_BUFFERS structure [Buses], _IRB_REQ_ISOCH_ATTACH_BUFFERS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 1394.h
 req.include-header: 

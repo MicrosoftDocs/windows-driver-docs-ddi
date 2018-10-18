@@ -6,11 +6,8 @@ description: Implemented by the client driver to get hardware notification compo
 old-location: gpiobtn\hwn_client_get_state.htm
 tech.root: gpiobtn
 ms.assetid: c472b4bf-4c7f-4c30-ad03-2017d26d52b4
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PHWN_CLIENT_GET_STATE, *PHWN_CLIENT_GET_STATE callback function pointer, HWN_CLIENT_GET_STATE, HwnClientGetState, HwnClientGetState callback function, gpiobtn.hwn_client_get_state, hwnclx/HwnClientGetState"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: hwnclx.h
 req.include-header:

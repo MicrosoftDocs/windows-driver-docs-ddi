@@ -6,11 +6,8 @@ description: An I/O queue notifies a driver when a read request is available for
 old-location: wdf\iqueuecallbackread.htm
 tech.root: wdf
 ms.assetid: ccae49a2-2081-44f2-b1f6-cb1e98b74e5d
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IQueueCallbackRead, IQueueCallbackRead interface, IQueueCallbackRead interface,described, UMDFQueueObjectRef_ea1187c2-6bd1-43a0-aeeb-6d9e1ee48cd7.xml, umdf.iqueuecallbackread, wdf.iqueuecallbackread, wudfddi/IQueueCallbackRead
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wudfddi.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The SetPresharedKeyForId_IN structure holds the input data for the 
 old-location: storage\setpresharedkeyforid_in.htm
 tech.root: storage
 ms.assetid: f941bc28-f906-4399-be54-09e2bc12e443
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PSetPresharedKeyForId_IN, PSetPresharedKeyForId_IN, PSetPresharedKeyForId_IN structure pointer [Storage Devices], SetPresharedKeyForId_IN, SetPresharedKeyForId_IN structure [Storage Devices], _SetPresharedKeyForId_IN, iscsiop/PSetPresharedKeyForId_IN, iscsiop/SetPresharedKeyForId_IN, storage.setpresharedkeyforid_in, structs-iSCSI_610ad061-d9c5-4557-88c0-e7d9a20236a2.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iscsiop.h
 req.include-header: Iscsiop.h

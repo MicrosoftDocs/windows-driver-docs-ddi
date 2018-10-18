@@ -6,11 +6,8 @@ description: The WdfFdoQueryForInterface method obtains access to another driver
 old-location: wdf\wdffdoqueryforinterface.htm
 tech.root: wdf
 ms.assetid: 12bbc77b-c1cd-4899-aff2-e18e0d58b6b9
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_949fcc50-3604-4970-9516-666da06e3c9e.xml, WdfFdoQueryForInterface, WdfFdoQueryForInterface method, kmdf.wdffdoqueryforinterface, wdf.wdffdoqueryforinterface, wdffdo/WdfFdoQueryForInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdffdo.h
 req.include-header: Wdf.h

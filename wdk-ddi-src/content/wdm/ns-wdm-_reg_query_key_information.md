@@ -6,11 +6,8 @@ description: The REG_QUERY_KEY_INFORMATION structure describes the metadata that
 old-location: kernel\reg_query_key_information.htm
 tech.root: kernel
 ms.assetid: 88c64e9a-dbf2-4feb-9ce2-615b5ba98439
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PREG_QUERY_KEY_INFORMATION, PREG_QUERY_KEY_INFORMATION, PREG_QUERY_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_QUERY_KEY_INFORMATION, REG_QUERY_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_QUERY_KEY_INFORMATION, kernel.reg_query_key_information, kstruct_d_5e665782-95c2-4fca-bd49-cb364c449540.xml, wdm/PREG_QUERY_KEY_INFORMATION, wdm/REG_QUERY_KEY_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

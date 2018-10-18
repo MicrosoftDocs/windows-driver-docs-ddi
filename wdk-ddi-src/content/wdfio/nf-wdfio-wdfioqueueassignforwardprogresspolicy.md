@@ -6,11 +6,8 @@ description: The WdfIoQueueAssignForwardProgressPolicy method enables the framew
 old-location: wdf\wdfioqueueassignforwardprogresspolicy.htm
 tech.root: wdf
 ms.assetid: 9512ecf2-ca59-4df8-bb60-c644444bc6fa
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFQueueObjectRef_cd40c10b-367c-403a-8002-39662120f697.xml, WdfIoQueueAssignForwardProgressPolicy, WdfIoQueueAssignForwardProgressPolicy method, kmdf.wdfioqueueassignforwardprogresspolicy, wdf.wdfioqueueassignforwardprogresspolicy, wdfio/WdfIoQueueAssignForwardProgressPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfio.h
 req.include-header: Wdf.h

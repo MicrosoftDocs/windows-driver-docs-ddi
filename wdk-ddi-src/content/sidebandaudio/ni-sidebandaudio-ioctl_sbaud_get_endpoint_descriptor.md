@@ -4,11 +4,8 @@ title: IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR
 author: windows-driver-content
 description: 
 ms.assetid: 425f4c56-06d0-438a-81ec-f1335b52e398
-ms.author: windowsdriverdev
 ms.date: 10/05/2018
 ms.topic: ioctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:

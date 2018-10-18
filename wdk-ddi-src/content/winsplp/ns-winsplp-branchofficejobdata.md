@@ -6,11 +6,8 @@ description: This structure contains the type of event to log (eEventType), the 
 old-location: print\branchofficejobdata.htm
 tech.root: print
 ms.assetid: B49FEED5-C90A-4E4F-9B73-E06E56FB4311
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: "*PBranchOfficeJobData, BranchOfficeJobData, BranchOfficeJobData structure [Print Devices], PBranchOfficeJobData, PBranchOfficeJobData structure pointer [Print Devices], print.branchofficejobdata, winsplp/BranchOfficeJobData, winsplp/PBranchOfficeJobData"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winsplp.h
 req.include-header: 

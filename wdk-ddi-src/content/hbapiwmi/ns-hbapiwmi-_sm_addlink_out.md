@@ -6,11 +6,8 @@ description: The SM_AddLink_OUT structure is used to receive output parameters f
 old-location: storage\sm_addlink_out.htm
 tech.root: storage
 ms.assetid: 1c69b8b0-fe73-4e13-be09-70b99e0e3f32
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PSM_AddLink_OUT, PSM_AddLink_OUT, PSM_AddLink_OUT structure pointer [Storage Devices], SM_AddLink_OUT, SM_AddLink_OUT structure [Storage Devices], _SM_AddLink_OUT, hbapiwmi/PSM_AddLink_OUT, hbapiwmi/SM_AddLink_OUT, storage.sm_addlink_out, structs-Fibre_a02f38fd-ea37-42cb-9c3d-387ffb097893.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h

@@ -4,11 +4,8 @@ title: D3COLD_REQUEST_PERST_DELAY
 author: windows-driver-content
 description: Enables the function device object (FDO) to convey its requirement for a fixed delay time. 
 ms.assetid: c81274ad-e9e9-4ad2-a6e0-fac03e792071
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:

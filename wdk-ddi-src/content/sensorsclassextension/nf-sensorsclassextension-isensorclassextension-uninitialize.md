@@ -6,11 +6,8 @@ description: The ISensorClassExtension::Uninitialize method uninitializes the se
 old-location: sensors\isensorclassextension_uninitialize.htm
 tech.root: sensors
 ms.assetid: 204a6126-bb69-4a96-acbf-3ad5b8ae0f04
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: ISensorClassExtension interface [Sensor Devices],Uninitialize method, ISensorClassExtension.Uninitialize, ISensorClassExtension::Uninitialize, Uninitialize, Uninitialize method [Sensor Devices], Uninitialize method [Sensor Devices],ISensorClassExtension interface, sensors.isensorclassextension_uninitialize, sensorsclassextension/ISensorClassExtension::Uninitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsclassextension.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The WWAN_IP_CONFIGURATION_FLAGS structure represents flags that des
 old-location: netvista\wwan_ip_configuration_flags.htm
 tech.root: netvista
 ms.assetid: 5157F48F-E1D3-4B22-BBB0-0FC7965C794B
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: WWAN_IP_CONFIGURATION_FLAGS, WWAN_IP_CONFIGURATION_FLAGS union [Network Drivers Starting with Windows Vista], netvista.wwan_ip_configuration_flags, wwan/WWAN_IP_CONFIGURATION_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wwan.h
 req.include-header: Wwan.h

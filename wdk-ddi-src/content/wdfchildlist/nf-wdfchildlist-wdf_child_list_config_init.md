@@ -6,11 +6,8 @@ description: The WDF_CHILD_LIST_CONFIG_INIT function initializes a WDF_CHILD_LIS
 old-location: wdf\wdf_child_list_config_init.htm
 tech.root: wdf
 ms.assetid: d222f2f3-554f-43d5-97c5-9a56fdb42ec3
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectChildListRef_b5fea12e-3e5b-4ec7-8e9d-0e385047cbdc.xml, WDF_CHILD_LIST_CONFIG_INIT, WDF_CHILD_LIST_CONFIG_INIT function, kmdf.wdf_child_list_config_init, wdf.wdf_child_list_config_init, wdfchildlist/WDF_CHILD_LIST_CONFIG_INIT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfchildlist.h
 req.include-header: Wdf.h

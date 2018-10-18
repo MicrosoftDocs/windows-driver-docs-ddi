@@ -4,11 +4,8 @@ title: PFND3D12DDI_CHECKSUBRESOURCEINFO
 author: windows-driver-content
 description: Check subresource info.
 ms.assetid: d8285aa5-1eec-425b-9cc5-28fa2e14b521
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

@@ -6,11 +6,8 @@ description: The IP_OFFLOAD_STATS structure contains statistics that an offload 
 old-location: netvista\ip_offload_stats.htm
 tech.root: netvista
 ms.assetid: f40c5734-2546-40c3-a6fb-58f728c3cc5e
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*PIP_OFFLOAD_STATS, IP_OFFLOAD_STATS, IP_OFFLOAD_STATS structure [Network Drivers Starting with Windows Vista], PIP_OFFLOAD_STATS, PIP_OFFLOAD_STATS structure pointer [Network Drivers Starting with Windows Vista], _IP_OFFLOAD_STATS, ndischimney/IP_OFFLOAD_STATS, ndischimney/PIP_OFFLOAD_STATS, netvista.ip_offload_stats, tcp_chim_struct_292881aa-1c15-4b1a-abd9-927d3b3b8f7b.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndischimney.h
 req.include-header: Ndischimney.h

@@ -6,11 +6,8 @@ description: The KSSTREAM_HEADER structure is a variable-length structure that d
 old-location: stream\ksstream_header.htm
 tech.root: stream
 ms.assetid: c1057dcf-2988-460d-b006-f6cf16ec969e
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PKSSTREAM_HEADER, KSSTREAM_HEADER, KSSTREAM_HEADER structure [Streaming Media Devices], PKSSTREAM_HEADER, PKSSTREAM_HEADER structure pointer [Streaming Media Devices], ks-struct_6f951af2-bee6-49ee-9df5-5291b5d00045.xml, ks/KSSTREAM_HEADER, ks/PKSSTREAM_HEADER, stream.ksstream_header"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ks.h
 req.include-header: Ks.h

@@ -6,11 +6,8 @@ description: The CopyFromMemory method safely copies data from the specified sou
 old-location: wdf\iwdfmemory_copyfrommemory.htm
 tech.root: wdf
 ms.assetid: 29b77215-9c7e-47f2-8c94-0bcd733f54a2
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: CopyFromMemory, CopyFromMemory method, CopyFromMemory method,IWDFMemory interface, IWDFMemory interface,CopyFromMemory method, IWDFMemory.CopyFromMemory, IWDFMemory::CopyFromMemory, UMDFMemoryObjectRef_c5bc961a-62e9-4692-bbd7-6551b268b08b.xml, umdf.iwdfmemory_copyfrommemory, wdf.iwdfmemory_copyfrommemory, wudfddi/IWDFMemory::CopyFromMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

@@ -6,11 +6,8 @@ description: The D3DDDI_OVERLAYINFOFLAGS structure identifies the type of overla
 old-location: display\d3dddi_overlayinfoflags.htm
 tech.root: display
 ms.assetid: ebf31c28-857b-4885-a910-16da5a011ce1
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DDDI_OVERLAYINFOFLAGS, D3DDDI_OVERLAYINFOFLAGS structure [Display Devices], D3D_other_Structs_3c20db45-e3b5-4e0e-96a6-d2171dbf309a.xml, _D3DDDI_OVERLAYINFOFLAGS, d3dumddi/D3DDDI_OVERLAYINFOFLAGS, display.d3dddi_overlayinfoflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

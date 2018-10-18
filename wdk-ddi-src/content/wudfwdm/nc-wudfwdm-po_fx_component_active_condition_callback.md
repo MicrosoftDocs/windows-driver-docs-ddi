@@ -6,11 +6,8 @@ description: The ComponentActiveConditionCallback callback routine notifies the 
 old-location: kernel\componentactiveconditioncallback.htm
 tech.root: kernel
 ms.assetid: D9EA3F98-7646-4882-BE07-818280404D6A
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: ComponentActiveConditionCallback, ComponentActiveConditionCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK, kernel.componentactiveconditioncallback, wdm/ComponentActiveConditionCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wudfwdm.h
 req.include-header: Wudfwdm.h

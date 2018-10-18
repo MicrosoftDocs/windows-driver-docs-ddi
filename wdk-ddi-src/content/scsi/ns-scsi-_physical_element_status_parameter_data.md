@@ -4,11 +4,8 @@ title: _PHYSICAL_ELEMENT_STATUS_PARAMETER_DATA
 author: windows-driver-content
 description: The PHYSICAL_ELEMENT_STATUS_PARAMETER_DATA structure contains the parameter data for a physical element.
 ms.assetid: abd6528d-d343-4239-aa83-4b217945b233
-ms.author: windowsdriverdev
 ms.date: 09/10/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _PHYSICAL_ELEMENT_STATUS_PARAMETER_DATA, PHYSICAL_ELEMENT_STATUS_PARAMETER_DATA, *PPHYSICAL_ELEMENT_STATUS_PARAMETER_DATA, 
 req.header: scsi.h
 req.include-header: scsi.h, storport.h, minitape.h

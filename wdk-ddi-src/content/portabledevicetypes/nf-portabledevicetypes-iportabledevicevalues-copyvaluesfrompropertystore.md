@@ -6,11 +6,8 @@ description: Copies the contents of an IPropertyStore into the collection.
 old-location: wpddk\iportabledevicevalues_copyvaluesfrompropertystore.htm
 tech.root: wpd_dk
 ms.assetid: 2010802f-3803-46f9-9f19-11fd1f593fc8
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: CopyValuesFromPropertyStore, CopyValuesFromPropertyStore method, CopyValuesFromPropertyStore method,IPortableDeviceValues interface, IPortableDeviceValues interface,CopyValuesFromPropertyStore method, IPortableDeviceValues.CopyValuesFromPropertyStore, IPortableDeviceValues::CopyValuesFromPropertyStore, IPortableDeviceValuesCopyValuesFromPropertyStore, portabledevicetypes/IPortableDeviceValues::CopyValuesFromPropertyStore, wpddk.iportabledevicevalues_copyvaluesfrompropertystore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledevicetypes.h
 req.include-header: 

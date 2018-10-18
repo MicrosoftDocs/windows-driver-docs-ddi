@@ -4,11 +4,8 @@ title: KSRTAUDIO_PACKETVREGISTER
 author: windows-driver-content
 description: The KSRTAUDIO_PACKETVREGISTER structure contains information about the packet virtual register pointers.
 ms.assetid: 42c9a5a1-0d6c-447b-918e-70ab47c4720d
-ms.author: windowsdriverdev
 ms.date: 9/28/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: KSRTAUDIO_PACKETVREGISTER, KSRTAUDIO_PACKETVREGISTER, *PKSRTAUDIO_PACKETVREGISTER, 
 req.header: ksmedia.h
 req.include-header:

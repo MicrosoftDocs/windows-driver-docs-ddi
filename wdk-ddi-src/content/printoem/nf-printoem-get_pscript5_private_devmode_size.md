@@ -4,7 +4,6 @@ title: GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE macro
 author: windows-driver-content
 description: 
 ms.assetid: cda9100c-5b0f-4bf8-8d85-d920d23d8ceb
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: macro
 ms.keywords: GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE

@@ -6,11 +6,8 @@ description: The SerCx2PioReceiveReady method notifies version 2 of the serial f
 old-location: serports\sercx2pioreceiveready.htm
 tech.root: serports
 ms.assetid: 81DE84F8-7D2D-464F-BA5D-4D92D0EE9149
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: 2/SerCx2PioReceiveReady, SerCx2PioReceiveReady, SerCx2PioReceiveReady method [Serial Ports], serports.sercx2pioreceiveready
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 

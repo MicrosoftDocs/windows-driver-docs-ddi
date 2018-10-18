@@ -6,11 +6,8 @@ description: The NDK_LOGICAL_ADDRESS_MAPPING structure contains an array of adap
 old-location: netvista\ndk_logical_address_mapping.htm
 tech.root: netvista
 ms.assetid: 7FB34813-5F89-4B9C-9594-B23E7D4736C6
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NDK_LOGICAL_ADDRESS_MAPPING, NDK_LOGICAL_ADDRESS_MAPPING structure [Network Drivers Starting with Windows Vista], PNDK_LOGICAL_ADDRESS_MAPPING, PNDK_LOGICAL_ADDRESS_MAPPING structure pointer [Network Drivers Starting with Windows Vista], _NDK_LOGICAL_ADDRESS_MAPPING, ndkpi/NDK_LOGICAL_ADDRESS_MAPPING, ndkpi/PNDK_LOGICAL_ADDRESS_MAPPING, netvista.ndk_logical_address_mapping
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndkpi.h
 req.include-header: Ndkpi.h

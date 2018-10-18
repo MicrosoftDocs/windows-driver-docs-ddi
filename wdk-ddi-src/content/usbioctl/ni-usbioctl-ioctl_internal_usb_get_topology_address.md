@@ -6,11 +6,8 @@ description: The IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS I/O request returns inf
 old-location: buses\ioctl_internal_usb_get_topology_address.htm
 tech.root: usbref
 ms.assetid: 15a196de-7d6a-408a-97e1-58d6756433db
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS, IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS control, IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS control code [Buses], buses.ioctl_internal_usb_get_topology_address, usbioctl/IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: usbioctl.h
 req.include-header: Usbioctl.h

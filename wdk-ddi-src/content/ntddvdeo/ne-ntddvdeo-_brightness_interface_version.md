@@ -4,12 +4,9 @@ title: _BRIGHTNESS_INTERFACE_VERSION
 author: windows-driver-content
 description: Specifies the brightness interface versions.
 ms.assetid: 2d13834a-bed3-4906-9a5c-778864173641
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: enum
 ms.keywords: _BRIGHTNESS_INTERFACE_VERSION, BRIGHTNESS_INTERFACE_VERSION,
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: ntddvdeo.h
 req.include-header:
 req.target-type:

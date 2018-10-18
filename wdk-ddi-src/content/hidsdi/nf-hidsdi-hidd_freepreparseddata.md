@@ -6,11 +6,8 @@ description: The HidD_FreePreparsedData routine releases the resources that the 
 old-location: hid\hidd_freepreparseddata.htm
 tech.root: hid
 ms.assetid: 71e2f946-706d-41bc-9d9c-d63230877e48
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: HidD_FreePreparsedData, HidD_FreePreparsedData routine [Human Input Devices], hid.hidd_freepreparseddata, hidfunc_2ca8b6ee-b391-40ac-bd0e-491089d7ed06.xml, hidsdi/HidD_FreePreparsedData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hidsdi.h
 req.include-header: Hidsdi.h

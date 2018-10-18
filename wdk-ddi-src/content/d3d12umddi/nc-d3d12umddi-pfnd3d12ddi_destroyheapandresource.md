@@ -4,11 +4,8 @@ title: PFND3D12DDI_DESTROYHEAPANDRESOURCE
 author: windows-driver-content
 description: Destroy heap and resource.
 ms.assetid: 12c5cdc3-981a-4a34-af3c-b62ff7872877
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

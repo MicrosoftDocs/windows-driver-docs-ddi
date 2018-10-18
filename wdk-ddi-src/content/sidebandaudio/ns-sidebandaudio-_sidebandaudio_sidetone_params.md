@@ -4,11 +4,8 @@ title: _SIDEBANDAUDIO_SIDETONE_PARAMS
 author: windows-driver-content
 description: Describes the endpoint index and sidetone value.
 ms.assetid: baeba68b-d15f-469f-97f8-bd53e38fe1ea
-ms.author: windowsdriverdev
 ms.date: 09/06/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _SIDEBANDAUDIO_SIDETONE_PARAMS, SIDEBANDAUDIO_SIDETONE_PARAMS, *PSIDEBANDAUDIO_SIDETONE_PARAMS, 
 req.header: sidebandaudio.h
 req.include-header:

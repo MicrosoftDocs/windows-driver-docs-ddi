@@ -6,11 +6,8 @@ description: The RtlAreBitsSet routine determines whether a given range of bits 
 old-location: kernel\rtlarebitsset.htm
 tech.root: kernel
 ms.assetid: 7343f619-cf89-4768-b488-fe95f1da749d
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlAreBitsSet, RtlAreBitsSet routine [Kernel-Mode Driver Architecture], k109_8d2248d2-13e9-4f90-8d09-a3ea51579da8.xml, kernel.rtlarebitsset, wdm/RtlAreBitsSet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

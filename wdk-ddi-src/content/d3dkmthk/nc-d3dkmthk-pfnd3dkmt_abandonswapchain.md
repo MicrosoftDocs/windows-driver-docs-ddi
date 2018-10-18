@@ -4,11 +4,8 @@ title: PFND3DKMT_ABANDONSWAPCHAIN
 author: windows-driver-content
 description: Abandon the swap chain effect.
 ms.assetid: 06eaa290-e47f-446f-9f60-3aba3f31029c
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

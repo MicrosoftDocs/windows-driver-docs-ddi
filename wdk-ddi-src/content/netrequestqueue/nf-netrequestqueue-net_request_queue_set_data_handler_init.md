@@ -5,7 +5,6 @@ author: windows-driver-content
 description: Initializes a caller-allocated NET_REQUEST_QUEUE_SET_DATA_HANDLER structure.
 tech.root: netvista
 ms.assetid: 0b9803b4-438b-459e-849c-5e08fa9f58e5
-ms.author: windowsdriverdev
 ms.date: 02/09/2018
 ms.topic: function
 ms.keywords: NET_REQUEST_QUEUE_SET_DATA_HANDLER_INIT

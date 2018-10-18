@@ -6,11 +6,8 @@ description: The GetDmaAdapterInfo routine retrieves information about the hardw
 old-location: kernel\getdmaadapterinfo.htm
 tech.root: kernel
 ms.assetid: 2F502ACA-0CFF-46A1-B54C-1034D6E56815
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: GetDmaAdapterInfo, GetDmaAdapterInfo callback function [Kernel-Mode Driver Architecture], PGET_DMA_ADAPTER_INFO, PGET_DMA_ADAPTER_INFO callback, kernel.getdmaadapterinfo, wdm/GetDmaAdapterInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

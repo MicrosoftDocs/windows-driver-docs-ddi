@@ -6,11 +6,8 @@ description: The IPrintOemUni::TextOutAsBitmap method allows a rendering plug-in
 old-location: print\iprintoemuni_textoutasbitmap.htm
 tech.root: print
 ms.assetid: 2c144eb7-6279-490a-813c-6c0ae995c6ad
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrintOemUni interface [Print Devices],TextOutAsBitmap method, IPrintOemUni.TextOutAsBitmap, IPrintOemUni::TextOutAsBitmap, TextOutAsBitmap, TextOutAsBitmap method [Print Devices], TextOutAsBitmap method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::TextOutAsBitmap, print.iprintoemuni_textoutasbitmap, print_unidrv-pscript_rendering_41d6e02a-2a7b-4d78-95d6-fff6ae39b333.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

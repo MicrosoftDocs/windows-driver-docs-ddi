@@ -6,11 +6,8 @@ description: The WriteBytes method writes a specified number of bytes to a strea
 old-location: print\iprintwritestream_writebytes.htm
 tech.root: print
 ms.assetid: d47c836e-a291-4cc2-9688-82526f8bfb8b
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrintWriteStream interface [Print Devices],WriteBytes method, IPrintWriteStream.WriteBytes, IPrintWriteStream::WriteBytes, WriteBytes, WriteBytes method [Print Devices], WriteBytes method [Print Devices],IPrintWriteStream interface, filterpipeline/IPrintWriteStream::WriteBytes, filterpipeline_168a03b1-8fdc-4a98-9a5f-5c706fcd401b.xml, print.iprintwritestream_writebytes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: filterpipeline.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: Converts a value of type ULONG_PTR to a value of type SHORT.
 old-location: kernel\rtlulongptrtoshort.htm
 tech.root: kernel
 ms.assetid: 37C4A2B0-6FB4-431D-8FB2-0B13EE1F00F1
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlULongPtrToShort, RtlULongPtrToShort function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtoshort, ntintsafe/RtlULongPtrToShort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

@@ -4,11 +4,8 @@ title: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_RESUME_LOCAL_READ_PARAMETERS
 author: windows-driver-content
 description: 
 ms.assetid: e27305cb-2fe3-40e8-b102-05d665ed2698
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_RESUME_LOCAL_READ_PARAMETERS, D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_RESUME_LOCAL_READ_PARAMETERS, 
 req.header: d3d12umddi.h
 req.include-header:

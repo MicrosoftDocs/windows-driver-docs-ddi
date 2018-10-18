@@ -6,11 +6,8 @@ description: The KeDelayExecutionThread routine puts the current thread into an 
 old-location: kernel\kedelayexecutionthread.htm
 tech.root: kernel
 ms.assetid: fe8dc704-3baf-4955-85fe-bba19181dbbf
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: KeDelayExecutionThread, KeDelayExecutionThread routine [Kernel-Mode Driver Architecture], k105_2335c373-d2b6-49bf-b329-92ab442ccade.xml, kernel.kedelayexecutionthread, wdm/KeDelayExecutionThread
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

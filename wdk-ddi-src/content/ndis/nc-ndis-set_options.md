@@ -6,11 +6,8 @@ description: NDIS calls a driver's XxxSetOptions function to allow the driver to
 old-location: netvista\protocolsetoptions.htm
 tech.root: netvista
 ms.assetid: 342e23ad-d38b-4100-949a-220b8fbdcf6e
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: SET_OPTIONS, SET_OPTIONS callback, SetOptions, SetOptions callback function [Network Drivers Starting with Windows Vista], ndis/SetOptions, netvista.protocolsetoptions, protocol_functions_ref_be1126b7-c5ae-4d43-90d4-8e10d97f422d.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

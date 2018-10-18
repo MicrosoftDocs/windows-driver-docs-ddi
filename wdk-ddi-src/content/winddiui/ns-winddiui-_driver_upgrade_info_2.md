@@ -6,11 +6,8 @@ description: The DRIVER_UPGRADE_INFO_2 structure is used as an input to a printe
 old-location: print\driver_upgrade_info_2.htm
 tech.root: print
 ms.assetid: 691554c5-5c99-40f0-b0d6-3556e004dd30
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: "*PDRIVER_UPGRADE_INFO_2, DRIVER_UPGRADE_INFO_2, DRIVER_UPGRADE_INFO_2 structure [Print Devices], PDRIVER_UPGRADE_INFO_2, PDRIVER_UPGRADE_INFO_2 structure pointer [Print Devices], _DRIVER_UPGRADE_INFO_2, print.driver_upgrade_info_2, print_interface-graphics_3db7d8d4-1f0c-4b76-9e22-bc55aac9b6c7.xml, winddiui/DRIVER_UPGRADE_INFO_2, winddiui/PDRIVER_UPGRADE_INFO_2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winddiui.h
 req.include-header: Winddiui.h

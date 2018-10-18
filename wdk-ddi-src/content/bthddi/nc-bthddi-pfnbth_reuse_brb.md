@@ -6,11 +6,8 @@ description: The BthReuseBrb function reinitializes a Bluetooth request block (B
 old-location: bltooth\bthreusebrb.htm
 tech.root: bltooth
 ms.assetid: cdf156a1-1556-441a-ae3d-9a49daf47990
-ms.author: windowsdriverdev
 ms.date: 4/27/2018
 ms.keywords: BthReuseBrb, BthReuseBrb callback function [Bluetooth Devices], PFNBTH_REUSE_BRB, PFNBTH_REUSE_BRB callback, bltooth.bthreusebrb, bth_funcs_118c4022-448d-4970-ba70-34dcbc488d13.xml, bthddi/BthReuseBrb
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: bthddi.h
 req.include-header: Bthddi.h

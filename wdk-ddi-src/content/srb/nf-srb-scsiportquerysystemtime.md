@@ -6,11 +6,8 @@ description: The ScsiPortQuerySystemTime routine obtains the current system time
 old-location: storage\scsiportquerysystemtime.htm
 tech.root: storage
 ms.assetid: 6f6afe6d-8f57-4c08-97ea-b327622a4e39
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: ScsiPortQuerySystemTime, ScsiPortQuerySystemTime routine [Storage Devices], scsiprt_033d0cc3-e930-448b-a13e-b140829d2b7d.xml, srb/ScsiPortQuerySystemTime, storage.scsiportquerysystemtime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: srb.h
 req.include-header: 

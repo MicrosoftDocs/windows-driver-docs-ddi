@@ -4,11 +4,8 @@ title: D3DKMT_PRESENT_MULTIPLANE_OVERLAY
 author: windows-driver-content
 description: Contains present multiplane overlay information.
 ms.assetid: 4f98ff62-0189-452e-82cc-dbd596aa7a48
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3DKMT_PRESENT_MULTIPLANE_OVERLAY, D3DKMT_PRESENT_MULTIPLANE_OVERLAY, 
 req.header: d3dkmthk.h
 req.include-header:

@@ -6,11 +6,8 @@ description: Loads and initializes the DirectX graphics kernel subsystem (Dxgkrn
 old-location: display\dxgkinitializedisplayonlydriver.htm
 tech.root: display
 ms.assetid: d80d2d6a-758f-4b11-b33c-4b176a458bd2
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DxgkInitializeDisplayOnlyDriver, DxgkInitializeDisplayOnlyDriver function [Display Devices], display.dxgkinitializedisplayonlydriver, dispmprt/DxgkInitializeDisplayOnlyDriver
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dispmprt.h
 req.include-header: 

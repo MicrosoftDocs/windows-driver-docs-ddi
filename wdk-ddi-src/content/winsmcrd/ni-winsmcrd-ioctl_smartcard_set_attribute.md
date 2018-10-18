@@ -6,11 +6,8 @@ description: The IOCTL_SMARTCARD_SET_ATTRIBUTE control code sets an attribute an
 old-location: nfpdrivers\ioctl_smartcard_set_attribute.htm
 tech.root: nfpdrivers
 ms.assetid: 48B5F00C-1DDD-488C-8269-E52DF366D552
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IOCTL_SMARTCARD_SET_ATTRIBUTE, IOCTL_SMARTCARD_SET_ATTRIBUTE control, IOCTL_SMARTCARD_SET_ATTRIBUTE control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_set_attribute, winsmcrd/IOCTL_SMARTCARD_SET_ATTRIBUTE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: winsmcrd.h
 req.include-header: 

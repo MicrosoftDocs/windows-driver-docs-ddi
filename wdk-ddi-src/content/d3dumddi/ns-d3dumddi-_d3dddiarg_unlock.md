@@ -6,11 +6,8 @@ description: The D3DDDIARG_UNLOCK structure describes a resource or a surface wi
 old-location: display\d3dddiarg_unlock.htm
 tech.root: display
 ms.assetid: e6e0b0fd-be80-4c44-9d7d-1b9476b44b65
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DDDIARG_UNLOCK, D3DDDIARG_UNLOCK structure [Display Devices], UMDisplayDriver_param_Structs_ae4773cf-d43a-4468-8d6b-a4c4fa9b55fa.xml, _D3DDDIARG_UNLOCK, d3dumddi/D3DDDIARG_UNLOCK, display.d3dddiarg_unlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

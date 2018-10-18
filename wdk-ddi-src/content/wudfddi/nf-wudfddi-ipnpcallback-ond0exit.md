@@ -6,11 +6,8 @@ description: The OnD0Exit method notifies a driver when a device exits the D0 po
 old-location: wdf\ipnpcallback_ond0exit.htm
 tech.root: wdf
 ms.assetid: 39eedeca-269d-4966-be1f-7cc5c9228a5c
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IPnpCallback interface,OnD0Exit method, IPnpCallback.OnD0Exit, IPnpCallback::OnD0Exit, OnD0Exit, OnD0Exit method, OnD0Exit method,IPnpCallback interface, UMDFDeviceObjectRef_4c9ce2f7-92c8-4e0b-80fe-cfb06d1be83a.xml, umdf.ipnpcallback_ond0exit, wdf.ipnpcallback_ond0exit, wudfddi/IPnpCallback::OnD0Exit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

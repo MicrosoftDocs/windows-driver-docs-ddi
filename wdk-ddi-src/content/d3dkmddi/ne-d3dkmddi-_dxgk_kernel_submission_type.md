@@ -4,12 +4,9 @@ title: _DXGK_KERNEL_SUBMISSION_TYPE
 author: windows-driver-content
 description: Specifies the kernel submission type in the GPU work submission to the hardware queue.
 ms.assetid: 9e42f4e6-bdd8-4b9e-9038-08edececb86e
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: _DXGK_KERNEL_SUBMISSION_TYPE, DXGK_KERNEL_SUBMISSION_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

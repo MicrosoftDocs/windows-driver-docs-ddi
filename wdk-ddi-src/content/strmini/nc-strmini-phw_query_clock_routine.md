@@ -6,11 +6,8 @@ description: Each stream may have a clock associated to it. The class driver que
 old-location: stream\strminiclock.htm
 tech.root: stream
 ms.assetid: ea230363-e2e8-48fb-982b-025615753e83
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: PHW_QUERY_CLOCK_ROUTINE, StrMiniClock, StrMiniClock routine [Streaming Media Devices], stream.strminiclock, strmini-routines_d53b0cf1-3c0c-435f-bc44-732f6418ebb8.xml, strmini/StrMiniClock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: strmini.h
 req.include-header: Strmini.h

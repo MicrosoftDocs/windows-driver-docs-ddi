@@ -6,11 +6,8 @@ description: Adds a new GUID value (type VT_CLSID) or overwrites an existing one
 old-location: wpddk\iportabledevicevalues_setguidvalue.htm
 tech.root: wpd_dk
 ms.assetid: 08b5184b-6baa-45dc-be26-cbf7d9c96616
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IPortableDeviceValues interface,SetGuidValue method, IPortableDeviceValues.SetGuidValue, IPortableDeviceValues::SetGuidValue, IPortableDeviceValuesSetGuidValue, SetGuidValue, SetGuidValue method, SetGuidValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetGuidValue, wpddk.iportabledevicevalues_setguidvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledevicetypes.h
 req.include-header: 

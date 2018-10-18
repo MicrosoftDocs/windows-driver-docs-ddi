@@ -6,11 +6,8 @@ description: The StorPortValidateRange routine determines whether a specified ra
 old-location: storage\storportvalidaterange.htm
 tech.root: storage
 ms.assetid: 505d6986-c59d-46b3-8437-29fc6a808ccd
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: StorPortValidateRange, StorPortValidateRange routine [Storage Devices], storage.storportvalidaterange, storport/StorPortValidateRange, storprt_7d3583a5-211d-414e-880d-31c04145d3ab.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

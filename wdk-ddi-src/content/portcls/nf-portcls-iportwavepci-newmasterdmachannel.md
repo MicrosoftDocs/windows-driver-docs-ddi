@@ -6,11 +6,8 @@ description: The NewMasterDmaChannel method creates a new instance of a bus-mast
 old-location: audio\iportwavepci_newmasterdmachannel.htm
 tech.root: audio
 ms.assetid: a4128541-1982-413d-a013-422ca1cf4542
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: IPortWavePci interface [Audio Devices],NewMasterDmaChannel method, IPortWavePci.NewMasterDmaChannel, IPortWavePci::NewMasterDmaChannel, NewMasterDmaChannel, NewMasterDmaChannel method [Audio Devices], NewMasterDmaChannel method [Audio Devices],IPortWavePci interface, audio.iportwavepci_newmasterdmachannel, audmp-routines_01c562e8-f0b7-4232-9595-2312175c097f.xml, portcls/IPortWavePci::NewMasterDmaChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: Portcls.h

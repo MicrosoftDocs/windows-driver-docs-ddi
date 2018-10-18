@@ -4,11 +4,8 @@ title: _D3DKMT_KMD_DRIVER_VERSION
 author: windows-driver-content
 description: Contains the kernel mode driver version.
 ms.assetid: 2c615115-1702-4682-b927-6546f6acd097
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_KMD_DRIVER_VERSION, D3DKMT_KMD_DRIVER_VERSION,
 req.header: d3dkmthk.h
 req.include-header:

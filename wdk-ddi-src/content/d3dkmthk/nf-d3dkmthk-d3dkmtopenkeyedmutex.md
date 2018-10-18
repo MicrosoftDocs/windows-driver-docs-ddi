@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMTOpenKeyedMutex function opens a keyed mutex object.
 old-location: display\d3dkmtopenkeyedmutex.htm
 ms.assetid: 309a43bf-5fad-409f-83e6-e88361b03827
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3DKMTOpenKeyedMutex, D3DKMTOpenKeyedMutex function [Display Devices], OpenGL_Functions_6e2179a9-932f-4bd3-b222-4d5f1471636c.xml, d3dkmthk/D3DKMTOpenKeyedMutex, display.d3dkmtopenkeyedmutex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

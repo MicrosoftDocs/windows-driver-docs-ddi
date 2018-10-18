@@ -6,11 +6,8 @@ description: Gets a named feature from the PrintCapabilities, by name and full n
 old-location: print\iprintschemacapabilities_getfeature.htm
 tech.root: print
 ms.assetid: AC6434F5-0892-4426-98BB-BC02AD17917B
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: GetFeature, GetFeature method [Print Devices], GetFeature method [Print Devices],IPrintSchemaCapabilities interface, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices],GetFeature method, IPrintSchemaCapabilities.GetFeature, IPrintSchemaCapabilities::GetFeature, print.iprintschemacapabilities_getfeature, printerextension/IPrintSchemaCapabilities::GetFeature
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header: 

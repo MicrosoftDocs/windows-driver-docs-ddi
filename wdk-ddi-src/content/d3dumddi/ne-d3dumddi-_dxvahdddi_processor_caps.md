@@ -4,12 +4,9 @@ title: _DXVAHDDDI_PROCESSOR_CAPS
 author: windows-driver-content
 description: Specifies Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor capabilities.
 ms.assetid: 54845c1d-9efc-45c1-a028-1f8e049e868b
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: _DXVAHDDDI_PROCESSOR_CAPS, DXVAHDDDI_PROCESSOR_CAPS, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dumddi.h
 req.include-header:
 req.target-type:

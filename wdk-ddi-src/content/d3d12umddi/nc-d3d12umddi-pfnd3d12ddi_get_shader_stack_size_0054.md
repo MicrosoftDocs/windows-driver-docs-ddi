@@ -4,11 +4,8 @@ title: PFND3D12DDI_GET_SHADER_STACK_SIZE_0054
 author: windows-driver-content
 description: Retrieves the amount of stack memory required to invoke a ray tracing shader in HLSL.
 ms.assetid: 2e7904b0-d29b-411a-99fb-d2468d216b30
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

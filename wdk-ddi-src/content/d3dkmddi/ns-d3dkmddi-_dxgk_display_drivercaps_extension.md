@@ -4,11 +4,8 @@ title: _DXGK_DISPLAY_DRIVERCAPS_EXTENSION
 author: windows-driver-content
 description: Driver capabilities extension for WDDM 2.0 or later drivers.
 ms.assetid: a4a74c3b-1fb6-4b0c-ba50-efa5648da9fd
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGK_DISPLAY_DRIVERCAPS_EXTENSION, DXGK_DISPLAY_DRIVERCAPS_EXTENSION, 
 req.header: d3dkmddi.h
 req.include-header:

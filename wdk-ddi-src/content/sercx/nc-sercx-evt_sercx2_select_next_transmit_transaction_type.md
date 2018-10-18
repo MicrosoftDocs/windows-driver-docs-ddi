@@ -6,11 +6,8 @@ description: The EvtSerCx2SelectNextTransmitTransactionType event callback funct
 old-location: serports\evtsercx2selectnexttransmittransactiontype.htm
 tech.root: serports
 ms.assetid: EE46CB43-18BA-4FD7-A60D-07DB1760B8E7
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: 2/EvtSerCx2SelectNextTransmitTransactionType, EVT_SERCX2_SELECT_NEXT_TRANSMIT_TRANSACTION_TYPE, EVT_SERCX2_SELECT_NEXT_TRANSMIT_TRANSACTION_TYPE callback, EvtSerCx2SelectNextTransmitTransactionType, EvtSerCx2SelectNextTransmitTransactionType callback function [Serial Ports], serports.evtsercx2selectnexttransmittransactiontype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sercx.h
 req.include-header: 

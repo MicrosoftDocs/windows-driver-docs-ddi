@@ -4,11 +4,8 @@ title: IOCTL_PANEL_GET_BACKLIGHT_REDUCTION
 author: windows-driver-content
 description: Panel control IOCTLs must/can be handled by the monitor, OEM panel, or port/miniport driver.
 ms.assetid: 376241d5-082c-45b2-b7bf-b6fe5dd4eb39
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: ioctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: ntddvdeo.h
 req.include-header:
 req.target-type:

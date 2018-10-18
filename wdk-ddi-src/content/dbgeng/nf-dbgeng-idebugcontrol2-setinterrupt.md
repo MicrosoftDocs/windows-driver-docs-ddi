@@ -6,11 +6,8 @@ description: The SetInterrupt method registers a user interrupt or breaks into t
 old-location: debugger\setinterrupt.htm
 tech.root: debugger
 ms.assetid: d67119c7-ecbe-446c-8a4f-38d33e92a277
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugControl interface [Windows Debugging],SetInterrupt method, IDebugControl2 interface [Windows Debugging],SetInterrupt method, IDebugControl2.SetInterrupt, IDebugControl2::SetInterrupt, IDebugControl3 interface [Windows Debugging],SetInterrupt method, IDebugControl3::SetInterrupt, IDebugControl::SetInterrupt, IDebugControl_dd73562c-6f15-4101-8ab3-3f432de5a002.xml, SetInterrupt, SetInterrupt method [Windows Debugging], SetInterrupt method [Windows Debugging],IDebugControl interface, SetInterrupt method [Windows Debugging],IDebugControl2 interface, SetInterrupt method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetInterrupt, dbgeng/IDebugControl3::SetInterrupt, dbgeng/IDebugControl::SetInterrupt, debugger.setinterrupt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

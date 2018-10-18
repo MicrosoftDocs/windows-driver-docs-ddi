@@ -6,11 +6,8 @@ description: The PPARALLEL_IEEE_FWD_TO_REV-typed callback routine changes the tr
 old-location: parports\pparallel_ieee_fwd_to_rev.htm
 tech.root: parports
 ms.assetid: cb7e01e3-7aff-436c-af82-bc7716d2fe1f
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: PPARALLEL_IEEE_FWD_TO_REV, PPARALLEL_IEEE_FWD_TO_REV function pointer [Parallel Ports], cisspd_a22a220b-a633-48b8-9e53-434f362d15f0.xml, parallel/PPARALLEL_IEEE_FWD_TO_REV, parports.pparallel_ieee_fwd_to_rev
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: parallel.h
 req.include-header: Parallel.h

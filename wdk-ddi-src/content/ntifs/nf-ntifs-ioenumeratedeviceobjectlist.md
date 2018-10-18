@@ -6,11 +6,8 @@ description: The IoEnumerateDeviceObjectList routine enumerates a driver's devic
 old-location: ifsk\ioenumeratedeviceobjectlist.htm
 tech.root: ifsk
 ms.assetid: ce6cec58-2122-49c3-8c5c-172df2c4dd04
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: IoEnumerateDeviceObjectList, IoEnumerateDeviceObjectList routine [Installable File System Drivers], ifsk.ioenumeratedeviceobjectlist, ioref_5bfd9f2c-73c0-4f69-8a5e-4cc105c2f92a.xml, ntifs/IoEnumerateDeviceObjectList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

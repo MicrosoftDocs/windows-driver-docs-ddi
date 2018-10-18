@@ -6,11 +6,8 @@ description: This enumeration is not implemented.
 old-location: pos\linedisplaymarqueetypetype.htm
 tech.root: pos
 ms.assetid: 051A9254-42B4-4698-AFF4-0A27D83719F0
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: LineDisplayMarqueeTypeType, LineDisplayMarqueeTypeType enumeration, PLineDisplayMarqueeTypeType, PLineDisplayMarqueeTypeType enumeration pointer, _LineDisplayMarqueeTypeType, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayMarqueeTypeType, pointofservicecommontypes/PLineDisplayMarqueeTypeType, pos.linedisplaymarqueetypetype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h

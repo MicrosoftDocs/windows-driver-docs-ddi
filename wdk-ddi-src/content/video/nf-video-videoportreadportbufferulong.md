@@ -6,11 +6,8 @@ description: The VideoPortReadPortBufferUlong function reads a number of ULONG v
 old-location: display\videoportreadportbufferulong.htm
 tech.root: display
 ms.assetid: ecc09ca7-77fe-434f-9892-c2ae93d7d73c
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: VideoPortReadPortBufferUlong, VideoPortReadPortBufferUlong function [Display Devices], VideoPort_Functions_a73970c1-c2cd-4d3c-a6e3-194eaacb978a.xml, display.videoportreadportbufferulong, video/VideoPortReadPortBufferUlong
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: video.h
 req.include-header: Video.h

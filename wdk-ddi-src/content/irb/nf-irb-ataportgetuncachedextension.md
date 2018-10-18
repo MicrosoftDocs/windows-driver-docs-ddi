@@ -6,11 +6,8 @@ description: The AtaPortGetUncachedExtension routine allocates an uncached commo
 old-location: storage\ataportgetuncachedextension.htm
 tech.root: storage
 ms.assetid: 7b81fc29-4906-4095-b197-6b63f5f01ac0
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: AtaPortGetUnCachedExtension, AtaPortGetUnCachedExtension routine [Storage Devices], atartns_30b7c0f0-5636-4d81-b1de-13d8c413f4d6.xml, irb/AtaPortGetUnCachedExtension, storage.ataportgetuncachedextension
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: irb.h
 req.include-header: Ata.h, Irb.h

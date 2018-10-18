@@ -6,11 +6,8 @@ description: The RemoveTypeOptions method turns off some type formatting options
 old-location: debugger\removetypeoptions.htm
 tech.root: debugger
 ms.assetid: 68967a4f-9192-4716-85bd-1bcbc022c445
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugSymbols2 interface [Windows Debugging],RemoveTypeOptions method, IDebugSymbols2.RemoveTypeOptions, IDebugSymbols2::RemoveTypeOptions, IDebugSymbols3 interface [Windows Debugging],RemoveTypeOptions method, IDebugSymbols3::RemoveTypeOptions, IDebugSymbols_e5b88999-5c49-49cc-a3b8-2dea953b4fc1.xml, RemoveTypeOptions, RemoveTypeOptions method [Windows Debugging], RemoveTypeOptions method [Windows Debugging],IDebugSymbols2 interface, RemoveTypeOptions method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::RemoveTypeOptions, dbgeng/IDebugSymbols3::RemoveTypeOptions, debugger.removetypeoptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

@@ -4,11 +4,8 @@ title: PFND3D12DDI_CREATESCHEDULINGGROUP_0050
 author: windows-driver-content
 description: Creates a scheduling group.
 ms.assetid: 12fc579c-7722-475d-9e6a-0f4633d98dcc
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

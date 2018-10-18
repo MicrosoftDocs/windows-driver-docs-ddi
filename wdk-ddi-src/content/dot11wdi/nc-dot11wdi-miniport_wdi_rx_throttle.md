@@ -6,11 +6,8 @@ description: The MiniportWdiRxThrottle handler function tells the TAL/target to 
 old-location: netvista\miniportwdirxthrottle.htm
 tech.root: netvista
 ms.assetid: A5985C6D-3768-4ACE-B52B-3D3494334114
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: MINIPORT_WDI_RX_THROTTLE, MINIPORT_WDI_RX_THROTTLE callback, MiniportWdiRxThrottle, MiniportWdiRxThrottle callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxThrottle, netvista.miniportwdirxthrottle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dot11wdi.h
 req.include-header: 

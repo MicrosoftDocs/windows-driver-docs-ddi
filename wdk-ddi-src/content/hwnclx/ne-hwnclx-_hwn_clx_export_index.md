@@ -6,11 +6,8 @@ description: Defines the position for each of the Hardware Notification exports 
 old-location: gpiobtn\_hwn_clx_export_index.htm
 tech.root: gpiobtn
 ms.assetid: fcbbd188-438a-4eaa-8034-67ca52d1fb56
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PHWN_CLX_EXPORT_INDEX, AddDevicePostDeviceCreateIndex, AddDevicePreDeviceCreateIndex, HWN_CLX_EXPORT_INDEX, HWN_CLX_EXPORT_INDEX enumeration, HwNExportLastExportIndex, RegisterClientIndex, UnregisterClientIndex, _HWN_CLX_EXPORT_INDEX, gpiobtn._hwn_clx_export_index, hwnclx/AddDevicePostDeviceCreateIndex, hwnclx/AddDevicePreDeviceCreateIndex, hwnclx/HWN_CLX_EXPORT_INDEX, hwnclx/HwNExportLastExportIndex, hwnclx/RegisterClientIndex, hwnclx/UnregisterClientIndex"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: hwnclx.h
 req.include-header:

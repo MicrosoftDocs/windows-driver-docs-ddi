@@ -6,11 +6,8 @@ description: The client driver's implementation that UCX calls to reset the cont
 old-location: buses\evt_ucx_endpoint_reset.htm
 tech.root: usbref
 ms.assetid: 927fdd48-416e-4e8f-a29c-c2799952197e
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: EVT_UCX_ENDPOINT_RESET, EVT_UCX_ENDPOINT_RESET callback, EvtUcxEndpointReset, EvtUcxEndpointReset callback function [Buses], PEVT_UCX_ENDPOINT_RESET, PEVT_UCX_ENDPOINT_RESET callback function pointer [Buses], buses.evt_ucx_endpoint_reset, ucxendpoint/EvtUcxEndpointReset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h

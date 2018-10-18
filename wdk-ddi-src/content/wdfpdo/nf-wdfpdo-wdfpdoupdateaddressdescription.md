@@ -6,11 +6,8 @@ description: The WdfPdoUpdateAddressDescription method updates the address descr
 old-location: wdf\wdfpdoupdateaddressdescription.htm
 tech.root: wdf
 ms.assetid: f41e4b81-48e0-448f-b32a-6ecadbc2e45c
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_be344160-571e-4c5b-971d-a7ab78f6c292.xml, WdfPdoUpdateAddressDescription, WdfPdoUpdateAddressDescription method, kmdf.wdfpdoupdateaddressdescription, wdf.wdfpdoupdateaddressdescription, wdfpdo/WdfPdoUpdateAddressDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfpdo.h
 req.include-header: Wdf.h

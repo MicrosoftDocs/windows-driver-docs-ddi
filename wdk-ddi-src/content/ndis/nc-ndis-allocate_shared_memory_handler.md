@@ -6,11 +6,8 @@ description: The NetAllocateSharedMemory function (ALLOCATE_SHARED_MEMORY_HANDLE
 old-location: netvista\netallocatesharedmemory.htm
 tech.root: netvista
 ms.assetid: d85b4f28-707b-4525-afd8-83e1ceb2674e
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: ALLOCATE_SHARED_MEMORY_HANDLER, ALLOCATE_SHARED_MEMORY_HANDLER callback, NetAllocateSharedMemory, NetAllocateSharedMemory callback function [Network Drivers Starting with Windows Vista], ndis/NetAllocateSharedMemory, ndis_shared_memory_ref_8830fb4b-2e73-4994-91c6-a885d1c0ef74.xml, netvista.netallocatesharedmemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

@@ -6,11 +6,8 @@ description: The HBA_SendScsiInquiry routine sends a SCSI inquiry command to the
 old-location: storage\hba_sendscsiinquiry.htm
 tech.root: storage
 ms.assetid: 6239f9b5-99e9-4ed7-b2a8-863c1784692b
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: HBA_SendScsiInquiry, HBA_SendScsiInquiry routine [Storage Devices], fibreHBA_rtns_7a60c4a4-d9d4-408f-b5c9-6cb593f510fb.xml, hbaapi/HBA_SendScsiInquiry, storage.hba_sendscsiinquiry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hbaapi.h
 req.include-header: Hbaapi.h

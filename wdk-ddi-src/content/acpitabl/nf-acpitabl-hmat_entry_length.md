@@ -4,7 +4,6 @@ title: HMAT_ENTRY_LENGTH macro
 author: windows-driver-content
 description: The HMAT_ENTRY_LENGTH macro returns the size of the type in the HMAT_ENTRY stucture.
 ms.assetid: 9b3af834-8d0d-4825-8ff6-f5ff28377fcd
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: macro
 ms.keywords: HMAT_ENTRY_LENGTH

@@ -6,11 +6,8 @@ description: The WdfPdoInitAllowForwardingRequestToParent method enables a drive
 old-location: wdf\wdfpdoinitallowforwardingrequesttoparent.htm
 tech.root: wdf
 ms.assetid: fc8e4484-4059-4274-bb61-5d3b2f965b19
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_1c47c0f6-2474-419b-8a6e-1105351ab1d7.xml, WdfPdoInitAllowForwardingRequestToParent, WdfPdoInitAllowForwardingRequestToParent method, kmdf.wdfpdoinitallowforwardingrequesttoparent, wdf.wdfpdoinitallowforwardingrequesttoparent, wdfpdo/WdfPdoInitAllowForwardingRequestToParent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfpdo.h
 req.include-header: Wdf.h

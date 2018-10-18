@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Implement this optional callback to reject wake patterns that are not compatible with your hardware.
 tech.root: netvista
 ms.assetid: 2ce5d3bd-0719-4b5b-a416-370d743dce56
-ms.author: windowsdriverdev
 ms.date: 02/05/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: netadapter.h
 req.include-header:
 req.target-type: Universal

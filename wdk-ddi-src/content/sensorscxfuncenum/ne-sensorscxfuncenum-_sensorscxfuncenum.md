@@ -4,12 +4,9 @@ title: _SENSORSCXFUNCENUM
 author: windows-driver-content
 description: The _SENSORSCXFUNCENUM enumeration contains a list of all WDF API functions.
 ms.assetid: 818344e1-f99a-40a5-ae64-ab49d86530af
-ms.author: windowsdriverdev
 ms.date: 04/19/2018
 ms.topic: enum
 ms.keywords: _SENSORSCXFUNCENUM, SENSORSCXFUNCENUM,
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: sensorscxfuncenum.h
 req.include-header:
 req.target-type:

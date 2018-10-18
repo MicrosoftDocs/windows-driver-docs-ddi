@@ -6,11 +6,8 @@ description: Stores the name of a system environment variable using SysEnv devic
 old-location: kernel\xvariable_name.htm
 tech.root: kernel
 ms.assetid: DF02AB1E-6803-492C-9261-400177497195
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PSYSENV_VARIABLE_NAME, *PXVARIABLE_NAME, PXVARIABLE_NAME, PXVARIABLE_NAME structure pointer [Kernel-Mode Driver Architecture], SYSENV_VARIABLE_NAME, XVARIABLE_NAME, XVARIABLE_NAME structure [Kernel-Mode Driver Architecture], _XVARIABLE_NAME, kernel.xvariable_name, ntddsysenv/PXVARIABLE_NAME, ntddsysenv/XVARIABLE_NAME"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddsysenv.h
 req.include-header: 

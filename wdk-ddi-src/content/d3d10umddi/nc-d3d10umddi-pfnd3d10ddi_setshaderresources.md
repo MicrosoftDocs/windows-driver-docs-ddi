@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The CsSetShaderResources function sets resources for a compute shader.
 old-location: display\cssetshaderresources.htm
 ms.assetid: 29570c3b-eb3b-4d8f-b471-8f3ea6226e23
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: CsSetShaderResources, CsSetShaderResources callback function [Display Devices], PFND3D10DDI_SETSHADERRESOURCES, PFND3D10DDI_SETSHADERRESOURCES callback, UserModeDisplayDriverDx11_Functions_0fe556e4-8c6f-4848-b502-d35744c60713.xml, d3d10umddi/CsSetShaderResources, display.cssetshaderresources
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

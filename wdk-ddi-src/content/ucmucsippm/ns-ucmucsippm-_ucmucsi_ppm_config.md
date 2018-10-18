@@ -5,11 +5,8 @@ author: windows-driver-content
 tech.root: usbref
 description: Stores configuration information required to create a Platform Policy Manager (PPM). 
 ms.assetid: bb47ac45-b623-4512-89ff-cb434ca4d2ef
-ms.author: windowsdriverdev
 ms.date: 09/30/2018 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _UCMUCSI_PPM_CONFIG, UCMUCSI_PPM_CONFIG, *PUCMUCSI_PPM_CONFIG, 
 req.header: ucmucsippm.h
 req.include-header: UcmUcsiCx.h

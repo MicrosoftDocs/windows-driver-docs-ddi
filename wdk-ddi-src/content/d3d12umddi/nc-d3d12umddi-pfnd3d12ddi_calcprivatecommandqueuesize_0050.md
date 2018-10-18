@@ -4,11 +4,8 @@ title: PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0050
 author: windows-driver-content
 description: The PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0050 callback function is used to calculate the size of a private command queue.
 ms.assetid: fb388ce0-5de8-438f-b92a-c2c82733e4fd
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

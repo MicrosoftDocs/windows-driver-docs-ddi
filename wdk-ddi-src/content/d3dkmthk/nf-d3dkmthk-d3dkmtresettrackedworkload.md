@@ -4,7 +4,6 @@ title: D3DKMTResetTrackedWorkload function
 author: windows-driver-content
 description: Resets the tracked workload to its initial state and resets all the rolling statistics.
 ms.assetid: 4c219825-093b-4cf9-998d-7b8363ba2b45
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: D3DKMTResetTrackedWorkload

@@ -6,11 +6,8 @@ description: The GetSystemPowerAction method returns the system power action, if
 old-location: wdf\iwdfdevice2_getsystempoweraction.htm
 tech.root: wdf
 ms.assetid: 0030d64b-3f88-4bb3-b7d2-fcdc57d4d887
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: GetSystemPowerAction, GetSystemPowerAction method, GetSystemPowerAction method,IWDFDevice2 interface, IWDFDevice2 interface,GetSystemPowerAction method, IWDFDevice2.GetSystemPowerAction, IWDFDevice2::GetSystemPowerAction, UMDFDeviceObjectRef_a0135e99-c33a-4480-afb3-189d6a89b5d2.xml, umdf.iwdfdevice2_getsystempoweraction, wdf.iwdfdevice2_getsystempoweraction, wudfddi/IWDFDevice2::GetSystemPowerAction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

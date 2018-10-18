@@ -4,7 +4,6 @@ title: D3DKMTOutputDuplGetFrameInfo function
 author: windows-driver-content
 description: Gets output duplicate frame info.
 ms.assetid: 26c88415-9116-4b9b-a4b4-1d19cf18cb8d
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: D3DKMTOutputDuplGetFrameInfo

@@ -6,11 +6,8 @@ description: The KS_COPY_MACROVISION structure specifies the Macrovision level o
 old-location: stream\ks_copy_macrovision.htm
 tech.root: stream
 ms.assetid: 86c6ee78-ae4e-4b96-be83-a5960f36a363
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PKS_COPY_MACROVISION, KS_COPY_MACROVISION, KS_COPY_MACROVISION structure [Streaming Media Devices], PKS_COPY_MACROVISION, PKS_COPY_MACROVISION structure pointer [Streaming Media Devices], _KS_COPY_MACROVISION, dvdref_42184498-7ac6-48d2-9f26-5bf69ececabb.xml, ksmedia/KS_COPY_MACROVISION, ksmedia/PKS_COPY_MACROVISION, stream.ks_copy_macrovision"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksmedia.h
 req.include-header: Ksmedia.h

@@ -4,11 +4,8 @@ title: PLEAVE_DMA_DOMAIN
 author: windows-driver-content
 description: 
 ms.assetid: 3bcd31e2-548b-44c3-a301-351c4adc18d6
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:

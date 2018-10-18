@@ -4,7 +4,6 @@ title: RtlLocateSupervisorFeature function
 author: windows-driver-content
 description: Reserved for future use.
 ms.assetid: 5f29abbb-c37d-4310-a931-04bcdd05304e
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: RtlLocateSupervisorFeature

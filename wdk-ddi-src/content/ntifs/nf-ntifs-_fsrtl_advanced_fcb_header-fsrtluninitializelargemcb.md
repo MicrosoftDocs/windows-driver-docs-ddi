@@ -6,11 +6,8 @@ description: The FsRtlUninitializeLargeMcb routine uninitializes a large map-con
 old-location: ifsk\fsrtluninitializelargemcb.htm
 tech.root: ifsk
 ms.assetid: 684a60e5-f8c4-4ab4-bf55-e50469a67265
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FsRtlUninitializeLargeMcb, FsRtlUninitializeLargeMcb routine [Installable File System Drivers], fsrtlref_6bd92101-b025-4469-8e05-52afbb5cf75e.xml, ifsk.fsrtluninitializelargemcb, ntifs/FsRtlUninitializeLargeMcb
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

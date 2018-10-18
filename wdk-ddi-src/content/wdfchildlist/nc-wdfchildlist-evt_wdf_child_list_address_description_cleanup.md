@@ -6,11 +6,8 @@ description: A driver's EvtChildListAddressDescriptionCleanup event callback fun
 old-location: wdf\evtchildlistaddressdescriptioncleanup.htm
 tech.root: wdf
 ms.assetid: 845c8c96-7d34-4273-963e-b7f644884f26
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectChildListRef_f28ee1b8-ff52-416e-9811-1eb46939505a.xml, EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_CLEANUP, EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_CLEANUP callback, EvtChildListAddressDescriptionCleanup, EvtChildListAddressDescriptionCleanup callback function, kmdf.evtchildlistaddressdescriptioncleanup, wdf.evtchildlistaddressdescriptioncleanup, wdfchildlist/EvtChildListAddressDescriptionCleanup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfchildlist.h
 req.include-header: Wdf.h

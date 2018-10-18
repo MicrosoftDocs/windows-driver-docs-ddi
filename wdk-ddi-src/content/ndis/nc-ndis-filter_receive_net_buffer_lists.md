@@ -6,11 +6,8 @@ description: NDIS calls the FilterReceiveNetBufferLists function to request a fi
 old-location: netvista\filterreceivenetbufferlists.htm
 tech.root: netvista
 ms.assetid: 6359c2a7-1208-41ea-bbf9-015c91b6e8f6
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FILTER_RECEIVE_NET_BUFFER_LISTS, FILTER_RECEIVE_NET_BUFFER_LISTS callback, FilterReceiveNetBufferLists, FilterReceiveNetBufferLists callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_c78036bd-cb6a-4898-b8b3-2d8585c7cfde.xml, ndis/FilterReceiveNetBufferLists, netvista.filterreceivenetbufferlists
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

@@ -6,11 +6,8 @@ description: The WdfUsbTargetDeviceAllocAndQueryString method allocates a buffer
 old-location: wdf\wdfusbtargetdeviceallocandquerystring.htm
 tech.root: wdf
 ms.assetid: a9dea258-601b-4ff7-b03b-b3f22d86f314
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFUsbRef_708583a1-a585-402f-afd6-5df4457b0a25.xml, WdfUsbTargetDeviceAllocAndQueryString, WdfUsbTargetDeviceAllocAndQueryString method, kmdf.wdfusbtargetdeviceallocandquerystring, wdf.wdfusbtargetdeviceallocandquerystring, wdfusb/WdfUsbTargetDeviceAllocAndQueryString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

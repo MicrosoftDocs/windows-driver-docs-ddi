@@ -6,11 +6,8 @@ description: This structure contains the header information for the per frame se
 old-location: stream\kscamera_perframesetting_cap_header.htm
 tech.root: stream
 ms.assetid: 7478E83E-0657-4547-993A-84AECBB2562D
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: "*PKSCAMERA_PERFRAMESETTING_CAP_HEADER, KSCAMERA_PERFRAMESETTING_CAP_HEADER, KSCAMERA_PERFRAMESETTING_CAP_HEADER structure [Streaming Media Devices], PKSCAMERA_PERFRAMESETTING_CAP_HEADER, PKSCAMERA_PERFRAMESETTING_CAP_HEADER structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_PERFRAMESETTING_CAP_HEADER, ksmedia/PKSCAMERA_PERFRAMESETTING_CAP_HEADER, stream.kscamera_perframesetting_cap_header"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksmedia.h
 req.include-header: 

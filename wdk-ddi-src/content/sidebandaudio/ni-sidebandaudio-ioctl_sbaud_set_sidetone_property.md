@@ -4,11 +4,8 @@ title: IOCTL_SBAUD_SET_SIDETONE_PROPERTY
 author: windows-driver-content
 description: 
 ms.assetid: f8b02e43-3e8a-4f23-9449-9d6e66eef75e
-ms.author: windowsdriverdev
 ms.date: 10/05/2018
 ms.topic: ioctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:

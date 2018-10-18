@@ -6,11 +6,8 @@ description: The UNIDRV_PRIVATE_DEVMODE structure enables Unidrv plug-ins to det
 old-location: print\unidrv_private_devmode.htm
 tech.root: print
 ms.assetid: 91b8ba63-5276-43f8-81a6-07afc1a77ced
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: "*PUNIDRV_PRIVATE_DEVMODE, PUNIDRV_PRIVATE_DEVMODE, PUNIDRV_PRIVATE_DEVMODE structure pointer [Print Devices], UNIDRV_PRIVATE_DEVMODE, UNIDRV_PRIVATE_DEVMODE structure [Print Devices], _UNIDRV_PRIVATE_DEVMODE, print.unidrv_private_devmode, print_unidrv-pscript_ui_accecb33-b4e7-4e2d-a2f2-d792456eb9db.xml, printoem/PUNIDRV_PRIVATE_DEVMODE, printoem/UNIDRV_PRIVATE_DEVMODE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: printoem.h
 req.include-header: Printoem.h

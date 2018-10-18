@@ -6,11 +6,8 @@ description: The ExSetFirmwareEnvironmentVariable routine sets the value of the 
 old-location: kernel\exsetfirmwareenvironmentvariable.htm
 tech.root: kernel
 ms.assetid: 04447D92-EB9E-400B-A018-E70B186EA3DB
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: ExSetFirmwareEnvironmentVariable, ExSetFirmwareEnvironmentVariable routine [Kernel-Mode Driver Architecture], kernel.exsetfirmwareenvironmentvariable, wdm/ExSetFirmwareEnvironmentVariable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

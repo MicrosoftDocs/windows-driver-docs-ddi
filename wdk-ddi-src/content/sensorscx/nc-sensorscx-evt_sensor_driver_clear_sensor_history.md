@@ -4,11 +4,8 @@ title: EVT_SENSOR_DRIVER_CLEAR_SENSOR_HISTORY
 author: windows-driver-content
 description: Clears the history recorded so far in the sensor.
 ms.assetid: f38c9a95-78ec-4839-a57d-14229fb5e297
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: sensorscx.h
 req.include-header:
 req.target-type:

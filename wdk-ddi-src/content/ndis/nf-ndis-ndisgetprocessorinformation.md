@@ -6,11 +6,8 @@ description: The NdisGetProcessorInformation function retrieves information abou
 old-location: netvista\ndisgetprocessorinformation.htm
 tech.root: netvista
 ms.assetid: 2cee5cf4-7dee-49d2-905c-2b9634137ce4
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisGetProcessorInformation, NdisGetProcessorInformation function [Network Drivers Starting with Windows Vista], ndis/NdisGetProcessorInformation, ndis_sysinfo_ref_1479e4eb-4467-48da-bab6-1f60993f5ef2.xml, netvista.ndisgetprocessorinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

@@ -6,11 +6,8 @@ description: An SPB controller driver's EvtSpbControllerIoWrite event callback f
 old-location: spb\evtspbcontrolleriowrite.htm
 tech.root: SPB
 ms.assetid: D97C3A17-309E-4364-8DFB-9073901D332E
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: EVT_SPB_CONTROLLER_WRITE, EVT_SPB_CONTROLLER_WRITE callback, EvtSpbControllerIoWrite, EvtSpbControllerIoWrite callback function [Buses], SPB.evtspbcontrolleriowrite, spbcx/EvtSpbControllerIoWrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: spbcx.h
 req.include-header: 

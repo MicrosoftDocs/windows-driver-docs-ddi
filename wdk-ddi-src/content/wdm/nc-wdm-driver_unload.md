@@ -6,11 +6,8 @@ description: The Unload routine performs any operations that are necessary befor
 old-location: kernel\unload.htm
 tech.root: kernel
 ms.assetid: 56638b74-6233-4239-9315-ec8a643a2cea
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: DRIVER_UNLOAD, DrvrRtns_68cde0dd-4521-4771-8965-309dedd87d37.xml, Unload, Unload routine [Kernel-Mode Driver Architecture], kernel.unload, wdm/Unload
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

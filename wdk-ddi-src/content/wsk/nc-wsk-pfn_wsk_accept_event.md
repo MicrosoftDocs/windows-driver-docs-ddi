@@ -6,11 +6,8 @@ description: The WskAcceptEvent event callback function notifies a WSK applicati
 old-location: netvista\wskacceptevent.htm
 tech.root: netvista
 ms.assetid: 672440f0-810a-4e68-82a5-d038770898c5
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: PFN_WSK_ACCEPT_EVENT, PFN_WSK_ACCEPT_EVENT callback, WskAcceptEvent, WskAcceptEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskacceptevent, wsk/WskAcceptEvent, wskref_5a830348-5fa7-4704-86f2-9d1a953f057b.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wsk.h
 req.include-header: Wsk.h

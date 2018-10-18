@@ -4,11 +4,8 @@ title: PFND3D12DDI_GET_DESCRIPTOR_SIZE_IN_BYTES
 author: windows-driver-content
 description: Gets the size of the handle for a given type of descriptor heap.
 ms.assetid: 3387f063-96f5-4d77-b006-924738808d51
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

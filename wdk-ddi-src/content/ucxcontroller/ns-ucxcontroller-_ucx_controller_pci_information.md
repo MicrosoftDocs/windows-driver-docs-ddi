@@ -6,11 +6,8 @@ description: This structure provides information about a PCI USB controller.
 old-location: buses\_ucx_controller_pci_information.htm
 tech.root: usbref
 ms.assetid: 178C9423-D7C9-43FD-BC80-A675383BDE9B
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: "*PUCX_CONTROLLER_PCI_INFORMATION, P_UCX_CONTROLLER_PCI_INFORMATION, P_UCX_CONTROLLER_PCI_INFORMATION structure pointer [Buses], UCX_CONTROLLER_PCI_INFORMATION, UCX_CONTROLLER_PCI_INFORMATION structure [Buses], _UCX_CONTROLLER_PCI_INFORMATION, buses._ucx_controller_pci_information, ucxcontroller/P_UCX_CONTROLLER_PCI_INFORMATION, ucxcontroller/_UCX_CONTROLLER_PCI_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h

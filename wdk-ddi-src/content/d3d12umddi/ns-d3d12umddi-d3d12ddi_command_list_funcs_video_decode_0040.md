@@ -4,11 +4,8 @@ title: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0040
 author: windows-driver-content
 description: Command list functions for video decode.
 ms.assetid: 456af5da-43f5-4915-961d-ec31963ea629
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0040, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0040,
 req.header: d3d12umddi.h
 req.include-header:

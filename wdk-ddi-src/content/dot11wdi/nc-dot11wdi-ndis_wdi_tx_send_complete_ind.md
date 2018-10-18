@@ -6,11 +6,8 @@ description: The NdisWdiTxSendCompleteIndication callback function specifies an 
 old-location: netvista\ndiswditxsendcompleteindication.htm
 tech.root: netvista
 ms.assetid: A38BA15D-FDD8-41D1-87ED-2CABC1926962
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NDIS_WDI_TX_SEND_COMPLETE_IND, NDIS_WDI_TX_SEND_COMPLETE_IND callback, NdisWdiTxSendCompleteIndication, NdisWdiTxSendCompleteIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxSendCompleteIndication, netvista.ndiswditxsendcompleteindication
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dot11wdi.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: A driver's OnDisarmWakeFromS0 event callback function disarms (that
 old-location: wdf\ipowerpolicycallbackwakefroms0_ondisarmwakefroms0.htm
 tech.root: wdf
 ms.assetid: 04c1eecd-c87f-45c5-be7b-0fbd8e114594
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IPowerPolicyCallbackWakeFromS0 interface,OnDisarmWakeFromS0 method, IPowerPolicyCallbackWakeFromS0.OnDisarmWakeFromS0, IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0, OnDisarmWakeFromS0, OnDisarmWakeFromS0 method, OnDisarmWakeFromS0 method,IPowerPolicyCallbackWakeFromS0 interface, UMDFDeviceObjectRef_f12fda31-6979-43bf-af04-e46814728ed4.xml, umdf.ipowerpolicycallbackwakefroms0_ondisarmwakefroms0, wdf.ipowerpolicycallbackwakefroms0_ondisarmwakefroms0, wudfddi/IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

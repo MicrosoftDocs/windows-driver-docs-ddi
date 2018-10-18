@@ -6,11 +6,8 @@ description:
 old-location: stream\ksevent_connection.htm
 tech.root: stream
 ms.assetid: E85946B3-90B6-41CA-9F69-47B33AE8D851
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KSEVENT_CONNECTION, KSEVENT_CONNECTION enumeration [Streaming Media Devices], KSEVENT_CONNECTION_DATADISCONTINUITY, KSEVENT_CONNECTION_ENDOFSTREAM, KSEVENT_CONNECTION_POSITIONUPDATE, KSEVENT_CONNECTION_PRIORITY, KSEVENT_CONNECTION_TIMEDISCONTINUITY, ks/KSEVENT_CONNECTION, ks/KSEVENT_CONNECTION_DATADISCONTINUITY, ks/KSEVENT_CONNECTION_ENDOFSTREAM, ks/KSEVENT_CONNECTION_POSITIONUPDATE, ks/KSEVENT_CONNECTION_PRIORITY, ks/KSEVENT_CONNECTION_TIMEDISCONTINUITY, stream.ksevent_connection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ks.h
 req.include-header: 

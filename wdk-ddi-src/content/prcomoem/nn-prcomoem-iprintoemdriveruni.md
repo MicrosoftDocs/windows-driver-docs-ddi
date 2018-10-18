@@ -6,11 +6,8 @@ description: This section describes the methods defined for the IPrintOemDriverU
 old-location: print\iprintoemdriveruni_interface.htm
 tech.root: print
 ms.assetid: efd13e9e-ba25-4d1c-894c-a275374f5266
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrintOemDriverUni, IPrintOemDriverUni interface [Print Devices], IPrintOemDriverUni interface [Print Devices],described, prcomoem/IPrintOemDriverUni, print.iprintoemdriveruni_interface, print_unidrv-pscript_rendering_07d60c45-4913-4cac-b65d-31737752b24f.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: prcomoem.h
 req.include-header: 

@@ -4,11 +4,8 @@ title: IOCTL_SBAUD_STREAM_START
 author: windows-driver-content
 description: 
 ms.assetid: 65009cf5-5f6b-4dfc-b3d9-fade63426bf9
-ms.author: windowsdriverdev
 ms.date: 10/05/2018
 ms.topic: ioctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:

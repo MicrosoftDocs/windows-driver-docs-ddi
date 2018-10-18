@@ -6,11 +6,8 @@ description: The FWPS_FIELDS_IPSEC_KM_DEMUX_V6 enumeration type specifies the da
 old-location: netvista\fwps_fields_ipsec_km_demux_v6.htm
 tech.root: netvista
 ms.assetid: 343b230c-08ae-4e05-8ab0-03f4c8748a11
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: FWPS_FIELDS_IPSEC_KM_DEMUX_V6, FWPS_FIELDS_IPSEC_KM_DEMUX_V6 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELDS_IPSEC_KM_DEMUX_V6_, FWPS_FIELD_IPSEC_KM_DEMUX_V6_CURRENT_PROFILE_ID, FWPS_FIELD_IPSEC_KM_DEMUX_V6_IP_LOCAL_ADDRESS, FWPS_FIELD_IPSEC_KM_DEMUX_V6_IP_LOCAL_INTERFACE, FWPS_FIELD_IPSEC_KM_DEMUX_V6_IP_REMOTE_ADDRESS, FWPS_FIELD_IPSEC_KM_DEMUX_V6_MAX, FWPS_FIELD_IPSEC_KM_DEMUX_V6_QM_MODE, fwpsk/FWPS_FIELDS_IPSEC_KM_DEMUX_V6, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V6_CURRENT_PROFILE_ID, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V6_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V6_IP_LOCAL_INTERFACE, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V6_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V6_MAX, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V6_QM_MODE, netvista.fwps_fields_ipsec_km_demux_v6, wfp_ref_5_const_3_data_fields_3f9c4ab8-b2eb-4663-b4c0-1d0865b94025.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: fwpsk.h
 req.include-header: Fwpsk.h

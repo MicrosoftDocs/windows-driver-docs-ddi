@@ -6,11 +6,8 @@ description: The FltEnumerateFilters routine enumerates all registered minifilte
 old-location: ifsk\fltenumeratefilters.htm
 tech.root: ifsk
 ms.assetid: f39ff534-7b51-49b5-bb1f-7cb0e18b3cfc
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_04dcdecd-0910-42be-ae92-93bce56216d7.xml, FltEnumerateFilters, FltEnumerateFilters routine [Installable File System Drivers], fltkernel/FltEnumerateFilters, ifsk.fltenumeratefilters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

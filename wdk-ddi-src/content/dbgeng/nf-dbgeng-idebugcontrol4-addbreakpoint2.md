@@ -6,11 +6,8 @@ description: The AddBreakpoint2 method creates a new breakpoint for the current 
 old-location: debugger\addbreakpoint2.htm
 tech.root: debugger
 ms.assetid: 001a64dd-1470-42e0-98ba-22ba33f3fa69
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: AddBreakpoint2, AddBreakpoint2 method [Windows Debugging], AddBreakpoint2 method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],AddBreakpoint2 method, IDebugControl4.AddBreakpoint2, IDebugControl4::AddBreakpoint2, dbgeng/IDebugControl4::AddBreakpoint2, debugger.addbreakpoint2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

@@ -6,11 +6,8 @@ description: The VideoPortFreePool function deallocates a block of pool memory p
 old-location: display\videoportfreepool.htm
 tech.root: display
 ms.assetid: 84e4f178-87d3-4f40-b4fc-7959818305fd
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: VideoPortFreePool, VideoPortFreePool function [Display Devices], VideoPort_Functions_a2b1e2c4-9f8d-455b-8484-c51e0669d526.xml, display.videoportfreepool, video/VideoPortFreePool
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: video.h
 req.include-header: Video.h

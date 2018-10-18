@@ -6,11 +6,8 @@ description: The WUDF_WORKITEM_CONFIG structure contains information that is ass
 old-location: wdf\wudf_workitem_config.htm
 tech.root: wdf
 ms.assetid: 877C6641-30F9-44BC-9286-3B1D880482C9
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: "*PWUDF_WORKITEM_CONFIG, PWUDF_WORKITEM_CONFIG, PWUDF_WORKITEM_CONFIG structure pointer, WUDF_WORKITEM_CONFIG, WUDF_WORKITEM_CONFIG structure, _WUDF_WORKITEM_CONFIG, umdf.wudf_workitem_config, wdf.wudf_workitem_config, wudfworkitem/PWUDF_WORKITEM_CONFIG, wudfworkitem/WUDF_WORKITEM_CONFIG"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wudfworkitem.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: An offload target calls the NdisMQueryOffloadStateComplete function
 old-location: netvista\ndismqueryoffloadstatecomplete.htm
 tech.root: netvista
 ms.assetid: 7bcc6610-0c48-4a7f-b8fa-be372af201ba
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisMQueryOffloadStateComplete, NdisMQueryOffloadStateComplete function [Network Drivers Starting with Windows Vista], ndischimney/NdisMQueryOffloadStateComplete, netvista.ndismqueryoffloadstatecomplete, tcp_chim_ndis_func_505090bf-b327-439e-886e-784bb5f44b00.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndischimney.h
 req.include-header: Ndischimney.h

@@ -6,11 +6,8 @@ description: The WmiQueryTraceInformation routine returns information about a WM
 old-location: kernel\wmiquerytraceinformation.htm
 tech.root: kernel
 ms.assetid: 8a6a930a-4267-47be-be00-ab9c102560c4
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: WmiQueryTraceInformation, WmiQueryTraceInformation routine [Kernel-Mode Driver Architecture], k902_c4cd7b60-d605-465f-b018-f82b6d1144de.xml, kernel.wmiquerytraceinformation, wdm/WmiQueryTraceInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

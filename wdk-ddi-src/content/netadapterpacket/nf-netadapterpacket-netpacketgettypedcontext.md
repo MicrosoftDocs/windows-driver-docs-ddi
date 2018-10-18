@@ -5,7 +5,6 @@ author: windows-driver-content
 description: Client drivers should not call this function directly. Instead, use NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME.
 tech.root: netvista
 ms.assetid: 55dd1de1-b7af-4d16-8df3-010b74353de4
-ms.author: windowsdriverdev
 ms.date: 02/07/2018
 ms.topic: function
 ms.keywords: NetPacketGetTypedContext

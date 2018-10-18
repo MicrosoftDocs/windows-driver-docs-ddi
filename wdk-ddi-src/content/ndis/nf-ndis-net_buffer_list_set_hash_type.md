@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NET_BUFFER_LIST_SET_HASH_TYPE macro sets the hash type information in a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: 15fe028f-90ad-4759-9bf4-17192cfa25f7
-ms.author: windowsdriverdev
 ms.date: 04/13/2018
 ms.topic: function
 ms.keywords: NET_BUFFER_LIST_SET_HASH_TYPE

@@ -6,11 +6,8 @@ description: Gets the WDTF configuration object.
 old-location: dtf\iwdtf2_config.htm
 tech.root: dtf
 ms.assetid: d7302c51-02b3-4876-b215-6bde1160245a
-ms.author: windowsdriverdev
 ms.date: 4/4/2018
 ms.keywords: Config property [Windows Device Testing Framework], Config property [Windows Device Testing Framework],IWDTF2 interface, IWDTF2 interface [Windows Device Testing Framework],Config property, IWDTF2.Config, IWDTF2.get_Config, IWDTF2::Config, IWDTF2::get_Config, Microsoft.WDTF.IWDTF2.Config, Microsoft::WDTF::IWDTF2::Config, dtf.iwdtf2_config, get_Config, wdtf/IWDTF2::Config, wdtf/IWDTF2::get_Config
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtf.h
 req.include-header: 

@@ -4,7 +4,6 @@ title: D3DKMTGetDWMVerticalBlankEvent function
 author: windows-driver-content
 description: Get DWM (desktop windows manager) vertical blank event.
 ms.assetid: ff9b94ac-9983-48e0-96a6-e5939a58695e
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: D3DKMTGetDWMVerticalBlankEvent

@@ -6,11 +6,8 @@ description: When you write an Analysis Extension, you must implement and export
 old-location: debugger\_efn_analyze.htm
 tech.root: debugger
 ms.assetid: 8D7FB040-871F-4F31-83E3-BAD7584C0589
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: EXT_ANALYSIS_PLUGIN, EXT_ANALYSIS_PLUGIN callback, _EFN_Analyze, _EFN_Analyze callback function [Windows Debugging], debugger._efn_analyze, extsfns/_EFN_Analyze
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: extsfns.h
 req.include-header: 

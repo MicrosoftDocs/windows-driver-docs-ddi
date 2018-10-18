@@ -6,11 +6,8 @@ description: The NdisCmRegisterAddressFamilyEx function registers an address fam
 old-location: netvista\ndiscmregisteraddressfamilyex.htm
 tech.root: netvista
 ms.assetid: 8890bf31-f2c7-48b0-926d-8931893ede86
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisCmRegisterAddressFamilyEx, NdisCmRegisterAddressFamilyEx function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_5d5bc425-d983-4d7c-8896-7cda4cab625d.xml, ndis/NdisCmRegisterAddressFamilyEx, netvista.ndiscmregisteraddressfamilyex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

@@ -6,11 +6,8 @@ description: The WdfFdoInitAllocAndQueryProperty method allocates a buffer and r
 old-location: wdf\wdffdoinitallocandqueryproperty.htm
 tech.root: wdf
 ms.assetid: 9c275d89-e01d-445b-8c60-ae5268cd28c3
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_2de90bea-c2df-4aa7-b64f-b17df042268c.xml, WdfFdoInitAllocAndQueryProperty, WdfFdoInitAllocAndQueryProperty method, kmdf.wdffdoinitallocandqueryproperty, wdf.wdffdoinitallocandqueryproperty, wdffdo/WdfFdoInitAllocAndQueryProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdffdo.h
 req.include-header: Wdf.h

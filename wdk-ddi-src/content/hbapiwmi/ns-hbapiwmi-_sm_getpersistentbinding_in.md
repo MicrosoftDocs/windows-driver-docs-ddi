@@ -6,11 +6,8 @@ description: The SM_GetPersistentBinding_IN structure is used to provide input p
 old-location: storage\sm_getpersistentbinding_in.htm
 tech.root: storage
 ms.assetid: 6c716394-1e82-40d2-befc-50a0ea88f750
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PSM_GetPersistentBinding_IN, PSM_GetPersistentBinding_IN, PSM_GetPersistentBinding_IN structure pointer [Storage Devices], SM_GetPersistentBinding_IN, SM_GetPersistentBinding_IN structure [Storage Devices], _SM_GetPersistentBinding_IN, hbapiwmi/PSM_GetPersistentBinding_IN, hbapiwmi/SM_GetPersistentBinding_IN, storage.sm_getpersistentbinding_in, structs-Fibre_2cf97173-2aa3-4770-865a-825f5db0daf1.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h

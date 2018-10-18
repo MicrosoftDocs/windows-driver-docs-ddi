@@ -6,11 +6,8 @@ description: The WdfRegistryQueryUnicodeString method retrieves the string data 
 old-location: wdf\wdfregistryqueryunicodestring.htm
 tech.root: wdf
 ms.assetid: efbe5526-274b-416b-8e5c-8b18fe754b43
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFRegKeyObjectRef_3301cdb3-8fe5-4094-8fc2-717467802680.xml, WdfRegistryQueryUnicodeString, WdfRegistryQueryUnicodeString method, kmdf.wdfregistryqueryunicodestring, wdf.wdfregistryqueryunicodestring, wdfregistry/WdfRegistryQueryUnicodeString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfregistry.h
 req.include-header: Wdf.h

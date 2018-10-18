@@ -6,11 +6,8 @@ description: The NdisWdiTxInjectFrameIndication callback function allows the LE 
 old-location: netvista\ndiswditxinjectframeindication.htm
 tech.root: netvista
 ms.assetid: C384FAFF-E22D-4FA2-8B11-F6C046003C70
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NDIS_WDI_TX_INJECT_FRAME_IND, NDIS_WDI_TX_INJECT_FRAME_IND callback, NdisWdiTxInjectFrameIndication, NdisWdiTxInjectFrameIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxInjectFrameIndication, netvista.ndiswditxinjectframeindication
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dot11wdi.h
 req.include-header: 

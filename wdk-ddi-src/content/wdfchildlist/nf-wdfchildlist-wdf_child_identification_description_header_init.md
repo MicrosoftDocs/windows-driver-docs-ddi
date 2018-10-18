@@ -6,11 +6,8 @@ description: The WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT function initi
 old-location: wdf\wdf_child_identification_description_header_init.htm
 tech.root: wdf
 ms.assetid: 5c0d7abf-05e3-45fc-b5a4-db6f79a94a87
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectChildListRef_dbb576dd-7020-4c96-8f3a-568fd58f6cf5.xml, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT function, kmdf.wdf_child_identification_description_header_init, wdf.wdf_child_identification_description_header_init, wdfchildlist/WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfchildlist.h
 req.include-header: Wdf.h

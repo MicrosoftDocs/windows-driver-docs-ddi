@@ -6,11 +6,8 @@ description: The StorPortGetActiveNodeCount routine returns the number of nodes 
 old-location: storage\storportgetactivenodecount.htm
 tech.root: storage
 ms.assetid: b981bfe7-832b-47ae-a742-c4829a6ad06b
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: StorPortGetActiveNodeCount, StorPortGetActiveNodeCount routine [Storage Devices], storage.storportgetactivenodecount, storport/StorPortGetActiveNodeCount, storprt_311f0ad3-ee9a-47a1-9175-71fd0f01e03d.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

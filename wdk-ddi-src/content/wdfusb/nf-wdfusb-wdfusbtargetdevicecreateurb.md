@@ -6,11 +6,8 @@ description: The WdfUsbTargetDeviceCreateUrb method allocates a USB request bloc
 old-location: wdf\wdfusbtargetdevicecreateurb.htm
 tech.root: wdf
 ms.assetid: 274232FF-573A-47B4-B363-2FA7F810BF84
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WdfUsbTargetDeviceCreateUrb, WdfUsbTargetDeviceCreateUrb method, kmdf.wdfusbtargetdevicecreateurb, wdf.wdfusbtargetdevicecreateurb, wdfusb/WdfUsbTargetDeviceCreateUrb
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

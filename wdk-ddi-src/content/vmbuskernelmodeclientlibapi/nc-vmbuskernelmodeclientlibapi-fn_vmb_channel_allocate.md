@@ -5,11 +5,8 @@ author: windows-driver-content
 description:  The VmbChannelAllocate function allocates a new VMBus channel that has default parameters and callbacks. 
 tech.root: netvista
 ms.assetid: b7d23f6f-cc08-4e0b-aca9-9e8234465acb
-ms.author: windowsdriverdev
 ms.date: 05/17/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

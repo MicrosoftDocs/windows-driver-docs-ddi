@@ -6,11 +6,8 @@ description: The WDI_TXRX_MPDU_PN union defines the parameters that are passed d
 old-location: netvista\wdi_txrx_mpdu_pn.htm
 tech.root: netvista
 ms.assetid: F03F5BE6-B2F2-4A9A-8D6D-1ACC9F08C890
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: WDI_TXRX_MPDU_PN, WDI_TXRX_MPDU_PN union [Network Drivers Starting with Windows Vista], _WDI_TXRX_MPDU_PN, dot11wdi/WDI_TXRX_MPDU_PN, netvista.wdi_txrx_mpdu_pn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dot11wdi.h
 req.include-header: 

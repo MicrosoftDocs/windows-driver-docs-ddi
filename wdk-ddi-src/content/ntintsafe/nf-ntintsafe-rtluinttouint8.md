@@ -6,11 +6,8 @@ description: Converts a value of type UINT to a value of type UINT8.
 old-location: kernel\rtluinttouint8.htm
 tech.root: kernel
 ms.assetid: 39D4AE72-EF60-455E-A7C2-F2896E304897
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlUIntToUInt8, RtlUIntToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtluinttouint8, ntintsafe/RtlUIntToUInt8
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

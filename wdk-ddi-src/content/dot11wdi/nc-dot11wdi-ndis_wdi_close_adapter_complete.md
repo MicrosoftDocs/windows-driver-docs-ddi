@@ -6,11 +6,8 @@ description: The NdisWdiCloseAdapterComplete callback function is called by the 
 old-location: netvista\ndiswdicloseadaptercomplete.htm
 tech.root: netvista
 ms.assetid: 42500F6F-8E97-454F-819F-8EA3785C0D04
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NDIS_WDI_CLOSE_ADAPTER_COMPLETE, NDIS_WDI_CLOSE_ADAPTER_COMPLETE callback, NdisWdiCloseAdapterComplete, NdisWdiCloseAdapterComplete callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiCloseAdapterComplete, netvista.ndiswdicloseadaptercomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dot11wdi.h
 req.include-header: 

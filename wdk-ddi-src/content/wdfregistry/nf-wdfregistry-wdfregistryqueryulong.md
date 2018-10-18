@@ -6,11 +6,8 @@ description: The WdfRegistryQueryULong method retrieves the unsigned long word (
 old-location: wdf\wdfregistryqueryulong.htm
 tech.root: wdf
 ms.assetid: 54583406-9c60-4622-a78d-085c35ce7593
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFRegKeyObjectRef_537593c8-1f9c-4392-9228-6a0e5d89a964.xml, WdfRegistryQueryULong, WdfRegistryQueryULong method, kmdf.wdfregistryqueryulong, wdf.wdfregistryqueryulong, wdfregistry/WdfRegistryQueryULong
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfregistry.h
 req.include-header: Wdf.h

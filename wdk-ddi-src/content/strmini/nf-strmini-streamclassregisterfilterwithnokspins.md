@@ -6,11 +6,8 @@ description: The StreamClassRegisterFilterWithNoKSPins routine is used to regist
 old-location: stream\streamclassregisterfilterwithnokspins.htm
 tech.root: stream
 ms.assetid: f5ae426a-9d9d-4391-b87f-c4281dc9cadc
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: StreamClassRegisterFilterWithNoKSPins, StreamClassRegisterFilterWithNoKSPins routine [Streaming Media Devices], strclass-routines_d338a3be-7760-46b6-aeba-e9cbac45afe3.xml, stream.streamclassregisterfilterwithnokspins, strmini/StreamClassRegisterFilterWithNoKSPins
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: strmini.h
 req.include-header: Strmini.h

@@ -6,11 +6,8 @@ description: The GetIdentityWide method returns a string describing the computer
 old-location: debugger\getidentitywide.htm
 tech.root: debugger
 ms.assetid: 8e55f829-2f55-4b83-8e0d-2554246a5d59
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetIdentityWide, GetIdentityWide method [Windows Debugging], GetIdentityWide method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],GetIdentityWide method, IDebugClient5.GetIdentityWide, IDebugClient5::GetIdentityWide, dbgeng/IDebugClient5::GetIdentityWide, debugger.getidentitywide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

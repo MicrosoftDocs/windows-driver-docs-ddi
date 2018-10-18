@@ -6,11 +6,8 @@ description: Indicates the type of surprise removal event when an external displ
 old-location: display\dxgk_surprise_removal_type.htm
 tech.root: display
 ms.assetid: 3045f46d-d78a-4f07-9838-f3afd97d9244
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXGK_SURPRISE_REMOVAL_TYPE, DXGK_SURPRISE_REMOVAL_TYPE enumeration [Display Devices], DxgkRemovalHibernation, _DXGK_SURPRISE_REMOVAL_TYPE, display.dxgk_surprise_removal_type, dispmprt/DXGK_SURPRISE_REMOVAL_TYPE, dispmprt/DxgkRemovalHibernation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: dispmprt.h
 req.include-header: Dispmprt.h

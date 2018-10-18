@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Reads a ULONG64 value from the specified register address.
 tech.root: serports
 ms.assetid: b94043dd-4c44-499c-8aee-6ce6f38f6310
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: uart.h
 req.include-header:
 req.target-type:

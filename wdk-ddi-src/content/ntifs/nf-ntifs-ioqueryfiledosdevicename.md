@@ -6,11 +6,8 @@ description: The IoQueryFileDosDeviceName routine retrieves an MS-DOS device nam
 old-location: ifsk\ioqueryfiledosdevicename.htm
 tech.root: ifsk
 ms.assetid: 8574e5cf-5bbf-4606-931f-e27b2aa7b7fa
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: IoQueryFileDosDeviceName, IoQueryFileDosDeviceName routine [Installable File System Drivers], ifsk.ioqueryfiledosdevicename, ioref_4bc807ab-ce5e-415c-8f86-50cf3783d233.xml, ntifs/IoQueryFileDosDeviceName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h

@@ -6,11 +6,8 @@ description: The WdfWmiProviderGetTracingHandle method returns a handle to the e
 old-location: wdf\wdfwmiprovidergettracinghandle.htm
 tech.root: wdf
 ms.assetid: 44ab1cf3-abd3-4100-a6ad-51f2322881b1
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFWMIRef_eea0d3ab-8fb8-4053-8260-e5c396a06524.xml, WdfWmiProviderGetTracingHandle, WdfWmiProviderGetTracingHandle method, kmdf.wdfwmiprovidergettracinghandle, wdf.wdfwmiprovidergettracinghandle, wdfwmi/WdfWmiProviderGetTracingHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfwmi.h
 req.include-header: Wdf.h

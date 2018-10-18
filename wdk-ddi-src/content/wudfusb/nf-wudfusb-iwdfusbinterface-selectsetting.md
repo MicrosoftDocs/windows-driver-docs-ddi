@@ -6,11 +6,8 @@ description: The SelectSetting method selects the specified alternate setting on
 old-location: wdf\iwdfusbinterface_selectsetting.htm
 tech.root: wdf
 ms.assetid: c47b025b-1be9-4fdc-965a-a9a82a394177
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IWDFUsbInterface interface,SelectSetting method, IWDFUsbInterface.SelectSetting, IWDFUsbInterface::SelectSetting, SelectSetting, SelectSetting method, SelectSetting method,IWDFUsbInterface interface, UMDFUSBref_2de47773-a511-42e2-b6bb-289cc5fbebb6.xml, umdf.iwdfusbinterface_selectsetting, wdf.iwdfusbinterface_selectsetting, wudfusb/IWDFUsbInterface::SelectSetting
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfusb.h
 req.include-header: Wudfusb.h

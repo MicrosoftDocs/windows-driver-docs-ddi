@@ -6,11 +6,8 @@ description: The VideoPortUnlockPages function is obsolete in Windows 2000 and l
 old-location: display\videoportunlockpages.htm
 tech.root: display
 ms.assetid: c233d4e1-285c-4f74-bb37-808cf855b19c
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: VideoPortUnlockPages, VideoPortUnlockPages function [Display Devices], VideoPort_Functions_f7a233cf-3db5-49db-94e9-d2c6ec96f05d.xml, display.videoportunlockpages, video/VideoPortUnlockPages
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: video.h
 req.include-header: Video.h

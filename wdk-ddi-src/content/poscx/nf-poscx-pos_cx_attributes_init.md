@@ -6,11 +6,8 @@ description: POS_CX_ATTRIBUTES_INIT initializes a POS_CX_ATTRIBUTE structure.
 old-location: pos\pos_cx_attributes_init.htm
 tech.root: pos
 ms.assetid: A1287386-E831-474A-858C-89787741FD57
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: POS_CX_ATTRIBUTES_INIT, POS_CX_ATTRIBUTES_INIT function, pos.pos_cx_attributes_init, poscx/POS_CX_ATTRIBUTES_INIT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: poscx.h
 req.include-header: Poscx.h

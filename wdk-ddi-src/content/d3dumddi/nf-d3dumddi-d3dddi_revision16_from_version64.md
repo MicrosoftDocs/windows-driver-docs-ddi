@@ -4,7 +4,6 @@ title: D3DDDI_REVISION16_FROM_VERSION64 macro
 author: windows-driver-content
 description: Converts a 16 bit revision from a 64 bit version.
 ms.assetid: e791fbfb-133f-46f8-aba7-9b9a51449573
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: macro
 ms.keywords: D3DDDI_REVISION16_FROM_VERSION64

@@ -6,11 +6,8 @@ description: The GetSymbolValueText method returns a string that represents the 
 old-location: debugger\getsymbolvaluetext.htm
 tech.root: debugger
 ms.assetid: 587b8769-86b6-48bd-b238-84aeb5611668
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: ComOther_2a064ea0-63f4-441f-a79c-e6fc1e9688c7.xml, GetSymbolValueText, GetSymbolValueText method [Windows Debugging], GetSymbolValueText method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolValueText method, IDebugSymbolGroup2.GetSymbolValueText, IDebugSymbolGroup2::GetSymbolValueText, dbgeng/IDebugSymbolGroup2::GetSymbolValueText, debugger.getsymbolvaluetext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

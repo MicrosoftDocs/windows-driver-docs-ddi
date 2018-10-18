@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Specifies a range.
 old-location: display\d3d12ddi_range.htm
 ms.assetid: B3A8F252-D56D-4F20-A0DE-2A29904BC907
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3D12DDI_RANGE, D3D12DDI_RANGE structure [Display Devices], d3d12umddi/D3D12DDI_RANGE, display.d3d12ddi_range
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h

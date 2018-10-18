@@ -6,11 +6,8 @@ description: The WdfIoResourceRequirementsListAppendIoResList method adds a logi
 old-location: wdf\wdfioresourcerequirementslistappendioreslist.htm
 tech.root: wdf
 ms.assetid: efb3617d-86be-4380-ad1a-0a333d248168
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFResourceObjectRef_1d064295-4660-4112-9512-9c5ff7196485.xml, WdfIoResourceRequirementsListAppendIoResList, WdfIoResourceRequirementsListAppendIoResList method, kmdf.wdfioresourcerequirementslistappendioreslist, wdf.wdfioresourcerequirementslistappendioreslist, wdfresource/WdfIoResourceRequirementsListAppendIoResList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfresource.h
 req.include-header: Wdf.h

@@ -6,11 +6,8 @@ description: The wiauRegGetStr function gets a string value from the DeviceData 
 old-location: image\wiaureggetstr.htm
 tech.root: image
 ms.assetid: ff06737b-c37d-4f37-adfc-bbd51974c9e4
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: image.wiaureggetstr, wiauFncs_b9145502-734d-40de-8086-c1f193966269.xml, wiauRegGetStr, wiauRegGetStr function [Imaging Devices], wiauRegGetStrA, wiauRegGetStrW, wiautil/wiauRegGetStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiautil.h
 req.include-header: Wiautil.h

@@ -6,11 +6,8 @@ description: The KsReferenceSoftwareBusObject function increments the reference 
 old-location: stream\ksreferencesoftwarebusobject.htm
 tech.root: stream
 ms.assetid: 56c7ce80-36da-4991-a640-f87b712f683e
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsReferenceSoftwareBusObject, KsReferenceSoftwareBusObject function [Streaming Media Devices], ksfunc_38a63d2d-e988-474d-890b-dd9a2aeeaff4.xml, stream.ksreferencesoftwarebusobject, swenum/KsReferenceSoftwareBusObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: swenum.h
 req.include-header: Swenum.h

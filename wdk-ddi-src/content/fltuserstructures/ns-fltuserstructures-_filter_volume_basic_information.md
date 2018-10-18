@@ -6,11 +6,8 @@ description: The caller-allocated FILTER_VOLUME_BASIC_INFORMATION structure cont
 old-location: ifsk\filter_volume_basic_information.htm
 tech.root: ifsk
 ms.assetid: f6b5ccc2-81d6-47be-94dd-cf92842de51c
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: "*PFILTER_VOLUME_BASIC_INFORMATION, FILTER_VOLUME_BASIC_INFORMATION, FILTER_VOLUME_BASIC_INFORMATION structure [Installable File System Drivers], FltSystemStructures_7bc0a3dc-37e1-4783-aecd-f4ef96e38a32.xml, PFILTER_VOLUME_BASIC_INFORMATION, PFILTER_VOLUME_BASIC_INFORMATION structure pointer [Installable File System Drivers], _FILTER_VOLUME_BASIC_INFORMATION, fltuserstructures/FILTER_VOLUME_BASIC_INFORMATION, fltuserstructures/PFILTER_VOLUME_BASIC_INFORMATION, ifsk.filter_volume_basic_information"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: fltuserstructures.h
 req.include-header: FltUser.h, FltKernel.h

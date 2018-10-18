@@ -6,11 +6,8 @@ description: This MSiSCSI_QueryLBPolicy method returns the MCS load balancing po
 old-location: storage\msiscsi_querylbpolicy.htm
 tech.root: storage
 ms.assetid: da45810a-12f2-4242-8428-a1717ecf8af3
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PMSiSCSI_QueryLBPolicy, MSiSCSI_QueryLBPolicy, MSiSCSI_QueryLBPolicy structure [Storage Devices], PMSiSCSI_QueryLBPolicy, PMSiSCSI_QueryLBPolicy structure pointer [Storage Devices], _MSiSCSI_QueryLBPolicy, iscsimgt/MSiSCSI_QueryLBPolicy, iscsimgt/PMSiSCSI_QueryLBPolicy, storage.msiscsi_querylbpolicy, structs-iSCSI_d978106a-8fb4-4b42-8277-8ac767c54d06.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iscsimgt.h
 req.include-header: Iscsimgt.h

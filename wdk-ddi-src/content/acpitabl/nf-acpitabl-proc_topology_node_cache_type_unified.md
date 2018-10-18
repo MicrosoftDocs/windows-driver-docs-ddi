@@ -4,7 +4,6 @@ title: PROC_TOPOLOGY_NODE_CACHE_TYPE_UNIFIED macro
 author: windows-driver-content
 description: Defines the processor topology node cache type unified macro.
 ms.assetid: 5ca5aabb-fb24-4742-b9bc-1d8da47c2bf7
-ms.author: windowsdriverdev
 ms.date: 10/1/2018
 ms.topic: macro
 ms.keywords: PROC_TOPOLOGY_NODE_CACHE_TYPE_UNIFIED

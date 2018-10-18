@@ -6,11 +6,8 @@ description: The TexBlt function performs a bit-block transfer (bitblt) operatio
 old-location: display\texblt.htm
 tech.root: display
 ms.assetid: 1ddfd822-7a43-4976-a153-ba862d6dfd82
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_TEXBLT, PFND3DDDI_TEXBLT callback, TexBlt, TexBlt callback function [Display Devices], UserModeDisplayDriver_Functions_1d3c2c6d-849d-46c2-9934-f3c4e5720edf.xml, d3dumddi/TexBlt, display.texblt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

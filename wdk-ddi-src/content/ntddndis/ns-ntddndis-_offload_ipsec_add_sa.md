@@ -6,11 +6,8 @@ description: The OFFLOAD_IPSEC_ADD_SA structure contains information for each se
 old-location: netvista\offload_ipsec_add_sa.htm
 tech.root: netvista
 ms.assetid: 592d338c-8ab0-4163-bcfa-75c941b83c3d
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: "*POFFLOAD_IPSEC_ADD_SA, 216offload_12f95ec9-ed81-43cc-b90d-fe06600ec349.xml, OFFLOAD_IPSEC_ADD_SA, OFFLOAD_IPSEC_ADD_SA structure [Network Drivers Starting with Windows Vista], POFFLOAD_IPSEC_ADD_SA, POFFLOAD_IPSEC_ADD_SA structure pointer [Network Drivers Starting with Windows Vista], _OFFLOAD_IPSEC_ADD_SA, netvista.offload_ipsec_add_sa, ntddndis/OFFLOAD_IPSEC_ADD_SA, ntddndis/POFFLOAD_IPSEC_ADD_SA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ndis.h

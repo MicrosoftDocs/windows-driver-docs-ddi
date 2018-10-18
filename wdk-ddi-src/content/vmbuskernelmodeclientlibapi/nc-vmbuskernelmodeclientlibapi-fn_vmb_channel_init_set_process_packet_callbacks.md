@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbChannelInitSetProcessPacketCallbacks function sets callback functions for packet processing.
 tech.root: netvista
 ms.assetid: 863dc828-cd80-480a-99ee-0314824e4b8b
-ms.author: windowsdriverdev
 ms.date: 05/21/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

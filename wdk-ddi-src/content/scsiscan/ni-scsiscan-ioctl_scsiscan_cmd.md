@@ -6,11 +6,8 @@ description: Creates a customized SCSI control descriptor block (CDB) and sends 
 old-location: image\ioctl_scsiscan_cmd.htm
 tech.root: image
 ms.assetid: af1f4107-f537-4b94-b9b4-c97429878fef
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IOCTL_SCSISCAN_CMD, IOCTL_SCSISCAN_CMD control, IOCTL_SCSISCAN_CMD control code [Imaging Devices], image.ioctl_scsiscan_cmd, scsiscan/IOCTL_SCSISCAN_CMD, stifnc_da087c9b-101a-47c9-b546-ba887b05dca0.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: scsiscan.h
 req.include-header: Scsiscan.h

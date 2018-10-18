@@ -6,11 +6,8 @@ description: The MiniportWdiRxResume handler function is issued by the RxMgr aft
 old-location: netvista\miniportwdirxresume.htm
 tech.root: netvista
 ms.assetid: 483C59C3-8F9C-48A5-B5E4-34A60BAE1B1A
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: MINIPORT_WDI_RX_RESUME, MINIPORT_WDI_RX_RESUME callback, MiniportWdiRxResume, MiniportWdiRxResume callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxResume, netvista.miniportwdirxresume
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dot11wdi.h
 req.include-header: 

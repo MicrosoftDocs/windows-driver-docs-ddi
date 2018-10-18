@@ -6,11 +6,8 @@ description: Call the NdisAllocateFragmentNetBufferList function to create a new
 old-location: netvista\ndisallocatefragmentnetbufferlist.htm
 tech.root: netvista
 ms.assetid: 40b6596b-7ab8-4336-8c38-21b9f32d8558
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisAllocateFragmentNetBufferList, NdisAllocateFragmentNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateFragmentNetBufferList, ndis_netbuf_functions_ref_9155bd3d-f4c1-4655-b9a3-256ff64093cf.xml, netvista.ndisallocatefragmentnetbufferlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

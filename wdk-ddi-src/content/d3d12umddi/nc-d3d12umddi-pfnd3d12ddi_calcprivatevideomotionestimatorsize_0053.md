@@ -4,11 +4,8 @@ title: PFND3D12DDI_CALCPRIVATEVIDEOMOTIONESTIMATORSIZE_0053
 author: windows-driver-content
 description: Calculates the driver object size.
 ms.assetid: 2980611e-51df-4c26-9453-34bddb3b00a1
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

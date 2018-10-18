@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Specifies options to provide data to the user-mode display driver.
 old-location: display\d3d11_1ddi_d3d11_options_data.htm
 ms.assetid: de5fa80e-d3bd-40ef-8e4d-07a0a336f25c
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: D3D11_1DDI_D3D11_OPTIONS_DATA, D3D11_1DDI_D3D11_OPTIONS_DATA structure [Display Devices], d3d10umddi/D3D11_1DDI_D3D11_OPTIONS_DATA, display.d3d11_1ddi_d3d11_options_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

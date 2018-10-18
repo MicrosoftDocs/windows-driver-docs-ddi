@@ -6,11 +6,8 @@ description: The READ_REGISTER_USHORT function reads a USHORT value from the spe
 old-location: wdf\read_register_ushort.htm
 tech.root: wdf
 ms.assetid: 75DDFC2A-EF7F-4652-B0D0-8BF1583B3679
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: READ_REGISTER_USHORT, READ_REGISTER_USHORT function, umdf.read_register_ushort, wdf.read_register_ushort, wudfddi_hwaccess/READ_REGISTER_USHORT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wudfddi_hwaccess.h
 req.include-header: 

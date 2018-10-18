@@ -6,11 +6,8 @@ description: The CPSUICBPARAM structure is used as the input parameter to _CPSUI
 old-location: print\cpsuicbparam.htm
 tech.root: print
 ms.assetid: b5545efa-6cb4-41d0-9338-be9a269fa193
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: "*PCPSUICBPARAM, CPSUICBPARAM, CPSUICBPARAM structure [Print Devices], PCPSUICBPARAM, PCPSUICBPARAM structure pointer [Print Devices], _CPSUICBPARAM, compstui/CPSUICBPARAM, compstui/PCPSUICBPARAM, cpsuifnc_9e2d49ae-ecb6-4979-aacd-7dd954034e92.xml, print.cpsuicbparam"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: compstui.h
 req.include-header: Compstui.h

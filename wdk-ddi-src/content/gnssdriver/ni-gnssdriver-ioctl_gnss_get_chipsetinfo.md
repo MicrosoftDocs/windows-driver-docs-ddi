@@ -6,11 +6,8 @@ description: The IOCTL_GNSS_GET_CHIPSETINFO control code is used by the GNSS man
 old-location: gnss\ioctl_gnss_get_chipsetinfo.htm
 tech.root: gnss
 ms.assetid: 9E57757B-65BA-40FF-98F9-F771C48EFF9E
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IOCTL_GNSS_GET_CHIPSETINFO, IOCTL_GNSS_GET_CHIPSETINFO control, IOCTL_GNSS_GET_CHIPSETINFO control code [Sensor Devices], gnss.ioctl_gnss_get_chipsetinfo, gnssdriver/IOCTL_GNSS_GET_CHIPSETINFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: gnssdriver.h
 req.include-header: 

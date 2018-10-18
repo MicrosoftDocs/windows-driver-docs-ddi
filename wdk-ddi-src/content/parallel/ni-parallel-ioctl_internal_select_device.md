@@ -6,11 +6,8 @@ description: The IOCTL_INTERNAL_SELECT_DEVICE request:Allocates the parallel por
 old-location: parports\ioctl_internal_select_device.htm
 tech.root: parports
 ms.assetid: d072a97d-f15d-44e9-b7d5-4fb872bfcbf0
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: IOCTL_INTERNAL_SELECT_DEVICE, IOCTL_INTERNAL_SELECT_DEVICE control code [Parallel Ports], cisspd_e884bf73-c8d2-4007-a01a-ba6af4fd8359.xml, parallel/IOCTL_INTERNAL_SELECT_DEVICE, parports.ioctl_internal_select_device
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: parallel.h
 req.include-header: Parallel.h

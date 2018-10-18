@@ -4,7 +4,6 @@ title: IDebugHostContext::IsEqualTo
 author: windows-driver-content
 description: Returns whether two IDebugHostContext objects are equal by value. 
 ms.assetid: f0b782ca-f7b8-4521-9e2b-dd5afd5adeee
-ms.author: windowsdriverdev
 ms.date: 09/20/2018
 ms.topic: method
 ms.keywords: IDebugHostContext::IsEqualTo, IsEqualTo, IDebugHostContext.IsEqualTo, IDebugHostContext::IsEqualTo, IDebugHostContext.IsEqualTo

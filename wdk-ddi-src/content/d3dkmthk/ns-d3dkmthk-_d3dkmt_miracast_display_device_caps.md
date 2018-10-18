@@ -4,11 +4,8 @@ title: _D3DKMT_MIRACAST_DISPLAY_DEVICE_CAPS
 author: windows-driver-content
 description: Miracast display device capabilities.
 ms.assetid: 6b89535c-4456-4488-89a0-d1b656d2f313
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_MIRACAST_DISPLAY_DEVICE_CAPS, D3DKMT_MIRACAST_DISPLAY_DEVICE_CAPS, *PD3DKMT_MIRACAST_DISPLAY_DEVICE_CAPS, 
 req.header: d3dkmthk.h
 req.include-header:

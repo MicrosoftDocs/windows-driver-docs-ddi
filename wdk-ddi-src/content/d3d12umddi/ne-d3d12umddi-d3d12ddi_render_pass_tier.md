@@ -4,12 +4,9 @@ title: D3D12DDI_RENDER_PASS_TIER
 author: windows-driver-content
 description: The extent to which a UMD efficiently supports Render Pass.
 ms.assetid: 7cd2f2a1-af74-44e6-b094-06e6c02443c7
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: D3D12DDI_RENDER_PASS_TIER, D3D12DDI_RENDER_PASS_TIER, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

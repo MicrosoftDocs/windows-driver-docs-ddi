@@ -4,12 +4,9 @@ title: D3DDDI_COUNTER_TYPE
 author: windows-driver-content
 description: The counter type.
 ms.assetid: 93e0813a-15a1-437e-a55d-3ba153c3aa0f
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: D3DDDI_COUNTER_TYPE, D3DDDI_COUNTER_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dumddi.h
 req.include-header:
 req.target-type:

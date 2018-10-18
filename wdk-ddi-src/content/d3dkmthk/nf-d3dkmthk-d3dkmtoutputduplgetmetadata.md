@@ -4,7 +4,6 @@ title: D3DKMTOutputDuplGetMetaData function
 author: windows-driver-content
 description: Gets output duplicate metadata.
 ms.assetid: ed85a142-6f5e-42b9-bb60-dd0c5357a4c1
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: D3DKMTOutputDuplGetMetaData

@@ -6,11 +6,8 @@ description: The MSFC_TM structure is used by WMI providers to timestamp events.
 old-location: storage\msfc_tm.htm
 tech.root: storage
 ms.assetid: 7e27f53f-350e-4315-9de6-60835bddcbfb
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PMSFC_TM, MSFC_TM, MSFC_TM structure [Storage Devices], PMSFC_TM, PMSFC_TM structure pointer [Storage Devices], _MSFC_TM, hbapiwmi/MSFC_TM, hbapiwmi/PMSFC_TM, storage.msfc_tm, structs-Fibre_5cca5127-bbcc-4a2f-9ad2-2daeecac1448.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h

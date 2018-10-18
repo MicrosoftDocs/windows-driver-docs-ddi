@@ -6,11 +6,8 @@ description: The FIELD_INFO structure is used by the IG_DUMP_SYMBOL_INFOIoctl op
 old-location: debugger\field_info.htm
 tech.root: debugger
 ms.assetid: 627b14dc-9b13-464c-ba23-6e91bef2b940
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: "*PFIELD_INFO, FIELD_INFO, FIELD_INFO structure [Windows Debugging], PFIELD_INFO, PFIELD_INFO structure pointer [Windows Debugging], WdbgExts_Ref_4c79e59a-cd12-4ad9-affb-b7f0bd7689fb.xml, _FIELD_INFO, debugger.field_info, wdbgexts/FIELD_INFO, wdbgexts/PFIELD_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdbgexts.h
 req.include-header: 

@@ -5,12 +5,9 @@ author: windows-driver-content
 tech.root: usbref
 description: Used in the SET_UOR command. See Table 4-18, Offset 23.
 ms.assetid: a8cd9084-40bf-4b06-be2d-53f324e811e4
-ms.author: windowsdriverdev
 ms.date: 09/30/2018 
 ms.topic: enum
 ms.keywords: _UCSI_USB_OPERATION_MODE, UCSI_USB_OPERATION_MODE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 
 req.target-type:

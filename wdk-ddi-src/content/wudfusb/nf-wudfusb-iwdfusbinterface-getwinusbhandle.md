@@ -6,11 +6,8 @@ description: The GetWinUsbHandle method retrieves the WinUsb interface handle th
 old-location: wdf\iwdfusbinterface_getwinusbhandle.htm
 tech.root: wdf
 ms.assetid: 31c23596-21b2-4fb2-96bd-5372fe2432ab
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: GetWinUsbHandle, GetWinUsbHandle method, GetWinUsbHandle method,IWDFUsbInterface interface, IWDFUsbInterface interface,GetWinUsbHandle method, IWDFUsbInterface.GetWinUsbHandle, IWDFUsbInterface::GetWinUsbHandle, UMDFUSBref_6c94f0cc-8995-45c9-8101-bc123b0e48bf.xml, umdf.iwdfusbinterface_getwinusbhandle, wdf.iwdfusbinterface_getwinusbhandle, wudfusb/IWDFUsbInterface::GetWinUsbHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfusb.h
 req.include-header: Wudfusb.h

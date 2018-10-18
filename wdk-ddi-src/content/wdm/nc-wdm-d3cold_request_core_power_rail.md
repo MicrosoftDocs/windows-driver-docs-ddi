@@ -4,11 +4,8 @@ title: D3COLD_REQUEST_CORE_POWER_RAIL
 author: windows-driver-content
 description: Enables the function device object (FDO) to indicate whether the core power rail is needed.
 ms.assetid: 48ce96cc-8827-47ba-bb32-028b0744c58e
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:

@@ -6,11 +6,8 @@ description: The ZwCreateFile routine creates a new file or opens an existing fi
 old-location: kernel\zwcreatefile.htm
 tech.root: kernel
 ms.assetid: c40b99be-5627-44f3-9853-c3ae31a8035c
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: NtCreateFile, ZwCreateFile, ZwCreateFile routine [Kernel-Mode Driver Architecture], k111_80b1882a-8617-45d4-a783-dbc3bfc9aad4.xml, kernel.zwcreatefile, wdm/NtCreateFile, wdm/ZwCreateFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

@@ -6,11 +6,8 @@ description: KsDeleteFilterFactory deletes a given filter factory.
 old-location: stream\ksdeletefilterfactory.htm
 tech.root: stream
 ms.assetid: 4d946524-8ad2-45a0-91be-861b30b0c297
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsDeleteFilterFactory, KsDeleteFilterFactory function [Streaming Media Devices], avfunc_60aeaa09-5563-47ea-a117-4b65a468b058.xml, ks/KsDeleteFilterFactory, stream.ksdeletefilterfactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ks.h
 req.include-header: Ks.h

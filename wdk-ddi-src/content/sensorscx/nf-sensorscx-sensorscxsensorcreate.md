@@ -6,11 +6,8 @@ description: This function creates an instance of a sensor in the class extensio
 old-location: sensors\sensorscxsensorcreate.htm
 tech.root: sensors
 ms.assetid: A365381B-3456-47B6-93C7-81C8963CB183
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: SensorsCxSensorCreate, SensorsCxSensorCreate function [Sensor Devices], sensors.sensorscxsensorcreate, sensorscx/SensorsCxSensorCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sensorscx.h
 req.include-header: 

@@ -4,10 +4,7 @@ title: InitPropVariantFromFloat function
 author: windows-driver-content
 description: This routine initializes a PROPVARIANT with the given float.
 ms.assetid: 585790f6-563a-41a6-a500-01d1cfac6a78
-ms.author: windowsdriverdev
 ms.date: 08/08/18
-ms.prod: windows-hardware
-ms.technology: windows-devices
 tech.root: sensors
 ms.topic: function
 ms.keywords: InitPropVariantFromFloat

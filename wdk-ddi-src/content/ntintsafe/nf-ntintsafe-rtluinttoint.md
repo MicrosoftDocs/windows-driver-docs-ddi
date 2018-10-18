@@ -6,11 +6,8 @@ description: Converts a value of type UINT to a value of type INT.
 old-location: kernel\rtluinttoint.htm
 tech.root: kernel
 ms.assetid: 5C595F39-3F47-4B4D-B6C6-6CBC5848AA4B
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlUIntToInt, RtlUIntToInt function [Kernel-Mode Driver Architecture], kernel.rtluinttoint, ntintsafe/RtlUIntToInt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

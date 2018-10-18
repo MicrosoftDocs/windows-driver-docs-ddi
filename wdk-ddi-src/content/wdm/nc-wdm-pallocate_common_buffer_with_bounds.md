@@ -4,11 +4,8 @@ title: PALLOCATE_COMMON_BUFFER_WITH_BOUNDS
 author: windows-driver-content
 description: 
 ms.assetid: c376a156-c7e2-4feb-aa21-4fbce4fe72ed
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type: Desktop

@@ -6,11 +6,8 @@ description: The Connect method connects the synchronization object to the inter
 old-location: audio\iinterruptsync_connect.htm
 tech.root: audio
 ms.assetid: 62cb451d-1170-4462-94ac-0477adc5946b
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: Connect, Connect method [Audio Devices], Connect method [Audio Devices],IInterruptSync interface, IInterruptSync interface [Audio Devices],Connect method, IInterruptSync.Connect, IInterruptSync::Connect, audio.iinterruptsync_connect, audmp-routines_10f66201-af8d-42ff-a854-04f5cb90f2cc.xml, portcls/IInterruptSync::Connect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: Portcls.h

@@ -6,11 +6,8 @@ description: The IOCTL_BIOMETRIC_RESET IOCTL resets the device to a known or idl
 old-location: biometric\ioctl_biometric_reset.htm
 tech.root: biometric
 ms.assetid: 4385911b-ae38-4748-ad11-cc161922776a
-ms.author: windowsdriverdev
 ms.date: 2/20/2018
 ms.keywords: IOCTL_BIOMETRIC_RESET, IOCTL_BIOMETRIC_RESET control, IOCTL_BIOMETRIC_RESET control code [Biometric Devices], biometric.ioctl_biometric_reset, biometric_ref_4043b840-5b38-40b2-bd80-282a28badd14.xml, winbio_ioctl/IOCTL_BIOMETRIC_RESET
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: winbio_ioctl.h
 req.include-header: 

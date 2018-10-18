@@ -6,11 +6,8 @@ description: The MmGetMaximumFileSectionSize returns the maximum possible size o
 old-location: ifsk\mmgetmaximumfilesectionsize.htm
 tech.root: ifsk
 ms.assetid: 5B3E5B33-EFED-485A-A62A-7A54322408AC
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: MmGetMaximumFileSectionSize, MmGetMaximumFileSectionSize routine [Installable File System Drivers], ifsk.mmgetmaximumfilesectionsize, ntifs/MmGetMaximumFileSectionSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

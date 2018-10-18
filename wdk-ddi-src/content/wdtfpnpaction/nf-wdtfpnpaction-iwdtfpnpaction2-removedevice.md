@@ -6,11 +6,8 @@ description: Removes the device.
 old-location: dtf\iwdtfpnpaction2_removedevice.htm
 tech.root: dtf
 ms.assetid: 68e15b98-e58a-4789-80d0-fc31f936345e
-ms.author: windowsdriverdev
 ms.date: 4/4/2018
 ms.keywords: IWDTFPNPAction2 interface [Windows Device Testing Framework],RemoveDevice method, IWDTFPNPAction2.RemoveDevice, IWDTFPNPAction2::RemoveDevice, Microsoft.WDTF.IWDTFPNPAction2.RemoveDevice, Microsoft::WDTF::IWDTFPNPAction2::RemoveDevice, RemoveDevice, RemoveDevice method [Windows Device Testing Framework], RemoveDevice method [Windows Device Testing Framework],IWDTFPNPAction2 interface, dtf.iwdtfpnpaction2_removedevice, wdtfpnpaction/IWDTFPNPAction2::RemoveDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtfpnpaction.h
 req.include-header: 

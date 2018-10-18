@@ -6,11 +6,8 @@ description: The RetrieveUsbInterface method retrieves the specified USB interfa
 old-location: wdf\iwdfusbtargetdevice_retrieveusbinterface.htm
 tech.root: wdf
 ms.assetid: 9dfa8686-a815-417c-9488-dd86de0e15a2
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IWDFUsbTargetDevice interface,RetrieveUsbInterface method, IWDFUsbTargetDevice.RetrieveUsbInterface, IWDFUsbTargetDevice::RetrieveUsbInterface, RetrieveUsbInterface, RetrieveUsbInterface method, RetrieveUsbInterface method,IWDFUsbTargetDevice interface, UMDFUSBref_cc346a35-4508-40ac-b959-20174a1b39af.xml, umdf.iwdfusbtargetdevice_retrieveusbinterface, wdf.iwdfusbtargetdevice_retrieveusbinterface, wudfusb/IWDFUsbTargetDevice::RetrieveUsbInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfusb.h
 req.include-header: Wudfusb.h

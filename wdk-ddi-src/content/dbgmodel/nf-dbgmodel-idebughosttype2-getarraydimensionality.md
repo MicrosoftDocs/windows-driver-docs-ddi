@@ -4,7 +4,6 @@ title: IDebugHostType2::GetArrayDimensionality
 author: windows-driver-content
 description: The GetArrayDimensionality method returns the number of dimensions that the array is indexed in.
 ms.assetid: b2a2dfe1-733b-4349-b99b-11856ae10d35
-ms.author: windowsdriverdev
 ms.date: 09/20/2018 
 ms.topic: method
 ms.keywords: IDebugHostType2::GetArrayDimensionality, GetArrayDimensionality, IDebugHostType2.GetArrayDimensionality, IDebugHostType2::GetArrayDimensionality, IDebugHostType2.GetArrayDimensionality

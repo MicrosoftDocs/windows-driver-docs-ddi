@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Creates a video decoder.
 old-location: display\d3d12ddiarg-create-video-decoder-0032.htm
 ms.assetid: d4d42334-ae09-4900-828b-86da81b446c1
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: D3D12DDIARG_CREATE_VIDEO_DECODER_0032, D3D12DDIARG_CREATE_VIDEO_DECODER_0032 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATE_VIDEO_DECODER_0032, display.d3d12ddiarg-create-video-decoder-0032
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header:

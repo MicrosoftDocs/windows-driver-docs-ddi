@@ -6,11 +6,8 @@ description: The IoWriteErrorLogEntry routine queues a given error log packet to
 old-location: kernel\iowriteerrorlogentry.htm
 tech.root: kernel
 ms.assetid: 1259c344-584c-410a-a152-5de1f433082c
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IoWriteErrorLogEntry, IoWriteErrorLogEntry routine [Kernel-Mode Driver Architecture], k104_1822a499-059a-41c8-b97b-aa3a5bfd22e3.xml, kernel.iowriteerrorlogentry, wdm/IoWriteErrorLogEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

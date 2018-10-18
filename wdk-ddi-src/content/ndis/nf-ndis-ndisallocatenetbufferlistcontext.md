@@ -6,11 +6,8 @@ description: Call the NdisAllocateNetBufferListContext function to allocate more
 old-location: netvista\ndisallocatenetbufferlistcontext.htm
 tech.root: netvista
 ms.assetid: 3bbad723-86bf-4206-9e51-52a66efaec20
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisAllocateNetBufferListContext, NdisAllocateNetBufferListContext function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateNetBufferListContext, ndis_netbuf_functions_ref_f421f804-e12d-43ba-81ed-d5322712faf5.xml, netvista.ndisallocatenetbufferlistcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

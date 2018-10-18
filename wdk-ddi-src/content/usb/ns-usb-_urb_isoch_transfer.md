@@ -6,11 +6,8 @@ description: The _URB_ISOCH_TRANSFER structure is used by USB client drivers to 
 old-location: buses\_urb_isoch_transfer.htm
 tech.root: usbref
 ms.assetid: b021211a-3f72-47ff-9e69-bbf3807f4ec4
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: USBD_SHORT_TRANSFER_OK, USBD_START_ISO_TRANSFER_ASAP, USBD_TRANSFER_DIRECTION_IN, _URB_ISOCH_TRANSFER, _URB_ISOCH_TRANSFER structure [Buses], buses._urb_isoch_transfer, usb/_URB_ISOCH_TRANSFER, usbstrct_5a064ef7-b08f-405f-8d73-22fea138ac29.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: usb.h
 req.include-header: Usb.h

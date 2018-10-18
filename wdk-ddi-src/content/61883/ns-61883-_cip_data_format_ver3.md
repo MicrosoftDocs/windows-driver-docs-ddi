@@ -6,11 +6,8 @@ description: This structure is used by CipDataFormat.
 old-location: ieee\cip_data_format_ver3.htm
 tech.root: IEEE
 ms.assetid: A7EDC949-A2C6-43E9-9CA0-886FEE5282F5
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "*PCIP_DATA_FORMAT, *PCIP_DATA_FORMAT_VER3, 61883/CIP_DATA_FORMAT_VER3, 61883/PCIP_DATA_FORMAT_VER3, CIP_DATA_FORMAT, CIP_DATA_FORMAT_VER3, CIP_DATA_FORMAT_VER3 structure [Buses], IEEE.cip_data_format_ver3, PCIP_DATA_FORMAT_VER3, PCIP_DATA_FORMAT_VER3 structure pointer [Buses], _CIP_DATA_FORMAT_VER3"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 61883.h
 req.include-header: 

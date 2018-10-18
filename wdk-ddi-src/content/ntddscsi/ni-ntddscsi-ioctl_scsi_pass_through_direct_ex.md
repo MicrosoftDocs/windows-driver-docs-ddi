@@ -6,11 +6,8 @@ description: The IOCTL_SCSI_PASS_THROUGH_DIRECT_EX control code request is the e
 old-location: storage\ioctl_scsi_pass_through_direct_ex.htm
 tech.root: storage
 ms.assetid: FB210147-9CF3-4D32-884E-256BEAFAE6C4
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IOCTL_SCSI_PASS_THROUGH_DIRECT_EX, IOCTL_SCSI_PASS_THROUGH_DIRECT_EX control, IOCTL_SCSI_PASS_THROUGH_DIRECT_EX control code [Storage Devices], ntddscsi/IOCTL_SCSI_PASS_THROUGH_DIRECT_EX, storage.ioctl_scsi_pass_through_direct_ex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h

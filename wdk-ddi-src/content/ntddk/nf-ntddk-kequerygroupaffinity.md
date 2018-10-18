@@ -6,11 +6,8 @@ description: The KeQueryGroupAffinity routine returns an affinity mask that iden
 old-location: kernel\kequerygroupaffinity.htm
 tech.root: kernel
 ms.assetid: 235ec93e-5b3c-4a19-876f-f668271a56a5
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: KeQueryGroupAffinity, KeQueryGroupAffinity routine [Kernel-Mode Driver Architecture], k105_9116eade-e2ed-47f4-a204-c21d456371b0.xml, kernel.kequerygroupaffinity, wdm/KeQueryGroupAffinity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

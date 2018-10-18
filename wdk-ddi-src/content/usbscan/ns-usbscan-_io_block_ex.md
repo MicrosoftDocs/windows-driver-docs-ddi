@@ -6,11 +6,8 @@ description: The IO_BLOCK_EX structure is used as a parameter to DeviceIoControl
 old-location: image\io_block_ex.htm
 tech.root: image
 ms.assetid: 2474a49b-e275-4b4d-b762-c296b92bab4c
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: "*PIO_BLOCK_EX, IO_BLOCK_EX, IO_BLOCK_EX structure [Imaging Devices], PIO_BLOCK_EX, PIO_BLOCK_EX structure pointer [Imaging Devices], _IO_BLOCK_EX, image.io_block_ex, stifnc_6b21356d-4f1a-4b8d-a54e-767f46e5b1b3.xml, usbscan/IO_BLOCK_EX, usbscan/PIO_BLOCK_EX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: usbscan.h
 req.include-header: Usbscan.h

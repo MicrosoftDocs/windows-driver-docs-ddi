@@ -6,11 +6,8 @@ description: The FltGetSectionContext routine retrieves a section context that w
 old-location: ifsk\fltgetsectioncontext.htm
 tech.root: ifsk
 ms.assetid: 0B5C1BF9-59C3-4AC9-B545-FD7260B75E90
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: FltGetSectionContext, FltGetSectionContext routine [Installable File System Drivers], fltkernel/FltGetSectionContext, ifsk.fltgetsectioncontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

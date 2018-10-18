@@ -4,12 +4,9 @@ title: D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT
 author: windows-driver-content
 description: Convenience indices for arrays of per component histogram information.
 ms.assetid: 2c109732-d1ee-4b19-884c-17f75e7e3823
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: enum
 ms.keywords: D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT, D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT,
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d10umddi.h
 req.include-header:
 req.target-type:

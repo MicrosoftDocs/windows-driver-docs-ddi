@@ -6,11 +6,8 @@ description: The WppRecorderLogDelete method deletes the specified recorder log.
 old-location: devtest\wpprecorderlogdelete.htm
 tech.root: devtest
 ms.assetid: AEE10756-7301-4B55-82A5-27CA595854EA
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: WppRecorderLogDelete, devtest.wpprecorderlogdelete, imp_WppRecorderLogDelete, imp_WppRecorderLogDelete function [Driver Development Tools], wpprecorder/imp_WppRecorderLogDelete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: wpprecorder.h
 req.include-header: 

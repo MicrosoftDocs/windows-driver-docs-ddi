@@ -4,11 +4,8 @@ title: _D3DKMT_FLUSHHEAPTRANSITIONS
 author: windows-driver-content
 description: Used to flush heap transitions.
 ms.assetid: 07563d96-9dc3-4c86-9cf9-2cfb3c7ba386
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_FLUSHHEAPTRANSITIONS, D3DKMT_FLUSHHEAPTRANSITIONS, 
 req.header: d3dkmthk.h
 req.include-header:

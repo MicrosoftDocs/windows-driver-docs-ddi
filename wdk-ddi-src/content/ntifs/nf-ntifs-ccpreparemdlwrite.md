@@ -6,11 +6,8 @@ description: The CcPrepareMdlWrite routine provides direct access to cached file
 old-location: ifsk\ccpreparemdlwrite.htm
 tech.root: ifsk
 ms.assetid: 84e231ad-50a1-471e-b514-6b769f2a7e1e
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: CcPrepareMdlWrite, CcPrepareMdlWrite routine [Installable File System Drivers], ccref_2523ff15-d200-4f45-bc05-aab30afadc15.xml, ifsk.ccpreparemdlwrite, ntifs/CcPrepareMdlWrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

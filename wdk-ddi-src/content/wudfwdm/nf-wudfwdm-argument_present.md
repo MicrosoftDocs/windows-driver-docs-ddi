@@ -6,11 +6,8 @@ description: The ARGUMENT_PRESENT macro takes an argument pointer and returns FA
 old-location: kernel\argument_present.htm
 tech.root: kernel
 ms.assetid: 00b9c218-8ae7-4624-be6b-6b6b2f83764a
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: ARGUMENT_PRESENT, ARGUMENT_PRESENT macro [Kernel-Mode Driver Architecture], k106_a835da4a-e4c4-4c39-8b20-c7ef88f2ab6b.xml, kernel.argument_present, wudfwdm/ARGUMENT_PRESENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: wudfwdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntdef.h

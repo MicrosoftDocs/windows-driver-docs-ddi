@@ -6,11 +6,8 @@ description: The ExDeleteResourceLite routine deletes a given resource from the 
 old-location: kernel\exdeleteresourcelite.htm
 tech.root: kernel
 ms.assetid: 83efb1eb-4c45-4bfc-84dd-88032e40076a
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: ExDeleteResourceLite, ExDeleteResourceLite routine [Kernel-Mode Driver Architecture], k102_92907ac3-1391-4ede-8ffa-71a211c7634e.xml, kernel.exdeleteresourcelite, wdm/ExDeleteResourceLite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

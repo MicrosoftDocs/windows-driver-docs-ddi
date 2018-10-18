@@ -6,11 +6,8 @@ description: The PPARALLEL_TRY_SELECT_ROUTINE-typed callback routine selects an 
 old-location: parports\pparallel_try_select_routine.htm
 tech.root: parports
 ms.assetid: e7ecc2ac-fb86-40fe-829b-ee5851c6ae5f
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: "(*PPARALLEL_TRY_SELECT_ROUTINE), (*PPARALLEL_TRY_SELECT_ROUTINE) callback function [Parallel Ports], cisspd_ec7d6b68-7fbd-493e-9787-3e2f78327bdd.xml, parallel/(*PPARALLEL_TRY_SELECT_ROUTINE), parports.pparallel_try_select_routine"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: parallel.h
 req.include-header: Parallel.h

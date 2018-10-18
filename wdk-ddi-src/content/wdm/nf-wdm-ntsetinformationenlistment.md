@@ -6,11 +6,8 @@ description: The ZwSetInformationEnlistment routine sets information for a speci
 old-location: kernel\zwsetinformationenlistment.htm
 tech.root: kernel
 ms.assetid: c87547b0-a16e-48b5-91ca-c414c5317ac6
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: NtSetInformationEnlistment, ZwSetInformationEnlistment, ZwSetInformationEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwsetinformationenlistment, ktm_ref_3e37f795-0826-43df-bb96-14f1031437da.xml, wdm/NtSetInformationEnlistment, wdm/ZwSetInformationEnlistment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

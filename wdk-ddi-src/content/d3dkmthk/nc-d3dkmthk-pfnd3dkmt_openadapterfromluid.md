@@ -4,11 +4,8 @@ title: PFND3DKMT_OPENADAPTERFROMLUID
 author: windows-driver-content
 description: Pfnd3dkmtOpenadapterfromluid maps a locally unique identifier (LUID) to a graphics adapter handle.
 ms.assetid: 14e613a4-3b9a-4c8c-aa87-c75ed773b7a1
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

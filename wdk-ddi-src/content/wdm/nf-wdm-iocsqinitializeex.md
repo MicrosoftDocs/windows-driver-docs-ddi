@@ -6,11 +6,8 @@ description: The IoCsqInitializeEx routine initializes the dispatch table for a 
 old-location: kernel\iocsqinitializeex.htm
 tech.root: kernel
 ms.assetid: 9f6501c2-a708-4583-a821-e1b8264ff0af
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IoCsqInitializeEx, IoCsqInitializeEx routine [Kernel-Mode Driver Architecture], k104_68bf2330-ba47-4896-8052-41afee2d887e.xml, kernel.iocsqinitializeex, wdm/IoCsqInitializeEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

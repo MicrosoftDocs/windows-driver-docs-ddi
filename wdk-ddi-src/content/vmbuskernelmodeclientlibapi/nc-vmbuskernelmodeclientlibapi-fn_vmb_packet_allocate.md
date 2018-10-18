@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbPacketAllocate function allocates a packet from the channel's lookaside list.
 tech.root: netvista
 ms.assetid: de59b2ba-33eb-41f2-a4ce-6be46e88dfd7
-ms.author: windowsdriverdev
 ms.date: 05/22/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

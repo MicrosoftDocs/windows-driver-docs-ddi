@@ -6,11 +6,8 @@ description: PosCxReleaseDevice is called to release a device that was previousl
 old-location: pos\poscxreleasedevice.htm
 tech.root: pos
 ms.assetid: 9615915C-B729-4702-BF41-D5068B43A729
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: PosCxReleaseDevice, PosCxReleaseDevice function, pos.poscxreleasedevice, poscx/PosCxReleaseDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: poscx.h
 req.include-header: Poscx.h

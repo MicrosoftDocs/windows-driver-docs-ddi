@@ -4,12 +4,9 @@ title: _D3DDDI_RESIDENCYSTATUS
 author: windows-driver-content
 description: The residency status.
 ms.assetid: ab6fd21d-e08d-4575-a718-3a2967b97155
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
 ms.keywords: _D3DDDI_RESIDENCYSTATUS, D3DDDI_RESIDENCYSTATUS, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dumddi.h
 req.include-header:
 req.target-type:

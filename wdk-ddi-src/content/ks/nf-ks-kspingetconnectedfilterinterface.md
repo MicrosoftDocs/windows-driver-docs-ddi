@@ -6,11 +6,8 @@ description: The KsPinGetConnectedFilterInterface function queries the filter to
 old-location: stream\kspingetconnectedfilterinterface.htm
 tech.root: stream
 ms.assetid: 19fb7a3e-d795-4d5a-9f28-cfbf37dbcd96
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsPinGetConnectedFilterInterface, KsPinGetConnectedFilterInterface function [Streaming Media Devices], avfunc_d6f6f675-4d44-47c8-aa37-9ad533966603.xml, ks/KsPinGetConnectedFilterInterface, stream.kspingetconnectedfilterinterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

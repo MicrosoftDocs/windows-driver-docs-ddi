@@ -6,11 +6,8 @@ description: The WdfUsbTargetPipeAbortSynchronously method builds an abort reque
 old-location: wdf\wdfusbtargetpipeabortsynchronously.htm
 tech.root: wdf
 ms.assetid: 57d0969f-bc30-4235-93a5-dda51e15b4fc
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFUsbRef_faea6716-3bb7-4f1f-93ce-36fe26bc7875.xml, WdfUsbTargetPipeAbortSynchronously, WdfUsbTargetPipeAbortSynchronously method, kmdf.wdfusbtargetpipeabortsynchronously, wdf.wdfusbtargetpipeabortsynchronously, wdfusb/WdfUsbTargetPipeAbortSynchronously
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

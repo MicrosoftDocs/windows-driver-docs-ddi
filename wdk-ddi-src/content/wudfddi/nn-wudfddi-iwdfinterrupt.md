@@ -6,11 +6,8 @@ description: This interface exposes an interrupt object.
 old-location: wdf\iwdfinterrupt.htm
 tech.root: wdf
 ms.assetid: 729A2361-6FE1-4096-AC8B-3D042326EE5C
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IWDFInterrupt, IWDFInterrupt interface, IWDFInterrupt interface,described, umdf.iwdfinterrupt, wdf.iwdfinterrupt, wudfddi/IWDFInterrupt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wudfddi.h
 req.include-header: 

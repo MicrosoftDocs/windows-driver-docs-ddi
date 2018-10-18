@@ -4,7 +4,6 @@ title: FsRtlRemoveBaseMcbEntry function
 author: windows-driver-content
 description: The FsRtlRemoveBaseMcbEntry function is the work routine for removing a large mcb entry.  It does so without taking out the mcb GuardedMutex.
 ms.assetid: 36eaff6e-2bb7-4264-bef1-58ec28ef2ace
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: FsRtlRemoveBaseMcbEntry

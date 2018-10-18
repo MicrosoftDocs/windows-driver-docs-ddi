@@ -6,11 +6,8 @@ description: An AVStream minidriver's callback routine is called when:\_There is
 old-location: stream\avstrminipinprocess.htm
 tech.root: stream
 ms.assetid: d2315dd9-1643-4b8e-a010-8fccc582ca2b
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: AVStrMiniPinConnect, AVStrMiniPinProcess, MyAVStrMiniPin, MyAVStrMiniPin routine [Streaming Media Devices], PFNKSPIN, avstclbk_9c9fb1b9-d592-41de-8190-b8b2808ea35b.xml, ks/MyAVStrMiniPin, stream.avstrminipinprocess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ks.h
 req.include-header: Ks.h

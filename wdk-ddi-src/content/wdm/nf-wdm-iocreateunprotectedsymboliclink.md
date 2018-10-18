@@ -6,11 +6,8 @@ description: The IoCreateUnprotectedSymbolicLink routine sets up an unprotected 
 old-location: kernel\iocreateunprotectedsymboliclink.htm
 tech.root: kernel
 ms.assetid: 21ca4ec1-fd5f-46bb-9760-3bb0cdb761b9
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: IoCreateUnprotectedSymbolicLink, IoCreateUnprotectedSymbolicLink routine [Kernel-Mode Driver Architecture], k104_72bb6571-da2d-4027-bfcd-24438e3bd08a.xml, kernel.iocreateunprotectedsymboliclink, wdm/IoCreateUnprotectedSymbolicLink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

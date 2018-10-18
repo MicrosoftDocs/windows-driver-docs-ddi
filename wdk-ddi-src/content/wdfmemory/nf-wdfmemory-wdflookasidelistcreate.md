@@ -6,11 +6,8 @@ description: The WdfLookasideListCreate method creates a lookaside-list object, 
 old-location: wdf\wdflookasidelistcreate.htm
 tech.root: wdf
 ms.assetid: 37fc86b0-de8c-469b-94bb-ad482b9c7202
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFMemoryObjectRef_f5146f3e-a9ae-459c-9361-37a4f33edd67.xml, WdfLookasideListCreate, WdfLookasideListCreate method, kmdf.wdflookasidelistcreate, wdf.wdflookasidelistcreate, wdfmemory/WdfLookasideListCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfmemory.h
 req.include-header: Wdf.h

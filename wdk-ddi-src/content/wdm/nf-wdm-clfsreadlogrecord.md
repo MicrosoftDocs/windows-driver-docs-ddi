@@ -6,11 +6,8 @@ description: The ClfsReadLogRecord routine reads a target record in a CLFS strea
 old-location: kernel\clfsreadlogrecord.htm
 tech.root: kernel
 ms.assetid: 9bc64d00-3590-4bc2-aa1f-0d50bb0e628d
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: ClfsReadLogRecord, ClfsReadLogRecord routine [Kernel-Mode Driver Architecture], Clfs_e829153c-541e-463a-9ff3-85200929e3d2.xml, kernel.clfsreadlogrecord, wdm/ClfsReadLogRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h

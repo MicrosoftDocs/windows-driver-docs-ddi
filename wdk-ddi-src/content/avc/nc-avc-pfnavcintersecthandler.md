@@ -6,11 +6,8 @@ description: The AV/C intersect handler determines if the data ranges are compat
 old-location: stream\av_c_intersect_handler.htm
 tech.root: stream
 ms.assetid: 65ab5b68-9b76-497b-b560-9a4867d4d34e
-ms.author: windowsdriverdev
 ms.date: 2/23/2018
 ms.keywords: PFNAVCINTERSECTHANDLER, PFNAVCINTERSECTHANDLER function pointer [Streaming Media Devices], avc/PFNAVCINTERSECTHANDLER, avcref_6aa55400-08b6-4a96-af38-23e69fed1621.xml, stream.av_c_intersect_handler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: avc.h
 req.include-header: Avc.h

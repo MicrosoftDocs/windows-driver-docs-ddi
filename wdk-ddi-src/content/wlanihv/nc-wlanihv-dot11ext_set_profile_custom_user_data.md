@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extsetprofilecustomuserdata.htm
 tech.root: netvista
 ms.assetid: 25e1462c-6eaa-480a-9f9e-6f8689da05c5
-ms.author: windowsdriverdev
 ms.date: 2/16/2018
 ms.keywords: DOT11EXT_SET_PROFILE_CUSTOM_USER_DATA, Dot11ExtSetProfileCustomUserData, Dot11ExtSetProfileCustomUserData callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_87f713b8-bd3e-4165-adce-c37fbb829cdb.xml, netvista.dot11extsetprofilecustomuserdata, wlanihv/Dot11ExtSetProfileCustomUserData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wlanihv.h
 req.include-header: Wlanihv.h

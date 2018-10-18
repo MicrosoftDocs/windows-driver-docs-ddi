@@ -6,11 +6,8 @@ description: The ZwCreateTransaction routine creates a transaction object.
 old-location: kernel\zwcreatetransaction.htm
 tech.root: kernel
 ms.assetid: b4c2dd68-3c1a-46d3-ab9c-be2291ed80f4
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: NtCreateTransaction, ZwCreateTransaction, ZwCreateTransaction routine [Kernel-Mode Driver Architecture], kernel.zwcreatetransaction, ktm_ref_8f89322d-b0ef-4711-9f1a-5e83b44e3740.xml, wdm/NtCreateTransaction, wdm/ZwCreateTransaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

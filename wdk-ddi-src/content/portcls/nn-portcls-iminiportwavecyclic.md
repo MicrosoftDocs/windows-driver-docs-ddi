@@ -6,11 +6,8 @@ description: The IMiniportWaveCyclic interface is the primary interface that is 
 old-location: audio\iminiportwavecyclic.htm
 tech.root: audio
 ms.assetid: 12f19ef8-ce7c-4a04-814a-a8c34beca1b9
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: IMiniportWaveCyclic, IMiniportWaveCyclic interface [Audio Devices], IMiniportWaveCyclic interface [Audio Devices],described, audio.iminiportwavecyclic, audmp-routines_e9dda3e8-2545-4734-bf66-e08ff0c4a1e0.xml, portcls/IMiniportWaveCyclic
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: portcls.h
 req.include-header: 

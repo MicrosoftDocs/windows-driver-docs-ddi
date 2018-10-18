@@ -4,11 +4,8 @@ title: PFND3DKMT_TRIMPROCESSCOMMITMENT
 author: windows-driver-content
 description: Trim process commitment.
 ms.assetid: f80d916f-aec5-4074-b934-51ec5eced878
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

@@ -6,11 +6,8 @@ description: The KeFlushIoBuffers routine flushes the memory region described by
 old-location: kernel\keflushiobuffers.htm
 tech.root: kernel
 ms.assetid: 76954a20-7cd7-454b-a965-8c3f0cdb6e8f
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: KeFlushIoBuffers, KeFlushIoBuffers routine [Kernel-Mode Driver Architecture], k105_265e110c-5dad-444c-a97d-6693d7996c51.xml, kernel.keflushiobuffers, wdm/KeFlushIoBuffers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

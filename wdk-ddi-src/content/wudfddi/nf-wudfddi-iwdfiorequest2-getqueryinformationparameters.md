@@ -6,11 +6,8 @@ description: The GetQueryInformationParameters method retrieves parameters that 
 old-location: wdf\iwdfiorequest2_getqueryinformationparameters.htm
 tech.root: wdf
 ms.assetid: e189d2f6-ef1c-45ed-8b55-8aae0661a426
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: GetQueryInformationParameters, GetQueryInformationParameters method, GetQueryInformationParameters method,IWDFIoRequest2 interface, IWDFIoRequest2 interface,GetQueryInformationParameters method, IWDFIoRequest2.GetQueryInformationParameters, IWDFIoRequest2::GetQueryInformationParameters, UMDFRequestObjectRef_595d2b4c-1286-4243-b440-0efaae03980d.xml, umdf.iwdfiorequest2_getqueryinformationparameters, wdf.iwdfiorequest2_getqueryinformationparameters, wudfddi/IWDFIoRequest2::GetQueryInformationParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

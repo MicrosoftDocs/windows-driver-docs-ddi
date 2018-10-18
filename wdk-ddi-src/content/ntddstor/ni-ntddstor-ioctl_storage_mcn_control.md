@@ -6,11 +6,8 @@ description: Temporarily enables or disables delivery of the custom PnP events G
 old-location: storage\ioctl_storage_mcn_control.htm
 tech.root: storage
 ms.assetid: a2a4a5da-bc2d-4daf-a4ac-7f2a6c10cb70
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IOCTL_STORAGE_MCN_CONTROL, IOCTL_STORAGE_MCN_CONTROL control, IOCTL_STORAGE_MCN_CONTROL control code [Storage Devices], k307_7d39899d-e65a-4064-9566-684af82e29bb.xml, ntddstor/IOCTL_STORAGE_MCN_CONTROL, storage.ioctl_storage_mcn_control
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddstor.h
 req.include-header: Ntddstor.h

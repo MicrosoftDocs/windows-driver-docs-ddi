@@ -6,11 +6,8 @@ description: A bus driver's EvtDeviceDisableWakeAtBus event callback function pe
 old-location: wdf\evtdevicedisablewakeatbus.htm
 tech.root: wdf
 ms.assetid: 91ae9694-5020-42ee-b882-a753e9bbe919
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_3f6a4a69-a6aa-48a5-9a6a-fd64c569edca.xml, EVT_WDF_DEVICE_DISABLE_WAKE_AT_BUS, EVT_WDF_DEVICE_DISABLE_WAKE_AT_BUS callback, EvtDeviceDisableWakeAtBus, EvtDeviceDisableWakeAtBus callback function, kmdf.evtdevicedisablewakeatbus, wdf.evtdevicedisablewakeatbus, wdfpdo/EvtDeviceDisableWakeAtBus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfpdo.h
 req.include-header: Wdf.h

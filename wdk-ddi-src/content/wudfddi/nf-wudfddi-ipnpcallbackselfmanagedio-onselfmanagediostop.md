@@ -6,11 +6,8 @@ description: The OnSelfManagedIoStop method is not used in the current version o
 old-location: wdf\ipnpcallbackselfmanagedio_onselfmanagediostop.htm
 tech.root: wdf
 ms.assetid: 490c95f5-ea93-4521-8fa5-4ca1f83ff19d
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: IPnpCallbackSelfManagedIo interface,OnSelfManagedIoStop method, IPnpCallbackSelfManagedIo.OnSelfManagedIoStop, IPnpCallbackSelfManagedIo::OnSelfManagedIoStop, OnSelfManagedIoStop, OnSelfManagedIoStop method, OnSelfManagedIoStop method,IPnpCallbackSelfManagedIo interface, UMDFDeviceObjectRef_d9eba21f-f9a7-48d2-a8e7-f71a735246bc.xml, umdf.ipnpcallbackselfmanagedio_onselfmanagediostop, wdf.ipnpcallbackselfmanagedio_onselfmanagediostop, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoStop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

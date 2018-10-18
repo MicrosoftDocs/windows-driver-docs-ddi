@@ -6,11 +6,8 @@ description: The LBA_FILTER_TABLE structure contains the LBA ranges whose access
 old-location: storage\lba_filter_table.htm
 tech.root: storage
 ms.assetid: 656A413C-C0EF-4847-93F5-02DCCF40F348
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PLBA_FILTER_TABLE, LBA_FILTER_TABLE, LBA_FILTER_TABLE structure [Storage Devices], PLBA_FILTER_TABLE, PLBA_FILTER_TABLE structure pointer [Storage Devices], _LBA_FILTER_TABLE, ehstorioctl/LBA_FILTER_TABLE, ehstorioctl/PLBA_FILTER_TABLE, storage.lba_filter_table"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ehstorioctl.h
 req.include-header: EhStorIoctl.h

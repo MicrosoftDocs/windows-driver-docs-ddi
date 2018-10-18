@@ -6,11 +6,8 @@ description: Returns the SCSI inquiry data for all devices on a given SCSI host 
 old-location: storage\ioctl_scsi_get_inquiry_data.htm
 tech.root: storage
 ms.assetid: a429061b-ede6-48b1-9fc6-e85e4a7c0dfe
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IOCTL_SCSI_GET_INQUIRY_DATA, IOCTL_SCSI_GET_INQUIRY_DATA control, IOCTL_SCSI_GET_INQUIRY_DATA control code [Storage Devices], k307_7565e2a4-7599-4c7e-8da1-24349978627e.xml, ntddscsi/IOCTL_SCSI_GET_INQUIRY_DATA, storage.ioctl_scsi_get_inquiry_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h

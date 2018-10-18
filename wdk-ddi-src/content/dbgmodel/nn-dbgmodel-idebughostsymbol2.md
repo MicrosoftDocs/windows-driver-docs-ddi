@@ -4,11 +4,8 @@ title: IDebugHostSymbol2
 author: windows-driver-content
 description: An interface to a particular symbol.
 ms.assetid: 669f0a11-dfd4-4877-a054-bde97ead4387
-ms.author: windowsdriverdev
 ms.date: 07/13/2018
 ms.topic: interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

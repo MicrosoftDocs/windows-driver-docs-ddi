@@ -6,11 +6,8 @@ description: The DXVADDI_EXTENDEDFORMAT structure describes the extended format 
 old-location: display\dxvaddi_extendedformat.htm
 tech.root: display
 ms.assetid: e4f863bd-12ec-489d-a6e0-6b9242fbb0b0
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: DXVA2_Structs_31dd9223-b889-4db9-acc0-520c8f16410a.xml, DXVADDI_EXTENDEDFORMAT, DXVADDI_EXTENDEDFORMAT structure [Display Devices], _DXVADDI_EXTENDEDFORMAT, d3dumddi/DXVADDI_EXTENDEDFORMAT, display.dxvaddi_extendedformat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

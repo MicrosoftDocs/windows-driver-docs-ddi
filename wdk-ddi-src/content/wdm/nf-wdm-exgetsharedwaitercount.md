@@ -6,11 +6,8 @@ description: The ExGetSharedWaiterCount routine returns the number of waiters on
 old-location: kernel\exgetsharedwaitercount.htm
 tech.root: kernel
 ms.assetid: a9ca60a7-9bec-4c44-8803-85e183b48b01
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: ExGetSharedWaiterCount, ExGetSharedWaiterCount routine [Kernel-Mode Driver Architecture], k102_af7dac19-3c9f-43d9-bcd3-c4a5e05ca8e5.xml, kernel.exgetsharedwaitercount, wdm/ExGetSharedWaiterCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

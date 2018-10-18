@@ -4,11 +4,8 @@ title: PFND3DKMT_SETVIDPNSOURCEOWNER2
 author: windows-driver-content
 description: The PFND3DKMT_SETVIDPNSOURCEOWNER2 callback function sets and releases the video present source in the path of a video present network (VidPN) topology that owns the VidPN.
 ms.assetid: e9401358-5658-4145-b609-82743f3a5e2b
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

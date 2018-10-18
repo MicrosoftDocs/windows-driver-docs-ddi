@@ -4,11 +4,8 @@ title: PFND3DKMT_RELEASESWAPCHAIN
 author: windows-driver-content
 description: The PFND3DKMT_RELEASESWAPCHAIN callback function releases swap chain resources.
 ms.assetid: aa7a2119-8f7e-49fa-ad19-efce8c928d03
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

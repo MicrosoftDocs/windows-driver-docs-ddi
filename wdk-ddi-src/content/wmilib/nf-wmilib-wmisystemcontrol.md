@@ -6,11 +6,8 @@ description: The WmiSystemControl routine is a dispatch routine for drivers that
 old-location: kernel\wmisystemcontrol.htm
 tech.root: kernel
 ms.assetid: 6226e75e-b744-46cd-b14b-e93ece1c2f61
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: WmiSystemControl, WmiSystemControl routine [Kernel-Mode Driver Architecture], k902_7bd87d12-7e45-4dd1-a78b-6389c6894ea4.xml, kernel.wmisystemcontrol, wmilib/WmiSystemControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wmilib.h
 req.include-header: Wmilib.h

@@ -6,11 +6,8 @@ description: The ColorFill function fills a rectangle on the surface with a part
 old-location: display\colorfill.htm
 tech.root: display
 ms.assetid: c120421d-6a10-4d37-b936-98dac75e236b
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: ColorFill, ColorFill callback function [Display Devices], PFND3DDDI_COLORFILL, PFND3DDDI_COLORFILL callback, UserModeDisplayDriver_Functions_ce1cba12-de0d-426d-981f-b95d58caa33d.xml, d3dumddi/ColorFill, display.colorfill
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

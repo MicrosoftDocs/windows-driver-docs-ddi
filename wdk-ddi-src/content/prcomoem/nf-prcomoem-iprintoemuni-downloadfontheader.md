@@ -6,11 +6,8 @@ description: The IPrintOemUni::DownloadFontHeader method allows a rendering plug
 old-location: print\iprintoemuni_downloadfontheader.htm
 tech.root: print
 ms.assetid: 3d660d04-2872-44e6-ab76-719f5262bdd8
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: DownloadFontHeader, DownloadFontHeader method [Print Devices], DownloadFontHeader method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],DownloadFontHeader method, IPrintOemUni.DownloadFontHeader, IPrintOemUni::DownloadFontHeader, prcomoem/IPrintOemUni::DownloadFontHeader, print.iprintoemuni_downloadfontheader, print_unidrv-pscript_rendering_7ed24461-70a3-4446-9b3e-1fda13b0a29a.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

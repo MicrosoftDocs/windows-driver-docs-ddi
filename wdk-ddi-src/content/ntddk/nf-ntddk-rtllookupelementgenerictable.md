@@ -6,11 +6,8 @@ description: The RtlLookupElementGenericTable routine searches a generic table f
 old-location: ifsk\rtllookupelementgenerictable.htm
 tech.root: ifsk
 ms.assetid: 9182084b-ea11-48e4-acb5-06a8375d05bf
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RtlLookupElementGenericTable, RtlLookupElementGenericTable routine [Installable File System Drivers], ifsk.rtllookupelementgenerictable, ntddk/RtlLookupElementGenericTable, rtlref_609e7ba3-35a1-40e8-9e94-f16605e52155.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h

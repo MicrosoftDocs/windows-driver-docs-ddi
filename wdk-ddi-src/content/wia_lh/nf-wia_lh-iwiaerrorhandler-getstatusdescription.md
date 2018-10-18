@@ -6,11 +6,8 @@ description: The system UI calls the GetStatusDescription method to provide the 
 old-location: image\iwiaerrorhandler_getstatusdescription.htm
 tech.root: image
 ms.assetid: c3b5622d-9d51-4008-abb0-c8a60c4a6b16
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetStatusDescription, GetStatusDescription method [Imaging Devices], GetStatusDescription method [Imaging Devices],IWiaErrorHandler interface, IWiaErrorHandler interface [Imaging Devices],GetStatusDescription method, IWiaErrorHandler.GetStatusDescription, IWiaErrorHandler::GetStatusDescription, IWiaErrorHandler_4bd0cba6-d729-4942-b56a-588af88ef913.xml, image.iwiaerrorhandler_getstatusdescription, wia_lh/IWiaErrorHandler::GetStatusDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_lh.h
 req.include-header: Wia.h

@@ -6,11 +6,8 @@ description: The EXTCHKBOX structure is used by CPSUI applications (including pr
 old-location: print\extchkbox.htm
 tech.root: print
 ms.assetid: b3b82474-d4e5-467c-93dc-30edac189c66
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: "*PEXTCHKBOX, EXTCHKBOX, EXTCHKBOX structure [Print Devices], PEXTCHKBOX, PEXTCHKBOX structure pointer [Print Devices], _EXTCHKBOX, compstui/EXTCHKBOX, compstui/PEXTCHKBOX, cpsuifnc_3d620423-7173-4a78-b087-f8f269c5715d.xml, print.extchkbox"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: compstui.h
 req.include-header: Compstui.h

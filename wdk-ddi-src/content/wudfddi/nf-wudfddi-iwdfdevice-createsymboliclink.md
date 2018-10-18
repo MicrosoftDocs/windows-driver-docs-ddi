@@ -6,11 +6,8 @@ description: The CreateSymbolicLink method creates a symbolic link for the devic
 old-location: wdf\iwdfdevice_createsymboliclink.htm
 tech.root: wdf
 ms.assetid: 15984217-e789-457c-b20f-c3d51741f5d3
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: CreateSymbolicLink, CreateSymbolicLink method, CreateSymbolicLink method,IWDFDevice interface, IWDFDevice interface,CreateSymbolicLink method, IWDFDevice.CreateSymbolicLink, IWDFDevice::CreateSymbolicLink, UMDFDeviceObjectRef_20b93e0a-a676-44f7-bbd0-d2749dd7a0b8.xml, umdf.iwdfdevice_createsymboliclink, wdf.iwdfdevice_createsymboliclink, wudfddi/IWDFDevice::CreateSymbolicLink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

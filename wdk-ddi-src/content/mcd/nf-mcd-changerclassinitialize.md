@@ -6,11 +6,8 @@ description: The ChangerClassInitialize routine initializes the driver.
 old-location: storage\changerclassinitialize.htm
 tech.root: storage
 ms.assetid: b19f85f7-fe51-4539-8c36-e3c6a299faad
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: ChangerClassInitialize, ChangerClassInitialize routine [Storage Devices], chgrclas_f0aa8547-be16-44aa-bd15-a4828d7f57f5.xml, mcd/ChangerClassInitialize, storage.changerclassinitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h

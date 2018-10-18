@@ -6,11 +6,8 @@ description: Provides the primary method to access PrintCapabilities.
 old-location: print\iprintschemacapabilities_interface.htm
 tech.root: print
 ms.assetid: A148C1B4-99A3-4AF3-B2D6-73684978425F
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices], IPrintSchemaCapabilities interface [Print Devices],described, print.iprintschemacapabilities_interface, printerextension/IPrintSchemaCapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: printerextension.h
 req.include-header: 

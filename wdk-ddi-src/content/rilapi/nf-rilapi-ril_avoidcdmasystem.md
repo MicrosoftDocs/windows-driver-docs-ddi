@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_avoidcdmasystem.htm
 tech.root: netvista
 ms.assetid: 03b445ca-a2af-4d84-bb2e-fea9f5800e20
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: RIL_AvoidCDMASystem, RIL_AvoidCDMASystem method [Network Drivers Starting with Windows Vista], netvista.ril_avoidcdmasystem, rilapi/RIL_AvoidCDMASystem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rilapi.h
 req.include-header: 

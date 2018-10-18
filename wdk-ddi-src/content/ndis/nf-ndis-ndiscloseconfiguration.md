@@ -6,11 +6,8 @@ description: The NdisCloseConfiguration function releases the handle to the regi
 old-location: netvista\ndiscloseconfiguration.htm
 tech.root: netvista
 ms.assetid: 2d68f7dd-3954-4b3b-8673-1da63e1a1edc
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: NdisCloseConfiguration, NdisCloseConfiguration function [Network Drivers Starting with Windows Vista], ndis/NdisCloseConfiguration, ndis_configuration_ref_eb02fa4e-fff9-41e5-81f6-9580af7480a7.xml, netvista.ndiscloseconfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

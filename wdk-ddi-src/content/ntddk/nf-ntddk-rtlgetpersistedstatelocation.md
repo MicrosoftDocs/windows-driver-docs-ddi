@@ -4,7 +4,6 @@ title: RtlGetPersistedStateLocation function
 author: windows-driver-content
 description: Retrieves the redirected location for the specified SourceID from the redirection map.
 ms.assetid: 028aab59-4047-484e-a06b-5ef03b5d0cdb
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
 ms.keywords: RtlGetPersistedStateLocation

@@ -6,11 +6,8 @@ description: The RtlSubtreeSuccessor routine returns a pointer to the successor 
 old-location: ifsk\rtlsubtreesuccessor.htm
 tech.root: ifsk
 ms.assetid: de592c2a-6f52-48ef-b2ee-253d83cafa80
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RtlSubtreeSuccessor, RtlSubtreeSuccessor routine [Installable File System Drivers], ifsk.rtlsubtreesuccessor, ntddk/RtlSubtreeSuccessor, rtlref_65e50284-427f-47d9-92c7-719b8bc1bab5.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h

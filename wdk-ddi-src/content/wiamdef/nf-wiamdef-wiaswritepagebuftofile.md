@@ -6,11 +6,8 @@ description: The wiasWritePageBufToFile function writes the contents of a tempor
 old-location: image\wiaswritepagebuftofile.htm
 tech.root: image
 ms.assetid: aa04ef8c-5b69-4d7e-8af4-8cbdb680a23a
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: image.wiaswritepagebuftofile, wiamdef/wiasWritePageBufToFile, wiasFncs_1d5b96b4-4737-481a-ae6a-e1ec4e8affef.xml, wiasWritePageBufToFile, wiasWritePageBufToFile function [Imaging Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiamdef.h
 req.include-header: Wiamdef.h

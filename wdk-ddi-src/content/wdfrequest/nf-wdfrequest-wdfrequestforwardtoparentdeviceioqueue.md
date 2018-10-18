@@ -6,11 +6,8 @@ description: The WdfRequestForwardToParentDeviceIoQueue method requeues an I/O r
 old-location: wdf\wdfrequestforwardtoparentdeviceioqueue.htm
 tech.root: wdf
 ms.assetid: 81511d81-206c-420b-a956-42cf68b57fc4
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFRequestObjectRef_0bfa4a8a-7b79-4256-84df-5bdabfff234b.xml, WdfRequestForwardToParentDeviceIoQueue, WdfRequestForwardToParentDeviceIoQueue method, kmdf.wdfrequestforwardtoparentdeviceioqueue, wdf.wdfrequestforwardtoparentdeviceioqueue, wdfrequest/WdfRequestForwardToParentDeviceIoQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfrequest.h
 req.include-header: Wdf.h

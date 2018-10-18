@@ -6,11 +6,8 @@ description: The KEY_NODE_INFORMATION structure defines the basic information av
 old-location: kernel\key_node_information.htm
 tech.root: kernel
 ms.assetid: 2eed1a3d-fc40-4416-ad61-d82bf4fb69a1
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: "*PKEY_NODE_INFORMATION, KEY_NODE_INFORMATION, KEY_NODE_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_NODE_INFORMATION, PKEY_NODE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_NODE_INFORMATION, kernel.key_node_information, kstruct_c_a41bb6c8-4e12-4aac-94cf-a24d32727c5e.xml, wdm/KEY_NODE_INFORMATION, wdm/PKEY_NODE_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

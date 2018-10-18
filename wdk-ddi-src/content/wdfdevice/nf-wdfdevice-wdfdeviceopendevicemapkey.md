@@ -6,11 +6,8 @@ description: The WdfDeviceOpenDevicemapKey method opens the DEVICEMAP key and cr
 old-location: wdf\wdfdeviceopendevicemapkey.htm
 tech.root: wdf
 ms.assetid: EAFC6B53-98E9-46A4-9D45-56B0A32993B1
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WdfDeviceOpenDevicemapKey, WdfDeviceOpenDevicemapKey method, wdf.wdfdeviceopendevicemapkey, wdfdevice/WdfDeviceOpenDevicemapKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h

@@ -4,11 +4,8 @@ title: PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB
 author: windows-driver-content
 description: pfnSubmitPresentToHwQueueCb submits a Present operation to a hardware queue.
 ms.assetid: 8201a3f6-ea2f-4dd3-ba74-9f45bbe5bbad
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dxgiddi.h
 req.include-header:
 req.target-type:

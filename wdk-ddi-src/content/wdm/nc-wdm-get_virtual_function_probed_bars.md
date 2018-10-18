@@ -6,11 +6,8 @@ description: The GetVirtualFunctionProbedBars routine returns the values of the 
 old-location: pci\getvirtualfunctionprobedbars.htm
 tech.root: PCI
 ms.assetid: 02A86A3E-D543-4F0F-9985-7D42F381F8F1
-ms.author: windowsdriverdev
 ms.date: 2/24/2018
 ms.keywords: GET_VIRTUAL_FUNCTION_PROBED_BARS, GetVirtualFunctionProbedBars, GetVirtualFunctionProbedBars routine, PCI.getvirtualfunctionprobedbars, wdm/GetVirtualFunctionProbedBars
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
 req.include-header: Wdm.h

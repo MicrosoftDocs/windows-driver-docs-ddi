@@ -6,11 +6,8 @@ description: The RtlUnicodeStringCbCopyStringNEx function copies a string into a
 old-location: kernel\rtlunicodestringcbcopystringnex.htm
 tech.root: kernel
 ms.assetid: 67c364a7-5cf7-424a-8ba3-ba9a11276f5d
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: RtlUnicodeStringCbCopyStringNEx, RtlUnicodeStringCbCopyStringNEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcopystringnex, ntstrsafe/RtlUnicodeStringCbCopyStringNEx, safestrings_3b90a87b-c560-40e4-809a-c3d1dd1671e8.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h

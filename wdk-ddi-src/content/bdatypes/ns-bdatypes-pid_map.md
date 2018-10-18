@@ -6,11 +6,8 @@ description: The PID_MAP structure describes a group of packets in the output st
 old-location: stream\pid_map.htm
 tech.root: stream
 ms.assetid: f71045e8-2928-40b8-b8f7-bc954a753aff
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: PID_MAP, PID_MAP structure [Streaming Media Devices], bdaref_54fdf358-1957-4e84-a5a4-9929395f105b.xml, bdatypes/PID_MAP, stream.pid_map
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bdatypes.h
 req.include-header: Bdatypes.h

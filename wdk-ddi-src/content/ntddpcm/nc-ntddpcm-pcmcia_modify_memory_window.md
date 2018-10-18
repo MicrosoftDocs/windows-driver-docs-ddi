@@ -6,11 +6,8 @@ description: The PCMCIA_MODIFY_MEMORY_WINDOW interface routine sets the attribut
 old-location: pcmcia\pcmcia_modify_memory_window.htm
 tech.root: PCMCIA
 ms.assetid: 01469cd7-a023-42b0-9306-fc390bf990e6
-ms.author: windowsdriverdev
 ms.date: 2/15/2018
 ms.keywords: ModifyMemoryWindow, ModifyMemoryWindow callback function [Buses], PCMCIA.pcmcia_modify_memory_window, PCMCIA_MODIFY_MEMORY_WINDOW, PCMCIA_MODIFY_MEMORY_WINDOW callback, memcdref_fdb376f2-4f80-4a35-ab23-f007bdc05cad.xml, ntddpcm/ModifyMemoryWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ntddpcm.h
 req.include-header: Ntddpcm.h

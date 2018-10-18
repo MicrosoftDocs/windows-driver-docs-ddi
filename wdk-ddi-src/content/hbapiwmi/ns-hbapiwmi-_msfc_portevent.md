@@ -6,11 +6,8 @@ description: A WMI provider uses the MSFC_PortEvent structure to report port eve
 old-location: storage\msfc_portevent.htm
 tech.root: storage
 ms.assetid: bf9e2d58-9379-4b88-9043-580a97ec7cd9
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: "*PMSFC_PortEvent, MSFC_PortEvent, MSFC_PortEvent structure [Storage Devices], PMSFC_PortEvent, PMSFC_PortEvent structure pointer [Storage Devices], _MSFC_PortEvent, hbapiwmi/MSFC_PortEvent, hbapiwmi/PMSFC_PortEvent, storage.msfc_portevent, structs-Fibre_21739c44-07d2-412e-bc03-3cc25b14bb9d.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h

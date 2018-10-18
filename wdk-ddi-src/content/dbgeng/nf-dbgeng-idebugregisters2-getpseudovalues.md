@@ -6,11 +6,8 @@ description: The GetPseudoValues method returns the values of a number of pseudo
 old-location: debugger\getpseudovalues.htm
 tech.root: debugger
 ms.assetid: a1ad3b45-c89c-4990-a47b-20e47c05892a
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetPseudoValues, GetPseudoValues method [Windows Debugging], GetPseudoValues method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetPseudoValues method, IDebugRegisters2.GetPseudoValues, IDebugRegisters2::GetPseudoValues, IDebugRegisters_56a9ae8d-1ef7-4b28-bcad-e9f7025aba4f.xml, dbgeng/IDebugRegisters2::GetPseudoValues, debugger.getpseudovalues
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: DbgEng.h

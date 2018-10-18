@@ -6,11 +6,8 @@ description: The KsAllocateExtraData function is used with streaming IRPs to all
 old-location: stream\ksallocateextradata.htm
 tech.root: stream
 ms.assetid: dfeaca74-d34d-4128-bd76-3a1bf1b3f5d6
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KsAllocateExtraData, KsAllocateExtraData function [Streaming Media Devices], ks/KsAllocateExtraData, ksfunc_a6f4b047-cec7-4c0d-850f-c3d3b1d1e33e.xml, stream.ksallocateextradata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

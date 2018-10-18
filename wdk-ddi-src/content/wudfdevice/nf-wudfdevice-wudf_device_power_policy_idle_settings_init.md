@@ -6,11 +6,8 @@ description: The WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function initialize
 old-location: wdf\wudf_device_power_policy_idle_settings_init.htm
 tech.root: wdf
 ms.assetid: 893F249B-ACD9-4262-93B6-890987A9F591
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT, WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function, umdf.wudf_device_power_policy_idle_settings_init, wdf.wudf_device_power_policy_idle_settings_init, wudfdevice/WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wudfdevice.h
 req.include-header: 

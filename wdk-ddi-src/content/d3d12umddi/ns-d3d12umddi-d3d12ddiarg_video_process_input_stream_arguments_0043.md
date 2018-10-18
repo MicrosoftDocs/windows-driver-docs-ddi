@@ -4,11 +4,8 @@ title: D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043
 author: windows-driver-content
 description: Specifies input stream parameters for an input stream passed to PFND3D12DDI_VIDEO_PROCESS_FRAME.
 ms.assetid: 816940cd-6653-44fb-b529-e75e4de72356
-ms.author: windowsdriverdev
 ms.date:
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043, D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043,
 req.header: d3d12umddi.h
 req.include-header:

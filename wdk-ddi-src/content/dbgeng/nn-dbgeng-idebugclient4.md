@@ -6,11 +6,8 @@ description: IDebugClient4 interface
 old-location: debugger\idebugclient4.htm
 tech.root: debugger
 ms.assetid: fcfa64f3-6cdf-4e5a-bb02-13a748fd6dda
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IDebugClient4, IDebugClient4 interface [Windows Debugging], IDebugClient4 interface [Windows Debugging],described, dbgeng/IDebugClient4, debugger.idebugclient4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

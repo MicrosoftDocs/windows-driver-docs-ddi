@@ -6,11 +6,8 @@ description: A driver's EvtDeviceProcessQueryInterfaceRequest event callback fun
 old-location: wdf\evtdeviceprocessqueryinterfacerequest.htm
 tech.root: wdf
 ms.assetid: b56fef85-4058-4942-90c0-36646164cd3e
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectDriverDefIntRef_e38de652-334f-4b7a-b455-22c0eea8d8fd.xml, EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST, EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST callback, EvtDeviceProcessQueryInterfaceRequest, EvtDeviceProcessQueryInterfaceRequest callback function, kmdf.evtdeviceprocessqueryinterfacerequest, wdf.evtdeviceprocessqueryinterfacerequest, wdfqueryinterface/EvtDeviceProcessQueryInterfaceRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfqueryinterface.h
 req.include-header: Wdf.h

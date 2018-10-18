@@ -4,7 +4,6 @@ title: IDebugHostModule2::FindTypeByName
 author: windows-driver-content
 description: The FindTypeByName method finds a type defined within the module by the type name and returns a type symbol for it.
 ms.assetid: 4916e8cc-aeb9-4bb0-a849-a099004bfe5d
-ms.author: windowsdriverdev
 ms.date: 09/18/2018 
 ms.topic: method
 ms.keywords: IDebugHostModule2::FindTypeByName, FindTypeByName, IDebugHostModule2.FindTypeByName, IDebugHostModule2::FindTypeByName, IDebugHostModule2.FindTypeByName

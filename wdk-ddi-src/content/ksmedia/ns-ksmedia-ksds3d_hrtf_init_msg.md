@@ -6,11 +6,8 @@ description: The KSDS3D_HRTF_INIT_MSG structure specifies the parameter settings
 old-location: audio\ksds3d_hrtf_init_msg.htm
 tech.root: audio
 ms.assetid: 8e25a1e2-24b1-418c-b1eb-884bdbad63b3
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: "*PKSDS3D_HRTF_INIT_MSG, KSDS3D_HRTF_INIT_MSG, KSDS3D_HRTF_INIT_MSG structure [Audio Devices], PKSDS3D_HRTF_INIT_MSG, PKSDS3D_HRTF_INIT_MSG structure pointer [Audio Devices], aud-prop_f9994a16-7d3c-43af-b423-c6afc64c05b9.xml, audio.ksds3d_hrtf_init_msg, ksmedia/KSDS3D_HRTF_INIT_MSG, ksmedia/PKSDS3D_HRTF_INIT_MSG"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksmedia.h
 req.include-header: Ksmedia.h

@@ -6,11 +6,8 @@ description: The VideoPortGetAssociatedDeviceID function obtains the child ID fo
 old-location: display\videoportgetassociateddeviceid.htm
 tech.root: display
 ms.assetid: 6c40f98b-4d93-4ee8-8217-51e6f1170cf8
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: VideoPortGetAssociatedDeviceID, VideoPortGetAssociatedDeviceID function [Display Devices], VideoPort_Functions_56a3fa57-fd1a-4b45-8de7-ee9450a525f4.xml, display.videoportgetassociateddeviceid, video/VideoPortGetAssociatedDeviceID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: video.h
 req.include-header: Video.h

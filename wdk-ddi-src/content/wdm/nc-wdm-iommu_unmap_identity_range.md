@@ -4,11 +4,8 @@ title: IOMMU_UNMAP_IDENTITY_RANGE
 author: windows-driver-content
 description: Deletes an identity mapping for the specified MDL.
 ms.assetid: 9a59ab97-1b72-4fd2-920d-c0a0c242b184
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:

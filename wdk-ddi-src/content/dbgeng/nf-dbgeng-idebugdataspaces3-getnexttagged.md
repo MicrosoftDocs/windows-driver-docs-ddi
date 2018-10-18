@@ -6,11 +6,8 @@ description: The GetNextTagged method returns the GUID for the next block of tag
 old-location: debugger\getnexttagged.htm
 tech.root: debugger
 ms.assetid: 529ef33a-adad-4242-96a8-01cdd273cc35
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: GetNextTagged, GetNextTagged method [Windows Debugging], GetNextTagged method [Windows Debugging],IDebugDataSpaces3 interface, GetNextTagged method [Windows Debugging],IDebugDataSpaces4 interface, IDebugDataSpaces3 interface [Windows Debugging],GetNextTagged method, IDebugDataSpaces3.GetNextTagged, IDebugDataSpaces3::GetNextTagged, IDebugDataSpaces4 interface [Windows Debugging],GetNextTagged method, IDebugDataSpaces4::GetNextTagged, IDebugDataSpaces_24254a63-1fcd-4ad9-a370-6b0760ed37cd.xml, dbgeng/IDebugDataSpaces3::GetNextTagged, dbgeng/IDebugDataSpaces4::GetNextTagged, debugger.getnexttagged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

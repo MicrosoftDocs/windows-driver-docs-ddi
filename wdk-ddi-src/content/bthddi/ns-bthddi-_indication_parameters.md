@@ -6,11 +6,8 @@ description: The INDICATION_PARAMETERS structure is passed as the Parameters par
 old-location: bltooth\indication_parameters.htm
 tech.root: bltooth
 ms.assetid: fc93ab8a-01d2-4827-8d89-06f09bf10456
-ms.author: windowsdriverdev
 ms.date: 4/27/2018
 ms.keywords: "*PINDICATION_PARAMETERS, INDICATION_PARAMETERS, INDICATION_PARAMETERS structure [Bluetooth Devices], PINDICATION_PARAMETERS, PINDICATION_PARAMETERS structure pointer [Bluetooth Devices], _INDICATION_PARAMETERS, bltooth.indication_parameters, bth_structs_8cf076cf-a280-49ee-bbe6-cc54e854905e.xml, bthddi/INDICATION_PARAMETERS, bthddi/PINDICATION_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h

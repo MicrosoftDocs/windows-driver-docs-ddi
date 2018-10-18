@@ -6,11 +6,8 @@ description: The WskDisconnect function disconnects a connection-oriented or str
 old-location: netvista\wskdisconnect.htm
 tech.root: netvista
 ms.assetid: 499ff5d0-2030-472c-8de2-44dcd253d7b9
-ms.author: windowsdriverdev
 ms.date: 5/2/2018
 ms.keywords: PFN_WSK_DISCONNECT, PFN_WSK_DISCONNECT callback, WskDisconnect, WskDisconnect callback function [Network Drivers Starting with Windows Vista], netvista.wskdisconnect, wsk/WskDisconnect, wskref_0c0dd54e-03d9-4bb6-9040-68f352cfb6ae.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wsk.h
 req.include-header: Wsk.h

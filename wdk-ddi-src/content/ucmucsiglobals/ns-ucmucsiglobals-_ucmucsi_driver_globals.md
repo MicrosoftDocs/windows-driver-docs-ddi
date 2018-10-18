@@ -5,11 +5,8 @@ author: windows-driver-content
 tech.root: usbref
 description: Reserved.
 ms.assetid: 648e8856-ea6e-473c-9e1b-8c055b5b1ef9
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _UCMUCSI_DRIVER_GLOBALS, UCMUCSI_DRIVER_GLOBALS, *PUCMUCSI_DRIVER_GLOBALS, 
 req.header: ucmucsiglobals.h
 req.include-header:

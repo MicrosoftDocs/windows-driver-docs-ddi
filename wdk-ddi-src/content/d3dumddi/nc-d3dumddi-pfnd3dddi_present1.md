@@ -6,11 +6,8 @@ description: Notifies the user-mode display driver that an application finished 
 old-location: display\pfnpresent1_d3d_.htm
 tech.root: display
 ms.assetid: 8BB8E85F-B081-422E-ACE1-C2312BA28B9F
-ms.author: windowsdriverdev
 ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_PRESENT1, PFND3DDDI_PRESENT1 callback, d3dumddi/pfnPresent1, display.pfnpresent1_d3d_, pfnPresent1, pfnPresent1 callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h

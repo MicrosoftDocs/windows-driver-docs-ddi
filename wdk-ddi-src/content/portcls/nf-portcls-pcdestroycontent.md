@@ -6,11 +6,8 @@ description: The PcDestroyContent function deletes a DRM content ID that was cre
 old-location: audio\pcdestroycontent.htm
 tech.root: audio
 ms.assetid: 742ee83c-3db4-4d77-a79d-28bcc405746d
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: PcDestroyContent, PcDestroyContent function [Audio Devices], audio.pcdestroycontent, audpc-routines_8f5adcf6-89a7-4918-ac2e-78afa45c38c5.xml, portcls/PcDestroyContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: portcls.h
 req.include-header: Portcls.h

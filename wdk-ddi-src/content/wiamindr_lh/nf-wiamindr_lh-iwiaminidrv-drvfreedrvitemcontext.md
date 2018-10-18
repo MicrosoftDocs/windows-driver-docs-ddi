@@ -6,11 +6,8 @@ description: The IWiaMiniDrv::drvFreeDrvItemContext method frees a device-specif
 old-location: image\iwiaminidrv_drvfreedrvitemcontext.htm
 tech.root: image
 ms.assetid: bc4f751f-d92a-47e6-8cbe-0a587292b160
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvFreeDrvItemContext method, IWiaMiniDrv.drvFreeDrvItemContext, IWiaMiniDrv::drvFreeDrvItemContext, MiniDrv_59a7d220-cd1d-4cc2-870a-3260feaba7e9.xml, drvFreeDrvItemContext, drvFreeDrvItemContext method [Imaging Devices], drvFreeDrvItemContext method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvfreedrvitemcontext, wiamindr_lh/IWiaMiniDrv::drvFreeDrvItemContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h

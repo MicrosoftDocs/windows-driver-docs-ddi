@@ -6,11 +6,8 @@ description: The StorPortGetMSIInfo routine retrieves the message signaled inter
 old-location: storage\storportgetmsiinfo.htm
 tech.root: storage
 ms.assetid: 3c98c04c-246a-42a0-bb40-f7771f7ae968
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: StorPortGetMSIInfo, StorPortGetMSIInfo routine [Storage Devices], storage.storportgetmsiinfo, storport/StorPortGetMSIInfo, storprt_32654460-fd47-4dc9-bd33-2080b881502f.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

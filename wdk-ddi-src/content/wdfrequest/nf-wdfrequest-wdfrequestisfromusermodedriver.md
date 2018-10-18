@@ -6,11 +6,8 @@ description: The WdfRequestIsFromUserModeDriver method indicates whether an I/O 
 old-location: wdf\wdfrequestisfromusermodedriver.htm
 tech.root: wdf
 ms.assetid: 2D2980D7-6675-4414-AA32-D8782526E039
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WdfRequestIsFromUserModeDriver, WdfRequestIsFromUserModeDriver method, wdf.wdfrequestisfromusermodedriver, wdfrequest/WdfRequestIsFromUserModeDriver
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfrequest.h
 req.include-header: Wdf.h

@@ -6,11 +6,8 @@ description: The WdfIoQueueStopAndPurgeSynchronously method prevents an I/O queu
 old-location: wdf\wdfioqueuestopandpurgesynchronously.htm
 tech.root: wdf
 ms.assetid: 406044A5-D1C0-4771-8CDB-CCBC0B801281
-ms.author: windowsdriverdev
 ms.date: 2/26/2018
 ms.keywords: WdfIoQueueStopAndPurgeSynchronously, WdfIoQueueStopAndPurgeSynchronously method, kmdf.wdfioqueuestopandpurgesynchronously, wdf.wdfioqueuestopandpurgesynchronously, wdfio/WdfIoQueueStopAndPurgeSynchronously
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfio.h
 req.include-header: Wdf.h

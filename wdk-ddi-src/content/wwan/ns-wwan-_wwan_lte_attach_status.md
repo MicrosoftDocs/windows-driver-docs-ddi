@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The WWAN_LTE_ATTACH_STATUS structure describes the last used default LTE attach context for a mobile broadband (MBB) modem.
 tech.root: netvista
 ms.assetid: f8e43c3a-d22c-4bb6-bf50-bb98a776deae
-ms.author: windowsdriverdev
 ms.date: 08/23/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _WWAN_LTE_ATTACH_STATUS, WWAN_LTE_ATTACH_STATUS, *PWWAN_LTE_ATTACH_STATUS, 
 req.header: wwan.h
 req.include-header:

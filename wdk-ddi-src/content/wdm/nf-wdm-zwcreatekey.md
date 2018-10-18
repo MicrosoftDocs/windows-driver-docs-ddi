@@ -6,11 +6,8 @@ description: The ZwCreateKey routine creates a new registry key or opens an exis
 old-location: kernel\zwcreatekey.htm
 tech.root: kernel
 ms.assetid: 333f54e8-738e-4d1f-8fd7-93f282d9b9d8
-ms.author: windowsdriverdev
 ms.date: 4/30/2018
 ms.keywords: NtCreateKey, ZwCreateKey, ZwCreateKey routine [Kernel-Mode Driver Architecture], k111_1ab9fba3-0c39-45b8-9a79-d33ad73c0642.xml, kernel.zwcreatekey, wdm/NtCreateKey, wdm/ZwCreateKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

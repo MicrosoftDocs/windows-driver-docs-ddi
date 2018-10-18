@@ -6,11 +6,8 @@ description: The RtlLookupElementGenericTableFullAvl routine searches a generic 
 old-location: ifsk\rtllookupelementgenerictablefullavl.htm
 tech.root: ifsk
 ms.assetid: fddb2e23-ddb3-48bc-a94e-0ca9a8580b78
-ms.author: windowsdriverdev
 ms.date: 4/16/2018
 ms.keywords: RtlLookupElementGenericTableFullAvl, RtlLookupElementGenericTableFullAvl routine [Installable File System Drivers], ifsk.rtllookupelementgenerictablefullavl, ntddk/RtlLookupElementGenericTableFullAvl, rtlref_12eb0cb8-ea58-45a8-a88b-ceddc5af12c6.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h

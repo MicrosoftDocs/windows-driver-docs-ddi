@@ -4,11 +4,8 @@ title: PFND3DDDI_SYNCTOKENCB
 author: windows-driver-content
 description: The PFND3DDDI_SYNCTOKENCB callback creates a sync token.
 ms.assetid: 17b9c997-6db5-40a3-9b08-8a689e276f45
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dumddi.h
 req.include-header:
 req.target-type:

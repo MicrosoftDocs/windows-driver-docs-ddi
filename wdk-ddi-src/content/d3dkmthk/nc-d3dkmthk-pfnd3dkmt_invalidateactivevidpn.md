@@ -4,11 +4,8 @@ title: PFND3DKMT_INVALIDATEACTIVEVIDPN
 author: windows-driver-content
 description: Pfnd3dkmtInvalidateactivevidpn invalidates the active video present network (VidPN) currently in use.
 ms.assetid: 9f286769-6655-46ef-93bc-5b9e0337c724
-ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

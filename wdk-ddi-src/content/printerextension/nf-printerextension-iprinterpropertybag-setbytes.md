@@ -6,11 +6,8 @@ description: Writes a byte array property.
 old-location: print\iprinterpropertybag_setbytes.htm
 tech.root: print
 ms.assetid: 0138F4F4-658F-4465-8647-17BE488E2FED
-ms.author: windowsdriverdev
 ms.date: 4/20/2018
 ms.keywords: IPrinterPropertyBag interface [Print Devices],SetBytes method, IPrinterPropertyBag.SetBytes, IPrinterPropertyBag::SetBytes, SetBytes, SetBytes method [Print Devices], SetBytes method [Print Devices],IPrinterPropertyBag interface, print.iprinterpropertybag_setbytes, printerextension/IPrinterPropertyBag::SetBytes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header: Printerextension.h

@@ -4,12 +4,9 @@ title: _USBPM_EVENT_TYPE
 author: windows-driver-content
 description: Defines values for types of events.
 ms.assetid: 71d061e8-92bb-4b83-9e77-c576163bb5a1
-ms.author: windowsdriverdev
 ms.date: 9/30/2018 
 ms.topic: enum
 ms.keywords: _USBPM_EVENT_TYPE, USBPM_EVENT_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 tech.root: usbref
 req.header: usbpmapi.h
 req.include-header:

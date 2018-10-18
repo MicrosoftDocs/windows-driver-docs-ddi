@@ -6,11 +6,8 @@ description: The USB dual-role class extension invokes this callback to allow th
 old-location: buses\evt_urs_device_filter_resource_requirements.htm
 tech.root: usbref
 ms.assetid: E5CFA6CF-1EB3-41FA-BAE4-A030737F220D
-ms.author: windowsdriverdev
 ms.date: 5/7/2018
 ms.keywords: EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS, EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback, EvtUrsDeviceFilterResourceRequirements, EvtUrsDeviceFilterResourceRequirements callback function [Buses], PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS, PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback function pointer [Buses], buses.evt_urs_device_filter_resource_requirements, ursdevice/EvtUrsDeviceFilterResourceRequirements
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ursdevice.h
 req.include-header: Urscx.h

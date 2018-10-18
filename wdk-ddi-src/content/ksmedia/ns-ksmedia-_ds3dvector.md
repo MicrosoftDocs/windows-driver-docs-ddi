@@ -6,11 +6,8 @@ description: The DS3DVECTOR structure contains three-dimensional position coordi
 old-location: audio\ds3dvector.htm
 tech.root: audio
 ms.assetid: 828bb255-4640-4508-866e-e3641ca05773
-ms.author: windowsdriverdev
 ms.date: 5/8/2018
 ms.keywords: "*PDS3DVECTOR, DS3DVECTOR, DS3DVECTOR structure [Audio Devices], PDS3DVECTOR, PDS3DVECTOR structure pointer [Audio Devices], _DS3DVECTOR, aud-prop_3e17b5ec-c2fc-4e6c-bff1-27be36e376c9.xml, audio.ds3dvector, ksmedia/DS3DVECTOR, ksmedia/PDS3DVECTOR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksmedia.h
 req.include-header: Ksmedia.h

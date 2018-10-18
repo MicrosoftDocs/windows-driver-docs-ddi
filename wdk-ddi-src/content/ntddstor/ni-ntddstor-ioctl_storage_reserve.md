@@ -6,11 +6,8 @@ description: Claims a device for the exclusive use of the caller on a bus that s
 old-location: storage\ioctl_storage_reserve.htm
 tech.root: storage
 ms.assetid: acafac18-63c7-4965-a1d6-e7c961507b4b
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: IOCTL_STORAGE_RESERVE, IOCTL_STORAGE_RESERVE control, IOCTL_STORAGE_RESERVE control code [Storage Devices], k307_3cb0baa4-c551-44a1-8728-c0053ab04e79.xml, ntddstor/IOCTL_STORAGE_RESERVE, storage.ioctl_storage_reserve
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddstor.h
 req.include-header: Ntddstor.h

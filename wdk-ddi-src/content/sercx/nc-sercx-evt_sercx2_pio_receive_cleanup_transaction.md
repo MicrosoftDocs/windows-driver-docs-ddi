@@ -6,11 +6,8 @@ description: The EvtSerCx2PioReceiveCleanupTransaction event callback function i
 old-location: serports\evtsercx2pioreceivecleanuptransaction.htm
 tech.root: serports
 ms.assetid: 2CFCF5D9-23F8-4571-972A-0BE48EB2D046
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: 2/EvtSerCx2PioReceiveCleanupTransaction, EVT_SERCX2_PIO_RECEIVE_CLEANUP_TRANSACTION, EVT_SERCX2_PIO_RECEIVE_CLEANUP_TRANSACTION callback, EvtSerCx2PioReceiveCleanupTransaction, EvtSerCx2PioReceiveCleanupTransaction callback function [Serial Ports], serports.evtsercx2pioreceivecleanuptransaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sercx.h
 req.include-header: 

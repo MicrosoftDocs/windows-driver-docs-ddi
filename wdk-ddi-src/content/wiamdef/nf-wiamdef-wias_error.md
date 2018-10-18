@@ -6,11 +6,8 @@ description: The WIAS_ERROR macro writes a diagnostic message to the Wiatrace.lo
 old-location: image\wias_error.htm
 tech.root: image
 ms.assetid: e439f130-1b99-4f46-ace5-3456c09a5f67
-ms.author: windowsdriverdev
 ms.date: 5/3/2018
 ms.keywords: IWiaLog_5b3e0d61-e0e5-4385-8256-943e437cee9d.xml, WIAS_ERROR, WIAS_ERROR macro [Imaging Devices], image.wias_error, wiamdef/WIAS_ERROR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: wiamdef.h
 req.include-header: Wiautil.h

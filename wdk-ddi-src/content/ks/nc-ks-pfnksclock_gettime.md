@@ -6,11 +6,8 @@ description: The routine gets system time.KStrClockGetTime is a system-supplied 
 old-location: stream\kstrclockgettime.htm
 tech.root: stream
 ms.assetid: 4b1028a1-8c86-4958-a19f-32c490dda790
-ms.author: windowsdriverdev
 ms.date: 4/23/2018
 ms.keywords: KStrClockGetPhysicalTime, KStrClockGetTime, PFNKSCLOCK_GETTIME, SystemClockGetTime, SystemClockGetTime routine [Streaming Media Devices], ks/SystemClockGetTime, ksfunc_a60a332c-ffc8-4969-9e81-cccaac9b5c0a.xml, stream.kstrclockgettime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ks.h
 req.include-header: Ks.h

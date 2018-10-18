@@ -6,11 +6,8 @@ description: The HwStorBuildIo routine processes the SRB with unsynchronized acc
 old-location: storage\hwstorbuildio.htm
 tech.root: storage
 ms.assetid: ebbb8289-5996-4d99-98b6-e95fd9dc7ec9
-ms.author: windowsdriverdev
 ms.date: 3/29/2018
 ms.keywords: HW_BUILDIO, HwStorBuildIo, HwStorBuildIo routine [Storage Devices], storage.hwstorbuildio, stormini_3411fed2-32e6-4a3a-a9c3-0bbe0bb514ca.xml, storport/HwStorBuildIo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: storport.h
 req.include-header: Storport.h
