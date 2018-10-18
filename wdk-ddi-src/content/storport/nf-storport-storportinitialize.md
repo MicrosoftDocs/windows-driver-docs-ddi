@@ -6,7 +6,7 @@ description: The StorPortInitilize routine initializes the port driver parameter
 old-location: storage\storportinitialize.htm
 tech.root: storage
 ms.assetid: b560ce42-3c5c-4766-bb9c-6590b7113ecd
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortInitialize, StorPortInitialize routine [Storage Devices], storage.storportinitialize, storport/StorPortInitialize, storprt_c60ad9af-507c-42e1-9f8a-04e3378bc37b.xml
 ms.topic: function
 req.header: storport.h

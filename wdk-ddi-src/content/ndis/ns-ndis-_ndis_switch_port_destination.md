@@ -6,7 +6,7 @@ description: The NDIS_SWITCH_PORT_DESTINATION structure specifies the Hyper-V ex
 old-location: netvista\ndis_switch_port_destination.htm
 tech.root: netvista
 ms.assetid: EC7FFB5E-F50B-40C4-B4B7-0A11A374EBD0
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_SWITCH_PORT_DESTINATION, NDIS_SWITCH_PORT_DESTINATION, NDIS_SWITCH_PORT_DESTINATION structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_DESTINATION, PNDIS_SWITCH_PORT_DESTINATION structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_DESTINATION, ndis/NDIS_SWITCH_PORT_DESTINATION, ndis/PNDIS_SWITCH_PORT_DESTINATION, netvista.ndis_switch_port_destination"
 ms.topic: struct
 req.header: ndis.h

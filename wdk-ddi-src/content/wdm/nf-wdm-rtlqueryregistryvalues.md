@@ -6,7 +6,7 @@ description: The RtlQueryRegistryValues routine allows the caller to query sever
 old-location: kernel\rtlqueryregistryvalues.htm
 tech.root: kernel
 ms.assetid: 6c6d0664-0c00-461b-bcac-13070511430c
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlQueryRegistryValues, RtlQueryRegistryValues routine [Kernel-Mode Driver Architecture], k109_5a8cb907-8c49-4a88-9494-ff137cf6507d.xml, kernel.rtlqueryregistryvalues, wdm/RtlQueryRegistryValues
 ms.topic: function
 req.header: wdm.h

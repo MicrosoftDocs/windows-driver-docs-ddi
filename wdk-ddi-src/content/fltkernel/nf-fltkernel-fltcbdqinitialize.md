@@ -6,7 +6,7 @@ description: FltCbdqInitialize initializes a minifilter driver's callback data q
 old-location: ifsk\fltcbdqinitialize.htm
 tech.root: ifsk
 ms.assetid: a3e089bf-6037-4d85-92ce-db9c865bdc02
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_e365fdac-7834-4388-b8ba-65593b045d19.xml, FltCbdqInitialize, FltCbdqInitialize function [Installable File System Drivers], fltkernel/FltCbdqInitialize, ifsk.fltcbdqinitialize
 ms.topic: function
 req.header: fltkernel.h

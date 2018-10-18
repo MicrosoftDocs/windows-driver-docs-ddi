@@ -6,7 +6,7 @@ description: The MPIO_DSM_Path_V2 structure is used to represent the DSM's defin
 old-location: storage\mpio_dsm_path_v2.htm
 tech.root: storage
 ms.assetid: 8ebbb4c0-c761-42a5-a41a-9d661a6126d9
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PMPIO_DSM_Path_V2, MPIO_DSM_Path_V2, MPIO_DSM_Path_V2 structure [Storage Devices], PMPIO_DSM_Path_V2, PMPIO_DSM_Path_V2 structure pointer [Storage Devices], _MPIO_DSM_Path_V2, mpiodisk/MPIO_DSM_Path_V2, mpiodisk/PMPIO_DSM_Path_V2, storage.mpio_dsm_path_v2, structs-scsibus_e1d340a8-aa6a-4219-8bd4-c11fc3520f5d.xml"
 ms.topic: struct
 req.header: mpiodisk.h

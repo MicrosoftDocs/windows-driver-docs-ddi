@@ -6,7 +6,7 @@ description: NdisMCmCloseAddressFamilyComplete returns the final status of a cli
 old-location: netvista\ndismcmcloseaddressfamilycomplete.htm
 tech.root: netvista
 ms.assetid: be551557-06db-4fc9-bdcb-030e621e205a
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMCmCloseAddressFamilyComplete, NdisMCmCloseAddressFamilyComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_beab4fb5-32b1-4188-9e6a-47f286386919.xml, ndis/NdisMCmCloseAddressFamilyComplete, netvista.ndismcmcloseaddressfamilycomplete
 ms.topic: macro
 req.header: ndis.h

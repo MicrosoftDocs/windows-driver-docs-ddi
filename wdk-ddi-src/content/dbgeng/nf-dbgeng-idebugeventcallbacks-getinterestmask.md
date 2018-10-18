@@ -6,7 +6,7 @@ description: The GetInterestMask callback method is called to determine which ev
 old-location: debugger\idebugeventcallbacks_getinterestmask.htm
 tech.root: debugger
 ms.assetid: 165c83cb-c0be-4a09-9220-a5208f660308
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ComCallbacks_564e7fce-ee9a-404e-9ae4-06805cb0b677.xml, GetInterestMask, GetInterestMask method [Windows Debugging], GetInterestMask method [Windows Debugging],IDebugEventCallbacks interface, IDebugEventCallbacks interface [Windows Debugging],GetInterestMask method, IDebugEventCallbacks.GetInterestMask, IDebugEventCallbacks::GetInterestMask, dbgeng/IDebugEventCallbacks::GetInterestMask, debugger.idebugeventcallbacks_getinterestmask
 ms.topic: method
 req.header: dbgeng.h

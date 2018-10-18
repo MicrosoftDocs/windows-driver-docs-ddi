@@ -6,7 +6,7 @@ description: The Purge method directs the framework to reject new incoming I/O r
 old-location: wdf\iwdfioqueue_purge.htm
 tech.root: wdf
 ms.assetid: c7863713-850f-4516-aec5-9e851c36cf52
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFIoQueue interface,Purge method, IWDFIoQueue.Purge, IWDFIoQueue::Purge, Purge, Purge method, Purge method,IWDFIoQueue interface, UMDFQueueObjectRef_5d2113b9-d2e3-4a27-af75-60f4bf7bddbf.xml, umdf.iwdfioqueue_purge, wdf.iwdfioqueue_purge, wudfddi/IWDFIoQueue::Purge
 ms.topic: method
 req.header: wudfddi.h

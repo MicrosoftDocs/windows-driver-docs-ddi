@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Used by the display miniport driver to specify overlay plane attributes.
 old-location: display\dxgk_multiplane_overlay_attributes.htm
 ms.assetid: 1f48a08f-138c-44b4-b13f-efa9b448ce4f
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES, DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES, display.dxgk_multiplane_overlay_attributes
 ms.topic: struct
 req.header: d3dkmddi.h

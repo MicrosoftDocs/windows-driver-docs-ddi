@@ -6,7 +6,7 @@ description: The enabled state of the per process disk I/O counters is returned 
 old-location: ifsk\psisdiskcountersenabled.htm
 tech.root: ifsk
 ms.assetid: E4626CF9-5E76-4C48-9B38-274178E41E30
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: PsIsDiskCountersEnabled, PsIsDiskCountersEnabled routine [Installable File System Drivers], ifsk.psisdiskcountersenabled, ntifs/PsIsDiskCountersEnabled
 ms.topic: function
 req.header: ntifs.h

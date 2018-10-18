@@ -6,7 +6,7 @@ description: The FltInitializeFileLock routine initializes an opaque FILE_LOCK s
 old-location: ifsk\fltinitializefilelock.htm
 tech.root: ifsk
 ms.assetid: 84bfec05-9d77-433e-bec2-ad188269fc61
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_8e2110a7-bc7b-4a98-b094-c6a7a12e7900.xml, FltInitializeFileLock, FltInitializeFileLock routine [Installable File System Drivers], fltkernel/FltInitializeFileLock, ifsk.fltinitializefilelock
 ms.topic: function
 req.header: fltkernel.h

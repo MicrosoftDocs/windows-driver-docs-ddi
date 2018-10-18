@@ -6,7 +6,7 @@ description: The KsProcessMediaSamples method processes media samples.
 old-location: stream\iksinterfacehandler_ksprocessmediasamples.htm
 tech.root: stream
 ms.assetid: 3f0982d8-4ac3-40f6-8587-624c26d25510
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IKsInterfaceHandler interface [Streaming Media Devices],KsProcessMediaSamples method, IKsInterfaceHandler.KsProcessMediaSamples, IKsInterfaceHandler::KsProcessMediaSamples, KsProcessMediaSamples, KsProcessMediaSamples method [Streaming Media Devices], KsProcessMediaSamples method [Streaming Media Devices],IKsInterfaceHandler interface, ksproxy/IKsInterfaceHandler::KsProcessMediaSamples, ksproxy_929792a7-d5c4-4568-9178-866b9738079b.xml, stream.iksinterfacehandler_ksprocessmediasamples
 ms.topic: method
 req.header: ksproxy.h

@@ -6,7 +6,7 @@ description: Queries symbol information and returns locations in the target's me
 old-location: debugger\idebugsymbols3_getsourceentrystring.htm
 tech.root: debugger
 ms.assetid: 4742F6DD-F7D6-4EF4-877B-C02630018C8E
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetSourceEntryString, GetSourceEntryString method [Windows Debugging], GetSourceEntryString method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourceEntryString method, IDebugSymbols3.GetSourceEntryString, IDebugSymbols3::GetSourceEntryString, dbgeng/IDebugSymbols3::GetSourceEntryString, debugger.idebugsymbols3_getsourceentrystring
 ms.topic: method
 req.header: dbgeng.h

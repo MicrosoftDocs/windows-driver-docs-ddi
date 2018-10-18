@@ -6,7 +6,7 @@ description: The IOCTL_SERIAL_GET_MODEM_CONTROL request returns the value of the
 old-location: serports\ioctl_serial_get_modem_control.htm
 tech.root: serports
 ms.assetid: 4b3f52ee-8028-4cba-a8c7-4ba73b1fcab0
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_GET_MODEM_CONTROL, IOCTL_SERIAL_GET_MODEM_CONTROL control, IOCTL_SERIAL_GET_MODEM_CONTROL control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_MODEM_CONTROL, serports.ioctl_serial_get_modem_control, serref_063be160-c01f-40c9-aff9-2de802c70bda.xml
 ms.topic: ioctl
 req.header: ntddser.h

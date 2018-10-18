@@ -6,7 +6,7 @@ description: The DecodeEndFrame function notifies the user-mode display driver t
 old-location: display\decodeendframe.htm
 tech.root: display
 ms.assetid: 6e8d3280-6ddc-4593-9208-c4f0c9ff254c
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DecodeEndFrame, DecodeEndFrame callback function [Display Devices], PFND3DDDI_DECODEENDFRAME, PFND3DDDI_DECODEENDFRAME callback, UserModeDisplayDriver_Functions_c80e307b-2b64-4b43-84c3-cae711e8282f.xml, d3dumddi/DecodeEndFrame, display.decodeendframe
 ms.topic: callback
 req.header: d3dumddi.h

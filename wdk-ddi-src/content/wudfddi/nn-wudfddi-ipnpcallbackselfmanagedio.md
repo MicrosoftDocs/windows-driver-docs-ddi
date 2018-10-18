@@ -6,7 +6,7 @@ description: The IPnpCallbackSelfManagedIo interface is a Plug and Play (PnP) an
 old-location: wdf\ipnpcallbackselfmanagedio.htm
 tech.root: wdf
 ms.assetid: 34971df0-4abc-41a1-8d2f-6e36df1daf20
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IPnpCallbackSelfManagedIo, IPnpCallbackSelfManagedIo interface, IPnpCallbackSelfManagedIo interface,described, UMDFDeviceObjectRef_0f139c45-68eb-4429-ac90-675d7eddea5a.xml, umdf.ipnpcallbackselfmanagedio, wdf.ipnpcallbackselfmanagedio, wudfddi/IPnpCallbackSelfManagedIo
 ms.topic: interface
 req.header: wudfddi.h

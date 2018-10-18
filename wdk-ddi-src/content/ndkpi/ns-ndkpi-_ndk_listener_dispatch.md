@@ -6,7 +6,7 @@ description: The NDK_LISTENER_DISPATCH structure specifies dispatch function ent
 old-location: netvista\ndk_listener_dispatch.htm
 tech.root: netvista
 ms.assetid: CF44B920-428A-4CD0-94BF-15F80189D9C3
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_LISTENER_DISPATCH, NDK_LISTENER_DISPATCH structure [Network Drivers Starting with Windows Vista], PNDK_LISTENER_DISPATCH, PNDK_LISTENER_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], _NDK_LISTENER_DISPATCH, ndkpi/NDK_LISTENER_DISPATCH, ndkpi/PNDK_LISTENER_DISPATCH, netvista.ndk_listener_dispatch
 ms.topic: struct
 req.header: ndkpi.h

@@ -6,7 +6,7 @@ description: The FltGetVolumeInstanceFromName routine returns an opaque instance
 old-location: ifsk\fltgetvolumeinstancefromname.htm
 tech.root: ifsk
 ms.assetid: 25455faa-2197-4b2a-bce8-db9764153e51
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_78e7987d-7f24-4c51-b263-502005595c6d.xml, FltGetVolumeInstanceFromName, FltGetVolumeInstanceFromName routine [Installable File System Drivers], fltkernel/FltGetVolumeInstanceFromName, ifsk.fltgetvolumeinstancefromname
 ms.topic: function
 req.header: fltkernel.h

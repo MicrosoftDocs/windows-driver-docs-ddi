@@ -6,7 +6,7 @@ description: The DXGI_DDI_BASE_CALLBACKS structure contains pointers to Microsof
 old-location: display\dxgi_ddi_base_callbacks.htm
 tech.root: display
 ms.assetid: dd1690e2-7eef-4086-a3e1-9ca456b79a6f
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DXGI_DDI_BASE_CALLBACKS, DXGI_DDI_BASE_CALLBACKS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_6622df62-429f-438b-aa1a-61fd7fb8df65.xml, display.dxgi_ddi_base_callbacks, dxgiddi/DXGI_DDI_BASE_CALLBACKS
 ms.topic: struct
 req.header: dxgiddi.h

@@ -6,7 +6,7 @@ description: The WdfIoTargetWdmGetTargetPhysicalDevice method returns a pointer 
 old-location: wdf\wdfiotargetwdmgettargetphysicaldevice.htm
 tech.root: wdf
 ms.assetid: ad24f1b4-ac7f-46df-8f8d-14c956c73a34
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_43beb595-b555-4253-8a54-495e9e14f071.xml, WdfIoTargetWdmGetTargetPhysicalDevice, WdfIoTargetWdmGetTargetPhysicalDevice method, kmdf.wdfiotargetwdmgettargetphysicaldevice, wdf.wdfiotargetwdmgettargetphysicaldevice, wdfiotarget/WdfIoTargetWdmGetTargetPhysicalDevice
 ms.topic: function
 req.header: wdfiotarget.h

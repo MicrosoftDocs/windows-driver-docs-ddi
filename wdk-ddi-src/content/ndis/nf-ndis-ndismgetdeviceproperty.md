@@ -6,7 +6,7 @@ description: The NdisMGetDeviceProperty function retrieves device objects requir
 old-location: netvista\ndismgetdeviceproperty.htm
 tech.root: netvista
 ms.assetid: caef96b6-1b94-475d-9f78-66ae6d6ac979
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMGetDeviceProperty, NdisMGetDeviceProperty function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_849a967a-d488-4440-a9b5-9c7fbc247acd.xml, ndis/NdisMGetDeviceProperty, netvista.ndismgetdeviceproperty
 ms.topic: function
 req.header: ndis.h

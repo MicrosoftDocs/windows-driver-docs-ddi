@@ -6,7 +6,7 @@ description: The SerCx2PioTransmitReady method notifies version 2 of the serial 
 old-location: serports\sercx2piotransmitready.htm
 tech.root: serports
 ms.assetid: 58E663DC-8A2B-4017-A54F-4C127AE567CE
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SerCx2PioTransmitReady, SerCx2PioTransmitReady, SerCx2PioTransmitReady method [Serial Ports], serports.sercx2piotransmitready
 ms.topic: function
 req.header: sercx.h

@@ -6,7 +6,7 @@ description: The NdkGetListenerLocalAddress (NDK_FN_GET_LISTENER_LOCAL_ADDRESS) 
 old-location: netvista\ndk_fn_get_listener_local_address.htm
 tech.root: netvista
 ms.assetid: 7BF5322F-5283-445D-AC3F-19382CB28E2B
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_FN_GET_LISTENER_LOCAL_ADDRESS, NDK_FN_GET_LISTENER_LOCAL_ADDRESS callback, NdkGetListenerLocalAddress, NdkGetListenerLocalAddress callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetListenerLocalAddress, netvista.ndk_fn_get_listener_local_address
 ms.topic: callback
 req.header: ndkpi.h

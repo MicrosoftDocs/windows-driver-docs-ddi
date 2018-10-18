@@ -6,7 +6,7 @@ description: The MapTransfer routine sets up map registers for an adapter object
 old-location: kernel\maptransfer.htm
 tech.root: kernel
 ms.assetid: 50126ab8-3094-497e-96f8-e41255d275e3
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: MapTransfer, MapTransfer callback function [Kernel-Mode Driver Architecture], PMAP_TRANSFER, PMAP_TRANSFER callback, kdma_4bc30c1d-1d83-424f-9c58-cd92c5e9d331.xml, kernel.maptransfer, wdm/MapTransfer
 ms.topic: callback
 req.header: wdm.h

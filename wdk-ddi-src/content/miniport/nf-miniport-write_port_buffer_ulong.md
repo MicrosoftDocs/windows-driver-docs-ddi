@@ -6,7 +6,7 @@ description: The WRITE_PORT_BUFFER_ULONG routine writes a number of ULONG values
 old-location: kernel\write_port_buffer_ulong.htm
 tech.root: kernel
 ms.assetid: 6f786456-344a-4fc3-bc13-8d4253f4039a
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: WRITE_PORT_BUFFER_ULONG, WRITE_PORT_BUFFER_ULONG routine [Kernel-Mode Driver Architecture], k103_821262d5-40d2-435b-965e-cf0a917736b3.xml, kernel.write_port_buffer_ulong, wdm/WRITE_PORT_BUFFER_ULONG
 ms.topic: function
 req.header: miniport.h

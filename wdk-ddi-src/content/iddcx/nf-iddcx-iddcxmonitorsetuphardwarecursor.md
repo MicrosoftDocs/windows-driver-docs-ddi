@@ -6,7 +6,7 @@ description: An OS callback function the driver calls when it wants to setup har
 old-location: display\iddcxmonitorsetuphardwarecursor.htm
 tech.root: display
 ms.assetid: 6182898d-d7c0-4ff2-b222-d83bd00cd1ec
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IddCxMonitorSetupHardwareCursor, IddCxMonitorSetupHardwareCursor method [Display Devices], display.iddcxmonitorsetuphardwarecursor, iddcx/IddCxMonitorSetupHardwareCursor
 ms.topic: function
 req.header: iddcx.h

@@ -6,7 +6,7 @@ description: Adds two values of type ULONG.
 old-location: kernel\rtlulongadd.htm
 tech.root: kernel
 ms.assetid: 03E5C0DB-E245-43E2-80C0-0C1D67673038
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlULongAdd, RtlULongAdd function [Kernel-Mode Driver Architecture], kernel.rtlulongadd, ntintsafe/RtlULongAdd
 ms.topic: function
 req.header: ntintsafe.h

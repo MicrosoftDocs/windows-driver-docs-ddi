@@ -6,7 +6,7 @@ description: The StorPortWritePortBufferUshort routine writes a value to a speci
 old-location: storage\storportwriteportbufferushort.htm
 tech.root: storage
 ms.assetid: e7b7718b-0c03-4114-8402-9657c49230ad
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortWritePortBufferUshort, StorPortWritePortBufferUshort routine [Storage Devices], storage.storportwriteportbufferushort, storport/StorPortWritePortBufferUshort, storprt_831acb6e-3529-4e20-897d-e2765b6f7f53.xml
 ms.topic: macro
 req.header: storport.h

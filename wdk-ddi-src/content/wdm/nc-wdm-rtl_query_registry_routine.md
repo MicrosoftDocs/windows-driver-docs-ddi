@@ -6,7 +6,7 @@ description: The QueryRoutine routine provides information about a registry valu
 old-location: kernel\queryroutine.htm
 tech.root: kernel
 ms.assetid: 28f9cfcd-ed2e-4760-9016-3542c27cb347
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: DrvrRtns_a5cd47f1-6d3c-495e-a83d-ccbd276c1728.xml, QueryRoutine, QueryRoutine routine [Kernel-Mode Driver Architecture], RTL_QUERY_REGISTRY_ROUTINE, kernel.queryroutine, wdm/QueryRoutine
 ms.topic: callback
 req.header: wdm.h

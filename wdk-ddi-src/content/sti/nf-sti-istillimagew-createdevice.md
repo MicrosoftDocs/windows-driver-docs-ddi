@@ -6,7 +6,7 @@ description: The IStillImage::CreateDevice method creates an instance of the COM
 old-location: image\istillimage_createdevice.htm
 tech.root: image
 ms.assetid: 24491434-1ad2-48fa-85e6-516efbe0550d
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: CreateDevice, CreateDevice method [Imaging Devices], CreateDevice method [Imaging Devices],IStillImageW interface, IStillImageW interface [Imaging Devices],CreateDevice method, IStillImageW.CreateDevice, IStillImageW::CreateDevice, image.istillimage_createdevice, sti/IStillImageW::CreateDevice, stifnc_07253e3c-b24e-4557-885f-3e17fb5dc293.xml
 ms.topic: method
 req.header: sti.h

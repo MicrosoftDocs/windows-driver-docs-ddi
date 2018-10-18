@@ -6,7 +6,7 @@ description: The NdisGetCurrentProcessorCpuUsage function returns the average am
 old-location: netvista\ndisgetcurrentprocessorcpuusage.htm
 tech.root: netvista
 ms.assetid: 03f1559c-83a7-478c-a616-ebe6002cb724
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisGetCurrentProcessorCpuUsage, NdisGetCurrentProcessorCpuUsage function [Network Drivers Starting with Windows Vista], ndis/NdisGetCurrentProcessorCpuUsage, ndis_sysinfo_ref_64c35a8c-5776-4902-b062-0685a16f5453.xml, netvista.ndisgetcurrentprocessorcpuusage
 ms.topic: function
 req.header: ndis.h

@@ -6,7 +6,7 @@ description: The StorPortEnablePassiveInitialization routine enables the minipor
 old-location: storage\storportenablepassiveinitialization.htm
 tech.root: storage
 ms.assetid: 881253d2-b44d-4c41-ad72-b0143dc50803
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortEnablePassiveInitialization, StorPortEnablePassiveInitialization routine [Storage Devices], storage.storportenablepassiveinitialization, storport/StorPortEnablePassiveInitialization, storprt_faea18e4-c684-4010-aca4-177132c011c5.xml
 ms.topic: function
 req.header: storport.h

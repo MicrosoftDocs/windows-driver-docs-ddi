@@ -5,7 +5,7 @@ author: windows-driver-content
 description: D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION_DATA is used with NegotiateCryptoSessionKeyExchange in the implementation of Digital Rights Management (DRM).
 old-location: display\d3dwddm2_0ddi_key_exchange_hw_protection_data.htm
 ms.assetid: BAC7B5B9-FD89-4C60-B3C2-06251110CDF5
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION_DATA, D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION_DATA structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION_DATA, display.d3dwddm2_0ddi_key_exchange_hw_protection_data
 ms.topic: struct
 req.header: d3d10umddi.h

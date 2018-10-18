@@ -6,7 +6,7 @@ description: A miniport driver must provide a MiniportInterruptDPC function if t
 old-location: netvista\miniportinterruptdpc.htm
 tech.root: netvista
 ms.assetid: 345715fb-878c-44d8-bf78-f3add10dd02b
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_INTERRUPT_DPC, MINIPORT_INTERRUPT_DPC callback, MiniportInterruptDPC, MiniportInterruptDPC callback function [Network Drivers Starting with Windows Vista], ndis/MiniportInterruptDPC, ndis_interrupts_miniport_functions_ref_00c0d07c-600c-4a63-bee2-045b66acdd82.xml, netvista.miniportinterruptdpc
 ms.topic: callback
 req.header: ndis.h

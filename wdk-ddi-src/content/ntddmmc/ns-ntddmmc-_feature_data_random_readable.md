@@ -6,7 +6,7 @@ description: The FEATURE_DATA_RANDOM_READABLE structure contains data for the ra
 old-location: storage\feature_data_random_readable.htm
 tech.root: storage
 ms.assetid: c235a3aa-f8fe-4034-a645-ef85b2574fa0
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PFEATURE_DATA_RANDOM_READABLE, FEATURE_DATA_RANDOM_READABLE, FEATURE_DATA_RANDOM_READABLE structure [Storage Devices], PFEATURE_DATA_RANDOM_READABLE, PFEATURE_DATA_RANDOM_READABLE structure pointer [Storage Devices], _FEATURE_DATA_RANDOM_READABLE, ntddmmc/FEATURE_DATA_RANDOM_READABLE, ntddmmc/PFEATURE_DATA_RANDOM_READABLE, storage.feature_data_random_readable, structs-CD-ROM_90540677-8abb-43d0-919a-821411398074.xml"
 ms.topic: struct
 req.header: ntddmmc.h

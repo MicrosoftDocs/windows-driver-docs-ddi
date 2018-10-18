@@ -6,7 +6,7 @@ description: The EvtSerCxFileOpen event callback function notifies the serial co
 old-location: serports\evtsercxfileopen.htm
 tech.root: serports
 ms.assetid: 90D08857-69E0-4DD9-9588-86900466E8DE
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 1/EvtSerCxFileOpen, EVT_SERCX_FILEOPEN, EVT_SERCX_FILEOPEN callback, EvtSerCxFileOpen, EvtSerCxFileOpen callback function [Serial Ports], serports.evtsercxfileopen
 ms.topic: callback
 req.header: sercx.h

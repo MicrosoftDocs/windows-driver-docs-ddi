@@ -6,7 +6,7 @@ description: The BdaMethodCreatePin function creates a pin factory.
 old-location: stream\bdamethodcreatepin.htm
 tech.root: stream
 ms.assetid: 0bc31a97-661c-463d-a043-9f86f63bb4b4
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: BdaMethodCreatePin, BdaMethodCreatePin function [Streaming Media Devices], bdaref_492b1847-e4b7-4dfd-a8b1-c6c17fc6aff8.xml, bdasup/BdaMethodCreatePin, stream.bdamethodcreatepin
 ms.topic: function
 req.header: bdasup.h

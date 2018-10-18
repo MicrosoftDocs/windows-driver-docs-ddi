@@ -6,7 +6,7 @@ description: The KsCreateAllocator function creates a handle to an allocator for
 old-location: stream\kscreateallocator.htm
 tech.root: stream
 ms.assetid: c67e036c-9f4c-447e-94bb-73cf215c865a
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsCreateAllocator, KsCreateAllocator function [Streaming Media Devices], ks/KsCreateAllocator, ksfunc_cc89b86b-fdd7-4e08-83b1-0df712fccaa4.xml, stream.kscreateallocator
 ms.topic: function
 req.header: ks.h

@@ -6,7 +6,7 @@ description: The WDF_READ_REGISTER_BUFFER_UCHAR function reads a number of bytes
 old-location: wdf\wdf_read_register_buffer_uchar.htm
 tech.root: wdf
 ms.assetid: D4A7F80C-C223-4F92-AD08-C37F0668B292
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WDF_READ_REGISTER_BUFFER_UCHAR, WDF_READ_REGISTER_BUFFER_UCHAR function, wdf.wdf_read_register_buffer_uchar, wdfhwaccess/WDF_READ_REGISTER_BUFFER_UCHAR
 ms.topic: function
 req.header: wdfhwaccess.h

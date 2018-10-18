@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The CheckCounterInfo function determines global information that is related to manipulating counters.
 old-location: display\checkcounterinfo.htm
 ms.assetid: 5dcea47c-aac7-46e5-afd5-c3390c3c5286
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CheckCounterInfo, CheckCounterInfo callback function [Display Devices], PFND3D10DDI_CHECKCOUNTERINFO, PFND3D10DDI_CHECKCOUNTERINFO callback, UserModeDisplayDriverDx10_Functions_7057ce5a-5677-4174-9bee-81c8ab5b18f7.xml, d3d10umddi/CheckCounterInfo, display.checkcounterinfo
 ms.topic: callback
 req.header: d3d10umddi.h

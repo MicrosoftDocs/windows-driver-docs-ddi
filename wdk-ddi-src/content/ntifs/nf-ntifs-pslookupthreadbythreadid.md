@@ -6,7 +6,7 @@ description: The PsLookupThreadByThreadId routine accepts the thread ID of a thr
 old-location: ifsk\pslookupthreadbythreadid.htm
 tech.root: ifsk
 ms.assetid: 4b61f480-6432-48db-9211-68a7d823d698
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: PsLookupThreadByThreadId, PsLookupThreadByThreadId routine [Installable File System Drivers], ifsk.pslookupthreadbythreadid, ntifs/PsLookupThreadByThreadId, psref_36f0c499-8370-4257-849c-dc8bad2720cc.xml
 ms.topic: function
 req.header: ntifs.h

@@ -6,7 +6,7 @@ description: The WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT function initializes
 old-location: wdf\wdf_device_power_policy_wake_settings_init.htm
 tech.root: wdf
 ms.assetid: bb712c92-c926-4a7a-a126-db4db3bc728f
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_2608d30e-282b-4a19-acb7-ced01cb6bc1a.xml, WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT, WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT function, kmdf.wdf_device_power_policy_wake_settings_init, wdf.wdf_device_power_policy_wake_settings_init, wdfdevice/WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT
 ms.topic: function
 req.header: wdfdevice.h

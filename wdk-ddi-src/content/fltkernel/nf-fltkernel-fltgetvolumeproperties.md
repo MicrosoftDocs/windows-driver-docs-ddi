@@ -6,7 +6,7 @@ description: The FltGetVolumeProperties routine returns volume property informat
 old-location: ifsk\fltgetvolumeproperties.htm
 tech.root: ifsk
 ms.assetid: 1e975626-fa47-456f-a2a9-48506c67cbe5
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_3afcdc71-3007-478e-8699-a1480ca118b8.xml, FltGetVolumeProperties, FltGetVolumeProperties routine [Installable File System Drivers], fltkernel/FltGetVolumeProperties, ifsk.fltgetvolumeproperties
 ms.topic: function
 req.header: fltkernel.h

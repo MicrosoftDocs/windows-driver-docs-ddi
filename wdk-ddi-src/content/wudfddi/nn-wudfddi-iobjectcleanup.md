@@ -6,7 +6,7 @@ description: Any driver that stores a reference-counted COM interface to a WDF o
 old-location: wdf\iobjectcleanup.htm
 tech.root: wdf
 ms.assetid: 5e465c90-3290-4c89-bf47-521280c0fe5c
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IObjectCleanup, IObjectCleanup interface, IObjectCleanup interface,described, UMDFBaseObjectRef_4e434f46-a62e-4410-b8ed-663ab59c89dd.xml, umdf.iobjectcleanup, wdf.iobjectcleanup, wudfddi/IObjectCleanup
 ms.topic: interface
 req.header: wudfddi.h

@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilsignalqualitycaps.htm
 tech.root: netvista
 ms.assetid: 5d42e083-d1a9-455a-8511-9aef37908ab7
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILSIGNALQUALITYCAPS, RILSIGNALQUALITYCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_SIGNALQUALITY_MAX, RIL_CAPS_SIGNALQUALITY_POLLING, netvista.rilsignalqualitycaps, ntddrilapitypes/RILSIGNALQUALITYCAPS, ntddrilapitypes/RIL_CAPS_SIGNALQUALITY_MAX, ntddrilapitypes/RIL_CAPS_SIGNALQUALITY_POLLING
 ms.topic: enum
 req.header: rilapitypes.h

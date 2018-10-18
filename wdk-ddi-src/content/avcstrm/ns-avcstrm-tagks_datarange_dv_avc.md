@@ -6,7 +6,7 @@ description: The KS_DATARANGE_DV_AVC structure stores a range of AV/C digital vi
 old-location: stream\ks_datarange_dv_avc.htm
 tech.root: stream
 ms.assetid: 92759ba0-79f1-4dec-aea5-62c24253c6f0
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKS_DATARANGE_DV_AVC, KS_DATARANGE_DV_AVC, KS_DATARANGE_DV_AVC structure [Streaming Media Devices], PKS_DATARANGE_DV_AVC, PKS_DATARANGE_DV_AVC structure pointer [Streaming Media Devices], avcsref_e5ebf0ed-91f2-415a-a6b1-346cfebf16b5.xml, avcstrm/KS_DATARANGE_DV_AVC, avcstrm/PKS_DATARANGE_DV_AVC, stream.ks_datarange_dv_avc, tagKS_DATARANGE_DV_AVC"
 ms.topic: struct
 req.header: avcstrm.h

@@ -6,7 +6,7 @@ description:
 old-location: stream\bda_ipv6_address.htm
 tech.root: stream
 ms.assetid: 50D52380-1FBE-4046-A7DC-8415501D7FA6
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PBDA_IPv6_ADDRESS, BDA_IPv6_ADDRESS, BDA_IPv6_ADDRESS structure [Streaming Media Devices], PBDA_IPv6_ADDRESS, PBDA_IPv6_ADDRESS structure pointer [Streaming Media Devices], _BDA_IPv6_ADDRESS, bdatypes/BDA_IPv6_ADDRESS, bdatypes/PBDA_IPv6_ADDRESS, stream.bda_ipv6_address"
 ms.topic: struct
 req.header: bdatypes.h

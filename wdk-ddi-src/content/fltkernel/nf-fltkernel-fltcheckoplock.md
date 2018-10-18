@@ -6,7 +6,7 @@ description: A minifilter driver calls FltCheckOplock to synchronize the callbac
 old-location: ifsk\fltcheckoplock.htm
 tech.root: ifsk
 ms.assetid: d6d8c83d-ca89-440a-b6a1-7d384030f7da
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_a551884c-ffc1-4b00-9f22-4f0ab8af0aa1.xml, FltCheckOplock, FltCheckOplock function [Installable File System Drivers], fltkernel/FltCheckOplock, ifsk.fltcheckoplock
 ms.topic: function
 req.header: fltkernel.h

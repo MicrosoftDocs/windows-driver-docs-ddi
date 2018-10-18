@@ -6,7 +6,7 @@ description: A driver's EvtChildListIdentificationDescriptionCompare event callb
 old-location: wdf\evtchildlistidentificationdescriptioncompare.htm
 tech.root: wdf
 ms.assetid: b807f9f8-588f-4303-be97-a9fd4cff2bbd
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectChildListRef_58ed75b3-f129-4cfb-8d36-577b1cb8ffa0.xml, EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_COMPARE, EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_COMPARE callback, EvtChildListIdentificationDescriptionCompare, EvtChildListIdentificationDescriptionCompare callback function, kmdf.evtchildlistidentificationdescriptioncompare, wdf.evtchildlistidentificationdescriptioncompare, wdfchildlist/EvtChildListIdentificationDescriptionCompare
 ms.topic: callback
 req.header: wdfchildlist.h

@@ -6,7 +6,7 @@ description: The DxgkDdiGetPossibleBrightness function retrieves the brightness 
 old-location: display\dxgkddigetpossiblebrightness.htm
 tech.root: display
 ms.assetid: aed565f5-a9c1-4130-a192-68bb699b4bd1
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_BRIGHTNESS_GET_POSSIBLE, DXGK_BRIGHTNESS_GET_POSSIBLE callback, DmFunctions_b14a6b62-e156-4548-9a0d-0a256cf84069.xml, DxgkDdiGetPossibleBrightness, DxgkDdiGetPossibleBrightness callback function [Display Devices], display.dxgkddigetpossiblebrightness, dispmprt/DxgkDdiGetPossibleBrightness
 ms.topic: callback
 req.header: dispmprt.h

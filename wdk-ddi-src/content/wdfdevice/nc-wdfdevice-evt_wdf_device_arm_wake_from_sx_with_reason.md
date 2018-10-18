@@ -6,7 +6,7 @@ description: A driver's EvtDeviceArmWakeFromSxWithReason event callback function
 old-location: wdf\evtdevicearmwakefromsxwithreason.htm
 tech.root: wdf
 ms.assetid: 8966ea8f-9760-4a09-b9d3-8fd1ac278b12
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_4d1a0d9f-ce8a-465c-afb9-0ded36c70f42.xml, EVT_WDF_DEVICE_ARM_WAKE_FROM_SX_WITH_REASON, EVT_WDF_DEVICE_ARM_WAKE_FROM_SX_WITH_REASON callback, EvtDeviceArmWakeFromSxWithReason, EvtDeviceArmWakeFromSxWithReason callback function, kmdf.evtdevicearmwakefromsxwithreason, wdf.evtdevicearmwakefromsxwithreason, wdfdevice/EvtDeviceArmWakeFromSxWithReason
 ms.topic: callback
 req.header: wdfdevice.h

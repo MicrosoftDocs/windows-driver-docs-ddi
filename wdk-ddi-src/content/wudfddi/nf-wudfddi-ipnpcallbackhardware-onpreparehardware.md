@@ -6,7 +6,7 @@ description: The OnPrepareHardware method notifies a driver to make the specifie
 old-location: wdf\ipnpcallbackhardware_onpreparehardware.htm
 tech.root: wdf
 ms.assetid: c821231a-446d-45dd-9c12-9ab05aeb1108
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IPnpCallbackHardware interface,OnPrepareHardware method, IPnpCallbackHardware.OnPrepareHardware, IPnpCallbackHardware::OnPrepareHardware, OnPrepareHardware, OnPrepareHardware method, OnPrepareHardware method,IPnpCallbackHardware interface, UMDFDeviceObjectRef_3b9db069-02f0-4d3e-855d-835bb1bb6d2d.xml, umdf.ipnpcallbackhardware_onpreparehardware, wdf.ipnpcallbackhardware_onpreparehardware, wudfddi/IPnpCallbackHardware::OnPrepareHardware
 ms.topic: method
 req.header: wudfddi.h

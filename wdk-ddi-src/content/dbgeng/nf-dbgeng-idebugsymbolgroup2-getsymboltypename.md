@@ -6,7 +6,7 @@ description: The GetSymbolTypeName methods return the name of the specified symb
 old-location: debugger\getsymboltypename.htm
 tech.root: debugger
 ms.assetid: e15b418e-bf4a-49c0-bdb3-24973513e654
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ComOther_27d4a23e-4566-4b37-a692-2b82310ae8e9.xml, GetSymbolTypeName, GetSymbolTypeName method [Windows Debugging], GetSymbolTypeName method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolTypeName method, IDebugSymbolGroup2.GetSymbolTypeName, IDebugSymbolGroup2::GetSymbolTypeName, dbgeng/IDebugSymbolGroup2::GetSymbolTypeName, debugger.getsymboltypename
 ms.topic: method
 req.header: dbgeng.h

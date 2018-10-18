@@ -6,7 +6,7 @@ description: Contains functions that user-mode display drivers can use to read a
 old-location: display\dxgk_firmware_table_interface.htm
 tech.root: display
 ms.assetid: 22ba50eb-e428-433f-aca0-1d61f31fcd0c
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "'ACPI', 'FIRM', 'RSMB', *PDXGK_FIRMWARE_TABLE_INTERFACE, DXGK_FIRMWARE_TABLE_INTERFACE, DXGK_FIRMWARE_TABLE_INTERFACE structure [Display Devices], PDXGK_FIRMWARE_TABLE_INTERFACE, PDXGK_FIRMWARE_TABLE_INTERFACE structure pointer [Display Devices], _DXGK_FIRMWARE_TABLE_INTERFACE, display.dxgk_firmware_table_interface, dispmprt/DXGK_FIRMWARE_TABLE_INTERFACE, dispmprt/PDXGK_FIRMWARE_TABLE_INTERFACE"
 ms.topic: struct
 req.header: dispmprt.h

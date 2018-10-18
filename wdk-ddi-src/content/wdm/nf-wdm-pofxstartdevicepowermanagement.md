@@ -6,7 +6,7 @@ description: The PoFxStartDevicePowerManagement routine completes the registrati
 old-location: kernel\pofxstartdevicepowermanagement.htm
 tech.root: kernel
 ms.assetid: DA034B30-203E-4418-B5BD-1094B3D438FE
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PoFxStartDevicePowerManagement, PoFxStartDevicePowerManagement routine [Kernel-Mode Driver Architecture], kernel.pofxstartdevicepowermanagement, wdm/PoFxStartDevicePowerManagement
 ms.topic: function
 req.header: wdm.h

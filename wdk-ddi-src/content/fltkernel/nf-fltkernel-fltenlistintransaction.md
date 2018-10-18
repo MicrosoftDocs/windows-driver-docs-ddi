@@ -6,7 +6,7 @@ description: The FltEnlistInTransaction routine enlists a minifilter driver in a
 old-location: ifsk\fltenlistintransaction.htm
 tech.root: ifsk
 ms.assetid: c4b82596-824f-488e-96cd-17bd850494e5
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_85856df2-46c0-457b-bc10-2e6a8d32f5bb.xml, FltEnlistInTransaction, FltEnlistInTransaction routine [Installable File System Drivers], fltkernel/FltEnlistInTransaction, ifsk.fltenlistintransaction
 ms.topic: function
 req.header: fltkernel.h

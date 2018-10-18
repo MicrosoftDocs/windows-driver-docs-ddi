@@ -6,7 +6,7 @@ description: A minifilter driver can register a routine of type PFLT_COMPLETE_LO
 old-location: ifsk\pflt_complete_lock_callback_data_routine.htm
 tech.root: ifsk
 ms.assetid: 5b6fe740-22bb-4620-86a2-1e3be1f380f3
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: CompleteLockCallbackDataRoutine, CompleteLockCallbackDataRoutine routine [Installable File System Drivers], FltCallbacks_a02e356c-ad01-4ae4-bfff-b753ffa0a1c3.xml, PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE, fltkernel/CompleteLockCallbackDataRoutine, ifsk.pflt_complete_lock_callback_data_routine
 ms.topic: callback
 req.header: fltkernel.h

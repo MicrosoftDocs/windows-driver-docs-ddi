@@ -6,7 +6,7 @@ description: The WdfUsbTargetPipeIsOutEndpoint method determines whether a speci
 old-location: wdf\wdfusbtargetpipeisoutendpoint.htm
 tech.root: wdf
 ms.assetid: 803d282b-f6eb-4cd3-91b3-899f983c9dc5
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_19c3e865-4f6c-4950-93af-46a8b97ec6b9.xml, WdfUsbTargetPipeIsOutEndpoint, WdfUsbTargetPipeIsOutEndpoint method, kmdf.wdfusbtargetpipeisoutendpoint, wdf.wdfusbtargetpipeisoutendpoint, wdfusb/WdfUsbTargetPipeIsOutEndpoint
 ms.topic: function
 req.header: wdfusb.h

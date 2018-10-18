@@ -6,7 +6,7 @@ description: The AtaPortReadRegisterBufferUchar routine transfers a specified nu
 old-location: storage\ataportreadregisterbufferuchar.htm
 tech.root: storage
 ms.assetid: adc6724b-f3dc-4605-8ee1-198c88bc3fcd
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: AtaPortReadRegisterBufferUchar, AtaPortReadRegisterBufferUchar routine [Storage Devices], atartns_5c57e652-3b37-4673-b5cf-fbcdf38853ad.xml, irb/AtaPortReadRegisterBufferUchar, storage.ataportreadregisterbufferuchar
 ms.topic: function
 req.header: irb.h

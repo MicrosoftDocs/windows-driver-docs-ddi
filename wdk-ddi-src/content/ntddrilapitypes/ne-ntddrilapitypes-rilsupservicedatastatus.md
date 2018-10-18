@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilsupservicedatastatus.htm
 tech.root: netvista
 ms.assetid: 60cecce7-9085-4cbd-b637-e24af51d1c22
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILSUPSERVICEDATASTATUS, RILSUPSERVICEDATASTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_SUPSVCDATASTATUS_ERROR, RIL_SUPSVCDATASTATUS_FURTHERINFOREQUIRED, RIL_SUPSVCDATASTATUS_MAX, RIL_SUPSVCDATASTATUS_TIMEOUT, netvista.rilsupservicedatastatus, ntddrilapitypes/RILSUPSERVICEDATASTATUS, ntddrilapitypes/RIL_SUPSVCDATASTATUS_ERROR, ntddrilapitypes/RIL_SUPSVCDATASTATUS_FURTHERINFOREQUIRED, ntddrilapitypes/RIL_SUPSVCDATASTATUS_MAX, ntddrilapitypes/RIL_SUPSVCDATASTATUS_TIMEOUT
 ms.topic: enum
 req.header: ntddrilapitypes.h

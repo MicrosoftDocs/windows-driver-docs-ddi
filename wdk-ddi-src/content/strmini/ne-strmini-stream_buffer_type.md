@@ -6,7 +6,7 @@ description: This enumeration defines the buffer types for StreamClassGetPhysica
 old-location: stream\stream_buffer_type.htm
 tech.root: stream
 ms.assetid: 7C9E1D94-BF59-4302-BEE8-24546C8AE7E6
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: DmaBuffer, PerRequestExtension, SRBDataBuffer, STREAM_BUFFER_TYPE, STREAM_BUFFER_TYPE enumeration [Streaming Media Devices], stream.stream_buffer_type, strmini/DmaBuffer, strmini/PerRequestExtension, strmini/SRBDataBuffer, strmini/STREAM_BUFFER_TYPE
 ms.topic: enum
 req.header: strmini.h

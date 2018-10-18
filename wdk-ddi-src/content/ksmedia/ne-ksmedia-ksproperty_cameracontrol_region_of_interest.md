@@ -6,7 +6,7 @@ description: Used to specify a camera region of interest.
 old-location: stream\ksproperty_cameracontrol_region_of_interest.htm
 tech.root: stream
 ms.assetid: 58886030-4fb6-432b-9ec1-9eb54350edb4
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST enumeration [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_PROPERTY_ID, ksmedia/KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST, ksmedia/KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_PROPERTY_ID, stream.ksproperty_cameracontrol_region_of_interest
 ms.topic: enum
 req.header: ksmedia.h

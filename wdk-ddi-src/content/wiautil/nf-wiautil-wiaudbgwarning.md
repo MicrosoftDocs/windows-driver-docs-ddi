@@ -6,7 +6,7 @@ description: The wiauDbgWarning function logs a warning message.
 old-location: image\wiaudbgwarning.htm
 tech.root: image
 ms.assetid: f10f1c28-0bfd-44c5-a0aa-9f9227f775d2
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiaudbgwarning, wiauDbgWarning, wiauDbgWarning function [Imaging Devices], wiauFncs_1248626b-0d4f-445c-855c-9ba477cf306c.xml, wiautil/wiauDbgWarning
 ms.topic: function
 req.header: wiautil.h

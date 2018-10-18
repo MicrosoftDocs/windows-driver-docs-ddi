@@ -6,7 +6,7 @@ description: The IoCreateFileSpecifyDeviceObjectHint routine is used by file sys
 old-location: ifsk\iocreatefilespecifydeviceobjecthint.htm
 tech.root: ifsk
 ms.assetid: b7374625-6997-44db-b43b-748dab813fcd
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: IoCreateFileSpecifyDeviceObjectHint, IoCreateFileSpecifyDeviceObjectHint routine [Installable File System Drivers], ifsk.iocreatefilespecifydeviceobjecthint, ioref_729440cd-ded3-40cf-a0c9-c10f523cd774.xml, ntddk/IoCreateFileSpecifyDeviceObjectHint
 ms.topic: function
 req.header: ntddk.h

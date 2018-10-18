@@ -6,7 +6,7 @@ description: Note  This structure is for internal use only and should not be c
 old-location: storage\zone_descriptior.htm
 tech.root: storage
 ms.assetid: 8326f683-3952-486e-b322-80ce96759366
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PZONE_DESCRIPTIOR, PZONE_DESCRIPTIOR, PZONE_DESCRIPTIOR structure pointer [Storage Devices], ZONE_DESCRIPTIOR, ZONE_DESCRIPTIOR structure [Storage Devices], _ZONE_DESCRIPTIOR, scsi/PZONE_DESCRIPTIOR, scsi/ZONE_DESCRIPTIOR, storage.zone_descriptior"
 ms.topic: struct
 req.header: scsi.h

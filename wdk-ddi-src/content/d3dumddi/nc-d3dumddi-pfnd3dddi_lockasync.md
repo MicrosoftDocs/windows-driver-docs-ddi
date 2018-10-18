@@ -6,7 +6,7 @@ description: The LockAsync function locks the specified resource or a surface wi
 old-location: display\lockasync.htm
 tech.root: display
 ms.assetid: c8f76ebe-947a-45e4-abbc-f6020da929e8
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: LockAsync, LockAsync callback function [Display Devices], PFND3DDDI_LOCKASYNC, PFND3DDDI_LOCKASYNC callback, UserModeDisplayDriver_Functions_da747d8a-9e58-47e7-b2eb-bd84179bde2d.xml, d3dumddi/LockAsync, display.lockasync
 ms.topic: callback
 req.header: d3dumddi.h

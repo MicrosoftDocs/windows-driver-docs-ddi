@@ -6,7 +6,7 @@ description: The ForwardToIoQueue method forwards (that is, requeues) an I/O req
 old-location: wdf\iwdfiorequest_forwardtoioqueue.htm
 tech.root: wdf
 ms.assetid: 07317157-1222-4b34-89f4-d546818e9851
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: ForwardToIoQueue, ForwardToIoQueue method, ForwardToIoQueue method,IWDFIoRequest interface, IWDFIoRequest interface,ForwardToIoQueue method, IWDFIoRequest.ForwardToIoQueue, IWDFIoRequest::ForwardToIoQueue, UMDFRequestObjectRef_ae3c7113-1fac-4742-b53b-8230bf78b61a.xml, umdf.iwdfiorequest_forwardtoioqueue, wdf.iwdfiorequest_forwardtoioqueue, wudfddi/IWDFIoRequest::ForwardToIoQueue
 ms.topic: method
 req.header: wudfddi.h

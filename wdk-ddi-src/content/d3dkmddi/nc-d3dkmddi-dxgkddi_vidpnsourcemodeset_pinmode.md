@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The pfnPinMode function pins a specified mode in a VidPN source mode set.
 old-location: display\dxgk_vidpnsourcemodeset_interface_pfnpinmode.htm
 ms.assetid: 14bbdc35-e633-49a5-bdf0-6b60d330ca8e
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPNSOURCEMODESET_PINMODE, DXGKDDI_VIDPNSOURCEMODESET_PINMODE callback, VidPnFunctions_7fb0636b-da59-4451-8cf2-57b944629499.xml, d3dkmddi/pfnPinMode, display.dxgk_vidpnsourcemodeset_interface_pfnpinmode, pfnPinMode, pfnPinMode callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h

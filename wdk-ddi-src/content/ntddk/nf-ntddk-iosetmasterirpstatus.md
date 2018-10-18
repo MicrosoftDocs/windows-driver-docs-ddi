@@ -6,7 +6,7 @@ description: The IoSetMasterIrpStatus routine conditionally replaces the Status 
 old-location: kernel\iosetmasterirpstatus.htm
 tech.root: kernel
 ms.assetid: 68C7C46B-AFDB-449D-99B5-1F9A5A9AFFA4
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoSetMasterIrpStatus, IoSetMasterIrpStatus routine [Kernel-Mode Driver Architecture], kernel.iosetmasterirpstatus, ntddk/IoSetMasterIrpStatus
 ms.topic: function
 req.header: ntddk.h

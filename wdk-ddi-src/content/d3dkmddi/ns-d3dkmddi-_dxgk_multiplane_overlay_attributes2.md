@@ -5,7 +5,7 @@ author: windows-driver-content
 description: DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2 is used by the display miniport driver to specify overlay plane attributes.
 old-location: display\dxgk_multiplane_overlay_attributes2.htm
 ms.assetid: 48C481EF-F3A1-48BF-B251-86D06AC125CC
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2, DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2 structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2, display.dxgk_multiplane_overlay_attributes2
 ms.topic: struct
 req.header: d3dkmddi.h

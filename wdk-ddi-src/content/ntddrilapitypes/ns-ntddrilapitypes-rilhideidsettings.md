@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilhideidsettings.htm
 tech.root: netvista
 ms.assetid: 11ca7db9-8e84-4d55-9ea9-7e2ecfa563e0
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILHIDEIDSETTINGS, RILHIDEIDSETTINGS, RILHIDEIDSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rilhideidsettings, ntddrilapitypes/RILHIDEIDSETTINGS"
 ms.topic: struct
 req.header: ntddrilapitypes.h

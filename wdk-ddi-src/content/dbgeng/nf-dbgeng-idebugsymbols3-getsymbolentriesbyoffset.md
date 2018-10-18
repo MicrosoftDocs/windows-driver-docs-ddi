@@ -6,7 +6,7 @@ description: The GetSymbolEntriesByOffset method returns the symbols which are l
 old-location: debugger\getsymbolentriesbyoffset.htm
 tech.root: debugger
 ms.assetid: 93df59dc-adae-49b7-acf4-1cfdd142fd96
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetSymbolEntriesByOffset, GetSymbolEntriesByOffset method [Windows Debugging], GetSymbolEntriesByOffset method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolEntriesByOffset method, IDebugSymbols3.GetSymbolEntriesByOffset, IDebugSymbols3::GetSymbolEntriesByOffset, IDebugSymbols_dba4bc10-a8a8-476d-b668-652c24743ea5.xml, dbgeng/IDebugSymbols3::GetSymbolEntriesByOffset, debugger.getsymbolentriesbyoffset
 ms.topic: method
 req.header: dbgeng.h

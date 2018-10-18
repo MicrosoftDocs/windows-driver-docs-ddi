@@ -6,7 +6,7 @@ description: Converts a value of type LONG to a value of type CHAR.
 old-location: kernel\rtllongtochar.htm
 tech.root: kernel
 ms.assetid: 4D326534-2DEB-419B-9E14-D88543071ECC
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlLongToChar, RtlLongToChar function [Kernel-Mode Driver Architecture], kernel.rtllongtochar, ntintsafe/RtlLongToChar
 ms.topic: function
 req.header: ntintsafe.h

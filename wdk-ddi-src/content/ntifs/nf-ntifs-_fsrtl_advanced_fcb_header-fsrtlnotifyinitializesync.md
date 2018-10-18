@@ -6,7 +6,7 @@ description: The FsRtlNotifyInitializeSync routine allocates and initializes a s
 old-location: ifsk\fsrtlnotifyinitializesync.htm
 tech.root: ifsk
 ms.assetid: 7db82e70-3090-4526-ba10-792ccdbef660
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlNotifyInitializeSync, FsRtlNotifyInitializeSync routine [Installable File System Drivers], fsrtlref_3a247139-1c76-4947-8e6f-a5beeae504cd.xml, ifsk.fsrtlnotifyinitializesync, ntifs/FsRtlNotifyInitializeSync
 ms.topic: function
 req.header: ntifs.h

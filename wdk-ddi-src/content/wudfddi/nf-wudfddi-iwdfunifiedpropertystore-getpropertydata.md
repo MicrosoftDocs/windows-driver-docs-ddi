@@ -6,7 +6,7 @@ description: The GetPropertyData method retrieves the current setting for a devi
 old-location: wdf\iwdfunifiedpropertystore_getpropertydata.htm
 tech.root: wdf
 ms.assetid: 0AAEB2F1-0449-4F0E-807A-1D2420CF6858
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: GetPropertyData, GetPropertyData method, GetPropertyData method,IWDFUnifiedPropertyStore interface, IWDFUnifiedPropertyStore interface,GetPropertyData method, IWDFUnifiedPropertyStore.GetPropertyData, IWDFUnifiedPropertyStore::GetPropertyData, umdf.iwdfunifiedpropertystore_getpropertydata, wdf.iwdfunifiedpropertystore_getpropertydata, wudfddi/IWDFUnifiedPropertyStore::GetPropertyData
 ms.topic: method
 req.header: wudfddi.h

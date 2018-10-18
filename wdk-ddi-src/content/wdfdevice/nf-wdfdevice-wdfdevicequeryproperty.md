@@ -6,7 +6,7 @@ description: The WdfDeviceQueryProperty method retrieves a specified device prop
 old-location: wdf\wdfdevicequeryproperty.htm
 tech.root: wdf
 ms.assetid: be05a5b5-e895-402b-bf0a-cbdb75fdef1d
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_e3f58989-ddd0-4402-94bf-418481869972.xml, WdfDeviceQueryProperty, WdfDeviceQueryProperty method, kmdf.wdfdevicequeryproperty, wdf.wdfdevicequeryproperty, wdfdevice/WdfDeviceQueryProperty
 ms.topic: function
 req.header: wdfdevice.h

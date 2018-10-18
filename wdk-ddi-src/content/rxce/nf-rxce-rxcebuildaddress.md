@@ -6,7 +6,7 @@ description: RxCeBuildAddress associates a transport address with a transport bi
 old-location: ifsk\rxcebuildaddress.htm
 tech.root: ifsk
 ms.assetid: e8845b15-4427-45ea-9192-352d82c89c6a
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxCeBuildAddress, RxCeBuildAddress function [Installable File System Drivers], ifsk.rxcebuildaddress, rxce/RxCeBuildAddress, rxref_ee32329f-3111-4ee6-869f-2b8e21d6696c.xml
 ms.topic: function
 req.header: rxce.h

@@ -6,7 +6,7 @@ description: The VideoPortReadRegisterBufferUchar function reads a number of byt
 old-location: display\videoportreadregisterbufferuchar.htm
 tech.root: display
 ms.assetid: 2058374a-b74d-49e2-9c42-5972b11af677
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortReadRegisterBufferUchar, VideoPortReadRegisterBufferUchar function [Display Devices], VideoPort_Functions_9b0878ff-64ba-4d19-81aa-c5932ffa1953.xml, display.videoportreadregisterbufferuchar, video/VideoPortReadRegisterBufferUchar
 ms.topic: function
 req.header: video.h

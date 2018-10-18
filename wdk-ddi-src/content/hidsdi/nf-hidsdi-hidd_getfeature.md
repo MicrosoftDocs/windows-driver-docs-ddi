@@ -6,7 +6,7 @@ description: The HidD_GetFeature routine returns a feature report from a specifi
 old-location: hid\hidd_getfeature.htm
 tech.root: hid
 ms.assetid: e6a01367-981a-4b44-97a8-4cb37f9753fc
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: HidD_GetFeature, HidD_GetFeature routine [Human Input Devices], hid.hidd_getfeature, hidfunc_2992bcaf-4ca6-4b6f-9a85-d0add8c7fe99.xml, hidsdi/HidD_GetFeature
 ms.topic: function
 req.header: hidsdi.h

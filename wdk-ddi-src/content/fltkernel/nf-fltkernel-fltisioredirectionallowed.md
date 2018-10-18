@@ -6,7 +6,7 @@ description: The FltIsIoRedirectionAllowed routine determines whether I/O can be
 old-location: ifsk\fltisioredirectionallowed.htm
 tech.root: ifsk
 ms.assetid: 79a59e86-9ee2-4cfa-b495-5248f227d24b
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltIsIoRedirectionAllowed, FltIsIoRedirectionAllowed routine [Installable File System Drivers], fltkernel/FltIsIoRedirectionAllowed, ifsk.fltisioredirectionallowed
 ms.topic: function
 req.header: fltkernel.h

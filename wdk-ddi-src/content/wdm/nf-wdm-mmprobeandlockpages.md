@@ -6,7 +6,7 @@ description: The MmProbeAndLockPages routine probes the specified virtual memory
 old-location: kernel\mmprobeandlockpages.htm
 tech.root: kernel
 ms.assetid: d958004f-1730-412d-be75-e51628e6fcdc
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: MmProbeAndLockPages, MmProbeAndLockPages routine [Kernel-Mode Driver Architecture], k106_ccfec34d-c0f9-4826-81e3-ee967da40677.xml, kernel.mmprobeandlockpages, wdm/MmProbeAndLockPages
 ms.topic: function
 req.header: wdm.h

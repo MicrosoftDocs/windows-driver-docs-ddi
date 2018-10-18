@@ -6,7 +6,7 @@ description: The IoSetCancelRoutine routine sets up a driver-supplied Cancel rou
 old-location: kernel\iosetcancelroutine.htm
 tech.root: kernel
 ms.assetid: 5bc81897-6463-4588-9348-78a1954216bd
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoSetCancelRoutine, IoSetCancelRoutine routine [Kernel-Mode Driver Architecture], k104_a9ac44bc-fe8a-4392-b9f8-d9a90a03fbc0.xml, kernel.iosetcancelroutine, wdm/IoSetCancelRoutine
 ms.topic: function
 req.header: wdm.h

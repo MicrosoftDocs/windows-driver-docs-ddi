@@ -6,7 +6,7 @@ description: The KsGetDevice function returns the AVStream device structure to w
 old-location: stream\ksgetdevice.htm
 tech.root: stream
 ms.assetid: 27fb223f-9e6b-42af-b3d8-1018dc5416c2
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsGetDevice, KsGetDevice function [Streaming Media Devices], avfunc_8459c499-365e-4cd4-927c-b359792937b0.xml, ks/KsGetDevice, stream.ksgetdevice
 ms.topic: function
 req.header: ks.h

@@ -6,7 +6,7 @@ description: The WdfFdoInitQueryPropertyEx method retrieves a specified device p
 old-location: wdf\wdffdoinitquerypropertyex.htm
 tech.root: wdf
 ms.assetid: C8377EE4-A7A1-4063-A7DC-53D0D8C6E0C3
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfFdoInitQueryPropertyEx, WdfFdoInitQueryPropertyEx method, wdf.wdffdoinitquerypropertyex, wdffdo/WdfFdoInitQueryPropertyEx
 ms.topic: function
 req.header: wdffdo.h

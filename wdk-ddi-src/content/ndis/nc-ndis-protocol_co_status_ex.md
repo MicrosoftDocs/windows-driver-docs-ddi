@@ -6,7 +6,7 @@ description: The ProtocolCoStatusEx function indicates status changes from under
 old-location: netvista\protocolcostatusex.htm
 tech.root: netvista
 ms.assetid: 1416ad56-548c-4f12-9922-9ab9a7e4fd3a
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CO_STATUS_EX, PROTOCOL_CO_STATUS_EX callback, ProtocolCoStatusEx, ProtocolCoStatusEx callback function [Network Drivers Starting with Windows Vista], condis_status_ref_683f5893-6979-4335-966b-41d48bd0fda3.xml, ndis/ProtocolCoStatusEx, netvista.protocolcostatusex
 ms.topic: callback
 req.header: ndis.h

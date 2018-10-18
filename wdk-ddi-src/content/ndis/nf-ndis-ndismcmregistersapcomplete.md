@@ -6,7 +6,7 @@ description: NdisMCmRegisterSapComplete returns the final status of a client's r
 old-location: netvista\ndismcmregistersapcomplete.htm
 tech.root: netvista
 ms.assetid: 53f94e25-ca6c-4230-8447-d36774322dc7
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMCmRegisterSapComplete, NdisMCmRegisterSapComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_4b7dfebf-1828-41cd-9645-0fc6774cc9a8.xml, ndis/NdisMCmRegisterSapComplete, netvista.ndismcmregistersapcomplete
 ms.topic: macro
 req.header: ndis.h

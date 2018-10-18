@@ -6,7 +6,7 @@ description: The HBA_RefreshAdapterConfiguration routine refreshes the library's
 old-location: storage\hba_refreshadapterconfiguration.htm
 tech.root: storage
 ms.assetid: 140a25ed-b591-413f-8b67-28bc5d776260
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_RefreshAdapterConfiguration, HBA_RefreshAdapterConfiguration routine [Storage Devices], fibreHBA_rtns_c380d992-b977-4f93-a204-93458699eeb1.xml, hbaapi/HBA_RefreshAdapterConfiguration, storage.hba_refreshadapterconfiguration
 ms.topic: function
 req.header: hbaapi.h

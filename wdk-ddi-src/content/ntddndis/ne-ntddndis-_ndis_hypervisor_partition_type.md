@@ -6,7 +6,7 @@ description: The NDIS_HYPERVISOR_PARTITION_TYPE enumeration identifies the curre
 old-location: netvista\ndis_hypervisor_partition_type.htm
 tech.root: netvista
 ms.assetid: 830460f8-4cd6-4a52-ac32-004dc4a204e3
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_HYPERVISOR_PARTITION_TYPE, NDIS_HYPERVISOR_PARTITION_TYPE, NDIS_HYPERVISOR_PARTITION_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisHypervisorPartitionMsHvChild, NdisHypervisorPartitionTypeMax, NdisHypervisorPartitionTypeMsHvParent, NdisHypervisorPartitionTypeUnknown, PNDIS_HYPERVISOR_PARTITION_TYPE, PNDIS_HYPERVISOR_PARTITION_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_HYPERVISOR_PARTITION_TYPE, netvista.ndis_hypervisor_partition_type, ntddndis/NDIS_HYPERVISOR_PARTITION_TYPE, ntddndis/NdisHypervisorPartitionMsHvChild, ntddndis/NdisHypervisorPartitionTypeMax, ntddndis/NdisHypervisorPartitionTypeMsHvParent, ntddndis/NdisHypervisorPartitionTypeUnknown, ntddndis/PNDIS_HYPERVISOR_PARTITION_TYPE, virtual_machine_queue_ref_582bebe7-e184-4460-8437-b81bcd6dbf8b.xml"
 ms.topic: enum
 req.header: ntddndis.h

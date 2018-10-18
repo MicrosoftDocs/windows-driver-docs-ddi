@@ -6,7 +6,7 @@ description: The KSMULTIPLE_ITEM structure is a generic header for property data
 old-location: stream\ksmultiple_item.htm
 tech.root: stream
 ms.assetid: f8a15cb0-92c5-4637-934e-021fa7969208
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSMULTIPLE_ITEM, KSMULTIPLE_ITEM, KSMULTIPLE_ITEM structure [Streaming Media Devices], PKSMULTIPLE_ITEM, PKSMULTIPLE_ITEM structure pointer [Streaming Media Devices], ks-struct_65ad7181-a002-4f51-8215-c82e7a1ee07c.xml, ks/KSMULTIPLE_ITEM, ks/PKSMULTIPLE_ITEM, stream.ksmultiple_item"
 ms.topic: struct
 req.header: ks.h

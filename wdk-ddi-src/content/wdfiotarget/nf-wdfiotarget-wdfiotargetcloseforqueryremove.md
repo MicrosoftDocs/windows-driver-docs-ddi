@@ -6,7 +6,7 @@ description: The WdfIoTargetCloseForQueryRemove method temporarily closes a spec
 old-location: wdf\wdfiotargetcloseforqueryremove.htm
 tech.root: wdf
 ms.assetid: 5fa93ac6-8aee-4248-b0a6-ab82bc5486bf
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_ea857ade-1dcd-4e58-b198-50186a536159.xml, WdfIoTargetCloseForQueryRemove, WdfIoTargetCloseForQueryRemove method, kmdf.wdfiotargetcloseforqueryremove, wdf.wdfiotargetcloseforqueryremove, wdfiotarget/WdfIoTargetCloseForQueryRemove
 ms.topic: function
 req.header: wdfiotarget.h

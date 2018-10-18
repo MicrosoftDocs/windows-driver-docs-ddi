@@ -6,7 +6,7 @@ description: The WdfUsbTargetPipeWriteSynchronously method builds a write reques
 old-location: wdf\wdfusbtargetpipewritesynchronously.htm
 tech.root: wdf
 ms.assetid: 5513a245-0417-42f7-9c01-99b8bd5745eb
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_9d78fb7e-eaf6-4d86-8376-4c68a1ab6ab9.xml, WdfUsbTargetPipeWriteSynchronously, WdfUsbTargetPipeWriteSynchronously method, kmdf.wdfusbtargetpipewritesynchronously, wdf.wdfusbtargetpipewritesynchronously, wdfusb/WdfUsbTargetPipeWriteSynchronously
 ms.topic: function
 req.header: wdfusb.h

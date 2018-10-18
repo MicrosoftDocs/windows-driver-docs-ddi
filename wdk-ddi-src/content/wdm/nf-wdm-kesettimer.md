@@ -6,7 +6,7 @@ description: The KeSetTimer routine sets the absolute or relative interval at wh
 old-location: kernel\kesettimer.htm
 tech.root: kernel
 ms.assetid: 81a205cd-a641-4f85-a217-7febf203b62d
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeSetTimer, KeSetTimer routine [Kernel-Mode Driver Architecture], k105_9cd3cb17-0067-4340-8226-ee75392cfdd1.xml, kernel.kesettimer, wdm/KeSetTimer
 ms.topic: function
 req.header: wdm.h

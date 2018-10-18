@@ -6,7 +6,7 @@ description: The CcSetDirtyPageThreshold routine sets a per-file dirty page thre
 old-location: ifsk\ccsetdirtypagethreshold.htm
 tech.root: ifsk
 ms.assetid: ba7023d9-5130-4eea-9de9-034f5bf0b145
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: CcSetDirtyPageThreshold, CcSetDirtyPageThreshold routine [Installable File System Drivers], ccref_df331e54-32a2-4a09-a1e6-7c1d69b2abcf.xml, ifsk.ccsetdirtypagethreshold, ntifs/CcSetDirtyPageThreshold
 ms.topic: function
 req.header: ntifs.h

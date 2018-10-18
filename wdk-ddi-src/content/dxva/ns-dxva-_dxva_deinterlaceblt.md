@@ -6,7 +6,7 @@ description: The DXVA_DeinterlaceBlt structure is sent by the VMR to the acceler
 old-location: display\dxva_deinterlaceblt.htm
 tech.root: display
 ms.assetid: 0512a825-9cec-4ca0-9686-df5b3d2b216b
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXVA_DeinterlaceBlt, DXVA_DeinterlaceBlt structure [Display Devices], _DXVA_DeinterlaceBlt, display.dxva_deinterlaceblt, dxva/DXVA_DeinterlaceBlt, dxvaref_69a3b788-495c-42a0-acae-8d8242d963c6.xml
 ms.topic: struct
 req.header: dxva.h

@@ -6,7 +6,7 @@ description: The GetBreakpointByGuid method returns the breakpoint with the spec
 old-location: debugger\idebugcontrol5_getbreakpointbyguid.htm
 tech.root: debugger
 ms.assetid: AC316591-CCF9-4040-B1A3-29AB2033B673
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetBreakpointByGuid, GetBreakpointByGuid method [Windows Debugging], GetBreakpointByGuid method [Windows Debugging],IDebugControl5 interface, IDebugControl5 interface [Windows Debugging],GetBreakpointByGuid method, IDebugControl5.GetBreakpointByGuid, IDebugControl5::GetBreakpointByGuid, dbgeng/IDebugControl5::GetBreakpointByGuid, debugger.idebugcontrol5_getbreakpointbyguid
 ms.topic: method
 req.header: dbgeng.h

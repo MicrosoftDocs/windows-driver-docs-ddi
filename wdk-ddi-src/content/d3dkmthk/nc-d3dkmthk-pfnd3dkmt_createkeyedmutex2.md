@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Creates a keyed mutex object that includes private data.
 old-location: display\d3dkmtcreatekeyedmutex2.htm
 ms.assetid: fedd7aa0-366c-4083-b6d2-692332813b3f
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTCreateKeyedMutex2, D3DKMTCreateKeyedMutex2 callback function [Display Devices], PFND3DKMT_CREATEKEYEDMUTEX2, PFND3DKMT_CREATEKEYEDMUTEX2 callback, d3dkmthk/D3DKMTCreateKeyedMutex2, display.d3dkmtcreatekeyedmutex2
 ms.topic: callback
 req.header: d3dkmthk.h

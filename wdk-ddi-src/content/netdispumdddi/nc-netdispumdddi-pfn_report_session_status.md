@@ -6,7 +6,7 @@ description: Called by the user-mode display driver to report the status of the 
 old-location: display\reportsessionstatus.htm
 tech.root: display
 ms.assetid: a3e44e55-5c6a-4a79-8caa-3a3b9db6b456
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFN_REPORT_SESSION_STATUS, PFN_REPORT_SESSION_STATUS callback, ReportSessionStatus, ReportSessionStatus callback function [Display Devices], display.reportsessionstatus, netdispumdddi/ReportSessionStatus
 ms.topic: callback
 req.header: netdispumdddi.h

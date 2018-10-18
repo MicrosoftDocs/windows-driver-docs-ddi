@@ -6,7 +6,7 @@ description: A driver's EvtDeviceSelfManagedIoRestart event callback function re
 old-location: wdf\evtdeviceselfmanagediorestart.htm
 tech.root: wdf
 ms.assetid: 13d7fbc6-6f93-4ef9-abd4-f2adc4e8e23a
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_31761962-577a-4a53-8b55-226801f42960.xml, EVT_WDF_DEVICE_SELF_MANAGED_IO_RESTART, EVT_WDF_DEVICE_SELF_MANAGED_IO_RESTART callback, EvtDeviceSelfManagedIoRestart, EvtDeviceSelfManagedIoRestart callback function, kmdf.evtdeviceselfmanagediorestart, wdf.evtdeviceselfmanagediorestart, wdfdevice/EvtDeviceSelfManagedIoRestart
 ms.topic: callback
 req.header: wdfdevice.h

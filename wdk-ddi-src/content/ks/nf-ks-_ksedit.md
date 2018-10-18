@@ -6,7 +6,7 @@ description: The _KsEdit function guarantees that a given item is dynamically al
 old-location: stream\_ksedit.htm
 tech.root: stream
 ms.assetid: 9368846a-b985-40f4-8b02-1bb48431141a
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "_KsEdit, _KsEdit function [Streaming Media Devices], avfunc_1e902412-8322-4155-9fdb-dfc0fa1b6b37.xml, ks/_KsEdit, stream._ksedit"
 ms.topic: function
 req.header: ks.h

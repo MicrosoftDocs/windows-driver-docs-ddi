@@ -6,7 +6,7 @@ description: The WdfDeviceSetSpecialFileSupport method enables or disables a fun
 old-location: wdf\wdfdevicesetspecialfilesupport.htm
 tech.root: wdf
 ms.assetid: 7648c486-181a-45c8-9c4b-e3158428046a
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_c40463ef-3c26-431e-99d8-d176b0ef7ebf.xml, WdfDeviceSetSpecialFileSupport, WdfDeviceSetSpecialFileSupport method, kmdf.wdfdevicesetspecialfilesupport, wdf.wdfdevicesetspecialfilesupport, wdfdevice/WdfDeviceSetSpecialFileSupport
 ms.topic: function
 req.header: wdfdevice.h

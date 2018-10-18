@@ -6,7 +6,7 @@ description: The WdfIoQueueStopSynchronously method prevents an I/O queue from d
 old-location: wdf\wdfioqueuestopsynchronously.htm
 tech.root: wdf
 ms.assetid: b92072a6-fa6e-4b8d-83c3-b2844443f5c8
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_9f415317-56ca-4c4f-9f33-560258351999.xml, WdfIoQueueStopSynchronously, WdfIoQueueStopSynchronously method, kmdf.wdfioqueuestopsynchronously, wdf.wdfioqueuestopsynchronously, wdfio/WdfIoQueueStopSynchronously
 ms.topic: function
 req.header: wdfio.h

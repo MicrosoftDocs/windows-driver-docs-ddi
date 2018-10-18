@@ -6,7 +6,7 @@ description: Specifies info on a multiplane overlay capability group.
 old-location: display\d3dddi_multiplane_overlay_group_caps_input.htm
 tech.root: display
 ms.assetid: 0AF66863-A1C0-4BCF-A677-BAF7F2961390
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT structure [Display Devices], PD3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, PD3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT structure pointer [Display Devices], d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, d3dumddi/PD3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, display.d3dddi_multiplane_overlay_group_caps_input
 ms.topic: struct
 req.header: d3dumddi.h

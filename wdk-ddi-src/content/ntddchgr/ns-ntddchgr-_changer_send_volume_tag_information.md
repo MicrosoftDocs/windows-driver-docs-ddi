@@ -6,7 +6,7 @@ description: This structure is passed to the ChangerQueryVolumeTags routine and 
 old-location: storage\changer_send_volume_tag_information.htm
 tech.root: storage
 ms.assetid: cfe0673c-1dcb-4c4e-9ec4-8d9f27919c85
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PCHANGER_SEND_VOLUME_TAG_INFORMATION, CHANGER_SEND_VOLUME_TAG_INFORMATION, CHANGER_SEND_VOLUME_TAG_INFORMATION structure [Storage Devices], PCHANGER_SEND_VOLUME_TAG_INFORMATION, PCHANGER_SEND_VOLUME_TAG_INFORMATION structure pointer [Storage Devices], _CHANGER_SEND_VOLUME_TAG_INFORMATION, ntddchgr/CHANGER_SEND_VOLUME_TAG_INFORMATION, ntddchgr/PCHANGER_SEND_VOLUME_TAG_INFORMATION, storage.changer_send_volume_tag_information, structs-changer_3f8d7f13-bf38-41fe-aa74-bbd9083bbbb6.xml"
 ms.topic: struct
 req.header: ntddchgr.h

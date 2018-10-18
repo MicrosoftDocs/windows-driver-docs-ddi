@@ -6,7 +6,7 @@ description: The READ_REGISTER_UCHAR routine reads a byte from the specified reg
 old-location: kernel\read_register_uchar.htm
 tech.root: kernel
 ms.assetid: 49f9d7d7-c774-4ba5-a9f3-6d605a3de674
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: READ_REGISTER_UCHAR, READ_REGISTER_UCHAR routine [Kernel-Mode Driver Architecture], k103_b7970afc-0b18-49c4-b873-a9fd689c0c97.xml, kernel.read_register_uchar, wdm/READ_REGISTER_UCHAR
 ms.topic: function
 req.header: wudfwdm.h

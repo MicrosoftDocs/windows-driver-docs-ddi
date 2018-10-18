@@ -6,7 +6,7 @@ description: The DxgkDdiQueryChildStatus function returns the status of an indiv
 old-location: display\dxgkddiquerychildstatus.htm
 tech.root: display
 ms.assetid: 478e0c52-4324-4062-8e1e-381808b0f481
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_QUERY_CHILD_STATUS, DXGKDDI_QUERY_CHILD_STATUS callback, DmFunctions_3da69961-14d3-4bf8-9427-9c47d9bbfb89.xml, DxgkDdiQueryChildStatus, DxgkDdiQueryChildStatus callback function [Display Devices], display.dxgkddiquerychildstatus, dispmprt/DxgkDdiQueryChildStatus
 ms.topic: callback
 req.header: dispmprt.h

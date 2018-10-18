@@ -6,7 +6,7 @@ description: The WDF_USB_CONTINUOUS_READER_CONFIG structure contains information
 old-location: wdf\wdf_usb_continuous_reader_config.htm
 tech.root: wdf
 ms.assetid: 9b98d5f1-6052-4c52-b3d4-031c8a0db51c
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*PWDF_USB_CONTINUOUS_READER_CONFIG, DFUsbRef_f74973fe-cb6c-470f-acd8-805ff2ea3c19.xml, PWDF_USB_CONTINUOUS_READER_CONFIG, PWDF_USB_CONTINUOUS_READER_CONFIG structure pointer, WDF_USB_CONTINUOUS_READER_CONFIG, WDF_USB_CONTINUOUS_READER_CONFIG structure, _WDF_USB_CONTINUOUS_READER_CONFIG, kmdf.wdf_usb_continuous_reader_config, wdf.wdf_usb_continuous_reader_config, wdfusb/PWDF_USB_CONTINUOUS_READER_CONFIG, wdfusb/WDF_USB_CONTINUOUS_READER_CONFIG"
 ms.topic: struct
 req.header: wdfusb.h

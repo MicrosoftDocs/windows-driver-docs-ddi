@@ -6,7 +6,7 @@ description: One D3DHAL_DP2TRIANGLELIST structure is parsed from the command buf
 old-location: display\d3dhal_dp2trianglelist.htm
 tech.root: display
 ms.assetid: f9a9b407-dae5-4456-8542-4f5b06af50a5
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_DP2TRIANGLELIST, D3DHAL_DP2TRIANGLELIST, D3DHAL_DP2TRIANGLELIST structure [Display Devices], LPD3DHAL_DP2TRIANGLELIST, LPD3DHAL_DP2TRIANGLELIST structure pointer [Display Devices], _D3DHAL_DP2TRIANGLELIST, d3dhal/D3DHAL_DP2TRIANGLELIST, d3dhal/LPD3DHAL_DP2TRIANGLELIST, d3dstrct_3e5f6bc4-358d-4db1-88b3-2f7c7484abb4.xml, display.d3dhal_dp2trianglelist"
 ms.topic: struct
 req.header: d3dhal.h

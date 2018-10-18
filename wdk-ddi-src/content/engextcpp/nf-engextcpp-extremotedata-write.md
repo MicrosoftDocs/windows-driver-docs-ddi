@@ -6,7 +6,7 @@ description: The Write method writes the data cached by the ExtRemoteData object
 old-location: debugger\extremotedata_write.htm
 tech.root: debugger
 ms.assetid: 970c725b-4ea0-42b7-a373-83cb463cd80d
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_1288bed4-2f61-4af4-a226-5157a0622f42.xml, ExtRemoteData class [Windows Debugging],Write method, ExtRemoteData.Write, ExtRemoteData::Write, Write, Write method [Windows Debugging], Write method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_write
 ms.topic: method
 req.header: engextcpp.hpp

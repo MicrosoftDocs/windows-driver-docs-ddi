@@ -6,7 +6,7 @@ description: The KsDispatchQuerySecurity function is used in the KSDISPATCH_TABL
 old-location: stream\ksdispatchquerysecurity.htm
 tech.root: stream
 ms.assetid: 0aed2613-b40f-4328-91c4-c8e945c6ef17
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsDispatchQuerySecurity, KsDispatchQuerySecurity function [Streaming Media Devices], ks/KsDispatchQuerySecurity, ksfunc_9bf0ae3b-19d0-455d-9d58-2d7b7c515f30.xml, stream.ksdispatchquerysecurity
 ms.topic: function
 req.header: ks.h

@@ -6,7 +6,7 @@ description: Returns the length, in bytes, of the disk, partition, or volume ass
 old-location: storage\ioctl_disk_get_length_info.htm
 tech.root: storage
 ms.assetid: 62d31b13-bc4a-4b2f-82be-551a61cae218
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_DISK_GET_LENGTH_INFO, IOCTL_DISK_GET_LENGTH_INFO control, IOCTL_DISK_GET_LENGTH_INFO control code [Storage Devices], k307_50fea771-4937-481d-9a1b-f4d69bb939bb.xml, ntdddisk/IOCTL_DISK_GET_LENGTH_INFO, storage.ioctl_disk_get_length_info
 ms.topic: ioctl
 req.header: ntdddisk.h

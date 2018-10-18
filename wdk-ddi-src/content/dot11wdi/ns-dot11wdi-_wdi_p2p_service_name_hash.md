@@ -6,7 +6,7 @@ description: The WDI_P2P_SERVICE_NAME_HASH structure defines a hash of a WFDS Se
 old-location: netvista\wdi_p2p_service_name_hash.htm
 tech.root: netvista
 ms.assetid: B03C779A-ED25-48D7-BB5E-EB95ED1B2D00
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWDI_P2P_SERVICE_NAME_HASH, PWDI_P2P_SERVICE_NAME_HASH, PWDI_P2P_SERVICE_NAME_HASH structure pointer [Network Drivers Starting with Windows Vista], WDI_P2P_SERVICE_NAME_HASH, WDI_P2P_SERVICE_NAME_HASH structure [Network Drivers Starting with Windows Vista], _WDI_P2P_SERVICE_NAME_HASH, dot11wdi/PWDI_P2P_SERVICE_NAME_HASH, dot11wdi/WDI_P2P_SERVICE_NAME_HASH, netvista.wdi_p2p_service_name_hash"
 ms.topic: struct
 req.header: dot11wdi.h

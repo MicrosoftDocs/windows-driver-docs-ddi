@@ -6,7 +6,7 @@ description: Describes inline frame context.
 old-location: debugger\inline_frame_context.htm
 tech.root: debugger
 ms.assetid: 6EB52227-8685-4096-882F-64550A84DE4F
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: INLINE_FRAME_CONTEXT, INLINE_FRAME_CONTEXT union [Windows Debugging], _INLINE_FRAME_CONTEXT, dbgeng/INLINE_FRAME_CONTEXT, debugger.inline_frame_context
 ms.topic: struct
 req.header: dbgeng.h

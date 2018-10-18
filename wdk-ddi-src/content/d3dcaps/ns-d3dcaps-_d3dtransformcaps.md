@@ -6,7 +6,7 @@ description: Obsolete in DirectX 8.0 and later versions. D3DTRANSFORMCAPS struct
 old-location: display\d3dtransformcaps.htm
 tech.root: display
 ms.assetid: 4eb6c31d-97b2-4d51-ae49-ed2ab395188a
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DTRANSFORMCAPS, D3DTRANSFORMCAPS, D3DTRANSFORMCAPS structure [Display Devices], LPD3DTRANSFORMCAPS, LPD3DTRANSFORMCAPS structure pointer [Display Devices], _D3DTRANSFORMCAPS, d3dcaps/D3DTRANSFORMCAPS, d3dcaps/LPD3DTRANSFORMCAPS, d3dstrct_9dc73cc8-edfd-424e-b902-0305de356c07.xml, display.d3dtransformcaps"
 ms.topic: struct
 req.header: d3dcaps.h

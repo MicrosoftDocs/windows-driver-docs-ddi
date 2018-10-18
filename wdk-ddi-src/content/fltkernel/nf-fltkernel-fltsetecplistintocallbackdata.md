@@ -6,7 +6,7 @@ description: The FltSetEcpListIntoCallbackData routine attaches an extra create 
 old-location: ifsk\fltsetecplistintocallbackdata.htm
 tech.root: ifsk
 ms.assetid: 91179c1c-fe45-418f-8992-a40e41e3017a
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_01e8fac7-3c58-4ed2-85ac-38580cca36e6.xml, FltSetEcpListIntoCallbackData, FltSetEcpListIntoCallbackData routine [Installable File System Drivers], fltkernel/FltSetEcpListIntoCallbackData, ifsk.fltsetecplistintocallbackdata
 ms.topic: function
 req.header: fltkernel.h

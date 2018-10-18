@@ -6,7 +6,7 @@ description: The GetTypedNode method returns the current list item.
 old-location: debugger\extremotetypedlist_gettypednode.htm
 tech.root: debugger
 ms.assetid: f74090c9-4e15-4d6c-bb62-b8d5c56d5a1c
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_d00ee135-bef4-4326-97e5-374d52fd20a6.xml, ExtRemoteTypedList class [Windows Debugging],GetTypedNode method, ExtRemoteTypedList.GetTypedNode, ExtRemoteTypedList::GetTypedNode, GetTypedNode, GetTypedNode method [Windows Debugging], GetTypedNode method [Windows Debugging],ExtRemoteTypedList class, debugger.extremotetypedlist_gettypednode
 ms.topic: method
 req.header: engextcpp.hpp

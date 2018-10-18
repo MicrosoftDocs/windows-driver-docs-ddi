@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Data structure for the D3D12DDICAPS_TYPE_VIDEO_0032_PROCESSOR_SIZE capability check. Retrieves the memory allocation size of a video processor created with the given properties.
 old-location: display\d3d12ddi_video_processor_size_data_0032.htm
 ms.assetid: B5A0E067-E91B-4B35-A355-36E15665CF43
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0032, D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0032, display.d3d12ddi_video_processor_size_data_0032
 ms.topic: struct
 req.header: d3d12umddi.h

@@ -6,7 +6,7 @@ description: The SearchMemory function searches the target's virtual memory for 
 old-location: debugger\searchmemory.htm
 tech.root: debugger
 ms.assetid: 7e07c47e-803b-44fa-9d0f-aa86475246d2
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: SearchMemory, SearchMemory function [Windows Debugging], WdbgExts_Ref_4eb909e5-edfd-487c-851c-812b15274c66.xml, debugger.searchmemory, wdbgexts/SearchMemory
 ms.topic: function
 req.header: wdbgexts.h

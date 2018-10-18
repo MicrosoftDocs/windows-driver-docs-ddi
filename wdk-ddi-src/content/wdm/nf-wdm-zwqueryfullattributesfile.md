@@ -6,7 +6,7 @@ description: The ZwQueryFullAttributesFile routine supplies network open informa
 old-location: kernel\zwqueryfullattributesfile.htm
 tech.root: kernel
 ms.assetid: 896ea6aa-54e8-4109-8597-58d8d2cd75ce
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtQueryFullAttributesFile, ZwQueryFullAttributesFile, ZwQueryFullAttributesFile routine [Kernel-Mode Driver Architecture], k111_58eefadc-2aff-4252-82a6-6f0c9ab43a19.xml, kernel.zwqueryfullattributesfile, wdm/NtQueryFullAttributesFile, wdm/ZwQueryFullAttributesFile
 ms.topic: function
 req.header: wdm.h

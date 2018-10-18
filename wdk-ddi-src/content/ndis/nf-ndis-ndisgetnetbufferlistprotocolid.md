@@ -6,7 +6,7 @@ description: The NdisGetNetBufferListProtocolId function retrieves the protocol 
 old-location: netvista\ndisgetnetbufferlistprotocolid.htm
 tech.root: netvista
 ms.assetid: a90b1318-ce21-4483-b253-767674fe0a2f
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisGetNetBufferListProtocolId, NdisGetNetBufferListProtocolId function [Network Drivers Starting with Windows Vista], ndis/NdisGetNetBufferListProtocolId, ndis_netbuf_functions_ref_7ce217e7-6d68-4e22-af32-bc984c1b7677.xml, netvista.ndisgetnetbufferlistprotocolid
 ms.topic: function
 req.header: ndis.h

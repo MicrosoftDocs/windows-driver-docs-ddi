@@ -6,7 +6,7 @@ description: The VideoPortAcquireSpinLockAtDpcLevel function acquires a spin loc
 old-location: display\videoportacquirespinlockatdpclevel.htm
 tech.root: display
 ms.assetid: 72c6e923-e7c0-4d3d-a115-33e3e11053eb
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortAcquireSpinLockAtDpcLevel, VideoPortAcquireSpinLockAtDpcLevel function [Display Devices], VideoPort_Functions_fc52bdfd-6f1a-4f5c-93e6-321d2488bcd5.xml, display.videoportacquirespinlockatdpclevel, video/VideoPortAcquireSpinLockAtDpcLevel
 ms.topic: function
 req.header: video.h

@@ -6,7 +6,7 @@ description: The WdfPdoRequestEject method informs the framework that a specifie
 old-location: wdf\wdfpdorequesteject.htm
 tech.root: wdf
 ms.assetid: 40cd83c0-701a-436f-a3c3-b0ab14848a92
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_f57ccd07-8cb3-4972-bddb-aa704d9422b0.xml, WdfPdoRequestEject, WdfPdoRequestEject method, kmdf.wdfpdorequesteject, wdf.wdfpdorequesteject, wdfpdo/WdfPdoRequestEject
 ms.topic: function
 req.header: wdfpdo.h

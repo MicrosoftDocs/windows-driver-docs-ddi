@@ -6,7 +6,7 @@ description: Gives information about the device that will process the swap chain
 old-location: display\idarg_in_swapchainsetdevice.htm
 tech.root: display
 ms.assetid: afd52391-5b18-4b86-9d35-2d9ed3e20256
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IDARG_IN_SWAPCHAINSETDEVICE, IDARG_IN_SWAPCHAINSETDEVICE structure [Display Devices], display.idarg_in_swapchainsetdevice, iddcx/IDARG_IN_SWAPCHAINSETDEVICE
 ms.topic: struct
 req.header: iddcx.h

@@ -6,7 +6,7 @@ description: A driver's EvtChildListDeviceReenumerated event callback function e
 old-location: wdf\evtchildlistdevicereenumerated.htm
 tech.root: wdf
 ms.assetid: 404436c3-6ddb-4212-ad51-23a956d7df52
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectChildListRef_70b8a1c2-d157-4d57-85d3-09566977b649.xml, EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED, EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED callback, EvtChildListDeviceReenumerated, EvtChildListDeviceReenumerated callback function, kmdf.evtchildlistdevicereenumerated, wdf.evtchildlistdevicereenumerated, wdfchildlist/EvtChildListDeviceReenumerated
 ms.topic: callback
 req.header: wdfchildlist.h

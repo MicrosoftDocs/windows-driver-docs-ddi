@@ -6,7 +6,7 @@ description: The NdisSystemActiveProcessorCount function returns the number of c
 old-location: netvista\ndissystemactiveprocessorcount.htm
 tech.root: netvista
 ms.assetid: 7ddb54eb-9f20-4cb9-8488-5f2806d23430
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisSystemActiveProcessorCount, NdisSystemActiveProcessorCount function [Network Drivers Starting with Windows Vista], ndis/NdisSystemActiveProcessorCount, ndis_sysinfo_ref_f69290a6-03f9-4fe8-bc02-6f58a650fa00.xml, netvista.ndissystemactiveprocessorcount
 ms.topic: function
 req.header: ndis.h

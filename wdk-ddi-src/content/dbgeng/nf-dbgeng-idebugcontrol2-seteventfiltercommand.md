@@ -6,7 +6,7 @@ description: The SetEventFilterCommand method sets a debugger command for the en
 old-location: debugger\seteventfiltercommand.htm
 tech.root: debugger
 ms.assetid: d68d0a98-ec93-4643-a6c1-eff9d5618e03
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugControl interface [Windows Debugging],SetEventFilterCommand method, IDebugControl2 interface [Windows Debugging],SetEventFilterCommand method, IDebugControl2.SetEventFilterCommand, IDebugControl2::SetEventFilterCommand, IDebugControl3 interface [Windows Debugging],SetEventFilterCommand method, IDebugControl3::SetEventFilterCommand, IDebugControl::SetEventFilterCommand, IDebugControl_b0661dd4-9ecd-49ac-93e1-86d3c6c2c3f6.xml, SetEventFilterCommand, SetEventFilterCommand method [Windows Debugging], SetEventFilterCommand method [Windows Debugging],IDebugControl interface, SetEventFilterCommand method [Windows Debugging],IDebugControl2 interface, SetEventFilterCommand method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetEventFilterCommand, dbgeng/IDebugControl3::SetEventFilterCommand, dbgeng/IDebugControl::SetEventFilterCommand, debugger.seteventfiltercommand
 ms.topic: method
 req.header: dbgeng.h

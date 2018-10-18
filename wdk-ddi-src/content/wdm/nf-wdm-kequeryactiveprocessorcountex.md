@@ -6,7 +6,7 @@ description: The KeQueryActiveProcessorCountEx routine returns the number of act
 old-location: kernel\kequeryactiveprocessorcountex.htm
 tech.root: kernel
 ms.assetid: 3884eb16-56a0-4b48-abf3-a74794b2c996
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeQueryActiveProcessorCountEx, KeQueryActiveProcessorCountEx routine [Kernel-Mode Driver Architecture], k105_7cd9a091-c100-4b0c-9ea0-9b831407d5a1.xml, kernel.kequeryactiveprocessorcountex, wdm/KeQueryActiveProcessorCountEx
 ms.topic: function
 req.header: wdm.h

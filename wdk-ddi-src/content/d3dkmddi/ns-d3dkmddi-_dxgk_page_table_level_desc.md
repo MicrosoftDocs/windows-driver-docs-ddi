@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The DXGK_PAGE_TABLE_LEVEL_DESC structure describes capabilities that are applied at the page level.
 old-location: display\dxgk_page_table_level_desc.htm
 ms.assetid: 45BC190C-8985-4F8A-AC84-4ACBBCE9EB67
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_PAGE_TABLE_LEVEL_DESC, DXGK_PAGE_TABLE_LEVEL_DESC structure [Display Devices], _DXGK_PAGE_TABLE_LEVEL_DESC, d3dkmddi/DXGK_PAGE_TABLE_LEVEL_DESC, display.dxgk_page_table_level_desc
 ms.topic: struct
 req.header: d3dkmddi.h

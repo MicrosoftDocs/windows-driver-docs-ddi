@@ -6,7 +6,7 @@ description: The IRemoteTargetCallbackRemoval interface provides callback functi
 old-location: wdf\iremotetargetcallbackremoval.htm
 tech.root: wdf
 ms.assetid: 72271173-8851-4980-9b52-f9e14f1fe071
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IRemoteTargetCallbackRemoval, IRemoteTargetCallbackRemoval interface, IRemoteTargetCallbackRemoval interface,described, UMDFIoTargetObjectRef_7508512a-9bfc-4563-bf01-48e9caf6ba4f.xml, umdf.iremotetargetcallbackremoval, wdf.iremotetargetcallbackremoval, wudfddi/IRemoteTargetCallbackRemoval
 ms.topic: interface
 req.header: wudfddi.h

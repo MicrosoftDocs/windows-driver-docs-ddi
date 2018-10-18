@@ -6,7 +6,7 @@ description: The HBA_SendLIRR routine registers or de-registers a local (source)
 old-location: storage\hba_sendlirr.htm
 tech.root: storage
 ms.assetid: 2e38d297-1e26-4605-a242-3f0180ac0360
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_SendLIRR, HBA_SendLIRR routine [Storage Devices], fibreHBA_rtns_c9e05691-f605-4946-bb8c-ab317464523a.xml, hbaapi/HBA_SendLIRR, storage.hba_sendlirr
 ms.topic: function
 req.header: hbaapi.h

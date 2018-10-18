@@ -6,7 +6,7 @@ description: A filter driver can call the NdisFDevicePnPEventNotify function to 
 old-location: netvista\ndisfdevicepnpeventnotify.htm
 tech.root: netvista
 ms.assetid: ae5dd48b-7777-4232-89ad-ac4464e03e57
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisFDevicePnPEventNotify, NdisFDevicePnPEventNotify function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_56e249ae-0200-4c98-b20c-03cc8d3fdd7d.xml, ndis/NdisFDevicePnPEventNotify, netvista.ndisfdevicepnpeventnotify
 ms.topic: function
 req.header: ndis.h

@@ -6,7 +6,7 @@ description: Returns the size, position, and visibility of the cursor.
 old-location: display\ioctl_video_query_cursor_attr.htm
 tech.root: display
 ms.assetid: c4ec2813-3e5f-401d-8ad4-cd0682e15e5b
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IOCTL_VIDEO_QUERY_CURSOR_ATTR, IOCTL_VIDEO_QUERY_CURSOR_ATTR control, IOCTL_VIDEO_QUERY_CURSOR_ATTR control code [Display Devices], Video_IOCTLs_5c88c1de-006e-4141-9dcd-59d03d51755f.xml, display.ioctl_video_query_cursor_attr, ntddvdeo/IOCTL_VIDEO_QUERY_CURSOR_ATTR
 ms.topic: ioctl
 req.header: ntddvdeo.h

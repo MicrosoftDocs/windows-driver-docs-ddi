@@ -6,7 +6,7 @@ description: The FltQueryVolumeInformation routine retrieves information about t
 old-location: ifsk\fltqueryvolumeinformation.htm
 tech.root: ifsk
 ms.assetid: 57b65e87-7f2d-44fc-84b9-e029c8075be3
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FileFsAttributeInformation, FileFsControlInformation, FileFsDeviceInformation, FileFsDriverPathInformation, FileFsFullSizeInformation, FileFsObjectIdInformation, FileFsSectorSizeInformation, FileFsSizeInformation, FileFsVolumeInformation, FltApiRef_p_to_z_1b2db9a1-36d0-4503-bd97-7f24b68ad513.xml, FltQueryVolumeInformation, FltQueryVolumeInformation routine [Installable File System Drivers], fltkernel/FltQueryVolumeInformation, ifsk.fltqueryvolumeinformation
 ms.topic: function
 req.header: fltkernel.h

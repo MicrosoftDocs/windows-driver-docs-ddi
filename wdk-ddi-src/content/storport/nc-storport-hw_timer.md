@@ -6,7 +6,7 @@ description: The HwStorTimer routine is called after the interval that is specif
 old-location: storage\hwstortimer.htm
 tech.root: storage
 ms.assetid: 61aced1b-9f8a-454a-901c-561ec6179873
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HW_TIMER, HwStorTimer, HwStorTimer routine [Storage Devices], storage.hwstortimer, stormini_6127daf5-8672-4bf4-9241-b67bed14b8f8.xml, storport/HwStorTimer
 ms.topic: callback
 req.header: storport.h

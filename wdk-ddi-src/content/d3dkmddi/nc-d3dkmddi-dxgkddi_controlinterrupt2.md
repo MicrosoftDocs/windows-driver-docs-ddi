@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The DxgkDdi_ControlInterrupt2 function enables or disables the given interrupt type on the graphics hardware.
 old-location: display\dxgkddicontrolinterrupt2.htm
 ms.assetid: 0C09CAB1-3DFC-4340-8FF2-99CAF7F13156
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_CONTROLINTERRUPT2, DXGKDDI_CONTROLINTERRUPT2 callback, DxgkDdi_ControlInterrupt2, DxgkDdi_ControlInterrupt2 callback function [Display Devices], d3dkmddi/DxgkDdi_ControlInterrupt2, display.dxgkddicontrolinterrupt2
 ms.topic: callback
 req.header: d3dkmddi.h

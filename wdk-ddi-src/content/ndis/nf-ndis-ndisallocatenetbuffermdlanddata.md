@@ -6,7 +6,7 @@ description: NDIS drivers call the NdisAllocateNetBufferMdlAndData function to a
 old-location: netvista\ndisallocatenetbuffermdlanddata.htm
 tech.root: netvista
 ms.assetid: cfac9061-a685-4e67-aaa2-ca43b7e36cfa
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisAllocateNetBufferMdlAndData, NdisAllocateNetBufferMdlAndData function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateNetBufferMdlAndData, ndis_netbuf_functions_ref_4f5d872d-11c1-4d75-889c-0c2157ce5f2e.xml, netvista.ndisallocatenetbuffermdlanddata
 ms.topic: function
 req.header: ndis.h

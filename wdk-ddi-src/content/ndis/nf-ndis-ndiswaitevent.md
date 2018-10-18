@@ -6,7 +6,7 @@ description: The NdisWaitEvent function puts the caller into a wait state until 
 old-location: netvista\ndiswaitevent.htm
 tech.root: netvista
 ms.assetid: fefdb56f-6689-4a4f-a198-6108190624f0
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisWaitEvent, NdisWaitEvent function [Network Drivers Starting with Windows Vista], ndis/NdisWaitEvent, ndis_event_ref_d607d02a-0509-4399-90e8-bbfb43d613b3.xml, netvista.ndiswaitevent
 ms.topic: function
 req.header: ndis.h

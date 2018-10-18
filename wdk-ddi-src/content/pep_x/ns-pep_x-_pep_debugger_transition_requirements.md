@@ -6,7 +6,7 @@ description: The PEP_DEBUGGER_TRANSITION_REQUIREMENTS structure indicates the pl
 old-location: kernel\pep_debugger_transition_requirements.htm
 tech.root: kernel
 ms.assetid: 5DF830CA-ECC3-404A-AA5F-3DB487BC85B3
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_DEBUGGER_TRANSITION_REQUIREMENTS, PEP_DEBUGGER_TRANSITION_REQUIREMENTS, PEP_DEBUGGER_TRANSITION_REQUIREMENTS structure [Kernel-Mode Driver Architecture], PPEP_DEBUGGER_TRANSITION_REQUIREMENTS, PPEP_DEBUGGER_TRANSITION_REQUIREMENTS structure pointer [Kernel-Mode Driver Architecture], _PEP_DEBUGGER_TRANSITION_REQUIREMENTS, kernel.pep_debugger_transition_requirements, pepfx/PEP_DEBUGGER_TRANSITION_REQUIREMENTS, pepfx/PPEP_DEBUGGER_TRANSITION_REQUIREMENTS"
 ms.topic: struct
 req.header: pep_x.h

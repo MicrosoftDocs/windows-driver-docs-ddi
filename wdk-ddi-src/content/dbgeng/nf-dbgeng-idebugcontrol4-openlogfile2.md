@@ -6,7 +6,7 @@ description: The OpenLogFile2 method opens a log file that will receive output f
 old-location: debugger\openlogfile2.htm
 tech.root: debugger
 ms.assetid: 58550baa-8d15-43c7-b75d-1370c36e833d
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugControl4 interface [Windows Debugging],OpenLogFile2 method, IDebugControl4.OpenLogFile2, IDebugControl4::OpenLogFile2, IDebugControl_93e0a810-9b23-43c2-b714-99a39c398f1e.xml, OpenLogFile2, OpenLogFile2 method [Windows Debugging], OpenLogFile2 method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::OpenLogFile2, debugger.openlogfile2
 ms.topic: method
 req.header: dbgeng.h

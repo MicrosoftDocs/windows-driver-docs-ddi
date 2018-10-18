@@ -6,7 +6,7 @@ description: The WdfDeviceAddRemovalRelationsPhysicalDevice method indicates tha
 old-location: wdf\wdfdeviceaddremovalrelationsphysicaldevice.htm
 tech.root: wdf
 ms.assetid: 4638905f-cefb-4bf0-aa00-64f2f096dc22
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_5e16c670-eb46-4c83-88e0-32eb41aeeac3.xml, WdfDeviceAddRemovalRelationsPhysicalDevice, WdfDeviceAddRemovalRelationsPhysicalDevice method, kmdf.wdfdeviceaddremovalrelationsphysicaldevice, wdf.wdfdeviceaddremovalrelationsphysicaldevice, wdfdevice/WdfDeviceAddRemovalRelationsPhysicalDevice
 ms.topic: function
 req.header: wdfdevice.h

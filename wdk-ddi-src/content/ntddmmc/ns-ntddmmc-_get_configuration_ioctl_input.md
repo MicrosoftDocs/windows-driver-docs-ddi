@@ -6,7 +6,7 @@ description: The GET_CONFIGURATION_IOCTL_INPUT structure is used in conjunction 
 old-location: storage\get_configuration_ioctl_input.htm
 tech.root: storage
 ms.assetid: 6b8d9cbf-bb05-40a1-9129-52510befebe3
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PGET_CONFIGURATION_IOCTL_INPUT, GET_CONFIGURATION_IOCTL_INPUT, GET_CONFIGURATION_IOCTL_INPUT structure [Storage Devices], PGET_CONFIGURATION_IOCTL_INPUT, PGET_CONFIGURATION_IOCTL_INPUT structure pointer [Storage Devices], _GET_CONFIGURATION_IOCTL_INPUT, ntddmmc/GET_CONFIGURATION_IOCTL_INPUT, ntddmmc/PGET_CONFIGURATION_IOCTL_INPUT, storage.get_configuration_ioctl_input, structs-CD-ROM_1bac7730-693e-4d41-b672-260f83765e35.xml"
 ms.topic: struct
 req.header: ntddmmc.h

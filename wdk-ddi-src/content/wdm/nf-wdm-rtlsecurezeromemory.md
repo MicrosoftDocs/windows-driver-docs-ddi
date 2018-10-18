@@ -6,7 +6,7 @@ description: The RtlSecureZeroMemory routine fills a block of memory with zeros 
 old-location: kernel\rtlsecurezeromemory.htm
 tech.root: kernel
 ms.assetid: b7a9beaf-5eca-4fb0-af63-06c002297085
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlSecureZeroMemory, RtlSecureZeroMemory routine [Kernel-Mode Driver Architecture], k109_8bcffbc1-2930-416b-a192-b70c477d1910.xml, kernel.rtlsecurezeromemory, wdm/RtlSecureZeroMemory
 ms.topic: function
 req.header: wdm.h

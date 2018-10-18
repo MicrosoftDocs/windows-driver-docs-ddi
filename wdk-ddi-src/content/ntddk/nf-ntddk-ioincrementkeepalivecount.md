@@ -6,7 +6,7 @@ description: The IoIncrementKeepAliveCount routine increments a reference count 
 old-location: kernel\ioincrementkeepalivecount.htm
 tech.root: kernel
 ms.assetid: A80754BD-0F23-4EE9-898F-30743AA82C72
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoIncrementKeepAliveCount, IoIncrementKeepAliveCount routine [Kernel-Mode Driver Architecture], kernel.ioincrementkeepalivecount, ntddk/IoIncrementKeepAliveCount
 ms.topic: function
 req.header: ntddk.h

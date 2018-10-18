@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Do not use the D3DKMT_DEBUG_SNAPSHOT_ESCAPE structure; it is for testing purposes only. The D3DKMT_DEBUG_SNAPSHOT_ESCAPE structure describes a debug snapshot that is returned in a call to the D3DKMTEscape function.
 old-location: display\d3dkmt_debug_snapshot_escape.htm
 ms.assetid: f5aa4829-6264-444c-b8e6-23854cb87534
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_DEBUG_SNAPSHOT_ESCAPE, D3DKMT_DEBUG_SNAPSHOT_ESCAPE structure [Display Devices], OpenGL_Structs_c8ece404-4d73-4d77-96c3-b2f5ceb94feb.xml, _D3DKMT_DEBUG_SNAPSHOT_ESCAPE, d3dkmthk/D3DKMT_DEBUG_SNAPSHOT_ESCAPE, display.d3dkmt_debug_snapshot_escape
 ms.topic: struct
 req.header: d3dkmthk.h

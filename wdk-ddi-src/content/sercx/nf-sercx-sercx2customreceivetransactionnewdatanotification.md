@@ -6,7 +6,7 @@ description: The SerCx2CustomReceiveTransactionNewDataNotification method notifi
 old-location: serports\sercx2customreceivetransactionnewdatanotification.htm
 tech.root: serports
 ms.assetid: 181B2619-A8A8-45ED-935B-B4F12A0695E0
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SerCx2CustomReceiveTransactionNewDataNotification, SerCx2CustomReceiveTransactionNewDataNotification, SerCx2CustomReceiveTransactionNewDataNotification method [Serial Ports], serports.sercx2customreceivetransactionnewdatanotification
 ms.topic: function
 req.header: sercx.h

@@ -6,7 +6,7 @@ description: The NDIS_WWAN_DEVICE_CAPS_EX structure represents the capabilities 
 old-location: netvista\ndis_wwan_device_caps_ex.htm
 tech.root: netvista
 ms.assetid: FC801FA3-699F-4EE5-BED9-35CA696A5E52
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_WWAN_DEVICE_CAPS_EX, NDIS_WWAN_DEVICE_CAPS_EX, NDIS_WWAN_DEVICE_CAPS_EX structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_CAPS_EX, PNDIS_WWAN_DEVICE_CAPS_EX structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_CAPS_EX, ndiswwan/NDIS_WWAN_DEVICE_CAPS_EX, ndiswwan/PNDIS_WWAN_DEVICE_CAPS_EX, netvista.ndis_wwan_device_caps_ex"
 ms.topic: struct
 req.header: ndiswwan.h

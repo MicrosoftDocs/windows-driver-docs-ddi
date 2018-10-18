@@ -6,7 +6,7 @@ description: The STOR_DEVICE_CAPABILITIES_EX structure reports device capabiliti
 old-location: storage\stor_device_capabilities_ex.htm
 tech.root: storage
 ms.assetid: 6DCD1F8A-45E3-4084-9688-AE59597D65AF
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSTOR_DEVICE_CAPABILITIES_EX, PSTOR_DEVICE_CAPABILITIES_EX, PSTOR_DEVICE_CAPABILITIES_EX structure pointer [Storage Devices], STOR_DEVICE_CAPABILITIES_EX, STOR_DEVICE_CAPABILITIES_EX structure [Storage Devices], _STOR_DEVICE_CAPABILITIES_EX, storage.stor_device_capabilities_ex, storport/PSTOR_DEVICE_CAPABILITIES_EX, storport/STOR_DEVICE_CAPABILITIES_EX"
 ms.topic: struct
 req.header: minitape.h

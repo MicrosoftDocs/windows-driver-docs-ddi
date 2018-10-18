@@ -6,7 +6,7 @@ description: The PEP_PPM_QUERY_PLATFORM_STATES structure specifies the number of
 old-location: kernel\pep_ppm_query_platform_states.htm
 tech.root: kernel
 ms.assetid: 488EC668-15B9-4B6F-B8AA-3142DB87D19B
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_PPM_QUERY_PLATFORM_STATES, PEP_PPM_QUERY_PLATFORM_STATES, PEP_PPM_QUERY_PLATFORM_STATES structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_PLATFORM_STATES, PPEP_PPM_QUERY_PLATFORM_STATES structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_PLATFORM_STATES, kernel.pep_ppm_query_platform_states, pepfx/PEP_PPM_QUERY_PLATFORM_STATES, pepfx/PPEP_PPM_QUERY_PLATFORM_STATES"
 ms.topic: struct
 req.header: pep_x.h

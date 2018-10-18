@@ -6,7 +6,7 @@ description: This macro is reserved for internal use only.
 old-location: wdf\wdf_get_context_type_info.htm
 tech.root: wdf
 ms.assetid: 3273a4b6-9c5e-4671-be9e-45cdd010558a
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFGenObjectRef_861429b7-5829-4a9e-81e2-b88947b36d62.xml, WDF_GET_CONTEXT_TYPE_INFO, WDF_GET_CONTEXT_TYPE_INFO macro, kmdf.wdf_get_context_type_info, wdf.wdf_get_context_type_info, wdfobject/WDF_GET_CONTEXT_TYPE_INFO
 ms.topic: macro
 req.header: wdfobject.h

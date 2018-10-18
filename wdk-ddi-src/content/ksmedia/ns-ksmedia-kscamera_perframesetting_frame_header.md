@@ -6,7 +6,7 @@ description: This structure contains the header information for a frame in a per
 old-location: stream\kscamera_perframesetting_frame_header.htm
 tech.root: stream
 ms.assetid: 59A52F4B-D987-420D-BF83-1375354C6D6A
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSCAMERA_PERFRAMESETTING_FRAME_HEADER, KSCAMERA_PERFRAMESETTING_FRAME_HEADER, KSCAMERA_PERFRAMESETTING_FRAME_HEADER structure [Streaming Media Devices], PKSCAMERA_PERFRAMESETTING_FRAME_HEADER, PKSCAMERA_PERFRAMESETTING_FRAME_HEADER structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_PERFRAMESETTING_FRAME_HEADER, ksmedia/PKSCAMERA_PERFRAMESETTING_FRAME_HEADER, stream.kscamera_perframesetting_frame_header"
 ms.topic: struct
 req.header: ksmedia.h

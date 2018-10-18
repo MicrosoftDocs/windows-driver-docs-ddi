@@ -6,7 +6,7 @@ description: The StartProcessServerWide method starts a process server.
 old-location: debugger\startprocessserverwide.htm
 tech.root: debugger
 ms.assetid: 1e72578c-9359-4275-a4f2-2b5ae4dbf2b7
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugClient5 interface [Windows Debugging],StartProcessServerWide method, IDebugClient5.StartProcessServerWide, IDebugClient5::StartProcessServerWide, StartProcessServerWide, StartProcessServerWide method [Windows Debugging], StartProcessServerWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::StartProcessServerWide, debugger.startprocessserverwide
 ms.topic: method
 req.header: dbgeng.h

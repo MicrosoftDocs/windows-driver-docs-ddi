@@ -6,7 +6,7 @@ description: The RtlHashUnicodeString routine creates a hash value from a given 
 old-location: kernel\rtlhashunicodestring.htm
 tech.root: kernel
 ms.assetid: 69a18c4a-9e28-47fb-9d2e-206d660eea6c
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlHashUnicodeString, RtlHashUnicodeString routine [Kernel-Mode Driver Architecture], k109_090277b1-32f6-4c3d-b1fc-bacec35efc1d.xml, kernel.rtlhashunicodestring, wdm/RtlHashUnicodeString
 ms.topic: function
 req.header: wdm.h

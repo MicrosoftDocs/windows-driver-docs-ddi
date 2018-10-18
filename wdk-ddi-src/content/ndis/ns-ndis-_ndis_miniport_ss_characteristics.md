@@ -6,7 +6,7 @@ description: The NDIS_MINIPORT_SS_CHARACTERISTICS structure specifies the pointe
 old-location: netvista\ndis_miniport_ss_characteristics.htm
 tech.root: netvista
 ms.assetid: 325E5717-6B84-45AE-85D4-BA1839DB76A2
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_MINIPORT_SS_CHARACTERISTICS, NDIS_MINIPORT_SS_CHARACTERISTICS, NDIS_MINIPORT_SS_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_SS_CHARACTERISTICS, PNDIS_MINIPORT_SS_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_SS_CHARACTERISTICS, ndis/NDIS_MINIPORT_SS_CHARACTERISTICS, ndis/PNDIS_MINIPORT_SS_CHARACTERISTICS, netvista.ndis_miniport_ss_characteristics"
 ms.topic: struct
 req.header: ndis.h

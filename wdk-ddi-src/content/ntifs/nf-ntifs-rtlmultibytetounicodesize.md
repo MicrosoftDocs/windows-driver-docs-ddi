@@ -6,7 +6,7 @@ description: The RtlMultiByteToUnicodeSize routine determines the number of byte
 old-location: ifsk\rtlmultibytetounicodesize.htm
 tech.root: ifsk
 ms.assetid: f285e319-23ef-4951-8fb3-107cd54a23b3
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlMultiByteToUnicodeSize, RtlMultiByteToUnicodeSize routine [Installable File System Drivers], ifsk.rtlmultibytetounicodesize, ntifs/RtlMultiByteToUnicodeSize, rtlref_f2e77505-7c59-4bb2-993f-622ea16a83c6.xml
 ms.topic: function
 req.header: ntifs.h

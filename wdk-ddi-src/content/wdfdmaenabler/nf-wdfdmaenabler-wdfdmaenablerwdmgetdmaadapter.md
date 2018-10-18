@@ -6,7 +6,7 @@ description: The WdfDmaEnablerWdmGetDmaAdapter method returns a pointer to a WDM
 old-location: wdf\wdfdmaenablerwdmgetdmaadapter.htm
 tech.root: wdf
 ms.assetid: 2546303a-53c3-4c6b-a230-eb1ebd74cb76
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDmaObjectRef_9ed5be1b-56fd-4305-8aad-0ebb0856e34a.xml, WdfDmaEnablerWdmGetDmaAdapter, WdfDmaEnablerWdmGetDmaAdapter method, kmdf.wdfdmaenablerwdmgetdmaadapter, wdf.wdfdmaenablerwdmgetdmaadapter, wdfdmaenabler/WdfDmaEnablerWdmGetDmaAdapter
 ms.topic: function
 req.header: wdfdmaenabler.h

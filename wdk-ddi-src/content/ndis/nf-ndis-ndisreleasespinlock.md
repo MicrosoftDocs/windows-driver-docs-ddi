@@ -6,7 +6,7 @@ description: The NdisReleaseSpinLock function releases a spin lock that was acqu
 old-location: netvista\ndisreleasespinlock.htm
 tech.root: netvista
 ms.assetid: dd833373-2879-49f0-9b16-fddb2f7495c1
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisReleaseSpinLock, NdisReleaseSpinLock macro [Network Drivers Starting with Windows Vista], ndis/NdisReleaseSpinLock, ndis_spin_lock_ref_a4e1c783-4682-401c-a198-fdc14cbfa383.xml, netvista.ndisreleasespinlock
 ms.topic: macro
 req.header: ndis.h

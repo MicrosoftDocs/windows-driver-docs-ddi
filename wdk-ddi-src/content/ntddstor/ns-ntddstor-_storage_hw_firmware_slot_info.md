@@ -6,7 +6,7 @@ description: This structure contains information about a slot on a device.
 old-location: storage\storage_hw_firmware_slot_info.htm
 tech.root: storage
 ms.assetid: D5DF9785-83E0-4137-8E5F-357F94721CAD
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSTORAGE_HW_FIRMWARE_SLOT_INFO, PSTORAGE_HW_FIRMWARE_SLOT_INFO, PSTORAGE_HW_FIRMWARE_SLOT_INFO structure pointer [Storage Devices], STORAGE_HW_FIRMWARE_SLOT_INFO, STORAGE_HW_FIRMWARE_SLOT_INFO structure [Storage Devices], _STORAGE_HW_FIRMWARE_SLOT_INFO, ntddstor/PSTORAGE_HW_FIRMWARE_SLOT_INFO, ntddstor/STORAGE_HW_FIRMWARE_SLOT_INFO, storage.storage_hw_firmware_slot_info"
 ms.topic: struct
 req.header: ntddstor.h

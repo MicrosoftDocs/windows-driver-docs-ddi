@@ -6,7 +6,7 @@ description: The ProtocolCmAddParty function is a required function.
 old-location: netvista\protocolcmaddparty.htm
 tech.root: netvista
 ms.assetid: 06aa5ff6-974c-43dd-8395-bc1a1a8421d5
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CM_ADD_PARTY, PROTOCOL_CM_ADD_PARTY callback, ProtocolCmAddParty, ProtocolCmAddParty callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_06efc681-bd3d-4bcc-938e-5ba45ce97279.xml, ndis/ProtocolCmAddParty, netvista.protocolcmaddparty
 ms.topic: callback
 req.header: ndis.h

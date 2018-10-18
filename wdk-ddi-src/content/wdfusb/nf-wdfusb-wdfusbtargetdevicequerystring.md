@@ -6,7 +6,7 @@ description: The WdfUsbTargetDeviceQueryString method retrieves the Unicode stri
 old-location: wdf\wdfusbtargetdevicequerystring.htm
 tech.root: wdf
 ms.assetid: e7b25a47-e197-4670-9907-409d5aeb5462
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_ea603209-6043-48e6-b8ff-4795f572dea6.xml, WdfUsbTargetDeviceQueryString, WdfUsbTargetDeviceQueryString method, kmdf.wdfusbtargetdevicequerystring, wdf.wdfusbtargetdevicequerystring, wdfusb/WdfUsbTargetDeviceQueryString
 ms.topic: function
 req.header: wdfusb.h

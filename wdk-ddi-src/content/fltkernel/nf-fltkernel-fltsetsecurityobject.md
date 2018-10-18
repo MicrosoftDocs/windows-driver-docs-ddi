@@ -6,7 +6,7 @@ description: FltSetSecurityObject sets an object's security state.
 old-location: ifsk\fltsetsecurityobject.htm
 tech.root: ifsk
 ms.assetid: 3276dff3-d12a-4a30-bbdc-a582a2228df3
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_1174281c-5ba7-489b-8b8a-c0a4697ce678.xml, FltSetSecurityObject, FltSetSecurityObject function [Installable File System Drivers], fltkernel/FltSetSecurityObject, ifsk.fltsetsecurityobject
 ms.topic: function
 req.header: fltkernel.h

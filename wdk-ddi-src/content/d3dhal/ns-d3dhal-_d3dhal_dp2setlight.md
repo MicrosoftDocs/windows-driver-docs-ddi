@@ -6,7 +6,7 @@ description: The D3DHAL_DP2SETLIGHT structure allows lights to be set for D3dDra
 old-location: display\d3dhal_dp2setlight.htm
 tech.root: display
 ms.assetid: 442b5867-b420-46eb-a751-cd460641c505
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_DP2SETLIGHT, D3DHAL_DP2SETLIGHT, D3DHAL_DP2SETLIGHT structure [Display Devices], LPD3DHAL_DP2SETLIGHT, LPD3DHAL_DP2SETLIGHT structure pointer [Display Devices], _D3DHAL_DP2SETLIGHT, d3dhal/D3DHAL_DP2SETLIGHT, d3dhal/LPD3DHAL_DP2SETLIGHT, d3dstrct_253f0e1b-ff61-4324-a75f-25577bce318b.xml, display.d3dhal_dp2setlight"
 ms.topic: struct
 req.header: d3dhal.h

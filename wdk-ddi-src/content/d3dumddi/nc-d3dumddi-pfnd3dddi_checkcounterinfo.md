@@ -6,7 +6,7 @@ description: Called by the Microsoft Direct3D runtime to determine global inform
 old-location: display\pfncheckcounterinfo.htm
 tech.root: display
 ms.assetid: 98B8EE79-18D2-4C57-964B-74DB550C1330
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_CHECKCOUNTERINFO, PFND3DDDI_CHECKCOUNTERINFO callback, d3dumddi/pfnCheckCounterInfo, display.pfncheckcounterinfo, pfnCheckCounterInfo, pfnCheckCounterInfo callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h

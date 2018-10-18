@@ -6,7 +6,7 @@ description: The IOCTL_SERIAL_GET_LINE_CONTROL request returns information about
 old-location: serports\ioctl_serial_get_line_control.htm
 tech.root: serports
 ms.assetid: 72585a00-ee43-44fa-a6f4-baa9fe5a2e3f
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_GET_LINE_CONTROL, IOCTL_SERIAL_GET_LINE_CONTROL control, IOCTL_SERIAL_GET_LINE_CONTROL control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_LINE_CONTROL, serports.ioctl_serial_get_line_control, serref_46b42112-a960-44dc-8ce7-3c8d68746fe9.xml
 ms.topic: ioctl
 req.header: ntddser.h

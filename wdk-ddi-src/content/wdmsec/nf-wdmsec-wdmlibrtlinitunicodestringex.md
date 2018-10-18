@@ -6,7 +6,7 @@ description: The WdmlibRtlInitUnicodeStringEx function initializes a counted str
 old-location: kernel\wdmlibrtlinitunicodestringex.htm
 tech.root: kernel
 ms.assetid: 79DEDC5B-2A9B-4493-9CB3-7290BEBBD291
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlInitUnicodeString, WdmlibRtlInitUnicodeStringEx, WdmlibRtlInitUnicodeStringEx function [Kernel-Mode Driver Architecture], kernel.wdmlibrtlinitunicodestringex, wdmsec/RtlInitUnicodeString, wdmsec/WdmlibRtlInitUnicodeStringEx
 ms.topic: function
 req.header: wdmsec.h

@@ -6,7 +6,7 @@ description: The DxgkCbIsDevicePresent function determines whether a specified P
 old-location: display\dxgkcbisdevicepresent.htm
 tech.root: display
 ms.assetid: 82716a1a-e361-40ad-b3cd-bdcd3abc75f8
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKCB_IS_DEVICE_PRESENT, DXGKCB_IS_DEVICE_PRESENT callback, DpFunctions_0ef5f8dd-52b6-4bf6-a19b-f87043ff6d18.xml, DxgkCbIsDevicePresent, DxgkCbIsDevicePresent callback function [Display Devices], display.dxgkcbisdevicepresent, dispmprt/DxgkCbIsDevicePresent
 ms.topic: callback
 req.header: dispmprt.h

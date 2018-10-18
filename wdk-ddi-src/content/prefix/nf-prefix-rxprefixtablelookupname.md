@@ -6,7 +6,7 @@ description: RxPrefixTableLookupName looks up a name in a prefix table used to c
 old-location: ifsk\rxprefixtablelookupname.htm
 tech.root: ifsk
 ms.assetid: 20d61d23-4151-4a23-8963-6e38a08f391e
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxPrefixTableLookupName, RxPrefixTableLookupName function [Installable File System Drivers], ifsk.rxprefixtablelookupname, prefix/RxPrefixTableLookupName, rxref_e46fe04e-07a6-4733-936e-e70a51009618.xml
 ms.topic: function
 req.header: prefix.h

@@ -6,7 +6,7 @@ description: The PEP_ACPI_OBJECT_NAME_WITH_TYPE structure that specifies both th
 old-location: kernel\pep_acpi_object_name_with_type.htm
 tech.root: kernel
 ms.assetid: 7DD01461-4890-4095-A55C-771EA0EEA642
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_ACPI_OBJECT_NAME_WITH_TYPE, PEP_ACPI_OBJECT_NAME_WITH_TYPE, PEP_ACPI_OBJECT_NAME_WITH_TYPE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_OBJECT_NAME_WITH_TYPE, PPEP_ACPI_OBJECT_NAME_WITH_TYPE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_OBJECT_NAME_WITH_TYPE, kernel.pep_acpi_object_name_with_type, pepfx/PEP_ACPI_OBJECT_NAME_WITH_TYPE, pepfx/PPEP_ACPI_OBJECT_NAME_WITH_TYPE"
 ms.topic: struct
 req.header: pepfx.h

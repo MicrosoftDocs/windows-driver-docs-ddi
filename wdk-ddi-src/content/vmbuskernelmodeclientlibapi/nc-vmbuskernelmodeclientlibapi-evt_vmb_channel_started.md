@@ -6,7 +6,7 @@ description: The EvtVmbChannelStarted callback function is invoked at either end
 old-location: netvista\evt_vmb_channel_started.htm
 tech.root: netvista
 ms.assetid: C4F35016-3F93-4258-A42F-D692AF690020
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: EVT_VMB_CHANNEL_STARTED, EVT_VMB_CHANNEL_STARTED callback, EvtVmbChannelStarted, EvtVmbChannelStarted callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_STARTED, PFN_VMB_CHANNEL_STARTED callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_started, vmbuskernelmodeclientlibapi/EvtVmbChannelStarted
 ms.topic: callback
 req.header: vmbuskernelmodeclientlibapi.h

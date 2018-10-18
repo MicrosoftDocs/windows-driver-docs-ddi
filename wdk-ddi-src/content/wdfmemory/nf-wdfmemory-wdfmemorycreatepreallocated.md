@@ -6,7 +6,7 @@ description: The WdfMemoryCreatePreallocated method creates a framework memory o
 old-location: wdf\wdfmemorycreatepreallocated.htm
 tech.root: wdf
 ms.assetid: 8c4f9abc-f03d-4084-b0ce-34aea5dd7d96
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFMemoryObjectRef_03f219cd-a77b-4a17-b67a-2b01e0aeb3e6.xml, WdfMemoryCreatePreallocated, WdfMemoryCreatePreallocated method, kmdf.wdfmemorycreatepreallocated, wdf.wdfmemorycreatepreallocated, wdfmemory/WdfMemoryCreatePreallocated
 ms.topic: function
 req.header: wdfmemory.h

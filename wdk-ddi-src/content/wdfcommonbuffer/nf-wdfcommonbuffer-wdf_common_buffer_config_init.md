@@ -6,7 +6,7 @@ description: The WDF_COMMON_BUFFER_CONFIG_INIT function initializes a WDF_COMMON
 old-location: wdf\wdf_common_buffer_config_init.htm
 tech.root: wdf
 ms.assetid: a678516a-159f-42bc-b135-489677452472
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFCommonBufferObjectRef_23c5b41e-89ce-448c-86fa-3ae4e688b378.xml, WDF_COMMON_BUFFER_CONFIG_INIT, WDF_COMMON_BUFFER_CONFIG_INIT function, kmdf.wdf_common_buffer_config_init, wdf.wdf_common_buffer_config_init, wdfcommonbuffer/WDF_COMMON_BUFFER_CONFIG_INIT
 ms.topic: function
 req.header: wdfcommonbuffer.h

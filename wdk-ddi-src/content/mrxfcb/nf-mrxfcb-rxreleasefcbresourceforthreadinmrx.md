@@ -6,7 +6,7 @@ description: RxReleaseFcbResourceForThreadInMRx releases the FCB resource acquir
 old-location: ifsk\rxreleasefcbresourceforthreadinmrx.htm
 tech.root: ifsk
 ms.assetid: 86b6f18b-4088-4fa3-ace3-f083f61ef0d0
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxReleaseFcbResourceForThreadInMRx, RxReleaseFcbResourceForThreadInMRx function [Installable File System Drivers], ifsk.rxreleasefcbresourceforthreadinmrx, mrxfcb/RxReleaseFcbResourceForThreadInMRx, rxref_bed9a8b0-1761-413e-b816-599b51a7f305.xml
 ms.topic: function
 req.header: mrxfcb.h

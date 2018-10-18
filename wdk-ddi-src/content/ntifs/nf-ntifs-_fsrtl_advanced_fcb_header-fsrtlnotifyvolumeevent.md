@@ -6,7 +6,7 @@ description: The FsRtlNotifyVolumeEvent routine notifies any registered applicat
 old-location: ifsk\fsrtlnotifyvolumeevent.htm
 tech.root: ifsk
 ms.assetid: a630d986-10a7-4b3f-a5b4-05de7879b146
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlNotifyVolumeEvent, FsRtlNotifyVolumeEvent routine [Installable File System Drivers], fsrtlref_a242139a-dc66-4522-85a2-4f910d999d4d.xml, ifsk.fsrtlnotifyvolumeevent, ntifs/FsRtlNotifyVolumeEvent
 ms.topic: function
 req.header: ntifs.h

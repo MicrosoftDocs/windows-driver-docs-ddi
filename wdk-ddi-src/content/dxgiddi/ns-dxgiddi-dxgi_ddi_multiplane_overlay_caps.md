@@ -6,7 +6,7 @@ description: Used by the user-mode display driver to specify overlay plane capab
 old-location: display\dxgi_ddi_multiplane_overlay_caps.htm
 tech.root: display
 ms.assetid: 269d9a51-bc01-4de4-b160-35c725c174f7
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_CAPS, DXGI_DDI_MULTIPLANE_OVERLAY_CAPS structure [Display Devices], display.dxgi_ddi_multiplane_overlay_caps, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_CAPS
 ms.topic: struct
 req.header: dxgiddi.h

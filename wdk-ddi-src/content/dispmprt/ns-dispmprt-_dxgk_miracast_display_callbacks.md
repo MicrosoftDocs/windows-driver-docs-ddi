@@ -6,7 +6,7 @@ description: Contains pointers to functions in the Wireless display (Miracast) d
 old-location: display\dxgk_miracast_display_callbacks.htm
 tech.root: display
 ms.assetid: C60F03A1-AD90-43C7-99DF-5EC45151D1F5
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*PDXGK_MIRACAST_DISPLAY_CALLBACKS, DXGK_MIRACAST_DISPLAY_CALLBACKS, DXGK_MIRACAST_DISPLAY_CALLBACKS structure [Display Devices], PDXGK_MIRACAST_DISPLAY_CALLBACKS, PDXGK_MIRACAST_DISPLAY_CALLBACKS structure pointer [Display Devices], _DXGK_MIRACAST_DISPLAY_CALLBACKS, display.dxgk_miracast_display_callbacks, dispmprt/DXGK_MIRACAST_DISPLAY_CALLBACKS, dispmprt/PDXGK_MIRACAST_DISPLAY_CALLBACKS"
 ms.topic: struct
 req.header: dispmprt.h

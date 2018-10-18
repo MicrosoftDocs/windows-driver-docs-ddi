@@ -6,7 +6,7 @@ description: The EvtSerCx2PioReceiveReadBuffer event callback function is called
 old-location: serports\evtsercx2pioreceivereadbuffer.htm
 tech.root: serports
 ms.assetid: B69A128A-B1B0-47BC-9783-32780FC9C447
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2PioReceiveReadBuffer, EVT_SERCX2_PIO_RECEIVE_READ_BUFFER, EVT_SERCX2_PIO_RECEIVE_READ_BUFFER callback, EvtSerCx2PioReceiveReadBuffer, EvtSerCx2PioReceiveReadBuffer callback function [Serial Ports], serports.evtsercx2pioreceivereadbuffer
 ms.topic: callback
 req.header: sercx.h

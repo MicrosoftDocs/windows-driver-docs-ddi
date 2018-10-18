@@ -6,7 +6,7 @@ description: The GetUlongPtr method returns an unsigned integer version (extende
 old-location: debugger\extremotedata_getulongptr.htm
 tech.root: debugger
 ms.assetid: 1a3a870b-9f50-4430-b4f4-6d877d2fac3e
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_22ba632d-a45b-40de-b8d7-269c917357d5.xml, ExtRemoteData class [Windows Debugging],GetUlongPtr method, ExtRemoteData.GetUlongPtr, ExtRemoteData::GetUlongPtr, GetUlongPtr, GetUlongPtr method [Windows Debugging], GetUlongPtr method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getulongptr
 ms.topic: method
 req.header: engextcpp.hpp

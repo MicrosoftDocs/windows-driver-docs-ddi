@@ -6,7 +6,7 @@ description: The ProtocolClIncomingCloseCall function is used by all connection-
 old-location: netvista\protocolclincomingclosecall.htm
 tech.root: netvista
 ms.assetid: 01c7d887-eb54-47c3-98f0-bc567b60fb4b
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CL_INCOMING_CLOSE_CALL, PROTOCOL_CL_INCOMING_CLOSE_CALL callback, ProtocolClIncomingCloseCall, ProtocolClIncomingCloseCall callback function [Network Drivers Starting with Windows Vista], condis_client_ref_3c97fa3b-d9ae-4748-8812-9abc896a509a.xml, ndis/ProtocolClIncomingCloseCall, netvista.protocolclincomingclosecall
 ms.topic: callback
 req.header: ndis.h

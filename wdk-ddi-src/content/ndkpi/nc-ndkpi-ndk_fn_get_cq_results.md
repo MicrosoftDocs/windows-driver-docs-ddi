@@ -6,7 +6,7 @@ description: The NdkGetCqResults (NDK_FN_GET_CQ_RESULTS) function removes comple
 old-location: netvista\ndk_fn_get_cq_results.htm
 tech.root: netvista
 ms.assetid: CDCDCF99-4A81-43FE-8A3D-0726699905BB
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_FN_GET_CQ_RESULTS, NDK_FN_GET_CQ_RESULTS callback, NdkGetCqResults, NdkGetCqResults callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetCqResults, netvista.ndk_fn_get_cq_results
 ms.topic: callback
 req.header: ndkpi.h

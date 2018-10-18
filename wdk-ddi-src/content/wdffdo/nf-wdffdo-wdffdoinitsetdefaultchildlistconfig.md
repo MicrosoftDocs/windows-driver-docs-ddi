@@ -6,7 +6,7 @@ description: The WdfFdoInitSetDefaultChildListConfig method configures a bus dri
 old-location: wdf\wdffdoinitsetdefaultchildlistconfig.htm
 tech.root: wdf
 ms.assetid: 656a0c58-dd12-4417-a781-464d1670592c
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_676a2185-db9b-498e-84e3-52b8ac32584c.xml, WdfFdoInitSetDefaultChildListConfig, WdfFdoInitSetDefaultChildListConfig method, kmdf.wdffdoinitsetdefaultchildlistconfig, wdf.wdffdoinitsetdefaultchildlistconfig, wdffdo/WdfFdoInitSetDefaultChildListConfig
 ms.topic: function
 req.header: wdffdo.h

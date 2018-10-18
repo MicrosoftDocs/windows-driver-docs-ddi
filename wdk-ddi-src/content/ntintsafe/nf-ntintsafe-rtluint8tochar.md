@@ -6,7 +6,7 @@ description: Converts a value of type UINT8 to a value of type CHAR.
 old-location: kernel\rtluint8tochar.htm
 tech.root: kernel
 ms.assetid: 78EAB56F-8E6D-4048-83DC-1B9BC75E08B5
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUInt8ToChar, RtlUInt8ToChar function [Kernel-Mode Driver Architecture], kernel.rtluint8tochar, ntintsafe/RtlUInt8ToChar
 ms.topic: function
 req.header: ntintsafe.h

@@ -6,7 +6,7 @@ description: The WdfDmaTransactionSetDeviceAddressOffset method specifies the of
 old-location: wdf\wdfdmatransactionsetdeviceaddressoffset.htm
 tech.root: wdf
 ms.assetid: A45231E0-0807-41AA-B20F-6335067BE99A
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfDmaTransactionSetDeviceAddressOffset, WdfDmaTransactionSetDeviceAddressOffset method, kmdf.wdfdmatransactionsetdeviceaddressoffset, wdf.wdfdmatransactionsetdeviceaddressoffset, wdfdmatransaction/WdfDmaTransactionSetDeviceAddressOffset
 ms.topic: function
 req.header: wdfdmatransaction.h

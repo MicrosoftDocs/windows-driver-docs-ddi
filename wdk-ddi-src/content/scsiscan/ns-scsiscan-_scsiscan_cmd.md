@@ -6,7 +6,7 @@ description: The SCSISCAN_CMD structure is used as a parameter to DeviceIoContro
 old-location: image\scsiscan_cmd.htm
 tech.root: image
 ms.assetid: 412c35b2-eb08-43a3-b776-053645806f5d
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: "*PSCSISCAN_CMD, PSCSISCAN_CMD, PSCSISCAN_CMD structure pointer [Imaging Devices], SCSISCAN_CMD, SCSISCAN_CMD structure [Imaging Devices], _SCSISCAN_CMD, image.scsiscan_cmd, scsiscan/PSCSISCAN_CMD, scsiscan/SCSISCAN_CMD, stifnc_2a67c5d9-7866-4dc5-8ce4-6bc832cbf7de.xml"
 ms.topic: struct
 req.header: scsiscan.h

@@ -6,7 +6,7 @@ description: The WdfDeviceInitSetExclusive method indicates whether a specified 
 old-location: wdf\wdfdeviceinitsetexclusive.htm
 tech.root: wdf
 ms.assetid: 4bbcf4d3-e1f9-4e13-ac56-92ffddea1f67
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_fb2fbd3a-e78a-4632-b84f-b3e62a6efc94.xml, WdfDeviceInitSetExclusive, WdfDeviceInitSetExclusive method, kmdf.wdfdeviceinitsetexclusive, wdf.wdfdeviceinitsetexclusive, wdfdevice/WdfDeviceInitSetExclusive
 ms.topic: function
 req.header: wdfdevice.h

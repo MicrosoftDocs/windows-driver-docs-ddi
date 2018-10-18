@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The D3DKMTWaitForIdle function waits for a display device to be idle.
 old-location: display\d3dkmtwaitforidle.htm
 ms.assetid: 6107da09-3f3d-4a89-91e4-f920061f7704
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTWaitForIdle, D3DKMTWaitForIdle function [Display Devices], OpenGL_Functions_80855290-d991-4e03-aa64-f0fb486c57b0.xml, d3dkmthk/D3DKMTWaitForIdle, display.d3dkmtwaitforidle
 ms.topic: function
 req.header: d3dkmthk.h

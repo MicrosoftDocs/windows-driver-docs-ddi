@@ -6,7 +6,7 @@ description: The WDF_OBJECT_ATTRIBUTES_INIT function initializes a driver's WDF_
 old-location: wdf\wdf_object_attributes_init.htm
 tech.root: wdf
 ms.assetid: c8412ad0-a3c2-41cf-aed6-32b244bc3969
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFGenObjectRef_2d1e5e34-5637-4301-807c-ad525d4cb34b.xml, WDF_OBJECT_ATTRIBUTES_INIT, WDF_OBJECT_ATTRIBUTES_INIT function, kmdf.wdf_object_attributes_init, wdf.wdf_object_attributes_init, wdfobject/WDF_OBJECT_ATTRIBUTES_INIT
 ms.topic: function
 req.header: wdfobject.h

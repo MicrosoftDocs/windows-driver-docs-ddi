@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Used in the DXGK_POWER_RUNTIME_COMPONENT.ComponentMapping member to define the standard component types of the Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys) that describe the power component.
 old-location: display\dxgk_power_component_mapping.htm
 ms.assetid: 6aa00a36-f7a2-4e49-bbd9-1a1ae3592951
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_POWER_COMPONENT_MAPPING, DXGK_POWER_COMPONENT_MAPPING structure [Display Devices], _DXGK_POWER_COMPONENT_MAPPING, d3dkmddi/DXGK_POWER_COMPONENT_MAPPING, display.dxgk_power_component_mapping
 ms.topic: struct
 req.header: d3dkmddi.h

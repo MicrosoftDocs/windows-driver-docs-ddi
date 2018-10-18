@@ -6,7 +6,7 @@ description: The TapeClassAllocateSrbBuffer routine allocates an Srb-&gt;DataBuf
 old-location: storage\tapeclassallocatesrbbuffer.htm
 tech.root: storage
 ms.assetid: f6762d9b-5a3d-49a3-b954-48e4e4a9eacb
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: TapeClassAllocateSrbBuffer, TapeClassAllocateSrbBuffer routine [Storage Devices], minitape/TapeClassAllocateSrbBuffer, storage.tapeclassallocatesrbbuffer, tapeclas_77717175-fd25-4cbe-8baf-8c326a5ec152.xml
 ms.topic: function
 req.header: minitape.h

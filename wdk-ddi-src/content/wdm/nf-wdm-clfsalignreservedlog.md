@@ -6,7 +6,7 @@ description: The ClfsAlignReservedLog routine calculates the size of the space t
 old-location: kernel\clfsalignreservedlog.htm
 tech.root: kernel
 ms.assetid: b79f58bb-af94-4143-9e30-6f50d85cbb3d
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ClfsAlignReservedLog, ClfsAlignReservedLog routine [Kernel-Mode Driver Architecture], Clfs_68de31de-d1f9-4948-ab15-bf8678aebcf2.xml, kernel.clfsalignreservedlog, wdm/ClfsAlignReservedLog
 ms.topic: function
 req.header: wdm.h

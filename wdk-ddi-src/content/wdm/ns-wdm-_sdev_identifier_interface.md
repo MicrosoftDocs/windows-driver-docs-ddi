@@ -6,7 +6,7 @@ description: This material is not yet available. This placeholder topic is provi
 old-location: kernel\_sdev_identifier_interface.htm
 tech.root: kernel
 ms.assetid: ead624cc-8aff-4a87-bdeb-066534caa61b
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PSDEV_IDENTIFIER_INTERFACE, SDEV_IDENTIFIER_INTERFACE, SDEV_IDENTIFIER_INTERFACE structure [Kernel-Mode Driver Architecture], _SDEV_IDENTIFIER_INTERFACE, kernel._sdev_identifier_interface, wdm/SDEV_IDENTIFIER_INTERFACE"
 ms.topic: struct
 req.header: wdm.h

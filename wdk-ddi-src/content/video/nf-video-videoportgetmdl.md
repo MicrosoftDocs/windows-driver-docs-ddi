@@ -6,7 +6,7 @@ description: The VideoPortGetMdl function is obsolete in Windows 2000 and later.
 old-location: display\videoportgetmdl.htm
 tech.root: display
 ms.assetid: 03ec6323-a3f9-485d-80c8-92ac99d8e73a
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortGetMdl, VideoPortGetMdl function [Display Devices], VideoPort_Functions_570b04cd-9b69-4d1a-b953-7220d4fc7790.xml, display.videoportgetmdl, video/VideoPortGetMdl
 ms.topic: function
 req.header: video.h

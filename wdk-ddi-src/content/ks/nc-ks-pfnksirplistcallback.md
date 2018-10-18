@@ -6,7 +6,7 @@ description: A streaming minidriver's KStrIrpListCallback routine is called to d
 old-location: stream\kstrirplistcallback.htm
 tech.root: stream
 ms.assetid: acddecb5-f3e9-413e-a68c-91d71119e0f6
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KStrIrpListCallback, KStrIrpListCallback routine [Streaming Media Devices], PFNKSIRPLISTCALLBACK, ks/KStrIrpListCallback, ksfunc_90be2b49-883f-476a-9d01-d1e1296844ab.xml, stream.kstrirplistcallback
 ms.topic: callback
 req.header: ks.h

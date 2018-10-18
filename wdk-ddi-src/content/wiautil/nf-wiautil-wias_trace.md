@@ -6,7 +6,7 @@ description: The WIAS_TRACE macro writes a diagnostic message to the Wiatrace.lo
 old-location: image\wias_trace.htm
 tech.root: image
 ms.assetid: 9f6b06bf-60d3-4ec2-8c49-405bff2ccb5e
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IWiaLog_c755ea6c-c312-4b15-be83-a437358b83a9.xml, WIAS_TRACE, WIAS_TRACE macro [Imaging Devices], image.wias_trace, wiamdef/WIAS_TRACE
 ms.topic: macro
 req.header: wiautil.h

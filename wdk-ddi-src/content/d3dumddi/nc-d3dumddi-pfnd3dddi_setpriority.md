@@ -6,7 +6,7 @@ description: The SetPriority function sets the eviction-from-memory priority for
 old-location: display\setpriority.htm
 tech.root: display
 ms.assetid: 61ac2d28-7aed-4796-8d09-591db936013b
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETPRIORITY, PFND3DDDI_SETPRIORITY callback, SetPriority, SetPriority callback function [Display Devices], UserModeDisplayDriver_Functions_6e8f2a2a-f88b-45b6-9c59-b942cb44664b.xml, d3dumddi/SetPriority, display.setpriority
 ms.topic: callback
 req.header: d3dumddi.h

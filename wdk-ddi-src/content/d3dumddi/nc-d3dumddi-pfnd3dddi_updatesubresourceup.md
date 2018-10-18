@@ -6,7 +6,7 @@ description: Called by the Microsoft Direct3D runtime to update a destination su
 old-location: display\pfnupdatesubresourceup.htm
 tech.root: display
 ms.assetid: 5AF55FED-6FD6-41BE-A743-1E9D0EA51C9C
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_UPDATESUBRESOURCEUP, PFND3DDDI_UPDATESUBRESOURCEUP callback, d3dumddi/pfnUpdateSubresourceUP, display.pfnupdatesubresourceup, pfnUpdateSubresourceUP, pfnUpdateSubresourceUP callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h

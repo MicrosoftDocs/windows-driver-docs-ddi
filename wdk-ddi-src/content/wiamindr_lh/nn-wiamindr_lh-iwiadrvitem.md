@@ -6,7 +6,7 @@ description: The IWiaDrvItem interface provides methods that a WIA minidriver ca
 old-location: image\iwiadrvitem_interface.htm
 tech.root: image
 ms.assetid: 0609e1b2-48df-413c-90bd-d7ddea26510a
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: DrvItem_9dbe78e4-0823-4edc-b86e-75e25d4de981.xml, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], IWiaDrvItem interface [Imaging Devices],described, image.iwiadrvitem_interface, wiamindr_lh/IWiaDrvItem
 ms.topic: interface
 req.header: wiamindr_lh.h

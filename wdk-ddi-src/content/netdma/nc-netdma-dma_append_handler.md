@@ -6,7 +6,7 @@ description: The ProviderAppendDma function appends a linked list of DMA descrip
 old-location: netvista\providerappenddma.htm
 tech.root: netvista
 ms.assetid: 51de8ddf-cbfc-4e49-b44a-207307a937e7
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: DMA_APPEND_HANDLER, DMA_APPEND_HANDLER callback, ProviderAppendDma, ProviderAppendDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderAppendDma, netdma_ref_ce5895a2-ac0c-4b98-98be-9f95edf091d3.xml, netvista.providerappenddma
 ms.topic: callback
 req.header: netdma.h

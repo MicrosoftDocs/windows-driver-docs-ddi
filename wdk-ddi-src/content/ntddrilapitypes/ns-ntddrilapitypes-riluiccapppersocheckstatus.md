@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\riluiccapppersocheckstatus.htm
 tech.root: netvista
 ms.assetid: 6438f692-75b0-4a41-a2f9-68b0fe3f23cf
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILUICCAPPPERSOCHECKSTATUS, RILUICCAPPPERSOCHECKSTATUS, RILUICCAPPPERSOCHECKSTATUS structure [Network Drivers Starting with Windows Vista], netvista.riluiccapppersocheckstatus, ntddrilapitypes/RILUICCAPPPERSOCHECKSTATUS"
 ms.topic: struct
 req.header: ntddrilapitypes.h

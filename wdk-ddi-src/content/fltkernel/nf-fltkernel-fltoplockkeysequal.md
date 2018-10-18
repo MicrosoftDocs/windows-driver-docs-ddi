@@ -6,7 +6,7 @@ description: The FltOplockKeysEqual routine compares the opportunistic lock (opl
 old-location: ifsk\fltoplockkeysequal.htm
 tech.root: ifsk
 ms.assetid: 660aa6f2-03d8-44aa-b263-29a74c912668
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_66634abf-9f0a-44b1-a4e4-85ef958b05f5.xml, FltOplockKeysEqual, FltOplockKeysEqual routine [Installable File System Drivers], fltkernel/FltOplockKeysEqual, ifsk.fltoplockkeysequal
 ms.topic: function
 req.header: fltkernel.h

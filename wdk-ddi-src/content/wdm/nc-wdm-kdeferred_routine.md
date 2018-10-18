@@ -6,7 +6,7 @@ description: The callback routine performs actions, after an InterruptService re
 old-location: kernel\customdpc.htm
 tech.root: kernel
 ms.assetid: 4b94690a-cac9-4e36-ac51-34b02b4be28a
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: CustomDpc, CustomThreadedDpc, CustomTimerDpc, DrvrRtns_977bffb4-a7ff-4b2b-80c6-181d00462d69.xml, KDEFERRED_ROUTINE, MyDpc, MyDpc routine [Kernel-Mode Driver Architecture], kernel.customdpc, wdm/MyDpc
 ms.topic: callback
 req.header: wdm.h

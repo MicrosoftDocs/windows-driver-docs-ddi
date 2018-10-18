@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_setexecutorrfstate.htm
 tech.root: netvista
 ms.assetid: 4543671c-222f-4913-9f88-682af3e54273
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_SetExecutorRFState, RIL_SetExecutorRFState method [Network Drivers Starting with Windows Vista], netvista.ril_setexecutorrfstate, rilapi/RIL_SetExecutorRFState
 ms.topic: function
 req.header: rilapi.h

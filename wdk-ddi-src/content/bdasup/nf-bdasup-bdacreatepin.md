@@ -6,7 +6,7 @@ description: The BdaCreatePin function creates a new pin in the specified filter
 old-location: stream\bdacreatepin.htm
 tech.root: stream
 ms.assetid: ac69fdaa-f1e3-4487-93e1-f900f73be2fe
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: BdaCreatePin, BdaCreatePin function [Streaming Media Devices], bdaref_e84fba91-044c-40f3-9364-ede0bbabda48.xml, bdasup/BdaCreatePin, stream.bdacreatepin
 ms.topic: function
 req.header: bdasup.h

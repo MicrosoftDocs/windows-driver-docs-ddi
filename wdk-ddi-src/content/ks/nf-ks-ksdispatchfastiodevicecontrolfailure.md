@@ -6,7 +6,7 @@ description: The KsDispatchFastIoDeviceControlFailure function is used in a KSDI
 old-location: stream\ksdispatchfastiodevicecontrolfailure.htm
 tech.root: stream
 ms.assetid: 7fb83c8d-e815-46c6-8011-75b25a4c0dd7
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsDispatchFastIoDeviceControlFailure, KsDispatchFastIoDeviceControlFailure function [Streaming Media Devices], ks/KsDispatchFastIoDeviceControlFailure, ksfunc_f8510e75-1698-4ce9-acd8-d5db73a7c035.xml, stream.ksdispatchfastiodevicecontrolfailure
 ms.topic: function
 req.header: ks.h

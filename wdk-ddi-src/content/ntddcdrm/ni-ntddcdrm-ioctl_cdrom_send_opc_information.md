@@ -6,7 +6,7 @@ description: The IOCTL_CDROM_SEND_OPC_INFORMATION control code can be used in fi
 old-location: storage\ioctl_cdrom_send_opc_information.htm
 tech.root: storage
 ms.assetid: 77289AB6-7733-4DA1-B4E9-585AA73D137C
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_CDROM_SEND_OPC_INFORMATION, IOCTL_CDROM_SEND_OPC_INFORMATION control, IOCTL_CDROM_SEND_OPC_INFORMATION control code [Storage Devices], ntddcdrm/IOCTL_CDROM_SEND_OPC_INFORMATION, storage.ioctl_cdrom_send_opc_information
 ms.topic: ioctl
 req.header: ntddcdrm.h

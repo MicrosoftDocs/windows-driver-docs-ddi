@@ -6,7 +6,7 @@ description: The CcSetFileSizes routine updates the cache maps and section objec
 old-location: ifsk\ccsetfilesizes.htm
 tech.root: ifsk
 ms.assetid: 1fc92167-ceab-4f8e-bd80-a8f1821846ed
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: CcSetFileSizes, CcSetFileSizes routine [Installable File System Drivers], ccref_2d554d89-6378-4a7c-8984-cb54b9e9e01c.xml, ifsk.ccsetfilesizes, ntifs/CcSetFileSizes
 ms.topic: function
 req.header: ntifs.h

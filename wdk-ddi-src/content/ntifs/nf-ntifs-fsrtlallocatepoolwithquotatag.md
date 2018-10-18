@@ -6,7 +6,7 @@ description: The FsRtlAllocatePoolWithQuotaTag routine allocates pool memory, ch
 old-location: ifsk\fsrtlallocatepoolwithquotatag.htm
 tech.root: ifsk
 ms.assetid: 241525fd-c21b-4c24-91a0-6a79df4faea7
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlAllocatePoolWithQuotaTag, FsRtlAllocatePoolWithQuotaTag routine [Installable File System Drivers], fsrtlref_f4d15687-848c-4c31-8f30-48eb69498cc9.xml, ifsk.fsrtlallocatepoolwithquotatag, ntifs/FsRtlAllocatePoolWithQuotaTag
 ms.topic: macro
 req.header: ntifs.h

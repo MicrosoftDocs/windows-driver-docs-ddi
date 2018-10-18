@@ -6,7 +6,7 @@ description: The WdfRequestCancelSentRequest method attempts to cancel an I/O re
 old-location: wdf\wdfrequestcancelsentrequest.htm
 tech.root: wdf
 ms.assetid: 24319054-5e5c-4330-86e5-b1527c48eaf2
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_203c9cb4-5e9d-4a6b-b30d-b60b8eadf6db.xml, WdfRequestCancelSentRequest, WdfRequestCancelSentRequest method, kmdf.wdfrequestcancelsentrequest, wdf.wdfrequestcancelsentrequest, wdfrequest/WdfRequestCancelSentRequest
 ms.topic: function
 req.header: wdfrequest.h

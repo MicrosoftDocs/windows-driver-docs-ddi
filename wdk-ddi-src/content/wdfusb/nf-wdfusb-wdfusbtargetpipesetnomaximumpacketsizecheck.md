@@ -6,7 +6,7 @@ description: The WdfUsbTargetPipeSetNoMaximumPacketSizeCheck method disables the
 old-location: wdf\wdfusbtargetpipesetnomaximumpacketsizecheck.htm
 tech.root: wdf
 ms.assetid: 552eaf46-1710-4df5-bdc3-0fa7ce3adf54
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_e750d0d1-6d91-498d-8bb5-2eb9bab0149d.xml, WdfUsbTargetPipeSetNoMaximumPacketSizeCheck, WdfUsbTargetPipeSetNoMaximumPacketSizeCheck method, kmdf.wdfusbtargetpipesetnomaximumpacketsizecheck, wdf.wdfusbtargetpipesetnomaximumpacketsizecheck, wdfusb/WdfUsbTargetPipeSetNoMaximumPacketSizeCheck
 ms.topic: function
 req.header: wdfusb.h

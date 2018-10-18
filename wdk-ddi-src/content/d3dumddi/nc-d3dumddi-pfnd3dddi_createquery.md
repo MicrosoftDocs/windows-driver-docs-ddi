@@ -6,7 +6,7 @@ description: The CreateQuery function creates driver-side resources for a query 
 old-location: display\createquery.htm
 tech.root: display
 ms.assetid: ac63b77b-2704-4d5b-bf1d-9d85e8a1e336
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateQuery, CreateQuery callback function [Display Devices], PFND3DDDI_CREATEQUERY, PFND3DDDI_CREATEQUERY callback, UserModeDisplayDriver_Functions_b398e152-6530-4dcb-9665-ef45ad3d985b.xml, d3dumddi/CreateQuery, display.createquery
 ms.topic: callback
 req.header: d3dumddi.h

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The D3DKMTSetVidPnSourceOwner function sets and releases the video present source in the path of a video present network (VidPN) topology that owns the VidPN.
 old-location: display\d3dkmtsetvidpnsourceowner.htm
 ms.assetid: e75020cf-39b4-434c-b071-dc75de6cc81b
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTSetVidPnSourceOwner, D3DKMTSetVidPnSourceOwner function [Display Devices], OpenGL_Functions_3c0b89d9-b3d6-4668-a227-3bc7d0ed2f2f.xml, d3dkmthk/D3DKMTSetVidPnSourceOwner, display.d3dkmtsetvidpnsourceowner
 ms.topic: function
 req.header: d3dkmthk.h

@@ -6,7 +6,7 @@ description: Gives information about the current monitor and its connection type
 old-location: display\iddcx_monitor_info.htm
 tech.root: display
 ms.assetid: 62c2182c-af55-4482-a890-803f92dc863a
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IDDCX_MONITOR_INFO, IDDCX_MONITOR_INFO structure [Display Devices], display.iddcx_monitor_info, iddcx/IDDCX_MONITOR_INFO
 ms.topic: struct
 req.header: iddcx.h

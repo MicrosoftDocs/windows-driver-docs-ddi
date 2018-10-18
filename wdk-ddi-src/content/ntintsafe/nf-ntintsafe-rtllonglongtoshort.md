@@ -6,7 +6,7 @@ description: Converts a value of type LONGLONG to a value of type SHORT.
 old-location: kernel\rtllonglongtoshort.htm
 tech.root: kernel
 ms.assetid: F9FCB214-D56A-4BCC-BB7A-40833836D333
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlLongLongToShort, RtlLongLongToShort function [Kernel-Mode Driver Architecture], kernel.rtllonglongtoshort, ntintsafe/RtlLongLongToShort
 ms.topic: function
 req.header: ntintsafe.h

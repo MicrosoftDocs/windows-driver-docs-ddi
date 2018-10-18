@@ -6,7 +6,7 @@ description: The WdfIoResourceRequirementsListGetCount method returns the number
 old-location: wdf\wdfioresourcerequirementslistgetcount.htm
 tech.root: wdf
 ms.assetid: 00a79e57-5915-49a3-b11f-223cc93c2e99
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFResourceObjectRef_927d5729-0c1e-4363-9f2d-b5fefba8e2f6.xml, WdfIoResourceRequirementsListGetCount, WdfIoResourceRequirementsListGetCount method, kmdf.wdfioresourcerequirementslistgetcount, wdf.wdfioresourcerequirementslistgetcount, wdfresource/WdfIoResourceRequirementsListGetCount
 ms.topic: function
 req.header: wdfresource.h

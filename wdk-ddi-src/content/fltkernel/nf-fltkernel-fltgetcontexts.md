@@ -6,7 +6,7 @@ description: The FltGetContexts routine retrieves a minifilter driver's contexts
 old-location: ifsk\fltgetcontexts.htm
 tech.root: ifsk
 ms.assetid: 886a0898-814b-4a24-bc83-c6e82e71dae2
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_80c262c0-2587-4ca5-b397-674c0ba5f316.xml, FltGetContexts, FltGetContexts routine [Installable File System Drivers], fltkernel/FltGetContexts, ifsk.fltgetcontexts
 ms.topic: function
 req.header: fltkernel.h

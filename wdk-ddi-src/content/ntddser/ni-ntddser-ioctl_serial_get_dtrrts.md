@@ -6,7 +6,7 @@ description: The IOCTL_SERIAL_GET_DTRRTS request returns information about the d
 old-location: serports\ioctl_serial_get_dtrrts.htm
 tech.root: serports
 ms.assetid: 9ced72c6-24f8-49c6-a68e-2b0c5c81a8c2
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_GET_DTRRTS, IOCTL_SERIAL_GET_DTRRTS control, IOCTL_SERIAL_GET_DTRRTS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_DTRRTS, serports.ioctl_serial_get_dtrrts, serref_7c57fa0a-a5a3-41cd-bea3-b4685b39daad.xml
 ms.topic: ioctl
 req.header: ntddser.h

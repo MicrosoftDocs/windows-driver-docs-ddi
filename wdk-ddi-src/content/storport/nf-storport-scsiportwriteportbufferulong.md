@@ -6,7 +6,7 @@ description: The ScsiPortWritePortBufferUlong routine transfers a given number o
 old-location: storage\scsiportwriteportbufferulong.htm
 tech.root: storage
 ms.assetid: ed13ab7a-b287-42e1-af47-fd8f06305cae
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ScsiPortWritePortBufferUlong, ScsiPortWritePortBufferUlong routine [Storage Devices], scsiprt_314b08e6-e579-4faa-b009-e12ad8f946bc.xml, srb/ScsiPortWritePortBufferUlong, storage.scsiportwriteportbufferulong
 ms.topic: macro
 req.header: storport.h

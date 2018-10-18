@@ -6,7 +6,7 @@ description: The D3DDDI_DXGI_RGB structure contains information to describe a ga
 old-location: display\d3dddi_dxgi_rgb.htm
 tech.root: display
 ms.assetid: 4bf25ae0-30fa-49a6-a5a8-c807e14d9857
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDI_DXGI_RGB, D3DDDI_DXGI_RGB structure [Display Devices], DmStructs_808243de-342c-439b-9ebe-d418ccedd8ff.xml, d3dukmdt/D3DDDI_DXGI_RGB, display.d3dddi_dxgi_rgb
 ms.topic: struct
 req.header: d3dukmdt.h

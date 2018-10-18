@@ -6,7 +6,7 @@ description: The KEY_INFORMATION_CLASS enumeration type represents the type of i
 old-location: kernel\key_information_class.htm
 tech.root: kernel
 ms.assetid: cb531a0e-c934-4f3e-9b92-07eb3ab75673
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KEY_INFORMATION_CLASS, KEY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], KeyBasicInformation, KeyCachedInformation, KeyFlagsInformation, KeyFullInformation, KeyHandleTagsInformation, KeyNameInformation, KeyNodeInformation, KeyVirtualizationInformation, MaxKeyInfoClass, _KEY_INFORMATION_CLASS, kernel.key_information_class, sysenum_c64ec9c8-1eda-495a-8b4a-566607e29a78.xml, wdm/KEY_INFORMATION_CLASS, wdm/KeyBasicInformation, wdm/KeyCachedInformation, wdm/KeyFlagsInformation, wdm/KeyFullInformation, wdm/KeyHandleTagsInformation, wdm/KeyNameInformation, wdm/KeyNodeInformation, wdm/KeyVirtualizationInformation, wdm/MaxKeyInfoClass
 ms.topic: enum
 req.header: wdm.h

@@ -6,7 +6,7 @@ description: The WdfIoTargetSendIoctlSynchronously method builds a device contro
 old-location: wdf\wdfiotargetsendioctlsynchronously.htm
 tech.root: wdf
 ms.assetid: 1c43f6cd-0026-4654-b3ce-71fd51b3821d
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_522ce9d9-948a-4a19-a590-ab01d6ca8969.xml, WdfIoTargetSendIoctlSynchronously, WdfIoTargetSendIoctlSynchronously method, kmdf.wdfiotargetsendioctlsynchronously, wdf.wdfiotargetsendioctlsynchronously, wdfiotarget/WdfIoTargetSendIoctlSynchronously
 ms.topic: function
 req.header: wdfiotarget.h

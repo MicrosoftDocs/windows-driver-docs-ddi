@@ -6,7 +6,7 @@ description: Enum used to indicate how a given supported feature is implemented.
 old-location: display\iddcx_feature_implementation.htm
 tech.root: display
 ms.assetid: 7bed6940-3f69-4cc0-b746-98cd7441f4b8
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IDDCX_FEATURE_IMPLEMENTATION, IDDCX_FEATURE_IMPLEMENTATION enumeration [Display Devices], IDDCX_FEATURE_IMPLEMENTATION_HARDWARE, IDDCX_FEATURE_IMPLEMENTATION_NONE, IDDCX_FEATURE_IMPLEMENTATION_SOFTWARE, IDDCX_FEATURE_IMPLEMENTATION_UNINITIALIZED, display.iddcx_feature_implementation, iddcx/IDDCX_FEATURE_IMPLEMENTATION, iddcx/IDDCX_FEATURE_IMPLEMENTATION_HARDWARE, iddcx/IDDCX_FEATURE_IMPLEMENTATION_NONE, iddcx/IDDCX_FEATURE_IMPLEMENTATION_SOFTWARE, iddcx/IDDCX_FEATURE_IMPLEMENTATION_UNINITIALIZED
 ms.topic: enum
 req.header: iddcx.h

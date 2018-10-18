@@ -6,7 +6,7 @@ description: The wiasValidateItemProperties function validates a list of simple 
 old-location: image\wiasvalidateitemproperties.htm
 tech.root: image
 ms.assetid: d7858b1b-88cf-4e75-a466-40afdcb01d9b
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiasvalidateitemproperties, wiamdef/wiasValidateItemProperties, wiasFncs_98dc1f86-1cba-43c0-9f2a-3598701439bc.xml, wiasValidateItemProperties, wiasValidateItemProperties function [Imaging Devices]
 ms.topic: function
 req.header: wiamdef.h

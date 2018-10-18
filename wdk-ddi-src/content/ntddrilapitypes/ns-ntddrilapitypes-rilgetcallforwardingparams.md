@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilgetcallforwardingparams.htm
 tech.root: netvista
 ms.assetid: 94e24172-a149-4e74-9600-2fcb7396ef34
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILGETCALLFORWARDINGPARAMS, RILGETCALLFORWARDINGPARAMS, RILGETCALLFORWARDINGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetcallforwardingparams, ntddrilapitypes/RILGETCALLFORWARDINGPARAMS"
 ms.topic: struct
 req.header: ntddrilapitypes.h

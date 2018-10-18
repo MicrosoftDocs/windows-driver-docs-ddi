@@ -6,7 +6,7 @@ description: The RtlNtStatusToDosError routine converts the specified NTSTATUS c
 old-location: ifsk\rtlntstatustodoserror.htm
 tech.root: ifsk
 ms.assetid: 9ba6f693-b0b7-4176-b951-7bb259bec391
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlNtStatusToDosError, RtlNtStatusToDosError routine [Installable File System Drivers], ifsk.rtlntstatustodoserror, ntifs/RtlNtStatusToDosError, rtlref_8afdfe24-1071-4bab-b935-b1b91eb52766.xml
 ms.topic: function
 req.header: ntifs.h

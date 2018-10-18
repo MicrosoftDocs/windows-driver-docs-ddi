@@ -6,7 +6,7 @@ description: The ExWaitForRundownProtectionRelease routine waits until all drive
 old-location: kernel\exwaitforrundownprotectionrelease.htm
 tech.root: kernel
 ms.assetid: 96786C19-29C4-4030-9429-0B3CB7F3DF11
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExWaitForRundownProtectionRelease, ExWaitForRundownProtectionRelease routine [Kernel-Mode Driver Architecture], kernel.exwaitforrundownprotectionrelease, wdm/ExWaitForRundownProtectionRelease
 ms.topic: function
 req.header: wdm.h

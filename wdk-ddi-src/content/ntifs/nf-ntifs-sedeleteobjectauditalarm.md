@@ -6,7 +6,7 @@ description: The SeDeleteObjectAuditAlarm routine generates audit and alarm mess
 old-location: ifsk\sedeleteobjectauditalarm.htm
 tech.root: ifsk
 ms.assetid: 3d0a26e2-60d4-437e-b5cc-3ca7afee8f5a
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: SeDeleteObjectAuditAlarm, SeDeleteObjectAuditAlarm routine [Installable File System Drivers], ifsk.sedeleteobjectauditalarm, ntifs/SeDeleteObjectAuditAlarm, seref_eb1715b3-9c8b-4848-8cc8-3809d0d35d9e.xml
 ms.topic: function
 req.header: ntifs.h

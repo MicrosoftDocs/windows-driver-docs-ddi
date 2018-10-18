@@ -6,7 +6,7 @@ description: The WDF_PROPERTY_STORE_RETRIEVE_FLAGS enumeration contains values t
 old-location: wdf\wdf_property_store_retrieve_flags.htm
 tech.root: wdf
 ms.assetid: bd64ef0d-b2e7-4f82-87a8-77fe98677fd9
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WDF_PROPERTY_STORE_RETRIEVE_FLAGS, WDF_PROPERTY_STORE_RETRIEVE_FLAGS enumeration, WdfPropertyStoreCreateIfMissing, WdfPropertyStoreCreateVolatile, WdfPropertyStoreNormal, WdfPropertyStoreRetrieveFlagsMask, _WDF_PROPERTY_STORE_RETRIEVE_FLAGS, umdf.wdf_property_store_retrieve_flags, umdfstructs_c11a65c3-e37f-4adb-b480-1682d8e51700.xml, wdf.wdf_property_store_retrieve_flags, wudfddi_types/WDF_PROPERTY_STORE_RETRIEVE_FLAGS, wudfddi_types/WdfPropertyStoreCreateIfMissing, wudfddi_types/WdfPropertyStoreCreateVolatile, wudfddi_types/WdfPropertyStoreNormal, wudfddi_types/WdfPropertyStoreRetrieveFlagsMask
 ms.topic: enum
 req.header: wudfddi_types.h

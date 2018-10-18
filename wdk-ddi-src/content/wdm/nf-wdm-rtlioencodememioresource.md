@@ -6,7 +6,7 @@ description: The RtlIoEncodeMemIoResource routine updates an IO_RESOURCE_DESCRIP
 old-location: kernel\rtlioencodememioresource.htm
 tech.root: kernel
 ms.assetid: b2f51d54-3fda-4cbf-a148-0572122ed9fa
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlIoEncodeMemIoResource, RtlIoEncodeMemIoResource routine [Kernel-Mode Driver Architecture], k109_2e51e72a-98c4-4600-8e9c-41251c3e9849.xml, kernel.rtlioencodememioresource, wdm/RtlIoEncodeMemIoResource
 ms.topic: function
 req.header: wdm.h

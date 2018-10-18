@@ -6,7 +6,7 @@ description: The NdisWdiTxSendPauseIndication callback function pauses transmiss
 old-location: netvista\ndiswditxsendpauseindication.htm
 tech.root: netvista
 ms.assetid: A8001D08-36B8-4557-A763-103BDC807CA4
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDIS_WDI_TX_SEND_PAUSE_IND, NDIS_WDI_TX_SEND_PAUSE_IND callback, NdisWdiTxSendPauseIndication, NdisWdiTxSendPauseIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxSendPauseIndication, netvista.ndiswditxsendpauseindication
 ms.topic: callback
 req.header: dot11wdi.h

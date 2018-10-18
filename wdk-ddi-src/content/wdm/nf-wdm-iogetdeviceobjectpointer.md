@@ -6,7 +6,7 @@ description: The IoGetDeviceObjectPointer routine returns a pointer to the top o
 old-location: kernel\iogetdeviceobjectpointer.htm
 tech.root: kernel
 ms.assetid: aeb088f3-92c3-4619-9c3b-756bd70307e7
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoGetDeviceObjectPointer, IoGetDeviceObjectPointer routine [Kernel-Mode Driver Architecture], k104_c57b87e5-8316-4c45-a245-0fe7592c3471.xml, kernel.iogetdeviceobjectpointer, wdm/IoGetDeviceObjectPointer
 ms.topic: function
 req.header: wdm.h

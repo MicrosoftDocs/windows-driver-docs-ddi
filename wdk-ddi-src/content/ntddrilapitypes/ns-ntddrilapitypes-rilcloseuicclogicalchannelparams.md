@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilcloseuicclogicalchannelparams.htm
 tech.root: netvista
 ms.assetid: 0c06bcd7-d475-40b8-b997-fe65047db331
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILCLOSEUICCLOGICALCHANNELPARAMS, RILCLOSEUICCLOGICALCHANNELPARAMS, RILCLOSEUICCLOGICALCHANNELPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilcloseuicclogicalchannelparams, ntddrilapitypes/RILCLOSEUICCLOGICALCHANNELPARAMS"
 ms.topic: struct
 req.header: ntddrilapitypes.h

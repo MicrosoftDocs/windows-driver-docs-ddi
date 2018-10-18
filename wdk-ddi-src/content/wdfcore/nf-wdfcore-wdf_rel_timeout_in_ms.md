@@ -6,7 +6,7 @@ description: The WDF_REL_TIMEOUT_IN_MS function converts a specified number of m
 old-location: wdf\wdf_rel_timeout_in_ms.htm
 tech.root: wdf
 ms.assetid: f68b9575-04e4-4046-aec4-b664d8a643d4
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFTimerObjectRef_0504a695-4fab-4656-8522-a6c9f0989c2d.xml, WDF_REL_TIMEOUT_IN_MS, WDF_REL_TIMEOUT_IN_MS function, kmdf.wdf_rel_timeout_in_ms, wdf.wdf_rel_timeout_in_ms, wdfcore/WDF_REL_TIMEOUT_IN_MS
 ms.topic: function
 req.header: wdfcore.h

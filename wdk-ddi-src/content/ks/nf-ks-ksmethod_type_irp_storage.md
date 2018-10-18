@@ -6,7 +6,7 @@ description: This macro accesses the type of method as described in the KSMETHOD
 old-location: stream\ksmethod_type_irp_storage.htm
 tech.root: stream
 ms.assetid: f5327cbf-e71b-4c1c-94c0-0e27afb4d7cf
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KSMETHOD_TYPE_IRP_STORAGE, KSMETHOD_TYPE_IRP_STORAGE macro [Streaming Media Devices], ks/KSMETHOD_TYPE_IRP_STORAGE, ksfunc_de99d882-5298-4972-9d16-fa4478d6229c.xml, stream.ksmethod_type_irp_storage
 ms.topic: macro
 req.header: ks.h

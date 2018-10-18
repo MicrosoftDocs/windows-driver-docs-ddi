@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Used to hold the arguments for DXGKDDI_SETTIMINGSFROMVIDPN.
 old-location: display\dxgkarg_settimingsfromvidpn.htm
 ms.assetid: 14D652C4-9812-481E-8E69-A6D7923F01A3
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*IN_OUT_PDXGKARG_SETTIMINGSFROMVIDPN, DXGKARG_SETTIMINGSFROMVIDPN, DXGKARG_SETTIMINGSFROMVIDPN structure [Display Devices], PDXGKARG_SETTIMINGSFROMVIDPN, PDXGKARG_SETTIMINGSFROMVIDPN structure pointer [Display Devices], _DXGKARG_SETTIMINGSFROMVIDPN, d3dkmddi/DXGKARG_SETTIMINGSFROMVIDPN, d3dkmddi/PDXGKARG_SETTIMINGSFROMVIDPN, display.dxgkarg_settimingsfromvidpn"
 ms.topic: struct
 req.header: d3dkmddi.h

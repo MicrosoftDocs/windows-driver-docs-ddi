@@ -6,7 +6,7 @@ description: The MSiSCSI_RedirectPortalInfoClass structure contains information 
 old-location: storage\msiscsi_redirectportalinfoclass.htm
 tech.root: storage
 ms.assetid: fcddf029-748b-4300-9f87-a103d961918a
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PMSiSCSI_RedirectPortalInfoClass, MSiSCSI_RedirectPortalInfoClass, MSiSCSI_RedirectPortalInfoClass structure [Storage Devices], PMSiSCSI_RedirectPortalInfoClass, PMSiSCSI_RedirectPortalInfoClass structure pointer [Storage Devices], _MSiSCSI_RedirectPortalInfoClass, iscsimgt/MSiSCSI_RedirectPortalInfoClass, iscsimgt/PMSiSCSI_RedirectPortalInfoClass, storage.msiscsi_redirectportalinfoclass, structs-iSCSI_211386cb-7e73-40d9-8284-560555fe8201.xml"
 ms.topic: struct
 req.header: iscsimgt.h

@@ -6,7 +6,7 @@ description: The RtlRealPredecessor routine returns a pointer to the predecessor
 old-location: ifsk\rtlrealpredecessor.htm
 tech.root: ifsk
 ms.assetid: 8cb981a4-7dea-4d42-bbde-35cf5494494b
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlRealPredecessor, RtlRealPredecessor routine [Installable File System Drivers], ifsk.rtlrealpredecessor, ntddk/RtlRealPredecessor, rtlref_1c872dd0-50cb-48ff-a7e4-e3c88b3b087f.xml
 ms.topic: function
 req.header: ntddk.h

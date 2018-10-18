@@ -6,7 +6,7 @@ description: The D3DDDI_SYNCHRONIZATIONOBJECTINFO2 structure contains informatio
 old-location: display\d3dddi_synchronizationobjectinfo2.htm
 tech.root: display
 ms.assetid: dc1c6a67-320c-41f8-91ad-cdbcde191a81
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDI_SYNCHRONIZATIONOBJECTINFO2, D3DDDI_SYNCHRONIZATIONOBJECTINFO2 structure [Display Devices], D3D_other_Structs_0efa3a96-3e04-4232-bf7a-53c3f038d6ec.xml, _D3DDDI_SYNCHRONIZATIONOBJECTINFO2, d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECTINFO2, display.d3dddi_synchronizationobjectinfo2
 ms.topic: struct
 req.header: d3dukmdt.h

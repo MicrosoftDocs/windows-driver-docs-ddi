@@ -6,7 +6,7 @@ description: The SerCx2PioTransmitCreate method creates a PIO-transmit object, w
 old-location: serports\sercx2piotransmitcreate.htm
 tech.root: serports
 ms.assetid: 550A26D0-18A5-47F9-B769-B76FA2EB1734
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SerCx2PioTransmitCreate, SerCx2PioTransmitCreate, SerCx2PioTransmitCreate method [Serial Ports], serports.sercx2piotransmitcreate
 ms.topic: function
 req.header: sercx.h

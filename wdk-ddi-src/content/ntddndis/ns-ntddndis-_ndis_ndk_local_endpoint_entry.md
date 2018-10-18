@@ -6,7 +6,7 @@ description: The NDIS_NDK_LOCAL_ENDPOINT_ENTRY structure specifies an ND local e
 old-location: netvista\ndis_ndk_local_endpoint_entry.htm
 tech.root: netvista
 ms.assetid: 83B88D3D-8FBF-4DC1-8A73-FAB306281F36
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDIS_NDK_LOCAL_ENDPOINT_ENTRY, NDIS_NDK_LOCAL_ENDPOINT_ENTRY structure [Network Drivers Starting with Windows Vista], _NDIS_NDK_LOCAL_ENDPOINT_ENTRY, netvista.ndis_ndk_local_endpoint_entry, ntddndis/NDIS_NDK_LOCAL_ENDPOINT_ENTRY
 ms.topic: struct
 req.header: ntddndis.h

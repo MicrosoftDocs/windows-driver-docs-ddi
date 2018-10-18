@@ -6,7 +6,7 @@ description: Stores the NLS file formats.
 old-location: kernel\cptableinfo.htm
 tech.root: ifsk
 ms.assetid: 20EE0017-760E-48A1-8658-2A0278843074
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PCPTABLEINFO, CPTABLEINFO, CPTABLEINFO structure [Kernel-Mode Driver Architecture], PCPTABLEINFO, PCPTABLEINFO structure pointer [Kernel-Mode Driver Architecture], _CPTABLEINFO, kernel.cptableinfo, ntnls/CPTABLEINFO, ntnls/PCPTABLEINFO"
 ms.topic: struct
 req.header: ntnls.h

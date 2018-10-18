@@ -6,7 +6,7 @@ description: The WdfDeviceInitSetCharacteristics method sets device characterist
 old-location: wdf\wdfdeviceinitsetcharacteristics.htm
 tech.root: wdf
 ms.assetid: 2937d9f1-f838-4ec4-972d-21ff43097590
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_7dd76de2-8621-45ed-a309-c958ac1c365d.xml, WdfDeviceInitSetCharacteristics, WdfDeviceInitSetCharacteristics method, kmdf.wdfdeviceinitsetcharacteristics, wdf.wdfdeviceinitsetcharacteristics, wdfdevice/WdfDeviceInitSetCharacteristics
 ms.topic: function
 req.header: wdfdevice.h

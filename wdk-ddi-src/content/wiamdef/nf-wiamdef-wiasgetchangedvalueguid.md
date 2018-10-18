@@ -6,7 +6,7 @@ description: The wiasGetChangedValueGuid function determines whether a property 
 old-location: image\wiasgetchangedvalueguid.htm
 tech.root: image
 ms.assetid: 5a282acf-6084-4076-a69b-fe23c9eb4d6c
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiasgetchangedvalueguid, wiamdef/wiasGetChangedValueGuid, wiasFncs_b8b576d4-1470-4105-8725-928f70a1e3cc.xml, wiasGetChangedValueGuid, wiasGetChangedValueGuid function [Imaging Devices]
 ms.topic: function
 req.header: wiamdef.h

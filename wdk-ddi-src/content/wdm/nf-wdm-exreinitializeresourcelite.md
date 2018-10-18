@@ -6,7 +6,7 @@ description: The ExReinitializeResourceLite routine reinitializes an existing re
 old-location: kernel\exreinitializeresourcelite.htm
 tech.root: kernel
 ms.assetid: 5713edfd-0b73-4274-862d-23c97f991a68
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExReinitializeResourceLite, ExReinitializeResourceLite routine [Kernel-Mode Driver Architecture], k102_dc743b18-db19-4536-a862-e313e201d4d8.xml, kernel.exreinitializeresourcelite, wdm/ExReinitializeResourceLite
 ms.topic: function
 req.header: wdm.h

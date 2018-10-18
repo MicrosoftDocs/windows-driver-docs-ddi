@@ -6,7 +6,7 @@ description: The NetFreeMdl function frees an MDL that was previously allocated 
 old-location: netvista\netfreemdl.htm
 tech.root: netvista
 ms.assetid: a92b2de9-231d-4dcc-8220-857063a35eb1
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NET_BUFFER_FREE_MDL_HANDLER, NET_BUFFER_FREE_MDL_HANDLER callback, NetFreeMdl, NetFreeMdl callback function [Network Drivers Starting with Windows Vista], ndis/NetFreeMdl, ndis_netbuf_functions_ref_a005ffba-5557-4d9b-a647-63e9e06fa8ef.xml, netvista.netfreemdl
 ms.topic: callback
 req.header: ndis.h

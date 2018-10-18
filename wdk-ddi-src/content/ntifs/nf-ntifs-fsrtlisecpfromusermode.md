@@ -6,7 +6,7 @@ description: The FsRtlIsEcpFromUserMode routine determines whether an extra crea
 old-location: ifsk\fsrtlisecpfromusermode.htm
 tech.root: ifsk
 ms.assetid: cdc5d6a3-637e-4f0e-bc94-25bfe5763695
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlIsEcpFromUserMode, FsRtlIsEcpFromUserMode routine [Installable File System Drivers], fsrtlref_14f09529-adf9-4113-bff4-5183ade20059.xml, ifsk.fsrtlisecpfromusermode, ntifs/FsRtlIsEcpFromUserMode
 ms.topic: function
 req.header: ntifs.h

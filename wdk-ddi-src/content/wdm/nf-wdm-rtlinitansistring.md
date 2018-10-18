@@ -6,7 +6,7 @@ description: The RtlInitAnsiString routine initializes a counted string of ANSI 
 old-location: kernel\rtlinitansistring.htm
 tech.root: kernel
 ms.assetid: 7b535ea0-091f-4a1b-bfb7-db3cfabbe846
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlInitAnsiString, RtlInitAnsiString routine [Kernel-Mode Driver Architecture], k109_733e2861-a19a-41ca-92cc-d50caa8beead.xml, kernel.rtlinitansistring, wdm/RtlInitAnsiString
 ms.topic: function
 req.header: wdm.h

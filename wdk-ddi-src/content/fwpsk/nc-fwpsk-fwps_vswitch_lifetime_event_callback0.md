@@ -6,7 +6,7 @@ description: The filter engine calls the vSwitchLifetimeNotifyFn (FWPS_VSWITCH_L
 old-location: netvista\fwps_vswitch_lifetime_event_callback0.htm
 tech.root: netvista
 ms.assetid: 6A2058FB-AE3D-48F0-B1D9-3B8894A5419E
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0, FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0 callback, fwpsk/vSwitchLifetimeNotifyFn, netvista.fwps_vswitch_lifetime_event_callback0, vSwitchLifetimeNotifyFn, vSwitchLifetimeNotifyFn callback function [Network Drivers Starting with Windows Vista]
 ms.topic: callback
 req.header: fwpsk.h

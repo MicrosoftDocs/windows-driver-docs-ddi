@@ -6,7 +6,7 @@ description: The ZwPrePrepareEnlistment routine initiates the pre-prepare operat
 old-location: kernel\zwpreprepareenlistment.htm
 tech.root: kernel
 ms.assetid: adf2513c-9a0e-4552-baad-010ab243e9dc
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtPrePrepareEnlistment, ZwPrePrepareEnlistment, ZwPrePrepareEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwpreprepareenlistment, ktm_ref_42a63780-131c-4b65-ad22-ec32b713c0fe.xml, wdm/NtPrePrepareEnlistment, wdm/ZwPrePrepareEnlistment
 ms.topic: function
 req.header: wdm.h

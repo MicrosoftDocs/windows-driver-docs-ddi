@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_disablemodemfilters.htm
 tech.root: netvista
 ms.assetid: eb1ac5cc-f757-4aee-9a21-ed4b03d4b6a8
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_DisableModemFilters, RIL_DisableModemFilters method [Network Drivers Starting with Windows Vista], netvista.ril_disablemodemfilters, rilapi/RIL_DisableModemFilters
 ms.topic: function
 req.header: rilapi.h

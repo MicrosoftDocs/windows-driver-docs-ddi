@@ -6,7 +6,7 @@ description: The ProviderSetObject function sets information that is associated 
 old-location: netvista\providersetobject.htm
 tech.root: netvista
 ms.assetid: e5dcb46e-5a8a-45b7-b6aa-150a9cec0155
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*IFP_SET_OBJECT, *IFP_SET_OBJECT callback function [Network Drivers Starting with Windows Vista], IF_SET_OBJECT, IF_SET_OBJECT callback, ProviderSetObject, ProviderSetObject callback function [Network Drivers Starting with Windows Vista], ndis/ProviderSetObject, net_if_provider_functions_ref_8da505c4-dd64-43c8-a6a4-ad13cc4b18d0.xml, netvista.providersetobject"
 ms.topic: callback
 req.header: ndis.h

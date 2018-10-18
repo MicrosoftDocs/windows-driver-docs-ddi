@@ -6,7 +6,7 @@ description: Returns a USB device's maximum packet size for the read, write, and
 old-location: image\ioctl_get_channel_align_rqst.htm
 tech.root: image
 ms.assetid: 8025a092-470a-4cd5-af63-21f82e094933
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IOCTL_GET_CHANNEL_ALIGN_RQST, IOCTL_GET_CHANNEL_ALIGN_RQST control, IOCTL_GET_CHANNEL_ALIGN_RQST control code [Imaging Devices], image.ioctl_get_channel_align_rqst, stifnc_a81e47eb-3d6f-4bfb-a371-08c42602bc5a.xml, usbscan/IOCTL_GET_CHANNEL_ALIGN_RQST
 ms.topic: ioctl
 req.header: usbscan.h

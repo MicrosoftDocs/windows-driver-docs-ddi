@@ -6,7 +6,7 @@ description: The MiniportWdiTxTalQueueInOrder handler function notifies the TAL 
 old-location: netvista\miniportwditxtalqueueinorder.htm
 tech.root: netvista
 ms.assetid: E82E19EA-4336-49DE-9CE4-DFBA0A347DFE
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_TX_TAL_QUEUE_IN_ORDER, MINIPORT_WDI_TX_TAL_QUEUE_IN_ORDER callback, MiniportWdiTxTalQueueInOrder, MiniportWdiTxTalQueueInOrder callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTalQueueInOrder, netvista.miniportwditxtalqueueinorder
 ms.topic: callback
 req.header: dot11wdi.h

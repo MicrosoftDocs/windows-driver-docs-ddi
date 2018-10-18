@@ -6,7 +6,7 @@ description: The D3DDDIARG_GENERATEMIPSUBLEVELS structure describes how to gener
 old-location: display\d3dddiarg_generatemipsublevels.htm
 tech.root: display
 ms.assetid: 19c08206-cde8-4ec2-bbd1-92eadeecdb90
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_GENERATEMIPSUBLEVELS, D3DDDIARG_GENERATEMIPSUBLEVELS structure [Display Devices], UMDisplayDriver_param_Structs_4000d18b-18c0-4499-bfbe-a3f5e866553b.xml, _D3DDDIARG_GENERATEMIPSUBLEVELS, d3dumddi/D3DDDIARG_GENERATEMIPSUBLEVELS, display.d3dddiarg_generatemipsublevels
 ms.topic: struct
 req.header: d3dumddi.h

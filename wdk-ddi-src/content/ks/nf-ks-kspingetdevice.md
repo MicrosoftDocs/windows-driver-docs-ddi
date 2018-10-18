@@ -6,7 +6,7 @@ description: The KsPinGetDevice function returns the AVStream device to which Pi
 old-location: stream\kspingetdevice.htm
 tech.root: stream
 ms.assetid: 965aa806-90cc-4c82-a126-42ae433cba3b
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsPinGetDevice, KsPinGetDevice function [Streaming Media Devices], avfunc_09495aa3-2bed-4093-a989-2ae444f1c372.xml, ks/KsPinGetDevice, stream.kspingetdevice
 ms.topic: function
 req.header: ks.h

@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilsmsreadystatus.htm
 tech.root: netvista
 ms.assetid: 0f2d6a06-18af-4e7a-9f88-c81d98575f56
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILSMSREADYSTATUS, RILSMSREADYSTATUS, RILSMSREADYSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilsmsreadystatus, ntddrilapitypes/RILSMSREADYSTATUS"
 ms.topic: struct
 req.header: rilapitypes.h

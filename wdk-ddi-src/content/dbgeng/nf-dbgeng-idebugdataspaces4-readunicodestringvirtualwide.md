@@ -6,7 +6,7 @@ description: The ReadUnicodeStringVirtualWide method reads a null-terminated, Un
 old-location: debugger\readunicodestringvirtualwide.htm
 tech.root: debugger
 ms.assetid: 7c360f9a-83f6-4bc8-abb4-08d1b0c4fdc9
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugDataSpaces4 interface [Windows Debugging],ReadUnicodeStringVirtualWide method, IDebugDataSpaces4.ReadUnicodeStringVirtualWide, IDebugDataSpaces4::ReadUnicodeStringVirtualWide, IDebugDataSpaces_c722fa7f-bbd2-4e0c-bd83-c59d2442ae26.xml, ReadUnicodeStringVirtualWide, ReadUnicodeStringVirtualWide method [Windows Debugging], ReadUnicodeStringVirtualWide method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::ReadUnicodeStringVirtualWide, debugger.readunicodestringvirtualwide
 ms.topic: method
 req.header: dbgeng.h

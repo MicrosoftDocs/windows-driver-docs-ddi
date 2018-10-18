@@ -6,7 +6,7 @@ description: The Blt function copies the contents of a source surface to a desti
 old-location: display\blt.htm
 tech.root: display
 ms.assetid: e87576c6-0173-4d8e-bbaf-b82e2907140a
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: Blt, Blt callback function [Display Devices], PFND3DDDI_BLT, PFND3DDDI_BLT callback, UserModeDisplayDriver_Functions_d2dfd3c9-e7e0-4953-bc88-3d3330aff161.xml, d3dumddi/Blt, display.blt
 ms.topic: callback
 req.header: d3dumddi.h

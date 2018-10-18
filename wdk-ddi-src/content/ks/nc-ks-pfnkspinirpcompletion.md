@@ -6,7 +6,7 @@ description: An AVStream minidriver's AVStrMiniPinIrpCompletion routine is calle
 old-location: stream\avstrminipinirpcompletion.htm
 tech.root: stream
 ms.assetid: 46b29026-b3a9-49cc-8f3d-0318516526d2
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: AVStrMiniPinIrpCompletion, AVStrMiniPinIrpCompletion routine [Streaming Media Devices], PFNKSPINIRPCOMPLETION, avstclbk_fabf9c16-a37b-4101-9468-dc247545aea0.xml, ks/AVStrMiniPinIrpCompletion, stream.avstrminipinirpcompletion
 ms.topic: callback
 req.header: ks.h

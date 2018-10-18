@@ -6,7 +6,7 @@ description: The SID_NAME_USE enumeration type contains values that specify the 
 old-location: ifsk\sid_name_use.htm
 tech.root: ifsk
 ms.assetid: c3dd02d1-c259-4c17-8bd5-ee304e576a39
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PSID_NAME_USE, PSID_NAME_USE, PSID_NAME_USE enumeration pointer [Installable File System Drivers], SID_NAME_USE, SID_NAME_USE enumeration [Installable File System Drivers], SidTypeAlias, SidTypeComputer, SidTypeDeletedAccount, SidTypeDomain, SidTypeGroup, SidTypeInvalid, SidTypeLabel, SidTypeUnknown, SidTypeUser, SidTypeWellKnownGroup, _SID_NAME_USE, ifsk.sid_name_use, ntifs/PSID_NAME_USE, ntifs/SID_NAME_USE, ntifs/SidTypeAlias, ntifs/SidTypeComputer, ntifs/SidTypeDeletedAccount, ntifs/SidTypeDomain, ntifs/SidTypeGroup, ntifs/SidTypeInvalid, ntifs/SidTypeLabel, ntifs/SidTypeUnknown, ntifs/SidTypeUser, ntifs/SidTypeWellKnownGroup, securitystructures_7ff44465-6d8e-46f6-9bd4-b5be754dde4b.xml"
 ms.topic: enum
 req.header: ntifs.h

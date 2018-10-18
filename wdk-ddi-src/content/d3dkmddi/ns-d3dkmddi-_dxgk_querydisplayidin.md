@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Used to query a display ID.
 old-location: display\dxgk_querydisplayidin.htm
 ms.assetid: C7A2CECA-AAE5-4804-92FF-C47984BA38AF
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_QUERYDISPLAYIDIN, DXGK_QUERYDISPLAYIDIN structure [Display Devices], _DXGK_QUERYDISPLAYIDIN, d3dkmddi/DXGK_QUERYDISPLAYIDIN, display.dxgk_querydisplayidin
 ms.topic: struct
 req.header: d3dkmddi.h

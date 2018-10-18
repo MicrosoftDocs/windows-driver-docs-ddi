@@ -6,7 +6,7 @@ description: The USBCAMD_SetVideoFormat service is used to notify USBCAMD that t
 old-location: stream\usbcamd_setvideoformat.htm
 tech.root: stream
 ms.assetid: 84a63c69-0f27-42e4-ae10-e394dd8b715d
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: PFNUSBCAMD_SetVideoFormat, USBCAMD_SetVideoFormat, USBCAMD_SetVideoFormat routine [Streaming Media Devices], stream.usbcamd_setvideoformat, usbcamdi/USBCAMD_SetVideoFormat, usbcmdpr_c4209df8-d0e2-4727-b9f8-4b9b734be34c.xml
 ms.topic: callback
 req.header: usbcamdi.h

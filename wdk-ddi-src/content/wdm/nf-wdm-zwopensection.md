@@ -6,7 +6,7 @@ description: The ZwOpenSection routine opens a handle for an existing section ob
 old-location: kernel\zwopensection.htm
 tech.root: kernel
 ms.assetid: c4373f7b-cc88-45da-a140-ead1c6891c11
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtOpenSection, ZwOpenSection, ZwOpenSection routine [Kernel-Mode Driver Architecture], k111_51851f81-8825-499b-9e7e-36faa8f53b23.xml, kernel.zwopensection, wdm/NtOpenSection, wdm/ZwOpenSection
 ms.topic: function
 req.header: wdm.h

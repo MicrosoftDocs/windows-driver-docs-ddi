@@ -6,7 +6,7 @@ description: Specifies an output symbol by using an inline context.
 old-location: debugger\idebugsymbols4_outputsymbolbyinlinecontext.htm
 tech.root: debugger
 ms.assetid: 55BA214C-7161-4B2C-8107-11EE22D63CD6
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugSymbols4 interface [Windows Debugging],OutputSymbolByInlineContext method, IDebugSymbols4.OutputSymbolByInlineContext, IDebugSymbols4::OutputSymbolByInlineContext, OutputSymbolByInlineContext, OutputSymbolByInlineContext method [Windows Debugging], OutputSymbolByInlineContext method [Windows Debugging],IDebugSymbols4 interface, dbgeng/IDebugSymbols4::OutputSymbolByInlineContext, debugger.idebugsymbols4_outputsymbolbyinlinecontext
 ms.topic: method
 req.header: dbgeng.h

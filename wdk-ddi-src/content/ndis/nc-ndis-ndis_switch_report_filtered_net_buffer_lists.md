@@ -6,7 +6,7 @@ description: The ReportFilteredNetBufferLists function reports on one or more ne
 old-location: netvista\reportfilterednetbufferlists.htm
 tech.root: netvista
 ms.assetid: 06E7FC94-628D-4601-8173-F118043A13FB
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS, NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS callback, ReportFilteredNetBufferLists, ReportFilteredNetBufferLists callback function [Network Drivers Starting with Windows Vista], ndis/ReportFilteredNetBufferLists, netvista.reportfilterednetbufferlists
 ms.topic: callback
 req.header: ndis.h

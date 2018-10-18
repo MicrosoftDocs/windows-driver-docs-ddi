@@ -6,7 +6,7 @@ description: The WDF_INTERRUPT_CONFIG structure contains configuration informati
 old-location: wdf\wdf_interrupt_config.htm
 tech.root: wdf
 ms.assetid: 10eb623d-6778-4ccb-8ed4-9926c13dec5a
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*PWDF_INTERRUPT_CONFIG, DFInterruptObjectRef_545890e4-5222-42e8-8fba-c159a0faa140.xml, PWDF_INTERRUPT_CONFIG, PWDF_INTERRUPT_CONFIG structure pointer, WDF_INTERRUPT_CONFIG, WDF_INTERRUPT_CONFIG structure, _WDF_INTERRUPT_CONFIG, kmdf.wdf_interrupt_config, wdf.wdf_interrupt_config, wdfinterrupt/PWDF_INTERRUPT_CONFIG, wdfinterrupt/WDF_INTERRUPT_CONFIG"
 ms.topic: struct
 req.header: wdfinterrupt.h

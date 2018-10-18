@@ -6,7 +6,7 @@ description: NDIS drivers call the NdisQueueIoWorkItem function to queue a work 
 old-location: netvista\ndisqueueioworkitem.htm
 tech.root: netvista
 ms.assetid: f5065217-a74e-41b6-bc23-59b39948a450
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisQueueIoWorkItem, NdisQueueIoWorkItem function [Network Drivers Starting with Windows Vista], ndis/NdisQueueIoWorkItem, ndis_work_items_ref_ac034ba5-7f33-4769-9664-2b9bbb5ad9e6.xml, netvista.ndisqueueioworkitem
 ms.topic: function
 req.header: ndis.h

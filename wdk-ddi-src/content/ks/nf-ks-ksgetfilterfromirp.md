@@ -6,7 +6,7 @@ description: The KsGetFilterFromIrp function returns the AVStream filter object 
 old-location: stream\ksgetfilterfromirp.htm
 tech.root: stream
 ms.assetid: 00c90dbf-bb44-4cba-97b3-170765a2eba7
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsGetFilterFromIrp, KsGetFilterFromIrp function [Streaming Media Devices], avfunc_223d8c62-c585-4749-a087-19cfa48824f3.xml, ks/KsGetFilterFromIrp, stream.ksgetfilterfromirp
 ms.topic: function
 req.header: ks.h

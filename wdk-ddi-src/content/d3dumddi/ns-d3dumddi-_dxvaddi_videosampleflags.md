@@ -6,7 +6,7 @@ description: The DXVADDI_VIDEOSAMPLEFLAGS structure identifies changes in the cu
 old-location: display\dxvaddi_videosampleflags.htm
 tech.root: display
 ms.assetid: 1dca2b12-0542-43a9-abff-203ea34cff90
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_8e0fce9f-8473-4bbc-9403-fb8755090a7d.xml, DXVADDI_VIDEOSAMPLEFLAGS, DXVADDI_VIDEOSAMPLEFLAGS structure [Display Devices], _DXVADDI_VIDEOSAMPLEFLAGS, d3dumddi/DXVADDI_VIDEOSAMPLEFLAGS, display.dxvaddi_videosampleflags
 ms.topic: struct
 req.header: d3dumddi.h

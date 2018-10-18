@@ -6,7 +6,7 @@ description: The HidD_GetInputReport routine returns an input reports from a top
 old-location: hid\hidd_getinputreport.htm
 tech.root: hid
 ms.assetid: 42e0a96b-2b0b-4d22-8c91-14457d02e9c7
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: HidD_GetInputReport, HidD_GetInputReport routine [Human Input Devices], hid.hidd_getinputreport, hidfunc_fdcd7a5b-6623-419f-abdf-de19370ee793.xml, hidsdi/HidD_GetInputReport
 ms.topic: function
 req.header: hidsdi.h

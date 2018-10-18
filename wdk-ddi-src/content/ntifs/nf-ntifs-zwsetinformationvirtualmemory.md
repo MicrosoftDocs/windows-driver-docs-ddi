@@ -6,7 +6,7 @@ description: The ZwSetInformationVirtualMemory routine performs an operation on 
 old-location: kernel\zwsetinformationvirtualmemory.htm
 tech.root: kernel
 ms.assetid: 1D53D6C6-7546-439F-818C-85E65901B5DC
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ZwSetInformationVirtualMemory, ZwSetInformationVirtualMemory routine [Kernel-Mode Driver Architecture], kernel.zwsetinformationvirtualmemory, ntifs/ZwSetInformationVirtualMemory
 ms.topic: function
 req.header: ntifs.h

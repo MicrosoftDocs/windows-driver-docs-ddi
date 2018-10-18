@@ -6,7 +6,7 @@ description: An ExTimerCallback callback routine runs after an EX_TIMER timer ob
 old-location: kernel\extimercallback.htm
 tech.root: kernel
 ms.assetid: 4BE0A753-58A6-4868-9A04-B9A0710A02A5
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: EXT_CALLBACK, ExTimerCallback, ExTimerCallback routine [Kernel-Mode Driver Architecture], kernel.extimercallback, wdm/ExTimerCallback
 ms.topic: callback
 req.header: wdm.h

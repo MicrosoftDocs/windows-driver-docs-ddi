@@ -6,7 +6,7 @@ description: The WdfRequestSetUserModeDriverInitiatedIo method indicates to kern
 old-location: wdf\wdfrequestsetusermodedriverinitiatedio.htm
 tech.root: wdf
 ms.assetid: F477ABEA-5E29-4934-995C-D7FB1EF87A5B
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfRequestSetUserModeDriverInitiatedIo, WdfRequestSetUserModeDriverInitiatedIo method, wdf.wdfrequestsetusermodedriverinitiatedio, wdfrequest/WdfRequestSetUserModeDriverInitiatedIo
 ms.topic: function
 req.header: wdfrequest.h

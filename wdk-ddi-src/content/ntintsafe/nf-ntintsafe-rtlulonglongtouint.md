@@ -6,7 +6,7 @@ description: Converts a value of type ULONGLONG to a value of type UINT.
 old-location: kernel\rtlulonglongtouint.htm
 tech.root: kernel
 ms.assetid: CC69FD37-27DE-47AD-B509-DB659B906248
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlULongLongToUInt, RtlULongLongToUInt function [Kernel-Mode Driver Architecture], kernel.rtlulonglongtouint, ntintsafe/RtlULongLongToUInt
 ms.topic: function
 req.header: ntintsafe.h

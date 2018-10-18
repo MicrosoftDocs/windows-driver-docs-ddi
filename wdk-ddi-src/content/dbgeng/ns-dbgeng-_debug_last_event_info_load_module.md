@@ -6,7 +6,7 @@ description: Describes the load module of the last event.
 old-location: debugger\debug_last_event_info_load_module.htm
 tech.root: debugger
 ms.assetid: 0C2371FE-935A-499B-8E7C-09AA6C03FC90
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: "*PDEBUG_LAST_EVENT_INFO_LOAD_MODULE, DEBUG_LAST_EVENT_INFO_LOAD_MODULE, DEBUG_LAST_EVENT_INFO_LOAD_MODULE structure [Windows Debugging], PDEBUG_LAST_EVENT_INFO_LOAD_MODULE, PDEBUG_LAST_EVENT_INFO_LOAD_MODULE structure pointer [Windows Debugging], _DEBUG_LAST_EVENT_INFO_LOAD_MODULE, dbgeng/DEBUG_LAST_EVENT_INFO_LOAD_MODULE, dbgeng/PDEBUG_LAST_EVENT_INFO_LOAD_MODULE, debugger.debug_last_event_info_load_module"
 ms.topic: struct
 req.header: dbgeng.h

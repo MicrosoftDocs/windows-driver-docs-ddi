@@ -6,7 +6,7 @@ description: The wiasSetValidListFloat function sets valid values for a WIA_PROP
 old-location: image\wiassetvalidlistfloat.htm
 tech.root: image
 ms.assetid: e1a833aa-fc8b-4506-aba8-ba6dc9a375ba
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiassetvalidlistfloat, wiamdef/wiasSetValidListFloat, wiasFncs_ef1aa836-f63d-43e8-8378-22d37fbdc3a2.xml, wiasSetValidListFloat, wiasSetValidListFloat function [Imaging Devices]
 ms.topic: function
 req.header: wiamdef.h

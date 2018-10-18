@@ -6,7 +6,7 @@ description: A device object represents a logical, virtual, or physical device f
 old-location: kernel\device_object.htm
 tech.root: kernel
 ms.assetid: f3522315-cf15-41f7-ac87-c625c7dc8040
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PDEVICE_OBJECT, DEVICE_OBJECT, DEVICE_OBJECT structure [Kernel-Mode Driver Architecture], PDEVICE_OBJECT, PDEVICE_OBJECT structure pointer [Kernel-Mode Driver Architecture], _DEVICE_OBJECT, kernel.device_object, kstruct_a_93734fb2-0dd1-4376-a595-44008eb68f2c.xml, wdm/DEVICE_OBJECT, wdm/PDEVICE_OBJECT"
 ms.topic: struct
 req.header: wdm.h

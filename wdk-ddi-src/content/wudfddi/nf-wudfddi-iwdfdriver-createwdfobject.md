@@ -6,7 +6,7 @@ description: The CreateWdfObject method creates a custom (or user) WDF object fr
 old-location: wdf\iwdfdriver_createwdfobject.htm
 tech.root: wdf
 ms.assetid: 9dda353d-7c39-4c3c-b9e2-38946d6cc086
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: CreateWdfObject, CreateWdfObject method, CreateWdfObject method,IWDFDriver interface, IWDFDriver interface,CreateWdfObject method, IWDFDriver.CreateWdfObject, IWDFDriver::CreateWdfObject, UMDFDriverObjectRef_8ab61a3d-78e3-4d92-8a9c-0eff2837f65f.xml, umdf.iwdfdriver_createwdfobject, wdf.iwdfdriver_createwdfobject, wudfddi/IWDFDriver::CreateWdfObject
 ms.topic: method
 req.header: wudfddi.h

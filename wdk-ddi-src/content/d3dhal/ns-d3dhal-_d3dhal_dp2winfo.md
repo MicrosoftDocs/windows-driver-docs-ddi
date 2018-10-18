@@ -6,7 +6,7 @@ description: The D3DHAL_DP2WINFO structure is used to inform the driver of the w
 old-location: display\d3dhal_dp2winfo.htm
 tech.root: display
 ms.assetid: da4cdaff-4418-4b88-bf47-5a1567e940e1
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_DP2WINFO, D3DHAL_DP2WINFO, D3DHAL_DP2WINFO structure [Display Devices], LPD3DHAL_DP2WINFO, LPD3DHAL_DP2WINFO structure pointer [Display Devices], _D3DHAL_DP2WINFO, d3dhal/D3DHAL_DP2WINFO, d3dhal/LPD3DHAL_DP2WINFO, d3dstrct_f0755102-ab0f-43fd-9821-3cde940d24a1.xml, display.d3dhal_dp2winfo"
 ms.topic: struct
 req.header: d3dhal.h

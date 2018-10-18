@@ -6,7 +6,7 @@ description: The WdfIoResourceRequirementsListRemoveByIoResList method removes a
 old-location: wdf\wdfioresourcerequirementslistremovebyioreslist.htm
 tech.root: wdf
 ms.assetid: 507729e9-96da-461c-badb-a3725abf6591
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFResourceObjectRef_fa50f423-3ade-4deb-89a0-d79cd3f98710.xml, WdfIoResourceRequirementsListRemoveByIoResList, WdfIoResourceRequirementsListRemoveByIoResList method, kmdf.wdfioresourcerequirementslistremovebyioreslist, wdf.wdfioresourcerequirementslistremovebyioreslist, wdfresource/WdfIoResourceRequirementsListRemoveByIoResList
 ms.topic: function
 req.header: wdfresource.h

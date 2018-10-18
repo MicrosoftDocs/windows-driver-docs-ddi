@@ -6,7 +6,7 @@ description: The D3DDDIARG_GETQUERYDATA structure contains query information tha
 old-location: display\d3dddiarg_getquerydata.htm
 tech.root: display
 ms.assetid: 98c6ada1-89a4-4cbd-bb6c-98c190fa15d8
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_GETQUERYDATA, D3DDDIARG_GETQUERYDATA structure [Display Devices], UMDisplayDriver_param_Structs_7f9fefc5-6bce-4a76-9841-d91a40710d4a.xml, _D3DDDIARG_GETQUERYDATA, d3dumddi/D3DDDIARG_GETQUERYDATA, display.d3dddiarg_getquerydata
 ms.topic: struct
 req.header: d3dumddi.h

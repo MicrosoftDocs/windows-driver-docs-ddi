@@ -6,7 +6,7 @@ description: This structure is the I/O parameter type of IOCTL_LAMP_{GET|SET}_IN
 old-location: stream\lamp_capabilities_white.htm
 tech.root: stream
 ms.assetid: F407B953-8B03-4053-A5F4-3E96E9F9645E
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: LAMP_CAPABILITIES_WHITE, LAMP_CAPABILITIES_WHITE structure [Streaming Media Devices], lamp/LAMP_CAPABILITIES_WHITE, stream.lamp_capabilities_white
 ms.topic: struct
 req.header: lamp.h

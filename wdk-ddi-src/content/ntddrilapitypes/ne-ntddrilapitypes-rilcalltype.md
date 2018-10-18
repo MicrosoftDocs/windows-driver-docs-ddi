@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilcalltype.htm
 tech.root: netvista
 ms.assetid: bd6b9e57-f50b-4743-9c51-066940aad200
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILCALLTYPE, RILCALLTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLTYPE_DATA, RIL_CALLTYPE_FAX, RIL_CALLTYPE_IMS, RIL_CALLTYPE_MAX, RIL_CALLTYPE_PTT, RIL_CALLTYPE_SUPSVC, RIL_CALLTYPE_USSD, RIL_CALLTYPE_VOICE, RIL_CALLTYPE_VT, netvista.rilcalltype, ntddrilapitypes/RILCALLTYPE, ntddrilapitypes/RIL_CALLTYPE_DATA, ntddrilapitypes/RIL_CALLTYPE_FAX, ntddrilapitypes/RIL_CALLTYPE_IMS, ntddrilapitypes/RIL_CALLTYPE_MAX, ntddrilapitypes/RIL_CALLTYPE_PTT, ntddrilapitypes/RIL_CALLTYPE_SUPSVC, ntddrilapitypes/RIL_CALLTYPE_USSD, ntddrilapitypes/RIL_CALLTYPE_VOICE, ntddrilapitypes/RIL_CALLTYPE_VT
 ms.topic: enum
 req.header: ntddrilapitypes.h

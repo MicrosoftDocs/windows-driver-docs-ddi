@@ -6,7 +6,7 @@ description: An application can use IOCTL_KS_PROPERTY to get or set properties, 
 old-location: stream\ioctl_ks_property.htm
 tech.root: stream
 ms.assetid: 66f29543-9677-4bae-baa4-6be8ebc52b66
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_KS_PROPERTY, IOCTL_KS_PROPERTY control, IOCTL_KS_PROPERTY control code [Streaming Media Devices], ks-ioctl_58152402-30ed-4938-af47-9e6a1838fec1.xml, ks/IOCTL_KS_PROPERTY, stream.ioctl_ks_property
 ms.topic: ioctl
 req.header: ks.h

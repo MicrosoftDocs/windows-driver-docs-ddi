@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_sendsupservicedataresponse.htm
 tech.root: netvista
 ms.assetid: 28e8093e-6fcc-4abd-999a-5948e7062c43
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_SendSupServiceDataResponse, RIL_SendSupServiceDataResponse method [Network Drivers Starting with Windows Vista], netvista.ril_sendsupservicedataresponse, rilapi/RIL_SendSupServiceDataResponse
 ms.topic: function
 req.header: rilapi.h

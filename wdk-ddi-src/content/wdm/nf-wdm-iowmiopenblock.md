@@ -6,7 +6,7 @@ description: The IoWMIOpenBlock routine opens the WMI data block object for the 
 old-location: kernel\iowmiopenblock.htm
 tech.root: kernel
 ms.assetid: c23d1861-59df-4bd4-a005-173ccac53049
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoWMIOpenBlock, IoWMIOpenBlock routine [Kernel-Mode Driver Architecture], k104_19f378c4-3729-4668-aef0-0e675d2e1ae4.xml, kernel.iowmiopenblock, wdm/IoWMIOpenBlock
 ms.topic: function
 req.header: wdm.h

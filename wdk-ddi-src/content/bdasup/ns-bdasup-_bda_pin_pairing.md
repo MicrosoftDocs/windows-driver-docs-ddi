@@ -6,7 +6,7 @@ description: The BDA_PIN_PAIRING structure describes the topology between a pair
 old-location: stream\bda_pin_pairing.htm
 tech.root: stream
 ms.assetid: 0d05455d-32ea-4f88-8752-7f5fe40b8b29
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PBDA_PIN_PAIRING, BDA_PIN_PAIRING, BDA_PIN_PAIRING structure [Streaming Media Devices], PBDA_PIN_PAIRING, PBDA_PIN_PAIRING structure pointer [Streaming Media Devices], _BDA_PIN_PAIRING, bdaref_b007d58d-86c0-4653-867a-78ef5be2f260.xml, bdasup/BDA_PIN_PAIRING, bdasup/PBDA_PIN_PAIRING, stream.bda_pin_pairing"
 ms.topic: struct
 req.header: bdasup.h

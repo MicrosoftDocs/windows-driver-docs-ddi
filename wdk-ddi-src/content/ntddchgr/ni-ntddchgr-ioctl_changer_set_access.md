@@ -6,7 +6,7 @@ description: Sets the state of the device's import/export port (IEport), door, o
 old-location: storage\ioctl_changer_set_access.htm
 tech.root: storage
 ms.assetid: 8927e862-94e4-45ce-9245-5c6f5629fc01
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_CHANGER_SET_ACCESS, IOCTL_CHANGER_SET_ACCESS control, IOCTL_CHANGER_SET_ACCESS control code [Storage Devices], k307_08d52a8e-d7a0-42c6-92f9-c5099670473c.xml, ntddchgr/IOCTL_CHANGER_SET_ACCESS, storage.ioctl_changer_set_access
 ms.topic: ioctl
 req.header: ntddchgr.h

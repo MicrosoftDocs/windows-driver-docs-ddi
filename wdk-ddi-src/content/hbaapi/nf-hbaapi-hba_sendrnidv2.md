@@ -6,7 +6,7 @@ description: The HBA_SendRNIDV2 routine sends a request for node identification 
 old-location: storage\hba_sendrnidv2.htm
 tech.root: storage
 ms.assetid: c46aee6e-f31d-4b8d-8244-3c364aa79ae4
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_SendRNIDV2, HBA_SendRNIDV2 routine [Storage Devices], fibreHBA_rtns_8e5796fe-6cfa-42e8-9855-9ab89752bfec.xml, hbaapi/HBA_SendRNIDV2, storage.hba_sendrnidv2
 ms.topic: function
 req.header: hbaapi.h

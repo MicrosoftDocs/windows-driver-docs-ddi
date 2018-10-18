@@ -6,7 +6,7 @@ description: The KsGetCurrentCommunication method retrieves the current communic
 old-location: stream\ikspin_ksgetcurrentcommunication.htm
 tech.root: stream
 ms.assetid: 3fca9bf5-5430-4877-846e-e796e54991a2
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IKsPin interface [Streaming Media Devices],KsGetCurrentCommunication method, IKsPin.KsGetCurrentCommunication, IKsPin::KsGetCurrentCommunication, KsGetCurrentCommunication, KsGetCurrentCommunication method [Streaming Media Devices], KsGetCurrentCommunication method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsGetCurrentCommunication, ksproxy_2619bbb1-bc7d-4a69-99fb-2e35a36c4f02.xml, stream.ikspin_ksgetcurrentcommunication
 ms.topic: method
 req.header: ksproxy.h

@@ -6,7 +6,7 @@ description: The MiniportRestart function initiates a restart request for a mini
 old-location: netvista\miniportrestart.htm
 tech.root: netvista
 ms.assetid: 31a18040-2c66-4074-9ace-dd604b4bfe22
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_RESTART, MINIPORT_RESTART callback, MiniportRestart, MiniportRestart callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_3ab5d6bf-6192-4c9b-af88-a5dd0efe4d37.xml, ndis/MiniportRestart, netvista.miniportrestart
 ms.topic: callback
 req.header: ndis.h

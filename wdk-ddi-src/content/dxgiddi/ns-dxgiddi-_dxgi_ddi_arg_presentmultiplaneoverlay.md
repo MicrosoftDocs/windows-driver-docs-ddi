@@ -6,7 +6,7 @@ description: Specifies a multiplane overlay resource to display.
 old-location: display\dxgi_ddi_arg_presentmultiplaneoverlay.htm
 tech.root: display
 ms.assetid: 3d965c9b-1d71-4ef5-9b76-391b36b1d8c7
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY, DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY structure [Display Devices], _DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY, display.dxgi_ddi_arg_presentmultiplaneoverlay, dxgiddi/DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY
 ms.topic: struct
 req.header: dxgiddi.h

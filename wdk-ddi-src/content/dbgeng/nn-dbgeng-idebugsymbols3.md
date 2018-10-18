@@ -6,7 +6,7 @@ description: IDebugSymbols3 interface
 old-location: debugger\idebugsymbols3.htm
 tech.root: debugger
 ms.assetid: 3fce9384-93f3-4d81-b6ae-bda7a94da24a
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], IDebugSymbols3 interface [Windows Debugging],described, dbgeng/IDebugSymbols3, debugger.idebugsymbols3
 ms.topic: interface
 req.header: dbgeng.h

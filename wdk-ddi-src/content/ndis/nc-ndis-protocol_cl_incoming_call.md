@@ -6,7 +6,7 @@ description: The ProtocolClIncomingCall function is used by connection-oriented 
 old-location: netvista\protocolclincomingcall.htm
 tech.root: netvista
 ms.assetid: 8a5922ac-b22b-444e-9ea0-3bb56e71ef33
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CL_INCOMING_CALL, PROTOCOL_CL_INCOMING_CALL callback, ProtocolClIncomingCall, ProtocolClIncomingCall callback function [Network Drivers Starting with Windows Vista], condis_client_ref_8c9188c3-7134-4fab-a9c7-67862e881054.xml, ndis/ProtocolClIncomingCall, netvista.protocolclincomingcall
 ms.topic: callback
 req.header: ndis.h

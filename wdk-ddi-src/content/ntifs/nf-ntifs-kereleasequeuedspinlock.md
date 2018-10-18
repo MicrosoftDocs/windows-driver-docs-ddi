@@ -6,7 +6,7 @@ description: Reserved for system use.
 old-location: ifsk\kereleasequeuedspinlock.htm
 tech.root: ifsk
 ms.assetid: d10baf1a-149d-4499-89de-e151327218f7
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: KeReleaseQueuedSpinLock, KeReleaseQueuedSpinLock function [Installable File System Drivers], ifsk.kereleasequeuedspinlock, keref_8815930f-e691-4759-ac40-3ebbe95e9116.xml, ntifs/KeReleaseQueuedSpinLock
 ms.topic: function
 req.header: ntifs.h

@@ -6,7 +6,7 @@ description: This interface exposes an interrupt object.
 old-location: wdf\iwdfinterrupt.htm
 tech.root: wdf
 ms.assetid: 729A2361-6FE1-4096-AC8B-3D042326EE5C
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFInterrupt, IWDFInterrupt interface, IWDFInterrupt interface,described, umdf.iwdfinterrupt, wdf.iwdfinterrupt, wudfddi/IWDFInterrupt
 ms.topic: interface
 req.header: wudfddi.h

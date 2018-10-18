@@ -6,7 +6,7 @@ description: The WdfRequestGetEffectiveIoType method returns the buffer access m
 old-location: wdf\wdfrequestgeteffectiveiotype.htm
 tech.root: wdf
 ms.assetid: ED63E47F-B91F-49DC-9CE9-8CFE8F670B16
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfRequestGetEffectiveIoType, WdfRequestGetEffectiveIoType method, wdf.wdfrequestgeteffectiveiotype, wdfrequest/WdfRequestGetEffectiveIoType
 ms.topic: function
 req.header: wdfrequest.h

@@ -6,7 +6,7 @@ description: The HBA_GetVersion routine returns the version of the fibre channel
 old-location: storage\hba_getversion.htm
 tech.root: storage
 ms.assetid: 05fbdc9b-be15-4d1b-96d5-4ea48fb6c543
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_GetVersion, HBA_GetVersion routine [Storage Devices], fibreHBA_rtns_c4e4bef2-44a6-46e5-8da0-abce57a64f7a.xml, hbaapi/HBA_GetVersion, storage.hba_getversion
 ms.topic: function
 req.header: hbaapi.h

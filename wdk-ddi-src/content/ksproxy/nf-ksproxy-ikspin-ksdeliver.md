@@ -6,7 +6,7 @@ description: The KsDeliver method delivers a media sample from an output pin to 
 old-location: stream\ikspin_ksdeliver.htm
 tech.root: stream
 ms.assetid: e527a659-7ed5-4262-bed2-3bab58919401
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IKsPin interface [Streaming Media Devices],KsDeliver method, IKsPin.KsDeliver, IKsPin::KsDeliver, KsDeliver, KsDeliver method [Streaming Media Devices], KsDeliver method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsDeliver, ksproxy_3608c6b5-20e3-43e1-b1aa-a283f8d00f17.xml, stream.ikspin_ksdeliver
 ms.topic: method
 req.header: ksproxy.h

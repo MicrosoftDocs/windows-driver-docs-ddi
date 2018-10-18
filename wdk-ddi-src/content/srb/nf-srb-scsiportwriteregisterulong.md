@@ -6,7 +6,7 @@ description: The ScsiPortWriteRegisterUlong routine transfers a ULONG value to t
 old-location: storage\scsiportwriteregisterulong.htm
 tech.root: storage
 ms.assetid: d6e05c62-da0c-43a5-b51e-4c73f650b77d
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ScsiPortWriteRegisterUlong, ScsiPortWriteRegisterUlong routine [Storage Devices], scsiprt_8a175f68-d47c-4db0-bc22-bde418a56503.xml, srb/ScsiPortWriteRegisterUlong, storage.scsiportwriteregisterulong
 ms.topic: function
 req.header: srb.h

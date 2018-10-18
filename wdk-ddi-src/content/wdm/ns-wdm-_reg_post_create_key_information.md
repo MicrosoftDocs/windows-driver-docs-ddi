@@ -6,7 +6,7 @@ description: The REG_POST_CREATE_KEY_INFORMATION structure contains the result o
 old-location: kernel\reg_post_create_key_information.htm
 tech.root: kernel
 ms.assetid: bba965c9-7132-4988-bf89-b19004118c0a
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PREG_POST_CREATE_KEY_INFORMATION, *PREG_POST_OPEN_KEY_INFORMATION, PREG_POST_CREATE_KEY_INFORMATION, PREG_POST_CREATE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_POST_CREATE_KEY_INFORMATION, REG_POST_CREATE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], REG_POST_OPEN_KEY_INFORMATION, REG_POST_OPEN_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_POST_CREATE_KEY_INFORMATION, kernel.reg_post_create_key_information, kstruct_d_31e99ef7-d3dc-425d-9cc4-2735c50dd7dc.xml, wdm/PREG_POST_CREATE_KEY_INFORMATION, wdm/REG_POST_CREATE_KEY_INFORMATION, wdm/REG_POST_OPEN_KEY_INFORMATION"
 ms.topic: struct
 req.header: wdm.h

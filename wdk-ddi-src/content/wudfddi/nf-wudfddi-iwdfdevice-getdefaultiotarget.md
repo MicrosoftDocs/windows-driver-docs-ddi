@@ -6,7 +6,7 @@ description: The GetDefaultIoTarget method retrieves the interface of the defaul
 old-location: wdf\iwdfdevice_getdefaultiotarget.htm
 tech.root: wdf
 ms.assetid: 27bc5f1b-128d-486b-ae09-0356b1164ae0
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: GetDefaultIoTarget, GetDefaultIoTarget method, GetDefaultIoTarget method,IWDFDevice interface, IWDFDevice interface,GetDefaultIoTarget method, IWDFDevice.GetDefaultIoTarget, IWDFDevice::GetDefaultIoTarget, UMDFDeviceObjectRef_33807b94-79d4-4bb9-85a4-69de9d7c33dc.xml, umdf.iwdfdevice_getdefaultiotarget, wdf.iwdfdevice_getdefaultiotarget, wudfddi/IWDFDevice::GetDefaultIoTarget
 ms.topic: method
 req.header: wudfddi.h

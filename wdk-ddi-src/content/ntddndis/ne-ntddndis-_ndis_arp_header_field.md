@@ -6,7 +6,7 @@ description: The NDIS_ARP_HEADER_FIELD enumeration identifies the type of a fiel
 old-location: netvista\ndis_arp_header_field.htm
 tech.root: netvista
 ms.assetid: 63DA6329-C673-48A0-8E36-67035E2DB4C9
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_ARP_HEADER_FIELD, NDIS_ARP_HEADER_FIELD, NDIS_ARP_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], NdisARPHeaderFieldMaximum, NdisARPHeaderFieldOperation, NdisARPHeaderFieldSPA, NdisARPHeaderFieldTPA, NdisARPHeaderFieldUndefined, PNDIS_ARP_HEADER_FIELD, PNDIS_ARP_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_ARP_HEADER_FIELD, netvista.ndis_arp_header_field, ntddndis/NDIS_ARP_HEADER_FIELD, ntddndis/NdisARPHeaderFieldMaximum, ntddndis/NdisARPHeaderFieldOperation, ntddndis/NdisARPHeaderFieldSPA, ntddndis/NdisARPHeaderFieldTPA, ntddndis/NdisARPHeaderFieldUndefined, ntddndis/PNDIS_ARP_HEADER_FIELD"
 ms.topic: enum
 req.header: ntddndis.h

@@ -6,7 +6,7 @@ description: Contains Miracast statistics data that the user-mode display driver
 old-location: display\miracast_statistic_data.htm
 tech.root: display
 ms.assetid: 94D5C260-4076-4DB7-8ED3-E0549A872FEE
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: MIRACAST_STATISTIC_DATA, MIRACAST_STATISTIC_DATA structure [Display Devices], display.miracast_statistic_data, netdispumdddi/MIRACAST_STATISTIC_DATA
 ms.topic: struct
 req.header: netdispumdddi.h

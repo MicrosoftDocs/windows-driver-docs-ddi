@@ -6,7 +6,7 @@ description: The KeReadStateSemaphore routine returns the current state, signale
 old-location: kernel\kereadstatesemaphore.htm
 tech.root: kernel
 ms.assetid: e88c89fb-c308-4c6d-a67d-c8f98d539a43
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeReadStateSemaphore, KeReadStateSemaphore routine [Kernel-Mode Driver Architecture], k105_cc608a62-f747-4d8c-a4f8-b6df51a4d5dd.xml, kernel.kereadstatesemaphore, wdm/KeReadStateSemaphore
 ms.topic: function
 req.header: wdm.h

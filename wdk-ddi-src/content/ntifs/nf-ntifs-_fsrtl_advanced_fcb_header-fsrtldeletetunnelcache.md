@@ -6,7 +6,7 @@ description: The FsRtlDeleteTunnelCache routine deletes a tunnel cache.
 old-location: ifsk\fsrtldeletetunnelcache.htm
 tech.root: ifsk
 ms.assetid: bda13dc9-a9cc-4946-aadb-b073e5df787a
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlDeleteTunnelCache, FsRtlDeleteTunnelCache routine [Installable File System Drivers], fsrtlref_b5481e27-6ade-4057-8d63-3af814f9b80e.xml, ifsk.fsrtldeletetunnelcache, ntifs/FsRtlDeleteTunnelCache
 ms.topic: function
 req.header: ntifs.h

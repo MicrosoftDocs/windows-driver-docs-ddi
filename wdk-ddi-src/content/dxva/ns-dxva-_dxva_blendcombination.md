@@ -6,7 +6,7 @@ description: The DXVA_BlendCombination structure is sent by the host decoder to 
 old-location: display\dxva_blendcombination.htm
 tech.root: display
 ms.assetid: ae711ec5-841d-49cc-a701-1fb6ecaa9a66
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPDXVA_BlendCombination, DXVA_BlendCombination, DXVA_BlendCombination structure [Display Devices], LPDXVA_BlendCombination, LPDXVA_BlendCombination structure pointer [Display Devices], _DXVA_BlendCombination, display.dxva_blendcombination, dxva/DXVA_BlendCombination, dxva/LPDXVA_BlendCombination, dxvaref_a19d0818-7872-4d4d-a528-c81114fda7c7.xml"
 ms.topic: struct
 req.header: dxva.h

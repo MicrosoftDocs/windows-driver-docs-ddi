@@ -6,7 +6,7 @@ description: The SRBEX_DATA_IO_INFO structure contains additional information re
 old-location: storage\srbex_data_io_info.htm
 tech.root: storage
 ms.assetid: D4B99D6F-0A0C-49CE-A8E2-19C1A835EDA6
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSRBEX_DATA_IO_INFO, PSRBEX_DATA_IO_INFO, PSRBEX_DATA_IO_INFO structure pointer [Storage Devices], REQUEST_INFO_HYBRID_WRITE_THROUGH_FLAG, REQUEST_INFO_NO_CACHE_FLAG, REQUEST_INFO_PAGING_IO_FLAG, REQUEST_INFO_SEQUENTIAL_IO_FLAG, REQUEST_INFO_TEMPORARY_FLAG, REQUEST_INFO_VALID_CACHEPRIORITY_FLAG, REQUEST_INFO_WRITE_THROUGH_FLAG, SRBEX_DATA_IO_INFO, SRBEX_DATA_IO_INFO structure [Storage Devices], _SRBEX_DATA_IO_INFO, storage.srbex_data_io_info, storport/PSRBEX_DATA_IO_INFO, storport/SRBEX_DATA_IO_INFO"
 ms.topic: struct
 req.header: srb.h

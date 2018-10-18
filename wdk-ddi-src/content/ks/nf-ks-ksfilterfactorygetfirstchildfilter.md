@@ -6,7 +6,7 @@ description: The KsFilterFactoryGetFirstChildFilter function returns the first i
 old-location: stream\ksfilterfactorygetfirstchildfilter.htm
 tech.root: stream
 ms.assetid: 72eb23aa-4f0e-4ef5-baee-c0735253684e
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsFilterFactoryGetFirstChildFilter, KsFilterFactoryGetFirstChildFilter function [Streaming Media Devices], avfunc_1e512072-d270-48d9-8289-feaf8d2bcf35.xml, ks/KsFilterFactoryGetFirstChildFilter, stream.ksfilterfactorygetfirstchildfilter
 ms.topic: function
 req.header: ks.h

@@ -6,7 +6,7 @@ description: The IPnpCallbackHardwareInterrupt interface supports interrupt-rela
 old-location: wdf\ipnpcallbackhardwareinterrupt.htm
 tech.root: wdf
 ms.assetid: C66A570A-EEAF-4D18-A834-B50576F51E29
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IPnpCallbackHardwareInterrupt, IPnpCallbackHardwareInterrupt interface, IPnpCallbackHardwareInterrupt interface,described, umdf.ipnpcallbackhardwareinterrupt, wdf.ipnpcallbackhardwareinterrupt, wudfddi/IPnpCallbackHardwareInterrupt
 ms.topic: interface
 req.header: wudfddi.h

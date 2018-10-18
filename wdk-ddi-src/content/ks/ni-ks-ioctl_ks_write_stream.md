@@ -6,7 +6,7 @@ description: An application can use IOCTL_KS_WRITE_STREAM to write data to a pin
 old-location: stream\ioctl_ks_write_stream.htm
 tech.root: stream
 ms.assetid: 560cfc18-5cbe-4af7-b579-3904ee68acbf
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_KS_WRITE_STREAM, IOCTL_KS_WRITE_STREAM control, IOCTL_KS_WRITE_STREAM control code [Streaming Media Devices], ks-ioctl_83263ce8-e0b1-4ae5-a5b8-848e0fb99471.xml, ks/IOCTL_KS_WRITE_STREAM, stream.ioctl_ks_write_stream
 ms.topic: ioctl
 req.header: ks.h

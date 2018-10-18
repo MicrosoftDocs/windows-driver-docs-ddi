@@ -6,7 +6,7 @@ description: The RtlStringCbCopyW and RtlStringCbCopyA functions copy a byte-cou
 old-location: kernel\rtlstringcbcopy.htm
 tech.root: kernel
 ms.assetid: 77a42d5e-92ff-4e64-9bd3-b713286d3db0
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlStringCbCopy, RtlStringCbCopyA, RtlStringCbCopyW, RtlStringCbCopyW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbcopy, ntstrsafe/RtlStringCbCopyA, ntstrsafe/RtlStringCbCopyW, safestrings_a9c53388-15ef-4140-8931-ca93d519a7d4.xml
 ms.topic: function
 req.header: ntstrsafe.h

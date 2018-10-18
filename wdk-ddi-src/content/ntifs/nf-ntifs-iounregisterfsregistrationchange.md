@@ -6,7 +6,7 @@ description: The IoUnregisterFsRegistrationChange routine unregisters file syste
 old-location: ifsk\iounregisterfsregistrationchange.htm
 tech.root: ifsk
 ms.assetid: 4e10afc0-b9c4-4495-83a1-11f9b82143fc
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: IoUnregisterFsRegistrationChange, IoUnregisterFsRegistrationChange routine [Installable File System Drivers], ifsk.iounregisterfsregistrationchange, ioref_18a53f5a-49f9-40ba-bf85-d2fea7d6fbfb.xml, ntifs/IoUnregisterFsRegistrationChange
 ms.topic: function
 req.header: ntifs.h

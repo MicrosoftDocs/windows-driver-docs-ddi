@@ -6,7 +6,7 @@ description: The TRANSACTION_INFORMATION_CLASS enumeration specifies the type of
 old-location: kernel\transaction_information_class.htm
 tech.root: kernel
 ms.assetid: f3211114-8924-4e57-85a3-12471585652b
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: TRANSACTION_INFORMATION_CLASS, TRANSACTION_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], TransactionBasicInformation, TransactionEnlistmentInformation, TransactionPropertiesInformation, TransactionSuperiorEnlistmentInformation, _TRANSACTION_INFORMATION_CLASS, kernel.transaction_information_class, ktm_ref_b02f7265-fb29-402a-b0d3-79427735f354.xml, wdm/TRANSACTION_INFORMATION_CLASS, wdm/TransactionBasicInformation, wdm/TransactionEnlistmentInformation, wdm/TransactionPropertiesInformation, wdm/TransactionSuperiorEnlistmentInformation
 ms.topic: enum
 req.header: wdm.h

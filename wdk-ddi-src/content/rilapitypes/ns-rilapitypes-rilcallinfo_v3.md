@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilcallinfo_v3.htm
 tech.root: netvista
 ms.assetid: b72eb90f-d98c-43ba-b3f8-2d248d61da40
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILCALLINFO_V3, RILCALLINFO_V3, RILCALLINFO_V3 structure [Network Drivers Starting with Windows Vista], netvista.rilcallinfo_v3, ntddrilapitypes/RILCALLINFO_V3"
 ms.topic: struct
 req.header: rilapitypes.h

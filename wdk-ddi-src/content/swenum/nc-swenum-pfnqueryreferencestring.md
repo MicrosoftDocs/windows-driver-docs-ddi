@@ -6,7 +6,7 @@ description: This routine creates a buffer from the paged pool and copies the re
 old-location: stream\kstrqueryreferencestring.htm
 tech.root: stream
 ms.assetid: 08fd750f-19cc-4d78-a26b-9f790c5c3acf
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KStrQueryReferenceString, KStrQueryReferenceString routine [Streaming Media Devices], PFNQUERYREFERENCESTRING, ks/KStrQueryReferenceString, ksfunc_ce750f42-efeb-4861-b451-ef0f8be40f9a.xml, stream.kstrqueryreferencestring
 ms.topic: callback
 req.header: swenum.h

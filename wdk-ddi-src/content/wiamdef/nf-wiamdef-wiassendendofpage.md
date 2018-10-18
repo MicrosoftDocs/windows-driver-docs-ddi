@@ -6,7 +6,7 @@ description: The wiasSendEndOfPage function calls the client callback routine du
 old-location: image\wiassendendofpage.htm
 tech.root: image
 ms.assetid: 107cd468-bc39-4672-9356-e5329b36277b
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiassendendofpage, wiamdef/wiasSendEndOfPage, wiasFncs_c8a81130-c832-40d8-8a62-619d04d8d3dc.xml, wiasSendEndOfPage, wiasSendEndOfPage function [Imaging Devices]
 ms.topic: function
 req.header: wiamdef.h

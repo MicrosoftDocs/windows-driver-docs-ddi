@@ -6,7 +6,7 @@ description: The RtlUpcaseUnicodeToMultiByteN routine translates the specified U
 old-location: ifsk\rtlupcaseunicodetomultibyten.htm
 tech.root: ifsk
 ms.assetid: a79a5d3b-ed1c-42fa-b491-0ad0b3dfc921
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlUpcaseUnicodeToMultiByteN, RtlUpcaseUnicodeToMultiByteN routine [Installable File System Drivers], ifsk.rtlupcaseunicodetomultibyten, ntifs/RtlUpcaseUnicodeToMultiByteN, rtlref_a6ac52da-a3c7-4c16-8b8c-3086868fe4e2.xml
 ms.topic: function
 req.header: ntifs.h

@@ -6,7 +6,7 @@ description: The WDF_DEVICE_PROPERTY_DATA structure describes a device property.
 old-location: wdf\wdf_device_property_data.htm
 tech.root: wdf
 ms.assetid: C49562C0-D8B6-4BAE-96EB-4005D9EB19DE
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*PWDF_DEVICE_PROPERTY_DATA, PWDF_DEVICE_PROPERTY_DATA, PWDF_DEVICE_PROPERTY_DATA structure pointer, WDF_DEVICE_PROPERTY_DATA, WDF_DEVICE_PROPERTY_DATA structure, _WDF_DEVICE_PROPERTY_DATA, wdf.wdf_device_property_data, wdfdevice/PWDF_DEVICE_PROPERTY_DATA, wdfdevice/WDF_DEVICE_PROPERTY_DATA"
 ms.topic: struct
 req.header: wdfdevice.h

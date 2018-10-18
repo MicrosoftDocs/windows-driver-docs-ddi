@@ -6,7 +6,7 @@ description: The VideoPortSetEvent function sets an event object to the signaled
 old-location: display\videoportsetevent.htm
 tech.root: display
 ms.assetid: 93db9d51-3f80-47ff-a2c2-3c937b5dcf7b
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortSetEvent, VideoPortSetEvent function [Display Devices], VideoPort_Functions_8efce2e2-f5e7-402a-a5bf-03c23ac85992.xml, display.videoportsetevent, video/VideoPortSetEvent
 ms.topic: function
 req.header: video.h

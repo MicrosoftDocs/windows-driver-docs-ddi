@@ -6,7 +6,7 @@ description: The BdaCreateFilterFactory function adds the specified filter descr
 old-location: stream\bdacreatefilterfactory.htm
 tech.root: stream
 ms.assetid: bce1a41a-03fa-4f41-aeba-e18c85b07e00
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: BdaCreateFilterFactory, BdaCreateFilterFactory function [Streaming Media Devices], bdaref_187ab038-cc22-4f82-a9c9-b326b77fef64.xml, bdasup/BdaCreateFilterFactory, stream.bdacreatefilterfactory
 ms.topic: function
 req.header: bdasup.h

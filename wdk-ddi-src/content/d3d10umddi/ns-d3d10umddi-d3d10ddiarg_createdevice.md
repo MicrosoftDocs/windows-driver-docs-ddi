@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The D3D10DDIARG_CREATEDEVICE structure describes the display device to create.
 old-location: display\d3d10ddiarg_createdevice.htm
 ms.assetid: 64154d8a-1775-455b-bf31-9c3a0f1398ad
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D10DDIARG_CREATEDEVICE, D3D10DDIARG_CREATEDEVICE structure [Display Devices], UMDisplayDriver_Dx10param_Structs_cf670d46-fffb-49ec-8d04-61f73e30e309.xml, d3d10umddi/D3D10DDIARG_CREATEDEVICE, display.d3d10ddiarg_createdevice
 ms.topic: struct
 req.header: d3d10umddi.h

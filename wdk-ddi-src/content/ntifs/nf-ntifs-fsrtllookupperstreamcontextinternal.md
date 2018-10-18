@@ -6,7 +6,7 @@ description: Reserved for system use.
 old-location: ifsk\fsrtllookupperstreamcontextinternal.htm
 tech.root: ifsk
 ms.assetid: 672fc668-452b-4f37-9526-88bedb4a1ef9
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlLookupPerStreamContextInternal, FsRtlLookupPerStreamContextInternal function [Installable File System Drivers], fsrtlref_872d7113-0cde-4ac9-a504-fedca6aa51e7.xml, ifsk.fsrtllookupperstreamcontextinternal, ntifs/FsRtlLookupPerStreamContextInternal
 ms.topic: function
 req.header: ntifs.h

@@ -6,7 +6,7 @@ description: The WdfDeviceClearRemovalRelationsDevices method removes all device
 old-location: wdf\wdfdeviceclearremovalrelationsdevices.htm
 tech.root: wdf
 ms.assetid: c3ff7c9d-380e-4d66-88a4-aef7abe20c9d
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_e2dc5cb6-4f45-441c-b242-5b67ea8fa381.xml, WdfDeviceClearRemovalRelationsDevices, WdfDeviceClearRemovalRelationsDevices method, kmdf.wdfdeviceclearremovalrelationsdevices, wdf.wdfdeviceclearremovalrelationsdevices, wdfdevice/WdfDeviceClearRemovalRelationsDevices
 ms.topic: function
 req.header: wdfdevice.h

@@ -6,7 +6,7 @@ description: The CreateVertexShaderFunc function converts vertex shader code int
 old-location: display\createvertexshaderfunc.htm
 tech.root: display
 ms.assetid: e986d37a-6039-4bc4-b5e8-6c4d4d7adedd
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateVertexShaderFunc, CreateVertexShaderFunc callback function [Display Devices], PFND3DDDI_CREATEVERTEXSHADERFUNC, PFND3DDDI_CREATEVERTEXSHADERFUNC callback, UserModeDisplayDriver_Functions_bb697f1f-765f-46d9-961a-f4e8060727bc.xml, d3dumddi/CreateVertexShaderFunc, display.createvertexshaderfunc
 ms.topic: callback
 req.header: d3dumddi.h

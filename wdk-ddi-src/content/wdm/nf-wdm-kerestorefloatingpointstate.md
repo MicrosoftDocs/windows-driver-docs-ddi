@@ -6,7 +6,7 @@ description: The KeRestoreFloatingPointState routine restores the nonvolatile fl
 old-location: kernel\kerestorefloatingpointstate.htm
 tech.root: kernel
 ms.assetid: 9a9b3c9f-5371-4d70-b1f3-5038e4cabc83
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeRestoreFloatingPointState, KeRestoreFloatingPointState routine [Kernel-Mode Driver Architecture], k105_94a36699-2129-4e69-ba6a-206452f0b723.xml, kernel.kerestorefloatingpointstate, wdm/KeRestoreFloatingPointState
 ms.topic: function
 req.header: wdm.h

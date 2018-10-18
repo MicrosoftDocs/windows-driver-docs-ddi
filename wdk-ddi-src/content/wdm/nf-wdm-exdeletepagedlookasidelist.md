@@ -6,7 +6,7 @@ description: The ExDeletePagedLookasideList routine destroys a paged lookaside l
 old-location: kernel\exdeletepagedlookasidelist.htm
 tech.root: kernel
 ms.assetid: da3784a8-6fc5-47cc-932e-52ec16392e49
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExDeletePagedLookasideList, ExDeletePagedLookasideList routine [Kernel-Mode Driver Architecture], k102_6e78a15a-e6e1-4282-a8de-a4f38f74ebc6.xml, kernel.exdeletepagedlookasidelist, wdm/ExDeletePagedLookasideList
 ms.topic: function
 req.header: wdm.h

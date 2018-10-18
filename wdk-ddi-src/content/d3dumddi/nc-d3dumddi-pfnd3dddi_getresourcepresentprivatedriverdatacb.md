@@ -6,7 +6,7 @@ description: pfnGetResourcePresentPrivateDriverDataCb is used to query the resou
 old-location: display\pfngetresourcepresentprivatedriverdatacb.htm
 tech.root: display
 ms.assetid: D4F0F272-60DC-4060-9762-3DB49236CE62
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATACB, PFND3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATACB callback, d3dumddi/pfnGetResourcePresentPrivateDriverDataCb, display.pfngetresourcepresentprivatedriverdatacb, pfnGetResourcePresentPrivateDriverDataCb, pfnGetResourcePresentPrivateDriverDataCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h

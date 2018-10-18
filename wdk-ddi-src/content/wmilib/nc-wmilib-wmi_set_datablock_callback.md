@@ -6,7 +6,7 @@ description: The DpWmiSetDataBlock routine changes all data items in a single in
 old-location: kernel\dpwmisetdatablock.htm
 tech.root: kernel
 ms.assetid: 429c84e4-16da-452a-b26d-a71546299f0b
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: DpWmiSetDataBlock, DpWmiSetDataBlock callback function [Kernel-Mode Driver Architecture], WMI_SET_DATABLOCK_CALLBACK, WMI_SET_DATABLOCK_CALLBACK callback, k903_bb4a483a-1ffc-4664-930b-13cc3579086e.xml, kernel.dpwmisetdatablock, wmilib/DpWmiSetDataBlock
 ms.topic: callback
 req.header: wmilib.h

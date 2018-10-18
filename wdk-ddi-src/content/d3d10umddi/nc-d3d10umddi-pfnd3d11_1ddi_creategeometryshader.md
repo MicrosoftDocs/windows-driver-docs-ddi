@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Creates a geometry shader.
 old-location: display\creategeometryshader_d3d11_1_.htm
 ms.assetid: A0C3826D-E4F3-4169-A899-41C11006DE69
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateGeometryShader(D3D11_1), CreateGeometryShader(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CREATEGEOMETRYSHADER, PFND3D11_1DDI_CREATEGEOMETRYSHADER callback, d3d10umddi/CreateGeometryShader(D3D11_1), display.creategeometryshader_d3d11_1_
 ms.topic: callback
 req.header: d3d10umddi.h

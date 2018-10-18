@@ -6,7 +6,7 @@ description: The NDIS_WWAN_SET_PIN structure represents what PIN action to take 
 old-location: netvista\ndis_wwan_set_pin.htm
 tech.root: netvista
 ms.assetid: 96c85e4d-d31d-4e89-9822-2c9068533b9a
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_WWAN_SET_PIN, NDIS_WWAN_SET_PIN, NDIS_WWAN_SET_PIN structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_PIN, PNDIS_WWAN_SET_PIN structure pointer [Network Drivers Starting with Windows Vista], WwanRef_565f6200-b5cd-4845-a606-bfb098eda610.xml, _NDIS_WWAN_SET_PIN, ndiswwan/NDIS_WWAN_SET_PIN, ndiswwan/PNDIS_WWAN_SET_PIN, netvista.ndis_wwan_set_pin"
 ms.topic: struct
 req.header: ndiswwan.h

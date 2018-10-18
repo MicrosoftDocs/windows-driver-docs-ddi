@@ -6,7 +6,7 @@ description: The DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION structure contain
 old-location: display\dxgkmdt_opm_connected_hdcp_device_information.htm
 tech.root: display
 ms.assetid: 5f99d3e5-1fa2-43a9-98fb-347dfe85440a
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION, DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION structure [Display Devices], DmStructs_9c39e234-e0dd-4d2f-b1b4-e8745bcc69aa.xml, _DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION, d3dkmdt/DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION, display.dxgkmdt_opm_connected_hdcp_device_information
 ms.topic: struct
 req.header: d3dkmdt.h

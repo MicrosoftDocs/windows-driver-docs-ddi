@@ -6,7 +6,7 @@ description: The DxgkCbLogEtwEvent function logs an Event Tracing for Windows (E
 old-location: display\dxgkcblogetwevent.htm
 tech.root: display
 ms.assetid: d869f933-4316-440e-899a-d46d72a0d10f
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKCB_LOG_ETW_EVENT, DXGKCB_LOG_ETW_EVENT callback, DpFunctions_1e074b6d-dff4-4d1f-93ce-4333a4241562.xml, DxgkCbLogEtwEvent, DxgkCbLogEtwEvent callback function [Display Devices], display.dxgkcblogetwevent, dispmprt/DxgkCbLogEtwEvent
 ms.topic: callback
 req.header: dispmprt.h

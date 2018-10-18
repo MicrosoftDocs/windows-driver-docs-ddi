@@ -6,7 +6,7 @@ description: Protocol drivers call the NdisSendNetBufferLists function to send n
 old-location: netvista\ndissendnetbufferlists.htm
 tech.root: netvista
 ms.assetid: f615acc4-7e3e-4390-8a6a-e68663fcc162
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisSendNetBufferLists, NdisSendNetBufferLists function [Network Drivers Starting with Windows Vista], ndis/NdisSendNetBufferLists, ndis_sendrcv_ref_c63c443f-ecd0-4ff3-8a60-b25cef2a5cd3.xml, netvista.ndissendnetbufferlists
 ms.topic: function
 req.header: ndis.h

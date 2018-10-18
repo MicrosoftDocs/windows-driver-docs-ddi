@@ -6,7 +6,7 @@ description: The PEP_PPM_QUERY_CAPABILITIES structure contains information about
 old-location: kernel\pep_ppm_query_capabilities.htm
 tech.root: kernel
 ms.assetid: D33FA62B-9DC8-4AC4-85FC-726C39FB76F4
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_PPM_QUERY_CAPABILITIES, PEP_PPM_QUERY_CAPABILITIES, PEP_PPM_QUERY_CAPABILITIES structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_CAPABILITIES, PPEP_PPM_QUERY_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_CAPABILITIES, kernel.pep_ppm_query_capabilities, pepfx/PEP_PPM_QUERY_CAPABILITIES, pepfx/PPEP_PPM_QUERY_CAPABILITIES"
 ms.topic: struct
 req.header: pepfx.h

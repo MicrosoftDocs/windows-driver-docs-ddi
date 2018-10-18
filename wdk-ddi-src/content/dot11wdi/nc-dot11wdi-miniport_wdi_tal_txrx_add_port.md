@@ -6,7 +6,7 @@ description: The MiniportWdiTalTxRxAddPort handler function notifies the datapat
 old-location: netvista\miniportwditaltxrxaddport.htm
 tech.root: netvista
 ms.assetid: D3006A0B-B0E0-4FEA-864A-FA4B75594FB0
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_TAL_TXRX_ADD_PORT, MINIPORT_WDI_TAL_TXRX_ADD_PORT callback, MiniportWdiTalTxRxAddPort, MiniportWdiTalTxRxAddPort callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxAddPort, netvista.miniportwditaltxrxaddport
 ms.topic: callback
 req.header: dot11wdi.h

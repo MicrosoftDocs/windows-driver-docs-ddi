@@ -6,7 +6,7 @@ description: A miniport-provided callback function for processing a Storport wor
 old-location: storage\hwstorworkitem.htm
 tech.root: storage
 ms.assetid: CBBB1350-66BE-4F74-A0CE-0400245352F3
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HW_WORKITEM, HwStorWorkItem, HwStorWorkItem routine [Storage Devices], storage.hwstorworkitem, storport/HwStorWorkItem
 ms.topic: callback
 req.header: storport.h

@@ -6,7 +6,7 @@ description: The FsRtlGetSupportedFeatures routine returns the supported feature
 old-location: ifsk\fsrtlgetsupportedfeatures.htm
 tech.root: ifsk
 ms.assetid: 24852B9A-5156-41BB-87F9-81B147A85AC2
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlGetSupportedFeatures, FsRtlGetSupportedFeatures routine [Installable File System Drivers], SUPPORTED_FS_FEATURES_OFFLOAD_READ, SUPPORTED_FS_FEATURES_OFFLOAD_WRITE, ifsk.fsrtlgetsupportedfeatures, ntifs/FsRtlGetSupportedFeatures
 ms.topic: function
 req.header: ntifs.h

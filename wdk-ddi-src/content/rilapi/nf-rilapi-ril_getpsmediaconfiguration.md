@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_getpsmediaconfiguration.htm
 tech.root: netvista
 ms.assetid: f7b1f2a6-d57a-44ec-b14b-8b41b020935e
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_GetPSMediaConfiguration, RIL_GetPSMediaConfiguration method [Network Drivers Starting with Windows Vista], netvista.ril_getpsmediaconfiguration, rilapi/RIL_GetPSMediaConfiguration
 ms.topic: function
 req.header: rilapi.h

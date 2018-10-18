@@ -6,7 +6,7 @@ description: The IoCreateNotificationEvent routine creates or opens a named noti
 old-location: kernel\iocreatenotificationevent.htm
 tech.root: kernel
 ms.assetid: 44be034e-0c82-4980-a246-132d1b50dee1
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoCreateNotificationEvent, IoCreateNotificationEvent routine [Kernel-Mode Driver Architecture], k104_2b3bf223-0427-40e2-9f95-da5aa12c5da2.xml, kernel.iocreatenotificationevent, wdm/IoCreateNotificationEvent
 ms.topic: function
 req.header: wdm.h

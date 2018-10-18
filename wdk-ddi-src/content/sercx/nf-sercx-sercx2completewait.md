@@ -6,7 +6,7 @@ description: The SerCx2CompleteWait method notifies version 2 of the serial fram
 old-location: serports\sercx2completewait.htm
 tech.root: serports
 ms.assetid: 7A3DC90E-628C-4FFC-807D-8F23BDC97742
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SerCx2CompleteWait, SerCx2CompleteWait, SerCx2CompleteWait method [Serial Ports], serports.sercx2completewait
 ms.topic: function
 req.header: sercx.h

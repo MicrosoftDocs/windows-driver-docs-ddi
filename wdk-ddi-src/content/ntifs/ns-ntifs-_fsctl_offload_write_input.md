@@ -6,7 +6,7 @@ description: The FSCTL_OFFLOAD_WRITE_INPUT structure contains the input for the 
 old-location: ifsk\fsctl_offload_write_input.htm
 tech.root: ifsk
 ms.assetid: 4ADBBBDC-02DD-4D1A-B697-6286D7513B2E
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PFSCTL_OFFLOAD_WRITE_INPUT, FSCTL_OFFLOAD_WRITE_INPUT, FSCTL_OFFLOAD_WRITE_INPUT structure [Installable File System Drivers], PFSCTL_OFFLOAD_WRITE_INPUT, PFSCTL_OFFLOAD_WRITE_INPUT structure pointer [Installable File System Drivers], _FSCTL_OFFLOAD_WRITE_INPUT, ifsk.fsctl_offload_write_input, ntifs/FSCTL_OFFLOAD_WRITE_INPUT, ntifs/PFSCTL_OFFLOAD_WRITE_INPUT"
 ms.topic: struct
 req.header: ntifs.h

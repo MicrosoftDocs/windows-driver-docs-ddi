@@ -6,7 +6,7 @@ description: The AtaPortReadPortBufferUshort routine transfers a given number of
 old-location: storage\ataportreadportbufferushort.htm
 tech.root: storage
 ms.assetid: f118af3b-5a9a-486b-9550-9b48bdfb48cd
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: AtaPortReadPortBufferUshort, AtaPortReadPortBufferUshort routine [Storage Devices], atartns_9cf8ae36-e364-4fb8-9fda-c8a78cd022b4.xml, irb/AtaPortReadPortBufferUshort, storage.ataportreadportbufferushort
 ms.topic: function
 req.header: irb.h

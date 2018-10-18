@@ -6,7 +6,7 @@ description: The FltGetNewSystemBufferAddress function retrieves the AssociatedI
 old-location: ifsk\fltgetnewsystembufferaddress.htm
 tech.root: ifsk
 ms.assetid: 83a5e9b7-1731-422f-a0df-c1efbc8cad81
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_a9a2a8aa-92e5-4843-a1e9-5b1a15d870fa.xml, FltGetNewSystemBufferAddress, FltGetNewSystemBufferAddress function [Installable File System Drivers], fltkernel/FltGetNewSystemBufferAddress, ifsk.fltgetnewsystembufferaddress
 ms.topic: function
 req.header: fltkernel.h

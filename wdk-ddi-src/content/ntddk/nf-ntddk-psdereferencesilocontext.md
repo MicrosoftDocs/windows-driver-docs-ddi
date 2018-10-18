@@ -6,7 +6,7 @@ description: This routine decrements the reference count on the object.
 old-location: kernel\psdereferencesilocontext.htm
 tech.root: kernel
 ms.assetid: B71C7E8F-E136-4C13-B771-03B3C3C1BE64
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PsDereferenceSiloContext, PsDereferenceSiloContext routine [Kernel-Mode Driver Architecture], kernel.psdereferencesilocontext, ntddk/PsDereferenceSiloContext
 ms.topic: function
 req.header: ntddk.h

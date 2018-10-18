@@ -6,7 +6,7 @@ description: The VideoPortAssociateEventsWithDmaHandle function is obsolete in W
 old-location: display\videoportassociateeventswithdmahandle.htm
 tech.root: display
 ms.assetid: d8a64a06-41b9-429b-a5ac-6de4996c702b
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortAssociateEventsWithDmaHandle, VideoPortAssociateEventsWithDmaHandle function [Display Devices], VideoPort_Functions_0b61cb97-6bee-4882-83c9-1a56b8c2807b.xml, display.videoportassociateeventswithdmahandle, video/VideoPortAssociateEventsWithDmaHandle
 ms.topic: function
 req.header: video.h

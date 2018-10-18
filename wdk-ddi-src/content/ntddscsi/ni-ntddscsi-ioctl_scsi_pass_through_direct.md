@@ -6,7 +6,7 @@ description: Allows an application to send almost any SCSI command to a target d
 old-location: storage\ioctl_scsi_pass_through_direct.htm
 tech.root: storage
 ms.assetid: 7706e861-b8d6-41c3-9b64-371de4f58d48
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_SCSI_PASS_THROUGH_DIRECT, IOCTL_SCSI_PASS_THROUGH_DIRECT control, IOCTL_SCSI_PASS_THROUGH_DIRECT control code [Storage Devices], k307_4d0f0379-41c5-45c5-98b4-1a222349b4e1.xml, ntddscsi/IOCTL_SCSI_PASS_THROUGH_DIRECT, storage.ioctl_scsi_pass_through_direct
 ms.topic: ioctl
 req.header: ntddscsi.h

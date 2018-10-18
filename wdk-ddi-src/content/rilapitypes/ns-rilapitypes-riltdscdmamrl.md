@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\riltdscdmamrl_2.htm
 tech.root: netvista
 ms.assetid: 42cf6592-345c-4e4c-8614-37dc82ed6470
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*LPRILTDSCDMAMRL, RILTDSCDMAMRL, RILTDSCDMAMRL structure [Network Drivers Starting with Windows Vista], netvista.riltdscdmamrl_2, rilapitypes/RILTDSCDMAMRL"
 ms.topic: struct
 req.header: rilapitypes.h

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The DXGK_QUERYGPUMMUCAPSIN structure holds the index of the adapter being queried.
 old-location: display\dxgk_querygpummucapsin.htm
 ms.assetid: 8DFD307F-DD4E-4321-AD97-78A5D67687B0
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_QUERYGPUMMUCAPSIN, DXGK_QUERYGPUMMUCAPSIN structure [Display Devices], _DXGK_QUERYGPUMMUCAPSIN, d3dkmddi/DXGK_QUERYGPUMMUCAPSIN, display.dxgk_querygpummucapsin
 ms.topic: struct
 req.header: d3dkmddi.h

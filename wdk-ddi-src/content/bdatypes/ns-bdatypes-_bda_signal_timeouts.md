@@ -6,7 +6,7 @@ description:
 old-location: stream\bda_signal_timeouts.htm
 tech.root: stream
 ms.assetid: CFEF848D-8268-4FFC-A629-D122021D8411
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PBDA_SIGNAL_TIMEOUTS, BDA_SIGNAL_TIMEOUTS, BDA_SIGNAL_TIMEOUTS structure [Streaming Media Devices], PBDA_SIGNAL_TIMEOUTS, PBDA_SIGNAL_TIMEOUTS structure pointer [Streaming Media Devices], _BDA_SIGNAL_TIMEOUTS, bdatypes/BDA_SIGNAL_TIMEOUTS, bdatypes/PBDA_SIGNAL_TIMEOUTS, stream.bda_signal_timeouts"
 ms.topic: struct
 req.header: bdatypes.h

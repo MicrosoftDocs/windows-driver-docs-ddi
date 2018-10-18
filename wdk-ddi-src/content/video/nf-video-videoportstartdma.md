@@ -6,7 +6,7 @@ description: The VideoPortStartDma function prepares the system for a DMA operat
 old-location: display\videoportstartdma.htm
 tech.root: display
 ms.assetid: cb78e871-6177-4141-b713-25a39c928701
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortStartDma, VideoPortStartDma function [Display Devices], VideoPort_Functions_b568d7ff-2e88-4afe-827b-4e54e075718c.xml, display.videoportstartdma, video/VideoPortStartDma
 ms.topic: function
 req.header: video.h

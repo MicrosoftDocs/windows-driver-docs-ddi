@@ -6,7 +6,7 @@ description: The MPIO_GET_DESCRIPTOR structure is used to query for LUN instance
 old-location: storage\mpio_get_descriptor.htm
 tech.root: storage
 ms.assetid: cabd2a6d-20d0-4499-8494-7ad746f2d915
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PMPIO_GET_DESCRIPTOR, MPIO_GET_DESCRIPTOR, MPIO_GET_DESCRIPTOR structure [Storage Devices], PMPIO_GET_DESCRIPTOR, PMPIO_GET_DESCRIPTOR structure pointer [Storage Devices], _MPIO_GET_DESCRIPTOR, mpiodisk/MPIO_GET_DESCRIPTOR, mpiodisk/PMPIO_GET_DESCRIPTOR, storage.mpio_get_descriptor, structs-scsibus_4d648295-24f6-44c1-a0a9-8a46aeada604.xml"
 ms.topic: struct
 req.header: mpiodisk.h

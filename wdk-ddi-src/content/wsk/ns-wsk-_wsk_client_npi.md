@@ -6,7 +6,7 @@ description: The WSK_CLIENT_NPI structure identifies a Network Programming Inter
 old-location: netvista\wsk_client_npi.htm
 tech.root: netvista
 ms.assetid: 2f50b228-5565-436f-8c68-8885b8916001
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWSK_CLIENT_NPI, PWSK_CLIENT_NPI, PWSK_CLIENT_NPI structure pointer [Network Drivers Starting with Windows Vista], WSK_CLIENT_NPI, WSK_CLIENT_NPI structure [Network Drivers Starting with Windows Vista], _WSK_CLIENT_NPI, netvista.wsk_client_npi, wsk/PWSK_CLIENT_NPI, wsk/WSK_CLIENT_NPI, wskref_e498e50c-695d-4f5c-a1db-0f87f4313d4a.xml"
 ms.topic: struct
 req.header: wsk.h

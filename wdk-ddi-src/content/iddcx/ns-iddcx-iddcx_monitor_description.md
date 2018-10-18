@@ -6,7 +6,7 @@ description: Gives information about the current monitor description.
 old-location: display\iddcx_monitor_description.htm
 tech.root: display
 ms.assetid: 3ef7ffca-9192-4578-8397-c7fbb2ea2239
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IDDCX_MONITOR_DESCRIPTION, IDDCX_MONITOR_DESCRIPTION structure [Display Devices], display.iddcx_monitor_description, iddcx/IDDCX_MONITOR_DESCRIPTION
 ms.topic: struct
 req.header: iddcx.h

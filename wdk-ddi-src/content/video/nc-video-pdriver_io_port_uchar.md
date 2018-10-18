@@ -6,7 +6,7 @@ description: SvgaHwIoPortUchar traps an I/O port to which a full-screen MS-DOS a
 old-location: display\svgahwioportuchar.htm
 tech.root: display
 ms.assetid: 91e2dc51-0f3a-4cda-abe6-72893fd4da79
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PDRIVER_IO_PORT_UCHAR, PDRIVER_IO_PORT_UCHAR callback, SvgaHwIoPortUchar, SvgaHwIoPortUchar callback function [Display Devices], VideoMiniport_Functions_d926584b-82e3-463e-ad50-b04d065a1d9d.xml, display.svgahwioportuchar, video/SvgaHwIoPortUchar
 ms.topic: callback
 req.header: video.h

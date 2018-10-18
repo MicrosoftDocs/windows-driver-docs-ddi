@@ -6,7 +6,7 @@ description: The InitializeObjectAttributes macro initializes the opaque OBJECT_
 old-location: kernel\initializeobjectattributes.htm
 tech.root: kernel
 ms.assetid: ee89a9af-0bdf-476e-b4e3-eb60662e160d
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: InitializeObjectAttributes, InitializeObjectAttributes macro [Kernel-Mode Driver Architecture], k107_f7e00cf9-9598-4835-b51a-3df9e003587e.xml, kernel.initializeobjectattributes, wudfwdm/InitializeObjectAttributes
 ms.topic: macro
 req.header: wudfwdm.h

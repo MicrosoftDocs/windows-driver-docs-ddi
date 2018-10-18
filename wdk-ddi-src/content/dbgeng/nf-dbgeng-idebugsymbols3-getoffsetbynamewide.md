@@ -6,7 +6,7 @@ description: The GetOffsetByNameWide method returns the location of a symbol ide
 old-location: debugger\getoffsetbynamewide.htm
 tech.root: debugger
 ms.assetid: 576193fc-756f-40fb-abdd-65c088687cb5
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetOffsetByNameWide, GetOffsetByNameWide method [Windows Debugging], GetOffsetByNameWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetOffsetByNameWide method, IDebugSymbols3.GetOffsetByNameWide, IDebugSymbols3::GetOffsetByNameWide, dbgeng/IDebugSymbols3::GetOffsetByNameWide, debugger.getoffsetbynamewide
 ms.topic: method
 req.header: dbgeng.h

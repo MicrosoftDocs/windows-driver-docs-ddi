@@ -6,7 +6,7 @@ description: KStrFastHandler is a driver-supplied routine that handles a propert
 old-location: stream\kstrfasthandler.htm
 tech.root: stream
 ms.assetid: 9a72cdb5-2b57-4331-9836-82653732decf
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KStrFastHandler, KStrFastHandler routine [Streaming Media Devices], PFNKSFASTHANDLER, ks/KStrFastHandler, ksfunc_e78a76eb-b3e6-4864-bae2-49536d3a9d52.xml, stream.kstrfasthandler
 ms.topic: callback
 req.header: ks.h

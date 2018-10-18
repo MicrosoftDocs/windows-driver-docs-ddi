@@ -6,7 +6,7 @@ description: The RtlDowncaseUnicodeString routine converts the specified Unicode
 old-location: ifsk\rtldowncaseunicodestring.htm
 tech.root: ifsk
 ms.assetid: c611b051-45fe-4509-bf2c-7059d578ea05
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlDowncaseUnicodeString, RtlDowncaseUnicodeString routine [Installable File System Drivers], ifsk.rtldowncaseunicodestring, ntifs/RtlDowncaseUnicodeString, rtlref_140e7faa-096a-49df-a2b7-87776cfc5b38.xml
 ms.topic: function
 req.header: ntifs.h

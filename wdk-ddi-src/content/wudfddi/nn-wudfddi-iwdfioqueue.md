@@ -6,7 +6,7 @@ description: The IWDFIoQueue interface exposes an I/O queue object.
 old-location: wdf\iwdfioqueue.htm
 tech.root: wdf
 ms.assetid: 9a3ec86a-6a1d-4c65-a65a-7cb85bbd1ab8
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFIoQueue, IWDFIoQueue interface, IWDFIoQueue interface,described, UMDFQueueObjectRef_57878b3d-0771-425d-b8ca-3e4713c96fcc.xml, umdf.iwdfioqueue, wdf.iwdfioqueue, wudfddi/IWDFIoQueue
 ms.topic: interface
 req.header: wudfddi.h

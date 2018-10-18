@@ -6,7 +6,7 @@ description: The NdisCoOidRequestComplete function returns the final status of a
 old-location: netvista\ndiscooidrequestcomplete.htm
 tech.root: netvista
 ms.assetid: ba4a22a1-ad48-43f1-96f5-dee5d76e49cb
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisCoOidRequestComplete, NdisCoOidRequestComplete function [Network Drivers Starting with Windows Vista], condis_request_ref_29e0ae37-d6e6-4c75-b0fa-a6f84494f4a6.xml, ndis/NdisCoOidRequestComplete, netvista.ndiscooidrequestcomplete
 ms.topic: function
 req.header: ndis.h

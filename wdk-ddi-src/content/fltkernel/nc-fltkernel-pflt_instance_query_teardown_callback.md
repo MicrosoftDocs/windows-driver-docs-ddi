@@ -6,7 +6,7 @@ description: A minifilter driver can register a routine of type PFLT_INSTANCE_QU
 old-location: ifsk\pflt_instance_query_teardown_callback.htm
 tech.root: ifsk
 ms.assetid: 5aa41472-cb1d-49ba-a546-ec42bb859552
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltCallbacks_2ef837ae-a56a-4e66-a8d3-1f049f7bad45.xml, InstanceQueryTeardownCallback, InstanceQueryTeardownCallback routine [Installable File System Drivers], PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK, fltkernel/InstanceQueryTeardownCallback, ifsk.pflt_instance_query_teardown_callback
 ms.topic: callback
 req.header: fltkernel.h

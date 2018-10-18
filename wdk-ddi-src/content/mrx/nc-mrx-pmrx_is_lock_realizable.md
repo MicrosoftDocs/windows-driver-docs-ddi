@@ -6,7 +6,7 @@ description: The MRxIsLockRealizable routine is called by RDBSS to request that 
 old-location: ifsk\mrxislockrealizable.htm
 tech.root: ifsk
 ms.assetid: 4b8c9a94-a81e-4a02-b68c-10b2fb64157f
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: MRxIsLockRealizable, MRxIsLockRealizable routine [Installable File System Drivers], PMRX_IS_LOCK_REALIZABLE, ifsk.mrxislockrealizable, mrx/MRxIsLockRealizable, mrxref_52518201-df6f-40ab-803d-14d8fc0993f6.xml
 ms.topic: callback
 req.header: mrx.h

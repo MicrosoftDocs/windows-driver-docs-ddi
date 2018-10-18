@@ -6,7 +6,7 @@ description: The PassiveCooling callback routine controls the degree to which th
 old-location: kernel\passivecooling.htm
 tech.root: battery
 ms.assetid: 17ADC83B-53C8-43BD-9FFB-1197501FE275
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: DEVICE_PASSIVE_COOLING, PassiveCooling, PassiveCooling routine [Kernel-Mode Driver Architecture], kernel.passivecooling, poclass/PassiveCooling
 ms.topic: callback
 req.header: poclass.h

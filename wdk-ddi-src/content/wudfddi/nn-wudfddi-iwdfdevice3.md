@@ -6,7 +6,7 @@ description: To obtain the IWDFDevice3 interface, drivers call IWDFDevice::Query
 old-location: wdf\iwdfdevice3.htm
 tech.root: wdf
 ms.assetid: C4AEC0DA-EB93-481D-A94C-7BB7BF15EFBC
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFDevice3, IWDFDevice3 interface, IWDFDevice3 interface,described, umdf.iwdfdevice3, wdf.iwdfdevice3, wudfddi/IWDFDevice3
 ms.topic: interface
 req.header: wudfddi.h

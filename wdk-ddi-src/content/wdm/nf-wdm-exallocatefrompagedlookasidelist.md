@@ -6,7 +6,7 @@ description: The ExAllocateFromPagedLookasideList routine returns a pointer to a
 old-location: kernel\exallocatefrompagedlookasidelist.htm
 tech.root: kernel
 ms.assetid: f0c86720-4914-47b1-abb1-151196cc2a68
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExAllocateFromPagedLookasideList, ExAllocateFromPagedLookasideList routine [Kernel-Mode Driver Architecture], k102_96e03fc6-f951-4c96-8de4-32d67e85ec02.xml, kernel.exallocatefrompagedlookasidelist, wdm/ExAllocateFromPagedLookasideList
 ms.topic: function
 req.header: wdm.h

@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_disablenotifications.htm
 tech.root: netvista
 ms.assetid: 70635820-9912-4d27-87e2-e713ea33e819
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_DisableNotifications, RIL_DisableNotifications method [Network Drivers Starting with Windows Vista], netvista.ril_disablenotifications, rilapi/RIL_DisableNotifications
 ms.topic: function
 req.header: rilapi.h

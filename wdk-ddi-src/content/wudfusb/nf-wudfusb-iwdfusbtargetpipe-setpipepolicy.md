@@ -6,7 +6,7 @@ description: The SetPipePolicy method sets the WinUsb pipe policy.
 old-location: wdf\iwdfusbtargetpipe_setpipepolicy.htm
 tech.root: wdf
 ms.assetid: 3c8f5c4a-a1a3-41a9-ae55-f83048aab0ec
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFUsbTargetPipe interface,SetPipePolicy method, IWDFUsbTargetPipe.SetPipePolicy, IWDFUsbTargetPipe::SetPipePolicy, SetPipePolicy, SetPipePolicy method, SetPipePolicy method,IWDFUsbTargetPipe interface, UMDFUSBref_ab486cfe-19aa-440c-a017-e956aa4d2bb1.xml, umdf.iwdfusbtargetpipe_setpipepolicy, wdf.iwdfusbtargetpipe_setpipepolicy, wudfusb/IWDFUsbTargetPipe::SetPipePolicy
 ms.topic: method
 req.header: wudfusb.h

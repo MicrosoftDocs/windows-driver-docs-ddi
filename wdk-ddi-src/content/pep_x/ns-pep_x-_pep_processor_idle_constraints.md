@@ -6,7 +6,7 @@ description: The PEP_PROCESSOR_IDLE_CONSTRAINTS structure specifies a set of con
 old-location: kernel\pep_processor_idle_constraints.htm
 tech.root: kernel
 ms.assetid: E2939DFA-52EC-4AA7-ACC6-63D60603A24D
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_PROCESSOR_IDLE_CONSTRAINTS, PEP_PROCESSOR_IDLE_CONSTRAINTS, PEP_PROCESSOR_IDLE_CONSTRAINTS structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_IDLE_CONSTRAINTS, PPEP_PROCESSOR_IDLE_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_IDLE_CONSTRAINTS, kernel.pep_processor_idle_constraints, pep_x/PEP_PROCESSOR_IDLE_CONSTRAINTS, pep_x/PPEP_PROCESSOR_IDLE_CONSTRAINTS"
 ms.topic: struct
 req.header: pep_x.h

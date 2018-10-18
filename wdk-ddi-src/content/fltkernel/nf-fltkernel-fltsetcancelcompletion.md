@@ -6,7 +6,7 @@ description: A minifilter driver calls FltSetCancelCompletion to specify a cance
 old-location: ifsk\fltsetcancelcompletion.htm
 tech.root: ifsk
 ms.assetid: 3f15d3b2-321d-45ca-8fe4-d8706fe61d48
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_36fb8e4e-a50b-4b9c-a208-9d6189f5b5a7.xml, FltSetCancelCompletion, FltSetCancelCompletion routine [Installable File System Drivers], fltkernel/FltSetCancelCompletion, ifsk.fltsetcancelcompletion
 ms.topic: function
 req.header: fltkernel.h

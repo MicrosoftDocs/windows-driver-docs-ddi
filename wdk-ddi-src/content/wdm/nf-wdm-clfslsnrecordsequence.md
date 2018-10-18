@@ -6,7 +6,7 @@ description: The ClfsLsnRecordSequence routine returns the record sequence numbe
 old-location: kernel\clfslsnrecordsequence.htm
 tech.root: kernel
 ms.assetid: 407675de-4a06-49f7-9b43-c48b4c84ac7e
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ClfsLsnRecordSequence, ClfsLsnRecordSequence routine [Kernel-Mode Driver Architecture], Clfs_a78f7923-d295-408c-9a52-16e5cc38ca31.xml, kernel.clfslsnrecordsequence, wdm/ClfsLsnRecordSequence
 ms.topic: function
 req.header: wdm.h

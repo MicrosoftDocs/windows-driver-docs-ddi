@@ -6,7 +6,7 @@ description: The FsRtlOplockFsctrlEx routine performs various opportunistic lock
 old-location: ifsk\fsrtloplockfsctrlex.htm
 tech.root: ifsk
 ms.assetid: f1bac8c1-a313-40b9-96fc-9eaf426bf238
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlOplockFsctrlEx, FsRtlOplockFsctrlEx routine [Installable File System Drivers], fsrtlref_fa242815-36f3-4c0a-ae1d-826d0208e191.xml, ifsk.fsrtloplockfsctrlex, ntifs/FsRtlOplockFsctrlEx
 ms.topic: function
 req.header: ntifs.h

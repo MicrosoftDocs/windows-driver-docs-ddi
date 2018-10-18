@@ -6,7 +6,7 @@ description: The HBA_RegisterForAdapterPortStatEvents routine registers the indi
 old-location: storage\hba_registerforadapterportstatevents.htm
 tech.root: storage
 ms.assetid: 82598ba4-6e01-44eb-9359-4b85e8f7980c
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_RegisterForAdapterPortStatEvents, HBA_RegisterForAdapterPortStatEvents routine [Storage Devices], fibreHBA_rtns_38f8ecc4-4c08-4707-98f1-076602ecae27.xml, hbaapi/HBA_RegisterForAdapterPortStatEvents, storage.hba_registerforadapterportstatevents
 ms.topic: function
 req.header: hbaapi.h

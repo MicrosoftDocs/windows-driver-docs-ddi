@@ -6,7 +6,7 @@ description: The TmPrepareEnlistment routine initiates the prepare operation for
 old-location: kernel\tmprepareenlistment.htm
 tech.root: kernel
 ms.assetid: 9bd0dd4a-be27-4398-9bbd-129955ce310f
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: TmPrepareEnlistment, TmPrepareEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmprepareenlistment, ktm_ref_c5ed06cd-98cc-4e0c-9311-07dcaea060fa.xml, wdm/TmPrepareEnlistment
 ms.topic: function
 req.header: wdm.h

@@ -6,7 +6,7 @@ description: The kernel streaming subsystem uses the KSEVENT_ENTRY structure to 
 old-location: stream\ksevent_entry.htm
 tech.root: stream
 ms.assetid: 2d246109-839d-46fd-9898-9e059b803790
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSEVENT_ENTRY, KSEVENT_ENTRY, KSEVENT_ENTRY structure [Streaming Media Devices], _KSEVENT_ENTRY, ks-struct_1c40526b-bc37-4f6b-a1e1-b0e710238156.xml, ks/KSEVENT_ENTRY, stream.ksevent_entry"
 ms.topic: struct
 req.header: ks.h

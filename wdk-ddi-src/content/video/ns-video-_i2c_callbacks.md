@@ -6,7 +6,7 @@ description: The I2C_CALLBACKS structure contains pointers to functions, impleme
 old-location: display\i2c_callbacks.htm
 tech.root: display
 ms.assetid: fc67ef79-41c8-414c-aaa9-ef8a80edd696
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*PI2C_CALLBACKS, I2C_CALLBACKS, I2C_CALLBACKS structure [Display Devices], PI2C_CALLBACKS, PI2C_CALLBACKS structure pointer [Display Devices], Video_Structs_fc21393a-6df2-4b4f-89be-2d3ac46dfcd7.xml, _I2C_CALLBACKS, display.i2c_callbacks, video/I2C_CALLBACKS, video/PI2C_CALLBACKS"
 ms.topic: struct
 req.header: video.h

@@ -6,7 +6,7 @@ description: The NDIS_WWAN_DEVICE_RESET_STATUS structure represents a modem devi
 old-location: netvista\ndis_wwan_device_reset_status.htm
 tech.root: netvista
 ms.assetid: D18E8633-BEAD-49A5-A730-10564AFF8A3E
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_WWAN_DEVICE_RESET_STATUS, NDIS_WWAN_DEVICE_RESET_STATUS, NDIS_WWAN_DEVICE_RESET_STATUS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_RESET_STATUS, PNDIS_WWAN_DEVICE_RESET_STATUS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_RESET_STATUS, ndiswwan/NDIS_WWAN_DEVICE_RESET_STATUS, ndiswwan/PNDIS_WWAN_DEVICE_RESET_STATUS, netvista.ndis_wwan_device_reset_status"
 ms.topic: struct
 req.header: ndiswwan.h

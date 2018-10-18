@@ -6,7 +6,7 @@ description: The KeReleaseInterruptSpinLock routine releases an interrupt spin l
 old-location: kernel\kereleaseinterruptspinlock.htm
 tech.root: kernel
 ms.assetid: 291442df-21e1-4acf-a107-0a18f28e30ad
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeReleaseInterruptSpinLock, KeReleaseInterruptSpinLock routine [Kernel-Mode Driver Architecture], k105_673f3ed1-bb95-413b-b56b-e9fdea636e8f.xml, kernel.kereleaseinterruptspinlock, wdm/KeReleaseInterruptSpinLock
 ms.topic: function
 req.header: wdm.h

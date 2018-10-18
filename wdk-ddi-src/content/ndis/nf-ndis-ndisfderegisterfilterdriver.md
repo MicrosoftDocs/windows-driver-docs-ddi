@@ -6,7 +6,7 @@ description: A filter drivers calls the NdisFDeregisterFilterDriver function to 
 old-location: netvista\ndisfderegisterfilterdriver.htm
 tech.root: netvista
 ms.assetid: f97ecce3-73b9-4c51-b4a4-e114420af2c9
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisFDeregisterFilterDriver, NdisFDeregisterFilterDriver function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_d158c9c1-1e83-464f-b00a-421b658c8c32.xml, ndis/NdisFDeregisterFilterDriver, netvista.ndisfderegisterfilterdriver
 ms.topic: function
 req.header: ndis.h

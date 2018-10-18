@@ -6,7 +6,7 @@ description: The IoCheckEaBufferValidity routine checks whether the specified ex
 old-location: ifsk\iocheckeabuffervalidity.htm
 tech.root: ifsk
 ms.assetid: 1f9a4fcb-0e70-4f13-bd38-e87bee909a26
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: IoCheckEaBufferValidity, IoCheckEaBufferValidity function [Installable File System Drivers], ifsk.iocheckeabuffervalidity, ioref_cda82410-a6a9-40df-83ac-c1376a129a7a.xml, ntifs/IoCheckEaBufferValidity
 ms.topic: function
 req.header: ntifs.h

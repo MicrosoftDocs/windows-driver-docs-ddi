@@ -6,7 +6,7 @@ description: The Field method returns the typed data for a member in the typed d
 old-location: debugger\extremotetyped_field.htm
 tech.root: debugger
 ms.assetid: be662551-c4d3-4979-8a9b-c913fb6bd336
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_a235495d-4e04-4f57-acd4-0e4cdeabee14.xml, ExtRemoteTyped interface [Windows Debugging],Field method, ExtRemoteTyped.Field, ExtRemoteTyped::Field, Field, Field method [Windows Debugging], Field method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_field
 ms.topic: method
 req.header: engextcpp.hpp

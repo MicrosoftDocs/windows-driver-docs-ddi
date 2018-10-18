@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The D3D10_1_DDI_BLEND_DESC structure describes a blend state.
 old-location: display\d3d10_1_ddi_blend_desc.htm
 ms.assetid: e398b1a3-60bf-4a4a-b5c2-1dc11cf3dae1
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D10_1_DDI_BLEND_DESC, D3D10_1_DDI_BLEND_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_088d7013-3c56-4bfc-8e68-250b8e020a52.xml, d3d10umddi/D3D10_1_DDI_BLEND_DESC, display.d3d10_1_ddi_blend_desc
 ms.topic: struct
 req.header: d3d10umddi.h

@@ -6,7 +6,7 @@ description: The WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT function sets a time-out v
 old-location: wdf\wdf_request_send_options_set_timeout.htm
 tech.root: wdf
 ms.assetid: 729bd44f-9ac7-4b3d-905d-a78b10fba2a7
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_bcbdd786-6d81-45f7-a70b-96e781da0d36.xml, WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT, WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT function, kmdf.wdf_request_send_options_set_timeout, wdf.wdf_request_send_options_set_timeout, wdfrequest/WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT
 ms.topic: function
 req.header: wdfrequest.h

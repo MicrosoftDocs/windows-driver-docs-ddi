@@ -6,7 +6,7 @@ description: The Output callback method is called by the engine to send output f
 old-location: debugger\idebugoutputcallbacks_output.htm
 tech.root: debugger
 ms.assetid: 6d0352ae-0376-4992-89ef-90702591042e
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ComCallbacks_9b5e22d8-aa8d-498e-b3b5-ad6d73462db4.xml, IDebugOutputCallbacks interface [Windows Debugging],Output method, IDebugOutputCallbacks.Output, IDebugOutputCallbacks::Output, Output, Output method [Windows Debugging], Output method [Windows Debugging],IDebugOutputCallbacks interface, dbgeng/IDebugOutputCallbacks::Output, debugger.idebugoutputcallbacks_output
 ms.topic: method
 req.header: dbgeng.h

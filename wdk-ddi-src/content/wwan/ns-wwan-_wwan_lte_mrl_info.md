@@ -6,7 +6,7 @@ description: The WWAN_LTE_MRL_INFO structure represents information about a neig
 old-location: netvista\wwan_lte_mrl_info.htm
 tech.root: netvista
 ms.assetid: 49C3D862-EB78-4C44-A7B7-CE15E79EB021
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_LTE_MRL_INFO, PWWAN_LTE_MRL_INFO, PWWAN_LTE_MRL_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_LTE_MRL_INFO, WWAN_LTE_MRL_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_LTE_MRL_INFO, netvista.wwan_lte_mrl_info, wwan/PWWAN_LTE_MRL_INFO, wwan/WWAN_LTE_MRL_INFO"
 ms.topic: struct
 req.header: wwan.h

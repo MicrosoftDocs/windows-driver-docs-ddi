@@ -6,7 +6,7 @@ description: This routine inserts an object in an empty slot in a Silo.
 old-location: kernel\psinsertsilocontext.htm
 tech.root: kernel
 ms.assetid: 31C7A629-3B5E-44BA-AE03-3331E3200FC6
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PsInsertSiloContext, PsInsertSiloContext routine [Kernel-Mode Driver Architecture], kernel.psinsertsilocontext, ntddk/PsInsertSiloContext
 ms.topic: function
 req.header: ntddk.h

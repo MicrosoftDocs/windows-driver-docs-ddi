@@ -6,7 +6,7 @@ description: Performs a bit-block transfer (bitblt) operation from a source vert
 old-location: display\bufblt1.htm
 tech.root: display
 ms.assetid: 92F2AED7-935F-4E3E-934F-D6DF9AA87495
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: BufBlt1, BufBlt1 callback function [Display Devices], PFND3DDDI_BUFBLT1, PFND3DDDI_BUFBLT1 callback, d3dumddi/BufBlt1, display.bufblt1
 ms.topic: callback
 req.header: d3dumddi.h

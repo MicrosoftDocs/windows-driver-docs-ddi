@@ -6,7 +6,7 @@ description: The ExGetFirmwareEnvironmentVariable routine gets the value of the 
 old-location: kernel\exgetfirmwareenvironmentvariable.htm
 tech.root: kernel
 ms.assetid: 5AD76955-A44C-4231-9394-0B6595CFB33D
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExGetFirmwareEnvironmentVariable, ExGetFirmwareEnvironmentVariable routine [Kernel-Mode Driver Architecture], kernel.exgetfirmwareenvironmentvariable, wdm/ExGetFirmwareEnvironmentVariable
 ms.topic: function
 req.header: wdm.h

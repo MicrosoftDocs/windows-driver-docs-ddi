@@ -6,7 +6,7 @@ description: The BDCB_STATUS_UPDATE_TYPE enumeration lists the types of boot-dri
 old-location: kernel\bdcb_status_update_type.htm
 tech.root: kernel
 ms.assetid: E18AD58C-74D0-4CA7-9EE5-F96863F88E26
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PBDCB_STATUS_UPDATE_TYPE, BDCB_STATUS_UPDATE_TYPE, BDCB_STATUS_UPDATE_TYPE enumeration [Kernel-Mode Driver Architecture], BdCbStatusPrepareForDependecyLoad, BdCbStatusPrepareForDriverLoad, BdCbStatusPrepareForUnload, _BDCB_STATUS_UPDATE_TYPE, kernel.bdcb_status_update_type, ntddk/BDCB_STATUS_UPDATE_TYPE, ntddk/BdCbStatusPrepareForDependecyLoad, ntddk/BdCbStatusPrepareForDriverLoad, ntddk/BdCbStatusPrepareForUnload"
 ms.topic: enum
 req.header: ntddk.h

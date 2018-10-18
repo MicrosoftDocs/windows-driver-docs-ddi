@@ -6,7 +6,7 @@ description: Describes device temperature data. Returned as part of STORAGE_TEMP
 old-location: storage\storage_temperature_info.htm
 tech.root: storage
 ms.assetid: 1B7C68BF-78AE-4427-B5DC-E388CB5FAC0C
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSTORAGE_TEMPERATURE_INFO, PSTORAGE_TEMPERATURE_INFO, PSTORAGE_TEMPERATURE_INFO structure pointer [Storage Devices], STORAGE_TEMPERATURE_INFO, STORAGE_TEMPERATURE_INFO structure [Storage Devices], _STORAGE_TEMPERATURE_INFO, ntddstor/PSTORAGE_TEMPERATURE_INFO, ntddstor/STORAGE_TEMPERATURE_INFO, storage.storage_temperature_info"
 ms.topic: struct
 req.header: ntddstor.h

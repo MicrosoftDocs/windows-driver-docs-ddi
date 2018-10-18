@@ -6,7 +6,7 @@ description: The HBA_PortStatistics structure contains statistical information a
 old-location: storage\hba_portstatistics.htm
 tech.root: storage
 ms.assetid: 3a0d6633-b4a6-4864-96ae-4f91de11daa1
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PHBA_PORTSTATISTICS, *PSMHBA_FCPHYSTATISTICS, HBA_PORTSTATISTICS, HBA_PORTSTATISTICS structure [Storage Devices], HBA_PortStatistics, HBA_PortStatistics structure [Storage Devices], PHBA_PORTSTATISTICS, PHBA_PORTSTATISTICS structure pointer [Storage Devices], SMHBA_FCPHYSTATISTICS, hbaapi/HBA_PortStatistics, hbaapi/PHBA_PORTSTATISTICS, storage.hba_portstatistics, structs-Fibre_4c6c7237-af5e-415a-a7db-db594b1a5968.xml"
 ms.topic: struct
 req.header: hbaapi.h

@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilphonebookadditionalnumber.htm
 tech.root: netvista
 ms.assetid: f90af220-6e48-49dd-b785-55da37894906
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILPHONEBOOKADDITIONALNUMBER, RILPHONEBOOKADDITIONALNUMBER, RILPHONEBOOKADDITIONALNUMBER structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookadditionalnumber, ntddrilapitypes/RILPHONEBOOKADDITIONALNUMBER"
 ms.topic: struct
 req.header: rilapitypes.h

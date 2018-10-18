@@ -6,7 +6,7 @@ description: The IoGetFileObjectGenericMapping routine returns information about
 old-location: kernel\iogetfileobjectgenericmapping.htm
 tech.root: kernel
 ms.assetid: eae8a64f-c80a-4e70-b332-6cc098273d7c
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoGetFileObjectGenericMapping, IoGetFileObjectGenericMapping routine [Kernel-Mode Driver Architecture], k104_90acd8aa-7b11-4ee8-b6c7-84e7c849b131.xml, kernel.iogetfileobjectgenericmapping, ntddk/IoGetFileObjectGenericMapping
 ms.topic: function
 req.header: ntddk.h

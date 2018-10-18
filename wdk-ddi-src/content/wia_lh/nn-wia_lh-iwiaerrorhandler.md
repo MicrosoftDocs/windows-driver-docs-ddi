@@ -6,7 +6,7 @@ description: The IWiaErrorHandler interface provides the GetStatusDescription an
 old-location: image\iwiaerrorhandler_interface.htm
 tech.root: image
 ms.assetid: b441fbca-75fe-4b9d-a9d5-2ad5a4a55801
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IWiaErrorHandler, IWiaErrorHandler interface [Imaging Devices], IWiaErrorHandler interface [Imaging Devices],described, IWiaErrorHandler_0a501695-14b7-4aab-aee8-19ce74caea94.xml, image.iwiaerrorhandler_interface, wia_lh/IWiaErrorHandler
 ms.topic: interface
 req.header: wia_lh.h

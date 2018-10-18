@@ -6,7 +6,7 @@ description: A driver's EvtWmiInstanceSetItem callback function sets a single it
 old-location: wdf\evtwmiinstancesetitem.htm
 tech.root: wdf
 ms.assetid: 3011d92c-b12b-4240-8a4e-aa039ab8e053
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFWMIRef_edfeada6-2e85-42a5-9a28-6a6fb99a1c46.xml, EVT_WDF_WMI_INSTANCE_SET_ITEM, EVT_WDF_WMI_INSTANCE_SET_ITEM callback, EvtWmiInstanceSetItem, EvtWmiInstanceSetItem callback function, kmdf.evtwmiinstancesetitem, wdf.evtwmiinstancesetitem, wdfwmi/EvtWmiInstanceSetItem
 ms.topic: callback
 req.header: wdfwmi.h

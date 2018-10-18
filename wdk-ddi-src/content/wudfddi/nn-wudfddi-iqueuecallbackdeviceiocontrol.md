@@ -6,7 +6,7 @@ description: An I/O queue object notifies a driver when a device I/O control req
 old-location: wdf\iqueuecallbackdeviceiocontrol.htm
 tech.root: wdf
 ms.assetid: efb33bc5-2a9b-40c7-9584-c762daf016f6
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IQueueCallbackDeviceIoControl, IQueueCallbackDeviceIoControl interface, IQueueCallbackDeviceIoControl interface,described, UMDFQueueObjectRef_43ec96af-39ec-4d9c-89bd-c8d08bec3999.xml, umdf.iqueuecallbackdeviceiocontrol, wdf.iqueuecallbackdeviceiocontrol, wudfddi/IQueueCallbackDeviceIoControl
 ms.topic: interface
 req.header: wudfddi.h

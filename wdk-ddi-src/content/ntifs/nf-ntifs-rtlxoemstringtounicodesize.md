@@ -6,7 +6,7 @@ description: Reserved for system use.
 old-location: ifsk\rtlxoemstringtounicodesize.htm
 tech.root: ifsk
 ms.assetid: 933c46fe-f760-4782-8ab4-7d1d0431df9f
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlxOemStringToUnicodeSize, RtlxOemStringToUnicodeSize function [Installable File System Drivers], ifsk.rtlxoemstringtounicodesize, ntifs/RtlxOemStringToUnicodeSize, rtlref_87da05b9-0bd7-415d-b6fd-aa7a6f77cbfb.xml
 ms.topic: function
 req.header: ntifs.h

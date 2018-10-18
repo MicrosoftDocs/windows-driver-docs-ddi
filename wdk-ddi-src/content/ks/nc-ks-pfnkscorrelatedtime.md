@@ -6,7 +6,7 @@ description: A streaming minidriver's KStrCorrelatedTime routine is called to re
 old-location: stream\kstrcorrelatedtime.htm
 tech.root: stream
 ms.assetid: 6f1b2e93-bc3a-4256-af7b-b015a874112b
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KStrCorrelatedTime, KStrCorrelatedTime routine [Streaming Media Devices], PFNKSCORRELATEDTIME, ks/KStrCorrelatedTime, ksfunc_06af0f33-8ffd-4f9e-83ad-9f37f3b18f5d.xml, stream.kstrcorrelatedtime
 ms.topic: callback
 req.header: ks.h

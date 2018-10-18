@@ -6,7 +6,7 @@ description: The KsPinDataIntersectionEx function handles the KSPROPERTY_PIN_DAT
 old-location: stream\kspindataintersectionex.htm
 tech.root: stream
 ms.assetid: 4d471d91-7b2c-441d-a640-4f66ef7f1b2f
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsPinDataIntersectionEx, KsPinDataIntersectionEx function [Streaming Media Devices], ks/KsPinDataIntersectionEx, ksfunc_22cbace6-b96b-44d7-9c30-24580f37dd58.xml, stream.kspindataintersectionex
 ms.topic: function
 req.header: ks.h

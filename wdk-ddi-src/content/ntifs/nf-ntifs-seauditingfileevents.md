@@ -6,7 +6,7 @@ description: The SeAuditingFileEvents routine determines whether file open event
 old-location: ifsk\seauditingfileevents.htm
 tech.root: ifsk
 ms.assetid: f9e9a53f-9f4a-4f44-befa-f11d1fb3372a
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: SeAuditingFileEvents, SeAuditingFileEvents routine [Installable File System Drivers], ifsk.seauditingfileevents, ntifs/SeAuditingFileEvents, seref_b4b8468e-cfb2-4685-9811-2b2733e9fb36.xml
 ms.topic: function
 req.header: ntifs.h

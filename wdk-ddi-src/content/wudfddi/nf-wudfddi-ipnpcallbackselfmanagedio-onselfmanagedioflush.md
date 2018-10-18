@@ -6,7 +6,7 @@ description: The OnSelfManagedIoFlush method flushes the device for a device's s
 old-location: wdf\ipnpcallbackselfmanagedio_onselfmanagedioflush.htm
 tech.root: wdf
 ms.assetid: dee0e30b-ad03-43e4-8a0c-07d3782d7857
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IPnpCallbackSelfManagedIo interface,OnSelfManagedIoFlush method, IPnpCallbackSelfManagedIo.OnSelfManagedIoFlush, IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush, OnSelfManagedIoFlush, OnSelfManagedIoFlush method, OnSelfManagedIoFlush method,IPnpCallbackSelfManagedIo interface, UMDFDeviceObjectRef_ddf0d0a2-a913-4e15-b482-16cae945c4a2.xml, umdf.ipnpcallbackselfmanagedio_onselfmanagedioflush, wdf.ipnpcallbackselfmanagedio_onselfmanagedioflush, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush
 ms.topic: method
 req.header: wudfddi.h

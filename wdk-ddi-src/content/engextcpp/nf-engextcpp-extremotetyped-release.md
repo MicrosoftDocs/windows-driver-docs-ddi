@@ -6,7 +6,7 @@ description: The Release method releases any resources held by this object.
 old-location: debugger\extremotetyped_release.htm
 tech.root: debugger
 ms.assetid: 041f585a-bc1f-4413-9d68-ae18969e4d75
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_529ae2ad-c867-4b76-a53d-b0e7118f1fcd.xml, ExtRemoteTyped interface [Windows Debugging],Release method, ExtRemoteTyped.Release, ExtRemoteTyped::Release, Release, Release method [Windows Debugging], Release method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_release
 ms.topic: method
 req.header: engextcpp.hpp

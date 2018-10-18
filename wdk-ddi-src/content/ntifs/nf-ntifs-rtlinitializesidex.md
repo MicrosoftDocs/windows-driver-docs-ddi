@@ -6,7 +6,7 @@ description: The RtlInitializeSidEx routine initializes a pre-allocated security
 old-location: ifsk\rtlinitializesidex.htm
 tech.root: ifsk
 ms.assetid: 367D8BC1-07F4-474E-913A-5F825320A70C
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlInitializeSidEx, RtlInitializeSidEx routine [Installable File System Drivers], ifsk.rtlinitializesidex, ntifs/RtlInitializeSidEx
 ms.topic: function
 req.header: ntifs.h

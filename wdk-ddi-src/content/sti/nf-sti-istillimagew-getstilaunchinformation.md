@@ -6,7 +6,7 @@ description: The IStillImage::GetSTILaunchInformation method returns the reason 
 old-location: image\istillimage_getstilaunchinformation.htm
 tech.root: image
 ms.assetid: cfcd6e2d-541a-4a28-b2c7-409eb10bcf1e
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetSTILaunchInformation, GetSTILaunchInformation method [Imaging Devices], GetSTILaunchInformation method [Imaging Devices],IStillImageW interface, IStillImageW interface [Imaging Devices],GetSTILaunchInformation method, IStillImageW.GetSTILaunchInformation, IStillImageW::GetSTILaunchInformation, image.istillimage_getstilaunchinformation, sti/IStillImageW::GetSTILaunchInformation, stifnc_b73269ec-512a-4d07-a43a-8c72a28a751b.xml
 ms.topic: method
 req.header: sti.h

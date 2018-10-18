@@ -6,7 +6,7 @@ description: The wiauDbgTrace function logs a trace message.
 old-location: image\wiaudbgtrace.htm
 tech.root: image
 ms.assetid: c3cdb5c9-b43d-443b-8d04-d30eb74f39da
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiaudbgtrace, wiauDbgTrace, wiauDbgTrace function [Imaging Devices], wiauFncs_5c66ac77-5db3-489c-b7fc-84393e9105dd.xml, wiautil/wiauDbgTrace
 ms.topic: function
 req.header: wiautil.h

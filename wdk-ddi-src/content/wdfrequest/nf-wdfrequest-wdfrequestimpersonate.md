@@ -6,7 +6,7 @@ description: The WdfRequestImpersonate method registers a driver-supplied event 
 old-location: wdf\wdfrequestimpersonate.htm
 tech.root: wdf
 ms.assetid: E5267F04-D693-453B-BAD2-C61F89B07F6E
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfRequestImpersonate, WdfRequestImpersonate method, wdf.wdfrequestimpersonate, wdfrequest/WdfRequestImpersonate
 ms.topic: function
 req.header: wdfrequest.h

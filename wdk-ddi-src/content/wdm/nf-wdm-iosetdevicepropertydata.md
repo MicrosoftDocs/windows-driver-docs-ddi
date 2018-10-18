@@ -6,7 +6,7 @@ description: The IoSetDevicePropertyData routine modifies the current setting fo
 old-location: kernel\iosetdevicepropertydata.htm
 tech.root: kernel
 ms.assetid: 8e535a6a-9b17-4ef6-b068-43042a589ac0
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoSetDevicePropertyData, IoSetDevicePropertyData routine [Kernel-Mode Driver Architecture], k104_a7cd308b-4d43-4364-80fb-ae773d0de101.xml, kernel.iosetdevicepropertydata, wdm/IoSetDevicePropertyData
 ms.topic: function
 req.header: wdm.h

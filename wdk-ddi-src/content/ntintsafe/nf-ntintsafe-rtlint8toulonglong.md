@@ -6,7 +6,7 @@ description: Converts a value of type INT8 to a value of type ULONGLONG.
 old-location: kernel\rtlint8toulonglong.htm
 tech.root: kernel
 ms.assetid: C840CDA4-36C8-4D7C-88EB-19292429C45C
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlInt8ToULongLong, RtlInt8ToULongLong function [Kernel-Mode Driver Architecture], kernel.rtlint8toulonglong, ntintsafe/RtlInt8ToULongLong
 ms.topic: function
 req.header: ntintsafe.h

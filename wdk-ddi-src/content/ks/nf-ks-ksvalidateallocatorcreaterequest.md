@@ -6,7 +6,7 @@ description: The KsValidateAllocatorCreateRequest function validates an IRP_MJ_C
 old-location: stream\ksvalidateallocatorcreaterequest.htm
 tech.root: stream
 ms.assetid: 9275257b-50d8-4272-b340-4344644b3e15
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsValidateAllocatorCreateRequest, KsValidateAllocatorCreateRequest function [Streaming Media Devices], ks/KsValidateAllocatorCreateRequest, ksfunc_2d988d7a-d39f-4c77-8c18-06d01a8d75e9.xml, stream.ksvalidateallocatorcreaterequest
 ms.topic: function
 req.header: ks.h

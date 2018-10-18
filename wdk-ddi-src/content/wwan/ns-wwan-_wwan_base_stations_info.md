@@ -6,7 +6,7 @@ description: The WWAN_BASE_STATIONS_INFO structure represents information about 
 old-location: netvista\wwan_base_stations_info.htm
 tech.root: netvista
 ms.assetid: 66460B28-C2B4-4F05-A133-31A753AF9489
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_BASE_STATIONS_INFO, PWWAN_BASE_STATIONS_INFO, PWWAN_BASE_STATIONS_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_BASE_STATIONS_INFO, WWAN_BASE_STATIONS_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_BASE_STATIONS_INFO, netvista.wwan_base_stations_info, wwan/PWWAN_BASE_STATIONS_INFO, wwan/WWAN_BASE_STATIONS_INFO"
 ms.topic: struct
 req.header: wwan.h

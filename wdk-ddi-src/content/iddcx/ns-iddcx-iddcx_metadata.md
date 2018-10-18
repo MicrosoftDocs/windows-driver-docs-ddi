@@ -6,7 +6,7 @@ description: Gives information about the current provided surface and what is di
 old-location: display\iddcx_metadata.htm
 tech.root: display
 ms.assetid: 7128e49d-71e9-4014-9f08-591cfaeba363
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IDDCX_METADATA, IDDCX_METADATA structure, IDDCX_METADATA structure [Display Devices], IDDCX_METADATA structure pointer [Display Devices], IDDCX_METADATA structure structure [Display Devices], display.iddcx_metadata, iddcx/IDDCX_METADATA
 ms.topic: struct
 req.header: iddcx.h

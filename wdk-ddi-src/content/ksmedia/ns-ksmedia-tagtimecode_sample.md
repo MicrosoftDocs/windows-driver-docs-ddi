@@ -6,7 +6,7 @@ description: The TIMECODE_SAMPLE structure describes a complete timecode.
 old-location: stream\timecode_sample.htm
 tech.root: stream
 ms.assetid: 01654107-29a1-4f34-bb9a-a17fe36a84fe
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PTIMECODE_SAMPLE, TIMECODE_SAMPLE, TIMECODE_SAMPLE structure [Streaming Media Devices], ksmedia/TIMECODE_SAMPLE, stream.timecode_sample, tagTIMECODE_SAMPLE, vidcapstruct_518cf1af-a1e2-43a6-b97f-115c4fe8cb6d.xml"
 ms.topic: struct
 req.header: ksmedia.h

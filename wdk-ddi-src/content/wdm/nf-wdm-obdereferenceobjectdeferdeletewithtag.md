@@ -6,7 +6,7 @@ description: The ObDereferenceObjectDeferDeleteWithTag routine decrements the re
 old-location: kernel\obdereferenceobjectdeferdeletewithtag.htm
 tech.root: kernel
 ms.assetid: 72f1622f-a364-4d93-9c49-c4c7bcda6488
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ObDereferenceObjectDeferDeleteWithTag, ObDereferenceObjectDeferDeleteWithTag routine [Kernel-Mode Driver Architecture], k107_c6da92e4-6a70-4f19-bd09-4308964b1e14.xml, kernel.obdereferenceobjectdeferdeletewithtag, wdm/ObDereferenceObjectDeferDeleteWithTag
 ms.topic: function
 req.header: wdm.h

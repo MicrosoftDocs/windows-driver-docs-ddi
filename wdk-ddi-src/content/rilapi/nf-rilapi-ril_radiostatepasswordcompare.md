@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_radiostatepasswordcompare.htm
 tech.root: netvista
 ms.assetid: f984bb4f-ecc8-4e6c-bb2c-a721395f1958
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_RadioStatePasswordCompare, RIL_RadioStatePasswordCompare method [Network Drivers Starting with Windows Vista], netvista.ril_radiostatepasswordcompare, rilapi/RIL_RadioStatePasswordCompare
 ms.topic: function
 req.header: rilapi.h

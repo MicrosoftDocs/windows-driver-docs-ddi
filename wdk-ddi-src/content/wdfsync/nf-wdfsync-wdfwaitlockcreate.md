@@ -6,7 +6,7 @@ description: The WdfWaitLockCreate method creates a framework wait-lock object.
 old-location: wdf\wdfwaitlockcreate.htm
 tech.root: wdf
 ms.assetid: a0ffa493-4490-440b-9f67-426a7b5d4442
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFSynchroRef_19d02cf5-4fa3-449c-8913-4a5ff80bd578.xml, WdfWaitLockCreate, WdfWaitLockCreate method, kmdf.wdfwaitlockcreate, wdf.wdfwaitlockcreate, wdfsync/WdfWaitLockCreate
 ms.topic: function
 req.header: wdfsync.h

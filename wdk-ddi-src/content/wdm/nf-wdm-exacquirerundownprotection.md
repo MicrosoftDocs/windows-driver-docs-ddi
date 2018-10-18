@@ -6,7 +6,7 @@ description: The ExAcquireRundownProtection routine tries to acquire run-down pr
 old-location: kernel\exacquirerundownprotection.htm
 tech.root: kernel
 ms.assetid: DA4C7FBC-F5D5-48EA-90D6-F2249AF6401E
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExAcquireRundownProtection, ExAcquireRundownProtection routine [Kernel-Mode Driver Architecture], kernel.exacquirerundownprotection, wdm/ExAcquireRundownProtection
 ms.topic: function
 req.header: wdm.h

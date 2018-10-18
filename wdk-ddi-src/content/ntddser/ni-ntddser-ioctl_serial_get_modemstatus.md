@@ -6,7 +6,7 @@ description: The IOCTL_SERIAL_GET_MODEMSTATUS request updates the modem status, 
 old-location: serports\ioctl_serial_get_modemstatus.htm
 tech.root: serports
 ms.assetid: d3926476-758d-4bc0-a1e8-114dc47dc846
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_GET_MODEMSTATUS, IOCTL_SERIAL_GET_MODEMSTATUS control, IOCTL_SERIAL_GET_MODEMSTATUS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_MODEMSTATUS, serports.ioctl_serial_get_modemstatus, serref_6948e4a9-43c8-4ebe-9a0c-c47a2d3f1a7a.xml
 ms.topic: ioctl
 req.header: ntddser.h

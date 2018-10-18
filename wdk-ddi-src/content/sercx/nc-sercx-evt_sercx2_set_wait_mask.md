@@ -6,7 +6,7 @@ description: The EvtSerCx2SetWaitMask event callback function is called by versi
 old-location: serports\evtsercx2setwaitmask.htm
 tech.root: serports
 ms.assetid: C248FEF0-8E0B-4296-940E-763165F80617
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2SetWaitMask, EVT_SERCX2_SET_WAIT_MASK, EVT_SERCX2_SET_WAIT_MASK callback, EvtSerCx2SetWaitMask, EvtSerCx2SetWaitMask callback function [Serial Ports], serports.evtsercx2setwaitmask
 ms.topic: callback
 req.header: sercx.h

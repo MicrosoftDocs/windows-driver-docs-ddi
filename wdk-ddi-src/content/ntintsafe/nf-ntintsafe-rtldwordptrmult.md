@@ -6,7 +6,7 @@ description: Multiplies one value of type DWORD_PTR by another.
 old-location: kernel\rtldwordptrmult.htm
 tech.root: kernel
 ms.assetid: E7EEE6D7-19C8-481F-BAEF-15998819D2D0
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlDWordPtrMult, RtlDWordPtrMult function [Kernel-Mode Driver Architecture], kernel.rtldwordptrmult, ntintsafe/RtlDWordPtrMult
 ms.topic: function
 req.header: ntintsafe.h

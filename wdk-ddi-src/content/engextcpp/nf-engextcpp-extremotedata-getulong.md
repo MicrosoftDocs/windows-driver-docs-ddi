@@ -6,7 +6,7 @@ description: The GetUlong method returns a ULONG version of the ExtRemoteData ob
 old-location: debugger\extremotedata_getulong.htm
 tech.root: debugger
 ms.assetid: ce25b52e-5ac7-470d-902b-f45350718dff
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_41a112c3-0350-4e54-981c-b5c11697ef2d.xml, ExtRemoteData class [Windows Debugging],GetUlong method, ExtRemoteData.GetUlong, ExtRemoteData::GetUlong, GetUlong, GetUlong method [Windows Debugging], GetUlong method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getulong
 ms.topic: method
 req.header: engextcpp.hpp

@@ -6,7 +6,7 @@ description: IDebugControl3 interface
 old-location: debugger\idebugcontrol3.htm
 tech.root: debugger
 ms.assetid: 95e714b4-4167-41a1-ab2c-b088dbaf5fe2
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugControl3, IDebugControl3 interface [Windows Debugging], IDebugControl3 interface [Windows Debugging],described, dbgeng/IDebugControl3, debugger.idebugcontrol3
 ms.topic: interface
 req.header: dbgeng.h

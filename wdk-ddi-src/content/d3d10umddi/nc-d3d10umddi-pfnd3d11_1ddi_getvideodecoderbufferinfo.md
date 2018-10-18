@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Queries the description of a video decoder buffer for a specified video operation.
 old-location: display\getvideodecoderbufferinfo.htm
 ms.assetid: f129ae04-da7f-4681-a266-ac13317a895d
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_GETVIDEODECODERBUFFERINFO, PFND3D11_1DDI_GETVIDEODECODERBUFFERINFO callback, d3d10umddi/pfnGetVideoDecoderBufferInfo, display.getvideodecoderbufferinfo, pfnGetVideoDecoderBufferInfo, pfnGetVideoDecoderBufferInfo callback function [Display Devices]
 ms.topic: callback
 req.header: d3d10umddi.h

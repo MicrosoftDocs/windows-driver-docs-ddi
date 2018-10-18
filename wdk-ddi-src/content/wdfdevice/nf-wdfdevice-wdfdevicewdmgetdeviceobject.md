@@ -6,7 +6,7 @@ description: The WdfDeviceWdmGetDeviceObject method returns the Windows Driver M
 old-location: wdf\wdfdevicewdmgetdeviceobject.htm
 tech.root: wdf
 ms.assetid: 87a427ae-5c1e-4975-a48f-80c3549a3564
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_b145d3cd-578a-4be9-80d1-b260f5693b3d.xml, WdfDeviceWdmGetDeviceObject, WdfDeviceWdmGetDeviceObject method, kmdf.wdfdevicewdmgetdeviceobject, wdf.wdfdevicewdmgetdeviceobject, wdfdevice/WdfDeviceWdmGetDeviceObject
 ms.topic: function
 req.header: wdfdevice.h

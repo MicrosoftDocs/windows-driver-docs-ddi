@@ -6,7 +6,7 @@ description: Structure filled in by OS upon successful completion of the DxgkCbA
 old-location: display\dxgk_display_ownership_flags.htm
 tech.root: display
 ms.assetid: F5CA04FD-5E2A-4C68-97CF-F3D425A958AA
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*PDXGK_DISPLAY_OWNERSHIP_FLAGS, DXGK_DISPLAY_OWNERSHIP_FLAGS, DXGK_DISPLAY_OWNERSHIP_FLAGS structure [Display Devices], PDXGK_DISPLAY_OWNERSHIP_FLAGS, PDXGK_DISPLAY_OWNERSHIP_FLAGS structure pointer [Display Devices], _DXGK_DISPLAY_OWNERSHIP_FLAGS, display.dxgk_display_ownership_flags, dispmprt/DXGK_DISPLAY_OWNERSHIP_FLAGS, dispmprt/PDXGK_DISPLAY_OWNERSHIP_FLAGS"
 ms.topic: struct
 req.header: dispmprt.h

@@ -6,7 +6,7 @@ description: The DxgkDdiGetBrightness function retrieves the currently active br
 old-location: display\dxgkddigetbrightness.htm
 tech.root: display
 ms.assetid: e226cd36-45af-4d80-9aba-8919b267483b
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_BRIGHTNESS_GET, DXGK_BRIGHTNESS_GET callback, DmFunctions_be286481-7cef-4059-acb2-cac6554eb346.xml, DxgkDdiGetBrightness, DxgkDdiGetBrightness callback function [Display Devices], display.dxgkddigetbrightness, dispmprt/DxgkDdiGetBrightness
 ms.topic: callback
 req.header: dispmprt.h

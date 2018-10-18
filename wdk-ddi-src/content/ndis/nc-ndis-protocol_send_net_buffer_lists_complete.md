@@ -6,7 +6,7 @@ description: The ProtocolSendNetBufferListsComplete function completes a send op
 old-location: netvista\protocolsendnetbufferlistscomplete.htm
 tech.root: netvista
 ms.assetid: bc9197c5-ce0b-42b2-8225-fb9d83427ac8
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: PROTOCOL_SEND_NET_BUFFER_LISTS_COMPLETE, PROTOCOL_SEND_NET_BUFFER_LISTS_COMPLETE callback, ProtocolSendNetBufferListsComplete, ProtocolSendNetBufferListsComplete callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolSendNetBufferListsComplete, ndis_sendrcv_ref_1e393909-0442-45d4-ae57-7ec0f51671a4.xml, netvista.protocolsendnetbufferlistscomplete
 ms.topic: callback
 req.header: ndis.h

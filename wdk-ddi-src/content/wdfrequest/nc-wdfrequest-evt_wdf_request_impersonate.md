@@ -6,7 +6,7 @@ description: A driver's EvtRequestImpersonate event callback function performs t
 old-location: wdf\evtrequestimpersonate.htm
 tech.root: wdf
 ms.assetid: FA3FE0C0-57EC-4761-991B-49CA65A79BDD
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: EVT_WDF_REQUEST_IMPERSONATE, EVT_WDF_REQUEST_IMPERSONATE callback, EvtRequestImpersonate, EvtRequestImpersonate callback function, wdf.evtrequestimpersonate, wdfrequest/EvtRequestImpersonate
 ms.topic: callback
 req.header: wdfrequest.h

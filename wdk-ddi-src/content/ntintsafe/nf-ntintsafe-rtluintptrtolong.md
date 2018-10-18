@@ -6,7 +6,7 @@ description: Converts a value of type UINT_PTR to a value of type LONG.
 old-location: kernel\rtluintptrtolong.htm
 tech.root: kernel
 ms.assetid: 03138EBA-F041-47E4-B379-25A96B04E491
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUIntPtrToLong, RtlUIntPtrToLong function [Kernel-Mode Driver Architecture], kernel.rtluintptrtolong, ntintsafe/RtlUIntPtrToLong
 ms.topic: function
 req.header: ntintsafe.h

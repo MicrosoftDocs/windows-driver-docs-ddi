@@ -6,7 +6,7 @@ description: The DebugExtensionKnownStructEx callback function is called by exte
 old-location: debugger\debugextensionknownstructex.htm
 tech.root: debugger
 ms.assetid: 830BCD4C-0C3A-45F8-84E9-4F8596B8E1E8
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: DebugExtensionKnownStructEx, DebugExtensionKnownStructEx callback function [Windows Debugging], PDEBUG_EXTENSION_KNOWN_STRUCT_EX, PDEBUG_EXTENSION_KNOWN_STRUCT_EX callback, dbgeng/DebugExtensionKnownStructEx, debugger.debugextensionknownstructex
 ms.topic: callback
 req.header: dbgeng.h

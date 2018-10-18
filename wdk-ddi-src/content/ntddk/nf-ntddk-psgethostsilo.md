@@ -6,7 +6,7 @@ description: This routine returns the host silo.
 old-location: kernel\psgethostsilo.htm
 tech.root: kernel
 ms.assetid: 0B78562C-25DD-4CF2-9804-6DBEDE8B5F69
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PsGetHostSilo, PsGetHostSilo routine [Kernel-Mode Driver Architecture], kernel.psgethostsilo, ntddk/PsGetHostSilo
 ms.topic: function
 req.header: ntddk.h

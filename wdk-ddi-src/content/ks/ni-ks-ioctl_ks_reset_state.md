@@ -6,7 +6,7 @@ description: An application can use IOCTL_KS_RESET_STATE to return a pin to the 
 old-location: stream\ioctl_ks_reset_state.htm
 tech.root: stream
 ms.assetid: 0f3fd5ae-f8ce-4a2f-b8c0-4ac101569e09
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_KS_RESET_STATE, IOCTL_KS_RESET_STATE control, IOCTL_KS_RESET_STATE control code [Streaming Media Devices], ks-ioctl_ce7c174b-952d-4b08-ab05-f8843155af33.xml, ks/IOCTL_KS_RESET_STATE, stream.ioctl_ks_reset_state
 ms.topic: ioctl
 req.header: ks.h

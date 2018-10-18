@@ -6,7 +6,7 @@ description: The RtlIsNameLegalDOS8Dot3 routine determines whether a given name 
 old-location: ifsk\rtlisnamelegaldos8dot3.htm
 tech.root: ifsk
 ms.assetid: 27aa6bd1-c4e2-427e-a9e4-383d66fe2d61
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlIsNameLegalDOS8Dot3, RtlIsNameLegalDOS8Dot3 routine [Installable File System Drivers], ifsk.rtlisnamelegaldos8dot3, ntifs/RtlIsNameLegalDOS8Dot3, rtlref_73bcf962-f0aa-4fa1-9e45-0a471a6b2c40.xml
 ms.topic: function
 req.header: ntifs.h

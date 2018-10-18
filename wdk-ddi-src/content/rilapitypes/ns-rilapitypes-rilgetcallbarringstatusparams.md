@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilgetcallbarringstatusparams.htm
 tech.root: netvista
 ms.assetid: ce4ff193-1699-4712-93c1-c623474e1993
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILGETCALLBARRINGSTATUSPARAMS, RILGETCALLBARRINGSTATUSPARAMS, RILGETCALLBARRINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetcallbarringstatusparams, ntddrilapitypes/RILGETCALLBARRINGSTATUSPARAMS"
 ms.topic: struct
 req.header: rilapitypes.h

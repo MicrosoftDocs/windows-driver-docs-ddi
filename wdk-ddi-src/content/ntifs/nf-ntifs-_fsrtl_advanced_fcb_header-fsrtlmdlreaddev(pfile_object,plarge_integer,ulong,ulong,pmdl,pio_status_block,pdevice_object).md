@@ -6,7 +6,7 @@ description: The FltFastIoMdlRead routine returns a memory descriptor list (MDL)
 old-location: ifsk\fltfastiomdlread.htm
 tech.root: ifsk
 ms.assetid: 1DF810B5-D4C3-4F67-B913-C2B2132DFDE2
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: FsRtlMdlReadDev, FsRtlMdlReadDev routine [Installable File System Drivers], fltkernel/FsRtlMdlReadDev, ifsk.fltfastiomdlread
 ms.topic: function
 req.header: ntifs.h

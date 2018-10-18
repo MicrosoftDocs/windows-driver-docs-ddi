@@ -6,7 +6,7 @@ description: The ClfsGetIoStatistics routine returns I/O statistics for a specif
 old-location: kernel\clfsgetiostatistics.htm
 tech.root: kernel
 ms.assetid: 68c04751-761c-4e32-927d-aad61813cd38
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ClfsGetIoStatistics, ClfsGetIoStatistics routine [Kernel-Mode Driver Architecture], Clfs_af9b22c3-0845-4687-9a76-b6872d2b138d.xml, kernel.clfsgetiostatistics, wdm/ClfsGetIoStatistics
 ms.topic: function
 req.header: wdm.h

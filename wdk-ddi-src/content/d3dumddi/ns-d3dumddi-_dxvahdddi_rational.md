@@ -6,7 +6,7 @@ description: The DXVAHDDDI_RATIONAL structure describes a fractional value that 
 old-location: display\dxvahdddi_rational.htm
 tech.root: display
 ms.assetid: 4560fb48-24c3-4beb-acc3-b8d2ed3a81d3
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_9e1313ee-e48b-4e3d-9f13-40af1babef82.xml, DXVAHDDDI_RATIONAL, DXVAHDDDI_RATIONAL structure [Display Devices], _DXVAHDDDI_RATIONAL, d3dumddi/DXVAHDDDI_RATIONAL, display.dxvahdddi_rational
 ms.topic: struct
 req.header: d3dumddi.h

@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilgsmkind.htm
 tech.root: netvista
 ms.assetid: ad88382b-bfb0-46c4-9db7-9adb1ee074a4
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILGSMKIND, RILGSMKIND enumeration [Network Drivers Starting with Windows Vista], RIL_GSMKIND_EDGE, RIL_GSMKIND_GPRS, RIL_GSMKIND_MAX, netvista.rilgsmkind, ntddrilapitypes/RILGSMKIND, ntddrilapitypes/RIL_GSMKIND_EDGE, ntddrilapitypes/RIL_GSMKIND_GPRS, ntddrilapitypes/RIL_GSMKIND_MAX
 ms.topic: enum
 req.header: rilapitypes.h

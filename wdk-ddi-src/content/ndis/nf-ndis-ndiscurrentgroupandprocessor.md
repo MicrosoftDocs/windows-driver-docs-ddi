@@ -6,7 +6,7 @@ description: The NdisCurrentGroupAndProcessor function returns the group-relativ
 old-location: netvista\ndiscurrentgroupandprocessor.htm
 tech.root: netvista
 ms.assetid: 056f7f4b-152b-426a-b59e-0f6663b386a8
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisCurrentGroupAndProcessor, NdisCurrentGroupAndProcessor function [Network Drivers Starting with Windows Vista], ndis/NdisCurrentGroupAndProcessor, ndis_processor_group_ref_99937404-ee3c-49f9-b714-df04f98113f1.xml, netvista.ndiscurrentgroupandprocessor
 ms.topic: function
 req.header: ndis.h

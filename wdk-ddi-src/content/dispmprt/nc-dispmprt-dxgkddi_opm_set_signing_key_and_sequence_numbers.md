@@ -6,7 +6,7 @@ description: The DxgkDdiOPMSetSigningKeyAndSequenceNumbers function sets the giv
 old-location: display\dxgkddiopmsetsigningkeyandsequencenumbers.htm
 tech.root: display
 ms.assetid: 285521c7-4034-4db8-9441-6c4eaee27ee3
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS, DXGKDDI_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS callback, Dm_Opm_functions_4ffbc6e2-7239-4c02-88be-aa6276629c7d.xml, DxgkDdiOPMSetSigningKeyAndSequenceNumbers, DxgkDdiOPMSetSigningKeyAndSequenceNumbers callback function [Display Devices], display.dxgkddiopmsetsigningkeyandsequencenumbers, dispmprt/DxgkDdiOPMSetSigningKeyAndSequenceNumbers
 ms.topic: callback
 req.header: dispmprt.h

@@ -6,7 +6,7 @@ description: The ZwSetSecurityObject routine sets an object's security state.
 old-location: kernel\zwsetsecurityobject.htm
 tech.root: kernel
 ms.assetid: fbf6291e-9602-45d7-a620-702491a1d7de
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtSetSecurityObject, ZwSetSecurityObject, ZwSetSecurityObject routine [Kernel-Mode Driver Architecture], k111_38d4fa7c-4fc6-467c-9be2-ca997d739f44.xml, kernel.zwsetsecurityobject, ntifs/NtSetSecurityObject, ntifs/ZwSetSecurityObject
 ms.topic: function
 req.header: ntifs.h

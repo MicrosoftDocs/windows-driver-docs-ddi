@@ -6,7 +6,7 @@ description: The WdfChildListAddOrUpdateChildDescriptionAsPresent method adds a 
 old-location: wdf\wdfchildlistaddorupdatechilddescriptionaspresent.htm
 tech.root: wdf
 ms.assetid: 10d169bc-4476-4d7f-8eeb-49941c12a7a0
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectChildListRef_9e96421e-d818-4c2e-a46b-03db44980414.xml, WdfChildListAddOrUpdateChildDescriptionAsPresent, WdfChildListAddOrUpdateChildDescriptionAsPresent method, kmdf.wdfchildlistaddorupdatechilddescriptionaspresent, wdf.wdfchildlistaddorupdatechilddescriptionaspresent, wdfchildlist/WdfChildListAddOrUpdateChildDescriptionAsPresent
 ms.topic: function
 req.header: wdfchildlist.h

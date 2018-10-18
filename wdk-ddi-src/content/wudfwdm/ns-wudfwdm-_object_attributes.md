@@ -6,7 +6,7 @@ description: The OBJECT_ATTRIBUTES structure specifies attributes that can be ap
 old-location: kernel\object_attributes.htm
 tech.root: kernel
 ms.assetid: 08f5a141-abce-4890-867c-5fe8c4239905
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*POBJECT_ATTRIBUTES, OBJECT_ATTRIBUTES, OBJECT_ATTRIBUTES structure [Kernel-Mode Driver Architecture], POBJECT_ATTRIBUTES, POBJECT_ATTRIBUTES structure pointer [Kernel-Mode Driver Architecture], _OBJECT_ATTRIBUTES, kernel.object_attributes, kstruct_c_62b87332-0ef4-4c45-8c4f-0fc12d18582b.xml, wudfwdm/OBJECT_ATTRIBUTES, wudfwdm/POBJECT_ATTRIBUTES"
 ms.topic: struct
 req.header: wudfwdm.h

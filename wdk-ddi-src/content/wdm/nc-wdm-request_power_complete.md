@@ -6,7 +6,7 @@ description: The PowerCompletion callback routine completes the processing of a 
 old-location: kernel\powercompletion.htm
 tech.root: kernel
 ms.assetid: 2272790e-324a-4bd4-86ed-b76305a2940b
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PowerCompletion, PowerCompletion routine [Kernel-Mode Driver Architecture], REQUEST_POWER_COMPLETE, kernel.powercompletion, wdm/PowerCompletion
 ms.topic: callback
 req.header: wdm.h

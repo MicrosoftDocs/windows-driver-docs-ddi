@@ -6,7 +6,7 @@ description: Call the NdisAdvanceNetBufferDataStart function to release the used
 old-location: netvista\ndisadvancenetbufferdatastart.htm
 tech.root: netvista
 ms.assetid: 49b69282-137d-4bb5-92f5-4d27cedbb6d4
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisAdvanceNetBufferDataStart, NdisAdvanceNetBufferDataStart function [Network Drivers Starting with Windows Vista], ndis/NdisAdvanceNetBufferDataStart, ndis_netbuf_functions_ref_b03aee2c-859d-425f-9b07-91b324505ff4.xml, netvista.ndisadvancenetbufferdatastart
 ms.topic: function
 req.header: ndis.h

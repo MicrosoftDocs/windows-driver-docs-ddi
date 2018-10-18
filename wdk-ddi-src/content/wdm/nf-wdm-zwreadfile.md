@@ -6,7 +6,7 @@ description: The ZwReadFile routine reads data from an open file.
 old-location: kernel\zwreadfile.htm
 tech.root: kernel
 ms.assetid: 0f1ec015-bda6-45fe-973d-be414aece918
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtReadFile, ZwReadFile, ZwReadFile routine [Kernel-Mode Driver Architecture], k111_5cf3ebe2-7c2f-4998-b441-7d2aa2eb091f.xml, kernel.zwreadfile, wdm/NtReadFile, wdm/ZwReadFile
 ms.topic: function
 req.header: wdm.h

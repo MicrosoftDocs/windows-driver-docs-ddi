@@ -6,7 +6,7 @@ description: The HidD_GetSerialNumberString routine returns the embedded string 
 old-location: hid\hidd_getserialnumberstring.htm
 tech.root: hid
 ms.assetid: 807f1432-1b2f-45fc-899c-b2920ea79f7a
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: HidD_GetSerialNumberString, HidD_GetSerialNumberString routine [Human Input Devices], hid.hidd_getserialnumberstring, hidfunc_b01ce302-052c-43f1-9b8f-6421ebb66954.xml, hidsdi/HidD_GetSerialNumberString
 ms.topic: function
 req.header: hidsdi.h

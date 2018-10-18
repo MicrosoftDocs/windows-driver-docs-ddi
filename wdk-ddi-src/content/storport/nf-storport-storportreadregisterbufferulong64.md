@@ -6,7 +6,7 @@ description: This StorPortReadRegisterBufferUlong64 routine reads a number of UL
 old-location: storage\storportreadregisterbufferulong64.htm
 tech.root: storage
 ms.assetid: 585EE323-99EC-4367-8D97-CB554D695C11
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortReadRegisterBufferUlong64, StorPortReadRegisterBufferUlong64 routine [Storage Devices], storage.storportreadregisterbufferulong64, storport/StorPortReadRegisterBufferUlong64
 ms.topic: macro
 req.header: storport.h

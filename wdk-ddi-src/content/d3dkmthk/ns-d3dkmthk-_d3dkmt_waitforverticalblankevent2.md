@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Describes parameters for multiple wait objects, including a vertical blank event. Supported starting with Windows 8.
 old-location: display\d3dkmt_waitforverticalblankevent2.htm
 ms.assetid: b83e1d1c-e940-4e7b-8a74-82aee2c54391
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_WAITFORVERTICALBLANKEVENT2, D3DKMT_WAITFORVERTICALBLANKEVENT2 structure [Display Devices], _D3DKMT_WAITFORVERTICALBLANKEVENT2, d3dkmthk/D3DKMT_WAITFORVERTICALBLANKEVENT2, display.d3dkmt_waitforverticalblankevent2
 ms.topic: struct
 req.header: d3dkmthk.h

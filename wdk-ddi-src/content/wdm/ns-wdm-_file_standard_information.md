@@ -6,7 +6,7 @@ description: The FILE_STANDARD_INFORMATION structure is used as an argument to r
 old-location: kernel\file_standard_information.htm
 tech.root: kernel
 ms.assetid: 9ff7efec-4844-4abf-89c2-472afc959697
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PFILE_STANDARD_INFORMATION, FILE_STANDARD_INFORMATION, FILE_STANDARD_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_STANDARD_INFORMATION, PFILE_STANDARD_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_STANDARD_INFORMATION, kernel.file_standard_information, kstruct_b_86abcab8-11e5-45de-983a-e78c6cb40a93.xml, wdm/FILE_STANDARD_INFORMATION, wdm/PFILE_STANDARD_INFORMATION"
 ms.topic: struct
 req.header: wdm.h

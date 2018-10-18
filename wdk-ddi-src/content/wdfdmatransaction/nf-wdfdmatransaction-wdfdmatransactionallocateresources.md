@@ -6,7 +6,7 @@ description: The WdfDmaTransactionAllocateResources method reserves a single-pac
 old-location: wdf\wdfdmatransactionallocateresources.htm
 tech.root: wdf
 ms.assetid: 69D251D9-1B33-49FD-8D48-EFCBD6640632
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfDmaTransactionAllocateResources, WdfDmaTransactionAllocateResources method, kmdf.wdfdmatransactionallocateresources, wdf.wdfdmatransactionallocateresources, wdfdmatransaction/WdfDmaTransactionAllocateResources
 ms.topic: function
 req.header: wdfdmatransaction.h

@@ -6,7 +6,7 @@ description: The SetStreamSourceFreq function sets the frequency divisor of a st
 old-location: display\setstreamsourcefreq.htm
 tech.root: display
 ms.assetid: 92cb270c-1548-4239-81cd-5b3483769fc8
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETSTREAMSOURCEFREQ, PFND3DDDI_SETSTREAMSOURCEFREQ callback, SetStreamSourceFreq, SetStreamSourceFreq callback function [Display Devices], UserModeDisplayDriver_Functions_4cb72b36-4cea-424f-b7a3-149435170f24.xml, d3dumddi/SetStreamSourceFreq, display.setstreamsourcefreq
 ms.topic: callback
 req.header: d3dumddi.h

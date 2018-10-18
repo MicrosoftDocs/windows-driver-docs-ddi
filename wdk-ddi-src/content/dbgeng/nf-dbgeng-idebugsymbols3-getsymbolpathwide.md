@@ -6,7 +6,7 @@ description: The GetSymbolPathWide method returns the symbol path.
 old-location: debugger\getsymbolpathwide.htm
 tech.root: debugger
 ms.assetid: 2326130f-7e5f-492f-88a9-9eadeccc4827
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetSymbolPathWide, GetSymbolPathWide method [Windows Debugging], GetSymbolPathWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolPathWide method, IDebugSymbols3.GetSymbolPathWide, IDebugSymbols3::GetSymbolPathWide, dbgeng/IDebugSymbols3::GetSymbolPathWide, debugger.getsymbolpathwide
 ms.topic: method
 req.header: dbgeng.h

@@ -6,7 +6,7 @@ description: The ZwDeleteValueKey routine deletes a value entry matching a name 
 old-location: kernel\zwdeletevaluekey.htm
 tech.root: kernel
 ms.assetid: e7fc9290-8f24-4b9f-822a-0bdce50dafb9
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtDeleteValueKey, ZwDeleteValueKey, ZwDeleteValueKey routine [Kernel-Mode Driver Architecture], k111_81ff5c8c-442c-4ddd-9166-5445b964893a.xml, kernel.zwdeletevaluekey, wdm/NtDeleteValueKey, wdm/ZwDeleteValueKey
 ms.topic: function
 req.header: wdm.h

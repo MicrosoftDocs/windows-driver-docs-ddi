@@ -6,7 +6,7 @@ description: The pfnEscapeCb callback function shares information with the displ
 old-location: display\pfnescapecb.htm
 tech.root: display
 ms.assetid: 66c0347f-2cf3-42fc-8641-47c731e958c9
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_8c7e48ef-f8e8-45d2-a424-9065e97f725f.xml, PFND3DDDI_ESCAPECB, PFND3DDDI_ESCAPECB callback, d3dumddi/pfnEscapeCb, display.pfnescapecb, pfnEscapeCb, pfnEscapeCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h

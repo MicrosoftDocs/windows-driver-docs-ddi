@@ -6,7 +6,7 @@ description: The BdaCreateFilterFactoryEx function adds the specified filter des
 old-location: stream\bdacreatefilterfactoryex.htm
 tech.root: stream
 ms.assetid: 105b6a66-5800-4079-af88-f44d01134ff0
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: BdaCreateFilterFactoryEx, BdaCreateFilterFactoryEx function [Streaming Media Devices], bdaref_9a145859-e899-4180-ac91-63479e4e04c0.xml, bdasup/BdaCreateFilterFactoryEx, stream.bdacreatefilterfactoryex
 ms.topic: function
 req.header: bdasup.h

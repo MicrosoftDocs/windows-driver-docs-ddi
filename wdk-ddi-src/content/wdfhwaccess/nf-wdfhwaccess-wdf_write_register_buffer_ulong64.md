@@ -6,7 +6,7 @@ description: The WDF_WRITE_REGISTER_BUFFER_ULONG64 function writes a number of U
 old-location: wdf\wdf_write_register_buffer_ulong64.htm
 tech.root: wdf
 ms.assetid: 56DF217B-47AA-4D78-A7CC-0C50880AF7AF
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WDF_WRITE_REGISTER_BUFFER_ULONG64, WDF_WRITE_REGISTER_BUFFER_ULONG64 function, wdf.wdf_write_register_buffer_ulong64, wdfhwaccess/WDF_WRITE_REGISTER_BUFFER_ULONG64
 ms.topic: function
 req.header: wdfhwaccess.h

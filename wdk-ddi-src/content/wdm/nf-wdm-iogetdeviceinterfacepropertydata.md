@@ -6,7 +6,7 @@ description: The IoGetDeviceInterfacePropertyData routine retrieves the current 
 old-location: kernel\iogetdeviceinterfacepropertydata.htm
 tech.root: kernel
 ms.assetid: 01113C73-2C79-40F2-9B13-B864148D2C9A
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoGetDeviceInterfacePropertyData, IoGetDeviceInterfacePropertyData routine [Kernel-Mode Driver Architecture], kernel.iogetdeviceinterfacepropertydata, wdm/IoGetDeviceInterfacePropertyData
 ms.topic: function
 req.header: wdm.h

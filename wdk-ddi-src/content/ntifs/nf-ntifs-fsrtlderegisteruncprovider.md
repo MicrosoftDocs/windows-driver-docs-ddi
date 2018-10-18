@@ -6,7 +6,7 @@ description: The FsRtlDeregisterUncProvider routine deregisters a redirector tha
 old-location: ifsk\fsrtlderegisteruncprovider.htm
 tech.root: ifsk
 ms.assetid: 3f53a22f-b5d6-4e3d-987d-989bd5840b2a
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlDeregisterUncProvider, FsRtlDeregisterUncProvider routine [Installable File System Drivers], fsrtlref_d1eb1778-7643-44df-8f68-edc995b22246.xml, ifsk.fsrtlderegisteruncprovider, ntifs/FsRtlDeregisterUncProvider
 ms.topic: function
 req.header: ntifs.h

@@ -6,7 +6,7 @@ description: The GetDebugFATagControl method gets a pointer to an IDebugFAEntryT
 old-location: debugger\idebugfailureanalysis2_getdebugfatagcontrol.htm
 tech.root: debugger
 ms.assetid: AC69BCF1-B5C2-4A2F-AEF0-1BC4EBD0BE66
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetDebugFATagControl, GetDebugFATagControl method [Windows Debugging], GetDebugFATagControl method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetDebugFATagControl method, IDebugFailureAnalysis2.GetDebugFATagControl, IDebugFailureAnalysis2::GetDebugFATagControl, debugger.idebugfailureanalysis2_getdebugfatagcontrol, extsfns/IDebugFailureAnalysis2::GetDebugFATagControl
 ms.topic: method
 req.header: extsfns.h

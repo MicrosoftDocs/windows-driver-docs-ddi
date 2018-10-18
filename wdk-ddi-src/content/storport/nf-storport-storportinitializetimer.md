@@ -6,7 +6,7 @@ description: Creates a Storport timer context object.
 old-location: storage\storportinitializetimer.htm
 tech.root: storage
 ms.assetid: 1F43EEDC-5DB4-4ABE-BBC6-A4A51FCAF0B6
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortInitializeTimer, StorPortInitializeTimer routine [Storage Devices], storage.storportinitializetimer, storport/StorPortInitializeTimer
 ms.topic: function
 req.header: storport.h

@@ -6,7 +6,7 @@ description: The WdmlibProcgrpInitialize function initializes the Processor Grou
 old-location: kernel\wdmlibprocgrpinitialize.htm
 tech.root: kernel
 ms.assetid: 760f7bd8-0957-4dd0-b201-64173961cbb2
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: WdmlibProcgrpInitialize, WdmlibProcgrpInitialize function [Kernel-Mode Driver Architecture], kernel.wdmlibprocgrpinitialize, procgrp/WdmlibProcgrpInitialize, procgrp_ba92a7bb-1a2b-4056-bebd-d9df299768c1.xml
 ms.topic: function
 req.header: procgrp.h

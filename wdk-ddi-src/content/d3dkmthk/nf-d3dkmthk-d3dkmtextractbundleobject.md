@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Used to extract the bundle object.
 old-location: display\d3dkmtextractbundleobject.htm
 ms.assetid: f3193d5b-084f-4df1-9688-26ba5a964cca
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTExtractBundleObject, D3DKMTExtractBundleObject method [Display Devices], d3dkmthk/D3DKMTExtractBundleObject, display.d3dkmtextractbundleobject
 ms.topic: function
 req.header: d3dkmthk.h

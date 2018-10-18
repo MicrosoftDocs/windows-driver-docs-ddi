@@ -6,7 +6,7 @@ description: The WmiTraceMessageVa routine adds a message to the output log of a
 old-location: kernel\wmitracemessageva.htm
 tech.root: kernel
 ms.assetid: 57f8006c-defe-4975-9d21-0eaecae5a873
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: WmiTraceMessageVa, WmiTraceMessageVa routine [Kernel-Mode Driver Architecture], k902_c9c7dd80-d7a8-4b53-bcf1-f64c822e9e6d.xml, kernel.wmitracemessageva, wdm/WmiTraceMessageVa
 ms.topic: function
 req.header: wdm.h

@@ -6,7 +6,7 @@ description: The CreateSymbolGroup2 method creates a new symbol group.
 old-location: debugger\createsymbolgroup2.htm
 tech.root: debugger
 ms.assetid: 42ddf77a-14c8-4d6a-98a2-b0c67836990d
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: CreateSymbolGroup2, CreateSymbolGroup2 method [Windows Debugging], CreateSymbolGroup2 method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],CreateSymbolGroup2 method, IDebugSymbols3.CreateSymbolGroup2, IDebugSymbols3::CreateSymbolGroup2, dbgeng/IDebugSymbols3::CreateSymbolGroup2, debugger.createsymbolgroup2
 ms.topic: method
 req.header: dbgeng.h

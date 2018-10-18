@@ -6,7 +6,7 @@ description: The GetFrameOffset method returns the location of the stack frame f
 old-location: debugger\getframeoffset.htm
 tech.root: debugger
 ms.assetid: 09473106-3ab8-43ee-a424-2930b6bd3fcf
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetFrameOffset, GetFrameOffset method [Windows Debugging], GetFrameOffset method [Windows Debugging],IDebugRegisters interface, GetFrameOffset method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters interface [Windows Debugging],GetFrameOffset method, IDebugRegisters2 interface [Windows Debugging],GetFrameOffset method, IDebugRegisters2.GetFrameOffset, IDebugRegisters2::GetFrameOffset, IDebugRegisters::GetFrameOffset, IDebugRegisters_c3f31f5b-76d4-4910-b1a1-f3050c20e815.xml, dbgeng/IDebugRegisters2::GetFrameOffset, dbgeng/IDebugRegisters::GetFrameOffset, debugger.getframeoffset
 ms.topic: method
 req.header: dbgeng.h

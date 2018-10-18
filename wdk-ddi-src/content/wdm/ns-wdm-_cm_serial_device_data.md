@@ -6,7 +6,7 @@ description: The CM_SERIAL_DEVICE_DATA structure defines a device-type-specific 
 old-location: kernel\cm_serial_device_data.htm
 tech.root: kernel
 ms.assetid: c829cc26-e21c-46e7-a70f-fa691a6c52e0
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PCM_SERIAL_DEVICE_DATA, CM_SERIAL_DEVICE_DATA, CM_SERIAL_DEVICE_DATA structure [Kernel-Mode Driver Architecture], PCM_SERIAL_DEVICE_DATA, PCM_SERIAL_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture], _CM_SERIAL_DEVICE_DATA, kernel.cm_serial_device_data, kstruct_a_5b9a8153-d673-4576-b861-3242faf23c54.xml, wdm/CM_SERIAL_DEVICE_DATA, wdm/PCM_SERIAL_DEVICE_DATA"
 ms.topic: struct
 req.header: wdm.h

@@ -6,7 +6,7 @@ description: The WdfRequestGetUserModeDriverInitiatedIo method determines whethe
 old-location: wdf\wdfrequestgetusermodeinitiatedio.htm
 tech.root: wdf
 ms.assetid: 3F2B060F-3818-4BBC-9BF7-7A82128274E0
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfRequestGetUserModeDriverInitiatedIo, WdfRequestGetUserModeDriverInitiatedIo method, wdf.wdfrequestgetusermodeinitiatedio, wdfrequest/WdfRequestGetUserModeDriverInitiatedIo
 ms.topic: function
 req.header: wdfrequest.h

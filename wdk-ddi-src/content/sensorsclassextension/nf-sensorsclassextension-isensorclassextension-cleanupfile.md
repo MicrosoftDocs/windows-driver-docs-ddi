@@ -6,7 +6,7 @@ description: The ISensorClassExtension::CleanupFile method notifies the class ex
 old-location: sensors\isensorclassextension_cleanupfile.htm
 tech.root: sensors
 ms.assetid: eeade123-fb83-478f-99e3-e79bbbb1919b
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: CleanupFile, CleanupFile method [Sensor Devices], CleanupFile method [Sensor Devices],ISensorClassExtension interface, ISensorClassExtension interface [Sensor Devices],CleanupFile method, ISensorClassExtension.CleanupFile, ISensorClassExtension::CleanupFile, sensors.isensorclassextension_cleanupfile, sensorsclassextension/ISensorClassExtension::CleanupFile
 ms.topic: method
 req.header: sensorsclassextension.h

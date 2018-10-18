@@ -6,7 +6,7 @@ description: The D3DDDI_MULTISAMPLINGMETHOD structure describes a multiple-sampl
 old-location: display\d3dddi_multisamplingmethod.htm
 tech.root: display
 ms.assetid: 2838cb87-0cd5-4351-a477-00f75eca0896
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDI_MULTISAMPLINGMETHOD, D3DDDI_MULTISAMPLINGMETHOD structure [Display Devices], D3D_other_Structs_752f8e91-d298-437a-80c4-005e21ec0ddd.xml, _D3DDDI_MULTISAMPLINGMETHOD, d3dukmdt/D3DDDI_MULTISAMPLINGMETHOD, display.d3dddi_multisamplingmethod
 ms.topic: struct
 req.header: d3dukmdt.h

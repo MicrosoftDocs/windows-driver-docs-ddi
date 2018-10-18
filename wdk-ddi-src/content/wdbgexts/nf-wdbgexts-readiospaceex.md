@@ -6,7 +6,7 @@ description: The ReadIoSpaceEx function is an extended version of ReadIoSpace.
 old-location: debugger\readiospaceex.htm
 tech.root: debugger
 ms.assetid: de0681e6-c716-4879-8e07-daacc092d18f
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ReadIoSpaceEx, ReadIoSpaceEx function [Windows Debugging], WdbgExts_Ref_96fa3635-35d1-4d58-835a-96754480170a.xml, debugger.readiospaceex, wdbgexts/ReadIoSpaceEx
 ms.topic: function
 req.header: wdbgexts.h

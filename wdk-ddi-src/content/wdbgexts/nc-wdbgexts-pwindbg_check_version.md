@@ -6,7 +6,7 @@ description: The PWINDBG_CHECK_VERSION (CheckVersion) callback function verifies
 old-location: debugger\checkversion.htm
 tech.root: debugger
 ms.assetid: 82e16423-7e23-4229-9ba6-b43970a1135a
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: CheckVersion, CheckVersion callback function [Windows Debugging], PWINDBG_CHECK_VERSION, PWINDBG_CHECK_VERSION callback, WdbgExts_Callbacks_9f917023-190d-4047-a272-7e46de9b5afb.xml, debugger.checkversion, wdbgexts/CheckVersion
 ms.topic: callback
 req.header: wdbgexts.h

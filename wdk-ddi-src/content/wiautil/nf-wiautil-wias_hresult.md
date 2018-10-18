@@ -6,7 +6,7 @@ description: The WIAS_HRESULT macro writes a diagnostic message to the Wiatrace.
 old-location: image\wias_hresult.htm
 tech.root: image
 ms.assetid: e340eb98-34d4-49e7-92cd-4f57d8b6efb8
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IWiaLog_3b27b46f-be2e-4fdb-ba65-32fe41c71142.xml, WIAS_HRESULT, WIAS_HRESULT macro [Imaging Devices], image.wias_hresult, wiamdef/WIAS_HRESULT
 ms.topic: macro
 req.header: wiautil.h

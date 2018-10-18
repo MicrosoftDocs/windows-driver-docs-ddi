@@ -6,7 +6,7 @@ description: The SerCx2SystemDmaTransmitGetDmaEnabler method gets the DMA enable
 old-location: serports\sercx2systemdmatransmitgetdmaenabler.htm
 tech.root: serports
 ms.assetid: 5B6893D4-51ED-483C-87F4-0404C48E100F
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SerCx2SystemDmaTransmitGetDmaEnabler, SerCx2SystemDmaTransmitGetDmaEnabler, SerCx2SystemDmaTransmitGetDmaEnabler method [Serial Ports], serports.sercx2systemdmatransmitgetdmaenabler
 ms.topic: function
 req.header: sercx.h

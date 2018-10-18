@@ -6,7 +6,7 @@ description: A miniport driver must call the NdisMSetMiniportAttributes function
 old-location: netvista\ndismsetminiportattributes.htm
 tech.root: netvista
 ms.assetid: 861626af-23ea-40dc-a91a-7da42d4b0a1c
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMSetMiniportAttributes, NdisMSetMiniportAttributes function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_2fc47304-466b-4ae0-8450-44c636cecf64.xml, ndis/NdisMSetMiniportAttributes, netvista.ndismsetminiportattributes
 ms.topic: function
 req.header: ndis.h

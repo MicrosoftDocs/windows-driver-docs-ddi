@@ -6,7 +6,7 @@ description: The HBA_SendRLS WMI routine sends a read link error status block (R
 old-location: storage\hba_sendrls.htm
 tech.root: storage
 ms.assetid: d2349c45-eb88-4584-bbdd-b7c46601a1bc
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_SendRLS, HBA_SendRLS routine [Storage Devices], fibreHBA_rtns_8a7d150c-eeba-4850-9a93-7a48096d6f22.xml, hbaapi/HBA_SendRLS, storage.hba_sendrls
 ms.topic: function
 req.header: hbaapi.h

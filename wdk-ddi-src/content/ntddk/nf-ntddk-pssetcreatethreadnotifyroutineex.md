@@ -6,7 +6,7 @@ description: The PsSetCreateThreadNotifyRoutineEx routine registers a driver-sup
 old-location: kernel\pssetcreatethreadnotifyroutineex.htm
 tech.root: kernel
 ms.assetid: 586688EC-51B1-488E-BFC6-7796C37593BF
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PsSetCreateThreadNotifyRoutineEx, PsSetCreateThreadNotifyRoutineEx routine [Kernel-Mode Driver Architecture], kernel.pssetcreatethreadnotifyroutineex, ntddk/PsSetCreateThreadNotifyRoutineEx
 ms.topic: function
 req.header: ntddk.h

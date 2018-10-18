@@ -6,7 +6,7 @@ description: The UnloadModule callback method is called by the engine when a mod
 old-location: debugger\idebugeventcallbacks_unloadmodule.htm
 tech.root: debugger
 ms.assetid: 2afdaee6-7714-42d4-a402-3cb85ef3b970
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ComCallbacks_53674f8e-290c-44d6-827f-92646c2e4ea9.xml, IDebugEventCallbacks interface [Windows Debugging],UnloadModule method, IDebugEventCallbacks.UnloadModule, IDebugEventCallbacks::UnloadModule, UnloadModule, UnloadModule method [Windows Debugging], UnloadModule method [Windows Debugging],IDebugEventCallbacks interface, dbgeng/IDebugEventCallbacks::UnloadModule, debugger.idebugeventcallbacks_unloadmodule
 ms.topic: method
 req.header: dbgeng.h

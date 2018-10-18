@@ -6,7 +6,7 @@ description: The ZwDuplicateToken function creates a handle to a new access toke
 old-location: kernel\zwduplicatetoken.htm
 tech.root: kernel
 ms.assetid: 89cc86aa-8ab0-4614-b92d-a1c627490d8d
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtDuplicateToken, ZwDuplicateToken, ZwDuplicateToken function [Kernel-Mode Driver Architecture], k111_5c46bc83-ec51-45f5-a3fc-e199f91d58ce.xml, kernel.zwduplicatetoken, ntifs/NtDuplicateToken, ntifs/ZwDuplicateToken
 ms.topic: function
 req.header: ntifs.h

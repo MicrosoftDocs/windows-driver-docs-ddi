@@ -6,7 +6,7 @@ description: The ExRundownCompleted routine updates the run-down status of a sha
 old-location: kernel\exrundowncompleted.htm
 tech.root: kernel
 ms.assetid: CF1650C2-4141-4AD7-A3FC-A800B2281A8A
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExRundownCompleted, ExRundownCompleted routine [Kernel-Mode Driver Architecture], kernel.exrundowncompleted, wdm/ExRundownCompleted
 ms.topic: function
 req.header: wdm.h

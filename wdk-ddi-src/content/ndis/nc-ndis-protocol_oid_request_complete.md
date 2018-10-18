@@ -6,7 +6,7 @@ description: The ProtocolOidRequestComplete function completes the processing of
 old-location: netvista\protocoloidrequestcomplete.htm
 tech.root: netvista
 ms.assetid: 2706577e-ba03-4347-9672-7303752ec0fe
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: PROTOCOL_OID_REQUEST_COMPLETE, PROTOCOL_OID_REQUEST_COMPLETE callback, ProtocolOidRequestComplete, ProtocolOidRequestComplete callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolOidRequestComplete, ndis_request_ref_0460f62c-1ffe-4c81-ade3-56b5061eccb6.xml, netvista.protocoloidrequestcomplete
 ms.topic: callback
 req.header: ndis.h

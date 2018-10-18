@@ -6,7 +6,7 @@ description: The SetInitiatorNodeName_IN structure holds the input data for the 
 old-location: storage\setinitiatornodename_in.htm
 tech.root: storage
 ms.assetid: 58af1872-23bf-44f2-9ef4-271f0ddef5d5
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSetInitiatorNodeName_IN, PSetInitiatorNodeName_IN, PSetInitiatorNodeName_IN structure pointer [Storage Devices], SetInitiatorNodeName_IN, SetInitiatorNodeName_IN structure [Storage Devices], _SetInitiatorNodeName_IN, iscsiop/PSetInitiatorNodeName_IN, iscsiop/SetInitiatorNodeName_IN, storage.setinitiatornodename_in, structs-iSCSI_fac4e524-8266-4135-9211-564d1ea2a952.xml"
 ms.topic: struct
 req.header: iscsiop.h

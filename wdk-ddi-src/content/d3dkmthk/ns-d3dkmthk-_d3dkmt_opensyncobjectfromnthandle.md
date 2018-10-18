@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Describes information that is required to map an NT process handle to a graphics processing unit (GPU) synchronization object.
 old-location: display\d3dkmt_opensyncobjectfromnthandle.htm
 ms.assetid: 163ce4ed-e81b-4b69-b1a7-4ea2b9e8f437
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_OPENSYNCOBJECTFROMNTHANDLE, D3DKMT_OPENSYNCOBJECTFROMNTHANDLE structure [Display Devices], _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE, d3dkmthk/D3DKMT_OPENSYNCOBJECTFROMNTHANDLE, display.d3dkmt_opensyncobjectfromnthandle
 ms.topic: struct
 req.header: d3dkmthk.h

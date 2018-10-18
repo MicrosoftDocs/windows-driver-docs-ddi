@@ -6,7 +6,7 @@ description: The FsRtlIsFatDbcsLegal routine determines whether the specified AN
 old-location: ifsk\fsrtlisfatdbcslegal.htm
 tech.root: ifsk
 ms.assetid: 1ba94491-718b-41bf-bc22-2d99ba34c6af
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlIsFatDbcsLegal, FsRtlIsFatDbcsLegal routine [Installable File System Drivers], fsrtlref_259cf46c-3d21-4acb-9674-f858bacbee1d.xml, ifsk.fsrtlisfatdbcslegal, ntifs/FsRtlIsFatDbcsLegal
 ms.topic: function
 req.header: ntifs.h

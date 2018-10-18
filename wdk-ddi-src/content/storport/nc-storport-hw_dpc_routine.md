@@ -6,7 +6,7 @@ description: The HwStorDpcRoutine routine is a routine that is deferred for exec
 old-location: storage\hwstordpcroutine.htm
 tech.root: storage
 ms.assetid: bc646191-e405-49e2-8793-0c0b81e52f50
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HW_DPC_ROUTINE, HwStorDpcRoutine, HwStorDpcRoutine routine [Storage Devices], storage.hwstordpcroutine, stormini_593e93b3-e078-48a4-b192-75cc161686bb.xml, storport/HwStorDpcRoutine
 ms.topic: callback
 req.header: storport.h

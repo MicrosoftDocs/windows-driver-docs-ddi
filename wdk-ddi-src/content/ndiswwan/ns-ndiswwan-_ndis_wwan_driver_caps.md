@@ -6,7 +6,7 @@ description: The NDIS_WWAN_DRIVER_CAPS structure represents the capabilities of 
 old-location: netvista\ndis_wwan_driver_caps.htm
 tech.root: netvista
 ms.assetid: 413ea129-2c55-4e7f-ad7c-ce99840f7066
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_WWAN_DRIVER_CAPS, NDIS_WWAN_DRIVER_CAPS, NDIS_WWAN_DRIVER_CAPS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DRIVER_CAPS, PNDIS_WWAN_DRIVER_CAPS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_9c8d6cfb-7f4b-47ac-879b-4c3ada7f9239.xml, _NDIS_WWAN_DRIVER_CAPS, ndiswwan/NDIS_WWAN_DRIVER_CAPS, ndiswwan/PNDIS_WWAN_DRIVER_CAPS, netvista.ndis_wwan_driver_caps"
 ms.topic: struct
 req.header: ndiswwan.h

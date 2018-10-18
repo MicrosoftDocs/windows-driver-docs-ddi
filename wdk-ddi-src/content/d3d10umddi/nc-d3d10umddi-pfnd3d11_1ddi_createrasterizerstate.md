@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Creates a rasterizer state.
 old-location: display\createrasterizerstate_d3d11_1_.htm
 ms.assetid: 5640e1c9-6a38-4eca-9048-0bc9ff66c43c
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateRasterizerState(D3D11_1), CreateRasterizerState(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CREATERASTERIZERSTATE, PFND3D11_1DDI_CREATERASTERIZERSTATE callback, d3d10umddi/CreateRasterizerState(D3D11_1), display.createrasterizerstate_d3d11_1_, display.pfncreaterasterizerstate
 ms.topic: callback
 req.header: d3d10umddi.h

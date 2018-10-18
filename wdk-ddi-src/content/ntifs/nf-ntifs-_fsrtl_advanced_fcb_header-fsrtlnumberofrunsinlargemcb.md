@@ -6,7 +6,7 @@ description: The FsRtlNumberOfRunsInLargeMcb routine returns the number of runs 
 old-location: ifsk\fsrtlnumberofrunsinlargemcb.htm
 tech.root: ifsk
 ms.assetid: a0722e8c-224c-4710-8cd1-68f9bd3051db
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlNumberOfRunsInLargeMcb, FsRtlNumberOfRunsInLargeMcb routine [Installable File System Drivers], fsrtlref_26b0787d-7f2e-4bfa-a36f-505836d50d2c.xml, ifsk.fsrtlnumberofrunsinlargemcb, ntifs/FsRtlNumberOfRunsInLargeMcb
 ms.topic: function
 req.header: ntifs.h

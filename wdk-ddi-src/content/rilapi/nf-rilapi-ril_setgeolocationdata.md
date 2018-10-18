@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_setgeolocationdata.htm
 tech.root: netvista
 ms.assetid: d037ff74-a0fb-49a6-8e42-ceac1be61464
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_SetGeolocationData, RIL_SetGeolocationData method [Network Drivers Starting with Windows Vista], netvista.ril_setgeolocationdata, rilapi/RIL_SetGeolocationData
 ms.topic: function
 req.header: rilapi.h

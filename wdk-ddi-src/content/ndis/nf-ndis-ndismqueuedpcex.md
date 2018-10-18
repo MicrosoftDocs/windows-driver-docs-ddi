@@ -6,7 +6,7 @@ description: NDIS miniport drivers call the NdisMQueueDpcEx function to schedule
 old-location: netvista\ndismqueuedpcex.htm
 tech.root: netvista
 ms.assetid: 22074e51-9032-4ef9-94b9-217daefcab03
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMQueueDpcEx, NdisMQueueDpcEx function [Network Drivers Starting with Windows Vista], ndis/NdisMQueueDpcEx, ndis_processor_group_ref_4a9c7d7e-69dd-4452-8e38-5234afb95f01.xml, netvista.ndismqueuedpcex
 ms.topic: function
 req.header: ndis.h

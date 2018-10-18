@@ -6,7 +6,7 @@ description: The ConfigureAdapterChannel routine invokes a custom function that 
 old-location: kernel\configureadapterchannel.htm
 tech.root: kernel
 ms.assetid: 964B305F-5B9E-4705-89BA-DBAE43464FB1
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ConfigureAdapterChannel, ConfigureAdapterChannel callback function [Kernel-Mode Driver Architecture], PCONFIGURE_ADAPTER_CHANNEL, PCONFIGURE_ADAPTER_CHANNEL callback, kernel.configureadapterchannel, wdm/ConfigureAdapterChannel
 ms.topic: callback
 req.header: wdm.h

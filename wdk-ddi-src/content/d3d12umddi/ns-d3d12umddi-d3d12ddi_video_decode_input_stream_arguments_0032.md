@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Video decode input stream arguments.
 old-location: display\d3d12ddi-video-decode-input-stream-arguments-0032.htm
 ms.assetid: ca647cd3-357b-4cd6-aa1c-6a03d5a77f10
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0032, D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0032, display.d3d12ddi-video-decode-input-stream-arguments-0032
 ms.topic: struct
 req.header: d3d12umddi.h

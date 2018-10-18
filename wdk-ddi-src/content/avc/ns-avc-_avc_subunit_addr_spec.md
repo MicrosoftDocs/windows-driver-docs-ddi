@@ -6,7 +6,7 @@ description: The AVC_SUBUNIT_ADDR_SPEC structure is used with virtual instances 
 old-location: stream\avc_subunit_addr_spec.htm
 tech.root: stream
 ms.assetid: fa9fedc5-cacc-409a-99f5-7103b5424b3c
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PAVC_SUBUNIT_ADDR_SPEC, AVC_SUBUNIT_ADDR_SPEC, AVC_SUBUNIT_ADDR_SPEC structure [Streaming Media Devices], PAVC_SUBUNIT_ADDR_SPEC, PAVC_SUBUNIT_ADDR_SPEC structure pointer [Streaming Media Devices], _AVC_SUBUNIT_ADDR_SPEC, avc/AVC_SUBUNIT_ADDR_SPEC, avc/PAVC_SUBUNIT_ADDR_SPEC, avcref_56141f06-dd51-40cb-874a-ec136ec7683f.xml, stream.avc_subunit_addr_spec"
 ms.topic: struct
 req.header: avc.h

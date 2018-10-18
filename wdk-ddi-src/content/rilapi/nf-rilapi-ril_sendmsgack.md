@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_sendmsgack.htm
 tech.root: netvista
 ms.assetid: 472ae963-1680-47f8-8802-83453d0c1413
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_SendMsgAck, RIL_SendMsgAck method [Network Drivers Starting with Windows Vista], netvista.ril_sendmsgack, rilapi/RIL_SendMsgAck
 ms.topic: function
 req.header: rilapi.h

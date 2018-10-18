@@ -6,7 +6,7 @@ description:
 old-location: stream\time_function.htm
 tech.root: stream
 ms.assetid: 9335B3FB-B46B-404C-BCF9-F4E2F7A4C216
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: TIME_FUNCTION, TIME_FUNCTION enumeration [Streaming Media Devices], TIME_GET_STREAM_TIME, TIME_READ_ONBOARD_CLOCK, TIME_SET_ONBOARD_CLOCK, stream.time_function, strmini/TIME_FUNCTION, strmini/TIME_GET_STREAM_TIME, strmini/TIME_READ_ONBOARD_CLOCK, strmini/TIME_SET_ONBOARD_CLOCK
 ms.topic: enum
 req.header: strmini.h

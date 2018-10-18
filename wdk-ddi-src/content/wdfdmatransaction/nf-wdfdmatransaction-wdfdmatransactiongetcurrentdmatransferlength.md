@@ -6,7 +6,7 @@ description: The WdfDmaTransactionGetCurrentDmaTransferLength method returns the
 old-location: wdf\wdfdmatransactiongetcurrentdmatransferlength.htm
 tech.root: wdf
 ms.assetid: 20a27ad7-0b27-494e-b761-fc3edf71e8c9
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDmaObjectRef_e0fc16e5-9adb-44c5-be53-5e7929ede3aa.xml, WdfDmaTransactionGetCurrentDmaTransferLength, WdfDmaTransactionGetCurrentDmaTransferLength method, kmdf.wdfdmatransactiongetcurrentdmatransferlength, wdf.wdfdmatransactiongetcurrentdmatransferlength, wdfdmatransaction/WdfDmaTransactionGetCurrentDmaTransferLength
 ms.topic: function
 req.header: wdfdmatransaction.h

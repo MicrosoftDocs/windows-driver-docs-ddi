@@ -6,7 +6,7 @@ description: The RTL_GENERIC_TABLE structure contains file system-specific data 
 old-location: ifsk\rtl_generic_table.htm
 tech.root: ifsk
 ms.assetid: 0e5dba1b-8b0d-470a-8ead-4c022e9da7fe
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PRTL_GENERIC_TABLE, PRTL_GENERIC_TABLE, PRTL_GENERIC_TABLE structure pointer [Installable File System Drivers], RTL_GENERIC_TABLE, RTL_GENERIC_TABLE structure [Installable File System Drivers], _RTL_GENERIC_TABLE, ifsk.rtl_generic_table, ntddk/PRTL_GENERIC_TABLE, ntddk/RTL_GENERIC_TABLE, othersystemstructures_ce9bd546-d224-429d-8835-be3d5ecb1a52.xml"
 ms.topic: struct
 req.header: ntddk.h

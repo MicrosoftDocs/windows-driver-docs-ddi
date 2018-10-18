@@ -6,7 +6,7 @@ description: The REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION structure contains inf
 old-location: kernel\reg_callback_context_cleanup_information.htm
 tech.root: kernel
 ms.assetid: 3ce6286a-6805-491d-85fc-b2c7b0a9a1fb
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PREG_CALLBACK_CONTEXT_CLEANUP_INFORMATION, PREG_CALLBACK_CONTEXT_CLEANUP_INFORMATION, PREG_CALLBACK_CONTEXT_CLEANUP_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION, REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION, kernel.reg_callback_context_cleanup_information, kstruct_d_949535da-0c9e-474c-9d68-1e8795c7203a.xml, wdm/PREG_CALLBACK_CONTEXT_CLEANUP_INFORMATION, wdm/REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION"
 ms.topic: struct
 req.header: wdm.h

@@ -6,7 +6,7 @@ description: The NdisClOpenAddressFamilyEx function registers an address family 
 old-location: netvista\ndisclopenaddressfamilyex.htm
 tech.root: netvista
 ms.assetid: 54170917-60b4-4d8f-bf92-df7d7dc0faee
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisClOpenAddressFamilyEx, NdisClOpenAddressFamilyEx function [Network Drivers Starting with Windows Vista], condis_client_ref_6590ccca-3e48-4f83-a7d0-66ce9b6b1eef.xml, ndis/NdisClOpenAddressFamilyEx, netvista.ndisclopenaddressfamilyex
 ms.topic: function
 req.header: ndis.h

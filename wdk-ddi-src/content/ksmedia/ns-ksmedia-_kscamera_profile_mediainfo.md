@@ -6,7 +6,7 @@ description: This structure contains the relevant media type information present
 old-location: stream\kscamera_profile_mediainfo.htm
 tech.root: stream
 ms.assetid: 55B9F032-A3F5-434E-9EB6-CB832DC0EB45
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSCAMERA_PROFILE_MEDIAINFO, KSCAMERA_PROFILE_MEDIAINFO, KSCAMERA_PROFILE_MEDIAINFO structure [Streaming Media Devices], PKSCAMERA_PROFILE_MEDIAINFO, PKSCAMERA_PROFILE_MEDIAINFO structure pointer [Streaming Media Devices], _KSCAMERA_PROFILE_MEDIAINFO, ksmedia/KSCAMERA_PROFILE_MEDIAINFO, ksmedia/PKSCAMERA_PROFILE_MEDIAINFO, stream.kscamera_profile_mediainfo"
 ms.topic: struct
 req.header: ksmedia.h

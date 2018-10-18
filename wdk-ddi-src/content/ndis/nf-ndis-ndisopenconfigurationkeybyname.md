@@ -6,7 +6,7 @@ description: The NdisOpenConfigurationKeyByName function opens a named subkey of
 old-location: netvista\ndisopenconfigurationkeybyname.htm
 tech.root: netvista
 ms.assetid: 9ce7f40f-28f1-4303-9f7a-24ff1213bab1
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisOpenConfigurationKeyByName, NdisOpenConfigurationKeyByName function [Network Drivers Starting with Windows Vista], ndis/NdisOpenConfigurationKeyByName, ndis_configuration_ref_b952e09a-cef5-46f7-b566-6995e8581862.xml, netvista.ndisopenconfigurationkeybyname
 ms.topic: function
 req.header: ndis.h

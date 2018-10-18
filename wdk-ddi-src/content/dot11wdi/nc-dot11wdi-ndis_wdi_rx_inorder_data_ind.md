@@ -6,7 +6,7 @@ description: The NdisWdiRxInorderDataIndication callback function informs the Rx
 old-location: netvista\ndiswdirxinorderdataindication.htm
 tech.root: netvista
 ms.assetid: F2F92DAE-6C13-4EE6-9DE7-B77F5FAFAE60
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDIS_WDI_RX_INORDER_DATA_IND, NDIS_WDI_RX_INORDER_DATA_IND callback, NdisWdiRxInorderDataIndication, NdisWdiRxInorderDataIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiRxInorderDataIndication, netvista.ndiswdirxinorderdataindication
 ms.topic: callback
 req.header: dot11wdi.h

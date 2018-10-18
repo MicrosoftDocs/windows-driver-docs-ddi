@@ -6,7 +6,7 @@ description: The KeQueryLogicalProcessorRelationship routine gets information ab
 old-location: kernel\kequerylogicalprocessorrelationship.htm
 tech.root: kernel
 ms.assetid: 343d965d-3e85-423e-a46b-894b19d5df4e
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeQueryLogicalProcessorRelationship, KeQueryLogicalProcessorRelationship routine [Kernel-Mode Driver Architecture], k105_0db645b1-dfa2-4d90-856f-975997dc09a8.xml, kernel.kequerylogicalprocessorrelationship, wdm/KeQueryLogicalProcessorRelationship
 ms.topic: function
 req.header: ntddk.h

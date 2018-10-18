@@ -6,7 +6,7 @@ description: Adds two values of type LONGLONG.
 old-location: kernel\rtllonglongadd.htm
 tech.root: kernel
 ms.assetid: 94FD1DD3-0799-4E90-A115-9EF065433B05
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlLongLongAdd, RtlLongLongAdd function [Kernel-Mode Driver Architecture], kernel.rtllonglongadd, ntintsafe/RtlLongLongAdd
 ms.topic: function
 req.header: ntintsafe.h

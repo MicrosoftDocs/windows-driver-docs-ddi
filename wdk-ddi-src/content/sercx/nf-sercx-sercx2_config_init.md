@@ -6,7 +6,7 @@ description: The SERCX2_CONFIG_INIT function initializes a SERCX2_CONFIG structu
 old-location: serports\sercx2_config_init.htm
 tech.root: serports
 ms.assetid: 630C7EDA-8C6A-4BD7-9287-EA15FBA34408
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SERCX2_CONFIG_INIT, SERCX2_CONFIG_INIT, SERCX2_CONFIG_INIT function [Serial Ports], serports.sercx2_config_init
 ms.topic: function
 req.header: sercx.h

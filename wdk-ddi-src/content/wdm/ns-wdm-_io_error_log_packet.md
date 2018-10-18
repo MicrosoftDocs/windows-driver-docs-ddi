@@ -6,7 +6,7 @@ description: The IO_ERROR_LOG_PACKET structure serves as the header for an error
 old-location: kernel\io_error_log_packet.htm
 tech.root: kernel
 ms.assetid: 4bf54017-d142-4534-8a5a-c7f267a1554b
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PIO_ERROR_LOG_PACKET, IO_ERROR_LOG_PACKET, IO_ERROR_LOG_PACKET structure [Kernel-Mode Driver Architecture], PIO_ERROR_LOG_PACKET, PIO_ERROR_LOG_PACKET structure pointer [Kernel-Mode Driver Architecture], _IO_ERROR_LOG_PACKET, kernel.io_error_log_packet, kstruct_b_04c24dbc-a479-437c-adc2-b29294596564.xml, wdm/IO_ERROR_LOG_PACKET, wdm/PIO_ERROR_LOG_PACKET"
 ms.topic: struct
 req.header: wdm.h

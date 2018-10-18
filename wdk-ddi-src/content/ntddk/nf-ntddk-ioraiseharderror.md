@@ -6,7 +6,7 @@ description: The IoRaiseHardError routine causes a dialog box to appears that wa
 old-location: kernel\ioraiseharderror.htm
 tech.root: kernel
 ms.assetid: 140561ce-e2ad-45be-976a-86fb1d0d1e87
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoRaiseHardError, IoRaiseHardError routine [Kernel-Mode Driver Architecture], k104_d723a2b6-2fdc-43d2-a7bc-ab356157a040.xml, kernel.ioraiseharderror, ntddk/IoRaiseHardError
 ms.topic: function
 req.header: ntddk.h

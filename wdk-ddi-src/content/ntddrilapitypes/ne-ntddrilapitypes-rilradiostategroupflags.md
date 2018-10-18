@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilradiostategroupflags.htm
 tech.root: netvista
 ms.assetid: b44debf9-4f44-44fc-9857-e4725edc888f
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILRADIOSTATEGROUPFLAGS, RILRADIOSTATEGROUPFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_RADIOSTATE_GROUPFLAG_HASSUBGROUPS, netvista.rilradiostategroupflags, ntddrilapitypes/RILRADIOSTATEGROUPFLAGS, ntddrilapitypes/RIL_RADIOSTATE_GROUPFLAG_HASSUBGROUPS
 ms.topic: enum
 req.header: ntddrilapitypes.h

@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilrmcvtype.htm
 tech.root: netvista
 ms.assetid: 007c6b45-0bec-4fcf-984a-675aa5336993
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILRMCVTYPE, RILRMCVTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_RMCV_TYPE_BOOLEAN, RIL_RMCV_TYPE_DWORD, RIL_RMCV_TYPE_STRING, netvista.rilrmcvtype, ntddrilapitypes/RILRMCVTYPE, ntddrilapitypes/RIL_RMCV_TYPE_BOOLEAN, ntddrilapitypes/RIL_RMCV_TYPE_DWORD, ntddrilapitypes/RIL_RMCV_TYPE_STRING
 ms.topic: enum
 req.header: rilapitypes.h

@@ -6,7 +6,7 @@ description: This interface exposes a work item object.
 old-location: wdf\iwdfworkitem.htm
 tech.root: wdf
 ms.assetid: F9EDA26E-92E0-4936-87B7-E1E2A02A9D96
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFWorkItem, IWDFWorkItem interface, IWDFWorkItem interface,described, umdf.iwdfworkitem, wdf.iwdfworkitem, wudfddi/IWDFWorkItem
 ms.topic: interface
 req.header: wudfddi.h

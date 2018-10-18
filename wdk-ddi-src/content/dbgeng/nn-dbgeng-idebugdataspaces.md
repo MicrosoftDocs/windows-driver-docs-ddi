@@ -6,7 +6,7 @@ description: IDebugDataSpaces interface
 old-location: debugger\idebugdataspaces.htm
 tech.root: debugger
 ms.assetid: 9477821c-4f4f-4ea2-9968-d43f87c496b2
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugDataSpaces, IDebugDataSpaces interface [Windows Debugging], IDebugDataSpaces interface [Windows Debugging],described, IDebugDataSpaces_83f3a88c-f7e6-4b5c-a2b2-4e8bccef4281.xml, dbgeng/IDebugDataSpaces, debugger.idebugdataspaces
 ms.topic: interface
 req.header: dbgeng.h

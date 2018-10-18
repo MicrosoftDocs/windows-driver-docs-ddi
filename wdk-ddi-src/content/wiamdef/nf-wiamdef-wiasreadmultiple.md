@@ -6,7 +6,7 @@ description: The wiasReadMultiple function retrieves multiple property values fr
 old-location: image\wiasreadmultiple.htm
 tech.root: image
 ms.assetid: 814642f7-24df-4d64-bc2b-d76d84b2a6d3
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiasreadmultiple, wiamdef/wiasReadMultiple, wiasFncs_c6d42143-4cd8-4f9a-bbf4-aec0ce2c0615.xml, wiasReadMultiple, wiasReadMultiple function [Imaging Devices]
 ms.topic: function
 req.header: wiamdef.h

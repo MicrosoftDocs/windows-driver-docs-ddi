@@ -6,7 +6,7 @@ description: DirectX 8.0 and later versions only. The D3DHAL_DP2SETSTREAMSOURCE 
 old-location: display\d3dhal_dp2setstreamsource.htm
 tech.root: display
 ms.assetid: 23be14ce-2312-41e0-98c5-07de551ffce9
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_DP2SETSTREAMSOURCE, D3DHAL_DP2SETSTREAMSOURCE, D3DHAL_DP2SETSTREAMSOURCE structure [Display Devices], LPD3DHAL_DP2SETSTREAMSOURCE, LPD3DHAL_DP2SETSTREAMSOURCE structure pointer [Display Devices], _D3DHAL_DP2SETSTREAMSOURCE, d3dhal/D3DHAL_DP2SETSTREAMSOURCE, d3dhal/LPD3DHAL_DP2SETSTREAMSOURCE, d3dstrct_4a6ddce7-b2fc-4fdd-bbed-cc905b1bc97d.xml, display.d3dhal_dp2setstreamsource"
 ms.topic: struct
 req.header: d3dhal.h

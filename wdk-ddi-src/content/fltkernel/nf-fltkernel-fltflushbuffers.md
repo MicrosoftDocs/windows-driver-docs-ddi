@@ -6,7 +6,7 @@ description: The FltFlushBuffers routine is used by the minifilter driver to sen
 old-location: ifsk\fltflushbuffers.htm
 tech.root: ifsk
 ms.assetid: 269be3a9-7dd8-45e2-8687-99f8ca8f9b8b
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_cd194ce5-6afd-49f2-84c5-aa93ede9309a.xml, FltFlushBuffers, FltFlushBuffers routine [Installable File System Drivers], fltkernel/FltFlushBuffers, ifsk.fltflushbuffers
 ms.topic: function
 req.header: fltkernel.h

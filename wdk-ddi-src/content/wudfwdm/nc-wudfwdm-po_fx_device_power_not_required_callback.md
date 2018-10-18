@@ -6,7 +6,7 @@ description: The DevicePowerNotRequiredCallback callback routine notifies the de
 old-location: kernel\devicepowernotrequiredcallback.htm
 tech.root: kernel
 ms.assetid: 4BE1EEF7-7053-47AF-91E8-7313C3A56718
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: DevicePowerNotRequiredCallback, DevicePowerNotRequiredCallback routine [Kernel-Mode Driver Architecture], PO_FX_DEVICE_POWER_NOT_REQUIRED_CALLBACK, kernel.devicepowernotrequiredcallback, wdm/DevicePowerNotRequiredCallback
 ms.topic: callback
 req.header: wudfwdm.h

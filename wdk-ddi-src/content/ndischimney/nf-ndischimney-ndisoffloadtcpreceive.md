@@ -6,7 +6,7 @@ description: A protocol driver or an intermediate driver calls the NdisOffloadTc
 old-location: netvista\ndisoffloadtcpreceive.htm
 tech.root: netvista
 ms.assetid: 021f41c4-6ba9-418e-bc18-131ce6d90877
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisOffloadTcpReceive, NdisOffloadTcpReceive function [Network Drivers Starting with Windows Vista], ndischimney/NdisOffloadTcpReceive, netvista.ndisoffloadtcpreceive, tcp_chim_ndis_func_601c3cd9-00c3-425b-a42e-c8ea8563bde3.xml
 ms.topic: function
 req.header: ndischimney.h

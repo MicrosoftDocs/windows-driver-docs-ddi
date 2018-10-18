@@ -6,7 +6,7 @@ description: The HBA_GetRNIDMgmtInfo routine queries the HBA for request node id
 old-location: storage\hba_getrnidmgmtinfo.htm
 tech.root: storage
 ms.assetid: 8018d52d-4454-4826-933f-a34a70243547
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_GetRNIDMgmtInfo, HBA_GetRNIDMgmtInfo routine [Storage Devices], fibreHBA_rtns_73ba5195-497c-4105-9b4c-eccd637962b9.xml, hbaapi/HBA_GetRNIDMgmtInfo, storage.hba_getrnidmgmtinfo
 ms.topic: function
 req.header: hbaapi.h

@@ -6,7 +6,7 @@ description: The RtlCaptureContext function retrieves a context record in the co
 old-location: ifsk\rtlcapturecontext.htm
 tech.root: ifsk
 ms.assetid: c3edd10c-ea4f-4e2d-96f2-3d1cb3804512
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlCaptureContext, RtlCaptureContext function [Installable File System Drivers], ifsk.rtlcapturecontext, ntifs/RtlCaptureContext, rtlref_efe764ec-89fb-43bc-945d-7fee4594c284.xml
 ms.topic: function
 req.header: ntifs.h

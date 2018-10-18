@@ -6,7 +6,7 @@ description: The RemoveAssemblyOptions method turns off some of the assembly and
 old-location: debugger\removeassemblyoptions.htm
 tech.root: debugger
 ms.assetid: 0352b418-26ee-4f35-a171-1b456a115014
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugControl3 interface [Windows Debugging],RemoveAssemblyOptions method, IDebugControl3.RemoveAssemblyOptions, IDebugControl3::RemoveAssemblyOptions, IDebugControl_8d971b27-ff9f-4097-a96a-68dabf08b200.xml, RemoveAssemblyOptions, RemoveAssemblyOptions method [Windows Debugging], RemoveAssemblyOptions method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl3::RemoveAssemblyOptions, debugger.removeassemblyoptions
 ms.topic: method
 req.header: dbgeng.h

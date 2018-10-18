@@ -6,7 +6,7 @@ description: An SPB controller driver's EvtSpbControllerUnlock event callback fu
 old-location: spb\evtspbcontrollerunlock.htm
 tech.root: SPB
 ms.assetid: 4EB36115-2783-4FD5-9CEE-1F7C971C334D
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: EVT_SPB_CONTROLLER_UNLOCK, EVT_SPB_CONTROLLER_UNLOCK callback, EvtSpbControllerUnlock, EvtSpbControllerUnlock callback function [Buses], SPB.evtspbcontrollerunlock, spbcx/EvtSpbControllerUnlock
 ms.topic: callback
 req.header: spbcx.h

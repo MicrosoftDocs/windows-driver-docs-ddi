@@ -6,7 +6,7 @@ description: Indicates that a Microsoft DirectX graphics kernel subsystem (Dxgkr
 old-location: display\umdetwlogunmapallocation.htm
 tech.root: display
 ms.assetid: 36c204fb-638d-44d2-8379-a5bd79e4167a
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: UMDEtwLogUnmapAllocation, UMDEtwLogUnmapAllocation function [Display Devices], display.umdetwlogunmapallocation, umdprovider/UMDEtwLogUnmapAllocation
 ms.topic: function
 req.header: umdprovider.h

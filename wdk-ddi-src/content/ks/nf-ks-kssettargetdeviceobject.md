@@ -6,7 +6,7 @@ description: The KsSetTargetDeviceObject function sets the target device object 
 old-location: stream\kssettargetdeviceobject.htm
 tech.root: stream
 ms.assetid: 0d90f70d-8cbe-4c95-ae54-494ff404631a
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsSetTargetDeviceObject, KsSetTargetDeviceObject function [Streaming Media Devices], ks/KsSetTargetDeviceObject, ksfunc_f5e0140d-a6f3-49a1-a319-f55bdd5f0734.xml, stream.kssettargetdeviceobject
 ms.topic: function
 req.header: ks.h

@@ -6,7 +6,7 @@ description: Called by the user-mode display driver to send the kernel-mode disp
 old-location: display\miracastiocontrol.htm
 tech.root: display
 ms.assetid: df63ec18-79e0-40a6-a412-46071eb8a7fe
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: MiracastIoControl, MiracastIoControl callback function [Display Devices], PFN_MIRACAST_IO_CONTROL, PFN_MIRACAST_IO_CONTROL callback, display.miracastiocontrol, netdispumdddi/MiracastIoControl
 ms.topic: callback
 req.header: netdispumdddi.h

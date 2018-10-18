@@ -6,7 +6,7 @@ description: Used to identify whether the camera's image pin and record pin are 
 old-location: stream\ksproperty_cameracontrol_image_pin_capability.htm
 tech.root: stream
 ms.assetid: FB7FB950-079C-41DC-AB9D-AD5D7460D7A7
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY, KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY enumeration [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_PROPERTY_ID, ksmedia/KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY, ksmedia/KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_PROPERTY_ID, stream.ksproperty_cameracontrol_image_pin_capability
 ms.topic: enum
 req.header: ksmedia.h

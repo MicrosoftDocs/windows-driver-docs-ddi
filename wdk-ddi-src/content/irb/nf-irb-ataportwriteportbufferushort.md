@@ -6,7 +6,7 @@ description: The AtaPortWritePortBufferUshort routine transfers the indicated nu
 old-location: storage\ataportwriteportbufferushort.htm
 tech.root: storage
 ms.assetid: b2b5b126-8cb3-494f-a67e-f8d4f37ec639
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: AtaPortWritePortBufferUshort, AtaPortWritePortBufferUshort routine [Storage Devices], atartns_78cda4b1-7995-40c3-a784-ed66d8a8d520.xml, irb/AtaPortWritePortBufferUshort, storage.ataportwriteportbufferushort
 ms.topic: function
 req.header: irb.h

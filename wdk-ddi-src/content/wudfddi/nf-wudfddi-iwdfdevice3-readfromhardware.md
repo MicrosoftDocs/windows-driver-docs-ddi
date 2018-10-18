@@ -6,7 +6,7 @@ description: The ReadFromHardware method is used internally by the framework. Do
 old-location: wdf\iwdfdevice3_readfromhardware.htm
 tech.root: wdf
 ms.assetid: 19B472D0-D607-4874-ADB9-232C379B0DFD
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFDevice3 interface,ReadFromHardware method, IWDFDevice3.ReadFromHardware, IWDFDevice3::ReadFromHardware, ReadFromHardware, ReadFromHardware method, ReadFromHardware method,IWDFDevice3 interface, umdf.iwdfdevice3_readfromhardware, wdf.iwdfdevice3_readfromhardware, wudfddi/IWDFDevice3::ReadFromHardware
 ms.topic: method
 req.header: wudfddi.h

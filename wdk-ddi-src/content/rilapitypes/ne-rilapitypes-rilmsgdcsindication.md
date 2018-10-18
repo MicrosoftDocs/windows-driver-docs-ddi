@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilmsgdcsindication.htm
 tech.root: netvista
 ms.assetid: 709980c8-e13f-48a7-9af7-26f0bb79e699
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILMSGDCSINDICATION, RILMSGDCSINDICATION enumeration [Network Drivers Starting with Windows Vista], RIL_DCSINDICATION_EMAIL, RIL_DCSINDICATION_FAX, RIL_DCSINDICATION_MAX, RIL_DCSINDICATION_OTHER, netvista.rilmsgdcsindication, ntddrilapitypes/RILMSGDCSINDICATION, ntddrilapitypes/RIL_DCSINDICATION_EMAIL, ntddrilapitypes/RIL_DCSINDICATION_FAX, ntddrilapitypes/RIL_DCSINDICATION_MAX, ntddrilapitypes/RIL_DCSINDICATION_OTHER
 ms.topic: enum
 req.header: rilapitypes.h

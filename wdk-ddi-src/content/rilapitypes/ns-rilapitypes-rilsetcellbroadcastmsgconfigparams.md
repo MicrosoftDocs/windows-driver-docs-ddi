@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilsetcellbroadcastmsgconfigparams.htm
 tech.root: netvista
 ms.assetid: bfaad47a-44eb-471d-9ed9-e1adf845ab9c
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILSETCELLBROADCASTMSGCONFIGPARAMS, RILSETCELLBROADCASTMSGCONFIGPARAMS, RILSETCELLBROADCASTMSGCONFIGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetcellbroadcastmsgconfigparams, ntddrilapitypes/RILSETCELLBROADCASTMSGCONFIGPARAMS"
 ms.topic: struct
 req.header: rilapitypes.h

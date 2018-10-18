@@ -6,7 +6,7 @@ description: The GetUshort method returns a USHORT version of the ExtRemoteData 
 old-location: debugger\extremotedata_getushort.htm
 tech.root: debugger
 ms.assetid: e5e2061f-5133-4645-8e07-659f08473a51
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_5429785d-2f76-434d-96c6-4fa7298aa32e.xml, ExtRemoteData class [Windows Debugging],GetUshort method, ExtRemoteData.GetUshort, ExtRemoteData::GetUshort, GetUshort, GetUshort method [Windows Debugging], GetUshort method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getushort
 ms.topic: method
 req.header: engextcpp.hpp

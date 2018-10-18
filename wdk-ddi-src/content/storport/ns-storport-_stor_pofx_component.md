@@ -6,7 +6,7 @@ description: The STOR_POFX_COMPONENT structure describes the power state attribu
 old-location: storage\stor_pofx_component.htm
 tech.root: storage
 ms.assetid: D44FF0C7-D82C-4CDD-A5F9-BBD8257C6771
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSTOR_POFX_COMPONENT, PSTOR_POFX_COMPONENT, PSTOR_POFX_COMPONENT structure pointer [Storage Devices], STOR_POFX_COMPONENT, STOR_POFX_COMPONENT structure [Storage Devices], _STOR_POFX_COMPONENT, storage.stor_pofx_component, storport/PSTOR_POFX_COMPONENT, storport/STOR_POFX_COMPONENT"
 ms.topic: struct
 req.header: storport.h

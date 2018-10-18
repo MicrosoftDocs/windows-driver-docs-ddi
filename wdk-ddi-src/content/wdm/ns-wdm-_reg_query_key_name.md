@@ -6,7 +6,7 @@ description: The REG_QUERY_KEY_NAME structure describes the full registry key na
 old-location: kernel\reg_query_key_name.htm
 tech.root: kernel
 ms.assetid: 396DA33D-46E0-456C-9FCF-85A7D9915F48
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PREG_QUERY_KEY_NAME, PREG_QUERY_KEY_NAME, PREG_QUERY_KEY_NAME structure pointer [Kernel-Mode Driver Architecture], REG_QUERY_KEY_NAME, REG_QUERY_KEY_NAME structure [Kernel-Mode Driver Architecture], _REG_QUERY_KEY_NAME, kernel.reg_query_key_name, wdm/PREG_QUERY_KEY_NAME, wdm/REG_QUERY_KEY_NAME"
 ms.topic: struct
 req.header: wdm.h

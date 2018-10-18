@@ -6,7 +6,7 @@ description: The Storport virtual miniport uses configuration information suppli
 old-location: storage\virtualhwstorfindadapter.htm
 tech.root: storage
 ms.assetid: 55c16545-194e-4d23-b2e6-26821180eafa
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: VIRTUAL_HW_FIND_ADAPTER, VirtualHwStorFindAdapter, VirtualHwStorFindAdapter routine [Storage Devices], storage.virtualhwstorfindadapter, storport/VirtualHwStorFindAdapter, storvmini_d41a0c2e-d224-4cfd-95e1-997b6a54904b.xml
 ms.topic: callback
 req.header: storport.h

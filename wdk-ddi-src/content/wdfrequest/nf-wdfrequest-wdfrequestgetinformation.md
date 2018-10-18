@@ -6,7 +6,7 @@ description: The WdfRequestGetInformation method returns completion status infor
 old-location: wdf\wdfrequestgetinformation.htm
 tech.root: wdf
 ms.assetid: fd5f29f7-e9c6-48c4-8704-5db37b8c6337
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_ea947de9-aea4-4e66-8686-f4ca5a1385c4.xml, WdfRequestGetInformation, WdfRequestGetInformation method, kmdf.wdfrequestgetinformation, wdf.wdfrequestgetinformation, wdfrequest/WdfRequestGetInformation
 ms.topic: function
 req.header: wdfrequest.h

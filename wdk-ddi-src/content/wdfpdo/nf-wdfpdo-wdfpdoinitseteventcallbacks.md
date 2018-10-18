@@ -6,7 +6,7 @@ description: The WdfPdoInitSetEventCallbacks method registers a bus driver's eve
 old-location: wdf\wdfpdoinitseteventcallbacks.htm
 tech.root: wdf
 ms.assetid: 7ce47eab-c1d7-4a0d-accb-c8a925aa3d1d
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_00002737-467e-4449-8c6c-498860a18747.xml, WdfPdoInitSetEventCallbacks, WdfPdoInitSetEventCallbacks method, kmdf.wdfpdoinitseteventcallbacks, wdf.wdfpdoinitseteventcallbacks, wdfpdo/WdfPdoInitSetEventCallbacks
 ms.topic: function
 req.header: wdfpdo.h

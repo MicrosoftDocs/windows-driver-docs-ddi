@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Resizes a tile pool.
 old-location: display\resizetilepool.htm
 ms.assetid: 184EF418-1B1E-4A10-8F10-1331DF99DCBD
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DWDDM1_3DDI_RESIZETILEPOOL, PFND3DWDDM1_3DDI_RESIZETILEPOOL callback, ResizeTilePool, ResizeTilePool callback function [Display Devices], d3d10umddi/ResizeTilePool, display.resizetilepool
 ms.topic: callback
 req.header: d3d10umddi.h

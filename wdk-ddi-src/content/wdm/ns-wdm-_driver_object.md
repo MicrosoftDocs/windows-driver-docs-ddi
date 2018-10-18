@@ -6,7 +6,7 @@ description: Each driver object represents the image of a loaded kernel-mode dri
 old-location: kernel\driver_object.htm
 tech.root: kernel
 ms.assetid: 512e3fd5-7ea5-423c-a628-0db6b30fd708
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PDRIVER_OBJECT, DRIVER_OBJECT, DRIVER_OBJECT structure [Kernel-Mode Driver Architecture], PDRIVER_OBJECT, PDRIVER_OBJECT structure pointer [Kernel-Mode Driver Architecture], _DRIVER_OBJECT, kernel.driver_object, kstruct_a_dfe1b66c-d3bf-43ff-b3ee-b6edfd4f1616.xml, wdm/DRIVER_OBJECT, wdm/PDRIVER_OBJECT"
 ms.topic: struct
 req.header: wdm.h

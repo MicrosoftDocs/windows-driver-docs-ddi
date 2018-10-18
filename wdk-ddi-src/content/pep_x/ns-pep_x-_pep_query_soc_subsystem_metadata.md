@@ -6,7 +6,7 @@ description: The PEP_QUERY_SOC_SUBSYSTEM_METADATA structure is used with the PEP
 old-location: kernel\pep_query_soc_subsystem_metadata.htm
 tech.root: kernel
 ms.assetid: D823EF66-1440-45B7-A0D8-A98522AA69E1
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_QUERY_SOC_SUBSYSTEM_METADATA, PEP_QUERY_SOC_SUBSYSTEM_METADATA, PEP_QUERY_SOC_SUBSYSTEM_METADATA structure [Kernel-Mode Driver Architecture], PPEP_QUERY_SOC_SUBSYSTEM_METADATA, PPEP_QUERY_SOC_SUBSYSTEM_METADATA structure pointer [Kernel-Mode Driver Architecture], _PEP_QUERY_SOC_SUBSYSTEM_METADATA, kernel.pep_query_soc_subsystem_metadata, pepfx/PEP_QUERY_SOC_SUBSYSTEM_METADATA, pepfx/PPEP_QUERY_SOC_SUBSYSTEM_METADATA"
 ms.topic: struct
 req.header: pep_x.h

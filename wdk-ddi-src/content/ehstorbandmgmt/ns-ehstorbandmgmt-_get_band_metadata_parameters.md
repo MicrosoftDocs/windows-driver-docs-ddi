@@ -6,7 +6,7 @@ description: The metadata for a configured band is retrieved according to the pa
 old-location: storage\get_band_metadata_parameters.htm
 tech.root: storage
 ms.assetid: CE8160C5-8C64-4BA5-864E-EC634754E062
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PGET_BAND_METADATA_PARAMETERS, GET_BAND_METADATA_PARAMETERS, GET_BAND_METADATA_PARAMETERS structure [Storage Devices], PGET_BAND_METADATA_PARAMETERS, PGET_BAND_METADATA_PARAMETERS structure pointer [Storage Devices], _GET_BAND_METADATA_PARAMETERS, ehstorbandmgmt/GET_BAND_METADATA_PARAMETERS, ehstorbandmgmt/PGET_BAND_METADATA_PARAMETERS, storage.get_band_metadata_parameters"
 ms.topic: struct
 req.header: ehstorbandmgmt.h

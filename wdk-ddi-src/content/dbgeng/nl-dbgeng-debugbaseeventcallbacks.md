@@ -6,7 +6,7 @@ description: The DebugBaseEventCallbacks class provides a base implementation of
 old-location: debugger\debugbaseeventcallbacks.htm
 tech.root: debugger
 ms.assetid: B0422248-2F5F-4AE6-93C9-D96B5E4A1B5A
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: DebugBaseEventCallbacks, DebugBaseEventCallbacks class [Windows Debugging], DebugBaseEventCallbacks class [Windows Debugging],described, dbgeng/DebugBaseEventCallbacks, debugger.debugbaseeventcallbacks
 ms.topic: class
 req.header: dbgeng.h

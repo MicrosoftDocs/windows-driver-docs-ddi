@@ -6,7 +6,7 @@ description: The IWDFPropertyStoreFactory interface is a factory interface that 
 old-location: wdf\iwdfpropertystorefactory.htm
 tech.root: wdf
 ms.assetid: 41d77cf1-6f85-4f43-b2d8-1da4c9dac380
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFPropertyStoreFactory, IWDFPropertyStoreFactory interface, IWDFPropertyStoreFactory interface,described, UMDFDeviceObjectRef_07ada2e1-57a4-4b48-9145-fd38baef01cf.xml, umdf.iwdfpropertystorefactory, wdf.iwdfpropertystorefactory, wudfddi/IWDFPropertyStoreFactory
 ms.topic: interface
 req.header: wudfddi.h

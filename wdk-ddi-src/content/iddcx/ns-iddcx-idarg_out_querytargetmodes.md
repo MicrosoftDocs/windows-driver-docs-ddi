@@ -6,7 +6,7 @@ description: Gives information about the number of target modes provided by the 
 old-location: display\idarg_out_querytargetmodes.htm
 tech.root: display
 ms.assetid: 427af891-1fb7-4042-89bc-a40191ec5a31
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IDARG_OUT_QUERYTARGETMODES, IDARG_OUT_QUERYTARGETMODES structure [Display Devices], display.idarg_out_querytargetmodes, iddcx/IDARG_OUT_QUERYTARGETMODES
 ms.topic: struct
 req.header: iddcx.h

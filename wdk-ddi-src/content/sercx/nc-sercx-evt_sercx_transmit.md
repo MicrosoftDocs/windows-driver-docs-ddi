@@ -6,7 +6,7 @@ description: The EvtSerCxTransmit event callback function prepares the serial co
 old-location: serports\evtsercxtransmit.htm
 tech.root: serports
 ms.assetid: B32335E4-3BDF-4161-9BE2-CF3557D76988
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 1/EvtSerCxTransmit, EVT_SERCX_TRANSMIT, EVT_SERCX_TRANSMIT callback, EvtSerCxTransmit, EvtSerCxTransmit callback function [Serial Ports], serports.evtsercxtransmit
 ms.topic: callback
 req.header: sercx.h

@@ -6,7 +6,7 @@ description: The DxgkDdiOPMDestroyProtectedOutput function destroys the given pr
 old-location: display\dxgkddiopmdestroyprotectedoutput.htm
 tech.root: display
 ms.assetid: a03381ba-342e-409f-99ab-9790e1d74371
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_OPM_DESTROY_PROTECTED_OUTPUT, DXGKDDI_OPM_DESTROY_PROTECTED_OUTPUT callback, Dm_Opm_functions_e744a9ff-d14b-4cef-aed6-4dba714dc695.xml, DxgkDdiOPMDestroyProtectedOutput, DxgkDdiOPMDestroyProtectedOutput callback function [Display Devices], display.dxgkddiopmdestroyprotectedoutput, dispmprt/DxgkDdiOPMDestroyProtectedOutput
 ms.topic: callback
 req.header: dispmprt.h

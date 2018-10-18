@@ -6,7 +6,7 @@ description: Gives information about the target modes that will be updated by th
 old-location: display\idarg_in_updatemodes.htm
 tech.root: display
 ms.assetid: d18f1da0-0cd0-48bf-bf01-a80887b6b2ac
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IDARG_IN_UPDATEMODES, IDARG_IN_UPDATEMODES structure [Display Devices], display.idarg_in_updatemodes, iddcx/IDARG_IN_UPDATEMODES
 ms.topic: struct
 req.header: iddcx.h

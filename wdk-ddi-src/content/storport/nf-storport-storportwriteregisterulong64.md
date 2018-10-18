@@ -6,7 +6,7 @@ description: This StorPortWriteRegisterUlong64 routine writes a ULONG64 value to
 old-location: storage\storportwriteregisterulong64.htm
 tech.root: storage
 ms.assetid: FFBC7A27-B980-49AF-9207-237E0F0292FA
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortWriteRegisterUlong64, StorPortWriteRegisterUlong64 routine [Storage Devices], storage.storportwriteregisterulong64, storport/StorPortWriteRegisterUlong64
 ms.topic: macro
 req.header: storport.h

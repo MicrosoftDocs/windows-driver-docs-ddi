@@ -6,7 +6,7 @@ description: The changer miniclass driver fills the MCD_INIT_DATA structure with
 old-location: storage\mcd_init_data.htm
 tech.root: storage
 ms.assetid: 4fc4c36f-a2ad-4b9f-a30b-e7ed600c38e9
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PMCD_INIT_DATA, MCD_INIT_DATA, MCD_INIT_DATA structure [Storage Devices], PMCD_INIT_DATA, PMCD_INIT_DATA structure pointer [Storage Devices], _MCD_INIT_DATA, mcd/MCD_INIT_DATA, mcd/PMCD_INIT_DATA, storage.mcd_init_data, structs-changer_f8810f4b-8465-4751-a885-cc68a88e45fb.xml"
 ms.topic: struct
 req.header: mcd.h

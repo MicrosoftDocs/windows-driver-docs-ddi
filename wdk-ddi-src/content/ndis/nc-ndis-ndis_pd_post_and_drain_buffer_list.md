@@ -6,7 +6,7 @@ description: The PacketDirect (PD) platform calls a PD-capable miniport driver's
 old-location: netvista\pdpostanddrainbufferlist.htm
 tech.root: netvista
 ms.assetid: 5EAAEEEC-740E-4F65-B13E-E174A0DF4546
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*NDIS_PD_POST_AND_DRAIN_BUFFER_LIST_HANDLER, *NDIS_PD_POST_AND_DRAIN_BUFFER_LIST_HANDLER callback function [Network Drivers Starting with Windows Vista], NDIS_PD_POST_AND_DRAIN_BUFFER_LIST, NDIS_PD_POST_AND_DRAIN_BUFFER_LIST callback, PDPostAndDrainBufferList, PDPostAndDrainBufferList callback function [Network Drivers Starting with Windows Vista], ndis/PDPostAndDrainBufferList, netvista.pdpostanddrainbufferlist"
 ms.topic: callback
 req.header: ndis.h

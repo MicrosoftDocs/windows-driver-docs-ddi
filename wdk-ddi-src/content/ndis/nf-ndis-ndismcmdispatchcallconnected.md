@@ -6,7 +6,7 @@ description: NdisMCmDispatchCallConnected notifies NDIS and the client that data
 old-location: netvista\ndismcmdispatchcallconnected.htm
 tech.root: netvista
 ms.assetid: b47976ad-fdde-48cb-bb30-4eaf25489143
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMCmDispatchCallConnected, NdisMCmDispatchCallConnected macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_3d3199be-36e5-445e-986d-984a4f778da0.xml, ndis/NdisMCmDispatchCallConnected, netvista.ndismcmdispatchcallconnected
 ms.topic: macro
 req.header: ndis.h

@@ -6,7 +6,7 @@ description: The WdfDeviceQueryPropertyEx method retrieves a specified device pr
 old-location: wdf\wdfdevicequerypropertyex.htm
 tech.root: wdf
 ms.assetid: CA189010-0BEB-420A-BE69-5F7FEE322FE3
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfDeviceQueryPropertyEx, WdfDeviceQueryPropertyEx method, wdf.wdfdevicequerypropertyex, wdfdevice/WdfDeviceQueryPropertyEx
 ms.topic: function
 req.header: wdfdevice.h

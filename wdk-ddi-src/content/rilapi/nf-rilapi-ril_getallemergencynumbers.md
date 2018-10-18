@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_getallemergencynumbers.htm
 tech.root: netvista
 ms.assetid: 9bb94db6-1d0d-471f-b2a5-71ca659afcd0
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_GetAllEmergencyNumbers, RIL_GetAllEmergencyNumbers method [Network Drivers Starting with Windows Vista], netvista.ril_getallemergencynumbers, rilapi/RIL_GetAllEmergencyNumbers
 ms.topic: function
 req.header: rilapi.h

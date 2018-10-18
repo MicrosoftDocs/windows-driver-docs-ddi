@@ -6,7 +6,7 @@ description: The READ_PORT_BUFFER_ULONG function reads a number of ULONG values 
 old-location: wdf\read_port_buffer_ulong.htm
 tech.root: wdf
 ms.assetid: 5E1FFE55-49EE-4D8B-8826-023C751C7520
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: READ_PORT_BUFFER_ULONG, READ_PORT_BUFFER_ULONG function, umdf.read_port_buffer_ulong, wdf.read_port_buffer_ulong, wudfddi_hwaccess/READ_PORT_BUFFER_ULONG
 ms.topic: function
 req.header: wudfddi_hwaccess.h

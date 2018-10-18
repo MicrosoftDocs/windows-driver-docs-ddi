@@ -6,7 +6,7 @@ description: The WdfGetTriageInfo method is reserved for internal use only.
 old-location: wdf\wdfgettriageinfo.htm
 tech.root: wdf
 ms.assetid: F6B1DC49-B691-45E4-8DE9-ADCD73D90ADE
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfGetTriageInfo, WdfGetTriageInfo function, kmdf.wdfgettriageinfo, wdf.wdfgettriageinfo, wdfverifier/WdfGetTriageInfo
 ms.topic: function
 req.header: wdfverifier.h

@@ -6,7 +6,7 @@ description: This structure may be altered or unavailable. Instead, use FILE_PRO
 old-location: ifsk\file_provider_external_info_v0.htm
 tech.root: ifsk
 ms.assetid: E2368589-9F75-4743-9D38-323221B20EF8
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PFILE_PROVIDER_EXTERNAL_INFO_V0, FILE_PROVIDER_EXTERNAL_INFO_V0, FILE_PROVIDER_EXTERNAL_INFO_V0 structure [Installable File System Drivers], PFILE_PROVIDER_EXTERNAL_INFO_V0, PFILE_PROVIDER_EXTERNAL_INFO_V0 structure pointer [Installable File System Drivers], _FILE_PROVIDER_EXTERNAL_INFO_V0, ifsk.file_provider_external_info_v0, ntifs/FILE_PROVIDER_EXTERNAL_INFO_V0, ntifs/PFILE_PROVIDER_EXTERNAL_INFO_V0"
 ms.topic: struct
 req.header: ntifs.h

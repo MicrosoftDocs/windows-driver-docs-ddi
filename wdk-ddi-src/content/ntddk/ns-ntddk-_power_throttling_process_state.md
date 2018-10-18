@@ -6,7 +6,7 @@ description: Stores the throttling policies and how to apply them to a target pr
 old-location: kernel\power_throttling_process_state.htm
 tech.root: kernel
 ms.assetid: f22be66a-1f1c-4999-a99e-9a8575313239
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPOWER_THROTTLING_PROCESS_STATE, POWER_THROTTLING_PROCESS_STATE, POWER_THROTTLING_PROCESS_STATE structure [Kernel-Mode Driver Architecture], _POWER_THROTTLING_PROCESS_STATE, kernel.power_throttling_process_state, ntddk/POWER_THROTTLING_PROCESS_STATE"
 ms.topic: struct
 req.header: ntddk.h

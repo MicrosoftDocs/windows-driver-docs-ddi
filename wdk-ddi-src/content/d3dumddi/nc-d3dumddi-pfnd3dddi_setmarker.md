@@ -6,7 +6,7 @@ description: Notifies the user-mode display driver that it must generate a new t
 old-location: display\pfnsetmarker.htm
 tech.root: display
 ms.assetid: 6D4DB988-D339-4B2F-A9B8-41B4FD21FE66
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETMARKER, PFND3DDDI_SETMARKER callback, d3dumddi/pfnSetMarker, display.pfnsetmarker, pfnSetMarker, pfnSetMarker callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h

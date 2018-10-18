@@ -6,7 +6,7 @@ description: The TRANSACTION_PROPERTIES_INFORMATION structure contains a transac
 old-location: kernel\transaction_properties_information.htm
 tech.root: kernel
 ms.assetid: 76b0f102-0d09-4b16-b8e1-727a3a6e48c9
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PTRANSACTION_PROPERTIES_INFORMATION, PTRANSACTION_PROPERTIES_INFORMATION, PTRANSACTION_PROPERTIES_INFORMATION structure pointer [Kernel-Mode Driver Architecture], TRANSACTION_PROPERTIES_INFORMATION, TRANSACTION_PROPERTIES_INFORMATION structure [Kernel-Mode Driver Architecture], _TRANSACTION_PROPERTIES_INFORMATION, kernel.transaction_properties_information, ktm_ref_bc17351c-f0ea-457e-968c-19785c0afd8d.xml, wdm/PTRANSACTION_PROPERTIES_INFORMATION, wdm/TRANSACTION_PROPERTIES_INFORMATION"
 ms.topic: struct
 req.header: wdm.h

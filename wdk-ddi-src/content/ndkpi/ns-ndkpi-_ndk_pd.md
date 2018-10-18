@@ -6,7 +6,7 @@ description: The NDK_PD structure specifies the attributes of an NDK protection 
 old-location: netvista\ndk_pd.htm
 tech.root: netvista
 ms.assetid: 77D3503A-8544-4E73-AD17-56F9C8603068
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_PD, NDK_PD structure [Network Drivers Starting with Windows Vista], PNDK_PD, PNDK_PD structure pointer [Network Drivers Starting with Windows Vista], _NDK_PD, ndkpi/NDK_PD, ndkpi/PNDK_PD, netvista.ndk_pd
 ms.topic: struct
 req.header: ndkpi.h

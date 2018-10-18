@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilsenduicctoolkitenvelopeparams.htm
 tech.root: netvista
 ms.assetid: df1ce4d6-e335-4ffa-8e37-85221eb57521
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILSENDUICCTOOLKITENVELOPEPARAMS, RILSENDUICCTOOLKITENVELOPEPARAMS, RILSENDUICCTOOLKITENVELOPEPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsenduicctoolkitenvelopeparams, ntddrilapitypes/RILSENDUICCTOOLKITENVELOPEPARAMS"
 ms.topic: struct
 req.header: ntddrilapitypes.h

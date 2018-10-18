@@ -6,7 +6,7 @@ description: Increases the size of an existing partition.
 old-location: storage\ioctl_disk_grow_partition.htm
 tech.root: storage
 ms.assetid: 984e9e7a-c135-4a6a-973d-b8597d9f8fed
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_DISK_GROW_PARTITION, IOCTL_DISK_GROW_PARTITION control, IOCTL_DISK_GROW_PARTITION control code [Storage Devices], k307_f3c07ac5-6895-46f9-85ad-7706661164a1.xml, ntdddisk/IOCTL_DISK_GROW_PARTITION, storage.ioctl_disk_grow_partition
 ms.topic: ioctl
 req.header: ntdddisk.h

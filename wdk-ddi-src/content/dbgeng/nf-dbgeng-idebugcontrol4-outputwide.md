@@ -6,7 +6,7 @@ description: The OutputWide method formats a string and send the result to outpu
 old-location: debugger\outputwide.htm
 tech.root: debugger
 ms.assetid: d89ed38b-f2ab-495f-b7e6-7f58b9adc958
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugControl4 interface [Windows Debugging],OutputWide method, IDebugControl4.OutputWide, IDebugControl4::OutputWide, OutputWide, OutputWide method [Windows Debugging], OutputWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::OutputWide, debugger.outputwide
 ms.topic: method
 req.header: dbgeng.h

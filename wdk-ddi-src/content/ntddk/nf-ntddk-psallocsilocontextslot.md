@@ -6,7 +6,7 @@ description: This routine allocates a slot that can be used to insert, retrieve,
 old-location: kernel\psallocsilocontextslot.htm
 tech.root: kernel
 ms.assetid: 835446D1-EB41-47BC-AA0F-54A9C029EFFE
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PsAllocSiloContextSlot, PsAllocSiloContextSlot routine [Kernel-Mode Driver Architecture], kernel.psallocsilocontextslot, ntddk/PsAllocSiloContextSlot
 ms.topic: function
 req.header: ntddk.h

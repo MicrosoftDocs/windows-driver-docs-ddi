@@ -6,7 +6,7 @@ description: The KeLowerIrql routine restores the IRQL on the current processor 
 old-location: kernel\kelowerirql.htm
 tech.root: kernel
 ms.assetid: 95598654-71dd-41cc-a663-b0bcaee77687
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeLowerIrql, KeLowerIrql routine [Kernel-Mode Driver Architecture], k105_06c56235-3b9e-4413-aadb-91e86898121d.xml, kernel.kelowerirql, wdm/KeLowerIrql
 ms.topic: function
 req.header: wdm.h

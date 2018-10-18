@@ -6,7 +6,7 @@ description: The ExInterlockedInsertHeadList routine atomically inserts an entry
 old-location: kernel\exinterlockedinsertheadlist.htm
 tech.root: kernel
 ms.assetid: 91640a96-abad-424e-b9bd-301dad2b6aac
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExInterlockedInsertHeadList, ExInterlockedInsertHeadList routine [Kernel-Mode Driver Architecture], k102_35e48cb9-2d0b-42df-aee0-b391b0ade424.xml, kernel.exinterlockedinsertheadlist, wdm/ExInterlockedInsertHeadList
 ms.topic: function
 req.header: wdm.h

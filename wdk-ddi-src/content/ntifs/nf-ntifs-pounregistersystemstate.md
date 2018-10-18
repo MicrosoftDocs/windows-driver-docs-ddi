@@ -6,7 +6,7 @@ description: The PoUnregisterSystemState routine cancels a system state registra
 old-location: kernel\pounregistersystemstate.htm
 tech.root: kernel
 ms.assetid: 5d82342e-c800-44ac-8618-468355d14dd0
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PoUnregisterSystemState, PoUnregisterSystemState routine [Kernel-Mode Driver Architecture], kernel.pounregistersystemstate, portn_b6118bd0-5fe1-4e75-8c17-e81d1f26814c.xml, wdm/PoUnregisterSystemState
 ms.topic: function
 req.header: ntifs.h

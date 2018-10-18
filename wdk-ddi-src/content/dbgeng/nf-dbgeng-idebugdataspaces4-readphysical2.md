@@ -6,7 +6,7 @@ description: The ReadPhysical2 method reads the target's memory from the specifi
 old-location: debugger\readphysical2.htm
 tech.root: debugger
 ms.assetid: ad376a6f-b8e3-40ba-9b00-df1410c1293c
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugDataSpaces4 interface [Windows Debugging],ReadPhysical2 method, IDebugDataSpaces4.ReadPhysical2, IDebugDataSpaces4::ReadPhysical2, IDebugDataSpaces_b7eb9d7f-98a3-4be4-a264-68d9ac1eaea7.xml, ReadPhysical2, ReadPhysical2 method [Windows Debugging], ReadPhysical2 method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::ReadPhysical2, debugger.readphysical2
 ms.topic: method
 req.header: dbgeng.h

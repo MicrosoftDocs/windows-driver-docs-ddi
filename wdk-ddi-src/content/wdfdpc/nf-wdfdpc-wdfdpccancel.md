@@ -6,7 +6,7 @@ description: The WdfDpcCancel method attempts to cancel the execution of a DPC o
 old-location: wdf\wdfdpccancel.htm
 tech.root: wdf
 ms.assetid: 6eb56c5b-d198-4542-a239-c54b49561196
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDpcObjectRef_4efcdae1-0c0a-4808-a1d8-640dea3555cb.xml, WdfDpcCancel, WdfDpcCancel method, kmdf.wdfdpccancel, wdf.wdfdpccancel, wdfdpc/WdfDpcCancel
 ms.topic: function
 req.header: wdfdpc.h

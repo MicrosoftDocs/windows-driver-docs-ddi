@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Sets private state data for a video processor from an application.
 old-location: display\videoprocessorsetoutputextension.htm
 ms.assetid: 040aa673-4b80-4e89-a58d-f298936537cd
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTEXTENSION, PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTEXTENSION callback, d3d10umddi/pfnVideoProcessorSetOutputExtension, display.videoprocessorsetoutputextension, pfnVideoProcessorSetOutputExtension, pfnVideoProcessorSetOutputExtension callback function [Display Devices]
 ms.topic: callback
 req.header: d3d10umddi.h

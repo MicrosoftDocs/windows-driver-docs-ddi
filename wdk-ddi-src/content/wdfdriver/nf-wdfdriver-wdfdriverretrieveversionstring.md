@@ -6,7 +6,7 @@ description: The WdfDriverRetrieveVersionString method retrieves a Unicode strin
 old-location: wdf\wdfdriverretrieveversionstring.htm
 tech.root: wdf
 ms.assetid: cbea7a3c-faae-4779-9a27-6c2b60f2b35c
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDriverObjectRef_42298067-6221-4d0c-af6b-8579f95d2047.xml, WdfDriverRetrieveVersionString, WdfDriverRetrieveVersionString method, kmdf.wdfdriverretrieveversionstring, wdf.wdfdriverretrieveversionstring, wdfdriver/WdfDriverRetrieveVersionString
 ms.topic: function
 req.header: wdfdriver.h

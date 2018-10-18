@@ -6,7 +6,7 @@ description: The PEP_UNREGISTER_DEVICE structure identifies a device whose regis
 old-location: kernel\pep_unregister_device.htm
 tech.root: kernel
 ms.assetid: B6A0F80C-8AE2-4FFE-A3EE-F0260A8774D6
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_UNREGISTER_DEVICE, PEP_UNREGISTER_DEVICE, PEP_UNREGISTER_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_UNREGISTER_DEVICE, PPEP_UNREGISTER_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_UNREGISTER_DEVICE, kernel.pep_unregister_device, pepfx/PEP_UNREGISTER_DEVICE, pepfx/PPEP_UNREGISTER_DEVICE"
 ms.topic: struct
 req.header: pep_x.h

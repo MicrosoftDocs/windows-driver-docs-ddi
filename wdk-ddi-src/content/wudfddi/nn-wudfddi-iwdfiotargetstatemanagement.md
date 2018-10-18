@@ -6,7 +6,7 @@ description: The IWDFIoTargetStateManagement interface exposes methods that mana
 old-location: wdf\iwdfiotargetstatemanagement.htm
 tech.root: wdf
 ms.assetid: 6870b6fa-1a90-4a7a-935a-4ce8eda940a1
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFIoTargetStateManagement, IWDFIoTargetStateManagement interface, IWDFIoTargetStateManagement interface,described, UMDFIoTargetObjectRef_667496e9-fa1f-4c90-911d-d456ffc3b59e.xml, umdf.iwdfiotargetstatemanagement, wdf.iwdfiotargetstatemanagement, wudfddi/IWDFIoTargetStateManagement
 ms.topic: interface
 req.header: wudfddi.h

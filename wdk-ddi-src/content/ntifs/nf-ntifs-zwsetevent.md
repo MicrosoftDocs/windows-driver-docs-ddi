@@ -6,7 +6,7 @@ description: The ZwSetEvent routine sets an event object to a Signaled state and
 old-location: kernel\zwsetevent.htm
 tech.root: kernel
 ms.assetid: f561fc3e-2233-4237-a88d-bd5a887a1e7a
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtSetEvent, ZwSetEvent, ZwSetEvent routine [Kernel-Mode Driver Architecture], k111_e01bbbbf-29f9-4c0a-89a2-84cf927aeb47.xml, kernel.zwsetevent, ntifs/NtSetEvent, ntifs/ZwSetEvent
 ms.topic: function
 req.header: ntifs.h

@@ -6,7 +6,7 @@ description: The ScsiPortWmiFireLogicalUnitEvent routine sends an event associat
 old-location: storage\scsiportwmifirelogicalunitevent.htm
 tech.root: storage
 ms.assetid: f8bfc6cb-78d4-482b-b08b-0d86631ce979
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ScsiPortWmiFireLogicalUnitEvent, ScsiPortWmiFireLogicalUnitEvent routine [Storage Devices], scsiprt_67f96e3c-cc69-44a7-b324-a247a9a928cc.xml, scsiwmi/ScsiPortWmiFireLogicalUnitEvent, storage.scsiportwmifirelogicalunitevent
 ms.topic: function
 req.header: scsiwmi.h

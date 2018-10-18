@@ -6,7 +6,7 @@ description: RxReference increments the NodeReferenceCount member of a structure
 old-location: ifsk\rxreference.htm
 tech.root: ifsk
 ms.assetid: 436cd161-6984-4101-931a-221a829f40d0
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxReference, RxReference function [Installable File System Drivers], ifsk.rxreference, rxprocs/RxReference, rxref_3c87a6aa-d0c8-4308-8152-fce322dcb035.xml
 ms.topic: function
 req.header: rxprocs.h

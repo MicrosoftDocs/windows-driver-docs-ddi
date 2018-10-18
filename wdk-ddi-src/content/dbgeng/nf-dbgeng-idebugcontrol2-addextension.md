@@ -6,7 +6,7 @@ description: The AddExtension method loads an extension library into the debugge
 old-location: debugger\addextension.htm
 tech.root: debugger
 ms.assetid: 67dbc01a-83ee-4c7c-921e-f0945fbcc2ef
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: AddExtension, AddExtension method [Windows Debugging], AddExtension method [Windows Debugging],IDebugControl interface, AddExtension method [Windows Debugging],IDebugControl2 interface, AddExtension method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],AddExtension method, IDebugControl2 interface [Windows Debugging],AddExtension method, IDebugControl2.AddExtension, IDebugControl2::AddExtension, IDebugControl3 interface [Windows Debugging],AddExtension method, IDebugControl3::AddExtension, IDebugControl::AddExtension, IDebugControl_9d85fcbb-1c02-4b5a-b9ab-c50b9b266d1d.xml, dbgeng/IDebugControl2::AddExtension, dbgeng/IDebugControl3::AddExtension, dbgeng/IDebugControl::AddExtension, debugger.addextension
 ms.topic: method
 req.header: dbgeng.h

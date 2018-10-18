@@ -6,7 +6,7 @@ description: The IoCompleteRequest routine indicates that the caller has complet
 old-location: kernel\iocompleterequest.htm
 tech.root: kernel
 ms.assetid: 59252b09-00ee-4a39-9849-5ce840ee16a7
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoCompleteRequest, IoCompleteRequest routine [Kernel-Mode Driver Architecture], k104_79ea2b93-3ce8-46eb-990b-ca3e56d3e3a8.xml, kernel.iocompleterequest, wdm/IoCompleteRequest
 ms.topic: macro
 req.header: wdm.h

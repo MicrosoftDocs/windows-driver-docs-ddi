@@ -6,7 +6,7 @@ description: NDIS calls the MiniportTcpOffloadSend function to transmit data on 
 old-location: netvista\miniporttcpoffloadsend.htm
 tech.root: netvista
 ms.assetid: 7c96412f-a866-4863-a06a-9eb6adb2a33b
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MiniportTcpOffloadSend, MiniportTcpOffloadSend callback function [Network Drivers Starting with Windows Vista], W_TCP_OFFLOAD_SEND_HANDLER, W_TCP_OFFLOAD_SEND_HANDLER callback, ndischimney/MiniportTcpOffloadSend, netvista.miniporttcpoffloadsend, tcp_chim_miniport_func_930a6efe-5c72-42cf-8afd-d8d35b2c33ed.xml
 ms.topic: callback
 req.header: ndischimney.h

@@ -6,7 +6,7 @@ description: The AddiSNSServer_IN structure holds the input data for the user-mo
 old-location: storage\addisnsserver_in.htm
 tech.root: storage
 ms.assetid: 5d05eeeb-ab68-4770-88c1-483c56dbc116
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PAddiSNSServer_IN, AddiSNSServer_IN, AddiSNSServer_IN structure [Storage Devices], PAddiSNSServer_IN, PAddiSNSServer_IN structure pointer [Storage Devices], _AddiSNSServer_IN, iscsiop/AddiSNSServer_IN, iscsiop/PAddiSNSServer_IN, storage.addisnsserver_in, structs-iSCSI_2c317c93-3fea-4749-98ef-fba28c0cc93f.xml"
 ms.topic: struct
 req.header: iscsiop.h

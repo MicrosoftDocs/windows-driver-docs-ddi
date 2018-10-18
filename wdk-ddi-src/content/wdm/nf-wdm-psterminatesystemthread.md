@@ -6,7 +6,7 @@ description: The PsTerminateSystemThread routine terminates the current system t
 old-location: kernel\psterminatesystemthread.htm
 tech.root: kernel
 ms.assetid: 04f9f699-0ca1-4b22-b66f-04fcf53935c4
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PsTerminateSystemThread, PsTerminateSystemThread routine [Kernel-Mode Driver Architecture], k108_a8e19a60-578c-42a6-b77a-cf6c4098c815.xml, kernel.psterminatesystemthread, wdm/PsTerminateSystemThread
 ms.topic: function
 req.header: wdm.h

@@ -6,7 +6,7 @@ description: The KeSetCoalescableTimer routine sets the initial expiration time 
 old-location: kernel\kesetcoalescabletimer.htm
 tech.root: kernel
 ms.assetid: e053c120-8c43-4714-acf1-0648958eabb8
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeSetCoalescableTimer, KeSetCoalescableTimer routine [Kernel-Mode Driver Architecture], k105_3e45ae54-682d-47f6-a577-28277cee4829.xml, kernel.kesetcoalescabletimer, wdm/KeSetCoalescableTimer
 ms.topic: function
 req.header: wdm.h

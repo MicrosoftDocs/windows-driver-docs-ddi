@@ -6,7 +6,7 @@ description: The parameters to create a band on a storage device for an IOCTL_EH
 old-location: storage\create_band_parameters.htm
 tech.root: storage
 ms.assetid: DFDD92F8-95B7-40F7-950C-A105F035B2E9
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PCREATE_BAND_PARAMETERS, CREATEBAND_AUTHKEY_CACHING_ENABLED, CREATE_BAND_PARAMETERS, CREATE_BAND_PARAMETERS structure [Storage Devices], PCREATE_BAND_PARAMETERS, PCREATE_BAND_PARAMETERS structure pointer [Storage Devices], _CREATE_BAND_PARAMETERS, ehstorbandmgmt/CREATE_BAND_PARAMETERS, ehstorbandmgmt/PCREATE_BAND_PARAMETERS, storage.create_band_parameters"
 ms.topic: struct
 req.header: ehstorbandmgmt.h

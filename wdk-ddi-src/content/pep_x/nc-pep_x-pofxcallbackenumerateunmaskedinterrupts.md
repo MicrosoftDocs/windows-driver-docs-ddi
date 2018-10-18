@@ -6,7 +6,7 @@ description: The EnumerateUnmaskedInterrupts routine enumerates interrupt source
 old-location: kernel\enumerateunmaskedinterrupts.htm
 tech.root: kernel
 ms.assetid: 8B3E8FE0-9A96-43CD-8C6D-28F302BDF2D7
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: EnumerateUnmaskedInterrupts, EnumerateUnmaskedInterrupts routine [Kernel-Mode Driver Architecture], EnumerateUnmaskedInterruptsext, POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS, kernel.enumerateunmaskedinterrupts, pepfx/EnumerateUnmaskedInterrupts
 ms.topic: callback
 req.header: pep_x.h

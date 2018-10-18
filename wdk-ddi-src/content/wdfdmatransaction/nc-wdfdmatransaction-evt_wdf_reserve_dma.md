@@ -6,7 +6,7 @@ description: The EvtReserveDma event callback function is called when the framew
 old-location: wdf\evtreservedma.htm
 tech.root: wdf
 ms.assetid: 3663EF19-5F16-43D1-BFBC-28280E28D4DE
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: EVT_WDF_RESERVE_DMA, EVT_WDF_RESERVE_DMA callback, EvtReserveDma, EvtReserveDma callback function, kmdf.evtreservedma, wdf.evtreservedma, wdfdmatransaction/EvtReserveDma
 ms.topic: callback
 req.header: wdfdmatransaction.h

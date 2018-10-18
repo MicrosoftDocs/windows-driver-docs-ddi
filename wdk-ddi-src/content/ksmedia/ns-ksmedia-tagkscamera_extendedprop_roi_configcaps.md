@@ -6,7 +6,7 @@ description: This structure contains the capabilities for an ROI control.
 old-location: stream\kscamera_extendedprop_roi_configcaps.htm
 tech.root: stream
 ms.assetid: BAC5B134-22F5-4BC9-BBD6-6AF3C934510B
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, PKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, stream.kscamera_extendedprop_roi_configcaps, tagKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS"
 ms.topic: struct
 req.header: ksmedia.h

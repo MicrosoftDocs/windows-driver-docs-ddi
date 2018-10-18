@@ -6,7 +6,7 @@ description: The SerCx2CustomTransmitTransactionInitializeComplete method inform
 old-location: serports\sercx2customtransmittransactioninitializecomplete.htm
 tech.root: serports
 ms.assetid: 5C2BF433-11C0-425A-B14A-7A0275F7DF51
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SerCx2CustomTransmitTransactionInitializeComplete, SerCx2CustomTransmitTransactionInitializeComplete, SerCx2CustomTransmitTransactionInitializeComplete method [Serial Ports], serports.sercx2customtransmittransactioninitializecomplete
 ms.topic: function
 req.header: sercx.h

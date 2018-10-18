@@ -6,7 +6,7 @@ description: A miniport driver must provide a MiniportSynchronizeInterrupt handl
 old-location: netvista\miniportsynchronizeinterrupt.htm
 tech.root: netvista
 ms.assetid: aac1ff91-76aa-46a0-8e8a-85b9f8c3323c
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "(*MINIPORT_SYNCHRONIZE_INTERRUPT_HANDLER), (*MINIPORT_SYNCHRONIZE_INTERRUPT_HANDLER) callback function [Network Drivers Starting with Windows Vista], MINIPORT_SYNCHRONIZE_INTERRUPT, MINIPORT_SYNCHRONIZE_INTERRUPT callback, MiniportSynchronizeInterrupt, MiniportSynchronizeInterrupt callback function [Network Drivers Starting with Windows Vista], ndis/MiniportSynchronizeInterrupt, ndis_interrupts_miniport_functions_ref_68ebc08d-67f9-42d8-9ade-669dc35a4242.xml, netvista.miniportsynchronizeinterrupt"
 ms.topic: callback
 req.header: ndis.h

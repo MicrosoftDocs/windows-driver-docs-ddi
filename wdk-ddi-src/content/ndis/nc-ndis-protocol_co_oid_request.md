@@ -6,7 +6,7 @@ description: The ProtocolCoOidRequest function handles OID requests that CoNDIS 
 old-location: netvista\protocolcooidrequest.htm
 tech.root: netvista
 ms.assetid: 8247396f-8781-45da-aba1-a31a2a26a46f
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CO_OID_REQUEST, PROTOCOL_CO_OID_REQUEST callback, ProtocolCoOidRequest, ProtocolCoOidRequest callback function [Network Drivers Starting with Windows Vista], condis_request_ref_b02b012f-58cc-4dd6-be48-6e1cc4f00b24.xml, ndis/ProtocolCoOidRequest, netvista.protocolcooidrequest
 ms.topic: callback
 req.header: ndis.h

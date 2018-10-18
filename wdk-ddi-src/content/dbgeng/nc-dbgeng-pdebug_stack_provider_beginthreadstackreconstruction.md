@@ -6,7 +6,7 @@ description: The BeginThreadStackReconstruction callback function causes debugge
 old-location: debugger\beginthreadstackreconstruction.htm
 tech.root: debugger
 ms.assetid: 50CBBBED-EF1B-485F-90D3-0056AF8984E7
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: BeginThreadStackReconstruction, BeginThreadStackReconstruction callback function [Windows Debugging], PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION, PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION callback, dbgeng/BeginThreadStackReconstruction, debugger.beginthreadstackreconstruction
 ms.topic: callback
 req.header: dbgeng.h

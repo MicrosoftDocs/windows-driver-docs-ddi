@@ -6,7 +6,7 @@ description: The RtlMoveMemory routine copies the contents of a source memory bl
 old-location: kernel\rtlmovememory.htm
 tech.root: kernel
 ms.assetid: f6727247-e704-42d7-b4f1-ce7d20e317bb
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlMoveMemory, RtlMoveMemory routine [Kernel-Mode Driver Architecture], k109_5731ba5b-a7a5-4883-87cf-543768a29a93.xml, kernel.rtlmovememory, wdm/RtlMoveMemory
 ms.topic: macro
 req.header: wdm.h

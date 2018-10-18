@@ -6,7 +6,7 @@ description: RxAssociateContextWithMid associates the supplied opaque context wi
 old-location: ifsk\rxassociatecontextwithmid.htm
 tech.root: ifsk
 ms.assetid: b2ced4fb-5104-4bf3-8c6c-bf129e3dff97
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxAssociateContextWithMid, RxAssociateContextWithMid function [Installable File System Drivers], ifsk.rxassociatecontextwithmid, midatlax/RxAssociateContextWithMid, rxref_fdf65b83-9924-4463-bf63-ca28d11f3090.xml
 ms.topic: function
 req.header: midatlax.h

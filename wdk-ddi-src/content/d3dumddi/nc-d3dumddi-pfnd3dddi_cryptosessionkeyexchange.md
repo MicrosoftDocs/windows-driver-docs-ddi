@@ -6,7 +6,7 @@ description: The CryptoSessionKeyExchange function negotiates a session key.
 old-location: display\cryptosessionkeyexchange.htm
 tech.root: display
 ms.assetid: f8055bb3-b8f1-47f5-9ae0-8e7a26989871
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CryptoSessionKeyExchange, CryptoSessionKeyExchange callback function [Display Devices], PFND3DDDI_CRYPTOSESSIONKEYEXCHANGE, PFND3DDDI_CRYPTOSESSIONKEYEXCHANGE callback, UserModeDisplayDriver_Functions_36eab785-562d-4f2d-bcf2-2da53708f98d.xml, d3dumddi/CryptoSessionKeyExchange, display.cryptosessionkeyexchange
 ms.topic: callback
 req.header: d3dumddi.h

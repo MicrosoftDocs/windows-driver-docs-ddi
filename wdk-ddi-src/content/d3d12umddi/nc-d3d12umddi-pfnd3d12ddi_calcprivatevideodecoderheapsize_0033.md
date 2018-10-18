@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Used to calculate the size of a video decoder heap.
 old-location: display\pfnd3d12ddi_calcprivatevideodecoderheapsize_0033.htm
 ms.assetid: 4E635513-690F-4C23-8B2B-1B5FCAFE7F07
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0033, PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0033 entry, PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0033 entry point [Display Devices], d3d12umddi/PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0033, display.pfnd3d12ddi_calcprivatevideodecoderheapsize_0033
 ms.topic: callback
 req.header: d3d12umddi.h

@@ -6,7 +6,7 @@ description: The WdfIoResourceListUpdateDescriptor method updates a resource des
 old-location: wdf\wdfioresourcelistupdatedescriptor.htm
 tech.root: wdf
 ms.assetid: a571c054-380d-4d56-9094-d55868222b33
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFResourceObjectRef_e9c68945-23e3-47f1-99b1-a0c62944669f.xml, WdfIoResourceListUpdateDescriptor, WdfIoResourceListUpdateDescriptor method, kmdf.wdfioresourcelistupdatedescriptor, wdf.wdfioresourcelistupdatedescriptor, wdfresource/WdfIoResourceListUpdateDescriptor
 ms.topic: function
 req.header: wdfresource.h

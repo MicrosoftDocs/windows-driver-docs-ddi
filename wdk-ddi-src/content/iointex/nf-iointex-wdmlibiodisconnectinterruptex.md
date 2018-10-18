@@ -6,7 +6,7 @@ description: The WdmlibIoDisconnectInterruptEx function unregisters an interrupt
 old-location: kernel\wdmlibiodisconnectinterruptex.htm
 tech.root: kernel
 ms.assetid: B6F8663C-3A13-45DA-80FE-CC8B9194D083
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoDisconnectInterruptEx, WdmlibIoDisconnectInterruptEx, WdmlibIoDisconnectInterruptEx function [Kernel-Mode Driver Architecture], iointex/IoDisconnectInterruptEx, iointex/WdmlibIoDisconnectInterruptEx, kernel.wdmlibiodisconnectinterruptex
 ms.topic: function
 req.header: iointex.h

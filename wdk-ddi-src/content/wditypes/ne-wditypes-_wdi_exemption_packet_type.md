@@ -6,7 +6,7 @@ description: The WDI_EXEMPTION_PACKET_TYPE enumeration defines the types of pack
 old-location: netvista\wdi_exemption_packet_type.htm
 tech.root: netvista
 ms.assetid: 7F584EBE-9ACB-4AC7-9472-34322F24EF74
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: WDI_EXEMPTION_PACKET_TYPE, WDI_EXEMPTION_PACKET_TYPE enumeration [Device and Driver Installation], WDI_EXEMPT_PACKET_TYPE_BOTH, WDI_EXEMPT_PACKET_TYPE_MULTICAST, WDI_EXEMPT_PACKET_TYPE_UNICAST, _WDI_EXEMPTION_PACKET_TYPE, netvista.wdi_exemption_packet_type, netvista.wifi_exemption_packet_type, wditypes/WDI_EXEMPTION_PACKET_TYPE, wditypes/WDI_EXEMPT_PACKET_TYPE_BOTH, wditypes/WDI_EXEMPT_PACKET_TYPE_MULTICAST, wditypes/WDI_EXEMPT_PACKET_TYPE_UNICAST
 ms.topic: enum
 req.header: wditypes.hpp

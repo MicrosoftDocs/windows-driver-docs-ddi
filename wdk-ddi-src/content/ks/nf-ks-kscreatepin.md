@@ -6,7 +6,7 @@ description: The KsCreatePin function passes a connection request to a device, c
 old-location: stream\kscreatepin.htm
 tech.root: stream
 ms.assetid: 0dae335a-bcc1-4f6a-8926-e2ecc4112dc5
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsCreatePin, KsCreatePin function [Streaming Media Devices], ks/KsCreatePin, ksfunc_f49fab36-1309-4eec-addb-4eba94583692.xml, stream.kscreatepin
 ms.topic: function
 req.header: ks.h

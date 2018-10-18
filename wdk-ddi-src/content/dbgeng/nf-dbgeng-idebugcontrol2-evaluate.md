@@ -6,7 +6,7 @@ description: The Evaluate method evaluates an expression, returning the result.
 old-location: debugger\evaluate.htm
 tech.root: debugger
 ms.assetid: 67b17847-6ab3-4712-9ffc-94f8016e3c34
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: Evaluate, Evaluate method [Windows Debugging], Evaluate method [Windows Debugging],IDebugControl interface, Evaluate method [Windows Debugging],IDebugControl2 interface, Evaluate method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],Evaluate method, IDebugControl2 interface [Windows Debugging],Evaluate method, IDebugControl2.Evaluate, IDebugControl2::Evaluate, IDebugControl3 interface [Windows Debugging],Evaluate method, IDebugControl3::Evaluate, IDebugControl::Evaluate, IDebugControl_c985be86-1f8b-4b54-ae35-a7dec5980cec.xml, dbgeng/IDebugControl2::Evaluate, dbgeng/IDebugControl3::Evaluate, dbgeng/IDebugControl::Evaluate, debugger.evaluate
 ms.topic: method
 req.header: dbgeng.h

@@ -6,7 +6,7 @@ description: Used to initialize a state change.
 old-location: sensors\sensorscxstatechange.htm
 tech.root: sensors
 ms.assetid: E6897994-51C7-4278-9CCE-9B7E9DD408D7
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: SensorsCxStateChange, SensorsCxStateChange function [Sensor Devices], sensors.sensorscxstatechange, sensorscx/SensorsCxStateChange
 ms.topic: function
 req.header: sensorscx.h

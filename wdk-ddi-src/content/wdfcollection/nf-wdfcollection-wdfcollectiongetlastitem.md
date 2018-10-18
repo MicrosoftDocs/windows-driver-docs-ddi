@@ -6,7 +6,7 @@ description: The WdfCollectionGetLastItem method returns a handle to the last ob
 old-location: wdf\wdfcollectiongetlastitem.htm
 tech.root: wdf
 ms.assetid: f90732ab-3756-46e2-8a15-e94ff82b3548
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFCollectionObjectRef_1c6d4bbf-6d37-4b27-8421-df1ce61888ef.xml, WdfCollectionGetLastItem, WdfCollectionGetLastItem method, kmdf.wdfcollectiongetlastitem, wdf.wdfcollectiongetlastitem, wdfcollection/WdfCollectionGetLastItem
 ms.topic: function
 req.header: wdfcollection.h

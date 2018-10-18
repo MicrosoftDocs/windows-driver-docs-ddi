@@ -6,7 +6,7 @@ description: The InsertHeadList routine inserts an entry at the head of a doubly
 old-location: kernel\insertheadlist.htm
 tech.root: kernel
 ms.assetid: c3ad9d93-93e1-406b-9a58-26dcbf428b50
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: InsertHeadList, InsertHeadList routine [Kernel-Mode Driver Architecture], k109_dde56187-8543-45cc-97fd-3fde2475e428.xml, kernel.insertheadlist, wdm/InsertHeadList
 ms.topic: function
 req.header: wdm.h

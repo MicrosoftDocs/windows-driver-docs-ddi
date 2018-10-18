@@ -6,7 +6,7 @@ description: To obtain the IWDFIoRequest2 interface, drivers call IWDFIoRequest:
 old-location: wdf\iwdfiorequest2.htm
 tech.root: wdf
 ms.assetid: 6a6285c9-8366-4487-a1c5-38aa24d172a9
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFIoRequest2, IWDFIoRequest2 interface, IWDFIoRequest2 interface,described, UMDFRequestObjectRef_0aa42362-60ac-4be7-8101-6395a709f420.xml, umdf.iwdfiorequest2, wdf.iwdfiorequest2, wudfddi/IWDFIoRequest2
 ms.topic: interface
 req.header: wudfddi.h

@@ -6,7 +6,7 @@ description: The RtlRunOnceBeginInitialize routine begins a one-time initializat
 old-location: kernel\rtlrunoncebegininitialize.htm
 tech.root: kernel
 ms.assetid: ed96b2ec-95ea-47a6-a3b0-f4d018e0c8e2
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlRunOnceBeginInitialize, RtlRunOnceBeginInitialize routine [Kernel-Mode Driver Architecture], k109_f7299ad8-4567-4ad8-a13c-2329a12af6ea.xml, kernel.rtlrunoncebegininitialize, ntddk/RtlRunOnceBeginInitialize
 ms.topic: function
 req.header: ntddk.h

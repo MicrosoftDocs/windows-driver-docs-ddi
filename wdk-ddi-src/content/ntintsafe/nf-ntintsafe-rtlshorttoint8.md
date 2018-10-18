@@ -6,7 +6,7 @@ description: Converts a value of type SHORT to a value of type INT8.
 old-location: kernel\rtlshorttoint8.htm
 tech.root: kernel
 ms.assetid: 644559BB-9842-4261-9A9C-720185E6E9F4
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlShortToInt8, RtlShortToInt8 function [Kernel-Mode Driver Architecture], kernel.rtlshorttoint8, ntintsafe/RtlShortToInt8
 ms.topic: function
 req.header: ntintsafe.h

@@ -6,7 +6,7 @@ description: The SetPropertyData method modifies the current setting of a device
 old-location: wdf\iwdfunifiedpropertystore_setpropertydata.htm
 tech.root: wdf
 ms.assetid: 07A79E40-6C49-4AF8-90B8-26652C46B6F1
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFUnifiedPropertyStore interface,SetPropertyData method, IWDFUnifiedPropertyStore.SetPropertyData, IWDFUnifiedPropertyStore::SetPropertyData, SetPropertyData, SetPropertyData method, SetPropertyData method,IWDFUnifiedPropertyStore interface, umdf.iwdfunifiedpropertystore_setpropertydata, wdf.iwdfunifiedpropertystore_setpropertydata, wudfddi/IWDFUnifiedPropertyStore::SetPropertyData
 ms.topic: method
 req.header: wudfddi.h

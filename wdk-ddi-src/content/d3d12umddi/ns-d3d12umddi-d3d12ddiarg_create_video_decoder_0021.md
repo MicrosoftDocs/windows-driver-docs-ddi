@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Used to create a decoder object for a decode session.
 old-location: display\d3d12ddiarg_create_video_decoder.htm
 ms.assetid: 8178A279-96FE-40DC-A292-4551FA153F45
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D12DDIARG_CREATE_VIDEO_DECODER_0021, D3D12DDIARG_CREATE_VIDEO_DECODER_0021 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATE_VIDEO_DECODER_0021, display.d3d12ddiarg_create_video_decoder
 ms.topic: struct
 req.header: d3d12umddi.h

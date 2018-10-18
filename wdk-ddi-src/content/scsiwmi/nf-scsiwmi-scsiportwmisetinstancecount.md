@@ -6,7 +6,7 @@ description: The ScsiPortWmiSetInstanceCount specifies the number of instances f
 old-location: storage\scsiportwmisetinstancecount.htm
 tech.root: storage
 ms.assetid: 0de2c766-cd3c-46ff-bb78-f1e4c37af2c0
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ScsiPortWmiSetInstanceCount, ScsiPortWmiSetInstanceCount function [Storage Devices], scsiprt_9451dca5-cc2f-43fa-91c6-3c22f6377a13.xml, scsiwmi/ScsiPortWmiSetInstanceCount, storage.scsiportwmisetinstancecount
 ms.topic: function
 req.header: scsiwmi.h

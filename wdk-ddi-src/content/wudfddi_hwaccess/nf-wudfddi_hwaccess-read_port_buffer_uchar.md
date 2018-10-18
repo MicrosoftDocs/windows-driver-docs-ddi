@@ -6,7 +6,7 @@ description: The READ_PORT_BUFFER_UCHAR function reads a number of bytes from th
 old-location: wdf\read_port_buffer_uchar.htm
 tech.root: wdf
 ms.assetid: CDA0A86B-94E7-4825-9826-0E12ECF42B57
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: READ_PORT_BUFFER_UCHAR, READ_PORT_BUFFER_UCHAR function, umdf.read_port_buffer_uchar, wdf.read_port_buffer_uchar, wudfddi_hwaccess/READ_PORT_BUFFER_UCHAR
 ms.topic: function
 req.header: wudfddi_hwaccess.h

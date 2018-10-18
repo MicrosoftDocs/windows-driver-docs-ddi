@@ -6,7 +6,7 @@ description: The WdfInterruptGetInfo method retrieves information about a specif
 old-location: wdf\wdfinterruptgetinfo.htm
 tech.root: wdf
 ms.assetid: 11f086af-bda7-4dab-8c4b-0db2e89588d1
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFInterruptObjectRef_eb163aa0-1ba3-491d-b215-85c8773dcfc9.xml, WdfInterruptGetInfo, WdfInterruptGetInfo method, kmdf.wdfinterruptgetinfo, wdf.wdfinterruptgetinfo, wdfinterrupt/WdfInterruptGetInfo
 ms.topic: function
 req.header: wdfinterrupt.h

@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_setexecutorconfig.htm
 tech.root: netvista
 ms.assetid: 528f5bfb-a84d-48e5-a74d-8f7bcee6d4cb
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_SetExecutorConfig, RIL_SetExecutorConfig method [Network Drivers Starting with Windows Vista], netvista.ril_setexecutorconfig, rilapi/RIL_SetExecutorConfig
 ms.topic: function
 req.header: rilapi.h

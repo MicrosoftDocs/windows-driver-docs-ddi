@@ -6,7 +6,7 @@ description: NdisCmDispatchIncomingDropParty notifies a client that it should re
 old-location: netvista\ndiscmdispatchincomingdropparty.htm
 tech.root: netvista
 ms.assetid: 9dce2b0a-1d0c-4c87-a32f-8bf72bb91cfe
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisCmDispatchIncomingDropParty, NdisCmDispatchIncomingDropParty function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_6f7730c4-030a-45a6-b873-833bf8033ce7.xml, ndis/NdisCmDispatchIncomingDropParty, netvista.ndiscmdispatchincomingdropparty
 ms.topic: function
 req.header: ndis.h

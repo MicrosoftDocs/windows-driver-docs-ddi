@@ -6,7 +6,7 @@ description: Obsolete.
 old-location: ifsk\fsrtladdmcbentry.htm
 tech.root: ifsk
 ms.assetid: 4bf256b9-c0a0-4280-a283-9a2ab3c2b8cb
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlAddMcbEntry, FsRtlAddMcbEntry function [Installable File System Drivers], fsrtlref_73de29f7-837c-40a4-b224-ab7266794840.xml, ifsk.fsrtladdmcbentry, ntifs/FsRtlAddMcbEntry
 ms.topic: function
 req.header: ntifs.h

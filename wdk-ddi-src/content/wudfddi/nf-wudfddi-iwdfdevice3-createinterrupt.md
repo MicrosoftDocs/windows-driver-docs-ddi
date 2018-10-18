@@ -6,7 +6,7 @@ description: The CreateInterrupt method creates a framework interrupt object.
 old-location: wdf\iwdfdevice3_createinterrupt.htm
 tech.root: wdf
 ms.assetid: EE68BED8-5FDC-4590-8E95-B228F1DFD32D
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: CreateInterrupt, CreateInterrupt method, CreateInterrupt method,IWDFDevice3 interface, IWDFDevice3 interface,CreateInterrupt method, IWDFDevice3.CreateInterrupt, IWDFDevice3::CreateInterrupt, umdf.iwdfdevice3_createinterrupt, wdf.iwdfdevice3_createinterrupt, wudfddi/IWDFDevice3::CreateInterrupt
 ms.topic: method
 req.header: wudfddi.h

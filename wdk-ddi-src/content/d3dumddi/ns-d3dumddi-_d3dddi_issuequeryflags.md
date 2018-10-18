@@ -6,7 +6,7 @@ description: The D3DDDI_ISSUEQUERYFLAGS structure identifies the state of a quer
 old-location: display\d3dddi_issuequeryflags.htm
 tech.root: display
 ms.assetid: 68360c2e-4b03-40a3-a313-bdb9ef26a298
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDI_ISSUEQUERYFLAGS, D3DDDI_ISSUEQUERYFLAGS structure [Display Devices], D3D_other_Structs_794dd0b0-f24c-4e9e-befe-d79dd4efbaef.xml, _D3DDDI_ISSUEQUERYFLAGS, d3dumddi/D3DDDI_ISSUEQUERYFLAGS, display.d3dddi_issuequeryflags
 ms.topic: struct
 req.header: d3dumddi.h

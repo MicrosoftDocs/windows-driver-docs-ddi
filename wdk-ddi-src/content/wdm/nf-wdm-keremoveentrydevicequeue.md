@@ -6,7 +6,7 @@ description: The KeRemoveEntryDeviceQueue routine returns whether the specified 
 old-location: kernel\keremoveentrydevicequeue.htm
 tech.root: kernel
 ms.assetid: 2dc32517-3730-4a1c-a59a-f5036d6f54ef
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeRemoveEntryDeviceQueue, KeRemoveEntryDeviceQueue routine [Kernel-Mode Driver Architecture], k105_351b5540-c341-46d1-b2da-1ea88f78b7b2.xml, kernel.keremoveentrydevicequeue, wdm/KeRemoveEntryDeviceQueue
 ms.topic: function
 req.header: wdm.h

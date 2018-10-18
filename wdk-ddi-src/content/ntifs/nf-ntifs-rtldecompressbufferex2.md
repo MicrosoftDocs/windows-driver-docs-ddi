@@ -6,7 +6,7 @@ description: The RtlDecompressBufferEx2 function decompresses an entire compress
 old-location: ifsk\rtldecompressbufferex2.htm
 tech.root: ifsk
 ms.assetid: 8AE36F8C-F7FA-4291-A244-3664CCBB8073
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: COMPRESSION_FORMAT_DEFAULT, COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_NONE, COMPRESSION_FORMAT_XPRESS, COMPRESSION_FORMAT_XPRESS_HUFF, RtlDecompressBufferEx2, RtlDecompressBufferEx2 function [Installable File System Drivers], ifsk.rtldecompressbufferex2, ntifs/RtlDecompressBufferEx2
 ms.topic: function
 req.header: ntifs.h

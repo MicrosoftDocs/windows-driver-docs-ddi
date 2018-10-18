@@ -6,7 +6,7 @@ description: Converts a value of type USHORT to a value of type UCHAR.
 old-location: kernel\rtlushorttouchar.htm
 tech.root: kernel
 ms.assetid: E288541F-9FE4-4CF6-A576-21620A828C5C
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUShortToUChar, RtlUShortToUChar function [Kernel-Mode Driver Architecture], kernel.rtlushorttouchar, ntintsafe/RtlUShortToUChar
 ms.topic: function
 req.header: ntintsafe.h

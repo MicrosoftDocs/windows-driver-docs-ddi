@@ -6,7 +6,7 @@ description: A driver is notified when an I/O request that the driver is current
 old-location: wdf\irequestcallbackcancel.htm
 tech.root: wdf
 ms.assetid: d6aec38c-6cbb-494c-9fa4-10b6f4a30ae0
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IRequestCallbackCancel, IRequestCallbackCancel interface, IRequestCallbackCancel interface,described, UMDFRequestObjectRef_6f54b76d-812d-437c-8c02-7d9e3e177b90.xml, umdf.irequestcallbackcancel, wdf.irequestcallbackcancel, wudfddi/IRequestCallbackCancel
 ms.topic: interface
 req.header: wudfddi.h

@@ -6,7 +6,7 @@ description: The NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS structure specifies
 old-location: netvista\ndis_sriov_write_vf_config_block_parameters.htm
 tech.root: netvista
 ms.assetid: bcf20a21-46a8-41e6-ae6e-bef8d6735c82
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, netvista.ndis_sriov_write_vf_config_block_parameters, ntddndis/NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, ntddndis/PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS"
 ms.topic: struct
 req.header: ntddndis.h

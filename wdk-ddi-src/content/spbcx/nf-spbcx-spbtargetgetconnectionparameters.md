@@ -6,7 +6,7 @@ description: The SpbTargetGetConnectionParameters method retrieves the connectio
 old-location: spb\spbtargetgetconnectionparameters.htm
 tech.root: SPB
 ms.assetid: 0692D8A3-CA43-4D27-9E8E-EB104DB1651F
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: SPB.spbtargetgetconnectionparameters, SpbTargetGetConnectionParameters, SpbTargetGetConnectionParameters method [Buses], spbcx/SpbTargetGetConnectionParameters
 ms.topic: function
 req.header: spbcx.h

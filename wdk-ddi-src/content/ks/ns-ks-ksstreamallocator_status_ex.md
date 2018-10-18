@@ -6,7 +6,7 @@ description: Client use KSSTREAMALLOCATOR_STATUS_EX to query the status for allo
 old-location: stream\ksstreamallocator_status_ex.htm
 tech.root: stream
 ms.assetid: b0477c52-d9e6-47cd-b94c-b9da2c4e07a6
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSSTREAMALLOCATOR_STATUS_EX, KSSTREAMALLOCATOR_STATUS_EX, KSSTREAMALLOCATOR_STATUS_EX structure [Streaming Media Devices], PKSSTREAMALLOCATOR_STATUS_EX, PKSSTREAMALLOCATOR_STATUS_EX structure pointer [Streaming Media Devices], ks-struct_e62b6482-11b5-48be-9263-719809e9e79d.xml, ks/KSSTREAMALLOCATOR_STATUS_EX, ks/PKSSTREAMALLOCATOR_STATUS_EX, stream.ksstreamallocator_status_ex"
 ms.topic: struct
 req.header: ks.h

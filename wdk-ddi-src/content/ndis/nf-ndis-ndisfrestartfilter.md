@@ -6,7 +6,7 @@ description: A filter driver calls the NdisFRestartFilter function to request ND
 old-location: netvista\ndisfrestartfilter.htm
 tech.root: netvista
 ms.assetid: 8b0fc032-3ec0-4e18-a5f5-6409db8ae42d
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisFRestartFilter, NdisFRestartFilter function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_c95250d0-3081-40cc-a39f-0d5c1ce51925.xml, ndis/NdisFRestartFilter, netvista.ndisfrestartfilter
 ms.topic: function
 req.header: ndis.h

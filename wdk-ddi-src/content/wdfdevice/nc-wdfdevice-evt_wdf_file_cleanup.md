@@ -6,7 +6,7 @@ description: A driver's EvtFileCleanup callback function handles operations that
 old-location: wdf\evtfilecleanup.htm
 tech.root: wdf
 ms.assetid: 8ce3d316-3976-4af5-a0ae-af4e93f380a1
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_e784bb8d-f1f3-48ac-94c5-d88f2517efd1.xml, EVT_WDF_FILE_CLEANUP, EVT_WDF_FILE_CLEANUP callback, EvtFileCleanup, EvtFileCleanup callback function, kmdf.evtfilecleanup, wdf.evtfilecleanup, wdfdevice/EvtFileCleanup
 ms.topic: callback
 req.header: wdfdevice.h

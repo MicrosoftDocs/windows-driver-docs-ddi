@@ -6,7 +6,7 @@ description: The KsGenerateEvents function generates events of an indicated type
 old-location: stream\ksgenerateevents.htm
 tech.root: stream
 ms.assetid: 3c96012f-8307-417c-be8f-bb466c576669
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsGenerateEvents, KsGenerateEvents function [Streaming Media Devices], avfunc_47306d1b-67f9-4ea6-81bb-3b76b848667a.xml, ks/KsGenerateEvents, stream.ksgenerateevents
 ms.topic: function
 req.header: ks.h

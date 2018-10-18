@@ -6,7 +6,7 @@ description: The HwMSInterruptRoutine routine handles a message signaled interru
 old-location: storage\hwmsinterruptroutine.htm
 tech.root: storage
 ms.assetid: d8e90489-c847-48e7-89c4-f7a397a8de14
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE, HwMSInterruptRoutine, HwMSInterruptRoutine routine [Storage Devices], storage.hwmsinterruptroutine, stormini_153bf378-505e-413b-90b2-24af3fd9d502.xml, storport/HwMSInterruptRoutine
 ms.topic: callback
 req.header: storport.h

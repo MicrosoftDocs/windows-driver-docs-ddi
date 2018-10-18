@@ -6,7 +6,7 @@ description: The HBA_OpenAdapterByWWN routine opens the HBA that is associated w
 old-location: storage\hba_openadapterbywwn.htm
 tech.root: storage
 ms.assetid: 62492c9b-ace0-48be-ae8b-bb681dbca8b7
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_OpenAdapterByWWN, HBA_OpenAdapterByWWN routine [Storage Devices], fibreHBA_rtns_60fafeb4-de69-40e4-8942-907fe14fe8a4.xml, hbaapi/HBA_OpenAdapterByWWN, storage.hba_openadapterbywwn
 ms.topic: function
 req.header: hbaapi.h

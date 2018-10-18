@@ -6,7 +6,7 @@ description: The KeConvertPerformanceCounterToAuxiliaryCounter routine converts 
 old-location: kernel\keconvertperformancecountertoauxiliarycounter.htm
 tech.root: kernel
 ms.assetid: 69F7C73E-C609-4080-8CB8-2F4D9A8C695B
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeConvertPerformanceCounterToAuxiliaryCounter, KeConvertPerformanceCounterToAuxiliaryCounter routine [Kernel-Mode Driver Architecture], kernel.keconvertperformancecountertoauxiliarycounter, wdm/KeConvertPerformanceCounterToAuxiliaryCounter
 ms.topic: function
 req.header: wdm.h

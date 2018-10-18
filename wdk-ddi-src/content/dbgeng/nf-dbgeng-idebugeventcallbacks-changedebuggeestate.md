@@ -6,7 +6,7 @@ description: The ChangeDebuggeeState callback method is called by the engine whe
 old-location: debugger\idebugeventcallbacks_changedebuggeestate.htm
 tech.root: debugger
 ms.assetid: 157a420a-18ad-46cf-ae93-603e9226ee4f
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ChangeDebuggeeState, ChangeDebuggeeState method [Windows Debugging], ChangeDebuggeeState method [Windows Debugging],IDebugEventCallbacks interface, ComCallbacks_a5743ecf-0b4c-41de-9384-ee0d8980a746.xml, IDebugEventCallbacks interface [Windows Debugging],ChangeDebuggeeState method, IDebugEventCallbacks.ChangeDebuggeeState, IDebugEventCallbacks::ChangeDebuggeeState, dbgeng/IDebugEventCallbacks::ChangeDebuggeeState, debugger.idebugeventcallbacks_changedebuggeestate
 ms.topic: method
 req.header: dbgeng.h

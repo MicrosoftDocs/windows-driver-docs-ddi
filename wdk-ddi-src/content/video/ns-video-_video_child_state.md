@@ -6,7 +6,7 @@ description: The VIDEO_CHILD_STATE structure contains information about a child 
 old-location: display\video_child_state.htm
 tech.root: display
 ms.assetid: 69a2eebb-9294-4fc1-871a-587792f84f35
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*PVIDEO_CHILD_STATE, PVIDEO_CHILD_STATE, PVIDEO_CHILD_STATE structure pointer [Display Devices], VIDEO_CHILD_STATE, VIDEO_CHILD_STATE structure [Display Devices], Video_Structs_330b2d6d-13da-4949-9827-73e7829931b6.xml, _VIDEO_CHILD_STATE, display.video_child_state, video/PVIDEO_CHILD_STATE, video/VIDEO_CHILD_STATE"
 ms.topic: struct
 req.header: video.h

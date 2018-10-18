@@ -6,7 +6,7 @@ description: The WdfDmaTransactionInitialize method initializes a specified DMA 
 old-location: wdf\wdfdmatransactioninitialize.htm
 tech.root: wdf
 ms.assetid: cb17b31a-a069-4d41-a613-81a9815ac9a3
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDmaObjectRef_d7f9d480-a08b-4d5e-a4a2-bfc2de6b4d34.xml, WdfDmaTransactionInitialize, WdfDmaTransactionInitialize method, kmdf.wdfdmatransactioninitialize, wdf.wdfdmatransactioninitialize, wdfdmatransaction/WdfDmaTransactionInitialize
 ms.topic: function
 req.header: wdfdmatransaction.h

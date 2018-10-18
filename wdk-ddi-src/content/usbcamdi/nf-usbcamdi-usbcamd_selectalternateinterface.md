@@ -6,7 +6,7 @@ description: The USBCAMD_SelectAlternateInterface function selects an alternate 
 old-location: stream\usbcamd_selectalternateinterface.htm
 tech.root: stream
 ms.assetid: b9a31719-2674-4d3f-8792-b099640faa07
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: USBCAMD_SelectAlternateInterface, USBCAMD_SelectAlternateInterface function [Streaming Media Devices], stream.usbcamd_selectalternateinterface, usbcamdi/USBCAMD_SelectAlternateInterface, usbcmdpr_48a3328b-869a-42fd-acfd-b1981384db85.xml
 ms.topic: function
 req.header: usbcamdi.h

@@ -6,7 +6,7 @@ description: The KeQueryHardwareCounterConfiguration routine queries the operati
 old-location: kernel\kequeryhardwarecounterconfiguration.htm
 tech.root: kernel
 ms.assetid: 5ac33177-38fc-4027-95c9-c2cf9ccdaa52
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeQueryHardwareCounterConfiguration, KeQueryHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture], k105_442c5acf-84a3-4078-b401-ca8cb8069c6e.xml, kernel.kequeryhardwarecounterconfiguration, ntddk/KeQueryHardwareCounterConfiguration
 ms.topic: function
 req.header: ntddk.h

@@ -6,7 +6,7 @@ description: The WDF_PNPPOWER_EVENT_CALLBACKS_INIT function initializes a driver
 old-location: wdf\wdf_pnppower_event_callbacks_init.htm
 tech.root: wdf
 ms.assetid: f84e200b-542d-4885-a091-9e311b4ab697
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_f8e5ea12-489b-4217-b05f-43a31ef891d0.xml, WDF_PNPPOWER_EVENT_CALLBACKS_INIT, WDF_PNPPOWER_EVENT_CALLBACKS_INIT function, kmdf.wdf_pnppower_event_callbacks_init, wdf.wdf_pnppower_event_callbacks_init, wdfdevice/WDF_PNPPOWER_EVENT_CALLBACKS_INIT
 ms.topic: function
 req.header: wdfdevice.h

@@ -6,7 +6,7 @@ description: The ZwQueryInformationFile routine returns various kinds of informa
 old-location: kernel\zwqueryinformationfile.htm
 tech.root: kernel
 ms.assetid: 007df07e-685b-4224-b9d6-55e87cf0bd5c
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtQueryInformationFile, ZwQueryInformationFile, ZwQueryInformationFile routine [Kernel-Mode Driver Architecture], k111_822ab812-a644-4574-8d89-c4ebf5b17ea5.xml, kernel.zwqueryinformationfile, wdm/NtQueryInformationFile, wdm/ZwQueryInformationFile
 ms.topic: function
 req.header: wdm.h

@@ -6,7 +6,7 @@ description: This structure is used in conjunction with IOCTL_STORAGE_QUERY_PROP
 old-location: storage\storage_protocol_data_descriptor.htm
 tech.root: storage
 ms.assetid: 292EE243-2952-4020-8EB0-C5127DF92318
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, PSTORAGE_PROTOCOL_DATA_DESCRIPTOR structure pointer [Storage Devices], STORAGE_PROTOCOL_DATA_DESCRIPTOR, STORAGE_PROTOCOL_DATA_DESCRIPTOR structure [Storage Devices], _STORAGE_PROTOCOL_DATA_DESCRIPTOR, ntddstor/PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, ntddstor/STORAGE_PROTOCOL_DATA_DESCRIPTOR, storage.storage_protocol_data_descriptor"
 ms.topic: struct
 req.header: ntddstor.h

@@ -6,7 +6,7 @@ description: The MarkCancelable method enables the canceling of the I/O request.
 old-location: wdf\iwdfiorequest_markcancelable.htm
 tech.root: wdf
 ms.assetid: 73e323a4-d40e-4414-92b7-310bfb0f6457
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFIoRequest interface,MarkCancelable method, IWDFIoRequest.MarkCancelable, IWDFIoRequest::MarkCancelable, MarkCancelable, MarkCancelable method, MarkCancelable method,IWDFIoRequest interface, UMDFRequestObjectRef_c1304e95-724d-4ced-abc2-801b1606f43b.xml, umdf.iwdfiorequest_markcancelable, wdf.iwdfiorequest_markcancelable, wudfddi/IWDFIoRequest::MarkCancelable
 ms.topic: method
 req.header: wudfddi.h

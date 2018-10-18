@@ -6,7 +6,7 @@ description: The HBA_SendCTPassThru routine sends a common transport (CT) pass-t
 old-location: storage\hba_sendctpassthru.htm
 tech.root: storage
 ms.assetid: adfdb968-5ba3-43af-899a-7172c9ecf46c
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_SendCTPassThru, HBA_SendCTPassThru routine [Storage Devices], fibreHBA_rtns_cae90bb3-cdb2-47fe-92b8-e2bffefa338d.xml, hbaapi/HBA_SendCTPassThru, storage.hba_sendctpassthru
 ms.topic: function
 req.header: hbaapi.h

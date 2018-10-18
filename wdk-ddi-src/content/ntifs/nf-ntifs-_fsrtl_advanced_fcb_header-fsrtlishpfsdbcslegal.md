@@ -6,7 +6,7 @@ description: The FsRtlIsHpfsDbcsLegal routine determines whether the specified A
 old-location: ifsk\fsrtlishpfsdbcslegal.htm
 tech.root: ifsk
 ms.assetid: 44088ca7-4a10-4002-8ae8-edd228a903f2
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlIsHpfsDbcsLegal, FsRtlIsHpfsDbcsLegal routine [Installable File System Drivers], fsrtlref_6cde5ef1-2a54-4b66-b2da-e134b5700668.xml, ifsk.fsrtlishpfsdbcslegal, ntifs/FsRtlIsHpfsDbcsLegal
 ms.topic: function
 req.header: ntifs.h

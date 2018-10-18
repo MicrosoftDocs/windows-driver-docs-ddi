@@ -6,7 +6,7 @@ description: The ExReleaseRundownProtection routine releases run-down protection
 old-location: kernel\exreleaserundownprotection.htm
 tech.root: kernel
 ms.assetid: 442FD107-04D4-4194-B64A-21699A70B4B6
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExReleaseRundownProtection, ExReleaseRundownProtection routine [Kernel-Mode Driver Architecture], kernel.exreleaserundownprotection, wdm/ExReleaseRundownProtection
 ms.topic: function
 req.header: wdm.h

@@ -6,7 +6,7 @@ description: The VideoPortGetProcAddress callback routine retrieves the address 
 old-location: display\videoportgetprocaddress.htm
 tech.root: display
 ms.assetid: f4263cc6-2065-475a-b618-6a5735c5f66e
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PVIDEO_PORT_GET_PROC_ADDRESS, PVIDEO_PORT_GET_PROC_ADDRESS callback, VideoPortGetProcAddress, VideoPortGetProcAddress callback function [Display Devices], VideoPort_Functions_303c9139-f7bd-4334-9379-ca5e167e4618.xml, display.videoportgetprocaddress, video/VideoPortGetProcAddress
 ms.topic: callback
 req.header: video.h

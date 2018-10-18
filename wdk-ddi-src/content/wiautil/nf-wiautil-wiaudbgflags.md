@@ -6,7 +6,7 @@ description: The wiauDbgFlags function determines whether a particular debugging
 old-location: image\wiaudbgflags.htm
 tech.root: image
 ms.assetid: 2185a1c0-e952-4dbd-b1a9-82339e417774
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiaudbgflags, wiauDbgFlags, wiauDbgFlags function [Imaging Devices], wiauFncs_db71e773-84d8-40b9-9688-9fa33aad9182.xml, wiautil/wiauDbgFlags
 ms.topic: function
 req.header: wiautil.h

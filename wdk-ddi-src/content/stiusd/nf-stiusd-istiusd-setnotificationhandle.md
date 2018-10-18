@@ -6,7 +6,7 @@ description: A still image minidriver's IStiUSD::SetNotificationHandle method sp
 old-location: image\istiusd_setnotificationhandle.htm
 tech.root: image
 ms.assetid: 096e9b7a-fc50-46a2-b67a-7128dba13321
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IStiUSD interface [Imaging Devices],SetNotificationHandle method, IStiUSD.SetNotificationHandle, IStiUSD::SetNotificationHandle, SetNotificationHandle, SetNotificationHandle method [Imaging Devices], SetNotificationHandle method [Imaging Devices],IStiUSD interface, image.istiusd_setnotificationhandle, stifnc_f6b96be7-54e0-4cf1-a895-3d8d31dbc72b.xml, stiusd/IStiUSD::SetNotificationHandle
 ms.topic: method
 req.header: stiusd.h

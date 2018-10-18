@@ -6,7 +6,7 @@ description: The UMDF_VERSION_DATA structure describes a version of the framewor
 old-location: wdf\umdf_version_data.htm
 tech.root: wdf
 ms.assetid: b83a786d-0b17-4129-bdd4-86942ad9d3ec
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*PUMDF_VERSION_DATA, PUMDF_VERSION_DATA, PUMDF_VERSION_DATA structure pointer, UMDF_VERSION_DATA, UMDF_VERSION_DATA structure, umdf.umdf_version_data, umdfstructs_b4fe6241-b095-437b-a3f8-e1cf395da8ee.xml, wdf.umdf_version_data, wudfddi_types/PUMDF_VERSION_DATA, wudfddi_types/UMDF_VERSION_DATA"
 ms.topic: struct
 req.header: wudfddi_types.h

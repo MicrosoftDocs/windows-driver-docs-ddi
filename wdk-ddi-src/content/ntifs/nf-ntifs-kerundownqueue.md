@@ -6,7 +6,7 @@ description: The KeRundownQueue routine cleans up a queue object, flushing any q
 old-location: ifsk\kerundownqueue.htm
 tech.root: ifsk
 ms.assetid: fc496af8-0b4b-4de4-8890-f2290970ced5
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: KeRundownQueue, KeRundownQueue routine [Installable File System Drivers], ifsk.kerundownqueue, keref_d1ad3c47-a2e8-40d9-b59d-bcedd6e4314a.xml, ntifs/KeRundownQueue
 ms.topic: function
 req.header: ntifs.h

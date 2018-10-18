@@ -6,7 +6,7 @@ description: The IoReadPartitionTable routine is obsolete and is provided only t
 old-location: storage\ioreadpartitiontable.htm
 tech.root: storage
 ms.assetid: f87c74c3-fcb1-4358-ade6-6c0afc0020e2
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IoReadPartitionTable, IoReadPartitionTable routine [Storage Devices], ntddk/IoReadPartitionTable, rtns-disk_9a43d91f-cbb5-4747-bfa9-66da170b0864.xml, storage.ioreadpartitiontable
 ms.topic: function
 req.header: ntddk.h

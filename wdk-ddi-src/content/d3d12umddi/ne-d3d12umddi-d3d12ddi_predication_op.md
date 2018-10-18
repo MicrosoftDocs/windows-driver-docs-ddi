@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Contains values for predication operation options.
 old-location: display\d3d12ddi_predication_op.htm
 ms.assetid: 70676251-BCD7-4996-B5B7-96A8D9B107DB
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: D3D12DDI_PREDICATION_OP, D3D12DDI_PREDICATION_OP enumeration [Display Devices], D3D12DDI_PREDICATION_OP_EQUAL_ZERO, D3D12DDI_PREDICATION_OP_NOT_EQUAL_ZERO, d3d12umddi/D3D12DDI_PREDICATION_OP, d3d12umddi/D3D12DDI_PREDICATION_OP_EQUAL_ZERO, d3d12umddi/D3D12DDI_PREDICATION_OP_NOT_EQUAL_ZERO, display.d3d12ddi_predication_op
 ms.topic: enum
 req.header: d3d12umddi.h

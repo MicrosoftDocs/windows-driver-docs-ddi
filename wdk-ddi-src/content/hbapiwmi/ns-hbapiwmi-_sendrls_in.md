@@ -6,7 +6,7 @@ description: The SendRLS_IN structure is used to deliver input parameter data to
 old-location: storage\sendrls_in.htm
 tech.root: storage
 ms.assetid: ba78482f-243a-4f60-907e-8d5c4a702ef2
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSendRLS_IN, PSendRLS_IN, PSendRLS_IN structure pointer [Storage Devices], SendRLS_IN, SendRLS_IN structure [Storage Devices], _SendRLS_IN, hbapiwmi/PSendRLS_IN, hbapiwmi/SendRLS_IN, storage.sendrls_in, structs-Fibre_c78b38af-b1e5-4f98-a57c-9c4c81b4a5f3.xml"
 ms.topic: struct
 req.header: hbapiwmi.h

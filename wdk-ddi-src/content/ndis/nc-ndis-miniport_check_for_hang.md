@@ -6,7 +6,7 @@ description: NDIS calls a miniport driver's MiniportCheckForHangEx function to c
 old-location: netvista\miniportcheckforhangex.htm
 tech.root: netvista
 ms.assetid: ead0af85-0584-49de-82cc-8a059ebfdf4f
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_CHECK_FOR_HANG, MINIPORT_CHECK_FOR_HANG callback, MiniportCheckForHangEx, MiniportCheckForHangEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_4dac5544-94b0-4be6-aa81-709bff9163a7.xml, ndis/MiniportCheckForHangEx, netvista.miniportcheckforhangex
 ms.topic: callback
 req.header: ndis.h

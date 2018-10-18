@@ -6,7 +6,7 @@ description: The IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS structure contains 
 old-location: kernel\io_report_interrupt_active_state_parameters.htm
 tech.root: kernel
 ms.assetid: 430B8951-37F0-4173-ACC6-89DB542B4081
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PIO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS, IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS, IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS structure [Kernel-Mode Driver Architecture], PIO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS, PIO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], _IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS, kernel.io_report_interrupt_active_state_parameters, wdm/IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS, wdm/PIO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS"
 ms.topic: struct
 req.header: wdm.h

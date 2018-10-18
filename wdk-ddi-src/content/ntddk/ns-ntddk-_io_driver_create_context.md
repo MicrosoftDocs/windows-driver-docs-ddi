@@ -6,7 +6,7 @@ description: The IO_DRIVER_CREATE_CONTEXT structure is used to pass additional p
 old-location: ifsk\io_driver_create_context.htm
 tech.root: ifsk
 ms.assetid: c2d10f76-5587-4855-9a02-fa7656a3805e
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PIO_DRIVER_CREATE_CONTEXT, IO_DRIVER_CREATE_CONTEXT, IO_DRIVER_CREATE_CONTEXT structure [Installable File System Drivers], PIO_DRIVER_CREATE_CONTEXT, PIO_DRIVER_CREATE_CONTEXT structure pointer [Installable File System Drivers], _IO_DRIVER_CREATE_CONTEXT, fileinformationstructures_d5939ca3-7c95-4788-bec9-b2d4cc7dd45b.xml, ifsk.io_driver_create_context, ntddk/IO_DRIVER_CREATE_CONTEXT, ntddk/PIO_DRIVER_CREATE_CONTEXT"
 ms.topic: struct
 req.header: ntddk.h

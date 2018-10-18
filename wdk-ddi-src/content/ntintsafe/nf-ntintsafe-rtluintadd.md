@@ -6,7 +6,7 @@ description: Adds two values of type UINT.
 old-location: kernel\rtluintadd.htm
 tech.root: kernel
 ms.assetid: ABF392BD-7B05-417E-AFD8-4EE7E64F9FC2
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUIntAdd, RtlUIntAdd function [Kernel-Mode Driver Architecture], kernel.rtluintadd, ntintsafe/RtlUIntAdd
 ms.topic: function
 req.header: ntintsafe.h

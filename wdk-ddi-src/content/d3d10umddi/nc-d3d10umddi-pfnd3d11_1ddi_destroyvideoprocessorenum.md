@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Releases resources for the video processor enumeration object that were created through a call to the CreateVideoProcessorEnum function.
 old-location: display\destroyvideoprocessorenum.htm
 ms.assetid: a4325993-aa87-466e-8e89-40bede1e0306
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_DESTROYVIDEOPROCESSORENUM, PFND3D11_1DDI_DESTROYVIDEOPROCESSORENUM callback, d3d10umddi/pfnDestroyVideoProcessorEnum, display.destroyvideoprocessorenum, pfnDestroyVideoProcessorEnum, pfnDestroyVideoProcessorEnum callback function [Display Devices]
 ms.topic: callback
 req.header: d3d10umddi.h

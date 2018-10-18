@@ -6,7 +6,7 @@ description: The PacketDirect (PD) platform calls a PD-capable miniport driver's
 old-location: netvista\ndispdfreequeue.htm
 tech.root: netvista
 ms.assetid: 1DE8582C-AF11-4CBA-8F4C-159266A7F3BA
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDIS_PD_FREE_QUEUE, NDIS_PD_FREE_QUEUE callback, NdisPDFreeQueue, NdisPDFreeQueue callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDFreeQueue, netvista.ndispdfreequeue
 ms.topic: callback
 req.header: ndis.h

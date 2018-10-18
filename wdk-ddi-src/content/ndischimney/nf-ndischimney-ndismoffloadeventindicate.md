@@ -6,7 +6,7 @@ description: An offload target calls the NdisMOffloadEventIndicate function to i
 old-location: netvista\ndismoffloadeventindicate.htm
 tech.root: netvista
 ms.assetid: 81052e73-4dce-48df-8541-5da54e2156d8
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMOffloadEventIndicate, NdisMOffloadEventIndicate function [Network Drivers Starting with Windows Vista], ndischimney/NdisMOffloadEventIndicate, netvista.ndismoffloadeventindicate, tcp_chim_ndis_func_6199452b-e2ea-41ca-8a16-eaf5109430fe.xml
 ms.topic: function
 req.header: ndischimney.h

@@ -6,7 +6,7 @@ description: The BdaFilterFactoryUpdateCacheData function updates the pin data c
 old-location: stream\bdafilterfactoryupdatecachedata.htm
 tech.root: stream
 ms.assetid: c4b8220a-bd54-4e41-a00e-3750a3f03cae
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: BdaFilterFactoryUpdateCacheData, BdaFilterFactoryUpdateCacheData function [Streaming Media Devices], bdaref_b384500e-7b80-4413-a950-f7cf7aed3f54.xml, bdasup/BdaFilterFactoryUpdateCacheData, stream.bdafilterfactoryupdatecachedata
 ms.topic: function
 req.header: bdasup.h

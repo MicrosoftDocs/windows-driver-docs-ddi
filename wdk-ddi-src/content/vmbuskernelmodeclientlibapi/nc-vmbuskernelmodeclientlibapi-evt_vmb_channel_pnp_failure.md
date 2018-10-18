@@ -6,7 +6,7 @@ description: The EvtChannelPnpFailure callback function is invoked if the client
 old-location: netvista\evt_vmb_channel_pnp_failure.htm
 tech.root: netvista
 ms.assetid: 3331C043-CFB2-434C-8475-2F5F094F2460
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: EVT_VMB_CHANNEL_PNP_FAILURE, EVT_VMB_CHANNEL_PNP_FAILURE callback, EvtChannelPnpFailure, EvtChannelPnpFailure callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_PNP_FAILURE, PFN_VMB_CHANNEL_PNP_FAILURE callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_pnp_failure, vmbuskernelmodeclientlibapi/EvtChannelPnpFailure
 ms.topic: callback
 req.header: vmbuskernelmodeclientlibapi.h

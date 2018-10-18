@@ -6,7 +6,7 @@ description: The GetFieldNameWide method returns the name of a field within a st
 old-location: debugger\getfieldnamewide.htm
 tech.root: debugger
 ms.assetid: e27c6af5-c9fa-4fe6-ad39-82ea59a0f27b
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetFieldNameWide, GetFieldNameWide method [Windows Debugging], GetFieldNameWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetFieldNameWide method, IDebugSymbols3.GetFieldNameWide, IDebugSymbols3::GetFieldNameWide, dbgeng/IDebugSymbols3::GetFieldNameWide, debugger.getfieldnamewide
 ms.topic: method
 req.header: dbgeng.h

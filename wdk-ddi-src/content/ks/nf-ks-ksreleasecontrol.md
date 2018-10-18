@@ -6,7 +6,7 @@ description: The KsReleaseControl function releases the control mutex for Object
 old-location: stream\ksreleasecontrol.htm
 tech.root: stream
 ms.assetid: f585f1ad-7ed0-49b1-ab35-a6b879118b38
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsReleaseControl, KsReleaseControl function [Streaming Media Devices], avfunc_b568770e-1fe0-47d5-8fd4-ac210cd4be30.xml, ks/KsReleaseControl, stream.ksreleasecontrol
 ms.topic: function
 req.header: ks.h

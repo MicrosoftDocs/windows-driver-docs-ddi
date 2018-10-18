@@ -6,7 +6,7 @@ description: The SerCx2SystemDmaTransmitCreate method creates a SerCx2 system-DM
 old-location: serports\sercx2systemdmatransmitcreate.htm
 tech.root: serports
 ms.assetid: CD0FA4A2-9E09-4F76-A332-858CC5D61651
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SerCx2SystemDmaTransmitCreate, SerCx2SystemDmaTransmitCreate, SerCx2SystemDmaTransmitCreate method [Serial Ports], serports.sercx2systemdmatransmitcreate
 ms.topic: function
 req.header: sercx.h

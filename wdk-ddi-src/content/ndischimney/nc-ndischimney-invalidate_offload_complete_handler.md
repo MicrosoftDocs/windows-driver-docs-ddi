@@ -6,7 +6,7 @@ description: NDIS calls a protocol driver's or intermediate driver's ProtocolInv
 old-location: netvista\protocolinvalidateoffloadcomplete.htm
 tech.root: netvista
 ms.assetid: 6d2c71d0-9686-4eb5-9715-27de3dc8b390
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: INVALIDATE_OFFLOAD_COMPLETE_HANDLER, INVALIDATE_OFFLOAD_COMPLETE_HANDLER callback, ProtocolInvalidateOffloadComplete, ProtocolInvalidateOffloadComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/ProtocolInvalidateOffloadComplete, netvista.protocolinvalidateoffloadcomplete, tcp_chim_protocol_func_af2a329a-730b-4ccb-afc6-702e88a763f2.xml
 ms.topic: callback
 req.header: ndischimney.h

@@ -6,7 +6,7 @@ description: STREAM_PROPERTY_DESCRIPTOR specifies the parameters of property get
 old-location: stream\stream_property_descriptor.htm
 tech.root: stream
 ms.assetid: b72265b7-dce3-4688-bee7-2a6f7d7731f9
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PSTREAM_PROPERTY_DESCRIPTOR, PSTREAM_PROPERTY_DESCRIPTOR, PSTREAM_PROPERTY_DESCRIPTOR structure pointer [Streaming Media Devices], STREAM_PROPERTY_DESCRIPTOR, STREAM_PROPERTY_DESCRIPTOR structure [Streaming Media Devices], _STREAM_PROPERTY_DESCRIPTOR, strclass-struct_5cf57d2b-c4ea-41fb-b3b3-4b6f67c2ecca.xml, stream.stream_property_descriptor, strmini/PSTREAM_PROPERTY_DESCRIPTOR, strmini/STREAM_PROPERTY_DESCRIPTOR"
 ms.topic: struct
 req.header: strmini.h

@@ -6,7 +6,7 @@ description: This enumeration contains the operating modes of a lamp device.
 old-location: stream\lamp_mode.htm
 tech.root: stream
 ms.assetid: B379B6EF-C3AD-4E6F-B32D-F85228DB6A72
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: LAMP_MODE, LAMP_MODE enumeration [Streaming Media Devices], LAMP_MODE_COLOR, LAMP_MODE_WHITE, lamp/LAMP_MODE, lamp/LAMP_MODE_COLOR, lamp/LAMP_MODE_WHITE, stream.lamp_mode
 ms.topic: enum
 req.header: lamp.h

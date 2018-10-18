@@ -6,7 +6,7 @@ description: NDIS calls a protocol or intermediate driver's ProtocolTerminateOff
 old-location: netvista\protocolterminateoffloadcomplete.htm
 tech.root: netvista
 ms.assetid: 614d36e8-38ac-49a7-8711-7a6c6646309c
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: ProtocolTerminateOffloadComplete, ProtocolTerminateOffloadComplete callback function [Network Drivers Starting with Windows Vista], TERMINATE_OFFLOAD_COMPLETE_HANDLER, TERMINATE_OFFLOAD_COMPLETE_HANDLER callback, ndischimney/ProtocolTerminateOffloadComplete, netvista.protocolterminateoffloadcomplete, tcp_chim_protocol_func_77bcd97e-dea4-41e4-aae5-3aef1a616a45.xml
 ms.topic: callback
 req.header: ndischimney.h

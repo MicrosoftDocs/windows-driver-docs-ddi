@@ -6,7 +6,7 @@ description: The ACCESS_STATE structure describes the state of an access in prog
 old-location: ifsk\access_state.htm
 tech.root: ifsk
 ms.assetid: 3d1d6407-f853-48d5-bd54-2eacece48b84
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PACCESS_STATE, ACCESS_STATE, ACCESS_STATE structure [Installable File System Drivers], PACCESS_STATE, PACCESS_STATE structure pointer [Installable File System Drivers], _ACCESS_STATE, ifsk.access_state, securitystructures_41c08d1c-9d46-4df7-a1fe-dc274e8b3fe7.xml, wdm/ACCESS_STATE, wdm/PACCESS_STATE"
 ms.topic: struct
 req.header: wdm.h

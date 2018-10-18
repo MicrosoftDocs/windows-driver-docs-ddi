@@ -6,7 +6,7 @@ description: A driver's EvtIoCanceledOnQueue event callback function informs the
 old-location: wdf\evtiocanceledonqueue.htm
 tech.root: wdf
 ms.assetid: 1b938ee8-a5f3-4a1e-9beb-231d88aa5848
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_24cf727b-3673-44a1-94a2-5308aa195827.xml, EVT_WDF_IO_QUEUE_IO_CANCELED_ON_QUEUE, EVT_WDF_IO_QUEUE_IO_CANCELED_ON_QUEUE callback, EvtIoCanceledOnQueue, EvtIoCanceledOnQueue callback function, kmdf.evtiocanceledonqueue, wdf.evtiocanceledonqueue, wdfio/EvtIoCanceledOnQueue
 ms.topic: callback
 req.header: wdfio.h

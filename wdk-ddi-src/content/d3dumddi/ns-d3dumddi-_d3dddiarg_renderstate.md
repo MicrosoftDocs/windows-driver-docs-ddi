@@ -6,7 +6,7 @@ description: The D3DDDIARG_RENDERSTATE structure describes how to update a speci
 old-location: display\d3dddiarg_renderstate.htm
 tech.root: display
 ms.assetid: 177a2578-2bd4-4a11-a3fd-fec226a64c22
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_RENDERSTATE, D3DDDIARG_RENDERSTATE structure [Display Devices], UMDisplayDriver_param_Structs_4d558ee2-a265-4973-90d4-917170d01ef3.xml, _D3DDDIARG_RENDERSTATE, d3dumddi/D3DDDIARG_RENDERSTATE, display.d3dddiarg_renderstate
 ms.topic: struct
 req.header: d3dumddi.h

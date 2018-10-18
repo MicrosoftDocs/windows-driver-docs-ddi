@@ -6,7 +6,7 @@ description: The AtaPortCompleteAllActiveRequests routine completes all active I
 old-location: storage\ataportcompleteallactiverequests.htm
 tech.root: storage
 ms.assetid: e17b1a76-ab1e-4263-9e4a-42c6f2066de1
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: AtaPortCompleteAllActiveRequests, AtaPortCompleteAllActiveRequests routine [Storage Devices], atartns_b9f2bdc5-ede8-4a7f-9d9e-df16a9d83634.xml, irb/AtaPortCompleteAllActiveRequests, storage.ataportcompleteallactiverequests
 ms.topic: function
 req.header: irb.h

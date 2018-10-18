@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Used to create a video processor.
 old-location: display\pfnd3d12ddi_createvideoprocessor_0032_.htm
 ms.assetid: 64E9EDF7-0B98-4D8A-BB2B-D336622558D0
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: PFND3D12DDI_CREATEVIDEOPROCESSOR_0032, PFND3D12DDI_CREATEVIDEOPROCESSOR_0032  callback, PFND3D12DDI_CREATEVIDEOPROCESSOR_0032 callback function [Display Devices], d3d12umddi/PFND3D12DDI_CREATEVIDEOPROCESSOR_0032, display.pfnd3d12ddi_createvideoprocessor_0032_
 ms.topic: callback
 req.header: d3d12umddi.h

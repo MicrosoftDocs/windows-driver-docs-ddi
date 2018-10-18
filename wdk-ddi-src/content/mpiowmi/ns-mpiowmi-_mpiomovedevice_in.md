@@ -6,7 +6,7 @@ description: The MPIOMoveDevice_IN structure is used to set the active path on t
 old-location: storage\mpiomovedevice_in.htm
 tech.root: storage
 ms.assetid: 2652874f-70d0-4eff-a46d-778a68d55cab
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PMPIOMoveDevice_IN, MPIOMoveDevice_IN, MPIOMoveDevice_IN structure [Storage Devices], PMPIOMoveDevice_IN, PMPIOMoveDevice_IN structure pointer [Storage Devices], _MPIOMoveDevice_IN, mpiowmi/MPIOMoveDevice_IN, mpiowmi/PMPIOMoveDevice_IN, storage.mpiomovedevice_in, structs-scsibus_d1c11b7d-5c45-441b-8362-642db610e19e.xml"
 ms.topic: struct
 req.header: mpiowmi.h

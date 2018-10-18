@@ -6,7 +6,7 @@ description: The TapeDebugPrint routine prints the indicated string.
 old-location: storage\tapedebugprint.htm
 tech.root: storage
 ms.assetid: d06e4308-f1a9-4acd-bc25-b3fd53129064
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: TapeDebugPrint, TapeDebugPrint routine [Storage Devices], minitape/TapeDebugPrint, storage.tapedebugprint, tapeclas_cc0c28ed-17e9-40cf-bf04-e906aa4f74f0.xml
 ms.topic: function
 req.header: minitape.h

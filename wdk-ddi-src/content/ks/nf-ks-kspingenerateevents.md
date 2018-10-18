@@ -6,7 +6,7 @@ description: The KsPinGenerateEvents function generates events of an indicated t
 old-location: stream\kspingenerateevents.htm
 tech.root: stream
 ms.assetid: c2137849-aff0-4bf7-abab-b92e17aaef70
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsPinGenerateEvents, KsPinGenerateEvents function [Streaming Media Devices], avfunc_4bc7a2d8-139f-4f6e-b69c-46e05d8302e3.xml, ks/KsPinGenerateEvents, stream.kspingenerateevents
 ms.topic: function
 req.header: ks.h

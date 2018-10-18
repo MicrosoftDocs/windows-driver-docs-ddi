@@ -6,7 +6,7 @@ description: The ClfsCreateMarshallingArea routine creates a marshalling area fo
 old-location: kernel\clfscreatemarshallingarea.htm
 tech.root: kernel
 ms.assetid: c841d8fb-fa42-4ce5-aedb-c7c13bcc2ba7
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ClfsCreateMarshallingArea, ClfsCreateMarshallingArea routine [Kernel-Mode Driver Architecture], Clfs_7b5e3208-8dfb-4fbf-b2a9-77ecc5765df6.xml, kernel.clfscreatemarshallingarea, wdm/ClfsCreateMarshallingArea
 ms.topic: function
 req.header: wdm.h

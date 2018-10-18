@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\riluiccfiles.htm
 tech.root: netvista
 ms.assetid: a29f2ff6-1c15-4313-b3a5-73fb8d40d2d7
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILUICCFILES, RILUICCFILES, RILUICCFILES structure [Network Drivers Starting with Windows Vista], netvista.riluiccfiles, ntddrilapitypes/RILUICCFILES"
 ms.topic: struct
 req.header: rilapitypes.h

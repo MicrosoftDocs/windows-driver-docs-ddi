@@ -6,7 +6,7 @@ description: The engine calls the DebugExtensionNotify callback function to info
 old-location: debugger\debugextensionnotify.htm
 tech.root: debugger
 ms.assetid: 5e877882-00f7-4c46-86e1-debf576ffdb1
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: DebugExtensionNotify, DebugExtensionNotify callback function [Windows Debugging], Extensions_Ref_18dd6999-773d-42e8-826a-dcac1fc1ed35.xml, PDEBUG_EXTENSION_NOTIFY, PDEBUG_EXTENSION_NOTIFY callback, dbgeng/DebugExtensionNotify, debugger.debugextensionnotify
 ms.topic: callback
 req.header: dbgeng.h

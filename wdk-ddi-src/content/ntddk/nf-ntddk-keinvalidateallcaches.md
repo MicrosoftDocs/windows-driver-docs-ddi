@@ -6,7 +6,7 @@ description: The KeInvalidateAllCaches routine flushes all processor caches.
 old-location: kernel\keinvalidateallcaches.htm
 tech.root: kernel
 ms.assetid: a7971cd1-1e9b-4d81-8422-1ee36651973a
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeInvalidateAllCaches, KeInvalidateAllCaches routine [Kernel-Mode Driver Architecture], k105_4b59c5bd-70e3-48e1-aa6c-abf4e02925e8.xml, kernel.keinvalidateallcaches, ntddk/KeInvalidateAllCaches
 ms.topic: function
 req.header: ntddk.h

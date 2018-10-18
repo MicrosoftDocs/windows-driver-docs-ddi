@@ -6,7 +6,7 @@ description: The FsRtlIsNameInExpression routine determines whether a Unicode st
 old-location: ifsk\fsrtlisnameinexpression.htm
 tech.root: ifsk
 ms.assetid: 8d54bf46-dc70-47a1-a391-6e32a7800a9e
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: FsRtlIsNameInExpression, FsRtlIsNameInExpression routine [Installable File System Drivers], fsrtlref_719072fe-274b-482a-ba9c-4a21d4d2be21.xml, ifsk.fsrtlisnameinexpression, ntifs/FsRtlIsNameInExpression
 ms.topic: function
 req.header: ntifs.h

@@ -6,7 +6,7 @@ description: The KsAddItemToObjectBag function adds an object or block of memory
 old-location: stream\ksadditemtoobjectbag.htm
 tech.root: stream
 ms.assetid: 4c8b6252-8438-4cd1-81e0-02c260da0daf
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsAddItemToObjectBag, KsAddItemToObjectBag function [Streaming Media Devices], avfunc_c7496331-05a5-4336-9c62-144e2db6e218.xml, ks/KsAddItemToObjectBag, stream.ksadditemtoobjectbag
 ms.topic: function
 req.header: ks.h

@@ -6,7 +6,7 @@ description: The WdfRequestRetrieveActivityId method retrieves the current activ
 old-location: wdf\wdfrequestretrieveactivityid.htm
 tech.root: wdf
 ms.assetid: 6E38514E-75BD-4F98-AD12-FA4E31654C3E
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfRequestRetrieveActivityId, WdfRequestRetrieveActivityId method, wdf.wdfrequestretrieveactivityid, wdfrequest/WdfRequestRetrieveActivityId
 ms.topic: function
 req.header: wdfrequest.h
