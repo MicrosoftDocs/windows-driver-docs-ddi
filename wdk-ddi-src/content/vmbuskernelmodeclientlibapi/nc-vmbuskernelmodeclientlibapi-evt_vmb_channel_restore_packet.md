@@ -6,11 +6,8 @@ description: The EvtVmbChannelRestorePacket callback function is invoked when th
 old-location: netvista\evt_vmb_channel_restore_packet.htm
 tech.root: netvista
 ms.assetid: 9C89CFCB-4B8A-40D3-B982-2F7836A636A3
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: EVT_VMB_CHANNEL_RESTORE_PACKET, EVT_VMB_CHANNEL_RESTORE_PACKET callback, EvtVmbChannelRestorePacket, EvtVmbChannelRestorePacket callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_RESTORE_PACKET, PFN_VMB_CHANNEL_RESTORE_PACKET callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_restore_packet, vmbuskernelmodeclientlibapi/EvtVmbChannelRestorePacket
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header: VmbusKernelModeClientLibApi.h

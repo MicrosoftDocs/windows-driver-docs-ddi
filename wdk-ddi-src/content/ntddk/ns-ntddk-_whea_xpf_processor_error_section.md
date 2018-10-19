@@ -6,11 +6,8 @@ description: The WHEA_XPF_PROCESSOR_ERROR_SECTION structure describes processor 
 old-location: whea\whea_xpf_processor_error_section.htm
 tech.root: whea
 ms.assetid: e994c778-4a1b-4c7d-a9fb-4481d9edda0d
-ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: "*PWHEA_XPF_PROCESSOR_ERROR_SECTION, PWHEA_XPF_PROCESSOR_ERROR_SECTION, PWHEA_XPF_PROCESSOR_ERROR_SECTION structure pointer [WHEA Drivers and Applications], WHEA_XPF_PROCESSOR_ERROR_SECTION, WHEA_XPF_PROCESSOR_ERROR_SECTION structure [WHEA Drivers and Applications], _WHEA_XPF_PROCESSOR_ERROR_SECTION, ntddk/PWHEA_XPF_PROCESSOR_ERROR_SECTION, ntddk/WHEA_XPF_PROCESSOR_ERROR_SECTION, whea.whea_xpf_processor_error_section, whearef_e3338334-dc16-4242-9c30-0daaab2df957.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddk.h
 req.include-header: Ntddk.h

@@ -6,11 +6,8 @@ description: The LINKED_DEVICE structure holds information that describes a link
 old-location: display\linked_device.htm
 tech.root: display
 ms.assetid: 65289123-46b8-4a4b-985a-8087f4afd250
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*PLINKED_DEVICE, DmStructs_3491af70-72fe-471c-b0f1-c00d6bffb242.xml, LINKED_DEVICE, LINKED_DEVICE structure [Display Devices], PLINKED_DEVICE, PLINKED_DEVICE structure pointer [Display Devices], _LINKED_DEVICE, display.linked_device, dispmprt/LINKED_DEVICE, dispmprt/PLINKED_DEVICE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dispmprt.h
 req.include-header: Dispmprt.h

@@ -2,10 +2,9 @@
 UID: NF:dbgmodel.IDebugHostConstant.GetContainingModule
 title: IDebugHostConstant::GetContainingModule
 author: windows-driver-content
-description: TBD
+description: Returns the module which contains this symbol if the symbol has a containing module.
 ms.assetid: 1f192cdf-849a-4679-92f2-3ca538e3841e
-ms.author: windowsdriverdev
-ms.date: 09/21/2018 
+ms.date: 09/21/2018
 ms.topic: method
 ms.keywords: IDebugHostConstant::GetContainingModule, GetContainingModule, IDebugHostConstant.GetContainingModule, IDebugHostConstant::GetContainingModule, IDebugHostConstant.GetContainingModule
 req.header: dbgmodel.h
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostConstant.GetContainingModule
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

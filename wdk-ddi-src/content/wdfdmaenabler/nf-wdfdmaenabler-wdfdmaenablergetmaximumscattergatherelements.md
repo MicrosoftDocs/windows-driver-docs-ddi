@@ -6,11 +6,8 @@ description: The WdfDmaEnablerGetMaximumScatterGatherElements method returns the
 old-location: wdf\wdfdmaenablergetmaximumscattergatherelements.htm
 tech.root: wdf
 ms.assetid: de02d40d-3438-4a34-9e2b-07a7d9c4c8ac
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDmaObjectRef_34ec0aef-b846-4b23-b9b3-01e8834821f7.xml, WdfDmaEnablerGetMaximumScatterGatherElements, WdfDmaEnablerGetMaximumScatterGatherElements method, kmdf.wdfdmaenablergetmaximumscattergatherelements, wdf.wdfdmaenablergetmaximumscattergatherelements, wdfdmaenabler/WdfDmaEnablerGetMaximumScatterGatherElements
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h
@@ -83,7 +80,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-For more information about this method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/enabling-dma-transactions">Enabling DMA Transactions</a>.
+For more information about this method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/enabling-dma-transactions">Enabling DMA Transactions</a>.
 
 
 #### Examples

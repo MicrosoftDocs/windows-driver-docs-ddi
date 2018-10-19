@@ -6,11 +6,8 @@ description: HwVidGetPowerState queries whether the device can support the reque
 old-location: display\hwvidgetpowerstate.htm
 tech.root: display
 ms.assetid: 747cfbfb-2a38-4a0d-b8c6-662d0c3967ba
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: HwVidGetPowerState, HwVidGetPowerState callback function [Display Devices], PVIDEO_HW_POWER_GET, PVIDEO_HW_POWER_GET callback, VideoMiniport_Functions_b47b2224-5e0b-44af-9d04-107ff1299381.xml, display.hwvidgetpowerstate, video/HwVidGetPowerState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: video.h
 req.include-header: Video.h

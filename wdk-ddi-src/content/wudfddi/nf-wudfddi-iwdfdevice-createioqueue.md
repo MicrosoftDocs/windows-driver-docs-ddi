@@ -6,11 +6,8 @@ description: The CreateIoQueue method configures the default I/O queue that is a
 old-location: wdf\iwdfdevice_createioqueue.htm
 tech.root: wdf
 ms.assetid: 54c19d8c-59eb-44b2-b406-8fe33cdfcd63
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: CreateIoQueue, CreateIoQueue method, CreateIoQueue method,IWDFDevice interface, IWDFDevice interface,CreateIoQueue method, IWDFDevice.CreateIoQueue, IWDFDevice::CreateIoQueue, UMDFDeviceObjectRef_ed702ef2-a628-44cc-9aba-421018c236c1.xml, umdf.iwdfdevice_createioqueue, wdf.iwdfdevice_createioqueue, wudfddi/IWDFDevice::CreateIoQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>CreateIoQueue</b> method configures the default I/O queue that is associated with a device or creates a secondary I/O queue for the device.
 
@@ -64,7 +61,7 @@ The <b>CreateIoQueue</b> method configures the default I/O queue that is associa
 
 A pointer to the <b>IUnknown</b> interface that the framework uses to determine the event callback functions that the driver subscribes to on the queue. These are the functions that the framework calls when the relevant events occur.
 
- For UMDF versions 1.9 and later, this parameter is required for I/O queues that use the sequential or parallel <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/configuring-dispatch-mode-for-an-i-o-queue">dispatching method</a><u>,</u> and it is optional (can be <b>NULL</b>) for I/O queues that use the manual dispatching method. For UMDF versions earlier than 1.9, this parameter is required for all dispatching methods.
+ For UMDF versions 1.9 and later, this parameter is required for I/O queues that use the sequential or parallel <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/configuring-dispatch-mode-for-an-i-o-queue">dispatching method</a><u>,</u> and it is optional (can be <b>NULL</b>) for I/O queues that use the manual dispatching method. For UMDF versions earlier than 1.9, this parameter is required for all dispatching methods.
 
 
 ### -param bDefaultQueue [in]
@@ -179,7 +176,7 @@ When the driver passes <b>WdfIoQueueDispatchManual</b> for <i>DispatchType</i> t
 
 <div class="alert"><b>Note</b>    The driver cannot use the same callback object for a manual queue that the driver uses for a sequential or parallel queue. That is, if the driver passes a particular pointer to an <b>IUnknown</b> interface in a call to <b>CreateIoQueue</b> to create a manual queue, the driver cannot later pass the identical pointer to <b>IUnknown</b> in a call to <b>CreateIoQueue</b> to create a sequential or parallel queue. </div>
 <div> </div>
-For more information about configuring dispatch mode, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/configuring-dispatch-mode-for-an-i-o-queue">Configuring Dispatch Mode for an I/O Queue</a>.
+For more information about configuring dispatch mode, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/configuring-dispatch-mode-for-an-i-o-queue">Configuring Dispatch Mode for an I/O Queue</a>.
 
 The framework also calls <b>QueryInterface</b> on the supplied <b>IUnknown</b> interface to determine if the driver supports any of the following interfaces:
 

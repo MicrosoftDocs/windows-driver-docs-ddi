@@ -4,12 +4,9 @@ title: D3D12DDI_RESOURCE_TYPE
 author: windows-driver-content
 description: Specifies the resource type.
 ms.assetid: 69738fad-d739-48dc-8a90-6de962594210
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_RESOURCE_TYPE, D3D12DDI_RESOURCE_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

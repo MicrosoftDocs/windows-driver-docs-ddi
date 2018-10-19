@@ -6,11 +6,8 @@ description: The EvtSerCxReceive event callback function prepares the serial con
 old-location: serports\evtsercxreceive.htm
 tech.root: serports
 ms.assetid: C862D632-5425-4EEB-9C5D-BC3721D9F132
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 1/EvtSerCxReceive, EVT_SERCX_RECEIVE, EVT_SERCX_RECEIVE callback, EvtSerCxReceive, EvtSerCxReceive callback function [Serial Ports], serports.evtsercxreceive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sercx.h
 req.include-header: 

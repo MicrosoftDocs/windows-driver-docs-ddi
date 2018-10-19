@@ -6,11 +6,8 @@ description: The KSPROCESSPIN structure describes the process state of a specifi
 old-location: stream\ksprocesspin.htm
 tech.root: stream
 ms.assetid: a1625eb2-a38b-4517-b873-f33b5ced8705
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSPROCESSPIN, KSPROCESSPIN, KSPROCESSPIN structure [Streaming Media Devices], PKSPROCESSPIN, PKSPROCESSPIN structure pointer [Streaming Media Devices], _KSPROCESSPIN, avstruct_a374bc58-a61f-4d3b-9b20-de14b7cc423f.xml, ks/KSPROCESSPIN, ks/PKSPROCESSPIN, stream.ksprocesspin"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ks.h
 req.include-header: Ks.h

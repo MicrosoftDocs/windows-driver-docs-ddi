@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Specifies how data is stored in a DXGK_HISTORY_BUFFER history buffer.
 old-location: display\dxgk_history_buffer_header.htm
 ms.assetid: 246EBAFC-EBEB-4B58-83C1-731314CECF2E
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_HISTORY_BUFFER_HEADER, DXGK_HISTORY_BUFFER_HEADER structure [Display Devices], _DXGK_HISTORY_BUFFER_HEADER, d3dkmddi/DXGK_HISTORY_BUFFER_HEADER, display.dxgk_history_buffer_header
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

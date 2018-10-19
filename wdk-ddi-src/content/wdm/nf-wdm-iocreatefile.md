@@ -6,11 +6,8 @@ description: The IoCreateFile routine either causes a new file or directory to b
 old-location: kernel\iocreatefile.htm
 tech.root: kernel
 ms.assetid: 928f16d4-19cb-4d80-96a6-d25357bfdc30
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoCreateFile, IoCreateFile routine [Kernel-Mode Driver Architecture], k104_7221dba8-910f-439a-acdf-5a6ca4fcd49a.xml, kernel.iocreatefile, wdm/IoCreateFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
@@ -580,7 +577,9 @@ NTFS is the only Microsoft file system that implements FILE_RESERVE_OPFILTER.
 
 Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the *ObjectAttributes* parameter of **IoCreateFile**. This restricts the use of the handle returned by **IoCreateFile** to processes running only in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running. Drivers can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> to set the OBJ_KERNEL_HANDLE attribute as follows.
 
-```InitializeObjectAttributes(&amp;ObjectAttributes, NULL, OBJ_KERNEL_HANDLE, NULL, NULL);```
+```cpp
+InitializeObjectAttributes(&amp;ObjectAttributes, NULL, OBJ_KERNEL_HANDLE, NULL, NULL);
+```
 
 
 ## -see-also

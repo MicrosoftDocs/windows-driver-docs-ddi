@@ -6,11 +6,8 @@ description: The USBCAMD_BulkReadWrite service performs a read or write operatio
 old-location: stream\usbcamd_bulkreadwrite.htm
 tech.root: stream
 ms.assetid: 4888e6a7-be44-4ed9-80be-9dd7641653ef
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: PFNUSBCAMD_BulkReadWrite, USBCAMD_BulkReadWrite, USBCAMD_BulkReadWrite routine [Streaming Media Devices], stream.usbcamd_bulkreadwrite, usbcamdi/USBCAMD_BulkReadWrite, usbcmdpr_6044cfed-1a8c-48a5-ac28-16c8ac151fcc.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h

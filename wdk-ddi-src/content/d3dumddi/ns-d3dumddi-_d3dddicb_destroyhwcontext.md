@@ -6,11 +6,8 @@ description: A structure that holds information to destroy a hardware context.
 old-location: display\d3dddicb_destroyhwcontext.htm
 tech.root: display
 ms.assetid: 9040AEAF-3F66-4F76-B9CD-36370BC2F5B6
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDICB_DESTROYHWCONTEXT, D3DDDICB_DESTROYHWCONTEXT structure [Display Devices], _D3DDDICB_DESTROYHWCONTEXT, d3dumddi/D3DDDICB_DESTROYHWCONTEXT, display.d3dddicb_destroyhwcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: 

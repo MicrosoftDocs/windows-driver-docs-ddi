@@ -6,11 +6,8 @@ description: Given a pointer to a pinned buffer control block (BCB) for a file, 
 old-location: ifsk\ccgetfileobjectfrombcb.htm
 tech.root: ifsk
 ms.assetid: d30a2ee4-4736-4127-95db-b86e782c3577
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: CcGetFileObjectFromBcb, CcGetFileObjectFromBcb routine [Installable File System Drivers], ccref_7fdf1d1e-a080-4322-a09c-be0a16543050.xml, ifsk.ccgetfileobjectfrombcb, ntifs/CcGetFileObjectFromBcb
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

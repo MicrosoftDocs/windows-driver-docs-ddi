@@ -6,11 +6,8 @@ description: The WdfIoQueueGetDevice method returns a handle to the framework de
 old-location: wdf\wdfioqueuegetdevice.htm
 tech.root: wdf
 ms.assetid: 68f0038d-6c2e-4228-86b2-c96bea789474
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_4f5c8dbb-feb5-4c08-a2ea-06d375d5a6be.xml, WdfIoQueueGetDevice, WdfIoQueueGetDevice method, kmdf.wdfioqueuegetdevice, wdf.wdfioqueuegetdevice, wdfio/WdfIoQueueGetDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfio.h
 req.include-header: Wdf.h
@@ -85,7 +82,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-For more information about the <b>WdfIoQueueGetDevice</b> method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/managing-i-o-queues">Obtaining I/O Queue Properties</a>.
+For more information about the <b>WdfIoQueueGetDevice</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/managing-i-o-queues">Obtaining I/O Queue Properties</a>.
 
 
 #### Examples

@@ -5,7 +5,6 @@ author: windows-driver-content
 description: Retrieves the number of protocol offload structures associated with a NETPOWERSETTINGS object.
 tech.root: netvista
 ms.assetid: eb4ff3a2-296f-4011-8475-abc9e0006659
-ms.author: windowsdriverdev
 ms.date: 02/08/2018
 ms.topic: function
 ms.keywords: NetPowerSettingsGetProtocolOffloadCount

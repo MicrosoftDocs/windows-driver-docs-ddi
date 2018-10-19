@@ -6,11 +6,8 @@ description: The KsMethodHandlerWithAllocator functions performs the same handli
 old-location: stream\ksmethodhandlerwithallocator.htm
 tech.root: stream
 ms.assetid: 3a4c2eaa-167a-406a-a792-612c3e624f89
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsMethodHandlerWithAllocator, KsMethodHandlerWithAllocator function [Streaming Media Devices], ks/KsMethodHandlerWithAllocator, ksfunc_b8089a49-086b-4695-bebd-6fc3817ed7e0.xml, stream.ksmethodhandlerwithallocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

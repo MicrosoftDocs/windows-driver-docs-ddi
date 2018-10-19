@@ -4,11 +4,8 @@ title: PFND3DDDI_SUBMITPRESENTTOHWQUEUECB
 author: windows-driver-content
 description: pfnSubmitPresentToHwQueueCb is invoked by user mode drivers to submit a Blt Present operation to a hardware queue.
 ms.assetid: 78923ae5-c07f-465c-a171-7da4743ce4bc
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dumddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ pfnSubmitPresentToHwQueueCb is invoked by user mode drivers to submit a Blt Pres
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DDDI_SUBMITPRESENTTOHWQUEUECB Pfnd3dddiSubmitpresenttohwqueuecb; 

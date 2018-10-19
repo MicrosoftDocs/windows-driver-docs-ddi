@@ -2,10 +2,9 @@
 UID: NF:dbgmodel.IDebugHostField.GetOffset
 title: IDebugHostField::GetOffset
 author: windows-driver-content
-description: TBD
+description: For fields which have an offset, the GetOffset method will return the offset from the base address of the containing type to the data for the field itself.
 ms.assetid: a93e26a7-1ffe-4702-90bd-7fbd93d3e605
-ms.author: windowsdriverdev
-ms.date: 09/12/2018 
+ms.date: 09/12/2018
 ms.topic: method
 ms.keywords: IDebugHostField::GetOffset, GetOffset, IDebugHostField.GetOffset, IDebugHostField::GetOffset, IDebugHostField.GetOffset
 req.header: dbgmodel.h
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostField.GetOffset
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 
@@ -45,7 +42,7 @@ tech.root: debugger
 
 ## -description
 
-For fields which have an offset (e.g.: fields whose location kind indicates LocationMember), the GetOffset method will return the offset from the base address of the containing type (the this pointer) to the data for the field itself. Such offsets are always expressed as unsigned 64-bit values.
+For fields which have an offset (e.g. fields whose location kind indicates LocationMember), the GetOffset method will return the offset from the base address of the containing type (the this pointer) to the data for the field itself. Such offsets are always expressed as unsigned 64-bit values.
 
 If the given field does not have a location which is an offset from the base address of the containing type, the GetOffset method will fail. 
 

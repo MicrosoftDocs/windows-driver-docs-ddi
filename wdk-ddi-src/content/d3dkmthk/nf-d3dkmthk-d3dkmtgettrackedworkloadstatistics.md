@@ -4,8 +4,7 @@ title: D3DKMTGetTrackedWorkloadStatistics function
 author: windows-driver-content
 description: Retrieves the rolling statistics for the tracked workload.
 ms.assetid: a29b19fb-1a03-42a1-9523-059f91939ecd
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTGetTrackedWorkloadStatistics
 req.header: d3dkmthk.h

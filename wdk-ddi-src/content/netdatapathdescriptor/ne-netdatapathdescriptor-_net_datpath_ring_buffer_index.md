@@ -5,12 +5,9 @@ author: windows-driver-content
 description: The NET_DATAPATH_RING_BUFFER_INDEX enumeration defines indices in a datapath queue's array of ring buffers.
 tech.root: netvista
 ms.assetid: 19cc4a99-3419-4710-85f0-c7b9932f6daa
-ms.author: windowsdriverdev
 ms.date: 02/27/2018
 ms.topic: enum
 ms.keywords: _NET_DATPATH_RING_BUFFER_INDEX, NET_DATPATH_RING_BUFFER_INDEX, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: netdatapathdescriptor.h
 req.include-header: netadaptercx.h
 req.target-type:

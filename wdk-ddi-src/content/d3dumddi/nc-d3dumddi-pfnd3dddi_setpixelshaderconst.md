@@ -6,11 +6,8 @@ description: The SetPixelShaderConst function sets one or more pixel shader cons
 old-location: display\setpixelshaderconst.htm
 tech.root: display
 ms.assetid: 02710936-28df-4c8f-aa1e-bdff01155608
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETPIXELSHADERCONST, PFND3DDDI_SETPIXELSHADERCONST callback, SetPixelShaderConst, SetPixelShaderConst callback function [Display Devices], UserModeDisplayDriver_Functions_be972851-58a6-4f22-aae2-7948679b8bb7.xml, d3dumddi/SetPixelShaderConst, display.setpixelshaderconst
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

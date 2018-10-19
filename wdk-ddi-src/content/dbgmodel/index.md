@@ -3,7 +3,7 @@ UID: NA:dbgmodel
 author: windows-driver-content
 ms.assetid: 1ed8e19a-ceff-3fbf-906f-a4cb735628aa
 ms.author: windowsdriverdev
-ms.date: 07/12/18
+ms.date: 07/12/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -17,6 +17,6 @@ tech.root: debugger
 ## -description
 
 
-This header is used by debugger. For more information, see:
+This header is used to create debugger data model apps. For more information, see:
 
-- [Debugger](../_debugger/index.md)
+- [Debugger Data Model C++ Overview](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-overview)

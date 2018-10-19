@@ -4,11 +4,8 @@ title: D3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_TOOLS_VISUALIZATION_HEAD
 author: windows-driver-content
 description: Describes the GPU memory layout of an acceleration structure visualization.
 ms.assetid: 9dc734e8-c981-4707-b3a8-dc46d7d705dd
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_TOOLS_VISUALIZATION_HEADER_0054, D3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_TOOLS_VISUALIZATION_HEADER_0054, 
 req.header: d3d12umddi.h
 req.include-header:

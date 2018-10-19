@@ -6,11 +6,8 @@ description: The SERIAL_HANDFLOW structure specifies the handshake and flow cont
 old-location: serports\serial_handflow.htm
 tech.root: serports
 ms.assetid: E13148B7-8FCE-4407-80F6-286F0EF65B5C
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PSERIAL_HANDFLOW, PSERIAL_HANDFLOW, PSERIAL_HANDFLOW structure pointer [Serial Ports], SERIAL_HANDFLOW, SERIAL_HANDFLOW structure [Serial Ports], _SERIAL_HANDFLOW, ntddser/PSERIAL_HANDFLOW, ntddser/SERIAL_HANDFLOW, serports.serial_handflow"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddser.h
 req.include-header: 

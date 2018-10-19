@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDataModelScriptProvider.GetExtension
 title: IDataModelScriptProvider::GetExtension
 author: windows-driver-content
-description: TBD
+description: The GetExtension method returns the file extension for scripts managed by this provider (without the dot) as a string allocated via the SysAllocString method.
 ms.assetid: e9f079fa-3ce1-4a05-a46e-f5b5268d2a6f
-ms.author: windowsdriverdev
 ms.date: 08/20/2018
 ms.topic: method
 ms.keywords: IDataModelScriptProvider::GetExtension, GetExtension, IDataModelScriptProvider.GetExtension, IDataModelScriptProvider::GetExtension, IDataModelScriptProvider.GetExtension
@@ -35,8 +34,6 @@ api_name:
 -	IDataModelScriptProvider.GetExtension
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

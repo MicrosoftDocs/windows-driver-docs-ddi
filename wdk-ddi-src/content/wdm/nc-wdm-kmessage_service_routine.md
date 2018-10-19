@@ -6,11 +6,8 @@ description: An InterruptMessageService routine services a message-signaled inte
 old-location: kernel\interruptmessageservice.htm
 tech.root: kernel
 ms.assetid: f84e1835-33a4-4300-8701-ed73249f8119
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: DrvrRtns_1f39517a-fa8b-44a4-9e6c-2ecc428cd416.xml, InterruptMessageService, InterruptMessageService routine [Kernel-Mode Driver Architecture], KMESSAGE_SERVICE_ROUTINE, kernel.interruptmessageservice, wdm/InterruptMessageService
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

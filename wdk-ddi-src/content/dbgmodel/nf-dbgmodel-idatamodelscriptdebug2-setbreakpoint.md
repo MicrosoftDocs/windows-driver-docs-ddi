@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDataModelScriptDebug2.SetBreakpoint
 title: IDataModelScriptDebug2::SetBreakpoint
 author: windows-driver-content
-description: TBD
+description: The SetBreakpoint method sets a breakpoint within the script.
 ms.assetid: 8eb84a9d-7f1a-4b23-92d0-bd00022b85d7
-ms.author: windowsdriverdev
 ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebug2::SetBreakpoint, SetBreakpoint, IDataModelScriptDebug2.SetBreakpoint, IDataModelScriptDebug2::SetBreakpoint, IDataModelScriptDebug2.SetBreakpoint
@@ -35,8 +34,6 @@ api_name:
 -	IDataModelScriptDebug2.SetBreakpoint
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

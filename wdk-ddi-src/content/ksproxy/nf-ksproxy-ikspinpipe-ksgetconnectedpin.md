@@ -6,11 +6,8 @@ description: Not recommended for application use.
 old-location: stream\ikspinpipe_ksgetconnectedpin.htm
 tech.root: stream
 ms.assetid: 9025E49D-A12B-4617-9441-13B61137853E
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetConnectedPin method, IKsPinPipe.KsGetConnectedPin, IKsPinPipe::KsGetConnectedPin, KsGetConnectedPin, KsGetConnectedPin method [Streaming Media Devices], KsGetConnectedPin method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetConnectedPin, stream.ikspinpipe_ksgetconnectedpin
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ksproxy.h
 req.include-header: Ksproxy.h

@@ -6,11 +6,8 @@ description: The IPrintOemUI::DevQueryPrintEx method allows a user interface plu
 old-location: print\iprintoemui_devqueryprintex.htm
 tech.root: print
 ms.assetid: a1bc9be3-53ec-4506-a409-94a65d7136e1
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: DevQueryPrintEx, DevQueryPrintEx method [Print Devices], DevQueryPrintEx method [Print Devices],IPrintOemUI interface, IPrintOemUI interface [Print Devices],DevQueryPrintEx method, IPrintOemUI.DevQueryPrintEx, IPrintOemUI::DevQueryPrintEx, prcomoem/IPrintOemUI::DevQueryPrintEx, print.iprintoemui_devqueryprintex, print_unidrv-pscript_ui_64a7a4c1-9478-4710-8d2e-84696b8941b0.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

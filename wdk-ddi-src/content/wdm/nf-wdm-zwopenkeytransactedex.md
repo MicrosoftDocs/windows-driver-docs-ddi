@@ -6,11 +6,8 @@ description: The ZwOpenKeyTransactedEx routine opens an existing registry key an
 old-location: kernel\zwopenkeytransactedex.htm
 tech.root: kernel
 ms.assetid: 8e3db1b4-6ee1-40a1-9818-434152fdffd7
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ZwOpenKeyTransactedEx, ZwOpenKeyTransactedEx routine [Kernel-Mode Driver Architecture], k111_765ab476-0a2a-4eb4-ba87-387fa49ae118.xml, kernel.zwopenkeytransactedex, wdm/ZwOpenKeyTransactedEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

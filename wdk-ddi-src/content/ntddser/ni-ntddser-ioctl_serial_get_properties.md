@@ -6,11 +6,8 @@ description: The IOCTL_SERIAL_GET_PROPERTIES request returns information about t
 old-location: serports\ioctl_serial_get_properties.htm
 tech.root: serports
 ms.assetid: 8404f730-d734-486e-8592-e237e10d5602
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_GET_PROPERTIES, IOCTL_SERIAL_GET_PROPERTIES control, IOCTL_SERIAL_GET_PROPERTIES control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_PROPERTIES, serports.ioctl_serial_get_properties, serref_aff2123d-9c26-4958-84e7-9921fe45398e.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddser.h
 req.include-header: Ntddser.h
@@ -100,7 +97,7 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> is set to the size, in 
 
 If the request is successful, the <b>Information</b> member is set to the size, in bytes, of a <b>SERIAL_COMMPROP</b> structure. Otherwise, the <b>Information</b> member is set to zero.
 
-The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
+The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
 
 
 ## -see-also

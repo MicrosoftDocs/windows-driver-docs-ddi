@@ -6,11 +6,8 @@ description: The FsRtlDeleteExtraCreateParameterLookasideList routine frees an e
 old-location: ifsk\fsrtldeleteextracreateparameterlookasidelist.htm
 tech.root: ifsk
 ms.assetid: 786635b4-db99-4b35-9fb5-23233997d091
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlDeleteExtraCreateParameterLookasideList, FsRtlDeleteExtraCreateParameterLookasideList routine [Installable File System Drivers], fsrtlref_43144ea3-5cbc-43ce-b3f8-4101b1e3aeaa.xml, ifsk.fsrtldeleteextracreateparameterlookasidelist, ntifs/FsRtlDeleteExtraCreateParameterLookasideList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

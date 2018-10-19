@@ -4,12 +4,9 @@ title: D3D12DDI_CROSS_NODE_SHARING_TIER
 author: windows-driver-content
 description: Specifies the level of sharing across nodes of a display adapter.
 ms.assetid: 1cbcab78-491b-42a7-ad10-71a64fe61902
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_CROSS_NODE_SHARING_TIER, D3D12DDI_CROSS_NODE_SHARING_TIER,
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

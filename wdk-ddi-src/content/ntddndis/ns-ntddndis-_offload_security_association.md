@@ -6,11 +6,8 @@ description: The OFFLOAD_SECURITY_ASSOCIATION structure specifies a single secur
 old-location: netvista\offload_security_association.htm
 tech.root: netvista
 ms.assetid: 2c392a13-4db4-4b22-aacf-4450eb1e191c
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*POFFLOAD_SECURITY_ASSOCIATION, 216offload_3c6a958b-81b2-4f18-b974-b0669b6294e1.xml, OFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION structure [Network Drivers Starting with Windows Vista], POFFLOAD_SECURITY_ASSOCIATION, POFFLOAD_SECURITY_ASSOCIATION structure pointer [Network Drivers Starting with Windows Vista], _OFFLOAD_SECURITY_ASSOCIATION, netvista.offload_security_association, ntddndis/OFFLOAD_SECURITY_ASSOCIATION, ntddndis/POFFLOAD_SECURITY_ASSOCIATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ndis.h
@@ -107,7 +104,7 @@ This member is reserved.
 
 The OFFLOAD_SECURITY_ASSOCIATION structure is used with the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a> and 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-udpesp-sa">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-udpesp-sa">
     OID_TCP_TASK_IPSEC_ADD_UDPESP_SA</a> OIDs.
 
 
@@ -126,7 +123,7 @@ The OFFLOAD_SECURITY_ASSOCIATION structure is used with the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-udpesp-sa">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-udpesp-sa">
    OID_TCP_TASK_IPSEC_ADD_UDPESP_SA</a>
  
 

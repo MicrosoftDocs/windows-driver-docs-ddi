@@ -6,11 +6,8 @@ description: The BTHX_HCI_PACKET_TYPE enumeration lists the different types of p
 old-location: bltooth\bthx_hci_packet_type.htm
 tech.root: bltooth
 ms.assetid: 87265ABB-C2B7-468F-83FC-411AD9769517
-ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: BTHX_HCI_PACKET_TYPE, BTHX_HCI_PACKET_TYPE enumeration [Bluetooth Devices], HciPacketAclData, HciPacketCommand, HciPacketEvent, _BTHX_HCI_PACKET_TYPE, bltooth.bthx_hci_packet_type, bthxddi/BTHX_HCI_PACKET_TYPE, bthxddi/HciPacketAclData, bthxddi/HciPacketCommand, bthxddi/HciPacketEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: bthxddi.h
 req.include-header: BthXDDI.h

@@ -6,11 +6,8 @@ description: The client driver's implementation that UCX calls to program inform
 old-location: buses\evt_ucx_usbdevice_enable.htm
 tech.root: usbref
 ms.assetid: ac46a6eb-c30d-4b1f-8e14-0ae44ae0d4f1
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: EVT_UCX_USBDEVICE_ENABLE, EVT_UCX_USBDEVICE_ENABLE callback, EvtUcxUsbDeviceEnable, EvtUcxUsbDeviceEnable callback function [Buses], PEVT_UCX_USBDEVICE_ENABLE, PEVT_UCX_USBDEVICE_ENABLE callback function pointer [Buses], buses.evt_ucx_usbdevice_enable, ucxusbdevice/EvtUcxUsbDeviceEnable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h

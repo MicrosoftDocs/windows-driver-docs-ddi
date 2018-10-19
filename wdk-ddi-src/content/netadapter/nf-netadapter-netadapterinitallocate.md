@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NetAdapterInitAllocate method allocates a NETADAPTER_INIT structure that a client driver uses when creating a new NETADAPTER object.
 tech.root: netvista
 ms.assetid: ba1d5634-2c2b-4680-8212-5e76193d21a8
-ms.author: windowsdriverdev
 ms.date: 08/01/2018
 ms.topic: function
 ms.keywords: NetAdapterInitAllocate

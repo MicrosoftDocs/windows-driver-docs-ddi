@@ -4,11 +4,8 @@ title: DXGKDDI_SIGNALMONITOREDFENCE
 author: windows-driver-content
 description: Adds a GPU instruction to signal the paging monitored fence object to the DMA buffer.
 ms.assetid: d69e18f4-9323-4be5-ad35-3fd009c66b34
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Adds a GPU instruction to signal the paging monitored fence object to the DMA (d
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_SIGNALMONITOREDFENCE DxgkddiSignalmonitoredfence; 
@@ -83,7 +80,7 @@ Returns NTSTATUS.
 WDDM synchronization class: 
 
 * [Zero Level](https://docs.microsoft.com/windows-hardware/drivers/display/threading-and-synchronization-zero-level) for RenderGdi and PresentBlt submission types.
-* [First Level GPU Scheduler Class](https://docs.microsoft.com/en-us/windows-hardware/drivers/display/gpu-scheduler-class) for [BuildPagingBuffer](nc-d3dkmddi-dxgkddi_buildpagingbuffer.md) submission type.
+* [First Level GPU Scheduler Class](https://docs.microsoft.com/windows-hardware/drivers/display/gpu-scheduler-class) for [BuildPagingBuffer](nc-d3dkmddi-dxgkddi_buildpagingbuffer.md) submission type.
 
 
 

@@ -4,11 +4,8 @@ title: _D3DKMT_OUTPUTDUPL_FRAMEINFO
 author: windows-driver-content
 description: 
 ms.assetid: 496c86ee-7ff4-4210-8b5e-ad9a00721cf9
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_OUTPUTDUPL_FRAMEINFO, D3DKMT_OUTPUTDUPL_FRAMEINFO, 
 req.header: d3dkmthk.h
 req.include-header:

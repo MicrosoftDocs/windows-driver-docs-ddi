@@ -6,11 +6,8 @@ description: The PEP_SYSTEM_LATENCY structure specifies the new value for the sy
 old-location: kernel\pep_system_latency.htm
 tech.root: kernel
 ms.assetid: 083ACFD8-A8AE-4205-9E25-497D6A3ADBCD
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_SYSTEM_LATENCY, PEP_SYSTEM_LATENCY, PEP_SYSTEM_LATENCY structure [Kernel-Mode Driver Architecture], PPEP_SYSTEM_LATENCY, PPEP_SYSTEM_LATENCY structure pointer [Kernel-Mode Driver Architecture], _PEP_SYSTEM_LATENCY, kernel.pep_system_latency, pepfx/PEP_SYSTEM_LATENCY, pepfx/PPEP_SYSTEM_LATENCY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
 req.include-header: Pep_x.h
@@ -67,7 +64,7 @@ The <b>PEP_SYSTEM_LATENCY</b> structure specifies the new value for the system l
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186856">PEP_DPM_SYSTEM_LATENCY_UPDATE</a> notification. The <b>Latency</b> member of the structure contains an input value that is supplied by the Windows <a href="https://msdn.microsoft.com/9F2D8ACD-44D5-46E0-9FC7-1B38B99450FF">power management framework</a> (PoFx).
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186856">PEP_DPM_SYSTEM_LATENCY_UPDATE</a> notification. The <b>Latency</b> member of the structure contains an input value that is supplied by the Windows <a href="https://msdn.microsoft.com/9F2D8ACD-44D5-46E0-9FC7-1B38B99450FF">power management framework</a> (PoFx).
 
 
 
@@ -77,7 +74,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186856">PEP_DPM_SYSTEM_LATENCY_UPDATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186856">PEP_DPM_SYSTEM_LATENCY_UPDATE</a>
  
 
  

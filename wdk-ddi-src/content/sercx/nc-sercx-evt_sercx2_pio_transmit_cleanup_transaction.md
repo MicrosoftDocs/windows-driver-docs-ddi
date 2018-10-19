@@ -6,11 +6,8 @@ description: The EvtSerCx2PioTransmitCleanupTransaction event callback function 
 old-location: serports\evtsercx2piotransmitcleanuptransaction.htm
 tech.root: serports
 ms.assetid: 48300C50-47B7-47DC-BDE5-3847E1EAE820
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2PioTransmitCleanupTransaction, EVT_SERCX2_PIO_TRANSMIT_CLEANUP_TRANSACTION, EVT_SERCX2_PIO_TRANSMIT_CLEANUP_TRANSACTION callback, EvtSerCx2PioTransmitCleanupTransaction, EvtSerCx2PioTransmitCleanupTransaction callback function [Serial Ports], serports.evtsercx2piotransmitcleanuptransaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sercx.h
 req.include-header: 
@@ -60,7 +57,7 @@ The <i>EvtSerCx2PioTransmitCleanupTransaction</i> event callback function is cal
 
 ### -param PioTransmit [in]
 
-A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a> handle to a PIO-transmit object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265269">SerCx2PioTransmitCreate</a> method to create this object.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a> handle to a PIO-transmit object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265269">SerCx2PioTransmitCreate</a> method to create this object.
 
 
 ## -returns
@@ -127,7 +124,7 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_CLEANUP_TRANSACTION</b> function type is defined 
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a>
 
 
 

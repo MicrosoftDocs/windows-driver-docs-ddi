@@ -6,11 +6,8 @@ description: The FsRtlLookupPerStreamContext macro retrieves a per-stream contex
 old-location: ifsk\fsrtllookupperstreamcontext.htm
 tech.root: ifsk
 ms.assetid: 8f8c47c3-1917-4252-b812-711ef52d22d7
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlLookupPerStreamContext, FsRtlLookupPerStreamContext function [Installable File System Drivers], fsrtlref_8284a485-5669-4a4f-a2cf-d566b82299fb.xml, ifsk.fsrtllookupperstreamcontext, ntifs/FsRtlLookupPerStreamContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ntifs.h
 req.include-header: Ntifs.h

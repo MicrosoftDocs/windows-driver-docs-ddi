@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDebugHostSymbol2.EnumerateChildrenEx
 title: IDebugHostSymbol2::EnumerateChildrenEx
 author: windows-driver-content
-description: TBD
+description: Enumerates all child symbols of the given type, name, and extended information which is present.
 ms.assetid: 8479d24b-be5f-4c21-adea-699af64adeb2
-ms.author: windowsdriverdev
 ms.date: 09/28/2018
 ms.topic: method
 ms.keywords: IDebugHostSymbol2::EnumerateChildrenEx, EnumerateChildrenEx, IDebugHostSymbol2.EnumerateChildrenEx, IDebugHostSymbol2::EnumerateChildrenEx, IDebugHostSymbol2.EnumerateChildrenEx

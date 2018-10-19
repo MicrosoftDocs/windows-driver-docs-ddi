@@ -6,11 +6,8 @@ description: The WdfRequestRequeue method returns an I/O request to the head of 
 old-location: wdf\wdfrequestrequeue.htm
 tech.root: wdf
 ms.assetid: 955859d2-7c4f-454c-8621-84bacf0b9770
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_a51243a8-1412-4765-93a1-7a8f3ab17814.xml, WdfRequestRequeue, WdfRequestRequeue method, kmdf.wdfrequestrequeue, wdf.wdfrequestrequeue, wdfrequest/WdfRequestRequeue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfrequest.h
 req.include-header: Wdf.h
@@ -141,7 +138,7 @@ A driver can call <b>WdfRequestRequeue</b> only if it using the manual dispatchi
 If the driver calls <b>WdfRequestRequeue</b> after calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548442">WdfIoQueuePurge</a>, the requeue attempt may succeed before the purge is complete. In versions 1.9 and earlier of KMDF, this 
 sequence causes the operating system to crash.  This problem is fixed in KMDF version 1.11 and later.
 
-For more information about <b>WdfRequestRequeue</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/requeuing-i-o-requests">Requeuing I/O Requests</a>.
+For more information about <b>WdfRequestRequeue</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/requeuing-i-o-requests">Requeuing I/O Requests</a>.
 
 
 #### Examples

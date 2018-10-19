@@ -6,11 +6,8 @@ description: Reserved for system use.
 old-location: ifsk\exadjustlookasidedepth.htm
 tech.root: ifsk
 ms.assetid: 2c108eda-ab46-48ed-b43a-7a3da390c64b
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: ExAdjustLookasideDepth, ExAdjustLookasideDepth function [Installable File System Drivers], exref_c7837105-d91f-42c1-ba97-a292550b4eb5.xml, ifsk.exadjustlookasidedepth, ntifs/ExAdjustLookasideDepth
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

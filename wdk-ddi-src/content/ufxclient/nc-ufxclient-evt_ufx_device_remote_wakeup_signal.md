@@ -6,11 +6,8 @@ description: The client driver's implementation to initiate remote wake-up on th
 old-location: buses\evt_ufx_device_remote_wakeup_signal.htm
 tech.root: usbref
 ms.assetid: A1250501-DC33-4AA8-8AD7-9938ECAC8AFB
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: EVT_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL, EVT_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL callback, EvtUfxDeviceRemoteWakeupSignal, EvtUfxDeviceRemoteWakeupSignal callback function [Buses], PFN_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL, PFN_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL callback function pointer [Buses], buses.evt_ufx_device_remote_wakeup_signal, ufxclient/EvtUfxDeviceRemoteWakeupSignal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ufxclient.h
 req.include-header: 

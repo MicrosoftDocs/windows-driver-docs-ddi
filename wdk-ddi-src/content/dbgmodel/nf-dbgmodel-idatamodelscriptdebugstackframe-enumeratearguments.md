@@ -2,10 +2,9 @@
 UID: NF:dbgmodel.IDataModelScriptDebugStackFrame.EnumerateArguments
 title: IDataModelScriptDebugStackFrame::EnumerateArguments
 author: windows-driver-content
-description: TBD
+description: Enumerates arguments to the function in this frame.
 ms.assetid: 2e74264f-f0c4-4951-8cbd-dc63d5b32037
-ms.author: windowsdriverdev
-ms.date: 09/10/2018
+ms.date: 10/03/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebugStackFrame::EnumerateArguments, EnumerateArguments, IDataModelScriptDebugStackFrame.EnumerateArguments, IDataModelScriptDebugStackFrame::EnumerateArguments, IDataModelScriptDebugStackFrame.EnumerateArguments
 req.header: dbgmodel.h
@@ -35,8 +34,6 @@ api_name:
 -	IDataModelScriptDebugStackFrame.EnumerateArguments
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 
@@ -45,7 +42,9 @@ tech.root: debugger
 
 ## -description
 
-IDataModelScriptDebugVariableSetEnumerator interface) for all function arguments of the function called in the stack frame represented by the IDataModelScriptDebugStackFrame interface on which this method was called. 
+Enumerates arguments to the function in this frame.
+
+The EnumerateArguments method returns a variable set (represented by an IDataModelScriptDebugVariableSetEnumerator interface) for all function arguments of the function called in the stack frame represented by the IDataModelScriptDebugStackFrame interface on which this method was called. 
 
 ## -parameters
 
@@ -55,6 +54,7 @@ A variable set enumerator which enumerates all function arguments of the functio
 
 ## -returns
 This method returns HRESULT which indicates success or failure.
+
 ## -remarks
 
 ## -see-also

@@ -4,11 +4,8 @@ title: PFND3DKMT_PRESENTMULTIPLANEOVERLAY3
 author: windows-driver-content
 description: The PFND3DKMT_PRESENTMULTIPLANEOVERLAY3 callback function copies content from a source multiplane overlay allocation to a destination allocation.
 ms.assetid: 6fe0df78-a4ca-4897-b4e9-81489fe19660
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3DKMT_PRESENTMULTIPLANEOVERLAY3 callback function copies content from a 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_PRESENTMULTIPLANEOVERLAY3 Pfnd3dkmtPresentmultiplaneoverlay3; 

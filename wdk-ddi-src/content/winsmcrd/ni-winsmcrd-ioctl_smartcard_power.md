@@ -6,11 +6,8 @@ description: Windows may require a driver to have this IOCTL to be NOP and retur
 old-location: nfpdrivers\ioctl_smartcard_power.htm
 tech.root: nfpdrivers
 ms.assetid: 1B6F95FB-E7DC-4D36-A319-F5EB576F8D7A
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_SMARTCARD_POWER, IOCTL_SMARTCARD_POWER control, IOCTL_SMARTCARD_POWER control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_power, winsmcrd/IOCTL_SMARTCARD_POWER
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: winsmcrd.h
 req.include-header: 

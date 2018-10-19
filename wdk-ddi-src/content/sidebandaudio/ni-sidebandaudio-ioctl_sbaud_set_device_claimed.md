@@ -4,11 +4,8 @@ title: IOCTL_SBAUD_SET_DEVICE_CLAIMED
 author: windows-driver-content
 description: 
 ms.assetid: dd8715ec-a4ef-4269-9ce8-bad347270df7
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/05/2018
 ms.topic: ioctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:
@@ -31,20 +28,26 @@ api_name:
 -	IOCTL_SBAUD_SET_DEVICE_CLAIMED
 product: Windows
 targetos: Windows
+tech.root: audio
 ---
 
 # IOCTL_SBAUD_SET_DEVICE_CLAIMED IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
+### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
+This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
 
 
 
 ## -ioctlparameters
 
 ### -input-buffer
+
+(IN) BOOL  
+- TRUE indicates device was claimed by client
+- FALSE indicates device was not claimed and should be inband.
 
 <text></text>
 
@@ -72,7 +75,7 @@ targetos: Windows
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

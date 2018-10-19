@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IModelKeyReference.Release
 title: IModelKeyReference::Release
 author: windows-driver-content
-description: TBD
+description: Decrements the reference count for an interface on an object. 
 ms.assetid: bf89af91-0904-4f9f-99d8-56f100d90d10
-ms.author: windowsdriverdev
 ms.date: 08/14/2018
 ms.topic: method
 ms.keywords: IModelKeyReference::Release, Release, IModelKeyReference.Release, IModelKeyReference::Release, IModelKeyReference.Release
@@ -35,8 +34,6 @@ api_name:
 -	IModelKeyReference.Release
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

@@ -2,10 +2,9 @@
 UID: NF:dbgmodel.IDebugHostType2.GetTypedefBaseType
 title: IDebugHostType2::GetTypedefBaseType
 author: windows-driver-content
-description: TBD
+description: The GetTypedefBaseType method will return what the immediate definition of the typedef.
 ms.assetid: e0a0a7fb-6049-4e08-9e8b-c10629e4a5e9
-ms.author: windowsdriverdev
-ms.date: 09/20/2018 
+ms.date: 09/20/2018
 ms.topic: method
 ms.keywords: IDebugHostType2::GetTypedefBaseType, GetTypedefBaseType, IDebugHostType2.GetTypedefBaseType, IDebugHostType2::GetTypedefBaseType, IDebugHostType2.GetTypedefBaseType
 req.header: dbgmodel.h
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostType2.GetTypedefBaseType
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

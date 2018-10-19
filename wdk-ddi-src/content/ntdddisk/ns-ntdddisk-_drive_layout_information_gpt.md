@@ -6,11 +6,8 @@ description: The DRIVE_LAYOUT_INFORMATION_GPT structure reports the drive signat
 old-location: storage\drive_layout_information_gpt.htm
 tech.root: storage
 ms.assetid: d99180e0-d989-470c-b330-23372938ab25
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PDRIVE_LAYOUT_INFORMATION_GPT, DRIVE_LAYOUT_INFORMATION_GPT, DRIVE_LAYOUT_INFORMATION_GPT structure [Storage Devices], PDRIVE_LAYOUT_INFORMATION_GPT, PDRIVE_LAYOUT_INFORMATION_GPT structure pointer [Storage Devices], _DRIVE_LAYOUT_INFORMATION_GPT, ntdddisk/DRIVE_LAYOUT_INFORMATION_GPT, ntdddisk/PDRIVE_LAYOUT_INFORMATION_GPT, storage.drive_layout_information_gpt, structs-disk_eca2e047-5de8-4960-9066-28eb0dfedb95.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntdddisk.h
 req.include-header: Ntddk.h

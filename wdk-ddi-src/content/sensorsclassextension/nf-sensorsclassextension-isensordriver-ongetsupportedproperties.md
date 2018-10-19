@@ -6,11 +6,8 @@ description: The ISensorDriver::OnGetSupportedProperties method retrieves the li
 old-location: sensors\isensordriver_ongetsupportedproperties.htm
 tech.root: sensors
 ms.assetid: 8712fe85-0af1-4552-9351-aca4fe5430d1
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ISensorDriver interface [Sensor Devices],OnGetSupportedProperties method, ISensorDriver.OnGetSupportedProperties, ISensorDriver::OnGetSupportedProperties, OnGetSupportedProperties, OnGetSupportedProperties method [Sensor Devices], OnGetSupportedProperties method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_ongetsupportedproperties, sensorsclassextension/ISensorDriver::OnGetSupportedProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsclassextension.h
 req.include-header: 

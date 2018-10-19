@@ -6,11 +6,8 @@ description: The GetSourceEntriesByLineWide method queries symbol information an
 old-location: debugger\getsourceentriesbylinewide.htm
 tech.root: debugger
 ms.assetid: c0c61c6a-35fe-410a-b3e8-70d33557bb9b
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetSourceEntriesByLineWide, GetSourceEntriesByLineWide method [Windows Debugging], GetSourceEntriesByLineWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourceEntriesByLineWide method, IDebugSymbols3.GetSourceEntriesByLineWide, IDebugSymbols3::GetSourceEntriesByLineWide, dbgeng/IDebugSymbols3::GetSourceEntriesByLineWide, debugger.getsourceentriesbylinewide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

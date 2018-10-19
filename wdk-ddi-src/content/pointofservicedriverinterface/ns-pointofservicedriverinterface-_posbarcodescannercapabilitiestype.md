@@ -6,11 +6,8 @@ description: This structure defines the type of scanner capabilities that a devi
 old-location: pos\posbarcodescannercapabilitiestype.htm
 tech.root: pos
 ms.assetid: 4387e6f4-c980-4339-a89c-0e71c5a79e2c
-ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: PosBarcodeScannerCapabilitiesType, PosBarcodeScannerCapabilitiesType structure, _PosBarcodeScannerCapabilitiesType, pointofservicedriverinterface/PosBarcodeScannerCapabilitiesType, pos.posbarcodescannercapabilitiestype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h

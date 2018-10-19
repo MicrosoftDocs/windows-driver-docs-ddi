@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_phy_attributes.htm
 tech.root: netvista
 ms.assetid: 9e81144e-e562-4f61-83de-7b7659106de8
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_PHY_ATTRIBUTES, DOT11_PHY_ATTRIBUTES, DOT11_PHY_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_76ba44f0-4597-4397-b686-1f70e5e27eec.xml, PDOT11_PHY_ATTRIBUTES, PDOT11_PHY_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_phy_attributes, windot11/DOT11_PHY_ATTRIBUTES, windot11/PDOT11_PHY_ATTRIBUTES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -61,7 +58,7 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef struct DOT11_PHY_ATTRIBUTES {
   NDIS_OBJECT_HEADER                  Header;
   DOT11_PHY_TYPE                      PhyType;
@@ -82,7 +79,7 @@ typedef struct DOT11_PHY_ATTRIBUTES {
   DOT11_DATA_RATE_MAPPING_ENTRY       DataRateMappingEntries[DOT11_RATE_SET_MAX_LENGTH];
   DOT11_SUPPORTED_DATA_RATES_VALUE_V2 SupportedDataRatesValue;
 } DOT11_PHY_ATTRIBUTES, *PDOT11_PHY_ATTRIBUTES;
-````
+```
 
 
 ## -struct-fields
@@ -131,11 +128,11 @@ A Boolean value that specifies the hardware power state of the PHY. If <b>TRUE</
       state is enabled. If <b>FALSE</b>, the hardware power state is disabled.
 
 For more information about the PHY's hardware power state, see
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-hardware-phy-state">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-hardware-phy-state">
       OID_DOT11_HARDWARE_PHY_STATE</a>.
 
 <div class="alert"><b>Note</b>  Whenever the PHY's hardware power state changes, the miniport driver must make an
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-phy-state-changed">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-phy-state-changed">
       NDIS_STATUS_DOT11_PHY_STATE_CHANGED</a> media-specific status indication.</div>
 
 ### -field bSoftwarePhyState
@@ -147,7 +144,7 @@ For more information about the PHY's software power state, see
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff569392">OID_DOT11_NIC_POWER_STATE</a>.
 
 <div class="alert"><b>Note</b>  Whenever the PHY's software power state changes, the miniport driver must make an
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-phy-state-changed">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-phy-state-changed">
       NDIS_STATUS_DOT11_PHY_STATE_CHANGED</a> media-specific status indication.</div>
 
 ### -field bCFPollable
@@ -289,7 +286,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-hardware-phy-state">OID_DOT11_HARDWARE_PHY_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-hardware-phy-state">OID_DOT11_HARDWARE_PHY_STATE</a>
 
 
 

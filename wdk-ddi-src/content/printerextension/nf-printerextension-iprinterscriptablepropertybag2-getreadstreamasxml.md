@@ -6,11 +6,8 @@ description:
 old-location: print\iprinterscriptablepropertybag2_getreadstreamasxml.htm
 tech.root: print
 ms.assetid: 1C6477C4-3038-4F8A-871F-7F336E631C8F
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetReadStreamAsXML, GetReadStreamAsXML method [Print Devices], GetReadStreamAsXML method [Print Devices],IPrinterScriptablePropertyBag2 interface, IPrinterScriptablePropertyBag2 interface [Print Devices],GetReadStreamAsXML method, IPrinterScriptablePropertyBag2.GetReadStreamAsXML, IPrinterScriptablePropertyBag2::GetReadStreamAsXML, print.iprinterscriptablepropertybag2_getreadstreamasxml, printerextension/IPrinterScriptablePropertyBag2::GetReadStreamAsXML
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header: 

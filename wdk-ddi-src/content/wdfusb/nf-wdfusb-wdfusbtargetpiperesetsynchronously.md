@@ -6,11 +6,8 @@ description: The WdfUsbTargetPipeResetSynchronously method builds a reset reques
 old-location: wdf\wdfusbtargetpiperesetsynchronously.htm
 tech.root: wdf
 ms.assetid: 7d29fb09-0ddc-4b61-8f85-c0e69d891bc5
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_07fcbce0-9754-49c9-988b-0875242739a0.xml, WdfUsbTargetPipeResetSynchronously, WdfUsbTargetPipeResetSynchronously method, kmdf.wdfusbtargetpiperesetsynchronously, wdf.wdfusbtargetpiperesetsynchronously, wdfusb/WdfUsbTargetPipeResetSynchronously
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
@@ -199,7 +196,7 @@ If you call <a href="https://msdn.microsoft.com/library/windows/hardware/ff54995
 </ul>
 Your driver can specify a non-<b>NULL</b> <i>RequestOptions</i> parameter, whether the driver provides a non-<b>NULL</b> or a <b>NULL</b> <i>Request</i> parameter. You can, for example, use the <i>RequestOptions</i> parameter to specify a time-out value. 
 
-For information about obtaining status information after an I/O request completes, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Obtaining Completion Information</a>.
+For information about obtaining status information after an I/O request completes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-i-o-requests">Obtaining Completion Information</a>.
 
 For more information about the <b>WdfUsbTargetPipeResetSynchronously</b> method and USB I/O targets, see <a href="https://msdn.microsoft.com/195c0f4b-7f33-428a-8de7-32643ad854c6">USB I/O Targets</a>.
 

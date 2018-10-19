@@ -6,11 +6,8 @@ description: The WdfDmaTransactionGetTransferInfo method returns the number of m
 old-location: wdf\wdfdmatransactiongettransferinfo.htm
 tech.root: wdf
 ms.assetid: 9EE04529-D322-4498-B802-BB6A53FBC716
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfDmaTransactionGetTransferInfo, WdfDmaTransactionGetTransferInfo method, kmdf.wdfdmatransactiongettransferinfo, wdf.wdfdmatransactiongettransferinfo, wdfdmatransaction/WdfDmaTransactionGetTransferInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h

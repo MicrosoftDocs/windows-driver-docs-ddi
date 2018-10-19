@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbChannelPacketGetExternalData function gets any external Memory Descriptor Lists (MDLs) associated with a packet during packet processing.
 tech.root: netvista
 ms.assetid: ccc4fa85-12fd-4491-af6e-29248f23f837
-ms.author: windowsdriverdev
 ms.date: 05/21/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:
@@ -51,7 +48,7 @@ Memory Descriptor Lists (MDLs) associated with a packet during packet processing
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_PACKET_GET_EXTERNAL_DATA FnVmbChannelPacketGetExternalData; 

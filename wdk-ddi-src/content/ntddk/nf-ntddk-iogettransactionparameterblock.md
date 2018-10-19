@@ -6,11 +6,8 @@ description: The IoGetTransactionParameterBlock routine returns the transaction 
 old-location: ifsk\iogettransactionparameterblock.htm
 tech.root: ifsk
 ms.assetid: f07919f8-644f-43a4-98d7-d0f1a91d405d
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: IoGetTransactionParameterBlock, IoGetTransactionParameterBlock routine [Installable File System Drivers], ifsk.iogettransactionparameterblock, ioref_4bce32be-89e0-4b69-9e44-a4b619588c79.xml, ntddk/IoGetTransactionParameterBlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h

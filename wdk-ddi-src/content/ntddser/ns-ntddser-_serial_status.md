@@ -6,11 +6,8 @@ description: The SERIAL_STATUS structure contains status information about the s
 old-location: serports\serial_status.htm
 tech.root: serports
 ms.assetid: F77EF32F-FAB6-4800-9241-5AAA9885DEF5
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PSERIAL_STATUS, PSERIAL_STATUS, PSERIAL_STATUS structure pointer [Serial Ports], SERIAL_STATUS, SERIAL_STATUS structure [Serial Ports], _SERIAL_STATUS, ntddser/PSERIAL_STATUS, ntddser/SERIAL_STATUS, serports.serial_status"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddser.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The ObReferenceObjectByPointerWithTag routine increments the refere
 old-location: kernel\obreferenceobjectbypointerwithtag.htm
 tech.root: kernel
 ms.assetid: eaa730a8-8ee3-43a7-a18e-094fbac4ba60
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ObReferenceObjectByPointerWithTag, ObReferenceObjectByPointerWithTag routine [Kernel-Mode Driver Architecture], k107_5e5e16de-36ff-4a81-9fe6-9602053ccc6b.xml, kernel.obreferenceobjectbypointerwithtag, wdm/ObReferenceObjectByPointerWithTag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h

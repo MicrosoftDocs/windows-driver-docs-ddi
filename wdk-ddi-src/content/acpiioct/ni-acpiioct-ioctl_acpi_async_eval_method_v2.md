@@ -6,11 +6,8 @@ description: The IOCTL_ACPI_ASYNC_EVAL_METHOD_V2 control code asynchronously eva
 old-location: acpi\ioctl_acpi_async_eval_method_v2.htm
 tech.root: acpi
 ms.assetid: B502D754-9768-4AA5-AD94-1E99290DA924
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_ACPI_ASYNC_EVAL_METHOD_V2, IOCTL_ACPI_ASYNC_EVAL_METHOD_V2 control, IOCTL_ACPI_ASYNC_EVAL_METHOD_V2 control code [ACPI Devices], acpi.ioctl_acpi_async_eval_method_v2, acpiioct/IOCTL_ACPI_ASYNC_EVAL_METHOD_V2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: acpiioct.h
 req.include-header: Acpiioct.h

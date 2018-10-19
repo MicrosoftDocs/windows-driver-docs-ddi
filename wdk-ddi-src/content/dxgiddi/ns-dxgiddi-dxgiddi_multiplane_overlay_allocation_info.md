@@ -6,11 +6,8 @@ description: Specifies info about a multiplane overlay allocation.
 old-location: display\dxgiddi_multiplane_overlay_allocation_info.htm
 tech.root: display
 ms.assetid: 2736b955-1b25-4ded-a75a-19a1c47f61ee
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO, DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO structure [Display Devices], display.dxgiddi_multiplane_overlay_allocation_info, dxgiddi/DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h

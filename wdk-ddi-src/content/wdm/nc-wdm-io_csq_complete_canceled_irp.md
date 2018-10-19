@@ -6,11 +6,8 @@ description: The CsqCompleteCanceledIrp routine is used by the system to signal 
 old-location: kernel\csqcompletecanceledirp.htm
 tech.root: kernel
 ms.assetid: ed2f8529-dfc7-4db5-b90c-c0bf8840dc70
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: CsqCompleteCanceledIrp, CsqCompleteCanceledIrp routine [Kernel-Mode Driver Architecture], DrvrRtns_07239a13-c445-4f75-8765-ff5806515ecb.xml, IO_CSQ_COMPLETE_CANCELED_IRP, kernel.csqcompletecanceledirp, wdm/CsqCompleteCanceledIrp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

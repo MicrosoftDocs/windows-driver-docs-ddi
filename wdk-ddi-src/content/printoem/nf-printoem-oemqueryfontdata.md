@@ -6,11 +6,8 @@ description: The OEMQueryFontData function retrieves information about a realize
 old-location: print\oemqueryfontdata.htm
 tech.root: print
 ms.assetid: dccf1bca-6ea5-4cf0-b768-b569898c90e7
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: OEMQueryFontData, OEMQueryFontData function [Print Devices], print.oemqueryfontdata, print_unidrv-pscript_rendering_5044e745-e2bf-4047-a8d8-371fc21c33fa.xml, printoem/OEMQueryFontData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: printoem.h
 req.include-header: Printoem.h

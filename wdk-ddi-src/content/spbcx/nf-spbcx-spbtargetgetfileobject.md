@@ -6,11 +6,8 @@ description: The SpbTargetGetFileObject method accepts, as an input parameter, a
 old-location: spb\spbtargetgetfileobject.htm
 tech.root: SPB
 ms.assetid: A89635EC-F5B8-4427-9AFD-9F71339595DF
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: SPB.spbtargetgetfileobject, SpbTargetGetFileObject, SpbTargetGetFileObject method [Buses], spbcx/SpbTargetGetFileObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: spbcx.h
 req.include-header: 
@@ -61,7 +58,7 @@ The <b>SpbTargetGetFileObject</b> method accepts, as an input parameter, an SPBT
 
 ### -param Target [in]
 
-An <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a> handle to a target device on the bus.
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a> handle to a target device on the bus.
 
 
 ## -returns
@@ -101,7 +98,7 @@ After <b>SpbTargetGetFileObject</b> returns a WDFFILEOBJECT handle, there is no 
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
  
 
  

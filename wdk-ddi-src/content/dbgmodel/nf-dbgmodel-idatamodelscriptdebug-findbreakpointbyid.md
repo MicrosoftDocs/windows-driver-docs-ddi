@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDataModelScriptDebug.FindBreakpointById
 title: IDataModelScriptDebug::FindBreakpointById
 author: windows-driver-content
-description: TBD
+description: Each breakpoint which is created within the script via the SetBreakpoint method is assigned a unique identifier (a 64-bit unsigned integer) by the implementation.
 ms.assetid: 138bcb48-3c97-4633-9922-75d37e774027
-ms.author: windowsdriverdev
 ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebug::FindBreakpointById, FindBreakpointById, IDataModelScriptDebug.FindBreakpointById, IDataModelScriptDebug::FindBreakpointById, IDataModelScriptDebug.FindBreakpointById
@@ -35,8 +34,6 @@ api_name:
 -	IDataModelScriptDebug.FindBreakpointById
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

@@ -6,11 +6,8 @@ description: The GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS structure indicates wh
 old-location: gpio\gpio_query_enabled_interrupts_parameters.htm
 tech.root: GPIO
 ms.assetid: CC2EEF26-CCC0-4093-8A44-12FF1EDD2FF9
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PGPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, GPIO.gpio_query_enabled_interrupts_parameters, GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS structure [Parallel Ports], PGPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, PGPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS structure pointer [Parallel Ports], _GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, gpioclx/GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, gpioclx/PGPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: gpioclx.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: FltReferenceFileNameInformation increments the reference count on a
 old-location: ifsk\fltreferencefilenameinformation.htm
 tech.root: ifsk
 ms.assetid: d2df37f3-78f7-4e44-9139-2c2e569bb48d
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_c6cfa7ad-ac72-45ad-9750-c466dd6ede6e.xml, FltReferenceFileNameInformation, FltReferenceFileNameInformation function [Installable File System Drivers], fltkernel/FltReferenceFileNameInformation, ifsk.fltreferencefilenameinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

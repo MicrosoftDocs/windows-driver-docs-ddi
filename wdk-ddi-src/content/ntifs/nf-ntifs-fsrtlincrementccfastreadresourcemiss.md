@@ -6,11 +6,8 @@ description: The FsRtlIncrementCcFastReadResourceMiss routine increments the CcF
 old-location: ifsk\fsrtlincrementccfastreadresourcemiss.htm
 tech.root: ifsk
 ms.assetid: 38264afe-e324-455d-b81a-7dafae8abc1c
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlIncrementCcFastReadResourceMiss, FsRtlIncrementCcFastReadResourceMiss routine [Installable File System Drivers], fsrtlref_4eb3905b-e599-451e-ba6c-29b800b277a5.xml, ifsk.fsrtlincrementccfastreadresourcemiss, ntifs/FsRtlIncrementCcFastReadResourceMiss
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

@@ -6,11 +6,8 @@ description: The OpenFileByName method opens a remote I/O target that is a file.
 old-location: wdf\iwdfremotetarget_openfilebyname.htm
 tech.root: wdf
 ms.assetid: 7f0cef78-3edc-434b-af70-39694776e8a7
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFRemoteTarget interface,OpenFileByName method, IWDFRemoteTarget.OpenFileByName, IWDFRemoteTarget::OpenFileByName, OpenFileByName, OpenFileByName method, OpenFileByName method,IWDFRemoteTarget interface, UMDFIoTargetObjectRef_909b78ee-2d3a-46b2-bfca-f72063ca62f8.xml, umdf.iwdfremotetarget_openfilebyname, wdf.iwdfremotetarget_openfilebyname, wudfddi/IWDFRemoteTarget::OpenFileByName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,9 +47,9 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
-The <b>OpenFileByName</b> method opens a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a> that is a file.
+The <b>OpenFileByName</b> method opens a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a> that is a file.
 
 
 ## -parameters
@@ -115,11 +112,11 @@ The framework's <a href="https://msdn.microsoft.com/e84993e1-da10-4041-8fc7-7f40
 
 Your driver can use <b>OpenFileByName</b> to open a file, if the driver stack to which your driver belongs does not support the file's device. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff558930">IWDFFileHandleTargetFactory::CreateFileHandleTarget</a> to open a file, if the driver stack to which your driver belongs does support the file's device.
 
-The specified file must be accessible by the account that loaded the UMDF-based driver, which is typically the Local Service account. However, if the driver uses <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/handling-client-impersonation-in-umdf-drivers">impersonation</a> when it calls <b>OpenFileByName</b>, the file must be accessible by the impersonated account.
+The specified file must be accessible by the account that loaded the UMDF-based driver, which is typically the Local Service account. However, if the driver uses <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/handling-client-impersonation-in-umdf-drivers">impersonation</a> when it calls <b>OpenFileByName</b>, the file must be accessible by the impersonated account.
 
 Do not call <b>OpenFileByName</b> to open a remote target to a control device object. Instead, open the control device directly by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=152795">CreateFile</a>.
 
-For more information about the <b>OpenFileByName</b> method and remote I/O targets, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">General I/O Targets in UMDF</a>.
+For more information about the <b>OpenFileByName</b> method and remote I/O targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">General I/O Targets in UMDF</a>.
 
 
 #### Examples

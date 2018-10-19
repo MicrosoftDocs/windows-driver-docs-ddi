@@ -2,10 +2,9 @@
 UID: NF:dbgmodel.IModelIterator.Release
 title: IModelIterator::Release
 author: windows-driver-content
-description: TBD
+description: Decrements the reference count for an interface on an object. 
 ms.assetid: a05761bf-cbb7-405a-9e8d-4bf096281488
-ms.author: windowsdriverdev
-ms.date: 08/13/2018 
+ms.date: 08/13/2018
 ms.topic: method
 ms.keywords: IModelIterator::Release, Release, IModelIterator.Release, IModelIterator::Release, IModelIterator.Release
 req.header: dbgmodel.h
@@ -35,8 +34,6 @@ api_name:
 -	IModelIterator.Release
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

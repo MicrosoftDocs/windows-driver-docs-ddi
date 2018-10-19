@@ -2,14 +2,11 @@
 UID: NE:dbgmodel.VarArgsKind
 title: VarArgsKind
 author: windows-driver-content
-description: 
+description: Defines the style of variable arguments that a function definition takes.
 ms.assetid: a3779feb-72c5-443a-ba30-dabb7fcd2e5d
-ms.author: windowsdriverdev
 ms.date: 07/16/2018
 ms.topic: enum
 ms.keywords: VarArgsKind, , 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

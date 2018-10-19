@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The NDIS_WWAN_SET_SAR_TRANSMISSION_STATUS structure sets Specific Absorption Rate (SAR) transmission status in a mobile broadband (MBB) modem.
 tech.root: netvista
 ms.assetid: ee6af893-986d-4286-8c74-37dabc5ac834
-ms.author: windowsdriverdev
 ms.date: 08/20/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _NDIS_WWAN_SET_SAR_TRANSMISSION_STATUS, NDIS_WWAN_SET_SAR_TRANSMISSION_STATUS, *PNDIS_WWAN_SET_SAR_TRANSMISSION_STATUS, 
 req.header: ndiswwan.h
 req.include-header:

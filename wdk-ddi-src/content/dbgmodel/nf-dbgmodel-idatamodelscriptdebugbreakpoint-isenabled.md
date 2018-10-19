@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDataModelScriptDebugBreakpoint.IsEnabled
 title: IDataModelScriptDebugBreakpoint::IsEnabled
 author: windows-driver-content
-description: TBD
+description: The IsEnabled method returns whether or not the breakpoint is enabled.
 ms.assetid: ff1e0637-59d8-4c5f-8d18-3e53da13d701
-ms.author: windowsdriverdev
 ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebugBreakpoint::IsEnabled, IsEnabled, IDataModelScriptDebugBreakpoint.IsEnabled, IDataModelScriptDebugBreakpoint::IsEnabled, IDataModelScriptDebugBreakpoint.IsEnabled
@@ -35,8 +34,6 @@ api_name:
 -	IDataModelScriptDebugBreakpoint.IsEnabled
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

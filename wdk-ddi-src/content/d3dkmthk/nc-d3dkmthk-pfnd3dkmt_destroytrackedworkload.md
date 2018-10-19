@@ -4,11 +4,8 @@ title: PFND3DKMT_DESTROYTRACKEDWORKLOAD
 author: windows-driver-content
 description: Destroys a tracked workload.
 ms.assetid: 0b1d1f0b-bb03-45d5-9c8d-3e1b0354c074
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Destroys a tracked workload.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_DESTROYTRACKEDWORKLOAD Pfnd3dkmtDestroytrackedworkload; 

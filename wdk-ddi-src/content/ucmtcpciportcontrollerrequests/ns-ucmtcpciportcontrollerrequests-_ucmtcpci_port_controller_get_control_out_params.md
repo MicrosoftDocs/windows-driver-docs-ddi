@@ -6,11 +6,8 @@ description: Stores the values of all control registers of the port controller r
 old-location: buses\ucmtcpci_port_controller_get_control_out_params.htm
 tech.root: usbref
 ms.assetid: c75167cb-14c9-4189-961a-97a50c84d6be
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS, PUCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS, PUCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS structure pointer [Buses], UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS, UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS structure [Buses], _UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS, buses.ucmtcpci_port_controller_get_control_out_params, ucmtcpciportcontrollerrequests/PUCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS, ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ucmtcpciportcontrollerrequests.h
 req.include-header: 

@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDataModelNameBinder.Release
 title: IDataModelNameBinder::Release
 author: windows-driver-content
-description: TBD
+description: Decrements the reference count for an interface on an object. 
 ms.assetid: 13f662d0-27ba-4760-b23e-c822a0b03c6f
-ms.author: windowsdriverdev
 ms.date: 09/12/2018
 ms.topic: method
 ms.keywords: IDataModelNameBinder::Release, Release, IDataModelNameBinder.Release, IDataModelNameBinder::Release, IDataModelNameBinder.Release
@@ -35,8 +34,6 @@ api_name:
 -	IDataModelNameBinder.Release
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

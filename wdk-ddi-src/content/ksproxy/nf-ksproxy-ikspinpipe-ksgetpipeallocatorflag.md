@@ -6,11 +6,8 @@ description: Not recommended for application use.
 old-location: stream\ikspinpipe_ksgetpipeallocatorflag.htm
 tech.root: stream
 ms.assetid: EBF5B615-A7B1-4B44-855C-7956334AAF75
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetPipeAllocatorFlag method, IKsPinPipe.KsGetPipeAllocatorFlag, IKsPinPipe::KsGetPipeAllocatorFlag, KsGetPipeAllocatorFlag, KsGetPipeAllocatorFlag method [Streaming Media Devices], KsGetPipeAllocatorFlag method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetPipeAllocatorFlag, stream.ikspinpipe_ksgetpipeallocatorflag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ksproxy.h
 req.include-header: Ksproxy.h

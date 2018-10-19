@@ -6,11 +6,8 @@ description: The KsFilterGetChildPinCountfunctionreturns the number of pins of a
 old-location: stream\ksfiltergetchildpincount.htm
 tech.root: stream
 ms.assetid: 29e78bc3-0dc2-4e76-b683-c1e9a2d454d4
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsFilterGetChildPinCount, KsFilterGetChildPinCount function [Streaming Media Devices], avfunc_cddbf6bc-da19-47a6-96d5-0d4151e70ff8.xml, ks/KsFilterGetChildPinCount, stream.ksfiltergetchildpincount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

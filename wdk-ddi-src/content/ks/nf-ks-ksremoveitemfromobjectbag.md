@@ -6,11 +6,8 @@ description: The KsRemoveItemFromObjectBag function removes an item from an obje
 old-location: stream\ksremoveitemfromobjectbag.htm
 tech.root: stream
 ms.assetid: 8644b5eb-e038-4cdb-b461-d643ff929736
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsRemoveItemFromObjectBag, KsRemoveItemFromObjectBag function [Streaming Media Devices], avfunc_dbc6f0e3-7e24-4147-99d2-28e64a6a1ff9.xml, ks/KsRemoveItemFromObjectBag, stream.ksremoveitemfromobjectbag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

@@ -6,11 +6,8 @@ description: The PowerControlCallback callback routine performs a power control 
 old-location: kernel\powercontrolcallback.htm
 tech.root: kernel
 ms.assetid: 110DAD1A-606B-4973-8724-03B531B2AEA9
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PO_FX_POWER_CONTROL_CALLBACK, PowerControlCallback, PowerControlCallback routine [Kernel-Mode Driver Architecture], kernel.powercontrolcallback, wdm/PowerControlCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wudfwdm.h
 req.include-header: Wudfwdm.h

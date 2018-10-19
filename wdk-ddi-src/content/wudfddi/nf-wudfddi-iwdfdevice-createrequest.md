@@ -6,11 +6,8 @@ description: The CreateRequest method creates an unformatted request object.
 old-location: wdf\iwdfdevice_createrequest.htm
 tech.root: wdf
 ms.assetid: 031ce604-9d6f-4fdd-bacc-d1897f260a14
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: CreateRequest, CreateRequest method, CreateRequest method,IWDFDevice interface, IWDFDevice interface,CreateRequest method, IWDFDevice.CreateRequest, IWDFDevice::CreateRequest, UMDFDeviceObjectRef_9eb18b05-e5fc-48cf-907b-ed7d188eac4b.xml, umdf.iwdfdevice_createrequest, wdf.iwdfdevice_createrequest, wudfddi/IWDFDevice::CreateRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>CreateRequest</b> method creates an unformatted request object.
 
@@ -110,7 +107,7 @@ Before a UMDF driver uses the request object that <b>CreateRequest</b> creates, 
 
 </li>
 </ul>
-If a driver calls <b>CreateRequest</b> to create a request object, it must not call <a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a> for the request object. Instead, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a> when it has finished using the request object. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
+If a driver calls <b>CreateRequest</b> to create a request object, it must not call <a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a> for the request object. Instead, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a> when it has finished using the request object. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
 
 If <b>NULL</b> is specified in the <i>pParentObject</i> parameter, the device object becomes the default parent object for the newly created I/O request object. If a UMDF driver creates an I/O request object that the driver uses with a specific I/O queue object or another I/O request object, the driver should set that queue or request object as the created request object's parent object. When the parent object is deleted, the created request object is deleted. 
 

@@ -6,11 +6,8 @@ description: The AVCPRECONNECTINFO structure is used to initialize a subunit dri
 old-location: stream\avcpreconnectinfo.htm
 tech.root: stream
 ms.assetid: 828ce6cf-f47a-4487-8c45-887f2ace8202
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PAVCPRECONNECTINFO, AVCPRECONNECTINFO, AVCPRECONNECTINFO structure [Streaming Media Devices], PAVCPRECONNECTINFO, PAVCPRECONNECTINFO structure pointer [Streaming Media Devices], _AVCPRECONNECTINFO, avc/AVCPRECONNECTINFO, avc/PAVCPRECONNECTINFO, avcref_c38bc8dd-8218-40ea-95b6-c5376fa6273c.xml, stream.avcpreconnectinfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: avc.h
 req.include-header: Avc.h

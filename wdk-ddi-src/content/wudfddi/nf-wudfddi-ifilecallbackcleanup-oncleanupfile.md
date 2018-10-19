@@ -6,11 +6,8 @@ description: The OnCleanupFile method cancels all I/O requests that a driver has
 old-location: wdf\ifilecallbackcleanup_oncleanupfile.htm
 tech.root: wdf
 ms.assetid: e6dd18f4-725f-4611-ad70-029654cf4375
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IFileCallbackCleanup interface,OnCleanupFile method, IFileCallbackCleanup.OnCleanupFile, IFileCallbackCleanup::OnCleanupFile, OnCleanupFile, OnCleanupFile method, OnCleanupFile method,IFileCallbackCleanup interface, UMDFFileObjectRef_a264918b-dd98-40e8-b644-d39414c2351c.xml, umdf.ifilecallbackcleanup_oncleanupfile, wdf.ifilecallbackcleanup_oncleanupfile, wudfddi/IFileCallbackCleanup::OnCleanupFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>OnCleanupFile</b> method cancels all I/O requests that a driver has pending in the framework queue. 
 

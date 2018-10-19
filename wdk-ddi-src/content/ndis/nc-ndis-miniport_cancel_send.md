@@ -6,11 +6,8 @@ description: NDIS calls a miniport driver's MiniportCancelSend function to cance
 old-location: netvista\miniportcancelsend.htm
 tech.root: netvista
 ms.assetid: 17111aa3-c02f-494a-af97-5ab34c152451
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_CANCEL_SEND, MINIPORT_CANCEL_SEND callback, MiniportCancelSend, MiniportCancelSend callback function [Network Drivers Starting with Windows Vista], ndis/MiniportCancelSend, ndis_sendrcv_ref_86f1ff8c-c68b-49e3-8d77-883d7e055961.xml, netvista.miniportcancelsend
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -107,7 +104,7 @@ A miniport driver's
 <ol>
 <li>
 Traverses its list of queued NET_BUFFER_LIST structures for the specified adapter and calls the 
-      <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff567299">
       NDIS_GET_NET_BUFFER_LIST_CANCEL_ID</a> macro to obtain the cancellation identifier for each queued
       NET_BUFFER_LIST structure. The miniport driver compares the cancellation identifier that
       NDIS_GET_NET_BUFFER_LIST_CANCEL_ID returns with the cancellation identifier that NDIS passed to 
@@ -198,7 +195,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567299">
    NDIS_GET_NET_BUFFER_LIST_CANCEL_ID</a>
 
 

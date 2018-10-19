@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA method initializes a NET_ADAPTER_RX_CAPABILITIES structure for a net adapter that would like to specify operating system-managed receive buffer allocation and attachment, as well as DMA for memory mapping.
 tech.root: netvista
 ms.assetid: 784695e1-dd5f-49ab-b72d-31857b1f13aa
-ms.author: windowsdriverdev
 ms.date: 02/14/2018
 ms.topic: function
 ms.keywords: NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA

@@ -6,11 +6,8 @@ description: A callback to destroy a hardware context.
 old-location: display\pfnd3dddi_destroyhwcontextcb.htm
 tech.root: display
 ms.assetid: CD3B8EE1-8B54-4F0A-B3C7-3B6F7D968497
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_DESTROYHWCONTEXTCB, PFND3DDDI_DESTROYHWCONTEXTCB callback, PFND3DDDI_DESTROYHWCONTEXTCB callback function [Display Devices], d3dumddi/PFND3DDDI_DESTROYHWCONTEXTCB, display.pfnd3dddi_destroyhwcontextcb
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: 

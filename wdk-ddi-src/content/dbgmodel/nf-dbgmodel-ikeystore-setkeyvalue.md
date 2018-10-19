@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IKeyStore.SetKeyValue
 title: IKeyStore::SetKeyValue
 author: windows-driver-content
-description: TBD
+description: The SetKeyValue method is analogous to the SetKeyValue method on IModelObject.
 ms.assetid: 335a6361-3c79-4eb7-96e0-ca54098ba607
-ms.author: windowsdriverdev
 ms.date: 08/13/2018
 ms.topic: method
 ms.keywords: IKeyStore::SetKeyValue, SetKeyValue, IKeyStore.SetKeyValue, IKeyStore::SetKeyValue, IKeyStore.SetKeyValue
@@ -35,8 +34,6 @@ api_name:
 -	IKeyStore.SetKeyValue
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

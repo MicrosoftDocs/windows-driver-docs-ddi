@@ -6,11 +6,8 @@ description:
 old-location: print\spoolerfindnextprinterchangenotification.htm
 tech.root: print
 ms.assetid: FE69BD53-F463-480A-820B-4259D6F48BD0
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: SpoolerFindNextPrinterChangeNotification, SpoolerFindNextPrinterChangeNotification function [Print Devices], print.spoolerfindnextprinterchangenotification, winsplp/SpoolerFindNextPrinterChangeNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsplp.h
 req.include-header: 

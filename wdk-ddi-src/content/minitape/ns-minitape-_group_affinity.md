@@ -6,11 +6,8 @@ description: The GROUP_AFFINITY structure specifies a group number and the proce
 old-location: kernel\group_affinity.htm
 tech.root: kernel
 ms.assetid: 8a6fd914-94f9-4ccf-9b0a-cc102fd90965
-ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: "*PGROUP_AFFINITY, GROUP_AFFINITY, GROUP_AFFINITY structure [Kernel-Mode Driver Architecture], PGROUP_AFFINITY, PGROUP_AFFINITY structure pointer [Kernel-Mode Driver Architecture], _GROUP_AFFINITY, kernel.group_affinity, kstruct_b_9d437322-c6bb-4579-8d7b-144a7513bbd9.xml, miniport/GROUP_AFFINITY, miniport/PGROUP_AFFINITY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: minitape.h
 req.include-header: Winnt.h, Ntdef.h, Windef.h, Minitape.h
@@ -56,13 +53,13 @@ The <b>GROUP_AFFINITY</b> structure specifies a group number and the processor <
 ## -syntax
 
 
-````
+```cpp
 typedef struct _GROUP_AFFINITY {
   KAFFINITY Mask;
   WORD      Group;
   WORD      Reserved[3];
 } GROUP_AFFINITY, *PGROUP_AFFINITY;
-````
+```
 
 
 ## -struct-fields
@@ -72,7 +69,7 @@ typedef struct _GROUP_AFFINITY {
 
 ### -field Mask
 
-Specifies the affinity mask. This parameter is a [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) value. The bits in the affinity mask identify a set of processors within the group identified by <b>Group</b>.
+Specifies the affinity mask. This parameter is a [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) value. The bits in the affinity mask identify a set of processors within the group identified by <b>Group</b>.
 
 
 ### -field Group
@@ -112,7 +109,7 @@ A <b>GROUP_AFFINITY</b> structure can describe an interrupt affinity, which is a
 
 
 
-[**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)
+[**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)
 
 
 

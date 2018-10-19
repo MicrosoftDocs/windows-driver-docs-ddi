@@ -6,11 +6,8 @@ description: The INSTANCE_BASIC_INFORMATION structure contains basic information
 old-location: ifsk\instance_basic_information.htm
 tech.root: ifsk
 ms.assetid: 35e2b098-1bc2-4ffc-86c8-b60b651df027
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltSystemStructures_bc615e69-e0f4-478b-9684-9371d62f5602.xml, INSTANCE_BASIC_INFORMATION, INSTANCE_BASIC_INFORMATION structure [Installable File System Drivers], PINSTANCE_BASIC_INFORMATION, PINSTANCE_BASIC_INFORMATION structure pointer [Installable File System Drivers], _INSTANCE_BASIC_INFORMATION, fltuserstructures/INSTANCE_BASIC_INFORMATION, fltuserstructures/PINSTANCE_BASIC_INFORMATION, ifsk.instance_basic_information
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: fltuserstructures.h
 req.include-header: FltUser.h, Fltkernel.h

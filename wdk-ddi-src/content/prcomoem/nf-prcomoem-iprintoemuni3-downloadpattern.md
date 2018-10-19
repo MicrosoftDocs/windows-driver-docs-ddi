@@ -6,11 +6,8 @@ description: The IPrintOemUni3::DownloadPattern method downloads a pattern to a 
 old-location: print\iprintoemuni3_downloadpattern.htm
 tech.root: print
 ms.assetid: 7604a6df-c73a-4114-916f-1e777a323731
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: DownloadPattern, DownloadPattern method [Print Devices], DownloadPattern method [Print Devices],IPrintOemUni3 interface, IPrintOemUni3 interface [Print Devices],DownloadPattern method, IPrintOemUni3.DownloadPattern, IPrintOemUni3::DownloadPattern, prcomoem/IPrintOemUni3::DownloadPattern, print.iprintoemuni3_downloadpattern, print_unidrv-pscript_rendering_ce79f65e-3515-4d0b-96d6-d468c15039f1.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

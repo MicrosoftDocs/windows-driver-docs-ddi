@@ -6,11 +6,8 @@ description: Retrieves an Authentication Grant Identifier (AGID) that identifies
 old-location: storage\ioctl_aacs_start_session.htm
 tech.root: storage
 ms.assetid: b5fb5dac-7f63-4457-bb25-61315395429b
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_AACS_START_SESSION, IOCTL_AACS_START_SESSION control, IOCTL_AACS_START_SESSION control code [Storage Devices], k307_a9378e49-2d39-4532-bac7-5fe9612ea5d0.xml, ntddcdvd/IOCTL_AACS_START_SESSION, storage.ioctl_aacs_start_session
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h

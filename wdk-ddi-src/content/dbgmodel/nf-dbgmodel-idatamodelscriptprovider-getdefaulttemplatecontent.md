@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDataModelScriptProvider.GetDefaultTemplateContent
 title: IDataModelScriptProvider::GetDefaultTemplateContent
 author: windows-driver-content
-description: TBD
+description: The GetDefaultTemplateContent method returns an interface for the default template content of the provider.
 ms.assetid: 62471d06-62bf-4dd7-a132-0305c629a6c6
-ms.author: windowsdriverdev
 ms.date: 08/20/2018
 ms.topic: method
 ms.keywords: IDataModelScriptProvider::GetDefaultTemplateContent, GetDefaultTemplateContent, IDataModelScriptProvider.GetDefaultTemplateContent, IDataModelScriptProvider::GetDefaultTemplateContent, IDataModelScriptProvider.GetDefaultTemplateContent
@@ -35,8 +34,6 @@ api_name:
 -	IDataModelScriptProvider.GetDefaultTemplateContent
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

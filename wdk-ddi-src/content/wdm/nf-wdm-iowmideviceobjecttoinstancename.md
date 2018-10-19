@@ -6,11 +6,8 @@ description: The IoWMIDeviceObjectToInstanceName routine determines the instance
 old-location: kernel\iowmideviceobjecttoinstancename.htm
 tech.root: kernel
 ms.assetid: 18692c0d-8b74-495d-b66a-2873837ff797
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoWMIDeviceObjectToInstanceName, IoWMIDeviceObjectToInstanceName routine [Kernel-Mode Driver Architecture], k104_9341dc2b-c948-44bd-891d-a530a8676259.xml, kernel.iowmideviceobjecttoinstancename, wdm/IoWMIDeviceObjectToInstanceName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

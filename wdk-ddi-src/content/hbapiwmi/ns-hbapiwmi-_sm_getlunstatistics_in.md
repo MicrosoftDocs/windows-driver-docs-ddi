@@ -6,11 +6,8 @@ description: The SM_GetLUNStatistics_IN structure is used to provide input param
 old-location: storage\sm_getlunstatistics_in.htm
 tech.root: storage
 ms.assetid: c551a376-2148-4fc4-ba4e-9c1ce1eea1d8
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSM_GetLUNStatistics_IN, PSM_GetLUNStatistics_IN, PSM_GetLUNStatistics_IN structure pointer [Storage Devices], SM_GetLUNStatistics_IN, SM_GetLUNStatistics_IN structure [Storage Devices], _SM_GetLUNStatistics_IN, hbapiwmi/PSM_GetLUNStatistics_IN, hbapiwmi/SM_GetLUNStatistics_IN, storage.sm_getlunstatistics_in, structs-Fibre_537f91a2-0183-4e6d-a3ef-22474349e6e7.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h

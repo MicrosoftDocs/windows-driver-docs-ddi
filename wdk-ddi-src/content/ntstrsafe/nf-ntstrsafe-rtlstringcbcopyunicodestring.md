@@ -6,11 +6,8 @@ description: The RtlStringCbCopyUnicodeString function copies the contents of a 
 old-location: kernel\rtlstringcbcopyunicodestring.htm
 tech.root: kernel
 ms.assetid: 87b123ff-0188-4d45-b455-d1ec9def4d63
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlStringCbCopyUnicodeString, RtlStringCbCopyUnicodeString function [Kernel-Mode Driver Architecture], kernel.rtlstringcbcopyunicodestring, ntstrsafe/RtlStringCbCopyUnicodeString, safestrings_1c916f4b-b084-4587-a867-998b789bd2fa.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h

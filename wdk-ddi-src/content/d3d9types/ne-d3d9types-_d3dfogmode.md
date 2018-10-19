@@ -4,12 +4,9 @@ title: _D3DFOGMODE
 author: windows-driver-content
 description: 
 ms.assetid: 37898f4e-bace-4e15-818f-f8dba81f57fb
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DFOGMODE, D3DFOGMODE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d9types.h
 req.include-header:
 req.target-type:

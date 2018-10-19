@@ -4,8 +4,7 @@ title: D3DKMTCreateOutputDupl function
 author: windows-driver-content
 description: Reserved for system use. Do not use in your driver.
 ms.assetid: 23e39e16-fffd-4687-a26b-6183fad6ba29
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTCreateOutputDupl
 req.header: d3dkmthk.h

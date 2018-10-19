@@ -6,11 +6,8 @@ description: The PoFxActivateComponent routine increments the activation referen
 old-location: kernel\pofxactivatecomponent.htm
 tech.root: kernel
 ms.assetid: B964B836-68C1-4254-963C-8D46ACE64107
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PO_FX_FLAG_ASYNC_ONLY, PO_FX_FLAG_BLOCKING, PoFxActivateComponent, PoFxActivateComponent routine [Kernel-Mode Driver Architecture], kernel.pofxactivatecomponent, wdm/PoFxActivateComponent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: 

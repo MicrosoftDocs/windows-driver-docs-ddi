@@ -2,10 +2,9 @@
 UID: NF:dbgmodel.IModelObject.GetTypeInfo
 title: IModelObject::GetTypeInfo
 author: windows-driver-content
-description: TBD
+description: The GetTypeInfo method will return the native type of the given object. If the object does not have native type information associated with it the call will still succeed but will return null. 
 ms.assetid: 15543aee-79aa-45e7-ad7a-017eab0e7d74
-ms.author: windowsdriverdev
-ms.date: 08/13/2018 
+ms.date: 08/13/2018
 ms.topic: method
 ms.keywords: IModelObject::GetTypeInfo, GetTypeInfo, IModelObject.GetTypeInfo, IModelObject::GetTypeInfo, IModelObject.GetTypeInfo
 req.header: dbgmodel.h
@@ -35,8 +34,6 @@ api_name:
 -	IModelObject.GetTypeInfo
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

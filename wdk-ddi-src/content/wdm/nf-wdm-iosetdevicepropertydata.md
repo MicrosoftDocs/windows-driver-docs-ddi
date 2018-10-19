@@ -6,11 +6,8 @@ description: The IoSetDevicePropertyData routine modifies the current setting fo
 old-location: kernel\iosetdevicepropertydata.htm
 tech.root: kernel
 ms.assetid: 8e535a6a-9b17-4ef6-b068-43042a589ac0
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoSetDevicePropertyData, IoSetDevicePropertyData routine [Kernel-Mode Driver Architecture], k104_a7cd308b-4d43-4364-80fb-ae773d0de101.xml, kernel.iosetdevicepropertydata, wdm/IoSetDevicePropertyData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
@@ -76,7 +73,7 @@ The <b>LOCALE_NEUTRAL</b> LCID specifies that the property is language-neutral (
 
 Do not set this parameter to <b>LOCALE_SYSTEM_DEFAULT</b> or <b>LOCALE_USER_DEFAULT</b>.
 
-For more information about language-specific LCID values, see <a href="http://msdn.microsoft.com/en-us/library/cc233968(PROT.10).aspx">LCID Structure</a>.
+For more information about language-specific LCID values, see <a href="http://msdn.microsoft.com/library/cc233968(PROT.10).aspx">LCID Structure</a>.
 
 
 ### -param Flags [in]

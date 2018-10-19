@@ -6,11 +6,8 @@ description: A protocol driver or intermediate driver calls the NdisOffloadTcpSe
 old-location: netvista\ndisoffloadtcpsend.htm
 tech.root: netvista
 ms.assetid: a2743bbb-a6fa-4b7e-8087-132e221a5624
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisOffloadTcpSend, NdisOffloadTcpSend function [Network Drivers Starting with Windows Vista], ndischimney/NdisOffloadTcpSend, netvista.ndisoffloadtcpsend, tcp_chim_ndis_func_51f71d27-0877-4046-b80d-8c05765d8e69.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
@@ -67,7 +64,7 @@ A protocol driver or intermediate driver calls the
 A handle to an 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff566705">NDIS_OFFLOAD_HANDLE</a> structure in the
      caller's context for the offloaded TCP connection. For more information, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/referencing-offloaded-state-through-an-intermediate-driver">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/referencing-offloaded-state-through-an-intermediate-driver">
      Referencing Offloaded State Through an Intermediate Driver</a>.
 
 
@@ -113,7 +110,7 @@ To the
 An 
       <i>NdisOffloadHandle</i> that references the NDIS_OFFLOAD_HANDLE structure stored in the intermediate
       driver's context for the offloaded TCP connection. For more information, see 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/referencing-offloaded-state-through-an-intermediate-driver">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/referencing-offloaded-state-through-an-intermediate-driver">
       Referencing Offloaded State Through an Intermediate Driver</a>.
 
 </li>

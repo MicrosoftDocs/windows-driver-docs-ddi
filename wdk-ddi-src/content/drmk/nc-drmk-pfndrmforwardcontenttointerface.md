@@ -6,11 +6,8 @@ description: This callback function is reserved for system use.
 old-location: audio\pfndrmforwardcontenttointerface.htm
 tech.root: audio
 ms.assetid: DFD077B7-307B-439B-828D-DC225FC5AAA0
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: DRMForwardContentToInterface, DRMForwardContentToInterface callback function [Audio Devices], PFNDRMFORWARDCONTENTTOINTERFACE, PFNDRMFORWARDCONTENTTOINTERFACE callback, PfnDRMForwardContentToInterface, PfnDRMForwardContentToInterface callback function [Audio Devices], audio.pfndrmforwardcontenttointerface, drmk/PfnDRMForwardContentToInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: drmk.h
 req.include-header: 

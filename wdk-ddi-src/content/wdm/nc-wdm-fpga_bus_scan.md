@@ -4,11 +4,8 @@ title: FPGA_BUS_SCAN
 author: windows-driver-content
 description: Reserved for future use. Triggers a bus scan at the parent of the FPGA device.
 ms.assetid: 9508f992-23b7-49d8-8eb7-3bd5214a6835
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Triggers a bus scan at the parent of the FPGA device.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FPGA_BUS_SCAN FpgaBusScan; 

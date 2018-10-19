@@ -6,11 +6,8 @@ description: The USB dual-role class extension invokes this callback to allow th
 old-location: buses\evt_urs_device_filter_resource_requirements.htm
 tech.root: usbref
 ms.assetid: E5CFA6CF-1EB3-41FA-BAE4-A030737F220D
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS, EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback, EvtUrsDeviceFilterResourceRequirements, EvtUrsDeviceFilterResourceRequirements callback function [Buses], PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS, PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback function pointer [Buses], buses.evt_urs_device_filter_resource_requirements, ursdevice/EvtUrsDeviceFilterResourceRequirements
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ursdevice.h
 req.include-header: Urscx.h
@@ -91,11 +88,11 @@ If the operation is successful, the callback function must return STATUS_SUCCESS
 
 
 
-The client driver registers its implementation with the USB dual-role class extension by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt628012">UrsDeviceInitialize</a> after calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a> to create the framework device object for the controller. The class extension invokes this callback before <a href="https://msdn.microsoft.com/a3d4a983-8a75-44be-bd72-8673d89f9f87">EvtDevicePrepareHardware</a>. The callback is invoked within the class extension's <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff540870">EvtDeviceFilterRemoveResourceRequirements</a>, which is registered on behalf of the client driver. The client must not implement and register its <i>EvtDeviceFilterRemoveResourceRequirements</i> because it will override the class extension's implementation.
+The client driver registers its implementation with the USB dual-role class extension by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt628012">UrsDeviceInitialize</a> after calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a> to create the framework device object for the controller. The class extension invokes this callback before <a href="https://msdn.microsoft.com/a3d4a983-8a75-44be-bd72-8673d89f9f87">EvtDevicePrepareHardware</a>. The callback is invoked within the class extension's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540870">EvtDeviceFilterRemoveResourceRequirements</a>, which is registered on behalf of the client driver. The client must not implement and register its <i>EvtDeviceFilterRemoveResourceRequirements</i> because it will override the class extension's implementation.
 
 Each role has a certain number of assigned hardware resources. Those resources can be memory, interrupts, and so on. The resources are maintained by the system in a <i>resource requirements list</i> that contains the range of hardware resources in which the device can operate. 
 
-For more information about resource requirements lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Handling Hardware Resources</a>.
+For more information about resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Handling Hardware Resources</a>.
 
 The class extension allocates memory for the <i>resource requirements list</i> and <i>resource lists</i> for both host and function roles. When the class extension  invokes the client driver's implementation of <i>EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS</i>, it passes a WDFIORESREQLIST handle to that requirements list along with URSIORESLIST handles for host and function role <i>resource lists</i>. In the implementation, the client driver is expected to enumerate through the logical configurations in the requirements list and check the resource descriptor for each configuration by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548510">WdfIoResourceListGetDescriptor</a>. 
 
@@ -234,7 +231,7 @@ EvtUrsFilterRemoveResourceRequirements (
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Handling Hardware Resources</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Handling Hardware Resources</a>
 
 
 

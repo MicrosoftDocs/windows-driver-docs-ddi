@@ -6,11 +6,8 @@ description: The WdfDeviceInitSetFileObjectConfig method registers event callbac
 old-location: wdf\wdfdeviceinitsetfileobjectconfig.htm
 tech.root: wdf
 ms.assetid: e309a741-1f61-4668-8176-baf0c8e26dff
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_97ec0f62-e8d2-46f9-b37a-13a632425a77.xml, WdfDeviceInitSetFileObjectConfig, WdfDeviceInitSetFileObjectConfig method, kmdf.wdfdeviceinitsetfileobjectconfig, wdf.wdfdeviceinitsetfileobjectconfig, wdfdevice/WdfDeviceInitSetFileObjectConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h
@@ -93,9 +90,9 @@ None
 
 If a driver calls <b>WdfDeviceInitSetFileObjectConfig</b>, it must do so before it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>.
 
-By default, each framework file object inherits its synchronization scope and execution level from its parent device object. If the parent device object's synchronization scope and execution level are not <b>WdfSynchronizationScopeNone</b> and <b>WdfExecutionLevelPassive</b>, the driver must set the <b>WdfSynchronizationScopeNone</b> and <b>WdfExecutionLevelPassive</b> values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure that the <i>FileObjectAttributes </i>parameter specifies. Otherwise, <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a> will return an error status code. For more information about synchronization scope and execution level, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-automatic-synchronization">Using Automatic Synchronization</a>.
+By default, each framework file object inherits its synchronization scope and execution level from its parent device object. If the parent device object's synchronization scope and execution level are not <b>WdfSynchronizationScopeNone</b> and <b>WdfExecutionLevelPassive</b>, the driver must set the <b>WdfSynchronizationScopeNone</b> and <b>WdfExecutionLevelPassive</b> values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure that the <i>FileObjectAttributes </i>parameter specifies. Otherwise, <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a> will return an error status code. For more information about synchronization scope and execution level, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-automatic-synchronization">Using Automatic Synchronization</a>.
 
-For more information about calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
+For more information about calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
 
 For more information about framework file objects, see <a href="https://msdn.microsoft.com/93ec5dd7-8ef0-4cea-9253-ea5d7869d4b8">Framework File Objects</a>
 

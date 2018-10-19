@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDataModelScript.Rename
 title: IDataModelScript::Rename
 author: windows-driver-content
-description: TBD
+description: The Rename method assigns a new name to the script. 
 ms.assetid: b6bb9297-1c8a-4f4c-a5c7-dfa62408be9d
-ms.author: windowsdriverdev
 ms.date: 08/20/2018
 ms.topic: method
 ms.keywords: IDataModelScript::Rename, Rename, IDataModelScript.Rename, IDataModelScript::Rename, IDataModelScript.Rename
@@ -35,8 +34,6 @@ api_name:
 -	IDataModelScript.Rename
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

@@ -6,11 +6,8 @@ description: The NdisIfDeregisterProvider function deregisters an interface prov
 old-location: netvista\ndisifderegisterprovider.htm
 tech.root: netvista
 ms.assetid: 90e921e3-b384-495b-8cb6-74596d060ec0
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisIfDeregisterProvider, NdisIfDeregisterProvider function [Network Drivers Starting with Windows Vista], ndis/NdisIfDeregisterProvider, net_if_functions_ref_7e9c9d72-3b55-4001-9848-c79608608c82.xml, netvista.ndisifderegisterprovider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

@@ -6,11 +6,8 @@ description: The IOCTL_PAR_QUERY_INFORMATION request returns the status of an IE
 old-location: parports\ioctl_par_query_information.htm
 tech.root: parports
 ms.assetid: 272e7810-1242-4e56-8431-bd7c5908247a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_PAR_QUERY_INFORMATION, IOCTL_PAR_QUERY_INFORMATION control code [Parallel Ports], cisspd_50a28bb8-8015-4b25-9850-9038b1c1789a.xml, ntddpar/IOCTL_PAR_QUERY_INFORMATION, parports.ioctl_par_query_information
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddpar.h
 req.include-header: Ntddpar.h
@@ -50,7 +47,7 @@ req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 ##  Major Code:
 
 
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

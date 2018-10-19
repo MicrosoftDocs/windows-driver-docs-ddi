@@ -6,11 +6,8 @@ description: The DOT11_WFD_DEVICE_TYPE structure is used to specify primary and 
 old-location: netvista\dot11_wfd_device_type.htm
 tech.root: netvista
 ms.assetid: 4AE7C35B-D2EA-4987-8195-EDD472C39681
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_WFD_DEVICE_TYPE, DOT11_WFD_DEVICE_TYPE, DOT11_WFD_DEVICE_TYPE structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_DEVICE_TYPE, PDOT11_WFD_DEVICE_TYPE structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_DEVICE_TYPE, netvista.dot11_wfd_device_type, windot11/DOT11_WFD_DEVICE_TYPE, windot11/PDOT11_WFD_DEVICE_TYPE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Windot11.h
@@ -58,13 +55,13 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DOT11_WFD_DEVICE_TYPE {
   USHORT   CategoryID;
   USHORT   SubCategoryID;
   UCHAR    OUI[4];
 } DOT11_WFD_DEVICE_TYPE, *PDOT11_WFD_DEVICE_TYPE;
-````
+```
 
 
 ## -struct-fields

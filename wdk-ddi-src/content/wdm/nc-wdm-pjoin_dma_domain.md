@@ -4,11 +4,8 @@ title: PJOIN_DMA_DOMAIN
 author: windows-driver-content
 description: 
 ms.assetid: e5cd824e-ab68-4d20-93d5-a84362859e99
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ This callback function joins the specified DMA domain.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PJOIN_DMA_DOMAIN PjoinDmaDomain; 
@@ -76,7 +73,7 @@ NTSTATUS PjoinDmaDomain
 
 ## -returns
 
-Returns STATUS_SUCCESS if the call is successful. Otherwise, returns an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+Returns STATUS_SUCCESS if the call is successful. Otherwise, returns an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

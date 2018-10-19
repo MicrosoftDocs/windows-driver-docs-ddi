@@ -6,11 +6,8 @@ description: The EvtSerCx2SystemDmaTransmitCancelDrainFifo event callback functi
 old-location: serports\evtsercx2systemdmatransmitcanceldrainfifo.htm
 tech.root: serports
 ms.assetid: 00B17CBC-FE0E-4611-A41B-42AD833731D3
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2SystemDmaTransmitCancelDrainFifo, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CANCEL_DRAIN_FIFO, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CANCEL_DRAIN_FIFO callback, EvtSerCx2SystemDmaTransmitCancelDrainFifo, EvtSerCx2SystemDmaTransmitCancelDrainFifo callback function [Serial Ports], serports.evtsercx2systemdmatransmitcanceldrainfifo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sercx.h
 req.include-header: 
@@ -60,7 +57,7 @@ The <i>EvtSerCx2SystemDmaTransmitCancelDrainFifo</i> event callback function is 
 
 ### -param SystemDmaTransmit [in]
 
-A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a> handle to a system-DMA-transmit object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265288">SerCx2SystemDmaTransmitCreate</a> method to create this object.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a> handle to a system-DMA-transmit object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265288">SerCx2SystemDmaTransmitCreate</a> method to create this object.
 
 
 ## -returns
@@ -141,7 +138,7 @@ The <b>EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CANCEL_DRAIN_FIFO</b> function type is def
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a>
 
 
 

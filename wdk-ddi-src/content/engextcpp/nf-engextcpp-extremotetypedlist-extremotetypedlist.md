@@ -6,11 +6,8 @@ description: The ExtRemoteTypedList class extends the ExtRemoteList class. The E
 old-location: debugger\extremotetypedlist.htm
 tech.root: debugger
 ms.assetid: a7b87f06-491a-4b41-a355-0f2806c0dd8a
-ms.author: windowsdriverdev
-ms.date: 1/19/2018
+ms.date: 01/19/2018
 ms.keywords: ExtRemoteTypedList class [Windows Debugging], described, ExtRemoteTypedList class [Windows Debugging], ExtRemoteTypedList, EngExtCpp_Ref_5e1242e6-5704-4b87-85e1-b02a41fc4243.xml, debugger.extremotetypedlist, ExtRemoteTypedList::ExtRemoteTypedList, engextcpp/ExtRemoteTypedList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

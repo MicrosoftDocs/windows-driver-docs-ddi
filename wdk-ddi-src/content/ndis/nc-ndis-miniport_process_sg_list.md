@@ -6,11 +6,8 @@ description: A bus-master miniport driver provides a MiniportProcessSGList funct
 old-location: netvista\miniportprocesssglist.htm
 tech.root: netvista
 ms.assetid: ddd5d14f-f886-40d0-9fc8-eeb37da63ebd
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_PROCESS_SG_LIST, MINIPORT_PROCESS_SG_LIST callback, MiniportProcessSGList, MiniportProcessSGList callback function [Network Drivers Starting with Windows Vista], ndis/MiniportProcessSGList, ndis_sgdma_ref_e9dec598-19ce-4d50-98e3-508ffbb444bc.xml, netvista.miniportprocesssglist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

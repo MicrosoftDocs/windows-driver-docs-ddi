@@ -6,11 +6,8 @@ description: The WdfDmaTransactionSetDeviceAddressOffset method specifies the of
 old-location: wdf\wdfdmatransactionsetdeviceaddressoffset.htm
 tech.root: wdf
 ms.assetid: A45231E0-0807-41AA-B20F-6335067BE99A
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfDmaTransactionSetDeviceAddressOffset, WdfDmaTransactionSetDeviceAddressOffset method, kmdf.wdfdmatransactionsetdeviceaddressoffset, wdf.wdfdmatransactionsetdeviceaddressoffset, wdfdmatransaction/WdfDmaTransactionSetDeviceAddressOffset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
@@ -96,7 +93,7 @@ For example, a driver might use DMA to access separate read and write registers 
 
 To do so, the driver specifies the base address of the device's register file when configuring the enabler, and then sets the offset of the read or write register as necessary before executing the transaction.
 
-If your driver calls this method on an operating system earlier than Windows 8, <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-kmdf-verifier">the framework's verifier</a> reports an error.
+If your driver calls this method on an operating system earlier than Windows 8, <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-kmdf-verifier">the framework's verifier</a> reports an error.
 
 
 #### Examples

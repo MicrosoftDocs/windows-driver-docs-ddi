@@ -6,11 +6,8 @@ description: This MSiSCSI_LUNMappingInformation structure provides the SCSI addr
 old-location: storage\msiscsi_lunmappinginformation.htm
 tech.root: storage
 ms.assetid: abe4b0fe-3918-4139-9c35-d9399287ce03
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PMSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation structure [Storage Devices], PMSiSCSI_LUNMappingInformation, PMSiSCSI_LUNMappingInformation structure pointer [Storage Devices], _MSiSCSI_LUNMappingInformation, iscsiop/MSiSCSI_LUNMappingInformation, iscsiop/PMSiSCSI_LUNMappingInformation, storage.msiscsi_lunmappinginformation, structs-iSCSI_390283b1-22d6-4012-834f-1b3ef3328da0.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iscsiop.h
 req.include-header: Iscsiop.h

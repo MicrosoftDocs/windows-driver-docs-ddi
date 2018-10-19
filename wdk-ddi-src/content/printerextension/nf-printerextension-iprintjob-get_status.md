@@ -6,11 +6,8 @@ description: Gets the current status of the print job.
 old-location: print\iprintjob_status.htm
 tech.root: print
 ms.assetid: 3C806C3B-78A1-44B6-A9AC-E7258D216637
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IPrintJob, IPrintJob interface [Print Devices], Status property, IPrintJob.Status, IPrintJob::get_Status, Status property [Print Devices], Status property [Print Devices], IPrintJob interface, get_Status, get_Status,IPrintJob.get_Status, print.iprintjob_status, printerextension/IPrintJob::Status, printerextension/IPrintJob::get_Status
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header:

@@ -6,11 +6,8 @@ description: Returns information about the adapter's &#0034;hardware cursor&#003
 old-location: display\ioctl_video_query_pointer_capabilities.htm
 tech.root: display
 ms.assetid: b282dcbe-f2ed-41f2-b97d-e9c409671197
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IOCTL_VIDEO_QUERY_POINTER_CAPABILITIES, IOCTL_VIDEO_QUERY_POINTER_CAPABILITIES control, IOCTL_VIDEO_QUERY_POINTER_CAPABILITIES control code [Display Devices], Video_IOCTLs_42064dfd-73fb-4afc-aa3b-4e1ec4829e99.xml, display.ioctl_video_query_pointer_capabilities, ntddvdeo/IOCTL_VIDEO_QUERY_POINTER_CAPABILITIES
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddvdeo.h
 req.include-header: 

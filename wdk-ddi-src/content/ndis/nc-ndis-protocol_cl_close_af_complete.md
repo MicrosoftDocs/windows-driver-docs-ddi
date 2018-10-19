@@ -6,11 +6,8 @@ description: The ProtocolClCloseAfComplete function is used by connection-orient
 old-location: netvista\protocolclcloseafcomplete.htm
 tech.root: netvista
 ms.assetid: 7597e124-34e4-4326-98b3-c65dbe90ae6f
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CL_CLOSE_AF_COMPLETE, PROTOCOL_CL_CLOSE_AF_COMPLETE callback, ProtocolClCloseAfComplete, ProtocolClCloseAfComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_27fe2447-59c5-4922-b6be-67911961f0e4.xml, ndis/ProtocolClCloseAfComplete, netvista.protocolclcloseafcomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

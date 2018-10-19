@@ -6,11 +6,8 @@ description: The WDF_PNP_STATE enumeration contains values that identify the sta
 old-location: wdf\wdf_pnp_state.htm
 tech.root: wdf
 ms.assetid: f17a6d52-5f68-470c-9f45-6a175e0fbf01
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WDF_PNP_STATE, WDF_PNP_STATE enumeration, WdfPnpStateDisabled, WdfPnpStateDontDisplayInUI, WdfPnpStateFailed, WdfPnpStateInvalid, WdfPnpStateMaximum, WdfPnpStateNotDisableable, WdfPnpStateRemoved, WdfPnpStateResourcesChanged, _WDF_PNP_STATE, umdf.wdf_pnp_state, umdfstructs_5964ab34-28fb-410b-a863-1adc9e8eed03.xml, wdf.wdf_pnp_state, wudfddi_types/WDF_PNP_STATE, wudfddi_types/WdfPnpStateDisabled, wudfddi_types/WdfPnpStateDontDisplayInUI, wudfddi_types/WdfPnpStateFailed, wudfddi_types/WdfPnpStateInvalid, wudfddi_types/WdfPnpStateMaximum, wudfddi_types/WdfPnpStateNotDisableable, wudfddi_types/WdfPnpStateRemoved, wudfddi_types/WdfPnpStateResourcesChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wudfddi_types.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames: WDF_PNP_STATE
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>WDF_PNP_STATE</b> enumeration contains values that identify the status of Plug and Play (PnP) for a device.
 

@@ -6,11 +6,8 @@ description: The PCI_EXPRESS_BRIDGE_AER_CAPABILITY structure describes a PCI Exp
 old-location: pci\pci_express_bridge_aer_capability.htm
 tech.root: PCI
 ms.assetid: 06bbd3b8-b917-44ed-880e-9d071146e859
-ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: "*PPCI_EXPRESS_BRIDGE_AER_CAPABILITY, PCI.pci_express_bridge_aer_capability, PCI_EXPRESS_BRIDGE_AER_CAPABILITY, PCI_EXPRESS_BRIDGE_AER_CAPABILITY structure [Buses], PPCI_EXPRESS_BRIDGE_AER_CAPABILITY, PPCI_EXPRESS_BRIDGE_AER_CAPABILITY structure pointer [Buses], _PCI_EXPRESS_BRIDGE_AER_CAPABILITY, pci_struct_ccc11a2c-4380-44b4-8404-d7d9931887b6.xml, wdm/PCI_EXPRESS_BRIDGE_AER_CAPABILITY, wdm/PPCI_EXPRESS_BRIDGE_AER_CAPABILITY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: miniport.h
 req.include-header: Ntddk.h, Wdm.h, Miniport.h
@@ -56,7 +53,7 @@ The PCI_EXPRESS_BRIDGE_AER_CAPABILITY structure describes a PCI Express (PCIe) a
 ## -syntax
 
 
-````
+```cpp
 typedef struct _PCI_EXPRESS_BRIDGE_AER_CAPABILITY {
   PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER       Header;
   PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS       UncorrectableErrorStatus;
@@ -72,7 +69,7 @@ typedef struct _PCI_EXPRESS_BRIDGE_AER_CAPABILITY {
   PCI_EXPRESS_SEC_AER_CAPABILITIES             SecCapabilitiesAndControl;
   ULONG                                        SecHeaderLog[4];
 } PCI_EXPRESS_BRIDGE_AER_CAPABILITY, *PPCI_EXPRESS_BRIDGE_AER_CAPABILITY;
-````
+```
 
 
 ## -struct-fields

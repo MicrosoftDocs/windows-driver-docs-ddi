@@ -6,11 +6,8 @@ description: The KeInitializeMutex routine initializes a mutex object, setting i
 old-location: kernel\keinitializemutex.htm
 tech.root: kernel
 ms.assetid: dca6c4a7-66e0-4bdd-9fdd-a32d49836980
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeInitializeMutex, KeInitializeMutex routine [Kernel-Mode Driver Architecture], k105_0e268ff3-6e9d-41ab-acfd-0bb71e973115.xml, kernel.keinitializemutex, wdm/KeInitializeMutex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

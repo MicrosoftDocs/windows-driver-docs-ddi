@@ -6,11 +6,8 @@ description: The QUERY_FILE_LAYOUT_INPUT structure selects which file layout ent
 old-location: ifsk\query_file_layout_input.htm
 tech.root: ifsk
 ms.assetid: 7404BFC3-8942-4927-9F5B-9FA860F9F95F
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PQUERY_FILE_LAYOUT_INPUT, PQUERY_FILE_LAYOUT_INPUT, PQUERY_FILE_LAYOUT_INPUT structure pointer [Installable File System Drivers], QUERY_FILE_LAYOUT_FILTER_TYPE_CLUSTERS, QUERY_FILE_LAYOUT_FILTER_TYPE_FILEID, QUERY_FILE_LAYOUT_FILTER_TYPE_NONE, QUERY_FILE_LAYOUT_INCLUDE_EXTENTS, QUERY_FILE_LAYOUT_INCLUDE_EXTRA_INFO, QUERY_FILE_LAYOUT_INCLUDE_NAMES, QUERY_FILE_LAYOUT_INCLUDE_STREAMS, QUERY_FILE_LAYOUT_INCLUDE_STREAMS_WITH_NO_CLUSTERS_ALLOCATED, QUERY_FILE_LAYOUT_INPUT, QUERY_FILE_LAYOUT_INPUT structure [Installable File System Drivers], QUERY_FILE_LAYOUT_RESTART, _QUERY_FILE_LAYOUT_INPUT, ifsk.query_file_layout_input, ntifs/PQUERY_FILE_LAYOUT_INPUT, ntifs/QUERY_FILE_LAYOUT_INPUT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntifs.h
 req.include-header: Ntifs.h

@@ -6,11 +6,8 @@ description: The IOCTL_SERIAL_SET_BAUD_RATE request sets the baud rate on a seri
 old-location: serports\ioctl_serial_set_baud_rate.htm
 tech.root: serports
 ms.assetid: cf3a4b6e-fefa-4a81-84cf-3a4d5529c8a7
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_SET_BAUD_RATE, IOCTL_SERIAL_SET_BAUD_RATE control, IOCTL_SERIAL_SET_BAUD_RATE control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_BAUD_RATE, serports.ioctl_serial_set_baud_rate, serref_e71e6ea2-4cac-440d-abc2-40fba2990518.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddser.h
 req.include-header: Ntddser.h
@@ -102,7 +99,7 @@ None.
 
 The <b>Information</b> member is set to zero.
 
-The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
+The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
 
 
 ## -see-also

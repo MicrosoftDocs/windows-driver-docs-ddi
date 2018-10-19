@@ -4,11 +4,8 @@ title: D3D12DDI_RAYTRACING_AABB
 author: windows-driver-content
 description: Defines the ray tracing axis-aligned bounding box (AABB).
 ms.assetid: a0b85a60-c797-4cc0-9e4b-54cf57861c6b
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_RAYTRACING_AABB, D3D12DDI_RAYTRACING_AABB, 
 req.header: d3d12umddi.h
 req.include-header:

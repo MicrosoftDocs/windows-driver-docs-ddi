@@ -6,11 +6,8 @@ description: The BIDI_DATA structure is used to store the values of a bidi schem
 old-location: print\bidi_data.htm
 tech.root: print
 ms.assetid: 9e0f3044-01c0-4dec-b34c-0f33ccfe3300
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*LPBIDI_DATA, *PBIDI_DATA, BIDI_DATA, BIDI_DATA structure [Print Devices], LPBIDI_DATA, LPBIDI_DATA structure pointer [Print Devices], PBIDI_DATA, PBIDI_DATA structure pointer [Print Devices], _BIDI_DATA, print.bidi_data, spoolfnc_6e6c0bc2-88f6-43ab-8183-42ee1a91e593.xml, winspool/BIDI_DATA, winspool/LPBIDI_DATA, winspool/PBIDI_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winspool.h
 req.include-header: Winspool.h

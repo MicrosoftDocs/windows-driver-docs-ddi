@@ -4,11 +4,8 @@ title: PFND3DKMT_RECLAIMALLOCATIONS2
 author: windows-driver-content
 description: The PFND3DKMT_RECLAIMALLOCATIONS2 callback function reclaims video memory allocations.
 ms.assetid: 0acb809e-a536-4422-b216-971cd4b3b57f
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3DKMT_RECLAIMALLOCATIONS2 callback function reclaims video memory alloca
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_RECLAIMALLOCATIONS2 Pfnd3dkmtReclaimallocations2; 

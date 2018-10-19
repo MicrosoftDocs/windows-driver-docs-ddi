@@ -6,11 +6,8 @@ description: The NDIS_SWITCH_NIC_PARAMETERS structure specifies the configuratio
 old-location: netvista\ndis_switch_nic_parameters.htm
 tech.root: netvista
 ms.assetid: 52B9DD8B-E96F-464C-9D98-5EF8B6C050C5
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_SWITCH_NIC_PARAMETERS, NDIS_SWITCH_NIC_FLAGS_NIC_INITIALIZING, NDIS_SWITCH_NIC_PARAMETERS, NDIS_SWITCH_NIC_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_NIC_PARAMETERS, PNDIS_SWITCH_NIC_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_NIC_PARAMETERS, netvista.ndis_switch_nic_parameters, ntddndis/NDIS_SWITCH_NIC_PARAMETERS, ntddndis/PNDIS_SWITCH_NIC_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ndis.h, Fwpsk.h
@@ -176,7 +173,7 @@ A <b>ULONG</b> value that specifies the maximum transmission unit (MTU) size, in
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598262">OID_SWITCH_NIC_CONNECT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-switch-nic-updated">OID_SWITCH_NIC_UPDATED</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-updated">OID_SWITCH_NIC_UPDATED</a>
 </li>
 </ul>
 </div>
@@ -254,7 +251,7 @@ The <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure is also used in the following OI
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-switch-nic-updated">OID_SWITCH_NIC_UPDATED</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-updated">OID_SWITCH_NIC_UPDATED</a>
 
 
 </li>
@@ -376,7 +373,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-switch-nic-updated">OID_SWITCH_NIC_UPDATED</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-updated">OID_SWITCH_NIC_UPDATED</a>
  
 
  

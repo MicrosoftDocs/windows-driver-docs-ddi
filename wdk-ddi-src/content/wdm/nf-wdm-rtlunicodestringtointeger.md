@@ -6,11 +6,8 @@ description: The RtlUnicodeStringToInteger routine converts a Unicode string rep
 old-location: kernel\rtlunicodestringtointeger.htm
 tech.root: kernel
 ms.assetid: d9357864-d49b-44fe-b884-64c6da609789
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUnicodeStringToInteger, RtlUnicodeStringToInteger routine [Kernel-Mode Driver Architecture], k109_862feacf-64af-4aae-87b5-264ef277ea22.xml, kernel.rtlunicodestringtointeger, wdm/RtlUnicodeStringToInteger
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h

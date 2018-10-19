@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDataModelScriptDebug2.Release
 title: IDataModelScriptDebug2::Release
 author: windows-driver-content
-description: TBD
+description: Decrements the reference count for an interface on an object. 
 ms.assetid: 08520bbf-96dd-431c-8752-f1243a277e03
-ms.author: windowsdriverdev
 ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebug2::Release, Release, IDataModelScriptDebug2.Release, IDataModelScriptDebug2::Release, IDataModelScriptDebug2.Release
@@ -35,8 +34,6 @@ api_name:
 -	IDataModelScriptDebug2.Release
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

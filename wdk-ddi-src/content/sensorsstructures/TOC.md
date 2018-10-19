@@ -1,6 +1,0 @@
-# [Sensors](../_sensors/index.md)
-## [Sensorsstructures.h](index.md)
-### [AXIS enumeration](../sensorsstructures/ne-sensorsstructures-axis.md)
-### [MATRIX3X3 structure](../sensorsstructures/ns-sensorsstructures-matrix3x3.md)
-### [QUATERNION structure](../sensorsstructures/ns-sensorsstructures-quaternion.md)
-### [VEC3D structure](../sensorsstructures/ns-sensorsstructures-vec3d.md)

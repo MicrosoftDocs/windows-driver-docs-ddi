@@ -6,11 +6,8 @@ description: The FltGetRequestorSessionId routine returns the session ID of the 
 old-location: ifsk\fltgetrequestorsessionid.htm
 tech.root: ifsk
 ms.assetid: 6a0eb588-fe64-4f36-8648-8e006e16704e
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltGetRequestorSessionId, FltGetRequestorSessionId routine [Installable File System Drivers], fltkernel/FltGetRequestorSessionId, ifsk.fltgetrequestorsessionid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: FltKernel.h

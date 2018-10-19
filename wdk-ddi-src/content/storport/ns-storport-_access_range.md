@@ -6,11 +6,8 @@ description: An ACCESS_RANGE describes a memory or I/O port range used by an HBA
 old-location: storage\access_range.htm
 tech.root: storage
 ms.assetid: 6009d11b-4f44-4591-bcb8-66e0c42d5689
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PACCESS_RANGE, ACCESS_RANGE, ACCESS_RANGE structure [Storage Devices], PACCESS_RANGE, PACCESS_RANGE structure pointer [Storage Devices], _ACCESS_RANGE, srb/ACCESS_RANGE, srb/PACCESS_RANGE, storage.access_range, structs-scsiport_353ffdeb-4d30-4df8-9422-ea3a9e662104.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: storport.h
 req.include-header: Srb.h, Storport.h, Strmini.h
@@ -51,7 +48,7 @@ req.typenames: ACCESS_RANGE, *PACCESS_RANGE
 
 
 An ACCESS_RANGE describes a memory or I/O port range used by an HBA.
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -struct-fields
 

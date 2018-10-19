@@ -37,7 +37,7 @@ Windows Driver Kit (WDK) 10 is integrated with Microsoft Visual Studio 2017 and 
         </a>
     </li>
     <li>
-        <a href="https://developer.microsoft.com/en-us/windows/hardware/windows-driver-kit">
+        <a href="https://developer.microsoft.com/windows/hardware/windows-driver-kit">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -56,7 +56,7 @@ Windows Driver Kit (WDK) 10 is integrated with Microsoft Visual Studio 2017 and 
         </a>
     </li>
     <li>
-        <a href="https://developer.microsoft.com/en-us/windows/hardware/drivers-code-samples">
+        <a href="https://developer.microsoft.com/windows/hardware/drivers-code-samples">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -163,7 +163,7 @@ Windows Driver Kit (WDK) 10 is integrated with Microsoft Visual Studio 2017 and 
                 <div class="card">
                     <div class="cardText">
                         <h3>Resources</h3>
-                        <p><a href="/windows-hardware/drivers/what-s-new-in-driver-development">What's new in driver development</a></p><p><a href="/windows-hardware/drivers/gettingstarted/concepts-and-knowledge-for-all-driver-developers">Concepts for all driver developers</a></p><p><a href="/windows-hardware/drivers/">Developing, Testing, and Deploying Drivers</a></p><p><a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff557565(v=vs.85).aspx">Windows Driver Frameworks</a></p><p><a href="/windows-hardware/drivers/device-and-driver-technologies">Device and Driver Technologies </a></p><p><a href="/windows-hardware/drivers/install/">Device and Driver Installation</a></p><p><a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff557560(v=vs.85).aspx">Kernel-Mode Driver Architecture</a></p><p><a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff557553(v=vs.85).aspx">Device and Driver Development Tools</a></p>
+                        <p><a href="/windows-hardware/drivers/what-s-new-in-driver-development">What's new in driver development</a></p><p><a href="/windows-hardware/drivers/gettingstarted/concepts-and-knowledge-for-all-driver-developers">Concepts for all driver developers</a></p><p><a href="/windows-hardware/drivers/">Developing, Testing, and Deploying Drivers</a></p><p><a href="https://msdn.microsoft.com/library/windows/hardware/ff557565(v=vs.85).aspx">Windows Driver Frameworks</a></p><p><a href="/windows-hardware/drivers/device-and-driver-technologies">Device and Driver Technologies </a></p><p><a href="/windows-hardware/drivers/install/">Device and Driver Installation</a></p><p><a href="https://msdn.microsoft.com/library/windows/hardware/ff557560(v=vs.85).aspx">Kernel-Mode Driver Architecture</a></p><p><a href="https://msdn.microsoft.com/library/windows/hardware/ff557553(v=vs.85).aspx">Device and Driver Development Tools</a></p>
                     </div>
                 </div>
             </div>

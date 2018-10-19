@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\riluiccserviceparams.htm
 tech.root: netvista
 ms.assetid: 0f43b2be-d371-42d8-825b-56362de05c5e
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILUICCSERVICEPARAMS, RILUICCSERVICEPARAMS, RILUICCSERVICEPARAMS structure [Network Drivers Starting with Windows Vista], netvista.riluiccserviceparams, ntddrilapitypes/RILUICCSERVICEPARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h

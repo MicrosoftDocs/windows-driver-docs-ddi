@@ -6,11 +6,8 @@ description: The WDF_USB_REQUEST_COMPLETION_PARAMS structure contains parameters
 old-location: wdf\wdf_usb_request_completion_params.htm
 tech.root: wdf
 ms.assetid: cd29d27c-9da2-477f-898e-13ee480aac9e
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*PWDF_USB_REQUEST_COMPLETION_PARAMS, DFUsbRef_14574f86-fd65-41df-be8e-557f6fe09c4f.xml, PWDF_USB_REQUEST_COMPLETION_PARAMS, PWDF_USB_REQUEST_COMPLETION_PARAMS structure pointer, WDF_USB_REQUEST_COMPLETION_PARAMS, WDF_USB_REQUEST_COMPLETION_PARAMS structure, _WDF_USB_REQUEST_COMPLETION_PARAMS, kmdf.wdf_usb_request_completion_params, wdf.wdf_usb_request_completion_params, wdfusb/PWDF_USB_REQUEST_COMPLETION_PARAMS, wdfusb/WDF_USB_REQUEST_COMPLETION_PARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
@@ -93,7 +90,7 @@ If the driver has called <a href="https://msdn.microsoft.com/library/windows/har
 
 ### -field Parameters.DeviceString.RequiredSize
 
-If the driver has called any method that <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/working-with-usb-devices">obtains a device's Unicode strings</a> (except <a href="https://msdn.microsoft.com/library/windows/hardware/ff550088">WdfUsbTargetDeviceFormatRequestForUrb</a>), this member contains the required size of the buffer that <b>Parameters.DeviceString.Buffer</b> specifies. 
+If the driver has called any method that <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/working-with-usb-devices">obtains a device's Unicode strings</a> (except <a href="https://msdn.microsoft.com/library/windows/hardware/ff550088">WdfUsbTargetDeviceFormatRequestForUrb</a>), this member contains the required size of the buffer that <b>Parameters.DeviceString.Buffer</b> specifies. 
 
 If the driver called <a href="https://msdn.microsoft.com/library/windows/hardware/ff550088">WdfUsbTargetDeviceFormatRequestForUrb</a>, it can obtain the required size value from the URB whose handle is in <b>Parameters.DeviceUrb.Buffer</b>.
 
@@ -113,7 +110,7 @@ If the driver has called <a href="https://msdn.microsoft.com/library/windows/har
 
 ### -field Parameters.DeviceControlTransfer.Length
 
-If the driver has called any method that <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/working-with-usb-devices">sends a control transfer</a> (except <a href="https://msdn.microsoft.com/library/windows/hardware/ff550088">WdfUsbTargetDeviceFormatRequestForUrb</a>), this member contains the number of bytes that were sent or received. 
+If the driver has called any method that <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/working-with-usb-devices">sends a control transfer</a> (except <a href="https://msdn.microsoft.com/library/windows/hardware/ff550088">WdfUsbTargetDeviceFormatRequestForUrb</a>), this member contains the number of bytes that were sent or received. 
 
 If the driver called <a href="https://msdn.microsoft.com/library/windows/hardware/ff550088">WdfUsbTargetDeviceFormatRequestForUrb</a>, it can obtain the length value from the URB whose handle is in <b>Parameters.DeviceUrb.Buffer</b>.
 
@@ -136,7 +133,7 @@ If the driver has called <a href="https://msdn.microsoft.com/library/windows/har
 
 ### -field Parameters.PipeWrite.Length
 
-If the driver has called any method <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/working-with-usb-pipes">that writes to a pipe</a> (except <a href="https://msdn.microsoft.com/library/windows/hardware/ff550088">WdfUsbTargetDeviceFormatRequestForUrb</a>), this member contains the number of bytes that were sent. 
+If the driver has called any method <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/working-with-usb-pipes">that writes to a pipe</a> (except <a href="https://msdn.microsoft.com/library/windows/hardware/ff550088">WdfUsbTargetDeviceFormatRequestForUrb</a>), this member contains the number of bytes that were sent. 
 
 If the driver called <a href="https://msdn.microsoft.com/library/windows/hardware/ff550088">WdfUsbTargetDeviceFormatRequestForUrb</a>, it can obtain the length value from the URB whose handle is in <b>Parameters.PipeUrb.Buffer</b>.
 
@@ -156,7 +153,7 @@ If the driver has called <a href="https://msdn.microsoft.com/library/windows/har
 
 ### -field Parameters.PipeRead.Length
 
-If the driver has called any method that <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/working-with-usb-pipes">reads from a pipe</a> sends a control transfer (except <a href="https://msdn.microsoft.com/library/windows/hardware/ff550088">WdfUsbTargetDeviceFormatRequestForUrb</a>), this member contains the number of bytes that were received. 
+If the driver has called any method that <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/working-with-usb-pipes">reads from a pipe</a> sends a control transfer (except <a href="https://msdn.microsoft.com/library/windows/hardware/ff550088">WdfUsbTargetDeviceFormatRequestForUrb</a>), this member contains the number of bytes that were received. 
 
 If the driver called <a href="https://msdn.microsoft.com/library/windows/hardware/ff550088">WdfUsbTargetDeviceFormatRequestForUrb</a>, it can obtain the length value from the URB whose handle is in <b>Parameters.PipeUrb.Buffer</b>.
 

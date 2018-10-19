@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IModelObject.EnumerateKeys
 title: IModelObject::EnumerateKeys
 author: windows-driver-content
-description: TBD
+description: Enumerates the keys within the dynamic key provider. 
 ms.assetid: 6eeb14e2-1bf1-4f6e-a12d-345480eb9d60
-ms.author: windowsdriverdev
 ms.date: 07/20/2018
 ms.topic: method
 ms.keywords: IModelObject::EnumerateKeys, EnumerateKeys, IModelObject.EnumerateKeys, IModelObject::EnumerateKeys, IModelObject.EnumerateKeys
@@ -35,8 +34,6 @@ api_name:
 -	IModelObject.EnumerateKeys
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 
@@ -61,11 +58,6 @@ This method returns HRESULT that indicates success or failure.
 
 The EnumerateKeys method behaves similar to the EnumerateKeyValues method excepting that it does not automatically resolve property accessors on the object. This means that if the value of a key is a property accessor, the EnumerateKeys method will return the property accessor (an IModelPropertyAccessorInterface) boxed into an IModelObject rather than automatically calling the GetValue method. This is similar to the difference between GetKey and GetKeyValue. 
 
-**Code Sample**
-
-```cpp
-
-```
 
 ## -see-also
 

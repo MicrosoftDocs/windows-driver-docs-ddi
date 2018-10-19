@@ -4,11 +4,8 @@ title: _USBPM_CLIENT_CONFIG_EXTRA_INFO
 author: windows-driver-content
 description: Contains optional information used to configure the client driver's registration.
 ms.assetid: 919040a7-21d8-4fc4-9539-fdc7fff53b40
-ms.author: windowsdriverdev
-ms.date: 9/30/2018 
+ms.date: 09/30/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 tech.root: usbref
 ms.keywords: _USBPM_CLIENT_CONFIG_EXTRA_INFO, USBPM_CLIENT_CONFIG_EXTRA_INFO, *PUSBPM_CLIENT_CONFIG_EXTRA_INFO, 
 req.header: usbpmapi.h

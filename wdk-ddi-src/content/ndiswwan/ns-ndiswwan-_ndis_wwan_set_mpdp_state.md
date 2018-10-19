@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The NDIS_WWAN_SET_MPDP_STATE structure contains information for performing an operation on a Multiple Packet Data Protocol (MPDP) interface.
 tech.root: netvista
 ms.assetid: 2bacc2a8-0117-4f3c-8865-af8d1c5529ba
-ms.author: windowsdriverdev
 ms.date: 06/25/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _NDIS_WWAN_SET_MPDP_STATE, NDIS_WWAN_SET_MPDP_STATE, *PNDIS_WWAN_SET_MPDP_STATE, 
 req.header: ndiswwan.h
 req.include-header:
@@ -63,10 +60,10 @@ A formatted [**NDIS_WWAN_MPDP_INFO**](ns-ndiswwan-_ndis_wwan_mpdp_info.md) struc
 
 ## -remarks
 
-This structure is used in an [OID_WWAN_MPDP](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-mpdp) set request.
+This structure is used in an [OID_WWAN_MPDP](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-mpdp) set request.
 
 ## -see-also
 
 [**NDIS_WWAN_MPDP_INFO**](ns-ndiswwan-_ndis_wwan_mpdp_info.md)
 
-[OID_WWAN_MPDP](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-mpdp)
+[OID_WWAN_MPDP](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-mpdp)

@@ -4,11 +4,8 @@ title: IOCTL_PANEL_SET_BRIGHTNESS
 author: windows-driver-content
 description: Sets the brightness for the display panel.
 ms.assetid: 7fa5e82d-90fa-4e99-a33d-c2519ff619aa
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: ioctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: ntddvdeo.h
 req.include-header:
 req.target-type:

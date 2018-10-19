@@ -6,11 +6,8 @@ description: The NdkGetRemoteTokenFromMr (NDK_FN_GET_REMOTE_TOKEN_FROM_MR) funct
 old-location: netvista\ndk_fn_get_remote_token_from_mr.htm
 tech.root: netvista
 ms.assetid: 272DB944-E772-4E98-8918-AE0CEE440E3E
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_FN_GET_REMOTE_TOKEN_FROM_MR, NDK_FN_GET_REMOTE_TOKEN_FROM_MR callback, NdkGetRemoteTokenFromMr, NdkGetRemoteTokenFromMr callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetRemoteTokenFromMr, netvista.ndk_fn_get_remote_token_from_mr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndkpi.h
 req.include-header: Ndkpi.h

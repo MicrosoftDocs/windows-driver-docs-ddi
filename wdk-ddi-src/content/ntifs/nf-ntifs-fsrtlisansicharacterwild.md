@@ -6,11 +6,8 @@ description: The FsRtlIsAnsiCharacterWild macro determines whether an ANSI chara
 old-location: ifsk\fsrtlisansicharacterwild.htm
 tech.root: ifsk
 ms.assetid: badbc73a-44aa-4917-83a8-2ebd9f9ec576
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlIsAnsiCharacterWild, FsRtlIsAnsiCharacterWild function [Installable File System Drivers], fsrtlref_f5a31572-36b5-4bc3-8224-a4a7d8b74c65.xml, ifsk.fsrtlisansicharacterwild, ntifs/FsRtlIsAnsiCharacterWild
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ntifs.h
 req.include-header: Ntifs.h

@@ -6,11 +6,8 @@ description: The IOCTL_SERIAL_SET_LINE_CONTROL request sets the line control reg
 old-location: serports\ioctl_serial_set_line_control.htm
 tech.root: serports
 ms.assetid: 0883b10c-1900-42b1-afc9-1e61effed111
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_SET_LINE_CONTROL, IOCTL_SERIAL_SET_LINE_CONTROL control, IOCTL_SERIAL_SET_LINE_CONTROL control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_LINE_CONTROL, serports.ioctl_serial_set_line_control, serref_70796be3-dbb8-4918-899d-d3750813aad3.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddser.h
 req.include-header: Ntddser.h
@@ -102,7 +99,7 @@ None.
 
 The <b>Information</b> member is set to zero.
 
-The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. A status of STATUS_INVALID_PARAMETER indicates that the specified line control information is not valid.
+The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. A status of STATUS_INVALID_PARAMETER indicates that the specified line control information is not valid.
 
 
 ## -see-also

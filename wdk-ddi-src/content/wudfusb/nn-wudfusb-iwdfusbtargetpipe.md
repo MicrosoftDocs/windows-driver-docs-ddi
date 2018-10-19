@@ -6,11 +6,8 @@ description: The IWDFUsbTargetPipe interface exposes a USB pipe (endpoint), whic
 old-location: wdf\iwdfusbtargetpipe.htm
 tech.root: wdf
 ms.assetid: 16364b13-d902-4ba3-8d0a-c044946afa1e
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, IWDFUsbTargetPipe interface,described, UMDFUSBref_985f9453-7475-4e9b-894c-5d4e7b8d3971.xml, umdf.iwdfusbtargetpipe, wdf.iwdfusbtargetpipe, wudfusb/IWDFUsbTargetPipe
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wudfusb.h
 req.include-header: 
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 
 The <b>IWDFUsbTargetPipe</b> interface exposes a USB pipe (endpoint), which is also an I/O target.

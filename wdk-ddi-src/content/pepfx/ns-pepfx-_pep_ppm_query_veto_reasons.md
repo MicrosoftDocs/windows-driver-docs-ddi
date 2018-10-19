@@ -6,11 +6,8 @@ description: The PEP_PPM_QUERY_VETO_REASONS structure specifies the total number
 old-location: kernel\pep_ppm_query_veto_reasons.htm
 tech.root: kernel
 ms.assetid: 59D0D139-00E4-4EEE-A326-0A2979B2085B
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_PPM_QUERY_VETO_REASONS, PEP_PPM_QUERY_VETO_REASONS, PEP_PPM_QUERY_VETO_REASONS structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_VETO_REASONS, PPEP_PPM_QUERY_VETO_REASONS structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_VETO_REASONS, kernel.pep_ppm_query_veto_reasons, pepfx/PEP_PPM_QUERY_VETO_REASONS, pepfx/PPEP_PPM_QUERY_VETO_REASONS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
 req.include-header: Pep_x.h
@@ -67,7 +64,7 @@ The <b>PEP_PPM_QUERY_VETO_REASONS</b> structure specifies the total number of ve
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186829">PEP_NOTIFY_PPM_QUERY_VETO_REASONS</a> notification. The <b>VetoReasonCount</b> member contains an output value that the PEP writes to this member in response to the notification.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186829">PEP_NOTIFY_PPM_QUERY_VETO_REASONS</a> notification. The <b>VetoReasonCount</b> member contains an output value that the PEP writes to this member in response to the notification.
 
 
 
@@ -77,7 +74,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186829">PEP_NOTIFY_PPM_QUERY_VETO_REASONS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186829">PEP_NOTIFY_PPM_QUERY_VETO_REASONS</a>
  
 
  

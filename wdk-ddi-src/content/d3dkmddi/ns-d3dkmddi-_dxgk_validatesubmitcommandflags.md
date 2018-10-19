@@ -4,11 +4,8 @@ title: _DXGK_VALIDATESUBMITCOMMANDFLAGS
 author: windows-driver-content
 description: Contains information needed to validate submit commands.
 ms.assetid: efc71282-bd89-438a-9a0a-910663c57671
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGK_VALIDATESUBMITCOMMANDFLAGS, DXGK_VALIDATESUBMITCOMMANDFLAGS, 
 req.header: d3dkmddi.h
 req.include-header:

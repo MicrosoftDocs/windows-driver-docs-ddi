@@ -6,11 +6,8 @@ description: Converts a value of type SHORT to a value of type ULONGLONG.
 old-location: kernel\rtlshorttoulonglong.htm
 tech.root: kernel
 ms.assetid: DC25A607-F329-44F2-8D26-A6F7E3050A33
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlShortToULongLong, RtlShortToULongLong function [Kernel-Mode Driver Architecture], kernel.rtlshorttoulonglong, ntintsafe/RtlShortToULongLong
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

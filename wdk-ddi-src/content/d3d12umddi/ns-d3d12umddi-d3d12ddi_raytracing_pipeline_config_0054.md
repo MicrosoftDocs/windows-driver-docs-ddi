@@ -4,11 +4,8 @@ title: D3D12DDI_RAYTRACING_PIPELINE_CONFIG_0054
 author: windows-driver-content
 description: Describes a ray tracing pipeline configuration.
 ms.assetid: 6b313ba9-39e5-4b7b-837f-2dbf919fe4ea
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_RAYTRACING_PIPELINE_CONFIG_0054, D3D12DDI_RAYTRACING_PIPELINE_CONFIG_0054, 
 req.header: d3d12umddi.h
 req.include-header:

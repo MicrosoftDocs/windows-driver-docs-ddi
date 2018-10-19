@@ -6,11 +6,8 @@ description: The WdfIoTargetWdmGetTargetFileObject method returns a pointer to t
 old-location: wdf\wdfiotargetwdmgettargetfileobject.htm
 tech.root: wdf
 ms.assetid: e3131dde-95fc-447c-9451-5c8af074ed24
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_b6639c60-55f2-40be-a678-c7cf56a8e28f.xml, WdfIoTargetWdmGetTargetFileObject, WdfIoTargetWdmGetTargetFileObject method, kmdf.wdfiotargetwdmgettargetfileobject, wdf.wdfiotargetwdmgettargetfileobject, wdfiotarget/WdfIoTargetWdmGetTargetFileObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfiotarget.h
 req.include-header: Wdf.h

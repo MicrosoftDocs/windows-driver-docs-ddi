@@ -4,11 +4,8 @@ title: PFND3DWDDM2_4DDI_NEGOTIATECRYPTOSESSIONKEYEXCHANGE
 author: windows-driver-content
 description: Establishes a session key for a cryptographic session object.
 ms.assetid: 29deaace-55a0-406e-949e-c3aca2b8097c
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d10umddi.h
 req.include-header: S3d10umddi.h
 req.target-type: Windows
@@ -48,7 +45,7 @@ Establishes a session key for a cryptographic session object.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DWDDM2_4DDI_NEGOTIATECRYPTOSESSIONKEYEXCHANGE Pfnd3dwddm24DdiNegotiatecryptosessionkeyexchange;

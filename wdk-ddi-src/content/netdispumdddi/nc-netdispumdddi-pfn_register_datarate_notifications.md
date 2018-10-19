@@ -6,11 +6,8 @@ description: Called by the user-mode driver to register with the operating syste
 old-location: display\registerfordataratenotifications.htm
 tech.root: display
 ms.assetid: 81500bb9-27f1-4688-b244-37dfd766f3c8
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFN_REGISTER_DATARATE_NOTIFICATIONS, PFN_REGISTER_DATARATE_NOTIFICATIONS callback, RegisterForDataRateNotifications, RegisterForDataRateNotifications callback function [Display Devices], display.registerfordataratenotifications, netdispumdddi/RegisterForDataRateNotifications
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h

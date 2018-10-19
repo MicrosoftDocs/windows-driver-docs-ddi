@@ -6,11 +6,8 @@ description: Drivers use the KSPROPERTY_ITEM structure to describe how they supp
 old-location: stream\ksproperty_item.htm
 tech.root: stream
 ms.assetid: 58530a72-6e07-44f5-9d7d-04bc37ff1ec9
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSPROPERTY_ITEM, KSPROPERTY_ITEM, KSPROPERTY_ITEM structure [Streaming Media Devices], PKSPROPERTY_ITEM, PKSPROPERTY_ITEM structure pointer [Streaming Media Devices], ks-struct_ae02482e-27d1-4485-8fe2-3b9a7393c683.xml, ks/KSPROPERTY_ITEM, ks/PKSPROPERTY_ITEM, stream.ksproperty_item"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ks.h
 req.include-header: Ks.h

@@ -6,11 +6,8 @@ description: The OnSelfManagedIoFlush method flushes the device for a device's s
 old-location: wdf\ipnpcallbackselfmanagedio_onselfmanagedioflush.htm
 tech.root: wdf
 ms.assetid: dee0e30b-ad03-43e4-8a0c-07d3782d7857
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IPnpCallbackSelfManagedIo interface,OnSelfManagedIoFlush method, IPnpCallbackSelfManagedIo.OnSelfManagedIoFlush, IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush, OnSelfManagedIoFlush, OnSelfManagedIoFlush method, OnSelfManagedIoFlush method,IPnpCallbackSelfManagedIo interface, UMDFDeviceObjectRef_ddf0d0a2-a913-4e15-b482-16cae945c4a2.xml, umdf.ipnpcallbackselfmanagedio_onselfmanagedioflush, wdf.ipnpcallbackselfmanagedio_onselfmanagedioflush, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>OnSelfManagedIoFlush</b> method flushes the device for a device's self-managed I/O operations.
 

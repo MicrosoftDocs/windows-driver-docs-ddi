@@ -6,11 +6,8 @@ description: RxChangeBufferingState is called to process a buffering state chang
 old-location: ifsk\rxchangebufferingstate.htm
 tech.root: ifsk
 ms.assetid: 83e181cd-bbec-4142-8d97-4f67285b6bb4
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxChangeBufferingState, RxChangeBufferingState function [Installable File System Drivers], ifsk.rxchangebufferingstate, rxprocs/RxChangeBufferingState, rxref_be2316b0-d89d-4f61-bd09-05d631d1cfdd.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rxprocs.h
 req.include-header: Rxprocs.h, Struchdr.h, Fcb.h

@@ -6,11 +6,8 @@ description: Adds two values of type ULONGLONG.
 old-location: kernel\rtlulonglongadd.htm
 tech.root: kernel
 ms.assetid: AE58D20E-25A0-4D45-9E60-38EF2F1D1EF3
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlULongLongAdd, RtlULongLongAdd function [Kernel-Mode Driver Architecture], kernel.rtlulonglongadd, ntintsafe/RtlULongLongAdd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

@@ -5,8 +5,7 @@ author: windows-driver-content
 tech.root: usbref
 description: Initializes a [**UCMUCSI_PPM_CONFIG**](ns-ucmucsippm-ucmucsi_ppm_config.md) structure.
 ms.assetid: 3e8ee8c9-22e6-42dd-9299-b33f1d9b68f9
-ms.author: windowsdriverdev
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: function
 ms.keywords: UCMUCSI_PPM_CONFIG_INIT
 req.header: ucmucsippm.h

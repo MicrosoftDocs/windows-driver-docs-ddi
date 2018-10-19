@@ -6,11 +6,8 @@ description: The ClfsSetEndOfLog routine truncates a CLFS stream.
 old-location: kernel\clfssetendoflog.htm
 tech.root: kernel
 ms.assetid: 7e3b2eed-2de6-4459-a125-a27d9db69c93
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ClfsSetEndOfLog, ClfsSetEndOfLog routine [Kernel-Mode Driver Architecture], Clfs_408fe60c-e1bb-4d39-92ab-703eefe78c5c.xml, kernel.clfssetendoflog, wdm/ClfsSetEndOfLog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h

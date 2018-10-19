@@ -6,11 +6,8 @@ description: The IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure specifies a sin
 old-location: netvista\ipsec_offload_v2_security_association.htm
 tech.root: netvista
 ms.assetid: b2c5611e-930d-41a5-a07e-7de8f8584283
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure [Network Drivers Starting with Windows Vista], PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure pointer [Network Drivers Starting with Windows Vista], _IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, ndis/IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, ndis/PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, netvista.ipsec_offload_v2_security_association, task_offload_IPsecv2_ref_ccf0a55c-3609-4e15-928a-e46113b96df0.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndis.h
 req.include-header: Ndis.h

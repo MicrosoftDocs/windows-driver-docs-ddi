@@ -6,11 +6,8 @@ description: Creates a new Storport work item that runs in a system worker threa
 old-location: storage\storportinitializeworker.htm
 tech.root: storage
 ms.assetid: 4472A092-B2F4-4220-9685-6BE4FF0A83DB
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortInitializeWorker, StorPortInitializeWorker routine [Storage Devices], storage.storportinitializeworker, storport/StorPortInitializeWorker
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

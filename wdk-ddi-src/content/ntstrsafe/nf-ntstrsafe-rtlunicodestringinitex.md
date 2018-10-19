@@ -6,11 +6,8 @@ description: The RtlUnicodeStringInitEx function initializes a UNICODE_STRING st
 old-location: kernel\rtlunicodestringinitex.htm
 tech.root: kernel
 ms.assetid: d57fee0b-2dd3-4fad-bc7e-d413c08e2441
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUnicodeStringInitEx, RtlUnicodeStringInitEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringinitex, ntstrsafe/RtlUnicodeStringInitEx, safestrings_fab7496b-3acf-416d-8425-6936a73f1ca7.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h

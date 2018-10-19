@@ -6,11 +6,8 @@ description: The FORMAT_EX_PARAMETERS structure is used in conjunction with the 
 old-location: storage\format_ex_parameters.htm
 tech.root: storage
 ms.assetid: 0c87a0b8-f355-48a4-a119-11e047e159d0
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PFORMAT_EX_PARAMETERS, FORMAT_EX_PARAMETERS, FORMAT_EX_PARAMETERS structure [Storage Devices], PFORMAT_EX_PARAMETERS, PFORMAT_EX_PARAMETERS structure pointer [Storage Devices], _FORMAT_EX_PARAMETERS, ntdddisk/FORMAT_EX_PARAMETERS, ntdddisk/PFORMAT_EX_PARAMETERS, storage.format_ex_parameters, structs-disk_753384dd-08cd-40ee-90dc-61a82e5e0d14.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h

@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilcallinfo_v5.htm
 tech.root: netvista
 ms.assetid: 76d6c066-f455-45d4-ac39-76d1420fe8c9
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILCALLINFO, *LPRILCALLINFO_V5, RILCALLINFO, RILCALLINFO_V5, RILCALLINFO_V5 structure [Network Drivers Starting with Windows Vista], netvista.rilcallinfo_v5, ntddrilapitypes/RILCALLINFO_V5"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h

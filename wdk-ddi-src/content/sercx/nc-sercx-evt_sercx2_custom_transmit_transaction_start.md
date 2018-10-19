@@ -6,11 +6,8 @@ description: The EvtSerCx2CustomTransmitTransactionStart event callback function
 old-location: serports\evtsercx2customtransmittransactionstart.htm
 tech.root: serports
 ms.assetid: BFB2DBBE-9E00-4C1D-B336-2B9C48E98DD3
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2CustomTransmitTransactionStart, EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_START, EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_START callback, EvtSerCx2CustomTransmitTransactionStart, EvtSerCx2CustomTransmitTransactionStart callback function [Serial Ports], serports.evtsercx2customtransmittransactionstart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sercx.h
 req.include-header: 

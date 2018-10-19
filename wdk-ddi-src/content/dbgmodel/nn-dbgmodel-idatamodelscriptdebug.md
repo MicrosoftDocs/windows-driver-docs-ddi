@@ -2,13 +2,10 @@
 UID: NN:dbgmodel.IDataModelScriptDebug
 title: IDataModelScriptDebug
 author: windows-driver-content
-description: TBD
+description: The core interface that a script provider must provide in order to make a script debuggable. 
 ms.assetid: 11133d81-6a1e-4e83-8e85-63c282f4eb16
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/04/2018
 ms.topic: interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

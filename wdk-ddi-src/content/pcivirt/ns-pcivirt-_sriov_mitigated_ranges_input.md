@@ -6,11 +6,8 @@ description: This structure is the input buffer in the IOCTL_SRIOV_QUERY_MITIGAT
 old-location: pci\sriov_mitigated_ranges_input.htm
 tech.root: PCI
 ms.assetid: 40b81630-997f-4427-8d02-5004de6fc943
-ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: "*PSRIOV_MITIGATED_RANGES_INPUT, PCI.sriov_mitigated_ranges_input, SRIOV_MITIGATED_RANGES_INPUT, SRIOV_MITIGATED_RANGES_INPUT structure [Buses], _SRIOV_MITIGATED_RANGES_INPUT, pcivirt/SRIOV_MITIGATED_RANGES_INPUT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pcivirt.h
 req.include-header:
@@ -56,12 +53,12 @@ This structure is the input buffer in the <a href="https://msdn.microsoft.com/58
 ## -syntax
 
 
-````
+```cpp
 typedef struct _SRIOV_MITIGATED_RANGES_INPUT {
   USHORT  VfIndex;
   UCHAR   BarNumber;
 } SRIOV_MITIGATED_RANGES_INPUT, SRIOV_MITIGATED_RANGES_INPUT;
-````
+```
 
 
 ## -struct-fields

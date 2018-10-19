@@ -4,11 +4,8 @@ title: PFND3D12DDI_CHECKFORMATSUPPORT
 author: windows-driver-content
 description: Implemented by the client driver to check the format support.
 ms.assetid: b05a2e1a-5839-4a5e-83c5-67bfd41287b0
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to check the format support.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CHECKFORMATSUPPORT Pfnd3d12ddiCheckformatsupport;

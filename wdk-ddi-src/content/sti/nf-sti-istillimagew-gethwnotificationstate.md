@@ -6,11 +6,8 @@ description: The IStillImage::GetHwNotificationState method indicates whether ap
 old-location: image\istillimage_gethwnotificationstate.htm
 tech.root: image
 ms.assetid: 8c97c4f0-3cb8-4457-8389-02d9fba51400
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetHwNotificationState, GetHwNotificationState method [Imaging Devices], GetHwNotificationState method [Imaging Devices],IStillImageW interface, IStillImageW interface [Imaging Devices],GetHwNotificationState method, IStillImageW.GetHwNotificationState, IStillImageW::GetHwNotificationState, image.istillimage_gethwnotificationstate, sti/IStillImageW::GetHwNotificationState, stifnc_9dab6727-1954-4054-b918-be9666c05301.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sti.h
 req.include-header: Sti.h

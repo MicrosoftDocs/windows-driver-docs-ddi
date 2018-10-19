@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The NDIS_WWAN_MPDP_STATE structure represents the state of a Multiple Packet Data Protocol (MPDP) interface after a requested operation.
 tech.root: netvista
 ms.assetid: 58bc3af3-8f33-41e3-9417-190da9be2b6c
-ms.author: windowsdriverdev
 ms.date: 06/25/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _NDIS_WWAN_MPDP_STATE, NDIS_WWAN_MPDP_STATE, *PNDIS_WWAN_MPDP_STATE, 
 req.header: ndiswwan.h
 req.include-header:
@@ -65,12 +62,12 @@ A formatted [**NDIS_WWAN_MPDP_INFO**](ns-ndiswwan-_ndis_wwan_mpdp_info.md) struc
 
 ## -remarks
 
-This structure is used in an [NDIS_STATUS_WWAN_MPDP_STATE](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-wwan-mpdp-state) status indication, which is sent as an asynchronous response to an [OID_WWAN_MPDP](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-mpdp) set request.
+This structure is used in an [NDIS_STATUS_WWAN_MPDP_STATE](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-mpdp-state) status indication, which is sent as an asynchronous response to an [OID_WWAN_MPDP](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-mpdp) set request.
 
 ## -see-also
 
 [**NDIS_WWAN_MPDP_INFO**](ns-ndiswwan-_ndis_wwan_mpdp_info.md)
 
-[NDIS_STATUS_WWAN_MPDP_STATE](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-wwan-mpdp-state)
+[NDIS_STATUS_WWAN_MPDP_STATE](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-mpdp-state)
 
-[OID_WWAN_MPDP](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-mpdp)
+[OID_WWAN_MPDP](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-mpdp)

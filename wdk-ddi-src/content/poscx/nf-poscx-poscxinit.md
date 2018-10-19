@@ -6,11 +6,8 @@ description: PosCxInit is called to initialize the PosCx library's internal reso
 old-location: pos\poscxinit.htm
 tech.root: pos
 ms.assetid: 23FEA770-12E1-44EC-901D-5C660F5F054A
-ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: PosCxInit, PosCxInit function, pos.poscxinit, poscx/PosCxInit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: poscx.h
 req.include-header: Poscx.h

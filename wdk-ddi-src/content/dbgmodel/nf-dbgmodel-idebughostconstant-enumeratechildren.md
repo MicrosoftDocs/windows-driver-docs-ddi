@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDebugHostConstant.EnumerateChildren
 title: IDebugHostConstant::EnumerateChildren
 author: windows-driver-content
-description: TBD
+description: The EnumerateChildren method returns an enumerator which will enumerate all children of a given symbol.
 ms.assetid: a70649c0-d246-4132-b526-b71bda410dbf
-ms.author: windowsdriverdev
 ms.date: 09/20/2018
 ms.topic: method
 ms.keywords: IDebugHostConstant::EnumerateChildren, EnumerateChildren, IDebugHostConstant.EnumerateChildren, IDebugHostConstant::EnumerateChildren, IDebugHostConstant.EnumerateChildren
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostConstant.EnumerateChildren
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

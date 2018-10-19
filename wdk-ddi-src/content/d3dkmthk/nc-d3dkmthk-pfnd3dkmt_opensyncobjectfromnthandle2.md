@@ -4,11 +4,8 @@ title: PFND3DKMT_OPENSYNCOBJECTFROMNTHANDLE2
 author: windows-driver-content
 description: The PFND3DKMT_OPENSYNCOBJECTFROMNTHANDLE2 callback function maps an NT process handle to a graphics processing unit (GPU) synchronization object.
 ms.assetid: 4ca41a3c-3bd5-4964-8299-72c78b0df435
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3DKMT_OPENSYNCOBJECTFROMNTHANDLE2 callback function maps an NT process h
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_OPENSYNCOBJECTFROMNTHANDLE2 Pfnd3dkmtOpensyncobjectfromnthandle2; 

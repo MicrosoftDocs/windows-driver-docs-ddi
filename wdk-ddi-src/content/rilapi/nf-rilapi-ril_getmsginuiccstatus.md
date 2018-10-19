@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_getmsginuiccstatus.htm
 tech.root: netvista
 ms.assetid: 9cf60a9b-cb1e-46a5-b8d8-c7fc2c6f2cf3
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_GetMsgInUiccStatus, RIL_GetMsgInUiccStatus method [Network Drivers Starting with Windows Vista], netvista.ril_getmsginuiccstatus, rilapi/RIL_GetMsgInUiccStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rilapi.h
 req.include-header: 

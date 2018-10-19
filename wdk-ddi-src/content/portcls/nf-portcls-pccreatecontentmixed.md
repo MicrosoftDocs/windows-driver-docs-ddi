@@ -6,11 +6,8 @@ description: The PcCreateContentMixed function computes the DRM content rights f
 old-location: audio\pccreatecontentmixed.htm
 tech.root: audio
 ms.assetid: 9b916d43-26ab-4354-8537-2d4789c5fb52
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: PcCreateContentMixed, PcCreateContentMixed function [Audio Devices], audio.pccreatecontentmixed, audpc-routines_40c3dd23-60cb-48dc-a570-1ba007a27bb2.xml, portcls/PcCreateContentMixed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: portcls.h
 req.include-header: Portcls.h

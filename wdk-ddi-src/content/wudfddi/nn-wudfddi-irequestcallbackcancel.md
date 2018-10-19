@@ -6,11 +6,8 @@ description: A driver is notified when an I/O request that the driver is current
 old-location: wdf\irequestcallbackcancel.htm
 tech.root: wdf
 ms.assetid: d6aec38c-6cbb-494c-9fa4-10b6f4a30ae0
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IRequestCallbackCancel, IRequestCallbackCancel interface, IRequestCallbackCancel interface,described, UMDFRequestObjectRef_6f54b76d-812d-437c-8c02-7d9e3e177b90.xml, umdf.irequestcallbackcancel, wdf.irequestcallbackcancel, wudfddi/IRequestCallbackCancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wudfddi.h
 req.include-header: 
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 A driver is notified when an I/O request that the driver is currently processing is to be canceled. The driver is notified when an application calls the Microsoft Win32 <b>CancelIo</b>, <b>CancelIoEx</b>, or <b>CancelSynchronousIo</b> function. The driver can handle the notification by registering the <b>IRequestCallbackCancel</b> interface.
 
@@ -86,7 +83,7 @@ The <a href="https://msdn.microsoft.com/67c85eaa-bb47-4384-8e37-fdbbc879b352">On
 
 
 
-A driver registers the <b>IRequestCallbackCancel</b> interface when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a> method to enable the canceling of an I/O request. For more information about how to cancel I/O requests, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/canceling-i-o-requests">Canceling I/O Requests</a>.
+A driver registers the <b>IRequestCallbackCancel</b> interface when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a> method to enable the canceling of an I/O request. For more information about how to cancel I/O requests, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/canceling-i-o-requests">Canceling I/O Requests</a>.
 
 
 

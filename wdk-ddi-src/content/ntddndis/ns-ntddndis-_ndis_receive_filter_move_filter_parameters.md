@@ -6,11 +6,8 @@ description: The NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS structure specifies 
 old-location: netvista\ndis_receive_filter_move_filter_parameters.htm
 tech.root: netvista
 ms.assetid: 4045d8ed-bf8d-4dc1-80c3-a77499a7bf4e
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS, NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS, NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS, PNDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS, netvista.ndis_receive_filter_move_filter_parameters, ntddndis/NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS, ntddndis/PNDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ndis.h
@@ -79,7 +76,7 @@ Set the <b>Size</b> member to NDIS_SIZEOF_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS_
 
 An NDIS_RECEIVE_FILTER_ID value that  specifies the identifier of the receive filter.
 
-<div class="alert"><b>Note</b>   The filter specified by this value must have been previously set through an OID method request of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>.</div>
+<div class="alert"><b>Note</b>   The filter specified by this value must have been previously set through an OID method request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>.</div>
 <div> </div>
 
 ### -field SourceQueueId

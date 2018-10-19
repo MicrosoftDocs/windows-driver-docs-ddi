@@ -6,11 +6,8 @@ description: The USB_PIPE_INFO structure is used in conjunction with the USB_NOD
 old-location: buses\usb_pipe_info.htm
 tech.root: usbref
 ms.assetid: 9da16cd4-bd5f-4713-83ce-4302f6807476
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSB_PIPE_INFO, PUSB_PIPE_INFO, PUSB_PIPE_INFO structure pointer [Buses], USB_PIPE_INFO, USB_PIPE_INFO structure [Buses], _USB_PIPE_INFO, buses.usb_pipe_info, usbioctl/PUSB_PIPE_INFO, usbioctl/USB_PIPE_INFO, usbstrct_bba47504-f840-483c-9cf8-49a7ade717d3.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: usbioctl.h
 req.include-header: Usbioctl.h

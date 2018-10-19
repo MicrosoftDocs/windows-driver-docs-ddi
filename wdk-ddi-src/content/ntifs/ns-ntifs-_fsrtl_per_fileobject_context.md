@@ -6,11 +6,8 @@ description: The opaque FSRTL_PER_FILEOBJECT_CONTEXT structure is used by the op
 old-location: ifsk\fsrtl_per_fileobject_context.htm
 tech.root: ifsk
 ms.assetid: f9d6f957-5878-45ca-86a3-1c62f2a52e65
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PFSRTL_PER_FILEOBJECT_CONTEXT, FSRTL_PER_FILEOBJECT_CONTEXT, FSRTL_PER_FILEOBJECT_CONTEXT structure [Installable File System Drivers], PFSRTL_PER_FILEOBJECT_CONTEXT, PFSRTL_PER_FILEOBJECT_CONTEXT structure pointer [Installable File System Drivers], _FSRTL_PER_FILEOBJECT_CONTEXT, contextstructures_0b5fadaf-8b73-4a63-9e1d-fa08359d5e8d.xml, ifsk.fsrtl_per_fileobject_context, ntifs/FSRTL_PER_FILEOBJECT_CONTEXT, ntifs/PFSRTL_PER_FILEOBJECT_CONTEXT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntifs.h
 req.include-header: Fltkernel.h, Ntifs.h

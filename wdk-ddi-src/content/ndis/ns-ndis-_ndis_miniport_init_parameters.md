@@ -6,11 +6,8 @@ description: The NDIS_MINIPORT_INIT_PARAMETERS structure defines the initializat
 old-location: netvista\ndis_miniport_init_parameters.htm
 tech.root: netvista
 ms.assetid: 945d921b-3024-4c4f-a50d-e996c6183db7
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_MINIPORT_INIT_PARAMETERS, NDIS_MINIPORT_INIT_PARAMETERS, NDIS_MINIPORT_INIT_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_INIT_PARAMETERS, PNDIS_MINIPORT_INIT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_INIT_PARAMETERS, miniport_structures_ref_064614b0-eb2a-4fdd-8b0a-d14540e6faa5.xml, ndis/NDIS_MINIPORT_INIT_PARAMETERS, ndis/PNDIS_MINIPORT_INIT_PARAMETERS, netvista.ndis_miniport_init_parameters"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -119,7 +116,7 @@ A pointer to an
      <a href="https://msdn.microsoft.com/7c411d9e-1064-4278-9870-0546891d4743">
      NDIS_PORT_AUTHENTICATION_PARAMETERS</a> structure that defines the default port authentication
      parameters for the miniport adapter. For more information about port authentication parameters, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
      OID_GEN_PORT_AUTHENTICATION_PARAMETERS</a>.
 
 
@@ -182,7 +179,7 @@ NDIS passes a pointer to an initialized <b>NDIS_MINIPORT_INIT_PARAMETERS</b> str
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
    OID_GEN_PORT_AUTHENTICATION_PARAMETERS</a>
  
 

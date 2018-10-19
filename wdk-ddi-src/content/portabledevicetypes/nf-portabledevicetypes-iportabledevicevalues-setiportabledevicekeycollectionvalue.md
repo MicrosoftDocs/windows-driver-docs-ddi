@@ -6,11 +6,8 @@ description: Adds a new SetIPortableDeviceKeyCollectionValue value (type VT_UNKN
 old-location: wpddk\iportabledevicevalues_setiportabledevicekeycollectionvalue.htm
 tech.root: wpd_dk
 ms.assetid: b6a99ac0-3efd-4b58-bd90-3c7d172cd7ea
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IPortableDeviceValues interface,SetIPortableDeviceKeyCollectionValue method, IPortableDeviceValues.SetIPortableDeviceKeyCollectionValue, IPortableDeviceValues::SetIPortableDeviceKeyCollectionValue, IPortableDeviceValuesSetIPortableDeviceKeyCollectionValue, SetIPortableDeviceKeyCollectionValue, SetIPortableDeviceKeyCollectionValue method, SetIPortableDeviceKeyCollectionValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetIPortableDeviceKeyCollectionValue, wpddk.iportabledevicevalues_setiportabledevicekeycollectionvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledevicetypes.h
 req.include-header: 

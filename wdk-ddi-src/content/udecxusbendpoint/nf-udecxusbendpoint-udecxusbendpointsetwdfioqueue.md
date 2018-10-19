@@ -6,11 +6,8 @@ description: Sets a framework queue object with a UDE endpoint.
 old-location: buses\udecxusbendpointsetwdfioqueue.htm
 tech.root: usbref
 ms.assetid: 48744342-9137-48F5-9071-528974DE6AD5
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UdecxUsbEndpointSetWdfIoQueue, UdecxUsbEndpointSetWdfIoQueue function [Buses], buses.udecxusbendpointsetwdfioqueue, udecxusbendpoint/UdecxUsbEndpointSetWdfIoQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: udecxusbendpoint.h
 req.include-header: Udecx.h
@@ -87,7 +84,7 @@ This function does not return a value.
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-i-o-queues">Creating I/O Queues</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-i-o-queues">Creating I/O Queues</a>
 
 
 

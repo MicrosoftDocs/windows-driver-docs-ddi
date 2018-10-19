@@ -6,11 +6,8 @@ description: The IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO is used by the USB hub d
 old-location: buses\ioctl_internal_usb_get_parent_hub_info.htm
 tech.root: usbref
 ms.assetid: c97c1081-6f8c-4aa3-b34a-b8f7455dc2ef
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO, IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO control, IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO control code [Buses], buses.ioctl_internal_usb_get_parent_hub_info, usbioctl/IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
@@ -121,7 +118,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 
 

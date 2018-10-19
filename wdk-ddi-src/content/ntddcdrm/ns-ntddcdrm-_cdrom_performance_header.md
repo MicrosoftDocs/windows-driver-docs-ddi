@@ -6,11 +6,8 @@ description: The CDROM_PERFORMANCE_HEADER structure is used by the IOCTL_CDROM_G
 old-location: storage\cdrom_performance_header.htm
 tech.root: storage
 ms.assetid: D7B47E18-038E-41B4-85E5-A48931CDCA89
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PCDROM_PERFORMANCE_HEADER, CDROM_PERFORMANCE_HEADER, CDROM_PERFORMANCE_HEADER structure [Storage Devices], PCDROM_PERFORMANCE_HEADER, PCDROM_PERFORMANCE_HEADER structure pointer [Storage Devices], _CDROM_PERFORMANCE_HEADER, ntddcdrm/CDROM_PERFORMANCE_HEADER, ntddcdrm/PCDROM_PERFORMANCE_HEADER, storage.cdrom_performance_header"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h

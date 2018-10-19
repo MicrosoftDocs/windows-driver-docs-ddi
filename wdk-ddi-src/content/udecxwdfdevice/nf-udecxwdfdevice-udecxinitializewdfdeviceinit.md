@@ -6,11 +6,8 @@ description: Initializes device initialization operations when the Plug and Play
 old-location: buses\udecxinitializewdfdeviceinit.htm
 tech.root: usbref
 ms.assetid: 6FF62F6B-D83D-45DB-BE83-7A6D61A6AC92
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UdecxInitializeWdfDeviceInit, UdecxInitializeWdfDeviceInit function [Buses], buses.udecxinitializewdfdeviceinit, udecxwdfdevice/UdecxInitializeWdfDeviceInit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: udecxwdfdevice.h
 req.include-header: Udecx.h

@@ -2,10 +2,9 @@
 UID: NF:dbgmodel.IDataModelScript.GetName
 title: IDataModelScript::GetName
 author: windows-driver-content
-description: TBD
+description: The GetName method returns the name of the script as an allocated string via the SysAllocString function. 
 ms.assetid: b3ba5728-6a17-4bdc-b22c-56349216c8a3
-ms.author: windowsdriverdev
-ms.date: 08/20/2018 
+ms.date: 08/20/2018
 ms.topic: method
 ms.keywords: IDataModelScript::GetName, GetName, IDataModelScript.GetName, IDataModelScript::GetName, IDataModelScript.GetName
 req.header: dbgmodel.h
@@ -35,8 +34,6 @@ api_name:
 -	IDataModelScript.GetName
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

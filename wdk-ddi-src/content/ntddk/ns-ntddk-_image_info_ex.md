@@ -6,11 +6,8 @@ description: Extended version of the image information structure (see IMAGE_INFO
 old-location: kernel\image_info_ex.htm
 tech.root: kernel
 ms.assetid: 97F3D9BE-9069-4A4A-B114-FC9331510512
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PIMAGE_INFO_EX, IMAGE_INFO_EX, IMAGE_INFO_EX structure [Kernel-Mode Driver Architecture], PIMAGE_INFO_EX, PIMAGE_INFO_EX structure pointer [Kernel-Mode Driver Architecture], _IMAGE_INFO_EX, kernel.image_info_ex, ntddk/IMAGE_INFO_EX, ntddk/PIMAGE_INFO_EX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddk.h
 req.include-header: Ntddk.h

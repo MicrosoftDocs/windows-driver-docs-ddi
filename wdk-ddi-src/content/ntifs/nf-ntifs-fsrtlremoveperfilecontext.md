@@ -6,11 +6,8 @@ description: The FsRtlRemovePerFileContext routine returns a pointer to a FSRTL_
 old-location: ifsk\fsrtlremoveperfilecontext.htm
 tech.root: ifsk
 ms.assetid: 1a4b6759-84d9-4731-8920-ef6ea1e51102
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlRemovePerFileContext, FsRtlRemovePerFileContext routine [Installable File System Drivers], fsrtlref_90f829b2-a8ed-44fd-adb3-61c57f5f9aad.xml, ifsk.fsrtlremoveperfilecontext, ntifs/FsRtlRemovePerFileContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h

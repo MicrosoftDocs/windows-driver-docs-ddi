@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDataModelScriptDebugVariableSetEnumerator.QueryInterface
 title: IDataModelScriptDebugVariableSetEnumerator::QueryInterface
 author: windows-driver-content
-description: TBD
+description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: a5344740-740f-4417-9cd1-9b08fdde45d8
-ms.author: windowsdriverdev
 ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebugVariableSetEnumerator::QueryInterface, QueryInterface, IDataModelScriptDebugVariableSetEnumerator.QueryInterface, IDataModelScriptDebugVariableSetEnumerator::QueryInterface, IDataModelScriptDebugVariableSetEnumerator.QueryInterface
@@ -35,8 +34,6 @@ api_name:
 -	IDataModelScriptDebugVariableSetEnumerator.QueryInterface
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

@@ -6,11 +6,8 @@ description: The USB_DEVICE_SPEED enumeration defines constants for USB device s
 old-location: buses\usb_device_speed.htm
 tech.root: usbref
 ms.assetid: e7c50bac-96ca-446d-a865-4ad87ad5b295
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: USB_DEVICE_SPEED, USB_DEVICE_SPEED enumeration [Buses], UsbFullSpeed, UsbHighSpeed, UsbLowSpeed, UsbSuperSpeed, _USB_DEVICE_SPEED, buses.usb_device_speed, usbspec/USB_DEVICE_SPEED, usbspec/UsbFullSpeed, usbspec/UsbHighSpeed, usbspec/UsbLowSpeed, usbspec/UsbSuperSpeed, usbstrct_c458b58d-fcfa-4082-bbcf-34e22d504ab9.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: usbspec.h
 req.include-header: Usbspec.h

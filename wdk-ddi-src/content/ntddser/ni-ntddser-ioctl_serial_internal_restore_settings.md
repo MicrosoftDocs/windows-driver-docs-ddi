@@ -6,11 +6,8 @@ description: The IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS request restores the spe
 old-location: serports\ioctl_serial_internal_restore_settings.htm
 tech.root: serports
 ms.assetid: 55c56436-ac59-4095-a9f3-f36092db19c0
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS, IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS control, IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS control code [Serial Ports], ntddser/IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS, serports.ioctl_serial_internal_restore_settings, serref_bb81345f-080d-4de6-bc36-34a32f934fc7.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddser.h
 req.include-header: Ntddser.h
@@ -103,7 +100,7 @@ None.
 
 If the request is successful, the <b>Information</b> member is set to the size, in bytes, of SERIAL_BASIC_SETTINGS structure. Otherwise, the <b>Information</b> member is set to zero.
 
-The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. If Status is set to STATUS_BUFFER_TOO_SMALL, the <b>Parameters.DeviceIoControl.InputBufferLength</b> member of the IO_STACK_LOCATION structure is less than the size, in bytes, of a SERIAL_BASIC_SETTINGS structure.
+The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. If Status is set to STATUS_BUFFER_TOO_SMALL, the <b>Parameters.DeviceIoControl.InputBufferLength</b> member of the IO_STACK_LOCATION structure is less than the size, in bytes, of a SERIAL_BASIC_SETTINGS structure.
 
 
 ## -see-also

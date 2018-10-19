@@ -6,11 +6,8 @@ description: The EvtSerCx2SelectNextTransmitTransactionType event callback funct
 old-location: serports\evtsercx2selectnexttransmittransactiontype.htm
 tech.root: serports
 ms.assetid: EE46CB43-18BA-4FD7-A60D-07DB1760B8E7
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2SelectNextTransmitTransactionType, EVT_SERCX2_SELECT_NEXT_TRANSMIT_TRANSACTION_TYPE, EVT_SERCX2_SELECT_NEXT_TRANSMIT_TRANSACTION_TYPE callback, EvtSerCx2SelectNextTransmitTransactionType, EvtSerCx2SelectNextTransmitTransactionType callback function [Serial Ports], serports.evtsercx2selectnexttransmittransactiontype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sercx.h
 req.include-header: 
@@ -80,7 +77,7 @@ The total number of bytes of data that remain to be transferred in the current w
 
 ### -param CustomTransmit [out]
 
-A pointer to a location to which the function writes the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMTRANSMIT</a> handle to the custom-transmit object. If the function returns <b>SerCx2TransactionTypeCustom</b>, the function must supply the object handle that the serial controller driver created in a previous call to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265256">SerCx2CustomTransmitCreate</a> method. If the return value is not <b>SerCx2TransactionTypeCustom</b>, this output value is ignored by SerCx2.
+A pointer to a location to which the function writes the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMTRANSMIT</a> handle to the custom-transmit object. If the function returns <b>SerCx2TransactionTypeCustom</b>, the function must supply the object handle that the serial controller driver created in a previous call to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265256">SerCx2CustomTransmitCreate</a> method. If the return value is not <b>SerCx2TransactionTypeCustom</b>, this output value is ignored by SerCx2.
 
 
 ### -param NextTransactionLength [out]
@@ -173,7 +170,7 @@ The <b>EVT_SERCX2_CUSTOM_TRANSMIT_SELECT_NEXT_TRANSACTION_TYPE</b> function type
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMTRANSMIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMTRANSMIT</a>
 
 
 

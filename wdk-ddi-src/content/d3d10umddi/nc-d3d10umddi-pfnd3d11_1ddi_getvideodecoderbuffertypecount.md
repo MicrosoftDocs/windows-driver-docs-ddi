@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Queries the number of buffer types that the display miniport driver requires to perform a specified decode operation.
 old-location: display\getvideodecoderbuffertypecount.htm
 ms.assetid: 3528ac03-55cf-4e02-ae42-69b736684147
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_GETVIDEODECODERBUFFERTYPECOUNT, PFND3D11_1DDI_GETVIDEODECODERBUFFERTYPECOUNT callback, d3d10umddi/pfnGetVideoDecoderBufferTypeCount, display.getvideodecoderbuffertypecount, pfnGetVideoDecoderBufferTypeCount, pfnGetVideoDecoderBufferTypeCount callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

@@ -6,11 +6,8 @@ description: The WdfDeviceWdmDispatchPreprocessedIrp method returns a preprocess
 old-location: wdf\wdfdevicewdmdispatchpreprocessedirp.htm
 tech.root: wdf
 ms.assetid: 83b18680-0b58-4278-87ff-757eb6e76178
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_e861729e-006d-413c-9f7e-60e2fae72c1f.xml, WdfDeviceWdmDispatchPreprocessedIrp, WdfDeviceWdmDispatchPreprocessedIrp method, kmdf.wdfdevicewdmdispatchpreprocessedirp, wdf.wdfdevicewdmdispatchpreprocessedirp, wdfdevice/WdfDeviceWdmDispatchPreprocessedIrp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h
@@ -86,12 +83,12 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-A framework-based driver that preprocesses or postprocesses WDM IRPs must call <b>WdfDeviceWdmDispatchPreprocessedIrp</b>, typically from within the driver's <a href="https://msdn.microsoft.com/aff9cb60-d61b-47a8-aae4-6ffd2a1b7a9a">EvtDeviceWdmIrpPreprocess</a> callback function. For more information about how to call <b>WdfDeviceWdmDispatchPreprocessedIrp</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/preprocessing-and-postprocessing-irps">Preprocessing and Postprocessing IRPs</a>.
+A framework-based driver that preprocesses or postprocesses WDM IRPs must call <b>WdfDeviceWdmDispatchPreprocessedIrp</b>, typically from within the driver's <a href="https://msdn.microsoft.com/aff9cb60-d61b-47a8-aae4-6ffd2a1b7a9a">EvtDeviceWdmIrpPreprocess</a> callback function. For more information about how to call <b>WdfDeviceWdmDispatchPreprocessedIrp</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/preprocessing-and-postprocessing-irps">Preprocessing and Postprocessing IRPs</a>.
 
 
 #### Examples
 
-For a code example that uses <b>WdfDeviceWdmDispatchPreprocessedIrp</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/preprocessing-and-postprocessing-irps">Preprocessing and Postprocessing IRPs</a>.
+For a code example that uses <b>WdfDeviceWdmDispatchPreprocessedIrp</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/preprocessing-and-postprocessing-irps">Preprocessing and Postprocessing IRPs</a>.
 
 <div class="code"></div>
 

@@ -6,11 +6,8 @@ description: The FltEnumerateFilterInformation routine provides information abou
 old-location: ifsk\fltenumeratefilterinformation.htm
 tech.root: ifsk
 ms.assetid: c8bfa809-3f32-487c-991e-2ec040e3bc98
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_dc4c496f-b21e-4b92-93c6-7efbe25400a6.xml, FltEnumerateFilterInformation, FltEnumerateFilterInformation routine [Installable File System Drivers], fltkernel/FltEnumerateFilterInformation, ifsk.fltenumeratefilterinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: FltKernel.h

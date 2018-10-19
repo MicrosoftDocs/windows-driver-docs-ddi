@@ -6,11 +6,8 @@ description: The CDROM_PERFORMANCE_REQUEST_TYPE enumeration defines the types of
 old-location: storage\cdrom_performance_request_type.htm
 tech.root: storage
 ms.assetid: 139D6E9A-36EE-4162-B9C5-12E9D57C7BE7
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PCDROM_PERFORMANCE_REQUEST_TYPE, CDROM_PERFORMANCE_REQUEST_TYPE, CDROM_PERFORMANCE_REQUEST_TYPE enumeration [Storage Devices], CdromPerformanceRequest, CdromWriteSpeedRequest, PCDROM_PERFORMANCE_REQUEST_TYPE, PCDROM_PERFORMANCE_REQUEST_TYPE enumeration pointer [Storage Devices], _CDROM_PERFORMANCE_REQUEST_TYPE, ntddcdrm/ CdromWriteSpeedRequest, ntddcdrm/CDROM_PERFORMANCE_REQUEST_TYPE, ntddcdrm/CdromPerformanceRequest, ntddcdrm/PCDROM_PERFORMANCE_REQUEST_TYPE, storage.cdrom_performance_request_type"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h

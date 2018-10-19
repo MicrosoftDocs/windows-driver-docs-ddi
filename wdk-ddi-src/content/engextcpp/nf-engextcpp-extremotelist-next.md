@@ -6,11 +6,8 @@ description: The Next method changes the current item to the next item in the li
 old-location: debugger\extremotelist_next.htm
 tech.root: debugger
 ms.assetid: a1bf6f5b-c23d-40ed-b6e2-788066fcf0fc
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_27cc32ed-e2da-4041-8dd7-e2d5a0910c5e.xml, ExtRemoteList class [Windows Debugging],Next method, ExtRemoteList.Next, ExtRemoteList::Next, Next, Next method [Windows Debugging], Next method [Windows Debugging],ExtRemoteList class, debugger.extremotelist_next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

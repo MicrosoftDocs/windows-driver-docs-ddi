@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDataModelManager2.AcquireSubNamespace
 title: IDataModelManager2::AcquireSubNamespace
 author: windows-driver-content
-description: TBD
+description: The AcquireSubNamespace method helps in the construction of something which might more traditionally look like a language namespace than a new object in a dynamic language.
 ms.assetid: 2cb6ec25-f9aa-419f-80f5-845a327ea7c2
-ms.author: windowsdriverdev
 ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelManager2::AcquireSubNamespace, AcquireSubNamespace, IDataModelManager2.AcquireSubNamespace, IDataModelManager2::AcquireSubNamespace, IDataModelManager2.AcquireSubNamespace
@@ -35,8 +34,6 @@ api_name:
 -	IDataModelManager2.AcquireSubNamespace
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

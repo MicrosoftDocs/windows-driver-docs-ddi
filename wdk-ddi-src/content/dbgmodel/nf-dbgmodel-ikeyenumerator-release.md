@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IKeyEnumerator.Release
 title: IKeyEnumerator::Release
 author: windows-driver-content
-description: TBD
+description: Decrements the reference count for an interface on an object. 
 ms.assetid: 66da07a2-92d5-4b16-a550-6678ed1570ec
-ms.author: windowsdriverdev
 ms.date: 08/13/2018
 ms.topic: method
 ms.keywords: IKeyEnumerator::Release, Release, IKeyEnumerator.Release, IKeyEnumerator::Release, IKeyEnumerator.Release
@@ -35,8 +34,6 @@ api_name:
 -	IKeyEnumerator.Release
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

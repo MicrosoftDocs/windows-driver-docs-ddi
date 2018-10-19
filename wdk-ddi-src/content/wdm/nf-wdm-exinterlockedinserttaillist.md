@@ -6,11 +6,8 @@ description: The ExInterlockedInsertTailList routine atomically inserts an entry
 old-location: kernel\exinterlockedinserttaillist.htm
 tech.root: kernel
 ms.assetid: cd322d64-4005-426c-b3ce-0fe8f6ce868e
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExInterlockedInsertTailList, ExInterlockedInsertTailList routine [Kernel-Mode Driver Architecture], k102_a6d47e7b-63d2-48e9-9f6a-99f733194c1b.xml, kernel.exinterlockedinserttaillist, wdm/ExInterlockedInsertTailList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

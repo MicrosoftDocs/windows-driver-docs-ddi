@@ -6,11 +6,8 @@ description: This I/O control code allows an application or kernel driver to sen
 old-location: storage\ioctl_mpio_pass_through_path.htm
 tech.root: storage
 ms.assetid: c87b9be3-05cf-4321-9ffc-16b319c9e179
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_MPIO_PASS_THROUGH_PATH, IOCTL_MPIO_PASS_THROUGH_PATH control, IOCTL_MPIO_PASS_THROUGH_PATH control code [Storage Devices], k307_3498bdee-456f-4924-b5f3-c80366d54c02.xml, ntddscsi/IOCTL_MPIO_PASS_THROUGH_PATH, storage.ioctl_mpio_pass_through_path
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h

@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IModelIterator.AddRef
 title: IModelIterator::AddRef
 author: windows-driver-content
-description: TBD
+description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: 2977582b-6724-4e46-9364-7aefbe8e4771
-ms.author: windowsdriverdev
 ms.date: 09/21/2018
 ms.topic: method
 ms.keywords: IModelIterator::AddRef, AddRef, IModelIterator.AddRef, IModelIterator::AddRef, IModelIterator.AddRef
@@ -35,8 +34,6 @@ api_name:
 -	IModelIterator.AddRef
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

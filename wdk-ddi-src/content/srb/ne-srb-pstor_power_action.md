@@ -6,11 +6,8 @@ description: The STOR_POWER_ACTION enumerator indicates the power state that the
 old-location: storage\stor_power_action.htm
 tech.root: storage
 ms.assetid: ffc7c1ec-faec-4383-ab69-844cf68d054f
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*PSTOR_POWER_ACTION, PSTOR_POWER_ACTION, PSTOR_POWER_ACTION enumeration pointer [Storage Devices], STOR_POWER_ACTION, STOR_POWER_ACTION enumeration [Storage Devices], StorPowerActionHibernate, StorPowerActionNone, StorPowerActionReserved, StorPowerActionShutdown, StorPowerActionShutdownOff, StorPowerActionShutdownReset, StorPowerActionSleep, StorPowerActionWarmEject, storage.stor_power_action, storport/PSTOR_POWER_ACTION, storport/STOR_POWER_ACTION, storport/StorPowerActionHibernate, storport/StorPowerActionNone, storport/StorPowerActionReserved, storport/StorPowerActionShutdown, storport/StorPowerActionShutdownOff, storport/StorPowerActionShutdownReset, storport/StorPowerActionSleep, storport/StorPowerActionWarmEject, structs-storport_53754a67-bd34-4f06-92ba-2f45d7fa66a9.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: srb.h
 req.include-header: Storport.h, Minitape.h, Srb.h
@@ -57,7 +54,7 @@ The STOR_POWER_ACTION enumerator indicates the power state that the system is ab
 ## -syntax
 
 
-````
+```cpp
 typedef enum  {
   StorPowerActionNone           = 0,
   StorPowerActionReserved       = 1,
@@ -68,7 +65,7 @@ typedef enum  {
   StorPowerActionShutdownOff    = 6,
   StorPowerActionWarmEject      = 7
 } STOR_POWER_ACTION, *PSTOR_POWER_ACTION;
-````
+```
 
 
 ## -enum-fields

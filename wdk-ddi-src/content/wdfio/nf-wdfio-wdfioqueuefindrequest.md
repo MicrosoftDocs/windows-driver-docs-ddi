@@ -6,11 +6,8 @@ description: The WdfIoQueueFindRequest method locates the next request in an I/O
 old-location: wdf\wdfioqueuefindrequest.htm
 tech.root: wdf
 ms.assetid: 379fc7ec-577a-48a4-83b0-4be4e8cfe1bf
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_c0d57542-6256-4502-ad31-8b388857296f.xml, WdfIoQueueFindRequest, WdfIoQueueFindRequest method, kmdf.wdfioqueuefindrequest, wdf.wdfioqueuefindrequest, wdfio/WdfIoQueueFindRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfio.h
 req.include-header: Wdf.h
@@ -55,7 +52,7 @@ req.typenames:
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
-The <b>WdfIoQueueFindRequest</b> method locates the next request in an I/O queue, or the next request that matches specified criteria, but does not grant <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-ownership">ownership</a> of the request to the driver.
+The <b>WdfIoQueueFindRequest</b> method locates the next request in an I/O queue, or the next request that matches specified criteria, but does not grant <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/request-ownership">ownership</a> of the request to the driver.
 
 
 ## -parameters
@@ -150,7 +147,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 The <b>WdfIoQueueFindRequest</b> method searches a specified I/O queue and attempts to find an I/O request. 
 
-Your driver can call <b>WdfIoQueueFindRequest</b> only if the driver is using the manual <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">dispatching method</a> for the specified I/O queue.
+Your driver can call <b>WdfIoQueueFindRequest</b> only if the driver is using the manual <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">dispatching method</a> for the specified I/O queue.
 
 If <i>FileObject</i> is not <b>NULL</b>, <b>WdfIoQueueFindRequest</b> only examines requests that are associated with the specified file object handle.
 
@@ -160,7 +157,7 @@ If <i>Parameters</i> is not <b>NULL</b>, this method copies the found request's 
 
 Every call to <b>WdfIoQueueFindRequest</b> that returns STATUS_SUCCESS increments the reference count of the request object whose handle is returned in <i>OutRequest</i>. Therefore, your driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a> after you have finished using the handle. 
 
-Calling <b>WdfIoQueueFindRequest</b> does <i>not</i> grant the driver <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-ownership">ownership</a> of any requests. If you want your driver to obtain ownership of a request so that it can process the request, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/hh975099">WdfIoQueueRetrieveFoundRequest</a>. In fact, the driver can do only the following with the handle that it receives for the <i>OutRequest</i> parameter:
+Calling <b>WdfIoQueueFindRequest</b> does <i>not</i> grant the driver <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/request-ownership">ownership</a> of any requests. If you want your driver to obtain ownership of a request so that it can process the request, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/hh975099">WdfIoQueueRetrieveFoundRequest</a>. In fact, the driver can do only the following with the handle that it receives for the <i>OutRequest</i> parameter:
 
 <ul>
 <li>
@@ -172,7 +169,7 @@ Use it as the <i>FoundRequest</i> parameter in a subsequent call to <a href="htt
 
 </li>
 <li>
-Use it as the input parameter in a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff548749">WdfObjectGetTypedContext</a> or a driver-defined method for accessing the object's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-context-space">context space</a>.
+Use it as the input parameter in a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff548749">WdfObjectGetTypedContext</a> or a driver-defined method for accessing the object's <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-context-space">context space</a>.
 
 </li>
 <li>
@@ -182,14 +179,14 @@ Use it as the input parameter to <a href="https://msdn.microsoft.com/library/win
 </ul>
 If a call to <b>WdfIoQueueFindRequest</b> returns STATUS_NOT_FOUND, a request that was previously in the queue has been removed. The request might have been canceled. A call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh975099">WdfIoQueueRetrieveFoundRequest</a> can also return STATUS_NOT_FOUND.
 
-For more information about the <b>WdfIoQueueFindRequest</b> method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>.
+For more information about the <b>WdfIoQueueFindRequest</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>.
 
 
 #### Examples
 
 <b>Example 1</b>
 
-The following code example is from the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">PCIDRV</a> sample driver. This example searches an I/O queue for a request that contains a specified I/O function code. If a matching request is found, the example calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh975099">WdfIoQueueRetrieveFoundRequest</a>.
+The following code example is from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">PCIDRV</a> sample driver. This example searches an I/O queue for a request that contains a specified I/O function code. If a matching request is found, the example calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh975099">WdfIoQueueRetrieveFoundRequest</a>.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

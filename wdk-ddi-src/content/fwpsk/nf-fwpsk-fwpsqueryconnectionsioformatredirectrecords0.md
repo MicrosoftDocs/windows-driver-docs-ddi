@@ -6,11 +6,8 @@ description: The FwpsQueryConnectionSioFormatRedirectRecords0 function returns t
 old-location: netvista\fwpsqueryconnectionsioformatredirectrecords0.htm
 tech.root: netvista
 ms.assetid: AE24409D-AA60-4694-8855-AB2B0F6B1635
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FwpsQueryConnectionSioFormatRedirectRecords0, FwpsQueryConnectionSioFormatRedirectRecords0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsQueryConnectionSioFormatRedirectRecords0, netvista.fwpsqueryconnectionsioformatredirectrecords0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
@@ -51,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>FwpsQueryConnectionSioFormatRedirectRecords0</b> function returns the connection redirect records for a redirected connection. For more information about redirection, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-bind-or-connect-redirection">Using Bind or Connect Redirection</a>.<div class="alert"><b>Note</b>  <b>FwpsQueryConnectionSioFormatRedirectRecords0</b> is a specific version of <b>FwpsQueryConnectionSioFormatRedirectRecords</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div>
+The <b>FwpsQueryConnectionSioFormatRedirectRecords0</b> function returns the connection redirect records for a redirected connection. For more information about redirection, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-bind-or-connect-redirection">Using Bind or Connect Redirection</a>.<div class="alert"><b>Note</b>  <b>FwpsQueryConnectionSioFormatRedirectRecords0</b> is a specific version of <b>FwpsQueryConnectionSioFormatRedirectRecords</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div>
 <div> </div>
 
 
@@ -128,9 +125,9 @@ The <i>RedirectRecords</i> parameter was null.
 
 The <b>FwpsQueryConnectionSioFormatRedirectRecords0</b> function applies only to local proxies.
 
-For more information about redirection, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-bind-or-connect-redirection">Using Bind or Connect Redirection</a>.
+For more information about redirection, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-bind-or-connect-redirection">Using Bind or Connect Redirection</a>.
 
-The <b>FwpsQueryConnectionSioFormatRedirectRecords0</b> function is designed to be used by a WFP connection redirection callout driver that doesn't accept the redirected connection until it has verified that it is able to connect to the actual remote endpoint.  To do this, the callout driver pends the redirected connection request at the <b>FWPS_LAYER_ALE_CONNECT_REDIRECT_V4</b> or <b>FWPS_LAYER_ALE_CONNECT_REDIRECT_V6</b> layer and calls <b>FwpsQueryConnectionSioFormatRedirectRecords0</b> to retrieve the connection redirect records, which the callout driver then sends to the proxy to be used in a call to   <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh859714">SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS</a>.
+The <b>FwpsQueryConnectionSioFormatRedirectRecords0</b> function is designed to be used by a WFP connection redirection callout driver that doesn't accept the redirected connection until it has verified that it is able to connect to the actual remote endpoint.  To do this, the callout driver pends the redirected connection request at the <b>FWPS_LAYER_ALE_CONNECT_REDIRECT_V4</b> or <b>FWPS_LAYER_ALE_CONNECT_REDIRECT_V6</b> layer and calls <b>FwpsQueryConnectionSioFormatRedirectRecords0</b> to retrieve the connection redirect records, which the callout driver then sends to the proxy to be used in a call to   <a href="https://msdn.microsoft.com/library/windows/desktop/hh859714">SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS</a>.
 
 
 
@@ -144,7 +141,7 @@ The <b>FwpsQueryConnectionSioFormatRedirectRecords0</b> function is designed to 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh859713">SIO_QUERY_WFP_CONNECTION_REDIRECT_RECORDS (WDK)</a>
+<a href="https://msdn.microsoft.com/library/windows/desktop/hh859713">SIO_QUERY_WFP_CONNECTION_REDIRECT_RECORDS (WDK)</a>
 
 
 
@@ -152,11 +149,11 @@ The <b>FwpsQueryConnectionSioFormatRedirectRecords0</b> function is designed to 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh859714">SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS (WDK)</a>
+<a href="https://msdn.microsoft.com/library/windows/desktop/hh859714">SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS (WDK)</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-bind-or-connect-redirection">Using Bind or Connect Redirection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-bind-or-connect-redirection">Using Bind or Connect Redirection</a>
 
 
 

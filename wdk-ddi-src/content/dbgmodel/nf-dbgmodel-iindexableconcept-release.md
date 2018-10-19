@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IIndexableConcept.Release
 title: IIndexableConcept::Release
 author: windows-driver-content
-description: TBD
+description: Decrements the reference count for an interface on an object. 
 ms.assetid: 427e9fea-91d6-48ce-a9df-c8033ed86a23
-ms.author: windowsdriverdev
 ms.date: 09/19/2018
 ms.topic: method
 ms.keywords: IIndexableConcept::Release, Release, IIndexableConcept.Release, IIndexableConcept::Release, IIndexableConcept.Release
@@ -35,8 +34,6 @@ api_name:
 -	IIndexableConcept.Release
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

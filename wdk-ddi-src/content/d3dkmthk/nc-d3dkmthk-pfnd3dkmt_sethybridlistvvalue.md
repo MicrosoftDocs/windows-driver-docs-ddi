@@ -4,11 +4,8 @@ title: PFND3DKMT_SETHYBRIDLISTVVALUE
 author: windows-driver-content
 description: The PFND3DKMT_SETHYBRIDLISTVVALUE callback function sets the hybrid list value.
 ms.assetid: 3ab317c8-1ff3-4eaf-80fd-4674f4f52393
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3DKMT_SETHYBRIDLISTVVALUE callback function sets the hybrid list value.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SETHYBRIDLISTVVALUE Pfnd3dkmtSethybridlistvvalue; 

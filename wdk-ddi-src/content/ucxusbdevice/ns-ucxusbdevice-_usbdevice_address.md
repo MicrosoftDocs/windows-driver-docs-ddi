@@ -6,11 +6,8 @@ description: Contains parameters for a request to transition the specified devic
 old-location: buses\_usbdevice_address.htm
 tech.root: usbref
 ms.assetid: 2CD37F1E-B96A-4D18-A756-2B9E3CB8613B
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSBDEVICE_ADDRESS, P_USBDEVICE_ADDRESS, P_USBDEVICE_ADDRESS structure pointer [Buses], USBDEVICE_ADDRESS, USBDEVICE_ADDRESS structure [Buses], _USBDEVICE_ADDRESS, buses._usbdevice_address, ucxusbdevice/P_USBDEVICE_ADDRESS, ucxusbdevice/_USBDEVICE_ADDRESS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h

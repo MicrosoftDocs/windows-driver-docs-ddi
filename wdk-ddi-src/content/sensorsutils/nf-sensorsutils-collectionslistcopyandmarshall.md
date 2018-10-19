@@ -4,11 +4,8 @@ title: CollectionsListCopyAndMarshall function
 author: windows-driver-content
 description: This routine copies and marshalls a collection list from source to target.
 ms.assetid: 63abf500-d6c8-428c-b359-2041ee49091c
-ms.author: windowsdriverdev
-ms.date: 08/07/18
+ms.date: 08/07/2018
 ms.topic: function
-ms.prod: windows-hardware
-ms.technology: windows-devices
 tech.root: sensors
 ms.keywords: CollectionsListCopyAndMarshall
 req.header: sensorsutils.h

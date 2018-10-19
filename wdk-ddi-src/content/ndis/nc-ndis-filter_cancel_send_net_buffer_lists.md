@@ -6,11 +6,8 @@ description: NDIS calls a filter driver's FilterCancelSendNetBufferLists functio
 old-location: netvista\filtercancelsendnetbufferlists.htm
 tech.root: netvista
 ms.assetid: 55979b0d-61a6-43da-8fa5-11159b1a48d1
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "(*FILTER_CANCEL_SEND_HANDLER), (*FILTER_CANCEL_SEND_HANDLER) callback function [Network Drivers Starting with Windows Vista], FILTER_CANCEL_SEND_NET_BUFFER_LISTS, FILTER_CANCEL_SEND_NET_BUFFER_LISTS callback, FilterCancelSendNetBufferLists, FilterCancelSendNetBufferLists callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_4538f981-3e2c-496b-bbea-e85baf122257.xml, ndis/FilterCancelSendNetBufferLists, netvista.filtercancelsendnetbufferlists"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -115,7 +112,7 @@ A filter driver's
 <li>
 Traverses its list of queued NET_BUFFER_LIST structures for the specified filter module and calls
       the 
-      <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff567299">
       NDIS_GET_NET_BUFFER_LIST_CANCEL_ID</a> macro to obtain the cancellation identifier for each queued
       NET_BUFFER_LIST structure. The filter driver compares the cancellation ID that
       NDIS_GET_NET_BUFFER_LIST_CANCEL_ID returns with the cancellation ID that NDIS passed to 
@@ -194,7 +191,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567299">
    NDIS_GET_NET_BUFFER_LIST_CANCEL_ID</a>
 
 

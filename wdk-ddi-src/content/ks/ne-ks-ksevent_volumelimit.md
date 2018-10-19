@@ -6,11 +6,8 @@ description:
 old-location: stream\ksevent_volumelimit.htm
 tech.root: stream
 ms.assetid: B03477A0-B7ED-491F-9D6F-B32A0E719475
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KSEVENT_VOLUMELIMIT, KSEVENT_VOLUMELIMIT enumeration [Streaming Media Devices], KSEVENT_VOLUMELIMIT_CHANGED, ks/KSEVENT_VOLUMELIMIT, ks/KSEVENT_VOLUMELIMIT_CHANGED, stream.ksevent_volumelimit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ks.h
 req.include-header: 

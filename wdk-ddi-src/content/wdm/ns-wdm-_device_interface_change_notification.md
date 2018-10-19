@@ -6,11 +6,8 @@ description: The DEVICE_INTERFACE_CHANGE_NOTIFICATION structure describes a devi
 old-location: kernel\device_interface_change_notification.htm
 tech.root: kernel
 ms.assetid: 3b5d67c0-eb3f-4ac1-9f85-f9c673314458
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PDEVICE_INTERFACE_CHANGE_NOTIFICATION, DEVICE_INTERFACE_CHANGE_NOTIFICATION, DEVICE_INTERFACE_CHANGE_NOTIFICATION structure [Kernel-Mode Driver Architecture], PDEVICE_INTERFACE_CHANGE_NOTIFICATION, PDEVICE_INTERFACE_CHANGE_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture], _DEVICE_INTERFACE_CHANGE_NOTIFICATION, kernel.device_interface_change_notification, kstruct_a_43e52fa7-54ee-49bd-b822-4daf39ebcdc2.xml, wdm/DEVICE_INTERFACE_CHANGE_NOTIFICATION, wdm/PDEVICE_INTERFACE_CHANGE_NOTIFICATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

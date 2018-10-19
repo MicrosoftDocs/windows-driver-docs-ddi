@@ -6,11 +6,8 @@ description: FltCompletePendedPreOperation resumes processing for an I/O operati
 old-location: ifsk\fltcompletependedpreoperation.htm
 tech.root: ifsk
 ms.assetid: bdd9f304-b26e-401e-81c7-da7d1e4f5635
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FLT_PREOP_COMPLETE, FLT_PREOP_SUCCESS_NO_CALLBACK, FLT_PREOP_SUCCESS_WITH_CALLBACK, FltApiRef_a_to_d_170adc13-ea3d-4346-99b2-85d5c1c464b8.xml, FltCompletePendedPreOperation, FltCompletePendedPreOperation routine [Installable File System Drivers], fltkernel/FltCompletePendedPreOperation, ifsk.fltcompletependedpreoperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
@@ -61,7 +58,7 @@ req.typenames:
 
 ### -param CallbackData
 
-Pointer to the callback data (<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for the I/O operation. This parameter is required and cannot be NULL. 
+Pointer to the callback data (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for the I/O operation. This parameter is required and cannot be NULL. 
 
 
 ### -param CallbackStatus [in]

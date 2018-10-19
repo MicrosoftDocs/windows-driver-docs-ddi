@@ -6,11 +6,8 @@ description: This request supplies the local unique identifier of the SR_IOV dev
 old-location: pci\ioctl-sriov-proxy-query-luid.htm
 tech.root: PCI
 ms.assetid: 9f10ed34-f718-4c35-9b6f-29554bf30a0f
-ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: IOCTL_SRIOV_PROXY_QUERY_LUID, IOCTL_SRIOV_PROXY_QUERY_LUID control code [Buses], PCI.ioctl-sriov-proxy-query-luid, pcivirt/IOCTL_SRIOV_PROXY_QUERY_LUID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: pcivirt.h
 req.include-header:

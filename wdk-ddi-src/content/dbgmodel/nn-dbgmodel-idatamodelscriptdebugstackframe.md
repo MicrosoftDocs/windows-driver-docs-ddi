@@ -2,13 +2,10 @@
 UID: NN:dbgmodel.IDataModelScriptDebugStackFrame
 title: IDataModelScriptDebugStackFrame
 author: windows-driver-content
-description: TBD
+description: An interface to a stack frame in the script. The script provider implements this interface to expose the notion of a particular stack frame within the call stack.
 ms.assetid: c0701fe1-41b8-4f51-91e8-74506b344b08
-ms.author: windowsdriverdev
 ms.date: 07/13/2018
 ms.topic: interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

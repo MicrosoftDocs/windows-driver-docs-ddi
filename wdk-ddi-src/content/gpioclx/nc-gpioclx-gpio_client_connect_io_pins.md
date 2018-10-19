@@ -6,11 +6,8 @@ description: The CLIENT_ConnectIoPins event callback function opens a logical co
 old-location: gpio\client_connectiopins.htm
 tech.root: GPIO
 ms.assetid: 9DE89026-872C-4537-BD99-131320B3C258
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: CLIENT_ConnectIoPins, CLIENT_ConnectIoPins callback, CLIENT_ConnectIoPins callback function [Parallel Ports], GPIO.client_connectiopins, GPIO_CLIENT_CONNECT_IO_PINS, gpioclx/CLIENT_ConnectIoPins
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: gpioclx.h
 req.include-header: 

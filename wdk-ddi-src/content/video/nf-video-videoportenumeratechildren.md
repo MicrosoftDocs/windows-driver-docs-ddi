@@ -6,11 +6,8 @@ description: The VideoPortEnumerateChildren function allows a video miniport dri
 old-location: display\videoportenumeratechildren.htm
 tech.root: display
 ms.assetid: 41f081f3-4079-46f8-9d22-76a2d9e992b5
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortEnumerateChildren, VideoPortEnumerateChildren function [Display Devices], VideoPort_Functions_8bc790f2-319f-41a6-9bf7-02a8605d2cc1.xml, display.videoportenumeratechildren, video/VideoPortEnumerateChildren
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: video.h
 req.include-header: Video.h

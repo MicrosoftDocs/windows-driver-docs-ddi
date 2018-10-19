@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\riluiccfilelockstatus_2.htm
 tech.root: netvista
 ms.assetid: a06cba0a-9ab6-4125-a506-5cc1d0c1055c
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*LPRILUICCFILELOCKSTATUS, RILUICCFILELOCKSTATUS, RILUICCFILELOCKSTATUS structure [Network Drivers Starting with Windows Vista], netvista.riluiccfilelockstatus_2, rilapitypes/RILUICCFILELOCKSTATUS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
 req.include-header:
@@ -57,14 +54,14 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```cpp
 typedef struct _RILUICCFILELOCKSTATUS {
   DWORD                                 cbSize;
   DWORD                                 dwParams;
   RILUICCFILELOCKSTATUSACCESSCONDITION  dwAccessCondition;
   BYTE [MAXNUM_PINREF]                  bPinRef;
 } RILUICCFILELOCKSTATUS, RILUICCFILELOCKSTATUS;
-````
+```
 
 
 ## -struct-fields

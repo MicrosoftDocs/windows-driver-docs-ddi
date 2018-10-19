@@ -6,11 +6,8 @@ description: DirectX 8.0 and later versions only. The D3DHAL_DP2CRED3dDrawPrimit
 old-location: display\d3dhal_dp2createvertexshader.htm
 tech.root: display
 ms.assetid: 41bea2bd-2b4d-467f-bb47-19b0b9f7ff6b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_DP2CREATEVERTEXSHADER, D3DHAL_DP2CREATEVERTEXSHADER, D3DHAL_DP2CREATEVERTEXSHADER structure [Display Devices], LPD3DHAL_DP2CREATEVERTEXSHADER, LPD3DHAL_DP2CREATEVERTEXSHADER structure pointer [Display Devices], _D3DHAL_DP2CREATEVERTEXSHADER, d3dhal/D3DHAL_DP2CREATEVERTEXSHADER, d3dhal/LPD3DHAL_DP2CREATEVERTEXSHADER, d3dstrct_540af788-1ffd-4696-ac9e-5268c379a14e.xml, display.d3dhal_dp2createvertexshader"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dhal.h
 req.include-header: D3dhal.h

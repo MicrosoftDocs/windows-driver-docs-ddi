@@ -6,11 +6,8 @@ description: The KS_SEEKING_FLAGS enumeration lists positioning options that can
 old-location: stream\ks_seeking_flags.htm
 tech.root: stream
 ms.assetid: 8e27872e-4f38-4d0e-92bc-5e759a9db195
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KS_SEEKING_AbsolutePositioning, KS_SEEKING_FLAGS, KS_SEEKING_FLAGS enumeration [Streaming Media Devices], KS_SEEKING_IncrementalPositioning, KS_SEEKING_NoPositioning, KS_SEEKING_PositioningBitsMask, KS_SEEKING_RelativePositioning, KS_SEEKING_ReturnTime, KS_SEEKING_SeekToKeyFrame, ks-struct_edea1d66-55d6-4705-ae8f-b940946b87e0.xml, ks/KS_SEEKING_AbsolutePositioning, ks/KS_SEEKING_FLAGS, ks/KS_SEEKING_IncrementalPositioning, ks/KS_SEEKING_NoPositioning, ks/KS_SEEKING_PositioningBitsMask, ks/KS_SEEKING_RelativePositioning, ks/KS_SEEKING_ReturnTime, ks/KS_SEEKING_SeekToKeyFrame, stream.ks_seeking_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ks.h
 req.include-header: Ks.h

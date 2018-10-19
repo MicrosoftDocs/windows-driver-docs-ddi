@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDebugHostMemory2.WriteBytes
 title: IDebugHostMemory2::WriteBytes
 author: windows-driver-content
-description: TBD
+description: Writes a number of bytes to the address space of the target as defined by the inpassed context and location.
 ms.assetid: 63704020-5225-47dd-a388-151b5b02885f
-ms.author: windowsdriverdev
 ms.date: 09/28/2018
 ms.topic: method
 ms.keywords: IDebugHostMemory2::WriteBytes, WriteBytes, IDebugHostMemory2.WriteBytes, IDebugHostMemory2::WriteBytes, IDebugHostMemory2.WriteBytes
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostMemory2.WriteBytes
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 
@@ -45,9 +42,9 @@ tech.root: debugger
 
 ## -description
 
- Writes a number of bytes to the address space of the target as defined by the inpassed context and location.
+Writes a number of bytes to the address space of the target as defined by the inpassed context and location.
 
- The number of bytes written is returned in "bytesWritten" upon success.
+The number of bytes written is returned in "bytesWritten" upon success.
 
 
 ## -parameters

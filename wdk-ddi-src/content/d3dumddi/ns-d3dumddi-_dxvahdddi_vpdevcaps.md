@@ -6,11 +6,8 @@ description: The DXVAHDDDI_VPDEVCAPS structure describes the video processor cap
 old-location: display\dxvahdddi_vpdevcaps.htm
 tech.root: display
 ms.assetid: 25b15c20-e23a-438f-a02e-aedc26498828
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_263db2a4-3026-44e3-a2b7-82cbf773bfa5.xml, DXVAHDDDI_VPDEVCAPS, DXVAHDDDI_VPDEVCAPS structure [Display Devices], _DXVAHDDDI_VPDEVCAPS, d3dumddi/DXVAHDDDI_VPDEVCAPS, display.dxvahdddi_vpdevcaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

@@ -6,11 +6,8 @@ description: The PEP_PPM_QUERY_CAPABILITIES structure contains information about
 old-location: kernel\pep_ppm_query_capabilities.htm
 tech.root: kernel
 ms.assetid: D33FA62B-9DC8-4AC4-85FC-726C39FB76F4
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_PPM_QUERY_CAPABILITIES, PEP_PPM_QUERY_CAPABILITIES, PEP_PPM_QUERY_CAPABILITIES structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_CAPABILITIES, PPEP_PPM_QUERY_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_CAPABILITIES, kernel.pep_ppm_query_capabilities, pepfx/PEP_PPM_QUERY_CAPABILITIES, pepfx/PPEP_PPM_QUERY_CAPABILITIES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
 req.include-header: Pep_x.h
@@ -89,7 +86,7 @@ The <b>PEP_PPM_QUERY_CAPABILITIES</b> structure contains information about the p
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186820">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a> notification. All four members contain output values that the PEP writes to the structure in response to this notification.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186820">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a> notification. All four members contain output values that the PEP writes to the structure in response to this notification.
 
 
 
@@ -99,7 +96,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186820">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186820">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a>
  
 
  

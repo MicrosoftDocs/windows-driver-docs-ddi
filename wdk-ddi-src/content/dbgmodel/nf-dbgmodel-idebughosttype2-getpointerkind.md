@@ -2,10 +2,9 @@
 UID: NF:dbgmodel.IDebugHostType2.GetPointerKind
 title: IDebugHostType2::GetPointerKind
 author: windows-driver-content
-description: TBD
+description: For types which are pointers, the GetPointerKind method returns the kind of pointer. 
 ms.assetid: 53e92618-35f7-44e9-b640-32d71930cc18
-ms.author: windowsdriverdev
-ms.date: 09/20/2018 
+ms.date: 09/20/2018
 ms.topic: method
 ms.keywords: IDebugHostType2::GetPointerKind, GetPointerKind, IDebugHostType2.GetPointerKind, IDebugHostType2::GetPointerKind, IDebugHostType2.GetPointerKind
 req.header: dbgmodel.h
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostType2.GetPointerKind
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 
@@ -44,16 +41,43 @@ tech.root: debugger
 
 
 ## -description
+For types which are pointers, the GetPointerKind method returns the kind of pointer. This is defined by the PointerKind enumeration and is one of the following values: 
 
-TBD
+Enumerant |	Meaning
+|----------|---------|
+PointerStandard	| Indicates a standard C/C++ pointer -- a *
+PointerReference |	Indicates a C/C++ reference (whether const or not) -- a &
+PointerRValueReference	| Indicates a C/C++ rvalue reference (whether const or not) -- a &&
+PointerCXHat | Indicates a C++/CX hat managed pointer (whether const or not) -- a ^
+
 
 ## -parameters
 
 ### -param pointerKind
+The kind of pointer will be returned here (as a value from the PointerKind enumeration.
 
 
 ## -returns
-This method returns HRESULT which indicates success or failure.
+This method returns HRESULT that indicates success or failure.
+
+## -remarks
+
+**Sample Code**
+
+```cpp
+ComPtr<IDebugHostType> spType; /* get a type for something that's a pointer 
+                                  or reference (see FindTypeByName) */
+
+PointerKind pk;
+if (SUCCEEDED(spType->GetPointerKind(&pk)))
+{
+    // pk indicates the kind of pointer:
+    //      PointerStandard (it's a '*')
+    //      PointerReference (it's a '&')
+    //      etc...
+}
+```
+
 
 ## -remarks
 

@@ -6,11 +6,8 @@ description: The PCI_EXPRESS_ROOT_ERROR_STATUS structure describes a PCI Express
 old-location: pci\pci_express_root_error_status.htm
 tech.root: PCI
 ms.assetid: 1af0c877-e634-474e-9b4d-a28991fb3f66
-ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: "*PPCI_EXPRESS_ROOT_ERROR_STATUS, PCI.pci_express_root_error_status, PCI_EXPRESS_ROOT_ERROR_STATUS, PCI_EXPRESS_ROOT_ERROR_STATUS union [Buses], PPCI_EXPRESS_ROOT_ERROR_STATUS, PPCI_EXPRESS_ROOT_ERROR_STATUS union pointer [Buses], _PCI_EXPRESS_ROOT_ERROR_STATUS, pci_struct_8b730780-dc4a-4873-8efd-fb6df47f7c8f.xml, wdm/PCI_EXPRESS_ROOT_ERROR_STATUS, wdm/PPCI_EXPRESS_ROOT_ERROR_STATUS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: miniport.h
 req.include-header: Ntddk.h, Wdm.h, Miniport.h
@@ -56,7 +53,7 @@ The PCI_EXPRESS_ROOT_ERROR_STATUS structure describes a PCI Express (PCIe) root 
 ## -syntax
 
 
-````
+```cpp
 typedef union _PCI_EXPRESS_ROOT_ERROR_STATUS {
   struct {
     ULONG CorrectableErrorReceived  :1;
@@ -71,7 +68,7 @@ typedef union _PCI_EXPRESS_ROOT_ERROR_STATUS {
   };
   ULONG  AsULONG;
 } PCI_EXPRESS_ROOT_ERROR_STATUS, *PPCI_EXPRESS_ROOT_ERROR_STATUS;
-````
+```
 
 
 ## -struct-fields

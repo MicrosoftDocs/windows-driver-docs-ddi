@@ -6,11 +6,8 @@ description: The WdfMemoryGetBuffer method returns a pointer to the buffer that 
 old-location: wdf\wdfmemorygetbuffer.htm
 tech.root: wdf
 ms.assetid: a5044eb5-d619-4adb-a00c-2d01e0311ade
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFMemoryObjectRef_6f8615ee-5e34-46c5-8c83-4b52433753aa.xml, WdfMemoryGetBuffer, WdfMemoryGetBuffer method, kmdf.wdfmemorygetbuffer, wdf.wdfmemorygetbuffer, wdfmemory/WdfMemoryGetBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfmemory.h
 req.include-header: Wdf.h
@@ -90,7 +87,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-For more information about framework memory objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-memory-buffers">Using Memory Buffers</a>.
+For more information about framework memory objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-memory-buffers">Using Memory Buffers</a>.
 
 <b>WdfMemoryGetBuffer</b> can be called at any IRQL.
 

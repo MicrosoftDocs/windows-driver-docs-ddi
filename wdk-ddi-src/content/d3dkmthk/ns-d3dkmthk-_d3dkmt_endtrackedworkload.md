@@ -4,11 +4,8 @@ title: _D3DKMT_ENDTRACKEDWORKLOAD
 author: windows-driver-content
 description: Called when the tracked workload commands are done.
 ms.assetid: 524f2907-19c6-420a-94a2-8366edb5574b
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_ENDTRACKEDWORKLOAD, D3DKMT_ENDTRACKEDWORKLOAD, 
 req.header: d3dkmthk.h
 req.include-header:

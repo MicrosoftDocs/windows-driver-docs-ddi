@@ -6,11 +6,8 @@ description: The ISensorDriver::OnGetSupportedSensorObjects method retrieves the
 old-location: sensors\isensordriver_ongetsupportedsensorobjects.htm
 tech.root: sensors
 ms.assetid: a8ea63cf-24ba-467b-9c27-ab8e38be1c04
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ISensorDriver interface [Sensor Devices],OnGetSupportedSensorObjects method, ISensorDriver.OnGetSupportedSensorObjects, ISensorDriver::OnGetSupportedSensorObjects, OnGetSupportedSensorObjects, OnGetSupportedSensorObjects method [Sensor Devices], OnGetSupportedSensorObjects method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_ongetsupportedsensorobjects, sensorsclassextension/ISensorDriver::OnGetSupportedSensorObjects
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsclassextension.h
 req.include-header: 

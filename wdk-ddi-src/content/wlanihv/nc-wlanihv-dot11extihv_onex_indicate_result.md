@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extihvonexindicateresult.htm
 tech.root: netvista
 ms.assetid: bf865b33-6e44-4724-868d-73150cf5b589
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: DOT11EXTIHV_ONEX_INDICATE_RESULT, Dot11ExtIhvOneXIndicateResult, Dot11ExtIhvOneXIndicateResult callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_af60ece5-6f3a-4a5b-9207-0e3cf68a012b.xml, netvista.dot11extihvonexindicateresult, wlanihv/Dot11ExtIhvOneXIndicateResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
@@ -59,7 +56,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```cpp
 DOT11EXTIHV_ONEX_INDICATE_RESULT Dot11ExtIhvOneXIndicateResult;
 
 DWORD APIENTRY Dot11ExtIhvOneXIndicateResult(
@@ -68,7 +65,7 @@ DWORD APIENTRY Dot11ExtIhvOneXIndicateResult(
   _In_opt_ PDOT11_MSONEX_RESULT_PARAMS pDot11MsOneXResultParams
 )
 { ... }
-````
+```
 
 
 ## -parameters
@@ -121,14 +118,14 @@ The IHV Extensions DLL initiates the 802.1X authentication operation by calling 
     <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a> function.
     <b>Dot11ExtStartOneX</b> can only be called either during a post-association operation or after the
     operation has completed. For more information about this operation, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/post-association-operations">Post-Association Operations</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/post-association-operations">Post-Association Operations</a>.
 
 After the operating system has completed the 802.1X authentication operation, it calls the
     <i>
     Dot11ExtIhvOneXIndicateResult</i> IHV Handler function.
 
 For more information about using the 802.1X module for authentication, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/interface-to-the-native-802-11-802-1x-module">Interface to the Native
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/interface-to-the-native-802-11-802-1x-module">Interface to the Native
     802.11 802.1X Module</a>
 
 

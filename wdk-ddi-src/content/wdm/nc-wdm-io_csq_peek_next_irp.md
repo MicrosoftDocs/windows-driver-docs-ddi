@@ -6,11 +6,8 @@ description: The CsqPeekNextIrp routine is used by the system to find the next m
 old-location: kernel\csqpeeknextirp.htm
 tech.root: kernel
 ms.assetid: 0968fea0-4c66-497f-8a01-baacc90b2458
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: CsqPeekNextIrp, CsqPeekNextIrp routine [Kernel-Mode Driver Architecture], DrvrRtns_83ba77b2-17fa-4fdc-bfaf-c41289f54da9.xml, IO_CSQ_PEEK_NEXT_IRP, kernel.csqpeeknextirp, wdm/CsqPeekNextIrp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

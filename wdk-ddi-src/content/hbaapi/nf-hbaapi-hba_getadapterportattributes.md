@@ -6,11 +6,8 @@ description: The HBA_GetAdapterPortAttributes routine retrieves the attributes f
 old-location: storage\hba_getadapterportattributes.htm
 tech.root: storage
 ms.assetid: f1f5dc4e-8069-4e3e-94a0-a9a7c359bdb4
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_GetAdapterPortAttributes, HBA_GetAdapterPortAttributes routine [Storage Devices], fibreHBA_rtns_c49b4806-e5cf-40fa-a166-8f2ab58259ae.xml, hbaapi/HBA_GetAdapterPortAttributes, storage.hba_getadapterportattributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hbaapi.h
 req.include-header: Hbaapi.h

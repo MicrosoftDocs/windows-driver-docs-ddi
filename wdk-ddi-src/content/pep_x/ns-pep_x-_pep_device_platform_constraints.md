@@ -6,11 +6,8 @@ description: The PEP_DEVICE_PLATFORM_CONSTRAINTS structure specifies the constra
 old-location: kernel\pep_device_platform_constraints.htm
 tech.root: kernel
 ms.assetid: C9CC652F-16D4-4F88-BE8F-6CC7008F65DB
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_DEVICE_PLATFORM_CONSTRAINTS, PEP_DEVICE_PLATFORM_CONSTRAINTS, PEP_DEVICE_PLATFORM_CONSTRAINTS structure [Kernel-Mode Driver Architecture], PPEP_DEVICE_PLATFORM_CONSTRAINTS, PPEP_DEVICE_PLATFORM_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], _PEP_DEVICE_PLATFORM_CONSTRAINTS, kernel.pep_device_platform_constraints, pepfx/PEP_DEVICE_PLATFORM_CONSTRAINTS, pepfx/PPEP_DEVICE_PLATFORM_CONSTRAINTS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pep_x.h
 req.include-header: Pep_x.h
@@ -60,7 +57,7 @@ The <b>PEP_DEVICE_PLATFORM_CONSTRAINTS</b> structure specifies the constraints f
 
 ### -field DeviceHandle
 
-[in] A PEPHANDLE value that identifies the device. The PEP supplied this handle in response to a previous <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification.
+[in] A PEPHANDLE value that identifies the device. The PEP supplied this handle in response to a previous <a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification.
 
 
 ### -field MinimumDStates
@@ -70,14 +67,14 @@ The <b>PEP_DEVICE_PLATFORM_CONSTRAINTS</b> structure specifies the constraints f
 
 ### -field PlatformStateCount
 
-[in] The number of elements in the array pointed to by the <b>MinimumDStates</b> member. This member contains the platform state count that the PEP supplied in response to a previous <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186827">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a> notification.
+[in] The number of elements in the array pointed to by the <b>MinimumDStates</b> member. This member contains the platform state count that the PEP supplied in response to a previous <a href="https://msdn.microsoft.com/library/windows/hardware/mt186827">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a> notification.
 
 
 ## -remarks
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186704">PEP_DPM_DEVICE_IDLE_CONSTRAINTS</a> notification. All three members of this structure contain input values that are supplied by the Windows power management framework (PoFx). In response to this notification, the PEP writes <a href="https://msdn.microsoft.com/library/windows/hardware/ff554628">DEVICE_POWER_STATE</a> enumeration values to the elements of the array pointed to by the <b>MinimumDStates</b> member. PoFx allocates the storage for this array before sending the notification.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186704">PEP_DPM_DEVICE_IDLE_CONSTRAINTS</a> notification. All three members of this structure contain input values that are supplied by the Windows power management framework (PoFx). In response to this notification, the PEP writes <a href="https://msdn.microsoft.com/library/windows/hardware/ff554628">DEVICE_POWER_STATE</a> enumeration values to the elements of the array pointed to by the <b>MinimumDStates</b> member. PoFx allocates the storage for this array before sending the notification.
 
 
 
@@ -91,11 +88,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186704">PEP_DPM_DEVICE_IDLE_CONSTRAINTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186704">PEP_DPM_DEVICE_IDLE_CONSTRAINTS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
  
 
  

@@ -6,11 +6,8 @@ description: The CLIENT_DisconnectIoPins event callback function closes a logica
 old-location: gpio\client_disconnectiopins.htm
 tech.root: GPIO
 ms.assetid: FA6ACAE4-54D9-4EE6-AC63-3FFB973DD37F
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: CLIENT_DisconnectIoPins, CLIENT_DisconnectIoPins callback, CLIENT_DisconnectIoPins callback function [Parallel Ports], GPIO.client_disconnectiopins, GPIO_CLIENT_DISCONNECT_IO_PINS, gpioclx/CLIENT_DisconnectIoPins
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: gpioclx.h
 req.include-header: 

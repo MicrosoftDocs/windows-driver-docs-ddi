@@ -6,11 +6,8 @@ description: The WdfRequestWdmFormatUsingStackLocation method formats an I/O req
 old-location: wdf\wdfrequestwdmformatusingstacklocation.htm
 tech.root: wdf
 ms.assetid: 9ee3d748-f9aa-43d6-b472-7b55d2034fc7
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_a210a31a-e3a5-4bbd-af19-5be5f7651757.xml, WdfRequestWdmFormatUsingStackLocation, WdfRequestWdmFormatUsingStackLocation method, kmdf.wdfrequestwdmformatusingstacklocation, wdf.wdfrequestwdmformatusingstacklocation, wdfrequest/WdfRequestWdmFormatUsingStackLocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfrequest.h
 req.include-header: Wdf.h
@@ -92,14 +89,14 @@ The <b>WdfRequestWdmFormatUsingStackLocation</b> method copies the information t
 
 If you want to set a completion routine for the request, your driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550030">WdfRequestSetCompletionRoutine</a> after calling <b>WdfRequestWdmFormatUsingStackLocation</b>.
 
-For more information about <b>WdfRequestWdmFormatUsingStackLocation</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/forwarding-i-o-requests">Forwarding I/O Requests</a>.
+For more information about <b>WdfRequestWdmFormatUsingStackLocation</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/forwarding-i-o-requests">Forwarding I/O Requests</a>.
 
 
 #### Examples
 
 The following code example supplies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550659">IO_STACK_LOCATION</a> structure for an I/O request, sets a <a href="https://msdn.microsoft.com/7d3eb4d6-9fc7-4924-9b95-f5824713049b">CompletionRoutine</a> callback function, and then sends the request to an I/O target.
 
-```
+```cpp
 IO_STACK_LOCATION  ioStackLocation;
 BOOLEAN sendStatus;
 ...
@@ -134,7 +131,7 @@ sendStatus = WdfRequestSend(
 
 The following code example illustrates how to send a PnP [IRP_MN_QUERY_CAPABILITIES](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-capabilities) IRP to an IO target.
 
-```
+```cpp
 target = WdfDeviceGetIoTarget(Device);
 status = WdfRequestCreate(WDF_NO_OBJECT_ATTRIBUTES,
                           target,

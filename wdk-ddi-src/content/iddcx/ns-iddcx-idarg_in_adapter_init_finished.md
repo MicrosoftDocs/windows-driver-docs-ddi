@@ -6,11 +6,8 @@ description: Gives the status of the adapter initialization.
 old-location: display\idarg_in_adapter_init_finished.htm
 tech.root: display
 ms.assetid: 7ff07613-7c40-4310-856a-a44dc97c7f20
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IDARG_IN_ADAPTER_INIT_FINISHED, IDARG_IN_ADAPTER_INIT_FINISHED structure [Display Devices], display.idarg_in_adapter_init_finished, iddcx/IDARG_IN_ADAPTER_INIT_FINISHED
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iddcx.h
 req.include-header: 

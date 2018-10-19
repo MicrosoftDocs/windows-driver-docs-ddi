@@ -6,11 +6,8 @@ description: "."
 old-location: nfpdrivers\nfccx_driver_globals.htm
 tech.root: nfpdrivers
 ms.assetid: 3B84B227-7155-4FA2-A224-1317D103F5C3
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PNFCCX_DRIVER_GLOBALS, NFCCX_DRIVER_GLOBALS, NFCCX_DRIVER_GLOBALS structure [Near-Field Proximity Drivers], PNFCCX_DRIVER_GLOBALS, PNFCCX_DRIVER_GLOBALS structure pointer [Near-Field Proximity Drivers], _NFCCX_DRIVER_GLOBALS, nfccx/NFCCX_DRIVER_GLOBALS, nfccx/PNFCCX_DRIVER_GLOBALS, nfpdrivers.nfccx_driver_globals"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: nfccx.h
 req.include-header: Ncidef.h

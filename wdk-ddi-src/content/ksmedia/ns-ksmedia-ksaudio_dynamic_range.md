@@ -6,11 +6,8 @@ description: The KSAUDIO_DYNAMIC_RANGE structure specifies the dynamic range of 
 old-location: audio\ksaudio_dynamic_range.htm
 tech.root: audio
 ms.assetid: 4bf5c95f-dc08-4d1e-8e52-6d0de19df4c0
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: "*PKSAUDIO_DYNAMIC_RANGE, KSAUDIO_DYNAMIC_RANGE, KSAUDIO_DYNAMIC_RANGE structure [Audio Devices], PKSAUDIO_DYNAMIC_RANGE, PKSAUDIO_DYNAMIC_RANGE structure pointer [Audio Devices], aud-prop_1b73d842-9ef4-4017-b30a-26373b4797b4.xml, audio.ksaudio_dynamic_range, ksmedia/KSAUDIO_DYNAMIC_RANGE, ksmedia/PKSAUDIO_DYNAMIC_RANGE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksmedia.h
 req.include-header: Ksmedia.h

@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDynamicKeyProviderConcept.GetKey
 title: IDynamicKeyProviderConcept::GetKey
 author: windows-driver-content
-description: TBD
+description: The GetKey method on a dynamic key provider is largely an override of the GetKey method on IModelObject. 
 ms.assetid: f4aaf952-3d3d-4d42-b6e9-bc716c93fdfb
-ms.author: windowsdriverdev
 ms.date: 09/19/2018
 ms.topic: method
 ms.keywords: IDynamicKeyProviderConcept::GetKey, GetKey, IDynamicKeyProviderConcept.GetKey, IDynamicKeyProviderConcept::GetKey, IDynamicKeyProviderConcept.GetKey
@@ -35,8 +34,6 @@ api_name:
 -	IDynamicKeyProviderConcept.GetKey
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

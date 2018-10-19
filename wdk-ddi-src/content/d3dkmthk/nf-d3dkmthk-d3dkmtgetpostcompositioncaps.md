@@ -4,8 +4,7 @@ title: D3DKMTGetPostCompositionCaps function
 author: windows-driver-content
 description: Retrieves post composition capabilities.
 ms.assetid: aef9b068-e2a2-4d2c-8c01-465c7898acf8
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTGetPostCompositionCaps
 req.header: d3dkmthk.h

@@ -6,11 +6,8 @@ description: This enumeration contains the property IDs defined for the per-fram
 old-location: stream\ksproperty_cameracontrol_perframesetting_property.htm
 tech.root: stream
 ms.assetid: 59328DD6-3E7B-43C3-A1FF-E02DC24228BA
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KSPROPERTY_CAMERACONTROL_PERFRAMESETTING_CAPABILITY, KSPROPERTY_CAMERACONTROL_PERFRAMESETTING_CLEAR, KSPROPERTY_CAMERACONTROL_PERFRAMESETTING_PROPERTY, KSPROPERTY_CAMERACONTROL_PERFRAMESETTING_PROPERTY enumeration [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_PERFRAMESETTING_SET, ksmedia/KSPROPERTY_CAMERACONTROL_PERFRAMESETTING_CAPABILITY, ksmedia/KSPROPERTY_CAMERACONTROL_PERFRAMESETTING_CLEAR, ksmedia/KSPROPERTY_CAMERACONTROL_PERFRAMESETTING_PROPERTY, ksmedia/KSPROPERTY_CAMERACONTROL_PERFRAMESETTING_SET, stream.ksproperty_cameracontrol_perframesetting_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ksmedia.h
 req.include-header: 

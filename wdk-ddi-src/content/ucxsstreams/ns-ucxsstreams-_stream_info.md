@@ -6,11 +6,8 @@ description: This structure stores information about a stream associated with a 
 old-location: buses\_stream_info.htm
 tech.root: usbref
 ms.assetid: B8AE8866-AC13-4E7B-8815-70846DEECA12
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PSTREAM_INFO, P_STREAM_INFO, P_STREAM_INFO structure pointer [Buses], STREAM_INFO, STREAM_INFO structure [Buses], _STREAM_INFO, buses._stream_info, ucxsstreams/P_STREAM_INFO, ucxsstreams/_STREAM_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ucxsstreams.h
 req.include-header: Ucxclass.h, Ucxstreams.h

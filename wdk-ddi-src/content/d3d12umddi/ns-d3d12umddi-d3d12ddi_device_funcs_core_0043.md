@@ -4,11 +4,8 @@ title: D3D12DDI_DEVICE_FUNCS_CORE_0043
 author: windows-driver-content
 description: Core device functions.
 ms.assetid: 5e7bb4ce-834d-4026-9936-51faa7935fbf
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_DEVICE_FUNCS_CORE_0043, D3D12DDI_DEVICE_FUNCS_CORE_0043,
 req.header: d3d12umddi.h
 req.include-header:
@@ -46,7 +43,7 @@ Core device functions.
 ## -syntax
 
 
-````
+```cpp
 typedef struct D3D12DDI_DEVICE_FUNCS_CORE_0043
 {
     PFND3D12DDI_CHECKFORMATSUPPORT                                      pfnCheckFormatSupport;
@@ -146,7 +143,7 @@ typedef struct D3D12DDI_DEVICE_FUNCS_CORE_0043
     PFND3D12DDI_DESTROY_COMMAND_RECORDER_0040                           pfnDestroyCommandRecorder;
     PFND3D12DDI_COMMAND_RECORDER_SET_COMMAND_POOL_AS_TARGET_0040        pfnCommandRecorderSetCommandPoolAsTarget;
 } D3D12DDI_DEVICE_FUNCS_CORE_0043;
-````
+```
 
 ## -struct-fields
 

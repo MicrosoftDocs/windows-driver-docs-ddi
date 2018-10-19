@@ -6,11 +6,8 @@ description: The CDROM_EXCLUSIVE_LOCK structure is used with the IOCTL_CDROM_EXC
 old-location: storage\cdrom_exclusive_lock.htm
 tech.root: storage
 ms.assetid: 8c94cdb2-965a-448c-aa97-f7aae9550662
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PCDROM_EXCLUSIVE_LOCK, CDROM_EXCLUSIVE_LOCK, CDROM_EXCLUSIVE_LOCK structure [Storage Devices], PCDROM_EXCLUSIVE_LOCK, PCDROM_EXCLUSIVE_LOCK structure pointer [Storage Devices], _CDROM_EXCLUSIVE_LOCK, ntddcdrm/CDROM_EXCLUSIVE_LOCK, ntddcdrm/PCDROM_EXCLUSIVE_LOCK, storage.cdrom_exclusive_lock, structs-CD-ROM_98cdead9-8c28-497a-9ba3-f686e87554ea.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h

@@ -4,12 +4,9 @@ title: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_TYPE_0053
 author: windows-driver-content
 description: Declares the type of resource access to begin a Render Pass.
 ms.assetid: 2db80a0c-b883-4e13-9763-37b135923a26
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_TYPE_0053, D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_TYPE_0053, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

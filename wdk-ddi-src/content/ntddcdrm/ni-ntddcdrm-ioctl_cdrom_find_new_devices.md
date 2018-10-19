@@ -6,11 +6,8 @@ description: In Microsoft Windows 2000 and later operating systems, this IOCTL i
 old-location: storage\ioctl_cdrom_find_new_devices.htm
 tech.root: storage
 ms.assetid: edaf2b57-ca1a-478f-85b9-2a1e86df98ed
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_CDROM_FIND_NEW_DEVICES, IOCTL_CDROM_FIND_NEW_DEVICES control, IOCTL_CDROM_FIND_NEW_DEVICES control code [Storage Devices], k307_80deb95c-40d4-4e22-969e-da0df49599a4.xml, ntddcdrm/IOCTL_CDROM_FIND_NEW_DEVICES, storage.ioctl_cdrom_find_new_devices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddcdrm.h
 req.include-header:
@@ -120,7 +117,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 
 

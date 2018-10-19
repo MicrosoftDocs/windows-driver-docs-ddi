@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extihvprocessuiresponse.htm
 tech.root: netvista
 ms.assetid: 1483be56-71c5-435b-843d-821f73dc79d7
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: DOT11EXTIHV_PROCESS_UI_RESPONSE, Dot11ExtIhvProcessUIResponse, Dot11ExtIhvProcessUIResponse callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_6bf65442-0a9a-4061-81a3-855b0ae80df4.xml, netvista.dot11extihvprocessuiresponse, wlanihv/Dot11ExtIhvProcessUIResponse
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
@@ -60,7 +57,7 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```cpp
 DOT11EXTIHV_PROCESS_UI_RESPONSE Dot11ExtIhvProcessUIResponse;
 
 DWORD APIENTRY Dot11ExtIhvProcessUIResponse(
@@ -69,7 +66,7 @@ DWORD APIENTRY Dot11ExtIhvProcessUIResponse(
   _In_opt_ LPVOID pvResponseBuffer
 )
 { ... }
-````
+```
 
 
 ## -parameters

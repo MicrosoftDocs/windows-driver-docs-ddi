@@ -6,11 +6,8 @@ description: Gets the driver package date.
 old-location: dtf\iwdtfdriverpackageaction2_date.htm
 tech.root: dtf
 ms.assetid: c590c262-f689-4768-bedf-13f06d7c8442
-ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: Date property [Windows Device Testing Framework], Date property [Windows Device Testing Framework],IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],Date property, IWDTFDriverPackageAction2.Date, IWDTFDriverPackageAction2.get_Date, IWDTFDriverPackageAction2::Date, IWDTFDriverPackageAction2::get_Date, Microsoft.WDTF.IWDTFDriverPackageAction2.Date, Microsoft::WDTF::IWDTFDriverPackageAction2::Date, dtf.iwdtfdriverpackageaction2_date, get_Date, wdtfdriverpackageaction/IWDTFDriverPackageAction2::Date, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_Date
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtfdriverpackageaction.h
 req.include-header: 

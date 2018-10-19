@@ -6,11 +6,8 @@ description: The TIMECODE union describes a timecode from an external device. Th
 old-location: stream\timecode.htm
 tech.root: stream
 ms.assetid: 3387e014-3a62-4d76-ac6d-6446e4fa39d0
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PTIMECODE, PTIMECODE, PTIMECODE union pointer [Streaming Media Devices], TIMECODE, TIMECODE union [Streaming Media Devices], _timecode, ksmedia/PTIMECODE, ksmedia/TIMECODE, stream.timecode, vidcapstruct_80e1d01b-8140-49e8-83bd-210fb38ea0bc.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksmedia.h
 req.include-header: Ksmedia.h

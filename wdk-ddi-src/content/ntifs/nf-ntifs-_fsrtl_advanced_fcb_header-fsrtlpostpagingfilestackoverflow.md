@@ -6,11 +6,8 @@ description: The FsRtlPostPagingFileStackOverflow routine posts a paging file st
 old-location: ifsk\fsrtlpostpagingfilestackoverflow.htm
 tech.root: ifsk
 ms.assetid: 5054cc41-06af-48f0-b273-276bd639c16c
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlPostPagingFileStackOverflow, FsRtlPostPagingFileStackOverflow routine [Installable File System Drivers], fsrtlref_167dd1d3-f49d-4393-9003-af16aa144e0b.xml, ifsk.fsrtlpostpagingfilestackoverflow, ntifs/FsRtlPostPagingFileStackOverflow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h

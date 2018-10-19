@@ -6,11 +6,8 @@ description: The FsRtlCheckLockForWriteAccess routine determines whether the pro
 old-location: ifsk\fsrtlchecklockforwriteaccess.htm
 tech.root: ifsk
 ms.assetid: 549da751-6a28-4d54-995f-dabb9e29ab09
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlCheckLockForWriteAccess, FsRtlCheckLockForWriteAccess routine [Installable File System Drivers], fsrtlref_460451fb-37b9-4c7e-bf53-8d72c7e73a55.xml, ifsk.fsrtlchecklockforwriteaccess, ntifs/FsRtlCheckLockForWriteAccess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

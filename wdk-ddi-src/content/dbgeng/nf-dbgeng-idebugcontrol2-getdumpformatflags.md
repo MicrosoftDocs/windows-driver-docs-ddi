@@ -6,11 +6,8 @@ description: The GetDumpFormatFlags method returns the flags that describe what 
 old-location: debugger\getdumpformatflags.htm
 tech.root: debugger
 ms.assetid: 86070c36-6702-42c8-b4fe-b3ef15ba418f
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetDumpFormatFlags, GetDumpFormatFlags method [Windows Debugging], GetDumpFormatFlags method [Windows Debugging],IDebugControl2 interface, GetDumpFormatFlags method [Windows Debugging],IDebugControl3 interface, IDebugControl2 interface [Windows Debugging],GetDumpFormatFlags method, IDebugControl2.GetDumpFormatFlags, IDebugControl2::GetDumpFormatFlags, IDebugControl3 interface [Windows Debugging],GetDumpFormatFlags method, IDebugControl3::GetDumpFormatFlags, IDebugControl_fc8bec39-ffc3-46bd-9d18-954f0420906f.xml, dbgeng/IDebugControl2::GetDumpFormatFlags, dbgeng/IDebugControl3::GetDumpFormatFlags, debugger.getdumpformatflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

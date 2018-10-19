@@ -6,11 +6,8 @@ description: RxCeBuildTransport binds an RDBSS transport object to a specified t
 old-location: ifsk\rxcebuildtransport.htm
 tech.root: ifsk
 ms.assetid: 019cc9b7-13f7-4925-af98-5df0e8556e1c
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxCeBuildTransport, RxCeBuildTransport function [Installable File System Drivers], ifsk.rxcebuildtransport, rxce/RxCeBuildTransport, rxref_8251916d-7a85-4e6d-8ca1-2deacf4a389a.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rxce.h
 req.include-header: Rxce.h

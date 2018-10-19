@@ -6,11 +6,8 @@ description: The OEMQueryAdvanceWidths function returns character advance widths
 old-location: print\oemqueryadvancewidths.htm
 tech.root: print
 ms.assetid: 058ced7e-50bc-4847-b082-57608ac5ddd2
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: OEMQueryAdvanceWidths, OEMQueryAdvanceWidths function [Print Devices], print.oemqueryadvancewidths, print_unidrv-pscript_rendering_14849fac-0d28-4961-b37b-ee14cd285018.xml, printoem/OEMQueryAdvanceWidths
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: printoem.h
 req.include-header: Printoem.h

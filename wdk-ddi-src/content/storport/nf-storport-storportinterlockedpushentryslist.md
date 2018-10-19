@@ -6,11 +6,8 @@ description: Inserts an item at the front of a Storport managed singly linked li
 old-location: storage\storportinterlockedpushentryslist.htm
 tech.root: storage
 ms.assetid: 74C32E55-79C6-449A-AFA3-27858CF4EA6B
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortInterlockedPushEntrySList, StorPortInterlockedPushEntrySList routine [Storage Devices], storage.storportinterlockedpushentryslist, storport/StorPortInterlockedPushEntrySList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

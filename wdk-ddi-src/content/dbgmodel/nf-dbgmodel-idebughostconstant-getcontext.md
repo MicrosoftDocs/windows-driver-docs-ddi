@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDebugHostConstant.GetContext
 title: IDebugHostConstant::GetContext
 author: windows-driver-content
-description: TBD
+description: The GetContext method returns the context where the symbol is valid.
 ms.assetid: 97791b67-24ec-45e3-aa45-2c4eacd5ec89
-ms.author: windowsdriverdev
 ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDebugHostConstant::GetContext, GetContext, IDebugHostConstant.GetContext, IDebugHostConstant::GetContext, IDebugHostConstant.GetContext
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostConstant.GetContext
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

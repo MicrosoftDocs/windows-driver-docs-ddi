@@ -4,11 +4,8 @@ title: PFND3D12DDI_CREATE_STATE_OBJECT_0054
 author: windows-driver-content
 description: Creates a state object.
 ms.assetid: 2d818331-58bb-4530-921a-96a5cd404043
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Creates a state object. A state object represents a variable amount of configura
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATE_STATE_OBJECT_0054 Pfnd3d12ddiCreateStateObject0054; 

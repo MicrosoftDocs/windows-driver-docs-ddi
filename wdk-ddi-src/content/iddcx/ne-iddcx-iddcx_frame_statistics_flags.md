@@ -6,11 +6,8 @@ description: Indicates whether a frame was altered by the driver.
 old-location: display\iddcx_frame_statistics_flags.htm
 tech.root: display
 ms.assetid: 85ae47d8-228c-4fff-9be0-bf56868b9319
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IDDCX_FRAME_STATISTICS_FLAGS, IDDCX_FRAME_STATISTICS_FLAGS enumeration [Display Devices], IDDCX_FRAME_STATISTICS_FLAGS_NONE, IDDCX_FRAME_STATISTICS_FLAGS_REDUCED_COLOR_FIDELITY, display.iddcx_frame_statistics_flags, iddcx/IDDCX_FRAME_STATISTICS_FLAGS, iddcx/IDDCX_FRAME_STATISTICS_FLAGS_NONE, iddcx/IDDCX_FRAME_STATISTICS_FLAGS_REDUCED_COLOR_FIDELITY
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: iddcx.h
 req.include-header: 

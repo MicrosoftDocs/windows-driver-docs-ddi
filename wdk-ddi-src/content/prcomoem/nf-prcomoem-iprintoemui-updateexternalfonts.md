@@ -6,11 +6,8 @@ description: The IPrintOemUI::UpdateExternalFonts method allows a user interface
 old-location: print\iprintoemui_updateexternalfonts.htm
 tech.root: print
 ms.assetid: 5c501305-fa5f-4466-9a9a-83f072d904b3
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintOemUI interface [Print Devices],UpdateExternalFonts method, IPrintOemUI.UpdateExternalFonts, IPrintOemUI::UpdateExternalFonts, UpdateExternalFonts, UpdateExternalFonts method [Print Devices], UpdateExternalFonts method [Print Devices],IPrintOemUI interface, prcomoem/IPrintOemUI::UpdateExternalFonts, print.iprintoemui_updateexternalfonts, print_unidrv-pscript_ui_e9f50923-c566-4e7f-997e-5788602d1083.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

@@ -6,11 +6,8 @@ description: The ProtocolCmRegisterSap function is a required function that is c
 old-location: netvista\protocolcmregistersap.htm
 tech.root: netvista
 ms.assetid: 3e3e7a0e-a8d2-40b2-895b-187d24867080
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CM_REG_SAP, PROTOCOL_CM_REG_SAP callback, ProtocolCmRegisterSap, ProtocolCmRegisterSap callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_aaaefdc1-4954-4911-84a4-1f82141ccca6.xml, ndis/ProtocolCmRegisterSap, netvista.protocolcmregistersap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

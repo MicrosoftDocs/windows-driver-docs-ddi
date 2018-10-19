@@ -6,11 +6,8 @@ description: The WdfTimerStop method stops a timer's clock.
 old-location: wdf\wdftimerstop.htm
 tech.root: wdf
 ms.assetid: 394593f5-92eb-4f84-adbe-67e0e5320ff0
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFTimerObjectRef_6b433db6-e7a0-4521-961d-56c3de8a97ad.xml, WdfTimerStop, WdfTimerStop method, kmdf.wdftimerstop, wdf.wdftimerstop, wdftimer/WdfTimerStop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdftimer.h
 req.include-header: Wdf.h
@@ -92,7 +89,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 When a driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff550054">WdfTimerStart</a>, its timer object is added to the system's queue of timer objects. If the timer is not a periodic timer, the system removes the timer object from the queue after the timer's "due time" has elapsed. If the timer is a periodic timer, the timer object remains in the queue until the driver calls <b>WdfTimerStop</b>. 
 
-For more information about framework timer objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-timers">Using Timers</a>.
+For more information about framework timer objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-timers">Using Timers</a>.
 
 <b>WdfTimerStop</b> must be called at IRQL = PASSIVE_LEVEL if the <i>Wait</i> parameter is <b>TRUE</b>. Otherwise, this method must be called at IRQL &lt;= DISPATCH_LEVEL.
 

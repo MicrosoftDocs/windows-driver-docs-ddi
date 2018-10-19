@@ -6,11 +6,8 @@ description: IDebugRegisters2 interface
 old-location: debugger\idebugregisters2.htm
 tech.root: debugger
 ms.assetid: f92a75a9-6578-4bbf-8d80-680493b4d284
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], IDebugRegisters2 interface [Windows Debugging],described, dbgeng/IDebugRegisters2, debugger.idebugregisters2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

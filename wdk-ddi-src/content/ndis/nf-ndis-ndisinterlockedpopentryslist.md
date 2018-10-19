@@ -6,11 +6,8 @@ description: The NdisInterlockedPopEntrySList function removes the first entry f
 old-location: netvista\ndisinterlockedpopentryslist.htm
 tech.root: netvista
 ms.assetid: 22f79bc7-49e1-43ba-8dff-8847b9a9bcca
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisInterlockedPopEntrySList, NdisInterlockedPopEntrySList macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedPopEntrySList, ndis_interlocked_ref_5e66ef00-4498-4599-be50-f21ef676d032.xml, netvista.ndisinterlockedpopentryslist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ndis.h
 req.include-header: Ndis.h

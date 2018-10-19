@@ -2,10 +2,9 @@
 UID: NF:dbgmodel.IModelKeyReference.GetKeyValue
 title: IModelKeyReference::GetKeyValue
 author: windows-driver-content
-description: TBD
+description: The GetKeyValue method on a key reference behaves as the GetKeyValue method on IModelObject would.
 ms.assetid: 5637adf8-fb06-4976-a367-2d2bac546d9f
-ms.author: windowsdriverdev
-ms.date: 08/14/2018 
+ms.date: 08/14/2018
 ms.topic: method
 ms.keywords: IModelKeyReference::GetKeyValue, GetKeyValue, IModelKeyReference.GetKeyValue, IModelKeyReference::GetKeyValue, IModelKeyReference.GetKeyValue
 req.header: dbgmodel.h
@@ -35,8 +34,6 @@ api_name:
 -	IModelKeyReference.GetKeyValue
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilregstat_2.htm
 tech.root: netvista
 ms.assetid: 6ab187d9-7995-46ad-a12f-47d5b8fa40f0
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: RILREGSTAT, RILREGSTAT enumeration [Network Drivers Starting with Windows Vista], RIL_REGSTAT_ATTEMPTING, RIL_REGSTAT_DENIED, RIL_REGSTAT_HOME, RIL_REGSTAT_MAX, RIL_REGSTAT_ROAMING, RIL_REGSTAT_ROAMING_DOMESTIC, RIL_REGSTAT_UNREGISTERED, netvista.rilregstat_2, rilapitypes/RILREGSTAT, rilapitypes/RIL_REGSTAT_ATTEMPTING, rilapitypes/RIL_REGSTAT_DENIED, rilapitypes/RIL_REGSTAT_HOME, rilapitypes/RIL_REGSTAT_MAX, rilapitypes/RIL_REGSTAT_ROAMING, rilapitypes/RIL_REGSTAT_ROAMING_DOMESTIC, rilapitypes/RIL_REGSTAT_UNREGISTERED
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
 req.include-header:
@@ -57,7 +54,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```cpp
 typedef enum _RILREGSTAT {
   RIL_REGSTAT_UNREGISTERED,
   RIL_REGSTAT_HOME,
@@ -67,7 +64,7 @@ typedef enum _RILREGSTAT {
   RIL_REGSTAT_ROAMING_DOMESTIC,
   RIL_REGSTAT_MAX
 } RILREGSTAT;
-````
+```
 
 
 ## -enum-fields

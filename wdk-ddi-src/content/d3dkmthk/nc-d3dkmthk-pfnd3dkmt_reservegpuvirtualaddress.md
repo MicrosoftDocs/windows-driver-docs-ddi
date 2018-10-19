@@ -4,11 +4,8 @@ title: PFND3DKMT_RESERVEGPUVIRTUALADDRESS
 author: windows-driver-content
 description: The PFND3DKMT_RESERVEGPUVIRTUALADDRESS callback function reserves an address range in the current process graphics processing unit (GPU) virtual address space.
 ms.assetid: fdb36907-4288-4dfd-bcb6-63fc1092ea6c
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3DKMT_RESERVEGPUVIRTUALADDRESS callback function reserves an address ran
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_RESERVEGPUVIRTUALADDRESS Pfnd3dkmtReservegpuvirtualaddress; 

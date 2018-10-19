@@ -6,11 +6,8 @@ description: The FILE_COMPLETION_INFORMATION structure contains the port handle 
 old-location: ifsk\file_completion_information.htm
 tech.root: ifsk
 ms.assetid: 8C3C1A62-A838-436E-B8CC-ACE70FEAE8EA
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PFILE_COMPLETION_INFORMATION, FILE_COMPLETION_INFORMATION, FILE_COMPLETION_INFORMATION structure [Installable File System Drivers], PFILE_COMPLETION_INFORMATION, PFILE_COMPLETION_INFORMATION structure pointer [Installable File System Drivers], _FILE_COMPLETION_INFORMATION, ifsk.file_completion_information, ntifs/FILE_COMPLETION_INFORMATION, ntifs/PFILE_COMPLETION_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h

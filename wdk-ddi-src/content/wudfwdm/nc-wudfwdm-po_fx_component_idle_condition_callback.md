@@ -6,11 +6,8 @@ description: The ComponentIdleConditionCallback callback routine notifies the dr
 old-location: kernel\componentidleconditioncallback.htm
 tech.root: kernel
 ms.assetid: 785DF693-DB7A-4675-9F33-200F17093333
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ComponentIdleConditionCallback, ComponentIdleConditionCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_IDLE_CONDITION_CALLBACK, kernel.componentidleconditioncallback, wdm/ComponentIdleConditionCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wudfwdm.h
 req.include-header: Wudfwdm.h

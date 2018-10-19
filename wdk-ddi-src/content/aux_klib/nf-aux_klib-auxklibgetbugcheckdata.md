@@ -6,11 +6,8 @@ description: The AuxKlibGetBugCheckData routine retrieves information about a bu
 old-location: kernel\auxklibgetbugcheckdata.htm
 tech.root: kernel
 ms.assetid: d41d0eba-14e3-48ff-874d-e52589cf716c
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: AuxKlibGetBugCheckData, AuxKlibGetBugCheckData routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibGetBugCheckData, aux_klib_3cb977df-feb6-4b52-afa1-b5e3038fc287.xml, kernel.auxklibgetbugcheckdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: aux_klib.h
 req.include-header: Aux_klib.h

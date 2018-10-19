@@ -4,11 +4,8 @@ title: KSRTAUDIO_PACKETVREGISTER_PROPERTY
 author: windows-driver-content
 description: The KSRTAUDIO_PACKETVREGISTER_PROPERTY structure contains information about the KSPROPERTY_RTAUDIO_PACKETVREGISTER property.
 ms.assetid: a2ed2a0c-5e2b-4d41-98d3-3b897df47e03
-ms.author: windowsdriverdev
-ms.date: 9/28/2018
+ms.date: 09/28/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: KSRTAUDIO_PACKETVREGISTER_PROPERTY, KSRTAUDIO_PACKETVREGISTER_PROPERTY, *PKSRTAUDIO_PACKETVREGISTER_PROPERTY, 
 req.header: ksmedia.h
 req.include-header:

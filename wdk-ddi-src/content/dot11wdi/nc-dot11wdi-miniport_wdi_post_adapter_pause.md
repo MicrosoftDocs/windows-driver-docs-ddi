@@ -6,11 +6,8 @@ description: The MiniportWdiPostAdapterPause handler function is called by the M
 old-location: netvista\miniportwdipostadapterpause.htm
 tech.root: netvista
 ms.assetid: 57B52C5B-D151-4112-8173-23D18C636E98
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_POST_ADAPTER_PAUSE, MINIPORT_WDI_POST_ADAPTER_PAUSE callback, MiniportWdiPostAdapterPause, MiniportWdiPostAdapterPause callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiPostAdapterPause, netvista.miniportwdipostadapterpause
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dot11wdi.h
 req.include-header: 

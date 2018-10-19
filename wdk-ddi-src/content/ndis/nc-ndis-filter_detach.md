@@ -6,11 +6,8 @@ description: NDIS calls a filter driver's FilterDetach function to release all t
 old-location: netvista\filterdetach.htm
 tech.root: netvista
 ms.assetid: 49dfbbb3-74e7-4904-8370-36d589276653
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FILTER_DETACH, FILTER_DETACH callback, FilterDetach, FilterDetach callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_dec15a06-93c1-4da8-9dc6-b66be9c6f8eb.xml, ndis/FilterDetach, netvista.filterdetach
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

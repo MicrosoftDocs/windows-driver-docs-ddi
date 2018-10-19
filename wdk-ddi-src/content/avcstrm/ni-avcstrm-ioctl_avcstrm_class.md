@@ -6,11 +6,8 @@ description: An AV/C subunit driver uses the IRP_MJ_INTERNAL_DEVICE_CONTROL IRP,
 old-location: stream\ioctl_avcstrm_class.htm
 tech.root: stream
 ms.assetid: 50a5cbe1-acae-461f-892b-c1a3b5b218b3
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_AVCSTRM_CLASS, IOCTL_AVCSTRM_CLASS control, IOCTL_AVCSTRM_CLASS control code [Streaming Media Devices], avcsref_0e06e31a-7520-4162-8441-210cc367f65f.xml, avcstrm/IOCTL_AVCSTRM_CLASS, stream.ioctl_avcstrm_class
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: avcstrm.h
 req.include-header: Avcstrm.h

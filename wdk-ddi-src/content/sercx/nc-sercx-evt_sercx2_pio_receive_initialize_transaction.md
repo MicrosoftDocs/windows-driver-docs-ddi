@@ -6,11 +6,8 @@ description: The EvtSerCx2PioReceiveInitializeTransaction event callback functio
 old-location: serports\evtsercx2pioreceiveinitializetransaction.htm
 tech.root: serports
 ms.assetid: E03B5319-BBBE-4396-8D03-8BC82FB97D15
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2PioReceiveInitializeTransaction, EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION, EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION callback, EvtSerCx2PioReceiveInitializeTransaction, EvtSerCx2PioReceiveInitializeTransaction callback function [Serial Ports], serports.evtsercx2pioreceiveinitializetransaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sercx.h
 req.include-header: 
@@ -60,7 +57,7 @@ The <i>EvtSerCx2PioReceiveInitializeTransaction</i> event callback function is c
 
 ### -param PioReceive [in]
 
-A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a> handle to a PIO-receive object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265264">SerCx2PioReceiveCreate</a> method to create this object.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a> handle to a PIO-receive object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265264">SerCx2PioReceiveCreate</a> method to create this object.
 
 
 ### -param Length [in]
@@ -133,7 +130,7 @@ The <b>EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION</b> function type is define
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
 
 
 

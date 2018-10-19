@@ -6,11 +6,8 @@ description: The routine RtlFreeNonVolatileToken is a cleanup function for the o
 old-location: ifsk\rtlfreenonvolatiletoken.htm
 tech.root: ifsk
 ms.assetid: 8E083814-7408-47D2-A811-2DCBDCD13097
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlFreeNonVolatileToken, RtlFreeNonVolatileToken routine [Installable File System Drivers], ifsk.rtlfreenonvolatiletoken, ntddk/RtlFreeNonVolatileToken
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Winnt.h

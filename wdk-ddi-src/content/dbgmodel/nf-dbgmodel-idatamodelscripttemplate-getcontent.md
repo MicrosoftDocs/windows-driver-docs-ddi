@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDataModelScriptTemplate.GetContent
 title: IDataModelScriptTemplate::GetContent
 author: windows-driver-content
-description: TBD
+description: The GetContent method returns the content (or code) of the template. 
 ms.assetid: 6c374069-2f98-4283-a01f-b65bcab8cd3a
-ms.author: windowsdriverdev
 ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptTemplate::GetContent, GetContent, IDataModelScriptTemplate.GetContent, IDataModelScriptTemplate::GetContent, IDataModelScriptTemplate.GetContent
@@ -35,8 +34,6 @@ api_name:
 -	IDataModelScriptTemplate.GetContent
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

@@ -6,11 +6,8 @@ description: The SpbRequestGetParameters method retrieves a set of SPB-specific 
 old-location: spb\spbrequestgetparameters.htm
 tech.root: SPB
 ms.assetid: 676C28C4-E6F3-4190-927B-67D5618F5645
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: SPB.spbrequestgetparameters, SpbRequestGetParameters, SpbRequestGetParameters method [Buses], spbcx/SpbRequestGetParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: spbcx.h
 req.include-header: 
@@ -61,7 +58,7 @@ The <b>SpbRequestGetParameters</b> method retrieves a set of SPB-specific parame
 
 ### -param SpbRequest [in]
 
-An <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>  handle to the I/O request. The SPB controller driver previously received this handle through one of its registered <a href="https://msdn.microsoft.com/1DA1FF41-FB01-45CC-B0C1-EAF2C81D0CDA">event callback functions</a>.
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>  handle to the I/O request. The SPB controller driver previously received this handle through one of its registered <a href="https://msdn.microsoft.com/1DA1FF41-FB01-45CC-B0C1-EAF2C81D0CDA">event callback functions</a>.
 
 
 ### -param Parameters [out]
@@ -113,7 +110,7 @@ SpbRequestGetParameters(spbRequest, &amp;parameters);
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
 
 
 

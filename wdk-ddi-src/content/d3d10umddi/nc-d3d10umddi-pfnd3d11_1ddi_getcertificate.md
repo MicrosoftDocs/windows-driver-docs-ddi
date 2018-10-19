@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Returns a certificate that the display miniport driver uses for either the cryptographic session certificate or authenticated channel.
 old-location: display\getcertificate.htm
 ms.assetid: b2ceaa6e-a952-4c2f-9594-289ebe24c62d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_GETCERTIFICATE, PFND3D11_1DDI_GETCERTIFICATE callback, d3d10umddi/pfnGetCertificate, display.getcertificate, pfnGetCertificate, pfnGetCertificate callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

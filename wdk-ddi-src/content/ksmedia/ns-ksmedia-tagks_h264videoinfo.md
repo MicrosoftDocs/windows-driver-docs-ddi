@@ -6,11 +6,8 @@ description: The KS_H264VIDEOINFO describes the device capabilities that apply t
 old-location: stream\ks_h264videoinfo.htm
 tech.root: stream
 ms.assetid: 1EBA2124-F5D3-4683-B967-8179CCCD3102
-ms.author: windowsdriverdev
-ms.date: 9/12/2018
+ms.date: 09/12/2018
 ms.keywords: "*PKS_H264VIDEOINFO, KS_H264VIDEOINFO, KS_H264VIDEOINFO structure [Streaming Media Devices], PKS_H264VIDEOINFO, PKS_H264VIDEOINFO structure pointer [Streaming Media Devices], ksmedia/KS_H264VIDEOINFO, ksmedia/PKS_H264VIDEOINFO, stream.ks_h264videoinfo, tagKS_H264VIDEOINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksmedia.h
 req.include-header: Ksmedia.h

@@ -6,11 +6,8 @@ description: The IG_DUMP_SYMBOL_INFO Ioctl operation provides information about 
 old-location: debugger\ig_dump_symbol_info.htm
 tech.root: debugger
 ms.assetid: 5a00f401-89e5-4863-ab14-a8ab7eec1869
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: "*PSYM_DUMP_PARAM, PSYM_DUMP_PARAM, PSYM_DUMP_PARAM structure pointer [Windows Debugging], SYM_DUMP_PARAM, SYM_DUMP_PARAM structure [Windows Debugging], WdbgExts_Ref_22e264c9-ed41-4257-a192-7b3f6d4ffdea.xml, _SYM_DUMP_PARAM, debugger.ig_dump_symbol_info, wdbgexts/PSYM_DUMP_PARAM, wdbgexts/SYM_DUMP_PARAM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h

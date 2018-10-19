@@ -6,11 +6,8 @@ description: The Bluetooth SdpConvertTreeToStream function is used to produce a 
 old-location: bltooth\sdpconverttreetostream.htm
 tech.root: bltooth
 ms.assetid: 6e3cc0ae-e214-4096-834b-b435ee0fcb46
-ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: PCONVERTTREETOSTREAM, PCONVERTTREETOSTREAM callback, SdpConvertTreeToStream, SdpConvertTreeToStream callback function [Bluetooth Devices], bltooth.sdpconverttreetostream, bth_funcs_0f0b531b-9391-475c-a3a2-ac2b2a94e1dd.xml, bthsdpddi/SdpConvertTreeToStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: bthsdpddi.h
 req.include-header: BthSdpddi.h

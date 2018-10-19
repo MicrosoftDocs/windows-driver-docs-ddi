@@ -2,10 +2,9 @@
 UID: NF:dbgmodel.IStringDisplayableConcept.AddRef
 title: IStringDisplayableConcept::AddRef
 author: windows-driver-content
-description: TBD
+description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: 7e39ce98-cca8-4ae7-a887-0011fc9544fd
-ms.author: windowsdriverdev
-ms.date: 09/21/2018
+ms.date: 10/05/2018
 ms.topic: method
 ms.keywords: IStringDisplayableConcept::AddRef, AddRef, IStringDisplayableConcept.AddRef, IStringDisplayableConcept::AddRef, IStringDisplayableConcept.AddRef
 req.header: dbgmodel.h
@@ -35,8 +34,6 @@ api_name:
 -	IStringDisplayableConcept.AddRef
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 
@@ -63,4 +60,4 @@ This method returns ULONG.
 
 ## -see-also
 
-[IStringDisplayableConcept interface](nn-dbgmodel-isStringdisplayableconcept.md)
+[IStringDisplayableConcept interface](nn-dbgmodel-istringdisplayableconcept.md)

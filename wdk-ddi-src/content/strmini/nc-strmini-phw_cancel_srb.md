@@ -6,11 +6,8 @@ description: The class driver calls the minidriver's StrMiniCancelPacket routine
 old-location: stream\strminicancelpacket.htm
 tech.root: stream
 ms.assetid: e64c00dd-4eef-4e1e-abb0-8263088f6dc6
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: PHW_CANCEL_SRB, StrMiniCancelPacket, StrMiniCancelPacket routine [Streaming Media Devices], stream.strminicancelpacket, strmini-routines_976ab3d0-d8aa-4121-a0a8-b37d08a07219.xml, strmini/StrMiniCancelPacket
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: strmini.h
 req.include-header: Strmini.h

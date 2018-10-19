@@ -6,11 +6,8 @@ description: NDIS and underlying drivers use the NDIS_STATUS_INDICATION structur
 old-location: netvista\ndis_status_indication.htm
 tech.root: netvista
 ms.assetid: bfab907d-a90d-46a0-bd51-6f2b418e3f39
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_STATUS_INDICATION, NDIS_STATUS_INDICATION, NDIS_STATUS_INDICATION structure [Network Drivers Starting with Windows Vista], PNDIS_STATUS_INDICATION, PNDIS_STATUS_INDICATION structure pointer [Network Drivers Starting with Windows Vista], _NDIS_STATUS_INDICATION, ndis/NDIS_STATUS_INDICATION, ndis/PNDIS_STATUS_INDICATION, ndis_status_ref_6c475f32-573d-4e1b-ae74-bd9e9b8943db.xml, netvista.ndis_status_indication"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndis.h
 req.include-header: Ndis.h

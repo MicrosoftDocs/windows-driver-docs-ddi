@@ -2,10 +2,9 @@
 UID: NF:dbgmodel.IDebugHostTypeSignature.IsMatch
 title: IDebugHostTypeSignature::IsMatch
 author: windows-driver-content
-description: TBD
+description: The IsMatch method returns an indication of whether a particular type instance matches the criteria specified in the type signature. 
 ms.assetid: c263f7b8-2612-4ef5-8eb7-35379fbadf4d
-ms.author: windowsdriverdev
-ms.date: 09/10/2018 
+ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDebugHostTypeSignature::IsMatch, IsMatch, IDebugHostTypeSignature.IsMatch, IDebugHostTypeSignature::IsMatch, IDebugHostTypeSignature.IsMatch
 req.header: dbgmodel.h
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostTypeSignature.IsMatch
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

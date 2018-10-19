@@ -6,11 +6,8 @@ description: Sets the value of the specified system environment variables using 
 old-location: kernel\ioctl_ioctl_sysenv_set_variable.htm
 tech.root: kernel
 ms.assetid: 2BA555D8-CFD3-4D27-BC38-3B261D2F95EF
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IOCTL_SYSENV_SET_VARIABLE, IOCTL_SYSENV_SET_VARIABLE control, IOCTL_SYSENV_SET_VARIABLE control code [Kernel-Mode Driver Architecture], kernel.ioctl_ioctl_sysenv_set_variable, ntddsysenv/IOCTL_SYSENV_SET_VARIABLE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddsysenv.h
 req.include-header: 

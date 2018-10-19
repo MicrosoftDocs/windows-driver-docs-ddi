@@ -6,11 +6,8 @@ description: The PacketDirect (PD) platform calls a PD-capable miniport driver's
 old-location: netvista\ndispdsetreceivefilter.htm
 tech.root: netvista
 ms.assetid: 49587142-9C84-4F73-BE0C-D256A8E6BF4B
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDIS_PD_SET_RECEIVE_FILTER, NDIS_PD_SET_RECEIVE_FILTER callback, NdisPDSetReceiveFilter, NdisPDSetReceiveFilter callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDSetReceiveFilter, netvista.ndispdsetreceivefilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: 

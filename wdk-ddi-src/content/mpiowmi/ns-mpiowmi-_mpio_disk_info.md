@@ -6,11 +6,8 @@ description: The MPIO_DISK_INFO structure allows applications to query the syste
 old-location: storage\mpio_disk_info.htm
 tech.root: storage
 ms.assetid: edefb7f5-f423-48cc-81c9-16153c228d45
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PMPIO_DISK_INFO, MPIO_DISK_INFO, MPIO_DISK_INFO structure [Storage Devices], PMPIO_DISK_INFO, PMPIO_DISK_INFO structure pointer [Storage Devices], _MPIO_DISK_INFO, mpiowmi/MPIO_DISK_INFO, mpiowmi/PMPIO_DISK_INFO, storage.mpio_disk_info, structs-scsibus_d58f08a1-1534-4f93-83d4-031ce1dee9bf.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mpiowmi.h
 req.include-header: Mpiowmi.h

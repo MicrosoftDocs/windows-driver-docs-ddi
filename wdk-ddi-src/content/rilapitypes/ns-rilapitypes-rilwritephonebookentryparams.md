@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilwritephonebookentryparams.htm
 tech.root: netvista
 ms.assetid: 56d13074-4d7e-474e-8c4a-d319f38ecc97
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilwritephonebookentryparams, ntddrilapitypes/RILWRITEPHONEBOOKENTRYPARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h

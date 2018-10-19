@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The pfnCheckExistingResourceAllocationInfo callback function supports checking existing resource allocation information.
 old-location: display\pfnd3d12ddi_checkexisitingresourceallocationinfo_0022.htm
 ms.assetid: 428F23B4-3032-4BD9-A1C1-104BB2648F89
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO_0022, PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO_0022 callback, d3d12umddi/pfnCheckExistingResourceAllocationInfo, display.pfnd3d12ddi_checkexisitingresourceallocationinfo_0022, pfnCheckExistingResourceAllocationInfo, pfnCheckExistingResourceAllocationInfo callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt799844">pfnCheckExistingResourceAllocationInfo</a> callback function supports checking existing resource allocation information.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/mt799844">pfnCheckExistingResourceAllocationInfo</a> callback function supports checking existing resource allocation information.
 
 
 ## -parameters

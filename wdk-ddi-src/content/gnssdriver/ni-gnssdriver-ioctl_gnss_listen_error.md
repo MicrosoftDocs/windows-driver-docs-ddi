@@ -6,11 +6,8 @@ description: The IOCTL_GNSS_LISTEN_ERROR control code is used to start listening
 old-location: gnss\ioctl_gnss_listen_error_.htm
 tech.root: gnss
 ms.assetid: 4B08FB8D-8C4A-4C23-A809-11E7DF190236
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_GNSS_LISTEN_ERROR, IOCTL_GNSS_LISTEN_ERROR control, IOCTL_GNSS_LISTEN_ERROR control code [Sensor Devices], gnss.ioctl_gnss_listen_error_, gnssdriver/IOCTL_GNSS_LISTEN_ERROR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: gnssdriver.h
 req.include-header: 

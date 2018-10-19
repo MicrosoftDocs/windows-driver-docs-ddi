@@ -4,11 +4,8 @@ title: _SAVED_INTERNAL_STATUS_PARAMETER_DATA
 author: windows-driver-content
 description: 
 ms.assetid: 7af8f82a-ef8e-4942-94ed-a6851b841003
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _SAVED_INTERNAL_STATUS_PARAMETER_DATA, SAVED_INTERNAL_STATUS_PARAMETER_DATA, *PSAVED_INTERNAL_STATUS_PARAMETER_DATA, 
 req.header: scsi.h
 req.include-header:

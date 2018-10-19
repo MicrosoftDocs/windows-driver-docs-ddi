@@ -6,11 +6,8 @@ description: Returns a value that indicates whether a package has already been i
 old-location: dtf\iwdtfdriversetupsystemaction2_isimported.htm
 tech.root: dtf
 ms.assetid: 2b6e0fc6-33c6-4dcf-8def-b0e081e2405b
-ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework],IsImported method, IWDTFDriverSetupSystemAction2.IsImported, IWDTFDriverSetupSystemAction2::IsImported, IsImported, IsImported method [Windows Device Testing Framework], IsImported method [Windows Device Testing Framework],IWDTFDriverSetupSystemAction2 interface, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.IsImported, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::IsImported, dtf.iwdtfdriversetupsystemaction2_isimported, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::IsImported
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtfdriversetupsystemaction.h
 req.include-header: 

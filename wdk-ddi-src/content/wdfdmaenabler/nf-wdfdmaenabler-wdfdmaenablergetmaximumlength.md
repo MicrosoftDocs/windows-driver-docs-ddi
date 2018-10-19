@@ -6,11 +6,8 @@ description: The WdfDmaEnablerGetMaximumLength method returns the maximum transf
 old-location: wdf\wdfdmaenablergetmaximumlength.htm
 tech.root: wdf
 ms.assetid: f37359b9-807e-43dc-a66b-7b32c0921f06
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDmaObjectRef_8d6be540-2f98-48f9-8ffe-332c96394920.xml, WdfDmaEnablerGetMaximumLength, WdfDmaEnablerGetMaximumLength method, kmdf.wdfdmaenablergetmaximumlength, wdf.wdfdmaenablergetmaximumlength, wdfdmaenabler/WdfDmaEnablerGetMaximumLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h
@@ -53,7 +50,7 @@ req.typenames:
 
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfDmaEnablerGetMaximumLength</b> method returns the maximum transfer length, for a single <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dma-transactions-and-dma-transfers">DMA transfer</a>, that a device supports. 
+The <b>WdfDmaEnablerGetMaximumLength</b> method returns the maximum transfer length, for a single <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dma-transactions-and-dma-transfers">DMA transfer</a>, that a device supports. 
 
 
 ## -parameters

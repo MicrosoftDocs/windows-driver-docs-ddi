@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_extsta_attributes.htm
 tech.root: netvista
 ms.assetid: 319017a7-f398-46f7-ab03-1dcb057c1332
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_EXTSTA_ATTRIBUTES, DOT11_EXTSTA_ATTRIBUTES, DOT11_EXTSTA_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_857cc383-6c5b-4bd3-9e91-609b5a9b1f93.xml, PDOT11_EXTSTA_ATTRIBUTES, PDOT11_EXTSTA_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_extsta_attributes, windot11/DOT11_EXTSTA_ATTRIBUTES, windot11/PDOT11_EXTSTA_ATTRIBUTES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -55,14 +52,14 @@ product:
 <div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The <b>DOT11_EXTSTA_ATTRIBUTES</b> structure defines the physical and operating attributes of the miniport
   driver and 802.11 station when operating in Extensible Station (ExtSTA) mode. For more information about
   this operation mode, see
-  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
   Mode</a>.
 
 
 ## -syntax
 
 
-````
+```cpp
 typedef struct DOT11_EXTSTA_ATTRIBUTES {
   NDIS_OBJECT_HEADER              Header;
   ULONG                           uScanSSIDListSize;
@@ -94,7 +91,7 @@ typedef struct DOT11_EXTSTA_ATTRIBUTES {
   ULONG                           uInfraNumSupportedMcastMgmtAlgoPairs;
   PDOT11_AUTH_CIPHER_PAIR         pInfraSupportedMcastMgmtAlgoPairs;
 } DOT11_EXTSTA_ATTRIBUTES, *PDOT11_EXTSTA_ATTRIBUTES;
-````
+```
 
 
 ## -struct-fields
@@ -182,7 +179,7 @@ The maximum number of entries in the desired list of basic service set identifie
 
 
 For more information about the desired BSSID list, see
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">
      OID_DOT11_DESIRED_BSSID_LIST</a>.
 
 
@@ -193,7 +190,7 @@ The maximum number of entries in the desired SSID list supported by the 802.11 s
 
 
 For more information about the desired SSID list, see
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-ssid-list">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-ssid-list">
      OID_DOT11_DESIRED_SSID_LIST</a>.
 
 
@@ -204,7 +201,7 @@ The maximum number of entries in the excluded MAC address list supported by the 
 
 
 For more information about the desired excluded MAC address list, see
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-excluded-mac-address-list">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-excluded-mac-address-list">
      OID_DOT11_EXCLUDED_MAC_ADDRESS_LIST</a>.
 
 
@@ -215,7 +212,7 @@ The maximum number of entries in the privacy exemption list supported by the 802
 
 
 For more information about the privacy exemption list, see
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
      OID_DOT11_PRIVACY_EXEMPTION_LIST</a>.
 
 
@@ -226,7 +223,7 @@ The maximum number of cipher key-mapping keys supported by the 802.11 station. I
 
 
 For more information about key mapping keys, see
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
      OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>.
 
 
@@ -396,7 +393,7 @@ If the bit field is set to <b>DOT11_EXTSTA_ATTRIBUTES_SAFEMODE_CERTIFIED</b>, th
 </li>
 </ul>
 This member is used in conjunction with
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-safe-mode-enabled">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-safe-mode-enabled">
      OID_DOT11_SAFE_MODE_ENABLED</a>.
 
 
@@ -415,7 +412,7 @@ If the 802.11 station does not support the IEEE 802.11d-2001 standard, the minip
 
 A pointer to an array of 802.11d country or region strings that are supported by the 802.11
      station. Each entry in the array is formatted as a
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
      DOT11_COUNTRY_OR_REGION_STRING</a> structure.
 
 
@@ -572,16 +569,16 @@ Management Frame Protection Required (MFPR) enforcement on Windows 8 is not sup
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
    Mode</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-excluded-mac-address-list">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-excluded-mac-address-list">
    OID_DOT11_EXCLUDED_MAC_ADDRESS_LIST</a>
 
 
@@ -590,20 +587,20 @@ Management Frame Protection Required (MFPR) enforcement on Windows 8 is not sup
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-ssid-list">OID_DOT11_DESIRED_SSID_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-ssid-list">OID_DOT11_DESIRED_SSID_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
    DOT11_COUNTRY_OR_REGION_STRING</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-safe-mode-enabled">OID_DOT11_SAFE_MODE_ENABLED</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-safe-mode-enabled">OID_DOT11_SAFE_MODE_ENABLED</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
    OID_DOT11_PRIVACY_EXEMPTION_LIST</a>
 
 
@@ -612,7 +609,7 @@ Management Frame Protection Required (MFPR) enforcement on Windows 8 is not sup
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
    OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
 
 

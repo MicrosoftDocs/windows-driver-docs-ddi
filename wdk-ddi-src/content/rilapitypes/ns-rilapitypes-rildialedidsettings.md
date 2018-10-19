@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rildialedidsettings.htm
 tech.root: netvista
 ms.assetid: e68ed118-76c7-44ff-a10f-dc64f1ce2d0e
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILDIALEDIDSETTINGS, RILDIALEDIDSETTINGS, RILDIALEDIDSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rildialedidsettings, ntddrilapitypes/RILDIALEDIDSETTINGS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h

@@ -6,11 +6,8 @@ description: The WdfIoResourceListAppendDescriptor method adds a resource descri
 old-location: wdf\wdfioresourcelistappenddescriptor.htm
 tech.root: wdf
 ms.assetid: da9213c1-e519-44ad-aabf-fd05bdbd2079
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFResourceObjectRef_547a6869-7e4a-4140-9851-0b1ca9810eaa.xml, WdfIoResourceListAppendDescriptor, WdfIoResourceListAppendDescriptor method, kmdf.wdfioresourcelistappenddescriptor, wdf.wdfioresourcelistappenddescriptor, wdfresource/WdfIoResourceListAppendDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfresource.h
 req.include-header: Wdf.h
@@ -129,7 +126,7 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 The framework copies the contents of the <a href="https://msdn.microsoft.com/03e3a656-c691-4aff-bcc8-4e0bc8390fd7">IO_RESOURCE_DESCRIPTOR</a> structure that the <i>Descriptor</i> parameter points to into internal storage, so the driver routine that calls <b>WdfIoResourceListAppendDescriptor</b> can allocate the structure locally. After the driver calls <b>WdfIoResourceListAppendDescriptor</b>, the driver can reuse the <b>IO_RESOURCE_DESCRIPTOR</b> structure.
 
-For more information about resource requirements lists and logical configurations, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
+For more information about resource requirements lists and logical configurations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 
 #### Examples

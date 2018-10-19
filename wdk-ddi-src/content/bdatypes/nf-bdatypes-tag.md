@@ -4,8 +4,7 @@ title: TAG function
 author: windows-driver-content
 description: 
 ms.assetid: 6f10e283-f053-404d-9ab7-c9c14fe8cc21
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: TAG
 req.header: bdatypes.h

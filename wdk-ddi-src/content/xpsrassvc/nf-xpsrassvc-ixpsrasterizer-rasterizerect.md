@@ -6,11 +6,8 @@ description: The RasterizeRect method rasterizes an axis-aligned, rectangular re
 old-location: print\ixpsrasterizer_rasterizerect.htm
 tech.root: print
 ms.assetid: abf8dfc7-7921-4e9c-a338-ec783a01fca7
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IXpsRasterizer interface [Print Devices],RasterizeRect method, IXpsRasterizer.RasterizeRect, IXpsRasterizer::RasterizeRect, RasterizeRect, RasterizeRect method [Print Devices], RasterizeRect method [Print Devices],IXpsRasterizer interface, print.ixpsrasterizer_rasterizerect, print_xpsrast_de9e1518-8388-4cc4-9787-8774996221bf.xml, xpsrassvc/IXpsRasterizer::RasterizeRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsrassvc.h
 req.include-header: 
@@ -85,7 +82,7 @@ Pointer to the <a href="https://msdn.microsoft.com/7616b5c7-a21f-4db1-923b-ebf2a
 
 ### -param bitmap [out, optional]
 
-Pointer to a location into which the method writes a pointer to the <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee719675.aspx">IWICBitmap</a> interface of the newly created bitmap object. If the method fails, it writes <b>NULL</b> to this location and returns an error code.
+Pointer to a location into which the method writes a pointer to the <a href="http://msdn.microsoft.com/library/windows/desktop/ee719675.aspx">IWICBitmap</a> interface of the newly created bitmap object. If the method fails, it writes <b>NULL</b> to this location and returns an error code.
 
 
 ## -returns
@@ -133,7 +130,7 @@ Parameter <i>width</i> or <i>height</i> is less than or equal to 0.
 
 This method is supported in Windows 7 and later. It is not supported in versions of the Windows operating system before Windows 7.
 
-If successful, this method creates a Windows imaging component (WIC) bitmap object and passes to the caller a counted reference to the object's <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee719675.aspx">IWICBitmap</a> interface. When the object is no longer needed, the caller is responsible for releasing the object by calling the <a href="http://go.microsoft.com/fwlink/p/?linkid=98433">Release</a> method on the object's <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee719675.aspx">IWICBitmap</a> interface.
+If successful, this method creates a Windows imaging component (WIC) bitmap object and passes to the caller a counted reference to the object's <a href="http://msdn.microsoft.com/library/windows/desktop/ee719675.aspx">IWICBitmap</a> interface. When the object is no longer needed, the caller is responsible for releasing the object by calling the <a href="http://go.microsoft.com/fwlink/p/?linkid=98433">Release</a> method on the object's <a href="http://msdn.microsoft.com/library/windows/desktop/ee719675.aspx">IWICBitmap</a> interface.
 
 The WIC bitmap created by this method has a 32-bit pixel format that contains 8-bit red, green, and blue channels and uses the standard RGB (sRGB) color space. In addition, the format contains an 8-bit alpha component. The color components in each pixel value are pre-multiplied by the alpha component. The pixel format is specified by the GUID value <b>GUID_WICPixelFormat32bppPBGRA</b>, which is defined in the header file Wincodec.h. For more information about this format, see <a href="http://go.microsoft.com/fwlink/p/?linkid=133874">Native Pixel Formats Overview</a>.
 
@@ -169,7 +166,7 @@ For a code example that calls the <code>RasterizeRect</code> method, see the XPS
 
 
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
+<a href="http://msdn.microsoft.com/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
 
 
 

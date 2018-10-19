@@ -4,11 +4,8 @@ title: _D3DKMT_CPDRIVERNAME
 author: windows-driver-content
 description: The CPU driver name.
 ms.assetid: d7ad1d6d-e908-4460-9236-a47e3fef7d52
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_CPDRIVERNAME, D3DKMT_CPDRIVERNAME, 
 req.header: d3dkmthk.h
 req.include-header:

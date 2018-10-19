@@ -2,10 +2,9 @@
 UID: NF:dbgmodel.IDebugHostScriptHost.CreateContext
 title: IDebugHostScriptHost::CreateContext
 author: windows-driver-content
-description: TBD
+description: The CreateContext method is called by a script provider to create a new context in which to place the contents of the script.
 ms.assetid: e7dbce17-bc44-4707-805e-2607263c8ce4
-ms.author: windowsdriverdev
-ms.date: 09/28/2018  
+ms.date: 09/28/2018
 ms.topic: method
 ms.keywords: IDebugHostScriptHost::CreateContext, CreateContext, IDebugHostScriptHost.CreateContext, IDebugHostScriptHost::CreateContext, IDebugHostScriptHost.CreateContext
 req.header: dbgmodel.h
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostScriptHost.CreateContext
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

@@ -6,11 +6,8 @@ description: NDIS calls the MiniportMessageInterrupt function when a NIC generat
 old-location: netvista\miniportmessageinterrupt.htm
 tech.root: netvista
 ms.assetid: ec2e6f49-dc40-48e8-96dc-c9440a6662a3
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_MESSAGE_INTERRUPT, MINIPORT_MESSAGE_INTERRUPT callback, MiniportMessageInterrupt, MiniportMessageInterrupt callback function [Network Drivers Starting with Windows Vista], ndis/MiniportMessageInterrupt, ndis_interrupts_miniport_functions_ref_77780217-8bf5-457e-81dc-3e079fe77abd.xml, netvista.miniportmessageinterrupt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -156,10 +153,10 @@ The NIC generated the interrupt to signal received data and the miniport driver 
 </li>
 <li>
 The interrupt indicates received packets and the miniport driver can process received packets in
-      separate DPCs, but <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">receive side scaling (RSS)</a> is not enabled for the miniport driver. For more information, see 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
+      separate DPCs, but <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-receive-side-scaling2">receive side scaling (RSS)</a> is not enabled for the miniport driver. For more information, see 
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
       OID_GEN_RECEIVE_SCALE_CAPABILITIES</a> and 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
       OID_GEN_RECEIVE_SCALE_PARAMETERS</a>.
 
 </li>
@@ -181,7 +178,7 @@ If
     <i>MiniportXxx</i> function must call the 
     <a href="https://msdn.microsoft.com/5dca9258-a3ae-43f4-a5aa-d591165d72ed">
     NdisMSynchronizeWithInterruptEx</a> function. This ensures that the driver's 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff559454">MiniportSynchronizeMessageInterrupt</a> function accesses the shared resources in a synchronized and
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff559454">MiniportSynchronizeMessageInterrupt</a> function accesses the shared resources in a synchronized and
     multiprocessor-safe manner.
 
 A miniport driver can call the 
@@ -270,7 +267,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff559454">MiniportSynchronizeMessageInterrupt</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559454">MiniportSynchronizeMessageInterrupt</a>
 
 
 
@@ -296,17 +293,17 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
    OID_GEN_RECEIVE_SCALE_CAPABILITIES</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
    OID_GEN_RECEIVE_SCALE_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
  
 
  

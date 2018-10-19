@@ -6,11 +6,8 @@ description: Sets the properties for an allocator.
 old-location: stream\iksallocatorex_kssetproperties.htm
 tech.root: stream
 ms.assetid: 17145801-5EE4-4022-997A-03B14C794D2F
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IKsAllocatorEx interface [Streaming Media Devices],KsSetProperties method, IKsAllocatorEx.KsSetProperties, IKsAllocatorEx::KsSetProperties, KsSetProperties, KsSetProperties method [Streaming Media Devices], KsSetProperties method [Streaming Media Devices],IKsAllocatorEx interface, ksproxy/IKsAllocatorEx::KsSetProperties, stream.iksallocatorex_kssetproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ksproxy.h
 req.include-header: Ksproxy.h

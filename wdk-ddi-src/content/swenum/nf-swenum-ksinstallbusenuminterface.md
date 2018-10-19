@@ -6,11 +6,8 @@ description: The KsInstallBusEnumInterface function installs an interface to the
 old-location: stream\ksinstallbusenuminterface.htm
 tech.root: stream
 ms.assetid: d9703786-c46e-4466-a229-9ed0348cb45e
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsInstallBusEnumInterface, KsInstallBusEnumInterface function [Streaming Media Devices], ksfunc_6c26cb96-610b-4030-9f9b-ef878fdfe086.xml, stream.ksinstallbusenuminterface, swenum/KsInstallBusEnumInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: swenum.h
 req.include-header: Swenum.h

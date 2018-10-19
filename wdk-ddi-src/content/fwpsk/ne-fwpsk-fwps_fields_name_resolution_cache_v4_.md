@@ -6,11 +6,8 @@ description: The FWPS_FIELDS_NAME_RESOLUTION_CACHE_V4 enumeration type specifies
 old-location: netvista\fwps_fields_name_resolution_cache_v4.htm
 tech.root: netvista
 ms.assetid: 9e999c4d-381d-4106-8eeb-e6974e2f8a22
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FWPS_FIELDS_NAME_RESOLUTION_CACHE_V4, FWPS_FIELDS_NAME_RESOLUTION_CACHE_V4 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELDS_NAME_RESOLUTION_CACHE_V4_, FWPS_FIELD_NAME_RESOLUTION_CACHE_V4_ALE_APP_ID, FWPS_FIELD_NAME_RESOLUTION_CACHE_V4_ALE_USER_ID, FWPS_FIELD_NAME_RESOLUTION_CACHE_V4_IP_REMOTE_ADDRESS, FWPS_FIELD_NAME_RESOLUTION_CACHE_V4_MAX, FWPS_FIELD_NAME_RESOLUTION_CACHE_V4_PEER_NAME, fwpsk/FWPS_FIELDS_NAME_RESOLUTION_CACHE_V4, fwpsk/FWPS_FIELD_NAME_RESOLUTION_CACHE_V4_ALE_APP_ID, fwpsk/FWPS_FIELD_NAME_RESOLUTION_CACHE_V4_ALE_USER_ID, fwpsk/FWPS_FIELD_NAME_RESOLUTION_CACHE_V4_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_NAME_RESOLUTION_CACHE_V4_MAX, fwpsk/FWPS_FIELD_NAME_RESOLUTION_CACHE_V4_PEER_NAME, netvista.fwps_fields_name_resolution_cache_v4, wfp_ref_5_const_3_data_fields_b0351c61-f624-4a2f-8c20-bdbad78e143f.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
@@ -52,7 +49,7 @@ req.typenames: FWPS_FIELDS_NAME_RESOLUTION_CACHE_V4
 
 The FWPS_FIELDS_NAME_RESOLUTION_CACHE_V4 enumeration type specifies the data field identifiers for
   the FWPS_LAYER_NAME_RESOLUTION_CACHE_V4 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
+  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layer</a>.
 
 
 ## -enum-fields
@@ -82,6 +79,10 @@ The machine name that is associated with the destination IP address.
 
 ### -field FWPS_FIELD_NAME_RESOLUTION_CACHE_V4_COMPARTMENT_ID
 
+The compartment that the network interface belongs to.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_NAME_RESOLUTION_CACHE_V4_MAX
 

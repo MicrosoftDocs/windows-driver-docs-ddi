@@ -6,11 +6,8 @@ description: The OEMQueryFont function is used by GDI to get the IFIMETRICS stru
 old-location: print\oemqueryfont.htm
 tech.root: print
 ms.assetid: cee6b2dd-e79b-4372-8371-c57fe950de88
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: OEMQueryFont, OEMQueryFont function [Print Devices], print.oemqueryfont, print_unidrv-pscript_rendering_52b50b2d-ab61-420f-be04-7285a5504be6.xml, printoem/OEMQueryFont
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: printoem.h
 req.include-header: Printoem.h

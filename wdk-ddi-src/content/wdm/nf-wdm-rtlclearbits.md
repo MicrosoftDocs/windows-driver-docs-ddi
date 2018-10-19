@@ -6,11 +6,8 @@ description: The RtlClearBits routine sets all bits in the specified range of bi
 old-location: kernel\rtlclearbits.htm
 tech.root: kernel
 ms.assetid: 2c332700-7778-4342-b99b-093142496624
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlClearBits, RtlClearBits routine [Kernel-Mode Driver Architecture], k109_ee20da99-4d30-46dc-99c1-d3d8dfa92d08.xml, kernel.rtlclearbits, wdm/RtlClearBits
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

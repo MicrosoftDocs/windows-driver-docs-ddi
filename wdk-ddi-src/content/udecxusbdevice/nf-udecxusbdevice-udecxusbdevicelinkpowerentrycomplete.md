@@ -6,11 +6,8 @@ description: Completes an asynchronous request for bringing the device out of a 
 old-location: buses\udecxusbdevicelinkpowerentrycomplete.htm
 tech.root: usbref
 ms.assetid: 0B8FF9EB-63E5-4532-B13C-CF0FF04D9A53
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UdecxUsbDeviceLinkPowerEntryComplete, UdecxUsbDeviceLinkPowerEntryComplete function [Buses], buses.udecxusbdevicelinkpowerentrycomplete, udecxusbdevice/UdecxUsbDeviceLinkPowerEntryComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h

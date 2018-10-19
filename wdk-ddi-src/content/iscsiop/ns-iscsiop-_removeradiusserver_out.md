@@ -6,11 +6,8 @@ description: The RemoveiSNSServer_OUT structure holds the output data for the Re
 old-location: storage\removeradiusserver_out.htm
 tech.root: storage
 ms.assetid: da5be900-a362-4d74-9ac7-65b96f0348ce
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PRemoveRADIUSServer_OUT, PRemoveRADIUSServer_OUT, PRemoveRADIUSServer_OUT structure pointer [Storage Devices], RemoveRADIUSServer_OUT, RemoveRADIUSServer_OUT structure [Storage Devices], _RemoveRADIUSServer_OUT, iscsiop/PRemoveRADIUSServer_OUT, iscsiop/RemoveRADIUSServer_OUT, storage.removeradiusserver_out, structs-iSCSI_dea5813a-b7e8-4702-af57-f7a40360efb9.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iscsiop.h
 req.include-header: Iscsiop.h

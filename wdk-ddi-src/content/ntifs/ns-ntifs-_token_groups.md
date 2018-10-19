@@ -6,11 +6,8 @@ description: TOKEN_GROUPS contains information about the group security identifi
 old-location: ifsk\token_groups.htm
 tech.root: ifsk
 ms.assetid: 08faebdf-7e6d-4da4-a4c2-a0b57de437ce
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PTOKEN_GROUPS, PTOKEN_GROUPS, PTOKEN_GROUPS structure pointer [Installable File System Drivers], TOKEN_GROUPS, TOKEN_GROUPS structure [Installable File System Drivers], _TOKEN_GROUPS, ifsk.token_groups, ntifs/PTOKEN_GROUPS, ntifs/TOKEN_GROUPS, securitystructures_97d0491f-87b4-4e76-8252-fad37cc94c1c.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntifs.h
 req.include-header: Ntifs.h

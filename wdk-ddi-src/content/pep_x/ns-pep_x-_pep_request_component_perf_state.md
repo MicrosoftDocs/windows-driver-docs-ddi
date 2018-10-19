@@ -6,11 +6,8 @@ description: The PEP_REQUEST_COMPONENT_PERF_STATE structure contains a list of p
 old-location: kernel\pep_request_component_perf_state.htm
 tech.root: kernel
 ms.assetid: 8334434D-D2FC-4967-8234-3C097908C70B
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_REQUEST_COMPONENT_PERF_STATE, PEP_REQUEST_COMPONENT_PERF_STATE, PEP_REQUEST_COMPONENT_PERF_STATE structure [Kernel-Mode Driver Architecture], PPEP_REQUEST_COMPONENT_PERF_STATE, PPEP_REQUEST_COMPONENT_PERF_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_REQUEST_COMPONENT_PERF_STATE, kernel.pep_request_component_perf_state, pepfx/PEP_REQUEST_COMPONENT_PERF_STATE, pepfx/PPEP_REQUEST_COMPONENT_PERF_STATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pep_x.h
 req.include-header: Pep_x.h
@@ -60,7 +57,7 @@ The <b>PEP_REQUEST_COMPONENT_PERF_STATE</b> structure contains a list of perform
 
 ### -field DeviceHandle
 
-[in] A PEPHANDLE value that identifies the device. The PEP supplied this handle in response to a previous <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification.
+[in] A PEPHANDLE value that identifies the device. The PEP supplied this handle in response to a previous <a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification.
 
 
 ### -field Component
@@ -92,9 +89,9 @@ The <b>PEP_REQUEST_COMPONENT_PERF_STATE</b> structure contains a list of perform
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186852">PEP_DPM_REQUEST_COMPONENT_PERF_STATE</a> notification. The <b>DeviceHandle</b>, <b>Component</b>, <b>PerfRequestsCount</b>, and <b>PerfRequests</b> members of the structure contain input values that are supplied by PoFx when this notification is sent. The <b>Completed</b> and <b>Succeeded</b> members contain output values that the PEP writes to the structure in response to the notification.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186852">PEP_DPM_REQUEST_COMPONENT_PERF_STATE</a> notification. The <b>DeviceHandle</b>, <b>Component</b>, <b>PerfRequestsCount</b>, and <b>PerfRequests</b> members of the structure contain input values that are supplied by PoFx when this notification is sent. The <b>Completed</b> and <b>Succeeded</b> members contain output values that the PEP writes to the structure in response to the notification.
 
-The PEP can complete the requested P-state changes either synchronously or asynchronously. The PEP can set the <b>Completed</b> member to TRUE to indicate that all the requests in the <b>PEP_DPM_REQUEST_COMPONENT_PERF_STATE</b> notification have been completed synchronously—that is, before the return from the PEP's <a href="https://msdn.microsoft.com/library/windows/hardware/mt186626">AcceptDeviceNotification</a> callback routine. Or, the PEP can set <b>Completed</b> to FALSE to indicate that the requests will be completed asynchronously. To complete the requests asynchronously, the PEP should call the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186884">RequestWorker</a> routine to inform PoFx that the PEP has a work request to submit, and PoFx will respond by sending a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a> notification to the PEP.
+The PEP can complete the requested P-state changes either synchronously or asynchronously. The PEP can set the <b>Completed</b> member to TRUE to indicate that all the requests in the <b>PEP_DPM_REQUEST_COMPONENT_PERF_STATE</b> notification have been completed synchronously—that is, before the return from the PEP's <a href="https://msdn.microsoft.com/library/windows/hardware/mt186626">AcceptDeviceNotification</a> callback routine. Or, the PEP can set <b>Completed</b> to FALSE to indicate that the requests will be completed asynchronously. To complete the requests asynchronously, the PEP should call the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186884">RequestWorker</a> routine to inform PoFx that the PEP has a work request to submit, and PoFx will respond by sending a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a> notification to the PEP.
 
 PoFx writes the requested P-state changes to the <b>PerfRequests</b> array before the <b>PEP_DPM_REQUEST_COMPONENT_PERF_STATE</b> notification is sent. If the PEP handles the requested P-state changes <i>synchronously</i>, the contents of the <b>PerfRequests</b> array remain valid only until the return from the <i>AcceptDeviceNotification</i> callback routine. If the requests are completed <i>asynchronously</i>,  the array contents remain valid until the PEP calls the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186629">CompleteWork</a> routine to notify PoFx that the PEP has completed the pending requests.
 
@@ -118,15 +115,15 @@ PoFx writes the requested P-state changes to the <b>PerfRequests</b> array befor
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186852">PEP_DPM_REQUEST_COMPONENT_PERF_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186852">PEP_DPM_REQUEST_COMPONENT_PERF_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a>
 
 
 

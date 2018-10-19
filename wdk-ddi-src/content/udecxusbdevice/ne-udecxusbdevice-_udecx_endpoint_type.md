@@ -6,11 +6,8 @@ description: Defines values for endpoint types supported by a virtual USB device
 old-location: buses\udecx_endpoint_type.htm
 tech.root: usbref
 ms.assetid: EFA5DDC0-9E6B-450E-B191-1DA9FBAC269C
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUDECX_ENDPOINT_TYPE, UDECX_ENDPOINT_TYPE, UDECX_ENDPOINT_TYPE enumeration [Buses], UdecxEndpointTypeDynamic, UdecxEndpointTypeInvalid, UdecxEndpointTypeSimple, _UDECX_ENDPOINT_TYPE, buses.udecx_endpoint_type, udecxusbdevice/UDECX_ENDPOINT_TYPE, udecxusbdevice/UdecxEndpointTypeDynamic, udecxusbdevice/UdecxEndpointTypeInvalid, udecxusbdevice/UdecxEndpointTypeSimple"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h

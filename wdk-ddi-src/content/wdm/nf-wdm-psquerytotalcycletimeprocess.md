@@ -6,11 +6,8 @@ description: The PsQueryTotalCycleTimeProcess routine returns the accumulated cy
 old-location: kernel\psquerytotalcycletimeprocess.htm
 tech.root: kernel
 ms.assetid: 4DA34F96-A69A-46BE-B3D8-D542794052DE
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PsQueryTotalCycleTimeProcess, PsQueryTotalCycleTimeProcess routine [Kernel-Mode Driver Architecture], kernel.psquerytotalcycletimeprocess, wdm/PsQueryTotalCycleTimeProcess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: 

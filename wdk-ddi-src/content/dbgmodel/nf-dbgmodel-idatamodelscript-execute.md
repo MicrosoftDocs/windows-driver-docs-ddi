@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDataModelScript.Execute
 title: IDataModelScript::Execute
 author: windows-driver-content
-description: TBD
+description: The Execute method executes the content of the script as dictated by the last successful Populate call and modifies the object model of the debugger according to that content.
 ms.assetid: 6682b609-fd29-4878-b820-f7a582b7295d
-ms.author: windowsdriverdev
 ms.date: 08/20/2018
 ms.topic: method
 ms.keywords: IDataModelScript::Execute, Execute, IDataModelScript.Execute, IDataModelScript::Execute, IDataModelScript.Execute
@@ -35,8 +34,6 @@ api_name:
 -	IDataModelScript.Execute
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

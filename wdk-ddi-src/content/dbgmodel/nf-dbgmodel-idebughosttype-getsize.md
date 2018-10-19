@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDebugHostType.GetSize
 title: IDebugHostType::GetSize
 author: windows-driver-content
-description: TBD
+description: The GetSize method returns the size of the type (as if one had done sizeof(type) in C++). 
 ms.assetid: 22a802d1-119b-42d5-9163-f2db9dedbc5c
-ms.author: windowsdriverdev
 ms.date: 08/22/2018
 ms.topic: method
 ms.keywords: IDebugHostType::GetSize, GetSize, IDebugHostType.GetSize, IDebugHostType::GetSize, IDebugHostType.GetSize
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostType.GetSize
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

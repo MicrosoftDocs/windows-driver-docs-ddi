@@ -6,11 +6,8 @@ description: The WdfDeviceInitSetPowerInrush method informs the power manager th
 old-location: wdf\wdfdeviceinitsetpowerinrush.htm
 tech.root: wdf
 ms.assetid: 91b29a5b-8bc0-44c0-8c48-2d023da12dcb
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_07e58947-78a3-4864-924c-8bd11dfd8af5.xml, WdfDeviceInitSetPowerInrush, WdfDeviceInitSetPowerInrush method, kmdf.wdfdeviceinitsetpowerinrush, wdf.wdfdeviceinitsetpowerinrush, wdfdevice/WdfDeviceInitSetPowerInrush
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h
@@ -81,9 +78,9 @@ None
 
 To avoid overloading the system's power supply, the system starts devices that require an inrush of current one at a time.
 
-If your driver calls <b>WdfDeviceInitSetPowerInrush</b>, the framework makes it <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-pageable-code-in-a-kmdf-driver">nonpageable</a> during power state transitions and the driver must not call <a href="https://msdn.microsoft.com/library/windows/hardware/ff546766">WdfDeviceInitSetPowerPageable</a>. 
+If your driver calls <b>WdfDeviceInitSetPowerInrush</b>, the framework makes it <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-pageable-code-in-a-kmdf-driver">nonpageable</a> during power state transitions and the driver must not call <a href="https://msdn.microsoft.com/library/windows/hardware/ff546766">WdfDeviceInitSetPowerPageable</a>. 
 
-Your driver must call <b>WdfDeviceInitSetPowerInrush</b> before it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
+Your driver must call <b>WdfDeviceInitSetPowerInrush</b> before it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
 
 Calling <b>WdfDeviceInitSetPowerInrush</b> from a filter driver has no effect. For filter drivers, the framework uses the setting that the next-lower driver in the driver stack specifies.
 

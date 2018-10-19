@@ -6,11 +6,8 @@ description: The NFC_CX_POLL_MODE_CONFIG enumeration specifies poll mode.
 old-location: nfpdrivers\nfc_cx_poll_mode_config.htm
 tech.root: nfpdrivers
 ms.assetid: A073D570-DF55-424E-8E86-49DE6A31E6FB
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PNFC_CX_POLL_MODE_CONFIG, NFC_CX_POLL_DEFAULT, NFC_CX_POLL_MODE_CONFIG, NFC_CX_POLL_MODE_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_POLL_MODE_CONFIG,*PNFC_CX_POLL_MODE_CONFIG, NFC_CX_POLL_MODE_CONFIG,*PNFC_CX_POLL_MODE_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_POLL_NFC_15693, NFC_CX_POLL_NFC_A, NFC_CX_POLL_NFC_ACTIVE, NFC_CX_POLL_NFC_B, NFC_CX_POLL_NFC_F_212, NFC_CX_POLL_NFC_F_424, PNFC_CX_POLL_MODE_CONFIG, _NFC_CX_POLL_MODE_CONFIG, nfccx/NFC_CX_POLL_DEFAULT, nfccx/NFC_CX_POLL_MODE_CONFIG, nfccx/NFC_CX_POLL_NFC_15693, nfccx/NFC_CX_POLL_NFC_A, nfccx/NFC_CX_POLL_NFC_ACTIVE, nfccx/NFC_CX_POLL_NFC_B, nfccx/NFC_CX_POLL_NFC_F_212, nfccx/NFC_CX_POLL_NFC_F_424, nfpdrivers.nfc_cx_poll_mode_config"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: nfccx.h
 req.include-header: 

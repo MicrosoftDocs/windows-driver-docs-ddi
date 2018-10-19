@@ -6,11 +6,8 @@ description: The WdfUsbTargetDeviceFormatRequestForCyclePort method builds a pow
 old-location: wdf\wdfusbtargetdeviceformatrequestforcycleport.htm
 tech.root: wdf
 ms.assetid: f27dae6e-2fc7-4e26-84fb-4ce48da3db6b
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_cc92bdd0-b899-41be-b9c6-c44e385ee001.xml, WdfUsbTargetDeviceFormatRequestForCyclePort, WdfUsbTargetDeviceFormatRequestForCyclePort method, kmdf.wdfusbtargetdeviceformatrequestforcycleport, wdf.wdfusbtargetdeviceformatrequestforcycleport, wdfusb/WdfUsbTargetDeviceFormatRequestForCyclePort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
@@ -122,7 +119,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 Use <b>WdfUsbTargetDeviceFormatRequestForCyclePort</b>, followed by <a href="https://msdn.microsoft.com/library/windows/hardware/ff550027">WdfRequestSend</a>, to send a power-cycle request either synchronously or asynchronously. Alternatively, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550080">WdfUsbTargetDeviceCyclePortSynchronously</a> method to send a request synchronously. 
 
-Before the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff550027">WdfRequestSend</a>, it must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548680">WdfIoTargetStop</a> and it must <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">complete</a> or <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/canceling-i-o-requests">cancel</a> all I/O requests that it has sent to the I/O target. The driver must not send additional I/O requests to the I/O target until the cycle request completes.
+Before the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff550027">WdfRequestSend</a>, it must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548680">WdfIoTargetStop</a> and it must <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-i-o-requests">complete</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/canceling-i-o-requests">cancel</a> all I/O requests that it has sent to the I/O target. The driver must not send additional I/O requests to the I/O target until the cycle request completes.
 
 You can forward an I/O request that your driver received in an I/O queue, or you can create and send a new request. 
 

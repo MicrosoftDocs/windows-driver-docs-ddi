@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Contains stream-level data for the VideoProcessorBlt function.
 old-location: display\d3d11_1ddi_video_processor_stream.htm
 ms.assetid: 7edbe37b-ea45-4d37-908c-25c840e4cd74
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_STREAM, D3D11_1DDI_VIDEO_PROCESSOR_STREAM structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STREAM, display.d3d11_1ddi_video_processor_stream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

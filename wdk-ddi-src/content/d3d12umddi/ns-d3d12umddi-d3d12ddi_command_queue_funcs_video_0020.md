@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Command queue functions for video.
 old-location: display\d3d12ddi_command_queue_funcs_video.htm
 ms.assetid: 3B1FDF51-8B5E-4DF9-BFEC-91FD1A1DEC63
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D12DDI_COMMAND_QUEUE_FUNCS_VIDEO_0020, D3D12DDI_COMMAND_QUEUE_FUNCS_VIDEO_0020 structure [Display Devices], d3d12umddi/D3D12DDI_COMMAND_QUEUE_FUNCS_VIDEO_0020, display.d3d12ddi_command_queue_funcs_video
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h

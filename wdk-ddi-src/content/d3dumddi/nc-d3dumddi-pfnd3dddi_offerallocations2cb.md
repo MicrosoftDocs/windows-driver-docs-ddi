@@ -6,11 +6,8 @@ description: Called by the user-mode display driver to offer video memory alloca
 old-location: display\pfnofferallocations2cb.htm
 tech.root: display
 ms.assetid: 4A8123D3-3A7D-4716-BD02-DD6533DB22F6
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_OFFERALLOCATIONS2CB, PFND3DDDI_OFFERALLOCATIONS2CB callback, d3dumddi/pfnOfferAllocations2Cb, display.pfnofferallocations2cb, pfnOfferAllocations2Cb, pfnOfferAllocations2Cb callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -74,7 +71,7 @@ A handle to the display device (graphics context). The Direct3D runtime passed t
 
 *pData* [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt761969">D3DDDICB_OFFERALLOCATIONS2</a> structure  that defines the video memory allocations that the driver offers.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt761969">D3DDDICB_OFFERALLOCATIONS2</a> structure  that defines the video memory allocations that the driver offers.
 
 
 ## -returns
@@ -155,7 +152,7 @@ After the driver calls <b>pfnOfferAllocations2Cb</b> to offer an allocation to r
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt761969">D3DDDICB_OFFERALLOCATIONS2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt761969">D3DDDICB_OFFERALLOCATIONS2</a>
 
 
 

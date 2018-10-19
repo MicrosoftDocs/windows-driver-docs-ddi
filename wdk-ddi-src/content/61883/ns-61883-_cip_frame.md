@@ -6,11 +6,8 @@ description: The CIP_FRAME structure describes a frame to be attached to an inpu
 old-location: ieee\cip_frame.htm
 tech.root: IEEE
 ms.assetid: ac9efa58-fd38-43f2-85e6-577d58735847
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PCIP_FRAME, 61883/CIP_FRAME, 61883/PCIP_FRAME, 61883_structures_1fd796fa-88d2-4dc4-a440-89bf50b81ae8.xml, CIP_FRAME, CIP_FRAME structure [Buses], IEEE.cip_frame, PCIP_FRAME, PCIP_FRAME structure pointer [Buses], _CIP_FRAME"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 61883.h
 req.include-header: 61883.h

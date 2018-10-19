@@ -6,11 +6,8 @@ description: A driver's EvtDmaEnablerSelfManagedIoStart event callback function 
 old-location: wdf\evtdmaenablerselfmanagediostart.htm
 tech.root: wdf
 ms.assetid: 397791c1-c394-48ae-b6cf-42f4494438f1
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDmaObjectRef_6ccb5cb2-c30f-4ae0-a47e-cb58e24de25b.xml, EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_START, EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_START callback, EvtDmaEnablerSelfManagedIoStart, EvtDmaEnablerSelfManagedIoStart callback function, kmdf.evtdmaenablerselfmanagediostart, wdf.evtdmaenablerselfmanagediostart, wdfdmaenabler/EvtDmaEnablerSelfManagedIoStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h
@@ -82,7 +79,7 @@ To register an <i>EvtDmaEnablerSelfManagedIoStart</i> callback function, a funct
 
 For more information about the <i>EvtDmaEnablerSelfManagedIoStart</i> callback function, see <a href="https://msdn.microsoft.com/abbb8f60-560f-41c9-85c5-1ec82078b99e">Supporting Power Management for DMA Devices</a>.
 
-The <i>EvtDmaEnablerSelfManagedIoStart</i> callback function is called at IRQL = PASSIVE_LEVEL. You should not make this callback function <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-pageable-code-in-a-kmdf-driver">pageable</a>.
+The <i>EvtDmaEnablerSelfManagedIoStart</i> callback function is called at IRQL = PASSIVE_LEVEL. You should not make this callback function <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-pageable-code-in-a-kmdf-driver">pageable</a>.
 
 
 #### Examples
@@ -118,7 +115,7 @@ NTSTATUS
 </td>
 </tr>
 </table></span></div>
-The <b>EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_START</b> function type is defined in the WdfDmaEnabler.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_START</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/en-US/library/c0aa268d-6fa3-4ced-a8c6-f7652b152e61">Annotating Function Behavior</a>.
+The <b>EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_START</b> function type is defined in the WdfDmaEnabler.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_START</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/library/c0aa268d-6fa3-4ced-a8c6-f7652b152e61">Annotating Function Behavior</a>.
 
 
 

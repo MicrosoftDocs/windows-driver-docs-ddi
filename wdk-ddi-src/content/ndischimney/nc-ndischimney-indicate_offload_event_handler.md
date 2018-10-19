@@ -6,11 +6,8 @@ description: NDIS calls a protocol driver's or intermediate driver's ProtocolInd
 old-location: netvista\protocolindicateoffloadevent.htm
 tech.root: netvista
 ms.assetid: 608c1c7c-1eb3-4d86-9471-313fce2df00e
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: INDICATE_OFFLOAD_EVENT_HANDLER, INDICATE_OFFLOAD_EVENT_HANDLER callback, ProtocolIndicateOffloadEvent, ProtocolIndicateOffloadEvent callback function [Network Drivers Starting with Windows Vista], ndischimney/ProtocolIndicateOffloadEvent, netvista.protocolindicateoffloadevent, tcp_chim_protocol_func_cc94798f-b74a-45d5-b78f-383698003486.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndischimney.h
 req.include-header: Ndischimney.h

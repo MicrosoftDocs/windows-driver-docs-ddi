@@ -6,11 +6,8 @@ description: The IOCTL_HID_GET_DEVICE_DESCRIPTOR request obtains a HIDClass devi
 old-location: hid\ioctl_hid_get_device_descriptor.htm
 tech.root: hid
 ms.assetid: 89eac71d-c3f9-48b2-9174-26e4ccbe1d6e
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IOCTL_HID_GET_DEVICE_DESCRIPTOR, IOCTL_HID_GET_DEVICE_DESCRIPTOR control, IOCTL_HID_GET_DEVICE_DESCRIPTOR control code [Human Input Devices], hid.ioctl_hid_get_device_descriptor, hidioreq_4994292a-eb5e-4a7e-a1bf-b105836c3b59.xml, hidport/IOCTL_HID_GET_DEVICE_DESCRIPTOR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: hidport.h
 req.include-header: Hidport.h

@@ -6,11 +6,8 @@ description: The HidP_GetUsageValueArray routine extracts the data associated wi
 old-location: hid\hidp_getusagevaluearray.htm
 tech.root: hid
 ms.assetid: afc92692-c665-44a7-b268-d29adc42f5bd
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: HidP_GetUsageValueArray, HidP_GetUsageValueArray routine [Human Input Devices], hid.hidp_getusagevaluearray, hidfunc_4e641f34-d016-4b2f-b472-069334d3e461.xml, hidpi/HidP_GetUsageValueArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hidpi.h
 req.include-header: Hidpi.h
@@ -261,7 +258,7 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
  
 
  

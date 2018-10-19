@@ -6,11 +6,8 @@ description: This I/O control function returns the value of the specified proper
 old-location: pos\ioctl_point_of_service_get_property.htm
 tech.root: pos
 ms.assetid: 7d0231b3-4db7-47b3-8208-70d2cd337005
-ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: IOCTL_POINT_OF_SERVICE_GET_PROPERTY, IOCTL_POINT_OF_SERVICE_GET_PROPERTY control, IOCTL_POINT_OF_SERVICE_GET_PROPERTY control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_GET_PROPERTY, pos.ioctl_point_of_service_get_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h

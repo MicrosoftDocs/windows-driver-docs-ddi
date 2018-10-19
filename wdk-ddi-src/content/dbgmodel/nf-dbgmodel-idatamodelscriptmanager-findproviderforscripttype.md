@@ -2,10 +2,9 @@
 UID: NF:dbgmodel.IDataModelScriptManager.FindProviderForScriptType
 title: IDataModelScriptManager::FindProviderForScriptType
 author: windows-driver-content
-description: TBD
+description: The FindProviderForScriptExtension method searches the script manager for a provider which has claims to support a given file extension as indicated by the scriptExtension argument. 
 ms.assetid: e71aa49e-bb3d-4faf-a455-139888ff6e55
-ms.author: windowsdriverdev
-ms.date: 08/20/2018 
+ms.date: 08/20/2018
 ms.topic: method
 ms.keywords: IDataModelScriptManager::FindProviderForScriptType, FindProviderForScriptType, IDataModelScriptManager.FindProviderForScriptType, IDataModelScriptManager::FindProviderForScriptType, IDataModelScriptManager.FindProviderForScriptType
 req.header: dbgmodel.h
@@ -35,8 +34,6 @@ api_name:
 -	IDataModelScriptManager.FindProviderForScriptType
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

@@ -4,11 +4,8 @@ title: _DEBUG_TRANSPORT_DATA
 author: windows-driver-content
 description: Describes debug-transport specific data for use by the transport.
 ms.assetid: 6a091719-3ec5-41e4-be56-b93112daef19
-ms.author: windowsdriverdev
 ms.date: 09/30/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DEBUG_TRANSPORT_DATA, DEBUG_TRANSPORT_DATA, *PDEBUG_TRANSPORT_DATA, 
 req.header: ntddk.h
 req.include-header:

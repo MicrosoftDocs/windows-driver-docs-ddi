@@ -2,13 +2,10 @@
 UID: NN:dbgmodel.IDebugHostType2
 title: IDebugHostType2
 author: windows-driver-content
-description: TBD
+description: An (IDebugHostSymbol derived) interface to a particular type.
 ms.assetid: e0f687cc-99bd-4ea7-a809-81e46a0d4f0c
-ms.author: windowsdriverdev
 ms.date: 07/13/2018
 ms.topic: interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

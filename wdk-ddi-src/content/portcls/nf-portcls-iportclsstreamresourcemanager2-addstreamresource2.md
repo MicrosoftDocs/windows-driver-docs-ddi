@@ -6,11 +6,8 @@ description: AddStreamResource2 adds a stream resource. Two type of stream resou
 old-location: audio\iportclsstreamresourcemanager2_addstreamresource2.htm
 tech.root: audio
 ms.assetid: C140D11C-41D6-4812-AD95-990CBFA06FE8
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: AddStreamResource2, AddStreamResource2 method [Audio Devices], AddStreamResource2 method [Audio Devices],IPortClsStreamResourceManager2 interface, IPortClsStreamResourceManager2 interface [Audio Devices],AddStreamResource2 method, IPortClsStreamResourceManager2.AddStreamResource2, IPortClsStreamResourceManager2::AddStreamResource2, audio.iportclsstreamresourcemanager2_addstreamresource2, portcls/IPortClsStreamResourceManager2::AddStreamResource2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: Portcls.h

@@ -4,11 +4,8 @@ title: D3D12DDI_D3D12_OPTIONS_DATA_0054
 author: windows-driver-content
 description: 
 ms.assetid: fd226958-35db-40ce-802f-b44645905b62
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_D3D12_OPTIONS_DATA_0054, D3D12DDI_D3D12_OPTIONS_DATA_0054, 
 req.header: d3d12umddi.h
 req.include-header:

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Gets a random number that can be used to refresh the session key.
 old-location: display\startsessionkeyrefresh1.htm
 ms.assetid: 0973cef3-41a8-495e-aa8a-ce64df53b892
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_STARTSESSIONKEYREFRESH, PFND3D11_1DDI_STARTSESSIONKEYREFRESH callback, d3d10umddi/pfnStartSessionKeyRefresh, display.startsessionkeyrefresh1, pfnStartSessionKeyRefresh, pfnStartSessionKeyRefresh callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

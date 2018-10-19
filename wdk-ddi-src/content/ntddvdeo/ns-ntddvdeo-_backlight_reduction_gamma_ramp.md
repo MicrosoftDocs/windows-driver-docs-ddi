@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Contains a reduction gamma lookup table.
 tech.root: display
 ms.assetid: f6f14d80-4859-4179-8921-1b28c417c1e3
-ms.author: windowsdriverdev
-ms.date: 08/03/18
+ms.date: 08/03/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _BACKLIGHT_REDUCTION_GAMMA_RAMP, BACKLIGHT_REDUCTION_GAMMA_RAMP,
 req.header: ntddvdeo.h
 req.include-header:

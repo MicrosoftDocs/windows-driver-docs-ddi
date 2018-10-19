@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilphonebookadditionalnumberparammask.htm
 tech.root: netvista
 ms.assetid: e4cebb97-29e4-4979-9fdc-8120850d8a1e
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILPHONEBOOKADDITIONALNUMBERPARAMMASK, RILPHONEBOOKADDITIONALNUMBERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_PBAN_ALL, RIL_PARAM_PBAN_NUMID, netvista.rilphonebookadditionalnumberparammask, ntddrilapitypes/RILPHONEBOOKADDITIONALNUMBERPARAMMASK, ntddrilapitypes/RIL_PARAM_PBAN_ALL, ntddrilapitypes/RIL_PARAM_PBAN_NUMID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h

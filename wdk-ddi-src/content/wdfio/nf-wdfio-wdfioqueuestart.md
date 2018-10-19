@@ -6,11 +6,8 @@ description: The WdfIoQueueStart method enables an I/O queue to start receiving 
 old-location: wdf\wdfioqueuestart.htm
 tech.root: wdf
 ms.assetid: 1ce8a447-6205-44d0-b5d2-b78f01e15bb4
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_15829d65-ee6a-455d-a0c6-cf21f5426e31.xml, WdfIoQueueStart, WdfIoQueueStart method, kmdf.wdfioqueuestart, wdf.wdfioqueuestart, wdfio/WdfIoQueueStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfio.h
 req.include-header: Wdf.h
@@ -85,9 +82,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-If I/O requests are in the I/O queue when the driver calls <b>WdfIoQueueStart</b>, the same thread that calls <b>WdfIoQueueStart</b> can call the driver's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-handlers">request handlers</a> before <b>WdfIoQueueStart</b> returns. Therefore, when the driver calls <b>WdfIoQueueStart</b>, it must not hold any <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-framework-locks">locks</a> that the request handlers attempt to acquire. Otherwise, a deadlock can result.
+If I/O requests are in the I/O queue when the driver calls <b>WdfIoQueueStart</b>, the same thread that calls <b>WdfIoQueueStart</b> can call the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/request-handlers">request handlers</a> before <b>WdfIoQueueStart</b> returns. Therefore, when the driver calls <b>WdfIoQueueStart</b>, it must not hold any <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-framework-locks">locks</a> that the request handlers attempt to acquire. Otherwise, a deadlock can result.
 
-For more information about the <b>WdfIoQueueStart</b> method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>.
+For more information about the <b>WdfIoQueueStart</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>.
 
 
 #### Examples

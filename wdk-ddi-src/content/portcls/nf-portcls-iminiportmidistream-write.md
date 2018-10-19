@@ -6,11 +6,8 @@ description: The Write method writes data to an outgoing MIDI stream.
 old-location: audio\iminiportmidistream_write.htm
 tech.root: audio
 ms.assetid: 6ff4e4d7-3ba4-4e4b-98fa-62f269aee69f
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IMiniportMidiStream interface [Audio Devices],Write method, IMiniportMidiStream.Write, IMiniportMidiStream::Write, Write, Write method [Audio Devices], Write method [Audio Devices],IMiniportMidiStream interface, audio.iminiportmidistream_write, audmp-routines_523fd287-5380-4259-ba2c-4d9adef4fe4b.xml, portcls/IMiniportMidiStream::Write
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: Portcls.h

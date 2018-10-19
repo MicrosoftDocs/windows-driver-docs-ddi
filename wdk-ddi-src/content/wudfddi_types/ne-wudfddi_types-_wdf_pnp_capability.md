@@ -6,11 +6,8 @@ description: The WDF_PNP_CAPABILITY enumeration contains values that identify Pl
 old-location: wdf\wdf_pnp_capability.htm
 tech.root: wdf
 ms.assetid: adcc5f64-b49c-47ca-8ef9-276537a0d7c6
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WDF_PNP_CAPABILITY, WDF_PNP_CAPABILITY enumeration, WdfPnpCapDockDevice, WdfPnpCapEjectSupported, WdfPnpCapInvalid, WdfPnpCapLockSupported, WdfPnpCapMaximum, WdfPnpCapNoDisplayInUI, WdfPnpCapRemovable, WdfPnpCapSurpriseRemovalOk, _WDF_PNP_CAPABILITY, umdf.wdf_pnp_capability, umdfstructs_365aedf9-fb60-49db-8925-bc6cf0d9a9d6.xml, wdf.wdf_pnp_capability, wudfddi_types/WDF_PNP_CAPABILITY, wudfddi_types/WdfPnpCapDockDevice, wudfddi_types/WdfPnpCapEjectSupported, wudfddi_types/WdfPnpCapInvalid, wudfddi_types/WdfPnpCapLockSupported, wudfddi_types/WdfPnpCapMaximum, wudfddi_types/WdfPnpCapNoDisplayInUI, wudfddi_types/WdfPnpCapRemovable, wudfddi_types/WdfPnpCapSurpriseRemovalOk
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wudfddi_types.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames: WDF_PNP_CAPABILITY
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>WDF_PNP_CAPABILITY</b> enumeration contains values that identify Plug and Play (PnP) capabilities for a device.
 

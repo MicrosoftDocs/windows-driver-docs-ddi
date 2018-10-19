@@ -6,11 +6,8 @@ description: The KeReadStateEvent routine returns the current state, signaled or
 old-location: kernel\kereadstateevent.htm
 tech.root: kernel
 ms.assetid: c80e18db-332a-41d3-b761-46b94436742c
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeReadStateEvent, KeReadStateEvent routine [Kernel-Mode Driver Architecture], k105_f0b95771-5c9f-4573-8dc0-44b8f673b6d7.xml, kernel.kereadstateevent, wdm/KeReadStateEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Ntddk.h

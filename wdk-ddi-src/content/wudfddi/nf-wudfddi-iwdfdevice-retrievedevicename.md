@@ -6,11 +6,8 @@ description: The RetrieveDeviceName method retrieves the name of an underlying k
 old-location: wdf\iwdfdevice_retrievedevicename.htm
 tech.root: wdf
 ms.assetid: 75304f5d-8a07-4db5-9f20-5764ff5d2ef6
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFDevice interface,RetrieveDeviceName method, IWDFDevice.RetrieveDeviceName, IWDFDevice::RetrieveDeviceName, RetrieveDeviceName, RetrieveDeviceName method, RetrieveDeviceName method,IWDFDevice interface, UMDFDeviceObjectRef_6d24ee3e-719a-4408-90ea-89cc9315b8cb.xml, umdf.iwdfdevice_retrievedevicename, wdf.iwdfdevice_retrievedevicename, wudfddi/IWDFDevice::RetrieveDeviceName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>RetrieveDeviceName</b> method retrieves the name of an underlying kernel-mode device.
 

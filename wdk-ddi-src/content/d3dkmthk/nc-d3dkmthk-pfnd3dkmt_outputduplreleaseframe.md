@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Indicates that the driver has finished processing the duplicated desktop image.
 old-location: display\d3dkmtoutputduplreleaseframe.htm
 ms.assetid: 07bbc201-0320-4f26-be0a-27c06763813f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTOutputDuplReleaseFrame, D3DKMTOutputDuplReleaseFrame callback function [Display Devices], PFND3DKMT_OUTPUTDUPLRELEASEFRAME, PFND3DKMT_OUTPUTDUPLRELEASEFRAME callback, d3dkmthk/D3DKMTOutputDuplReleaseFrame, display.d3dkmtoutputduplreleaseframe
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

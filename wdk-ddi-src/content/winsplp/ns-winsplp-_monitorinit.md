@@ -6,11 +6,8 @@ description: The MONITORINIT structure is used as an input parameter to a print 
 old-location: print\monitorinit.htm
 tech.root: print
 ms.assetid: 3445997f-a607-4071-b05e-c1a8d01892b2
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PMONITORINIT, MONITORINIT, MONITORINIT structure [Print Devices], PMONITORINIT, PMONITORINIT structure pointer [Print Devices], _MONITORINIT, print.monitorinit, spoolfnc_321f67a1-b279-4909-af99-d3e564bf3555.xml, winsplp/MONITORINIT, winsplp/PMONITORINIT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winsplp.h
 req.include-header: Winsplp.h

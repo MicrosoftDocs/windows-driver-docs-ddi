@@ -6,11 +6,8 @@ description: The Bluetooth SdpCreateNodeInt16 function is used to allocate and i
 old-location: bltooth\sdpcreatenodeint16.htm
 tech.root: bltooth
 ms.assetid: d36d9ac5-1bb8-4433-b795-fe8e3391980e
-ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: SdpCreateNodeInt16, SdpCreateNodeInt16 function [Bluetooth Devices], bltooth.sdpcreatenodeint16, bth_funcs_7ca1636f-a86f-4938-8483-461e48b13abb.xml, sdplib/SdpCreateNodeInt16
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sdplib.h
 req.include-header: BthSdpddi.h

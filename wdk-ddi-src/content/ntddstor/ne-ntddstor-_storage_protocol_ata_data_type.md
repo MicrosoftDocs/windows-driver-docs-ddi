@@ -6,11 +6,8 @@ description: The ATA protocol data type.
 old-location: storage\storage_protocol_ata_data_type.htm
 tech.root: storage
 ms.assetid: 4B42E143-17F5-4841-A9EA-C225B167E242
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSTORAGE_PROTOCOL_ATA_DATA_TYPE, AtaDataTypeIdentify, AtaDataTypeLogPage, AtaDataTypeUnknown, PSTORAGE_PROTOCOL_ATA_DATA_TYPE, PSTORAGE_PROTOCOL_ATA_DATA_TYPE enumeration pointer [Storage Devices], STORAGE_PROTOCOL_ATA_DATA_TYPE, STORAGE_PROTOCOL_ATA_DATA_TYPE enumeration [Storage Devices], _STORAGE_PROTOCOL_ATA_DATA_TYPE, ntddstor/AtaDataTypeIdentify, ntddstor/AtaDataTypeLogPage, ntddstor/AtaDataTypeUnknown, ntddstor/PSTORAGE_PROTOCOL_ATA_DATA_TYPE, ntddstor/STORAGE_PROTOCOL_ATA_DATA_TYPE, storage.storage_protocol_ata_data_type"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddstor.h
 req.include-header: 
@@ -51,7 +48,7 @@ req.typenames: STORAGE_PROTOCOL_ATA_DATA_TYPE, *PSTORAGE_PROTOCOL_ATA_DATA_TYPE
 
 
 The ATA protocol data type.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -enum-fields
 

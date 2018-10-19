@@ -6,11 +6,8 @@ description: The TRANSDATA structure is one of the structures used to define the
 old-location: print\transdata.htm
 tech.root: print
 ms.assetid: 75ddf007-0113-4967-a8d4-02fcc3cc2857
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PTRANSDATA, PTRANSDATA, PTRANSDATA structure pointer [Print Devices], TRANSDATA, TRANSDATA structure [Print Devices], _TRANSDATA, print.transdata, print_unidrv-pscript_fonts_e41871c1-fc38-460e-b9e7-1df0564933e1.xml, prntfont/PTRANSDATA, prntfont/TRANSDATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: prntfont.h
 req.include-header: Prntfont.h

@@ -6,11 +6,8 @@ description: The WDF_READ_PORT_BUFFER_ULONG function reads a number of ULONG val
 old-location: wdf\wdf_read_port_buffer_ulong.htm
 tech.root: wdf
 ms.assetid: 4ED85628-E5EA-4D51-97B0-383C606CCC42
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WDF_READ_PORT_BUFFER_ULONG, WDF_READ_PORT_BUFFER_ULONG function, wdf.wdf_read_port_buffer_ulong, wdfhwaccess/WDF_READ_PORT_BUFFER_ULONG
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfhwaccess.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The OutputTextReplacements method prints all the currently defined 
 old-location: debugger\outputtextreplacements.htm
 tech.root: debugger
 ms.assetid: ea01fa02-8f4b-45c3-9690-30c8a1e6b4e5
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugControl2 interface [Windows Debugging],OutputTextReplacements method, IDebugControl2.OutputTextReplacements, IDebugControl2::OutputTextReplacements, IDebugControl3 interface [Windows Debugging],OutputTextReplacements method, IDebugControl3::OutputTextReplacements, IDebugControl_57964e7b-e11a-446f-afab-7d3326fab695.xml, OutputTextReplacements, OutputTextReplacements method [Windows Debugging], OutputTextReplacements method [Windows Debugging],IDebugControl2 interface, OutputTextReplacements method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::OutputTextReplacements, dbgeng/IDebugControl3::OutputTextReplacements, debugger.outputtextreplacements
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

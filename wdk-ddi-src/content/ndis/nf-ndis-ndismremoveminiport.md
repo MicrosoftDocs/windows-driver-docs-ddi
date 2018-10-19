@@ -6,11 +6,8 @@ description: The NdisMRemoveMiniport function removes the specified miniport dri
 old-location: netvista\ndismremoveminiport.htm
 tech.root: netvista
 ms.assetid: 70745b03-f9a3-4398-b41a-dc75bd16ffe0
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMRemoveMiniport, NdisMRemoveMiniport function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_54f3a264-7933-4dca-86f4-42652abe9a9a.xml, ndis/NdisMRemoveMiniport, netvista.ndismremoveminiport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

@@ -4,11 +4,8 @@ title: DXGKCB_FREEPAGESFROMMDL
 author: windows-driver-content
 description: Implemented by the client driver to frees all the physical pages that are described by an MDL and was created by the DXGKCB_ALLOCATEPAGESFORMDL routine.
 ms.assetid: 8d18ed12-1cbd-4908-ba06-d87e83fc175d
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to frees all the physical pages that are descri
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKCB_FREEPAGESFROMMDL DxgkcbFreepagesfrommdl;

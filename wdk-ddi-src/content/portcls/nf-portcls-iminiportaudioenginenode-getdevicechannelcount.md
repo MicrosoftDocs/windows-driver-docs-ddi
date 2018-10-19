@@ -6,11 +6,8 @@ description: Gets a count of the number of channels supported by the audio devic
 old-location: audio\iminiportaudioenginenode_getdevicechannelcount.htm
 tech.root: audio
 ms.assetid: 978193AE-55CD-4255-8722-A1E008E98F08
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: GetDeviceChannelCount, GetDeviceChannelCount method [Audio Devices], GetDeviceChannelCount method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetDeviceChannelCount method, IMiniportAudioEngineNode.GetDeviceChannelCount, IMiniportAudioEngineNode::GetDeviceChannelCount, audio.iminiportaudioenginenode_getdevicechannelcount, portcls/IMiniportAudioEngineNode::GetDeviceChannelCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: 

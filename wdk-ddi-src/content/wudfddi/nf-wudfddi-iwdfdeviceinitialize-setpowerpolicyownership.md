@@ -6,11 +6,8 @@ description: The SetPowerPolicyOwnership method sets the ownership of the power 
 old-location: wdf\iwdfdeviceinitialize_setpowerpolicyownership.htm
 tech.root: wdf
 ms.assetid: 18b0b277-97c8-4aff-9f09-34822ce84290
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFDeviceInitialize interface,SetPowerPolicyOwnership method, IWDFDeviceInitialize.SetPowerPolicyOwnership, IWDFDeviceInitialize::SetPowerPolicyOwnership, SetPowerPolicyOwnership, SetPowerPolicyOwnership method, SetPowerPolicyOwnership method,IWDFDeviceInitialize interface, UMDFDeviceObjectRef_849680d0-e616-4862-9c59-50150f6c15f0.xml, umdf.iwdfdeviceinitialize_setpowerpolicyownership, wdf.iwdfdeviceinitialize_setpowerpolicyownership, wudfddi/IWDFDeviceInitialize::SetPowerPolicyOwnership
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>SetPowerPolicyOwnership</b> method sets the ownership of the power policy to a driver or removes ownership from the driver.
 
@@ -80,7 +77,7 @@ None
 
 By default, UMDF drivers are not registered as power-policy owners for their device stack. To register itself as the power-policy owner for its device stack, a UMDF driver must explicitly call <b>SetPowerPolicyOwnership</b> and pass <b>TRUE</b> to the <i>fTrue</i> parameter in this call.
 
-For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/power-policy-ownership-in-umdf">Power Policy Ownership in UMDF</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/power-policy-ownership-in-umdf">Power Policy Ownership in UMDF</a>.
 
 
 #### Examples

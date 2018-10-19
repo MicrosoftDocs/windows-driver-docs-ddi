@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDynamicKeyProviderConcept.SetKey
 title: IDynamicKeyProviderConcept::SetKey
 author: windows-driver-content
-description: TBD
+description: The SetKey method on a dynamic key provider is effectively an override of the SetKey method on IModelObject.
 ms.assetid: 8ab2d7b7-8e07-45d8-9de1-e04de3c0f448
-ms.author: windowsdriverdev
 ms.date: 09/19/2018
 ms.topic: method
 ms.keywords: IDynamicKeyProviderConcept::SetKey, SetKey, IDynamicKeyProviderConcept.SetKey, IDynamicKeyProviderConcept::SetKey, IDynamicKeyProviderConcept.SetKey
@@ -35,8 +34,6 @@ api_name:
 -	IDynamicKeyProviderConcept.SetKey
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

@@ -6,11 +6,8 @@ description: The StorPortAllocatePool routine allocates a block of non-contiguou
 old-location: storage\storportallocatepool.htm
 tech.root: storage
 ms.assetid: e6823b9c-9717-49ab-8e67-c1d522774826
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortAllocatePool, StorPortAllocatePool routine [Storage Devices], storage.storportallocatepool, storport/StorPortAllocatePool, storprt_4ede181d-6ccf-47af-974d-b0daaa6e723a.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

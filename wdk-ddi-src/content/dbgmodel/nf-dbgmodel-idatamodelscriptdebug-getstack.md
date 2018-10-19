@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDataModelScriptDebug.GetStack
 title: IDataModelScriptDebug::GetStack
 author: windows-driver-content
-description: TBD
+description: The GetStack method gets the current call stack at the break position.
 ms.assetid: 7de93afc-3f25-45be-9733-e6cd3c87ed00
-ms.author: windowsdriverdev
 ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebug::GetStack, GetStack, IDataModelScriptDebug.GetStack, IDataModelScriptDebug::GetStack, IDataModelScriptDebug.GetStack
@@ -35,8 +34,6 @@ api_name:
 -	IDataModelScriptDebug.GetStack
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

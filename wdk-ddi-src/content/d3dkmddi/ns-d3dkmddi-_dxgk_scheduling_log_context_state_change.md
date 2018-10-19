@@ -4,11 +4,8 @@ title: _DXGK_SCHEDULING_LOG_CONTEXT_STATE_CHANGE
 author: windows-driver-content
 description: Contains information about the scheduling log context state change event.
 ms.assetid: 6d064011-3001-470e-aaec-41c2a33ce6bc
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGK_SCHEDULING_LOG_CONTEXT_STATE_CHANGE, DXGK_SCHEDULING_LOG_CONTEXT_STATE_CHANGE,
 req.header: d3dkmddi.h
 req.include-header:

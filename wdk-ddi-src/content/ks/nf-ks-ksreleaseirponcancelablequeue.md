@@ -6,11 +6,8 @@ description: The KsReleaseIrpOnCancelableQueue function releases an acquired IRP
 old-location: stream\ksreleaseirponcancelablequeue.htm
 tech.root: stream
 ms.assetid: 797e0821-2354-4dd5-b2ee-428d654feb40
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsReleaseIrpOnCancelableQueue, KsReleaseIrpOnCancelableQueue function [Streaming Media Devices], ks/KsReleaseIrpOnCancelableQueue, ksfunc_90599c85-7874-4eca-9177-45dcacbeacc7.xml, stream.ksreleaseirponcancelablequeue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

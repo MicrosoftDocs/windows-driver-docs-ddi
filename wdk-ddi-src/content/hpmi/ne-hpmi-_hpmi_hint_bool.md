@@ -6,11 +6,8 @@ description: Boolean type value used to track availability of HPMI hint data.
 old-location: powermeter\hpmi_hint_bool.htm
 tech.root: powermeter
 ms.assetid: E056400C-A0FE-4740-945D-C529C8804DF3
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: "*PHPMI_HINT_BOOL, HPMI_HINT_BOOL, HPMI_HINT_BOOL enumeration [Power Metering and Budgeting Devices], HpmiBoolFalse, HpmiBoolMax, HpmiBoolTrue, HpmiBoolUnavailable, _HPMI_HINT_BOOL, hpmi/HPMI_HINT_BOOL, hpmi/HpmiBoolFalse, hpmi/HpmiBoolMax, hpmi/HpmiBoolTrue, hpmi/HpmiBoolUnavailable, powermeter.hpmi_hint_bool"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: hpmi.h
 req.include-header: Hpmi.h

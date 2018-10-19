@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDataModelConcept.QueryInterface
 title: IDataModelConcept::QueryInterface
 author: windows-driver-content
-description: TBD
+description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: 932cbd0c-97e5-4cf1-8f6c-2dc0f6893d4a
-ms.author: windowsdriverdev
 ms.date: 09/11/2018
 ms.topic: method
 ms.keywords: IDataModelConcept::QueryInterface, QueryInterface, IDataModelConcept.QueryInterface, IDataModelConcept::QueryInterface, IDataModelConcept.QueryInterface

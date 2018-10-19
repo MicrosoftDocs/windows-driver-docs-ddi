@@ -6,11 +6,8 @@ description: The ReadControlSpace64 function reads the processor-specific contro
 old-location: debugger\readcontrolspace64.htm
 tech.root: debugger
 ms.assetid: 4fa3d51a-d2f5-4b5f-abc0-515bf7211b87
-ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 02/27/2018
 ms.keywords: "*PREADCONTROLSPACE64, READCONTROLSPACE64, ReadControlSpace64, ReadControlSpace64 function [Windows Debugging], WdbgExts_Ref_3327dad4-903c-4285-b3cc-fe408d15f129.xml, _READCONTROLSPACE64, debugger.readcontrolspace64, wdbgexts/ReadControlSpace64"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h

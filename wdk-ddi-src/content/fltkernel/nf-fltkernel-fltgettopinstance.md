@@ -6,11 +6,8 @@ description: The FltGetTopInstance routine returns an opaque instance pointer fo
 old-location: ifsk\fltgettopinstance.htm
 tech.root: ifsk
 ms.assetid: 5c805b9d-0b9a-4fbb-8b96-3ac11a6e4898
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_3f4205c4-12aa-43d4-b67f-258665d81164.xml, FltGetTopInstance, FltGetTopInstance routine [Installable File System Drivers], fltkernel/FltGetTopInstance, ifsk.fltgettopinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

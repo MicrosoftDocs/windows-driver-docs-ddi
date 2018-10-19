@@ -6,11 +6,8 @@ description: Gets the value of the specified system environment variables using 
 old-location: kernel\ioctl_ioctl_sysenv_get_variable.htm
 tech.root: kernel
 ms.assetid: B6249E4B-DF79-4B74-AE52-137FEF299169
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IOCTL_SYSENV_GET_VARIABLE, IOCTL_SYSENV_GET_VARIABLE control, IOCTL_SYSENV_GET_VARIABLE control code [Kernel-Mode Driver Architecture], kernel.ioctl_ioctl_sysenv_get_variable, ntddsysenv/IOCTL_SYSENV_GET_VARIABLE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddsysenv.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The wiasFormatArgs function formats an argument list into a package
 old-location: image\wiasformatargs.htm
 tech.root: image
 ms.assetid: 409c4ff6-3a0e-408a-879d-2875ac245fb8
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiasformatargs, wiamdef/wiasFormatArgs, wiasFncs_c4e9a1bd-3760-47fb-b828-1f0c521717c5.xml, wiasFormatArgs, wiasFormatArgs function [Imaging Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiamdef.h
 req.include-header: Wiamdef.h

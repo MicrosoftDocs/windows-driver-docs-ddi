@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDebugHostType.GetArrayDimensions
 title: IDebugHostType::GetArrayDimensions
 author: windows-driver-content
-description: TBD
+description: The GetArrayDimensions method returns a set of descriptors, one for each dimension of the array as indicated by the GetArrayDimensionality method.
 ms.assetid: a5950b75-3dea-4076-bcff-71d530899c98
-ms.author: windowsdriverdev
 ms.date: 09/07/2018
 ms.topic: method
 ms.keywords: IDebugHostType::GetArrayDimensions, GetArrayDimensions, IDebugHostType.GetArrayDimensions, IDebugHostType::GetArrayDimensions, IDebugHostType.GetArrayDimensions
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostType.GetArrayDimensions
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

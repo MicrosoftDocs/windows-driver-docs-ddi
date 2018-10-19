@@ -4,11 +4,8 @@ title: DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION_3
 author: windows-driver-content
 description: Implemented by the client driver to set the level of optimization used to control the brightness of a panel.
 ms.assetid: 07bffb8b-08d5-4f24-bdf3-c3a4648e8724
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dispmprt.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Implemented by the client driver to set the level of optimization used to contro
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION_3 DxgkBrightnessSetBacklightOptimization3;

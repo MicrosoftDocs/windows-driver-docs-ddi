@@ -2,10 +2,9 @@
 UID: NF:dbgmodel.IDebugHostModule.FindSymbolByRVA
 title: IDebugHostModule::FindSymbolByRVA
 author: windows-driver-content
-description: TBD
+description: The FindSymbolByRVA method will find a single matching symbol at the given relative virtual address within the module. 
 ms.assetid: 9800dc7c-070e-471c-80e3-1421550dda5c
-ms.author: windowsdriverdev
-ms.date: 09/18/2018 
+ms.date: 09/18/2018
 ms.topic: method
 ms.keywords: IDebugHostModule::FindSymbolByRVA, FindSymbolByRVA, IDebugHostModule.FindSymbolByRVA, IDebugHostModule::FindSymbolByRVA, IDebugHostModule.FindSymbolByRVA
 req.header: dbgmodel.h
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostModule.FindSymbolByRVA
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

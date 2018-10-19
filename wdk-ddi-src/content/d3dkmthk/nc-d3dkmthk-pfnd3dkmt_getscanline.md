@@ -4,11 +4,8 @@ title: PFND3DKMT_GETSCANLINE
 author: windows-driver-content
 description: Pfnd3dkmtGetscanline determines whether the given video present source of a video present network (VidPN) is in vertical blanking mode and retrieves the current scan line.
 ms.assetid: 05015761-1078-47c8-8e4b-deb02a999e6f
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Pfnd3dkmtGetscanline determines whether the given video present source of a vide
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_GETSCANLINE Pfnd3dkmtGetscanline; 

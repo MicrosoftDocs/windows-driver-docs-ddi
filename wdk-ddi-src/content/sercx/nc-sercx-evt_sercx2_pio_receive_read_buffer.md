@@ -6,11 +6,8 @@ description: The EvtSerCx2PioReceiveReadBuffer event callback function is called
 old-location: serports\evtsercx2pioreceivereadbuffer.htm
 tech.root: serports
 ms.assetid: B69A128A-B1B0-47BC-9783-32780FC9C447
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2PioReceiveReadBuffer, EVT_SERCX2_PIO_RECEIVE_READ_BUFFER, EVT_SERCX2_PIO_RECEIVE_READ_BUFFER callback, EvtSerCx2PioReceiveReadBuffer, EvtSerCx2PioReceiveReadBuffer callback function [Serial Ports], serports.evtsercx2pioreceivereadbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sercx.h
 req.include-header: 
@@ -60,7 +57,7 @@ The <i>EvtSerCx2PioReceiveReadBuffer</i> event callback function is called by ve
 
 ### -param PioReceive [in]
 
-A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a> handle to a PIO-receive object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265264">SerCx2PioReceiveCreate</a> method to create this object.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a> handle to a PIO-receive object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265264">SerCx2PioReceiveCreate</a> method to create this object.
 
 
 ### -param Buffer [out]
@@ -164,7 +161,7 @@ The <b>EVT_SERCX2_PIO_RECEIVE_READ_BUFFER</b> function type is defined in the Se
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
 
 
 

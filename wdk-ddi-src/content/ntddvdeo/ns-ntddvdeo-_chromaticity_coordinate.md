@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Contains CIE 1931 chromaticity coordinates from a color sensor.
 tech.root: display
 ms.assetid: 8c0d0af8-0733-4178-99db-82a9dc8db0ee
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _CHROMATICITY_COORDINATE, CHROMATICITY_COORDINATE,
 req.header: ntddvdeo.h
 req.include-header:

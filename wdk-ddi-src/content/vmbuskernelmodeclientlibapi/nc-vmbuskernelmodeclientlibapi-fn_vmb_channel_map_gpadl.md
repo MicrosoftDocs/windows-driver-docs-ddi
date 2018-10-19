@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbChannelMapGpadl function maps a client-side buffer into server-side physical address space by using a Guest Physical Address Descriptor List (GPADL) number.
 tech.root: netvista
 ms.assetid: b71b9fbe-ab6c-41a6-8288-b98ebfc240dc
-ms.author: windowsdriverdev
 ms.date: 05/21/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:
@@ -50,7 +47,7 @@ The <b>VmbChannelMapGpadl</b>  function maps a client-side buffer into server-si
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_MAP_GPADL FnVmbChannelMapGpadl; 

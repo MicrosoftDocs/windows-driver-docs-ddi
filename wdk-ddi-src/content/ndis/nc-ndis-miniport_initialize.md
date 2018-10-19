@@ -6,11 +6,8 @@ description: NDIS calls a miniport driver's MiniportInitializeEx function to ini
 old-location: netvista\miniportinitializeex.htm
 tech.root: netvista
 ms.assetid: b146fa81-005b-4a6c-962d-4cb023ea790e
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_INITIALIZE, MINIPORT_INITIALIZE callback, MiniportInitializeEx, MiniportInitializeEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_d98605bf-4032-4cfe-8529-2d0bebc9e29e.xml, ndis/MiniportInitializeEx, netvista.miniportinitializeex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -165,7 +162,7 @@ NDIS calls
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. NDIS can call 
     <i>MiniportInitializeEx</i> after 
     <b>DriverEntry</b> returns. For more information, see 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548818">DriverEntry of NDIS
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff548818">DriverEntry of NDIS
     Miniport Drivers</a>.
 
 For NDIS intermediate drivers, NDIS can call 

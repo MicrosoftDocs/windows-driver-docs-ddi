@@ -1,5 +1,0 @@
-# [Installable file system](../_ifsk/index.md)
-## [Rxtimer.h](index.md)
-### [RxCancelTimerRequest function](../rxtimer/nf-rxtimer-rxcanceltimerrequest.md)
-### [RxPostOneShotTimerRequest function](../rxtimer/nf-rxtimer-rxpostoneshottimerrequest.md)
-### [RxPostRecurrentTimerRequest function](../rxtimer/nf-rxtimer-rxpostrecurrenttimerrequest.md)

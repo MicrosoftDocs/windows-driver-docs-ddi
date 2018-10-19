@@ -6,11 +6,8 @@ description: The AssembleWide method assembles a single processor instruction. T
 old-location: debugger\assemblewide.htm
 tech.root: debugger
 ms.assetid: 6ba291d7-c3e7-4f76-afc3-bf200bae2a8f
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: AssembleWide, AssembleWide method [Windows Debugging], AssembleWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],AssembleWide method, IDebugControl4.AssembleWide, IDebugControl4::AssembleWide, dbgeng/IDebugControl4::AssembleWide, debugger.assemblewide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

@@ -6,11 +6,8 @@ description: The FltGetTunneledName routine retrieves the tunneled name for a fi
 old-location: ifsk\fltgettunneledname.htm
 tech.root: ifsk
 ms.assetid: 760ee574-5ca5-4db1-8b47-009a12398076
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_5a952e3d-25d1-48e7-b91b-9891a446d53b.xml, FltGetTunneledName, FltGetTunneledName routine [Installable File System Drivers], fltkernel/FltGetTunneledName, ifsk.fltgettunneledname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

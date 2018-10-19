@@ -6,11 +6,8 @@ description: The D3DDDIARG_UPDATEOVERLAY structure describes an overlay to modif
 old-location: display\d3dddiarg_updateoverlay.htm
 tech.root: display
 ms.assetid: e49f48fd-f2e8-4ccc-813f-f624e06ab365
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_UPDATEOVERLAY, D3DDDIARG_UPDATEOVERLAY structure [Display Devices], UMDisplayDriver_param_Structs_6c415566-a5f5-4efc-820b-7eb466b59149.xml, _D3DDDIARG_UPDATEOVERLAY, d3dumddi/D3DDDIARG_UPDATEOVERLAY, display.d3dddiarg_updateoverlay
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

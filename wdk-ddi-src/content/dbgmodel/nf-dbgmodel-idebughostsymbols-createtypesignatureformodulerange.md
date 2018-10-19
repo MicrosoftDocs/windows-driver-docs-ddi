@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDebugHostSymbols.CreateTypeSignatureForModuleRange
 title: IDebugHostSymbols::CreateTypeSignatureForModuleRange
 author: windows-driver-content
-description: TBD
+description: The CreateTypeSignatureForModuleRange method creates a signature which can be used to match a set of concrete types by module signature and type name. 
 ms.assetid: fee485a1-0e7b-4af3-9a2c-b241c59fec5e
-ms.author: windowsdriverdev
 ms.date: 08/22/2018
 ms.topic: method
 ms.keywords: IDebugHostSymbols::CreateTypeSignatureForModuleRange, CreateTypeSignatureForModuleRange, IDebugHostSymbols.CreateTypeSignatureForModuleRange, IDebugHostSymbols::CreateTypeSignatureForModuleRange, IDebugHostSymbols.CreateTypeSignatureForModuleRange
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostSymbols.CreateTypeSignatureForModuleRange
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

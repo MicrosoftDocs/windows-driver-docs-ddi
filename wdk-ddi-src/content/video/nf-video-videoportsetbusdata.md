@@ -6,11 +6,8 @@ description: The VideoPortSetBusData function sets bus-configuration data for an
 old-location: display\videoportsetbusdata.htm
 tech.root: display
 ms.assetid: 2a9ce391-718e-4be0-9699-7612b63d31f0
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortSetBusData, VideoPortSetBusData function [Display Devices], VideoPort_Functions_e7db4c76-eae1-4e06-9969-1e2b8fc71faf.xml, display.videoportsetbusdata, video/VideoPortSetBusData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: video.h
 req.include-header: Video.h

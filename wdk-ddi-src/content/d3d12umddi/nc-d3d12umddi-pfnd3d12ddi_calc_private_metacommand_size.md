@@ -4,11 +4,8 @@ title: PFND3D12DDI_CALC_PRIVATE_METACOMMAND_SIZE
 author: windows-driver-content
 description: Calculates the private meta-command size.
 ms.assetid: e1f4ad6e-a3a3-4145-9742-4b155b4d979c
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Calculates the private meta-command size.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALC_PRIVATE_METACOMMAND_SIZE Pfnd3d12ddiCalcPrivateMetacommandSize;

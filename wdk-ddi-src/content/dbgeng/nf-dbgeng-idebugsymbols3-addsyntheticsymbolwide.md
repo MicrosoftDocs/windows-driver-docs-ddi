@@ -6,11 +6,8 @@ description: The AddSyntheticSymbolWide method adds a synthetic symbol to a modu
 old-location: debugger\addsyntheticsymbolwide.htm
 tech.root: debugger
 ms.assetid: 06d4d1f1-8d28-46cc-8c80-8a67cf4ae4c3
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: AddSyntheticSymbolWide, AddSyntheticSymbolWide method [Windows Debugging], AddSyntheticSymbolWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],AddSyntheticSymbolWide method, IDebugSymbols3.AddSyntheticSymbolWide, IDebugSymbols3::AddSyntheticSymbolWide, dbgeng/IDebugSymbols3::AddSyntheticSymbolWide, debugger.addsyntheticsymbolwide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

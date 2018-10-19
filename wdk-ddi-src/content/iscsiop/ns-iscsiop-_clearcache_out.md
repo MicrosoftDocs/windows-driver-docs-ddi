@@ -6,11 +6,8 @@ description: The ClearCache_OUT structure holds the output data for the ClearCac
 old-location: storage\clearcache_out.htm
 tech.root: storage
 ms.assetid: ab97d0b0-00fc-499c-9b1b-83731fe8e935
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PClearCache_OUT, ClearCache_OUT, ClearCache_OUT structure [Storage Devices], PClearCache_OUT, PClearCache_OUT structure pointer [Storage Devices], _ClearCache_OUT, iscsiop/ClearCache_OUT, iscsiop/PClearCache_OUT, storage.clearcache_out, structs-iSCSI_e96c134a-dfb1-474a-b730-1fb6e8d8f86f.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iscsiop.h
 req.include-header: Iscsiop.h

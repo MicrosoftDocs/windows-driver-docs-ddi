@@ -4,11 +4,8 @@ title: PFND3D12DDI_GET_DEBUG_ALLOCATION_INFO_0014
 author: windows-driver-content
 description: Returns the associated kernel mode allocation handles and GPU Virtual Address ranges.
 ms.assetid: d659c1b0-dc55-4ebd-aaa1-8f86c9619657
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Returns the associated kernel mode allocation handles and GPU Virtual Address ra
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_GET_DEBUG_ALLOCATION_INFO_0014 Pfnd3d12ddiGetDebugAllocationInfo0014; 

@@ -6,11 +6,8 @@ description: The WdfUsbTargetDeviceGetInterface method returns a handle to the f
 old-location: wdf\wdfusbtargetdevicegetinterface.htm
 tech.root: wdf
 ms.assetid: 2c7d31a3-081a-420a-ab61-33700155d858
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_b2c7b272-fe4a-4422-9e98-e756cdf3f264.xml, WdfUsbTargetDeviceGetInterface, WdfUsbTargetDeviceGetInterface method, kmdf.wdfusbtargetdevicegetinterface, wdf.wdfusbtargetdevicegetinterface, wdfusb/WdfUsbTargetDeviceGetInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

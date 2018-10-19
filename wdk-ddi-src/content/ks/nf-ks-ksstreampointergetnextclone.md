@@ -6,11 +6,8 @@ description: The KsStreamPointerGetNextClone function returns the clone stream p
 old-location: stream\ksstreampointergetnextclone.htm
 tech.root: stream
 ms.assetid: b7f34d42-6044-43c6-85c8-ca3a6177c057
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsStreamPointerGetNextClone, KsStreamPointerGetNextClone function [Streaming Media Devices], avfunc_946c362b-9246-4d06-afce-e4597a16a91b.xml, ks/KsStreamPointerGetNextClone, stream.ksstreampointergetnextclone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

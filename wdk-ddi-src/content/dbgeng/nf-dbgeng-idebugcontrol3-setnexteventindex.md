@@ -6,11 +6,8 @@ description: The SetNextEventIndex method sets the next event for the current ta
 old-location: debugger\setnexteventindex.htm
 tech.root: debugger
 ms.assetid: fbff721a-fdd9-4343-b9a9-92f41fb21ba2
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugControl3 interface [Windows Debugging],SetNextEventIndex method, IDebugControl3.SetNextEventIndex, IDebugControl3::SetNextEventIndex, IDebugControl_9a902b9c-c621-4d71-bae7-d3fd288b1cd8.xml, SetNextEventIndex, SetNextEventIndex method [Windows Debugging], SetNextEventIndex method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl3::SetNextEventIndex, debugger.setnexteventindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

@@ -4,11 +4,8 @@ title: *PFN_SENSORSCXSENSORINITIALIZE
 author: windows-driver-content
 description: Sets the enumeration properties of a sensor.
 ms.assetid: 43a6c35f-14ef-422d-a5f4-3fd318571a0d
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: sensorscx.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Sets the enumeration properties of a sensor.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 *PFN_SENSORSCXSENSORINITIALIZE *PfnSensorscxsensorinitialize; 

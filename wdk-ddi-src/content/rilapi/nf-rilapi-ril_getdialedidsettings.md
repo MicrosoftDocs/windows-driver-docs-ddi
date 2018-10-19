@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_getdialedidsettings.htm
 tech.root: netvista
 ms.assetid: 088fd502-a209-4fec-bec0-9f47f61022ee
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_GetDialedIdSettings, RIL_GetDialedIdSettings method [Network Drivers Starting with Windows Vista], netvista.ril_getdialedidsettings, rilapi/RIL_GetDialedIdSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rilapi.h
 req.include-header: 

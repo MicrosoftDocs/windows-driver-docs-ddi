@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDataModelManager.AddRef
 title: IDataModelManager::AddRef
 author: windows-driver-content
-description: TBD
+description: Increments the reference count for an interface on an object.
 ms.assetid: 99772ad4-1a6d-4611-81c9-c83ce12d3d30
-ms.author: windowsdriverdev
 ms.date: 07/20/2018
 ms.topic: method
 ms.keywords: IDataModelManager::AddRef, AddRef, IDataModelManager.AddRef, IDataModelManager::AddRef, IDataModelManager.AddRef

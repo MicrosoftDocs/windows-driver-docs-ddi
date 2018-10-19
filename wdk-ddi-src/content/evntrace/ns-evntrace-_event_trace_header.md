@@ -6,11 +6,8 @@ description: The EVENT_TRACE_HEADER structure is used to pass a WMI event to the
 old-location: kernel\event_trace_header.htm
 tech.root: kernel
 ms.assetid: faddcf82-1025-458f-ab33-c96cd5699ca5
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 03/28/2018
 ms.keywords: "*PEVENT_TRACE_HEADER, EVENT_TRACE_HEADER, EVENT_TRACE_HEADER structure [Kernel-Mode Driver Architecture], PEVENT_TRACE_HEADER, PEVENT_TRACE_HEADER structure pointer [Kernel-Mode Driver Architecture], _EVENT_TRACE_HEADER, evntrace/EVENT_TRACE_HEADER, evntrace/PEVENT_TRACE_HEADER, kernel.event_trace_header, kstruct_a_9a7cc863-6913-427c-8756-4c62c20f5b60.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: evntrace.h
 req.include-header: Wdm.h, Ntddk.h

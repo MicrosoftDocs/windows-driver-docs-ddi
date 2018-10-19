@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Used to update the context state.
 old-location: display\dxgkarg_updatehwcontextstate.htm
 ms.assetid: 39BF7EBF-DD13-41F0-9F54-78E5D82CAB4F
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKARG_UPDATEHWCONTEXTSTATE, DXGKARG_UPDATEHWCONTEXTSTATE structure [Display Devices], _DXGKARG_UPDATEHWCONTEXTSTATE, d3dkmddi/DXGKARG_UPDATEHWCONTEXTSTATE, display.dxgkarg_updatehwcontextstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmddi.h
 req.include-header: 

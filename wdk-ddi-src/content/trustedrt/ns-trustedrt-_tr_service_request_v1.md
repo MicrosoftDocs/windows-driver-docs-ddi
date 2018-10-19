@@ -4,11 +4,8 @@ title: _TR_SERVICE_REQUEST_V1
 author: windows-driver-content
 description: 
 ms.assetid: 7e0391f0-606a-4b65-a1d7-463ff05a719b
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _TR_SERVICE_REQUEST_V1, TR_SERVICE_REQUEST_V1, *PTR_SERVICE_REQUEST_V1, TR_SERVICE_REQUEST, *PTR_SERVICE_REQUEST
 req.header: trustedrt.h
 req.include-header:

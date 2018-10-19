@@ -6,11 +6,8 @@ description: The MmResetDriverPaging routine resets the pageable status of a dri
 old-location: kernel\mmresetdriverpaging.htm
 tech.root: kernel
 ms.assetid: 6d1d1f0d-d6da-488d-a120-713b77da86a9
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: MmResetDriverPaging, MmResetDriverPaging routine [Kernel-Mode Driver Architecture], k106_4b691510-4e1f-4da2-bfba-d008a83ef43e.xml, kernel.mmresetdriverpaging, wdm/MmResetDriverPaging
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

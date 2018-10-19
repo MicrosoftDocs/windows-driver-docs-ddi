@@ -6,11 +6,8 @@ description: The Dump_Start callback routine is called after initializing the du
 old-location: storage\dump_start.htm
 tech.root: storage
 ms.assetid: a315f51f-069a-4c3d-bedc-2378b0996022
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: Dump_Start, Dump_Start routine [Storage Devices], PDUMP_START, filter_rtns_071f1e6c-9471-47ef-bf40-6429a798b792.xml, ntdddump/Dump_Start, storage.dump_start
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ntdddump.h
 req.include-header: Ntdddump.h

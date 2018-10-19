@@ -6,11 +6,8 @@ description: The SetEffectiveProcessorType method sets the effective processor t
 old-location: debugger\seteffectiveprocessortype.htm
 tech.root: debugger
 ms.assetid: 7c524181-c438-47ae-9180-1b0c623f24dc
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugControl interface [Windows Debugging],SetEffectiveProcessorType method, IDebugControl.SetEffectiveProcessorType, IDebugControl2 interface [Windows Debugging],SetEffectiveProcessorType method, IDebugControl2::SetEffectiveProcessorType, IDebugControl3 interface [Windows Debugging],SetEffectiveProcessorType method, IDebugControl3::SetEffectiveProcessorType, IDebugControl::SetEffectiveProcessorType, IDebugControl_284f54f4-897e-4329-b588-5eae0c638179.xml, SetEffectiveProcessorType, SetEffectiveProcessorType method [Windows Debugging], SetEffectiveProcessorType method [Windows Debugging],IDebugControl interface, SetEffectiveProcessorType method [Windows Debugging],IDebugControl2 interface, SetEffectiveProcessorType method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetEffectiveProcessorType, dbgeng/IDebugControl3::SetEffectiveProcessorType, dbgeng/IDebugControl::SetEffectiveProcessorType, debugger.seteffectiveprocessortype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

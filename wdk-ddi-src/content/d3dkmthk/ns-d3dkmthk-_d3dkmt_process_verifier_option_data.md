@@ -4,11 +4,8 @@ title: _D3DKMT_PROCESS_VERIFIER_OPTION_DATA
 author: windows-driver-content
 description: The process verifier's option data.
 ms.assetid: c29bbb50-df77-459d-bdb1-d9782c5980d1
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_PROCESS_VERIFIER_OPTION_DATA, D3DKMT_PROCESS_VERIFIER_OPTION_DATA, 
 req.header: d3dkmthk.h
 req.include-header:

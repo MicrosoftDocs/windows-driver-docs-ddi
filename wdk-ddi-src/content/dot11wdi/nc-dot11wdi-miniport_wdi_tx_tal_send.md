@@ -6,11 +6,8 @@ description: The MiniportWdiTxTalSend handler function specifies an RA-TID or po
 old-location: netvista\miniportwditxtalsend.htm
 tech.root: netvista
 ms.assetid: 42489ADA-78BF-4EBF-A6EC-5484F82C46ED
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_TX_TAL_SEND, MINIPORT_WDI_TX_TAL_SEND callback, MiniportWdiTxTalSend, MiniportWdiTxTalSend callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTalSend, netvista.miniportwditxtalsend
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dot11wdi.h
 req.include-header: 

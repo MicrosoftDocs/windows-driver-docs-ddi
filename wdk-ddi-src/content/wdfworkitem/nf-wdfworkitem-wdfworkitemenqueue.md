@@ -6,11 +6,8 @@ description: The WdfWorkItemEnqueue method adds a specified framework work-item 
 old-location: wdf\wdfworkitemenqueue.htm
 tech.root: wdf
 ms.assetid: b264fac0-61d9-4789-b60b-c0b309eb25f1
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFWorkItemObjectRef_f2f5dbe5-20e0-4cb8-aeca-663934d0fc92.xml, WdfWorkItemEnqueue, WdfWorkItemEnqueue method, kmdf.wdfworkitemenqueue, wdf.wdfworkitemenqueue, wdfworkitem/WdfWorkItemEnqueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfworkitem.h
 req.include-header: Wdf.h
@@ -95,7 +92,7 @@ Your driver can also call <b>WdfWorkItemEnqueue</b> while an <a href="https://ms
 
 In versions of KMDF prior to version 1.7, if your driver reuses its work-item objects, it must not call <b>WdfWorkItemEnqueue</b> again for the same work item until a system worker thread has dequeued the work item and called its <a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a> callback function. 
 
-For more information about work items, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-framework-work-items">Using Framework Work Items</a>.
+For more information about work items, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-framework-work-items">Using Framework Work Items</a>.
 
 
 #### Examples

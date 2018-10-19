@@ -6,11 +6,8 @@ description: FltDecodeParameters returns pointers to the memory descriptor list 
 old-location: ifsk\fltdecodeparameters.htm
 tech.root: ifsk
 ms.assetid: c0569a55-7bc0-4c98-80b9-c332c313ca5b
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_0e793d86-f756-4885-8b23-5f74cd50b144.xml, FltDecodeParameters, FltDecodeParameters routine [Installable File System Drivers], fltkernel/FltDecodeParameters, ifsk.fltdecodeparameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

@@ -6,11 +6,8 @@ description: The SpbRequestComplete method completes an I/O request and supplies
 old-location: spb\spbrequestcomplete.htm
 tech.root: SPB
 ms.assetid: 356BC81E-8FE9-4BC7-83E5-20A64D149A0D
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: SPB.spbrequestcomplete, SpbRequestComplete, SpbRequestComplete method [Buses], spbcx/SpbRequestComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: spbcx.h
 req.include-header: 
@@ -61,7 +58,7 @@ The <b>SpbRequestComplete</b> method completes an I/O request and supplies a com
 
 ### -param Request [in]
 
-An <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a> handle to the I/O request to complete. The SPB controller driver previously received this handle through one of its registered <a href="https://msdn.microsoft.com/1DA1FF41-FB01-45CC-B0C1-EAF2C81D0CDA">event callback functions</a>.
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a> handle to the I/O request to complete. The SPB controller driver previously received this handle through one of its registered <a href="https://msdn.microsoft.com/1DA1FF41-FB01-45CC-B0C1-EAF2C81D0CDA">event callback functions</a>.
 
 
 ### -param CompletionStatus [in]
@@ -138,7 +135,7 @@ A call to <b>SpbRequestComplete</b> represents the final stage in the processing
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
 
 
 

@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDynamicKeyProviderConcept.AddRef
 title: IDynamicKeyProviderConcept::AddRef
 author: windows-driver-content
-description: TBD
+description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: 2d12274d-75b0-4494-bec7-c962ec80e1aa
-ms.author: windowsdriverdev
 ms.date: 09/21/2018
 ms.topic: method
 ms.keywords: IDynamicKeyProviderConcept::AddRef, AddRef, IDynamicKeyProviderConcept.AddRef, IDynamicKeyProviderConcept::AddRef, IDynamicKeyProviderConcept.AddRef
@@ -35,8 +34,6 @@ api_name:
 -	IDynamicKeyProviderConcept.AddRef
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

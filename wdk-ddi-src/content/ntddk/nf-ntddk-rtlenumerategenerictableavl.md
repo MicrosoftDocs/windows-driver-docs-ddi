@@ -6,11 +6,8 @@ description: The RtlEnumerateGenericTableAvl routine is used to enumerate the el
 old-location: ifsk\rtlenumerategenerictableavl.htm
 tech.root: ifsk
 ms.assetid: 59EE8C41-1951-4EA7-BE49-B39C15B082E9
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlEnumerateGenericTableAvl, RtlEnumerateGenericTableAvl routine [Installable File System Drivers], ifsk.rtlenumerategenerictableavl, ntddk/RtlEnumerateGenericTableAvl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h

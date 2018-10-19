@@ -6,11 +6,8 @@ description: ChangerGetParameters handles the device-specific aspects of a devic
 old-location: storage\changergetparameters.htm
 tech.root: storage
 ms.assetid: c1f508a3-6aa8-4fed-af14-6466fcae30da
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ChangerGetParameters, ChangerGetParameters function [Storage Devices], chgrmini_d8cfe74e-46ff-4aee-b1a2-2e55be7ed01f.xml, mcd/ChangerGetParameters, storage.changergetparameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h

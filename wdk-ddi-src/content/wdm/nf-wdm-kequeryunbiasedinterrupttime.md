@@ -6,11 +6,8 @@ description: The KeQueryUnbiasedInterruptTime routine returns the current value 
 old-location: kernel\kequeryunbiasedinterrupttime.htm
 tech.root: kernel
 ms.assetid: 2a041946-0335-466e-b2f9-b486031e777a
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeQueryUnbiasedInterruptTime, KeQueryUnbiasedInterruptTime routine [Kernel-Mode Driver Architecture], k105_34119e3c-6e9a-4e27-9d0e-3d9eb579df46.xml, kernel.kequeryunbiasedinterrupttime, wdm/KeQueryUnbiasedInterruptTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

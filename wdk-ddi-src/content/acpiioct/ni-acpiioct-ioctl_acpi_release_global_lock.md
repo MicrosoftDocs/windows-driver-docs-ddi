@@ -6,11 +6,8 @@ description: The IOCTL_ACPI_RELEASE_GLOBAL_LOCK device control request is reserv
 old-location: acpi\ioctl_acpi_release_global_lock.htm
 tech.root: acpi
 ms.assetid: dcc74af4-500b-4fea-ba2b-9d1ea3a05ef6
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_ACPI_RELEASE_GLOBAL_LOCK, IOCTL_ACPI_RELEASE_GLOBAL_LOCK control, IOCTL_ACPI_RELEASE_GLOBAL_LOCK control code [ACPI Devices], acpi-meth-eval-ref_0b38285c-f188-4984-b214-86f9c3677c8d.xml, acpi.ioctl_acpi_release_global_lock, acpiioct/IOCTL_ACPI_RELEASE_GLOBAL_LOCK
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
@@ -120,7 +117,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 
 

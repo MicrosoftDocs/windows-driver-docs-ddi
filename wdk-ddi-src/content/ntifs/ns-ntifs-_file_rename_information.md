@@ -6,11 +6,8 @@ description: The FILE_RENAME_INFORMATION structure is used to rename a file.
 old-location: ifsk\file_rename_information.htm
 tech.root: ifsk
 ms.assetid: 25a195ab-faf1-488d-a9b2-65ae88b57ebd
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PFILE_RENAME_INFORMATION, FILE_RENAME_INFORMATION, FILE_RENAME_INFORMATION structure [Installable File System Drivers], PFILE_RENAME_INFORMATION, PFILE_RENAME_INFORMATION structure pointer [Installable File System Drivers], _FILE_RENAME_INFORMATION, fileinformationstructures_d9a99263-5aec-400a-ab30-73949a81a4f6.xml, ifsk.file_rename_information, ntifs/FILE_RENAME_INFORMATION, ntifs/PFILE_RENAME_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
@@ -54,7 +51,7 @@ The <b>FILE_RENAME_INFORMATION</b> structure is used to rename a file.
 
 ## -syntax
 
-```
+```cpp
 typedef struct _FILE_RENAME_INFORMATION {
 #if (_WIN32_WINNT >= _WIN32_WINNT_WIN10_RS1)
     union {

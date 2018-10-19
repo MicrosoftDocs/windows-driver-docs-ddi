@@ -6,11 +6,8 @@ description: The CcZeroData routine zeros the specified range of bytes in a cach
 old-location: ifsk\cczerodata.htm
 tech.root: ifsk
 ms.assetid: 97a0f314-5813-4ff8-8a94-c675874cdc3b
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: CcZeroData, CcZeroData routine [Installable File System Drivers], ccref_af6df6fe-6fa3-41e9-b3af-2530ca6a2c85.xml, ifsk.cczerodata, ntifs/CcZeroData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Fltkernel.h, Ntifs.h

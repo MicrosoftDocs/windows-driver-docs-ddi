@@ -6,11 +6,8 @@ description: The IoGetConfigurationInformation routine returns a pointer to the 
 old-location: kernel\iogetconfigurationinformation.htm
 tech.root: kernel
 ms.assetid: 1d577588-72cf-44f2-b1bb-ebab0ee52fd6
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoGetConfigurationInformation, IoGetConfigurationInformation routine [Kernel-Mode Driver Architecture], k104_5f9c4d01-9724-4e1d-8154-3737f0809068.xml, kernel.iogetconfigurationinformation, ntddk/IoGetConfigurationInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h

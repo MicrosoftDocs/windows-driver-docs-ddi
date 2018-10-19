@@ -6,11 +6,8 @@ description: Copies the driver setup triage logs.
 old-location: dtf\iwdtfdriversetupsystemaction2_snaptriagelogs.htm
 tech.root: dtf
 ms.assetid: 52f1e529-e1fe-4a08-a0cf-dc08e18d11b5
-ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework],SnapTriageLogs method, IWDTFDriverSetupSystemAction2.SnapTriageLogs, IWDTFDriverSetupSystemAction2::SnapTriageLogs, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.SnapTriageLogs, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::SnapTriageLogs, SnapTriageLogs, SnapTriageLogs method [Windows Device Testing Framework], SnapTriageLogs method [Windows Device Testing Framework],IWDTFDriverSetupSystemAction2 interface, dtf.iwdtfdriversetupsystemaction2_snaptriagelogs, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::SnapTriageLogs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtfdriversetupsystemaction.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The ProtocolClNotifyCloseAf function notifies a CoNDIS client that 
 old-location: netvista\protocolclnotifycloseaf.htm
 tech.root: netvista
 ms.assetid: 0f595daa-9822-4ca6-8f25-e6f82030d4ea
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CL_NOTIFY_CLOSE_AF, PROTOCOL_CL_NOTIFY_CLOSE_AF callback, ProtocolClNotifyCloseAf, ProtocolClNotifyCloseAf callback function [Network Drivers Starting with Windows Vista], condis_client_ref_0b778346-7d48-4d72-807d-16d8be2da913.xml, ndis/ProtocolClNotifyCloseAf, netvista.protocolclnotifycloseaf
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

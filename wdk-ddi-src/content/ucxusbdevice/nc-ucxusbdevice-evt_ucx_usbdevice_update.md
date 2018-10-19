@@ -6,11 +6,8 @@ description: The client driver's implementation that UCX calls to update device 
 old-location: buses\evt_ucx_usbdevice_update.htm
 tech.root: usbref
 ms.assetid: 5dbf3560-9968-4996-8bce-fb43e3918d72
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: EVT_UCX_USBDEVICE_UPDATE, EVT_UCX_USBDEVICE_UPDATE callback, EvtUcxUsbDeviceUpdate, EvtUcxUsbDeviceUpdate callback function [Buses], PEVT_UCX_USBDEVICE_UPDATE, PEVT_UCX_USBDEVICE_UPDATE callback function pointer [Buses], buses.evt_ucx_usbdevice_update, ucxusbdevice/EvtUcxUsbDeviceUpdate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h

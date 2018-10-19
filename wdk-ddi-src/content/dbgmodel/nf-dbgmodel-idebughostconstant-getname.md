@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDebugHostConstant.GetName
 title: IDebugHostConstant::GetName
 author: windows-driver-content
-description: TBD
+description: Returns the name of the symbol if the symbol has a name.
 ms.assetid: f14483b6-cac2-4ac7-8100-f0a7759eea0a
-ms.author: windowsdriverdev
 ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDebugHostConstant::GetName, GetName, IDebugHostConstant.GetName, IDebugHostConstant::GetName, IDebugHostConstant.GetName
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostConstant.GetName
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

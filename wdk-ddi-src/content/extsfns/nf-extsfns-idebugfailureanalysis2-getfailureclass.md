@@ -6,11 +6,8 @@ description: The GetFailureClass method gets the failure class of a DebugFailure
 old-location: debugger\idebugfailureanalysis2_getfailureclass.htm
 tech.root: debugger
 ms.assetid: 4840F881-E3CB-4C89-AE2D-88610790C221
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetFailureClass, GetFailureClass method [Windows Debugging], GetFailureClass method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetFailureClass method, IDebugFailureAnalysis2.GetFailureClass, IDebugFailureAnalysis2::GetFailureClass, debugger.idebugfailureanalysis2_getfailureclass, extsfns/IDebugFailureAnalysis2::GetFailureClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: extsfns.h
 req.include-header: 

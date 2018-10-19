@@ -6,11 +6,8 @@ description: The QueryBusTimeEx routine gets the current 32-bit USB micro-frame 
 old-location: buses\querybustimeex.htm
 tech.root: usbref
 ms.assetid: 8a9718eb-59f3-441a-b482-c2a376a48ac1
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: PUSB_BUSIFFN_QUERY_BUS_TIME_EX, QueryBusTimeEx, QueryBusTimeEx callback function [Buses], USB_BUSIFFN_QUERY_BUS_TIME_EX, USB_BUSIFFN_QUERY_BUS_TIME_EX callback, buses.querybustimeex, usbbusif/QueryBusTimeEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: usbbusif.h
 req.include-header: Usbbusif.h

@@ -6,11 +6,8 @@ description: The DEVICE_POWER_STATE enumeration identifies the device power stat
 old-location: wdf\device_power_state.htm
 tech.root: wdf
 ms.assetid: 7dd4d0ae-876a-4156-8a09-2ebc82a25117
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*PDEVICE_POWER_STATE, DEVICE_POWER_STATE, DEVICE_POWER_STATE enumeration, PDEVICE_POWER_STATE, PDEVICE_POWER_STATE enumeration pointer, PowerDeviceD0, PowerDeviceD1, PowerDeviceD2, PowerDeviceD3, PowerDeviceMaximum, PowerDeviceUnspecified, _DEVICE_POWER_STATE, umdf.device_power_state, umdfstructs_6dca1ebb-421e-446b-b2b6-cc7b87afcf58.xml, wdf.device_power_state, wudfddi/DEVICE_POWER_STATE, wudfddi/PDEVICE_POWER_STATE, wudfddi/PowerDeviceD0, wudfddi/PowerDeviceD1, wudfddi/PowerDeviceD2, wudfddi/PowerDeviceD3, wudfddi/PowerDeviceMaximum, wudfddi/PowerDeviceUnspecified"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames: DEVICE_POWER_STATE, *PDEVICE_POWER_STATE
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>DEVICE_POWER_STATE</b> enumeration identifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543162">device power states</a> that a device can enter.
 

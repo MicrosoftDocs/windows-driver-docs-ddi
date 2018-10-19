@@ -2,10 +2,9 @@
 UID: NF:dbgmodel.IDebugHostModule2.FindSymbolByName
 title: IDebugHostModule2::FindSymbolByName
 author: windows-driver-content
-description: TBD
+description: The FindSymbolByName method will find a single global symbol of the given name within the module.
 ms.assetid: 74ce0a4b-7079-469d-b769-e47eae4123ed
-ms.author: windowsdriverdev
-ms.date: 09/18/2018 
+ms.date: 09/18/2018
 ms.topic: method
 ms.keywords: IDebugHostModule2::FindSymbolByName, FindSymbolByName, IDebugHostModule2.FindSymbolByName, IDebugHostModule2::FindSymbolByName, IDebugHostModule2.FindSymbolByName
 req.header: dbgmodel.h
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostModule2.FindSymbolByName
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

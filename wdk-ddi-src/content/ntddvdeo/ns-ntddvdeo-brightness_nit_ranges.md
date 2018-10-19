@@ -5,11 +5,8 @@ author: windows-driver-content
 description: An array of BRIGHTNESS_NIT_RANGE structures.
 tech.root: display
 ms.assetid: 6dda258e-6364-4cf3-8ca9-b9adac74c705
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: BRIGHTNESS_NIT_RANGES, *PBRIGHTNESS_NIT_RANGES, BRIGHTNESS_NIT_RANGES,
 req.header: ntddvdeo.h
 req.include-header:

@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_supported_ofdm_frequency_list.htm
 tech.root: netvista
 ms.assetid: 0c967358-821b-4f78-acbc-dacee24dcd57
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, DOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_428915da-fa98-469c-829b-5d0313a59c3b.xml, PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, netvista.dot11_supported_ofdm_frequency_list, windot11/DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, windot11/PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -59,13 +56,13 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DOT11_SUPPORTED_OFDM_FREQUENCY_LIST {
   ULONG                          uNumOfEntries;
   ULONG                          uTotalNumOfEntries;
   DOT11_SUPPORTED_OFDM_FREQUENCY dot11SupportedOFDMFrequency[1];
 } DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, *PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST;
-````
+```
 
 
 ## -struct-fields
@@ -98,7 +95,7 @@ An array that specifies the list of supported channel center frequencies that th
 
 
 A miniport driver returns the DOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure when queried by
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-ofdm-frequency-list">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-ofdm-frequency-list">
     OID_DOT11_SUPPORTED_OFDM_FREQUENCY_LIST</a>.
 
 
@@ -106,7 +103,7 @@ A miniport driver returns the DOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure when
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-ofdm-frequency-list">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-ofdm-frequency-list">
    OID_DOT11_SUPPORTED_OFDM_FREQUENCY_LIST</a>
 
 

@@ -6,11 +6,8 @@ description: The AtaPortDebugPrint routine passes a message string to the kernel
 old-location: storage\ataportdebugprint.htm
 tech.root: storage
 ms.assetid: 2a93d30f-4aa0-46b9-b9c7-cc15c62f3053
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: AtaPortDebugPrint, AtaPortDebugPrint routine [Storage Devices], atartns_57e04fb5-19ac-42fc-9bc5-32645ef61320.xml, irb/AtaPortDebugPrint, storage.ataportdebugprint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
@@ -54,7 +51,7 @@ req.typenames:
 
 
 The <b>AtaPortDebugPrint</b> routine passes a message string to the kernel debugger for the debugger to print. 
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 

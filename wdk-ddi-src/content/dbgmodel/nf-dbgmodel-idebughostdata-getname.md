@@ -2,10 +2,9 @@
 UID: NF:dbgmodel.IDebugHostData.GetName
 title: IDebugHostData::GetName
 author: windows-driver-content
-description: TBD
+description: The GetLocationKind method returns what kind of location the symbol is at according to the LocationKind enumeration. 
 ms.assetid: 377c4d13-7349-43ce-8ab8-b2dc84bbf6ea
-ms.author: windowsdriverdev
-ms.date: 09/10/2018 
+ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDebugHostData::GetName, GetName, IDebugHostData.GetName, IDebugHostData::GetName, IDebugHostData.GetName
 req.header: dbgmodel.h
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostData.GetName
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

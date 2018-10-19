@@ -6,11 +6,8 @@ description: The WdfRequestSetCompletionRoutine method registers or deregisters 
 old-location: wdf\wdfrequestsetcompletionroutine.htm
 tech.root: wdf
 ms.assetid: c60f3dd5-2a74-4d7c-8804-35b9dd91dce4
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_4dea9104-1bfd-4add-b991-f02d57f840cb.xml, WdfRequestSetCompletionRoutine, WdfRequestSetCompletionRoutine method, kmdf.wdfrequestsetcompletionroutine, wdf.wdfrequestsetcompletionroutine, wdfrequest/WdfRequestSetCompletionRoutine
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfrequest.h
 req.include-header: Wdf.h
@@ -95,7 +92,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 If your driver forwards I/O requests, but if you want your driver to be notified when a lower-level driver completes the request, your driver can provide a <a href="https://msdn.microsoft.com/7d3eb4d6-9fc7-4924-9b95-f5824713049b">CompletionRoutine</a> callback function and call <b>WdfRequestSetCompletionRoutine</b> to register the function. The framework calls the callback function after a lower-level driver completes the I/O request. 
 
-For more information about <b>WdfRequestSetCompletionRoutine</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
+For more information about <b>WdfRequestSetCompletionRoutine</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
 
 
 #### Examples

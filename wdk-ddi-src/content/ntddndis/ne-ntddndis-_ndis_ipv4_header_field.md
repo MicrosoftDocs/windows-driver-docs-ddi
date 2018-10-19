@@ -6,11 +6,8 @@ description: The NDIS_IPV4_HEADER_FIELD enumeration identifies the type of a fie
 old-location: netvista\ndis_ipv4_header_field.htm
 tech.root: netvista
 ms.assetid: 5B7C4107-1724-473C-8F36-C345A056F3DC
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_IPV4_HEADER_FIELD, NDIS_IPV4_HEADER_FIELD, NDIS_IPV4_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], NdisIPv4HeaderFieldMaximum, NdisIPv4HeaderFieldProtocol, NdisIPv4HeaderFieldUndefined, PNDIS_IPV4_HEADER_FIELD, PNDIS_IPV4_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_IPV4_HEADER_FIELD, netvista.ndis_ipv4_header_field, ntddndis/NDIS_IPV4_HEADER_FIELD, ntddndis/NdisIPv4HeaderFieldMaximum, ntddndis/NdisIPv4HeaderFieldProtocol, ntddndis/NdisIPv4HeaderFieldUndefined, ntddndis/PNDIS_IPV4_HEADER_FIELD"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddndis.h
 req.include-header: Ndis.h

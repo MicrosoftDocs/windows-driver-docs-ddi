@@ -6,11 +6,8 @@ description: This structure defines satellite-related information of a fix.
 old-location: gnss\gnss_satelliteinfo.htm
 tech.root: gnss
 ms.assetid: 27F537D8-45B2-43D9-A614-3558534C9DBA
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PGNSS_SATELLITEINFO, GNSS_SATELLITEINFO, GNSS_SATELLITEINFO structure [Sensor Devices], PGNSS_SATELLITEINFO, PGNSS_SATELLITEINFO structure pointer [Sensor Devices], gnss.gnss_satelliteinfo, gnssdriver/GNSS_SATELLITEINFO, gnssdriver/PGNSS_SATELLITEINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: gnssdriver.h
 req.include-header: 

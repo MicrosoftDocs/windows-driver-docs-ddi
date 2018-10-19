@@ -6,11 +6,8 @@ description: NDIS calls the FilterOidRequestComplete function to complete a filt
 old-location: netvista\filteroidrequestcomplete.htm
 tech.root: netvista
 ms.assetid: 2dba21d8-512b-4a1a-9cf9-0240c94a69a0
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FILTER_OID_REQUEST_COMPLETE, FILTER_OID_REQUEST_COMPLETE callback, FilterOidRequestComplete, FilterOidRequestComplete callback function [Network Drivers Starting with Windows Vista], ndis/FilterOidRequestComplete, ndis_request_ref_c1c43e8e-536a-4d7a-9341-c39c33778db3.xml, netvista.filteroidrequestcomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

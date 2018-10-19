@@ -4,11 +4,8 @@ title: D3D12DDI_FUNCTION_SUMMARY_0054
 author: windows-driver-content
 description: Contains the summary of a function.
 ms.assetid: 4cc6cf19-479c-4600-8c90-5f6345eece41
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_FUNCTION_SUMMARY_0054, D3D12DDI_FUNCTION_SUMMARY_0054, 
 req.header: d3d12umddi.h
 req.include-header:

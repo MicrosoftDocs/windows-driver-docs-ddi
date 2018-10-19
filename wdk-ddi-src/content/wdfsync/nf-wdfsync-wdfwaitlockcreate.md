@@ -6,11 +6,8 @@ description: The WdfWaitLockCreate method creates a framework wait-lock object.
 old-location: wdf\wdfwaitlockcreate.htm
 tech.root: wdf
 ms.assetid: a0ffa493-4490-440b-9f67-426a7b5d4442
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFSynchroRef_19d02cf5-4fa3-449c-8913-4a5ff80bd578.xml, WdfWaitLockCreate, WdfWaitLockCreate method, kmdf.wdfwaitlockcreate, wdf.wdfwaitlockcreate, wdfsync/WdfWaitLockCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfsync.h
 req.include-header: Wdf.h
@@ -94,7 +91,7 @@ The <b>WdfWaitLockCreate</b> method creates a framework wait-lock object. After 
 
 By default, the new wait-lock object's parent is the framework driver object that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547175">WdfDriverCreate</a> method created. You can use the <b>ParentObject</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure to specify a different parent. The framework deletes the wait-lock object when it deletes the parent object. If your driver does not change the default parent, the driver should delete the wait-lock object when it has finished using the object; otherwise, the object will remain until the I/O manager unloads your driver. 
 
-For more information about wait locks, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/synchronization-techniques-for-wdf-drivers">Synchronization Techniques for Framework-Based Drivers</a>.
+For more information about wait locks, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/synchronization-techniques-for-wdf-drivers">Synchronization Techniques for Framework-Based Drivers</a>.
 
 
 #### Examples

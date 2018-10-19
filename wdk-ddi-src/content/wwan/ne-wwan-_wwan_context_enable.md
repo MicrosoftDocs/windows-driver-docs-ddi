@@ -5,12 +5,9 @@ author: windows-driver-content
 description: The WWAN_CONTEXT_ENABLE enumeration specifies whether a provisioned context is enabled in a mobile broadband (MBB) modem.
 tech.root: netvista
 ms.assetid: 130c0816-c402-4e13-9589-abac38c43999
-ms.author: windowsdriverdev
 ms.date: 08/22/2018
 ms.topic: enum
 ms.keywords: _WWAN_CONTEXT_ENABLE, WWAN_CONTEXT_ENABLE, *PWWAN_CONTEXT_ENABLE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wwan.h
 req.include-header:
 req.target-type:

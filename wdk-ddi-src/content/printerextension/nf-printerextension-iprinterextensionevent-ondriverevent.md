@@ -6,11 +6,8 @@ description: Called when a driver event occurs.
 old-location: print\iprinterextensionevent_ondriverevent.htm
 tech.root: print
 ms.assetid: F00FD4FB-08D5-42D4-8CC2-85EE02D95E4B
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrinterExtensionEvent interface [Print Devices],OnDriverEvent method, IPrinterExtensionEvent.OnDriverEvent, IPrinterExtensionEvent::OnDriverEvent, OnDriverEvent, OnDriverEvent method [Print Devices], OnDriverEvent method [Print Devices],IPrinterExtensionEvent interface, print.iprinterextensionevent_ondriverevent, printerextension/IPrinterExtensionEvent::OnDriverEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header: 

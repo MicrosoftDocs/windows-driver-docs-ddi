@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDataModelScriptHostContext.QueryInterface
 title: IDataModelScriptHostContext::QueryInterface
 author: windows-driver-content
-description: TBD
+description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: 6fa06789-9671-44ec-95cc-f83b2e86fcd2
-ms.author: windowsdriverdev
 ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDataModelScriptHostContext::QueryInterface, QueryInterface, IDataModelScriptHostContext.QueryInterface, IDataModelScriptHostContext::QueryInterface, IDataModelScriptHostContext.QueryInterface
@@ -35,8 +34,6 @@ api_name:
 -	IDataModelScriptHostContext.QueryInterface
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

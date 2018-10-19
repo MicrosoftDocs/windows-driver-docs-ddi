@@ -6,11 +6,8 @@ description: The WdfCollectionRemoveItem method removes a specified object from 
 old-location: wdf\wdfcollectionremoveitem.htm
 tech.root: wdf
 ms.assetid: 03fde4a7-a4d1-4045-ac0c-6a37f2367b9d
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFCollectionObjectRef_a037497e-b219-41c1-8d65-29cf8be17989.xml, WdfCollectionRemoveItem, WdfCollectionRemoveItem method, kmdf.wdfcollectionremoveitem, wdf.wdfcollectionremoveitem, wdfcollection/WdfCollectionRemoveItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfcollection.h
 req.include-header: Wdf.h
@@ -92,7 +89,7 @@ Index values represent the order in which objects are added to a collection. An 
 
 When <b>WdfCollectionRemoveItem</b> removes an object from a collection, it decrements the object's reference count. 
 
-For more information about object collections, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-collections">Framework Object Collections</a>
+For more information about object collections, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-collections">Framework Object Collections</a>
 
 
 

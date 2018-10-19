@@ -4,8 +4,7 @@ title: TrSecureDeviceQueryOSService function
 author: windows-driver-content
 description: 
 ms.assetid: c0f9c4f7-d6bd-427d-954f-43539797fcd8
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: TrSecureDeviceQueryOSService
 req.header: trustedruntimeclx.h

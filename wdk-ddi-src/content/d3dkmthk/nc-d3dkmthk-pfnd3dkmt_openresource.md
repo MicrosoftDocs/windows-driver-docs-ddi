@@ -4,11 +4,8 @@ title: PFND3DKMT_OPENRESOURCE
 author: windows-driver-content
 description: Pfnd3dkmtOpenresource opens a shared resource.
 ms.assetid: 02623395-6774-457a-ab73-17e68216d812
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Pfnd3dkmtOpenresource opens a shared resource.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_OPENRESOURCE Pfnd3dkmtOpenresource; 

@@ -6,11 +6,8 @@ description: The FltAcknowledgeEcp routine is used to mark an extra create param
 old-location: ifsk\fltacknowledgeecp.htm
 tech.root: ifsk
 ms.assetid: 89fd8a33-9b2e-401a-9b48-49b4b19d3cb2
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltAcknowledgeEcp, FltAcknowledgeEcp routine [Installable File System Drivers], FltApiRef_a_to_d_17c8b1d4-47d1-4871-be9d-57986967a083.xml, fltkernel/FltAcknowledgeEcp, ifsk.fltacknowledgeecp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

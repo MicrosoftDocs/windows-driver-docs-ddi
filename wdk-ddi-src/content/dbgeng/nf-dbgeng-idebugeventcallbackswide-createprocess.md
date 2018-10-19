@@ -6,11 +6,8 @@ description: The CreateProcess callback method is called by the engine when a cr
 old-location: debugger\idebugeventcallbackswide_createprocess.htm
 tech.root: debugger
 ms.assetid: d5378b35-da27-419f-a161-0c542aa4a9f9
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: CreateProcess, CreateProcess method [Windows Debugging], CreateProcess method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],CreateProcess method, IDebugEventCallbacksWide.CreateProcess, IDebugEventCallbacksWide::CreateProcess, dbgeng/IDebugEventCallbacksWide::CreateProcess, debugger.idebugeventcallbackswide_createprocess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The DXGKCB_GETHANDLEDATAFLAGS structure indicates if allocations belong to a resource.
 old-location: display\dxgkcb_gethandledataflags.htm
 ms.assetid: 01689a2f-115a-4db8-b53d-38717c10a0ff
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKCB_GETHANDLEDATAFLAGS, DXGKCB_GETHANDLEDATAFLAGS structure [Display Devices], DmStructs_a0288df8-0513-4823-9445-cd86ff45a186.xml, _DXGKCB_GETHANDLEDATAFLAGS, d3dkmddi/DXGKCB_GETHANDLEDATAFLAGS, display.dxgkcb_gethandledataflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

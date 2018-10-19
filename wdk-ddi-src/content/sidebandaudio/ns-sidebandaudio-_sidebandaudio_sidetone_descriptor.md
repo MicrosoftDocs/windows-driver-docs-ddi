@@ -2,13 +2,10 @@
 UID: NS:sidebandaudio._SIDEBANDAUDIO_SIDETONE_DESCRIPTOR
 title: _SIDEBANDAUDIO_SIDETONE_DESCRIPTOR
 author: windows-driver-content
-description: 
+description: Describes mute and volume components of the sidetone topology. 
 ms.assetid: 0ecd0629-ed33-4507-8231-f52bc5d47af4
-ms.author: windowsdriverdev
 ms.date: 09/06/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _SIDEBANDAUDIO_SIDETONE_DESCRIPTOR, SIDEBANDAUDIO_SIDETONE_DESCRIPTOR, *PSIDEBANDAUDIO_SIDETONE_DESCRIPTOR, 
 req.header: sidebandaudio.h
 req.include-header:
@@ -33,12 +30,13 @@ api_name:
 -	_SIDEBANDAUDIO_SIDETONE_DESCRIPTOR
 product: Windows
 targetos: Windows
+tech.root: audio
 ---
 
 # _SIDEBANDAUDIO_SIDETONE_DESCRIPTOR structure
 
 ## -description
- Describes mute and volume components of the sidetone topology.
+Describes mute and volume components of the sidetone topology.
 
 
 ## -struct-fields

@@ -4,11 +4,8 @@ title: D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM
 author: windows-driver-content
 description: Data structure for the associated D3DWDDM2_4DDI_VIDEO_CAPABILITY_QUERY_DECODER_HISTOGRAM value in the video capability query D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY enumeration.
 ms.assetid: 612d483a-fc73-4781-a84c-dd9bbb8b0dd6
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM, D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM,
 req.header: d3d10umddi.h
 req.include-header:

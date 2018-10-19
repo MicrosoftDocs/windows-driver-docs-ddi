@@ -4,12 +4,9 @@ title: _D3DKMT_ESCAPETYPE
 author: windows-driver-content
 description: Do not use the D3DKMT_VIDMMESCAPETYPE enumeration; it is for testing purposes only.
 ms.assetid: 6660c74f-4bdb-4c8a-920a-2b67ac3495f7
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DKMT_ESCAPETYPE, D3DKMT_ESCAPETYPE,
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

@@ -6,11 +6,8 @@ description: A minidriver can use the StreamClassDebugAssert routine in a checke
 old-location: stream\streamclassdebugassert.htm
 tech.root: stream
 ms.assetid: df9b3231-4c43-4d4b-b128-e8d6a9f21b17
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: StreamClassDebugAssert, StreamClassDebugAssert routine [Streaming Media Devices], strclass-routines_6f9302e6-592f-4097-830c-83b05a54d335.xml, stream.streamclassdebugassert, strmini/StreamClassDebugAssert
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: strmini.h
 req.include-header: Strmini.h

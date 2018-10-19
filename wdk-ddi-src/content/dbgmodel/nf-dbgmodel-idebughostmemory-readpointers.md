@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDebugHostMemory.ReadPointers
 title: IDebugHostMemory::ReadPointers
 author: windows-driver-content
-description: TBD
+description: Reads a number of pointer sized objects from the address space of the target as defined by the inpassed context and location.
 ms.assetid: 8c1d7ea2-97cf-421c-ac85-9030eb6cf582
-ms.author: windowsdriverdev
 ms.date: 09/28/2018
 ms.topic: method
 ms.keywords: IDebugHostMemory::ReadPointers, ReadPointers, IDebugHostMemory.ReadPointers, IDebugHostMemory::ReadPointers, IDebugHostMemory.ReadPointers
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostMemory.ReadPointers
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

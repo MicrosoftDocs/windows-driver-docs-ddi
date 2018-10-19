@@ -6,11 +6,8 @@ description: The EvtSerCx2FileOpen event callback function is called by version 
 old-location: serports\evtsercx2fileopen.htm
 tech.root: serports
 ms.assetid: A8E6EB7F-B6FE-4FA1-88A4-52C584E69D5B
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2FileOpen, EVT_SERCX2_FILEOPEN, EVT_SERCX2_FILEOPEN callback, EvtSerCx2FileOpen, EvtSerCx2FileOpen callback function [Serial Ports], serports.evtsercx2fileopen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sercx.h
 req.include-header: 

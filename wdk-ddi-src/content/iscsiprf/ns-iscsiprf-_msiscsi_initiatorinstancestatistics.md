@@ -6,11 +6,8 @@ description: The MSiSCSI_InitiatorInstanceStatistics structure is used by iSCSI 
 old-location: storage\msiscsi_initiatorinstancestatistics.htm
 tech.root: storage
 ms.assetid: b07b8186-970a-428f-955f-4e7e6ab20bfc
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PMSiSCSI_InitiatorInstanceStatistics, MSiSCSI_InitiatorInstanceStatistics, MSiSCSI_InitiatorInstanceStatistics structure [Storage Devices], PMSiSCSI_InitiatorInstanceStatistics, PMSiSCSI_InitiatorInstanceStatistics structure pointer [Storage Devices], _MSiSCSI_InitiatorInstanceStatistics, iscsiprf/MSiSCSI_InitiatorInstanceStatistics, iscsiprf/PMSiSCSI_InitiatorInstanceStatistics, storage.msiscsi_initiatorinstancestatistics, structs-iSCSI_6914e221-73b2-4626-9281-2e1748bd0048.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iscsiprf.h
 req.include-header: Iscsiprf.h

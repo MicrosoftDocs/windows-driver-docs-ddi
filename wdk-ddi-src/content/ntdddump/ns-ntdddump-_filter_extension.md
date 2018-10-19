@@ -6,11 +6,8 @@ description: The crash dump driver passes a pointer to a FILTER_EXTENSION struct
 old-location: storage\filter_extension.htm
 tech.root: storage
 ms.assetid: 1113e917-3273-4ba7-8702-fe90a22fb024
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PFILTER_EXTENSION, FILTER_EXTENSION, FILTER_EXTENSION structure [Storage Devices], PFILTER_EXTENSION, PFILTER_EXTENSION structure pointer [Storage Devices], _FILTER_EXTENSION, ntdddump/FILTER_EXTENSION, ntdddump/PFILTER_EXTENSION, storage.filter_extension, structs-filter_c9e640bb-9678-4e2f-9341-0d26b36e65e6.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntdddump.h
 req.include-header: Ntdddump.h

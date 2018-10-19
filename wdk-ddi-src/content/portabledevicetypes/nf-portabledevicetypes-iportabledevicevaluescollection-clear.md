@@ -6,11 +6,8 @@ description: Releases all items from the collection.
 old-location: wpddk\iportabledevicevaluescollection_clear.htm
 tech.root: wpd_dk
 ms.assetid: 510458d4-1b3a-4aea-ae52-ad32db6d8db4
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: Clear, Clear method, Clear method,IPortableDeviceValuesCollection interface, IPortableDeviceValuesCollection interface,Clear method, IPortableDeviceValuesCollection.Clear, IPortableDeviceValuesCollection::Clear, IPortableDeviceValuesCollectionClear, portabledevicetypes/IPortableDeviceValuesCollection::Clear, wpddk.iportabledevicevaluescollection_clear
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledevicetypes.h
 req.include-header: 

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: A NET_PACKET_CHECKSUM structure describes checksum information for a NET_PACKET.
 tech.root: netvista
 ms.assetid: 75363870-C58D-4677-A523-9728CB4A1BAC
-ms.author: windowsdriverdev
 ms.date: 02/08/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _NET_PACKET_CHECKSUM, NET_PACKET_CHECKSUM, *PNET_PACKET_CHECKSUM
 req.header: netpacket.h
 req.include-header:

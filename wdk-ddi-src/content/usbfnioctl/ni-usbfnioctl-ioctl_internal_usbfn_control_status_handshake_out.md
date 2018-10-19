@@ -6,11 +6,8 @@ description: The class driver sends this request to send a zero-length control s
 old-location: buses\ioctl_internal_usbfn_control_status_handshake_out.htm
 tech.root: usbref
 ms.assetid: C2CF94F3-E12D-4D31-975B-720FA5AB5ABA
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT, IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT control, IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT control code [Buses], buses.ioctl_internal_usbfn_control_status_handshake_out, usbfnioctl/IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: usbfnioctl.h
 req.include-header: 

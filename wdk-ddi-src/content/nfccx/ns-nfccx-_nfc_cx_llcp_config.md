@@ -6,11 +6,8 @@ description: The NFC_CX_LLCP_CONFIG structure is an input parameter to NfcCxSetL
 old-location: nfpdrivers\nfc_cx_llcp_config.htm
 tech.root: nfpdrivers
 ms.assetid: 84A1F957-FAAE-4C2D-9D49-486813A26950
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PNFC_CX_LLCP_CONFIG, NFC_CX_LLCP_CONFIG, NFC_CX_LLCP_CONFIG structure [Near-Field Proximity Drivers], PNFC_CX_LLCP_CONFIG, PNFC_CX_LLCP_CONFIG structure pointer [Near-Field Proximity Drivers], _NFC_CX_LLCP_CONFIG, nfccx/NFC_CX_LLCP_CONFIG, nfccx/PNFC_CX_LLCP_CONFIG, nfpdrivers.nfc_cx_llcp_config"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: nfccx.h
 req.include-header: Ncidef.h

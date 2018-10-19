@@ -6,11 +6,8 @@ description: The GetSymbolOffset method retrieves the location in the process's 
 old-location: debugger\getsymboloffset.htm
 tech.root: debugger
 ms.assetid: da3ddebc-109e-43fb-a0e9-fd89d90dbbc7
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ComOther_11a91301-541c-4bc3-aa1e-614db8170e03.xml, GetSymbolOffset, GetSymbolOffset method [Windows Debugging], GetSymbolOffset method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolOffset method, IDebugSymbolGroup2.GetSymbolOffset, IDebugSymbolGroup2::GetSymbolOffset, dbgeng/IDebugSymbolGroup2::GetSymbolOffset, debugger.getsymboloffset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

@@ -6,11 +6,8 @@ description: The CmCallbackReleaseKeyObjectIDEx routine frees an object name str
 old-location: kernel\cmcallbackreleasekeyobjectidex.htm
 tech.root: kernel
 ms.assetid: 3361DAEF-AC2A-401B-80E8-0220F191587C
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: CmCallbackReleaseKeyObjectIDEx, CmCallbackReleaseKeyObjectIDEx routine [Kernel-Mode Driver Architecture], kernel.cmcallbackreleasekeyobjectidex, wdm/CmCallbackReleaseKeyObjectIDEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

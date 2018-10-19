@@ -6,11 +6,8 @@ description: The SetFlags method sets the flags for a breakpoint.
 old-location: debugger\setflags.htm
 tech.root: debugger
 ms.assetid: 126741ba-b373-466e-986d-44e33c841eee
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ComOther_0fb1a5d9-2c1f-4966-9838-e7d0ae17a43f.xml, IDebugBreakpoint interface [Windows Debugging],SetFlags method, IDebugBreakpoint2 interface [Windows Debugging],SetFlags method, IDebugBreakpoint2.SetFlags, IDebugBreakpoint2::SetFlags, IDebugBreakpoint::SetFlags, SetFlags, SetFlags method [Windows Debugging], SetFlags method [Windows Debugging],IDebugBreakpoint interface, SetFlags method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetFlags, dbgeng/IDebugBreakpoint::SetFlags, debugger.setflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

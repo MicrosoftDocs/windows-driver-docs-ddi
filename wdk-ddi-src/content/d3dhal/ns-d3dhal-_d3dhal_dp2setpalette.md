@@ -6,11 +6,8 @@ description: The D3DHAL_DP2SETPALETTE structure is used to associate a palette w
 old-location: display\d3dhal_dp2setpalette.htm
 tech.root: display
 ms.assetid: 8c472869-028e-41f5-93df-94e91c47b76e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_DP2SETPALETTE, D3DHAL_DP2SETPALETTE, D3DHAL_DP2SETPALETTE structure [Display Devices], LPD3DHAL_DP2SETPALETTE, LPD3DHAL_DP2SETPALETTE structure pointer [Display Devices], _D3DHAL_DP2SETPALETTE, d3dhal/D3DHAL_DP2SETPALETTE, d3dhal/LPD3DHAL_DP2SETPALETTE, d3dstrct_da8023c8-d0a5-4793-a433-6f8860f0f11f.xml, display.d3dhal_dp2setpalette"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dhal.h
 req.include-header: D3dhal.h

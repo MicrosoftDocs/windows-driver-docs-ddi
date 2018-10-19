@@ -6,11 +6,8 @@ description: The EvtSerCx2ApplyConfig event callback function is called by versi
 old-location: serports\evtsercx2applyconfig.htm
 tech.root: serports
 ms.assetid: 8D9BC698-1E62-4DC2-B233-37022F330F98
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2ApplyConfig, EVT_SERCX2_APPLY_CONFIG, EVT_SERCX2_APPLY_CONFIG callback, EvtSerCx2ApplyConfig, EvtSerCx2ApplyConfig callback function [Serial Ports], serports.evtsercx2applyconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sercx.h
 req.include-header: 

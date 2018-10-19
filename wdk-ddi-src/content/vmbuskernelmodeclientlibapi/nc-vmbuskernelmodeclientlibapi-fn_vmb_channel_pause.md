@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbChannelPause function moves a channel into the paused state, which prevents new I/O.
 tech.root: netvista
 ms.assetid: 9e6f55f0-c12d-430f-be21-3885ed819288
-ms.author: windowsdriverdev
 ms.date: 05/21/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:
@@ -50,7 +47,7 @@ The <b>VmbChannelPause</b>  function moves a channel into the paused state, whic
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_PAUSE FnVmbChannelPause; 

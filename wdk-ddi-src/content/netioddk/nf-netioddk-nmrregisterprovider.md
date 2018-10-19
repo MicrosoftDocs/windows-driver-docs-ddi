@@ -6,11 +6,8 @@ description: The NmrRegisterProvider function registers a provider module with t
 old-location: netvista\nmrregisterprovider.htm
 tech.root: netvista
 ms.assetid: aac9382c-5177-4216-bf3d-7970b18662eb
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NmrRegisterProvider, NmrRegisterProvider function [Network Drivers Starting with Windows Vista], netioddk/NmrRegisterProvider, netvista.nmrregisterprovider, nmrref_ad505c0b-91dd-413d-be24-ab331f8eadca.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netioddk.h
 req.include-header: Wsk.h
@@ -145,7 +142,7 @@ An error occurred.
 
 A provider module calls the 
     <b>NmrRegisterProvider</b> function to register as a provider of an 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> so that it can attach to
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> so that it can attach to
     client modules that register as clients of the same 
     NPI.
 
@@ -155,7 +152,7 @@ A provider module typically calls the
     all other initialization tasks. The call to the 
     <b>NmrRegisterProvider</b> function indicates to the NMR that the provider module is ready to attach to
     any client modules that have registered or will register as clients of the same 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which the provider module
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which the provider module
     has registered as a provider.
 
 

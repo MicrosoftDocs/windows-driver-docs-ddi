@@ -6,11 +6,8 @@ description:
 old-location: print\iprintasynccookie.htm
 tech.root: print
 ms.assetid: CF323800-F4C3-4CDB-B4EC-13359E262BF3
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintAsyncCookie, IPrintAsyncCookie interface [Print Devices], IPrintAsyncCookie interface [Print Devices],described, print.iprintasynccookie, prnasntp/IPrintAsyncCookie
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: prnasntp.h
 req.include-header: 

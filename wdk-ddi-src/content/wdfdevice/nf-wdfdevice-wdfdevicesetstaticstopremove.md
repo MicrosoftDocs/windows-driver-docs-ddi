@@ -6,11 +6,8 @@ description: The WdfDeviceSetStaticStopRemove method informs the framework wheth
 old-location: wdf\wdfdevicesetstaticstopremove.htm
 tech.root: wdf
 ms.assetid: b2776618-2585-4a7a-9f8f-536f1d28745b
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_9874b784-6344-4336-9753-0b172563f981.xml, WdfDeviceSetStaticStopRemove, WdfDeviceSetStaticStopRemove method, kmdf.wdfdevicesetstaticstopremove, wdf.wdfdevicesetstaticstopremove, wdfdevice/WdfDeviceSetStaticStopRemove
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h

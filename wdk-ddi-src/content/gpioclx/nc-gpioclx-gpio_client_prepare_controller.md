@@ -6,11 +6,8 @@ description: The CLIENT_PrepareController event callback function performs any o
 old-location: gpio\client_preparecontroller.htm
 tech.root: GPIO
 ms.assetid: FAB86862-C0A1-4FC1-A80F-44F235B9B37D
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: CLIENT_PrepareController, CLIENT_PrepareController callback, CLIENT_PrepareController callback function [Parallel Ports], GPIO.client_preparecontroller, GPIO_CLIENT_PREPARE_CONTROLLER, gpioclx/CLIENT_PrepareController
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: gpioclx.h
 req.include-header: 

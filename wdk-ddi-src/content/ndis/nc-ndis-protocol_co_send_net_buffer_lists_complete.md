@@ -6,11 +6,8 @@ description: The ProtocolCoSendNetBufferListsComplete function completes a send 
 old-location: netvista\protocolcosendnetbufferlistscomplete.htm
 tech.root: netvista
 ms.assetid: fb4b00c0-0b14-48dd-a6f2-aae659c6bb28
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CO_SEND_NET_BUFFER_LISTS_COMPLETE, PROTOCOL_CO_SEND_NET_BUFFER_LISTS_COMPLETE callback, ProtocolCoSendNetBufferListsComplete, ProtocolCoSendNetBufferListsComplete callback function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_d2516eb4-44f1-4bae-a4f8-5a1ddd069c5a.xml, ndis/ProtocolCoSendNetBufferListsComplete, netvista.protocolcosendnetbufferlistscomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

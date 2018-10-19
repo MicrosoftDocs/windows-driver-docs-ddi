@@ -2,13 +2,10 @@
 UID: NS:sidebandaudio._SIDEBANDAUDIO_MUTE_PARAMS
 title: _SIDEBANDAUDIO_MUTE_PARAMS
 author: windows-driver-content
-description: 
+description: Describes the endpoint index and mute value.
 ms.assetid: ae031886-fe99-427e-b24e-a7ae46c33956
-ms.author: windowsdriverdev
-ms.date: 09/07/2018
+ms.date: 10/05/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _SIDEBANDAUDIO_MUTE_PARAMS, SIDEBANDAUDIO_MUTE_PARAMS, *PSIDEBANDAUDIO_MUTE_PARAMS, 
 req.header: sidebandaudio.h
 req.include-header:
@@ -33,6 +30,7 @@ api_name:
 -	_SIDEBANDAUDIO_MUTE_PARAMS
 product: Windows
 targetos: Windows
+tech.root: audio
 ---
 
 # _SIDEBANDAUDIO_MUTE_PARAMS structure
@@ -50,10 +48,12 @@ Describes the endpoint index and mute value.
 Indicates whether IOCTL current value is requested or IRP should complete upon next change in value.
  
 ### -field Channel
-TBD
+0 based index indicating the channel number.
 
 ### -field Value
-TBD 
+Boolean representing mute state:
+- TRUE - Muted
+- FALSE - Unmuted
 
 ## -remarks
 

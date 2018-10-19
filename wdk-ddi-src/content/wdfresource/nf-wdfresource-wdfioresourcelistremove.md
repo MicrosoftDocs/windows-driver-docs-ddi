@@ -6,11 +6,8 @@ description: The WdfIoResourceListRemove method removes a resource descriptor fr
 old-location: wdf\wdfioresourcelistremove.htm
 tech.root: wdf
 ms.assetid: fc67afc9-7542-4fca-bfc7-4b03b9d39735
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFResourceObjectRef_c8550890-69b9-493b-83d5-8a160eb85b8a.xml, WdfIoResourceListRemove, WdfIoResourceListRemove method, kmdf.wdfioresourcelistremove, wdf.wdfioresourcelistremove, wdfresource/WdfIoResourceListRemove
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfresource.h
 req.include-header: Wdf.h
@@ -92,7 +89,7 @@ The <b>WdfIoResourceListRemove</b> method removes the resource descriptor that i
 
 When <b>WdfIoResourceListRemove</b> removes the resource descriptor that has the index value <i>n</i>, the index value of the next resource descriptor changes from <i>n</i>+1 to <i>n</i>.
 
-For more information about resource requirements lists and logical configurations, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
+For more information about resource requirements lists and logical configurations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 
 #### Examples

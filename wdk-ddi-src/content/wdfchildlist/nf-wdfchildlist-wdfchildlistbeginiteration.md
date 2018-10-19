@@ -6,11 +6,8 @@ description: The WdfChildListBeginIteration method prepares the framework for re
 old-location: wdf\wdfchildlistbeginiteration.htm
 tech.root: wdf
 ms.assetid: b81dbad8-0e03-4183-a7b3-32c75a656575
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectChildListRef_98150ed0-3144-4fda-96ca-41573d3013bf.xml, WdfChildListBeginIteration, WdfChildListBeginIteration method, kmdf.wdfchildlistbeginiteration, wdf.wdfchildlistbeginiteration, wdfchildlist/WdfChildListBeginIteration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
@@ -94,7 +91,7 @@ If the driver makes changes to the child list after calling <b>WdfChildListBegin
 
 The driver can nest calls to <b>WdfChildListBeginIteration</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff545618">WdfChildListEndIteration</a>. If the driver nests calls to these methods, the framework stores all of the changes until the last call to <b>WdfChildListEndIteration</b>.
 
-For more information about child lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
+For more information about child lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
 
 #### Examples

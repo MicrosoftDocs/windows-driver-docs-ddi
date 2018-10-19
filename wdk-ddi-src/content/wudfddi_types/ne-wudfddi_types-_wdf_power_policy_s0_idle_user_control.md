@@ -6,11 +6,8 @@ description: The WDF_POWER_POLICY_S0_IDLE_USER_CONTROL enumeration identifies wh
 old-location: wdf\wdf_power_policy_s0_idle_user_control.htm
 tech.root: wdf
 ms.assetid: ee51c436-2d1c-49d0-ab76-337317eeeeda
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_3d85e623-4e88-4e66-a21d-489aebd13ddf.xml, IdleAllowUserControl, IdleDoNotAllowUserControl, IdleUserControlInvalid, WDF_POWER_POLICY_S0_IDLE_USER_CONTROL, WDF_POWER_POLICY_S0_IDLE_USER_CONTROL enumeration, _WDF_POWER_POLICY_S0_IDLE_USER_CONTROL, kmdf.wdf_power_policy_s0_idle_user_control, wdf.wdf_power_policy_s0_idle_user_control, wdfdevice/IdleAllowUserControl, wdfdevice/IdleDoNotAllowUserControl, wdfdevice/IdleUserControlInvalid, wdfdevice/WDF_POWER_POLICY_S0_IDLE_USER_CONTROL, wudfddi_types/IdleAllowUserControl, wudfddi_types/IdleDoNotAllowUserControl, wudfddi_types/IdleUserControlInvalid, wudfddi_types/WDF_POWER_POLICY_S0_IDLE_USER_CONTROL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wudfddi_types.h
 req.include-header: Wdf.h
@@ -82,7 +79,7 @@ Users can control the device's idle behavior.
 
 The <b>WDF_POWER_POLICY_S0_IDLE_USER_CONTROL</b> enumeration is used as a member type in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551270">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure.
 
-Users control a device's idle behavior by modifying information on a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/user-control-of-device-idle-and-wake-behavior">property sheet</a>. The framework creates the property sheet and Device Manager displays it.
+Users control a device's idle behavior by modifying information on a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/user-control-of-device-idle-and-wake-behavior">property sheet</a>. The framework creates the property sheet and Device Manager displays it.
 
 
 

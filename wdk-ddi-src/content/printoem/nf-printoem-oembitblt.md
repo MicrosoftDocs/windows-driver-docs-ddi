@@ -6,11 +6,8 @@ description: The OEMBitBlt function provides general bit-block transfer capabili
 old-location: print\oembitblt.htm
 tech.root: print
 ms.assetid: d47e1bdb-2c91-4f73-b742-5312d989781a
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: OEMBitBlt, OEMBitBlt function [Print Devices], print.oembitblt, print_unidrv-pscript_rendering_972c744c-971c-423f-a4fe-92b87cef8094.xml, printoem/OEMBitBlt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: printoem.h
 req.include-header: Printoem.h

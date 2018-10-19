@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID macro sets or gets the identifier of a virtual port (VPort) within the out-of-band (OOB) data in a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: 6ed1f2da-6e14-438e-9f3b-af8d1fbeeec4
-ms.author: windowsdriverdev
 ms.date: 04/13/2018
 ms.topic: macro
 ms.keywords: NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID

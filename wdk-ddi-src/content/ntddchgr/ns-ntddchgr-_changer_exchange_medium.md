@@ -6,11 +6,8 @@ description: The CHANGER_EXCHANGE_MEDIUM structure is used with the IOCTL_CHANGE
 old-location: storage\changer_exchange_medium.htm
 tech.root: storage
 ms.assetid: b0f03d83-61d3-4aa1-ae4e-a8bdc9f13a9f
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PCHANGER_EXCHANGE_MEDIUM, CHANGER_EXCHANGE_MEDIUM, CHANGER_EXCHANGE_MEDIUM structure [Storage Devices], PCHANGER_EXCHANGE_MEDIUM, PCHANGER_EXCHANGE_MEDIUM structure pointer [Storage Devices], _CHANGER_EXCHANGE_MEDIUM, ntddchgr/CHANGER_EXCHANGE_MEDIUM, ntddchgr/PCHANGER_EXCHANGE_MEDIUM, storage.changer_exchange_medium, structs-changer_4af39195-5fe7-42e2-b8bd-3247391fea3f.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddchgr.h
 req.include-header: 

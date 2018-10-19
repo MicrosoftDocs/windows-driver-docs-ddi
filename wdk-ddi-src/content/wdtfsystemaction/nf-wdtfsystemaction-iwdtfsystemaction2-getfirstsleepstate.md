@@ -6,11 +6,8 @@ description: Returns the first supported sleep state.
 old-location: dtf\iwdtfsystemaction2_getfirstsleepstate.htm
 tech.root: dtf
 ms.assetid: EE298195-5EAA-40E4-84F5-9B169F55DBF1
-ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: GetFirstSleepState, GetFirstSleepState method [Windows Device Testing Framework], GetFirstSleepState method [Windows Device Testing Framework],IWDTFSystemAction2 interface, IWDTFSystemAction2 interface [Windows Device Testing Framework],GetFirstSleepState method, IWDTFSystemAction2.GetFirstSleepState, IWDTFSystemAction2::GetFirstSleepState, Microsoft.WDTF.IWDTFSystemAction2.GetFirstSleepState, Microsoft::WDTF::IWDTFSystemAction2::GetFirstSleepState, dtf.iwdtfsystemaction2_getfirstsleepstate, wdtfsystemaction/IWDTFSystemAction2::GetFirstSleepState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtfsystemaction.h
 req.include-header: 

@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDataModelScriptDebugClient.AddRef
 title: IDataModelScriptDebugClient::AddRef
 author: windows-driver-content
-description: TBD
+description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: 83c066f1-8ea3-4024-b7b3-ebb5e47e4c64
-ms.author: windowsdriverdev
 ms.date: 09/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebugClient::AddRef, AddRef, IDataModelScriptDebugClient.AddRef, IDataModelScriptDebugClient::AddRef, IDataModelScriptDebugClient.AddRef
@@ -35,8 +34,6 @@ api_name:
 -	IDataModelScriptDebugClient.AddRef
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

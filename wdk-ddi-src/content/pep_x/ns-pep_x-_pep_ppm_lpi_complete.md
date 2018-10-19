@@ -6,11 +6,8 @@ description: The PEP_PPM_QUERY_FEEDBACK_COUNTERS structure describes all the pro
 old-location: kernel\pep_ppm_query_feedback_counters.htm
 tech.root: kernel
 ms.assetid: A27D34CC-A702-4944-84B7-FF9AF6BA030B
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 03/28/2018
 ms.keywords: "*PPEP_PPM_LPI_COMPLETE, *PPEP_PPM_QUERY_FEEDBACK_COUNTERS, PEP_PPM_LPI_COMPLETE, PEP_PPM_QUERY_FEEDBACK_COUNTERS, PEP_PPM_QUERY_FEEDBACK_COUNTERS structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_FEEDBACK_COUNTERS, PPEP_PPM_QUERY_FEEDBACK_COUNTERS structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_LPI_COMPLETE, kernel.pep_ppm_query_feedback_counters, pepfx/PEP_PPM_QUERY_FEEDBACK_COUNTERS, pepfx/PPEP_PPM_QUERY_FEEDBACK_COUNTERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pep_x.h
 req.include-header: Pep_x.h, Pep_x.h
@@ -72,7 +69,7 @@ The <b>PEP_PPM_QUERY_FEEDBACK_COUNTERS</b> structure describes all the processor
 
 #### - Count
 
-[in] The number of processor performance feedback counters supported by the PEP. The PEP previously supplied this count in response to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186820">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a> notification.
+[in] The number of processor performance feedback counters supported by the PEP. The PEP previously supplied this count in response to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186820">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a> notification.
 
 
 #### - Counters
@@ -84,7 +81,7 @@ The <b>PEP_PPM_QUERY_FEEDBACK_COUNTERS</b> structure describes all the processor
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186823">PEP_NOTIFY_PPM_QUERY_FEEDBACK_COUNTERS</a> notification. The <b>Count</b> member of the structure contains an input value that PoFx supplies when this notification is sent. The <b>Counters</b> member contains an output value that the PEP writes in response to the notification. The PEP writes any additional <b>Counters</b> array elements to the output buffer area that follows the <b>PEP_PPM_QUERY_FEEDBACK_COUNTERS</b> structure. The buffer that PoFx allocated for this structure is guaranteed to be large enough to contain any array elements that follow the structure.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186823">PEP_NOTIFY_PPM_QUERY_FEEDBACK_COUNTERS</a> notification. The <b>Count</b> member of the structure contains an input value that PoFx supplies when this notification is sent. The <b>Counters</b> member contains an output value that the PEP writes in response to the notification. The PEP writes any additional <b>Counters</b> array elements to the output buffer area that follows the <b>PEP_PPM_QUERY_FEEDBACK_COUNTERS</b> structure. The buffer that PoFx allocated for this structure is guaranteed to be large enough to contain any array elements that follow the structure.
 
 
 
@@ -94,7 +91,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186823">PEP_NOTIFY_PPM_QUERY_FEEDBACK_COUNTERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186823">PEP_NOTIFY_PPM_QUERY_FEEDBACK_COUNTERS</a>
 
 
 

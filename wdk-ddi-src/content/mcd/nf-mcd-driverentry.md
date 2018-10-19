@@ -6,11 +6,8 @@ description: The DriverEntry miniport driver routine is called when the miniport
 old-location: storage\driverentry.htm
 tech.root: storage
 ms.assetid: f756e66b-7e66-4a27-9327-70608207d99b
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: DriverEntry, DriverEntry routine [Storage Devices], atartns_b300b119-8261-4daf-8155-c9da17cb519a.xml, storage.driverentry, wdm/DriverEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mcd.h
 req.include-header: Ntddk.h, Mcd.h
@@ -51,7 +48,7 @@ req.typenames:
 
 
 The <b><i>DriverEntry</i></b> miniport driver routine is called when the miniport driver is loaded.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 

@@ -6,11 +6,8 @@ description: An offload target calls the NdisTcpOffloadReceiveHandler function t
 old-location: netvista\ndistcpoffloadreceivehandler.htm
 tech.root: netvista
 ms.assetid: a45dede9-6559-4207-a49f-d9627054433a
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDIS_TCP_OFFLOAD_RECEIVE_INDICATE, NDIS_TCP_OFFLOAD_RECEIVE_INDICATE callback, NdisTcpOffloadReceiveHandler, NdisTcpOffloadReceiveHandler callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadReceiveHandler, netvista.ndistcpoffloadreceivehandler, tcp_chim_ndis_func_c79b9638-b69d-49de-b33b-95c0136a45f8.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
@@ -221,7 +218,7 @@ During initialization, the offload target should allocate two pools of buffers, 
 Each allocated NET_BUFFER_LIST structure must have only one NET_BUFFER structure associated with it.
     The number of such structures to allocate is up to the driver writer. For more information about
     allocating such structures, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/miniport-driver-buffer-management">Miniport Driver Buffer
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/miniport-driver-buffer-management">Miniport Driver Buffer
     Management</a>.
 
 Provided that it is not making a delayed acknowledgment, the offload target should acknowledge
@@ -280,7 +277,7 @@ In the
     <b>RcvIndicationSize</b> member of the TCP_OFFLOAD_STATE_CACHED structure, the host stack can specify the
     optimum number of data bytes that the offload target should supply in a single call to the 
     <b>NdisTcpOffloadReceiveHandler</b> function. For more information, see 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff564606">Using the Specified
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564606">Using the Specified
     Receive Indication Size</a>.
 
 

@@ -6,11 +6,8 @@ description: The MRxSrvCallWinnerNotify routine is called by RDBSS to notify a n
 old-location: ifsk\mrxsrvcallwinnernotify.htm
 tech.root: ifsk
 ms.assetid: 6853b73e-5516-485e-ade4-54b7faf6bb1d
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: MRxSrvCallWinnerNotify, MRxSrvCallWinnerNotify routine [Installable File System Drivers], PMRX_SRVCALL_WINNER_NOTIFY, ifsk.mrxsrvcallwinnernotify, mrx/MRxSrvCallWinnerNotify, mrxref_32054fb8-84ca-407a-ab65-90feee16041d.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: mrx.h
 req.include-header: Mrx.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The<i> MRxSrvCallWinnerNotify</i> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to notify a network mini-redirector that it was chosen when multiple redirectors could fulfill the request. 
+The<i> MRxSrvCallWinnerNotify</i> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to notify a network mini-redirector that it was chosen when multiple redirectors could fulfill the request. 
 
 
 ## -parameters

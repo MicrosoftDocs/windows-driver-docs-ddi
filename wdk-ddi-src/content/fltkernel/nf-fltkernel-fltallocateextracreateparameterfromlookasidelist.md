@@ -6,11 +6,8 @@ description: The FltAllocateExtraCreateParameterFromLookasideList routine alloca
 old-location: ifsk\fltallocateextracreateparameterfromlookasidelist.htm
 tech.root: ifsk
 ms.assetid: 33ab7ff3-d9b0-43ad-9971-62735f3240df
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltAllocateExtraCreateParameterFromLookasideList, FltAllocateExtraCreateParameterFromLookasideList routine [Installable File System Drivers], FltApiRef_a_to_d_27580c4f-61c2-46b1-be1c-8895c918a05e.xml, fltkernel/FltAllocateExtraCreateParameterFromLookasideList, ifsk.fltallocateextracreateparameterfromlookasidelist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

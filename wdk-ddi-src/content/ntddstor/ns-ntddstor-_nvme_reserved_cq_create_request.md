@@ -4,11 +4,8 @@ title: _NVME_RESERVED_CQ_CREATE_REQUEST
 author: windows-driver-content
 description: 
 ms.assetid: 4861a8c9-346e-44ac-af68-1a7e0f915b6f
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _NVME_RESERVED_CQ_CREATE_REQUEST, NVME_RESERVED_CQ_CREATE_REQUEST, *PNVME_RESERVED_CQ_CREATE_REQUEST, 
 req.header: ntddstor.h
 req.include-header:

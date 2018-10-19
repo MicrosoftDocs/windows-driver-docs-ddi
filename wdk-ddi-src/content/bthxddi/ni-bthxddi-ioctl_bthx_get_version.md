@@ -6,11 +6,8 @@ description: Profile drivers use IOCTL_BTHX_GET_VERSION to get the version suppo
 old-location: bltooth\ioctl_bthx_get_version.htm
 tech.root: bltooth
 ms.assetid: F4FD760B-551C-4738-A13D-444E08215D59
-ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: IOCTL_BTHX_GET_VERSION, IOCTL_BTHX_GET_VERSION control, IOCTL_BTHX_GET_VERSION control code [Bluetooth Devices], bltooth.ioctl_bthx_get_version, bthxddi/IOCTL_BTHX_GET_VERSION
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: bthxddi.h
 req.include-header: 

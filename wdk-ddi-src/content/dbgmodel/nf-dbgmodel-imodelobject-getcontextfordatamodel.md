@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IModelObject.GetContextForDataModel
 title: IModelObject::GetContextForDataModel
 author: windows-driver-content
-description: TBD
+description: The GetContextForDataModel method is used to retrieve context information which was set up with a prior call to SetContextForDataModel. 
 ms.assetid: ee97f69a-f378-47d6-9633-3b0e5bef6451
-ms.author: windowsdriverdev
 ms.date: 08/09/2018
 ms.topic: method
 ms.keywords: IModelObject::GetContextForDataModel, GetContextForDataModel, IModelObject.GetContextForDataModel, IModelObject::GetContextForDataModel, IModelObject.GetContextForDataModel
@@ -35,8 +34,6 @@ api_name:
 -	IModelObject.GetContextForDataModel
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

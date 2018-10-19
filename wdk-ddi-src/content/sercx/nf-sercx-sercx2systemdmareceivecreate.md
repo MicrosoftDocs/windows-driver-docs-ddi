@@ -6,11 +6,8 @@ description: The SerCx2SystemDmaReceiveCreate method creates a SerCx2 system-DMA
 old-location: serports\sercx2systemdmareceivecreate.htm
 tech.root: serports
 ms.assetid: 62758F49-5CBB-4694-B4F4-12A5372F846F
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SerCx2SystemDmaReceiveCreate, SerCx2SystemDmaReceiveCreate, SerCx2SystemDmaReceiveCreate method [Serial Ports], serports.sercx2systemdmareceivecreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 
@@ -75,7 +72,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 
 ### -param SystemDmaReceive [out]
 
-A pointer to a location to which this method writes a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a> handle to the newly created system-DMA-receive object. SerCx2 and the serial controller driver use this handle in subsequent calls to refer to this object.
+A pointer to a location to which this method writes a <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a> handle to the newly created system-DMA-receive object. SerCx2 and the serial controller driver use this handle in subsequent calls to refer to this object.
 
 
 ## -returns
@@ -175,7 +172,7 @@ As an option, a serial controller driver can use the <i>Attributes</i> parameter
 
 If the <i>Attributes</i> parameter points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure, the caller must not overwrite the values that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552402">WDF_OBJECT_ATTRIBUTES_INIT</a> initialization function writes to the <b>ParentObject</b>, <b>ExecutionLevel</b>, and <b>SynchronizationScope</b> members of this structure.
 
-For more information about creating system-DMA-receive objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a>. For more information about system-DMA-receive transactions, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn265343">SerCx2 System-DMA-Receive Transactions</a>.
+For more information about creating system-DMA-receive objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a>. For more information about system-DMA-receive transactions, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn265343">SerCx2 System-DMA-Receive Transactions</a>.
 
 
 
@@ -221,7 +218,7 @@ For more information about creating system-DMA-receive objects, see <a href="htt
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a>
 
 
 

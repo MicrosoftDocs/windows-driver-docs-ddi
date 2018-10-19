@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IEquatableConcept.QueryInterface
 title: IEquatableConcept::QueryInterface
 author: windows-driver-content
-description: TBD
+description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: f0a9e269-c78b-4425-8e6c-0a3cce39d219
-ms.author: windowsdriverdev
 ms.date: 09/19/2018
 ms.topic: method
 ms.keywords: IEquatableConcept::QueryInterface, QueryInterface, IEquatableConcept.QueryInterface, IEquatableConcept::QueryInterface, IEquatableConcept.QueryInterface
@@ -35,8 +34,6 @@ api_name:
 -	IEquatableConcept.QueryInterface
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

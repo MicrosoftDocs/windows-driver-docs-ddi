@@ -6,11 +6,8 @@ description: The FltQueryDirectoryFile routine returns various kinds of informat
 old-location: ifsk\fltquerydirectoryfile.htm
 tech.root: ifsk
 ms.assetid: d77dfcc7-a7a7-4027-9831-42b1b79738d0
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_d91e48f4-f6a2-4f36-a5f6-9e39821446c2.xml, FltQueryDirectoryFile, FltQueryDirectoryFile routine [Installable File System Drivers], fltkernel/FltQueryDirectoryFile, ifsk.fltquerydirectoryfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

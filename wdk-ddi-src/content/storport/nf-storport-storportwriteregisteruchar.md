@@ -6,11 +6,8 @@ description: The StorPortWriteRegisterBufferUshort routine transfers a given num
 old-location: storage\storportwriteregisteruchar.htm
 tech.root: storage
 ms.assetid: 731ae55e-8cfb-4b76-b811-dbdabd8dd067
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortWriteRegisterUchar, StorPortWriteRegisterUchar routine [Storage Devices], storage.storportwriteregisteruchar, storport/StorPortWriteRegisterUchar, storprt_5c7a4209-e917-4a68-94f7-7b3b3fcc634e.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: storport.h
 req.include-header: Storport.h

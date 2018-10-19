@@ -6,11 +6,8 @@ description: The KeQuerySystemTimePrecise routine retrieves the current system t
 old-location: kernel\kequerysystemtimeprecise.htm
 tech.root: kernel
 ms.assetid: 4f5df2b5-e896-4519-aec9-5699155bb142
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeQuerySystemTimePrecise, KeQuerySystemTimePrecise routine [Kernel-Mode Driver Architecture], kernel.kequerysystemtimeprecise, wdm/KeQuerySystemTimePrecise
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

@@ -6,11 +6,8 @@ description: NdisCmDispatchIncomingCall informs the client of an incoming call o
 old-location: netvista\ndiscmdispatchincomingcall.htm
 tech.root: netvista
 ms.assetid: 2172aeec-8502-414e-9d01-9292c0eb7ce8
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisCmDispatchIncomingCall, NdisCmDispatchIncomingCall function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_892a99ac-d4f0-4f4b-9656-a43c99d67aca.xml, ndis/NdisCmDispatchIncomingCall, netvista.ndiscmdispatchincomingcall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

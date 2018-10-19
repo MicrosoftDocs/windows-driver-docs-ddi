@@ -6,11 +6,8 @@ description: Reserved for system use.
 old-location: storage\stor_crypto_operation_type.htm
 tech.root: storage
 ms.assetid: DF8E428F-9F72-451E-AB3E-E6D3CBC99C8F
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSTOR_CRYPTO_OPERATION_TYPE, PSTOR_CRYPTO_OPERATION_TYPE, PSTOR_CRYPTO_OPERATION_TYPE enumeration pointer [Storage Devices], STOR_CRYPTO_OPERATION_TYPE, STOR_CRYPTO_OPERATION_TYPE enumeration [Storage Devices], _STOR_CRYPTO_OPERATION_TYPE, storage.stor_crypto_operation_type, storport/, storport/PSTOR_CRYPTO_OPERATION_TYPE, storport/STOR_CRYPTO_OPERATION_TYPE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: storport.h
 req.include-header: 

@@ -4,11 +4,8 @@ title: PFND3D12DDI_DESTROYVIDEOMOTIONESTIMATOR_0053
 author: windows-driver-content
 description: Destroys the video motion estimator.
 ms.assetid: 6d142a01-4ba6-4d72-b5ae-19a5117f4448
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Destroys the video motion estimator.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROYVIDEOMOTIONESTIMATOR_0053 Pfnd3d12ddiDestroyvideomotionestimator0053; 

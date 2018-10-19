@@ -6,11 +6,8 @@ description: The FsRtlDeleteKeyFromTunnelCache routine deletes any tunnel cache 
 old-location: ifsk\fsrtldeletekeyfromtunnelcache.htm
 tech.root: ifsk
 ms.assetid: 01f0d1ab-7c7f-4ee2-89f0-c48b257bafbb
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlDeleteKeyFromTunnelCache, FsRtlDeleteKeyFromTunnelCache routine [Installable File System Drivers], fsrtlref_cbb2d1c7-d4c5-4fe0-9e35-d09dac0e7eff.xml, ifsk.fsrtldeletekeyfromtunnelcache, ntifs/FsRtlDeleteKeyFromTunnelCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h

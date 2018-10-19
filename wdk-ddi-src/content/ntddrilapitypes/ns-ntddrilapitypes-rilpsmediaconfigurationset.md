@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilpsmediaconfigurationset.htm
 tech.root: netvista
 ms.assetid: b41f6539-293f-47ed-b720-5053574a1841
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILPSMEDIACONFIGURATIONSET, RILPSMEDIACONFIGURATIONSET, RILPSMEDIACONFIGURATIONSET structure [Network Drivers Starting with Windows Vista], netvista.rilpsmediaconfigurationset, ntddrilapitypes/RILPSMEDIACONFIGURATIONSET"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h

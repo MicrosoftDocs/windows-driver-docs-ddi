@@ -6,11 +6,8 @@ description: The IOCTL_HID_GET_FEATURE request returns a feature report associat
 old-location: hid\ioctl_hid_get_feature2.htm
 tech.root: hid
 ms.assetid: 86ae1bd2-8c19-47e4-a551-f039d2eb8f47
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IOCTL_HID_GET_FEATURE, IOCTL_HID_GET_FEATURE control, IOCTL_HID_GET_FEATURE control code [Human Input Devices], hid.ioctl_hid_get_feature2, hidclass/IOCTL_HID_GET_FEATURE, hidioreq_3257c7bb-bf6e-4731-afb1-82cb6b0f28a5.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: hidclass.h
 req.include-header: Hidclass.h

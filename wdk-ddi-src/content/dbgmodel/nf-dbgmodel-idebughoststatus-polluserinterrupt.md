@@ -2,10 +2,9 @@
 UID: NF:dbgmodel.IDebugHostStatus.PollUserInterrupt
 title: IDebugHostStatus::PollUserInterrupt
 author: windows-driver-content
-description: TBD
+description: The PollUserInterrupt method is used to inquire whether the user of the debug host has requested an interruption of the current operation. 
 ms.assetid: 47cffc73-e8d3-4aa4-b2d5-9c91db2eba80
-ms.author: windowsdriverdev
-ms.date: 09/20/2018 
+ms.date: 09/20/2018
 ms.topic: method
 ms.keywords: IDebugHostStatus::PollUserInterrupt, PollUserInterrupt, IDebugHostStatus.PollUserInterrupt, IDebugHostStatus::PollUserInterrupt, IDebugHostStatus.PollUserInterrupt
 req.header: dbgmodel.h
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostStatus.PollUserInterrupt
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

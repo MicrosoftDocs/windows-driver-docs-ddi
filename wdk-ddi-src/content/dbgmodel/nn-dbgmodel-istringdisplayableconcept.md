@@ -2,13 +2,10 @@
 UID: NN:dbgmodel.IStringDisplayableConcept
 title: IStringDisplayableConcept
 author: windows-driver-content
-description: TBD
+description: Interface which clients must implement on any object which is convertible to a display string.
 ms.assetid: 108b4841-40cd-4771-ac66-953c9910b143
-ms.author: windowsdriverdev
-ms.date: 07/16/2018
+ms.date: 10/05/2018
 ms.topic: interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -45,6 +42,7 @@ Clients should not rely on the form of this string conversion for programmatic p
 
 ## -inheritance
 IStringDisplayableConcept interits from IUnknown. 
+
 ## -members
 
 <p>IStringDisplayableConcept has these methods.</p>

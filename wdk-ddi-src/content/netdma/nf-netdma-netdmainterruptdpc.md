@@ -6,11 +6,8 @@ description: The NetDmaInterruptDpc function notifies the NetDMA interface that 
 old-location: netvista\netdmainterruptdpc.htm
 tech.root: netvista
 ms.assetid: 93d7e4dd-70ee-4490-bffd-9b07511ee9fe
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NetDmaInterruptDpc, NetDmaInterruptDpc function [Network Drivers Starting with Windows Vista], netdma/NetDmaInterruptDpc, netdma_ref_112a0d48-213e-4b5c-a776-11d5dcb83e1b.xml, netvista.netdmainterruptdpc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netdma.h
 req.include-header: Netdma.h

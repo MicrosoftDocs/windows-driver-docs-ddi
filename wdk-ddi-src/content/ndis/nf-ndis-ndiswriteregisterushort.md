@@ -6,11 +6,8 @@ description: NdisWriteRegisterUshort is called by the miniport driver to write a
 old-location: netvista\ndiswriteregisterushort.htm
 tech.root: netvista
 ms.assetid: 676beebf-4c22-4eb5-bfad-a6f66f3a95be
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisWriteRegisterUshort, NdisWriteRegisterUshort macro [Network Drivers Starting with Windows Vista], miniport_register_ref_a2e4ab78-aab2-4076-8f66-4e48a60b5beb.xml, ndis/NdisWriteRegisterUshort, netvista.ndiswriteregisterushort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ndis.h
 req.include-header: Ndis.h

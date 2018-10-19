@@ -2,10 +2,9 @@
 UID: NF:dbgmodel.IKeyEnumerator.GetNext
 title: IKeyEnumerator::GetNext
 author: windows-driver-content
-description: TBD
+description:  Moves the iterator forward and fetches the name of the next key and, optionally, its value (or a reference to it) and associated metadata.
 ms.assetid: 0a6a1109-c97f-4335-ac2d-434e9bd57f40
-ms.author: windowsdriverdev
-ms.date: 08/13/2018
+ms.date: 10/05/2018
 ms.topic: method
 ms.keywords: IKeyEnumerator::GetNext, GetNext, IKeyEnumerator.GetNext, IKeyEnumerator::GetNext, IKeyEnumerator.GetNext
 req.header: dbgmodel.h
@@ -35,8 +34,6 @@ api_name:
 -	IKeyEnumerator.GetNext
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 
@@ -44,7 +41,6 @@ tech.root: debugger
 
 
 ## -description
-
  Moves the iterator forward and fetches the name of the next key and, optionally, its value (or a reference to it) and associated metadata.
     
  Note that depending on how this enumerator was acquired, the object returned in the value field may be the value associated with the key (EnumerateKeys), the resolved value of any property that the key refers to (EnumerateKeyValues), or a reference to the key (EnumerateKeyReferences).
@@ -54,10 +50,13 @@ tech.root: debugger
 ## -parameters
 
 ### -param key
+TBD
 
 ### -param value
+TBD
 
 ### -param metadata
+If there is any metadata associated with the iterated element, it is returned (optionally) in this argument.
 
 
 ## -returns

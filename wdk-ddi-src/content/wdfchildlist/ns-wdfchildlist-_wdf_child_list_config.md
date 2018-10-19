@@ -6,11 +6,8 @@ description: The WDF_CHILD_LIST_CONFIG structure contains configuration informat
 old-location: wdf\wdf_child_list_config.htm
 tech.root: wdf
 ms.assetid: d0a392f4-c7c3-4b61-960c-b94f9605f5a4
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*PWDF_CHILD_LIST_CONFIG, DFDeviceObjectChildListRef_9666f463-1673-4208-9745-e1d12b523569.xml, PWDF_CHILD_LIST_CONFIG, PWDF_CHILD_LIST_CONFIG structure pointer, WDF_CHILD_LIST_CONFIG, WDF_CHILD_LIST_CONFIG structure, _WDF_CHILD_LIST_CONFIG, kmdf.wdf_child_list_config, wdf.wdf_child_list_config, wdfchildlist/PWDF_CHILD_LIST_CONFIG, wdfchildlist/WDF_CHILD_LIST_CONFIG"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
@@ -67,12 +64,12 @@ The size, in bytes, of this structure.
 
 ### -field IdentificationDescriptionSize
 
-The size, in bytes, of each child's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">identification description</a>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551223">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>.
+The size, in bytes, of each child's <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">identification description</a>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551223">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>.
 
 
 ### -field AddressDescriptionSize
 
-The size, in bytes, of each child's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">address description</a>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551219">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>.
+The size, in bytes, of each child's <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">address description</a>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551219">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>.
 
 
 ### -field EvtChildListCreateDevice
@@ -133,7 +130,7 @@ The <b>WDF_CHILD_LIST_CONFIG</b> structure is used as input to the <a href="http
 
 To initialize a WDF_CHILD_LIST_CONFIG structure, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551228">WDF_CHILD_LIST_CONFIG_INIT</a>.
 
-For more information about child lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
+For more information about child lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
 
 

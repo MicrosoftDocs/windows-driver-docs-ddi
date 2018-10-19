@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDebugHostType.CreateArrayOf
 title: IDebugHostType::CreateArrayOf
 author: windows-driver-content
-description: TBD
+description: For any given type, this returns a new IDebugHostType which is an array of this type.
 ms.assetid: bb8de044-1e9d-4357-8419-44016942f386
-ms.author: windowsdriverdev
 ms.date: 09/11/2018
 ms.topic: method
 ms.keywords: IDebugHostType::CreateArrayOf, CreateArrayOf, IDebugHostType.CreateArrayOf, IDebugHostType::CreateArrayOf, IDebugHostType.CreateArrayOf
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostType.CreateArrayOf
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

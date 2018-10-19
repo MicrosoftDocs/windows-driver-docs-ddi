@@ -6,11 +6,8 @@ description: The WdfRequestRetrieveInputWdmMdl method retrieves a memory descrip
 old-location: wdf\wdfrequestretrieveinputwdmmdl.htm
 tech.root: wdf
 ms.assetid: 8046d9e4-d4a2-4aeb-92b2-a48277af8b41
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_d65a1869-de52-4284-818f-a3f0837d0374.xml, WdfRequestRetrieveInputWdmMdl, WdfRequestRetrieveInputWdmMdl method, kmdf.wdfrequestretrieveinputwdmmdl, wdf.wdfrequestretrieveinputwdmmdl, wdfrequest/WdfRequestRetrieveInputWdmMdl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfrequest.h
 req.include-header: Wdf.h
@@ -160,9 +157,9 @@ The <b>WdfRequestRetrieveInputWdmMdl</b> method retrieves the input buffer's MDL
 
 If <b>WdfRequestRetrieveInputWdmMdl</b> returns STATUS_SUCCESS, the driver receives a pointer to an MDL that describes the input buffer. 
 
-The driver must not access a request's MDL after <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">completing the I/O request</a>.
+The driver must not access a request's MDL after <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-i-o-requests">completing the I/O request</a>.
 
-For more information about <b>WdfRequestRetrieveInputWdmMdl</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in Framework-Based Drivers</a>.
+For more information about <b>WdfRequestRetrieveInputWdmMdl</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in Framework-Based Drivers</a>.
 
 
 #### Examples

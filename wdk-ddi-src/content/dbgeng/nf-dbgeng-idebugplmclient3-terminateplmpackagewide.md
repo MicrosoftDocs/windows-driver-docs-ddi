@@ -6,11 +6,8 @@ description: Ends a Process Lifecycle Management (PLM) package.
 old-location: debugger\idebugplmclient3_terminateplmpackagewide.htm
 tech.root: debugger
 ms.assetid: EBEEF2C7-AD2E-4BE5-B20C-D4E148F1454C
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugPlmClient3 interface [Windows Debugging],TerminatePlmPackageWide method, IDebugPlmClient3.TerminatePlmPackageWide, IDebugPlmClient3::TerminatePlmPackageWide, TerminatePlmPackageWide, TerminatePlmPackageWide method [Windows Debugging], TerminatePlmPackageWide method [Windows Debugging],IDebugPlmClient3 interface, dbgeng/IDebugPlmClient3::TerminatePlmPackageWide, debugger.idebugplmclient3_terminateplmpackagewide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

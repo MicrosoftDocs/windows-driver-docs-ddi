@@ -6,11 +6,8 @@ description: This structure is for internal use only.
 old-location: battery\powersourceupdate.htm
 tech.root: battery
 ms.assetid: A1BFCCE4-14F0-4F41-A062-71B001CE14AA
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PPOWERSOURCEUPDATE, POWERSOURCEUPDATE, POWERSOURCEUPDATE structure [Battery Devices], _POWERSOURCEUPDATE, battery.powersourceupdate, charging/BATTERY_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: charging.h
 req.include-header: Charging.h

@@ -6,11 +6,8 @@ description: Allows an application to send almost any SCSI command to a target d
 old-location: storage\ioctl_scsi_pass_through_direct.htm
 tech.root: storage
 ms.assetid: 7706e861-b8d6-41c3-9b64-371de4f58d48
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_SCSI_PASS_THROUGH_DIRECT, IOCTL_SCSI_PASS_THROUGH_DIRECT control, IOCTL_SCSI_PASS_THROUGH_DIRECT control code [Storage Devices], k307_4d0f0379-41c5-45c5-98b4-1a222349b4e1.xml, ntddscsi/IOCTL_SCSI_PASS_THROUGH_DIRECT, storage.ioctl_scsi_pass_through_direct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
@@ -78,7 +75,7 @@ Applications can send this request by means of an <a href="https://msdn.microsof
 Storage class drivers set the minor IRP number to IRP_MN_SCSI_CLASS to indicate that the request has been processed by a storage class driver. 
 
 
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -ioctlparameters
 

@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilreadmsgparams.htm
 tech.root: netvista
 ms.assetid: feeabcd2-659f-4a87-abdd-cfbf89589c48
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILREADMSGPARAMS, RILREADMSGPARAMS, RILREADMSGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilreadmsgparams, ntddrilapitypes/RILREADMSGPARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h

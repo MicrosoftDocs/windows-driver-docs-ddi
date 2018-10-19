@@ -6,11 +6,8 @@ description: The EvtSerCx2SetWaitMask event callback function is called by versi
 old-location: serports\evtsercx2setwaitmask.htm
 tech.root: serports
 ms.assetid: C248FEF0-8E0B-4296-940E-763165F80617
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2SetWaitMask, EVT_SERCX2_SET_WAIT_MASK, EVT_SERCX2_SET_WAIT_MASK callback, EvtSerCx2SetWaitMask, EvtSerCx2SetWaitMask callback function [Serial Ports], serports.evtsercx2setwaitmask
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sercx.h
 req.include-header: 
@@ -88,7 +85,7 @@ None.
 
 Your serial controller driver can, as an option, implement this function. If implemented, the driver registers the function in the call to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265261">SerCx2InitializeDevice</a> method that finishes the initialization of the framework device object for the serial controller.
 
-When SerCx receives an <a href="https://msdn.microsoft.com/library/windows/hardware/ff546780">IOCTL_SERIAL_SET_WAIT_MASK</a> request from a client, the request handler in SerCx2 calls the <i>EvtSerCx2SetWaitMask</i> function, if it is implemented, to notify the driver that the wait mask has changed. If the wait mask is nonzero, the driver immediately starts to monitor the events in the new wait mask, and discards any old wait mask that might have been supplied in a previous <i>EvtSerCx2SetWaitMask</i> call. If the new wait mask is zero, the driver simply discards the old wait mask and ceases to monitor any wait mask events. For more information about the types of events that can be specified by a wait mask, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/peripheral-drivers-for-devices-on-sercx2-managed-serial-ports">SERIAL_EV_XXX</a>.
+When SerCx receives an <a href="https://msdn.microsoft.com/library/windows/hardware/ff546780">IOCTL_SERIAL_SET_WAIT_MASK</a> request from a client, the request handler in SerCx2 calls the <i>EvtSerCx2SetWaitMask</i> function, if it is implemented, to notify the driver that the wait mask has changed. If the wait mask is nonzero, the driver immediately starts to monitor the events in the new wait mask, and discards any old wait mask that might have been supplied in a previous <i>EvtSerCx2SetWaitMask</i> call. If the new wait mask is zero, the driver simply discards the old wait mask and ceases to monitor any wait mask events. For more information about the types of events that can be specified by a wait mask, see <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/peripheral-drivers-for-devices-on-sercx2-managed-serial-ports">SERIAL_EV_XXX</a>.
 
 If the driver does not implement this function, SerCx2 fails all <a href="https://msdn.microsoft.com/library/windows/hardware/ff546780">IOCTL_SERIAL_SET_WAIT_MASK</a> requests with error status code STATUS_NOT_SUPPORTED.
 
@@ -98,9 +95,9 @@ The <i>EvtSerCx2SetWaitMask</i> function is responsible for completing the <b>IO
 
 Before the serial controller driver calls <b>WdfRequestComplete</b> to complete the request, the driver must finish any calls to <b>SerCx2CompleteWait</b> that might be still be pending due to events in the old wait mask.
 
-Initially, after a client opens a logical connection to the serial port and before the first <i>EvtSerCx2SetWaitMask</i> call, the wait mask is effectively zero, and the serial controller driver is not monitoring any <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/peripheral-drivers-for-devices-on-sercx2-managed-serial-ports">SERIAL_EV_XXX</a> events.
+Initially, after a client opens a logical connection to the serial port and before the first <i>EvtSerCx2SetWaitMask</i> call, the wait mask is effectively zero, and the serial controller driver is not monitoring any <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/peripheral-drivers-for-devices-on-sercx2-managed-serial-ports">SERIAL_EV_XXX</a> events.
 
-SerCx2 fails an <b>IOCTL_SERIAL_SET_WAIT_MASK</b> request that has a wait mask that includes any of the following <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/peripheral-drivers-for-devices-on-sercx2-managed-serial-ports">SERIAL_EV_XXX</a> event flags:
+SerCx2 fails an <b>IOCTL_SERIAL_SET_WAIT_MASK</b> request that has a wait mask that includes any of the following <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/peripheral-drivers-for-devices-on-sercx2-managed-serial-ports">SERIAL_EV_XXX</a> event flags:
 
 <ul>
 <li>SERIAL_EV_PERR</li>
@@ -116,7 +113,7 @@ If implemented, your <i>EvtSerCx2SetWaitMask</i> function should support the fol
 <li>SERIAL_EV_BREAK</li>
 <li>SERIAL_EV_ERR</li>
 </ul>
-Also, if the serial controller has a <i>data set ready</i> (DSR) signal line, the <i>EvtSerCx2SetWaitMask</i> function should support SERIAL_EV_DSR. As an option, a driver can support any of the other event flags described in <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/peripheral-drivers-for-devices-on-sercx2-managed-serial-ports">SERIAL_EV_XXX</a>. If the wait mask specifies an event that the driver does not support, the <i>EvtSerCx2SetWaitMask</i> function should fail the request and set the status value in the request to STATUS_INVALID_PARAMETER.
+Also, if the serial controller has a <i>data set ready</i> (DSR) signal line, the <i>EvtSerCx2SetWaitMask</i> function should support SERIAL_EV_DSR. As an option, a driver can support any of the other event flags described in <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/peripheral-drivers-for-devices-on-sercx2-managed-serial-ports">SERIAL_EV_XXX</a>. If the wait mask specifies an event that the driver does not support, the <i>EvtSerCx2SetWaitMask</i> function should fail the request and set the status value in the request to STATUS_INVALID_PARAMETER.
 
 
 #### Examples
@@ -173,7 +170,7 @@ The <b>EVT_SERCX2_SET_WAIT_MASK</b> function type is defined in the Sercx.h head
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/peripheral-drivers-for-devices-on-sercx2-managed-serial-ports">SERIAL_EV_XXX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/serports/peripheral-drivers-for-devices-on-sercx2-managed-serial-ports">SERIAL_EV_XXX</a>
 
 
 

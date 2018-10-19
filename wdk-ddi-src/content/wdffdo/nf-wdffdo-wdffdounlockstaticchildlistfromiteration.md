@@ -6,11 +6,8 @@ description: The WdfFdoUnlockStaticChildListFromIteration method unlocks the lis
 old-location: wdf\wdffdounlockstaticchildlistfromiteration.htm
 tech.root: wdf
 ms.assetid: ba0eb090-a03c-4723-a30c-16b161e50198
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_5d630e1f-4c2d-4fce-92d8-c59cc472ceb5.xml, WdfFdoUnlockStaticChildListFromIteration, WdfFdoUnlockStaticChildListFromIteration method, kmdf.wdffdounlockstaticchildlistfromiteration, wdf.wdffdounlockstaticchildlistfromiteration, wdffdo/WdfFdoUnlockStaticChildListFromIteration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdffdo.h
 req.include-header: Wdf.h
@@ -87,7 +84,7 @@ To lock a child list, the driver calls <a href="https://msdn.microsoft.com/libra
 
 Calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547282">WdfFdoLockStaticChildListForIteration</a> can be nested and must be matched by an equal number of calls to <b>WdfFdoUnlockStaticChildListFromIteration</b>. If a driver adds or removes items from the child list while it is locked, the framework queues these changes and processes them after the last call to <b>WdfFdoUnlockStaticChildListFromIteration</b>.
 
-For more information about static child lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/enumerating-the-devices-on-a-bus">Enumerating the Devices on a Bus</a>.
+For more information about static child lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/enumerating-the-devices-on-a-bus">Enumerating the Devices on a Bus</a>.
 
 
 #### Examples

@@ -4,11 +4,8 @@ title: _D3DDDI_DRIVERESCAPE_TRANSLATERESOURCEHANDLE
 author: windows-driver-content
 description: Used to translate the resource handle to the corresponding host handle.
 ms.assetid: 75a6f37a-1c3e-43d0-8761-cbdab68ad6fd
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DDDI_DRIVERESCAPE_TRANSLATERESOURCEHANDLE, D3DDDI_DRIVERESCAPE_TRANSLATERESOURCEHANDLE, 
 req.header: d3dukmdt.h
 req.include-header:

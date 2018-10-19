@@ -6,11 +6,8 @@ description: The WdfDeviceStopIdle method informs the framework that the specifi
 old-location: wdf\wdfdevicestopidle.htm
 tech.root: wdf
 ms.assetid: a394f539-bd66-44e2-a857-d657a123b473
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_3dbde224-ecdf-429e-9389-9bdb49b16040.xml, WdfDeviceStopIdle, WdfDeviceStopIdle method, kmdf.wdfdevicestopidle, wdf.wdfdevicestopidle, wdfdevice/WdfDeviceStopIdle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: wdfdevice.h
 req.include-header: Wdf.h
@@ -95,7 +92,7 @@ Every successful call to <b>WdfDeviceStopIdle</b> must eventually be followed by
 
  If the system enters a low-power state after <b>WdfDeviceStopIdle</b> returns, the device also enters a low-power state. When the system returns to its working (S0) state, the device also returns to its working (D0) state.  The power reference from the call to <b>WdfDeviceStopIdle</b> remains active and prevents the device from entering a low-power state until there is a matching call to  <a href="https://msdn.microsoft.com/library/windows/hardware/ff546838">WdfDeviceResumeIdle</a>.
 
-For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-idle-power-down">Supporting Idle Power-Down</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-idle-power-down">Supporting Idle Power-Down</a>.
 
 If <i>WaitForD0</i> is <b>TRUE</b>, <b>WdfDeviceStopIdle</b> must be called at IRQL = PASSIVE_LEVEL. If <i>WaitForD0</i> is <b>FALSE</b>, this method must be called at IRQL &lt;= DISPATCH_LEVEL.
 

@@ -6,11 +6,8 @@ description: The IPrintOemUni::SendFontCmd method enables a rendering plug-in to
 old-location: print\iprintoemuni_sendfontcmd.htm
 tech.root: print
 ms.assetid: b90a94d1-c6f3-483c-b5fc-edfee27094ab
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintOemUni interface [Print Devices],SendFontCmd method, IPrintOemUni.SendFontCmd, IPrintOemUni::SendFontCmd, SendFontCmd, SendFontCmd method [Print Devices], SendFontCmd method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::SendFontCmd, print.iprintoemuni_sendfontcmd, print_unidrv-pscript_rendering_18926c40-665b-4ea9-9343-7939619d093a.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

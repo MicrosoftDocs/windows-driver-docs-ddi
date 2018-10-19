@@ -2,13 +2,10 @@
 UID: NN:dbgmodel.IComparableConcept
 title: IComparableConcept
 author: windows-driver-content
-description: TBD
+description: Compares this object to another (of arbitrary type).  If the comparison cannot be performed, E_NOT_SET should be returned.
 ms.assetid: ddbad055-aafe-4ba0-8265-1b9216610f20
-ms.author: windowsdriverdev
 ms.date: 07/13/2018
 ms.topic: interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

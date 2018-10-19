@@ -6,11 +6,8 @@ description: ChangerReinitializeUnit handles the device-specific aspects of a de
 old-location: storage\changerreinitializeunit.htm
 tech.root: storage
 ms.assetid: 161156e3-0da0-458d-b623-67665b2a56c0
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ChangerReinitializeUnit, ChangerReinitializeUnit function [Storage Devices], chgrmini_9883d8fd-334e-49f5-93ad-408622aa339f.xml, mcd/ChangerReinitializeUnit, storage.changerreinitializeunit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h

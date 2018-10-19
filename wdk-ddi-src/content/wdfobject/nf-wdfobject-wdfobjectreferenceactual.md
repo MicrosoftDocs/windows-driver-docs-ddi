@@ -6,11 +6,8 @@ description: The WdfObjectReferenceActual method increments the reference count 
 old-location: wdf\wdfobjectreferenceactual.htm
 tech.root: wdf
 ms.assetid: d0bb58c1-1036-496a-b108-c0d5e5de3bc2
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFGenObjectRef_f1251726-c87f-4faa-9a96-0b7e49da2f2c.xml, WdfObjectReferenceActual, WdfObjectReferenceActual method, kmdf.wdfobjectreferenceactual, wdf.wdfobjectreferenceactual, wdfobject/WdfObjectReferenceActual
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfobject.h
 req.include-header: Wdf.h
@@ -102,7 +99,7 @@ If your driver calls <b>WdfObjectReferenceActual</b> to increment a reference co
 
 Calling <b>WdfObjectReferenceActual</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548763">WdfObjectReferenceWithTag</a> instead of <a href="https://msdn.microsoft.com/library/windows/hardware/ff548758">WdfObjectReference</a> provides additional information (tag value, line number, and file name) to Microsoft debuggers. <b>WdfObjectReferenceActual</b> allows your driver to specify the line number and file name, while <b>WdfObjectReferenceWithTag</b> uses the driver's current line number and file name.
 
-You can view the tag, line number, and file name values by using the <b>!wdftagtracker</b> debugger extension. The debugger extension displays the tag value as both a pointer and a series of characters. For more about debugger extensions, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/debugging-driver-installation">Debugging a KMDF Driver</a>.
+You can view the tag, line number, and file name values by using the <b>!wdftagtracker</b> debugger extension. The debugger extension displays the tag value as both a pointer and a series of characters. For more about debugger extensions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/debugging-driver-installation">Debugging a KMDF Driver</a>.
 
 For more information about object reference counts, see <a href="https://msdn.microsoft.com/33efc3a8-ac46-4626-ba0f-beb1eaa9ee47">Framework Object Life Cycle</a>.
 

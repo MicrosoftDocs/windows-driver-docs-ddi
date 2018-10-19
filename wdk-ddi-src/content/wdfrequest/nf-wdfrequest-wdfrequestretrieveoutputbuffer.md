@@ -6,11 +6,8 @@ description: The WdfRequestRetrieveOutputBuffer method retrieves an I/O request'
 old-location: wdf\wdfrequestretrieveoutputbuffer.htm
 tech.root: wdf
 ms.assetid: 5f12dd97-d8e7-4fef-91bf-00243c0cdd52
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_05ab728b-3b70-4095-acca-294443797557.xml, WdfRequestRetrieveOutputBuffer, WdfRequestRetrieveOutputBuffer method, kmdf.wdfrequestretrieveoutputbuffer, wdf.wdfrequestretrieveoutputbuffer, wdfrequest/WdfRequestRetrieveOutputBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfrequest.h
 req.include-header: Wdf.h
@@ -172,11 +169,11 @@ The <b>WdfRequestRetrieveOutputBuffer</b> method retrieves the output buffer for
 
 If <b>WdfRequestRetrieveOutputBuffer</b> returns STATUS_SUCCESS, the driver receives the address and, optionally, the size of the output buffer. 
 
-The driver can access the retrieved buffer until it <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">completes the I/O request</a> that the <i>Request</i> parameter represents.
+The driver can access the retrieved buffer until it <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-i-o-requests">completes the I/O request</a> that the <i>Request</i> parameter represents.
 
 Instead of calling <b>WdfRequestRetrieveOutputBuffer</b>, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550019">WdfRequestRetrieveOutputMemory</a>, which creates a framework memory object that represents the buffer.
 
-For more information about <b>WdfRequestRetrieveOutputBuffer</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in Framework-Based Drivers</a>.
+For more information about <b>WdfRequestRetrieveOutputBuffer</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in Framework-Based Drivers</a>.
 
 
 #### Examples

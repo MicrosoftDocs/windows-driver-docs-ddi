@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Used in a call to the DxgkDdiQueryEngineStatus function to specify a node within an active physical adapter (engine) that is to be queried for its progress.
 old-location: display\dxgkarg_queryenginestatus.htm
 ms.assetid: f7255c97-5c25-4ee2-988b-ff301878fe7c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*INOUT_PDXGKARG_QUERYENGINESTATUS, DXGKARG_QUERYENGINESTATUS, DXGKARG_QUERYENGINESTATUS structure [Display Devices], _DXGKARG_QUERYENGINESTATUS, d3dkmddi/DXGKARG_QUERYENGINESTATUS, display.dxgkarg_queryenginestatus"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

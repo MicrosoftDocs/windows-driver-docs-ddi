@@ -6,11 +6,8 @@ description: The ScsiPortWmiGetInstanceName routine returns a pointer to the ins
 old-location: storage\scsiportwmigetinstancename.htm
 tech.root: storage
 ms.assetid: ff2ebd1c-d0ac-47a7-90d4-0b49259784c1
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ScsiPortWmiGetInstanceName, ScsiPortWmiGetInstanceName routine [Storage Devices], scsiprt_184c6508-4189-4ab2-a445-7e52e5c688ab.xml, scsiwmi/ScsiPortWmiGetInstanceName, storage.scsiportwmigetinstancename
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: scsiwmi.h
 req.include-header: Miniport.h, Scsi.h
@@ -51,7 +48,7 @@ req.typenames:
 
 
 The <b>ScsiPortWmiGetInstanceName</b> routine returns a pointer to the instance name associated with the indicated the <a href="https://msdn.microsoft.com/5c2ed322-0fc9-4004-9a5f-f4d3c6a59fe9">Windows Management Instrumentation</a> (WMI) SCSI Request Block (SRB). 
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 

@@ -6,11 +6,8 @@ description: DirectX 9.0 and later versions only. DD_GETEXTENDEDMODECOUNTDATA is
 old-location: display\dd_getextendedmodecountdata.htm
 tech.root: display
 ms.assetid: 138b6ae2-4c89-40cb-a7b0-d1208e68c460
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DD_GETEXTENDEDMODECOUNTDATA, DD_GETEXTENDEDMODECOUNTDATA structure [Display Devices], _DD_GETEXTENDEDMODECOUNTDATA, d3dhal/DD_GETEXTENDEDMODECOUNTDATA, d3dstrct_2139722c-6eff-4c77-b899-2085de6239fd.xml, display.dd_getextendedmodecountdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dhal.h
 req.include-header: D3dhal.h

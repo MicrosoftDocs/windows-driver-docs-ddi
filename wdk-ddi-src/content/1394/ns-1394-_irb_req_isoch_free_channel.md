@@ -6,11 +6,8 @@ description: This structure contains the fields required to carry out a IsochFre
 old-location: ieee\irb_req_isoch_free_channel.htm
 tech.root: IEEE
 ms.assetid: 949D165B-1F42-40EA-B050-38847E14B968
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_ISOCH_FREE_CHANNEL, IEEE.irb_req_isoch_free_channel, IRB_REQ_ISOCH_FREE_CHANNEL, IRB_REQ_ISOCH_FREE_CHANNEL structure [Buses], _IRB_REQ_ISOCH_FREE_CHANNEL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 1394.h
 req.include-header: 

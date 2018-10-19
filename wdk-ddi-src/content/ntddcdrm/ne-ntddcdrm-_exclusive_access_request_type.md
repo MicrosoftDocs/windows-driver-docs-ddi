@@ -6,11 +6,8 @@ description: The EXCLUSIVE_ACCESS_REQUEST_TYPE enumeration is used to report the
 old-location: storage\exclusive_access_request_type.htm
 tech.root: storage
 ms.assetid: 314dfdeb-1821-444a-84c6-2ee7fa536122
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PEXCLUSIVE_ACCESS_REQUEST_TYPE, EXCLUSIVE_ACCESS_REQUEST_TYPE, EXCLUSIVE_ACCESS_REQUEST_TYPE enumeration [Storage Devices], ExclusiveAccessLockDevice, ExclusiveAccessQueryState, ExclusiveAccessUnlockDevice, PEXCLUSIVE_ACCESS_REQUEST_TYPE, PEXCLUSIVE_ACCESS_REQUEST_TYPE enumeration pointer [Storage Devices], _EXCLUSIVE_ACCESS_REQUEST_TYPE, ntddcdrm/EXCLUSIVE_ACCESS_REQUEST_TYPE, ntddcdrm/ExclusiveAccessLockDevice, ntddcdrm/ExclusiveAccessQueryState, ntddcdrm/ExclusiveAccessUnlockDevice, ntddcdrm/PEXCLUSIVE_ACCESS_REQUEST_TYPE, storage.exclusive_access_request_type, structs-CD-ROM_0b0d7aae-3085-422c-84c4-555d935ca176.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h

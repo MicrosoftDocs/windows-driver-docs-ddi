@@ -2,13 +2,10 @@
 UID: NS:acpitabl._ACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER
 title: _ACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER structure
 author: windows-driver-content
-description: 
+description: Describes the ACPI PLD interface instance GUID descriptor buffer, revision 1 (Microsoft custom PLD buffer extension, 128-bits).
 ms.assetid: 2a4ad06c-2d79-49e0-b830-b6956e9c55c8
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/02/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _ACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER, ACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER, *PACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER, 
 req.header: acpitabl.h
 req.include-header:
@@ -46,12 +43,13 @@ Describes the ACPI PLD interface instance GUID descriptor buffer, revision 1 (Mi
 
 ### -field ReferenceGuid
  
+The ReferenceString field of the ACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER structure.
 
 ## -remarks
 
-GUID is defined as follows:
+The GUID is defined as follows:
 
-```
+```C++
 DEFINE_GUID(ACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER_GUID,
     0x1face9db, 0x2530, 0x4248, 0x8e, 0xe3, 0x51, 0x05, 0x3a, 0xef, 0x47, 0xc2);
 ```

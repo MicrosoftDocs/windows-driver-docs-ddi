@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Called by a Windows Display Driver Model (WDDM) 1.2 or later display miniport driver to allocate a GPU context or device-specific context.
 old-location: display\dxgkcbcreatecontextallocation.htm
 ms.assetid: b6b142a4-20eb-4368-bd7f-8a25f4fe48ca
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKCB_CREATECONTEXTALLOCATION, DXGKCB_CREATECONTEXTALLOCATION callback, DxgkCbCreateContextAllocation, DxgkCbCreateContextAllocation callback function [Display Devices], d3dkmddi/DxgkCbCreateContextAllocation, display.dxgkcbcreatecontextallocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

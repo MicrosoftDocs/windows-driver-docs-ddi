@@ -6,11 +6,8 @@ description: The WskReceiveFromEvent event callback function notifies a WSK appl
 old-location: netvista\wskreceivefromevent.htm
 tech.root: netvista
 ms.assetid: 1cdb8a70-54fe-44a6-a16c-71cbf6a49ef2
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: PFN_WSK_RECEIVE_FROM_EVENT, PFN_WSK_RECEIVE_FROM_EVENT callback, WskReceiveFromEvent, WskReceiveFromEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskreceivefromevent, wsk/WskReceiveFromEvent, wskref_c8523644-4a5e-4b0f-b8ef-b6a4fd081868.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wsk.h
 req.include-header: Wsk.h
@@ -188,7 +185,7 @@ If the WSK application enabled the
 <li>
 If the WSK application enabled the 
          <i>WskReceiveFromEvent</i> event callback function by using the 
-         <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff571181">
+         <a href="https://msdn.microsoft.com/library/windows/hardware/ff571181">
          WSK_SET_STATIC_EVENT_CALLBACKS</a> client control operation, the WSK subsystem will not disable
          the 
          <i>WskReceiveFromEvent</i> event callback function. The WSK subsystem will continue calling the 
@@ -213,7 +210,7 @@ The WSK subsystem calls a WSK application's
     only if the event callback function was previously enabled with the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570834">SO_WSK_EVENT_CALLBACK</a> socket option.
     For more information about enabling a socket's event callback functions, see 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa363707">Enabling and
+    <a href="https://msdn.microsoft.com/library/windows/desktop/aa363707">Enabling and
     Disabling Event Callback Functions</a>.
 
 If a WSK application's 

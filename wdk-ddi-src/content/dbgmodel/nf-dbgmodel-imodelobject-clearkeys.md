@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IModelObject.ClearKeys
 title: IModelObject::ClearKeys
 author: windows-driver-content
-description: TBD
+description: The ClearKeys method removes all keys and their associated values and metadata from the instance of the object specified by this. 
 ms.assetid: 7922533c-4454-4300-943d-5a7c3cd68f22
-ms.author: windowsdriverdev
 ms.date: 07/20/2018
 ms.topic: method
 ms.keywords: IModelObject::ClearKeys, ClearKeys, IModelObject.ClearKeys, IModelObject::ClearKeys, IModelObject.ClearKeys
@@ -35,8 +34,6 @@ api_name:
 -	IModelObject.ClearKeys
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

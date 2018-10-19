@@ -6,11 +6,8 @@ description: The DestroyVideoProcessor function releases resources for a Microso
 old-location: display\destroyvideoprocessor.htm
 tech.root: display
 ms.assetid: ea90fe17-4b79-4011-9e05-d5dbd06c0c6b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DestroyVideoProcessor, DestroyVideoProcessor callback function [Display Devices], PFND3DDDI_DXVAHD_DESTROYVIDEOPROCESSOR, PFND3DDDI_DXVAHD_DESTROYVIDEOPROCESSOR callback, UserModeDisplayDriver_Functions_e55b46ab-1325-4bb7-bf22-9f3cb19bff71.xml, d3dumddi/DestroyVideoProcessor, display.destroyvideoprocessor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

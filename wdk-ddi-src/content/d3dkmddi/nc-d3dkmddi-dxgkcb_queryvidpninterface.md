@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The DxgkCbQueryVidPnInterface function returns a pointer to a DXGK_VIDPN_INTERFACE structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter a VidPN object.
 old-location: display\dxgkcbqueryvidpninterface.htm
 ms.assetid: 649ce7fc-6852-43f3-b944-b2b64fcba874
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKCB_QUERYVIDPNINTERFACE, DXGKCB_QUERYVIDPNINTERFACE callback, DpFunctions_0bbf993b-c05b-402b-af4a-cf1a3ec4d4b8.xml, DxgkCbQueryVidPnInterface, DxgkCbQueryVidPnInterface callback function [Display Devices], d3dkmddi/DxgkCbQueryVidPnInterface, display.dxgkcbqueryvidpninterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

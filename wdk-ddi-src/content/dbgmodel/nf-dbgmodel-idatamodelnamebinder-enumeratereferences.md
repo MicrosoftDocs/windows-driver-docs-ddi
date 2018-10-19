@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDataModelNameBinder.EnumerateReferences
 title: IDataModelNameBinder::EnumerateReferences
 author: windows-driver-content
-description: TBD
+description: The EnumerateReferences method enumerates the set of names and references to them which will bind against the object according to the rules of the BindReference method.
 ms.assetid: 7959dcc0-5da5-4952-bb98-d7c41950ba35
-ms.author: windowsdriverdev
 ms.date: 09/12/2018
 ms.topic: method
 ms.keywords: IDataModelNameBinder::EnumerateReferences, EnumerateReferences, IDataModelNameBinder.EnumerateReferences, IDataModelNameBinder::EnumerateReferences, IDataModelNameBinder.EnumerateReferences
@@ -35,8 +34,6 @@ api_name:
 -	IDataModelNameBinder.EnumerateReferences
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

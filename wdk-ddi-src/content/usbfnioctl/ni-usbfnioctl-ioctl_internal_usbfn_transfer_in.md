@@ -6,11 +6,8 @@ description: The class driver sends this request to initiate a data transfer to 
 old-location: buses\_ioctl_internal_usbfn_transfer_in.htm
 tech.root: usbref
 ms.assetid: 53F895F8-596D-464C-866E-67028CF644E4
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: IOCTL_INTERNAL_USBFN_TRANSFER_IN, IOCTL_INTERNAL_USBFN_TRANSFER_IN control, IOCTL_INTERNAL_USBFN_TRANSFER_IN control code [Buses], buses._ioctl_internal_usbfn_transfer_in, usbfnioctl/IOCTL_INTERNAL_USBFN_TRANSFER_IN
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: usbfnioctl.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_stopdtmf.htm
 tech.root: netvista
 ms.assetid: d7f70ecd-0a11-48bf-9a8b-d2e08c280f51
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_StopDTMF, RIL_StopDTMF method [Network Drivers Starting with Windows Vista], netvista.ril_stopdtmf, rilapi/RIL_StopDTMF
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rilapi.h
 req.include-header: 

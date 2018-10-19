@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Called to retrieve multiplane overlay capabilities. Support for this DDI is required for any WDDM 2.2 driver that wants to support multiple planes.
 old-location: display\dxgkddi_getmultiplaneoverlaycaps.htm
 ms.assetid: 17A9B769-D280-491D-844E-A9B2C66D2207
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_GETMULTIPLANEOVERLAYCAPS, DXGKDDI_GETMULTIPLANEOVERLAYCAPS callback, DXGKDDI_GETMULTIPLANEOVERLAYCAPS callback function [Display Devices], d3dkmddi/DXGKDDI_GETMULTIPLANEOVERLAYCAPS, display.dxgkddi_getmultiplaneoverlaycaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 

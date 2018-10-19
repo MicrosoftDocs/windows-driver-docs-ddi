@@ -6,11 +6,8 @@ description: The KsAcquireResetValue function retrieves the current reset state 
 old-location: stream\ksacquireresetvalue.htm
 tech.root: stream
 ms.assetid: 80a990e3-3637-4837-8800-42d5848e01cf
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsAcquireResetValue, KsAcquireResetValue function [Streaming Media Devices], ks/KsAcquireResetValue, ksfunc_fbfd5f64-6842-4559-9829-05797fda4fa2.xml, stream.ksacquireresetvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

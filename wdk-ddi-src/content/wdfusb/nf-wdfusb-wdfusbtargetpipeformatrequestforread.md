@@ -6,11 +6,8 @@ description: The WdfUsbTargetPipeFormatRequestForRead method builds a read reque
 old-location: wdf\wdfusbtargetpipeformatrequestforread.htm
 tech.root: wdf
 ms.assetid: 33a6f597-2f33-4214-80c1-8bded182800a
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_5cd8eeb4-5822-44ef-ba50-e978b780463b.xml, WdfUsbTargetPipeFormatRequestForRead, WdfUsbTargetPipeFormatRequestForRead method, kmdf.wdfusbtargetpipeformatrequestforread, wdf.wdfusbtargetpipeformatrequestforread, wdfusb/WdfUsbTargetPipeFormatRequestForRead
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
@@ -196,7 +193,7 @@ The driver must call <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 </li>
 </ol>
-For more information about forwarding an I/O request, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/forwarding-i-o-requests">Forwarding I/O Requests</a>.
+For more information about forwarding an I/O request, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/forwarding-i-o-requests">Forwarding I/O Requests</a>.
 
 Drivers often divide received I/O requests into smaller requests that they send to an I/O target, so your driver might create new requests.
 
@@ -228,7 +225,7 @@ Multiple calls to <b>WdfUsbTargetPipeFormatRequestForRead</b> that use the same 
 
 The framework sets the USBD_SHORT_TRANSFER_OK flag in its internal  <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>. Setting this flag allows the last packet of a data transfer to be less than the maximum packet size.
 
-For information about obtaining status information after an I/O request completes, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Obtaining Completion Information</a>.
+For information about obtaining status information after an I/O request completes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-i-o-requests">Obtaining Completion Information</a>.
 
 For more information about the <b>WdfUsbTargetPipeFormatRequestForRead</b> method and USB I/O targets, see <a href="https://msdn.microsoft.com/195c0f4b-7f33-428a-8de7-32643ad854c6">USB I/O Targets</a>.
 

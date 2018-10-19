@@ -6,11 +6,8 @@ description: The CWiauPropertyList::SetAccessSubType method resets a property's 
 old-location: image\cwiaupropertylist_setaccesssubtype.htm
 tech.root: image
 ms.assetid: 207125d3-0833-4c5d-b66f-aa49c96a6a2d
-ms.author: windowsdriverdev
-ms.date: 9/7/2018
+ms.date: 09/07/2018
 ms.keywords: CWiauPropertyList, CWiauPropertyList interface [Imaging Devices], SetAccessSubType method, CWiauPropertyList::SetAccessSubType, SetAccessSubType method [Imaging Devices], SetAccessSubType method [Imaging Devices], CWiauPropertyList interface, SetAccessSubType,CWiauPropertyList.SetAccessSubType, image.cwiaupropertylist_setaccesssubtype, wiauFncs_ab4b792f-54f0-4efa-bb13-5b71d94e03e0.xml, wiautil/CWiauPropertyList::SetAccessSubType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h

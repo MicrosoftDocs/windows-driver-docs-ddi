@@ -6,11 +6,8 @@ description: The StorPortSetPowerSettingNotificationGuids routine enables a mini
 old-location: storage\storportsetpowersettingnotificationguids.htm
 tech.root: storage
 ms.assetid: FB74E774-8CDE-4DE4-942E-10AF4BEFF63C
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: Adaptive Setting, HIPM/DIPM Setting, StorPortSetPowerSettingNotificationGuids, StorPortSetPowerSettingNotificationGuids routine [Storage Devices], storage.storportsetpowersettingnotificationguids, storport/StorPortSetPowerSettingNotificationGuids
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

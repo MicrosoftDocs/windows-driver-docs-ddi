@@ -6,11 +6,8 @@ description: The EvtSerCx2PioTransmitCancelReadyNotification event callback func
 old-location: serports\evtsercx2piotransmitcancelreadynotification.htm
 tech.root: serports
 ms.assetid: 2483F6A6-67FE-4C75-9872-53F66B4BD658
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2PioTransmitCancelReadyNotification, EVT_SERCX2_PIO_TRANSMIT_CANCEL_READY_NOTIFICATION, EVT_SERCX2_PIO_TRANSMIT_CANCEL_READY_NOTIFICATION callback, EvtSerCx2PioTransmitCancelReadyNotification, EvtSerCx2PioTransmitCancelReadyNotification callback function [Serial Ports], serports.evtsercx2piotransmitcancelreadynotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sercx.h
 req.include-header: 
@@ -60,7 +57,7 @@ The <i>EvtSerCx2PioTransmitCancelReadyNotification</i> event callback function i
 
 ### -param PioTransmit [in]
 
-A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a> handle to a PIO-transmit object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265269">SerCx2PioTransmitCreate</a> method to create this object.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a> handle to a PIO-transmit object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265269">SerCx2PioTransmitCreate</a> method to create this object.
 
 
 ## -returns
@@ -135,7 +132,7 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_CANCEL_READY_NOTIFICATION</b> function type is de
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a>
 
 
 

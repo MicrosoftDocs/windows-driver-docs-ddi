@@ -6,11 +6,8 @@ description: An offload target calls the NdisMInitiateOffloadComplete function t
 old-location: netvista\ndisminitiateoffloadcomplete.htm
 tech.root: netvista
 ms.assetid: 983b2e04-1563-4f2e-85a7-8fd93ec1cd8c
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMInitiateOffloadComplete, NdisMInitiateOffloadComplete function [Network Drivers Starting with Windows Vista], ndischimney/NdisMInitiateOffloadComplete, netvista.ndisminitiateoffloadcomplete, tcp_chim_ndis_func_e5917638-7b7e-49e6-afad-63bbb3490cd9.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
@@ -161,7 +158,7 @@ NDIS_STATUS_FAILURE
 </li>
 </ul>
 For more information, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/returning-completion-status-of-an-initiate-offload-operation">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/returning-completion-status-of-an-initiate-offload-operation">
     Returning Completion Status of an Initiate Offload Operation</a>.
 
 

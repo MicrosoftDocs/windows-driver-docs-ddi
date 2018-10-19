@@ -6,11 +6,8 @@ description: The WDF_INTERRUPT_INFO structure contains information about a devic
 old-location: wdf\wdf_interrupt_info_umdf.htm
 tech.root: wdf
 ms.assetid: 37B997D1-6F5D-4685-BF46-2C33685C157F
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*PWDF_INTERRUPT_INFO, PWDF_INTERRUPT_INFO, PWDF_INTERRUPT_INFO structure pointer, WDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO structure, _WDF_INTERRUPT_INFO, umdf.wdf_interrupt_info, wdf.wdf_interrupt_info_umdf, wudfinterrupt/PWDF_INTERRUPT_INFO, wudfinterrupt/WDF_INTERRUPT_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wudfinterrupt.h
 req.include-header: 
@@ -50,7 +47,7 @@ req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/hh464020">WDF_INTERRUPT_INFO</a> structure contains information about a device's interrupt resource.
@@ -73,7 +70,7 @@ This member is reserved for future use.
 
 ### -field TargetProcessorSet
 
-A [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)-typed value that specifies the interrupt's processor affinity.
+A [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)-typed value that specifies the interrupt's processor affinity.
 
 
 ### -field Reserved2
@@ -139,7 +136,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh464020">WDF_I
 
 
 
-[**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)
+[**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)
 
 
 

@@ -6,11 +6,8 @@ description: Provides information on IPrintUnidiAsyncNotifyRegistration construc
 old-location: print\iprintunidiasyncnotifyregistration.htm
 tech.root: print
 ms.assetid: A1CC714A-CDD5-494F-8157-9D95DF738CBE
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintUnidiAsyncNotifyRegistration, IPrintUnidiAsyncNotifyRegistration interface [Print Devices], IPrintUnidiAsyncNotifyRegistration interface [Print Devices],described, print.iprintunidiasyncnotifyregistration, prnasntp/IPrintUnidiAsyncNotifyRegistration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: prnasntp.h
 req.include-header: 

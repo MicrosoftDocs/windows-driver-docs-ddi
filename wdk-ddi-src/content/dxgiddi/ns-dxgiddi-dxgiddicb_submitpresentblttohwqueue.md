@@ -4,11 +4,8 @@ title: DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE
 author: windows-driver-content
 description:
 ms.assetid: 23ad4e9d-d5eb-4cd9-80bd-194a6a276e63
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE, DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE,
 req.header: dxgiddi.h
 req.include-header:

@@ -6,11 +6,8 @@ description: The DOT11_POWER_MGMT_MODE_STATUS_INFO structure describes the power
 old-location: netvista\dot11_power_mgmt_mode_status_info.htm
 tech.root: netvista
 ms.assetid: A373EA34-A7CF-47B3-8194-438BE7F4FC9C
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_POWER_MGMT_MODE_STATUSINFO, DOT11_POWER_MGMT_MODE_STATUS_INFO, DOT11_POWER_MGMT_MODE_STATUS_INFO structure [Network Drivers Starting with Windows Vista], PDOT11_POWER_MGMT_MODE_STATUS_INFO, PDOT11_POWER_MGMT_MODE_STATUS_INFO structure pointer [Network Drivers Starting with Windows Vista], _DOT11_POWER_MGMT_MODE_STATUS_INFO, netvista.dot11_power_mgmt_mode_status_info, windot11/DOT11_POWER_MGMT_MODE_STATUS_INFO, windot11/PDOT11_POWER_MGMT_MODE_STATUS_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Windot11.h
@@ -58,14 +55,14 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DOT11_POWER_MGMT_MODE_STATUS_INFO {
   NDIS_OBJECT_HEADER      Header;
   DOT11_POWER_MODE        PowerSaveMode;
   ULONG                   uPowerSaveLevel;
   DOT11_POWER_MODE_REASON Reason;
 } DOT11_POWER_MGMT_MODE_STATUS_INFO, *PDOT11_POWER_MGMT_MODE_STATUS_INFO;
-````
+```
 
 
 ## -struct-fields

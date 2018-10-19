@@ -6,11 +6,8 @@ description: The GetCreateParametersEx method retrieves file creation parameters
 old-location: wdf\iwdfiorequest2_getcreateparametersex.htm
 tech.root: wdf
 ms.assetid: bc34d86b-fa0e-419e-9342-61df12a8e484
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: GetCreateParametersEx, GetCreateParametersEx method, GetCreateParametersEx method,IWDFIoRequest2 interface, IWDFIoRequest2 interface,GetCreateParametersEx method, IWDFIoRequest2.GetCreateParametersEx, IWDFIoRequest2::GetCreateParametersEx, UMDFRequestObjectRef_02864469-8022-4412-8de9-639dcd0b4f42.xml, umdf.iwdfiorequest2_getcreateparametersex, wdf.iwdfiorequest2_getcreateparametersex, wudfddi/IWDFIoRequest2::GetCreateParametersEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetCreateParametersEx</b> method retrieves file creation parameters that are associated with a file that is being created or opened.
 

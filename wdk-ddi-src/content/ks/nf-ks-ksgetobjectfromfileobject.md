@@ -6,11 +6,8 @@ description: The KsGetObjectFromFileObject function returns the AVStream object 
 old-location: stream\ksgetobjectfromfileobject.htm
 tech.root: stream
 ms.assetid: 6bd4f75b-a332-4e1f-8df7-0d6f51b0737b
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsGetObjectFromFileObject, KsGetObjectFromFileObject function [Streaming Media Devices], avfunc_800add7f-a220-4ad8-92bd-57e102739c8d.xml, ks/KsGetObjectFromFileObject, stream.ksgetobjectfromfileobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

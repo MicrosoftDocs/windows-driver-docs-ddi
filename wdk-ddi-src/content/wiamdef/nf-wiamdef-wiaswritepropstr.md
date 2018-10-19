@@ -6,11 +6,8 @@ description: The wiasWritePropStr function writes a single string property value
 old-location: image\wiaswritepropstr.htm
 tech.root: image
 ms.assetid: 542e4196-164b-4ae1-87ad-2d6adb9c8904
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiaswritepropstr, wiamdef/wiasWritePropStr, wiasFncs_f1b2ee2f-f9a1-4d10-9ffa-47a6c10c4a92.xml, wiasWritePropStr, wiasWritePropStr function [Imaging Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiamdef.h
 req.include-header: Wiamdef.h

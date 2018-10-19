@@ -6,11 +6,8 @@ description: The FWPS_FIELDS_OUTBOUND_TRANSPORT_V4 enumeration type specifies th
 old-location: netvista\fwps_fields_outbound_transport_v4.htm
 tech.root: netvista
 ms.assetid: 1acb99a6-3fbb-4f2c-b38d-befb49749bea
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FWPS_FIELDS_OUTBOUND_TRANSPORT_V4, FWPS_FIELDS_OUTBOUND_TRANSPORT_V4 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELDS_OUTBOUND_TRANSPORT_V4_, FWPS_FIELD_OUTBOUND_TRANSPORT_V4_FLAGS, FWPS_FIELD_OUTBOUND_TRANSPORT_V4_INTERFACE_INDEX, FWPS_FIELD_OUTBOUND_TRANSPORT_V4_INTERFACE_TYPE, FWPS_FIELD_OUTBOUND_TRANSPORT_V4_IP_DESTINATION_ADDRESS_TYPE, FWPS_FIELD_OUTBOUND_TRANSPORT_V4_IP_LOCAL_ADDRESS, FWPS_FIELD_OUTBOUND_TRANSPORT_V4_IP_LOCAL_ADDRESS_TYPE, FWPS_FIELD_OUTBOUND_TRANSPORT_V4_IP_LOCAL_INTERFACE, FWPS_FIELD_OUTBOUND_TRANSPORT_V4_IP_LOCAL_PORT, FWPS_FIELD_OUTBOUND_TRANSPORT_V4_IP_PROTOCOL, FWPS_FIELD_OUTBOUND_TRANSPORT_V4_IP_REMOTE_ADDRESS, FWPS_FIELD_OUTBOUND_TRANSPORT_V4_IP_REMOTE_PORT, FWPS_FIELD_OUTBOUND_TRANSPORT_V4_MAX, FWPS_FIELD_OUTBOUND_TRANSPORT_V4_PROFILE_ID, FWPS_FIELD_OUTBOUND_TRANSPORT_V4_SUB_INTERFACE_INDEX, FWPS_FIELD_OUTBOUND_TRANSPORT_V4_TUNNEL_TYPE, fwpsk/FWPS_FIELDS_OUTBOUND_TRANSPORT_V4, fwpsk/FWPS_FIELD_OUTBOUND_TRANSPORT_V4_FLAGS, fwpsk/FWPS_FIELD_OUTBOUND_TRANSPORT_V4_INTERFACE_INDEX, fwpsk/FWPS_FIELD_OUTBOUND_TRANSPORT_V4_INTERFACE_TYPE, fwpsk/FWPS_FIELD_OUTBOUND_TRANSPORT_V4_IP_DESTINATION_ADDRESS_TYPE, fwpsk/FWPS_FIELD_OUTBOUND_TRANSPORT_V4_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_OUTBOUND_TRANSPORT_V4_IP_LOCAL_ADDRESS_TYPE, fwpsk/FWPS_FIELD_OUTBOUND_TRANSPORT_V4_IP_LOCAL_INTERFACE, fwpsk/FWPS_FIELD_OUTBOUND_TRANSPORT_V4_IP_LOCAL_PORT, fwpsk/FWPS_FIELD_OUTBOUND_TRANSPORT_V4_IP_PROTOCOL, fwpsk/FWPS_FIELD_OUTBOUND_TRANSPORT_V4_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_OUTBOUND_TRANSPORT_V4_IP_REMOTE_PORT, fwpsk/FWPS_FIELD_OUTBOUND_TRANSPORT_V4_MAX, fwpsk/FWPS_FIELD_OUTBOUND_TRANSPORT_V4_PROFILE_ID, fwpsk/FWPS_FIELD_OUTBOUND_TRANSPORT_V4_SUB_INTERFACE_INDEX, fwpsk/FWPS_FIELD_OUTBOUND_TRANSPORT_V4_TUNNEL_TYPE, netvista.fwps_fields_outbound_transport_v4, wfp_ref_5_const_3_data_fields_0bde34c9-33a9-4fc8-8caf-ed1ec3a0f847.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
@@ -52,7 +49,7 @@ req.typenames: FWPS_FIELDS_OUTBOUND_TRANSPORT_V4
 
 The FWPS_FIELDS_OUTBOUND_TRANSPORT_V4 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_OUTBOUND_TRANSPORT_V4 and FWPS_LAYER_OUTBOUND_TRANSPORT_V4_DISCARD 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layers</a>.
+  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layers</a>.
 
 
 ## -enum-fields
@@ -147,9 +144,17 @@ The profile identifier (network category) of the network interface. The possible
 
 ### -field FWPS_FIELD_OUTBOUND_TRANSPORT_V4_IPSEC_SECURITY_REALM_ID
 
+The IPsec security realm identifier.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_OUTBOUND_TRANSPORT_V4_COMPARTMENT_ID
 
+The compartment that the network interface belongs to.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_OUTBOUND_TRANSPORT_V4_MAX
 
@@ -183,9 +188,11 @@ The following macros in
 </table></span></div>
 These macros are used to access the following IPV4 data fields:
 
+FWPS_FIELD_OUTBOUND_TRANSPORT_V4_ICMP_TYPE  
+The ICMP type field, as specified in RFC 792.
 
-
-
+FWPS_FIELD_OUTBOUND_TRANSPORT_V4_ICMP_CODE  
+The ICMP code field, as specified in RFC 792.
 
 
 ## -see-also

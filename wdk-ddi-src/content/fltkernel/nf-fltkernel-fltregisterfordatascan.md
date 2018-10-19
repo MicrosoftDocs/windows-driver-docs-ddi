@@ -6,11 +6,8 @@ description: The FltRegisterForDataScan routine enables data scanning for the vo
 old-location: ifsk\fltregisterfordatascan.htm
 tech.root: ifsk
 ms.assetid: E603975A-B927-475A-9DEA-2D01C1249819
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltRegisterForDataScan, FltRegisterForDataScan routine [Installable File System Drivers], fltkernel/FltRegisterForDataScan, ifsk.fltregisterfordatascan
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

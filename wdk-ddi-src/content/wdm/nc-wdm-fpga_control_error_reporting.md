@@ -4,11 +4,8 @@ title: FPGA_CONTROL_ERROR_REPORTING
 author: windows-driver-content
 description: Reserved for future use. Toggles the error reporting for the FPGA device and its parent bridge.
 ms.assetid: b7e4aaab-52a9-4d9d-892b-6f02f1172127
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -49,7 +46,7 @@ Toggles the error reporting for the FPGA device and its parent bridge.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FPGA_CONTROL_ERROR_REPORTING FpgaControlErrorReporting; 
@@ -76,10 +73,10 @@ FPGA_CONTROL_ERROR_REPORTING *PFPGA_CONTROL_ERROR_REPORTING
 [_In_reads_opt_(_Inexpressible_("varies"))] The handle to the bus extension.
  
 ### -param UncorrectableMask
-[_In_] A bitwise mask of flags defined in [**PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK**](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_pci_express_uncorrectable_error_mask) that indicates the uncorrectable masks to be toggled.
+[_In_] A bitwise mask of flags defined in [**PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_pci_express_uncorrectable_error_mask) that indicates the uncorrectable masks to be toggled.
  
 ### -param CorrectableMask
-[_In_]  A bitwise mask of flags defined in [**PCI_EXPRESS_CORRECTABLE_ERROR_MASK**](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_pci_express_correctable_error_mask) that indicates the correctable masks to be toggled.
+[_In_]  A bitwise mask of flags defined in [**PCI_EXPRESS_CORRECTABLE_ERROR_MASK**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_pci_express_correctable_error_mask) that indicates the correctable masks to be toggled.
 
 ### -param DisableErrorReporting
 [_In_] A flag indicates whether the error reporting is being disabled or enabled.
@@ -87,7 +84,7 @@ FPGA_CONTROL_ERROR_REPORTING *PFPGA_CONTROL_ERROR_REPORTING
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

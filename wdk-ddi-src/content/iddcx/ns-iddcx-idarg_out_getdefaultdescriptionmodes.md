@@ -6,11 +6,8 @@ description: Gives information about the default description modes for the monit
 old-location: display\idarg_out_getdefaultdescriptionmodes.htm
 tech.root: display
 ms.assetid: 0e172d33-e4af-4345-a979-6b4549565ec7
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IDARG_OUT_GETDEFAULTDESCRIPTIONMODES, IDARG_OUT_GETDEFAULTDESCRIPTIONMODES structure [Display Devices], display.idarg_out_getdefaultdescriptionmodes, iddcx/IDARG_OUT_GETDEFAULTDESCRIPTIONMODES
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iddcx.h
 req.include-header: 

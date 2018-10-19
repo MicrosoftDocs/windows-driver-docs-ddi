@@ -20,4 +20,4 @@ tech.root: kernel
 
 This header contains programming interfaces used by the Power Engine Plugins (PEPs). For more information, see:
 
-- [Platform Extension Plug-ins (PEPs)](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/platform-extension-plug-ins--peps-)
+- [Platform Extension Plug-ins (PEPs)](https://docs.microsoft.com/windows-hardware/drivers/kernel/platform-extension-plug-ins--peps-)

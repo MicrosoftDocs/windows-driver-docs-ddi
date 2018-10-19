@@ -6,11 +6,8 @@ description: The FsRtlInitExtraCreateParameterLookasideList routine initializes 
 old-location: ifsk\fsrtlinitextracreateparameterlookasidelist.htm
 tech.root: ifsk
 ms.assetid: 30ad87de-a371-415b-b77f-513369fed098
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlInitExtraCreateParameterLookasideList, FsRtlInitExtraCreateParameterLookasideList routine [Installable File System Drivers], fsrtlref_4b4e21ec-cfcc-45b7-bcb9-74dbc7c486ac.xml, ifsk.fsrtlinitextracreateparameterlookasidelist, ntifs/FsRtlInitExtraCreateParameterLookasideList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

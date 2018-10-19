@@ -5,12 +5,9 @@ author: windows-driver-content
 tech.root: usbref
 description: Used in the  GET_CONNECTOR_STATUS command. See Table 4-42, Offset 16.
 ms.assetid: 8daaa5ac-195a-431d-8735-1752b7c282ad
-ms.author: windowsdriverdev
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: enum
 ms.keywords: _UCSI_POWER_OPERATION_MODE, UCSI_POWER_OPERATION_MODE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 
 req.target-type:

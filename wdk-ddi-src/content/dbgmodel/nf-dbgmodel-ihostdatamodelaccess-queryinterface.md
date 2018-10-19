@@ -2,10 +2,9 @@
 UID: NF:dbgmodel.IHostDataModelAccess.QueryInterface
 title: IHostDataModelAccess::QueryInterface
 author: windows-driver-content
-description: TBD
+description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: a0f894dc-1518-4994-af6d-746f75f1b6d9
-ms.author: windowsdriverdev
-ms.date:  07/20/2018
+ms.date: 07/20/2018
 ms.topic: method
 ms.keywords: IHostDataModelAccess::QueryInterface, QueryInterface, IHostDataModelAccess.QueryInterface, IHostDataModelAccess::QueryInterface, IHostDataModelAccess.QueryInterface
 req.header: dbgmodel.h
@@ -35,8 +34,6 @@ api_name:
 -	IHostDataModelAccess.QueryInterface
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

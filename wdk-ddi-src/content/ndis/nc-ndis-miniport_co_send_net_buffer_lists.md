@@ -6,11 +6,8 @@ description: The MiniportCoSendNetBufferLists function transmits network data th
 old-location: netvista\miniportcosendnetbufferlists.htm
 tech.root: netvista
 ms.assetid: 4a717842-6d71-488e-a56a-57c6e6e0c5d7
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_CO_SEND_NET_BUFFER_LISTS, MINIPORT_CO_SEND_NET_BUFFER_LISTS callback, MiniportCoSendNetBufferLists, MiniportCoSendNetBufferLists callback function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_28cddc06-235d-4274-a783-554dec10ad84.xml, ndis/MiniportCoSendNetBufferLists, netvista.miniportcosendnetbufferlists
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

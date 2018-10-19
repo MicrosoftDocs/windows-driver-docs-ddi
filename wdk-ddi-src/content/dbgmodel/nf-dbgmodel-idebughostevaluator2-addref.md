@@ -2,10 +2,9 @@
 UID: NF:dbgmodel.IDebugHostEvaluator2.AddRef
 title: IDebugHostEvaluator2::AddRef
 author: windows-driver-content
-description: TBD
+description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: e3645855-1628-4797-bb5d-5bb7083e37e7
-ms.author: windowsdriverdev
-ms.date: 09/21/2018 
+ms.date: 09/21/2018
 ms.topic: method
 ms.keywords: IDebugHostEvaluator2::AddRef, AddRef, IDebugHostEvaluator2.AddRef, IDebugHostEvaluator2::AddRef, IDebugHostEvaluator2.AddRef
 req.header: dbgmodel.h
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostEvaluator2.AddRef
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

@@ -6,11 +6,8 @@ description: The SerCx2SystemDmaTransmitCleanupTransactionComplete method notifi
 old-location: serports\sercx2systemdmatransmitcleanuptransactioncomplete.htm
 tech.root: serports
 ms.assetid: 9B2899AB-055B-458B-A9C5-958B8B2E809D
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SerCx2SystemDmaTransmitCleanupTransactionComplete, SerCx2SystemDmaTransmitCleanupTransactionComplete, SerCx2SystemDmaTransmitCleanupTransactionComplete method [Serial Ports], serports.sercx2systemdmatransmitcleanuptransactioncomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 
@@ -60,7 +57,7 @@ The <b>SerCx2SystemDmaTransmitCleanupTransactionComplete</b> method notifies ver
 
 ### -param SystemDmaTransmit [in]
 
-A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a> handle to a system-DMA-transmit object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265288">SerCx2SystemDmaTransmitCreate</a> method to create this object.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a> handle to a system-DMA-transmit object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265288">SerCx2SystemDmaTransmitCreate</a> method to create this object.
 
 
 ## -returns
@@ -94,7 +91,7 @@ For more information, see <a href="https://msdn.microsoft.com/8569E76F-CAFF-4A2C
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a>
 
 
 

@@ -6,11 +6,8 @@ description: The WdfIoResourceRequirementsListSetSlotNumber method assigns a slo
 old-location: wdf\wdfioresourcerequirementslistsetslotnumber.htm
 tech.root: wdf
 ms.assetid: 1dc18c48-2331-4980-b741-59a73d3edaa6
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFResourceObjectRef_a4c6729c-ba18-49e0-8e8c-94c70c5c9e8a.xml, WdfIoResourceRequirementsListSetSlotNumber, WdfIoResourceRequirementsListSetSlotNumber method, kmdf.wdfioresourcerequirementslistsetslotnumber, wdf.wdfioresourcerequirementslistsetslotnumber, wdfresource/WdfIoResourceRequirementsListSetSlotNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfresource.h
 req.include-header: Wdf.h
@@ -88,7 +85,7 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 Your driver must provide a slot number if your device does not support Plug and Play (PnP). 
 
-For more information about resource requirements lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
+For more information about resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 
 #### Examples

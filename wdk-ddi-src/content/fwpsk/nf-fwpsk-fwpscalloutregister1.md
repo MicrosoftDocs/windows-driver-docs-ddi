@@ -6,11 +6,8 @@ description: The FwpsCalloutRegister1 function registers a callout with the filt
 old-location: netvista\fwpscalloutregister1.htm
 tech.root: netvista
 ms.assetid: 496e2206-56d1-47eb-a9e6-f5d4799e3dde
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FwpsCalloutRegister1, FwpsCalloutRegister1 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCalloutRegister1, netvista.fwpscalloutregister1, wfp_ref_2_funct_3_fwps_C_169881cd-1796-4774-8e62-481b00d877e3.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpsk.h
 req.include-header: Fwpsk.h

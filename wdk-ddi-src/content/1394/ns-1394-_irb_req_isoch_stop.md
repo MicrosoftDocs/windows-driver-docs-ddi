@@ -6,11 +6,8 @@ description: This structure contains the field necessary to carry out a IsochSto
 old-location: ieee\irb_req_isoch_stop.htm
 tech.root: IEEE
 ms.assetid: 1400FAC6-DD4E-4E8E-A0ED-C59B700F0672
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_ISOCH_STOP, IEEE.irb_req_isoch_stop, IRB_REQ_ISOCH_STOP, IRB_REQ_ISOCH_STOP structure [Buses], _IRB_REQ_ISOCH_STOP
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 1394.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The PopEntryList routine removes the first entry from a singly link
 old-location: kernel\popentrylist.htm
 tech.root: kernel
 ms.assetid: b24ec573-4164-4016-a19d-574ebd75ec8f
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PopEntryList, PopEntryList routine [Kernel-Mode Driver Architecture], k109_a5d1634c-e1ab-43ac-ab3f-d0993263f5bb.xml, kernel.popentrylist, wdm/PopEntryList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h

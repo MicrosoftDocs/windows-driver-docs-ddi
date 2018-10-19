@@ -6,11 +6,8 @@ description: The GetOutputData method gets the specified output data coming back
 old-location: print\ibidirequest_ibidirequest__getoutputdata.htm
 tech.root: print
 ms.assetid: 0757dbc2-850b-4267-9339-b87591f85767
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: BIDI_BLOB, BIDI_BOOL, BIDI_ENUM, BIDI_FLOAT, BIDI_INT, BIDI_NULL, BIDI_STRING, BIDI_TEXT, GetOutputData, GetOutputData method [Print Devices], GetOutputData method [Print Devices],IBidiRequest interface, IBidiRequest interface [Print Devices],GetOutputData method, IBidiRequest.GetOutputData, IBidiRequest::GetOutputData, _win32_IBidiRequest_GetOutputData, bidispl/IBidiRequest::GetOutputData, gdi.ibidirequest_ibidirequest__getoutputdata, print.ibidirequest_ibidirequest__getoutputdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bidispl.h
 req.include-header: 
@@ -65,7 +62,7 @@ A zero-based index of the output data that is requested. For more information, s
 
 ### -param ppszSchema [out]
 
-A pointer to a NULL-terminated string that receives the schema string. The caller must call the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function to free this pointer.
+A pointer to a NULL-terminated string that receives the schema string. The caller must call the <a href="https://msdn.microsoft.com/library/windows/desktop/ms680722">CoTaskMemFree</a> function to free this pointer.
 
 
 ### -param pdwType [out]
@@ -163,7 +160,7 @@ Binary data.
 
 ### -param ppData [out]
 
-A pointer to the variable that receives a pointer to the byte array containing the output data. The buffer is allocated by the COM interface to store the output data. The caller is responsible for calling <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> to free the buffer.
+A pointer to the variable that receives a pointer to the byte array containing the output data. The buffer is allocated by the COM interface to store the output data. The caller is responsible for calling <a href="https://msdn.microsoft.com/library/windows/desktop/ms680722">CoTaskMemFree</a> to free the buffer.
 
 
 ### -param uSize [out]

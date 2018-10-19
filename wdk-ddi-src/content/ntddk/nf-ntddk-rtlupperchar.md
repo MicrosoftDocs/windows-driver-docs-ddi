@@ -6,11 +6,8 @@ description: The RtlUpperChar routine converts the specified character to upperc
 old-location: kernel\rtlupperchar.htm
 tech.root: kernel
 ms.assetid: a87e9f52-a136-492e-bfb3-dfbbea8b79e0
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUpperChar, RtlUpperChar routine [Kernel-Mode Driver Architecture], k109_c1a13e9a-f863-4bcd-ae89-daee0c3d3a4b.xml, kernel.rtlupperchar, ntddk/RtlUpperChar
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

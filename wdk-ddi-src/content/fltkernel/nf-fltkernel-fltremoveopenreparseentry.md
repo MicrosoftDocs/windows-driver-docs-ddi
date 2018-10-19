@@ -6,11 +6,8 @@ description: This routine removes an OPEN_REPARSE_LIST_ENTRY structure (added by
 old-location: ifsk\fltremoveopenreparseentry.htm
 tech.root: ifsk
 ms.assetid: FD8C3A32-E578-47E9-9B2A-E1809D62F7B8
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], FltRemoveOpenReparseEntry, fltkernel/FltAddOpenReparseEntry, ifsk.fltremoveopenreparseentry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: 

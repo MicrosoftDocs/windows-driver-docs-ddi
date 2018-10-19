@@ -4,11 +4,8 @@ title: PFND3D12DDI_DESTROYCOMMANDALLOCATOR
 author: windows-driver-content
 description: Destroys a command allocator.
 ms.assetid: c2d78cd5-3273-42eb-b069-bafdea236115
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Destroys a command allocator.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROYCOMMANDALLOCATOR Pfnd3d12ddiDestroycommandallocator; 

@@ -4,7 +4,6 @@ title: DeviceDsmValidateInput function
 author: windows-driver-content
 description: The DeviceDsmValidateInput function validates whether a DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure is valid.
 ms.assetid: dab84969-6432-4730-b06e-b7bbf7a07f2d
-ms.author: windowsdriverdev
 ms.date: 04/11/2018
 ms.topic: function
 ms.keywords: DeviceDsmValidateInput

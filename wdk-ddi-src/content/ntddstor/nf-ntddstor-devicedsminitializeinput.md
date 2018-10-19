@@ -4,7 +4,6 @@ title: DeviceDsmInitializeInput function
 author: windows-driver-content
 description: The DeviceDsmInitializeInput function initializes a DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure.
 ms.assetid: 4a212a8e-1bd1-4ad1-9da1-f9527a304e81
-ms.author: windowsdriverdev
 ms.date: 04/11/2018
 ms.topic: function
 ms.keywords: DeviceDsmInitializeInput

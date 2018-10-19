@@ -2,10 +2,9 @@
 UID: NF:dbgmodel.IDebugHostEvaluator2.AssignTo
 title: IDebugHostEvaluator2::AssignTo
 author: windows-driver-content
-description: TBD
+description: The AssignTo method performs assignment according to the semantics of the language being debugged.
 ms.assetid: 945088b8-9914-4b46-8d08-1d48f97c8f23
-ms.author: windowsdriverdev
-ms.date: 09/12/2018 
+ms.date: 09/12/2018
 ms.topic: method
 ms.keywords: IDebugHostEvaluator2::AssignTo, AssignTo, IDebugHostEvaluator2.AssignTo, IDebugHostEvaluator2::AssignTo, IDebugHostEvaluator2.AssignTo
 req.header: dbgmodel.h
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostEvaluator2.AssignTo
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDataModelManager2.RegisterModelForTypeSignature
 title: IDataModelManager2::RegisterModelForTypeSignature
 author: windows-driver-content
-description: TBD
+description: The RegisterModelForTypeSignature method is the primary method that a caller utilizes to register a canonical visualizer for a given type (or set of types).
 ms.assetid: 41a6f6d2-749f-47e0-aad5-41ca41674320
-ms.author: windowsdriverdev
 ms.date: 09/11/2018
 ms.topic: method
 ms.keywords: IDataModelManager2::RegisterModelForTypeSignature, RegisterModelForTypeSignature, IDataModelManager2.RegisterModelForTypeSignature, IDataModelManager2::RegisterModelForTypeSignature, IDataModelManager2.RegisterModelForTypeSignature
@@ -35,8 +34,6 @@ api_name:
 -	IDataModelManager2.RegisterModelForTypeSignature
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 
@@ -93,7 +90,7 @@ This method returns HRESULT that indicates success or failure. This method will 
 
 **Sample Code**
 
-```
+```cpp
 ComPtr<IDataModelManager2> spManager; /* get the data model manager */
 ComPtr<IDebugHost> spHost;           /* get the debug host */
 

@@ -6,11 +6,8 @@ description: The GetCompletionStatus method retrieves the completion status of a
 old-location: wdf\iwdfrequestcompletionparams_getcompletionstatus.htm
 tech.root: wdf
 ms.assetid: 8959fc25-2477-485a-aa40-10d6228cb476
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: GetCompletionStatus, GetCompletionStatus method, GetCompletionStatus method,IWDFRequestCompletionParams interface, IWDFRequestCompletionParams interface,GetCompletionStatus method, IWDFRequestCompletionParams.GetCompletionStatus, IWDFRequestCompletionParams::GetCompletionStatus, UMDFRequestObjectRef_b3664f4d-fdb1-425f-be0a-3b4150762b9d.xml, umdf.iwdfrequestcompletionparams_getcompletionstatus, wdf.iwdfrequestcompletionparams_getcompletionstatus, wudfddi/IWDFRequestCompletionParams::GetCompletionStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetCompletionStatus</b> method retrieves the completion status of an I/O request.
 

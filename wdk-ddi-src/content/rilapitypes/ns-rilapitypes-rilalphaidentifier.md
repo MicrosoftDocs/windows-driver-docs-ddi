@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilalphaidentifier.htm
 tech.root: netvista
 ms.assetid: 2f7e8df5-31ae-4e1a-8dbb-89bfe8fc422d
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILALPHAIDENTIFIER, RILALPHAIDENTIFIER, RILALPHAIDENTIFIER structure [Network Drivers Starting with Windows Vista], netvista.rilalphaidentifier, ntddrilapitypes/RILALPHAIDENTIFIER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h

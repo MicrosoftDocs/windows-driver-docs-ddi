@@ -6,11 +6,8 @@ description: The WskBind function binds a socket to a local transport address.
 old-location: netvista\wskbind.htm
 tech.root: netvista
 ms.assetid: 520b02d0-a078-4af9-93a3-4fee5bbfee99
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: PFN_WSK_BIND, PFN_WSK_BIND callback, WskBind, WskBind callback function [Network Drivers Starting with Windows Vista], netvista.wskbind, wsk/WskBind, wskref_5d411257-ce57-4331-913a-c195e71a1138.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wsk.h
 req.include-header: Wsk.h
@@ -83,7 +80,7 @@ This parameter is reserved for system use. A WSK application must set this param
 
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the bind operation
      asynchronously. For more information about using IRPs with WSK functions, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
      Kernel Functions</a>.
 
 

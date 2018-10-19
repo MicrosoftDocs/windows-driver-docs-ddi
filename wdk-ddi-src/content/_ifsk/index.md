@@ -52,5 +52,5 @@ To develop Installable file system, you need these headers:
  * [struchdr.h](..\struchdr\index.md)
  * [tdi.h](..\tdi\index.md)
 
-For the programming guide, see [Installable file system](https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs).
+For the programming guide, see [Installable file system](https://docs.microsoft.com/windows-hardware/drivers/ifs).
 

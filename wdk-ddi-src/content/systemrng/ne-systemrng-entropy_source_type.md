@@ -4,12 +4,9 @@ title: ENTROPY_SOURCE_TYPE
 author: windows-driver-content
 description: 
 ms.assetid: c6c13e86-2973-4294-a531-aec524a07598
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: ENTROPY_SOURCE_TYPE, ENTROPY_SOURCE_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: systemrng.h
 req.include-header:
 req.target-type:

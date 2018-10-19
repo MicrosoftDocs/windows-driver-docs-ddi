@@ -4,11 +4,8 @@ title: PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW
 author: windows-driver-content
 description: The PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW callback function creates a depth stencil view.
 ms.assetid: e3973803-8c0d-4e73-b935-34bb6413d0d4
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW callback function creates a depth sten
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW Pfnd3d12ddiCreateDepthStencilView; 

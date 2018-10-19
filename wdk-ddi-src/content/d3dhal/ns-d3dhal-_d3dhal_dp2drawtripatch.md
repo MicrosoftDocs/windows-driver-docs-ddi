@@ -6,11 +6,8 @@ description: DirectX 8.0 and later versions only.
 old-location: display\d3dhal_dp2drawtripatch.htm
 tech.root: display
 ms.assetid: 79985523-5665-4879-af04-fd53725d6d07
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_DP2DRAWTRIPATCH, D3DHAL_DP2DRAWTRIPATCH, D3DHAL_DP2DRAWTRIPATCH structure [Display Devices], LPD3DHAL_DP2DRAWTRIPATCH, LPD3DHAL_DP2DRAWTRIPATCH structure pointer [Display Devices], _D3DHAL_DP2DRAWTRIPATCH, d3dhal/D3DHAL_DP2DRAWTRIPATCH, d3dhal/LPD3DHAL_DP2DRAWTRIPATCH, d3dstrct_0cad313a-b700-4aff-a111-3bd5472ea75d.xml, display.d3dhal_dp2drawtripatch"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dhal.h
 req.include-header: D3dhal.h

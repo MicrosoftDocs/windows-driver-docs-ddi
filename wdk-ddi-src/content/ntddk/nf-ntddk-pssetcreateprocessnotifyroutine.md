@@ -6,11 +6,8 @@ description: The PsSetCreateProcessNotifyRoutine routine adds a driver-supplied 
 old-location: kernel\pssetcreateprocessnotifyroutine.htm
 tech.root: kernel
 ms.assetid: eeeea140-e469-476f-adce-4505817bc35e
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PsSetCreateProcessNotifyRoutine, PsSetCreateProcessNotifyRoutine routine [Kernel-Mode Driver Architecture], k108_6ae7797a-ecbe-4665-85d5-e199f13613cd.xml, kernel.pssetcreateprocessnotifyroutine, ntddk/PsSetCreateProcessNotifyRoutine
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

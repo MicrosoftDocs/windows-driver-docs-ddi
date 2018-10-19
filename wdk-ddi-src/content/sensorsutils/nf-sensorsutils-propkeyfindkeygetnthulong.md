@@ -4,10 +4,7 @@ title: PropKeyFindKeyGetNthUlong function
 author: windows-driver-content
 description: This routine gets the nth ULONG value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
 ms.assetid: d5e82a5a-0b6f-4246-9f4e-de40b1a5ce6c
-ms.author: windowsdriverdev
-ms.date: 08/08/18
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
 ms.keywords: PropKeyFindKeyGetNthUlong

@@ -6,11 +6,8 @@ description: The WDF_WMI_BUFFER_APPEND_STRING function copies a specified Unicod
 old-location: wdf\wdf_wmi_buffer_append_string.htm
 tech.root: wdf
 ms.assetid: 23d65788-23ce-4ed7-8b68-890c1c3a4100
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFWMIRef_db6f29cb-fcdc-4948-9ea3-9b36e9f969e8.xml, WDF_WMI_BUFFER_APPEND_STRING, WDF_WMI_BUFFER_APPEND_STRING function, kmdf.wdf_wmi_buffer_append_string, wdf.wdf_wmi_buffer_append_string, wdfwmi/WDF_WMI_BUFFER_APPEND_STRING
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfwmi.h
 req.include-header: Wdf.h
@@ -101,7 +98,7 @@ When <b>WDF_WMI_BUFFER_APPEND_STRING</b> returns, the location that the <i>Requi
 
 #### Examples
 
-The following code example is from the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">Serial</a> sample driver. This example is an <a href="https://msdn.microsoft.com/13eed838-2943-4bb4-915f-6a84f0f95851">EvtWmiInstanceQueryInstance</a> callback function that obtains a device's symbolic name and copies the name into the callback function's output buffer.
+The following code example is from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">Serial</a> sample driver. This example is an <a href="https://msdn.microsoft.com/13eed838-2943-4bb4-915f-6a84f0f95851">EvtWmiInstanceQueryInstance</a> callback function that obtains a device's symbolic name and copies the name into the callback function's output buffer.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

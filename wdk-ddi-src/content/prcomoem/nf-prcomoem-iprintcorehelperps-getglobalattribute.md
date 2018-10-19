@@ -6,11 +6,8 @@ description: The IPrintCoreHelperPS::GetGlobalAttribute method retrieves the glo
 old-location: print\iprintcorehelperps_getglobalattribute.htm
 tech.root: print
 ms.assetid: 4243ac31-83a7-47b5-8406-9d9537fbeb11
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetGlobalAttribute, GetGlobalAttribute method [Print Devices], GetGlobalAttribute method [Print Devices],IPrintCoreHelperPS interface, IPrintCoreHelperPS interface [Print Devices],GetGlobalAttribute method, IPrintCoreHelperPS.GetGlobalAttribute, IPrintCoreHelperPS::GetGlobalAttribute, prcomoem/IPrintCoreHelperPS::GetGlobalAttribute, print.iprintcorehelperps_getglobalattribute, print_unidrv-pscript_allplugins_9c11e4ae-21bd-493c-b4d0-39b8406c8843.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

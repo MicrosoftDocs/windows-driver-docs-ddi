@@ -6,11 +6,8 @@ description: The PEP_PLATFORM_IDLE_STATE structure specifies the properties of a
 old-location: kernel\pep_platform_idle_state.htm
 tech.root: kernel
 ms.assetid: D0503B73-EDFA-4742-BAFA-4FEE56F0A3C8
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_PLATFORM_IDLE_STATE, PEP_PLATFORM_IDLE_STATE, PEP_PLATFORM_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_PLATFORM_IDLE_STATE, PPEP_PLATFORM_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PLATFORM_IDLE_STATE, kernel.pep_platform_idle_state, pepfx/PEP_PLATFORM_IDLE_STATE, pepfx/PPEP_PLATFORM_IDLE_STATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pep_x.h
 req.include-header: Pep_x.h
@@ -99,7 +96,7 @@ The first element in an array of <a href="https://msdn.microsoft.com/library/win
 
 
 
-This structure is used in conjunction with the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186826">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATE</a> notification. The <b>State</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186826">PEP_PPM_QUERY_PLATFORM_STATE</a> structure is a <b>PEP_PLATFORM_IDLE_STATE</b> structure.
+This structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186826">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATE</a> notification. The <b>State</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186826">PEP_PPM_QUERY_PLATFORM_STATE</a> structure is a <b>PEP_PLATFORM_IDLE_STATE</b> structure.
 
 
 
@@ -109,7 +106,7 @@ This structure is used in conjunction with the <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186826">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186826">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATE</a>
 
 
 

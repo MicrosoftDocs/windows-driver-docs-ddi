@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDebugHostBaseClass.QueryInterface
 title: IDebugHostBaseClass::QueryInterface
 author: windows-driver-content
-description: TBD
+description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: 5cca9b10-4d74-4eed-bf52-41de607ef741
-ms.author: windowsdriverdev
 ms.date: 08/14/2018
 ms.topic: method
 ms.keywords: IDebugHostBaseClass::QueryInterface, QueryInterface, IDebugHostBaseClass.QueryInterface, IDebugHostBaseClass::QueryInterface, IDebugHostBaseClass.QueryInterface
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostBaseClass.QueryInterface
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

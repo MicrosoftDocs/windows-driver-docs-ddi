@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_association_state.htm
 tech.root: netvista
 ms.assetid: 90d2457f-4246-464b-8de6-f8fda056eb7b
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_ASSOCIATION_STATE, DOT11_ASSOCIATION_STATE, DOT11_ASSOCIATION_STATE enumeration [Network Drivers Starting with Windows Vista], Native_802.11_data_types_6ec71b29-ea13-4ff5-af6c-b8f088c2671c.xml, PDOT11_ASSOCIATION_STATE, PDOT11_ASSOCIATION_STATE enumeration pointer [Network Drivers Starting with Windows Vista], _DOT11_ASSOCIATION_STATE, dot11_assoc_state_auth_assoc, dot11_assoc_state_auth_unassoc, dot11_assoc_state_unauth_unassoc, dot11_assoc_state_zero, netvista.dot11_association_state, windot11/DOT11_ASSOCIATION_STATE, windot11/PDOT11_ASSOCIATION_STATE, windot11/dot11_assoc_state_auth_assoc, windot11/dot11_assoc_state_auth_unassoc, windot11/dot11_assoc_state_unauth_unassoc, windot11/dot11_assoc_state_zero"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -59,14 +56,14 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef enum _DOT11_ASSOCIATION_STATE {
   dot11_assoc_state_zero            = 0,
   dot11_assoc_state_unauth_unassoc  = 1,
   dot11_assoc_state_auth_unassoc    = 2,
   dot11_assoc_state_auth_assoc      = 3
 } DOT11_ASSOCIATION_STATE, *PDOT11_ASSOCIATION_STATE;
-````
+```
 
 
 ## -enum-fields

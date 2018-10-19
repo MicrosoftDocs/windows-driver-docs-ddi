@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDebugHostType.GetFunctionParameterTypeCount
 title: IDebugHostType::GetFunctionParameterTypeCount
 author: windows-driver-content
-description: TBD
+description: The GetFunctionParameterTypeCount method returns the number of arguments that the function takes.
 ms.assetid: 394a5b18-fa42-42cd-b92a-200e99f5b6ca
-ms.author: windowsdriverdev
 ms.date: 08/22/2018
 ms.topic: method
 ms.keywords: IDebugHostType::GetFunctionParameterTypeCount, GetFunctionParameterTypeCount, IDebugHostType.GetFunctionParameterTypeCount, IDebugHostType::GetFunctionParameterTypeCount, IDebugHostType.GetFunctionParameterTypeCount
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostType.GetFunctionParameterTypeCount
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

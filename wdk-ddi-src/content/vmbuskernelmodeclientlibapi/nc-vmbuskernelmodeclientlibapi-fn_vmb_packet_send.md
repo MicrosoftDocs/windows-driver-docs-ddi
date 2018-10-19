@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbPacketSend function sends the data in a packet buffer or external data Memory Descriptor List (MDL). The function associates that data with the VMBus packet object, which represents the packet throughout the lifetime of the transaction.
 tech.root: netvista
 ms.assetid: e701d946-e2cb-4fc4-b098-0cc6f3734305
-ms.author: windowsdriverdev
 ms.date: 05/22/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:
@@ -51,7 +48,7 @@ throughout the lifetime of the transaction.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_PACKET_SEND FnVmbPacketSend; 

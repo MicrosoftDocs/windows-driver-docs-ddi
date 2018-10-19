@@ -6,11 +6,8 @@ description: NDIS calls a protocol driver's or intermediate driver's ProtocolTcp
 old-location: netvista\protocoltcpoffloaddisconnectcomplete.htm
 tech.root: netvista
 ms.assetid: 56244148-638f-4d93-82a6-2cced9744046
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: ProtocolTcpOffloadDisconnectComplete, ProtocolTcpOffloadDisconnectComplete callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_DISCONNECT_COMPLETE_HANDLER, TCP_OFFLOAD_DISCONNECT_COMPLETE_HANDLER callback, ndischimney/ProtocolTcpOffloadDisconnectComplete, netvista.protocoltcpoffloaddisconnectcomplete, tcp_chim_protocol_func_fadc0ea9-acd8-489d-886c-213b909d93b3.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
@@ -129,7 +126,7 @@ Before returning, the
 Note that, if an intermediate driver exports more than one interface to overlying protocols, it must
     determine which protocol should receive the completion of the disconnect. To make this determination, the
     intermediate driver uses information that it stored in the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568388">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">
     NET_BUFFER_LIST_CONTEXT</a> structure, which is associated with the NET_BUFFER_LIST structure.
 
 

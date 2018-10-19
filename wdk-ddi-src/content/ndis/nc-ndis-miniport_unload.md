@@ -6,11 +6,8 @@ description: NDIS calls a miniport driver's MiniportDriverUnload function to req
 old-location: netvista\miniportdriverunload.htm
 tech.root: netvista
 ms.assetid: 25c803cf-f8a6-4e41-a731-c3ae7f1db211
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_UNLOAD, MINIPORT_UNLOAD callback, MiniportDriverUnload, MiniportDriverUnload callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_8f9795d0-00aa-4059-8dbf-8f7eed303cae.xml, ndis/MiniportDriverUnload, netvista.miniportdriverunload
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

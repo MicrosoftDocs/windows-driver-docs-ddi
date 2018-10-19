@@ -6,11 +6,8 @@ description: A streaming minidriver's KStrCancelTimer routine is called to cance
 old-location: stream\kstrcanceltimer.htm
 tech.root: stream
 ms.assetid: bdfe0fc3-1b25-493f-9d70-3b6d680fde50
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KStrCancelTimer, KStrCancelTimer routine [Streaming Media Devices], PFNKSCANCELTIMER, ks/KStrCancelTimer, ksfunc_10ed86a1-d424-45d1-a420-3e4ce3a95a05.xml, stream.kstrcanceltimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ks.h
 req.include-header: Ks.h

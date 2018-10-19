@@ -6,11 +6,8 @@ description: The FsRtlNotifyVolumeEventEx routine notifies any registered applic
 old-location: ifsk\fsrtlnotifyvolumeeventex.htm
 tech.root: ifsk
 ms.assetid: 0792e139-0217-4882-b2df-e69452118fc9
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlNotifyVolumeEventEx, FsRtlNotifyVolumeEventEx routine [Installable File System Drivers], fsrtlref_421ebbf6-0678-4b66-a7c3-00f5914ea05c.xml, ifsk.fsrtlnotifyvolumeeventex, ntifs/FsRtlNotifyVolumeEventEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The NET_ADAPTER_DMA_CAPABILITIES structure describes the DMA capabilities of an adapter.
 tech.root: netvista
 ms.assetid: b0b5cd8b-807c-42d2-9f6b-4843f82c6309
-ms.author: windowsdriverdev
 ms.date: 07/11/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _NET_ADAPTER_DMA_CAPABILITIES, *PNET_ADAPTER_DMA_CAPABILITIES, NET_ADAPTER_DMA_CAPABILITIES, 
 req.header: netadapter.h
 req.include-header: netadaptercx.h
@@ -54,7 +51,10 @@ The **NET_ADAPTER_DMA_CAPABILITIES** structure describes the DMA capabilities of
 The size of this structure, in bytes.
  
 ### -field DmaEnabler
-The DMA enabler object used by the client driver to map and allocate memory.
+The DMA enabler object used by the client driver to map and allocate memory. 
+
+> [!IMPORTANT]
+> When configuring this object with the [**WDF_DMA_ENABLER_CONFIG**](../wdfdmaenabler/ns-wdfdmaenabler-_wdf_dma_enabler_config.md) structure, client drivers must set the **WdmDmaVersionOverride** member to **3** to specify DMA version 3.
  
 ### -field MaximumPhysicalAddress
 The maximum physical address to use when allocating memory buffers. Set this member to **0** to indicate that there is no maximum address.

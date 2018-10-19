@@ -6,11 +6,8 @@ description: The MiniportUpdateOffload function updates previously offloaded TCP
 old-location: netvista\miniportupdateoffload.htm
 tech.root: netvista
 ms.assetid: b98b2e21-8b28-4da0-9cc9-6fa8cb6e5be7
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MiniportUpdateOffload, MiniportUpdateOffload callback function [Network Drivers Starting with Windows Vista], W_UPDATE_OFFLOAD_HANDLER, W_UPDATE_OFFLOAD_HANDLER callback, ndischimney/MiniportUpdateOffload, netvista.miniportupdateoffload, tcp_chim_miniport_func_e6dbcab7-ff44-46c0-ae03-729ea479d13c.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
@@ -107,7 +104,7 @@ The
     a stand-alone structure or the root block list in an 
     <a href="https://msdn.microsoft.com/c96608bd-5e8f-499b-872a-b6f7f33c9e0c">offload state tree</a> that contains multiple
     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structures. Such block lists, as well as any 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570939">offload state structures</a> that are
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570939">offload state structures</a> that are
     associated with them, are valid until the miniport driver calls the 
     <b>
     NdisMUpdateOffloadComplete</b> function.
@@ -121,13 +118,13 @@ Before the
 <li>
 The offload target copies the variable values from any state structures in the tree to the
       corresponding 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/offload-state-objects">offloaded state objects</a>. Only CACHED
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/offload-state-objects">offloaded state objects</a>. Only CACHED
       variables are updated.
 
 </li>
 <li>
 The tree might indicate that path-to-neighbor links must be updated. For more information, see 
-      <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff560463">Linking
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff560463">Linking
       Path State Objects to a New Neighbor State Object</a>. In this case, the offload target must update
       its internal representation of offloaded state to reflect the updated links.
 

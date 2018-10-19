@@ -6,11 +6,8 @@ description: The WdfPdoInitAssignDeviceID method updates the device ID for a chi
 old-location: wdf\wdfpdoinitassigndeviceid.htm
 tech.root: wdf
 ms.assetid: f8992245-42db-4ca8-afdc-e123adc0a40d
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_c0885107-9e40-4c57-ab50-c757ea58b2f9.xml, WdfPdoInitAssignDeviceID, WdfPdoInitAssignDeviceID method, kmdf.wdfpdoinitassigndeviceid, wdf.wdfpdoinitassigndeviceid, wdfpdo/WdfPdoInitAssignDeviceID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfpdo.h
 req.include-header: Wdf.h
@@ -116,14 +113,14 @@ The method might also return other <a href="https://msdn.microsoft.com/library/w
 
 
 
-A device ID is typically the first item in the list of hardware IDs that a device reports. For more information about device IDs and hardware IDs, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a> and <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/how-setup-selects-drivers">How Setup Selects Drivers</a>.
+A device ID is typically the first item in the list of hardware IDs that a device reports. For more information about device IDs and hardware IDs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/install/how-setup-selects-drivers">How Setup Selects Drivers</a>.
 
-The driver must call <b>WdfPdoInitAssignDeviceID</b> before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
+The driver must call <b>WdfPdoInitAssignDeviceID</b> before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
 
 
 #### Examples
 
-The following code example reports a device ID that the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">KbFiltr</a> sample driver uses.
+The following code example reports a device ID that the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">KbFiltr</a> sample driver uses.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

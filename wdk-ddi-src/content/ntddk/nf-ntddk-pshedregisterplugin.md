@@ -6,11 +6,8 @@ description: The PshedRegisterPlugin function registers a PSHED plug-in with the
 old-location: whea\pshedregisterplugin.htm
 tech.root: whea
 ms.assetid: 8ad93312-932c-417c-8198-9ba515e3d55d
-ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: PshedRegisterPlugin, PshedRegisterPlugin function [WHEA Drivers and Applications], ntddk/PshedRegisterPlugin, whea.pshedregisterplugin, whearef_27f04399-dd53-44b3-a31e-350aee53bcb1.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

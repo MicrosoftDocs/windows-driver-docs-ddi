@@ -6,11 +6,8 @@ description: The D3DHAL_DP2TEXBLT structure is used for texture blts when D3dDra
 old-location: display\d3dhal_dp2texblt.htm
 tech.root: display
 ms.assetid: e240fb49-26e6-4d30-b579-03824ac8b67f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_DP2TEXBLT, D3DHAL_DP2TEXBLT, D3DHAL_DP2TEXBLT structure [Display Devices], LPD3DHAL_DP2TEXBLT, LPD3DHAL_DP2TEXBLT structure pointer [Display Devices], _D3DHAL_DP2TEXBLT, d3dhal/D3DHAL_DP2TEXBLT, d3dhal/LPD3DHAL_DP2TEXBLT, d3dstrct_80dddffa-3403-4e1e-a1cc-1cbbfdad09a8.xml, display.d3dhal_dp2texblt"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dhal.h
 req.include-header: D3dhal.h

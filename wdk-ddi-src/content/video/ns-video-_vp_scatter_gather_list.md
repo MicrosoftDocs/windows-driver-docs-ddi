@@ -6,11 +6,8 @@ description: The VP_SCATTER_GATHER_LIST structure is a collection of one or more
 old-location: display\vp_scatter_gather_list.htm
 tech.root: display
 ms.assetid: 485a0e20-0fed-4055-985c-1ff6d5d1c3e9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*PVP_SCATTER_GATHER_LIST, PVP_SCATTER_GATHER_LIST, PVP_SCATTER_GATHER_LIST structure pointer [Display Devices], VP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST structure [Display Devices], Video_Structs_0b59cadd-bf97-44c9-b987-d4dfc5eaaf15.xml, _VP_SCATTER_GATHER_LIST, display.vp_scatter_gather_list, video/PVP_SCATTER_GATHER_LIST, video/VP_SCATTER_GATHER_LIST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: video.h
 req.include-header: Video.h

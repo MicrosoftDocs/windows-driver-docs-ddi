@@ -6,11 +6,8 @@ description: The ProviderQueryObject function retrieves information about a netw
 old-location: netvista\providerqueryobject.htm
 tech.root: netvista
 ms.assetid: dea90ff0-7620-4364-90dc-2dc5d2e34ce1
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*IFP_QUERY_OBJECT, *IFP_QUERY_OBJECT callback function [Network Drivers Starting with Windows Vista], IF_QUERY_OBJECT, IF_QUERY_OBJECT callback, ProviderQueryObject, ProviderQueryObject callback function [Network Drivers Starting with Windows Vista], ndis/ProviderQueryObject, net_if_provider_functions_ref_8e4d405f-cae0-40bc-8d9d-6d85e5c7ff06.xml, netvista.providerqueryobject"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -71,7 +68,7 @@ A handle that identifies the interface provider's context area for the interface
 
 An identifier for the object that is the target of the query request. For a list of object
      identifiers (OIDs) that apply to interface providers, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/mapping-of-ndis-network-interfaces-to-ndis-oids">NDIS Network Interface
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mapping-of-ndis-network-interfaces-to-ndis-oids">NDIS Network Interface
      OIDs</a>.
 
 
@@ -156,7 +153,7 @@ The call failed for some other reason. This function can propagate error codes f
 NDIS calls a network interface provider's 
     <i>ProviderQueryObject</i> function to obtain information about an interface that the provider registered.
     For a list of OIDs that apply to interface providers, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/mapping-of-ndis-network-interfaces-to-ndis-oids">NDIS Network Interface OIDs</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mapping-of-ndis-network-interfaces-to-ndis-oids">NDIS Network Interface OIDs</a>.
 
 NDIS calls 
     <i>ProviderQueryObject</i> at IRQL = PASSIVE_LEVEL.

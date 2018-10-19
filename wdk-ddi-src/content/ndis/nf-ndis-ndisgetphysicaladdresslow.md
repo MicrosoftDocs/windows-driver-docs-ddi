@@ -6,11 +6,8 @@ description: NdisGetPhysicalAddressLow returns the low-order part of a given phy
 old-location: netvista\ndisgetphysicaladdresslow.htm
 tech.root: netvista
 ms.assetid: a2e9e398-7b47-49eb-b587-7c42a0162f90
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisGetPhysicalAddressLow, NdisGetPhysicalAddressLow macro [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_20e686ee-bdd4-484d-b3c5-af6bbb764059.xml, ndis/NdisGetPhysicalAddressLow, netvista.ndisgetphysicaladdresslow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ndis.h
 req.include-header: Ndis.h

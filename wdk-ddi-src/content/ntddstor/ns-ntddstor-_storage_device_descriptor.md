@@ -6,11 +6,8 @@ description: The STORAGE_DEVICE_DESCRIPTOR structure is used in conjunction with
 old-location: storage\storage_device_descriptor.htm
 tech.root: storage
 ms.assetid: 99b270a0-0634-41a8-9de7-d2a2d4c3059f
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: PSTORAGE_DEVICE_DESCRIPTOR, PSTORAGE_DEVICE_DESCRIPTOR structure pointer [Storage Devices], STORAGE_DEVICE_DESCRIPTOR, STORAGE_DEVICE_DESCRIPTOR structure [Storage Devices], _STORAGE_DEVICE_DESCRIPTOR, ntddstor/PSTORAGE_DEVICE_DESCRIPTOR, ntddstor/STORAGE_DEVICE_DESCRIPTOR, storage.storage_device_descriptor, structs-general_3c393126-f5c8-47d8-bfb5-6127ce656e9a.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddstor.h
 req.include-header: Ntddstor.h

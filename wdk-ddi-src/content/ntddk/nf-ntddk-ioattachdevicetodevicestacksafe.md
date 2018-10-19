@@ -6,11 +6,8 @@ description: The IoAttachDeviceToDeviceStackSafe routine attaches the caller's d
 old-location: ifsk\ioattachdevicetodevicestacksafe.htm
 tech.root: ifsk
 ms.assetid: bc403fc7-7862-4c4c-8a82-bd5c740b270e
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: IoAttachDeviceToDeviceStackSafe, IoAttachDeviceToDeviceStackSafe routine [Installable File System Drivers], ifsk.ioattachdevicetodevicestacksafe, ioref_1db91288-e8ad-4796-9052-333bf37f01d1.xml, ntddk/IoAttachDeviceToDeviceStackSafe
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

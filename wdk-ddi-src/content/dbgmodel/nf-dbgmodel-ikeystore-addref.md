@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IKeyStore.AddRef
 title: IKeyStore::AddRef
 author: windows-driver-content
-description: TBD
+description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: 8811a6c4-3d71-499f-a5a0-c568eb8e5764
-ms.author: windowsdriverdev
 ms.date: 08/13/2018
 ms.topic: method
 ms.keywords: IKeyStore::AddRef, AddRef, IKeyStore.AddRef, IKeyStore::AddRef, IKeyStore.AddRef
@@ -35,8 +34,6 @@ api_name:
 -	IKeyStore.AddRef
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

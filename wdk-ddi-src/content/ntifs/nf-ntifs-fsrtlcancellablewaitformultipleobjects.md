@@ -6,11 +6,8 @@ description: The FsRtlCancellableWaitForMultipleObjects routine executes a cance
 old-location: ifsk\fsrtlcancellablewaitformultipleobjects.htm
 tech.root: ifsk
 ms.assetid: 9fb5805c-bb12-41ba-8c72-526b4193b6b5
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlCancellableWaitForMultipleObjects, FsRtlCancellableWaitForMultipleObjects routine [Installable File System Drivers], fsrtlref_8a221e67-4344-401f-9e56-8fac66bb03b7.xml, ifsk.fsrtlcancellablewaitformultipleobjects, ntifs/FsRtlCancellableWaitForMultipleObjects
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

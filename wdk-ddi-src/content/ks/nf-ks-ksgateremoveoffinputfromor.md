@@ -6,11 +6,8 @@ description: The KsGateRemoveOffInputFromOr function removes an existing input t
 old-location: stream\ksgateremoveoffinputfromor.htm
 tech.root: stream
 ms.assetid: 191874ec-5d08-430e-ad14-520392e1a904
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsGateRemoveOffInputFromOr, KsGateRemoveOffInputFromOr function [Streaming Media Devices], avfunc_6431bb18-7f16-4a0f-b012-c0137d85fba8.xml, ks/KsGateRemoveOffInputFromOr, stream.ksgateremoveoffinputfromor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

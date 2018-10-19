@@ -6,11 +6,8 @@ description: FltFreeSecurityDescriptor frees a security descriptor allocated by 
 old-location: ifsk\fltfreesecuritydescriptor.htm
 tech.root: ifsk
 ms.assetid: ebf7ad37-6c3b-4216-87e6-ea5d6a0cba20
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_ee21346e-6629-4ffd-bf82-b3915f4e1649.xml, FltFreeSecurityDescriptor, FltFreeSecurityDescriptor routine [Installable File System Drivers], fltkernel/FltFreeSecurityDescriptor, ifsk.fltfreesecuritydescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

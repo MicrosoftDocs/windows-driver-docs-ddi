@@ -6,11 +6,8 @@ description: The CreateOverlay function allocates overlay hardware and makes the
 old-location: display\createoverlay.htm
 tech.root: display
 ms.assetid: 761377ff-95a6-426b-8372-3f347870f9c4
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateOverlay, CreateOverlay callback function [Display Devices], PFND3DDDI_CREATEOVERLAY, PFND3DDDI_CREATEOVERLAY callback, UserModeDisplayDriver_Functions_8418bf74-3398-4913-9002-2f0b2a0941fb.xml, d3dumddi/CreateOverlay, display.createoverlay
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

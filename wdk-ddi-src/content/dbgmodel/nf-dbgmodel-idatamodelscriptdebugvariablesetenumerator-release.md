@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDataModelScriptDebugVariableSetEnumerator.Release
 title: IDataModelScriptDebugVariableSetEnumerator::Release
 author: windows-driver-content
-description: TBD
+description: Decrements the reference count for an interface on an object. 
 ms.assetid: 2a506a1d-be24-42d9-9a9e-e22452abbfa5
-ms.author: windowsdriverdev
 ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebugVariableSetEnumerator::Release, Release, IDataModelScriptDebugVariableSetEnumerator.Release, IDataModelScriptDebugVariableSetEnumerator::Release, IDataModelScriptDebugVariableSetEnumerator.Release
@@ -35,8 +34,6 @@ api_name:
 -	IDataModelScriptDebugVariableSetEnumerator.Release
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

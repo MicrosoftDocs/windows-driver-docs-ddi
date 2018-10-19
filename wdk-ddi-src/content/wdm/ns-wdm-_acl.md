@@ -6,11 +6,8 @@ description: The ACL structure is the header of an access-control list (ACL). A 
 old-location: ifsk\acl.htm
 tech.root: ifsk
 ms.assetid: dac27df2-fabd-4402-8daf-9317888dd30b
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PACL, ACL, ACL structure [Installable File System Drivers], PACL, PACL structure pointer [Installable File System Drivers], _ACL, ifsk.acl, securitystructures_a41770ca-4016-400f-8626-e6c8dc92642e.xml, wdm/ACL, wdm/PACL"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
 req.include-header: Wdm.h

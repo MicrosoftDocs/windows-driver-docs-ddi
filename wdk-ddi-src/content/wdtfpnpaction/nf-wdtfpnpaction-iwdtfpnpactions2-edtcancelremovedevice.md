@@ -6,11 +6,8 @@ description: Sends an IRP_MN_CANCEL_REMOVE_DEVICE event to the target device.
 old-location: dtf\iwdtfpnpactions2_edtcancelremovedevice.htm
 tech.root: dtf
 ms.assetid: 96992c25-4388-4069-9405-ebf3667c3103
-ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: EDTCancelRemoveDevice, EDTCancelRemoveDevice method [Windows Device Testing Framework], EDTCancelRemoveDevice method [Windows Device Testing Framework],IWDTFPNPActions2 interface, IWDTFPNPActions2 interface [Windows Device Testing Framework],EDTCancelRemoveDevice method, IWDTFPNPActions2.EDTCancelRemoveDevice, IWDTFPNPActions2::EDTCancelRemoveDevice, dtf.iwdtfpnpactions2_edtcancelremovedevice, wdtfpnpaction/IWDTFPNPActions2::EDTCancelRemoveDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtfpnpaction.h
 req.include-header: 

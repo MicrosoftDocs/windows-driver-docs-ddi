@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NDIS_MAKE_RID macro builds an NDIS_VF_RID value from PCI Express (PCIe) segment, bus, device, and function numbers. The miniport driver uses this value as a PCIe Requestor ID (RID) for a network adapter's PCIe Virtual Function (VF).
 tech.root: netvista
 ms.assetid: 54c60b0f-619c-45e9-bc2f-0598f915dca3
-ms.author: windowsdriverdev
 ms.date: 04/16/2018
 ms.topic: macro
 ms.keywords: NDIS_MAKE_RID

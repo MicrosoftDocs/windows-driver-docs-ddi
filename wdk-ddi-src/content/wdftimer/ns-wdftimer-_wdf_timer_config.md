@@ -6,11 +6,8 @@ description: The WDF_TIMER_CONFIG structure contains configuration information f
 old-location: wdf\wdf_timer_config.htm
 tech.root: wdf
 ms.assetid: 5ef6491d-90bb-472c-821a-b296bef17463
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*PWDF_TIMER_CONFIG, DFTimerObjectRef_cacde276-7a83-4a7f-87e1-de043aee4725.xml, PWDF_TIMER_CONFIG, PWDF_TIMER_CONFIG structure pointer, WDF_TIMER_CONFIG, WDF_TIMER_CONFIG structure, _WDF_TIMER_CONFIG, kmdf.wdf_timer_config, wdf.wdf_timer_config, wdftimer/PWDF_TIMER_CONFIG, wdftimer/WDF_TIMER_CONFIG"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdftimer.h
 req.include-header: Wdf.h
@@ -117,7 +114,7 @@ The <b>WDF_TIMER_CONFIG</b> structure is used as input to the <a href="https://m
 
 Setting the <b>AutomaticSerialization</b> member of <b>WDF_TIMER_CONFIG</b> to <b>TRUE</b> has no effect if the parent object's <a href="https://msdn.microsoft.com/a251bf5c-c09b-4097-a9ed-82f2312ac408">synchronization scope</a> is set to <b>WdfSynchronizationScopeNone</b>.
 
-If the parent device object's execution level is <b>WdfExecutionLevelPassive</b>, you can set the <b>AutomaticSerialization</b> member to <b>TRUE</b> only if the timer object represents a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-timers">passive-level timer</a>.
+If the parent device object's execution level is <b>WdfExecutionLevelPassive</b>, you can set the <b>AutomaticSerialization</b> member to <b>TRUE</b> only if the timer object represents a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-timers">passive-level timer</a>.
 
 If a driver uses the <b>TolerableDelay</b> member, the operating system can group together expiration times that are close together and process them all at once. If the operating system can handle the expirations of multiple timers at once, it can potentially keep the computer in a low-power state for longer periods of time to increase battery life.
 
@@ -125,9 +122,9 @@ If the  <b>TolerableDelay</b> member is <b>TolerableDelayUnlimited</b>, the syst
 
 Setting <b>UseHighResolutionTimer</b> to <b>WdfTrue</b> may result in decreased battery life.
 
-For more information about <b>AutomaticSerialization</b> and synchronizing driver callback functions, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/synchronization-techniques-for-wdf-drivers">Synchronization Techniques for Framework-Based Drivers</a>.
+For more information about <b>AutomaticSerialization</b> and synchronizing driver callback functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/synchronization-techniques-for-wdf-drivers">Synchronization Techniques for Framework-Based Drivers</a>.
 
-For more information about framework timer objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-timers">Using Timers</a>.
+For more information about framework timer objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-timers">Using Timers</a>.
 
 
 

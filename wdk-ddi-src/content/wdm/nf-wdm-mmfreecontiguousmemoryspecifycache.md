@@ -6,11 +6,8 @@ description: The MmFreeContiguousMemorySpecifyCache routine frees a buffer that 
 old-location: kernel\mmfreecontiguousmemoryspecifycache.htm
 tech.root: kernel
 ms.assetid: e5958dd7-b287-4f0d-8677-75d850885262
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: MmFreeContiguousMemorySpecifyCache, MmFreeContiguousMemorySpecifyCache routine [Kernel-Mode Driver Architecture], k106_256e3525-d48d-4045-872c-2e2fd6302525.xml, kernel.mmfreecontiguousmemoryspecifycache, wdm/MmFreeContiguousMemorySpecifyCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h

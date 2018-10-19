@@ -6,11 +6,8 @@ description: The D3DDDIARG_DECODEEXECUTE structure describes a Microsoft DirectX
 old-location: display\d3dddiarg_decodeexecute.htm
 tech.root: display
 ms.assetid: 7f5bdf39-68a7-4466-b4d9-3620b638db62
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_DECODEEXECUTE, D3DDDIARG_DECODEEXECUTE structure [Display Devices], UMDisplayDriver_param_Structs_bd4aee7e-91f5-41dc-bb63-0fed88e04c7d.xml, _D3DDDIARG_DECODEEXECUTE, d3dumddi/D3DDDIARG_DECODEEXECUTE, display.d3dddiarg_decodeexecute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

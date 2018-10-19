@@ -6,11 +6,8 @@ description: The WAVEFORMATEXTENSIBLE structure specifies the format of an audio
 old-location: audio\waveformatextensible.htm
 tech.root: audio
 ms.assetid: 54bcb18e-df4b-471c-b121-4db75ce5c49b
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: "*PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE structure pointer [Audio Devices], WAVEFORMATEXTENSIBLE, WAVEFORMATEXTENSIBLE structure [Audio Devices], aud-prop_d40f094e-44f9-4baa-8a15-03e4fb369501.xml, audio.waveformatextensible, ksmedia/PWAVEFORMATEXTENSIBLE, ksmedia/WAVEFORMATEXTENSIBLE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksmedia.h
 req.include-header: Mmreg.h, Ksmedia.h, Mmreg.h

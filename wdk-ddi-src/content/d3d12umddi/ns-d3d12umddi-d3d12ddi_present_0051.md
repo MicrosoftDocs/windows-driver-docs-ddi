@@ -4,11 +4,8 @@ title: D3D12DDI_PRESENT_0051
 author: windows-driver-content
 description: Arguments that describe allocations that content is copied to and from.
 ms.assetid: 517113ed-c43c-4041-9714-5c0d8e89d276
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_PRESENT_0051, D3D12DDI_PRESENT_0051, 
 req.header: d3d12umddi.h
 req.include-header:

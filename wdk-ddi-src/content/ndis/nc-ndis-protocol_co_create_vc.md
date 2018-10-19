@@ -6,11 +6,8 @@ description: The ProtocolCoCreateVc function is a required function that allocat
 old-location: netvista\protocolcocreatevc.htm
 tech.root: netvista
 ms.assetid: b086dd24-74f5-474a-8684-09bf92ac731b
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CO_CREATE_VC, PROTOCOL_CO_CREATE_VC callback, ProtocolCoCreateVc, ProtocolCoCreateVc callback function [Network Drivers Starting with Windows Vista], condis_protocol_ref_f0a7e657-70d5-4cd1-a42a-684cefe1dc60.xml, ndis/ProtocolCoCreateVc, netvista.protocolcocreatevc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

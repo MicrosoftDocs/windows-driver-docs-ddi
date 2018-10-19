@@ -6,11 +6,8 @@ description: The GetCommand method returns the command string that is executed w
 old-location: debugger\getcommandwide.htm
 tech.root: debugger
 ms.assetid: 050a4243-6ad8-4aa4-8ffb-40fe9fc07b51
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetCommandWide, GetCommandWide method [Windows Debugging], GetCommandWide method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint2 interface [Windows Debugging],GetCommandWide method, IDebugBreakpoint2.GetCommandWide, IDebugBreakpoint2::GetCommandWide, dbgeng/IDebugBreakpoint2::GetCommandWide, debugger.getcommandwide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

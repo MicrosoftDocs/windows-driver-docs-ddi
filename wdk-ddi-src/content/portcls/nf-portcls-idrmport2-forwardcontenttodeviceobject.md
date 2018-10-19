@@ -6,11 +6,8 @@ description: The ForwardContentToDeviceObject method accepts a device object rep
 old-location: audio\idrmport2_forwardcontenttodeviceobject.htm
 tech.root: audio
 ms.assetid: 4e5c8942-3ce2-40d8-8cd7-436a5ebbc8ee
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: ForwardContentToDeviceObject, ForwardContentToDeviceObject method [Audio Devices], ForwardContentToDeviceObject method [Audio Devices],IDrmPort2 interface, IDrmPort2 interface [Audio Devices],ForwardContentToDeviceObject method, IDrmPort2.ForwardContentToDeviceObject, IDrmPort2::ForwardContentToDeviceObject, audio.idrmport2_forwardcontenttodeviceobject, audmp-routines_6a59757e-e53e-4edb-aaa3-7dc695a1bc16.xml, portcls/IDrmPort2::ForwardContentToDeviceObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: Portcls.h

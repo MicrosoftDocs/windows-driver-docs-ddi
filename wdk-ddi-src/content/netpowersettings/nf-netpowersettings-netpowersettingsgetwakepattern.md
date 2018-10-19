@@ -5,7 +5,6 @@ author: windows-driver-content
 description: Retrieves the wake pattern structure at the specified index.
 tech.root: netvista
 ms.assetid: babd5f84-dcc0-4800-a73b-3dbf580700e0
-ms.author: windowsdriverdev
 ms.date: 02/08/2018
 ms.topic: function
 ms.keywords: NetPowerSettingsGetWakePattern

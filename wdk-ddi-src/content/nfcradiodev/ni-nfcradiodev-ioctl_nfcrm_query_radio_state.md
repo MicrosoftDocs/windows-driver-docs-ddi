@@ -6,11 +6,8 @@ description: This IOCTL is used by the radio management application or service t
 old-location: nfpdrivers\ioctl_nfcrm_query_radio_state.htm
 tech.root: nfpdrivers
 ms.assetid: BEFA6568-3E89-4626-AAC2-A0C628E5429F
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_NFCRM_QUERY_RADIO_STATE, IOCTL_NFCRM_QUERY_RADIO_STATE control, IOCTL_NFCRM_QUERY_RADIO_STATE control code [Near-Field Proximity Drivers], nfcradiodev/IOCTL_NFCRM_QUERY_RADIO_STATE, nfpdrivers.ioctl_nfcrm_query_radio_state
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: nfcradiodev.h
 req.include-header: 

@@ -4,11 +4,8 @@ title: DXGKCB_FREECONTIGUOUSMEMORY
 author: windows-driver-content
 description: Implemented by the client driver to release a range of physically contiguous memory that was allocated by DXGKCB_ALLOCATECONTIGUOUSMEMORY.
 ms.assetid: da301608-4cfa-4247-9f91-84a633ab87af
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to release a range of physically contiguous mem
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKCB_FREECONTIGUOUSMEMORY DxgkcbFreecontiguousmemory;

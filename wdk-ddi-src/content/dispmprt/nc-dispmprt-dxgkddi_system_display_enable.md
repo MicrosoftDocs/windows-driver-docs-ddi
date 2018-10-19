@@ -6,11 +6,8 @@ description: Called by the operating system to request the display miniport driv
 old-location: display\dxgkddisystemdisplayenable.htm
 tech.root: display
 ms.assetid: D938F7F4-E1FA-4C63-A31D-5ED160276565
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_SYSTEM_DISPLAY_ENABLE, DXGKDDI_SYSTEM_DISPLAY_ENABLE callback, DxgkDdiSystemDisplayEnable, DxgkDdiSystemDisplayEnable callback function [Display Devices], display.dxgkddisystemdisplayenable, dispmprt/DxgkDdiSystemDisplayEnable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dispmprt.h
 req.include-header: 

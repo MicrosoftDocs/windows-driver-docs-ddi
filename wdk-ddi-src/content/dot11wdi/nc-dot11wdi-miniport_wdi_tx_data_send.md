@@ -6,11 +6,8 @@ description: The MiniportWdiTxDataSend handler function specifies an RA-TID or p
 old-location: netvista\miniportwditxdatasend.htm
 tech.root: netvista
 ms.assetid: A9EB1E8C-BD10-450F-9F4B-CD19C8AF13EA
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_TX_DATA_SEND, MINIPORT_WDI_TX_DATA_SEND callback, MiniportWdiTxDataSend, MiniportWdiTxDataSend callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxDataSend, netvista.miniportwditxdatasend
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dot11wdi.h
 req.include-header: 

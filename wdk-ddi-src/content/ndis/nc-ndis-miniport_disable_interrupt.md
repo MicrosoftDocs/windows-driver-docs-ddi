@@ -6,11 +6,8 @@ description: NDIS can call a miniport driver's MiniportDisableInterruptEx handle
 old-location: netvista\miniportdisableinterruptex.htm
 tech.root: netvista
 ms.assetid: 6016ab15-56c6-4430-8883-d4cdcdf6116f
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_DISABLE_INTERRUPT, MINIPORT_DISABLE_INTERRUPT callback, MiniportDisableInterruptEx, MiniportDisableInterruptEx callback function [Network Drivers Starting with Windows Vista], ndis/MiniportDisableInterruptEx, ndis_interrupts_miniport_functions_ref_985ddb3d-4a38-4c96-8599-17f211d47b49.xml, netvista.miniportdisableinterruptex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h

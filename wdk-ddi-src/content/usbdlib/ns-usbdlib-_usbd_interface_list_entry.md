@@ -6,11 +6,8 @@ description: The USBD_INTERFACE_LIST_ENTRY structure is used by USB client drive
 old-location: buses\usbd_interface_list_entry.htm
 tech.root: usbref
 ms.assetid: 9b729c52-b03b-4b53-ae1a-9a025585ba7b
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSBD_INTERFACE_LIST_ENTRY, PUSBD_INTERFACE_LIST_ENTRY, PUSBD_INTERFACE_LIST_ENTRY structure pointer [Buses], USBD_INTERFACE_LIST_ENTRY, USBD_INTERFACE_LIST_ENTRY structure [Buses], _USBD_INTERFACE_LIST_ENTRY, buses.usbd_interface_list_entry, usbdlib/PUSBD_INTERFACE_LIST_ENTRY, usbdlib/USBD_INTERFACE_LIST_ENTRY, usbstrct_f42a04be-c6c2-44c6-ae18-725929020420.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: usbdlib.h
 req.include-header: Usbdlib.h

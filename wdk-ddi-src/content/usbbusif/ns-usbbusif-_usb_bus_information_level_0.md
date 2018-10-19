@@ -6,11 +6,8 @@ description: The USB_BUS_INFORMATION_LEVEL_0 structure is used in conjunction wi
 old-location: buses\usb_bus_information_level_0.htm
 tech.root: usbref
 ms.assetid: b590493d-59a0-460d-b025-8fac63e62f6a
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSB_BUS_INFORMATION_LEVEL_0, PUSB_BUS_INFORMATION_LEVEL_0, PUSB_BUS_INFORMATION_LEVEL_0 structure pointer [Buses], USB_BUS_INFORMATION_LEVEL_0, USB_BUS_INFORMATION_LEVEL_0 structure [Buses], _USB_BUS_INFORMATION_LEVEL_0, buses.usb_bus_information_level_0, usbbusif/PUSB_BUS_INFORMATION_LEVEL_0, usbbusif/USB_BUS_INFORMATION_LEVEL_0, usbstrct_19a2e4ab-663a-4cb9-b21c-182d1de11b68.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: usbbusif.h
 req.include-header: Usbbusif.h

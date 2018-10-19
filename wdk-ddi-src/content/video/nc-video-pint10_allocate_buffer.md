@@ -6,11 +6,8 @@ description: The Int10AllocateBuffer function can be used to allocate a single 4
 old-location: display\int10allocatebuffer.htm
 tech.root: display
 ms.assetid: 2e6c8000-13e3-46fb-81be-18428fec2b21
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: Int10AllocateBuffer, Int10AllocateBuffer callback function [Display Devices], PINT10_ALLOCATE_BUFFER, PINT10_ALLOCATE_BUFFER callback, VideoPort_Functions_9e19d07d-46a9-46ee-97db-6548202ff14f.xml, display.int10allocatebuffer, video/Int10AllocateBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: video.h
 req.include-header: Video.h

@@ -6,11 +6,8 @@ description: Writes data to the specified configuration block of a PCI Express S
 old-location: pci\sriov_write_block.htm
 tech.root: PCI
 ms.assetid: da47d601-2fab-49bb-b669-909a2e5c95c0
-ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: "*PSRIOV_WRITE_BLOCK, *PSRIOV_WRITE_BLOCK callback function pointer [Buses], PCI.sriov_write_block, SRIOV_WRITE_BLOCK, SriovWriteBlock, SriovWriteBlock callback function [Buses], pcivirt/SriovWriteBlock"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: pcivirt.h
 req.include-header:
@@ -56,7 +53,7 @@ Writes data to the specified configuration block of a PCI Express SR-IOV Virtual
 ## -prototype
 
 
-````
+```cpp
 SRIOV_WRITE_BLOCK SriovWriteBlock;
 
 NTSTATUS SriovWriteBlock(
@@ -69,7 +66,7 @@ NTSTATUS SriovWriteBlock(
 { ... }
 
 typedef SRIOV_WRITE_BLOCK *PSRIOV_WRITE_BLOCK;
-````
+```
 
 
 ## -parameters

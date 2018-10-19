@@ -6,11 +6,8 @@ description: FltCloseClientPort closes a communication client port.
 old-location: ifsk\fltcloseclientport.htm
 tech.root: ifsk
 ms.assetid: 7a23b8f6-688f-4aa4-9bf3-f8bda0458566
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_0def0996-8190-4482-a7bb-018c79773eca.xml, FltCloseClientPort, FltCloseClientPort function [Installable File System Drivers], fltkernel/FltCloseClientPort, ifsk.fltcloseclientport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

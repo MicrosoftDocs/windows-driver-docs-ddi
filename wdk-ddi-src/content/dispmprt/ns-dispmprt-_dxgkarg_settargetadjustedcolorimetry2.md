@@ -4,11 +4,8 @@ title: _DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2
 author: windows-driver-content
 description: Arguments used in the DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY2 callback function.
 ms.assetid: 5d6faac0-b479-4a4b-8d10-6607607fa5d5
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2, DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2, *PDXGKARG_SETTARGETADJUSTEDCOLORIMETRY2, 
 req.header: dispmprt.h
 req.include-header:

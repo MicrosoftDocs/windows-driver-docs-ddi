@@ -6,11 +6,8 @@ description: The DXGKRNL_INTERFACE structure contains a handle to a display adap
 old-location: display\dxgkrnl_interface2.htm
 tech.root: display
 ms.assetid: d97d3ec6-aaa5-4f4a-a39f-42c09473b18e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*PDXGKRNL_INTERFACE, DXGKDDI_INTERFACE_VERSION_VISTA, DXGKDDI_INTERFACE_VERSION_VISTA_SP1, DXGKDDI_INTERFACE_VERSION_VISTA_WIN7, DXGKDDI_INTERFACE_VERSION_WIN8, DXGKRNL_INTERFACE, DXGKRNL_INTERFACE structure [Display Devices], DmStructs_86ab8b5f-f30b-4ad3-ac4d-34fc3a864f27.xml, PDXGKRNL_INTERFACE, PDXGKRNL_INTERFACE structure pointer [Display Devices], _DXGKRNL_INTERFACE, display.dxgkrnl_interface2, dispmprt/DXGKRNL_INTERFACE, dispmprt/PDXGKRNL_INTERFACE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
@@ -56,7 +53,7 @@ The <b>DXGKRNL_INTERFACE</b> structure contains a handle to a display adapter an
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DXGKRNL_INTERFACE {
   ULONG                                 Size;
   ULONG                                 Version;
@@ -97,7 +94,7 @@ typedef struct _DXGKRNL_INTERFACE {
   DXGKCB_COMPLETEPSTATETRANSITION       DxgkCbCompletePStateTransition;
 #endif
 } DXGKRNL_INTERFACE, *PDXGKRNL_INTERFACE;
-````
+```
 
 
 ## -struct-fields

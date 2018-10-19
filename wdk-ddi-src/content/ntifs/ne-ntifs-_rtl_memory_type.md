@@ -4,12 +4,9 @@ title: _RTL_MEMORY_TYPE
 author: windows-driver-content
 description: Defines the memory type the heap is supposed to use.
 ms.assetid: ba671026-62dc-4e7e-aef4-bd2507d58ecb
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _RTL_MEMORY_TYPE, RTL_MEMORY_TYPE, *PRTL_MEMORY_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: ntifs.h
 req.include-header:
 req.target-type:

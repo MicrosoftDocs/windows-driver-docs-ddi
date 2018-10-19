@@ -6,11 +6,8 @@ description: The MINIPORT_WDI_TX_TARGET_DESC_INIT callback function associates a
 old-location: netvista\miniportwditxtargetdescinit.htm
 tech.root: netvista
 ms.assetid: EAFE6F7D-6820-4626-863D-C28FBFFCE6A0
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_TX_TARGET_DESC_INIT, MINIPORT_WDI_TX_TARGET_DESC_INIT callback, MiniportWdiTxTargetDescInit, MiniportWdiTxTargetDescInit callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTargetDescInit, netvista.miniportwditxtargetdescinit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dot11wdi.h
 req.include-header: 

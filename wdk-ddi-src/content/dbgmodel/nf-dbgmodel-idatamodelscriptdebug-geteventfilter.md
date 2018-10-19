@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDataModelScriptDebug.GetEventFilter
 title: IDataModelScriptDebug::GetEventFilter
 author: windows-driver-content
-description: TBD
+description: The GetEventFilter method returns whether "break on event" is enabled for a particular event.
 ms.assetid: 1e875e1d-418a-4838-9084-584b29a0d42b
-ms.author: windowsdriverdev
 ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebug::GetEventFilter, GetEventFilter, IDataModelScriptDebug.GetEventFilter, IDataModelScriptDebug::GetEventFilter, IDataModelScriptDebug.GetEventFilter
@@ -35,8 +34,6 @@ api_name:
 -	IDataModelScriptDebug.GetEventFilter
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

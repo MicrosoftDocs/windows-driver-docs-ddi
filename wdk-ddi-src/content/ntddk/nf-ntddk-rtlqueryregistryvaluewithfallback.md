@@ -2,11 +2,10 @@
 UID: NF:ntddk.RtlQueryRegistryValueWithFallback
 title: RtlQueryRegistryValueWithFallback function
 author: windows-driver-content
-description: Retrieves a value entry for a registry key by using, a primaryn handle; if not found, uses the fallback handle.
+description: Retrieves a value entry for a registry key by using, a primary handle; if not found, uses the fallback handle.
 tech.root: kernel
 ms.assetid: 5da678a5-2619-423d-9749-522a235b3da4
-ms.author: windowsdriverdev
-ms.date: 9/30/2018
+ms.date: 09/30/2018
 ms.topic: function
 ms.keywords: RtlQueryRegistryValueWithFallback
 req.header: ntddk.h
@@ -45,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-Retrieves a value entry for a registry key by using, a primaryn handle; if not found, uses the fallback handle.
+Retrieves a value entry for a registry key by using, a primary handle; if not found, uses the fallback handle.
 
 ## -parameters
 
@@ -76,4 +75,4 @@ Returns STATUS_SUCCESS on success, or the appropriate error code on failure.
 ## -remarks
 
 ## -see-also
-[Using the Registry in a Driver](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-the-registry-in-a-driver)
+[Using the Registry in a Driver](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-the-registry-in-a-driver)

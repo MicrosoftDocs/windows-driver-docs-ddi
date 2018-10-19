@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The pfnAcquireNextModeInfo function returns a descriptor of the next mode in a specified VidPN target mode set, given the current mode.
 old-location: display\dxgk_vidpntargetmodeset_interface_pfnacquirenextmodeinfo.htm
 ms.assetid: 894d0d15-d12a-4138-9a92-8f930c12dd52
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPNTARGETMODESET_ACQUIRENEXTMODEINFO, DXGKDDI_VIDPNTARGETMODESET_ACQUIRENEXTMODEINFO callback, VidPnFunctions_27f5e19c-6a31-4e02-b9a2-8feaa5798fc3.xml, d3dkmddi/pfnAcquireNextModeInfo, display.dxgk_vidpntargetmodeset_interface_pfnacquirenextmodeinfo, pfnAcquireNextModeInfo, pfnAcquireNextModeInfo callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

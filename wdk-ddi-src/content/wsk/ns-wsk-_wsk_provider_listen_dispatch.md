@@ -6,11 +6,8 @@ description: The WSK_PROVIDER_LISTEN_DISPATCH structure specifies the WSK subsys
 old-location: netvista\wsk_provider_listen_dispatch.htm
 tech.root: netvista
 ms.assetid: 56df7cb9-9ae7-4249-9583-a9259e604238
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWSK_PROVIDER_LISTEN_DISPATCH, PWSK_PROVIDER_LISTEN_DISPATCH, PWSK_PROVIDER_LISTEN_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], WSK_PROVIDER_LISTEN_DISPATCH, WSK_PROVIDER_LISTEN_DISPATCH structure [Network Drivers Starting with Windows Vista], _WSK_PROVIDER_LISTEN_DISPATCH, netvista.wsk_provider_listen_dispatch, wsk/PWSK_PROVIDER_LISTEN_DISPATCH, wsk/WSK_PROVIDER_LISTEN_DISPATCH, wskref_f2c1b28d-48f5-4667-bb4e-8dd1d5f25916.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsk.h
 req.include-header: Wsk.h

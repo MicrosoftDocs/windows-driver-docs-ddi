@@ -6,11 +6,8 @@ description: The KSDS3D_ITD_PARAMS structure specifies the parameters applied by
 old-location: audio\ksds3d_itd_params.htm
 tech.root: audio
 ms.assetid: 2c8701d5-c762-4d2c-abd7-8da90292f3c0
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: "*PKSDS3D_ITD_PARAMS, KSDS3D_ITD_PARAMS, KSDS3D_ITD_PARAMS structure [Audio Devices], PKSDS3D_ITD_PARAMS, PKSDS3D_ITD_PARAMS structure pointer [Audio Devices], aud-prop_169748c9-f538-47d2-ae3c-ae34cca26f00.xml, audio.ksds3d_itd_params, ksmedia/KSDS3D_ITD_PARAMS, ksmedia/PKSDS3D_ITD_PARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksmedia.h
 req.include-header: Ksmedia.h

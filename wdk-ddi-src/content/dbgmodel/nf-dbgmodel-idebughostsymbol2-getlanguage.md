@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDebugHostSymbol2.GetLanguage
 title: IDebugHostSymbol2::GetLanguage
 author: windows-driver-content
-description: TBD
+description: If the symbol can identify the language for which it applies, this returns an identifier for such. 
 ms.assetid: b97fb7f8-ccd2-4450-b1fb-a3ea218889ec
-ms.author: windowsdriverdev
 ms.date: 09/28/2018
 ms.topic: method
 ms.keywords: IDebugHostSymbol2::GetLanguage, GetLanguage, IDebugHostSymbol2.GetLanguage, IDebugHostSymbol2::GetLanguage, IDebugHostSymbol2.GetLanguage
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostSymbol2.GetLanguage
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

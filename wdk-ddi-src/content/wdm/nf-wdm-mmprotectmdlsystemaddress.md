@@ -6,11 +6,8 @@ description: The MmProtectMdlSystemAddress routine sets the protection type for 
 old-location: kernel\mmprotectmdlsystemaddress.htm
 tech.root: kernel
 ms.assetid: e0ccc6e8-9351-4440-808b-e0b8eef48bc2
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: MmProtectMdlSystemAddress, MmProtectMdlSystemAddress routine [Kernel-Mode Driver Architecture], k106_b2a56ec8-cfee-4547-b1c2-6f817ecbfaad.xml, kernel.mmprotectmdlsystemaddress, wdm/MmProtectMdlSystemAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

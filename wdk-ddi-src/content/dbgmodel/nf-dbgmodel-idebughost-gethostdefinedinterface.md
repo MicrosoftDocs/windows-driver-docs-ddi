@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDebugHost.GetHostDefinedInterface
 title: IDebugHost::GetHostDefinedInterface
 author: windows-driver-content
-description: TBD
+description: The GetHostDefinedInterface method returns the host's main private interface, if such exists for the given host. 
 ms.assetid: 55ad88f7-ef21-40b8-a496-cb2d015080e5
-ms.author: windowsdriverdev
 ms.date: 08/14/2018
 ms.topic: method
 ms.keywords: IDebugHost::GetHostDefinedInterface, GetHostDefinedInterface, IDebugHost.GetHostDefinedInterface, IDebugHost::GetHostDefinedInterface, IDebugHost.GetHostDefinedInterface
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHost.GetHostDefinedInterface
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

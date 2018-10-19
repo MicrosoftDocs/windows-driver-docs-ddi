@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDataModelManager2.CreateErrorObject
 title: IDataModelManager2::CreateErrorObject
 author: windows-driver-content
-description: TBD
+description: The CreateErrorObject method creates an "error object".
 ms.assetid: 78cbba35-8827-4e76-bcb3-97aeb0378d33
-ms.author: windowsdriverdev
 ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelManager2::CreateErrorObject, CreateErrorObject, IDataModelManager2.CreateErrorObject, IDataModelManager2::CreateErrorObject, IDataModelManager2.CreateErrorObject
@@ -35,8 +34,6 @@ api_name:
 -	IDataModelManager2.CreateErrorObject
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

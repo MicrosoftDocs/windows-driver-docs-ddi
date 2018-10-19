@@ -6,11 +6,8 @@ description: The EvtSerCx2CustomReceiveTransactionInitialize event callback func
 old-location: serports\evtsercx2customreceivetransactioninitialize.htm
 tech.root: serports
 ms.assetid: B3C23236-2A35-456A-B461-AEC688ACA5B7
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2CustomReceiveTransactionInitialize, EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE, EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE callback, EvtSerCx2CustomReceiveTransactionInitialize, EvtSerCx2CustomReceiveTransactionInitialize callback function [Serial Ports], serports.evtsercx2customreceivetransactioninitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sercx.h
 req.include-header: 

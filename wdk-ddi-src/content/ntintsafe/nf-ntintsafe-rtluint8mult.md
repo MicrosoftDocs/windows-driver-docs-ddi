@@ -6,11 +6,8 @@ description: Multiplies one value of type UINT8 by another.
 old-location: kernel\rtluint8mult.htm
 tech.root: kernel
 ms.assetid: 3F9E47F5-1DE3-4949-BE92-8C8F571BFD3D
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUInt8Mult, RtlUInt8Mult function [Kernel-Mode Driver Architecture], kernel.rtluint8mult, ntintsafe/RtlUInt8Mult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

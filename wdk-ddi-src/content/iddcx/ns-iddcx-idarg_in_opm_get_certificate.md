@@ -6,11 +6,8 @@ description: Gives information about the OPM certificate.
 old-location: display\idarg_in_opm_get_certificate.htm
 tech.root: display
 ms.assetid: 0f6ce53f-f755-44f7-b579-ce3526e44c41
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IDARG_IN_OPM_GET_CERTIFICATE, IDARG_IN_OPM_GET_CERTIFICATE structure [Display Devices], display.idarg_in_opm_get_certificate, iddcx/IDARG_IN_OPM_GET_CERTIFICATE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iddcx.h
 req.include-header: 

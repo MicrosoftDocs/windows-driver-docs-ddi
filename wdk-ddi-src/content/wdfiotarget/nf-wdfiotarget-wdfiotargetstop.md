@@ -6,11 +6,8 @@ description: The WdfIoTargetStop method stops sending queued requests to a local
 old-location: wdf\wdfiotargetstop.htm
 tech.root: wdf
 ms.assetid: 3dd5aa58-e5a6-4ee3-9b88-d9cbb7eb558c
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_80727681-b08c-4025-aea9-d469735ea00c.xml, WdfIoTargetStop, WdfIoTargetStop method, kmdf.wdfiotargetstop, wdf.wdfiotargetstop, wdfiotarget/WdfIoTargetStop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfiotarget.h
 req.include-header: Wdf.h

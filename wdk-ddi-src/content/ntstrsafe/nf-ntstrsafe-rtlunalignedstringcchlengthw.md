@@ -6,11 +6,8 @@ description: The RtlUnalignedStringCchLengthW function is a version of the RtlSt
 old-location: kernel\rtlunalignedstringcchlength.htm
 tech.root: kernel
 ms.assetid: 7b9f38f5-7fc9-4670-975d-b7bfeefb2cb8
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUnalignedStringCchLength, RtlUnalignedStringCchLengthW, RtlUnalignedStringCchLengthW function [Kernel-Mode Driver Architecture], kernel.rtlunalignedstringcchlength, ntstrsafe/RtlUnalignedStringCchLengthW, safestrings_7bfc07f7-2096-4818-a0d5-31767b7342ea.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h

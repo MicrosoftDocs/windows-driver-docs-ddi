@@ -6,11 +6,8 @@ description: The RunOnceInitialization routine performs a one-time initializatio
 old-location: kernel\runonceinitialization.htm
 tech.root: kernel
 ms.assetid: 7411c10f-76ab-44df-8cab-2266443417aa
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: DrvrRtns_2bf4e129-77ac-4525-9504-4f039a503943.xml, RTL_RUN_ONCE_INIT_FN, RunOnceInitialization, RunOnceInitialization routine [Kernel-Mode Driver Architecture], kernel.runonceinitialization, ntddk/RunOnceInitialization
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h

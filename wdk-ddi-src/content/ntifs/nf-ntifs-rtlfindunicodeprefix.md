@@ -6,11 +6,8 @@ description: The RtlFindUnicodePrefix routine searches for the best match for a 
 old-location: ifsk\rtlfindunicodeprefix.htm
 tech.root: ifsk
 ms.assetid: 525db78d-b25c-4325-ac71-b992564a19c0
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlFindUnicodePrefix, RtlFindUnicodePrefix routine [Installable File System Drivers], ifsk.rtlfindunicodeprefix, ntifs/RtlFindUnicodePrefix, rtlref_55dbfa12-5de6-44e0-8488-6e83abfaad84.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

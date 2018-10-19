@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDebugHostSymbol2.GetName
 title: IDebugHostSymbol2::GetName
 author: windows-driver-content
-description: TBD
+description: Returns the name of the symbol if the symbol has a name. 
 ms.assetid: 5d6cc64e-d661-4168-9ee7-8f5109435335
-ms.author: windowsdriverdev
 ms.date: 09/21/2018
 ms.topic: method
 ms.keywords: IDebugHostSymbol2::GetName, GetName, IDebugHostSymbol2.GetName, IDebugHostSymbol2::GetName, IDebugHostSymbol2.GetName
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostSymbol2.GetName
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

@@ -6,11 +6,8 @@ description: The MRxPreparseName routine is called by RDBSS to give a network mi
 old-location: ifsk\mrxpreparsename.htm
 tech.root: ifsk
 ms.assetid: b74acc12-8fc2-497f-9f65-8b1a85a03286
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: MRxPreparseName, MRxPreparseName routine [Installable File System Drivers], PMRX_PREPARSE_NAME, ifsk.mrxpreparsename, mrx/MRxPreparseName, mrxref_4f7f0d54-93a0-4b61-bf62-6e7b1063415c.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: mrx.h
 req.include-header: Mrx.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The<i> MRxPreparseName</i> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to give a network mini-redirector the opportunity to preparse a name. 
+The<i> MRxPreparseName</i> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to give a network mini-redirector the opportunity to preparse a name. 
 
 
 ## -parameters

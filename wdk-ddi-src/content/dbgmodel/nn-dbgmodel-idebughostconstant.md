@@ -2,13 +2,10 @@
 UID: NN:dbgmodel.IDebugHostConstant
 title: IDebugHostConstant
 author: windows-driver-content
-description: TBD
+description: Represents a constant within symbolic information (a non-type template argument in C++).
 ms.assetid: 87e25e99-ea64-4cda-8cae-fd38ec9c3343
-ms.author: windowsdriverdev
 ms.date: 07/13/2018
 ms.topic: interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

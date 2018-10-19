@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Used to open a protected resource session.
 old-location: display\pfnd3d12ddi_openprotectedresourcesession_0030.htm
 ms.assetid: B71FD65C-5D10-4486-A6F7-C6EF1A4DEF03
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_OPENPROTECTEDRESOURCESESSION_0030, PFND3D12DDI_OPENPROTECTEDRESOURCESESSION_0030 callback, PFND3D12DDI_OPENPROTECTEDRESOURCESESSION_0030 callback function [Display Devices], d3d12umddi/PFND3D12DDI_OPENPROTECTEDRESOURCESESSION_0030, display.pfnd3d12ddi_openprotectedresourcesession_0030
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 

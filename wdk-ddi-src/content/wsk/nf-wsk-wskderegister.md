@@ -6,11 +6,8 @@ description: The WskDeregister function unregisters a WSK application's registra
 old-location: netvista\wskderegister.htm
 tech.root: netvista
 ms.assetid: b2ff3d7b-319d-4256-a574-cb32595fd02f
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: WskDeregister, WskDeregister function [Network Drivers Starting with Windows Vista], netvista.wskderegister, wsk/WskDeregister, wskref_45c2ad8f-a969-4a82-ac5e-67e4d3c96ffb.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wsk.h
 req.include-header: Wsk.h
@@ -108,7 +105,7 @@ All sockets are closed.
 </li>
 </ul>
 For more information about attaching a WSK application to the WSK subsystem, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
     Application</a>.
 
 

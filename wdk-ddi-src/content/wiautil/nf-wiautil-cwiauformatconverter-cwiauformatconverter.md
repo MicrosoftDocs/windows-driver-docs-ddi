@@ -6,11 +6,8 @@ description: The CWiauFormatConverter::CWiauFormatConverter method is the constr
 old-location: image\cwiauformatconverter_cwiauformatconverter.htm
 tech.root: image
 ms.assetid: 0a575614-38a7-484c-909c-2e762dc7cbb4
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: CWiauFormatConverter, CWiauFormatConverter interface [Imaging Devices],CWiauFormatConverter method, CWiauFormatConverter method [Imaging Devices], CWiauFormatConverter method [Imaging Devices],CWiauFormatConverter interface, CWiauFormatConverter.CWiauFormatConverter, CWiauFormatConverter::CWiauFormatConverter, image.cwiauformatconverter_cwiauformatconverter, wiauFncs_6da3d902-58a2-4507-b565-8dcb0a85cbd7.xml, wiautil/CWiauFormatConverter::CWiauFormatConverter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h

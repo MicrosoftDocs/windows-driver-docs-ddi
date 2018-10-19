@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilsignalquality.htm
 tech.root: netvista
 ms.assetid: b2edfcdb-28b9-4322-8bfb-4d5d2c2d1519
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILSIGNALQUALITY, RILSIGNALQUALITY, RILSIGNALQUALITY structure [Network Drivers Starting with Windows Vista], netvista.rilsignalquality, ntddrilapitypes/RILSIGNALQUALITY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h

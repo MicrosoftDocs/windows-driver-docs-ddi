@@ -6,11 +6,8 @@ description: The PHW_INTERRUPT routine prototype declares the miniport driver's 
 old-location: storage\phw_interrupt.htm
 tech.root: storage
 ms.assetid: d61892c6-f6ca-4077-909e-a21076375e5a
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "(*PHW_INTERRUPT), (*PHW_INTERRUPT) callback function [Storage Devices], ide_minikr_d0fa2a3d-deef-45c5-9251-a3c30c7af434.xml, srb/(*PHW_INTERRUPT), storage.phw_interrupt"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: srb.h
 req.include-header: Storport.h, Srb.h, Storport.h

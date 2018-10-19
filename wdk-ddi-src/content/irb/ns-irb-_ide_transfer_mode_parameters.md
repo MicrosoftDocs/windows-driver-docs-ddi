@@ -6,11 +6,8 @@ description: The IDE_TRANSFER_MODE_PARAMETERS structure is used in conjunction w
 old-location: storage\ide_transfer_mode_parameters.htm
 tech.root: storage
 ms.assetid: 66e6efd0-6651-4c87-94ba-d9d3b9191339
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PIDE_TRANSFER_MODE_PARAMETERS, IDE_TRANSFER_MODE_PARAMETERS, IDE_TRANSFER_MODE_PARAMETERS structure [Storage Devices], PIDE_TRANSFER_MODE_PARAMETERS, PIDE_TRANSFER_MODE_PARAMETERS structure pointer [Storage Devices], _IDE_TRANSFER_MODE_PARAMETERS, irb/IDE_TRANSFER_MODE_PARAMETERS, irb/PIDE_TRANSFER_MODE_PARAMETERS, storage.ide_transfer_mode_parameters, structs-ATA_41b44f2c-8685-45fe-8c56-2a9a648782b4.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: irb.h
 req.include-header: Irb.h
@@ -51,7 +48,7 @@ req.typenames: IDE_TRANSFER_MODE_PARAMETERS, *PIDE_TRANSFER_MODE_PARAMETERS
 
 
 The IDE_TRANSFER_MODE_PARAMETERS structure is used in conjunction with the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff550143">AtaControllerTransferModeSelect</a> routine to set the transfer mode parameters on a channel.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -struct-fields
 

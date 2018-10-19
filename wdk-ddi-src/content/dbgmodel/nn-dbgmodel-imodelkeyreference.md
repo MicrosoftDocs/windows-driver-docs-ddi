@@ -2,13 +2,10 @@
 UID: NN:dbgmodel.IModelKeyReference
 title: IModelKeyReference
 author: windows-driver-content
-description: TBD
+description: A reference to a key on a data model object.
 ms.assetid: f92f8963-479b-4f90-abef-5ad227e8781c
-ms.author: windowsdriverdev
 ms.date: 07/16/2018
 ms.topic: interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -44,6 +41,7 @@ A reference to a key on a data model object.
 
 ## -inheritance
 IModelKeyReference interits from IUnknown. 
+
 ## -members
 
 <p>IModelKeyReference has these methods.</p>

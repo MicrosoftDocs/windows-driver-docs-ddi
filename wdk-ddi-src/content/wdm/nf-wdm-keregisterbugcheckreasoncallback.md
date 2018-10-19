@@ -6,11 +6,8 @@ description: The KeRegisterBugCheckReasonCallback routine registers a BugCheckDu
 old-location: kernel\keregisterbugcheckreasoncallback.htm
 tech.root: kernel
 ms.assetid: 01528aa0-c580-4527-a64d-83f4ed39a471
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeRegisterBugCheckReasonCallback, KeRegisterBugCheckReasonCallback routine [Kernel-Mode Driver Architecture], k105_6b2fbc25-072d-470f-9860-e820e60cdf90.xml, kernel.keregisterbugcheckreasoncallback, wdm/KeRegisterBugCheckReasonCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

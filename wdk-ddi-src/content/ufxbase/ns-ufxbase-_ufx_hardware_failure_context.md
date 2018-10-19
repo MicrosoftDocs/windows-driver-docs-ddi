@@ -6,11 +6,8 @@ description: The UFX_HARDWARE_FAILURE_CONTEXT structure is used to define contro
 old-location: buses\ufx_hardware_failure_context.htm
 tech.root: usbref
 ms.assetid: CA0268F3-44F0-4F64-A88D-9A2BBDE768EA
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUFX_HARDWARE_FAILURE_CONTEXT, PUFX_HARDWARE_FAILURE_CONTEXT, PUFX_HARDWARE_FAILURE_CONTEXT structure pointer [Buses], UFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT structure [Buses], _UFX_HARDWARE_FAILURE_CONTEXT, buses.ufx_hardware_failure_context, ufxbase/PUFX_HARDWARE_FAILURE_CONTEXT, ufxbase/UFX_HARDWARE_FAILURE_CONTEXT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ufxbase.h
 req.include-header: 

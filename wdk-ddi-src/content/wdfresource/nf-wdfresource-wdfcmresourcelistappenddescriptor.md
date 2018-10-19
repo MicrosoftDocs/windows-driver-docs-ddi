@@ -6,11 +6,8 @@ description: The WdfCmResourceListAppendDescriptor method adds a resource descri
 old-location: wdf\wdfcmresourcelistappenddescriptor.htm
 tech.root: wdf
 ms.assetid: 1a0f8ea5-9b1f-4301-b96d-aa37b80b4ce2
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFResourceObjectRef_13d42471-baa5-4985-a5fa-70336f2be352.xml, WdfCmResourceListAppendDescriptor, WdfCmResourceListAppendDescriptor method, kmdf.wdfcmresourcelistappenddescriptor, wdf.wdfcmresourcelistappenddescriptor, wdfresource/WdfCmResourceListAppendDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfresource.h
 req.include-header: Wdf.h
@@ -131,7 +128,7 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 The framework copies the contents of the <a href="https://msdn.microsoft.com/96bf7bab-b8f5-439c-8717-ea6956ed0213">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure into internal storage, so the driver routine that calls <b>WdfCmResourceListAppendDescriptor</b> can allocate the structure locally. After the driver calls <b>WdfCmResourceListAppendDescriptor</b> it can reuse the <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> structure.
 
-For more information about resource lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
+For more information about resource lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 
 #### Examples

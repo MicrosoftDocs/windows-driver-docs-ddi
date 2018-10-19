@@ -6,11 +6,8 @@ description: The NDIS_PM_CAPABILITIES structure specifies power management capab
 old-location: netvista\ndis_pm_capabilities.htm
 tech.root: netvista
 ms.assetid: 713c8ecc-e0a5-480a-9c53-e331aeaeb38e
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_PM_CAPABILITIES, NDIS_PM_CAPABILITIES, NDIS_PM_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_PM_CAPABILITIES, PNDIS_PM_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_CAPABILITIES, miniport_power_management_ref_e70356b9-5c5a-4b38-b413-553a772da8b6.xml, netvista.ndis_pm_capabilities, ntddndis/NDIS_PM_CAPABILITIES, ntddndis/PNDIS_PM_CAPABILITIES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ntddndis.h
@@ -559,7 +556,7 @@ The <b>NDIS_PM_CAPABILITIES</b> structure is used in the
     NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a> and 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a> structures and in
     the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567410">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567410">
     NDIS_STATUS_PM_CAPABILITIES_CHANGE</a> status indication.
 
 During miniport initialization, the miniport driver initializes an <b>NDIS_PM_CAPABILITIES</b> structure with
@@ -608,7 +605,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567410">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567410">
    NDIS_STATUS_PM_CAPABILITIES_CHANGE</a>
 
 

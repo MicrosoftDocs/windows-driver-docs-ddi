@@ -2,10 +2,9 @@
 UID: NF:dbgmodel.IDebugHostType2.GetSize
 title: IDebugHostType2::GetSize
 author: windows-driver-content
-description: TBD
+description: The GetSize method returns the size of the type (as if one had done sizeof(type) in C++). 
 ms.assetid: 9e7cd050-5830-43ba-af50-9978acdc9944
-ms.author: windowsdriverdev
-ms.date: 09/20/2018  
+ms.date: 10/04/2018
 ms.topic: method
 ms.keywords: IDebugHostType2::GetSize, GetSize, IDebugHostType2.GetSize, IDebugHostType2::GetSize, IDebugHostType2.GetSize
 req.header: dbgmodel.h
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostType2.GetSize
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 
@@ -44,16 +41,29 @@ tech.root: debugger
 
 
 ## -description
-
-TBD
+The GetSize method returns the size of the type (as if one had done sizeof(type) in C++). 
 
 ## -parameters
 
 ### -param size
-
+The size of the type will be returned here.
 
 ## -returns
-This method returns HRESULT which indicates success or failure.
+This method returns HRESULT that indicates success or failure.
+
+## -remarks
+
+**Sample Code**
+
+```cpp
+ComPtr<IDebugHostType2> spType; /* get a type (see FindTypeByName) */
+
+ULONG64 size;
+if (SUCCEEDED(spType->GetSize(&size)))
+{
+    // size is equivalent to sizeof( <type> )
+}
+```
 
 ## -remarks
 

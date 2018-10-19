@@ -6,11 +6,8 @@ description: A port monitor's OpenPort function opens a printer port.
 old-location: print\openport.htm
 tech.root: print
 ms.assetid: 32e47d3a-83ad-4d3f-a6ce-c03712021844
-ms.author: windowsdriverdev
-ms.date: 2/2/2018
+ms.date: 02/02/2018
 ms.keywords: spoolfnc_94948c6d-fab4-44ce-9650-72464d5e3fdf.xml, pfnOpenPort, print.openport, OpenPort, pfnOpenPort function [Print Devices], winsplp/pfnOpenPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsplp.h
 req.include-header: Winsplp.h
@@ -57,13 +54,13 @@ A port monitor's <code>OpenPort</code> function opens a printer port.
 ## -syntax
 
 
-````
+```cpp
 BOOL WINAPI pfnOpenPort(
    HANDLE  hMonitor,
    LPWSTR  pName,
    PHANDLE pHandle
 );
-````
+```
 
 
 ## -parameters

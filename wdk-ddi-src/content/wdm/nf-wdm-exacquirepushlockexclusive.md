@@ -4,7 +4,6 @@ title: ExAcquirePushLockExclusive macro
 author: windows-driver-content
 description: Acquires the given push lock for exclusive access by the calling thread.
 ms.assetid: ba752619-f885-4977-b0e6-7c0339373b78
-ms.author: windowsdriverdev
 ms.date: 09/30/2018
 ms.topic: macro
 ms.keywords: ExAcquirePushLockExclusive

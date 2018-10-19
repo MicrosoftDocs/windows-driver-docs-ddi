@@ -6,11 +6,8 @@ description: The WdfDmaTransactionStopSystemTransfer method attempts to stop a s
 old-location: wdf\wdfdmatransactionstopsystemtransfer.htm
 tech.root: wdf
 ms.assetid: 55674946-A2DA-4695-8673-6BF3123FB5FC
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfDmaTransactionStopSystemTransfer, WdfDmaTransactionStopSystemTransfer method, kmdf.wdfdmatransactionstopsystemtransfer, wdf.wdfdmatransactionstopsystemtransfer, wdfdmatransaction/WdfDmaTransactionStopSystemTransfer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
@@ -89,11 +86,11 @@ In contrast, a driver using system-mode DMA must rely on the hardware abstractio
 
 The framework next calls the driver's <a href="https://msdn.microsoft.com/C638A505-AAE1-48FC-B06B-F2F161ADC948">EvtDmaTransactionDmaTransferComplete</a> callback function, if the driver has provided one.  If not, the framework returns FALSE when the driver next calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff547039">WdfDmaTransactionDmaCompleted</a>.
 
-If your driver calls this method on an operating system earlier than Windows 8, <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-kmdf-verifier">the framework's verifier</a> reports an error.
+If your driver calls this method on an operating system earlier than Windows 8, <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-kmdf-verifier">the framework's verifier</a> reports an error.
 
  For more information about system-mode DMA, see <a href="https://msdn.microsoft.com/CCC77C15-69CA-44CB-8DEB-29F3EAEA44F6">Supporting System-Mode DMA</a>.
 
- For more information about canceling DMA transactions, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/canceling-dma-transactions">Canceling DMA Transactions</a>.
+ For more information about canceling DMA transactions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/canceling-dma-transactions">Canceling DMA Transactions</a>.
 
 
 #### Examples

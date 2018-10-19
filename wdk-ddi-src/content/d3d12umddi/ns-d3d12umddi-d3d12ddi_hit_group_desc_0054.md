@@ -4,11 +4,8 @@ title: D3D12DDI_HIT_GROUP_DESC_0054
 author: windows-driver-content
 description: Describes a hit group.
 ms.assetid: 026710fe-8976-4d56-a86e-1284581c3f70
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_HIT_GROUP_DESC_0054, D3D12DDI_HIT_GROUP_DESC_0054, 
 req.header: d3d12umddi.h
 req.include-header:

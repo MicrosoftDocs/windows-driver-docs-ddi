@@ -6,11 +6,8 @@ description: The ExRegisterCallback routine registers a given callback routine w
 old-location: kernel\exregistercallback.htm
 tech.root: kernel
 ms.assetid: 4537447a-17d5-4431-929c-7a8fda0f2986
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExRegisterCallback, ExRegisterCallback routine [Kernel-Mode Driver Architecture], k102_db841434-fe00-448d-b5bb-2c35d1ad0ec4.xml, kernel.exregistercallback, wdm/ExRegisterCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

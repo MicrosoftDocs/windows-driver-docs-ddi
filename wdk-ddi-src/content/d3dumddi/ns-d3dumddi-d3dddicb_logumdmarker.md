@@ -6,11 +6,8 @@ description: Specifies info about the location of an Event Tracing for Windows (
 old-location: display\d3dddicb_logumdmarker.htm
 tech.root: display
 ms.assetid: D953C714-6C11-4F8A-A7F9-416A00C518B4
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDICB_LOGUMDMARKER, D3DDDICB_LOGUMDMARKER structure [Display Devices], d3dumddi/D3DDDICB_LOGUMDMARKER, display.d3dddicb_logumdmarker
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h

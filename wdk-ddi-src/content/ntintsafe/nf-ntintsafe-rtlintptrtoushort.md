@@ -6,11 +6,8 @@ description: Converts a value of type INT_PTR to a value of type USHORT.
 old-location: kernel\rtlintptrtoushort.htm
 tech.root: kernel
 ms.assetid: 7B563FDF-2535-40DD-9370-6607F3ED59F2
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlIntPtrToUShort, RtlIntPtrToUShort function [Kernel-Mode Driver Architecture], kernel.rtlintptrtoushort, ntintsafe/RtlIntPtrToUShort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

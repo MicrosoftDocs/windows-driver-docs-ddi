@@ -6,11 +6,8 @@ description: This I/O control function sets the specified statistic to the value
 old-location: pos\ioctl_point_of_service_update_statistics.htm
 tech.root: pos
 ms.assetid: 94c8d49a-5136-49f3-a313-74c032502f1f
-ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS, IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS control, IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS, pos.ioctl_point_of_service_update_statistics
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h

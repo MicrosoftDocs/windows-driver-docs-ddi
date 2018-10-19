@@ -6,11 +6,8 @@ description: The AtaPortSetBusData routine stores the data at Buffer in the indi
 old-location: storage\ataportsetbusdata.htm
 tech.root: storage
 ms.assetid: 5cc65ef9-7447-4775-bf5d-6dadd78f166c
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: AtaPortSetBusData, AtaPortSetBusData routine [Storage Devices], atartns_85424997-1f6e-4f48-98f0-e92a7312e62a.xml, irb/AtaPortSetBusData, storage.ataportsetbusdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
@@ -52,7 +49,7 @@ req.typenames:
 
 
 The <b>AtaPortSetBusData</b> routine stores the data at <i>Buffer </i>in the indicated device's PCI configuration space at an offset that is specified in <i>ConfigDataOffset</i>.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 

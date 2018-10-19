@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11ext_ihv_ui_request.htm
 tech.root: netvista
 ms.assetid: 028e3445-320a-41c8-9577-219f9fbabe40
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11EXT_IHV_UI_REQUEST, DOT11EXT_IHV_UI_REQUEST, DOT11EXT_IHV_UI_REQUEST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_2d145576-2a7d-4fff-ae75-a99e27ebbb18.xml, PDOT11EXT_IHV_UI_REQUEST, PDOT11EXT_IHV_UI_REQUEST structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_UI_REQUEST, netvista.dot11ext_ihv_ui_request, wlanihv/DOT11EXT_IHV_UI_REQUEST, wlanihv/PDOT11EXT_IHV_UI_REQUEST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
@@ -58,7 +55,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DOT11EXT_IHV_UI_REQUEST {
   DWORD dwSessionId;
   GUID  guidUIRequest;
@@ -66,7 +63,7 @@ typedef struct _DOT11EXT_IHV_UI_REQUEST {
   DWORD dwByteCount;
   BYTE  *pvUIRequest;
 } DOT11EXT_IHV_UI_REQUEST, *PDOT11EXT_IHV_UI_REQUEST;
-````
+```
 
 
 ## -struct-fields

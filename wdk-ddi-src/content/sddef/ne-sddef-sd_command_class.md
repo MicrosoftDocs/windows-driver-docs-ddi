@@ -6,11 +6,8 @@ description: The SD_COMMAND_CLASS enumeration lists the classes of Secure Digita
 old-location: sd\sd_command_class.htm
 tech.root: SD
 ms.assetid: 2c82db4c-70b1-4601-a0b0-23b1f53e3503
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: SD.sd_command_class, SDCC_APP_CMD, SDCC_STANDARD, SD_COMMAND_CLASS, SD_COMMAND_CLASS enumeration [Buses], sd-structs_ce4cd8ec-a512-422b-aed0-3052619f4f6a.xml, sddef/SDCC_APP_CMD, sddef/SDCC_STANDARD, sddef/SD_COMMAND_CLASS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: sddef.h
 req.include-header: Sddef.h

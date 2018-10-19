@@ -6,11 +6,8 @@ description: Defines the format of HDR metadata.
 old-location: display\d3dddi_hdr_metadata_type.htm
 tech.root: display
 ms.assetid: C30C34BF-F67D-4838-B337-9EF0D85B27DA
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: D3DDDI_HDR_METADATA_TYPE, D3DDDI_HDR_METADATA_TYPE enumeration [Display Devices], D3DDDI_HDR_METADATA_TYPE_HDR10, D3DDDI_HDR_METADATA_TYPE_NONE, _D3DDDI_HDR_METADATA_TYPE, d3dukmdt/D3DDDI_HDR_METADATA_TYPE, d3dukmdt/D3DDDI_HDR_METADATA_TYPE_HDR10, d3dukmdt/D3DDDI_HDR_METADATA_TYPE_NONE, display.d3dddi_hdr_metadata_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3dukmdt.h
 req.include-header:
@@ -56,12 +53,12 @@ Defines the format of HDR metadata.
 ## -syntax
 
 
-````
+```cpp
 typedef enum _D3DDDI_HDR_METADATA_TYPE {
   D3DDDI_HDR_METADATA_TYPE_NONE                 = 0,
   D3DDDI_HDR_METADATA_TYPE_HDR10                = 1
 } D3DDDI_HDR_METADATA_TYPE;
-````
+```
 
 
 ## -enum-fields

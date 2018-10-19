@@ -6,11 +6,8 @@ description: The FilterRestart function initiates a restart operation for the sp
 old-location: netvista\filterrestart.htm
 tech.root: netvista
 ms.assetid: 4a917824-eef1-4945-b45e-1c940bc8a50d
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FILTER_RESTART, FILTER_RESTART callback, FilterRestart, FilterRestart callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_784a21e4-a3d3-4ada-9555-b712595f0a24.xml, ndis/FilterRestart, netvista.filterrestart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -231,7 +228,7 @@ Can modify the media-specific attributes in the list of restart attributes. If t
 <li>
 Should, if the 
       <b>Oid</b> member in the NDIS_RESTART_ATTRIBUTES structure is 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
       OID_GEN_MINIPORT_RESTART_ATTRIBUTES</a>, make sure that the 
       <a href="https://msdn.microsoft.com/f67bd2fe-4553-4b1a-8d39-26777bcc60e0">
       NDIS_RESTART_GENERAL_ATTRIBUTES</a> structure contains the information that the filter driver
@@ -371,7 +368,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
    OID_GEN_MINIPORT_RESTART_ATTRIBUTES</a>
  
 

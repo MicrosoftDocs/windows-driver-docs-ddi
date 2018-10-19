@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_writephonebookentry.htm
 tech.root: netvista
 ms.assetid: 03fc6240-ccc8-48de-87e0-b1ee5db3bac8
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_WritePhonebookEntry, RIL_WritePhonebookEntry method [Network Drivers Starting with Windows Vista], netvista.ril_writephonebookentry, rilapi/RIL_WritePhonebookEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rilapi.h
 req.include-header: 

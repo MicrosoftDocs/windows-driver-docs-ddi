@@ -6,11 +6,8 @@ description: The NdkReject (NDK_FN_REJECT) function rejects an incoming NDK conn
 old-location: netvista\ndk_fn_reject.htm
 tech.root: netvista
 ms.assetid: BBD02954-C907-4EA4-8605-EC90CC62ECB7
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_FN_REJECT, NDK_FN_REJECT callback, NdkReject, NdkReject callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkReject, netvista.ndk_fn_reject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndkpi.h
 req.include-header: Ndkpi.h

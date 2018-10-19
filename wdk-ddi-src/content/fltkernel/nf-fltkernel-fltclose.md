@@ -6,11 +6,8 @@ description: FltClose closes a file handle that was opened by FltCreateFile or F
 old-location: ifsk\fltclose.htm
 tech.root: ifsk
 ms.assetid: fd5967cc-fb30-4882-9567-4617b9f9e723
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_f50e2397-1161-4e6e-9688-2baa417f6845.xml, FltClose, FltClose function [Installable File System Drivers], fltkernel/FltClose, ifsk.fltclose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

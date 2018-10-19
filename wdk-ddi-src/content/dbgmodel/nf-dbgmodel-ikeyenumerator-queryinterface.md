@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IKeyEnumerator.QueryInterface
 title: IKeyEnumerator::QueryInterface
 author: windows-driver-content
-description: TBD
+description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns.
 ms.assetid: 4f870fe7-0c4f-4cf0-aa73-78802329d35d
-ms.author: windowsdriverdev
 ms.date: 08/13/2018
 ms.topic: method
 ms.keywords: IKeyEnumerator::QueryInterface, QueryInterface, IKeyEnumerator.QueryInterface, IKeyEnumerator::QueryInterface, IKeyEnumerator.QueryInterface
@@ -35,8 +34,6 @@ api_name:
 -	IKeyEnumerator.QueryInterface
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

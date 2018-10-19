@@ -6,11 +6,8 @@ description: The CONFIG_ROM structure is used to contain the first 24 bytes of a
 old-location: ieee\config_rom.htm
 tech.root: IEEE
 ms.assetid: 0ab96bc2-a89f-42cf-9ee2-020b47dff4cf
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PCONFIG_ROM, 1394/CONFIG_ROM, 1394/PCONFIG_ROM, 1394stct_83c9e36a-b3d7-46cc-9dc6-1e40095d041b.xml, CONFIG_ROM, CONFIG_ROM structure [Buses], IEEE.config_rom, PCONFIG_ROM, PCONFIG_ROM structure pointer [Buses], _CONFIG_ROM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 1394.h
 req.include-header: 1394.h

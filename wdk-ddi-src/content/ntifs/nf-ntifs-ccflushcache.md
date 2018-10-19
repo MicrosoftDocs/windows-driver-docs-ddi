@@ -6,11 +6,8 @@ description: The CcFlushCache routine flushes all or a portion of a cached file 
 old-location: ifsk\ccflushcache.htm
 tech.root: ifsk
 ms.assetid: 06bb49bc-56e6-42fc-ae52-c954507d2a3f
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: CcFlushCache, CcFlushCache routine [Installable File System Drivers], ccref_089656c6-a12e-4e74-a72d-7f0182f3c3dd.xml, ifsk.ccflushcache, ntifs/CcFlushCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

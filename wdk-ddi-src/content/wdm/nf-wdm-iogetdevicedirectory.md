@@ -4,8 +4,7 @@ title: IoGetDeviceDirectory function
 author: windows-driver-content
 description: Returns a handle to a directory on disk specific to the specified driver object where the driver can read and write files.
 ms.assetid: d0a01cd6-cf1a-4737-a8cc-770a42ff8fcb
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: IoGetDeviceDirectory
 req.header: wdm.h
@@ -64,7 +63,7 @@ Returns a handle to a directory on disk, in which drivers can store files. The f
 [_Out_] A pointer to a variable that receives a HANDLE to the requested device directory. The caller must not pass NULL.
 
 ## -returns
-Returns an appropriate [NTSTATUS value](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values). Possible values include:
+Returns an appropriate [NTSTATUS value](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values). Possible values include:
 | Error code               | Description                                                                                        |
 | ------------------------ | -------------------------------------------------------------------------------------------------- |
 | STATUS_SUCCESS           | The call successfully opened a handle to the requested device directory.                           |

@@ -6,11 +6,8 @@ description: The ExtRemoteData constructor creates a new instance of the ExtRemo
 old-location: debugger\extremotedata_extremotedata.htm
 tech.root: debugger
 ms.assetid: c463169e-5e18-44bb-b954-8a99d24edd0c
-ms.author: windowsdriverdev
 ms.date: 08/09/2018
 ms.keywords: EngExtCpp_Ref_8e376094-9e23-4ea4-81e3-c47e6695a687.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging],ExtRemoteData constructor, ExtRemoteData constructor [Windows Debugging], ExtRemoteData constructor [Windows Debugging],ExtRemoteData class, ExtRemoteData.ExtRemoteData, ExtRemoteData.ExtRemoteData(), ExtRemoteData::ExtRemoteData, debugger.extremotedata_extremotedata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

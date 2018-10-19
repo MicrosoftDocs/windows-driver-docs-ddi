@@ -6,11 +6,8 @@ description: The FilterSetModuleOptions function changes the set of optional ser
 old-location: netvista\filtersetmoduleoptions.htm
 tech.root: netvista
 ms.assetid: 04b7ac32-8996-4648-8c88-aa9f630b1bc4
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "(*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER), (*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER) callback function [Network Drivers Starting with Windows Vista], FILTER_SET_MODULE_OPTIONS, FILTER_SET_MODULE_OPTIONS callback, FilterSetModuleOptions, FilterSetModuleOptions callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_165a2df8-6944-43cc-9e27-711a72e3b160.xml, ndis/FilterSetModuleOptions, netvista.filtersetmoduleoptions"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -180,7 +177,7 @@ The possible characteristics structures that can be specified from
 
 
 For information on the last four structures, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
     documentation</a>.
 
 The options that are specified in each characteristics structure can be different for each filter

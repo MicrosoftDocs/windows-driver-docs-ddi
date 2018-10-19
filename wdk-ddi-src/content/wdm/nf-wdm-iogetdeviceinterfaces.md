@@ -6,11 +6,8 @@ description: The IoGetDeviceInterfaces routine returns a list of device interfac
 old-location: kernel\iogetdeviceinterfaces.htm
 tech.root: kernel
 ms.assetid: a980fe92-ccd9-4a23-b324-ae8ef4e10345
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoGetDeviceInterfaces, IoGetDeviceInterfaces routine [Kernel-Mode Driver Architecture], k104_c4286fdb-9b4e-42e4-a1f6-fb3a79d556a7.xml, kernel.iogetdeviceinterfaces, wdm/IoGetDeviceInterfaces
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

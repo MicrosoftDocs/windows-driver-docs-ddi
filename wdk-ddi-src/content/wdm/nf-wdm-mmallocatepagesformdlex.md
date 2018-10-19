@@ -6,11 +6,8 @@ description: The MmAllocatePagesForMdlEx routine allocates nonpaged, physical me
 old-location: kernel\mmallocatepagesformdlex.htm
 tech.root: kernel
 ms.assetid: f860c230-01ca-4c7f-8b67-5d92a80ff906
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: MM_ALLOCATE_FROM_LOCAL_NODE_ONLY, MM_ALLOCATE_FULLY_REQUIRED, MM_ALLOCATE_NO_WAIT, MM_ALLOCATE_PREFER_CONTIGUOUS, MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS, MM_DONT_ZERO_ALLOCATION, MmAllocatePagesForMdlEx, MmAllocatePagesForMdlEx routine [Kernel-Mode Driver Architecture], k106_df4d4bea-4360-4755-841c-f39849228e9b.xml, kernel.mmallocatepagesformdlex, wdm/MmAllocatePagesForMdlEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

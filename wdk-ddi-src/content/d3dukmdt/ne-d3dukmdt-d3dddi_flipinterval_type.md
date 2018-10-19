@@ -6,11 +6,8 @@ description: The D3DDDI_FLIPINTERVAL_TYPE enumeration type contains values that 
 old-location: display\d3dddi_flipinterval_type.htm
 tech.root: display
 ms.assetid: fbfc270c-b8e3-4467-b99d-2d5932a50114
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDI_FLIPINTERVAL_FOUR, D3DDDI_FLIPINTERVAL_IMMEDIATE, D3DDDI_FLIPINTERVAL_ONE, D3DDDI_FLIPINTERVAL_THREE, D3DDDI_FLIPINTERVAL_TWO, D3DDDI_FLIPINTERVAL_TYPE, D3DDDI_FLIPINTERVAL_TYPE enumeration [Display Devices], D3D_other_Structs_389c16ef-e25c-498e-994f-324efb96052c.xml, d3dukmdt/D3DDDI_FLIPINTERVAL_FOUR, d3dukmdt/D3DDDI_FLIPINTERVAL_IMMEDIATE, d3dukmdt/D3DDDI_FLIPINTERVAL_ONE, d3dukmdt/D3DDDI_FLIPINTERVAL_THREE, d3dukmdt/D3DDDI_FLIPINTERVAL_TWO, d3dukmdt/D3DDDI_FLIPINTERVAL_TYPE, display.d3dddi_flipinterval_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h

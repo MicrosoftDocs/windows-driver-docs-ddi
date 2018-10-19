@@ -5,12 +5,9 @@ author: windows-driver-content
 description: The MBB_MBIM_VERSION enumeration defines the version of the MBIM specification that a client driver and its device support. 
 tech.root: netvista
 ms.assetid: 3326d39e-bd84-4740-89cf-7a5971ee4b7e
-ms.author: windowsdriverdev
 ms.date: 07/02/2018
 ms.topic: enum
 ms.keywords: _MBB_MBIM_VERSION, MBB_MBIM_VERSION, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: mbbcx.h
 req.include-header:
 req.target-type:

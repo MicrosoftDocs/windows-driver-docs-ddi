@@ -6,11 +6,8 @@ description: The CreateInterrupt method creates a framework interrupt object.
 old-location: wdf\iwdfdevice3_createinterrupt.htm
 tech.root: wdf
 ms.assetid: EE68BED8-5FDC-4590-8E95-B228F1DFD32D
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: CreateInterrupt, CreateInterrupt method, CreateInterrupt method,IWDFDevice3 interface, IWDFDevice3 interface,CreateInterrupt method, IWDFDevice3.CreateInterrupt, IWDFDevice3::CreateInterrupt, umdf.iwdfdevice3_createinterrupt, wdf.iwdfdevice3_createinterrupt, wudfddi/IWDFDevice3::CreateInterrupt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: 
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>CreateInterrupt</b> method creates a framework interrupt object.
 

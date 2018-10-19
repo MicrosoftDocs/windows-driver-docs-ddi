@@ -6,11 +6,8 @@ description: The WdmlibIoGetAffinityInterrupt function gets the group affinity o
 old-location: kernel\wdmlibiogetaffinityinterrupt.htm
 tech.root: kernel
 ms.assetid: E9E80EB4-C20B-4025-957B-32DC6FAE7F38
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoGetAffinityInterrupt, WdmlibIoGetAffinityInterrupt, WdmlibIoGetAffinityInterrupt function [Kernel-Mode Driver Architecture], iointex/IoGetAffinityInterrupt, iointex/WdmlibIoGetAffinityInterrupt, kernel.wdmlibiogetaffinityinterrupt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iointex.h
 req.include-header: Iointex.h, Wdm.h, Ntddk.h, Ntifs.h

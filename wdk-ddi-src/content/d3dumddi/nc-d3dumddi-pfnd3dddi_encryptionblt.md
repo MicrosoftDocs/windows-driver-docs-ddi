@@ -6,11 +6,8 @@ description: The EncryptionBlt function reads encrypted data from a protected su
 old-location: display\encryptionblt.htm
 tech.root: display
 ms.assetid: a92bfff7-8af6-48c3-9e7f-95b9426aaaf2
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: EncryptionBlt, EncryptionBlt callback function [Display Devices], PFND3DDDI_ENCRYPTIONBLT, PFND3DDDI_ENCRYPTIONBLT callback, UserModeDisplayDriver_Functions_49cc68db-1210-44e5-80f1-347210dc6cf3.xml, d3dumddi/EncryptionBlt, display.encryptionblt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

@@ -6,11 +6,8 @@ description: IDebugSymbols interface
 old-location: debugger\idebugsymbols.htm
 tech.root: debugger
 ms.assetid: 8040db26-0405-4dd3-87c5-b89d812549b5
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugSymbols, IDebugSymbols interface [Windows Debugging], IDebugSymbols interface [Windows Debugging],described, IDebugSymbols_4046a7ad-b8ed-4a10-991e-f7d63f9e35d0.xml, dbgeng/IDebugSymbols, debugger.idebugsymbols
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

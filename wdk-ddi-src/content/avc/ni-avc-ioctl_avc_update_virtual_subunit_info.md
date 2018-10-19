@@ -6,11 +6,8 @@ description: The IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO I/O control code controls
 old-location: stream\ioctl_avc_update_virtual_subunit_info.htm
 tech.root: stream
 ms.assetid: 2a66ea7f-bfa1-4c51-a93d-18043fc49066
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO, IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO control, IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO control code [Streaming Media Devices], avc/IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO, avcref_70967704-87c3-4d0b-856f-e031ae0011cc.xml, stream.ioctl_avc_update_virtual_subunit_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: avc.h
 req.include-header: Avc.h

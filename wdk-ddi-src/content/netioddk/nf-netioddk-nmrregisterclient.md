@@ -6,11 +6,8 @@ description: The NmrRegisterClient function registers a client module with the N
 old-location: netvista\nmrregisterclient.htm
 tech.root: netvista
 ms.assetid: 9a8d2bc1-a75a-449d-8cfe-9d1f16a9dbb7
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NmrRegisterClient, NmrRegisterClient function [Network Drivers Starting with Windows Vista], netioddk/NmrRegisterClient, netvista.nmrregisterclient, nmrref_245036b1-3c92-46e6-bc7d-763e91e8b9f3.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netioddk.h
 req.include-header: Wsk.h
@@ -145,7 +142,7 @@ An error occurred.
 
 A client module calls the 
     <b>NmrRegisterClient</b> function to register as a client of an 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> so that it can attach to
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> so that it can attach to
     provider modules that register as providers of the same 
     NPI.
 
@@ -155,7 +152,7 @@ A client module typically calls the
     all other initialization tasks. The call to the 
     <b>NmrRegisterClient</b> function indicates to the NMR that the client module is ready to attach to any
     provider modules that have registered or will register as providers of the same 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which the client module
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which the client module
     has registered as a client.
 
 

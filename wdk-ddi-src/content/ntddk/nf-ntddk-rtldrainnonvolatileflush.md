@@ -6,11 +6,8 @@ description: The routine RtlDrainNonVolatileFlush waits for the flushes initiate
 old-location: ifsk\rtldrainnonvolatileflush.htm
 tech.root: ifsk
 ms.assetid: EA1C2DF3-591C-407A-ABBF-DE615466A498
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlDrainNonVolatileFlush, RtlDrainNonVolatileFlush routine [Installable File System Drivers], ifsk.rtldrainnonvolatileflush, ntddk/RtlDrainNonVolatileFlush
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Winnt.h

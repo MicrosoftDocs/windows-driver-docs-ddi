@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extstartonex.htm
 tech.root: netvista
 ms.assetid: d4117da4-349a-4143-b2a8-d4edf6c02e7b
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: DOT11EXT_ONEX_START, Dot11ExtStartOneX, Dot11ExtStartOneX callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_71199b82-64e0-4b96-89f0-e964dd959077.xml, netvista.dot11extstartonex, wlanihv/Dot11ExtStartOneX
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
@@ -60,12 +57,12 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```cpp
 DWORD WINAPI * Dot11ExtStartOneX(
   _In_opt_ HANDLE         hDot11SvcHandle,
   _In_opt_ EAP_ATTRIBUTES *pEapAttribute
 );
-````
+```
 
 
 ## -parameters
@@ -120,7 +117,7 @@ The IHV Extensions DLL initiates the 802.1X authentication operation by calling 
     <b>Dot11ExtStartOneX</b> function.
     <b>Dot11ExtStartOneX</b> can only be called either during a post-association
     operation or after the operation has completed. For more information about this operation, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/post-association-operations">Post-Association Operations</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/post-association-operations">Post-Association Operations</a>.
 
 When the
     <b>Dot11ExtStartOneX</b> function is called, the operating system sends an EAP
@@ -162,7 +159,7 @@ The IHV Extensions DLL can cancel the 802.1X authentication operation by calling
 </li>
 </ul>
 For more information about using the 802.1X module for authentication, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/interface-to-the-native-802-11-802-1x-module">Interface to the Native
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/interface-to-the-native-802-11-802-1x-module">Interface to the Native
     802.11 802.1X Module</a>.
 
 

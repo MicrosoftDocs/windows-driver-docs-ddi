@@ -6,11 +6,8 @@ description: The AtaPortRegistryAllocateBuffer routine allocates a buffer for re
 old-location: storage\ataportregistryallocatebuffer.htm
 tech.root: storage
 ms.assetid: c888fd84-2828-4f2d-921d-ba92a5ce9c84
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: AtaPortRegistryAllocateBuffer, AtaPortRegistryAllocateBuffer routine [Storage Devices], atartns_9ad4a954-9252-4128-99b9-a82e89da5f98.xml, irb/AtaPortRegistryAllocateBuffer, storage.ataportregistryallocatebuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
@@ -54,7 +51,7 @@ req.typenames:
 
 
 The <b>AtaPortRegistryAllocateBuffer</b> routine allocates a buffer for registry operations.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 

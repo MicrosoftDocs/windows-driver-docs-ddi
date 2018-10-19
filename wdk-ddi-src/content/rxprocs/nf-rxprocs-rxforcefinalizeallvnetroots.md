@@ -6,11 +6,8 @@ description: RxForceFinalizeAllVNetRoots force finalizes all the V_NET_ROOT stru
 old-location: ifsk\rxforcefinalizeallvnetroots.htm
 tech.root: ifsk
 ms.assetid: 39b64fc0-70e6-4bca-ac45-817b27681487
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxForceFinalizeAllVNetRoots, RxForceFinalizeAllVNetRoots function [Installable File System Drivers], ifsk.rxforcefinalizeallvnetroots, rxprocs/RxForceFinalizeAllVNetRoots, rxref_4202642f-d7a8-4649-8395-4f2e423ca062.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rxprocs.h
 req.include-header: Rxprocs.h

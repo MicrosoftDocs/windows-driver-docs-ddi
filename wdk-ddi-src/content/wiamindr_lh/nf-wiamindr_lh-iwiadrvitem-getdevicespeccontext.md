@@ -6,11 +6,8 @@ description: The IWiaDrvItem::GetDeviceSpecContext method gets a device-specific
 old-location: image\iwiadrvitem_getdevicespeccontext.htm
 tech.root: image
 ms.assetid: 04f8d7ef-43c6-43b7-afa1-06ae379a8e26
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: DrvItem_c9edf09c-212c-456c-9eb2-c6c87adf59f3.xml, GetDeviceSpecContext, GetDeviceSpecContext method [Imaging Devices], GetDeviceSpecContext method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],GetDeviceSpecContext method, IWiaDrvItem.GetDeviceSpecContext, IWiaDrvItem::GetDeviceSpecContext, image.iwiadrvitem_getdevicespeccontext, wiamindr_lh/IWiaDrvItem::GetDeviceSpecContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h

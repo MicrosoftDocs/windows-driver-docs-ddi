@@ -6,11 +6,8 @@ description: The USBCAMD_InitializeNewInterface function provides USBCAMD with a
 old-location: stream\usbcamd_initializenewinterface.htm
 tech.root: stream
 ms.assetid: d0796a9b-9823-4f13-b2df-1fc8ca74cbd1
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: USBCAMD_InitializeNewInterface, USBCAMD_InitializeNewInterface function [Streaming Media Devices], stream.usbcamd_initializenewinterface, usbcamdi/USBCAMD_InitializeNewInterface, usbcmdpr_4b43d8ab-fd5f-4199-afbc-b21801c4fab3.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h

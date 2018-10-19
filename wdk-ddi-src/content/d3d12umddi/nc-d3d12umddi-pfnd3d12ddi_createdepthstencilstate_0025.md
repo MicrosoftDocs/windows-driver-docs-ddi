@@ -4,11 +4,8 @@ title: PFND3D12DDI_CREATEDEPTHSTENCILSTATE_0025
 author: windows-driver-content
 description: The PFND3D12DDI_CREATEDEPTHSTENCILSTATE_0025 callback function creates a depth stencil state.
 ms.assetid: 4320ce96-7f31-462c-ad1b-9a30d714e4ec
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ The PFND3D12DDI_CREATEDEPTHSTENCILSTATE_0025 callback function creates a depth s
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATEDEPTHSTENCILSTATE_0025 Pfnd3d12ddiCreatedepthstencilstate0025; 

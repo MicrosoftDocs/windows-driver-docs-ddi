@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The EvtPacketQueueSetNotificationEnabled callback function is implemented by the client driver to perform client-specific processing when there are new packets received in the specified queue's ring buffer.
 tech.root: netvista
 ms.assetid: 1a1adb5b-3953-44d5-8d82-aeb210a20c30
-ms.author: windowsdriverdev
 ms.date: 07/16/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: netpacketqueue.h
 req.include-header:
 req.target-type: Universal

@@ -2,10 +2,9 @@
 UID: NF:dbgmodel.IDataModelNameBinder.QueryInterface
 title: IDataModelNameBinder::QueryInterface
 author: windows-driver-content
-description: TBD
+description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns.
 ms.assetid: 30c88578-1a85-4127-8e4b-446931a60e29
-ms.author: windowsdriverdev
-ms.date: 09/12/2018 
+ms.date: 09/12/2018
 ms.topic: method
 ms.keywords: IDataModelNameBinder::QueryInterface, QueryInterface, IDataModelNameBinder.QueryInterface, IDataModelNameBinder::QueryInterface, IDataModelNameBinder.QueryInterface
 req.header: dbgmodel.h
@@ -35,8 +34,6 @@ api_name:
 -	IDataModelNameBinder.QueryInterface
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

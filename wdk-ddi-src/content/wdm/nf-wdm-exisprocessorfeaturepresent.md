@@ -6,11 +6,8 @@ description: The ExIsProcessorFeaturePresent routine queries for the existence o
 old-location: kernel\exisprocessorfeaturepresent.htm
 tech.root: kernel
 ms.assetid: d8c4d1d7-3510-48c4-b1a6-062157f4632e
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExIsProcessorFeaturePresent, ExIsProcessorFeaturePresent routine [Kernel-Mode Driver Architecture], k102_4dccea04-24a3-4465-97bc-67bb58cee3b1.xml, kernel.exisprocessorfeaturepresent, wdm/ExIsProcessorFeaturePresent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

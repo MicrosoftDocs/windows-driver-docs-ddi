@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDataModelScriptHostContext.GetNamespaceObject
 title: IDataModelScriptHostContext::GetNamespaceObject
 author: windows-driver-content
-description: TBD
+description: The GetNamespaceObject method returns an object into which the script provider can place any bridges between the data model and the script.
 ms.assetid: 10b093f4-f047-4710-8bbe-aa9ce3973021
-ms.author: windowsdriverdev
 ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDataModelScriptHostContext::GetNamespaceObject, GetNamespaceObject, IDataModelScriptHostContext.GetNamespaceObject, IDataModelScriptHostContext::GetNamespaceObject, IDataModelScriptHostContext.GetNamespaceObject
@@ -35,8 +34,6 @@ api_name:
 -	IDataModelScriptHostContext.GetNamespaceObject
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

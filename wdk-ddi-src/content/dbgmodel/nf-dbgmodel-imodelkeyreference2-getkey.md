@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IModelKeyReference2.GetKey
 title: IModelKeyReference2::GetKey
 author: windows-driver-content
-description: TBD
+description: The GetKey method on a key reference behaves as the GetKey method on IModelObject would. 
 ms.assetid: edcad7fa-c729-4d9b-b083-c350e346ac50
-ms.author: windowsdriverdev
 ms.date: 08/14/2018
 ms.topic: method
 ms.keywords: IModelKeyReference2::GetKey, GetKey, IModelKeyReference2.GetKey, IModelKeyReference2::GetKey, IModelKeyReference2.GetKey
@@ -35,8 +34,6 @@ api_name:
 -	IModelKeyReference2.GetKey
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

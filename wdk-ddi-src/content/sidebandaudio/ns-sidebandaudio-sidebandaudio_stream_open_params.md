@@ -2,13 +2,10 @@
 UID: NS:sidebandaudio.SIDEBANDAUDIO_STREAM_OPEN_PARAMS
 title: SIDEBANDAUDIO_STREAM_OPEN_PARAMS
 author: windows-driver-content
-description: 
+description: Describes the variable I/O parameters for IOCTLs.
 ms.assetid: f34ee0ff-8e4a-4893-90f8-5dcf6fa50f0d
-ms.author: windowsdriverdev
-ms.date: 09/07/2018 
+ms.date: 09/07/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: SIDEBANDAUDIO_STREAM_OPEN_PARAMS, SIDEBANDAUDIO_STREAM_OPEN_PARAMS, *PSIDEBANDAUDIO_STREAM_OPEN_PARAMS, 
 req.header: sidebandaudio.h
 req.include-header:
@@ -33,12 +30,13 @@ api_name:
 -	SIDEBANDAUDIO_STREAM_OPEN_PARAMS
 product: Windows
 targetos: Windows
+tech.root: audio
 ---
 
 # SIDEBANDAUDIO_STREAM_OPEN_PARAMS structure
 
 ## -description
- Describes the variable I/O parameters for IOCTLs.
+Describes the variable I/O parameters for IOCTLs.
 
 ## -struct-fields
 

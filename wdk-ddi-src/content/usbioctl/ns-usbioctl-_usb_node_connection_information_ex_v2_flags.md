@@ -6,11 +6,8 @@ description: The USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS union is used to in
 old-location: buses\usb_node_connection_information_ex_v2_flags.htm
 tech.root: usbref
 ms.assetid: F066CE0E-3247-4C42-9EF6-8A6EB0C0BC71
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS union pointer [Buses], USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS union [Buses], _USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, buses.usb_node_connection_information_ex_v2_flags, usbioctl/PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, usbioctl/USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: usbioctl.h
 req.include-header: Usbioctl.h

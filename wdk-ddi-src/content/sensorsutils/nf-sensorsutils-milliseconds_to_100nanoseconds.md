@@ -4,10 +4,7 @@ title: MILLISECONDS_TO_100NANOSECONDS macro
 author: windows-driver-content
 description: This macro converts time, in milliseconds, to 100 nanosecond units.
 ms.assetid: 118243ed-695b-402b-b132-8913b5bac918
-ms.author: windowsdriverdev
-ms.date: 08/08/18
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: macro
 ms.keywords: MILLISECONDS_TO_100NANOSECONDS

@@ -6,11 +6,8 @@ description: A driver implements the IRequestCallbackRequestCompletion interface
 old-location: wdf\irequestcallbackrequestcompletion.htm
 tech.root: wdf
 ms.assetid: 65803145-8043-4902-981a-9dbbda2d69e9
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IRequestCallbackRequestCompletion, IRequestCallbackRequestCompletion interface, IRequestCallbackRequestCompletion interface,described, UMDFRequestObjectRef_9940e95b-e321-4cdf-95bb-3540e95f6094.xml, umdf.irequestcallbackrequestcompletion, wdf.irequestcallbackrequestcompletion, wudfddi/IRequestCallbackRequestCompletion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wudfddi.h
 req.include-header: 
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 A driver implements the <b>IRequestCallbackRequestCompletion</b> interface to complete a request object. 
 
@@ -86,7 +83,7 @@ The <a href="https://msdn.microsoft.com/1a4787da-2813-4a7a-820a-5c078175aba5">On
 
 
 
-A driver registers the <b>IRequestCallbackRequestCompletion</b> interface when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559153">IWDFIoRequest::SetCompletionCallback</a> method. For more information about how a driver completes an I/O request, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
+A driver registers the <b>IRequestCallbackRequestCompletion</b> interface when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559153">IWDFIoRequest::SetCompletionCallback</a> method. For more information about how a driver completes an I/O request, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
 
 
 

@@ -6,11 +6,8 @@ description: The NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS structure specifies CoND
 old-location: netvista\ndis_co_call_manager_optional_handlers.htm
 tech.root: netvista
 ms.assetid: 12d541e1-04dd-4512-827e-d27f16260fe3
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS, NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS, NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS structure [Network Drivers Starting with Windows Vista], PNDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS, PNDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS, condis_structures_ref_82f5169a-d1fb-4555-a764-0d78dd48e8a4.xml, ndis/NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS, ndis/PNDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS, netvista.ndis_co_call_manager_optional_handlers"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -227,7 +224,7 @@ After a stand-alone call manager calls the
 An MCM calls the 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a> function
      from the 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a> function. The
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">MiniportSetOptions</a> function. The
      MCM must set every 
      <b>Cm</b><i>Xxx</i> member in the NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS structure to a MCM-supplied 
      <i>ProtocolXxx</i> function even if the MCM does not support incoming calls, outgoing calls, or
@@ -286,7 +283,7 @@ An MCM driver cannot set the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
 
 

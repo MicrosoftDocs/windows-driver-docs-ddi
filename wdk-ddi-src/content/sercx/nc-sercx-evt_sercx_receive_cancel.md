@@ -6,11 +6,8 @@ description: The EvtSerCxReceiveCancel event callback function notifies the seri
 old-location: serports\evtsercxreceivecancel.htm
 tech.root: serports
 ms.assetid: 17362701-67C9-4275-B072-CB17111A838F
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 1/EvtSerCxReceiveCancel, EVT_SERCX_RECEIVE_CANCEL, EVT_SERCX_RECEIVE_CANCEL callback, EvtSerCxReceiveCancel, EvtSerCxReceiveCancel callback function [Serial Ports], serports.evtsercxreceivecancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sercx.h
 req.include-header: 

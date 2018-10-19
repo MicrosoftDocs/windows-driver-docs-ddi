@@ -6,11 +6,8 @@ description: The FltOplockFsctrl routine performs various opportunistic lock (op
 old-location: ifsk\fltoplockfsctrl.htm
 tech.root: ifsk
 ms.assetid: 50fba819-7a6c-472d-a8e3-5790bc6ec249
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_d34fe16c-8dc9-43be-866b-57244e9defa8.xml, FltOplockFsctrl, FltOplockFsctrl routine [Installable File System Drivers], fltkernel/FltOplockFsctrl, ifsk.fltoplockfsctrl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

@@ -6,11 +6,8 @@ description: The FwpsAleEndpointCreateEnumHandle0 function creates a handle that
 old-location: netvista\fwpsaleendpointcreateenumhandle0.htm
 tech.root: netvista
 ms.assetid: 5daa3dd4-e499-4a72-b784-8a0e1ef3e92b
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FwpsAleEndpointCreateEnumHandle0, FwpsAleEndpointCreateEnumHandle0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAleEndpointCreateEnumHandle0, netvista.fwpsaleendpointcreateenumhandle0, wfp_ref_2_funct_3_fwps_A-B_dfe65638-187e-4966-b8dc-20fac02ea7cb.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpsk.h
 req.include-header: Fwpsk.h

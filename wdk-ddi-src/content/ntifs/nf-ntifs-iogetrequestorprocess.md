@@ -6,11 +6,8 @@ description: The IoGetRequestorProcess routine returns a process pointer for the
 old-location: ifsk\iogetrequestorprocess.htm
 tech.root: ifsk
 ms.assetid: 456e2354-1362-43f7-a2b0-3b3bec49b522
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: IoGetRequestorProcess, IoGetRequestorProcess routine [Installable File System Drivers], ifsk.iogetrequestorprocess, ioref_5c1e0075-08db-4db9-aa0c-fa28dced1202.xml, ntifs/IoGetRequestorProcess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

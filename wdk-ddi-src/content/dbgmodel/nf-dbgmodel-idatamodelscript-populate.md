@@ -2,9 +2,8 @@
 UID: NF:dbgmodel.IDataModelScript.Populate
 title: IDataModelScript::Populate
 author: windows-driver-content
-description: TBD
+description: The Populate method is called by the client in order to change or synchronize the "content" of the script. 
 ms.assetid: 87ffd7d9-adea-48bb-a982-22265dbb1f1f
-ms.author: windowsdriverdev
 ms.date: 08/20/2018
 ms.topic: method
 ms.keywords: IDataModelScript::Populate, Populate, IDataModelScript.Populate, IDataModelScript::Populate, IDataModelScript.Populate
@@ -35,8 +34,6 @@ api_name:
 -	IDataModelScript.Populate
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 

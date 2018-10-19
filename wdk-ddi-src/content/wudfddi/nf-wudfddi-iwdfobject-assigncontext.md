@@ -6,11 +6,8 @@ description: The AssignContext method registers a context and a driver-supplied 
 old-location: wdf\iwdfobject_assigncontext.htm
 tech.root: wdf
 ms.assetid: 9b543d5d-ed6d-4440-b5ad-aefca69dd489
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: AssignContext, AssignContext method, AssignContext method,IWDFObject interface, IWDFObject interface,AssignContext method, IWDFObject.AssignContext, IWDFObject::AssignContext, UMDFBaseObjectRef_1cc8c14a-66bd-487c-a58d-00f22f52adcc.xml, umdf.iwdfobject_assigncontext, wdf.iwdfobject_assigncontext, wudfddi/IWDFObject::AssignContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>AssignContext</b> method registers a context and a driver-supplied cleanup callback function for the object.
 

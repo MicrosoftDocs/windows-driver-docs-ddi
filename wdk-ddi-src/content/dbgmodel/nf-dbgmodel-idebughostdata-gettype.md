@@ -2,10 +2,9 @@
 UID: NF:dbgmodel.IDebugHostData.GetType
 title: IDebugHostData::GetType
 author: windows-driver-content
-description: TBD
+description: Returns the type (that is "int *") of the symbol if the symbol has a type.  If the symbol does not have a type, an error is returned.
 ms.assetid: 765578af-617a-4647-a3bc-b71ec4ffb17b
-ms.author: windowsdriverdev
-ms.date: 09/12/2018  
+ms.date: 09/12/2018
 ms.topic: method
 ms.keywords: IDebugHostData::GetType, GetType, IDebugHostData.GetType, IDebugHostData::GetType, IDebugHostData.GetType
 req.header: dbgmodel.h
@@ -35,8 +34,6 @@ api_name:
 -	IDebugHostData.GetType
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 
@@ -45,7 +42,7 @@ tech.root: debugger
 
 ## -description
 
-Returns the type (e.g.: "int *") of the symbol if the symbol has a type.  If the symbol does not have a type, an error is returned.
+Returns the type (that is "int *") of the symbol if the symbol has a type.  If the symbol does not have a type, an error is returned.
  
 ## -parameters
 

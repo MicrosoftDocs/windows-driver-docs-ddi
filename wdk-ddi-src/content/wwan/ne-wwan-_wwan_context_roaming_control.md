@@ -5,12 +5,9 @@ author: windows-driver-content
 description: The WWAN_CONTEXT_ROAMING_CONTROL enumeration specifies which roaming conditions apply to a provisioned context in a mobile broadband (MBB) modem.
 tech.root: netvista
 ms.assetid: e692e8ff-7106-4b58-9046-8a7c98d24e2d
-ms.author: windowsdriverdev
 ms.date: 08/22/2018
 ms.topic: enum
 ms.keywords: _WWAN_CONTEXT_ROAMING_CONTROL, WWAN_CONTEXT_ROAMING_CONTROL, *PWWAN_CONTEXT_ROAMING_CONTROL, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wwan.h
 req.include-header:
 req.target-type:

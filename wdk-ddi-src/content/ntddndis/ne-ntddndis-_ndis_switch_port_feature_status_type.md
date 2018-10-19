@@ -6,11 +6,8 @@ description: The NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE enumeration specifies the 
 old-location: netvista\ndis_switch_port_feature_status_type.htm
 tech.root: netvista
 ms.assetid: bdf19090-5688-4496-8f9a-3a1c422ede60
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortFeatureStatusTypeCustom, NdisSwitchPortFeatureStatusTypeMaximum, NdisSwitchPortFeatureStatusTypeUndefined, PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, netvista.ndis_switch_port_feature_status_type, ntddndis/NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, ntddndis/NdisSwitchPortFeatureStatusTypeCustom, ntddndis/NdisSwitchPortFeatureStatusTypeMaximum, ntddndis/NdisSwitchPortFeatureStatusTypeUndefined, ntddndis/PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddndis.h
 req.include-header: Ndis.h

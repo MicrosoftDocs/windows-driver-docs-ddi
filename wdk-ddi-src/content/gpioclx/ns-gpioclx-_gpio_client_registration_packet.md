@@ -6,11 +6,8 @@ description: The GPIO_CLIENT_REGISTRATION_PACKET structure contains registration
 old-location: gpio\gpio_client_registration_packet.htm
 tech.root: GPIO
 ms.assetid: A3E1FC46-ED09-4AB3-B898-253552A76649
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PGPIO_CLIENT_REGISTRATION_PACKET, GPIO.gpio_client_registration_packet, GPIO_CLIENT_REGISTRATION_PACKET, GPIO_CLIENT_REGISTRATION_PACKET structure [Parallel Ports], PGPIO_CLIENT_REGISTRATION_PACKET, PGPIO_CLIENT_REGISTRATION_PACKET structure pointer [Parallel Ports], _GPIO_CLIENT_REGISTRATION_PACKET, gpioclx/GPIO_CLIENT_REGISTRATION_PACKET, gpioclx/PGPIO_CLIENT_REGISTRATION_PACKET"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: gpioclx.h
 req.include-header: 

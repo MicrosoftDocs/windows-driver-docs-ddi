@@ -6,11 +6,8 @@ description: This IOCTL is not handled by video miniport drivers. It is handled 
 old-location: display\ioctl_video_set_display_brightness.htm
 tech.root: display
 ms.assetid: 485119b4-90f8-44dc-89d7-afb536442719
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS, IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS control, IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS control code [Display Devices], Video_IOCTLs_3dc31eac-247b-400e-8202-c0708086326c.xml, display.ioctl_video_set_display_brightness, ntddvdeo/IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddvdeo.h
 req.include-header: 
@@ -123,7 +120,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 
 

@@ -6,11 +6,8 @@ description: The GetBuffer method allocates a buffer for long MIDI events.
 old-location: audio\iallocatormxf_getbuffer.htm
 tech.root: audio
 ms.assetid: eebae465-a49a-4e19-a636-9da7f9db7278
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: GetBuffer, GetBuffer method [Audio Devices], GetBuffer method [Audio Devices],IAllocatorMXF interface, IAllocatorMXF interface [Audio Devices],GetBuffer method, IAllocatorMXF.GetBuffer, IAllocatorMXF::GetBuffer, audio.iallocatormxf_getbuffer, audmp-routines_5abb78f4-de92-4342-877f-e7f1c15f8d8e.xml, dmusicks/IAllocatorMXF::GetBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dmusicks.h
 req.include-header: Dmusicks.h

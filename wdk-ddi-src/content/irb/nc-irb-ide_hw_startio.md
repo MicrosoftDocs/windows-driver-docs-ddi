@@ -6,11 +6,8 @@ description: The IdeHwStartIo miniport driver routine processes the synchronized
 old-location: storage\idehwstartio.htm
 tech.root: storage
 ms.assetid: 9172e62e-263c-471c-bcc2-9be4e1d6b1a2
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IDE_HW_STARTIO, IdeHwStartIo, IdeHwStartIo routine [Storage Devices], atartns_5be92425-7e5b-4a9b-9673-baea4aace64a.xml, irb/IdeHwStartIo, storage.idehwstartio
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: irb.h
 req.include-header: Irb.h
@@ -51,7 +48,7 @@ req.typenames:
 
 
 The <b><i>IdeHwStartIo</i></b> miniport driver routine processes the synchronized aspects of an I/O request.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 

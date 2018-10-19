@@ -6,11 +6,8 @@ description: The NDIS_SWITCH_PROPERTY_TYPE enumeration specifies the type of pol
 old-location: netvista\ndis_switch_property_type.htm
 tech.root: netvista
 ms.assetid: baa1b837-6f9b-41f4-acf8-e640f8e9f8da
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_SWITCH_PROPERTY_TYPE, NDIS_SWITCH_PROPERTY_TYPE, NDIS_SWITCH_PROPERTY_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPropertyTypeCustom, NdisSwitchPropertyTypeMaximum, NdisSwitchPropertyTypeUndefined, PNDIS_SWITCH_PROPERTY_TYPE, PNDIS_SWITCH_PROPERTY_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PROPERTY_TYPE, netvista.ndis_switch_property_type, ntddndis/NDIS_SWITCH_PROPERTY_TYPE, ntddndis/NdisSwitchPropertyTypeCustom, ntddndis/NdisSwitchPropertyTypeMaximum, ntddndis/NdisSwitchPropertyTypeUndefined, ntddndis/PNDIS_SWITCH_PROPERTY_TYPE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddndis.h
 req.include-header: Ndis.h

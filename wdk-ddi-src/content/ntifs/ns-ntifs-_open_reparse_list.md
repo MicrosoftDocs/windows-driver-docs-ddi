@@ -6,11 +6,8 @@ description: Points to a list of OPEN_REPARSE_LIST_ENTRY structures that specify
 old-location: ifsk\open_reparse_list.htm
 tech.root: ifsk
 ms.assetid: 2477F904-A470-4FB0-83D8-0264A4838C12
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*POPEN_REPARSE_LIST, OPEN_REPARSE_LIST, OPEN_REPARSE_LIST structure [Installable File System Drivers], POPEN_REPARSE_LIST, POPEN_REPARSE_LIST structure pointer [Installable File System Drivers], _OPEN_REPARSE_LIST, ifsk.open_reparse_list, ntifs/OPEN_REPARSE_LIST, ntifs/POPEN_REPARSE_LIST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntifs.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: File systems call theFsRtlTeardownPerFileContexts routine to free F
 old-location: ifsk\fsrtlteardownperfilecontexts.htm
 tech.root: ifsk
 ms.assetid: c124c5a4-5187-4474-8896-28c729bc7d07
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlTeardownPerFileContexts, FsRtlTeardownPerFileContexts routine [Installable File System Drivers], fsrtlref_3bd1af9f-ebc1-4cf8-9c7d-415f4bc64eb4.xml, ifsk.fsrtlteardownperfilecontexts, ntifs/FsRtlTeardownPerFileContexts
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-File systems call the<b>FsRtlTeardownPerFileContexts</b> routine to free <a href="https://msdn.microsoft.com/library/windows/hardware/ff547352">FSRTL_PER_FILE_CONTEXT</a> objects that are associated with a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fcb-structure">file control block (FCB)</a> structure.
+File systems call the<b>FsRtlTeardownPerFileContexts</b> routine to free <a href="https://msdn.microsoft.com/library/windows/hardware/ff547352">FSRTL_PER_FILE_CONTEXT</a> objects that are associated with a <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-fcb-structure">file control block (FCB)</a> structure.
 
 
 ## -parameters

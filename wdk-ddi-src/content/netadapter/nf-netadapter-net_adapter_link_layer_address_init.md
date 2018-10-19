@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NET_ADAPTER_LINK_LAYER_ADDRESS_INIT method initializes a link layer address.
 tech.root: netvista
 ms.assetid: 13ba4c51-b878-4b22-9260-7bb423b1f77f
-ms.author: windowsdriverdev
 ms.date: 02/05/2018
 ms.topic: function
 ms.keywords: NET_ADAPTER_LINK_LAYER_ADDRESS_INIT

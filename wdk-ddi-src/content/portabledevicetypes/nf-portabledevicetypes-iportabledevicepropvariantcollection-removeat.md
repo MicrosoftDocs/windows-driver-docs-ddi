@@ -6,11 +6,8 @@ description: Removes the element stored at the location specified by the given i
 old-location: wpddk\iportabledevicepropvariantcollection_removeat.htm
 tech.root: wpd_dk
 ms.assetid: 655e263c-23c9-44f0-8d52-fa8dc0619fee
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IPortableDevicePropVariantCollection interface,RemoveAt method, IPortableDevicePropVariantCollection.RemoveAt, IPortableDevicePropVariantCollection::RemoveAt, IPortableDevicePropVariantCollectionRemoveAt, RemoveAt, RemoveAt method, RemoveAt method,IPortableDevicePropVariantCollection interface, portabledevicetypes/IPortableDevicePropVariantCollection::RemoveAt, wpddk.iportabledevicepropvariantcollection_removeat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledevicetypes.h
 req.include-header: 

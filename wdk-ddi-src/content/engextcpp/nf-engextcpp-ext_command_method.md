@@ -6,11 +6,8 @@ description: The EXT_COMMAND_METHOD macro declares an extension command from ins
 old-location: debugger\ext_command_method.htm
 tech.root: debugger
 ms.assetid: 30962127-a46f-43f5-a58e-891c5b8a867d
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EXT_COMMAND_METHOD, EXT_COMMAND_METHOD function [Windows Debugging], EngExtCpp_Ref_a4a0b264-50e1-457b-a962-ca691509ea36.xml, debugger.ext_command_method, engextcpp/EXT_COMMAND_METHOD
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

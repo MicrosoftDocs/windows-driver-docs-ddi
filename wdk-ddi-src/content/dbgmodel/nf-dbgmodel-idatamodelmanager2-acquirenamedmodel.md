@@ -2,10 +2,9 @@
 UID: NF:dbgmodel.IDataModelManager2.AcquireNamedModel
 title: IDataModelManager2::AcquireNamedModel
 author: windows-driver-content
-description: TBD
+description: AcquireNamedModel looks up a well known model name and returns the data model registered by that name. 
 ms.assetid: bfdb5095-d1eb-4cef-ae5c-f6c35ff5ac3a
-ms.author: windowsdriverdev
-ms.date:  07/20/2018
+ms.date: 10/03/2018
 ms.topic: method
 ms.keywords: IDataModelManager2::AcquireNamedModel, AcquireNamedModel, IDataModelManager2.AcquireNamedModel, IDataModelManager2::AcquireNamedModel, IDataModelManager2.AcquireNamedModel
 req.header: dbgmodel.h
@@ -42,8 +41,7 @@ tech.root: debugger
 
 ## -description
 
-This looks up a well known model name and returns the data model registered by that name.  Note that if there is no model registered 
-by the supplied name, a stub will be created and returned to the caller. 
+AcquireNamedModel looks up a well known model name and returns the data model registered by that name.  Note that if there is no model registered by the supplied name, a stub will be created and returned to the caller. 
 
 Anything added to the stub will be added to the real object at the time a registration is made.
 

@@ -6,11 +6,8 @@ description: NdisMCmCreateVc sets up a connection endpoint on which an MCM drive
 old-location: netvista\ndismcmcreatevc.htm
 tech.root: netvista
 ms.assetid: b1d9ce90-9926-4ff8-a5bb-54c1a88d84dc
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMCmCreateVc, NdisMCmCreateVc function [Network Drivers Starting with Windows Vista], condis_mcm_ref_eab0d24d-ee49-457d-9475-e4d7c3a50023.xml, ndis/NdisMCmCreateVc, netvista.ndismcmcreatevc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

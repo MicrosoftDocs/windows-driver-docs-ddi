@@ -6,11 +6,8 @@ description: A driver's EvtWmiProviderFunctionControl callback function enables 
 old-location: wdf\evtwmiproviderfunctioncontrol.htm
 tech.root: wdf
 ms.assetid: 89b48747-d3aa-48c7-825c-94545f378f07
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFWMIRef_2beaafe2-cb59-49cb-85dc-6ea2beff1b1e.xml, EVT_WDF_WMI_PROVIDER_FUNCTION_CONTROL, EVT_WDF_WMI_PROVIDER_FUNCTION_CONTROL callback, EvtWmiProviderFunctionControl, EvtWmiProviderFunctionControl callback function, kmdf.evtwmiproviderfunctioncontrol, wdf.evtwmiproviderfunctioncontrol, wdfwmi/EvtWmiProviderFunctionControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfwmi.h
 req.include-header: Wdf.h
@@ -94,7 +91,7 @@ If your driver sets the <b>WdfWmiProviderExpensive</b> flag in the <b>Flags</b> 
 
 Instead of providing an <i>EvtWmiProviderFunctionControl</i> callback function, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551200">WdfWmiProviderIsEnabled</a> to find out if it should enable or disable collecting data.
 
-For more information about the <i>EvtWmiProviderFunctionControl</i> callback function, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-wmi-in-kmdf-drivers">Supporting WMI in Framework-Based Drivers</a>.
+For more information about the <i>EvtWmiProviderFunctionControl</i> callback function, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-wmi-in-kmdf-drivers">Supporting WMI in Framework-Based Drivers</a>.
 
 
 #### Examples
@@ -134,7 +131,7 @@ NTSTATUS
 </td>
 </tr>
 </table></span></div>
-The <b>EVT_WDF_WMI_PROVIDER_FUNCTION_CONTROL</b> function type is defined in the WdfWMI.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDF_WMI_PROVIDER_FUNCTION_CONTROL</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/en-US/library/c0aa268d-6fa3-4ced-a8c6-f7652b152e61">Annotating Function Behavior</a>.
+The <b>EVT_WDF_WMI_PROVIDER_FUNCTION_CONTROL</b> function type is defined in the WdfWMI.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDF_WMI_PROVIDER_FUNCTION_CONTROL</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/library/c0aa268d-6fa3-4ced-a8c6-f7652b152e61">Annotating Function Behavior</a>.
 
 
 

@@ -6,11 +6,8 @@ description: The USBD_ParseDescriptors routine searches a given configuration de
 old-location: buses\usbd_parsedescriptors.htm
 tech.root: usbref
 ms.assetid: d6d90a4a-a67d-4ef3-82b8-7146970e30f3
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: USBD_ParseDescriptors, USBD_ParseDescriptors routine [Buses], buses.usbd_parsedescriptors, usbdlib/USBD_ParseDescriptors, usbfunc_a66c16e5-451c-4d5b-a621-4c4969200acd.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usbdlib.h
 req.include-header: Usbdlib.h

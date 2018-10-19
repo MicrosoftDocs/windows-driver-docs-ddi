@@ -6,11 +6,8 @@ description: The MiniportWdiCloseAdapter handler function is used by the Microso
 old-location: netvista\miniportwdicloseadapter.htm
 tech.root: netvista
 ms.assetid: E6A96765-3D95-431B-B29A-5BD7641325A8
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_CLOSE_ADAPTER, MINIPORT_WDI_CLOSE_ADAPTER callback, MiniportWdiCloseAdapter, MiniportWdiCloseAdapter callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiCloseAdapter, netvista.miniportwdicloseadapter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dot11wdi.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The WHEA_XPF_MC_BANK_DESCRIPTOR structure describes a bank of machi
 old-location: whea\whea_xpf_mc_bank_descriptor.htm
 tech.root: whea
 ms.assetid: e5360f75-53cf-4025-9a1c-665c098329dd
-ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: "*PWHEA_XPF_MC_BANK_DESCRIPTOR, PWHEA_XPF_MC_BANK_DESCRIPTOR, PWHEA_XPF_MC_BANK_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_XPF_MC_BANK_DESCRIPTOR, WHEA_XPF_MC_BANK_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_XPF_MC_BANK_DESCRIPTOR, ntddk/PWHEA_XPF_MC_BANK_DESCRIPTOR, ntddk/WHEA_XPF_MC_BANK_DESCRIPTOR, whea.whea_xpf_mc_bank_descriptor, whearef_9f1970bd-6dbf-4104-9525-2018ab2f766e.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddk.h
 req.include-header: Ntddk.h

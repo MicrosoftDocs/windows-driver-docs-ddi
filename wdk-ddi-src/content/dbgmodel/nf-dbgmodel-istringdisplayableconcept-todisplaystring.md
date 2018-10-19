@@ -2,10 +2,9 @@
 UID: NF:dbgmodel.IStringDisplayableConcept.ToDisplayString
 title: IStringDisplayableConcept::ToDisplayString
 author: windows-driver-content
-description: TBD
+description: The ToDisplayString method is called whenever a client wishes to convert an object into a string to display (to console, in the UI, etc...).
 ms.assetid: e6823fca-e9c4-4e2a-8c0f-95bd9f7527e9
-ms.author: windowsdriverdev
-ms.date: 09/20/2018
+ms.date: 10/05/2018
 ms.topic: method
 ms.keywords: IStringDisplayableConcept::ToDisplayString, ToDisplayString, IStringDisplayableConcept.ToDisplayString, IStringDisplayableConcept::ToDisplayString, IStringDisplayableConcept.ToDisplayString
 req.header: dbgmodel.h
@@ -35,8 +34,6 @@ api_name:
 -	IStringDisplayableConcept.ToDisplayString
 product: Windows
 targetos: Windows
-
-
 tech.root: debugger
 ---
 
@@ -66,4 +63,4 @@ This method returns HRESULT which indicates success or failure.
 
 ## -see-also
 
-[IStringDisplayableConcept interface](nn-dbgmodel-isStringdisplayableconcept.md)
+[IStringDisplayableConcept interface](nn-dbgmodel-istringdisplayableconcept.md)

@@ -6,11 +6,8 @@ description: The IoReportTargetDeviceChangeAsynchronous routine notifies the PnP
 old-location: kernel\ioreporttargetdevicechangeasynchronous.htm
 tech.root: kernel
 ms.assetid: 69ffe74f-59f9-41d6-a494-ee00be5bec62
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoReportTargetDeviceChangeAsynchronous, IoReportTargetDeviceChangeAsynchronous routine [Kernel-Mode Driver Architecture], k104_b66839d5-f3b6-4f30-bf24-7b4ee869e733.xml, kernel.ioreporttargetdevicechangeasynchronous, wdm/IoReportTargetDeviceChangeAsynchronous
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

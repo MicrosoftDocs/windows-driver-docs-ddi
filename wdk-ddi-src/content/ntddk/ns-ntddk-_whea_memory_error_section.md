@@ -6,11 +6,8 @@ description: The WHEA_MEMORY_ERROR_SECTION structure describes platform memory e
 old-location: whea\whea_memory_error_section.htm
 tech.root: whea
 ms.assetid: eede44f8-0e14-4256-9893-cbdb5ef4ef9b
-ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: "*PWHEA_MEMORY_ERROR, *PWHEA_MEMORY_ERROR_SECTION, PWHEA_MEMORY_ERROR_SECTION, PWHEA_MEMORY_ERROR_SECTION structure pointer [WHEA Drivers and Applications], WHEA_MEMORY_ERROR, WHEA_MEMORY_ERROR_SECTION, WHEA_MEMORY_ERROR_SECTION structure [WHEA Drivers and Applications], _WHEA_MEMORY_ERROR_SECTION, ntddk/PWHEA_MEMORY_ERROR_SECTION, ntddk/WHEA_MEMORY_ERROR_SECTION, whea.whea_memory_error_section, whearef_63417420-4e27-4268-b50f-6d8dc2cdbd58.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddk.h
 req.include-header: Ntddk.h

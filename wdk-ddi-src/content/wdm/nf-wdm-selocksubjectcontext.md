@@ -6,11 +6,8 @@ description: The SeLockSubjectContext routine locks the primary and impersonatio
 old-location: ifsk\selocksubjectcontext.htm
 tech.root: ifsk
 ms.assetid: 032e203a-9cb0-4232-91fc-883528e15a81
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: SeLockSubjectContext, SeLockSubjectContext routine [Installable File System Drivers], ifsk.selocksubjectcontext, ntifs/SeLockSubjectContext, seref_ea4696ab-8343-4d15-866c-15720d009db8.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Ntifs.h, Wdm.h

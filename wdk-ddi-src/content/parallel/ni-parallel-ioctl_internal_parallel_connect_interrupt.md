@@ -6,11 +6,8 @@ description: The IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT request connects an o
 old-location: parports\ioctl_internal_parallel_connect_interrupt.htm
 tech.root: parports
 ms.assetid: 8cf5f2fc-e298-4f5b-bca4-3034e8a4a061
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT, IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT control code [Parallel Ports], cisspd_b43103ce-7b3e-413b-914c-fbaf1d7789ee.xml, parallel/IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT, parports.ioctl_internal_parallel_connect_interrupt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: parallel.h
 req.include-header: Parallel.h
@@ -50,7 +47,7 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ##  Major Code:
 
 
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Creates a resource view for a video processor. This view defines the output sample for the video processing operation.
 old-location: display\createvideoprocessoroutputview.htm
 ms.assetid: 619695dc-8525-4200-a0c2-8ce0fb1010ed
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateVideoProcessorOutputView, CreateVideoProcessorOutputView callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEOPROCESSOROUTPUTVIEW, PFND3D11_1DDI_CREATEVIDEOPROCESSOROUTPUTVIEW callback, d3d10umddi/CreateVideoProcessorOutputView, display.createvideoprocessoroutputview
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

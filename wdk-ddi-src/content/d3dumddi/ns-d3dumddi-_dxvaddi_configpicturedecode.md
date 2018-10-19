@@ -6,11 +6,8 @@ description: The DXVADDI_CONFIGPICTUREDECODE structure describes the configurati
 old-location: display\dxvaddi_configpicturedecode.htm
 tech.root: display
 ms.assetid: 3305b892-6785-4412-9b9e-86561c83764a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_23ba33fb-2b89-48c1-9455-6edc3bb8b9d3.xml, DXVADDI_CONFIGPICTUREDECODE, DXVADDI_CONFIGPICTUREDECODE structure [Display Devices], _DXVADDI_CONFIGPICTUREDECODE, d3dumddi/DXVADDI_CONFIGPICTUREDECODE, display.dxvaddi_configpicturedecode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
