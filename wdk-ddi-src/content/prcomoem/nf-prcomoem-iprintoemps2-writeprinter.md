@@ -6,7 +6,7 @@ description: The IPrintOemPS2::WritePrinter method, if supported, enables a rend
 old-location: print\iprintoemps2_writeprinter.htm
 tech.root: print
 ms.assetid: 76037a86-757a-4b6a-b5ba-a742a18938c2
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintOemPS2 interface [Print Devices],WritePrinter method, IPrintOemPS2.WritePrinter, IPrintOemPS2::WritePrinter, WritePrinter, WritePrinter method [Print Devices], WritePrinter method [Print Devices],IPrintOemPS2 interface, prcomoem/IPrintOemPS2::WritePrinter, print.iprintoemps2_writeprinter, print_unidrv-pscript_rendering_ea50360f-7f20-443b-9b10-a64f44238666.xml
 ms.topic: method
 req.header: prcomoem.h

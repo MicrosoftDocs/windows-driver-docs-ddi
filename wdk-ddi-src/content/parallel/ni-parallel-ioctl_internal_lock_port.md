@@ -6,7 +6,7 @@ description: The IOCTL_INTERNAL_LOCK_PORT request allocates the parallel device'
 old-location: parports\ioctl_internal_lock_port.htm
 tech.root: parports
 ms.assetid: 561816b1-f9e7-49c9-b655-583adf293926
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_INTERNAL_LOCK_PORT, IOCTL_INTERNAL_LOCK_PORT control code [Parallel Ports], cisspd_2338a5ae-b61e-44c6-8ddd-3666f5fb24ee.xml, parallel/IOCTL_INTERNAL_LOCK_PORT, parports.ioctl_internal_lock_port
 ms.topic: ioctl
 req.header: parallel.h

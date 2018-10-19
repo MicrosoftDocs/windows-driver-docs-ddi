@@ -6,7 +6,7 @@ description: The USB_DEVICE_DESCRIPTOR structure is used by USB client drivers t
 old-location: buses\usb_device_descriptor.htm
 tech.root: usbref
 ms.assetid: 124184ef-7410-4e04-abb2-e07db4ae2cbf
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSB_DEVICE_DESCRIPTOR, PUSB_DEVICE_DESCRIPTOR, PUSB_DEVICE_DESCRIPTOR structure pointer [Buses], USB_DEVICE_DESCRIPTOR, USB_DEVICE_DESCRIPTOR structure [Buses], _USB_DEVICE_DESCRIPTOR, buses.usb_device_descriptor, usbspec/PUSB_DEVICE_DESCRIPTOR, usbspec/USB_DEVICE_DESCRIPTOR, usbstrct_40e68471-a1e1-4e2e-8bea-77c8f7085589.xml"
 ms.topic: struct
 req.header: usbspec.h

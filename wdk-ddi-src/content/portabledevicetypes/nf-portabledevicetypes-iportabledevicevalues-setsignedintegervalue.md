@@ -6,7 +6,7 @@ description: Adds a new LONG value (type VT_I4) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setsignedintegervalue.htm
 tech.root: wpd_dk
 ms.assetid: f86a5e41-5040-4374-96a5-c405f68f62fe
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IPortableDeviceValues interface,SetSignedIntegerValue method, IPortableDeviceValues.SetSignedIntegerValue, IPortableDeviceValues::SetSignedIntegerValue, IPortableDeviceValuesSetSignedIntegerValue, SetSignedIntegerValue, SetSignedIntegerValue method, SetSignedIntegerValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetSignedIntegerValue, wpddk.iportabledevicevalues_setsignedintegervalue
 ms.topic: method
 req.header: portabledevicetypes.h

@@ -6,7 +6,7 @@ description: IMiniportPnpNotify is an optional interface to allow miniport objec
 old-location: audio\iminiportpnpnotify.htm
 tech.root: audio
 ms.assetid: 634ADB7C-85B6-4C37-81A0-4A4891D0BBC4
-ms.date: 3/19/2018
+ms.date: 03/19/2018
 ms.keywords: IMiniportPnpNotify, IMiniportPnpNotify interface [Audio Devices], IMiniportPnpNotify interface [Audio Devices], described, audio.iminiportpnpnotify, portcls/IMiniportPnpNotify
 ms.topic: interface
 req.header: portcls.h

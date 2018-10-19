@@ -6,7 +6,7 @@ description: OEMCommonUIProp function
 old-location: print\oemcommonuiprop.htm
 tech.root: print
 ms.assetid: d993117d-e8d4-4e00-bcb8-c83a15b6c037
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: OEMCommonUIProp, OEMCommonUIProp function [Print Devices], print.oemcommonuiprop, print_obsoletefunctions_ef86ce33-1102-4045-b3ad-bba26bafd3de.xml, printoem/OEMCommonUIProp
 ms.topic: function
 req.header: printoem.h

@@ -6,7 +6,7 @@ description: The IOCTL_USB_GET_HUB_CAPABILITIES_EX I/O control request retrieves
 old-location: buses\ioctl_usb_get_hub_capabilities_ex.htm
 tech.root: usbref
 ms.assetid: 49c25f30-8eff-4894-8a82-a90c5a7d9aa4
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: IOCTL_USB_GET_HUB_CAPABILITIES_EX, IOCTL_USB_GET_HUB_CAPABILITIES_EX control, IOCTL_USB_GET_HUB_CAPABILITIES_EX control code [Buses], buses.ioctl_usb_get_hub_capabilities_ex, usbioctl/IOCTL_USB_GET_HUB_CAPABILITIES_EX, usbirp_bed6a9f5-00ee-4f0b-9906-cd27d85a74c2.xml
 ms.topic: ioctl
 req.header: usbioctl.h

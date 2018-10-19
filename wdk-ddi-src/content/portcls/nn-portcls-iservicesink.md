@@ -6,7 +6,7 @@ description: The IServiceSink interface encapsulates handling of a service reque
 old-location: audio\iservicesink.htm
 tech.root: audio
 ms.assetid: 329ae226-02fb-438b-b461-da51e3afd6eb
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IServiceSink, IServiceSink interface [Audio Devices], IServiceSink interface [Audio Devices],described, audio.iservicesink, audmp-routines_68a03e77-6246-44e7-acad-6de0fbe10c41.xml, portcls/IServiceSink
 ms.topic: interface
 req.header: portcls.h

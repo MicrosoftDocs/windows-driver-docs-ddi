@@ -6,7 +6,7 @@ description: This structure defines the kinds of magnetic stripe reader (MSR) ca
 old-location: pos\posmagneticstripereadercapabilitiestype.htm
 tech.root: pos
 ms.assetid: 8f5ad241-a145-468d-bd69-7956985152b5
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: PosMagneticStripeReaderCapabilitiesType, PosMagneticStripeReaderCapabilitiesType structure, _PosMagneticStripeReaderCapabilitiesType, pointofservicedriverinterface/PosMagneticStripeReaderCapabilitiesType, pos.posmagneticstripereadercapabilitiestype
 ms.topic: struct
 req.header: pointofservicedriverinterface.h

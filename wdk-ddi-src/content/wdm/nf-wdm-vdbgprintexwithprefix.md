@@ -6,7 +6,7 @@ description: The vDbgPrintExWithPrefix routine sends a string to the kernel debu
 old-location: devtest\vdbgprintexwithprefix.htm
 tech.root: devtest
 ms.assetid: bd7acc4e-9941-45a1-ad90-996e80c1937b
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: DebugFns_483dc845-dd53-48a5-b879-cf69158016aa.xml, devtest.vdbgprintexwithprefix, vDbgPrintExWithPrefix, vDbgPrintExWithPrefix routine [Driver Development Tools], wdm/vDbgPrintExWithPrefix
 ms.topic: function
 req.header: wdm.h

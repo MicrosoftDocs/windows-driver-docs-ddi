@@ -6,7 +6,7 @@ description: This structure indicates the type of device, version, and recommend
 old-location: pos\posdevicebasicstype.htm
 tech.root: pos
 ms.assetid: 5f882f37-0554-48c0-b4a0-026d42452f56
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: PosDeviceBasicsType, PosDeviceBasicsType structure, _PosDeviceBasicsType, pointofservicedriverinterface/PosDeviceBasicsType, pos.posdevicebasicstype
 ms.topic: struct
 req.header: pointofservicedriverinterface.h

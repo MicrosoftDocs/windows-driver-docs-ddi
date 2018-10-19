@@ -6,7 +6,7 @@ description: Allows USB host controller extension (UCX) to handle an I/O control
 old-location: buses\_ucxiodevicecontrol.htm
 tech.root: usbref
 ms.assetid: 7C1DD018-2EDF-48BB-8DFC-ADAF72A1909D
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UcxIoDeviceControl, UcxIoDeviceControl method [Buses], buses._ucxiodevicecontrol, ucxcontroller/UcxIoDeviceControl
 ms.topic: function
 req.header: ucxcontroller.h

@@ -6,7 +6,7 @@ description: The USB_ID_STRING structure is used to store a string or multi-stri
 old-location: buses\usb_id_string.htm
 tech.root: usbref
 ms.assetid: e7af07ed-f1a7-4f66-8824-2e12492d037a
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSB_ID_STRING, PUSB_ID_STRING, PUSB_ID_STRING structure pointer [Buses], USB_ID_STRING, USB_ID_STRING structure [Buses], _USB_ID_STRING, buses.usb_id_string, usbioctl/PUSB_ID_STRING, usbioctl/USB_ID_STRING"
 ms.topic: struct
 req.header: usbioctl.h

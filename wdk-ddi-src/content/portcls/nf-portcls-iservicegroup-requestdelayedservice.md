@@ -6,7 +6,7 @@ description: The RequestDelayedService method requests service after the specifi
 old-location: audio\iservicegroup_requestdelayedservice.htm
 tech.root: audio
 ms.assetid: 045a6c20-2e4e-4669-953d-f8648bf2d718
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IServiceGroup interface [Audio Devices],RequestDelayedService method, IServiceGroup.RequestDelayedService, IServiceGroup::RequestDelayedService, RequestDelayedService, RequestDelayedService method [Audio Devices], RequestDelayedService method [Audio Devices],IServiceGroup interface, audio.iservicegroup_requestdelayedservice, audmp-routines_2f9be34c-bff3-46d4-a490-595c8f4311b9.xml, portcls/IServiceGroup::RequestDelayedService
 ms.topic: method
 req.header: portcls.h

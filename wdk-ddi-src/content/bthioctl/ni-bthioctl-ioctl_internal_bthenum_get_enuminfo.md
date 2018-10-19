@@ -6,7 +6,7 @@ description: The IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO request obtains information
 old-location: bltooth\ioctl_internal_bthenum_get_enuminfo.htm
 tech.root: bltooth
 ms.assetid: 43cd8e6b-5710-4308-a7c4-fb6f14940977
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO, IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO control, IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO control code [Bluetooth Devices], bltooth.ioctl_internal_bthenum_get_enuminfo, bth_ioctls_110043d4-a637-4e7a-91d4-fd15a4c39a05.xml, bthioctl/IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO
 ms.topic: ioctl
 req.header: bthioctl.h

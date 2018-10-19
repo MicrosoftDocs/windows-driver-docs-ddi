@@ -6,7 +6,7 @@ description: The KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE structure specifies an a
 old-location: audio\ksattribute_audiosignalprocessing_mode.htm
 tech.root: audio
 ms.assetid: A7EE4FC5-420A-419A-98D1-3411C29F1990
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: "*PKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE structure [Audio Devices], PKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, PKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE structure pointer [Audio Devices], audio.ksattribute_audiosignalprocessing_mode, ksmedia/KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, ksmedia/PKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, tagKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE"
 ms.topic: struct
 req.header: ksmedia.h

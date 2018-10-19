@@ -4,7 +4,7 @@ title: PropKeyFindKeyGetNthUshort function
 author: windows-driver-content
 description: This routine gets the nth USHORT value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
 ms.assetid: 74a78f9f-10a9-4e19-98ac-ac118d3631b9
-ms.date: 08/08/18
+ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
 ms.keywords: PropKeyFindKeyGetNthUshort

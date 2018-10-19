@@ -6,7 +6,7 @@ description: The IOCTL_USB_GET_ROOT_HUB_NAME I/O control request is used with th
 old-location: buses\ioctl_usb_get_root_hub_name.htm
 tech.root: usbref
 ms.assetid: f1d7ab17-516a-4f6e-b343-3f67a6e07ae4
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: IOCTL_USB_GET_ROOT_HUB_NAME, IOCTL_USB_GET_ROOT_HUB_NAME control, IOCTL_USB_GET_ROOT_HUB_NAME control code [Buses], buses.ioctl_usb_get_root_hub_name, usbioctl/IOCTL_USB_GET_ROOT_HUB_NAME, usbirp_cf8d4d13-20cc-4134-8050-e3cd376a632e.xml
 ms.topic: ioctl
 req.header: usbioctl.h

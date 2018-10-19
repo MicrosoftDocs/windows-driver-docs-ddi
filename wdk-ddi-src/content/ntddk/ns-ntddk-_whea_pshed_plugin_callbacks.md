@@ -6,7 +6,7 @@ description: The WHEA_PSHED_PLUGIN_CALLBACKS structure describes the callback fu
 old-location: whea\whea_pshed_plugin_callbacks.htm
 tech.root: whea
 ms.assetid: 3b99f2bf-0ebc-40b2-a586-acc89200132b
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: "*PWHEA_PSHED_PLUGIN_CALLBACKS, PWHEA_PSHED_PLUGIN_CALLBACKS, PWHEA_PSHED_PLUGIN_CALLBACKS structure pointer [WHEA Drivers and Applications], WHEA_PSHED_PLUGIN_CALLBACKS, WHEA_PSHED_PLUGIN_CALLBACKS structure [WHEA Drivers and Applications], _WHEA_PSHED_PLUGIN_CALLBACKS, ntddk/PWHEA_PSHED_PLUGIN_CALLBACKS, ntddk/WHEA_PSHED_PLUGIN_CALLBACKS, whea.whea_pshed_plugin_callbacks, whearef_85037502-834f-412c-96e0-0a8d81cdd004.xml"
 ms.topic: struct
 req.header: ntddk.h

@@ -6,7 +6,7 @@ description: This structure contains the configuration passed into the start of 
 old-location: gnss\gnss_breadcrumbing_param.htm
 tech.root: gnss
 ms.assetid: 1EAD5B17-B662-4D97-B045-ED09E4AF6E99
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PGNSS_BREADCRUMBING_PARAM, GNSS_BREADCRUMBING_PARAM, GNSS_BREADCRUMBING_PARAM structure [Sensor Devices], PGNSS_BREADCRUMBING_PARAM, PGNSS_BREADCRUMBING_PARAM structure pointer [Sensor Devices], gnss.gnss_breadcrumbing_param, gnssdriver/GNSS_BREADCRUMBING_PARAM, gnssdriver/PGNSS_BREADCRUMBING_PARAM"
 ms.topic: struct
 req.header: gnssdriver.h

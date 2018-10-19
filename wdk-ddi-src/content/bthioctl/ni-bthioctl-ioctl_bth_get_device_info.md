@@ -6,7 +6,7 @@ description: The IOCTL_BTH_GET_DEVICE_INFO request returns information about all
 old-location: bltooth\ioctl_bth_get_device_info.htm
 tech.root: bltooth
 ms.assetid: 99bc222f-9c27-45b7-ade1-2401dfa41d7c
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: IOCTL_BTH_GET_DEVICE_INFO, IOCTL_BTH_GET_DEVICE_INFO control, IOCTL_BTH_GET_DEVICE_INFO control code [Bluetooth Devices], bltooth.ioctl_bth_get_device_info, bth_ioctls_427504e3-7414-4d2c-b835-b612ed73ce01.xml, bthioctl/IOCTL_BTH_GET_DEVICE_INFO
 ms.topic: ioctl
 req.header: bthioctl.h

@@ -6,7 +6,7 @@ description: Indicates to the UcmTcpciCx class extension to stop sending hardwar
 old-location: buses\ucmtcpciportcontrollerstop.htm
 tech.root: usbref
 ms.assetid: 5d1dd418-5a2f-448f-ae65-695c4f97ff29
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UcmTcpciPortControllerStop, UcmTcpciPortControllerStop method [Buses], buses.ucmtcpciportcontrollerstop, ucmtcpciportcontroller/UcmTcpciPortControllerStop
 ms.topic: function
 req.header: ucmtcpciportcontroller.h

@@ -6,7 +6,7 @@ description: The RECORDER_CONFIGURE_PARAMS_INIT function is used to initialize t
 old-location: devtest\recorder_configure_params_init.htm
 tech.root: devtest
 ms.assetid: 840716D6-505E-4654-A54D-ABAF3A553E5E
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: RECORDER_CONFIGURE_PARAMS_INIT, RECORDER_CONFIGURE_PARAMS_INIT function [Driver Development Tools], devtest.recorder_configure_params_init, wpprecorder/RECORDER_CONFIGURE_PARAMS_INIT
 ms.topic: function
 req.header: wpprecorder.h

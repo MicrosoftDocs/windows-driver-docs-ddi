@@ -6,7 +6,7 @@ description: Exposes a collection of IPrinterExtensionContext objects.
 old-location: print\iprinterextensioncontextcollection.htm
 tech.root: print
 ms.assetid: 693DAA13-70B3-48A7-9BC2-6369691539FD
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrinterExtensionContextCollection, IPrinterExtensionContextCollection interface [Print Devices], IPrinterExtensionContextCollection interface [Print Devices],described, print.iprinterextensioncontextcollection, printerextension/IPrinterExtensionContextCollection
 ms.topic: interface
 req.header: printerextension.h

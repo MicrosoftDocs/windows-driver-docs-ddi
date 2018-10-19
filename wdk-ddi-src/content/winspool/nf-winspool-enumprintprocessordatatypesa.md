@@ -6,7 +6,7 @@ description: A print processor's EnumPrintProcessorDatatypes function enumerates
 old-location: print\enumprintprocessordatatypes.htm
 tech.root: print
 ms.assetid: 018880d0-0b0b-4130-bd8f-93814e40fe1e
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: EnumPrintProcessorDatatypes, EnumPrintProcessorDatatypes function [Print Devices], EnumPrintProcessorDatatypesA, print.enumprintprocessordatatypes, spoolfnc_f0686e8e-e1bc-448a-8dd1-eeccfb66dd9e.xml, winspool/EnumPrintProcessorDatatypes
 ms.topic: function
 req.header: winspool.h

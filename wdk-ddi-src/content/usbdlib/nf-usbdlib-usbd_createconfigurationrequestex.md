@@ -6,7 +6,7 @@ description: The USBD_CreateConfigurationRequestEx routine allocates and formats
 old-location: buses\usbd_createconfigurationrequestex.htm
 tech.root: usbref
 ms.assetid: 9683b171-4f2e-4a18-89b7-76d49001be37
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: USBD_CreateConfigurationRequestEx, USBD_CreateConfigurationRequestEx routine [Buses], buses.usbd_createconfigurationrequestex, usbdlib/USBD_CreateConfigurationRequestEx, usbfunc_d0c1e002-ed01-4bd4-98f0-b4b2d6da2ca6.xml
 ms.topic: function
 req.header: usbdlib.h

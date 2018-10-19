@@ -6,7 +6,7 @@ description: The Bluetooth SdpCreateNodeSequence function is used to create an e
 old-location: bltooth\sdpcreatenodesequence.htm
 tech.root: bltooth
 ms.assetid: 9e02f32b-cd39-4953-9698-a1800bedf0e2
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: SdpCreateNodeSequence, SdpCreateNodeSequence function [Bluetooth Devices], bltooth.sdpcreatenodesequence, bth_funcs_646168a7-522f-425c-99b7-706b84e02e20.xml, sdplib/SdpCreateNodeSequence
 ms.topic: function
 req.header: sdplib.h

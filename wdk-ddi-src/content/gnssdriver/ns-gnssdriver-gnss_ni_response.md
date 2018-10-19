@@ -6,7 +6,7 @@ description: This structure contains NI request response information.
 old-location: gnss\gnss_ni_response.htm
 tech.root: gnss
 ms.assetid: D2F7C90E-BAF4-419D-94CF-5FC39E7B6A58
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PGNSS_NI_RESPONSE, GNSS_NI_RESPONSE, GNSS_NI_RESPONSE structure [Sensor Devices], PGNSS_NI_RESPONSE, PGNSS_NI_RESPONSE structure pointer [Sensor Devices], gnss.gnss_ni_response, gnssdriver/GNSS_NI_RESPONSE, gnssdriver/PGNSS_NI_RESPONSE"
 ms.topic: struct
 req.header: gnssdriver.h

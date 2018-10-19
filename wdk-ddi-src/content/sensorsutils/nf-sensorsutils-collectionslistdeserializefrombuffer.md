@@ -4,7 +4,7 @@ title: CollectionsListDeserializeFromBuffer function
 author: windows-driver-content
 description: This routine deserializes a collection list from the input buffer.
 ms.assetid: db498ec5-520f-4850-b596-a178e9c7540c
-ms.date: 08/07/18
+ms.date: 08/07/2018
 ms.topic: function
 tech.root: sensors
 ms.keywords: CollectionsListDeserializeFromBuffer

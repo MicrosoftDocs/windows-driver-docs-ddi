@@ -6,7 +6,7 @@ description: OEMTTDownloadMethod function
 old-location: print\oemttdownloadmethod.htm
 tech.root: print
 ms.assetid: 0807622e-0ed9-419a-8917-bba4b1b2a475
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: OEMTTDownloadMethod, OEMTTDownloadMethod function [Print Devices], print.oemttdownloadmethod, print_obsoletefunctions_cae8b020-17a2-4345-8d48-3138eeba2a1d.xml, printoem/OEMTTDownloadMethod
 ms.topic: function
 req.header: printoem.h

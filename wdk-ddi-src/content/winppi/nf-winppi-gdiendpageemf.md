@@ -6,7 +6,7 @@ description: The GdiEndPageEMF function ends EMF playback operations for a physi
 old-location: print\gdiendpageemf.htm
 tech.root: print
 ms.assetid: e15344a5-32ed-43a8-93c2-d5201617d595
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GdiEndPageEMF, GdiEndPageEMF function [Print Devices], gdifnc_867f18b8-1764-41a4-a7c1-e43fa72a3d27.xml, print.gdiendpageemf, winppi/GdiEndPageEMF
 ms.topic: function
 req.header: winppi.h

@@ -6,7 +6,7 @@ description: The GET_LOCAL_HOST_INFO1 structure contains the data returned by a 
 old-location: ieee\get_local_host_info1.htm
 tech.root: IEEE
 ms.assetid: 49ec5322-2caa-4e95-85d0-74b9137d9bcd
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PGET_LOCAL_HOST_INFO1, 1394/GET_LOCAL_HOST_INFO1, 1394/PGET_LOCAL_HOST_INFO1, 1394stct_17301961-cba0-4966-851a-bd92fec75bc7.xml, GET_LOCAL_HOST_INFO1, GET_LOCAL_HOST_INFO1 structure [Buses], IEEE.get_local_host_info1, PGET_LOCAL_HOST_INFO1, PGET_LOCAL_HOST_INFO1 structure pointer [Buses], _GET_LOCAL_HOST_INFO1"
 ms.topic: struct
 req.header: 1394.h

@@ -6,7 +6,7 @@ description: The USB_BUS_INTERFACE_USBDI_V3 structure is provided by the USB hub
 old-location: buses\usb_bus_interface_usbdi_v3.htm
 tech.root: usbref
 ms.assetid: 1183f584-8dfa-4eea-b494-3a2e23ec0294
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSB_BUS_INTERFACE_USBDI_V3, PUSB_BUS_INTERFACE_USBDI_V3, PUSB_BUS_INTERFACE_USBDI_V3 structure pointer [Buses], USB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3 structure [Buses], _USB_BUS_INTERFACE_USBDI_V3, buses.usb_bus_interface_usbdi_v3, usbbusif/PUSB_BUS_INTERFACE_USBDI_V3, usbbusif/USB_BUS_INTERFACE_USBDI_V3"
 ms.topic: struct
 req.header: usbbusif.h

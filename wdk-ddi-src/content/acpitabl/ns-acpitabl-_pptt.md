@@ -4,7 +4,7 @@ title: _PPTT
 author: windows-driver-content
 description: Defines the Processor Properties Topology Table (PPTT) structure.
 ms.assetid: 7d62f635-3e42-4e31-8849-b0452b21caff
-ms.date: 10/1/2018
+ms.date: 10/01/2018
 ms.topic: struct
 ms.keywords: _PPTT, PPTT, *PPPTT, 
 req.header: acpitabl.h

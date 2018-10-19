@@ -6,7 +6,7 @@ description: The PCPIN_DESCRIPTOR structure describes a pin factory.
 old-location: audio\pcpin_descriptor.htm
 tech.root: audio
 ms.assetid: 1eeee706-b7f4-4b4d-93c8-969eac7c56d9
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: PCPIN_DESCRIPTOR structure [Audio Devices], audpc-struct_475141ba-bf2e-4425-92ac-02649248e19f.xml, PPCPIN_DESCRIPTOR structure pointer [Audio Devices], *PPCPIN_DESCRIPTOR, PCPIN_DESCRIPTOR, portcls/PCPIN_DESCRIPTOR, audio.pcpin_descriptor, portcls/PPCPIN_DESCRIPTOR, PPCPIN_DESCRIPTOR
 ms.topic: struct
 req.header: portcls.h

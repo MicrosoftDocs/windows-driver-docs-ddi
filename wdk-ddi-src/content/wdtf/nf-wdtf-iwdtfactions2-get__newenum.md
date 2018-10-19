@@ -6,7 +6,7 @@ description: Gets a new iteration variable that the For Each loop structure impl
 old-location: dtf\iwdtfactions2__newenum.htm
 tech.root: dtf
 ms.assetid: 37f8cccb-2ce3-41aa-b447-024f17ddc262
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFActions2 interface [Windows Device Testing Framework],_NewEnum method, IWDTFActions2.get__NewEnum, IWDTFActions2::_NewEnum, IWDTFActions2::get__NewEnum, _NewEnum method [Windows Device Testing Framework], _NewEnum method [Windows Device Testing Framework],IWDTFActions2 interface, dtf.iwdtfactions2__newenum, get__NewEnum, wdtf/IWDTFActions2::_NewEnum
 ms.topic: method
 req.header: wdtf.h

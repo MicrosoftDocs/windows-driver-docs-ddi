@@ -6,7 +6,7 @@ description: The GPIO_CLX_AcquireInterruptLock method acquires an interrupt lock
 old-location: gpio\gpio_clx_acquireinterruptlock.htm
 tech.root: GPIO
 ms.assetid: E0332415-1028-489B-AA81-DF8AEE0A28E8
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: GPIO.gpio_clx_acquireinterruptlock, GPIO_CLX_AcquireInterruptLock, GPIO_CLX_AcquireInterruptLock method [Parallel Ports], gpioclx/GPIO_CLX_AcquireInterruptLock
 ms.topic: function
 req.header: gpioclx.h

@@ -6,7 +6,7 @@ description: The WHEA_XPF_PROCINFO structure describes processor error informati
 old-location: whea\whea_xpf_procinfo.htm
 tech.root: whea
 ms.assetid: 90fb54dd-a2df-423c-8dd6-bd99c5ad1de4
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: "*PWHEA_XPF_PROCINFO, PWHEA_XPF_PROCINFO, PWHEA_XPF_PROCINFO structure pointer [WHEA Drivers and Applications], WHEA_XPF_PROCINFO, WHEA_XPF_PROCINFO structure [WHEA Drivers and Applications], _WHEA_XPF_PROCINFO, ntddk/PWHEA_XPF_PROCINFO, ntddk/WHEA_XPF_PROCINFO, whea.whea_xpf_procinfo, whearef_adb42f7c-687b-47ef-b3fe-312ef995e5c5.xml"
 ms.topic: struct
 req.header: ntddk.h

@@ -6,7 +6,7 @@ description: The Bluetooth SdpCreateNodeTree function is used to allocate an emp
 old-location: bltooth\sdpcreatenodetree.htm
 tech.root: bltooth
 ms.assetid: c019f382-1ad3-4b08-a254-ae803e2b6bc6
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: SdpCreateNodeTree, SdpCreateNodeTree function [Bluetooth Devices], bltooth.sdpcreatenodetree, bth_funcs_95027cd6-7f0b-48e1-a574-990754e28e74.xml, sdplib/SdpCreateNodeTree
 ms.topic: function
 req.header: sdplib.h

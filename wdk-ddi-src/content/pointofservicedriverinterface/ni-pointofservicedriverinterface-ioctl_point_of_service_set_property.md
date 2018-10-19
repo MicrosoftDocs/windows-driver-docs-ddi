@@ -6,7 +6,7 @@ description: This I/O control function sets the specified property on the device
 old-location: pos\ioctl_point_of_service_set_property.htm
 tech.root: pos
 ms.assetid: 8907a99f-37b0-4c09-b92a-ac720328020e
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: IOCTL_POINT_OF_SERVICE_SET_PROPERTY, IOCTL_POINT_OF_SERVICE_SET_PROPERTY control, IOCTL_POINT_OF_SERVICE_SET_PROPERTY control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_SET_PROPERTY, pos.ioctl_point_of_service_set_property
 ms.topic: ioctl
 req.header: pointofservicedriverinterface.h

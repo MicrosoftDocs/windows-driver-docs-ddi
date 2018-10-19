@@ -6,7 +6,7 @@ description: Notifies the USB connector manager framework extension (UcmCx) when
 old-location: buses\ucmconnectortypecdetach.htm
 tech.root: usbref
 ms.assetid: E89DC8B6-9379-4FE2-BF4C-897DA9DFA11C
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UcmConnectorTypeCDetach, UcmConnectorTypeCDetach method [Buses], buses.ucmconnectortypecdetach, ucmmanager/UcmConnectorTypeCDetach
 ms.topic: function
 req.header: ucmmanager.h

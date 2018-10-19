@@ -6,7 +6,7 @@ description: A print processor's GetPrintProcessorCapabilities function returns 
 old-location: print\getprintprocessorcapabilities.htm
 tech.root: print
 ms.assetid: 81aacb41-cba7-4bd0-aded-919a4df0b934
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetPrintProcessorCapabilities, GetPrintProcessorCapabilities function [Print Devices], print.getprintprocessorcapabilities, spoolfnc_4ca0ae34-060f-4144-91de-a2556d1b5261.xml, winsplp/GetPrintProcessorCapabilities
 ms.topic: function
 req.header: winsplp.h

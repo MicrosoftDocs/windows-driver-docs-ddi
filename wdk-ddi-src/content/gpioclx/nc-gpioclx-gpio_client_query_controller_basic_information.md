@@ -6,7 +6,7 @@ description: The CLIENT_QueryControllerBasicInformation event callback function 
 old-location: gpio\client_querycontrollerbasicinformation.htm
 tech.root: GPIO
 ms.assetid: 5674317C-6785-46F5-880F-71FAF2CD3C64
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: CLIENT_QueryControllerBasicInformation, CLIENT_QueryControllerBasicInformation callback, CLIENT_QueryControllerBasicInformation callback function [Parallel Ports], GPIO.client_querycontrollerbasicinformation, GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION, gpioclx/CLIENT_QueryControllerBasicInformation
 ms.topic: callback
 req.header: gpioclx.h

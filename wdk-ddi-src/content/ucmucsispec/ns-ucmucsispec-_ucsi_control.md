@@ -5,7 +5,7 @@ author: windows-driver-content
 tech.root: usbref
 description: Used in the SET_NOTIFICATION_ENABLE command. See Table 4-9.
 ms.assetid: e4ef0fb0-fe00-4d7b-9e89-a7c0d6c74a32
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: struct
 ms.keywords: _UCSI_CONTROL, UCSI_CONTROL, *PUCSI_CONTROL, 
 req.header: ucmucsispec.h

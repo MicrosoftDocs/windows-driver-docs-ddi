@@ -6,7 +6,7 @@ description: The KSAUDIOENGINE_BUFFER_SIZE_RANGE structure specifies the minimum
 old-location: audio\ksaudio_buffer_limits.htm
 tech.root: audio
 ms.assetid: 7BFF1B51-9559-471C-868C-F3E861CB4914
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: "*PKSAUDIOENGINE_BUFFER_SIZE_RANGE, KSAUDIOENGINE_BUFFER_SIZE_RANGE, KSAUDIOENGINE_BUFFER_SIZE_RANGE structure [Audio Devices], PKSAUDIOENGINE_BUFFER_SIZE_RANGE, PKSAUDIOENGINE_BUFFER_SIZE_RANGE structure pointer [Audio Devices], _tagKSAUDIOENGINE_BUFFER_SIZE_RANGE, audio.ksaudio_buffer_limits, ksmedia/KSAUDIOENGINE_BUFFER_SIZE_RANGE, ksmedia/PKSAUDIOENGINE_BUFFER_SIZE_RANGE"
 ms.topic: struct
 req.header: ksmedia.h

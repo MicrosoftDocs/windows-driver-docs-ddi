@@ -6,7 +6,7 @@ description: The FINVOCATION structure is used as input to the IPrintOemUni::Sen
 old-location: print\finvocation.htm
 tech.root: print
 ms.assetid: 958d6f1f-e8e8-43e6-a4d4-73bae4b2be21
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PFINVOCATION, FINVOCATION, FINVOCATION structure [Print Devices], PFINVOCATION, PFINVOCATION structure pointer [Print Devices], _FINVOCATION, print.finvocation, print_unidrv-pscript_rendering_9937cdea-eacb-457c-af51-d8963ffd59e9.xml, printoem/FINVOCATION, printoem/PFINVOCATION"
 ms.topic: struct
 req.header: printoem.h

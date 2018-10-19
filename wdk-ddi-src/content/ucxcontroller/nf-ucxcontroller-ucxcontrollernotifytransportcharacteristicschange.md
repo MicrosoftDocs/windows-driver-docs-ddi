@@ -6,7 +6,7 @@ description: Notifies UCX about a new port change event from host controller.
 old-location: buses\ucxcontrollernotifytransportcharacteristicschange.htm
 tech.root: usbref
 ms.assetid: DB49DF98-8A5B-4528-B312-63CE3DFABEF2
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UcxControllerNotifyTransportCharacteristicsChange, UcxControllerNotifyTransportCharacteristicsChange function [Buses], buses.ucxcontrollernotifytransportcharacteristicschange, ucxcontroller/UcxControllerNotifyTransportCharacteristicsChange
 ms.topic: function
 req.header: ucxcontroller.h

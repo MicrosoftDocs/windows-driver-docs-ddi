@@ -6,7 +6,7 @@ description: The IOCTL_USB_GET_NODE_CONNECTION_INFORMATION request retrieves inf
 old-location: buses\ioctl_usb_get_node_connection_information.htm
 tech.root: usbref
 ms.assetid: abbd1f03-cf9e-449b-b261-2a751997fed0
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: IOCTL_USB_GET_NODE_CONNECTION_INFORMATION, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION control, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION control code [Buses], buses.ioctl_usb_get_node_connection_information, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_INFORMATION, usbirp_b71c24bb-6e3b-468f-851d-a934a764fbe1.xml
 ms.topic: ioctl
 req.header: usbioctl.h

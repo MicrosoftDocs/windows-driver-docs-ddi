@@ -6,7 +6,7 @@ description: The IOCTL_INTERNAL_BTHENUM_GET_DEVINFO request returns information 
 old-location: bltooth\ioctl_internal_bthenum_get_devinfo.htm
 tech.root: bltooth
 ms.assetid: c0134541-2e17-41e5-b30a-493b1bb42d07
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: IOCTL_INTERNAL_BTHENUM_GET_DEVINFO, IOCTL_INTERNAL_BTHENUM_GET_DEVINFO control, IOCTL_INTERNAL_BTHENUM_GET_DEVINFO control code [Bluetooth Devices], bltooth.ioctl_internal_bthenum_get_devinfo, bth_ioctls_08047b17-31ae-4497-b83d-21e42058765f.xml, bthioctl/IOCTL_INTERNAL_BTHENUM_GET_DEVINFO
 ms.topic: ioctl
 req.header: bthioctl.h

@@ -6,7 +6,7 @@ description: UCX invokes this callback function to get information about transfe
 old-location: buses\evt_ucx_endpoint_get_isoch_transfer_path_delays_.htm
 tech.root: usbref
 ms.assetid: E400CCAE-8F0F-4814-8B63-EB4E116543A2
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: EVT_UCX_ENDPOINT_GET_ISOCH_TRANSFER_PATH_DELAYS, EVT_UCX_ENDPOINT_GET_ISOCH_TRANSFER_PATH_DELAYS callback, EvtUcxEndpointGetIsochTransferPathDelays, EvtUcxEndpointGetIsochTransferPathDelays callback function [Buses], buses.evt_ucx_endpoint_get_isoch_transfer_path_delays_, ucxendpoint/EvtUcxEndpointGetIsochTransferPathDelays
 ms.topic: callback
 req.header: ucxendpoint.h

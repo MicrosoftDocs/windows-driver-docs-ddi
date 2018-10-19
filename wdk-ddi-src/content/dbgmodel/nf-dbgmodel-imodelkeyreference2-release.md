@@ -4,7 +4,7 @@ title: IModelKeyReference2::Release
 author: windows-driver-content
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 5ed42151-5fe3-461d-afca-90905752ad97
-ms.date: 08/14/2018 
+ms.date: 08/14/2018
 ms.topic: method
 ms.keywords: IModelKeyReference2::Release, Release, IModelKeyReference2.Release, IModelKeyReference2::Release, IModelKeyReference2.Release
 req.header: dbgmodel.h

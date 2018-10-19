@@ -6,7 +6,7 @@ description: Indicates the type of endpoint (simple or dynamic) in the initializ
 old-location: buses\udecxusbdeviceinitsetendpointstype.htm
 tech.root: usbref
 ms.assetid: 44760191-77DD-40A9-AA11-AE8AB55AB307
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UdecxUsbDeviceInitSetEndpointsType, UdecxUsbDeviceInitSetEndpointsType function [Buses], buses.udecxusbdeviceinitsetendpointstype, udecxusbdevice/UdecxUsbDeviceInitSetEndpointsType
 ms.topic: function
 req.header: udecxusbdevice.h

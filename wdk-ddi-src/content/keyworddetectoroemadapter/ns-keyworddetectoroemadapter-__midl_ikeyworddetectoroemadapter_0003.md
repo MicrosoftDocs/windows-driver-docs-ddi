@@ -6,7 +6,7 @@ description: The KEYWORDSELECTOR struct is a triplet of IDs that uniquely select
 old-location: audio\keywordselector.htm
 tech.root: audio
 ms.assetid: 762A7E36-E0F8-475C-B201-217D8FD8EBD6
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: KEYWORDSELECTOR, KEYWORDSELECTOR structure [Audio Devices], __MIDL_IKeywordDetectorOemAdapter_0003, audio.keywordselector, keyworddetectoroemadapter/KEYWORDSELECTOR
 ms.topic: struct
 req.header: keyworddetectoroemadapter.h

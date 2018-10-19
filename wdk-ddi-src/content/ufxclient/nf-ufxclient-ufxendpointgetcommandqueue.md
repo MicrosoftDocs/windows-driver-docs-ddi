@@ -6,7 +6,7 @@ description: Returns the command queue previously created by UfxEndpointCreate.
 old-location: buses\ufxendpointgetcommandqueue.htm
 tech.root: usbref
 ms.assetid: BF84F0E4-3B0D-45B8-AC06-F6F761A37234
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UfxEndpointGetCommandQueue, UfxEndpointGetCommandQueue method [Buses], buses.ufxendpointgetcommandqueue, ufxclient/UfxEndpointGetCommandQueue
 ms.topic: function
 req.header: ufxclient.h

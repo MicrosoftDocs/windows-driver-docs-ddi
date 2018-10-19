@@ -6,7 +6,7 @@ description: The GetUri method gets the URI of the part.
 old-location: print\ipartbase_geturi.htm
 tech.root: print
 ms.assetid: 5f4e3723-a30d-462d-9e7b-da05aa2e0b3c
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetUri, GetUri method [Print Devices], GetUri method [Print Devices],IPartBase interface, IPartBase interface [Print Devices],GetUri method, IPartBase.GetUri, IPartBase::GetUri, filterpipeline/IPartBase::GetUri, filterpipeline_ae1b8045-4a34-4a66-939c-31363ba66c6b.xml, print.ipartbase_geturi
 ms.topic: method
 req.header: filterpipeline.h

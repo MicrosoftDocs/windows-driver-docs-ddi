@@ -6,7 +6,7 @@ description: The IPrintCoreHelperPS::GetOptionAttribute method retrieves the opt
 old-location: print\iprintcorehelperps_getoptionattribute.htm
 tech.root: print
 ms.assetid: 66e794e6-ded0-41b1-b52b-d886bb58a4ff
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetOptionAttribute, GetOptionAttribute method [Print Devices], GetOptionAttribute method [Print Devices],IPrintCoreHelperPS interface, IPrintCoreHelperPS interface [Print Devices],GetOptionAttribute method, IPrintCoreHelperPS.GetOptionAttribute, IPrintCoreHelperPS::GetOptionAttribute, prcomoem/IPrintCoreHelperPS::GetOptionAttribute, print.iprintcorehelperps_getoptionattribute, print_unidrv-pscript_allplugins_9c895bf8-2a17-4a3a-b97d-e747f5996318.xml
 ms.topic: method
 req.header: prcomoem.h

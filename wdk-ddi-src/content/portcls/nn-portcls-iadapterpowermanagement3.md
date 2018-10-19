@@ -6,7 +6,7 @@ description: The IAdapterPowerManagement3 interface inherits from IUnknown, and 
 old-location: audio\iadapterpowermanagement3.htm
 tech.root: audio
 ms.assetid: 5F0729DB-C991-4745-9550-9D25D6836A1F
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IAdapterPowerManagement3, IAdapterPowerManagement3 interface [Audio Devices], IAdapterPowerManagement3 interface [Audio Devices],described, audio.iadapterpowermanagement3, portcls/IAdapterPowerManagement3
 ms.topic: interface
 req.header: portcls.h

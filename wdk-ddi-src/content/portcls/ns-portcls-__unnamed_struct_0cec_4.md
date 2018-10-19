@@ -6,7 +6,7 @@ description: The PCMETHOD_ITEM structure describes a method supported by a filte
 old-location: audio\pcmethod_item.htm
 tech.root: audio
 ms.assetid: 588d2f0e-0f87-46c7-b2fa-f14f29f6a9f0
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: PPCMETHOD_ITEM structure pointer [Audio Devices], *PPCMETHOD_ITEM, portcls/PCMETHOD_ITEM, PCMETHOD_ITEM, audio.pcmethod_item, PCMETHOD_ITEM structure [Audio Devices], audpc-struct_58edb038-1bae-4846-8ce9-d0c0c052730c.xml, PPCMETHOD_ITEM, portcls/PPCMETHOD_ITEM
 ms.topic: struct
 req.header: portcls.h

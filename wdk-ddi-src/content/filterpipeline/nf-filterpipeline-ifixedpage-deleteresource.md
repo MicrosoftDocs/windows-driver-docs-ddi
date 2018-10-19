@@ -6,7 +6,7 @@ description: The DeleteResource method deletes a resource that is associated wit
 old-location: print\ifixedpage_deleteresource.htm
 tech.root: print
 ms.assetid: 11aefa65-9f1c-4a6e-aac0-8727c6e00a02
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: DeleteResource, DeleteResource method [Print Devices], DeleteResource method [Print Devices],IFixedPage interface, IFixedPage interface [Print Devices],DeleteResource method, IFixedPage.DeleteResource, IFixedPage::DeleteResource, filterpipeline/IFixedPage::DeleteResource, filterpipeline_b87a40f2-68cc-4664-9531-aaffc41b1a1a.xml, print.ifixedpage_deleteresource
 ms.topic: method
 req.header: filterpipeline.h

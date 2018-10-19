@@ -6,7 +6,7 @@ description: A PSHED plug-in's ReadErrorRecord callback function reads an error 
 old-location: whea\readerrorrecord.htm
 tech.root: whea
 ms.assetid: 2fcbdfe3-bcce-4e5b-a16b-501612975e82
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: PSHED_PI_READ_ERROR_RECORD, PSHED_PI_READ_ERROR_RECORD callback, ReadErrorRecord, ReadErrorRecord callback function [WHEA Drivers and Applications], ntddk/ReadErrorRecord, whea.readerrorrecord, whearef_ec353a58-1ca7-4356-8651-52802d855582.xml
 ms.topic: callback
 req.header: ntddk.h

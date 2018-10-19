@@ -6,7 +6,7 @@ description: IPortClsPnp is the PnP management interface that the port class dri
 old-location: audio\iportclspnp.htm
 tech.root: audio
 ms.assetid: AC04051E-8412-4B61-B452-C05A9D8D5CD9
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IPortClsPnp, IPortClsPnp interface [Audio Devices], IPortClsPnp interface [Audio Devices],described, audio.iportclspnp, portcls/IPortClsPnp
 ms.topic: interface
 req.header: portcls.h

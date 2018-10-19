@@ -6,7 +6,7 @@ description: The RECORDER_LOG_CREATE_PARAMS structure is an input parameter to t
 old-location: devtest\recorder_log_create_params.htm
 tech.root: devtest
 ms.assetid: 6BEB44C2-BB35-420F-B4A0-925FFAD7473C
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: "*PRECORDER_LOG_CREATE_PARAMS, PRECORDER_LOG_CREATE_PARAMS, PRECORDER_LOG_CREATE_PARAMS structure pointer [Driver Development Tools], RECORDER_LOG_CREATE_PARAMS, RECORDER_LOG_CREATE_PARAMS structure [Driver Development Tools], _RECORDER_LOG_CREATE_PARAMS, devtest.recorder_log_create_params, wpprecorder/PRECORDER_LOG_CREATE_PARAMS, wpprecorder/RECORDER_LOG_CREATE_PARAMS"
 ms.topic: struct
 req.header: wpprecorder.h

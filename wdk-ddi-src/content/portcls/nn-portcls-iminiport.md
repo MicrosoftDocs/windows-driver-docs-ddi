@@ -6,7 +6,7 @@ description: The IMiniport interface is the generic miniport interface that all 
 old-location: audio\iminiport.htm
 tech.root: audio
 ms.assetid: 981a3560-473a-40b2-a1dc-4ab9dc618e67
-ms.date: 3/19/2018
+ms.date: 03/19/2018
 ms.keywords: IMiniport, IMiniport interface [Audio Devices], IMiniport interface [Audio Devices], described, audio.iminiport, audmp-routines_8ecaedd2-12d2-420f-a5e7-0f71451cf989.xml, portcls/IMiniport
 ms.topic: interface
 req.header: portcls.h

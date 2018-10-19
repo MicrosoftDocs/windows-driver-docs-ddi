@@ -6,7 +6,7 @@ description:
 old-location: print\iasyncgetsendnotificationcookie.htm
 tech.root: print
 ms.assetid: A9FF489E-458D-4E37-85F0-AA61249CE4B8
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IAsyncGetSendNotificationCookie, IAsyncGetSendNotificationCookie interface [Print Devices], IAsyncGetSendNotificationCookie interface [Print Devices],described, print.iasyncgetsendnotificationcookie, prnasntp/IAsyncGetSendNotificationCookie
 ms.topic: interface
 req.header: prnasntp.h

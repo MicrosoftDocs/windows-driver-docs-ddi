@@ -6,7 +6,7 @@ description: Initializes a UCXENDPOINT_INIT structure with client driver's event
 old-location: buses\_ucxdefaultendpointinitseteventcallbacks.htm
 tech.root: usbref
 ms.assetid: 5CE3F1B5-9C6D-4061-ADF4-B388C81C0674
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UcxDefaultEndpointInitSetEventCallbacks, UcxDefaultEndpointInitSetEventCallbacks method [Buses], buses._ucxdefaultendpointinitseteventcallbacks
 ms.topic: function
 req.header: ucxendpoint.h

@@ -6,7 +6,7 @@ description: The IPrintOemPS::PublishDriverInterface method allows a rendering p
 old-location: print\iprintoemps_publishdriverinterface.htm
 tech.root: print
 ms.assetid: f878a674-7c08-4a7a-ab00-6c79f02566be
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintOemPS interface [Print Devices],PublishDriverInterface method, IPrintOemPS.PublishDriverInterface, IPrintOemPS::PublishDriverInterface, PublishDriverInterface, PublishDriverInterface method [Print Devices], PublishDriverInterface method [Print Devices],IPrintOemPS interface, prcomoem/IPrintOemPS::PublishDriverInterface, print.iprintoemps_publishdriverinterface, print_unidrv-pscript_rendering_b7e2dc4b-ecc1-41bd-853d-4099614b5cae.xml
 ms.topic: method
 req.header: prcomoem.h

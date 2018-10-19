@@ -6,7 +6,7 @@ description: This interfaces provides an enumeration of the jobs in the print qu
 old-location: print\iprintjobcollection.htm
 tech.root: print
 ms.assetid: 757328A6-DD2C-4057-820B-39EB83277194
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintJobCollection, IPrintJobCollection interface [Print Devices], IPrintJobCollection interface [Print Devices],described, print.iprintjobcollection, printerextension/IPrintJobCollection
 ms.topic: interface
 req.header: printerextension.h

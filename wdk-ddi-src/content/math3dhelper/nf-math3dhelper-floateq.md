@@ -4,7 +4,7 @@ title: FloatEq function
 author: windows-driver-content
 description: This function tests equality with FLOAT_TOLERANCE = 0.00001. 
 ms.assetid: 40e77e1f-48cf-4154-b21e-a3cc9473dc66
-ms.date: 08/01/18
+ms.date: 08/01/2018
 ms.topic: function
 tech.root: sensors
 ms.keywords: FloatEq, math3dhelper

@@ -6,7 +6,7 @@ description: Defines the constants that represent the magnetic stripe reader (MS
 old-location: pos\msrtrackids.htm
 tech.root: pos
 ms.assetid: 9366722a-c545-411d-a59f-63edfb0cd68e
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: MsrTrackIds, MsrTrackIds enumeration, MsrTrackIds_None, MsrTrackIds_Track1, MsrTrackIds_Track2, MsrTrackIds_Track3, MsrTrackIds_Track4, _MsrTrackIds, pointofservicedriverinterface/MsrTrackIds, pointofservicedriverinterface/MsrTrackIds_None, pointofservicedriverinterface/MsrTrackIds_Track1, pointofservicedriverinterface/MsrTrackIds_Track2, pointofservicedriverinterface/MsrTrackIds_Track3, pointofservicedriverinterface/MsrTrackIds_Track4, pos.msrtrackids
 ms.topic: enum
 req.header: pointofservicedriverinterface.h

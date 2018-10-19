@@ -6,7 +6,7 @@ description: The CLIENT_WriteGpioPins event callback function writes to a set of
 old-location: gpio\client_writegpiopins.htm
 tech.root: GPIO
 ms.assetid: 1C203107-258E-41DF-AFA7-B2597DCDF2E3
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: CLIENT_WriteGpioPins, CLIENT_WriteGpioPins callback, CLIENT_WriteGpioPins callback function [Parallel Ports], GPIO.client_writegpiopins, GPIO_CLIENT_WRITE_PINS, gpioclx/CLIENT_WriteGpioPins
 ms.topic: callback
 req.header: gpioclx.h

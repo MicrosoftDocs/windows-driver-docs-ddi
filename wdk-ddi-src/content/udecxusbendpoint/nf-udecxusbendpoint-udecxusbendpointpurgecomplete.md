@@ -6,7 +6,7 @@ description: Completes an asynchronous request for canceling all I/O requests qu
 old-location: buses\udecxusbendpointpurgecomplete.htm
 tech.root: usbref
 ms.assetid: 91257BC3-C469-44D5-96E2-D1FA599963F1
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UdecxUsbEndpointPurgeComplete, UdecxUsbEndpointPurgeComplete function [Buses], buses.udecxusbendpointpurgecomplete, udecxusbendpoint/UdecxUsbEndpointPurgeComplete
 ms.topic: function
 req.header: udecxusbendpoint.h

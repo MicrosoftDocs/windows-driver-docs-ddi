@@ -6,7 +6,7 @@ description: This enumeration describes the RILREGSTAT.
 old-location: netvista\rilregstat.htm
 tech.root: netvista
 ms.assetid: 53c72dbb-cf8d-4683-a440-985669265a52
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: RILREGSTAT, RILREGSTAT enumeration [Network Drivers Starting with Windows Vista], RIL_REGSTAT_ATTEMPTING, RIL_REGSTAT_DENIED, RIL_REGSTAT_HOME, RIL_REGSTAT_ROAMING, RIL_REGSTAT_ROAMING_INTL, RIL_REGSTAT_UNKNOWN, RIL_REGSTAT_UNREGISTERED, netvista.rilregstat, rilapitypes/RILREGSTAT, rilapitypes/RIL_REGSTAT_ATTEMPTING, rilapitypes/RIL_REGSTAT_DENIED, rilapitypes/RIL_REGSTAT_HOME, rilapitypes/RIL_REGSTAT_ROAMING, rilapitypes/RIL_REGSTAT_ROAMING_INTL, rilapitypes/RIL_REGSTAT_UNKNOWN, rilapitypes/RIL_REGSTAT_UNREGISTERED
 ms.topic: enum
 req.header: ntddrilapitypes.h

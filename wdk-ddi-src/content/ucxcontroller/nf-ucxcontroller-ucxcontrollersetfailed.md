@@ -6,7 +6,7 @@ description: Informs USB Host Controller Extension (UCX) that the controller has
 old-location: buses\_ucxcontrollersetfailed.htm
 tech.root: usbref
 ms.assetid: 76B7F24C-5376-4DE1-86E7-D2D688B86BCF
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UcxControllerSetFailed, UcxControllerSetFailed method [Buses], buses._ucxcontrollersetfailed, ucxcontroller/UcxControllerSetFailed
 ms.topic: function
 req.header: ucxcontroller.h

@@ -4,7 +4,7 @@ title: PropKeyFindKeyGetUshort function
 author: windows-driver-content
 description: This routine gets a USHORT value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
 ms.assetid: e074729c-2050-4ee6-b81f-93366d318aa9
-ms.date: 08/08/18
+ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
 ms.keywords: PropKeyFindKeyGetUshort

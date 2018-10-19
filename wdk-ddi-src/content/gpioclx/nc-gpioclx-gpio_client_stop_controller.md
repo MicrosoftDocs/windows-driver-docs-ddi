@@ -6,7 +6,7 @@ description: The CLIENT_StopController event callback function performs operatio
 old-location: gpio\client_stopcontroller.htm
 tech.root: GPIO
 ms.assetid: 4B1A33AC-E341-478E-8C1E-94F4473A191C
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: CLIENT_StopController, CLIENT_StopController callback, CLIENT_StopController callback function [Parallel Ports], GPIO.client_stopcontroller, GPIO_CLIENT_STOP_CONTROLLER, gpioclx/CLIENT_StopController
 ms.topic: callback
 req.header: gpioclx.h

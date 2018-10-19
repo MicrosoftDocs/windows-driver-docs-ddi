@@ -6,7 +6,7 @@ description: The IOCTL_GNSS_SEND_PLATFORM_CAPABILITY control code is used by the
 old-location: gnss\ioctl_gnss_send_platform_capability.htm
 tech.root: gnss
 ms.assetid: EF979267-BDF3-4C42-B18E-C77E2584BC2D
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_GNSS_SEND_PLATFORM_CAPABILITY, IOCTL_GNSS_SEND_PLATFORM_CAPABILITY control, IOCTL_GNSS_SEND_PLATFORM_CAPABILITY control code [Sensor Devices], gnss.ioctl_gnss_send_platform_capability, gnssdriver/IOCTL_GNSS_SEND_PLATFORM_CAPABILITY
 ms.topic: ioctl
 req.header: gnssdriver.h

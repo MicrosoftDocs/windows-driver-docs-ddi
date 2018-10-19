@@ -6,7 +6,7 @@ description: Gets a pointer to the enumerants of IPrintJobCollection objects.
 old-location: print\iprintjobcollection_newenum.htm
 tech.root: print
 ms.assetid: 2ABABB19-5F4F-418F-AC23-ED0C5DD2D3B0
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintJobCollection interface [Print Devices],NewEnum property, IPrintJobCollection.NewEnum, IPrintJobCollection.get__NewEnum, IPrintJobCollection::NewEnum, IPrintJobCollection::get_NewEnum, IPrintJobCollection::get__NewEnum, NewEnum property [Print Devices], NewEnum property [Print Devices],IPrintJobCollection interface, get__NewEnum, print.iprintjobcollection_newenum, printerextension/IPrintJobCollection::NewEnum, printerextension/IPrintJobCollection::get_NewEnum
 ms.topic: method
 req.header: printerextension.h

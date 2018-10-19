@@ -6,7 +6,7 @@ description: This structure contains the fields necessary to carry out a SendPhy
 old-location: ieee\irb_req_send_phy_configuration_packet.htm
 tech.root: IEEE
 ms.assetid: FCB87010-EA7D-495F-B58A-6E0322F9C846
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_SEND_PHY_CONFIGURATION_PACKET, IEEE.irb_req_send_phy_configuration_packet, IRB_REQ_SEND_PHY_CONFIGURATION_PACKET, IRB_REQ_SEND_PHY_CONFIGURATION_PACKET structure [Buses], _IRB_REQ_SEND_PHY_CONFIGURATION_PACKET
 ms.topic: struct
 req.header: 1394.h

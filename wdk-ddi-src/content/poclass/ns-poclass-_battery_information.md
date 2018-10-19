@@ -6,7 +6,7 @@ description: Battery miniclass drivers fill in this structure in response to cer
 old-location: battery\battery_information.htm
 tech.root: battery
 ms.assetid: e9326d96-bd96-4493-a0b2-abe6b8f2401a
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PBATTERY_INFORMATION, BATTERY_INFORMATION, BATTERY_INFORMATION structure [Battery Devices], PBATTERY_INFORMATION, PBATTERY_INFORMATION structure pointer [Battery Devices], _BATTERY_INFORMATION, bat-struct_c2f83d6c-44f6-4e41-8f15-874edfc17b7c.xml, battery.battery_information, poclass/BATTERY_INFORMATION, poclass/PBATTERY_INFORMATION"
 ms.topic: struct
 req.header: poclass.h

@@ -6,7 +6,7 @@ description: This IOCTL is for internal use only.
 old-location: battery\ioctl_cad_get_battery_provisioning_status.htm
 tech.root: battery
 ms.assetid: 4E92A629-C080-4C32-8768-D0615F35B161
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS, IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS control, IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS control code [Battery Devices], battery.ioctl_cad_get_battery_provisioning_status, charging/IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS
 ms.topic: ioctl
 req.header: charging.h

@@ -6,7 +6,7 @@ description: Gets the number of devices that are currently provided by the Devic
 old-location: dtf\iwdtfdevicedepot2_count.htm
 tech.root: dtf
 ms.assetid: 9a8c47b1-e8b9-42b4-8625-7d916178611e
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: Count property [Windows Device Testing Framework], Count property [Windows Device Testing Framework],IWDTFDeviceDepot2 interface, IWDTFDeviceDepot2 interface [Windows Device Testing Framework],Count property, IWDTFDeviceDepot2.Count, IWDTFDeviceDepot2.get_Count, IWDTFDeviceDepot2::Count, IWDTFDeviceDepot2::get_Count, Microsoft.WDTF.IWDTFDeviceDepot2.Count, Microsoft::WDTF::IWDTFDeviceDepot2::Count, dtf.iwdtfdevicedepot2_count, get_Count, wdtf/IWDTFDeviceDepot2::Count, wdtf/IWDTFDeviceDepot2::get_Count
 ms.topic: method
 req.header: wdtf.h

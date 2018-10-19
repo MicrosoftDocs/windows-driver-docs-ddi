@@ -6,7 +6,7 @@ description: The PNEGOTIATE_IEEE_MODE-typed callback routine selects the fastest
 old-location: parports\pnegotiate_ieee_mode.htm
 tech.root: parports
 ms.assetid: 2cf3564e-10aa-49bb-9b94-abd987870196
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: PNEGOTIATE_IEEE_MODE, PNEGOTIATE_IEEE_MODE function pointer [Parallel Ports], cisspd_0bea0bb3-2a7c-4cf4-938d-8bc67962a222.xml, parallel/PNEGOTIATE_IEEE_MODE, parports.pnegotiate_ieee_mode
 ms.topic: callback
 req.header: parallel.h

@@ -6,7 +6,7 @@ description: Contains information about the operation to reset the controller. T
 old-location: buses\_ucx_controller_reset_complete_info.htm
 tech.root: usbref
 ms.assetid: 72935645-0567-4FC9-962C-3E823C08D001
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUCX_CONTROLLER_RESET_COMPLETE_INFO, P_UCX_CONTROLLER_RESET_COMPLETE_INFO, P_UCX_CONTROLLER_RESET_COMPLETE_INFO structure pointer [Buses], UCX_CONTROLLER_RESET_COMPLETE_INFO, UCX_CONTROLLER_RESET_COMPLETE_INFO structure [Buses], _UCX_CONTROLLER_RESET_COMPLETE_INFO, buses._ucx_controller_reset_complete_info, ucxcontroller/P_UCX_CONTROLLER_RESET_COMPLETE_INFO, ucxcontroller/_UCX_CONTROLLER_RESET_COMPLETE_INFO"
 ms.topic: struct
 req.header: ucxcontroller.h

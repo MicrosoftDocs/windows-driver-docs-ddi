@@ -6,7 +6,7 @@ description: This enumeration describes the RILUICCFILELOCKSTATUSPARAMMASK.
 old-location: netvista\riluiccfilelockstatusparammask.htm
 tech.root: netvista
 ms.assetid: 341e11bb-957b-4745-9892-f1274ff97f44
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: RILUICCFILELOCKSTATUSPARAMMASK, RILUICCFILELOCKSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_UFLS_ACCESSCONDITION, RIL_PARAM_UFLS_ALL, RIL_PARAM_UFLS_PINREFERENCE, netvista.riluiccfilelockstatusparammask, rilapitypes/RILUICCFILELOCKSTATUSPARAMMASK, rilapitypes/RIL_PARAM_UFLS_ACCESSCONDITION, rilapitypes/RIL_PARAM_UFLS_ALL, rilapitypes/RIL_PARAM_UFLS_PINREFERENCE
 ms.topic: enum
 req.header: ntddrilapitypes.h

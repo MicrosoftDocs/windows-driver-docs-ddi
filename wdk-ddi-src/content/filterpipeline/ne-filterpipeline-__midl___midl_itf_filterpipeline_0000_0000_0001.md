@@ -6,7 +6,7 @@ description: The ExpsCompressionOptions enumeration describes compression option
 old-location: print\expscompressionoptions.htm
 tech.root: print
 ms.assetid: 7df53803-4e01-4d00-b7a4-2f2d1dde5ad8
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: Compression_Fast, Compression_Normal, Compression_NotCompressed, Compression_Small, EXpsCompressionOptions, EXpsCompressionOptions enumeration [Print Devices], __MIDL___MIDL_itf_filterpipeline_0000_0000_0001, filterpipeline/Compression_Fast, filterpipeline/Compression_Normal, filterpipeline/Compression_NotCompressed, filterpipeline/Compression_Small, filterpipeline/EXpsCompressionOptions, filterpipeline_eb934659-a4bd-4063-b0a7-f4011998c0ec.xml, print.expscompressionoptions
 ms.topic: enum
 req.header: filterpipeline.h

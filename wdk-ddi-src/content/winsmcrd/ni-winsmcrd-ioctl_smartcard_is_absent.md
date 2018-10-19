@@ -6,7 +6,7 @@ description: The IOCTL_SMARTCARD_IS_ABSENT control code returns immediately with
 old-location: nfpdrivers\ioctl_smartcard_is_absent.htm
 tech.root: nfpdrivers
 ms.assetid: A9E4404C-D307-4137-B640-AF28A962B2AD
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_SMARTCARD_IS_ABSENT, IOCTL_SMARTCARD_IS_ABSENT control, IOCTL_SMARTCARD_IS_ABSENT control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_is_absent, winsmcrd/IOCTL_SMARTCARD_IS_ABSENT
 ms.topic: ioctl
 req.header: winsmcrd.h

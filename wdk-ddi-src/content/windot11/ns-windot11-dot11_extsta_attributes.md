@@ -6,7 +6,7 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_extsta_attributes.htm
 tech.root: netvista
 ms.assetid: 319017a7-f398-46f7-ab03-1dcb057c1332
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_EXTSTA_ATTRIBUTES, DOT11_EXTSTA_ATTRIBUTES, DOT11_EXTSTA_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_857cc383-6c5b-4bd3-9e91-609b5a9b1f93.xml, PDOT11_EXTSTA_ATTRIBUTES, PDOT11_EXTSTA_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_extsta_attributes, windot11/DOT11_EXTSTA_ATTRIBUTES, windot11/PDOT11_EXTSTA_ATTRIBUTES"
 ms.topic: struct
 req.header: windot11.h

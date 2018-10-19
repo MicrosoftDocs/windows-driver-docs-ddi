@@ -6,7 +6,7 @@ description: Exposes a validation, merge, or commit completion event delegate.
 old-location: print\iprintschemaasyncoperationevent_interface.htm
 tech.root: print
 ms.assetid: 4ADF74C0-F196-476F-889D-EB1A0B881920
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintSchemaAsyncOperationEvent, IPrintSchemaAsyncOperationEvent interface [Print Devices], IPrintSchemaAsyncOperationEvent interface [Print Devices],described, print.iprintschemaasyncoperationevent_interface, printerextension/IPrintSchemaAsyncOperationEvent
 ms.topic: interface
 req.header: printerextension.h

@@ -6,7 +6,7 @@ description: Provides strongly-typed get and set methods.
 old-location: print\iprinterpropertybag_interface.htm
 tech.root: print
 ms.assetid: 421397FF-4956-4052-B63D-32F8E79A22D0
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrinterPropertyBag, IPrinterPropertyBag interface [Print Devices], IPrinterPropertyBag interface [Print Devices],described, print.iprinterpropertybag_interface, printerextension/IPrinterPropertyBag
 ms.topic: interface
 req.header: printerextension.h

@@ -6,7 +6,7 @@ description: The ATTRIBUTE_INFO_2 structure is used as a parameter for a printer
 old-location: print\attribute_info_2.htm
 tech.root: print
 ms.assetid: c5bb9943-ee5b-4128-9e5f-438971119e3a
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PATTRIBUTE_INFO_2, ATTRIBUTE_INFO_2, ATTRIBUTE_INFO_2 structure [Print Devices], PATTRIBUTE_INFO_2, PATTRIBUTE_INFO_2 structure pointer [Print Devices], _ATTRIBUTE_INFO_2, print.attribute_info_2, print_interface-graphics_681158ae-a9ad-40f6-a3de-c82cda7156e0.xml, winddiui/ATTRIBUTE_INFO_2, winddiui/PATTRIBUTE_INFO_2"
 ms.topic: struct
 req.header: winddiui.h

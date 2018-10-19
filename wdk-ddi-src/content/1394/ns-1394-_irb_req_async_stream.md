@@ -6,7 +6,7 @@ description: This structure contains the fields necessary for the 1394 bus drive
 old-location: ieee\irb_req_async_stream.htm
 tech.root: IEEE
 ms.assetid: 9E4958B0-066F-4485-AFF2-3AE499AF3E64
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_ASYNC_STREAM, IEEE.irb_req_async_stream, IRB_REQ_ASYNC_STREAM, IRB_REQ_ASYNC_STREAM structure [Buses], _IRB_REQ_ASYNC_STREAM
 ms.topic: struct
 req.header: 1394.h

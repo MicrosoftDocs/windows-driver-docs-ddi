@@ -6,7 +6,7 @@ description: Converts all items in the collection to the specified VARTYPE.
 old-location: wpddk\iportabledevicepropvariantcollection_changetype.htm
 tech.root: wpd_dk
 ms.assetid: d8e6091e-92ca-49c7-8ee6-502e1567b609
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: ChangeType, ChangeType method, ChangeType method,IPortableDevicePropVariantCollection interface, IPortableDevicePropVariantCollection interface,ChangeType method, IPortableDevicePropVariantCollection.ChangeType, IPortableDevicePropVariantCollection::ChangeType, IPortableDevicePropVariantCollectionChangeType, portabledevicetypes/IPortableDevicePropVariantCollection::ChangeType, wpddk.iportabledevicepropvariantcollection_changetype
 ms.topic: method
 req.header: portabledevicetypes.h

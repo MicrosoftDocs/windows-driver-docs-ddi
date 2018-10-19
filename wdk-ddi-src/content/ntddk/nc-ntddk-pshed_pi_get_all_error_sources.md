@@ -6,7 +6,7 @@ description: A PSHED plug-in's GetAllErrorSources callback function returns a li
 old-location: whea\getallerrorsources.htm
 tech.root: whea
 ms.assetid: e9c97f88-aa13-4a3e-9236-c09703d17e4b
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: GetAllErrorSources, GetAllErrorSources callback function [WHEA Drivers and Applications], PSHED_PI_GET_ALL_ERROR_SOURCES, PSHED_PI_GET_ALL_ERROR_SOURCES callback, ntddk/GetAllErrorSources, whea.getallerrorsources, whearef_fe2e1679-84ee-4f90-8615-24cbab3cb686.xml
 ms.topic: callback
 req.header: ntddk.h

@@ -6,7 +6,7 @@ description: The IOCTL_BTHHFP_DEVICE_GET_NRECDISABLE_STATUS_UPDATE IOCTL Gets no
 old-location: audio\ioctl_bthhfp_device_get_nrecdisable_status_update.htm
 tech.root: audio
 ms.assetid: 2AA3098D-B3CA-4515-AC53-C78E2060D798
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IOCTL_BTHHFP_DEVICE_GET_NRECDISABLE_STATUS_UPDATE, IOCTL_BTHHFP_DEVICE_GET_NRECDISABLE_STATUS_UPDATE control, IOCTL_BTHHFP_DEVICE_GET_NRECDISABLE_STATUS_UPDATE control code [Audio Devices], audio.ioctl_bthhfp_device_get_nrecdisable_status_update, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_NRECDISABLE_STATUS_UPDATE
 ms.topic: ioctl
 req.header: bthhfpddi.h

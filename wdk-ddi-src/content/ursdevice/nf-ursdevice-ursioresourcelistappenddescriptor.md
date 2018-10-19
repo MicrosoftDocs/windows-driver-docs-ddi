@@ -6,7 +6,7 @@ description: Appends the specified resource descriptor to the specified I/O reso
 old-location: buses\ursioresourcelistappenddescriptor.htm
 tech.root: usbref
 ms.assetid: 80AE8211-EA8F-4967-A496-39053CD578D1
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UrsIoResourceListAppendDescriptor, UrsIoResourceListAppendDescriptor function [Buses], buses.ursioresourcelistappenddescriptor, ursdevice/UrsIoResourceListAppendDescriptor
 ms.topic: function
 req.header: ursdevice.h

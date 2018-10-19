@@ -6,7 +6,7 @@ description: This structure defines the specific data elements associated with a
 old-location: gnss\gnss_selftestconfig.htm
 tech.root: gnss
 ms.assetid: DE0D4A9A-F85D-4AA4-8A21-1BEC86837444
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PGNSS_SELFTESTCONFIG, GNSS_SELFTESTCONFIG, GNSS_SELFTESTCONFIG structure [Sensor Devices], PGNSS_SELFTESTCONFIG, PGNSS_SELFTESTCONFIG structure pointer [Sensor Devices], gnss.gnss_selftestconfig, gnssdriver/GNSS_SELFTESTCONFIG, gnssdriver/PGNSS_SELFTESTCONFIG"
 ms.topic: struct
 req.header: gnssdriver.h

@@ -6,7 +6,7 @@ description: The client driver's implementation that UCX calls when it receives 
 old-location: buses\evt_ucx_roothub_get_20port_info.htm
 tech.root: usbref
 ms.assetid: c4a328fb-ffbf-4da4-b52d-6cea58e56b5e
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: EVT_UCX_ROOTHUB_GET_20PORT_INFO, EVT_UCX_ROOTHUB_GET_20PORT_INFO callback, EvtUcxRootHubGet20PortInfo, EvtUcxRootHubGet20PortInfo callback function [Buses], PEVT_UCX_ROOTHUB_GET_20PORT_INFO, PEVT_UCX_ROOTHUB_GET_20PORT_INFO callback function pointer [Buses], buses.evt_ucx_roothub_get_20port_info, ucxroothub/EvtUcxRootHubGet20PortInfo
 ms.topic: callback
 req.header: ucxroothub.h

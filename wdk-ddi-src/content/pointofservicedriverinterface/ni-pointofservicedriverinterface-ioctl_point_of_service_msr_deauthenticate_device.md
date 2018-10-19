@@ -6,7 +6,7 @@ description: This I/O control function deauthenticates the magnetic stripe reade
 old-location: pos\ioctl_point_of_service_msr_deauthenticate_device.htm
 tech.root: pos
 ms.assetid: 796ee8e7-693f-41dd-ad09-cb3c21779ab9
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE, IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE control, IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE, pos.ioctl_point_of_service_msr_deauthenticate_device
 ms.topic: ioctl
 req.header: pointofservicedriverinterface.h

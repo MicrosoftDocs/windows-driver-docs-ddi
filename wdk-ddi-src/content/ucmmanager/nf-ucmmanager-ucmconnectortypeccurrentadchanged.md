@@ -6,7 +6,7 @@ description: Notifies the USB connector manager framework extension (UcmCx) when
 old-location: buses\ucmconnectortypeccurrentadchanged.htm
 tech.root: usbref
 ms.assetid: 26C4D840-2287-4DC2-B039-FD8D2FB92288
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UcmConnectorTypeCCurrentAdChanged, UcmConnectorTypeCCurrentAdChanged method [Buses], buses.ucmconnectortypeccurrentadchanged, ucmmanager/UcmConnectorTypeCCurrentAdChanged
 ms.topic: function
 req.header: ucmmanager.h

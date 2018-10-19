@@ -6,7 +6,7 @@ description: This enumeration describes the RILUICCRECORDSTATUSPARAMMASK.
 old-location: netvista\riluiccrecordstatusparammask.htm
 tech.root: netvista
 ms.assetid: 6db3cdd2-3865-42d7-8b63-3dcacaec5941
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: RILUICCRECORDSTATUSPARAMMASK, RILUICCRECORDSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_URS_ALL, RIL_PARAM_URS_FILELOCKSTATUS, RIL_PARAM_URS_ITEMCOUNT, RIL_PARAM_URS_RECORDTYPE, RIL_PARAM_URS_SIZE, netvista.riluiccrecordstatusparammask, rilapitypes/RILUICCRECORDSTATUSPARAMMASK, rilapitypes/RIL_PARAM_URS_ALL, rilapitypes/RIL_PARAM_URS_FILELOCKSTATUS, rilapitypes/RIL_PARAM_URS_ITEMCOUNT, rilapitypes/RIL_PARAM_URS_RECORDTYPE, rilapitypes/RIL_PARAM_URS_SIZE
 ms.topic: enum
 req.header: ntddrilapitypes.h

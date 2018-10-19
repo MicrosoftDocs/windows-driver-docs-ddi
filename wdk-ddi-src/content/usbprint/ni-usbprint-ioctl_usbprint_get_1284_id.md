@@ -6,7 +6,7 @@ description: The IOCTL_USBPRINT_GET_1284_ID control code allows upper-layer soft
 old-location: print\ioctl_usbprint_get_1284_id.htm
 tech.root: print
 ms.assetid: b5c5a0e4-0fd9-4950-ac38-4bf58a0af077
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IOCTL_USBPRINT_GET_1284_ID, IOCTL_USBPRINT_GET_1284_ID control, IOCTL_USBPRINT_GET_1284_ID control code [Print Devices], print.ioctl_usbprint_get_1284_id, usbioctl_4b1e9092-6483-4603-b690-a5e655a73670.xml, usbprint/IOCTL_USBPRINT_GET_1284_ID
 ms.topic: ioctl
 req.header: usbprint.h

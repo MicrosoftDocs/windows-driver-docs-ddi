@@ -6,7 +6,7 @@ description: An audio driver can send an IOCTL_BTHHFP_DEVICE_GET_CODEC_ID contro
 old-location: audio\ioctl_bthhfp_device_get_codec_id.htm
 tech.root: audio
 ms.assetid: 38B67F0E-46A4-4AB5-B122-F5DE282FE52D
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IOCTL_BTHHFP_DEVICE_GET_CODEC_ID, IOCTL_BTHHFP_DEVICE_GET_CODEC_ID control, IOCTL_BTHHFP_DEVICE_GET_CODEC_ID control code [Audio Devices], audio.ioctl_bthhfp_device_get_codec_id, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_CODEC_ID
 ms.topic: ioctl
 req.header: bthhfpddi.h

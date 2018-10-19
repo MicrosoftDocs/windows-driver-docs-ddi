@@ -6,7 +6,7 @@ description: Defines operations that control WDTF objects within a test script.
 old-location: dtf\iwdtfconfig2.htm
 tech.root: dtf
 ms.assetid: 7cc3775e-d116-4852-9b1a-606d909d878b
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFCONFIG2, IWDTFCONFIG2 interface [Windows Device Testing Framework], IWDTFCONFIG2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFCONFIG2, dtf.iwdtfconfig2, wdtf/IWDTFCONFIG2
 ms.topic: interface
 req.header: wdtf.h

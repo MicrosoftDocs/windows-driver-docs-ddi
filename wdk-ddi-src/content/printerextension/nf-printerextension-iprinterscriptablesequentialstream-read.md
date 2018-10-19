@@ -6,7 +6,7 @@ description: The Read method reads bytes from the stream and returns them as a J
 old-location: print\iprinterscriptablesequentialstream_read.htm
 tech.root: print
 ms.assetid: 1E13DF22-9C45-4475-8912-CC836EFC0A22
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrinterScriptableSequentialStream interface [Print Devices],Read method, IPrinterScriptableSequentialStream.Read, IPrinterScriptableSequentialStream::Read, Read, Read method [Print Devices], Read method [Print Devices],IPrinterScriptableSequentialStream interface, print.iprinterscriptablesequentialstream_read, printerextension/IPrinterScriptableSequentialStream::Read
 ms.topic: method
 req.header: printerextension.h

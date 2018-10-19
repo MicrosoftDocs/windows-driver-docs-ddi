@@ -6,7 +6,7 @@ description: The GetLocation routine returns the device location of a PCI Expres
 old-location: pci\getlocation.htm
 tech.root: PCI
 ms.assetid: A08294EC-7A1B-4A2D-A425-D19ABDCB9DCA
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: GET_VIRTUAL_DEVICE_LOCATION, GetLocation, GetLocation routine, PCI.getlocation, wdm/GetLocation
 ms.topic: callback
 req.header: wdm.h

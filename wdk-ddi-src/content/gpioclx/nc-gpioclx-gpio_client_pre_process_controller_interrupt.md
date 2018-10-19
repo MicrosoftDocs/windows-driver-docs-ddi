@@ -6,7 +6,7 @@ description: The CLIENT_PreProcessControllerInterrupt event callback function pe
 old-location: gpio\client_preprocesscontrollerinterrupt.htm
 tech.root: GPIO
 ms.assetid: BC97E260-D77C-4ACD-B431-0CE6D745B37B
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: CLIENT_PreProcessControllerInterrupt, CLIENT_PreProcessControllerInterrupt callback, CLIENT_PreProcessControllerInterrupt callback function [Parallel Ports], GPIO.client_preprocesscontrollerinterrupt, GPIO_CLIENT_PRE_PROCESS_CONTROLLER_INTERRUPT, gpioclx/CLIENT_PreProcessControllerInterrupt
 ms.topic: callback
 req.header: gpioclx.h

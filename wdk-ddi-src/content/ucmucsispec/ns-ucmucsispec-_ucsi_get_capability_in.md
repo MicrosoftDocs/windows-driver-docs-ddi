@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Used in the GET_CAPABILITY command. See Table 4-13.
 ms.assetid: eec2299f-8466-4afe-a7cb-b2521f94f195
 tech.root: usbref
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: struct
 ms.keywords: _UCSI_GET_CAPABILITY_IN, UCSI_GET_CAPABILITY_IN, *PUCSI_GET_CAPABILITY_IN, 
 req.header: ucmucsispec.h

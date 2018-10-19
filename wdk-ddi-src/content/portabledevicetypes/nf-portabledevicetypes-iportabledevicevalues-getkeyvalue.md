@@ -6,7 +6,7 @@ description: Retrieves a PROPERTYKEY value (type VT_UNKNOWN) that is specified b
 old-location: wpddk\iportabledevicevalues_getkeyvalue.htm
 tech.root: wpd_dk
 ms.assetid: 00d0f564-05ab-4f87-8477-efedc172e296
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: GetKeyValue, GetKeyValue method, GetKeyValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetKeyValue method, IPortableDeviceValues.GetKeyValue, IPortableDeviceValues::GetKeyValue, IPortableDeviceValuesGetKeyValue, portabledevicetypes/IPortableDeviceValues::GetKeyValue, wpddk.iportabledevicevalues_getkeyvalue
 ms.topic: method
 req.header: portabledevicetypes.h

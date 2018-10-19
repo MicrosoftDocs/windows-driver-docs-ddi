@@ -6,7 +6,7 @@ description: The IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT IOCTL removes the Handfr
 old-location: audio\ioctl_bthhfp_device_request_disconnect.htm
 tech.root: audio
 ms.assetid: BC28F8FC-5C0A-4999-89C1-FE25FD68B9FF
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT, IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT control, IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT control code [Audio Devices], audio.ioctl_bthhfp_device_request_disconnect, bthhfpddi/IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT
 ms.topic: ioctl
 req.header: bthhfpddi.h

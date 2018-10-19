@@ -6,7 +6,7 @@ description: The IPrintOemUI::PublishDriverInterface method allows a user interf
 old-location: print\iprintoemui_publishdriverinterface.htm
 tech.root: print
 ms.assetid: 4c2053ec-c6b3-4584-b689-dc887610c57e
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintOemUI interface [Print Devices],PublishDriverInterface method, IPrintOemUI.PublishDriverInterface, IPrintOemUI::PublishDriverInterface, PublishDriverInterface, PublishDriverInterface method [Print Devices], PublishDriverInterface method [Print Devices],IPrintOemUI interface, prcomoem/IPrintOemUI::PublishDriverInterface, print.iprintoemui_publishdriverinterface, print_unidrv-pscript_ui_d5f2a80f-fa9d-4433-9dc1-b1771f124a32.xml
 ms.topic: method
 req.header: prcomoem.h

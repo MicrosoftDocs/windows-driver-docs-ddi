@@ -6,7 +6,7 @@ description: The EATTRIBUTE_DATATYPE enumerates the possible data types for a gl
 old-location: print\eattribute_datatype.htm
 tech.root: print
 ms.assetid: 51d3e768-11b1-411d-89b1-4fec19306b97
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: EATTRIBUTE_DATATYPE, EATTRIBUTE_DATATYPE enumeration [Print Devices], _EATTRIBUTE_DATATYPE, kADT_ASCII, kADT_BINARY, kADT_BOOL, kADT_CUSTOMSIZEPARAMS, kADT_DWORD, kADT_INT, kADT_LONG, kADT_RECT, kADT_SIZE, kADT_UNICODE, kADT_UNKNOWN, print.eattribute_datatype, print_unidrv-pscript_allplugins_6cda9036-f339-4700-808e-06c8867e5ba0.xml, printoem/EATTRIBUTE_DATATYPE, printoem/kADT_ASCII, printoem/kADT_BINARY, printoem/kADT_BOOL, printoem/kADT_CUSTOMSIZEPARAMS, printoem/kADT_DWORD, printoem/kADT_INT, printoem/kADT_LONG, printoem/kADT_RECT, printoem/kADT_SIZE, printoem/kADT_UNICODE, printoem/kADT_UNKNOWN
 ms.topic: enum
 req.header: printoem.h

@@ -6,7 +6,7 @@ description: The IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION I/O request
 old-location: buses\ioctl_internal_usb_usbdevice_remote_wake_notification.htm
 tech.root: usbref
 ms.assetid: 1EAFEFAD-A8FC-4A79-9332-75B143EEEB18
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION, IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION control, IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION control code [Buses], buses.ioctl_internal_usb_usbdevice_remote_wake_notification, usbioctl/IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION
 ms.topic: ioctl
 req.header: usbioctl.h

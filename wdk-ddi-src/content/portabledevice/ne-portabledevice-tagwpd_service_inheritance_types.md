@@ -6,7 +6,7 @@ description: Specifies the inheritance relationship for a service.
 old-location: wpddk\wpd_service_inheritance_types.htm
 tech.root: wpd_dk
 ms.assetid: b8e74919-112f-468a-bac2-b193c269c46e
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: WPD_SERVICE_INHERITANCE_IMPLEMENTATION, WPD_SERVICE_INHERITANCE_TYPES, WPD_SERVICE_INHERITANCE_TYPES enumeration, portabledevice/WPD_SERVICE_INHERITANCE_IMPLEMENTATION, portabledevice/WPD_SERVICE_INHERITANCE_TYPES, tagWPD_SERVICE_INHERITANCE_TYPES, wpddk.wpd_service_inheritance_types
 ms.topic: enum
 req.header: portabledevice.h

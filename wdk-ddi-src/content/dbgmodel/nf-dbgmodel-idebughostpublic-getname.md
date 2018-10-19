@@ -4,7 +4,7 @@ title: IDebugHostPublic::GetName
 author: windows-driver-content
 description: Returns the name of the symbol if the symbol has a name.
 ms.assetid: e8312328-69f2-4f70-a91e-87089b474908
-ms.date: 09/21/2018 
+ms.date: 09/21/2018
 ms.topic: method
 ms.keywords: IDebugHostPublic::GetName, GetName, IDebugHostPublic.GetName, IDebugHostPublic::GetName, IDebugHostPublic.GetName
 req.header: dbgmodel.h

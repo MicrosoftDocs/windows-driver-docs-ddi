@@ -6,7 +6,7 @@ description: The CLIENT_ReadGpioPinsUsingMask event callback function reads a ba
 old-location: gpio\client_readgpiopinsusingmask.htm
 tech.root: GPIO
 ms.assetid: EFF7C3D8-9E52-446A-BF55-0308A0D2835E
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: CLIENT_ReadGpioPinsUsingMask, CLIENT_ReadGpioPinsUsingMask callback, CLIENT_ReadGpioPinsUsingMask callback function [Parallel Ports], GPIO.client_readgpiopinsusingmask, GPIO_CLIENT_READ_PINS_MASK, gpioclx/CLIENT_ReadGpioPinsUsingMask
 ms.topic: callback
 req.header: gpioclx.h

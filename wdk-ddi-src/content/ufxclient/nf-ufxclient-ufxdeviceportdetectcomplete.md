@@ -6,7 +6,7 @@ description: Notifies UFX about the port type that was detected.
 old-location: buses\ufxdeviceportdetectcomplete.htm
 tech.root: usbref
 ms.assetid: D5F65152-54CD-45FA-99CE-F5B4DF444BB8
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UfxDevicePortDetectComplete, UfxDevicePortDetectComplete method [Buses], buses.ufxdeviceportdetectcomplete, ufxclient/UfxDevicePortDetectComplete
 ms.topic: function
 req.header: ufxclient.h

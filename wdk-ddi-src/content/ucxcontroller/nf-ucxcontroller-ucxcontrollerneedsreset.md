@@ -6,7 +6,7 @@ description: Initiates a non-Plug and Play (PnP) controller reset operation by q
 old-location: buses\_ucxcontrollerneedsreset.htm
 tech.root: usbref
 ms.assetid: FAE099E4-6BE9-4637-934F-9F86FFDCAA6A
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UcxControllerNeedsReset, UcxControllerNeedsReset method [Buses], buses._ucxcontrollerneedsreset, ucxcontroller/UcxControllerNeedsReset
 ms.topic: function
 req.header: ucxcontroller.h

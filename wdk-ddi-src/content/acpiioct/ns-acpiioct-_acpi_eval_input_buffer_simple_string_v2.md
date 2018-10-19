@@ -6,7 +6,7 @@ description: This topic describes the ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2 st
 old-location: acpi\acpi_eval_input_buffer_simple_string_v2.htm
 tech.root: acpi
 ms.assetid: AB120BA9-0E52-489E-AB51-866D8A020DAC
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2 structure [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2, PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2 structure pointer [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2, acpi.acpi_eval_input_buffer_simple_string_v2, acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2, acpiioct/PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2"
 ms.topic: struct
 req.header: acpiioct.h

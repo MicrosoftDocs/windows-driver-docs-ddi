@@ -6,7 +6,7 @@ description: The GetProperty method gets a property from a property bag.
 old-location: print\iprintpipelinepropertybag_getproperty.htm
 tech.root: print
 ms.assetid: 10a5ada8-98ab-4e1c-a4b5-2f6d60674952
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetProperty, GetProperty method [Print Devices], GetProperty method [Print Devices],IPrintPipelinePropertyBag interface, IPrintPipelinePropertyBag interface [Print Devices],GetProperty method, IPrintPipelinePropertyBag.GetProperty, IPrintPipelinePropertyBag::GetProperty, filterpipeline/IPrintPipelinePropertyBag::GetProperty, filterpipeline_6a2e804b-b8dd-4e20-a71a-7817181b825c.xml, print.iprintpipelinepropertybag_getproperty
 ms.topic: method
 req.header: filterpipeline.h

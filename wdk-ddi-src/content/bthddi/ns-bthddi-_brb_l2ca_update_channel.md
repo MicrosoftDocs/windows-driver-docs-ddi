@@ -6,7 +6,7 @@ description: The _BRB_L2CA_UPDATE_CHANNEL structure describes an update to the l
 old-location: bltooth\_brb_l2ca_update_channel.htm
 tech.root: bltooth
 ms.assetid: 0186dc75-6d37-4adb-8337-6daa634bd936
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: "_BRB_L2CA_UPDATE_CHANNEL, _BRB_L2CA_UPDATE_CHANNEL structure [Bluetooth Devices], bltooth._brb_l2ca_update_channel, bth_structs_7ee8d85e-5cf3-4820-a325-6abe0777b22a.xml, bthddi/_BRB_L2CA_UPDATE_CHANNEL"
 ms.topic: struct
 req.header: bthddi.h

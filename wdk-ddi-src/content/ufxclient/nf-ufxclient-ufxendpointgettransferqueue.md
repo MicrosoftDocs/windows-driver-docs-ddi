@@ -6,7 +6,7 @@ description: Returns the transfer queue previously created by UfxEndpointCreate.
 old-location: buses\ufxendpointgettransferqueue.htm
 tech.root: usbref
 ms.assetid: 74E78EC9-4D2B-4CA4-AC00-03EB7433617C
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UfxEndpointGetTransferQueue, UfxEndpointGetTransferQueue method [Buses], buses.ufxendpointgettransferqueue, ufxclient/UfxEndpointGetTransferQueue
 ms.topic: function
 req.header: ufxclient.h

@@ -6,7 +6,7 @@ description: The BIDI_RESPONSE_CONTAINER structure is a container for a list of 
 old-location: print\bidi_response_container.htm
 tech.root: print
 ms.assetid: 26924dd2-ac67-408c-87e0-5cfb3281fe75
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*LPBIDI_RESPONSE_CONTAINER, *PBIDI_RESPONSE_CONTAINER, BIDI_RESPONSE_CONTAINER, BIDI_RESPONSE_CONTAINER structure [Print Devices], LPBIDI_RESPONSE_CONTAINER, LPBIDI_RESPONSE_CONTAINER structure pointer [Print Devices], PBIDI_RESPONSE_CONTAINER, PBIDI_RESPONSE_CONTAINER structure pointer [Print Devices], _BIDI_RESPONSE_CONTAINER, print.bidi_response_container, spoolfnc_79e5354d-1fc1-4156-8be9-028ebcd14b16.xml, winspool/BIDI_RESPONSE_CONTAINER, winspool/LPBIDI_RESPONSE_CONTAINER, winspool/PBIDI_RESPONSE_CONTAINER"
 ms.topic: struct
 req.header: winspool.h

@@ -6,7 +6,7 @@ description: "."
 old-location: nfpdrivers\secure_element_hce_activation_payload.htm
 tech.root: nfpdrivers
 ms.assetid: 2FFEB2DB-7506-4CDB-BD5F-41D2E4212017
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, nfcsedev/PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, nfcsedev/SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, nfpdrivers.secure_element_hce_activation_payload"
 ms.topic: struct
 req.header: nfcsedev.h

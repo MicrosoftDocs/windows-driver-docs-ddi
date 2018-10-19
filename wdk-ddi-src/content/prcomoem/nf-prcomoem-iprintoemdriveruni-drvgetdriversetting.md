@@ -6,7 +6,7 @@ description: The IPrintOemDriverUni::DrvGetDriverSetting method is provided by t
 old-location: print\iprintoemdriveruni_drvgetdriversetting.htm
 tech.root: print
 ms.assetid: 29ccd7e6-60eb-4a8e-9a71-9fbed4b2bdcf
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: DrvGetDriverSetting, DrvGetDriverSetting method [Print Devices], DrvGetDriverSetting method [Print Devices],IPrintOemDriverUni interface, IPrintOemDriverUni interface [Print Devices],DrvGetDriverSetting method, IPrintOemDriverUni.DrvGetDriverSetting, IPrintOemDriverUni::DrvGetDriverSetting, prcomoem/IPrintOemDriverUni::DrvGetDriverSetting, print.iprintoemdriveruni_drvgetdriversetting, print_unidrv-pscript_rendering_7fd3ea86-8473-4499-a860-318a66d7838b.xml
 ms.topic: method
 req.header: prcomoem.h

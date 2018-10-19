@@ -6,7 +6,7 @@ description: The response parameters for a provision discovery response are spec
 old-location: netvista\dot11_received_provision_discovery_response_parameters.htm
 tech.root: netvista
 ms.assetid: 5D084A9F-B0B1-4DB6-91CF-8185063A1D65
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, PDOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, netvista.dot11_received_provision_discovery_response_parameters, windot11/DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, windot11/PDOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS"
 ms.topic: struct
 req.header: windot11.h

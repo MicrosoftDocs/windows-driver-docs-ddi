@@ -6,7 +6,7 @@ description: Gets the format type and the buffer size for the audio engine's aud
 old-location: audio\iminiportaudioenginenode_getengineformatsize.htm
 tech.root: audio
 ms.assetid: 0874EC25-3ABE-410B-B5AC-E98020378D7E
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: GetEngineFormatSize, GetEngineFormatSize method [Audio Devices], GetEngineFormatSize method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetEngineFormatSize method, IMiniportAudioEngineNode.GetEngineFormatSize, IMiniportAudioEngineNode::GetEngineFormatSize, audio.iminiportaudioenginenode_getengineformatsize, portcls/IMiniportAudioEngineNode::GetEngineFormatSize
 ms.topic: method
 req.header: portcls.h

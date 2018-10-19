@@ -6,7 +6,7 @@ description: The methods in the IPrintPipelineFilter interface are called for in
 old-location: print\iprintpipelinefilter.htm
 tech.root: print
 ms.assetid: e8841091-1d62-4770-aa85-993b49efbd48
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintPipelineFilter, IPrintPipelineFilter interface [Print Devices], IPrintPipelineFilter interface [Print Devices],described, filterpipeline/IPrintPipelineFilter, filterpipeline_67beec81-fbba-43d2-af2f-ddbc32c68fce.xml, print.iprintpipelinefilter
 ms.topic: interface
 req.header: filterpipeline.h

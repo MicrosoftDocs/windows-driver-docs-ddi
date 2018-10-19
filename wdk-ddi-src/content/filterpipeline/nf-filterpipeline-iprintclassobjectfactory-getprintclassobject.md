@@ -6,7 +6,7 @@ description: The GetPrintClassObject method creates a print filter-related objec
 old-location: print\iprintclassobjectfactory_getprintclassobject.htm
 tech.root: print
 ms.assetid: 96ba0c27-d512-4bca-9053-a753434e461d
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetPrintClassObject, GetPrintClassObject method [Print Devices], GetPrintClassObject method [Print Devices],IPrintClassObjectFactory interface, IPrintClassObjectFactory interface [Print Devices],GetPrintClassObject method, IPrintClassObjectFactory.GetPrintClassObject, IPrintClassObjectFactory::GetPrintClassObject, filterpipeline/IPrintClassObjectFactory::GetPrintClassObject, filterpipeline_18eaede9-1064-4387-a30b-2fc2e245e0ca.xml, print.iprintclassobjectfactory_getprintclassobject
 ms.topic: method
 req.header: filterpipeline.h

@@ -6,7 +6,7 @@ description: The DOT11_KEY_ALGO_BIP structure defines a cipher key that is used 
 old-location: netvista\dot11_key_algo_bip.htm
 tech.root: netvista
 ms.assetid: 608AD247-19C8-40E8-B2FF-D49818AE4AD7
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_KEY_ALGO_BIP, DOT11_KEY_ALGO_BIP, DOT11_KEY_ALGO_BIP structure [Network Drivers Starting with Windows Vista], PDOT11_KEY_ALGO_BIP, PDOT11_KEY_ALGO_BIP structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_key_algo_bip, windot11/DOT11_KEY_ALGO_BIP, windot11/PDOT11_KEY_ALGO_BIP"
 ms.topic: struct
 req.header: windot11.h

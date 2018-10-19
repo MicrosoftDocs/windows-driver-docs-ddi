@@ -6,7 +6,7 @@ description: Contains function pointers to endpoint callback functions implement
 old-location: buses\udecx_usb_endpoint_callbacks.htm
 tech.root: usbref
 ms.assetid: 5AAB4474-9FDF-4ACF-AC38-F84D2682B5E0
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUDECX_USB_ENDPOINT_CALLBACKS, PUDECX_USB_ENDPOINT_CALLBACKS, PUDECX_USB_ENDPOINT_CALLBACKS structure pointer [Buses], UDECX_USB_ENDPOINT_CALLBACKS, UDECX_USB_ENDPOINT_CALLBACKS structure [Buses], _UDECX_USB_ENDPOINT_CALLBACKS, buses.udecx_usb_endpoint_callbacks, udecxusbendpoint/PUDECX_USB_ENDPOINT_CALLBACKS, udecxusbendpoint/UDECX_USB_ENDPOINT_CALLBACKS"
 ms.topic: struct
 req.header: udecxusbendpoint.h

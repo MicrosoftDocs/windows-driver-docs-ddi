@@ -6,7 +6,7 @@ description: SECURE_ELEMENT_AID_ROUTING_INFO is a member of SECURE_ELEMENT_ROUTI
 old-location: nfpdrivers\_secure_element_aid_routing_info.htm
 tech.root: nfpdrivers
 ms.assetid: 3F9831D1-68A9-4FDB-93C6-6983E6BFE945
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PSECURE_ELEMENT_AID_ROUTING_INFO, P_SECURE_ELEMENT_AID_ROUTING_INFO, P_SECURE_ELEMENT_AID_ROUTING_INFO structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_AID_ROUTING_INFO, SECURE_ELEMENT_AID_ROUTING_INFO structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_AID_ROUTING_INFO, nfcsedev/P_SECURE_ELEMENT_AID_ROUTING_INFO, nfcsedev/_SECURE_ELEMENT_AID_ROUTING_INFO, nfpdrivers._secure_element_aid_routing_info"
 ms.topic: struct
 req.header: nfcsedev.h

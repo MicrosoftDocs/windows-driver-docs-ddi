@@ -6,7 +6,7 @@ description: The SPEED_MAP structure is stores a IEEE 1394 bus speed map.
 old-location: ieee\speed_map.htm
 tech.root: IEEE
 ms.assetid: 52b2b97e-217b-445b-9c7a-093808f37aba
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PSPEED_MAP, 1394/PSPEED_MAP, 1394/SPEED_MAP, 1394stct_0df32f88-2279-4df2-a7f3-856ddfdacb56.xml, IEEE.speed_map, PSPEED_MAP, PSPEED_MAP structure pointer [Buses], SPEED_MAP, SPEED_MAP structure [Buses], _SPEED_MAP"
 ms.topic: struct
 req.header: 1394.h

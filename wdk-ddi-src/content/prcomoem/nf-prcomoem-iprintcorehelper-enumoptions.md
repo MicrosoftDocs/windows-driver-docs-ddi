@@ -6,7 +6,7 @@ description: The IPrintCoreHelper::EnumOptions method gets a list of available o
 old-location: print\iprintcorehelper_enumoptions.htm
 tech.root: print
 ms.assetid: 2e46e8cd-b5e5-4116-b42c-b7adcee9d520
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: EnumOptions, EnumOptions method [Print Devices], EnumOptions method [Print Devices],IPrintCoreHelper interface, IPrintCoreHelper interface [Print Devices],EnumOptions method, IPrintCoreHelper.EnumOptions, IPrintCoreHelper::EnumOptions, prcomoem/IPrintCoreHelper::EnumOptions, print.iprintcorehelper_enumoptions, print_unidrv-pscript_allplugins_2dc1f4f3-27ab-44d3-8778-45f2eafae92a.xml
 ms.topic: method
 req.header: prcomoem.h

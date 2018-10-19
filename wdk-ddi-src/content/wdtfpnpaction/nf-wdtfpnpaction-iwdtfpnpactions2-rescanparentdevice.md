@@ -6,7 +6,7 @@ description: Rescans and re-enumerates the target device's parent device.
 old-location: dtf\iwdtfpnpactions2_rescanparentdevice.htm
 tech.root: dtf
 ms.assetid: 10365869-3512-41cc-95eb-7b8658bffd9b
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFPNPActions2 interface [Windows Device Testing Framework],RescanParentDevice method, IWDTFPNPActions2.RescanParentDevice, IWDTFPNPActions2::RescanParentDevice, RescanParentDevice, RescanParentDevice method [Windows Device Testing Framework], RescanParentDevice method [Windows Device Testing Framework],IWDTFPNPActions2 interface, dtf.iwdtfpnpactions2_rescanparentdevice, wdtfpnpaction/IWDTFPNPActions2::RescanParentDevice
 ms.topic: method
 req.header: wdtfpnpaction.h

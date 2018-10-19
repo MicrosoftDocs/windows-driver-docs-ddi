@@ -6,7 +6,7 @@ description: The GROUP_AFFINITY structure specifies a group number and the proce
 old-location: kernel\group_affinity.htm
 tech.root: kernel
 ms.assetid: 8a6fd914-94f9-4ccf-9b0a-cc102fd90965
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: "*PGROUP_AFFINITY, GROUP_AFFINITY, GROUP_AFFINITY structure [Kernel-Mode Driver Architecture], PGROUP_AFFINITY, PGROUP_AFFINITY structure pointer [Kernel-Mode Driver Architecture], _GROUP_AFFINITY, kernel.group_affinity, kstruct_b_9d437322-c6bb-4579-8d7b-144a7513bbd9.xml, miniport/GROUP_AFFINITY, miniport/PGROUP_AFFINITY"
 ms.topic: struct
 req.header: minitape.h

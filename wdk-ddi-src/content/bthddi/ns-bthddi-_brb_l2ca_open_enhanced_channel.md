@@ -6,7 +6,7 @@ description: The _BRB_L2CA_OPEN_ENHANCED_CHANNEL structure is used to open an en
 old-location: bltooth\_brb_l2ca_open_enhanced_channel.htm
 tech.root: bltooth
 ms.assetid: 34CA2A3E-871F-46D4-962A-8EE8D7B8DA15
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: BRB_L2CA_OPEN_ENHANCED_CHANNEL, BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], PBRB_L2CA_OPEN_ENHANCED_CHANNEL, PBRB_L2CA_OPEN_ENHANCED_CHANNEL structure pointer [Bluetooth Devices], _BRB_L2CA_OPEN_ENHANCED_CHANNEL, _BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], bltooth._brb_l2ca_open_enhanced_channel, bltooth.brb_l2ca_open_enhanced_channel, bthddi/PBRB_L2CA_OPEN_ENHANCED_CHANNEL, bthddi/_BRB_L2CA_OPEN_ENHANCED_CHANNEL
 ms.topic: struct
 req.header: bthddi.h

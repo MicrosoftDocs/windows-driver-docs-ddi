@@ -6,7 +6,7 @@ description: This topic describes IOCTL_DOT4_LAST.
 old-location: print\ioctl_ioctl_dot4_last.htm
 tech.root: print
 ms.assetid: 4891CF79-F08F-4043-A596-1E3E0BCF879D
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IOCTL_DOT4_LAST, IOCTL_DOT4_LAST control, IOCTL_DOT4_LAST control code [Print Devices], d4drvif/IOCTL_DOT4_LAST, print.ioctl_ioctl_dot4_last
 ms.topic: ioctl
 req.header: d4drvif.h

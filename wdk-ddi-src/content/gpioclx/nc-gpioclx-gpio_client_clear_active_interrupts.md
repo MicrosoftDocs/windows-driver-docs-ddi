@@ -6,7 +6,7 @@ description: The CLIENT_ClearActiveInterrupts event callback function clears act
 old-location: gpio\client_clearactiveinterrupts.htm
 tech.root: GPIO
 ms.assetid: 8D66F806-92BA-4A70-99F6-1C221E8752A3
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: CLIENT_ClearActiveInterrupts, CLIENT_ClearActiveInterrupts callback, CLIENT_ClearActiveInterrupts callback function [Parallel Ports], GPIO.client_clearactiveinterrupts, GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS, gpioclx/CLIENT_ClearActiveInterrupts
 ms.topic: callback
 req.header: gpioclx.h

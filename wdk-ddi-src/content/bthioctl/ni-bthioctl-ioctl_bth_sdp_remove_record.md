@@ -6,7 +6,7 @@ description: The IOCTL_BTH_SDP_REMOVE_RECORD request removes a local SDP record 
 old-location: bltooth\ioctl_bth_sdp_remove_record.htm
 tech.root: bltooth
 ms.assetid: 8d559078-ece5-4e15-b010-e39b86679398
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: IOCTL_BTH_SDP_REMOVE_RECORD, IOCTL_BTH_SDP_REMOVE_RECORD control, IOCTL_BTH_SDP_REMOVE_RECORD control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_remove_record, bth_ioctls_863ca82b-4cb5-444c-bd29-b1d620e509a4.xml, bthioctl/IOCTL_BTH_SDP_REMOVE_RECORD
 ms.topic: ioctl
 req.header: bthioctl.h
