@@ -6,7 +6,7 @@ description: The RegisterEventCallback routine registers a callback routine for 
 old-location: audio\registereventcallback.htm
 tech.root: audio
 ms.assetid: 0f94146b-aa60-4106-aba6-0f1cb3e53008
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: PREGISTER_EVENT_CALLBACK, PREGISTER_EVENT_CALLBACK callback, RegisterEventCallback, RegisterEventCallback callback function [Audio Devices], aud-prop2_4ef71e0f-0887-4d20-8198-cb5b9c161647.xml, audio.registereventcallback, hdaudio/RegisterEventCallback
 ms.topic: callback
 req.header: hdaudio.h

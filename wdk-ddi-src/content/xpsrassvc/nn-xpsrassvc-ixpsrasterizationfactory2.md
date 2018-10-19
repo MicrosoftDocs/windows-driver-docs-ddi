@@ -6,7 +6,7 @@ description: In Windows 10, the IXpsRasterizationFactory2 interface represents 
 old-location: print\ixpsrasterizationfactory2.htm
 tech.root: print
 ms.assetid: 23994CD9-A65B-4BD7-9070-3F575D011953
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IXpsRasterizationFactory2, IXpsRasterizationFactory2 interface [Print Devices], IXpsRasterizationFactory2 interface [Print Devices],described, print.ixpsrasterizationfactory2, xpsrassvc/IXpsRasterizationFactory2
 ms.topic: interface
 req.header: xpsrassvc.h

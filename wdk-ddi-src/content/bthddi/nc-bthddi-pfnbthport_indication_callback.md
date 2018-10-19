@@ -6,7 +6,7 @@ description: Profile drivers implement a L2CAP callback function to provide the 
 old-location: bltooth\l2cap_callback_function.htm
 tech.root: bltooth
 ms.assetid: d3ca900d-1dd6-49da-ae94-855de3fbd086
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: BluetoothPortIndicationCallback, BluetoothPortIndicationCallback callback function [Bluetooth Devices], PFNBTHPORT_INDICATION_CALLBACK, PFNBTHPORT_INDICATION_CALLBACK callback, bltooth.l2cap_callback_function, bth_funcs_76d9cb39-ead0-4465-9cc5-83b559b0ba55.xml, bthddi/BluetoothPortIndicationCallback
 ms.topic: callback
 req.header: bthddi.h

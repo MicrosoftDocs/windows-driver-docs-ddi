@@ -6,7 +6,7 @@ description: The WcsCreateIccProfile function converts a WCS profile into an ICC
 old-location: print\wcscreateiccprofile.htm
 tech.root: print
 ms.assetid: fbe37d6c-9b91-46d8-9d29-1de3ef542c19
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: WcsCreateIccProfile, WcsCreateIccProfile function [Print Devices], colorfnc_cb099d17-1109-4cb5-bbdc-76f1df13c60b.xml, icm/WcsCreateIccProfile, print.wcscreateiccprofile
 ms.topic: function
 req.header: icm.h

@@ -6,7 +6,7 @@ description: The notification buffer used by IPortClsNotifications.
 old-location: audio\pcnotification_buffer.htm
 tech.root: audio
 ms.assetid: EEE091E4-29D1-4C6F-B543-C54736660CCA
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: "*PPCNOTIFICATION_BUFFER, PCNOTIFICATION_BUFFER, PCNOTIFICATION_BUFFER structure [Audio Devices], PPCNOTIFICATION_BUFFER, PPCNOTIFICATION_BUFFER structure pointer [Audio Devices], _PCNOTIFICATION_BUFFER, audio.pcnotification_buffer, portcls/PCNOTIFICATION_BUFFER, portcls/PPCNOTIFICATION_BUFFER"
 ms.topic: struct
 req.header: portcls.h

@@ -6,7 +6,7 @@ description: A user interface plug-in's IPrintOemUI::GetInfo method returns iden
 old-location: print\iprintoemui_getinfo.htm
 tech.root: print
 ms.assetid: be1eb547-f824-4d6d-818f-8ac1740d1d24
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetInfo, GetInfo method [Print Devices], GetInfo method [Print Devices],IPrintOemUI interface, IPrintOemUI interface [Print Devices],GetInfo method, IPrintOemUI.GetInfo, IPrintOemUI::GetInfo, prcomoem/IPrintOemUI::GetInfo, print.iprintoemui_getinfo, print_unidrv-pscript_ui_8ec47e58-ddf5-4445-85d9-475cfbe0e51b.xml
 ms.topic: method
 req.header: prcomoem.h

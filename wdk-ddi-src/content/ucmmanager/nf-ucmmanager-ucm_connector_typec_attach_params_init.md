@@ -6,7 +6,7 @@ description: Initializes a UCM_CONNECTOR_TYPEC_ATTACH_PARAMS structure.
 old-location: buses\ucm_connector_typec_attach_params_init.htm
 tech.root: usbref
 ms.assetid: C360556B-5A28-4FC3-9304-6000061A1D69
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT, UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT function [Buses], buses.ucm_connector_typec_attach_params_init, ucmmanager/UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT
 ms.topic: function
 req.header: ucmmanager.h

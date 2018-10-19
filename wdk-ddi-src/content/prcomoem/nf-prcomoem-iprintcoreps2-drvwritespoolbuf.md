@@ -6,7 +6,7 @@ description: The IPrintCorePS2::DrvWriteSpoolBuf method is provided by the Pscri
 old-location: print\iprintcoreps2_drvwritespoolbuf.htm
 tech.root: print
 ms.assetid: 25405dd8-730e-4de6-af44-9dd584ed3087
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: DrvWriteSpoolBuf, DrvWriteSpoolBuf method [Print Devices], DrvWriteSpoolBuf method [Print Devices],IPrintCorePS2 interface, IPrintCorePS2 interface [Print Devices],DrvWriteSpoolBuf method, IPrintCorePS2.DrvWriteSpoolBuf, IPrintCorePS2::DrvWriteSpoolBuf, prcomoem/IPrintCorePS2::DrvWriteSpoolBuf, print.iprintcoreps2_drvwritespoolbuf, print_unidrv-pscript_rendering_56d81faa-5b82-4d07-beb1-9a8a82fc7409.xml
 ms.topic: method
 req.header: prcomoem.h

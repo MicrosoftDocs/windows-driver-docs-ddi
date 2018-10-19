@@ -6,7 +6,7 @@ description: Called by the client driver to configure the LLCP parameters.
 old-location: nfpdrivers\_nfccxsetllcpconfig.htm
 tech.root: nfpdrivers
 ms.assetid: 8208F61E-DFD9-4AA8-B225-BEB35F80F621
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: NfcCxSetLlcpConfig, NfcCxSetLlcpConfig method [Near-Field Proximity Drivers], nfccx/NfcCxSetLlcpConfig, nfpdrivers._nfccxsetllcpconfig
 ms.topic: function
 req.header: nfccx.h

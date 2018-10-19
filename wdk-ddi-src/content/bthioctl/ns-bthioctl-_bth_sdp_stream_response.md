@@ -6,7 +6,7 @@ description: The BTH_SDP_STREAM_RESPONSE structure contains information about an
 old-location: bltooth\bth_sdp_stream_response.htm
 tech.root: bltooth
 ms.assetid: 5b7db410-8d9c-4c3e-aaae-44f7d5b779a0
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: "*PBTH_SDP_STREAM_RESPONSE, BTH_SDP_STREAM_RESPONSE, BTH_SDP_STREAM_RESPONSE structure [Bluetooth Devices], PBTH_SDP_STREAM_RESPONSE, PBTH_SDP_STREAM_RESPONSE structure pointer [Bluetooth Devices], _BTH_SDP_STREAM_RESPONSE, bltooth.bth_sdp_stream_response, bth_structs_c48540ef-f38b-4821-84cd-2b781c0b5352.xml, bthioctl/BTH_SDP_STREAM_RESPONSE, bthioctl/PBTH_SDP_STREAM_RESPONSE"
 ms.topic: struct
 req.header: bthioctl.h

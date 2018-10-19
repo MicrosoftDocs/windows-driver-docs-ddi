@@ -4,7 +4,7 @@ title: IDebugHostType2::GetType
 author: windows-driver-content
 description: Returns the type (e.g. "int *") of the symbol if the symbol has a type. 
 ms.assetid: ebfa835b-8af6-4bc3-88b9-b778f56057cc
-ms.date: 09/21/2018 
+ms.date: 09/21/2018
 ms.topic: method
 ms.keywords: IDebugHostType2::GetType, GetType, IDebugHostType2.GetType, IDebugHostType2::GetType, IDebugHostType2.GetType
 req.header: dbgmodel.h

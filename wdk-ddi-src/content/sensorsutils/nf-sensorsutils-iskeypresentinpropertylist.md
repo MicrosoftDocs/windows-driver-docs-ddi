@@ -4,7 +4,7 @@ title: IsKeyPresentInPropertyList function
 author: windows-driver-content
 description: This routine determine if a key is present in a property list.
 ms.assetid: 4a565915-3f6d-45ff-8912-0a4e80910a8b
-ms.date: 08/08/18
+ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
 ms.keywords: IsKeyPresentInPropertyList

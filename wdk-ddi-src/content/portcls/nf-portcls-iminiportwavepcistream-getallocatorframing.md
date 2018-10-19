@@ -6,7 +6,7 @@ description: The GetAllocatorFraming method gets the preferred allocator-framing
 old-location: audio\iminiportwavepcistream_getallocatorframing.htm
 tech.root: audio
 ms.assetid: 0b140ddc-52b5-4aee-afeb-5b2be57fe7b7
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: GetAllocatorFraming, GetAllocatorFraming method [Audio Devices], GetAllocatorFraming method [Audio Devices],IMiniportWavePciStream interface, IMiniportWavePciStream interface [Audio Devices],GetAllocatorFraming method, IMiniportWavePciStream.GetAllocatorFraming, IMiniportWavePciStream::GetAllocatorFraming, audio.iminiportwavepcistream_getallocatorframing, audmp-routines_aef1d53f-2db6-4372-90fa-fb501c199e41.xml, portcls/IMiniportWavePciStream::GetAllocatorFraming
 ms.topic: method
 req.header: portcls.h

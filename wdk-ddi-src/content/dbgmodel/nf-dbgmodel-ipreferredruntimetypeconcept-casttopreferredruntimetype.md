@@ -4,7 +4,7 @@ title: IPreferredRuntimeTypeConcept::CastToPreferredRuntimeType
 author: windows-driver-content
 description: The CastToPreferredRuntimeType method is called whenever a client wishes to attempt to convert from a static type instance to the runtime type of that instance. 
 ms.assetid: cdb65537-36e9-4c2c-aa0f-1a9c2cf74164
-ms.date: 09/20/2018 
+ms.date: 09/20/2018
 ms.topic: method
 ms.keywords: IPreferredRuntimeTypeConcept::CastToPreferredRuntimeType, CastToPreferredRuntimeType, IPreferredRuntimeTypeConcept.CastToPreferredRuntimeType, IPreferredRuntimeTypeConcept::CastToPreferredRuntimeType, IPreferredRuntimeTypeConcept.CastToPreferredRuntimeType
 req.header: dbgmodel.h

@@ -6,7 +6,7 @@ description: The GetPartCompression method gets the compression of the part.
 old-location: print\ipartbase_getpartcompression.htm
 tech.root: print
 ms.assetid: 18b2a3c2-26da-434e-bcea-89bd6ef22077
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetPartCompression, GetPartCompression method [Print Devices], GetPartCompression method [Print Devices],IPartBase interface, IPartBase interface [Print Devices],GetPartCompression method, IPartBase.GetPartCompression, IPartBase::GetPartCompression, filterpipeline/IPartBase::GetPartCompression, filterpipeline_384bc679-c974-4c0d-86cd-32cdd0ebf7be.xml, print.ipartbase_getpartcompression
 ms.topic: method
 req.header: filterpipeline.h

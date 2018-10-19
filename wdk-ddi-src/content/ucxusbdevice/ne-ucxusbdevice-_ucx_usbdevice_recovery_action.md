@@ -4,7 +4,7 @@ title: _UCX_USBDEVICE_RECOVERY_ACTION
 author: windows-driver-content
 description: Defines values for FLDR and PLDR trigger resets.
 ms.assetid: a7bfc59b-f668-4799-b7ec-5cdcb9446d07
-ms.date: 9/30/2018
+ms.date: 09/30/2018
 ms.topic: enum
 ms.keywords: _UCX_USBDEVICE_RECOVERY_ACTION, UCX_USBDEVICE_RECOVERY_ACTION, 
 req.header: ucxusbdevice.h

@@ -6,7 +6,7 @@ description: The PcRegisterIoTimeout function registers a driver-supplied I/O-ti
 old-location: audio\pcregisteriotimeout.htm
 tech.root: audio
 ms.assetid: 9cd7c366-1745-45b0-b9e9-87a259110621
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: PcRegisterIoTimeout, PcRegisterIoTimeout function [Audio Devices], audio.pcregisteriotimeout, audpc-routines_1a63a1fa-c80a-4fe4-87d6-95543e6e2f1d.xml, portcls/PcRegisterIoTimeout
 ms.topic: function
 req.header: portcls.h

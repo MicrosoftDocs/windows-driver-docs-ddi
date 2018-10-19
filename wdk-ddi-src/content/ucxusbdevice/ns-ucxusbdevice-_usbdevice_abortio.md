@@ -6,7 +6,7 @@ description: Contains a handle for the Universal Serial Bus (USB) hub or device 
 old-location: buses\_usbdevice_abortio.htm
 tech.root: usbref
 ms.assetid: 69720940-4D3E-43E6-B587-427ED2049FCC
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSBDEVICE_ABORTIO, P_USBDEVICE_ABORTIO, P_USBDEVICE_ABORTIO structure pointer [Buses], USBDEVICE_ABORTIO, USBDEVICE_ABORTIO structure [Buses], _USBDEVICE_ABORTIO, buses._usbdevice_abortio, ucxusbdevice/P_USBDEVICE_ABORTIO, ucxusbdevice/_USBDEVICE_ABORTIO"
 ms.topic: struct
 req.header: ucxusbdevice.h

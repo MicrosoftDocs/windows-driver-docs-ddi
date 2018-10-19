@@ -6,7 +6,7 @@ description: The IOCTL_INTERNAL_INIT_1284_3_BUS request initializes and assigns 
 old-location: parports\ioctl_internal_init_1284_3_bus.htm
 tech.root: parports
 ms.assetid: 9c936e4e-8a49-4c6a-a8d0-b314548b5e6a
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_INTERNAL_INIT_1284_3_BUS, IOCTL_INTERNAL_INIT_1284_3_BUS control code [Parallel Ports], cisspd_bbc4a115-34b5-4f7b-9fd4-bbf4d4293e81.xml, parallel/IOCTL_INTERNAL_INIT_1284_3_BUS, parports.ioctl_internal_init_1284_3_bus
 ms.topic: ioctl
 req.header: parallel.h

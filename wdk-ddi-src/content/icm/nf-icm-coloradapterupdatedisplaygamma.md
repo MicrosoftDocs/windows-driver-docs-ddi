@@ -4,7 +4,7 @@ title: ColorAdapterUpdateDisplayGamma function
 author: windows-driver-content
 description: This DDI construct is intended for OEM use only.
 ms.assetid: d72a1052-c8fb-4796-a3d7-5b66f25903b1
-ms.date: 9/10/2018
+ms.date: 09/10/2018
 ms.topic: function
 ms.keywords: ColorAdapterUpdateDisplayGamma
 req.header: icm.h

@@ -6,7 +6,7 @@ description: Enables the target device.
 old-location: dtf\iwdtfpnpaction2_enabledevice.htm
 tech.root: dtf
 ms.assetid: f11d31ec-71fb-4110-949c-6d33671dc85c
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: EnableDevice, EnableDevice method [Windows Device Testing Framework], EnableDevice method [Windows Device Testing Framework],IWDTFPNPAction2 interface, IWDTFPNPAction2 interface [Windows Device Testing Framework],EnableDevice method, IWDTFPNPAction2.EnableDevice, IWDTFPNPAction2::EnableDevice, Microsoft.WDTF.IWDTFPNPAction2.EnableDevice, Microsoft::WDTF::IWDTFPNPAction2::EnableDevice, dtf.iwdtfpnpaction2_enabledevice, wdtfpnpaction/IWDTFPNPAction2::EnableDevice
 ms.topic: method
 req.header: wdtfpnpaction.h

@@ -4,7 +4,7 @@ title: IDebugHostType2::GetFunctionCallingConvention
 author: windows-driver-content
 description: The GetFunctionCallingConvention method returns the calling convention of the function.
 ms.assetid: 0719f5b4-abea-4cf9-942f-6d9da5edf4fd
-ms.date: 09/20/2018 
+ms.date: 09/20/2018
 ms.topic: method
 ms.keywords: IDebugHostType2::GetFunctionCallingConvention, GetFunctionCallingConvention, IDebugHostType2.GetFunctionCallingConvention, IDebugHostType2::GetFunctionCallingConvention, IDebugHostType2.GetFunctionCallingConvention
 req.header: dbgmodel.h

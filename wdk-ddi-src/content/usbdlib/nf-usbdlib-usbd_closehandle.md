@@ -6,7 +6,7 @@ description: The USBD_CloseHandle routine is called by a USB client driver to cl
 old-location: buses\usbd_unregister.htm
 tech.root: usbref
 ms.assetid: 6876E96D-E249-4B7C-A496-27E3F4A7F7E2
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: USBD_CloseHandle, USBD_CloseHandle routine [Buses], buses.usbd_unregister, usbdlib/USBD_CloseHandle
 ms.topic: function
 req.header: usbdlib.h

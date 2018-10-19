@@ -6,7 +6,7 @@ description: IOCTL_BTHX_QUERY_CAPABILITIES is used to query the capabilities of 
 old-location: bltooth\ioctl_bthx_query_capabilities.htm
 tech.root: bltooth
 ms.assetid: 199C93EC-AB91-47F1-914A-F44BFF1796A6
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: IOCTL_BTHX_QUERY_CAPABILITIES, IOCTL_BTHX_QUERY_CAPABILITIES control, IOCTL_BTHX_QUERY_CAPABILITIES control code [Bluetooth Devices], bltooth.ioctl_bthx_query_capabilities, bthxddi/IOCTL_BTHX_QUERY_CAPABILITIES
 ms.topic: ioctl
 req.header: bthxddi.h

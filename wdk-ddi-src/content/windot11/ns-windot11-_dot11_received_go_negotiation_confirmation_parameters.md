@@ -6,7 +6,7 @@ description: The parameters for a received Group Owner (GO) negotiation confirma
 old-location: netvista\dot11_received_go_negotiation_confirmation_parameters.htm
 tech.root: netvista
 ms.assetid: 8FFCA7EB-BD0F-4EAF-BD5F-A98F2127DE77
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, DOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, DOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, PDOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, netvista.dot11_received_go_negotiation_confirmation_parameters, windot11/DOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, windot11/PDOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS"
 ms.topic: struct
 req.header: windot11.h

@@ -6,7 +6,7 @@ description: The IMusicTechnology interface is used to change the music technolo
 old-location: audio\imusictechnology.htm
 tech.root: audio
 ms.assetid: e42380f8-8e82-4c98-88e9-9e44f5091a85
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IMusicTechnology, IMusicTechnology interface [Audio Devices], IMusicTechnology interface [Audio Devices],described, audio.imusictechnology, audmp-routines_9300aa03-6606-46a0-ad5b-b0d776c46ed1.xml, portcls/IMusicTechnology
 ms.topic: interface
 req.header: portcls.h

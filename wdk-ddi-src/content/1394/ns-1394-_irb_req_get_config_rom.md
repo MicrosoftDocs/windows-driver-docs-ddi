@@ -6,7 +6,7 @@ description: This structure contains the fields necessary for the bus driver to 
 old-location: ieee\irb_req_get_config_rom.htm
 tech.root: IEEE
 ms.assetid: 9C4EC9CA-3B7F-4611-BB96-A86C0FEDDF25
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_GET_CONFIG_ROM, IEEE.irb_req_get_config_rom, IRB_REQ_GET_CONFIG_ROM, IRB_REQ_GET_CONFIG_ROM structure [Buses], _IRB_REQ_GET_CONFIG_ROM
 ms.topic: struct
 req.header: 1394.h

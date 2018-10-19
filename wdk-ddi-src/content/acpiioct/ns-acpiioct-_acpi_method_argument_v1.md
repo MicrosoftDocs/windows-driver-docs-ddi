@@ -6,7 +6,7 @@ description: The ACPI_METHOD_ARGUMENT structure contains the value of an input o
 old-location: acpi\acpi_method_argument.htm
 tech.root: acpi
 ms.assetid: 4038d5a5-9ce7-44cb-a6f0-3033617cfe6a
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PACPI_METHOD_ARGUMENT, *PACPI_METHOD_ARGUMENT_V1, ACPI_METHOD_ARGUMENT, ACPI_METHOD_ARGUMENT_V1, ACPI_METHOD_ARGUMENT_V1 structure [ACPI Devices], _ACPI_METHOD_ARGUMENT_V1, acpi-meth-eval-ref_a8988425-e05b-4e85-a345-31a367dec427.xml, acpi.acpi_method_argument, acpiioct/ACPI_METHOD_ARGUMENT_V1"
 ms.topic: struct
 req.header: acpiioct.h

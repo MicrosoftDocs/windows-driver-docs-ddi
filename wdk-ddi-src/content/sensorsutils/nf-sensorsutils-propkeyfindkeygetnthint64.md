@@ -4,7 +4,7 @@ title: PropKeyFindKeyGetNthInt64 function
 author: windows-driver-content
 description: This routine gets the nth INT64 value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
 ms.assetid: 8782bd62-2338-46c0-9d8d-537af5b7a613
-ms.date: 08/08/18
+ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
 ms.keywords: PropKeyFindKeyGetNthInt64

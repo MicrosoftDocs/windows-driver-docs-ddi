@@ -6,7 +6,7 @@ description: The PCW_CALLBACK_INFORMATION union supplies details about the notif
 old-location: devtest\pcw_callback_information.htm
 tech.root: devtest
 ms.assetid: cc1882a9-eba7-494c-9047-5c97b1e3c19b
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: "*PPCW_CALLBACK_INFORMATION, PCW_CALLBACK_INFORMATION, PCW_CALLBACK_INFORMATION union [Driver Development Tools], PPCW_CALLBACK_INFORMATION, PPCW_CALLBACK_INFORMATION union pointer [Driver Development Tools], _PCW_CALLBACK_INFORMATION, devtest.pcw_callback_information, km_pcw_d44ee92a-c8a0-4da9-8739-cf5443ee2d85.xml, wdm/PCW_CALLBACK_INFORMATION, wdm/PPCW_CALLBACK_INFORMATION"
 ms.topic: struct
 req.header: wdm.h

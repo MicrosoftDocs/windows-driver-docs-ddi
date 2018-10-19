@@ -6,7 +6,7 @@ description: The IOCTL_BIOMETRIC_GET_SENSOR_STATUS IOCTL tells the driver to per
 old-location: biometric\ioctl_biometric_get_sensor_status.htm
 tech.root: biometric
 ms.assetid: 88a2a73b-4fce-4f7a-b73b-ab66e136320d
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: IOCTL_BIOMETRIC_GET_SENSOR_STATUS, IOCTL_BIOMETRIC_GET_SENSOR_STATUS control, IOCTL_BIOMETRIC_GET_SENSOR_STATUS control code [Biometric Devices], biometric.ioctl_biometric_get_sensor_status, biometric_ref_74620630-37ce-4473-bb28-2fef40f885ad.xml, winbio_ioctl/IOCTL_BIOMETRIC_GET_SENSOR_STATUS
 ms.topic: ioctl
 req.header: winbio_ioctl.h

@@ -6,7 +6,7 @@ description: Retrieves an item from the collection by a zero-based index.
 old-location: wpddk\iportabledevicepropvariantcollection_getat.htm
 tech.root: wpd_dk
 ms.assetid: f42239b1-4f41-4b54-a29c-f5e5e2681a59
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: GetAt, GetAt method, GetAt method,IPortableDevicePropVariantCollection interface, IPortableDevicePropVariantCollection interface,GetAt method, IPortableDevicePropVariantCollection.GetAt, IPortableDevicePropVariantCollection::GetAt, IPortableDevicePropVariantCollectionGetAt, portabledevicetypes/IPortableDevicePropVariantCollection::GetAt, wpddk.iportabledevicepropvariantcollection_getat
 ms.topic: method
 req.header: portabledevicetypes.h

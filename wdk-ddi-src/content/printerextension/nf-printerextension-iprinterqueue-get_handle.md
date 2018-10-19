@@ -6,7 +6,7 @@ description: Gets the underlying native handle for this print queue.
 old-location: print\iprinterqueue_handle.htm
 tech.root: print
 ms.assetid: FE8A8822-28C8-4255-86A4-A77F17C1C281
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: Handle property [Print Devices], Handle property [Print Devices],IPrinterQueue interface, IPrinterQueue interface [Print Devices],Handle property, IPrinterQueue.Handle, IPrinterQueue.get_Handle, IPrinterQueue::Handle, IPrinterQueue::get_Handle, get_Handle, print.iprinterqueue_handle, printerextension/IPrinterQueue::Handle, printerextension/IPrinterQueue::get_Handle
 ms.topic: method
 req.header: printerextension.h

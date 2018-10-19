@@ -6,7 +6,7 @@ description: Called when printer queues are enumerated.
 old-location: print\iprinterextensionevent_onprinterqueuesenumerated.htm
 tech.root: print
 ms.assetid: 947063C6-563A-4BB7-918E-479941B4583F
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrinterExtensionEvent interface [Print Devices],OnPrinterQueuesEnumerated method, IPrinterExtensionEvent.OnPrinterQueuesEnumerated, IPrinterExtensionEvent::OnPrinterQueuesEnumerated, OnPrinterQueuesEnumerated, OnPrinterQueuesEnumerated method [Print Devices], OnPrinterQueuesEnumerated method [Print Devices],IPrinterExtensionEvent interface, print.iprinterextensionevent_onprinterqueuesenumerated, printerextension/IPrinterExtensionEvent::OnPrinterQueuesEnumerated
 ms.topic: method
 req.header: printerextension.h

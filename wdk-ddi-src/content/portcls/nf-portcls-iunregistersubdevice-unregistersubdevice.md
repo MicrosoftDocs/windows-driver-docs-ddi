@@ -6,7 +6,7 @@ description: The UnregisterSubdevice method deletes the registration of a subdev
 old-location: audio\iunregistersubdevice_unregistersubdevice.htm
 tech.root: audio
 ms.assetid: 042378f0-aa0f-49be-b881-86558ad33baf
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IUnregisterSubdevice interface [Audio Devices],UnregisterSubdevice method, IUnregisterSubdevice.UnregisterSubdevice, IUnregisterSubdevice::UnregisterSubdevice, UnregisterSubdevice, UnregisterSubdevice method [Audio Devices], UnregisterSubdevice method [Audio Devices],IUnregisterSubdevice interface, audio.iunregistersubdevice_unregistersubdevice, audmp-routines_8fb24a5e-af25-42e0-a96e-2f4728f17cde.xml, portcls/IUnregisterSubdevice::UnregisterSubdevice
 ms.topic: method
 req.header: portcls.h

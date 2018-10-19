@@ -6,7 +6,7 @@ description: Describes the proprietary charger's device power requirements.
 old-location: buses\ufx_proprietary_charger.htm
 tech.root: usbref
 ms.assetid: FAAEDAFE-69A8-4092-8301-DB159FD3583D
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUFX_PROPRIETARY_CHARGER, PUFX_PROPRIETARY_CHARGER, PUFX_PROPRIETARY_CHARGER structure pointer [Buses], UFX_PROPRIETARY_CHARGER, UFX_PROPRIETARY_CHARGER structure [Buses], _UFX_PROPRIETARY_CHARGER, buses.ufx_proprietary_charger, ufxproprietarycharger/PUFX_PROPRIETARY_CHARGER, ufxproprietarycharger/UFX_PROPRIETARY_CHARGER"
 ms.topic: struct
 req.header: ufxproprietarycharger.h

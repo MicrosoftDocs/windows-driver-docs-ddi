@@ -6,7 +6,7 @@ description: The UnRegisterAdapterPowerManagement method unregisters the PnP man
 old-location: audio\iportclspnp_unregisteradapterpnpmanagement.htm
 tech.root: audio
 ms.assetid: 7FAA5C88-2846-4C98-A44A-B53A1A7A953C
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IPortClsPnp interface [Audio Devices],UnregisterAdapterPnpManagement method, IPortClsPnp.UnregisterAdapterPnpManagement, IPortClsPnp::UnregisterAdapterPnpManagement, UnregisterAdapterPnpManagement, UnregisterAdapterPnpManagement method [Audio Devices], UnregisterAdapterPnpManagement method [Audio Devices],IPortClsPnp interface, audio.iportclspnp_unregisteradapterpnpmanagement, portcls/IPortClsPnp::UnregisterAdapterPnpManagement
 ms.topic: method
 req.header: portcls.h

@@ -6,7 +6,7 @@ description: Sets the state of the Mute node for the audio device channel.
 old-location: audio\iminiportaudioenginenode_setdevicechannelmute.htm
 tech.root: audio
 ms.assetid: 272B83D4-AACE-419D-9DD7-A1AE1C8A931A
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IMiniportAudioEngineNode interface [Audio Devices],SetDeviceChannelMute method, IMiniportAudioEngineNode.SetDeviceChannelMute, IMiniportAudioEngineNode::SetDeviceChannelMute, SetDeviceChannelMute, SetDeviceChannelMute method [Audio Devices], SetDeviceChannelMute method [Audio Devices],IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_setdevicechannelmute, portcls/IMiniportAudioEngineNode::SetDeviceChannelMute
 ms.topic: method
 req.header: portcls.h

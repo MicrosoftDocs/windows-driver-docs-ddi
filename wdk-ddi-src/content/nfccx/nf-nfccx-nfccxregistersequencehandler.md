@@ -6,7 +6,7 @@ description: Called by the client driver during initialization to register for h
 old-location: nfpdrivers\_nfccxregistersequencehandler.htm
 tech.root: nfpdrivers
 ms.assetid: 30957475-D02B-434D-9FAB-BBCD5732DCA5
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: NfcCxRegisterSequenceHandler, NfcCxRegisterSequenceHandler method [Near-Field Proximity Drivers], nfccx/NfcCxRegisterSequenceHandler, nfpdrivers._nfccxregistersequencehandler
 ms.topic: function
 req.header: nfccx.h

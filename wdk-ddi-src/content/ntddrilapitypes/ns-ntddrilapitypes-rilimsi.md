@@ -6,7 +6,7 @@ description: This structure represents a RILIMSI.
 old-location: netvista\rilimsi.htm
 tech.root: netvista
 ms.assetid: e2dc6a60-b3a6-4b2a-8a6c-aa513ca9b87b
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*LPRILIMSI, RILIMSI, RILIMSI structure [Network Drivers Starting with Windows Vista], netvista.rilimsi, rilapitypes/RILIMSI"
 ms.topic: struct
 req.header: ntddrilapitypes.h

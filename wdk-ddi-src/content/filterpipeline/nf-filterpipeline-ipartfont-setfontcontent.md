@@ -6,7 +6,7 @@ description: The SetFontContent method sets the content of the font.
 old-location: print\ipartfont_setfontcontent.htm
 tech.root: print
 ms.assetid: bd77d32f-97fd-4f80-945d-9fff7553fcc5
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPartFont interface [Print Devices],SetFontContent method, IPartFont.SetFontContent, IPartFont::SetFontContent, SetFontContent, SetFontContent method [Print Devices], SetFontContent method [Print Devices],IPartFont interface, filterpipeline/IPartFont::SetFontContent, filterpipeline_1639cc2b-b1b6-4fa3-997b-3c98e32d2783.xml, print.ipartfont_setfontcontent
 ms.topic: method
 req.header: filterpipeline.h

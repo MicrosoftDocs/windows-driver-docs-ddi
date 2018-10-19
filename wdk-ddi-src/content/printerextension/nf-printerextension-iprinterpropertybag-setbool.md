@@ -6,7 +6,7 @@ description: Writes a specified boolean property value.
 old-location: print\iprinterpropertybag_setbool.htm
 tech.root: print
 ms.assetid: B97C3FE9-0AC8-4147-A394-3344EBBA0B4C
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrinterPropertyBag interface [Print Devices],SetBool method, IPrinterPropertyBag.SetBool, IPrinterPropertyBag::SetBool, SetBool, SetBool method [Print Devices], SetBool method [Print Devices],IPrinterPropertyBag interface, print.iprinterpropertybag_setbool, printerextension/IPrinterPropertyBag::SetBool
 ms.topic: method
 req.header: printerextension.h

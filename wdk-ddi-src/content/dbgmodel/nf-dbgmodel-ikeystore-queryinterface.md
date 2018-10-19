@@ -4,7 +4,7 @@ title: IKeyStore::QueryInterface
 author: windows-driver-content
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: 59ec40a9-117e-4f05-a2df-8a44d0d1f556
-ms.date: 08/13/2018 
+ms.date: 08/13/2018
 ms.topic: method
 ms.keywords: IKeyStore::QueryInterface, QueryInterface, IKeyStore.QueryInterface, IKeyStore::QueryInterface, IKeyStore.QueryInterface
 req.header: dbgmodel.h

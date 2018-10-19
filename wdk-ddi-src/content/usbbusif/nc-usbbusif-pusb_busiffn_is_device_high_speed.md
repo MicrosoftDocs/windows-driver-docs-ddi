@@ -6,7 +6,7 @@ description: The USB_BUSIFFN_IS_DEVICE_HIGH_SPEED routine returns TRUE if the de
 old-location: buses\isdevicehighspeed.htm
 tech.root: usbref
 ms.assetid: 36e0041d-700f-44db-84b6-3745026cb6f7
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: IsDeviceHighSpeed, IsDeviceHighSpeed callback function [Buses], PUSB_BUSIFFN_IS_DEVICE_HIGH_SPEED, USB_BUSIFFN_IS_DEVICE_HIGH_SPEED, USB_BUSIFFN_IS_DEVICE_HIGH_SPEED callback, buses.isdevicehighspeed, usbbusif/IsDeviceHighSpeed, usbinterKR_eaf122ed-eee1-4924-a186-b0474b8c9816.xml
 ms.topic: callback
 req.header: usbbusif.h

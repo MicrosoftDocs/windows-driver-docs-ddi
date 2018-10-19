@@ -6,7 +6,7 @@ description:
 old-location: print\iprintasyncnotify_cancelasynccall.htm
 tech.root: print
 ms.assetid: F5228B4C-B5CC-4F7F-91E6-B5BCED76BF7A
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: CancelAsyncCall, CancelAsyncCall method [Print Devices], CancelAsyncCall method [Print Devices],IPrintAsyncCookie interface, IPrintAsyncCookie interface [Print Devices],CancelAsyncCall method, IPrintAsyncCookie.CancelAsyncCall, IPrintAsyncCookie::CancelAsyncCall, print.iprintasyncnotify_cancelasynccall, prnasntp/IPrintAsyncCookie::CancelAsyncCall
 ms.topic: method
 req.header: prnasntp.h

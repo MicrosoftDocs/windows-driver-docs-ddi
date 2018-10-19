@@ -6,7 +6,7 @@ description: The IPrintOemPrintTicketProvider::CompletePrintCapabilities method 
 old-location: print\iprintoemprintticketprovider_completeprintcapabilities.htm
 tech.root: print
 ms.assetid: 067eca3b-f487-405a-9799-bd62376f9e24
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: CompletePrintCapabilities, CompletePrintCapabilities method [Print Devices], CompletePrintCapabilities method [Print Devices],IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices],CompletePrintCapabilities method, IPrintOemPrintTicketProvider.CompletePrintCapabilities, IPrintOemPrintTicketProvider::CompletePrintCapabilities, prcomoem/IPrintOemPrintTicketProvider::CompletePrintCapabilities, print.iprintoemprintticketprovider_completeprintcapabilities, print_ticket-package_75d63289-6e10-4731-a2b1-16f396f21d62.xml
 ms.topic: method
 req.header: prcomoem.h

@@ -6,7 +6,7 @@ description: This structure is for internal use only.
 old-location: battery\powersourceupdateex.htm
 tech.root: battery
 ms.assetid: FAA39A82-E27E-41BD-9830-03EAE7CFF64F
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX structure [Battery Devices], _POWERSOURCEUPDATEEX, battery.powersourceupdateex, charging/BATTERY_INFORMATION"
 ms.topic: struct
 req.header: charging.h

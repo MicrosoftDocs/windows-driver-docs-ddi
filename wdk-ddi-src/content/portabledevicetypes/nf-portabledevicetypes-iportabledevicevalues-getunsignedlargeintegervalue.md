@@ -6,7 +6,7 @@ description: Retrieves a ULONGLONG value (type VT_UI8) that is specified by a ke
 old-location: wpddk\iportabledevicevalues_getunsignedlargeintegervalue.htm
 tech.root: wpd_dk
 ms.assetid: d7917c06-948e-47bf-bd58-9529e3bf7b7d
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: GetUnsignedLargeIntegerValue, GetUnsignedLargeIntegerValue method, GetUnsignedLargeIntegerValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetUnsignedLargeIntegerValue method, IPortableDeviceValues.GetUnsignedLargeIntegerValue, IPortableDeviceValues::GetUnsignedLargeIntegerValue, IPortableDeviceValuesGetUnsignedLargeIntegerValue, portabledevicetypes/IPortableDeviceValues::GetUnsignedLargeIntegerValue, wpddk.iportabledevicevalues_getunsignedlargeintegervalue
 ms.topic: method
 req.header: portabledevicetypes.h

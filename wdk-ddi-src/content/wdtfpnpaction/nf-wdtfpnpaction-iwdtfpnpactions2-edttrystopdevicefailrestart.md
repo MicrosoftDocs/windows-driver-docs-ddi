@@ -6,7 +6,7 @@ description: Attempts to send an IRP_MN_STOP_DEVICE event to the target device a
 old-location: dtf\iwdtfpnpactions2_edttrystopdevicefailrestart.htm
 tech.root: dtf
 ms.assetid: b205a0a4-a659-47ff-90d5-b1bb58983e36
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: EDTTryStopDeviceFailRestart, EDTTryStopDeviceFailRestart method [Windows Device Testing Framework], EDTTryStopDeviceFailRestart method [Windows Device Testing Framework],IWDTFPNPActions2 interface, IWDTFPNPActions2 interface [Windows Device Testing Framework],EDTTryStopDeviceFailRestart method, IWDTFPNPActions2.EDTTryStopDeviceFailRestart, IWDTFPNPActions2::EDTTryStopDeviceFailRestart, dtf.iwdtfpnpactions2_edttrystopdevicefailrestart, wdtfpnpaction/IWDTFPNPActions2::EDTTryStopDeviceFailRestart
 ms.topic: method
 req.header: wdtfpnpaction.h

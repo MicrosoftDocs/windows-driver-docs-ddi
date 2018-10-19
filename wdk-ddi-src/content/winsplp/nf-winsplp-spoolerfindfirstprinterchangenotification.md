@@ -6,7 +6,7 @@ description:
 old-location: print\spoolerfindfirstprinterchangenotification.htm
 tech.root: print
 ms.assetid: 429A5DF5-46A6-4A41-A77B-4D5743C841DC
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: SpoolerFindFirstPrinterChangeNotification, SpoolerFindFirstPrinterChangeNotification function [Print Devices], print.spoolerfindfirstprinterchangenotification, winsplp/SpoolerFindFirstPrinterChangeNotification
 ms.topic: function
 req.header: winsplp.h

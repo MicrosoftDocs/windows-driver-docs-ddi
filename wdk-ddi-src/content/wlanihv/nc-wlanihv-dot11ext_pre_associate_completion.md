@@ -6,7 +6,7 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extpreassociatecompletion.htm
 tech.root: netvista
 ms.assetid: e617c0ac-0f02-4e15-ba11-81de6331b83d
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: DOT11EXT_PRE_ASSOCIATE_COMPLETION, Dot11ExtPreAssociateCompletion, Dot11ExtPreAssociateCompletion callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_aca82f29-a84e-48e3-b239-754b5b49d99c.xml, netvista.dot11extpreassociatecompletion, wlanihv/Dot11ExtPreAssociateCompletion
 ms.topic: callback
 req.header: wlanihv.h

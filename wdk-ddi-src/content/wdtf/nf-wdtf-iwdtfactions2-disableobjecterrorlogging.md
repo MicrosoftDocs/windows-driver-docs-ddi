@@ -6,7 +6,7 @@ description: Disable object error logging for all actions in the collection.
 old-location: dtf\iwdtfactions2_disableobjecterrorlogging.htm
 tech.root: dtf
 ms.assetid: 9c1c1bc2-18fe-49b8-a9cc-a53c5dcf0955
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: DisableObjectErrorLogging, DisableObjectErrorLogging method [Windows Device Testing Framework], DisableObjectErrorLogging method [Windows Device Testing Framework],IWDTFActions2 interface, IWDTFActions2 interface [Windows Device Testing Framework],DisableObjectErrorLogging method, IWDTFActions2.DisableObjectErrorLogging, IWDTFActions2::DisableObjectErrorLogging, dtf.iwdtfactions2_disableobjecterrorlogging, wdtf/IWDTFActions2::DisableObjectErrorLogging
 ms.topic: method
 req.header: wdtf.h

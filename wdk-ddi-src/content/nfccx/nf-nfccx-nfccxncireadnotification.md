@@ -6,7 +6,7 @@ description: Called by the client driver when a read packet is available.
 old-location: nfpdrivers\_nfccxncireadnotification.htm
 tech.root: nfpdrivers
 ms.assetid: 0D2FB16D-ABBC-428F-95D4-4B17E262D115
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: NfcCxNciReadNotification, NfcCxNciReadNotification method [Near-Field Proximity Drivers], nfccx/NfcCxNciReadNotification, nfpdrivers._nfccxncireadnotification
 ms.topic: function
 req.header: nfccx.h

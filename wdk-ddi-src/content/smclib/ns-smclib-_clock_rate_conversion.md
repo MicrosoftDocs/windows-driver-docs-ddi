@@ -6,7 +6,7 @@ description: The CLOCK_RATE_CONVERSION structure holds a value that determines t
 old-location: smartcrd\clock_rate_conversion.htm
 tech.root: smartcrd
 ms.assetid: c3011034-c77c-4699-9c04-b1163faa79fc
-ms.date: 2/22/2018
+ms.date: 02/22/2018
 ms.keywords: "*PCLOCK_RATE_CONVERSION, CLOCK_RATE_CONVERSION, CLOCK_RATE_CONVERSION structure [Smart Card Reader Devices], PCLOCK_RATE_CONVERSION, PCLOCK_RATE_CONVERSION structure pointer [Smart Card Reader Devices], _CLOCK_RATE_CONVERSION, scstruct_260d5a02-28d8-4ef4-ac2a-e81d3ac2814a.xml, smartcrd.clock_rate_conversion, smclib/CLOCK_RATE_CONVERSION, smclib/PCLOCK_RATE_CONVERSION"
 ms.topic: struct
 req.header: smclib.h

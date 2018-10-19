@@ -6,7 +6,7 @@ description: The IPrintOemUIMXDC::AdjustImageCompression method allows an XPS fi
 old-location: print\iprintoemuimxdc_adjustimagecompression.htm
 tech.root: print
 ms.assetid: d9606c9b-4a47-4e83-ad8a-ef82e2c70de3
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: AdjustImageCompression, AdjustImageCompression method [Print Devices], AdjustImageCompression method [Print Devices],IPrintOemUIMXDC interface, IPrintOemUIMXDC interface [Print Devices],AdjustImageCompression method, IPrintOemUIMXDC.AdjustImageCompression, IPrintOemUIMXDC::AdjustImageCompression, prcomoem/IPrintOemUIMXDC::AdjustImageCompression, print.iprintoemuimxdc_adjustimagecompression, print_unidrv-pscript_ui_a4a6182b-9471-473a-9c16-15f56dcddda5.xml
 ms.topic: method
 req.header: prcomoem.h

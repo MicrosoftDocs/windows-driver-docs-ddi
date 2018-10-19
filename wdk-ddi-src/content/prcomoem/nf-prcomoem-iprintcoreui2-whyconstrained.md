@@ -6,7 +6,7 @@ description: The IPrintCoreUI2::WhyConstrained method determines why the specifi
 old-location: print\iprintcoreui2_whyconstrained.htm
 tech.root: print
 ms.assetid: 3161620e-6155-4587-b978-599d526d792c
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintCoreUI2 interface [Print Devices],WhyConstrained method, IPrintCoreUI2.WhyConstrained, IPrintCoreUI2::WhyConstrained, WhyConstrained, WhyConstrained method [Print Devices], WhyConstrained method [Print Devices],IPrintCoreUI2 interface, prcomoem/IPrintCoreUI2::WhyConstrained, print.iprintcoreui2_whyconstrained, print_unidrv-pscript_ui_4ab02889-5bb1-412e-8bc3-2b0f5bb63088.xml
 ms.topic: method
 req.header: prcomoem.h

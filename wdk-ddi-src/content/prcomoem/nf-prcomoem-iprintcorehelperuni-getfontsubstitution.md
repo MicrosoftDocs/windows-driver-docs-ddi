@@ -6,7 +6,7 @@ description: The IPrintCoreHelperUni::GetFontSubstitution method indicates which
 old-location: print\iprintcorehelperuni_getfontsubstitution.htm
 tech.root: print
 ms.assetid: f11b3b85-d01b-4133-9279-bff0001e04f9
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetFontSubstitution, GetFontSubstitution method [Print Devices], GetFontSubstitution method [Print Devices],IPrintCoreHelperUni interface, IPrintCoreHelperUni interface [Print Devices],GetFontSubstitution method, IPrintCoreHelperUni.GetFontSubstitution, IPrintCoreHelperUni::GetFontSubstitution, prcomoem/IPrintCoreHelperUni::GetFontSubstitution, print.iprintcorehelperuni_getfontsubstitution, print_unidrv-pscript_allplugins_9ce6a5aa-84f7-4193-8dcc-1e4a12b91b19.xml
 ms.topic: method
 req.header: prcomoem.h

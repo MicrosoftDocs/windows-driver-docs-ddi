@@ -6,7 +6,7 @@ description: Stores the value of the VBUS_VOLTAGE_ALARM_LO_CFG Register. This st
 old-location: buses\ucmtcpci_port_controller_set_message_header_info_in_params.htm
 tech.root: usbref
 ms.assetid: 1efccde1-1e96-4a38-aa5a-5b386ad10e51
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUCMTCPCI_PORT_CONTROLLER_SET_MESSAGE_HEADER_INFO_IN_PARAMS, PUCMTCPCI_PORT_CONTROLLER_SET_MESSAGE_HEADER_INFO_IN_PARAMS, PUCMTCPCI_PORT_CONTROLLER_SET_MESSAGE_HEADER_INFO_IN_PARAMS structure pointer [Buses], UCMTCPCI_PORT_CONTROLLER_SET_MESSAGE_HEADER_INFO_IN_PARAMS, UCMTCPCI_PORT_CONTROLLER_SET_MESSAGE_HEADER_INFO_IN_PARAMS structure [Buses], _UCMTCPCI_PORT_CONTROLLER_SET_MESSAGE_HEADER_INFO_IN_PARAMS, buses.ucmtcpci_port_controller_set_message_header_info_in_params, ucmtcpciportcontrollerrequests/PUCMTCPCI_PORT_CONTROLLER_SET_MESSAGE_HEADER_INFO_IN_PARAMS, ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_SET_MESSAGE_HEADER_INFO_IN_PARAMS"
 ms.topic: struct
 req.header: ucmtcpciportcontrollerrequests.h

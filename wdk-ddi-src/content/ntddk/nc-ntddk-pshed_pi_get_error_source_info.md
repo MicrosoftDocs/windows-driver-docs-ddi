@@ -6,7 +6,7 @@ description: A PSHED plug-in's GetErrorSourceInfo callback function returns an e
 old-location: whea\geterrorsourceinfo.htm
 tech.root: whea
 ms.assetid: 8ede391a-acda-4540-a8bb-1b232695d632
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: GetErrorSourceInfo, GetErrorSourceInfo callback function [WHEA Drivers and Applications], PSHED_PI_GET_ERROR_SOURCE_INFO, PSHED_PI_GET_ERROR_SOURCE_INFO callback, ntddk/GetErrorSourceInfo, whea.geterrorsourceinfo, whearef_977e9d78-23ec-408f-ba18-a4a96f9a8e62.xml
 ms.topic: callback
 req.header: ntddk.h

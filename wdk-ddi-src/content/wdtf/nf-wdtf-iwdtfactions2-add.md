@@ -6,7 +6,7 @@ description: Add a single action to the collection.
 old-location: dtf\iwdtfactions2_add.htm
 tech.root: dtf
 ms.assetid: a6361d17-419f-4e34-b36f-5258dd34cc88
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: Add, Add method [Windows Device Testing Framework], Add method [Windows Device Testing Framework],IWDTFActions2 interface, IWDTFActions2 interface [Windows Device Testing Framework],Add method, IWDTFActions2.Add, IWDTFActions2::Add, dtf.iwdtfactions2_add, wdtf/IWDTFActions2::Add
 ms.topic: method
 req.header: wdtf.h

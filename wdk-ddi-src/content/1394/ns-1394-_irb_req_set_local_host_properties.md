@@ -6,7 +6,7 @@ description: This structure contains the fields required to carry out a SetLocal
 old-location: ieee\irb_req_set_local_host_properties.htm
 tech.root: IEEE
 ms.assetid: 59C1BBEF-ECC8-4852-B2E2-75751B5B25B2
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_SET_LOCAL_HOST_PROPERTIES, IEEE.irb_req_set_local_host_properties, IRB_REQ_SET_LOCAL_HOST_PROPERTIES, IRB_REQ_SET_LOCAL_HOST_PROPERTIES structure [Buses], _IRB_REQ_SET_LOCAL_HOST_PROPERTIES
 ms.topic: struct
 req.header: 1394.h

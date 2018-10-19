@@ -6,7 +6,7 @@ description: This structure contains the fields required to carry out a IsochDet
 old-location: ieee\irb_req_isoch_detach_buffers.htm
 tech.root: IEEE
 ms.assetid: 60ED83BD-4AFA-432F-B918-9006815C8D47
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_ISOCH_DETACH_BUFFERS, IEEE.irb_req_isoch_detach_buffers, IRB_REQ_ISOCH_DETACH_BUFFERS, IRB_REQ_ISOCH_DETACH_BUFFERS structure [Buses], _IRB_REQ_ISOCH_DETACH_BUFFERS
 ms.topic: struct
 req.header: 1394.h

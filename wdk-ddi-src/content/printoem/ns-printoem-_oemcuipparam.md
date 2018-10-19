@@ -6,7 +6,7 @@ description: The OEMCUIPPARAM structure is used as an input parameter to a user 
 old-location: print\oemcuipparam.htm
 tech.root: print
 ms.assetid: 178b635c-0916-44f5-87a3-a2766601dcab
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*POEMCUIPPARAM, OEMCUIPPARAM, OEMCUIPPARAM structure [Print Devices], _OEMCUIPPARAM, print.oemcuipparam, print_unidrv-pscript_ui_6ea92d10-0152-4bb2-a79b-0f6c29507e8c.xml, printoem/OEMCUIPPARAM"
 ms.topic: struct
 req.header: printoem.h

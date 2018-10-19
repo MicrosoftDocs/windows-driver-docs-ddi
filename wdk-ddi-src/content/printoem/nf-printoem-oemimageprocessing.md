@@ -6,7 +6,7 @@ description: OEMImageProcessing function
 old-location: print\oemimageprocessing.htm
 tech.root: print
 ms.assetid: 965e17bc-2a38-4caa-a0dd-41ee1e1198f0
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: OEMImageProcessing, OEMImageProcessing function [Print Devices], print.oemimageprocessing, print_obsoletefunctions_c65011ae-a69c-4cbe-88a8-13847401c7df.xml, printoem/OEMImageProcessing
 ms.topic: function
 req.header: printoem.h

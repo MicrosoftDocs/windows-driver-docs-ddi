@@ -6,7 +6,7 @@ description: This structure contains authentication information retrieved from t
 old-location: pos\msr_retrieve_device_authentication_data.htm
 tech.root: pos
 ms.assetid: e355ca5b-d396-4748-a0ec-b12294a6dcfa
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: "*PMSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA structure, PMSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, PMSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA structure pointer, _MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, pointofservicedriverinterface/MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, pointofservicedriverinterface/PMSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, pos.msr_retrieve_device_authentication_data"
 ms.topic: struct
 req.header: pointofservicedriverinterface.h

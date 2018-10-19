@@ -6,7 +6,7 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_security_packet_header.htm
 tech.root: netvista
 ms.assetid: 3a880137-58a6-4b89-8384-a92c37f289a2
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_SECURITY_PACKET_HEADER, DOT11_SECURITY_PACKET_HEADER, DOT11_SECURITY_PACKET_HEADER structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_b694e370-23cc-4a3c-bb9f-deda406dd5c6.xml, PDOT11_SECURITY_PACKET_HEADER, PDOT11_SECURITY_PACKET_HEADER structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SECURITY_PACKET_HEADER, netvista.dot11_security_packet_header, wlclient/DOT11_SECURITY_PACKET_HEADER, wlclient/PDOT11_SECURITY_PACKET_HEADER"
 ms.topic: struct
 req.header: wlclient.h

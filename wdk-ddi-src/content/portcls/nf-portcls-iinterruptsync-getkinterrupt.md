@@ -6,7 +6,7 @@ description: The GetKInterrupt method gets a WDM interrupt object from a port-cl
 old-location: audio\iinterruptsync_getkinterrupt.htm
 tech.root: audio
 ms.assetid: 045c509b-852d-405c-9615-8a2f351bf8c7
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: GetKInterrupt, GetKInterrupt method [Audio Devices], GetKInterrupt method [Audio Devices],IInterruptSync interface, IInterruptSync interface [Audio Devices],GetKInterrupt method, IInterruptSync.GetKInterrupt, IInterruptSync::GetKInterrupt, audio.iinterruptsync_getkinterrupt, audmp-routines_7782adef-dc02-4876-bd48-812f8b3e58da.xml, portcls/IInterruptSync::GetKInterrupt
 ms.topic: method
 req.header: portcls.h

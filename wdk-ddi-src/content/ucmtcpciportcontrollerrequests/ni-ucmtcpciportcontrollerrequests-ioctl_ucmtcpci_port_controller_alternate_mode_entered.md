@@ -6,7 +6,7 @@ description: Notifies the client driver that an alternate mode is entered so tha
 old-location: buses\ioctl_ucmtcpci_port_controller_alternate_mode_entered.htm
 tech.root: usbref
 ms.assetid: 6C9CECFD-E727-4586-BD86-6FC9272A37D0
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_ENTERED, IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_ENTERED control, IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_ENTERED control code [Buses], buses.ioctl_ucmtcpci_port_controller_alternate_mode_entered, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_ENTERED
 ms.topic: ioctl
 req.header: ucmtcpciportcontrollerrequests.h

@@ -6,7 +6,7 @@ description: The SYNTH_STATS structure specifies synthesizer performance statist
 old-location: audio\synth_stats.htm
 tech.root: audio
 ms.assetid: bbe3552b-0289-4f7f-bdaa-8a6437594247
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: "*PSYNTH_STATS, PSYNTH_STATS, PSYNTH_STATS structure pointer [Audio Devices], SYNTH_STATS, SYNTH_STATS structure [Audio Devices], _SYNTH_STATS, aud-prop_04ed015d-56c6-4275-8025-66e67ee6ce87.xml, audio.synth_stats, dmusprop/PSYNTH_STATS, dmusprop/SYNTH_STATS"
 ms.topic: struct
 req.header: dmusprop.h

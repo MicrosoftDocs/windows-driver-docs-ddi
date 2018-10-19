@@ -6,7 +6,7 @@ description: The IPrintOemPS::Command method is used by rendering plug-ins for t
 old-location: print\iprintoemps_command.htm
 tech.root: print
 ms.assetid: b79dd6e7-361c-4051-9e7c-18c64d459a70
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: Command, Command method [Print Devices], Command method [Print Devices],IPrintOemPS interface, IPrintOemPS interface [Print Devices],Command method, IPrintOemPS.Command, IPrintOemPS::Command, prcomoem/IPrintOemPS::Command, print.iprintoemps_command, print_unidrv-pscript_rendering_ec087427-976b-4f71-9db9-a0c08f214907.xml
 ms.topic: method
 req.header: prcomoem.h

@@ -4,7 +4,7 @@ title: _ACPI_PLD_HORIZONTAL_POSITION enumeration
 author: windows-driver-content
 description: Describes horizontal position bits 72:73.
 ms.assetid: dc0fba3b-758b-4453-8009-3e1311c3ea87
-ms.date: 10/2/2018
+ms.date: 10/02/2018
 ms.topic: enum
 ms.keywords: _ACPI_PLD_HORIZONTAL_POSITION, ACPI_PLD_HORIZONTAL_POSITION, *PACPI_PLD_HORIZONTAL_POSITION, AcpiPldHPos
 req.header: acpitabl.h

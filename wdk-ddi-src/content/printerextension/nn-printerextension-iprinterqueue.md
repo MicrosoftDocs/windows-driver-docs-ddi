@@ -6,7 +6,7 @@ description: Represents a single printer queue.
 old-location: print\iprinterqueue_interface.htm
 tech.root: print
 ms.assetid: 2DB57234-E783-4C6B-A743-F1E9F7D34D97
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrinterQueue, IPrinterQueue interface [Print Devices], IPrinterQueue interface [Print Devices],described, print.iprinterqueue_interface, printerextension/IPrinterQueue
 ms.topic: interface
 req.header: printerextension.h

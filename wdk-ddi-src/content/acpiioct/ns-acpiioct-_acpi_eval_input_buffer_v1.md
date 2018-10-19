@@ -6,7 +6,7 @@ description: The ACPI_EVAL_INPUT_BUFFER structure is used as input to an IOCTL_A
 old-location: acpi\acpi_eval_input_buffer.htm
 tech.root: acpi
 ms.assetid: a911fab9-516f-4ac5-ae33-1b6e218f9349
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PACPI_EVAL_INPUT_BUFFER, *PACPI_EVAL_INPUT_BUFFER_V1, ACPI_EVAL_INPUT_BUFFER, ACPI_EVAL_INPUT_BUFFER_V1, ACPI_EVAL_INPUT_BUFFER_V1 structure [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_V1, PACPI_EVAL_INPUT_BUFFER_V1 structure pointer [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_V1, acpi-meth-eval-ref_fda162bd-f908-46bf-a5a9-66daeb6b6aaf.xml, acpi.acpi_eval_input_buffer, acpiioct/ACPI_EVAL_INPUT_BUFFER_V1, acpiioct/PACPI_EVAL_INPUT_BUFFER_V1"
 ms.topic: struct
 req.header: acpiioct.h

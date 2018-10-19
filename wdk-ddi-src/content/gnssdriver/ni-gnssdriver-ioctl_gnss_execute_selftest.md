@@ -6,7 +6,7 @@ description: The IOCTL_GNSS_EXECUTE_SELFTEST control code is used by the GNSS ma
 old-location: gnss\ioctl_gnss_execute_selftest.htm
 tech.root: gnss
 ms.assetid: EAD10523-FFA0-4B08-BCBD-A20C90A1B8F6
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_GNSS_EXECUTE_SELFTEST, IOCTL_GNSS_EXECUTE_SELFTEST control, IOCTL_GNSS_EXECUTE_SELFTEST control code [Sensor Devices], gnss.ioctl_gnss_execute_selftest, gnssdriver/IOCTL_GNSS_EXECUTE_SELFTEST
 ms.topic: ioctl
 req.header: gnssdriver.h

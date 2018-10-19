@@ -6,7 +6,7 @@ description: The IOCTL_NFCSE_GET_NFCC_CAPABILITIES control code returns informat
 old-location: nfpdrivers\ioctl_nfcse_get_nfcc_capabilities.htm
 tech.root: nfpdrivers
 ms.assetid: 4323FEDF-A7D0-4B67-BC3D-ECAA7AD1CC08
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_NFCSE_GET_NFCC_CAPABILITIES, IOCTL_NFCSE_GET_NFCC_CAPABILITIES control, IOCTL_NFCSE_GET_NFCC_CAPABILITIES control code [Near-Field Proximity Drivers], _IOCTL_NFCSE_GET_NFCC_CAPABILITIES, nfcsedev/IOCTL_NFCSE_GET_NFCC_CAPABILITIES, nfpdrivers.ioctl_nfcse_get_nfcc_capabilities
 ms.topic: ioctl
 req.header: nfcsedev.h

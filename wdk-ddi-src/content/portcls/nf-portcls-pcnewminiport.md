@@ -6,7 +6,7 @@ description: The PcNewMiniport function creates an instance of one of the system
 old-location: audio\pcnewminiport.htm
 tech.root: audio
 ms.assetid: 15046dc7-42ae-4ebe-acb9-2b0bbad1e833
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: PcNewMiniport, PcNewMiniport function [Audio Devices], audio.pcnewminiport, audpc-routines_d0b1d8e9-e4e0-44de-8854-a1b18eac9ff5.xml, portcls/PcNewMiniport
 ms.topic: function
 req.header: portcls.h

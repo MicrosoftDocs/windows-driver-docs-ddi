@@ -6,7 +6,7 @@ description: The CLIENT_EnableInterrupt event callback function enables interrup
 old-location: gpio\client_enableinterrupt.htm
 tech.root: GPIO
 ms.assetid: BCCD3046-A7CE-4CD7-82A5-78F0A3684BA4
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: CLIENT_EnableInterrupt, CLIENT_EnableInterrupt callback, CLIENT_EnableInterrupt callback function [Parallel Ports], GPIO.client_enableinterrupt, GPIO_CLIENT_ENABLE_INTERRUPT, gpioclx/CLIENT_EnableInterrupt
 ms.topic: callback
 req.header: gpioclx.h

@@ -4,7 +4,7 @@ title: CVEC3D::operator-=
 author: windows-driver-content
 description: Assignment operator -.
 ms.assetid: a2247eea-593e-4246-970d-bab44617fa9b
-ms.date: 08/01/18
+ms.date: 08/01/2018
 ms.topic: method
 tech.root: sensors
 ms.keywords: CVEC3D::operator-=, operator-=, CVEC3D.operator-=, CVEC3D::operator-=, CVEC3D.operator-=

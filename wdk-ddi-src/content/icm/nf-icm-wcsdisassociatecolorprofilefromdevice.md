@@ -6,7 +6,7 @@ description: The WcsDisassociateColorProfileFromDevice function disassociates a 
 old-location: print\wcsdisassociatecolorprofilefromdevice.htm
 tech.root: print
 ms.assetid: d2ab6fe4-131a-4952-864c-7135026cb25c
-ms.date: 8/20/2018
+ms.date: 08/20/2018
 ms.keywords: WcsDisassociateColorProfileFromDevice, WcsDisassociateColorProfileFromDevice function [Print Devices], colorfnc_d8888a37-8a72-41a4-8ca6-29326634d9b2.xml, icm/WcsDisassociateColorProfileFromDevice, print.wcsdisassociatecolorprofilefromdevice
 ms.topic: function
 req.header: icm.h

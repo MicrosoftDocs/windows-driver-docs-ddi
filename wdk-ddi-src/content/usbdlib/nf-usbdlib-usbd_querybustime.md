@@ -6,7 +6,7 @@ description: The USBD_QueryBusTime routine has been deprecated in Windows XP and
 old-location: buses\usbd_querybustime.htm
 tech.root: usbref
 ms.assetid: ae59daf6-da7b-4b04-bb5c-dfd353b937a0
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: USBD_QueryBusTime, USBD_QueryBusTime routine [Buses], buses.usbd_querybustime, usbdlib/USBD_QueryBusTime, usbfunc_2911ce15-3106-4c66-95c8-52ff57318131.xml
 ms.topic: function
 req.header: usbdlib.h

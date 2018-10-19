@@ -6,7 +6,7 @@ description: Called by the client driver after a WDF device has been created dur
 old-location: nfpdrivers\_nfccxdevicedeinitialize.htm
 tech.root: nfpdrivers
 ms.assetid: 1E1AC024-D628-4E31-80EF-8E929B8449FE
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: NfcCxDeviceDeinitialize, NfcCxDeviceDeinitialize method [Near-Field Proximity Drivers], nfccx/NfcCxDeviceDeinitialize, nfpdrivers._nfccxdevicedeinitialize
 ms.topic: function
 req.header: nfccx.h

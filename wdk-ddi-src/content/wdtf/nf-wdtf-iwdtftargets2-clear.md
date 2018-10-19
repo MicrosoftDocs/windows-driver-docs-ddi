@@ -6,7 +6,7 @@ description: Removes all items from the collection.
 old-location: dtf\iwdtftargets2_clear.htm
 tech.root: dtf
 ms.assetid: 4fe37240-7cef-4bfb-91be-49a0bca2fa8f
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: Clear, Clear method [Windows Device Testing Framework], Clear method [Windows Device Testing Framework],IWDTFTargets2 interface, IWDTFTargets2 interface [Windows Device Testing Framework],Clear method, IWDTFTargets2.Clear, IWDTFTargets2::Clear, Microsoft.WDTF.IWDTFTargets2.Clear, Microsoft::WDTF::IWDTFTargets2::Clear, dtf.iwdtftargets2_clear, wdtf/IWDTFTargets2::Clear
 ms.topic: method
 req.header: wdtf.h

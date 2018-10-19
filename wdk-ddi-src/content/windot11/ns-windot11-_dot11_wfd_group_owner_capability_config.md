@@ -6,7 +6,7 @@ description: the DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG structure is included w
 old-location: netvista\_dot11_wfd_group_owner_capability_config.htm
 tech.root: netvista
 ms.assetid: 6114799B-D0AC-421A-9F02-EED9A4391C03
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, PDOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, netvista._dot11_wfd_group_owner_capability_config, windot11/DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, windot11/PDOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG"
 ms.topic: struct
 req.header: windot11.h

@@ -6,7 +6,7 @@ description: The PCNODE_DESCRIPTOR structure describes a node in the filter that
 old-location: audio\pcnode_descriptor.htm
 tech.root: audio
 ms.assetid: e83051ca-07fa-439d-8b0f-cbe6d84679a7
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: "*PPCNODE_DESCRIPTOR, PCNODE_DESCRIPTOR, PCNODE_DESCRIPTOR structure [Audio Devices], PPCNODE_DESCRIPTOR, PPCNODE_DESCRIPTOR structure pointer [Audio Devices], audio.pcnode_descriptor, audpc-struct_275973f3-8db9-4b2c-ad30-e375b5e69656.xml, portcls/PCNODE_DESCRIPTOR, portcls/PPCNODE_DESCRIPTOR"
 ms.topic: struct
 req.header: portcls.h

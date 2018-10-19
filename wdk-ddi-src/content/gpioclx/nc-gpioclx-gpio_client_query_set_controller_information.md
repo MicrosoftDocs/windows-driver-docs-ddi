@@ -6,7 +6,7 @@ description: The CLIENT_QuerySetControllerInformation event callback function qu
 old-location: gpio\client_querysetcontrollerinformation.htm
 tech.root: GPIO
 ms.assetid: 898AE09B-2C92-4229-9A86-901CDA98CFAA
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: CLIENT_QuerySetControllerInformation, CLIENT_QuerySetControllerInformation callback, CLIENT_QuerySetControllerInformation callback function [Parallel Ports], GPIO.client_querysetcontrollerinformation, GPIO_CLIENT_QUERY_SET_CONTROLLER_INFORMATION, gpioclx/CLIENT_QuerySetControllerInformation
 ms.topic: callback
 req.header: gpioclx.h

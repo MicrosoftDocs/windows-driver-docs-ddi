@@ -6,7 +6,7 @@ description: The EXpsJobConsumption enumeration describes job consumption update
 old-location: print\expsjobconsumption.htm
 tech.root: print
 ms.assetid: 9fab1cba-fe67-4654-ae33-3de41f0427f7
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: EXpsJobConsumption, EXpsJobConsumption enumeration [Print Devices], XpsJob_DocumentSequenceAdded, XpsJob_FixedDocumentAdded, XpsJob_FixedPageAdded, __MIDL___MIDL_itf_filterpipeline_0000_0000_0003, filterpipeline/EXpsJobConsumption, filterpipeline/XpsJob_DocumentSequenceAdded, filterpipeline/XpsJob_FixedDocumentAdded, filterpipeline/XpsJob_FixedPageAdded, filterpipeline_67998379-96d5-4e6f-abc3-602526b12276.xml, print.expsjobconsumption
 ms.topic: enum
 req.header: filterpipeline.h

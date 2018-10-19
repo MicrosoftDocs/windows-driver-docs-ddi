@@ -4,7 +4,7 @@ title: IModelPropertyAccessor::GetValue
 author: windows-driver-content
 description: The GetValue method is the getter for the property accessor. It is called whenever a client wishes to fetch the underlying value of the property.
 ms.assetid: ac405c3d-b005-4173-8b29-dedc048db1b3
-ms.date: 08/13/2018 
+ms.date: 08/13/2018
 ms.topic: method
 ms.keywords: IModelPropertyAccessor::GetValue, GetValue, IModelPropertyAccessor.GetValue, IModelPropertyAccessor::GetValue, IModelPropertyAccessor.GetValue
 req.header: dbgmodel.h

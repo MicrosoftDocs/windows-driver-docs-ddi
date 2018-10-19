@@ -6,7 +6,7 @@ description: The PcUnregisterIoTimeout function unregisters a driver-supplied I/
 old-location: audio\pcunregisteriotimeout.htm
 tech.root: audio
 ms.assetid: 4266c775-a2e9-46f0-91ad-6f6cce06bea0
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: PcUnregisterIoTimeout, PcUnregisterIoTimeout function [Audio Devices], audio.pcunregisteriotimeout, audpc-routines_cb67c1bb-c5ad-4118-bdff-906735214653.xml, portcls/PcUnregisterIoTimeout
 ms.topic: function
 req.header: portcls.h

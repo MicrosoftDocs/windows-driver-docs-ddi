@@ -4,7 +4,7 @@ title: _ACPI_PLD_EDGE enumeration
 author: windows-driver-content
 description: Describes joint edge bits 10:12,24:26.
 ms.assetid: b9c6e9e2-d625-4567-85d1-7f4cbac30e83
-ms.date: 10/2/2018
+ms.date: 10/02/2018
 ms.topic: enum
 ms.keywords: _ACPI_PLD_EDGE, ACPI_PLD_EDGE, *PACPI_PLD_EDGE, 
 req.header: acpitabl.h

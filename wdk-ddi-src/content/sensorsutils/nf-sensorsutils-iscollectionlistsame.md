@@ -4,7 +4,7 @@ title: IsCollectionListSame function
 author: windows-driver-content
 description: This routine compares two collection lists to see if they are the same.
 ms.assetid: 5bbf7dfc-b18a-4d4e-9297-4b1ffdcc1d12
-ms.date: 08/08/18
+ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
 ms.keywords: IsCollectionListSame

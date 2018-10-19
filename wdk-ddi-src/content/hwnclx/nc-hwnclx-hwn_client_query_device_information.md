@@ -6,7 +6,7 @@ description: Implemented by the client driver to retrieve hardware notification 
 old-location: gpiobtn\hwn_client_query_device_information.htm
 tech.root: gpiobtn
 ms.assetid: e67f0384-79a8-4040-aab4-bf5b865ad989
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: HWN_CLIENT_QUERY_DEVICE_INFORMATION, HwnClientQueryDeviceInformation, HwnClientQueryDeviceInformation callback function, PHWN_CLIENT_QUERY_DEVICE_INFORMATION, PHWN_CLIENT_QUERY_DEVICE_INFORMATION callback function pointer, gpiobtn.hwn_client_query_device_information, hwnclx/HwnClientQueryDeviceInformation
 ms.topic: callback
 req.header: hwnclx.h

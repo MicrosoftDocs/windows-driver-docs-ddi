@@ -6,7 +6,7 @@ description: This structure defines a container for one or more BranchOfficeJobD
 old-location: print\branchofficejobdatacontainer.htm
 tech.root: print
 ms.assetid: 5C6D2FFC-DBFF-4C44-8757-ED87593A584F
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*LPBranchOfficeJobDataContainer, *PBranchOfficeJobDataContainer, BranchOfficeJobDataContainer, BranchOfficeJobDataContainer structure [Print Devices], LPBranchOfficeJobDataContainer, LPBranchOfficeJobDataContainer structure pointer [Print Devices], PBranchOfficeJobDataContainer, PBranchOfficeJobDataContainer structure pointer [Print Devices], print.branchofficejobdatacontainer, winsplp/BranchOfficeJobDataContainer, winsplp/LPBranchOfficeJobDataContainer, winsplp/PBranchOfficeJobDataContainer"
 ms.topic: struct
 req.header: winsplp.h

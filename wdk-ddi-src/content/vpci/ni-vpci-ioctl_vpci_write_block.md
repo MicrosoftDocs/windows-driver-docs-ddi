@@ -6,7 +6,7 @@ description: The driver for a PCI Express (PCIe) virtual function (VF) issues an
 old-location: pci\ioctl_vpci_write_block.htm
 tech.root: PCI
 ms.assetid: 5214053E-28AB-4728-9F4F-6705F8F56AC7
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: IOCTL_VPCI_WRITE_BLOCK, IOCTL_VPCI_WRITE_BLOCK control code, PCI.ioctl_vpci_write_block, vpci/IOCTL_VPCI_WRITE_BLOCK
 ms.topic: ioctl
 req.header: vpci.h

@@ -6,7 +6,7 @@ description: The CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,FLOAT,FLOAT,F
 old-location: image\cwiaupropertylist_setvalidvalues_float__range_.htm
 tech.root: image
 ms.assetid: 4234ce4a-5b9d-47a7-b00d-e278635ee93a
-ms.date: 9/7/2018
+ms.date: 09/07/2018
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(INT  ,FLOAT    ,FLOAT    ,FLOAT    ,FLOAT    ,FLOAT    ), CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, SetValidValues(FLOAT,(CWiauPropertyList), image.cwiaupropertylist_setvalidvalues_float__range_, wiauFncs_f8694591-e6dc-4d9a-b7dc-ab09a600c238.xml, wiautil/CWiauPropertyList::SetValidValues
 ms.topic: method
 req.header: wiautil.h

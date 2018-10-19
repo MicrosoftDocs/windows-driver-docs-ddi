@@ -6,7 +6,7 @@ description: The input and output buffer for the IOCTL_USB_START_TRACKING_FOR_TI
 old-location: buses\usb_start_tracking_for_time_sync_information.htm
 tech.root: usbref
 ms.assetid: 2C82743C-2675-4196-839D-885EE17B2A7A
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSB_START_TRACKING_FOR_TIME_SYNC_INFORMATION, PUSB_START_TRACKING_FOR_TIME_SYNC_INFORMATION, PUSB_START_TRACKING_FOR_TIME_SYNC_INFORMATION structure pointer [Buses], USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION, USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION structure [Buses], _USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION, buses.usb_start_tracking_for_time_sync_information, usbioctl/PUSB_START_TRACKING_FOR_TIME_SYNC_INFORMATION, usbioctl/USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION"
 ms.topic: struct
 req.header: usbioctl.h

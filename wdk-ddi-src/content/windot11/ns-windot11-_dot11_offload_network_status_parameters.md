@@ -6,7 +6,7 @@ description: The DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS structure indicates the
 old-location: netvista\dot11_offload_network_status_parameters.htm
 tech.root: netvista
 ms.assetid: 4A911BFF-5515-4E51-953D-86CECA123DA0
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, PDOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, netvista.dot11_offload_network_status_parameters, windot11/DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, windot11/PDOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS"
 ms.topic: struct
 req.header: windot11.h

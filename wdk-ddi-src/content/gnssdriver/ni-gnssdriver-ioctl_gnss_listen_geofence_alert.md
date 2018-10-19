@@ -6,7 +6,7 @@ description: The IOCTL_GNSS_LISTEN_GEOFENCE_ALERT control code is used to start 
 old-location: gnss\ioctl_gnss_listen_geofence_alert.htm
 tech.root: gnss
 ms.assetid: 5803A28E-BEBD-4E0D-B8D6-AFE34881C9F5
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_GNSS_LISTEN_GEOFENCE_ALERT, IOCTL_GNSS_LISTEN_GEOFENCE_ALERT control, IOCTL_GNSS_LISTEN_GEOFENCE_ALERT control code [Sensor Devices], gnss.ioctl_gnss_listen_geofence_alert, gnssdriver/IOCTL_GNSS_LISTEN_GEOFENCE_ALERT
 ms.topic: ioctl
 req.header: gnssdriver.h

@@ -6,7 +6,7 @@ description:
 old-location: print\iprintasyncnotify_createprintasyncnotifyregistration.htm
 tech.root: print
 ms.assetid: 845FA810-0286-4FA9-9BD4-A160989C581A
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: CreatePrintAsyncNotifyRegistration, CreatePrintAsyncNotifyRegistration method [Print Devices], CreatePrintAsyncNotifyRegistration method [Print Devices],IPrintAsyncNotify interface, IPrintAsyncNotify interface [Print Devices],CreatePrintAsyncNotifyRegistration method, IPrintAsyncNotify.CreatePrintAsyncNotifyRegistration, IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration, print.iprintasyncnotify_createprintasyncnotifyregistration, prnasntp/IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration
 ms.topic: method
 req.header: prnasntp.h

@@ -6,7 +6,7 @@ description: The PshedAllocateMemory function allocates a block of memory from t
 old-location: whea\pshedallocatememory.htm
 tech.root: whea
 ms.assetid: e489601e-b016-4681-97a0-78f42004909f
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: PshedAllocateMemory, PshedAllocateMemory function [WHEA Drivers and Applications], ntddk/PshedAllocateMemory, whea.pshedallocatememory, whearef_e18a3aba-ca99-4b65-92de-1c6b8c740e31.xml
 ms.topic: function
 req.header: ntddk.h

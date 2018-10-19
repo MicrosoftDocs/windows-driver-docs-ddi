@@ -6,7 +6,7 @@ description: The BindDevice method binds a printer to a bidi request. This metho
 old-location: print\ibidispl_ibidispl__binddevice.htm
 tech.root: print
 ms.assetid: 880ff314-c79d-4395-83ad-ce61bb8da5b5
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: BIDI_ACCESS_ADMINISTRATOR, BIDI_ACCESS_USER, BindDevice, BindDevice method [Print Devices], BindDevice method [Print Devices],IBidiSpl interface, IBidiSpl interface [Print Devices],BindDevice method, IBidiSpl.BindDevice, IBidiSpl::BindDevice, _win32_IBidiSpl_BindDevice, bidispl/IBidiSpl::BindDevice, gdi.ibidispl_ibidispl__binddevice, print.ibidispl_ibidispl__binddevice
 ms.topic: method
 req.header: bidispl.h

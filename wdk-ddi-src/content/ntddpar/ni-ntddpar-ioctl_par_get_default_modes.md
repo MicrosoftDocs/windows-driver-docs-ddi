@@ -6,7 +6,7 @@ description: The IOCTL_PAR_GET_DEFAULT_MODES request returns the default write (
 old-location: parports\ioctl_par_get_default_modes.htm
 tech.root: parports
 ms.assetid: d2f440b2-1208-4cae-9790-b93f267499b1
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_PAR_GET_DEFAULT_MODES, IOCTL_PAR_GET_DEFAULT_MODES control code [Parallel Ports], cisspd_29dfce16-6dea-4bff-928d-6ab83099595c.xml, ntddpar/IOCTL_PAR_GET_DEFAULT_MODES, parports.ioctl_par_get_default_modes
 ms.topic: ioctl
 req.header: ntddpar.h

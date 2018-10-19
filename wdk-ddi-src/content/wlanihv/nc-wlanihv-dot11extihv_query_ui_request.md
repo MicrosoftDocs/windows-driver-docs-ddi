@@ -6,7 +6,7 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extihvqueryuirequest.htm
 tech.root: netvista
 ms.assetid: 37c01180-0742-4764-88c3-9ceb807a0086
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: DOT11EXTIHV_QUERY_UI_REQUEST, Dot11ExtIhvQueryUIRequest, Dot11ExtIhvQueryUIRequest callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_b820a678-9e05-4f96-87bd-ed1154317091.xml, netvista.dot11extihvqueryuirequest, wlanihv/Dot11ExtIhvQueryUIRequest
 ms.topic: callback
 req.header: wlanihv.h

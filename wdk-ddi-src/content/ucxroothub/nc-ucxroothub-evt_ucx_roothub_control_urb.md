@@ -6,7 +6,7 @@ description: The client driver uses this callback type to implement handlers tha
 old-location: buses\evt_ucx_roothub_control_urb.htm
 tech.root: usbref
 ms.assetid: 4463a68f-ef03-43a1-b3e2-7baf43f47e80
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: EVT_UCX_ROOTHUB_CONTROL_URB, EVT_UCX_ROOTHUB_CONTROL_URB callback, EvtUcxRootHubControlUrb, EvtUcxRootHubControlUrb callback function [Buses], PEVT_UCX_ROOTHUB_CONTROL_URB, PEVT_UCX_ROOTHUB_CONTROL_URB callback function pointer [Buses], buses.evt_ucx_roothub_control_urb, ucxroothub/EvtUcxRootHubControlUrb
 ms.topic: callback
 req.header: ucxroothub.h

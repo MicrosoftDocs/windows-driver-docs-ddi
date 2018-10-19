@@ -6,7 +6,7 @@ description: GNSS_DRIVER_REQUEST enumerates the GNSS driver data request types.
 old-location: gnss\gnss_driver_request.htm
 tech.root: gnss
 ms.assetid: 923774E0-4F4E-470A-9793-8AD4261AEB64
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: GNSS_DRIVER_REQUEST, GNSS_DRIVER_REQUEST enumeration [Sensor Devices], SUPL_CONFIG_DATA, gnss.gnss_driver_request, gnssdriver/GNSS_DRIVER_REQUEST, gnssdriver/SUPL_CONFIG_DATA
 ms.topic: enum
 req.header: gnssdriver.h

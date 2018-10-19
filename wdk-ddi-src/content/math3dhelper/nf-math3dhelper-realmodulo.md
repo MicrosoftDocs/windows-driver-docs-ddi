@@ -4,7 +4,7 @@ title: RealModulo function
 author: windows-driver-content
 description: Calculates the modular value between x and y.
 ms.assetid: 2633cb26-ad11-4af4-8a79-9ee3b4628d68
-ms.date: 08/01/18
+ms.date: 08/01/2018
 ms.topic: function
 tech.root: sensors
 ms.keywords: RealModulo, math3dhelper

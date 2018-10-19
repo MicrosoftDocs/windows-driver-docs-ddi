@@ -6,7 +6,7 @@ description: The IPortableDeviceValues interface holds a collection of PROPERTYK
 old-location: wpddk\iportabledevicevalues.htm
 tech.root: wpd_dk
 ms.assetid: 4a97301a-12cc-442f-a080-446ec9e1e245
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IPortableDeviceValues, IPortableDeviceValues interface, IPortableDeviceValues interface,described, IPortableDeviceValuesInterface, portabledevicetypes/IPortableDeviceValues, wpddk.iportabledevicevalues
 ms.topic: interface
 req.header: portabledevicetypes.h

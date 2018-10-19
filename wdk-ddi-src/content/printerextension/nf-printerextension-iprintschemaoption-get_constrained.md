@@ -6,7 +6,7 @@ description: Gets the constraint setting type for the schema option.
 old-location: print\iprintschemaoption_constrained.htm
 tech.root: print
 ms.assetid: 57E13395-9E23-4708-B4EC-6839CB6FC62B
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: Constrained property [Print Devices], Constrained property [Print Devices],IPrintSchemaOption interface, IPrintSchemaOption interface [Print Devices],Constrained property, IPrintSchemaOption.Constrained, IPrintSchemaOption.get_Constrained, IPrintSchemaOption::Constrained, IPrintSchemaOption::get_Constrained, get_Constrained, print.iprintschemaoption_constrained, printerextension/IPrintSchemaOption::Constrained, printerextension/IPrintSchemaOption::get_Constrained
 ms.topic: method
 req.header: printerextension.h

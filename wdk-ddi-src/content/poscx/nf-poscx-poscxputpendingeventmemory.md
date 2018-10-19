@@ -6,7 +6,7 @@ description: PosCxPutPendingEventMemory tries to delegate a memory object contai
 old-location: pos\poscxputpendingeventmemory.htm
 tech.root: pos
 ms.assetid: DF9CA4A8-4B2A-4DED-9514-422AC5E0940D
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: PosCxPutPendingEventMemory, PosCxPutPendingEventMemory function, pos.poscxputpendingeventmemory, poscx/PosCxPutPendingEventMemory
 ms.topic: function
 req.header: poscx.h

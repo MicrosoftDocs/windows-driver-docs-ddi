@@ -6,7 +6,7 @@ description: The KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT structure describe
 old-location: audio\ksaudio_packetsize_processingmode_constraint.htm
 tech.root: audio
 ms.assetid: 0BC6A03C-CF6D-4F56-985E-933E87200DFE
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT, KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT structure [Audio Devices], _KSAUDIO_PACKETSIZE_SIGNALPROCESSINGMODE_CONSTRAINT, audio.ksaudio_packetsize_processingmode_constraint, ksmedia/KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT
 ms.topic: struct
 req.header: ksmedia.h

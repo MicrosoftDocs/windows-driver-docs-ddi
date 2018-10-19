@@ -6,7 +6,7 @@ description: Adds a new IUnknown value (type VT_UNKNOWN) or overwrites an existi
 old-location: wpddk\iportabledevicevalues_setiunknownvalue.htm
 tech.root: wpd_dk
 ms.assetid: 776d4097-a582-4708-8965-0dc956d73e0d
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IPortableDeviceValues interface,SetIUnknownValue method, IPortableDeviceValues.SetIUnknownValue, IPortableDeviceValues::SetIUnknownValue, IPortableDeviceValuesSetIUnknownValue, SetIUnknownValue, SetIUnknownValue method, SetIUnknownValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetIUnknownValue, wpddk.iportabledevicevalues_setiunknownvalue
 ms.topic: method
 req.header: portabledevicetypes.h

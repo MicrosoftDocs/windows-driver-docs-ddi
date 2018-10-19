@@ -6,7 +6,7 @@ description: This structure defines the parameters for a single-shot fix session
 old-location: gnss\gnss_singleshot_param.htm
 tech.root: gnss
 ms.assetid: BD1CB6CE-4196-4B85-AED0-A7B8ED957ADF
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PGNSS_SINGLESHOT_PARAM, GNSS_SINGLESHOT_PARAM, GNSS_SINGLESHOT_PARAM structure [Sensor Devices], PGNSS_SINGLESHOT_PARAM, PGNSS_SINGLESHOT_PARAM structure pointer [Sensor Devices], gnss.gnss_singleshot_param, gnssdriver/GNSS_SINGLESHOT_PARAM, gnssdriver/PGNSS_SINGLESHOT_PARAM"
 ms.topic: struct
 req.header: gnssdriver.h

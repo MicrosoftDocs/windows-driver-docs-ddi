@@ -6,7 +6,7 @@ description: The DOT11_WFD_ATTRIBUTES structure is returned in an NDIS_MINIPORT_
 old-location: netvista\dot11_wfd_attributes.htm
 tech.root: netvista
 ms.assetid: 7B221221-5C91-45DA-85C5-5E7CF71E6689
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_WFD_ATTRIBUTES, DOT11_WFD_ATTRIBUTES, DOT11_WFD_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_ATTRIBUTES, PDOT11_WFD_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_ATTRIBUTES, netvista.dot11_wfd_attributes, windot11/DOT11_WFD_ATTRIBUTES, windot11/PDOT11_WFD_ATTRIBUTES"
 ms.topic: struct
 req.header: windot11.h

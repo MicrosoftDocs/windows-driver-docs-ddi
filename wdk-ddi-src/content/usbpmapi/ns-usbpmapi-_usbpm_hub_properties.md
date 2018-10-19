@@ -4,7 +4,7 @@ title: _USBPM_HUB_PROPERTIES
 author: windows-driver-content
 description: Properties of a connector hub.
 ms.assetid: f5579381-05a0-42e2-890c-9970a94ca7b4
-ms.date: 9/30/2018 
+ms.date: 09/30/2018
 ms.topic: struct
 tech.root: usbref
 ms.keywords: _USBPM_HUB_PROPERTIES, USBPM_HUB_PROPERTIES, *PUSBPM_HUB_PROPERTIES, 

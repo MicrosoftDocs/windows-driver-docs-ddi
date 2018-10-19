@@ -6,7 +6,7 @@ description: Gets a displayable string for this item.
 old-location: print\iprintschemadisplayableelement_displayname.htm
 tech.root: print
 ms.assetid: 8DF71F10-1043-47E8-98E0-BB100B2AAF26
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: DisplayName property [Print Devices], DisplayName property [Print Devices],IPrintSchemaDisplayableElement interface, IPrintSchemaDisplayableElement interface [Print Devices],DisplayName property, IPrintSchemaDisplayableElement.DisplayName, IPrintSchemaDisplayableElement.get_DisplayName, IPrintSchemaDisplayableElement::DisplayName, IPrintSchemaDisplayableElement::get_DisplayName, get_DisplayName, print.iprintschemadisplayableelement_displayname, printerextension/IPrintSchemaDisplayableElement::DisplayName, printerextension/IPrintSchemaDisplayableElement::get_DisplayName
 ms.topic: method
 req.header: printerextension.h

@@ -6,7 +6,7 @@ description: The EVT_POS_CX_DEVICE_REMOTE_CLAIM callback is called when the devi
 old-location: pos\evt_pos_cx_device_remote_claim.htm
 tech.root: pos
 ms.assetid: 3D8907A2-E53E-40D9-870A-AF0EB062E81F
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: EVT_POS_CX_DEVICE_REMOTE_CLAIM, EVT_POS_CX_DEVICE_REMOTE_CLAIM callback, EvtPosCxDeviceRemoteClaim, EvtPosCxDeviceRemoteClaim callback function, pos.evt_pos_cx_device_remote_claim, poscx/EvtPosCxDeviceRemoteClaim
 ms.topic: callback
 req.header: poscx.h

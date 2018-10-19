@@ -6,7 +6,7 @@ description: The USERDATA structure is used by Unidrv and Pscript to specify add
 old-location: print\userdata.htm
 tech.root: print
 ms.assetid: 5d4e5454-f44f-483a-a389-c8973263fbaa
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PUSERDATA, PUSERDATA, PUSERDATA structure pointer [Print Devices], USERDATA, USERDATA structure [Print Devices], _USERDATA, print.userdata, print_unidrv-pscript_ui_d0e62306-f4b7-491e-83b3-b1e2ddaddfb5.xml, printoem/PUSERDATA, printoem/USERDATA"
 ms.topic: struct
 req.header: printoem.h

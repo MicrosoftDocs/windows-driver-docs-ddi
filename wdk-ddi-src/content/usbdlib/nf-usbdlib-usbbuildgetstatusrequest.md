@@ -6,7 +6,7 @@ description: The UsbBuildGetStatusRequest macro formats an URB to obtain status 
 old-location: buses\usbbuildgetstatusrequest.htm
 tech.root: usbref
 ms.assetid: 7a5fcb4f-fc9a-4ebb-93ef-b83461557b22
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UsbBuildGetStatusRequest, UsbBuildGetStatusRequest routine [Buses], buses.usbbuildgetstatusrequest, usbdlib/UsbBuildGetStatusRequest, usbfunc_a99bf737-8bb6-4000-af2b-ac076a4ffc8e.xml
 ms.topic: macro
 req.header: usbdlib.h

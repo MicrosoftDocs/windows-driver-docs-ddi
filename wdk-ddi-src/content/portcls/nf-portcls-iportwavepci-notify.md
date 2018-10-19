@@ -6,7 +6,7 @@ description: The Notify method notifies the port driver that an interrupt indica
 old-location: audio\iportwavepci_notify.htm
 tech.root: audio
 ms.assetid: fa65b3c3-196c-4cf4-8c9e-c0c9a33b2881
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IPortWavePci interface [Audio Devices],Notify method, IPortWavePci.Notify, IPortWavePci::Notify, Notify, Notify method [Audio Devices], Notify method [Audio Devices],IPortWavePci interface, audio.iportwavepci_notify, audmp-routines_5b988b85-05d1-4a66-b04d-fdd21dcf0310.xml, portcls/IPortWavePci::Notify
 ms.topic: method
 req.header: portcls.h

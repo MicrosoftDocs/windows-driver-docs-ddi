@@ -6,7 +6,7 @@ description: Contains parameters for a request to disable the specified device. 
 old-location: buses\_usbdevice_disable.htm
 tech.root: usbref
 ms.assetid: C9F2331F-0C16-47F3-9FDE-2719E179513F
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSBDEVICE_DISABLE, P_USBDEVICE_DISABLE, P_USBDEVICE_DISABLE structure pointer [Buses], USBDEVICE_DISABLE, USBDEVICE_DISABLE structure [Buses], _USBDEVICE_DISABLE, buses._usbdevice_disable, ucxusbdevice/P_USBDEVICE_DISABLE, ucxusbdevice/_USBDEVICE_DISABLE"
 ms.topic: struct
 req.header: ucxusbdevice.h

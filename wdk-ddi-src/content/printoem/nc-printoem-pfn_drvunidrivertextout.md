@@ -6,7 +6,7 @@ description: The DrvUnidriverTextOut function is obsolete.
 old-location: print\drvunidrivertextout.htm
 tech.root: print
 ms.assetid: 72ba09b2-a889-439d-bbf2-ee6f9ebf5535
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: PFN_DrvUnidriverTextOut, PFN_DrvUnidriverTextOut callback, PFN_DrvUnidriverTextOut callback function [Print Devices], print.drvunidrivertextout, print_obsoletefunctions_eeb13110-561c-4c0f-912b-1a3a1cebd846.xml, printoem/PFN_DrvUnidriverTextOut
 ms.topic: callback
 req.header: printoem.h

@@ -6,7 +6,7 @@ description: The IPrintCoreHelperPS::GetOption method gets a specified option fo
 old-location: print\iprintcorehelperps_getoption.htm
 tech.root: print
 ms.assetid: fa212b86-89ae-4d22-a3ff-ebcc6100874b
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetOption, GetOption method [Print Devices], GetOption method [Print Devices],IPrintCoreHelperPS interface, IPrintCoreHelperPS interface [Print Devices],GetOption method, IPrintCoreHelperPS.GetOption, IPrintCoreHelperPS::GetOption, prcomoem/IPrintCoreHelperPS::GetOption, print.iprintcorehelperps_getoption, print_unidrv-pscript_allplugins_86ad53d5-280d-4aa5-9780-dd2b946f9880.xml
 ms.topic: method
 req.header: prcomoem.h

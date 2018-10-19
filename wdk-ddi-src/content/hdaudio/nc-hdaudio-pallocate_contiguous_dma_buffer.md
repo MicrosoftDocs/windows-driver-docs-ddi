@@ -6,7 +6,7 @@ description: The AllocateContiguousDmaBuffer routine allocates a DMA buffer that
 old-location: audio\allocatecontiguousdmabuffer.htm
 tech.root: audio
 ms.assetid: 4538ce8e-fccd-4862-b226-a99fe578a5fd
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: AllocateContiguousDmaBuffer, AllocateContiguousDmaBuffer callback function [Audio Devices], PALLOCATE_CONTIGUOUS_DMA_BUFFER, PALLOCATE_CONTIGUOUS_DMA_BUFFER callback, aud-prop2_c9f2fa85-0967-4793-9092-9f95986c2126.xml, audio.allocatecontiguousdmabuffer, hdaudio/AllocateContiguousDmaBuffer
 ms.topic: callback
 req.header: hdaudio.h

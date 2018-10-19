@@ -6,7 +6,7 @@ description: Gets the INF file name.
 old-location: dtf\iwdtfdriverpackageaction2_inffilename.htm
 tech.root: dtf
 ms.assetid: 9c2dae4e-05e8-4063-993f-f505d25004df
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],InfFileName property, IWDTFDriverPackageAction2.InfFileName, IWDTFDriverPackageAction2.get_InfFileName, IWDTFDriverPackageAction2::InfFileName, IWDTFDriverPackageAction2::get_InfFileName, InfFileName property [Windows Device Testing Framework], InfFileName property [Windows Device Testing Framework],IWDTFDriverPackageAction2 interface, Microsoft.WDTF.IWDTFDriverPackageAction2.InfFileName, Microsoft::WDTF::IWDTFDriverPackageAction2::InfFileName, dtf.iwdtfdriverpackageaction2_inffilename, get_InfFileName, wdtfdriverpackageaction/IWDTFDriverPackageAction2::InfFileName, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_InfFileName
 ms.topic: method
 req.header: wdtfdriverpackageaction.h

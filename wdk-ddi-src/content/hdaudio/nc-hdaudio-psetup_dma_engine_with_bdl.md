@@ -6,7 +6,7 @@ description: The SetupDmaEngineWithBdl routine sets up a DMA engine to use a cal
 old-location: audio\setupdmaenginewithbdl.htm
 tech.root: audio
 ms.assetid: 2760579b-9922-4709-a049-a73f3abd5043
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: PSETUP_DMA_ENGINE_WITH_BDL, PSETUP_DMA_ENGINE_WITH_BDL callback, SetupDmaEngineWithBdl, SetupDmaEngineWithBdl callback function [Audio Devices], aud-prop2_7d264dff-4f47-4a5a-a587-636c57a12a9d.xml, audio.setupdmaenginewithbdl, hdaudio/SetupDmaEngineWithBdl
 ms.topic: callback
 req.header: hdaudio.h

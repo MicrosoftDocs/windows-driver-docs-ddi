@@ -6,7 +6,7 @@ description: The IOCTL_PMI_GET_MEASUREMENT request returns the current measureme
 old-location: powermeter\ioctl_pmi_get_measurement.htm
 tech.root: powermeter
 ms.assetid: 2f479147-cccb-44c8-bc86-37c6731cb95b
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IOCTL_PMI_GET_MEASUREMENT, IOCTL_PMI_GET_MEASUREMENT control, IOCTL_PMI_GET_MEASUREMENT control code [Power Metering and Budgeting Devices], PowerMeterRef_2317a4b3-7909-4c52-a012-39c892a39154.xml, pmi/IOCTL_PMI_GET_MEASUREMENT, powermeter.ioctl_pmi_get_measurement
 ms.topic: ioctl
 req.header: pmi.h

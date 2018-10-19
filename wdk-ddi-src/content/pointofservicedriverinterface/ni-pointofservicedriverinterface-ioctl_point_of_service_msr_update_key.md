@@ -6,7 +6,7 @@ description: This I/O control function sets a new encryption key.
 old-location: pos\ioctl_point_of_service_msr_update_key.htm
 tech.root: pos
 ms.assetid: 7ac830d3-6a75-4d82-9123-cd7ad9c2cdea
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY, IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY control, IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY, pos.ioctl_point_of_service_msr_update_key
 ms.topic: ioctl
 req.header: pointofservicedriverinterface.h

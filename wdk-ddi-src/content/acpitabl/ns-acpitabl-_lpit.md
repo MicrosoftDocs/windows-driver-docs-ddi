@@ -6,7 +6,7 @@ description: Defines an LPI ACPI table.
 old-location: acpi\lpit.htm
 tech.root: acpi
 ms.assetid: 351BC859-E703-4F75-B691-A503C08560CF
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PLPIT, LPIT, LPIT structure [ACPI Devices], PLPIT, PLPIT structure pointer [ACPI Devices], _LPIT, acpi.lpit, acpitabl/LPIT, acpitabl/PLPIT"
 ms.topic: struct
 req.header: acpitabl.h

@@ -6,7 +6,7 @@ description: The KSJACK_SINK_INFORMATION structure specifies information about a
 old-location: audio\ksjack_sink_information.htm
 tech.root: audio
 ms.assetid: ec832068-9b5d-40ce-bafc-31642539e2d9
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: "*PKSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION structure [Audio Devices], PKSJACK_SINK_INFORMATION, PKSJACK_SINK_INFORMATION structure pointer [Audio Devices], _tagKSJACK_SINK_INFORMATION, aud-prop_e9bbfa8a-d002-400c-a35d-3da0a8026cd6.xml, audio.ksjack_sink_information, ksmedia/KSJACK_SINK_INFORMATION, ksmedia/PKSJACK_SINK_INFORMATION"
 ms.topic: struct
 req.header: ksmedia.h

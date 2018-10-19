@@ -6,7 +6,7 @@ description: The IPrintSchemaTicket2 interface is an extension to the IPrintSche
 old-location: print\iprintschematicket2.htm
 tech.root: print
 ms.assetid: 52D9FA01-578B-43C2-A0B1-F3CD0BAAFAE4
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintSchemaTicket2, IPrintSchemaTicket2 interface [Print Devices], IPrintSchemaTicket2 interface [Print Devices],described, print.iprintschematicket2, printerextension/IPrintSchemaTicket2
 ms.topic: interface
 req.header: printerextension.h

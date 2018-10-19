@@ -6,7 +6,7 @@ description: Sets the charge percentage reported to the OS by the simulated batt
 old-location: dtf\iwdtfsimulatedbatterysystemaction_setsimulatedbatterychargepercentage.htm
 tech.root: dtf
 ms.assetid: b330c423-b295-4b5b-b6bf-1f48549e8bfa
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework],SetSimulatedBatteryChargePercentage method, IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryChargePercentage, IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryChargePercentage, SetSimulatedBatteryChargePercentage, SetSimulatedBatteryChargePercentage method [Windows Device Testing Framework], SetSimulatedBatteryChargePercentage method [Windows Device Testing Framework],IWDTFSimulatedBatterySystemAction interface, dtf.iwdtfsimulatedbatterysystemaction_setsimulatedbatterychargepercentage, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryChargePercentage
 ms.topic: method
 req.header: wdtfsimulatedbatterysystemaction.h

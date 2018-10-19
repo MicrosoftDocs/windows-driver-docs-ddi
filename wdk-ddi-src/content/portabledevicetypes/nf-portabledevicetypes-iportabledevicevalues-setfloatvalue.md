@@ -6,7 +6,7 @@ description: Adds a new FLOAT value (type VT_R4) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setfloatvalue.htm
 tech.root: wpd_dk
 ms.assetid: 60e4ce74-5d8e-49d4-af16-84ea66557b60
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IPortableDeviceValues interface,SetFloatValue method, IPortableDeviceValues.SetFloatValue, IPortableDeviceValues::SetFloatValue, IPortableDeviceValuesSetFloatValue, SetFloatValue, SetFloatValue method, SetFloatValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetFloatValue, wpddk.iportabledevicevalues_setfloatvalue
 ms.topic: method
 req.header: portabledevicetypes.h

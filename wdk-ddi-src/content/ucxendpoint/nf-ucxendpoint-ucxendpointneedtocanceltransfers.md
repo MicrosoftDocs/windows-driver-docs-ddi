@@ -6,7 +6,7 @@ description: The client driver calls this method before it cancels transfers on 
 old-location: buses\_ucxendpointneedtocanceltransfers.htm
 tech.root: usbref
 ms.assetid: 4DA3FB63-D2D3-43E1-9420-29303176B837
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UcxEndpointNeedToCancelTransfers, UcxEndpointNeedToCancelTransfers method [Buses], buses._ucxendpointneedtocanceltransfers, ucxendpoint/UcxEndpointNeedToCancelTransfers
 ms.topic: function
 req.header: ucxendpoint.h

@@ -6,7 +6,7 @@ description: The CLIENT_QueryEnabledInterrupts event callback function queries t
 old-location: gpio\client_queryenabledinterrupts.htm
 tech.root: GPIO
 ms.assetid: 2F09006A-EFC6-4A38-AC5D-661DA48155FA
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: CLIENT_QueryEnabledInterrupts, CLIENT_QueryEnabledInterrupts callback, CLIENT_QueryEnabledInterrupts callback function [Parallel Ports], GPIO.client_queryenabledinterrupts, GPIO_CLIENT_QUERY_ENABLED_INTERRUPTS, gpioclx/CLIENT_QueryEnabledInterrupts
 ms.topic: callback
 req.header: gpioclx.h

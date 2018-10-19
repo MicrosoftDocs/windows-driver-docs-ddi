@@ -6,7 +6,7 @@ description: The DbgBreakPoint routine breaks into the kernel debugger.
 old-location: devtest\dbgbreakpoint.htm
 tech.root: devtest
 ms.assetid: deeac910-2cc3-4a54-bf3b-aeb56d0004dc
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: DbgBreakPoint, DbgBreakPoint routine [Driver Development Tools], DebugFns_f53df634-d9a5-4b98-ad10-560e6e4e5a66.xml, devtest.dbgbreakpoint, ntddk/DbgBreakPoint
 ms.topic: function
 req.header: wdm.h

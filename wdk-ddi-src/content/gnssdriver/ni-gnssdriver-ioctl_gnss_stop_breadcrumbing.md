@@ -6,7 +6,7 @@ description: The IOCTL_GNSS_STOP_BREADCRUMBING control code is used to stop brea
 old-location: gnss\ioctl_gnss_stop_breadcrumbing.htm
 tech.root: gnss
 ms.assetid: FAA8B6B0-A95C-4E12-BB0C-585E676F602F
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_GNSS_STOP_BREADCRUMBING, IOCTL_GNSS_STOP_BREADCRUMBING control, IOCTL_GNSS_STOP_BREADCRUMBING control code [Sensor Devices], gnss.ioctl_gnss_stop_breadcrumbing, gnssdriver/IOCTL_GNSS_STOP_BREADCRUMBING
 ms.topic: ioctl
 req.header: gnssdriver.h

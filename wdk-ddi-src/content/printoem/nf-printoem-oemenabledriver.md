@@ -6,7 +6,7 @@ description: OEMEnableDriver function
 old-location: print\oemenabledriver.htm
 tech.root: print
 ms.assetid: 9ea2f53c-de27-4803-b09a-444180b796ac
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: OEMEnableDriver, OEMEnableDriver function [Print Devices], print.oemenabledriver, print_obsoletefunctions_4fe2a5f6-e5ad-4e35-b3d5-668e0cf96ee3.xml, printoem/OEMEnableDriver
 ms.topic: function
 req.header: printoem.h

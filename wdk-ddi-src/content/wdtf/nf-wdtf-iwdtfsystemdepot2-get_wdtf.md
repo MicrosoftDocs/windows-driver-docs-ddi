@@ -6,7 +6,7 @@ description: Gets the main WDTF aggregation object.
 old-location: dtf\iwdtfsystemdepot2_wdtf.htm
 tech.root: dtf
 ms.assetid: e742b493-64ee-4311-b6f0-512b44e776f4
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFSystemDepot2 interface [Windows Device Testing Framework],WDTF property, IWDTFSystemDepot2.WDTF, IWDTFSystemDepot2.get_WDTF, IWDTFSystemDepot2::WDTF, IWDTFSystemDepot2::get_WDTF, Microsoft.WDTF.IWDTFSystemDepot2.WDTF, Microsoft::WDTF::IWDTFSystemDepot2::WDTF, WDTF property [Windows Device Testing Framework], WDTF property [Windows Device Testing Framework],IWDTFSystemDepot2 interface, dtf.iwdtfsystemdepot2_wdtf, get_WDTF, wdtf/IWDTFSystemDepot2::WDTF, wdtf/IWDTFSystemDepot2::get_WDTF
 ms.topic: method
 req.header: wdtf.h

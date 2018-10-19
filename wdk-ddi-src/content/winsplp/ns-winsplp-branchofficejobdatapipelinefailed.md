@@ -6,7 +6,7 @@ description: Contains the necessary data for logging a branch office job Pipelin
 old-location: print\branchofficejobdatapipelinefailed.htm
 tech.root: print
 ms.assetid: 3F5DB2F5-40B6-4A8D-983C-065D17E62AE6
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PBranchOfficeJobDataPipelineFailed, BranchOfficeJobDataPipelineFailed, BranchOfficeJobDataPipelineFailed structure [Print Devices], PBranchOfficeJobDataPipelineFailed, PBranchOfficeJobDataPipelineFailed structure pointer [Print Devices], print.branchofficejobdatapipelinefailed, winsplp/BranchOfficeJobDataPipelineFailed, winsplp/PBranchOfficeJobDataPipelineFailed"
 ms.topic: struct
 req.header: winsplp.h

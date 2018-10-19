@@ -6,7 +6,7 @@ description: Writes a string property.
 old-location: print\iprinterpropertybag_setstring.htm
 tech.root: print
 ms.assetid: FF063DFE-FD80-4E30-8289-5B40642C867F
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrinterPropertyBag interface [Print Devices],SetString method, IPrinterPropertyBag.SetString, IPrinterPropertyBag::SetString, SetString, SetString method [Print Devices], SetString method [Print Devices],IPrinterPropertyBag interface, print.iprinterpropertybag_setstring, printerextension/IPrinterPropertyBag::SetString
 ms.topic: method
 req.header: printerextension.h

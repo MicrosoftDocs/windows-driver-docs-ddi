@@ -6,7 +6,7 @@ description: This structure defines the parameters used by the GNSS adapter to s
 old-location: gnss\gnss_fixsession_param.htm
 tech.root: gnss
 ms.assetid: D51126FD-0448-487A-BD4E-170901E90B1E
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PGNSS_FIXSESSION_PARAM, GNSS_FIXSESSION_PARAM, GNSS_FIXSESSION_PARAM structure [Sensor Devices], PGNSS_FIXSESSION_PARAM, PGNSS_FIXSESSION_PARAM structure pointer [Sensor Devices], gnss.gnss_fixsession_param, gnssdriver/GNSS_FIXSESSION_PARAM, gnssdriver/PGNSS_FIXSESSION_PARAM, sensors.gnss_fixsesson_param"
 ms.topic: struct
 req.header: gnssdriver.h

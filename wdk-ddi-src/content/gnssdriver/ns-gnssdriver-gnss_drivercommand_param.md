@@ -6,7 +6,7 @@ description: This structure is used to send a command to the GNSS driver.
 old-location: gnss\gnss_drivercommand_param.htm
 tech.root: gnss
 ms.assetid: EC6EDD7A-B57F-4350-9EB9-56721EAC19BD
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PGNSS_DRIVERCOMMAND_PARAM, GNSS_DRIVERCOMMAND_PARAM, GNSS_DRIVERCOMMAND_PARAM structure [Sensor Devices], PGNSS_DRIVERCOMMAND_PARAM, PGNSS_DRIVERCOMMAND_PARAM structure pointer [Sensor Devices], gnss.gnss_drivercommand_param, gnssdriver/GNSS_DRIVERCOMMAND_PARAM, gnssdriver/PGNSS_DRIVERCOMMAND_PARAM"
 ms.topic: struct
 req.header: gnssdriver.h

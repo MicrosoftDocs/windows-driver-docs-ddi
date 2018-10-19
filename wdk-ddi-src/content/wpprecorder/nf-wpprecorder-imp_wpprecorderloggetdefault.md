@@ -6,7 +6,7 @@ description: The WppRecorderLogGetDefault method gets a handle to the default re
 old-location: devtest\wpprecorderloggetdefault.htm
 tech.root: devtest
 ms.assetid: 823E9AA6-F838-41B1-A502-A983B7F24661
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: WppRecorderLogGetDefault, devtest.wpprecorderloggetdefault, imp_WppRecorderLogGetDefault, imp_WppRecorderLogGetDefault function [Driver Development Tools], wpprecorder/imp_WppRecorderLogGetDefault
 ms.topic: function
 req.header: wpprecorder.h

@@ -4,7 +4,7 @@ title: IDebugHostType2::GetHashCode
 author: windows-driver-content
 description: The GetHashCode method returns a 32-bit hash code for the type. 
 ms.assetid: d51f86ff-bb28-4cbb-b829-265d04ae7772
-ms.date: 09/20/2018  
+ms.date: 09/20/2018
 ms.topic: method
 ms.keywords: IDebugHostType2::GetHashCode, GetHashCode, IDebugHostType2.GetHashCode, IDebugHostType2::GetHashCode, IDebugHostType2.GetHashCode
 req.header: dbgmodel.h

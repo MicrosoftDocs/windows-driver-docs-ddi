@@ -6,7 +6,7 @@ description: The WppRecorderGetTriageInfo.
 old-location: devtest\wpprecordergettriageinfo.htm
 tech.root: devtest
 ms.assetid: D2790496-1F86-4EF0-8AFE-77AC0C89EE05
-ms.date: 1/10/2018
+ms.date: 01/10/2018
 ms.keywords: WppRecorderGetTriageInfo
 ms.topic: macro
 req.header: wpprecorder.h

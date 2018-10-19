@@ -6,7 +6,7 @@ description: The PCFILTER_DESCRIPTOR structure describes a miniport driver's imp
 old-location: audio\pcfilter_descriptor.htm
 tech.root: audio
 ms.assetid: 11fd8fc0-98aa-4b06-973c-2b175144da42
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: PPCFILTER_DESCRIPTOR, PPCFILTER_DESCRIPTOR structure pointer [Audio Devices], PCFILTER_DESCRIPTOR structure [Audio Devices], PCFILTER_DESCRIPTOR, audio.pcfilter_descriptor, portcls/PCFILTER_DESCRIPTOR, portcls/PPCFILTER_DESCRIPTOR, *PPCFILTER_DESCRIPTOR, audpc-struct_8413fa35-0c5e-436a-8b0d-b7b08bc73621.xml
 ms.topic: struct
 req.header: portcls.h

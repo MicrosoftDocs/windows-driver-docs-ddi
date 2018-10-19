@@ -6,7 +6,7 @@ description: The USB_TOPOLOGY_ADDRESS structure is used with the IOCTL_INTERNAL_
 old-location: buses\usb_topology_address.htm
 tech.root: usbref
 ms.assetid: 5d8d6665-bfa1-4bc5-8168-7508624845e1
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSB_TOPOLOGY_ADDRESS, PUSB_TOPOLOGY_ADDRESS, PUSB_TOPOLOGY_ADDRESS structure pointer [Buses], USB_TOPOLOGY_ADDRESS, USB_TOPOLOGY_ADDRESS structure [Buses], _USB_TOPOLOGY_ADDRESS, buses.usb_topology_address, usbioctl/PUSB_TOPOLOGY_ADDRESS, usbioctl/USB_TOPOLOGY_ADDRESS"
 ms.topic: struct
 req.header: usbioctl.h

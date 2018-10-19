@@ -6,7 +6,7 @@ description: The IPortEvents interface is used by miniport drivers to notify cli
 old-location: audio\iportevents.htm
 tech.root: audio
 ms.assetid: bbbb5486-1217-4c4d-9421-96994a5fec82
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IPortEvents, IPortEvents interface [Audio Devices], IPortEvents interface [Audio Devices],described, audio.iportevents, audmp-routines_8e6cf7c4-af42-4c89-8c00-29470317a455.xml, portcls/IPortEvents
 ms.topic: interface
 req.header: portcls.h

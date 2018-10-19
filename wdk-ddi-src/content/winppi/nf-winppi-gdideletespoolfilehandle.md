@@ -6,7 +6,7 @@ description: The GdiDeleteSpoolFileHandle function releases a spool file handle.
 old-location: print\gdideletespoolfilehandle.htm
 tech.root: print
 ms.assetid: ff22498e-404f-42f6-82fd-f0178f6c7789
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GdiDeleteSpoolFileHandle, GdiDeleteSpoolFileHandle function [Print Devices], gdifnc_76c1c0cf-2a48-44eb-9b48-1d0a5bf4548b.xml, print.gdideletespoolfilehandle, winppi/GdiDeleteSpoolFileHandle
 ms.topic: function
 req.header: winppi.h

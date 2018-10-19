@@ -6,7 +6,7 @@ description:
 old-location: print\freeprintnamedpropertyarray.htm
 tech.root: print
 ms.assetid: 18E24562-F57A-492F-9254-722ABA0B2BC4
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: FreePrintNamedPropertyArray, FreePrintNamedPropertyArray function [Print Devices], print.freeprintnamedpropertyarray, winspool/FreePrintNamedPropertyArray
 ms.topic: function
 req.header: winspool.h

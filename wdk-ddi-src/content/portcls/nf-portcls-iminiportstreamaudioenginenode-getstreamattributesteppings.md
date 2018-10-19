@@ -6,7 +6,7 @@ description: Gets the allowed stepping value for the audio stream attribute.
 old-location: audio\iminiportstreamaudioenginenode_getstreamattributesteppings.htm
 tech.root: audio
 ms.assetid: 2EC0C859-5479-4A55-9180-DB9938400DF7
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: GetStreamAttributeSteppings, GetStreamAttributeSteppings method [Audio Devices], GetStreamAttributeSteppings method [Audio Devices],IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices],GetStreamAttributeSteppings method, IMiniportStreamAudioEngineNode.GetStreamAttributeSteppings, IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings, audio.iminiportstreamaudioenginenode_getstreamattributesteppings, portcls/IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings
 ms.topic: method
 req.header: portcls.h

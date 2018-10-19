@@ -6,7 +6,7 @@ description: The IPrintOemUI::CommonUIProp method allows a user interface plug-i
 old-location: print\iprintoemui_commonuiprop.htm
 tech.root: print
 ms.assetid: 6218913c-d11c-4646-a292-5f8740097d58
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: CommonUIProp, CommonUIProp method [Print Devices], CommonUIProp method [Print Devices],IPrintOemUI interface, IPrintOemUI interface [Print Devices],CommonUIProp method, IPrintOemUI.CommonUIProp, IPrintOemUI::CommonUIProp, prcomoem/IPrintOemUI::CommonUIProp, print.iprintoemui_commonuiprop, print_unidrv-pscript_ui_dd201198-0df4-479d-9c48-0fa934fb0b56.xml
 ms.topic: method
 req.header: prcomoem.h
