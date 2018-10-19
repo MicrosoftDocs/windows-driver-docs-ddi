@@ -4,7 +4,7 @@ title: D3DKMTGetAvailableTrackedWorkloadIndex function
 author: windows-driver-content
 description: Gets the available tracked workload index.
 ms.assetid: 3bcfcea6-c5d7-4e29-b109-2a501e8bcaf8
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTGetAvailableTrackedWorkloadIndex
 req.header: d3dkmthk.h

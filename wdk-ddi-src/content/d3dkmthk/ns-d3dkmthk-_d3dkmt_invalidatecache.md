@@ -4,7 +4,7 @@ title: _D3DKMT_INVALIDATECACHE
 author: windows-driver-content
 description: Contains information used to invalidate cache.
 ms.assetid: 30cb35da-baa8-4612-932d-b0b7bf59530e
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_INVALIDATECACHE, D3DKMT_INVALIDATECACHE, 
 req.header: d3dkmthk.h

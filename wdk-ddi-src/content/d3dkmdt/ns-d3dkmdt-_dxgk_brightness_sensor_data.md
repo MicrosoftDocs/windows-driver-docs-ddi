@@ -4,7 +4,7 @@ title: _DXGK_BRIGHTNESS_SENSOR_DATA
 author: windows-driver-content
 description: Describes the sensor data brightness.
 ms.assetid: 38aca9c4-ed04-405b-a659-5d5d252a45dc
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGK_BRIGHTNESS_SENSOR_DATA, DXGK_BRIGHTNESS_SENSOR_DATA,
 req.header: d3dkmdt.h

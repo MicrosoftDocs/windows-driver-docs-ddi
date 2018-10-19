@@ -4,7 +4,7 @@ title: FsRtlInitializeBaseMcbEx function
 author: windows-driver-content
 description:
 ms.assetid: ee7e2beb-fc03-4e76-8f68-b6fb9c6d26f8
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: FsRtlInitializeBaseMcbEx
 req.header: ntifs.h

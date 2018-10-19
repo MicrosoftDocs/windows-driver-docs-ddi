@@ -4,7 +4,7 @@ title: IOCTL_PANEL_QUERY_BRIGHTNESS_CAPS
 author: windows-driver-content
 description: Queries the brightness capabilities for a display panel.
 ms.assetid: e36d2980-28db-4770-acbb-db79c60049e6
-ms.date:
+ms.date: 10/19/2018
 ms.topic: ioctl
 req.header: ntddvdeo.h
 req.include-header:

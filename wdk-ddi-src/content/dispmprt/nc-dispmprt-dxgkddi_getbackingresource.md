@@ -4,7 +4,7 @@ title: DXGKDDI_GETBACKINGRESOURCE
 author: windows-driver-content
 description: Gets any physical backings for the virtual device MMIO BARs.
 ms.assetid: b74c4429-875a-4495-bd9f-ee3d6bfd69d7
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: dispmprt.h
 req.include-header:

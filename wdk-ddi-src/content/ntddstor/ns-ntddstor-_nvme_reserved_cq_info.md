@@ -4,7 +4,7 @@ title: _NVME_RESERVED_CQ_INFO
 author: windows-driver-content
 description: 
 ms.assetid: b13e73e2-1d4f-42b9-b33a-5b51bbcee311
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _NVME_RESERVED_CQ_INFO, NVME_RESERVED_CQ_INFO, *PNVME_RESERVED_CQ_INFO, 
 req.header: ntddstor.h

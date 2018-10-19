@@ -4,7 +4,7 @@ title: MmUnmapViewInSystemSpace function
 author: windows-driver-content
 description:
 ms.assetid: 0fabae76-0497-4d17-a684-fade48708a57
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: MmUnmapViewInSystemSpace
 req.header: ntddk.h

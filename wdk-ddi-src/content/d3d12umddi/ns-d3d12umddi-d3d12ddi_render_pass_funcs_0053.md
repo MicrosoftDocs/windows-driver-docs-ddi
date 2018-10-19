@@ -4,7 +4,7 @@ title: D3D12DDI_RENDER_PASS_FUNCS_0053
 author: windows-driver-content
 description: Callback functions used to begin and end a Render Pass.
 ms.assetid: ab8673e4-9631-43bb-ab56-79b2c65019ee
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDI_RENDER_PASS_FUNCS_0053, D3D12DDI_RENDER_PASS_FUNCS_0053, 
 req.header: d3d12umddi.h

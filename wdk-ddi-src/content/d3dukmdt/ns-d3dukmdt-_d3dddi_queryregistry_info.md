@@ -4,7 +4,7 @@ title: _D3DDDI_QUERYREGISTRY_INFO
 author: windows-driver-content
 description: Contains information about the query registry.
 ms.assetid: 946cbde2-3fb2-4974-a446-178c91a81e49
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DDDI_QUERYREGISTRY_INFO, D3DDDI_QUERYREGISTRY_INFO,
 req.header: d3dukmdt.h

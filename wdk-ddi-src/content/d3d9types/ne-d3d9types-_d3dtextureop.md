@@ -4,7 +4,7 @@ title: _D3DTEXTUREOP
 author: windows-driver-content
 description: 
 ms.assetid: e97f06ba-2784-474d-bd42-23ea1c877180
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DTEXTUREOP, D3DTEXTUREOP, 
 req.header: d3d9types.h

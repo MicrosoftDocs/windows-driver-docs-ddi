@@ -4,7 +4,7 @@ title: PFND3DKMT_UNREGISTERBUDGETCHANGENOTIFICATION
 author: windows-driver-content
 description: The PFND3DKMT_UNREGISTERBUDGETCHANGENOTIFICATION callback function unregisters budget change notification.
 ms.assetid: 265eba32-7c02-4323-8e21-b22120960940
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

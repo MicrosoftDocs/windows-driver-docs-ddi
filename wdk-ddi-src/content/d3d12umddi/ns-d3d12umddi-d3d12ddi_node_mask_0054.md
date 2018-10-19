@@ -4,7 +4,7 @@ title: D3D12DDI_NODE_MASK_0054
 author: windows-driver-content
 description: The node mask of the command list.
 ms.assetid: ec3059ab-d65a-482c-8401-872438e53a07
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDI_NODE_MASK_0054, D3D12DDI_NODE_MASK_0054, 
 req.header: d3d12umddi.h

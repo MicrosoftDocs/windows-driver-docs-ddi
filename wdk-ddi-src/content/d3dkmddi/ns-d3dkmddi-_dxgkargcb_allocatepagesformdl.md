@@ -4,7 +4,7 @@ title: _DXGKARGCB_ALLOCATEPAGESFORMDL
 author: windows-driver-content
 description: Arguments used in the DXGKCB_ALLOCATEPAGESFORMDL callback function, to allocate pages for MDL.
 ms.assetid: c41ff98e-5704-441d-b73f-1fad90895555
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGKARGCB_ALLOCATEPAGESFORMDL, DXGKARGCB_ALLOCATEPAGESFORMDL, *INOUT_PDXGKARGCB_ALLOCATEPAGESFORMDL
 req.header: d3dkmddi.h

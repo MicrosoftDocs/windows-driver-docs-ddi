@@ -4,7 +4,7 @@ title: PFND3DKMT_CREATESYNCHRONIZATIONOBJECT2
 author: windows-driver-content
 description: The PFND3DKMT_CREATESYNCHRONIZATIONOBJECT2 callback function creates a synchronization object.
 ms.assetid: 5fff0987-f4dd-4a6e-9415-0e9bf5be4d00
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

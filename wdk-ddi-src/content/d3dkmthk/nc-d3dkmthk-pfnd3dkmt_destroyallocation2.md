@@ -4,7 +4,7 @@ title: PFND3DKMT_DESTROYALLOCATION2
 author: windows-driver-content
 description: The PFND3DKMT_DESTROYALLOCATION2 callback function releases allocations.
 ms.assetid: 184d35d6-4d28-4153-a9a1-d5ccd04827cd
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

@@ -4,7 +4,7 @@ title: PFND3DKMT_BUDGETCHANGENOTIFICATIONCALLBACK
 author: windows-driver-content
 description: The PFND3DKMT_BUDGETCHANGENOTIFICATIONCALLBACK callback function notifies of a budget change.
 ms.assetid: 3e6b3195-3008-42aa-b554-654a85d9532e
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

@@ -4,7 +4,7 @@ title: _D3DKMT_MULTIPLANEOVERLAY_HUD_SUPPORT
 author: windows-driver-content
 description: Used to indicate whether multiplane overlay HUD is supported.
 ms.assetid: 8fa26323-c7c7-471a-9853-5d96269de445
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_MULTIPLANEOVERLAY_HUD_SUPPORT, D3DKMT_MULTIPLANEOVERLAY_HUD_SUPPORT, 
 req.header: d3dkmthk.h

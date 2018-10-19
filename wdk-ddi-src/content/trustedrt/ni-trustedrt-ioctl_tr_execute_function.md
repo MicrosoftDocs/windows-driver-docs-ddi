@@ -4,7 +4,7 @@ title: IOCTL_TR_EXECUTE_FUNCTION
 author: windows-driver-content
 description: 
 ms.assetid: 79daccd6-3bda-4ef2-81e4-e68137257369
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: ioctl
 req.header: trustedrt.h
 req.include-header:

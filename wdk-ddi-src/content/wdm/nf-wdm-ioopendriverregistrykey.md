@@ -4,7 +4,7 @@ title: IoOpenDriverRegistryKey function
 author: windows-driver-content
 description: Reserved.
 ms.assetid: 5166cf0f-81c2-4567-91a8-67ae6727fbdd
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: IoOpenDriverRegistryKey
 req.header: wdm.h

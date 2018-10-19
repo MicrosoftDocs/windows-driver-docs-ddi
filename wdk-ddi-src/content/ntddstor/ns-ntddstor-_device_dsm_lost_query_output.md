@@ -4,7 +4,7 @@ title: _DEVICE_DSM_LOST_QUERY_OUTPUT
 author: windows-driver-content
 description: 
 ms.assetid: 566bbd9e-4f8e-49d9-915d-901c4495bbe8
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DEVICE_DSM_LOST_QUERY_OUTPUT, DEVICE_DSM_LOST_QUERY_OUTPUT, *PDEVICE_DSM_LOST_QUERY_OUTPUT, 
 req.header: ntddstor.h

@@ -4,7 +4,7 @@ title: _D3DDDI_DRIVERESCAPETYPE
 author: windows-driver-content
 description: Defines the known driver escape types.
 ms.assetid: bb7fd313-1e89-4b9b-88ad-eca6404555de
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DDDI_DRIVERESCAPETYPE, D3DDDI_DRIVERESCAPETYPE, 
 req.header: d3dukmdt.h

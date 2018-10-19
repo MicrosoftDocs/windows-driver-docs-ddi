@@ -4,7 +4,7 @@ title: SRB_STATUS macro
 author: windows-driver-content
 description: 
 ms.assetid: ec99b574-4519-44c4-8cef-639d2c0a00c3
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: macro
 ms.keywords: SRB_STATUS
 req.header: scsiscan.h

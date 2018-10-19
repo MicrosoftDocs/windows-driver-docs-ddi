@@ -4,7 +4,7 @@ title: D3D12DDIARG_TEX1D_SHADER_RESOURCE_VIEW
 author: windows-driver-content
 description: Describes a one-dimensional (1-D) texture that is used to create a shader resource view.
 ms.assetid: 94b6f165-eb7b-45e2-9cba-4ed0ad313d2d
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDIARG_TEX1D_SHADER_RESOURCE_VIEW, D3D12DDIARG_TEX1D_SHADER_RESOURCE_VIEW, 
 req.header: d3d12umddi.h

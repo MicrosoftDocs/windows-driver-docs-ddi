@@ -4,7 +4,7 @@ title: D3D12DDIARG_METACOMMAND_PARAMETER_DATA
 author: windows-driver-content
 description: Contains the data for a meta-command's parameter.
 ms.assetid: 04c29d9e-641a-4757-a50a-dae8da63d964
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDIARG_METACOMMAND_PARAMETER_DATA, D3D12DDIARG_METACOMMAND_PARAMETER_DATA,
 req.header: d3d12umddi.h

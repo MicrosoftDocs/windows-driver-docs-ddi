@@ -4,7 +4,7 @@ title: D3D12DDI_STATE_OBJECT_CONFIG_0054
 author: windows-driver-content
 description: The state object configuration.
 ms.assetid: 1a2f6f15-6fdb-422b-b183-6dbfe07b55a1
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDI_STATE_OBJECT_CONFIG_0054, D3D12DDI_STATE_OBJECT_CONFIG_0054, 
 req.header: d3d12umddi.h

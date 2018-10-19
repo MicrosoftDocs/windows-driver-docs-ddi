@@ -4,7 +4,7 @@ title: D3D12DDIARG_CREATE_STATE_OBJECT_0054
 author: windows-driver-content
 description: Arguments used in the CreateStateObject callback function to create a state object.
 ms.assetid: 7d270c05-641d-44a4-b688-2c3a1c25bd6d
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDIARG_CREATE_STATE_OBJECT_0054, D3D12DDIARG_CREATE_STATE_OBJECT_0054, 
 req.header: d3d12umddi.h

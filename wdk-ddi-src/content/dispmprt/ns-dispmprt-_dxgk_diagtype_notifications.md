@@ -4,7 +4,7 @@ title: _DXGK_DIAGTYPE_NOTIFICATIONS
 author: windows-driver-content
 description: A structure used to identify one or more diagnostic types in the Notifications category.
 ms.assetid: cfebcf14-30cd-4577-a25d-98eea944834e
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGK_DIAGTYPE_NOTIFICATIONS, DXGK_DIAGTYPE_NOTIFICATIONS,
 req.header: dispmprt.h

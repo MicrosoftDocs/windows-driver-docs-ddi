@@ -4,7 +4,7 @@ title: PFND3D12DDI_QUERY_NODE_MAP
 author: windows-driver-content
 description: Query node map.
 ms.assetid: e3b3025e-80a9-4dad-96fc-3298260a1742
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:

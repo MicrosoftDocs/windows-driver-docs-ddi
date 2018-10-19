@@ -4,7 +4,7 @@ title: FsRtlInitializeBaseMcb function
 author: windows-driver-content
 description: This routine initializes a new Mcb structure.  The caller must supply the memory for the Mcb structure.  This call must precede all other calls that set/query the Mcb structure.
 ms.assetid: 78f5f4e1-0756-4071-931c-3d8503ff1dab
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: FsRtlInitializeBaseMcb
 req.header: ntifs.h

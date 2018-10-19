@@ -4,7 +4,7 @@ title: D3D12DDI_DEPTH_STENCIL_VALUES
 author: windows-driver-content
 description: The D3D12DDI_DEPTH_STENCIL_VALUES structure contains the context's depth and stencil buffers.
 ms.assetid: 64172998-1183-4a68-b4f1-9b4be6e33188
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDI_DEPTH_STENCIL_VALUES, D3D12DDI_DEPTH_STENCIL_VALUES, 
 req.header: d3d12umddi.h

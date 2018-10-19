@@ -4,7 +4,7 @@ title: _DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
 author: windows-driver-content
 description: The multiplane overlay stereo flip modes.
 ms.assetid: b8ba149d-8bd0-4b74-9927-ed748b48e478
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, 
 req.header: d3dkmthk.h

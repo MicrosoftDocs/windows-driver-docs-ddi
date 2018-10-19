@@ -4,7 +4,7 @@ title: D3D12DDI_GPU_VIRTUAL_ADDRESS_AND_STRIDE
 author: windows-driver-content
 description: Describes the GPU virtual address and stride.
 ms.assetid: 44028f01-8415-42b0-afd0-ac773f645eba
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDI_GPU_VIRTUAL_ADDRESS_AND_STRIDE, D3D12DDI_GPU_VIRTUAL_ADDRESS_AND_STRIDE, 
 req.header: d3d12umddi.h

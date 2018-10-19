@@ -4,7 +4,7 @@ title: PFLUSH_DMA_BUFFER
 author: windows-driver-content
 description: 
 ms.assetid: f51783e4-9956-4608-ba45-affdafda2416
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: wdm.h
 req.include-header:

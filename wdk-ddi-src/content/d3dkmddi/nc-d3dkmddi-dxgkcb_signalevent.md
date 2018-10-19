@@ -4,7 +4,7 @@ title: DXGKCB_SIGNALEVENT
 author: windows-driver-content
 description: Allows the kernel mode on the host to signal an event, which is created in the guest during paravirtualization.
 ms.assetid: fbb456a6-4ffc-4d65-a3d6-e3d78b573ae3
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header:

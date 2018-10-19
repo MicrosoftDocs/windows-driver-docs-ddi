@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Gets the current brightness level, plus details on the brightness transition in progress.
 tech.root: display
 ms.assetid: f7fbdbb4-f3cc-4ab7-b891-370190a96c19
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _PANEL_GET_BRIGHTNESS, PANEL_GET_BRIGHTNESS, *PPANEL_GET_BRIGHTNESS,
 req.header: ntddvdeo.h

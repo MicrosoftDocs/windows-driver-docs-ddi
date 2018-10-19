@@ -4,7 +4,7 @@ title: PFND3DKMT_GETMULTIPLANEOVERLAYCAPS
 author: windows-driver-content
 description: Pfnd3dkmtGetmultiplaneoverlaycaps retrieves multiplane overlay capabilities.
 ms.assetid: 1c060cf5-6129-4fd2-8bf9-74e4ceb037b6
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

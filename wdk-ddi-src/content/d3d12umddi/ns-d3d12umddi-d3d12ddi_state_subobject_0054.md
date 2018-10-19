@@ -4,7 +4,7 @@ title: D3D12DDI_STATE_SUBOBJECT_0054
 author: windows-driver-content
 description: 
 ms.assetid: 01c6b23e-b6cc-40b2-8527-f1abcdbd7a42
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDI_STATE_SUBOBJECT_0054, D3D12DDI_STATE_SUBOBJECT_0054, 
 req.header: d3d12umddi.h

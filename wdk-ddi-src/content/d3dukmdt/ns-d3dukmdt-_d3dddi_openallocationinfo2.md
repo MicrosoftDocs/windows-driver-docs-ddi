@@ -4,7 +4,7 @@ title: _D3DDDI_OPENALLOCATIONINFO2
 author: windows-driver-content
 description: The D3DDDI_OPENALLOCATIONINFO2 structure describes an allocation to be opened.
 ms.assetid: aade2040-999b-4094-b984-cf0ed7324c6a
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DDDI_OPENALLOCATIONINFO2, D3DDDI_OPENALLOCATIONINFO2, 
 req.header: d3dukmdt.h

@@ -4,7 +4,7 @@ title: DXGKCB_UNMAPFRAMEBUFFERPOINTER
 author: windows-driver-content
 description: Implemented by the client driver to release the mapping that was set by DXGKCB_MAPFRAMEBUFFERPOINTER.
 ms.assetid: d70a65f4-2dd2-45d5-85a6-fe2f695960a0
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header:

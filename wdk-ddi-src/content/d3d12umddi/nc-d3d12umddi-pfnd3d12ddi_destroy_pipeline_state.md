@@ -4,7 +4,7 @@ title: PFND3D12DDI_DESTROY_PIPELINE_STATE
 author: windows-driver-content
 description: Destroys the pipeline state.
 ms.assetid: 0cb38426-c17a-4d72-b47b-b8b1afcd5588
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:

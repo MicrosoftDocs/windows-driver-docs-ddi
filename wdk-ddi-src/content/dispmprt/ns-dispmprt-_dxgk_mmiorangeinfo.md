@@ -4,7 +4,7 @@ title: _DXGK_MMIORANGEINFO
 author: windows-driver-content
 description: The memory management input output range info.
 ms.assetid: 7b745a8e-fdf6-4940-b62e-48886801fc8b
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGK_MMIORANGEINFO, DXGK_MMIORANGEINFO, *PDXGK_MMIORANGEINFO, 
 req.header: dispmprt.h

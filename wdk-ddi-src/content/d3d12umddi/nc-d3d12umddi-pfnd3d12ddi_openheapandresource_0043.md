@@ -4,7 +4,7 @@ title: PFND3D12DDI_OPENHEAPANDRESOURCE_0043
 author: windows-driver-content
 description: Implemented by the client driver to open heap and resource.
 ms.assetid: e4387638-208c-4ea7-9858-773c2da0d2ba
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:

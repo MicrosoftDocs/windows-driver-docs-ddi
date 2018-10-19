@@ -4,7 +4,7 @@ title: D3D12DDI_D3D12_OPTIONS_DATA_0041
 author: windows-driver-content
 description: Display options data.
 ms.assetid: 6d069d74-5cba-413a-bcfa-77c04ab4a85a
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDI_D3D12_OPTIONS_DATA_0041, D3D12DDI_D3D12_OPTIONS_DATA_0041,
 req.header: d3d12umddi.h

@@ -4,7 +4,7 @@ title: _DXGKARG_GETBACKINGRESOURCE
 author: windows-driver-content
 description: Arguments used to get backing resources for the virtual device MMIO (memory mapped input output) bars.
 ms.assetid: a00c5507-6c9b-4dce-8bef-1d5e574c6d85
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGKARG_GETBACKINGRESOURCE, DXGKARG_GETBACKINGRESOURCE, *PDXGKARG_GETBACKINGRESOURCE, 
 req.header: dispmprt.h

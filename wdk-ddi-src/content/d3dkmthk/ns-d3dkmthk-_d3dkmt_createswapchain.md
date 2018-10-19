@@ -4,7 +4,7 @@ title: _D3DKMT_CREATESWAPCHAIN
 author: windows-driver-content
 description: Used to create a swap chain.
 ms.assetid: 998e0e16-2680-4073-88a0-81d326d482a8
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_CREATESWAPCHAIN, D3DKMT_CREATESWAPCHAIN,
 req.header: d3dkmthk.h

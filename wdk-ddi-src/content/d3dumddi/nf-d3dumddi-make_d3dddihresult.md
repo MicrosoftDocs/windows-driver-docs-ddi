@@ -4,7 +4,7 @@ title: MAKE_D3DDDIHRESULT macro
 author: windows-driver-content
 description: Makes a Direct3D handle to a result.
 ms.assetid: bd4249ac-2083-4b01-94f3-e92e5b3b096e
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: macro
 ms.keywords: MAKE_D3DDDIHRESULT
 req.header: d3dumddi.h

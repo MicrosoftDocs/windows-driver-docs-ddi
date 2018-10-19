@@ -4,7 +4,7 @@ title: PFND3D12DDI_DESTROYRASTERIZERSTATE
 author: windows-driver-content
 description: Destroy rasterizer state.
 ms.assetid: 90cbf5e8-1a54-437f-9c93-4843356159a3
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:

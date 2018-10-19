@@ -4,7 +4,7 @@ title: D3D12DDIARG_RENDER_PASS_DEPTH_STENCIL_DESC_0053
 author: windows-driver-content
 description: 
 ms.assetid: 0c85fbc9-13eb-4bf3-a08b-914b49a2d71a
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDIARG_RENDER_PASS_DEPTH_STENCIL_DESC_0053, D3D12DDIARG_RENDER_PASS_DEPTH_STENCIL_DESC_0053, 
 req.header: d3d12umddi.h

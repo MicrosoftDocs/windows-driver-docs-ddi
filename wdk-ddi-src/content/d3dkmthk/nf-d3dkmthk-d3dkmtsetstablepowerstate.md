@@ -4,7 +4,7 @@ title: D3DKMTSetStablePowerState function
 author: windows-driver-content
 description: Sets stable power state.
 ms.assetid: bad62bfe-7e61-4f2a-84e1-deb0105d36da
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTSetStablePowerState
 req.header: d3dkmthk.h

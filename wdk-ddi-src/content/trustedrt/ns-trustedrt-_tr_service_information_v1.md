@@ -4,7 +4,7 @@ title: _TR_SERVICE_INFORMATION_V1
 author: windows-driver-content
 description: 
 ms.assetid: 11c2c4fe-d391-479b-bb92-a0490f514517
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _TR_SERVICE_INFORMATION_V1, TR_SERVICE_INFORMATION_V1, *PTR_SERVICE_INFORMATION_V1, TR_SERVICE_INFORMATION, *PTR_SERVICE_INFORMATION
 req.header: trustedrt.h

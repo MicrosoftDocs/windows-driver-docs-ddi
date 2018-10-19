@@ -4,7 +4,7 @@ title: IOCTL_MINIPORT_SIGNATURE_QUERY_QUEUE_INFO
 author: windows-driver-content
 description: 
 ms.assetid: 04498f2d-a468-4b94-a762-5234e0d220a5
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: ioctl
 req.header: ntddscsi.h
 req.include-header:

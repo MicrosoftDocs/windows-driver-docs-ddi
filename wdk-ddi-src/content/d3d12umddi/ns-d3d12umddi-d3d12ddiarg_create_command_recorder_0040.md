@@ -4,7 +4,7 @@ title: D3D12DDIARG_CREATE_COMMAND_RECORDER_0040
 author: windows-driver-content
 description: Used to create a command recorder.
 ms.assetid: 753c4f0c-3e08-4a22-acff-83952694e8b9
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDIARG_CREATE_COMMAND_RECORDER_0040, D3D12DDIARG_CREATE_COMMAND_RECORDER_0040,
 req.header: d3d12umddi.h

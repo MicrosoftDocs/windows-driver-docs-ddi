@@ -4,7 +4,7 @@ title: _D3DKMT_MIRACAST_DISPLAY_DEVICE_STATUS
 author: windows-driver-content
 description: Miracast display device status.
 ms.assetid: 24c0be41-dabd-4c28-9b09-c4fc54c8e294
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_MIRACAST_DISPLAY_DEVICE_STATUS, D3DKMT_MIRACAST_DISPLAY_DEVICE_STATUS, *PD3DKMT_MIRACAST_DISPLAY_DEVICE_STATUS, 
 req.header: d3dkmthk.h

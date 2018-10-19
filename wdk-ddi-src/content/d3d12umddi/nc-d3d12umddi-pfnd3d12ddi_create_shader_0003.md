@@ -4,7 +4,7 @@ title: PFND3D12DDI_CREATE_SHADER_0003
 author: windows-driver-content
 description: Create shader.
 ms.assetid: 789087e8-bc98-4ccf-936e-cf880c89d176
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:

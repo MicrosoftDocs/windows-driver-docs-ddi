@@ -4,7 +4,7 @@ title: D3DKMTOpenSwapChain function
 author: windows-driver-content
 description: Opens a swap chain.
 ms.assetid: 9c22ba58-1f78-42ea-a320-8e5ce0cf1943
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTOpenSwapChain
 req.header: d3dkmthk.h

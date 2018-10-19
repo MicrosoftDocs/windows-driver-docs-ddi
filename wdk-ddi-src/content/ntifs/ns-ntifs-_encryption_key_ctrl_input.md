@@ -4,7 +4,7 @@ title: _ENCRYPTION_KEY_CTRL_INPUT
 author: windows-driver-content
 description: 
 ms.assetid: 33f076b8-ade2-4a34-b3ca-92baf4dcd416
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _ENCRYPTION_KEY_CTRL_INPUT, ENCRYPTION_KEY_CTRL_INPUT, *PENCRYPTION_KEY_CTRL_INPUT, 
 req.header: ntifs.h

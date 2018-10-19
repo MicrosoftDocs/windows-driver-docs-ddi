@@ -4,7 +4,7 @@ title: PFND3D12DDI_PRESENT_0051
 author: windows-driver-content
 description: The PFND3D12DDI_PRESENT_0051 callback function copies content from source allocations to a primary surface.
 ms.assetid: 191033a4-5f8c-409b-9097-a9f096267844
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:

@@ -4,7 +4,7 @@ title: _D3DKMT_VAD_DESC
 author: windows-driver-content
 description: The video acceleration display (VAD) description.
 ms.assetid: 29f67949-0db6-4fbc-b350-a77194da1ca3
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_VAD_DESC, D3DKMT_VAD_DESC, 
 req.header: d3dkmthk.h

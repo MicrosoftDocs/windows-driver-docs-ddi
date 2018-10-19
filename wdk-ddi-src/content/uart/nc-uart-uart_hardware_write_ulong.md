@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Writes a ULONG value to the specified port or register.
 tech.root: serports
 ms.assetid: 6c4f3758-dec5-4466-968d-f4eec9eee6bf
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: uart.h
 req.include-header:

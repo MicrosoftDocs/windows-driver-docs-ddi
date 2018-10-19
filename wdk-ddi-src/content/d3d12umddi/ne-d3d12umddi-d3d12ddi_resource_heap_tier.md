@@ -4,7 +4,7 @@ title: D3D12DDI_RESOURCE_HEAP_TIER
 author: windows-driver-content
 description: Specifies which resource heap tier the hardware and driver support.
 ms.assetid: 580f39c1-90f2-474b-aceb-e0e0bb456db3
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_RESOURCE_HEAP_TIER, D3D12DDI_RESOURCE_HEAP_TIER, 
 req.header: d3d12umddi.h

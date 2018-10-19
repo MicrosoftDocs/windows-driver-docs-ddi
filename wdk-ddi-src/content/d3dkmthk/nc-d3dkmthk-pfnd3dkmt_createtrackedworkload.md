@@ -4,7 +4,7 @@ title: PFND3DKMT_CREATETRACKEDWORKLOAD
 author: windows-driver-content
 description: Creates a tracked workload instance.
 ms.assetid: be3bdd91-d69e-4265-acc4-049d6927c432
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

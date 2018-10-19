@@ -4,7 +4,7 @@ title: D3DKMTEnumAdapters2 function
 author: windows-driver-content
 description: Supplies information for enumerating all graphics adapters on the system.
 ms.assetid: 9db2a84b-4aac-48df-81f6-4cb681b3c7f4
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTEnumAdapters2
 req.header: d3dkmthk.h

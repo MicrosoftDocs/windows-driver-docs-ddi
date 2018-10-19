@@ -4,7 +4,7 @@ title: _D3DKMT_ADJUSTFULLSCREENGAMMA
 author: windows-driver-content
 description: Used to adjust full screen gamma.
 ms.assetid: 655472c6-a8d5-4b7e-a6cf-02253582d656
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_ADJUSTFULLSCREENGAMMA, D3DKMT_ADJUSTFULLSCREENGAMMA, 
 req.header: d3dkmthk.h

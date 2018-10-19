@@ -4,7 +4,7 @@ title: PFND3D12DDI_BEGIN_RENDER_PASS_0053
 author: windows-driver-content
 description: Implemented by the client driver to start the Render Pass. 
 ms.assetid: 8d08ba4b-1869-45e6-aed2-267bb3db4bf5
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:

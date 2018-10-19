@@ -4,7 +4,7 @@ title: D3D12DDI_RENDER_PASS_ENDING_ACCESS_TYPE_0053
 author: windows-driver-content
 description: 
 ms.assetid: 8816fc0d-1f78-4310-a036-e4278a4a6c71
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_RENDER_PASS_ENDING_ACCESS_TYPE_0053, D3D12DDI_RENDER_PASS_ENDING_ACCESS_TYPE_0053, 
 req.header: d3d12umddi.h

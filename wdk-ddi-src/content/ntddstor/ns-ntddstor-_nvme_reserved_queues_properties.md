@@ -4,7 +4,7 @@ title: _NVME_RESERVED_QUEUES_PROPERTIES
 author: windows-driver-content
 description: 
 ms.assetid: 21902ab7-7443-42d3-9beb-f792caf7f357
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _NVME_RESERVED_QUEUES_PROPERTIES, NVME_RESERVED_QUEUES_PROPERTIES, *PNVME_RESERVED_QUEUES_PROPERTIES, 
 req.header: ntddstor.h

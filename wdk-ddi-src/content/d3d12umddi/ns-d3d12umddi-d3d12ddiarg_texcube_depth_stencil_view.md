@@ -4,7 +4,7 @@ title: D3D12DDIARG_TEXCUBE_DEPTH_STENCIL_VIEW
 author: windows-driver-content
 description: Describes a cube texture that is used to create a depth stencil view.
 ms.assetid: afc276bf-a01a-413b-8057-45d60d87162a
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDIARG_TEXCUBE_DEPTH_STENCIL_VIEW, D3D12DDIARG_TEXCUBE_DEPTH_STENCIL_VIEW, 
 req.header: d3d12umddi.h

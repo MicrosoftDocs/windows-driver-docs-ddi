@@ -4,7 +4,7 @@ title: EVT_SENSOR_DRIVER_DEVICE_IO_CONTROL
 author: windows-driver-content
 description: Callback to handle IOCTL.
 ms.assetid: 293854c7-882b-42dd-b4ef-cb19d0366e8d
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: sensorscx.h
 req.include-header:

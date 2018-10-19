@@ -4,7 +4,7 @@ title: _ERROR_HISTORY_DIRECTORY
 author: windows-driver-content
 description: 
 ms.assetid: f7b90178-a896-41de-8727-cdc2eb6daa2e
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _ERROR_HISTORY_DIRECTORY, ERROR_HISTORY_DIRECTORY, *PERROR_HISTORY_DIRECTORY, 
 req.header: storport.h

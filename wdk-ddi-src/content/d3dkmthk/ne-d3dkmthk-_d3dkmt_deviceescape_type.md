@@ -4,7 +4,7 @@ title: _D3DKMT_DEVICEESCAPE_TYPE
 author: windows-driver-content
 description: Device escape type.
 ms.assetid: d24e5059-9075-4448-8f85-aee583f9e92c
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DKMT_DEVICEESCAPE_TYPE, D3DKMT_DEVICEESCAPE_TYPE, 
 req.header: d3dkmthk.h

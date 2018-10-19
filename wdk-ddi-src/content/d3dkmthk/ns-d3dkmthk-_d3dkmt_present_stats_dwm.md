@@ -4,7 +4,7 @@ title: _D3DKMT_PRESENT_STATS_DWM
 author: windows-driver-content
 description: The present status of the desktop windows manager (DWM).
 ms.assetid: 8bd41296-e5b2-440b-a871-a644af659790
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_PRESENT_STATS_DWM, D3DKMT_PRESENT_STATS_DWM, 
 req.header: d3dkmthk.h

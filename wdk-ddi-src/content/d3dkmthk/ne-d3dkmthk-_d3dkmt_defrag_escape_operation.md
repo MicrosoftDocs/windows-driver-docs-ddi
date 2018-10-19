@@ -4,7 +4,7 @@ title: _D3DKMT_DEFRAG_ESCAPE_OPERATION
 author: windows-driver-content
 description: Defragmentation escape operations.
 ms.assetid: 50c09c88-672c-492c-bbd6-6f25ecb2ed50
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DKMT_DEFRAG_ESCAPE_OPERATION, D3DKMT_DEFRAG_ESCAPE_OPERATION, 
 req.header: d3dkmthk.h

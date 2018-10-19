@@ -4,7 +4,7 @@ title: _DXGKARG_SUBMITCOMMANDTOHWQUEUE
 author: windows-driver-content
 description: Arguments used to submit a command to the hardware queue.
 ms.assetid: 914e7a49-0336-4c99-850f-95defcc4218e
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGKARG_SUBMITCOMMANDTOHWQUEUE, DXGKARG_SUBMITCOMMANDTOHWQUEUE,
 req.header: d3dkmddi.h

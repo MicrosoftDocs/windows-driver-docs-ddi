@@ -4,7 +4,7 @@ title: DXGKDDI_QUERYDIAGNOSTICTYPESSUPPORT
 author: windows-driver-content
 description: The OS calls the DXGKDDI_QUERYDIAGNOSTICTYPESSUPPORT callback function to discover what types of diagnostic the driver supports for the passed diagnostic category.
 ms.assetid: ad14a3b9-d0bf-4292-8e53-7f51544d96c5
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: dispmprt.h
 req.include-header:

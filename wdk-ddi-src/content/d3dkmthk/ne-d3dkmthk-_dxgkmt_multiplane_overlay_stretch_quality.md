@@ -4,7 +4,7 @@ title: _DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY
 author: windows-driver-content
 description: Multiplane overlay stretch quality.
 ms.assetid: 3591496e-cc49-43b1-b048-1f37e96159fd
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY, DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY, 
 req.header: d3dkmthk.h

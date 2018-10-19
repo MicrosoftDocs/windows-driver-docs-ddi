@@ -4,7 +4,7 @@ title: _D3DDDI_RECLAIM_RESULT
 author: windows-driver-content
 description: Specifies result flags for the ReclaimAllocations callback function.
 ms.assetid: 5d484da2-3a78-4061-ac72-55101957707f
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DDDI_RECLAIM_RESULT, D3DDDI_RECLAIM_RESULT, 
 req.header: d3dukmdt.h

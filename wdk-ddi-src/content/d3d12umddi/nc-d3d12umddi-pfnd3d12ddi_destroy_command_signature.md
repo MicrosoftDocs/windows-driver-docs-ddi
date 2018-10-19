@@ -4,7 +4,7 @@ title: PFND3D12DDI_DESTROY_COMMAND_SIGNATURE
 author: windows-driver-content
 description: Destroys a command signature.
 ms.assetid: c114db95-eabb-4bd0-af4f-d4b72032442b
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:

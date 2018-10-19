@@ -4,7 +4,7 @@ title: _D3DBLENDOP
 author: windows-driver-content
 description: 
 ms.assetid: 65633e28-5a35-49d1-8120-7732a5f47f02
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DBLENDOP, D3DBLENDOP, 
 req.header: d3d9types.h

@@ -4,7 +4,7 @@ title: D3DKMTGetAllocationPriority function
 author: windows-driver-content
 description: Gets allocation priority.
 ms.assetid: 2aaf0b1a-1c15-4db0-8400-18a02ab46903
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTGetAllocationPriority
 req.header: d3dkmthk.h

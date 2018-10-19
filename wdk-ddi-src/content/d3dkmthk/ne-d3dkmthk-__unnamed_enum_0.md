@@ -4,7 +4,7 @@ title: __unnamed_enum_0
 author: windows-driver-content
 description: Enumeration to contain the upper boundary on the DMM (display mode manager) escape data size (in bytes).
 ms.assetid: e8254986-df5b-46f0-9b88-a2e42420839e
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: __unnamed_enum_0, , 
 req.header: d3dkmthk.h

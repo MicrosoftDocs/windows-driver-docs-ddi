@@ -4,7 +4,7 @@ title: _D3DDDICB_SYNCTOKEN
 author: windows-driver-content
 description: Arguments used to create a sync token.
 ms.assetid: a2e0a873-4d80-4230-8486-bca477b4aa1c
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DDDICB_SYNCTOKEN, D3DDDICB_SYNCTOKEN, D3DDDICB_ACQUIRERESOURCE
 req.header: d3dumddi.h

@@ -4,7 +4,7 @@ title: _D3DKMDT_3X4_COLORSPACE_TRANSFORM
 author: windows-driver-content
 description: Structure to describe the three programmable sub-stages of the 3 by 4 matrix color space transform.
 ms.assetid: 2797701a-8924-4292-ad6f-d015993d86a3
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMDT_3X4_COLORSPACE_TRANSFORM, D3DKMDT_3x4_COLORSPACE_TRANSFORM, *PD3DDDI_3x4_COLORSPACE_TRANSFORM, 
 req.header: d3dukmdt.h

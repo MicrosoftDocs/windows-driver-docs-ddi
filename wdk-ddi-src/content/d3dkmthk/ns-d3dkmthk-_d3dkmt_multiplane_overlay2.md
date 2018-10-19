@@ -4,7 +4,7 @@ title: _D3DKMT_MULTIPLANE_OVERLAY2
 author: windows-driver-content
 description: Multiplane overlay structure.
 ms.assetid: 134dae27-808d-48c3-8d3e-9fac505e1915
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_MULTIPLANE_OVERLAY2, D3DKMT_MULTIPLANE_OVERLAY2, 
 req.header: d3dkmthk.h

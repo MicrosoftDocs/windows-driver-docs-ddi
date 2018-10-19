@@ -4,7 +4,7 @@ title: _DEVICE_DSM_DEFINITION
 author: windows-driver-content
 description: 
 ms.assetid: a43aff7d-1731-469d-8681-8c8aaaeff1a1
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DEVICE_DSM_DEFINITION, DEVICE_DSM_DEFINITION, *PDEVICE_DSM_DEFINITION, 
 req.header: ntddstor.h

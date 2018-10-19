@@ -4,7 +4,7 @@ title: PFND3DKMT_OUTPUTDUPLGETPOINTERSHAPEDATA
 author: windows-driver-content
 description: The PFND3DKMT_OUTPUTDUPLGETPOINTERSHAPEDATA callback function gets output duplicate pointer shape data.
 ms.assetid: 0c69e0f9-143e-4254-897f-a27a7562cda7
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

@@ -4,7 +4,7 @@ title: _PROCESS_MITIGATION_POLICY
 author: windows-driver-content
 description: Represents the different process mitigation policies.
 ms.assetid: a5d6d94a-b03e-45cc-bb3a-9c9a770fa6f4
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _PROCESS_MITIGATION_POLICY, PROCESS_MITIGATION_POLICY, *PPROCESS_MITIGATION_POLICY, 
 req.header: ntddk.h

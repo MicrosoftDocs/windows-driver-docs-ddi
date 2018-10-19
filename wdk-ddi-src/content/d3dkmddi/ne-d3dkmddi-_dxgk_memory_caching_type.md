@@ -4,7 +4,7 @@ title: _DXGK_MEMORY_CACHING_TYPE
 author: windows-driver-content
 description: Describes the memory caching types during allocation.
 ms.assetid: a3bffea3-bd15-4acc-98ba-9c87352b9113
-ms.date:
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _DXGK_MEMORY_CACHING_TYPE, DXGK_MEMORY_CACHING_TYPE,
 req.header: d3dkmddi.h

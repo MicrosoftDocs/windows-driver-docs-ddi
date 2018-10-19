@@ -4,7 +4,7 @@ title: _TREE_RPMB_COMMAND_OUTPUT
 author: windows-driver-content
 description: 
 ms.assetid: ca04d402-3a34-410b-baaa-26de29225bd1
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _TREE_RPMB_COMMAND_OUTPUT, TREE_RPMB_COMMAND_OUTPUT, *PTREE_RPMB_COMMAND_OUTPUT, 
 req.header: treerpmbservice.h

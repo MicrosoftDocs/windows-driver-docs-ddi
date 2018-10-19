@@ -4,7 +4,7 @@ title: PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECT
 author: windows-driver-content
 description: The PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECT callback function inserts a wait for the specified synchronization objects in the specified context stream.
 ms.assetid: 9e4e8e4e-e326-4571-aee1-ad731b65d53c
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

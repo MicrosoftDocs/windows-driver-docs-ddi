@@ -4,7 +4,7 @@ title: IMAGE_POLICY_OVERRIDE macro
 author: windows-driver-content
 description: Reserved.
 ms.assetid: 6cf5ea63-61f3-4680-82bc-157b3db4bcb9
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: macro
 ms.keywords: IMAGE_POLICY_OVERRIDE
 req.header: wdm.h

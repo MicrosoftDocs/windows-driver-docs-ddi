@@ -4,7 +4,7 @@ title: PFND3DKMT_DESTROYOVERLAY
 author: windows-driver-content
 description: The PFND3DKMT_DESTROYOVERLAY callback function disables overlay hardware and deletes the specified overlay handle.
 ms.assetid: 28e665a1-8278-49ed-bfe8-2a28596967df
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

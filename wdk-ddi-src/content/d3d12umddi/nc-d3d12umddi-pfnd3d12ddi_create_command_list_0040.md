@@ -4,7 +4,7 @@ title: PFND3D12DDI_CREATE_COMMAND_LIST_0040
 author: windows-driver-content
 description: Pointer to the CreateCommandList function that creates a command list.
 ms.assetid: 24bc19f0-9345-4c56-95cf-7b0c9a0f8840
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:

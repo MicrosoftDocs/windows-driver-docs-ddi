@@ -4,7 +4,7 @@ title: _UFX_CLASS_FUNCTIONS
 author: windows-driver-content
 description: 
 ms.assetid: 0acaec8d-ed14-4acb-826b-8bd1552dadd6
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _UFX_CLASS_FUNCTIONS, UFX_CLASS_FUNCTIONS, 
 req.header: ufxbase.h

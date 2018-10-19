@@ -4,7 +4,7 @@ title: _SAVED_INTERNAL_STATUS_PARAMETER_DATA
 author: windows-driver-content
 description: 
 ms.assetid: 31a20525-f950-454a-a158-4cb01dd4d8d6
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _SAVED_INTERNAL_STATUS_PARAMETER_DATA, SAVED_INTERNAL_STATUS_PARAMETER_DATA, *PSAVED_INTERNAL_STATUS_PARAMETER_DATA, 
 req.header: storport.h

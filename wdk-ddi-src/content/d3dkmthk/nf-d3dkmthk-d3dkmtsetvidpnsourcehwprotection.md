@@ -4,7 +4,7 @@ title: D3DKMTSetVidPnSourceHwProtection function
 author: windows-driver-content
 description: Sets VidPn source hardware protection.
 ms.assetid: 33f3062e-347a-43ad-b261-4ef6505dbd31
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTSetVidPnSourceHwProtection
 req.header: d3dkmthk.h

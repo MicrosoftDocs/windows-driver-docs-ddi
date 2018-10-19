@@ -4,7 +4,7 @@ title: *PFN_SENSORSCXDEVICEINITIALIZE
 author: windows-driver-content
 description: Initializes the sensor in the class extension.
 ms.assetid: cc62e248-377f-4018-89c5-618264a98a4e
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: sensorscx.h
 req.include-header:

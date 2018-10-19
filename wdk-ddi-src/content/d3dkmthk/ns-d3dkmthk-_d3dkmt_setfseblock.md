@@ -4,7 +4,7 @@ title: _D3DKMT_SETFSEBLOCK
 author: windows-driver-content
 description: Used to set the FSE (full screen exclusive) block.
 ms.assetid: cec9303d-3f3c-4cb1-ace7-7c29d756c598
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_SETFSEBLOCK, D3DKMT_SETFSEBLOCK, 
 req.header: d3dkmthk.h

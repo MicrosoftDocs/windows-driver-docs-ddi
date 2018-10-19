@@ -4,7 +4,7 @@ title: AXIS
 author: windows-driver-content
 description: Defines 3D coordinates.
 ms.assetid: cdac1a8d-304d-4f98-becf-6608d0d99154
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: AXIS, AXIS, *PAXIS, 
 tech.root: sensors

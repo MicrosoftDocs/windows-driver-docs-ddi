@@ -4,7 +4,7 @@ title: PFND3D12DDI_CREATEVIDEOPROCESSOR_0043
 author: windows-driver-content
 description: Used to create a video processor.
 ms.assetid: 23658659-2c91-4257-ab20-ef3df15f1262
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:

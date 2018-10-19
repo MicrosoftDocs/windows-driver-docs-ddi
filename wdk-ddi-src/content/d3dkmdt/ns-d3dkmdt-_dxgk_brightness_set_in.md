@@ -4,7 +4,7 @@ title: _DXGK_BRIGHTNESS_SET_IN
 author: windows-driver-content
 description:
 ms.assetid: c19ab02a-7216-4a94-8d8c-832bdcf22c02
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGK_BRIGHTNESS_SET_IN, *PDXGK_BRIGHTNESS_SET_IN, DXGK_BRIGHTNESS_SET_IN,
 req.header: d3dkmdt.h

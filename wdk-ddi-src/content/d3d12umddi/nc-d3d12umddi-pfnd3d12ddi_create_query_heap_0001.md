@@ -4,7 +4,7 @@ title: PFND3D12DDI_CREATE_QUERY_HEAP_0001
 author: windows-driver-content
 description: Creates a query heap.
 ms.assetid: e41fa597-73da-4498-a59d-9fd1249e4020
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:

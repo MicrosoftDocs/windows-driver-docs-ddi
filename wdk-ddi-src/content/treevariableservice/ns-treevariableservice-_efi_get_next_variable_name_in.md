@@ -4,7 +4,7 @@ title: _EFI_GET_NEXT_VARIABLE_NAME_IN
 author: windows-driver-content
 description: 
 ms.assetid: 78e40fb3-d69d-49a8-b095-4650a4ab7e08
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _EFI_GET_NEXT_VARIABLE_NAME_IN, EFI_GET_NEXT_VARIABLE_NAME_IN, *PEFI_GET_NEXT_VARIABLE_NAME_IN, 
 req.header: treevariableservice.h

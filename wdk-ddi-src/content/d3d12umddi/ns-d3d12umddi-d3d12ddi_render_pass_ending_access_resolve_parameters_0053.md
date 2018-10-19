@@ -4,7 +4,7 @@ title: D3D12DDI_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS_0053
 author: windows-driver-content
 description: Parameters used in the D3D12DDI_RENDER_PASS_ENDING_ACCESS_0053 structure, when the Render Pass is ending access.
 ms.assetid: b9e784ff-1cfd-49bc-a12e-fa60a8d30d27
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDI_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS_0053, D3D12DDI_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS_0053, 
 req.header: d3d12umddi.h
