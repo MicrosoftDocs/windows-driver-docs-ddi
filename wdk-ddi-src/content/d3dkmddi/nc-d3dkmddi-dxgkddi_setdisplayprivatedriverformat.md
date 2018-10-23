@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The DxgkDdiSetDisplayPrivateDriverFormat function changes the private-format attribute of a video present source.
 old-location: display\dxgkddisetdisplayprivatedriverformat.htm
 ms.assetid: 053fdf22-20c3-4b57-94f4-0613857abfa7
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_SETDISPLAYPRIVATEDRIVERFORMAT, DXGKDDI_SETDISPLAYPRIVATEDRIVERFORMAT callback, DmFunctions_4171835f-0a79-4161-9bcd-c7311c9905ac.xml, DxgkDdiSetDisplayPrivateDriverFormat, DxgkDdiSetDisplayPrivateDriverFormat callback function [Display Devices], d3dkmddi/DxgkDdiSetDisplayPrivateDriverFormat, display.dxgkddisetdisplayprivatedriverformat
 ms.topic: callback
 req.header: d3dkmddi.h

@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilradioconfiguration.htm
 tech.root: netvista
 ms.assetid: 24ff04b3-aec2-4bce-aa85-e33f3dbffa22
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILRADIOCONFIGURATION, RILRADIOCONFIGURATION, RILRADIOCONFIGURATION structure [Network Drivers Starting with Windows Vista], netvista.rilradioconfiguration, ntddrilapitypes/RILRADIOCONFIGURATION"
 ms.topic: struct
 req.header: ntddrilapitypes.h

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Describes a resource to create.
 old-location: display\d3d11ddiarg_createresource.htm
 ms.assetid: 4cdc5d74-ef53-47aa-91ed-0b71dfe688dc
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D11DDIARG_CREATERESOURCE, D3D11DDIARG_CREATERESOURCE structure [Display Devices], UMDisplayDriver_Dx11param_Structs_86915c01-2d64-42d6-bae0-2a83ba1dda80.xml, d3d10umddi/D3D11DDIARG_CREATERESOURCE, display.d3d11ddiarg_createresource
 ms.topic: struct
 req.header: d3d10umddi.h

@@ -6,7 +6,7 @@ description: The KeQueryActiveGroupCount routine returns the number of active pr
 old-location: kernel\kequeryactivegroupcount.htm
 tech.root: kernel
 ms.assetid: a5447dd8-6a4f-4686-b4e3-7deb4b61ff92
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeQueryActiveGroupCount, KeQueryActiveGroupCount routine [Kernel-Mode Driver Architecture], k105_29b5c7ca-1596-4a3e-8cda-20c6ccec4ebb.xml, kernel.kequeryactivegroupcount, wdm/KeQueryActiveGroupCount
 ms.topic: function
 req.header: ntddk.h

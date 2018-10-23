@@ -6,7 +6,7 @@ description: The READ_REGISTER_BUFFER_ULONG64 function reads a number of ULONG64
 old-location: wdf\read_register_buffer_ulong64.htm
 tech.root: wdf
 ms.assetid: 8961126F-FE54-4369-A929-6CC4BDC67598
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: READ_REGISTER_BUFFER_ULONG64, READ_REGISTER_BUFFER_ULONG64 function, umdf.read_register_buffer_ulong64, wdf.read_register_buffer_ulong64, wudfddi_hwaccess/READ_REGISTER_BUFFER_ULONG64
 ms.topic: function
 req.header: wudfddi_hwaccess.h

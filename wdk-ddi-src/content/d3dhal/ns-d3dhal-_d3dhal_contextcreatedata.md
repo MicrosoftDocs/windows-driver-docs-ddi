@@ -6,7 +6,7 @@ description: The D3DHAL_CONTEXTCREATEDATA structure contains all of the informat
 old-location: display\d3dhal_contextcreatedata.htm
 tech.root: display
 ms.assetid: 9ad169a8-81a7-497c-849a-c36be66caa8e
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_CONTEXTCREATEDATA, D3DHAL_CONTEXTCREATEDATA, D3DHAL_CONTEXTCREATEDATA structure [Display Devices], LPD3DHAL_CONTEXTCREATEDATA, LPD3DHAL_CONTEXTCREATEDATA structure pointer [Display Devices], _D3DHAL_CONTEXTCREATEDATA, d3dhal/D3DHAL_CONTEXTCREATEDATA, d3dhal/LPD3DHAL_CONTEXTCREATEDATA, d3dstrct_46c9dd06-302d-423b-8cd6-fc81a4227ab4.xml, display.d3dhal_contextcreatedata"
 ms.topic: struct
 req.header: d3dhal.h

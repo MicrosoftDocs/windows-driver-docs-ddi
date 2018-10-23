@@ -4,7 +4,7 @@ title: PFND3DKMT_GETSETSWAPCHAINMETADATA
 author: windows-driver-content
 description: Pfnd3dkmtGetsetswapchainmetadata gets swap chain metadata.
 ms.assetid: b9b26c3c-4708-4ac6-b7ca-6714c1e1ce2c
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

@@ -4,7 +4,7 @@ title: D3D12DDI_RAYTRACING_GEOMETRY_TRIANGLES_DESC_0054
 author: windows-driver-content
 description: Describes a ray tracing triangle geometry.
 ms.assetid: bd34c803-32d9-4976-bce7-adc492c36a47
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDI_RAYTRACING_GEOMETRY_TRIANGLES_DESC_0054, D3D12DDI_RAYTRACING_GEOMETRY_TRIANGLES_DESC_0054, 
 req.header: d3d12umddi.h

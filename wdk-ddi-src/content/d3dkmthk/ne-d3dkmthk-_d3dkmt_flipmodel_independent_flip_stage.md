@@ -4,7 +4,7 @@ title: _D3DKMT_FLIPMODEL_INDEPENDENT_FLIP_STAGE
 author: windows-driver-content
 description: Flip model's independent flip stages.
 ms.assetid: 4f421100-9806-4b1a-ab53-8e04d969501b
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DKMT_FLIPMODEL_INDEPENDENT_FLIP_STAGE, D3DKMT_FLIPMODEL_INDEPENDENT_FLIP_STAGE, 
 req.header: d3dkmthk.h

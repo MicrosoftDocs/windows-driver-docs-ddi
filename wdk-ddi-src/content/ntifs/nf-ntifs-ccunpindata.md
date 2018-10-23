@@ -6,7 +6,7 @@ description: The CcUnpinData routine releases cached file data that was mapped o
 old-location: ifsk\ccunpindata.htm
 tech.root: ifsk
 ms.assetid: a06bbe25-9841-4aeb-9d51-257dd1472027
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: CcUnpinData, CcUnpinData routine [Installable File System Drivers], ccref_ba560a38-4d3b-409f-b1ea-19c3a117615e.xml, ifsk.ccunpindata, ntifs/CcUnpinData
 ms.topic: function
 req.header: ntifs.h

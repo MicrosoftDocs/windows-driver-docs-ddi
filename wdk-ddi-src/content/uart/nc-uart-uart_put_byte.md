@@ -5,7 +5,7 @@ author: windows-driver-content
 description:  Writes a data byte to the UART device.
 tech.root: serports
 ms.assetid: d4db9a6d-b9ef-4b88-9f12-b4fe437eaa4b
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: uart.h
 req.include-header:

@@ -6,7 +6,7 @@ description: The RtlRandom routine returns a random number that was generated fr
 old-location: ifsk\rtlrandom.htm
 tech.root: ifsk
 ms.assetid: f3975ad7-8eb8-4f46-8024-6a1decc21c77
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlRandom, RtlRandom routine [Installable File System Drivers], ifsk.rtlrandom, ntifs/RtlRandom, rtlref_c9c196b4-7335-4320-ae7f-7c565b6f73e6.xml
 ms.topic: function
 req.header: ntifs.h

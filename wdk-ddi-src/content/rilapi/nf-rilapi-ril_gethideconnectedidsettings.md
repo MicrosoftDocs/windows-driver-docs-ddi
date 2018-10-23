@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_gethideconnectedidsettings.htm
 tech.root: netvista
 ms.assetid: fd5f8556-0038-4700-87cf-61e9daa17d90
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_GetHideConnectedIdSettings, RIL_GetHideConnectedIdSettings method [Network Drivers Starting with Windows Vista], netvista.ril_gethideconnectedidsettings, rilapi/RIL_GetHideConnectedIdSettings
 ms.topic: function
 req.header: rilapi.h

@@ -6,7 +6,7 @@ description: The FUNCTION_LEVEL_DEVICE_RESET_PARAMETER structure is used as an a
 old-location: kernel\function_level_device_reset_parameters.htm
 tech.root: kernel
 ms.assetid: A9DDBE59-A318-427C-9BB4-ECB770C9B949
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS structure [Kernel-Mode Driver Architecture], PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], _FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, kernel.function_level_device_reset_parameters, wdm/FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, wdm/PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS"
 ms.topic: struct
 req.header: wdm.h

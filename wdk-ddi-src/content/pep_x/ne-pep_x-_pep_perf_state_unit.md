@@ -6,7 +6,7 @@ description: The PEP_PERF_STATE_UNIT enumeration indicates the measurement units
 old-location: kernel\pep_perf_state_unit.htm
 tech.root: kernel
 ms.assetid: 5E5F049D-4306-4382-B3F7-06C1F5FFE93E
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_PERF_STATE_UNIT, PEP_PERF_STATE_UNIT, PEP_PERF_STATE_UNIT enumeration [Kernel-Mode Driver Architecture], PepPerfStateUnitBandwidth, PepPerfStateUnitFrequency, PepPerfStateUnitMax, PepPerfStateUnitOther, _PEP_PERF_STATE_UNIT, kernel.pep_perf_state_unit, pepfx/PEP_PERF_STATE_UNIT, pepfx/PepPerfStateUnitBandwidth, pepfx/PepPerfStateUnitFrequency, pepfx/PepPerfStateUnitMax, pepfx/PepPerfStateUnitOther"
 ms.topic: enum
 req.header: pep_x.h

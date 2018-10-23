@@ -6,7 +6,7 @@ description: The HBA_CloseAdapter routine releases system resources associated w
 old-location: storage\hba_closeadapter.htm
 tech.root: storage
 ms.assetid: 404c7f82-02dd-4145-91e3-8820f6cbf781
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_CloseAdapter, HBA_CloseAdapter routine [Storage Devices], fibreHBA_rtns_dcbe3983-fc4d-4a50-886b-6fdb138296a7.xml, hbaapi/HBA_CloseAdapter, storage.hba_closeadapter
 ms.topic: function
 req.header: hbaapi.h

@@ -6,7 +6,7 @@ description: Adds a new IPortableDevicePropVariantCollection value (type VT_UNKN
 old-location: wpddk\iportabledevicevalues_setiportabledevicepropvariantcollectionvalue.htm
 tech.root: wpd_dk
 ms.assetid: b5cf93f3-e648-4b61-8c9a-8e9080acd424
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IPortableDeviceValues interface,SetIPortableDevicePropVariantCollectionValue method, IPortableDeviceValues.SetIPortableDevicePropVariantCollectionValue, IPortableDeviceValues::SetIPortableDevicePropVariantCollectionValue, IPortableDeviceValuesSetIPortableDevicePropVariantCollectionValue, SetIPortableDevicePropVariantCollectionValue, SetIPortableDevicePropVariantCollectionValue method, SetIPortableDevicePropVariantCollectionValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetIPortableDevicePropVariantCollectionValue, wpddk.iportabledevicevalues_setiportabledevicepropvariantcollectionvalue
 ms.topic: method
 req.header: portabledevicetypes.h

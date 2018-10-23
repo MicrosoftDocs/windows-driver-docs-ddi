@@ -6,7 +6,7 @@ description: The NdkSrqReceive (NDK_FN_SRQ_RECEIVE) function posts a receive req
 old-location: netvista\ndk_fn_srq_receive.htm
 tech.root: netvista
 ms.assetid: 1D615DEA-5599-4A3D-AEE7-BDBFE9D40C47
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_FN_SRQ_RECEIVE, NDK_FN_SRQ_RECEIVE callback, NdkSrqReceive, NdkSrqReceive callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkSrqReceive, netvista.ndk_fn_srq_receive
 ms.topic: callback
 req.header: ndkpi.h

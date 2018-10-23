@@ -6,7 +6,7 @@ description: The WHEA_NMI_ERROR_SECTION structure describes nonmaskable interrup
 old-location: whea\whea_nmi_error_section.htm
 tech.root: whea
 ms.assetid: 960186a4-09ca-4636-b704-166137da6113
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: "*PWHEA_NMI_ERROR_SECTION, PWHEA_NMI_ERROR_SECTION, PWHEA_NMI_ERROR_SECTION structure pointer [WHEA Drivers and Applications], WHEA_NMI_ERROR_SECTION, WHEA_NMI_ERROR_SECTION structure [WHEA Drivers and Applications], _WHEA_NMI_ERROR_SECTION, ntddk/PWHEA_NMI_ERROR_SECTION, ntddk/WHEA_NMI_ERROR_SECTION, whea.whea_nmi_error_section, whearef_295c8b30-1ec5-41a3-ba50-f00c1b1b5524.xml"
 ms.topic: struct
 req.header: ntddk.h

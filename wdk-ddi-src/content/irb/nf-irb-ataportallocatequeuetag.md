@@ -6,7 +6,7 @@ description: The AtaPortAllocateQueueTag routine returns a queue tag for the spe
 old-location: storage\ataportallocatequeuetag.htm
 tech.root: storage
 ms.assetid: e298f51b-58b7-4f04-85d3-3ee809deb489
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: AtaPortAllocateQueueTag, AtaPortAllocateQueueTag routine [Storage Devices], atartns_bae1e6d8-6ae5-4428-88a6-334a63fcefae.xml, irb/AtaPortAllocateQueueTag, storage.ataportallocatequeuetag
 ms.topic: function
 req.header: irb.h

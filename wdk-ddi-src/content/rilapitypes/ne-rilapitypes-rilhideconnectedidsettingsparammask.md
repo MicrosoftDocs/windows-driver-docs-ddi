@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilhideconnectedidsettingsparammask.htm
 tech.root: netvista
 ms.assetid: 24d14690-4c74-46d2-ad57-3e21edb00509
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILHIDECONNECTEDIDSETTINGSPARAMMASK, RILHIDECONNECTEDIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_HCIDS_ALL, RIL_PARAM_HCIDS_PROVISIONING, RIL_PARAM_HCIDS_STATUS, netvista.rilhideconnectedidsettingsparammask, ntddrilapitypes/RILHIDECONNECTEDIDSETTINGSPARAMMASK, ntddrilapitypes/RIL_PARAM_HCIDS_ALL, ntddrilapitypes/RIL_PARAM_HCIDS_PROVISIONING, ntddrilapitypes/RIL_PARAM_HCIDS_STATUS
 ms.topic: enum
 req.header: rilapitypes.h

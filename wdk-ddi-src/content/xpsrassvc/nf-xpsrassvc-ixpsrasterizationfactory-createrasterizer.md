@@ -6,7 +6,7 @@ description: The CreateRasterize method creates an XPS rasterizer object.
 old-location: print\ixpsrasterizationfactory_createrasterizer.htm
 tech.root: print
 ms.assetid: 07d4f1ed-5dbe-47c1-96e8-dfe21e0c1d0d
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: CreateRasterizer, CreateRasterizer method [Print Devices], CreateRasterizer method [Print Devices],IXpsRasterizationFactory interface, IXpsRasterizationFactory interface [Print Devices],CreateRasterizer method, IXpsRasterizationFactory.CreateRasterizer, IXpsRasterizationFactory::CreateRasterizer, print.ixpsrasterizationfactory_createrasterizer, print_xpsrast_5eddcd20-40a0-47da-8b1c-94d17902d783.xml, xpsrassvc/IXpsRasterizationFactory::CreateRasterizer
 ms.topic: method
 req.header: xpsrassvc.h
@@ -57,7 +57,7 @@ The <code>CreateRasterize</code> method creates an XPS rasterizer object.
 
 ### -param xpsPage [in, optional]
 
-Pointer to an <b>IXpsOMPage</b> object that represents the XPS fixed page to render. This object encapsulates a FixedPage section from an XPS document. For more information about <b>IXpsOMPage</b>, see <a href="http://go.microsoft.com/fwlink/p/?linkid=146349">IXpsOMPage</a><u>.</u>
+Pointer to an <b>IXpsOMPage</b> object that represents the XPS fixed page to render. This object encapsulates a FixedPage section from an XPS document. For more information about <b>IXpsOMPage</b>, see <a href="https://go.microsoft.com/fwlink/p/?linkid=146349">IXpsOMPage</a><u>.</u>
 
 
 ### -param DPI [in]
@@ -160,9 +160,9 @@ This method is supported in Windows 7 and later. It is not supported in versions
 
 Typically, an XPSDrv filter in an XPS pipeline calls this method to obtain an XPS rasterizer. It then uses the rasterizer to rasterize the XPS fixed page encapsulated by the object to which the parameter <i>xpsPage</i> points .
 
-The parameter <i>DPI</i> specifies the printer resolution, which is assumed to be the same in both the horizontal and vertical dimensions. The width and height of the XPS fixed page, which can be obtained from the <b>IXpsOMPage::GetPageDimensions</b> method, are expressed in 1/96-inch units. Multiply these width and height values by <i>DPI</i>/96 to determine the width and height, in pixels, of the rasterized page. For more information about <b>IXpsOMPage::GetPageDimensions</b>, see <a href="http://go.microsoft.com/fwlink/p/?linkid=146350">IXpsOMPage</a>. For more information about how the XPS rasterizer object uses the DPI value, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>.
+The parameter <i>DPI</i> specifies the printer resolution, which is assumed to be the same in both the horizontal and vertical dimensions. The width and height of the XPS fixed page, which can be obtained from the <b>IXpsOMPage::GetPageDimensions</b> method, are expressed in 1/96-inch units. Multiply these width and height values by <i>DPI</i>/96 to determine the width and height, in pixels, of the rasterized page. For more information about <b>IXpsOMPage::GetPageDimensions</b>, see <a href="https://go.microsoft.com/fwlink/p/?linkid=146350">IXpsOMPage</a>. For more information about how the XPS rasterizer object uses the DPI value, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>.
 
-If successful, the method creates an XPS rasterizer object and passes to the caller a counted reference to the object's <b>IXpsRasterizer</b> interface. When the object is no longer needed, the caller is responsible for releasing the object by calling the <a href="http://go.microsoft.com/fwlink/p/?linkid=98433">Release</a> method on the object's <b>IXpsRasterizer</b> interface.
+If successful, the method creates an XPS rasterizer object and passes to the caller a counted reference to the object's <b>IXpsRasterizer</b> interface. When the object is no longer needed, the caller is responsible for releasing the object by calling the <a href="https://go.microsoft.com/fwlink/p/?linkid=98433">Release</a> method on the object's <b>IXpsRasterizer</b> interface.
 
 If the method fails and <i>ppIXPSRasterizer</i> is non-<b>NULL</b>, the method sets *<i>ppIXPSRasterizer</i> = <b>NULL</b>.
 

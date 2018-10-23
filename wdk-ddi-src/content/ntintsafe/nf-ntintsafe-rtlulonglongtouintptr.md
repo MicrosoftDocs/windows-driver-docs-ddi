@@ -6,7 +6,7 @@ description: Converts a value of type ULONGLONG to a value of type UINT_PTR.
 old-location: kernel\rtlulonglongtouintptr.htm
 tech.root: kernel
 ms.assetid: A6B49838-11DE-4860-9D4C-D55D21C54157
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlULongLongToUIntPtr, RtlULongLongToUIntPtr function [Kernel-Mode Driver Architecture], kernel.rtlulonglongtouintptr, ntintsafe/RtlULongLongToUIntPtr
 ms.topic: function
 req.header: ntintsafe.h

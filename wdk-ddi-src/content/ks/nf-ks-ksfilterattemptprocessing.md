@@ -6,7 +6,7 @@ description: The KsFilterAttemptProcessing function attempts to initiate process
 old-location: stream\ksfilterattemptprocessing.htm
 tech.root: stream
 ms.assetid: 22c6bd15-98b7-4905-8551-c8202cc6840b
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsFilterAttemptProcessing, KsFilterAttemptProcessing function [Streaming Media Devices], avfunc_ee888474-cf0c-4b23-b8a2-f1e7491db8fd.xml, ks/KsFilterAttemptProcessing, stream.ksfilterattemptprocessing
 ms.topic: function
 req.header: ks.h

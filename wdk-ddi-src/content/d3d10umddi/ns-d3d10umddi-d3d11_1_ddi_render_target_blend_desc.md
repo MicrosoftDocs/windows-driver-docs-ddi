@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Describes a blend state for a render target. Used by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 old-location: display\d3d11_1_ddi_render_target_blend_desc.htm
 ms.assetid: ad90ad4c-625f-4177-8160-cd6576942c91
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D11_1_DDI_RENDER_TARGET_BLEND_DESC, D3D11_1_DDI_RENDER_TARGET_BLEND_DESC structure [Display Devices], d3d10umddi/D3D11_1_DDI_RENDER_TARGET_BLEND_DESC, display.d3d11_1_ddi_render_target_blend_desc
 ms.topic: struct
 req.header: d3d10umddi.h

@@ -6,7 +6,7 @@ description: The FormatRequestForRead method formats an I/O request object for a
 old-location: wdf\iwdfiotarget_formatrequestforread.htm
 tech.root: wdf
 ms.assetid: 8a1b61c8-8b85-4224-ae20-3788eb0babe4
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: FormatRequestForRead, FormatRequestForRead method, FormatRequestForRead method,IWDFIoTarget interface, IWDFIoTarget interface,FormatRequestForRead method, IWDFIoTarget.FormatRequestForRead, IWDFIoTarget::FormatRequestForRead, UMDFIoTargetObjectRef_49d4b6d7-0cd7-4d8a-9b16-7ecc89f82f1e.xml, umdf.iwdfiotarget_formatrequestforread, wdf.iwdfiotarget_formatrequestforread, wudfddi/IWDFIoTarget::FormatRequestForRead
 ms.topic: method
 req.header: wudfddi.h

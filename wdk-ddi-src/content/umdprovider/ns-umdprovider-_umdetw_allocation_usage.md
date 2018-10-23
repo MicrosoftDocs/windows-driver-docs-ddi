@@ -6,7 +6,7 @@ description: Indicates the reason for mapping from a Microsoft Direct3D memory a
 old-location: display\umdetw_allocation_usage.htm
 tech.root: display
 ms.assetid: 40522471-0fbc-4193-8164-60138e3862fe
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: UMDETW_ALLOCATION_USAGE, UMDETW_ALLOCATION_USAGE structure [Display Devices], _UMDETW_ALLOCATION_USAGE, display.umdetw_allocation_usage, umdprovider/UMDETW_ALLOCATION_USAGE
 ms.topic: struct
 req.header: umdprovider.h

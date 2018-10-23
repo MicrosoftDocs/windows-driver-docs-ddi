@@ -6,7 +6,7 @@ description: The PoFxSetComponentWake routine indicates whether the driver arms 
 old-location: kernel\pofxsetcomponentwake.htm
 tech.root: kernel
 ms.assetid: BE2E35B0-1C34-4740-ABED-4E96F8908174
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PoFxSetComponentWake, PoFxSetComponentWake routine [Kernel-Mode Driver Architecture], kernel.pofxsetcomponentwake, wdm/PoFxSetComponentWake
 ms.topic: function
 req.header: wdm.h

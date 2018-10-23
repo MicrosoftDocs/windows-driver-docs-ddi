@@ -6,7 +6,7 @@ description: The FwpmCalloutAdd0 function adds a callout to the filter engine.No
 old-location: netvista\fwpmcalloutadd0.htm
 tech.root: netvista
 ms.assetid: f88a31c4-f42c-487d-b6d8-f8f609f2faff
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FwpmCalloutAdd0, FwpmCalloutAdd0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmCalloutAdd0, netvista.fwpmcalloutadd0, wfp_ref_2_funct_2_fwpm_b1548682-4f29-467f-916d-fa434260b0ae.xml
 ms.topic: function
 req.header: fwpmk.h

@@ -6,7 +6,7 @@ description: The RtlCreateHeap routine creates a heap object that can be used by
 old-location: ifsk\rtlcreateheap.htm
 tech.root: ifsk
 ms.assetid: 77ba5ba3-11d3-4c28-86e6-91f3189b5403
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlCreateHeap, RtlCreateHeap routine [Installable File System Drivers], ifsk.rtlcreateheap, ntifs/RtlCreateHeap, rtlref_e57e4a89-3686-4ab4-85e2-af223cdb3b18.xml
 ms.topic: function
 req.header: ntifs.h

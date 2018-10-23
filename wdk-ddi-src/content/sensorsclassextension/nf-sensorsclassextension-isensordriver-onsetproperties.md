@@ -6,7 +6,7 @@ description: The ISensorDriver::OnSetProperties method specifies values for the 
 old-location: sensors\isensordriver_onsetproperties.htm
 tech.root: sensors
 ms.assetid: 7c3cca5b-1d08-42dc-8dc4-42eb1160b8bb
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ISensorDriver interface [Sensor Devices],OnSetProperties method, ISensorDriver.OnSetProperties, ISensorDriver::OnSetProperties, OnSetProperties, OnSetProperties method [Sensor Devices], OnSetProperties method [Sensor Devices],ISensorDriver interface, Sensor_IFaces_1b27ccef-2b50-4942-b8fa-9126e2624b27.xml, sensors.isensordriver_onsetproperties, sensorsclassextension/ISensorDriver::OnSetProperties
 ms.topic: method
 req.header: sensorsclassextension.h
@@ -68,12 +68,12 @@ Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff558
 
 ### -param pPropertiesToSet [in]
 
-Pointer to an <a href="http://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> interface that contains the list of properties to set and their values.
+Pointer to an <a href="https://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> interface that contains the list of properties to set and their values.
 
 
 ### -param ppResults [out]
 
-Address of an <a href="http://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> pointer that receives the list of properties that have been set successfully and their new values. If a property was not set, the new value contains an HRESULT error code.
+Address of an <a href="https://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> pointer that receives the list of properties that have been set successfully and their new values. If a property was not set, the new value contains an HRESULT error code.
 
 
 ## -returns
@@ -95,7 +95,7 @@ The list of properties provided through <i>pPropertiesToSet</i> is typically  a 
 
 The sensor class extension is responsible for freeing any <b>PROPVARIANT</b> structures returned by this method.
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> is documented in Windows Portable Devices.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> is documented in Windows Portable Devices.
 
 <div class="alert"><b>Note</b>  This method will be called only if the user has enabled the sensor in the <b>Location and Other Sensors</b> control panel.</div>
 <div> </div>

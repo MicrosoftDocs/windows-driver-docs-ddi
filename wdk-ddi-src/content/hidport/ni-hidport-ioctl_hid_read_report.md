@@ -6,7 +6,7 @@ description: The IOCTL_HID_READ_REPORT request transfers an input report from a 
 old-location: hid\ioctl_hid_read_report.htm
 tech.root: hid
 ms.assetid: 83a7cf49-6879-4e91-b398-d97d4b69e5b1
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IOCTL_HID_READ_REPORT, IOCTL_HID_READ_REPORT control, IOCTL_HID_READ_REPORT control code [Human Input Devices], hid.ioctl_hid_read_report, hidioreq_e75980f5-3db7-4e29-b25a-9d3c3260d0f6.xml, hidport/IOCTL_HID_READ_REPORT
 ms.topic: ioctl
 req.header: hidport.h

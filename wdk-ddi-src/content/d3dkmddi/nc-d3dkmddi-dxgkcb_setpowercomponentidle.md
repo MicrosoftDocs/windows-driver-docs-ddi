@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Called by the display miniport driver to notify the Microsoft DirectX graphics kernel subsystem that a power component is no longer needed.
 old-location: display\dxgkcbsetpowercomponentidle.htm
 ms.assetid: 7746d09a-7fb6-4e5d-926c-4ded6830b06d
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKCB_SETPOWERCOMPONENTIDLE, DXGKCB_SETPOWERCOMPONENTIDLE callback, DxgkCbSetPowerComponentIdle, DxgkCbSetPowerComponentIdle callback function [Display Devices], d3dkmddi/DxgkCbSetPowerComponentIdle, display.dxgkcbsetpowercomponentidle
 ms.topic: callback
 req.header: d3dkmddi.h

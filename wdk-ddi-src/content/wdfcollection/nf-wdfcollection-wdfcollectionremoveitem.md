@@ -6,7 +6,7 @@ description: The WdfCollectionRemoveItem method removes a specified object from 
 old-location: wdf\wdfcollectionremoveitem.htm
 tech.root: wdf
 ms.assetid: 03fde4a7-a4d1-4045-ac0c-6a37f2367b9d
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFCollectionObjectRef_a037497e-b219-41c1-8d65-29cf8be17989.xml, WdfCollectionRemoveItem, WdfCollectionRemoveItem method, kmdf.wdfcollectionremoveitem, wdf.wdfcollectionremoveitem, wdfcollection/WdfCollectionRemoveItem
 ms.topic: function
 req.header: wdfcollection.h

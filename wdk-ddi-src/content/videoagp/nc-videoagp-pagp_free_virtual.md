@@ -6,7 +6,7 @@ description: The AgpFreeVirtual function frees virtual memory committed by a pre
 old-location: display\agpfreevirtual.htm
 tech.root: display
 ms.assetid: a6f689ab-8cf1-4207-af2b-30957500c190
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: AgpFreeVirtual, AgpFreeVirtual callback function [Display Devices], PAGP_FREE_VIRTUAL, PAGP_FREE_VIRTUAL callback, VideoPort_Functions_49eabd30-2590-466f-b9d4-f2577a7e78e4.xml, display.agpfreevirtual, videoagp/AgpFreeVirtual
 ms.topic: callback
 req.header: videoagp.h

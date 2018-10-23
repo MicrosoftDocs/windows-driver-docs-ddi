@@ -6,7 +6,7 @@ description: The GetNamedCommand method returns the specified command.
 old-location: print\iprintcorehelperuni2_getnamedcommand.htm
 tech.root: print
 ms.assetid: A9C9C69E-8C89-4131-996F-A48AD9E9D244
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetNamedCommand, GetNamedCommand method [Print Devices], GetNamedCommand method [Print Devices],IPrintCoreHelperUni2 interface, IPrintCoreHelperUni2 interface [Print Devices],GetNamedCommand method, IPrintCoreHelperUni2.GetNamedCommand, IPrintCoreHelperUni2::GetNamedCommand, prcomoem/IPrintCoreHelperUni2::GetNamedCommand, print.iprintcorehelperuni2_getnamedcommand
 ms.topic: method
 req.header: prcomoem.h

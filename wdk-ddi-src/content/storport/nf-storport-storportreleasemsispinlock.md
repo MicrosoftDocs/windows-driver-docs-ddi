@@ -6,7 +6,7 @@ description: The StorPortReleaseMSISpinLock routine releases a previously acquir
 old-location: storage\storportreleasemsispinlock.htm
 tech.root: storage
 ms.assetid: 5a2cf757-9dca-4717-a775-834a22c02a12
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortReleaseMSISpinLock, StorPortReleaseMSISpinLock routine [Storage Devices], storage.storportreleasemsispinlock, storport/StorPortReleaseMSISpinLock, storprt_212b8090-c4a3-4ea8-8c50-6704a6d0cee7.xml
 ms.topic: function
 req.header: storport.h

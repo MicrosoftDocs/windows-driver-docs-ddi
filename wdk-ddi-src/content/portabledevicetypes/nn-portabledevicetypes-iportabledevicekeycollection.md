@@ -6,7 +6,7 @@ description: Holds a collection of PROPERTYKEY values. This interface can be ret
 old-location: wpddk\iportabledevicekeycollection.htm
 tech.root: wpd_dk
 ms.assetid: 50ce4946-18a7-4b63-ba5a-c5684dd0b79c
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IPortableDeviceKeyCollection, IPortableDeviceKeyCollection interface, IPortableDeviceKeyCollection interface,described, IPortableDeviceKeyCollectionInterface, portabledevicetypes/IPortableDeviceKeyCollection, wpddk.iportabledevicekeycollection
 ms.topic: interface
 req.header: portabledevicetypes.h

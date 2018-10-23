@@ -6,7 +6,7 @@ description: The WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT function initializes 
 old-location: wdf\wdf_child_address_description_header_init.htm
 tech.root: wdf
 ms.assetid: acc56cb0-5f89-413f-9fdc-a051cc4947c0
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectChildListRef_167489bc-617b-440a-a0b2-d5c346b4cf50.xml, WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT, WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT function, kmdf.wdf_child_address_description_header_init, wdf.wdf_child_address_description_header_init, wdfchildlist/WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT
 ms.topic: function
 req.header: wdfchildlist.h

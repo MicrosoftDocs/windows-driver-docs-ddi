@@ -4,7 +4,7 @@ title: D3D12DDIARG_TEX2D_UNORDERED_ACCESS_VIEW_0002
 author: windows-driver-content
 description: Describes a two-dimensional (2-D) texture that is used to create an unordered access view.
 ms.assetid: 14e19db9-a82f-41cc-b8a2-ecd0217c3ec4
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDIARG_TEX2D_UNORDERED_ACCESS_VIEW_0002, D3D12DDIARG_TEX2D_UNORDERED_ACCESS_VIEW_0002, 
 req.header: d3d12umddi.h

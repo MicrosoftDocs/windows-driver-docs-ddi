@@ -6,7 +6,7 @@ description: A still image minidriver's IStiUSD::Initialize method initializes a
 old-location: image\istiusd_initialize.htm
 tech.root: image
 ms.assetid: a2aa0ce6-f63b-4df4-b1c4-a23e80cdcd6c
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IStiUSD interface [Imaging Devices],Initialize method, IStiUSD.Initialize, IStiUSD::Initialize, Initialize, Initialize method [Imaging Devices], Initialize method [Imaging Devices],IStiUSD interface, image.istiusd_initialize, stifnc_b587b574-dd44-47a2-9d04-78e34733a456.xml, stiusd/IStiUSD::Initialize
 ms.topic: method
 req.header: stiusd.h

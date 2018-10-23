@@ -6,7 +6,7 @@ description: The RtlFreeAnsiString routine releases storage that was allocated b
 old-location: kernel\rtlfreeansistring.htm
 tech.root: kernel
 ms.assetid: ca46be9e-31f6-4118-8958-4eb2c8450e8c
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlFreeAnsiString, RtlFreeAnsiString routine [Kernel-Mode Driver Architecture], k109_0213924f-caca-4411-b5cc-d93282f01948.xml, kernel.rtlfreeansistring, wdm/RtlFreeAnsiString
 ms.topic: function
 req.header: wdm.h

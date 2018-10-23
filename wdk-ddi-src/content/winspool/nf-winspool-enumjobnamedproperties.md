@@ -6,7 +6,7 @@ description:
 old-location: print\enumjobnamedproperties.htm
 tech.root: print
 ms.assetid: 0C5E2279-79D0-40A2-BA5B-66994A22E963
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: EnumJobNamedProperties, EnumJobNamedProperties function [Print Devices], print.enumjobnamedproperties, winspool/EnumJobNamedProperties
 ms.topic: function
 req.header: winspool.h

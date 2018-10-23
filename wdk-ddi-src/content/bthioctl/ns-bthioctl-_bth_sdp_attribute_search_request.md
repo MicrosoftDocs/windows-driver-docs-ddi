@@ -6,7 +6,7 @@ description: The BTH_SDP_ATTRIBUTE_SEARCH_REQUEST structure contains information
 old-location: bltooth\bth_sdp_attribute_search_request.htm
 tech.root: bltooth
 ms.assetid: 46198c94-df83-42bb-ad3e-181f252ccd99
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: "*PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_ATTRIBUTE_SEARCH_REQUEST structure [Bluetooth Devices], PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST, PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST structure pointer [Bluetooth Devices], _BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, bltooth.bth_sdp_attribute_search_request, bth_structs_7856642e-a720-490e-9240-d61ac6f257b4.xml, bthioctl/BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, bthioctl/PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST"
 ms.topic: struct
 req.header: bthioctl.h
@@ -82,7 +82,7 @@ The record handle that is returned by the remote SDP server from a previous call
 ### -field range
 
 A variable-length array of structures of type 
-     <a href="http://go.microsoft.com/fwlink/p/?linkid=50714">SdpAttributeRange</a> that contains the
+     <a href="https://go.microsoft.com/fwlink/p/?linkid=50714">SdpAttributeRange</a> that contains the
      range of SDP attributes for which to search. The range array must be in ascending numeric order.
 
 
@@ -126,7 +126,7 @@ The Bluetooth driver stack determines the number of array items in the
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=50714">SdpAttributeRange</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=50714">SdpAttributeRange</a>
  
 
  

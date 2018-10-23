@@ -6,7 +6,7 @@ description: The AuxKlibGetSystemFirmwareTable routine retrieves the specified f
 old-location: kernel\auxklibgetsystemfirmwaretable.htm
 tech.root: kernel
 ms.assetid: 548C850F-87AF-43E0-BD87-5531D9874D4D
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: AuxKlibGetSystemFirmwareTable, AuxKlibGetSystemFirmwareTable routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibGetSystemFirmwareTable, kernel.auxklibgetsystemfirmwaretable
 ms.topic: function
 req.header: aux_klib.h
@@ -107,7 +107,7 @@ For example, FACP is the name of a table provided by ACPI. The FACP table is ide
 
 <code>status = AuxKlibGetSystemFirmwareTable('ACPI', 'PCAF', pBuffer, BUFSIZE, &amp;dataSize);</code>
 
-In this example, <code>pBuffer</code> points to the caller-allocated buffer, <code>BUFSIZE</code> is the size in bytes of this buffer, and <code>dataSize</code> is a variable to which the routine writes the number of bytes written to the buffer. For more information about the <b>DESCRIPTION_HEADER</b> structure, see the Advanced Configuration and Power Interface Specification at the <a href="http://go.microsoft.com/fwlink/p/?linkid=57185">Advanced Configuration and Power Interface</a> website.
+In this example, <code>pBuffer</code> points to the caller-allocated buffer, <code>BUFSIZE</code> is the size in bytes of this buffer, and <code>dataSize</code> is a variable to which the routine writes the number of bytes written to the buffer. For more information about the <b>DESCRIPTION_HEADER</b> structure, see the Advanced Configuration and Power Interface Specification at the <a href="https://go.microsoft.com/fwlink/p/?linkid=57185">Advanced Configuration and Power Interface</a> website.
 
 
 ### -param FirmwareTableBuffer [out, optional]

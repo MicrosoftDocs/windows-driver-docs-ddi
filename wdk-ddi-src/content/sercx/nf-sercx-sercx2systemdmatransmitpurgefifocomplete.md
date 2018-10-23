@@ -6,7 +6,7 @@ description: The SerCx2SystemDmaTransmitPurgeFifoComplete method notifies versio
 old-location: serports\sercx2systemdmatransmitpurgefifocomplete.htm
 tech.root: serports
 ms.assetid: E1F0BB4A-17FB-4C35-9373-CD648553A738
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SerCx2SystemDmaTransmitPurgeFifoComplete, SerCx2SystemDmaTransmitPurgeFifoComplete, SerCx2SystemDmaTransmitPurgeFifoComplete method [Serial Ports], serports.sercx2systemdmatransmitpurgefifocomplete
 ms.topic: function
 req.header: sercx.h

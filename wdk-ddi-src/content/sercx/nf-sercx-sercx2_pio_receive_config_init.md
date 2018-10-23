@@ -6,7 +6,7 @@ description: The SERCX2_PIO_RECEIVE_CONFIG_INIT function initializes a SERCX2_PI
 old-location: serports\sercx2_pio_receive_config_init.htm
 tech.root: serports
 ms.assetid: 08FBBC1D-EB2A-4178-9245-C3FF60424F95
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SERCX2_PIO_RECEIVE_CONFIG_INIT, SERCX2_PIO_RECEIVE_CONFIG_INIT, SERCX2_PIO_RECEIVE_CONFIG_INIT function [Serial Ports], serports.sercx2_pio_receive_config_init
 ms.topic: function
 req.header: sercx.h

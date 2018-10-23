@@ -6,7 +6,7 @@ description: The WdfFileObjectGetInitiatorProcessId function retrieves the initi
 old-location: wdf\wdffileobjectgetinitiatorprocessid.htm
 tech.root: wdf
 ms.assetid: 59E15EAA-4934-48D9-A9E3-7CDEEAE01985
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfFileObjectGetInitiatorProcessId, WdfFileObjectGetInitiatorProcessId function, wdf.wdffileobjectgetinitiatorprocessid, wdffileobject/WdfFileObjectGetInitiatorProcessId
 ms.topic: function
 req.header: wdffileobject.h

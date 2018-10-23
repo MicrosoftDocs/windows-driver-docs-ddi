@@ -6,7 +6,7 @@ description: Returns a STORAGE_DEVICE_NUMBER structure that contains the FILE_DE
 old-location: storage\ioctl_storage_get_device_number.htm
 tech.root: storage
 ms.assetid: 5d1095c6-b9f9-44ef-bb2b-7bc0265e5aa9
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_STORAGE_GET_DEVICE_NUMBER, IOCTL_STORAGE_GET_DEVICE_NUMBER control, IOCTL_STORAGE_GET_DEVICE_NUMBER control code [Storage Devices], k307_d4d6bd65-7f75-4810-90ce-edd3dec950be.xml, ntddstor/IOCTL_STORAGE_GET_DEVICE_NUMBER, storage.ioctl_storage_get_device_number
 ms.topic: ioctl
 req.header: ntddstor.h

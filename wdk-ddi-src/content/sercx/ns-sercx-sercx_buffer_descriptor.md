@@ -6,7 +6,7 @@ description: The SERCX_BUFFER_DESCRIPTOR structure describes a data buffer for a
 old-location: serports\sercx_buffer_descriptor.htm
 tech.root: serports
 ms.assetid: 0F13A5B2-CD35-4127-B2E3-F4027D098CB2
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PSERCX_BUFFER_DESCRIPTOR, 1/PSERCX_BUFFER_DESCRIPTOR, 1/SERCX_BUFFER_DESCRIPTOR, PSERCX_BUFFER_DESCRIPTOR, PSERCX_BUFFER_DESCRIPTOR structure pointer [Serial Ports], SERCX_BUFFER_DESCRIPTOR, SERCX_BUFFER_DESCRIPTOR structure [Serial Ports], serports.sercx_buffer_descriptor"
 ms.topic: struct
 req.header: sercx.h

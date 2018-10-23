@@ -6,7 +6,7 @@ description: This I/O control function returns unified point of service (UPOS) s
 old-location: pos\ioctl_point_of_service_retrieve_statistics.htm
 tech.root: pos
 ms.assetid: 8c63ef41-e4dd-4b34-a897-c9bec13f4211
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS, IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS control, IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS, pos.ioctl_point_of_service_retrieve_statistics
 ms.topic: ioctl
 req.header: pointofservicedriverinterface.h
@@ -97,7 +97,7 @@ Size of the output buffer in bytes. Set to sizeof(<i>PosStatisticsHeader</i>).
 
 Returns <b>TRUE</b> if successful; otherwise, returns <b>FALSE</b>.
 
-To get extended error information, call <a href="http://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following list shows common error values:
+To get extended error information, call <a href="https://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following list shows common error values:
 
 
 

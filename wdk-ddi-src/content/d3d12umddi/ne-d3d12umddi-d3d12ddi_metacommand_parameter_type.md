@@ -4,7 +4,7 @@ title: D3D12DDI_METACOMMAND_PARAMETER_TYPE
 author: windows-driver-content
 description: The meta-command parameter type.
 ms.assetid: f17784a6-3573-456f-abac-b7782ed2f92b
-ms.date:
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_METACOMMAND_PARAMETER_TYPE, D3D12DDI_METACOMMAND_PARAMETER_TYPE,
 req.header: d3d12umddi.h

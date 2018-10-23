@@ -4,7 +4,7 @@ title: PFND3D12DDI_MAKERESIDENT_0001
 author: windows-driver-content
 description: pfnMakeResident is used to instruct the OS to add a resource to the device residency list and increment the residency reference count on this allocation.
 ms.assetid: d31a9aac-08c6-44a9-918e-81db909a6f44
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:

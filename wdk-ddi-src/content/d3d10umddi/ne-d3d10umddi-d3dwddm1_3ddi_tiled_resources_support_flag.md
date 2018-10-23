@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Indicates the level of support by the hardware and user-mode display driver for tiled resources.
 old-location: display\d3dwddm1_3ddi_tiled_resources_support_flag.htm
 ms.assetid: 5EEF8C68-0DE7-466B-946F-37157B21C9B7
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG, D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG enumeration [Display Devices], D3DWDDM1_3DDI_TILED_RESOURCES_TIER_1_SUPPORTED, D3DWDDM1_3DDI_TILED_RESOURCES_TIER_2_SUPPORTED, d3d10umddi/D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG, d3d10umddi/D3DWDDM1_3DDI_TILED_RESOURCES_TIER_1_SUPPORTED, d3d10umddi/D3DWDDM1_3DDI_TILED_RESOURCES_TIER_2_SUPPORTED, display.d3dwddm1_3ddi_tiled_resources_support_flag
 ms.topic: enum
 req.header: d3d10umddi.h

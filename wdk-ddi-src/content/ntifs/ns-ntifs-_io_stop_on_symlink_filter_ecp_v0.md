@@ -4,7 +4,7 @@ title: _IO_STOP_ON_SYMLINK_FILTER_ECP_v0
 author: windows-driver-content
 description: 
 ms.assetid: 543755f9-8af1-4b9a-a283-0294e4f4308f
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _IO_STOP_ON_SYMLINK_FILTER_ECP_v0, IO_STOP_ON_SYMLINK_FILTER_ECP_v0, *PIO_STOP_ON_SYMLINK_FILTER_ECP_v0, 
 req.header: ntifs.h

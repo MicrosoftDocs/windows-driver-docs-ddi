@@ -6,7 +6,7 @@ description: An I/O queue object notifies a driver when a write request is avail
 old-location: wdf\iqueuecallbackwrite.htm
 tech.root: wdf
 ms.assetid: 8b44e1e1-c648-4eec-bb3e-ab327dc08f98
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IQueueCallbackWrite, IQueueCallbackWrite interface, IQueueCallbackWrite interface,described, UMDFQueueObjectRef_4abdce88-185f-4dab-823a-00da96d7d630.xml, umdf.iqueuecallbackwrite, wdf.iqueuecallbackwrite, wudfddi/IQueueCallbackWrite
 ms.topic: interface
 req.header: wudfddi.h

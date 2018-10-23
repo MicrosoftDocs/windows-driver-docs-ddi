@@ -6,7 +6,7 @@ description: The SeAssignSecurity routine builds a self-relative security descri
 old-location: kernel\seassignsecurity.htm
 tech.root: kernel
 ms.assetid: 08f0b4c0-ba77-450d-8b93-73231bbf760c
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: SeAssignSecurity, SeAssignSecurity routine [Kernel-Mode Driver Architecture], k110_10d67a00-4643-4d40-b9a2-1a19e79dc755.xml, kernel.seassignsecurity, wdm/SeAssignSecurity
 ms.topic: function
 req.header: wdm.h

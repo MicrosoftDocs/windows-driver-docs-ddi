@@ -6,7 +6,7 @@ description: The PEP_PPM_QUERY_LP_SETTINGS structure contains a kernel handle to
 old-location: kernel\pep_ppm_query_lp_settings.htm
 tech.root: kernel
 ms.assetid: 69A8792B-954E-49AF-A306-25B94183E58A
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_PPM_QUERY_LP_SETTINGS, PEP_PPM_QUERY_LP_SETTINGS, PEP_PPM_QUERY_LP_SETTINGS structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_LP_SETTINGS, PPEP_PPM_QUERY_LP_SETTINGS structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_LP_SETTINGS, kernel.pep_ppm_query_lp_settings, pep_x/PEP_PPM_QUERY_LP_SETTINGS, pep_x/PPEP_PPM_QUERY_LP_SETTINGS"
 ms.topic: struct
 req.header: pep_x.h

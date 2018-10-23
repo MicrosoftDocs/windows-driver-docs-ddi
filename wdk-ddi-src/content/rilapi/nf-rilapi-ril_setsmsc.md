@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_setsmsc.htm
 tech.root: netvista
 ms.assetid: bbd3ad3a-cf16-490b-83fe-107a0d802406
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_SetSMSC, RIL_SetSMSC method [Network Drivers Starting with Windows Vista], netvista.ril_setsmsc, rilapi/RIL_SetSMSC
 ms.topic: function
 req.header: rilapi.h

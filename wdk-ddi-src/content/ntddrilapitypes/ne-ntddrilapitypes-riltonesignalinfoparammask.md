@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\riltonesignalinfoparammask.htm
 tech.root: netvista
 ms.assetid: 5ebacb12-4ccd-4e92-ba73-b79c1969eb4f
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILTONESIGNALINFOPARAMMASK, RILTONESIGNALINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_TONESIGNAL_All, RIL_PARAM_TONESIGNAL_EXECUTOR, RIL_PARAM_TONESIGNAL_GPP2ISDNALERTING, RIL_PARAM_TONESIGNAL_GPP2TONE, netvista.riltonesignalinfoparammask, ntddrilapitypes/RILTONESIGNALINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_TONESIGNAL_All, ntddrilapitypes/RIL_PARAM_TONESIGNAL_EXECUTOR, ntddrilapitypes/RIL_PARAM_TONESIGNAL_GPP2ISDNALERTING, ntddrilapitypes/RIL_PARAM_TONESIGNAL_GPP2TONE
 ms.topic: enum
 req.header: ntddrilapitypes.h

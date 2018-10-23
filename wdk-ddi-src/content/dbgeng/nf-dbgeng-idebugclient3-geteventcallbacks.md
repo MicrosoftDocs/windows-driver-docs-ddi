@@ -6,7 +6,7 @@ description: The GetEventCallbacks method returns the event callbacks object reg
 old-location: debugger\geteventcallbacks.htm
 tech.root: debugger
 ms.assetid: b67edb7a-2e74-4b7b-bbfb-5886e89a10a5
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetEventCallbacks, GetEventCallbacks method [Windows Debugging], GetEventCallbacks method [Windows Debugging],IDebugClient interface, GetEventCallbacks method [Windows Debugging],IDebugClient2 interface, GetEventCallbacks method [Windows Debugging],IDebugClient3 interface, GetEventCallbacks method [Windows Debugging],IDebugClient4 interface, GetEventCallbacks method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],GetEventCallbacks method, IDebugClient2 interface [Windows Debugging],GetEventCallbacks method, IDebugClient2::GetEventCallbacks, IDebugClient3 interface [Windows Debugging],GetEventCallbacks method, IDebugClient3.GetEventCallbacks, IDebugClient3::GetEventCallbacks, IDebugClient4 interface [Windows Debugging],GetEventCallbacks method, IDebugClient4::GetEventCallbacks, IDebugClient5 interface [Windows Debugging],GetEventCallbacks method, IDebugClient5::GetEventCallbacks, IDebugClient::GetEventCallbacks, IDebugClient_81e23179-deb3-4c14-ae9e-b0c0a1d48f00.xml, dbgeng/IDebugClient2::GetEventCallbacks, dbgeng/IDebugClient3::GetEventCallbacks, dbgeng/IDebugClient4::GetEventCallbacks, dbgeng/IDebugClient5::GetEventCallbacks, dbgeng/IDebugClient::GetEventCallbacks, debugger.geteventcallbacks
 ms.topic: method
 req.header: dbgeng.h

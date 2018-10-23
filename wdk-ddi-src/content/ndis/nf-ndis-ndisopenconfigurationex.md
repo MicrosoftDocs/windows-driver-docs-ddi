@@ -6,7 +6,7 @@ description: NDIS drivers call the NdisOpenConfigurationEx function to get a con
 old-location: netvista\ndisopenconfigurationex.htm
 tech.root: netvista
 ms.assetid: 76539106-6d8d-4a80-9c74-a6a4ca37c40e
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisOpenConfigurationEx, NdisOpenConfigurationEx function [Network Drivers Starting with Windows Vista], ndis/NdisOpenConfigurationEx, ndis_configuration_ref_c1d84b46-85f5-4a0a-9a5f-d553fea94027.xml, netvista.ndisopenconfigurationex
 ms.topic: function
 req.header: ndis.h

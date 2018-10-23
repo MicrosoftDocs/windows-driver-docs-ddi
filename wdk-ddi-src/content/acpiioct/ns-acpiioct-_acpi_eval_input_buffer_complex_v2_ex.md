@@ -6,7 +6,7 @@ description: This topic describes the ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX struc
 old-location: acpi\acpi_eval_input_buffer_complex_v2_ex.htm
 tech.root: acpi
 ms.assetid: 50AEF454-8E36-4348-9340-330094D2FDF8
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX structure [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX structure pointer [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, acpi.acpi_eval_input_buffer_complex_v2_ex, acpiioct/ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX"
 ms.topic: struct
 req.header: acpiioct.h

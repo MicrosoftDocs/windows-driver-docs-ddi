@@ -6,7 +6,7 @@ description: Indicates the type of process notification. This enumeration is use
 old-location: kernel\pscreateprocessnotifytype.htm
 tech.root: kernel
 ms.assetid: 5DD02CF1-50E8-45F2-9035-E0AA48F1470C
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PSCREATEPROCESSNOTIFYTYPE, PSCREATEPROCESSNOTIFYTYPE enumeration [Kernel-Mode Driver Architecture], PsCreateProcessNotifySubsystems, _PSCREATEPROCESSNOTIFYTYPE, kernel.pscreateprocessnotifytype, ntddk/PSCREATEPROCESSNOTIFYTYPE, ntddk/PsCreateProcessNotifySubsystems
 ms.topic: enum
 req.header: ntddk.h

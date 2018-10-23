@@ -6,7 +6,7 @@ description: The ChangeEngineState callback method is called by the engine when 
 old-location: debugger\idebugeventcallbackswide_changeenginestate.htm
 tech.root: debugger
 ms.assetid: 14205476-3f58-4105-99a7-a3baa2eba033
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ChangeEngineState, ChangeEngineState method [Windows Debugging], ChangeEngineState method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],ChangeEngineState method, IDebugEventCallbacksWide.ChangeEngineState, IDebugEventCallbacksWide::ChangeEngineState, dbgeng/IDebugEventCallbacksWide::ChangeEngineState, debugger.idebugeventcallbackswide_changeenginestate
 ms.topic: method
 req.header: dbgeng.h

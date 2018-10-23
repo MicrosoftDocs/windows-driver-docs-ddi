@@ -6,7 +6,7 @@ description: Indicates that a power transition has completed.
 old-location: display\dxgkvgpu_escape_powertransitioncomplete.htm
 tech.root: display
 ms.assetid: 39800C47-95EB-4867-8FEE-E94EA3F6F68C
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE, DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE structure [Display Devices], _DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE, d3dukmdt/DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE, display.dxgkvgpu_escape_powertransitioncomplete
 ms.topic: struct
 req.header: d3dukmdt.h

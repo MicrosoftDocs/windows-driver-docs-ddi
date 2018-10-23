@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Returns the number of bytes that the driver requires to store private data for the video processor enumeration state.
 old-location: display\calcprivatevideoprocessorenumsize.htm
 ms.assetid: d468c892-6635-40a5-ad52-cbcc86555419
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CalcPrivateVideoProcessorEnumSize, CalcPrivateVideoProcessorEnumSize callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORENUMSIZE, PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORENUMSIZE callback, d3d10umddi/CalcPrivateVideoProcessorEnumSize, display.calcprivatevideoprocessorenumsize
 ms.topic: callback
 req.header: d3d10umddi.h

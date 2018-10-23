@@ -6,7 +6,7 @@ description: The KeGetCurrentNodeNumber routine gets the NUMA node number for th
 old-location: kernel\kegetcurrentnodenumber.htm
 tech.root: kernel
 ms.assetid: 9b8601ad-5605-46a3-9dbe-47dc8ed5906c
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeGetCurrentNodeNumber, KeGetCurrentNodeNumber routine [Kernel-Mode Driver Architecture], k105_08763d94-700c-4662-aebe-a8aa15a7ed4f.xml, kernel.kegetcurrentnodenumber, wdm/KeGetCurrentNodeNumber
 ms.topic: function
 req.header: wdm.h

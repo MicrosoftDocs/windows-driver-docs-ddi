@@ -4,7 +4,7 @@ title: EMFPLAYPROC
 author: windows-driver-content
 description: 
 ms.assetid: 3c04887d-df3a-4084-965f-ac007e984aad
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: winppi.h
 req.include-header:

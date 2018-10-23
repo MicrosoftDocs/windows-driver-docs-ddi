@@ -6,7 +6,7 @@ description: The WdfIoTargetSendInternalIoctlOthersSynchronously method builds a
 old-location: wdf\wdfiotargetsendinternalioctlotherssynchronously.htm
 tech.root: wdf
 ms.assetid: 53070b37-3836-49c2-91d1-369552afe214
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_78072360-08c2-4a51-be52-8e00425c5ba2.xml, WdfIoTargetSendInternalIoctlOthersSynchronously, WdfIoTargetSendInternalIoctlOthersSynchronously method, kmdf.wdfiotargetsendinternalioctlotherssynchronously, wdf.wdfiotargetsendinternalioctlotherssynchronously, wdfiotarget/WdfIoTargetSendInternalIoctlOthersSynchronously
 ms.topic: function
 req.header: wdfiotarget.h

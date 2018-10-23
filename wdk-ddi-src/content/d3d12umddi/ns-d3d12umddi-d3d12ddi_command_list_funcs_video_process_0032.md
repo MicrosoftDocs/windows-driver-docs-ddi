@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The command list functions for video processing.
 old-location: display\d3d12ddi-command-list-funcs-video-process-0032.htm
 ms.assetid: c49f79cc-6ceb-4379-94ac-983b897d198b
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0032, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0032 structure [Display Devices], d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0032, display.d3d12ddi-command-list-funcs-video-process-0032
 ms.topic: struct
 req.header: d3d12umddi.h

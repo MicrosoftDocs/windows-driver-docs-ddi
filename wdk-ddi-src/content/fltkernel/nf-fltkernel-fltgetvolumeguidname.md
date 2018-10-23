@@ -6,7 +6,7 @@ description: The FltGetVolumeGuidName routine returns the volume name for a give
 old-location: ifsk\fltgetvolumeguidname.htm
 tech.root: ifsk
 ms.assetid: 911d8b07-1313-4c4b-8d16-188857943327
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_b3c6abed-dbf8-44a2-92d6-470806b9a80f.xml, FltGetVolumeGuidName, FltGetVolumeGuidName routine [Installable File System Drivers], fltkernel/FltGetVolumeGuidName, ifsk.fltgetvolumeguidname
 ms.topic: function
 req.header: fltkernel.h

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Updates the decoder down sampling parameters. Optional for Windows Display Driver Model (WDDM) 2.0, or later, drivers.
 old-location: display\videodecoderupdatedownsampling.htm
 ms.assetid: DBF0F62D-E6E5-4711-9A7A-19C88F62575D
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DWDDM2_0DDI_VIDEODECODERUPDATEDOWNSAMPLING, PFND3DWDDM2_0DDI_VIDEODECODERUPDATEDOWNSAMPLING callback, d3d10umddi/pfnVideoDecoderUpdateDownsampling, display.videodecoderupdatedownsampling, pfnVideoDecoderUpdateDownsampling, pfnVideoDecoderUpdateDownsampling callback function [Display Devices]
 ms.topic: callback
 req.header: d3d10umddi.h

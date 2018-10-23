@@ -6,7 +6,7 @@ description: The IoStartTimer routine enables the timer associated with a given 
 old-location: kernel\iostarttimer.htm
 tech.root: kernel
 ms.assetid: 2e13d7da-7ef3-4c2e-b028-f7d37548c208
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoStartTimer, IoStartTimer routine [Kernel-Mode Driver Architecture], k104_bca7aa97-41e1-48e4-96df-52dd6109cd51.xml, kernel.iostarttimer, wdm/IoStartTimer
 ms.topic: function
 req.header: ntifs.h

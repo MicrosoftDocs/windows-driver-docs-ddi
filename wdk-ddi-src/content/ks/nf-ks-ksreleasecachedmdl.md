@@ -6,7 +6,7 @@ description: The KsReleaseCachedMdl function is used to release the MDL acquired
 old-location: stream\ksreleasecachedmdl.htm
 tech.root: stream
 ms.assetid: 8EDBD8FF-6417-44C0-87C0-14D71FEFA380
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsReleaseCachedMdl, KsReleaseCachedMdl function [Streaming Media Devices], ks/KsReleaseCachedMdl, stream.ksreleasecachedmdl
 ms.topic: function
 req.header: ks.h

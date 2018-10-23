@@ -6,7 +6,7 @@ description: The KsFilterAcquireProcessingMutex function acquires the processing
 old-location: stream\ksfilteracquireprocessingmutex.htm
 tech.root: stream
 ms.assetid: d4a2fe1a-9a16-45b8-b061-9d1b1398e801
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsFilterAcquireProcessingMutex, KsFilterAcquireProcessingMutex function [Streaming Media Devices], avfunc_9c0c5db4-4bac-45a6-a61f-94bdcce07fd8.xml, ks/KsFilterAcquireProcessingMutex, stream.ksfilteracquireprocessingmutex
 ms.topic: function
 req.header: ks.h

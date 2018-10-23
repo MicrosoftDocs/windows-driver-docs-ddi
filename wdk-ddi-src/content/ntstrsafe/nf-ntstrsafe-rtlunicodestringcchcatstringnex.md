@@ -6,7 +6,7 @@ description: The RtlUnicodeStringCchCatStringNEx function concatenates two strin
 old-location: kernel\rtlunicodestringcchcatstringnex.htm
 tech.root: kernel
 ms.assetid: bad75e2f-35af-4e90-8638-28b0c362dad1
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUnicodeStringCchCatStringNEx, RtlUnicodeStringCchCatStringNEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcchcatstringnex, ntstrsafe/RtlUnicodeStringCchCatStringNEx, safestrings_00095596-3520-437a-b089-f1cd7f39c6cb.xml
 ms.topic: function
 req.header: ntstrsafe.h

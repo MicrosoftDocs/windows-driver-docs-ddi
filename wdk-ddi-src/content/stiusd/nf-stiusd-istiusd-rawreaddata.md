@@ -6,7 +6,7 @@ description: A still image minidriver's IStiUSD::RawReadData method reads data f
 old-location: image\istiusd_rawreaddata.htm
 tech.root: image
 ms.assetid: 6ae64309-da53-420b-bf87-e8924e902dba
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IStiUSD interface [Imaging Devices],RawReadData method, IStiUSD.RawReadData, IStiUSD::RawReadData, RawReadData, RawReadData method [Imaging Devices], RawReadData method [Imaging Devices],IStiUSD interface, image.istiusd_rawreaddata, stifnc_29a3d9c4-92a8-47cd-b12c-0280003c43b7.xml, stiusd/IStiUSD::RawReadData
 ms.topic: method
 req.header: stiusd.h

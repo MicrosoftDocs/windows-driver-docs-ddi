@@ -6,7 +6,7 @@ description: The NET_PNP_EVENT structure describes a network Plug and Play (PnP)
 old-location: netvista\net_pnp_event.htm
 tech.root: netvista
 ms.assetid: b68fb279-c1d4-4f0b-8b04-b17a01a65560
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNET_PNP_EVENT, NET_PNP_EVENT, NET_PNP_EVENT structure [Network Drivers Starting with Windows Vista], PNET_PNP_EVENT, PNET_PNP_EVENT structure pointer [Network Drivers Starting with Windows Vista], _NET_PNP_EVENT, ndis/NET_PNP_EVENT, ndis/PNET_PNP_EVENT, netvista.net_pnp_event, protocol_structures_ref_0d2da286-4352-4097-901d-d3eba45d31c2.xml"
 ms.topic: struct
 req.header: netpnp.h
@@ -186,7 +186,7 @@ Indicates that the configuration has changed for a virtual miniport of an NDIS 6
        example, an intermediate driver receives the 
        <b>NetEventIMReEnableDevice</b> event when a user disables and then enables a single virtual miniport
        from the Device Manager or another source. For examples of intermediate driver power management, see the 
-    <a href="http://go.microsoft.com/fwlink/p/?LinkId=617916">NDIS MUX Intermediate Driver and Notify Object</a> driver sample available in the <a href="http://go.microsoft.com/fwlink/p/?LinkId=616507">Windows driver samples</a> repository on GitHub.
+    <a href="https://go.microsoft.com/fwlink/p/?LinkId=617916">NDIS MUX Intermediate Driver and Notify Object</a> driver sample available in the <a href="https://go.microsoft.com/fwlink/p/?LinkId=616507">Windows driver samples</a> repository on GitHub.
 
 
 
@@ -790,7 +790,7 @@ Indicates that the configuration has changed for a virtual miniport of an NDIS 6
        example, an intermediate driver receives the 
        <b>NetEventIMReEnableDevice</b> event when a user disables and then enables a single virtual miniport
        from the Device Manager or another source. For examples of intermediate driver power management, see the 
-    <a href="http://go.microsoft.com/fwlink/p/?LinkId=617916">NDIS MUX Intermediate Driver and Notify Object</a> driver sample available in the <a href="http://go.microsoft.com/fwlink/p/?LinkId=616507">Windows driver samples</a> repository on GitHub.
+    <a href="https://go.microsoft.com/fwlink/p/?LinkId=617916">NDIS MUX Intermediate Driver and Notify Object</a> driver sample available in the <a href="https://go.microsoft.com/fwlink/p/?LinkId=616507">Windows driver samples</a> repository on GitHub.
 
 
 ##### - NetEvent.NetEventInhibitBindsAbove

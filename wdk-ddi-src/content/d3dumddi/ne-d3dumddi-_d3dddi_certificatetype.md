@@ -6,7 +6,7 @@ description: The D3DDDI_CERTIFICATETYPE enumeration contains values that identif
 old-location: display\d3dddi_certificatetype.htm
 tech.root: display
 ms.assetid: 0e3835af-0ccf-4f41-96e3-beff5fdecd36
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDI_CERTIFICATETYPE, D3DDDI_CERTIFICATETYPE enumeration [Display Devices], D3DDDI_CERTTYPE_AUTHENTICATED_CHANNEL, D3DDDI_CERTTYPE_CRYPTOSESSION, D3D_other_Structs_88de08de-61df-4401-9a7c-8cace88a545a.xml, _D3DDDI_CERTIFICATETYPE, d3dumddi/D3DDDI_CERTIFICATETYPE, d3dumddi/D3DDDI_CERTTYPE_AUTHENTICATED_CHANNEL, d3dumddi/D3DDDI_CERTTYPE_CRYPTOSESSION, display.d3dddi_certificatetype
 ms.topic: enum
 req.header: d3dumddi.h

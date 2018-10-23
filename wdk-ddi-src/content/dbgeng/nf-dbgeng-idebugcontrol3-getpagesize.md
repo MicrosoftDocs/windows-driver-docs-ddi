@@ -6,7 +6,7 @@ description: The GetPageSize method returns the page size for the effective proc
 old-location: debugger\getpagesize.htm
 tech.root: debugger
 ms.assetid: 26f11dfb-3fc3-4804-a294-2dfc674b4a73
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetPageSize, GetPageSize method [Windows Debugging], GetPageSize method [Windows Debugging],IDebugControl interface, GetPageSize method [Windows Debugging],IDebugControl2 interface, GetPageSize method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetPageSize method, IDebugControl2 interface [Windows Debugging],GetPageSize method, IDebugControl2::GetPageSize, IDebugControl3 interface [Windows Debugging],GetPageSize method, IDebugControl3.GetPageSize, IDebugControl3::GetPageSize, IDebugControl::GetPageSize, IDebugControl_b38e4c0a-5992-4afe-b684-2eb65b3a0271.xml, dbgeng/IDebugControl2::GetPageSize, dbgeng/IDebugControl3::GetPageSize, dbgeng/IDebugControl::GetPageSize, debugger.getpagesize
 ms.topic: method
 req.header: dbgeng.h

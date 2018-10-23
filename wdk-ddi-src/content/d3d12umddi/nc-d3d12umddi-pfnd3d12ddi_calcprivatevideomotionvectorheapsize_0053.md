@@ -4,7 +4,7 @@ title: PFND3D12DDI_CALCPRIVATEVIDEOMOTIONVECTORHEAPSIZE_0053
 author: windows-driver-content
 description: Calculates the video motion vector heap size.
 ms.assetid: 88c05154-c3bb-46c3-8178-7ce94aa1f261
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:

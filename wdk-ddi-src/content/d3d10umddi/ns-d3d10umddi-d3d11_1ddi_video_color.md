@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Defines a color value for Microsoft Direct3D 11 video.
 old-location: display\d3d11_1ddi_video_color.htm
 ms.assetid: 200ca1d5-cbfd-4ad8-aa41-8238ea7ea5cf
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D11_1DDI_VIDEO_COLOR, D3D11_1DDI_VIDEO_COLOR structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_COLOR, display.d3d11_1ddi_video_color
 ms.topic: struct
 req.header: d3d10umddi.h

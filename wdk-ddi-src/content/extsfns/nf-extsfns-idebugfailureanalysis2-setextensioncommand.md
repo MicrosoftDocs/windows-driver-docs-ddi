@@ -6,7 +6,7 @@ description: The SetExtensionCommand method searches a DebugFailureAnalysis obje
 old-location: debugger\idebugfailureanalysis2_setextensioncommand.htm
 tech.root: debugger
 ms.assetid: 741B3D1F-FA7B-4260-AD0C-461D76605CBA
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging],SetExtensionCommand method, IDebugFailureAnalysis2.SetExtensionCommand, IDebugFailureAnalysis2::SetExtensionCommand, SetExtensionCommand, SetExtensionCommand method [Windows Debugging], SetExtensionCommand method [Windows Debugging],IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_setextensioncommand, extsfns/IDebugFailureAnalysis2::SetExtensionCommand
 ms.topic: method
 req.header: extsfns.h

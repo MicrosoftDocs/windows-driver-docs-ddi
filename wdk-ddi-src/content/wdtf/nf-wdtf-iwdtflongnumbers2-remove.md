@@ -6,7 +6,7 @@ description: Removes a long number from the collection.
 old-location: dtf\iwdtflongnumbers2_remove.htm
 tech.root: dtf
 ms.assetid: b566eedc-2a04-497b-9491-7bd5768f0dce
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFLongNumbers2 interface [Windows Device Testing Framework],Remove method, IWDTFLongNumbers2.Remove, IWDTFLongNumbers2::Remove, Microsoft.WDTF.IWDTFLongNumbers2.Remove, Microsoft::WDTF::IWDTFLongNumbers2::Remove, Remove, Remove method [Windows Device Testing Framework], Remove method [Windows Device Testing Framework],IWDTFLongNumbers2 interface, dtf.iwdtflongnumbers2_remove, wdtf/IWDTFLongNumbers2::Remove
 ms.topic: method
 req.header: wdtf.h

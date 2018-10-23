@@ -6,7 +6,7 @@ description: A driver's IPowerPolicyCallbackWakeFromS0 interface provides callba
 old-location: wdf\ipowerpolicycallbackwakefroms0.htm
 tech.root: wdf
 ms.assetid: d1b29916-9800-4276-860c-f7d143deb962
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IPowerPolicyCallbackWakeFromS0, IPowerPolicyCallbackWakeFromS0 interface, IPowerPolicyCallbackWakeFromS0 interface,described, UMDFDeviceObjectRef_e79ecf1d-279d-4945-941a-ed53b00f6242.xml, umdf.ipowerpolicycallbackwakefroms0, wdf.ipowerpolicycallbackwakefroms0, wudfddi/IPowerPolicyCallbackWakeFromS0
 ms.topic: interface
 req.header: wudfddi.h

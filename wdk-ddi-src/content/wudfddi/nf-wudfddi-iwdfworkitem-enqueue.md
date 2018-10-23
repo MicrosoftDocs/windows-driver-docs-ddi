@@ -6,7 +6,7 @@ description: The Enqueue method adds this interface's framework work-item object
 old-location: wdf\iwdfworkitem_enqueue.htm
 tech.root: wdf
 ms.assetid: 61A889D5-122F-4091-90D6-EDD43D52A14A
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: Enqueue, Enqueue method, Enqueue method,IWDFWorkItem interface, IWDFWorkItem interface,Enqueue method, IWDFWorkItem.Enqueue, IWDFWorkItem::Enqueue, umdf.iwdfworkitem_enqueue, wdf.iwdfworkitem_enqueue, wudfddi/IWDFWorkItem::Enqueue
 ms.topic: method
 req.header: wudfddi.h

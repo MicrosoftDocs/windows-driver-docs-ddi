@@ -6,7 +6,7 @@ description: The KSATTRIBUTE structure defines an additional attribute of a data
 old-location: stream\ksattribute.htm
 tech.root: stream
 ms.assetid: 985d9f12-11c6-40e6-9cb6-572196bc04f4
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSATTRIBUTE, KSATTRIBUTE, KSATTRIBUTE structure [Streaming Media Devices], PKSATTRIBUTE, PKSATTRIBUTE structure pointer [Streaming Media Devices], ks-struct_02cb064e-813f-4d67-8cf3-a33e05af7421.xml, ks/KSATTRIBUTE, ks/PKSATTRIBUTE, stream.ksattribute"
 ms.topic: struct
 req.header: ks.h

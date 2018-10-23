@@ -6,7 +6,7 @@ description: The PoFxReportDevicePoweredOn routine notifies the power management
 old-location: kernel\pofxreportdevicepoweredon.htm
 tech.root: kernel
 ms.assetid: 3138F5D7-CF7E-47B4-817C-AFF00C310AD5
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PoFxReportDevicePoweredOn, PoFxReportDevicePoweredOn routine [Kernel-Mode Driver Architecture], kernel.pofxreportdevicepoweredon, wdm/PoFxReportDevicePoweredOn
 ms.topic: function
 req.header: wdm.h

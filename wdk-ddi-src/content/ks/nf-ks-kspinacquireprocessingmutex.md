@@ -6,7 +6,7 @@ description: The KsPinAcquireProcessingMutex function acquires the processing mu
 old-location: stream\kspinacquireprocessingmutex.htm
 tech.root: stream
 ms.assetid: ce1fb470-6fee-4de0-a5db-15875a14e581
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsPinAcquireProcessingMutex, KsPinAcquireProcessingMutex function [Streaming Media Devices], avfunc_d06d3037-45b0-4931-86e4-ef7c586bcdf1.xml, ks/KsPinAcquireProcessingMutex, stream.kspinacquireprocessingmutex
 ms.topic: function
 req.header: ks.h

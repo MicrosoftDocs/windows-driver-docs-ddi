@@ -6,7 +6,7 @@ description: The GetProcessIdByHandle method returns the engine process ID for t
 old-location: debugger\getprocessidbyhandle.htm
 tech.root: debugger
 ms.assetid: 6920cbd3-0a20-4d38-8538-85f46d0f0d5b
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetProcessIdByHandle, GetProcessIdByHandle method [Windows Debugging], GetProcessIdByHandle method [Windows Debugging],IDebugSystemObjects interface, GetProcessIdByHandle method [Windows Debugging],IDebugSystemObjects2 interface, GetProcessIdByHandle method [Windows Debugging],IDebugSystemObjects3 interface, GetProcessIdByHandle method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetProcessIdByHandle method, IDebugSystemObjects2 interface [Windows Debugging],GetProcessIdByHandle method, IDebugSystemObjects2::GetProcessIdByHandle, IDebugSystemObjects3 interface [Windows Debugging],GetProcessIdByHandle method, IDebugSystemObjects3::GetProcessIdByHandle, IDebugSystemObjects4 interface [Windows Debugging],GetProcessIdByHandle method, IDebugSystemObjects4.GetProcessIdByHandle, IDebugSystemObjects4::GetProcessIdByHandle, IDebugSystemObjects::GetProcessIdByHandle, IDebugSystemObjects_92e69c0f-a50c-498b-8352-74f0c28ea0d8.xml, dbgeng/IDebugSystemObjects2::GetProcessIdByHandle, dbgeng/IDebugSystemObjects3::GetProcessIdByHandle, dbgeng/IDebugSystemObjects4::GetProcessIdByHandle, dbgeng/IDebugSystemObjects::GetProcessIdByHandle, debugger.getprocessidbyhandle
 ms.topic: method
 req.header: dbgeng.h

@@ -6,7 +6,7 @@ description: The KeRegisterProcessorChangeCallback routine registers a callback 
 old-location: kernel\keregisterprocessorchangecallback.htm
 tech.root: kernel
 ms.assetid: a10d54a2-39e4-4c90-ac91-28d31b3ebfb8
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeRegisterProcessorChangeCallback, KeRegisterProcessorChangeCallback routine [Kernel-Mode Driver Architecture], k105_794d8039-ab35-46e9-8a0d-a38c034f0263.xml, kernel.keregisterprocessorchangecallback, wdm/KeRegisterProcessorChangeCallback
 ms.topic: function
 req.header: wdm.h

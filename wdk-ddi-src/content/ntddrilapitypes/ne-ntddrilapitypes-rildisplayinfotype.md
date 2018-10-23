@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rildisplayinfotype.htm
 tech.root: netvista
 ms.assetid: 0da424f5-2970-497c-8965-af627fd582ff
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILDISPLAYINFOTYPE, RILDISPLAYINFOTYPE enumeration [Network Drivers Starting with Windows Vista], netvista.rildisplayinfotype, ntddrilapitypes/RILDISPLAYINFOTYPE
 ms.topic: enum
 req.header: ntddrilapitypes.h

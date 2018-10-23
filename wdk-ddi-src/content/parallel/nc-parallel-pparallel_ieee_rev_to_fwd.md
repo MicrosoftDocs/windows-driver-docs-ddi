@@ -6,7 +6,7 @@ description: The PPARALLEL_IEEE_REV_TO_FWD-typed callback routine changes the tr
 old-location: parports\pparallel_ieee_rev_to_fwd.htm
 tech.root: parports
 ms.assetid: 4c9c88bf-e7f9-484b-b476-0def92cf48b2
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: PPARALLEL_IEEE_REV_TO_FWD, PPARALLEL_IEEE_REV_TO_FWD function pointer [Parallel Ports], cisspd_f42cc965-4f4d-4d18-b111-0e19fca9a9d5.xml, parallel/PPARALLEL_IEEE_REV_TO_FWD, parports.pparallel_ieee_rev_to_fwd
 ms.topic: callback
 req.header: parallel.h

@@ -6,7 +6,7 @@ description: The BdaPropertyNodeMethods function retrieves a list of methods tha
 old-location: stream\bdapropertynodemethods.htm
 tech.root: stream
 ms.assetid: 52cb13a6-6efe-4934-a6ec-178d4b2afb0a
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: BdaPropertyNodeMethods, BdaPropertyNodeMethods function [Streaming Media Devices], bdaref_15a0d157-4e7d-43ae-9f1f-6ffb70bd4f9b.xml, bdasup/BdaPropertyNodeMethods, stream.bdapropertynodemethods
 ms.topic: function
 req.header: bdasup.h

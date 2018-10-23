@@ -6,7 +6,7 @@ description: The DXVADDI_AYUVSAMPLE16 structure describes 16-bit Cr, Cb, and Y c
 old-location: display\dxvaddi_ayuvsample16.htm
 tech.root: display
 ms.assetid: 9cd2e943-dc20-4c5c-ab5c-090463e0a88c
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_9e7fc230-f50c-4a07-b1cb-358694dc207d.xml, DXVADDI_AYUVSAMPLE16, DXVADDI_AYUVSAMPLE16 structure [Display Devices], _DXVADDI_AYUVSAMPLE16, d3dumddi/DXVADDI_AYUVSAMPLE16, display.dxvaddi_ayuvsample16
 ms.topic: struct
 req.header: d3dumddi.h
@@ -95,7 +95,7 @@ For nonzero values of <b>Alpha</b>, the blend to use is calculated by the follow
 </table></span></div>
 If <b>Alpha</b> is 0, the specified blend to use is the picture value without alteration. 
 
-The color value is scaled according to ITU-R Rec. BT.601, which you can learn about from the <a href="http://go.microsoft.com/fwlink/p/?linkid=8741">International Telecommunication Union</a> website. Therefore, the color black is nominally specified by Y=16, Cb=Cr=128, and the color white is nominally specified by Y=235, Cb=Cr=128.
+The color value is scaled according to ITU-R Rec. BT.601, which you can learn about from the <a href="https://go.microsoft.com/fwlink/p/?linkid=8741">International Telecommunication Union</a> website. Therefore, the color black is nominally specified by Y=16, Cb=Cr=128, and the color white is nominally specified by Y=235, Cb=Cr=128.
 
 <div class="alert"><b>Note</b>    If the alpha-blending surface originates as a DVD video subpicture, the preferred method for converting from the 4-bit alpha that is used by DVD video to the 8-bit alpha that is specified by <b>Alpha</b> is to map a 4-bit alpha value of zero to an 8-bit alpha value of zero and to convert all of the nonzero 4-bit alphas to 8-bit alphas by performing a left shift of four places and adding the constant 15.</div>
 <div> </div>

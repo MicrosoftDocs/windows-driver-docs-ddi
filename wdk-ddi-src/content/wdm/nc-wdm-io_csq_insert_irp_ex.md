@@ -6,7 +6,7 @@ description: The CsqInsertIrpEx routine is used by the system to insert an IRP i
 old-location: kernel\csqinsertirpex.htm
 tech.root: kernel
 ms.assetid: 1e407bcc-0a2b-42fa-982d-8ab0f12f082b
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: CsqInsertIrpEx, CsqInsertIrpEx routine [Kernel-Mode Driver Architecture], DrvrRtns_8914d2b4-6049-4d81-8f5f-4458b8bff2ed.xml, IO_CSQ_INSERT_IRP_EX, kernel.csqinsertirpex, wdm/CsqInsertIrpEx
 ms.topic: callback
 req.header: wdm.h
@@ -125,7 +125,7 @@ NTSTATUS
 </td>
 </tr>
 </table></span></div>
-The IO_CSQ_INSERT_IRP_EX function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the IO_CSQ_INSERT_IRP_EX function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
+The IO_CSQ_INSERT_IRP_EX function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the IO_CSQ_INSERT_IRP_EX function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>
 

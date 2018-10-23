@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Used to create a new hardware context.
 old-location: display\d3dkmtcreatehwcontext.htm
 ms.assetid: 147F46A9-1182-4480-8886-7C39F940EA7D
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTCreateHwContext, D3DKMTCreateHwContext method [Display Devices], d3dkmthk/D3DKMTCreateHwContext, display.d3dkmtcreatehwcontext
 ms.topic: function
 req.header: d3dkmthk.h

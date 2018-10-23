@@ -6,7 +6,7 @@ description: The KsForwardAndCatchIrp function forwards an IRP to the specified 
 old-location: stream\ksforwardandcatchirp.htm
 tech.root: stream
 ms.assetid: 87a873c2-07d3-4f76-bc26-5fcae4b960e7
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsForwardAndCatchIrp, KsForwardAndCatchIrp function [Streaming Media Devices], ks/KsForwardAndCatchIrp, ksfunc_db5ae1e5-b0c8-4703-866f-a3f060e5ffb3.xml, stream.ksforwardandcatchirp
 ms.topic: function
 req.header: ks.h

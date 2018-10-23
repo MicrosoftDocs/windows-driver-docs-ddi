@@ -6,7 +6,7 @@ description: Protocol drivers call the NdisUnbindAdapter function to request NDI
 old-location: netvista\ndisunbindadapter.htm
 tech.root: netvista
 ms.assetid: 47aacc23-f7d1-4c14-9541-3207debef327
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisUnbindAdapter, NdisUnbindAdapter function [Network Drivers Starting with Windows Vista], ndis/NdisUnbindAdapter, netvista.ndisunbindadapter, protocol_ndis_functions_ref_99324c18-23da-4ed1-9ccc-ab73ac342c50.xml
 ms.topic: function
 req.header: ndis.h

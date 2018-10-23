@@ -4,7 +4,7 @@ title: _D3DKMT_QUERYVIDPNEXCLUSIVEOWNERSHIP
 author: windows-driver-content
 description: Used to query for VidPn exclusive ownership.
 ms.assetid: cefe498a-79be-46c7-8cf8-4517d15a85bf
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_QUERYVIDPNEXCLUSIVEOWNERSHIP, D3DKMT_QUERYVIDPNEXCLUSIVEOWNERSHIP, 
 req.header: d3dkmthk.h

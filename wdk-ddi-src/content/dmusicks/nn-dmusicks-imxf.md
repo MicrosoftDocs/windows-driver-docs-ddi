@@ -6,7 +6,7 @@ description: The IMXF interface represents the DirectMusic stream on a MIDI tran
 old-location: audio\imxf.htm
 tech.root: audio
 ms.assetid: 97e24c86-a97d-42ed-9402-4c387c7cec5b
-ms.date: 3/19/2018
+ms.date: 03/19/2018
 ms.keywords: IMXF, IMXF interface [Audio Devices], IMXF interface [Audio Devices], described, audio.imxf, audmp-routines_41562676-678d-48c5-8a19-2c8699420a51.xml, dmusicks/IMXF
 ms.topic: interface
 req.header: dmusicks.h

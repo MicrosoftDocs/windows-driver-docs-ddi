@@ -6,7 +6,7 @@ description: The filter engine calls the vSwitchPolicyEventNotifyFn (FWPS_VSWITC
 old-location: netvista\fwps_vswitch_policy_event_callback0.htm
 tech.root: netvista
 ms.assetid: 8D0F61E2-A891-4D51-9E33-BFA491B95505
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FWPS_VSWITCH_POLICY_EVENT_CALLBACK0, FWPS_VSWITCH_POLICY_EVENT_CALLBACK0 callback, fwpsk/vSwitchPolicyEventNotifyFn, netvista.fwps_vswitch_policy_event_callback0, vSwitchPolicyEventNotifyFn, vSwitchPolicyEventNotifyFn callback function [Network Drivers Starting with Windows Vista]
 ms.topic: callback
 req.header: fwpsk.h

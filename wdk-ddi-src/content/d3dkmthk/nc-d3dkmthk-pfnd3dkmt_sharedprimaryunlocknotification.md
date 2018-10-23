@@ -4,7 +4,7 @@ title: PFND3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION
 author: windows-driver-content
 description: The PFND3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION callback function notifies the operating system that a shared primary surface was unlocked.
 ms.assetid: c6a4be3f-33b5-4369-8b27-06561bf43873
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

@@ -4,7 +4,7 @@ title: _D3DKMT_DOD_SET_DIRTYRECT_MODE
 author: windows-driver-content
 description: Set dirty rectangle mode.
 ms.assetid: 03abb50c-bd47-45b6-9648-f0f6980503c1
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_DOD_SET_DIRTYRECT_MODE, D3DKMT_DOD_SET_DIRTYRECT_MODE, 
 req.header: d3dkmthk.h

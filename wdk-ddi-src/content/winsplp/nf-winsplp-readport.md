@@ -6,7 +6,7 @@ description: A port monitor's ReadPort function reads data from a printer port.
 old-location: print\readport.htm
 tech.root: print
 ms.assetid: ab1fb259-edcb-4e19-9afb-18aa6688764a
-ms.date: 2/2/2018
+ms.date: 02/02/2018
 ms.keywords: ReadPort, spoolfnc_f4b817ce-afeb-4d3f-b8ce-e060b8de8143.xml, ReadPort function [Print Devices], print.readport, winsplp/ReadPort
 ms.topic: function
 req.header: winsplp.h

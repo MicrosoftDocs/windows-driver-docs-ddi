@@ -6,7 +6,7 @@ description: The AtaPortReleaseRequestSenseIrb routine frees the request sense I
 old-location: storage\ataportreleaserequestsenseirb.htm
 tech.root: storage
 ms.assetid: 53e5e234-c256-4581-b109-307f2f17522f
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: AtaPortReleaseRequestSenseIrb, AtaPortReleaseRequestSenseIrb routine [Storage Devices], atartns_b46ae59d-b5b8-49fb-9458-742eefacd197.xml, irb/AtaPortReleaseRequestSenseIrb, storage.ataportreleaserequestsenseirb
 ms.topic: function
 req.header: irb.h

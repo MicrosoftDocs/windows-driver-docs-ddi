@@ -6,7 +6,7 @@ description: The SetExceptionFilterSecondCommandWide method sets the command tha
 old-location: debugger\setexceptionfiltersecondcommandwide.htm
 tech.root: debugger
 ms.assetid: cbc0e98b-eac7-441d-b2b5-512725403210
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugControl4 interface [Windows Debugging],SetExceptionFilterSecondCommandWide method, IDebugControl4.SetExceptionFilterSecondCommandWide, IDebugControl4::SetExceptionFilterSecondCommandWide, SetExceptionFilterSecondCommandWide, SetExceptionFilterSecondCommandWide method [Windows Debugging], SetExceptionFilterSecondCommandWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::SetExceptionFilterSecondCommandWide, debugger.setexceptionfiltersecondcommandwide
 ms.topic: method
 req.header: dbgeng.h

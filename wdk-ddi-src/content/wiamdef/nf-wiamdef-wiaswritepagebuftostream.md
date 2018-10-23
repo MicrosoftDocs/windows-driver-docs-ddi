@@ -6,7 +6,7 @@ description: The wiasWritePageBufToStream function writes the contents of a temp
 old-location: image\wiaswritepagebuftostream.htm
 tech.root: image
 ms.assetid: f8f8ac2a-705e-426c-8c4a-00581b8d1dfe
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiaswritepagebuftostream, wiamdef/wiasWritePageBufToStream, wiasFncs_1173cf4b-d42c-4c6b-959e-68f456b78ec4.xml, wiasWritePageBufToStream, wiasWritePageBufToStream function [Imaging Devices]
 ms.topic: function
 req.header: wiamdef.h

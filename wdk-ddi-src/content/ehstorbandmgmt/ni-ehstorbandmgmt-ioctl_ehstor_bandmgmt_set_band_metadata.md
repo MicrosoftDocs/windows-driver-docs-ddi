@@ -6,7 +6,7 @@ description: Metadata associated with a band is set with an IOCTL_EHSTOR_BANDMGM
 old-location: storage\ioctl_ehstor_bandmgmt_set_band_metadata.htm
 tech.root: storage
 ms.assetid: 5FBEAB29-C256-47EF-B673-6584679B8908
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA, IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA control, IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA, storage.ioctl_ehstor_bandmgmt_set_band_metadata
 ms.topic: ioctl
 req.header: ehstorbandmgmt.h

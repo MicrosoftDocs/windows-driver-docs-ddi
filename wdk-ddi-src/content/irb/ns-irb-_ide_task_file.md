@@ -6,7 +6,7 @@ description: The IDE_TASK_FILE structure contains the current and previous IDE t
 old-location: storage\ide_task_file.htm
 tech.root: storage
 ms.assetid: f18b46c0-975b-49ba-b398-45f2a44d6d3b
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PIDE_TASK_FILE, IDE_TASK_FILE, IDE_TASK_FILE structure [Storage Devices], PIDE_TASK_FILE, PIDE_TASK_FILE structure pointer [Storage Devices], _IDE_TASK_FILE, irb/IDE_TASK_FILE, irb/PIDE_TASK_FILE, storage.ide_task_file, structs-ATA_0d96e047-8840-46cd-9df1-606ca70edb9e.xml"
 ms.topic: struct
 req.header: irb.h

@@ -6,7 +6,7 @@ description: Returns the system address for the input data buffer of a SCSI requ
 old-location: storage\storportgetdatainbuffersystemaddress.htm
 tech.root: storage
 ms.assetid: 3FA48004-E96A-4ED7-935F-B7F58A74FB1F
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortGetDataInBufferSystemAddress, StorPortGetDataInBufferSystemAddress routine [Storage Devices], storage.storportgetdatainbuffersystemaddress, storport/StorPortGetDataInBufferSystemAddress
 ms.topic: function
 req.header: storport.h

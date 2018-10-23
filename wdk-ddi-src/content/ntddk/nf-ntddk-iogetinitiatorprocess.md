@@ -6,7 +6,7 @@ description: The IoGetInitiatorProcess routine retrieves the process which initi
 old-location: kernel\iogetinitiatorprocess.htm
 tech.root: kernel
 ms.assetid: 653B4FD5-4C07-420A-BE8A-CC8C46BC6F0F
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoGetInitiatorProcess, IoGetInitiatorProcess function [Kernel-Mode Driver Architecture], kernel.iogetinitiatorprocess, ntddk/IoGetInitiatorProcess
 ms.topic: function
 req.header: ntddk.h

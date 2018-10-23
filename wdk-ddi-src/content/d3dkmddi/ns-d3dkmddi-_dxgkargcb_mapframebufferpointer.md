@@ -4,7 +4,7 @@ title: _DXGKARGCB_MAPFRAMEBUFFERPOINTER
 author: windows-driver-content
 description: Contains arguments used by the DxgkCbMapFrameBufferPointer callback function to map frame buffer pointer.
 ms.assetid: 8404fc1c-84e7-4758-90cd-39de1d4320f7
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGKARGCB_MAPFRAMEBUFFERPOINTER, DXGKARGCB_MAPFRAMEBUFFERPOINTER, *INOUT_PDXGKARGCB_MAPFRAMEBUFFERPOINTER
 req.header: d3dkmddi.h

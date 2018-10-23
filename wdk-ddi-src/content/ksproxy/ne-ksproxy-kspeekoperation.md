@@ -6,7 +6,7 @@ description:
 old-location: stream\kspeekoperation.htm
 tech.root: stream
 ms.assetid: 057E822B-0C55-4E4A-9207-48FB583E8EAF
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KSPEEKOPERATION, KSPEEKOPERATION enumeration [Streaming Media Devices], KsPeekOperation_AddRef, KsPeekOperation_PeekOnly, ksproxy/KSPEEKOPERATION, ksproxy/KsPeekOperation_AddRef, ksproxy/KsPeekOperation_PeekOnly, stream.kspeekoperation
 ms.topic: enum
 req.header: ksproxy.h

@@ -6,7 +6,7 @@ description: Performs a small amount of simple I/O to the device.
 old-location: dtf\iwdtfsimpleioex2_performio.htm
 tech.root: dtf
 ms.assetid: 795dcbed-e0ce-444d-a6a8-95d0bc658f5b
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFSimpleIOEx2 interface [Windows Device Testing Framework],PerformIO method, IWDTFSimpleIOEx2.PerformIO, IWDTFSimpleIOEx2::PerformIO, Microsoft.WDTF.IWDTFSimpleIOEx2.PerformIO, Microsoft::WDTF::IWDTFSimpleIOEx2::PerformIO, PerformIO, PerformIO method [Windows Device Testing Framework], PerformIO method [Windows Device Testing Framework],IWDTFSimpleIOEx2 interface, dtf.iwdtfsimpleioex2_performio, wdtfinterfaces/IWDTFSimpleIOEx2::PerformIO
 ms.topic: method
 req.header: wdtfinterfaces.h

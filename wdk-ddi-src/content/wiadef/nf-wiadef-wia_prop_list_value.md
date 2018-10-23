@@ -4,7 +4,7 @@ title: WIA_PROP_LIST_VALUE macro
 author: windows-driver-content
 description: 
 ms.assetid: 13dc97d0-ecc4-4884-82e3-814e095e6933
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: macro
 ms.keywords: WIA_PROP_LIST_VALUE
 req.header: wiadef.h

@@ -6,7 +6,7 @@ description: Specifies the state of the device.
 old-location: display\d3dddi_executionstateescape.htm
 tech.root: display
 ms.assetid: 9BA78743-91AA-4AAC-9FB3-CF8B30FC15AE
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDI_EXECUTIONSTATEESCAPE, D3DDDI_EXECUTIONSTATEESCAPE structure [Display Devices], _D3DDDI_EXECUTIONSTATEESCAPE, d3dumddi/D3DDDI_EXECUTIONSTATEESCAPE, display.d3dddi_executionstateescape
 ms.topic: struct
 req.header: d3dumddi.h

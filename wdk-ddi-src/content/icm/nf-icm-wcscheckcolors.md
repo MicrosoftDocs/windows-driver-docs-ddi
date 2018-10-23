@@ -6,7 +6,7 @@ description: The WcsCheckColors function determines whether the colors in an arr
 old-location: print\wcscheckcolors.htm
 tech.root: print
 ms.assetid: 1254b0d4-cb72-4171-b09d-f0bca58a137a
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: WcsCheckColors, WcsCheckColors function [Print Devices], colorfnc_abd03c7d-c516-4c81-a0ff-df351cac753e.xml, icm/WcsCheckColors, print.wcscheckcolors
 ms.topic: function
 req.header: icm.h

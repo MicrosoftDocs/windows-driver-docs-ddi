@@ -6,7 +6,7 @@ description: The KeReleaseInStackQueuedSpinLockFromDpcLevel routine releases a q
 old-location: kernel\kereleaseinstackqueuedspinlockfromdpclevel.htm
 tech.root: kernel
 ms.assetid: c3f07b86-f5ca-4c21-bc4b-b23598da7664
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeReleaseInStackQueuedSpinLockFromDpcLevel, KeReleaseInStackQueuedSpinLockFromDpcLevel routine [Kernel-Mode Driver Architecture], k105_76a65a2a-d5b2-4066-90e9-4539c5e39930.xml, kernel.kereleaseinstackqueuedspinlockfromdpclevel, wdm/KeReleaseInStackQueuedSpinLockFromDpcLevel
 ms.topic: function
 req.header: wdm.h

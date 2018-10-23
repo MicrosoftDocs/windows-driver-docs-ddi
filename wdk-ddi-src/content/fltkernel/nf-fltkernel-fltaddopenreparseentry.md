@@ -6,7 +6,7 @@ description: This routine adds a caller allocated open reparse structure, OPEN_R
 old-location: ifsk\fltaddopenreparseentry.htm
 tech.root: ifsk
 ms.assetid: D58AB46A-0D87-45B5-8C58-E99ED0F906D2
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], fltkernel/FltAddOpenReparseEntry, ifsk.fltaddopenreparseentry
 ms.topic: function
 req.header: fltkernel.h

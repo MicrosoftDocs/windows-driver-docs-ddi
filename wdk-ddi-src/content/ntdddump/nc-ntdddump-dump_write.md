@@ -6,7 +6,7 @@ description: The Dump_Write callback routine is called before the write to the d
 old-location: storage\dump_write.htm
 tech.root: storage
 ms.assetid: c7eda6a7-a1ce-43a3-b0e4-41f5afc61be6
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: Dump_Write, Dump_Write routine [Storage Devices], PDUMP_WRITE, filter_rtns_acfeabaa-fc01-494a-b344-c47d1fccd1ee.xml, ntdddump/Dump_Write, storage.dump_write
 ms.topic: callback
 req.header: ntdddump.h

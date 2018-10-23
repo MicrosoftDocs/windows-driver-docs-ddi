@@ -6,7 +6,7 @@ description: The ScsiPortGetVirtualAddress routine returns a virtual address ass
 old-location: storage\scsiportgetvirtualaddress.htm
 tech.root: storage
 ms.assetid: 8e9a247a-f906-4f0e-8249-b67a042aada5
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ScsiPortGetVirtualAddress, ScsiPortGetVirtualAddress routine [Storage Devices], scsiprt_4f474eed-75d3-47cd-9473-37d0d15310de.xml, srb/ScsiPortGetVirtualAddress, storage.scsiportgetvirtualaddress
 ms.topic: function
 req.header: srb.h

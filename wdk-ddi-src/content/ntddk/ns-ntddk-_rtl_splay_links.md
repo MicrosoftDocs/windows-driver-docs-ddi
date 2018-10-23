@@ -6,7 +6,7 @@ description: The RTL_SPLAY_LINKS structure is an opaque structure and is used by
 old-location: ifsk\rtl_splay_links.htm
 tech.root: ifsk
 ms.assetid: b035b101-2667-4962-ae49-781ddd30e0be
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PRTL_SPLAY_LINKS, PRTL_SPLAY_LINKS, PRTL_SPLAY_LINKS structure pointer [Installable File System Drivers], RTL_SPLAY_LINKS, RTL_SPLAY_LINKS structure [Installable File System Drivers], _RTL_SPLAY_LINKS, ifsk.rtl_splay_links, ntddk/PRTL_SPLAY_LINKS, ntddk/RTL_SPLAY_LINKS, othersystemstructures_3a91f0e3-8f7c-4f45-8707-2392d2637cf4.xml"
 ms.topic: struct
 req.header: ntddk.h
@@ -96,7 +96,7 @@ Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff553226">RtlS
 
 </li>
 </ol>
-Callers of the <b>Rtl</b><b><i>Xxx</i></b> splay tree routines are responsible for synchronizing access to the splay tree. For more information about how to synchronize access to the splay tree, see <a href="http://go.microsoft.com/fwlink/p/?linkid=120487">Locks, Deadlocks, and Synchronization</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff554368">Managing Hardware Priorities</a>.
+Callers of the <b>Rtl</b><b><i>Xxx</i></b> splay tree routines are responsible for synchronizing access to the splay tree. For more information about how to synchronize access to the splay tree, see <a href="https://go.microsoft.com/fwlink/p/?linkid=120487">Locks, Deadlocks, and Synchronization</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff554368">Managing Hardware Priorities</a>.
 
 
 

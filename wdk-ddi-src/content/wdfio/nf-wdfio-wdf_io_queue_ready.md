@@ -6,7 +6,7 @@ description: The WDF_IO_QUEUE_READY function returns TRUE if an I/O queue's stat
 old-location: wdf\wdf_io_queue_ready.htm
 tech.root: wdf
 ms.assetid: 622e09eb-37ae-403e-9d18-acf2e7761b43
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_d5c37eea-044b-41b6-9c0a-f910fef04d00.xml, WDF_IO_QUEUE_READY, WDF_IO_QUEUE_READY function, kmdf.wdf_io_queue_ready, wdf.wdf_io_queue_ready, wdfio/WDF_IO_QUEUE_READY
 ms.topic: function
 req.header: wdfio.h

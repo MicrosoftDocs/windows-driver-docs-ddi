@@ -6,7 +6,7 @@ description: The IStillImage::GetDeviceValue method returns registry information
 old-location: image\istillimage_getdevicevalue.htm
 tech.root: image
 ms.assetid: 506c50fa-f162-4b30-bfb9-91987e064c39
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetDeviceValue, GetDeviceValue method [Imaging Devices], GetDeviceValue method [Imaging Devices],IStillImageW interface, IStillImageW interface [Imaging Devices],GetDeviceValue method, IStillImageW.GetDeviceValue, IStillImageW::GetDeviceValue, image.istillimage_getdevicevalue, sti/IStillImageW::GetDeviceValue, stifnc_4b207dea-28ff-4f85-b8a7-43c038b3e810.xml
 ms.topic: method
 req.header: sti.h

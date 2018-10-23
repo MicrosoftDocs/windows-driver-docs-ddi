@@ -6,7 +6,7 @@ description: The NdisDeleteNPagedLookasideList function removes a nonpaged looka
 old-location: netvista\ndisdeletenpagedlookasidelist.htm
 tech.root: netvista
 ms.assetid: 0622d3db-8d28-4c15-a3d8-1092487b8096
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisDeleteNPagedLookasideList, NdisDeleteNPagedLookasideList macro [Network Drivers Starting with Windows Vista], ndis/NdisDeleteNPagedLookasideList, ndis_lookaside_ref_37df3d7d-0aa7-4d8e-b6a5-38ab85ca929e.xml, netvista.ndisdeletenpagedlookasidelist
 ms.topic: macro
 req.header: ndis.h

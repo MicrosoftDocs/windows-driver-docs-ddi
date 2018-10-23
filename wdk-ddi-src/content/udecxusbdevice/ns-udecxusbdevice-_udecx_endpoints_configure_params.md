@@ -6,7 +6,7 @@ description: Contains the configuration options specified by USB device emulatio
 old-location: buses\udecx_endpoints_configure_params.htm
 tech.root: usbref
 ms.assetid: C31AE3A8-CD3C-4270-BA5C-A61C0F386701
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUDECX_ENDPOINTS_CONFIGURE_PARAMS, PUDECX_ENDPOINTS_CONFIGURE_PARAMS, PUDECX_ENDPOINTS_CONFIGURE_PARAMS structure pointer [Buses], UDECX_ENDPOINTS_CONFIGURE_PARAMS, UDECX_ENDPOINTS_CONFIGURE_PARAMS structure [Buses], _UDECX_ENDPOINTS_CONFIGURE_PARAMS, buses.udecx_endpoints_configure_params, udecxusbdevice/PUDECX_ENDPOINTS_CONFIGURE_PARAMS, udecxusbdevice/UDECX_ENDPOINTS_CONFIGURE_PARAMS"
 ms.topic: struct
 req.header: udecxusbdevice.h

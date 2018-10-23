@@ -6,7 +6,7 @@ description: EVT_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER is called by the OS to get
 old-location: display\evt_idd_cx_monitor_opm_get_random_number.htm
 tech.root: display
 ms.assetid: 330dc0a1-d9a9-44c1-9d29-752c2567e745
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: EVT_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER, EVT_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER callback, EvtIddCxMonitorOpmGetRandomNumber, EvtIddCxMonitorOpmGetRandomNumber callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER, PFN_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_get_random_number, iddcx/EvtIddCxMonitorOpmGetRandomNumber
 ms.topic: callback
 req.header: iddcx.h

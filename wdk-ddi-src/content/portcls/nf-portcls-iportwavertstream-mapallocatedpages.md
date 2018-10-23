@@ -6,7 +6,7 @@ description: The MapAllocatedPages method maps a list of previously allocated ph
 old-location: audio\iportwavertstream_mapallocatedpages.htm
 tech.root: audio
 ms.assetid: 90f412de-073f-4889-adf3-898cde0206b7
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IPortWaveRTStream interface [Audio Devices],MapAllocatedPages method, IPortWaveRTStream.MapAllocatedPages, IPortWaveRTStream::MapAllocatedPages, MapAllocatedPages, MapAllocatedPages method [Audio Devices], MapAllocatedPages method [Audio Devices],IPortWaveRTStream interface, audio.iportwavertstream_mapallocatedpages, audmp-routines_914e2039-e45b-44c5-8b29-0bcc6da901c3.xml, portcls/IPortWaveRTStream::MapAllocatedPages
 ms.topic: method
 req.header: portcls.h

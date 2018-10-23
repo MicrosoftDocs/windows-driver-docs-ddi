@@ -6,7 +6,7 @@ description: The D3DDDI_UPDATEALLOCPROPERTY_FLAGS structure identifies how to up
 old-location: display\d3dddi_updateallocproperty_flags.htm
 tech.root: display
 ms.assetid: 377EC824-9D43-40CA-B5CA-A04402852EA3
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDI_UPDATEALLOCPROPERTY_FLAGS, D3DDDI_UPDATEALLOCPROPERTY_FLAGS structure [Display Devices], PD3DDDI_UPDATEALLOCPROPERTY_FLAGS, PD3DDDI_UPDATEALLOCPROPERTY_FLAGS structure pointer [Display Devices], d3dukmdt/D3DDDI_UPDATEALLOCPROPERTY_FLAGS, d3dukmdt/PD3DDDI_UPDATEALLOCPROPERTY_FLAGS, display.d3dddi_updateallocproperty_flags
 ms.topic: struct
 req.header: d3dukmdt.h

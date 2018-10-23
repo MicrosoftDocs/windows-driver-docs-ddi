@@ -6,7 +6,7 @@ description: Gets a pointer to an IPrinterExtensionContext object.
 old-location: print\iprinterextensioncontextcollection_getat.htm
 tech.root: print
 ms.assetid: 5E3DC6C7-E370-4120-81B7-2093812AD009
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetAt, GetAt method [Print Devices], GetAt method [Print Devices],IPrinterExtensionContextCollection interface, IPrinterExtensionContextCollection interface [Print Devices],GetAt method, IPrinterExtensionContextCollection.GetAt, IPrinterExtensionContextCollection::GetAt, get_GetAt, print.iprinterextensioncontextcollection_getat, printerextension/IPrinterExtensionContextCollection::GetAt
 ms.topic: method
 req.header: printerextension.h

@@ -6,7 +6,7 @@ description: The MONITOREX structure is obsolete and supported for compatibility
 old-location: print\monitorex.htm
 tech.root: print
 ms.assetid: f03f72a8-8dc1-4e27-b89b-1afea16a177a
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*LPMONITOREX, LPMONITOREX, LPMONITOREX structure pointer [Print Devices], MONITOREX, MONITOREX structure [Print Devices], _MONITOREX, print.monitorex, spoolfnc_4910913b-826e-4947-8186-7737d7b3c3fa.xml, winsplp/LPMONITOREX, winsplp/MONITOREX"
 ms.topic: struct
 req.header: winsplp.h

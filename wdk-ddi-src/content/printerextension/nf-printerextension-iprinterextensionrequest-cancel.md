@@ -6,7 +6,7 @@ description: Completes the extension event with a cancellation.
 old-location: print\iprinterextensionrequest_cancel.htm
 tech.root: print
 ms.assetid: CE5C2999-37D7-4702-B94D-E3131AE34E78
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: Cancel, Cancel method [Print Devices], Cancel method [Print Devices],IPrinterExtensionRequest interface, IPrinterExtensionRequest interface [Print Devices],Cancel method, IPrinterExtensionRequest.Cancel, IPrinterExtensionRequest::Cancel, print.iprinterextensionrequest_cancel, printerextension/IPrinterExtensionRequest::Cancel
 ms.topic: method
 req.header: printerextension.h

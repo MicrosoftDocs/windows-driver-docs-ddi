@@ -6,7 +6,7 @@ description: The SetRadix method sets the default radix (number base) used by th
 old-location: debugger\setradix.htm
 tech.root: debugger
 ms.assetid: 7346733d-2ac7-4eee-9f9c-ea6e1ee2ce5d
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugControl interface [Windows Debugging],SetRadix method, IDebugControl2 interface [Windows Debugging],SetRadix method, IDebugControl2::SetRadix, IDebugControl3 interface [Windows Debugging],SetRadix method, IDebugControl3.SetRadix, IDebugControl3::SetRadix, IDebugControl::SetRadix, IDebugControl_f0462fa8-da93-414b-b4b1-246a50572bb2.xml, SetRadix, SetRadix method [Windows Debugging], SetRadix method [Windows Debugging],IDebugControl interface, SetRadix method [Windows Debugging],IDebugControl2 interface, SetRadix method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetRadix, dbgeng/IDebugControl3::SetRadix, dbgeng/IDebugControl::SetRadix, debugger.setradix
 ms.topic: method
 req.header: dbgeng.h

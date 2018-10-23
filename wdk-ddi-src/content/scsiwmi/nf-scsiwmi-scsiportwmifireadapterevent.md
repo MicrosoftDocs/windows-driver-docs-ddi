@@ -6,7 +6,7 @@ description: The ScsiPortWmiFireAdapterEvent routine sends an event associated w
 old-location: storage\scsiportwmifireadapterevent.htm
 tech.root: storage
 ms.assetid: cb48d1a3-65ef-49f7-b6e5-b3dabf989779
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ScsiPortWmiFireAdapterEvent, ScsiPortWmiFireAdapterEvent macro [Storage Devices], scsiprt_39ab704d-53a4-46d4-9196-f545710692ae.xml, scsiwmi/ScsiPortWmiFireAdapterEvent, storage.scsiportwmifireadapterevent
 ms.topic: macro
 req.header: scsiwmi.h

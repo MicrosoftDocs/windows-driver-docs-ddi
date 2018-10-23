@@ -4,7 +4,7 @@ title: _DXGKARGCB_INVALIDATEHWCONTEXT
 author: windows-driver-content
 description: Invalidates hardware context.
 ms.assetid: 1291e94b-ddaf-43ec-a205-7dda7d63ff01
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGKARGCB_INVALIDATEHWCONTEXT, DXGKARGCB_INVALIDATEHWCONTEXT,
 req.header: d3dkmddi.h

@@ -6,7 +6,7 @@ description: The KsGateAddOffInputToAnd function adds a new input in the OFF sta
 old-location: stream\ksgateaddoffinputtoand.htm
 tech.root: stream
 ms.assetid: 53e03b1d-0995-43cf-945a-22834a9e8240
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsGateAddOffInputToAnd, KsGateAddOffInputToAnd function [Streaming Media Devices], avfunc_52efe27b-d77a-490d-beba-3a05b3d5ed83.xml, ks/KsGateAddOffInputToAnd, stream.ksgateaddoffinputtoand
 ms.topic: function
 req.header: ks.h

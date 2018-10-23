@@ -6,7 +6,7 @@ description: The IXpsDocument interface represents the root of an XPS document.
 old-location: print\ixpsdocument.htm
 tech.root: print
 ms.assetid: 1d4a9ad3-6ac1-44c3-9ddd-0dc5f996d70d
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IXpsDocument, IXpsDocument interface [Print Devices], IXpsDocument interface [Print Devices],described, filterpipeline/IXpsDocument, filterpipeline_d2db5467-7b2d-439c-8ad1-3ffb607a3167.xml, print.ixpsdocument
 ms.topic: interface
 req.header: filterpipeline.h

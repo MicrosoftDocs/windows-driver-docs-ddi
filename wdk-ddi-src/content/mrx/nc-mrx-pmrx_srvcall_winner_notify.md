@@ -6,7 +6,7 @@ description: The MRxSrvCallWinnerNotify routine is called by RDBSS to notify a n
 old-location: ifsk\mrxsrvcallwinnernotify.htm
 tech.root: ifsk
 ms.assetid: 6853b73e-5516-485e-ade4-54b7faf6bb1d
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: MRxSrvCallWinnerNotify, MRxSrvCallWinnerNotify routine [Installable File System Drivers], PMRX_SRVCALL_WINNER_NOTIFY, ifsk.mrxsrvcallwinnernotify, mrx/MRxSrvCallWinnerNotify, mrxref_32054fb8-84ca-407a-ab65-90feee16041d.xml
 ms.topic: callback
 req.header: mrx.h

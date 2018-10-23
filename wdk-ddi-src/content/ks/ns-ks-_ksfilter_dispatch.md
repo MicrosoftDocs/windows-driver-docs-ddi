@@ -6,7 +6,7 @@ description: The KSFILTER_DISPATCH structure describes the client callbacks that
 old-location: stream\ksfilter_dispatch.htm
 tech.root: stream
 ms.assetid: 3b84c06f-774e-45e1-9a64-711749bb3a88
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSFILTER_DISPATCH, KSFILTER_DISPATCH, KSFILTER_DISPATCH structure [Streaming Media Devices], PKSFILTER_DISPATCH, PKSFILTER_DISPATCH structure pointer [Streaming Media Devices], _KSFILTER_DISPATCH, avstruct_cfadb813-12c3-4960-89d7-72a75db1684a.xml, ks/KSFILTER_DISPATCH, ks/PKSFILTER_DISPATCH, stream.ksfilter_dispatch"
 ms.topic: struct
 req.header: ks.h

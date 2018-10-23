@@ -6,7 +6,7 @@ description: Contains report ID information for a top-level collection.
 old-location: hid\hidp_report_ids.htm
 tech.root: hid
 ms.assetid: C88B77C3-01CB-4E8C-83A4-EB9AFB122327
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PHIDP_REPORT_IDS, HIDP_REPORT_IDS, HIDP_REPORT_IDS structure [Human Input Devices], PHIDP_REPORT_IDS, PHIDP_REPORT_IDS structure pointer [Human Input Devices], _HIDP_REPORT_IDS, hid.hidp_report_ids, hidpddi/HIDP_REPORT_IDS, hidpddi/PHIDP_REPORT_IDS"
 ms.topic: struct
 req.header: hidpddi.h

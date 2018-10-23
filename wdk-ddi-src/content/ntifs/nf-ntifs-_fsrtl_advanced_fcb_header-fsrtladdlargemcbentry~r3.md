@@ -6,7 +6,7 @@ description: The FsRtlAddLargeMcbEntry routine adds a new mapping to an existing
 old-location: ifsk\fsrtladdlargemcbentry.htm
 tech.root: ifsk
 ms.assetid: 7cab24f3-624f-4fd1-9f33-76042e5f16ed
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: FsRtlAddLargeMcbEntry, FsRtlAddLargeMcbEntry routine [Installable File System Drivers], fsrtlref_de8b7789-cdba-4535-b2b9-bbc29add7fc6.xml, ifsk.fsrtladdlargemcbentry, ntifs/FsRtlAddLargeMcbEntry
 ms.topic: function
 req.header: ntifs.h

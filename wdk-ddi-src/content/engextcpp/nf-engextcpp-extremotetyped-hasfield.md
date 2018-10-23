@@ -6,7 +6,7 @@ description: The HasField method determines if the type of the data represented 
 old-location: debugger\extremotetyped_hasfield.htm
 tech.root: debugger
 ms.assetid: c206d8e7-1a90-4866-868b-20275a52e2dd
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_8ce2c346-a92a-45ef-8baa-f1c42670aca6.xml, ExtRemoteTyped interface [Windows Debugging],HasField method, ExtRemoteTyped.HasField, ExtRemoteTyped::HasField, HasField, HasField method [Windows Debugging], HasField method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_hasfield
 ms.topic: method
 req.header: engextcpp.hpp

@@ -6,7 +6,7 @@ description: Reserved for system use.
 old-location: ifsk\ioqueryfileinformation.htm
 tech.root: ifsk
 ms.assetid: cfaa6068-979c-49c3-b671-c51ede023776
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: IoQueryFileInformation, IoQueryFileInformation function [Installable File System Drivers], ifsk.ioqueryfileinformation, ioref_7dc69c37-bd12-4857-ae49-69d0d29d8e72.xml, ntifs/IoQueryFileInformation
 ms.topic: function
 req.header: ntifs.h

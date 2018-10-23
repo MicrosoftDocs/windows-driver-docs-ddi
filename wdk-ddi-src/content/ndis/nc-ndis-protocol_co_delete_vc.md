@@ -6,7 +6,7 @@ description: The ProtocolCoDeleteVc function is required.
 old-location: netvista\protocolcodeletevc.htm
 tech.root: netvista
 ms.assetid: d761270f-bf77-441e-834c-9ac7fb3d350f
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CO_DELETE_VC, PROTOCOL_CO_DELETE_VC callback, ProtocolCoDeleteVc, ProtocolCoDeleteVc callback function [Network Drivers Starting with Windows Vista], condis_protocol_ref_bd593797-8284-4b3e-980e-c5401776014f.xml, ndis/ProtocolCoDeleteVc, netvista.protocolcodeletevc
 ms.topic: callback
 req.header: ndis.h
@@ -170,7 +170,7 @@ NDIS_STATUS
 </table></span></div>
 The <b>PROTOCOL_CO_DELETE_VC</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CO_DELETE_VC</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 

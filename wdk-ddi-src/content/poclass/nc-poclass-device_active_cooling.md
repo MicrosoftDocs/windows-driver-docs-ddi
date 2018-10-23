@@ -6,7 +6,7 @@ description: The ActiveCooling callback routine engages or disengages a device's
 old-location: kernel\activecooling.htm
 tech.root: battery
 ms.assetid: ADC0145D-135F-46E6-91C9-B545DBE1D83B
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ActiveCooling, ActiveCooling routine [Kernel-Mode Driver Architecture], DEVICE_ACTIVE_COOLING, kernel.activecooling, poclass/ActiveCooling
 ms.topic: callback
 req.header: poclass.h

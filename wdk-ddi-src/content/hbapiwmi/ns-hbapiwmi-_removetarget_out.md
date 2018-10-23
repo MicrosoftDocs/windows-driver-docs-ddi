@@ -6,7 +6,7 @@ description: The RemoveTarget_OUT structure is used by an HBA miniport driver to
 old-location: storage\removetarget_out.htm
 tech.root: storage
 ms.assetid: 176dbb0c-227e-48b2-956c-9e2b42f4c68b
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PRemoveTarget_OUT, PRemoveTarget_OUT, PRemoveTarget_OUT structure pointer [Storage Devices], RemoveTarget_OUT, RemoveTarget_OUT structure [Storage Devices], _RemoveTarget_OUT, hbapiwmi/PRemoveTarget_OUT, hbapiwmi/RemoveTarget_OUT, storage.removetarget_out, structs-Fibre_0cab8f87-0c96-4e03-bfd9-495e245850ca.xml"
 ms.topic: struct
 req.header: hbapiwmi.h

@@ -6,7 +6,7 @@ description: The TAL_TXRX_PARAMETERS structure defines the TAL TXRX parameters.
 old-location: netvista\tal_txrx_parameters.htm
 tech.root: netvista
 ms.assetid: 44f5c907-7368-43ea-b581-3b9ecf25c611
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PTAL_TXRX_PARAMETERS, PTAL_TXRX_PARAMETERS, PTAL_TXRX_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], TAL_TXRX_PARAMETERS, TAL_TXRX_PARAMETERS structure [Network Drivers Starting with Windows Vista], _TAL_TXRX_PARAMETERS, dot11wdi/PTAL_TXRX_PARAMETERS, dot11wdi/TAL_TXRX_PARAMETERS, netvista.tal_txrx_parameters"
 ms.topic: struct
 req.header: dot11wdi.h

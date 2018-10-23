@@ -6,7 +6,7 @@ description: RxNameCacheInitialize initializes a name cache (NAME_CACHE_CONTROL 
 old-location: ifsk\rxnamecacheinitialize.htm
 tech.root: ifsk
 ms.assetid: 2a124a6e-30ff-4c0d-9a09-8cf43e65a657
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxNameCacheInitialize, RxNameCacheInitialize function [Installable File System Drivers], ifsk.rxnamecacheinitialize, namcache/RxNameCacheInitialize, rxref_1a97be61-3797-49f0-ad90-e426e43505c1.xml
 ms.topic: function
 req.header: namcache.h

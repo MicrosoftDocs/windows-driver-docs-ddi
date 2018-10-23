@@ -6,7 +6,7 @@ description: NDIS calls a miniport driver's MiniportPause function to stop the f
 old-location: netvista\miniportpause.htm
 tech.root: netvista
 ms.assetid: 047241a5-6f52-4a82-a334-8508f0de5e1a
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_PAUSE, MINIPORT_PAUSE callback, MiniportPause, MiniportPause callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_ff1257db-4c3e-4e0d-8d46-1736567339ba.xml, ndis/MiniportPause, netvista.miniportpause
 ms.topic: callback
 req.header: ndis.h
@@ -299,7 +299,7 @@ NDIS_STATUS
 </table></span></div>
 The <b>MINIPORT_PAUSE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_PAUSE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: A structure containing the attributes used for the image in a multiplane overlay.
 old-location: display\dxgk_multiplane_overlay_attributes3.htm
 ms.assetid: 0491AF42-53DF-4538-BE8A-AA5AA7B2C65E
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3, DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3 structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3, display.dxgk_multiplane_overlay_attributes3
 ms.topic: struct
 req.header: d3dkmddi.h

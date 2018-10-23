@@ -6,7 +6,7 @@ description: The HW_CLOCK_OBJECT structure describes the clock associated with a
 old-location: stream\hw_clock_object.htm
 tech.root: stream
 ms.assetid: d6afe946-90cb-4b17-94ed-2e7c508985a3
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PHW_CLOCK_OBJECT, HW_CLOCK_OBJECT, HW_CLOCK_OBJECT structure [Streaming Media Devices], PHW_CLOCK_OBJECT, PHW_CLOCK_OBJECT structure pointer [Streaming Media Devices], _HW_CLOCK_OBJECT, strclass-struct_95b6e9db-af87-415b-aad2-b3763c4dd0d9.xml, stream.hw_clock_object, strmini/HW_CLOCK_OBJECT, strmini/PHW_CLOCK_OBJECT"
 ms.topic: struct
 req.header: strmini.h

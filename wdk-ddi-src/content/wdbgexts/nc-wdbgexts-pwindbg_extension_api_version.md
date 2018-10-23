@@ -6,7 +6,7 @@ description: The PWINDBG_EXTENSION_API_VERSION (ExtensionApiVersion) callback fu
 old-location: debugger\extensionapiversion.htm
 tech.root: debugger
 ms.assetid: 1bc24b16-7dbf-4c95-87ac-c9b38e6a4c59
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ExtensionApiVersion, ExtensionApiVersion callback function [Windows Debugging], PWINDBG_EXTENSION_API_VERSION, PWINDBG_EXTENSION_API_VERSION callback, WdbgExts_Callbacks_1aa063c9-a47d-4c18-a643-007f635b8cff.xml, debugger.extensionapiversion, wdbgexts/ExtensionApiVersion
 ms.topic: callback
 req.header: wdbgexts.h

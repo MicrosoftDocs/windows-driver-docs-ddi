@@ -4,7 +4,7 @@ title: PFND3DKMT_REGISTERTRIMNOTIFICATION
 author: windows-driver-content
 description: The PFND3DKMT_REGISTERTRIMNOTIFICATION callback function registers trim notifications.
 ms.assetid: 149ad603-b237-4f6b-b185-be4a0a9590d2
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

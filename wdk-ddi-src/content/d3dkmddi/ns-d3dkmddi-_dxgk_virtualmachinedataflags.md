@@ -4,7 +4,7 @@ title: _DXGK_VIRTUALMACHINEDATAFLAGS
 author: windows-driver-content
 description: The virtual machine data flags.
 ms.assetid: decc4a46-fe67-49bf-bf9e-067c184ec272
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGK_VIRTUALMACHINEDATAFLAGS, DXGK_VIRTUALMACHINEDATAFLAGS,
 req.header: d3dkmddi.h

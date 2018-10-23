@@ -4,7 +4,7 @@ title: PFND3DKMT_OPENKEYEDMUTEX
 author: windows-driver-content
 description: Pfnd3dkmtOpenkeyedmutex opens a keyed mutex object that includes private data.
 ms.assetid: c5542773-5857-4137-98ac-82467f6e053d
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

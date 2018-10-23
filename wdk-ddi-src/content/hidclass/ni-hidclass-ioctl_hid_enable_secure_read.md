@@ -6,7 +6,7 @@ description: The IOCTL_HID_ENABLE_SECURE_READ request enables a secure read for 
 old-location: hid\ioctl_hid_enable_secure_read.htm
 tech.root: hid
 ms.assetid: 9ec1c4e9-8c98-4772-8657-3392ff0827b5
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IOCTL_HID_ENABLE_SECURE_READ, IOCTL_HID_ENABLE_SECURE_READ control, IOCTL_HID_ENABLE_SECURE_READ control code [Human Input Devices], hid.ioctl_hid_enable_secure_read, hidclass/IOCTL_HID_ENABLE_SECURE_READ, hidioreq_2d4e5797-33fb-40dd-bf76-8d81a0d26826.xml
 ms.topic: ioctl
 req.header: hidclass.h

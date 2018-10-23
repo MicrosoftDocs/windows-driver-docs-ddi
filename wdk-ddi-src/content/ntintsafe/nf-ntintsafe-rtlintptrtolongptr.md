@@ -6,7 +6,7 @@ description: Converts a value of type INT_PTR to a value of type LONG_PTR.
 old-location: kernel\rtlintptrtolongptr.htm
 tech.root: kernel
 ms.assetid: B04AE198-6677-4975-BAA0-96C228EFB038
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlIntPtrToLongPtr, RtlIntPtrToLongPtr function [Kernel-Mode Driver Architecture], kernel.rtlintptrtolongptr, ntintsafe/RtlIntPtrToLongPtr
 ms.topic: function
 req.header: ntintsafe.h

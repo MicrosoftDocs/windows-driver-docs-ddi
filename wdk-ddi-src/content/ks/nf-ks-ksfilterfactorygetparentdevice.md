@@ -6,7 +6,7 @@ description: The KsFilterFactoryGetParentDevice function returns the parent devi
 old-location: stream\ksfilterfactorygetparentdevice.htm
 tech.root: stream
 ms.assetid: ac1d10dc-d3cb-4a83-9f52-34ea90d2193b
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsFilterFactoryGetParentDevice, KsFilterFactoryGetParentDevice function [Streaming Media Devices], avfunc_35d9d582-f7d6-4c1f-8998-a6664527db2c.xml, ks/KsFilterFactoryGetParentDevice, stream.ksfilterfactorygetparentdevice
 ms.topic: function
 req.header: ks.h

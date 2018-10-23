@@ -6,7 +6,7 @@ description: The DOT11_WFD_CONFIGURATION_TIMEOUT structure contains configuratio
 old-location: netvista\dot11_wfd_configuration_timeout.htm
 tech.root: netvista
 ms.assetid: 5432EB69-933A-4080-919F-4131DC4044D0
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_WFD_CONFIGURATION_TIMEOUT, DOT11_WFD_CONFIGURATION_TIMEOUT, DOT11_WFD_CONFIGURATION_TIMEOUT structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_CONFIGURATION_TIMEOUT, PDOT11_WFD_CONFIGURATION_TIMEOUT structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_CONFIGURATION_TIMEOUT, netvista.dot11_wfd_configuration_timeout, windot11/DOT11_WFD_CONFIGURATION_TIMEOUT, windot11/PDOT11_WFD_CONFIGURATION_TIMEOUT"
 ms.topic: struct
 req.header: windot11.h

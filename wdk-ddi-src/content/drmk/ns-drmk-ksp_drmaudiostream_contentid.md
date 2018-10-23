@@ -6,7 +6,7 @@ description: The KSP_DRMAUDIOSTREAM_CONTENTID structure specifies the property, 
 old-location: audio\ksp_drmaudiostream_contentid.htm
 tech.root: audio
 ms.assetid: 16a83c46-c183-4dc2-9d98-877976cf5750
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: "*PKSP_DRMAUDIOSTREAM_CONTENTID, KSP_DRMAUDIOSTREAM_CONTENTID, KSP_DRMAUDIOSTREAM_CONTENTID structure [Audio Devices], PKSP_DRMAUDIOSTREAM_CONTENTID, PKSP_DRMAUDIOSTREAM_CONTENTID structure pointer [Audio Devices], aud-prop_f18ac59e-1ebf-4e98-8bab-1f54f76c6a64.xml, audio.ksp_drmaudiostream_contentid, drmk/KSP_DRMAUDIOSTREAM_CONTENTID, drmk/PKSP_DRMAUDIOSTREAM_CONTENTID"
 ms.topic: struct
 req.header: drmk.h

@@ -4,7 +4,7 @@ title: _D3DBLEND
 author: windows-driver-content
 description: 
 ms.assetid: 87c71a13-c8f7-402f-bb70-1ad29a4cc221
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DBLEND, D3DBLEND, 
 req.header: d3d9types.h

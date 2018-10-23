@@ -4,7 +4,7 @@ title: PFND3D12DDI_CREATE_CONSTANT_BUFFER_VIEW
 author: windows-driver-content
 description: Create constant buffer view.
 ms.assetid: 20f24353-affc-4862-ba13-e3bfc2c0a74d
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:

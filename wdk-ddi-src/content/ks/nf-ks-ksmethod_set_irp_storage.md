@@ -6,7 +6,7 @@ description: This macro returns a pointer to the KSMETHOD_SET in which the metho
 old-location: stream\ksmethod_set_irp_storage.htm
 tech.root: stream
 ms.assetid: bc0a309d-305e-400a-b571-7958926dd1dc
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KSMETHOD_SET_IRP_STORAGE, KSMETHOD_SET_IRP_STORAGE macro [Streaming Media Devices], ks/KSMETHOD_SET_IRP_STORAGE, ksfunc_d413bf2a-7d63-48c2-9e75-d84cf1344f5c.xml, stream.ksmethod_set_irp_storage
 ms.topic: macro
 req.header: ks.h

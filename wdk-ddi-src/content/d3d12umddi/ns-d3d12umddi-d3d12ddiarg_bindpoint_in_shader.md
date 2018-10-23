@@ -4,7 +4,7 @@ title: D3D12DDIARG_BINDPOINT_IN_SHADER
 author: windows-driver-content
 description: The binding point that is set within the shader.
 ms.assetid: 1374f5b9-d114-44af-bbfa-8793ae90b30e
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDIARG_BINDPOINT_IN_SHADER, D3D12DDIARG_BINDPOINT_IN_SHADER,
 req.header: d3d12umddi.h

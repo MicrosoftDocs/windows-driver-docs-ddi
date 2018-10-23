@@ -6,7 +6,7 @@ description: RxCeTearDownConnection tears down a given connection between a loca
 old-location: ifsk\rxceteardownconnection.htm
 tech.root: ifsk
 ms.assetid: 71b48983-af12-4361-8cf9-adec1afffb65
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxCeTearDownConnection, RxCeTearDownConnection function [Installable File System Drivers], ifsk.rxceteardownconnection, rxce/RxCeTearDownConnection, rxref_bf951adb-b63e-49f6-8325-f67adb2cdbf0.xml
 ms.topic: function
 req.header: rxce.h

@@ -6,7 +6,7 @@ description: Converts a value of type SHORT to a value of type DWORD_PTR.
 old-location: kernel\rtlshorttodwordptr.htm
 tech.root: kernel
 ms.assetid: 0ABB3DBF-117D-491D-85A3-68E9280CFC6C
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlShortToDWordPtr, RtlShortToDWordPtr function [Kernel-Mode Driver Architecture], kernel.rtlshorttodwordptr, ntintsafe/RtlShortToDWordPtr
 ms.topic: function
 req.header: ntintsafe.h

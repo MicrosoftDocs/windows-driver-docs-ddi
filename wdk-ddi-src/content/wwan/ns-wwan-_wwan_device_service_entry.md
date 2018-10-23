@@ -6,7 +6,7 @@ description: The WWAN_DEVICE_SERVICE_ENTRY structure describes information about
 old-location: netvista\wwan_device_service_entry.htm
 tech.root: netvista
 ms.assetid: 26B26715-0C1E-4FF1-B3FA-B6952BF70572
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_DEVICE_SERVICE_ENTRY, PWWAN_DEVICE_SERVICE_ENTRY, PWWAN_DEVICE_SERVICE_ENTRY structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_ENTRY, WWAN_DEVICE_SERVICE_ENTRY structure [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_ENTRY, netvista.wwan_device_service_entry, wwan/PWWAN_DEVICE_SERVICE_ENTRY, wwan/WWAN_DEVICE_SERVICE_ENTRY"
 ms.topic: struct
 req.header: wwan.h

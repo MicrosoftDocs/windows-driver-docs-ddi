@@ -6,7 +6,7 @@ description: The EV Compensation Control provides for exposure control that is a
 old-location: stream\kscamera_extendedprop_evcompensation.htm
 tech.root: stream
 ms.assetid: C9CF39F2-5081-4B99-BFD1-9F7130B27369
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_EVCOMPENSATION, KSCAMERA_EXTENDEDPROP_EVCOMPENSATION, KSCAMERA_EXTENDEDPROP_EVCOMPENSATION structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_EVCOMPENSATION, PKSCAMERA_EXTENDEDPROP_EVCOMPENSATION structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_EVCOMPENSATION, ksmedia/PKSCAMERA_EXTENDEDPROP_EVCOMPENSATION, stream.kscamera_extendedprop_evcompensation, tagKSCAMERA_EXTENDEDPROP_EVCOMPENSATION"
 ms.topic: struct
 req.header: ksmedia.h

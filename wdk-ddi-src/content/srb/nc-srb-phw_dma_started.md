@@ -6,7 +6,7 @@ description: The PHW_DMA_STARTED routine prototype declares a SCSI miniport driv
 old-location: storage\phw_dma_started.htm
 tech.root: storage
 ms.assetid: 2f989c46-e90e-45e1-a520-98b05ff78e73
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "(*PHW_DMA_STARTED), (*PHW_DMA_STARTED) callback function [Storage Devices], ide_minikr_2e265b69-67af-449a-bfef-67fbd6694cba.xml, srb/(*PHW_DMA_STARTED), storage.phw_dma_started"
 ms.topic: callback
 req.header: srb.h

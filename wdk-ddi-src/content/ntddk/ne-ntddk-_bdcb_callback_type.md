@@ -6,7 +6,7 @@ description: The BDCB_CALLBACK_TYPE enumeration specifies whether the callback b
 old-location: kernel\bdcb_callback_type.htm
 tech.root: kernel
 ms.assetid: 22698DF4-7B8C-40B8-9B07-EEDCC03D0D0F
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PBDCB_CALLBACK_TYPE, BDCB_CALLBACK_TYPE, BDCB_CALLBACK_TYPE enumeration [Kernel-Mode Driver Architecture], BdCbInitializeImage, BdCbStatusUpdate, _BDCB_CALLBACK_TYPE, kernel.bdcb_callback_type, ntddk/BDCB_CALLBACK_TYPE, ntddk/BdCbInitializeImage, ntddk/BdCbStatusUpdate"
 ms.topic: enum
 req.header: ntddk.h

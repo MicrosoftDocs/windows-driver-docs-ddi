@@ -6,7 +6,7 @@ description: This I/O control function sets the specified statistic to the value
 old-location: pos\ioctl_point_of_service_update_statistics.htm
 tech.root: pos
 ms.assetid: 94c8d49a-5136-49f3-a313-74c032502f1f
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS, IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS control, IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS, pos.ioctl_point_of_service_update_statistics
 ms.topic: ioctl
 req.header: pointofservicedriverinterface.h
@@ -98,7 +98,7 @@ Not used with this operation; set to <b>0</b> (zero).
 
 Returns <b>TRUE</b> if successful; otherwise, returns <b>FALSE</b>.
 
-To get extended error information, call <a href="http://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following list shows common error values:
+To get extended error information, call <a href="https://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following list shows common error values:
 
 
 

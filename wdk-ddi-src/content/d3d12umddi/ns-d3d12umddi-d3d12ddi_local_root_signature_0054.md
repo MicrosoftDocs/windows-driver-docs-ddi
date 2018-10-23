@@ -4,7 +4,7 @@ title: D3D12DDI_LOCAL_ROOT_SIGNATURE_0054
 author: windows-driver-content
 description: Describes a local root signature.
 ms.assetid: 90e65fc6-8bec-4144-a9a4-d517d7714eb2
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDI_LOCAL_ROOT_SIGNATURE_0054, D3D12DDI_LOCAL_ROOT_SIGNATURE_0054, 
 req.header: d3d12umddi.h

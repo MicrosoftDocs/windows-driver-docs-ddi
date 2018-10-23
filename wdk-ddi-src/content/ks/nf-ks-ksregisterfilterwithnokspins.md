@@ -6,7 +6,7 @@ description: The KsRegisterFilterWithNoKSPins function registers with DirectShow
 old-location: stream\ksregisterfilterwithnokspins.htm
 tech.root: stream
 ms.assetid: 4ad768c9-211d-4370-b6d3-6d88b223fe48
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsRegisterFilterWithNoKSPins, KsRegisterFilterWithNoKSPins function [Streaming Media Devices], avfunc_c9fc5273-7fd9-41d5-9ac4-5033ed757b7c.xml, ks/KsRegisterFilterWithNoKSPins, stream.ksregisterfilterwithnokspins
 ms.topic: function
 req.header: ks.h

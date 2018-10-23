@@ -6,7 +6,7 @@ description: FltAllocateCallbackData allocates a callback data structure that a 
 old-location: ifsk\fltallocatecallbackdata.htm
 tech.root: ifsk
 ms.assetid: a2afb8b8-b0e2-4d22-9d93-33ba2b2f8933
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltAllocateCallbackData, FltAllocateCallbackData routine [Installable File System Drivers], FltApiRef_a_to_d_74309bb1-841a-41a6-bd3e-71ed710bc727.xml, fltkernel/FltAllocateCallbackData, ifsk.fltallocatecallbackdata
 ms.topic: function
 req.header: fltkernel.h

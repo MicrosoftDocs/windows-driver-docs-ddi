@@ -6,7 +6,7 @@ description: The StartServerWide method starts a debugging server.
 old-location: debugger\startserverwide.htm
 tech.root: debugger
 ms.assetid: 7a36f278-45eb-4ee9-9bdf-370c546245c0
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugClient5 interface [Windows Debugging],StartServerWide method, IDebugClient5.StartServerWide, IDebugClient5::StartServerWide, StartServerWide, StartServerWide method [Windows Debugging], StartServerWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::StartServerWide, debugger.startserverwide
 ms.topic: method
 req.header: dbgeng.h

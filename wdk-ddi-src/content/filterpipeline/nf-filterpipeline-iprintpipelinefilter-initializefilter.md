@@ -6,7 +6,7 @@ description: The InitializeFilter method initializes a filter.
 old-location: print\iprintpipelinefilter_initializefilter.htm
 tech.root: print
 ms.assetid: a28a8ee0-24df-45b5-8850-f3b3984b3b64
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintPipelineFilter interface [Print Devices],InitializeFilter method, IPrintPipelineFilter.InitializeFilter, IPrintPipelineFilter::InitializeFilter, InitializeFilter, InitializeFilter method [Print Devices], InitializeFilter method [Print Devices],IPrintPipelineFilter interface, filterpipeline/IPrintPipelineFilter::InitializeFilter, filterpipeline_cb281bce-8f53-4ade-91c1-2791baff0817.xml, print.iprintpipelinefilter_initializefilter
 ms.topic: method
 req.header: filterpipeline.h

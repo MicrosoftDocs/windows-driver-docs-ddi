@@ -6,7 +6,7 @@ description: The KsFastPropertyHandler function handles fast property requests t
 old-location: stream\ksfastpropertyhandler.htm
 tech.root: stream
 ms.assetid: 39a216f8-297d-45cc-9bec-4c0ee9941441
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsFastPropertyHandler, KsFastPropertyHandler function [Streaming Media Devices], ks/KsFastPropertyHandler, ksfunc_4b896ea0-aa74-4acf-b8fa-cdc4c8cdb4b1.xml, stream.ksfastpropertyhandler
 ms.topic: function
 req.header: ks.h

@@ -6,7 +6,7 @@ description: The DxgkDdiOPMGetCOPPCompatibleInformation function retrieves infor
 old-location: display\dxgkddiopmgetcoppcompatibleinformation.htm
 tech.root: display
 ms.assetid: 9f15df1e-bdf5-4634-97f1-78515664b594
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_OPM_GET_COPP_COMPATIBLE_INFORMATION, DXGKDDI_OPM_GET_COPP_COMPATIBLE_INFORMATION callback, Dm_Opm_functions_7873b0b1-3983-49c4-8192-b0c59d5ae01c.xml, DxgkDdiOPMGetCOPPCompatibleInformation, DxgkDdiOPMGetCOPPCompatibleInformation callback function [Display Devices], display.dxgkddiopmgetcoppcompatibleinformation, dispmprt/DxgkDdiOPMGetCOPPCompatibleInformation
 ms.topic: callback
 req.header: dispmprt.h
@@ -159,7 +159,7 @@ Copy the random number that the <b>rnRandomNumber</b> member of DXGKMDT_OPM_COPP
 
 </li>
 <li>
-Sign the DXGKMDT_OPM_REQUESTED_INFORMATION structure and place the signature in the <b>omac</b> member of DXGKMDT_OPM_REQUESTED_INFORMATION. The AES block cipher and the OMAC-1 signing algorithm should be used to sign the structure. For information about AES, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=70411">RSA Laboratories</a> website. For information about OMAC-1, see the <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_omac.md">DXGKMDT_OPM_OMAC</a> reference page.
+Sign the DXGKMDT_OPM_REQUESTED_INFORMATION structure and place the signature in the <b>omac</b> member of DXGKMDT_OPM_REQUESTED_INFORMATION. The AES block cipher and the OMAC-1 signing algorithm should be used to sign the structure. For information about AES, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=70411">RSA Laboratories</a> website. For information about OMAC-1, see the <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_omac.md">DXGKMDT_OPM_OMAC</a> reference page.
 
 </li>
 </ol>

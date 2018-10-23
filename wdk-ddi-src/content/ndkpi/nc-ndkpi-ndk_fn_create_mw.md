@@ -6,7 +6,7 @@ description: The NdkCreateMw (NDK_FN_CREATE_MW) function creates an NDK memory w
 old-location: netvista\ndk_fn_create_mw.htm
 tech.root: netvista
 ms.assetid: BAE0DF74-19AB-4AE9-A28C-C1CC2F569D1F
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_FN_CREATE_MW, NDK_FN_CREATE_MW callback, NdkCreateMw, NdkCreateMw callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateMw, netvista.ndk_fn_create_mw
 ms.topic: callback
 req.header: ndkpi.h

@@ -6,7 +6,7 @@ description: The HDAUDIO_CONVERTER_FORMAT structure specifies the 16-bit encoded
 old-location: audio\hdaudio_converter_format.htm
 tech.root: audio
 ms.assetid: 623f58f6-db82-4a4a-bac3-cc821babfe99
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: "*PHDAUDIO_CONVERTER_FORMAT, HDAUDIO_CONVERTER_FORMAT, HDAUDIO_CONVERTER_FORMAT structure [Audio Devices], PHDAUDIO_CONVERTER_FORMAT, PHDAUDIO_CONVERTER_FORMAT structure pointer [Audio Devices], _HDAUDIO_CONVERTER_FORMAT, aud-prop2_fbc3cdcb-94a1-43ef-bf23-4b1cca37e99d.xml, audio.hdaudio_converter_format, hdaudio/HDAUDIO_CONVERTER_FORMAT, hdaudio/PHDAUDIO_CONVERTER_FORMAT"
 ms.topic: struct
 req.header: hdaudio.h
@@ -47,7 +47,7 @@ req.typenames: HDAUDIO_CONVERTER_FORMAT, *PHDAUDIO_CONVERTER_FORMAT
 ## -description
 
 
-The HDAUDIO_CONVERTER_FORMAT structure specifies the 16-bit encoded stream format for an input or output converter, as defined in the Intel High Definition Audio Specification (see the <a href="http://go.microsoft.com/fwlink/p/?linkid=42508">Intel HD Audio</a> website).
+The HDAUDIO_CONVERTER_FORMAT structure specifies the 16-bit encoded stream format for an input or output converter, as defined in the Intel High Definition Audio Specification (see the <a href="https://go.microsoft.com/fwlink/p/?linkid=42508">Intel HD Audio</a> website).
 
 
 ## -struct-fields
@@ -113,7 +113,7 @@ Specifies the stream type. If <b>StreamType</b>=0, the stream contains PCM data.
 
 
 
-For information about the encoding of the individual bitfields in the structure definition, see the discussion of the stream descriptor in the Intel High Definition Audio Specification at the <a href="http://go.microsoft.com/fwlink/p/?linkid=42508">Intel HD Audio</a> website.
+For information about the encoding of the individual bitfields in the structure definition, see the discussion of the stream descriptor in the Intel High Definition Audio Specification at the <a href="https://go.microsoft.com/fwlink/p/?linkid=42508">Intel HD Audio</a> website.
 
 The HD Audio bus driver sets the unnamed bitfield in the structure definition to zero.
 

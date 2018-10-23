@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The pfnCreateNewSourceModeSet function creates a new source mode set object within a specified VidPN object.
 old-location: display\dxgk_vidpn_interface_pfncreatenewsourcemodeset.htm
 ms.assetid: d46ffa49-6e75-4cd4-9d14-aa2c9fa671be
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPN_CREATENEWSOURCEMODESET, DXGKDDI_VIDPN_CREATENEWSOURCEMODESET callback, VidPnFunctions_13c4227c-f1d3-4191-a085-5ed298fe11e7.xml, d3dkmddi/pfnCreateNewSourceModeSet, display.dxgk_vidpn_interface_pfncreatenewsourcemodeset, pfnCreateNewSourceModeSet, pfnCreateNewSourceModeSet callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h

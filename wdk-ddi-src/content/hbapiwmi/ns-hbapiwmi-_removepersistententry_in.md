@@ -6,7 +6,7 @@ description: The RemovePersistentEntry_IN structure is used by a WMI client to d
 old-location: storage\removepersistententry_in.htm
 tech.root: storage
 ms.assetid: 7019ee37-2080-4ba3-ba39-977e575ec04e
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PRemovePersistentEntry_IN, PRemovePersistentEntry_IN, PRemovePersistentEntry_IN structure pointer [Storage Devices], RemovePersistentEntry_IN, RemovePersistentEntry_IN structure [Storage Devices], _RemovePersistentEntry_IN, hbapiwmi/PRemovePersistentEntry_IN, hbapiwmi/RemovePersistentEntry_IN, storage.removepersistententry_in, structs-Fibre_e5e794c3-e43c-4218-af52-3f2d8a96c256.xml"
 ms.topic: struct
 req.header: hbapiwmi.h

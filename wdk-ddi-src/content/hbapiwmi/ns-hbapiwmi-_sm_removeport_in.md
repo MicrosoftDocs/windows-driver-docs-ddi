@@ -6,7 +6,7 @@ description: The SM_RemovePort_IN structure is used to provide input parameters 
 old-location: storage\sm_removeport_in.htm
 tech.root: storage
 ms.assetid: b8eb6321-928f-4366-9553-c75900fa1ac6
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSM_RemovePort_IN, PSM_RemovePort_IN, PSM_RemovePort_IN structure pointer [Storage Devices], SM_RemovePort_IN, SM_RemovePort_IN structure [Storage Devices], _SM_RemovePort_IN, hbapiwmi/PSM_RemovePort_IN, hbapiwmi/SM_RemovePort_IN, storage.sm_removeport_in, structs-Fibre_0290cc86-0661-47ae-89db-3a3756c5d681.xml"
 ms.topic: struct
 req.header: hbapiwmi.h

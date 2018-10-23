@@ -4,7 +4,7 @@ title: D3DKMT_MULTIPLANE_OVERLAY_BLEND
 author: windows-driver-content
 description: Multiplane overlay blend type.
 ms.assetid: ddea9bca-e9ad-46a6-b030-f4617d8fbcb5
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3DKMT_MULTIPLANE_OVERLAY_BLEND, D3DKMT_MULTIPLANE_OVERLAY_BLEND, 
 req.header: d3dkmthk.h

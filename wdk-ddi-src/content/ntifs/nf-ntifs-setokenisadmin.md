@@ -6,7 +6,7 @@ description: The SeTokenIsAdmin routine determines whether a token contains the 
 old-location: ifsk\setokenisadmin.htm
 tech.root: ifsk
 ms.assetid: 7d0a5d28-175a-44a7-888f-d11dc3f55904
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: SeTokenIsAdmin, SeTokenIsAdmin routine [Installable File System Drivers], ifsk.setokenisadmin, ntifs/SeTokenIsAdmin, seref_e621b2f6-c7c3-4df0-90d4-87a42080e1bd.xml
 ms.topic: function
 req.header: ntifs.h

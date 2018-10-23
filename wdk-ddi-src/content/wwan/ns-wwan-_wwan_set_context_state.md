@@ -6,7 +6,7 @@ description: The WWAN_SET_CONTEXT_STATE structure represents the command to set 
 old-location: netvista\wwan_set_context_state.htm
 tech.root: netvista
 ms.assetid: f1ed31af-97a7-472e-b834-577470950335
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_SET_CONTEXT_STATE, PWWAN_SET_CONTEXT_STATE, PWWAN_SET_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_CONTEXT_STATE, WWAN_SET_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_a4c14223-1c16-4f87-8820-2a45f04bb62d.xml, _WWAN_SET_CONTEXT_STATE, netvista.wwan_set_context_state, wwan/PWWAN_SET_CONTEXT_STATE, wwan/WWAN_SET_CONTEXT_STATE"
 ms.topic: struct
 req.header: wwan.h

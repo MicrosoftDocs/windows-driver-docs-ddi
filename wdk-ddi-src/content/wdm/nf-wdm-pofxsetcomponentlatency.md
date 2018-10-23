@@ -6,7 +6,7 @@ description: The PoFxSetComponentLatency routine specifies the maximum latency t
 old-location: kernel\pofxsetcomponentlatency.htm
 tech.root: kernel
 ms.assetid: 670AFE37-1617-4171-9504-50B13B8E0F76
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PoFxSetComponentLatency, PoFxSetComponentLatency routine [Kernel-Mode Driver Architecture], kernel.pofxsetcomponentlatency, wdm/PoFxSetComponentLatency
 ms.topic: function
 req.header: wdm.h

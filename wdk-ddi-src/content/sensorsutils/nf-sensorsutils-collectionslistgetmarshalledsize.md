@@ -4,7 +4,7 @@ title: CollectionsListGetMarshalledSize function
 author: windows-driver-content
 description: Returns the size needed to accommodate serializing and marshaling a collection list, including embedded memory.
 ms.assetid: a3773a22-cd27-4944-812c-e18054df4e57
-ms.date: 08/08/18
+ms.date: 08/08/2018
 ms.topic: function
 tech.root: sensors
 ms.keywords: CollectionsListGetMarshalledSize

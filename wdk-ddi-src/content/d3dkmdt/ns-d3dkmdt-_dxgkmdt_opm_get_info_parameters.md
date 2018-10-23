@@ -6,7 +6,7 @@ description: The DXGKMDT_OPM_GET_INFO_PARAMETERS structure contains parameters t
 old-location: display\dxgkmdt_opm_get_info_parameters.htm
 tech.root: display
 ms.assetid: 88e12eb6-6015-44bc-b170-cc152fdd1397
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*PDXGKMDT_OPM_GET_INFO_PARAMETERS, DXGKMDT_OPM_GET_INFO_PARAMETERS, DXGKMDT_OPM_GET_INFO_PARAMETERS structure [Display Devices], DmStructs_e6abe7a0-8285-4f66-97a3-d2c04c70bcd3.xml, PDXGKMDT_OPM_GET_INFO_PARAMETERS, PDXGKMDT_OPM_GET_INFO_PARAMETERS structure pointer [Display Devices], _DXGKMDT_OPM_GET_INFO_PARAMETERS, d3dkmdt/DXGKMDT_OPM_GET_INFO_PARAMETERS, d3dkmdt/PDXGKMDT_OPM_GET_INFO_PARAMETERS, display.dxgkmdt_opm_get_info_parameters"
 ms.topic: struct
 req.header: d3dkmdt.h
@@ -57,7 +57,7 @@ The DXGKMDT_OPM_GET_INFO_PARAMETERS structure contains parameters that are used 
 
 ### -field omac
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560887">DXGKMDT_OPM_OMAC</a> structure that contains a One-key Cipher Block Chaining (CBC)-mode message authentication code (OMAC) for message authenticity. For more information about OMAC, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=70417">OMAC-1 algorithm</a>. The OMAC-1 parameters that OPM and COPP use are:
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560887">DXGKMDT_OPM_OMAC</a> structure that contains a One-key Cipher Block Chaining (CBC)-mode message authentication code (OMAC) for message authenticity. For more information about OMAC, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=70417">OMAC-1 algorithm</a>. The OMAC-1 parameters that OPM and COPP use are:
 
 <i>E</i> = AES (Advanced Encryption Standard)
 
@@ -67,7 +67,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560887">DXGKMDT
 
 <i>n</i> = 128 bits 
 
-For information about AES, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=70411">RSA Laboratories</a> website. 
+For information about AES, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=70411">RSA Laboratories</a> website. 
 
 
 ### -field rnRandomNumber
@@ -145,7 +145,7 @@ The DXGKMDT_OPM_GET_ACTUAL_PROTECTION_LEVEL and DXGKMDT_OPM_GET_VIRTUAL_PROTECTI
 
 
 
-All of the data after the <b>omac</b> member in DXGKMDT_OPM_GET_INFO_PARAMETERS is signed; the signature is the OMAC and is stored in the <b>omac</b> member. The data is signed by using the <a href="http://go.microsoft.com/fwlink/p/?linkid=70417">OMAC-1 algorithm</a>. 
+All of the data after the <b>omac</b> member in DXGKMDT_OPM_GET_INFO_PARAMETERS is signed; the signature is the OMAC and is stored in the <b>omac</b> member. The data is signed by using the <a href="https://go.microsoft.com/fwlink/p/?linkid=70417">OMAC-1 algorithm</a>. 
 
 DXGKMDT_OPM_GET_INFO_PARAMETERS is not used for COPP emulation; instead, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560859">DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure is used for COPP. 
 

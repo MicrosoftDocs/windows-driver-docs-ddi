@@ -6,7 +6,7 @@ description: The UpdatePrintDeviceObject function updates the properties of a de
 old-location: print\updateprintdeviceobject.htm
 tech.root: print
 ms.assetid: 52E8F8BF-0362-4BA9-BABD-7B009B3FFA7F
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: UpdatePrintDeviceObject, UpdatePrintDeviceObject function [Print Devices], print.updateprintdeviceobject, winsplp/UpdatePrintDeviceObject
 ms.topic: function
 req.header: winsplp.h
@@ -82,7 +82,7 @@ For example, this function can return HRESULT_FROM_WIN32(ERROR_INVALID_HANDLE), 
 
 
 
-The <a href="http://msdn.microsoft.com/library/windows/desktop/dd162845(v=vs.85).aspx">PRINTER_INFO_2</a>  structure is a good example of the kind of properties that <b>UpdatePrintDeviceObject</b> can update.
+The <a href="https://msdn.microsoft.com/library/windows/desktop/dd162845(v=vs.85).aspx">PRINTER_INFO_2</a>  structure is a good example of the kind of properties that <b>UpdatePrintDeviceObject</b> can update.
 
 
 
@@ -96,7 +96,7 @@ The <a href="http://msdn.microsoft.com/library/windows/desktop/dd162845(v=vs.85)
 
 
 
-<a href="http://msdn.microsoft.com/library/windows/desktop/dd162845(v=vs.85).aspx">PRINTER_INFO_2</a>
+<a href="https://msdn.microsoft.com/library/windows/desktop/dd162845(v=vs.85).aspx">PRINTER_INFO_2</a>
  
 
  

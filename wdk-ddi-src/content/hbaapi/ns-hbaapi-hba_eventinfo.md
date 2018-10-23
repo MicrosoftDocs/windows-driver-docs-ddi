@@ -6,7 +6,7 @@ description: The HBA_EventInfo structure contains information about an event of 
 old-location: storage\hba_eventinfo.htm
 tech.root: storage
 ms.assetid: fc6b73ac-f86c-4978-9d71-9bd8398c116b
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PHBA_EVENTINFO, HBA_EVENTINFO, HBA_EVENTINFO structure [Storage Devices], HBA_EventInfo, HBA_EventInfo structure [Storage Devices], PHBA_EVENTINFO, PHBA_EVENTINFO structure pointer [Storage Devices], hbaapi/HBA_EventInfo, hbaapi/PHBA_EVENTINFO, storage.hba_eventinfo, structs-Fibre_6885fdc8-d2ce-40b3-ba2a-2e423f287780.xml"
 ms.topic: struct
 req.header: hbaapi.h

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The D3DKMT_WAITFORVERTICALBLANKEVENT structure describes parameters for waiting for the vertical blanking interval to occur.
 old-location: display\d3dkmt_waitforverticalblankevent.htm
 ms.assetid: dde8ebf7-7839-4bcc-8cb1-02a5ca922792
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_WAITFORVERTICALBLANKEVENT, D3DKMT_WAITFORVERTICALBLANKEVENT structure [Display Devices], OpenGL_Structs_1072adb2-825b-4fee-a84a-b958e3d2e4d4.xml, _D3DKMT_WAITFORVERTICALBLANKEVENT, d3dkmthk/D3DKMT_WAITFORVERTICALBLANKEVENT, display.d3dkmt_waitforverticalblankevent
 ms.topic: struct
 req.header: d3dkmthk.h

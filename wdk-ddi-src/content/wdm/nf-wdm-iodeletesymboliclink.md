@@ -6,7 +6,7 @@ description: The IoDeleteSymbolicLink routine removes a symbolic link from the s
 old-location: kernel\iodeletesymboliclink.htm
 tech.root: kernel
 ms.assetid: 68ad19a5-4694-4b75-8062-75b06bdc16ed
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoDeleteSymbolicLink, IoDeleteSymbolicLink routine [Kernel-Mode Driver Architecture], k104_6ff2f570-3573-4d12-b338-cca69515ef1a.xml, kernel.iodeletesymboliclink, wdm/IoDeleteSymbolicLink
 ms.topic: function
 req.header: wdm.h

@@ -6,7 +6,7 @@ description: The SPB_TRANSFER_BUFFER structure describes the data buffer for an 
 old-location: spb\spb_transfer_buffer.htm
 tech.root: SPB
 ms.assetid: E9C5B866-1EB0-4043-B22F-DF2F4CFAE64C
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PSPB_TRANSFER_BUFFER, PSPB_TRANSFER_BUFFER, PSPB_TRANSFER_BUFFER structure pointer [Buses], SPB.spb_transfer_buffer, SPB_TRANSFER_BUFFER, SPB_TRANSFER_BUFFER structure [Buses], spb/PSPB_TRANSFER_BUFFER, spb/SPB_TRANSFER_BUFFER"
 ms.topic: struct
 req.header: spb.h

@@ -4,7 +4,7 @@ title: PFND3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT
 author: windows-driver-content
 description: The PFND3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT callback function changes the private-format attribute of a video present source.
 ms.assetid: 4d9010e6-7243-420a-933d-330cfca11f89
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

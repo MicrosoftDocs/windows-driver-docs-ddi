@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Releases a keyed mutex object that includes private data.
 old-location: display\d3dkmtreleasekeyedmutex2.htm
 ms.assetid: e5df165c-3d85-42b9-affe-3dcc7c46aa0b
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTReleaseKeyedMutex2, D3DKMTReleaseKeyedMutex2 callback function [Display Devices], PFND3DKMT_RELEASEKEYEDMUTEX2, PFND3DKMT_RELEASEKEYEDMUTEX2 callback, d3dkmthk/D3DKMTReleaseKeyedMutex2, display.d3dkmtreleasekeyedmutex2
 ms.topic: callback
 req.header: d3dkmthk.h

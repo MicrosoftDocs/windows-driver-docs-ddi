@@ -6,7 +6,7 @@ description: The GetStackTraceEx method returns the frames at the top of the spe
 old-location: debugger\idebugcontrol5_getstacktraceex.htm
 tech.root: debugger
 ms.assetid: 6DFCA3CB-D5DE-4EF5-892B-776B932E6CE6
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetStackTraceEx, GetStackTraceEx method [Windows Debugging], GetStackTraceEx method [Windows Debugging],IDebugControl5 interface, IDebugControl5 interface [Windows Debugging],GetStackTraceEx method, IDebugControl5.GetStackTraceEx, IDebugControl5::GetStackTraceEx, dbgeng/IDebugControl5::GetStackTraceEx, debugger.idebugcontrol5_getstacktraceex
 ms.topic: method
 req.header: dbgeng.h

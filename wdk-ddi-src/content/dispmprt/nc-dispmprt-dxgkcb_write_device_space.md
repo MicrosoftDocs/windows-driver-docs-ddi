@@ -6,7 +6,7 @@ description: The DxgkCbWriteDeviceSpace function writes to a device configuratio
 old-location: display\dxgkcbwritedevicespace.htm
 tech.root: display
 ms.assetid: 797d6b0c-91a4-4923-ad40-937cfde50067
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKCB_WRITE_DEVICE_SPACE, DXGKCB_WRITE_DEVICE_SPACE callback, DpFunctions_947b42ba-4121-4f21-b361-29a63278feb0.xml, DxgkCbWriteDeviceSpace, DxgkCbWriteDeviceSpace callback function [Display Devices], display.dxgkcbwritedevicespace, dispmprt/DxgkCbWriteDeviceSpace
 ms.topic: callback
 req.header: dispmprt.h

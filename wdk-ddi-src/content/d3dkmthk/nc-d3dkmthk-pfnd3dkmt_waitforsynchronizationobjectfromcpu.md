@@ -4,7 +4,7 @@ title: PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
 author: windows-driver-content
 description: The PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU callback function waits for a monitored fence to reach a certain value.
 ms.assetid: f83db141-f319-4cc3-9544-b0d98f0ce76a
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

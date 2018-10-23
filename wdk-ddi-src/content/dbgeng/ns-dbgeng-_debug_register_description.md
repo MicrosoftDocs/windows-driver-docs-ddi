@@ -6,7 +6,7 @@ description: The DEBUG_REGISTER_DESCRIPTION structure is returned by GetDescript
 old-location: debugger\debug_register_description.htm
 tech.root: debugger
 ms.assetid: 92e7800d-4de6-498c-87f8-8690d7e8fc51
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: "*PDEBUG_REGISTER_DESCRIPTION, DEBUG_REGISTER_DESCRIPTION, DEBUG_REGISTER_DESCRIPTION structure [Windows Debugging], PDEBUG_REGISTER_DESCRIPTION, PDEBUG_REGISTER_DESCRIPTION structure pointer [Windows Debugging], Structures_a7dd005e-3383-4c58-8b01-fe2127d6bc20.xml, _DEBUG_REGISTER_DESCRIPTION, dbgeng/DEBUG_REGISTER_DESCRIPTION, dbgeng/PDEBUG_REGISTER_DESCRIPTION, debugger.debug_register_description"
 ms.topic: struct
 req.header: dbgeng.h

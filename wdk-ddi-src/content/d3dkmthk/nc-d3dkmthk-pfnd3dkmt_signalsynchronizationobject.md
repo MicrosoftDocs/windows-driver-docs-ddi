@@ -4,7 +4,7 @@ title: PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECT
 author: windows-driver-content
 description: The PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECT callback function inserts a signal for the specified synchronization objects in the specified context stream.
 ms.assetid: 2e5592f8-96bc-4ec8-961a-38fc2dbc9dfe
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

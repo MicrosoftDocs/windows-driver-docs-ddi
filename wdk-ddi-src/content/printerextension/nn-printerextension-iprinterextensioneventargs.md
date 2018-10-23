@@ -6,7 +6,7 @@ description: Represents the context for the desktop printer extension activation
 old-location: print\iprinterextensioneventargs.htm
 tech.root: print
 ms.assetid: 77850B5A-4E24-4057-B87F-D964620ABF94
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrinterExtensionEventArgs, IPrinterExtensionEventArgs interface [Print Devices], IPrinterExtensionEventArgs interface [Print Devices],described, print.iprinterextensioneventargs, printerextension/IPrinterExtensionEventArgs
 ms.topic: interface
 req.header: printerextension.h

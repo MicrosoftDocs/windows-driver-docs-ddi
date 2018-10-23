@@ -6,7 +6,7 @@ description: The KeReleaseSpinLockFromDpcLevel routine releases an executive spi
 old-location: kernel\kereleasespinlockfromdpclevel.htm
 tech.root: kernel
 ms.assetid: 5f7a92ee-ebaf-442f-a197-2fb58dd65a25
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeReleaseSpinLockFromDpcLevel, KeReleaseSpinLockFromDpcLevel routine [Kernel-Mode Driver Architecture], KefReleaseSpinLockFromDpcLevel, k105_ed15a49d-6903-4f9f-914c-668242701b1e.xml, kernel.kereleasespinlockfromdpclevel, wdm/KeReleaseSpinLockFromDpcLevel, wdm/KefReleaseSpinLockFromDpcLevel
 ms.topic: macro
 req.header: wdm.h

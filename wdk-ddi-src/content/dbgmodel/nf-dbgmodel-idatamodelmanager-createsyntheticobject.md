@@ -4,7 +4,7 @@ title: IDataModelManager::CreateSyntheticObject
 author: windows-driver-content
 description: The CreateSyntheticObject method creates an empty data model object -- a dictionary of key/value/metadata tuples and concepts.
 ms.assetid: 28363265-b92e-4dc2-92b8-47a2840c762f
-ms.date:  07/17/2018
+ms.date: 07/17/2018
 ms.topic: method
 ms.keywords: IDataModelManager::CreateSyntheticObject, CreateSyntheticObject, IDataModelManager.CreateSyntheticObject, IDataModelManager::CreateSyntheticObject, IDataModelManager.CreateSyntheticObject
 req.header: dbgmodel.h

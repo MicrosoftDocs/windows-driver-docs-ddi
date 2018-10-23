@@ -6,7 +6,7 @@ description: An AVStream minidriver's AVStrMiniDevicePostStart routine is called
 old-location: stream\avstrminidevicepoststart.htm
 tech.root: stream
 ms.assetid: 5a08cdb2-f4e5-4c32-b98e-e854412954e9
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: AVStrMiniDevicePostStart, AVStrMiniDevicePostStart routine [Streaming Media Devices], PFNKSDEVICE, avstclbk_2eb05ad1-c345-4625-9f76-f979e3ea7962.xml, ks/AVStrMiniDevicePostStart, stream.avstrminidevicepoststart
 ms.topic: callback
 req.header: ks.h

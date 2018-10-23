@@ -6,7 +6,7 @@ description: The RtlEqualUnicodeString routine compares two Unicode strings to d
 old-location: kernel\rtlequalunicodestring.htm
 tech.root: kernel
 ms.assetid: ba50fcac-acb1-43de-aacc-b47845f19f44
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlEqualUnicodeString, RtlEqualUnicodeString routine [Kernel-Mode Driver Architecture], k109_59d7c507-968a-4cf5-b1f0-91c8cd7ccb64.xml, kernel.rtlequalunicodestring, wdm/RtlEqualUnicodeString
 ms.topic: function
 req.header: wudfwdm.h

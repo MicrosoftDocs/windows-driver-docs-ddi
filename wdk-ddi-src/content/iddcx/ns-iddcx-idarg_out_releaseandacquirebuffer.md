@@ -6,7 +6,7 @@ description: Gives information about the acquired swap chain buffer.
 old-location: display\idarg_out_releaseandacquirebuffer.htm
 tech.root: display
 ms.assetid: d6092c73-b8fb-4f05-97ce-8a6fe67a2b18
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IDARG_OUT_RELEASEANDACQUIREBUFFER, IDARG_OUT_RELEASEANDACQUIREBUFFER structure [Display Devices], display.idarg_out_releaseandacquirebuffer, iddcx/IDARG_OUT_RELEASEANDACQUIREBUFFER
 ms.topic: struct
 req.header: iddcx.h

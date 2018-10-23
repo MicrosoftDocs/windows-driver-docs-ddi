@@ -6,7 +6,7 @@ description: The PEP_SYSTEM_LATENCY structure specifies the new value for the sy
 old-location: kernel\pep_system_latency.htm
 tech.root: kernel
 ms.assetid: 083ACFD8-A8AE-4205-9E25-497D6A3ADBCD
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_SYSTEM_LATENCY, PEP_SYSTEM_LATENCY, PEP_SYSTEM_LATENCY structure [Kernel-Mode Driver Architecture], PPEP_SYSTEM_LATENCY, PPEP_SYSTEM_LATENCY structure pointer [Kernel-Mode Driver Architecture], _PEP_SYSTEM_LATENCY, kernel.pep_system_latency, pepfx/PEP_SYSTEM_LATENCY, pepfx/PPEP_SYSTEM_LATENCY"
 ms.topic: struct
 req.header: pepfx.h

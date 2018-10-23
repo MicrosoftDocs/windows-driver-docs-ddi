@@ -6,7 +6,7 @@ description: The WDF_IO_TARGET_PURGE_IO_ACTION enumeration identifies the action
 old-location: wdf\wdf_io_target_purge_io_action.htm
 tech.root: wdf
 ms.assetid: E282976A-4143-468C-B944-FBBAD5BBA388
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WDF_IO_TARGET_PURGE_IO_ACTION, WDF_IO_TARGET_PURGE_IO_ACTION enumeration, WdfIoTargetPurgeIo, WdfIoTargetPurgeIoAndWait, WdfIoTargetPurgeIoUndefined, _WDF_IO_TARGET_PURGE_IO_ACTION, kmdf.wdf_io_target_purge_io_action, wdf.wdf_io_target_purge_io_action, wdfiotarget/WDF_IO_TARGET_PURGE_IO_ACTION, wdfiotarget/WdfIoTargetPurgeIo, wdfiotarget/WdfIoTargetPurgeIoAndWait, wdfiotarget/WdfIoTargetPurgeIoUndefined
 ms.topic: enum
 req.header: wdfiotarget.h

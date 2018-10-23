@@ -6,7 +6,7 @@ description: Describes video memory resources that are to be reclaimed and that 
 old-location: display\dxgi_ddi_arg_reclaimresources.htm
 tech.root: display
 ms.assetid: 43e34157-2cf1-4e2c-bcd8-c4425e89fb0f
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGI_DDI_ARG_RECLAIMRESOURCES, DXGI_DDI_ARG_RECLAIMRESOURCES structure [Display Devices], _DXGI_DDI_ARG_RECLAIMRESOURCES, display.dxgi_ddi_arg_reclaimresources, dxgiddi/DXGI_DDI_ARG_RECLAIMRESOURCES
 ms.topic: struct
 req.header: dxgiddi.h

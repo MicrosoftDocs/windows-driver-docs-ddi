@@ -6,7 +6,7 @@ description: The WdfDeviceInitSetIoInCallerContextCallback method registers a dr
 old-location: wdf\wdfdeviceinitsetioincallercontextcallback.htm
 tech.root: wdf
 ms.assetid: f0104e8b-9a2f-4f52-a431-bec7de3be968
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_6ef62fc4-094a-4fe7-8ecb-7205566aef77.xml, WdfDeviceInitSetIoInCallerContextCallback, WdfDeviceInitSetIoInCallerContextCallback method, kmdf.wdfdeviceinitsetioincallercontextcallback, wdf.wdfdeviceinitsetioincallercontextcallback, wdfdevice/WdfDeviceInitSetIoInCallerContextCallback
 ms.topic: function
 req.header: wdfdevice.h

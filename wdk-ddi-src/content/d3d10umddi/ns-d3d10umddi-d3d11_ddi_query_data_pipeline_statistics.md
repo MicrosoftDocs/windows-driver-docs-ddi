@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS structure describes statistics for each stage of the graphics pipeline that is used in a call to the CreateQuery(D3D10) function to create a D3D10DDI_QUERY_PIPELINESTATS query type and in a call to the QueryGetData function to return information about the query.
 old-location: display\d3d11_ddi_query_data_pipeline_statistics.htm
 ms.assetid: d82b4e91-6734-4644-811d-fb64cfb9f5c4
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS, D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_68a59a1f-0f02-4be2-b417-5c4064df23fb.xml, d3d10umddi/D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS, display.d3d11_ddi_query_data_pipeline_statistics
 ms.topic: struct
 req.header: d3d10umddi.h

@@ -6,7 +6,7 @@ description: The AddSyntheticModuleWide method adds a synthetic module to the mo
 old-location: debugger\addsyntheticmodulewide.htm
 tech.root: debugger
 ms.assetid: dc5dc9f4-53a6-468a-907c-9b271fed83aa
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: AddSyntheticModuleWide, AddSyntheticModuleWide method [Windows Debugging], AddSyntheticModuleWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],AddSyntheticModuleWide method, IDebugSymbols3.AddSyntheticModuleWide, IDebugSymbols3::AddSyntheticModuleWide, dbgeng/IDebugSymbols3::AddSyntheticModuleWide, debugger.addsyntheticmodulewide
 ms.topic: method
 req.header: dbgeng.h

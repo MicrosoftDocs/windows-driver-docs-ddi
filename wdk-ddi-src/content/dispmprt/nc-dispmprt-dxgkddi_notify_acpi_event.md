@@ -6,7 +6,7 @@ description: Notifies the display miniport driver about certain ACPI events.
 old-location: display\dxgkddinotifyacpievent.htm
 tech.root: display
 ms.assetid: fdefde51-0e90-4324-9c14-e8259fc872b3
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: DXGKDDI_NOTIFY_ACPI_EVENT, DXGKDDI_NOTIFY_ACPI_EVENT callback, DmFunctions_de0d32a9-a592-4fe2-86e1-66a436be5874.xml, DxgkDdiNotifyAcpiEvent, DxgkDdiNotifyAcpiEvent callback function [Display Devices], display.dxgkddinotifyacpievent, dispmprt/DxgkDdiNotifyAcpiEvent
 ms.topic: callback
 req.header: dispmprt.h

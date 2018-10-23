@@ -6,7 +6,7 @@ description: The WdfDeviceResumeIdle method informs the framework that the speci
 old-location: wdf\wdfdeviceresumeidle.htm
 tech.root: wdf
 ms.assetid: d63848e8-0e6a-4ad7-a147-8804869b9c9b
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_6078e8e8-7d4e-4714-a1b4-74fc973a678c.xml, WdfDeviceResumeIdle, WdfDeviceResumeIdle method, kmdf.wdfdeviceresumeidle, wdf.wdfdeviceresumeidle, wdfdevice/WdfDeviceResumeIdle
 ms.topic: macro
 req.header: wdfdevice.h

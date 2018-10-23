@@ -6,7 +6,7 @@ description: Gets the allowed stepping value for the audio device attribute.
 old-location: audio\iminiportaudioenginenode_getdeviceattributesteppings.htm
 tech.root: audio
 ms.assetid: 7AF6C9AF-8955-4F09-A42C-097B4AD1CD3A
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: GetDeviceAttributeSteppings, GetDeviceAttributeSteppings method [Audio Devices], GetDeviceAttributeSteppings method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetDeviceAttributeSteppings method, IMiniportAudioEngineNode.GetDeviceAttributeSteppings, IMiniportAudioEngineNode::GetDeviceAttributeSteppings, audio.iminiportaudioenginenode_getdeviceattributesteppings, portcls/IMiniportAudioEngineNode::GetDeviceAttributeSteppings
 ms.topic: method
 req.header: portcls.h
@@ -67,7 +67,7 @@ An  <a href="https://msdn.microsoft.com/library/windows/hardware/dn302034">eChan
 
 ### -param pKsPropStepLong [out]
 
-A structure of type <a href="http://msdn.microsoft.com/library/windows/hardware/ff565631(v=vs.85).aspx">KSPROPERTY_STEPPING_LONG</a> that contains information about the allowed stepping value for the device attribute.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff565631(v=vs.85).aspx">KSPROPERTY_STEPPING_LONG</a> that contains information about the allowed stepping value for the device attribute.
 
 
 ### -param ui32DataSize [in]
@@ -95,7 +95,7 @@ returns an appropriate error code.
 
 
 
-<a href="http://msdn.microsoft.com/library/windows/hardware/ff565631(v=vs.85).aspx">KSPROPERTY_STEPPING_LONG</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565631(v=vs.85).aspx">KSPROPERTY_STEPPING_LONG</a>
 
 
 

@@ -6,7 +6,7 @@ description: Adds two values of type UINT_PTR.
 old-location: kernel\rtluintptradd.htm
 tech.root: kernel
 ms.assetid: 9106CE96-A26F-4358-9668-2C0E331BB793
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUIntPtrAdd, RtlUIntPtrAdd function [Kernel-Mode Driver Architecture], kernel.rtluintptradd, ntintsafe/RtlUIntPtrAdd
 ms.topic: function
 req.header: ntintsafe.h

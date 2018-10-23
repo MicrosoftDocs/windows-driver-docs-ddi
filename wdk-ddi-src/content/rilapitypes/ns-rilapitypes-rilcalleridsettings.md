@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilcalleridsettings.htm
 tech.root: netvista
 ms.assetid: 3ba2cd72-4678-4ada-9777-12cbb6032628
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILCALLERIDSETTINGS, RILCALLERIDSETTINGS, RILCALLERIDSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rilcalleridsettings, ntddrilapitypes/RILCALLERIDSETTINGS"
 ms.topic: struct
 req.header: rilapitypes.h

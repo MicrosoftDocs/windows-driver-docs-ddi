@@ -6,7 +6,7 @@ description: For internal use only.
 old-location: wdf\wdfcompanioncreatetaskqueue.htm
 tech.root: wdf
 ms.assetid: 05298ffe-75e5-444e-9843-54dd063f59f5
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfCompanionCreateTaskQueue, WdfCompanionCreateTaskQueue method, wdf.wdfcompanioncreatetaskqueue, wdfcompanion/WdfCompanionCreateTaskQueue
 ms.topic: function
 req.header: wdfcompanion.h

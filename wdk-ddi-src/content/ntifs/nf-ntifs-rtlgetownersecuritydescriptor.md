@@ -6,7 +6,7 @@ description: The RtlGetOwnerSecurityDescriptor routine returns the owner informa
 old-location: ifsk\rtlgetownersecuritydescriptor.htm
 tech.root: ifsk
 ms.assetid: 64c1b899-5737-474c-92ee-f18f7f2f06f5
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlGetOwnerSecurityDescriptor, RtlGetOwnerSecurityDescriptor routine [Installable File System Drivers], ifsk.rtlgetownersecuritydescriptor, ntifs/RtlGetOwnerSecurityDescriptor, rtlref_7a3503c8-84ed-4ec7-9b69-5b93daaa6596.xml
 ms.topic: function
 req.header: ntifs.h

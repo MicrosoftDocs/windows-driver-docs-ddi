@@ -6,7 +6,7 @@ description: The IOCTL_NFCSE_GET_NEXT_EVENT control code returns the next event 
 old-location: nfpdrivers\ioctl_nfcse_get_next_event.htm
 tech.root: nfpdrivers
 ms.assetid: B142BB21-D70E-4BA2-B2C1-60468FA8378E
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_NFCSE_GET_NEXT_EVENT, IOCTL_NFCSE_GET_NEXT_EVENT control, IOCTL_NFCSE_GET_NEXT_EVENT control code [Near-Field Proximity Drivers], _IOCTL_NFCSE_GET_NEXT_EVENT, nfcsedev/IOCTL_NFCSE_GET_NEXT_EVENT, nfpdrivers.ioctl_nfcse_get_next_event
 ms.topic: ioctl
 req.header: nfcsedev.h

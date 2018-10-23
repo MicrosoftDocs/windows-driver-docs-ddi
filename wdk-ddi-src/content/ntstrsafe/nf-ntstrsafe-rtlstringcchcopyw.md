@@ -6,7 +6,7 @@ description: The RtlStringCchCopyW and RtlStringCchCopyA functions copy a null-t
 old-location: kernel\rtlstringcchcopy.htm
 tech.root: kernel
 ms.assetid: d5c6d7d2-fe14-49d5-9e81-3a425a4cf1b3
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlStringCchCopy, RtlStringCchCopyA, RtlStringCchCopyW, RtlStringCchCopyW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchcopy, ntstrsafe/RtlStringCchCopyA, ntstrsafe/RtlStringCchCopyW, safestrings_75c329c3-0463-4c8f-a363-ac26ec15c923.xml
 ms.topic: function
 req.header: ntstrsafe.h

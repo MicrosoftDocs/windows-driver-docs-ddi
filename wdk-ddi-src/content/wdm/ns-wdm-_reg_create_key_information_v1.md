@@ -6,7 +6,7 @@ description: The REG_CREATE_KEY_INFORMATION_V1 structure contains information th
 old-location: kernel\reg_create_key_information_v1.htm
 tech.root: kernel
 ms.assetid: d81dd8db-9074-43ea-a7bd-e83bd205c564
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PREG_CREATE_KEY_INFORMATION_V1, *PREG_OPEN_KEY_INFORMATION_V1, PREG_CREATE_KEY_INFORMATION_V1, PREG_CREATE_KEY_INFORMATION_V1 structure pointer [Kernel-Mode Driver Architecture], PREG_OPEN_KEY_INFORMATION_V1, PREG_OPEN_KEY_INFORMATION_V1 structure pointer [Kernel-Mode Driver Architecture], REG_CREATE_KEY_INFORMATION_V1, REG_CREATE_KEY_INFORMATION_V1 structure [Kernel-Mode Driver Architecture], REG_OPEN_KEY_INFORMATION_V1, REG_OPEN_KEY_INFORMATION_V1 structure [Kernel-Mode Driver Architecture], _REG_CREATE_KEY_INFORMATION_V1, kernel.reg_create_key_information_v1, kstruct_d_79809cef-3593-4774-8407-c26c281735eb.xml, wdm/PREG_CREATE_KEY_INFORMATION_V1, wdm/PREG_OPEN_KEY_INFORMATION_V1, wdm/REG_CREATE_KEY_INFORMATION_V1, wdm/REG_OPEN_KEY_INFORMATION_V1"
 ms.topic: struct
 req.header: wdm.h
@@ -87,7 +87,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 ### -field SecurityQualityOfService
 
-A pointer to a <a href="http://go.microsoft.com/fwlink/p/?linkid=155042">SECURITY_QUALITY_OF_SERVICE</a> structure. This structure indicates whether a server can impersonate the client that is trying to create the registry key, and, if impersonation is permitted, the extent to which it is permitted. 
+A pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=155042">SECURITY_QUALITY_OF_SERVICE</a> structure. This structure indicates whether a server can impersonate the client that is trying to create the registry key, and, if impersonation is permitted, the extent to which it is permitted. 
 
 
 ### -field DesiredAccess
@@ -179,7 +179,7 @@ KEY_WOW64_64KEY
 
 </li>
 </ul>
-These flag bits are defined in the Wdm.h and Winnt.h header files. For more information about these flags, see <a href="http://go.microsoft.com/fwlink/p/?linkid=155080">Registry Key Security and Access Rights</a>. 
+These flag bits are defined in the Wdm.h and Winnt.h header files. For more information about these flags, see <a href="https://go.microsoft.com/fwlink/p/?linkid=155080">Registry Key Security and Access Rights</a>. 
 
 
 ### -field Attributes
@@ -224,7 +224,7 @@ This security check is similar to that performed by the <a href="https://msdn.mi
 
 
 
-The configuration manager passes this structure to the <i>RegistryCallback</i> routine every time that a thread tries to create a key—for example, when a user-mode thread calls <a href="http://go.microsoft.com/fwlink/p/?linkid=155070">RegCreateKey</a> or <a href="http://go.microsoft.com/fwlink/p/?linkid=155071">RegCreateKeyEx</a>, or when a kernel-mode driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff566425">ZwCreateKey</a>.
+The configuration manager passes this structure to the <i>RegistryCallback</i> routine every time that a thread tries to create a key—for example, when a user-mode thread calls <a href="https://go.microsoft.com/fwlink/p/?linkid=155070">RegCreateKey</a> or <a href="https://go.microsoft.com/fwlink/p/?linkid=155071">RegCreateKeyEx</a>, or when a kernel-mode driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff566425">ZwCreateKey</a>.
 
 This structure is an extended version of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560920">REG_CREATE_KEY_INFORMATION</a> structure that Windows Vista supports. The first 14 members, <b>CompleteName</b> through <b>Transaction</b>, are identical in the two structures. The last five members of the <b>REG_CREATE_KEY_INFORMATION_V1</b> structure, <b>Version</b> through <b>CheckAccessMode</b>, are not part of the <b>REG_CREATE_KEY_INFORMATION</b> structure.
 
@@ -256,11 +256,11 @@ The <b>REG_CREATE_KEY_INFORMATION_V1</b> structure is one of a number of structu
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=155070">RegCreateKey</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=155070">RegCreateKey</a>
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=155071">RegCreateKeyEx</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=155071">RegCreateKeyEx</a>
 
 
 
@@ -272,7 +272,7 @@ The <b>REG_CREATE_KEY_INFORMATION_V1</b> structure is one of a number of structu
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=155042">SECURITY_QUALITY_OF_SERVICE</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=155042">SECURITY_QUALITY_OF_SERVICE</a>
 
 
 

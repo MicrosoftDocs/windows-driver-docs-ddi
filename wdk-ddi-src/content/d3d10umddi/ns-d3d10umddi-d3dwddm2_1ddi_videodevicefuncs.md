@@ -4,7 +4,7 @@ title: D3DWDDM2_1DDI_VIDEODEVICEFUNCS
 author: windows-driver-content
 description: Specifies the video function table for the  Microsoft Direct3D driver device object. Used only by Windows Display Driver Model (WDDM) 2.0 and later drivers.
 ms.assetid: 25d4904c-ade7-4028-bdad-54af640b64fd
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3DWDDM2_1DDI_VIDEODEVICEFUNCS, D3DWDDM2_1DDI_VIDEODEVICEFUNCS,
 req.header: d3d10umddi.h

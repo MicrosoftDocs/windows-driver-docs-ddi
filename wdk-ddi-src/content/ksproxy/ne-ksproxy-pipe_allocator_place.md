@@ -6,7 +6,7 @@ description:
 old-location: stream\pipe_allocator_place.htm
 tech.root: stream
 ms.assetid: 86B1D8BB-7213-403C-8EAB-D681A5DBF49E
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PPIPE_ALLOCATOR_PLACE, PIPE_ALLOCATOR_PLACE, PIPE_ALLOCATOR_PLACE enumeration [Streaming Media Devices], Pipe_Allocator_FirstPin, Pipe_Allocator_LastPin, Pipe_Allocator_MiddlePin, Pipe_Allocator_None, ksproxy/PIPE_ALLOCATOR_PLACE, ksproxy/Pipe_Allocator_FirstPin, ksproxy/Pipe_Allocator_LastPin, ksproxy/Pipe_Allocator_MiddlePin, ksproxy/Pipe_Allocator_None, stream.pipe_allocator_place"
 ms.topic: enum
 req.header: ksproxy.h

@@ -6,7 +6,7 @@ description: The RtlIsLeftChild routine determines whether a given splay link is
 old-location: ifsk\rtlisleftchild.htm
 tech.root: ifsk
 ms.assetid: 6ccdcc68-f03f-4972-91de-c8ab7f4389fb
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlIsLeftChild, RtlIsLeftChild routine [Installable File System Drivers], ifsk.rtlisleftchild, ntddk/RtlIsLeftChild, rtlref_2692597e-5133-48f2-b978-c8ac5f2280fe.xml
 ms.topic: macro
 req.header: ntddk.h

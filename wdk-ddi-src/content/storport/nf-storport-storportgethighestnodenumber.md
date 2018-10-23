@@ -6,7 +6,7 @@ description: The StorPortGetHighestNodeNumber routine returns the largest possib
 old-location: storage\storportgethighestnodenumber.htm
 tech.root: storage
 ms.assetid: 3e0b85f9-b6e4-4d53-b8dc-7f51e0f74be3
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortGetHighestNodeNumber, StorPortGetHighestNodeNumber routine [Storage Devices], storage.storportgethighestnodenumber, storport/StorPortGetHighestNodeNumber, storprt_e9e942e1-6de3-4170-87ec-00660ce9925a.xml
 ms.topic: function
 req.header: storport.h

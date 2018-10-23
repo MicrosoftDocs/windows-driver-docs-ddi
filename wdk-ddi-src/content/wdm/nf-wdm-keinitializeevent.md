@@ -6,7 +6,7 @@ description: The KeInitializeEvent routine initializes an event object as a sync
 old-location: kernel\keinitializeevent.htm
 tech.root: kernel
 ms.assetid: 0b59056c-6e73-4078-b8b3-32ced29ff7b0
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeInitializeEvent, KeInitializeEvent routine [Kernel-Mode Driver Architecture], k105_cc0b9273-d817-4853-b8ee-2337f53585f1.xml, kernel.keinitializeevent, wdm/KeInitializeEvent
 ms.topic: function
 req.header: wdm.h

@@ -4,7 +4,7 @@ title: PFND3DKMT_FLIPOVERLAY
 author: windows-driver-content
 description: The Pfnd3dkmtFlipoverlay callback function displays a new allocation by using the specified overlay.
 ms.assetid: 29cd8d93-c162-47a4-9ac3-808e705819c0
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

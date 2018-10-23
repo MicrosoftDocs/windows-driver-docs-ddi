@@ -4,7 +4,7 @@ title: D3D12DDI_DEPTH_WRITE_MASK
 author: windows-driver-content
 description: The write properties for a depth stencil state.
 ms.assetid: 68ba6a98-7e27-4550-9f34-ad45788da016
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_DEPTH_WRITE_MASK, D3D12DDI_DEPTH_WRITE_MASK, 
 req.header: d3d12umddi.h

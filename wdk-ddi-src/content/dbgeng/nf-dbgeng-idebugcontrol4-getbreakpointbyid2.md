@@ -6,7 +6,7 @@ description: The GetBreakpointById2 method returns the breakpoint with the speci
 old-location: debugger\getbreakpointbyid2.htm
 tech.root: debugger
 ms.assetid: 110eaa8a-d564-4900-8a08-d081572a5f43
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetBreakpointById2, GetBreakpointById2 method [Windows Debugging], GetBreakpointById2 method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetBreakpointById2 method, IDebugControl4.GetBreakpointById2, IDebugControl4::GetBreakpointById2, dbgeng/IDebugControl4::GetBreakpointById2, debugger.getbreakpointbyid2
 ms.topic: method
 req.header: dbgeng.h

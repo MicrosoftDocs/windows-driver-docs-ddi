@@ -6,7 +6,7 @@ description: Converts a value of type UINT_PTR to a value of type UCHAR.
 old-location: kernel\rtluintptrtouchar.htm
 tech.root: kernel
 ms.assetid: F5E4225F-4C66-44A8-9445-7D7DBAFA1DA4
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUIntPtrToUChar, RtlUIntPtrToUChar function [Kernel-Mode Driver Architecture], kernel.rtluintptrtouchar, ntintsafe/RtlUIntPtrToUChar
 ms.topic: function
 req.header: ntintsafe.h

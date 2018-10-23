@@ -6,7 +6,7 @@ description: This function notifies the class extension that the driver has retr
 old-location: sensors\sensorscxsensordataready.htm
 tech.root: sensors
 ms.assetid: 9F01D093-226E-4CB4-8085-812115EBA671
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: SensorsCxSensorDataReady, SensorsCxSensorDataReady function [Sensor Devices], sensors.sensorscxsensordataready, sensorscx/SensorsCxSensorDataReady
 ms.topic: function
 req.header: sensorscx.h

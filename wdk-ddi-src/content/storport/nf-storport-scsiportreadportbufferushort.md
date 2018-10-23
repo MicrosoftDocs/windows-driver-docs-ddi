@@ -6,7 +6,7 @@ description: The ScsiPortReadPortBufferUshort routine transfers a given number o
 old-location: storage\scsiportreadportbufferushort.htm
 tech.root: storage
 ms.assetid: b218785c-170e-4a30-99c9-0db8705b7f5d
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ScsiPortReadPortBufferUshort, ScsiPortReadPortBufferUshort routine [Storage Devices], scsiprt_27acea07-f416-4fa1-894d-6bb38c020f6b.xml, srb/ScsiPortReadPortBufferUshort, storage.scsiportreadportbufferushort
 ms.topic: macro
 req.header: storport.h

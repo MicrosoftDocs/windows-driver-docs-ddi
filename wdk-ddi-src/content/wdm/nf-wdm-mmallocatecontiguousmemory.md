@@ -6,7 +6,7 @@ description: The MmAllocateContiguousMemory routine allocates a range of contigu
 old-location: kernel\mmallocatecontiguousmemory.htm
 tech.root: kernel
 ms.assetid: 45d5b640-5983-43cc-9b2e-2f2625dbd57c
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: MmAllocateContiguousMemory, MmAllocateContiguousMemory routine [Kernel-Mode Driver Architecture], k106_33fb6610-08f3-4605-9511-72a2ec6fa442.xml, kernel.mmallocatecontiguousmemory, wdm/MmAllocateContiguousMemory
 ms.topic: function
 req.header: wdm.h

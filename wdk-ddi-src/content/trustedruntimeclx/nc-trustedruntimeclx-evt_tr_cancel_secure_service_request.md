@@ -4,7 +4,7 @@ title: EVT_TR_CANCEL_SECURE_SERVICE_REQUEST
 author: windows-driver-content
 description: 
 ms.assetid: 5a3bb56d-cde5-4776-84af-ed1264577a51
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: trustedruntimeclx.h
 req.include-header:

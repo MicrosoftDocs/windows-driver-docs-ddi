@@ -6,7 +6,7 @@ description: The Dereference method returns the typed data that is pointed to by
 old-location: debugger\extremotetyped_dereference.htm
 tech.root: debugger
 ms.assetid: 27a90926-95f4-43cd-b8d1-1b60ad23d737
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: Dereference, Dereference method [Windows Debugging], Dereference method [Windows Debugging],ExtRemoteTyped interface, EngExtCpp_Ref_d195c66d-88c1-4099-a227-0dd86d9d67e2.xml, ExtRemoteTyped interface [Windows Debugging],Dereference method, ExtRemoteTyped.Dereference, ExtRemoteTyped::Dereference, debugger.extremotetyped_dereference
 ms.topic: method
 req.header: engextcpp.hpp

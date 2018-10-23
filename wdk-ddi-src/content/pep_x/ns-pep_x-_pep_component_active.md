@@ -6,7 +6,7 @@ description: The PEP_COMPONENT_ACTIVE structure identifies a component that is m
 old-location: kernel\pep_component_active.htm
 tech.root: kernel
 ms.assetid: 58C2FFFC-2EAC-406B-943A-491AF3538F78
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_COMPONENT_ACTIVE, PEP_COMPONENT_ACTIVE, PEP_COMPONENT_ACTIVE structure [Kernel-Mode Driver Architecture], PPEP_COMPONENT_ACTIVE, PPEP_COMPONENT_ACTIVE structure pointer [Kernel-Mode Driver Architecture], _PEP_COMPONENT_ACTIVE, kernel.pep_component_active, pep_x/PEP_COMPONENT_ACTIVE, pep_x/PPEP_COMPONENT_ACTIVE"
 ms.topic: struct
 req.header: pep_x.h

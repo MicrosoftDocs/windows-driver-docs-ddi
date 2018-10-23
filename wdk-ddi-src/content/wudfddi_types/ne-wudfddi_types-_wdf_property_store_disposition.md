@@ -6,7 +6,7 @@ description: The WDF_PROPERTY_STORE_DISPOSITION enumeration contains values that
 old-location: wdf\wdf_property_store_disposition.htm
 tech.root: wdf
 ms.assetid: 107b55f5-0c06-45cc-9cbb-ba9e2fbca1e4
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: CreatedNewStore, OpenedExistingStore, WDF_PROPERTY_STORE_DISPOSITION, WDF_PROPERTY_STORE_DISPOSITION enumeration, _WDF_PROPERTY_STORE_DISPOSITION, umdf.wdf_property_store_disposition, umdfstructs_a25f5c08-88c9-41c0-9bab-023ea91d0a22.xml, wdf.wdf_property_store_disposition, wudfddi_types/CreatedNewStore, wudfddi_types/OpenedExistingStore, wudfddi_types/WDF_PROPERTY_STORE_DISPOSITION
 ms.topic: enum
 req.header: wudfddi_types.h

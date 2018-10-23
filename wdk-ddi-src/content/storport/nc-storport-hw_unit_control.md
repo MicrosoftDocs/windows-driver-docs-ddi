@@ -6,7 +6,7 @@ description: A miniport driver's HwStorUnitControl routine is called to perform 
 old-location: storage\hwstorunitcontrol.htm
 tech.root: storage
 ms.assetid: 33534C7A-C88D-4980-98A7-2B94488D3550
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HW_UNIT_CONTROL, HwStorUnitControl, HwStorUnitControl routine [Storage Devices], storage.hwstorunitcontrol, storport/HwStorUnitControl
 ms.topic: callback
 req.header: storport.h

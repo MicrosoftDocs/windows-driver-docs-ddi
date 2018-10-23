@@ -6,7 +6,7 @@ description: The PcGetContentRights function retrieves the DRM content rights as
 old-location: audio\pcgetcontentrights.htm
 tech.root: audio
 ms.assetid: a4e8aee0-d3ac-4086-99a3-a0339b198372
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: PcGetContentRights, PcGetContentRights function [Audio Devices], audio.pcgetcontentrights, audpc-routines_0f94b5f4-2667-488d-a191-4cf13a1f3a27.xml, portcls/PcGetContentRights
 ms.topic: function
 req.header: portcls.h

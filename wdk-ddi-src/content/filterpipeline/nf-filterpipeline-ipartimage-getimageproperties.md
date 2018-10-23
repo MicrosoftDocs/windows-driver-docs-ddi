@@ -6,7 +6,7 @@ description: The GetImageProperties method gets an image property that is based 
 old-location: print\ipartimage_getimageproperties.htm
 tech.root: print
 ms.assetid: 7ce333a3-86a2-47e5-b755-fd84469c8785
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetImageProperties, GetImageProperties method [Print Devices], GetImageProperties method [Print Devices],IPartImage interface, IPartImage interface [Print Devices],GetImageProperties method, IPartImage.GetImageProperties, IPartImage::GetImageProperties, filterpipeline/IPartImage::GetImageProperties, filterpipeline_06d3e014-e30a-44d2-a6e0-769cb62c387d.xml, print.ipartimage_getimageproperties
 ms.topic: method
 req.header: filterpipeline.h

@@ -6,7 +6,7 @@ description: The WRITE_PORT_UCHAR routine writes a byte to the specified port ad
 old-location: kernel\write_port_uchar.htm
 tech.root: kernel
 ms.assetid: 951b688f-21fa-4555-b877-e140e46a1700
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: WRITE_PORT_UCHAR, WRITE_PORT_UCHAR routine [Kernel-Mode Driver Architecture], k103_1495098b-03fb-4677-ac5a-2a1de9223f8b.xml, kernel.write_port_uchar, wdm/WRITE_PORT_UCHAR
 ms.topic: function
 req.header: wdm.h

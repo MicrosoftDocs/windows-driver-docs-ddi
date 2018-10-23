@@ -6,7 +6,7 @@ description: The GetSystemErrorControl method returns the control values for han
 old-location: debugger\getsystemerrorcontrol.htm
 tech.root: debugger
 ms.assetid: 727df033-ddaf-45a7-bdca-51a9ee0404fb
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetSystemErrorControl, GetSystemErrorControl method [Windows Debugging], GetSystemErrorControl method [Windows Debugging],IDebugControl interface, GetSystemErrorControl method [Windows Debugging],IDebugControl2 interface, GetSystemErrorControl method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetSystemErrorControl method, IDebugControl2 interface [Windows Debugging],GetSystemErrorControl method, IDebugControl2.GetSystemErrorControl, IDebugControl2::GetSystemErrorControl, IDebugControl3 interface [Windows Debugging],GetSystemErrorControl method, IDebugControl3::GetSystemErrorControl, IDebugControl::GetSystemErrorControl, IDebugControl_94595f9e-7e73-4291-a904-49f1a8fbbaa8.xml, dbgeng/IDebugControl2::GetSystemErrorControl, dbgeng/IDebugControl3::GetSystemErrorControl, dbgeng/IDebugControl::GetSystemErrorControl, debugger.getsystemerrorcontrol
 ms.topic: method
 req.header: dbgeng.h

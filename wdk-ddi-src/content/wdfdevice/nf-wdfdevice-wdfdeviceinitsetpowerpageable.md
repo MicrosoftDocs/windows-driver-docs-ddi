@@ -6,7 +6,7 @@ description: The WdfDeviceInitSetPowerPageable method informs the power manager 
 old-location: wdf\wdfdeviceinitsetpowerpageable.htm
 tech.root: wdf
 ms.assetid: 3a216c35-f6b7-483f-a330-d0a66edb9205
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_704347eb-35c6-4735-bd2a-e6a988ff2896.xml, WdfDeviceInitSetPowerPageable, WdfDeviceInitSetPowerPageable method, kmdf.wdfdeviceinitsetpowerpageable, wdf.wdfdeviceinitsetpowerpageable, wdfdevice/WdfDeviceInitSetPowerPageable
 ms.topic: function
 req.header: wdfdevice.h

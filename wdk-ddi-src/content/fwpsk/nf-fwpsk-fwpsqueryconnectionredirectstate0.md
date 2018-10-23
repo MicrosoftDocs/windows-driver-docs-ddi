@@ -6,7 +6,7 @@ description: The FwpsQueryConnectionRedirectState0 function returns the connecti
 old-location: netvista\fwpsqueryconnectionredirectstate0.htm
 tech.root: netvista
 ms.assetid: 6db0a5ac-edab-4e84-b378-30ed0c23cd4b
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FwpsQueryConnectionRedirectState0, FwpsQueryConnectionRedirectState0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsQueryConnectionRedirectState0, netvista.fwpsqueryconnectionredirectstate0
 ms.topic: function
 req.header: fwpsk.h

@@ -6,7 +6,7 @@ description: The USBD_GetUSBDIVersion routine returns version information about 
 old-location: buses\usbd_getusbdiversion.htm
 tech.root: usbref
 ms.assetid: 47e6da4a-fa81-40ee-9bf5-80526dc0b865
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: USBD_GetUSBDIVersion, USBD_GetUSBDIVersion routine [Buses], buses.usbd_getusbdiversion, usbdlib/USBD_GetUSBDIVersion, usbfunc_567ca75b-8d65-412c-aa28-284a01cff650.xml
 ms.topic: function
 req.header: usbdlib.h

@@ -4,7 +4,7 @@ title: PFND3DKMT_ADDSURFACETOSWAPCHAIN
 author: windows-driver-content
 description: Implemented by the client driver to add a surface to the swapchain.
 ms.assetid: cad91f7c-de5e-4432-9bb6-0e9b6f5f8902
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

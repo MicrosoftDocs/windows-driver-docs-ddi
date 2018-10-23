@@ -6,7 +6,7 @@ description: The FltGetInstanceContext routine retrieves a context that was set 
 old-location: ifsk\fltgetinstancecontext.htm
 tech.root: ifsk
 ms.assetid: 74bbffcd-27a9-4a9e-b625-64f9860f2c66
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_8d05bb2a-ad52-454b-89d6-b15413c34e7f.xml, FltGetInstanceContext, FltGetInstanceContext routine [Installable File System Drivers], fltkernel/FltGetInstanceContext, ifsk.fltgetinstancecontext
 ms.topic: function
 req.header: fltkernel.h

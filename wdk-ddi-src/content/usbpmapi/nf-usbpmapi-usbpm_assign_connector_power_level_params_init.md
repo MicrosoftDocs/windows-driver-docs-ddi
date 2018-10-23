@@ -4,7 +4,7 @@ title: USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS_INIT function
 author: windows-driver-content
 description: Initializes a **USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS** structure.
 ms.assetid: b95baed4-5f1d-4e0c-a6eb-a68ee5c462a5
-ms.date: 9/30/2018 
+ms.date: 09/30/2018
 ms.topic: function
 ms.keywords: USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS_INIT
 tech.root: usbref

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The DXGKARG_RECOMMENDVIDPNTOPOLOGY structure contains arguments for the display miniport driver's DxgkDdiRecommendVidPnTopology function.
 old-location: display\dxgkarg_recommendvidpntopology.htm
 ms.assetid: 9a3efdc8-4534-4de6-89f8-42d94ba8b9a6
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKARG_RECOMMENDVIDPNTOPOLOGY, DXGKARG_RECOMMENDVIDPNTOPOLOGY structure [Display Devices], DmStructs_960673e2-caf0-4f46-9b8c-c1da025fb6bf.xml, _DXGKARG_RECOMMENDVIDPNTOPOLOGY, d3dkmddi/DXGKARG_RECOMMENDVIDPNTOPOLOGY, display.dxgkarg_recommendvidpntopology
 ms.topic: struct
 req.header: d3dkmddi.h

@@ -4,7 +4,7 @@ title: EVT_TR_RELEASE_HARDWARE_SECURE_ENVIRONMENT
 author: windows-driver-content
 description: 
 ms.assetid: 9ac67112-a870-4aa9-a676-fabb0cf36cf3
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: trustedruntimeclx.h
 req.include-header:

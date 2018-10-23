@@ -6,7 +6,7 @@ description: The NDIS_WWAN_USSD_EVENT structure represents an Unstructured Suppl
 old-location: netvista\ndis_wwan_ussd_request.htm
 tech.root: netvista
 ms.assetid: B98143A1-7F7D-4130-A388-72A21B89E6D8
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_WWAN_USSD_REQUEST, NDIS_WWAN_USSD_REQUEST, NDIS_WWAN_USSD_REQUEST structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_USSD_REQUEST, PNDIS_WWAN_USSD_REQUEST structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_USSD_REQUEST, ndiswwan/NDIS_WWAN_USSD_REQUEST, ndiswwan/PNDIS_WWAN_USSD_REQUEST, netvista.ndis_wwan_ussd_request"
 ms.topic: struct
 req.header: ndiswwan.h

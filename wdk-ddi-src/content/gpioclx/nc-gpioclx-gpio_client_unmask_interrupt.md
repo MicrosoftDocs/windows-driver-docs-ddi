@@ -6,7 +6,7 @@ description: The CLIENT_UnmaskInterrupt event callback function unmasks the inte
 old-location: gpio\client_unmaskinterrupt.htm
 tech.root: GPIO
 ms.assetid: 7A97B3B2-2B7B-4661-8C0D-C2234F796EA8
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: CLIENT_UnmaskInterrupt, CLIENT_UnmaskInterrupt callback, CLIENT_UnmaskInterrupt callback function [Parallel Ports], GPIO.client_unmaskinterrupt, GPIO_CLIENT_UNMASK_INTERRUPT, gpioclx/CLIENT_UnmaskInterrupt
 ms.topic: callback
 req.header: gpioclx.h
@@ -119,7 +119,7 @@ NTSTATUS
 </td>
 </tr>
 </table></span></div>
-The GPIO_CLIENT_UNMASK_INTERRUPT function type is defined in the Gpioclx.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the GPIO_CLIENT_UNMASK_INTERRUPT function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For more information about _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?LinkId=286697">Annotating Function Behavior</a>.
+The GPIO_CLIENT_UNMASK_INTERRUPT function type is defined in the Gpioclx.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the GPIO_CLIENT_UNMASK_INTERRUPT function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For more information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?LinkId=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>
 

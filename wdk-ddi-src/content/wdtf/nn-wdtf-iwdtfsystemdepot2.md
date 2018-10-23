@@ -6,7 +6,7 @@ description: Defines operations and properties for the SystemDepot - the object 
 old-location: dtf\iwdtfsystemdepot2.htm
 tech.root: dtf
 ms.assetid: 7e6e5d35-66c3-4f69-8ac0-0c1100baa5c6
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFSystemDepot2, IWDTFSystemDepot2 interface [Windows Device Testing Framework], IWDTFSystemDepot2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFSystemDepot2, dtf.iwdtfsystemdepot2, wdtf/IWDTFSystemDepot2
 ms.topic: interface
 req.header: wdtf.h

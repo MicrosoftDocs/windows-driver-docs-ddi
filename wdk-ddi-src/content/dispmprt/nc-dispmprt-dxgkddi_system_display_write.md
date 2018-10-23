@@ -6,7 +6,7 @@ description: Called by the operating system to request the display miniport driv
 old-location: display\dxgkddisystemdisplaywrite.htm
 tech.root: display
 ms.assetid: 5C0F9878-522C-4DDE-A790-54C94880F119
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_SYSTEM_DISPLAY_WRITE, DXGKDDI_SYSTEM_DISPLAY_WRITE callback, DxgkDdiSystemDisplayWrite, DxgkDdiSystemDisplayWrite callback function [Display Devices], display.dxgkddisystemdisplaywrite, dispmprt/DxgkDdiSystemDisplayWrite
 ms.topic: callback
 req.header: dispmprt.h

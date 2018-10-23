@@ -6,7 +6,7 @@ description: The WdfCommonBufferCreateWithConfig method creates a memory buffer 
 old-location: wdf\wdfcommonbuffercreatewithconfig.htm
 tech.root: wdf
 ms.assetid: 3ed8b7df-9c7d-44de-a49d-10221acf71e3
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFCommonBufferObjectRef_4e009b5f-a2a4-4be5-84d6-308c1558e702.xml, WdfCommonBufferCreateWithConfig, WdfCommonBufferCreateWithConfig method, kmdf.wdfcommonbuffercreatewithconfig, wdf.wdfcommonbuffercreatewithconfig, wdfcommonbuffer/WdfCommonBufferCreateWithConfig
 ms.topic: function
 req.header: wdfcommonbuffer.h

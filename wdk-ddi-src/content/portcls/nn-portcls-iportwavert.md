@@ -6,7 +6,7 @@ description: The IPortWaveRT interface is supported in Windows Vista and later o
 old-location: audio\iportwavert.htm
 tech.root: audio
 ms.assetid: ba54320e-42b3-489c-a192-dce794c3b3d4
-ms.date: 3/19/2018
+ms.date: 03/19/2018
 ms.keywords: IPortWaveRT, IPortWaveRT interface [Audio Devices], IPortWaveRT interface [Audio Devices], described, audio.iportwavert, audmp-routines_0c88b444-3414-49e0-a021-2bc4cd6f1fff.xml, portcls/IPortWaveRT
 ms.topic: interface
 req.header: portcls.h

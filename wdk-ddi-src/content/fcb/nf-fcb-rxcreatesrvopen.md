@@ -6,7 +6,7 @@ description: RxCreateSrvOpen allocates, initializes, and inserts a new SRV_OPEN 
 old-location: ifsk\rxcreatesrvopen.htm
 tech.root: ifsk
 ms.assetid: e2cb8b92-2894-4515-bdf1-944c7f6ed3b0
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxCreateSrvOpen, RxCreateSrvOpen function [Installable File System Drivers], fcb/RxCreateSrvOpen, ifsk.rxcreatesrvopen, rxref_663bb1d7-f914-4571-9701-e21ccf548337.xml
 ms.topic: function
 req.header: fcb.h

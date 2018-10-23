@@ -6,7 +6,7 @@ description: Gives information about I2C data being received by the OS.
 old-location: display\idarg_in_i2c_receive.htm
 tech.root: display
 ms.assetid: a44a45bf-4c21-4507-a89b-4130622bdd06
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IDARG_IN_I2C_RECEIVE, IDARG_IN_I2C_RECEIVE structure [Display Devices], display.idarg_in_i2c_receive, iddcx/IDARG_IN_I2C_RECEIVE
 ms.topic: struct
 req.header: iddcx.h

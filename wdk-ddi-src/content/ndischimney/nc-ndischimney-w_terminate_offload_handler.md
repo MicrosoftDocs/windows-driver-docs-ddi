@@ -6,7 +6,7 @@ description: The MiniportTerminateOffload function terminates the offload of one
 old-location: netvista\miniportterminateoffload.htm
 tech.root: netvista
 ms.assetid: 1b808e3c-2d64-44c9-88d3-0a0311e1dc99
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MiniportTerminateOffload, MiniportTerminateOffload callback function [Network Drivers Starting with Windows Vista], W_TERMINATE_OFFLOAD_HANDLER, W_TERMINATE_OFFLOAD_HANDLER callback, ndischimney/MiniportTerminateOffload, netvista.miniportterminateoffload, tcp_chim_miniport_func_73171220-b803-4d9e-bf13-fe4daebbe5dc.xml
 ms.topic: callback
 req.header: ndischimney.h

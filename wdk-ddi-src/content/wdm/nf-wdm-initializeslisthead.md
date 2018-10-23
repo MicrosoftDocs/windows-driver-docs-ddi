@@ -6,7 +6,7 @@ description: The InitializeSListHead routine (or ExInitializeSListHead) initiali
 old-location: kernel\exinitializeslisthead.htm
 tech.root: kernel
 ms.assetid: 258addec-7231-494c-aa70-5966e9a57132
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExInitializeSListHead, InitializeSListHead, InitializeSListHead routine [Kernel-Mode Driver Architecture], k102_6d3b712b-2dd5-4962-ad16-a296bdc4de2b.xml, kernel.exinitializeslisthead, wdm/InitializeSListHead
 ms.topic: function
 req.header: wdm.h

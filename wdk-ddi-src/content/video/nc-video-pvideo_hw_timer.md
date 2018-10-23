@@ -6,7 +6,7 @@ description: HwVidTimer is a video miniport driver routine called at timed inter
 old-location: display\hwvidtimer.htm
 tech.root: display
 ms.assetid: bd41bbbf-4ec8-4e6c-8620-d8a9fe0b8bad
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: HwVidTimer, HwVidTimer callback function [Display Devices], PVIDEO_HW_TIMER, PVIDEO_HW_TIMER callback, VideoMiniport_Functions_80fa0df4-2b7c-4ffa-9048-e252b8af26cf.xml, display.hwvidtimer, video/HwVidTimer
 ms.topic: callback
 req.header: video.h

@@ -6,7 +6,7 @@ description: The TAPE_SET_POSITION structure is used in conjunction with the IOC
 old-location: storage\tape_set_position.htm
 tech.root: storage
 ms.assetid: c9f462b2-4b56-4138-a374-9e9d3e1ae295
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PTAPE_SET_POSITION, PTAPE_SET_POSITION, PTAPE_SET_POSITION structure pointer [Storage Devices], TAPE_SET_POSITION, TAPE_SET_POSITION structure [Storage Devices], _TAPE_SET_POSITION, ntddtape/PTAPE_SET_POSITION, ntddtape/TAPE_SET_POSITION, storage.tape_set_position, structs-tape_412b4b85-a0b5-4372-a32c-fa7ac5a6f33a.xml"
 ms.topic: struct
 req.header: minitape.h

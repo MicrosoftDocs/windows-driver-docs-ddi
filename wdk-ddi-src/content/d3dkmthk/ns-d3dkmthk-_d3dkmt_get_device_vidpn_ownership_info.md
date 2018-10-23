@@ -4,7 +4,7 @@ title: _D3DKMT_GET_DEVICE_VIDPN_OWNERSHIP_INFO
 author: windows-driver-content
 description: Used to get device VidPn ownership info.
 ms.assetid: 3338e954-1d21-4a15-be0d-6fa09de29411
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_GET_DEVICE_VIDPN_OWNERSHIP_INFO, D3DKMT_GET_DEVICE_VIDPN_OWNERSHIP_INFO, 
 req.header: d3dkmthk.h

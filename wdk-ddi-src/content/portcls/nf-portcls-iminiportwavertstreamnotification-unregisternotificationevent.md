@@ -6,7 +6,7 @@ description: The UnregisterNotificationEvent method unregisters an event from DM
 old-location: audio\iminiportwavertstreamnotification_unregisternotificationevent.htm
 tech.root: audio
 ms.assetid: 5b264784-7680-4c3b-9fc7-0609c53b53a2
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IMiniportWaveRTStreamNotification interface [Audio Devices],UnregisterNotificationEvent method, IMiniportWaveRTStreamNotification.UnregisterNotificationEvent, IMiniportWaveRTStreamNotification::UnregisterNotificationEvent, UnregisterNotificationEvent, UnregisterNotificationEvent method [Audio Devices], UnregisterNotificationEvent method [Audio Devices],IMiniportWaveRTStreamNotification interface, audio.iminiportwavertstreamnotification_unregisternotificationevent, audmp-routines_db635e04-50ae-4aed-b5a5-dfb33f14d153.xml, portcls/IMiniportWaveRTStreamNotification::UnregisterNotificationEvent
 ms.topic: method
 req.header: portcls.h

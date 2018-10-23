@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The DestroyRenderTargetView function destroys the specified render target view object. The render target view object can be destoyed only if it is not currently bound to a display device.
 old-location: display\destroyrendertargetview.htm
 ms.assetid: ec04fed3-8e43-4f76-af82-b36c7029f0cc
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DestroyRenderTargetView, DestroyRenderTargetView callback function [Display Devices], PFND3D10DDI_DESTROYRENDERTARGETVIEW, PFND3D10DDI_DESTROYRENDERTARGETVIEW callback, UserModeDisplayDriverDx10_Functions_a2c751c2-e384-4c1a-a634-97d7f3a581be.xml, d3d10umddi/DestroyRenderTargetView, display.destroyrendertargetview
 ms.topic: callback
 req.header: d3d10umddi.h

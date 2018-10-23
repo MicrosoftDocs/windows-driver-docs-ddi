@@ -6,7 +6,7 @@ description: The PHW_INITIALIZE routine prototype declares a routine that initia
 old-location: storage\phw_initialize.htm
 tech.root: storage
 ms.assetid: dd678196-62f6-4c27-845f-a9b52c663e2a
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "(*PHW_INITIALIZE), (*PHW_INITIALIZE) callback function [Storage Devices], ide_minikr_95bb126d-6d4c-4091-b2fa-6b891d587186.xml, srb/(*PHW_INITIALIZE), storage.phw_initialize"
 ms.topic: callback
 req.header: srb.h

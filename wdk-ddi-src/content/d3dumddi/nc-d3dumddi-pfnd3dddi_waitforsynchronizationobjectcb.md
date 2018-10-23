@@ -6,7 +6,7 @@ description: The pfnWaitForSynchronizationObjectCb function inserts a wait for t
 old-location: display\pfnwaitforsynchronizationobjectcb.htm
 tech.root: display
 ms.assetid: d33ca665-897d-4e99-b9a6-b794127fecfd
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_14f8a273-a662-41d3-b79b-1c779c5853a1.xml, PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTCB, PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTCB callback, d3dumddi/pfnWaitForSynchronizationObjectCb, display.pfnwaitforsynchronizationobjectcb, pfnWaitForSynchronizationObjectCb, pfnWaitForSynchronizationObjectCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h

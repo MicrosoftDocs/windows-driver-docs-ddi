@@ -6,7 +6,7 @@ description: The NdisStoreUlong function stores a ULONG value at a particular ad
 old-location: netvista\ndisstoreulong.htm
 tech.root: netvista
 ms.assetid: 4fb0b803-1fe2-409b-8543-dddc5df67fe4
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisStoreUlong, NdisStoreUlong macro [Network Drivers Starting with Windows Vista], ndis/NdisStoreUlong, ndis_memory_ref_99349378-c2ab-4f96-82a3-7d76b15aaca3.xml, netvista.ndisstoreulong
 ms.topic: macro
 req.header: ndis.h

@@ -6,7 +6,7 @@ description: The WIAS_DOWN_SAMPLE_INFO structure stores information used by the 
 old-location: image\wias_down_sample_info.htm
 tech.root: image
 ms.assetid: af9d35d8-9e3c-4be0-8ba4-a0b548b1d7ac
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: "*PWIAS_DOWN_SAMPLE_INFO, PWIAS_DOWN_SAMPLE_INFO, PWIAS_DOWN_SAMPLE_INFO structure pointer [Imaging Devices], WIAS_DOWN_SAMPLE_INFO, WIAS_DOWN_SAMPLE_INFO structure [Imaging Devices], _WIAS_DOWN_SAMPLE_INFO, image.wias_down_sample_info, wiamindr_lh/PWIAS_DOWN_SAMPLE_INFO, wiamindr_lh/WIAS_DOWN_SAMPLE_INFO, wiastrct_f7468047-47a4-4c3a-ada4-3bf329b32304.xml"
 ms.topic: struct
 req.header: wiamindr_lh.h

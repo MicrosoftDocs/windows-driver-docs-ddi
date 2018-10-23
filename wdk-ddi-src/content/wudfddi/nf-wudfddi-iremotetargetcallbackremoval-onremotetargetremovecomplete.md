@@ -6,7 +6,7 @@ description: A UMDF-based driver's OnRemoteTargetRemoveComplete event callback f
 old-location: wdf\iremotetargetcallbackremoval_onremotetargetremovecomplete.htm
 tech.root: wdf
 ms.assetid: bfac8f91-2367-4194-8e98-e274025c049a
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IRemoteTargetCallbackRemoval interface,OnRemoteTargetRemoveComplete method, IRemoteTargetCallbackRemoval.OnRemoteTargetRemoveComplete, IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete, OnRemoteTargetRemoveComplete, OnRemoteTargetRemoveComplete method, OnRemoteTargetRemoveComplete method,IRemoteTargetCallbackRemoval interface, UMDFIoTargetObjectRef_bec0246d-a3e9-41b2-b577-fef78c8e4668.xml, umdf.iremotetargetcallbackremoval_onremotetargetremovecomplete, wdf.iremotetargetcallbackremoval_onremotetargetremovecomplete, wudfddi/IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete
 ms.topic: method
 req.header: wudfddi.h

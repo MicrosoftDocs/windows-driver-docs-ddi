@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilemergencymodecontrolparamscontrol.htm
 tech.root: netvista
 ms.assetid: ac5a2ae3-3fdc-463f-96df-22b441e38724
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILEMERGENCYMODECONTROLPARAMSCONTROL, RILEMERGENCYMODECONTROLPARAMSCONTROL enumeration [Network Drivers Starting with Windows Vista], RIL_EMC_ALL_MODEMS_ARE_IN_NORMAL_MODE, RIL_EMC_MAX, RIL_EMC_OTHER_MODEM_IN_EMERGECY_MODE, netvista.rilemergencymodecontrolparamscontrol, ntddrilapitypes/RILEMERGENCYMODECONTROLPARAMSCONTROL, ntddrilapitypes/RIL_EMC_ALL_MODEMS_ARE_IN_NORMAL_MODE, ntddrilapitypes/RIL_EMC_MAX, ntddrilapitypes/RIL_EMC_OTHER_MODEM_IN_EMERGECY_MODE
 ms.topic: enum
 req.header: ntddrilapitypes.h

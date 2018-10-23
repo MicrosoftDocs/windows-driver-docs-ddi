@@ -4,7 +4,7 @@ title: D3D12DDI_DEPTH_STENCIL_DESC_0010
 author: windows-driver-content
 description: The D3D12DDI_DEPTH_STENCIL_DESC_0010 structure describes a depth stencil state.
 ms.assetid: ed89cee3-14be-4032-8a71-4fca39819453
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDI_DEPTH_STENCIL_DESC_0010, D3D12DDI_DEPTH_STENCIL_DESC_0010, 
 req.header: d3d12umddi.h

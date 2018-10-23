@@ -6,7 +6,7 @@ description: The KeSynchronizeExecution routine synchronizes the execution of th
 old-location: kernel\kesynchronizeexecution.htm
 tech.root: kernel
 ms.assetid: f378a30f-7e6b-4c81-b98b-a5b40e9a1a17
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeSynchronizeExecution, KeSynchronizeExecution routine [Kernel-Mode Driver Architecture], k105_2abf2438-6849-4069-8571-7d24d348056f.xml, kernel.kesynchronizeexecution, wdm/KeSynchronizeExecution
 ms.topic: function
 req.header: wdm.h

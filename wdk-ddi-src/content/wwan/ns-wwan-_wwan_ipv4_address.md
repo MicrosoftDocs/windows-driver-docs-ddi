@@ -6,7 +6,7 @@ description: The WWAN_IPV4_ADDRESS structure represents an IPV4 address of a PDP
 old-location: netvista\wwan_ipv4_address.htm
 tech.root: netvista
 ms.assetid: D75EAC9E-8E65-437E-83AA-59B422527C6C
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_IPV4_ADDRESS, PWWAN_IPV4_ADDRESS, PWWAN_IPV4_ADDRESS structure pointer [Network Drivers Starting with Windows Vista], WWAN_IPV4_ADDRESS, WWAN_IPV4_ADDRESS structure [Network Drivers Starting with Windows Vista], _WWAN_IPV4_ADDRESS, netvista.wwan_ipv4_address, wwan/PWWAN_IPV4_ADDRESS, wwan/WWAN_IPV4_ADDRESS"
 ms.topic: struct
 req.header: wwan.h

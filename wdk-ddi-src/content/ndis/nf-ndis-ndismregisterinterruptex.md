@@ -6,7 +6,7 @@ description: NDIS miniport drivers call the NdisMRegisterInterruptEx function to
 old-location: netvista\ndismregisterinterruptex.htm
 tech.root: netvista
 ms.assetid: db0b3d51-5bbb-45fb-8c45-dda8c2212b5f
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMRegisterInterruptEx, NdisMRegisterInterruptEx function [Network Drivers Starting with Windows Vista], ndis/NdisMRegisterInterruptEx, ndis_interrupts_functions_ref_9a28602d-5a32-459c-92da-9d97b93f5fde.xml, netvista.ndismregisterinterruptex
 ms.topic: function
 req.header: ndis.h

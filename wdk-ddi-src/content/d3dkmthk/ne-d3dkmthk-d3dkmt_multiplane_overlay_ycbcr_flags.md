@@ -4,7 +4,7 @@ title: D3DKMT_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 author: windows-driver-content
 description: Multiplane overlay YCbCr flags.
 ms.assetid: a179cba2-5194-40a4-a504-9f4438bd506b
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3DKMT_MULTIPLANE_OVERLAY_YCbCr_FLAGS, D3DKMT_MULTIPLANE_OVERLAY_YCbCr_FLAGS, 
 req.header: d3dkmthk.h

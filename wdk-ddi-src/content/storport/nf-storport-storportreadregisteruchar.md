@@ -6,7 +6,7 @@ description: The StorPortReadRegisterUchar routine reads a value from a specifie
 old-location: storage\storportreadregisteruchar.htm
 tech.root: storage
 ms.assetid: 1edf800d-f097-4d3f-ae89-1b11e4f82f2d
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortReadRegisterUchar, StorPortReadRegisterUchar routine [Storage Devices], storage.storportreadregisteruchar, storport/StorPortReadRegisterUchar, storprt_9f2898e2-6b5e-45ae-9162-57c58a3471f7.xml
 ms.topic: macro
 req.header: storport.h

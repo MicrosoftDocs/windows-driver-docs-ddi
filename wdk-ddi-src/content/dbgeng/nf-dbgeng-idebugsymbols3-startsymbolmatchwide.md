@@ -6,7 +6,7 @@ description: The StartSymbolMatchWide method initializes a search for symbols wh
 old-location: debugger\startsymbolmatchwide.htm
 tech.root: debugger
 ms.assetid: dbf8c1a3-cc59-40d7-8355-62891b5b45d2
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],StartSymbolMatchWide method, IDebugSymbols3.StartSymbolMatchWide, IDebugSymbols3::StartSymbolMatchWide, StartSymbolMatchWide, StartSymbolMatchWide method [Windows Debugging], StartSymbolMatchWide method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::StartSymbolMatchWide, debugger.startsymbolmatchwide
 ms.topic: method
 req.header: dbgeng.h

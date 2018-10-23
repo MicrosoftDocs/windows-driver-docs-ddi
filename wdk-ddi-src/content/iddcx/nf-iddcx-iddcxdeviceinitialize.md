@@ -6,7 +6,7 @@ description: Initializes a WDF device.
 old-location: display\iddcxdeviceinitialize.htm
 tech.root: display
 ms.assetid: 4967e897-1a71-4f17-ad5b-9cc9916b0087
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IddCxDeviceInitialize, IddCxDeviceInitialize method [Display Devices], display.iddcxdeviceinitialize, iddcx/IddCxDeviceInitialize
 ms.topic: function
 req.header: iddcx.h

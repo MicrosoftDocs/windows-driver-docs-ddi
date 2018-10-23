@@ -6,7 +6,7 @@ description: The NdkCreateCompletion (NDK_FN_CREATE_COMPLETION) function complet
 old-location: netvista\ndk_fn_create_completion.htm
 tech.root: netvista
 ms.assetid: C7A2792C-FDAE-4525-A8B1-7F8F6BA8249A
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_FN_CREATE_COMPLETION, NDK_FN_CREATE_COMPLETION callback, NdkCreateCompletion, NdkCreateCompletion callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateCompletion, netvista.ndk_fn_create_completion
 ms.topic: callback
 req.header: ndkpi.h

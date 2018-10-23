@@ -6,7 +6,7 @@ description: The MmDoesFileHaveUserWritableReferences function returns the numbe
 old-location: ifsk\mmdoesfilehaveuserwritablereferences.htm
 tech.root: ifsk
 ms.assetid: b88afd6e-3a0a-471e-a874-db8fc3175d61
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: MmDoesFileHaveUserWritableReferences, MmDoesFileHaveUserWritableReferences function [Installable File System Drivers], ifsk.mmdoesfilehaveuserwritablereferences, mmref_fb87e0fa-60db-498e-8a17-a1bd366c3df6.xml, ntifs/MmDoesFileHaveUserWritableReferences
 ms.topic: function
 req.header: ntifs.h

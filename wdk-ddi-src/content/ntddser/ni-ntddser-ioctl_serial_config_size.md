@@ -6,7 +6,7 @@ description: The IOCTL_SERIAL_CONFIG_SIZE request returns information about conf
 old-location: serports\ioctl_serial_config_size.htm
 tech.root: serports
 ms.assetid: 13229dcc-e698-4743-9ca2-303bef69304c
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_CONFIG_SIZE, IOCTL_SERIAL_CONFIG_SIZE control, IOCTL_SERIAL_CONFIG_SIZE control code [Serial Ports], ntddser/IOCTL_SERIAL_CONFIG_SIZE, serports.ioctl_serial_config_size, serref_c851a6c5-27c1-4690-bb2f-36bd458b6629.xml
 ms.topic: ioctl
 req.header: ntddser.h

@@ -6,7 +6,7 @@ description: NDIS can call a miniport driver's MiniportEnableInterruptEx handler
 old-location: netvista\miniportenableinterruptex.htm
 tech.root: netvista
 ms.assetid: 61edeb80-a686-4b8c-ae19-4757616151ef
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_ENABLE_INTERRUPT, MINIPORT_ENABLE_INTERRUPT callback, MiniportEnableInterruptEx, MiniportEnableInterruptEx callback function [Network Drivers Starting with Windows Vista], ndis/MiniportEnableInterruptEx, ndis_interrupts_miniport_functions_ref_4a4172dc-19bc-4405-8fc1-48bb8af2ae8d.xml, netvista.miniportenableinterruptex
 ms.topic: callback
 req.header: ndis.h
@@ -133,7 +133,7 @@ VOID
 </table></span></div>
 The <b>MINIPORT_ENABLE_INTERRUPT</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_ENABLE_INTERRUPT</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 

@@ -6,7 +6,7 @@ description: The KsAllocateObjectCreateItem function allocates a slot for the sp
 old-location: stream\ksallocateobjectcreateitem.htm
 tech.root: stream
 ms.assetid: 43c3894c-5568-4cba-80ed-1d4e4388547b
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsAllocateObjectCreateItem, KsAllocateObjectCreateItem function [Streaming Media Devices], ks/KsAllocateObjectCreateItem, ksfunc_57773cdc-d649-4381-9841-deba5beddf73.xml, stream.ksallocateobjectcreateitem
 ms.topic: function
 req.header: ks.h

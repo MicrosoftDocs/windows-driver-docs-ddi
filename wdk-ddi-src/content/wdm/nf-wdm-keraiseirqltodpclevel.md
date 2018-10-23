@@ -6,7 +6,7 @@ description: The KeRaiseIrqlToDpcLevel routine raises the hardware priority to I
 old-location: kernel\keraiseirqltodpclevel.htm
 tech.root: kernel
 ms.assetid: ac82e003-ec05-4b8b-a4fb-64498fb17f9b
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeRaiseIrqlToDpcLevel, KeRaiseIrqlToDpcLevel routine [Kernel-Mode Driver Architecture], k105_64c33a5b-8efa-4d97-9569-2ea68a227d17.xml, kernel.keraiseirqltodpclevel, wdm/KeRaiseIrqlToDpcLevel
 ms.topic: function
 req.header: wdm.h

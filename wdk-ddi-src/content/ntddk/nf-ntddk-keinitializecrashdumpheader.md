@@ -6,7 +6,7 @@ description: The KeInitializeCrashDumpHeader routine supplies the header informa
 old-location: kernel\keinitializecrashdumpheader.htm
 tech.root: kernel
 ms.assetid: 6fa0cf86-35f4-4e5d-bced-ebd2ec499b64
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeInitializeCrashDumpHeader, KeInitializeCrashDumpHeader routine [Kernel-Mode Driver Architecture], k105_c15cf29a-9b95-4bec-9f9d-8664ac5e3cd3.xml, kernel.keinitializecrashdumpheader, wdm/KeInitializeCrashDumpHeader
 ms.topic: function
 req.header: ntddk.h

@@ -6,7 +6,7 @@ description: The TAPE_PREPARE structure is used in conjunction with the IOCTL_TA
 old-location: storage\tape_prepare.htm
 tech.root: storage
 ms.assetid: 0bca5849-e0f9-42b2-82f8-aadea2aa01ae
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PTAPE_PREPARE, PTAPE_PREPARE, PTAPE_PREPARE structure pointer [Storage Devices], TAPE_PREPARE, TAPE_PREPARE structure [Storage Devices], _TAPE_PREPARE, ntddtape/PTAPE_PREPARE, ntddtape/TAPE_PREPARE, storage.tape_prepare, structs-tape_b563ea19-797c-4df0-a384-7e9c579ee2e9.xml"
 ms.topic: struct
 req.header: minitape.h

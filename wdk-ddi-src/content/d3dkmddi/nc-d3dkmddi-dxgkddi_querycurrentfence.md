@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The DxgkDdiQueryCurrentFence function queries about the latest completed submission fence identifier in the hardware command execution unit.
 old-location: display\dxgkddiquerycurrentfence.htm
 ms.assetid: 0ca4d42f-3036-4b81-91a4-fbce7ac891fe
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_QUERYCURRENTFENCE, DXGKDDI_QUERYCURRENTFENCE callback, DmFunctions_d8fe2a82-bd21-4071-9dcf-5b3a12fe25ef.xml, DxgkDdiQueryCurrentFence, DxgkDdiQueryCurrentFence callback function [Display Devices], d3dkmddi/DxgkDdiQueryCurrentFence, display.dxgkddiquerycurrentfence
 ms.topic: callback
 req.header: d3dkmddi.h

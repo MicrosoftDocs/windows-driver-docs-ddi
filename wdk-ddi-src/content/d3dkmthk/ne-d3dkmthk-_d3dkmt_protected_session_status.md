@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Indicates the status of the protected session.
 old-location: display\d3dkmt-protected-session-status.htm
 ms.assetid: 87a7de73-5e94-4016-b760-f3501ead08ac
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_PROTECTED_SESSION_STATUS, D3DKMT_PROTECTED_SESSION_STATUS enumeration [Display Devices], D3DKMT_PROTECTED_SESSION_STATUS_INVALID, D3DKMT_PROTECTED_SESSION_STATUS_OK, _D3DKMT_PROTECTED_SESSION_STATUS, d3dkmthk/D3DKMT_PROTECTED_SESSION_STATUS, d3dkmthk/D3DKMT_PROTECTED_SESSION_STATUS_INVALID, d3dkmthk/D3DKMT_PROTECTED_SESSION_STATUS_OK, display.d3dkmt-protected-session-status
 ms.topic: enum
 req.header: d3dkmthk.h

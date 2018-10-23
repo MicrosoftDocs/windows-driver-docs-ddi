@@ -4,7 +4,7 @@ title: PFND3DKMT_DESTROYOUTPUTDUPL
 author: windows-driver-content
 description: The PFND3DKMT_DESTROYOUTPUTDUPL callback function destroys output duplicates.
 ms.assetid: 15c4451d-654d-4e69-b0ed-5d7e3a9b7c2f
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

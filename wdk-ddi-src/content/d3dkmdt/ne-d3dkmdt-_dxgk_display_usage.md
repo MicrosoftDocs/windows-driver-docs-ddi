@@ -6,7 +6,7 @@ description: Enum used to specify the display type being used.
 old-location: display\dxgk_display_usage.htm
 tech.root: display
 ms.assetid: 07B51679-4E9B-4360-AA4A-D5BD9BADB4FC
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*PDXGK_DISPLAY_USAGE, DXGK_DISPLAY_USAGE, DXGK_DISPLAY_USAGE enumeration [Display Devices], DXGK_DU_AR, DXGK_DU_GENERIC, DXGK_DU_INVALID, DXGK_DU_VR, PDXGK_DISPLAY_USAGE, PDXGK_DISPLAY_USAGE enumeration pointer [Display Devices], _DXGK_DISPLAY_USAGE, d3dkmdt/DXGK_DISPLAY_USAGE, d3dkmdt/DXGK_DU_AR, d3dkmdt/DXGK_DU_GENERIC, d3dkmdt/DXGK_DU_INVALID, d3dkmdt/DXGK_DU_VR, d3dkmdt/PDXGK_DISPLAY_USAGE, display.dxgk_display_usage"
 ms.topic: enum
 req.header: d3dkmdt.h

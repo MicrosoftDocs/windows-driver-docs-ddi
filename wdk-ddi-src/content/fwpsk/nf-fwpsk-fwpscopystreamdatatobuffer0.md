@@ -6,7 +6,7 @@ description: The FwpsCopyStreamDataToBuffer0 function copies stream data to a bu
 old-location: netvista\fwpscopystreamdatatobuffer0.htm
 tech.root: netvista
 ms.assetid: 758733a4-9657-48a4-bbcc-f266c72c1d6a
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FwpsCopyStreamDataToBuffer0, FwpsCopyStreamDataToBuffer0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCopyStreamDataToBuffer0, netvista.fwpscopystreamdatatobuffer0, wfp_ref_2_funct_3_fwps_C_dc46f99c-31e7-4e45-8f0b-fc3d0a96989e.xml
 ms.topic: function
 req.header: fwpsk.h

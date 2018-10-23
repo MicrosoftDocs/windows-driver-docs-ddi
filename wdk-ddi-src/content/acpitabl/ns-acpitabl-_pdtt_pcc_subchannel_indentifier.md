@@ -4,7 +4,7 @@ title: _PDTT_PCC_SUBCHANNEL_INDENTIFIER
 author: windows-driver-content
 description: Defines the Processor Properties Topology Table (PPTT) Platform Communication Channel (PCC) subchannel identifier structure.
 ms.assetid: 33cf9dd6-b0f3-450a-8e69-393c8f7796b6
-ms.date: 10/1/2018
+ms.date: 10/01/2018
 ms.topic: struct
 ms.keywords: _PDTT_PCC_SUBCHANNEL_INDENTIFIER, PDTT_PCC_SUBCHANNEL_INDENTIFIER, *PPDTT_PCC_SUBCHANNEL_INDENTIFIER, 
 req.header: acpitabl.h

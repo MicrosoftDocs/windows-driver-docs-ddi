@@ -6,7 +6,7 @@ description: The IWiaDrvItem::GetFirstChildItem method gets the first child item
 old-location: image\iwiadrvitem_getfirstchilditem.htm
 tech.root: image
 ms.assetid: 2e580a57-03cb-4ff4-b3c6-0b5ef17b4ccb
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: DrvItem_0ee76640-f07a-4b25-9955-230122a2a662.xml, GetFirstChildItem, GetFirstChildItem method [Imaging Devices], GetFirstChildItem method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],GetFirstChildItem method, IWiaDrvItem.GetFirstChildItem, IWiaDrvItem::GetFirstChildItem, image.iwiadrvitem_getfirstchilditem, wiamindr_lh/IWiaDrvItem::GetFirstChildItem
 ms.topic: method
 req.header: wiamindr_lh.h

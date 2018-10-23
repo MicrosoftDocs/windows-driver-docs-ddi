@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The pfnBeginQuery callback function defines the beginning of the portion of a command list to which a query applies.
 old-location: display\pfnd3d12ddi_begin_end_query_0003.htm
 ms.assetid: 9EBF7E0C-BF6D-4E99-B289-8C6581A2DEA5
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: PFND3D12DDI_BEGIN_END_QUERY_0003, PFND3D12DDI_BEGIN_END_QUERY_0003 callback, d3d12umddi/pfnBeginQuery, display.pfnd3d12ddi_begin_end_query_0003, pfnBeginQuery, pfnBeginQuery callback function [Display Devices]
 ms.topic: callback
 req.header: d3d12umddi.h

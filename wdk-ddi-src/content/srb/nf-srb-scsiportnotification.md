@@ -6,7 +6,7 @@ description: The ScsiPortNotification routine informs the operating system-speci
 old-location: storage\scsiportnotification.htm
 tech.root: storage
 ms.assetid: 27da3881-4c47-492c-868e-ce72210e9d6f
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ScsiPortNotification, ScsiPortNotification routine [Storage Devices], scsiprt_0e410e4a-e7bb-448b-9d4d-c2a5db63fe02.xml, srb/ScsiPortNotification, storage.scsiportnotification
 ms.topic: function
 req.header: srb.h

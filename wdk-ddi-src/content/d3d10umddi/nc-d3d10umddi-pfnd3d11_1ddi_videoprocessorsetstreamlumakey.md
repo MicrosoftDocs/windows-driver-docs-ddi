@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Sets the luma key for an input stream on the video processor.
 old-location: display\videoprocessorsetstreamlumakey.htm
 ms.assetid: 1b5ca40d-1836-4c80-af55-8d20c6792445
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMLUMAKEY, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMLUMAKEY callback, d3d10umddi/pfnVideoProcessorSetStreamLumaKey, display.videoprocessorsetstreamlumakey, pfnVideoProcessorSetStreamLumaKey, pfnVideoProcessorSetStreamLumaKey callback function [Display Devices]
 ms.topic: callback
 req.header: d3d10umddi.h

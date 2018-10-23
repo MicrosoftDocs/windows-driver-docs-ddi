@@ -4,7 +4,7 @@ title: _FILE_CASE_SENSITIVE_INFORMATION
 author: windows-driver-content
 description: The FILE_CASE_SENSITIVE_INFORMATION structure is used to query or set per-directory case-sensitive information.
 ms.assetid: 4a36d9b7-8ddf-4064-b0bc-d95d6c1fb360
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _FILE_CASE_SENSITIVE_INFORMATION, FILE_CASE_SENSITIVE_INFORMATION, *PFILE_CASE_SENSITIVE_INFORMATION, 
 req.header: ntifs.h

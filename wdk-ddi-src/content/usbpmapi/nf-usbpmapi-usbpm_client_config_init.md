@@ -4,7 +4,7 @@ title: USBPM_CLIENT_CONFIG_INIT function
 author: windows-driver-content
 description: Initializes a **USBPM_CLIENT_CONFIG** structure.
 ms.assetid: af50623f-d31a-47d9-b1dd-6472fd3bee04
-ms.date: 9/30/2018 
+ms.date: 09/30/2018
 ms.topic: function
 ms.keywords: USBPM_CLIENT_CONFIG_INIT
 tech.root: usbref

@@ -6,7 +6,7 @@ description: Called by the Microsoft Direct3D runtime to check the details on ha
 old-location: display\pfncheckmultiplaneoverlaysupport__d3d_.htm
 tech.root: display
 ms.assetid: A439E695-D374-439A-8A69-6D4E247FF134
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_CHECKMULTIPLANEOVERLAYSUPPORT, PFND3DDDI_CHECKMULTIPLANEOVERLAYSUPPORT (D3D) callback, d3dumddi/pfnCheckMultiPlaneOverlaySupport, display.pfncheckmultiplaneoverlaysupport__d3d_, pfnCheckMultiPlaneOverlaySupport, pfnCheckMultiPlaneOverlaySupport callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h

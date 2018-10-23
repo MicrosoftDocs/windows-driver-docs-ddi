@@ -6,7 +6,7 @@ description: The AVC_SUBUNIT_ADDR_SPEC structure is used with virtual instances 
 old-location: stream\avc_subunit_addr_spec.htm
 tech.root: stream
 ms.assetid: fa9fedc5-cacc-409a-99f5-7103b5424b3c
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PAVC_SUBUNIT_ADDR_SPEC, AVC_SUBUNIT_ADDR_SPEC, AVC_SUBUNIT_ADDR_SPEC structure [Streaming Media Devices], PAVC_SUBUNIT_ADDR_SPEC, PAVC_SUBUNIT_ADDR_SPEC structure pointer [Streaming Media Devices], _AVC_SUBUNIT_ADDR_SPEC, avc/AVC_SUBUNIT_ADDR_SPEC, avc/PAVC_SUBUNIT_ADDR_SPEC, avcref_56141f06-dd51-40cb-874a-ec136ec7683f.xml, stream.avc_subunit_addr_spec"
 ms.topic: struct
 req.header: avc.h
@@ -90,7 +90,7 @@ Informs Device Manager that the PDO list has changed. This causes a 1394 bus res
 
 ### -field SubunitAddress
 
-A Subunit Address encoded according to Section 5.3.3 of the AV/C Digital Interface Command Set General Specification, Rev 3.0. This specification can be found at the <a href="http://go.microsoft.com/fwlink/p/?linkid=8728">1394 Trade Association</a> website. The ID part (<b>SubunitAddress</b>[0] &amp; 0x7) represents the max ID (not the count of subunits), so to enumerate a single tuner subunit, you would specify 0x28 (0x5 &lt;&lt; 3). This struct supports extended subunit addresses (just allocate a bigger struct and pass the actual length with the IOCTL).
+A Subunit Address encoded according to Section 5.3.3 of the AV/C Digital Interface Command Set General Specification, Rev 3.0. This specification can be found at the <a href="https://go.microsoft.com/fwlink/p/?linkid=8728">1394 Trade Association</a> website. The ID part (<b>SubunitAddress</b>[0] &amp; 0x7) represents the max ID (not the count of subunits), so to enumerate a single tuner subunit, you would specify 0x28 (0x5 &lt;&lt; 3). This struct supports extended subunit addresses (just allocate a bigger struct and pass the actual length with the IOCTL).
 
 
 ## -see-also

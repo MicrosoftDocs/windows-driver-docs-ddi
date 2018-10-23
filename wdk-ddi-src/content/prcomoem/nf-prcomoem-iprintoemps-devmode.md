@@ -6,7 +6,7 @@ description: The IPrintOemPS::DevMode method, provided by rendering plug-ins for
 old-location: print\iprintoemps_devmode.htm
 tech.root: print
 ms.assetid: 72775113-435c-44cf-83e7-9aa62f7f252e
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: DevMode, DevMode method [Print Devices], DevMode method [Print Devices],IPrintOemPS interface, IPrintOemPS interface [Print Devices],DevMode method, IPrintOemPS.DevMode, IPrintOemPS::DevMode, prcomoem/IPrintOemPS::DevMode, print.iprintoemps_devmode, print_unidrv-pscript_rendering_d14a1c50-fd58-4c64-989d-3a7807cfd929.xml
 ms.topic: method
 req.header: prcomoem.h

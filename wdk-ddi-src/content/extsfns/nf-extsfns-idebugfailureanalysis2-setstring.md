@@ -6,7 +6,7 @@ description: The SetString method searches a DebugFailureAnalysis object for the
 old-location: debugger\idebugfailureanalysis2_setstring.htm
 tech.root: debugger
 ms.assetid: 38B63AFF-BE37-45FB-9FD2-A49F216E1B81
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging],SetString method, IDebugFailureAnalysis2.SetString, IDebugFailureAnalysis2::SetString, SetString, SetString method [Windows Debugging], SetString method [Windows Debugging],IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_setstring, extsfns/IDebugFailureAnalysis2::SetString
 ms.topic: method
 req.header: extsfns.h

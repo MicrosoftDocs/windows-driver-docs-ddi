@@ -4,7 +4,7 @@ title: NtCreateSectionEx function
 author: windows-driver-content
 description: Creates a section object.
 ms.assetid: a895e706-38c0-40d7-95b1-f1268af775c1
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: NtCreateSectionEx
 req.header: ntifs.h

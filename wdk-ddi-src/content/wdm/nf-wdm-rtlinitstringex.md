@@ -6,7 +6,7 @@ description: The RtlInitStringEx routine initializes a counted string of 8-bit c
 old-location: kernel\rtl_init_string_ex.htm
 tech.root: kernel
 ms.assetid: D59E6B78-2B51-4A5D-A9EA-E6D8DD90C374
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlInitString, RtlInitString routine [Kernel-Mode Driver Architecture], RtlInitStringEx, kernel.rtl_init_string_ex, wdm/RtlInitString
 ms.topic: function
 req.header: wdm.h

@@ -4,7 +4,7 @@ title: _D3DKMT_MIRACAST_DISPLAY_STOP_SESSIONS
 author: windows-driver-content
 description: Miracast display stop sessions.
 ms.assetid: 88f6fa1d-b381-4473-a1ed-6fb77484dec1
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_MIRACAST_DISPLAY_STOP_SESSIONS, D3DKMT_MIRACAST_DISPLAY_STOP_SESSIONS, *PD3DKMT_MIRACAST_DISPLAY_STOP_SESSIONS, 
 req.header: d3dkmthk.h

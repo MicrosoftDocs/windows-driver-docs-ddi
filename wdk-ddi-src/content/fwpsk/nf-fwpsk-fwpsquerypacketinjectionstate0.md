@@ -6,7 +6,7 @@ description: The FwpsQueryPacketInjectionState0 function is called by a callout 
 old-location: netvista\fwpsquerypacketinjectionstate0.htm
 tech.root: netvista
 ms.assetid: 785d99a5-a8c9-4763-bdd4-e26f604f6be7
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FwpsQueryPacketInjectionState0, FwpsQueryPacketInjectionState0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsQueryPacketInjectionState0, netvista.fwpsquerypacketinjectionstate0, wfp_ref_2_funct_3_fwps_J-Q_2eb3c709-15f8-46de-a55d-b4e99c085740.xml
 ms.topic: function
 req.header: fwpsk.h

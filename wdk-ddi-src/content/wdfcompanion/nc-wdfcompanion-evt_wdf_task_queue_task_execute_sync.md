@@ -6,7 +6,7 @@ description: For internal use only.
 old-location: wdf\evt_wdf_task_queue_task_execute_sync.htm
 tech.root: wdf
 ms.assetid: c45d1873-fb29-49ee-b99b-09861478ac89
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC, EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC callback, EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC callback function, wdf.evt_wdf_task_queue_task_execute_sync, wdfcompanion/EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC
 ms.topic: callback
 req.header: wdfcompanion.h

@@ -4,7 +4,7 @@ title: _TR_SECURE_SERVICE_CALLBACKS_V1
 author: windows-driver-content
 description: 
 ms.assetid: 98ba0d88-2267-4c26-b7f0-89c8f05f0a92
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _TR_SECURE_SERVICE_CALLBACKS_V1, TR_SECURE_SERVICE_CALLBACKS_V1, *PTR_SECURE_SERVICE_CALLBACKS_V1, TR_SECURE_SERVICE_CALLBACKS, *PTR_SECURE_SERVICE_CALLBACKS
 req.header: trustedruntimeclx.h

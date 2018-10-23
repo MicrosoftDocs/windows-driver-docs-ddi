@@ -6,7 +6,7 @@ description: "."
 old-location: nfpdrivers\nfccx_driver_globals.htm
 tech.root: nfpdrivers
 ms.assetid: 3B84B227-7155-4FA2-A224-1317D103F5C3
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PNFCCX_DRIVER_GLOBALS, NFCCX_DRIVER_GLOBALS, NFCCX_DRIVER_GLOBALS structure [Near-Field Proximity Drivers], PNFCCX_DRIVER_GLOBALS, PNFCCX_DRIVER_GLOBALS structure pointer [Near-Field Proximity Drivers], _NFCCX_DRIVER_GLOBALS, nfccx/NFCCX_DRIVER_GLOBALS, nfccx/PNFCCX_DRIVER_GLOBALS, nfpdrivers.nfccx_driver_globals"
 ms.topic: struct
 req.header: nfccx.h
@@ -67,7 +67,7 @@ req.typenames: NFCCX_DRIVER_GLOBALS, *PNFCCX_DRIVER_GLOBALS
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
  
 
  

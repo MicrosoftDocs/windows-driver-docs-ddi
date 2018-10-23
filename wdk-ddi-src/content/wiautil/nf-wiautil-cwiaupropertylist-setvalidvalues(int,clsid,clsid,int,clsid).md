@@ -6,7 +6,7 @@ description: The CWiauPropertyList::SetValidValues(INT,CLSID,CLSID,INT,CLSID) me
 old-location: image\cwiaupropertylist_setvalidvalues_clsid__list_.htm
 tech.root: image
 ms.assetid: d401ed85-de6b-4758-b7c4-d6fcd59c157e
-ms.date: 9/7/2018
+ms.date: 09/07/2018
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,CLSID,CLSID,INT,CLSID), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(INT,CLSID*,CLSID*,INT,CLSID**), CWiauPropertyList::SetValidValues(INT,CLSID,CLSID,INT,CLSID), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, SetValidValues(CLSID,(CWiauPropertyList), image.cwiaupropertylist_setvalidvalues_clsid__list_, wiauFncs_fb681759-0ab5-47ba-8e35-4a0a8d28e52f.xml, wiautil/CWiauPropertyList::SetValidValues
 ms.topic: method
 req.header: wiautil.h

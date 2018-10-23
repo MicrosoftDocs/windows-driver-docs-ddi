@@ -6,7 +6,7 @@ description: The NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS structure specifies
 old-location: netvista\ndis_shared_memory_provider_characteristics.htm
 tech.root: netvista
 ms.assetid: 45001da1-5fe3-4383-8da7-31e3ee115c1f
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, ndis/NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, ndis/PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, ndis_shared_memory_ref_0cb54ab1-d469-4fa0-833a-eb17e1441e76.xml, netvista.ndis_shared_memory_provider_characteristics"
 ms.topic: struct
 req.header: ndis.h

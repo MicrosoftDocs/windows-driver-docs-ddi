@@ -6,7 +6,7 @@ description: The NdkDeregisterMr (NDK_FN_DEREGISTER_MR) function deregisters a m
 old-location: netvista\ndk_fn_deregister_mr.htm
 tech.root: netvista
 ms.assetid: 6446F3A6-550D-4498-87CF-B6FE50C67BBE
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_FN_DEREGISTER_MR, NDK_FN_DEREGISTER_MR callback, NdkDeregisterMr, NdkDeregisterMr callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkDeregisterMr, netvista.ndk_fn_deregister_mr
 ms.topic: callback
 req.header: ndkpi.h

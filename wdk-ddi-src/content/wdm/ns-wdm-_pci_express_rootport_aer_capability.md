@@ -6,7 +6,7 @@ description: The PCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure describes a PCI E
 old-location: pci\pci_express_rootport_aer_capability.htm
 tech.root: PCI
 ms.assetid: 19272158-96bb-4efa-b32b-f8848d01bad1
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: "*PPCI_EXPRESS_ROOTPORT_AER_CAPABILITY, PCI.pci_express_rootport_aer_capability, PCI_EXPRESS_ROOTPORT_AER_CAPABILITY, PCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure [Buses], PPCI_EXPRESS_ROOTPORT_AER_CAPABILITY, PPCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure pointer [Buses], _PCI_EXPRESS_ROOTPORT_AER_CAPABILITY, pci_struct_f65551d3-2213-468e-aa94-508b29c11844.xml, wdm/PCI_EXPRESS_ROOTPORT_AER_CAPABILITY, wdm/PPCI_EXPRESS_ROOTPORT_AER_CAPABILITY"
 ms.topic: struct
 req.header: wdm.h
@@ -143,7 +143,7 @@ PCIe bridge devices use the <a href="https://msdn.microsoft.com/library/windows/
 
 All other PCIe devices and ports that are not root ports or root complex event collectors use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a> structure instead of the PCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure to describe the PCIe advanced error reporting capability structure.
 
-For additional information about the PCIe advanced error reporting capability structure, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=69486">PCI Express Specification</a>.
+For additional information about the PCIe advanced error reporting capability structure, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=69486">PCI Express Specification</a>.
 
 
 

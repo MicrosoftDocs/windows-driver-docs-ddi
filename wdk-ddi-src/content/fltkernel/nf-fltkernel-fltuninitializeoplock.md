@@ -6,7 +6,7 @@ description: FltUninitializeOplock uninitializes an opportunistic lock (oplock) 
 old-location: ifsk\fltuninitializeoplock.htm
 tech.root: ifsk
 ms.assetid: 6379014a-f9bc-4e86-93da-83d90f009a3b
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_d759e280-7507-44ae-8155-578320562c8b.xml, FltUninitializeOplock, FltUninitializeOplock function [Installable File System Drivers], fltkernel/FltUninitializeOplock, ifsk.fltuninitializeoplock
 ms.topic: function
 req.header: fltkernel.h

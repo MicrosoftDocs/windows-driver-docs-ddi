@@ -6,7 +6,7 @@ description: The WSK_PROVIDER_CHARACTERISTICS structure specifies the characteri
 old-location: netvista\wsk_provider_characteristics.htm
 tech.root: netvista
 ms.assetid: 25371620-23bb-4a98-9554-14057742b0ca
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWSK_PROVIDER_CHARACTERISTICS, PWSK_PROVIDER_CHARACTERISTICS, PWSK_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], WSK_PROVIDER_CHARACTERISTICS, WSK_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], _WSK_PROVIDER_CHARACTERISTICS, netvista.wsk_provider_characteristics, wsk/PWSK_PROVIDER_CHARACTERISTICS, wsk/WSK_PROVIDER_CHARACTERISTICS, wskref_f552c7d1-89a7-4cb6-aa7c-5f5ddb906deb.xml"
 ms.topic: struct
 req.header: wsk.h

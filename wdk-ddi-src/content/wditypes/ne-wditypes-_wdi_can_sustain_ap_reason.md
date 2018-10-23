@@ -6,7 +6,7 @@ description: The WDI_CAN_SUSTAIN_AP_REASON enumeration defines the reasons the p
 old-location: netvista\wdi_can_sustain_ap_reason.htm
 tech.root: netvista
 ms.assetid: 9AAE4B3F-7C5C-457D-9388-63E6E6AB8A2E
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: WDI_CAN_SUSTAIN_AP_REASON, WDI_CAN_SUSTAIN_AP_REASON enumeration [Network Drivers Starting with Windows Vista], WDI_CAN_SUSTAIN_AP_REASON_IHV_END, WDI_CAN_SUSTAIN_AP_REASON_IHV_START, _WDI_CAN_SUSTAIN_AP_REASON, netvista.wdi_can_sustain_ap_reason, wditypes/WDI_CAN_SUSTAIN_AP_REASON, wditypes/WDI_CAN_SUSTAIN_AP_REASON_IHV_END, wditypes/WDI_CAN_SUSTAIN_AP_REASON_IHV_START
 ms.topic: enum
 req.header: wditypes.hpp

@@ -6,7 +6,7 @@ description: The ControlledOutput method formats a string and sends the result t
 old-location: debugger\controlledoutput.htm
 tech.root: debugger
 ms.assetid: d1a4aba3-9567-4d8e-980c-f6a85f54870e
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ControlledOutput, ControlledOutput method [Windows Debugging], ControlledOutput method [Windows Debugging],IDebugControl interface, ControlledOutput method [Windows Debugging],IDebugControl2 interface, ControlledOutput method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],ControlledOutput method, IDebugControl2 interface [Windows Debugging],ControlledOutput method, IDebugControl2::ControlledOutput, IDebugControl3 interface [Windows Debugging],ControlledOutput method, IDebugControl3.ControlledOutput, IDebugControl3::ControlledOutput, IDebugControl::ControlledOutput, IDebugControl_b35fb81f-3425-4a39-8c80-b6e8a161ba71.xml, dbgeng/IDebugControl2::ControlledOutput, dbgeng/IDebugControl3::ControlledOutput, dbgeng/IDebugControl::ControlledOutput, debugger.controlledoutput
 ms.topic: method
 req.header: dbgeng.h

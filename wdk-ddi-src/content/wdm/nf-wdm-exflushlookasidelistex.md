@@ -6,7 +6,7 @@ description: The ExFlushLookasideListEx routine flushes all entries from the spe
 old-location: kernel\exflushlookasidelistex.htm
 tech.root: kernel
 ms.assetid: 38601573-750f-46fc-ae04-cef0d90d9ea9
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExFlushLookasideListEx, ExFlushLookasideListEx routine [Kernel-Mode Driver Architecture], k102_bb02a725-bc22-4c22-91f2-0232c1cb0f1f.xml, kernel.exflushlookasidelistex, wdm/ExFlushLookasideListEx
 ms.topic: function
 req.header: wdm.h

@@ -4,7 +4,7 @@ title: _DXGK_ADAPTER_PERFDATACAPS
 author: windows-driver-content
 description: The physical adapter index in a LDA chain.
 ms.assetid: 4193f977-8617-4c1a-965b-040633d29eb3
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGK_ADAPTER_PERFDATACAPS, DXGK_ADAPTER_PERFDATACAPS,
 req.header: d3dkmdt.h

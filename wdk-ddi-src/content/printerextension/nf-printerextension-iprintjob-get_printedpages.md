@@ -6,7 +6,7 @@ description: Gets the number of pages that have been printed.
 old-location: print\iprintjob_printedpages.htm
 tech.root: print
 ms.assetid: 37F09500-1EDB-459D-8845-789734081B0C
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintJob interface [Print Devices],PrintedPages property, IPrintJob.PrintedPages, IPrintJob.get_PrintedPages, IPrintJob::PrintedPages, IPrintJob::get_PrintedPages, PrintedPages property [Print Devices], PrintedPages property [Print Devices],IPrintJob interface, get_PrintedPages, print.iprintjob_printedpages, printerextension/IPrintJob::PrintedPages, printerextension/IPrintJob::get_PrintedPages
 ms.topic: method
 req.header: printerextension.h

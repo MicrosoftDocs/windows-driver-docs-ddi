@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The D3DKMT_PRESENTHISTORYTOKEN structure identifies a type of present operation.
 old-location: display\d3dkmt_presenthistorytoken.htm
 ms.assetid: d3571412-d853-496b-a651-2c8860a28e9d
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_PRESENTHISTORYTOKEN, D3DKMT_PRESENTHISTORYTOKEN structure [Display Devices], OpenGL_Structs_6a454620-8217-4119-bbdd-4caa83169e27.xml, _D3DKMT_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_PRESENTHISTORYTOKEN, display.d3dkmt_presenthistorytoken
 ms.topic: struct
 req.header: d3dkmthk.h

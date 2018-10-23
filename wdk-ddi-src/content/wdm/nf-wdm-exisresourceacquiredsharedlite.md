@@ -6,7 +6,7 @@ description: The ExIsResourceAcquiredSharedLite routine returns whether the curr
 old-location: kernel\exisresourceacquiredsharedlite.htm
 tech.root: kernel
 ms.assetid: e87a4078-dbd4-4df2-bbfb-efbf76fc6279
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExIsResourceAcquiredLite, ExIsResourceAcquiredSharedLite, ExIsResourceAcquiredSharedLite routine [Kernel-Mode Driver Architecture], k102_e1ae158d-fd02-4962-813f-7bd87943f033.xml, kernel.exisresourceacquiredsharedlite, wdm/ExIsResourceAcquiredSharedLite
 ms.topic: function
 req.header: wdm.h

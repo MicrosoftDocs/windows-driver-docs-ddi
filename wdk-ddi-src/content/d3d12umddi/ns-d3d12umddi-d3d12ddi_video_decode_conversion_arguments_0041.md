@@ -4,7 +4,7 @@ title: D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0041
 author: windows-driver-content
 description: Specifies the arguments for decode output conversion.
 ms.assetid: a7539a5e-e16b-48d9-b731-e55c2514ac66
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0041, D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0041,
 req.header: d3d12umddi.h

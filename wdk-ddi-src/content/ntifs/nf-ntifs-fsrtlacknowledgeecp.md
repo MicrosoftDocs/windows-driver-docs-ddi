@@ -6,7 +6,7 @@ description: The FsRtlAcknowledgeEcp routine marks an extra create parameter (EC
 old-location: ifsk\fsrtlacknowledgeecp.htm
 tech.root: ifsk
 ms.assetid: 1f91c2ef-300d-43f5-8d2c-d4f2fd326915
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlAcknowledgeEcp, FsRtlAcknowledgeEcp routine [Installable File System Drivers], fsrtlref_2c3b8577-e61e-4ff3-9443-b3838077d762.xml, ifsk.fsrtlacknowledgeecp, ntifs/FsRtlAcknowledgeEcp
 ms.topic: function
 req.header: ntifs.h

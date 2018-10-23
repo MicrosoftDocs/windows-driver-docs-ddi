@@ -6,7 +6,7 @@ description: The ExDeleteTimer routine deletes a timer object that was previousl
 old-location: kernel\exdeletetimer.htm
 tech.root: kernel
 ms.assetid: CE0C1D49-1505-464E-90DB-2C6D30C04EC1
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExDeleteTimer, ExDeleteTimer routine [Kernel-Mode Driver Architecture], kernel.exdeletetimer, wdm/ExDeleteTimer
 ms.topic: function
 req.header: wdm.h

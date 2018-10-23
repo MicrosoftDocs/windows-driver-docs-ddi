@@ -6,7 +6,7 @@ description: The AppendTailList routine appends a doubly linked list of LIST_ENT
 old-location: kernel\appendtaillist.htm
 tech.root: kernel
 ms.assetid: A7C7FBE5-9046-48C7-AEE6-85C17CDE83AD
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: AppendTailList, AppendTailList routine [Kernel-Mode Driver Architecture], kernel.appendtaillist, wdm/AppendTailList
 ms.topic: function
 req.header: wdm.h

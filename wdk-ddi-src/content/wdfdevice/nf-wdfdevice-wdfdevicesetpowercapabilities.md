@@ -6,7 +6,7 @@ description: The WdfDeviceSetPowerCapabilities method reports a device's power c
 old-location: wdf\wdfdevicesetpowercapabilities.htm
 tech.root: wdf
 ms.assetid: e04558e3-a95a-408b-961b-e8ea7ac9136d
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_d3d51bfe-62da-4146-b4c1-152cac9f0e82.xml, WdfDeviceSetPowerCapabilities, WdfDeviceSetPowerCapabilities method, kmdf.wdfdevicesetpowercapabilities, wdf.wdfdevicesetpowercapabilities, wdfdevice/WdfDeviceSetPowerCapabilities
 ms.topic: function
 req.header: wdfdevice.h

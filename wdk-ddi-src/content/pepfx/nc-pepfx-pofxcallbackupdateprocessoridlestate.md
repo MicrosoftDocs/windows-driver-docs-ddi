@@ -6,7 +6,7 @@ description: The UpdateProcessorIdleState routine is called by the platform exte
 old-location: kernel\updateprocessoridlestate.htm
 tech.root: kernel
 ms.assetid: 023A2637-A79A-4ADE-B54C-646CBDDF08B8
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: POFXCALLBACKUPDATEPROCESSORIDLESTATE, UpdateProcessorIdleState, UpdateProcessorIdleState routine [Kernel-Mode Driver Architecture], kernel.updateprocessoridlestate, pepfx/UpdateProcessorIdleState
 ms.topic: callback
 req.header: pepfx.h

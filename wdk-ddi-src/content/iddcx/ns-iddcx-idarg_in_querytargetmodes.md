@@ -6,7 +6,7 @@ description: Gives information about the target modes associated with a monitor.
 old-location: display\idarg_in_querytargetmodes.htm
 tech.root: display
 ms.assetid: 4eeadee1-ac2a-46f5-88e0-fe8d3db3dcf1
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IDARG_IN_QUERYTARGETMODES, IDARG_IN_QUERYTARGETMODES structure [Display Devices], display.idarg_in_querytargetmodes, iddcx/IDARG_IN_QUERYTARGETMODES
 ms.topic: struct
 req.header: iddcx.h

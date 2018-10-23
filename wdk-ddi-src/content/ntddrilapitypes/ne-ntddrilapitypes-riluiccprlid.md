@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\riluiccprlid.htm
 tech.root: netvista
 ms.assetid: fab3455a-c09f-4a08-a76d-4d80468accd2
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILUICCPRLID, RILUICCPRLID enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccprlid, ntddrilapitypes/RILUICCPRLID
 ms.topic: enum
 req.header: ntddrilapitypes.h

@@ -4,7 +4,7 @@ title: EBranchOfficeJobEventType
 author: windows-driver-content
 description: 
 ms.assetid: ebdd9f97-f005-4eb7-bb36-34fe7965829e
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: EBranchOfficeJobEventType, EBranchOfficeJobEventType, 
 req.header: winsplp.h

@@ -6,7 +6,7 @@ description: The FltGetVolumeInformation routine provides information about a gi
 old-location: ifsk\fltgetvolumeinformation.htm
 tech.root: ifsk
 ms.assetid: e25a7114-c1e5-4432-82a1-4c2e82d9fbc6
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_79337a57-aa20-42b8-a85b-8268ef108564.xml, FltGetVolumeInformation, FltGetVolumeInformation routine [Installable File System Drivers], fltkernel/FltGetVolumeInformation, ifsk.fltgetvolumeinformation
 ms.topic: function
 req.header: fltkernel.h

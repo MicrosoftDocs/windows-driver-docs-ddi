@@ -6,7 +6,7 @@ description: The BOOT_AREA_INFO structure contains the output for the FSCTL_GET_
 old-location: ifsk\boot_area_info.htm
 tech.root: ifsk
 ms.assetid: 9f092940-b8be-4d28-b82c-d169abefe5d9
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PBOOT_AREA_INFO, BOOT_AREA_INFO, BOOT_AREA_INFO structure [Installable File System Drivers], PBOOT_AREA_INFO, PBOOT_AREA_INFO structure pointer [Installable File System Drivers], _BOOT_AREA_INFO, ifsk.boot_area_info, ntifs/BOOT_AREA_INFO, ntifs/PBOOT_AREA_INFO"
 ms.topic: struct
 req.header: ntifs.h

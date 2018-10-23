@@ -6,7 +6,7 @@ description: Returns a referenced static streams object for the specified endpoi
 old-location: buses\_ucxendpointgetstaticstreamsreferenced.htm
 tech.root: usbref
 ms.assetid: A9AB43A9-1409-4AA4-99DE-66D558F2303C
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UcxEndpointGetStaticStreamsReferenced, UcxEndpointGetStaticStreamsReferenced method [Buses], buses._ucxendpointgetstaticstreamsreferenced, ucxendpoint/UcxEndpointGetStaticStreamsReferenced
 ms.topic: function
 req.header: ucxendpoint.h

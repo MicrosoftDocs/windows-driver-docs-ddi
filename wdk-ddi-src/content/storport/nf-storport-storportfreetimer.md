@@ -6,7 +6,7 @@ description: Frees a Storport timer context object previously created by the Sto
 old-location: storage\storportfreetimer.htm
 tech.root: storage
 ms.assetid: AF6B1693-6242-4F09-8226-472E75B809F3
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortFreeTimer, StorPortFreeTimer routine [Storage Devices], storage.storportfreetimer, storport/StorPortFreeTimer
 ms.topic: function
 req.header: storport.h

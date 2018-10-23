@@ -6,7 +6,7 @@ description: "."
 old-location: storage\hba_registerlibrary.htm
 tech.root: storage
 ms.assetid: 69db5293-c791-4b34-9e1f-995bd522d517
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_RegisterLibrary, HBA_RegisterLibrary function [Storage Devices], fibreHBA_rtns_94aba974-ec82-48b1-8ba4-0456432269cd.xml, hbaapi/HBA_RegisterLibrary, storage.hba_registerlibrary
 ms.topic: function
 req.header: hbaapi.h

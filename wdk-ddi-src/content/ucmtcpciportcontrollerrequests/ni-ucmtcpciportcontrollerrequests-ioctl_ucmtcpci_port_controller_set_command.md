@@ -6,7 +6,7 @@ description: Sets the value of a command register defined as per the Universal S
 old-location: buses\ioctl_ucmtcpci_port_controller_set_command.htm
 tech.root: usbref
 ms.assetid: 0E481454-583C-4E2B-B4F2-C9E72B1D3DCC
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_COMMAND, IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_COMMAND control, IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_COMMAND control code [Buses], buses.ioctl_ucmtcpci_port_controller_set_command, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_COMMAND
 ms.topic: ioctl
 req.header: ucmtcpciportcontrollerrequests.h

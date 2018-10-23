@@ -6,7 +6,7 @@ description: IKeywordDetectorOemAdapter is a Component Object Model (COM) interf
 old-location: audio\ikeyworddetectoroemadapter.htm
 tech.root: audio
 ms.assetid: FB243792-C0B0-4BCA-B4C4-B6E17FDB615C
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IKeywordDetectorOemAdapter, IKeywordDetectorOemAdapter interface [Audio Devices], IKeywordDetectorOemAdapter interface [Audio Devices],described, audio.ikeyworddetectoroemadapter, keyworddetectoroemadapter/IKeywordDetectorOemAdapter
 ms.topic: interface
 req.header: keyworddetectoroemadapter.h

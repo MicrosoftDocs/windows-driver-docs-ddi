@@ -6,7 +6,7 @@ description: The IOCTL_BTHHFP_STREAM_OPEN IOCTL requests an open synchronous con
 old-location: audio\ioctl_bthhfp_stream_open.htm
 tech.root: audio
 ms.assetid: 67F42694-C6E1-458E-AE5F-7E3678F55A8B
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IOCTL_BTHHFP_STREAM_OPEN, IOCTL_BTHHFP_STREAM_OPEN control, IOCTL_BTHHFP_STREAM_OPEN control code [Audio Devices], audio.ioctl_bthhfp_stream_open, bthhfpddi/IOCTL_BTHHFP_STREAM_OPEN
 ms.topic: ioctl
 req.header: bthhfpddi.h

@@ -6,7 +6,7 @@ description: The SerCx2SystemDmaReceiveInitializeTransactionComplete method noti
 old-location: serports\sercx2systemdmareceiveinitializetransactioncomplete.htm
 tech.root: serports
 ms.assetid: B65DC4AD-FB24-4F1D-A1E9-F9B38160908E
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SerCx2SystemDmaReceiveInitializeTransactionComplete, SerCx2SystemDmaReceiveInitializeTransactionComplete, SerCx2SystemDmaReceiveInitializeTransactionComplete method [Serial Ports], serports.sercx2systemdmareceiveinitializetransactioncomplete
 ms.topic: function
 req.header: sercx.h

@@ -6,7 +6,7 @@ description: The WppRecorderLogSetIdentifier method sets a string identifier for
 old-location: devtest\wpprecorderlogsetidentifier.htm
 tech.root: devtest
 ms.assetid: E2687B3C-2BCF-4764-99E0-4495296F14C4
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: WppRecorderLogSetIdentifier, devtest.wpprecorderlogsetidentifier, imp_WppRecorderLogSetIdentifier, imp_WppRecorderLogSetIdentifier function [Driver Development Tools], wpprecorder/imp_WppRecorderLogSetIdentifier
 ms.topic: macro
 req.header: wpprecorder.h

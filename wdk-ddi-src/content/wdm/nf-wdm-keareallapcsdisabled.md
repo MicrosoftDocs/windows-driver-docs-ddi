@@ -6,7 +6,7 @@ description: The KeAreAllApcsDisabled routine indicates whether the calling thre
 old-location: kernel\keareallapcsdisabled.htm
 tech.root: kernel
 ms.assetid: b4b57819-e2c9-4ac3-989e-c5e064f7487b
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeAreAllApcsDisabled, KeAreAllApcsDisabled routine [Kernel-Mode Driver Architecture], k105_91675ec9-bef3-4ef8-9403-14999e018745.xml, kernel.keareallapcsdisabled, wdm/KeAreAllApcsDisabled
 ms.topic: function
 req.header: wdm.h

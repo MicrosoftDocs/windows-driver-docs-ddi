@@ -6,7 +6,7 @@ description: The EndSymbolMatch method releases the resources used by a symbol s
 old-location: debugger\endsymbolmatch.htm
 tech.root: debugger
 ms.assetid: 02cc9db2-173a-4d5d-a465-098391336100
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EndSymbolMatch, EndSymbolMatch method [Windows Debugging], EndSymbolMatch method [Windows Debugging],IDebugSymbols interface, EndSymbolMatch method [Windows Debugging],IDebugSymbols2 interface, EndSymbolMatch method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],EndSymbolMatch method, IDebugSymbols.EndSymbolMatch, IDebugSymbols2 interface [Windows Debugging],EndSymbolMatch method, IDebugSymbols2::EndSymbolMatch, IDebugSymbols3 interface [Windows Debugging],EndSymbolMatch method, IDebugSymbols3::EndSymbolMatch, IDebugSymbols::EndSymbolMatch, IDebugSymbols_1661cc8a-ad5c-4cd3-83fe-f829bd07e453.xml, dbgeng/IDebugSymbols2::EndSymbolMatch, dbgeng/IDebugSymbols3::EndSymbolMatch, dbgeng/IDebugSymbols::EndSymbolMatch, debugger.endsymbolmatch
 ms.topic: method
 req.header: dbgeng.h

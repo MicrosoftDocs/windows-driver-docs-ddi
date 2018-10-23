@@ -4,7 +4,7 @@ title: _TREE_RPMB_COMMAND_INPUT
 author: windows-driver-content
 description: 
 ms.assetid: 02bed615-68e5-48aa-8775-8382495002df
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _TREE_RPMB_COMMAND_INPUT, TREE_RPMB_COMMAND_INPUT, *PTREE_RPMB_COMMAND_INPUT, 
 req.header: treerpmbservice.h

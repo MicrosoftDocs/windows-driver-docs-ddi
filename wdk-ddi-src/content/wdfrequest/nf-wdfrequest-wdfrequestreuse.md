@@ -6,7 +6,7 @@ description: The WdfRequestReuse method reinitializes a framework request object
 old-location: wdf\wdfrequestreuse.htm
 tech.root: wdf
 ms.assetid: 3d649cc5-6512-432c-9bd9-60e18507a873
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_8815216b-4632-4cc8-8afd-c4b1412ddbad.xml, WdfRequestReuse, WdfRequestReuse method, kmdf.wdfrequestreuse, wdf.wdfrequestreuse, wdfrequest/WdfRequestReuse
 ms.topic: function
 req.header: wdfrequest.h

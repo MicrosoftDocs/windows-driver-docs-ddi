@@ -6,7 +6,7 @@ description: Filter drivers call the NdisFDirectOidRequestComplete function to r
 old-location: netvista\ndisfdirectoidrequestcomplete.htm
 tech.root: netvista
 ms.assetid: b6b4d4f4-63d5-496c-9082-f2e8d1a174ec
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisFDirectOidRequestComplete, NdisFDirectOidRequestComplete function [Network Drivers Starting with Windows Vista], ndis/NdisFDirectOidRequestComplete, ndis_request_direct_ref_b61f2fdf-0fb8-4df8-8637-a4db671d008f.xml, netvista.ndisfdirectoidrequestcomplete
 ms.topic: function
 req.header: ndis.h

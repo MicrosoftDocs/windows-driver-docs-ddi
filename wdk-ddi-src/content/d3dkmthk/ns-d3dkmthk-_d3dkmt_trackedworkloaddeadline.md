@@ -4,7 +4,7 @@ title: _D3DKMT_TRACKEDWORKLOADDEADLINE
 author: windows-driver-content
 description: Arguments used to set the tracked workload deadline.
 ms.assetid: 96ac46b8-5328-4196-8ced-b5aaf869abdf
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_TRACKEDWORKLOADDEADLINE, D3DKMT_TRACKEDWORKLOADDEADLINE, 
 req.header: d3dkmthk.h

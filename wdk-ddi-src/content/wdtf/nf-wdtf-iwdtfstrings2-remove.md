@@ -6,7 +6,7 @@ description: Removes a string from the collection.
 old-location: dtf\iwdtfstrings2_remove.htm
 tech.root: dtf
 ms.assetid: cd32b54a-57e0-496c-b18c-84a6c75d8820
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFStrings2 interface [Windows Device Testing Framework],Remove method, IWDTFStrings2.Remove, IWDTFStrings2::Remove, Microsoft.WDTF.IWDTFStrings2.Remove, Microsoft::WDTF::IWDTFStrings2::Remove, Remove, Remove method [Windows Device Testing Framework], Remove method [Windows Device Testing Framework],IWDTFStrings2 interface, dtf.iwdtfstrings2_remove, wdtf/IWDTFStrings2::Remove
 ms.topic: method
 req.header: wdtf.h

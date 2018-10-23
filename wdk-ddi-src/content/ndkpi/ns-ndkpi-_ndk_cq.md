@@ -6,7 +6,7 @@ description: The NDK_CQ structure specifies the attributes of an NDK completion 
 old-location: netvista\ndk_cq.htm
 tech.root: netvista
 ms.assetid: FE5E1E5F-3EEC-4FF4-B275-E2B086ADCDCC
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_CQ, NDK_CQ structure [Network Drivers Starting with Windows Vista], PNDK_CQ, PNDK_CQ structure pointer [Network Drivers Starting with Windows Vista], _NDK_CQ, ndkpi/NDK_CQ, ndkpi/PNDK_CQ, netvista.ndk_cq
 ms.topic: struct
 req.header: ndkpi.h

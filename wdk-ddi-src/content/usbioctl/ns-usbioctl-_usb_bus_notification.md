@@ -4,7 +4,7 @@ title: _USB_BUS_NOTIFICATION
 author: windows-driver-content
 description: 
 ms.assetid: c6982976-fd7f-4be2-9c2f-f7e2fb8a6260
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _USB_BUS_NOTIFICATION, USB_BUS_NOTIFICATION, *PUSB_BUS_NOTIFICATION, 
 req.header: usbioctl.h

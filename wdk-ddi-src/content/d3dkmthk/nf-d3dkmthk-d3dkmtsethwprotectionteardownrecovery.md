@@ -4,7 +4,7 @@ title: D3DKMTSetHwProtectionTeardownRecovery function
 author: windows-driver-content
 description: Sets the hardware protection tear down recovery.
 ms.assetid: 9a3f4fb2-ba8a-4aa9-80f5-76eecafdf515
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTSetHwProtectionTeardownRecovery
 req.header: d3dkmthk.h

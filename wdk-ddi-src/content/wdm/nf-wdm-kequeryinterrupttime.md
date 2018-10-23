@@ -6,7 +6,7 @@ description: The KeQueryInterruptTime routine returns the current value of the s
 old-location: kernel\kequeryinterrupttime.htm
 tech.root: kernel
 ms.assetid: 88c87b11-b34f-43b3-b08e-940abaa23a27
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeQueryInterruptTime, KeQueryInterruptTime routine [Kernel-Mode Driver Architecture], k105_a87c40d1-b9be-42f1-ada4-6e0fb3d33220.xml, kernel.kequeryinterrupttime, wdm/KeQueryInterruptTime
 ms.topic: function
 req.header: wdm.h
@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>KeQueryInterruptTime</b> routine returns the current value of the system <a href="http://go.microsoft.com/fwlink/p/?linkid=201082">interrupt time</a> count, with accuracy to within system clock tick.
+The <b>KeQueryInterruptTime</b> routine returns the current value of the system <a href="https://go.microsoft.com/fwlink/p/?linkid=201082">interrupt time</a> count, with accuracy to within system clock tick.
 
 
 ## -parameters

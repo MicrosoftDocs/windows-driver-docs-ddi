@@ -6,7 +6,7 @@ description: DirectX 9.0 and later versions only. The D3DHAL_DP2CREATEVERTEXSHAD
 old-location: display\d3dhal_dp2createvertexshaderfunc.htm
 tech.root: display
 ms.assetid: 2b7456e5-a6fa-42bf-aace-21d555c3e821
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_DP2CREATEVERTEXSHADERFUNC, D3DHAL_DP2CREATEVERTEXSHADERFUNC, D3DHAL_DP2CREATEVERTEXSHADERFUNC structure [Display Devices], LPD3DHAL_DP2CREATEVERTEXSHADERFUNC, LPD3DHAL_DP2CREATEVERTEXSHADERFUNC structure pointer [Display Devices], _D3DHAL_DP2CREATEVERTEXSHADERFUNC, d3dhal/D3DHAL_DP2CREATEVERTEXSHADERFUNC, d3dhal/LPD3DHAL_DP2CREATEVERTEXSHADERFUNC, d3dstrct_cb83183c-18cc-4e11-814f-2b50836cbe39.xml, display.d3dhal_dp2createvertexshaderfunc"
 ms.topic: struct
 req.header: d3dhal.h

@@ -6,7 +6,7 @@ description: pfnSubmitCommandCb is used to submit command buffers on contexts th
 old-location: display\pfnsubmitcommandcb.htm
 tech.root: display
 ms.assetid: 60300845-9050-4D0A-83D1-76A45EA823C1
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SUBMITCOMMANDCB, PFND3DDDI_SUBMITCOMMANDCB callback, d3dumddi/pfnSubmitCommandCb, display.pfnsubmitcommandcb, pfnSubmitCommandCb, pfnSubmitCommandCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h

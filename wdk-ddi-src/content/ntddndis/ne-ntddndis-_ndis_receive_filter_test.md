@@ -6,7 +6,7 @@ description: The NDIS_RECEIVE_FILTER_TEST enumeration identifies the type of tes
 old-location: netvista\ndis_receive_filter_test.htm
 tech.root: netvista
 ms.assetid: 064d8335-3ebf-4bc2-901e-10ce46bf7732
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_RECEIVE_FILTER_TEST, NDIS_RECEIVE_FILTER_TEST, NDIS_RECEIVE_FILTER_TEST enumeration [Network Drivers Starting with Windows Vista], NdisReceiveFilterTestEqual, NdisReceiveFilterTestMaskEqual, NdisReceiveFilterTestMaximum, NdisReceiveFilterTestNotEqual, NdisReceiveFilterTestUndefined, PNDIS_RECEIVE_FILTER_TEST, PNDIS_RECEIVE_FILTER_TEST enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_FILTER_TEST, netvista.ndis_receive_filter_test, ntddndis/NDIS_RECEIVE_FILTER_TEST, ntddndis/NdisReceiveFilterTestEqual, ntddndis/NdisReceiveFilterTestMaskEqual, ntddndis/NdisReceiveFilterTestMaximum, ntddndis/NdisReceiveFilterTestNotEqual, ntddndis/NdisReceiveFilterTestUndefined, ntddndis/PNDIS_RECEIVE_FILTER_TEST, virtual_machine_queue_ref_16206d46-2048-429b-b7cf-aa5f5d099ae1.xml"
 ms.topic: enum
 req.header: ntddndis.h

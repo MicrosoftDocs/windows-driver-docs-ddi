@@ -6,7 +6,7 @@ description: The FsRtlFindExtraCreateParameter routine searches a given ECP list
 old-location: ifsk\fsrtlfindextracreateparameter.htm
 tech.root: ifsk
 ms.assetid: e72958d0-b7ff-45b6-bdd2-f894d5b44cf4
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlFindExtraCreateParameter, FsRtlFindExtraCreateParameter routine [Installable File System Drivers], fsrtlref_3536c7a7-2d3c-4aa5-9a91-5579a8108655.xml, ifsk.fsrtlfindextracreateparameter, ntifs/FsRtlFindExtraCreateParameter
 ms.topic: function
 req.header: ntifs.h

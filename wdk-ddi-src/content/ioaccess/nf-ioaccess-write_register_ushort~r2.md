@@ -6,7 +6,7 @@ description: The WRITE_REGISTER_USHORT routine writes a USHORT value to the spec
 old-location: kernel\write_register_ushort.htm
 tech.root: kernel
 ms.assetid: ebcbec0c-c5ee-4af1-be3c-36c730f82f4e
-ms.date: 3/1/2018
+ms.date: 03/01/2018
 ms.keywords: WRITE_REGISTER_USHORT, WRITE_REGISTER_USHORT routine [Kernel-Mode Driver Architecture], k103_bc20d667-b3c7-4e46-a21d-06123e73d348.xml, kernel.write_register_ushort, wdm/WRITE_REGISTER_USHORT
 ms.topic: function
 req.header: ioaccess.h

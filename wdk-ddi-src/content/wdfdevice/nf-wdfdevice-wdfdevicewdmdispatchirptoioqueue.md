@@ -6,7 +6,7 @@ description: The WdfDeviceWdmDispatchIrpToIoQueue method forwards the IRP to a s
 old-location: wdf\wdfdevicewdmdispatchirptoioqueue.htm
 tech.root: wdf
 ms.assetid: 5D1B228D-81D9-47FE-8CF2-41AAD9148667
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfDeviceWdmDispatchIrpToIoQueue, WdfDeviceWdmDispatchIrpToIoQueue method, kmdf.wdfdevicewdmdispatchirptoioqueue, kmdf.wdfdevicewdmforwardirptoioqueue, wdf.wdfdevicewdmdispatchirptoioqueue, wdfdevice/WdfDeviceWdmDispatchIrpToIoQueue
 ms.topic: function
 req.header: wdfdevice.h

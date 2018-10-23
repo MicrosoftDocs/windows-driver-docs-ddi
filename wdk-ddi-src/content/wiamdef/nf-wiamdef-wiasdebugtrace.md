@@ -6,7 +6,7 @@ description: This function prints a debug trace string in the Device Manager deb
 old-location: image\wiasdebugtrace.htm
 tech.root: image
 ms.assetid: db39c7f6-d966-4538-8ee9-d3623995535c
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiasdebugtrace, wiamdef/wiasDebugTrace, wiasDebugTrace, wiasDebugTrace function [Imaging Devices], wiasFncs_b6582555-3674-4261-a542-9a6388649bb0.xml
 ms.topic: function
 req.header: wiamdef.h

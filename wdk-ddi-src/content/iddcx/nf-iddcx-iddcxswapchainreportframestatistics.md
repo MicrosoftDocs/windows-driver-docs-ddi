@@ -6,7 +6,7 @@ description: An OS callback function the driver calls to report the frame statis
 old-location: display\iddcxswapchainreportframestatistics.htm
 tech.root: display
 ms.assetid: 0dd32160-93d4-4fb8-aed1-9267f38e9909
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IddCxSwapChainReportFrameStatistics, IddCxSwapChainReportFrameStatistics method [Display Devices], display.iddcxswapchainreportframestatistics, iddcx/IddCxSwapChainReportFrameStatistics
 ms.topic: function
 req.header: iddcx.h

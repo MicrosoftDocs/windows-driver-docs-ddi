@@ -4,7 +4,7 @@ title: _DXGK_PHYSICAL_MEMORY_RANGE
 author: windows-driver-content
 description: The physical memory range.
 ms.assetid: 915fa8ff-3726-4166-9d7a-7e342c685bdd
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGK_PHYSICAL_MEMORY_RANGE, DXGK_PHYSICAL_MEMORY_RANGE,
 req.header: d3dkmddi.h

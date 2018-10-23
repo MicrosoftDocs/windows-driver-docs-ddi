@@ -6,7 +6,7 @@ description: The DXVA_COPPStatusSignalingCmdData structure describes how the sig
 old-location: display\dxva_coppstatussignalingcmddata.htm
 tech.root: display
 ms.assetid: 3065dddc-e084-4273-93eb-62a51763e213
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXVA_COPPStatusSignalingCmdData, DXVA_COPPStatusSignalingCmdData structure [Display Devices], _DXVA_COPPStatusSignalingCmdData, display.dxva_coppstatussignalingcmddata, dxva/DXVA_COPPStatusSignalingCmdData, dxvaref_6a90a0a1-2173-4698-9e3d-83db1d5062f2.xml
 ms.topic: struct
 req.header: dxva.h

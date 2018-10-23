@@ -6,7 +6,7 @@ description: The PoFxCompleteIdleState routine informs the power management fram
 old-location: kernel\pofxcompleteidlestate.htm
 tech.root: kernel
 ms.assetid: D9224991-DB36-4250-861A-6C21E29F91EF
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PoFxCompleteIdleState, PoFxCompleteIdleState routine [Kernel-Mode Driver Architecture], kernel.pofxcompleteidlestate, wdm/PoFxCompleteIdleState
 ms.topic: function
 req.header: wdm.h

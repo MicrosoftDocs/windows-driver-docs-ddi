@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Contains video functions.
 old-location: display\d3d12ddi_device_funcs_video.htm
 ms.assetid: F4C385C8-00A2-44AB-A7E6-4C9AA19CFFB0
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D12DDI_DEVICE_FUNCS_VIDEO_0021, D3D12DDI_DEVICE_FUNCS_VIDEO_0021 structure [Display Devices], d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO, display.d3d12ddi_device_funcs_video
 ms.topic: struct
 req.header: d3d12umddi.h

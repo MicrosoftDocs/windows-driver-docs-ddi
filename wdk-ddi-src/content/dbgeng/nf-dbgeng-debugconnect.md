@@ -6,7 +6,7 @@ description: The DebugConnect and DebugConnectWide functions create a new client
 old-location: debugger\debugconnect.htm
 tech.root: debugger
 ms.assetid: 77dba83d-cc25-4609-905c-7a036cb7ced9
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ClientFns_7beeb350-b8bd-44ea-b5c9-ca0da15146ae.xml, DebugConnect, DebugConnect function [Windows Debugging], dbgeng/DebugConnect, debugger.debugconnect
 ms.topic: function
 req.header: dbgeng.h

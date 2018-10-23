@@ -6,7 +6,7 @@ description: Gets a quit lock string.
 old-location: debugger\idebugclient5_getquitlockstring.htm
 tech.root: debugger
 ms.assetid: 986C866E-D5AC-47CD-A666-EDF739E91761
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetQuitLockString, GetQuitLockString method [Windows Debugging], GetQuitLockString method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],GetQuitLockString method, IDebugClient5.GetQuitLockString, IDebugClient5::GetQuitLockString, dbgeng/IDebugClient5::GetQuitLockString, debugger.idebugclient5_getquitlockstring
 ms.topic: method
 req.header: dbgeng.h

@@ -6,7 +6,7 @@ description: The PEP_PPM_IDLE_SELECT structure describes the most energy-efficie
 old-location: kernel\pep_ppm_idle_select.htm
 tech.root: kernel
 ms.assetid: 4783CB44-3A55-4C7C-8EA2-1A72317CC955
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_PPM_IDLE_SELECT, PEP_PPM_IDLE_SELECT, PEP_PPM_IDLE_SELECT structure [Kernel-Mode Driver Architecture], PPEP_PPM_IDLE_SELECT, PPEP_PPM_IDLE_SELECT structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_IDLE_SELECT, kernel.pep_ppm_idle_select, pep_x/PEP_PPM_IDLE_SELECT, pep_x/PPEP_PPM_IDLE_SELECT"
 ms.topic: struct
 req.header: pep_x.h

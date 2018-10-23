@@ -6,7 +6,7 @@ description: The READ_PORT_ULONG routine reads a ULONG value from the specified 
 old-location: kernel\read_port_ulong.htm
 tech.root: kernel
 ms.assetid: 8a2f4429-b805-4a36-afdf-8b9c9a886951
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: READ_PORT_ULONG, READ_PORT_ULONG routine [Kernel-Mode Driver Architecture], k103_04794cc7-88eb-4456-8613-6fcf9947ebe4.xml, kernel.read_port_ulong, wdm/READ_PORT_ULONG
 ms.topic: function
 req.header: wdm.h

@@ -6,7 +6,7 @@ description: NDIS calls a filter driver's FilterDetach function to release all t
 old-location: netvista\filterdetach.htm
 tech.root: netvista
 ms.assetid: 49dfbbb3-74e7-4904-8370-36d589276653
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FILTER_DETACH, FILTER_DETACH callback, FilterDetach, FilterDetach callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_dec15a06-93c1-4da8-9dc6-b66be9c6f8eb.xml, ndis/FilterDetach, netvista.filterdetach
 ms.topic: callback
 req.header: ndis.h
@@ -126,7 +126,7 @@ VOID
 </table></span></div>
 The <b>FILTER_DETACH</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_DETACH</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 

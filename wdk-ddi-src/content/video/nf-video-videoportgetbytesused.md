@@ -6,7 +6,7 @@ description: The VideoPortGetBytesUsed function is obsolete in Windows 2000 and 
 old-location: display\videoportgetbytesused.htm
 tech.root: display
 ms.assetid: 67fe089d-4cde-4caa-a4ad-8e879a30b516
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortGetBytesUsed, VideoPortGetBytesUsed function [Display Devices], VideoPort_Functions_315c6ad1-757d-44d3-8059-d94ab407ea69.xml, display.videoportgetbytesused, video/VideoPortGetBytesUsed
 ms.topic: function
 req.header: video.h

@@ -6,7 +6,7 @@ description: The RtlNumberGenericTableElementsAvl routine returns the number of 
 old-location: ifsk\rtlnumbergenerictableelementsavl.htm
 tech.root: ifsk
 ms.assetid: CC67993A-99B1-41DC-9278-7A475EF87089
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlNumberGenericTableElementsAvl, RtlNumberGenericTableElementsAvl routine [Installable File System Drivers], ifsk.rtlnumbergenerictableelementsavl, ntddk/RtlNumberGenericTableElementsAvl
 ms.topic: function
 req.header: ntddk.h

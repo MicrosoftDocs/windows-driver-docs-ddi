@@ -4,7 +4,7 @@ title: EntropyRegisterSource function
 author: windows-driver-content
 description: 
 ms.assetid: df2ccd42-3f5c-4d00-9ff1-337d4bf815b6
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: EntropyRegisterSource
 req.header: systemrng.h

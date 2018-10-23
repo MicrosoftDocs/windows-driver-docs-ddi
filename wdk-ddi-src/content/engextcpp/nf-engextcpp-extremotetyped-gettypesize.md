@@ -6,7 +6,7 @@ description: The GetTypeSize method returns the size of the type represented by 
 old-location: debugger\extremotetyped_gettypesize.htm
 tech.root: debugger
 ms.assetid: 0b681f00-6cec-4598-abee-e9a97bd53582
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_a0708ab0-c6c3-441a-958d-7f26fad32869.xml, ExtRemoteTyped interface [Windows Debugging],GetTypeSize method, ExtRemoteTyped.GetTypeSize, ExtRemoteTyped::GetTypeSize, GetTypeSize, GetTypeSize method [Windows Debugging], GetTypeSize method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_gettypesize
 ms.topic: method
 req.header: engextcpp.hpp

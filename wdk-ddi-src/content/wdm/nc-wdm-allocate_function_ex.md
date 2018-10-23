@@ -6,7 +6,7 @@ description: The LookasideListAllocateEx routine allocates the storage for a new
 old-location: kernel\lookasidelistallocateex.htm
 tech.root: kernel
 ms.assetid: 4c9df63e-b0cb-4a49-9a01-9fc8f8c592f6
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ALLOCATE_FUNCTION_EX, DrvrRtns_a8e59075-4ed4-49d3-a516-6cee5b6390c8.xml, LookasideListAllocateEx, LookasideListAllocateEx routine [Kernel-Mode Driver Architecture], kernel.lookasidelistallocateex, wdm/LookasideListAllocateEx
 ms.topic: callback
 req.header: wdm.h
@@ -151,7 +151,7 @@ VOID
 </td>
 </tr>
 </table></span></div>
-The FREE_FUNCTION_EX function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the FREE_FUNCTION_EX function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
+The FREE_FUNCTION_EX function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the FREE_FUNCTION_EX function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>
 

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Describes the information, including output duplication options, needed to set or release the video present source in the path of a video present network (VidPN) topology that owns the VidPN.
 old-location: display\d3dkmt_setvidpnsourceowner1.htm
 ms.assetid: 3148c628-60e3-47a8-bae1-e33390af7e33
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_SETVIDPNSOURCEOWNER1, D3DKMT_SETVIDPNSOURCEOWNER1 structure [Display Devices], _D3DKMT_SETVIDPNSOURCEOWNER1, d3dkmthk/D3DKMT_SETVIDPNSOURCEOWNER1, display.d3dkmt_setvidpnsourceowner1
 ms.topic: struct
 req.header: d3dkmthk.h

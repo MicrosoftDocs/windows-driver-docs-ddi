@@ -6,7 +6,7 @@ description: The FreeDmaEngine routine frees a DMA engine that was previously al
 old-location: audio\freedmaengine.htm
 tech.root: audio
 ms.assetid: 3f068ac0-2b18-4242-86de-7044ce558788
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: FreeDmaEngine, FreeDmaEngine callback function [Audio Devices], PFREE_DMA_ENGINE, PFREE_DMA_ENGINE callback, aud-prop2_98407bc5-c9ae-499f-92b4-afd8c797dc1d.xml, audio.freedmaengine, hdaudio/FreeDmaEngine
 ms.topic: callback
 req.header: hdaudio.h

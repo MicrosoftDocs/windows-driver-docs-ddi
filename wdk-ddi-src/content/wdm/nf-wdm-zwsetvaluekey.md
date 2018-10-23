@@ -6,7 +6,7 @@ description: The ZwSetValueKey routine creates or replaces a registry key's valu
 old-location: kernel\zwsetvaluekey.htm
 tech.root: kernel
 ms.assetid: 5e0bcf87-5776-4465-849c-6d4c06832797
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtSetValueKey, ZwSetValueKey, ZwSetValueKey routine [Kernel-Mode Driver Architecture], k111_08954f01-0f74-4054-a52a-b00fff0dc166.xml, kernel.zwsetvaluekey, wdm/NtSetValueKey, wdm/ZwSetValueKey
 ms.topic: function
 req.header: wdm.h

@@ -6,7 +6,7 @@ description: The NDIS_QOS_CAPABILITIES structure specifies the NDIS Quality of S
 old-location: netvista\ndis_qos_capabilities.htm
 tech.root: netvista
 ms.assetid: 23698bb8-3fb6-4e60-aaac-75c2e3341d54
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDIS_QOS_CAPABILITIES, NDIS_QOS_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_QOS_CAPABILITIES, PNDIS_QOS_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_QOS_CAPABILITIES, netvista.ndis_qos_capabilities, ntddndis/NDIS_QOS_CAPABILITIES, ntddndis/PNDIS_QOS_CAPABILITIES
 ms.topic: struct
 req.header: ntddndis.h

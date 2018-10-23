@@ -4,7 +4,7 @@ title: PFND3D12DDI_SET_PIPELINE_STACK_SIZE_0054
 author: windows-driver-content
 description: Sets the current pipeline stack size.
 ms.assetid: 0925f8dc-0a20-43e5-8d2e-d47005e3b392
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:

@@ -6,7 +6,7 @@ description: The IoRegisterShutdownNotification routine registers the driver to 
 old-location: kernel\ioregistershutdownnotification.htm
 tech.root: kernel
 ms.assetid: fd9a612b-b0a7-4bef-9fab-8212a3b594b6
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoRegisterShutdownNotification, IoRegisterShutdownNotification routine [Kernel-Mode Driver Architecture], k104_dd357e39-68b4-4cc2-b7c7-34f16c74a4a0.xml, kernel.ioregistershutdownnotification, wdm/IoRegisterShutdownNotification
 ms.topic: function
 req.header: wdm.h

@@ -6,7 +6,7 @@ description: The USBSCAN_PIPE_CONFIGURATION structure is used as a parameter to 
 old-location: image\usbscan_pipe_configuration.htm
 tech.root: image
 ms.assetid: c9b0247b-1444-46c9-a430-897594f8d223
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: "*PUSBSCAN_PIPE_CONFIGURATION, PUSBSCAN_PIPE_CONFIGURATION, PUSBSCAN_PIPE_CONFIGURATION structure pointer [Imaging Devices], USBSCAN_PIPE_CONFIGURATION, USBSCAN_PIPE_CONFIGURATION structure [Imaging Devices], _USBSCAN_PIPE_CONFIGURATION, image.usbscan_pipe_configuration, stifnc_b18d3edd-f392-4b68-82e4-10f870c18f6a.xml, usbscan/PUSBSCAN_PIPE_CONFIGURATION, usbscan/USBSCAN_PIPE_CONFIGURATION"
 ms.topic: struct
 req.header: usbscan.h

@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilnitznotificationcaps.htm
 tech.root: netvista
 ms.assetid: fa678bfa-ebcc-4950-951a-47f9bba98131
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILNITZNOTIFICATIONCAPS, RILNITZNOTIFICATIONCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_NITZ_ENABLED, RIL_CAPS_NITZ_MAX, netvista.rilnitznotificationcaps, ntddrilapitypes/RILNITZNOTIFICATIONCAPS, ntddrilapitypes/RIL_CAPS_NITZ_ENABLED, ntddrilapitypes/RIL_CAPS_NITZ_MAX
 ms.topic: enum
 req.header: ntddrilapitypes.h

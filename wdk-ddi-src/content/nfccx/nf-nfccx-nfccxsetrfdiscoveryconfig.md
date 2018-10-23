@@ -6,7 +6,7 @@ description: Called by the client driver to configure the RF discovery parameter
 old-location: nfpdrivers\_nfccxsetrfdiscoveryconfig.htm
 tech.root: nfpdrivers
 ms.assetid: D0190BA1-196D-4F8B-A367-80272F094B6B
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: NfcCxSetRfDiscoveryConfig, NfcCxSetRfDiscoveryConfig method [Near-Field Proximity Drivers], nfccx/NfcCxSetRfDiscoveryConfig, nfpdrivers._nfccxsetrfdiscoveryconfig
 ms.topic: function
 req.header: nfccx.h
@@ -83,7 +83,7 @@ If the operation succeeds, the function returns STATUS_SUCCESS.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
  
 
  

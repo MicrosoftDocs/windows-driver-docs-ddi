@@ -6,7 +6,7 @@ description: The IPrintCoreHelper::SetFontSubstitution method specifies the devi
 old-location: print\iprintcorehelper_setfontsubstitution.htm
 tech.root: print
 ms.assetid: 2d0278b0-0011-4946-a095-5fef77a8b194
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintCoreHelper interface [Print Devices],SetFontSubstitution method, IPrintCoreHelper.SetFontSubstitution, IPrintCoreHelper::SetFontSubstitution, SetFontSubstitution, SetFontSubstitution method [Print Devices], SetFontSubstitution method [Print Devices],IPrintCoreHelper interface, prcomoem/IPrintCoreHelper::SetFontSubstitution, print.iprintcorehelper_setfontsubstitution, print_unidrv-pscript_allplugins_4ac54a23-3b42-4bb7-a078-a53774a537b2.xml
 ms.topic: method
 req.header: prcomoem.h

@@ -6,7 +6,7 @@ description: The StorPortGetGroupAffinity routine constructs a mask of the activ
 old-location: storage\storportgetgroupaffinity.htm
 tech.root: storage
 ms.assetid: eec0c985-fb59-4190-afb8-5eb62ac1edea
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortGetGroupAffinity, StorPortGetGroupAffinity routine [Storage Devices], storage.storportgetgroupaffinity, storport/StorPortGetGroupAffinity, storprt_9fdfdc84-3e8f-4227-9799-4ccf08f802df.xml
 ms.topic: function
 req.header: storport.h

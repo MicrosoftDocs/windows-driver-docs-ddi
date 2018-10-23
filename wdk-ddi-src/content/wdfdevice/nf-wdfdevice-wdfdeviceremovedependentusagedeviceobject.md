@@ -6,7 +6,7 @@ description: The WdfDeviceRemoveDependentUsageDeviceObject method indicates that
 old-location: wdf\wdfdeviceremovedependentusagedeviceobject.htm
 tech.root: wdf
 ms.assetid: d9569b4b-ad71-46dd-b421-8493f595f030
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_22cf19f5-c56f-430f-a6a1-d15af92eb41b.xml, WdfDeviceRemoveDependentUsageDeviceObject, WdfDeviceRemoveDependentUsageDeviceObject method, kmdf.wdfdeviceremovedependentusagedeviceobject, wdf.wdfdeviceremovedependentusagedeviceobject, wdfdevice/WdfDeviceRemoveDependentUsageDeviceObject
 ms.topic: function
 req.header: wdfdevice.h

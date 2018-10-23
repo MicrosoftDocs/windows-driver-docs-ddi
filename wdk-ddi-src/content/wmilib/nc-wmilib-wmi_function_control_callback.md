@@ -6,7 +6,7 @@ description: The DpWmiFunctionControl routine enables or disables notification o
 old-location: kernel\dpwmifunctioncontrol.htm
 tech.root: kernel
 ms.assetid: c1480927-eefa-4078-a866-68dc1b7c5e9c
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: DpWmiFunctionControl, DpWmiFunctionControl callback function [Kernel-Mode Driver Architecture], WMI_FUNCTION_CONTROL_CALLBACK, WMI_FUNCTION_CONTROL_CALLBACK callback, k903_d43ba720-8de2-411d-ae6c-3ba6b7bfe3ca.xml, kernel.dpwmifunctioncontrol, wmilib/DpWmiFunctionControl
 ms.topic: callback
 req.header: wmilib.h

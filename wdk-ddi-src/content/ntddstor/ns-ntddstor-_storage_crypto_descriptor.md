@@ -6,7 +6,7 @@ description: Reserved for system use.
 old-location: storage\storage_crypto_descriptor.htm
 tech.root: storage
 ms.assetid: 1D948882-2286-4080-A41B-D20714FC0A66
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSTORAGE_CRYPTO_DESCRIPTOR, PSTORAGE_CRYPTO_DESCRIPTOR, PSTORAGE_CRYPTO_DESCRIPTOR structure pointer [Storage Devices], STORAGE_CRYPTO_DESCRIPTOR, STORAGE_CRYPTO_DESCRIPTOR structure [Storage Devices], _STORAGE_CRYPTO_DESCRIPTOR, ntddstor/PSTORAGE_CRYPTO_DESCRIPTOR, ntddstor/STORAGE_CRYPTO_DESCRIPTOR, storage.storage_crypto_descriptor"
 ms.topic: struct
 req.header: ntddstor.h

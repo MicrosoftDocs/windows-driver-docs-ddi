@@ -6,7 +6,7 @@ description: The USB_PORT_CONNECTOR_PROPERTIES structure is used with the IOCTL_
 old-location: buses\usb_port_connector_properties.htm
 tech.root: usbref
 ms.assetid: 93818067-A7EC-4796-B80F-75ADD6315ADF
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSB_PORT_CONNECTOR_PROPERTIES, PUSB_PORT_CONNECTOR_PROPERTIES, PUSB_PORT_CONNECTOR_PROPERTIES structure pointer [Buses], USB_PORT_CONNECTOR_PROPERTIES, USB_PORT_CONNECTOR_PROPERTIES structure [Buses], _USB_PORT_CONNECTOR_PROPERTIES, buses.usb_port_connector_properties, usbioctl/PUSB_PORT_CONNECTOR_PROPERTIES, usbioctl/USB_PORT_CONNECTOR_PROPERTIES"
 ms.topic: struct
 req.header: usbioctl.h

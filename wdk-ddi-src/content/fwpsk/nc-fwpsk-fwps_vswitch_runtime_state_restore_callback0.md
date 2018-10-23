@@ -6,7 +6,7 @@ description: The filter engine calls the vSwitchRuntimeStateRestoreNotifyFn (FWP
 old-location: netvista\fwps_vswitch_runtime_state_restore_callback0.htm
 tech.root: netvista
 ms.assetid: E684429C-1BDC-4821-89DF-08FF20D25315
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0, FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0 callback, fwpsk/vSwitchRuntimeStateRestoreNotifyFn, netvista.fwps_vswitch_runtime_state_restore_callback0, vSwitchRuntimeStateRestoreNotifyFn, vSwitchRuntimeStateRestoreNotifyFn callback function [Network Drivers Starting with Windows Vista]
 ms.topic: callback
 req.header: fwpsk.h

@@ -6,7 +6,7 @@ description: NDIS calls the MiniportWdiIdleNotification handler function to star
 old-location: netvista\miniportwdiidlenotification.htm
 tech.root: netvista
 ms.assetid: BA050C7C-A593-469E-9212-B363F2D2A409
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_IDLE_NOTIFICATION, MINIPORT_WDI_IDLE_NOTIFICATION callback, MiniportWdiIdleNotification, MiniportWdiIdleNotification callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiIdleNotification, netvista.miniportwdiidlenotification
 ms.topic: callback
 req.header: dot11wdi.h

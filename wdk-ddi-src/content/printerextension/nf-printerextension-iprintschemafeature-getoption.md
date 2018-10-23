@@ -6,7 +6,7 @@ description: Gets the option with the given name.
 old-location: print\iprintschemafeature_getoption.htm
 tech.root: print
 ms.assetid: C9C4E085-1F2A-4610-AF2A-8F87E5CE7BCA
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetOption, GetOption method [Print Devices], GetOption method [Print Devices],IPrintSchemaFeature interface, IPrintSchemaFeature, IPrintSchemaFeature interface [Print Devices],GetOption method, IPrintSchemaFeature.GetOption, IPrintSchemaFeature::GetOption, print.iprintschemafeature_getoption, printerextension/IPrintSchemaFeature::GetOption
 ms.topic: method
 req.header: printerextension.h

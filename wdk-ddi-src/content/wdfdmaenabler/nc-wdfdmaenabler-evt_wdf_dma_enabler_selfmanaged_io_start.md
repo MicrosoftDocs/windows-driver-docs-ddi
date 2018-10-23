@@ -6,7 +6,7 @@ description: A driver's EvtDmaEnablerSelfManagedIoStart event callback function 
 old-location: wdf\evtdmaenablerselfmanagediostart.htm
 tech.root: wdf
 ms.assetid: 397791c1-c394-48ae-b6cf-42f4494438f1
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDmaObjectRef_6ccb5cb2-c30f-4ae0-a47e-cb58e24de25b.xml, EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_START, EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_START callback, EvtDmaEnablerSelfManagedIoStart, EvtDmaEnablerSelfManagedIoStart callback function, kmdf.evtdmaenablerselfmanagediostart, wdf.evtdmaenablerselfmanagediostart, wdfdmaenabler/EvtDmaEnablerSelfManagedIoStart
 ms.topic: callback
 req.header: wdfdmaenabler.h

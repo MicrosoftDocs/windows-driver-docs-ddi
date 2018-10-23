@@ -6,7 +6,7 @@ description: The RtlStringCbPrintfW and RtlStringCbPrintfA functions create a by
 old-location: kernel\rtlstringcbprintf.htm
 tech.root: kernel
 ms.assetid: ff35590f-1834-462a-9a9e-f7a3268776e8
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlStringCbPrintf, RtlStringCbPrintfA, RtlStringCbPrintfW, RtlStringCbPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbprintf, ntstrsafe/RtlStringCbPrintfA, ntstrsafe/RtlStringCbPrintfW, safestrings_066962fd-30e4-4535-b667-bf6f8fa2f2b2.xml
 ms.topic: function
 req.header: ntstrsafe.h
@@ -74,7 +74,7 @@ For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(char
 
 ### -param pszFormat [in]
 
-A pointer to a null-terminated text string that contains <b>printf</b>-styled <a href="http://msdn.microsoft.com/library/56e442dc.aspx">formatting directives</a>.
+A pointer to a null-terminated text string that contains <b>printf</b>-styled <a href="https://msdn.microsoft.com/library/56e442dc.aspx">formatting directives</a>.
 
 
 ### -param param

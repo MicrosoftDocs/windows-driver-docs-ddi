@@ -6,7 +6,7 @@ description: The WdfDeviceReadFromHardware method is used internally by the fram
 old-location: wdf\wdfdevicereadfromhardware.htm
 tech.root: wdf
 ms.assetid: 3E9ECB09-39DD-4A16-B096-24AAD96D52E9
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: PFN_WDFDEVICEREADFROMHARDWARE, WdfDeviceReadFromHardware, WdfDeviceReadFromHardware method, wdf.wdfdevicereadfromhardware, wdfdevice/WdfDeviceReadFromHardware, wdfhwaccess/WdfDeviceReadFromHardware
 ms.topic: function
 req.header: wdfdevice.h

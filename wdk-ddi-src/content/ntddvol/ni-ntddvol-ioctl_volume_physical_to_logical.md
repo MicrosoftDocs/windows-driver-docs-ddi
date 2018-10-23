@@ -6,7 +6,7 @@ description: Returns the logical offset corresponding to a physical disk number 
 old-location: storage\ioctl_volume_physical_to_logical.htm
 tech.root: storage
 ms.assetid: 3e127456-6387-4340-84c1-d613d8094f33
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_VOLUME_PHYSICAL_TO_LOGICAL, IOCTL_VOLUME_PHYSICAL_TO_LOGICAL control, IOCTL_VOLUME_PHYSICAL_TO_LOGICAL control code [Storage Devices], k307_7f4b8e45-1569-4d69-a33b-856b8587fe7b.xml, ntddvol/IOCTL_VOLUME_PHYSICAL_TO_LOGICAL, storage.ioctl_volume_physical_to_logical
 ms.topic: ioctl
 req.header: ntddvol.h

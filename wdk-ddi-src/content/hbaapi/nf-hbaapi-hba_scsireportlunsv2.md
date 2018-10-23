@@ -6,7 +6,7 @@ description: The HBA_ScsiReportLUNsV2 routine sends a SCSI report LUNs command t
 old-location: storage\hba_scsireportlunsv2.htm
 tech.root: storage
 ms.assetid: 6a4dfb93-4044-4a7a-a993-38c91f84cae2
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_ScsiReportLUNsV2, HBA_ScsiReportLUNsV2 routine [Storage Devices], fibreHBA_rtns_ca5de2ac-67e1-49e0-9397-c5e987854154.xml, hbaapi/HBA_ScsiReportLUNsV2, storage.hba_scsireportlunsv2
 ms.topic: function
 req.header: hbaapi.h

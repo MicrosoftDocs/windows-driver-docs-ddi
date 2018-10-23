@@ -6,7 +6,7 @@ description: The FsRtlMdlReadEx routine performs a fast cached MDL read. If the 
 old-location: ifsk\fsrtlmdlreadex.htm
 tech.root: ifsk
 ms.assetid: E1F16454-C8E6-4291-83BB-F4CF18F6DF10
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: FsRtlMdlReadEx, FsRtlMdlReadEx routine [Installable File System Drivers], ifsk.fsrtlmdlreadex, ntifs/FsRtlMdlReadEx
 ms.topic: function
 req.header: ntifs.h

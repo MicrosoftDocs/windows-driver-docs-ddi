@@ -6,7 +6,7 @@ description: Gets the state of the global effects (GFX) node in the audio engine
 old-location: audio\iminiportaudioenginenode_getgfxstate.htm
 tech.root: audio
 ms.assetid: C2D4EB3E-0A39-4458-B0E7-C6D943AB4203
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: GetGfxState, GetGfxState method [Audio Devices], GetGfxState method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetGfxState method, IMiniportAudioEngineNode.GetGfxState, IMiniportAudioEngineNode::GetGfxState, audio.iminiportaudioenginenode_getgfxstate, portcls/IMiniportAudioEngineNode::GetGfxState
 ms.topic: method
 req.header: portcls.h

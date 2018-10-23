@@ -6,7 +6,7 @@ description: The GetValue interface retrieves a PROPVARIANT value that is specif
 old-location: wpddk\iportabledevicevalues_getvalue.htm
 tech.root: wpd_dk
 ms.assetid: 3c078259-98e8-4874-aa5e-060f0da1a246
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: GetValue, GetValue method, GetValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetValue method, IPortableDeviceValues.GetValue, IPortableDeviceValues::GetValue, IPortableDeviceValuesGetValue, portabledevicetypes/IPortableDeviceValues::GetValue, wpddk.iportabledevicevalues_getvalue
 ms.topic: method
 req.header: portabledevicetypes.h

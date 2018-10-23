@@ -6,7 +6,7 @@ description: The NDIS_WWAN_DEVICE_SERVICE_SESSION_READ structure represents devi
 old-location: netvista\ndis_wwan_device_service_session_read.htm
 tech.root: netvista
 ms.assetid: 6417E9B6-FDF9-4353-A966-1AFCB14A2735
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_WWAN_DEVICE_SERVICE_SESSION_READ, NDIS_WWAN_DEVICE_SERVICE_SESSION_READ, NDIS_WWAN_DEVICE_SERVICE_SESSION_READ structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SERVICE_SESSION_READ, PNDIS_WWAN_DEVICE_SERVICE_SESSION_READ structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SERVICE_SESSION_READ, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_SESSION_READ, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_SESSION_READ, netvista.ndis_wwan_device_service_session_read"
 ms.topic: struct
 req.header: ndiswwan.h

@@ -6,7 +6,7 @@ description: The D3DDDICB_SETPRIORITY structure describes the priority level to 
 old-location: display\d3dddicb_setpriority.htm
 tech.root: display
 ms.assetid: 8d828d7b-2f86-4fe9-864c-9d0ac4b0ed65
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDICB_SETPRIORITY, D3DDDICB_SETPRIORITY structure [Display Devices], D3D_param_Structs_38d8110c-0d63-4409-9576-ef9892dae2b7.xml, _D3DDDICB_SETPRIORITY, d3dumddi/D3DDDICB_SETPRIORITY, display.d3dddicb_setpriority
 ms.topic: struct
 req.header: d3dumddi.h

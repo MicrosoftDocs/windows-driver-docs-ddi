@@ -6,7 +6,7 @@ description: The generic storage class driver (classpnp.sys) exposes an I/O cont
 old-location: storage\ioctl_storage_persistent_reserve_out.htm
 tech.root: storage
 ms.assetid: a9863ac9-46e2-4888-879e-7d56e9260142
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_STORAGE_PERSISTENT_RESERVE_OUT, IOCTL_STORAGE_PERSISTENT_RESERVE_OUT control, IOCTL_STORAGE_PERSISTENT_RESERVE_OUT control code [Storage Devices], k307_664b87a0-88f2-42ac-851e-b1fbbf36c66a.xml, ntddstor/IOCTL_STORAGE_PERSISTENT_RESERVE_OUT, storage.ioctl_storage_persistent_reserve_out
 ms.topic: ioctl
 req.header: ntddstor.h
@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The generic storage class driver (<i>classpnp.sys</i>) exposes an I/O control (IOCTL) interface for issuing Persistent Reserve Out commands. The behavior of the storage device when a Persistent Reserve Out command is received is described in the <a href="http://go.microsoft.com/fwlink/p/?linkid=153142">SCSI Primary Commands - 2 (SPC-2)</a> specification. The IOCTL interface requires the caller to have read/write access to the physical device for Persistent Reserve Out commands. User-mode applications, services, and kernel-mode drivers can use this IOCTL to control persistent reservations. If called from a driver, this IOCTL must be called from a thread running at IRQL &lt; DISPATCH_LEVEL. This IOCTL is defined with FILE_READ_ACCESS and FILE_WRITE_ACCESS, requiring a device handle to have both read and write permissions to issue the Persistent Reserve Out command.
+The generic storage class driver (<i>classpnp.sys</i>) exposes an I/O control (IOCTL) interface for issuing Persistent Reserve Out commands. The behavior of the storage device when a Persistent Reserve Out command is received is described in the <a href="https://go.microsoft.com/fwlink/p/?linkid=153142">SCSI Primary Commands - 2 (SPC-2)</a> specification. The IOCTL interface requires the caller to have read/write access to the physical device for Persistent Reserve Out commands. User-mode applications, services, and kernel-mode drivers can use this IOCTL to control persistent reservations. If called from a driver, this IOCTL must be called from a thread running at IRQL &lt; DISPATCH_LEVEL. This IOCTL is defined with FILE_READ_ACCESS and FILE_WRITE_ACCESS, requiring a device handle to have both read and write permissions to issue the Persistent Reserve Out command.
 
 
 ## -ioctlparameters
@@ -170,7 +170,7 @@ The <b>Status</b> field is set to one of the following:
 
 #### -STATUS_DEVICE_BUSY (ERROR_BUSY)
 
-The command failed because of a Reservation Conflict (for more information, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=153142">SCSI Primary Commands - 2 (SPC-2)</a> specification).
+The command failed because of a Reservation Conflict (for more information, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=153142">SCSI Primary Commands - 2 (SPC-2)</a> specification).
 
 
 #### -STATUS_INFO_LENGTH_MISMATCH

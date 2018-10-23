@@ -6,7 +6,7 @@ description: Initializes the UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION structure.
 old-location: buses\ucmtcpci_port_controller_identification_init.htm
 tech.root: usbref
 ms.assetid: 4204b849-8195-4a1b-9bb3-1e9cbeb12223
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT, UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT method [Buses], buses.ucmtcpci_port_controller_identification_init, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT
 ms.topic: function
 req.header: ucmtcpciportcontroller.h

@@ -6,7 +6,7 @@ description: The NDK_QP structure specifies the attributes of an NDK queue pair 
 old-location: netvista\ndk_qp.htm
 tech.root: netvista
 ms.assetid: 43491796-35CA-4E0C-90EF-7148651C68A6
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_QP, NDK_QP structure [Network Drivers Starting with Windows Vista], _NDK_QP, ndkpi/NDK_QP, netvista.ndk_qp
 ms.topic: struct
 req.header: ndkpi.h

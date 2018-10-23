@@ -4,7 +4,7 @@ title: _DXGKARG_GETMMIORANGES
 author: windows-driver-content
 description: Arguments used to get the memory mapped input output (MMIO) range.
 ms.assetid: cb991a13-ccc5-4f20-a49f-e084ba38ca80
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGKARG_GETMMIORANGES, DXGKARG_GETMMIORANGES, *PDXGKARG_GETMMIORANGES, 
 req.header: dispmprt.h

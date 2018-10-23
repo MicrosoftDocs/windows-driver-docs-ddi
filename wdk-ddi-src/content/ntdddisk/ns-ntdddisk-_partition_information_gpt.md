@@ -6,7 +6,7 @@ description: PARTITION_INFORMATION_GPT contains information for a GUID Partition
 old-location: storage\partition_information_gpt.htm
 tech.root: storage
 ms.assetid: f2d76b4c-7acd-4701-b978-3d29dc8cde0b
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PPARTITION_INFORMATION_GPT, PARTITION_INFORMATION_GPT, PARTITION_INFORMATION_GPT structure [Storage Devices], PPARTITION_INFORMATION_GPT, PPARTITION_INFORMATION_GPT structure pointer [Storage Devices], SET_PARTITION_INFORMATION_GPT, _PARTITION_INFORMATION_GPT, ntdddisk/PARTITION_INFORMATION_GPT, ntdddisk/PPARTITION_INFORMATION_GPT, storage.partition_information_gpt, structs-disk_dad0a2a5-4351-4940-af39-28f7a4005c14.xml"
 ms.topic: struct
 req.header: ntdddisk.h

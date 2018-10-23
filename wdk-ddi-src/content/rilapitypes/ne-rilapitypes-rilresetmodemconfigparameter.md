@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilresetmodemconfigparameter.htm
 tech.root: netvista
 ms.assetid: 8cf95185-3935-4434-b9d5-c2a63a9f3eba
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILRESETMODEMCONFIGPARAMETER, RILRESETMODEMCONFIGPARAMETER enumeration [Network Drivers Starting with Windows Vista], RIL_RESETMODEMCONFIGPARAMETER_MAX, netvista.rilresetmodemconfigparameter, ntddrilapitypes/RILRESETMODEMCONFIGPARAMETER, ntddrilapitypes/RIL_RESETMODEMCONFIGPARAMETER_MAX
 ms.topic: enum
 req.header: rilapitypes.h

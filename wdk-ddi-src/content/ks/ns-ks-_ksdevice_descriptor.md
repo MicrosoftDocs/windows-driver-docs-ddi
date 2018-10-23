@@ -6,7 +6,7 @@ description: The KSDEVICE_DESCRIPTOR structure describes the characteristics of 
 old-location: stream\ksdevice_descriptor.htm
 tech.root: stream
 ms.assetid: dc68f6d8-a2d5-4940-a708-fe761c3a8a0d
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSDEVICE_DESCRIPTOR, KSDEVICE_DESCRIPTOR, KSDEVICE_DESCRIPTOR structure [Streaming Media Devices], PKSDEVICE_DESCRIPTOR, PKSDEVICE_DESCRIPTOR structure pointer [Streaming Media Devices], _KSDEVICE_DESCRIPTOR, avstruct_b51d9c2c-278f-4357-b84a-da6959ea9959.xml, ks/KSDEVICE_DESCRIPTOR, ks/PKSDEVICE_DESCRIPTOR, stream.ksdevice_descriptor"
 ms.topic: struct
 req.header: ks.h

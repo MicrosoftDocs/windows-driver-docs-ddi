@@ -6,7 +6,7 @@ description: The wiasCreateChildAppItem function creates a new application item 
 old-location: image\wiascreatechildappitem.htm
 tech.root: image
 ms.assetid: 1dba59b0-5eac-4507-bd42-517a856aa864
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiascreatechildappitem, wiamdef/wiasCreateChildAppItem, wiasCreateChildAppItem, wiasCreateChildAppItem function [Imaging Devices], wiasFncs_63e9cbb1-6435-433b-a27f-36b66042be8a.xml
 ms.topic: function
 req.header: wiamdef.h

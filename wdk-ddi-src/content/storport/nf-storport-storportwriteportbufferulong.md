@@ -6,7 +6,7 @@ description: The StorPortWritePortBufferUlong routine writes a value to a specif
 old-location: storage\storportwriteportbufferulong.htm
 tech.root: storage
 ms.assetid: 24735e9a-d259-48d1-8efe-8ff1642b6a35
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortWritePortBufferUlong, StorPortWritePortBufferUlong routine [Storage Devices], storage.storportwriteportbufferulong, storport/StorPortWritePortBufferUlong, storprt_7ab33563-108d-4d20-8205-c3f5ac790f59.xml
 ms.topic: macro
 req.header: storport.h

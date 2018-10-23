@@ -6,7 +6,7 @@ description: The BDCB_STATUS_UPDATE_CONTEXT structure describes a status update 
 old-location: kernel\bdcb_status_update_context.htm
 tech.root: kernel
 ms.assetid: 5DB29B81-2D7A-44FA-B5A9-FEF87C6A926D
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PBDCB_STATUS_UPDATE_CONTEXT, BDCB_STATUS_UPDATE_CONTEXT, BDCB_STATUS_UPDATE_CONTEXT structure [Kernel-Mode Driver Architecture], PBDCB_STATUS_UPDATE_CONTEXT, PBDCB_STATUS_UPDATE_CONTEXT structure pointer [Kernel-Mode Driver Architecture], _BDCB_STATUS_UPDATE_CONTEXT, kernel.bdcb_status_update_context, ntddk/BDCB_STATUS_UPDATE_CONTEXT, ntddk/PBDCB_STATUS_UPDATE_CONTEXT"
 ms.topic: struct
 req.header: ntddk.h

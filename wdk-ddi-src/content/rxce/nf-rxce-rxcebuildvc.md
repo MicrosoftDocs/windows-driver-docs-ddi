@@ -6,7 +6,7 @@ description: RxCeBuildVC adds a virtual circuit to a specified RDBSS connection.
 old-location: ifsk\rxcebuildvc.htm
 tech.root: ifsk
 ms.assetid: b060bd22-113f-4f78-8763-d1d19cf198b8
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxCeBuildVC, RxCeBuildVC function [Installable File System Drivers], ifsk.rxcebuildvc, rxce/RxCeBuildVC, rxref_4f4f58c7-5970-4a86-883e-359e92bddaa3.xml
 ms.topic: function
 req.header: rxce.h

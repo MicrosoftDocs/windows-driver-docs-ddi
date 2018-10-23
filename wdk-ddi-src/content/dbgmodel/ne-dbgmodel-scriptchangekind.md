@@ -4,7 +4,7 @@ title: ScriptChangeKind
 author: windows-driver-content
 description: Indicates the type of notification firing to the host.
 ms.assetid: 6aca4d1a-84d3-400e-8b00-131364737c9b
-ms.date: 07/16/2018 
+ms.date: 07/16/2018
 ms.topic: enum
 ms.keywords: ScriptChangeKind, , 
 req.header: dbgmodel.h

@@ -6,7 +6,7 @@ description: The ScsiPortFreeDeviceBase routine frees a range of device I/O or m
 old-location: storage\scsiportfreedevicebase.htm
 tech.root: storage
 ms.assetid: 391f3b20-175f-4b27-b30f-34ccc43ca650
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ScsiPortFreeDeviceBase, ScsiPortFreeDeviceBase routine [Storage Devices], scsiprt_e74eafd2-bedf-46d2-b71a-fb36b6bba128.xml, srb/ScsiPortFreeDeviceBase, storage.scsiportfreedevicebase
 ms.topic: function
 req.header: srb.h

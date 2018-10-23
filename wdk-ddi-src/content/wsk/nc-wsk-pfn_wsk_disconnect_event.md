@@ -6,7 +6,7 @@ description: The WskDisconnectEvent event callback function notifies a WSK appli
 old-location: netvista\wskdisconnectevent.htm
 tech.root: netvista
 ms.assetid: bf12d7b3-080e-46d9-b276-76d42068e7c6
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: PFN_WSK_DISCONNECT_EVENT, PFN_WSK_DISCONNECT_EVENT callback, WskDisconnectEvent, WskDisconnectEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskdisconnectevent, wsk/WskDisconnectEvent, wskref_ec112b8d-f939-456f-9766-e181c7836e2c.xml
 ms.topic: callback
 req.header: wsk.h

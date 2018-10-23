@@ -6,7 +6,7 @@ description: The GetType method gets the data type that is associated with a tag
 old-location: debugger\idebugfaentrytags_gettype.htm
 tech.root: debugger
 ms.assetid: CE43711F-E17B-4234-A885-4FE04EA53903
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetType, GetType method [Windows Debugging], GetType method [Windows Debugging],IDebugFAEntryTags interface, IDebugFAEntryTags interface [Windows Debugging],GetType method, IDebugFAEntryTags.GetType, IDebugFAEntryTags::GetType, debugger.idebugfaentrytags_gettype, extsfns/IDebugFAEntryTags::GetType
 ms.topic: method
 req.header: extsfns.h

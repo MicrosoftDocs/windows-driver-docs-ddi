@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The DXGK_POINTERFLAGS structure identifies mouse pointer capabilities of the display miniport driver that the driver provides through a call to its DxgkDdiQueryAdapterInfo function.
 old-location: display\dxgk_pointerflags.htm
 ms.assetid: 0d49a089-700e-42c0-a1f3-7b181b8aef96
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_POINTERFLAGS, DXGK_POINTERFLAGS structure [Display Devices], DmStructs_e2e2d800-cf64-44f9-95a2-a5eca8b8c303.xml, _DXGK_POINTERFLAGS, d3dkmddi/DXGK_POINTERFLAGS, display.dxgk_pointerflags
 ms.topic: struct
 req.header: d3dkmddi.h

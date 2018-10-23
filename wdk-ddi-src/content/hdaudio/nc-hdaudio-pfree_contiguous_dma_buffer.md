@@ -6,7 +6,7 @@ description: The FreeContiguousDmaBuffer routine frees a DMA buffer and buffer d
 old-location: audio\freecontiguousdmabuffer.htm
 tech.root: audio
 ms.assetid: 7aaf98cc-8a94-44e6-9fef-76e00db17405
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: FreeContiguousDmaBuffer, FreeContiguousDmaBuffer callback function [Audio Devices], PFREE_CONTIGUOUS_DMA_BUFFER, PFREE_CONTIGUOUS_DMA_BUFFER callback, aud-prop2_66797c8c-c8ac-443e-9515-1269a14a87a0.xml, audio.freecontiguousdmabuffer, hdaudio/FreeContiguousDmaBuffer
 ms.topic: callback
 req.header: hdaudio.h

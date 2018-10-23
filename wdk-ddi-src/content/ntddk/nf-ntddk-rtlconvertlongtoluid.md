@@ -6,7 +6,7 @@ description: The RtlConvertLongToLuid routine converts a long integer to a local
 old-location: kernel\rtlconvertlongtoluid.htm
 tech.root: kernel
 ms.assetid: bc03feaf-ee98-4b47-a659-809b5b8b9364
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlConvertLongToLuid, RtlConvertLongToLuid routine [Kernel-Mode Driver Architecture], k109_be3bfbe0-7a0b-43e3-a22e-2cd6e5a92f2e.xml, kernel.rtlconvertlongtoluid, ntddk/RtlConvertLongToLuid
 ms.topic: function
 req.header: ntddk.h

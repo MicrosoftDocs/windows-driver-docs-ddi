@@ -6,7 +6,7 @@ description: The IOCTL_GPIO_WRITE_PINS I/O control code enables a client of the 
 old-location: gpio\ioctl_gpio_write_pins.htm
 tech.root: GPIO
 ms.assetid: 579462C6-2C0B-41AC-836D-2D3448080AD8
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: GPIO.ioctl_gpio_write_pins, IOCTL_GPIO_WRITE_PINS, IOCTL_GPIO_WRITE_PINS control, IOCTL_GPIO_WRITE_PINS control code [Parallel Ports], gpio/IOCTL_GPIO_WRITE_PINS
 ms.topic: ioctl
 req.header: gpio.h

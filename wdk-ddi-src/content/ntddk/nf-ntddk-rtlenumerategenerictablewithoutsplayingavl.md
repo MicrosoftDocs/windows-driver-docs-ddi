@@ -6,7 +6,7 @@ description: The RtlEnumerateGenericTableWithoutSplayingAvl routine is used to e
 old-location: ifsk\rtlenumerategenerictablewithoutsplayingavl.htm
 tech.root: ifsk
 ms.assetid: 27F0C336-3C8C-49B5-A7DB-F0640526CAE8
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlEnumerateGenericTableWithoutSplayingAvl, RtlEnumerateGenericTableWithoutSplayingAvl routine [Installable File System Drivers], ifsk.rtlenumerategenerictablewithoutsplayingavl, ntddk/RtlEnumerateGenericTableWithoutSplayingAvl
 ms.topic: function
 req.header: ntddk.h

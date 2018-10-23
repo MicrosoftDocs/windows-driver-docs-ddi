@@ -6,7 +6,7 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extihvstoppostassociate.htm
 tech.root: netvista
 ms.assetid: bd924049-3932-4e85-908e-c3fb488b3a8c
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: DOT11EXTIHV_STOP_POST_ASSOCIATE, Dot11ExtIhvStopPostAssociate, Dot11ExtIhvStopPostAssociate callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_674652ff-a01d-493b-9b11-bff378f25f2a.xml, netvista.dot11extihvstoppostassociate, wlanihv/Dot11ExtIhvStopPostAssociate
 ms.topic: callback
 req.header: wlanihv.h

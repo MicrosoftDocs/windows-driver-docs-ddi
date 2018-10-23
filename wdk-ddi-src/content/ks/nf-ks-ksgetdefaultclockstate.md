@@ -6,7 +6,7 @@ description: The KsGetDefaultClockState function gets the current state of the c
 old-location: stream\ksgetdefaultclockstate.htm
 tech.root: stream
 ms.assetid: b579fd85-5073-4894-a4ef-e56638f45ef6
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsGetDefaultClockState, KsGetDefaultClockState function [Streaming Media Devices], ks/KsGetDefaultClockState, ksfunc_9b1067e9-8d12-42a5-969e-0ec6205f12e2.xml, stream.ksgetdefaultclockstate
 ms.topic: function
 req.header: ks.h

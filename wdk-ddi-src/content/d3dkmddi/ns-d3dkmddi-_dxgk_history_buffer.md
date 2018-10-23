@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Specifies a history buffer that stores time stamps that record GPU activity throughout the execution lifetime of a direct memory access (DMA) buffer.
 old-location: display\dxgk_history_buffer.htm
 ms.assetid: 66088355-A110-4295-81D9-542491E2D6E4
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_HISTORY_BUFFER, DXGK_HISTORY_BUFFER structure [Display Devices], _DXGK_HISTORY_BUFFER, d3dkmddi/DXGK_HISTORY_BUFFER, display.dxgk_history_buffer
 ms.topic: struct
 req.header: d3dkmddi.h

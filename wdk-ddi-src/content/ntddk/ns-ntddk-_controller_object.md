@@ -6,7 +6,7 @@ description: A controller object represents a hardware adapter or controller wit
 old-location: kernel\controller_object.htm
 tech.root: kernel
 ms.assetid: a5530901-e48c-4f4e-86a8-00d5ed01f933
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PCONTROLLER_OBJECT, CONTROLLER_OBJECT, CONTROLLER_OBJECT structure [Kernel-Mode Driver Architecture], PCONTROLLER_OBJECT, PCONTROLLER_OBJECT structure pointer [Kernel-Mode Driver Architecture], _CONTROLLER_OBJECT, kernel.controller_object, kstruct_a_391d0fc2-3a61-4b2b-b571-143d2af7ef9b.xml, ntddk/CONTROLLER_OBJECT, ntddk/PCONTROLLER_OBJECT"
 ms.topic: struct
 req.header: ntddk.h

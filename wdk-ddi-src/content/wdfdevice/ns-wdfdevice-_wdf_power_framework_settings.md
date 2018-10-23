@@ -6,7 +6,7 @@ description: The WDF_POWER_FRAMEWORK_SETTINGS structure describes power manageme
 old-location: wdf\wdf_power_framework_settings.htm
 tech.root: wdf
 ms.assetid: 2512682A-4E1C-453F-8C46-E8979E46B8EF
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*PWDF_POWER_FRAMEWORK_SETTINGS, PWDF_POWER_FRAMEWORK_SETTINGS, PWDF_POWER_FRAMEWORK_SETTINGS structure pointer, WDF_POWER_FRAMEWORK_SETTINGS, WDF_POWER_FRAMEWORK_SETTINGS structure, _WDF_POWER_FRAMEWORK_SETTINGS, kmdf.wdf_power_framework_settings, wdf.wdf_power_framework_settings, wdfdevice/PWDF_POWER_FRAMEWORK_SETTINGS, wdfdevice/WDF_POWER_FRAMEWORK_SETTINGS"
 ms.topic: struct
 req.header: wdfdevice.h

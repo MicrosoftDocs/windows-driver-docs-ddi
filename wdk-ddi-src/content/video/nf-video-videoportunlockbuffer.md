@@ -6,7 +6,7 @@ description: The VideoPortUnLockBuffer function unlocks physical pages described
 old-location: display\videoportunlockbuffer.htm
 tech.root: display
 ms.assetid: d5d34f32-026b-4c9f-86ae-a835d4e9c381
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortUnlockBuffer, VideoPortUnlockBuffer function [Display Devices], VideoPort_Functions_2cb5a81f-1956-4431-bf54-7ee6e3d79eab.xml, display.videoportunlockbuffer, video/VideoPortUnlockBuffer
 ms.topic: function
 req.header: video.h

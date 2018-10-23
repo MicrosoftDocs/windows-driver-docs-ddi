@@ -6,7 +6,7 @@ description: The VideoPortCompleteDma function flushes any data remaining in a b
 old-location: display\videoportcompletedma.htm
 tech.root: display
 ms.assetid: 8af5a397-7945-4f72-a253-04d227bf3ca1
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortCompleteDma, VideoPortCompleteDma function [Display Devices], VideoPort_Functions_1ee3a02f-e0bb-4230-8161-957ceba37206.xml, display.videoportcompletedma, video/VideoPortCompleteDma
 ms.topic: function
 req.header: video.h

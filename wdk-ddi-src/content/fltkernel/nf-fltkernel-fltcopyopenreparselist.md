@@ -6,7 +6,7 @@ description: This routine copies any open reparse information from a previous cr
 old-location: ifsk\fltcopyopenreparselist.htm
 tech.root: ifsk
 ms.assetid: 07C39363-559A-4B55-850E-052BA78E869D
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], FltCopyOpenReparseList, fltkernel/FltAddOpenReparseEntry, ifsk.fltcopyopenreparselist
 ms.topic: function
 req.header: fltkernel.h

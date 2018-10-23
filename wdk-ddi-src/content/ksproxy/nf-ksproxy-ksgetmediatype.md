@@ -6,7 +6,7 @@ description: The KsGetMediaType function retrieves information about a media typ
 old-location: stream\ksgetmediatype.htm
 tech.root: stream
 ms.assetid: 4b7aac38-ab29-4cac-a7f0-896423b17400
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsGetMediaType, KsGetMediaType function [Streaming Media Devices], ksproxy/KsGetMediaType, ksproxy_6472bffc-0280-4954-80f5-7e2ae2b2f49b.xml, stream.ksgetmediatype
 ms.topic: function
 req.header: ksproxy.h

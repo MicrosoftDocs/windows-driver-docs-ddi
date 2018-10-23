@@ -4,7 +4,7 @@ title: _OUTPUTDUPL_CONTEXT_DEBUG_INFO
 author: windows-driver-content
 description: The output duplicate context debug info.
 ms.assetid: eedcaa37-78cb-4ce1-b30c-2b818585ebb5
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _OUTPUTDUPL_CONTEXT_DEBUG_INFO, OUTPUTDUPL_CONTEXT_DEBUG_INFO, 
 req.header: d3dkmthk.h

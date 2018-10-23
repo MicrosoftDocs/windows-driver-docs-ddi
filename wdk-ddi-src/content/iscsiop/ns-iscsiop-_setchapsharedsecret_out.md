@@ -6,7 +6,7 @@ description: The SetCHAPSharedSecret_OUT structure holds the output data for the
 old-location: storage\setchapsharedsecret_out.htm
 tech.root: storage
 ms.assetid: a169a5b2-5303-41fc-80d2-69b44fd45c47
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSetCHAPSharedSecret_OUT, PSetCHAPSharedSecret_OUT, PSetCHAPSharedSecret_OUT structure pointer [Storage Devices], SetCHAPSharedSecret_OUT, SetCHAPSharedSecret_OUT structure [Storage Devices], _SetCHAPSharedSecret_OUT, iscsiop/PSetCHAPSharedSecret_OUT, iscsiop/SetCHAPSharedSecret_OUT, storage.setchapsharedsecret_out, structs-iSCSI_f11f03d2-424a-4537-9cbd-f4fd3ca0e59d.xml"
 ms.topic: struct
 req.header: iscsiop.h

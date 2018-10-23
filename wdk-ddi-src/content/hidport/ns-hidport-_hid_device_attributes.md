@@ -6,7 +6,7 @@ description: The HID_DEVICE_ATTRIBUTES structure contains information about a HI
 old-location: hid\hid_device_attributes.htm
 tech.root: hid
 ms.assetid: ba874c8a-b0df-475c-b34d-56ad0a3472db
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PHID_DEVICE_ATTRIBUTES, HID_DEVICE_ATTRIBUTES, HID_DEVICE_ATTRIBUTES structure [Human Input Devices], PHID_DEVICE_ATTRIBUTES, PHID_DEVICE_ATTRIBUTES structure pointer [Human Input Devices], _HID_DEVICE_ATTRIBUTES, hid.hid_device_attributes, hidport/HID_DEVICE_ATTRIBUTES, hidport/PHID_DEVICE_ATTRIBUTES, hidstrct_2ba6111b-4231-40eb-9b08-0b3b396079d8.xml"
 ms.topic: struct
 req.header: hidport.h

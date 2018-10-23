@@ -6,7 +6,7 @@ description: Warning  Starting with Windows 10, the APIs which support third-
 old-location: print\getjobattributes.htm
 tech.root: print
 ms.assetid: 06affa2e-d22c-4d24-8c5f-6ef52e3051fa
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetJobAttributes, GetJobAttributes function [Print Devices], print.getjobattributes, spoolfnc_5f511391-a38e-4d0b-8d45-4464b798a7c9.xml, winsplp/GetJobAttributes
 ms.topic: function
 req.header: winsplp.h

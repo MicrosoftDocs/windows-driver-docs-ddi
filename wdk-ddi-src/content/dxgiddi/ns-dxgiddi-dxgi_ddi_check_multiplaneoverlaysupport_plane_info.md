@@ -6,7 +6,7 @@ description: Specifies the support attributes that the hardware provides for mul
 old-location: display\dxgi_ddi_check_multiplaneoverlaysupport_plane_info.htm
 tech.root: display
 ms.assetid: 3a1e41b5-cd62-436b-a4ed-6dee99c03cac
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGI_DDI_CHECK_MULTIPLANEOVERLAYSUPPORT_PLANE_INFO, DXGI_DDI_CHECK_MULTIPLANEOVERLAYSUPPORT_PLANE_INFO structure [Display Devices], DXGI_DDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO, DXGI_DDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO structure [Display Devices], display.dxgi_ddi_check_multiplaneoverlaysupport_plane_info, dxgiddi/DXGI_DDI_CHECK_MULTIPLANEOVERLAYSUPPORT_PLANE_INFO
 ms.topic: struct
 req.header: dxgiddi.h

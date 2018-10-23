@@ -6,7 +6,7 @@ description: The RequestWorker routine is called by a platform extension plug-in
 old-location: kernel\requestworker.htm
 tech.root: kernel
 ms.assetid: A77277D2-B644-469D-A668-78C23BF41367
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: POFXCALLBACKREQUESTWORKER, RequestWorker, RequestWorker routine [Kernel-Mode Driver Architecture], kernel.requestworker, pepfx/RequestWorker
 ms.topic: callback
 req.header: pep_x.h

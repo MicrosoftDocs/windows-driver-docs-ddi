@@ -4,7 +4,7 @@ title: DXGKDDI_SUBMITCOMMANDTOHWQUEUE
 author: windows-driver-content
 description: Invoked by the DirectX graphics kernel to append a DMA buffer to a GPU visible hardware queue.
 ms.assetid: 4dec4717-b938-4960-8347-991e100537eb
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header:

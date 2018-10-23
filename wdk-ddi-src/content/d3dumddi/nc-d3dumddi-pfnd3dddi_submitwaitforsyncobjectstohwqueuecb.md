@@ -6,7 +6,7 @@ description: A callback to submit a wait command to the hardware queue.
 old-location: display\pfnd3dddi_submitwaitforsyncobjectstohwqueuecb.htm
 tech.root: display
 ms.assetid: 4FD92529-0F47-46FC-9567-D8C0A5D76728
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB, PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB callback, PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB callback function [Display Devices], d3dumddi/PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB, display.pfnd3dddi_submitwaitforsyncobjectstohwqueuecb
 ms.topic: callback
 req.header: d3dumddi.h

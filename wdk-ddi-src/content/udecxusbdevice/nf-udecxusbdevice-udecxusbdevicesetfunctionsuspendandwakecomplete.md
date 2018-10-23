@@ -6,7 +6,7 @@ description: Completes an asynchronous request for changing the power state of a
 old-location: buses\udecxusbdevicesetfunctionsuspendandwakecomplete.htm
 tech.root: usbref
 ms.assetid: 21339CB5-8529-4649-9F1A-9D8C80709407
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UdecxUsbDeviceSetFunctionSuspendAndWakeComplete, UdecxUsbDeviceSetFunctionSuspendAndWakeComplete function [Buses], buses.udecxusbdevicesetfunctionsuspendandwakecomplete, udecxusbdevice/UdecxUsbDeviceSetFunctionSuspendAndWakeComplete
 ms.topic: function
 req.header: udecxusbdevice.h

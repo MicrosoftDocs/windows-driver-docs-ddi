@@ -6,7 +6,7 @@ description: The KsPinPropertyHandler function performs standard handling of the
 old-location: stream\kspinpropertyhandler.htm
 tech.root: stream
 ms.assetid: b721b79b-93f3-4dc8-853d-543222464341
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsPinPropertyHandler, KsPinPropertyHandler function [Streaming Media Devices], ks/KsPinPropertyHandler, ksfunc_4ebda111-4b9a-4e8e-b050-af336121bcf0.xml, stream.kspinpropertyhandler
 ms.topic: function
 req.header: ks.h

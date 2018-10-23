@@ -6,7 +6,7 @@ description: The NdisFreeMemoryWithTagPriority function releases memory that was
 old-location: netvista\ndisfreememorywithtagpriority.htm
 tech.root: netvista
 ms.assetid: 3870e2c8-22cf-4f96-8c2b-4c3cac26d50f
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisFreeMemoryWithTagPriority, NdisFreeMemoryWithTagPriority function [Network Drivers Starting with Windows Vista], ndis/NdisFreeMemoryWithTagPriority, ndis_shared_memory_ref_60846563-cc80-4e5e-b9da-37bcfd5239b2.xml, netvista.ndisfreememorywithtagpriority
 ms.topic: function
 req.header: ndis.h

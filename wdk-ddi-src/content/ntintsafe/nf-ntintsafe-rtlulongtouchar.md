@@ -6,7 +6,7 @@ description: Converts a value of type ULONG to a value of type UCHAR.
 old-location: kernel\rtlulongtouchar.htm
 tech.root: kernel
 ms.assetid: 4958FB4E-D049-40EB-A6CA-973DCF7F397B
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlULongToUChar, RtlULongToUChar function [Kernel-Mode Driver Architecture], kernel.rtlulongtouchar, ntintsafe/RtlULongToUChar
 ms.topic: function
 req.header: ntintsafe.h

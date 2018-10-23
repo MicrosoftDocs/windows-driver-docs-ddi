@@ -6,7 +6,7 @@ description: Gets the audio data format for the audio engine mixer.
 old-location: audio\iminiportaudioenginenode_getmixformat.htm
 tech.root: audio
 ms.assetid: CB0DD6C8-DFB3-42E0-B38F-341677A72E29
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: GetMixFormat, GetMixFormat method [Audio Devices], GetMixFormat method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetMixFormat method, IMiniportAudioEngineNode.GetMixFormat, IMiniportAudioEngineNode::GetMixFormat, audio.iminiportaudioenginenode_getmixformat, portcls/IMiniportAudioEngineNode::GetMixFormat
 ms.topic: method
 req.header: portcls.h

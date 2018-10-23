@@ -6,7 +6,7 @@ description: The D3DKMDT_VIDEO_PRESENT_TARGET structure contains information abo
 old-location: display\d3dkmdt_video_present_target.htm
 tech.root: display
 ms.assetid: e36aba12-51fc-486c-a92c-47f72a4bcb0a
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMDT_VIDEO_PRESENT_TARGET, D3DKMDT_VIDEO_PRESENT_TARGET structure [Display Devices], DmStructs_ef451c58-7ee5-4c52-9afe-9aab45114186.xml, _D3DKMDT_VIDEO_PRESENT_TARGET, d3dkmdt/D3DKMDT_VIDEO_PRESENT_TARGET, display.d3dkmdt_video_present_target
 ms.topic: struct
 req.header: d3dkmdt.h

@@ -4,7 +4,7 @@ title: D3D12DDI_RESOURCE_SERIALIZATION_TIER_0041
 author: windows-driver-content
 description: The resource serialization tiers.
 ms.assetid: a2c48f53-07d9-4f3f-bfcb-f0c1359aaa31
-ms.date:
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_RESOURCE_SERIALIZATION_TIER_0041, D3D12DDI_RESOURCE_SERIALIZATION_TIER_0041,
 req.header: d3d12umddi.h

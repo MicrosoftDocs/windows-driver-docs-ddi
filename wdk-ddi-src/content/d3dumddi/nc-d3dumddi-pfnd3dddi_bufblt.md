@@ -6,7 +6,7 @@ description: The BufBlt function performs a bit-block transfer (bitblt) operatio
 old-location: display\bufblt.htm
 tech.root: display
 ms.assetid: d75f3fad-3bcd-44ad-9bd5-f61f5346cf8d
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: BufBlt, BufBlt callback function [Display Devices], PFND3DDDI_BUFBLT, PFND3DDDI_BUFBLT callback, UserModeDisplayDriver_Functions_87f3469d-cae9-43e7-a0ae-d19bef34314e.xml, d3dumddi/BufBlt, display.bufblt
 ms.topic: callback
 req.header: d3dumddi.h

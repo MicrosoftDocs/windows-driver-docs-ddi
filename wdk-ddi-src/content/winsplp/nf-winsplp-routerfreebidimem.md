@@ -6,7 +6,7 @@ description: RouterFreeBidiMem frees a block of memory that was previously alloc
 old-location: print\routerfreebidimem.htm
 tech.root: print
 ms.assetid: 946b1630-844a-43ac-8c26-fdfa2ee7866a
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: RouterFreeBidiMem, RouterFreeBidiMem function [Print Devices], print.routerfreebidimem, spoolfnc_cc4cfcb8-c020-4112-9774-a2961e8a4ba2.xml, winsplp/RouterFreeBidiMem
 ms.topic: function
 req.header: winsplp.h

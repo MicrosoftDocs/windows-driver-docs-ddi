@@ -6,7 +6,7 @@ description: Filter drivers call the NdisFOidRequest function to forward an OID 
 old-location: netvista\ndisfoidrequest.htm
 tech.root: netvista
 ms.assetid: 8434bf2c-9c9a-49a1-bf88-b67b1eec721c
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisFOidRequest, NdisFOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisFOidRequest, ndis_request_ref_b5034fc8-9122-4c87-b690-a6989c1592c1.xml, netvista.ndisfoidrequest
 ms.topic: function
 req.header: ndis.h

@@ -6,7 +6,7 @@ description: The IoCreateNotificationEvent routine creates or opens a named noti
 old-location: kernel\iocreatenotificationevent.htm
 tech.root: kernel
 ms.assetid: 44be034e-0c82-4980-a246-132d1b50dee1
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoCreateNotificationEvent, IoCreateNotificationEvent routine [Kernel-Mode Driver Architecture], k104_2b3bf223-0427-40e2-9f95-da5aa12c5da2.xml, kernel.iocreatenotificationevent, wdm/IoCreateNotificationEvent
 ms.topic: function
 req.header: wdm.h
@@ -108,7 +108,7 @@ The user-mode application creates the event object and passes a handle to the ob
 
 </li>
 <li>
-The driver creates a named event object in the \\BaseNamedObjects object directory. You can open a kernel-mode event named \\BaseNamedObjects\<i>Xxx</i> in user mode under the name <i>Xxx</i>. Note that security settings can prevent an application from opening the event. For more information, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=70044">OpenEvent Fails in a Non-Administrator Account</a> KB article. The \\BaseNamedObjects object directory is not created until the Microsoft Win32 subsystem initializes, so drivers that are loaded at boot time cannot create event objects in the \\BaseNamedObjects directory in their <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routines.
+The driver creates a named event object in the \\BaseNamedObjects object directory. You can open a kernel-mode event named \\BaseNamedObjects\<i>Xxx</i> in user mode under the name <i>Xxx</i>. Note that security settings can prevent an application from opening the event. For more information, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=70044">OpenEvent Fails in a Non-Administrator Account</a> KB article. The \\BaseNamedObjects object directory is not created until the Microsoft Win32 subsystem initializes, so drivers that are loaded at boot time cannot create event objects in the \\BaseNamedObjects directory in their <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routines.
 
 </li>
 </ul>

@@ -6,7 +6,7 @@ description: The RtlUInt8Sub routine subtracts one value of type UINT8 from anot
 old-location: kernel\rtluint8sub.htm
 tech.root: kernel
 ms.assetid: D8BD24AA-64CF-42CB-8AD2-2B6C77D4B195
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUInt8Sub, RtlUInt8Sub function [Kernel-Mode Driver Architecture], kernel.rtluint8sub, ntintsafe/RtlUInt8Sub
 ms.topic: function
 req.header: ntintsafe.h

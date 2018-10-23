@@ -6,7 +6,7 @@ description: The IsVersionAvailable method determines whether the specified vers
 old-location: wdf\iwdfdriver_isversionavailable.htm
 tech.root: wdf
 ms.assetid: 9048a568-3369-44eb-8fa8-361ce968a253
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFDriver interface,IsVersionAvailable method, IWDFDriver.IsVersionAvailable, IWDFDriver::IsVersionAvailable, IsVersionAvailable, IsVersionAvailable method, IsVersionAvailable method,IWDFDriver interface, UMDFDriverObjectRef_6ad78413-a8c5-4a9f-953d-94bd4eaf3425.xml, umdf.iwdfdriver_isversionavailable, wdf.iwdfdriver_isversionavailable, wudfddi/IWDFDriver::IsVersionAvailable
 ms.topic: method
 req.header: wudfddi.h

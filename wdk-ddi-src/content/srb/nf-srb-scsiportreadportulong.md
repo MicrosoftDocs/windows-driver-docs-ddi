@@ -6,7 +6,7 @@ description: The ScsiPortReadPortUlong routine reads a ULONG value from the HBA.
 old-location: storage\scsiportreadportulong.htm
 tech.root: storage
 ms.assetid: 2b45d62f-1e0c-4445-a8ad-e8d263f7d43c
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ScsiPortReadPortUlong, ScsiPortReadPortUlong routine [Storage Devices], scsiprt_af6cc9e1-eaa8-4c05-a695-ed54690d0f3b.xml, srb/ScsiPortReadPortUlong, storage.scsiportreadportulong
 ms.topic: function
 req.header: srb.h

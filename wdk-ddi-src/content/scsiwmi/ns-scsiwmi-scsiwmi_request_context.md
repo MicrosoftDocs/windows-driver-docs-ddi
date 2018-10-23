@@ -6,7 +6,7 @@ description: A SCSIWMI_REQUEST_CONTEXT structure contains context information fo
 old-location: storage\scsiwmi_request_context.htm
 tech.root: storage
 ms.assetid: 524150d8-d4a7-4b61-89c4-0074c938559b
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSCSIWMI_REQUEST_CONTEXT, PSCSIWMI_REQUEST_CONTEXT, PSCSIWMI_REQUEST_CONTEXT structure pointer [Storage Devices], SCSIWMI_REQUEST_CONTEXT, SCSIWMI_REQUEST_CONTEXT structure [Storage Devices], scsiwmi/PSCSIWMI_REQUEST_CONTEXT, scsiwmi/SCSIWMI_REQUEST_CONTEXT, storage.scsiwmi_request_context, structs-scsibus_3323f388-8dc7-4723-bc2c-7822ed622ccd.xml"
 ms.topic: struct
 req.header: scsiwmi.h

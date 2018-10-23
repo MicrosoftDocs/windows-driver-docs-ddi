@@ -6,7 +6,7 @@ description: Repartitions a disk as specified. (Floppy drivers need not handle t
 old-location: storage\ioctl_disk_set_drive_layout.htm
 tech.root: storage
 ms.assetid: d6b0682a-bce2-40d3-a69b-cf676c21d253
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_DISK_SET_DRIVE_LAYOUT, IOCTL_DISK_SET_DRIVE_LAYOUT control, IOCTL_DISK_SET_DRIVE_LAYOUT control code [Storage Devices], k307_53d3cc3b-a829-432a-8ee0-9a2035d08a62.xml, ntdddisk/IOCTL_DISK_SET_DRIVE_LAYOUT, storage.ioctl_disk_set_drive_layout
 ms.topic: ioctl
 req.header: ntdddisk.h

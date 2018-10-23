@@ -6,7 +6,7 @@ description: The OEMSendPage function is called by GDI when it has finished draw
 old-location: print\oemsendpage.htm
 tech.root: print
 ms.assetid: 9a3380d0-2d90-49ec-b97d-be55eb6eaaa5
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: OEMSendPage, OEMSendPage function [Print Devices], print.oemsendpage, print_unidrv-pscript_rendering_6a896dea-57aa-4fa0-810f-dadb79b13079.xml, printoem/OEMSendPage
 ms.topic: function
 req.header: printoem.h

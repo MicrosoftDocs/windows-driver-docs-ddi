@@ -6,7 +6,7 @@ description: The IoQueueWorkItemEx routine associates a WorkItemEx routine with 
 old-location: kernel\ioqueueworkitemex.htm
 tech.root: kernel
 ms.assetid: 277a6e13-dc2d-4170-a141-9df5b93eb504
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoQueueWorkItemEx, IoQueueWorkItemEx routine [Kernel-Mode Driver Architecture], k104_e14fae9d-5b8c-4683-8226-8694de253b64.xml, kernel.ioqueueworkitemex, wdm/IoQueueWorkItemEx
 ms.topic: function
 req.header: wdm.h

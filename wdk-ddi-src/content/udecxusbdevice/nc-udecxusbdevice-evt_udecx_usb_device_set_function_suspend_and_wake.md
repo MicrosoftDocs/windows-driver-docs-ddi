@@ -6,7 +6,7 @@ description: The USB device emulation class extension (UdeCx) invokes this callb
 old-location: buses\evt_udecx_usb_device_set_function_suspend_and_wake.htm
 tech.root: usbref
 ms.assetid: 54484E17-AA96-4152-B672-94C29E53F352
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: EVT_UDECX_USB_DEVICE_SET_FUNCTION_SUSPEND_AND_WAKE, EVT_UDECX_USB_DEVICE_SET_FUNCTION_SUSPEND_AND_WAKE callback, EvtUsbDeviceSetFunctionSuspendAndWake, EvtUsbDeviceSetFunctionSuspendAndWake callback function [Buses], buses.evt_udecx_usb_device_set_function_suspend_and_wake, udecxusbdevice/EvtUsbDeviceSetFunctionSuspendAndWake
 ms.topic: callback
 req.header: udecxusbdevice.h

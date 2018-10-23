@@ -6,7 +6,7 @@ description: Retrieves an IPrinterQueueView object, and initializes the object w
 old-location: print\iprinterqueue2_getprinterqueueview.htm
 tech.root: print
 ms.assetid: C565288C-B014-4A92-9F50-1641EAA30D22
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetPrinterQueueView, GetPrinterQueueView method [Print Devices], GetPrinterQueueView method [Print Devices],IPrinterQueue2 interface, IPrinterQueue2 interface [Print Devices],GetPrinterQueueView method, IPrinterQueue2.GetPrinterQueueView, IPrinterQueue2::GetPrinterQueueView, print.iprinterqueue2_getprinterqueueview, printerextension/IPrinterQueue2::GetPrinterQueueView
 ms.topic: method
 req.header: printerextension.h

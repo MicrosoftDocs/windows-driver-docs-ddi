@@ -6,7 +6,7 @@ description: The IPSEC_OFFLOAD_V2_DELETE_SA structure specifies a security assoc
 old-location: netvista\ipsec_offload_v2_delete_sa.htm
 tech.root: netvista
 ms.assetid: a75088e8-c7a5-4ca4-a8fc-8e88f9e20bb9
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PIPSEC_OFFLOAD_V2_DELETE_SA, IPSEC_OFFLOAD_V2_DELETE_SA, IPSEC_OFFLOAD_V2_DELETE_SA structure [Network Drivers Starting with Windows Vista], PIPSEC_OFFLOAD_V2_DELETE_SA, PIPSEC_OFFLOAD_V2_DELETE_SA structure pointer [Network Drivers Starting with Windows Vista], _IPSEC_OFFLOAD_V2_DELETE_SA, ndis/IPSEC_OFFLOAD_V2_DELETE_SA, ndis/PIPSEC_OFFLOAD_V2_DELETE_SA, netvista.ipsec_offload_v2_delete_sa, task_offload_IPsecv2_ref_98d355a4-b502-4601-a419-815d4de90c6f.xml"
 ms.topic: struct
 req.header: ndis.h

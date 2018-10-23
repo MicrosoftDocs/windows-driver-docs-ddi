@@ -4,7 +4,7 @@ title: DXGKCB_REPORT_DIAGNOSTIC
 author: windows-driver-content
 description: Implemented by the kernel mode driver to report diagnostic logging.
 ms.assetid: 1c38189b-daaf-4d55-826a-5e868a0e1190
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: dispmprt.h
 req.include-header:

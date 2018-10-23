@@ -6,7 +6,7 @@ description: The AgpCommitVirtual function maps reserved virtual memory to an as
 old-location: display\agpcommitvirtual.htm
 tech.root: display
 ms.assetid: 8a3e7fcd-d838-47ad-a42b-7eb070f81418
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: AgpCommitVirtual, AgpCommitVirtual callback function [Display Devices], PAGP_COMMIT_VIRTUAL, PAGP_COMMIT_VIRTUAL callback, VideoPort_Functions_74f16518-6071-45bb-a44d-80fe042814ea.xml, display.agpcommitvirtual, videoagp/AgpCommitVirtual
 ms.topic: callback
 req.header: videoagp.h

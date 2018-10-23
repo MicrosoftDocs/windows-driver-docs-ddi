@@ -6,7 +6,7 @@ description: Describes information about a Universal Serial Bus (USB) event noti
 old-location: buses\usbfn_notification.htm
 tech.root: usbref
 ms.assetid: 84B66823-F357-44DD-A401-79E27FA6B324
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSBFN_NOTIFICATION, PUSBFN_NOTIFICATION, PUSBFN_NOTIFICATION structure pointer [Buses], USBFN_NOTIFICATION, USBFN_NOTIFICATION structure [Buses], _USBFN_NOTIFICATION, buses.usbfn_notification, usbfnbase/PUSBFN_NOTIFICATION, usbfnbase/USBFN_NOTIFICATION"
 ms.topic: struct
 req.header: usbfnbase.h

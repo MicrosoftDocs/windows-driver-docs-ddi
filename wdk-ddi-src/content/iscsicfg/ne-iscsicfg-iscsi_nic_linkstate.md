@@ -6,7 +6,7 @@ description: The ISCSI_NIC_LINKSTATE enumeration indicates whether a port is con
 old-location: storage\iscsi_nic_linkstate.htm
 tech.root: storage
 ms.assetid: e373b1dd-54bd-429c-a5b9-9f8df546c185
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PISCSI_NIC_LINKSTATE, ISCSI_NIC_LINKSTATE, ISCSI_NIC_LINKSTATE enumeration [Storage Devices], ISCSI_NIC_LINKSTATE_CONNECTED, ISCSI_NIC_LINKSTATE_DISCONNECTED, PISCSI_NIC_LINKSTATE, PISCSI_NIC_LINKSTATE enumeration pointer [Storage Devices], iscsicfg/ISCSI_NIC_LINKSTATE, iscsicfg/ISCSI_NIC_LINKSTATE_CONNECTED, iscsicfg/ISCSI_NIC_LINKSTATE_DISCONNECTED, iscsicfg/PISCSI_NIC_LINKSTATE, storage.iscsi_nic_linkstate, structs-iSCSI_23ddbeb6-19d4-49f2-b61f-00ea2e5ef0a8.xml"
 ms.topic: enum
 req.header: iscsicfg.h

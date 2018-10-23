@@ -6,7 +6,7 @@ description: The HidP_GetUsageValueArray routine extracts the data associated wi
 old-location: hid\hidp_getusagevaluearray.htm
 tech.root: hid
 ms.assetid: afc92692-c665-44a7-b268-d29adc42f5bd
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: HidP_GetUsageValueArray, HidP_GetUsageValueArray routine [Human Input Devices], hid.hidp_getusagevaluearray, hidfunc_4e641f34-d016-4b2f-b472-069334d3e461.xml, hidpi/HidP_GetUsageValueArray
 ms.topic: function
 req.header: hidpi.h

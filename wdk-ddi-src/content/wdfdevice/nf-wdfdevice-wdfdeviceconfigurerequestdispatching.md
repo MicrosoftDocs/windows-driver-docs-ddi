@@ -6,7 +6,7 @@ description: The WdfDeviceConfigureRequestDispatching method causes the framewor
 old-location: wdf\wdfdeviceconfigurerequestdispatching.htm
 tech.root: wdf
 ms.assetid: aba4cccd-267d-48cc-a6ff-be19802adfdc
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_d1874c0c-e889-4225-8bbf-e8292edcb716.xml, WdfDeviceConfigureRequestDispatching, WdfDeviceConfigureRequestDispatching method, kmdf.wdfdeviceconfigurerequestdispatching, wdf.wdfdeviceconfigurerequestdispatching, wdfdevice/WdfDeviceConfigureRequestDispatching
 ms.topic: function
 req.header: wdfdevice.h

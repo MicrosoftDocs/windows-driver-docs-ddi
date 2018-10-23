@@ -6,7 +6,7 @@ description: The FWPS_FIELDS_DATAGRAM_DATA_V4 enumeration type specifies the dat
 old-location: netvista\fwps_fields_datagram_data_v4.htm
 tech.root: netvista
 ms.assetid: 9ef2a413-22ce-466b-a036-4e50d8bc3883
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FWPS_FIELDS_DATAGRAM_DATA_V4, FWPS_FIELDS_DATAGRAM_DATA_V4 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELDS_DATAGRAM_DATA_V4_, FWPS_FIELD_DATAGRAM_DATA_V4_DIRECTION, FWPS_FIELD_DATAGRAM_DATA_V4_FLAGS, FWPS_FIELD_DATAGRAM_DATA_V4_INTERFACE_INDEX, FWPS_FIELD_DATAGRAM_DATA_V4_INTERFACE_TYPE, FWPS_FIELD_DATAGRAM_DATA_V4_IP_LOCAL_ADDRESS, FWPS_FIELD_DATAGRAM_DATA_V4_IP_LOCAL_ADDRESS_TYPE, FWPS_FIELD_DATAGRAM_DATA_V4_IP_LOCAL_INTERFACE, FWPS_FIELD_DATAGRAM_DATA_V4_IP_LOCAL_PORT, FWPS_FIELD_DATAGRAM_DATA_V4_IP_PROTOCOL, FWPS_FIELD_DATAGRAM_DATA_V4_IP_REMOTE_ADDRESS, FWPS_FIELD_DATAGRAM_DATA_V4_IP_REMOTE_PORT, FWPS_FIELD_DATAGRAM_DATA_V4_MAX, FWPS_FIELD_DATAGRAM_DATA_V4_SUB_INTERFACE_INDEX, FWPS_FIELD_DATAGRAM_DATA_V4_TUNNEL_TYPE, fwpsk/FWPS_FIELDS_DATAGRAM_DATA_V4, fwpsk/FWPS_FIELD_DATAGRAM_DATA_V4_DIRECTION, fwpsk/FWPS_FIELD_DATAGRAM_DATA_V4_FLAGS, fwpsk/FWPS_FIELD_DATAGRAM_DATA_V4_INTERFACE_INDEX, fwpsk/FWPS_FIELD_DATAGRAM_DATA_V4_INTERFACE_TYPE, fwpsk/FWPS_FIELD_DATAGRAM_DATA_V4_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_DATAGRAM_DATA_V4_IP_LOCAL_ADDRESS_TYPE, fwpsk/FWPS_FIELD_DATAGRAM_DATA_V4_IP_LOCAL_INTERFACE, fwpsk/FWPS_FIELD_DATAGRAM_DATA_V4_IP_LOCAL_PORT, fwpsk/FWPS_FIELD_DATAGRAM_DATA_V4_IP_PROTOCOL, fwpsk/FWPS_FIELD_DATAGRAM_DATA_V4_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_DATAGRAM_DATA_V4_IP_REMOTE_PORT, fwpsk/FWPS_FIELD_DATAGRAM_DATA_V4_MAX, fwpsk/FWPS_FIELD_DATAGRAM_DATA_V4_SUB_INTERFACE_INDEX, fwpsk/FWPS_FIELD_DATAGRAM_DATA_V4_TUNNEL_TYPE, netvista.fwps_fields_datagram_data_v4, wfp_ref_5_const_3_data_fields_cefe4e9c-ec39-4078-9790-453448162e92.xml
 ms.topic: enum
 req.header: fwpsk.h
@@ -121,7 +121,7 @@ A bitwise OR of a combination of filtering condition flags. For information abou
 
 The type of the local network interface, as defined by the Internet Assigned Numbers Authority
      (IANA). For more information, see 
-     <a href="http://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a>.
+     <a href="https://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a>.
 
 
 ### -field FWPS_FIELD_DATAGRAM_DATA_V4_TUNNEL_TYPE
@@ -129,7 +129,7 @@ The type of the local network interface, as defined by the Internet Assigned Num
 The encapsulation method used by a tunnel if the 
      <b>IfType</b> member of the IP_ADAPTER_ADDRESSES structure is IF_TYPE_TUNNEL. The tunnel type is defined
      by IANA. For more information, see 
-     <a href="http://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a> and the
+     <a href="https://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a> and the
      Windows SDK.
 
 

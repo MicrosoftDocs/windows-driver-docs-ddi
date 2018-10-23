@@ -6,7 +6,7 @@ description: Describes a Power Data Object. For information about these members,
 old-location: buses\ucm_pd_power_data_object.htm
 tech.root: usbref
 ms.assetid: C54750A9-EE64-4FE7-9ED6-EC9709A82C43
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUCM_PD_POWER_DATA_OBJECT, PUCM_PD_POWER_DATA_OBJECT, PUCM_PD_POWER_DATA_OBJECT union pointer [Buses], UCM_PD_POWER_DATA_OBJECT, UCM_PD_POWER_DATA_OBJECT union [Buses], _UCM_PD_POWER_DATA_OBJECT, buses.ucm_pd_power_data_object, ucmtypes/PUCM_PD_POWER_DATA_OBJECT, ucmtypes/UCM_PD_POWER_DATA_OBJECT"
 ms.topic: struct
 req.header: ucmtypes.h

@@ -6,7 +6,7 @@ description: The NdisDprAcquireReadWriteLock function acquires a lock that the c
 old-location: netvista\ndisdpracquirereadwritelock.htm
 tech.root: netvista
 ms.assetid: 09B574FA-BCBA-4370-8F9F-BF30CE0BE52D
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisDprAcquireReadWriteLock, NdisDprAcquireReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisDprAcquireReadWriteLock, netvista.ndisdpracquirereadwritelock
 ms.topic: function
 req.header: ndis.h

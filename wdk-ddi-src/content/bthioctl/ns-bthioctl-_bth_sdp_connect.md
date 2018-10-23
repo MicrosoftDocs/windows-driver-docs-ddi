@@ -6,7 +6,7 @@ description: The BTH_SDP_CONNECT structure contains input and output information
 old-location: bltooth\bth_sdp_connect.htm
 tech.root: bltooth
 ms.assetid: 328dca02-9276-4a3d-acac-e00721863243
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: "*PBTH_SDP_CONNECT, BTH_SDP_CONNECT, BTH_SDP_CONNECT structure [Bluetooth Devices], PBTH_SDP_CONNECT, PBTH_SDP_CONNECT structure pointer [Bluetooth Devices], _BTH_SDP_CONNECT, bltooth.bth_sdp_connect, bth_structs_5502fd7e-54f1-46dd-a441-68103d439c27.xml, bthioctl/BTH_SDP_CONNECT, bthioctl/PBTH_SDP_CONNECT"
 ms.topic: struct
 req.header: bthioctl.h

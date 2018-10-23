@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\riladditionalcallerinfoparammask.htm
 tech.root: netvista
 ms.assetid: b37246ed-37b8-4d5f-aace-41053ea839da
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILADDITIONALCALLERINFOPARAMMASK, RILADDITIONALCALLERINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_ADDTLCI_ALL, RIL_PARAM_ADDTLCI_CALLERINFO, RIL_PARAM_ADDTLCI_CALLERINFOLENGTH, RIL_PARAM_ADDTLCI_CALLID, netvista.riladditionalcallerinfoparammask, ntddrilapitypes/RILADDITIONALCALLERINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_ADDTLCI_ALL, ntddrilapitypes/RIL_PARAM_ADDTLCI_CALLERINFO, ntddrilapitypes/RIL_PARAM_ADDTLCI_CALLERINFOLENGTH, ntddrilapitypes/RIL_PARAM_ADDTLCI_CALLID
 ms.topic: enum
 req.header: ntddrilapitypes.h

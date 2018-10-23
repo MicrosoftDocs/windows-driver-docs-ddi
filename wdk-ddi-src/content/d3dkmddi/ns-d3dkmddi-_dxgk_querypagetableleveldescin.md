@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The DXGK_QUERYPAGETABLELEVELDESCIN structure is used to request page level descriptors from the Dxgkrnl Interface.
 old-location: display\dxgk_querypagetableleveldescin.htm
 ms.assetid: 1B13BBB1-4184-4166-A61F-CC266D0391BF
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_QUERYPAGETABLELEVELDESCIN, DXGK_QUERYPAGETABLELEVELDESCIN structure [Display Devices], _DXGK_QUERYPAGETABLELEVELDESCIN, d3dkmddi/DXGK_QUERYPAGETABLELEVELDESCIN, display.dxgk_querypagetableleveldescin
 ms.topic: struct
 req.header: d3dkmddi.h

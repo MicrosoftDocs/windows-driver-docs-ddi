@@ -4,7 +4,7 @@ title: PFND3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY
 author: windows-driver-content
 description: The PFND3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY callback function sets the scheduling priority for a device context that is in the same process as other device contexts.
 ms.assetid: f449b34a-48be-498b-856b-fd9f2f48008f
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

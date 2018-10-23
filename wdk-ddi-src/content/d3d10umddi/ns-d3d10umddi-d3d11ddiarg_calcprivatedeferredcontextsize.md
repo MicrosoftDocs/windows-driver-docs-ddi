@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE structure describes the parameters that the user-mode display driver uses to calculate the size of a memory block that the driver requires to store frequently-accessed data.
 old-location: display\d3d11ddiarg_calcprivatedeferredcontextsize.htm
 ms.assetid: 7889400e-bd26-43b5-a860-bea9f9217002
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE, D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE structure [Display Devices], UMDisplayDriver_Dx11param_Structs_eca4d605-7188-46b1-b429-04094a9f7db6.xml, d3d10umddi/D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE, display.d3d11ddiarg_calcprivatedeferredcontextsize
 ms.topic: struct
 req.header: d3d10umddi.h

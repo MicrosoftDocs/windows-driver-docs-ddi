@@ -6,7 +6,7 @@ description: Identifies a blend operation to be performed on an overlay plane.
 old-location: display\dxgi_ddi_multiplane_overlay_blend.htm
 tech.root: display
 ms.assetid: 00b263e7-8655-4219-8e06-e0feba659d04
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_BLEND, DXGI_DDI_MULTIPLANE_OVERLAY_BLEND enumeration [Display Devices], DXGI_DDI_MULTIPLANE_OVERLAY_BLEND_ALPHABLEND, DXGI_DDI_MULTIPLANE_OVERLAY_BLEND_OPAQUE, display.dxgi_ddi_multiplane_overlay_blend, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_BLEND, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_BLEND_ALPHABLEND, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_BLEND_OPAQUE
 ms.topic: enum
 req.header: dxgiddi.h

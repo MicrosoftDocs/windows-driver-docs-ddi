@@ -6,7 +6,7 @@ description: Stores the isochronous transfer path delay values.
 old-location: buses\ucx_usbdevice_characteristic_path_delay.htm
 tech.root: usbref
 ms.assetid: 135D6C04-3520-46C2-BC64-DF0119578E6F
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY structure pointer [Buses], UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY structure [Buses], _UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, buses.ucx_usbdevice_characteristic_path_delay, ucxusbdevice/PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, ucxusbdevice/UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY"
 ms.topic: struct
 req.header: ucxusbdevice.h

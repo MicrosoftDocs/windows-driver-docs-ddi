@@ -6,7 +6,7 @@ description: The IoGetDevicePropertyData routine retrieves the current setting f
 old-location: kernel\iogetdevicepropertydata.htm
 tech.root: kernel
 ms.assetid: 3ca026b8-abed-409c-8be4-01553cfadca3
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoGetDevicePropertyData, IoGetDevicePropertyData routine [Kernel-Mode Driver Architecture], k104_85cb50ca-43cc-401a-8ed1-32ff0c381ed8.xml, kernel.iogetdevicepropertydata, wdm/IoGetDevicePropertyData
 ms.topic: function
 req.header: wdm.h
@@ -67,7 +67,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn31
 
 ### -param Lcid [in]
 
-A locale identifier. Set this parameter either to a language-specific LCID value or to <b>LOCALE_NEUTRAL</b>. The <b>LOCALE_NEUTRAL</b> LCID specifies that the property is language-neutral (that is, not specific to any language). Do not set this parameter to <b>LOCALE_SYSTEM_DEFAULT</b> or <b>LOCALE_USER_DEFAULT</b>. For more information about language-specific LCID values, see <a href="http://msdn.microsoft.com/library/cc233968(PROT.10).aspx">LCID Structure</a>.
+A locale identifier. Set this parameter either to a language-specific LCID value or to <b>LOCALE_NEUTRAL</b>. The <b>LOCALE_NEUTRAL</b> LCID specifies that the property is language-neutral (that is, not specific to any language). Do not set this parameter to <b>LOCALE_SYSTEM_DEFAULT</b> or <b>LOCALE_USER_DEFAULT</b>. For more information about language-specific LCID values, see <a href="https://msdn.microsoft.com/library/cc233968(PROT.10).aspx">LCID Structure</a>.
 
 
 ### -param Flags

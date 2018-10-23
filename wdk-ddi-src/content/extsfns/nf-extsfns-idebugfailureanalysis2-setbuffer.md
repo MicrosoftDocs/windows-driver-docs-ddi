@@ -6,7 +6,7 @@ description: The SetBuffer method searches a DebugFailureAnalysis object for the
 old-location: debugger\idebugfailureanalysis2_setbuffer.htm
 tech.root: debugger
 ms.assetid: 366EE066-AD47-4A75-87B4-17279C66C741
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging],SetBuffer method, IDebugFailureAnalysis2.SetBuffer, IDebugFailureAnalysis2::SetBuffer, SetBuffer, SetBuffer method [Windows Debugging], SetBuffer method [Windows Debugging],IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_setbuffer, extsfns/IDebugFailureAnalysis2::SetBuffer
 ms.topic: method
 req.header: extsfns.h

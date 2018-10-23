@@ -6,7 +6,7 @@ description: The SERCX_ACTIVITY_INIT function initializes a SERCX_ACTIVITY struc
 old-location: serports\sercx_activity_init.htm
 tech.root: serports
 ms.assetid: 211A3DBB-96B8-4DB5-BB50-FAB7500D999F
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 1/SERCX_ACTIVITY_INIT, SERCX_ACTIVITY_INIT, SERCX_ACTIVITY_INIT function [Serial Ports], serports.sercx_activity_init
 ms.topic: function
 req.header: sercx.h

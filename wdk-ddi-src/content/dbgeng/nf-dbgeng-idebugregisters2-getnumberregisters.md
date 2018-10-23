@@ -6,7 +6,7 @@ description: The GetNumberRegisters method returns the number of registers on th
 old-location: debugger\getnumberregisters.htm
 tech.root: debugger
 ms.assetid: 51c521fc-e89c-49c9-8110-de31af3bed83
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetNumberRegisters, GetNumberRegisters method [Windows Debugging], GetNumberRegisters method [Windows Debugging],IDebugRegisters interface, GetNumberRegisters method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters interface [Windows Debugging],GetNumberRegisters method, IDebugRegisters2 interface [Windows Debugging],GetNumberRegisters method, IDebugRegisters2.GetNumberRegisters, IDebugRegisters2::GetNumberRegisters, IDebugRegisters::GetNumberRegisters, IDebugRegisters_b2fa1d95-0331-4c27-a3af-3cc8e895e88f.xml, dbgeng/IDebugRegisters2::GetNumberRegisters, dbgeng/IDebugRegisters::GetNumberRegisters, debugger.getnumberregisters
 ms.topic: method
 req.header: dbgeng.h

@@ -6,7 +6,7 @@ description: The FsRtlGetFileSize routine is used to get the size of a file.
 old-location: ifsk\fsrtlgetfilesize.htm
 tech.root: ifsk
 ms.assetid: 82fcf0da-e945-4cb4-90fc-bb095119ef20
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: FsRtlGetFileSize, FsRtlGetFileSize routine [Installable File System Drivers], fsrtlref_d1056cd3-20f5-436c-9bac-0f1c217bb569.xml, ifsk.fsrtlgetfilesize, ntifs/FsRtlGetFileSize
 ms.topic: function
 req.header: ntifs.h

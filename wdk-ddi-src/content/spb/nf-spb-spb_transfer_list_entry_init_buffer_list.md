@@ -6,7 +6,7 @@ description: The SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST function returns an SP
 old-location: spb\spb_transfer_list_entry_init_buffer_list.htm
 tech.root: SPB
 ms.assetid: 39FFE334-1696-43EF-81FA-C9B05F8FB644
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: SPB.spb_transfer_list_entry_init_buffer_list, SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST, SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST function [Buses], spb/SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST
 ms.topic: function
 req.header: spb.h

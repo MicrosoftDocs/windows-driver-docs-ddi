@@ -4,7 +4,7 @@ title: PFND3D12DDI_CALCPRIVATEDEPTHSTENCILSTATESIZE
 author: windows-driver-content
 description: The CalcPrivateDepthStencilStateSize function determines the size of the user-mode display driver's private region of memory for a depth stencil state.
 ms.assetid: 8c9d49d0-78bf-4b27-bcf5-5473eb641755
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:

@@ -6,7 +6,7 @@ description: Defines power delivery (PD) negotiation states of a Type-C port.
 old-location: buses\ucm_pd_conn_state.htm
 tech.root: usbref
 ms.assetid: 7D146DDF-58A5-40C2-BF21-AF785DC7DB18
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UCM_PD_CONN_STATE, UCM_PD_CONN_STATE enumeration [Buses], UcmPdConnStateInvalid, UcmPdConnStateNegotiationFailed, UcmPdConnStateNegotiationSucceeded, UcmPdConnStateNotSupported, _UCM_PD_CONN_STATE, buses.ucm_pd_conn_state, ucmtypes/UCM_PD_CONN_STATE, ucmtypes/UcmPdConnStateInvalid, ucmtypes/UcmPdConnStateNegotiationFailed, ucmtypes/UcmPdConnStateNegotiationSucceeded, ucmtypes/UcmPdConnStateNotSupported
 ms.topic: enum
 req.header: ucmtypes.h

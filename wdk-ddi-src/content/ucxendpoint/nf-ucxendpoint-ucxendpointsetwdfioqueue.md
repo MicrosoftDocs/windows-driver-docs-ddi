@@ -6,7 +6,7 @@ description: Sets a framework queue on the specified endpoint object.
 old-location: buses\_ucxendpointsetwdfioqueue.htm
 tech.root: usbref
 ms.assetid: DC23B286-8A52-4642-B345-D76802C83C55
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UcxEndpointSetWdfIoQueue, UcxEndpointSetWdfIoQueue method [Buses], buses._ucxendpointsetwdfioqueue
 ms.topic: function
 req.header: ucxendpoint.h

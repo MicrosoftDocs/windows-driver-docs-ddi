@@ -6,7 +6,7 @@ description: The CreateRasterize method creates an XPS rasterizer object that ca
 old-location: print\xpsrasterizationfactory1_createrasterizer1.htm
 tech.root: print
 ms.assetid: 00F1C6B7-9AD8-4E42-B433-4BD73E85CFA3
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: CreateRasterizer, CreateRasterizer method [Print Devices], CreateRasterizer method [Print Devices],IXPSRasterizationFactory1 interface, IXPSRasterizationFactory1 interface [Print Devices],CreateRasterizer method, IXPSRasterizationFactory1::CreateRasterizer, IXpsRasterizationFactory1.CreateRasterizer, IXpsRasterizationFactory1::CreateRasterizer, print.xpsrasterizationfactory1_createrasterizer1, xpsrassvc/IXPSRasterizationFactory1::CreateRasterizer
 ms.topic: method
 req.header: xpsrassvc.h
@@ -57,7 +57,7 @@ The <code>CreateRasterize</code> method creates an XPS rasterizer object that ca
 
 ### -param xpsPage [in, optional]
 
-Pointer to an <b>IXpsOMPage</b> object that represents the XPS fixed page to render. This object encapsulates a FixedPage section from an XPS document. For more information about <b>IXpsOMPage</b>, see <a href="http://go.microsoft.com/fwlink/p/?linkid=146349">IXpsOMPage</a><u>.</u>
+Pointer to an <b>IXpsOMPage</b> object that represents the XPS fixed page to render. This object encapsulates a FixedPage section from an XPS document. For more information about <b>IXpsOMPage</b>, see <a href="https://go.microsoft.com/fwlink/p/?linkid=146349">IXpsOMPage</a><u>.</u>
 
 
 ### -param DPI [in]

@@ -6,7 +6,7 @@ description: The PWINDBG_GET_THREAD_CONTEXT_ROUTINE (GetContext) function implem
 old-location: debugger\getcontext.htm
 tech.root: debugger
 ms.assetid: 706e05ae-9507-4414-b02c-52016e7bbbd9
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetContext, GetContext callback function [Windows Debugging], PWINDBG_GET_THREAD_CONTEXT_ROUTINE, PWINDBG_GET_THREAD_CONTEXT_ROUTINE callback, WdbgExts_Ref_52639fac-abbf-4abc-a01f-361d14e49fd0.xml, debugger.getcontext, wdbgexts/GetContext
 ms.topic: callback
 req.header: wdbgexts.h

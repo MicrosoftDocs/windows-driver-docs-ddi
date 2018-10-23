@@ -4,7 +4,7 @@ title: PFND3DKMT_GETSHAREDPRIMARYHANDLE
 author: windows-driver-content
 description: Pfnd3dkmtGetsharedprimaryhandle retrieves the global shared handle for the primary surface.
 ms.assetid: 264423b0-f635-4530-a0e8-c9ac3dac9e4c
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

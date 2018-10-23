@@ -6,7 +6,7 @@ description: The KdDisableDebugger routine disables the kernel debugger.
 old-location: devtest\kddisabledebugger.htm
 tech.root: devtest
 ms.assetid: 491f1b10-342d-4edf-9b70-732f9d4755f2
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: DebugFns_e280d38c-6f87-4540-a782-d7669815a0f5.xml, KdDisableDebugger, KdDisableDebugger routine [Driver Development Tools], devtest.kddisabledebugger, wdm/KdDisableDebugger
 ms.topic: function
 req.header: wdm.h

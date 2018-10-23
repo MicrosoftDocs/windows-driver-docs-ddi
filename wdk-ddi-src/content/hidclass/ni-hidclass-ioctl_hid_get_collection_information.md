@@ -6,7 +6,7 @@ description: The IOCTL_HID_GET_COLLECTION_INFORMATION request obtains a top-leve
 old-location: hid\ioctl_hid_get_collection_information.htm
 tech.root: hid
 ms.assetid: 4d080a3d-7277-4bc5-b435-af2c334862ca
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IOCTL_HID_GET_COLLECTION_INFORMATION, IOCTL_HID_GET_COLLECTION_INFORMATION control, IOCTL_HID_GET_COLLECTION_INFORMATION control code [Human Input Devices], hid.ioctl_hid_get_collection_information, hidclass/IOCTL_HID_GET_COLLECTION_INFORMATION, hidioreq_f9030552-353d-4f1d-ae66-9689e8c9ad12.xml
 ms.topic: ioctl
 req.header: hidclass.h

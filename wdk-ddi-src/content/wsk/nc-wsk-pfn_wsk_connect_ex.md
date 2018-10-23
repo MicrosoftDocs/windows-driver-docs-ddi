@@ -6,7 +6,7 @@ description: The WskConnectEx function connects a connection-oriented or stream 
 old-location: netvista\wskconnectex.htm
 tech.root: netvista
 ms.assetid: 1BC518E9-747C-4406-8A2A-40A3BCB0A3AA
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: PFN_WSK_CONNECT_EX, PFN_WSK_CONNECT_EX callback, WskConnectEx, WskConnectEx callback function [Network Drivers Starting with Windows Vista], netvista.wskconnectex, wsk/WskConnectEx
 ms.topic: callback
 req.header: wsk.h

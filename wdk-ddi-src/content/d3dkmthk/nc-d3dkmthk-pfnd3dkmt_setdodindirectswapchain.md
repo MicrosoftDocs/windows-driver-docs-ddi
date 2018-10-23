@@ -4,7 +4,7 @@ title: PFND3DKMT_SETDODINDIRECTSWAPCHAIN
 author: windows-driver-content
 description: The PFND3DKMT_SETDODINDIRECTSWAPCHAIN callback function sets indirect swap chain resources.
 ms.assetid: 51e5a965-48a0-4a1b-a4a9-5b6f590b30c2
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

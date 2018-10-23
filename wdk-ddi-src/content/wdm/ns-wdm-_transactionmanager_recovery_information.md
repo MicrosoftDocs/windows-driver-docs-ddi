@@ -6,7 +6,7 @@ description: The TRANSACTIONMANAGER_RECOVERY_INFORMATION structure contains info
 old-location: kernel\transactionmanager_recovery_information.htm
 tech.root: kernel
 ms.assetid: 76701df3-8e7d-43fa-8caf-6cbf89504aad
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PTRANSACTIONMANAGER_RECOVERY_INFORMATION, PTRANSACTIONMANAGER_RECOVERY_INFORMATION, PTRANSACTIONMANAGER_RECOVERY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], TRANSACTIONMANAGER_RECOVERY_INFORMATION, TRANSACTIONMANAGER_RECOVERY_INFORMATION structure [Kernel-Mode Driver Architecture], _TRANSACTIONMANAGER_RECOVERY_INFORMATION, kernel.transactionmanager_recovery_information, ktm_ref_9efce7e2-3965-4659-8659-4f8262aad962.xml, wdm/PTRANSACTIONMANAGER_RECOVERY_INFORMATION, wdm/TRANSACTIONMANAGER_RECOVERY_INFORMATION"
 ms.topic: struct
 req.header: wdm.h

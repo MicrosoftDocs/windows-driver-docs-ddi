@@ -6,7 +6,7 @@ description: This structure represents the RILPOSITIONINFOLTE.
 old-location: netvista\rilpositioninfolte.htm
 tech.root: netvista
 ms.assetid: 40f4dfca-7ee6-48d2-b0a4-8a563587b2ab
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*LPRILPOSITIONINFOLTE, RILPOSITIONINFOLTE, RILPOSITIONINFOLTE structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfolte, rilapitypes/RILPOSITIONINFOLTE"
 ms.topic: struct
 req.header: ntddrilapitypes.h

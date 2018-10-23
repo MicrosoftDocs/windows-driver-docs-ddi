@@ -6,7 +6,7 @@ description: The GetVideoProcessBltStatePrivate function retrieves the state dat
 old-location: display\getvideoprocessbltstateprivate.htm
 tech.root: display
 ms.assetid: bb4c04cf-0125-47bf-8fc8-88d807e7b6ad
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: GetVideoProcessBltStatePrivate, GetVideoProcessBltStatePrivate callback function [Display Devices], PFND3DDDI_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE, PFND3DDDI_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE callback, UserModeDisplayDriver_Functions_e39248ae-aa92-4c0a-aebc-a48f7d1e24a7.xml, d3dumddi/GetVideoProcessBltStatePrivate, display.getvideoprocessbltstateprivate
 ms.topic: callback
 req.header: d3dumddi.h

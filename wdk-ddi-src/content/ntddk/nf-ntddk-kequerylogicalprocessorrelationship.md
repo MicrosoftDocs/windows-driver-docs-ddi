@@ -6,7 +6,7 @@ description: The KeQueryLogicalProcessorRelationship routine gets information ab
 old-location: kernel\kequerylogicalprocessorrelationship.htm
 tech.root: kernel
 ms.assetid: 343d965d-3e85-423e-a46b-894b19d5df4e
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeQueryLogicalProcessorRelationship, KeQueryLogicalProcessorRelationship routine [Kernel-Mode Driver Architecture], k105_0db645b1-dfa2-4d90-856f-975997dc09a8.xml, kernel.kequerylogicalprocessorrelationship, wdm/KeQueryLogicalProcessorRelationship
 ms.topic: function
 req.header: ntddk.h
@@ -62,7 +62,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 
 ### -param RelationshipType [in]
 
-Specifies the type of relationship information that is requested by the caller. Set this parameter to one of the following <a href="http://go.microsoft.com/fwlink/p/?linkid=155068">LOGICAL_PROCESSOR_RELATIONSHIP</a> enumeration values:
+Specifies the type of relationship information that is requested by the caller. Set this parameter to one of the following <a href="https://go.microsoft.com/fwlink/p/?linkid=155068">LOGICAL_PROCESSOR_RELATIONSHIP</a> enumeration values:
 
 <ul>
 <li>
@@ -93,7 +93,7 @@ Specifies the type of relationship information that is requested by the caller. 
 
 ### -param Information [out, optional]
 
-A pointer to a caller-allocated buffer into which the routine writes an array of one or more <a href="http://go.microsoft.com/fwlink/p/?linkid=155065">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a> structures that contain the information requested by the caller. If the function fails, the contents of this buffer are undefined. Set <i>Information</i> = <b>NULL</b> to obtain the required buffer length before you allocate the buffer. For more information, see the following Remarks section.
+A pointer to a caller-allocated buffer into which the routine writes an array of one or more <a href="https://go.microsoft.com/fwlink/p/?linkid=155065">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a> structures that contain the information requested by the caller. If the function fails, the contents of this buffer are undefined. Set <i>Information</i> = <b>NULL</b> to obtain the required buffer length before you allocate the buffer. For more information, see the following Remarks section.
 
 
 ### -param Length [in, out]
@@ -197,7 +197,7 @@ The NT_ASSERT macro is defined in the Wdm.h header file. The NT_SUCCESS macro is
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=155068">LOGICAL_PROCESSOR_RELATIONSHIP</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=155068">LOGICAL_PROCESSOR_RELATIONSHIP</a>
 
 
 
@@ -205,7 +205,7 @@ The NT_ASSERT macro is defined in the Wdm.h header file. The NT_SUCCESS macro is
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=155065">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=155065">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
  
 
  

@@ -6,7 +6,7 @@ description: Not recommended for application use.
 old-location: stream\ikspinpipe_kssetpipe.htm
 tech.root: stream
 ms.assetid: FAA97E98-FB31-462E-9776-5C27A10FD773
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsSetPipe method, IKsPinPipe.KsSetPipe, IKsPinPipe::KsSetPipe, KsSetPipe, KsSetPipe method [Streaming Media Devices], KsSetPipe method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsSetPipe, stream.ikspinpipe_kssetpipe
 ms.topic: method
 req.header: ksproxy.h

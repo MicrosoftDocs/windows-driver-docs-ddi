@@ -6,7 +6,7 @@ description: The NDIS_WWAN_DEVICE_SERVICE_EVENT structure describes unsolicited 
 old-location: netvista\ndis_wwan_device_service_event.htm
 tech.root: netvista
 ms.assetid: 43205AA6-2B1A-4D04-9AF8-E0EB53253F5B
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_WWAN_DEVICE_SERVICE_EVENT, NDIS_WWAN_DEVICE_SERVICE_EVENT, NDIS_WWAN_DEVICE_SERVICE_EVENT structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SERVICE_EVENT, PNDIS_WWAN_DEVICE_SERVICE_EVENT structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SERVICE_EVENT, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_EVENT, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_EVENT, netvista.ndis_wwan_device_service_event"
 ms.topic: struct
 req.header: ndiswwan.h

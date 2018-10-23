@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rildialparams_v2.htm
 tech.root: netvista
 ms.assetid: 0a60001b-5fa9-4f25-a92f-3634e2a50e36
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILDIALPARAMS, *LPRILDIALPARAMS_V2, RILDIALPARAMS, RILDIALPARAMS_V2, RILDIALPARAMS_V2 structure [Network Drivers Starting with Windows Vista], netvista.rildialparams_v2, ntddrilapitypes/RILDIALPARAMS_V2"
 ms.topic: struct
 req.header: ntddrilapitypes.h

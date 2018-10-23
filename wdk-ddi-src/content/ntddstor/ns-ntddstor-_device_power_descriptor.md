@@ -6,7 +6,7 @@ description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY control c
 old-location: storage\device_power_descriptor.htm
 tech.root: storage
 ms.assetid: A5925EE4-768C-421A-9813-015513751A91
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PDEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR structure [Storage Devices], PDEVICE_POWER_DESCRIPTOR, PDEVICE_POWER_DESCRIPTOR structure pointer [Storage Devices], _DEVICE_POWER_DESCRIPTOR, ntddstor/DEVICE_POWER_DESCRIPTOR, ntddstor/PDEVICE_POWER_DESCRIPTOR, storage.device_power_descriptor"
 ms.topic: struct
 req.header: ntddstor.h

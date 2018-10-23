@@ -6,7 +6,7 @@ description: The KeInitializeThreadedDpc routine initializes a threaded DPC obje
 old-location: kernel\keinitializethreadeddpc.htm
 tech.root: kernel
 ms.assetid: ee9124db-9d92-42e1-84fa-6d3eefeaeac5
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeInitializeThreadedDpc, KeInitializeThreadedDpc routine [Kernel-Mode Driver Architecture], k105_b5df057f-6d75-4a06-ac5f-d99340bdbb21.xml, kernel.keinitializethreadeddpc, wdm/KeInitializeThreadedDpc
 ms.topic: function
 req.header: wdm.h

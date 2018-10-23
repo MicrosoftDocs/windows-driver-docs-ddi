@@ -6,7 +6,7 @@ description: The IStiDeviceControl::GetMyDevicePortName method allows a user-mod
 old-location: image\istidevicecontrol_getmydeviceportname.htm
 tech.root: image
 ms.assetid: f400ab05-aea9-4154-a725-5b23a6dc06b6
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetMyDevicePortName, GetMyDevicePortName method [Imaging Devices], GetMyDevicePortName method [Imaging Devices],IStiDeviceControl interface, IStiDeviceControl interface [Imaging Devices],GetMyDevicePortName method, IStiDeviceControl.GetMyDevicePortName, IStiDeviceControl::GetMyDevicePortName, image.istidevicecontrol_getmydeviceportname, stifnc_00f6a8a0-b5dc-43d7-8a68-23b15592b404.xml, stiusd/IStiDeviceControl::GetMyDevicePortName
 ms.topic: method
 req.header: stiusd.h

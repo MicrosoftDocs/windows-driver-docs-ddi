@@ -4,7 +4,7 @@ title: IOCTL_LAMP_BASE
 author: windows-driver-content
 description: 
 ms.assetid: 91ad561c-3f84-4395-8612-bd7a836b6e24
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: ioctl
 req.header: lamp.h
 req.include-header:

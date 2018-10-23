@@ -6,7 +6,7 @@ description: Subtracts one value of type LONGLONG from another.
 old-location: kernel\rtllonglongsub.htm
 tech.root: kernel
 ms.assetid: A0D35ECE-5B7F-4F60-9178-75673C9A945F
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlLongLongSub, RtlLongLongSub function [Kernel-Mode Driver Architecture], kernel.rtllonglongsub, ntintsafe/RtlLongLongSub
 ms.topic: function
 req.header: ntintsafe.h

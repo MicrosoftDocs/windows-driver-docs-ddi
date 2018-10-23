@@ -6,7 +6,7 @@ description:
 old-location: print\printer_notify_init.htm
 tech.root: print
 ms.assetid: 45DFA669-8520-4EA5-8B36-822BDC8C958D
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*LPPRINTER_NOTIFY_INIT, *PPRINTER_NOTIFY_INIT, LPPRINTER_NOTIFY_INIT, LPPRINTER_NOTIFY_INIT structure pointer [Print Devices], PPRINTER_NOTIFY_INIT, PPRINTER_NOTIFY_INIT structure pointer [Print Devices], PRINTER_NOTIFY_INIT, PRINTER_NOTIFY_INIT structure [Print Devices], _PRINTER_NOTIFY_INIT, print.printer_notify_init, winsplp/LPPRINTER_NOTIFY_INIT, winsplp/PPRINTER_NOTIFY_INIT, winsplp/PRINTER_NOTIFY_INIT"
 ms.topic: struct
 req.header: winsplp.h

@@ -6,7 +6,7 @@ description: The ObRegisterCallbacks routine registers a list of callback routin
 old-location: kernel\obregistercallbacks.htm
 tech.root: kernel
 ms.assetid: 93593979-fe5f-48de-9c98-92acd43ec750
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ObRegisterCallbacks, ObRegisterCallbacks routine [Kernel-Mode Driver Architecture], k107_e5976812-0590-42f5-836c-85f9d262f19f.xml, kernel.obregistercallbacks, wdm/ObRegisterCallbacks
 ms.topic: function
 req.header: wdm.h

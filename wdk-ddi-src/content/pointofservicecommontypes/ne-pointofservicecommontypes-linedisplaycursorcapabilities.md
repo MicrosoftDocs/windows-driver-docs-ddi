@@ -6,7 +6,7 @@ description: This enumeration is not implemented.
 old-location: pos\linedisplaycursorcapabilities.htm
 tech.root: pos
 ms.assetid: 3F7AE8FE-F975-43AF-9FA0-C494E506D4B1
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: LineDisplayCursorCapabilities, LineDisplayCursorCapabilities enumeration, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayCursorCapabilities, pos.linedisplaycursorcapabilities
 ms.topic: enum
 req.header: pointofservicecommontypes.h

@@ -4,7 +4,7 @@ title: D3D12DDI_METACOMMAND_PARAMETER_ATTRIBUTES
 author: windows-driver-content
 description: The parameter attributes to pass for the meta-command.
 ms.assetid: 8f09e685-4727-49e3-b2f5-d352eeb959b4
-ms.date:
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_METACOMMAND_PARAMETER_ATTRIBUTES, D3D12DDI_METACOMMAND_PARAMETER_ATTRIBUTES,
 req.header: d3d12umddi.h

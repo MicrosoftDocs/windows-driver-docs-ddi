@@ -6,7 +6,7 @@ description: The SendRPS_OUT structure is used to report the output parameter da
 old-location: storage\sendrps_out.htm
 tech.root: storage
 ms.assetid: 5d243704-7424-4738-b122-6b9467eb5916
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSendRPS_OUT, SendRPS_OUT, SendRPS_OUT structure [Storage Devices], _SendRPS_OUT, hbapiwmi/SendRPS_OUT, storage.sendrps_out, structs-Fibre_0c81817b-666f-4b2b-8ae2-2342894d7c46.xml"
 ms.topic: struct
 req.header: hbapiwmi.h

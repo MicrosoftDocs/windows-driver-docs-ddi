@@ -6,7 +6,7 @@ description: The RetrieveDevicePropertyStore method retrieves a property store i
 old-location: wdf\iwdfpropertystorefactory_retrievedevicepropertystore.htm
 tech.root: wdf
 ms.assetid: 23a4c968-b1d1-48f4-9ea9-b97c4b5b4208
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFPropertyStoreFactory interface,RetrieveDevicePropertyStore method, IWDFPropertyStoreFactory.RetrieveDevicePropertyStore, IWDFPropertyStoreFactory::RetrieveDevicePropertyStore, RetrieveDevicePropertyStore, RetrieveDevicePropertyStore method, RetrieveDevicePropertyStore method,IWDFPropertyStoreFactory interface, UMDFDeviceObjectRef_79101c30-a5ab-44cf-8fa0-52394d1cce32.xml, umdf.iwdfpropertystorefactory_retrievedevicepropertystore, wdf.iwdfpropertystorefactory_retrievedevicepropertystore, wudfddi/IWDFPropertyStoreFactory::RetrieveDevicePropertyStore
 ms.topic: method
 req.header: wudfddi.h
@@ -69,7 +69,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561449">WDF_PRO
 
 ### -param DesiredAccess [in]
 
-A REGSAM-typed bit mask that specifies the types of access to the registry that you want your driver to have. The REGSAM type is defined in Winreg.h, and is described in the Windows SDK at <a href="http://go.microsoft.com/fwlink/p/?linkid=138045">REGSAM</a>. The bit mask must not specify GENERIC_WRITE, KEY_CREATE_SUB_KEY, or WRITE_DAC access. (Although the driver cannot specify KEY_CREATE_SUB_KEY, its call to <a href="https://msdn.microsoft.com/be47a1f0-03ff-432c-a3ef-5978c9b48183">RetrieveDevicePropertyStore</a> can create a subkey.)
+A REGSAM-typed bit mask that specifies the types of access to the registry that you want your driver to have. The REGSAM type is defined in Winreg.h, and is described in the Windows SDK at <a href="https://go.microsoft.com/fwlink/p/?linkid=138045">REGSAM</a>. The bit mask must not specify GENERIC_WRITE, KEY_CREATE_SUB_KEY, or WRITE_DAC access. (Although the driver cannot specify KEY_CREATE_SUB_KEY, its call to <a href="https://msdn.microsoft.com/be47a1f0-03ff-432c-a3ef-5978c9b48183">RetrieveDevicePropertyStore</a> can create a subkey.)
 
 
 ### -param SubkeyPath [in]

@@ -6,7 +6,7 @@ description: The UnregisterWMIProvider method unregisters the Event Tracing for 
 old-location: audio\iportwmiregistration_unregisterwmiprovider.htm
 tech.root: audio
 ms.assetid: 51c43e1a-ec8e-4dd2-ab08-b90cd89d9b5d
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IPortWMIRegistration interface [Audio Devices],UnregisterWMIProvider method, IPortWMIRegistration.UnregisterWMIProvider, IPortWMIRegistration::UnregisterWMIProvider, UnregisterWMIProvider, UnregisterWMIProvider method [Audio Devices], UnregisterWMIProvider method [Audio Devices],IPortWMIRegistration interface, audio.iportwmiregistration_unregisterwmiprovider, audmp-routines_3c640b1e-b98a-491d-a586-c6acaf8b07d4.xml, portcls/IPortWMIRegistration::UnregisterWMIProvider
 ms.topic: method
 req.header: portcls.h

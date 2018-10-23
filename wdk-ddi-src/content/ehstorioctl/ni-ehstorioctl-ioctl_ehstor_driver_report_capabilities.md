@@ -6,7 +6,7 @@ description: This IOCTL is used to inform the enhanced storage (EHSTOR) class dr
 old-location: storage\ioctl_ehstor_driver_report_capabilities.htm
 tech.root: storage
 ms.assetid: AD78ABAD-5DCF-4E1A-B521-8063B5BEA6A6
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES, IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES control, IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES, storage.ioctl_ehstor_driver_report_capabilities
 ms.topic: ioctl
 req.header: ehstorioctl.h

@@ -6,7 +6,7 @@ description: The PO_FX_COMPONENT structure describes the power state attributes 
 old-location: kernel\po_fx_component.htm
 tech.root: kernel
 ms.assetid: 4ACCA041-C638-4124-AFC1-3F34671C9EF8
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPO_FX_COMPONENT, *PPO_FX_COMPONENT_V1, PO_FX_COMPONENT, PO_FX_COMPONENT structure [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_V1, PO_FX_COMPONENT_V2, PO_FX_COMPONENT_V2 structure [Kernel-Mode Driver Architecture], PPO_FX_COMPONENT_V2, PPO_FX_COMPONENT_V2 structure pointer [Kernel-Mode Driver Architecture], _PO_FX_COMPONENT_V1, kernel.po_fx_component, wdm/PO_FX_COMPONENT, wdm/PO_FX_COMPONENT_V2, wdm/PPO_FX_COMPONENT_V2"
 ms.topic: struct
 req.header: wdm.h

@@ -6,7 +6,7 @@ description: FsRtlUninitializeOplock uninitializes an opportunistic lock (oplock
 old-location: ifsk\fsrtluninitializeoplock.htm
 tech.root: ifsk
 ms.assetid: 4891a13c-0c5c-4a38-8e1d-539f7675cccc
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlUninitializeOplock, FsRtlUninitializeOplock function [Installable File System Drivers], fsrtlref_b7e633fd-d91a-4db6-a1b6-2c695579a903.xml, ifsk.fsrtluninitializeoplock, ntifs/FsRtlUninitializeOplock
 ms.topic: function
 req.header: ntifs.h

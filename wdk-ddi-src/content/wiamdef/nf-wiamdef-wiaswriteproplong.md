@@ -6,7 +6,7 @@ description: The wiasWritePropLong function writes a single long integer propert
 old-location: image\wiaswriteproplong.htm
 tech.root: image
 ms.assetid: bc7122e4-acba-4115-98c8-ccb71b71e2c0
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiaswriteproplong, wiamdef/wiasWritePropLong, wiasFncs_af342c9b-5f61-492d-9765-86d62d492b55.xml, wiasWritePropLong, wiasWritePropLong function [Imaging Devices]
 ms.topic: function
 req.header: wiamdef.h

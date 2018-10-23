@@ -6,7 +6,7 @@ description: The RtlLengthRequiredSid routine returns the length, in bytes, of t
 old-location: ifsk\rtllengthrequiredsid.htm
 tech.root: ifsk
 ms.assetid: 1d6aa888-8e61-4a0e-88ea-13842fc2fff2
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlLengthRequiredSid, RtlLengthRequiredSid routine [Installable File System Drivers], ifsk.rtllengthrequiredsid, ntifs/RtlLengthRequiredSid, rtlref_78e8a660-8510-40bc-b221-747538423488.xml
 ms.topic: function
 req.header: ntifs.h

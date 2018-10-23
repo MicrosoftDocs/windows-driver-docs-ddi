@@ -4,7 +4,7 @@ title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_INPUT_0053
 author: windows-driver-content
 description: Describes the input to the motion estimation operation.
 ms.assetid: 8c2cee49-aaa9-4a86-9eb9-d78ce3e6b738
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDI_VIDEO_MOTION_ESTIMATOR_INPUT_0053, D3D12DDI_VIDEO_MOTION_ESTIMATOR_INPUT_0053, 
 req.header: d3d12umddi.h

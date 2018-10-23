@@ -6,7 +6,7 @@ description: The ExIsResourceAcquiredExclusiveLite routine returns whether the c
 old-location: kernel\exisresourceacquiredexclusivelite.htm
 tech.root: kernel
 ms.assetid: 81c07809-1c66-4b68-b2d9-05992c778ae6
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExIsResourceAcquiredExclusiveLite, ExIsResourceAcquiredExclusiveLite routine [Kernel-Mode Driver Architecture], k102_ef023047-60ff-42aa-8224-37e2cfbe9f7b.xml, kernel.exisresourceacquiredexclusivelite, wdm/ExIsResourceAcquiredExclusiveLite
 ms.topic: function
 req.header: wdm.h

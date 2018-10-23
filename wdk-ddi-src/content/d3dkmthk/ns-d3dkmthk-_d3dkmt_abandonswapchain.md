@@ -4,7 +4,7 @@ title: _D3DKMT_ABANDONSWAPCHAIN
 author: windows-driver-content
 description: Arguments used to abandon the swap chain effect.
 ms.assetid: 99e22aaa-40a5-4802-8549-322486e680ae
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_ABANDONSWAPCHAIN, D3DKMT_ABANDONSWAPCHAIN, 
 req.header: d3dkmthk.h

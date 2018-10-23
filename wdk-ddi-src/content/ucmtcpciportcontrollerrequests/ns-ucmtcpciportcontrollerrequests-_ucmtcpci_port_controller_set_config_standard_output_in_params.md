@@ -6,7 +6,7 @@ description: Stores the value of the CONFIG_STANDARD_OUTPUT Register. This struc
 old-location: buses\ucmtcpci_port_controller_set_config_standard_output_in_params.htm
 tech.root: usbref
 ms.assetid: 86db9434-b3df-4598-866f-db3e8957aeec
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUCMTCPCI_PORT_CONTROLLER_SET_CONFIG_STANDARD_OUTPUT_IN_PARAMS, PUCMTCPCI_PORT_CONTROLLER_SET_CONFIG_STANDARD_OUTPUT_IN_PARAMS, PUCMTCPCI_PORT_CONTROLLER_SET_CONFIG_STANDARD_OUTPUT_IN_PARAMS structure pointer [Buses], UCMTCPCI_PORT_CONTROLLER_SET_CONFIG_STANDARD_OUTPUT_IN_PARAMS, UCMTCPCI_PORT_CONTROLLER_SET_CONFIG_STANDARD_OUTPUT_IN_PARAMS structure [Buses], _UCMTCPCI_PORT_CONTROLLER_SET_CONFIG_STANDARD_OUTPUT_IN_PARAMS, buses.ucmtcpci_port_controller_set_config_standard_output_in_params, ucmtcpciportcontrollerrequests/PUCMTCPCI_PORT_CONTROLLER_SET_CONFIG_STANDARD_OUTPUT_IN_PARAMS, ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_SET_CONFIG_STANDARD_OUTPUT_IN_PARAMS"
 ms.topic: struct
 req.header: ucmtcpciportcontrollerrequests.h

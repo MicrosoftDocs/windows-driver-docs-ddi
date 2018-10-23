@@ -6,7 +6,7 @@ description: Call the NdisAllocateNetBufferAndNetBufferList function to allocate
 old-location: netvista\ndisallocatenetbufferandnetbufferlist.htm
 tech.root: netvista
 ms.assetid: b872eff3-2d0a-4f01-874d-e00e09195801
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisAllocateNetBufferAndNetBufferList, NdisAllocateNetBufferAndNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateNetBufferAndNetBufferList, ndis_netbuf_functions_ref_47bf06b7-b76e-42a0-bf16-b3942fde8eb9.xml, netvista.ndisallocatenetbufferandnetbufferlist
 ms.topic: function
 req.header: ndis.h

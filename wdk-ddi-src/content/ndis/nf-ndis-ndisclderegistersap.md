@@ -6,7 +6,7 @@ description: NdisClDeregisterSap releases a previously registered SAP.
 old-location: netvista\ndisclderegistersap.htm
 tech.root: netvista
 ms.assetid: ee3eb668-04f5-4731-b0bd-5cc8a9d4407f
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisClDeregisterSap, NdisClDeregisterSap function [Network Drivers Starting with Windows Vista], condis_client_ref_44c25719-9fbb-496b-97f6-f897cfe2b346.xml, ndis/NdisClDeregisterSap, netvista.ndisclderegistersap
 ms.topic: function
 req.header: ndis.h

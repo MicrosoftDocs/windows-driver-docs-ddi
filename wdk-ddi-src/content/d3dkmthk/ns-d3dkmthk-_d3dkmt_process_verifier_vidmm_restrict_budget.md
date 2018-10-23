@@ -4,7 +4,7 @@ title: _D3DKMT_PROCESS_VERIFIER_VIDMM_RESTRICT_BUDGET
 author: windows-driver-content
 description: Process verifier video memory management restrict budget.
 ms.assetid: cb7a97be-e6e6-498b-84c0-2cffb33000b5
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_PROCESS_VERIFIER_VIDMM_RESTRICT_BUDGET, D3DKMT_PROCESS_VERIFIER_VIDMM_RESTRICT_BUDGET, 
 req.header: d3dkmthk.h

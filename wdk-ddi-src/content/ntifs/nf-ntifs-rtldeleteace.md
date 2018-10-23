@@ -6,7 +6,7 @@ description: The RtlDeleteAce routine deletes an access control entry (ACE) from
 old-location: ifsk\rtldeleteace.htm
 tech.root: ifsk
 ms.assetid: 2bf90d1d-887f-4d0c-8d79-e102a14dfe71
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlDeleteAce, RtlDeleteAce routine [Installable File System Drivers], ifsk.rtldeleteace, ntifs/RtlDeleteAce, rtlref_68fe46f1-318a-48c6-9004-c338f52f41a5.xml
 ms.topic: function
 req.header: ntifs.h

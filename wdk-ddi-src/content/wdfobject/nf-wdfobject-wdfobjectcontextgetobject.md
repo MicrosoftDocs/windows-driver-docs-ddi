@@ -6,7 +6,7 @@ description: The WdfObjectContextGetObject method returns a handle to the framew
 old-location: wdf\wdfobjectcontextgetobject.htm
 tech.root: wdf
 ms.assetid: 7288a7e5-8e64-4ac3-9779-edc27a3888bb
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFGenObjectRef_cf11ce54-dbb0-4835-919d-6f0bec903e2d.xml, WdfObjectContextGetObject, WdfObjectContextGetObject method, kmdf.wdfobjectcontextgetobject, wdf.wdfobjectcontextgetobject, wdfobject/WdfObjectContextGetObject
 ms.topic: function
 req.header: wdfobject.h

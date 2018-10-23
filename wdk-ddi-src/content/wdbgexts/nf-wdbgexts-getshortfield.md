@@ -6,7 +6,7 @@ description: The GetShortField function reads the value of a member in a structu
 old-location: debugger\getshortfield.htm
 tech.root: debugger
 ms.assetid: f5f00e88-b758-4f37-9fe5-5db8f20835b1
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetShortField, GetShortField function [Windows Debugging], WdbgExts_Ref_ef67af78-e72f-440c-9ef3-d84b8cca12dc.xml, debugger.getshortfield, wdbgexts/GetShortField
 ms.topic: function
 req.header: wdbgexts.h

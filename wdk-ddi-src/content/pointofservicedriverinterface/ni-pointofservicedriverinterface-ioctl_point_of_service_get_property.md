@@ -6,7 +6,7 @@ description: This I/O control function returns the value of the specified proper
 old-location: pos\ioctl_point_of_service_get_property.htm
 tech.root: pos
 ms.assetid: 7d0231b3-4db7-47b3-8208-70d2cd337005
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: IOCTL_POINT_OF_SERVICE_GET_PROPERTY, IOCTL_POINT_OF_SERVICE_GET_PROPERTY control, IOCTL_POINT_OF_SERVICE_GET_PROPERTY control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_GET_PROPERTY, pos.ioctl_point_of_service_get_property
 ms.topic: ioctl
 req.header: pointofservicedriverinterface.h
@@ -97,7 +97,7 @@ Size, in bytes, of the buffer pointed to by <i>lpOutBuffer</i>.
 
 Returns <b>TRUE</b> if successful; otherwise, returns <b>FALSE</b>.
 
-To get extended error information, call <a href="http://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following list shows common error values (other status values may be returned as defined by your GET property callback implementation):
+To get extended error information, call <a href="https://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following list shows common error values (other status values may be returned as defined by your GET property callback implementation):
 
 
 

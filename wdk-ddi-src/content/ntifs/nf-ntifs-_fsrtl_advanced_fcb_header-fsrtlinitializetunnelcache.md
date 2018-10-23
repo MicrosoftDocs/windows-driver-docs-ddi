@@ -6,7 +6,7 @@ description: The FsRtlInitializeTunnelCache routine initializes a new tunnel cac
 old-location: ifsk\fsrtlinitializetunnelcache.htm
 tech.root: ifsk
 ms.assetid: c499c11f-1de5-4c7f-aa26-62d2221c35bd
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlInitializeTunnelCache, FsRtlInitializeTunnelCache routine [Installable File System Drivers], fsrtlref_33e2bd32-4b53-4edc-8e61-7a0ffbab327a.xml, ifsk.fsrtlinitializetunnelcache, ntifs/FsRtlInitializeTunnelCache
 ms.topic: function
 req.header: ntifs.h
@@ -79,7 +79,7 @@ File systems can use a per-volume tunnel cache to cache file names and other met
 
 Entries are added to the tunnel cache by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545599">FsRtlAddToTunnelCache</a>. Each entry contains the file name and directory key for a file, and can also contain a fixed-size data packet of file-system-specific information. When the tunnel cache becomes full, older entries are removed automatically. 
 
-For more information about file name tunneling, see <a href="http://go.microsoft.com/fwlink/p/?linkid=3100&amp;id=172190">Microsoft Knowledge Base Article 172190</a>.
+For more information about file name tunneling, see <a href="https://go.microsoft.com/fwlink/p/?linkid=3100&amp;id=172190">Microsoft Knowledge Base Article 172190</a>.
 
 
 

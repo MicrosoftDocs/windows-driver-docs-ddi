@@ -6,7 +6,7 @@ description: The WdfCollectionAdd method adds a specified framework object to an
 old-location: wdf\wdfcollectionadd.htm
 tech.root: wdf
 ms.assetid: eed2ed36-c081-44c7-857b-d2a9f608a022
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFCollectionObjectRef_76895387-58f4-46fc-b5d0-244408fe57b9.xml, WdfCollectionAdd, WdfCollectionAdd method, kmdf.wdfcollectionadd, wdf.wdfcollectionadd, wdfcollection/WdfCollectionAdd
 ms.topic: function
 req.header: wdfcollection.h

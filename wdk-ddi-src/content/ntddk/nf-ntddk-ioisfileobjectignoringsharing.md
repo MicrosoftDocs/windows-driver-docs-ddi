@@ -6,7 +6,7 @@ description: The IoIsFileObjectIgnoringSharing routine determines if a file obje
 old-location: ifsk\ioisfileobjectignoringsharing.htm
 tech.root: ifsk
 ms.assetid: 1398056B-6AC3-4F92-8981-58C193907D6F
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: IoIsFileObjectIgnoringSharing, IoIsFileObjectIgnoringSharing routine [Installable File System Drivers], ifsk.ioisfileobjectignoringsharing, ntddk/IoIsFileObjectIgnoringSharing
 ms.topic: function
 req.header: ntddk.h

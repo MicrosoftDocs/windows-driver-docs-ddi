@@ -6,7 +6,7 @@ description: The IO_STACK_LOCATION structure defines an I/O stack location, whic
 old-location: kernel\io_stack_location.htm
 tech.root: kernel
 ms.assetid: b339d6aa-71e1-4835-8ef2-a84594166bb1
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PIO_STACK_LOCATION, IO_STACK_LOCATION, IO_STACK_LOCATION structure [Kernel-Mode Driver Architecture], PIO_STACK_LOCATION, PIO_STACK_LOCATION structure pointer [Kernel-Mode Driver Architecture], _IO_STACK_LOCATION, kernel.io_stack_location, kstruct_b_8fcba8ca-d004-4800-87d1-d5c7714a494b.xml, wdm/IO_STACK_LOCATION, wdm/PIO_STACK_LOCATION"
 ms.topic: struct
 req.header: wdm.h

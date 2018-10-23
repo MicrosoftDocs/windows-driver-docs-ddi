@@ -4,7 +4,7 @@ title: _NVME_RESERVED_SQ_INFO
 author: windows-driver-content
 description: 
 ms.assetid: 2c3f58f1-7bb2-4a32-b4da-b23eeae3fb86
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _NVME_RESERVED_SQ_INFO, NVME_RESERVED_SQ_INFO, *PNVME_RESERVED_SQ_INFO, 
 req.header: ntddstor.h

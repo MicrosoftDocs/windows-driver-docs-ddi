@@ -6,7 +6,7 @@ description: The GetTextReplacementWide method returns the value of a user-named
 old-location: debugger\gettextreplacementwide.htm
 tech.root: debugger
 ms.assetid: 39a609f3-8f79-4a8b-9d29-0cfe09070f2b
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetTextReplacementWide, GetTextReplacementWide method [Windows Debugging], GetTextReplacementWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetTextReplacementWide method, IDebugControl4.GetTextReplacementWide, IDebugControl4::GetTextReplacementWide, dbgeng/IDebugControl4::GetTextReplacementWide, debugger.gettextreplacementwide
 ms.topic: method
 req.header: dbgeng.h

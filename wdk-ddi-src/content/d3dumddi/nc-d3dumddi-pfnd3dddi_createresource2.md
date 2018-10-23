@@ -6,7 +6,7 @@ description: Creates a resource. Implemented by Windows Display Driver Model (WD
 old-location: display\createresource2.htm
 tech.root: display
 ms.assetid: a8326707-cffc-4a20-ad3d-c7862661f513
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateResource2, CreateResource2 callback function [Display Devices], PFND3DDDI_CREATERESOURCE2, PFND3DDDI_CREATERESOURCE2 callback, d3dumddi/CreateResource2, display.createresource2
 ms.topic: callback
 req.header: d3dumddi.h

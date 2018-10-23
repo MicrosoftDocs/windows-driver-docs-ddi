@@ -6,7 +6,7 @@ description: The KS_DATAFORMAT_DV_AVC structure stores the data format for an AV
 old-location: stream\ks_dataformat_dv_avc.htm
 tech.root: stream
 ms.assetid: fe545ee3-8004-46fc-a49a-4274f8d1a6a7
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKS_DATAFORMAT_DV_AVC, KS_DATAFORMAT_DV_AVC, KS_DATAFORMAT_DV_AVC structure [Streaming Media Devices], PKS_DATAFORMAT_DV_AVC, PKS_DATAFORMAT_DV_AVC structure pointer [Streaming Media Devices], avcsref_36d913e1-7071-46db-849d-2493fa30aad8.xml, avcstrm/KS_DATAFORMAT_DV_AVC, avcstrm/PKS_DATAFORMAT_DV_AVC, stream.ks_dataformat_dv_avc, tagKS_DATAFORMAT_DV_AVC"
 ms.topic: struct
 req.header: avcstrm.h

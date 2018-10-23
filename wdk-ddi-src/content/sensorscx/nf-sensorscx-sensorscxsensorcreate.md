@@ -6,7 +6,7 @@ description: This function creates an instance of a sensor in the class extensio
 old-location: sensors\sensorscxsensorcreate.htm
 tech.root: sensors
 ms.assetid: A365381B-3456-47B6-93C7-81C8963CB183
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: SensorsCxSensorCreate, SensorsCxSensorCreate function [Sensor Devices], sensors.sensorscxsensorcreate, sensorscx/SensorsCxSensorCreate
 ms.topic: function
 req.header: sensorscx.h
@@ -62,7 +62,7 @@ A WDFDEVICE handle to the framework device object that represents the sensor.
 
 ### -param pSensorAttributes [in]
 
-A reference to <a href="http://go.microsoft.com/fwlink/p/?linkid=313456">WDF_OBJECT_ATTRIBUTES</a>.
+A reference to <a href="https://go.microsoft.com/fwlink/p/?linkid=313456">WDF_OBJECT_ATTRIBUTES</a>.
 
 
 ### -param pSensor [out]
@@ -121,7 +121,7 @@ The sensors class extension writes a set of properties for each sensor when Sens
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=313456">WDF_OBJECT_ATTRIBUTES</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=313456">WDF_OBJECT_ATTRIBUTES</a>
  
 
  

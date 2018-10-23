@@ -6,7 +6,7 @@ description: The IOCTL_PAR_GET_DEVICE_CAPS request does the following:Specifies 
 old-location: parports\ioctl_par_get_device_caps.htm
 tech.root: parports
 ms.assetid: 6446d667-1a35-4055-b9e7-41d372df9db2
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_PAR_GET_DEVICE_CAPS, IOCTL_PAR_GET_DEVICE_CAPS control code [Parallel Ports], cisspd_ea215140-7641-4554-bf95-362942d13143.xml, ntddpar/IOCTL_PAR_GET_DEVICE_CAPS, parports.ioctl_par_get_device_caps
 ms.topic: ioctl
 req.header: ntddpar.h

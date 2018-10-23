@@ -6,7 +6,7 @@ description: The IMiniportStreamAudioEngineNode2 interface allows an audio minip
 old-location: audio\iminiportstreamaudioenginenode2.htm
 tech.root: audio
 ms.assetid: 38888C17-31FC-47F4-A49B-A46A9DF962AF
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IMiniportStreamAudioEngineNode2, IMiniportStreamAudioEngineNode2 interface [Audio Devices], IMiniportStreamAudioEngineNode2 interface [Audio Devices],described, audio.iminiportstreamaudioenginenode2, portcls/IMiniportStreamAudioEngineNode2
 ms.topic: interface
 req.header: portcls.h

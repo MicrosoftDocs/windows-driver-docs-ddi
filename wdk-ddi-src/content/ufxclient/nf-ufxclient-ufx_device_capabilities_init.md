@@ -6,7 +6,7 @@ description: The UFX_DEVICE_CAPABILITIES_INIT macro the initializes the UFX_DEVI
 old-location: buses\ufx_device_capabilities_init.htm
 tech.root: usbref
 ms.assetid: 7C55EB8D-1B68-484A-B95A-E0150FBA9AB8
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UFX_DEVICE_CAPABILITIES_INIT, UFX_DEVICE_CAPABILITIES_INIT function [Buses], buses.ufx_device_capabilities_init, ufxclient/UFX_DEVICE_CAPABILITIES_INIT
 ms.topic: function
 req.header: ufxclient.h

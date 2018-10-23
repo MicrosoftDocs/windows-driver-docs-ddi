@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The D3DKMT_UMDFILENAMEINFO structure contains the name of an OpenGL ICD that is based on the specified version of the DirectX runtime.
 old-location: display\d3dkmt_umdfilenameinfo.htm
 ms.assetid: 456aef5a-f297-4670-8a83-b468569d23ad
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_UMDFILENAMEINFO, D3DKMT_UMDFILENAMEINFO structure [Display Devices], OpenGL_Structs_631f8c52-0978-4f26-bd6b-08348676795b.xml, _D3DKMT_UMDFILENAMEINFO, d3dkmthk/D3DKMT_UMDFILENAMEINFO, display.d3dkmt_umdfilenameinfo
 ms.topic: struct
 req.header: d3dkmthk.h

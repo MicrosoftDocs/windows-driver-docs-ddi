@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Provides additional information for DxgkDdi_ControlInterrupt2 when VSYNC is not being utilized.
 old-location: display\dxgk_interrupt_state.htm
 ms.assetid: C72DF96B-5D12-4AC0-8FBB-904E087807DB
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_INTERRUPT_DISABLE, DXGK_INTERRUPT_ENABLE, DXGK_INTERRUPT_STATE, DXGK_INTERRUPT_STATE enumeration [Display Devices], _DXGK_INTERRUPT_STATE, d3dkmddi/DXGK_INTERRUPT_DISABLE, d3dkmddi/DXGK_INTERRUPT_ENABLE, d3dkmddi/DXGK_INTERRUPT_STATE, display.dxgk_interrupt_state
 ms.topic: enum
 req.header: d3dkmddi.h

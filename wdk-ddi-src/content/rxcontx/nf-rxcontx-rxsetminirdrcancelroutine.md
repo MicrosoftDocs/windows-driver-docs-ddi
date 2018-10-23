@@ -6,7 +6,7 @@ description: RxSetMinirdrCancelRoutine is called by a network mini-redirector dr
 old-location: ifsk\rxsetminirdrcancelroutine.htm
 tech.root: ifsk
 ms.assetid: 5b74b4c4-d1a3-4587-900a-b54eebfeb553
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxSetMinirdrCancelRoutine, RxSetMinirdrCancelRoutine routine [Installable File System Drivers], ifsk.rxsetminirdrcancelroutine, rxcontx/RxSetMinirdrCancelRoutine, rxref_5883f8a0-cc54-4efe-bb98-13239c78abff.xml
 ms.topic: function
 req.header: rxcontx.h

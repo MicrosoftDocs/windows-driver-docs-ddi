@@ -6,7 +6,7 @@ description: The InitializeDmaTransferContext routine initializes an opaque DMA 
 old-location: kernel\initializedmatransfercontext.htm
 tech.root: kernel
 ms.assetid: 5E9D08FD-1F81-462F-90AA-7C4BFFB5F864
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: InitializeDmaTransferContext, InitializeDmaTransferContext callback function [Kernel-Mode Driver Architecture], PINITIALIZE_DMA_TRANSFER_CONTEXT, PINITIALIZE_DMA_TRANSFER_CONTEXT callback, kernel.initializedmatransfercontext, wdm/InitializeDmaTransferContext
 ms.topic: callback
 req.header: wdm.h

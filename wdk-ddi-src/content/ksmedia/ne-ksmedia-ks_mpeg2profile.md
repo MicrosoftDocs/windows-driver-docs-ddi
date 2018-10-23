@@ -6,7 +6,7 @@ description: The KS_MPEG2Profile enumeration describes MPEG-2 profiles.
 old-location: stream\ks_mpeg2profile.htm
 tech.root: stream
 ms.assetid: 1846e6b7-5b98-4850-86d6-ef6a29ce050b
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KS_MPEG2Profile, KS_MPEG2Profile enumeration [Streaming Media Devices], KS_MPEG2Profile_High, KS_MPEG2Profile_Main, KS_MPEG2Profile_SNRScalable, KS_MPEG2Profile_Simple, KS_MPEG2Profile_SpatiallyScalable, ksmedia/KS_MPEG2Profile, ksmedia/KS_MPEG2Profile_High, ksmedia/KS_MPEG2Profile_Main, ksmedia/KS_MPEG2Profile_SNRScalable, ksmedia/KS_MPEG2Profile_Simple, ksmedia/KS_MPEG2Profile_SpatiallyScalable, stream.ks_mpeg2profile, vidcapstruct_25932d29-3acc-415e-a13f-f02298c12c1d.xml
 ms.topic: enum
 req.header: ksmedia.h

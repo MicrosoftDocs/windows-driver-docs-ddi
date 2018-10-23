@@ -6,7 +6,7 @@ description: The EventWriteString function is a tracing function that you can us
 old-location: devtest\etwwritestring.htm
 tech.root: devtest
 ms.assetid: 25de7729-f43f-4d16-a379-e1cb1ab8616c
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: EtwWriteString, EtwWriteString function [Driver Development Tools], devtest.etwwritestring, etw_km_b4cb697f-3523-4730-8df5-1faf201af7f8.xml, wdm/EtwWriteString
 ms.topic: function
 req.header: wdm.h

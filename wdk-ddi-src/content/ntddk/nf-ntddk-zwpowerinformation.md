@@ -6,7 +6,7 @@ description: The ZwPowerInformation routine sets or retrieves system power infor
 old-location: kernel\zwpowerinformation.htm
 tech.root: kernel
 ms.assetid: BA1D5AD2-E3E5-42CB-8E77-627B23078F80
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtPowerInformation, PlatformInformation, ZwPowerInformation, ZwPowerInformation routine [Kernel-Mode Driver Architecture], kernel.zwpowerinformation, wdm/NtPowerInformation, wdm/ZwPowerInformation
 ms.topic: function
 req.header: ntddk.h

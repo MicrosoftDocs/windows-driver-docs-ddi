@@ -6,7 +6,7 @@ description: RxPurgeAllFobxs purges all of the FOBX structures associated with a
 old-location: ifsk\rxpurgeallfobxs.htm
 tech.root: ifsk
 ms.assetid: 3d2a31be-1b59-48a8-8cde-61d7f7319724
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxPurgeAllFobxs, RxPurgeAllFobxs function [Installable File System Drivers], ifsk.rxpurgeallfobxs, rxprocs/RxPurgeAllFobxs, rxref_80dc8a6f-2b11-44b1-986b-b29402e4d46e.xml
 ms.topic: function
 req.header: rxprocs.h

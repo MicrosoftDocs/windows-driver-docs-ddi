@@ -6,7 +6,7 @@ description: This function calculates the number of PROPERTYKEY elements.
 old-location: sensors\sensor_property_list_calculate_max_count.htm
 tech.root: sensors
 ms.assetid: 5E639331-5929-4575-855F-CAFB4E77B66D
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT, SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT function [Sensor Devices], sensors.sensor_property_list_calculate_max_count, sensorsdef/SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT
 ms.topic: function
 req.header: sensorsdef.h

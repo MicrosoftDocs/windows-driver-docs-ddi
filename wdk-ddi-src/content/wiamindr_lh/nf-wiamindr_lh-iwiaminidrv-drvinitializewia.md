@@ -6,7 +6,7 @@ description: The IWiaMiniDrv::drvInitializeWia method initializes the minidriver
 old-location: image\iwiaminidrv_drvinitializewia.htm
 tech.root: image
 ms.assetid: 93b155eb-0254-441f-b01f-3da8eb7376a5
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvInitializeWia method, IWiaMiniDrv.drvInitializeWia, IWiaMiniDrv::drvInitializeWia, MiniDrv_04485b20-ff45-4cf7-a861-841bf03befcf.xml, drvInitializeWia, drvInitializeWia method [Imaging Devices], drvInitializeWia method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvinitializewia, wiamindr_lh/IWiaMiniDrv::drvInitializeWia
 ms.topic: method
 req.header: wiamindr_lh.h

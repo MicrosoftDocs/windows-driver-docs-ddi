@@ -6,7 +6,7 @@ description: The NDIS_WWAN_DEVICE_SERVICE_COMMAND structure describes device ser
 old-location: netvista\ndis_wwan_device_service_command.htm
 tech.root: netvista
 ms.assetid: 372625F8-0219-4867-909D-ACCC82F6B97C
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_WWAN_DEVICE_SERVICE_COMMAND, NDIS_WWAN_DEVICE_SERVICE_COMMAND, NDIS_WWAN_DEVICE_SERVICE_COMMAND structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SERVICE_COMMAND, PNDIS_WWAN_DEVICE_SERVICE_COMMAND structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SERVICE_COMMAND, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_COMMAND, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_COMMAND, netvista.ndis_wwan_device_service_command"
 ms.topic: struct
 req.header: ndiswwan.h

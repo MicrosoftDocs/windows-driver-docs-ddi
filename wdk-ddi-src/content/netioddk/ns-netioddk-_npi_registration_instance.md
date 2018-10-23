@@ -6,7 +6,7 @@ description: The NPI_REGISTRATION_INSTANCE structure defines the data related to
 old-location: netvista\npi_registration_instance.htm
 tech.root: netvista
 ms.assetid: a368f9d9-a7e0-4b35-ba14-b0919f74029d
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NPI_REGISTRATION_INSTANCE, NPI_REGISTRATION_INSTANCE structure [Network Drivers Starting with Windows Vista], PNPI_REGISTRATION_INSTANCE, PNPI_REGISTRATION_INSTANCE structure pointer [Network Drivers Starting with Windows Vista], _NPI_REGISTRATION_INSTANCE, netioddk/NPI_REGISTRATION_INSTANCE, netioddk/PNPI_REGISTRATION_INSTANCE, netvista.npi_registration_instance, nmrref_a31a8531-bab8-47d5-b79e-a239dcde475f.xml
 ms.topic: struct
 req.header: netioddk.h

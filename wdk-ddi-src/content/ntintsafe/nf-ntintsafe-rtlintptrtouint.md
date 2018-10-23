@@ -6,7 +6,7 @@ description: Converts a value of type INT_PTR to a value of type UINT.
 old-location: kernel\rtlintptrtouint.htm
 tech.root: kernel
 ms.assetid: FC12EA01-9DE1-4C07-80F3-15D039F38E06
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlIntPtrToUInt, RtlIntPtrToUInt function [Kernel-Mode Driver Architecture], kernel.rtlintptrtouint, ntintsafe/RtlIntPtrToUInt
 ms.topic: function
 req.header: ntintsafe.h

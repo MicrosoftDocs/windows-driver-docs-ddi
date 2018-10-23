@@ -6,7 +6,7 @@ description: The MiniportWdiPostAdapterRestart handler function is called by the
 old-location: netvista\miniportwdipostadapterrestart.htm
 tech.root: netvista
 ms.assetid: 1686A3CA-AD4A-4560-8665-9AFBE920CDDA
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_POST_ADAPTER_RESTART, MINIPORT_WDI_POST_ADAPTER_RESTART callback, MiniportWdiPostAdapterRestart, MiniportWdiPostAdapterRestart callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiPostAdapterRestart, netvista.miniportwdipostadapterrestart
 ms.topic: callback
 req.header: dot11wdi.h

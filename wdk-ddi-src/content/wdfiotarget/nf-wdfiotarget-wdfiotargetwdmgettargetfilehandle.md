@@ -6,7 +6,7 @@ description: The WdfIoTargetWdmGetTargetFileHandle method returns a handle to th
 old-location: wdf\wdfiotargetwdmgettargetfilehandle.htm
 tech.root: wdf
 ms.assetid: 3312e6ca-bf2c-4a53-bd86-d36d708ed596
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_a3147001-4aa4-4fc2-8000-c6b1fcc4e972.xml, WdfIoTargetWdmGetTargetFileHandle, WdfIoTargetWdmGetTargetFileHandle method, kmdf.wdfiotargetwdmgettargetfilehandle, wdf.wdfiotargetwdmgettargetfilehandle, wdfiotarget/WdfIoTargetWdmGetTargetFileHandle
 ms.topic: function
 req.header: wdfiotarget.h
@@ -84,7 +84,7 @@ For KMDF, the returned file handle is a kernel-mode handle that is valid in an a
 
 The file handle that the <b>WdfIoTargetWdmGetTargetFileHandle</b> method returns is valid until the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff548586">WdfIoTargetClose</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548589">WdfIoTargetCloseForQueryRemove</a>, or until the remote I/O target object is deleted. If the driver provides an <a href="https://msdn.microsoft.com/aba2efca-7d1f-4594-af65-13356f0e3f8b">EvtCleanupCallback</a> function for the remote I/O target object, and if the object is deleted before the remote I/O target is closed, the pointer is valid until the <i>EvtCleanupCallback</i> function returns.
 
-If the driver attempts to access the WDM device object after it has been removed, the driver can cause the system to crash.  The <a href="http://go.microsoft.com/fwlink/p/?linkid=251907">toastmon</a> sample demonstrates how the driver can provide an <a href="https://msdn.microsoft.com/cb7c97e5-081e-44fc-a759-9a1ae81de41c">EvtIoTargetQueryRemove</a> callback function so that it is notified if the I/O target is removed.
+If the driver attempts to access the WDM device object after it has been removed, the driver can cause the system to crash.  The <a href="https://go.microsoft.com/fwlink/p/?linkid=251907">toastmon</a> sample demonstrates how the driver can provide an <a href="https://msdn.microsoft.com/cb7c97e5-081e-44fc-a759-9a1ae81de41c">EvtIoTargetQueryRemove</a> callback function so that it is notified if the I/O target is removed.
 
 For UMDF, <b>WdfIoTargetWdmGetTargetFileHandle</b> returns a Win32 HANDLE valid only in the current process.
 

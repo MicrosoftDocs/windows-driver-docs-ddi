@@ -6,7 +6,7 @@ description: The DeviceReset routine is used to reset and recover a malfunctioni
 old-location: kernel\devicereset.htm
 tech.root: kernel
 ms.assetid: A5AA5E73-3DC1-4977-9B64-9E0FB3E6609E
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: DeviceReset, PDEVICE_RESET_HANDLER, ResetDevice, ResetDevice routine [Kernel-Mode Driver Architecture], kernel.devicereset, wdm/ResetDevice
 ms.topic: callback
 req.header: wdm.h

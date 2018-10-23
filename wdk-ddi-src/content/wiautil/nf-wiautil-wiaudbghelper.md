@@ -6,7 +6,7 @@ description: The wiauDbgHelper function formats a message and writes it to a log
 old-location: image\wiaudbghelper.htm
 tech.root: image
 ms.assetid: 5be1ede7-13a0-4ef4-93bd-8a1adc5baa9e
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiaudbghelper, wiauDbgHelper, wiauDbgHelper function [Imaging Devices], wiauFncs_be2f3b11-e1a0-4728-856e-ce686344f166.xml, wiautil/wiauDbgHelper
 ms.topic: macro
 req.header: wiautil.h

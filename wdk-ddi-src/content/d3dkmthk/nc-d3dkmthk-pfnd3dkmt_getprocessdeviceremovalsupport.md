@@ -4,7 +4,7 @@ title: PFND3DKMT_GETPROCESSDEVICEREMOVALSUPPORT
 author: windows-driver-content
 description: Implemented by the client driver to get process device removal support.
 ms.assetid: a9c7b426-d67d-44d5-948d-017c0ee855cc
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

@@ -6,7 +6,7 @@ description: A port monitor UI DLL's AddPortUI function adds a printer port, the
 old-location: print\addportui.htm
 tech.root: print
 ms.assetid: 8305ab0c-0783-4597-9e2c-dfd9cbc843d1
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: AddPortUI, pfnAddPortUI, pfnAddPortUI function [Print Devices], print.addportui, spoolfnc_e82f0e4d-e4f2-44b8-b957-3fc1b35e8a34.xml, winsplp/pfnAddPortUI
 ms.topic: function
 req.header: winsplp.h

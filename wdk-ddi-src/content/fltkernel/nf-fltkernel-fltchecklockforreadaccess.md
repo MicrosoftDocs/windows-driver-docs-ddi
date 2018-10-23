@@ -6,7 +6,7 @@ description: The FltCheckLockForReadAccess routine determines whether the caller
 old-location: ifsk\fltchecklockforreadaccess.htm
 tech.root: ifsk
 ms.assetid: 18920aaa-ae43-48ec-a06d-69ccaf75ebd8
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_24bd7e02-fdc4-44a3-8d1a-1bb164d26769.xml, FltCheckLockForReadAccess, FltCheckLockForReadAccess routine [Installable File System Drivers], fltkernel/FltCheckLockForReadAccess, ifsk.fltchecklockforreadaccess
 ms.topic: function
 req.header: fltkernel.h

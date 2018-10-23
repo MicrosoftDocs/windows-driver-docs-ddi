@@ -6,7 +6,7 @@ description: A driver for a device can use the IOCTL_ACPI_GET_DEVICE_INFORMATION
 old-location: acpi\ioctl_acpi_get_device_information.htm
 tech.root: acpi
 ms.assetid: 08C27EC1-0948-4E8F-A391-01FE2C1A34DB
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_ACPI_GET_DEVICE_INFORMATION, IOCTL_ACPI_GET_DEVICE_INFORMATION control, IOCTL_ACPI_GET_DEVICE_INFORMATION control code [ACPI Devices], acpi.ioctl_acpi_get_device_information, acpiioct/IOCTL_ACPI_GET_DEVICE_INFORMATION
 ms.topic: ioctl
 req.header: acpiioct.h

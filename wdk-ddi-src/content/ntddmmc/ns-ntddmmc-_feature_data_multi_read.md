@@ -6,7 +6,7 @@ description: The FEATURE_DATA_MULTI_READ structure contains data for the multire
 old-location: storage\feature_data_multi_read.htm
 tech.root: storage
 ms.assetid: a7db6bd2-7c04-4bfc-b4b4-db1f99520e56
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PFEATURE_DATA_MULTI_READ, FEATURE_DATA_MULTI_READ, FEATURE_DATA_MULTI_READ structure [Storage Devices], PFEATURE_DATA_MULTI_READ, PFEATURE_DATA_MULTI_READ structure pointer [Storage Devices], _FEATURE_DATA_MULTI_READ, ntddmmc/FEATURE_DATA_MULTI_READ, ntddmmc/PFEATURE_DATA_MULTI_READ, storage.feature_data_multi_read, structs-CD-ROM_687fe1cb-1667-4650-97c5-d6e4af7df2af.xml"
 ms.topic: struct
 req.header: ntddmmc.h

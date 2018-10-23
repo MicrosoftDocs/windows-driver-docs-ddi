@@ -6,7 +6,7 @@ description: Describes the type of cursor.
 old-location: display\iddcx_cursor_shape_type.htm
 tech.root: display
 ms.assetid: 8aced7c9-e1be-4ec0-8b59-77cee011a71e
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IDDCX_CURSOR_SHAPE_TYPE, IDDCX_CURSOR_SHAPE_TYPE enumeration [Display Devices], IDDCX_CURSOR_SHAPE_TYPE_ALPHA, IDDCX_CURSOR_SHAPE_TYPE_MASKED_COLOR, IDDCX_CURSOR_SHAPE_TYPE_UNINITIALIZED, display.iddcx_cursor_shape_type, iddcx/IDDCX_CURSOR_SHAPE_TYPE, iddcx/IDDCX_CURSOR_SHAPE_TYPE_ALPHA, iddcx/IDDCX_CURSOR_SHAPE_TYPE_MASKED_COLOR, iddcx/IDDCX_CURSOR_SHAPE_TYPE_UNINITIALIZED
 ms.topic: enum
 req.header: iddcx.h

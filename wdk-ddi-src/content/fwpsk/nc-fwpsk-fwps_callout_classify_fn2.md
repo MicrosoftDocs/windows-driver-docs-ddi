@@ -6,7 +6,7 @@ description: The filter engine calls a callout's classifyFn2 callout function wh
 old-location: netvista\classifyfn2.htm
 tech.root: netvista
 ms.assetid: de8220de-cf71-4718-876e-ef02c15fc948
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FWPS_CALLOUT_CLASSIFY_FN2, FWPS_CALLOUT_CLASSIFY_FN2 callback, classifyFn2, classifyFn2 callback function [Network Drivers Starting with Windows Vista], fwpsk/classifyFn2, netvista.classifyfn2
 ms.topic: callback
 req.header: fwpsk.h

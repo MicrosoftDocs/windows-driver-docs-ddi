@@ -6,7 +6,7 @@ description: The DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS structure contains paramete
 old-location: display\dxgkmdt_opm_set_hdcp_srm_parameters.htm
 tech.root: display
 ms.assetid: fd069b0c-9af3-4442-aba0-1d81465e7eb0
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS, DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS structure [Display Devices], DmStructs_6e80579a-8a17-47c0-b877-1e7712de2f04.xml, _DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS, d3dkmdt/DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS, display.dxgkmdt_opm_set_hdcp_srm_parameters
 ms.topic: struct
 req.header: d3dkmdt.h
@@ -57,7 +57,7 @@ The DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS structure contains parameters to set the
 
 ### -field ulSRMVersion
 
-The version number of an HDCP SRM. The least significant bits (bits 0 through 15) contain the SRM's version number in little-endian format. The SRM's version number is stored in the SRM's SRM version field in little-endian format. For more information about the SRM's SRM version field, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=38728">HDCP Specification Revision 1.1</a>. 
+The version number of an HDCP SRM. The least significant bits (bits 0 through 15) contain the SRM's version number in little-endian format. The SRM's version number is stored in the SRM's SRM version field in little-endian format. For more information about the SRM's SRM version field, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=38728">HDCP Specification Revision 1.1</a>. 
 
 
 ## -see-also

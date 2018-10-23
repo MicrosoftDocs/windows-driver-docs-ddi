@@ -4,7 +4,7 @@ title: D3D12DDI_DRIVER_MATCHING_IDENTIFIER_STATUS
 author: windows-driver-content
 description: Specifies whether a device is compatible with a serialized driver identifier.
 ms.assetid: 12eec72b-25f5-4718-bb61-33771a1f1748
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_DRIVER_MATCHING_IDENTIFIER_STATUS, D3D12DDI_DRIVER_MATCHING_IDENTIFIER_STATUS, 
 req.header: d3d12umddi.h

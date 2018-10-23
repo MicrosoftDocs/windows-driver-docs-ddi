@@ -4,7 +4,7 @@ title: IDataModelScriptDebugStackFrame::EnumerateLocals
 author: windows-driver-content
 description: The EnumerateLocals method returns a variable set for all local variables which are in scope in the context of the stack frame represented by the IDataModelScriptDebugStackFrame. 
 ms.assetid: c538a07f-cd0c-44a5-897a-2e35920685d5
-ms.date: 09/10/2018 
+ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebugStackFrame::EnumerateLocals, EnumerateLocals, IDataModelScriptDebugStackFrame.EnumerateLocals, IDataModelScriptDebugStackFrame::EnumerateLocals, IDataModelScriptDebugStackFrame.EnumerateLocals
 req.header: dbgmodel.h

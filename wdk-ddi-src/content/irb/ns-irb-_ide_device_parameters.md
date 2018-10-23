@@ -6,7 +6,7 @@ description: The IDE_DEVICE_PARAMETERS structure contains configuration informat
 old-location: storage\ide_device_parameters.htm
 tech.root: storage
 ms.assetid: e2b908ce-df40-4d64-b8fd-77da18b4f6bd
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PIDE_DEVICE_PARAMETERS, IDE_DEVICE_PARAMETERS, IDE_DEVICE_PARAMETERS structure [Storage Devices], PIDE_DEVICE_PARAMETERS, PIDE_DEVICE_PARAMETERS structure pointer [Storage Devices], _IDE_DEVICE_PARAMETERS, irb/IDE_DEVICE_PARAMETERS, irb/PIDE_DEVICE_PARAMETERS, storage.ide_device_parameters, structs-ATA_6cc8412c-2ce1-4261-91db-bc986a6836ff.xml"
 ms.topic: struct
 req.header: irb.h

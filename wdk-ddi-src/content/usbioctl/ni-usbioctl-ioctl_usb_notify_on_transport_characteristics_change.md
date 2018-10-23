@@ -6,7 +6,7 @@ description: This request notifies the caller of change in transport characteris
 old-location: buses\ioctl_usb_notify_on_transport_characteristics_change.htm
 tech.root: usbref
 ms.assetid: 1B71794C-EBAD-4F6C-A71C-C0D419D486BE
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: IOCTL_USB_NOTIFY_ON_TRANSPORT_CHARACTERISTICS_CHANGE, IOCTL_USB_NOTIFY_ON_TRANSPORT_CHARACTERISTICS_CHANGE control, IOCTL_USB_NOTIFY_ON_TRANSPORT_CHARACTERISTICS_CHANGE control code [Buses], buses.ioctl_usb_notify_on_transport_characteristics_change, usbioctl/IOCTL_USB_NOTIFY_ON_TRANSPORT_CHARACTERISTICS_CHANGE
 ms.topic: ioctl
 req.header: usbioctl.h

@@ -6,7 +6,7 @@ description: The WMIGUIDREGINFO structure contains registration information for 
 old-location: kernel\wmiguidreginfo.htm
 tech.root: kernel
 ms.assetid: 8bf36e54-5caa-4dc6-b659-ea0c1ac450f0
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PWMIGUIDREGINFO, PWMIGUIDREGINFO, PWMIGUIDREGINFO structure pointer [Kernel-Mode Driver Architecture], WMIGUIDREGINFO, WMIGUIDREGINFO structure [Kernel-Mode Driver Architecture], _WMIGUIDREGINFO, kernel.wmiguidreginfo, kstruct_d_aeedb315-3e08-4af9-9a37-afd06166a662.xml, wmilib/PWMIGUIDREGINFO, wmilib/WMIGUIDREGINFO"
 ms.topic: struct
 req.header: wmilib.h

@@ -6,7 +6,7 @@ description: EVT_IDD_CX_MONITOR_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS is call
 old-location: display\evt_idd_cx_monitor_opm_set_signing_key_and_sequence_numbers.htm
 tech.root: display
 ms.assetid: 98a874e7-4eea-4b35-833f-60f49ea5f599
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: EVT_IDD_CX_MONITOR_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS, EVT_IDD_CX_MONITOR_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS callback, EvtIddCxMonitorOpmSetSigningKeyAndSequenceNumbers, EvtIddCxMonitorOpmSetSigningKeyAndSequenceNumbers callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS, PFN_IDD_CX_MONITOR_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_set_signing_key_and_sequence_numbers, iddcx/EvtIddCxMonitorOpmSetSigningKeyAndSequenceNumbers
 ms.topic: callback
 req.header: iddcx.h

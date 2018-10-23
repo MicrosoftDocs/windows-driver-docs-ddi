@@ -6,7 +6,7 @@ description: The pfnDeallocateCb callback function releases allocations or a ker
 old-location: display\pfndeallocatecb.htm
 tech.root: display
 ms.assetid: 2ffa0367-0451-45d2-be05-e450c45be116
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_0162df86-f479-45d9-887b-75f05de150f9.xml, PFND3DDDI_DEALLOCATECB, PFND3DDDI_DEALLOCATECB callback, d3dumddi/pfnDeallocateCb, display.pfndeallocatecb, pfnDeallocateCb, pfnDeallocateCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h

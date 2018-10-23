@@ -6,7 +6,7 @@ description: The BTHHFP_DESCRIPTOR data structure stores information describing 
 old-location: audio\bthhfp_descriptor.htm
 tech.root: audio
 ms.assetid: A3C1E53B-2E41-437A-8613-C43DCD4768B5
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: "*PBTHHFP_DESCRIPTOR, BTHHFP_DESCRIPTOR, BTHHFP_DESCRIPTOR structure [Audio Devices], PBTHHFP_DESCRIPTOR, PBTHHFP_DESCRIPTOR structure pointer [Audio Devices], _BTHHFP_DESCRIPTOR, audio.bthhfp_descriptor, bthhfpddi/BTHHFP_DESCRIPTOR, bthhfpddi/PBTHHFP_DESCRIPTOR"
 ms.topic: struct
 req.header: bthhfpddi.h
@@ -91,7 +91,7 @@ An indirect string identifying the human readable friendly name of the paired HF
 
 
 
-The HFP driver calculates the <i>InputPinCategory</i> and <i>OutputPinCategory</i> GUIDs based on the 'Bluetooth Class of Device' data that is contained in the SDP information of the paired device. The audio driver sets the <a href="http://msdn.microsoft.com/library/windows/hardware/ff563533(v=vs.85).aspx">KSPIN_DESCRIPTOR.Category</a> members for the input and output bridge pins to the calculated GUIDs.
+The HFP driver calculates the <i>InputPinCategory</i> and <i>OutputPinCategory</i> GUIDs based on the 'Bluetooth Class of Device' data that is contained in the SDP information of the paired device. The audio driver sets the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563533(v=vs.85).aspx">KSPIN_DESCRIPTOR.Category</a> members for the input and output bridge pins to the calculated GUIDs.
 
 <div class="alert"><b>Note</b>  <p class="note">In some cases the input and output pin categories may be the same.
 
@@ -131,7 +131,7 @@ For information about the IOCTLs that work with this structure, see <a href="htt
 
 
 
-<a href="http://msdn.microsoft.com/library/windows/hardware/ff563533(v=vs.85).aspx">KSPIN_DESCRIPTOR.Category</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563533(v=vs.85).aspx">KSPIN_DESCRIPTOR.Category</a>
 
 
 

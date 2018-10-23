@@ -6,7 +6,7 @@ description:
 old-location: stream\ksproperty_streaminterface.htm
 tech.root: stream
 ms.assetid: E771F59E-7F85-40B9-BBA9-D1CC398B12CA
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KSPROPERTY_STREAMINTERFACE, KSPROPERTY_STREAMINTERFACE enumeration [Streaming Media Devices], KSPROPERTY_STREAMINTERFACE_HEADERSIZE, ks/KSPROPERTY_STREAMINTERFACE, ks/KSPROPERTY_STREAMINTERFACE_HEADERSIZE, stream.ksproperty_streaminterface
 ms.topic: enum
 req.header: ks.h

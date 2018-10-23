@@ -6,7 +6,7 @@ description: The OB_PRE_DUPLICATE_HANDLE_INFORMATION structure provides informat
 old-location: kernel\ob_pre_duplicate_handle_information.htm
 tech.root: kernel
 ms.assetid: f2798729-98a2-44b6-94a6-180bb4db96cb
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*POB_PRE_DUPLICATE_HANDLE_INFORMATION, OB_PRE_DUPLICATE_HANDLE_INFORMATION, OB_PRE_DUPLICATE_HANDLE_INFORMATION structure [Kernel-Mode Driver Architecture], POB_PRE_DUPLICATE_HANDLE_INFORMATION, POB_PRE_DUPLICATE_HANDLE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _OB_PRE_DUPLICATE_HANDLE_INFORMATION, kernel.ob_pre_duplicate_handle_information, kstruct_c_5511a4ac-ea2e-412f-8514-021853d5abfd.xml, wdm/OB_PRE_DUPLICATE_HANDLE_INFORMATION, wdm/POB_PRE_DUPLICATE_HANDLE_INFORMATION"
 ms.topic: struct
 req.header: wdm.h

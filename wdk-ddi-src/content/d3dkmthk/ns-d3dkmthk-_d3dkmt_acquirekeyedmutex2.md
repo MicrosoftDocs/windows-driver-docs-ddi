@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Describes a keyed mutex object that the D3DKMTAcquireKeyedMutex2 function acquires that includes private data.
 old-location: display\d3dkmt_acquirekeyedmutex2.htm
 ms.assetid: 6e7ccf24-6403-44bf-9369-d2825646e950
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_ACQUIREKEYEDMUTEX2, D3DKMT_ACQUIREKEYEDMUTEX2 structure [Display Devices], _D3DKMT_ACQUIREKEYEDMUTEX2, d3dkmthk/D3DKMT_ACQUIREKEYEDMUTEX2, display.d3dkmt_acquirekeyedmutex2
 ms.topic: struct
 req.header: d3dkmthk.h

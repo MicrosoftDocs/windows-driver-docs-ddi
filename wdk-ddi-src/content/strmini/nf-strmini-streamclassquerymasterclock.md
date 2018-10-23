@@ -6,7 +6,7 @@ description: When the minidriver calls the StreamClassQueryMasterClock routine, 
 old-location: stream\streamclassquerymasterclock.htm
 tech.root: stream
 ms.assetid: 41b159b6-f365-4ade-b5d4-e7662c75e866
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: StreamClassQueryMasterClock, StreamClassQueryMasterClock routine [Streaming Media Devices], strclass-routines_2049b544-0e7a-4c12-801b-15d0a4a7ce6c.xml, stream.streamclassquerymasterclock, strmini/StreamClassQueryMasterClock
 ms.topic: function
 req.header: strmini.h

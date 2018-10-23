@@ -6,7 +6,7 @@ description: The CmCallbackGetKeyObjectIDEx routine retrieves the unique identif
 old-location: kernel\cmcallbackgetkeyobjectidex.htm
 tech.root: kernel
 ms.assetid: E55CDAF9-2711-4DC6-8BED-EDB0D78D9158
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: CmCallbackGetKeyObjectIDEx, CmCallbackGetKeyObjectIDEx routine [Kernel-Mode Driver Architecture], kernel.cmcallbackgetkeyobjectidex, wdm/CmCallbackGetKeyObjectIDEx
 ms.topic: function
 req.header: wdm.h
@@ -64,7 +64,7 @@ A cookie value that represents the caller's registration to receive registry fil
 
 A pointer to the registry key object. This parameter is the pointer value that the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> callback routine received in the <b>Object</b> member of one of the <b>REG_<i>XXX</i>_KEY_INFORMATION</b> structures.
 
-<div class="alert"><b>Warning</b>  In certain circumstances registry callback notification structures may contain invalid non-NULL object pointers. Registry filtering drivers must not pass such pointers to this routine. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=613134">Invalid Key Object Pointers in Registry Notifications</a>.</div>
+<div class="alert"><b>Warning</b>  In certain circumstances registry callback notification structures may contain invalid non-NULL object pointers. Registry filtering drivers must not pass such pointers to this routine. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=613134">Invalid Key Object Pointers in Registry Notifications</a>.</div>
 <div> </div>
 
 ### -param ObjectID [out, optional]

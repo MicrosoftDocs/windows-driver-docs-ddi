@@ -6,7 +6,7 @@ description: The WdfRegistryAssignULong method assigns a specified unsigned long
 old-location: wdf\wdfregistryassignulong.htm
 tech.root: wdf
 ms.assetid: a5a160a7-3408-4d26-83c8-2f5a7b6acaf1
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFRegKeyObjectRef_2f35ea01-ade1-4bf1-a55b-6613021fcd04.xml, WdfRegistryAssignULong, WdfRegistryAssignULong method, kmdf.wdfregistryassignulong, wdf.wdfregistryassignulong, wdfregistry/WdfRegistryAssignULong
 ms.topic: function
 req.header: wdfregistry.h

@@ -6,7 +6,7 @@ description: The WWAN_NETWORK_IDLE_HINT structure contains a hint for the networ
 old-location: netvista\wwan_network_idle_hint.htm
 tech.root: netvista
 ms.assetid: 954DE5B5-F08F-4805-8CA0-8C42CB1750FA
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_NETWORK_IDLE_HINT, PWWAN_NETWORK_IDLE_HINT, PWWAN_NETWORK_IDLE_HINT structure pointer [Network Drivers Starting with Windows Vista], WWAN_NETWORK_IDLE_HINT, WWAN_NETWORK_IDLE_HINT structure [Network Drivers Starting with Windows Vista], _WWAN_NETWORK_IDLE_HINT, netvista.wwan_network_idle_hint, wwan/PWWAN_NETWORK_IDLE_HINT, wwan/WWAN_NETWORK_IDLE_HINT"
 ms.topic: struct
 req.header: wwan.h

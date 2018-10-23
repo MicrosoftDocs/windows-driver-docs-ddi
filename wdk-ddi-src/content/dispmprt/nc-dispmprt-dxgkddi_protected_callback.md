@@ -6,7 +6,7 @@ description: The DxgkProtectedCallback callback routine is implemented by the di
 old-location: display\dxgkprotectedcallback.htm
 tech.root: display
 ms.assetid: 7e282ec6-c159-47a4-af14-2b0cb8e34a8e
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_PROTECTED_CALLBACK, DXGKDDI_PROTECTED_CALLBACK callback, DmFunctions_a4386149-d1c4-45f4-8649-5539783620f4.xml, DxgkProtectedCallback, DxgkProtectedCallback callback function [Display Devices], display.dxgkprotectedcallback, dispmprt/DxgkProtectedCallback
 ms.topic: callback
 req.header: dispmprt.h

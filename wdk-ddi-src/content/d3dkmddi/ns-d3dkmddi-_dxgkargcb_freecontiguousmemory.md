@@ -4,7 +4,7 @@ title: _DXGKARGCB_FREECONTIGUOUSMEMORY
 author: windows-driver-content
 description:
 ms.assetid: ac1a2b6c-cd3d-4e3e-ad3d-e7e8b9904e8f
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGKARGCB_FREECONTIGUOUSMEMORY, DXGKARGCB_FREECONTIGUOUSMEMORY,
 req.header: d3dkmddi.h

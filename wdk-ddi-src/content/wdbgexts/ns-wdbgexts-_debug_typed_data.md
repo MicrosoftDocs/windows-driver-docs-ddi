@@ -6,7 +6,7 @@ description: The DEBUG_TYPED_DATA structure describes typed data in the memory o
 old-location: debugger\debug_typed_data.htm
 tech.root: debugger
 ms.assetid: 3173e69e-a6e5-4459-a57e-94cf7b10ef32
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: "*PDEBUG_TYPED_DATA, DEBUG_TYPED_DATA, DEBUG_TYPED_DATA structure [Windows Debugging], PDEBUG_TYPED_DATA, PDEBUG_TYPED_DATA structure pointer [Windows Debugging], Structures_6e8e758c-2c5d-4590-8908-3e1734ea2c7d.xml, _DEBUG_TYPED_DATA, debugger.debug_typed_data, wdbgexts/DEBUG_TYPED_DATA, wdbgexts/PDEBUG_TYPED_DATA"
 ms.topic: struct
 req.header: wdbgexts.h

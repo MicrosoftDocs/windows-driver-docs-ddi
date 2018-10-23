@@ -6,7 +6,7 @@ description: The OpenRemoteInterface method opens a device interface so that the
 old-location: wdf\iwdfremotetarget_openremoteinterface.htm
 tech.root: wdf
 ms.assetid: 5d278cde-3ebe-4fee-86fd-1ec4e79bd837
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFRemoteTarget interface,OpenRemoteInterface method, IWDFRemoteTarget.OpenRemoteInterface, IWDFRemoteTarget::OpenRemoteInterface, OpenRemoteInterface, OpenRemoteInterface method, OpenRemoteInterface method,IWDFRemoteTarget interface, UMDFIoTargetObjectRef_e8287a4e-9f63-40e6-9a85-fb881a27d292.xml, umdf.iwdfremotetarget_openremoteinterface, wdf.iwdfremotetarget_openremoteinterface, wudfddi/IWDFRemoteTarget::OpenRemoteInterface
 ms.topic: method
 req.header: wudfddi.h
@@ -69,7 +69,7 @@ An optional pointer to a caller-supplied, <b>null</b>-terminated string that the
 
 ### -param DesiredAccess [in]
 
-A bitmask that specifies the caller's desired access to the file. For more information about this member, see the <i>DesiredAccess</i> parameter of <a href="http://go.microsoft.com/fwlink/p/?linkid=152795">CreateFile</a> in the Windows SDK.
+A bitmask that specifies the caller's desired access to the file. For more information about this member, see the <i>DesiredAccess</i> parameter of <a href="https://go.microsoft.com/fwlink/p/?linkid=152795">CreateFile</a> in the Windows SDK.
 
 
 ### -param pOpenParams [in, optional]

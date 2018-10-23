@@ -6,7 +6,7 @@ description: FltWriteFile is used to write data to an open file, stream, or devi
 old-location: ifsk\fltwritefile.htm
 tech.root: ifsk
 ms.assetid: 994b4a75-4581-423b-8b8f-17a64600fb74
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_8d4d2b16-fa86-4084-8dad-879d4908f2fe.xml, FltWriteFile, FltWriteFile function [Installable File System Drivers], fltkernel/FltWriteFile, ifsk.fltwritefile
 ms.topic: function
 req.header: fltkernel.h

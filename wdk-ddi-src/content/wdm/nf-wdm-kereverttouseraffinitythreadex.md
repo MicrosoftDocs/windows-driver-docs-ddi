@@ -6,7 +6,7 @@ description: The KeRevertToUserAffinityThreadEx routine restores the previous af
 old-location: kernel\kereverttouseraffinitythreadex.htm
 tech.root: kernel
 ms.assetid: effda249-3ba0-40e9-914b-4dd33126518c
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeRevertToUserAffinityThreadEx, KeRevertToUserAffinityThreadEx routine [Kernel-Mode Driver Architecture], k105_88dc65fe-5379-4b7c-bfa0-6f2bb943b7cc.xml, kernel.kereverttouseraffinitythreadex, wdm/KeRevertToUserAffinityThreadEx
 ms.topic: function
 req.header: wdm.h

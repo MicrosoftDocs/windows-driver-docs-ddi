@@ -6,7 +6,7 @@ description: The KsPinGetParentFilter function returns the parent filter of Pin.
 old-location: stream\kspingetparentfilter.htm
 tech.root: stream
 ms.assetid: adbd1e83-37f0-4e0c-92e3-92c6c79eb24f
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsPinGetParentFilter, KsPinGetParentFilter function [Streaming Media Devices], avfunc_0a7c672c-072d-49f8-b1de-93ee1e5c8e1c.xml, ks/KsPinGetParentFilter, stream.kspingetparentfilter
 ms.topic: function
 req.header: ks.h

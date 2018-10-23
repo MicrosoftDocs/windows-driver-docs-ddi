@@ -6,7 +6,7 @@ description: The WRITE_REGISTER_BUFFER_UCHAR routine writes a number of bytes fr
 old-location: kernel\write_register_buffer_uchar.htm
 tech.root: kernel
 ms.assetid: 4cb90f37-c7ce-4f78-9e68-cbe4aaf6ea72
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: WRITE_REGISTER_BUFFER_UCHAR, WRITE_REGISTER_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], k103_29b68153-db95-4017-ab96-d05e6c984503.xml, kernel.write_register_buffer_uchar, wdm/WRITE_REGISTER_BUFFER_UCHAR
 ms.topic: function
 req.header: wudfwdm.h

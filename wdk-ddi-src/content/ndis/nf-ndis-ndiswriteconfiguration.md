@@ -6,7 +6,7 @@ description: The NdisWriteConfiguration function writes a caller-supplied value 
 old-location: netvista\ndiswriteconfiguration.htm
 tech.root: netvista
 ms.assetid: 63c94f4d-1c8c-43c2-ae58-993da42a80a4
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisWriteConfiguration, NdisWriteConfiguration function [Network Drivers Starting with Windows Vista], ndis/NdisWriteConfiguration, ndis_configuration_ref_7d603433-49ed-46d5-8a57-000c06d83d4a.xml, netvista.ndiswriteconfiguration
 ms.topic: function
 req.header: ndis.h

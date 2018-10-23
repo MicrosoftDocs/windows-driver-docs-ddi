@@ -6,7 +6,7 @@ description: The DISK_EXTENT structure contains information defining the locatio
 old-location: storage\disk_extent.htm
 tech.root: storage
 ms.assetid: 74ffdfba-1b80-479d-9637-43222a438fa9
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PDISK_EXTENT, DISK_EXTENT, DISK_EXTENT structure [Storage Devices], PDISK_EXTENT, PDISK_EXTENT structure pointer [Storage Devices], _DISK_EXTENT, ntddvol/DISK_EXTENT, ntddvol/PDISK_EXTENT, storage.disk_extent, structs-disk_2874d2a7-dc4e-46e6-9d43-2374e82c857b.xml"
 ms.topic: struct
 req.header: ntddvol.h

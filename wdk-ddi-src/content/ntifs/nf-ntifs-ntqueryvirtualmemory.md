@@ -6,7 +6,7 @@ description: The ZwQueryVirtualMemory routine determines the state, protection, 
 old-location: kernel\zwqueryvirtualmemory.htm
 tech.root: kernel
 ms.assetid: 011BE902-5ED3-4AD8-B825-6850A72C1D5F
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtQueryVirtualMemory, ZwQueryVirtualMemory, ZwQueryVirtualMemory routine [Kernel-Mode Driver Architecture], kernel.zwqueryvirtualmemory, ntifs/NtQueryVirtualMemory, ntifs/ZwQueryVirtualMemory
 ms.topic: function
 req.header: ntifs.h

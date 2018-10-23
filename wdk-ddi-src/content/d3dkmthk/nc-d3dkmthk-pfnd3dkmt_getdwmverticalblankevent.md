@@ -4,7 +4,7 @@ title: PFND3DKMT_GETDWMVERTICALBLANKEVENT
 author: windows-driver-content
 description: Pfnd3dkmtGetdwmverticalblankevent gets DWM (desktop windows manager) vertical blank event.
 ms.assetid: 3f938343-51f7-4e40-bccc-73dbabf9e2a9
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

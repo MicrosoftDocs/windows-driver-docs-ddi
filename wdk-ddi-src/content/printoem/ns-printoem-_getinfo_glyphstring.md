@@ -6,7 +6,7 @@ description: The GETINFO_GLYPHSTRING structure is used as input to the UNIFONTOB
 old-location: print\getinfo_glyphstring.htm
 tech.root: print
 ms.assetid: ebcc1ada-af6f-46c3-a025-97079eb08816
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PGETINFO_GLYPHSTRING, GETINFO_GLYPHSTRING, GETINFO_GLYPHSTRING structure [Print Devices], PGETINFO_GLYPHSTRING, PGETINFO_GLYPHSTRING structure pointer [Print Devices], _GETINFO_GLYPHSTRING, print.getinfo_glyphstring, print_unidrv-pscript_rendering_5b2786d4-2633-4abe-8eaf-23e7100f7ba3.xml, printoem/GETINFO_GLYPHSTRING, printoem/PGETINFO_GLYPHSTRING"
 ms.topic: struct
 req.header: printoem.h

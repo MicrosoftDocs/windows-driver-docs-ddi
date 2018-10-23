@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilgeolocationrequestaccuracy.htm
 tech.root: netvista
 ms.assetid: e1e6ca44-a027-4800-9932-617f3bb4679d
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILGEOLOCATIONREQUESTACCURACY, RILGEOLOCATIONREQUESTACCURACY enumeration [Network Drivers Starting with Windows Vista], RIL_LOCACCURACY_DEFAULT, netvista.rilgeolocationrequestaccuracy, ntddrilapitypes/RILGEOLOCATIONREQUESTACCURACY, ntddrilapitypes/RIL_LOCACCURACY_DEFAULT
 ms.topic: enum
 req.header: rilapitypes.h

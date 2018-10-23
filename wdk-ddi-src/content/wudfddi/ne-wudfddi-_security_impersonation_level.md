@@ -6,7 +6,7 @@ description: The SECURITY_IMPERSONATION_LEVEL enumeration contains values that i
 old-location: wdf\security_impersonation_level.htm
 tech.root: wdf
 ms.assetid: 5c325c16-6bc6-4eae-a58c-234d11616780
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: SECURITY_IMPERSONATION_LEVEL, SECURITY_IMPERSONATION_LEVEL enumeration, SecurityAnonymous, SecurityDelegation, SecurityIdentification, SecurityImpersonation, _SECURITY_IMPERSONATION_LEVEL, umdf.security_impersonation_level, umdfstructs_f81ccb0e-4b8c-4a8a-bdd3-4b4a45a750ab.xml, wdf.security_impersonation_level, wudfddi/SECURITY_IMPERSONATION_LEVEL, wudfddi/SecurityAnonymous, wudfddi/SecurityDelegation, wudfddi/SecurityIdentification, wudfddi/SecurityImpersonation
 ms.topic: enum
 req.header: wudfddi.h

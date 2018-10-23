@@ -6,7 +6,7 @@ description: The client sends the IOCTL_NFP_ENABLE request to re-enable previous
 old-location: nfpdrivers\ioctl_nfp_enable.htm
 tech.root: nfpdrivers
 ms.assetid: 25D4C7BB-782D-4BDB-9E07-F152E3705705
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_NFP_ENABLE, IOCTL_NFP_ENABLE control, IOCTL_NFP_ENABLE control code [Near-Field Proximity Drivers], _IOCTL_NFP_ENABLE, nfpdev/IOCTL_NFP_ENABLE, nfpdrivers.ioctl_nfp_enable
 ms.topic: ioctl
 req.header: nfpdev.h
@@ -146,7 +146,7 @@ If a device is currently proximate when this IOCTL is successfully completed, th
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) overall design guide</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) overall design guide</a>
 
 
 

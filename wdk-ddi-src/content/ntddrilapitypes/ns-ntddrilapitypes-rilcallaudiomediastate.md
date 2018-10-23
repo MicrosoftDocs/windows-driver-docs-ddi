@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilcallaudiomediastate.htm
 tech.root: netvista
 ms.assetid: f8e65085-6837-4d49-a39e-784942ee39a4
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILCALLAUDIOMEDIASTATE, RILCALLAUDIOMEDIASTATE, RILCALLAUDIOMEDIASTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallaudiomediastate, ntddrilapitypes/RILCALLAUDIOMEDIASTATE"
 ms.topic: struct
 req.header: ntddrilapitypes.h

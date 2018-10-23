@@ -6,7 +6,7 @@ description: The WdfUsbTargetDeviceSelectSettingType enumeration defines techniq
 old-location: wdf\wdfusbtargetdeviceselectsettingtype.htm
 tech.root: wdf
 ms.assetid: 3bbe3da6-f069-4965-ae60-2d755d7557c1
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_2c08813e-959f-48db-92d5-3aece2d8e856.xml, WdfUsbInterfaceSelectSettingTypeDescriptor, WdfUsbInterfaceSelectSettingTypeSetting, WdfUsbInterfaceSelectSettingTypeUrb, WdfUsbTargetDeviceSelectSettingType, WdfUsbTargetDeviceSelectSettingType enumeration, _WdfUsbTargetDeviceSelectSettingType, kmdf.wdfusbtargetdeviceselectsettingtype, wdf.wdfusbtargetdeviceselectsettingtype, wdfusb/WdfUsbInterfaceSelectSettingTypeDescriptor, wdfusb/WdfUsbInterfaceSelectSettingTypeSetting, wdfusb/WdfUsbInterfaceSelectSettingTypeUrb, wdfusb/WdfUsbTargetDeviceSelectSettingType
 ms.topic: enum
 req.header: wdfusb.h

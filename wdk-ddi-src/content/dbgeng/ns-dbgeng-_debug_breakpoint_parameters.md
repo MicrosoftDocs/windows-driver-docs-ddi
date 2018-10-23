@@ -6,7 +6,7 @@ description: The DEBUG_BREAKPOINT_PARAMETERS structure contains most of the para
 old-location: debugger\debug_breakpoint_parameters.htm
 tech.root: debugger
 ms.assetid: e5c87c1c-8195-4476-84bc-5f18ad83d149
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: "*PDEBUG_BREAKPOINT_PARAMETERS, DEBUG_BREAKPOINT_PARAMETERS, DEBUG_BREAKPOINT_PARAMETERS structure [Windows Debugging], PDEBUG_BREAKPOINT_PARAMETERS, PDEBUG_BREAKPOINT_PARAMETERS structure pointer [Windows Debugging], Structures_ad5f0e1f-7d6f-498d-80a0-1275ca3cb016.xml, _DEBUG_BREAKPOINT_PARAMETERS, dbgeng/DEBUG_BREAKPOINT_PARAMETERS, dbgeng/PDEBUG_BREAKPOINT_PARAMETERS, debugger.debug_breakpoint_parameters"
 ms.topic: struct
 req.header: dbgeng.h

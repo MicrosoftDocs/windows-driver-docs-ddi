@@ -6,7 +6,7 @@ description: The PEP_DEVICE_ACCEPTANCE_TYPE enumeration indicates whether a PEP 
 old-location: kernel\pep_device_acceptance_type.htm
 tech.root: kernel
 ms.assetid: 72D0BEC2-F5D5-4045-AD63-F263993817B0
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_DEVICE_ACCEPTANCE_TYPE, PEP_DEVICE_ACCEPTANCE_TYPE, PEP_DEVICE_ACCEPTANCE_TYPE enumeration [Kernel-Mode Driver Architecture], PepDeviceAccepted, PepDeviceAcceptedMax, PepDeviceAcceptedReserved, PepDeviceNotAccepted, _PEP_DEVICE_ACCEPTANCE_TYPE, kernel.pep_device_acceptance_type, pepfx/PEP_DEVICE_ACCEPTANCE_TYPE, pepfx/PepDeviceAccepted, pepfx/PepDeviceAcceptedMax, pepfx/PepDeviceAcceptedReserved, pepfx/PepDeviceNotAccepted"
 ms.topic: enum
 req.header: pep_x.h

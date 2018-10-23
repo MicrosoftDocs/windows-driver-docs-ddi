@@ -6,7 +6,7 @@ description: The CLIENT_StartController event callback function performs operati
 old-location: gpio\client_startcontroller.htm
 tech.root: GPIO
 ms.assetid: 311C5273-1C16-4EA7-96B4-838CCE6926BA
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: CLIENT_StartController, CLIENT_StartController callback, CLIENT_StartController callback function [Parallel Ports], GPIO.client_startcontroller, GPIO_CLIENT_START_CONTROLLER, gpioclx/CLIENT_StartController
 ms.topic: callback
 req.header: gpioclx.h
@@ -128,7 +128,7 @@ VOID
 </td>
 </tr>
 </table></span></div>
-The GPIO_CLIENT_START_CONTROLLER function type is defined in the Gpioclx.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the GPIO_CLIENT_START_CONTROLLER function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For more information about _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?LinkId=286697">Annotating Function Behavior</a>.
+The GPIO_CLIENT_START_CONTROLLER function type is defined in the Gpioclx.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the GPIO_CLIENT_START_CONTROLLER function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For more information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?LinkId=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>
 

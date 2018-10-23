@@ -6,7 +6,7 @@ description: The CreateFileHandleTarget method creates a file-handle-based I/O t
 old-location: wdf\iwdffilehandletargetfactory_createfilehandletarget.htm
 tech.root: wdf
 ms.assetid: 579a2cef-1e37-426c-9f69-8766dc9011ba
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: CreateFileHandleTarget, CreateFileHandleTarget method, CreateFileHandleTarget method,IWDFFileHandleTargetFactory interface, IWDFFileHandleTargetFactory interface,CreateFileHandleTarget method, IWDFFileHandleTargetFactory.CreateFileHandleTarget, IWDFFileHandleTargetFactory::CreateFileHandleTarget, UMDFDeviceObjectRef_4a3fcfeb-e1a1-4375-8bd5-bdd75c36c454.xml, umdf.iwdffilehandletargetfactory_createfilehandletarget, wdf.iwdffilehandletargetfactory_createfilehandletarget, wudfddi/IWDFFileHandleTargetFactory::CreateFileHandleTarget
 ms.topic: method
 req.header: wudfddi.h

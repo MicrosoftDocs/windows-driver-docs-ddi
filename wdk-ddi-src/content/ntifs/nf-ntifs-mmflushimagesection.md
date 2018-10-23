@@ -6,7 +6,7 @@ description: The MmFlushImageSection routine flushes the image section for a fil
 old-location: ifsk\mmflushimagesection.htm
 tech.root: ifsk
 ms.assetid: e5c94f80-8ff8-4945-b1b8-a12190c3dec7
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: MmFlushImageSection, MmFlushImageSection routine [Installable File System Drivers], ifsk.mmflushimagesection, mmref_d6a37cf0-a204-4070-80f6-bd407f671ee8.xml, ntifs/MmFlushImageSection
 ms.topic: function
 req.header: ntifs.h

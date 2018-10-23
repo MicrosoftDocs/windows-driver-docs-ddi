@@ -4,7 +4,7 @@ title: D3DKMT_MIRACAST_DEVICE_STATUS
 author: windows-driver-content
 description: Miracast (wireless display) device status.
 ms.assetid: bf6c74a4-ace8-4fbe-bc61-5066211e9e51
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3DKMT_MIRACAST_DEVICE_STATUS, D3DKMT_MIRACAST_DEVICE_STATUS, 
 req.header: d3dkmthk.h

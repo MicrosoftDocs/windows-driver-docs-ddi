@@ -6,7 +6,7 @@ description: The NdisInitializeReadWriteLock function initializes a read or writ
 old-location: netvista\ndisinitializereadwritelock.htm
 tech.root: netvista
 ms.assetid: 458d8a08-7212-4888-9bb3-07a470541c8d
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisInitializeReadWriteLock, NdisInitializeReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisInitializeReadWriteLock, ndis_read_write_lock_ref_a74c25e4-58af-4fb0-9c5a-0fc29bad9aa7.xml, netvista.ndisinitializereadwritelock
 ms.topic: function
 req.header: ndis.h

@@ -6,7 +6,7 @@ description: A minifilter driver calls FltPerformAsynchronousIo to initiate an a
 old-location: ifsk\fltperformasynchronousio.htm
 tech.root: ifsk
 ms.assetid: c76529fe-c808-4239-9bde-68dc68d987ec
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_ed6cd087-6139-4280-aaf3-fe6f0d5b056a.xml, FltPerformAsynchronousIo, FltPerformAsynchronousIo function [Installable File System Drivers], fltkernel/FltPerformAsynchronousIo, ifsk.fltperformasynchronousio
 ms.topic: function
 req.header: fltkernel.h

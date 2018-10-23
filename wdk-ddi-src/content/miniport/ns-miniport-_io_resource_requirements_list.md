@@ -6,7 +6,7 @@ description: The IO_RESOURCE_REQUIREMENTS_LIST structure describes sets of resou
 old-location: kernel\io_resource_requirements_list.htm
 tech.root: kernel
 ms.assetid: e581fd34-4564-4882-b91d-94801e579bde
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PIO_RESOURCE_REQUIREMENTS_LIST, IO_RESOURCE_REQUIREMENTS_LIST, IO_RESOURCE_REQUIREMENTS_LIST structure [Kernel-Mode Driver Architecture], PIO_RESOURCE_REQUIREMENTS_LIST, PIO_RESOURCE_REQUIREMENTS_LIST structure pointer [Kernel-Mode Driver Architecture], _IO_RESOURCE_REQUIREMENTS_LIST, kernel.io_resource_requirements_list, kstruct_b_3a1f163a-5841-4284-9ee7-c0999e1a9bbc.xml, wdm/IO_RESOURCE_REQUIREMENTS_LIST, wdm/PIO_RESOURCE_REQUIREMENTS_LIST"
 ms.topic: struct
 req.header: miniport.h

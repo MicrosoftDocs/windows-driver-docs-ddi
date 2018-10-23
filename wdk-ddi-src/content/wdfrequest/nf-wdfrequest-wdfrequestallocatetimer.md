@@ -6,7 +6,7 @@ description: The WdfRequestAllocateTimer method allocates a timer for a specifie
 old-location: wdf\wdfrequestallocatetimer.htm
 tech.root: wdf
 ms.assetid: e77aece7-df27-42d8-8e25-6907a5401ff9
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_ae292896-d156-44ae-b0cd-3f807fbc1765.xml, WdfRequestAllocateTimer, WdfRequestAllocateTimer method, kmdf.wdfrequestallocatetimer, wdf.wdfrequestallocatetimer, wdfrequest/WdfRequestAllocateTimer
 ms.topic: function
 req.header: wdfrequest.h

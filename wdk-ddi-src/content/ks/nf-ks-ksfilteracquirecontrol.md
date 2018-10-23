@@ -6,7 +6,7 @@ description: The KsFilterAcquireControl function acquires the filter control mut
 old-location: stream\ksfilteracquirecontrol.htm
 tech.root: stream
 ms.assetid: 93dfe9fe-e1af-45db-ab28-fd166f511fcc
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsFilterAcquireControl, KsFilterAcquireControl function [Streaming Media Devices], avfunc_63930ae0-491f-4916-a24f-7de5c8fa1ad3.xml, ks/KsFilterAcquireControl, stream.ksfilteracquirecontrol
 ms.topic: function
 req.header: ks.h

@@ -6,7 +6,7 @@ description: The OEMTransparentBlt function provides bit-block transfer capabili
 old-location: print\oemtransparentblt.htm
 tech.root: print
 ms.assetid: 0ffd4759-cabe-4efe-a725-5b8ff26fda77
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: OEMTransparentBlt, OEMTransparentBlt function [Print Devices], print.oemtransparentblt, print_unidrv-pscript_rendering_a02993f9-58d7-4a42-ad7b-be61bd6b265d.xml, printoem/OEMTransparentBlt
 ms.topic: function
 req.header: printoem.h

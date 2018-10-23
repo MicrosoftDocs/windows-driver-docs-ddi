@@ -6,7 +6,7 @@ description: The filter engine calls the vSwitchFilterEngineReorderNotifyRn (FWP
 old-location: netvista\fwps_vswitch_filter_engine_reorder_callback0.htm
 tech.root: netvista
 ms.assetid: 2526E8BD-316F-4B8D-9CC4-66F4E3B7D708
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0, FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0 callback, fwpsk/vSwitchFilterEngineReorderNotifyRn, netvista.fwps_vswitch_filter_engine_reorder_callback0, vSwitchFilterEngineReorderNotifyRn, vSwitchFilterEngineReorderNotifyRn callback function [Network Drivers Starting with Windows Vista]
 ms.topic: callback
 req.header: fwpsk.h

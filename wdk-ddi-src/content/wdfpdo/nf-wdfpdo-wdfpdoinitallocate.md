@@ -6,7 +6,7 @@ description: The WdfPdoInitAllocate method allocates a WDFDEVICE_INIT structure 
 old-location: wdf\wdfpdoinitallocate.htm
 tech.root: wdf
 ms.assetid: 86e48354-d4cd-4ad0-a6bd-e8ba662075d8
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_bc23c37b-d595-4672-ad92-4a29aea9c2dd.xml, WdfPdoInitAllocate, WdfPdoInitAllocate method, kmdf.wdfpdoinitallocate, wdf.wdfpdoinitallocate, wdfpdo/WdfPdoInitAllocate
 ms.topic: function
 req.header: wdfpdo.h

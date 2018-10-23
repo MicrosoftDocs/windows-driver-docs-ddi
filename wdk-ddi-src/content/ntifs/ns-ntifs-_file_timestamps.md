@@ -6,7 +6,7 @@ description: The FILE_TIMESTAMPS structure specifies the last recorded instance 
 old-location: ifsk\file_timestamps.htm
 tech.root: ifsk
 ms.assetid: 0F016D21-34CD-43DD-BE39-C6DF6D63A3AC
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PFILE_TIMESTAMPS, FILE_TIMESTAMPS, FILE_TIMESTAMPS structure [Installable File System Drivers], PFILE_TIMESTAMPS, PFILE_TIMESTAMPS structure pointer [Installable File System Drivers], _FILE_TIMESTAMPS, ifsk.file_timestamps, ntifs/File_TIMESTAMPS, ntifs/PFILE_TIMESTAMPS"
 ms.topic: struct
 req.header: ntifs.h

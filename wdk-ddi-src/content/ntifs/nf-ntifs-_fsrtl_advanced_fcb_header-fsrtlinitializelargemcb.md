@@ -6,7 +6,7 @@ description: The FsRtlInitializeLargeMcb routine initializes a map control block
 old-location: ifsk\fsrtlinitializelargemcb.htm
 tech.root: ifsk
 ms.assetid: 3b4c879e-d685-4ee9-b44a-a37de4a84800
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlInitializeLargeMcb, FsRtlInitializeLargeMcb routine [Installable File System Drivers], fsrtlref_298126ca-6c2b-4662-a7ef-2dbc5d1ba361.xml, ifsk.fsrtlinitializelargemcb, ntifs/FsRtlInitializeLargeMcb
 ms.topic: function
 req.header: ntifs.h

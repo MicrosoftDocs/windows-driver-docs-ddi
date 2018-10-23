@@ -6,7 +6,7 @@ description: The OutputContextStackTraceEx method prints the call stack specifie
 old-location: debugger\idebugcontrol5_outputcontextstacktraceex.htm
 tech.root: debugger
 ms.assetid: B0C1E602-83CE-4F4E-9198-B1B1CDAFF4BF
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugControl5 interface [Windows Debugging],OutputContextStackTraceEx method, IDebugControl5.OutputContextStackTraceEx, IDebugControl5::OutputContextStackTraceEx, OutputContextStackTraceEx, OutputContextStackTraceEx method [Windows Debugging], OutputContextStackTraceEx method [Windows Debugging],IDebugControl5 interface, dbgeng/IDebugControl5::OutputContextStackTraceEx, debugger.idebugcontrol5_outputcontextstacktraceex
 ms.topic: method
 req.header: dbgeng.h

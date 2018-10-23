@@ -6,7 +6,7 @@ description: The GetLogFile2 method returns the name of the currently open log f
 old-location: debugger\getlogfile2.htm
 tech.root: debugger
 ms.assetid: 77ab08ce-96c5-4330-aab2-1bf4ab23cfc4
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetLogFile2, GetLogFile2 method [Windows Debugging], GetLogFile2 method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetLogFile2 method, IDebugControl4.GetLogFile2, IDebugControl4::GetLogFile2, IDebugControl_9822bd84-b8ee-4d36-a66f-e38567d23646.xml, dbgeng/IDebugControl4::GetLogFile2, debugger.getlogfile2
 ms.topic: method
 req.header: dbgeng.h

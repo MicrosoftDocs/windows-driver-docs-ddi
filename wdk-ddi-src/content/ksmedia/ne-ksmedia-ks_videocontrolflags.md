@@ -6,7 +6,7 @@ description: The KS_VideoControlFlags enumeration defines video control capabili
 old-location: stream\ks_videocontrolflags.htm
 tech.root: stream
 ms.assetid: 7f8b3727-132c-41c8-a252-0f9c8812002f
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KS_Obsolete_VideoControlFlag_ExternalTriggerEnable, KS_Obsolete_VideoControlFlag_Trigger, KS_VideoControlFlag_ExternalTriggerEnable, KS_VideoControlFlag_FlipHorizontal, KS_VideoControlFlag_FlipVertical, KS_VideoControlFlag_IndependentImagePin, KS_VideoControlFlag_StartPhotoSequenceCapture, KS_VideoControlFlag_StillCapturePreviewFrame, KS_VideoControlFlag_StopPhotoSequenceCapture, KS_VideoControlFlag_Trigger, KS_VideoControlFlags, KS_VideoControlFlags enumeration [Streaming Media Devices], ksmedia/KS_Obsolete_VideoControlFlag_ExternalTriggerEnable, ksmedia/KS_Obsolete_VideoControlFlag_Trigger, ksmedia/KS_VideoControlFlag_ExternalTriggerEnable, ksmedia/KS_VideoControlFlag_FlipHorizontal, ksmedia/KS_VideoControlFlag_FlipVertical, ksmedia/KS_VideoControlFlag_IndependentImagePin, ksmedia/KS_VideoControlFlag_StartPhotoSequenceCapture, ksmedia/KS_VideoControlFlag_StillCapturePreviewFrame, ksmedia/KS_VideoControlFlag_StopPhotoSequenceCapture, ksmedia/KS_VideoControlFlag_Trigger, ksmedia/KS_VideoControlFlags, stream.ks_videocontrolflags, vidcapstruct_ae01591c-4ee4-4e70-bfc2-c78ad73a296f.xml
 ms.topic: enum
 req.header: ksmedia.h

@@ -6,7 +6,7 @@ description: This structure defines Unified Point of Service (UPOS) standard inf
 old-location: pos\posstatisticsheader.htm
 tech.root: pos
 ms.assetid: 75567f14-07fe-4861-9f78-e4de6d0bb023
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: PosStatisticsHeader, PosStatisticsHeader structure, _PosStatisticsHeader, pointofservicedriverinterface/PosStatisticsHeader, pos.posstatisticsheader
 ms.topic: struct
 req.header: pointofservicedriverinterface.h

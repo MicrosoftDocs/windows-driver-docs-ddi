@@ -6,7 +6,7 @@ description: The BINARY_DATA structure contains the binary data of a named entry
 old-location: netvista\binary_data.htm
 tech.root: netvista
 ms.assetid: 2d629905-49aa-4b66-83f3-0aecb72b73ea
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: BINARY_DATA, BINARY_DATA structure [Network Drivers Starting with Windows Vista], ndis/BINARY_DATA, ndis_configuration_ref_50fc50e5-52d2-4e25-a03b-6c581e50fef1.xml, netvista.binary_data
 ms.topic: struct
 req.header: ndis.h

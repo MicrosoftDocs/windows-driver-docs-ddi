@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_getemergencymode.htm
 tech.root: netvista
 ms.assetid: 3c95d10b-5db6-40d0-9caa-518235e81d6d
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_GetEmergencyMode, RIL_GetEmergencyMode method [Network Drivers Starting with Windows Vista], netvista.ril_getemergencymode, rilapi/RIL_GetEmergencyMode
 ms.topic: function
 req.header: rilapi.h

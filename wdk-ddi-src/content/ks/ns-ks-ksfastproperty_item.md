@@ -6,7 +6,7 @@ description: The KSFASTPROPERTY_ITEM structure is used with items for fast I/O d
 old-location: stream\ksfastproperty_item.htm
 tech.root: stream
 ms.assetid: 8a39b7cb-cd05-4fb8-9e50-7425e689a36f
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSFASTPROPERTY_ITEM, KSFASTPROPERTY_ITEM, KSFASTPROPERTY_ITEM structure [Streaming Media Devices], PKSFASTPROPERTY_ITEM, PKSFASTPROPERTY_ITEM structure pointer [Streaming Media Devices], ks-struct_dddb648f-ea8a-436a-b948-397364fe2db6.xml, ks/KSFASTPROPERTY_ITEM, ks/PKSFASTPROPERTY_ITEM, stream.ksfastproperty_item"
 ms.topic: struct
 req.header: ks.h

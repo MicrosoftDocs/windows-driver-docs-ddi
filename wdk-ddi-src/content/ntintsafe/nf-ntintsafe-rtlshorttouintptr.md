@@ -6,7 +6,7 @@ description: Converts a value of type SHORT to a value of type UINT_PTR.
 old-location: kernel\rtlshorttouintptr.htm
 tech.root: kernel
 ms.assetid: C9E81C1A-56F2-414F-8FE5-847E291A022A
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlShortToUIntPtr, RtlShortToUIntPtr function [Kernel-Mode Driver Architecture], kernel.rtlshorttouintptr, ntintsafe/RtlShortToUIntPtr
 ms.topic: function
 req.header: ntintsafe.h

@@ -4,7 +4,7 @@ title: PFND3D12DDI_DESTROYVIDEOMOTIONVECTORHEAP_0053
 author: windows-driver-content
 description: Destroys the video motion vector heap.
 ms.assetid: e49d4848-dd80-46b9-91b9-cfdf0eda3311
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:

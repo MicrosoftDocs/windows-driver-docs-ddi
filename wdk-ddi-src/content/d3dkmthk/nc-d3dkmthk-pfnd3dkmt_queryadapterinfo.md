@@ -4,7 +4,7 @@ title: PFND3DKMT_QUERYADAPTERINFO
 author: windows-driver-content
 description: The PFND3DKMT_QUERYADAPTERINFO callback function retrieves graphics adapter information.
 ms.assetid: fc4f4324-cb20-49ae-8f1c-3aa8e75d3d9a
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

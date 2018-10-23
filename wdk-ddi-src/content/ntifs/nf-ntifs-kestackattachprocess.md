@@ -6,7 +6,7 @@ description: The KeStackAttachProcess routine attaches the current thread to the
 old-location: ifsk\kestackattachprocess.htm
 tech.root: ifsk
 ms.assetid: 52ac1410-8f8f-405a-9c81-a534c3cfbf51
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: KeStackAttachProcess, KeStackAttachProcess routine [Installable File System Drivers], ifsk.kestackattachprocess, keref_de4fc228-753f-4077-8372-e5330c96d317.xml, ntifs/KeStackAttachProcess
 ms.topic: function
 req.header: ntifs.h

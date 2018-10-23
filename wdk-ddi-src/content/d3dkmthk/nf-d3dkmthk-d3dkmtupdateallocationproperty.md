@@ -4,7 +4,7 @@ title: D3DKMTUpdateAllocationProperty function
 author: windows-driver-content
 description: Updates allocation property of a context.
 ms.assetid: 598aaa26-150f-470d-aa48-76af546e98e1
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTUpdateAllocationProperty
 req.header: d3dkmthk.h

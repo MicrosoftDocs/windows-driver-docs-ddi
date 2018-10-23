@@ -6,7 +6,7 @@ description: The WDF_READ_PORT_UCHAR function reads a byte from the specified po
 old-location: wdf\wdf_read_port_uchar.htm
 tech.root: wdf
 ms.assetid: FC7AB24C-2AE0-4014-82FE-97C285E9558E
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WDF_READ_PORT_UCHAR, WDF_READ_PORT_UCHAR function, wdf.wdf_read_port_uchar, wdfhwaccess/WDF_READ_PORT_UCHAR
 ms.topic: function
 req.header: wdfhwaccess.h

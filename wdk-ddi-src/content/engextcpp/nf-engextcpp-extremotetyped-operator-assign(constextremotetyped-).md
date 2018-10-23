@@ -6,7 +6,7 @@ description: The operator= overloaded assignment operator sets the typed data re
 old-location: debugger\extremotetyped_operatorequals_extremotetyped.htm
 tech.root: debugger
 ms.assetid: c6ca8078-a331-4952-9854-831ba95404ee
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ExtRemoteTyped class [Windows Debugging],operator= method, ExtRemoteTyped.operator=, ExtRemoteTyped.operator=(const ExtRemoteTyped &), ExtRemoteTyped.operator=(const ExtRemoteTyped&), ExtRemoteTyped::operator=, ExtRemoteTyped::operator=(const ExtRemoteTyped &), debugger.extremotetyped_operatorequals_extremotetyped, operator=, operator= method [Windows Debugging], operator= method [Windows Debugging],ExtRemoteTyped class
 ms.topic: method
 req.header: engextcpp.hpp

@@ -6,7 +6,7 @@ description: The SeSetAccessStateGenericMapping routine sets the generic mapping
 old-location: ifsk\sesetaccessstategenericmapping.htm
 tech.root: ifsk
 ms.assetid: b9a5ca5c-2d1c-4974-bef8-6003a4d6e864
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: SeSetAccessStateGenericMapping, SeSetAccessStateGenericMapping routine [Installable File System Drivers], ifsk.sesetaccessstategenericmapping, ntifs/SeSetAccessStateGenericMapping, seref_41bfccdf-c133-4587-9d9e-a328eedbd28b.xml
 ms.topic: function
 req.header: ntifs.h

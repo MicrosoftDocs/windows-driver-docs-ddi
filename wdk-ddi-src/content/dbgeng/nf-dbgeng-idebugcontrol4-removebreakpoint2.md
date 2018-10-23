@@ -6,7 +6,7 @@ description: The RemoveBreakpoint2 method removes a breakpoint.
 old-location: debugger\removebreakpoint2.htm
 tech.root: debugger
 ms.assetid: e1c77758-0249-4ec6-9244-329c0b823e44
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugControl4 interface [Windows Debugging],RemoveBreakpoint2 method, IDebugControl4.RemoveBreakpoint2, IDebugControl4::RemoveBreakpoint2, RemoveBreakpoint2, RemoveBreakpoint2 method [Windows Debugging], RemoveBreakpoint2 method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::RemoveBreakpoint2, debugger.removebreakpoint2
 ms.topic: method
 req.header: dbgeng.h

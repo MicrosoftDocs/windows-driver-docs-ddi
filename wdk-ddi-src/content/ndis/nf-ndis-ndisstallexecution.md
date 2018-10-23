@@ -6,7 +6,7 @@ description: The NdisStallExecution function stalls the caller on the current pr
 old-location: netvista\ndisstallexecution.htm
 tech.root: netvista
 ms.assetid: 590f5a1a-fd78-408e-b4f0-555f08694c43
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisStallExecution, NdisStallExecution macro [Network Drivers Starting with Windows Vista], ndis/NdisStallExecution, ndis_delay_ref_de9bdd45-0bed-44cc-bdce-3ecd81842010.xml, netvista.ndisstallexecution
 ms.topic: macro
 req.header: ndis.h

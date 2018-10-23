@@ -6,7 +6,7 @@ description: Indicates to the UcmTcpciCx class extension that the client driver 
 old-location: buses\ucmtcpciportcontrollerstart.htm
 tech.root: usbref
 ms.assetid: 94e7c36a-e45c-4d98-aeb7-f23769347ca5
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UcmTcpciPortControllerStart, UcmTcpciPortControllerStart method [Buses], buses.ucmtcpciportcontrollerstart, ucmtcpciportcontroller/UcmTcpciPortControllerStart
 ms.topic: function
 req.header: ucmtcpciportcontroller.h

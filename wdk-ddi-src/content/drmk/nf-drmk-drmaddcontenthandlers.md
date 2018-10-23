@@ -6,7 +6,7 @@ description: The DrmAddContentHandlers function provides the system with a list 
 old-location: audio\drmaddcontenthandlers.htm
 tech.root: audio
 ms.assetid: da2ec371-052a-4ea1-9336-9e32df936227
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: DrmAddContentHandlers, DrmAddContentHandlers function [Audio Devices], aud-prop2_94f530fb-9766-4d61-a002-b1c7bd5183d5.xml, audio.drmaddcontenthandlers, drmk/DrmAddContentHandlers
 ms.topic: function
 req.header: drmk.h

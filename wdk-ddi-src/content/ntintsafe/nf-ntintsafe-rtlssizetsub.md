@@ -6,7 +6,7 @@ description: Subtracts one value of type SSIZE_T from another.
 old-location: kernel\rtlssizetsub.htm
 tech.root: kernel
 ms.assetid: 6EFDD7BF-B347-4E02-905E-01F0F155DB6F
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlSSIZETSub, RtlSSIZETSub function [Kernel-Mode Driver Architecture], kernel.rtlssizetsub, ntintsafe/RtlSSIZETSub
 ms.topic: function
 req.header: ntintsafe.h

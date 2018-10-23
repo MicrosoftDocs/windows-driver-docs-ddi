@@ -6,7 +6,7 @@ description: The DDICHECKOVERLAYSUPPORTINPUT structure describes an overlay disp
 old-location: display\ddicheckoverlaysupportinput.htm
 tech.root: display
 ms.assetid: 5f15743a-1ea7-4260-b2cb-f2871acb27f9
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D_other_Structs_194edebf-9bbd-465b-a731-ad3e10f6e809.xml, DDICHECKOVERLAYSUPPORTINPUT, DDICHECKOVERLAYSUPPORTINPUT structure [Display Devices], _DDICHECKOVERLAYSUPPORTINPUT, d3dumddi/DDICHECKOVERLAYSUPPORTINPUT, display.ddicheckoverlaysupportinput
 ms.topic: struct
 req.header: d3dumddi.h

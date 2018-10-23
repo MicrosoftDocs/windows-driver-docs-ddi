@@ -6,7 +6,7 @@ description: The RtlSecondsSince1980ToTime routine converts the elapsed time, in
 old-location: ifsk\rtlsecondssince1980totime.htm
 tech.root: ifsk
 ms.assetid: 2552df19-424e-43ba-9c8d-431123353d4a
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlSecondsSince1980ToTime, RtlSecondsSince1980ToTime routine [Installable File System Drivers], ifsk.rtlsecondssince1980totime, ntifs/RtlSecondsSince1980ToTime, rtlref_1896255f-11a2-445f-999a-95da533908d8.xml
 ms.topic: function
 req.header: ntifs.h

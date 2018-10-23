@@ -6,7 +6,7 @@ description: The ExAllocatePool routine is obsolete, and is exported only for ex
 old-location: kernel\exallocatepool.htm
 tech.root: kernel
 ms.assetid: b5b88a14-3d60-45bf-8340-b78175a55e01
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: ExAllocatePool, ExAllocatePool routine [Kernel-Mode Driver Architecture], k102_02ff5510-3d96-4a15-a0da-5da56e14b1b8.xml, kernel.exallocatepool, wdm/ExAllocatePool
 ms.topic: macro
 req.header: smcnt.h

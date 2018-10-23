@@ -6,7 +6,7 @@ description: The DxgkCbMapMemory function maps a range of translated physical ad
 old-location: display\dxgkcbmapmemory.htm
 tech.root: display
 ms.assetid: 916a4d1d-0c40-4125-89ae-488251b04810
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKCB_MAP_MEMORY, DXGKCB_MAP_MEMORY callback, DpFunctions_51d99a74-2fae-40b7-9e04-8afe0fc38805.xml, DxgkCbMapMemory, DxgkCbMapMemory callback function [Display Devices], display.dxgkcbmapmemory, dispmprt/DxgkCbMapMemory
 ms.topic: callback
 req.header: dispmprt.h

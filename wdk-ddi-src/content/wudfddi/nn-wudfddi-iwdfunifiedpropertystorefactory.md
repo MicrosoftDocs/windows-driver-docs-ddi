@@ -6,7 +6,7 @@ description: The IWDFUnifiedPropertyStoreFactory interface is a factory interfac
 old-location: wdf\iwdfunifiedpropertystorefactory.htm
 tech.root: wdf
 ms.assetid: 34884B88-187A-4079-843D-F777287442F7
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFUnifiedPropertyStoreFactory, IWDFUnifiedPropertyStoreFactory interface, IWDFUnifiedPropertyStoreFactory interface,described, umdf.iwdfunifiedpropertystorefactory, wdf.iwdfunifiedpropertystorefactory, wudfddi/IWDFUnifiedPropertyStoreFactory
 ms.topic: interface
 req.header: wudfddi.h

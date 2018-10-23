@@ -6,7 +6,7 @@ description: The PsIsThreadTerminating routine checks whether a thread is termin
 old-location: ifsk\psisthreadterminating.htm
 tech.root: ifsk
 ms.assetid: 2b82b060-79ea-4add-b559-af37c954537e
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: PsIsThreadTerminating, PsIsThreadTerminating routine [Installable File System Drivers], ifsk.psisthreadterminating, ntifs/PsIsThreadTerminating, psref_55824a18-3df1-4d43-bc9c-77da8ee6cf6c.xml
 ms.topic: function
 req.header: ntifs.h

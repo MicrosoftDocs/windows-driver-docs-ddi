@@ -6,7 +6,7 @@ description: The CaptureToSysMem function copies the contents of a capture buffe
 old-location: display\capturetosysmem.htm
 tech.root: display
 ms.assetid: ea2b5338-81cf-4114-bb07-16e8ff4d2b95
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CaptureToSysMem, CaptureToSysMem callback function [Display Devices], PFND3DDDI_CAPTURETOSYSMEM, PFND3DDDI_CAPTURETOSYSMEM callback, UserModeDisplayDriver_Functions_9d7270cc-da5e-4c04-8ab6-93b9cfd7a475.xml, d3dumddi/CaptureToSysMem, display.capturetosysmem
 ms.topic: callback
 req.header: d3dumddi.h

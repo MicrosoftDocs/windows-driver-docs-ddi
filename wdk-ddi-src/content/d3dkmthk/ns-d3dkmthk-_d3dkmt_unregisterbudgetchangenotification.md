@@ -4,7 +4,7 @@ title: _D3DKMT_UNREGISTERBUDGETCHANGENOTIFICATION
 author: windows-driver-content
 description: Used to unregister budget change notification.
 ms.assetid: 76138641-3d2e-4af9-b7b0-547bfdc2472b
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_UNREGISTERBUDGETCHANGENOTIFICATION, D3DKMT_UNREGISTERBUDGETCHANGENOTIFICATION, 
 req.header: d3dkmthk.h

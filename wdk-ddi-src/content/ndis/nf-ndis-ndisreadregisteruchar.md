@@ -6,7 +6,7 @@ description: NdisReadRegisterUchar is called by the miniport driver to read a UC
 old-location: netvista\ndisreadregisteruchar.htm
 tech.root: netvista
 ms.assetid: 1723672b-aff7-49ca-a027-14a6eb3c2196
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisReadRegisterUchar, NdisReadRegisterUchar macro [Network Drivers Starting with Windows Vista], miniport_register_ref_04023727-eaf7-45fb-b70d-5a67eda4a54d.xml, ndis/NdisReadRegisterUchar, netvista.ndisreadregisteruchar
 ms.topic: macro
 req.header: ndis.h

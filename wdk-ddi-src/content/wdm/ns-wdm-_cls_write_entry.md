@@ -6,7 +6,7 @@ description: The CLFS_WRITE_ENTRY structure holds the address and size of a buff
 old-location: kernel\clfs_write_entry.htm
 tech.root: kernel
 ms.assetid: 4b008fc7-35fe-40f9-8475-1a2ac04edb58
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PCLFS_WRITE_ENTRY, *PCLS_WRITE_ENTRY, CLFS_WRITE_ENTRY, CLFS_WRITE_ENTRY structure [Kernel-Mode Driver Architecture], CLS_WRITE_ENTRY, CLS_WRITE_ENTRY structure [Kernel-Mode Driver Architecture], PCLFS_WRITE_ENTRY, PCLFS_WRITE_ENTRY structure pointer [Kernel-Mode Driver Architecture], PCLS_WRITE_ENTRY, PCLS_WRITE_ENTRY structure pointer [Kernel-Mode Driver Architecture], PPCLFS_WRITE_ENTRY, PPCLFS_WRITE_ENTRY structure pointer [Kernel-Mode Driver Architecture], PPCLS_WRITE_ENTRY, PPCLS_WRITE_ENTRY structure pointer [Kernel-Mode Driver Architecture], _CLS_WRITE_ENTRY, kernel.clfs_write_entry, kstruct_a_331b7685-f256-4071-8edf-e517afc2b8cc.xml, wdm/CLFS_WRITE_ENTRY, wdm/CLS_WRITE_ENTRY, wdm/PCLFS_WRITE_ENTRY, wdm/PCLS_WRITE_ENTRY, wdm/PPCLFS_WRITE_ENTRY, wdm/PPCLS_WRITE_ENTRY"
 ms.topic: struct
 req.header: wdm.h

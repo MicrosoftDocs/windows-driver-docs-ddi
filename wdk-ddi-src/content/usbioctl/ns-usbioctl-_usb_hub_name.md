@@ -6,7 +6,7 @@ description: The USB_HUB_NAME structure stores the hub's symbolic device name.
 old-location: buses\usb_hub_name.htm
 tech.root: usbref
 ms.assetid: c213d811-a690-41b4-bed1-ec9890e8be46
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSB_HUB_NAME, PUSB_HUB_NAME, PUSB_HUB_NAME structure pointer [Buses], USB_HUB_NAME, USB_HUB_NAME structure [Buses], _USB_HUB_NAME, buses.usb_hub_name, usbioctl/PUSB_HUB_NAME, usbioctl/USB_HUB_NAME, usbstrct_d20b3e12-7b5c-408d-929e-2d781a765f56.xml"
 ms.topic: struct
 req.header: usbioctl.h

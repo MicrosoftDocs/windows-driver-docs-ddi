@@ -6,7 +6,7 @@ description: A bus driver's EvtDeviceEnableWakeAtBus event callback function per
 old-location: wdf\evtdeviceenablewakeatbus.htm
 tech.root: wdf
 ms.assetid: 902c9bdc-d83a-4bc2-802c-1aaba43c9e2e
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_c418526b-2cf2-4193-b75c-f6af5d669433.xml, EVT_WDF_DEVICE_ENABLE_WAKE_AT_BUS, EVT_WDF_DEVICE_ENABLE_WAKE_AT_BUS callback, EvtDeviceEnableWakeAtBus, EvtDeviceEnableWakeAtBus callback function, kmdf.evtdeviceenablewakeatbus, wdf.evtdeviceenablewakeatbus, wdfpdo/EvtDeviceEnableWakeAtBus
 ms.topic: callback
 req.header: wdfpdo.h

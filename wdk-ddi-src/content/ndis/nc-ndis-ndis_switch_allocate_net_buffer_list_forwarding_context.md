@@ -6,7 +6,7 @@ description: The AllocateNetBufferListForwardingContext function prepares a NET_
 old-location: netvista\AllocateNetBufferListForwardingContext.htm
 tech.root: netvista
 ms.assetid: C8A80DB2-4273-4FBA-82D4-4E8146812B16
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: AllocateNetBufferListForwardingContext, AllocateNetBufferListForwardingContext callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_ALLOCATE_NET_BUFFER_LIST_FORWARDING_CONTEXT, NDIS_SWITCH_ALLOCATE_NET_BUFFER_LIST_FORWARDING_CONTEXT callback, ndis/AllocateNetBufferListForwardingContext, netvista.AllocateNetBufferListForwardingContext
 ms.topic: callback
 req.header: ndis.h

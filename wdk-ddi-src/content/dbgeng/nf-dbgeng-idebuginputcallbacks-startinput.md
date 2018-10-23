@@ -6,7 +6,7 @@ description: The StartInput callback method is called by the engine to indicate 
 old-location: debugger\idebuginputcallbacks_startinput.htm
 tech.root: debugger
 ms.assetid: 4ac3764e-6482-49de-aac8-3b540561d201
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ComCallbacks_155d62a2-08b2-4caf-80d6-80fab139e77b.xml, IDebugInputCallbacks interface [Windows Debugging],StartInput method, IDebugInputCallbacks.StartInput, IDebugInputCallbacks::StartInput, StartInput, StartInput method [Windows Debugging], StartInput method [Windows Debugging],IDebugInputCallbacks interface, dbgeng/IDebugInputCallbacks::StartInput, debugger.idebuginputcallbacks_startinput
 ms.topic: method
 req.header: dbgeng.h

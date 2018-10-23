@@ -4,7 +4,7 @@ title: _OUTPUTDUPL_CONTEXT_DEBUG_STATUS
 author: windows-driver-content
 description: Output duplicate context debug status.
 ms.assetid: c455ad7b-553a-4d75-89e7-369eee9f5964
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _OUTPUTDUPL_CONTEXT_DEBUG_STATUS, OUTPUTDUPL_CONTEXT_DEBUG_STATUS, 
 req.header: d3dkmthk.h

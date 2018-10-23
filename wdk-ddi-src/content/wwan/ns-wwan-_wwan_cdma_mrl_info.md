@@ -6,7 +6,7 @@ description: The WWAN_CDMA_MRL_INFO structure represents information about a CDM
 old-location: netvista\wwan_cdma_mrl_info.htm
 tech.root: netvista
 ms.assetid: D8633E80-C7A3-4050-8E8E-8AE459F905D5
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_CDMA_MRL_INFO, PWWAN_CDMA_MRL_INFO, PWWAN_CDMA_MRL_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_CDMA_MRL_INFO, WWAN_CDMA_MRL_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_CDMA_MRL_INFO, netvista.wwan_cdma_mrl_info, wwan/PWWAN_CDMA_MRL_INFO, wwan/WWAN_CDMA_MRL_INFO"
 ms.topic: struct
 req.header: wwan.h

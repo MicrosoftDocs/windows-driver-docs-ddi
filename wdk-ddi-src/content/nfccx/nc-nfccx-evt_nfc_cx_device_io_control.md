@@ -6,7 +6,7 @@ description: Called by the NFC CX to send an unhandled IOCTL to the client drive
 old-location: nfpdrivers\evtnfccxdeviceiocontrol_.htm
 tech.root: nfpdrivers
 ms.assetid: 45512F88-D4B8-4488-99EB-B47EE7443425
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: EVT_NFC_CX_DEVICE_IO_CONTROL, EVT_NFC_CX_DEVICE_IO_CONTROL callback, EvtNfcCxDeviceIoControl, EvtNfcCxDeviceIoControl callback function [Near-Field Proximity Drivers], nfccx/EvtNfcCxDeviceIoControl, nfpdrivers.evtnfccxdeviceiocontrol_
 ms.topic: callback
 req.header: nfccx.h
@@ -107,7 +107,7 @@ The client can complete the request either synchronously or asynchronously. The 
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
  
 
  

@@ -6,7 +6,7 @@ description: The IOCTL_HID_GET_INDEXED_STRING request obtains a specified embedd
 old-location: hid\ioctl_hid_get_indexed_string2.htm
 tech.root: hid
 ms.assetid: e97ce2a6-a852-4631-901f-b4cfd3834e04
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IOCTL_HID_GET_INDEXED_STRING, IOCTL_HID_GET_INDEXED_STRING control, IOCTL_HID_GET_INDEXED_STRING control code [Human Input Devices], hid.ioctl_hid_get_indexed_string2, hidclass/IOCTL_HID_GET_INDEXED_STRING, hidioreq_ab829578-5003-4082-9c70-d81d59fb5015.xml
 ms.topic: ioctl
 req.header: hidclass.h

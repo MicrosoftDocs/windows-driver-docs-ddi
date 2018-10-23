@@ -6,7 +6,7 @@ description: The SetExecutionStatus method requests that the debugger engine ent
 old-location: debugger\setexecutionstatus.htm
 tech.root: debugger
 ms.assetid: f3468fe5-31b4-4bf6-b0e3-ee27ecfd8e06
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugControl interface [Windows Debugging],SetExecutionStatus method, IDebugControl2 interface [Windows Debugging],SetExecutionStatus method, IDebugControl2.SetExecutionStatus, IDebugControl2::SetExecutionStatus, IDebugControl3 interface [Windows Debugging],SetExecutionStatus method, IDebugControl3::SetExecutionStatus, IDebugControl::SetExecutionStatus, IDebugControl_b89bf576-8a07-49a8-8373-0b915300d36a.xml, SetExecutionStatus, SetExecutionStatus method [Windows Debugging], SetExecutionStatus method [Windows Debugging],IDebugControl interface, SetExecutionStatus method [Windows Debugging],IDebugControl2 interface, SetExecutionStatus method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetExecutionStatus, dbgeng/IDebugControl3::SetExecutionStatus, dbgeng/IDebugControl::SetExecutionStatus, debugger.setexecutionstatus
 ms.topic: method
 req.header: dbgeng.h

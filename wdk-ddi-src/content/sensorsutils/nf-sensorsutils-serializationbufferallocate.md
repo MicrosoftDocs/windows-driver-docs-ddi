@@ -4,7 +4,7 @@ title: SerializationBufferAllocate function
 author: windows-driver-content
 description: Exported memory allocation function for allocating a serialized buffer.
 ms.assetid: de91ea34-86fb-42fc-896f-45b2e164b81b
-ms.date: 08/08/18
+ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
 ms.keywords: SerializationBufferAllocate

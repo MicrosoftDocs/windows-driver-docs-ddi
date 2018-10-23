@@ -6,7 +6,7 @@ description: The GetTextReplacement method returns the value of a user-named ali
 old-location: debugger\gettextreplacement.htm
 tech.root: debugger
 ms.assetid: 8d5531ac-afa1-4928-8ea6-8be4663cf06a
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetTextReplacement, GetTextReplacement method [Windows Debugging], GetTextReplacement method [Windows Debugging],IDebugControl2 interface, GetTextReplacement method [Windows Debugging],IDebugControl3 interface, IDebugControl2 interface [Windows Debugging],GetTextReplacement method, IDebugControl2::GetTextReplacement, IDebugControl3 interface [Windows Debugging],GetTextReplacement method, IDebugControl3.GetTextReplacement, IDebugControl3::GetTextReplacement, IDebugControl_d21af006-aa5b-4faf-abba-3f28f338b6bd.xml, dbgeng/IDebugControl2::GetTextReplacement, dbgeng/IDebugControl3::GetTextReplacement, debugger.gettextreplacement
 ms.topic: method
 req.header: dbgeng.h

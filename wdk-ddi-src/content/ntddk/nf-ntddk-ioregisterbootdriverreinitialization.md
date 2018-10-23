@@ -6,7 +6,7 @@ description: The IoRegisterBootDriverReinitialization routine is called by a boo
 old-location: kernel\ioregisterbootdriverreinitialization.htm
 tech.root: kernel
 ms.assetid: af1c1f4b-7710-4cf7-9596-32d11db98abb
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoRegisterBootDriverReinitialization, IoRegisterBootDriverReinitialization routine [Kernel-Mode Driver Architecture], k104_492655f7-02ee-48ad-83b8-80ac50716b89.xml, kernel.ioregisterbootdriverreinitialization, ntddk/IoRegisterBootDriverReinitialization
 ms.topic: function
 req.header: ntddk.h

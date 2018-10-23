@@ -6,7 +6,7 @@ description: The WDF_REQUEST_FORWARD_OPTIONS_INIT function initializes a WDF_REQ
 old-location: wdf\wdf_request_forward_options_init.htm
 tech.root: wdf
 ms.assetid: 301b4b63-0337-4f78-a4f8-6b2d2b168663
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_ade75e55-accb-4fe0-a1be-b5acd9e4c34b.xml, WDF_REQUEST_FORWARD_OPTIONS_INIT, WDF_REQUEST_FORWARD_OPTIONS_INIT function, kmdf.wdf_request_forward_options_init, wdf.wdf_request_forward_options_init, wdfrequest/WDF_REQUEST_FORWARD_OPTIONS_INIT
 ms.topic: function
 req.header: wdfrequest.h

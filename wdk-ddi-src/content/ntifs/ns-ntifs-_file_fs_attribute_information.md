@@ -6,7 +6,7 @@ description: The FILE_FS_ATTRIBUTE_INFORMATION structure is used to query attrib
 old-location: ifsk\file_fs_attribute_information.htm
 tech.root: ifsk
 ms.assetid: 373788d8-4963-4319-82ae-3a0675c9fff4
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PFILE_FS_ATTRIBUTE_INFORMATION, FILE_FS_ATTRIBUTE_INFORMATION, FILE_FS_ATTRIBUTE_INFORMATION structure [Installable File System Drivers], PFILE_FS_ATTRIBUTE_INFORMATION, PFILE_FS_ATTRIBUTE_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_ATTRIBUTE_INFORMATION, fileinformationstructures_d3a65f15-7f98-492d-a65e-65db56c4c58d.xml, ifsk.file_fs_attribute_information, ntifs/FILE_FS_ATTRIBUTE_INFORMATION, ntifs/PFILE_FS_ATTRIBUTE_INFORMATION"
 ms.topic: struct
 req.header: ntifs.h

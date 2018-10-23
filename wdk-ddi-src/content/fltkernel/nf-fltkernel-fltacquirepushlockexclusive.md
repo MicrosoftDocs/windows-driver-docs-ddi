@@ -6,7 +6,7 @@ description: The FltAcquirePushLockExclusive routine acquires the given push loc
 old-location: ifsk\fltacquirepushlockexclusive.htm
 tech.root: ifsk
 ms.assetid: 98c916c4-49b0-47f5-acb1-ab1586d7a897
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltAcquirePushLockExclusive, FltAcquirePushLockExclusive routine [Installable File System Drivers], FltApiRef_a_to_d_0f7b3360-aea2-42a8-bcc0-299d1915e4e0.xml, fltkernel/FltAcquirePushLockExclusive, ifsk.fltacquirepushlockexclusive
 ms.topic: macro
 req.header: fltkernel.h

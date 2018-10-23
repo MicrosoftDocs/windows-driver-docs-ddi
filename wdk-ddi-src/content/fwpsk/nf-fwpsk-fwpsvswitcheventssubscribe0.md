@@ -6,7 +6,7 @@ description: The FwpsvSwitchEventsSubscribe0 function registers callback entry p
 old-location: netvista\fwpsvswitcheventssubscribe0.htm
 tech.root: netvista
 ms.assetid: 479ff048-f57f-42ca-8787-f87ed055fdbf
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FwpsvSwitchEventsSubscribe0, FwpsvSwitchEventsSubscribe0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsvSwitchEventsSubscribe0, netvista.fwpsvswitcheventssubscribe0
 ms.topic: function
 req.header: fwpsk.h

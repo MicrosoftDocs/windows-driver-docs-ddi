@@ -6,7 +6,7 @@ description: The TmCommitEnlistment routine initiates the commit operation for a
 old-location: kernel\tmcommitenlistment.htm
 tech.root: kernel
 ms.assetid: f1f0c337-9567-4def-b0fb-09dabfdf294d
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: TmCommitEnlistment, TmCommitEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmcommitenlistment, ktm_ref_c34bfdb9-5d62-448c-a82f-a8df21f05371.xml, wdm/TmCommitEnlistment
 ms.topic: function
 req.header: wdm.h

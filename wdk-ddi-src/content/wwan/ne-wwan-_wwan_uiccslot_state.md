@@ -6,7 +6,7 @@ description: The WWAN_UICCSLOT_STATE enumeration lists the different states of a
 old-location: netvista\wwan_uiccslot_state.htm
 tech.root: netvista
 ms.assetid: 63A3C2AA-6EBF-469D-933A-C51F5EC31C47
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_UICCSLOT_STATE, UICCSlotStateActive, UICCSlotStateEmpty, UICCSlotStateError, UICCSlotStateNotReady, UICCSlotStateOff, UICCSlotStateOffEmpty, UICCSlotStateUnknown, WWAN_UICCSLOT_STATE, WWAN_UICCSLOT_STATE enumeration [Network Drivers Starting with Windows Vista], _WWAN_UICCSLOT_STATE, netvista.wwan_uiccslot_state, wwan/UICCSlotStateActive, wwan/UICCSlotStateEmpty, wwan/UICCSlotStateError, wwan/UICCSlotStateNotReady, wwan/UICCSlotStateOff, wwan/UICCSlotStateOffEmpty, wwan/UICCSlotStateUnknown, wwan/WWAN_UICCSLOT_STATE"
 ms.topic: enum
 req.header: wwan.h

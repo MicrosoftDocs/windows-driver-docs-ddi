@@ -6,7 +6,7 @@ description: RxCancelTimerRequest cancels a recurrent timer request. The request
 old-location: ifsk\rxcanceltimerrequest.htm
 tech.root: ifsk
 ms.assetid: b5aeb972-3e52-4cdc-842b-7848bb2f8dc7
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxCancelTimerRequest, RxCancelTimerRequest routine [Installable File System Drivers], ifsk.rxcanceltimerrequest, rxref_f9950992-18a5-4418-a18d-e105ecdc74ff.xml, rxtimer/RxCancelTimerRequest
 ms.topic: function
 req.header: rxtimer.h

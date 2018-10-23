@@ -6,7 +6,7 @@ description: Adds a USB string descriptor to the initialization parameters used 
 old-location: buses\udecxusbdeviceinitaddstringdescriptorraw.htm
 tech.root: usbref
 ms.assetid: E4800343-E773-448D-B33E-2546ECDA4303
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UdecxUsbDeviceInitAddStringDescriptorRaw, UdecxUsbDeviceInitAddStringDescriptorRaw function [Buses], buses.udecxusbdeviceinitaddstringdescriptorraw, udecxusbdevice/UdecxUsbDeviceInitAddStringDescriptorRaw
 ms.topic: function
 req.header: udecxusbdevice.h

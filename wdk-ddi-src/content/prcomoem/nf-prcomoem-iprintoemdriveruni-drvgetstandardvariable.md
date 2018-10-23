@@ -6,7 +6,7 @@ description: The IPrintOemDriverUni::DrvGetStandardVariable method is provided b
 old-location: print\iprintoemdriveruni_drvgetstandardvariable.htm
 tech.root: print
 ms.assetid: d55d3130-14e7-438f-bfb5-18927466bd60
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: DrvGetStandardVariable, DrvGetStandardVariable method [Print Devices], DrvGetStandardVariable method [Print Devices],IPrintOemDriverUni interface, IPrintOemDriverUni interface [Print Devices],DrvGetStandardVariable method, IPrintOemDriverUni.DrvGetStandardVariable, IPrintOemDriverUni::DrvGetStandardVariable, prcomoem/IPrintOemDriverUni::DrvGetStandardVariable, print.iprintoemdriveruni_drvgetstandardvariable, print_unidrv-pscript_rendering_001f3a93-7022-4436-8191-5cb091bc3c42.xml
 ms.topic: method
 req.header: prcomoem.h

@@ -6,7 +6,7 @@ description: The GPIO_CONNECT_IO_PINS_PARAMETERS structure describes a logical c
 old-location: gpio\gpio_connect_io_pins_parameters.htm
 tech.root: GPIO
 ms.assetid: C8A156F4-3150-4241-947E-B0A6927F2BFE
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PGPIO_CONNECT_IO_PINS_PARAMETERS, GPIO.gpio_connect_io_pins_parameters, GPIO_CONNECT_IO_PINS_PARAMETERS, GPIO_CONNECT_IO_PINS_PARAMETERS structure [Parallel Ports], PGPIO_CONNECT_IO_PINS_PARAMETERS, PGPIO_CONNECT_IO_PINS_PARAMETERS structure pointer [Parallel Ports], _GPIO_CONNECT_IO_PINS_PARAMETERS, gpioclx/GPIO_CONNECT_IO_PINS_PARAMETERS, gpioclx/PGPIO_CONNECT_IO_PINS_PARAMETERS"
 ms.topic: struct
 req.header: gpioclx.h

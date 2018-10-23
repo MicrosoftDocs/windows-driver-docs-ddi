@@ -6,7 +6,7 @@ description: Obsolete.
 old-location: ifsk\fsrtlinitializemcb.htm
 tech.root: ifsk
 ms.assetid: 788714e3-c031-490f-a19f-709bd0392cba
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlInitializeMcb, FsRtlInitializeMcb function [Installable File System Drivers], fsrtlref_cce0e584-5fd6-4fc8-8a61-b6bef61207dd.xml, ifsk.fsrtlinitializemcb, ntifs/FsRtlInitializeMcb
 ms.topic: function
 req.header: ntifs.h

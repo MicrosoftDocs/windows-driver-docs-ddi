@@ -6,7 +6,7 @@ description: The IOCTL_USB_DIAGNOSTIC_MODE_OFF I/O control has been deprecated. 
 old-location: buses\ioctl_usb_diagnostic_mode_off.htm
 tech.root: usbref
 ms.assetid: 8452c9a2-3e1f-4b62-8ab2-9071d55f5f68
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: IOCTL_USB_DIAGNOSTIC_MODE_OFF, IOCTL_USB_DIAGNOSTIC_MODE_OFF control, IOCTL_USB_DIAGNOSTIC_MODE_OFF control code [Buses], buses.ioctl_usb_diagnostic_mode_off, usbioctl/IOCTL_USB_DIAGNOSTIC_MODE_OFF, usbirp_7b761254-b350-4ac8-820f-04426139f6bb.xml
 ms.topic: ioctl
 req.header: usbioctl.h

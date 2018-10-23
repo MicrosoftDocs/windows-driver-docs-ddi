@@ -6,7 +6,7 @@ description: Filter drivers call the NdisFCancelOidRequest function to cancel a 
 old-location: netvista\ndisfcanceloidrequest.htm
 tech.root: netvista
 ms.assetid: 67dc0769-0d65-4048-84aa-1100883bde46
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisFCancelOidRequest, NdisFCancelOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisFCancelOidRequest, ndis_request_ref_17e19328-030e-4649-94c9-f7b0347e7ab2.xml, netvista.ndisfcanceloidrequest
 ms.topic: function
 req.header: ndis.h

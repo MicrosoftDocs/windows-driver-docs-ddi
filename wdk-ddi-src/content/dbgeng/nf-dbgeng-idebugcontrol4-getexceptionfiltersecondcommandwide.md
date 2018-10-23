@@ -6,7 +6,7 @@ description: The GetExceptionFilterSecondCommandWide method returns the command 
 old-location: debugger\getexceptionfiltersecondcommandwide.htm
 tech.root: debugger
 ms.assetid: 17a61847-78b7-45b8-b02b-3ba4cdba6bff
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetExceptionFilterSecondCommandWide, GetExceptionFilterSecondCommandWide method [Windows Debugging], GetExceptionFilterSecondCommandWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetExceptionFilterSecondCommandWide method, IDebugControl4.GetExceptionFilterSecondCommandWide, IDebugControl4::GetExceptionFilterSecondCommandWide, dbgeng/IDebugControl4::GetExceptionFilterSecondCommandWide, debugger.getexceptionfiltersecondcommandwide
 ms.topic: method
 req.header: dbgeng.h

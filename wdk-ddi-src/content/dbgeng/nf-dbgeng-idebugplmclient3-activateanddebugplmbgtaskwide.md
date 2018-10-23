@@ -6,7 +6,7 @@ description: Launches and attaches to a Process Lifecycle Management (PLM) backg
 old-location: debugger\idebugplmclient3_activateanddebugplmbgtaskwide.htm
 tech.root: debugger
 ms.assetid: 77358032-1777-46F4-BF16-5DFFAC15E672
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ActivateAndDebugPlmBgTaskWide, ActivateAndDebugPlmBgTaskWide method [Windows Debugging], ActivateAndDebugPlmBgTaskWide method [Windows Debugging],IDebugPlmClient3 interface, IDebugPlmClient3 interface [Windows Debugging],ActivateAndDebugPlmBgTaskWide method, IDebugPlmClient3.ActivateAndDebugPlmBgTaskWide, IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide, dbgeng/IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide, debugger.idebugplmclient3_activateanddebugplmbgtaskwide
 ms.topic: method
 req.header: dbgeng.h

@@ -6,7 +6,7 @@ description: The SerCx2SystemDmaReceiveCleanupTransactionComplete method notifie
 old-location: serports\sercx2systemdmareceivecleanuptransactioncomplete.htm
 tech.root: serports
 ms.assetid: B56FEA86-E171-43DA-8207-148298E72313
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SerCx2SystemDmaReceiveCleanupTransactionComplete, SerCx2SystemDmaReceiveCleanupTransactionComplete, SerCx2SystemDmaReceiveCleanupTransactionComplete method [Serial Ports], serports.sercx2systemdmareceivecleanuptransactioncomplete
 ms.topic: function
 req.header: sercx.h

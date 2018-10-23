@@ -6,7 +6,7 @@ description: The AddDumpInformationFile method registers additional files contai
 old-location: debugger\adddumpinformationfile.htm
 tech.root: debugger
 ms.assetid: c111eb7e-7c42-4848-89d3-177f240fff7f
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: AddDumpInformationFile, AddDumpInformationFile method [Windows Debugging], AddDumpInformationFile method [Windows Debugging],IDebugClient2 interface, AddDumpInformationFile method [Windows Debugging],IDebugClient3 interface, AddDumpInformationFile method [Windows Debugging],IDebugClient4 interface, AddDumpInformationFile method [Windows Debugging],IDebugClient5 interface, IDebugClient2 interface [Windows Debugging],AddDumpInformationFile method, IDebugClient2::AddDumpInformationFile, IDebugClient3 interface [Windows Debugging],AddDumpInformationFile method, IDebugClient3.AddDumpInformationFile, IDebugClient3::AddDumpInformationFile, IDebugClient4 interface [Windows Debugging],AddDumpInformationFile method, IDebugClient4::AddDumpInformationFile, IDebugClient5 interface [Windows Debugging],AddDumpInformationFile method, IDebugClient5::AddDumpInformationFile, IDebugClient_11398d02-21c4-4ec5-9e1c-8e7e87808c35.xml, dbgeng/IDebugClient2::AddDumpInformationFile, dbgeng/IDebugClient3::AddDumpInformationFile, dbgeng/IDebugClient4::AddDumpInformationFile, dbgeng/IDebugClient5::AddDumpInformationFile, debugger.adddumpinformationfile
 ms.topic: method
 req.header: dbgeng.h

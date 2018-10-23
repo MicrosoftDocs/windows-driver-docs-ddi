@@ -6,7 +6,7 @@ description: The ISensorClassExtension::PostEvent method raises one or more driv
 old-location: sensors\isensorclassextension_postevent.htm
 tech.root: sensors
 ms.assetid: 201a4558-8755-4a28-9982-c02ce5b5d8e7
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ISensorClassExtension interface [Sensor Devices],PostEvent method, ISensorClassExtension.PostEvent, ISensorClassExtension::PostEvent, PostEvent, PostEvent method [Sensor Devices], PostEvent method [Sensor Devices],ISensorClassExtension interface, sensors.isensorclassextension_postevent, sensorsclassextension/ISensorClassExtension::PostEvent
 ms.topic: method
 req.header: sensorsclassextension.h
@@ -166,9 +166,9 @@ No client programs are currently subscribed to events. Do not post events when n
 
 The sensor class extension forwards these events to the Sensor API and Location API, which in turn, raise events in client programs.
 
-The collection passed through <i>pEventCollection</i> can contain one or more events. Represent each event and its associated data by using one <a href="http://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> object. Platform-defined <b>PROPERTYKEY</b>s for events and data types are defined in sensors.h.
+The collection passed through <i>pEventCollection</i> can contain one or more events. Represent each event and its associated data by using one <a href="https://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> object. Platform-defined <b>PROPERTYKEY</b>s for events and data types are defined in sensors.h.
 
-Each <a href="http://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> object returned by this method must contain a time stamp, as described in <a href="https://msdn.microsoft.com/library/windows/hardware/ff545725">SENSOR_CATEGORY_ALL</a>.
+Each <a href="https://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> object returned by this method must contain a time stamp, as described in <a href="https://msdn.microsoft.com/library/windows/hardware/ff545725">SENSOR_CATEGORY_ALL</a>.
 
 The sensor class extension is responsible for freeing any <b>PROPVARIANT</b> structures provided by this method.
 
@@ -177,7 +177,7 @@ To specify the event type, use the SENSOR_EVENT_PARAMETER_EVENT_ID <b>PROPERTYKE
 For an example of a class that creates an event thread, see <a href="https://msdn.microsoft.com/a6e428f8-1613-4e8d-813d-5a54824dab82">Raising sensor events</a>
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=131487">IPortableDeviceValuesCollection</a> are documented in Windows Portable Devices.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> and <a href="https://go.microsoft.com/fwlink/p/?linkid=131487">IPortableDeviceValuesCollection</a> are documented in Windows Portable Devices.
 
 <div class="alert"><b>Note</b>  The sensor class extension will call PropVariantClear for PROPVARIANTs that you pass  to the sensor class extension.</div>
 <div> </div>

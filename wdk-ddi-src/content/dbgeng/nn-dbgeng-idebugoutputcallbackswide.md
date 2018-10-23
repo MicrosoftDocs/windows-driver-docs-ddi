@@ -6,7 +6,7 @@ description: IDebugOutputCallbacksWide interface
 old-location: debugger\idebugoutputcallbackswide.htm
 tech.root: debugger
 ms.assetid: 2f0c10f7-009a-4108-ad23-d6b6e2e1257e
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugOutputCallbacksWide, IDebugOutputCallbacksWide interface [Windows Debugging], IDebugOutputCallbacksWide interface [Windows Debugging],described, dbgeng/IDebugOutputCallbacksWide, debugger.idebugoutputcallbackswide
 ms.topic: interface
 req.header: dbgeng.h

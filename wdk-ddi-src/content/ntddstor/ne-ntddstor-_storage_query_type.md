@@ -6,7 +6,7 @@ description: The STORAGE_QUERY_TYPE enumeration is used in conjunction with the 
 old-location: storage\storage_query_type.htm
 tech.root: storage
 ms.assetid: 3f346a09-071e-4512-bf77-994d277cef4d
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSTORAGE_QUERY_TYPE, PSTORAGE_QUERY_TYPE, PSTORAGE_QUERY_TYPE enumeration pointer [Storage Devices], PropertyExistsQuery, PropertyMaskQuery, PropertyQueryMaxDefined, PropertyStandardQuery, STORAGE_QUERY_TYPE, STORAGE_QUERY_TYPE enumeration [Storage Devices], _STORAGE_QUERY_TYPE, ntddstor/PSTORAGE_QUERY_TYPE, ntddstor/PropertyExistsQuery, ntddstor/PropertyMaskQuery, ntddstor/PropertyQueryMaxDefined, ntddstor/PropertyStandardQuery, ntddstor/STORAGE_QUERY_TYPE, storage.storage_query_type, structs-general_e76c71e4-e6ef-40d0-a0e7-5a21102efb1b.xml"
 ms.topic: enum
 req.header: ntddstor.h

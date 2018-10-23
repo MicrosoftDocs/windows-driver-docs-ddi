@@ -6,7 +6,7 @@ description: OEMQueryColorProfile function
 old-location: print\oemquerycolorprofile.htm
 tech.root: print
 ms.assetid: a33a216d-f97e-44be-b9a5-bdadf1c422e1
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: OEMQueryColorProfile, OEMQueryColorProfile function [Print Devices], print.oemquerycolorprofile, print_obsoletefunctions_f21cf62d-45bd-4248-8b0c-a19cc982ad3c.xml, printoem/OEMQueryColorProfile
 ms.topic: function
 req.header: printoem.h

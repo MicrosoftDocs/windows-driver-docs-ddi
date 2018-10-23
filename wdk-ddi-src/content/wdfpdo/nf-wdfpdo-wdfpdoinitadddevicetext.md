@@ -6,7 +6,7 @@ description: The WdfPdoInitAddDeviceText method adds a device description and de
 old-location: wdf\wdfpdoinitadddevicetext.htm
 tech.root: wdf
 ms.assetid: e46a9aee-8d96-41f5-b0f9-01846fefe4cb
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_1167066a-5ec9-47b8-be03-32127121fa91.xml, WdfPdoInitAddDeviceText, WdfPdoInitAddDeviceText method, kmdf.wdfpdoinitadddevicetext, wdf.wdfpdoinitadddevicetext, wdfpdo/WdfPdoInitAddDeviceText
 ms.topic: function
 req.header: wdfpdo.h

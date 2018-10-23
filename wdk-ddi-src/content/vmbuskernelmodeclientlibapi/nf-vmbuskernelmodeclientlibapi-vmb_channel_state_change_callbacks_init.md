@@ -6,7 +6,7 @@ description: The VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT function saves callback
 old-location: netvista\vmb_channel_state_change_callbacks_init.htm
 tech.root: netvista
 ms.assetid: 2255C8A2-85FB-4B96-8AE9-66FAFD73EE73
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT, VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT function [Network Drivers Starting with Windows Vista], netvista.vmb_channel_state_change_callbacks_init, vmbuskernelmodeclientlibapi/VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT
 ms.topic: function
 req.header: vmbuskernelmodeclientlibapi.h

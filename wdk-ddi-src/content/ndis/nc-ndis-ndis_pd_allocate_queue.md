@@ -6,7 +6,7 @@ description: The PacketDirect (PD) platform calls a PD-capable miniport driver's
 old-location: netvista\ndispdallocatequeue.htm
 tech.root: netvista
 ms.assetid: E9091C69-0E21-40CC-B3D3-1F770ABA0D47
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDIS_PD_ALLOCATE_QUEUE, NDIS_PD_ALLOCATE_QUEUE callback, NdisPDAllocateQueue, NdisPDAllocateQueue callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDAllocateQueue, netvista.ndispdallocatequeue
 ms.topic: callback
 req.header: ndis.h
@@ -123,7 +123,7 @@ NTSTATUS
 </table></span></div>
 The <b>NDIS_PD_ALLOCATE_QUEUE</b> function type is defined in the Ntddndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>NDIS_PD_ALLOCATE_QUEUE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 

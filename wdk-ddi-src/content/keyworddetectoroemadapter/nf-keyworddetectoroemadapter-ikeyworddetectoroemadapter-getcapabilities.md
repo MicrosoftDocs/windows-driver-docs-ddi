@@ -6,7 +6,7 @@ description: The GetCapabilities method returns the keywords and languages suppo
 old-location: audio\ikeyworddetectoroemadapter_getcapabilities.htm
 tech.root: audio
 ms.assetid: 5885E2BB-78DA-46F5-8330-DE8785C61946
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: GetCapabilities, GetCapabilities method [Audio Devices], GetCapabilities method [Audio Devices],IKeywordDetectorOemAdapter interface, IKeywordDetectorOemAdapter interface [Audio Devices],GetCapabilities method, IKeywordDetectorOemAdapter.GetCapabilities, IKeywordDetectorOemAdapter::GetCapabilities, audio.ikeyworddetectoroemadapter_getcapabilities, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::GetCapabilities
 ms.topic: method
 req.header: keyworddetectoroemadapter.h

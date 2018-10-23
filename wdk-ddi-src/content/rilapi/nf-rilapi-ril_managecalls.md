@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_managecalls.htm
 tech.root: netvista
 ms.assetid: d94e3b80-b151-4b3a-a37d-bfba2850b28f
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_ManageCalls, RIL_ManageCalls method [Network Drivers Starting with Windows Vista], netvista.ril_managecalls, rilapi/RIL_ManageCalls
 ms.topic: function
 req.header: rilapi.h

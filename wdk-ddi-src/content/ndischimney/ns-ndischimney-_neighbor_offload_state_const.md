@@ -6,7 +6,7 @@ description: The NEIGHBOR_OFFLOAD_STATE_CONST structure contains the constant va
 old-location: netvista\neighbor_offload_state_const.htm
 tech.root: netvista
 ms.assetid: 1c79a3d6-c365-4740-a2e0-94333b70d8cc
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNEIGHBOR_OFFLOAD_STATE_CONST, NEIGHBOR_OFFLOAD_STATE_CONST, NEIGHBOR_OFFLOAD_STATE_CONST structure [Network Drivers Starting with Windows Vista], PNEIGHBOR_OFFLOAD_STATE_CONST, PNEIGHBOR_OFFLOAD_STATE_CONST structure pointer [Network Drivers Starting with Windows Vista], _NEIGHBOR_OFFLOAD_STATE_CONST, ndischimney/NEIGHBOR_OFFLOAD_STATE_CONST, ndischimney/PNEIGHBOR_OFFLOAD_STATE_CONST, netvista.neighbor_offload_state_const, tcp_chim_struct_3e21fef6-9a3c-4eba-b6fb-31af70a3eaaa.xml"
 ms.topic: struct
 req.header: ndischimney.h

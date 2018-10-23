@@ -6,7 +6,7 @@ description: The KSPROPERTY_EXTXPORT_NODE_S structure describes an external tran
 old-location: stream\ksproperty_extxport_node_s.htm
 tech.root: stream
 ms.assetid: e0321fa8-610b-4920-8be8-dd91a3452beb
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSPROPERTY_EXTXPORT_NODE_S, KSPROPERTY_EXTXPORT_NODE_S, KSPROPERTY_EXTXPORT_NODE_S structure [Streaming Media Devices], PKSPROPERTY_EXTXPORT_NODE_S, PKSPROPERTY_EXTXPORT_NODE_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_EXTXPORT_NODE_S, ksmedia/PKSPROPERTY_EXTXPORT_NODE_S, stream.ksproperty_extxport_node_s, vidcapstruct_06823ca7-5d41-494c-879e-0835ab0b447f.xml"
 ms.topic: struct
 req.header: ksmedia.h

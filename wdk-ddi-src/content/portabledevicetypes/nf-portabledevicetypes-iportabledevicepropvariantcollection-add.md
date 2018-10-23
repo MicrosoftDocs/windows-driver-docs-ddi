@@ -6,7 +6,7 @@ description: Adds an item to the collection.
 old-location: wpddk\iportabledevicepropvariantcollection_add.htm
 tech.root: wpd_dk
 ms.assetid: 38cd7931-f0c4-4905-94b3-3196a40b367c
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: Add, Add method, Add method,IPortableDevicePropVariantCollection interface, IPortableDevicePropVariantCollection interface,Add method, IPortableDevicePropVariantCollection.Add, IPortableDevicePropVariantCollection::Add, IPortableDevicePropVariantCollectionAdd, portabledevicetypes/IPortableDevicePropVariantCollection::Add, wpddk.iportabledevicepropvariantcollection_add
 ms.topic: method
 req.header: portabledevicetypes.h

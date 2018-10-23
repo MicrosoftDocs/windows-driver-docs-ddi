@@ -6,7 +6,7 @@ description: Converts a value of type LONG to a value of type ULONGLONG.
 old-location: kernel\rtllongtoulonglong.htm
 tech.root: kernel
 ms.assetid: 372B00C3-E5BD-4B2B-BB6B-F07878D661B4
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlLongToULongLong, RtlLongToULongLong function [Kernel-Mode Driver Architecture], kernel.rtllongtoulonglong, ntintsafe/RtlLongToULongLong
 ms.topic: function
 req.header: ntintsafe.h

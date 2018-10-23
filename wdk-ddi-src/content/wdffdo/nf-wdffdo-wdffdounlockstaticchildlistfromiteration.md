@@ -6,7 +6,7 @@ description: The WdfFdoUnlockStaticChildListFromIteration method unlocks the lis
 old-location: wdf\wdffdounlockstaticchildlistfromiteration.htm
 tech.root: wdf
 ms.assetid: ba0eb090-a03c-4723-a30c-16b161e50198
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_5d630e1f-4c2d-4fce-92d8-c59cc472ceb5.xml, WdfFdoUnlockStaticChildListFromIteration, WdfFdoUnlockStaticChildListFromIteration method, kmdf.wdffdounlockstaticchildlistfromiteration, wdf.wdffdounlockstaticchildlistfromiteration, wdffdo/WdfFdoUnlockStaticChildListFromIteration
 ms.topic: function
 req.header: wdffdo.h

@@ -6,7 +6,7 @@ description: The RetrieveOutputMemory method retrieves the IWDFMemory interface 
 old-location: wdf\iwdfiorequest2_retrieveoutputmemory.htm
 tech.root: wdf
 ms.assetid: d17e7435-adc3-4248-a6c9-c7e267504291
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFIoRequest2 interface,RetrieveOutputMemory method, IWDFIoRequest2.RetrieveOutputMemory, IWDFIoRequest2::RetrieveOutputMemory, RetrieveOutputMemory, RetrieveOutputMemory method, RetrieveOutputMemory method,IWDFIoRequest2 interface, UMDFRequestObjectRef_9fbbb5ad-480f-4744-805a-1af1dd841274.xml, umdf.iwdfiorequest2_retrieveoutputmemory, wdf.iwdfiorequest2_retrieveoutputmemory, wudfddi/IWDFIoRequest2::RetrieveOutputMemory
 ms.topic: method
 req.header: wudfddi.h

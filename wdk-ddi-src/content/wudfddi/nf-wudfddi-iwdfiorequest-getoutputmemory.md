@@ -6,7 +6,7 @@ description: The GetOutputMemory method retrieves the memory object that represe
 old-location: wdf\iwdfiorequest_getoutputmemory.htm
 tech.root: wdf
 ms.assetid: 12862fb2-4cdb-4446-aa20-ec911c9cd65f
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: GetOutputMemory, GetOutputMemory method, GetOutputMemory method,IWDFIoRequest interface, IWDFIoRequest interface,GetOutputMemory method, IWDFIoRequest.GetOutputMemory, IWDFIoRequest::GetOutputMemory, UMDFRequestObjectRef_618a405c-a272-4427-809b-46b7f46b75de.xml, umdf.iwdfiorequest_getoutputmemory, wdf.iwdfiorequest_getoutputmemory, wudfddi/IWDFIoRequest::GetOutputMemory
 ms.topic: method
 req.header: wudfddi.h

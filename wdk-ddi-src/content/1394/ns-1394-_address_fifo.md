@@ -6,7 +6,7 @@ description: The ADDRESS_FIFO structure is an entry in a singly-linked list of M
 old-location: ieee\address_fifo.htm
 tech.root: IEEE
 ms.assetid: df2b6438-271d-4ea2-a06b-49a83415ca7a
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PADDRESS_FIFO, 1394/ADDRESS_FIFO, 1394/PADDRESS_FIFO, 1394stct_bf7f3e1b-88a4-4c37-88ee-cf5d69595988.xml, ADDRESS_FIFO, ADDRESS_FIFO structure [Buses], IEEE.address_fifo, PADDRESS_FIFO, PADDRESS_FIFO structure pointer [Buses], _ADDRESS_FIFO"
 ms.topic: struct
 req.header: 1394.h

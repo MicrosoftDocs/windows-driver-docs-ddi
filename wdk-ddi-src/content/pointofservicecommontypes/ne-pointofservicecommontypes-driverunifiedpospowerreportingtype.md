@@ -6,7 +6,7 @@ description: This enumeration defines the type of power reporting that is suppor
 old-location: pos\unifiedpospowerreportingtype.htm
 tech.root: pos
 ms.assetid: e0263969-1c6a-4805-a647-d4b9df83ef71
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: Advanced, DriverUnifiedPosPowerReportingType, DriverUnifiedPosPowerReportingType enumeration, Standard, UnknownPowerReportingType, pointofservicecommontypes/Advanced, pointofservicecommontypes/DriverUnifiedPosPowerReportingType, pointofservicecommontypes/Standard, pointofservicecommontypes/UnknownPowerReportingType, pos.unifiedpospowerreportingtype
 ms.topic: enum
 req.header: pointofservicecommontypes.h

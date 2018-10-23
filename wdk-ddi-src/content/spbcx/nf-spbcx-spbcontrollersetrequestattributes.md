@@ -6,7 +6,7 @@ description: The SpbControllerSetRequestAttributes method sets object attributes
 old-location: spb\spbcontrollersetrequestattributes.htm
 tech.root: SPB
 ms.assetid: 9BE790DB-DB7A-44A3-8A89-673CBFCF4D65
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: SPB.spbcontrollersetrequestattributes, SpbControllerSetRequestAttributes, SpbControllerSetRequestAttributes method [Buses], spbcx/SpbControllerSetRequestAttributes
 ms.topic: function
 req.header: spbcx.h

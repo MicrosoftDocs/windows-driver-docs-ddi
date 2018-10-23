@@ -6,7 +6,7 @@ description: Identifies the overlay plane's stereo flip mode. Only the DXGI_DDI_
 old-location: display\dxgi_ddi_multiplane_overlay_stereo_flip_mode.htm
 tech.root: display
 ms.assetid: f44317c5-661c-42f6-847b-b325e4c1321a
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME0, DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME1, DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE enumeration [Display Devices], DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE, display.dxgi_ddi_multiplane_overlay_stereo_flip_mode, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME0, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME1, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE
 ms.topic: enum
 req.header: dxgiddi.h

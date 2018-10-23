@@ -6,7 +6,7 @@ description: The CreateRasterizer method creates an XPS rasterizer object that c
 old-location: print\ixpsrasterizationfactory2_createrasterizer.htm
 tech.root: print
 ms.assetid: C31681A0-17C6-4255-9068-7486A2101AB7
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: CreateRasterizer, CreateRasterizer method [Print Devices], CreateRasterizer method [Print Devices],IXpsRasterizationFactory2 interface, IXpsRasterizationFactory2 interface [Print Devices],CreateRasterizer method, IXpsRasterizationFactory2.CreateRasterizer, IXpsRasterizationFactory2::CreateRasterizer, print.ixpsrasterizationfactory2_createrasterizer, xpsrassvc/IXpsRasterizationFactory2::CreateRasterizer
 ms.topic: method
 req.header: xpsrassvc.h

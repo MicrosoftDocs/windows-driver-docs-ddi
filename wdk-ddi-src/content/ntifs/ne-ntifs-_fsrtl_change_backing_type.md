@@ -6,7 +6,7 @@ description: The FSRTL_CHANGE_BACKING_TYPE enumeration specifies the type of cac
 old-location: ifsk\fsrtl_change_backing_type.htm
 tech.root: ifsk
 ms.assetid: 952812f4-5d29-4d1d-ab81-dd3a76a5f04c
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PFSRTL_CHANGE_BACKING_TYPE, ChangeDataControlArea, ChangeImageControlArea, ChangeSharedCacheMap, FSRTL_CHANGE_BACKING_TYPE, FSRTL_CHANGE_BACKING_TYPE enumeration [Installable File System Drivers], PFSRTL_CHANGE_BACKING_TYPE, PFSRTL_CHANGE_BACKING_TYPE enumeration pointer [Installable File System Drivers], _FSRTL_CHANGE_BACKING_TYPE, contextstructures_f0bf2082-c88d-4f01-8e40-f7259e040ea6.xml, ifsk.fsrtl_change_backing_type, ntifs/ChangeDataControlArea, ntifs/ChangeImageControlArea, ntifs/ChangeSharedCacheMap, ntifs/FSRTL_CHANGE_BACKING_TYPE, ntifs/PFSRTL_CHANGE_BACKING_TYPE"
 ms.topic: enum
 req.header: ntifs.h

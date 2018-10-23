@@ -4,7 +4,7 @@ title: PFND3D12DDI_CALCPRIVATEHEAPANDRESOURCESIZES_0003
 author: windows-driver-content
 description: Calculate private heap and resources.
 ms.assetid: c814564d-01e0-4bae-bd2b-0ef95e654686
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:

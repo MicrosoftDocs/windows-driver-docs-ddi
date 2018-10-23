@@ -6,7 +6,7 @@ description: Protocol drivers call the NdisCompleteNetPnPEvent function to compl
 old-location: netvista\ndiscompletenetpnpevent.htm
 tech.root: netvista
 ms.assetid: 2a59e6a1-d018-4b95-8e50-8351a3b69d86
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisCompleteNetPnPEvent, NdisCompleteNetPnPEvent function [Network Drivers Starting with Windows Vista], ndis/NdisCompleteNetPnPEvent, netvista.ndiscompletenetpnpevent, protocol_ndis_functions_ref_4f57d0f9-c9bf-4451-a612-caa665d0b6be.xml
 ms.topic: function
 req.header: ndis.h

@@ -6,7 +6,7 @@ description: The NdkControlCqInterruptModeration (NDK_FN_CONTROL_CQ_INTERRUPT_MO
 old-location: netvista\ndk_fn_control_cq_interrupt_moderation.htm
 tech.root: netvista
 ms.assetid: 44EB6C92-1ADA-4675-9E19-BAB79097FF5B
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION, NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION callback, NdkControlCqInterruptModeration, NdkControlCqInterruptModeration callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkControlCqInterruptModeration, netvista.ndk_fn_control_cq_interrupt_moderation
 ms.topic: callback
 req.header: ndkpi.h

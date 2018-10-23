@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilsupsvcinfo.htm
 tech.root: netvista
 ms.assetid: 1f8f7c8c-f09a-4bf5-a15b-42f210122b54
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILSUPSVCINFO, RILSUPSVCINFO, RILSUPSVCINFO structure [Network Drivers Starting with Windows Vista], netvista.rilsupsvcinfo, ntddrilapitypes/RILSUPSVCINFO"
 ms.topic: struct
 req.header: rilapitypes.h

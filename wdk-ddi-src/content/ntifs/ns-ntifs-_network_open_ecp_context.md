@@ -6,7 +6,7 @@ description: The NETWORK_OPEN_ECP_CONTEXT structure is used to interpret network
 old-location: ifsk\network_open_ecp_context.htm
 tech.root: ifsk
 ms.assetid: 583fe92d-ce81-47b4-bd75-5566a5379790
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PNETWORK_OPEN_ECP_CONTEXT, ECP_Structures_9cdb7dab-17df-47f3-b994-fca989b3442e.xml, NETWORK_OPEN_ECP_CONTEXT, NETWORK_OPEN_ECP_CONTEXT structure [Installable File System Drivers], PNETWORK_OPEN_ECP_CONTEXT, PNETWORK_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], _NETWORK_OPEN_ECP_CONTEXT, ifsk.network_open_ecp_context, ntifs/NETWORK_OPEN_ECP_CONTEXT, ntifs/PNETWORK_OPEN_ECP_CONTEXT"
 ms.topic: struct
 req.header: ntifs.h
@@ -171,7 +171,7 @@ NETWORK_OPEN_ECP_IN_FLAG_DISABLE_HANDLE_DURABILITY
 
 </td>
 <td>
-This flag causes the SMB2 redirector to disable durability on this open handle. For more information about opening a file for durable operation, see <a href="http://go.microsoft.com/fwlink/p/?linkid=160861">Application Requests Creating a File Opened for Durable Operation</a>.
+This flag causes the SMB2 redirector to disable durability on this open handle. For more information about opening a file for durable operation, see <a href="https://go.microsoft.com/fwlink/p/?linkid=160861">Application Requests Creating a File Opened for Durable Operation</a>.
 
 </td>
 </tr>
@@ -261,7 +261,7 @@ NETWORK_OPEN_ECP_IN_FLAG_DISABLE_HANDLE_DURABILITY
 
 </td>
 <td>
-This flag causes the SMB2 redirector to disable durability on this open handle. For more information about opening a file for durable operation, see <a href="http://go.microsoft.com/fwlink/p/?linkid=160861">Application Requests Creating a File Opened for Durable Operation</a>.
+This flag causes the SMB2 redirector to disable durability on this open handle. For more information about opening a file for durable operation, see <a href="https://go.microsoft.com/fwlink/p/?linkid=160861">Application Requests Creating a File Opened for Durable Operation</a>.
 
 </td>
 </tr>

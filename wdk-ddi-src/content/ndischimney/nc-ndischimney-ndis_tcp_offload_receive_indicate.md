@@ -6,7 +6,7 @@ description: An offload target calls the NdisTcpOffloadReceiveHandler function t
 old-location: netvista\ndistcpoffloadreceivehandler.htm
 tech.root: netvista
 ms.assetid: a45dede9-6559-4207-a49f-d9627054433a
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDIS_TCP_OFFLOAD_RECEIVE_INDICATE, NDIS_TCP_OFFLOAD_RECEIVE_INDICATE callback, NdisTcpOffloadReceiveHandler, NdisTcpOffloadReceiveHandler callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadReceiveHandler, netvista.ndistcpoffloadreceivehandler, tcp_chim_ndis_func_c79b9638-b69d-49de-b33b-95c0136a45f8.xml
 ms.topic: callback
 req.header: ndischimney.h

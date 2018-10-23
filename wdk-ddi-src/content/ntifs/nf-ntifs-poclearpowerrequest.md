@@ -6,7 +6,7 @@ description: The PoClearPowerRequest routine decrements the count for the specif
 old-location: kernel\poclearpowerrequest.htm
 tech.root: kernel
 ms.assetid: d3754cca-81a4-42d2-a728-9f7e3270a4ee
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PoClearPowerRequest, PoClearPowerRequest routine [Kernel-Mode Driver Architecture], kernel.poclearpowerrequest, portn_683a4a08-b6e3-4d6c-adfa-00d075db06f9.xml, wdm/PoClearPowerRequest
 ms.topic: function
 req.header: ntifs.h

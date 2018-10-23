@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilcallhandoverstate.htm
 tech.root: netvista
 ms.assetid: 1c9fb343-32f1-444e-9328-097da72cd006
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILCALLHANDOVERSTATE, RILCALLHANDOVERSTATE, RILCALLHANDOVERSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallhandoverstate, ntddrilapitypes/RILCALLHANDOVERSTATE"
 ms.topic: struct
 req.header: rilapitypes.h

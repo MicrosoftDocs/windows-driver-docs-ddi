@@ -6,7 +6,7 @@ description: The KEYWORDID enumeration identifies the phrase text/function of a 
 old-location: audio\keywordid.htm
 tech.root: audio
 ms.assetid: 88D85EB1-11BC-42B9-B22E-5FB58F409C75
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: KEYWORDID, KEYWORDID enumeration [Audio Devices], KwInvalid, KwSelection, KwVoiceAssistant, __MIDL_IKeywordDetectorOemAdapter_0002, audio.keywordid, keyworddetectoroemadapter/ KwSelection, keyworddetectoroemadapter/ KwVoiceAssistant, keyworddetectoroemadapter/KEYWORDID, keyworddetectoroemadapter/KwInvalid
 ms.topic: enum
 req.header: keyworddetectoroemadapter.h

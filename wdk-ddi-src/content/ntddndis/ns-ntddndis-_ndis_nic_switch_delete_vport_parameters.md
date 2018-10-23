@@ -6,7 +6,7 @@ description: The NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS structure specifies the
 old-location: netvista\ndis_nic_switch_delete_vport_parameters.htm
 tech.root: netvista
 ms.assetid: 7cbdaa08-51c9-495d-a5c7-bb2c4009d7a4
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS, NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS, NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS, PNDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS, netvista.ndis_nic_switch_delete_vport_parameters, ntddndis/NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS, ntddndis/PNDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS"
 ms.topic: struct
 req.header: ntddndis.h

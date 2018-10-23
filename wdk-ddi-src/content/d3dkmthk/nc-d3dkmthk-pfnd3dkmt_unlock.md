@@ -4,7 +4,7 @@ title: PFND3DKMT_UNLOCK
 author: windows-driver-content
 description: The PFND3DKMT_UNLOCK callback function unlocks a list of allocations.
 ms.assetid: c64b363e-13bd-4bd9-8752-70395c124226
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

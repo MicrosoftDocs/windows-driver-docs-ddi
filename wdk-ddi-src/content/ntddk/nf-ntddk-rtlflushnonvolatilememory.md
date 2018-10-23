@@ -6,7 +6,7 @@ description: The routine RtlFlushNonVolatileMemory optimally flushes the given n
 old-location: ifsk\rtlflushnonvolatilememory.htm
 tech.root: ifsk
 ms.assetid: 759CDFAA-D939-44E7-AE03-E3ED90F8E09D
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlFlushNonVolatileMemory, RtlFlushNonVolatileMemory routine [Installable File System Drivers], ifsk.rtlflushnonvolatilememory, ntddk/RtlFlushNonVolatileMemory
 ms.topic: function
 req.header: ntddk.h

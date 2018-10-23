@@ -6,7 +6,7 @@ description: The IOCTL_HID_DEACTIVATE_DEVICE request deactivates a HIDClass devi
 old-location: hid\ioctl_hid_deactivate_device.htm
 tech.root: hid
 ms.assetid: 87af450c-0f62-481d-8c7d-24c77f221fc5
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IOCTL_HID_DEACTIVATE_DEVICE, IOCTL_HID_DEACTIVATE_DEVICE control, IOCTL_HID_DEACTIVATE_DEVICE control code [Human Input Devices], hid.ioctl_hid_deactivate_device, hidioreq_35c75bec-696b-4043-bdb4-2425ff0ad6db.xml, hidport/IOCTL_HID_DEACTIVATE_DEVICE
 ms.topic: ioctl
 req.header: hidport.h

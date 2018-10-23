@@ -6,7 +6,7 @@ description: The GetScopeSymbolGroup method returns a symbol group containing th
 old-location: debugger\getscopesymbolgroup.htm
 tech.root: debugger
 ms.assetid: 002af3f1-4879-40e9-a5c6-bf62a3b26e02
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetScopeSymbolGroup, GetScopeSymbolGroup method [Windows Debugging], GetScopeSymbolGroup method [Windows Debugging],IDebugSymbols interface, GetScopeSymbolGroup method [Windows Debugging],IDebugSymbols2 interface, GetScopeSymbolGroup method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetScopeSymbolGroup method, IDebugSymbols2 interface [Windows Debugging],GetScopeSymbolGroup method, IDebugSymbols2::GetScopeSymbolGroup, IDebugSymbols3 interface [Windows Debugging],GetScopeSymbolGroup method, IDebugSymbols3.GetScopeSymbolGroup, IDebugSymbols3::GetScopeSymbolGroup, IDebugSymbols::GetScopeSymbolGroup, IDebugSymbols_a51f6be3-09dc-48a4-ae45-149fea6bfb1b.xml, dbgeng/IDebugSymbols2::GetScopeSymbolGroup, dbgeng/IDebugSymbols3::GetScopeSymbolGroup, dbgeng/IDebugSymbols::GetScopeSymbolGroup, debugger.getscopesymbolgroup
 ms.topic: method
 req.header: dbgeng.h

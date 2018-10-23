@@ -6,7 +6,7 @@ description: The KSFRAMETIME structure is supported by rendering pins, and is us
 old-location: stream\ksframetime.htm
 tech.root: stream
 ms.assetid: 0e3beb72-2b00-41be-a7b4-341bcf065e92
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSFRAMETIME, KSFRAMETIME, KSFRAMETIME structure [Streaming Media Devices], PKSFRAMETIME, PKSFRAMETIME structure pointer [Streaming Media Devices], ks-struct_3abc9b81-d7e7-455c-a577-2efa7c986cc5.xml, ks/KSFRAMETIME, ks/PKSFRAMETIME, stream.ksframetime"
 ms.topic: struct
 req.header: ks.h

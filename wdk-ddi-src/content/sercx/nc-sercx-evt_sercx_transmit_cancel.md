@@ -6,7 +6,7 @@ description: The EvtSerCxTransmitCancel event callback function notifies the ser
 old-location: serports\evtsercxtransmitcancel.htm
 tech.root: serports
 ms.assetid: 7922A3BD-8829-42A3-9F94-3C26F1262626
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 1/EvtSerCxTransmitCancel, EVT_SERCX_TRANSMIT_CANCEL, EVT_SERCX_TRANSMIT_CANCEL callback, EvtSerCxTransmitCancel, EvtSerCxTransmitCancel callback function [Serial Ports], serports.evtsercxtransmitcancel
 ms.topic: callback
 req.header: sercx.h

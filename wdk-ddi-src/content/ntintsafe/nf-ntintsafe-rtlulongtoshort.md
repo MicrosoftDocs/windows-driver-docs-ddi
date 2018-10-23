@@ -6,7 +6,7 @@ description: Converts a value of type ULONG to a value of type SHORT.
 old-location: kernel\rtlulongtoshort.htm
 tech.root: kernel
 ms.assetid: CF44513A-8BFE-453F-A3C1-BF50C86A663E
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlULongToShort, RtlULongToShort function [Kernel-Mode Driver Architecture], kernel.rtlulongtoshort, ntintsafe/RtlULongToShort
 ms.topic: function
 req.header: ntintsafe.h

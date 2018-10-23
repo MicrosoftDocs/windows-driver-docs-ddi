@@ -6,7 +6,7 @@ description: Returns information about system environment variables using SysEnv
 old-location: kernel\ioctl_ioctl_sysenv_enum_variables.htm
 tech.root: kernel
 ms.assetid: 605CA19C-048A-4FBA-8568-7B1867C99210
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IOCTL_SYSENV_ENUM_VARIABLES, IOCTL_SYSENV_ENUM_VARIABLES control, IOCTL_SYSENV_ENUM_VARIABLES control code [Kernel-Mode Driver Architecture], kernel.ioctl_ioctl_sysenv_enum_variables, ntddsysenv/IOCTL_SYSENV_ENUM_VARIABLES
 ms.topic: ioctl
 req.header: ntddsysenv.h

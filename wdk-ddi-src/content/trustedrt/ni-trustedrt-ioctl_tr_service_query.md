@@ -4,7 +4,7 @@ title: IOCTL_TR_SERVICE_QUERY
 author: windows-driver-content
 description: 
 ms.assetid: f22825f0-a287-4343-a971-1e8765d0c199
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: ioctl
 req.header: trustedrt.h
 req.include-header:

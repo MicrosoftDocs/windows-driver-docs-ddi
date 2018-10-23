@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilgetdeviceinfoparams.htm
 tech.root: netvista
 ms.assetid: 4cb3be01-7e74-4c98-9c4b-2e1c78d96001
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILGETDEVICEINFOPARAMS, RILGETDEVICEINFOPARAMS, RILGETDEVICEINFOPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetdeviceinfoparams, ntddrilapitypes/RILGETDEVICEINFOPARAMS"
 ms.topic: struct
 req.header: rilapitypes.h

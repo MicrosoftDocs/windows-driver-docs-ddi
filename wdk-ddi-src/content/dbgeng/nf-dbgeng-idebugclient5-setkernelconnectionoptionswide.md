@@ -6,7 +6,7 @@ description: The SetKernelConnectionOptionsWide method updates some of the conne
 old-location: debugger\setkernelconnectionoptionswide.htm
 tech.root: debugger
 ms.assetid: aea5651f-b361-4253-bf51-bd320408bdab
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugClient5 interface [Windows Debugging],SetKernelConnectionOptionsWide method, IDebugClient5.SetKernelConnectionOptionsWide, IDebugClient5::SetKernelConnectionOptionsWide, SetKernelConnectionOptionsWide, SetKernelConnectionOptionsWide method [Windows Debugging], SetKernelConnectionOptionsWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::SetKernelConnectionOptionsWide, debugger.setkernelconnectionoptionswide
 ms.topic: method
 req.header: dbgeng.h

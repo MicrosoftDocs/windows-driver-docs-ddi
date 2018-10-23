@@ -6,7 +6,7 @@ description: The WdfDmaTransactionSetTransferCompleteCallback method registers a
 old-location: wdf\wdfdmatransactionsettransfercompletecallback.htm
 tech.root: wdf
 ms.assetid: B97FF6B1-BFCB-4293-B2F0-EE08E12CFCFF
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfDmaTransactionSetTransferCompleteCallback, WdfDmaTransactionSetTransferCompleteCallback method, kmdf.wdfdmatransactionsettransfercompletecallback, wdf.wdfdmatransactionsettransfercompletecallback, wdfdmatransaction/WdfDmaTransactionSetTransferCompleteCallback
 ms.topic: function
 req.header: wdfdmatransaction.h

@@ -6,7 +6,7 @@ description: The KSPROPERTY_SPHLI structure is used to describe a rectangle of s
 old-location: stream\ksproperty_sphli.htm
 tech.root: stream
 ms.assetid: e1ee8d13-7f83-4020-9f34-4b2c3626685b
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSPROPERTY_SPHLI, KSPROPERTY_SPHLI, KSPROPERTY_SPHLI structure [Streaming Media Devices], PKSPROPERTY_SPHLI, PKSPROPERTY_SPHLI structure pointer [Streaming Media Devices], _KSPROPERTY_SPHLI, dvdref_f6cc5797-e4f6-4973-abff-6b1bb9c0c637.xml, ksmedia/KSPROPERTY_SPHLI, ksmedia/PKSPROPERTY_SPHLI, stream.ksproperty_sphli"
 ms.topic: struct
 req.header: ksmedia.h

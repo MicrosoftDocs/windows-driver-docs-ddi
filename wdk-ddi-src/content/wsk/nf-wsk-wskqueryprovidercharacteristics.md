@@ -6,7 +6,7 @@ description: The WskQueryProviderCharacteristics function queries the range of W
 old-location: netvista\wskqueryprovidercharacteristics.htm
 tech.root: netvista
 ms.assetid: b8a81d7e-abab-4343-a044-ac9dd913c7f2
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: WskQueryProviderCharacteristics, WskQueryProviderCharacteristics function [Network Drivers Starting with Windows Vista], netvista.wskqueryprovidercharacteristics, wsk/WskQueryProviderCharacteristics, wskref_dbe0fc4a-6df6-46aa-a17b-d3835f5d429b.xml
 ms.topic: function
 req.header: wsk.h

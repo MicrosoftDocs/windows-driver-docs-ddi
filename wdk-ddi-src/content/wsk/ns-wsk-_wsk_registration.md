@@ -6,7 +6,7 @@ description: The WSK_REGISTRATION structure is used by the WSK subsystem to regi
 old-location: netvista\wsk_registration.htm
 tech.root: netvista
 ms.assetid: 770c53bb-5e11-4bd4-a175-6ea6ae0bb782
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWSK_REGISTRATION, PWSK_REGISTRATION, PWSK_REGISTRATION structure pointer [Network Drivers Starting with Windows Vista], WSK_REGISTRATION, WSK_REGISTRATION structure [Network Drivers Starting with Windows Vista], _WSK_REGISTRATION, netvista.wsk_registration, wsk/PWSK_REGISTRATION, wsk/WSK_REGISTRATION, wskref_1ad5b68d-5a86-476c-aa04-0f11db552a01.xml"
 ms.topic: struct
 req.header: wsk.h

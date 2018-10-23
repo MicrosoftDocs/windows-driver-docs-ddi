@@ -6,7 +6,7 @@ description: FltDeviceIoControlFile sends a control code directly to a specified
 old-location: ifsk\fltdeviceiocontrolfile.htm
 tech.root: ifsk
 ms.assetid: f9a6998d-f340-47ad-a9be-ff7ef76c627e
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_0e8f1a72-1620-4d72-8569-7411c724e906.xml, FltDeviceIoControlFile, FltDeviceIoControlFile function [Installable File System Drivers], fltkernel/FltDeviceIoControlFile, ifsk.fltdeviceiocontrolfile
 ms.topic: function
 req.header: fltkernel.h

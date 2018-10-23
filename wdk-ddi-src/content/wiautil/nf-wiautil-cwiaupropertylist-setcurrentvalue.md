@@ -6,7 +6,7 @@ description: The CWiauPropertyList::SetCurrentValue(INT,LONG) method sets the cu
 old-location: image\cwiaupropertylist_setcurrentvalue_bstr_.htm
 tech.root: image
 ms.assetid: 017ab648-ee62-47f5-abd3-f4eac4378b8a
-ms.date: 9/7/2018
+ms.date: 09/07/2018
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetCurrentValue method, CWiauPropertyList.SetCurrentValue, CWiauPropertyList.SetCurrentValue(INT,LONG), CWiauPropertyList::SetCurrentValue, CWiauPropertyList::SetCurrentValue(INT,LONG), SetCurrentValue, SetCurrentValue method [Imaging Devices], SetCurrentValue method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_setcurrentvalue_long_, wiauFncs_e59bb543-0827-4c93-955c-6a2bef4b67b7.xml, wiautil/CWiauPropertyList::SetCurrentValue
 ms.topic: method
 req.header: wiautil.h

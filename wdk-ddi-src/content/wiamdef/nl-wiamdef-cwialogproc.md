@@ -4,7 +4,7 @@ title: CWiaLogProc
 author: windows-driver-content
 description: 
 ms.assetid: 778cac25-66f5-4909-884a-119477b288a7
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: class
 req.header: wiamdef.h
 req.include-header:

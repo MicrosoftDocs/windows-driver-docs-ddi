@@ -4,7 +4,7 @@ title: PFND3DKMT_CREATEHWQUEUE
 author: windows-driver-content
 description: Implemented by the client driver to create a new hardware queue.
 ms.assetid: 0c8c359a-2c16-4844-a9ec-4a1716f3e980
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

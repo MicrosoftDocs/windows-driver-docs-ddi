@@ -4,7 +4,7 @@ title: _D3DKMT_PAGE_TABLE_LEVEL_DESC
 author: windows-driver-content
 description: Structure that describes page table level info.
 ms.assetid: c6b49b09-71b6-46be-b881-ed6c3e52c218
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_PAGE_TABLE_LEVEL_DESC, D3DKMT_PAGE_TABLE_LEVEL_DESC, 
 req.header: d3dkmthk.h

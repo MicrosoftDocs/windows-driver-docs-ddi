@@ -6,7 +6,7 @@ description: The USB device emulation class extension (UdeCx) invokes this callb
 old-location: buses\evt_udecx_usb_device_d0_exit.htm
 tech.root: usbref
 ms.assetid: CC2878DC-66EC-4493-8188-3B6BAEA928DF
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: EVT_UDECX_USB_DEVICE_D0_EXIT, EVT_UDECX_USB_DEVICE_D0_EXIT callback, EvtUsbDeviceLinkPowerExit, EvtUsbDeviceLinkPowerExit callback function [Buses], buses.evt_udecx_usb_device_d0_exit, udecxusbdevice/EvtUsbDeviceLinkPowerExit
 ms.topic: callback
 req.header: udecxusbdevice.h

@@ -6,7 +6,7 @@ description: Filter drivers call the NdisFCancelSendNetBufferLists function to c
 old-location: netvista\ndisfcancelsendnetbufferlists.htm
 tech.root: netvista
 ms.assetid: 358b1aa9-4bfd-4bed-94f7-1b021c732a02
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisFCancelSendNetBufferLists, NdisFCancelSendNetBufferLists function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_272bc8c3-bf88-42d8-b415-429100169d47.xml, ndis/NdisFCancelSendNetBufferLists, netvista.ndisfcancelsendnetbufferlists
 ms.topic: function
 req.header: ndis.h

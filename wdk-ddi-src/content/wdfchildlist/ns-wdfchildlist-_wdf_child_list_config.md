@@ -6,7 +6,7 @@ description: The WDF_CHILD_LIST_CONFIG structure contains configuration informat
 old-location: wdf\wdf_child_list_config.htm
 tech.root: wdf
 ms.assetid: d0a392f4-c7c3-4b61-960c-b94f9605f5a4
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*PWDF_CHILD_LIST_CONFIG, DFDeviceObjectChildListRef_9666f463-1673-4208-9745-e1d12b523569.xml, PWDF_CHILD_LIST_CONFIG, PWDF_CHILD_LIST_CONFIG structure pointer, WDF_CHILD_LIST_CONFIG, WDF_CHILD_LIST_CONFIG structure, _WDF_CHILD_LIST_CONFIG, kmdf.wdf_child_list_config, wdf.wdf_child_list_config, wdfchildlist/PWDF_CHILD_LIST_CONFIG, wdfchildlist/WDF_CHILD_LIST_CONFIG"
 ms.topic: struct
 req.header: wdfchildlist.h

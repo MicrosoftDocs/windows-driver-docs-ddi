@@ -6,7 +6,7 @@ description: A driver's EvtDevicePnpStateChange event callback function informs 
 old-location: wdf\evtdevicepnpstatechange.htm
 tech.root: wdf
 ms.assetid: 5f08d331-0e58-45a3-93a3-b5e9a40b5af3
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_484dd3d0-689b-4c81-bdc2-85d14db47499.xml, EVT_WDF_DEVICE_PNP_STATE_CHANGE_NOTIFICATION, EVT_WDF_DEVICE_PNP_STATE_CHANGE_NOTIFICATION callback, EvtDevicePnpStateChange, EvtDevicePnpStateChange callback function, kmdf.evtdevicepnpstatechange, wdf.evtdevicepnpstatechange, wdfdevice/EvtDevicePnpStateChange
 ms.topic: callback
 req.header: wdfdevice.h

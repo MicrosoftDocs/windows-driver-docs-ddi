@@ -6,7 +6,7 @@ description: The EvtDeviceWdmPrePoFxUnregisterDevice callback function performs 
 old-location: wdf\evtdevicewdmprepofxunregisterdevice.htm
 tech.root: wdf
 ms.assetid: D663C47D-C59E-4210-84D8-9773A3003990
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: EVT_WDFDEVICE_WDM_PRE_PO_FX_UNREGISTER_DEVICE, EVT_WDFDEVICE_WDM_PRE_PO_FX_UNREGISTER_DEVICE callback, EvtDeviceWdmPrePoFxUnregisterDevice, EvtDeviceWdmPrePoFxUnregisterDevice callback function, kmdf.evtdevicewdmprepofxunregisterdevice, wdf.evtdevicewdmprepofxunregisterdevice, wdfdevice/EvtDeviceWdmPrePoFxUnregisterDevice
 ms.topic: callback
 req.header: wdfdevice.h

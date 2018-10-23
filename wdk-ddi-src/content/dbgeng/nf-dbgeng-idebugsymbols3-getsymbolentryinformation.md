@@ -6,7 +6,7 @@ description: The GetSymbolEntryInformation method returns the symbol entry infor
 old-location: debugger\getsymbolentryinformation.htm
 tech.root: debugger
 ms.assetid: 02fe418f-1793-4585-9891-1274a4ddba74
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetSymbolEntryInformation, GetSymbolEntryInformation method [Windows Debugging], GetSymbolEntryInformation method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolEntryInformation method, IDebugSymbols3.GetSymbolEntryInformation, IDebugSymbols3::GetSymbolEntryInformation, IDebugSymbols_a1ac4d9f-172c-4697-937d-a59c88bb8778.xml, dbgeng/IDebugSymbols3::GetSymbolEntryInformation, debugger.getsymbolentryinformation
 ms.topic: method
 req.header: dbgeng.h

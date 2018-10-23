@@ -6,7 +6,7 @@ description: The ENLISTMENT_BASIC_INFORMATION structure contains information abo
 old-location: kernel\enlistment_basic_information.htm
 tech.root: kernel
 ms.assetid: 50c989b9-147c-41ea-b933-3a3e8575563e
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PENLISTMENT_BASIC_INFORMATION, ENLISTMENT_BASIC_INFORMATION, ENLISTMENT_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], PENLISTMENT_BASIC_INFORMATION, PENLISTMENT_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _ENLISTMENT_BASIC_INFORMATION, kernel.enlistment_basic_information, ktm_ref_5748a3a5-6a2a-4cf1-a610-2a406161b689.xml, wdm/ENLISTMENT_BASIC_INFORMATION, wdm/PENLISTMENT_BASIC_INFORMATION"
 ms.topic: struct
 req.header: wdm.h

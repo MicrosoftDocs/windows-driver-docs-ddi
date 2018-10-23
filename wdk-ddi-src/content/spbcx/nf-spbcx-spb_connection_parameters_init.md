@@ -6,7 +6,7 @@ description: The SPB_CONNECTION_PARAMETERS_INIT function initializes an SPB_CONN
 old-location: spb\spb_connection_parameters_init.htm
 tech.root: SPB
 ms.assetid: 0E23690B-4AE1-42F1-A53F-FE9A4697DBF2
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: SPB.spb_connection_parameters_init, SPB_CONNECTION_PARAMETERS_INIT, SPB_CONNECTION_PARAMETERS_INIT function [Buses], spbcx/SPB_CONNECTION_PARAMETERS_INIT
 ms.topic: function
 req.header: spbcx.h

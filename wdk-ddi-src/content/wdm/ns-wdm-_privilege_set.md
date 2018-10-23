@@ -6,7 +6,7 @@ description: The PRIVILEGE_SET structure specifies a set of security privileges.
 old-location: kernel\privilege_set.htm
 tech.root: kernel
 ms.assetid: 4d5c8c4f-78f4-4e98-9e76-a9896b5c9124
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPRIVILEGE_SET, PPRIVILEGE_SET, PPRIVILEGE_SET structure pointer [Kernel-Mode Driver Architecture], PRIVILEGE_SET, PRIVILEGE_SET structure [Kernel-Mode Driver Architecture], _PRIVILEGE_SET, kernel.privilege_set, kstruct_c_c599935e-9092-4ee4-a982-a105835eb6bd.xml, wdm/PNP_BUS_INFORMATION, wdm/PPRIVILEGE_SET"
 ms.topic: struct
 req.header: wdm.h

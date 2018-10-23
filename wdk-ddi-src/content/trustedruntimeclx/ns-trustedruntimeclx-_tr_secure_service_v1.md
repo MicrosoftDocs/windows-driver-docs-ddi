@@ -4,7 +4,7 @@ title: _TR_SECURE_SERVICE_V1
 author: windows-driver-content
 description: 
 ms.assetid: e1799150-6d8d-40ca-9235-94762db4cc45
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _TR_SECURE_SERVICE_V1, TR_SECURE_SERVICE_V1, *PTR_SECURE_SERVICE_V1, TR_SECURE_SERVICE, *PTR_SECURE_SERVICE
 req.header: trustedruntimeclx.h

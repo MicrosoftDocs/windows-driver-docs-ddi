@@ -6,7 +6,7 @@ description: The HidP_GetCaps routine returns a top-level collection's HIDP_CAP
 old-location: hid\hidp_getcaps.htm
 tech.root: hid
 ms.assetid: a43baab5-26d9-43f7-bc13-3b0864769e68
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: HidP_GetCaps, HidP_GetCaps callback function [Human Input Devices], PHIDP_GETCAPS, PHIDP_GETCAPS callback, hid.hidp_getcaps, hidfunc_420188e5-e357-43cc-b195-dea7637fd3c9.xml, hidpi/HidP_GetCaps
 ms.topic: function
 req.header: hidpi.h

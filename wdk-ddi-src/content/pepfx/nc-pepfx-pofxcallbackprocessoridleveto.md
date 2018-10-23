@@ -6,7 +6,7 @@ description: The ProcessorIdleVeto routine increments or decrements the veto cou
 old-location: kernel\processoridleveto.htm
 tech.root: kernel
 ms.assetid: 505276EE-5D41-4AB2-82FB-FBDEF994F372
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: POFXCALLBACKPROCESSORIDLEVETO, ProcessorIdleVeto, ProcessorIdleVeto routine [Kernel-Mode Driver Architecture], ProcessorIdleVetoreadv, kernel.processoridleveto, pepfx/ProcessorIdleVeto
 ms.topic: callback
 req.header: pepfx.h

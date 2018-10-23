@@ -6,7 +6,7 @@ description: The HID source driver implements this event callback to free resour
 old-location: hid\evtvhfcleanup.htm
 tech.root: hid
 ms.assetid: 1D477E7B-E4EA-46E7-872C-3BEBFBD31702
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: EVT_VHF_CLEANUP, EVT_VHF_CLEANUP callback, EvtVhfCleanup, EvtVhfCleanup callback function [Human Input Devices], hid.evtvhfcleanup, vhf/EvtVhfCleanup
 ms.topic: callback
 req.header: vhf.h

@@ -6,7 +6,7 @@ description: The HDAUDIO_CODEC_RESPONSE structure specifies either a response to
 old-location: audio\hdaudio_codec_response.htm
 tech.root: audio
 ms.assetid: 56b9cdb5-2734-45b5-aeaf-ae6d606d1a5c
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: "*PHDAUDIO_CODEC_RESPONSE, HDAUDIO_CODEC_RESPONSE, HDAUDIO_CODEC_RESPONSE structure [Audio Devices], PHDAUDIO_CODEC_RESPONSE, PHDAUDIO_CODEC_RESPONSE structure pointer [Audio Devices], _HDAUDIO_CODEC_RESPONSE, aud-prop2_2cf51d01-4493-439c-9a5f-30b86d76502b.xml, audio.hdaudio_codec_response, hdaudio/HDAUDIO_CODEC_RESPONSE, hdaudio/PHDAUDIO_CODEC_RESPONSE"
 ms.topic: struct
 req.header: hdaudio.h
@@ -166,7 +166,7 @@ After calling the <a href="https://msdn.microsoft.com/0ba92f5c-c4a3-48de-b8af-9c
 
 The callback for the <a href="https://msdn.microsoft.com/0f94146b-aa60-4106-aba6-0f1cb3e53008">RegisterEventCallback</a> routine also uses the HDAUDIO_CODEC_RESPONSE structure.
 
-Most members of this structure contain hardware-generated values that the bus driver copies directly from the corresponding RIRB entry. The two exceptions are the values of the <b>IsValid</b> and <b>HasFifoOverrun</b> members, which the bus driver software writes to the structure to indicate the error status of the response. For information about the RIRB entry format, see the Intel High Definition Audio Specification at the <a href="http://go.microsoft.com/fwlink/p/?linkid=42508">Intel HD Audio</a> website.
+Most members of this structure contain hardware-generated values that the bus driver copies directly from the corresponding RIRB entry. The two exceptions are the values of the <b>IsValid</b> and <b>HasFifoOverrun</b> members, which the bus driver software writes to the structure to indicate the error status of the response. For information about the RIRB entry format, see the Intel High Definition Audio Specification at the <a href="https://go.microsoft.com/fwlink/p/?linkid=42508">Intel HD Audio</a> website.
 
 If <b>IsValid</b>=0, one of the following has occurred:
 

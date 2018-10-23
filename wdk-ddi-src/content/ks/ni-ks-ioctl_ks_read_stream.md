@@ -6,7 +6,7 @@ description: An application can use IOCTL_KS_READ_STREAM to read data from a pin
 old-location: stream\ioctl_ks_read_stream.htm
 tech.root: stream
 ms.assetid: 92110e27-5f1a-4c4d-b999-d9deb546e6a6
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_KS_READ_STREAM, IOCTL_KS_READ_STREAM control, IOCTL_KS_READ_STREAM control code [Streaming Media Devices], ks-ioctl_677f9dd3-bd4b-4c15-8ee1-67ede429c958.xml, ks/IOCTL_KS_READ_STREAM, stream.ioctl_ks_read_stream
 ms.topic: ioctl
 req.header: ks.h

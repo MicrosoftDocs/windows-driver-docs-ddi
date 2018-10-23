@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Contains function pointers for interacting with a specific type of UART hardware.
 tech.root: serports
 ms.assetid: 8c521dda-f906-44a8-b0cc-283bd1afacf6
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _UART_HARDWARE_DRIVER, UART_HARDWARE_DRIVER, *PUART_HARDWARE_DRIVER,
 req.header: uart.h

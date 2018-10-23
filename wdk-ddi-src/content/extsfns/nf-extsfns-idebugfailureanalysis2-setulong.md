@@ -6,7 +6,7 @@ description: The SetUlong method searches a DebugFailureAnalysis object for the 
 old-location: debugger\idebugfailureanalysis2_setulong.htm
 tech.root: debugger
 ms.assetid: 90C0AAE1-EE79-4347-B6F1-276DBF84F7BC
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging],SetUlong method, IDebugFailureAnalysis2.SetUlong, IDebugFailureAnalysis2::SetUlong, SetUlong, SetUlong method [Windows Debugging], SetUlong method [Windows Debugging],IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_setextensionulong, debugger.idebugfailureanalysis2_setulong, extsfns/IDebugFailureAnalysis2::SetUlong
 ms.topic: method
 req.header: extsfns.h

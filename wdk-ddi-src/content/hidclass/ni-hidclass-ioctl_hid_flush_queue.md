@@ -6,7 +6,7 @@ description: The IOCTL_HID_FLUSH_QUEUE request dequeues all of the unparsed inpu
 old-location: hid\ioctl_hid_flush_queue.htm
 tech.root: hid
 ms.assetid: 97914eb2-18fd-4b7b-8dcd-475c4d98927c
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IOCTL_HID_FLUSH_QUEUE, IOCTL_HID_FLUSH_QUEUE control, IOCTL_HID_FLUSH_QUEUE control code [Human Input Devices], hid.ioctl_hid_flush_queue, hidclass/IOCTL_HID_FLUSH_QUEUE, hidioreq_d7b2ccb0-76c8-4aa7-9d05-b8226106baa6.xml
 ms.topic: ioctl
 req.header: hidclass.h

@@ -6,7 +6,7 @@ description: The ReadPhysicalWithFlags function reads from physical memory.
 old-location: debugger\readphysicalwithflags.htm
 tech.root: debugger
 ms.assetid: 7ff5787f-f663-4ceb-be59-4f48ecea03a9
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ReadPhysicalWithFlags, ReadPhysicalWithFlags function [Windows Debugging], WdbgExts_Ref_cf166083-f21a-4cfd-8daa-90c3f6bbcdcb.xml, debugger.readphysicalwithflags, wdbgexts/ReadPhysicalWithFlags
 ms.topic: function
 req.header: wdbgexts.h

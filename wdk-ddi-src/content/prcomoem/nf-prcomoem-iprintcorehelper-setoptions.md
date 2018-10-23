@@ -6,7 +6,7 @@ description: The IPrintCoreHelper::SetOptions method sets multiple feature-optio
 old-location: print\iprintcorehelper_setoptions.htm
 tech.root: print
 ms.assetid: 0441558c-db3d-46d1-a251-a32e98098e9e
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintCoreHelper interface [Print Devices],SetOptions method, IPrintCoreHelper.SetOptions, IPrintCoreHelper::SetOptions, SetOptions, SetOptions method [Print Devices], SetOptions method [Print Devices],IPrintCoreHelper interface, prcomoem/IPrintCoreHelper::SetOptions, print.iprintcorehelper_setoptions, print_unidrv-pscript_allplugins_ad900ead-2d1f-41ab-9ee5-fc5e9f8130d7.xml
 ms.topic: method
 req.header: prcomoem.h

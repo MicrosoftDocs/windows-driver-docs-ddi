@@ -6,7 +6,7 @@ description: The FltOplockBreakToNoneEx routine breaks all opportunistic locks (
 old-location: ifsk\fltoplockbreaktononeex.htm
 tech.root: ifsk
 ms.assetid: 748951e3-9642-4c98-a3b0-5f6b18519bd4
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_7111d712-59f1-4c71-b02c-9bb415aa118f.xml, FltOplockBreakToNoneEx, FltOplockBreakToNoneEx routine [Installable File System Drivers], fltkernel/FltOplockBreakToNoneEx, ifsk.fltoplockbreaktononeex
 ms.topic: function
 req.header: fltkernel.h

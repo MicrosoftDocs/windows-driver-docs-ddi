@@ -4,7 +4,7 @@ title: _INLINE_CRYPTO_PROGRAM_KEY_IN
 author: windows-driver-content
 description: 
 ms.assetid: 4ad9010e-b774-45c0-984e-024d049c569b
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _INLINE_CRYPTO_PROGRAM_KEY_IN, INLINE_CRYPTO_PROGRAM_KEY_IN, *PINLINE_CRYPTO_PROGRAM_KEY_IN, 
 req.header: treeinlinecryptoservice.h

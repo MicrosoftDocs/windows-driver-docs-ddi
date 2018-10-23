@@ -6,7 +6,7 @@ description: A structure used to read the VGPU type of an escape.
 old-location: display\dxgkvgpu_escape_read_vgpu_type.htm
 tech.root: display
 ms.assetid: 2D3D8927-74E3-438F-94CF-63456C7C7BBC
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKVGPU_ESCAPE_READ_VGPU_TYPE, DXGKVGPU_ESCAPE_READ_VGPU_TYPE structure [Display Devices], _DXGKVGPU_ESCAPE_READ_VGPU_TYPE, d3dukmdt/DXGKVGPU_ESCAPE_READ_VGPU_TYPE, display.dxgkvgpu_escape_read_vgpu_type
 ms.topic: struct
 req.header: d3dukmdt.h

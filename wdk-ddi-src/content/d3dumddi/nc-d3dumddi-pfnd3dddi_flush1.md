@@ -6,7 +6,7 @@ description: Called by the Microsoft Direct3D runtime to submit outstanding hard
 old-location: display\pfnflush1.htm
 tech.root: display
 ms.assetid: 6BAC104A-85CE-42FC-AE30-969B2FF6AFEF
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_FLUSH1, PFND3DDDI_FLUSH1 callback, d3dumddi/pfnFlush1, display.pfnflush1, pfnFlush1, pfnFlush1 callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h

@@ -6,7 +6,7 @@ description: The minidriver-provided routine is called when Kernel Streaming rec
 old-location: stream\kstrmethodhandler.htm
 tech.root: stream
 ms.assetid: 717ac510-b456-43b9-9500-b07e942f424c
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KStrGetPropertyHandler, KStrHandler, KStrHandler routine [Streaming Media Devices], KStrMethodHandler, KStrSetPropertyHandler, KStrSupportHandler, PFNKSHANDLER, ks/KStrHandler, ksfunc_53b62198-4059-4715-b405-c6f55d736a09.xml, stream.kstrmethodhandler
 ms.topic: callback
 req.header: ks.h

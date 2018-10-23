@@ -6,7 +6,7 @@ description: The SendLIRR_OUT structure is used to report the output parameter d
 old-location: storage\sendlirr_out.htm
 tech.root: storage
 ms.assetid: 842842c2-ed79-4c8a-b9c1-d73c47998f91
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSendLIRR_OUT, PSendLIRR_OUT, PSendLIRR_OUT structure pointer [Storage Devices], SendLIRR_OUT, SendLIRR_OUT structure [Storage Devices], _SendLIRR_OUT, hbapiwmi/PSendLIRR_OUT, hbapiwmi/SendLIRR_OUT, storage.sendlirr_out, structs-Fibre_193ae454-313d-4ada-a161-39c403226edf.xml"
 ms.topic: struct
 req.header: hbapiwmi.h

@@ -6,7 +6,7 @@ description: Call the NdisAllocateReassembledNetBufferList function to reassembl
 old-location: netvista\ndisallocatereassemblednetbufferlist.htm
 tech.root: netvista
 ms.assetid: 6a7fcb43-93bf-4351-8198-1d788b1bcc8c
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisAllocateReassembledNetBufferList, NdisAllocateReassembledNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateReassembledNetBufferList, ndis_netbuf_functions_ref_20c58532-de90-4594-9bd8-5393a70c6b80.xml, netvista.ndisallocatereassemblednetbufferlist
 ms.topic: function
 req.header: ndis.h

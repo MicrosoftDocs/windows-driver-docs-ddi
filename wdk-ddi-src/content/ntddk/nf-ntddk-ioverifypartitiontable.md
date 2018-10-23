@@ -6,7 +6,7 @@ description: The IoVerifyPartitionTable routine checks the validity of the parti
 old-location: kernel\ioverifypartitiontable.htm
 tech.root: kernel
 ms.assetid: dc7b543b-1fb5-477c-a612-c8e7381e637e
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoVerifyPartitionTable, IoVerifyPartitionTable routine [Kernel-Mode Driver Architecture], k104_d550806b-f911-45f6-b6ab-efbf05683c4d.xml, kernel.ioverifypartitiontable, ntddk/IoVerifyPartitionTable
 ms.topic: function
 req.header: ntddk.h

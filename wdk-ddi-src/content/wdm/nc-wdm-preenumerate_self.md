@@ -6,7 +6,7 @@ description: A ReenumerateSelf routine requests that a bus driver reenumerate a 
 old-location: kernel\reenumerateself.htm
 tech.root: kernel
 ms.assetid: ee669f35-87a5-4c5e-9936-b9135a1459e1
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PREENUMERATE_SELF, ReenumerateSelf, ReenumerateSelf routine [Kernel-Mode Driver Architecture], drvr_interface_208efec1-4236-441b-a4b8-45a9539e4d84.xml, kernel.reenumerateself, wdm/ReenumerateSelf
 ms.topic: callback
 req.header: wdm.h

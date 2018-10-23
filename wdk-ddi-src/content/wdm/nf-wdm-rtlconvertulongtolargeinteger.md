@@ -6,7 +6,7 @@ description: The RtlConvertUlongToLargeInteger routine converts the input unsign
 old-location: kernel\rtlconvertulongtolargeinteger.htm
 tech.root: kernel
 ms.assetid: 9e0b8d36-0191-4f78-91dd-874346a69072
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlConvertUlongToLargeInteger, RtlConvertUlongToLargeInteger routine [Kernel-Mode Driver Architecture], k109_442eaa78-8765-4d40-a77d-8a511d18b754.xml, kernel.rtlconvertulongtolargeinteger, wdm/RtlConvertUlongToLargeInteger
 ms.topic: function
 req.header: wdm.h

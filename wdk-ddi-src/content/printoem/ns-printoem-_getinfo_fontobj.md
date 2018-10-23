@@ -6,7 +6,7 @@ description: The GETINFO_FONTOBJ structure is used as input to the UNIFONTOBJ_Ge
 old-location: print\getinfo_fontobj.htm
 tech.root: print
 ms.assetid: f5116986-aa0c-4cc3-9893-c93e83e922f7
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PGETINFO_FONTOBJ, GETINFO_FONTOBJ, GETINFO_FONTOBJ structure [Print Devices], PGETINFO_FONTOBJ, PGETINFO_FONTOBJ structure pointer [Print Devices], _GETINFO_FONTOBJ, print.getinfo_fontobj, print_unidrv-pscript_rendering_2fdbe41f-95af-46ef-be82-04c1dc02297f.xml, printoem/GETINFO_FONTOBJ, printoem/PGETINFO_FONTOBJ"
 ms.topic: struct
 req.header: printoem.h

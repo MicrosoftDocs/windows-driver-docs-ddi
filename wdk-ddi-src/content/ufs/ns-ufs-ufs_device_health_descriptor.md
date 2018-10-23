@@ -6,7 +6,7 @@ description: The UFS_DEVICE_HEALTH_DESCRIPTOR structure describes the health of 
 old-location: storage\ufs_device_health_descriptor.htm
 tech.root: storage
 ms.assetid: 6B085DBB-2AAA-4170-A2B1-EA4D2C207A24
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PUFS_DEVICE_HEALTH_DESCRIPTOR, PUFS_DEVICE_HEALTH_DESCRIPTOR, PUFS_DEVICE_HEALTH_DESCRIPTOR structure pointer [Storage Devices], UFS_DEVICE_HEALTH_DESCRIPTOR, UFS_DEVICE_HEALTH_DESCRIPTOR structure [Storage Devices], storage.ufs_device_health_descriptor, ufs/PUFS_DEVICE_HEALTH_DESCRIPTOR, ufs/UFS_DEVICE_HEALTH_DESCRIPTOR"
 ms.topic: struct
 req.header: ufs.h

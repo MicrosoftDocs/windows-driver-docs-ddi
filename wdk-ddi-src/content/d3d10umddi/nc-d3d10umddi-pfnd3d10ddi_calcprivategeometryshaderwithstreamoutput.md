@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The CalcPrivateGeometryShaderWithStreamOutput function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a geometry shader with stream output.
 old-location: display\calcprivategeometryshaderwithstreamoutput.htm
 ms.assetid: 3e760b93-e859-4175-a24a-6bf3648db6db
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CalcPrivateGeometryShaderWithStreamOutput, CalcPrivateGeometryShaderWithStreamOutput callback function [Display Devices], PFND3D10DDI_CALCPRIVATEGEOMETRYSHADERWITHSTREAMOUTPUT, PFND3D10DDI_CALCPRIVATEGEOMETRYSHADERWITHSTREAMOUTPUT callback, UserModeDisplayDriverDx10_Functions_f35bbbad-dd97-4149-9bb6-75c6ea2b7cdc.xml, d3d10umddi/CalcPrivateGeometryShaderWithStreamOutput, display.calcprivategeometryshaderwithstreamoutput
 ms.topic: callback
 req.header: d3d10umddi.h

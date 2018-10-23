@@ -6,7 +6,7 @@ description: The WDI_CHANNEL_MAPPING_ENTRY structure defines a channel mapping e
 old-location: netvista\wdi_channel_mapping_entry.htm
 tech.root: netvista
 ms.assetid: F05DAD5F-C0A4-46E0-8069-7CEF5B6C5707
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWDI_CHANNEL_MAPPING_ENTRY, PWDI_CHANNEL_MAPPING_ENTRY, PWDI_CHANNEL_MAPPING_ENTRY structure pointer [Device and Driver Installation], WDI_CHANNEL_MAPPING_ENTRY, WDI_CHANNEL_MAPPING_ENTRY structure [Device and Driver Installation], _WDI_CHANNEL_MAPPING_ENTRY, netvista.wdi_channel_mapping_entry, netvista.wifi_channel_mapping_entry, wditypes/PWDI_CHANNEL_MAPPING_ENTRY, wditypes/WDI_CHANNEL_MAPPING_ENTRY"
 ms.topic: struct
 req.header: wditypes.hpp

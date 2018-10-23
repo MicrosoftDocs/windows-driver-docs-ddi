@@ -6,7 +6,7 @@ description: The GetInstructionOffset2 method returns the location of the curren
 old-location: debugger\getinstructionoffset2.htm
 tech.root: debugger
 ms.assetid: c5757dbb-16bf-46f9-836f-5a94089bbb1e
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetInstructionOffset2, GetInstructionOffset2 method [Windows Debugging], GetInstructionOffset2 method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetInstructionOffset2 method, IDebugRegisters2.GetInstructionOffset2, IDebugRegisters2::GetInstructionOffset2, IDebugRegisters_92189e99-c8f6-4422-8421-62fe194a05b6.xml, dbgeng/IDebugRegisters2::GetInstructionOffset2, debugger.getinstructionoffset2
 ms.topic: method
 req.header: dbgeng.h

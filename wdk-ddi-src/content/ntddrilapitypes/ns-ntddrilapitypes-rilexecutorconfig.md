@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilexecutorconfig.htm
 tech.root: netvista
 ms.assetid: d53c3df2-fd75-4008-a740-0afa293e36eb
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILEXECUTORCONFIG, RILEXECUTORCONFIG, RILEXECUTORCONFIG structure [Network Drivers Starting with Windows Vista], netvista.rilexecutorconfig, ntddrilapitypes/RILEXECUTORCONFIG"
 ms.topic: struct
 req.header: ntddrilapitypes.h

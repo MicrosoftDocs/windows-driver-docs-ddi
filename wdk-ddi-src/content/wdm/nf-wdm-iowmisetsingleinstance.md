@@ -6,7 +6,7 @@ description: The IoWMISetSingleInstance routine sets the values for properties w
 old-location: kernel\iowmisetsingleinstance.htm
 tech.root: kernel
 ms.assetid: 043b51cd-816f-414d-85b2-2573c42393e4
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoWMISetSingleInstance, IoWMISetSingleInstance routine [Kernel-Mode Driver Architecture], k104_35479ad6-0f12-4d8b-b375-faa271cf65fd.xml, kernel.iowmisetsingleinstance, wdm/IoWMISetSingleInstance
 ms.topic: function
 req.header: wdm.h

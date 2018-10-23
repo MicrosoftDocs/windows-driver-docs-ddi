@@ -6,7 +6,7 @@ description: The CWiauDbgFn::~CWiauDbgFn destructor is called when the function 
 old-location: image\cwiaudbgfn__cwiaudbgfn.htm
 tech.root: image
 ms.assetid: 13c136f9-079a-414e-a40b-1938899024a0
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: CWiauDbgFn interface [Imaging Devices],~CWiauDbgFn method, CWiauDbgFn.~CWiauDbgFn, CWiauDbgFn::~CWiauDbgFn, image.cwiaudbgfn__cwiaudbgfn, wiauFncs_5fc25385-87e3-4664-9df6-be2c6bef7d75.xml, wiautil/CWiauDbgFn::~CWiauDbgFn, ~CWiauDbgFn, ~CWiauDbgFn method [Imaging Devices], ~CWiauDbgFn method [Imaging Devices],CWiauDbgFn interface
 ms.topic: method
 req.header: wiautil.h

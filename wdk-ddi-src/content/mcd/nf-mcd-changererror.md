@@ -6,7 +6,7 @@ description: ChangerError performs device-specific error handling.
 old-location: storage\changererror.htm
 tech.root: storage
 ms.assetid: e2196971-47ad-4ac4-a3e9-c8f7f6b05321
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ChangerError, ChangerError function [Storage Devices], chgrmini_5235b77f-51d1-4fa5-b68c-3e649aed829c.xml, mcd/ChangerError, storage.changererror
 ms.topic: function
 req.header: mcd.h

@@ -6,7 +6,7 @@ description: The KeIpiGenericCall routine causes the specified routine to run on
 old-location: kernel\keipigenericcall.htm
 tech.root: kernel
 ms.assetid: 11424e94-d279-4003-a97c-a46d1a75e8e5
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeIpiGenericCall, KeIpiGenericCall routine [Kernel-Mode Driver Architecture], k105_f819c564-ecbc-4d28-aa64-6936c8ad3542.xml, kernel.keipigenericcall, wdm/KeIpiGenericCall
 ms.topic: function
 req.header: wdm.h

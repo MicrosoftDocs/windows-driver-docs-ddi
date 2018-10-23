@@ -6,7 +6,7 @@ description: The GetVirtualTranslationPhysicalOffsets method returns the physica
 old-location: debugger\getvirtualtranslationphysicaloffsets.htm
 tech.root: debugger
 ms.assetid: 40438ee7-2e58-4048-8739-75f21179c22c
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetVirtualTranslationPhysicalOffsets, GetVirtualTranslationPhysicalOffsets method [Windows Debugging], GetVirtualTranslationPhysicalOffsets method [Windows Debugging],IDebugDataSpaces2 interface, GetVirtualTranslationPhysicalOffsets method [Windows Debugging],IDebugDataSpaces3 interface, GetVirtualTranslationPhysicalOffsets method [Windows Debugging],IDebugDataSpaces4 interface, IDebugDataSpaces2 interface [Windows Debugging],GetVirtualTranslationPhysicalOffsets method, IDebugDataSpaces2::GetVirtualTranslationPhysicalOffsets, IDebugDataSpaces3 interface [Windows Debugging],GetVirtualTranslationPhysicalOffsets method, IDebugDataSpaces3::GetVirtualTranslationPhysicalOffsets, IDebugDataSpaces4 interface [Windows Debugging],GetVirtualTranslationPhysicalOffsets method, IDebugDataSpaces4.GetVirtualTranslationPhysicalOffsets, IDebugDataSpaces4::GetVirtualTranslationPhysicalOffsets, IDebugDataSpaces_661959c5-a514-4651-8eaa-fd4c4fb94bd7.xml, dbgeng/IDebugDataSpaces2::GetVirtualTranslationPhysicalOffsets, dbgeng/IDebugDataSpaces3::GetVirtualTranslationPhysicalOffsets, dbgeng/IDebugDataSpaces4::GetVirtualTranslationPhysicalOffsets, debugger.getvirtualtranslationphysicaloffsets
 ms.topic: method
 req.header: dbgeng.h

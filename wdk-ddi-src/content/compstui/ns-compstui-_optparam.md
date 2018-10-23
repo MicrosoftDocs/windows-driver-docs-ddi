@@ -6,7 +6,7 @@ description: An array of OPTPARAM structures is used by CPSUI applications (incl
 old-location: print\optparam.htm
 tech.root: print
 ms.assetid: d0cd2867-783c-4a41-a819-e919d4ffc1e3
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*POPTPARAM, OPTPARAM, OPTPARAM structure [Print Devices], POPTPARAM, POPTPARAM structure pointer [Print Devices], _OPTPARAM, compstui/OPTPARAM, compstui/POPTPARAM, cpsuifnc_1c22c283-993e-45d7-b0c7-1148eafeb13c.xml, print.optparam"
 ms.topic: struct
 req.header: compstui.h

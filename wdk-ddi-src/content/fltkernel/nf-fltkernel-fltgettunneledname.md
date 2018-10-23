@@ -6,7 +6,7 @@ description: The FltGetTunneledName routine retrieves the tunneled name for a fi
 old-location: ifsk\fltgettunneledname.htm
 tech.root: ifsk
 ms.assetid: 760ee574-5ca5-4db1-8b47-009a12398076
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_5a952e3d-25d1-48e7-b91b-9891a446d53b.xml, FltGetTunneledName, FltGetTunneledName routine [Installable File System Drivers], fltkernel/FltGetTunneledName, ifsk.fltgettunneledname
 ms.topic: function
 req.header: fltkernel.h
@@ -142,7 +142,7 @@ After a successful call to <b>FltGetTunneledName</b>, the caller is responsible 
 
 The caller must not modify the contents of the structure returned in the <i>RetTunneledFileNameInformation</i> parameter, because this structure is cached by the Filter Manager so that all minifilter drivers can use it. 
 
-For more information about file name tunneling, see <a href="http://go.microsoft.com/fwlink/p/?linkid=3100&amp;id=172190">Microsoft Knowledge Base Article 172190</a>. 
+For more information about file name tunneling, see <a href="https://go.microsoft.com/fwlink/p/?linkid=3100&amp;id=172190">Microsoft Knowledge Base Article 172190</a>. 
 
 
 

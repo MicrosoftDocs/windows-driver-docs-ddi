@@ -6,7 +6,7 @@ description: The WdfPdoClearEjectionRelationsDevices method removes all devices 
 old-location: wdf\wdfpdoclearejectionrelationsdevices.htm
 tech.root: wdf
 ms.assetid: 09154884-130d-47aa-be00-08a3a4da6f22
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_ddbc7fa5-d0c0-4074-901e-bc7a8ea50fa4.xml, WdfPdoClearEjectionRelationsDevices, WdfPdoClearEjectionRelationsDevices method, kmdf.wdfpdoclearejectionrelationsdevices, wdf.wdfpdoclearejectionrelationsdevices, wdfpdo/WdfPdoClearEjectionRelationsDevices
 ms.topic: function
 req.header: wdfpdo.h

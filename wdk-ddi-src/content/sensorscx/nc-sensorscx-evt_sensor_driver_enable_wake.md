@@ -6,7 +6,7 @@ description: Callback to enable wake for the sensor.
 old-location: sensors\evt_sensor_driver_enable_wake.htm
 tech.root: sensors
 ms.assetid: 969E08D1-0D4A-4FED-9722-4EDA067C522C
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EVT_SENSOR_DRIVER_ENABLE_WAKE, EVT_SENSOR_DRIVER_ENABLE_WAKE callback, EVT_SENSOR_DRIVER_ENABLE_WAKE callback function [Sensor Devices], sensors.evt_sensor_driver_enable_wake, sensorscx/EVT_SENSOR_DRIVER_ENABLE_WAKE
 ms.topic: callback
 req.header: sensorscx.h

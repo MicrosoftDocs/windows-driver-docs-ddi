@@ -6,7 +6,7 @@ description: The IoRegisterContainerNotification routine registers a kernel-mode
 old-location: kernel\ioregistercontainernotification.htm
 tech.root: kernel
 ms.assetid: 5cfef8cc-b6b8-4b97-b8da-bf579e26f64d
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoRegisterContainerNotification, IoRegisterContainerNotification routine [Kernel-Mode Driver Architecture], k104_f99c2826-04ed-4aa6-9f19-6f97953eda31.xml, kernel.ioregistercontainernotification, wdm/IoRegisterContainerNotification
 ms.topic: function
 req.header: wdm.h
@@ -164,7 +164,7 @@ The operating system has insufficient resources to create the requested registra
 
 
 
-This routine can potentially support notifications of events in a variety of event classes. In Windows 7, this routine supports only <b>IoSessionStateNotification</b> notifications, which notify a kernel-mode driver of changes in the status of user sessions that the driver is interested in. For user-mode applications, the <a href="http://go.microsoft.com/fwlink/p/?linkid=155043">WTSRegisterSessionNotification</a> function fills a similar role.
+This routine can potentially support notifications of events in a variety of event classes. In Windows 7, this routine supports only <b>IoSessionStateNotification</b> notifications, which notify a kernel-mode driver of changes in the status of user sessions that the driver is interested in. For user-mode applications, the <a href="https://go.microsoft.com/fwlink/p/?linkid=155043">WTSRegisterSessionNotification</a> function fills a similar role.
 
 The function pointer type for the <i>CallbackFunction</i> parameter is defined as follows:
 
@@ -206,7 +206,7 @@ The caller should cast the callback function pointer to this type to match the <
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=155043">WTSRegisterSessionNotification</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=155043">WTSRegisterSessionNotification</a>
  
 
  

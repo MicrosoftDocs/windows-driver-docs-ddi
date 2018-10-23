@@ -6,7 +6,7 @@ description: RxCeSend sends a transport service data unit (TSDU) along the speci
 old-location: ifsk\rxcesend.htm
 tech.root: ifsk
 ms.assetid: bf1b9c63-6fc2-4006-8f9a-d4b50d61d270
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxCeSend, RxCeSend function [Installable File System Drivers], ifsk.rxcesend, rxce/RxCeSend, rxref_07c5b21c-253c-4032-a5e8-61c4e71450fb.xml
 ms.topic: function
 req.header: rxce.h

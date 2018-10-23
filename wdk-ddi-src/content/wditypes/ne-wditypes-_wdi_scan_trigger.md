@@ -6,7 +6,7 @@ description: The WDI_SCAN_TRIGGER enumeration defines the scan trigger values.
 old-location: netvista\wdi_scan_trigger.htm
 tech.root: netvista
 ms.assetid: 3E201A6D-3A5B-4A6B-8AED-258A96BBF869
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: WDI_SCAN_TRIGGER, WDI_SCAN_TRIGGER enumeration [Device and Driver Installation], WDI_SCAN_TRIGGER_ANQP_QUERY, WDI_SCAN_TRIGGER_BACKGROUND, WDI_SCAN_TRIGGER_CONNECT, WDI_SCAN_TRIGGER_FAST_ROAM, WDI_SCAN_TRIGGER_MANUAL, WDI_SCAN_TRIGGER_ROAM, _WDI_SCAN_TRIGGER, netvista.wdi_scan_trigger, netvista.wifi_scan_trigger, wditypes/WDI_SCAN_TRIGGER, wditypes/WDI_SCAN_TRIGGER_ANQP_QUERY, wditypes/WDI_SCAN_TRIGGER_BACKGROUND, wditypes/WDI_SCAN_TRIGGER_CONNECT, wditypes/WDI_SCAN_TRIGGER_FAST_ROAM, wditypes/WDI_SCAN_TRIGGER_MANUAL, wditypes/WDI_SCAN_TRIGGER_ROAM
 ms.topic: enum
 req.header: wditypes.hpp

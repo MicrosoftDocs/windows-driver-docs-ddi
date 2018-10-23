@@ -6,7 +6,7 @@ description: Checks if the SKU for the current context supports multiple session
 old-location: kernel\rtlisstateseparationenabled.htm
 tech.root: kernel
 ms.assetid: 7c28a82c-e039-4045-94cd-b47a45d15e28
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlIsStateSeparationEnabled, RtlIsStateSeparationEnabled function [Kernel-Mode Driver Architecture], kernel.rtlisstateseparationenabled, ntddk/RtlIsStateSeparationEnabled
 ms.topic: function
 req.header: ntddk.h

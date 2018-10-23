@@ -6,7 +6,7 @@ description: The PsSetCreateProcessNotifyRoutineEx2 routine registers or removes
 old-location: kernel\pssetcreateprocessnotifyroutineex2.htm
 tech.root: kernel
 ms.assetid: 25B053C1-E3A3-4002-9355-F3EEA8FECB44
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PsSetCreateProcessNotifyRoutineEx2, PsSetCreateProcessNotifyRoutineEx2 routine [Kernel-Mode Driver Architecture], kernel.pssetcreateprocessnotifyroutineex2, ntddk/PsSetCreateProcessNotifyRoutineEx2
 ms.topic: function
 req.header: ntddk.h

@@ -6,7 +6,7 @@ description: Describes the exception of the last event.
 old-location: debugger\debug_last_event_info_exception.htm
 tech.root: debugger
 ms.assetid: FB4EBA71-5144-440A-AFD1-7460903C9189
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: "*PDEBUG_LAST_EVENT_INFO_EXCEPTION, DEBUG_LAST_EVENT_INFO_EXCEPTION, DEBUG_LAST_EVENT_INFO_EXCEPTION structure [Windows Debugging], PDEBUG_LAST_EVENT_INFO_EXCEPTION, PDEBUG_LAST_EVENT_INFO_EXCEPTION structure pointer [Windows Debugging], _DEBUG_LAST_EVENT_INFO_EXCEPTION, dbgeng/DEBUG_LAST_EVENT_INFO_EXCEPTION, dbgeng/PDEBUG_LAST_EVENT_INFO_EXCEPTION, debugger.debug_last_event_info_exception"
 ms.topic: struct
 req.header: dbgeng.h

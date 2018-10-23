@@ -6,7 +6,7 @@ description: The FwpsAleEndpointDestroyEnumHandle0 function destroys an endpoint
 old-location: netvista\fwpsaleendpointdestroyenumhandle0.htm
 tech.root: netvista
 ms.assetid: 45ec429e-d324-40c9-bedc-acd75ccb160e
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FwpsAleEndpointDestroyEnumHandle0, FwpsAleEndpointDestroyEnumHandle0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAleEndpointDestroyEnumHandle0, netvista.fwpsaleendpointdestroyenumhandle0, wfp_ref_2_funct_3_fwps_A-B_3230abaf-8185-43b4-b46f-b1c1688ede2d.xml
 ms.topic: function
 req.header: fwpsk.h

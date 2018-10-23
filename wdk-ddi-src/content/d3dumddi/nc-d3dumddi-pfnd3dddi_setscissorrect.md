@@ -6,7 +6,7 @@ description: The SetScissorRect function marks a portion of a render target that
 old-location: display\setscissorrect.htm
 tech.root: display
 ms.assetid: 779fd7ff-e4d6-45b4-8164-186e9cb89513
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETSCISSORRECT, PFND3DDDI_SETSCISSORRECT callback, SetScissorRect, SetScissorRect callback function [Display Devices], UserModeDisplayDriver_Functions_bd6b8a3d-d007-4272-9d43-f65c5da3959a.xml, d3dumddi/SetScissorRect, display.setscissorrect
 ms.topic: callback
 req.header: d3dumddi.h

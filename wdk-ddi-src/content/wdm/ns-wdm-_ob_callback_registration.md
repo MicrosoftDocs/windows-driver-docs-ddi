@@ -6,7 +6,7 @@ description: The OB_CALLBACK_REGISTRATION structure specifies the parameters whe
 old-location: kernel\ob_callback_registration.htm
 tech.root: kernel
 ms.assetid: e288b050-0875-4c9b-aa72-47845861755a
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*POB_CALLBACK_REGISTRATION, OB_CALLBACK_REGISTRATION, OB_CALLBACK_REGISTRATION structure [Kernel-Mode Driver Architecture], POB_CALLBACK_REGISTRATION, POB_CALLBACK_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], _OB_CALLBACK_REGISTRATION, kernel.ob_callback_registration, kstruct_c_8357a6f5-881d-4840-a530-454383ba3ddd.xml, wdm/OB_CALLBACK_REGISTRATION, wdm/POB_CALLBACK_REGISTRATION"
 ms.topic: struct
 req.header: wdm.h

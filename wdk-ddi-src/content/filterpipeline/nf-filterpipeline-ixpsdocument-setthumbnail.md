@@ -6,7 +6,7 @@ description: The SetThumbnail method removes the current thumbnail object from t
 old-location: print\ixpsdocument_setthumbnail.htm
 tech.root: print
 ms.assetid: 47211c8f-e112-47fd-bd9e-57ff7ec586a5
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IXpsDocument interface [Print Devices],SetThumbnail method, IXpsDocument.SetThumbnail, IXpsDocument::SetThumbnail, SetThumbnail, SetThumbnail method [Print Devices], SetThumbnail method [Print Devices],IXpsDocument interface, filterpipeline/IXpsDocument::SetThumbnail, filterpipeline_ee7609e5-4e6f-4619-aa3f-dfa217d5eabc.xml, print.ixpsdocument_setthumbnail
 ms.topic: method
 req.header: filterpipeline.h

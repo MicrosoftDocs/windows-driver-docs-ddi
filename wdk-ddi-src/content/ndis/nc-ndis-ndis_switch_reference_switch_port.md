@@ -6,7 +6,7 @@ description: The ReferenceSwitchPort function increments the Hyper-V extensible 
 old-location: netvista\ReferenceSwitchPort.htm
 tech.root: netvista
 ms.assetid: 5FD2E931-AC9F-4157-9C45-F93261FC834D
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDIS_SWITCH_REFERENCE_SWITCH_PORT, NDIS_SWITCH_REFERENCE_SWITCH_PORT callback, ReferenceSwitchPort, ReferenceSwitchPort callback function [Network Drivers Starting with Windows Vista], ndis/ReferenceSwitchPort, netvista.ReferenceSwitchPort
 ms.topic: callback
 req.header: ndis.h

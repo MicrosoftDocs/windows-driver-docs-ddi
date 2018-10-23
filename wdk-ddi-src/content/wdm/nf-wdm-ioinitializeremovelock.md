@@ -6,7 +6,7 @@ description: The IoInitializeRemoveLock routine initializes a remove lock for a 
 old-location: kernel\ioinitializeremovelock.htm
 tech.root: kernel
 ms.assetid: d85bab78-0e9e-4e71-a09b-40954df81c87
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoInitializeRemoveLock, IoInitializeRemoveLock routine [Kernel-Mode Driver Architecture], k104_b9b844b1-4bb4-4a52-8274-c5a3441f6267.xml, kernel.ioinitializeremovelock, wdm/IoInitializeRemoveLock
 ms.topic: macro
 req.header: wdm.h

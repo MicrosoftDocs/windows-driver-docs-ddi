@@ -6,7 +6,7 @@ description: The TmPrePrepareComplete routine notifies KTM that the calling reso
 old-location: kernel\tmprepreparecomplete.htm
 tech.root: kernel
 ms.assetid: 2152e174-c02e-425c-a969-83656052078b
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: TmPrePrepareComplete, TmPrePrepareComplete routine [Kernel-Mode Driver Architecture], kernel.tmprepreparecomplete, ktm_ref_8ea6e6df-93c0-4b25-9bfe-3d53fbe1793f.xml, wdm/TmPrePrepareComplete
 ms.topic: function
 req.header: wdm.h

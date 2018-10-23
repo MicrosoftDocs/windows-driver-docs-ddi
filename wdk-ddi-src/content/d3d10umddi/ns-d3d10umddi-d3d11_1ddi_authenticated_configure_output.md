@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Contains output data for the ConfigureAuthenticatedChannel(D3D11_1) function.
 old-location: display\d3d11_1ddi_authenticated_configure_output.htm
 ms.assetid: 074e87c9-b57e-48ea-8613-2fe1a70cd9e4
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_GUID, D3D11_1DDI_AUTHENTICATED_CONFIGURE_ENCRYPTION_WHEN_ACCESSIBLE_GUID, D3D11_1DDI_AUTHENTICATED_CONFIGURE_INITIALIZE_GUID, D3D11_1DDI_AUTHENTICATED_CONFIGURE_OUTPUT, D3D11_1DDI_AUTHENTICATED_CONFIGURE_OUTPUT structure [Display Devices], D3D11_1DDI_AUTHENTICATED_CONFIGURE_PROTECTION_GUID, D3D11_1DDI_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_GUID, d3d10umddi/D3D11_1DDI_AUTHENTICATED_CONFIGURE_OUTPUT, display.d3d11_1ddi_authenticated_configure_output
 ms.topic: struct
 req.header: d3d10umddi.h

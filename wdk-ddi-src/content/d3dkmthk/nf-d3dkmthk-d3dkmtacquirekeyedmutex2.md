@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Acquires a keyed mutex object that includes private data.
 old-location: display\d3dkmtacquirekeyedmutex2.htm
 ms.assetid: 94ebfeb6-2035-4dd6-bbc9-ba82939b51ec
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTAcquireKeyedMutex2, D3DKMTAcquireKeyedMutex2 callback function [Display Devices], PFND3DKMT_ACQUIREKEYEDMUTEX2, PFND3DKMT_ACQUIREKEYEDMUTEX2 callback, d3dkmthk/D3DKMTAcquireKeyedMutex2, display.d3dkmtacquirekeyedmutex2
 ms.topic: function
 req.header: d3dkmthk.h

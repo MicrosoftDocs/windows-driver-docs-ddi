@@ -6,7 +6,7 @@ description: The EvtDeviceWdmPostPoFxRegisterDevice callback function performs d
 old-location: wdf\evtdevicewdmpostpofxregisterdevice.htm
 tech.root: wdf
 ms.assetid: 4CE227F5-9ED4-4484-AFBF-44D1260EB99D
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE, EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE callback, EvtDeviceWdmPostPoFxRegisterDevice, EvtDeviceWdmPostPoFxRegisterDevice callback function, kmdf.evtdevicewdmpostpofxregisterdevice, wdf.evtdevicewdmpostpofxregisterdevice, wdfdevice/EvtDeviceWdmPostPoFxRegisterDevice
 ms.topic: callback
 req.header: wdfdevice.h

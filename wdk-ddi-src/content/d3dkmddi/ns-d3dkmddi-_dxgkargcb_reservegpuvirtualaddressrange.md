@@ -5,7 +5,7 @@ author: windows-driver-content
 description: DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE is used with the DxgkCbReserveGpuVirtualAddressRangedevice driver interface (DDI) to allow the kernel mode driver to reserve a graphics processing unit (GPU) virtual address range during creation of a process.
 old-location: display\dxgkargcb_reservegpuvirtualaddressrange.htm
 ms.assetid: D555E595-4319-4FCC-84A7-52FA3F278FFD
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE, DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE structure [Display Devices], _DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE, *INOUT_PDXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE, d3dkmddi/DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE, display.dxgkargcb_reservegpuvirtualaddressrange
 ms.topic: struct
 req.header: d3dkmddi.h

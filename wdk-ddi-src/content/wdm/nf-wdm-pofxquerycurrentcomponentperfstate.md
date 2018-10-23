@@ -6,7 +6,7 @@ description: The PoFxQueryCurrentComponentPerfState routine retrieves the active
 old-location: kernel\pofxquerycurrentcomponentperfstate.htm
 tech.root: kernel
 ms.assetid: DFB59020-1F4A-4ABB-8BBE-85F9C8615249
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PoFxQueryCurrentComponentPerfState, PoFxQueryCurrentComponentPerfState routine [Kernel-Mode Driver Architecture], kernel.pofxquerycurrentcomponentperfstate, wdm/PoFxQueryCurrentComponentPerfState
 ms.topic: function
 req.header: wdm.h

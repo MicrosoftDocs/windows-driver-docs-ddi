@@ -6,7 +6,7 @@ description: The KsGetNodeIdFromIrp function returns the node ID of the node to 
 old-location: stream\ksgetnodeidfromirp.htm
 tech.root: stream
 ms.assetid: 3bb115eb-074d-4983-97e4-fa38aaa8a81b
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsGetNodeIdFromIrp, KsGetNodeIdFromIrp function [Streaming Media Devices], avfunc_dbc2812f-8011-40e6-8847-f7c3fc35b4b5.xml, ks/KsGetNodeIdFromIrp, stream.ksgetnodeidfromirp
 ms.topic: function
 req.header: ks.h

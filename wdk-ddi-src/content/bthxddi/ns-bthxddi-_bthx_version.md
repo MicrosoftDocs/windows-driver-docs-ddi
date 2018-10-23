@@ -6,7 +6,7 @@ description: The BTHX_VERSION structure describes the version or versions that t
 old-location: bltooth\bthx_version.htm
 tech.root: bltooth
 ms.assetid: 2C5CC5B1-52F1-4DF5-9397-E8FD4983BA25
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: "*PBTHX_VERSION, BTHX_VERSION, BTHX_VERSION structure [Bluetooth Devices], _BTHX_VERSION, bltooth.bthx_version, bthxddi/_BTHX_VERSION"
 ms.topic: struct
 req.header: bthxddi.h

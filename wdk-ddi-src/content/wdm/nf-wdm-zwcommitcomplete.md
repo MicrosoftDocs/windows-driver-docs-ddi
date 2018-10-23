@@ -6,7 +6,7 @@ description: The ZwCommitComplete routine notifies KTM that the calling resource
 old-location: kernel\zwcommitcomplete.htm
 tech.root: kernel
 ms.assetid: d0b968bc-bbab-4b6f-bb1f-9e36ac7c1e05
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtCommitComplete, ZwCommitComplete, ZwCommitComplete routine [Kernel-Mode Driver Architecture], kernel.zwcommitcomplete, ktm_ref_1bcef47a-0767-4bfe-944c-f88a5ecff0e6.xml, wdm/NtCommitComplete, wdm/ZwCommitComplete
 ms.topic: function
 req.header: wdm.h

@@ -6,7 +6,7 @@ description: NdisCmAddPartyComplete returns the final status of a client's reque
 old-location: netvista\ndiscmaddpartycomplete.htm
 tech.root: netvista
 ms.assetid: 00833038-1fff-4103-9508-07cb8cbfa846
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisCmAddPartyComplete, NdisCmAddPartyComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_5a60a49b-5bca-48b4-9659-af4e8bdfd032.xml, ndis/NdisCmAddPartyComplete, netvista.ndiscmaddpartycomplete
 ms.topic: function
 req.header: ndis.h

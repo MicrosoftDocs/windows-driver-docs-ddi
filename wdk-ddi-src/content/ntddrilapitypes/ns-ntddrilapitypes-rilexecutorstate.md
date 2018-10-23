@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilexecutorstate.htm
 tech.root: netvista
 ms.assetid: 3d820c24-6f07-4ba2-b2e3-f3c799c6a1ef
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILEXECUTORSTATE, RILEXECUTORSTATE, RILEXECUTORSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilexecutorstate, ntddrilapitypes/RILEXECUTORSTATE"
 ms.topic: struct
 req.header: ntddrilapitypes.h

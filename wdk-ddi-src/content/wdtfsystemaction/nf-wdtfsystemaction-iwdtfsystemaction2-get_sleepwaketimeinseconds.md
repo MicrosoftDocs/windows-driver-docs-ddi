@@ -6,7 +6,7 @@ description: Gets or sets the time in seconds when the system will wake from the
 old-location: dtf\iwdtfsystemaction2_sleepwaketimeinseconds.htm
 tech.root: dtf
 ms.assetid: 90b9742d-966b-4502-92ec-670c663d9a76
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFSystemAction2 interface [Windows Device Testing Framework],SleepWakeTimeInSeconds property, IWDTFSystemAction2.SleepWakeTimeInSeconds, IWDTFSystemAction2.get_SleepWakeTimeInSeconds, IWDTFSystemAction2::SleepWakeTimeInSeconds, IWDTFSystemAction2::get_SleepWakeTimeInSeconds, IWDTFSystemAction2::put_SleepWakeTimeInSeconds, Microsoft.WDTF.IWDTFSystemAction2.SleepWakeTimeInSeconds, Microsoft::WDTF::IWDTFSystemAction2::SleepWakeTimeInSeconds, SleepWakeTimeInSeconds property [Windows Device Testing Framework], SleepWakeTimeInSeconds property [Windows Device Testing Framework],IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_sleepwaketimeinseconds, get_SleepWakeTimeInSeconds, wdtfsystemaction/IWDTFSystemAction2::SleepWakeTimeInSeconds, wdtfsystemaction/IWDTFSystemAction2::get_SleepWakeTimeInSeconds, wdtfsystemaction/IWDTFSystemAction2::put_SleepWakeTimeInSeconds
 ms.topic: method
 req.header: wdtfsystemaction.h

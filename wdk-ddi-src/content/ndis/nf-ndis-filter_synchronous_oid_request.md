@@ -6,7 +6,7 @@ description: NDIS calls a filter driver's FilterSynchronousOidRequest function t
 old-location: netvista\filter_synchronous_oid_request.htm
 tech.root: netvista
 ms.assetid: AC84B27B-6FBF-429D-A8FA-F3C8F583F738
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FILTER_SYNCHRONOUS_OID_REQUEST, FilterSynchronousOidRequest, FilterSynchronousOidRequest function [Network Drivers Starting with Windows Vista], ndis/FilterSynchronousOidRequest, netvista.filter_synchronous_oid_request
 ms.topic: function
 req.header: ndis.h

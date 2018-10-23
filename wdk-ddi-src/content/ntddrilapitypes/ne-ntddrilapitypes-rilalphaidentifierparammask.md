@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilalphaidentifierparammask.htm
 tech.root: netvista
 ms.assetid: 33f51fb2-3308-4e24-925a-b17e117b18b6
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILALPHAIDENTIFIERPARAMMASK, RILALPHAIDENTIFIERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_AI_ALL, RIL_PARAM_AI_REASON, netvista.rilalphaidentifierparammask, ntddrilapitypes/RILALPHAIDENTIFIERPARAMMASK, ntddrilapitypes/RIL_PARAM_AI_ALL, ntddrilapitypes/RIL_PARAM_AI_REASON
 ms.topic: enum
 req.header: ntddrilapitypes.h

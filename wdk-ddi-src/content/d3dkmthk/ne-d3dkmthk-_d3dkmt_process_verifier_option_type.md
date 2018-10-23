@@ -4,7 +4,7 @@ title: _D3DKMT_PROCESS_VERIFIER_OPTION_TYPE
 author: windows-driver-content
 description: Process verifier option types.
 ms.assetid: 9022f398-6fa1-4bc1-a754-7d735f6b0944
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DKMT_PROCESS_VERIFIER_OPTION_TYPE, D3DKMT_PROCESS_VERIFIER_OPTION_TYPE, 
 req.header: d3dkmthk.h

@@ -6,7 +6,7 @@ description: Called by the user-mode display driver to report the statistics of 
 old-location: display\reportstatistic.htm
 tech.root: display
 ms.assetid: 13e1afa2-5552-468f-ac6b-3458dedd9b76
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFN_REPORT_STATISTIC, PFN_REPORT_STATISTIC callback, ReportStatistic, ReportStatistic callback function [Display Devices], display.reportstatistic, netdispumdddi/ReportStatistic
 ms.topic: callback
 req.header: netdispumdddi.h

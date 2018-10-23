@@ -6,7 +6,7 @@ description: The IoSetDeviceInterfaceState routine enables or disables an instan
 old-location: kernel\iosetdeviceinterfacestate.htm
 tech.root: kernel
 ms.assetid: 071b5f2a-7129-4de5-9577-f2aa22f23765
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoSetDeviceInterfaceState, IoSetDeviceInterfaceState routine [Kernel-Mode Driver Architecture], k104_da5493d0-6dd5-4404-a647-6c23825df29c.xml, kernel.iosetdeviceinterfacestate, wdm/IoSetDeviceInterfaceState
 ms.topic: function
 req.header: wdm.h

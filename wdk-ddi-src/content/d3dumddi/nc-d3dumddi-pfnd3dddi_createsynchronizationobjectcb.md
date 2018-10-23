@@ -6,7 +6,7 @@ description: The pfnCreateSynchronizationObjectCb function creates a synchroniza
 old-location: display\pfncreatesynchronizationobjectcb.htm
 tech.root: display
 ms.assetid: 1b87d3cc-685a-4768-b4fd-dbe0a0cbec37
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_6c4f40ee-12b2-47a8-bbec-8591b730bef5.xml, PFND3DDDI_CREATESYNCHRONIZATIONOBJECTCB, PFND3DDDI_CREATESYNCHRONIZATIONOBJECTCB callback, d3dumddi/pfnCreateSynchronizationObjectCb, display.pfncreatesynchronizationobjectcb, pfnCreateSynchronizationObjectCb, pfnCreateSynchronizationObjectCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h

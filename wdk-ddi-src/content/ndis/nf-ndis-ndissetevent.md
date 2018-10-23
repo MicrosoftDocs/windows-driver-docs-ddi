@@ -6,7 +6,7 @@ description: The NdisSetEvent function sets a given event to the signaled state 
 old-location: netvista\ndissetevent.htm
 tech.root: netvista
 ms.assetid: 3f45b8d0-2d5b-4601-a307-48257cdcb4ba
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisSetEvent, NdisSetEvent function [Network Drivers Starting with Windows Vista], ndis/NdisSetEvent, ndis_event_ref_3abf6ebc-6dcf-4b3e-8e39-2902b9b00adf.xml, netvista.ndissetevent
 ms.topic: function
 req.header: ndis.h

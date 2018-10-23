@@ -6,7 +6,7 @@ description: Retrieves the status of an allocator.
 old-location: stream\iksallocator_ksgetallocatorstatus.htm
 tech.root: stream
 ms.assetid: 139F4465-1228-4603-B92F-4CB73E1A6DC0
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IKsAllocator interface [Streaming Media Devices],KsGetAllocatorStatus method, IKsAllocator.KsGetAllocatorStatus, IKsAllocator::KsGetAllocatorStatus, KsGetAllocatorStatus, KsGetAllocatorStatus method [Streaming Media Devices], KsGetAllocatorStatus method [Streaming Media Devices],IKsAllocator interface, ksproxy/IKsAllocator::KsGetAllocatorStatus, stream.iksallocator_ksgetallocatorstatus
 ms.topic: method
 req.header: ksproxy.h

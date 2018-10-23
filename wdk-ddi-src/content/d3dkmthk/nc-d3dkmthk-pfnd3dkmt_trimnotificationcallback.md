@@ -4,7 +4,7 @@ title: PFND3DKMT_TRIMNOTIFICATIONCALLBACK
 author: windows-driver-content
 description: Trim notification.
 ms.assetid: cc23539a-b74d-40d5-b03a-6d1f0b70b71c
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

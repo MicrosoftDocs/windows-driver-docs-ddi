@@ -6,7 +6,7 @@ description: The REG_POST_OPERATION_INFORMATION structure contains information a
 old-location: kernel\reg_post_operation_information.htm
 tech.root: kernel
 ms.assetid: 2266e816-2060-4071-bf9f-319daefbfc50
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PREG_POST_OPERATION_INFORMATION, PREG_POST_OPERATION_INFORMATION, PREG_POST_OPERATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_POST_OPERATION_INFORMATION, REG_POST_OPERATION_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_POST_OPERATION_INFORMATION, kernel.reg_post_operation_information, kstruct_d_70ca0f06-65d5-4b1b-ab66-cc44361d4e5a.xml, wdm/PREG_POST_OPERATION_INFORMATION, wdm/REG_POST_OPERATION_INFORMATION"
 ms.topic: struct
 req.header: wdm.h
@@ -57,7 +57,7 @@ The <b>REG_POST_OPERATION_INFORMATION</b> structure contains information about a
 
 ### -field Object
 
-A pointer to the registry key object for which the operation has completed. This member is valid only if the Status member of the structure is set to STATUS_SUCCESS. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=613134">Invalid Key Object Pointers in Registry Notifications</a>.
+A pointer to the registry key object for which the operation has completed. This member is valid only if the Status member of the structure is set to STATUS_SUCCESS. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=613134">Invalid Key Object Pointers in Registry Notifications</a>.
 
 
 ### -field Status

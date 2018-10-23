@@ -6,7 +6,7 @@ description: The WDF_READ_REGISTER_BUFFER_USHORT function reads a number of USHO
 old-location: wdf\wdf_read_register_buffer_ushort.htm
 tech.root: wdf
 ms.assetid: BA47B3D0-9515-40C6-B23D-A2D9FC993FB3
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WDF_READ_REGISTER_BUFFER_USHORT, WDF_READ_REGISTER_BUFFER_USHORT function, wdf.wdf_read_register_buffer_ushort, wdfhwaccess/WDF_READ_REGISTER_BUFFER_USHORT
 ms.topic: function
 req.header: wdfhwaccess.h

@@ -6,7 +6,7 @@ description: The EVT_POS_CX_DEVICE_REMOTE_RELEASE callback is called whenever th
 old-location: pos\evt_pos_cx_device_remote_release.htm
 tech.root: pos
 ms.assetid: F6D60B8C-488A-4A3F-85AE-40A10BF2DC9F
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: EVT_POS_CX_DEVICE_REMOTE_RELEASE, EVT_POS_CX_DEVICE_REMOTE_RELEASE callback, EvtPosCxDeviceRemoteRelease, EvtPosCxDeviceRemoteRelease callback function, pos.evt_pos_cx_device_remote_release, poscx/EvtPosCxDeviceRemoteRelease
 ms.topic: callback
 req.header: poscx.h

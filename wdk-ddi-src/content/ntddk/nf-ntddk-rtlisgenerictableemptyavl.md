@@ -6,7 +6,7 @@ description: The RtlIsGenericTableEmptyAvl routine determines if a generic table
 old-location: ifsk\rtlisgenerictableemptyavl.htm
 tech.root: ifsk
 ms.assetid: 9190DA2F-5530-4427-862F-00434DD9C950
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlIsGenericTableEmptyAvl, RtlIsGenericTableEmptyAvl routine [Installable File System Drivers], ifsk.rtlisgenerictableemptyavl, ntddk/RtlIsGenericTableEmptyAvl
 ms.topic: function
 req.header: ntddk.h

@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\riluicclockcredential.htm
 tech.root: netvista
 ms.assetid: 4ca8411e-2492-4832-881c-5fdb974485fc
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILUICCLOCKCREDENTIAL, RILUICCLOCKCREDENTIAL, RILUICCLOCKCREDENTIAL structure [Network Drivers Starting with Windows Vista], netvista.riluicclockcredential, ntddrilapitypes/RILUICCLOCKCREDENTIAL"
 ms.topic: struct
 req.header: rilapitypes.h

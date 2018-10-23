@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Contains the mutable runtime state of a specific instance of a UART device.
 tech.root: serports
 ms.assetid: f82a2ac1-ed30-4e75-ad87-54275a36130b
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _CPPORT, CPPORT, *PCPPORT,
 req.header: uart.h

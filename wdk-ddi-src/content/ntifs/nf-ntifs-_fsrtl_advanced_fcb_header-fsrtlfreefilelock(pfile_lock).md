@@ -6,7 +6,7 @@ description: The FsRtlFreeFileLock routine uninitializes and frees a file lock s
 old-location: ifsk\fsrtlfreefilelock.htm
 tech.root: ifsk
 ms.assetid: 191a7964-4359-4b7f-8760-74f537b0737f
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: FsRtlFreeFileLock, FsRtlFreeFileLock routine [Installable File System Drivers], fsrtlref_112afa00-3370-4671-ad22-0743f8dd1c52.xml, ifsk.fsrtlfreefilelock, ntifs/FsRtlFreeFileLock
 ms.topic: function
 req.header: ntifs.h

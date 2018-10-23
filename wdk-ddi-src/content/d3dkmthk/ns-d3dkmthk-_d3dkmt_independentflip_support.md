@@ -4,7 +4,7 @@ title: _D3DKMT_INDEPENDENTFLIP_SUPPORT
 author: windows-driver-content
 description: Used to indicate whether independent flip is supported.
 ms.assetid: fc5bb0c3-3461-4a2b-9af3-0dbaf1f85048
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_INDEPENDENTFLIP_SUPPORT, D3DKMT_INDEPENDENTFLIP_SUPPORT, 
 req.header: d3dkmthk.h

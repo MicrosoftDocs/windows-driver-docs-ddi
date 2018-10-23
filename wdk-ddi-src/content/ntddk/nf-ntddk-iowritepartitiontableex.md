@@ -6,7 +6,7 @@ description: The IoWritePartitionTableEx routine writes partition tables from th
 old-location: storage\iowritepartitiontableex.htm
 tech.root: storage
 ms.assetid: b49ea2db-bb1e-4293-bfac-cbb3e62bca91
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IoWritePartitionTableEx, IoWritePartitionTableEx routine [Storage Devices], ntddk/IoWritePartitionTableEx, rtns-disk_b84c8b07-5cdc-4e39-964f-a8f6b28e7346.xml, storage.iowritepartitiontableex
 ms.topic: function
 req.header: ntddk.h

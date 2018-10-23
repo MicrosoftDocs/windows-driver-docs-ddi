@@ -6,7 +6,7 @@ description: The SpbRequestGetController method returns the WDFDEVICE handle to 
 old-location: spb\spbrequestgetcontroller.htm
 tech.root: SPB
 ms.assetid: 0CD692E2-B2D6-4786-8C0B-C0DCAFCF6259
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: SPB.spbrequestgetcontroller, SpbRequestGetController, SpbRequestGetController method [Buses], spbcx/SpbRequestGetController
 ms.topic: function
 req.header: spbcx.h

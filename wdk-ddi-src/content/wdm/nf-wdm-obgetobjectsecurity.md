@@ -6,7 +6,7 @@ description: The ObGetObjectSecurity routine gets the security descriptor for a 
 old-location: kernel\obgetobjectsecurity.htm
 tech.root: kernel
 ms.assetid: 8ac8d3ff-68ec-4e23-bbf9-0a9b7fa13ce3
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ObGetObjectSecurity, ObGetObjectSecurity routine [Kernel-Mode Driver Architecture], k107_a0c800de-984a-427f-b308-415f831e5d34.xml, kernel.obgetobjectsecurity, wdm/ObGetObjectSecurity
 ms.topic: function
 req.header: wdm.h

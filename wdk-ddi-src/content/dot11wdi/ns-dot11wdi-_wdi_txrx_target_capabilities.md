@@ -6,7 +6,7 @@ description: The WDI_TXRX_CAPABILITIES structure defines the target capabilities
 old-location: netvista\wdi_txrx_capabilities.htm
 tech.root: netvista
 ms.assetid: 7a1d3ffd-6f5e-429d-8c2f-a141f98ccad8
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWDI_TXRX_CAPABILITIES, PWDI_TXRX_CAPABILITIES, PWDI_TXRX_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], WDI_TXRX_CAPABILITIES, WDI_TXRX_CAPABILITIES structure [Network Drivers Starting with Windows Vista], _WDI_TXRX_TARGET_CAPABILITIES, dot11wdi/PWDI_TXRX_CAPABILITIES, dot11wdi/WDI_TXRX_TARGET_CAPABILITIES, netvista.wdi_txrx_capabilities, netvista.wdi_txrx_target_capabilities, netvista.wifi_txrx_target_capabilities"
 ms.topic: struct
 req.header: dot11wdi.h

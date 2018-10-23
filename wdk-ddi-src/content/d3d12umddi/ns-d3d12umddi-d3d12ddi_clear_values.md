@@ -4,7 +4,7 @@ title: D3D12DDI_CLEAR_VALUES
 author: windows-driver-content
 description: The D3D12DDI_CLEAR_VALUES structure contains values used to optimize clear operations for a particular resource.
 ms.assetid: 25db923b-e26c-44ef-adef-a619df1ac0ef
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDI_CLEAR_VALUES, D3D12DDI_CLEAR_VALUES, 
 req.header: d3d12umddi.h

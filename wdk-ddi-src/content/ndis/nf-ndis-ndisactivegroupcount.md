@@ -6,7 +6,7 @@ description: The NdisActiveGroupCount function returns the number of processor g
 old-location: netvista\ndisactivegroupcount.htm
 tech.root: netvista
 ms.assetid: f9dbeede-b4f2-4748-8a95-692f09ded787
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisActiveGroupCount, NdisActiveGroupCount function [Network Drivers Starting with Windows Vista], ndis/NdisActiveGroupCount, ndis_processor_group_ref_e0e7bb9b-d6fd-4a31-9793-f21c4b36841d.xml, netvista.ndisactivegroupcount
 ms.topic: function
 req.header: ndis.h

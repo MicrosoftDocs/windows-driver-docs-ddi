@@ -6,7 +6,7 @@ description: The WdfFileObjectGetRelatedFileObject method retrieves the related 
 old-location: wdf\wdffileobjectgetrelatedfileobject.htm
 tech.root: wdf
 ms.assetid: EB00FF6B-144B-4256-A362-D593FD4CFC98
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfFileObjectGetRelatedFileObject, WdfFileObjectGetRelatedFileObject method, wdf.wdffileobjectgetrelatedfileobject, wdffileobject/WdfFileObjectGetRelatedFileObject
 ms.topic: function
 req.header: wdffileobject.h

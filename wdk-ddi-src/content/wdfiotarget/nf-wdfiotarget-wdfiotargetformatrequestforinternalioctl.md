@@ -6,7 +6,7 @@ description: The WdfIoTargetFormatRequestForInternalIoctl method builds an inter
 old-location: wdf\wdfiotargetformatrequestforinternalioctl.htm
 tech.root: wdf
 ms.assetid: 201ba120-9f64-4b69-87f0-a368b2e0344d
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_be699aa7-773f-4395-9328-4c4d595c3aba.xml, WdfIoTargetFormatRequestForInternalIoctl, WdfIoTargetFormatRequestForInternalIoctl method, kmdf.wdfiotargetformatrequestforinternalioctl, wdf.wdfiotargetformatrequestforinternalioctl, wdfiotarget/WdfIoTargetFormatRequestForInternalIoctl
 ms.topic: function
 req.header: wdfiotarget.h

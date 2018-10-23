@@ -6,7 +6,7 @@ description: The RtlDowncaseUnicodeChar routine converts the specified Unicode c
 old-location: kernel\rtldowncaseunicodechar.htm
 tech.root: kernel
 ms.assetid: 1377a069-5065-4305-a48c-7a84f0071fc3
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlDowncaseUnicodeChar, RtlDowncaseUnicodeChar routine [Kernel-Mode Driver Architecture], k109_e9ba1cee-5de9-4f8f-b964-6668ddef36b7.xml, kernel.rtldowncaseunicodechar, wdm/RtlDowncaseUnicodeChar
 ms.topic: function
 req.header: wdm.h

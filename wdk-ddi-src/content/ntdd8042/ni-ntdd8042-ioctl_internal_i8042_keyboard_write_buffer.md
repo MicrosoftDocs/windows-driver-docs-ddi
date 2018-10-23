@@ -6,7 +6,7 @@ description: The IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER request writes data 
 old-location: hid\ioctl_internal_i8042_keyboard_write_buffer.htm
 tech.root: hid
 ms.assetid: 583263fc-8b95-47d9-9f20-306b2200b573
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER, IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER control, IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER control code [Human Input Devices], hid.ioctl_internal_i8042_keyboard_write_buffer, i8042ref_a981431f-38cd-4cc4-899e-a79799da0e01.xml, ntdd8042/IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER
 ms.topic: ioctl
 req.header: ntdd8042.h

@@ -6,7 +6,7 @@ description: Defines context information about an event.
 old-location: debugger\debug_event_context.htm
 tech.root: debugger
 ms.assetid: 3748675F-8187-4072-A0D0-3764B4D20288
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: "*PDEBUG_EVENT_CONTEXT, DEBUG_EVENT_CONTEXT, DEBUG_EVENT_CONTEXT structure [Windows Debugging], PDEBUG_EVENT_CONTEXT, PDEBUG_EVENT_CONTEXT structure pointer [Windows Debugging], _DEBUG_EVENT_CONTEXT, dbgeng/DEBUG_EVENT_CONTEXT, dbgeng/PDEBUG_EVENT_CONTEXT, debugger.debug_event_context"
 ms.topic: struct
 req.header: dbgeng.h

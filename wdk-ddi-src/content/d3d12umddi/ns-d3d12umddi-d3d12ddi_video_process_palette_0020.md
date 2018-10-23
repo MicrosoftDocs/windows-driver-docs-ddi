@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Specifies whether the palette is enabled and an array of palette entries.
 old-location: display\d3d12ddi_video_process_palette.htm
 ms.assetid: 25AA9012-64A1-4E61-956F-7F30CE0639EA
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESS_PALETTE_0020, D3D12DDI_VIDEO_PROCESS_PALETTE_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_PALETTE_0020, display.d3d12ddi_video_process_palette
 ms.topic: struct
 req.header: d3d12umddi.h

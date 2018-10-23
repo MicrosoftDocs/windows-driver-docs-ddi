@@ -6,7 +6,7 @@ description: The KS_MPEG1VIDEOINFO structure describes an MPEG-1 video stream.
 old-location: stream\ks_mpeg1videoinfo.htm
 tech.root: stream
 ms.assetid: 301b954a-4e50-4a04-a575-17d7d54fa691
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKS_MPEG1VIDEOINFO, KS_MPEG1VIDEOINFO, KS_MPEG1VIDEOINFO structure [Streaming Media Devices], PKS_MPEG1VIDEOINFO, PKS_MPEG1VIDEOINFO structure pointer [Streaming Media Devices], ksmedia/KS_MPEG1VIDEOINFO, ksmedia/PKS_MPEG1VIDEOINFO, stream.ks_mpeg1videoinfo, tagKS_MPEG1VIDEOINFO, vidcapstruct_5c9e7f76-f279-49fb-9ad8-f23b7741d685.xml"
 ms.topic: struct
 req.header: ksmedia.h

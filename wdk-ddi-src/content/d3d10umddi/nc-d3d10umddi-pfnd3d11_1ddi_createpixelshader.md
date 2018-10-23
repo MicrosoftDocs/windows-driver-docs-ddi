@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Converts pixel shader code into a hardware-specific format and associates this code with a shader handle.
 old-location: display\createpixelshader_d3d11_1_.htm
 ms.assetid: 8b5d6d2e-6a08-4841-8df5-ca88368a4e26
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreatePixelShader(D3D11_1), CreatePixelShader(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CREATEPIXELSHADER, PFND3D11_1DDI_CREATEPIXELSHADER callback, d3d10umddi/CreatePixelShader(D3D11_1), display.createpixelshader_d3d11_1_, display.pfncreatepixelshader
 ms.topic: callback
 req.header: d3d10umddi.h

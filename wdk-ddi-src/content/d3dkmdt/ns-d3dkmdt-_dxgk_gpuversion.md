@@ -4,7 +4,7 @@ title: _DXGK_GPUVERSION
 author: windows-driver-content
 description: Used to collect the bios version and gpu architecture name once during GPU initialization.
 ms.assetid: 1b39af84-37f3-4fe3-b11f-c68cfa4af63c
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGK_GPUVERSION, DXGK_GPUVERSION,
 req.header: d3dkmdt.h

@@ -6,7 +6,7 @@ description: The ZwPrePrepareComplete routine notifies KTM that the calling reso
 old-location: kernel\zwprepreparecomplete.htm
 tech.root: kernel
 ms.assetid: 1af8dc98-9fee-4029-970f-462fdf80fdc9
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtPrePrepareComplete, ZwPrePrepareComplete, ZwPrePrepareComplete routine [Kernel-Mode Driver Architecture], kernel.zwprepreparecomplete, ktm_ref_f34acd5c-6983-4f8a-86ca-968dde152526.xml, wdm/NtPrePrepareComplete, wdm/ZwPrePrepareComplete
 ms.topic: function
 req.header: wdm.h

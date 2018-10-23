@@ -6,7 +6,7 @@ description: The NDIS_CONFIGURATION_PARAMETER structure contains the data and ty
 old-location: netvista\ndis_configuration_parameter.htm
 tech.root: netvista
 ms.assetid: 80250799-4263-43c0-85d5-f1c1c1fb0bae
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_CONFIGURATION_PARAMETER, NDIS_CONFIGURATION_PARAMETER, NDIS_CONFIGURATION_PARAMETER structure [Network Drivers Starting with Windows Vista], PNDIS_CONFIGURATION_PARAMETER, PNDIS_CONFIGURATION_PARAMETER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_CONFIGURATION_PARAMETER, ndis/NDIS_CONFIGURATION_PARAMETER, ndis/PNDIS_CONFIGURATION_PARAMETER, ndis_configuration_ref_14664bdb-06c7-4d27-b71b-d6a69f3e3396.xml, netvista.ndis_configuration_parameter"
 ms.topic: struct
 req.header: ndis.h

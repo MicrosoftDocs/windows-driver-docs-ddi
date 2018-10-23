@@ -6,7 +6,7 @@ description: RxFinalizeVNetRoot finalizes the given V_NET_ROOT structure. The ca
 old-location: ifsk\rxfinalizevnetroot.htm
 tech.root: ifsk
 ms.assetid: 7a24d8b4-cd07-453c-9813-d794b75b039e
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxFinalizeVNetRoot, RxFinalizeVNetRoot function [Installable File System Drivers], fcb/RxFinalizeVNetRoot, ifsk.rxfinalizevnetroot, rxref_1c20872c-4783-4c7d-a1fa-44ca6170ab00.xml
 ms.topic: function
 req.header: fcb.h

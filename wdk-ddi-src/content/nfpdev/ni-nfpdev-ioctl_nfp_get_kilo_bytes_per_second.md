@@ -6,7 +6,7 @@ description: A client sends the IOCTL_NFP_GET_KILO_BYTES_PER_SECOND request to a
 old-location: nfpdrivers\ioctl_nfp_get_kilo_bytes_per_second.htm
 tech.root: nfpdrivers
 ms.assetid: 7FAF7D15-1D3A-4F90-BD98-344ECF294E0F
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_NFP_GET_KILO_BYTES_PER_SECOND, IOCTL_NFP_GET_KILO_BYTES_PER_SECOND control, IOCTL_NFP_GET_KILO_BYTES_PER_SECOND control code [Near-Field Proximity Drivers], _IOCTL_NFP_GET_KILO_BYTES_PER_SECOND, nfpdev/IOCTL_NFP_GET_KILO_BYTES_PER_SECOND, nfpdrivers.ioctl_nfp_get_kilo_bytes_per_second
 ms.topic: ioctl
 req.header: nfpdev.h
@@ -134,7 +134,7 @@ The following are required actions when using this IOCTL:<ul>
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) overall design guide</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) overall design guide</a>
 
 
 

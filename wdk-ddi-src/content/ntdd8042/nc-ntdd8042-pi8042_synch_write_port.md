@@ -6,7 +6,7 @@ description: The PI8042_SYNCH_READ_PORT-typed callback routine does a synchroniz
 old-location: hid\pi8042_synch_write_port.htm
 tech.root: hid
 ms.assetid: f4b0642c-0355-46ae-9c23-fc9c98dfaf21
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PI8042_SYNCH_WRITE_PORT, PI8042_SYNCH_WRITE_PORT callback, SynchWritePort, SynchWritePort callback function [Human Input Devices], hid.pi8042_synch_write_port, i8042ref_79e22dfb-4844-4126-a6a2-b2f908cbdf79.xml, ntdd8042/SynchWritePort
 ms.topic: callback
 req.header: ntdd8042.h

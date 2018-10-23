@@ -4,7 +4,7 @@ title: _PRINTPROCESSOR_CAPS_1
 author: windows-driver-content
 description: 
 ms.assetid: fbcf27fb-85e2-45c3-8109-42812d17c31a
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _PRINTPROCESSOR_CAPS_1, PRINTPROCESSOR_CAPS_1, *PPRINTPROCESSOR_CAPS_1, 
 req.header: winddiui.h

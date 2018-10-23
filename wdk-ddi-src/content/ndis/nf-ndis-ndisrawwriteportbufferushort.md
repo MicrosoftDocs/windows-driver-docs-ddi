@@ -6,7 +6,7 @@ description: NdisRawWritePortBufferUshort writes a specified number of USHORT va
 old-location: netvista\ndisrawwriteportbufferushort.htm
 tech.root: netvista
 ms.assetid: 457b13e5-5917-4aa2-b471-bc9fde14f950
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisRawWritePortBufferUshort, NdisRawWritePortBufferUshort macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_43adee77-b540-4147-92a3-0035618064de.xml, ndis/NdisRawWritePortBufferUshort, netvista.ndisrawwriteportbufferushort
 ms.topic: macro
 req.header: ndis.h

@@ -6,7 +6,7 @@ description: The ClfsReadNextLogRecord routine reads the next record in a sequen
 old-location: kernel\clfsreadnextlogrecord.htm
 tech.root: kernel
 ms.assetid: 4990f3d7-e48c-49ee-9384-4bcad93c9281
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ClfsReadNextLogRecord, ClfsReadNextLogRecord routine [Kernel-Mode Driver Architecture], Clfs_4e00ce69-12c3-48c1-ba3b-1c85158afc12.xml, kernel.clfsreadnextlogrecord, wdm/ClfsReadNextLogRecord
 ms.topic: function
 req.header: wdm.h

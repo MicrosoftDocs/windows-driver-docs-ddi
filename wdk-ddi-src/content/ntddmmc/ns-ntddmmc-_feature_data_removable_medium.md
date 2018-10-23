@@ -6,7 +6,7 @@ description: The FEATURE_DATA_REMOVABLE_MEDIUM structure contains data for the r
 old-location: storage\feature_data_removable_medium.htm
 tech.root: storage
 ms.assetid: b25feb68-75bb-4a9d-b842-e15f619a18c4
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PFEATURE_DATA_REMOVABLE_MEDIUM, FEATURE_DATA_REMOVABLE_MEDIUM, FEATURE_DATA_REMOVABLE_MEDIUM structure [Storage Devices], PFEATURE_DATA_REMOVABLE_MEDIUM, PFEATURE_DATA_REMOVABLE_MEDIUM structure pointer [Storage Devices], _FEATURE_DATA_REMOVABLE_MEDIUM, ntddmmc/FEATURE_DATA_REMOVABLE_MEDIUM, ntddmmc/PFEATURE_DATA_REMOVABLE_MEDIUM, storage.feature_data_removable_medium, structs-CD-ROM_f9ce701e-11b7-478e-969e-c2744477d348.xml"
 ms.topic: struct
 req.header: ntddmmc.h

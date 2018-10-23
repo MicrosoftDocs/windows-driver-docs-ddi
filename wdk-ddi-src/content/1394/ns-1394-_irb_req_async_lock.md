@@ -6,7 +6,7 @@ description: This structure contains the fields necessary for the 1394 stack to 
 old-location: ieee\irb_req_async_lock.htm
 tech.root: IEEE
 ms.assetid: 735C613E-BEAA-4E95-AF9D-A94A4BD940DE
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_ASYNC_LOCK, IEEE.irb_req_async_lock, IRB_REQ_ASYNC_LOCK, IRB_REQ_ASYNC_LOCK structure [Buses], _IRB_REQ_ASYNC_LOCK
 ms.topic: struct
 req.header: 1394.h

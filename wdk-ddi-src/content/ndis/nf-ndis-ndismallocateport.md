@@ -6,7 +6,7 @@ description: The NdisMAllocatePort function allocates an NDIS port that is assoc
 old-location: netvista\ndismallocateport.htm
 tech.root: netvista
 ms.assetid: ca3a2a12-ea80-4f77-9742-b0440fb441f7
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMAllocatePort, NdisMAllocatePort function [Network Drivers Starting with Windows Vista], ndis/NdisMAllocatePort, ndis_ports_ref_c74ffd82-73c0-4e48-98da-d17ddf7976ae.xml, netvista.ndismallocateport
 ms.topic: function
 req.header: ndis.h

@@ -6,7 +6,7 @@ description: The GetCreateParametersEx method retrieves file creation parameters
 old-location: wdf\iwdfiorequest2_getcreateparametersex.htm
 tech.root: wdf
 ms.assetid: bc34d86b-fa0e-419e-9342-61df12a8e484
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: GetCreateParametersEx, GetCreateParametersEx method, GetCreateParametersEx method,IWDFIoRequest2 interface, IWDFIoRequest2 interface,GetCreateParametersEx method, IWDFIoRequest2.GetCreateParametersEx, IWDFIoRequest2::GetCreateParametersEx, UMDFRequestObjectRef_02864469-8022-4412-8de9-639dcd0b4f42.xml, umdf.iwdfiorequest2_getcreateparametersex, wdf.iwdfiorequest2_getcreateparametersex, wudfddi/IWDFIoRequest2::GetCreateParametersEx
 ms.topic: method
 req.header: wudfddi.h

@@ -6,7 +6,7 @@ description: The Uninitialize interface disables the WPD interface, any private 
 old-location: wpddk\iportabledeviceclassextension_uninitialize.htm
 tech.root: wpd_dk
 ms.assetid: 51ef2b62-8933-4b59-9deb-8220df1fd285
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IPortableDeviceClassExtension interface,Uninitialize method, IPortableDeviceClassExtension.Uninitialize, IPortableDeviceClassExtension::Uninitialize, IPortableDeviceClassExtensionUninitialize, Uninitialize, Uninitialize method, Uninitialize method,IPortableDeviceClassExtension interface, portabledeviceclassextension/IPortableDeviceClassExtension::Uninitialize, wpddk.iportabledeviceclassextension_uninitialize
 ms.topic: method
 req.header: portabledeviceclassextension.h

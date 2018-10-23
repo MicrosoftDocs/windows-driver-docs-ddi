@@ -6,7 +6,7 @@ description: The IKsPinPipe interface is for proxy use and not recommended for a
 old-location: stream\ikspinpipe.htm
 tech.root: stream
 ms.assetid: bb9ebe0b-4a6e-41ff-a460-6c0b3a749d8d
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IKsPinPipe, IKsPinPipe interface [Streaming Media Devices], IKsPinPipe interface [Streaming Media Devices],described, ksproxy/IKsPinPipe, ksproxy_baf35b14-3ad8-491c-86cf-9ac2b76d9504.xml, stream.ikspinpipe
 ms.topic: interface
 req.header: ksproxy.h

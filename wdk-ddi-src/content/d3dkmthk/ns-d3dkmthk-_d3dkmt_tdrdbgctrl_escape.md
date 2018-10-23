@@ -4,7 +4,7 @@ title: _D3DKMT_TDRDBGCTRL_ESCAPE
 author: windows-driver-content
 description: Contains values for the (TDR) timeout detection and recovery escape process.
 ms.assetid: 0a8356c9-0c42-4aee-9880-80d45be746f5
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_TDRDBGCTRL_ESCAPE, D3DKMT_TDRDBGCTRL_ESCAPE, 
 req.header: d3dkmthk.h

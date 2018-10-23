@@ -6,7 +6,7 @@ description: The WDI_EXEMPTION_ACTION_TYPE enumeration defines the exemption typ
 old-location: netvista\wdi_exemption_action_type.htm
 tech.root: netvista
 ms.assetid: 46640961-828c-411b-b1b9-bcceb04bdf17
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: WDI_EXEMPTION_ACTION_TYPE, WDI_EXEMPTION_ACTION_TYPE enumeration [Network Drivers Starting with Windows Vista], WDI_EXEMPT_ALWAYS, WDI_EXEMPT_NO_EXEMPTION, WDI_EXEMPT_ON_KEY_MAPPING_KEY_UNAVAILABLE, _WDI_EXEMPTION_ACTION_TYPE, dot11wdi/WDI_EXEMPTION_ACTION_TYPE, dot11wdi/WDI_EXEMPT_ALWAYS, dot11wdi/WDI_EXEMPT_NO_EXEMPTION, dot11wdi/WDI_EXEMPT_ON_KEY_MAPPING_KEY_UNAVAILABLE, netvista.wdi_exemption_action_type, netvista.wifi_exemption_action_type
 ms.topic: enum
 req.header: dot11wdi.h

@@ -4,7 +4,7 @@ title: _WAIT_CONTEXT_BLOCK
 author: windows-driver-content
 description: Reserved. Do not use.
 ms.assetid: 6b495490-3f9c-4d80-8e87-ec468237d1e1
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _WAIT_CONTEXT_BLOCK, WAIT_CONTEXT_BLOCK, *PWAIT_CONTEXT_BLOCK, 
 req.header: wdm.h

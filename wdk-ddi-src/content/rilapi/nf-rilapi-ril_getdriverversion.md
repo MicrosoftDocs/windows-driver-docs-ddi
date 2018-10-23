@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_getdriverversion.htm
 tech.root: netvista
 ms.assetid: 7cf55a17-fbb9-4edc-ae12-23dce450a628
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_GetDriverVersion, RIL_GetDriverVersion method [Network Drivers Starting with Windows Vista], netvista.ril_getdriverversion, rilapi/RIL_GetDriverVersion
 ms.topic: function
 req.header: rilapi.h

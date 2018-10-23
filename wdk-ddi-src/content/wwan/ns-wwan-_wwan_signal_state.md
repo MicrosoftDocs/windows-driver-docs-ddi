@@ -6,7 +6,7 @@ description: The WWAN_SIGNAL_STATE structure represents the signal state of the 
 old-location: netvista\wwan_signal_state.htm
 tech.root: netvista
 ms.assetid: ba5632bb-c1d7-47b1-b6b4-88c67710149f
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_SIGNAL_STATE, PWWAN_SIGNAL_STATE, PWWAN_SIGNAL_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_SIGNAL_STATE, WWAN_SIGNAL_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_6a92457b-8b82-4956-9dce-98e5aeec9091.xml, _WWAN_SIGNAL_STATE, netvista.wwan_signal_state, wwan/PWWAN_SIGNAL_STATE, wwan/WWAN_SIGNAL_STATE"
 ms.topic: struct
 req.header: wwan.h

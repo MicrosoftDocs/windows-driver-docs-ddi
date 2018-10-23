@@ -6,7 +6,7 @@ description: The Blt function copies the contents of a source surface to a desti
 old-location: display\blt.htm
 tech.root: display
 ms.assetid: e87576c6-0173-4d8e-bbaf-b82e2907140a
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: Blt, Blt callback function [Display Devices], PFND3DDDI_BLT, PFND3DDDI_BLT callback, UserModeDisplayDriver_Functions_d2dfd3c9-e7e0-4953-bc88-3d3330aff161.xml, d3dumddi/Blt, display.blt
 ms.topic: callback
 req.header: d3dumddi.h
@@ -129,7 +129,7 @@ The user-mode display driver must handle all of the bitblt to and from video mem
 
 The user-mode display driver must support colorkeying only with formats that were introduced before Microsoft DirectX 8.0. For formats that were introduced in DirectX 8.0 and later runtimes, colorkeying support is not required.
 
-The type of bitblt to perform is indicated through the bit-field flags that are specified in the <b>Flags</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff542884">D3DDDIARG_BLT</a>. Video memory to video memory bitblts can include colorkeying, stretching, mirroring, and linear-to-sRGB format conversion. System memory to video memory bitblts can include stretching and linear-to-sRGB format conversion; however, these types of bitblts never include mirroring or colorkeying. All video memory to system memory bitblts and system memory to system memory bitblts are straight copies only; that is, these types of bitblts never include stretching, mirroring, colorkeying, or linear-to-sRGB format conversion. For more information about sRGB format, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=10112">sRGB</a> website.
+The type of bitblt to perform is indicated through the bit-field flags that are specified in the <b>Flags</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff542884">D3DDDIARG_BLT</a>. Video memory to video memory bitblts can include colorkeying, stretching, mirroring, and linear-to-sRGB format conversion. System memory to video memory bitblts can include stretching and linear-to-sRGB format conversion; however, these types of bitblts never include mirroring or colorkeying. All video memory to system memory bitblts and system memory to system memory bitblts are straight copies only; that is, these types of bitblts never include stretching, mirroring, colorkeying, or linear-to-sRGB format conversion. For more information about sRGB format, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=10112">sRGB</a> website.
 
 For more information about rules that the <b>Blt</b> function must follow when converting depth-stencil values, see <a href="https://msdn.microsoft.com/b83d4e6d-5645-49ab-bbb0-c694f1410cba">Copying Depth-Stencil Values</a>.
 

@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_stopmodemlogs.htm
 tech.root: netvista
 ms.assetid: 1d1f092c-e867-49f7-8f17-90fbf73733fb
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_StopModemLogs, RIL_StopModemLogs method [Network Drivers Starting with Windows Vista], netvista.ril_stopmodemlogs, rilapi/RIL_StopModemLogs
 ms.topic: function
 req.header: rilapi.h

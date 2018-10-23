@@ -6,7 +6,7 @@ description: Frees all create items with a specific context.
 old-location: stream\ksfreeobjectcreateitemsbycontext.htm
 tech.root: stream
 ms.assetid: 70c2942d-1225-4a50-b734-27995b4481d1
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsFreeObjectCreateItemsByContext, KsFreeObjectCreateItemsByContext function [Streaming Media Devices], ks/KsFreeObjectCreateItemsByContext, ksfunc_0ad51072-eff4-4be3-95f4-b54c9267a4a9.xml, stream.ksfreeobjectcreateitemsbycontext
 ms.topic: function
 req.header: ks.h

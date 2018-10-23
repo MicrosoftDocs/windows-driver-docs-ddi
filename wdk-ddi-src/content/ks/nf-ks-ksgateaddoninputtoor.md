@@ -6,7 +6,7 @@ description: The KsGateAddOnInputToOr function adds a new input in the ON state 
 old-location: stream\ksgateaddoninputtoor.htm
 tech.root: stream
 ms.assetid: aaa6891b-f9f9-40d5-b0eb-e17f511e2611
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsGateAddOnInputToOr, KsGateAddOnInputToOr function [Streaming Media Devices], avfunc_f19411cd-eca5-4acb-b0ca-f470a72a4afd.xml, ks/KsGateAddOnInputToOr, stream.ksgateaddoninputtoor
 ms.topic: function
 req.header: ks.h

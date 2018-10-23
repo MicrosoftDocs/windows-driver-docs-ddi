@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilradiostategroup.htm
 tech.root: netvista
 ms.assetid: e3ad8454-0e23-48fd-a6ef-c9257dc4816d
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILRADIOSTATEGROUP, RILRADIOSTATEGROUP, RILRADIOSTATEGROUP structure [Network Drivers Starting with Windows Vista], netvista.rilradiostategroup, ntddrilapitypes/RILRADIOSTATEGROUP"
 ms.topic: struct
 req.header: rilapitypes.h

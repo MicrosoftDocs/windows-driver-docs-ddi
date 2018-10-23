@@ -6,7 +6,7 @@ description: The HBA_GetEventBuffer routine retrieves the indicated number of ev
 old-location: storage\hba_geteventbuffer.htm
 tech.root: storage
 ms.assetid: 0f06b154-7d85-4a60-b354-bd61fbc597dc
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_GetEventBuffer, HBA_GetEventBuffer routine [Storage Devices], fibreHBA_rtns_782019e1-826f-486d-b8c7-6d58c097aa1d.xml, hbaapi/HBA_GetEventBuffer, storage.hba_geteventbuffer
 ms.topic: function
 req.header: hbaapi.h

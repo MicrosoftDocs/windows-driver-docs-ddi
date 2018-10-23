@@ -6,7 +6,7 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilexchangeuiccapduresponseparammask.htm
 tech.root: netvista
 ms.assetid: 24daa47b-993c-49ee-b4e2-462cd7570f3c
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILEXCHANGEUICCAPDURESPONSEPARAMMASK, RILEXCHANGEUICCAPDURESPONSEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_EUAR_ALL, RIL_PARAM_EUAR_RESPONSEAPDU, netvista.rilexchangeuiccapduresponseparammask, ntddrilapitypes/RILEXCHANGEUICCAPDURESPONSEPARAMMASK, ntddrilapitypes/RIL_PARAM_EUAR_ALL, ntddrilapitypes/RIL_PARAM_EUAR_RESPONSEAPDU
 ms.topic: enum
 req.header: rilapitypes.h

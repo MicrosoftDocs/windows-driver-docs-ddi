@@ -4,7 +4,7 @@ title: PFND3D12DDI_CREATE_COMMAND_LIST_0001
 author: windows-driver-content
 description: Creates a command list.
 ms.assetid: ff7999b0-ba8c-4302-b1b8-a65d6ccb2822
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:

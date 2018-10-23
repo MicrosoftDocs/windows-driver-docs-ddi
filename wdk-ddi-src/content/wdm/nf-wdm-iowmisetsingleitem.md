@@ -6,7 +6,7 @@ description: The IoWMISetSingleItem routine sets a single property in the data b
 old-location: kernel\iowmisetsingleitem.htm
 tech.root: kernel
 ms.assetid: 73c6ddaa-f090-430a-86b5-61b33cb8ffc8
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoWMISetSingleItem, IoWMISetSingleItem routine [Kernel-Mode Driver Architecture], k104_cc50cf7d-a35a-42d6-86e2-4fb6a6183323.xml, kernel.iowmisetsingleitem, wdm/IoWMISetSingleItem
 ms.topic: function
 req.header: wdm.h

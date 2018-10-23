@@ -6,7 +6,7 @@ description: The HidD_GetIndexedString routine returns a specified embedded stri
 old-location: hid\hidd_getindexedstring.htm
 tech.root: hid
 ms.assetid: 4d500597-8ac7-41ea-aa2a-6e8d559e0282
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: HidD_GetIndexedString, HidD_GetIndexedString routine [Human Input Devices], hid.hidd_getindexedstring, hidfunc_49698b0b-18d1-41aa-b64c-185307fb2100.xml, hidsdi/HidD_GetIndexedString
 ms.topic: function
 req.header: hidsdi.h

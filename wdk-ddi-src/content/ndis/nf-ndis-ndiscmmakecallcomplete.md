@@ -6,7 +6,7 @@ description: NdisCmMakeCallComplete returns the final status of a client's reque
 old-location: netvista\ndiscmmakecallcomplete.htm
 tech.root: netvista
 ms.assetid: e2c1f849-daf0-479c-9f1d-906149ac550e
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisCmMakeCallComplete, NdisCmMakeCallComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_15c2bbda-e3f5-41dd-96a1-4466852ed244.xml, ndis/NdisCmMakeCallComplete, netvista.ndiscmmakecallcomplete
 ms.topic: function
 req.header: ndis.h

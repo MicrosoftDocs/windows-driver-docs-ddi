@@ -6,7 +6,7 @@ description: The co-installer's WdfPostDeviceRemove function performs any operat
 old-location: wdf\wdfpostdeviceremove.htm
 tech.root: wdf
 ms.assetid: f29579de-ba5d-4b7a-9aeb-558be03d7eef
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFCoinstallerRef_82480a49-b7ac-4e1d-b942-93d1eb8a5c34.xml, WdfPostDeviceRemove, WdfPostDeviceRemove function, kmdf.wdfpostdeviceremove, wdf.wdfpostdeviceremove, wdfinstaller/WdfPostDeviceRemove
 ms.topic: function
 req.header: wdfinstaller.h

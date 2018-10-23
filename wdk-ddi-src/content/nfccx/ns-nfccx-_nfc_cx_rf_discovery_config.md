@@ -6,7 +6,7 @@ description: The NFC_CX_RF_DISCOVERY_CONFIG structure contains RF discovery conf
 old-location: nfpdrivers\nfc_cx_rf_discovery_config.htm
 tech.root: nfpdrivers
 ms.assetid: 4EF45183-335C-40FC-8693-BF3D17B18DF2
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PNFC_CX_RF_DISCOVERY_CONFIG, NFC_CX_RF_DISCOVERY_CONFIG, NFC_CX_RF_DISCOVERY_CONFIG structure [Near-Field Proximity Drivers], PNFC_CX_RF_DISCOVERY_CONFIG, PNFC_CX_RF_DISCOVERY_CONFIG structure pointer [Near-Field Proximity Drivers], _NFC_CX_RF_DISCOVERY_CONFIG, nfccx/NFC_CX_RF_DISCOVERY_CONFIG, nfccx/PNFC_CX_RF_DISCOVERY_CONFIG, nfpdrivers.nfc_cx_rf_discovery_config"
 ms.topic: struct
 req.header: nfccx.h
@@ -111,7 +111,7 @@ This member enables configuration of PA_BAIL_OUT and PB_BAIL_OUT as described in
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
  
 
  

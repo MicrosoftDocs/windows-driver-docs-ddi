@@ -6,7 +6,7 @@ description: The NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES structure specifies the ND
 old-location: netvista\ndis_miniport_adapter_ndk_attributes.htm
 tech.root: netvista
 ms.assetid: 615A190E-D8F5-4E84-A475-FFF38077BC09
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES, PNDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES, ndis/NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES, ndis/PNDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES, netvista.ndis_miniport_adapter_ndk_attributes"
 ms.topic: struct
 req.header: ndis.h

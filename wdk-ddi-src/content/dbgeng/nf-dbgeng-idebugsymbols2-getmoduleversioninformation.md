@@ -6,7 +6,7 @@ description: The GetModuleVersionInformation method returns version information 
 old-location: debugger\getmoduleversioninformation.htm
 tech.root: debugger
 ms.assetid: af655cd2-2e1f-4d78-aff3-3875106b50bc
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetModuleVersionInformation, GetModuleVersionInformation method [Windows Debugging], GetModuleVersionInformation method [Windows Debugging],IDebugSymbols2 interface, GetModuleVersionInformation method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging],GetModuleVersionInformation method, IDebugSymbols2.GetModuleVersionInformation, IDebugSymbols2::GetModuleVersionInformation, IDebugSymbols3 interface [Windows Debugging],GetModuleVersionInformation method, IDebugSymbols3::GetModuleVersionInformation, IDebugSymbols_a325db82-91a3-48d9-b189-8971cd5eaf75.xml, dbgeng/IDebugSymbols2::GetModuleVersionInformation, dbgeng/IDebugSymbols3::GetModuleVersionInformation, debugger.getmoduleversioninformation
 ms.topic: method
 req.header: dbgeng.h

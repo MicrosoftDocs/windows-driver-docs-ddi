@@ -6,7 +6,7 @@ description: The UsbBuildOpenStaticStreamsRequest inline function formats an URB
 old-location: buses\usbbuildopenbasicstreamsrequest.htm
 tech.root: usbref
 ms.assetid: B514B88E-2D1F-43F1-BF70-BC49294CFE93
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UsbBuildOpenStaticStreamsRequest, UsbBuildOpenStaticStreamsRequest function [Buses], buses.usbbuildopenbasicstreamsrequest, usbdlib/UsbBuildOpenStaticStreamsRequest
 ms.topic: function
 req.header: usbdlib.h

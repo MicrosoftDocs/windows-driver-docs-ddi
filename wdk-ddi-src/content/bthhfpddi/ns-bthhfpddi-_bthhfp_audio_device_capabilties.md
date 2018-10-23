@@ -6,7 +6,7 @@ description: The BTHHFP_AUDIO_DEVICE_CAPABILTIES data structure describes the ca
 old-location: audio\bthhfp_audio_device_capabilties.htm
 tech.root: audio
 ms.assetid: 56c2bbb9-8fcd-43d4-9202-c8925575e44d
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: "*PBTHHFP_AUDIO_DEVICE_CAPABILTIES, BTHHFP_AUDIO_DEVICE_CAPABILTIES, BTHHFP_AUDIO_DEVICE_CAPABILTIES structure [Audio Devices], _BTHHFP_AUDIO_DEVICE_CAPABILTIES, audio.bthhfp_audio_device_capabilties, bthhfpddi/BTHHFP_AUDIO_DEVICE_CAPABILTIES"
 ms.topic: struct
 req.header: bthhfpddi.h

@@ -6,7 +6,7 @@ description: The MiniportWdiRxGetMpdus handler function returns a NET_BUFFER_LIS
 old-location: netvista\miniportwdirxgetmpdus.htm
 tech.root: netvista
 ms.assetid: 195F4143-4889-4788-BAF5-2F1ED6E4E50A
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_RX_GET_MPDUS, MINIPORT_WDI_RX_GET_MPDUS callback, MiniportWdiRxGetMpdus, MiniportWdiRxGetMpdus callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxGetMpdus, netvista.miniportwdirxgetmpdus
 ms.topic: callback
 req.header: dot11wdi.h
@@ -139,7 +139,7 @@ VOID
 </table></span></div>
 The <b>MINIPORT_WDI_RX_GET_MPDUS</b> function type is defined in the dot11wdi.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_WDI_RX_GET_MPDUS</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 
 

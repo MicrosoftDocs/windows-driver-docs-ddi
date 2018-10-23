@@ -4,7 +4,7 @@ title: PFND3DKMT_MARKDEVICEASERROR
 author: windows-driver-content
 description: Pfnd3dkmtMarkdeviceaserror marks a device as error.
 ms.assetid: 12dc7034-0fec-46ec-aa90-5a3068fca98e
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

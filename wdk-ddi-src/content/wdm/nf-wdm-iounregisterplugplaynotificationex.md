@@ -6,7 +6,7 @@ description: The IoUnregisterPlugPlayNotificationEx routine cancels the registra
 old-location: kernel\iounregisterplugplaynotificationex.htm
 tech.root: kernel
 ms.assetid: 72545150-5fd8-4770-aab2-b49d80c1e865
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoUnregisterPlugPlayNotificationEx, IoUnregisterPlugPlayNotificationEx routine [Kernel-Mode Driver Architecture], k104_ed460118-9610-4e7b-98fe-3b1cfee74e4b.xml, kernel.iounregisterplugplaynotificationex, wdm/IoUnregisterPlugPlayNotificationEx
 ms.topic: function
 req.header: wdm.h

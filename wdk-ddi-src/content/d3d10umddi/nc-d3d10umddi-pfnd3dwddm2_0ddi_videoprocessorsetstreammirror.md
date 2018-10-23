@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Indicates whether the stream should be flipped vertically or horizontally. Optional for Windows Display Driver Model (WDDM) 2.0, or later, drivers.
 old-location: display\videoprocessorsetstreammirror.htm
 ms.assetid: 945BD212-7B48-41FD-B11F-FB03DB073BD4
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMMIRROR, PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMMIRROR callback, d3d10umddi/pfnVideoProcessorSetStreamMirror, display.videoprocessorsetstreammirror, pfnVideoProcessorSetStreamMirror, pfnVideoProcessorSetStreamMirror callback function [Display Devices]
 ms.topic: callback
 req.header: d3d10umddi.h

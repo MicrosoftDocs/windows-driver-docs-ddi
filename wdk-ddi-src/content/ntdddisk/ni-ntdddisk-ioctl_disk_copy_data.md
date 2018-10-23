@@ -6,7 +6,7 @@ description: This IOCTL_DISK_COPY_DATA IOCTL is used to copy data from one area 
 old-location: storage\ioctl_disk_copy_data.htm
 tech.root: storage
 ms.assetid: 1434ee49-4c3d-4104-bca4-c0ea4299c9aa
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_DISK_COPY_DATA, IOCTL_DISK_COPY_DATA control, IOCTL_DISK_COPY_DATA control code [Storage Devices], k307_d7859abc-a32a-4930-b612-6bea53331e3a.xml, ntdddisk/IOCTL_DISK_COPY_DATA, storage.ioctl_disk_copy_data
 ms.topic: ioctl
 req.header: ntdddisk.h

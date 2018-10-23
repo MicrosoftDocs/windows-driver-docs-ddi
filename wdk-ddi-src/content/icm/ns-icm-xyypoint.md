@@ -4,7 +4,7 @@ title: XYYPoint structure
 author: windows-driver-content
 description: The XYYPoint structure describes a CIE xyY chromaticity point.
 ms.assetid: 7fa290ff-3f63-4d2f-9352-ffa821d6a8ab
-ms.date: 9/10/2018
+ms.date: 09/10/2018
 ms.topic: struct
 ms.keywords: XYYPoint, XYYPoint, 
 req.header: icm.h

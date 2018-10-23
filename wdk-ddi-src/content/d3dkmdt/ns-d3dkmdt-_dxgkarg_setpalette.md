@@ -6,7 +6,7 @@ description: The DXGKARG_SETPALETTE structure describes the palette to set for a
 old-location: display\dxgkarg_setpalette.htm
 tech.root: display
 ms.assetid: a76d9549-d182-437f-a570-7d24fd6a5488
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKARG_SETPALETTE, DXGKARG_SETPALETTE structure [Display Devices], DmStructs_d5720608-bc3d-437a-b080-6cd8b9635391.xml, _DXGKARG_SETPALETTE, d3dkmdt/DXGKARG_SETPALETTE, display.dxgkarg_setpalette
 ms.topic: struct
 req.header: d3dkmdt.h

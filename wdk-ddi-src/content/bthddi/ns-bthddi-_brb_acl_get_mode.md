@@ -6,7 +6,7 @@ description: The _BRB_ACL_GET_MODE structure describes the ACL mode for the spec
 old-location: bltooth\_brb_acl_get_mode.htm
 tech.root: bltooth
 ms.assetid: 2fe473c8-dcf9-4457-b1b1-c55b3eaa68e6
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: "_BRB_ACL_GET_MODE, _BRB_ACL_GET_MODE structure [Bluetooth Devices], bltooth._brb_acl_get_mode, bth_structs_ce659c96-d1af-4e27-b31a-f6700ff88331.xml, bthddi/_BRB_ACL_GET_MODE"
 ms.topic: struct
 req.header: bthddi.h

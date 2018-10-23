@@ -6,7 +6,7 @@ description: The ExReleaseResourceLite routine releases a specified executive re
 old-location: kernel\exreleaseresourcelite.htm
 tech.root: kernel
 ms.assetid: 5ca17587-a84e-432b-9874-4197cc107f64
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExReleaseResourceLite, ExReleaseResourceLite routine [Kernel-Mode Driver Architecture], k102_3846f443-1ef7-48f4-a5ce-2dd56f83b9be.xml, kernel.exreleaseresourcelite, wdm/ExReleaseResourceLite
 ms.topic: function
 req.header: wdm.h

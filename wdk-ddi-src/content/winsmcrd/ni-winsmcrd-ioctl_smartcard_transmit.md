@@ -6,7 +6,7 @@ description: Transmits data from the client to the detected smart card in ISO781
 old-location: nfpdrivers\ioctl_smartcard_transmit.htm
 tech.root: nfpdrivers
 ms.assetid: FE6CB06D-C418-4B9E-B5F6-8579B1ED5974
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_SMARTCARD_TRANSMIT, IOCTL_SMARTCARD_TRANSMIT control, IOCTL_SMARTCARD_TRANSMIT control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_transmit, winsmcrd/IOCTL_SMARTCARD_TRANSMIT
 ms.topic: ioctl
 req.header: winsmcrd.h
@@ -143,7 +143,7 @@ Bytes buffer contains the result of the transmission. The buffer points to the S
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
 
 

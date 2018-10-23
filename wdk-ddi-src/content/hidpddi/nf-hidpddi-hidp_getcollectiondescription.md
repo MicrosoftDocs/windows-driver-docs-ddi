@@ -6,7 +6,7 @@ description: Fills a device description block with collection description and th
 old-location: hid\hidp_getcollectiondescription.htm
 tech.root: hid
 ms.assetid: F8FD0C10-115D-4ACF-8C7F-127D342EA9CD
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: HidP_GetCollectionDescription, HidP_GetCollectionDescription function [Human Input Devices], hid.hidp_getcollectiondescription, hidpddi/HidP_GetCollectionDescription
 ms.topic: function
 req.header: hidpddi.h

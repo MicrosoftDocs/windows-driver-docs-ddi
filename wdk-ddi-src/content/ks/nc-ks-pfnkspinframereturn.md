@@ -6,7 +6,7 @@ description: An AVStream minidriver's AVStrMiniFrameReturn routine is called whe
 old-location: stream\avstrminiframereturn.htm
 tech.root: stream
 ms.assetid: 842ed1ac-4043-41ce-90e5-94c9098e9da4
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: AVStrMiniFrameReturn, AVStrMiniFrameReturn routine [Streaming Media Devices], PFNKSPINFRAMERETURN, avstclbk_e7edb74a-8c38-4e7d-9978-849e5d88c153.xml, ks/AVStrMiniFrameReturn, stream.avstrminiframereturn
 ms.topic: callback
 req.header: ks.h

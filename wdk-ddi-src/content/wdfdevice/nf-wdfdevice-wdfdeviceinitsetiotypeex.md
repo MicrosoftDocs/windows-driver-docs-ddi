@@ -6,7 +6,7 @@ description: The WdfDeviceInitSetIoTypeEx method sets the method or preference f
 old-location: wdf\wdfdeviceinitsetiotypeex.htm
 tech.root: wdf
 ms.assetid: 3746D618-C92C-43AB-A45A-2188D572105D
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfDeviceInitSetIoTypeEx, WdfDeviceInitSetIoTypeEx method, wdf.wdfdeviceinitassigniotype, wdf.wdfdeviceinitsetiotypeex, wdfdevice/WdfDeviceInitSetIoTypeEx
 ms.topic: function
 req.header: wdfdevice.h

@@ -6,7 +6,7 @@ description: A provider module's ProviderAttachClient callback function attaches
 old-location: netvista\providerattachclient.htm
 tech.root: netvista
 ms.assetid: 6c8e6cf1-0528-4da2-acc1-81ec9dbc23c3
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NPI_PROVIDER_ATTACH_CLIENT_FN, NPI_PROVIDER_ATTACH_CLIENT_FN callback, PNPI_PROVIDER_ATTACH_CLIENT_FN, PNPI_PROVIDER_ATTACH_CLIENT_FN callback function [Network Drivers Starting with Windows Vista], ProviderAttachClient, ProviderAttachClient callback function [Network Drivers Starting with Windows Vista], netioddk/ProviderAttachClient, netvista.providerattachclient, nmrref_7b693216-cb96-4608-aae0-77ddde6dc28c.xml
 ms.topic: callback
 req.header: netioddk.h

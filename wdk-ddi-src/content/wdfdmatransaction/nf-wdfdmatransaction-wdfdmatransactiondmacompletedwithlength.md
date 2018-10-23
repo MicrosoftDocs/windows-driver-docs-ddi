@@ -6,7 +6,7 @@ description: The WdfDmaTransactionDmaCompletedWithLength method notifies the fra
 old-location: wdf\wdfdmatransactiondmacompletedwithlength.htm
 tech.root: wdf
 ms.assetid: 7f436ac1-1e36-449c-a23f-b5729e5a20c2
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDmaObjectRef_b04fb6c6-98ce-4d3b-8bc9-10a29f6bde46.xml, WdfDmaTransactionDmaCompletedWithLength, WdfDmaTransactionDmaCompletedWithLength method, kmdf.wdfdmatransactiondmacompletedwithlength, wdf.wdfdmatransactiondmacompletedwithlength, wdfdmatransaction/WdfDmaTransactionDmaCompletedWithLength
 ms.topic: function
 req.header: wdfdmatransaction.h

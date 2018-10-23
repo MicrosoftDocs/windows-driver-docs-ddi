@@ -4,7 +4,7 @@ title: PFND3DKMT_RELEASEPROCESSVIDPNSOURCEOWNERS
 author: windows-driver-content
 description: The PFND3DKMT_RELEASEPROCESSVIDPNSOURCEOWNERS callback function releases the video present network source owners for a process.
 ms.assetid: e4a406fc-dd63-4fb9-a783-96fa483c92af
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

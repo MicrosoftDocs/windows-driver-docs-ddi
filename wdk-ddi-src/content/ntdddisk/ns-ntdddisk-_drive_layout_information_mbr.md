@@ -6,7 +6,7 @@ description: The DRIVE_LAYOUT_INFORMATION_MBR structure reports the drive signat
 old-location: storage\drive_layout_information_mbr.htm
 tech.root: storage
 ms.assetid: 41df2847-7cfa-4746-82bd-d0b8b482a0d4
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PDRIVE_LAYOUT_INFORMATION_MBR, DRIVE_LAYOUT_INFORMATION_MBR, DRIVE_LAYOUT_INFORMATION_MBR structure [Storage Devices], PDRIVE_LAYOUT_INFORMATION_MBR, PDRIVE_LAYOUT_INFORMATION_MBR structure pointer [Storage Devices], _DRIVE_LAYOUT_INFORMATION_MBR, ntdddisk/DRIVE_LAYOUT_INFORMATION_MBR, ntdddisk/PDRIVE_LAYOUT_INFORMATION_MBR, storage.drive_layout_information_mbr, structs-disk_766d8fbf-64c1-4b4e-b0ce-421c8892b0d4.xml"
 ms.topic: struct
 req.header: ntdddisk.h

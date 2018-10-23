@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The D3D10DDI_ADAPTERFUNCS structure contains functions that the user-mode display driver can implement to communicate with a graphics adapter object.
 old-location: display\d3d10ddi_adapterfuncs.htm
 ms.assetid: 11a38b89-cc74-4921-855a-3fd795522945
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D10DDI_ADAPTERFUNCS, D3D10DDI_ADAPTERFUNCS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_6d9fe453-3734-43eb-833e-6f7deeccaf2f.xml, d3d10umddi/D3D10DDI_ADAPTERFUNCS, display.d3d10ddi_adapterfuncs
 ms.topic: struct
 req.header: d3d10umddi.h

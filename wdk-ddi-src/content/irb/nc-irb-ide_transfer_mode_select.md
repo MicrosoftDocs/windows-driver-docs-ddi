@@ -6,7 +6,7 @@ description: The AtaControllerTransferModeSelect miniport driver routine selects
 old-location: storage\atacontrollertransfermodeselect.htm
 tech.root: storage
 ms.assetid: 3ee46b54-791f-4eac-84d7-5a0093b6984a
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: AtaControllerTransferModeSelect, AtaControllerTransferModeSelect routine [Storage Devices], IDE_TRANSFER_MODE_SELECT, atartns_c4d206b0-4a6a-49ce-b729-97c8b01e4089.xml, irb/AtaControllerTransferModeSelect, storage.atacontrollertransfermodeselect
 ms.topic: callback
 req.header: irb.h

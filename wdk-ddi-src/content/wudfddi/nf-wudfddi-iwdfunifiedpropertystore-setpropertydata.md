@@ -6,7 +6,7 @@ description: The SetPropertyData method modifies the current setting of a device
 old-location: wdf\iwdfunifiedpropertystore_setpropertydata.htm
 tech.root: wdf
 ms.assetid: 07A79E40-6C49-4AF8-90B8-26652C46B6F1
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFUnifiedPropertyStore interface,SetPropertyData method, IWDFUnifiedPropertyStore.SetPropertyData, IWDFUnifiedPropertyStore::SetPropertyData, SetPropertyData, SetPropertyData method, SetPropertyData method,IWDFUnifiedPropertyStore interface, umdf.iwdfunifiedpropertystore_setpropertydata, wdf.iwdfunifiedpropertystore_setpropertydata, wudfddi/IWDFUnifiedPropertyStore::SetPropertyData
 ms.topic: method
 req.header: wudfddi.h
@@ -64,7 +64,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn31
 
 ### -param Lcid [in]
 
-Specifies a locale identifier. Set this parameter either to a language-specific LCID value or to LOCALE_NEUTRAL. The LOCALE_NEUTRAL LCID specifies that the property is language-neutral (that is, not specific to any language). Do not set this parameter to LOCALE_SYSTEM_DEFAULT or LOCALE_USER_DEFAULT. For more information about language-specific LCID values, see <a href="http://msdn.microsoft.com/library/cc233968(PROT.10).aspx">LCID Structure</a>.
+Specifies a locale identifier. Set this parameter either to a language-specific LCID value or to LOCALE_NEUTRAL. The LOCALE_NEUTRAL LCID specifies that the property is language-neutral (that is, not specific to any language). Do not set this parameter to LOCALE_SYSTEM_DEFAULT or LOCALE_USER_DEFAULT. For more information about language-specific LCID values, see <a href="https://msdn.microsoft.com/library/cc233968(PROT.10).aspx">LCID Structure</a>.
 
 
 ### -param Flags [in]

@@ -6,7 +6,7 @@ description: The RtlParent routine returns a pointer to the parent of the specif
 old-location: ifsk\rtlparent.htm
 tech.root: ifsk
 ms.assetid: 940c9234-6c4e-421d-a3e3-87ba2d786248
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlParent, RtlParent routine [Installable File System Drivers], ifsk.rtlparent, ntddk/RtlParent, rtlref_85e6ffbf-9d34-47f5-b5c2-1d57a1a57056.xml
 ms.topic: macro
 req.header: ntddk.h

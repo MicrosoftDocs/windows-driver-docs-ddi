@@ -6,7 +6,7 @@ description: The IoCreateStreamFileObjectLite routine creates a new stream file 
 old-location: ifsk\iocreatestreamfileobjectlite.htm
 tech.root: ifsk
 ms.assetid: 79c6438c-ba8c-4fc5-8c3f-5865a51869b7
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: IoCreateStreamFileObjectLite, IoCreateStreamFileObjectLite routine [Installable File System Drivers], ifsk.iocreatestreamfileobjectlite, ioref_0e35141f-7028-47b0-8dc1-0bd9d1c4e0be.xml, ntifs/IoCreateStreamFileObjectLite
 ms.topic: function
 req.header: ntifs.h

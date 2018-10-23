@@ -4,7 +4,7 @@ title: _D3DKMT_ENUMADAPTERS2
 author: windows-driver-content
 description: Supplies information for enumerating all graphics adapters on the system.
 ms.assetid: a8b97771-732a-4ce3-bf08-31dd1c3a4d91
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_ENUMADAPTERS2, D3DKMT_ENUMADAPTERS2, 
 req.header: d3dkmthk.h

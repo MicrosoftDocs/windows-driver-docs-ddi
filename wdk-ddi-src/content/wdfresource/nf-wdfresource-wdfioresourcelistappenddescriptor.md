@@ -6,7 +6,7 @@ description: The WdfIoResourceListAppendDescriptor method adds a resource descri
 old-location: wdf\wdfioresourcelistappenddescriptor.htm
 tech.root: wdf
 ms.assetid: da9213c1-e519-44ad-aabf-fd05bdbd2079
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFResourceObjectRef_547a6869-7e4a-4140-9851-0b1ca9810eaa.xml, WdfIoResourceListAppendDescriptor, WdfIoResourceListAppendDescriptor method, kmdf.wdfioresourcelistappenddescriptor, wdf.wdfioresourcelistappenddescriptor, wdfresource/WdfIoResourceListAppendDescriptor
 ms.topic: function
 req.header: wdfresource.h

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The pfnStateGsSamplerCb function causes the Microsoft Direct3D 10 runtime to refresh the geometry shader sample state.
 old-location: display\pfnstategssamplercb.htm
 ms.assetid: 086c565e-2747-4bbe-a9e1-af38373c3232
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_STATE_GS_SAMPLER_CB, PFND3D10DDI_STATE_GS_SAMPLER_CB callback, d3d10state_functions_d68de9ea-b2c6-4026-9def-a0e2bda103ed.xml, d3d10umddi/pfnStateGsSamplerCb, display.pfnstategssamplercb, pfnStateGsSamplerCb, pfnStateGsSamplerCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3d10umddi.h

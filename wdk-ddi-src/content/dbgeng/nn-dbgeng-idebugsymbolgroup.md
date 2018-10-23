@@ -6,7 +6,7 @@ description: IDebugSymbolGroup interface
 old-location: debugger\idebugsymbolgroup.htm
 tech.root: debugger
 ms.assetid: dd629e4a-938e-4db6-b0f3-6dd12a431486
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ComOther_f174a794-e2c2-4d0a-912e-b3de6327ef19.xml, IDebugSymbolGroup, IDebugSymbolGroup interface [Windows Debugging], IDebugSymbolGroup interface [Windows Debugging],described, dbgeng/IDebugSymbolGroup, debugger.idebugsymbolgroup
 ms.topic: interface
 req.header: dbgeng.h

@@ -6,7 +6,7 @@ description: The PsReturnPoolQuota routine returns pool quota of the specified p
 old-location: ifsk\psreturnpoolquota.htm
 tech.root: ifsk
 ms.assetid: 12ceb592-97ca-41c9-89d0-26fd2dc87981
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: PsReturnPoolQuota, PsReturnPoolQuota routine [Installable File System Drivers], ifsk.psreturnpoolquota, ntifs/PsReturnPoolQuota, psref_7dc67879-8f0e-41a1-96cf-018dcf60afcd.xml
 ms.topic: function
 req.header: ntifs.h

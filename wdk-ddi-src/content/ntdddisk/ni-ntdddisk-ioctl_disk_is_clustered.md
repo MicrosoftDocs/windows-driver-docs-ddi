@@ -6,7 +6,7 @@ description: Allows a driver or application to determine if a disk is clustered.
 old-location: storage\ioctl_disk_is_clustered.htm
 tech.root: storage
 ms.assetid: 46b72c16-2656-4ceb-a786-5fb24818b2a7
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_DISK_IS_CLUSTERED, IOCTL_DISK_IS_CLUSTERED control, IOCTL_DISK_IS_CLUSTERED control code [Storage Devices], k307_a812ef4f-f10c-4d75-aaf8-a3ad4d41703e.xml, ntdddisk/IOCTL_DISK_IS_CLUSTERED, storage.ioctl_disk_is_clustered
 ms.topic: ioctl
 req.header: ntdddisk.h

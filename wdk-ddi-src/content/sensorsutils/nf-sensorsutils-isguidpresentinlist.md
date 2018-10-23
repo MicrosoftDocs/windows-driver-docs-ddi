@@ -4,7 +4,7 @@ title: IsGUIDPresentInList function
 author: windows-driver-content
 description: This routine looks for a GUID in a list of GUIDs.
 ms.assetid: e6209d36-e01c-4922-9dfa-c3e41eb0285e
-ms.date: 08/08/18
+ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
 ms.keywords: IsGUIDPresentInList

@@ -6,7 +6,7 @@ description: Inserts a signal on the specified synchronization objects in the sp
 old-location: display\pfnsignalsynchronizationobject2cb.htm
 tech.root: display
 ms.assetid: 01B5E793-D075-42B5-9ADF-D033249AEE9F
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECT2CB, PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECT2CB callback, d3dumddi/pfnSignalSynchronizationObject2Cb, display.pfnsignalsynchronizationobject2cb, pfnSignalSynchronizationObject2Cb, pfnSignalSynchronizationObject2Cb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h

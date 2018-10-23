@@ -6,7 +6,7 @@ description: Stores the value of the RECEIVE_DETECT Register. This structure is 
 old-location: buses\ucmtcpci_port_controller_set_receive_detect_in_params.htm
 tech.root: usbref
 ms.assetid: 2a33613b-e3f5-47e0-b05e-0427a0fb3c58
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT_IN_PARAMS, PUCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT_IN_PARAMS, PUCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT_IN_PARAMS structure pointer [Buses], UCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT_IN_PARAMS, UCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT_IN_PARAMS structure [Buses], _UCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT_IN_PARAMS, buses.ucmtcpci_port_controller_set_receive_detect_in_params, ucmtcpciportcontrollerrequests/PUCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT_IN_PARAMS, ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT_IN_PARAMS"
 ms.topic: struct
 req.header: ucmtcpciportcontrollerrequests.h
