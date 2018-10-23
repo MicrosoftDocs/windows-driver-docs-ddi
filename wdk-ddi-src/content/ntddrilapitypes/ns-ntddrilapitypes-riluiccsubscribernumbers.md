@@ -6,11 +6,8 @@ description: This structure represents RILUICCSUBSCRIBERNUMBERS.
 old-location: netvista\riluiccsubscribernumbers.htm
 tech.root: netvista
 ms.assetid: 7c9f7c52-edb3-48cd-b532-0e100692fee4
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*LPRILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS structure [Network Drivers Starting with Windows Vista], netvista.riluiccsubscribernumbers, rilapitypes/RILUMTSMRL"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
 req.include-header: Ntddrilapitypes.h
@@ -56,13 +53,13 @@ req.typenames: RILUICCSUBSCRIBERNUMBERS, *LPRILUICCSUBSCRIBERNUMBERS
 ## -syntax
 
 
-````
+```cpp
 struct RILUMTSMRL {
   DWORD             cbSize;
   DWORD             dwNumSubscribers;
   RILSUBSCRIBERINFO rsiInfo[1];
 };
-````
+```
 
 
 ## -struct-fields

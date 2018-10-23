@@ -4,11 +4,8 @@ title: PFND3D12DDI_DESTROYSHADER
 author: windows-driver-content
 description: Destroy shader.
 ms.assetid: 11ca0734-50b5-45a3-af8a-d344c88a2b68
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Destroy shader.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROYSHADER Pfnd3d12ddiDestroyshader; 

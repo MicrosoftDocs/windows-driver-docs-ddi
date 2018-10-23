@@ -6,11 +6,8 @@ description: Returns all the memory regions known to be associated with a symbol
 old-location: debugger\idebugsymbols3_getsymbolentryoffsetregions.htm
 tech.root: debugger
 ms.assetid: 986774F6-5256-4703-990A-EAB4AB09AF55
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetSymbolEntryOffsetRegions, GetSymbolEntryOffsetRegions method [Windows Debugging], GetSymbolEntryOffsetRegions method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolEntryOffsetRegions method, IDebugSymbols3.GetSymbolEntryOffsetRegions, IDebugSymbols3::GetSymbolEntryOffsetRegions, dbgeng/IDebugSymbols3::GetSymbolEntryOffsetRegions, debugger.idebugsymbols3_getsymbolentryoffsetregions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

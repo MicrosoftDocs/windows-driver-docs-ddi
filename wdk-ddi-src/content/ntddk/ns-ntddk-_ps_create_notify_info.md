@@ -6,11 +6,8 @@ description: The PS_CREATE_NOTIFY_INFO structure provides information about a ne
 old-location: kernel\ps_create_notify_info.htm
 tech.root: kernel
 ms.assetid: 66fade6b-b1c1-477c-bd44-2809d02271f2
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPS_CREATE_NOTIFY_INFO, PPS_CREATE_NOTIFY_INFO, PPS_CREATE_NOTIFY_INFO structure pointer [Kernel-Mode Driver Architecture], PS_CREATE_NOTIFY_INFO, PS_CREATE_NOTIFY_INFO structure [Kernel-Mode Driver Architecture], _PS_CREATE_NOTIFY_INFO, kernel.ps_create_notify_info, kstruct_c_489ee208-518d-41f1-af90-a8873f3e7fb0.xml, ntddk/PPS_CREATE_NOTIFY_INFO, ntddk/PS_CREATE_NOTIFY_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddk.h
 req.include-header: Ntddk.h
@@ -60,7 +57,7 @@ The <b>PS_CREATE_NOTIFY_INFO</b> structure provides information about a newly cr
 
 ### -field Size
 
-The size, in bytes, of this structure. The operating system uses this size to indicate the type of structure that it passes to <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff559951">CreateProcessNotifyEx</a>. Currently, this member is always <b>sizeof</b>(<b>PS_CREATE_NOTIFY_INFO</b>).
+The size, in bytes, of this structure. The operating system uses this size to indicate the type of structure that it passes to <a href="https://msdn.microsoft.com/library/windows/hardware/ff559951">CreateProcessNotifyEx</a>. Currently, this member is always <b>sizeof</b>(<b>PS_CREATE_NOTIFY_INFO</b>).
 
 
 ### -field Flags
@@ -135,7 +132,7 @@ The NTSTATUS value to return for the process-creation operation. Drivers can cha
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff559951">CreateProcessNotifyEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559951">CreateProcessNotifyEx</a>
 
 
 

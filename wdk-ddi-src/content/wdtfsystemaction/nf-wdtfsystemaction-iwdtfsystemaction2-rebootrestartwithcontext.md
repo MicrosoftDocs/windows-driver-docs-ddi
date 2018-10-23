@@ -6,11 +6,8 @@ description: Reboots the system and restarts the test script with context data.
 old-location: dtf\iwdtfsystemaction2_rebootrestartwithcontext.htm
 tech.root: dtf
 ms.assetid: d88fe083-328c-4ce4-bb15-9fa824384f57
-ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFSystemAction2 interface [Windows Device Testing Framework],RebootRestartWithContext method, IWDTFSystemAction2.RebootRestartWithContext, IWDTFSystemAction2::RebootRestartWithContext, Microsoft.WDTF.IWDTFSystemAction2.RebootRestartWithContext, Microsoft::WDTF::IWDTFSystemAction2::RebootRestartWithContext, RebootRestartWithContext, RebootRestartWithContext method [Windows Device Testing Framework], RebootRestartWithContext method [Windows Device Testing Framework],IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_rebootrestartwithcontext, wdtfsystemaction/IWDTFSystemAction2::RebootRestartWithContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtfsystemaction.h
 req.include-header: 

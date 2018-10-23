@@ -6,11 +6,8 @@ description: The FsRtlNotifyFullReportChange routine completes pending notify ch
 old-location: ifsk\fsrtlnotifyfullreportchange.htm
 tech.root: ifsk
 ms.assetid: b0616127-6bbe-4f9b-87c6-3c7bebe60863
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlNotifyFullReportChange, FsRtlNotifyFullReportChange routine [Installable File System Drivers], fsrtlref_1107429f-a697-40a9-8336-b9a145b476b9.xml, ifsk.fsrtlnotifyfullreportchange, ntifs/FsRtlNotifyFullReportChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

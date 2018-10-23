@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_phy_id_list.htm
 tech.root: netvista
 ms.assetid: f5b2da7f-69b2-4c3d-85dc-2f616c282c5d
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_PHY_ID_LIST, DOT11_PHY_ID_LIST, DOT11_PHY_ID_LIST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_e6b82eab-cd00-460f-8956-9b1c8cf86be1.xml, PDOT11_PHY_ID_LIST, PDOT11_PHY_ID_LIST structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_phy_id_list, windot11/DOT11_PHY_ID_LIST, windot11/PDOT11_PHY_ID_LIST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -58,14 +55,14 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef struct DOT11_PHY_ID_LIST {
   NDIS_OBJECT_HEADER Header;
   ULONG              uNumOfEntries;
   ULONG              uTotalNumOfEntries;
   ULONG              dot11PhyId[1];
 } DOT11_PHY_ID_LIST, *PDOT11_PHY_ID_LIST;
-````
+```
 
 
 ## -struct-fields
@@ -137,7 +134,7 @@ An index into the table of supported PHYs that are defined by the Native 802.11 
       <b>msDot11SupportedPhyTypes</b> management information base (MIB) object. For more information about PHY
       IDs and the
       <b>msDot11SupportedPhyTypes</b> MIB object, see
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
       OID_DOT11_SUPPORTED_PHY_TYPES</a>.
 
 </li>
@@ -150,7 +147,7 @@ A PHY ID with the value of DOT11_PHY_ID_ANY. This PHY ID is called a
 </li>
 </ul>
 A miniport driver returns the DOT11_PHY_ID_LIST structure when queried by either
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a> or
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a> or
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569144">OID_DOT11_DESIRED_PHY_LIST</a>.
 
 When these OIDs are queried, the miniport driver must verify that the
@@ -230,7 +227,7 @@ Return NDIS_STATUS_SUCCESS from its
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>
 
 
 

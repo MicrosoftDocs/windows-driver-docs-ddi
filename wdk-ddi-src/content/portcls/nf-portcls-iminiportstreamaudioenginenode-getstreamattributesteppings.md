@@ -6,11 +6,8 @@ description: Gets the allowed stepping value for the audio stream attribute.
 old-location: audio\iminiportstreamaudioenginenode_getstreamattributesteppings.htm
 tech.root: audio
 ms.assetid: 2EC0C859-5479-4A55-9180-DB9938400DF7
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: GetStreamAttributeSteppings, GetStreamAttributeSteppings method [Audio Devices], GetStreamAttributeSteppings method [Audio Devices],IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices],GetStreamAttributeSteppings method, IMiniportStreamAudioEngineNode.GetStreamAttributeSteppings, IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings, audio.iminiportstreamaudioenginenode_getstreamattributesteppings, portcls/IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: 
@@ -65,7 +62,7 @@ An <a href="https://msdn.microsoft.com/library/windows/hardware/dn302034">eChann
 
 ### -param pKsPropStepLong [out]
 
-A structure of type <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff565631(v=vs.85).aspx">KSPROPERTY_STEPPING_LONG</a> that contains information about the allowed stepping value for the audio stream attribute.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff565631(v=vs.85).aspx">KSPROPERTY_STEPPING_LONG</a> that contains information about the allowed stepping value for the audio stream attribute.
 
 
 ### -param ui32DataSize [in]
@@ -93,7 +90,7 @@ code.
 
 
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff565631(v=vs.85).aspx">KSPROPERTY_STEPPING_LONG</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565631(v=vs.85).aspx">KSPROPERTY_STEPPING_LONG</a>
 
 
 

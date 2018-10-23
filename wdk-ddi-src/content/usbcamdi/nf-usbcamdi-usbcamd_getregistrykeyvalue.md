@@ -6,11 +6,8 @@ description: The USBCAMD_GetRegistryKeyValue function retrieves the device-insta
 old-location: stream\usbcamd_getregistrykeyvalue.htm
 tech.root: stream
 ms.assetid: c3512a79-884f-4f38-9942-63a4a464585c
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: USBCAMD_GetRegistryKeyValue, USBCAMD_GetRegistryKeyValue function [Streaming Media Devices], stream.usbcamd_getregistrykeyvalue, usbcamdi/USBCAMD_GetRegistryKeyValue, usbcmdpr_f93ab3a6-f063-4c69-819d-1aed77b8efe6.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h

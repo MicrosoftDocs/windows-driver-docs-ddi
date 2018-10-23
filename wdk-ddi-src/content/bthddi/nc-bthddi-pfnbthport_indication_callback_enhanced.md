@@ -6,11 +6,8 @@ description: Profile drivers implement an enhanced L2CAP callback function to pr
 old-location: bltooth\enhanced_l2cap_callback_function.htm
 tech.root: bltooth
 ms.assetid: 1C08937A-2B0C-4A6C-ACDF-1A751BF0D6F6
-ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: BluetoothPortIndicationCallbackEnhanced, BluetoothPortIndicationCallbackEnhanced callback function [Bluetooth Devices], PFNBTHPORT_INDICATION_CALLBACK_ENHANCED, PFNBTHPORT_INDICATION_CALLBACK_ENHANCED callback, bltooth.enhanced_l2cap_callback_function, bthddi/BluetoothPortIndicationCallbackEnhanced
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: bthddi.h
 req.include-header: Bthddi.h

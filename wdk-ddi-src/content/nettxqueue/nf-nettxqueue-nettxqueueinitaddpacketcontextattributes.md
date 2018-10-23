@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NetTxQueueInitAddPacketContextAttributes method adds an initialized NET_PACKET_CONTEXT_ATTRIBUTES structure to a transmit queue's packet context space.
 tech.root: netvista
 ms.assetid: 266b8208-f030-4216-9967-7e201aaa607b
-ms.author: windowsdriverdev
 ms.date: 02/09/2018
 ms.topic: function
 ms.keywords: NetTxQueueInitAddPacketContextAttributes

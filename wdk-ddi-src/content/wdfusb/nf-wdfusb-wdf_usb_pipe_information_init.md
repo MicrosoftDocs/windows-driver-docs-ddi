@@ -6,11 +6,8 @@ description: The WDF_USB_PIPE_INFORMATION_INIT function initializes a WDF_USB_PI
 old-location: wdf\wdf_usb_pipe_information_init.htm
 tech.root: wdf
 ms.assetid: 13139135-22b4-4ca1-b95e-c4c704501368
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_ed525fc0-384b-4e9c-877a-075386f5d667.xml, WDF_USB_PIPE_INFORMATION_INIT, WDF_USB_PIPE_INFORMATION_INIT function, kmdf.wdf_usb_pipe_information_init, wdf.wdf_usb_pipe_information_init, wdfusb/WDF_USB_PIPE_INFORMATION_INIT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

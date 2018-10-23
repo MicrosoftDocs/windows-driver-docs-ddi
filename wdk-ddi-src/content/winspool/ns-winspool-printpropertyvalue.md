@@ -6,11 +6,8 @@ description: Describes the PrintPropertyValue structure.
 old-location: print\printpropertyvalue.htm
 tech.root: print
 ms.assetid: B442AE8E-A4CE-481A-A69C-496CBF3E4722
-ms.author: windowsdriverdev
 ms.date: 07/11/2018
 ms.keywords: PrintPropertyValue, PrintPropertyValue structure [Print Devices], print.printpropertyvalue, winspool/PrintPropertyValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winspool.h
 req.include-header: 

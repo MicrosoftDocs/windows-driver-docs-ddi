@@ -6,11 +6,8 @@ description:
 old-location: print\spoolerrefreshprinterchangenotification.htm
 tech.root: print
 ms.assetid: 86D8D605-3620-4F43-B4A5-6AF568265E92
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: SpoolerRefreshPrinterChangeNotification, SpoolerRefreshPrinterChangeNotification function [Print Devices], print.spoolerrefreshprinterchangenotification, winsplp/SpoolerRefreshPrinterChangeNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsplp.h
 req.include-header: 

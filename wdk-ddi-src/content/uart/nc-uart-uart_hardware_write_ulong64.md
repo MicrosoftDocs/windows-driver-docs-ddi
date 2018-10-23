@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Writes a ULONG64 value to the specified register address.
 tech.root: serports
 ms.assetid: 28aa4d96-2798-44ba-b736-04df60fb098b
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: uart.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Writes a ULONG64 value to the specified register address.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 UART_HARDWARE_WRITE_ULONG64 UartHardwareWriteUlong64;

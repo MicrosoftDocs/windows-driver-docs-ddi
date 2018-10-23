@@ -4,11 +4,8 @@ title: PFND3D12DDI_DESTROY_METACOMMAND
 author: windows-driver-content
 description: Destroys the meta-command.
 ms.assetid: 0bd395c4-a428-4db7-8ebc-43f1a8474506
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to remove meta-command resources.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROY_METACOMMAND Pfnd3d12ddiDestroyMetacommand;

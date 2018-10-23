@@ -6,11 +6,8 @@ description: The SpbTargetGetConnectionParameters method retrieves the connectio
 old-location: spb\spbtargetgetconnectionparameters.htm
 tech.root: SPB
 ms.assetid: 0692D8A3-CA43-4D27-9E8E-EB104DB1651F
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: SPB.spbtargetgetconnectionparameters, SpbTargetGetConnectionParameters, SpbTargetGetConnectionParameters method [Buses], spbcx/SpbTargetGetConnectionParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: spbcx.h
 req.include-header: 
@@ -61,7 +58,7 @@ The <b>SpbTargetGetConnectionParameters</b> method retrieves the connection para
 
 ### -param Target [in]
 
-An <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a> handle to the target device for which to retrieve the connection parameters.
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a> handle to the target device for which to retrieve the connection parameters.
 
 
 ### -param ConnectionParameters [out]
@@ -106,7 +103,7 @@ The SPB framework extension (SpbCx) calls your controller driver's <a href="http
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
 
 
 

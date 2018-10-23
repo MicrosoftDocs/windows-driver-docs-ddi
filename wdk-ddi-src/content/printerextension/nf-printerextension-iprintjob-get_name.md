@@ -6,11 +6,8 @@ description: Gets the name of the print job.
 old-location: print\iprintjob_name.htm
 tech.root: print
 ms.assetid: E060EDA8-691F-4860-B422-24DFB7FCAFEF
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintJob interface [Print Devices],Name property, IPrintJob.Name, IPrintJob.get_Name, IPrintJob::Name, IPrintJob::get_Name, Name property [Print Devices], Name property [Print Devices],IPrintJob interface, get_Name, print.iprintjob_name, printerextension/IPrintJob::Name, printerextension/IPrintJob::get_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header: 

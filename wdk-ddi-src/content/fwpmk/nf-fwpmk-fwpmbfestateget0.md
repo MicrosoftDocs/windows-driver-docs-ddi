@@ -6,11 +6,8 @@ description: The FwpmBfeStateGet0 function retrieves the current state of the fi
 old-location: netvista\fwpmbfestateget0.htm
 tech.root: netvista
 ms.assetid: f165c5a0-6f8e-495f-90b9-62d0d8982456
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FwpmBfeStateGet0, FwpmBfeStateGet0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmBfeStateGet0, netvista.fwpmbfestateget0, wfp_ref_2_funct_2_fwpm_6f70e48b-0c6c-465e-95c3-fa41413398db.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmk.h
 req.include-header: Fwpmk.h

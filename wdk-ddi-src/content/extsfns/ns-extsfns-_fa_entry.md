@@ -6,11 +6,8 @@ description: A DebugFailureAnalysis object has a collection of failure analysis 
 old-location: debugger\fa_entry.htm
 tech.root: debugger
 ms.assetid: 912DCC1E-2C81-4702-8E12-6331DFB298F0
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: "*PFA_ENTRY, FA_ENTRY, FA_ENTRY structure [Windows Debugging], _FA_ENTRY, debugger.fa_entry, extsfns/FA_ENTRY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: extsfns.h
 req.include-header: 
@@ -60,7 +57,7 @@ A <a href="https://msdn.microsoft.com/0B44FCB9-D23F-4630-9F9A-FBAD46712B14">Debu
 
 ### -field Tag
 
-A value in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
+A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
 
 ### -field FullSize

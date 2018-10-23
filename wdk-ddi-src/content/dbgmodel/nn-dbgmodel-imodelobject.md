@@ -4,11 +4,8 @@ title: IModelObject
 author: windows-driver-content
 description: The IModelObject interface encapsulates the notion of an object -- whether that object is an integer, a string, some complex type in the target address space of the debugger. 
 ms.assetid: d4ac8601-7610-40af-8fe5-0ce0d96fe124
-ms.author: windowsdriverdev
-ms.date: 07/20/2018 
+ms.date: 07/20/2018
 ms.topic: interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

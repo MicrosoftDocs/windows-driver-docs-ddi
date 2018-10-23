@@ -6,11 +6,8 @@ description: The FltDeleteExtraCreateParameterLookasideList routine frees an ext
 old-location: ifsk\fltdeleteextracreateparameterlookasidelist.htm
 tech.root: ifsk
 ms.assetid: 8df06f2c-7358-49ea-8948-b76c5090d75b
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_ac849af2-706e-4eac-be0b-1c3c905ccdfe.xml, FltDeleteExtraCreateParameterLookasideList, FltDeleteExtraCreateParameterLookasideList routine [Installable File System Drivers], fltkernel/FltDeleteExtraCreateParameterLookasideList, ifsk.fltdeleteextracreateparameterlookasidelist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

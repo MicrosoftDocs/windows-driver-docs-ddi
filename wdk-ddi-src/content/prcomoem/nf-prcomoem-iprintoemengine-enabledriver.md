@@ -6,11 +6,8 @@ description:
 old-location: print\iprintoemengine_enabledriver.htm
 tech.root: print
 ms.assetid: 638E4FBE-8F53-4509-BFAE-59C02D2D1C4B
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: EnableDriver, EnableDriver method [Print Devices], EnableDriver method [Print Devices],IPrintOemEngine interface, IPrintOemEngine interface [Print Devices],EnableDriver method, IPrintOemEngine.EnableDriver, IPrintOemEngine::EnableDriver, prcomoem/IPrintOemEngine::EnableDriver, print.iprintoemengine_enabledriver
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: 

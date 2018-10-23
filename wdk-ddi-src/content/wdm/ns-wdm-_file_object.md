@@ -6,11 +6,8 @@ description: The FILE_OBJECT structure is used by the system to represent a file
 old-location: kernel\file_object.htm
 tech.root: kernel
 ms.assetid: fa87a3e8-97d2-48c0-9722-2be011d145dd
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PFILE_OBJECT, *PLOG_FILE_OBJECT, FILE_OBJECT, FILE_OBJECT structure [Kernel-Mode Driver Architecture], LOG_FILE_OBJECT, LOG_FILE_OBJECT structure [Kernel-Mode Driver Architecture], PFILE_OBJECT, PFILE_OBJECT structure pointer [Kernel-Mode Driver Architecture], _FILE_OBJECT, kernel.file_object, kstruct_b_513d4c8b-8e8d-402f-836d-18e00767bd29.xml, wdm/FILE_OBJECT, wdm/LOG_FILE_OBJECT, wdm/PFILE_OBJECT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
@@ -517,7 +514,7 @@ An opaque pointer to the head of the IRP list associated with the file object.
 
 ### -field FileObjectExtension
 
-An opaque pointer to the file object's file object extension (<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fobx-structure">FOBX</a>) structure. The <b>FOBX</b> structure contains various opaque contexts used internally as well as the per-file object contexts available through <b>FsRtl<i>Xxx</i></b> routines.
+An opaque pointer to the file object's file object extension (<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-fobx-structure">FOBX</a>) structure. The <b>FOBX</b> structure contains various opaque contexts used internally as well as the per-file object contexts available through <b>FsRtl<i>Xxx</i></b> routines.
 
 
 ## -remarks
@@ -568,7 +565,7 @@ CLFS clients do not directly access the members of a <b>LOG_FILE_OBJECT</b> stru
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fobx-structure">FOBX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-fobx-structure">FOBX</a>
 
 
 

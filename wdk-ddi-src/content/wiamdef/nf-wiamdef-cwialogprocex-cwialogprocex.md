@@ -6,11 +6,8 @@ description: The CWiaLogProcEx constructor is called when the function or method
 old-location: image\cwialogprocex_cwialogprocex.htm
 tech.root: image
 ms.assetid: D4004501-2DA5-416C-A29B-C0084CF34DC9
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: CWiaLogProcEx, CWiaLogProcEx interface [Imaging Devices],CWiaLogProcEx method, CWiaLogProcEx method [Imaging Devices], CWiaLogProcEx method [Imaging Devices],CWiaLogProcEx interface, CWiaLogProcEx.CWiaLogProcEx, CWiaLogProcEx::CWiaLogProcEx, image.cwialogprocex_cwialogprocex, wiamdef/CWiaLogProcEx::CWiaLogProcEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
@@ -114,7 +111,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt844723">CWiaLogProcEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt844723">CWiaLogProcEx</a>
  
 
  

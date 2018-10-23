@@ -6,11 +6,8 @@ description: RxStartMinirdr is called to start up a network mini-redirector that
 old-location: ifsk\rxstartminirdr.htm
 tech.root: ifsk
 ms.assetid: d5b091fa-13bf-4761-a03d-1790e7045b69
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxStartMinirdr, RxStartMinirdr function [Installable File System Drivers], ifsk.rxstartminirdr, mrx/RxStartMinirdr, rxref_0ecf01ed-771f-44e8-a107-6d3a0d2beb02.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mrx.h
 req.include-header: Mrx.h

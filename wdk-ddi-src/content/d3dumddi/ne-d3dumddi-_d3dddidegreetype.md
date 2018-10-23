@@ -4,12 +4,9 @@ title: _D3DDDIDEGREETYPE
 author: windows-driver-content
 description: The degree type.
 ms.assetid: 6bd9e98f-470b-4e2e-8565-0bc0fc1ddd5f
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DDDIDEGREETYPE, D3DDDIDEGREETYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dumddi.h
 req.include-header:
 req.target-type:

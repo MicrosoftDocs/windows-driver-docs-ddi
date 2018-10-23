@@ -6,11 +6,8 @@ description: The PWINDBG_GET_EXPRESSION (GetExpression) function returns the val
 old-location: debugger\getexpression.htm
 tech.root: debugger
 ms.assetid: 20d75838-6dbf-49a2-a0c9-a0c1ae74d7a6
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetExpression, GetExpression callback function [Windows Debugging], PWINDBG_GET_EXPRESSION, PWINDBG_GET_EXPRESSION callback, WdbgExts_Ref_666ae7de-7842-4ba8-9352-e79aefe24ba7.xml, debugger.getexpression, wdbgexts/GetExpression
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h

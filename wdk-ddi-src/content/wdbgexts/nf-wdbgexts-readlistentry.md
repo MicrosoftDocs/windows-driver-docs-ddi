@@ -6,11 +6,8 @@ description: The ReadListEntry function reads a doubly-linked list entry from th
 old-location: debugger\readlistentry.htm
 tech.root: debugger
 ms.assetid: b5bfbb6d-4797-4e5f-bc66-398527b13d85
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ReadListEntry, ReadListEntry function [Windows Debugging], WdbgExts_Ref_ab7a48d6-aa2a-4ed1-a4dc-7339993ccb45.xml, debugger.readlistentry, wdbgexts/ReadListEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h, Winnt.h, Ntdef.h

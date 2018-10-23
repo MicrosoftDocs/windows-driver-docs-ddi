@@ -6,11 +6,8 @@ description: Allocates memory for an initialization structure that is used to cr
 old-location: buses\udecxusbsimpleendpointinitallocate.htm
 tech.root: usbref
 ms.assetid: 1BF79756-F55D-4F13-A03C-35F7880C5B21
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UdecxUsbSimpleEndpointInitAllocate, UdecxUsbSimpleEndpointInitAllocate function [Buses], buses.udecxusbsimpleendpointinitallocate, udecxusbendpoint/UdecxUsbSimpleEndpointInitAllocate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: udecxusbendpoint.h
 req.include-header: Udecx.h

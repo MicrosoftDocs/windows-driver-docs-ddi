@@ -6,11 +6,8 @@ description: Reserved.
 old-location: ifsk\system_process_trust_label_ace.htm
 tech.root: ifsk
 ms.assetid: DF334754-8027-418D-B329-877492896B82
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PSYSTEM_PROCESS_TRUST_LABEL_ACE, SYSTEM_PROCESS_TRUST_LABEL_ACE, SYSTEM_PROCESS_TRUST_LABEL_ACE structure [Installable File System Drivers], _SYSTEM_PROCESS_TRUST_LABEL_ACE, ifsk.system_process_trust_label_ace, ntifs/SYSTEM_PROCESS_TRUST_LABEL_ACE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntifs.h
 req.include-header: 

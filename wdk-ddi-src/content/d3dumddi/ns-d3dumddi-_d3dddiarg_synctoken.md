@@ -4,11 +4,8 @@ title: _D3DDDIARG_SYNCTOKEN
 author: windows-driver-content
 description: A structure to provide sync token info.
 ms.assetid: 1939162a-8e80-4fc5-8eaf-ab299fb40113
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DDDIARG_SYNCTOKEN, D3DDDIARG_SYNCTOKEN, 
 req.header: d3dumddi.h
 req.include-header:

@@ -4,11 +4,8 @@ title: D3D12DDIARG_CREATECOMMANDQUEUE_0050
 author: windows-driver-content
 description: Arguments used to create a hardware command queue.
 ms.assetid: ff28c67f-17f9-417c-bdb3-bdaf00056b37
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDIARG_CREATECOMMANDQUEUE_0050, D3D12DDIARG_CREATECOMMANDQUEUE_0050, 
 req.header: d3d12umddi.h
 req.include-header:

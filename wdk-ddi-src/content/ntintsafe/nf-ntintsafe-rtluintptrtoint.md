@@ -6,11 +6,8 @@ description: Converts a value of type UINT_PTR to a value of type INT.
 old-location: kernel\rtluintptrtoint.htm
 tech.root: kernel
 ms.assetid: C33B717D-0874-47AB-8503-D6F82F713CBF
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUIntPtrToInt, RtlUIntPtrToInt function [Kernel-Mode Driver Architecture], kernel.rtluintptrtoint, ntintsafe/RtlUIntPtrToInt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: Given an ANSI or double-byte character set (DBCS) pathname string, 
 old-location: ifsk\fsrtldissectdbcs.htm
 tech.root: ifsk
 ms.assetid: c5c400af-9e59-4cf0-b66f-985fcdcbc75c
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlDissectDbcs, FsRtlDissectDbcs routine [Installable File System Drivers], fsrtlref_95d6ca19-1a11-4fc9-85a5-ea3cf307d2d0.xml, ifsk.fsrtldissectdbcs, ntifs/FsRtlDissectDbcs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h

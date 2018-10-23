@@ -6,11 +6,8 @@ description: The WdfUsbTargetDeviceWdmGetConfigurationHandle method returns the 
 old-location: wdf\wdfusbtargetdevicewdmgetconfigurationhandle.htm
 tech.root: wdf
 ms.assetid: 7f501e5c-13dd-418d-9b9f-f984aed45cc0
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_503d3873-7148-4084-b56e-199b7437511b.xml, WdfUsbTargetDeviceWdmGetConfigurationHandle, WdfUsbTargetDeviceWdmGetConfigurationHandle method, kmdf.wdfusbtargetdevicewdmgetconfigurationhandle, wdf.wdfusbtargetdevicewdmgetconfigurationhandle, wdfusb/WdfUsbTargetDeviceWdmGetConfigurationHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

@@ -6,11 +6,8 @@ description: The IPrintOemDriverPS::DrvWriteSpoolBuf method is provided by the P
 old-location: print\iprintoemdriverps_drvwritespoolbuf.htm
 tech.root: print
 ms.assetid: 91eb36b3-ea05-4a5e-8bba-47c262a4fa4a
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: DrvWriteSpoolBuf, DrvWriteSpoolBuf method [Print Devices], DrvWriteSpoolBuf method [Print Devices],IPrintOemDriverPS interface, IPrintOemDriverPS interface [Print Devices],DrvWriteSpoolBuf method, IPrintOemDriverPS.DrvWriteSpoolBuf, IPrintOemDriverPS::DrvWriteSpoolBuf, prcomoem/IPrintOemDriverPS::DrvWriteSpoolBuf, print.iprintoemdriverps_drvwritespoolbuf, print_unidrv-pscript_rendering_aa71a302-dc97-4bc2-8cbb-fd32c6237e74.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

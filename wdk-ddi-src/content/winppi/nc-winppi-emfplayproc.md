@@ -4,11 +4,8 @@ title: EMFPLAYPROC
 author: windows-driver-content
 description: 
 ms.assetid: 3c04887d-df3a-4084-965f-ac007e984aad
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: winppi.h
 req.include-header:
 req.target-type:
@@ -45,7 +42,7 @@ targetos: Windows
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EMFPLAYPROC Emfplayproc; 

@@ -6,11 +6,8 @@ description: The NFC_CX_NFCIP_MODE_CONFIG enumeration specifies the NFC-IP initi
 old-location: nfpdrivers\nfc_cx_nfcip_mode_config.htm
 tech.root: nfpdrivers
 ms.assetid: B922FF18-8840-4BBB-8B32-BEF7B6DE4731
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PNFC_CX_NFCIP_MODE_CONFIG, NFC_CX_NFCIP_DEFAULT, NFC_CX_NFCIP_MODE_CONFIG, NFC_CX_NFCIP_MODE_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_NFCIP_MODE_CONFIG,*PNFC_CX_NFCIP_MODE_CONFIG, NFC_CX_NFCIP_MODE_CONFIG,*PNFC_CX_NFCIP_MODE_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_NFCIP_NFC_A, NFC_CX_NFCIP_NFC_ACTIVE, NFC_CX_NFCIP_NFC_ACTIVE_A, NFC_CX_NFCIP_NFC_ACTIVE_F_212, NFC_CX_NFCIP_NFC_ACTIVE_F_424, NFC_CX_NFCIP_NFC_F_212, NFC_CX_NFCIP_NFC_F_424, _NFC_CX_NFCIP_MODE_CONFIG, nfccx/NFC_CX_NFCIP_DEFAULT, nfccx/NFC_CX_NFCIP_MODE_CONFIG, nfccx/NFC_CX_NFCIP_NFC_A, nfccx/NFC_CX_NFCIP_NFC_ACTIVE, nfccx/NFC_CX_NFCIP_NFC_ACTIVE_A, nfccx/NFC_CX_NFCIP_NFC_ACTIVE_F_212, nfccx/NFC_CX_NFCIP_NFC_ACTIVE_F_424, nfccx/NFC_CX_NFCIP_NFC_F_212, nfccx/NFC_CX_NFCIP_NFC_F_424, nfpdrivers.nfc_cx_nfcip_mode_config"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: nfccx.h
 req.include-header: Ncidef.h
@@ -91,7 +88,7 @@ The NFC_CX_NFCIP_MODE_CONFIG enumeration specifies the NFC-IP initiator mode.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
  
 
  

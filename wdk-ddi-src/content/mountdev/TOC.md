@@ -1,8 +1,0 @@
-# [Storage](../_storage/index.md)
-## [Mountdev.h](index.md)
-### [IOCTL_MOUNTDEV_LINK_CREATED IOCTL](../mountdev/ni-mountdev-ioctl_mountdev_link_created.md)
-### [IOCTL_MOUNTDEV_LINK_DELETED IOCTL](../mountdev/ni-mountdev-ioctl_mountdev_link_deleted.md)
-### [IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME IOCTL](../mountdev/ni-mountdev-ioctl_mountdev_query_suggested_link_name.md)
-### [IOCTL_MOUNTDEV_QUERY_UNIQUE_ID IOCTL](../mountdev/ni-mountdev-ioctl_mountdev_query_unique_id.md)
-### [_MOUNTDEV_SUGGESTED_LINK_NAME structure](../mountdev/ns-mountdev-_mountdev_suggested_link_name.md)
-### [_MOUNTDEV_UNIQUE_ID structure](../mountdev/ns-mountdev-_mountdev_unique_id.md)

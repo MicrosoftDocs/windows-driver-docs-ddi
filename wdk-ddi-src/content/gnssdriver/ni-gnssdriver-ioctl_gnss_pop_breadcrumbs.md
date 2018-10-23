@@ -6,11 +6,8 @@ description: The IOCTL_GNSS_POP_BREADCRUMBS control code is used to request a li
 old-location: gnss\ioctl_gnss_pop_breadcrumbs_.htm
 tech.root: gnss
 ms.assetid: D5F7ACDC-25A0-49A4-95D4-C48B3E94CF69
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_GNSS_POP_BREADCRUMBS, IOCTL_GNSS_POP_BREADCRUMBS control, IOCTL_GNSS_POP_BREADCRUMBS control code [Sensor Devices], gnss.ioctl_gnss_pop_breadcrumbs_, gnssdriver/IOCTL_GNSS_POP_BREADCRUMBS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: gnssdriver.h
 req.include-header: 

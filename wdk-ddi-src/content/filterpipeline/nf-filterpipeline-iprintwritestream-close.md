@@ -6,11 +6,8 @@ description: The Close method closes a stream and ends the writing to that strea
 old-location: print\iprintwritestream_close.htm
 tech.root: print
 ms.assetid: d3f828bf-854f-4d2d-a869-ee5c002a1728
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: Close, Close method [Print Devices], Close method [Print Devices],IPrintWriteStream interface, IPrintWriteStream interface [Print Devices],Close method, IPrintWriteStream.Close, IPrintWriteStream::Close, filterpipeline/IPrintWriteStream::Close, filterpipeline_68b1e38f-f42a-4fa1-92f1-2181ac15033e.xml, print.iprintwritestream_close
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: filterpipeline.h
 req.include-header: 

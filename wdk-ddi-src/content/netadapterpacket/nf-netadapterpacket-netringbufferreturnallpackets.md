@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NetRingBufferReturnAllPackets method returns all packets in a datapath queue's packet ring buffer.
 tech.root: netvista
 ms.assetid: f4d7932d-0e28-4583-a505-aba889f8be27
-ms.author: windowsdriverdev
 ms.date: 02/28/2018
 ms.topic: function
 ms.keywords: NetRingBufferReturnAllPackets

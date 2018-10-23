@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_addcallforwarding.htm
 tech.root: netvista
 ms.assetid: 86b08757-bbc0-4f19-8153-c6ecae158cf2
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_AddCallForwarding, RIL_AddCallForwarding method [Network Drivers Starting with Windows Vista], netvista.ril_addcallforwarding, rilapi/RIL_AddCallForwarding
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rilapi.h
 req.include-header: 

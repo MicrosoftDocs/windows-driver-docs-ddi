@@ -6,11 +6,8 @@ description: The NdisIfAddIfStackEntry function specifies the ordering of two ne
 old-location: netvista\ndisifaddifstackentry.htm
 tech.root: netvista
 ms.assetid: 6927bcdf-e2b5-4a60-8f71-a977f3a1c120
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisIfAddIfStackEntry, NdisIfAddIfStackEntry function [Network Drivers Starting with Windows Vista], ndis/NdisIfAddIfStackEntry, net_if_functions_ref_3e652431-fb28-4382-957a-3c532951e847.xml, netvista.ndisifaddifstackentry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -137,7 +134,7 @@ NDIS drivers can call the
     drivers.
 
 NDIS maintains an interface stack table (<i>ifStackTable</i> from 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/overview-of-ndis-network-interfaces">RFC 2863</a>). NDIS provides
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/overview-of-ndis-network-interfaces">RFC 2863</a>). NDIS provides
     the 
     <b>NdisIfAddIfStackEntry</b> and 
     <a href="https://msdn.microsoft.com/02b4a485-d44b-458c-89f5-1807500b6db8">

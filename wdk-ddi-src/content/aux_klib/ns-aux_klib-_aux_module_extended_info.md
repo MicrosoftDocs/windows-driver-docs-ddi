@@ -6,11 +6,8 @@ description: The AUX_MODULE_EXTENDED_INFO structure contains extended informatio
 old-location: kernel\aux_module_extended_info.htm
 tech.root: kernel
 ms.assetid: 9733b17d-c990-4eda-87e2-906f2f78c5d5
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PAUX_MODULE_EXTENDED_INFO, AUX_MODULE_EXTENDED_INFO, AUX_MODULE_EXTENDED_INFO structure [Kernel-Mode Driver Architecture], PAUX_MODULE_EXTENDED_INFO, PAUX_MODULE_EXTENDED_INFO structure pointer [Kernel-Mode Driver Architecture], _AUX_MODULE_EXTENDED_INFO, aux_klib/AUX_MODULE_EXTENDED_INFO, aux_klib/PAUX_MODULE_EXTENDED_INFO, aux_klib_670e2af9-0080-49b9-85c4-06a6b1ae06c6.xml, kernel.aux_module_extended_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: aux_klib.h
 req.include-header: Aux_klib.h

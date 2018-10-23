@@ -5,12 +5,9 @@ author: windows-driver-content
 description: Specifies wake patterns that an adapter supports.
 tech.root: netvista
 ms.assetid: ef1fc7e0-e739-4915-a5ac-924bdfd78cb8
-ms.author: windowsdriverdev
 ms.date: 02/05/2018
 ms.topic: enum
 ms.keywords: _NET_ADAPTER_WAKE_PATTERN_FLAGS, NET_ADAPTER_WAKE_PATTERN_FLAGS, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: netadapter.h
 req.include-header:
 req.target-type:

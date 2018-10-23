@@ -6,11 +6,8 @@ description: The FEATURE_PROFILE_TYPE enumeration provides a list of the profile
 old-location: storage\feature_profile_type.htm
 tech.root: storage
 ms.assetid: 60cce78f-1025-41a7-861d-150ef28376cb
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PFEATURE_PROFILE_TYPE, FEATURE_PROFILE_TYPE, FEATURE_PROFILE_TYPE enumeration [Storage Devices], PFEATURE_PROFILE_TYPE, PFEATURE_PROFILE_TYPE enumeration pointer [Storage Devices], ProfileAS_MO, ProfileBDRRandomWritable, ProfileBDRSequentialWritable, ProfileBDRewritable, ProfileBDRom, ProfileCdRecordable, ProfileCdRewritable, ProfileCdrom, ProfileDDCdRecordable, ProfileDDCdRewritable, ProfileDDCdrom, ProfileDvdDashRDualLayer, ProfileDvdDashRLayerJump, ProfileDvdPlusR, ProfileDvdPlusRDualLayer, ProfileDvdPlusRW, ProfileDvdPlusRWDualLayer, ProfileDvdRWSequential, ProfileDvdRam, ProfileDvdRecordable, ProfileDvdRewritable, ProfileDvdRom, ProfileHDDVDRDualLayer, ProfileHDDVDRWDualLayer, ProfileHDDVDRam, ProfileHDDVDRecordable, ProfileHDDVDRewritable, ProfileHDDVDRom, ProfileInvalid, ProfileMOErasable, ProfileMOWriteOnce, ProfileNonRemovableDisk, ProfileNonStandard, ProfileRemovableDisk, _FEATURE_PROFILE_TYPE, ntddmmc/FEATURE_PROFILE_TYPE, ntddmmc/PFEATURE_PROFILE_TYPE, ntddmmc/ProfileAS_MO, ntddmmc/ProfileBDRRandomWritable, ntddmmc/ProfileBDRSequentialWritable, ntddmmc/ProfileBDRewritable, ntddmmc/ProfileBDRom, ntddmmc/ProfileCdRecordable, ntddmmc/ProfileCdRewritable, ntddmmc/ProfileCdrom, ntddmmc/ProfileDDCdRecordable, ntddmmc/ProfileDDCdRewritable, ntddmmc/ProfileDDCdrom, ntddmmc/ProfileDvdDashRDualLayer, ntddmmc/ProfileDvdDashRLayerJump, ntddmmc/ProfileDvdPlusR, ntddmmc/ProfileDvdPlusRDualLayer, ntddmmc/ProfileDvdPlusRW, ntddmmc/ProfileDvdPlusRWDualLayer, ntddmmc/ProfileDvdRWSequential, ntddmmc/ProfileDvdRam, ntddmmc/ProfileDvdRecordable, ntddmmc/ProfileDvdRewritable, ntddmmc/ProfileDvdRom, ntddmmc/ProfileHDDVDRDualLayer, ntddmmc/ProfileHDDVDRWDualLayer, ntddmmc/ProfileHDDVDRam, ntddmmc/ProfileHDDVDRecordable, ntddmmc/ProfileHDDVDRewritable, ntddmmc/ProfileHDDVDRom, ntddmmc/ProfileInvalid, ntddmmc/ProfileMOErasable, ntddmmc/ProfileMOWriteOnce, ntddmmc/ProfileNonRemovableDisk, ntddmmc/ProfileNonStandard, ntddmmc/ProfileRemovableDisk, storage.feature_profile_type, structs-CD-ROM_89bf20da-a096-4f37-ab24-219533578d34.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h

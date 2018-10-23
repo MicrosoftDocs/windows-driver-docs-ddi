@@ -6,11 +6,8 @@ description: The WdfDeviceRetrieveDeviceInterfaceString method retrieves the sym
 old-location: wdf\wdfdeviceretrievedeviceinterfacestring.htm
 tech.root: wdf
 ms.assetid: 97c67410-851c-4352-8ace-5738ab4332d2
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_a7f98bd1-23e0-4461-9a6c-481b8e10ba63.xml, WdfDeviceRetrieveDeviceInterfaceString, WdfDeviceRetrieveDeviceInterfaceString method, kmdf.wdfdeviceretrievedeviceinterfacestring, wdf.wdfdeviceretrievedeviceinterfacestring, wdfdevice/WdfDeviceRetrieveDeviceInterfaceString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h
@@ -80,7 +77,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 ### -param String [in]
 
-A handle to a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-string-objects">framework string object</a>. The framework will assign the symbolic link name's Unicode string to the string object.
+A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-string-objects">framework string object</a>. The framework will assign the symbolic link name's Unicode string to the string object.
 
 
 ## -returns
@@ -164,7 +161,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-For more information about device interfaces, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces">Using Device Interfaces</a>.
+For more information about device interfaces, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-device-interfaces">Using Device Interfaces</a>.
 
 
 #### Examples

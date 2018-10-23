@@ -6,11 +6,8 @@ description: The WDI_MESSAGE_HEADER structure defines the WDI message header. Al
 old-location: netvista\wdi_message_header.htm
 tech.root: netvista
 ms.assetid: 69c3ebf5-8805-47d0-a507-d2e3e1d1b0df
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWDI_MESSAGE_HEADER, PWDI_MESSAGE_HEADER, PWDI_MESSAGE_HEADER structure pointer [Network Drivers Starting with Windows Vista], WDI_MESSAGE_HEADER, WDI_MESSAGE_HEADER structure [Network Drivers Starting with Windows Vista], _WDI_MESSAGE_HEADER, dot11wdi/PWDI_MESSAGE_HEADER, dot11wdi/WDI_MESSAGE_HEADER, netvista.wdi_message_header"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dot11wdi.h
 req.include-header: 

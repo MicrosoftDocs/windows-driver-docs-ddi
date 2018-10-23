@@ -6,11 +6,8 @@ description: Initializes a framework device object to support operations related
 old-location: buses\udecxwdfdeviceaddusbdeviceemulation.htm
 tech.root: usbref
 ms.assetid: EE7644A9-AA57-4C53-9FA5-F844F2BFB0D7
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UdecxWdfDeviceAddUsbDeviceEmulation, UdecxWdfDeviceAddUsbDeviceEmulation function [Buses], buses.udecxwdfdeviceaddusbdeviceemulation, udecxwdfdevice/UdecxWdfDeviceAddUsbDeviceEmulation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: udecxwdfdevice.h
 req.include-header: Udecx.h

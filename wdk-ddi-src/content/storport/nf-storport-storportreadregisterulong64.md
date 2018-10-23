@@ -6,11 +6,8 @@ description: The StorPortReadRegisterUlong64 routine reads a 64-bit value from a
 old-location: storage\storportreadregisterulong64.htm
 tech.root: storage
 ms.assetid: 73A9E645-0B71-429F-9033-032BB83E60E4
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortReadRegisterUlong64, StorPortReadRegisterUlong64 routine [Storage Devices], storage.storportreadregisterulong64, storport/StorPortReadRegisterUlong64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: storport.h
 req.include-header: Storport.h

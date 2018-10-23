@@ -6,11 +6,8 @@ description: The KSPROPERTY_TUNER_IF_MEDIUM_S structure returns the Medium GUID 
 old-location: stream\ksproperty_tuner_if_medium_s.htm
 tech.root: stream
 ms.assetid: 19f79b01-1a3c-4695-96ec-2f7410f6b4aa
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSPROPERTY_TUNER_IF_MEDIUM_S, KSPROPERTY_TUNER_IF_MEDIUM_S, KSPROPERTY_TUNER_IF_MEDIUM_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_IF_MEDIUM_S, PKSPROPERTY_TUNER_IF_MEDIUM_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_IF_MEDIUM_S, ksmedia/PKSPROPERTY_TUNER_IF_MEDIUM_S, stream.ksproperty_tuner_if_medium_s, vidcapstruct_8fb32d31-0264-49c3-b8de-3773e37441cc.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksmedia.h
 req.include-header: Ksmedia.h

@@ -4,7 +4,6 @@ title: IDynamicKeyProviderConcept::QueryInterface
 author: windows-driver-content
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: 792fda8f-9c28-409f-a0b3-150bba2a9a7c
-ms.author: windowsdriverdev
 ms.date: 09/19/2018
 ms.topic: method
 ms.keywords: IDynamicKeyProviderConcept::QueryInterface, QueryInterface, IDynamicKeyProviderConcept.QueryInterface, IDynamicKeyProviderConcept::QueryInterface, IDynamicKeyProviderConcept.QueryInterface

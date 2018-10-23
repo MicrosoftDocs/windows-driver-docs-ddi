@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extihvstoppostassociate.htm
 tech.root: netvista
 ms.assetid: bd924049-3932-4e85-908e-c3fb488b3a8c
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: DOT11EXTIHV_STOP_POST_ASSOCIATE, Dot11ExtIhvStopPostAssociate, Dot11ExtIhvStopPostAssociate callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_674652ff-a01d-493b-9b11-bff378f25f2a.xml, netvista.dot11extihvstoppostassociate, wlanihv/Dot11ExtIhvStopPostAssociate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wlanihv.h
 req.include-header: Wlanihv.h, Windot11.h
@@ -63,7 +60,7 @@ The operating system calls the
 ## -prototype
 
 
-````
+```cpp
 DOT11EXTIHV_STOP_POST_ASSOCIATE Dot11ExtIhvStopPostAssociate;
 
 DWORD APIENTRY Dot11ExtIhvStopPostAssociate(
@@ -72,7 +69,7 @@ DWORD APIENTRY Dot11ExtIhvStopPostAssociate(
   _In_     DOT11_ASSOC_STATUS dot11AssocStatus
 )
 { ... }
-````
+```
 
 
 ## -parameters
@@ -129,7 +126,7 @@ The operating system calls the
 <li>
 The WLAN adapter completes a disassociation operation with the AP. In this situation, the Native
       802.11 miniport driver, which manages the adapter, makes a media-specific
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
       NDIS_STATUS_DOT11_DISASSOCIATION</a> indication. For more information about the disassociation
       operation, see
       <a href="https://msdn.microsoft.com/3589a694-a69a-481f-8479-ea918287736d">Disassociation Operations</a>.
@@ -151,7 +148,7 @@ The operating system calls the
     Dot11ExtPostAssociateCompletion</a>.
 
 For more information about the post-association operation, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/post-association-operations">Post-Association Operations</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/post-association-operations">Post-Association Operations</a>.
 
 
 
@@ -170,7 +167,7 @@ For more information about the post-association operation, see
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
    NDIS_STATUS_DOT11_DISASSOCIATION</a>
 
 

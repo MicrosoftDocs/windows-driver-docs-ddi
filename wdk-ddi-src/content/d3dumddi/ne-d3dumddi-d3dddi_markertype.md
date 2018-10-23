@@ -6,11 +6,8 @@ description: Indicates the type of Event Tracing for Windows (ETW) marker event 
 old-location: display\d3dddi_markertype.htm
 tech.root: display
 ms.assetid: 55A48F87-B96C-42E7-B9B4-3C829097CAE9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDIMT_NONE, D3DDDIMT_PROFILE, D3DDDI_MARKERTYPE, D3DDDI_MARKERTYPE enumeration [Display Devices], d3dumddi/D3DDDIMT_NONE, d3dumddi/D3DDDIMT_PROFILE, d3dumddi/D3DDDI_MARKERTYPE, display.d3dddi_markertype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h

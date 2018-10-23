@@ -6,11 +6,8 @@ description: The NDIS_RESTART_GENERAL_ATTRIBUTES structure defines the general r
 old-location: netvista\ndis_restart_general_attributes.htm
 tech.root: netvista
 ms.assetid: f67bd2fe-4553-4b1a-8d39-26777bcc60e0
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_RESTART_GENERAL_ATTRIBUTES, NDIS_RESTART_GENERAL_ATTRIBUTES, NDIS_RESTART_GENERAL_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNDIS_RESTART_GENERAL_ATTRIBUTES, PNDIS_RESTART_GENERAL_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RESTART_GENERAL_ATTRIBUTES, miniport_structures_ref_10a54e42-4d48-4fdc-8a68-43771c319215.xml, ndis/NDIS_RESTART_GENERAL_ATTRIBUTES, ndis/PNDIS_RESTART_GENERAL_ATTRIBUTES, netvista.ndis_restart_general_attributes"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -130,14 +127,14 @@ The medium access control (MAC) options for the miniport adapter. For more infor
 ### -field SupportedPacketFilters
 
 The packet filter flags for the miniport adapter. For more information, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-supported-packet-filters">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-supported-packet-filters">
      OID_GEN_SUPPORTED_PACKET_FILTERS</a>.
 
 
 ### -field MaxMulticastListSize
 
 The maximum multicast address list size for the miniport adapter. For more information, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-802-3-maximum-list-size">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-802-3-maximum-list-size">
      OID_802_3_MAXIMUM_LIST_SIZE</a>.
 
 
@@ -149,7 +146,7 @@ The receive side scaling (RSS) capabilities of the NIC. If the miniport adapter 
      <a href="https://msdn.microsoft.com/dabd8f65-1aa5-4d45-9c0a-4539efd762c6">
      NDIS_RECEIVE_SCALE_CAPABILITIES</a> structure that is filled with zeros. For more information about
      RSS, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
      OID_GEN_RECEIVE_SCALE_CAPABILITIES</a>.
 
 
@@ -226,7 +223,7 @@ NDIS passes an NDIS_RESTART_GENERAL_ATTRIBUTES structure to drivers during resta
 
 If the 
     <b>Oid</b> member in the NDIS_RESTART_ATTRIBUTES structure is 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
     OID_GEN_MINIPORT_RESTART_ATTRIBUTES</a>, the 
     <b>Data</b> member of NDIS_RESTART_ATTRIBUTES contains an NDIS_RESTART_GENERAL_ATTRIBUTES structure.
 
@@ -277,7 +274,7 @@ If the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-802-3-maximum-list-size">OID_802_3_MAXIMUM_LIST_SIZE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-802-3-maximum-list-size">OID_802_3_MAXIMUM_LIST_SIZE</a>
 
 
 
@@ -297,12 +294,12 @@ If the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
    OID_GEN_MINIPORT_RESTART_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-statistics">OID_GEN_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-statistics">OID_GEN_STATISTICS</a>
 
 
 
@@ -310,7 +307,7 @@ If the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-supported-packet-filters">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-supported-packet-filters">
    OID_GEN_SUPPORTED_PACKET_FILTERS</a>
 
 

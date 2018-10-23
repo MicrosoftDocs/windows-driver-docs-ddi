@@ -6,11 +6,8 @@ description: The NdkCreateCq (NDK_FN_CREATE_CQ) function creates an NDK completi
 old-location: netvista\ndk_fn_create_cq.htm
 tech.root: netvista
 ms.assetid: 25F820D4-04AF-488E-BBDA-1E9D82B7483E
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_FN_CREATE_CQ, NDK_FN_CREATE_CQ callback, NdkCreateCq, NdkCreateCq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateCq, netvista.ndk_fn_create_cq
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndkpi.h
 req.include-header: Ndkpi.h

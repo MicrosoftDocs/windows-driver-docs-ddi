@@ -6,11 +6,8 @@ description: A protocol driver calls the NdisOpenAdapterEx function from its Pro
 old-location: netvista\ndisopenadapterex.htm
 tech.root: netvista
 ms.assetid: 2dc356e6-a2ef-4b43-abe5-7c5058c15cf5
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisOpenAdapterEx, NdisOpenAdapterEx function [Network Drivers Starting with Windows Vista], ndis/NdisOpenAdapterEx, netvista.ndisopenadapterex, protocol_ndis_functions_ref_7ea04244-bfbb-460d-86f3-35e908850c6a.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilc2kmrl_2.htm
 tech.root: netvista
 ms.assetid: a06d81d1-9ecc-41da-b0ad-fa878fac382b
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*LPRILC2KMRL, RILC2KMRL, RILC2KMRL structure [Network Drivers Starting with Windows Vista], netvista.rilc2kmrl_2, rilapitypes/RILC2KMRL"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
 req.include-header:
@@ -57,7 +54,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```cpp
 typedef struct _RILC2KMRL {
   DWORD  dwParams;
   BOOL   fServing;
@@ -70,7 +67,7 @@ typedef struct _RILC2KMRL {
   DWORD  dwGPSSeconds;
   DWORD  dwPilotStrength;
 } RILC2KMRL, RILC2KMRL;
-````
+```
 
 
 ## -struct-fields

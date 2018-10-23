@@ -6,11 +6,8 @@ description: Provides info about the next Miracast encode chunk that was reporte
 old-location: display\getnextchunkdata.htm
 tech.root: display
 ms.assetid: 24b1d89a-4200-41ec-aa73-15b37e4cca6d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: GetNextChunkData, GetNextChunkData callback function [Display Devices], PFN_GET_NEXT_CHUNK_DATA, PFN_GET_NEXT_CHUNK_DATA callback, display.getnextchunkdata, netdispumdddi/GetNextChunkData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h

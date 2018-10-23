@@ -4,7 +4,6 @@ title: IDataModelScriptHostContext::NotifyScriptChange
 author: windows-driver-content
 description: It is required that a script provider notify the debug host upon certain operations occurring with a method call to the NotifyScriptChange method on the associated context. 
 ms.assetid: c30d734e-4360-4e87-82f9-cfda1b4b5476
-ms.author: windowsdriverdev
 ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDataModelScriptHostContext::NotifyScriptChange, NotifyScriptChange, IDataModelScriptHostContext.NotifyScriptChange, IDataModelScriptHostContext::NotifyScriptChange, IDataModelScriptHostContext.NotifyScriptChange

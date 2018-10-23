@@ -6,11 +6,8 @@ description: The SerCx2CustomReceiveTransactionInitializeComplete method notifie
 old-location: serports\sercx2customreceivetransactioninitializecomplete.htm
 tech.root: serports
 ms.assetid: C2D7C955-B63E-4D99-BC20-F7684C8D61F8
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SerCx2CustomReceiveTransactionInitializeComplete, SerCx2CustomReceiveTransactionInitializeComplete, SerCx2CustomReceiveTransactionInitializeComplete method [Serial Ports], serports.sercx2customreceivetransactioninitializecomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 

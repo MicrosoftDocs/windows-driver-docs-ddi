@@ -6,11 +6,8 @@ description: The FltGetFileNameInformationUnsafe routine returns name informatio
 old-location: ifsk\fltgetfilenameinformationunsafe.htm
 tech.root: ifsk
 ms.assetid: 3c5ec515-d332-4fef-8b78-b2f04a672fd7
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_b6504bfd-52eb-4563-a581-ccb0b6a9afc1.xml, FltGetFileNameInformationUnsafe, FltGetFileNameInformationUnsafe routine [Installable File System Drivers], fltkernel/FltGetFileNameInformationUnsafe, ifsk.fltgetfilenameinformationunsafe
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

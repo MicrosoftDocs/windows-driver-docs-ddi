@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The FPB Vector Access Data Register. See section 7.y.9.
 tech.root: pci 
 ms.assetid: d266f2ab-3364-4618-aa4f-b8ded1676c8a
-ms.author: windowsdriverdev
 ms.date: 09/30/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _PCI_FPB_VECTOR_ACCESS_DATA_REGISTER, PCI_FPB_VECTOR_ACCESS_DATA_REGISTER, *PPCI_FPB_VECTOR_ACCESS_DATA_REGISTER, 
 req.header: ntddk.h
 req.include-header:

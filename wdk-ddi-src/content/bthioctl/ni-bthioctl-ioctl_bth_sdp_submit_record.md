@@ -6,11 +6,8 @@ description: The IOCTL_BTH_SDP_SUBMIT_RECORD request allows a profile driver to 
 old-location: bltooth\ioctl_bth_sdp_submit_record.htm
 tech.root: bltooth
 ms.assetid: ec6739d3-5956-4cc2-90ff-75c67c0a84e7
-ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: IOCTL_BTH_SDP_SUBMIT_RECORD, IOCTL_BTH_SDP_SUBMIT_RECORD control, IOCTL_BTH_SDP_SUBMIT_RECORD control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_submit_record, bth_ioctls_e32ecb99-7a41-4405-844e-8c1038d3cb89.xml, bthioctl/IOCTL_BTH_SDP_SUBMIT_RECORD
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: bthioctl.h
 req.include-header: Bthioctl.h

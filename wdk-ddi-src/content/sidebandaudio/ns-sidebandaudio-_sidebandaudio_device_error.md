@@ -4,11 +4,8 @@ title: _SIDEBANDAUDIO_DEVICE_ERROR
 author: windows-driver-content
 description: Describes the error reported on the Device.
 ms.assetid: 9c317855-e7c0-422c-b30c-93b6fa488dc7
-ms.author: windowsdriverdev
 ms.date: 09/06/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _SIDEBANDAUDIO_DEVICE_ERROR, SIDEBANDAUDIO_DEVICE_ERROR, *PSIDEBANDAUDIO_DEVICE_ERROR, 
 req.header: sidebandaudio.h
 req.include-header:

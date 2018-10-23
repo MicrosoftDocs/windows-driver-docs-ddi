@@ -6,11 +6,8 @@ description: A configured band on a storage device is deleted with the IOCTL_EHS
 old-location: storage\ioctl_ehstor_bandmgmt_delete_band.htm
 tech.root: storage
 ms.assetid: CA0002E6-D9E7-417B-AD48-32E25E24EC32
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_DELETE_BAND, IOCTL_EHSTOR_BANDMGMT_DELETE_BAND control, IOCTL_EHSTOR_BANDMGMT_DELETE_BAND control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_DELETE_BAND, storage.ioctl_ehstor_bandmgmt_delete_band
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h

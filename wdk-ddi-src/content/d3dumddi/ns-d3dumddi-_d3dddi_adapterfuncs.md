@@ -6,11 +6,8 @@ description: The D3DDDI_ADAPTERFUNCS structure contains functions that the user-
 old-location: display\d3dddi_adapterfuncs.htm
 tech.root: display
 ms.assetid: bbf4852c-0fa5-47c0-a77e-7114b2a77549
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDI_ADAPTERFUNCS, D3DDDI_ADAPTERFUNCS structure [Display Devices], D3D_other_Structs_2397321f-704c-4c93-bbd1-b7591134294c.xml, _D3DDDI_ADAPTERFUNCS, d3dumddi/D3DDDI_ADAPTERFUNCS, display.d3dddi_adapterfuncs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

@@ -6,11 +6,8 @@ description: The FWPS_FIELDS_RPC_UM enumeration type specifies the data field id
 old-location: netvista\fwps_fields_rpc_um.htm
 tech.root: netvista
 ms.assetid: 7f493a14-174f-4101-8c08-069dbe9ec3e7
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FWPS_FIELDS_RPC_UM, FWPS_FIELDS_RPC_UM enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELDS_RPC_UM_, FWPS_FIELD_RPC_UM_AUTH_LEVEL, FWPS_FIELD_RPC_UM_AUTH_TYPE, FWPS_FIELD_RPC_UM_DCOM_APP_ID, FWPS_FIELD_RPC_UM_IF_FLAG, FWPS_FIELD_RPC_UM_IF_UUID, FWPS_FIELD_RPC_UM_IF_VERSION, FWPS_FIELD_RPC_UM_IMAGE_NAME, FWPS_FIELD_RPC_UM_LOCAL_ADDR_V4, FWPS_FIELD_RPC_UM_LOCAL_ADDR_V6, FWPS_FIELD_RPC_UM_LOCAL_PORT, FWPS_FIELD_RPC_UM_MAX, FWPS_FIELD_RPC_UM_PIPE, FWPS_FIELD_RPC_UM_PROTOCOL, FWPS_FIELD_RPC_UM_REMOTE_ADDR_V4, FWPS_FIELD_RPC_UM_REMOTE_ADDR_V6, FWPS_FIELD_RPC_UM_REMOTE_USER_TOKEN, FWPS_FIELD_RPC_UM_SEC_ENCRYPT_ALGORITHM, FWPS_FIELD_RPC_UM_SEC_KEY_SIZE, fwpsk/FWPS_FIELDS_RPC_UM, fwpsk/FWPS_FIELD_RPC_UM_AUTH_LEVEL, fwpsk/FWPS_FIELD_RPC_UM_AUTH_TYPE, fwpsk/FWPS_FIELD_RPC_UM_DCOM_APP_ID, fwpsk/FWPS_FIELD_RPC_UM_IF_FLAG, fwpsk/FWPS_FIELD_RPC_UM_IF_UUID, fwpsk/FWPS_FIELD_RPC_UM_IF_VERSION, fwpsk/FWPS_FIELD_RPC_UM_IMAGE_NAME, fwpsk/FWPS_FIELD_RPC_UM_LOCAL_ADDR_V4, fwpsk/FWPS_FIELD_RPC_UM_LOCAL_ADDR_V6, fwpsk/FWPS_FIELD_RPC_UM_LOCAL_PORT, fwpsk/FWPS_FIELD_RPC_UM_MAX, fwpsk/FWPS_FIELD_RPC_UM_PIPE, fwpsk/FWPS_FIELD_RPC_UM_PROTOCOL, fwpsk/FWPS_FIELD_RPC_UM_REMOTE_ADDR_V4, fwpsk/FWPS_FIELD_RPC_UM_REMOTE_ADDR_V6, fwpsk/FWPS_FIELD_RPC_UM_REMOTE_USER_TOKEN, fwpsk/FWPS_FIELD_RPC_UM_SEC_ENCRYPT_ALGORITHM, fwpsk/FWPS_FIELD_RPC_UM_SEC_KEY_SIZE, netvista.fwps_fields_rpc_um, wfp_ref_5_const_3_data_fields_8dbe4a13-7ea4-4e12-a880-ffbaf3a533ed.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
@@ -52,7 +49,7 @@ req.typenames: FWPS_FIELDS_RPC_UM
 
 The FWPS_FIELDS_RPC_UM enumeration type specifies the data field identifiers for the
   FWPS_LAYER_RPC_UM 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
+  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layer</a>.
 
 
 ## -enum-fields

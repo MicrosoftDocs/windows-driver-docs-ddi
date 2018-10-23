@@ -4,11 +4,8 @@ title: PFND3D12DDI_EXECUTE_METACOMMAND
 author: windows-driver-content
 description: Implemented by the client driver to execute the meta-command.
 ms.assetid: 0ba97840-c316-4905-b65b-f103da9d5fe4
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to execute the meta-command.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_EXECUTE_METACOMMAND Pfnd3d12ddiExecuteMetacommand;

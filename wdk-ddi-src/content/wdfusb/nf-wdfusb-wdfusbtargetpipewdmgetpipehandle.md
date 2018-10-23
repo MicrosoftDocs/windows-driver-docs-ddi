@@ -6,11 +6,8 @@ description: The WdfUsbTargetPipeWdmGetPipeHandle method returns the USBD_PIPE_H
 old-location: wdf\wdfusbtargetpipewdmgetpipehandle.htm
 tech.root: wdf
 ms.assetid: d24577e3-3124-4ce7-a6ea-bed75ff18a1e
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_4dc66ce5-f27f-4d35-bcea-0efb60a1de3c.xml, WdfUsbTargetPipeWdmGetPipeHandle, WdfUsbTargetPipeWdmGetPipeHandle method, kmdf.wdfusbtargetpipewdmgetpipehandle, wdf.wdfusbtargetpipewdmgetpipehandle, wdfusb/WdfUsbTargetPipeWdmGetPipeHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NetTxQueueGetPacketExtensionOffset method retrieves the offset, in bytes, to a packet extension for all packets in a transmit (Tx) queue.
 tech.root: netvista
 ms.assetid: f7e9b686-a38a-47dd-9872-9ebeca533a3a
-ms.author: windowsdriverdev
 ms.date: 07/13/2018
 ms.topic: function
 ms.keywords: NetTxQueueGetPacketExtensionOffset

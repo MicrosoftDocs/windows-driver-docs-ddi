@@ -4,11 +4,8 @@ title: _D3DKMT_GET_GPUMMU_CAPS
 author: windows-driver-content
 description: Used to get GPU memory management capabilities.
 ms.assetid: 02b82a9c-082d-4e76-bd98-cfe76b1b4615
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_GET_GPUMMU_CAPS, D3DKMT_GET_GPUMMU_CAPS, 
 req.header: d3dkmthk.h
 req.include-header:

@@ -6,11 +6,8 @@ description: The WHEA_RAW_DATA_FORMAT enumeration defines the possible formats t
 old-location: whea\whea_raw_data_format.htm
 tech.root: whea
 ms.assetid: 809f2d72-e769-48c1-9ecf-6fa9020f6cdb
-ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: "*PWHEA_RAW_DATA_FORMAT, PWHEA_RAW_DATA_FORMAT, PWHEA_RAW_DATA_FORMAT enumeration pointer [WHEA Drivers and Applications], WHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT enumeration [WHEA Drivers and Applications], WheaRawDataFormatAMD64MCA, WheaRawDataFormatGeneric, WheaRawDataFormatIA32MCA, WheaRawDataFormatIPFSalRecord, WheaRawDataFormatIntel64MCA, WheaRawDataFormatMax, WheaRawDataFormatMemory, WheaRawDataFormatNMIPort, WheaRawDataFormatPCIExpress, WheaRawDataFormatPCIXBus, WheaRawDataFormatPCIXDevice, _WHEA_RAW_DATA_FORMAT, ntddk/PWHEA_RAW_DATA_FORMAT, ntddk/WHEA_RAW_DATA_FORMAT, ntddk/WheaRawDataFormatAMD64MCA, ntddk/WheaRawDataFormatGeneric, ntddk/WheaRawDataFormatIA32MCA, ntddk/WheaRawDataFormatIPFSalRecord, ntddk/WheaRawDataFormatIntel64MCA, ntddk/WheaRawDataFormatMax, ntddk/WheaRawDataFormatMemory, ntddk/WheaRawDataFormatNMIPort, ntddk/WheaRawDataFormatPCIExpress, ntddk/WheaRawDataFormatPCIXBus, ntddk/WheaRawDataFormatPCIXDevice, whea.whea_raw_data_format, whearef_9ecb0580-4372-40f3-93da-4f866ee6211f.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddk.h
 req.include-header: Ntddk.h
@@ -60,7 +57,7 @@ The WHEA_RAW_DATA_FORMAT enumeration defines the possible formats that raw hardw
 
 ### -field WheaRawDataFormatIPFSalRecord
 
-The raw data in the hardware error packet contains an Itanium processor family system abstraction layer (SAL) error record. For more information about the format of a SAL error record, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=72212">Intel Itanium Processor Family System Abstraction Layer Specification</a>.
+The raw data in the hardware error packet contains an Itanium processor family system abstraction layer (SAL) error record. For more information about the format of a SAL error record, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=72212">Intel Itanium Processor Family System Abstraction Layer Specification</a>.
 
 
 ### -field WheaRawDataFormatIA32MCA

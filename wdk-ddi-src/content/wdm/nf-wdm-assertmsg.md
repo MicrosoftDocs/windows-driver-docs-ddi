@@ -6,11 +6,8 @@ description: ASSERTMSG tests an expression. If the expression is false, it break
 old-location: devtest\assertmsg.htm
 tech.root: devtest
 ms.assetid: 88c0cd30-607b-48f4-b2b6-3c21be1ce31a
-ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: ASSERTMSG, ASSERTMSG function [Driver Development Tools], DebugFns_998b520e-90e6-440f-94d4-55ff0b6e102f.xml, devtest.assertmsg, ntddk/ASSERTMSG
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h

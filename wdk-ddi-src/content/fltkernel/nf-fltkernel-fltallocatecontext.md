@@ -6,11 +6,8 @@ description: The FltAllocateContext routine allocates a context structure for a 
 old-location: ifsk\fltallocatecontext.htm
 tech.root: ifsk
 ms.assetid: 34be4ca1-9484-41c5-9382-4785c36fca1a
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltAllocateContext, FltAllocateContext routine [Installable File System Drivers], FltApiRef_a_to_d_dcc03d8c-1f61-4afb-8774-f98951ebfb1f.xml, fltkernel/FltAllocateContext, ifsk.fltallocatecontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

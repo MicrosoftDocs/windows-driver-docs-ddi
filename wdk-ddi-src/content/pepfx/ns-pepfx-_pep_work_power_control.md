@@ -6,11 +6,8 @@ description: The PEP_WORK_POWER_CONTROL structure contains the parameters for a 
 old-location: kernel\pep_work_power_control.htm
 tech.root: kernel
 ms.assetid: 84258422-A2AE-449F-97C8-41336FEA5D8B
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_WORK_POWER_CONTROL, PEP_WORK_POWER_CONTROL, PEP_WORK_POWER_CONTROL structure [Kernel-Mode Driver Architecture], PPEP_WORK_POWER_CONTROL, PPEP_WORK_POWER_CONTROL structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_POWER_CONTROL, kernel.pep_work_power_control, pepfx/PEP_WORK_POWER_CONTROL, pepfx/PPEP_WORK_POWER_CONTROL"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
 req.include-header: Pep_x.h
@@ -60,12 +57,12 @@ The <b>PEP_WORK_POWER_CONTROL</b> structure contains the parameters for a <a hre
 
 ### -field DeviceHandle
 
-A POHANDLE value that identifies the processor. The PEP received this handle in a previous <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification.
+A POHANDLE value that identifies the processor. The PEP received this handle in a previous <a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification.
 
 
 ### -field PowerControlCode
 
-[in] A pointer to a <a href="http://msdn.microsoft.com/library/windows/desktop/aa373931(v=vs.85).aspx">GUID</a> value that specifies the power control operation to perform.
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/desktop/aa373931(v=vs.85).aspx">GUID</a> value that specifies the power control operation to perform.
 
 
 ### -field RequestContext
@@ -109,11 +106,11 @@ The PEP issues a power control request from a worker thread. The Windows <a href
 
 
 
-<a href="http://msdn.microsoft.com/library/windows/desktop/aa373931(v=vs.85).aspx">GUID</a>
+<a href="https://msdn.microsoft.com/library/windows/desktop/aa373931(v=vs.85).aspx">GUID</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
 
 

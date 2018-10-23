@@ -6,11 +6,8 @@ description: The TmCreateEnlistment routine creates a new enlistment object for 
 old-location: kernel\tmcreateenlistment.htm
 tech.root: kernel
 ms.assetid: 84fcbc30-993c-430b-a8b9-aefca44e478e
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: TmCreateEnlistment, TmCreateEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmcreateenlistment, ktm_ref_79bc27ad-3c37-4396-9c9d-5bc429299db4.xml, wdm/TmCreateEnlistment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

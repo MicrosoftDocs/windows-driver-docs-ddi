@@ -6,11 +6,8 @@ description: The MSiSCSI_ConnectionStatistics structure is used by iSCSI initiat
 old-location: storage\msiscsi_connectionstatistics.htm
 tech.root: storage
 ms.assetid: f1f38292-604f-4618-b6ec-f3822d60a96c
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PMSiSCSI_ConnectionStatistics, MSiSCSI_ConnectionStatistics, MSiSCSI_ConnectionStatistics structure [Storage Devices], PMSiSCSI_ConnectionStatistics, PMSiSCSI_ConnectionStatistics structure pointer [Storage Devices], _MSiSCSI_ConnectionStatistics, iscsiprf/MSiSCSI_ConnectionStatistics, iscsiprf/PMSiSCSI_ConnectionStatistics, storage.msiscsi_connectionstatistics, structs-iSCSI_6a149338-4636-45cd-9c15-2444e2ebcd1a.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iscsiprf.h
 req.include-header: Iscsiprf.h

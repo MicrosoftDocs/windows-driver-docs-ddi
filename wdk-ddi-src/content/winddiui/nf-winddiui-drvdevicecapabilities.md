@@ -6,11 +6,8 @@ description: A printer interface DLL's DrvDeviceCapabilities function returns re
 old-location: print\drvdevicecapabilities.htm
 tech.root: print
 ms.assetid: a8ea236d-42f9-45c5-b2f6-035e0ba28f75
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: DrvDeviceCapabilities, DrvDeviceCapabilities function [Print Devices], print.drvdevicecapabilities, print_interface-graphics_cbe99c7b-a94f-47b2-8c51-d99bdcdec7d3.xml, winddiui/DrvDeviceCapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddiui.h
 req.include-header: Winddiui.h

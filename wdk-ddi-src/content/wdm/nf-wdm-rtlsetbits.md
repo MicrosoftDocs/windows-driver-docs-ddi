@@ -6,11 +6,8 @@ description: The RtlSetBits routine sets all bits in a given range of a given bi
 old-location: kernel\rtlsetbits.htm
 tech.root: kernel
 ms.assetid: 63f796c1-033f-450a-a4da-527b8688448b
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlSetBits, RtlSetBits routine [Kernel-Mode Driver Architecture], k109_aca53733-c7f0-4c1a-9334-b7e27b199299.xml, kernel.rtlsetbits, wdm/RtlSetBits
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

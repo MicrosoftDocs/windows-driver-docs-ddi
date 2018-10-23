@@ -6,11 +6,8 @@ description: IOCTL_BTHX_WRITE_HCI is used to write Bluetooth ACL Data and Comman
 old-location: bltooth\ioctl_bthx_hci_write.htm
 tech.root: bltooth
 ms.assetid: 77BBF6AC-F5FA-4795-8898-6DC02983F573
-ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: IOCTL_BTHX_WRITE_HCI, IOCTL_BTHX_WRITE_HCI control, IOCTL_BTHX_WRITE_HCI control code [Bluetooth Devices], bltooth.ioctl_bthx_hci_write, bltooth.ioctl_bthx_write_hci, bthxddi/IOCTL_BTHX_WRITE_HCI
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: bthxddi.h
 req.include-header: 

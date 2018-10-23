@@ -6,11 +6,8 @@ description: The NdkCompleteConnect (NDK_FN_COMPLETE_CONNECT) function completes
 old-location: netvista\ndk_fn_complete_connect.htm
 tech.root: netvista
 ms.assetid: 85AD83CE-C00F-4D5A-BCDE-22D1B83201A8
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_FN_COMPLETE_CONNECT, NDK_FN_COMPLETE_CONNECT callback, NdkCompleteConnect, NdkCompleteConnect callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCompleteConnect, netvista.ndk_fn_complete_connect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndkpi.h
 req.include-header: Ndkpi.h

@@ -6,11 +6,8 @@ description: The WdfDeviceConfigureWdmIrpDispatchCallback method registers a dri
 old-location: wdf\wdfdeviceconfigurewdmirpdispatchcallback.htm
 tech.root: wdf
 ms.assetid: 594E0FF1-A965-4CE4-A2EA-C9098685FCED
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfDeviceConfigureWdmIrpDispatchCallback, WdfDeviceConfigureWdmIrpDispatchCallback method, kmdf.wdfdeviceconfigurewdmirpdispatchcallback, wdf.wdfdeviceconfigurewdmirpdispatchcallback, wdfdevice/WdfDeviceConfigureWdmIrpDispatchCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h
@@ -143,7 +140,7 @@ A driver might call the <b>WdfDeviceConfigureWdmIrpDispatchCallback</b> method f
 </ul>
 
 
- For more information about specifying queues for IRPs as they arrive, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dispatching-irps-to-i-o-queues">Dispatching IRPs to I/O Queues</a>.
+ For more information about specifying queues for IRPs as they arrive, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dispatching-irps-to-i-o-queues">Dispatching IRPs to I/O Queues</a>.
 
 
 

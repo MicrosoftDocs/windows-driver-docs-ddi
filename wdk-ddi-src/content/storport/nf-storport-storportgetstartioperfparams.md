@@ -6,11 +6,8 @@ description: The StorPortGetStartIoPerfParams routine places the performance par
 old-location: storage\storportgetstartioperfparams.htm
 tech.root: storage
 ms.assetid: c3314ac6-2b46-417f-a87b-64e27df9686d
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortGetStartIoPerfParams, StorPortGetStartIoPerfParams routine [Storage Devices], storage.storportgetstartioperfparams, storport/StorPortGetStartIoPerfParams, storprt_ad7184c9-2f69-4571-ba56-28b5a3b353d7.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

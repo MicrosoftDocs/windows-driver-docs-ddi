@@ -6,11 +6,8 @@ description: The Bluetooth SdpFreeTree function is used to free the memory alloc
 old-location: bltooth\sdpfreetree.htm
 tech.root: bltooth
 ms.assetid: 7d3f743e-2422-474d-aaad-4386e0dc100a
-ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: SdpFreeTree, SdpFreeTree function [Bluetooth Devices], bltooth.sdpfreetree, bth_funcs_526ed9cd-2c07-4c1f-a420-dec6fe930e44.xml, sdplib/SdpFreeTree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sdplib.h
 req.include-header: BthSdpddi.h

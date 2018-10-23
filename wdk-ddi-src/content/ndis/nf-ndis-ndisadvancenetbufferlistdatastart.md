@@ -6,11 +6,8 @@ description: Call the NdisAdvanceNetBufferListDataStart function to release data
 old-location: netvista\ndisadvancenetbufferlistdatastart.htm
 tech.root: netvista
 ms.assetid: 819ac05b-15c2-4a24-ae6b-8a47991a4e7a
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisAdvanceNetBufferListDataStart, NdisAdvanceNetBufferListDataStart function [Network Drivers Starting with Windows Vista], ndis/NdisAdvanceNetBufferListDataStart, ndis_netbuf_functions_ref_6d98353d-427f-49ce-9b28-e1c178a8af24.xml, netvista.ndisadvancenetbufferlistdatastart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

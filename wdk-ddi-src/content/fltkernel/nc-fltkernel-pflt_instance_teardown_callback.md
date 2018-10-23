@@ -6,11 +6,8 @@ description: A minifilter driver can register two routines of type PFLT_INSTANCE
 old-location: ifsk\pflt_instance_teardown_callback.htm
 tech.root: ifsk
 ms.assetid: d2f87c47-7f26-4c22-a5b8-2be8f309d1ba
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: FltCallbacks_2bec09ed-3009-465c-842b-67e0cd7d734f.xml, PFLT_INSTANCE_TEARDOWN_CALLBACK, PFLT_INSTANCE_TEARDOWN_CALLBACK function pointer [Installable File System Drivers], fltkernel/PFLT_INSTANCE_TEARDOWN_CALLBACK, ifsk.pflt_instance_teardown_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
@@ -203,7 +200,7 @@ There are any outstanding I/O operations that were initiated by the minifilter d
 
 </li>
 </ul>
-If the minifilter driver instance is being torn down because the minifilter driver is being unloaded, the unload operation appears to hang until the <i>InstanceTeardownCompleteCallback</i> routine returns. To debug these kinds of problems, you should enable the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557262">Driver Verifier</a> on your minifilter driver. The Filter Verifier <a href="https://msdn.microsoft.com/41b77bba-fae8-453b-9872-911f5d5be3e6">I/O Verification</a> option can help identify possible causes, such as unreleased references, that would prevent the minifilter driver from unloading. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/development-and-testing-tools">Filter Verifier</a>.
+If the minifilter driver instance is being torn down because the minifilter driver is being unloaded, the unload operation appears to hang until the <i>InstanceTeardownCompleteCallback</i> routine returns. To debug these kinds of problems, you should enable the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557262">Driver Verifier</a> on your minifilter driver. The Filter Verifier <a href="https://msdn.microsoft.com/41b77bba-fae8-453b-9872-911f5d5be3e6">I/O Verification</a> option can help identify possible causes, such as unreleased references, that would prevent the minifilter driver from unloading. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/development-and-testing-tools">Filter Verifier</a>.
 
 Note that referencing the instance (by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543382">FltObjectReference</a>) does not prevent the <i>InstanceTeardownCompleteCallback</i> routine from being called.
 

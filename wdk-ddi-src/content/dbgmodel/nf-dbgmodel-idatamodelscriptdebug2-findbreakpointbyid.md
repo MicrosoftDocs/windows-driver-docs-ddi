@@ -4,7 +4,6 @@ title: IDataModelScriptDebug2::FindBreakpointById
 author: windows-driver-content
 description: The FindBreakpointById method is used to get an interface to the breakpoint from a given identifier. 
 ms.assetid: 0fb78c06-b7dd-43d5-bb14-20b13a34e076
-ms.author: windowsdriverdev
 ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebug2::FindBreakpointById, FindBreakpointById, IDataModelScriptDebug2.FindBreakpointById, IDataModelScriptDebug2::FindBreakpointById, IDataModelScriptDebug2.FindBreakpointById

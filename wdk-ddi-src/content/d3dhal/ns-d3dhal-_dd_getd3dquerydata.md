@@ -6,11 +6,8 @@ description: DirectX 9.0 and later versions only. DD_GETD3DQUERYDATA is the data
 old-location: display\dd_getd3dquerydata.htm
 tech.root: display
 ms.assetid: a3bacd56-c25a-45d1-bd9f-b19bc1f95c8f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DD_GETD3DQUERYDATA, DD_GETD3DQUERYDATA structure [Display Devices], _DD_GETD3DQUERYDATA, d3dhal/DD_GETD3DQUERYDATA, d3dstrct_ec5ab755-9f1e-4add-bcf1-73bcb01988e6.xml, display.dd_getd3dquerydata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dhal.h
 req.include-header: D3dhal.h

@@ -6,11 +6,8 @@ description: A miniport driver calls the NdisMDeregisterMiniportDriver function 
 old-location: netvista\ndismderegisterminiportdriver.htm
 tech.root: netvista
 ms.assetid: c428e30d-ce86-4ca0-bc65-45d84a7c910e
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMDeregisterMiniportDriver, NdisMDeregisterMiniportDriver function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_bd8d7bcd-098a-4367-82d2-6a35753a4a3b.xml, ndis/NdisMDeregisterMiniportDriver, netvista.ndismderegisterminiportdriver
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

@@ -4,11 +4,8 @@ title: _EFI_SET_VARIABLE_IN
 author: windows-driver-content
 description: 
 ms.assetid: 0f757049-c885-429d-9901-200c645c5a94
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _EFI_SET_VARIABLE_IN, EFI_SET_VARIABLE_IN, *PEFI_SET_VARIABLE_IN, 
 req.header: treevariableservice.h
 req.include-header:

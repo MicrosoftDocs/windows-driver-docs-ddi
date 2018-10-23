@@ -4,7 +4,6 @@ title: IKeyEnumerator::GetNext
 author: windows-driver-content
 description:  Moves the iterator forward and fetches the name of the next key and, optionally, its value (or a reference to it) and associated metadata.
 ms.assetid: 0a6a1109-c97f-4335-ac2d-434e9bd57f40
-ms.author: windowsdriverdev
 ms.date: 10/05/2018
 ms.topic: method
 ms.keywords: IKeyEnumerator::GetNext, GetNext, IKeyEnumerator.GetNext, IKeyEnumerator::GetNext, IKeyEnumerator.GetNext

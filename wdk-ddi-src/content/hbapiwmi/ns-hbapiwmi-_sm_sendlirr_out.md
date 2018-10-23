@@ -6,11 +6,8 @@ description: The SM_SendLIRR_OUT structure is used to receive output parameters 
 old-location: storage\sm_sendlirr_out.htm
 tech.root: storage
 ms.assetid: 68e6ab20-b8a2-4a72-bb38-28fe4345e638
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSM_SendLIRR_OUT, PSM_SendLIRR_OUT, PSM_SendLIRR_OUT structure pointer [Storage Devices], SM_SendLIRR_OUT, SM_SendLIRR_OUT structure [Storage Devices], _SM_SendLIRR_OUT, hbapiwmi/PSM_SendLIRR_OUT, hbapiwmi/SM_SendLIRR_OUT, storage.sm_sendlirr_out, structs-Fibre_42d6f555-895e-4cb7-a2fb-8bc61025a940.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h

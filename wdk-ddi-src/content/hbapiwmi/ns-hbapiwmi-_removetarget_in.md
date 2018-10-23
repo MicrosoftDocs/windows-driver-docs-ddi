@@ -6,11 +6,8 @@ description: The RemoveTarget_IN structure is used by a WMI client to deliver in
 old-location: storage\removetarget_in.htm
 tech.root: storage
 ms.assetid: 54fcbb64-09ce-4f18-963b-fee2627d4231
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PRemoveTarget_IN, PRemoveTarget_IN, PRemoveTarget_IN structure pointer [Storage Devices], RemoveTarget_IN, RemoveTarget_IN structure [Storage Devices], _RemoveTarget_IN, hbapiwmi/PRemoveTarget_IN, hbapiwmi/RemoveTarget_IN, storage.removetarget_in, structs-Fibre_e284d48f-3a57-449f-8227-2e8637118dcd.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h

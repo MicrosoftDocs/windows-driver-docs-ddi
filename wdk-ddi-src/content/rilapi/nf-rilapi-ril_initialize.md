@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_initialize.htm
 tech.root: netvista
 ms.assetid: 7287281b-8c7b-4842-b312-1fff130a5de6
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_Initialize, RIL_Initialize method [Network Drivers Starting with Windows Vista], netvista.ril_initialize, rilapi/RIL_Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rilapi.h
 req.include-header: 

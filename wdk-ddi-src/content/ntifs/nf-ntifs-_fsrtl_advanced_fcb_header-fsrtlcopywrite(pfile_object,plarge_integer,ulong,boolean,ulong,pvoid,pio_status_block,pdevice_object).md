@@ -6,11 +6,8 @@ description: The FsRtlCopyWrite routine copies data from a user buffer to a cach
 old-location: ifsk\fsrtlcopywrite.htm
 tech.root: ifsk
 ms.assetid: badff1ac-ccb2-418d-94be-c30d323f0464
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: FsRtlCopyWrite, FsRtlCopyWrite routine [Installable File System Drivers], fsrtlref_4c9bfba8-1946-430f-b242-7228394923de.xml, ifsk.fsrtlcopywrite, ntifs/FsRtlCopyWrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

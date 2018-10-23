@@ -6,11 +6,8 @@ description: An AVStream minidriver's AVStrMiniAllocate routine allocates a fram
 old-location: stream\avstrminiallocate.htm
 tech.root: stream
 ms.assetid: f718e788-306a-4dbc-96cb-a81299aafe1d
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: AVStrMiniAllocate, AVStrMiniAllocate routine [Streaming Media Devices], PFNKSDEFAULTALLOCATE, avstclbk_3ed4229c-f462-4b86-9dd4-374275f10c24.xml, ks/AVStrMiniAllocate, stream.avstrminiallocate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ks.h
 req.include-header: Ks.h

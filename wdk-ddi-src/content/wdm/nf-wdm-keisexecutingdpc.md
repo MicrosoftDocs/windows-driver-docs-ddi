@@ -4,8 +4,7 @@ title: KeIsExecutingDpc function
 author: windows-driver-content
 description: Checks whether a DPC is being executed on current processor.
 ms.assetid: b75e1f85-98c7-47b1-bb12-b4c76127e8c4
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: KeIsExecutingDpc
 req.header: wdm.h

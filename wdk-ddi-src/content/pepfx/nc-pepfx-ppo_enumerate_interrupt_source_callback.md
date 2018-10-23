@@ -6,11 +6,8 @@ description: An EnumerateInterruptSource callback routine supplies a platform ex
 old-location: kernel\enumerateinterruptsource.htm
 tech.root: kernel
 ms.assetid: 1E6841D8-88A0-4EDB-89EF-3878AF8B0072
-ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: EnumerateInterruptSource, EnumerateInterruptSource routine [Kernel-Mode Driver Architecture], PO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK, kernel.enumerateinterruptsource, pepfx/EnumerateInterruptSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: pepfx.h
 req.include-header: Pep_x.h
@@ -56,7 +53,7 @@ An <i>EnumerateInterruptSource</i> callback routine supplies a platform extensio
 ## -prototype
 
 
-````
+```cpp
 PO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK EnumerateInterruptSource;
 
 BOOLEAN EnumerateInterruptSource(
@@ -64,7 +61,7 @@ BOOLEAN EnumerateInterruptSource(
   _In_ PPEP_UNMASKED_INTERRUPT_INFORMATION InterruptInformation
 )
 { ... }
-````
+```
 
 
 ## -parameters

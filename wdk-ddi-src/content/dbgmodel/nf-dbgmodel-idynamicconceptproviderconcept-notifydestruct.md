@@ -4,8 +4,7 @@ title: IDynamicConceptProviderConcept::NotifyDestruct
 author: windows-driver-content
 description: The NotifyDestruct method on a dynamic concept provider is a callback made by the core data model at the start of destruction of the object which is a dynamic concept provider. 
 ms.assetid: b2e5af39-288c-45c5-b2de-0c5e8069a25a
-ms.author: windowsdriverdev
-ms.date: 09/19/2018 
+ms.date: 09/19/2018
 ms.topic: method
 ms.keywords: IDynamicConceptProviderConcept::NotifyDestruct, NotifyDestruct, IDynamicConceptProviderConcept.NotifyDestruct, IDynamicConceptProviderConcept::NotifyDestruct, IDynamicConceptProviderConcept.NotifyDestruct
 req.header: dbgmodel.h

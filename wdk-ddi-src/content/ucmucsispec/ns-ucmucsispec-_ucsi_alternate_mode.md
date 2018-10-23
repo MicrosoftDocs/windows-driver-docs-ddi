@@ -5,11 +5,8 @@ author: windows-driver-content
 tech.root: usbref
 description: Used in GET_ALTERNATE_MODES command. See Table 4-26.
 ms.assetid: d083982e-c565-4242-a805-d2495c2c63bb
-ms.author: windowsdriverdev
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _UCSI_ALTERNATE_MODE, UCSI_ALTERNATE_MODE, *PUCSI_ALTERNATE_MODE, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

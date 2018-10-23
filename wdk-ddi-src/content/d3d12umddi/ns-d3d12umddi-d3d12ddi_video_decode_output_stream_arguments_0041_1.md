@@ -4,11 +4,8 @@ title: D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS_0041_1
 author: windows-driver-content
 description: Output stream arguments for video decode.
 ms.assetid: 97cff37b-60b5-45b4-8e73-c19187c46e9e
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS_0041_1, D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS_0041_1,
 req.header: d3d12umddi.h
 req.include-header:

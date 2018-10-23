@@ -6,11 +6,8 @@ description: EVT_IDD_CX_MONITOR_I2C_TRANSMIT is called by the OS to return data 
 old-location: display\evt_idd_cx_monitor_i2c_transmit.htm
 tech.root: display
 ms.assetid: d36d45f5-fae1-430a-a01e-adb70e09573c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: EVT_IDD_CX_MONITOR_I2C_TRANSMIT, EVT_IDD_CX_MONITOR_I2C_TRANSMIT callback, EvtIddCxMonitorI2cTransmit, EvtIddCxMonitorI2cTransmit callback function [Display Devices], PFN_IDD_CX_MONITOR_I2C_TRANSMIT, PFN_IDD_CX_MONITOR_I2C_TRANSMIT callback function pointer [Display Devices], display.evt_idd_cx_monitor_i2c_transmit, iddcx/EvtIddCxMonitorI2cTransmit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: iddcx.h
 req.include-header: 

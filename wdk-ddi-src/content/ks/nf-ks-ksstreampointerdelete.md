@@ -6,11 +6,8 @@ description: The KsStreamPointerDelete function deletes a clone stream pointer, 
 old-location: stream\ksstreampointerdelete.htm
 tech.root: stream
 ms.assetid: 68819fe9-fd90-4391-a129-5aa0cae1558b
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsStreamPointerDelete, KsStreamPointerDelete function [Streaming Media Devices], avfunc_b21da27c-abf4-4277-8a22-232c31fbfe97.xml, ks/KsStreamPointerDelete, stream.ksstreampointerdelete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

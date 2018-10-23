@@ -6,11 +6,8 @@ description: The WdfDevStateIsNP method returns a Boolean value that indicates w
 old-location: wdf\wdfdevstateisnp.htm
 tech.root: wdf
 ms.assetid: 49584600-e470-4be8-9111-3e890a9fedfd
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_ed6dd7ac-b5e3-49b2-a4d8-08e4e9377321.xml, WdfDevStateIsNP, WdfDevStateIsNP method, kmdf.wdfdevstateisnp, wdf.wdfdevstateisnp, wdfdevice/WdfDevStateIsNP
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h
@@ -55,7 +52,7 @@ req.typenames:
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
-The <b>WdfDevStateIsNP</b> method returns a Boolean value that indicates whether a specified power state or power policy state is a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-pageable-code-in-a-kmdf-driver">nonpageable</a> state. 
+The <b>WdfDevStateIsNP</b> method returns a Boolean value that indicates whether a specified power state or power policy state is a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-pageable-code-in-a-kmdf-driver">nonpageable</a> state. 
 
 
 ## -parameters

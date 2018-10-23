@@ -6,11 +6,8 @@ description: The CcCopyReadEx routine copies data from a cached file to a user b
 old-location: ifsk\cccopyreadex.htm
 tech.root: ifsk
 ms.assetid: 4108EB7A-F8FB-4FA5-8426-BB434E89AF06
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: CcCopyReadEx, CcCopyReadEx routine [Installable File System Drivers], ifsk.cccopyreadex, ntifs/CcCopyReadEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h

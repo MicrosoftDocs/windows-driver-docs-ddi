@@ -4,12 +4,9 @@ title: _USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT
 author: windows-driver-content
 description: Defines format values used in **USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS**.
 ms.assetid: 89626905-d3b9-48f0-b235-c607b2bd4207
-ms.author: windowsdriverdev
-ms.date: 9/30/2018 
+ms.date: 09/30/2018
 ms.topic: enum
 ms.keywords: _USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT, USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT, *PUSBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 tech.root: usbref
 req.header: usbpmapi.h
 req.include-header:

@@ -6,11 +6,8 @@ description: The MPIO_PATH_HEALTH_CLASS structure represents the health informat
 old-location: storage\mpio_path_health_class.htm
 tech.root: storage
 ms.assetid: 13be9014-e1ce-4b08-a264-c2828e8632ae
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PMPIO_PATH_HEALTH_CLASS, MPIO_PATH_HEALTH_CLASS, MPIO_PATH_HEALTH_CLASS structure [Storage Devices], PMPIO_PATH_HEALTH_CLASS, PMPIO_PATH_HEALTH_CLASS structure pointer [Storage Devices], _MPIO_PATH_HEALTH_CLASS, mpiowmi/MPIO_PATH_HEALTH_CLASS, mpiowmi/PMPIO_PATH_HEALTH_CLASS, storage.mpio_path_health_class, structs-scsibus_ffbf044f-24cd-4e04-8a26-bfa5f2542189.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mpiowmi.h
 req.include-header: Mpiowmi.h

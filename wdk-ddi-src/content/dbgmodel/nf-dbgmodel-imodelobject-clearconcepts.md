@@ -4,7 +4,6 @@ title: IModelObject::ClearConcepts
 author: windows-driver-content
 description: The ClearConcepts method will remove all concepts from the instance of the object specified by this. 
 ms.assetid: e9b09cff-5f1d-4bcb-bd73-efaeafd91206
-ms.author: windowsdriverdev
 ms.date: 07/20/2018
 ms.topic: method
 ms.keywords: IModelObject::ClearConcepts, ClearConcepts, IModelObject.ClearConcepts, IModelObject::ClearConcepts, IModelObject.ClearConcepts

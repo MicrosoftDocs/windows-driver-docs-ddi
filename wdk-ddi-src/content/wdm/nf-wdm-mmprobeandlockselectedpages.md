@@ -6,11 +6,8 @@ description: The MmProbeAndLockSelectedPages routine probes the selected virtual
 old-location: kernel\mmprobeandlockselectedpages_.htm
 tech.root: kernel
 ms.assetid: 1DA632FF-FD5F-4C4C-8B8E-5AC26069094A
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: MmProbeAndLockSelectedPages, MmProbeAndLockSelectedPages , MmProbeAndLockSelectedPages routine [Kernel-Mode Driver Architecture], kernel.mmprobeandlockselectedpages_, wdm/MmProbeAndLockSelectedPages
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: RxRegisterMinirdr is called by a network mini-redirector driver to 
 old-location: ifsk\rxregisterminirdr.htm
 tech.root: ifsk
 ms.assetid: f9c2fedd-b513-4ea9-b915-cdcc05b88d6f
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxRegisterMinirdr, RxRegisterMinirdr function [Installable File System Drivers], ifsk.rxregisterminirdr, mrx/RxRegisterMinirdr, rxref_72a33968-ea1e-4431-9843-5bf3aa11a12a.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mrx.h
 req.include-header: Mrx.h

@@ -6,11 +6,8 @@ description: The KeQueryActiveProcessorCount routine returns the number of curre
 old-location: kernel\kequeryactiveprocessorcount.htm
 tech.root: kernel
 ms.assetid: 4369ad33-ba4a-45db-9a41-e77d6c55da53
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeQueryActiveProcessorCount, KeQueryActiveProcessorCount routine [Kernel-Mode Driver Architecture], k105_23574ace-ab66-43bb-976f-ca7310cece9a.xml, kernel.kequeryactiveprocessorcount, wdm/KeQueryActiveProcessorCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
@@ -60,7 +57,7 @@ The <b>KeQueryActiveProcessorCount</b> routine returns the number of currently a
 
 ### -param ActiveProcessors [out, optional]
 
-A pointer to a [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)-typed variable into which the routine writes a bitmask that represents the set of currently active processors. In a hot-add environment, this mask may change during runtime. This parameter is optional and can be specified as <b>NULL</b> if the caller does not require the mask of active processors. 
+A pointer to a [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)-typed variable into which the routine writes a bitmask that represents the set of currently active processors. In a hot-add environment, this mask may change during runtime. This parameter is optional and can be specified as <b>NULL</b> if the caller does not require the mask of active processors. 
 
 
 ## -returns
@@ -78,7 +75,7 @@ A pointer to a [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware
 
 A device driver calls the <b>KeQueryActiveProcessorCount</b> routine to retrieve the number of currently active processors. Device drivers that are built for Windows Vista and later versions of the Windows operating system should not use the <b>KeNumberProcessors</b> kernel variable for this purpose.
 
-Callers cannot assume that the <b>KeQueryActiveProcessorCount</b> routine maps processors to bits in the returned [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) value consecutively, or that the routine will return the same bitmask each time it is called.
+Callers cannot assume that the <b>KeQueryActiveProcessorCount</b> routine maps processors to bits in the returned [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) value consecutively, or that the routine will return the same bitmask each time it is called.
 
 Callers must also be aware that the value returned by <b>KeQueryActiveProcessorCount</b> can change at runtime on versions of Windows that support hot-add CPU functionality.
 

@@ -6,11 +6,8 @@ description: The WSK_CLIENT_DISPATCH structure specifies a WSK application's dis
 old-location: netvista\wsk_client_dispatch.htm
 tech.root: netvista
 ms.assetid: 6a6116b0-2070-4b46-8359-3c84529cd1c5
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWSK_CLIENT_DISPATCH, PWSK_CLIENT_DISPATCH, PWSK_CLIENT_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], WSK_CLIENT_DISPATCH, WSK_CLIENT_DISPATCH structure [Network Drivers Starting with Windows Vista], _WSK_CLIENT_DISPATCH, netvista.wsk_client_dispatch, wsk/PWSK_CLIENT_DISPATCH, wsk/WSK_CLIENT_DISPATCH, wskref_59bad29c-be6f-4a0d-8bf6-7112cd2c8855.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wsk.h
 req.include-header: Wsk.h
@@ -62,7 +59,7 @@ The WSK_CLIENT_DISPATCH structure specifies a WSK application's dispatch table o
 ### -field Version
 
 The version of the WSK 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
      (NPI)</a> that the WSK application would like to use.
 
 
@@ -118,7 +115,7 @@ Minor = WSK_MINOR_VERSION(Version);</pre>
 </tr>
 </table></span></div>
 For more information about attaching a WSK application to the WSK subsystem, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
     Application</a>.
 
 

@@ -4,11 +4,8 @@ title: _USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR
 author: windows-driver-content
 description: USB FW Update as defined in the USB 3.2 ENGINEERING CHANGE NOTICE.
 ms.assetid: 406a6a28-2d3b-413a-b9b3-10d053afb80d
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR, USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR, *PUSB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR, 
 req.header: usbspec.h
 req.include-header:

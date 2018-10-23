@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The WWAN_NETWORK_BLACKLIST_PROVIDER structure represents a network blacklist provider in a mobile broadband (MBB) modem.
 tech.root: netvista
 ms.assetid: ee770094-bb4c-44eb-a232-2de76de9ef6e
-ms.author: windowsdriverdev
 ms.date: 08/21/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _WWAN_NETWORK_BLACKLIST_PROVIDER, WWAN_NETWORK_BLACKLIST_PROVIDER, *PWWAN_NETWORK_BLACKLIST_PROVIDER, 
 req.header: wwan.h
 req.include-header:

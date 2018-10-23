@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES structure describes a net adapter's receive side scaling (RSS) capabilities.
 tech.root: netvista
 ms.assetid: d6076d3f-2f62-4b81-88b1-801e1612a28c
-ms.author: windowsdriverdev
 ms.date: 07/13/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES, NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES, 
 req.header: netreceivescaling.h
 req.include-header:

@@ -4,12 +4,9 @@ title: _D3DDDI_QUERYADAPTERTYPE
 author: windows-driver-content
 description: Query for the display adapter type.
 ms.assetid: 5e3cdd6c-94a9-4870-98f4-a97402231cbe
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DDDI_QUERYADAPTERTYPE, D3DDDI_QUERYADAPTERTYPE,
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dumddi.h
 req.include-header:
 req.target-type:

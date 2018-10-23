@@ -5,7 +5,6 @@ author: windows-driver-content
 description: Sets the power capabilities of the network adapter.
 tech.root: netvista
 ms.assetid: a9a9bfd8-9c90-4b6f-8790-ad61f5af4073
-ms.author: windowsdriverdev
 ms.date: 02/06/2018
 ms.topic: function
 ms.keywords: NetAdapterSetPowerCapabilities

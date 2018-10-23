@@ -6,11 +6,8 @@ description: The IOCTL_USB_HCD_GET_STATS_1 IOCTL has been deprecated. Do not use
 old-location: buses\ioctl_usb_hcd_get_stats_1.htm
 tech.root: usbref
 ms.assetid: 8be34d4d-b2f1-4d34-911a-95ac2e19df87
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: IOCTL_USB_HCD_GET_STATS_1, IOCTL_USB_HCD_GET_STATS_1 control, IOCTL_USB_HCD_GET_STATS_1 control code [Buses], buses.ioctl_usb_hcd_get_stats_1, usbioctl/IOCTL_USB_HCD_GET_STATS_1, usbirp_2817a2bf-23af-43f8-8c50-c945cf2544f0.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
@@ -120,7 +117,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 
 

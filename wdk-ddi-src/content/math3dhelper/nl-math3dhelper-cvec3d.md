@@ -4,13 +4,10 @@ title: CVEC3D
 author: windows-driver-content
 description: Math library for a 3D vector.
 ms.assetid: 079435fd-1d13-439d-80a7-7da3bee046c2
-ms.author: windowsdriverdev
-ms.date: 08/01/18
+ms.date: 08/01/2018
 ms.topic: class
 tech.root: sensors
 ms.keywords: CVEC3D
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: math3dhelper.h
 req.include-header:
 req.target-type:

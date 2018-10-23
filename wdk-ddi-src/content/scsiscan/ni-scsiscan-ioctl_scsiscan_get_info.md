@@ -6,11 +6,8 @@ description: The IOCTL_SCSISCAN_GET_INFO I/O control code returns device informa
 old-location: image\ioctl_scsiscan_get_info.htm
 tech.root: image
 ms.assetid: 48045e29-5982-44e6-b9a7-3b000e5cf338
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IOCTL_SCSISCAN_GET_INFO, IOCTL_SCSISCAN_GET_INFO control, IOCTL_SCSISCAN_GET_INFO control code [Imaging Devices], image.ioctl_scsiscan_get_info, scsiscan/IOCTL_SCSISCAN_GET_INFO, stifnc_5897897c-6c10-42cd-9301-d5b5f54675fd.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: scsiscan.h
 req.include-header: Scsiscan.h

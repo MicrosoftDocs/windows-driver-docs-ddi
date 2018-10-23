@@ -6,11 +6,8 @@ description: The FsRtlFastUnlockAllByKey routine releases all byte-range locks t
 old-location: ifsk\fsrtlfastunlockallbykey.htm
 tech.root: ifsk
 ms.assetid: 57214e6a-cd29-4576-894a-9523ca3c7e7d
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlFastUnlockAllByKey, FsRtlFastUnlockAllByKey routine [Installable File System Drivers], fsrtlref_193afe01-52f3-4dbc-8a33-bd058beb10ce.xml, ifsk.fsrtlfastunlockallbykey, ntifs/FsRtlFastUnlockAllByKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

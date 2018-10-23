@@ -6,11 +6,8 @@ description: The SDBUS_PROPERTY enumeration lists the properties of a Secure Dig
 old-location: sd\sdbus_property.htm
 tech.root: SD
 ms.assetid: 22301feb-2c6b-43ac-b7e8-c10f2e8e4d62
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: SD.sdbus_property, SDBUS_PROPERTY, SDBUS_PROPERTY enumeration [Buses], SDP_BUS_CLOCK, SDP_BUS_DRIVER_VERSION, SDP_BUS_INTERFACE_CONTROL, SDP_BUS_WIDTH, SDP_FN0_BLOCK_LENGTH, SDP_FUNCTION_BLOCK_LENGTH, SDP_FUNCTION_INT_ENABLE, SDP_FUNCTION_NUMBER, SDP_FUNCTION_TYPE, SDP_HOST_BLOCK_LENGTH, SDP_MEDIA_CHANGECOUNT, SDP_MEDIA_STATE, SDP_WRITE_PROTECTED, ntddsd/SDBUS_PROPERTY, ntddsd/SDP_BUS_CLOCK, ntddsd/SDP_BUS_DRIVER_VERSION, ntddsd/SDP_BUS_INTERFACE_CONTROL, ntddsd/SDP_BUS_WIDTH, ntddsd/SDP_FN0_BLOCK_LENGTH, ntddsd/SDP_FUNCTION_BLOCK_LENGTH, ntddsd/SDP_FUNCTION_INT_ENABLE, ntddsd/SDP_FUNCTION_NUMBER, ntddsd/SDP_FUNCTION_TYPE, ntddsd/SDP_HOST_BLOCK_LENGTH, ntddsd/SDP_MEDIA_CHANGECOUNT, ntddsd/SDP_MEDIA_STATE, ntddsd/SDP_WRITE_PROTECTED, sd-structs_257d86c6-0dd9-4f44-b85d-61647d2d8e8b.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddsd.h
 req.include-header: Ntddsd.h

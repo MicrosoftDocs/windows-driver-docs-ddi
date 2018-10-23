@@ -4,7 +4,6 @@ title: IDebugHostBaseClass::Release
 author: windows-driver-content
 description: Decrements the reference count for an interface on an object.
 ms.assetid: c4822de7-ae21-4682-8aac-78865a72d0fe
-ms.author: windowsdriverdev
 ms.date: 08/14/2018
 ms.topic: method
 ms.keywords: IDebugHostBaseClass::Release, Release, IDebugHostBaseClass.Release, IDebugHostBaseClass::Release, IDebugHostBaseClass.Release

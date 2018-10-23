@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_current_operation_mode.htm
 tech.root: netvista
 ms.assetid: 085ee8f4-7e96-416a-a59f-f35c8ad0dbf4
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_CURRENT_OPERATION_MODE, DOT11_CURRENT_OPERATION_MODE, DOT11_CURRENT_OPERATION_MODE structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_d2f0f1a7-3e89-4ac1-acbd-a032909837a2.xml, PDOT11_CURRENT_OPERATION_MODE, PDOT11_CURRENT_OPERATION_MODE structure pointer [Network Drivers Starting with Windows Vista], _DOT11_CURRENT_OPERATION_MODE, netvista.dot11_current_operation_mode, windot11/DOT11_CURRENT_OPERATION_MODE, windot11/PDOT11_CURRENT_OPERATION_MODE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -59,12 +56,12 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DOT11_CURRENT_OPERATION_MODE {
   ULONG uReserved;
   ULONG uCurrentOpMode;
 } DOT11_CURRENT_OPERATION_MODE, *PDOT11_CURRENT_OPERATION_MODE;
-````
+```
 
 
 ## -struct-fields
@@ -125,7 +122,7 @@ Specifies that the miniport driver supports the Wi-Fi Direct Group Owner operati
 Specifies that the miniport driver supports the Wi-Fi Direct Client operation mode. This mode is available starting in Windows 8.
 
 For more information about operation modes, see
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation
       Modes</a>.
 
 
@@ -137,7 +134,7 @@ The miniport driver must specify only one operation mode in the
     <b>uCurrentOpMode</b> member.
 
 For more information about Native 802.11 operation modes, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation
     Modes</a>.
 
 
@@ -149,11 +146,11 @@ For more information about Native 802.11 operation modes, see
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation Modes</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation Modes</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-current-operation-mode">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-current-operation-mode">
    OID_DOT11_CURRENT_OPERATION_MODE</a>
 
 

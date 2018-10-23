@@ -6,11 +6,8 @@ description: RxReleaseFcbResourceInMRx releases the FCB resource acquired by a n
 old-location: ifsk\rxreleasefcbresourceinmrx.htm
 tech.root: ifsk
 ms.assetid: 48308dcd-e423-4c25-9fec-3a423043e988
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxReleaseFcbResourceInMRx, RxReleaseFcbResourceInMRx function [Installable File System Drivers], ifsk.rxreleasefcbresourceinmrx, mrxfcb/RxReleaseFcbResourceInMRx, rxref_b433f8ba-7bdd-4fd2-baba-346e886a23dc.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mrxfcb.h
 req.include-header: Mrxfcb.h

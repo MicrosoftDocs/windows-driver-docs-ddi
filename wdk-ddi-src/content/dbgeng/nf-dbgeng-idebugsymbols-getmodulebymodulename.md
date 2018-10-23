@@ -6,11 +6,8 @@ description: The GetModuleByModuleName method searches through the target's modu
 old-location: debugger\getmodulebymodulename.htm
 tech.root: debugger
 ms.assetid: 243b79fe-b1b2-48b4-bb0b-c56b787e7b83
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetModuleByModuleName, GetModuleByModuleName method [Windows Debugging], GetModuleByModuleName method [Windows Debugging],IDebugSymbols interface, GetModuleByModuleName method [Windows Debugging],IDebugSymbols2 interface, GetModuleByModuleName method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetModuleByModuleName method, IDebugSymbols.GetModuleByModuleName, IDebugSymbols2 interface [Windows Debugging],GetModuleByModuleName method, IDebugSymbols2::GetModuleByModuleName, IDebugSymbols3 interface [Windows Debugging],GetModuleByModuleName method, IDebugSymbols3::GetModuleByModuleName, IDebugSymbols::GetModuleByModuleName, IDebugSymbols_1a407f12-64e8-43a3-b831-ef8c9b701537.xml, dbgeng/IDebugSymbols2::GetModuleByModuleName, dbgeng/IDebugSymbols3::GetModuleByModuleName, dbgeng/IDebugSymbols::GetModuleByModuleName, debugger.getmodulebymodulename
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

@@ -6,11 +6,8 @@ description: DirectX 8.0 and later versions only. The D3DHAL_DP2SETINDICES struc
 old-location: display\d3dhal_dp2setindices.htm
 tech.root: display
 ms.assetid: ac1b7daf-803d-48a0-89de-4a438f3837f9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_DP2SETINDICES, D3DHAL_DP2SETINDICES, D3DHAL_DP2SETINDICES structure [Display Devices], LPD3DHAL_DP2SETINDICES, LPD3DHAL_DP2SETINDICES structure pointer [Display Devices], _D3DHAL_DP2SETINDICES, d3dhal/D3DHAL_DP2SETINDICES, d3dhal/LPD3DHAL_DP2SETINDICES, d3dstrct_fd1eb5e4-28c8-45f9-90ba-b57970888717.xml, display.d3dhal_dp2setindices"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dhal.h
 req.include-header: D3dhal.h

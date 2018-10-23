@@ -6,11 +6,8 @@ description: The GetNumUnnamedArgs method returns the number of unnamed argument
 old-location: debugger\getnumunnamedargs.htm
 tech.root: debugger
 ms.assetid: dc3ea1ba-136b-4257-9aa2-ca9649555869
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_8ca2186f-dcda-422a-948f-ead63f451ff2.xml, ExtExtension class [Windows Debugging],GetNumUnnamedArgs method, ExtExtension.GetNumUnnamedArgs, ExtExtension::GetNumUnnamedArgs, GetNumUnnamedArgs, GetNumUnnamedArgs method [Windows Debugging], GetNumUnnamedArgs method [Windows Debugging],ExtExtension class, debugger.getnumunnamedargs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

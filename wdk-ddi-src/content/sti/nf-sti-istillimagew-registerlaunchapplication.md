@@ -6,11 +6,8 @@ description: The IStillImage::RegisterLaunchApplication method adds an applicati
 old-location: image\istillimage_registerlaunchapplication.htm
 tech.root: image
 ms.assetid: b76f2f3d-46ff-4a85-b3b2-1924946fa45d
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IStillImageW interface [Imaging Devices],RegisterLaunchApplication method, IStillImageW.RegisterLaunchApplication, IStillImageW::RegisterLaunchApplication, RegisterLaunchApplication, RegisterLaunchApplication method [Imaging Devices], RegisterLaunchApplication method [Imaging Devices],IStillImageW interface, image.istillimage_registerlaunchapplication, sti/IStillImageW::RegisterLaunchApplication, stifnc_606c7e24-38e2-450e-a9d5-3d7018ccf9b9.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sti.h
 req.include-header: Sti.h

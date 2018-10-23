@@ -6,11 +6,8 @@ description: The OPTTYPE structure is used by CPSUI applications (including prin
 old-location: print\opttype.htm
 tech.root: print
 ms.assetid: 041dd438-e837-4912-bda7-de654204198b
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*POPTTYPE, OPTTYPE, OPTTYPE structure [Print Devices], POPTTYPE, POPTTYPE structure pointer [Print Devices], _OPTTYPE, compstui/OPTTYPE, compstui/POPTTYPE, cpsuifnc_de1ff2db-9eea-4daf-bc9e-2e24a2dd5271.xml, print.opttype"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: compstui.h
 req.include-header: Compstui.h

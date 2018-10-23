@@ -5,7 +5,6 @@ author: windows-driver-content
 description: Hyper-V extensible switch extensions use the NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS_GET_FIRST_INFO macro to access the first NDIS_SWITCH_PROPERTY_ENUM_INFO element that is specified by an NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS structure.
 tech.root: netvista
 ms.assetid: 545e3463-4ae8-488f-b209-44f8ad12e694
-ms.author: windowsdriverdev
 ms.date: 04/17/2018
 ms.topic: macro
 ms.keywords: NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS_GET_FIRST_INFO

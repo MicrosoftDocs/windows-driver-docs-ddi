@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO macro adds a media-specific information data structure to the beginning of a linked list of such structures that are associated with a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: 75402d57-bc10-44c4-8074-da8f69729cbd
-ms.author: windowsdriverdev
 ms.date: 04/13/2018
 ms.topic: macro
 ms.keywords: NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO

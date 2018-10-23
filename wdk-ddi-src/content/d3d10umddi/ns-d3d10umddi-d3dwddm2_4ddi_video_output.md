@@ -4,11 +4,8 @@ title: D3DWDDM2_4DDI_VIDEO_OUTPUT
 author: windows-driver-content
 description: This structure is not implemented.
 ms.assetid: 70525c7d-5921-486c-b57c-82ac5258c4fb
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3DWDDM2_4DDI_VIDEO_OUTPUT, D3DWDDM2_4DDI_VIDEO_OUTPUT,
 req.header: d3d10umddi.h
 req.include-header:

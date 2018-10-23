@@ -6,11 +6,8 @@ description: The WdfDmaTransactionExecute method begins the execution of a speci
 old-location: wdf\wdfdmatransactionexecute.htm
 tech.root: wdf
 ms.assetid: 8f52557f-b65d-479d-aab4-1e4f7298c8f9
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDmaObjectRef_012a66e9-0ed7-458f-9068-c7d2ce58d86a.xml, WdfDmaTransactionExecute, WdfDmaTransactionExecute method, kmdf.wdfdmatransactionexecute, wdf.wdfdmatransactionexecute, wdfdmatransaction/WdfDmaTransactionExecute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
@@ -142,11 +139,11 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-The <b>WdfDmaTransactionExecute</b> method initializes a transaction's scatter/gather list for the first <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dma-transactions-and-dma-transfers">DMA transfer</a> that is associated with the specified <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dma-transactions-and-dma-transfers">DMA transaction</a>. (For single-packet transfers, the scatter/gather list contains a single element.) Then, the method calls the driver's <a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a> event callback function, and the callback function can program the device to begin the transfer. 
+The <b>WdfDmaTransactionExecute</b> method initializes a transaction's scatter/gather list for the first <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dma-transactions-and-dma-transfers">DMA transfer</a> that is associated with the specified <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dma-transactions-and-dma-transfers">DMA transaction</a>. (For single-packet transfers, the scatter/gather list contains a single element.) Then, the method calls the driver's <a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a> event callback function, and the callback function can program the device to begin the transfer. 
 
-Framework-based drivers typically call <b>WdfDmaTransactionExecute</b> from within an <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-handlers">I/O queue event callback function</a>. 
+Framework-based drivers typically call <b>WdfDmaTransactionExecute</b> from within an <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/request-handlers">I/O queue event callback function</a>. 
 
-After a driver has called <a href="https://msdn.microsoft.com/library/windows/hardware/ff547099">WdfDmaTransactionInitialize</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff547107">WdfDmaTransactionInitializeUsingRequest</a> to initialize a DMA transaction, the driver must call <b>WdfDmaTransactionExecute</b> only once before <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-a-dma-transaction">completing the DMA transaction</a>. 
+After a driver has called <a href="https://msdn.microsoft.com/library/windows/hardware/ff547099">WdfDmaTransactionInitialize</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff547107">WdfDmaTransactionInitializeUsingRequest</a> to initialize a DMA transaction, the driver must call <b>WdfDmaTransactionExecute</b> only once before <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-a-dma-transaction">completing the DMA transaction</a>. 
 
 
           If <b>WdfDmaTransactionInitialize<i>Xxx</i></b> returns success but <b>WdfDmaTransactionExecute</b> returns an error value, your driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff547114">WdfDmaTransactionRelease</a>.
@@ -161,7 +158,7 @@ If the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware
 
 The <b>WdfDmaTransactionExecute</b> returns STATUS_SUCCESS if the transaction was successfully started. To determine if the framework successfully sent all of the transaction's transfers to the driver's <a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a> callback function, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff547039">WdfDmaTransactionDmaCompleted</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff547052">WdfDmaTransactionDmaCompletedWithLength</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff547049">WdfDmaTransactionDmaCompletedFinal</a>.
 
-If the value that the <i>Context</i> parameter supplies is a pointer or handle, the memory that it references must be accessible in the driver's <a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a> event callback function at IRQL = DISPATCH_LEVEL. You can use <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-context-space">framework object context</a> to meet this requirement.
+If the value that the <i>Context</i> parameter supplies is a pointer or handle, the memory that it references must be accessible in the driver's <a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a> event callback function at IRQL = DISPATCH_LEVEL. You can use <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-context-space">framework object context</a> to meet this requirement.
 
 The driver can call <b>WdfDmaTransactionExecute</b> in a non-blocking manner if it has previously called <a href="https://msdn.microsoft.com/library/windows/hardware/hh451190">WdfDmaTransactionSetImmediateExecution</a>.
 
@@ -170,7 +167,7 @@ For more information about DMA transactions, see <a href="https://msdn.microsoft
 
 #### Examples
 
-The following code example is from the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">PCIDRV</a> sample driver. This example creates and initializes a DMA transfer and begins its execution.
+The following code example is from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">PCIDRV</a> sample driver. This example creates and initializes a DMA transfer and begins its execution.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

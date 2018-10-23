@@ -6,11 +6,8 @@ description: The StartOperation method starts the operation of a filter. The fil
 old-location: print\iprintpipelinefilter_startoperation.htm
 tech.root: print
 ms.assetid: 87139670-9b51-4ced-9624-2ec9f4726a84
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintPipelineFilter interface [Print Devices],StartOperation method, IPrintPipelineFilter.StartOperation, IPrintPipelineFilter::StartOperation, StartOperation, StartOperation method [Print Devices], StartOperation method [Print Devices],IPrintPipelineFilter interface, filterpipeline/IPrintPipelineFilter::StartOperation, filterpipeline_9040ff14-d052-4360-bb31-b171581c14b6.xml, print.iprintpipelinefilter_startoperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: filterpipeline.h
 req.include-header: 

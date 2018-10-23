@@ -4,12 +4,9 @@ title: PointerKind
 author: windows-driver-content
 description: 
 ms.assetid: 5601a992-ef28-42ee-99e9-c7e8b2ba08be
-ms.author: windowsdriverdev
 ms.date: 07/16/2018
 ms.topic: enum
 ms.keywords: PointerKind, , 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

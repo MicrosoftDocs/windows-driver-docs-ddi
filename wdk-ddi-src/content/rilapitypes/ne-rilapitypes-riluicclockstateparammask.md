@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\riluicclockstateparammask_2.htm
 tech.root: netvista
 ms.assetid: 88bdeb85-1ce8-43df-8cf1-4563d90a46ad
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: RILUICCLOCKSTATEPARAMMASK, RILUICCLOCKSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_UICCLOCKSTATE_ALL, RIL_PARAM_UICCLOCKSTATE_LOCKSTATE, RIL_PARAM_UICCLOCKSTATE_UNBLOCKATTEMPTSLEFT, RIL_PARAM_UICCLOCKSTATE_VERIFYATTEMPTSLEFT, netvista.riluicclockstateparammask_2, rilapitypes/RILUICCLOCKSTATEPARAMMASK, rilapitypes/RIL_PARAM_UICCLOCKSTATE_ALL, rilapitypes/RIL_PARAM_UICCLOCKSTATE_LOCKSTATE, rilapitypes/RIL_PARAM_UICCLOCKSTATE_UNBLOCKATTEMPTSLEFT, rilapitypes/RIL_PARAM_UICCLOCKSTATE_VERIFYATTEMPTSLEFT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
 req.include-header:
@@ -57,14 +54,14 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```cpp
 typedef enum _RILUICCLOCKSTATEPARAMMASK {
   RIL_PARAM_UICCLOCKSTATE_LOCKSTATE,
   RIL_PARAM_UICCLOCKSTATE_VERIFYATTEMPTSLEFT,
   RIL_PARAM_UICCLOCKSTATE_UNBLOCKATTEMPTSLEFT,
   RIL_PARAM_UICCLOCKSTATE_ALL
 } RILUICCLOCKSTATEPARAMMASK;
-````
+```
 
 
 ## -enum-fields

@@ -6,11 +6,8 @@ description: The GetModuleParameters method returns parameters for modules in th
 old-location: debugger\getmoduleparameters.htm
 tech.root: debugger
 ms.assetid: f744cd2e-a4ec-43be-a5cc-9135a73bce80
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetModuleParameters, GetModuleParameters method [Windows Debugging], GetModuleParameters method [Windows Debugging],IDebugSymbols interface, GetModuleParameters method [Windows Debugging],IDebugSymbols2 interface, GetModuleParameters method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetModuleParameters method, IDebugSymbols2 interface [Windows Debugging],GetModuleParameters method, IDebugSymbols2.GetModuleParameters, IDebugSymbols2::GetModuleParameters, IDebugSymbols3 interface [Windows Debugging],GetModuleParameters method, IDebugSymbols3::GetModuleParameters, IDebugSymbols::GetModuleParameters, IDebugSymbols_0a78fd64-15b7-4032-83a8-9867037e5081.xml, dbgeng/IDebugSymbols2::GetModuleParameters, dbgeng/IDebugSymbols3::GetModuleParameters, dbgeng/IDebugSymbols::GetModuleParameters, debugger.getmoduleparameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

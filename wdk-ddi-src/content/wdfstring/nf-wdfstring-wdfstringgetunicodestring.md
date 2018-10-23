@@ -6,11 +6,8 @@ description: The WdfStringGetUnicodeString method retrieves the Unicode string t
 old-location: wdf\wdfstringgetunicodestring.htm
 tech.root: wdf
 ms.assetid: 39041953-11ef-4f31-9b7e-09ce40b6b930
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFStringObjectRef_d02387c6-8b77-479e-a72a-2b0a323f83a9.xml, WdfStringGetUnicodeString, WdfStringGetUnicodeString method, kmdf.wdfstringgetunicodestring, wdf.wdfstringgetunicodestring, wdfstring/WdfStringGetUnicodeString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfstring.h
 req.include-header: Wdf.h
@@ -94,7 +91,7 @@ After <b>WdfStringGetUnicodeString</b> returns, the UNICODE_STRING structure tha
 
  The framework does not make a copy of the string for the driver.
 
-For more information about framework string objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-string-objects">Using String Objects</a>.
+For more information about framework string objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-string-objects">Using String Objects</a>.
 
 
 #### Examples

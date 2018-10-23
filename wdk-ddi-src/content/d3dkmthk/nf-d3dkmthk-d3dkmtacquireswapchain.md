@@ -4,8 +4,7 @@ title: D3DKMTAcquireSwapChain function
 author: windows-driver-content
 description: Acquires the swap chain resource.
 ms.assetid: 1f01635c-ee7f-4e7e-87f9-bbf0cc576bb1
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTAcquireSwapChain
 req.header: d3dkmthk.h

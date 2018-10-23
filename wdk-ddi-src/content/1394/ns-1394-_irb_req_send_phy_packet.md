@@ -6,11 +6,8 @@ description: This structure contains the fields necessary to carry out a SendPhy
 old-location: ieee\irb_req_send_phy_packet.htm
 tech.root: IEEE
 ms.assetid: 32C96259-3A35-4BD3-96A4-A9F2A5FDAB99
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_SEND_PHY_PACKET, IEEE.irb_req_send_phy_packet, IRB_REQ_SEND_PHY_PACKET, IRB_REQ_SEND_PHY_PACKET structure [Buses], _IRB_REQ_SEND_PHY_PACKET
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 1394.h
 req.include-header: 

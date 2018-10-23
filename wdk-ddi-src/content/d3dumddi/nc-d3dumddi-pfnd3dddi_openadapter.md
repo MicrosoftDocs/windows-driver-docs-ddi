@@ -6,11 +6,8 @@ description: The OpenAdapter function creates a graphics adapter object that is 
 old-location: display\openadapter.htm
 tech.root: display
 ms.assetid: 41dc9ee4-e9bc-4ebd-9b90-6446ded6ea16
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: OpenAdapter, OpenAdapter callback function [Display Devices], PFND3DDDI_OPENADAPTER, PFND3DDDI_OPENADAPTER callback, UserModeDisplayDriver_Functions_1b93a0e5-3f89-47aa-9e63-3ae50f1acd1e.xml, d3dumddi/OpenAdapter, display.openadapter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

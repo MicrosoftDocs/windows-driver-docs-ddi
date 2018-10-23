@@ -6,11 +6,8 @@ description: Defines values for endpoint offloading options in the USB device or
 old-location: buses\usbd_endpoint_offload_mode.htm
 tech.root: usbref
 ms.assetid: 577B2B5E-934E-4354-B6FF-FDFE9D1144D7
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: USBD_ENDPOINT_OFFLOAD_MODE, USBD_ENDPOINT_OFFLOAD_MODE enumeration [Buses], UsbdEndpointOffloadHardwareAssisted, UsbdEndpointOffloadModeNotSupported, UsbdEndpointOffloadSoftwareAssisted, _USBD_ENDPOINT_OFFLOAD_MODE, buses.usbd_endpoint_offload_mode, usb/USBD_ENDPOINT_OFFLOAD_MODE, usb/UsbdEndpointOffloadHardwareAssisted, usb/UsbdEndpointOffloadModeNotSupported, usb/UsbdEndpointOffloadSoftwareAssisted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: usb.h
 req.include-header: 

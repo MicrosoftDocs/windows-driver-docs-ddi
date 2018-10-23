@@ -6,11 +6,8 @@ description: The SM_SendSMPPassThru_OUT structure is used to receive output para
 old-location: storage\sm_sendsmppassthru_out.htm
 tech.root: storage
 ms.assetid: eb173171-3990-405e-b740-8c1a0c915165
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSM_SendSMPPassThru_OUT, PSM_SendSMPPassThru_OUT, PSM_SendSMPPassThru_OUT structure pointer [Storage Devices], SM_SendSMPPassThru_OUT, SM_SendSMPPassThru_OUT structure [Storage Devices], _SM_SendSMPPassThru_OUT, hbapiwmi/PSM_SendSMPPassThru_OUT, hbapiwmi/SM_SendSMPPassThru_OUT, storage.sm_sendsmppassthru_out, structs-Fibre_e311fd31-d9ee-4d41-a28a-65cc0153b788.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h

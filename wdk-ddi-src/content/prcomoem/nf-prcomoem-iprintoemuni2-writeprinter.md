@@ -6,11 +6,8 @@ description: The IPrintOemUni2::WritePrinter method, if supported, enables a ren
 old-location: print\iprintoemuni2_writeprinter.htm
 tech.root: print
 ms.assetid: 61901d4d-7821-40b4-aaef-fd679985abb3
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintOemUni2 interface [Print Devices],WritePrinter method, IPrintOemUni2.WritePrinter, IPrintOemUni2::WritePrinter, WritePrinter, WritePrinter method [Print Devices], WritePrinter method [Print Devices],IPrintOemUni2 interface, prcomoem/IPrintOemUni2::WritePrinter, print.iprintoemuni2_writeprinter, print_unidrv-pscript_rendering_8dfd9075-d0a9-451b-bb31-9e1a55c16c1c.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

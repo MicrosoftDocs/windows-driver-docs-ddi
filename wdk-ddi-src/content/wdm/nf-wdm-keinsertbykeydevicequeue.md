@@ -6,11 +6,8 @@ description: The KeInsertByKeyDeviceQueue routine acquires the spin lock for the
 old-location: kernel\keinsertbykeydevicequeue.htm
 tech.root: kernel
 ms.assetid: fa395673-108f-4cf0-b05f-a160aa0b02ea
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeInsertByKeyDeviceQueue, KeInsertByKeyDeviceQueue routine [Kernel-Mode Driver Architecture], k105_14a9196c-2ce0-4384-9e72-b957523f49b6.xml, kernel.keinsertbykeydevicequeue, wdm/KeInsertByKeyDeviceQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

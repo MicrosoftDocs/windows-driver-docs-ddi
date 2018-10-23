@@ -5,12 +5,9 @@ author: windows-driver-content
 description: Specifies the type of CSV control operation to use with the FSCTL_CSV_CONTROL control code.
 tech.root: ifsk
 ms.assetid: a08a089b-44a0-45b7-98e3-8d82b3edef4b
-ms.author: windowsdriverdev
 ms.date: 09/14/2018
 ms.topic: enum
 ms.keywords: _CSV_CONTROL_OP, CSV_CONTROL_OP, *PCSV_CONTROL_OP, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: ntifs.h
 req.include-header:
 req.target-type:

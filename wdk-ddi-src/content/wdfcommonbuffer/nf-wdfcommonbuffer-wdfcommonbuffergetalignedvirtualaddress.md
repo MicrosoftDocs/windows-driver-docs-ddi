@@ -6,11 +6,8 @@ description: The WdfCommonBufferGetAlignedVirtualAddress method returns the virt
 old-location: wdf\wdfcommonbuffergetalignedvirtualaddress.htm
 tech.root: wdf
 ms.assetid: 6874a1bc-e16e-4052-85a4-dba617a69ccd
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFCommonBufferObjectRef_469df6c0-51ef-480a-93fe-dee452eaf216.xml, WdfCommonBufferGetAlignedVirtualAddress, WdfCommonBufferGetAlignedVirtualAddress method, kmdf.wdfcommonbuffergetalignedvirtualaddress, wdf.wdfcommonbuffergetalignedvirtualaddress, wdfcommonbuffer/WdfCommonBufferGetAlignedVirtualAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfcommonbuffer.h
 req.include-header: WdfCommonBuffer.h

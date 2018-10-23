@@ -6,11 +6,8 @@ description:
 old-location: stream\bda_tuner_diagnostics.htm
 tech.root: stream
 ms.assetid: 19AE53CF-7C09-4858-9D33-CF4B885111D3
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PBDA_TUNER_DIAGNOSTICS, BDA_TUNER_DIAGNOSTICS, BDA_TUNER_DIAGNOSTICS structure [Streaming Media Devices], PBDA_TUNER_DIAGNOSTICS, PBDA_TUNER_DIAGNOSTICS structure pointer [Streaming Media Devices], _BDA_TUNER_DIAGNOSTICS, bdatypes/BDA_TUNER_DIAGNOSTICS, bdatypes/PBDA_TUNER_DIAGNOSTICS, stream.bda_tuner_diagnostics"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bdatypes.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The WDF_DPC_CONFIG_INIT function initializes a driver's WDF_DPC_CON
 old-location: wdf\wdf_dpc_config_init.htm
 tech.root: wdf
 ms.assetid: 12b34b79-0154-4b25-83e7-b15642154b05
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDpcObjectRef_ba15c593-3f2a-4e7f-9a58-a550ca47ccc1.xml, WDF_DPC_CONFIG_INIT, WDF_DPC_CONFIG_INIT function, kmdf.wdf_dpc_config_init, wdf.wdf_dpc_config_init, wdfdpc/WDF_DPC_CONFIG_INIT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdpc.h
 req.include-header: Wdf.h

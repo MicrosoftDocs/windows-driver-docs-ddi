@@ -6,11 +6,8 @@ description: The FltSetIoPriorityHintIntoCallbackData routine is used by a minif
 old-location: ifsk\fltsetiopriorityhintintocallbackdata.htm
 tech.root: ifsk
 ms.assetid: 25aba58b-654b-4492-9c54-83c53987342a
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_2d697ab8-c8ef-47f5-bfed-d0a82a61a1ef.xml, FltSetIoPriorityHintIntoCallbackData, FltSetIoPriorityHintIntoCallbackData routine [Installable File System Drivers], fltkernel/FltSetIoPriorityHintIntoCallbackData, ifsk.fltsetiopriorityhintintocallbackdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: FltKernel.h

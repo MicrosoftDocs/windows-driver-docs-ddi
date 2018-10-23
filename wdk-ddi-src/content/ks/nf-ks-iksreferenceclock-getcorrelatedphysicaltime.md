@@ -6,11 +6,8 @@ description: The IKsReferenceClock::GetCorrelatedPhysicalTime method queries the
 old-location: stream\iksreferenceclock_getcorrelatedphysicaltime.htm
 tech.root: stream
 ms.assetid: b80f6e20-410d-4984-8535-782a84c6af7e
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: GetCorrelatedPhysicalTime, GetCorrelatedPhysicalTime method [Streaming Media Devices], GetCorrelatedPhysicalTime method [Streaming Media Devices],IKsReferenceClock interface, IKsReferenceClock interface [Streaming Media Devices],GetCorrelatedPhysicalTime method, IKsReferenceClock.GetCorrelatedPhysicalTime, IKsReferenceClock::GetCorrelatedPhysicalTime, avintfc_d0686a3a-47ab-4dbc-87ec-ee56e357b4ea.xml, ks/IKsReferenceClock::GetCorrelatedPhysicalTime, stream.iksreferenceclock_getcorrelatedphysicaltime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ks.h
 req.include-header: Ks.h

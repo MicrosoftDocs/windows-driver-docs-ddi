@@ -4,12 +4,9 @@ title: D3D12DDI_RAYTRACING_GEOMETRY_FLAGS
 author: windows-driver-content
 description: Specifies the ray tracing geometry flags.
 ms.assetid: cc2f1309-40c0-41de-af55-8265581794da
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_RAYTRACING_GEOMETRY_FLAGS, D3D12DDI_RAYTRACING_GEOMETRY_FLAGS, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

@@ -5,7 +5,6 @@ author: windows-driver-content
 description: Returns all packets in a datapath queue's packet ring buffer that have the Completed flag set, up to a specified range.
 tech.root: netvista
 ms.assetid: d9d11975-4c19-4c3e-9de7-dafc2d37d64b
-ms.author: windowsdriverdev
 ms.date: 07/13/2018
 ms.topic: function
 ms.keywords: NetRingBufferReturnCompletedPacketsThroughIndex

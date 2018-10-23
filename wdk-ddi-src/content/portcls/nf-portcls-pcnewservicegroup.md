@@ -6,11 +6,8 @@ description: The PcNewServiceGroup function creates and initializes a service gr
 old-location: audio\pcnewservicegroup.htm
 tech.root: audio
 ms.assetid: 9fcc8cee-61a1-417c-9e69-5c658dab80b2
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: PcNewServiceGroup, PcNewServiceGroup function [Audio Devices], audio.pcnewservicegroup, audpc-routines_2164b9cd-1bb5-4e51-aa07-6ed9cb40e3fb.xml, portcls/PcNewServiceGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: portcls.h
 req.include-header: Portcls.h

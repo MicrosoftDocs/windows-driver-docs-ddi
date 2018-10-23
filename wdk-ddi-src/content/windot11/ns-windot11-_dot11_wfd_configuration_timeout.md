@@ -6,11 +6,8 @@ description: The DOT11_WFD_CONFIGURATION_TIMEOUT structure contains configuratio
 old-location: netvista\dot11_wfd_configuration_timeout.htm
 tech.root: netvista
 ms.assetid: 5432EB69-933A-4080-919F-4131DC4044D0
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_WFD_CONFIGURATION_TIMEOUT, DOT11_WFD_CONFIGURATION_TIMEOUT, DOT11_WFD_CONFIGURATION_TIMEOUT structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_CONFIGURATION_TIMEOUT, PDOT11_WFD_CONFIGURATION_TIMEOUT structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_CONFIGURATION_TIMEOUT, netvista.dot11_wfd_configuration_timeout, windot11/DOT11_WFD_CONFIGURATION_TIMEOUT, windot11/PDOT11_WFD_CONFIGURATION_TIMEOUT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Windot11.h
@@ -58,12 +55,12 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DOT11_WFD_CONFIGURATION_TIMEOUT {
   UCHAR GOTimeout;
   UCHAR ClientTimeout;
 } DOT11_WFD_CONFIGURATION_TIMEOUT, *PDOT11_WFD_CONFIGURATION_TIMEOUT;
-````
+```
 
 
 ## -struct-fields

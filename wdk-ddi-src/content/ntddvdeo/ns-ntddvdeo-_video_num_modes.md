@@ -6,11 +6,8 @@ description: The VIDEO_NUM_MODES structure contains the number of modes supporte
 old-location: display\video_num_modes.htm
 tech.root: display
 ms.assetid: d4ca1276-c0f6-46c6-bf86-3cd2a0c5f194
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*PVIDEO_NUM_MODES, PVIDEO_NUM_MODES, PVIDEO_NUM_MODES structure pointer [Display Devices], VIDEO_NUM_MODES, VIDEO_NUM_MODES structure [Display Devices], Video_Structs_9e999162-309a-4902-8854-172c672bf1ea.xml, _VIDEO_NUM_MODES, display.video_num_modes, ntddvdeo/PVIDEO_NUM_MODES, ntddvdeo/VIDEO_NUM_MODES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddvdeo.h
 req.include-header: Ntddvdeo.h

@@ -6,11 +6,8 @@ description: The location properties of bands in a band-managed storage device a
 old-location: storage\ioctl_ehstor_bandmgmt_set_band_location.htm
 tech.root: storage
 ms.assetid: FE6DA52C-6EE3-450E-A559-A7BCE47FA327
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION, IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION control, IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION, storage.ioctl_ehstor_bandmgmt_set_band_location
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h

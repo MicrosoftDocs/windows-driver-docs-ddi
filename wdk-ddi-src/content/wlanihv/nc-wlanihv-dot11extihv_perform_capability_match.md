@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extihvperformcapabilitymatch.htm
 tech.root: netvista
 ms.assetid: c49b23c0-4707-4626-8035-a83ccf7638eb
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: DOT11EXTIHV_PERFORM_CAPABILITY_MATCH, Dot11ExtIhvPerformCapabilityMatch, Dot11ExtIhvPerformCapabilityMatch callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_98cf7a9a-aaf4-45d0-8b1d-3142e947e415.xml, netvista.dot11extihvperformcapabilitymatch, wlanihv/Dot11ExtIhvPerformCapabilityMatch
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wlanihv.h
 req.include-header: Wlanihv.h, Winclient.h, L2cmn.h
@@ -62,7 +59,7 @@ The operating system calls the
 ## -prototype
 
 
-````
+```cpp
 DOT11EXTIHV_PERFORM_CAPABILITY_MATCH Dot11ExtIhvPerformCapabilityMatch;
 
 DWORD APIENTRY Dot11ExtIhvPerformCapabilityMatch(
@@ -74,7 +71,7 @@ DWORD APIENTRY Dot11ExtIhvPerformCapabilityMatch(
   _Out_    PDWORD                             pdwReasonCode
 )
 { ... }
-````
+```
 
 
 ## -parameters
@@ -121,7 +118,7 @@ A pointer to a
      or more 802.11 Beacon or Probe Response frames received from a BSS network. This list is derived from
      the results of the last scan operation performed by the WLAN adapter. For more information about the
      scan operation, see
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan Operations</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan Operations</a>.
 
 
 <div class="alert"><b>Note</b>  For Windows Vista, the IHV Extensions DLL supports only infrastructure basic

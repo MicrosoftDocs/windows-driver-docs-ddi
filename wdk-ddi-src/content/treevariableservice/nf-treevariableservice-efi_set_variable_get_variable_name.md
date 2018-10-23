@@ -4,8 +4,7 @@ title: EFI_SET_VARIABLE_GET_VARIABLE_NAME macro
 author: windows-driver-content
 description: 
 ms.assetid: 5f3641ff-b865-4fbf-ad63-f72a552f85c6
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: macro
 ms.keywords: EFI_SET_VARIABLE_GET_VARIABLE_NAME
 req.header: treevariableservice.h

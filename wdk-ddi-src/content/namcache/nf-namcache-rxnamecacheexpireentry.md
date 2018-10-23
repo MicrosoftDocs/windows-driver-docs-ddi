@@ -6,11 +6,8 @@ description: RxNameCacheExpireEntry puts a NAME_CACHE entry on the free list for
 old-location: ifsk\rxnamecacheexpireentry.htm
 tech.root: ifsk
 ms.assetid: cd763f88-0ff6-4938-ac6e-88ed3da2022b
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxNameCacheExpireEntry, RxNameCacheExpireEntry function [Installable File System Drivers], ifsk.rxnamecacheexpireentry, namcache/RxNameCacheExpireEntry, rxref_d516a8aa-e7f8-48d4-8619-6b59a862ca0c.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: namcache.h
 req.include-header: Namcache.h

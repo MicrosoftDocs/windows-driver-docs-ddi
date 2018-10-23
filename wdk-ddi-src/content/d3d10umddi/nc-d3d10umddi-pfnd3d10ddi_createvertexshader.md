@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The CreateVertexShader(D3D10) function creates a vertex shader.
 old-location: display\createvertexshader_d3d10_.htm
 ms.assetid: d6e4c3f9-1ee6-4484-913d-9a3dca64e627
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateVertexShader, CreateVertexShader callback function [Display Devices], PFND3D10DDI_CREATEVERTEXSHADER, PFND3D10DDI_CREATEVERTEXSHADER callback, UserModeDisplayDriverDx10_Functions_bb19d867-d11f-43bb-8380-2a44f231900a.xml, d3d10umddi/CreateVertexShader, display.createvertexshader_d3d10_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

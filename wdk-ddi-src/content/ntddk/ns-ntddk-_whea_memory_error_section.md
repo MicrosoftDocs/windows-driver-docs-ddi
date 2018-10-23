@@ -6,11 +6,8 @@ description: The WHEA_MEMORY_ERROR_SECTION structure describes platform memory e
 old-location: whea\whea_memory_error_section.htm
 tech.root: whea
 ms.assetid: eede44f8-0e14-4256-9893-cbdb5ef4ef9b
-ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: "*PWHEA_MEMORY_ERROR, *PWHEA_MEMORY_ERROR_SECTION, PWHEA_MEMORY_ERROR_SECTION, PWHEA_MEMORY_ERROR_SECTION structure pointer [WHEA Drivers and Applications], WHEA_MEMORY_ERROR, WHEA_MEMORY_ERROR_SECTION, WHEA_MEMORY_ERROR_SECTION structure [WHEA Drivers and Applications], _WHEA_MEMORY_ERROR_SECTION, ntddk/PWHEA_MEMORY_ERROR_SECTION, ntddk/WHEA_MEMORY_ERROR_SECTION, whea.whea_memory_error_section, whearef_63417420-4e27-4268-b50f-6d8dc2cdbd58.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddk.h
 req.include-header: Ntddk.h
@@ -171,8 +168,8 @@ The type of memory error that occurred. Possible values are:
 | WHEA_MEMERRTYPE_NOERROR           | No error occurred.                                                                                                                                                               |
 | WHEA_MEMERRTYPE_SINGLEBITECC      | A single bit [ECC](https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab) error.                                                                            |
 | WHEA_MEMERRTYPE_MULTIBITECC       | multibit ECC error.                                                                                                                                                              |
-| WHEA_MEMERRTYPE_SINGLESYMCHIPKILL | A single symbol <a href="http://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error.   |
-| WHEA_MEMERRTYPE_MULTISYMCHIPKILL  | A multiple symbol <a href="http://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error. |
+| WHEA_MEMERRTYPE_SINGLESYMCHIPKILL | A single symbol <a href="https://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error.   |
+| WHEA_MEMERRTYPE_MULTISYMCHIPKILL  | A multiple symbol <a href="https://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error. |
 | WHEA_MEMERRTYPE_MASTERABORT       | A master abort.                                                                                                                                                                  |
 | WHEA_MEMERRTYPE_TARGETABORT       | A target abort.                                                                                                                                                                  |
 | WHEA_MEMERRTYPE_PARITYERROR       | A parity error.                                                                                                                                                                  |

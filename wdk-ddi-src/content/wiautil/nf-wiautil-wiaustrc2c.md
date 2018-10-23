@@ -6,11 +6,8 @@ description: The wiauStrC2C function copies an ANSI character string to another 
 old-location: image\wiaustrc2c.htm
 tech.root: image
 ms.assetid: 7e8cd99a-d1b1-4261-9643-4a84bddfdc01
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiaustrc2c, wiauFncs_2266a6c9-ed4b-4af8-947a-d634bd9e9912.xml, wiauStrC2C, wiauStrC2C function [Imaging Devices], wiautil/wiauStrC2C
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiautil.h
 req.include-header: Wiautil.h

@@ -4,11 +4,8 @@ title: _DXGK_ESCAPE_GPUMMUCAPS
 author: windows-driver-content
 description: The GPU memory management capabilities.
 ms.assetid: c1ab6b76-d6f8-4ea6-83a1-94f392208502
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGK_ESCAPE_GPUMMUCAPS, DXGK_ESCAPE_GPUMMUCAPS, 
 req.header: d3dkmthk.h
 req.include-header:

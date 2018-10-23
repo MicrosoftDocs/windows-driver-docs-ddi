@@ -4,8 +4,7 @@ title: KeAddTriageDumpDataBlock function
 author: windows-driver-content
 description: Adds a triage dump data block to a triage dump data block array.
 ms.assetid: 18c54115-6df7-48c9-bcd5-1dfde7591fe5
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: KeAddTriageDumpDataBlock
 req.header: wdm.h
@@ -61,7 +60,7 @@ Adds a triage dump data block to a triage dump data block array.
 [_In_] The size of the data block, in bytes.
 
 ## -returns
-Returns STATUS_SUCCESS if the data block was successfully added. Otherwise returns an appropriate [NTSTATUS value](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values). 
+Returns STATUS_SUCCESS if the data block was successfully added. Otherwise returns an appropriate [NTSTATUS value](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values). 
 
 ## -remarks
 

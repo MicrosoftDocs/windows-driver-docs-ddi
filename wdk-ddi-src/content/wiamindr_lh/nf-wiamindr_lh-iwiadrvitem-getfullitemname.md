@@ -6,11 +6,8 @@ description: The IWiaDrvItem::GetFullItemName method gets the item's full name, 
 old-location: image\iwiadrvitem_getfullitemname.htm
 tech.root: image
 ms.assetid: 810faf49-faa9-45f2-af94-af576f4c1075
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: DrvItem_1b166476-d17a-4953-9c73-6e3d7c9cd0f9.xml, GetFullItemName, GetFullItemName method [Imaging Devices], GetFullItemName method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],GetFullItemName method, IWiaDrvItem.GetFullItemName, IWiaDrvItem::GetFullItemName, image.iwiadrvitem_getfullitemname, wiamindr_lh/IWiaDrvItem::GetFullItemName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h

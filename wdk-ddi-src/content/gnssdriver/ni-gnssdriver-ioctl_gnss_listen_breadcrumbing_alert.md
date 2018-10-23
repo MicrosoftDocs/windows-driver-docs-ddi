@@ -6,11 +6,8 @@ description: The IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT control code is used to r
 old-location: gnss\ioctl_gnss_listen_breadcrumbing_alert_.htm
 tech.root: gnss
 ms.assetid: 14D396B1-5F55-4902-8986-BD4CC5B2ACC4
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT, IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT control, IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT control code [Sensor Devices], gnss.ioctl_gnss_listen_breadcrumbing_alert_, gnssdriver/IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: gnssdriver.h
 req.include-header: 

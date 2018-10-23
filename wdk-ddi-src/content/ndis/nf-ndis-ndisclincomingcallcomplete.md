@@ -6,11 +6,8 @@ description: NdisClIncomingCallComplete returns a client's acceptance or rejecti
 old-location: netvista\ndisclincomingcallcomplete.htm
 tech.root: netvista
 ms.assetid: b3931dd7-319e-4ef8-9812-6dc3f2e41b2c
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisClIncomingCallComplete, NdisClIncomingCallComplete function [Network Drivers Starting with Windows Vista], condis_client_ref_93263dd6-f55a-4923-8173-b3617f40353a.xml, ndis/NdisClIncomingCallComplete, netvista.ndisclincomingcallcomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

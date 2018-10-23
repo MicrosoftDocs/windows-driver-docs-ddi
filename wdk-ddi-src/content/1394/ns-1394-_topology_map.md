@@ -6,11 +6,8 @@ description: The TOPOLOGY_MAP structure is used to store an IEEE 1394 bus topolo
 old-location: ieee\topology_map.htm
 tech.root: IEEE
 ms.assetid: 0a4c7ffc-94f9-4068-b650-1da43e45d0ad
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PTOPOLOGY_MAP, 1394/PTOPOLOGY_MAP, 1394/TOPOLOGY_MAP, 1394stct_4afaf64f-e60c-4521-91c7-82abefd49b55.xml, IEEE.topology_map, PTOPOLOGY_MAP, PTOPOLOGY_MAP structure pointer [Buses], TOPOLOGY_MAP, TOPOLOGY_MAP structure [Buses], _TOPOLOGY_MAP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 1394.h
 req.include-header: 1394.h

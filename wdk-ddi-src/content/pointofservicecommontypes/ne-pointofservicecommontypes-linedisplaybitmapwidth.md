@@ -6,11 +6,8 @@ description: This enumeration is not implemented.
 old-location: pos\linedisplaybitmapwidth.htm
 tech.root: pos
 ms.assetid: 062E3340-8545-4867-99E6-8D280F5693A9
-ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: LineDisplayBitmapWidth, LineDisplayBitmapWidth enumeration, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayBitmapWidth, pos.linedisplaybitmapwidth
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h

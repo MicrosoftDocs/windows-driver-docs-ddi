@@ -6,11 +6,8 @@ description: The SeImpersonateClientEx routine causes a thread to impersonate a 
 old-location: ifsk\seimpersonateclientex.htm
 tech.root: ifsk
 ms.assetid: 7a5043b9-2517-454a-a8d3-1ea09143c81a
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: SeImpersonateClientEx, SeImpersonateClientEx routine [Installable File System Drivers], ifsk.seimpersonateclientex, ntifs/SeImpersonateClientEx, seref_557d14bb-0d77-4bc8-8c75-57bb3c789963.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

@@ -4,7 +4,6 @@ title: IDebugHostSymbol::GetContext
 author: windows-driver-content
 description: The GetContext method returns the context where the symbol is valid.
 ms.assetid: 28fb426e-3b5b-499e-b28e-d73ebfff7fe5
-ms.author: windowsdriverdev
 ms.date: 08/14/2018
 ms.topic: method
 ms.keywords: IDebugHostSymbol::GetContext, GetContext, IDebugHostSymbol.GetContext, IDebugHostSymbol::GetContext, IDebugHostSymbol.GetContext

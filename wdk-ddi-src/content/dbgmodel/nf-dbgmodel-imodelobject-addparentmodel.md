@@ -4,7 +4,6 @@ title: IModelObject::AddParentModel
 author: windows-driver-content
 description: The AddParentModel method adds a new parent model to the given object.
 ms.assetid: 9e84b804-6d72-41e1-a548-edf726c669fc
-ms.author: windowsdriverdev
 ms.date: 08/08/2018
 ms.topic: method
 ms.keywords: IModelObject::AddParentModel, AddParentModel, IModelObject.AddParentModel, IModelObject::AddParentModel, IModelObject.AddParentModel

@@ -4,11 +4,8 @@ title: PFND3DKMT_GETCONTEXTSCHEDULINGPRIORITY
 author: windows-driver-content
 description: The Pfnd3dkmtGetcontextschedulingpriority retrieves the scheduling priority for a device context.
 ms.assetid: 37420543-d819-4fa9-b73e-3787db47dce9
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The Pfnd3dkmtGetcontextschedulingpriority retrieves the scheduling priority for 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_GETCONTEXTSCHEDULINGPRIORITY Pfnd3dkmtGetcontextschedulingpriority; 

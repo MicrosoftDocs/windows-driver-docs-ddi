@@ -6,11 +6,8 @@ description: The IOCTL_HID_SET_FEATURE request sends a feature report to a top-l
 old-location: hid\ioctl_hid_set_feature2.htm
 tech.root: hid
 ms.assetid: cbadc87a-b676-4df7-8116-b9692d93e345
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IOCTL_HID_SET_FEATURE, IOCTL_HID_SET_FEATURE control, IOCTL_HID_SET_FEATURE control code [Human Input Devices], hid.ioctl_hid_set_feature2, hidclass/IOCTL_HID_SET_FEATURE, hidioreq_def58360-8e73-49dd-ab90-33cf3b6a92de.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: hidclass.h
 req.include-header: Hidclass.h

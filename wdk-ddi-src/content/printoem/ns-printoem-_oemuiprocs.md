@@ -6,11 +6,8 @@ description: The OEMUIPROCS structure is obsolete.The OEMUIPROCS structure conta
 old-location: print\oemuiprocs.htm
 tech.root: print
 ms.assetid: 67dfb4bd-c43c-4da3-833d-34050d49dea3
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*POEMUIPROCS, OEMUIPROCS, OEMUIPROCS structure [Print Devices], POEMUIPROCS, POEMUIPROCS structure pointer [Print Devices], _OEMUIPROCS, print.oemuiprocs, print_unidrv-pscript_ui_2252155b-8f63-4c0f-886b-c66b26ccdd5f.xml, printoem/OEMUIPROCS, printoem/POEMUIPROCS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: printoem.h
 req.include-header: Printoem.h

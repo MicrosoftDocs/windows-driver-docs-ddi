@@ -6,11 +6,8 @@ description: The PPARALLEL_CLEAR_CHIP_MODE-typed callback routine clears the ope
 old-location: parports\pparallel_clear_chip_mode.htm
 tech.root: parports
 ms.assetid: 398d38a0-2337-4f8e-bd30-d6546516b945
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "(*PPARALLEL_CLEAR_CHIP_MODE), (*PPARALLEL_CLEAR_CHIP_MODE) callback function [Parallel Ports], cisspd_d5564f9d-0941-4f80-9fa7-5acacaaf47a9.xml, parallel/(*PPARALLEL_CLEAR_CHIP_MODE), parports.pparallel_clear_chip_mode"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: parallel.h
 req.include-header: Parallel.h
@@ -56,12 +53,12 @@ The <i>PPARALLEL_CLEAR_CHIP_MODE</i>-typed callback routine clears the operating
 ## -prototype
 
 
-````
+```cpp
 typedef NTSTATUS (*PPARALLEL_CLEAR_CHIP_MODE)(
   _In_ PVOID ClearChipContext,
   _In_ UCHAR ChipMode
 );
-````
+```
 
 
 ## -parameters

@@ -4,8 +4,7 @@ title: WIA_PROP_LIST_COUNT macro
 author: windows-driver-content
 description: 
 ms.assetid: 874022ef-dff3-4f88-be23-a7165723b934
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: macro
 ms.keywords: WIA_PROP_LIST_COUNT
 req.header: wiadef.h

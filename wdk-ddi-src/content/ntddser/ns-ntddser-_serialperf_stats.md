@@ -6,11 +6,8 @@ description: The SERIALPERF_STATS structure contains performance statistics for 
 old-location: serports\serialperf_stats.htm
 tech.root: serports
 ms.assetid: 47CAAF39-40C6-4D7F-B8DA-5A60768E4CB0
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PSERIALPERF_STATS, PSERIALPERF_STATS, PSERIALPERF_STATS structure pointer [Serial Ports], SERIALPERF_STATS, SERIALPERF_STATS structure [Serial Ports], _SERIALPERF_STATS, ntddser/PSERIALPERF_STATS, ntddser/SERIALPERF_STATS, serports.serialperf_stats"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddser.h
 req.include-header: 

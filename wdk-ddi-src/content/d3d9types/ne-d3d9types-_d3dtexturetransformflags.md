@@ -4,12 +4,9 @@ title: _D3DTEXTURETRANSFORMFLAGS
 author: windows-driver-content
 description: 
 ms.assetid: 9948eefd-9cd0-4704-b8b9-fcb4a499f942
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DTEXTURETRANSFORMFLAGS, D3DTEXTURETRANSFORMFLAGS, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d9types.h
 req.include-header:
 req.target-type:

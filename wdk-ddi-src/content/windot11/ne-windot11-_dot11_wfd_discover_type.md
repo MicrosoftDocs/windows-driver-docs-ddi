@@ -6,11 +6,8 @@ description: The DOT11_WFD_DISCOVER_TYPE enumeration indicates the mode of Wi-Fi
 old-location: netvista\dot11_wfd_discover_type.htm
 tech.root: netvista
 ms.assetid: B50C7FD5-5AE4-4BF3-9FD7-F006F4B6BAAF
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_WFD_DISCOVER_TYPE, DOT11_WFD_DISCOVER_TYPE, DOT11_WFD_DISCOVER_TYPE enumeration [Network Drivers Starting with Windows Vista], _DOT11_WFD_DISCOVER_TYPE, dot11_wfd_discover_type_auto, dot11_wfd_discover_type_find_only, dot11_wfd_discover_type_forced, dot11_wfd_discover_type_scan_only, dot11_wfd_discover_type_scan_social_channels, netvista.dot11_wfd_discover_type, windot11/DOT11_WFD_DISCOVER_TYPE, windot11/dot11_wfd_discover_type_auto, windot11/dot11_wfd_discover_type_find_only, windot11/dot11_wfd_discover_type_forced, windot11/dot11_wfd_discover_type_scan_only, windot11/dot11_wfd_discover_type_scan_social_channels"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: windot11.h
 req.include-header:
@@ -58,7 +55,7 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef enum _DOT11_WFD_DISCOVER_TYPE {
   dot11_wfd_discover_type_scan_only             = 1,
   dot11_wfd_discover_type_find_only             = 2,
@@ -66,7 +63,7 @@ typedef enum _DOT11_WFD_DISCOVER_TYPE {
   dot11_wfd_discover_type_scan_social_channels  = 4,
   dot11_wfd_discover_type_forced                = 0x80000000
 } DOT11_WFD_DISCOVER_TYPE;
-````
+```
 
 
 ## -enum-fields

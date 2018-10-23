@@ -4,11 +4,8 @@ title: D3D12DDI_CPU_DESCRIPTOR_HANDLE
 author: windows-driver-content
 description: The D3D12DDI_CPU_DESCRIPTOR_HANDLE structure describes a CPU descriptor handle.
 ms.assetid: 6cc7f0aa-806c-4d66-9691-9acdf73987e2
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_CPU_DESCRIPTOR_HANDLE, D3D12DDI_CPU_DESCRIPTOR_HANDLE, 
 req.header: d3d12umddi.h
 req.include-header:

@@ -6,11 +6,8 @@ description: The IPrintOemDriverUni::DrvGetGPDData method is provided by the Uni
 old-location: print\iprintoemdriveruni_drvgetgpddata.htm
 tech.root: print
 ms.assetid: cebe8972-4e5a-4382-ac1b-4c326dea46b1
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: DrvGetGPDData, DrvGetGPDData method [Print Devices], DrvGetGPDData method [Print Devices],IPrintOemDriverUni interface, IPrintOemDriverUni interface [Print Devices],DrvGetGPDData method, IPrintOemDriverUni.DrvGetGPDData, IPrintOemDriverUni::DrvGetGPDData, prcomoem/IPrintOemDriverUni::DrvGetGPDData, print.iprintoemdriveruni_drvgetgpddata, print_unidrv-pscript_rendering_3efd30f6-350c-411f-a036-f6fe3525132d.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

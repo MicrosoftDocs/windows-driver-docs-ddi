@@ -6,11 +6,8 @@ description: The ExtRemoteList class provides a wrapper around a singly-linked o
 old-location: debugger\extremotelist.htm
 tech.root: debugger
 ms.assetid: d35d5186-a5ee-4a64-88e7-d3e95de32d07
-ms.author: windowsdriverdev
-ms.date: 1/19/2018
+ms.date: 01/19/2018
 ms.keywords: engextcpp/ExtRemoteList, ExtRemoteList class [Windows Debugging], ExtRemoteList::ExtRemoteList, ExtRemoteList, ExtRemoteList class [Windows Debugging], described, debugger.extremotelist, EngExtCpp_Ref_83df4aa3-cb9c-4921-a588-ef473a57f0e2.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

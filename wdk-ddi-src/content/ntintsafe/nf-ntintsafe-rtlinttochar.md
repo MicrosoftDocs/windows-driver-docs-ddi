@@ -6,11 +6,8 @@ description: Converts a value of type INT to a value of type CHAR.
 old-location: kernel\rtlinttochar.htm
 tech.root: kernel
 ms.assetid: 407237E2-2CDB-40D5-867C-1EA8E1D80065
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlIntToChar, RtlIntToChar function [Kernel-Mode Driver Architecture], kernel.rtlinttochar, ntintsafe/RtlIntToChar
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

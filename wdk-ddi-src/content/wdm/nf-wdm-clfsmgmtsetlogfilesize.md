@@ -6,11 +6,8 @@ description: The ClfsMgmtSetLogFileSize routine adds containers to a log or dele
 old-location: kernel\clfsmgmtsetlogfilesize.htm
 tech.root: kernel
 ms.assetid: 76588bdd-ceb8-4c8b-bcd7-23184feacf86
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ClfsMgmtSetLogFileSize, ClfsMgmtSetLogFileSize routine [Kernel-Mode Driver Architecture], Clfs_management_a4f0865a-5c4b-411b-a8a5-349b49c1528b.xml, kernel.clfsmgmtsetlogfilesize, wdm/ClfsMgmtSetLogFileSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

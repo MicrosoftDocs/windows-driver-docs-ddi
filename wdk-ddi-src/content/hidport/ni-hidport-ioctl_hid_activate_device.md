@@ -6,11 +6,8 @@ description: The IOCTL_HID_ACTIVATE_DEVICE request activates a HIDClass device, 
 old-location: hid\ioctl_hid_activate_device.htm
 tech.root: hid
 ms.assetid: 5d2f218c-a9a5-4149-8fde-898171dfc9a7
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IOCTL_HID_ACTIVATE_DEVICE, IOCTL_HID_ACTIVATE_DEVICE control, IOCTL_HID_ACTIVATE_DEVICE control code [Human Input Devices], hid.ioctl_hid_activate_device, hidioreq_031bb843-02fe-4859-acf2-4bcbfaaea657.xml, hidport/IOCTL_HID_ACTIVATE_DEVICE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: hidport.h
 req.include-header: Hidport.h

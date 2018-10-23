@@ -6,11 +6,8 @@ description: The WDF_READ_REGISTER_USHORT function reads a USHORT value from the
 old-location: wdf\wdf_read_register_ushort.htm
 tech.root: wdf
 ms.assetid: EC3D7812-4EAB-419D-B736-47AE148FC61C
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WDF_READ_REGISTER_USHORT, WDF_READ_REGISTER_USHORT function, wdf.wdf_read_register_ushort, wdfhwaccess/WDF_READ_REGISTER_USHORT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfhwaccess.h
 req.include-header: 

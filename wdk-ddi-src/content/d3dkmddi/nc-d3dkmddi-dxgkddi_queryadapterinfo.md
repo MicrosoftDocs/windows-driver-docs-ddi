@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The DxgkDdiQueryAdapterInfo function retrieves configuration information from the graphics adapter.
 old-location: display\dxgkddiqueryadapterinfo.htm
 ms.assetid: f2f4c54c-7413-48e5-a165-d71f35642b6c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_QUERYADAPTERINFO, DXGKDDI_QUERYADAPTERINFO callback, DmFunctions_700dcca1-79a6-4d31-953c-00e33c8a404d.xml, DxgkDdiQueryAdapterInfo, DxgkDdiQueryAdapterInfo callback function [Display Devices], d3dkmddi/DxgkDdiQueryAdapterInfo, display.dxgkddiqueryadapterinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 

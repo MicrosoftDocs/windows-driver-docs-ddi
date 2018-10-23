@@ -6,11 +6,8 @@ description: Bus-master miniport drivers call the NdisMFreeNetBufferSGList funct
 old-location: netvista\ndismfreenetbuffersglist.htm
 tech.root: netvista
 ms.assetid: 22945e04-9feb-4f4b-9ca6-916dab372a64
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMFreeNetBufferSGList, NdisMFreeNetBufferSGList function [Network Drivers Starting with Windows Vista], ndis/NdisMFreeNetBufferSGList, ndis_sgdma_ref_e2f486cf-eba4-410d-ac18-724efb32fd59.xml, netvista.ndismfreenetbuffersglist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

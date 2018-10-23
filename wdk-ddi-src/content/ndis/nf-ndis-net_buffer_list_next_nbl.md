@@ -5,7 +5,6 @@ author: windows-driver-content
 description: NET_BUFFER_LIST_NEXT_NBL is a macro that NDIS drivers use to get the next NET_BUFFER_LIST structure in a linked list of NET_BUFFER_LIST structures.
 tech.root: netvista
 ms.assetid: 43a4a7df-a62e-4192-b2b5-2ae64698177c
-ms.author: windowsdriverdev
 ms.date: 04/13/2018
 ms.topic: macro
 ms.keywords: NET_BUFFER_LIST_NEXT_NBL

@@ -6,11 +6,8 @@ description: Gives information about the target mode signal, including the bandw
 old-location: display\iddcx_target_mode.htm
 tech.root: display
 ms.assetid: 10bb23fa-ff1e-4bda-ba64-59a19da5f87e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IDDCX_TARGET_MODE, IDDCX_TARGET_MODE structure [Display Devices], display.iddcx_target_mode, iddcx/IDDCX_TARGET_MODE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iddcx.h
 req.include-header: 

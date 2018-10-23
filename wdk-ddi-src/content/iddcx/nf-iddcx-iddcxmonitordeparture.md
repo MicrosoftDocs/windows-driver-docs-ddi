@@ -6,11 +6,8 @@ description: An OS callback function the driver calls to report a monitor depart
 old-location: display\iddcxmonitordeparture.htm
 tech.root: display
 ms.assetid: d23f70ee-a58d-4db1-8f21-b27887d661b9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IddCxMonitorDeparture, IddCxMonitorDeparture method [Display Devices], display.iddcxmonitordeparture, iddcx/IddCxMonitorDeparture
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iddcx.h
 req.include-header: 

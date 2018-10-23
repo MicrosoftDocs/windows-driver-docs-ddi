@@ -4,11 +4,8 @@ title: DXGK_BRIGHTNESS_GET_3
 author: windows-driver-content
 description: Implemented by the client driver to retrieve the currently active brightness level of an integrated display panel, with details on the brightness transition in progress.
 ms.assetid: 0bcf8d16-da3a-45a3-b9cc-d767b69695db
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dispmprt.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Implemented by the client driver to retrieve the currently active brightness lev
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGK_BRIGHTNESS_GET_3 DxgkBrightnessGet3;

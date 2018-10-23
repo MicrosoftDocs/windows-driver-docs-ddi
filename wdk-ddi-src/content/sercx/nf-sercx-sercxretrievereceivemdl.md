@@ -6,11 +6,8 @@ description: The SerCxRetrieveReceiveMdl method retrieves the MDL that describes
 old-location: serports\sercxretrievereceivemdl.htm
 tech.root: serports
 ms.assetid: 7BC76F62-CA51-4C3F-BBF0-0B192EE871E6
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 1/SerCxRetrieveReceiveMdl, SerCxRetrieveReceiveMdl, SerCxRetrieveReceiveMdl method [Serial Ports], serports.sercxretrievereceivemdl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 

@@ -4,11 +4,8 @@ title: PFND3DKMT_GETPOSTCOMPOSITIONCAPS
 author: windows-driver-content
 description: Pfnd3dkmtGetpostcompositioncaps retrieves post composition capabilities.
 ms.assetid: 4c14764f-5dfd-4ec2-9185-6aaeca02bafd
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Pfnd3dkmtGetpostcompositioncaps retrieves post composition capabilities.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_GETPOSTCOMPOSITIONCAPS Pfnd3dkmtGetpostcompositioncaps; 

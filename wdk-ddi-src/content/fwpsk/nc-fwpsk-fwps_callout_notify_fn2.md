@@ -6,11 +6,8 @@ description: The filter engine calls a callout's notifyFn2 callout function to n
 old-location: netvista\notifyfn2.htm
 tech.root: netvista
 ms.assetid: c70c987b-5b4c-4ddd-8eb8-8c3c40003ab3
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FWPS_CALLOUT_NOTIFY_FN2, FWPS_CALLOUT_NOTIFY_FN2 callback, fwpsk/notifyFn2, netvista.notifyfn2, notifyFn2, notifyFn2 callback function [Network Drivers Starting with Windows Vista]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
@@ -190,7 +187,7 @@ If a callout driver registers a callout with the filter engine after filters tha
     for the filter's action, the callout driver must call the appropriate management functions to enumerate
     all the filters in the filter engine and sort through the resulting list of filters to find those that
     specify the callout for the filter's action. See 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/calling-other-windows-filtering-platform-functions">Calling Other
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/calling-other-windows-filtering-platform-functions">Calling Other
     Windows Filtering Platform Functions</a> for more information about calling these functions.
 
 When a filter that specifies a callout for the filter's action is deleted from the filter engine, the

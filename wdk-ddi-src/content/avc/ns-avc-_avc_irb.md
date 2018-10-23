@@ -6,11 +6,8 @@ description: The AVC_IRB structure is an I/O Request Block (IRB) header structur
 old-location: stream\avc_irb.htm
 tech.root: stream
 ms.assetid: 8798e152-6586-48d0-a8f6-2e861660dd62
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PAVC_IRB, AVC_IRB, AVC_IRB structure [Streaming Media Devices], PAVC_IRB, PAVC_IRB structure pointer [Streaming Media Devices], _AVC_IRB, avc/AVC_IRB, avc/PAVC_IRB, avcref_98d983db-d72a-4efd-9c8c-20dd17b674a0.xml, stream.avc_irb"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: avc.h
 req.include-header: Avc.h

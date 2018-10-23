@@ -4,8 +4,7 @@ title: WdfDriverRetrieveDriverDataDirectoryString function
 author: windows-driver-content
 description:
 ms.assetid: 274dd0ee-3714-4c2c-ba44-ab4513520f73
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: WdfDriverRetrieveDriverDataDirectoryString
 req.header: wdfdriver.h
@@ -68,7 +67,7 @@ For more information about string objects, see [Using String Objects](https://do
 
 The following code example shows how to call **WdfDriverRetrieveDriverDataDirectoryString**:
 
-```
+```cpp
 NTSTATUS status;
 WDFSTRING string;
 

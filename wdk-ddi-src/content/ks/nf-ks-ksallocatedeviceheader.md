@@ -6,11 +6,8 @@ description: The KsAllocateDeviceHeader function allocates and initializes the r
 old-location: stream\ksallocatedeviceheader.htm
 tech.root: stream
 ms.assetid: 554f03bf-cacd-401b-aa34-fcfe1c31091e
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsAllocateDeviceHeader, KsAllocateDeviceHeader function [Streaming Media Devices], ks/KsAllocateDeviceHeader, ksfunc_715031de-7d7e-4e24-8e1c-072c7bc271fb.xml, stream.ksallocatedeviceheader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

@@ -6,11 +6,8 @@ description: The DOCEVENT_ESCAPE structure is a container for values used as par
 old-location: print\docevent_escape.htm
 tech.root: print
 ms.assetid: 54ac7c45-63a1-4003-8250-524e6f9e8d06
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PDOCEVENT_ESCAPE, DOCEVENT_ESCAPE, DOCEVENT_ESCAPE structure [Print Devices], PDOCEVENT_ESCAPE, PDOCEVENT_ESCAPE structure pointer [Print Devices], _DOCEVENT_ESCAPE, print.docevent_escape, print_interface-graphics_943033df-71a2-4689-a9fb-abd9feb4ea0d.xml, winddiui/DOCEVENT_ESCAPE, winddiui/PDOCEVENT_ESCAPE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winddiui.h
 req.include-header: Winddiui.h

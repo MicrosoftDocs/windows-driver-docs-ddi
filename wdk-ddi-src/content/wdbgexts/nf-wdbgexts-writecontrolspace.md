@@ -6,11 +6,8 @@ description: The WriteControlSpace function writes to the processor-specific con
 old-location: debugger\writecontrolspace.htm
 tech.root: debugger
 ms.assetid: 12ea119e-9d56-4a1d-a8c6-3999147dfaac
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: WdbgExts_Ref_ee59dfdc-d138-4f1b-8f5c-fb9e1d47bef2.xml, WriteControlSpace, WriteControlSpace function [Windows Debugging], debugger.writecontrolspace, wdbgexts/WriteControlSpace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h

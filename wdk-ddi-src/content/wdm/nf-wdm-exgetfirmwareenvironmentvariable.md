@@ -6,11 +6,8 @@ description: The ExGetFirmwareEnvironmentVariable routine gets the value of the 
 old-location: kernel\exgetfirmwareenvironmentvariable.htm
 tech.root: kernel
 ms.assetid: 5AD76955-A44C-4231-9394-0B6595CFB33D
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExGetFirmwareEnvironmentVariable, ExGetFirmwareEnvironmentVariable routine [Kernel-Mode Driver Architecture], kernel.exgetfirmwareenvironmentvariable, wdm/ExGetFirmwareEnvironmentVariable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
@@ -172,7 +169,7 @@ The firmware returned an unrecognized error.
 
 System firmware environment variables contain data values that are passed between the boot firmware environment implemented in the hardware platform and the operating-system loaders and other software that runs in the firmware environment.
 
-The set of firmware environment variables that is available in a hardware platform depends on the boot firmware. The location of these environment variables is also specified by the firmware. For example, on a UEFI-based platform, NVRAM contains firmware environment variables that specify system boot settings. For information about specific variables used, see the Unified Extensible Firmware Interface Specification at the <a href="http://go.microsoft.com/fwlink/p/?linkid=183072">UEFI</a> website. For more information about UEFI and Windows, see <a href="http://go.microsoft.com/fwlink/p/?linkid=183071">UEFI and Windows</a>.
+The set of firmware environment variables that is available in a hardware platform depends on the boot firmware. The location of these environment variables is also specified by the firmware. For example, on a UEFI-based platform, NVRAM contains firmware environment variables that specify system boot settings. For information about specific variables used, see the Unified Extensible Firmware Interface Specification at the <a href="https://go.microsoft.com/fwlink/p/?linkid=183072">UEFI</a> website. For more information about UEFI and Windows, see <a href="https://go.microsoft.com/fwlink/p/?linkid=183071">UEFI and Windows</a>.
 
 Firmware environment variables are not supported on a legacy BIOS-based platform. Calls to <b>ExGetFirmwareEnvironmentVariable</b> always fail on a legacy BIOS-based platform; they also fail if Windows was installed using the legacy BIOS on a platform that supports both legacy BIOS and UEFI. To identify these conditions, call the function with a dummy <i>VariableName</i> string (for example, an empty string) and a dummy GUID such as
 
@@ -218,7 +215,7 @@ If the caller specifies a non-NULL <i>Attributes</i> parameter, the routine writ
 </table>
  
 
-These attribute values are defined as flag bits. The value written to the ULONG variable pointed to by <i>Attributes</i> is either zero or the bitwise OR of one or more attributes in the preceding table. For more information, see the UEFI specification at the <a href="http://go.microsoft.com/fwlink/p/?linkid=183072">UEFI</a> website.
+These attribute values are defined as flag bits. The value written to the ULONG variable pointed to by <i>Attributes</i> is either zero or the bitwise OR of one or more attributes in the preceding table. For more information, see the UEFI specification at the <a href="https://go.microsoft.com/fwlink/p/?linkid=183072">UEFI</a> website.
 
 If you create a backup datastore, you can use this function to save all the boot settings for the platform so they can be restored by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151554">ExSetFirmwareEnvironmentVariable</a> routine if needed.
 

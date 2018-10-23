@@ -4,10 +4,7 @@ title: PropKeyFindKeyGetFileTime function
 author: windows-driver-content
 description: This routine gets a FILETIME value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
 ms.assetid: 87d6d150-2b52-468a-b6da-45179bf823cb
-ms.author: windowsdriverdev
-ms.date: 08/08/18
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
 ms.keywords: PropKeyFindKeyGetFileTime

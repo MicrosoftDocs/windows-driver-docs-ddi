@@ -6,11 +6,8 @@ description: CONNECT_DATA specifies information that Kbdclass and Mouclass use t
 old-location: hid\connect_data__kbdclass_.htm
 tech.root: hid
 ms.assetid: 8fdb5b1d-bbdb-4774-875a-7cdd047286f5
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PCONNECT_DATA, CONNECT_DATA, CONNECT_DATA structure [Human Input Devices], PCONNECT_DATA, PCONNECT_DATA structure pointer [Human Input Devices], _CONNECT_DATA, hid.connect_data__kbdclass_, kbdmou/CONNECT_DATA, kbdmou/PCONNECT_DATA, kref_e50b6d57-99fa-41bd-979c-de2d83922af6.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: kbdmou.h
 req.include-header: Kbdmou.h

@@ -6,11 +6,8 @@ description: The _URB_PIPE_REQUEST structure is used by USB client drivers to cl
 old-location: buses\_urb_pipe_request.htm
 tech.root: usbref
 ms.assetid: 611bddf9-befd-4d2f-8e7d-7b5fe0744c03
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "_URB_PIPE_REQUEST, _URB_PIPE_REQUEST structure [Buses], buses._urb_pipe_request, usb/_URB_PIPE_REQUEST, usbstrct_dfcdbce6-e230-46a8-88df-59a253e6bfa0.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: usb.h
 req.include-header: Usb.h

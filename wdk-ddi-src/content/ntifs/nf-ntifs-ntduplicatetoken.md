@@ -6,11 +6,8 @@ description: The ZwDuplicateToken function creates a handle to a new access toke
 old-location: kernel\zwduplicatetoken.htm
 tech.root: kernel
 ms.assetid: 89cc86aa-8ab0-4614-b92d-a1c627490d8d
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtDuplicateToken, ZwDuplicateToken, ZwDuplicateToken function [Kernel-Mode Driver Architecture], k111_5c46bc83-ec51-45f5-a3fc-e199f91d58ce.xml, kernel.zwduplicatetoken, ntifs/NtDuplicateToken, ntifs/ZwDuplicateToken
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
@@ -51,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>NtDuplicateToken</b> function creates a handle to a new <a href="http://go.microsoft.com/fwlink/p/?linkid=96098">access token</a> that duplicates an existing token. This function can create either a primary token or an impersonation token. 
+The <b>NtDuplicateToken</b> function creates a handle to a new <a href="https://go.microsoft.com/fwlink/p/?linkid=96098">access token</a> that duplicates an existing token. This function can create either a primary token or an impersonation token. 
 
 
 ## -parameters
@@ -306,7 +303,7 @@ Combines all possible token access permissions for a token.
 </table>
  
 
-For additional information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=91036">Access Rights for Access-Token Objects</a> in the Microsoft Windows SDK. Note that access tokens do not support the SYNCHRONIZE right.
+For additional information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=91036">Access Rights for Access-Token Objects</a> in the Microsoft Windows SDK. Note that access tokens do not support the SYNCHRONIZE right.
 
 
 ### -param ObjectAttributes [in]
@@ -317,7 +314,7 @@ When the <i>TokenType</i> parameter is set to <b>TokenImpersonation</b>:
 
 <ul>
 <li>
-The <i>ObjectAttributes </i>parameter may be used to specify the impersonation level of the new token. This can be accomplished by setting <i>ObjectAttributes</i>-&gt;SecurityQualityOfService.ImpersonationLevel to an appropriate <a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a> enumeration value. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=91038">SECURITY_QUALITY_OF_SERVICE</a> in the Microsoft Windows SDK documentation.
+The <i>ObjectAttributes </i>parameter may be used to specify the impersonation level of the new token. This can be accomplished by setting <i>ObjectAttributes</i>-&gt;SecurityQualityOfService.ImpersonationLevel to an appropriate <a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a> enumeration value. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=91038">SECURITY_QUALITY_OF_SERVICE</a> in the Microsoft Windows SDK documentation.
 
 </li>
 <li>
@@ -332,7 +329,7 @@ If the existing token is a primary token and no impersonation level information 
 
 ### -param EffectiveOnly [in]
 
-A Boolean value that indicates whether the entire existing token should be duplicated into the new token or just the effective (currently enabled) part of the token. If set to <b>TRUE</b>, only the currently enabled parts of the source token will be duplicated. If set to <b>FALSE</b>, the entire existing token will be duplicated. This provides a means for a caller of a protected subsystem to limit which optional groups and privileges are made available to the protected subsystem. For example, if <i>EffectiveOnly</i> is <b>TRUE</b>, the caller could duplicate a token but remove the Administrators group and the SeTcbPrivilege right. The resulting token could then be passed to a child process (<a href="http://go.microsoft.com/fwlink/p/?linkid=91041">CreateProcessAsUser</a>), which would restrict what the child process can do. This parameter is required.
+A Boolean value that indicates whether the entire existing token should be duplicated into the new token or just the effective (currently enabled) part of the token. If set to <b>TRUE</b>, only the currently enabled parts of the source token will be duplicated. If set to <b>FALSE</b>, the entire existing token will be duplicated. This provides a means for a caller of a protected subsystem to limit which optional groups and privileges are made available to the protected subsystem. For example, if <i>EffectiveOnly</i> is <b>TRUE</b>, the caller could duplicate a token but remove the Administrators group and the SeTcbPrivilege right. The resulting token could then be passed to a child process (<a href="https://go.microsoft.com/fwlink/p/?linkid=91041">CreateProcessAsUser</a>), which would restrict what the child process can do. This parameter is required.
 
 
 ### -param TokenType [in]
@@ -464,11 +461,11 @@ The requested impersonation level for the new token is greater than the imperson
 
 If no impersonation level information was provided by the <i>ObjectAttributes</i> parameter, the existing token's impersonation level will be used for the new token.
 
-With regard to the structure pointed to by the optional <i>ObjectAttributes</i> parameter, the <b>SecurityQualityOfService</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> points to a structure of type <b>SECURITY_QUALITY_OF_SERVICE</b>. See <a href="http://go.microsoft.com/fwlink/p/?linkid=91038">SECURITY_QUALITY_OF_SERVICE</a> in the Microsoft Windows SDK documentation for information on the members of this structure.
+With regard to the structure pointed to by the optional <i>ObjectAttributes</i> parameter, the <b>SecurityQualityOfService</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> points to a structure of type <b>SECURITY_QUALITY_OF_SERVICE</b>. See <a href="https://go.microsoft.com/fwlink/p/?linkid=91038">SECURITY_QUALITY_OF_SERVICE</a> in the Microsoft Windows SDK documentation for information on the members of this structure.
 
 <div class="alert"><b>Note</b>    The <b>SecurityQualityOfService</b> member must be set <u>after</u> calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> macro because <b>InitializeObjectAttributes</b> currently sets <b>SecurityQualityOfService</b> to <b>NULL</b>.</div>
 <div> </div>
-For information on the user-mode analog of <b>NtDuplicateToken</b>, see <a href="http://go.microsoft.com/fwlink/p/?linkid=91047">DuplicateTokenEx</a> in the Windows SDK documentation.
+For information on the user-mode analog of <b>NtDuplicateToken</b>, see <a href="https://go.microsoft.com/fwlink/p/?linkid=91047">DuplicateTokenEx</a> in the Windows SDK documentation.
 
 When you have finished using the new token, call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">NtClose</a> function to close the token handle.
 

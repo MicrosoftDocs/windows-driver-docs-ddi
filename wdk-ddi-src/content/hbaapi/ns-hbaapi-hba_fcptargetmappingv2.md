@@ -6,11 +6,8 @@ description: The HBA_FCPTargetMappingV2 structure contains a variable length arr
 old-location: storage\hba_fcptargetmappingv2.htm
 tech.root: storage
 ms.assetid: 2c241a38-c6b6-4c77-a8ba-be7ba2a8a701
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PHBA_FCPTARGETMAPPINGV2, HBA_FCPTARGETMAPPINGV2, HBA_FCPTARGETMAPPINGV2 structure [Storage Devices], HBA_FCPTargetMappingV2, HBA_FCPTargetMappingV2 structure [Storage Devices], PHBA_FCPTARGETMAPPINGV2, PHBA_FCPTARGETMAPPINGV2 structure pointer [Storage Devices], hbaapi/HBA_FCPTargetMappingV2, hbaapi/PHBA_FCPTARGETMAPPINGV2, storage.hba_fcptargetmappingv2, structs-Fibre_316084b2-47c7-46e2-aa1e-1d99a97de1cb.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hbaapi.h
 req.include-header: Hbaapi.h

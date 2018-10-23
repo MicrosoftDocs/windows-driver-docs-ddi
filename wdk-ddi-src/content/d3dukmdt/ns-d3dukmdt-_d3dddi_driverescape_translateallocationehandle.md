@@ -4,11 +4,8 @@ title: _D3DDDI_DRIVERESCAPE_TRANSLATEALLOCATIONEHANDLE
 author: windows-driver-content
 description: Used to translate the guest allocation to the corresponding host handle.
 ms.assetid: 8a286cbc-92cb-45cd-ac98-c0d185fc0bf0
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DDDI_DRIVERESCAPE_TRANSLATEALLOCATIONEHANDLE, D3DDDI_DRIVERESCAPE_TRANSLATEALLOCATIONEHANDLE, 
 req.header: d3dukmdt.h
 req.include-header:

@@ -6,11 +6,8 @@ description: A minifilter driver can register one or more routines of type PFLT_
 old-location: ifsk\pflt_post_operation_callback.htm
 tech.root: ifsk
 ms.assetid: 5bf2a533-e06b-4834-9075-62cb62fa5b06
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 10/12/2018
 ms.keywords: FltCallbacks_a3bdb676-d994-4bef-9b35-c233b12c5c9c.xml, PFLT_POST_OPERATION_CALLBACK, PFLT_POST_OPERATION_CALLBACK function pointer [Installable File System Drivers], fltkernel/PFLT_POST_OPERATION_CALLBACK, ifsk.pflt_post_operation_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: fltkernel.h
 req.include-header: FltKernel.h
@@ -145,6 +142,17 @@ After the work routine performs completion processing for the operation, it call
 </ul>
 This status value can only be returned for IRP-based I/O operations. To determine whether a given callback data structure represents an IRP-based I/O operation, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a> macro.
 
+</td>
+</tr>
+
+<tr>
+<td width="40%">
+<dl>
+<dt><b>FLT_POSTOP_DISALLOW_FSFILTER_IO</b></dt>
+</dl>
+</td>
+<td width="60%">
+The minifilter driver is disallowing a fast QueryOpen operation and forcing the operation down the slow path. Doing so causes the I/O manager to service the request by performing an open/query/close of the file. Minifilter drivers should only return this status for QueryOpen.
 </td>
 </tr>
 </table>

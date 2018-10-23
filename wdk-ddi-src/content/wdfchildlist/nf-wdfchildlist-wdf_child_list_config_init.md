@@ -6,11 +6,8 @@ description: The WDF_CHILD_LIST_CONFIG_INIT function initializes a WDF_CHILD_LIS
 old-location: wdf\wdf_child_list_config_init.htm
 tech.root: wdf
 ms.assetid: d222f2f3-554f-43d5-97c5-9a56fdb42ec3
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectChildListRef_b5fea12e-3e5b-4ec7-8e9d-0e385047cbdc.xml, WDF_CHILD_LIST_CONFIG_INIT, WDF_CHILD_LIST_CONFIG_INIT function, kmdf.wdf_child_list_config_init, wdf.wdf_child_list_config_init, wdfchildlist/WDF_CHILD_LIST_CONFIG_INIT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
@@ -67,7 +64,7 @@ A pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/wind
 
 ### -param IdentificationDescriptionSize [in]
 
-The size, in bytes, of each child device's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">identification description</a>. 
+The size, in bytes, of each child device's <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">identification description</a>. 
 
 
 ### -param EvtChildListCreateDevice [in]
@@ -90,7 +87,7 @@ None
 
 The <b>WDF_CHILD_LIST_CONFIG_INIT</b> function zeros the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff551227">WDF_CHILD_LIST_CONFIG</a> structure and sets the structure's <b>Size</b> member. Then it sets the <b>IdentificationDescriptionSize</b> and <b>EvtChildListCreateDevice</b> members to the specified values.
 
-For more information about child lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
+For more information about child lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
 
 #### Examples

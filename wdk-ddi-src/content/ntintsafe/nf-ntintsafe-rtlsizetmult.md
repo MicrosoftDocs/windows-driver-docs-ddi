@@ -6,11 +6,8 @@ description: Multiplies one value of type SIZE_T by another.
 old-location: kernel\rtlsizetmult.htm
 tech.root: kernel
 ms.assetid: 3EC72857-2880-4F03-8CC3-9B9A80F19273
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlSizeTMult, RtlSizeTMult function [Kernel-Mode Driver Architecture], kernel.rtlsizetmult, ntintsafe/RtlSizeTMult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

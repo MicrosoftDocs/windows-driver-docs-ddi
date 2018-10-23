@@ -6,11 +6,8 @@ description: The NDK_CONNECTOR_DISPATCH structure specifies dispatch function en
 old-location: netvista\ndk_connector_dispatch.htm
 tech.root: netvista
 ms.assetid: BBC24A32-4CB6-47AB-BD1D-298159EC9919
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_CONNECTOR_DISPATCH, NDK_CONNECTOR_DISPATCH structure [Network Drivers Starting with Windows Vista], PNDK_CONNECTOR_DISPATCH, PNDK_CONNECTOR_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], _NDK_CONNECTOR_DISPATCH, ndkpi/NDK_CONNECTOR_DISPATCH, ndkpi/PNDK_CONNECTOR_DISPATCH, netvista.ndk_connector_dispatch
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndkpi.h
 req.include-header: Ndkpi.h

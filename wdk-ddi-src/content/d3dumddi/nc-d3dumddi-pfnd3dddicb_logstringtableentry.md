@@ -6,11 +6,8 @@ description: Locates a string table entry that is used by the LogMarkerStringTab
 old-location: display\logmarkerstringtableentry.htm
 tech.root: display
 ms.assetid: 54D1F822-2D82-498D-A50F-A917FA127496
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: LogMarkerStringTableEntry, LogMarkerStringTableEntry callback function [Display Devices], PFND3DDDICB_LOGSTRINGTABLEENTRY, PFND3DDDICB_LOGSTRINGTABLEENTRY callback, d3dumddi/LogMarkerStringTableEntry, display.logmarkerstringtableentry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h

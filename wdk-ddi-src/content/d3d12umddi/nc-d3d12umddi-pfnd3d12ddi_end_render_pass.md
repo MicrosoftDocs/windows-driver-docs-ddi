@@ -4,11 +4,8 @@ title: PFND3D12DDI_END_RENDER_PASS
 author: windows-driver-content
 description: Implemented by the client driver to end a Render Pass.
 ms.assetid: ed21b9b2-3100-4d66-be48-f25567677427
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to end a Render Pass.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_END_RENDER_PASS Pfnd3d12ddiEndRenderPass; 

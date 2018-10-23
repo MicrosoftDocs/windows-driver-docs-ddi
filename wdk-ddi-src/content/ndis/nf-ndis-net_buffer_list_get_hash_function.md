@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NET_BUFFER_LIST_GET_HASH_FUNCTION macro gets the hash function information from a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: 6ad6ab88-31e3-471a-9c21-a87c76b6654a
-ms.author: windowsdriverdev
 ms.date: 04/13/2018
 ms.topic: macro
 ms.keywords: NET_BUFFER_LIST_GET_HASH_FUNCTION

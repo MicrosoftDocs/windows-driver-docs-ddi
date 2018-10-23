@@ -4,11 +4,8 @@ title: DXGKDDI_PRESENTTOHWQUEUE
 author: windows-driver-content
 description: Copies content from a source allocation, given a handle to a hardware queue.
 ms.assetid: af78bc41-2a61-4ba3-be19-8daa7ebc8554
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Copies content from a source allocation, given a handle to a hardware queue.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_PRESENTTOHWQUEUE DxgkddiPresenttohwqueue; 

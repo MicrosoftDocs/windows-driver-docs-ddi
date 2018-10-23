@@ -6,11 +6,8 @@ description: The FindSourceFileAndToken method returns the filename of a source 
 old-location: debugger\findsourcefileandtoken.htm
 tech.root: debugger
 ms.assetid: 92748e47-c536-4bf2-be10-91b8c5f1206d
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: FindSourceFileAndToken, FindSourceFileAndToken method [Windows Debugging], FindSourceFileAndToken method [Windows Debugging],IDebugAdvanced2 interface, FindSourceFileAndToken method [Windows Debugging],IDebugAdvanced3 interface, IDebugAdvanced2 interface [Windows Debugging],FindSourceFileAndToken method, IDebugAdvanced2::FindSourceFileAndToken, IDebugAdvanced3 interface [Windows Debugging],FindSourceFileAndToken method, IDebugAdvanced3.FindSourceFileAndToken, IDebugAdvanced3::FindSourceFileAndToken, IDebugAdvanced_3c88de99-1ddb-47e4-ab70-37a2521b9f1b.xml, dbgeng/IDebugAdvanced2::FindSourceFileAndToken, dbgeng/IDebugAdvanced3::FindSourceFileAndToken, debugger.findsourcefileandtoken
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

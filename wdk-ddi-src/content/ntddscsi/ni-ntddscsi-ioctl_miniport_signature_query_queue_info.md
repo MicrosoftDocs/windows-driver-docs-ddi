@@ -4,11 +4,8 @@ title: IOCTL_MINIPORT_SIGNATURE_QUERY_QUEUE_INFO
 author: windows-driver-content
 description: 
 ms.assetid: 04498f2d-a468-4b94-a762-5234e0d220a5
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: ioctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: ntddscsi.h
 req.include-header:
 req.target-type:
@@ -36,7 +33,7 @@ targetos: Windows
 
 # IOCTL_MINIPORT_SIGNATURE_QUERY_QUEUE_INFO IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
+### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -73,7 +70,7 @@ targetos: Windows
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

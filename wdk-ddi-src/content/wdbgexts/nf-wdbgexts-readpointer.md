@@ -6,11 +6,8 @@ description: The ReadPointer function reads a pointer from the target.
 old-location: debugger\readpointer.htm
 tech.root: debugger
 ms.assetid: 354b1854-2b3b-4fcf-81cb-fd24595cd9bb
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ReadPointer, ReadPointer function [Windows Debugging], WdbgExts_Ref_3d78e28a-910f-4b82-a262-28d83d87c6f1.xml, debugger.readpointer, wdbgexts/ReadPointer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h

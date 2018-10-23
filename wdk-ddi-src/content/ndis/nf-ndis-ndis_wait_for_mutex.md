@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NDIS_WAIT_FOR_MUTEX macro puts the current thread into the wait state until the specified mutex object is set to the signaled state.
 tech.root: netvista
 ms.assetid: 06e6a4d2-4a3d-432e-8e58-ad2634fbc3b6
-ms.author: windowsdriverdev
 ms.date: 04/16/2018
 ms.topic: macro
 ms.keywords: NDIS_WAIT_FOR_MUTEX

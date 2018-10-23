@@ -4,12 +4,9 @@ title: _UCSI_GET_ERROR_STATUS_COMMAND
 author: windows-driver-content
 description: Used in the GET_ERROR_STATUS command. See Table 4-45
 ms.assetid: d55af2a1-7c4e-4250-bccc-c077f1156dc4
-ms.author: windowsdriverdev
 tech.root: usbref
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _UCSI_GET_ERROR_STATUS_COMMAND, UCSI_GET_ERROR_STATUS_COMMAND, *PUCSI_GET_ERROR_STATUS_COMMAND, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

@@ -6,11 +6,8 @@ description: EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION is called by the OS to get OP
 old-location: display\evt_idd_cx_monitor_opm_get_infomation.htm
 tech.root: display
 ms.assetid: b616a105-3c4b-42b7-8352-a1f35479572e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION, EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION callback, EvtIddCxMonitorOpmGetInfomation, EvtIddCxMonitorOpmGetInfomation callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_GET_INFOMATION, PFN_IDD_CX_MONITOR_OPM_GET_INFOMATION callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_get_infomation, iddcx/EvtIddCxMonitorOpmGetInfomation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: iddcx.h
 req.include-header: 

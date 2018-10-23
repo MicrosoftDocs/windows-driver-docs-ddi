@@ -6,11 +6,8 @@ description: The CcCopyWriteEx routine copies data from a user buffer to a cache
 old-location: ifsk\cccopywriteex.htm
 tech.root: ifsk
 ms.assetid: A8945F1C-56CF-494F-9E50-11C7A713E5F0
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: CcCopyWriteEx, CcCopyWriteEx routine [Installable File System Drivers], ifsk.cccopywriteex, ntifs/CcCopyWriteEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h

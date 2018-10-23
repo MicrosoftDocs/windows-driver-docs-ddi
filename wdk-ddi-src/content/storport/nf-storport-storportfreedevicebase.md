@@ -6,11 +6,8 @@ description: StorPortFreeDeviceBase frees a range of device I/O memory that was 
 old-location: storage\storportfreedevicebase.htm
 tech.root: storage
 ms.assetid: 4feb3bde-c243-493c-a6f9-4accd545955c
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortFreeDeviceBase, StorPortFreeDeviceBase function [Storage Devices], storage.storportfreedevicebase, storport/StorPortFreeDeviceBase, storprt_f8c3e4c6-8f38-4189-bdac-70c0c61e0f18.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

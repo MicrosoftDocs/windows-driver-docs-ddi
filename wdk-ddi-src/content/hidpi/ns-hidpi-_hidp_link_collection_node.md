@@ -6,11 +6,8 @@ description: The HIDP_LINK_COLLECTION_NODE structure contains information about 
 old-location: hid\hidp_link_collection_node.htm
 tech.root: hid
 ms.assetid: 66ffd219-4a62-404d-ba51-4a91eccfcf96
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PHIDP_LINK_COLLECTION_NODE, HIDP_LINK_COLLECTION_NODE, HIDP_LINK_COLLECTION_NODE structure [Human Input Devices], PHIDP_LINK_COLLECTION_NODE, PHIDP_LINK_COLLECTION_NODE structure pointer [Human Input Devices], _HIDP_LINK_COLLECTION_NODE, hid.hidp_link_collection_node, hidpi/HIDP_LINK_COLLECTION_NODE, hidpi/PHIDP_LINK_COLLECTION_NODE, hidstrct_8d1c79e1-c19d-4896-9572-cae49a06304a.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hidpi.h
 req.include-header: Hidpi.h

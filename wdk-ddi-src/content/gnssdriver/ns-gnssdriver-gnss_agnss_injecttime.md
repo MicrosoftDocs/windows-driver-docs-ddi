@@ -6,11 +6,8 @@ description: This structure defines the format for AGNSS time injection.
 old-location: gnss\gnss_agnss_injecttime.htm
 tech.root: gnss
 ms.assetid: 05BCC40C-E542-4BE8-9FD7-F0D25C3B8C7C
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PGNSS_AGNSS_INJECTTIME, GNSS_AGNSS_INJECTTIME, GNSS_AGNSS_INJECTTIME structure [Sensor Devices], PGNSS_AGNSS_INJECTTIME, PGNSS_AGNSS_INJECTTIME structure pointer [Sensor Devices], gnss.gnss_agnss_injecttime, gnssdriver/GNSS_AGNSS_INJECTTIME, gnssdriver/PGNSS_AGNSS_INJECTTIME"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: gnssdriver.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: This enumeration specifies the type of a plug.
 old-location: ieee\cmp_plug_type.htm
 tech.root: IEEE
 ms.assetid: 97A19F3D-5669-4E4B-A377-7BE5A84DF63A
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: 61883/CMP_PLUG_TYPE, 61883/CMP_PlugIn, 61883/CMP_PlugOut, CMP_PLUG_TYPE, CMP_PLUG_TYPE enumeration [Buses], CMP_PlugIn, CMP_PlugOut, IEEE.cmp_plug_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: 61883.h
 req.include-header: 

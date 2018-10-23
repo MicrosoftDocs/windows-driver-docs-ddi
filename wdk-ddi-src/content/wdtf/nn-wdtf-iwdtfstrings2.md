@@ -6,11 +6,8 @@ description: Defines operations and properties for a collection of strings.
 old-location: dtf\iwdtfstrings2.htm
 tech.root: dtf
 ms.assetid: ea7ebda9-9588-4c72-bac6-2bae1f80538e
-ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFStrings2, IWDTFStrings2 interface [Windows Device Testing Framework], IWDTFStrings2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFStrings2, dtf.iwdtfstrings2, wdtf/IWDTFStrings2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wdtf.h
 req.include-header: 

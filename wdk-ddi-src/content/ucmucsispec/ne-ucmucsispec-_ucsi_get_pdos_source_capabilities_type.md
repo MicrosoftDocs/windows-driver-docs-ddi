@@ -5,12 +5,9 @@ author: windows-driver-content
 tech.root: usbref
 description: Used in the GET_PDOS command. See Table 4-34, Offset 35.
 ms.assetid: 5c224f73-f834-41c3-95a0-75afbbbbded7
-ms.author: windowsdriverdev
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: enum
 ms.keywords: _UCSI_GET_PDOS_SOURCE_CAPABILITIES_TYPE, UCSI_GET_PDOS_SOURCE_CAPABILITIES_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 
 req.target-type:

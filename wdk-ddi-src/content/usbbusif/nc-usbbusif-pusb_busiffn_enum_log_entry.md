@@ -6,11 +6,8 @@ description: This callback function is not supported.The EnumLogEntry routine ma
 old-location: buses\enumlogentry.htm
 tech.root: usbref
 ms.assetid: 6c7f1ab6-bbd8-45d8-92af-030db336c97c
-ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: EnumLogEntry, EnumLogEntry callback function [Buses], USB_BUSIFFN_ENUM_LOG_ENTRY, buses.enumlogentry, usbbusif/EnumLogEntry, usbinterKR_a05ba50b-df81-4211-918b-e7409bc1d5ff.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: usbbusif.h
 req.include-header: Usbbusif.h
@@ -59,7 +56,7 @@ The <i>EnumLogEntry</i> routine makes a log entry.
 ## -prototype
 
 
-````
+```cpp
 USB_BUSIFFN_ENUM_LOG_ENTRY EnumLogEntry;
 
 NTSTATUS EnumLogEntry(
@@ -70,7 +67,7 @@ NTSTATUS EnumLogEntry(
   _In_ ULONG P2
 )
 { ... }
-````
+```
 
 
 ## -parameters

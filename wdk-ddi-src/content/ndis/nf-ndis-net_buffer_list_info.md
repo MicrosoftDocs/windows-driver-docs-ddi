@@ -5,7 +5,6 @@ author: windows-driver-content
 description: NET_BUFFER_LIST_INFO is a macro that NDIS drivers use to get and set information that applies to all the NET_BUFFER structures in a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: 2d4727fc-43bf-41a5-8e2e-3c5de814aaef
-ms.author: windowsdriverdev
 ms.date: 04/12/2018
 ms.topic: macro
 ms.keywords: NET_BUFFER_LIST_INFO

@@ -6,11 +6,8 @@ description: Reserved for system use.
 old-location: ifsk\sequerysessionidtoken.htm
 tech.root: ifsk
 ms.assetid: 4b2e981d-1ad7-4f40-86d2-e6b210cec7d2
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: SeQuerySessionIdToken, SeQuerySessionIdToken function [Installable File System Drivers], ifsk.sequerysessionidtoken, ntifs/SeQuerySessionIdToken, seref_9b30e13e-4132-4bc1-a2e1-7ccfb07b808e.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

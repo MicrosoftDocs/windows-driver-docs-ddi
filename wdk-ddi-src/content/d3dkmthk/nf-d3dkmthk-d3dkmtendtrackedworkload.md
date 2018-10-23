@@ -4,8 +4,7 @@ title: D3DKMTEndTrackedWorkload function
 author: windows-driver-content
 description: Called when the tracked workload commands are done.
 ms.assetid: a95a7079-febc-4f40-abc8-65c0fc0e6363
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTEndTrackedWorkload
 req.header: d3dkmthk.h

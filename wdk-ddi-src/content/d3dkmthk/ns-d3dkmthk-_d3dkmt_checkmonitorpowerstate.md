@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMT_CHECKMONITORPOWERSTATE structure describes the connection to the monitor for which to check the power state.
 old-location: display\d3dkmt_checkmonitorpowerstate.htm
 ms.assetid: aa7cee9a-5051-4ebc-be7c-ac9ac91ba631
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_CHECKMONITORPOWERSTATE, D3DKMT_CHECKMONITORPOWERSTATE structure [Display Devices], OpenGL_Structs_2c4ec2cb-c35a-4447-8e35-dc8e4964e8b2.xml, _D3DKMT_CHECKMONITORPOWERSTATE, d3dkmthk/D3DKMT_CHECKMONITORPOWERSTATE, display.d3dkmt_checkmonitorpowerstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

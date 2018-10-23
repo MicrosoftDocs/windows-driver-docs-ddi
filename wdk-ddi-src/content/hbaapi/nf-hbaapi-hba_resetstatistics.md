@@ -6,11 +6,8 @@ description: The HBA_ResetStatistics routine resets the statistics counters for 
 old-location: storage\hba_resetstatistics.htm
 tech.root: storage
 ms.assetid: 4e889905-9c5e-446c-8d0e-09e445f7c1a4
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_ResetStatistics, HBA_ResetStatistics routine [Storage Devices], fibreHBA_rtns_37577fde-9a33-4fd7-8e80-abbd7458b4ef.xml, hbaapi/HBA_ResetStatistics, storage.hba_resetstatistics
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hbaapi.h
 req.include-header: Hbaapi.h

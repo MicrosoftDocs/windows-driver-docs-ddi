@@ -6,11 +6,8 @@ description: The IOCTL_BTHHFP_STREAM_CLOSE IOCTL indicates that the client drive
 old-location: audio\ioctl_bthhfp_stream_close.htm
 tech.root: audio
 ms.assetid: 689296FA-E28A-4F9C-8E09-2CAC8A189808
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IOCTL_BTHHFP_STREAM_CLOSE, IOCTL_BTHHFP_STREAM_CLOSE control, IOCTL_BTHHFP_STREAM_CLOSE control code [Audio Devices], audio.ioctl_bthhfp_stream_close, bthhfpddi/IOCTL_BTHHFP_STREAM_CLOSE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: bthhfpddi.h
 req.include-header: 

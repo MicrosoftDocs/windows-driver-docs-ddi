@@ -4,12 +4,9 @@ title: _DXVAHDDDI_DEVICE_CAPS
 author: windows-driver-content
 description: DirectX video acceleration device capabilities.
 ms.assetid: f1277bfc-7240-4a85-bd3f-5062b9e773b9
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _DXVAHDDDI_DEVICE_CAPS, DXVAHDDDI_DEVICE_CAPS, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dumddi.h
 req.include-header:
 req.target-type:

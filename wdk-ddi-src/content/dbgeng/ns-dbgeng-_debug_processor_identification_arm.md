@@ -6,11 +6,8 @@ description: Identifies an ARM processor.
 old-location: debugger\debug_processor_identification_arm.htm
 tech.root: debugger
 ms.assetid: 4C7D5959-7900-4482-A45C-61D66541C276
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: "*PDEBUG_PROCESSOR_IDENTIFICATION_ARM, DEBUG_PROCESSOR_IDENTIFICATION_ARM, DEBUG_PROCESSOR_IDENTIFICATION_ARM structure [Windows Debugging], PDEBUG_PROCESSOR_IDENTIFICATION_ARM, PDEBUG_PROCESSOR_IDENTIFICATION_ARM structure pointer [Windows Debugging], _DEBUG_PROCESSOR_IDENTIFICATION_ARM, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ARM, dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_ARM, debugger.debug_processor_identification_arm"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dbgeng.h
 req.include-header: DbgEng.h

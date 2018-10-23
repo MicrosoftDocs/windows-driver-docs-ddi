@@ -6,11 +6,8 @@ description: Profile drivers implement a L2CAP callback function to provide the 
 old-location: bltooth\l2cap_callback_function.htm
 tech.root: bltooth
 ms.assetid: d3ca900d-1dd6-49da-ae94-855de3fbd086
-ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: BluetoothPortIndicationCallback, BluetoothPortIndicationCallback callback function [Bluetooth Devices], PFNBTHPORT_INDICATION_CALLBACK, PFNBTHPORT_INDICATION_CALLBACK callback, bltooth.l2cap_callback_function, bth_funcs_76d9cb39-ead0-4465-9cc5-83b559b0ba55.xml, bthddi/BluetoothPortIndicationCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: bthddi.h
 req.include-header: Bthddi.h
@@ -116,7 +113,7 @@ When the profile driver acts as a client and attempts to connect to a remote dev
       <b>Callback</b> member of the _BRB_L2CA_OPEN_CHANNEL structure that is passed when the profile driver 
       <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">builds and sends</a> a 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a> or 
-      <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536616">
       BRB_L2CA_OPEN_CHANNEL_RESPONSE</a> request.
 
 </li>

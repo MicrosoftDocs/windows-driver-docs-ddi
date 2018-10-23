@@ -6,11 +6,8 @@ description: The IOCTL_INTERNAL_KEYBOARD_DISCONNECT request is completed with a 
 old-location: hid\ioctl_internal_keyboard_disconnect.htm
 tech.root: hid
 ms.assetid: ec1c2267-b92c-4d4c-86fa-f2b3ccb6aa40
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IOCTL_INTERNAL_KEYBOARD_DISCONNECT, IOCTL_INTERNAL_KEYBOARD_DISCONNECT control, IOCTL_INTERNAL_KEYBOARD_DISCONNECT control code [Human Input Devices], hid.ioctl_internal_keyboard_disconnect, kbdmou/IOCTL_INTERNAL_KEYBOARD_DISCONNECT, kfilref_fd52cb0d-fbdd-44fb-9c71-ec829387a88b.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: kbdmou.h
 req.include-header: Kbdmou.h

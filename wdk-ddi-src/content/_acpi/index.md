@@ -24,4 +24,4 @@ To develop for ACPI, you need these headers:
  * [acpitabl.h](..\acpitabl\index.md)
  * [oprghdlr.h](..\oprghdlr\index.md)
 
-For the programming guide, see [ACPI](https://docs.microsoft.com/en-us/windows-hardware/drivers/acpi).
+For the programming guide, see [ACPI](https://docs.microsoft.com/windows-hardware/drivers/acpi).

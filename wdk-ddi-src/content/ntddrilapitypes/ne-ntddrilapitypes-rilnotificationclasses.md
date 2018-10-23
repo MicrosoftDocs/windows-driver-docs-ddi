@@ -6,11 +6,8 @@ description: This enumeration describes the RILNOTIFICATIONCLASSES.
 old-location: netvista\rilnotificationclasses.htm
 tech.root: netvista
 ms.assetid: f61fc609-40ca-40eb-a877-88c73cf3506e
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: RILNOTIFICATIONCLASSES, RILNOTIFICATIONCLASSES enumeration [Network Drivers Starting with Windows Vista], RIL_NCLASS_FUNCRESULT, RIL_NCLASS_NOTIFICATIONS, netvista.rilnotificationclasses, rilapitypes/RILNOTIFICATIONCLASSES, rilapitypes/RIL_NCLASS_FUNCRESULT, rilapitypes/RIL_NCLASS_NOTIFICATIONS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
@@ -58,13 +55,13 @@ req.typenames: RILNOTIFICATIONCLASSES
 ## -syntax
 
 
-````
+```cpp
 enum RILNOTIFICATIONCLASSES {
   RIL_NCLASS_FUNCRESULT     = 0x00000000,
   RIL_NCLASS_NOTIFICATIONS  = 0x10000000
 
 };
-````
+```
 
 
 ## -enum-fields

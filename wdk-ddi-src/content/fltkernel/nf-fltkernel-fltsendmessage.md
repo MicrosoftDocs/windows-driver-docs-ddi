@@ -6,11 +6,8 @@ description: FltSendMessage sends a message to a waiting user-mode application o
 old-location: ifsk\fltsendmessage.htm
 tech.root: ifsk
 ms.assetid: 83e8389f-1960-4fe0-9a33-526311ecba82
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_17d1087d-2a25-4c72-aed4-9246b4610b8b.xml, FltSendMessage, FltSendMessage function [Installable File System Drivers], fltkernel/FltSendMessage, ifsk.fltsendmessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: FltKernel.h

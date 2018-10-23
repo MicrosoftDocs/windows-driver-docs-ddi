@@ -4,11 +4,8 @@ title: D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0043
 author: windows-driver-content
 description: Describes input stream properties for the video processor.
 ms.assetid: 1fd5caf8-76e9-41a2-9aaf-6bcb3943e1cc
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0043, D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0043,
 req.header: d3d12umddi.h
 req.include-header:

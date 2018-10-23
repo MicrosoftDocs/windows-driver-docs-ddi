@@ -6,11 +6,8 @@ description: The MiniportQueryOffload function queries previously offloaded TCP 
 old-location: netvista\miniportqueryoffload.htm
 tech.root: netvista
 ms.assetid: a583c4cb-53c1-4eff-bcfe-c962f736b1f8
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MiniportQueryOffload, MiniportQueryOffload callback function [Network Drivers Starting with Windows Vista], W_QUERY_OFFLOAD_HANDLER, W_QUERY_OFFLOAD_HANDLER callback, ndischimney/MiniportQueryOffload, netvista.miniportqueryoffload, tcp_chim_miniport_func_920f9145-1dda-4899-85d7-845dd545a6bc.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
@@ -113,7 +110,7 @@ The
 
 After returning from the 
     <i>MiniportQueryOffload</i> function, the miniport driver fills in the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570939">offload state structure</a> that is
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570939">offload state structure</a> that is
     associated with each NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure in the state tree pointed to by the 
     <i>OffloadBlockList</i> pointer. To each of these offload state structures, the miniport driver writes the
     current value of each variable in the structure.

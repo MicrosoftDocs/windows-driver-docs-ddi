@@ -6,11 +6,8 @@ description: The KsUnserializeObjectPropertiesFromRegistry function, when given 
 old-location: stream\ksunserializeobjectpropertiesfromregistry.htm
 tech.root: stream
 ms.assetid: e08ddef7-5942-4943-9dbe-9658279892f0
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsUnserializeObjectPropertiesFromRegistry, KsUnserializeObjectPropertiesFromRegistry function [Streaming Media Devices], ks/KsUnserializeObjectPropertiesFromRegistry, ksfunc_09710ce5-9236-47cc-84b2-4ced36aa654b.xml, stream.ksunserializeobjectpropertiesfromregistry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

@@ -6,11 +6,8 @@ description: The DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION structure contain
 old-location: display\dxgkmdt_opm_connected_hdcp_device_information.htm
 tech.root: display
 ms.assetid: 5f99d3e5-1fa2-43a9-98fb-347dfe85440a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION, DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION structure [Display Devices], DmStructs_9c39e234-e0dd-4d2f-b1b4-e8745bcc69aa.xml, _DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION, d3dkmdt/DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION, display.dxgkmdt_opm_connected_hdcp_device_information
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
@@ -75,7 +72,7 @@ A bitwise OR combination of the values of the <a href="https://msdn.microsoft.co
 
 ### -field ksvB
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560876">DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR</a> structure that contains a key-selection vector (KSV) for a monitor or an HDCP repeater. An HDCP receiver is typically a monitor. An HDCP repeater is a device that allows multiple monitors to display the video signal from a protected output's physical connector. For more information about HDCP receivers and repeaters, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=38728">HDCP Specification Revision 1.1</a>. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560876">DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR</a> structure that contains a key-selection vector (KSV) for a monitor or an HDCP repeater. An HDCP receiver is typically a monitor. An HDCP repeater is a device that allows multiple monitors to display the video signal from a protected output's physical connector. For more information about HDCP receivers and repeaters, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=38728">HDCP Specification Revision 1.1</a>. 
 
 
 ### -field Reserved

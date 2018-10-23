@@ -6,11 +6,8 @@ description: Contains a super-set of the information in both a SPLCLIENT_INFO_1 
 old-location: print\splclient_info_3_vista.htm
 tech.root: print
 ms.assetid: 076ECB20-CFAD-4A16-9B01-6936E0DD7E50
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*LPSPLCLIENT_INFO_3, *PSPLCLIENT_INFO_3, SPLCLIENT_INFO_3, SPLCLIENT_INFO_3_VISTA, SPLCLIENT_INFO_3_VISTA structure [Print Devices], _SPLCLIENT_INFO_3_VISTA, print.splclient_info_3_vista, winsplp/SPLCLIENT_INFO_3_VISTA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winsplp.h
 req.include-header: 
@@ -50,7 +47,7 @@ req.typenames: SPLCLIENT_INFO_3_VISTA
 ## -description
 
 
-Contains a super-set of the information in both a <a href="https://docs.microsoft.com/en-us/dotnet/core/rid-catalog">SPLCLIENT_INFO_1</a> and <b>SPLCLIENT_INFO_2</b> structure. It also contains additional information needed by the provider.
+Contains a super-set of the information in both a <a href="https://docs.microsoft.com/dotnet/core/rid-catalog">SPLCLIENT_INFO_1</a> and <b>SPLCLIENT_INFO_2</b> structure. It also contains additional information needed by the provider.
 
 
 ## -struct-fields
@@ -70,7 +67,7 @@ Specifies open printer additional flags to the provider.
 
 ### -field dwSize
 
-Reserved. Used for compatibility with the <a href="https://docs.microsoft.com/en-us/dotnet/core/rid-catalog">SPLCLIENT_INFO_1</a> structure.
+Reserved. Used for compatibility with the <a href="https://docs.microsoft.com/dotnet/core/rid-catalog">SPLCLIENT_INFO_1</a> structure.
 
 
 ### -field pMachineName

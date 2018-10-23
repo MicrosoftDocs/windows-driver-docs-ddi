@@ -6,11 +6,8 @@ description: The WWAN_SIM_CLASS enumeration lists the different types of Subscri
 old-location: netvista\wwan_sim_class.htm
 tech.root: netvista
 ms.assetid: 4d66874b-bb1d-43e5-a4b2-525face7de81
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_SIM_CLASS, PWWAN_SIM_CLASS, PWWAN_SIM_CLASS enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_SIM_CLASS, WWAN_SIM_CLASS enumeration [Network Drivers Starting with Windows Vista], WwanRef_8c5184eb-4ac5-40a7-bb52-875554517f70.xml, WwanSimClassMax, WwanSimClassSimLogical, WwanSimClassSimRemote, WwanSimClassSimRemovable, WwanSimClassUnknown, _WWAN_SIM_CLASS, netvista.wwan_sim_class, wwan/PWWAN_SIM_CLASS, wwan/WWAN_SIM_CLASS, wwan/WwanSimClassMax, wwan/WwanSimClassSimLogical, wwan/WwanSimClassSimRemote, wwan/WwanSimClassSimRemovable, wwan/WwanSimClassUnknown"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wwan.h
 req.include-header: Wwan.h

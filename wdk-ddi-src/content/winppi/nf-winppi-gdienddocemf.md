@@ -6,11 +6,8 @@ description: The GdiEndDocEMF function ends EMF playback operations for an EMF-f
 old-location: print\gdienddocemf.htm
 tech.root: print
 ms.assetid: e58403d4-aacc-4d22-98e5-86db1a69c54a
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GdiEndDocEMF, GdiEndDocEMF function [Print Devices], gdifnc_632b9c31-c0c1-4447-8a0c-ac8fb6b5af55.xml, print.gdienddocemf, winppi/GdiEndDocEMF
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winppi.h
 req.include-header: Winppi.h

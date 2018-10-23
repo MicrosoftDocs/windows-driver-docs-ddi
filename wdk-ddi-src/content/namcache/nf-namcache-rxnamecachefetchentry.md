@@ -6,11 +6,8 @@ description: RxNameCacheFetchEntry looks for a match with a specified name strin
 old-location: ifsk\rxnamecachefetchentry.htm
 tech.root: ifsk
 ms.assetid: 1f4c50a8-2eee-46c6-8ca0-f5858d227922
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxNameCacheFetchEntry, RxNameCacheFetchEntry function [Installable File System Drivers], ifsk.rxnamecachefetchentry, namcache/RxNameCacheFetchEntry, rxref_8e34b551-b8ee-44e9-a0ff-bbc680e44ad6.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: namcache.h
 req.include-header: Namcache.h

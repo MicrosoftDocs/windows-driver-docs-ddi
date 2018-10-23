@@ -6,11 +6,8 @@ description: Removes or frees all items in the collection. The collection is con
 old-location: wpddk\iportabledevicepropvariantcollection_clear.htm
 tech.root: wpd_dk
 ms.assetid: 5d663753-963a-474e-ab35-25a2cefd8b5e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: Clear, Clear method, Clear method,IPortableDevicePropVariantCollection interface, IPortableDevicePropVariantCollection interface,Clear method, IPortableDevicePropVariantCollection.Clear, IPortableDevicePropVariantCollection::Clear, IPortableDevicePropVariantCollectionClear, portabledevicetypes/IPortableDevicePropVariantCollection::Clear, wpddk.iportabledevicepropvariantcollection_clear
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledevicetypes.h
 req.include-header: 

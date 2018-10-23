@@ -6,11 +6,8 @@ description: The PMI_MEASUREMENT_TYPE enumeration defines the source of the PMI 
 old-location: powermeter\pmi_measurement_type.htm
 tech.root: powermeter
 ms.assetid: 7a075d95-3bc6-4869-bcd6-1bce6df43384
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: PMI_MEASUREMENT_TYPE, PMI_MEASUREMENT_TYPE enumeration [Power Metering and Budgeting Devices], PmiMeasurementTypeInput, PmiMeasurementTypeMax, PmiMeasurementTypeOutput, PowerMeterRef_2156ee1f-16d6-4021-865e-ce6482a53f66.xml, pmi/PMI_MEASUREMENT_TYPE, pmi/PmiMeasurementTypeInput, pmi/PmiMeasurementTypeMax, pmi/PmiMeasurementTypeOutput, powermeter.pmi_measurement_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: pmi.h
 req.include-header: Pmi.h

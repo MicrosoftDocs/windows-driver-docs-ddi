@@ -6,11 +6,8 @@ description: Gets the driver package provider.
 old-location: dtf\iwdtfdriverpackageaction2_provider.htm
 tech.root: dtf
 ms.assetid: 1d97bd4b-4e8c-4e36-97cc-c704b85e77ae
-ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],Provider property, IWDTFDriverPackageAction2.Provider, IWDTFDriverPackageAction2.get_Provider, IWDTFDriverPackageAction2::Provider, IWDTFDriverPackageAction2::get_Provider, Microsoft.WDTF.IWDTFDriverPackageAction2.Provider, Microsoft::WDTF::IWDTFDriverPackageAction2::Provider, Provider property [Windows Device Testing Framework], Provider property [Windows Device Testing Framework],IWDTFDriverPackageAction2 interface, dtf.iwdtfdriverpackageaction2_provider, get_Provider, wdtfdriverpackageaction/IWDTFDriverPackageAction2::Provider, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_Provider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtfdriverpackageaction.h
 req.include-header: 

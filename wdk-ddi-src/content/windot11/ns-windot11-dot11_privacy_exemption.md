@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_privacy_exemption.htm
 tech.root: netvista
 ms.assetid: ee4499d0-3275-419d-9ab2-89edd77e0374
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_PRIVACY_EXEMPTION, DOT11_PRIVACY_EXEMPTION, DOT11_PRIVACY_EXEMPTION structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_8dd63374-57b1-4dc8-9dca-76dcc5ade9fd.xml, PDOT11_PRIVACY_EXEMPTION, PDOT11_PRIVACY_EXEMPTION structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_privacy_exemption, windot11/DOT11_PRIVACY_EXEMPTION, windot11/PDOT11_PRIVACY_EXEMPTION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -59,13 +56,13 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef struct DOT11_PRIVACY_EXEMPTION {
   USHORT usEtherType;
   USHORT usExemptionActionType;
   USHORT usExemptionPacketType;
 } DOT11_PRIVACY_EXEMPTION, *PDOT11_PRIVACY_EXEMPTION;
-````
+```
 
 
 ## -struct-fields
@@ -133,7 +130,7 @@ Exempt all packet types.
 
 
 The 802.11 station's packet exemption list if configured through a set request of
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
     OID_DOT11_PRIVACY_EXEMPTION_LIST</a>. For each packet the 802.11 station receives, it will apply the
     decryption exemption specified by the list entry with a
     <b>usEtherType</b> value that matches the EtherType of the packet.
@@ -143,7 +140,7 @@ The 802.11 station's packet exemption list if configured through a set request o
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
    OID_DOT11_PRIVACY_EXEMPTION_LIST</a>
 
 

@@ -6,11 +6,8 @@ description: Invoked when the Bidi “Set”” operation is completed.
 old-location: print\iprinterbidisetrequestcallback_completed.htm
 tech.root: print
 ms.assetid: F086903F-2FCA-4B9F-948B-0F40F114E11D
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: Completed, Completed method [Print Devices], Completed method [Print Devices],IPrinterBidiSetRequestCallback interface, IPrinterBidiSetRequestCallback interface [Print Devices],Completed method, IPrinterBidiSetRequestCallback.Completed, IPrinterBidiSetRequestCallback::Completed, print.iprinterbidisetrequestcallback_completed, printerextension/IPrinterBidiSetRequestCallback::Completed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header: 

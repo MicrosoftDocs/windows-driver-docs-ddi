@@ -6,11 +6,8 @@ description: Queries the data read from the specified PCI Express SR-IOV Virtual
 old-location: pci\sriov_query_probed_bars_2.htm
 tech.root: PCI
 ms.assetid: e0c079aa-8adf-42c9-a4ac-bfc623471964
-ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: "*PSRIOV_QUERY_PROBED_BARS_2, *PSRIOV_QUERY_PROBED_BARS_2 callback function pointer [Buses], PCI.sriov_query_probed_bars_2, SRIOV_QUERY_PROBED_BARS_2, SriovQueryProbedBars2, SriovQueryProbedBars2 callback function [Buses], pcivirt/SriovQueryProbedBars2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: pcivirt.h
 req.include-header:
@@ -58,7 +55,7 @@ Queries the data read from
 ## -prototype
 
 
-````
+```cpp
 SRIOV_QUERY_PROBED_BARS_2 SriovQueryProbedBars2;
 
 NTSTATUS SriovQueryProbedBars2(
@@ -69,7 +66,7 @@ NTSTATUS SriovQueryProbedBars2(
 { ... }
 
 typedef SRIOV_QUERY_PROBED_BARS_2 *PSRIOV_QUERY_PROBED_BARS_2;
-````
+```
 
 
 ## -parameters

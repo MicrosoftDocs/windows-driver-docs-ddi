@@ -6,11 +6,8 @@ description: The WdfDriverIsVersionAvailable method returns a Boolean value that
 old-location: wdf\wdfdriverisversionavailable.htm
 tech.root: wdf
 ms.assetid: 5635b99d-c58d-4a17-bb51-2dc38e51421a
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDriverObjectRef_56291c91-1c81-486d-89ce-948d037b8bc4.xml, WdfDriverIsVersionAvailable, WdfDriverIsVersionAvailable method, kmdf.wdfdriverisversionavailable, wdf.wdfdriverisversionavailable, wdfdriver/WdfDriverIsVersionAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdriver.h
 req.include-header: Wdf.h

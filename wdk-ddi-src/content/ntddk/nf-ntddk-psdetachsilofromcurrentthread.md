@@ -6,11 +6,8 @@ description: This routine removes a thread from a silo which was added by an att
 old-location: kernel\psdetachsilofromcurrentthread.htm
 tech.root: kernel
 ms.assetid: E364130B-9709-4FD9-8654-9FBC52E29145
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PsDetachSiloFromCurrentThread, PsDetachSiloFromCurrentThread routine [Kernel-Mode Driver Architecture], kernel.psdetachsilofromcurrentthread, ntddk/PsDetachSiloFromCurrentThread
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: 

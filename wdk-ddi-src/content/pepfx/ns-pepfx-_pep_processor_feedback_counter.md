@@ -6,11 +6,8 @@ description: The PEP_PROCESSOR_FEEDBACK_COUNTER structure describes a feedback c
 old-location: kernel\pep_processor_feedback_counter.htm
 tech.root: kernel
 ms.assetid: 275AE285-6309-4A03-A02C-DBE8D44727CE
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_PROCESSOR_FEEDBACK_COUNTER, PEP_PROCESSOR_FEEDBACK_COUNTER, PEP_PROCESSOR_FEEDBACK_COUNTER structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_FEEDBACK_COUNTER, PPEP_PROCESSOR_FEEDBACK_COUNTER structure pointer [Kernel-Mode Driver Architecture], PROCESSOR_FEEDBACK_COUNTER_FREQUENCY, PROCESSOR_FEEDBACK_COUNTER_PERFORMANCE, PROCESSOR_FEEDBACK_TYPE_INSTANTANEOUS, PROCESSOR_FEEDBACK_TYPE_RELATIVE, _PEP_PROCESSOR_FEEDBACK_COUNTER, kernel.pep_processor_feedback_counter, pepfx/PEP_PROCESSOR_FEEDBACK_COUNTER, pepfx/PPEP_PROCESSOR_FEEDBACK_COUNTER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
 req.include-header: Pep_x.h
@@ -137,7 +134,7 @@ The feedback counter returns the clock speed of the processor. The nominal rate 
 </dl>
 </td>
 <td width="60%">
-The feedback counter returns the current processor performance. The nominal rate is equivalent to the processor's <b>NominalPerformance</b> (see <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186825">PEP_NOTIFY_PPM_QUERY_PERF_CAPABILITIES notification</a>).
+The feedback counter returns the current processor performance. The nominal rate is equivalent to the processor's <b>NominalPerformance</b> (see <a href="https://msdn.microsoft.com/library/windows/hardware/mt186825">PEP_NOTIFY_PPM_QUERY_PERF_CAPABILITIES notification</a>).
 
 </td>
 </tr>
@@ -178,7 +175,7 @@ This structure
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186825">PEP_NOTIFY_PPM_QUERY_PERF_CAPABILITIES notification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186825">PEP_NOTIFY_PPM_QUERY_PERF_CAPABILITIES notification</a>
  
 
  

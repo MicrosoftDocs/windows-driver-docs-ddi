@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbPacketRestore function restores packet from a buffer that contains saved packet context.
 tech.root: netvista
 ms.assetid: 2bb4f7b2-a6e7-4a11-a5ca-bfd7db47037a
-ms.author: windowsdriverdev
 ms.date: 05/22/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:
@@ -51,7 +48,7 @@ context.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_PACKET_RESTORE FnVmbPacketRestore; 

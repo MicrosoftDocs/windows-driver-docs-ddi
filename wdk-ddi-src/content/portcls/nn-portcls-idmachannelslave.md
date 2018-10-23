@@ -6,11 +6,8 @@ description: The IDmaChannelSlave interface provides methods for monitoring and 
 old-location: audio\idmachannelslave.htm
 tech.root: audio
 ms.assetid: 1d628035-ffcf-4657-8310-f851b3f508f9
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 03/19/2018
 ms.keywords: IDmaChannelSlave, IDmaChannelSlave interface [Audio Devices], IDmaChannelSlave interface [Audio Devices], described, audio.idmachannelslave, audmp-routines_309d3b3a-de27-478d-a82f-0677e3d61bd2.xml, portcls/IDmaChannelSlave
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: portcls.h
 req.include-header:

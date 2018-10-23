@@ -6,11 +6,8 @@ description: Allocates memory for a UDECXUSBDEVICE_INIT structure that is used t
 old-location: buses\udecxusbdeviceinitallocate.htm
 tech.root: usbref
 ms.assetid: 127D132B-6A40-4F6F-BCDA-473F89A1A747
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UdecxUsbDeviceInitAllocate, UdecxUsbDeviceInitAllocate function [Buses], buses.udecxusbdeviceinitallocate, udecxusbdevice/UdecxUsbDeviceInitAllocate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMT_CREATEDCFROMMEMORY structure describes parameters for creating the display context.
 old-location: display\d3dkmt_createdcfrommemory.htm
 ms.assetid: 260fd894-fc5a-4a27-ac35-3f1b145b52b7
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_CREATEDCFROMMEMORY, D3DKMT_CREATEDCFROMMEMORY structure [Display Devices], OpenGL_Structs_b56e280f-e29b-4781-942a-a36024786d9e.xml, _D3DKMT_CREATEDCFROMMEMORY, d3dkmthk/D3DKMT_CREATEDCFROMMEMORY, display.d3dkmt_createdcfrommemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

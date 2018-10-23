@@ -6,11 +6,8 @@ description: The DsmSetLoadBalancePolicy_IN structure provides an input paramete
 old-location: storage\dsmsetloadbalancepolicy_in.htm
 tech.root: storage
 ms.assetid: 1a249c0e-1b8d-4c50-9b01-03bfe84e0937
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PDsmSetLoadBalancePolicy_IN, DsmSetLoadBalancePolicy_IN, DsmSetLoadBalancePolicy_IN structure [Storage Devices], PDsmSetLoadBalancePolicy_IN, PDsmSetLoadBalancePolicy_IN structure pointer [Storage Devices], _DsmSetLoadBalancePolicy_IN, mpiodisk/DsmSetLoadBalancePolicy_IN, mpiodisk/PDsmSetLoadBalancePolicy_IN, storage.dsmsetloadbalancepolicy_in, structs-scsibus_f8d1e2b3-b630-45df-91f7-d564910f83d0.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mpiodisk.h
 req.include-header: Mpiowmi.h

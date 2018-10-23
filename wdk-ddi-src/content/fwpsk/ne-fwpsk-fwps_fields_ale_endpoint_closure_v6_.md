@@ -6,11 +6,8 @@ description: The FWPS_FIELDS_ALE_ENDPOINT_CLOSURE_V6 enumeration type specifies 
 old-location: netvista\fwps_fields_ale_endpoint_closure_v6.htm
 tech.root: netvista
 ms.assetid: 043701bc-dae3-434e-8647-b3d511aecdf7
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FWPS_FIELDS_ALE_ENDPOINT_CLOSURE_V6, FWPS_FIELDS_ALE_ENDPOINT_CLOSURE_V6 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELDS_ALE_ENDPOINT_CLOSURE_V6_, FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_ALE_APP_ID, FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_ALE_PACKAGE_ID, FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_ALE_USER_ID, FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_FLAGS, FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_IP_LOCAL_ADDRESS, FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_IP_LOCAL_ADDRESS_TYPE, FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_IP_LOCAL_INTERFACE, FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_IP_LOCAL_PORT, FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_IP_PROTOCOL, FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_IP_REMOTE_ADDRESS, FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_IP_REMOTE_PORT, FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_MAX, fwpsk/FWPS_FIELDS_ALE_ENDPOINT_CLOSURE_V6, fwpsk/FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_ALE_APP_ID, fwpsk/FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_ALE_PACKAGE_ID, fwpsk/FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_ALE_USER_ID, fwpsk/FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_FLAGS, fwpsk/FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_IP_LOCAL_ADDRESS_TYPE, fwpsk/FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_IP_LOCAL_INTERFACE, fwpsk/FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_IP_LOCAL_PORT, fwpsk/FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_IP_PROTOCOL, fwpsk/FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_IP_REMOTE_PORT, fwpsk/FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_MAX, netvista.fwps_fields_ale_endpoint_closure_v6, wfp_ref_5_const_3_data_fields_8e8aadaf-e6a0-4b14-b37b-9f8581237530.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
@@ -52,7 +49,7 @@ req.typenames: FWPS_FIELDS_ALE_ENDPOINT_CLOSURE_V6
 
 The FWPS_FIELDS_ALE_ENDPOINT_CLOSURE_V6 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_ALE_ENDPOINT_CLOSURE_V6 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
+  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layer</a>.
 
 
 ## -enum-fields
@@ -123,8 +120,17 @@ The package identifier is a security identifier (SID) that identifies the associ
 
 ### -field FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_ALE_SECURITY_ATTRIBUTE_FQBN_VALUE
 
+The fully qualified binary name (FQBN) value of the application.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_COMPARTMENT_ID
+
+The compartment that the network interface belongs to.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
+<div> </div>
 
 
 ### -field FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_MAX

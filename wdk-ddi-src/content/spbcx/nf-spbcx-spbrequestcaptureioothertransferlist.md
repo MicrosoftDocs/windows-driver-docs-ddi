@@ -6,11 +6,8 @@ description: The SpbRequestCaptureIoOtherTransferList method retrieves the SPB_T
 old-location: spb\spbrequestcaptureioothertransferlist.htm
 tech.root: SPB
 ms.assetid: 7AC76E6F-1250-49EB-BEA1-3807C65AC2B7
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: SPB.spbrequestcaptureioothertransferlist, SpbRequestCaptureIoOtherTransferList, SpbRequestCaptureIoOtherTransferList method [Buses], spbcx/SpbRequestCaptureIoOtherTransferList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: spbcx.h
 req.include-header: 
@@ -84,7 +81,7 @@ The <b>SpbRequestCaptureIoOtherTransferList</b> method retrieves the <a href="ht
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a> parameter is invalid or the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406221">SPB_TRANSFER_LIST</a> structure in the request is formatted incorrectly.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a> parameter is invalid or the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406221">SPB_TRANSFER_LIST</a> structure in the request is formatted incorrectly.
 
 </td>
 </tr>
@@ -180,7 +177,7 @@ exit:
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
 
 
 

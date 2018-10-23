@@ -4,7 +4,6 @@ title: IDebugHostSymbols::FindModuleByName
 author: windows-driver-content
 description: The FindModuleByName method will look through the given host context and locate a module which has the specified name and return an interface to it. 
 ms.assetid: 7ff45667-8b89-46a9-8167-d90976dae181
-ms.author: windowsdriverdev
 ms.date: 10/05/2018
 ms.topic: method
 ms.keywords: IDebugHostSymbols::FindModuleByName, FindModuleByName, IDebugHostSymbols.FindModuleByName, IDebugHostSymbols::FindModuleByName, IDebugHostSymbols.FindModuleByName

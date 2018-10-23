@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The FPB RID Vector Control 1 Register. See section 7.y.3.
 tech.root: pci 
 ms.assetid: aa8427fa-e129-4673-9adb-786ee3563d2e
-ms.author: windowsdriverdev
 ms.date: 09/30/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _PCI_FPB_RID_VECTOR_CONTROL2_REGISTER, PCI_FPB_RID_VECTOR_CONTROL2_REGISTER, *PPCI_FPB_RID_VECTOR_CONTROL2_REGISTER, 
 req.header: ntddk.h
 req.include-header:

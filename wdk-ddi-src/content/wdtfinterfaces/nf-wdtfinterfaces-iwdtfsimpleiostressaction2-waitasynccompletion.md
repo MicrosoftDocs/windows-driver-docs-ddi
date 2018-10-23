@@ -6,11 +6,8 @@ description: Waits for the completion of any of the asynchronous events.
 old-location: dtf\iwdtfsimpleiostressaction2_waitasynccompletion.htm
 tech.root: dtf
 ms.assetid: 7aaf56cf-ba31-495b-9f54-35e9238f188a
-ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework],WaitAsyncCompletion method, IWDTFSimpleIOStressAction2.WaitAsyncCompletion, IWDTFSimpleIOStressAction2::WaitAsyncCompletion, Microsoft.WDTF.IWDTFSimpleIOStressAction2.WaitAsyncCompletion, Microsoft::WDTF::IWDTFSimpleIOStressAction2::WaitAsyncCompletion, WaitAsyncCompletion, WaitAsyncCompletion method [Windows Device Testing Framework], WaitAsyncCompletion method [Windows Device Testing Framework],IWDTFSimpleIOStressAction2 interface, dtf.iwdtfsimpleiostressaction2_waitasynccompletion, wdtfinterfaces/IWDTFSimpleIOStressAction2::WaitAsyncCompletion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtfinterfaces.h
 req.include-header: 

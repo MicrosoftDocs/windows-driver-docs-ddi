@@ -6,11 +6,8 @@ description: The WdfDeviceGetDefaultQueue method returns a handle to a device's 
 old-location: wdf\wdfdevicegetdefaultqueue.htm
 tech.root: wdf
 ms.assetid: 914c4ef8-2210-468c-8720-11f8adf9dce7
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_17d2efb6-80ae-4045-baa4-68d610b9e0c3.xml, WdfDeviceGetDefaultQueue, WdfDeviceGetDefaultQueue method, kmdf.wdfdevicegetdefaultqueue, wdf.wdfdevicegetdefaultqueue, wdfdevice/WdfDeviceGetDefaultQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h
@@ -83,7 +80,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-For more information about default I/O queues, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-i-o-queues">Creating I/O Queues</a>.
+For more information about default I/O queues, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-i-o-queues">Creating I/O Queues</a>.
 
 
 #### Examples

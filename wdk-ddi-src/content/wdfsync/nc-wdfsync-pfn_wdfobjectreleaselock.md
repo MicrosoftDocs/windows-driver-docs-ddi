@@ -6,11 +6,8 @@ description: The WdfObjectReleaseLock method releases an object's synchronizatio
 old-location: wdf\wdfobjectreleaselock.htm
 tech.root: wdf
 ms.assetid: a2fe9393-1525-47d7-94e1-1886ea54e270
-ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 01/11/2018
 ms.keywords: wdf.wdfobjectreleaselock, PFN_WDFOBJECTRELEASELOCK, WdfObjectReleaseLock callback function, WdfObjectReleaseLock, wdfsync/WdfObjectReleaseLock, DFSynchroRef_14ab9c69-1eb8-4a83-b1fb-cb8db7a67d06.xml, kmdf.wdfobjectreleaselock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfsync.h
 req.include-header: Wdf.h
@@ -59,11 +56,11 @@ The <b>WdfObjectReleaseLock</b> method releases an object's synchronization lock
 ## -prototype
 
 
-````
+```cpp
 VOID WdfObjectReleaseLock(
   _In_ WDFOBJECT Object
 );
-````
+```
 
 
 ## -parameters
@@ -103,7 +100,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 The <b>WdfObjectReleaseLock</b> method releases the synchronization lock that a driver acquired by previously calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548721">WdfObjectAcquireLock</a>. <b>WdfObjectReleaseLock</b> also restores the driver's IRQL to the value that it had before the driver called <b>WdfObjectAcquireLock</b>.
 
-For more information about synchronization locks, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/synchronization-techniques-for-wdf-drivers">Synchronization Techniques for Framework-Based Drivers</a>.
+For more information about synchronization locks, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/synchronization-techniques-for-wdf-drivers">Synchronization Techniques for Framework-Based Drivers</a>.
 
 
 

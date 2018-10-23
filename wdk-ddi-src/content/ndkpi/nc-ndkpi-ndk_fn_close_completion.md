@@ -6,11 +6,8 @@ description: The NdkCloseCompletion (NDK_FN_CLOSE_COMPLETION) function is an asy
 old-location: netvista\ndk_fn_close_completion.htm
 tech.root: netvista
 ms.assetid: EB3C395F-235A-4B9A-B777-E4E8CD8AFC3C
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_FN_CLOSE_COMPLETION, NDK_FN_CLOSE_COMPLETION callback, NdkCloseCompletion, NdkCloseCompletion callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCloseCompletion, netvista.ndk_fn_close_completion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndkpi.h
 req.include-header: Ndkpi.h

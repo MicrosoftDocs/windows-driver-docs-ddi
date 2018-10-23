@@ -6,11 +6,8 @@ description: The IoCsqInitialize routine initializes the driver's cancel-safe IR
 old-location: kernel\iocsqinitialize.htm
 tech.root: kernel
 ms.assetid: 5287db75-3096-45ab-b35b-1ee8b076157d
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoCsqInitialize, IoCsqInitialize routine [Kernel-Mode Driver Architecture], k104_08afe4e8-f68d-4490-86ec-a558b2090a82.xml, kernel.iocsqinitialize, wdm/IoCsqInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

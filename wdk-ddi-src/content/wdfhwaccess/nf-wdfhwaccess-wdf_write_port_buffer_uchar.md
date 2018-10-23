@@ -6,11 +6,8 @@ description: The WDF_WRITE_PORT_BUFFER_UCHAR function writes a number of bytes f
 old-location: wdf\wdf_write_port_buffer_uchar.htm
 tech.root: wdf
 ms.assetid: 744189F3-07D1-42F2-986C-70BEBE760123
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WDF_WRITE_PORT_BUFFER_UCHAR, WDF_WRITE_PORT_BUFFER_UCHAR function, wdf.wdf_write_port_buffer_uchar, wdfhwaccess/WDF_WRITE_PORT_BUFFER_UCHAR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfhwaccess.h
 req.include-header: 

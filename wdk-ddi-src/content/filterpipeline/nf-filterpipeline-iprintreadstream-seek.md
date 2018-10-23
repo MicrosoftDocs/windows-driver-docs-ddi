@@ -6,11 +6,8 @@ description: The Seek method changes the seek pointer to a new location in the s
 old-location: print\iprintreadstream_seek.htm
 tech.root: print
 ms.assetid: b563e080-32ab-47b7-94f4-1d3dd19f3311
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintReadStream interface [Print Devices],Seek method, IPrintReadStream.Seek, IPrintReadStream::Seek, Seek, Seek method [Print Devices], Seek method [Print Devices],IPrintReadStream interface, filterpipeline/IPrintReadStream::Seek, filterpipeline_622c8e3a-c21f-4784-ba2d-96833fab4230.xml, print.iprintreadstream_seek
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: filterpipeline.h
 req.include-header: 

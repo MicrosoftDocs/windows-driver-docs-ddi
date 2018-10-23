@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbChannelInitSetStateChangeCallbacks function sets optional callback functions for state changes.
 tech.root: netvista
 ms.assetid: fb182313-12a8-4886-bc16-9255ac998684
-ms.author: windowsdriverdev
 ms.date: 05/21/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:
@@ -50,7 +47,7 @@ The <b>VmbChannelInitSetStateChangeCallbacks</b>  function sets optional callbac
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_INIT_SET_STATE_CHANGE_CALLBACKS FnVmbChannelInitSetStateChangeCallbacks; 

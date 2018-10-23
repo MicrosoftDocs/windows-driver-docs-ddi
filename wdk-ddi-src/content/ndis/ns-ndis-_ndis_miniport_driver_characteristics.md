@@ -6,11 +6,8 @@ description: An NDIS driver initializes an NDIS_MINIPORT_DRIVER_CHARACTERISTICS 
 old-location: netvista\ndis_miniport_driver_characteristics.htm
 tech.root: netvista
 ms.assetid: 2e2c8522-127d-49d5-a5d6-97f9403bec89
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_MINIPORT_DRIVER_CHARACTERISTICS, NDIS_MINIPORT_DRIVER_CHARACTERISTICS, NDIS_MINIPORT_DRIVER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_DRIVER_CHARACTERISTICS, PNDIS_MINIPORT_DRIVER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_DRIVER_CHARACTERISTICS, miniport_structures_ref_9a538743-5c3f-40c7-a83d-07d5efde350c.xml, ndis/NDIS_MINIPORT_DRIVER_CHARACTERISTICS, ndis/PNDIS_MINIPORT_DRIVER_CHARACTERISTICS, netvista.ndis_miniport_driver_characteristics"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -266,7 +263,7 @@ Set if the caller is an NDIS-WDM miniport driver.
 ### -field SetOptionsHandler
 
 The entry point for the caller's 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">MiniportSetOptions</a> function.
 
 Required for Co-NDIS. Suggested for Ethernet miniport drivers that support RSS using MSI-C over PCI.
 
@@ -418,7 +415,7 @@ An NDIS driver passes a pointer to its <b>NDIS_MINIPORT_DRIVER_CHARACTERISTICS</
     NdisMRegisterMiniportDriver</a> function. A miniport driver calls 
     <b>NdisMRegisterMiniportDriver</b> from its 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine (see also 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548818">DriverEntry of NDIS
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff548818">DriverEntry of NDIS
     Miniport Drivers</a>).
 
 
@@ -496,7 +493,7 @@ An NDIS driver passes a pointer to its <b>NDIS_MINIPORT_DRIVER_CHARACTERISTICS</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
 
 

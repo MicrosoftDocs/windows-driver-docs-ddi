@@ -6,11 +6,8 @@ description: FltCbdqEnable enables a callback data queue that was disabled by a 
 old-location: ifsk\fltcbdqenable.htm
 tech.root: ifsk
 ms.assetid: cc9167cc-366e-4824-9968-1e2895a61a0c
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_518b7b11-d2cd-4d69-9191-da63831da3bd.xml, FltCbdqEnable, FltCbdqEnable function [Installable File System Drivers], fltkernel/FltCbdqEnable, ifsk.fltcbdqenable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

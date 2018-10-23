@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3D11DDI_THREADING_CAPS structure contains display device threading capabilities.
 old-location: display\d3d11ddi_threading_caps.htm
 ms.assetid: 11715852-8af2-4ae1-b3a2-c80153ef7cde
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D11DDI_THREADING_CAPS, D3D11DDI_THREADING_CAPS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_0f59187b-c545-4e95-aa28-c2627cb62538.xml, d3d10umddi/D3D11DDI_THREADING_CAPS, display.d3d11ddi_threading_caps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

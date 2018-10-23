@@ -6,11 +6,8 @@ description: The SerCxDeviceInitConfig method is called by the serial controller
 old-location: serports\sercxdeviceinitconfig.htm
 tech.root: serports
 ms.assetid: 13466A7E-D39B-4E60-AD02-2E6EFE27495A
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 1/SerCxDeviceInitConfig, SerCxDeviceInitConfig, SerCxDeviceInitConfig method [Serial Ports], serports.sercxdeviceinitconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 

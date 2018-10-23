@@ -6,11 +6,8 @@ description: The HBA_RemoveAllPersistentBindings routine removes all persistent 
 old-location: storage\hba_removeallpersistentbindings.htm
 tech.root: storage
 ms.assetid: f15823dd-a9c5-46a8-a376-41b831450b66
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_RemoveAllPersistentBindings, HBA_RemoveAllPersistentBindings routine [Storage Devices], fibreHBA_rtns_1b72392e-f155-41aa-915a-a39da952afec.xml, hbaapi/HBA_RemoveAllPersistentBindings, storage.hba_removeallpersistentbindings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hbaapi.h
 req.include-header: Hbaapi.h

@@ -6,11 +6,8 @@ description: The Set method sets the typed data represented by the ExtRemoteType
 old-location: debugger\extremotetyped_set_bool.htm
 tech.root: debugger
 ms.assetid: e75c17d2-fdf7-4dba-9892-74c764956924
-ms.author: windowsdriverdev
-ms.date: 1/19/2018
+ms.date: 01/19/2018
 ms.keywords: Set method [Windows Debugging], Set, ExtBuffer::Set, ExtCheckedPointer, ExtRemoteTyped class [Windows Debugging], Set method, ExtCheckedPointer::Set, ExtBuffer, debugger.extremotetyped_set_bool, Set method [Windows Debugging], ExtRemoteTyped class
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
@@ -56,14 +53,14 @@ The <b>Set</b> method sets the typed data represented by the <a href="..\engextc
 ## -syntax
 
 
-````
+```cpp
 void Set(
   [in] bool    PtrTo,
   [in] ULONG64 TypeModBase,
   [in] ULONG   TypeId,
   [in] ULONG64 Offset
 );
-````
+```
 
 
 ## -parameters

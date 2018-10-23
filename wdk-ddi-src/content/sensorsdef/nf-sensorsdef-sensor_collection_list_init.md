@@ -6,11 +6,8 @@ description: This function initializes a SENSOR_COLLECTION_LIST structure.
 old-location: sensors\sensor_collection_list_init.htm
 tech.root: sensors
 ms.assetid: 50860DA0-D42C-4ACB-A574-C0DEA85713BD
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: SENSOR_COLLECTION_LIST_INIT, SENSOR_COLLECTION_LIST_INIT function [Sensor Devices], sensors.sensor_collection_list_init, sensorsdef/SENSOR_COLLECTION_LIST_INIT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sensorsdef.h
 req.include-header: 

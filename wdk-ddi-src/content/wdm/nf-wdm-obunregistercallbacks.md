@@ -6,11 +6,8 @@ description: The ObUnRegisterCallbacks routine unregisters a set of callback rou
 old-location: kernel\obunregistercallbacks.htm
 tech.root: kernel
 ms.assetid: 01121323-da0c-4ae9-b0c0-f6302583237c
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ObUnRegisterCallbacks, ObUnRegisterCallbacks routine [Kernel-Mode Driver Architecture], k107_f0c1fdd0-3dcc-466c-a7a1-fab0b38e4e88.xml, kernel.obunregistercallbacks, wdm/ObUnRegisterCallbacks
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

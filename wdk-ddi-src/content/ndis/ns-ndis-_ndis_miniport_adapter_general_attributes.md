@@ -6,11 +6,8 @@ description: An NDIS miniport driver sets up an NDIS_MINIPORT_ADAPTER_GENERAL_AT
 old-location: netvista\ndis_miniport_adapter_general_attributes.htm
 tech.root: netvista
 ms.assetid: 5423d073-02a5-468b-b91e-713ac67a5253
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, miniport_structures_ref_42ce6caf-9d6f-47ee-ad20-749b0058c71e.xml, ndis/NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, ndis/PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, netvista.ndis_miniport_adapter_general_attributes"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -145,14 +142,14 @@ The current receive link speed of the adapter in bits per second. For more infor
 ### -field MediaConnectState
 
 The media connect state for the miniport adapter. For more information, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">
      OID_GEN_MEDIA_CONNECT_STATUS_EX</a>.
 
 
 ### -field MediaDuplexState
 
 The media duplex state for the miniport adapter. For more information, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-duplex-state">OID_GEN_MEDIA_DUPLEX_STATE</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-media-duplex-state">OID_GEN_MEDIA_DUPLEX_STATE</a>.
 
 
 ### -field LookaheadSize
@@ -180,14 +177,14 @@ The MAC options for the miniport adapter. For more information, see
 ### -field SupportedPacketFilters
 
 The packet filter flags for the miniport adapter. For more information, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-supported-packet-filters">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-supported-packet-filters">
      OID_GEN_SUPPORTED_PACKET_FILTERS</a>.
 
 
 ### -field MaxMulticastListSize
 
 The multicast address list size for the miniport adapter. For more information, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-802-3-maximum-list-size">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-802-3-maximum-list-size">
      OID_802_3_MAXIMUM_LIST_SIZE</a>.
 
 
@@ -215,7 +212,7 @@ The current MAC address. For example, the
 The receive side scaling (RSS) capabilities of the NIC. If the miniport adapter does not support
      the RSS feature, set 
      <b>RecvScaleCapabilities</b> to <b>NULL</b>. For more information about RSS, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
      OID_GEN_RECEIVE_SCALE_CAPABILITIES</a>.
 
 
@@ -261,7 +258,7 @@ The supported statistics.
 
 <div class="alert"><b>Note</b>  NDIS 6.0 drivers must support all statistics and must report them when the drivers
      are queried for 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-statistics">OID_GEN_STATISTICS</a>.</div>
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-statistics">OID_GEN_STATISTICS</a>.</div>
 <div> </div>
 The value is the bitwise OR of the following flags:
 
@@ -545,7 +542,7 @@ A miniport driver passes a pointer to an NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTE
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-statistics">NDIS_STATISTICS_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-statistics">NDIS_STATISTICS_INFO</a>
 
 
 
@@ -569,7 +566,7 @@ A miniport driver passes a pointer to an NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTE
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-802-3-maximum-list-size">OID_802_3_MAXIMUM_LIST_SIZE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-802-3-maximum-list-size">OID_802_3_MAXIMUM_LIST_SIZE</a>
 
 
 
@@ -597,11 +594,11 @@ A miniport driver passes a pointer to an NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTE
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-duplex-state">OID_GEN_MEDIA_DUPLEX_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-media-duplex-state">OID_GEN_MEDIA_DUPLEX_STATE</a>
 
 
 
@@ -609,7 +606,7 @@ A miniport driver passes a pointer to an NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTE
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-statistics">OID_GEN_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-statistics">OID_GEN_STATISTICS</a>
 
 
 
@@ -617,7 +614,7 @@ A miniport driver passes a pointer to an NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTE
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-supported-packet-filters">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-supported-packet-filters">
    OID_GEN_SUPPORTED_PACKET_FILTERS</a>
 
 

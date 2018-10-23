@@ -4,11 +4,8 @@ title: PLEAVE_DMA_DOMAIN
 author: windows-driver-content
 description: 
 ms.assetid: 3bcd31e2-548b-44c3-a301-351c4adc18d6
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ This callback function joins the specified DMA domain.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PLEAVE_DMA_DOMAIN PleaveDmaDomain; 
@@ -71,7 +68,7 @@ NTSTATUS PleaveDmaDomain
 
 ## -returns
 
-Returns STATUS_SUCCESS if the call is successful. Otherwise, returns an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+Returns STATUS_SUCCESS if the call is successful. Otherwise, returns an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

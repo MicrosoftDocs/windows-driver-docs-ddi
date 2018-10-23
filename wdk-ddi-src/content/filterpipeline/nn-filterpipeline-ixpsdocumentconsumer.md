@@ -6,11 +6,8 @@ description: A filter uses the IXpsDocumentConsumer interface when it generates 
 old-location: print\ixpsdocumentconsumer.htm
 tech.root: print
 ms.assetid: 98e603e6-2786-4bc8-ad8a-0e91b0d444d8
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IXpsDocumentConsumer, IXpsDocumentConsumer interface [Print Devices], IXpsDocumentConsumer interface [Print Devices],described, filterpipeline/IXpsDocumentConsumer, filterpipeline_230eb0f6-427a-4986-b8ad-bc1d41853d67.xml, print.ixpsdocumentconsumer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h

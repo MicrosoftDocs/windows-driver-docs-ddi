@@ -6,11 +6,8 @@ description: The NDIS_RECEIVE_QUEUE_INFO_ARRAY structure specifies a list of rec
 old-location: netvista\ndis_receive_queue_info_array.htm
 tech.root: netvista
 ms.assetid: 6a026c2b-e2ed-41bf-9482-0fdc64b175f2
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_RECEIVE_QUEUE_INFO_ARRAY, NDIS_RECEIVE_QUEUE_INFO_ARRAY, NDIS_RECEIVE_QUEUE_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_QUEUE_INFO_ARRAY, PNDIS_RECEIVE_QUEUE_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_QUEUE_INFO_ARRAY, netvista.ndis_receive_queue_info_array, ntddndis/NDIS_RECEIVE_QUEUE_INFO_ARRAY, ntddndis/PNDIS_RECEIVE_QUEUE_INFO_ARRAY, virtual_machine_queue_ref_126f14fb-44b8-47bc-bc0d-eaa435470a6c.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ndis.h
@@ -95,7 +92,7 @@ A <b>ULONG</b> value that specifies the size, in bytes, of each element in the a
 
 
 The <b>NDIS_RECEIVE_QUEUE_INFO_ARRAY</b> structure is used in the 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-queues">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-enum-queues">
     OID_RECEIVE_FILTER_ENUM_QUEUES</a> OID that enumerates receive queues on a network adapter. Each
     element in the array is an 
     <a href="https://msdn.microsoft.com/7cdc45d4-e8aa-437a-b6fc-8b8c0dc17585">
@@ -117,7 +114,7 @@ The <b>NDIS_RECEIVE_QUEUE_INFO_ARRAY</b> structure is used in the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-queues">OID_RECEIVE_FILTER_ENUM_QUEUES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-enum-queues">OID_RECEIVE_FILTER_ENUM_QUEUES</a>
  
 
  

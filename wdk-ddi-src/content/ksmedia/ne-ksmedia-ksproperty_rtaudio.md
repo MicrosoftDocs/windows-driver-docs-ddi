@@ -4,12 +4,9 @@ title: KSPROPERTY_RTAUDIO
 author: windows-driver-content
 description: KSPROPERTY_RTAUDIO enumerates the properties of a WaveRT audio device.
 ms.assetid: b9e2c60e-2a5f-4785-ab68-6e87a2a1385f
-ms.author: windowsdriverdev
-ms.date: 9/28/2018
+ms.date: 09/28/2018
 ms.topic: enum
 ms.keywords: KSPROPERTY_RTAUDIO, KSPROPERTY_RTAUDIO, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: ksmedia.h
 req.include-header:
 req.target-type:

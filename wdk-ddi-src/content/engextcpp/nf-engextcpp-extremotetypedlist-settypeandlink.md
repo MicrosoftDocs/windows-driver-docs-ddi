@@ -6,11 +6,8 @@ description: The SetTypeAndLink method sets the type information for the typed l
 old-location: debugger\extremotetypedlist_settypeandlink.htm
 tech.root: debugger
 ms.assetid: f6e2d8e3-294d-45d8-8fc6-33af3a746244
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_8867c503-5983-465c-bfb6-f13b21d325cc.xml, ExtRemoteTypedList class [Windows Debugging],SetTypeAndLink method, ExtRemoteTypedList.SetTypeAndLink, ExtRemoteTypedList::SetTypeAndLink, SetTypeAndLink, SetTypeAndLink method [Windows Debugging], SetTypeAndLink method [Windows Debugging],ExtRemoteTypedList class, debugger.extremotetypedlist_settypeandlink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

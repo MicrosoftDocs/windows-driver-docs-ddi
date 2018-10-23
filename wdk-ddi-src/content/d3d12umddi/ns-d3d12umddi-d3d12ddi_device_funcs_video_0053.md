@@ -4,11 +4,8 @@ title: D3D12DDI_DEVICE_FUNCS_VIDEO_0053
 author: windows-driver-content
 description: The device functions of video.
 ms.assetid: d32a1690-546d-4c00-b30c-7646ced2117d
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_DEVICE_FUNCS_VIDEO_0053, D3D12DDI_DEVICE_FUNCS_VIDEO_0053, 
 req.header: d3d12umddi.h
 req.include-header:

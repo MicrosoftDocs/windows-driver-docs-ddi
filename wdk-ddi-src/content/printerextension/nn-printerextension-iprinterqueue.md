@@ -6,11 +6,8 @@ description: Represents a single printer queue.
 old-location: print\iprinterqueue_interface.htm
 tech.root: print
 ms.assetid: 2DB57234-E783-4C6B-A743-F1E9F7D34D97
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrinterQueue, IPrinterQueue interface [Print Devices], IPrinterQueue interface [Print Devices],described, print.iprinterqueue_interface, printerextension/IPrinterQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: printerextension.h
 req.include-header: 
@@ -134,7 +131,7 @@ Gets the name of the printer for this print queue.
 
 
 
-Any event sink that implements <a href="https://msdn.microsoft.com/library/windows/hardware/hh439618">IPrinterQueueEvent</a> is connected to the associated event source, <b>IPrinterQueue</b>, via the <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms694318(v=vs.85).aspx">IConnectionPoint</a> mechanism. You must retrieve a pointer to the <b>IConnectionPoint</b> interface by invoking <b>QueryInterface</b> on the <b>IPrinterQueue</b> object.
+Any event sink that implements <a href="https://msdn.microsoft.com/library/windows/hardware/hh439618">IPrinterQueueEvent</a> is connected to the associated event source, <b>IPrinterQueue</b>, via the <a href="https://msdn.microsoft.com/library/windows/desktop/ms694318(v=vs.85).aspx">IConnectionPoint</a> mechanism. You must retrieve a pointer to the <b>IConnectionPoint</b> interface by invoking <b>QueryInterface</b> on the <b>IPrinterQueue</b> object.
 
 <div class="alert"><b>Note</b>  It is mandatory to implement <b>IDispatch::Invoke</b> on the event sink that implements <b>IPrinterQueueEvent</b>, since that is the mechanism via which events are raised. It is sufficient to provide stub implementations of the other methods on the <b>IDispatch</b> interface.
 </div>
@@ -147,7 +144,7 @@ Any event sink that implements <a href="https://msdn.microsoft.com/library/windo
 
 
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms694318(v=vs.85).aspx">IConnectionPoint</a>
+<a href="https://msdn.microsoft.com/library/windows/desktop/ms694318(v=vs.85).aspx">IConnectionPoint</a>
 
 
 

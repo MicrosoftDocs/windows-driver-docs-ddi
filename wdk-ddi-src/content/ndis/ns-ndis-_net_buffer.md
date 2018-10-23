@@ -6,11 +6,8 @@ description: The NET_BUFFER structure specifies data that is transmitted or rece
 old-location: netvista\net_buffer.htm
 tech.root: netvista
 ms.assetid: 66a725f9-ae72-41b4-8840-63c9ff89ace7
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNET_BUFFER, NET_BUFFER, NET_BUFFER structure [Network Drivers Starting with Windows Vista], PNET_BUFFER, PNET_BUFFER structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER, ndis/NET_BUFFER, ndis/PNET_BUFFER, ndis_netbuf_structures_ref_e07734b2-9135-48a5-b3d4-f6e252a52c45.xml, netvista.net_buffer"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -269,7 +266,7 @@ To access members of the NET_BUFFER structure, use the following macros and func
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568380">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568380">
        NET_BUFFER_CURRENT_MDL_OFFSET</a>
 
 
@@ -296,7 +293,7 @@ For more information on how to use net buffers, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568380">NET_BUFFER_CURRENT_MDL_OFFSET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568380">NET_BUFFER_CURRENT_MDL_OFFSET</a>
 
 
 

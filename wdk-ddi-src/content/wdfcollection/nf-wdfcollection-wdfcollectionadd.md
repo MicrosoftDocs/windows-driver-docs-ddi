@@ -6,11 +6,8 @@ description: The WdfCollectionAdd method adds a specified framework object to an
 old-location: wdf\wdfcollectionadd.htm
 tech.root: wdf
 ms.assetid: eed2ed36-c081-44c7-857b-d2a9f608a022
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFCollectionObjectRef_76895387-58f4-46fc-b5d0-244408fe57b9.xml, WdfCollectionAdd, WdfCollectionAdd method, kmdf.wdfcollectionadd, wdf.wdfcollectionadd, wdfcollection/WdfCollectionAdd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfcollection.h
 req.include-header: Wdf.h
@@ -111,7 +108,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 The <b>WdfCollectionAdd</b> method appends the specified object to the end of the set of objects that the collection contains. When <b>WdfCollectionAdd</b> adds an object to a collection, it increments the object's reference count. Your driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff545784">WdfCollectionRemove</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545792">WdfCollectionRemoveItem</a> to remove the object and decrement its reference count. 
 
-For more information about object collections, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-collections">Framework Object Collections</a>.
+For more information about object collections, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-collections">Framework Object Collections</a>.
 
 
 #### Examples

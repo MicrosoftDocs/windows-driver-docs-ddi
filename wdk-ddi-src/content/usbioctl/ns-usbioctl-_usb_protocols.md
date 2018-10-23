@@ -6,11 +6,8 @@ description: The USB_PROTOCOLS union is used to report the Universal Serial Bus 
 old-location: buses\usb_protocols.htm
 tech.root: usbref
 ms.assetid: F970A7FB-DF6F-414B-8B4B-C7E4C5C620B1
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSB_PROTOCOLS, PUSB_PROTOCOLS, PUSB_PROTOCOLS union pointer [Buses], USB_PROTOCOLS, USB_PROTOCOLS union [Buses], _USB_PROTOCOLS, buses.usb_protocols, usbioctl/PUSB_PROTOCOLS, usbioctl/USB_PROTOCOLS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: usbioctl.h
 req.include-header: Usbioctl.h

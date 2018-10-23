@@ -6,11 +6,8 @@ description: An AVStream minidriver's AVStrMiniRemoveEvent routine is called whe
 old-location: stream\avstrminiremoveevent.htm
 tech.root: stream
 ms.assetid: dee4ce19-9dc8-4728-855b-eadb5bca0fc2
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: AVStrMiniRemoveEvent, AVStrMiniRemoveEvent routine [Streaming Media Devices], PFNKSREMOVEEVENT, avstclbk_04bc810f-666a-4b24-9bc9-e203ebbbbf29.xml, ks/AVStrMiniRemoveEvent, stream.avstrminiremoveevent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ks.h
 req.include-header: Ks.h

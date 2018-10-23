@@ -6,11 +6,8 @@ description: The NET_BUFFER_LIST structure specifies a linked list of NET_BUFFER
 old-location: netvista\net_buffer_list.htm
 tech.root: netvista
 ms.assetid: 3b61a424-33f8-4b33-aaef-f68f0026ce27
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNET_BUFFER_LIST, NET_BUFFER_LIST, NET_BUFFER_LIST structure [Network Drivers Starting with Windows Vista], PNET_BUFFER_LIST, PNET_BUFFER_LIST structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_LIST, ndis/NET_BUFFER_LIST, ndis/PNET_BUFFER_LIST, ndis_netbuf_structures_ref_7320b98f-6600-44e4-a6e8-a7d7becaaa32.xml, netvista.net_buffer_list"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -102,12 +99,12 @@ Use the following functions and macros to access data in the NET_BUFFER_LIST_CON
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568391">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568391">
          NET_BUFFER_LIST_CONTEXT_DATA_START</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568390">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568390">
          NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
 
 
@@ -469,17 +466,17 @@ To access members of the NET_BUFFER_LIST structure, use the following macros and
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568388">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">
        NET_BUFFER_LIST_MINIPORT_RESERVED</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568391">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568391">
        NET_BUFFER_LIST_CONTEXT_DATA_START</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568390">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568390">
        NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
 
 
@@ -492,7 +489,7 @@ To access members of the NET_BUFFER_LIST structure, use the following macros and
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568388">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">
        NET_BUFFER_LIST_PROTOCOL_RESERVED</a>
 
 
@@ -524,12 +521,12 @@ For more information on how to use net buffers, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568390">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568390">
    NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568391">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568391">
    NET_BUFFER_LIST_CONTEXT_DATA_START</a>
 
 
@@ -550,7 +547,7 @@ For more information on how to use net buffers, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568388">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">
    NET_BUFFER_LIST_MINIPORT_RESERVED</a>
 
 
@@ -559,7 +556,7 @@ For more information on how to use net buffers, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568388">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">
    NET_BUFFER_LIST_PROTOCOL_RESERVED</a>
 
 

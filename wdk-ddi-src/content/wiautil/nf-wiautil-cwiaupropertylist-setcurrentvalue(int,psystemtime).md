@@ -6,11 +6,8 @@ description: The CWiauPropertyList::SetCurrentValue(INT,PSYSTEMTIME) method sets
 old-location: image\cwiaupropertylist_setcurrentvalue_systemtime_.htm
 tech.root: image
 ms.assetid: 1823dec6-aec8-47eb-9543-9acfd32c4b0d
-ms.author: windowsdriverdev
-ms.date: 9/7/2018
+ms.date: 09/07/2018
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetCurrentValue method, CWiauPropertyList.SetCurrentValue, CWiauPropertyList.SetCurrentValue(INT,PSYSTEMTIME), CWiauPropertyList::SetCurrentValue, CWiauPropertyList::SetCurrentValue(INT,PSYSTEMTIME  ), CWiauPropertyList::SetCurrentValue(INT,PSYSTEMTIME), SetCurrentValue, SetCurrentValue method [Imaging Devices], SetCurrentValue method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_setcurrentvalue_systemtime_, wiauFncs_dafa3146-7ba7-4782-9e6f-95a80d97452e.xml, wiautil/CWiauPropertyList::SetCurrentValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h

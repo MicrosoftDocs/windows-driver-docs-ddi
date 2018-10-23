@@ -4,7 +4,6 @@ title: IDataModelScriptDebugClient::NotifyDebugEvent
 author: windows-driver-content
 description: Whenever any event occurs which breaks into the script debugger, the debug code itself makes a call to the interface via the NotifyDebugEvent method. 
 ms.assetid: 97e8fde7-949a-4e5d-bb84-49adb72b71af
-ms.author: windowsdriverdev
 ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebugClient::NotifyDebugEvent, NotifyDebugEvent, IDataModelScriptDebugClient.NotifyDebugEvent, IDataModelScriptDebugClient::NotifyDebugEvent, IDataModelScriptDebugClient.NotifyDebugEvent

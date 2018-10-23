@@ -4,11 +4,8 @@ title: PFND3D12DDI_CALCPRIVATEOPENEDHEAPANDRESOURCESIZES_0043
 author: windows-driver-content
 description: Calculates sizes for private opened heap and resources.
 ms.assetid: af4c6fb0-a10f-4abe-8161-2df2563b76cd
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Pointer to a CalcPrivateOpenedHeapAndResourceSizes function that calculates size
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALCPRIVATEOPENEDHEAPANDRESOURCESIZES_0043 Pfnd3d12ddiCalcprivateopenedheapandresourcesizes0043;

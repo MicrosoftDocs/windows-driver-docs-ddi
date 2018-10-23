@@ -4,11 +4,8 @@ title: *PFN_SENSORSCXSTATECHANGE
 author: windows-driver-content
 description: Used to initialize a sensor state change.
 ms.assetid: 7c918334-c20f-4edd-988b-4bbe8bc2c9d8
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: sensorscx.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Used to initialize a sensor state change.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 *PFN_SENSORSCXSTATECHANGE *PfnSensorscxstatechange; 

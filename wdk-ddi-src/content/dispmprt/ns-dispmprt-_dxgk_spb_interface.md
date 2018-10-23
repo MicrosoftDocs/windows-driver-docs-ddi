@@ -6,11 +6,8 @@ description: Contains pointers to functions in the Simple Peripheral Bus (SPB) I
 old-location: display\dxgk_spb_interface.htm
 tech.root: display
 ms.assetid: 677619d2-86a1-492e-9964-d50624376ef4
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*PDXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE structure [Display Devices], PDXGK_SPB_INTERFACE, PDXGK_SPB_INTERFACE structure pointer [Display Devices], _DXGK_SPB_INTERFACE, display.dxgk_spb_interface, dispmprt/DXGK_SPB_INTERFACE, dispmprt/PDXGK_SPB_INTERFACE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
@@ -162,7 +159,7 @@ A pointer to an SPB resource that the display miniport driver opened using the <
 Reads data from an open Simple Peripheral Bus (SPB) resource. All input parameters are supplied by the display miniport driver.
 
 If the call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451581">OpenSpbResource</a> set either of the <i>OpenOptions</i> flags <b>FILE_SYNCHRONOUS_IO_ALERT</b> or <b>FILE_SYNCHRONOUS_IO_NONALERT</b> (defined in Wdm.h), the I/O Manager maintains the current file position. If so, the caller of <a href="https://msdn.microsoft.com/library/windows/hardware/hh439824">ReadSpbResource</a> can specify that the current file position offset be used instead of an explicit <i>ByteOffset</i> value. This specification can be made by using one of the following methods:<ul>
-<li>Specify a pointer to a <a href="http://go.microsoft.com/fwlink/p/?linkid=243118">LARGE_INTEGER</a> value with the <b>HighPart</b> member set to -1 and the <b>LowPart</b> member set to the system-defined value <b>FILE_USE_FILE_POINTER_POSITION</b> (defined in Wdm.h).</li>
+<li>Specify a pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=243118">LARGE_INTEGER</a> value with the <b>HighPart</b> member set to -1 and the <b>LowPart</b> member set to the system-defined value <b>FILE_USE_FILE_POINTER_POSITION</b> (defined in Wdm.h).</li>
 <li>Pass a <b>NULL</b> pointer for <i>ByteOffset</i>.</li>
 </ul>
 
@@ -230,7 +227,7 @@ If the call to the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 
 If the call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451581">OpenSpbResource</a> set either of the <i>CreateOptions</i> flags, <b>FILE_SYNCHRONOUS_IO_ALERT</b> or <b>FILE_SYNCHRONOUS_IO_NONALERT</b>, the I/O Manager maintains the current file position. If so, the caller of <a href="https://msdn.microsoft.com/library/windows/hardware/hh439925">WriteSpbResource</a> can specify that the current file position offset be used instead of an explicit <i>ByteOffset</i> value. This specification can be made by using one of the following methods:<ul>
-<li>Specify a pointer to a <a href="http://go.microsoft.com/fwlink/p/?linkid=243118">LARGE_INTEGER</a> value with the <b>HighPart</b> member set to -1 and the <b>LowPart</b> member set to the system-defined value <b>FILE_USE_FILE_POINTER_POSITION</b> (defined in Wdm.h).</li>
+<li>Specify a pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=243118">LARGE_INTEGER</a> value with the <b>HighPart</b> member set to -1 and the <b>LowPart</b> member set to the system-defined value <b>FILE_USE_FILE_POINTER_POSITION</b> (defined in Wdm.h).</li>
 <li>Pass a <b>NULL</b> pointer for <i>ByteOffset</i>.</li>
 </ul>
 
@@ -240,7 +237,7 @@ If the call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh45
 
 Even when the I/O Manager is maintaining the current file position, the caller can reset this position by passing an explicit <i>ByteOffset</i> value to <a href="https://msdn.microsoft.com/library/windows/hardware/hh439925">WriteSpbResource</a>. Doing this automatically changes the current file position to that <i>ByteOffset</i> value, performs the write operation, and then updates the position according to the number of bytes actually written. This technique gives the caller atomic seek-and-write service.
 
-It is also possible to cause a write operation to start at the current end of file by specifying for <i>ByteOffset</i> a pointer to a <a href="http://go.microsoft.com/fwlink/p/?linkid=243118">LARGE_INTEGER</a> value with <b>HighPart</b> set to -1 and <b>LowPart</b> set to <b>FILE_WRITE_TO_END_OF_FILE</b>. This works regardless of whether the I/O Manager is maintaining the current file position.
+It is also possible to cause a write operation to start at the current end of file by specifying for <i>ByteOffset</i> a pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=243118">LARGE_INTEGER</a> value with <b>HighPart</b> set to -1 and <b>LowPart</b> set to <b>FILE_WRITE_TO_END_OF_FILE</b>. This works regardless of whether the I/O Manager is maintaining the current file position.
 
 
 

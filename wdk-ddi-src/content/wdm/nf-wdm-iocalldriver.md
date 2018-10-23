@@ -6,11 +6,8 @@ description: The IoCallDriver routine sends an IRP to the driver associated with
 old-location: kernel\iocalldriver.htm
 tech.root: kernel
 ms.assetid: 5d1fff23-f1e8-41a5-9cd6-a20bd4a7883e
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoCallDriver, IoCallDriver routine [Kernel-Mode Driver Architecture], k104_8579a946-2f96-455f-825c-c3f86caba99c.xml, kernel.iocalldriver, wdm/IoCallDriver
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

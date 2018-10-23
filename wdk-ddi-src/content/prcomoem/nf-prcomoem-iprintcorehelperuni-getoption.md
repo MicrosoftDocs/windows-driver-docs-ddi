@@ -6,11 +6,8 @@ description: The IPrintCoreHelperUni::GetOption method gets a specified option f
 old-location: print\iprintcorehelperuni_getoption.htm
 tech.root: print
 ms.assetid: 0850ba08-089a-4715-bee4-a44a95e6dee6
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetOption, GetOption method [Print Devices], GetOption method [Print Devices],IPrintCoreHelperUni interface, IPrintCoreHelperUni interface [Print Devices],GetOption method, IPrintCoreHelperUni.GetOption, IPrintCoreHelperUni::GetOption, prcomoem/IPrintCoreHelperUni::GetOption, print.iprintcorehelperuni_getoption, print_unidrv-pscript_allplugins_a80d7019-a2e6-4c41-885d-831c429c5dac.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

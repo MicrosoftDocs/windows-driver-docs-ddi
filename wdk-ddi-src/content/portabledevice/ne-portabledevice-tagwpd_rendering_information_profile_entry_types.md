@@ -6,11 +6,8 @@ description: The WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES enumeration type 
 old-location: wpddk\wpd_rendering_information_profile_entry_types.htm
 tech.root: wpd_dk
 ms.assetid: e4ec9ece-ad20-47ff-86ac-9c6f43545579
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES, WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES enumeration, WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPE_OBJECT, WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPE_RESOURCE, enumeration, portabledevice/WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES, portabledevice/WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPE_OBJECT, portabledevice/WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPE_RESOURCE, tagWPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES, wpddk.wpd_rendering_information_profile_entry_types
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: portabledevice.h
 req.include-header: 

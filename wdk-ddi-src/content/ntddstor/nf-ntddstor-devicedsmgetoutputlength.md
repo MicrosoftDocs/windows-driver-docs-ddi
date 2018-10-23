@@ -4,7 +4,6 @@ title: DeviceDsmGetOutputLength function
 author: windows-driver-content
 description: The DeviceDsmGetOutputLength function gets the length, in bytes, of a data set management output operation.
 ms.assetid: deb9e6b6-d744-4c3a-a6f4-d1b452401a08
-ms.author: windowsdriverdev
 ms.date: 04/11/2018
 ms.topic: function
 ms.keywords: DeviceDsmGetOutputLength

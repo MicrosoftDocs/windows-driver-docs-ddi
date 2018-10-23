@@ -6,11 +6,8 @@ description: The KeReleaseMutex routine releases a mutex object, and specifies w
 old-location: kernel\kereleasemutex.htm
 tech.root: kernel
 ms.assetid: d220f913-6111-435d-b617-257edf2a9c68
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeReleaseMutex, KeReleaseMutex routine [Kernel-Mode Driver Architecture], k105_4237a9e6-715b-4e40-aab8-9b1458a220ae.xml, kernel.kereleasemutex, wdm/KeReleaseMutex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

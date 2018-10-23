@@ -6,11 +6,8 @@ description: The WskReceiveEvent event callback function notifies a WSK applicat
 old-location: netvista\wskreceiveevent.htm
 tech.root: netvista
 ms.assetid: 2a7a7570-ed26-48be-b27b-dc240588ecfc
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: PFN_WSK_RECEIVE_EVENT, PFN_WSK_RECEIVE_EVENT callback, WSK_FLAG_AT_DISPATCH_LEVEL, WSK_FLAG_ENTIRE_MESSAGE, WSK_FLAG_RELEASE_ASAP, WskReceiveEvent, WskReceiveEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskreceiveevent, wsk/WskReceiveEvent, wskref_acb47379-99e4-42b8-92a1-19395cc29fd8.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wsk.h
 req.include-header: Wsk.h
@@ -264,7 +261,7 @@ The WSK subsystem calls a WSK application's
     only if the event callback function was previously enabled with the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570834">SO_WSK_EVENT_CALLBACK</a> socket option.
     For more information about enabling a socket's event callback functions, see 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa363707">Enabling and
+    <a href="https://msdn.microsoft.com/library/windows/desktop/aa363707">Enabling and
     Disabling Event Callback Functions</a>.
 
 If a WSK application's 

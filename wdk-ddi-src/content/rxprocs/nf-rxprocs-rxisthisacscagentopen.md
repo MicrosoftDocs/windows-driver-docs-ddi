@@ -6,11 +6,8 @@ description: RxIsThisACscAgentOpen determines if a file open was made by a user-
 old-location: ifsk\rxisthisacscagentopen.htm
 tech.root: ifsk
 ms.assetid: b3bd9b9f-e859-4d7f-9735-5995cb3ef6e8
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxIsThisACscAgentOpen, RxIsThisACscAgentOpen function [Installable File System Drivers], ifsk.rxisthisacscagentopen, rxprocs/RxIsThisACscAgentOpen, rxref_1d515511-d1dd-4090-9c9d-b87960d56f5c.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rxprocs.h
 req.include-header: Rxcontx.h, Rxprocs.h

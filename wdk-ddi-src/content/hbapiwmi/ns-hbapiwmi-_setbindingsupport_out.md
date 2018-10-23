@@ -6,11 +6,8 @@ description: The SetBindingSupport_OUT structure is used to report the output pa
 old-location: storage\setbindingsupport_out.htm
 tech.root: storage
 ms.assetid: f2b37780-0b33-4af9-9634-571b49be5791
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSetBindingSupport_OUT, PSetBindingSupport_OUT, PSetBindingSupport_OUT structure pointer [Storage Devices], SetBindingSupport_OUT, SetBindingSupport_OUT structure [Storage Devices], _SetBindingSupport_OUT, hbapiwmi/PSetBindingSupport_OUT, hbapiwmi/SetBindingSupport_OUT, storage.setbindingsupport_out, structs-Fibre_95e0c3db-69d5-406f-98ea-6554eed922ef.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h

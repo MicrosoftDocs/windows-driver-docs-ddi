@@ -4,11 +4,8 @@ title: D3D12DDI_EXISTING_COLLECTION_DESC_0054
 author: windows-driver-content
 description: An existing collection.
 ms.assetid: d9974a90-8c8b-4fd8-8e82-5938d3c97590
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_EXISTING_COLLECTION_DESC_0054, D3D12DDI_EXISTING_COLLECTION_DESC_0054, 
 req.header: d3d12umddi.h
 req.include-header:

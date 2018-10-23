@@ -6,11 +6,8 @@ description: Call the NdisGetDataBuffer function to gain access to a contiguous 
 old-location: netvista\ndisgetdatabuffer.htm
 tech.root: netvista
 ms.assetid: 784d4c32-a517-4219-8e22-a998e0e66d69
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisGetDataBuffer, NdisGetDataBuffer function [Network Drivers Starting with Windows Vista], ndis/NdisGetDataBuffer, ndis_netbuf_functions_ref_b4ffded6-13c9-417d-bb03-a6421f718deb.xml, netvista.ndisgetdatabuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

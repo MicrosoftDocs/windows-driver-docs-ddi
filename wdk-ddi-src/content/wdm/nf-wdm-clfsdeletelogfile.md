@@ -6,11 +6,8 @@ description: The ClfsDeleteLogFile routine marks a CLFS stream for deletion.
 old-location: kernel\clfsdeletelogfile.htm
 tech.root: kernel
 ms.assetid: a8c90199-e938-45bb-9356-48591e127eed
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ClfsDeleteLogFile, ClfsDeleteLogFile routine [Kernel-Mode Driver Architecture], Clfs_0b23f7ac-c175-4eaf-b6c9-9b23b6ebe7e3.xml, kernel.clfsdeletelogfile, wdm/ClfsDeleteLogFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h

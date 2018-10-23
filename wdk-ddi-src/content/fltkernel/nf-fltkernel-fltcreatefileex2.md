@@ -6,11 +6,8 @@ description: Minifilter drivers call FltCreateFileEx2 to create a new file or op
 old-location: ifsk\fltcreatefileex2.htm
 tech.root: ifsk
 ms.assetid: e662472d-4d72-449e-91d7-119bd59e0943
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_21436e16-822a-4250-abac-10346593435f.xml, FltCreateFileEx2, FltCreateFileEx2 routine [Installable File System Drivers], fltkernel/FltCreateFileEx2, ifsk.fltcreatefileex2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: FltKernel.h
@@ -906,7 +903,7 @@ To specify an extra create parameter (ECP) as part of a create operation, initia
 
 To create/open a file in the context of a transaction, set the <b>TxnParameters</b> member of the IO_DRIVER_CREATE_CONTEXT structure to the value returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548412">IoGetTransactionParameterBlock</a> routine.
 
-For additional information regarding transactions, see <a href="http://go.microsoft.com/fwlink/p/?linkid=66161">Transaction Management (TxF)</a>.
+For additional information regarding transactions, see <a href="https://go.microsoft.com/fwlink/p/?linkid=66161">Transaction Management (TxF)</a>.
 
 <b>FltCreateFileEx2</b> sends the create request only to the instances attached below the specified minifilter driver instance and to the file system. The specified instance and the instances attached above it do not receive the create request. If no instance is specified, the request goes to the top of the stack and is received by all instances and the file system. 
 

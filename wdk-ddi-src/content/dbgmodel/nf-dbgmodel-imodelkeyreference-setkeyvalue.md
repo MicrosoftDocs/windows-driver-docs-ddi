@@ -4,7 +4,6 @@ title: IModelKeyReference::SetKeyValue
 author: windows-driver-content
 description: The SetKeyValue method on a key reference behaves as the SetKeyValue method on IModelObject would.
 ms.assetid: adb5bf4c-161a-4bbc-82b8-a23dcf101b55
-ms.author: windowsdriverdev
 ms.date: 08/14/2018
 ms.topic: method
 ms.keywords: IModelKeyReference::SetKeyValue, SetKeyValue, IModelKeyReference.SetKeyValue, IModelKeyReference::SetKeyValue, IModelKeyReference.SetKeyValue

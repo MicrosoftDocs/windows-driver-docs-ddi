@@ -4,8 +4,7 @@ title: EntropyRegisterCallback function
 author: windows-driver-content
 description: 
 ms.assetid: 3bb67a7b-ea22-4df5-8008-469786d3ef82
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: EntropyRegisterCallback
 req.header: systemrng.h

@@ -6,11 +6,8 @@ description: Contains the information of a top-level-collection. This structure 
 old-location: hid\hidp_collection_desc.htm
 tech.root: hid
 ms.assetid: 4B044635-1088-4CED-87C7-4385E565A54A
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PHIDP_COLLECTION_DESC, HIDP_COLLECTION_DESC, HIDP_COLLECTION_DESC structure [Human Input Devices], PHIDP_COLLECTION_DESC, PHIDP_COLLECTION_DESC structure pointer [Human Input Devices], _HIDP_COLLECTION_DESC, hid.hidp_collection_desc, hidpddi/HIDP_COLLECTION_DESC, hidpddi/PHIDP_COLLECTION_DESC"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hidpddi.h
 req.include-header: Hidpddi.h
@@ -100,7 +97,7 @@ The length of the preparsed data pointed to by <i>PreparsedData</i>.
 
 ### -field PreparsedData
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a> structure that contains a top-level collection's preparsed data.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a> structure that contains a top-level collection's preparsed data.
 
 
 ## -see-also

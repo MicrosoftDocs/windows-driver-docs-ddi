@@ -4,11 +4,8 @@ title: _D3DKMT_GPUVERSION
 author: windows-driver-content
 description: Used to collect the bios version and GPU architecture name once during GPU initialization.
 ms.assetid: 52bc5bb2-d9ea-4084-9ece-b7b65121ff73
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_GPUVERSION, D3DKMT_GPUVERSION,
 req.header: d3dkmthk.h
 req.include-header:

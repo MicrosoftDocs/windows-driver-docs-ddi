@@ -6,11 +6,8 @@ description: Reserved for system use.
 old-location: ifsk\rtlfreesid.htm
 tech.root: ifsk
 ms.assetid: c3afb073-feb4-47ad-96a1-c9b580626026
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlFreeSid, RtlFreeSid function [Installable File System Drivers], ifsk.rtlfreesid, ntifs/RtlFreeSid, rtlref_4cdaafe3-70fa-4a22-be05-019e6b06cc15.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

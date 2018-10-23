@@ -6,11 +6,8 @@ description: In a checked build environment, the minidriver can use the StreamCl
 old-location: stream\streamclassdebugprint.htm
 tech.root: stream
 ms.assetid: a8b7efd2-7773-44dc-92de-85b03c31ada8
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: StreamClassDebugPrint, StreamClassDebugPrint routine [Streaming Media Devices], strclass-routines_858a2dd4-ee74-44de-9293-05bd804c315d.xml, stream.streamclassdebugprint, strmini/StreamClassDebugPrint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: strmini.h
 req.include-header: Strmini.h

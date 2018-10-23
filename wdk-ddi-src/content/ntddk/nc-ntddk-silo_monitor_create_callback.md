@@ -6,11 +6,8 @@ description: This is callback is invoked when a new silo is created.
 old-location: kernel\silo_monitor_create_callback.htm
 tech.root: kernel
 ms.assetid: C26C5162-4BB0-401E-9AF5-AF1D2D8715F9
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: CreateCallback, CreateCallback callback function [Kernel-Mode Driver Architecture], SILO_MONITOR_CREATE_CALLBACK, SILO_MONITOR_CREATE_CALLBACK callback, kernel.silo_monitor_create_callback, ntddk/CreateCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ntddk.h
 req.include-header: 

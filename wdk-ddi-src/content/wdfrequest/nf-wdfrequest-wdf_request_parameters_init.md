@@ -6,11 +6,8 @@ description: The WDF_REQUEST_PARAMETERS_INIT function initializes a WDF_REQUEST_
 old-location: wdf\wdf_request_parameters_init.htm
 tech.root: wdf
 ms.assetid: c4e83638-4931-460f-848b-ceb0f7a00afb
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_1c1e97cb-9ca1-473a-aa30-d39fdadbc726.xml, WDF_REQUEST_PARAMETERS_INIT, WDF_REQUEST_PARAMETERS_INIT function, kmdf.wdf_request_parameters_init, wdf.wdf_request_parameters_init, wdfrequest/WDF_REQUEST_PARAMETERS_INIT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfrequest.h
 req.include-header: Wdf.h

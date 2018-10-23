@@ -6,11 +6,8 @@ description: The FWPS_FIELDS_ALE_BIND_REDIRECT_V4 enumeration type specifies the
 old-location: netvista\fwps_fields_ale_bind_redirect_v4.htm
 tech.root: netvista
 ms.assetid: fc9720d7-18d6-4fb9-b876-04bf5497c0fd
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FWPS_FIELDS_ALE_BIND_REDIRECT_V4, FWPS_FIELDS_ALE_BIND_REDIRECT_V4 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELDS_ALE_BIND_REDIRECT_V4_, FWPS_FIELD_ALE_BIND_REDIRECT_V4_ALE_APP_ID, FWPS_FIELD_ALE_BIND_REDIRECT_V4_ALE_PACKAGE_ID, FWPS_FIELD_ALE_BIND_REDIRECT_V4_ALE_USER_ID, FWPS_FIELD_ALE_BIND_REDIRECT_V4_FLAGS, FWPS_FIELD_ALE_BIND_REDIRECT_V4_IP_LOCAL_ADDRESS, FWPS_FIELD_ALE_BIND_REDIRECT_V4_IP_LOCAL_ADDRESS_TYPE, FWPS_FIELD_ALE_BIND_REDIRECT_V4_IP_LOCAL_PORT, FWPS_FIELD_ALE_BIND_REDIRECT_V4_IP_PROTOCOL, FWPS_FIELD_ALE_BIND_REDIRECT_V4_MAX, fwpsk/FWPS_FIELDS_ALE_BIND_REDIRECT_V4, fwpsk/FWPS_FIELD_ALE_BIND_REDIRECT_V4_ALE_APP_ID, fwpsk/FWPS_FIELD_ALE_BIND_REDIRECT_V4_ALE_PACKAGE_ID, fwpsk/FWPS_FIELD_ALE_BIND_REDIRECT_V4_ALE_USER_ID, fwpsk/FWPS_FIELD_ALE_BIND_REDIRECT_V4_FLAGS, fwpsk/FWPS_FIELD_ALE_BIND_REDIRECT_V4_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_ALE_BIND_REDIRECT_V4_IP_LOCAL_ADDRESS_TYPE, fwpsk/FWPS_FIELD_ALE_BIND_REDIRECT_V4_IP_LOCAL_PORT, fwpsk/FWPS_FIELD_ALE_BIND_REDIRECT_V4_IP_PROTOCOL, fwpsk/FWPS_FIELD_ALE_BIND_REDIRECT_V4_MAX, netvista.fwps_fields_ale_bind_redirect_v4, wfp_ref_5_const_3_data_fields_864fe799-f80d-4fb0-b6d5-3574c2a6e7a3.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
@@ -52,7 +49,7 @@ req.typenames: FWPS_FIELDS_ALE_BIND_REDIRECT_V4
 
 The FWPS_FIELDS_ALE_BIND_REDIRECT_V4 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_ALE_BIND_REDIRECT_V4 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
+  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layer</a>.
 
 
 ## -enum-fields
@@ -107,9 +104,17 @@ The package identifier is a security identifier (SID) that identifies the associ
 
 ### -field FWPS_FIELD_ALE_BIND_REDIRECT_V4_ALE_SECURITY_ATTRIBUTE_FQBN_VALUE
 
+The fully qualified binary name (FQBN) value of the application.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_ALE_BIND_REDIRECT_V4_COMPARTMENT_ID
 
+The compartment that the network interface belongs to.
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_ALE_BIND_REDIRECT_V4_MAX
 

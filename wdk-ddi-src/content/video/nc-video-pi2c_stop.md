@@ -6,11 +6,8 @@ description: The I2CStop function ends I2C communication.
 old-location: display\i2cstop.htm
 tech.root: display
 ms.assetid: 535e1603-08e3-4ad1-b4e5-f0368b7d3e71
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: I2CStop, I2CStop callback function [Display Devices], PI2C_STOP, PI2C_STOP callback, VideoPort_Functions_736a5ce6-846f-4c8c-b851-b65c365bba71.xml, display.i2cstop, video/I2CStop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: video.h
 req.include-header: Video.h

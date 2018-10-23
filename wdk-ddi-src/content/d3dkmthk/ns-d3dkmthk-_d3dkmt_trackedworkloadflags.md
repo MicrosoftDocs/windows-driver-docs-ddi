@@ -4,11 +4,8 @@ title: _D3DKMT_TRACKEDWORKLOADFLAGS
 author: windows-driver-content
 description: A workload may be periodic, have similar load, or both.
 ms.assetid: 31f01df5-7df0-4671-9bb9-92b68b3c501c
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_TRACKEDWORKLOADFLAGS, D3DKMT_TRACKEDWORKLOADFLAGS, 
 req.header: d3dkmthk.h
 req.include-header:

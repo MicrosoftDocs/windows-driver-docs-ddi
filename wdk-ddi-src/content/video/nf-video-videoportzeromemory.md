@@ -6,11 +6,8 @@ description: The VideoPortZeroMemory function fills a block of system memory wit
 old-location: display\videoportzeromemory.htm
 tech.root: display
 ms.assetid: 96827d2e-0fee-4276-a758-82f5b7383eec
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortZeroMemory, VideoPortZeroMemory function [Display Devices], VideoPort_Functions_518c5fa4-2011-47bd-a24c-0dff144dfa3a.xml, display.videoportzeromemory, video/VideoPortZeroMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: video.h
 req.include-header: Video.h

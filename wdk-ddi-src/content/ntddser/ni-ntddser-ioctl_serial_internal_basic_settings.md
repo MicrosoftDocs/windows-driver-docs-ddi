@@ -6,11 +6,8 @@ description: The IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS request sets a serial devi
 old-location: serports\ioctl_serial_internal_basic_settings.htm
 tech.root: serports
 ms.assetid: 248b8682-b396-42b4-98f7-67191d98be1a
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS, IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS control, IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS control code [Serial Ports], ntddser/IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS, serports.ioctl_serial_internal_basic_settings, serref_86bdc0cd-4cfc-40de-82ac-81a088620e4c.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddser.h
 req.include-header: Ntddser.h
@@ -105,7 +102,7 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> is set to the size, in 
 
 If the request is successful, the <b>Information</b> member is set to the size, in bytes, of SERIAL_BASIC_SETTINGS. Otherwise, the <b>Information</b> member is set to zero.
 
-The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. If <b>Status</b> is set to STATUS_BUFFER_TOO_SMALL, the value of <b>Parameters.DeviceIoControl.OutputLength</b> is less than the size, in bytes, of a SERIAL_BASIC_SETTINGS structure.
+The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. If <b>Status</b> is set to STATUS_BUFFER_TOO_SMALL, the value of <b>Parameters.DeviceIoControl.OutputLength</b> is less than the size, in bytes, of a SERIAL_BASIC_SETTINGS structure.
 
 
 ## -see-also

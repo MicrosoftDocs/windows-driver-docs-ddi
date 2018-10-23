@@ -6,11 +6,8 @@ description: RxCeQueryAdapterStatus returns the ADAPTER_STATUS structure for a g
 old-location: ifsk\rxcequeryadapterstatus.htm
 tech.root: ifsk
 ms.assetid: ebe9bec3-6c38-48d8-b9af-03aadbc09d98
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxCeQueryAdapterStatus, RxCeQueryAdapterStatus function [Installable File System Drivers], ifsk.rxcequeryadapterstatus, rxce/RxCeQueryAdapterStatus, rxref_0813f428-95ae-47df-969c-c00563f3b3c8.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rxce.h
 req.include-header: Rxce.h
@@ -134,7 +131,7 @@ The <i>pTransport</i> parameter passed to this routine was invalid.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=138885">ADAPTER_STATUS</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=138885">ADAPTER_STATUS</a>
 
 
 

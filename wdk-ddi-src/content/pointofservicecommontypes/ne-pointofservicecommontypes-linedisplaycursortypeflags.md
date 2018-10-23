@@ -6,11 +6,8 @@ description: This enumeration is not implemented.
 old-location: pos\linedisplaycursortypeflags.htm
 tech.root: pos
 ms.assetid: DD09C18C-C2FA-43DD-9E5F-ACA36132DAAD
-ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: LineDisplayCursorTypeFlags, LineDisplayCursorTypeFlags enumeration, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayCursorTypeFlags, pos.linedisplaycursortypeflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h

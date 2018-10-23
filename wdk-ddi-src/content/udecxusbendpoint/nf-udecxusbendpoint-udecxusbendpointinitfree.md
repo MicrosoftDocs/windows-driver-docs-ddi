@@ -6,11 +6,8 @@ description: Release the resources that were allocated by the UdecxUsbSimpleEndp
 old-location: buses\udecxusbendpointinitfree.htm
 tech.root: usbref
 ms.assetid: F95BDA95-4667-4EC3-9FE5-C78B453AC0B3
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UdecxUsbEndpointInitFree, UdecxUsbEndpointInitFree function [Buses], buses.udecxusbendpointinitfree, udecxusbendpoint/UdecxUsbEndpointInitFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: udecxusbendpoint.h
 req.include-header: Udecx.h

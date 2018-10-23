@@ -6,11 +6,8 @@ description: The DrvPopulateFilterServices function is called by the XPSDrv filt
 old-location: print\drvpopulatefilterservices.htm
 tech.root: print
 ms.assetid: A24DAC54-57FE-419D-8B5D-54B8AFC338DE
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: DrvPopulateFilterServices, DrvPopulateFilterServices function [Print Devices], filterpipeline/DrvPopulateFilterServices, print.drvpopulatefilterservices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: filterpipeline.h
 req.include-header: 

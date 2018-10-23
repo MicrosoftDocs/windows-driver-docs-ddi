@@ -4,12 +4,9 @@ title: D3D12DDI_STENCIL_OP
 author: windows-driver-content
 description: The D3D12DDI_STENCIL_OP enumeration type contains values that identify operations on stencil buffers.
 ms.assetid: 984415f8-a577-4344-aedb-161155f113af
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_STENCIL_OP, D3D12DDI_STENCIL_OP, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

@@ -6,11 +6,8 @@ description: RxNameCacheFinalize releases the storage for all of the NAME_CACHE 
 old-location: ifsk\rxnamecachefinalize.htm
 tech.root: ifsk
 ms.assetid: e40ac123-86a9-4a69-bb13-a118f2fd42f1
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxNameCacheFinalize, RxNameCacheFinalize function [Installable File System Drivers], ifsk.rxnamecachefinalize, namcache/RxNameCacheFinalize, rxref_34ec3c3b-20b2-425a-8d12-4a2d685ffb2f.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: namcache.h
 req.include-header: Namcache.h

@@ -6,11 +6,8 @@ description: The ISensorClassExtension interface provides methods that the senso
 old-location: sensors\isensorclassextension.htm
 tech.root: sensors
 ms.assetid: db455be3-3aec-47c4-81a8-992aa4926138
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ISensorClassExtension, ISensorClassExtension interface [Sensor Devices], ISensorClassExtension interface [Sensor Devices],described, Sensor_IFaces_84ca9d2b-f0e3-4500-99a4-21054c7dc527.xml, sensors.isensorclassextension, sensorsclassextension/ISensorClassExtension
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: sensorsclassextension.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: A client module's ClientAttachProvider callback function attaches t
 old-location: netvista\clientattachprovider.htm
 tech.root: netvista
 ms.assetid: 8f8abdb1-d018-4404-a80a-74017c324a0f
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: ClientAttachProvider, ClientAttachProvider callback function [Network Drivers Starting with Windows Vista], NPI_CLIENT_ATTACH_PROVIDER_FN, NPI_CLIENT_ATTACH_PROVIDER_FN callback, PNPI_CLIENT_ATTACH_PROVIDER_FN, PNPI_CLIENT_ATTACH_PROVIDER_FN callback function [Network Drivers Starting with Windows Vista], netioddk/ClientAttachProvider, netvista.clientattachprovider, nmrref_36b8ce1f-6570-40a1-b6f9-5d6782aac61d.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: netioddk.h
 req.include-header: Wsk.h
@@ -140,13 +137,13 @@ An error occurred.
 After a client module has registered with the NMR, the NMR calls the client module's 
     <i>ClientAttachProvider</i> callback function, once for each provider module that is registered as a
     provider of the same 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which the client module
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which the client module
     has registered as a client.
 
 The NMR also calls a client module's 
     <i>ClientAttachProvider</i> callback function whenever a new network module registers as a provider of the
     same 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which the client module
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which the client module
     has registered as a client.
 
 A client module can examine the provider module's registration data. This data is in the structure

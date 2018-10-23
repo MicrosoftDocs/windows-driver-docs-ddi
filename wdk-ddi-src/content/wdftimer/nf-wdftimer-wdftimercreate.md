@@ -6,11 +6,8 @@ description: The WdfTimerCreate method creates a framework timer object.
 old-location: wdf\wdftimercreate.htm
 tech.root: wdf
 ms.assetid: 577b7629-13ff-4a2d-9f9f-a140d8442bd3
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFTimerObjectRef_3388a92e-119d-4208-9cf5-2c934435ff25.xml, WdfTimerCreate, WdfTimerCreate method, kmdf.wdftimercreate, wdf.wdftimercreate, wdftimer/WdfTimerCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdftimer.h
 req.include-header: Wdf.h
@@ -164,7 +161,7 @@ After creating a timer object, the driver calls <a href="https://msdn.microsoft.
 
 If your driver provides <a href="https://msdn.microsoft.com/aba2efca-7d1f-4594-af65-13356f0e3f8b">EvtCleanupCallback</a> or <a href="https://msdn.microsoft.com/4c3b08d2-bb25-40bd-b2fc-1b9ea2d452b3">EvtDestroyCallback</a> callback functions for the framework timer object, note that the framework calls these callback functions at IRQL = PASSIVE_LEVEL.
 
-For more information about framework timer objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-timers">Using Timers</a>.
+For more information about framework timer objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-timers">Using Timers</a>.
 
 
 #### Examples

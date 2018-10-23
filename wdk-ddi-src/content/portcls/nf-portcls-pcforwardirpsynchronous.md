@@ -6,11 +6,8 @@ description: The PcForwardIrpSynchronous function is used by IRP handlers to for
 old-location: audio\pcforwardirpsynchronous.htm
 tech.root: audio
 ms.assetid: 29f69d26-6788-4c52-b6a4-ef96991ea238
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: PcForwardIrpSynchronous, PcForwardIrpSynchronous function [Audio Devices], audio.pcforwardirpsynchronous, audpc-routines_9ecb1bfa-c318-424c-8f65-3777136c5f65.xml, portcls/PcForwardIrpSynchronous
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: portcls.h
 req.include-header: Portcls.h

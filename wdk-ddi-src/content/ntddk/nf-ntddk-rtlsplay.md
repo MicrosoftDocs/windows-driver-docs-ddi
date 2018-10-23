@@ -6,11 +6,8 @@ description: The RtlSplay routine rebalances, or &#0034;splays,&#0034; a splay l
 old-location: ifsk\rtlsplay.htm
 tech.root: ifsk
 ms.assetid: b62834ec-6100-429a-b62f-7e30c58b13e5
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlSplay, RtlSplay routine [Installable File System Drivers], ifsk.rtlsplay, ntddk/RtlSplay, rtlref_e44a955e-57eb-46f9-be07-9f658b8fd6db.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h

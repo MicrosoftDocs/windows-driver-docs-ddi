@@ -6,11 +6,8 @@ description: This structure is used to begin transmission.
 old-location: ieee\cip_talk.htm
 tech.root: IEEE
 ms.assetid: DD5EB79D-122B-4D17-9109-37473AC49C4A
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PCIP_TALK, 61883/CIP_TALK, 61883/PCIP_TALK, CIP_TALK, CIP_TALK structure [Buses], IEEE.cip_talk, PCIP_TALK, PCIP_TALK structure pointer [Buses], _CIP_TALK"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 61883.h
 req.include-header: 

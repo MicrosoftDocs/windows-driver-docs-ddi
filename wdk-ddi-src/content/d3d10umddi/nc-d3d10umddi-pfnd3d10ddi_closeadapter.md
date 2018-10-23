@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The CloseAdapter(D3D10) function releases resources for a graphics adapter object.
 old-location: display\closeadapter_d3d10_.htm
 ms.assetid: bc7ccd91-becc-4596-a56a-562cfe9a18b9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CloseAdapter, CloseAdapter callback function [Display Devices], PFND3D10DDI_CLOSEADAPTER, PFND3D10DDI_CLOSEADAPTER callback, UserModeDisplayDriverDx10_Functions_0adac9d0-3334-4bee-86ef-4e1450b1feb0.xml, d3d10umddi/CloseAdapter, display.closeadapter_d3d10_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The pfnCalcPrivateVideoProcessorSize callback function calculates the size of the private video processor.
 old-location: display\pfnd3d12ddi_calcprivatevideoprocessorsize.htm
 ms.assetid: F1ED5176-4F50-44DA-96B3-5E133A236461
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0021, PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0021 callback, d3d12umddi/pfnCalcPrivateVideoProcessorSize, display.pfnd3d12ddi_calcprivatevideoprocessorsize, pfnCalcPrivateVideoProcessorSize, pfnCalcPrivateVideoProcessorSize callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:

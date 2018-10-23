@@ -4,11 +4,8 @@ title: D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002
 author: windows-driver-content
 description: Describes a two-dimensional (2-D) texture that is used to create a shader resource view.
 ms.assetid: bc3135d7-ca2c-4f3d-aafd-87247af0d440
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002, D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002, 
 req.header: d3d12umddi.h
 req.include-header:

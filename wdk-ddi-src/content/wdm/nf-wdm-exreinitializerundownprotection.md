@@ -6,11 +6,8 @@ description: The ExReInitializeRundownProtection routine reinitializes an EX_RUN
 old-location: kernel\exreinitializerundownprotection.htm
 tech.root: kernel
 ms.assetid: 41B7CE15-8702-49C8-9FD0-450DF6E4798C
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExReInitializeRundownProtection, ExReInitializeRundownProtection routine [Kernel-Mode Driver Architecture], kernel.exreinitializerundownprotection, wdm/ExReInitializeRundownProtection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h

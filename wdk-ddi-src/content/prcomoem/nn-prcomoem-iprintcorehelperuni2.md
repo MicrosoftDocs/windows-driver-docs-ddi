@@ -6,11 +6,8 @@ description: The IPrintCoreHelperUni2 interface derives from the IPrintCoreHelpe
 old-location: print\iprintcorehelperuni2_interface.htm
 tech.root: print
 ms.assetid: F7EC4309-1274-4DA1-B006-A716627010F6
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintCoreHelperUni2, IPrintCoreHelperUni2 interface [Print Devices], IPrintCoreHelperUni2 interface [Print Devices],described, prcomoem/IPrintCoreHelperUni2, print.iprintcorehelperuni2_interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: prcomoem.h
 req.include-header: 

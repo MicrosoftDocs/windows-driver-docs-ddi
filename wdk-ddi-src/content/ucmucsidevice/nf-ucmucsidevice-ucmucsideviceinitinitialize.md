@@ -5,8 +5,7 @@ author: windows-driver-content
 tech.root: usbref
 description: Intializes the **WDFDEVICE_INIT** provided by the framework.
 ms.assetid: 83e766bc-b500-44d0-bc15-270d0cb3e31d
-ms.author: windowsdriverdev
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: function
 ms.keywords: UcmUcsiDeviceInitInitialize
 req.header: ucmucsidevice.h
@@ -50,7 +49,7 @@ Intializes the [**WDFDEVICE_INIT**](https://msdn.microsoft.com/library/windows/h
 ## -parameters
 
 ### -param DeviceInit
-A pointer to a framework-allocated [**WDFDEVICE_INIT**](https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/wdfdevice_init) structure.
+A pointer to a framework-allocated [**WDFDEVICE_INIT**](https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init) structure.
 
 ## -returns
 Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropriate [NTSTATUS](https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505) code.

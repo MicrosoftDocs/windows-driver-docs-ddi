@@ -6,11 +6,8 @@ description: The StorPortInitializeSpinLock routine initializes a variable of ty
 old-location: storage\storportinitializespinlock.htm
 tech.root: storage
 ms.assetid: 150B1ED3-572A-4986-BED6-628ED6C54CCF
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortInitializeSpinlock, StorPortInitializeSpinlock routine [Storage Devices], storage.storportinitializespinlock, storport/StorPortInitializeSpinlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

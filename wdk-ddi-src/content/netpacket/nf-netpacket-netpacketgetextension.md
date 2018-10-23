@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NetPacketGetExtension method retrieves information stored in one of a packet's extensions.
 tech.root: netvista
 ms.assetid: 209d7b54-a5f0-435f-84c6-3ba7ac0dec53
-ms.author: windowsdriverdev
 ms.date: 03/02/2018
 ms.topic: function
 ms.keywords: NetPacketGetExtension

@@ -6,11 +6,8 @@ description: The WdfRegistryWdmGetHandle method returns a Windows Driver Model (
 old-location: wdf\wdfregistrywdmgethandle.htm
 tech.root: wdf
 ms.assetid: 60638048-9009-4943-ba61-b724612852df
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFRegKeyObjectRef_9229cd7b-fb26-4e95-a5ee-5deb31f549f4.xml, WdfRegistryWdmGetHandle, WdfRegistryWdmGetHandle method, kmdf.wdfregistrywdmgethandle, wdf.wdfregistrywdmgethandle, wdfregistry/WdfRegistryWdmGetHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfregistry.h
 req.include-header: Wdf.h
@@ -91,7 +88,7 @@ A UMDF driver can pass the returned handle to APIs that require an HKEY, such as
 
 The handle that the <b>WdfRegistryWdmGetHandle</b> method returns is valid until the registry-key object is deleted. If the driver provides an <a href="https://msdn.microsoft.com/aba2efca-7d1f-4594-af65-13356f0e3f8b">EvtCleanupCallback</a> function for the registry-key object, the pointer is valid until the callback function returns.
 
-For more information about registry-key objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
+For more information about registry-key objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
 
 
 #### Examples

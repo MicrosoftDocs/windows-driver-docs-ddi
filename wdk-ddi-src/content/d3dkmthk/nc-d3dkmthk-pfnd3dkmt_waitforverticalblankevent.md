@@ -4,11 +4,8 @@ title: PFND3DKMT_WAITFORVERTICALBLANKEVENT
 author: windows-driver-content
 description: The PFND3DKMT_WAITFORVERTICALBLANKEVENT callback function waits for the vertical blanking interval to occur.
 ms.assetid: 3699ca11-e173-4c40-93bc-28b8048e4306
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3DKMT_WAITFORVERTICALBLANKEVENT callback function waits for the vertical
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_WAITFORVERTICALBLANKEVENT Pfnd3dkmtWaitforverticalblankevent; 

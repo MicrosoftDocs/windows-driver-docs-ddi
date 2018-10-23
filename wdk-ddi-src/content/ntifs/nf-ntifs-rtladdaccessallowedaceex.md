@@ -6,11 +6,8 @@ description: The RtlAddAccessAllowedAceEx routine adds an access-allowed access 
 old-location: ifsk\rtladdaccessallowedaceex.htm
 tech.root: ifsk
 ms.assetid: aeef74d8-d4a5-4ce4-b7f8-e2a2d263a678
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlAddAccessAllowedAceEx, RtlAddAccessAllowedAceEx routine [Installable File System Drivers], ifsk.rtladdaccessallowedaceex, ntifs/RtlAddAccessAllowedAceEx, rtlref_c28640a5-62e2-462a-9c30-b59faedc8386.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
@@ -176,15 +173,15 @@ For more information about security and access control, see the documentation ab
 
 <ul>
 <li>
-<a href="http://go.microsoft.com/fwlink/p/?linkid=140858">Access Control Lists</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=140858">Access Control Lists</a>
 
 </li>
 <li>
-<a href="http://go.microsoft.com/fwlink/p/?linkid=140859">Creating or Modifying an ACL</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=140859">Creating or Modifying an ACL</a>
 
 </li>
 <li>
-<a href="http://go.microsoft.com/fwlink/p/?linkid=140860">Getting Information from an ACL</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=140860">Getting Information from an ACL</a>
 
 </li>
 </ul>

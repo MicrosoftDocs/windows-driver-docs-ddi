@@ -6,11 +6,8 @@ description: The WheaFindNextErrorRecordSection function allows a caller to iter
 old-location: whea\wheafindnexterrorrecordsection.htm
 tech.root: whea
 ms.assetid: 36a0ca45-2601-4b7f-9f2b-35e2a7047520
-ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: WheaFindNextErrorRecordSection, WheaFindNextErrorRecordSection function [WHEA Drivers and Applications], ntddk/WheaFindNextErrorRecordSection, whea.wheafindnexterrorrecordsection, whearef2_9beb5b85-6c25-49e5-9abc-bcb8e343c8c9.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

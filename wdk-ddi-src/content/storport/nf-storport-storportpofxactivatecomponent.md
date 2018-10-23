@@ -6,11 +6,8 @@ description: The StorPortPoFxActivateComponent routine increments the activation
 old-location: storage\storportpofxactivatecomponent.htm
 tech.root: storage
 ms.assetid: 23872334-F9C3-4EB5-9B26-0BDB239D8F4E
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortPoFxActivateComponent, StorPortPoFxActivateComponent routine [Storage Devices], storage.storportpofxactivatecomponent, storport/StorPortPoFxActivateComponent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: 

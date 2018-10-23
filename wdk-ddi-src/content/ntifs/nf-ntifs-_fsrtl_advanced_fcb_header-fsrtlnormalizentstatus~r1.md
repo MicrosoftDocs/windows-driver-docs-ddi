@@ -6,11 +6,8 @@ description: The FsRtlNormalizeNtstatus routine translates an arbitrary exceptio
 old-location: ifsk\fsrtlnormalizentstatus.htm
 tech.root: ifsk
 ms.assetid: ed085787-6731-42b5-9e19-adedbad11a9c
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: FsRtlNormalizeNtstatus, FsRtlNormalizeNtstatus routine [Installable File System Drivers], fsrtlref_f31a9a77-7deb-4919-bfae-874958b15c7f.xml, ifsk.fsrtlnormalizentstatus, ntifs/FsRtlNormalizeNtstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

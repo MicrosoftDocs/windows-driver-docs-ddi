@@ -6,11 +6,8 @@ description: The GetDisassembleEffectiveOffset method returns the address of the
 old-location: debugger\getdisassembleeffectiveoffset.htm
 tech.root: debugger
 ms.assetid: 07f652f2-d370-4f88-a7f0-f6946fd50c79
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetDisassembleEffectiveOffset, GetDisassembleEffectiveOffset method [Windows Debugging], GetDisassembleEffectiveOffset method [Windows Debugging],IDebugControl interface, GetDisassembleEffectiveOffset method [Windows Debugging],IDebugControl2 interface, GetDisassembleEffectiveOffset method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetDisassembleEffectiveOffset method, IDebugControl2 interface [Windows Debugging],GetDisassembleEffectiveOffset method, IDebugControl2.GetDisassembleEffectiveOffset, IDebugControl2::GetDisassembleEffectiveOffset, IDebugControl3 interface [Windows Debugging],GetDisassembleEffectiveOffset method, IDebugControl3::GetDisassembleEffectiveOffset, IDebugControl::GetDisassembleEffectiveOffset, IDebugControl_5593ec3a-31f4-4775-9356-49f1757323c0.xml, dbgeng/IDebugControl2::GetDisassembleEffectiveOffset, dbgeng/IDebugControl3::GetDisassembleEffectiveOffset, dbgeng/IDebugControl::GetDisassembleEffectiveOffset, debugger.getdisassembleeffectiveoffset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

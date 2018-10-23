@@ -4,12 +4,9 @@ title: _D3DKMT_DMMESCAPETYPE
 author: windows-driver-content
 description: DMM (display mode manager) escape type.
 ms.assetid: eb63950b-5d9b-4a4f-ba22-04549e57f886
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DKMT_DMMESCAPETYPE, D3DKMT_DMMESCAPETYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

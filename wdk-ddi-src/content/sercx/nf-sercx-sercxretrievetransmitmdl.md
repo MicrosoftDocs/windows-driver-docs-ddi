@@ -6,11 +6,8 @@ description: The SerCxRetrieveTransmitMdl method retrieves the MDL that describe
 old-location: serports\sercxretrievetransmitmdl.htm
 tech.root: serports
 ms.assetid: C0FF3667-9641-4032-826E-7E297F57CDFA
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 1/SerCxRetrieveTransmitMdl, SerCxRetrieveTransmitMdl, SerCxRetrieveTransmitMdl method [Serial Ports], serports.sercxretrievetransmitmdl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 

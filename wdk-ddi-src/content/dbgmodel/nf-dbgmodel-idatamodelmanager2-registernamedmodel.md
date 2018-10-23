@@ -4,7 +4,6 @@ title: IDataModelManager2::RegisterNamedModel
 author: windows-driver-content
 description: The RegisterNamedModel method registers a given data model under a well known name so that it can be found by clients wishing to extend it.
 ms.assetid: 995a673e-8fee-49e6-896d-efff52b10e4a
-ms.author: windowsdriverdev
 ms.date: 09/11/2018
 ms.topic: method
 ms.keywords: IDataModelManager2::RegisterNamedModel, RegisterNamedModel, IDataModelManager2.RegisterNamedModel, IDataModelManager2::RegisterNamedModel, IDataModelManager2.RegisterNamedModel

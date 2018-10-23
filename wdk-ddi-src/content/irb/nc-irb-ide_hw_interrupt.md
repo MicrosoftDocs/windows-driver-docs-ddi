@@ -6,11 +6,8 @@ description: The IdeHwInterrupt miniport driver routine handles interrupts from 
 old-location: storage\idehwinterrupt.htm
 tech.root: storage
 ms.assetid: a061d993-78fc-45d8-857b-7269c3593847
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IDE_HW_INTERRUPT, IdeHwInterrupt, IdeHwInterrupt routine [Storage Devices], atartns_6568f61d-e6f7-4d16-98ed-72c13aac0fe7.xml, irb/IdeHwInterrupt, storage.idehwinterrupt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: irb.h
 req.include-header: Irb.h
@@ -51,7 +48,7 @@ req.typenames:
 
 
 The <b><i>IdeHwInterrupt</i></b> miniport driver routine handles interrupts from the host bus adapter (HBA) to which the controller for the miniport driver is connected. 
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 

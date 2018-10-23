@@ -6,11 +6,8 @@ description: Converts a value of type ULONGLONG to a value of type INT.
 old-location: kernel\rtlulonglongtoint.htm
 tech.root: kernel
 ms.assetid: C52CB40D-0B3D-4ED9-99FD-464D23481AD3
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlULongLongToInt, RtlULongLongToInt function [Kernel-Mode Driver Architecture], kernel.rtlulonglongtoint, ntintsafe/RtlULongLongToInt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

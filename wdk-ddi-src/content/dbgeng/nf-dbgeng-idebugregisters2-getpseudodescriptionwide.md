@@ -6,11 +6,8 @@ description: The GetPseudoDescriptionWide method returns a description of a pseu
 old-location: debugger\getpseudodescriptionwide.htm
 tech.root: debugger
 ms.assetid: fcf2409a-aedf-4de3-ad17-7edbc810f7be
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetPseudoDescriptionWide, GetPseudoDescriptionWide method [Windows Debugging], GetPseudoDescriptionWide method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetPseudoDescriptionWide method, IDebugRegisters2.GetPseudoDescriptionWide, IDebugRegisters2::GetPseudoDescriptionWide, dbgeng/IDebugRegisters2::GetPseudoDescriptionWide, debugger.getpseudodescriptionwide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: DbgEng.h

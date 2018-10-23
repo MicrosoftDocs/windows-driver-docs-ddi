@@ -6,11 +6,8 @@ description: The NetDmaProviderStart function notifies the NetDMA interface that
 old-location: netvista\netdmaproviderstart.htm
 tech.root: netvista
 ms.assetid: e99ebbe8-8605-4bf2-9ec0-d7cde25058f7
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NetDmaProviderStart, NetDmaProviderStart function [Network Drivers Starting with Windows Vista], netdma/NetDmaProviderStart, netdma_ref_bdb7c400-1c73-4dcb-8eb2-4121172302ad.xml, netvista.netdmaproviderstart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netdma.h
 req.include-header: Netdma.h

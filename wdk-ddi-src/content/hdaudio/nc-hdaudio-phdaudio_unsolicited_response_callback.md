@@ -6,11 +6,8 @@ description: HDAudio codec unsolicited response callback function. PHDAUDIO_UNSO
 old-location: audio\phdaudio_unsolicited_response_callback.htm
 tech.root: audio
 ms.assetid: B98F669D-D0DE-4FF2-903C-D51E0FEEE840
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: HDAudioUnsolicitedResponseCallback, HDAudioUnsolicitedResponseCallback callback function [Audio Devices], PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK, PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK callback, audio.phdaudio_unsolicited_response_callback, hdaudio/HDAudioUnsolicitedResponseCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: hdaudio.h
 req.include-header: 

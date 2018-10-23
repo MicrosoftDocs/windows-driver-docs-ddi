@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Defines the deinterlacing video processor capabilities.
 old-location: display\d3d12ddi_video_process_deinterlace_flags.htm
 ms.assetid: 7E34CCE5-A771-4EBE-A09B-79424405BFF3
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS_0020, D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS_0020 enumeration [Display Devices], D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAG_0020_BOB, D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAG_0020_CUSTOM, D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAG_0020_NONE, d3d12umddi/D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS_0020, d3d12umddi/D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAG_0020_BOB, d3d12umddi/D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAG_0020_CUSTOM, d3d12umddi/D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAG_0020_NONE, display.d3d12ddi_video_process_deinterlace_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h

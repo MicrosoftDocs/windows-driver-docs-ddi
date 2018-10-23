@@ -6,11 +6,8 @@ description: The DXGK_WIN32K_PARAM_DATA structure is reserved for system use.
 old-location: display\dxgk_win32k_param_data.htm
 tech.root: display
 ms.assetid: a6bb2127-64f7-402d-906e-199d5ec1b313
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*PDXGK_WIN32K_PARAM_DATA, DXGK_WIN32K_PARAM_DATA, DXGK_WIN32K_PARAM_DATA structure [Display Devices], PDXGK_WIN32K_PARAM_DATA, PDXGK_WIN32K_PARAM_DATA structure pointer [Display Devices], Video_Structs_40ff171a-ad28-44ae-bcad-bf93aba4ad6e.xml, _DXGK_WIN32K_PARAM_DATA, display.dxgk_win32k_param_data, ntddvdeo/DXGK_WIN32K_PARAM_DATA, ntddvdeo/PDXGK_WIN32K_PARAM_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddvdeo.h
 req.include-header: Ntddvdeo.h

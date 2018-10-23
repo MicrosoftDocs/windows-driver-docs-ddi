@@ -4,11 +4,8 @@ title: PFND3DKMT_UPDATETRACKEDWORKLOAD
 author: windows-driver-content
 description: Updates the tracked workload.
 ms.assetid: db657857-c080-4938-8c87-883bc28cd96a
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Updates the tracked workload.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_UPDATETRACKEDWORKLOAD Pfnd3dkmtUpdatetrackedworkload; 

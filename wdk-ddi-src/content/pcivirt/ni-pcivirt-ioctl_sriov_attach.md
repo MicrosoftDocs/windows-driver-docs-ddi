@@ -6,11 +6,8 @@ description: The request indicates that the virtualization stack wants to regist
 old-location: pci\ioctl-sriov-attach.htm
 tech.root: PCI
 ms.assetid: c1129d60-eeb0-4c90-b181-365f3379d89e
-ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: IOCTL_SRIOV_ATTACH, IOCTL_SRIOV_ATTACH control code [Buses], PCI.ioctl-sriov-attach, pcivirt/IOCTL_SRIOV_ATTACH
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: pcivirt.h
 req.include-header:

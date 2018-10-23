@@ -6,11 +6,8 @@ description: The PCI_EXPRESS_AER_CAPABILITIES structure describes a PCI Express 
 old-location: pci\pci_express_aer_capabilities.htm
 tech.root: PCI
 ms.assetid: 7cb25991-4e82-4da2-9d1f-fadc035b25a3
-ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: "*PPCI_EXPRESS_AER_CAPABILITIES, PCI.pci_express_aer_capabilities, PCI_EXPRESS_AER_CAPABILITIES, PCI_EXPRESS_AER_CAPABILITIES union [Buses], PPCI_EXPRESS_AER_CAPABILITIES, PPCI_EXPRESS_AER_CAPABILITIES union pointer [Buses], _PCI_EXPRESS_AER_CAPABILITIES, pci_struct_e316ea91-d32a-4726-ba80-8fc6bd8e3163.xml, wdm/PCI_EXPRESS_AER_CAPABILITIES, wdm/PPCI_EXPRESS_AER_CAPABILITIES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
 req.include-header: Ntddk.h, Wdm.h, Miniport.h
@@ -57,7 +54,7 @@ The PCI_EXPRESS_AER_CAPABILITIES structure describes a PCI Express (PCIe) advanc
 ## -syntax
 
 
-````
+```cpp
 typedef union _PCI_EXPRESS_AER_CAPABILITIES {
   struct {
     ULONG FirstErrorPointer  :5;
@@ -69,7 +66,7 @@ typedef union _PCI_EXPRESS_AER_CAPABILITIES {
   };
   ULONG  AsULONG;
 } PCI_EXPRESS_AER_CAPABILITIES, *PPCI_EXPRESS_AER_CAPABILITIES;
-````
+```
 
 
 ## -struct-fields

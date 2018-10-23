@@ -6,11 +6,8 @@ description: The NFC_CX_RF_DISCOVERY_CONFIG_INIT function initializes the NFC_CX
 old-location: nfpdrivers\nfc_cx_rf_discovery_config_init.htm
 tech.root: nfpdrivers
 ms.assetid: C8A6A286-8F62-4A55-9AED-263317088706
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: NFC_CX_RF_DISCOVERY_CONFIG_INIT, NFC_CX_RF_DISCOVERY_CONFIG_INIT function [Near-Field Proximity Drivers], nfccx/NFC_CX_RF_DISCOVERY_CONFIG_INIT, nfpdrivers.nfc_cx_rf_discovery_config_init
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: nfccx.h
 req.include-header: Ncidef.h
@@ -82,7 +79,7 @@ This function does not return a value.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
  
 
  

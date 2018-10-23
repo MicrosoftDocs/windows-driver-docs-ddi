@@ -6,11 +6,8 @@ description: Creates a handle to an allocator for the given sink connection hand
 old-location: stream\kscreateallocator2.htm
 tech.root: stream
 ms.assetid: f0efa17c-9318-46a4-bc08-d4d372cc07ba
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsCreateAllocator2, KsCreateAllocator2 function [Streaming Media Devices], ks/KsCreateAllocator2, stream.kscreateallocator2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

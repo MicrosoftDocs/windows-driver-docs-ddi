@@ -6,11 +6,8 @@ description: The TmRollbackComplete routine notifies KTM that the calling resour
 old-location: kernel\tmrollbackcomplete.htm
 tech.root: kernel
 ms.assetid: 626bae87-8e5c-4d2a-8942-bddb2f6baa6b
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: TmRollbackComplete, TmRollbackComplete routine [Kernel-Mode Driver Architecture], kernel.tmrollbackcomplete, ktm_ref_57ef03c4-5d49-4871-a1ef-c6083c9680a8.xml, wdm/TmRollbackComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

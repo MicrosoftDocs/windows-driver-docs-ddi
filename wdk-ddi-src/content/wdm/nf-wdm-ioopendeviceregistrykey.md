@@ -6,11 +6,8 @@ description: The IoOpenDeviceRegistryKey routine returns a handle to a device-sp
 old-location: kernel\ioopendeviceregistrykey.htm
 tech.root: kernel
 ms.assetid: c3b67c73-446b-42a8-bc41-2ca42fde3513
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoOpenDeviceRegistryKey, IoOpenDeviceRegistryKey routine [Kernel-Mode Driver Architecture], k104_7b6ab819-56e3-4d4a-956a-51e4a83300f0.xml, kernel.ioopendeviceregistrykey, wdm/IoOpenDeviceRegistryKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
@@ -75,7 +72,7 @@ The flags are defined as follows:
 
 #### PLUGPLAY_REGKEY_DEVICE
 
-Open the <b>Device Parameters</b> subkey under the device's hardware key (see [HKLM\SYSTEM\CurrentControlSet\Enum Registry Tree](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/hklm-system-currentcontrolset-enum-registry-tree)), a device-specific registry subkey that contains information about the device. The key is located under the key for the device instance specified by *DeviceObject*. This flag cannot be specified with PLUGPLAY_REGKEY_DRIVER.
+Open the <b>Device Parameters</b> subkey under the device's hardware key (see [HKLM\SYSTEM\CurrentControlSet\Enum Registry Tree](https://docs.microsoft.com/windows-hardware/drivers/install/hklm-system-currentcontrolset-enum-registry-tree)), a device-specific registry subkey that contains information about the device. The key is located under the key for the device instance specified by *DeviceObject*. This flag cannot be specified with PLUGPLAY_REGKEY_DRIVER.
 
 
 
@@ -85,11 +82,11 @@ Open the <b>Device Parameters</b> subkey under the device's hardware key (see [H
 
 Open a *software key* for storing driver-specific information. This flag cannot be specified with PLUGPLAY_REGKEY_DEVICE.
 
-A driver's software key is also called its *driver key* because the registry contains a software key for each driver. The registry contains a list of all of the device classes, and each driver's software key resides under its device class entry. The system stores information about each driver under its software key. For more information about software keys, see [The HKLM\SYSTEM\CurrentControlSet\Control Tree](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/hklm-system-currentcontrolset-control-registry-tree).
+A driver's software key is also called its *driver key* because the registry contains a software key for each driver. The registry contains a list of all of the device classes, and each driver's software key resides under its device class entry. The system stores information about each driver under its software key. For more information about software keys, see [The HKLM\SYSTEM\CurrentControlSet\Control Tree](https://docs.microsoft.com/windows-hardware/drivers/install/hklm-system-currentcontrolset-control-registry-tree).
 
 #### PLUGPLAY_REGKEY_CURRENT_HWPROFILE
 
-Open a key relative to the current hardware profile for device or driver information. This allows the driver to access configuration information that is hardware-profile-specific. The caller must specify either PLUGPLAY_REGKEY_DEVICE or PLUGPLAY_REGKEY_DRIVER with this flag. For more information, see [HKLM\SYSTEM\CurrentControlSet\HardwareProfiles Registry Tree](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/hklm-system-currentcontrolset-hardwareprofiles-registry-tree).
+Open a key relative to the current hardware profile for device or driver information. This allows the driver to access configuration information that is hardware-profile-specific. The caller must specify either PLUGPLAY_REGKEY_DEVICE or PLUGPLAY_REGKEY_DRIVER with this flag. For more information, see [HKLM\SYSTEM\CurrentControlSet\HardwareProfiles Registry Tree](https://docs.microsoft.com/windows-hardware/drivers/install/hklm-system-currentcontrolset-hardwareprofiles-registry-tree).
 
 
 ### -param DesiredAccess [in]
@@ -149,7 +146,7 @@ The registry keys opened by this routine are nonvolatile.
 
 User-mode setup applications can access these registry keys by using [device installation functions](https://docs.microsoft.com/windows-hardware/drivers/install/using-device-installation-functions) such as [SetupDiOpenDevRegKey](https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiopendevregkey). An example of a user-mode setup applications would be a class installer, a Win32 DLL that performs installation operations for devices in a particular [Device Setup Class](https://docs.microsoft.com/windows-hardware/drivers/install/overview-of-device-setup-classes).
 
-To create registry keys, use <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/inf-addreg-directive">INF AddReg directives</a> in an INF file or use [SetupDiCreateDevRegKey](https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedevregkeya) in a setup application.
+To create registry keys, use <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-addreg-directive">INF AddReg directives</a> in an INF file or use [SetupDiCreateDevRegKey](https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedevregkeya) in a setup application.
 
 Callers of **IoOpenDeviceRegistryKey** must be running at IRQL = PASSIVE_LEVEL in the context of a system thread. 
 

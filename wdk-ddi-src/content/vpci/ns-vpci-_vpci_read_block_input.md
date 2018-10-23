@@ -6,11 +6,8 @@ description: The VPCI_READ_BLOCK_INPUT structure is used in an IOCTL_VPCI_READ_B
 old-location: kernel\vpci_read_block_input.htm
 tech.root: pci
 ms.assetid: d8d68231-017a-42fc-ad09-8e7f5cc743d3
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PVPCI_READ_BLOCK_INPUT, PVPCI_READ_BLOCK_INPUT, PVPCI_READ_BLOCK_INPUT structure pointer [Kernel-Mode Driver Architecture], VPCI_READ_BLOCK_INPUT, VPCI_READ_BLOCK_INPUT structure [Kernel-Mode Driver Architecture], _VPCI_READ_BLOCK_INPUT, kernel.vpci_read_block_input, vpci/PVPCI_READ_BLOCK_INPUT, vpci/VPCI_READ_BLOCK_INPUT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: vpci.h
 req.include-header: Vpci.h

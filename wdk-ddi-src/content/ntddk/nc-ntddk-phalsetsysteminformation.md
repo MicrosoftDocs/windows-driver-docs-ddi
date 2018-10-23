@@ -4,11 +4,8 @@ title: pHalSetSystemInformation
 author: windows-driver-content
 description: Register MCA driver with the HAL. 
 ms.assetid: fb9491a9-7fbe-4a7f-9794-06d5020540ef
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: ntddk.h
 req.include-header:
 req.target-type: Desktop
@@ -47,7 +44,7 @@ Register MCA driver with the HAL.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 pHalSetSystemInformation Phalsetsysteminformation; 
@@ -78,7 +75,7 @@ pHalSetSystemInformation
 ### -param Buffer
 [out] A pointer to a caller-supplied buffer of type MCA_DRIVER_INFO, which is defined as follows.
 
-```
+```cpp
 typedef struct _MCA_DRIVER_INFO {
   PDRIVER_EXCPTN_CALLBACK  ExceptionCallback; // NULL for Itanium corrected error registration
   PKDEFERRED_ROUTINE  DpcCallback;
@@ -103,6 +100,6 @@ Returns STATUS_SUCCESS if the registration is successful.
 
 HalSetSystemInformation must be called before an MCA driver can use any of the other interface routines. Only one MCA driver can be registered with the HAL at any given time.
 
-> Windows Vista and later versions of Windows do not support the type of Machine Check Architecture (MCA) and Machine Check Exception (MCE) reporting that is described in this topic. MCA and MCE reporting are supported through  [Windows Hardware Error Architecture (WHEA)](https://msdn.microsoft.com/en-us/library/Ff559509) instead.
+> Windows Vista and later versions of Windows do not support the type of Machine Check Architecture (MCA) and Machine Check Exception (MCE) reporting that is described in this topic. MCA and MCE reporting are supported through  [Windows Hardware Error Architecture (WHEA)](https://msdn.microsoft.com/library/Ff559509) instead.
 
 ## -see-also

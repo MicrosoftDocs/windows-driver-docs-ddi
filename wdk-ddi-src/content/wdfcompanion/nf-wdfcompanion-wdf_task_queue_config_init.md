@@ -6,11 +6,8 @@ description: For internal use only.
 old-location: wdf\wdf_task_queue_config_init.htm
 tech.root: wdf
 ms.assetid: 51c43509-074c-4118-afe5-2e568d733751
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WDF_TASK_QUEUE_CONFIG_INIT, WDF_TASK_QUEUE_CONFIG_INIT method, wdf.wdf_task_queue_config_init, wdfcompanion/WDF_TASK_QUEUE_CONFIG_INIT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfcompanion.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: Describes the detected port type and attach action.
 old-location: buses\usbfn_on_attach.htm
 tech.root: usbref
 ms.assetid: 2CD75FA9-F77E-4AC5-870E-69CF05DB9312
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSBFN_ON_ATTACH, PUSBFN_ON_ATTACH, PUSBFN_ON_ATTACH structure pointer [Buses], USBFN_ON_ATTACH, USBFN_ON_ATTACH structure [Buses], _USBFN_ON_ATTACH, buses.usbfn_on_attach, usbfnattach/PUSBFN_ON_ATTACH, usbfnattach/USBFN_ON_ATTACH"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: usbfnattach.h
 req.include-header: 

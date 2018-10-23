@@ -6,11 +6,8 @@ description: The QueryPowerChangeState method is called by PortCls in response t
 old-location: audio\iadapterpowermanagement_querypowerchangestate.htm
 tech.root: audio
 ms.assetid: 32cd29c3-e8da-4119-84a4-3ce4daed528e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IAdapterPowerManagement interface [Audio Devices],QueryPowerChangeState method, IAdapterPowerManagement.QueryPowerChangeState, IAdapterPowerManagement::QueryPowerChangeState, QueryPowerChangeState, QueryPowerChangeState method [Audio Devices], QueryPowerChangeState method [Audio Devices],IAdapterPowerManagement interface, audio.iadapterpowermanagement_querypowerchangestate, audmp-routines_4a5ebdca-faa4-4f99-89d1-6c86a928243c.xml, portcls/IAdapterPowerManagement::QueryPowerChangeState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: Portcls.h

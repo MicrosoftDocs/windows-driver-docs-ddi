@@ -6,11 +6,8 @@ description: The KsGetImageNameAndResourceId function returns the image name and
 old-location: stream\ksgetimagenameandresourceid.htm
 tech.root: stream
 ms.assetid: e73c885c-94e2-42cf-ace6-1b7b62aa33f5
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsGetImageNameAndResourceId, KsGetImageNameAndResourceId function [Streaming Media Devices], ks/KsGetImageNameAndResourceId, ksfunc_b4a55bde-4bbb-494e-969c-924547251e1d.xml, stream.ksgetimagenameandresourceid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

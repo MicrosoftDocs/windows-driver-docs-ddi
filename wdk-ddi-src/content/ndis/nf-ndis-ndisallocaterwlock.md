@@ -6,11 +6,8 @@ description: The NdisAllocateRWLock function allocates a read/write lock variabl
 old-location: netvista\ndisallocaterwlock.htm
 tech.root: netvista
 ms.assetid: 460c81bf-ae06-40f7-a019-b006e5c9f94b
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisAllocateRWLock, NdisAllocateRWLock function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateRWLock, ndis_processor_group_ref_7df54f29-88d4-4596-9649-8af7b84f6d7e.xml, netvista.ndisallocaterwlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

@@ -6,11 +6,8 @@ description: The NET_BUFFER_LIST_CONTEXT structure stores context information fo
 old-location: netvista\net_buffer_list_context.htm
 tech.root: netvista
 ms.assetid: e5d70be6-daa5-4d2e-94fd-5739edd8821e
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNET_BUFFER_LIST_CONTEXT, NET_BUFFER_LIST_CONTEXT, NET_BUFFER_LIST_CONTEXT structure [Network Drivers Starting with Windows Vista], PNET_BUFFER_LIST_CONTEXT, PNET_BUFFER_LIST_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_LIST_CONTEXT, ndis/NET_BUFFER_LIST_CONTEXT, ndis/PNET_BUFFER_LIST_CONTEXT, ndis_netbuf_structures_ref_8f7ae065-a4d5-4fc9-92f1-36e25e19bac2.xml, netvista.net_buffer_list_context"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -115,14 +112,14 @@ Drivers should use the following NDIS macros and functions to access and manipul
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568391">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568391">
        NET_BUFFER_LIST_CONTEXT_DATA_START</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568390">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568390">
        NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
 
 
@@ -156,9 +153,9 @@ NDIS drivers call the
     NdisFreeNetBufferListContext</a> function to free the buffer space.
 
 Use the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568390">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568390">
     NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a> macro to obtain the size of the used context space. Use the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568391">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568391">
     NET_BUFFER_LIST_CONTEXT_DATA_START</a> macro to get the starting address of the used context space.
 
 For more information on how to use net buffers, see 
@@ -180,12 +177,12 @@ For more information on how to use net buffers, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568390">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568390">
    NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568391">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568391">
    NET_BUFFER_LIST_CONTEXT_DATA_START</a>
 
 

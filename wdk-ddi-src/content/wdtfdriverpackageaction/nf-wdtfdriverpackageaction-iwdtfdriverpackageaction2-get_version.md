@@ -6,11 +6,8 @@ description: Gets the driver package version.
 old-location: dtf\iwdtfdriverpackageaction2_version.htm
 tech.root: dtf
 ms.assetid: be94306f-42b8-487f-9c0e-0efd3170c75c
-ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],Version property, IWDTFDriverPackageAction2.Version, IWDTFDriverPackageAction2.get_Version, IWDTFDriverPackageAction2::Version, IWDTFDriverPackageAction2::get_Version, Microsoft.WDTF.IWDTFDriverPackageAction2.Version, Microsoft::WDTF::IWDTFDriverPackageAction2::Version, Version property [Windows Device Testing Framework], Version property [Windows Device Testing Framework],IWDTFDriverPackageAction2 interface, dtf.iwdtfdriverpackageaction2_version, get_Version, wdtfdriverpackageaction/IWDTFDriverPackageAction2::Version, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_Version
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtfdriverpackageaction.h
 req.include-header: 

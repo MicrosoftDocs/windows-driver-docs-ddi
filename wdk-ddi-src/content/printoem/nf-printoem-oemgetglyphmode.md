@@ -6,11 +6,8 @@ description: The OEMGetGlyphMode function informs the GDI how to cache glyph inf
 old-location: print\oemgetglyphmode.htm
 tech.root: print
 ms.assetid: 350fe500-997b-48bb-90e2-04f39a7de3d2
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: OEMGetGlyphMode, OEMGetGlyphMode function [Print Devices], print.oemgetglyphmode, print_unidrv-pscript_rendering_b5456727-fde5-4e4a-ae76-a5f571232325.xml, printoem/OEMGetGlyphMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: printoem.h
 req.include-header: Printoem.h
