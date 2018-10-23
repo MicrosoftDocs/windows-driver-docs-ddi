@@ -62,7 +62,7 @@ A POHANDLE value that identifies the processor. The PEP received this handle in 
 
 ### -field PowerControlCode
 
-[in] A pointer to a <a href="http://msdn.microsoft.com/library/windows/desktop/aa373931(v=vs.85).aspx">GUID</a> value that specifies the power control operation to perform.
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/desktop/aa373931(v=vs.85).aspx">GUID</a> value that specifies the power control operation to perform.
 
 
 ### -field RequestContext
@@ -106,7 +106,7 @@ The PEP issues a power control request from a worker thread. The Windows <a href
 
 
 
-<a href="http://msdn.microsoft.com/library/windows/desktop/aa373931(v=vs.85).aspx">GUID</a>
+<a href="https://msdn.microsoft.com/library/windows/desktop/aa373931(v=vs.85).aspx">GUID</a>
 
 
 

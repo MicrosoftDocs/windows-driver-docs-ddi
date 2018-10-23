@@ -83,7 +83,7 @@ This method is supported in Windows 7 and later. It is not supported in versions
 
 
 
-<a href="http://msdn.microsoft.com/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
+<a href="https://msdn.microsoft.com/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
 
 
 

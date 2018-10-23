@@ -103,7 +103,7 @@ Periodically called by the WIA mini-driver during a data transfer, to update the
 
 
 
-<a href="http://msdn.microsoft.com/windows/hardware/gg463512">Introduction to WIA 2.0</a>
+<a href="https://msdn.microsoft.com/windows/hardware/gg463512">Introduction to WIA 2.0</a>
  
 
  

@@ -91,7 +91,7 @@ An indirect string identifying the human readable friendly name of the paired HF
 
 
 
-The HFP driver calculates the <i>InputPinCategory</i> and <i>OutputPinCategory</i> GUIDs based on the 'Bluetooth Class of Device' data that is contained in the SDP information of the paired device. The audio driver sets the <a href="http://msdn.microsoft.com/library/windows/hardware/ff563533(v=vs.85).aspx">KSPIN_DESCRIPTOR.Category</a> members for the input and output bridge pins to the calculated GUIDs.
+The HFP driver calculates the <i>InputPinCategory</i> and <i>OutputPinCategory</i> GUIDs based on the 'Bluetooth Class of Device' data that is contained in the SDP information of the paired device. The audio driver sets the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563533(v=vs.85).aspx">KSPIN_DESCRIPTOR.Category</a> members for the input and output bridge pins to the calculated GUIDs.
 
 <div class="alert"><b>Note</b>  <p class="note">In some cases the input and output pin categories may be the same.
 
@@ -131,7 +131,7 @@ For information about the IOCTLs that work with this structure, see <a href="htt
 
 
 
-<a href="http://msdn.microsoft.com/library/windows/hardware/ff563533(v=vs.85).aspx">KSPIN_DESCRIPTOR.Category</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563533(v=vs.85).aspx">KSPIN_DESCRIPTOR.Category</a>
 
 
 

@@ -67,7 +67,7 @@ Specifies the requested size, in bytes, of the audio buffer.
 
 ### -param AudioBufferMdl [out]
 
-Output pointer for a memory descriptor list (<a href="http://msdn.microsoft.com/library/windows/hardware/ff554414(v=vs.85).aspx">MDL</a>) that describes the audio buffer. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the MDL.
+Output pointer for a memory descriptor list (<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414(v=vs.85).aspx">MDL</a>) that describes the audio buffer. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the MDL.
 
 
 ### -param ActualSize [out]
@@ -82,7 +82,7 @@ Output pointer for the offset (in bytes) of the buffer, from the start of the fi
 
 ### -param CacheType [out]
 
-Specifies the type of caching that the client requests for the audio buffer. This parameter is a <a href="http://msdn.microsoft.com/library/windows/hardware/ff554430(v=vs.85).aspx">MEMORY_CACHING_TYPE</a> enumeration value
+Specifies the type of caching that the client requests for the audio buffer. This parameter is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554430(v=vs.85).aspx">MEMORY_CACHING_TYPE</a> enumeration value
 
 
 ## -returns
@@ -163,11 +163,11 @@ After receiving a <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 
 
-<a href="http://msdn.microsoft.com/library/windows/hardware/ff554414(v=vs.85).aspx">MDL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414(v=vs.85).aspx">MDL</a>
 
 
 
-<a href="http://msdn.microsoft.com/library/windows/hardware/ff554430(v=vs.85).aspx">MEMORY_CACHING_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554430(v=vs.85).aspx">MEMORY_CACHING_TYPE</a>
  
 
  
