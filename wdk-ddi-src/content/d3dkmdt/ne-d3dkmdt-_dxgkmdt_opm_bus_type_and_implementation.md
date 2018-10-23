@@ -62,17 +62,17 @@ Indicates that the graphics adapter does not communicate with the north bridge b
 
 ### -field DXGKMDT_OPM_BUS_TYPE_PCI
 
-Indicates that the PCI bus is used to transfer data from a computer's main memory to the graphics adapter. For information about the PCI bus, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=71290">PCI Local Bus Specification</a>. 
+Indicates that the PCI bus is used to transfer data from a computer's main memory to the graphics adapter. For information about the PCI bus, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=71290">PCI Local Bus Specification</a>. 
 
 
 ### -field DXGKMDT_OPM_BUS_TYPE_PCIX
 
-Indicates that the PCI-X bus is used to transfer data from a computer's main memory to the graphics adapter. For information about PCI-X, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=71293">PCI-X Specification</a>. 
+Indicates that the PCI-X bus is used to transfer data from a computer's main memory to the graphics adapter. For information about PCI-X, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=71293">PCI-X Specification</a>. 
 
 
 ### -field DXGKMDT_OPM_BUS_TYPE_PCIEXPRESS
 
-Indicates that the PCI Express bus is used to transfer data from a computer's main memory to the graphics adapter. For information about PCI Express, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=69486">PCI Express Specification</a>. 
+Indicates that the PCI Express bus is used to transfer data from a computer's main memory to the graphics adapter. For information about PCI Express, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=69486">PCI Express Specification</a>. 
 
 
 ### -field DXGKMDT_OPM_BUS_TYPE_AGP

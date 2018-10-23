@@ -79,7 +79,7 @@ The
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff536642">BTH_DEVICE_INFO_LIST</a> structure. The 
       <b>numOfDevices</b> member of the BTH_DEVICE_INFO_LIST structure contains the number of devices for
       which there is information and an array of 
-      <a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structures; one array
+      <a href="https://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structures; one array
       entry for each device.
 
 
@@ -185,7 +185,7 @@ The BTH_DEVICE_INFO_LIST structure includes storage for the first BTH_DEVICE_INF
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
 
 
 

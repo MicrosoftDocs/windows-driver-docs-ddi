@@ -171,7 +171,7 @@ NETWORK_OPEN_ECP_IN_FLAG_DISABLE_HANDLE_DURABILITY
 
 </td>
 <td>
-This flag causes the SMB2 redirector to disable durability on this open handle. For more information about opening a file for durable operation, see <a href="http://go.microsoft.com/fwlink/p/?linkid=160861">Application Requests Creating a File Opened for Durable Operation</a>.
+This flag causes the SMB2 redirector to disable durability on this open handle. For more information about opening a file for durable operation, see <a href="https://go.microsoft.com/fwlink/p/?linkid=160861">Application Requests Creating a File Opened for Durable Operation</a>.
 
 </td>
 </tr>
@@ -261,7 +261,7 @@ NETWORK_OPEN_ECP_IN_FLAG_DISABLE_HANDLE_DURABILITY
 
 </td>
 <td>
-This flag causes the SMB2 redirector to disable durability on this open handle. For more information about opening a file for durable operation, see <a href="http://go.microsoft.com/fwlink/p/?linkid=160861">Application Requests Creating a File Opened for Durable Operation</a>.
+This flag causes the SMB2 redirector to disable durability on this open handle. For more information about opening a file for durable operation, see <a href="https://go.microsoft.com/fwlink/p/?linkid=160861">Application Requests Creating a File Opened for Durable Operation</a>.
 
 </td>
 </tr>

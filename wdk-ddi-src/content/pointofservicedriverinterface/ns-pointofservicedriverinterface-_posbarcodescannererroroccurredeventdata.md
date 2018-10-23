@@ -62,7 +62,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn772232">PosEv
 
 ### -field IsRetriable
 
-Indicates whether <a href="http://go.microsoft.com/fwlink/p/?LinkId=314125">ReadFile</a> can be called again to read this event
+Indicates whether <a href="https://go.microsoft.com/fwlink/p/?LinkId=314125">ReadFile</a> can be called again to read this event
 
 
 ### -field Severity

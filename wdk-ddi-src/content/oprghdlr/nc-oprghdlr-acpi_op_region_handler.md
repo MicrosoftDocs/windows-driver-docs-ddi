@@ -183,7 +183,7 @@ For more information about operation region handlers, see <a href="https://msdn.
 
 An ACPI_OP_REGION_HANDLER-typed routine runs at the caller's IRQL.
 
-For detailed information about constraints on operation regions, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=57185">Advanced Configuration and Power Interface (ACPI) Specification</a>.
+For detailed information about constraints on operation regions, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=57185">Advanced Configuration and Power Interface (ACPI) Specification</a>.
 
 
 

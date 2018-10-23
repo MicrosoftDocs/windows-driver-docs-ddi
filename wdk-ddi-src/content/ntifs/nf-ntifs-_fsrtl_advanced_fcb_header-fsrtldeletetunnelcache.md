@@ -77,7 +77,7 @@ None
 
 Callers are responsible for synchronizing access to the <b>FsRtlDeleteTunnelCache</b> call. In other words, a file system must ensure that it does not call <b>FsRtlDeleteTunnelCache</b> at the same time it is calling another tunnel cache routine from a different thread. 
 
-For more information about file name tunneling, see <a href="http://go.microsoft.com/fwlink/p/?linkid=3100&amp;id=172190">Microsoft Knowledge Base Article 172190</a>.
+For more information about file name tunneling, see <a href="https://go.microsoft.com/fwlink/p/?linkid=3100&amp;id=172190">Microsoft Knowledge Base Article 172190</a>.
 
 
 

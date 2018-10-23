@@ -67,5 +67,5 @@ Indicates the <a href="https://msdn.microsoft.com/library/windows/hardware/dn772
 
 ### -field RecommendedBufferSize
 
-Indicates the size of the buffer that needs to be allocated to receive event data when calling <a href="http://go.microsoft.com/fwlink/p/?LinkId=314125">ReadFile</a> to retrieve events for this device
+Indicates the size of the buffer that needs to be allocated to receive event data when calling <a href="https://go.microsoft.com/fwlink/p/?LinkId=314125">ReadFile</a> to retrieve events for this device
 

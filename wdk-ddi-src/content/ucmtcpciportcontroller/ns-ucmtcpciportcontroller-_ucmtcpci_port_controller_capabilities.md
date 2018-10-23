@@ -68,7 +68,7 @@ Contains information about the capabilities of the port controller.
 ### -field IsPowerDeliveryCapable
 
 
-                     Indicates whether the port controller supports <a href="http://go.microsoft.com/fwlink/p/?LinkID=623310">USB Power Delivery</a>.
+                     Indicates whether the port controller supports <a href="https://go.microsoft.com/fwlink/p/?LinkID=623310">USB Power Delivery</a>.
 
 
 ### -field DeviceCapabilities1

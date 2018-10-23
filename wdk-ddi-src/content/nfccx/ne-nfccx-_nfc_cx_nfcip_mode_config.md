@@ -88,7 +88,7 @@ The NFC_CX_NFCIP_MODE_CONFIG enumeration specifies the NFC-IP initiator mode.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
  
 
  

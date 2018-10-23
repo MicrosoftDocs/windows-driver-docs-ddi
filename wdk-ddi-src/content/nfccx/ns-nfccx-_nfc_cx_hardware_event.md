@@ -75,7 +75,7 @@ An <a href="https://msdn.microsoft.com/library/windows/hardware/dn905544">NFC_CX
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
  
 
  

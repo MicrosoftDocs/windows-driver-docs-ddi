@@ -148,7 +148,7 @@ This function might also return other error codes that are defined in Ntstatus.h
 
 
 
-<i>DxgkDdiOPMGetCertificateSize</i> can retrieve the size of the display miniport driver's OPM certificate, User Accessible Bus (UAB) certificate, or Certified Output Protection Protocol (COPP) certificate. For information about these certificates, download the Output Content Protection document from the <a href="http://go.microsoft.com/fwlink/p/?linkid=204788">Output Content Protection and Windows Vista</a> website.
+<i>DxgkDdiOPMGetCertificateSize</i> can retrieve the size of the display miniport driver's OPM certificate, User Accessible Bus (UAB) certificate, or Certified Output Protection Protocol (COPP) certificate. For information about these certificates, download the Output Content Protection document from the <a href="https://go.microsoft.com/fwlink/p/?linkid=204788">Output Content Protection and Windows Vista</a> website.
 
 <i>DxgkDdiOPMGetCertificateSize</i> should be made pageable.
 

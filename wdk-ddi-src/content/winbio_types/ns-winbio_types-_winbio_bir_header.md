@@ -155,7 +155,7 @@ A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware
 
 
 
-You can find more information about the fields of the standard biometric header in the <a href="http://go.microsoft.com/fwlink/p/?linkid=133328">NISTIR 6529-A Specification</a>.
+You can find more information about the fields of the standard biometric header in the <a href="https://go.microsoft.com/fwlink/p/?linkid=133328">NISTIR 6529-A Specification</a>.
 
 
 

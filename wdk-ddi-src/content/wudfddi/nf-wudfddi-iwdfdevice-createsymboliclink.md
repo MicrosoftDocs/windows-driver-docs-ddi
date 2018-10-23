@@ -78,7 +78,7 @@ A pointer to a <b>NULL</b>-terminated string that contains the name of the symbo
 
         A symbolic link is a file-system object that points to another file-system object. The object being pointed to is called the target.
 
-For an example usage of this method, see the <a href="http://go.microsoft.com/fwlink/p/?LinkId=617963">VirtualSerial</a> driver sample.
+For an example usage of this method, see the <a href="https://go.microsoft.com/fwlink/p/?LinkId=617963">VirtualSerial</a> driver sample.
 
 
 

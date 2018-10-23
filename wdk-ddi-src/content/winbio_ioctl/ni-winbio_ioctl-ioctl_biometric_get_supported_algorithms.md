@@ -162,7 +162,7 @@ Any other failure that prevents the payload from being filled in.
 
 
 
-The algorithms are specified by using NULL-terminated UTF-8 encoded strings.  The algorithm identifier "OID" strings are defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=133011">RFC 3279 </a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=133012">RFC 3278 </a><u>.</u>
+The algorithms are specified by using NULL-terminated UTF-8 encoded strings.  The algorithm identifier "OID" strings are defined in <a href="https://go.microsoft.com/fwlink/p/?linkid=133011">RFC 3279 </a> and <a href="https://go.microsoft.com/fwlink/p/?linkid=133012">RFC 3278 </a><u>.</u>
 
 Here are examples of OID strings for hash algorithms.
 

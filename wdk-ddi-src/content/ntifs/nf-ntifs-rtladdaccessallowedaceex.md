@@ -173,15 +173,15 @@ For more information about security and access control, see the documentation ab
 
 <ul>
 <li>
-<a href="http://go.microsoft.com/fwlink/p/?linkid=140858">Access Control Lists</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=140858">Access Control Lists</a>
 
 </li>
 <li>
-<a href="http://go.microsoft.com/fwlink/p/?linkid=140859">Creating or Modifying an ACL</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=140859">Creating or Modifying an ACL</a>
 
 </li>
 <li>
-<a href="http://go.microsoft.com/fwlink/p/?linkid=140860">Getting Information from an ACL</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=140860">Getting Information from an ACL</a>
 
 </li>
 </ul>

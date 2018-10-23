@@ -139,7 +139,7 @@ Typically, a timer with a large <i>Period</i> value can use a proportionally lar
 
 Expiration times are measured relative to the system clock, and the accuracy with which the operating system can detect when a timer expires is limited by the granularity of the system clock. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj602805">Timer Accuracy</a>.
 
-For more information about timer objects, see <a href="https://msdn.microsoft.com/b58487de-6e9e-45f4-acb8-9233c8718ee2">Timer Objects and DPCs</a>. For more information about timer coalescing, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=116598">Windows Timer Coalescing</a> white paper on the WHDC website. 
+For more information about timer objects, see <a href="https://msdn.microsoft.com/b58487de-6e9e-45f4-acb8-9233c8718ee2">Timer Objects and DPCs</a>. For more information about timer coalescing, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=116598">Windows Timer Coalescing</a> white paper on the WHDC website. 
 
 
 

@@ -129,7 +129,7 @@ The caller attempted to wait for a mutex that has been abandoned.
 </dl>
 </td>
 <td width="60%">
-The wait was interrupted by a pending cancel request on the specified IRP.  Note that this value is returned only if a valid IRP is passed to <b>FsRtlCancellableWaitForSingleObject</b> and the IRP was canceled by <a href="http://go.microsoft.com/fwlink/p/?linkid=64526">CancelSynchronousIo</a>.
+The wait was interrupted by a pending cancel request on the specified IRP.  Note that this value is returned only if a valid IRP is passed to <b>FsRtlCancellableWaitForSingleObject</b> and the IRP was canceled by <a href="https://go.microsoft.com/fwlink/p/?linkid=64526">CancelSynchronousIo</a>.
 
 </td>
 </tr>
@@ -158,7 +158,7 @@ Note that the NT_SUCCESS macro returns <b>FALSE</b> ("failure") for the STATUS_C
 
 
 
-The <b>FsRtlCancellableWaitForSingleObject</b> routine executes a cancelable wait operation on a dispatcher object.  If the thread is terminated by the user or by the application, or if <a href="http://go.microsoft.com/fwlink/p/?linkid=64526">CancelSynchronousIo</a> posts a cancel request on a threaded IRP (synchronous IRP) associated with the thread, the wait is canceled.
+The <b>FsRtlCancellableWaitForSingleObject</b> routine executes a cancelable wait operation on a dispatcher object.  If the thread is terminated by the user or by the application, or if <a href="https://go.microsoft.com/fwlink/p/?linkid=64526">CancelSynchronousIo</a> posts a cancel request on a threaded IRP (synchronous IRP) associated with the thread, the wait is canceled.
 
 The <b>FsRtlCancellableWaitForSingleObject</b> routine was designed for support of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn613954">I/O Completion/Cancellation Guidelines</a> starting with Windows Vista. The goal of these guidelines is to allow users (or applications) to quickly terminate applications.  This, in turn, requires that applications have the ability to quickly terminate threads that are executing I/O as well as any current I/O operations. This routine provides a way for user threads to block (that is, wait) in the kernel for I/O completion, a dispatcher object, or a synchronization variable in a way that allows the wait to be readily canceled. This routine also permits the thread's wait to be terminated if the thread is terminated by a user or an application.
 

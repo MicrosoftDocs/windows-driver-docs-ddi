@@ -109,7 +109,7 @@ KSAC3_ALTERNATE_AUDIO_BOTH
 
 This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537210">KSPROPERTY_AC3_ALTERNATE_AUDIO</a> property.
 
-For more information about the encoding of AC-3 program channels, see the AC-3 specification at the <a href="http://go.microsoft.com/fwlink/p/?linkid=8730">Dolby Laboratories</a> website. The specification is titled Digital Audio Compression Standard (AC-3).
+For more information about the encoding of AC-3 program channels, see the AC-3 specification at the <a href="https://go.microsoft.com/fwlink/p/?linkid=8730">Dolby Laboratories</a> website. The specification is titled Digital Audio Compression Standard (AC-3).
 
 
 

@@ -70,7 +70,7 @@ The DXVAHDDDI_VPDEVCAPS structure describes the video processor capabilities tha
 
 #### DXVAHDDDI_DEVICE_CAPS_LINEAR_SPACE (0x1)
 
-The driver can blend video content in linear space. Because the video content is traditionally in non-linear space and gamma 2.2 corrected (<a href="http://go.microsoft.com/fwlink/p/?linkid=10112">sRGB</a>), the driver can convert the video content to linear space before performing blending operations to achieve better results.
+The driver can blend video content in linear space. Because the video content is traditionally in non-linear space and gamma 2.2 corrected (<a href="https://go.microsoft.com/fwlink/p/?linkid=10112">sRGB</a>), the driver can convert the video content to linear space before performing blending operations to achieve better results.
 
 
 

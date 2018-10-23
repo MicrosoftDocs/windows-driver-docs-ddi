@@ -106,7 +106,7 @@ Upon return from a call to <a href="https://msdn.microsoft.com/library/windows/h
 
 </li>
 <li>
- To create or open a file in the context of a transaction, set the <b>TxnParameters</b> member of the IO_DRIVER_CREATE_CONTEXT structure to the value returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548412">IoGetTransactionParameterBlock</a> routine.  For more information regarding transactions, see <a href="http://go.microsoft.com/fwlink/p/?linkid=66161">Transaction Management (TxF)</a>.
+ To create or open a file in the context of a transaction, set the <b>TxnParameters</b> member of the IO_DRIVER_CREATE_CONTEXT structure to the value returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548412">IoGetTransactionParameterBlock</a> routine.  For more information regarding transactions, see <a href="https://go.microsoft.com/fwlink/p/?linkid=66161">Transaction Management (TxF)</a>.
 
 </li>
 </ul>

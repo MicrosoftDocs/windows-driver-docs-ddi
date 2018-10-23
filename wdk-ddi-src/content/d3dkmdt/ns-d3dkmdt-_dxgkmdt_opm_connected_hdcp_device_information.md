@@ -72,7 +72,7 @@ A bitwise OR combination of the values of the <a href="https://msdn.microsoft.co
 
 ### -field ksvB
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560876">DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR</a> structure that contains a key-selection vector (KSV) for a monitor or an HDCP repeater. An HDCP receiver is typically a monitor. An HDCP repeater is a device that allows multiple monitors to display the video signal from a protected output's physical connector. For more information about HDCP receivers and repeaters, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=38728">HDCP Specification Revision 1.1</a>. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560876">DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR</a> structure that contains a key-selection vector (KSV) for a monitor or an HDCP repeater. An HDCP receiver is typically a monitor. An HDCP repeater is a device that allows multiple monitors to display the video signal from a protected output's physical connector. For more information about HDCP receivers and repeaters, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=38728">HDCP Specification Revision 1.1</a>. 
 
 
 ### -field Reserved

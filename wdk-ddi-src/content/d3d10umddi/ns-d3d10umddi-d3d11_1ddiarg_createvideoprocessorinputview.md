@@ -71,7 +71,7 @@ A FOURCC code that the application uses to override the surface format. A value 
 
 For example, if a new video standard emerges that requires a new substream format, the application can create an equivelant surface using a standard format and then specify a FOURCC code when it creates a view to indicate that the data is laid out according to the new video standard.
 
-For more information about FOURCC codes, see <a href="http://go.microsoft.com/fwlink/p/?linkid=231686">Video FOURCCs</a>.
+For more information about FOURCC codes, see <a href="https://go.microsoft.com/fwlink/p/?linkid=231686">Video FOURCCs</a>.
 
 
 ### -field MipSlice

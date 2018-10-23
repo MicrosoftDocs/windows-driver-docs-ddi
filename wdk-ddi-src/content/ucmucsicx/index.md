@@ -16,7 +16,7 @@ tech.root: usbref
 
 ## -description
 
-This header is the main include header for client drivers of the UcmUcsiCx class extension. The extension provides a transport-agnostic implementation of the [UCSI specification](http://go.microsoft.com/fwlink/p/?LinkId=760658).
+This header is the main include header for client drivers of the UcmUcsiCx class extension. The extension provides a transport-agnostic implementation of the [UCSI specification](https://go.microsoft.com/fwlink/p/?LinkId=760658).
 
 Ucmucsicx includes these headers:
 

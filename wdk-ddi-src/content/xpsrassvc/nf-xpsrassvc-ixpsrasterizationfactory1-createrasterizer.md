@@ -57,7 +57,7 @@ The <code>CreateRasterize</code> method creates an XPS rasterizer object that ca
 
 ### -param xpsPage [in, optional]
 
-Pointer to an <b>IXpsOMPage</b> object that represents the XPS fixed page to render. This object encapsulates a FixedPage section from an XPS document. For more information about <b>IXpsOMPage</b>, see <a href="http://go.microsoft.com/fwlink/p/?linkid=146349">IXpsOMPage</a><u>.</u>
+Pointer to an <b>IXpsOMPage</b> object that represents the XPS fixed page to render. This object encapsulates a FixedPage section from an XPS document. For more information about <b>IXpsOMPage</b>, see <a href="https://go.microsoft.com/fwlink/p/?linkid=146349">IXpsOMPage</a><u>.</u>
 
 
 ### -param DPI [in]

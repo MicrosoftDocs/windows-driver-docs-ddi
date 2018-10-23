@@ -303,7 +303,7 @@ If this bit is set, the network adapter can respond to IPv6 Neighbor Solicitatio
        while it is in a low power state. 
        
 
-For more information about IPv6 NS messages, see <a href="http://go.microsoft.com/fwlink/p/?linkid=268370">RFC 4861</a>.
+For more information about IPv6 NS messages, see <a href="https://go.microsoft.com/fwlink/p/?linkid=268370">RFC 4861</a>.
 
 
 

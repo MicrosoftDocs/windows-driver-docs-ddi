@@ -83,7 +83,7 @@ Data fields contain sensor-generated data, as opposed to properties, which descr
 
 All drivers must support SENSOR_DATA_TYPE_TIMESTAMP as a required data field.
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=131484">IPortableDeviceKeyCollection</a> is documented in Windows Portable Devices.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=131484">IPortableDeviceKeyCollection</a> is documented in Windows Portable Devices.
 
 
 

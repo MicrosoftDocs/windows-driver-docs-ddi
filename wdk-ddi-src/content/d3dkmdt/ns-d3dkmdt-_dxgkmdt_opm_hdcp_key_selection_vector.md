@@ -64,7 +64,7 @@ A 5-byte array that comprises the HDCP KSV. Byte 0 is the least significant byte
 
 
 
-For more information about the HDCP KSV, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=38728">HDCP Specification Revision 1.1</a>. 
+For more information about the HDCP KSV, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=38728">HDCP Specification Revision 1.1</a>. 
 
 
 

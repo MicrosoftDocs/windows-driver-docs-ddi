@@ -136,7 +136,7 @@ If a driver configures an I/O queue for sequential dispatching of I/O requests, 
 
 #### Examples
 
-The following code example, which is from the <a href="http://go.microsoft.com/fwlink/p/?linkid=256202">umdf_fx2</a> sample driver, polls the queue for requests for as long as requests can be retrieved. The code first verifies if requests are associated with a specific file object.
+The following code example, which is from the <a href="https://go.microsoft.com/fwlink/p/?linkid=256202">umdf_fx2</a> sample driver, polls the queue for requests for as long as requests can be retrieved. The code first verifies if requests are associated with a specific file object.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

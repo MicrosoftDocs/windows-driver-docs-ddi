@@ -87,7 +87,7 @@ The
      <b>IWizardExtension</b> COM class ID (CLSID) of the target UI page that will handle this request. For
      more information about the
      <b>IWizardExtension</b> COM interface, see
-     <a href="http://go.microsoft.com/fwlink/p/?linkid=56607">IWizardExtension COM Interface</a>.
+     <a href="https://go.microsoft.com/fwlink/p/?linkid=56607">IWizardExtension COM Interface</a>.
 
 
 ### -field dwByteCount

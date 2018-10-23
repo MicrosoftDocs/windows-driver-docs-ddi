@@ -181,7 +181,7 @@ The <b>FwpsFlowAssociateContext0</b> function associates a single context with a
 You can associate multiple contexts with a flow. However, each context must be associated with a different callout. The new callout can be at the same layer as the previous one or at a different layer.
 
 For more information and sample code, see <a href="https://msdn.microsoft.com/75f5838e-626d-4a59-810e-fec9a40640ed">Associating Context with a Data Flow</a>
-and the <a href="http://go.microsoft.com/fwlink/p/?LinkId=618934">Windows Filtering Platform Sample</a>.
+and the <a href="https://go.microsoft.com/fwlink/p/?LinkId=618934">Windows Filtering Platform Sample</a>.
 
 
 
@@ -211,7 +211,7 @@ and the <a href="http://go.microsoft.com/fwlink/p/?LinkId=618934">Windows Filter
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkId=618934">Windows Filtering Platform Sample</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkId=618934">Windows Filtering Platform Sample</a>
 
 
 

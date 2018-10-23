@@ -82,7 +82,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 
-For more information about certificates that are used with OPM, download the Output Content Protection document at the <a href="http://go.microsoft.com/fwlink/p/?linkid=204788">Output Content Protection and Windows Vista</a> website.
+For more information about certificates that are used with OPM, download the Output Content Protection document at the <a href="https://go.microsoft.com/fwlink/p/?linkid=204788">Output Content Protection and Windows Vista</a> website.
 
 
 

@@ -84,7 +84,7 @@ The driver can set the batch latency to a value that is less than or equal to <i
 
 It is important to note that there is no change implied to sensor data delivery methods and events, due to data batching.  When data batching latency expires, the driver will call <a href="https://msdn.microsoft.com/library/windows/hardware/dn957088">SensorsCxSensorDataReady</a> repeatedly to deliver all the buffered data samples, one at a time. The data samples are sent, along with the timestamp information in their <b>PKEY_SensorData_Timestamp</b>  data fields. The timestamp information (of data type VT_FILETIME) shows the time  at which a sample was taken.
 
-For more information about the VT_FILETIME data type, see <a href="http://go.microsoft.com/fwlink/p/?linkid=313395">MSDN PROPVARIANT structure</a>.
+For more information about the VT_FILETIME data type, see <a href="https://go.microsoft.com/fwlink/p/?linkid=313395">MSDN PROPVARIANT structure</a>.
 
 
 
@@ -94,7 +94,7 @@ For more information about the VT_FILETIME data type, see <a href="http://go.mic
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=313395">MSDN PROPVARIANT structure</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=313395">MSDN PROPVARIANT structure</a>
 
 
 

@@ -61,7 +61,7 @@ The <b>GetFailureCode</b> method gets the bug check code or exception code of a 
 
 
 
-This method returns a <a href="https://msdn.microsoft.com/DBA85578-97CF-4BD7-A67D-1C7AD2E9B2BB">bug check code</a> or an <a href="http://go.microsoft.com/fwlink/p?LinkID=282670">exception code</a>.
+This method returns a <a href="https://msdn.microsoft.com/DBA85578-97CF-4BD7-A67D-1C7AD2E9B2BB">bug check code</a> or an <a href="https://go.microsoft.com/fwlink/p?LinkID=282670">exception code</a>.
 
 
 

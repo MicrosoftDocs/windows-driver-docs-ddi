@@ -341,7 +341,7 @@ PRINTER_DRIVER_SOFT_RESET_REQUIRED
 0x00000400
 
 </td>
-<td>Printers that use this printer driver should follow the guidelines outlined in <a href="http://go.microsoft.com/fwlink/p/?linkid=517016">USB Device Class Definition</a>. For more information, see <a href="https://msdn.microsoft.com/library/e81cbc09-ab05-4a32-ae4a-8ec57b436c43(v=prot.10)">Product Behavior, section <36></a></td>
+<td>Printers that use this printer driver should follow the guidelines outlined in <a href="https://go.microsoft.com/fwlink/p/?linkid=517016">USB Device Class Definition</a>. For more information, see <a href="https://msdn.microsoft.com/library/e81cbc09-ab05-4a32-ae4a-8ec57b436c43(v=prot.10)">Product Behavior, section <36></a></td>
 <td>
 Windows 8
 

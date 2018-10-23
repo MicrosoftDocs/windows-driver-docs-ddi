@@ -159,11 +159,11 @@ All coordinate values are expressed in millimeters. Acceptable values range from
 
 Frequency values are expressed in Hertz (Hz).
 
-For more information about how to process a microphone array in Windows Vista, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=8751">Audio Technologies for Windows </a> page on the WHDC website and refer to the following white papers:
+For more information about how to process a microphone array in Windows Vista, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=8751">Audio Technologies for Windows </a> page on the WHDC website and refer to the following white papers:
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=120592">Microphone Array Support in Windows Vista</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=120592">Microphone Array Support in Windows Vista</a>
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=120593">How to Build and Use Microphone Arrays for Windows Vista</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=120593">How to Build and Use Microphone Arrays for Windows Vista</a>
 
 
 

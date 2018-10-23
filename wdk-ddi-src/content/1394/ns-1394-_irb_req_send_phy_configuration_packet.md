@@ -64,7 +64,7 @@ Points to the PHY_CONFIGURATION_PACKET structure.
 
 
 
-The packet is sent to all nodes on the bus. See the <a href="http://go.microsoft.com/fwlink/p/?linkid=8729">IEEE 1394 Trade Association specification</a> website for a description of Phy packets.
+The packet is sent to all nodes on the bus. See the <a href="https://go.microsoft.com/fwlink/p/?linkid=8729">IEEE 1394 Trade Association specification</a> website for a description of Phy packets.
 
 
 

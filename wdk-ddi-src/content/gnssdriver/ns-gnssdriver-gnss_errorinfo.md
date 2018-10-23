@@ -69,7 +69,7 @@ Version number.
 
 Win32 Error Code associated with the event.
 
-The IHV can pick the error that is most similar to what needs to be reported (for example, E_OUTOFMEMORY). The IHV can also use FACILITY_ITF to create custom errors. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=525284">Codes in FACILITY_ITF</a>.
+The IHV can pick the error that is most similar to what needs to be reported (for example, E_OUTOFMEMORY). The IHV can also use FACILITY_ITF to create custom errors. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=525284">Codes in FACILITY_ITF</a>.
 
 
 

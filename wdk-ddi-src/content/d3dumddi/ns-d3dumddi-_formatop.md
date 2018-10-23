@@ -154,7 +154,7 @@ The driver can stretch to and from and color fill surfaces of this format.
 
 #### FORMATOP_SRGBREAD (0x00008000L)
 
-Surfaces of this format can be read from as <a href="http://go.microsoft.com/fwlink/p/?linkid=10112">sRGB</a>-formatted textures (that is, the sampler linearizes the looked-up data).
+Surfaces of this format can be read from as <a href="https://go.microsoft.com/fwlink/p/?linkid=10112">sRGB</a>-formatted textures (that is, the sampler linearizes the looked-up data).
 
 
 
@@ -184,7 +184,7 @@ Target surfaces of this format can be converted from any source surface with a p
 
 #### FORMATOP_SRGBWRITE (0x00100000L)
 
-Surfaces of this format can be written to as <a href="http://go.microsoft.com/fwlink/p/?linkid=10112">sRGB</a>-formatted targets (that is, the pixel pipe delinearizes data on output to this format).
+Surfaces of this format can be written to as <a href="https://go.microsoft.com/fwlink/p/?linkid=10112">sRGB</a>-formatted targets (that is, the pixel pipe delinearizes data on output to this format).
 
 
 
