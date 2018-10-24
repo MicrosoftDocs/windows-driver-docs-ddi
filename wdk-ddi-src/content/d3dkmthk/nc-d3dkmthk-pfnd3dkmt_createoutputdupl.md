@@ -4,11 +4,8 @@ title: PFND3DKMT_CREATEOUTPUTDUPL
 author: windows-driver-content
 description: Reserved for system use. Do not use in your driver.
 ms.assetid: 62080c15-3c27-48cd-a497-83afea9f95a3
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Reserved for system use. Do not use in your driver.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_CREATEOUTPUTDUPL Pfnd3dkmtCreateoutputdupl; 

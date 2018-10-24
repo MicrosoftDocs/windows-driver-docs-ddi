@@ -6,11 +6,8 @@ description: The RtlIsNtDdiVersionAvailable routine determines if a specified ve
 old-location: kernel\rtlisntddiversionavailable.htm
 tech.root: kernel
 ms.assetid: 54017f67-b01f-48bd-a5bb-598902672c4f
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlIsNtDdiVersionAvailable, RtlIsNtDdiVersionAvailable routine [Kernel-Mode Driver Architecture], k109_62b3efdd-6678-4e88-92cb-eaacff80bfab.xml, kernel.rtlisntddiversionavailable, wdm/RtlIsNtDdiVersionAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

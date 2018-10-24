@@ -4,8 +4,7 @@ title: IoGetDeviceDirectory function
 author: windows-driver-content
 description: Returns a handle to a directory on disk specific to the specified driver object where the driver can read and write files.
 ms.assetid: d0a01cd6-cf1a-4737-a8cc-770a42ff8fcb
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: IoGetDeviceDirectory
 req.header: wdm.h

@@ -4,12 +4,9 @@ title: IntrinsicKind
 author: windows-driver-content
 description: Defines the kind of an intrinsic (basic) type.  This is distinct from the variant type which carries the type.
 ms.assetid: c1a4180d-3606-46d5-811c-ee0e7cd5a96c
-ms.author: windowsdriverdev
 ms.date: 07/16/2018
 ms.topic: enum
 ms.keywords: IntrinsicKind, , 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

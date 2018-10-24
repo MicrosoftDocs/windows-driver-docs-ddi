@@ -6,11 +6,8 @@ description: The WdfIoTargetCreate method creates a remote I/O target for a spec
 old-location: wdf\wdfiotargetcreate.htm
 tech.root: wdf
 ms.assetid: 21a2fa9c-24c1-4964-aaa7-96ac86b8c078
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_3de8d750-e0e1-4a74-8e2b-977a27db024f.xml, WdfIoTargetCreate, WdfIoTargetCreate method, kmdf.wdfiotargetcreate, wdf.wdfiotargetcreate, wdfiotarget/WdfIoTargetCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfiotarget.h
 req.include-header: Wdf.h

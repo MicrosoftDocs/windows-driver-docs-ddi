@@ -6,11 +6,8 @@ description: The class driver sends this request IO control code to retrieve inf
 old-location: buses\ioctl_internal_usbfn_get_class_info.htm
 tech.root: usbref
 ms.assetid: 870D7D8C-B2FE-487A-9098-C004E6C7E159
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: IOCTL_INTERNAL_USBFN_GET_CLASS_INFO, IOCTL_INTERNAL_USBFN_GET_CLASS_INFO control, IOCTL_INTERNAL_USBFN_GET_CLASS_INFO control code [Buses], buses.ioctl_internal_usbfn_get_class_info, usbfnioctl/IOCTL_INTERNAL_USBFN_GET_CLASS_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: usbfnioctl.h
 req.include-header: 

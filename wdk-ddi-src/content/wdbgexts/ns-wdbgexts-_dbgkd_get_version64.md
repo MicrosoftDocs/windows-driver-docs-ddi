@@ -6,11 +6,8 @@ description: The IG_GET_KERNEL_VERSION Ioctl operation receives information rela
 old-location: debugger\ig_get_kernel_version.htm
 tech.root: debugger
 ms.assetid: 692e58b5-74ea-48f3-a9c2-81953b7d600d
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: "*PDBGKD_GET_VERSION64, DBGKD_GET_VERSION64, DBGKD_GET_VERSION64 structure [Windows Debugging], PDBGKD_GET_VERSION64, PDBGKD_GET_VERSION64 structure pointer [Windows Debugging], WdbgExts_Ref_33e7f185-3831-439b-9e92-8d942627f66b.xml, _DBGKD_GET_VERSION64, debugger.ig_get_kernel_version, wdbgexts/DBGKD_GET_VERSION64, wdbgexts/PDBGKD_GET_VERSION64"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h

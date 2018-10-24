@@ -6,11 +6,8 @@ description: Schedules a callback event for a Storport timer context object.
 old-location: storage\storportrequesttimer.htm
 tech.root: storage
 ms.assetid: EE5A6D39-EC76-4D97-B2EC-4A43225C2FB5
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortRequestTimer, StorPortRequestTimer routine [Storage Devices], storage.storportrequesttimer, storport/StorPortRequestTimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

@@ -6,11 +6,8 @@ description: Retrieves the value of the named property for the specified print j
 old-location: print\getjobnamedpropertyvalue.htm
 tech.root: print
 ms.assetid: A9256A7B-B851-498C-94C3-95268D079828
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetJobNamedPropertyValue, GetJobNamedPropertyValue function [Print Devices], print.getjobnamedpropertyvalue, winspool/GetJobNamedPropertyValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winspool.h
 req.include-header: Winspool.h

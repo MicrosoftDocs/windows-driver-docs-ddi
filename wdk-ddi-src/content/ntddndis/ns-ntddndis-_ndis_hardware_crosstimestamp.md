@@ -5,11 +5,8 @@ author: windows-driver-content
 description: This structure is reserved for system use and should not be used in your code.
 tech.root: netvista
 ms.assetid: d12a3c97-8687-42d6-a5ad-5041c57f6685
-ms.author: windowsdriverdev
 ms.date: 08/08/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _NDIS_HARDWARE_CROSSTIMESTAMP, NDIS_HARDWARE_CROSSTIMESTAMP, *PNDIS_HARDWARE_CROSSTIMESTAMP, 
 req.header: ntddndis.h
 req.include-header: ndis.h

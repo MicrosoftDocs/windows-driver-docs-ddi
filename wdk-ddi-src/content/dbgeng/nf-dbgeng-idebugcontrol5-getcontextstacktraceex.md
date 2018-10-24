@@ -6,11 +6,8 @@ description: The GetContextStackTraceEx method returns the frames at the top of 
 old-location: debugger\idebugcontrol5_getcontextstacktraceex.htm
 tech.root: debugger
 ms.assetid: 26B191ED-A38B-412D-93C3-E9A55216F91E
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetContextStackTraceEx, GetContextStackTraceEx method [Windows Debugging], GetContextStackTraceEx method [Windows Debugging],IDebugControl5 interface, IDebugControl5 interface [Windows Debugging],GetContextStackTraceEx method, IDebugControl5.GetContextStackTraceEx, IDebugControl5::GetContextStackTraceEx, dbgeng/IDebugControl5::GetContextStackTraceEx, debugger.idebugcontrol5_getcontextstacktraceex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Ntddk.h

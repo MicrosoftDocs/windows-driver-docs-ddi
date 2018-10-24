@@ -6,11 +6,8 @@ description: The Complete method completes an I/O request.
 old-location: wdf\iwdfiorequest_complete.htm
 tech.root: wdf
 ms.assetid: 2fa389f8-8277-4795-a89e-ac5d92004310
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: Complete, Complete method, Complete method,IWDFIoRequest interface, IWDFIoRequest interface,Complete method, IWDFIoRequest.Complete, IWDFIoRequest::Complete, UMDFRequestObjectRef_2c1cf2cc-30a2-438c-8e5a-b918fbcd5eee.xml, umdf.iwdfiorequest_complete, wdf.iwdfiorequest_complete, wudfddi/IWDFIoRequest::Complete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

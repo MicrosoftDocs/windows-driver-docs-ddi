@@ -6,11 +6,8 @@ description: FltParseFileName parses the extension, stream, and final component 
 old-location: ifsk\fltparsefilename.htm
 tech.root: ifsk
 ms.assetid: 8d91390b-22a1-4e0b-8c9e-78c0872e7b21
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_57a4d7c0-f653-4c91-a16b-1de79ef56342.xml, FltParseFileName, FltParseFileName function [Installable File System Drivers], fltkernel/FltParseFileName, ifsk.fltparsefilename
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

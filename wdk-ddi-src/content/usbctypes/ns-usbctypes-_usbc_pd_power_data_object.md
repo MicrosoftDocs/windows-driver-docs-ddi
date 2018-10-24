@@ -4,11 +4,8 @@ title: _USBC_PD_POWER_DATA_OBJECT
 author: windows-driver-content
 description: Describes a Power Data Object (PDO).
 ms.assetid: b1a69368-f613-4e03-b350-287e770a05a6
-ms.author: windowsdriverdev
 ms.date: 09/30/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _USBC_PD_POWER_DATA_OBJECT, USBC_PD_POWER_DATA_OBJECT, *PUSBC_PD_POWER_DATA_OBJECT, 
 req.header: usbctypes.h
 req.include-header: usbctypes.h

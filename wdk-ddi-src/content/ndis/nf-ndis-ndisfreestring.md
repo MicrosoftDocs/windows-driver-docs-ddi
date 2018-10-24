@@ -6,11 +6,8 @@ description: The NdisFreeString function releases storage that was allocated by 
 old-location: netvista\ndisfreestring.htm
 tech.root: netvista
 ms.assetid: 62b4318a-b883-44fc-a2a5-86a7a884f039
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisFreeString, NdisFreeString macro [Network Drivers Starting with Windows Vista], ndis/NdisFreeString, ndis_string_ref_fbe6ac9f-c6a6-457e-a427-71e9739f3809.xml, netvista.ndisfreestring
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ndis.h
 req.include-header: Ndis.h

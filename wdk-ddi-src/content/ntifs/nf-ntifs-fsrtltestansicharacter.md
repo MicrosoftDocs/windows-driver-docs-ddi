@@ -6,11 +6,8 @@ description: The FsRtlTestAnsiCharacter macro determines whether an ANSI or doub
 old-location: ifsk\fsrtltestansicharacter.htm
 tech.root: ifsk
 ms.assetid: b667f0c9-7746-432e-ae58-3fe5b48309e0
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlTestAnsiCharacter, FsRtlTestAnsiCharacter function [Installable File System Drivers], fsrtlref_7ef89c09-f42e-433a-90bf-59452fd1b7c4.xml, ifsk.fsrtltestansicharacter, ntifs/FsRtlTestAnsiCharacter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ntifs.h
 req.include-header: Ntifs.h

@@ -4,12 +4,9 @@ title: _ACPI_PLD_SHAPE enumeration
 author: windows-driver-content
 description: Describes shape bits 74:77.
 ms.assetid: d53643a3-b52d-4e8d-b238-d09e5f727148
-ms.author: windowsdriverdev
-ms.date: 10/2/2018
+ms.date: 10/02/2018
 ms.topic: enum
 ms.keywords: _ACPI_PLD_SHAPE, ACPI_PLD_SHAPE, *PACPI_PLD_SHAPE, AcpiPldShape
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: acpitabl.h
 req.include-header:
 req.target-type:

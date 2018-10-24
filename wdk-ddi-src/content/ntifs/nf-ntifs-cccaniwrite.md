@@ -6,11 +6,8 @@ description: The CcCanIWrite routine determines whether the caller can write to 
 old-location: ifsk\cccaniwrite.htm
 tech.root: ifsk
 ms.assetid: 04b1521f-906f-493d-9ca6-6d97c6a80bdb
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: CcCanIWrite, CcCanIWrite routine [Installable File System Drivers], ccref_b964dbf1-d1ad-4929-ab9c-21b1e6f69077.xml, ifsk.cccaniwrite, ntifs/CcCanIWrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

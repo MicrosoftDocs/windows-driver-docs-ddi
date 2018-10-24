@@ -6,11 +6,8 @@ description: The ZwQueryEaFile routine returns information about extended-attrib
 old-location: kernel\zwqueryeafile.htm
 tech.root: kernel
 ms.assetid: c4261a83-3c91-4bc1-93bf-d2d04c324e94
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ZwQueryEaFile, ZwQueryEaFile routine [Kernel-Mode Driver Architecture], kernel.zwqueryeafile, ntifs/ZwQueryEaFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h

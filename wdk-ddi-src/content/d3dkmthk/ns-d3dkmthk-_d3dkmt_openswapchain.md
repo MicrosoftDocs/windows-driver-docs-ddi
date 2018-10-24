@@ -4,11 +4,8 @@ title: _D3DKMT_OPENSWAPCHAIN
 author: windows-driver-content
 description: Used to open a swap chain.
 ms.assetid: e4a4db5b-a3ab-45f2-bd3b-0bf808e2d6f8
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_OPENSWAPCHAIN, D3DKMT_OPENSWAPCHAIN,
 req.header: d3dkmthk.h
 req.include-header:

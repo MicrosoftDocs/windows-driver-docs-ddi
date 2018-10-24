@@ -6,11 +6,8 @@ description: The IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO request returns Plug and P
 old-location: parports\ioctl_internal_get_parallel_pnp_info.htm
 tech.root: parports
 ms.assetid: 9a93d91a-e9b8-41f5-8d15-f693336bee07
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO, IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO control code [Parallel Ports], cisspd_66e27d46-1bd9-4e14-8b3f-4d7760552498.xml, parallel/IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO, parports.ioctl_internal_get_parallel_pnp_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: parallel.h
 req.include-header: Parallel.h

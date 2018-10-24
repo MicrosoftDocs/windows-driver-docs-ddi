@@ -6,11 +6,8 @@ description: RxAcquireExclusiveFcbResourceInMRx acquires the FCB resource for a 
 old-location: ifsk\rxacquireexclusivefcbresourceinmrx.htm
 tech.root: ifsk
 ms.assetid: 417c3ffd-5c40-430d-9aec-169203dba685
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxAcquireExclusiveFcbResourceInMRx, RxAcquireExclusiveFcbResourceInMRx routine [Installable File System Drivers], ifsk.rxacquireexclusivefcbresourceinmrx, mrxfcb/RxAcquireExclusiveFcbResourceInMRx, rxref_54a3508a-7d99-487a-9363-a13500540230.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mrxfcb.h
 req.include-header: Mrxfcb.h

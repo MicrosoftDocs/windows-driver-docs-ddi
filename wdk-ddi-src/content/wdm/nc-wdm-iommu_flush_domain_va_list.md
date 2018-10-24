@@ -4,11 +4,8 @@ title: IOMMU_FLUSH_DOMAIN_VA_LIST
 author: windows-driver-content
 description: Flushes the TLB for all entries that match the specified domain's ASID and one of the addresses in the provided list. 
 ms.assetid: 3ae0eb66-ed0d-4232-9294-4037ae48ce3e
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Flushes the TLB for all entries that match the specified domain's ASID and one o
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 IOMMU_FLUSH_DOMAIN_VA_LIST IommuFlushDomainVaList; 

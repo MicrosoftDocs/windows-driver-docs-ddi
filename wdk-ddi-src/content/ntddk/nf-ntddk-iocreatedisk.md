@@ -6,11 +6,8 @@ description: The IoCreateDisk routine initializes a raw disk by creating a new p
 old-location: storage\iocreatedisk.htm
 tech.root: storage
 ms.assetid: 0ad85551-a8d2-4f7f-958b-fe23111de340
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IoCreateDisk, IoCreateDisk routine [Storage Devices], ntddk/IoCreateDisk, rtns-disk_5f69686f-f812-4ccc-8bc8-4caa70230d20.xml, storage.iocreatedisk
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

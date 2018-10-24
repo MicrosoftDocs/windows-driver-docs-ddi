@@ -6,11 +6,8 @@ description: This IOCTL is for internal use only.
 old-location: battery\ioctl_cad_disable_charging.htm
 tech.root: battery
 ms.assetid: 51E91097-7315-489A-8C07-0946481BF573
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_CAD_DISABLE_CHARGING, IOCTL_CAD_DISABLE_CHARGING control, IOCTL_CAD_DISABLE_CHARGING control code [Battery Devices], battery.ioctl_cad_disable_charging, charging/IOCTL_CAD_DISABLE_CHARGING
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: charging.h
 req.include-header: 

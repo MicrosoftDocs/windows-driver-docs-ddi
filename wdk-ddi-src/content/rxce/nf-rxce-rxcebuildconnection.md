@@ -6,11 +6,8 @@ description: RxCeBuildConnection establishes a connection between a local RDBSS 
 old-location: ifsk\rxcebuildconnection.htm
 tech.root: ifsk
 ms.assetid: 3d4c2e69-7cdc-4eee-b56c-b1485768e942
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxCeBuildConnection, RxCeBuildConnection function [Installable File System Drivers], ifsk.rxcebuildconnection, rxce/RxCeBuildConnection, rxref_cc87c9dd-c8e4-4283-96a8-bc2ec15be773.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rxce.h
 req.include-header: Rxce.h

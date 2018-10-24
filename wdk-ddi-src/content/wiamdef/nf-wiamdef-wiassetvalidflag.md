@@ -6,11 +6,8 @@ description: The wiasSetValidFlag function sets the valid values for a WIA_PROP_
 old-location: image\wiassetvalidflag.htm
 tech.root: image
 ms.assetid: 86690e6f-4b30-4de9-b380-8939ed983027
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiassetvalidflag, wiamdef/wiasSetValidFlag, wiasFncs_4c84b6c9-20fe-4894-b3fc-f7d84742827a.xml, wiasSetValidFlag, wiasSetValidFlag function [Imaging Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiamdef.h
 req.include-header: Wiamdef.h

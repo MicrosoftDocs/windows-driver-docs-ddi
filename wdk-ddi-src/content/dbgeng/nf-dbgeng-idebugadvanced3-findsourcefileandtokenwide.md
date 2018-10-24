@@ -6,11 +6,8 @@ description: The FindSourceFileAndTokenWide method returns the filename of a sou
 old-location: debugger\findsourcefileandtokenwide.htm
 tech.root: debugger
 ms.assetid: f406e755-dc46-4228-b70f-3520d3cb46a3
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: FindSourceFileAndTokenWide, FindSourceFileAndTokenWide method [Windows Debugging], FindSourceFileAndTokenWide method [Windows Debugging],IDebugAdvanced3 interface, IDebugAdvanced3 interface [Windows Debugging],FindSourceFileAndTokenWide method, IDebugAdvanced3.FindSourceFileAndTokenWide, IDebugAdvanced3::FindSourceFileAndTokenWide, dbgeng/IDebugAdvanced3::FindSourceFileAndTokenWide, debugger.findsourcefileandtokenwide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

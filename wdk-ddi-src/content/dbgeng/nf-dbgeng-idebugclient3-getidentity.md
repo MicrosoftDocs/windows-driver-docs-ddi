@@ -6,11 +6,8 @@ description: The GetIdentity method returns a string describing the computer and
 old-location: debugger\getidentity.htm
 tech.root: debugger
 ms.assetid: 1d4e7c69-bc32-43f6-b45b-fcee2e04dc26
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetIdentity, GetIdentity method [Windows Debugging], GetIdentity method [Windows Debugging],IDebugClient interface, GetIdentity method [Windows Debugging],IDebugClient2 interface, GetIdentity method [Windows Debugging],IDebugClient3 interface, GetIdentity method [Windows Debugging],IDebugClient4 interface, GetIdentity method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],GetIdentity method, IDebugClient2 interface [Windows Debugging],GetIdentity method, IDebugClient2::GetIdentity, IDebugClient3 interface [Windows Debugging],GetIdentity method, IDebugClient3.GetIdentity, IDebugClient3::GetIdentity, IDebugClient4 interface [Windows Debugging],GetIdentity method, IDebugClient4::GetIdentity, IDebugClient5 interface [Windows Debugging],GetIdentity method, IDebugClient5::GetIdentity, IDebugClient::GetIdentity, IDebugClient_7c54bffa-5190-49f5-919d-16bfb851ae36.xml, dbgeng/IDebugClient2::GetIdentity, dbgeng/IDebugClient3::GetIdentity, dbgeng/IDebugClient4::GetIdentity, dbgeng/IDebugClient5::GetIdentity, dbgeng/IDebugClient::GetIdentity, debugger.getidentity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

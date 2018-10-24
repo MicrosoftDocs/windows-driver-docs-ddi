@@ -6,11 +6,8 @@ description: Either returns the next data buffer available, or if there are no m
 old-location: nfpdrivers\ioctl_nfcse_hce_remote_recv.htm
 tech.root: nfpdrivers
 ms.assetid: 398AFAEF-D0A9-4BBE-8884-1854C95AA878
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_NFCSE_HCE_REMOTE_RECV, IOCTL_NFCSE_HCE_REMOTE_RECV control, IOCTL_NFCSE_HCE_REMOTE_RECV control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_HCE_REMOTE_RECV, nfpdrivers.ioctl_nfcse_hce_remote_recv
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: nfcsedev.h
 req.include-header: 

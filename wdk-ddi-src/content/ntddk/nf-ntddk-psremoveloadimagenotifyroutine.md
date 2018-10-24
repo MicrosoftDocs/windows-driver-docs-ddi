@@ -6,11 +6,8 @@ description: The PsRemoveLoadImageNotifyRoutine routine removes a callback routi
 old-location: kernel\psremoveloadimagenotifyroutine.htm
 tech.root: kernel
 ms.assetid: 5491f9fb-8f87-41ed-9629-18318554ad90
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PsRemoveLoadImageNotifyRoutine, PsRemoveLoadImageNotifyRoutine routine [Kernel-Mode Driver Architecture], k108_50aeae5b-9276-4e93-8192-70a51bd87ab4.xml, kernel.psremoveloadimagenotifyroutine, ntddk/PsRemoveLoadImageNotifyRoutine
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

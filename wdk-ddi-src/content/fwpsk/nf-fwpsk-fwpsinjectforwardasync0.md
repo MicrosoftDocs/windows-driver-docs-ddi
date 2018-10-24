@@ -6,11 +6,8 @@ description: The FwpsInjectForwardAsync0 function injects packet data into the f
 old-location: netvista\fwpsinjectforwardasync0.htm
 tech.root: netvista
 ms.assetid: b7cb70c6-c672-4a29-983c-c73767af72ea
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FwpsInjectForwardAsync0, FwpsInjectForwardAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectForwardAsync0, netvista.fwpsinjectforwardasync0, wfp_ref_2_funct_3_fwps_I_3aa5a7a1-da9d-478e-b8fe-0effc99a1fa5.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpsk.h
 req.include-header: Fwpsk.h

@@ -6,11 +6,8 @@ description: A driver's EvtDmaTransactionConfigureDmaChannel event callback func
 old-location: wdf\evtdmatransactionconfiguredmachannel.htm
 tech.root: wdf
 ms.assetid: 405D1D3F-FC01-4223-8E28-B3FD3F0516F7
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL, EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL callback, EvtDmaTransactionConfigureDmaChannel, EvtDmaTransactionConfigureDmaChannel callback function, kmdf.evtdmatransactionconfiguredmachannel, wdf.evtdmatransactionconfiguredmachannel, wdfdmatransaction/EvtDmaTransactionConfigureDmaChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h

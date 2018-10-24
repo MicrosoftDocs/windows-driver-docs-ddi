@@ -6,11 +6,8 @@ description: The IPrinterExtensionEvent interface represents the event delegate 
 old-location: print\iprinterextensionevent_interface.htm
 tech.root: print
 ms.assetid: A0F4DB51-D68E-4516-833A-7E984247796B
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrinterExtensionEvent, IPrinterExtensionEvent interface [Print Devices], IPrinterExtensionEvent interface [Print Devices],described, print.iprinterextensionevent_interface, printerextension/IPrinterExtensionEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: printerextension.h
 req.include-header: 

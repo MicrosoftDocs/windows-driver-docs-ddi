@@ -4,11 +4,8 @@ title: PFND3D12DDI_CREATE_RENDER_TARGET_VIEW_0002
 author: windows-driver-content
 description: Creates a render target view.
 ms.assetid: 0070a035-8fba-4aaa-b70f-2641ad32e906
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Creates a render target view.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CREATE_RENDER_TARGET_VIEW_0002 Pfnd3d12ddiCreateRenderTargetView0002; 

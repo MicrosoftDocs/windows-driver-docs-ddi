@@ -6,11 +6,8 @@ description: This enumeration is used internally by the operating system.
 old-location: stream\kspin_mdl_caching_event.htm
 tech.root: stream
 ms.assetid: 74A7C2C8-F12B-4753-8E1F-C425B0B56788
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KSPIN_MDL_CACHING_EVENT, KSPIN_MDL_CACHING_EVENT enumeration [Streaming Media Devices], KSPIN_MDL_CACHING_NOTIFY_ADDSAMPLE, KSPIN_MDL_CACHING_NOTIFY_CLEANALL_NOWAIT, KSPIN_MDL_CACHING_NOTIFY_CLEANALL_WAIT, KSPIN_MDL_CACHING_NOTIFY_CLEANUP, ks/KSPIN_MDL_CACHING_EVENT, ks/KSPIN_MDL_CACHING_NOTIFY_ADDSAMPLE, ks/KSPIN_MDL_CACHING_NOTIFY_CLEANALL_NOWAIT, ks/KSPIN_MDL_CACHING_NOTIFY_CLEANALL_WAIT, ks/KSPIN_MDL_CACHING_NOTIFY_CLEANUP, stream.kspin_mdl_caching_event
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ks.h
 req.include-header: 

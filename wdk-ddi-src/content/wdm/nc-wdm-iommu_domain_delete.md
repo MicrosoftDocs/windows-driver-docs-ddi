@@ -4,11 +4,8 @@ title: IOMMU_DOMAIN_DELETE
 author: windows-driver-content
 description: Deletes an existing domain.
 ms.assetid: 9fa16237-16ff-4318-84dd-53a57f1a636f
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Deletes an existing domain. The domain must contain no devices in order to be su
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 IOMMU_DOMAIN_DELETE IommuDomainDelete; 

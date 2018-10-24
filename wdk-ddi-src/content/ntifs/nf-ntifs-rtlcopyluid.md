@@ -6,11 +6,8 @@ description: The RtlCopyLuid routine copies a locally unique identifier (LUID) t
 old-location: ifsk\rtlcopyluid.htm
 tech.root: ifsk
 ms.assetid: ebda25f4-77d6-4178-9ff8-b1f0e95df9f0
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlCopyLuid, RtlCopyLuid routine [Installable File System Drivers], ifsk.rtlcopyluid, ntifs/RtlCopyLuid, rtlref_467829b7-3661-490d-b5ed-1a0d543db2d7.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

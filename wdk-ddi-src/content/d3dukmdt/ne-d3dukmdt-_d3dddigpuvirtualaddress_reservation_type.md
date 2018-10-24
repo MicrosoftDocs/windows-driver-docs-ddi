@@ -4,12 +4,9 @@ title: _D3DDDIGPUVIRTUALADDRESS_RESERVATION_TYPE
 author: windows-driver-content
 description: The GPU virtual address reservation type.
 ms.assetid: 4904e023-7d90-4399-8e0a-588a7cdfb5a7
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DDDIGPUVIRTUALADDRESS_RESERVATION_TYPE, D3DDDIGPUVIRTUALADDRESS_RESERVATION_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dukmdt.h
 req.include-header:
 req.target-type:

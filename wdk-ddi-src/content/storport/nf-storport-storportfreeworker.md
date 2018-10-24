@@ -6,11 +6,8 @@ description: Frees a Storport work item previously allocated by the StorPortInit
 old-location: storage\storportfreeworker.htm
 tech.root: storage
 ms.assetid: 90BD61C8-322B-48D5-83E0-7204E3DC4423
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortFreeWorker, StorPortFreeWorker routine [Storage Devices], storage.storportfreeworker, storport/StorPortFreeWorker
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

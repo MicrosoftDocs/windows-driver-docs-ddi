@@ -6,11 +6,8 @@ description: A miniport driver must call the NdisMPauseComplete function to comp
 old-location: netvista\ndismpausecomplete.htm
 tech.root: netvista
 ms.assetid: 08a9dccf-53bc-4b96-a794-14ead08a7b0b
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMPauseComplete, NdisMPauseComplete function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_1e76f7bc-a042-4a7a-8dc6-0f4cc6f7617f.xml, ndis/NdisMPauseComplete, netvista.ndismpausecomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

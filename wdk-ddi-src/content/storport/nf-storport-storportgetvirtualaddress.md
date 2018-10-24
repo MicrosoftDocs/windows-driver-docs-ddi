@@ -6,11 +6,8 @@ description: The StorPortGetVirtualAddress routine obtains a virtual address tha
 old-location: storage\storportgetvirtualaddress.htm
 tech.root: storage
 ms.assetid: b7091dea-8a29-4ad3-a478-29bc28fd57ef
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortGetVirtualAddress, StorPortGetVirtualAddress routine [Storage Devices], storage.storportgetvirtualaddress, storport/StorPortGetVirtualAddress, storprt_5245f704-dce0-4683-8510-064ccbb4158c.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

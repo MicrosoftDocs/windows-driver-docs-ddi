@@ -6,11 +6,8 @@ description: The WdfIoTargetSendReadSynchronously method builds a read request a
 old-location: wdf\wdfiotargetsendreadsynchronously.htm
 tech.root: wdf
 ms.assetid: bc6ceaac-883b-44af-8ac5-20145a5a6af9
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_91d200b2-9585-488f-9477-3b6e528e82cc.xml, WdfIoTargetSendReadSynchronously, WdfIoTargetSendReadSynchronously method, kmdf.wdfiotargetsendreadsynchronously, wdf.wdfiotargetsendreadsynchronously, wdfiotarget/WdfIoTargetSendReadSynchronously
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfiotarget.h
 req.include-header: Wdf.h

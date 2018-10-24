@@ -4,11 +4,8 @@ title: PFND3D12DDI_DESTROY_ROOT_SIGNATURE
 author: windows-driver-content
 description: Destroys a root signature.
 ms.assetid: 3d30b10e-1cfe-4fbf-ba6b-b1bd3173e9f1
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Destroys a root signature.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROY_ROOT_SIGNATURE Pfnd3d12ddiDestroyRootSignature; 

@@ -6,11 +6,8 @@ description: The Impersonate method registers the interface for the method that 
 old-location: wdf\iwdfiorequest_impersonate.htm
 tech.root: wdf
 ms.assetid: beb630e7-9667-4bc2-bf35-69db6cf0b104
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFIoRequest interface,Impersonate method, IWDFIoRequest.Impersonate, IWDFIoRequest::Impersonate, Impersonate, Impersonate method, Impersonate method,IWDFIoRequest interface, UMDFRequestObjectRef_a5f40359-edc8-42e1-a63d-99390abeba86.xml, umdf.iwdfiorequest_impersonate, wdf.iwdfiorequest_impersonate, wudfddi/IWDFIoRequest::Impersonate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

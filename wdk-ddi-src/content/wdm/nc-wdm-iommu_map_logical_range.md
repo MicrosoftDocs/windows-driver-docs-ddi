@@ -4,11 +4,8 @@ title: IOMMU_MAP_LOGICAL_RANGE
 author: windows-driver-content
 description: Maps a range of pages into the address space of a domain.
 ms.assetid: 670390f9-15c9-4fa2-bba2-227a6bd7c803
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Maps a range of pages into the address space of the specified domain.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 IOMMU_MAP_LOGICAL_RANGE IommuMapLogicalRange; 

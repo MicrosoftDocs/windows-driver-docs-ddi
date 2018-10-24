@@ -6,11 +6,8 @@ description: The SeFreePrivileges routine frees a privilege set returned by SeAc
 old-location: kernel\sefreeprivileges.htm
 tech.root: kernel
 ms.assetid: 5b8ba64e-3147-45b4-9861-da2186c2ba10
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: SeFreePrivileges, SeFreePrivileges routine [Kernel-Mode Driver Architecture], kernel.sefreeprivileges, ntifs/SeFreePrivileges, seref_e40724d7-f170-4dbd-89a6-2cdcdd13e87d.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

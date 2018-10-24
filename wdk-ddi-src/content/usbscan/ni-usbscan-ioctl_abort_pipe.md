@@ -4,11 +4,8 @@ title: IOCTL_ABORT_PIPE
 author: windows-driver-content
 description: 
 ms.assetid: b532777a-0834-4d70-9cde-060f697e912d
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: ioctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: usbscan.h
 req.include-header:
 req.target-type:

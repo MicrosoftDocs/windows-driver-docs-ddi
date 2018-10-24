@@ -6,11 +6,8 @@ description: The MiniportWdiTalTxRxStart handler function provides TXRX configur
 old-location: netvista\miniportwditaltxrxstart.htm
 tech.root: netvista
 ms.assetid: 6F88F4B1-8D2A-41CC-8D60-C1CF91ED072A
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_TAL_TXRX_START, MINIPORT_WDI_TAL_TXRX_START callback, MiniportWdiTalTxRxStart, MiniportWdiTalTxRxStart callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxStart, netvista.miniportwditaltxrxstart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dot11wdi.h
 req.include-header: 

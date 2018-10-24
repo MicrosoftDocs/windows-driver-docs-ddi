@@ -4,11 +4,8 @@ title: FPGA_CONTROL_CONFIG_SPACE
 author: windows-driver-content
 description: Reserved for future use. Enables or disables the access to the configuration space of the FPGA device. 
 ms.assetid: 963b8836-30f6-4321-9835-3860afe6076d
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Enables or disables the access to the configuration space of the FPGA device.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FPGA_CONTROL_CONFIG_SPACE FpgaControlConfigSpace; 

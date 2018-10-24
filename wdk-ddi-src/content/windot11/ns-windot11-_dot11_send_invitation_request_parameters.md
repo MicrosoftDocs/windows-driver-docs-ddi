@@ -6,11 +6,8 @@ description: The request parameters for an inivitation request are specified in 
 old-location: netvista\dot11_send_invitation_request_parameters.htm
 tech.root: netvista
 ms.assetid: A1177154-4674-425C-A83B-A4A8FCD1729C
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_SEND_INVITATION_REQUEST_PARAMETERS, DOT11_SEND_INVITATION_REQUEST_PARAMETERS, DOT11_SEND_INVITATION_REQUEST_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_SEND_INVITATION_REQUEST_PARAMETERS, PDOT11_SEND_INVITATION_REQUEST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SEND_INVITATION_REQUEST_PARAMETERS, netvista.dot11_send_invitation_request_parameters, windot11/DOT11_SEND_INVITATION_REQUEST_PARAMETERS, windot11/PDOT11_SEND_INVITATION_REQUEST_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Windot11.h
@@ -58,7 +55,7 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DOT11_SEND_INVITATION_REQUEST_PARAMETERS {
   NDIS_OBJECT_HEADER              Header;
   DOT11_DIALOG_TOKEN              DialogToken;
@@ -75,7 +72,7 @@ typedef struct _DOT11_SEND_INVITATION_REQUEST_PARAMETERS {
   ULONG                           uIEsOffset;
   ULONG                           uIEsLength;
 } DOT11_SEND_INVITATION_REQUEST_PARAMETERS, *PDOT11_SEND_INVITATION_REQUEST_PARAMETERS;
-````
+```
 
 
 ## -struct-fields

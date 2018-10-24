@@ -6,11 +6,8 @@ description: The WDF_IO_QUEUE_DRAINED function returns TRUE if the I/O queue's s
 old-location: wdf\wdf_io_queue_drained.htm
 tech.root: wdf
 ms.assetid: 1b2384c3-6438-4456-b4fc-44211b8a3fb1
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_ddc761b3-266a-4942-94ed-8ecca07575d1.xml, WDF_IO_QUEUE_DRAINED, WDF_IO_QUEUE_DRAINED function, kmdf.wdf_io_queue_drained, wdf.wdf_io_queue_drained, wdfio/WDF_IO_QUEUE_DRAINED
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfio.h
 req.include-header: Wdf.h

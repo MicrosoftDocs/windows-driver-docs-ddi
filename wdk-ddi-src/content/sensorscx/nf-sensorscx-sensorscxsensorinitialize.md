@@ -6,11 +6,8 @@ description: This function sets the enumeration properties of a sensor.
 old-location: sensors\sensorscxsensorinitialize.htm
 tech.root: sensors
 ms.assetid: D6C0B66A-58ED-4E1D-89E2-4A1AF77281C1
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: SensorsCxSensorInitialize, SensorsCxSensorInitialize function [Sensor Devices], sensors.sensorscxsensorinitialize, sensorscx/SensorsCxSensorInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sensorscx.h
 req.include-header: 

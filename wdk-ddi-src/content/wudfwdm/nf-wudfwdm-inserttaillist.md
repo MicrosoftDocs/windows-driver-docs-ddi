@@ -6,11 +6,8 @@ description: The InsertTailList routine inserts an entry at the tail of a doubly
 old-location: kernel\inserttaillist.htm
 tech.root: kernel
 ms.assetid: 9eb470c8-ee37-497e-982e-d32b4b9b7348
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: InsertTailList, InsertTailList routine [Kernel-Mode Driver Architecture], k109_8f31d6a6-89a0-440c-9397-2bef61a5878f.xml, kernel.inserttaillist, wdm/InsertTailList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wudfwdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h

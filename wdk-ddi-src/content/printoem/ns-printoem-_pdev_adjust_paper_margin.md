@@ -6,11 +6,8 @@ description: The PDEV_ADJUST_PAPER_MARGIN structure specifies the imageable prin
 old-location: print\pdev_adjust_paper_margin.htm
 tech.root: print
 ms.assetid: f44a0a42-1fa1-4dd2-bd9f-74b0d0ed823e
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: PDEV_ADJUST_PAPER_MARGIN, PDEV_ADJUST_PAPER_MARGIN structure [Print Devices], _PDEV_ADJUST_PAPER_MARGIN, print.pdev_adjust_paper_margin, print_unidrv-pscript_rendering_09d49312-b306-40c0-ad25-bc3669e8eedd.xml, printoem/PDEV_ADJUST_PAPER_MARGIN
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: printoem.h
 req.include-header: Prcomoem.h

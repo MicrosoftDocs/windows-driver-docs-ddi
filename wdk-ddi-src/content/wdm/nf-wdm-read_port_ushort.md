@@ -6,11 +6,8 @@ description: The READ_PORT_USHORT routine reads a USHORT value from the specifie
 old-location: kernel\read_port_ushort.htm
 tech.root: kernel
 ms.assetid: 55f759dc-8fc7-4d47-9b3d-55d8902ed805
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: READ_PORT_USHORT, READ_PORT_USHORT routine [Kernel-Mode Driver Architecture], k103_b7b22427-572f-43d7-b6bd-dcf2dd7ac104.xml, kernel.read_port_ushort, wdm/READ_PORT_USHORT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h

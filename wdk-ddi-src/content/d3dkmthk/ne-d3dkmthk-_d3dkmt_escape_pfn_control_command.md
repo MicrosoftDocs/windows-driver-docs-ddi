@@ -4,12 +4,9 @@ title: _D3DKMT_ESCAPE_PFN_CONTROL_COMMAND
 author: windows-driver-content
 description: Escape function pointer control commands.
 ms.assetid: 67570b6b-4143-468a-b93f-f8c031bfaed5
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DKMT_ESCAPE_PFN_CONTROL_COMMAND, D3DKMT_ESCAPE_PFN_CONTROL_COMMAND, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

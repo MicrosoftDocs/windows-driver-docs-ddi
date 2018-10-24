@@ -4,11 +4,8 @@ title: D3D12DDIARG_METACOMMAND_DESC
 author: windows-driver-content
 description: Contains information about a meta-command.
 ms.assetid: d61a72ca-9e93-456f-b10f-e8a0b6516b4b
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDIARG_METACOMMAND_DESC, D3D12DDIARG_METACOMMAND_DESC,
 req.header: d3d12umddi.h
 req.include-header:

@@ -6,11 +6,8 @@ description: The IoDetachDevice routine releases an attachment between the calle
 old-location: kernel\iodetachdevice.htm
 tech.root: kernel
 ms.assetid: 5822b642-0ba4-46ee-bb60-b109c50691eb
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoDetachDevice, IoDetachDevice routine [Kernel-Mode Driver Architecture], k104_e928372b-1222-4421-bea7-c2457c38a09f.xml, kernel.iodetachdevice, wdm/IoDetachDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

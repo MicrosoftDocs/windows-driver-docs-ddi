@@ -6,11 +6,8 @@ description: The RtlCreateSecurityDescriptor routine initializes a new absolute-
 old-location: kernel\rtlcreatesecuritydescriptor.htm
 tech.root: kernel
 ms.assetid: f9e08a57-c9dd-4703-b29d-c169ba77f194
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlCreateSecurityDescriptor, RtlCreateSecurityDescriptor routine [Kernel-Mode Driver Architecture], k109_3e7817b3-76e0-4acb-b8a3-af78219ffb85.xml, kernel.rtlcreatesecuritydescriptor, wdm/RtlCreateSecurityDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

@@ -6,11 +6,8 @@ description: The WdfDmaTransactionGetBytesTransferred method returns the total n
 old-location: wdf\wdfdmatransactiongetbytestransferred.htm
 tech.root: wdf
 ms.assetid: 32cc50bc-a93b-43ec-98c7-bfaaebbe6c28
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDmaObjectRef_a8d61436-75d3-4c14-a81b-6ba7adb3c442.xml, WdfDmaTransactionGetBytesTransferred, WdfDmaTransactionGetBytesTransferred method, kmdf.wdfdmatransactiongetbytestransferred, wdf.wdfdmatransactiongetbytestransferred, wdfdmatransaction/WdfDmaTransactionGetBytesTransferred
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h

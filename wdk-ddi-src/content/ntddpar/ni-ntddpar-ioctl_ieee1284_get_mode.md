@@ -6,11 +6,8 @@ description: The IOCTL_IEEE1284_GET_MODE request returns the IEEE 1284 read and 
 old-location: parports\ioctl_ieee1284_get_mode.htm
 tech.root: parports
 ms.assetid: d4bf4c05-fd60-4770-830c-1b146eaec967
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_IEEE1284_GET_MODE, IOCTL_IEEE1284_GET_MODE control code [Parallel Ports], cisspd_e421ca10-5fc6-444c-bb92-09f680fca56a.xml, ntddpar/IOCTL_IEEE1284_GET_MODE, parports.ioctl_ieee1284_get_mode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddpar.h
 req.include-header: Ntddpar.h

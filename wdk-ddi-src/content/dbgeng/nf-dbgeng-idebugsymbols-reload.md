@@ -6,11 +6,8 @@ description: The Reload method deletes the engine's symbol information for the s
 old-location: debugger\reload.htm
 tech.root: debugger
 ms.assetid: f739d5b8-80be-40e3-9139-93342c4fe458
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugSymbols interface [Windows Debugging],Reload method, IDebugSymbols.Reload, IDebugSymbols2 interface [Windows Debugging],Reload method, IDebugSymbols2::Reload, IDebugSymbols3 interface [Windows Debugging],Reload method, IDebugSymbols3::Reload, IDebugSymbols::Reload, IDebugSymbols_ec5df701-b081-45c4-b2e4-10c101ce69a4.xml, Reload, Reload method [Windows Debugging], Reload method [Windows Debugging],IDebugSymbols interface, Reload method [Windows Debugging],IDebugSymbols2 interface, Reload method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::Reload, dbgeng/IDebugSymbols3::Reload, dbgeng/IDebugSymbols::Reload, debugger.reload
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

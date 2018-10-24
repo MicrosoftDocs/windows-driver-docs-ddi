@@ -4,11 +4,8 @@ title: PENTROPY_SOURCE_CALLBACK_FUNCTION
 author: windows-driver-content
 description: 
 ms.assetid: e9ed974c-3854-4644-8ad9-9f694082698e
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: systemrng.h
 req.include-header:
 req.target-type:
@@ -46,7 +43,7 @@ targetos: Windows
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PENTROPY_SOURCE_CALLBACK_FUNCTION PentropySourceCallbackFunction; 

@@ -6,11 +6,8 @@ description: The TmRecoverEnlistment routine initiates a recovery operation for 
 old-location: kernel\tmrecoverenlistment.htm
 tech.root: kernel
 ms.assetid: 2483ca0e-f9b5-4cd0-a5c5-29b48099d86f
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: TmRecoverEnlistment, TmRecoverEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmrecoverenlistment, ktm_ref_bcbfbdfe-017c-4d33-a0f5-dda597ee9166.xml, wdm/TmRecoverEnlistment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

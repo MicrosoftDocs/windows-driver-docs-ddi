@@ -5,12 +5,9 @@ author: windows-driver-content
 description: The WDI_OS_POWER_MANAGEMENT_FLAGS enumeration defines supported enablement scenarios of the NIC Auto Power Saver (NAPS) OS power management feature.
 tech.root: netvista
 ms.assetid: 5caa9b1f-cafa-42d0-8402-86799fd8885f
-ms.author: windowsdriverdev
 ms.date: 03/30/2018
 ms.topic: enum
 ms.keywords: _WDI_OS_POWER_MANAGEMENT_FLAGS, WDI_OS_POWER_MANAGEMENT_FLAGS, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wditypes.hpp
 req.include-header:
 req.target-type:

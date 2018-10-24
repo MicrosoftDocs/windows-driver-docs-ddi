@@ -5,7 +5,6 @@ author: windows-driver-content
 description: NET_BUFFER_LIST_MINIPORT_RESERVED is a macro that NDIS drivers use to access the MiniportReserved member of a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: ad5d52fd-b4e6-44e0-989c-8f840f13811b
-ms.author: windowsdriverdev
 ms.date: 04/13/2018
 ms.topic: macro
 ms.keywords: NET_BUFFER_LIST_MINIPORT_RESERVED

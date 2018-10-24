@@ -6,11 +6,8 @@ description: The CcPinMappedData routine pins the specified byte range of a cach
 old-location: ifsk\ccpinmappeddata.htm
 tech.root: ifsk
 ms.assetid: aa0903db-fced-4af9-bfc9-2769ed4962a1
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: CcPinMappedData, CcPinMappedData routine [Installable File System Drivers], ccref_3935eee3-9906-4110-812f-ca186953cfbf.xml, ifsk.ccpinmappeddata, ntifs/CcPinMappedData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

@@ -5,12 +5,9 @@ author: windows-driver-content
 description: Specifies a client driver's power capabilities.
 tech.root: netvista
 ms.assetid: 880a2606-f7cb-4552-b89b-238abd062e3d
-ms.author: windowsdriverdev
 ms.date: 02/05/2018
 ms.topic: enum
 ms.keywords: _NET_ADAPTER_POWER_FLAGS, NET_ADAPTER_POWER_FLAGS, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: netadapter.h
 req.include-header:
 req.target-type:

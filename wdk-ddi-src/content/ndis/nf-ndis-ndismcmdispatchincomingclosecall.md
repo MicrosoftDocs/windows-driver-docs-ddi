@@ -6,11 +6,8 @@ description: NdisMCmDispatchIncomingCloseCall tells a client to tear down an act
 old-location: netvista\ndismcmdispatchincomingclosecall.htm
 tech.root: netvista
 ms.assetid: 843050e1-a1ec-4313-b527-529c4ff6ca07
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMCmDispatchIncomingCloseCall, NdisMCmDispatchIncomingCloseCall macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_b5a94c5f-7483-44dd-8167-6e64f52cada6.xml, ndis/NdisMCmDispatchIncomingCloseCall, netvista.ndismcmdispatchincomingclosecall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ndis.h
 req.include-header: Ndis.h

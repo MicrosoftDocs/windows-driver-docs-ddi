@@ -5,11 +5,8 @@ author: windows-driver-content
 tech.root: usbref
 description: 
 ms.assetid: 8572406b-0348-4b9b-bd82-6f3d88b733ed
-ms.author: windowsdriverdev
 ms.date: 09/30/2018
 ms.topic: ioctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: Ucmucsippmrequests.h
 req.include-header: UcmUcsiCx.h
 req.target-type:

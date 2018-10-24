@@ -6,11 +6,8 @@ description: This structure provides a handle for the Universal Serial Bus (USB)
 old-location: buses\_usbdevice_mgmt_header.htm
 tech.root: usbref
 ms.assetid: E3CDED41-FE83-4CBC-9FF8-4858125F7108
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSBDEVICE_MGMT_HEADER, P_USBDEVICE_MGMT_HEADER, P_USBDEVICE_MGMT_HEADER structure pointer [Buses], USBDEVICE_MGMT_HEADER, USBDEVICE_MGMT_HEADER structure [Buses], _USBDEVICE_MGMT_HEADER, buses._usbdevice_mgmt_header, ucxusbdevice/P_USBDEVICE_MGMT_HEADER, ucxusbdevice/_USBDEVICE_MGMT_HEADER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h

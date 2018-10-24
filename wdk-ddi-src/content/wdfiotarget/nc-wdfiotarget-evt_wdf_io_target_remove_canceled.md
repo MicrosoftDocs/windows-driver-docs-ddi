@@ -6,11 +6,8 @@ description: A driver's EvtIoTargetRemoveCanceled event callback function perfor
 old-location: wdf\evtiotargetremovecanceled.htm
 tech.root: wdf
 ms.assetid: 9f275a2c-6f40-461d-bd2c-767b2494ad1c
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_5e8c3229-8657-4c26-8bfc-01c8436a8171.xml, EVT_WDF_IO_TARGET_REMOVE_CANCELED, EVT_WDF_IO_TARGET_REMOVE_CANCELED callback, EvtIoTargetRemoveCanceled, EvtIoTargetRemoveCanceled callback function, kmdf.evtiotargetremovecanceled, wdf.evtiotargetremovecanceled, wdfiotarget/EvtIoTargetRemoveCanceled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfiotarget.h
 req.include-header: Wdf.h

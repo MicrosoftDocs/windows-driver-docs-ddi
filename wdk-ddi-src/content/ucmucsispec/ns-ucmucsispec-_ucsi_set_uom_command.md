@@ -4,12 +4,9 @@ title: _UCSI_SET_UOM_COMMAND
 author: windows-driver-content
 description: Used in the SET_UOM command. See Table 4-18.
 ms.assetid: 45926fa9-c2ce-4949-a644-4b43b9763d73
-ms.author: windowsdriverdev
 tech.root: usbref
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _UCSI_SET_UOM_COMMAND, UCSI_SET_UOM_COMMAND, *PUCSI_SET_UOM_COMMAND, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

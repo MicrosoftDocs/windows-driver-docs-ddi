@@ -6,11 +6,8 @@ description: Miniport drivers call NdisMDeregisterInterruptEx to release resourc
 old-location: netvista\ndismderegisterinterruptex.htm
 tech.root: netvista
 ms.assetid: bc0718b6-4c71-41a8-bab6-a52991b284d9
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMDeregisterInterruptEx, NdisMDeregisterInterruptEx function [Network Drivers Starting with Windows Vista], ndis/NdisMDeregisterInterruptEx, ndis_interrupts_functions_ref_51574ad2-1b99-4238-b6a3-e427c321cd16.xml, netvista.ndismderegisterinterruptex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

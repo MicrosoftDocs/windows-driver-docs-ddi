@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Reads a data byte from the UART device.
 tech.root: serports
 ms.assetid: d0b97aa3-4e93-498d-8afc-44588fd21388
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: uart.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Reads a data byte from the UART device.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 UART_GET_BYTE UartGetByte;

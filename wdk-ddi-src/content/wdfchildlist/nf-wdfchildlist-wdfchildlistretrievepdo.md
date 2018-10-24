@@ -6,11 +6,8 @@ description: The WdfChildListRetrievePdo method returns a handle to the framewor
 old-location: wdf\wdfchildlistretrievepdo.htm
 tech.root: wdf
 ms.assetid: 8e6042e4-b004-4250-b208-b0614d2d11fd
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectChildListRef_d61bfe9b-d201-48ae-89f4-4e1566c0a396.xml, WdfChildListRetrievePdo, WdfChildListRetrievePdo method, kmdf.wdfchildlistretrievepdo, wdf.wdfchildlistretrievepdo, wdfchildlist/WdfChildListRetrievePdo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfchildlist.h
 req.include-header: Wdf.h

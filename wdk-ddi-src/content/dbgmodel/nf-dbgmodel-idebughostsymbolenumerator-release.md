@@ -4,7 +4,6 @@ title: IDebugHostSymbolEnumerator::Release
 author: windows-driver-content
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 8de7fadd-4a77-43f4-8e12-2df0669a074b
-ms.author: windowsdriverdev
 ms.date: 08/22/2018
 ms.topic: method
 ms.keywords: IDebugHostSymbolEnumerator::Release, Release, IDebugHostSymbolEnumerator.Release, IDebugHostSymbolEnumerator::Release, IDebugHostSymbolEnumerator.Release

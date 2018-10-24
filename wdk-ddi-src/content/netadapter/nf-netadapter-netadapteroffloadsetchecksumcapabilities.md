@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NetAdapterOffloadSetChecksumCapabilities method sets the hardware checksum offload capabilities of a network adapter.
 tech.root: netvista
 ms.assetid: 103b7d8e-b6bd-497a-9ee8-18b66e13a9ab
-ms.author: windowsdriverdev
 ms.date: 07/19/2018
 ms.topic: function
 ms.keywords: NetAdapterOffloadSetChecksumCapabilities

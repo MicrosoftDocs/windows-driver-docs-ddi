@@ -6,11 +6,8 @@ description: The flags that are set by the client driver in the EVT_UCX_USBDEVIC
 old-location: buses\_usbdevice_update_failure_flags.htm
 tech.root: usbref
 ms.assetid: D01F8C2D-4E17-4FB7-A3C6-4B7EEDF07E0D
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: P_USBDEVICE_UPDATE_FAILURE_FLAGS, P_USBDEVICE_UPDATE_FAILURE_FLAGS structure pointer [Buses], USBDEVICE_UPDATE_FAILURE_FLAGS, USBDEVICE_UPDATE_FAILURE_FLAGS structure [Buses], _USBDEVICE_UPDATE_FAILURE_FLAGS, buses._usbdevice_update_failure_flags, ucxusbdevice/P_USBDEVICE_UPDATE_FAILURE_FLAGS, ucxusbdevice/_USBDEVICE_UPDATE_FAILURE_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h

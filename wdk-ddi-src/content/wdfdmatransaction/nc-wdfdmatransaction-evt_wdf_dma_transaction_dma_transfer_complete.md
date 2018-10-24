@@ -6,11 +6,8 @@ description: A driver's EvtDmaTransactionDmaTransferComplete event callback func
 old-location: wdf\evtdmatransactiondmatransfercomplete.htm
 tech.root: wdf
 ms.assetid: C638A505-AAE1-48FC-B06B-F2F161ADC948
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE, EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE callback, EvtDmaTransactionDmaTransferComplete, EvtDmaTransactionDmaTransferComplete callback function, kmdf.evtdmatransactiondmatransfercomplete, wdf.evtdmatransactiondmatransfercomplete, wdfdmatransaction/EvtDmaTransactionDmaTransferComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h

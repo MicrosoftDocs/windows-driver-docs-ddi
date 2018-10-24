@@ -6,11 +6,8 @@ description: The WdfWaitLockAcquire method acquires a specified wait lock.
 old-location: wdf\wdfwaitlockacquire.htm
 tech.root: wdf
 ms.assetid: 6fe7465d-938a-400f-b141-76e8a5ffbe90
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFSynchroRef_eccb7d51-5e5e-4b2b-8156-c22d35f46809.xml, WdfWaitLockAcquire, WdfWaitLockAcquire method, kmdf.wdfwaitlockacquire, wdf.wdfwaitlockacquire, wdfsync/WdfWaitLockAcquire
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfsync.h
 req.include-header: Wdf.h

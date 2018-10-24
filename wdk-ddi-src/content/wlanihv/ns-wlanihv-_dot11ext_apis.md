@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11ext_apis.htm
 tech.root: netvista
 ms.assetid: d533acbb-eb3b-4c49-a057-9a99faaacfc1
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11EXT_APIS, DOT11EXT_APIS, DOT11EXT_APIS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_27860ed6-1413-4bc6-9cd0-fb4391dff322.xml, PDOT11EXT_APIS, PDOT11EXT_APIS structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_APIS, netvista.dot11ext_apis, wlanihv/DOT11EXT_APIS, wlanihv/PDOT11EXT_APIS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
@@ -58,7 +55,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DOT11EXT_APIS {
   DOT11EXT_ALLOCATE_BUFFER                Dot11ExtAllocateBuffer;
   DOT11EXT_FREE_BUFFER                    Dot11ExtFreeBuffer;
@@ -83,7 +80,7 @@ typedef struct _DOT11EXT_APIS {
   DOT11EXT_ONEX_STOP                      Dot11ExtStopOneX;
   DOT11EXT_PROCESS_ONEX_PACKET            Dot11ExtProcessOneXPacket;
 } DOT11EXT_APIS, *PDOT11EXT_APIS;
-````
+```
 
 
 ## -struct-fields

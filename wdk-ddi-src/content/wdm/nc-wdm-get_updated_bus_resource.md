@@ -4,11 +4,8 @@ title: GET_UPDATED_BUS_RESOURCE
 author: windows-driver-content
 description: Reports the latest resource lists.
 ms.assetid: d2624b1d-c2db-4240-ae78-1bda7efb8c7f
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -46,7 +43,7 @@ Reports the latest resource lists.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 GET_UPDATED_BUS_RESOURCE GetUpdatedBusResource; 

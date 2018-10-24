@@ -6,11 +6,8 @@ description: The _URB_SELECT_CONFIGURATION structure is used by client drivers t
 old-location: buses\_urb_select_configuration.htm
 tech.root: usbref
 ms.assetid: a6a4963b-64d7-4f46-bc19-16925929e7c7
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "_URB_SELECT_CONFIGURATION, _URB_SELECT_CONFIGURATION structure [Buses], buses._urb_select_configuration, usb/_URB_SELECT_CONFIGURATION, usbstrct_cfe530e7-f16f-4d45-96e9-e1603bde77b9.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: usb.h
 req.include-header: Usb.h

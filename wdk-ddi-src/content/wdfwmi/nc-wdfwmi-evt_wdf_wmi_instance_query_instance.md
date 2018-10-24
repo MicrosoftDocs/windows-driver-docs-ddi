@@ -6,11 +6,8 @@ description: A driver's EvtWmiInstanceQueryInstance callback function copies a W
 old-location: wdf\evtwmiinstancequeryinstance.htm
 tech.root: wdf
 ms.assetid: 13eed838-2943-4bb4-915f-6a84f0f95851
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFWMIRef_424a0070-8839-4d3f-b285-166b23ac03f7.xml, EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE, EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE callback, EvtWmiInstanceQueryInstance, EvtWmiInstanceQueryInstance callback function, kmdf.evtwmiinstancequeryinstance, wdf.evtwmiinstancequeryinstance, wdfwmi/EvtWmiInstanceQueryInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfwmi.h
 req.include-header: Wdf.h

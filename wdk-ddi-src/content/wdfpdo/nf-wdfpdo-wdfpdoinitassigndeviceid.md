@@ -6,11 +6,8 @@ description: The WdfPdoInitAssignDeviceID method updates the device ID for a chi
 old-location: wdf\wdfpdoinitassigndeviceid.htm
 tech.root: wdf
 ms.assetid: f8992245-42db-4ca8-afdc-e123adc0a40d
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_c0885107-9e40-4c57-ab50-c757ea58b2f9.xml, WdfPdoInitAssignDeviceID, WdfPdoInitAssignDeviceID method, kmdf.wdfpdoinitassigndeviceid, wdf.wdfpdoinitassigndeviceid, wdfpdo/WdfPdoInitAssignDeviceID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfpdo.h
 req.include-header: Wdf.h

@@ -6,11 +6,8 @@ description: Gets a Unicode character string prefix for output lines.
 old-location: debugger\idebugclient5_getoutputlineprefixwide.htm
 tech.root: debugger
 ms.assetid: 145A478E-826B-4E82-B358-6140D3A4063F
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetOutputLinePrefixWide, GetOutputLinePrefixWide method [Windows Debugging], GetOutputLinePrefixWide method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],GetOutputLinePrefixWide method, IDebugClient5.GetOutputLinePrefixWide, IDebugClient5::GetOutputLinePrefixWide, dbgeng/IDebugClient5::GetOutputLinePrefixWide, debugger.idebugclient5_getoutputlineprefixwide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

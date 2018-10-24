@@ -6,11 +6,8 @@ description: The RtlUnicodeToMultiByteN routine translates the specified Unicode
 old-location: ifsk\rtlunicodetomultibyten.htm
 tech.root: ifsk
 ms.assetid: e50199d2-948d-4572-8688-89d92961f85b
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlUnicodeToMultiByteN, RtlUnicodeToMultiByteN routine [Installable File System Drivers], ifsk.rtlunicodetomultibyten, ntifs/RtlUnicodeToMultiByteN, rtlref_233ec1ac-8ecc-4261-8f17-11485d03ec50.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Fltkernel.h, Ntifs.h

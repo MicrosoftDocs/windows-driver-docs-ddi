@@ -4,7 +4,6 @@ title: IDebugHostType::GetName
 author: windows-driver-content
 description: Returns the name of the symbol if the symbol has a name.  If the symbol does not have a name, an error is returned.
 ms.assetid: ec08f1c6-c70b-4007-b4a3-b5a1099edc76
-ms.author: windowsdriverdev
 ms.date: 09/21/2018
 ms.topic: method
 ms.keywords: IDebugHostType::GetName, GetName, IDebugHostType.GetName, IDebugHostType::GetName, IDebugHostType.GetName

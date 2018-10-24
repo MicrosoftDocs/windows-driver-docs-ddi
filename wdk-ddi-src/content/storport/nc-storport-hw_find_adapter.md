@@ -6,11 +6,8 @@ description: The HwStorFindAdapter routine uses the supplied configuration to de
 old-location: storage\hwstorfindadapter.htm
 tech.root: storage
 ms.assetid: 8642d0b8-ebc8-4053-b35e-3a81108a2f7f
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HW_FIND_ADAPTER, HwStorFindAdapter, HwStorFindAdapter routine [Storage Devices], storage.hwstorfindadapter, stormini_844ef988-84c8-4f93-b732-eb0a2e8d611a.xml, storport/HwStorFindAdapter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: storport.h
 req.include-header: Storport.h

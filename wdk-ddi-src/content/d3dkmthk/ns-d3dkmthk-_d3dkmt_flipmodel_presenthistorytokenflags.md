@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure identifies attributes of a flip present-history operation.
 old-location: display\d3dkmt_flipmodel_presenthistorytokenflags.htm
 ms.assetid: 61901e06-fefd-4481-9f19-60ead55bbe36
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure [Display Devices], OpenGL_Structs_1ffd61bb-ba0b-4ee5-95af-d8c7e38c0b15.xml, _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, d3dkmthk/D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, display.d3dkmt_flipmodel_presenthistorytokenflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
@@ -56,7 +53,7 @@ The D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure identifies attributes of
 ## -syntax
 
 
-````
+```cpp
 typedef struct _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS {
   union {
     struct {
@@ -78,7 +75,7 @@ typedef struct _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS {
     UINT   Value;
   };
 } D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS;
-````
+```
 
 
 ## -struct-fields

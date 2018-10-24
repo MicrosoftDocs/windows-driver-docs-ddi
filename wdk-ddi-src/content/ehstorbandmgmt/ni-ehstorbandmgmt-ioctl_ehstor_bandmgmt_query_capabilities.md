@@ -6,11 +6,8 @@ description: The IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES request retrieves the 
 old-location: storage\ioctl_ehstor_bandmgmt_query_capabilities.htm
 tech.root: storage
 ms.assetid: 16D035EF-2234-4D5A-8D19-8CF3BA8B3590
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES, IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES control, IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES, storage.ioctl_ehstor_bandmgmt_query_capabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h

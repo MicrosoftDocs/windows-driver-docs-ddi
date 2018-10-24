@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The NET_PACKET_LARGE_SEND_SEGMENTATION structure contains large send offload (LSO) information for a packet.
 tech.root: netvista
 ms.assetid: a6483202-e3e4-48d9-86fa-42f21d57206f
-ms.author: windowsdriverdev
 ms.date: 03/02/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _NET_PACKET_LARGE_SEND_SEGMENTATION, NET_PACKET_LARGE_SEND_SEGMENTATION, 
 req.header: netpacket.h
 req.include-header: netadaptercx.h

@@ -6,11 +6,8 @@ description: Converts a value of type ULONGLONG to a value of type ULONG_PTR.
 old-location: kernel\rtlulonglongtoulongptr.htm
 tech.root: kernel
 ms.assetid: D170649F-D0CE-454B-8F2B-18C66F58CAF7
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlULongLongToULongPtr, RtlULongLongToULongPtr function [Kernel-Mode Driver Architecture], kernel.rtlulonglongtoulongptr, ntintsafe/RtlULongLongToULongPtr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

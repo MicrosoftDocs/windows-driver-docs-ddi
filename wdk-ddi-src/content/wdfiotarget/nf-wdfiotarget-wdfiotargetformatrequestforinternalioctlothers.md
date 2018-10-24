@@ -6,11 +6,8 @@ description: The WdfIoTargetFormatRequestForInternalIoctlOthers method builds a 
 old-location: wdf\wdfiotargetformatrequestforinternalioctlothers.htm
 tech.root: wdf
 ms.assetid: e843eb33-f688-4963-9f35-244b4ed0ef7a
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_bf839577-4858-4b98-adf3-cee7e8f01bd5.xml, WdfIoTargetFormatRequestForInternalIoctlOthers, WdfIoTargetFormatRequestForInternalIoctlOthers method, kmdf.wdfiotargetformatrequestforinternalioctlothers, wdf.wdfiotargetformatrequestforinternalioctlothers, wdfiotarget/WdfIoTargetFormatRequestForInternalIoctlOthers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfiotarget.h
 req.include-header: Wdf.h

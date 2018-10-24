@@ -6,11 +6,8 @@ description: The SE_TOKEN_USER structure holds the maximum-sized valid user SID 
 old-location: ifsk\se_token_user.htm
 tech.root: ifsk
 ms.assetid: 3B870461-0C5D-46DF-A850-EB796AE5A4CB
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: PSE_TOKEN_USER, PSE_TOKEN_USER structure pointer [Installable File System Drivers], SE_TOKEN_USER, SE_TOKEN_USER structure [Installable File System Drivers], _SE_TOKEN_USER, ifsk.se_token_user, ntifs/PSE_TOKEN_USER, ntifs/SE_TOKEN_USER
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntifs.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The WskRegister function registers a WSK application, given the app
 old-location: netvista\wskregister.htm
 tech.root: netvista
 ms.assetid: 340933ad-1a71-421c-b1e1-360aa9c441fd
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: WskRegister, WskRegister function [Network Drivers Starting with Windows Vista], netvista.wskregister, wsk/WskRegister, wskref_21a26aab-f817-457f-bfde-28bcf1e2c8d0.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wsk.h
 req.include-header: Wsk.h

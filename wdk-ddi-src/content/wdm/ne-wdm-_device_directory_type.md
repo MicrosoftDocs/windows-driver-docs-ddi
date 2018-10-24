@@ -4,12 +4,9 @@ title: _DEVICE_DIRECTORY_TYPE
 author: windows-driver-content
 description: The directory from which the driver is loaded. 
 ms.assetid: d49e913a-dadb-4669-b3a4-e08a60b2a767
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _DEVICE_DIRECTORY_TYPE, DEVICE_DIRECTORY_TYPE, *PDEVICE_DIRECTORY_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:

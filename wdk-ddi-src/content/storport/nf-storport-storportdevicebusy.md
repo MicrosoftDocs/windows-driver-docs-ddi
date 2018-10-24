@@ -6,11 +6,8 @@ description: The StorPortDeviceBusy routine notifies the port driver that the sp
 old-location: storage\storportdevicebusy.htm
 tech.root: storage
 ms.assetid: 9b774f05-f2f6-4148-8fee-0efe209f7e4d
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortDeviceBusy, StorPortDeviceBusy routine [Storage Devices], storage.storportdevicebusy, storport/StorPortDeviceBusy, storprt_c1496cbe-e4b0-4b2b-8947-587b2467c57f.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

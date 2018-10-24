@@ -6,11 +6,8 @@ description: The KsGateAddOffInputToOr function adds a new input in the OFF stat
 old-location: stream\ksgateaddoffinputtoor.htm
 tech.root: stream
 ms.assetid: 93d5076c-d8db-4b4b-b390-5f9072d2ae63
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsGateAddOffInputToOr, KsGateAddOffInputToOr function [Streaming Media Devices], avfunc_abee7d7c-388b-4a48-a573-6b46a1c9dc46.xml, ks/KsGateAddOffInputToOr, stream.ksgateaddoffinputtoor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

@@ -6,11 +6,8 @@ description: A print processor's PrintDocumentOnPrintProcessor function converts
 old-location: print\printdocumentonprintprocessor.htm
 tech.root: print
 ms.assetid: 1360a699-e312-40be-bf2f-b73b1419cfc5
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: PrintDocumentOnPrintProcessor, PrintDocumentOnPrintProcessor function [Print Devices], print.printdocumentonprintprocessor, spoolfnc_38f81d3c-62d9-4804-ad89-120c9a333a09.xml, winsplp/PrintDocumentOnPrintProcessor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsplp.h
 req.include-header: Winsplp.h

@@ -4,7 +4,6 @@ title: IKeyEnumerator::Reset
 author: windows-driver-content
 description: Resets the enumerator to its initial state. 
 ms.assetid: e0015d19-19cc-4ffc-90cd-e4b690847cbb
-ms.author: windowsdriverdev
 ms.date: 08/13/2018
 ms.topic: method
 ms.keywords: IKeyEnumerator::Reset, Reset, IKeyEnumerator.Reset, IKeyEnumerator::Reset, IKeyEnumerator.Reset

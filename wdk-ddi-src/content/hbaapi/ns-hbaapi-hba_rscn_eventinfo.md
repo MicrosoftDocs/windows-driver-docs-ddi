@@ -6,11 +6,8 @@ description: The HBA_Link_EventInfo structure contains information about a WMI R
 old-location: storage\hba_rscn_eventinfo.htm
 tech.root: storage
 ms.assetid: d726d974-a877-464d-9721-6caf8a8402bf
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PHBA_RSCN_EVENTINFO, HBA_RSCN_EVENTINFO, HBA_RSCN_EVENTINFO structure [Storage Devices], HBA_RSCN_EventInfo, HBA_RSCN_EventInfo structure [Storage Devices], PHBA_RSCN_EVENTINFO, PHBA_RSCN_EVENTINFO structure pointer [Storage Devices], hbaapi/HBA_RSCN_EventInfo, hbaapi/PHBA_RSCN_EVENTINFO, storage.hba_rscn_eventinfo, structs-Fibre_c0cb4c14-5ff5-44cb-abb4-08673227f193.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hbaapi.h
 req.include-header: Hbaapi.h

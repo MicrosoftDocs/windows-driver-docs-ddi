@@ -6,11 +6,8 @@ description: The GetInputMemory method retrieves the memory object that represen
 old-location: wdf\iwdfiorequest_getinputmemory.htm
 tech.root: wdf
 ms.assetid: be3f965b-69fe-4d5e-b1b6-3a370603cd7b
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: GetInputMemory, GetInputMemory method, GetInputMemory method,IWDFIoRequest interface, IWDFIoRequest interface,GetInputMemory method, IWDFIoRequest.GetInputMemory, IWDFIoRequest::GetInputMemory, UMDFRequestObjectRef_80c18660-b423-42b0-879d-a8732d2e7796.xml, umdf.iwdfiorequest_getinputmemory, wdf.iwdfiorequest_getinputmemory, wudfddi/IWDFIoRequest::GetInputMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

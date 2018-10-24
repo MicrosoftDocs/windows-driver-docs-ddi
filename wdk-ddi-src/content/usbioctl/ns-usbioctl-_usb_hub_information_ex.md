@@ -6,11 +6,8 @@ description: The USB_HUB_INFORMATION_EX structure is used with the IOCTL_USB_GET
 old-location: buses\usb_hub_information_ex.htm
 tech.root: usbref
 ms.assetid: 23E99282-16BD-4E1E-9419-C1F44B913C4F
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSB_HUB_INFORMATION_EX, PUSB_HUB_INFORMATION_EX, PUSB_HUB_INFORMATION_EX structure pointer [Buses], USB_HUB_INFORMATION_EX, USB_HUB_INFORMATION_EX structure [Buses], _USB_HUB_INFORMATION_EX, buses.usb_hub_information_ex, usbioctl/PUSB_HUB_INFORMATION_EX, usbioctl/USB_HUB_INFORMATION_EX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: usbioctl.h
 req.include-header: Usbioctl.h

@@ -6,11 +6,8 @@ description: The NV Cache Management operations that are defined here can be inv
 old-location: storage\ioctl_scsi_miniport_nvcache.htm
 tech.root: storage
 ms.assetid: 6331e850-34a7-4d03-a87b-527f3e38f735
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_SCSI_MINIPORT_NVCACHE, IOCTL_SCSI_MINIPORT_NVCACHE control, IOCTL_SCSI_MINIPORT_NVCACHE control code [Storage Devices], k307_0a3946a8-c611-4499-b62c-25f920eeec1e.xml, ntddscsi/IOCTL_SCSI_MINIPORT_NVCACHE, storage.ioctl_scsi_miniport_nvcache
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
@@ -55,7 +52,7 @@ The NV Cache Management operations that are defined here can be invoked by user-
 
 The NV Cache Management function request is specified in a field in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563241">NVCACHE_REQUEST_BLOCK</a> structure. The input to <a href="https://msdn.microsoft.com/library/windows/hardware/ff560512">IOCTL_SCSI_MINIPORT</a> is a user-defined data structure that contains an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a> structure followed by an <b>NVCACHE_REQUEST_BLOCK</b> structure. Additional function-specific data might optionally follow the <b>NVCACHE_REQUEST_BLOCK</b> structure.
 
-The interface that is used for the NV Cache Management functionality consists of two layers. The first layer is the interface between a caller and the port driver, which is defined by <a href="https://msdn.microsoft.com/library/windows/hardware/ff560512">IOCTL_SCSI_MINIPORT</a>. The second layer is the interface between the caller and the device, which is defined by the <a href="http://go.microsoft.com/fwlink/p/?linkid=74996">ATA8-ACS specification</a> and IOCTL_SCSI_MINIPORT_NVCACHE. The API for user-mode application code is the DeviceIoControl interface. The API for kernel-mode driver code is the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548318">IoBuildDeviceIoControlRequest</a> interface, which uses <b>IOCTL_SCSI_MINIPORT</b>.
+The interface that is used for the NV Cache Management functionality consists of two layers. The first layer is the interface between a caller and the port driver, which is defined by <a href="https://msdn.microsoft.com/library/windows/hardware/ff560512">IOCTL_SCSI_MINIPORT</a>. The second layer is the interface between the caller and the device, which is defined by the <a href="https://go.microsoft.com/fwlink/p/?linkid=74996">ATA8-ACS specification</a> and IOCTL_SCSI_MINIPORT_NVCACHE. The API for user-mode application code is the DeviceIoControl interface. The API for kernel-mode driver code is the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548318">IoBuildDeviceIoControlRequest</a> interface, which uses <b>IOCTL_SCSI_MINIPORT</b>.
 
 
 

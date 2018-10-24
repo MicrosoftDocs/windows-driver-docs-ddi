@@ -6,11 +6,8 @@ description: A print processor's ClosePrintProcessor function completes the prin
 old-location: print\closeprintprocessor.htm
 tech.root: print
 ms.assetid: 3cf87a18-8b5a-40f2-9c0e-2b29167e283d
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: ClosePrintProcessor, ClosePrintProcessor function [Print Devices], print.closeprintprocessor, spoolfnc_f2e791a0-bfae-463c-a7ac-0e9f941ebe51.xml, winsplp/ClosePrintProcessor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsplp.h
 req.include-header: Winsplp.h

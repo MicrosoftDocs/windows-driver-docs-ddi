@@ -6,11 +6,8 @@ description: The WdfRequestRetrieveInputMemory method retrieves a handle to a fr
 old-location: wdf\wdfrequestretrieveinputmemory.htm
 tech.root: wdf
 ms.assetid: c619e9b3-3736-48e3-a84d-e166be4f39af
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_180dea64-0a3a-4b59-89e8-37705a674e77.xml, WdfRequestRetrieveInputMemory, WdfRequestRetrieveInputMemory method, kmdf.wdfrequestretrieveinputmemory, wdf.wdfrequestretrieveinputmemory, wdfrequest/WdfRequestRetrieveInputMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfrequest.h
 req.include-header: Wdf.h

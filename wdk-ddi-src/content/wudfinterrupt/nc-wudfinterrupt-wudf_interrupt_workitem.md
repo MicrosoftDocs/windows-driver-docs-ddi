@@ -6,11 +6,8 @@ description: A driver's OnInterruptWorkItem event callback function processes in
 old-location: wdf\oninterruptworkitem.htm
 tech.root: wdf
 ms.assetid: 10677BC2-2A98-41C8-BAE9-1FA3689ACD93
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: OnInterruptWorkItem, OnInterruptWorkItem callback function, WUDF_INTERRUPT_WORKITEM, WUDF_INTERRUPT_WORKITEM callback, umdf.oninterruptworkitem, wdf.oninterruptworkitem, wudfinterrupt/OnInterruptWorkItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wudfinterrupt.h
 req.include-header: 

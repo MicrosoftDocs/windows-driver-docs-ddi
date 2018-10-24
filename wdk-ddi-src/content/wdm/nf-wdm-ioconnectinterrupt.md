@@ -6,11 +6,8 @@ description: The IoConnectInterrupt routine registers a device driver's Interrup
 old-location: kernel\ioconnectinterrupt.htm
 tech.root: kernel
 ms.assetid: a0f9a339-f548-47a2-92ab-ccd341592384
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoConnectInterrupt, IoConnectInterrupt routine [Kernel-Mode Driver Architecture], k104_efa094e0-ac29-491b-803a-8470ed39c915.xml, kernel.ioconnectinterrupt, wdm/IoConnectInterrupt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

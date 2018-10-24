@@ -6,11 +6,8 @@ description: The IOCTL_GNSS_CREATE_GEOFENCE control code is used by the GNSS ada
 old-location: gnss\ioctl_gnss_create_geofence.htm
 tech.root: gnss
 ms.assetid: 114B7E39-1FC6-4AC4-A238-3FC3D4A122B0
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_GNSS_CREATE_GEOFENCE, IOCTL_GNSS_CREATE_GEOFENCE control, IOCTL_GNSS_CREATE_GEOFENCE control code [Sensor Devices], gnss.ioctl_gnss_create_geofence, gnssdriver/IOCTL_GNSS_CREATE_GEOFENCE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: gnssdriver.h
 req.include-header: 

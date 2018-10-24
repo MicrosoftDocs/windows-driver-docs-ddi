@@ -6,11 +6,8 @@ description: A miniport driver's HwStorAdapterControl routine is called to perfo
 old-location: storage\hwstoradaptercontrol.htm
 tech.root: storage
 ms.assetid: e1944f1b-97db-4ac2-848e-e69359c09589
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HW_ADAPTER_CONTROL, HwStorAdapterControl, HwStorAdapterControl routine [Storage Devices], storage.hwstoradaptercontrol, stormini_19cbc8b1-9908-4b4d-a62b-712fb97e6bbd.xml, storport/HwStorAdapterControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: storport.h
 req.include-header: Storport.h

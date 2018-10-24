@@ -4,11 +4,8 @@ title: PFND3DKMT_OPENSWAPCHAIN
 author: windows-driver-content
 description: PfnOpenSwapChain opens a swap chain.
 ms.assetid: 540df885-7b52-4ebd-ac36-5c3d1920919a
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ PfnOpenSwapChain opens a swap chain.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_OPENSWAPCHAIN Pfnd3dkmtOpenswapchain; 

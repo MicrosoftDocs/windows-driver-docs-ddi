@@ -4,11 +4,8 @@ title: _D3DKMT_ADAPTER_VERIFIER_OPTION
 author: windows-driver-content
 description: The adapter verifier options.
 ms.assetid: 64629e1e-ac9d-4a3a-a298-d45c14dbce7f
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_ADAPTER_VERIFIER_OPTION, D3DKMT_ADAPTER_VERIFIER_OPTION, 
 req.header: d3dkmthk.h
 req.include-header:

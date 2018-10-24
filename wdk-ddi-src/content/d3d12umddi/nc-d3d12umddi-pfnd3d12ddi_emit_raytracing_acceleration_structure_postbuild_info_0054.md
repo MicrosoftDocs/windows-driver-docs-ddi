@@ -4,11 +4,8 @@ title: PFND3D12DDI_EMIT_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_0054
 author: windows-driver-content
 description: Emits post-build properties for a set of acceleration structures.
 ms.assetid: ae08659a-7863-4998-82f2-275aaff4f386
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Emits post-build properties for a set of acceleration structures.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_EMIT_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_0054 Pfnd3d12ddiEmitRaytracingAccelerationStructurePostbuildInfo0054; 

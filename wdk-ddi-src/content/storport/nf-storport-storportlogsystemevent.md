@@ -6,11 +6,8 @@ description: The StorPortLogSystemEvent routine gives miniport drivers full acce
 old-location: storage\storportlogsystemevent.htm
 tech.root: storage
 ms.assetid: 720245ff-8c97-4b8d-8406-f6b712fa74c9
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortLogSystemEvent, StorPortLogSystemEvent routine [Storage Devices], storage.storportlogsystemevent, storport/StorPortLogSystemEvent, storprt_15a23037-a0e9-4768-ab20-80d6fe7d8a56.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

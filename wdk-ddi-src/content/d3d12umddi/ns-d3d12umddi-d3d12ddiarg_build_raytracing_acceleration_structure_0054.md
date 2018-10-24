@@ -4,11 +4,8 @@ title: D3D12DDIARG_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054
 author: windows-driver-content
 description: Arguments used to build a ray tracing acceleration structure.
 ms.assetid: 5d8ed94d-cf46-41d8-ad8a-c2021d6fcf0b
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDIARG_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054, D3D12DDIARG_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054, 
 req.header: d3d12umddi.h
 req.include-header:

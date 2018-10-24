@@ -6,11 +6,8 @@ description: Returns product data for the device.
 old-location: storage\ioctl_changer_get_product_data.htm
 tech.root: storage
 ms.assetid: 2e3d0dbd-7d55-4241-9aea-f3474ab49025
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_CHANGER_GET_PRODUCT_DATA, IOCTL_CHANGER_GET_PRODUCT_DATA control, IOCTL_CHANGER_GET_PRODUCT_DATA control code [Storage Devices], k307_a03cd330-a457-4f88-b1e7-2a03ff7651e8.xml, ntddchgr/IOCTL_CHANGER_GET_PRODUCT_DATA, storage.ioctl_changer_get_product_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddchgr.h
 req.include-header: Ntddchgr.h

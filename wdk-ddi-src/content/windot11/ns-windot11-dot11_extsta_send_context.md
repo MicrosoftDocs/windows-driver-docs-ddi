@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_extsta_send_context.htm
 tech.root: netvista
 ms.assetid: 0a4af7dc-0210-42b6-b15b-a0f885664da9
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_EXTAP_SEND_CONTEXT, *PDOT11_EXTSTA_SEND_CONTEXT, DOT11_EXTAP_SEND_CONTEXT, DOT11_EXTSTA_SEND_CONTEXT, DOT11_EXTSTA_SEND_CONTEXT structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_c340a64e-8d74-4e25-83ca-2b93776bd220.xml, PDOT11_EXTSTA_SEND_CONTEXT, PDOT11_EXTSTA_SEND_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_extsta_send_context, windot11/DOT11_EXTSTA_SEND_CONTEXT, windot11/PDOT11_EXTSTA_SEND_CONTEXT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -62,7 +59,7 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef struct DOT11_EXTSTA_SEND_CONTEXT {
   NDIS_OBJECT_HEADER Header;
   USHORT             usExemptionActionType;
@@ -71,7 +68,7 @@ typedef struct DOT11_EXTSTA_SEND_CONTEXT {
   PVOID              pvMediaSpecificInfo;
   ULONG              uSendFlags;
 } DOT11_EXTSTA_SEND_CONTEXT, *PDOT11_EXTSTA_SEND_CONTEXT;
-````
+```
 
 
 ## -struct-fields

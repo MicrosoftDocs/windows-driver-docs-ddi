@@ -6,11 +6,8 @@ description: The ATA_ADDRESS_TRANSLATION enumeration type indicates the type of 
 old-location: storage\ata_address_translation.htm
 tech.root: storage
 ms.assetid: 72fddd86-6e9f-4e75-af6a-e7f3e1064a8b
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ATA_ADDRESS_TRANSLATION, ATA_ADDRESS_TRANSLATION enumeration [Storage Devices], ChsMode, Lba48BitMode, LbaMode, UnknownMode, irb/ATA_ADDRESS_TRANSLATION, irb/ChsMode, irb/Lba48BitMode, irb/LbaMode, irb/UnknownMode, storage.ata_address_translation, structs-ATA_f2a24a19-e6fa-4457-afac-b307d9dcbc76.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: irb.h
 req.include-header: Irb.h

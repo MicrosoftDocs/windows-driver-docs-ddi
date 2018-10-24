@@ -6,11 +6,8 @@ description: The HidP_GetUsagesEx routine returns a list of the all the HID cont
 old-location: hid\hidp_getusagesex.htm
 tech.root: hid
 ms.assetid: c799ecb6-3024-491c-90d5-70e1d21b1baf
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: HidP_GetUsagesEx, HidP_GetUsagesEx routine [Human Input Devices], hid.hidp_getusagesex, hidfunc_2a2a6e4a-c966-43d7-8159-115bb6f2376c.xml, hidpi/HidP_GetUsagesEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hidpi.h
 req.include-header: Hidpi.h

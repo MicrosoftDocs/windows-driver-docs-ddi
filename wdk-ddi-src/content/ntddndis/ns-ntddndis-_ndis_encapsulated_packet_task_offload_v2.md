@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2 structure contains the offload support state for VXLAN task offload. This structure is used in the EncapsulatedPacketTaskOffloadVxlan member of the NDIS_OFFLOAD structure.
 tech.root: netvista
 ms.assetid: 6721e56a-7d5d-4249-99bf-42af85dadded
-ms.author: windowsdriverdev
 ms.date: 05/22/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2, NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2, *PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2, 
 req.header: ntddndis.h
 req.include-header: ndis.h

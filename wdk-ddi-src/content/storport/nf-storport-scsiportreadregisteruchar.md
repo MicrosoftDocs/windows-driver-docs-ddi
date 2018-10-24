@@ -6,11 +6,8 @@ description: The ScsiPortReadRegisterUchar routine reads an unsigned byte value 
 old-location: storage\scsiportreadregisteruchar.htm
 tech.root: storage
 ms.assetid: d5ea19e5-015d-451e-8e28-0b5a226f291a
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ScsiPortReadRegisterUchar, ScsiPortReadRegisterUchar routine [Storage Devices], scsiprt_220f8972-dc09-4027-9cec-85a07ed5547d.xml, srb/ScsiPortReadRegisterUchar, storage.scsiportreadregisteruchar
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: storport.h
 req.include-header: Miniport.h, Scsi.h, Storport.h

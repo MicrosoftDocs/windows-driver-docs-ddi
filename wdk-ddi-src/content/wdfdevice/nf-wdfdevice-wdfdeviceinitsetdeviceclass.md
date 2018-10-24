@@ -6,11 +6,8 @@ description: The WdfDeviceInitSetDeviceClass method specifies a GUID that identi
 old-location: wdf\wdfdeviceinitsetdeviceclass.htm
 tech.root: wdf
 ms.assetid: c87a8368-3804-4a07-92c8-65a453d0808f
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_9c2c2390-3dcc-40f4-ba43-16c8988dbfae.xml, WdfDeviceInitSetDeviceClass, WdfDeviceInitSetDeviceClass method, kmdf.wdfdeviceinitsetdeviceclass, wdf.wdfdeviceinitsetdeviceclass, wdfdevice/WdfDeviceInitSetDeviceClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h

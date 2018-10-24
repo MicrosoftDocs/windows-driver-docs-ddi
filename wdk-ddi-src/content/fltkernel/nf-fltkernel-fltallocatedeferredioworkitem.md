@@ -6,11 +6,8 @@ description: FltAllocateDeferredIoWorkItem allocates a deferred-I/O work item.
 old-location: ifsk\fltallocatedeferredioworkitem.htm
 tech.root: ifsk
 ms.assetid: 25c03114-8e50-40a2-869a-08b11b7490be
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltAllocateDeferredIoWorkItem, FltAllocateDeferredIoWorkItem function [Installable File System Drivers], FltApiRef_a_to_d_2fd5a055-2bcb-47a5-af89-5a34a92982f1.xml, fltkernel/FltAllocateDeferredIoWorkItem, ifsk.fltallocatedeferredioworkitem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

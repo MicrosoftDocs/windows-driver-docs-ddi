@@ -6,11 +6,8 @@ description: This enumeration describes the RILPOSITIONINFOLTEPARAMMASK.
 old-location: netvista\rilpositioninfolteparammask.htm
 tech.root: netvista
 ms.assetid: cf89467e-1bf1-44ee-a027-23b49aca845f
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: RILPOSITIONINFOLTEPARAMMASK, RILPOSITIONINFOLTEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_POSITION_LTE_ALL, RIL_PARAM_POSITION_LTE_CELLID, RIL_PARAM_POSITION_LTE_EARFCN, RIL_PARAM_POSITION_LTE_MCC, RIL_PARAM_POSITION_LTE_MNC, RIL_PARAM_POSITION_LTE_PHYSCELLID, RIL_PARAM_POSITION_LTE_RSRP, RIL_PARAM_POSITION_LTE_RSRQ, RIL_PARAM_POSITION_LTE_TA, RIL_PARAM_POSITION_LTE_TAC, netvista.rilpositioninfolteparammask, rilapitypes/RILPOSITIONINFOLTEPARAMMASK, rilapitypes/RIL_PARAM_POSITION_LTE_ALL, rilapitypes/RIL_PARAM_POSITION_LTE_CELLID, rilapitypes/RIL_PARAM_POSITION_LTE_EARFCN, rilapitypes/RIL_PARAM_POSITION_LTE_MCC, rilapitypes/RIL_PARAM_POSITION_LTE_MNC, rilapitypes/RIL_PARAM_POSITION_LTE_PHYSCELLID, rilapitypes/RIL_PARAM_POSITION_LTE_RSRP, rilapitypes/RIL_PARAM_POSITION_LTE_RSRQ, rilapitypes/RIL_PARAM_POSITION_LTE_TA, rilapitypes/RIL_PARAM_POSITION_LTE_TAC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
@@ -58,7 +55,7 @@ req.typenames: RILPOSITIONINFOLTEPARAMMASK
 ## -syntax
 
 
-````
+```cpp
 enum RILPOSITIONINFOLTEPARAMMASK {
   RIL_PARAM_POSITION_LTE_MCC         = 0x00000001,
   RIL_PARAM_POSITION_LTE_MNC         = 0x00000002,
@@ -72,7 +69,7 @@ enum RILPOSITIONINFOLTEPARAMMASK {
   RIL_PARAM_POSITION_LTE_ALL         = 0x000001ff
 
 };
-````
+```
 
 
 ## -enum-fields

@@ -6,11 +6,8 @@ description: The Service method notifies the miniport driver of a request for se
 old-location: audio\iminiportwavepci_service.htm
 tech.root: audio
 ms.assetid: 1c30293f-1516-47a7-bb2c-29f9dc682777
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IMiniportWavePci interface [Audio Devices],Service method, IMiniportWavePci.Service, IMiniportWavePci::Service, Service, Service method [Audio Devices], Service method [Audio Devices],IMiniportWavePci interface, audio.iminiportwavepci_service, audmp-routines_837c6515-20a3-4b55-b930-24fc1b461ea6.xml, portcls/IMiniportWavePci::Service
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: Portcls.h

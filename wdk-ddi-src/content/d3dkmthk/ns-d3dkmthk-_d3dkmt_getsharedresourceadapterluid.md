@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Provides information that describes a shared resource and the graphics adapter that the resource was created on.
 old-location: display\d3dkmt_getsharedresourceadapterluid.htm
 ms.assetid: b7f9413b-3d57-47c4-a8a4-3288cb03af21
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_GETSHAREDRESOURCEADAPTERLUID, D3DKMT_GETSHAREDRESOURCEADAPTERLUID structure [Display Devices], _D3DKMT_GETSHAREDRESOURCEADAPTERLUID, d3dkmthk/D3DKMT_GETSHAREDRESOURCEADAPTERLUID, display.d3dkmt_getsharedresourceadapterluid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

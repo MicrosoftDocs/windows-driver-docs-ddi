@@ -6,11 +6,8 @@ description: The OpenNDKAdapterHandler (OPEN_NDK_ADAPTER_HANDLER) function opens
 old-location: netvista\open_ndk_adapter_handler.htm
 tech.root: netvista
 ms.assetid: 85888B9A-669C-478F-9318-EE9821BC3AF3
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: OPEN_NDK_ADAPTER_HANDLER, OPEN_NDK_ADAPTER_HANDLER callback, OpenNdkAdapterHandler, OpenNdkAdapterHandler callback function [Network Drivers Starting with Windows Vista], ndisndk/OpenNdkAdapterHandler, netvista.open_ndk_adapter_handler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndisndk.h
 req.include-header: 

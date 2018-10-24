@@ -6,11 +6,8 @@ description: The AACS_SEND_CERTIFICATE structure is a wrapper for both an Advanc
 old-location: storage\aacs_send_certificate.htm
 tech.root: storage
 ms.assetid: e0071ee1-7675-4029-b457-e7c26e642c31
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PAACS_SEND_CERTIFICATE, AACS_SEND_CERTIFICATE, AACS_SEND_CERTIFICATE structure [Storage Devices], PAACS_SEND_CERTIFICATE, PAACS_SEND_CERTIFICATE structure pointer [Storage Devices], _AACS_SEND_CERTIFICATE, ntddcdvd/AACS_SEND_CERTIFICATE, ntddcdvd/PAACS_SEND_CERTIFICATE, storage.aacs_send_certificate, structs-DVD_0f4e9fce-96a6-4064-bbb2-4c7077dad635.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h

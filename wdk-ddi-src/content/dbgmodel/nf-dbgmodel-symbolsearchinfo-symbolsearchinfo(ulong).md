@@ -4,7 +4,6 @@ title: SymbolSearchInfo function
 author: windows-driver-content
 description: The search record passed to EnumerateChildrenEx in order to restrict symbol searches.
 ms.assetid: 46053e1a-fb8b-4ec0-8a5e-aa89849257d9
-ms.author: windowsdriverdev
 ms.date: 10/04/2018
 ms.topic: function
 ms.keywords: SymbolSearchInfo

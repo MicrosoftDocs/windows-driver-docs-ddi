@@ -6,11 +6,8 @@ description: Drivers obtain the IWDFFile3 interface by calling IWDFFile::QueryIn
 old-location: wdf\iwdffile3.htm
 tech.root: wdf
 ms.assetid: 67F55A00-2DE4-4ECE-8DAF-BBCBB156454E
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFFile3, IWDFFile3 interface, IWDFFile3 interface,described, umdf.iwdffile3, wdf.iwdffile3, wudfddi/IWDFFile3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wudfddi.h
 req.include-header: 

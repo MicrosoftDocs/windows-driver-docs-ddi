@@ -6,11 +6,8 @@ description: A driver's EvtCleanupCallback event callback function removes the d
 old-location: wdf\evtcleanupcallback.htm
 tech.root: wdf
 ms.assetid: aba2efca-7d1f-4594-af65-13356f0e3f8b
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFGenObjectRef_aef7bd25-42a4-41d2-9ba1-1b1113159657.xml, EVT_WDF_OBJECT_CONTEXT_CLEANUP, EVT_WDF_OBJECT_CONTEXT_CLEANUP callback, EvtCleanupCallback, EvtCleanupCallback callback function, kmdf.evtcleanupcallback, wdf.evtcleanupcallback, wdfobject/EvtCleanupCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfobject.h
 req.include-header: Wdf.h

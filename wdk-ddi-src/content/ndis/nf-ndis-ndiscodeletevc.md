@@ -6,11 +6,8 @@ description: NdisCoDeleteVc destroys a caller-created VC.
 old-location: netvista\ndiscodeletevc.htm
 tech.root: netvista
 ms.assetid: 31e88a5b-d97c-482a-aab0-dd987b15d657
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisCoDeleteVc, NdisCoDeleteVc function [Network Drivers Starting with Windows Vista], condis_protocol_ref_19f96afa-aa63-44e4-817a-8b701c6d12c6.xml, ndis/NdisCoDeleteVc, netvista.ndiscodeletevc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

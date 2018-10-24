@@ -4,11 +4,8 @@ title: EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO
 author: windows-driver-content
 description: 
 ms.assetid: 73774bab-6134-40b9-97f7-5ee28aa0929f
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ targetos: Windows
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO EvtTrProcessOtherSecureServiceIo; 

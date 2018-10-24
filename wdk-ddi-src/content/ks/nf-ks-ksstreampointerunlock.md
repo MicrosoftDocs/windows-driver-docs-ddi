@@ -6,11 +6,8 @@ description: The KsStreamPointerUnlock function unlocks a stream pointer that ha
 old-location: stream\ksstreampointerunlock.htm
 tech.root: stream
 ms.assetid: 1d03b97f-5c01-48b2-a0e4-2dc6bf732813
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsStreamPointerUnlock, KsStreamPointerUnlock function [Streaming Media Devices], avfunc_71260371-8ee2-45e1-ad72-7eba8212d081.xml, ks/KsStreamPointerUnlock, stream.ksstreampointerunlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilnotificationclasses_2.htm
 tech.root: netvista
 ms.assetid: 04681c2b-aadb-466e-bd14-f6a08c99a8e2
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: RILNOTIFICATIONCLASSES, RILNOTIFICATIONCLASSES enumeration [Network Drivers Starting with Windows Vista], RIL_NCLASS_NOTIFICATIONS, netvista.rilnotificationclasses_2, rilapitypes/RILNOTIFICATIONCLASSES, rilapitypes/RIL_NCLASS_NOTIFICATIONS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
 req.include-header:
@@ -57,11 +54,11 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```cpp
 typedef enum _RILNOTIFICATIONCLASSES {
   RIL_NCLASS_NOTIFICATIONS
 } RILNOTIFICATIONCLASSES;
-````
+```
 
 
 ## -enum-fields

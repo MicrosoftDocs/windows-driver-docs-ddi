@@ -6,11 +6,8 @@ description: The ScsiPortConvertPhysicalAddressToUlong routine truncates a SCSI_
 old-location: storage\scsiportconvertphysicaladdresstoulong.htm
 tech.root: storage
 ms.assetid: 55c258d2-922a-430a-ba6b-b05a078b712d
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ScsiPortConvertPhysicalAddressToUlong, ScsiPortConvertPhysicalAddressToUlong routine [Storage Devices], scsiprt_5417817d-81ab-4ba9-96f6-589991aecfce.xml, srb/ScsiPortConvertPhysicalAddressToUlong, storage.scsiportconvertphysicaladdresstoulong
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h

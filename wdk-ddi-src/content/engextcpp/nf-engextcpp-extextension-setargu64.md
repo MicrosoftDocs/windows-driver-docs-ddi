@@ -6,11 +6,8 @@ description: The SetArgU64 method sets a named expression argument for the curre
 old-location: debugger\setargu64.htm
 tech.root: debugger
 ms.assetid: 119e590c-7491-44b3-a315-d3e980f547bb
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_05510fa7-509e-49a2-97a3-7a1c4494350a.xml, ExtExtension class [Windows Debugging],SetArgU64 method, ExtExtension.SetArgU64, ExtExtension::SetArgU64, SetArgU64, SetArgU64 method [Windows Debugging], SetArgU64 method [Windows Debugging],ExtExtension class, debugger.setargu64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

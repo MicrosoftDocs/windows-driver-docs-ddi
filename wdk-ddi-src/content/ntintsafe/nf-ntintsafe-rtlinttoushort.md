@@ -6,11 +6,8 @@ description: Converts a value of type INT to a value of type USHORT.
 old-location: kernel\rtlinttoushort.htm
 tech.root: kernel
 ms.assetid: 52571477-80F5-4848-8BCC-AFA70140FABE
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlIntToUShort, RtlIntToUShort function [Kernel-Mode Driver Architecture], kernel.rtlinttoushort, ntintsafe/RtlIntToUShort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

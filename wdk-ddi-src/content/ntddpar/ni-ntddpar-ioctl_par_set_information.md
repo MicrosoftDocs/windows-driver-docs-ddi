@@ -6,11 +6,8 @@ description: The IOCTL_PAR_SET_INFORMATION request resets and initializes a para
 old-location: parports\ioctl_par_set_information.htm
 tech.root: parports
 ms.assetid: a54902d0-aa07-4cd0-8ef1-a3c17dff2ac9
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_PAR_SET_INFORMATION, IOCTL_PAR_SET_INFORMATION control code [Parallel Ports], cisspd_950d6397-7eff-4966-a734-0497f1a84257.xml, ntddpar/IOCTL_PAR_SET_INFORMATION, parports.ioctl_par_set_information
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddpar.h
 req.include-header: Ntddpar.h

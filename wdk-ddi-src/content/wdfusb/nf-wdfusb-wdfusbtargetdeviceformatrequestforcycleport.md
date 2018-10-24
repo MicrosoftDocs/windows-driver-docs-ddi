@@ -6,11 +6,8 @@ description: The WdfUsbTargetDeviceFormatRequestForCyclePort method builds a pow
 old-location: wdf\wdfusbtargetdeviceformatrequestforcycleport.htm
 tech.root: wdf
 ms.assetid: f27dae6e-2fc7-4e26-84fb-4ce48da3db6b
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_cc92bdd0-b899-41be-b9c6-c44e385ee001.xml, WdfUsbTargetDeviceFormatRequestForCyclePort, WdfUsbTargetDeviceFormatRequestForCyclePort method, kmdf.wdfusbtargetdeviceformatrequestforcycleport, wdf.wdfusbtargetdeviceformatrequestforcycleport, wdfusb/WdfUsbTargetDeviceFormatRequestForCyclePort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

@@ -6,11 +6,8 @@ description: The FsRtlAllocateExtraCreateParameter routine allocates memory for 
 old-location: ifsk\fsrtlallocateextracreateparameter.htm
 tech.root: ifsk
 ms.assetid: 644680a9-ec56-4d65-890f-fbc11badf2b7
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlAllocateExtraCreateParameter, FsRtlAllocateExtraCreateParameter routine [Installable File System Drivers], fsrtlref_97f1c552-b822-4fda-9327-8d127f42080b.xml, ifsk.fsrtlallocateextracreateparameter, ntifs/FsRtlAllocateExtraCreateParameter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

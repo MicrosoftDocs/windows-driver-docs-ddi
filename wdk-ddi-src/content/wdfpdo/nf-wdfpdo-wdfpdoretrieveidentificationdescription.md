@@ -6,11 +6,8 @@ description: The WdfPdoRetrieveIdentificationDescription method retrieves the id
 old-location: wdf\wdfpdoretrieveidentificationdescription.htm
 tech.root: wdf
 ms.assetid: fac29ced-7acc-4c2a-ac8a-171b8dd1d45e
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_fe883ca1-8b36-4ac1-b7ff-8c38bf098148.xml, WdfPdoRetrieveIdentificationDescription, WdfPdoRetrieveIdentificationDescription method, kmdf.wdfpdoretrieveidentificationdescription, wdf.wdfpdoretrieveidentificationdescription, wdfpdo/WdfPdoRetrieveIdentificationDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfpdo.h
 req.include-header: Wdf.h

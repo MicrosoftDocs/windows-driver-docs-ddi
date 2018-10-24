@@ -6,11 +6,8 @@ description: The RtlOemStringToUnicodeString routine translates a given source s
 old-location: ifsk\rtloemstringtounicodestring.htm
 tech.root: ifsk
 ms.assetid: 0420718f-3d0f-4f15-85ec-c2cdfa930023
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlOemStringToUnicodeString, RtlOemStringToUnicodeString routine [Installable File System Drivers], ifsk.rtloemstringtounicodestring, ntifs/RtlOemStringToUnicodeString, rtlref_6b1f3210-6b02-4f20-9887-b7efd0090b7f.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

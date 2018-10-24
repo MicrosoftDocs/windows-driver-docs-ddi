@@ -6,11 +6,8 @@ description: Called by a display miniport driver to obtain the display informati
 old-location: display\dxgkcb_acquire_post_display_ownership2.htm
 tech.root: display
 ms.assetid: 923A2107-8F5E-4EF7-8C3C-4EFDE26A50F5
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2, DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2 callback, DxgkcbAcquirePostDisplayOwnership2, DxgkcbAcquirePostDisplayOwnership2 callback function [Display Devices], callback function pointer [Display Devices], display.dxgkcb_acquire_post_display_ownership2, dispmprt/DxgkcbAcquirePostDisplayOwnership2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dispmprt.h
 req.include-header: 

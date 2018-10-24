@@ -4,11 +4,8 @@ title: _DXGKARG_ENDEXCLUSIVEACCESS
 author: windows-driver-content
 description: Arguments used to end exclusive access.
 ms.assetid: 94464dca-20eb-48e7-bdc2-8ca3863c4eff
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKARG_ENDEXCLUSIVEACCESS, DXGKARG_ENDEXCLUSIVEACCESS, *IN_PDXGKARG_ENDEXCLUSIVEACCESS
 req.header: d3dkmddi.h
 req.include-header:

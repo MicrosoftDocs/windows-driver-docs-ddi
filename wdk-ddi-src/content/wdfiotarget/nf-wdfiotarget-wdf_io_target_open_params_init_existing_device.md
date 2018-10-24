@@ -6,11 +6,8 @@ description: The WDF_IO_TARGET_OPEN_PARAMS_INIT_EXISTING_DEVICE function initial
 old-location: wdf\wdf_io_target_open_params_init_existing_device.htm
 tech.root: wdf
 ms.assetid: 41fc4479-98e4-4632-89a1-1638eff02279
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_fdd5195f-e259-4c89-b55e-e6ad06492a4d.xml, WDF_IO_TARGET_OPEN_PARAMS_INIT_EXISTING_DEVICE, WDF_IO_TARGET_OPEN_PARAMS_INIT_EXISTING_DEVICE function, kmdf.wdf_io_target_open_params_init_existing_device, wdf.wdf_io_target_open_params_init_existing_device, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_EXISTING_DEVICE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfiotarget.h
 req.include-header: Wdf.h

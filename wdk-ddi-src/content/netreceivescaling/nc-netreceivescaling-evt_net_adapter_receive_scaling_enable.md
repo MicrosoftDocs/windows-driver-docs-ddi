@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The EvtNetAdapterReceiveScalingEnable callback function is implemented by the client driver to enable receive side scaling (RSS) for a network interface controller (NIC).
 tech.root: netvista
 ms.assetid: a37af139-8c98-4733-b2d2-cb0c9d67de35
-ms.author: windowsdriverdev
 ms.date: 07/13/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: netreceivescaling.h
 req.include-header:
 req.target-type: Universal
@@ -52,7 +49,7 @@ The *EvtNetAdapterReceiveScalingEnable* callback function is implemented by the 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE EvtNetAdapterReceiveScalingEnable; 

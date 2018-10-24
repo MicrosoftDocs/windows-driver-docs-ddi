@@ -6,11 +6,8 @@ description: This routine tries to start the server silo monitor.
 old-location: kernel\psstartsilomonitor.htm
 tech.root: kernel
 ms.assetid: 65828926-FDA7-4F65-AD55-B7E03639FA27
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PsStartSiloMonitor, PsStartSiloMonitor routine [Kernel-Mode Driver Architecture], kernel.psstartsilomonitor, ntddk/PsStartSiloMonitor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: 

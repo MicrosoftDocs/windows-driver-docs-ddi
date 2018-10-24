@@ -4,11 +4,8 @@ title: _D3DKMT_HISTORY_BUFFER_STATUS
 author: windows-driver-content
 description: Contains history buffer status.
 ms.assetid: 4c8c2589-85e5-4238-a69f-40fd23f70a28
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_HISTORY_BUFFER_STATUS, D3DKMT_HISTORY_BUFFER_STATUS, 
 req.header: d3dkmthk.h
 req.include-header:

@@ -6,11 +6,8 @@ description: The SendFixedPage method sends a fixed page of an XPS document to t
 old-location: print\ixpsdocumentconsumer_sendfixedpage.htm
 tech.root: print
 ms.assetid: ef11161d-5e73-44a8-b802-e3706b78950e
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IXpsDocumentConsumer interface [Print Devices],SendFixedPage method, IXpsDocumentConsumer.SendFixedPage, IXpsDocumentConsumer::SendFixedPage, SendFixedPage, SendFixedPage method [Print Devices], SendFixedPage method [Print Devices],IXpsDocumentConsumer interface, filterpipeline/IXpsDocumentConsumer::SendFixedPage, filterpipeline_fbf758b4-801f-4c68-879c-2820736e459e.xml, print.ixpsdocumentconsumer_sendfixedpage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: filterpipeline.h
 req.include-header: 

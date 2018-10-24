@@ -6,11 +6,8 @@ description: The AtaPortInitializeQueueTag routine initializes the queue tag lis
 old-location: storage\ataportinitializequeuetag.htm
 tech.root: storage
 ms.assetid: f6d40f3e-4bc9-4b30-97ac-600a33280305
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: AtaPortInitializeQueueTag, AtaPortInitializeQueueTag routine [Storage Devices], atartns_2dd092e5-f635-4da7-8444-ffef8e5c75db.xml, irb/AtaPortInitializeQueueTag, storage.ataportinitializequeuetag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: irb.h
 req.include-header: Ata.h, Irb.h

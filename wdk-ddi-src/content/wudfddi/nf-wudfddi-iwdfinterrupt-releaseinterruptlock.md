@@ -6,11 +6,8 @@ description: The ReleaseInterruptLock method ends a code sequence that executes 
 old-location: wdf\iwdfinterrupt_releaseinterruptlock.htm
 tech.root: wdf
 ms.assetid: 55ED21D9-D704-4E38-AFCF-B1D1FDB67DB3
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFInterrupt interface,ReleaseInterruptLock method, IWDFInterrupt.ReleaseInterruptLock, IWDFInterrupt::ReleaseInterruptLock, ReleaseInterruptLock, ReleaseInterruptLock method, ReleaseInterruptLock method,IWDFInterrupt interface, umdf.iwdfinterrupt_releaseinterruptlock, wdf.iwdfinterrupt_releaseinterruptlock, wudfddi/IWDFInterrupt::ReleaseInterruptLock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: 

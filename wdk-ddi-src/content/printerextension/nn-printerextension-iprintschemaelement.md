@@ -6,11 +6,8 @@ description: Provides access to the underlying XML node and &#0034;name&#0034; a
 old-location: print\iprintschemaelement_interface.htm
 tech.root: print
 ms.assetid: E6F6F00B-E116-4AEA-AF9A-55209DA20DC6
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintSchemaElement, IPrintSchemaElement interface [Print Devices], IPrintSchemaElement interface [Print Devices],described, print.iprintschemaelement_interface, printerextension/IPrintSchemaElement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: printerextension.h
 req.include-header: 

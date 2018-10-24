@@ -6,11 +6,8 @@ description: RxFillAndInstallFastIoDispatch fills out a fast I/O dispatch vector
 old-location: ifsk\__rxfillandinstallfastiodispatch.htm
 tech.root: ifsk
 ms.assetid: 4619a1aa-0c91-4b77-abbf-077f28437e0f
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "__RxFillAndInstallFastIoDispatch, __RxFillAndInstallFastIoDispatch function [Installable File System Drivers], ifsk.__rxfillandinstallfastiodispatch, mrx/__RxFillAndInstallFastIoDispatch, rxref_5898351a-a474-44bb-8ba0-3d2edf81d073.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mrx.h
 req.include-header: Mrx.h

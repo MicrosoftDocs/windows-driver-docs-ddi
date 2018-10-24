@@ -6,11 +6,8 @@ description: The WPD_CAPTURE_MODES enumeration type describes the capture timing
 old-location: wpddk\wpd_capture_modes.htm
 tech.root: wpd_dk
 ms.assetid: 6aba61ed-e8b3-4fe1-a5f6-439165db4097
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: WPD_CAPTURE_MODES, WPD_CAPTURE_MODES enumeration, WPD_CAPTURE_MODE_BURST, WPD_CAPTURE_MODE_NORMAL, WPD_CAPTURE_MODE_TIMELAPSE, WPD_CAPTURE_MODE_UNDEFINED, enumeration, portabledevice/WPD_CAPTURE_MODES, portabledevice/WPD_CAPTURE_MODE_BURST, portabledevice/WPD_CAPTURE_MODE_NORMAL, portabledevice/WPD_CAPTURE_MODE_TIMELAPSE, portabledevice/WPD_CAPTURE_MODE_UNDEFINED, tagWPD_CAPTURE_MODES, wpddk.wpd_capture_modes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: portabledevice.h
 req.include-header: 

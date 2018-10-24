@@ -6,11 +6,8 @@ description: The NdisReleaseReadWriteLock function releases a lock that was acqu
 old-location: netvista\ndisreleasereadwritelock.htm
 tech.root: netvista
 ms.assetid: a910ae2d-8a3b-451c-b1f2-a19f7f9f14a2
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 03/26/2018
 ms.keywords: NdisReleaseReadWriteLock, NdisReleaseReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisReleaseReadWriteLock, ndis_read_write_lock_ref_4f0f9891-a4a6-457d-b547-4f5543fbc534.xml, netvista.ndisreleasereadwritelock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

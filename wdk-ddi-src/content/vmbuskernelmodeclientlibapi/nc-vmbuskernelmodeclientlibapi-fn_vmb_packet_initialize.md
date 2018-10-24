@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbPacketInitialize function initializes a buffer to contain a VMBus packet.
 tech.root: netvista
 ms.assetid: 440d75dc-1b2e-4460-b0b4-d0e949e2e165
-ms.author: windowsdriverdev
 ms.date: 05/22/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:
@@ -50,7 +47,7 @@ The <b>VmbPacketInitialize</b> function initializes a buffer to contain a VMBus 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_PACKET_INITIALIZE FnVmbPacketInitialize; 

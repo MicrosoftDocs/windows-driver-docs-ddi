@@ -6,11 +6,8 @@ description: The HidD_GetNumInputBuffers routine returns the current size, in nu
 old-location: hid\hidd_getnuminputbuffers.htm
 tech.root: hid
 ms.assetid: f9ed28a5-835c-47c8-b9cf-888785013b69
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: HidD_GetNumInputBuffers, HidD_GetNumInputBuffers routine [Human Input Devices], hid.hidd_getnuminputbuffers, hidfunc_addf7040-0b62-45bc-8b43-1aa0157924e8.xml, hidsdi/HidD_GetNumInputBuffers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hidsdi.h
 req.include-header: Hidsdi.h

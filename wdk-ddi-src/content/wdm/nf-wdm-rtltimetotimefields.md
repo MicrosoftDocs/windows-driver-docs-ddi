@@ -6,11 +6,8 @@ description: The RtlTimeToTimeFields routine converts system time into a TIME_FI
 old-location: kernel\rtltimetotimefields.htm
 tech.root: kernel
 ms.assetid: 128fe592-8dc1-46cf-8aa6-0f3de0896cc5
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlTimeToTimeFields, RtlTimeToTimeFields routine [Kernel-Mode Driver Architecture], k109_574f7b2f-cbb5-447c-84d5-88179cbe4cb7.xml, kernel.rtltimetotimefields, wdm/RtlTimeToTimeFields
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

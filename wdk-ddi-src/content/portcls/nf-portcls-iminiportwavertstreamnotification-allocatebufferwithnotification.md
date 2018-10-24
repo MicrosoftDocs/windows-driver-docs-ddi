@@ -6,11 +6,8 @@ description: The AllocateAudioBufferWithNotification method allocates a cyclic b
 old-location: audio\iminiportwavertstreamnotification_allocatebufferwithnotification.htm
 tech.root: audio
 ms.assetid: df1da549-1677-42ef-9644-3d9c5df66894
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: AllocateBufferWithNotification, AllocateBufferWithNotification method [Audio Devices], AllocateBufferWithNotification method [Audio Devices],IMiniportWaveRTStreamNotification interface, IMiniportWaveRTStreamNotification interface [Audio Devices],AllocateBufferWithNotification method, IMiniportWaveRTStreamNotification.AllocateBufferWithNotification, IMiniportWaveRTStreamNotification::AllocateBufferWithNotification, audio.iminiportwavertstreamnotification_allocatebufferwithnotification, audmp-routines_84faf4d3-ee36-4996-8de2-0f89b41c18fe.xml, portcls/IMiniportWaveRTStreamNotification::AllocateBufferWithNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: 
@@ -70,7 +67,7 @@ Specifies the requested size, in bytes, of the audio buffer.
 
 ### -param AudioBufferMdl [out]
 
-Output pointer for a memory descriptor list (<a href="http://msdn.microsoft.com/library/windows/hardware/ff554414(v=vs.85).aspx">MDL</a>) that describes the audio buffer. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the MDL.
+Output pointer for a memory descriptor list (<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414(v=vs.85).aspx">MDL</a>) that describes the audio buffer. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the MDL.
 
 
 ### -param ActualSize [out]
@@ -85,7 +82,7 @@ Output pointer for the offset (in bytes) of the buffer, from the start of the fi
 
 ### -param CacheType [out]
 
-Specifies the type of caching that the client requests for the audio buffer. This parameter is a <a href="http://msdn.microsoft.com/library/windows/hardware/ff554430(v=vs.85).aspx">MEMORY_CACHING_TYPE</a> enumeration value
+Specifies the type of caching that the client requests for the audio buffer. This parameter is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554430(v=vs.85).aspx">MEMORY_CACHING_TYPE</a> enumeration value
 
 
 ## -returns
@@ -166,11 +163,11 @@ After receiving a <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 
 
-<a href="http://msdn.microsoft.com/library/windows/hardware/ff554414(v=vs.85).aspx">MDL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414(v=vs.85).aspx">MDL</a>
 
 
 
-<a href="http://msdn.microsoft.com/library/windows/hardware/ff554430(v=vs.85).aspx">MEMORY_CACHING_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554430(v=vs.85).aspx">MEMORY_CACHING_TYPE</a>
  
 
  

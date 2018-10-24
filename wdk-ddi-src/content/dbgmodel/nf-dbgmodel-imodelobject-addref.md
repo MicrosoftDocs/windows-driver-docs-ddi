@@ -4,7 +4,6 @@ title: IModelObject::AddRef
 author: windows-driver-content
 description: Increments the reference count for an interface on an object.
 ms.assetid: 57eec432-2950-42c7-a73c-febcfd412b55
-ms.author: windowsdriverdev
 ms.date: 07/20/2018
 ms.topic: method
 ms.keywords: IModelObject::AddRef, AddRef, IModelObject.AddRef, IModelObject::AddRef, IModelObject.AddRef

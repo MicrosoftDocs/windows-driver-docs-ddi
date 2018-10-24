@@ -4,11 +4,8 @@ title: *PFN_SENSORSCXDEVICEINITCONFIG
 author: windows-driver-content
 description: Configures the sensor device.
 ms.assetid: 995a8d23-3a2c-4c7a-9b53-118c6ef0e403
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: sensorscx.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Configures the sensor device.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 *PFN_SENSORSCXDEVICEINITCONFIG *PfnSensorscxdeviceinitconfig; 

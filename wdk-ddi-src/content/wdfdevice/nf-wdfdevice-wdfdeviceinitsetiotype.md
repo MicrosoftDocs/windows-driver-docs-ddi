@@ -6,11 +6,8 @@ description: The WdfDeviceInitSetIoType method sets the method or preference for
 old-location: wdf\wdfdeviceinitsetiotype.htm
 tech.root: wdf
 ms.assetid: fcad4b8e-4273-43ff-8077-a96d1bd4640a
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_4c821466-f1d7-46fa-a1f0-e8fefd20caab.xml, WdfDeviceInitSetIoType, WdfDeviceInitSetIoType method, kmdf.wdfdeviceinitsetiotype, wdf.wdfdeviceinitsetiotype, wdfdevice/WdfDeviceInitSetIoType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h

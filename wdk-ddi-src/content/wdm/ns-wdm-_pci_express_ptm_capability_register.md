@@ -4,11 +4,8 @@ title: _PCI_EXPRESS_PTM_CAPABILITY_REGISTER
 author: windows-driver-content
 description: Reserved. Do not use.
 ms.assetid: 5149d900-1122-4330-a03f-8d3ac5fce330
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _PCI_EXPRESS_PTM_CAPABILITY_REGISTER, PCI_EXPRESS_PTM_CAPABILITY_REGISTER, *PPCI_EXPRESS_PTM_CAPABILITY_REGISTER, 
 req.header: wdm.h
 req.include-header:

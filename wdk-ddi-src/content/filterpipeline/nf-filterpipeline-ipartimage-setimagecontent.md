@@ -6,11 +6,8 @@ description: The SetImageContent method sets an image property that is based on 
 old-location: print\ipartimage_setimagecontent.htm
 tech.root: print
 ms.assetid: 5d7a59ac-93de-4a41-9313-df189e1f6e36
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPartImage interface [Print Devices],SetImageContent method, IPartImage.SetImageContent, IPartImage::SetImageContent, SetImageContent, SetImageContent method [Print Devices], SetImageContent method [Print Devices],IPartImage interface, filterpipeline/IPartImage::SetImageContent, filterpipeline_1bbf6da0-f016-486d-a06d-768614fe1d5a.xml, print.ipartimage_setimagecontent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: filterpipeline.h
 req.include-header: 

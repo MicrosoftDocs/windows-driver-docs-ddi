@@ -6,11 +6,8 @@ description: The PEP_PROCESSOR_IDLE_CANCEL_CODE enumeration values indicate reas
 old-location: kernel\pep_processor_idle_cancel_code.htm
 tech.root: kernel
 ms.assetid: 6112360C-B74F-4A77-8DE5-3EF1AAF49533
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_PROCESSOR_IDLE_CANCEL_CODE, PEP_PROCESSOR_IDLE_CANCEL_CODE, PEP_PROCESSOR_IDLE_CANCEL_CODE enumeration [Kernel-Mode Driver Architecture], PepIdleCancelDependencyCheckFailed, PepIdleCancelMax, PepIdleCancelNoCState, PepIdleCancelWorkPending, kernel.pep_processor_idle_cancel_code, pep_x/PEP_PROCESSOR_IDLE_CANCEL_CODE, pep_x/PepIdleCancelDependencyCheckFailed, pep_x/PepIdleCancelMax, pep_x/PepIdleCancelNoCState, pep_x/PepIdleCancelWorkPending"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: pep_x.h
 req.include-header: Pepfx.h

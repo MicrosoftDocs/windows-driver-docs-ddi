@@ -6,11 +6,8 @@ description: The UPSTurnOff function turns off the UPS unit's power outlets, aft
 old-location: battery\upsturnoff.htm
 tech.root: battery
 ms.assetid: 17ae946a-e57e-48bd-9213-cf47db2cba64
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: UPSTurnOff, UPSTurnOff function [Battery Devices], UPS_fns_ab585909-7eee-470f-b33f-6045f839ceed.xml, battery.upsturnoff, upssvc/UPSTurnOff
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: upssvc.h
 req.include-header: Upssvc.h

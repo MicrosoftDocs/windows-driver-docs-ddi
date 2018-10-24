@@ -6,11 +6,8 @@ description: The WdfRequestRetrieveUnsafeUserInputBuffer method retrieves an I/O
 old-location: wdf\wdfrequestretrieveunsafeuserinputbuffer.htm
 tech.root: wdf
 ms.assetid: 0a5e141d-2ef5-482c-8470-560411241510
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_0ac5a2ff-74b6-4e9c-9a3e-0038c3e1420a.xml, WdfRequestRetrieveUnsafeUserInputBuffer, WdfRequestRetrieveUnsafeUserInputBuffer method, kmdf.wdfrequestretrieveunsafeuserinputbuffer, wdf.wdfrequestretrieveunsafeuserinputbuffer, wdfrequest/WdfRequestRetrieveUnsafeUserInputBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfrequest.h
 req.include-header: Wdf.h

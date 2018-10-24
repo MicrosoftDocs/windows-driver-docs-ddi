@@ -6,11 +6,8 @@ description: The WdfChildListRetrieveNextDevice method traverses a specified chi
 old-location: wdf\wdfchildlistretrievenextdevice.htm
 tech.root: wdf
 ms.assetid: 925807ff-e445-4ccf-ace6-fd913439799b
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectChildListRef_c7ac1028-c3a3-4189-ae63-510bd199fcb2.xml, WdfChildListRetrieveNextDevice, WdfChildListRetrieveNextDevice method, kmdf.wdfchildlistretrievenextdevice, wdf.wdfchildlistretrievenextdevice, wdfchildlist/WdfChildListRetrieveNextDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfchildlist.h
 req.include-header: Wdf.h

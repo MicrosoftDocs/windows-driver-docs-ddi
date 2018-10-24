@@ -4,11 +4,8 @@ title: _D3DDDI_SEGMENTPREFERENCE
 author: windows-driver-content
 description: The segment preference.
 ms.assetid: d026dae6-6978-44a1-9586-d69d5fbdc052
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DDDI_SEGMENTPREFERENCE, D3DDDI_SEGMENTPREFERENCE, 
 req.header: d3dukmdt.h
 req.include-header:

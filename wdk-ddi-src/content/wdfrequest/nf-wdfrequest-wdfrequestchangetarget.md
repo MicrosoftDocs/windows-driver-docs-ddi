@@ -6,11 +6,8 @@ description: The WdfRequestChangeTarget method verifies that a specified I/O req
 old-location: wdf\wdfrequestchangetarget.htm
 tech.root: wdf
 ms.assetid: 562e92b4-fe68-4301-af40-f535cc408b9d
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_3d1f75eb-de12-4a8e-8cb8-d5ebe941e70f.xml, WdfRequestChangeTarget, WdfRequestChangeTarget method, kmdf.wdfrequestchangetarget, wdf.wdfrequestchangetarget, wdfrequest/WdfRequestChangeTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfrequest.h
 req.include-header: Wdf.h

@@ -6,11 +6,8 @@ description: The GetCount method returns the number of resource descriptors that
 old-location: wdf\iwdfcmresourcelist_getcount.htm
 tech.root: wdf
 ms.assetid: 91F88EC2-C0BD-42E1-8C57-437909E2CCA2
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: GetCount, GetCount method, GetCount method,IWDFCmResourceList interface, IWDFCmResourceList interface,GetCount method, IWDFCmResourceList.GetCount, IWDFCmResourceList::GetCount, umdf.iwdfcmresourcelist_getcount, wdf.iwdfcmresourcelist_getcount, wudfddi/IWDFCmResourceList::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: 

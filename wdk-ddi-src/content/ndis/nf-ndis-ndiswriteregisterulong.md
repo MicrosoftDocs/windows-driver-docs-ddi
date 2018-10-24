@@ -6,11 +6,8 @@ description: NdisWriteRegisterUlong is called by the miniport driver to write a 
 old-location: netvista\ndiswriteregisterulong.htm
 tech.root: netvista
 ms.assetid: f21954a8-66a0-40c5-9116-da6e57d24f53
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisWriteRegisterUlong, NdisWriteRegisterUlong macro [Network Drivers Starting with Windows Vista], miniport_register_ref_2f7b1091-df45-47d7-9dd7-9a6f39e0b19d.xml, ndis/NdisWriteRegisterUlong, netvista.ndiswriteregisterulong
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ndis.h
 req.include-header: Ndis.h

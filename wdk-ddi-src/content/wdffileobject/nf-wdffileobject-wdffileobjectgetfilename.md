@@ -6,11 +6,8 @@ description: The WdfFileObjectGetFileName method returns the file name that a sp
 old-location: wdf\wdffileobjectgetfilename.htm
 tech.root: wdf
 ms.assetid: 9d4e45c7-ed1f-476a-8522-4213ac42a3c3
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFFileObjectRef_07be4c38-fa04-41d3-8f8e-f7ec5ed6ff18.xml, WdfFileObjectGetFileName, WdfFileObjectGetFileName method, kmdf.wdffileobjectgetfilename, wdf.wdffileobjectgetfilename, wdffileobject/WdfFileObjectGetFileName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdffileobject.h
 req.include-header: Wdf.h

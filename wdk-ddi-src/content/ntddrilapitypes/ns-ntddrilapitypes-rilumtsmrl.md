@@ -6,11 +6,8 @@ description: This structure represents a RILUMTSMRL.
 old-location: netvista\rilumtsmrl.htm
 tech.root: netvista
 ms.assetid: 72567e37-f37f-43f6-8a3a-3d184cb8de13
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*LPRILUMTSMRL, RILUMTSMRL, RILUMTSMRL structure [Network Drivers Starting with Windows Vista], netvista.rilumtsmrl, rilapitypes/RILUMTSMRL"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
 req.include-header: Ntddrilapitypes.h
@@ -56,7 +53,7 @@ req.typenames: RILUMTSMRL, *LPRILUMTSMRL
 ## -syntax
 
 
-````
+```cpp
 struct RILUMTSMRL {
   DWORD dwParams;
   DWORD dwMobileCountryCode;
@@ -69,7 +66,7 @@ struct RILUMTSMRL {
   LONG  dwECNO;
   DWORD dwPathLoss;
 };
-````
+```
 
 
 ## -struct-fields

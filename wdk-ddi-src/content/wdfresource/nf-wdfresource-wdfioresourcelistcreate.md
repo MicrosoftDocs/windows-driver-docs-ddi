@@ -6,11 +6,8 @@ description: The WdfIoResourceListCreate method creates an empty logical configu
 old-location: wdf\wdfioresourcelistcreate.htm
 tech.root: wdf
 ms.assetid: aaf3d22d-da54-4478-9bf8-aad4b943788a
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFResourceObjectRef_7130ba6a-fc24-4785-9fa3-c8fd159f63fb.xml, WdfIoResourceListCreate, WdfIoResourceListCreate method, kmdf.wdfioresourcelistcreate, wdf.wdfioresourcelistcreate, wdfresource/WdfIoResourceListCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfresource.h
 req.include-header: Wdf.h

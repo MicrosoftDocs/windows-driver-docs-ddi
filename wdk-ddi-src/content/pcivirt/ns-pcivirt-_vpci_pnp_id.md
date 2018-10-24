@@ -6,11 +6,8 @@ description: Stores the PnP identifiers for a virtual PCI device. For example st
 old-location: pci\vpci_pnp_id.htm
 tech.root: PCI
 ms.assetid: 9759ed77-d91a-466b-9678-4ed4fb4359e4
-ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: "*PVPCI_PNP_ID, PCI.vpci_pnp_id, VPCI_PNP_ID, VPCI_PNP_ID structure [Buses], _VPCI_PNP_ID, pcivirt/VPCI_PNP_ID"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pcivirt.h
 req.include-header:
@@ -56,7 +53,7 @@ Stores the PnP identifiers for a virtual PCI device. For example strings, see <a
 ## -syntax
 
 
-````
+```cpp
 typedef struct _VPCI_PNP_ID {
   USHORT  VendorID;
   USHORT  DeviceID;
@@ -67,7 +64,7 @@ typedef struct _VPCI_PNP_ID {
   USHORT  SubVendorID;
   USHORT  SubSystemID;
 } VPCI_PNP_ID, VPCI_PNP_ID;
-````
+```
 
 
 ## -struct-fields

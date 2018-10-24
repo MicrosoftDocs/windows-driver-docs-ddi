@@ -4,11 +4,8 @@ title: EVT_SENSOR_DRIVER_CANCEL_HISTORY_RETRIEVAL
 author: windows-driver-content
 description: Cancels history retrieval from the sensor.
 ms.assetid: 244e5a2d-1a37-461a-9834-836169158756
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: sensorscx.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Cancels history retrieval from the sensor.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_SENSOR_DRIVER_CANCEL_HISTORY_RETRIEVAL EvtSensorDriverCancelHistoryRetrieval; 

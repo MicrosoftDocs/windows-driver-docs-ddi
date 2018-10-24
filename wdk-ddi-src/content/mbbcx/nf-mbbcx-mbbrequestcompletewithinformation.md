@@ -5,7 +5,6 @@ author: windows-driver-content
 description: Client drivers call the MbbRequestCompleteWithInformation method to complete a specified request for receiving an MBIM response message from the device.
 tech.root: netvista
 ms.assetid: 2704f13e-4e9d-4118-aa41-e9840bdf61ff
-ms.author: windowsdriverdev
 ms.date: 06/29/2018
 ms.topic: function
 ms.keywords: MbbRequestCompleteWithInformation

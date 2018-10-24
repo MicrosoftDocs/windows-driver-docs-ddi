@@ -6,11 +6,8 @@ description: This structure contains the fields necessary for the 1394 stack to 
 old-location: ieee\irb_req_allocate_address_range.htm
 tech.root: IEEE
 ms.assetid: 76D306DF-D604-4B3C-BFED-A855113A55A9
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_ALLOCATE_ADDRESS_RANGE, IEEE.irb_req_allocate_address_range, IRB_REQ_ALLOCATE_ADDRESS_RANGE, IRB_REQ_ALLOCATE_ADDRESS_RANGE structure [Buses], _IRB_REQ_ALLOCATE_ADDRESS_RANGE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 1394.h
 req.include-header: 

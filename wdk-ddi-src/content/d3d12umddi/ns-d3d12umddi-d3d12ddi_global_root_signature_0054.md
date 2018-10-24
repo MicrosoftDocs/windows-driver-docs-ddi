@@ -4,11 +4,8 @@ title: D3D12DDI_GLOBAL_ROOT_SIGNATURE_0054
 author: windows-driver-content
 description: Describes a named root signature that can be used globally in a ray tracing pipeline, or associated with shaders by name.
 ms.assetid: 5d47f8e0-8fa0-4ab1-abac-858d0396e5d6
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_GLOBAL_ROOT_SIGNATURE_0054, D3D12DDI_GLOBAL_ROOT_SIGNATURE_0054, 
 req.header: d3d12umddi.h
 req.include-header:

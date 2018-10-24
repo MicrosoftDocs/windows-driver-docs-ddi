@@ -4,8 +4,7 @@ title: D3DKMTCreateTrackedWorkload function
 author: windows-driver-content
 description: Creates a tracked workload instance.
 ms.assetid: beb2ea0b-cf59-4126-ad12-a6755c2a58ca
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTCreateTrackedWorkload
 req.header: d3dkmthk.h

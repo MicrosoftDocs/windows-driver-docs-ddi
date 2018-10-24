@@ -6,11 +6,8 @@ description: The FWPS_TRANSPORT_SEND_PARAMS1 structure defines properties of an 
 old-location: netvista\fwps_transport_send_params1.htm
 tech.root: netvista
 ms.assetid: 8d5653e4-a755-4066-b25a-f8f589821412
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FWPS_TRANSPORT_SEND_PARAMS1, FWPS_TRANSPORT_SEND_PARAMS1 structure [Network Drivers Starting with Windows Vista], FWPS_TRANSPORT_SEND_PARAMS1_, fwpsk/FWPS_TRANSPORT_SEND_PARAMS1, netvista.fwps_transport_send_params1, wfp_ref_3_struct_3_fwps_P-Z_55024e38-5ae1-4a2c-8595-2722e481a947.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: fwpsk.h
 req.include-header: Fwpsk.h

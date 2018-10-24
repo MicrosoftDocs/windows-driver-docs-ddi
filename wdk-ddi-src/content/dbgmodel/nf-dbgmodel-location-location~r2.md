@@ -4,7 +4,6 @@ title: Location function
 author: windows-driver-content
 description: Constructs a location from an offset into the virtual address space of the target.
 ms.assetid: 51c5c136-c904-4883-852b-d4a284443d8a
-ms.author: windowsdriverdev
 ms.date: 09/28/2018
 ms.topic: function
 ms.keywords: Location

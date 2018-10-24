@@ -6,11 +6,8 @@ description: The WdfIoResourceListGetDescriptor method returns a pointer to a re
 old-location: wdf\wdfioresourcelistgetdescriptor.htm
 tech.root: wdf
 ms.assetid: 1722e6f6-7509-4ae1-b394-3c69f4596e6d
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFResourceObjectRef_6cb56ab5-abf5-4915-a48f-a3c91d657806.xml, WdfIoResourceListGetDescriptor, WdfIoResourceListGetDescriptor method, kmdf.wdfioresourcelistgetdescriptor, wdf.wdfioresourcelistgetdescriptor, wdfresource/WdfIoResourceListGetDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfresource.h
 req.include-header: Wdf.h

@@ -6,11 +6,8 @@ description: The wiasGetContextFromName function retrieves the item context for 
 old-location: image\wiasgetcontextfromname.htm
 tech.root: image
 ms.assetid: d15bf48e-132d-4f89-8f19-64f57deed500
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiasgetcontextfromname, wiamdef/wiasGetContextFromName, wiasFncs_ba1c88a2-aadc-4c2f-bb5f-88433d1e1760.xml, wiasGetContextFromName, wiasGetContextFromName function [Imaging Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiamdef.h
 req.include-header: Wiamdef.h

@@ -4,11 +4,8 @@ title: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041_1
 author: windows-driver-content
 description: Command list functions for video decode.
 ms.assetid: b16541f4-4844-4cbc-b904-2424d13e6880
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041_1, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041_1,
 req.header: d3d12umddi.h
 req.include-header:
@@ -46,7 +43,7 @@ Command list functions for video decode.
 ## -syntax
 
 
-````
+```cpp
 typedef struct D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041_1
 {
     PFND3D12DDI_CLOSECOMMANDLIST                            pfnCloseCommandList;
@@ -62,7 +59,7 @@ typedef struct D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041_1
     PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030            pfnSetProtectedResourceSession;
     PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032                   pfnWriteBufferImmediate;
 } D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041_1;
-````
+```
 
 ## -struct-fields
 

@@ -6,11 +6,8 @@ description: The WdfUsbTargetDeviceSendUrbSynchronously method sends a USB reque
 old-location: wdf\wdfusbtargetdevicesendurbsynchronously.htm
 tech.root: wdf
 ms.assetid: b9b76796-bf08-4d10-82a4-7894b3285fff
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_33a88dd1-6d59-4e1f-bd4f-6d778c5aa6d8.xml, WdfUsbTargetDeviceSendUrbSynchronously, WdfUsbTargetDeviceSendUrbSynchronously method, kmdf.wdfusbtargetdevicesendurbsynchronously, wdf.wdfusbtargetdevicesendurbsynchronously, wdfusb/WdfUsbTargetDeviceSendUrbSynchronously
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

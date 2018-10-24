@@ -6,11 +6,8 @@ description: The wiasDownSampleBuffer function takes in a buffer of DWORD-aligne
 old-location: image\wiasdownsamplebuffer.htm
 tech.root: image
 ms.assetid: 4581b852-f539-4cad-93fd-2638c885c2e7
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiasdownsamplebuffer, wiamdef/wiasDownSampleBuffer, wiasDownSampleBuffer, wiasDownSampleBuffer function [Imaging Devices], wiasFncs_a109a3d9-e801-4332-bc89-65432023eecb.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiamdef.h
 req.include-header: Wiamdef.h

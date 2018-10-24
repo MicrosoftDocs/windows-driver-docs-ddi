@@ -4,12 +4,9 @@ title: _D3DCULL
 author: windows-driver-content
 description: 
 ms.assetid: f22fb406-d3b5-4965-9a5a-dbac6560e30e
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DCULL, D3DCULL, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d9types.h
 req.include-header:
 req.target-type:

@@ -6,11 +6,8 @@ description: The HidP_SetUsages routine sets specified HID control buttons ON (1
 old-location: hid\hidp_setusages.htm
 tech.root: hid
 ms.assetid: a9f229cd-33ca-42b5-bae6-3f367e5f1e84
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: HidP_SetUsages, HidP_SetUsages routine [Human Input Devices], hid.hidp_setusages, hidfunc_4d0213bb-2715-446b-bdaf-f82be3cbc11b.xml, hidpi/HidP_SetUsages
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hidpi.h
 req.include-header: Hidpi.h

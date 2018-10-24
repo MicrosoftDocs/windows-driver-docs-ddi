@@ -6,11 +6,8 @@ description: Adds two values of type LONG_PTR.
 old-location: kernel\rtllongptradd.htm
 tech.root: kernel
 ms.assetid: D0036070-A23D-4525-AE80-E10B20330F97
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlLongPtrAdd, RtlLongPtrAdd function [Kernel-Mode Driver Architecture], kernel.rtllongptradd, ntintsafe/RtlLongPtrAdd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

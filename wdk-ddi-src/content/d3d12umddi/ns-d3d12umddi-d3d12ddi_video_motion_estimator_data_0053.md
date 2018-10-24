@@ -4,11 +4,8 @@ title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_DATA_0053
 author: windows-driver-content
 description: The video capability check for motion estimation.
 ms.assetid: a41a54fa-b634-4bc5-a499-bf7af9598bf9
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_VIDEO_MOTION_ESTIMATOR_DATA_0053, D3D12DDI_VIDEO_MOTION_ESTIMATOR_DATA_0053, 
 req.header: d3d12umddi.h
 req.include-header:

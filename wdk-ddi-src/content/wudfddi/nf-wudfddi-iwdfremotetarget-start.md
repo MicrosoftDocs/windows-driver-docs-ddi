@@ -6,11 +6,8 @@ description: The IWDFRemoteTarget::Start method restarts a remote I/O target tha
 old-location: wdf\iwdfremotetarget_start.htm
 tech.root: wdf
 ms.assetid: f0f21d34-21f2-48ac-994f-e050f4447745
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFRemoteTarget interface,Start method, IWDFRemoteTarget.Start, IWDFRemoteTarget::Start, Start, Start method, Start method,IWDFRemoteTarget interface, UMDFIoTargetObjectRef_8e44c1ab-5ce6-4c4a-a7dc-e9de4b10ba12.xml, umdf.iwdfremotetarget_start, wdf.iwdfremotetarget_start, wudfddi/IWDFRemoteTarget::Start
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

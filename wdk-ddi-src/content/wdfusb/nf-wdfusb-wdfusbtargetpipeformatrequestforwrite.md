@@ -6,11 +6,8 @@ description: The WdfUsbTargetPipeFormatRequestForWrite method builds a write req
 old-location: wdf\wdfusbtargetpipeformatrequestforwrite.htm
 tech.root: wdf
 ms.assetid: cf880701-d1e9-4bda-8d6c-35f35b707e9b
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_4f71425c-5d39-433c-9820-d736b9f4f531.xml, WdfUsbTargetPipeFormatRequestForWrite, WdfUsbTargetPipeFormatRequestForWrite method, kmdf.wdfusbtargetpipeformatrequestforwrite, wdf.wdfusbtargetpipeformatrequestforwrite, wdfusb/WdfUsbTargetPipeFormatRequestForWrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

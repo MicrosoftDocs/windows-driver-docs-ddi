@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extihvdeinitadapter.htm
 tech.root: netvista
 ms.assetid: bf2e7ed3-cefc-47f3-a21b-aea3f0e569fe
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: DOT11EXTIHV_DEINIT_ADAPTER, Dot11ExtIhvDeinitAdapter, Dot11ExtIhvDeinitAdapter callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_5816e619-b6ca-4515-8bf6-99d053c108b0.xml, netvista.dot11extihvdeinitadapter, wlanihv/Dot11ExtIhvDeinitAdapter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
@@ -59,14 +56,14 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```cpp
 DOT11EXTIHV_DEINIT_ADAPTER Dot11ExtIhvDeinitAdapter;
 
 VOID APIENTRY Dot11ExtIhvDeinitAdapter(
   _In_opt_ HANDLE hIhvExtAdapter
 )
 { ... }
-````
+```
 
 
 ## -parameters

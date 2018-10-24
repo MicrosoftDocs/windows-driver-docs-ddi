@@ -6,11 +6,8 @@ description: The client driver's implementation that UCX calls to add a new endp
 old-location: buses\evt_ucx_usbdevice_endpoint_add.htm
 tech.root: usbref
 ms.assetid: 1cbafa33-e957-4865-9d4f-26f12827a941
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: EVT_UCX_USBDEVICE_ENDPOINT_ADD, EVT_UCX_USBDEVICE_ENDPOINT_ADD callback, EvtUcxUsbDeviceEndpointAdd, EvtUcxUsbDeviceEndpointAdd callback function [Buses], PEVT_UCX_USBDEVICE_ENDPOINT_ADD, PEVT_UCX_USBDEVICE_ENDPOINT_ADD callback function pointer [Buses], buses.evt_ucx_usbdevice_endpoint_add, ucxusbdevice/EvtUcxUsbDeviceEndpointAdd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h

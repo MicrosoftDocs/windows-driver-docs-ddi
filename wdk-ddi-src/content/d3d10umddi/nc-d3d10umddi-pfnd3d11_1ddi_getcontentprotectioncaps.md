@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Queries the available content protection for a specified encryption algorithm and video decoder profile.
 old-location: display\getcontentprotectioncaps.htm
 ms.assetid: 51024d63-f58c-45a7-bd6f-9f24a6805878
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_GETCONTENTPROTECTIONCAPS, PFND3D11_1DDI_GETCONTENTPROTECTIONCAPS callback, d3d10umddi/pfnGetContentProtectionCaps, display.getcontentprotectioncaps, pfnGetContentProtectionCaps, pfnGetContentProtectionCaps callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

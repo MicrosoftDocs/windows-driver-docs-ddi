@@ -6,11 +6,8 @@ description: Updates the target device with a driver from the driver package.
 old-location: dtf\iwdtfdriversetupaction2_updatedriver.htm
 tech.root: dtf
 ms.assetid: 4eb49aae-a7de-4038-9d57-003bb30d7ea8
-ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFDriverSetupAction2 interface [Windows Device Testing Framework],UpdateDriver method, IWDTFDriverSetupAction2.UpdateDriver, IWDTFDriverSetupAction2::UpdateDriver, Microsoft.WDTF.IWDTFDriverSetupAction2.UpdateDriver, Microsoft::WDTF::IWDTFDriverSetupAction2::UpdateDriver, UpdateDriver, UpdateDriver method [Windows Device Testing Framework], UpdateDriver method [Windows Device Testing Framework],IWDTFDriverSetupAction2 interface, dtf.iwdtfdriversetupaction2_updatedriver, wdtfdriversetupdeviceaction/IWDTFDriverSetupAction2::UpdateDriver
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtfdriversetupdeviceaction.h
 req.include-header: 

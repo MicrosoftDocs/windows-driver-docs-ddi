@@ -4,11 +4,8 @@ title: PFND3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY
 author: windows-driver-content
 description: The PFND3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY callback function sets the hardware protection tear down recovery.
 ms.assetid: 7beb2a30-1171-4ad3-8ae3-8358e55921a0
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The PFND3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY callback function sets the hardwar
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY Pfnd3dkmtSethwprotectionteardownrecovery; 

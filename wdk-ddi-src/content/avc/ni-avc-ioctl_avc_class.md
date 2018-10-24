@@ -6,11 +6,8 @@ description: The IOCTL_AVC_CLASS I/O control code is supported only from kernel 
 old-location: stream\ioctl_avc_class.htm
 tech.root: stream
 ms.assetid: 033069b8-98e5-4302-ae4e-71f9249533ff
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_AVC_CLASS, IOCTL_AVC_CLASS control, IOCTL_AVC_CLASS control code [Streaming Media Devices], avc/IOCTL_AVC_CLASS, avcref_720c03f6-d568-4ebe-8bd8-295fd8a6c222.xml, stream.ioctl_avc_class
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: avc.h
 req.include-header: Avc.h

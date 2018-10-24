@@ -4,11 +4,8 @@ title: EVT_TR_CREATE_SECURE_DEVICE_CONTEXT
 author: windows-driver-content
 description: 
 ms.assetid: d75797b3-0670-4a27-84b9-72359631cade
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ targetos: Windows
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_TR_CREATE_SECURE_DEVICE_CONTEXT EvtTrCreateSecureDeviceContext; 

@@ -4,11 +4,8 @@ title: DXGKDDI_NOTIFYFOCUSPRESENT
 author: windows-driver-content
 description: Notifies the GPU scheduler of a particular Present N, and the GPU scheduler will in turn perform the yield check on all GPU nodes and run a yield algorithm if necessary.
 ms.assetid: a2d25102-5181-4fb7-abcc-fb0669d9d95c
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Notifies the GPU scheduler of a particular Present N, and the GPU scheduler will
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKDDI_NOTIFYFOCUSPRESENT DxgkddiNotifyfocuspresent;

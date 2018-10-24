@@ -6,11 +6,8 @@ description: This structure is used for a listen request. The request begins iso
 old-location: ieee\cip_listen.htm
 tech.root: IEEE
 ms.assetid: 362ABECF-66D3-4B0B-913B-59F7196D6BFD
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PCIP_LISTEN, 61883/CIP_LISTEN, 61883/PCIP_LISTEN, CIP_LISTEN, CIP_LISTEN structure [Buses], IEEE.cip_listen, PCIP_LISTEN, PCIP_LISTEN structure pointer [Buses], _CIP_LISTEN"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 61883.h
 req.include-header: 

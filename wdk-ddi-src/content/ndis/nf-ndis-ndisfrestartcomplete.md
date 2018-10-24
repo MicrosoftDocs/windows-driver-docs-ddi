@@ -6,11 +6,8 @@ description: A filter driver must call the NdisFRestartComplete function to comp
 old-location: netvista\ndisfrestartcomplete.htm
 tech.root: netvista
 ms.assetid: 84685763-e7d8-4184-afa3-83efb4a0d3d7
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisFRestartComplete, NdisFRestartComplete function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_592af2b7-2172-4a8d-aa7b-315f7c321705.xml, ndis/NdisFRestartComplete, netvista.ndisfrestartcomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

@@ -6,11 +6,8 @@ description: Used by driver's load-image routine (PLOAD_IMAGE_NOTIFY_ROUTINE) to
 old-location: kernel\image_info.htm
 tech.root: kernel
 ms.assetid: D2CD2457-8DDF-4449-9DC1-F1E7472C87CA
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PIMAGE_INFO, IMAGE_INFO, IMAGE_INFO structure [Kernel-Mode Driver Architecture], PIMAGE_INFO, PIMAGE_INFO structure pointer [Kernel-Mode Driver Architecture], _IMAGE_INFO, kernel.image_info, ntddk/IMAGE_INFO, ntddk/PIMAGE_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddk.h
 req.include-header: Ntddk.h

@@ -6,11 +6,8 @@ description: The SerCx2CustomTransmitCreate method creates a custom-transmit obj
 old-location: serports\sercx2customtransmitcreate.htm
 tech.root: serports
 ms.assetid: 2B904208-7561-4C39-A411-4E396FF1E609
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SerCx2CustomTransmitCreate, SerCx2CustomTransmitCreate, SerCx2CustomTransmitCreate method [Serial Ports], serports.sercx2customtransmitcreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Releases resources for the video decoder output view that were created through a call to the CreateVideoDecoderOutputView function.
 old-location: display\destroyvideodecoderoutputview.htm
 ms.assetid: acb174e5-09cc-41e9-8b30-8c64f6193f7b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_DESTROYVIDEODECODEROUTPUTVIEW, PFND3D11_1DDI_DESTROYVIDEODECODEROUTPUTVIEW callback, d3d10umddi/pfnDestroyVideoDecoderOutputView, display.destroyvideodecoderoutputview, pfnDestroyVideoDecoderOutputView, pfnDestroyVideoDecoderOutputView callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

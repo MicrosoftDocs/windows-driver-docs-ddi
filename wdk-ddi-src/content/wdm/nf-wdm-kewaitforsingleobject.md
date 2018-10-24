@@ -6,11 +6,8 @@ description: The KeWaitForSingleObject routine puts the current thread into a wa
 old-location: kernel\kewaitforsingleobject.htm
 tech.root: kernel
 ms.assetid: 65a1aa46-571b-46f7-b60e-ef8c6dc14d39
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeWaitForMutexObject, KeWaitForSingleObject, KeWaitForSingleObject routine [Kernel-Mode Driver Architecture], k105_de338bec-f7ef-4780-85e6-592a24314145.xml, kernel.kewaitforsingleobject, wdm/KeWaitForSingleObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

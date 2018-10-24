@@ -5,7 +5,6 @@ author: windows-driver-content
 description: Calculates the number of elements contained in a range of the specified net ring buffer.
 tech.root: netvista
 ms.assetid: 665010d3-f177-470c-a721-188c81a4cae7
-ms.author: windowsdriverdev
 ms.date: 02/09/2018
 ms.topic: function
 ms.keywords: NetRingBufferGetNumberOfElementsInRange

@@ -6,11 +6,8 @@ description: The FwpmEngineOpen0 function opens a session to the filter engine.N
 old-location: netvista\fwpmengineopen0.htm
 tech.root: netvista
 ms.assetid: 4d805ffe-7cf9-4cbc-9077-e191ddc24ecd
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FwpmEngineOpen0, FwpmEngineOpen0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmEngineOpen0, netvista.fwpmengineopen0, wfp_ref_2_funct_2_fwpm_29969a12-e73c-4b61-b940-e0da4b0be737.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmk.h
 req.include-header: Fwpmk.h

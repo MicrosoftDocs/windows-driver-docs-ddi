@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The NET_PACKET_RECEIVE_SEGMENT_COALESCENCE structure contains receive segment coalescence (RSC) information for a packet.
 tech.root: netvista
 ms.assetid: 6385d38a-1731-4dc3-81db-d61bca59621e
-ms.author: windowsdriverdev
 ms.date: 03/02/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _NET_PACKET_RECEIVE_SEGMENT_COALESCENCE, NET_PACKET_RECEIVE_SEGMENT_COALESCENCE, 
 req.header: netpacket.h
 req.include-header: netadaptercx.h

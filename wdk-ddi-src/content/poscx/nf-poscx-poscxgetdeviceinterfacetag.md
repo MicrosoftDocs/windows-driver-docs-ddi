@@ -6,11 +6,8 @@ description: PosCxGetDeviceInterfaceTag returns the device interface tag that is
 old-location: pos\poscxgetdeviceinterfacetag.htm
 tech.root: pos
 ms.assetid: CF54D922-8EEE-41CE-8CFC-0628756117BE
-ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: PosCxGetDeviceInterfaceTag, PosCxGetDeviceInterfaceTag function, pos.poscxgetdeviceinterfacetag, poscx/PosCxGetDeviceInterfaceTag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: poscx.h
 req.include-header: Poscx.h

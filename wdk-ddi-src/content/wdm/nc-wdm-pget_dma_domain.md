@@ -4,11 +4,8 @@ title: PGET_DMA_DOMAIN
 author: windows-driver-content
 description: 
 ms.assetid: 005216e2-74a5-4048-b855-8616b244d554
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ This callback function gets the handle to the DMA domain.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PGET_DMA_DOMAIN PgetDmaDomain; 

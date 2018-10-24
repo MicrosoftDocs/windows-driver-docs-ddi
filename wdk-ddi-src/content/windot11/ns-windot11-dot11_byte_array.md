@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_byte_array.htm
 tech.root: netvista
 ms.assetid: a2c67eaf-d39e-43c9-8e06-18f668c0baa3
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_BYTE_ARRAY, DOT11_BYTE_ARRAY, DOT11_BYTE_ARRAY structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_b4146de4-b261-40d9-847d-1eebb48eafea.xml, PDOT11_BYTE_ARRAY, PDOT11_BYTE_ARRAY structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_byte_array, windot11/DOT11_BYTE_ARRAY, windot11/PDOT11_BYTE_ARRAY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -61,14 +58,14 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef struct DOT11_BYTE_ARRAY {
   NDIS_OBJECT_HEADER Header;
   ULONG              uNumOfBytes;
   ULONG              uTotalNumOfBytes;
   UCHAR              ucBuffer[1];
 } DOT11_BYTE_ARRAY, *PDOT11_BYTE_ARRAY;
-````
+```
 
 
 ## -struct-fields

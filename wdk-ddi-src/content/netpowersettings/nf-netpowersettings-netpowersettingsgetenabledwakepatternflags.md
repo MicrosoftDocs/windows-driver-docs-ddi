@@ -5,7 +5,6 @@ author: windows-driver-content
 description: Retrieves flags representing currently enabled wake pattern types that a network adapter supports.
 tech.root: netvista
 ms.assetid: a82e0bdf-45a0-4f69-bd1d-0e863a49f080
-ms.author: windowsdriverdev
 ms.date: 02/08/2018
 ms.topic: function
 ms.keywords: NetPowerSettingsGetEnabledWakePatternFlags

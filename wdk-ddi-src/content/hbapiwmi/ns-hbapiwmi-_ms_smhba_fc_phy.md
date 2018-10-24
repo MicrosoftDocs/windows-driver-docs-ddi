@@ -6,11 +6,8 @@ description: The MS_SMHBA_FC_PHY structure is used to report the physical attrib
 old-location: storage\ms_smhba_fc_phy.htm
 tech.root: storage
 ms.assetid: 7fb199b6-dcdb-41fc-b1c4-4eef2177018e
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PMS_SMHBA_FC_PHY, MS_SMHBA_FC_PHY, MS_SMHBA_FC_PHY structure [Storage Devices], PMS_SMHBA_FC_PHY, PMS_SMHBA_FC_PHY structure pointer [Storage Devices], _MS_SMHBA_FC_PHY, hbapiwmi/MS_SMHBA_FC_PHY, hbapiwmi/PMS_SMHBA_FC_PHY, storage.ms_smhba_fc_phy, structs-Fibre_64c8e970-8d72-4651-bcb8-8363b424cd04.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h

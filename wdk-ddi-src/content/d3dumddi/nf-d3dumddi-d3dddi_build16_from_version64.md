@@ -4,8 +4,7 @@ title: D3DDDI_BUILD16_FROM_VERSION64 macro
 author: windows-driver-content
 description: Converts a 16 bit build from a 64 bit version.
 ms.assetid: 896c4841-aed6-4401-9499-537dc4ffe0fb
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: macro
 ms.keywords: D3DDDI_BUILD16_FROM_VERSION64
 req.header: d3dumddi.h

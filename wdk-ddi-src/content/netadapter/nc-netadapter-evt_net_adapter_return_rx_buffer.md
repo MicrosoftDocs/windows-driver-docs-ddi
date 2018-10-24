@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Implement this optional callback function to perform cleanup on a receive buffer for which you previously specified manual fragment allocation and attachment.
 tech.root: netvista
 ms.assetid: E999C47A-CAE1-42AB-9900-4118EFFAEE0D
-ms.author: windowsdriverdev
 ms.date: 02/15/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: netadapter.h
 req.include-header:
 req.target-type: Universal

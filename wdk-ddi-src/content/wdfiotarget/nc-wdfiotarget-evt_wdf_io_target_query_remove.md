@@ -6,11 +6,8 @@ description: A driver's EvtIoTargetQueryRemove event callback function indicates
 old-location: wdf\evtiotargetqueryremove.htm
 tech.root: wdf
 ms.assetid: cb7c97e5-081e-44fc-a759-9a1ae81de41c
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_9a471005-a4c8-4918-bc4c-4147bd6018f0.xml, EVT_WDF_IO_TARGET_QUERY_REMOVE, EVT_WDF_IO_TARGET_QUERY_REMOVE callback, EvtIoTargetQueryRemove, EvtIoTargetQueryRemove callback function, kmdf.evtiotargetqueryremove, wdf.evtiotargetqueryremove, wdfiotarget/EvtIoTargetQueryRemove
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfiotarget.h
 req.include-header: Wdf.h

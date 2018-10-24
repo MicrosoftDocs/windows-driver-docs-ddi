@@ -4,12 +4,9 @@ title: _D3DDDI_COMPOSERECTSOP
 author: windows-driver-content
 description: Describes the ways in which to compose rectangle areas.
 ms.assetid: 8eed3d12-86ec-4184-8087-eb5490096437
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DDDI_COMPOSERECTSOP, D3DDDI_COMPOSERECTSOP, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dumddi.h
 req.include-header:
 req.target-type:

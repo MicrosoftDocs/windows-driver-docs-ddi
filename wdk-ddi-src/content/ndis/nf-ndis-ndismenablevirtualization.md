@@ -6,11 +6,8 @@ description: A miniport driver calls the NdisMEnableVirtualization function duri
 old-location: netvista\ndismenablevirtualization.htm
 tech.root: netvista
 ms.assetid: 5a82dfe6-8844-4b18-8f54-7bf143fcd2ff
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMEnableVirtualization, NdisMEnableVirtualization function [Network Drivers Starting with Windows Vista], ndis/NdisMEnableVirtualization, netvista.ndismenablevirtualization
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

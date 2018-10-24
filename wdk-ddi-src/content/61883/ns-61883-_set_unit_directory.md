@@ -6,11 +6,8 @@ description: This structure is used to assign settings for a unit directory.
 old-location: ieee\set_unit_directory.htm
 tech.root: IEEE
 ms.assetid: C4021856-835D-4B4B-9795-4FEEEFAC06B8
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PSET_UNIT_DIRECTORY, 61883/PSET_UNIT_DIRECTORY, 61883/SET_UNIT_DIRECTORY, IEEE.set_unit_directory, PSET_UNIT_DIRECTORY, PSET_UNIT_DIRECTORY structure pointer [Buses], SET_UNIT_DIRECTORY, SET_UNIT_DIRECTORY structure [Buses], _SET_UNIT_DIRECTORY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 61883.h
 req.include-header: 

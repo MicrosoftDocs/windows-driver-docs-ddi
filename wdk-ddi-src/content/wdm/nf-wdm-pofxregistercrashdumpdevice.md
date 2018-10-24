@@ -6,11 +6,8 @@ description: The PoFxRegisterCrashdumpDevice routine registers a crash-dump devi
 old-location: kernel\pofxregistercrashdumpdevice.htm
 tech.root: kernel
 ms.assetid: 3237B68F-838A-4443-89FD-DC7815EAB403
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PoFxRegisterCrashdumpDevice, PoFxRegisterCrashdumpDevice routine [Kernel-Mode Driver Architecture], kernel.pofxregistercrashdumpdevice, wdm/PoFxRegisterCrashdumpDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Pepfx.h

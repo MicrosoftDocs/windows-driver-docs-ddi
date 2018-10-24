@@ -4,11 +4,8 @@ title: _D3DKMT_RESETTRACKEDWORKLOAD
 author: windows-driver-content
 description: Arguments used to reset a tracked workload.
 ms.assetid: 3a2215f1-384a-4eec-9b96-f1290b561d02
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_RESETTRACKEDWORKLOAD, D3DKMT_RESETTRACKEDWORKLOAD, 
 req.header: d3dkmthk.h
 req.include-header:

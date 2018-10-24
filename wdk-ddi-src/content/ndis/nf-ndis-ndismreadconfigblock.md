@@ -6,11 +6,8 @@ description: A miniport driver for a PCI Express (PCIe) Virtual Function (VF) ca
 old-location: netvista\ndismreadconfigblock.htm
 tech.root: netvista
 ms.assetid: a4b5e669-7abb-4c60-b2dc-249103d0b20c
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMReadConfigBlock, NdisMReadConfigBlock function [Network Drivers Starting with Windows Vista], ndis/NdisMReadConfigBlock, netvista.ndismreadconfigblock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

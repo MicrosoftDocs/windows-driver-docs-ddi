@@ -6,11 +6,8 @@ description: The PsDereferenceImpersonationToken routine decrements the referenc
 old-location: ifsk\psdereferenceimpersonationtoken.htm
 tech.root: ifsk
 ms.assetid: 8320d4d1-f282-4977-96e7-de6f63d86ec4
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: PsDereferenceImpersonationToken, PsDereferenceImpersonationToken routine [Installable File System Drivers], ifsk.psdereferenceimpersonationtoken, ntifs/PsDereferenceImpersonationToken, psref_8d62cb23-83a3-45fd-8b35-f7e38dd1548d.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

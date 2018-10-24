@@ -6,11 +6,8 @@ description: The RtlInt64ToUnicodeString routine converts a specified unsigned 6
 old-location: kernel\rtlint64tounicodestring.htm
 tech.root: kernel
 ms.assetid: 36f146a7-cdc2-4b88-bd9a-5008bf94c180
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlInt64ToUnicodeString, RtlInt64ToUnicodeString routine [Kernel-Mode Driver Architecture], k109_b6248e50-c6e8-4c61-a9f0-83fb434bd69c.xml, kernel.rtlint64tounicodestring, wdm/RtlInt64ToUnicodeString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h

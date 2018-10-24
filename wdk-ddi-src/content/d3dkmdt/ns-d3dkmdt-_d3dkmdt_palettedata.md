@@ -6,11 +6,8 @@ description: The D3DKMDT_PALETTEDATA structure describes a palette entry for the
 old-location: display\d3dkmdt_palettedata.htm
 tech.root: display
 ms.assetid: 81ff56bb-84e5-4556-a0bf-32164b938622
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMDT_PALETTEDATA, D3DKMDT_PALETTEDATA structure [Display Devices], DmStructs_83e6b2ae-dd44-4a21-bca5-6009af1f4ced.xml, _D3DKMDT_PALETTEDATA, d3dkmdt/D3DKMDT_PALETTEDATA, display.d3dkmdt_palettedata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h

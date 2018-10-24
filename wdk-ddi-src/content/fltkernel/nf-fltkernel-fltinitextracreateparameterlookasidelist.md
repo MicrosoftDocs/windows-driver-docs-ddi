@@ -6,11 +6,8 @@ description: The FltInitExtraCreateParameterLookasideList routine initializes a 
 old-location: ifsk\fltinitextracreateparameterlookasidelist.htm
 tech.root: ifsk
 ms.assetid: bec492df-86ac-4e1b-8623-5656aa20c4c5
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_b9cff240-0f03-4756-86d0-a44612df8e58.xml, FltInitExtraCreateParameterLookasideList, FltInitExtraCreateParameterLookasideList routine [Installable File System Drivers], fltkernel/FltInitExtraCreateParameterLookasideList, ifsk.fltinitextracreateparameterlookasidelist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

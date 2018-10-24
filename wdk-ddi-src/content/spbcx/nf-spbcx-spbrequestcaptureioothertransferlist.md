@@ -6,11 +6,8 @@ description: The SpbRequestCaptureIoOtherTransferList method retrieves the SPB_T
 old-location: spb\spbrequestcaptureioothertransferlist.htm
 tech.root: SPB
 ms.assetid: 7AC76E6F-1250-49EB-BEA1-3807C65AC2B7
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: SPB.spbrequestcaptureioothertransferlist, SpbRequestCaptureIoOtherTransferList, SpbRequestCaptureIoOtherTransferList method [Buses], spbcx/SpbRequestCaptureIoOtherTransferList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: spbcx.h
 req.include-header: 

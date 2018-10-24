@@ -4,7 +4,6 @@ title: IDataModelManager2::RegisterExtensionForTypeSignature
 author: windows-driver-content
 description: The RegisterExtensionForTypeSignature method is similar to the RegisterModelForTypeSignature method with one key difference.
 ms.assetid: db12fe6e-c98b-4c9b-be71-76a8c7cabcb8
-ms.author: windowsdriverdev
 ms.date: 09/11/2018
 ms.topic: method
 ms.keywords: IDataModelManager2::RegisterExtensionForTypeSignature, RegisterExtensionForTypeSignature, IDataModelManager2.RegisterExtensionForTypeSignature, IDataModelManager2::RegisterExtensionForTypeSignature, IDataModelManager2.RegisterExtensionForTypeSignature

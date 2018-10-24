@@ -6,11 +6,8 @@ description: The WdfIoResourceListInsertDescriptor method inserts a resource des
 old-location: wdf\wdfioresourcelistinsertdescriptor.htm
 tech.root: wdf
 ms.assetid: 604182ea-3712-4670-bab8-edc3cb2fcd06
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFResourceObjectRef_6f8fc17d-c5db-47fa-854a-5536dfc11705.xml, WdfIoResourceListInsertDescriptor, WdfIoResourceListInsertDescriptor method, kmdf.wdfioresourcelistinsertdescriptor, wdf.wdfioresourcelistinsertdescriptor, wdfresource/WdfIoResourceListInsertDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfresource.h
 req.include-header: Wdf.h

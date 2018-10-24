@@ -4,11 +4,8 @@ title: DXGKCB_RELEASEHANDLEDATA
 author: windows-driver-content
 description: Releases handle data.
 ms.assetid: b7a1b8b8-f631-478b-a441-c89dcd7bfd29
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Implemented by the client driver to release handle data.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 DXGKCB_RELEASEHANDLEDATA DxgkcbReleasehandledata; 

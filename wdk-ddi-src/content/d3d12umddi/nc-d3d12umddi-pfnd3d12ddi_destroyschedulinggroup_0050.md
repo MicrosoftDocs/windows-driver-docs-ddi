@@ -4,11 +4,8 @@ title: PFND3D12DDI_DESTROYSCHEDULINGGROUP_0050
 author: windows-driver-content
 description: Destroys a hardware scheduling group.
 ms.assetid: 688cd4a2-6775-42e8-8dde-88a0d4d196b6
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Destroys a hardware scheduling group.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_DESTROYSCHEDULINGGROUP_0050 Pfnd3d12ddiDestroyschedulinggroup0050; 

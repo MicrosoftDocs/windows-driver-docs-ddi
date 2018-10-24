@@ -6,11 +6,8 @@ description: The ExAllocatePoolWithTagPriority routine allocates pool memory of 
 old-location: kernel\exallocatepoolwithtagpriority.htm
 tech.root: kernel
 ms.assetid: 33087a37-e6fc-4b21-aa9e-e4617eeccd29
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExAllocatePoolWithTagPriority, ExAllocatePoolWithTagPriority routine [Kernel-Mode Driver Architecture], k102_cca6adc7-0f37-4565-858d-a191062f4fbd.xml, kernel.exallocatepoolwithtagpriority, wdm/ExAllocatePoolWithTagPriority
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

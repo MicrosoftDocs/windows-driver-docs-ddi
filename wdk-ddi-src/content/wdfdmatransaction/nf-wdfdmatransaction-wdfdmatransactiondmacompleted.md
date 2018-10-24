@@ -6,11 +6,8 @@ description: The WdfDmaTransactionDmaCompleted method notifies the framework tha
 old-location: wdf\wdfdmatransactiondmacompleted.htm
 tech.root: wdf
 ms.assetid: 83c1c4cb-b28b-4980-92fb-a1a49d95406e
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDmaObjectRef_d7fd815f-7c21-4b84-b4f2-0dcc13cf068a.xml, WdfDmaTransactionDmaCompleted, WdfDmaTransactionDmaCompleted method, kmdf.wdfdmatransactiondmacompleted, wdf.wdfdmatransactiondmacompleted, wdfdmatransaction/WdfDmaTransactionDmaCompleted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h

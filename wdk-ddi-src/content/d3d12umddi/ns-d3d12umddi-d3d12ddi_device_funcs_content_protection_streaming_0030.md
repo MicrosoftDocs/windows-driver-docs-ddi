@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Device function for content protection streaming.
 old-location: display\d3d12ddi-device-funcs-content-protection-streaming-0030.htm
 ms.assetid: 5ddf67c1-5ee7-4948-b631-45aeb031a293
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D12DDI_DEVICE_FUNCS_CONTENT_PROTECTION_STREAMING_0030, D3D12DDI_DEVICE_FUNCS_CONTENT_PROTECTION_STREAMING_0030 structure [Display Devices], d3d12umddi/D3D12DDI_DEVICE_FUNCS_CONTENT_PROTECTION_STREAMING_0030, display.d3d12ddi-device-funcs-content-protection-streaming-0030
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: 

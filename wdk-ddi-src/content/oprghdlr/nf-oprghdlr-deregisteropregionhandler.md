@@ -6,11 +6,8 @@ description: The DeRegisterOpRegionHandler routine deregisters an operation regi
 old-location: acpi\deregisteropregionhandler.htm
 tech.root: acpi
 ms.assetid: b50a63cd-69eb-46a8-9d0b-660795c7047f
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: DeRegisterOpRegionHandler, DeRegisterOpRegionHandler routine [ACPI Devices], acpi.deregisteropregionhandler, opregref_e991e152-6162-4d45-9418-282afb447d18.xml, oprghdlr/DeRegisterOpRegionHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oprghdlr.h
 req.include-header: Oprghdlr.h

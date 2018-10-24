@@ -6,11 +6,8 @@ description: The IWDFDeviceInitialize interface is a helper interface that the f
 old-location: wdf\iwdfdeviceinitialize.htm
 tech.root: wdf
 ms.assetid: a776069c-0cbb-4ae9-bf6b-1d300dbcec34
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFDeviceInitialize, IWDFDeviceInitialize interface, IWDFDeviceInitialize interface,described, UMDFDeviceObjectRef_b63038ef-0e6e-4417-96de-0c3f5ec1866e.xml, umdf.iwdfdeviceinitialize, wdf.iwdfdeviceinitialize, wudfddi/IWDFDeviceInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

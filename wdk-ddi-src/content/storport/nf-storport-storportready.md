@@ -6,11 +6,8 @@ description: The StorPortReady routine notifies the port driver that the adapter
 old-location: storage\storportready.htm
 tech.root: storage
 ms.assetid: 37c19ee9-4741-448c-bcbe-12437f4f3b4d
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortReady, StorPortReady routine [Storage Devices], storage.storportready, storport/StorPortReady, storprt_6938d8e3-03f8-4f40-a867-07b64d91a6a2.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

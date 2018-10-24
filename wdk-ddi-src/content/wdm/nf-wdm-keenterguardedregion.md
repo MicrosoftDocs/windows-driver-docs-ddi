@@ -6,11 +6,8 @@ description: The KeEnterGuardedRegion routine enters a guarded region, which dis
 old-location: kernel\keenterguardedregion.htm
 tech.root: kernel
 ms.assetid: 9a21495e-8a4d-4177-a2c5-b6a928d86fd9
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeEnterGuardedRegion, KeEnterGuardedRegion routine [Kernel-Mode Driver Architecture], k105_0f632d64-85dc-4c0f-8a26-8b4710673ab5.xml, kernel.keenterguardedregion, wdm/KeEnterGuardedRegion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

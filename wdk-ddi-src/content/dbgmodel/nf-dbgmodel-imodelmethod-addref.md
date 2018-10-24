@@ -4,7 +4,6 @@ title: IModelMethod::AddRef
 author: windows-driver-content
 description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: 8168f869-ff67-4de9-be1c-57274755a230
-ms.author: windowsdriverdev
 ms.date: 08/13/2018
 ms.topic: method
 ms.keywords: IModelMethod::AddRef, AddRef, IModelMethod.AddRef, IModelMethod::AddRef, IModelMethod.AddRef

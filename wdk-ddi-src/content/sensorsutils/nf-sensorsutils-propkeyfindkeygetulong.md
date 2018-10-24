@@ -4,10 +4,7 @@ title: PropKeyFindKeyGetUlong function
 author: windows-driver-content
 description: This routine gets a ULONG value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
 ms.assetid: e3c390be-bebf-400d-9650-b7e3d0ff5a23
-ms.author: windowsdriverdev
-ms.date: 08/08/18
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
 ms.keywords: PropKeyFindKeyGetUlong

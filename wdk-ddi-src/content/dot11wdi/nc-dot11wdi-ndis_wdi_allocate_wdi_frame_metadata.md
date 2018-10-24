@@ -6,11 +6,8 @@ description: The NdisWdiAllocateWiFiFrameMetaData callback function allocates a 
 old-location: netvista\ndiswdiallocatewdiframemetadata.htm
 tech.root: netvista
 ms.assetid: 6C565DAF-3363-466F-AC4A-9DB534E581FC
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA, NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA callback, NdisWdiAllocateWiFiFrameMetaData, NdisWdiAllocateWiFiFrameMetaData callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiAllocateWiFiFrameMetaData, netvista.ndiswdiallocatewdiframemetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dot11wdi.h
 req.include-header: 

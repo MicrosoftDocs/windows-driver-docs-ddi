@@ -6,11 +6,8 @@ description: The NdisMCompleteDmaTransfer function indicates that a system DMA t
 old-location: netvista\ndismcompletedmatransfer.htm
 tech.root: netvista
 ms.assetid: 12a8062a-6d4b-4757-a076-56aeb5e4e48c
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMCompleteDmaTransfer, NdisMCompleteDmaTransfer macro [Network Drivers Starting with Windows Vista], dma_ref_bd601fef-cf06-42ff-9906-d3bf8edef72f.xml, ndis/NdisMCompleteDmaTransfer, netvista.ndismcompletedmatransfer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ndis.h
 req.include-header: Ndis.h

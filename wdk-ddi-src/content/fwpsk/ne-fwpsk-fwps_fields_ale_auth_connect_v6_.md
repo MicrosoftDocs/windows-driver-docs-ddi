@@ -6,11 +6,8 @@ description: The FWPS_FIELDS_ALE_AUTH_CONNECT_V6 enumeration type specifies the 
 old-location: netvista\fwps_fields_ale_auth_connect_v6.htm
 tech.root: netvista
 ms.assetid: ef1bc756-e60b-43fb-9ac6-3cc22611b538
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FWPS_FIELDS_ALE_AUTH_CONNECT_V6, FWPS_FIELDS_ALE_AUTH_CONNECT_V6 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELDS_ALE_AUTH_CONNECT_V6_, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_APP_ID, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_ORIGINAL_APP_ID, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_PACKAGE_ID, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_REMOTE_MACHINE_ID, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_REMOTE_USER_ID, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_USER_ID, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ARRIVAL_INTERFACE_INDEX, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ARRIVAL_INTERFACE_TYPE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ARRIVAL_TUNNEL_TYPE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_CURRENT_PROFILE_ID, FWPS_FIELD_ALE_AUTH_CONNECT_V6_FLAGS, FWPS_FIELD_ALE_AUTH_CONNECT_V6_INTERFACE_INDEX, FWPS_FIELD_ALE_AUTH_CONNECT_V6_INTERFACE_QUARANTINE_EPOCH, FWPS_FIELD_ALE_AUTH_CONNECT_V6_INTERFACE_TYPE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_ARRIVAL_INTERFACE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_DESTINATION_ADDRESS_TYPE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_ADDRESS, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_ADDRESS_TYPE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_INTERFACE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_PORT, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_NEXTHOP_INTERFACE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_PROTOCOL, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_REMOTE_ADDRESS, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_REMOTE_PORT, FWPS_FIELD_ALE_AUTH_CONNECT_V6_MAX, FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_INTERFACE_INDEX, FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_INTERFACE_TYPE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_SUB_INTERFACE_INDEX, FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_TUNNEL_TYPE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ORIGINAL_ICMP_TYPE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ORIGINAL_PROFILE_ID, FWPS_FIELD_ALE_AUTH_CONNECT_V6_PEER_NAME, FWPS_FIELD_ALE_AUTH_CONNECT_V6_REAUTHORIZE_REASON, FWPS_FIELD_ALE_AUTH_CONNECT_V6_SUB_INTERFACE_INDEX, FWPS_FIELD_ALE_AUTH_CONNECT_V6_TUNNEL_TYPE, fwpsk/FWPS_FIELDS_ALE_AUTH_CONNECT_V6, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_APP_ID, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_ORIGINAL_APP_ID, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_PACKAGE_ID, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_REMOTE_MACHINE_ID, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_REMOTE_USER_ID, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_USER_ID, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ARRIVAL_INTERFACE_INDEX, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ARRIVAL_INTERFACE_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ARRIVAL_TUNNEL_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_CURRENT_PROFILE_ID, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_FLAGS, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_INTERFACE_INDEX, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_INTERFACE_QUARANTINE_EPOCH, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_INTERFACE_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_ARRIVAL_INTERFACE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_DESTINATION_ADDRESS_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_ADDRESS_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_INTERFACE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_PORT, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_NEXTHOP_INTERFACE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_PROTOCOL, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_REMOTE_PORT, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_MAX, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_INTERFACE_INDEX, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_INTERFACE_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_SUB_INTERFACE_INDEX, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_TUNNEL_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ORIGINAL_ICMP_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ORIGINAL_PROFILE_ID, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_PEER_NAME, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_REAUTHORIZE_REASON, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_SUB_INTERFACE_INDEX, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_TUNNEL_TYPE, netvista.fwps_fields_ale_auth_connect_v6, wfp_ref_5_const_3_data_fields_e5d80100-9dd1-49fb-868a-97af0f14fe36.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
@@ -134,7 +131,7 @@ A bitwise OR of a combination of filtering condition flags. For information abou
 
 The type of the network interface, as defined by the Internet Assigned Numbers Authority (IANA).
      For more information, see 
-     <a href="http://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a>.
+     <a href="https://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a>.
 
 
 ### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_TUNNEL_TYPE
@@ -142,7 +139,7 @@ The type of the network interface, as defined by the Internet Assigned Numbers A
 The encapsulation method used by a tunnel if the 
      <b>IfType</b> member of the IP_ADAPTER_ADDRESSES structure is IF_TYPE_TUNNEL. The tunnel type is defined
      by IANA. For more information, see 
-     <a href="http://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a> and the
+     <a href="https://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a> and the
      Windows SDK.
 
 
@@ -176,7 +173,7 @@ The LUID for the network interface that is associated with the arrival IP addres
 
 The type of the arrival network interface, as defined by the Internet Assigned Numbers Authority
      (IANA). For more information, see 
-     <a href="http://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a>.
+     <a href="https://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a>.
      
 
 <div class="alert"><b>Note</b>  Supported starting with Windows 7.</div>
@@ -187,7 +184,7 @@ The type of the arrival network interface, as defined by the Internet Assigned N
 The encapsulation method used by a tunnel if the 
      <b>IfType</b> member of the IP_ADAPTER_ADDRESSES structure is IF_TYPE_TUNNEL. The tunnel type is defined
      by IANA. For more information, see 
-     <a href="http://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a> and the
+     <a href="https://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a> and the
      Windows SDK.
      
 
@@ -225,7 +222,7 @@ The LUID for the network interface that is the next interface for the forwarding
 
 The type of the network interface that will be used to continue forwarding of the outbound packet,
      as defined by the Internet Assigned Numbers Authority (IANA). For more information, see 
-     <a href="http://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a>.
+     <a href="https://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a>.
      
 
 <div class="alert"><b>Note</b>  Supported in Windows Server 2008, Windows Vista SP1, and later versions of
@@ -238,7 +235,7 @@ The encapsulation method used by a tunnel for the forwarding interface of the ou
      the 
      <b>IfType</b> member of the IP_ADAPTER_ADDRESSES structure is IF_TYPE_TUNNEL. The tunnel type is defined
      by the IANA. For more information, see 
-     <a href="http://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a>.
+     <a href="https://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a>.
      
 
 <div class="alert"><b>Note</b>  Supported in Windows Server 2008, Windows Vista SP1, and later versions of

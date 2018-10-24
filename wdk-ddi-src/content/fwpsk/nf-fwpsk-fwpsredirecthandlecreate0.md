@@ -6,11 +6,8 @@ description: The FwpsRedirectHandleCreate0 function creates a handle that connec
 old-location: netvista\fwpsredirecthandlecreate0.htm
 tech.root: netvista
 ms.assetid: 841f3885-509a-457e-854d-e8ead657de54
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FwpsRedirectHandleCreate0, FwpsRedirectHandleCreate0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsRedirectHandleCreate0, netvista.fwpsredirecthandlecreate0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpsk.h
 req.include-header: Fwpsk.h

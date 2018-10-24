@@ -4,11 +4,8 @@ title: _D3DKMT_ISBADDRIVERFORHWPROTECTIONDISABLED
 author: windows-driver-content
 description: Used to indicate whether a bad driver for hardware protection is disabled.
 ms.assetid: df383a03-adce-462e-9804-04a3ae9bafb8
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_ISBADDRIVERFORHWPROTECTIONDISABLED, D3DKMT_ISBADDRIVERFORHWPROTECTIONDISABLED, 
 req.header: d3dkmthk.h
 req.include-header:

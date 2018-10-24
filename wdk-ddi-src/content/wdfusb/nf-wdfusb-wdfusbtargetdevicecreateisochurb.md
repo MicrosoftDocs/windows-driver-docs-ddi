@@ -6,11 +6,8 @@ description: The WdfUsbTargetDeviceCreateIsochUrb method allocates an isochronou
 old-location: wdf\wdfusbtargetdevicecreateisochurb.htm
 tech.root: wdf
 ms.assetid: 2D25A276-A367-4E59-9CA0-4F480675DD77
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfUsbTargetDeviceCreateIsochUrb, WdfUsbTargetDeviceCreateIsochUrb method, kmdf.wdfusbtargetdevicecreateisochurb, wdf.wdfusbtargetdevicecreateisochurb, wdfusb/WdfUsbTargetDeviceCreateIsochUrb
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

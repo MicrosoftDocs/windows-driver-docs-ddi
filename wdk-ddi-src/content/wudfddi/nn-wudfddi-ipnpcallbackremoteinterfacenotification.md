@@ -6,11 +6,8 @@ description: A driver's IPnpCallbackRemoteInterfaceNotification interface provid
 old-location: wdf\ipnpcallbackremoteinterfacenotification.htm
 tech.root: wdf
 ms.assetid: 99d670dd-2358-4f1a-b111-72484bf3132c
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IPnpCallbackRemoteInterfaceNotification, IPnpCallbackRemoteInterfaceNotification interface, IPnpCallbackRemoteInterfaceNotification interface,described, UMDFDeviceObjectRef_4701eb20-04aa-412f-8511-f44a2590ee5b.xml, umdf.ipnpcallbackremoteinterfacenotification, wdf.ipnpcallbackremoteinterfacenotification, wudfddi/IPnpCallbackRemoteInterfaceNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

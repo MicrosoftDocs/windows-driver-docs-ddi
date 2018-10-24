@@ -4,11 +4,8 @@ title: PALLOCATE_DOMAIN_COMMON_BUFFER
 author: windows-driver-content
 description: 
 ms.assetid: 29fca9d8-ddc6-40b5-92c0-079441f965b3
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ This callback function allocates the memory for a domain common buffer.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PALLOCATE_DOMAIN_COMMON_BUFFER PallocateDomainCommonBuffer; 

@@ -6,11 +6,8 @@ description: The KsQuerySoftwareBusInterface function creates a buffer from the 
 old-location: stream\ksquerysoftwarebusinterface.htm
 tech.root: stream
 ms.assetid: 2a4dd5a8-e9cc-4404-8031-5091ff2aa50d
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsQuerySoftwareBusInterface, KsQuerySoftwareBusInterface function [Streaming Media Devices], ksfunc_58ad39a9-6e7b-416b-9ca6-a5a92bb0a7fc.xml, stream.ksquerysoftwarebusinterface, swenum/KsQuerySoftwareBusInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: swenum.h
 req.include-header: Swenum.h

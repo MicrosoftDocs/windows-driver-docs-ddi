@@ -6,11 +6,8 @@ description: NdisMCmOpenAddressFamilyComplete returns the final status of a clie
 old-location: netvista\ndismcmopenaddressfamilycomplete.htm
 tech.root: netvista
 ms.assetid: e2d6c7db-09b3-4e5a-a6da-607c67e03054
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMCmOpenAddressFamilyComplete, NdisMCmOpenAddressFamilyComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_b03ae7ee-6f52-4d98-a7ff-f8b5840b6472.xml, ndis/NdisMCmOpenAddressFamilyComplete, netvista.ndismcmopenaddressfamilycomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ndis.h
 req.include-header: Ndis.h

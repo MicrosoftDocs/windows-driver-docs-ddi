@@ -6,11 +6,8 @@ description: The USBD_ParseConfigurationDescriptor routine has been deprecated. 
 old-location: buses\usbd_parseconfigurationdescriptor.htm
 tech.root: usbref
 ms.assetid: a82816d8-2516-4bba-a5aa-0154cd079d5b
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: USBD_ParseConfigurationDescriptor, USBD_ParseConfigurationDescriptor routine [Buses], buses.usbd_parseconfigurationdescriptor, usbdlib/USBD_ParseConfigurationDescriptor, usbfunc_e0bfa26f-42a8-47a2-bf0e-5f8c97c5e9eb.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usbdlib.h
 req.include-header: 

@@ -5,8 +5,7 @@ author: windows-driver-content
 tech.root: usbref
 description: Initializes the UCSI extension (UcmUcsiCx).
 ms.assetid: 8ad48691-2cca-4aaf-b61d-3127001c3180
-ms.author: windowsdriverdev
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: function
 ms.keywords: UcmUcsiDeviceInitialize
 req.header: ucmucsidevice.h

@@ -6,11 +6,8 @@ description: The RtlNumberOfClearBits routine returns a count of the clear bits 
 old-location: kernel\rtlnumberofclearbits.htm
 tech.root: kernel
 ms.assetid: 739dc01d-7340-449f-8fe6-64e5c8284436
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlNumberOfClearBits, RtlNumberOfClearBits routine [Kernel-Mode Driver Architecture], k109_1b655b45-806c-4199-91e6-2ed2f4d4e570.xml, kernel.rtlnumberofclearbits, wdm/RtlNumberOfClearBits
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

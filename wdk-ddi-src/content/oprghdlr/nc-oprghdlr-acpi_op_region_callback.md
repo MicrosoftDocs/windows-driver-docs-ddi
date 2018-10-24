@@ -4,11 +4,8 @@ title: ACPI_OP_REGION_CALLBACK
 author: windows-driver-content
 description: 
 ms.assetid: 1549e0f0-69cd-4ee4-abf4-92e5da9d7903
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: oprghdlr.h
 req.include-header:
 req.target-type:
@@ -45,7 +42,7 @@ targetos: Windows
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 ACPI_OP_REGION_CALLBACK AcpiOpRegionCallback; 

@@ -6,11 +6,8 @@ description: When the !analyze debugger command runs, the analysis engine can lo
 old-location: debugger\idebugfaentrytags.htm
 tech.root: debugger
 ms.assetid: B52DFB0E-0035-40C2-B2F5-5E16B16931C2
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugFAEntryTags, IDebugFAEntryTags interface [Windows Debugging], IDebugFAEntryTags interface [Windows Debugging],described, debugger.idebugfaentrytags, extsfns/IDebugFAEntryTags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: extsfns.h
 req.include-header: 

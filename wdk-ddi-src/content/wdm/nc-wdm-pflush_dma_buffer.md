@@ -4,11 +4,8 @@ title: PFLUSH_DMA_BUFFER
 author: windows-driver-content
 description: 
 ms.assetid: f51783e4-9956-4608-ba45-affdafda2416
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -49,7 +46,7 @@ The callback routine flushes any data remaining in the memory region described b
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFLUSH_DMA_BUFFER PflushDmaBuffer; 

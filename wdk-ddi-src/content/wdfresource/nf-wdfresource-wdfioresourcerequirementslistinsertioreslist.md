@@ -6,11 +6,8 @@ description: The WdfIoResourceRequirementsListInsertIoResList method inserts a l
 old-location: wdf\wdfioresourcerequirementslistinsertioreslist.htm
 tech.root: wdf
 ms.assetid: d70d9fed-22fd-4bcf-a4bf-fbd941559529
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFResourceObjectRef_193f75e1-39a1-4a93-947b-550e7ad99494.xml, WdfIoResourceRequirementsListInsertIoResList, WdfIoResourceRequirementsListInsertIoResList method, kmdf.wdfioresourcerequirementslistinsertioreslist, wdf.wdfioresourcerequirementslistinsertioreslist, wdfresource/WdfIoResourceRequirementsListInsertIoResList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfresource.h
 req.include-header: Wdf.h

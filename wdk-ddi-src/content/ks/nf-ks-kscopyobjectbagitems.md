@@ -6,11 +6,8 @@ description: The KsCopyObjectBagItems function copies all items from one object 
 old-location: stream\kscopyobjectbagitems.htm
 tech.root: stream
 ms.assetid: 5b3ee4f1-5c5a-413f-b927-96293cc87e98
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsCopyObjectBagItems, KsCopyObjectBagItems function [Streaming Media Devices], avfunc_26fe6218-6e9e-4a1a-93c6-f8f2ca10abbb.xml, ks/KsCopyObjectBagItems, stream.kscopyobjectbagitems
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

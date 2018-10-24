@@ -4,7 +4,6 @@ title: ExReleasePushLockShared macro
 author: windows-driver-content
 description: Releases a specified push lock for shared access owned by the current thread.
 ms.assetid: 261e7340-9015-4c58-a52e-87d563c7c884
-ms.author: windowsdriverdev
 ms.date: 09/18/2018
 ms.topic: macro
 ms.keywords: ExReleasePushLockShared

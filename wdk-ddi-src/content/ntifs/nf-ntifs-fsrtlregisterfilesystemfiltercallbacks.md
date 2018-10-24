@@ -6,11 +6,8 @@ description: File system filter drivers and file systems call the FsRtlRegisterF
 old-location: ifsk\fsrtlregisterfilesystemfiltercallbacks.htm
 tech.root: ifsk
 ms.assetid: cd6d2ab6-ce17-47db-b5d0-4f9543e15487
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlRegisterFileSystemFilterCallbacks, FsRtlRegisterFileSystemFilterCallbacks routine [Installable File System Drivers], fsrtlref_a831a0f3-f819-45e3-9121-ae50ef1b95bf.xml, ifsk.fsrtlregisterfilesystemfiltercallbacks, ntifs/FsRtlRegisterFileSystemFilterCallbacks
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

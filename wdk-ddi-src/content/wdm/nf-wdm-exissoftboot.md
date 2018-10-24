@@ -6,11 +6,8 @@ description: Determines whether the system has gone through a soft restart.
 old-location: kernel\exissoftboot.htm
 tech.root: kernel
 ms.assetid: ff67bc75-b424-4278-b979-f67d118232aa
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExIsSoftBoot, ExIsSoftBoot function [Kernel-Mode Driver Architecture], kernel.exissoftboot, wdm/ExIsSoftBoot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: 

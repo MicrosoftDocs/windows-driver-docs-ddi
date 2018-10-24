@@ -6,11 +6,8 @@ description: The IPortClsPower interface is supported in Windows Vista and later
 old-location: audio\iportclspower.htm
 tech.root: audio
 ms.assetid: bebd704b-2824-4bea-aae8-d77c66830715
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IPortClsPower, IPortClsPower interface [Audio Devices], IPortClsPower interface [Audio Devices],described, audio.iportclspower, audmp-routines_d6815c8f-a34f-423a-a58d-e45a1292d22d.xml, portcls/IPortClsPower
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: portcls.h
 req.include-header: 

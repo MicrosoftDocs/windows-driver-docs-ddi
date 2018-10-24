@@ -4,11 +4,8 @@ title: _DXGKARGCB_MAPMDLTOIOMMU
 author: windows-driver-content
 description: Arguments used by the DXGKCB_MAPMDLTOIOMMU callback function.
 ms.assetid: 2dc0bd13-f7d3-44b4-a1da-ee05ff63d832
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKARGCB_MAPMDLTOIOMMU, DXGKARGCB_MAPMDLTOIOMMU, *INOUT_PDXGKARGCB_MAPMDLTOIOMMU
 req.header: d3dkmddi.h
 req.include-header:

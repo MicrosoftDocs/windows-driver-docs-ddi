@@ -6,11 +6,8 @@ description: A driver's EvtDestroyCallback event callback function performs oper
 old-location: wdf\evtdestroycallback.htm
 tech.root: wdf
 ms.assetid: 4c3b08d2-bb25-40bd-b2fc-1b9ea2d452b3
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFGenObjectRef_a9194b33-b67b-43bb-8d50-d918576769c0.xml, EVT_WDF_OBJECT_CONTEXT_DESTROY, EVT_WDF_OBJECT_CONTEXT_DESTROY callback, EvtDestroyCallback, EvtDestroyCallback callback function, kmdf.evtdestroycallback, wdf.evtdestroycallback, wdfobject/EvtDestroyCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfobject.h
 req.include-header: Wdf.h

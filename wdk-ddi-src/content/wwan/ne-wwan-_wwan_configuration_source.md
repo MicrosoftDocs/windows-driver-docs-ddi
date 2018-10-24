@@ -5,12 +5,9 @@ author: windows-driver-content
 description: The WWAN_CONFIGURATION_SOURCE enumeration specifies the creation source of a provisioned context.
 tech.root: netvista
 ms.assetid: 1bd34230-23ba-4874-9ec0-888b7500ebe7
-ms.author: windowsdriverdev
 ms.date: 08/23/2018
 ms.topic: enum
 ms.keywords: _WWAN_CONFIGURATION_SOURCE, WWAN_CONFIGURATION_SOURCE, *PWWAN_CONFIGURATION_SOURCE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wwan.h
 req.include-header:
 req.target-type:

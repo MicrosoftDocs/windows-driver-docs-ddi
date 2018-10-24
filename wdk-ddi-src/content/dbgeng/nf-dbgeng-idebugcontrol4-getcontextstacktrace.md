@@ -6,11 +6,8 @@ description: The GetContextStackTrace method returns the frames at the top of th
 old-location: debugger\getcontextstacktrace.htm
 tech.root: debugger
 ms.assetid: 8d7a461e-46bf-4556-b13c-805bb5af572e
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetContextStackTrace, GetContextStackTrace method [Windows Debugging], GetContextStackTrace method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetContextStackTrace method, IDebugControl4.GetContextStackTrace, IDebugControl4::GetContextStackTrace, IDebugControl_ae12ec1a-8839-49cc-8082-c328a570188b.xml, dbgeng/IDebugControl4::GetContextStackTrace, debugger.getcontextstacktrace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Ntddk.h

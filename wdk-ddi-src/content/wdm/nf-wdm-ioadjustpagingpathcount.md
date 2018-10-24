@@ -6,11 +6,8 @@ description: The IoAdjustPagingPathCount routine increments or decrements a call
 old-location: kernel\ioadjustpagingpathcount.htm
 tech.root: kernel
 ms.assetid: be353d10-1d8a-4fea-a415-e1729184e451
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoAdjustPagingPathCount, IoAdjustPagingPathCount routine [Kernel-Mode Driver Architecture], k104_f52acd6d-f3f6-43c2-a339-3060a12a6298.xml, kernel.ioadjustpagingpathcount, wdm/IoAdjustPagingPathCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

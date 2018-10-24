@@ -4,11 +4,8 @@ title: IOMMU_MAP_IDENTITY_RANGE
 author: windows-driver-content
 description: Creates an identity mapping for the provided MDL in the provided domain.
 ms.assetid: cdd44fd5-20c2-488a-bfcb-001f1b4490cb
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Creates an identity mapping for the provided MDL in the specified domain.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 IOMMU_MAP_IDENTITY_RANGE IommuMapIdentityRange; 

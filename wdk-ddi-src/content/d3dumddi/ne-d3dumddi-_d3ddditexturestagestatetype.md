@@ -4,12 +4,9 @@ title: _D3DDDITEXTURESTAGESTATETYPE
 author: windows-driver-content
 description: The texture stage state type.
 ms.assetid: 7da9bfc3-f8e1-4898-9f12-f87ea1a1450f
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DDDITEXTURESTAGESTATETYPE, D3DDDITEXTURESTAGESTATETYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dumddi.h
 req.include-header:
 req.target-type:

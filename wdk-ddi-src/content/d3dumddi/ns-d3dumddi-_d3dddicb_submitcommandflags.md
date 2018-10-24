@@ -6,11 +6,8 @@ description: D3DDDICB_SUBMITCOMMANDFLAGS is used to indicate how to process comm
 old-location: display\d3dddicb_submitcommandflags.htm
 tech.root: display
 ms.assetid: 415255A8-4D43-4677-B4B3-0425D6D57933
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDICB_SUBMITCOMMANDFLAGS, D3DDDICB_SUBMITCOMMANDFLAGS structure [Display Devices], _D3DDDICB_SUBMITCOMMANDFLAGS, d3dumddi/D3DDDICB_SUBMITCOMMANDFLAGS, display.d3dddicb_submitcommandflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

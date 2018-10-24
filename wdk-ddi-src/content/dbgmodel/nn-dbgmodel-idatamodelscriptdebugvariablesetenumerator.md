@@ -4,11 +4,8 @@ title: IDataModelScriptDebugVariableSetEnumerator
 author: windows-driver-content
 description: Enumerates a set of variables (arguments, parameters, locals, etc...)
 ms.assetid: f6d5d98e-0550-4348-9777-072a802d68a1
-ms.author: windowsdriverdev
 ms.date: 07/13/2018
 ms.topic: interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

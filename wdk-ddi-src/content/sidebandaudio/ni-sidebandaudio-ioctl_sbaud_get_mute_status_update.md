@@ -4,11 +4,8 @@ title: IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE
 author: windows-driver-content
 description: 
 ms.assetid: 0f733ef6-7993-4514-9d2c-f2e49c8d70dd
-ms.author: windowsdriverdev
 ms.date: 10/05/2018
 ms.topic: ioctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:

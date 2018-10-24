@@ -6,11 +6,8 @@ description: The WdfInterruptSynchronize method executes a specified callback fu
 old-location: wdf\wdfinterruptsynchronize.htm
 tech.root: wdf
 ms.assetid: b41fc37a-d41f-49ca-848f-844e049dd987
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFInterruptObjectRef_d56eadd2-4636-43bb-b842-318243bcf192.xml, WdfInterruptSynchronize, WdfInterruptSynchronize method, kmdf.wdfinterruptsynchronize, wdf.wdfinterruptsynchronize, wdfinterrupt/WdfInterruptSynchronize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h

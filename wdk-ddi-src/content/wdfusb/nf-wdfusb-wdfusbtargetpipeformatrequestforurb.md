@@ -6,11 +6,8 @@ description: The WdfUsbTargetPipeFormatRequestForUrb method builds an USB reques
 old-location: wdf\wdfusbtargetpipeformatrequestforurb.htm
 tech.root: wdf
 ms.assetid: 15df601c-6daf-4db1-8c80-678d6c43ac55
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_243c98bc-1bef-4da4-8f04-aa9055fb6351.xml, WdfUsbTargetPipeFormatRequestForUrb, WdfUsbTargetPipeFormatRequestForUrb method, kmdf.wdfusbtargetpipeformatrequestforurb, wdf.wdfusbtargetpipeformatrequestforurb, wdfusb/WdfUsbTargetPipeFormatRequestForUrb
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

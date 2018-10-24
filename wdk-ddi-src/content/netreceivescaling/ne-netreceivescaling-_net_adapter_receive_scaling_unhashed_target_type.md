@@ -5,12 +5,9 @@ author: windows-driver-content
 description: The NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE enumeration specifies how a net adapter handles unhashed receive side scaling (RSS) frames.
 tech.root: netvista
 ms.assetid: fed6bfa6-1388-490f-a586-33ee7590cb5f
-ms.author: windowsdriverdev
 ms.date: 07/13/2018
 ms.topic: enum
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE, NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: netreceivescaling.h
 req.include-header:
 req.target-type:

@@ -6,11 +6,8 @@ description: This interfaces provides an enumeration of the jobs in the print qu
 old-location: print\iprintjobcollection.htm
 tech.root: print
 ms.assetid: 757328A6-DD2C-4057-820B-39EB83277194
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintJobCollection, IPrintJobCollection interface [Print Devices], IPrintJobCollection interface [Print Devices],described, print.iprintjobcollection, printerextension/IPrintJobCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: printerextension.h
 req.include-header: 
@@ -127,7 +124,7 @@ Gets a pointer to the enumerants of <b>IPrintJobCollection</b> objects.
 
 
 
-The order of print jobs in the enumerated list is the same as the order provided by <a href="http://msdn.microsoft.com/library/windows/desktop/dd162625(v=vs.85).aspx">EnumJobs</a>, which is the actual print queue order.
+The order of print jobs in the enumerated list is the same as the order provided by <a href="https://msdn.microsoft.com/library/windows/desktop/dd162625(v=vs.85).aspx">EnumJobs</a>, which is the actual print queue order.
 
 <b>IPrintJobCollection</b> also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see <a href="https://msdn.microsoft.com/D1236DD2-D4AD-4615-9036-7EC75D6CADCE">Job Management</a>.
 
@@ -139,7 +136,7 @@ The order of print jobs in the enumerated list is the same as the order provided
 
 
 
-<a href="http://msdn.microsoft.com/library/windows/desktop/dd162625(v=vs.85).aspx">EnumJobs</a>
+<a href="https://msdn.microsoft.com/library/windows/desktop/dd162625(v=vs.85).aspx">EnumJobs</a>
 
 
 

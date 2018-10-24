@@ -6,11 +6,8 @@ description: The SerCxGetWaitMask method returns the event wait mask for the wai
 old-location: serports\sercxgetwaitmask.htm
 tech.root: serports
 ms.assetid: 57A8E522-D787-4663-B2E3-46E8430388B7
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 1/SerCxGetWaitMask, SerCxGetWaitMask, SerCxGetWaitMask method [Serial Ports], serports.sercxgetwaitmask
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 

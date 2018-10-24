@@ -6,11 +6,8 @@ description: This IOCTL is for internal use only.
 old-location: battery\ioctl_internal_cad_power_source_update.htm
 tech.root: battery
 ms.assetid: 9D49DA3A-D19E-4834-B5B4-CEF0F235F954
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE, IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE control, IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE control code [Battery Devices], battery.ioctl_internal_cad_power_source_update, charging/IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: charging.h
 req.include-header: 

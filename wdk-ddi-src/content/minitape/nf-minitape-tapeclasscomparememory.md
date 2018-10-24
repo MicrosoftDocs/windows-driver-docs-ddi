@@ -6,11 +6,8 @@ description: The TapeClassCompareMemory routine compares two memory buffers and 
 old-location: storage\tapeclasscomparememory.htm
 tech.root: storage
 ms.assetid: dfff350c-ff76-49d3-b4ba-a5a51fabd419
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: TapeClassCompareMemory, TapeClassCompareMemory routine [Storage Devices], minitape/TapeClassCompareMemory, storage.tapeclasscomparememory, tapeclas_77631fdd-b72a-4569-8066-54f260cb4d9a.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: minitape.h
 req.include-header: Minitape.h

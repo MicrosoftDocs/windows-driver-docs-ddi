@@ -6,11 +6,8 @@ description: The SerCx2PioReceiveCreate method creates a PIO-receive object, whi
 old-location: serports\sercx2pioreceivecreate.htm
 tech.root: serports
 ms.assetid: DFD953F7-06DF-4FBD-8BEC-3A15943D6462
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SerCx2PioReceiveCreate, SerCx2PioReceiveCreate, SerCx2PioReceiveCreate method [Serial Ports], serports.sercx2pioreceivecreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 

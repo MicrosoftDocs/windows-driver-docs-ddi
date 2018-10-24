@@ -6,11 +6,8 @@ description: The PsSetLoadImageNotifyRoutineEx routine registers a driver-suppli
 old-location: kernel\pssetloadimagenotifyroutineex.htm
 tech.root: kernel
 ms.assetid: 792cdb59-e0c2-4697-9934-b7e45a7a31a8
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PsSetLoadImageNotifyRoutineEx, PsSetLoadImageNotifyRoutineEx function [Kernel-Mode Driver Architecture], kernel.pssetloadimagenotifyroutineex, ntddk/PsSetLoadImageNotifyRoutineEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The IOCTL_GPIO_READ_PINS I/O control code enables a client of the g
 old-location: gpio\ioctl_gpio_read_pins.htm
 tech.root: GPIO
 ms.assetid: A6911DD2-0524-4E83-A42E-6E3E7107A928
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: GPIO.ioctl_gpio_read_pins, IOCTL_GPIO_READ_PINS, IOCTL_GPIO_READ_PINS control, IOCTL_GPIO_READ_PINS control code [Parallel Ports], gpio/IOCTL_GPIO_READ_PINS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: gpio.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The IOCTL_SMARTCARD_GET_STATE control code gets the current status 
 old-location: nfpdrivers\ioctl_smartcard_get_state.htm
 tech.root: nfpdrivers
 ms.assetid: 18666E48-9505-448E-ABA1-536D365FC49D
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_SMARTCARD_GET_STATE, IOCTL_SMARTCARD_GET_STATE control, IOCTL_SMARTCARD_GET_STATE control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_get_state, winsmcrd/IOCTL_SMARTCARD_GET_STATE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: winsmcrd.h
 req.include-header: 
@@ -159,7 +156,7 @@ None.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
 
 

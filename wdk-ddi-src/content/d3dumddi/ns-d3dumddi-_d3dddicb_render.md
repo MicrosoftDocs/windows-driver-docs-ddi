@@ -6,11 +6,8 @@ description: The D3DDDICB_RENDER structure describes the current command buffer 
 old-location: display\d3dddicb_render.htm
 tech.root: display
 ms.assetid: 7a2bf1a8-d416-46bc-a9ba-9122407ea2a2
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDICB_RENDER, D3DDDICB_RENDER structure [Display Devices], D3D_param_Structs_62df043b-dbd7-4faf-a911-683ab12ba79b.xml, _D3DDDICB_RENDER, d3dumddi/D3DDDICB_RENDER, display.d3dddicb_render
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

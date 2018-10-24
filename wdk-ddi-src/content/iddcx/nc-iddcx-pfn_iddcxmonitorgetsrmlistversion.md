@@ -4,11 +4,8 @@ title: *PFN_IDDCXMONITORGETSRMLISTVERSION
 author: windows-driver-content
 description: Implemented by the client driver to retrieve the latest SRM list version stored by the GPU.
 ms.assetid: f73e9f90-0f6e-40e0-9716-b184ac90c4e7
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: iddcx.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Implemented by the client driver to retrieve the latest SRM list version stored 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 *PFN_IDDCXMONITORGETSRMLISTVERSION *PfnIddcxmonitorgetsrmlistversion;

@@ -6,11 +6,8 @@ description: The OEMCUIPCALLBACK function type is used for defining callback fun
 old-location: print\oemcuipcallback.htm
 tech.root: print
 ms.assetid: d740bed2-ba3c-4834-8bda-3512ac8da1d5
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: OEMCUIPCALLBACK, OEMCUIPCALLBACK callback, OEMCUIPCALLBACK callback function [Print Devices], print.oemcuipcallback, print_unidrv-pscript_ui_e40ce896-2920-4839-99a8-ddc0a616dcad.xml, printoem/OEMCUIPCALLBACK
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: printoem.h
 req.include-header: Printoem.h, Compstui.h

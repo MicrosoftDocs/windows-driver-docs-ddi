@@ -5,11 +5,8 @@ author: windows-driver-content
 description: D3DKMTReclaimAllocations2 reclaims video memory allocations.
 old-location: display\d3dkmtreclaimallocations2.htm
 ms.assetid: 0BC49546-ECDE-447D-8F7E-4235D96D293B
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTReclaimAllocations2, D3DKMTReclaimAllocations2 function [Display Devices], d3dkmthk/D3DKMTReclaimAllocations2, display.d3dkmtreclaimallocations2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

@@ -6,11 +6,8 @@ description: The POWER_ACTION enumeration identifies the system power actions th
 old-location: wdf\power_action.htm
 tech.root: kernel
 ms.assetid: 0c4a5eb8-d364-4e5d-9d2f-2605c8c34f63
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*PPOWER_ACTION, POWER_ACTION, POWER_ACTION enumeration, PPOWER_ACTION, PPOWER_ACTION enumeration pointer, PowerActionHibernate, PowerActionNone, PowerActionReserved, PowerActionShutdown, PowerActionShutdownOff, PowerActionShutdownReset, PowerActionSleep, PowerActionWarmEject, umdf.power_action, umdfstructs_02db2a83-1907-4aa2-9cdd-af3477e78ddd.xml, wdf.power_action, wudfddi/POWER_ACTION, wudfddi/PPOWER_ACTION, wudfddi/PowerActionHibernate, wudfddi/PowerActionNone, wudfddi/PowerActionReserved, wudfddi/PowerActionShutdown, wudfddi/PowerActionShutdownOff, wudfddi/PowerActionShutdownReset, wudfddi/PowerActionSleep, wudfddi/PowerActionWarmEject"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntpoapi.h
 req.include-header: Wudfddi.h, Ntpoapi.h, Wdm.h
@@ -58,7 +55,7 @@ The <b>POWER_ACTION</b> enumeration identifies the <a href="https://msdn.microso
 ## -syntax
 
 
-````
+```cpp
 typedef enum  {
   PowerActionNone           = 0,
   PowerActionReserved       = ( PowerActionNone + 1 ),
@@ -69,7 +66,7 @@ typedef enum  {
   PowerActionShutdownOff    = ( PowerActionShutdownReset + 1 ),
   PowerActionWarmEject      = ( PowerActionShutdownOff + 1 )
 } POWER_ACTION, *PPOWER_ACTION;
-````
+```
 
 
 ## -enum-fields

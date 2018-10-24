@@ -6,11 +6,8 @@ description: The GetPrintTicket method gets the print ticket object for the fixe
 old-location: print\ifixeddocument_getprintticket.htm
 tech.root: print
 ms.assetid: b9c4768e-8292-4311-b64a-ac1ef7d2ad10
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetPrintTicket, GetPrintTicket method [Print Devices], GetPrintTicket method [Print Devices],IFixedDocument interface, IFixedDocument interface [Print Devices],GetPrintTicket method, IFixedDocument.GetPrintTicket, IFixedDocument::GetPrintTicket, filterpipeline/IFixedDocument::GetPrintTicket, filterpipeline_4da54cb5-31ab-47b3-b2a6-7485e344f233.xml, print.ifixeddocument_getprintticket
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: filterpipeline.h
 req.include-header: 

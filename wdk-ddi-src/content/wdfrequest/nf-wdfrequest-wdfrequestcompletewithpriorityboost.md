@@ -6,11 +6,8 @@ description: The WdfRequestCompleteWithPriorityBoost method completes a specifie
 old-location: wdf\wdfrequestcompletewithpriorityboost.htm
 tech.root: wdf
 ms.assetid: c09ea33d-a20e-4535-8b5c-4645a30841a7
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_a396672f-9267-489a-af15-44b4b01831b2.xml, WdfRequestCompleteWithPriorityBoost, WdfRequestCompleteWithPriorityBoost method, kmdf.wdfrequestcompletewithpriorityboost, wdf.wdfrequestcompletewithpriorityboost, wdfrequest/WdfRequestCompleteWithPriorityBoost
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfrequest.h
 req.include-header: Wdf.h

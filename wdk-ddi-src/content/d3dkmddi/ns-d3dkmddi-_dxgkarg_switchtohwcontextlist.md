@@ -4,11 +4,8 @@ title: _DXGKARG_SWITCHTOHWCONTEXTLIST
 author: windows-driver-content
 description: Arguments used in the DXGKDDI_SWITCHTOHWCONTEXTLIST callback function.
 ms.assetid: e856b8d8-c00e-4823-a9d2-647856bb10c0
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKARG_SWITCHTOHWCONTEXTLIST, DXGKARG_SWITCHTOHWCONTEXTLIST, 
 req.header: d3dkmddi.h
 req.include-header:

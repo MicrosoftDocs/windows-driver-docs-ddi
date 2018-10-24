@@ -4,11 +4,8 @@ title: PFND3D12DDI_CALC_PRIVATE_DESCRIPTOR_HEAP_SIZE_0001
 author: windows-driver-content
 description: Calculates the size of the descriptor heap.
 ms.assetid: 89ec24a0-5787-430b-9bc2-6adfbd6570a4
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Calculates the size of the descriptor heap.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CALC_PRIVATE_DESCRIPTOR_HEAP_SIZE_0001 Pfnd3d12ddiCalcPrivateDescriptorHeapSize0001; 

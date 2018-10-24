@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbChannelSaveBegin function initializes the context for saving the state of a channel. The driver must check the return value of the function.
 tech.root: netvista
 ms.assetid: 986669ad-e997-4850-a9b1-b45d6f1497cd
-ms.author: windowsdriverdev
 ms.date: 05/21/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:
@@ -50,7 +47,7 @@ The <b>VmbChannelSaveBegin</b> function initializes the context for saving the s
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_SAVE_BEGIN FnVmbChannelSaveBegin; 

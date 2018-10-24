@@ -6,11 +6,8 @@ description: PosCxClaimDevice is called to claim a device for exclusive use. The
 old-location: pos\poscxclaimdevice.htm
 tech.root: pos
 ms.assetid: 16EB583C-FB61-4811-A691-3FBD159F8FD0
-ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: PosCxClaimDevice, PosCxClaimDevice function, pos.poscxclaimdevice, poscx/PosCxClaimDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: poscx.h
 req.include-header: Poscx.h

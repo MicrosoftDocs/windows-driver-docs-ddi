@@ -6,11 +6,8 @@ description: The GetExecutingProcessorType method returns the executing processo
 old-location: debugger\getexecutingprocessortype.htm
 tech.root: debugger
 ms.assetid: 62d0397b-da20-414e-accf-656749a771f6
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetExecutingProcessorType, GetExecutingProcessorType method [Windows Debugging], GetExecutingProcessorType method [Windows Debugging],IDebugControl interface, GetExecutingProcessorType method [Windows Debugging],IDebugControl2 interface, GetExecutingProcessorType method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetExecutingProcessorType method, IDebugControl2 interface [Windows Debugging],GetExecutingProcessorType method, IDebugControl2.GetExecutingProcessorType, IDebugControl2::GetExecutingProcessorType, IDebugControl3 interface [Windows Debugging],GetExecutingProcessorType method, IDebugControl3::GetExecutingProcessorType, IDebugControl::GetExecutingProcessorType, IDebugControl_b2aad495-5a68-4888-bedb-da76edbfbe7a.xml, dbgeng/IDebugControl2::GetExecutingProcessorType, dbgeng/IDebugControl3::GetExecutingProcessorType, dbgeng/IDebugControl::GetExecutingProcessorType, debugger.getexecutingprocessortype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES structure represents a series of move operations for all entries in the receive side scaling (RSS) indirection table. 
 tech.root: netvista
 ms.assetid: 62dc57e0-7c2d-415a-8ab9-3fc973b5be87
-ms.author: windowsdriverdev
 ms.date: 07/13/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES, NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES, *PNET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES, 
 req.header: netreceivescaling.h
 req.include-header:

@@ -6,11 +6,8 @@ description: The StreamClassAbortOutstandingRequests routine aborts all outstand
 old-location: stream\streamclassabortoutstandingrequests.htm
 tech.root: stream
 ms.assetid: d60ef96b-d145-48e5-be56-7f0bc4d1d0f3
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: StreamClassAbortOutstandingRequests, StreamClassAbortOutstandingRequests routine [Streaming Media Devices], strclass-routines_f0bb32ce-019d-4c2f-90f6-cf6d54e2fb08.xml, stream.streamclassabortoutstandingrequests, strmini/StreamClassAbortOutstandingRequests
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: strmini.h
 req.include-header: Strmini.h

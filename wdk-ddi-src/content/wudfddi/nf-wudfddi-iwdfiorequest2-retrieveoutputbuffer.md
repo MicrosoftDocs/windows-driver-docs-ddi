@@ -6,11 +6,8 @@ description: The RequestRetrieveOutputBuffer method retrieves an I/O request's o
 old-location: wdf\iwdfiorequest2_retrieveoutputbuffer.htm
 tech.root: wdf
 ms.assetid: c2c96663-df1b-4310-b51e-177e353bb059
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFIoRequest2 interface,RetrieveOutputBuffer method, IWDFIoRequest2.RetrieveOutputBuffer, IWDFIoRequest2::RetrieveOutputBuffer, RetrieveOutputBuffer, RetrieveOutputBuffer method, RetrieveOutputBuffer method,IWDFIoRequest2 interface, UMDFRequestObjectRef_895f34da-95f3-4256-a049-0221887da5e1.xml, umdf.iwdfiorequest2_retrieveoutputbuffer, wdf.iwdfiorequest2_retrieveoutputbuffer, wudfddi/IWDFIoRequest2::RetrieveOutputBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

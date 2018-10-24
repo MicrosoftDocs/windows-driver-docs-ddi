@@ -6,11 +6,8 @@ description: The IoInvalidateDeviceRelations routine notifies the PnP manager th
 old-location: kernel\ioinvalidatedevicerelations.htm
 tech.root: kernel
 ms.assetid: f312afec-10b3-4049-a4c1-154c11b4a869
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoInvalidateDeviceRelations, IoInvalidateDeviceRelations routine [Kernel-Mode Driver Architecture], k104_c839e20b-2be6-4586-86c9-57c773bf755f.xml, kernel.ioinvalidatedevicerelations, wdm/IoInvalidateDeviceRelations
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

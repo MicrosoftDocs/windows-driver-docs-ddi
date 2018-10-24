@@ -4,12 +4,9 @@ title: _D3DDDI_SETLIGHT_TYPE
 author: windows-driver-content
 description: The set light type.
 ms.assetid: 45ad2d59-7246-49d0-b76a-b4ad792d1bd0
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DDDI_SETLIGHT_TYPE, D3DDDI_SETLIGHT_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dumddi.h
 req.include-header:
 req.target-type:

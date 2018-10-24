@@ -6,11 +6,8 @@ description: A driver's EvtDpcFunc callback function performs driver-defined ope
 old-location: wdf\evtdpcfunc.htm
 tech.root: wdf
 ms.assetid: b934a0da-0709-4427-bbf2-8d53f9511cf1
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDpcObjectRef_ed441283-63f3-4ad3-84fc-05fb2404f634.xml, EVT_WDF_DPC, EVT_WDF_DPC callback, EvtDpcFunc, EvtDpcFunc callback function, kmdf.evtdpcfunc, wdf.evtdpcfunc, wdfdpc/EvtDpcFunc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfdpc.h
 req.include-header: Wdf.h

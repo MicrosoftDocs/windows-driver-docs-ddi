@@ -4,11 +4,8 @@ title: _ACPI_PLD_SPATIAL_BUFFER structure
 author: windows-driver-content
 description: Describes the ACPI PLD spatial descriptor buffer, revision 1 (Microsoft custom PLD buffer extension, 128-bits).
 ms.assetid: 101db2e2-cf2f-49d9-81c2-f9377775930a
-ms.author: windowsdriverdev
-ms.date: 10/2/2018
+ms.date: 10/02/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _ACPI_PLD_SPATIAL_BUFFER, ACPI_PLD_SPATIAL_BUFFER, *PACPI_PLD_SPATIAL_BUFFER, 
 req.header: acpitabl.h
 req.include-header:

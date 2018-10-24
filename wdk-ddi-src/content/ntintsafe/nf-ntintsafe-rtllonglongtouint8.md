@@ -6,11 +6,8 @@ description: Converts a value of type LONGLONG to a value of type UNIT8.
 old-location: kernel\rtllonglongtouint8.htm
 tech.root: kernel
 ms.assetid: F0B69656-99DB-4FE1-BD39-3CE3F2676684
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlLongLongToUInt8, RtlLongLongToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtllonglongtouint8, ntintsafe/RtlLongLongToUInt8
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The HwStorCompleteServiceIrp routine is called when the virtual ada
 old-location: storage\hwstorcompleteserviceirp.htm
 tech.root: storage
 ms.assetid: 1a6a6073-27ec-43c0-b5ec-37ef4177fa54
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HW_COMPLETE_SERVICE_IRP, HwStorCompleteServiceIrp, HwStorCompleteServiceIrp routine [Storage Devices], storage.hwstorcompleteserviceirp, storport/HwStorCompleteServiceIrp, storvmini_57cddd18-134c-4ecc-9180-4c4b3ff3903d.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: storport.h
 req.include-header: Storport.h

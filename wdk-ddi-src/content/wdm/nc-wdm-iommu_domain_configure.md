@@ -4,11 +4,8 @@ title: IOMMU_DOMAIN_CONFIGURE
 author: windows-driver-content
 description: Configures a domain for use.
 ms.assetid: 1b5394c2-0dc9-49a2-a749-37c40c60bf3b
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Configures a domain for use. All DMA blocked until the domain is configured.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 IOMMU_DOMAIN_CONFIGURE IommuDomainConfigure; 

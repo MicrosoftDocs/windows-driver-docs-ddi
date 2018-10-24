@@ -6,11 +6,8 @@ description: Gets a value that identifies the depot that the target comes from.
 old-location: dtf\iwdtftarget2_type.htm
 tech.root: dtf
 ms.assetid: 76b13505-7404-475c-98d8-fe3b3ed25720
-ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFTarget2 interface [Windows Device Testing Framework],Type property, IWDTFTarget2.Type, IWDTFTarget2.get_Type, IWDTFTarget2::Type, IWDTFTarget2::get_Type, Microsoft.WDTF.IWDTFTarget2.Type, Microsoft::WDTF::IWDTFTarget2::Type, Type property [Windows Device Testing Framework], Type property [Windows Device Testing Framework],IWDTFTarget2 interface, dtf.iwdtftarget2_type, get_Type, wdtf/IWDTFTarget2::Type, wdtf/IWDTFTarget2::get_Type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtf.h
 req.include-header: 

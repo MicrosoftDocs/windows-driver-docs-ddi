@@ -6,11 +6,8 @@ description: The wiasReadPropFloat function retrieves a floating-point property 
 old-location: image\wiasreadpropfloat.htm
 tech.root: image
 ms.assetid: 042ef9d9-a980-41eb-a396-e03658ea072a
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiasreadpropfloat, wiamdef/wiasReadPropFloat, wiasFncs_9b143e96-64a5-4de3-b40d-c542bc440dc0.xml, wiasReadPropFloat, wiasReadPropFloat function [Imaging Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiamdef.h
 req.include-header: Wiamdef.h

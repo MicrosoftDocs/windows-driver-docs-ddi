@@ -6,11 +6,8 @@ description: PosCxMarkPosApp marks the open instance as associated or not associ
 old-location: pos\poscxmarkposapp.htm
 tech.root: pos
 ms.assetid: 6BFFD014-E9DC-495C-9810-0D23BD93C41A
-ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: PosCxMarkPosApp, PosCxMarkPosApp function, pos.poscxmarkposapp, poscx/PosCxMarkPosApp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: poscx.h
 req.include-header: Poscx.h

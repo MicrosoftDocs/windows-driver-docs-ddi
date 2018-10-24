@@ -6,11 +6,8 @@ description: The WdfCommonBufferCreate method creates a memory buffer that both 
 old-location: wdf\wdfcommonbuffercreate.htm
 tech.root: wdf
 ms.assetid: 05e092fe-fa70-47b7-af8d-c6e27847a6ac
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFCommonBufferObjectRef_2ef72eb3-fa4c-40f8-aa73-54bb5dcb9e0c.xml, WdfCommonBufferCreate, WdfCommonBufferCreate method, kmdf.wdfcommonbuffercreate, wdf.wdfcommonbuffercreate, wdfcommonbuffer/WdfCommonBufferCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfcommonbuffer.h
 req.include-header: WdfCommonBuffer.h

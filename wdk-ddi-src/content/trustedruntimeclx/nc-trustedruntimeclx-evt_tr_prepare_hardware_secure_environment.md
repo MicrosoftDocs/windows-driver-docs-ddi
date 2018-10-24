@@ -4,11 +4,8 @@ title: EVT_TR_PREPARE_HARDWARE_SECURE_ENVIRONMENT
 author: windows-driver-content
 description: 
 ms.assetid: 5c4f51c6-76a8-4010-b858-526099e52d73
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ targetos: Windows
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_TR_PREPARE_HARDWARE_SECURE_ENVIRONMENT EvtTrPrepareHardwareSecureEnvironment; 

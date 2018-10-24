@@ -6,11 +6,8 @@ description: The SetOutputCallbacks method registers an output callbacks object 
 old-location: debugger\setoutputcallbacks.htm
 tech.root: debugger
 ms.assetid: 2226804c-dbdd-4855-9ba5-7c1959941e59
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugClient interface [Windows Debugging],SetOutputCallbacks method, IDebugClient2 interface [Windows Debugging],SetOutputCallbacks method, IDebugClient2::SetOutputCallbacks, IDebugClient3 interface [Windows Debugging],SetOutputCallbacks method, IDebugClient3::SetOutputCallbacks, IDebugClient4 interface [Windows Debugging],SetOutputCallbacks method, IDebugClient4::SetOutputCallbacks, IDebugClient5 interface [Windows Debugging],SetOutputCallbacks method, IDebugClient5.SetOutputCallbacks, IDebugClient5::SetOutputCallbacks, IDebugClient::SetOutputCallbacks, IDebugClient_b1da4bc1-b368-475e-bd13-021358f9d234.xml, SetOutputCallbacks, SetOutputCallbacks method [Windows Debugging], SetOutputCallbacks method [Windows Debugging],IDebugClient interface, SetOutputCallbacks method [Windows Debugging],IDebugClient2 interface, SetOutputCallbacks method [Windows Debugging],IDebugClient3 interface, SetOutputCallbacks method [Windows Debugging],IDebugClient4 interface, SetOutputCallbacks method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::SetOutputCallbacks, dbgeng/IDebugClient3::SetOutputCallbacks, dbgeng/IDebugClient4::SetOutputCallbacks, dbgeng/IDebugClient5::SetOutputCallbacks, dbgeng/IDebugClient::SetOutputCallbacks, debugger.setoutputcallbacks
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

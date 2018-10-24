@@ -6,11 +6,8 @@ description: The WdfIoTargetPurge method cancels all I/O requests queued to a lo
 old-location: wdf\wdfiotargetpurge.htm
 tech.root: wdf
 ms.assetid: C79492C5-3872-4ED9-9AD7-ABE5C5732D41
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfIoTargetPurge, WdfIoTargetPurge method, kmdf.wdfiotargetpurge, wdf.wdfiotargetpurge, wdfiotarget/WdfIoTargetPurge
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfiotarget.h
 req.include-header: Wdf.h

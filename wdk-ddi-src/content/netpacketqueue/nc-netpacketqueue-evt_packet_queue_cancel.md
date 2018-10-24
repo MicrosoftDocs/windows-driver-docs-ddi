@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The EvtPacketQueueCancel callback function is implemented by the client driver to handle operations that must be performed before a packet queue is deleted.
 tech.root: netvista
 ms.assetid: 92d4e786-7fac-43c2-910a-1c7c5873855f
-ms.author: windowsdriverdev
 ms.date: 07/16/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: netpacketqueue.h
 req.include-header:
 req.target-type: Universal

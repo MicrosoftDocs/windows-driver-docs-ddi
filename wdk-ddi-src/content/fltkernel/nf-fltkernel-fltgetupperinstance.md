@@ -6,11 +6,8 @@ description: The FltGetUpperInstance routine returns an opaque instance pointer 
 old-location: ifsk\fltgetupperinstance.htm
 tech.root: ifsk
 ms.assetid: 01e7760c-b10c-497e-9cab-4d839c2ce5ff
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_7629f1a6-0a5e-46a2-8423-bd7466548a2f.xml, FltGetUpperInstance, FltGetUpperInstance routine [Installable File System Drivers], fltkernel/FltGetUpperInstance, ifsk.fltgetupperinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

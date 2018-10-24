@@ -4,11 +4,8 @@ title: IOCTL_PANEL_QUERY_BRIGHTNESS_RANGES
 author: windows-driver-content
 description: Queries the brightness ranges for a display panel.
 ms.assetid: 2fb0a064-2c67-46e0-baa9-d03394614d87
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: ioctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: ntddvdeo.h
 req.include-header:
 req.target-type:

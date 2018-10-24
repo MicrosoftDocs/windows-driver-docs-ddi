@@ -6,11 +6,8 @@ description: Gives information about the initialized adapter that can be used by
 old-location: display\idarg_out_adapter_init.htm
 tech.root: display
 ms.assetid: 55e4c835-88c8-403f-883c-182915aa614d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IDARG_OUT_ADAPTER_INIT, IDARG_OUT_ADAPTER_INIT structure [Display Devices], display.idarg_out_adapter_init, iddcx/IDARG_OUT_ADAPTER_INIT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iddcx.h
 req.include-header: 

@@ -4,11 +4,8 @@ title: _SIDEBANDAUDIO_EP_USBAUDIO_TRANSPORT_RESOURCES
 author: windows-driver-content
 description: This structure describes USB sideband audio transport resources.
 ms.assetid: 4c4691b4-9f3a-411f-b7e2-9a856c3c12b9
-ms.author: windowsdriverdev
 ms.date: 09/06/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _SIDEBANDAUDIO_EP_USBAUDIO_TRANSPORT_RESOURCES, SIDEBANDAUDIO_EP_USBAUDIO_TRANSPORT_RESOURCES, *PSIDEBANDAUDIO_EP_USBAUDIO_TRANSPORT_RESOURCES, 
 req.header: usbsidebandaudio.h
 req.include-header: usbsidebandaudio.h

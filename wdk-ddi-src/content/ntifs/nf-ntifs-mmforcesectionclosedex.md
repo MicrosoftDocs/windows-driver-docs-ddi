@@ -4,8 +4,7 @@ title: MmForceSectionClosedEx function
 author: windows-driver-content
 description: The MmForceSectionClosedEx function examines the section object pointers.  If they are NULL, no further action is taken and the value TRUE is returned.
 ms.assetid: a33c8323-40ea-4606-bec1-68b955e01c8f
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: MmForceSectionClosedEx
 req.header: ntifs.h

@@ -4,8 +4,7 @@ title: D3DKMTSetDodIndirectSwapchain function
 author: windows-driver-content
 description: Sets indirect swap chain resources.
 ms.assetid: 56978aab-ffe8-4f72-b702-1106de3698e7
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTSetDodIndirectSwapchain
 req.header: d3dkmthk.h

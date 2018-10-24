@@ -6,11 +6,8 @@ description: This enumeration describes the RILADDRESSNUMPLAN.
 old-location: netvista\riladdressnumplan.htm
 tech.root: netvista
 ms.assetid: fa25ce95-3eed-41f3-a0eb-5c290fa032e8
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: RILADDRESSNUMPLAN, RILADDRESSNUMPLAN enumeration [Network Drivers Starting with Windows Vista], RIL_NUMPLAN_DATA, RIL_NUMPLAN_ERMES, RIL_NUMPLAN_NATIONAL, RIL_NUMPLAN_PRIVATE, RIL_NUMPLAN_TELEPHONE, RIL_NUMPLAN_TELEX, RIL_NUMPLAN_UNKNOWN, netvista.riladdressnumplan, rilapitypes/RILADDRESSNUMPLAN, rilapitypes/RIL_NUMPLAN_DATA, rilapitypes/RIL_NUMPLAN_ERMES, rilapitypes/RIL_NUMPLAN_NATIONAL, rilapitypes/RIL_NUMPLAN_PRIVATE, rilapitypes/RIL_NUMPLAN_TELEPHONE, rilapitypes/RIL_NUMPLAN_TELEX, rilapitypes/RIL_NUMPLAN_UNKNOWN
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
@@ -58,7 +55,7 @@ req.typenames: RILADDRESSNUMPLAN
 ## -syntax
 
 
-````
+```cpp
 enum RILADDRESSNUMPLAN {
   RIL_NUMPLAN_UNKNOWN    = 0x00000000,
   RIL_NUMPLAN_TELEPHONE  = 0x00000001,
@@ -69,7 +66,7 @@ enum RILADDRESSNUMPLAN {
   RIL_NUMPLAN_ERMES      = 0x00000006
 
 };
-````
+```
 
 
 ## -enum-fields

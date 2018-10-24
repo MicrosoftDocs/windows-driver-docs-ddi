@@ -6,11 +6,8 @@ description: The WdfUsbTargetDeviceGetNumInterfaces method returns the number of
 old-location: wdf\wdfusbtargetdevicegetnuminterfaces.htm
 tech.root: wdf
 ms.assetid: d81bdeeb-07de-483d-9803-3577f1076e28
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_8819241f-cfcd-49de-8775-4f415ab63593.xml, WdfUsbTargetDeviceGetNumInterfaces, WdfUsbTargetDeviceGetNumInterfaces method, kmdf.wdfusbtargetdevicegetnuminterfaces, wdf.wdfusbtargetdevicegetnuminterfaces, wdfusb/WdfUsbTargetDeviceGetNumInterfaces
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

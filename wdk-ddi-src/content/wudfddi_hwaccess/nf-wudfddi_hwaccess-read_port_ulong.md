@@ -6,11 +6,8 @@ description: The READ_PORT_ULONG function reads a ULONG value from the specified
 old-location: wdf\read_port_ulong.htm
 tech.root: wdf
 ms.assetid: 2B507B58-8CD0-4D66-93E9-FF67D7246F3C
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: READ_PORT_ULONG, READ_PORT_ULONG function, umdf.read_port_ulong, wdf.read_port_ulong, wudfddi_hwaccess/READ_PORT_ULONG
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wudfddi_hwaccess.h
 req.include-header: 

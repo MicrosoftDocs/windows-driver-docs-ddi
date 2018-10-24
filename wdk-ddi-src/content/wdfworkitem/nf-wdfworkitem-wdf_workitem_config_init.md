@@ -6,11 +6,8 @@ description: The WDF_WORKITEM_CONFIG_INIT function initializes a driver's WDF_WO
 old-location: wdf\wdf_workitem_config_init.htm
 tech.root: wdf
 ms.assetid: d24d9aea-0cdd-4130-9904-4e50c825612e
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFWorkItemObjectRef_fa6a881e-6591-448a-9fc3-81ab60ff370c.xml, WDF_WORKITEM_CONFIG_INIT, WDF_WORKITEM_CONFIG_INIT function, kmdf.wdf_workitem_config_init, wdf.wdf_workitem_config_init, wdfworkitem/WDF_WORKITEM_CONFIG_INIT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfworkitem.h
 req.include-header: Wdf.h

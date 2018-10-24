@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extsetcurrentprofile.htm
 tech.root: netvista
 ms.assetid: 2fcf4f93-8d50-44e1-a657-d98b7b00bcfc
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: DOT11EXT_SET_CURRENT_PROFILE, Dot11ExtSetCurrentProfile, Dot11ExtSetCurrentProfile callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_0a4afb35-a806-47f0-8f52-76c88ba5ffac.xml, netvista.dot11extsetcurrentprofile, wlanihv/Dot11ExtSetCurrentProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
@@ -60,14 +57,14 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```cpp
 DWORD WINAPI * Dot11ExtSetCurrentProfile(
   _In_opt_ HANDLE                             hDot11SvcHandle,
   _In_opt_ HANDLE                             hConnectSession,
   _In_opt_ PDOT11EXT_IHV_CONNECTIVITY_PROFILE pIhvConnProfile,
   _In_opt_ PDOT11EXT_IHV_SECURITY_PROFILE     pIhvSecProfile
 );
-````
+```
 
 
 ## -parameters

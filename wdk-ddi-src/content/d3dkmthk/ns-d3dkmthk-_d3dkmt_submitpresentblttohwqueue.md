@@ -4,11 +4,8 @@ title: _D3DKMT_SUBMITPRESENTBLTTOHWQUEUE
 author: windows-driver-content
 description: Contains arguments needed for the D3DKMTSubmitPresentBltToHwQueue function.
 ms.assetid: 2454c446-7a3a-49f5-918f-d5e26d043e99
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_SUBMITPRESENTBLTTOHWQUEUE, D3DKMT_SUBMITPRESENTBLTTOHWQUEUE,
 req.header: d3dkmthk.h
 req.include-header:

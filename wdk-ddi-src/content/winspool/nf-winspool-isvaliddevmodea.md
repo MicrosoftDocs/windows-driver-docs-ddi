@@ -6,11 +6,8 @@ description: The print spooler's IsValidDevmode function verifies that the conte
 old-location: print\isvaliddevmode.htm
 tech.root: print
 ms.assetid: 74da159d-7edc-44fc-abd9-aa068c4de7f2
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IsValidDevmode, IsValidDevmode function [Print Devices], IsValidDevmodeA, IsValidDevmodeW, print.isvaliddevmode, spoolfnc_ea9b6cc1-6f0b-42a7-835b-df561588691a.xml, winspool/IsValidDevmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winspool.h
 req.include-header: Winspool.h

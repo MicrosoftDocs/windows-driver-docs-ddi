@@ -4,12 +4,9 @@ title: _UCSI_MESSAGE_IN
 author: windows-driver-content
 description: The MESSAGE IN data structure. See Section 3.4.
 ms.assetid: bf02670a-4932-47fd-8ed0-4ee9429454d4
-ms.author: windowsdriverdev
 tech.root: usbref
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _UCSI_MESSAGE_IN, UCSI_MESSAGE_IN, *PUCSI_MESSAGE_IN, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

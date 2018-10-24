@@ -6,11 +6,8 @@ description: The AtaPortReadPortUshort routine reads a USHORT value from the HBA
 old-location: storage\ataportreadportushort.htm
 tech.root: storage
 ms.assetid: e2534e79-293e-41db-b874-3f39aa5af864
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: AtaPortReadPortUshort, AtaPortReadPortUshort routine [Storage Devices], atartns_935ac51b-c226-48d2-acf0-ae1cfe5bfd60.xml, irb/AtaPortReadPortUshort, storage.ataportreadportushort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: irb.h
 req.include-header: Ata.h, Irb.h

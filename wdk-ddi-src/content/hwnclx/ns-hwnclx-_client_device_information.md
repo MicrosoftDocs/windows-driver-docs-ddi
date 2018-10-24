@@ -6,11 +6,8 @@ description: The CLIENT_DEVICE_INFORMATION structure is used by the hardware not
 old-location: gpiobtn\_client_device_information.htm
 tech.root: gpiobtn
 ms.assetid: ae438f89-27b7-423f-9f82-b103ba70b7b5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PCLIENT_DEVICE_INFORMATION, CLIENT_DEVICE_INFORMATION, CLIENT_DEVICE_INFORMATION structure, _CLIENT_DEVICE_INFORMATION, gpiobtn._client_device_information, hwnclx/CLIENT_DEVICE_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hwnclx.h
 req.include-header:
@@ -59,13 +56,13 @@ The <b>CLIENT_DEVICE_INFORMATION</b> structure is used by the hardware notificat
 ## -syntax
 
 
-````
+```cpp
 typedef struct _CLIENT_DEVICE_INFORMATION {
   USHORT  Version;
   USHORT  Size;
   USHORT  TotalHwNs;
 } CLIENT_DEVICE_INFORMATION, CLIENT_DEVICE_INFORMATION;
-````
+```
 
 
 ## -struct-fields

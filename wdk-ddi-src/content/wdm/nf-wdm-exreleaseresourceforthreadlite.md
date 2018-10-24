@@ -6,11 +6,8 @@ description: The ExReleaseResourceForThreadLite routine releases the input resou
 old-location: kernel\exreleaseresourceforthreadlite.htm
 tech.root: kernel
 ms.assetid: 840e7f50-644c-49b9-a40b-d504e19b0db2
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 03/28/2018
 ms.keywords: ExReleaseResourceForThreadLite, ExReleaseResourceForThreadLite routine [Kernel-Mode Driver Architecture], k102_799a8ff7-3996-470d-97b2-e1c18bbcb486.xml, kernel.exreleaseresourceforthreadlite, wdm/ExReleaseResourceForThreadLite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

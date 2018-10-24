@@ -6,11 +6,8 @@ description: The PCW_DATA structure describes the array of data blocks that are 
 old-location: devtest\pcw_data.htm
 tech.root: devtest
 ms.assetid: c2da567a-cea6-497a-b50f-848ecac20b30
-ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: "*PPCW_DATA, PCW_DATA, PCW_DATA structure [Driver Development Tools], PPCW_DATA, PPCW_DATA structure pointer [Driver Development Tools], _PCW_DATA, devtest.pcw_data, km_pcw_69759b50-4312-4997-ba43-4ce30941d502.xml, wdm/PCW_DATA, wdm/PPCW_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h

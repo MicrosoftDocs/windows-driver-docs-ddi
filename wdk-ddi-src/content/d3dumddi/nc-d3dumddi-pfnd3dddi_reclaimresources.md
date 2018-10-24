@@ -6,11 +6,8 @@ description: Called by the Microsoft Direct3D runtime to reclaim video memory re
 old-location: display\reclaimresources.htm
 tech.root: display
 ms.assetid: F0533DBB-CB18-4556-9871-2DF4CA719172
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_RECLAIMRESOURCES, PFND3DDDI_RECLAIMRESOURCES callback, ReclaimResources, ReclaimResources callback function [Display Devices], d3dumddi/ReclaimResources, display.reclaimresources
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

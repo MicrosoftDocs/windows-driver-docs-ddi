@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NET_BUFFER_LIST_GET_HASH_TYPE macro gets the hash type information from a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: 982ec1c3-a6d9-4863-b5af-63c01c929234
-ms.author: windowsdriverdev
 ms.date: 04/13/2018
 ms.topic: macro
 ms.keywords: NET_BUFFER_LIST_GET_HASH_TYPE

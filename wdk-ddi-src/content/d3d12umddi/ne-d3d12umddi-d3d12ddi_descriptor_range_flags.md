@@ -4,12 +4,9 @@ title: D3D12DDI_DESCRIPTOR_RANGE_FLAGS
 author: windows-driver-content
 description: Descriptor range flags.
 ms.assetid: f3a6679d-10b9-4b9a-a7c1-e5d967e02a5b
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_DESCRIPTOR_RANGE_FLAGS, D3D12DDI_DESCRIPTOR_RANGE_FLAGS, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

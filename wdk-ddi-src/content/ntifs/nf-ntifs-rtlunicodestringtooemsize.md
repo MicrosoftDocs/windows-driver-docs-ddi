@@ -6,11 +6,8 @@ description: The RtlUnicodeStringToOemSize routine determines the size, in bytes
 old-location: ifsk\rtlunicodestringtooemsize.htm
 tech.root: ifsk
 ms.assetid: 0e648c99-6d1a-4515-af17-a16e88351f45
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlUnicodeStringToOemSize, RtlUnicodeStringToOemSize routine [Installable File System Drivers], ifsk.rtlunicodestringtooemsize, ntifs/RtlUnicodeStringToOemSize, rtlref_836e23f0-2e1a-474e-a66c-615f260e2f4f.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ntifs.h
 req.include-header: Ntifs.h

@@ -6,11 +6,8 @@ description: The RegisterWMIProvider method registers the Event Tracing for Wind
 old-location: audio\iportwmiregistration_registerwmiprovider.htm
 tech.root: audio
 ms.assetid: 5c092cbd-ef05-4b3d-ac9f-20f2fbf2c37c
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IPortWMIRegistration interface [Audio Devices],RegisterWMIProvider method, IPortWMIRegistration.RegisterWMIProvider, IPortWMIRegistration::RegisterWMIProvider, RegisterWMIProvider, RegisterWMIProvider method [Audio Devices], RegisterWMIProvider method [Audio Devices],IPortWMIRegistration interface, audio.iportwmiregistration_registerwmiprovider, audmp-routines_3a73bed7-3a9f-4be2-8d15-33f707714c94.xml, portcls/IPortWMIRegistration::RegisterWMIProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: Portcls.h
@@ -88,7 +85,7 @@ The <code>RegisterWMIProvider</code> method returns STATUS_SUCCESS if the call i
 
 
 
-For more information about ETW, see <a href="http://go.microsoft.com/fwlink/p/?linkid=154129">Improve Debugging And Performance Tuning With ETW</a>.
+For more information about ETW, see <a href="https://go.microsoft.com/fwlink/p/?linkid=154129">Improve Debugging And Performance Tuning With ETW</a>.
 
 
 
@@ -110,7 +107,7 @@ For more information about ETW, see <a href="http://go.microsoft.com/fwlink/p/?l
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=154129">Improve Debugging And Performance Tuning With ETW</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=154129">Improve Debugging And Performance Tuning With ETW</a>
 
 
 

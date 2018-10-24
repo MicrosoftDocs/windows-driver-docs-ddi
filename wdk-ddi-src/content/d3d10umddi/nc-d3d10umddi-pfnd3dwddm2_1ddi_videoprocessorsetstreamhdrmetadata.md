@@ -4,11 +4,8 @@ title: PFND3DWDDM2_1DDI_VIDEOPROCESSORSETSTREAMHDRMETADATA
 author: windows-driver-content
 description: Sets stream HDR metadata to optimize video for display.
 ms.assetid: 7f8e5e1b-ba6a-4ac7-b1c4-6d3ee54bc822
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d10umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to set stream HDR metadata to optimize video fo
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DWDDM2_1DDI_VIDEOPROCESSORSETSTREAMHDRMETADATA Pfnd3dwddm21DdiVideoprocessorsetstreamhdrmetadata;

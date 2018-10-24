@@ -4,11 +4,8 @@ title: _RTL_SEGMENT_HEAP_MEMORY_SOURCE
 author: windows-driver-content
 description: The RTL_SEGMENT_HEAP_MEMORY_SOURCE structure specifies the segment heap memory source.
 ms.assetid: ff6415d1-6ded-4470-99c7-2825c1d01cb3
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _RTL_SEGMENT_HEAP_MEMORY_SOURCE, RTL_SEGMENT_HEAP_MEMORY_SOURCE, *PRTL_SEGMENT_HEAP_MEMORY_SOURCE, 
 req.header: ntifs.h
 req.include-header:

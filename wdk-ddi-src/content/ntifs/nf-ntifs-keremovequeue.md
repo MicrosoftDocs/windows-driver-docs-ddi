@@ -6,11 +6,8 @@ description: The KeRemoveQueue routine gives the calling thread a pointer to a d
 old-location: ifsk\keremovequeue.htm
 tech.root: ifsk
 ms.assetid: 475e352a-b6ea-4e37-ad46-e94284caa105
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: KeRemoveQueue, KeRemoveQueue routine [Installable File System Drivers], ifsk.keremovequeue, keref_99014b0b-5ca1-4cda-8422-fc3819f42d8b.xml, ntifs/KeRemoveQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h

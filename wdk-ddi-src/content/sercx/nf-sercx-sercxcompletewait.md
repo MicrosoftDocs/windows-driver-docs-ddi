@@ -6,11 +6,8 @@ description: The SerCxCompleteWait method notifies the serial framework extensio
 old-location: serports\sercxcompletewait.htm
 tech.root: serports
 ms.assetid: 9318AB76-48ED-49FF-A4ED-17A07D43A0F8
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 1/SerCxCompleteWait, SerCxCompleteWait, SerCxCompleteWait method [Serial Ports], serports.sercxcompletewait
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 

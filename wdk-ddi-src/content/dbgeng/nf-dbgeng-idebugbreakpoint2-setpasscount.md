@@ -6,11 +6,8 @@ description: The SetPassCount method sets the number of times that the target mu
 old-location: debugger\setpasscount.htm
 tech.root: debugger
 ms.assetid: a95f7a8d-7e0d-4971-9683-f83600030337
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ComOther_8398fd11-1821-4adb-b8be-4e207b616169.xml, IDebugBreakpoint interface [Windows Debugging],SetPassCount method, IDebugBreakpoint2 interface [Windows Debugging],SetPassCount method, IDebugBreakpoint2.SetPassCount, IDebugBreakpoint2::SetPassCount, IDebugBreakpoint::SetPassCount, SetPassCount, SetPassCount method [Windows Debugging], SetPassCount method [Windows Debugging],IDebugBreakpoint interface, SetPassCount method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetPassCount, dbgeng/IDebugBreakpoint::SetPassCount, debugger.setpasscount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

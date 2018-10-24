@@ -4,11 +4,8 @@ title: _FPGA_CONTROL_INTERFACE
 author: windows-driver-content
 description: Reserved for future use.
 ms.assetid: e0dae56e-1f6c-4695-8168-58c1a5439e37
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _FPGA_CONTROL_INTERFACE, FPGA_CONTROL_INTERFACE, *PFPGA_CONTROL_INTERFACE, 
 req.header: wdm.h
 req.include-header:

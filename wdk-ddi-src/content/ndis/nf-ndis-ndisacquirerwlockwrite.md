@@ -6,11 +6,8 @@ description: The NdisAcquireRWLockWrite function obtains a write lock that the c
 old-location: netvista\ndisacquirerwlockwrite.htm
 tech.root: netvista
 ms.assetid: 124302d7-0776-4025-b71f-ce6300f97f49
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisAcquireRWLockWrite, NdisAcquireRWLockWrite function [Network Drivers Starting with Windows Vista], ndis/NdisAcquireRWLockWrite, ndis_processor_group_ref_f957b48a-4c09-4348-897c-51813ede9b19.xml, netvista.ndisacquirerwlockwrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

@@ -6,11 +6,8 @@ description: A minifilter driver calls the FltCheckOplockEx routine to synchroni
 old-location: ifsk\fltcheckoplockex.htm
 tech.root: ifsk
 ms.assetid: 2af1f496-48cf-4f99-a22b-cf7d1837617e
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_3fd997bf-bfdb-4fdd-b6a2-3ade62e0368e.xml, FltCheckOplockEx, FltCheckOplockEx routine [Installable File System Drivers], fltkernel/FltCheckOplockEx, ifsk.fltcheckoplockex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

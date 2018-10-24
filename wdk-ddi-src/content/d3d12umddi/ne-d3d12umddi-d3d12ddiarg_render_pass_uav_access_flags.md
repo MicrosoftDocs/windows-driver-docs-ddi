@@ -4,12 +4,9 @@ title: D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS
 author: windows-driver-content
 description: Used to specify what type of UAV access to perform within the Render Pass.
 ms.assetid: 818b0fec-d52b-419f-b14e-86db6fc07e1a
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS, D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

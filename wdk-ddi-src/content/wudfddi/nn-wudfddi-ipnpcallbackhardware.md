@@ -6,11 +6,8 @@ description: The IPnpCallbackHardware interface is a Plug and Play (PnP) and pow
 old-location: wdf\ipnpcallbackhardware.htm
 tech.root: wdf
 ms.assetid: 2746e7ab-690c-4382-be9a-124a7d68cf72
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IPnpCallbackHardware, IPnpCallbackHardware interface, IPnpCallbackHardware interface,described, UMDFDeviceObjectRef_4b39ad3c-6fa6-4c47-aba8-676a6f628f1b.xml, umdf.ipnpcallbackhardware, wdf.ipnpcallbackhardware, wudfddi/IPnpCallbackHardware
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wudfddi.h
 req.include-header: Wudfddi.h

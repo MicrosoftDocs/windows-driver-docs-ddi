@@ -6,11 +6,8 @@ description: The AgpReserveVirtual function reserves a range of virtual addresse
 old-location: display\agpreservevirtual.htm
 tech.root: display
 ms.assetid: 966dfc6c-6830-4872-b411-2801e3a4b753
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: AgpReserveVirtual, AgpReserveVirtual callback function [Display Devices], PAGP_RESERVE_VIRTUAL, PAGP_RESERVE_VIRTUAL callback, VideoPort_Functions_ed4d4e19-25f2-4169-a80e-8c57c80ffd2b.xml, display.agpreservevirtual, videoagp/AgpReserveVirtual
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: videoagp.h
 req.include-header: Video.h

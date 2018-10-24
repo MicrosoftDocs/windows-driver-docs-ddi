@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Specifies data used to determine support of hardware for a configuration.
 old-location: display\d3d12ddi_video_decode_support_data.htm
 ms.assetid: 05274F4B-0473-42BA-A382-B348A85DBFA5
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020, D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020, display.d3d12ddi_video_decode_support_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h

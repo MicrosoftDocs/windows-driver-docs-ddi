@@ -6,11 +6,8 @@ description: The CHANGER_MOVE_MEDIUM structure is used in conjunction with the I
 old-location: storage\changer_move_medium.htm
 tech.root: storage
 ms.assetid: b19c8add-7377-40d2-8496-fcfa166ac143
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PCHANGER_MOVE_MEDIUM, CHANGER_MOVE_MEDIUM, CHANGER_MOVE_MEDIUM structure [Storage Devices], PCHANGER_MOVE_MEDIUM, PCHANGER_MOVE_MEDIUM structure pointer [Storage Devices], _CHANGER_MOVE_MEDIUM, ntddchgr/CHANGER_MOVE_MEDIUM, ntddchgr/PCHANGER_MOVE_MEDIUM, storage.changer_move_medium, structs-changer_866dd781-90cd-41be-84ce-61c16d31a369.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddchgr.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The STINOTIFY structure is used as a parameter to the IStillImage::
 old-location: image\stinotify.htm
 tech.root: image
 ms.assetid: 7dc42f9a-2e55-4ae5-a951-7d1d3b14564b
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: "*LPSTINOTIFY, LPSTINOTIFY, LPSTINOTIFY structure pointer [Imaging Devices], STINOTIFY, STINOTIFY structure [Imaging Devices], _STINOTIFY, image.stinotify, sti/LPSTINOTIFY, sti/STINOTIFY, stifnc_2cee63fa-a7a5-4a15-be83-e536a504bcb7.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: sti.h
 req.include-header: Sti.h

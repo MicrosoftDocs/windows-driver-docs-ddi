@@ -6,11 +6,8 @@ description: The IOCTL_SERIAL_WAIT_ON_MASK request is used to wait for the occur
 old-location: serports\ioctl_serial_wait_on_mask.htm
 tech.root: serports
 ms.assetid: b813bd59-249d-4cd1-bf56-4525c7f1fa1d
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_WAIT_ON_MASK, IOCTL_SERIAL_WAIT_ON_MASK control, IOCTL_SERIAL_WAIT_ON_MASK control code [Serial Ports], ntddser/IOCTL_SERIAL_WAIT_ON_MASK, serports.ioctl_serial_wait_on_mask, serref_4879eda6-26ca-48a6-9176-4aa20d46aa47.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddser.h
 req.include-header: Ntddser.h

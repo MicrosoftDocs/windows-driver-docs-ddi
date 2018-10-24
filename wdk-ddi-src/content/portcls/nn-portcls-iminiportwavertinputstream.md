@@ -6,11 +6,8 @@ description: The IMiniportWaveRTInputStream interface represents the input wave 
 old-location: audio\iminiportwavertinputstream.htm
 tech.root: audio
 ms.assetid: BF490F9C-C1CD-4AEE-A970-161C5BB3A523
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IMiniportWaveRTInputStream, IMiniportWaveRTInputStream interface [Audio Devices], IMiniportWaveRTInputStream interface [Audio Devices],described, audio.iminiportwavertinputstream, portcls/IMiniportWaveRTInputStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: portcls.h
 req.include-header: 

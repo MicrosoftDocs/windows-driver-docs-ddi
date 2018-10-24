@@ -4,7 +4,6 @@ title: Location function
 author: windows-driver-content
 description: Copy constructs a location.
 ms.assetid: e50b6f55-a47e-4fbc-b7f1-041cbccf9ea5
-ms.author: windowsdriverdev
 ms.date: 09/28/2018
 ms.topic: function
 ms.keywords: Location

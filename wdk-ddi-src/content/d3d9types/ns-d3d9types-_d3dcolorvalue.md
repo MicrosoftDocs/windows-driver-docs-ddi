@@ -4,11 +4,8 @@ title: _D3DCOLORVALUE
 author: windows-driver-content
 description: 
 ms.assetid: fcd9bc0c-b625-4e74-a007-77ffe7866571
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DCOLORVALUE, D3DCOLORVALUE, 
 req.header: d3d9types.h
 req.include-header:

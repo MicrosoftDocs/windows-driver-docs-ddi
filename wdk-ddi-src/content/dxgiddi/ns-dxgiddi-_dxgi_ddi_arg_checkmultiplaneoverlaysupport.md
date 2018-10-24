@@ -6,11 +6,8 @@ description: Used in a call to the pfnCheckMultiPlaneOverlaySupport (DXGI) funct
 old-location: display\dxgi_ddi_arg_checkmultiplaneoverlaysupport.htm
 tech.root: display
 ms.assetid: 1b339a88-9c05-4b57-9044-b00ef1c305fb
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT, DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT structure [Display Devices], _DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT, display.dxgi_ddi_arg_checkmultiplaneoverlaysupport, dxgiddi/DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dxgiddi.h
 req.include-header: Dxgiddi.h

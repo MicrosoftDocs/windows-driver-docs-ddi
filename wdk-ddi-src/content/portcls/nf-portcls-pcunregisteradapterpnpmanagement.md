@@ -6,11 +6,8 @@ description: The PcUnregisterAdapterPnpManagement function unregisters the audio
 old-location: audio\pcunregisteradapterpnpmanagement.htm
 tech.root: audio
 ms.assetid: 51BBE9F6-7661-45A1-8416-9AAA307FCA10
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: PcUnregisterAdapterPnpManagement, PcUnregisterAdapterPnpManagement function [Audio Devices], audio.pcunregisteradapterpnpmanagement, portcls/PcUnregisterAdapterPnpManagement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: portcls.h
 req.include-header: Portcls.h

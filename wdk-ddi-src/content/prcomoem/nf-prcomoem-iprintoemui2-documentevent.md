@@ -6,11 +6,8 @@ description: The IPrintOemUI2::DocumentEvent method allows a UI plug-in to repla
 old-location: print\iprintoemui2_documentevent.htm
 tech.root: print
 ms.assetid: c98d1510-7db8-4fd6-a95f-1906f553d1c5
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: DocumentEvent, DocumentEvent method [Print Devices], DocumentEvent method [Print Devices],IPrintOemUI2 interface, IPrintOemUI2 interface [Print Devices],DocumentEvent method, IPrintOemUI2.DocumentEvent, IPrintOemUI2::DocumentEvent, prcomoem/IPrintOemUI2::DocumentEvent, print.iprintoemui2_documentevent, print_unidrv-pscript_ui_03e403e4-7b60-413c-a8d2-025b3124f427.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

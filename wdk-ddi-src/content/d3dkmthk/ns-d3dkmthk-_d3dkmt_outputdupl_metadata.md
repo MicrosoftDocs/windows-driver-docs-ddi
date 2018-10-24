@@ -4,11 +4,8 @@ title: _D3DKMT_OUTPUTDUPL_METADATA
 author: windows-driver-content
 description: Contains output duplicate metadata.
 ms.assetid: f00de807-143b-4836-97bd-6db63f2ec4e8
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_OUTPUTDUPL_METADATA, D3DKMT_OUTPUTDUPL_METADATA, 
 req.header: d3dkmthk.h
 req.include-header:

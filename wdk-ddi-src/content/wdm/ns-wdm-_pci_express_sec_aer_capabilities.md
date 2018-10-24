@@ -6,11 +6,8 @@ description: The PCI_EXPRESS_SEC_AER_CAPABILITIES structure describes a PCI Expr
 old-location: pci\pci_express_sec_aer_capabilities.htm
 tech.root: PCI
 ms.assetid: fdfc0157-699e-4927-8186-b76b2e2bbda1
-ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: "*PPCI_EXPRESS_SEC_AER_CAPABILITIES, PCI.pci_express_sec_aer_capabilities, PCI_EXPRESS_SEC_AER_CAPABILITIES, PCI_EXPRESS_SEC_AER_CAPABILITIES union [Buses], PPCI_EXPRESS_SEC_AER_CAPABILITIES, PPCI_EXPRESS_SEC_AER_CAPABILITIES union pointer [Buses], _PCI_EXPRESS_SEC_AER_CAPABILITIES, pci_struct_22bcb7f0-e690-414b-ba51-37c8783a6fad.xml, wdm/PCI_EXPRESS_SEC_AER_CAPABILITIES, wdm/PPCI_EXPRESS_SEC_AER_CAPABILITIES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
 req.include-header: Ntddk.h, Wdm.h, Miniport.h
@@ -57,7 +54,7 @@ The PCI_EXPRESS_SEC_AER_CAPABILITIES structure describes a PCI Express (PCIe) se
 ## -syntax
 
 
-````
+```cpp
 typedef union _PCI_EXPRESS_SEC_AER_CAPABILITIES {
   struct {
     ULONG SecondaryUncorrectableFirstErrorPtr  :5;
@@ -65,7 +62,7 @@ typedef union _PCI_EXPRESS_SEC_AER_CAPABILITIES {
   };
   ULONG  AsULONG;
 } PCI_EXPRESS_SEC_AER_CAPABILITIES, *PPCI_EXPRESS_SEC_AER_CAPABILITIES;
-````
+```
 
 
 ## -struct-fields

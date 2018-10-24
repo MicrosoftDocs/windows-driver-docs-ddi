@@ -6,11 +6,8 @@ description: The NdisAcquireReadWriteLock function acquires a lock that the call
 old-location: netvista\ndisacquirereadwritelock.htm
 tech.root: netvista
 ms.assetid: 563b4bff-36ee-4597-ae6e-7d3811592549
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisAcquireReadWriteLock, NdisAcquireReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisAcquireReadWriteLock, ndis_read_write_lock_ref_6a27c811-da37-410d-8ca6-d982832b1d09.xml, netvista.ndisacquirereadwritelock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

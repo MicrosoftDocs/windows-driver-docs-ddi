@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMTUpdateOverlay function modifies a kernel-mode overlay object.
 old-location: display\d3dkmtupdateoverlay.htm
 ms.assetid: bd8fc34a-60a3-4ae7-b13e-50d8b4342834
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTUpdateOverlay, D3DKMTUpdateOverlay function [Display Devices], OpenGL_Functions_bddc75da-dc62-43cf-8ee7-ec9958198669.xml, d3dkmthk/D3DKMTUpdateOverlay, display.d3dkmtupdateoverlay
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

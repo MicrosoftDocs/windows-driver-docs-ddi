@@ -6,11 +6,8 @@ description: A minifilter driver can register two routines of type PFLT_INSTANCE
 old-location: ifsk\pflt_instance_teardown_callback.htm
 tech.root: ifsk
 ms.assetid: d2f87c47-7f26-4c22-a5b8-2be8f309d1ba
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: FltCallbacks_2bec09ed-3009-465c-842b-67e0cd7d734f.xml, PFLT_INSTANCE_TEARDOWN_CALLBACK, PFLT_INSTANCE_TEARDOWN_CALLBACK function pointer [Installable File System Drivers], fltkernel/PFLT_INSTANCE_TEARDOWN_CALLBACK, ifsk.pflt_instance_teardown_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

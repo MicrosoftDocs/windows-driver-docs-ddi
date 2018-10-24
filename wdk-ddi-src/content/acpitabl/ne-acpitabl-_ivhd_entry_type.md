@@ -4,12 +4,9 @@ title: _IVHD_ENTRY_TYPE
 author: windows-driver-content
 description: Enumerates the I/O Virtualization Hardware Definition (IVHD) entry types.
 ms.assetid: 0d338e2b-c212-4a24-9152-f176a7391ef3
-ms.author: windowsdriverdev
-ms.date: 10/1/2018
+ms.date: 10/01/2018
 ms.topic: enum
 ms.keywords: _IVHD_ENTRY_TYPE, IVRS_TABLE_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: acpitabl.h
 req.include-header:
 req.target-type:

@@ -4,11 +4,8 @@ title: PFND3D12DDI_ENUMERATE_META_COMMANDS_0052
 author: windows-driver-content
 description: The PFND3D12DDI_ENUMERATE_META_COMMANDS_0052 callback function enumerates meta-commands.
 ms.assetid: fdf5f76e-4486-4058-beaf-1ebefe65246a
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ The PFND3D12DDI_ENUMERATE_META_COMMANDS_0052 callback function enumerates meta-c
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_ENUMERATE_META_COMMANDS_0052 Pfnd3d12ddiEnumerateMetaCommands0052; 

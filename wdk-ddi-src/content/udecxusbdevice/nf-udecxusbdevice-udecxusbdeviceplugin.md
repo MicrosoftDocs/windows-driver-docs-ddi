@@ -6,11 +6,8 @@ description: Notifies the USB device emulation class extension (UdeCx) that the 
 old-location: buses\udecxusbdeviceplugin.htm
 tech.root: usbref
 ms.assetid: 6F1A1545-5B64-4481-B795-0B6433304C06
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UdecxUsbDevicePlugIn, UdecxUsbDevicePlugIn function [Buses], buses.udecxusbdeviceplugin, udecxusbdevice/UdecxUsbDevicePlugIn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h

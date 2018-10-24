@@ -6,11 +6,8 @@ description: The RtlGetElementGenericTableAvl routine returns a pointer to the c
 old-location: ifsk\rtlgetelementgenerictableavl.htm
 tech.root: ifsk
 ms.assetid: c836dd4b-5c66-4302-9b2a-115cec418533
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlGetElementGenericTableAvl, RtlGetElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtlgetelementgenerictableavl, ntddk/RtlGetElementGenericTableAvl, rtlref_c94e774b-baba-4be7-be6d-09b01544612b.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h

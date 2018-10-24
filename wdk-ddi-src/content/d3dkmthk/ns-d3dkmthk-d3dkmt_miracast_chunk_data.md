@@ -4,11 +4,8 @@ title: D3DKMT_MIRACAST_CHUNK_DATA
 author: windows-driver-content
 description: Contains wireless display (Miracast) chunk data.
 ms.assetid: a92c33e2-4939-4800-9d6e-f10b75bbc152
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3DKMT_MIRACAST_CHUNK_DATA, D3DKMT_MIRACAST_CHUNK_DATA, 
 req.header: d3dkmthk.h
 req.include-header:

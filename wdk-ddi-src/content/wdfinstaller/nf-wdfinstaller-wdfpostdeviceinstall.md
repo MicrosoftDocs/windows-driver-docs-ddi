@@ -6,11 +6,8 @@ description: The co-installer's WdfPostDeviceInstall function performs any opera
 old-location: wdf\wdfpostdeviceinstall.htm
 tech.root: wdf
 ms.assetid: 78942ef8-ecf9-481f-af60-2f1266a9e73f
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFCoinstallerRef_6a05795f-99bb-4f4d-975f-8d2de85adff0.xml, WdfPostDeviceInstall, WdfPostDeviceInstall function, kmdf.wdfpostdeviceinstall, wdf.wdfpostdeviceinstall, wdfinstaller/WdfPostDeviceInstall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfinstaller.h
 req.include-header: Wdfinstaller.h

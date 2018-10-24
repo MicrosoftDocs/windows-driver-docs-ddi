@@ -6,11 +6,8 @@ description: Contains the necessary data for logging a branch office job Pipelin
 old-location: print\branchofficejobdatarendered.htm
 tech.root: print
 ms.assetid: 67A296B3-5D59-475E-9026-EDAB90C8E3DD
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PBranchOfficeJobDataRendered, BranchOfficeJobDataRendered, BranchOfficeJobDataRendered structure [Print Devices], PBranchOfficeJobDataRendered, PBranchOfficeJobDataRendered structure pointer [Print Devices], print.branchofficejobdatarendered, winsplp/BranchOfficeJobDataRendered, winsplp/PBranchOfficeJobDataRendered"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winsplp.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The WdfIoTargetFormatRequestForRead method builds a read request fo
 old-location: wdf\wdfiotargetformatrequestforread.htm
 tech.root: wdf
 ms.assetid: e7c770de-0508-46e8-9820-aee6716fb7a7
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_397cd31e-d4d8-40b5-ae7b-5f8e9ed62300.xml, WdfIoTargetFormatRequestForRead, WdfIoTargetFormatRequestForRead method, kmdf.wdfiotargetformatrequestforread, wdf.wdfiotargetformatrequestforread, wdfiotarget/WdfIoTargetFormatRequestForRead
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfiotarget.h
 req.include-header: Wdf.h

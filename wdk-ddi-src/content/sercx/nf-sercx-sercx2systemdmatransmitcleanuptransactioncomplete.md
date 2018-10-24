@@ -6,11 +6,8 @@ description: The SerCx2SystemDmaTransmitCleanupTransactionComplete method notifi
 old-location: serports\sercx2systemdmatransmitcleanuptransactioncomplete.htm
 tech.root: serports
 ms.assetid: 9B2899AB-055B-458B-A9C5-958B8B2E809D
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SerCx2SystemDmaTransmitCleanupTransactionComplete, SerCx2SystemDmaTransmitCleanupTransactionComplete, SerCx2SystemDmaTransmitCleanupTransactionComplete method [Serial Ports], serports.sercx2systemdmatransmitcleanuptransactioncomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 

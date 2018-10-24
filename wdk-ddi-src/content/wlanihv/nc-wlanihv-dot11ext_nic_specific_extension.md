@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extnicspecificextension.htm
 tech.root: netvista
 ms.assetid: e588db31-d6d7-4b79-80f5-128c6d618ab6
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: DOT11EXT_NIC_SPECIFIC_EXTENSION, Dot11ExtNicSpecificExtension, Dot11ExtNicSpecificExtension callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_cab7d3ba-3192-4fb5-8827-f0c4b77bcb20.xml, netvista.dot11extnicspecificextension, wlanihv/Dot11ExtNicSpecificExtension
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
@@ -61,7 +58,7 @@ The IHV Extensions DLL calls the
 ## -prototype
 
 
-````
+```cpp
 DWORD WINAPI * Dot11ExtNicSpecificExtension(
   _In_opt_ HANDLE hDot11SvcHandle,
   _In_     DWORD  dwInBufferSize,
@@ -69,7 +66,7 @@ DWORD WINAPI * Dot11ExtNicSpecificExtension(
   _Inout_  DWORD  *pdwOutBufferSize,
   _Out_    LPVOID pvOutBuffer
 );
-````
+```
 
 
 ## -parameters

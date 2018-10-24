@@ -6,11 +6,8 @@ description: The FILE_LINK_INFORMATION structure is used to create an NTFS hard 
 old-location: ifsk\file_link_information.htm
 tech.root: ifsk
 ms.assetid: c0c47dc7-d672-4094-af17-9de2b01886aa
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PFILE_LINK_INFORMATION, FILE_LINK_INFORMATION, FILE_LINK_INFORMATION structure [Installable File System Drivers], PFILE_LINK_INFORMATION, PFILE_LINK_INFORMATION structure pointer [Installable File System Drivers], _FILE_LINK_INFORMATION, fileinformationstructures_6702855e-5076-41aa-a6c8-e9569c782646.xml, ifsk.file_link_information, ntifs/FILE_LINK_INFORMATION, ntifs/PFILE_LINK_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
@@ -53,7 +50,7 @@ req.typenames: FILE_LINK_INFORMATION, *PFILE_LINK_INFORMATION
 The FILE_LINK_INFORMATION structure is used to create an NTFS hard link to an existing file. 
 
 ## -syntax
-```
+```cpp
 typedef struct _FILE_LINK_INFORMATION {
 #if (_WIN32_WINNT >= _WIN32_WINNT_WIN10_RS5)
     union {

@@ -6,11 +6,8 @@ description: Provides access to the queue property bag, if the property bag is p
 old-location: print\iprinterscriptcontext_queueproperties.htm
 tech.root: print
 ms.assetid: EEC61313-5796-42BC-84BF-CF29F8BE0C96
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrinterScriptContext interface [Print Devices],QueueProperties property, IPrinterScriptContext.QueueProperties, IPrinterScriptContext.get_QueueProperties, IPrinterScriptContext::QueueProperties, IPrinterScriptContext::get_QueueProperties, QueueProperties property [Print Devices], QueueProperties property [Print Devices],IPrinterScriptContext interface, get_QueueProperties, print.iprinterscriptcontext_queueproperties, printerextension/IPrinterScriptContext::QueueProperties, printerextension/IPrinterScriptContext::get_QueueProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header: 

@@ -4,11 +4,8 @@ title: PSTREAM_RECEIVE_PACKET
 author: windows-driver-content
 description: 
 ms.assetid: 2ae5c8c4-9951-4424-90e8-25fd25a48bb2
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: usbcamdi.h
 req.include-header:
 req.target-type:
@@ -45,7 +42,7 @@ targetos: Windows
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PSTREAM_RECEIVE_PACKET PstreamReceivePacket; 

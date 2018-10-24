@@ -6,11 +6,8 @@ description: The WdfUsbTargetPipeReadSynchronously method builds a read request 
 old-location: wdf\wdfusbtargetpipereadsynchronously.htm
 tech.root: wdf
 ms.assetid: e09f68bd-cd43-42ce-988e-505415d62891
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_97551c52-37b0-4ed7-a961-921ed0e990b6.xml, WdfUsbTargetPipeReadSynchronously, WdfUsbTargetPipeReadSynchronously method, kmdf.wdfusbtargetpipereadsynchronously, wdf.wdfusbtargetpipereadsynchronously, wdfusb/WdfUsbTargetPipeReadSynchronously
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

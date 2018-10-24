@@ -4,11 +4,8 @@ title: PFND3DKMT_GETSHAREDRESOURCEADAPTERLUID
 author: windows-driver-content
 description: Pfnd3dkmtGetsharedresourceadapterluid maps a shared resource to a locally unique identifier (LUID) that identifies the graphics adapter that the resource was created on.
 ms.assetid: 1174993c-ffbb-449f-8bee-6ac2ad947dd0
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Pfnd3dkmtGetsharedresourceadapterluid maps a shared resource to a locally unique
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_GETSHAREDRESOURCEADAPTERLUID Pfnd3dkmtGetsharedresourceadapterluid; 

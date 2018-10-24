@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbChannelPacketComplete function cleans up any outstanding memory mappings, releases any buffers in use, and, if the opposite endpoint requested a completion packet, sends a completion packet.
 tech.root: netvista
 ms.assetid: 371b8ad4-4777-427c-9b9f-6c9c07bb9c3d
-ms.author: windowsdriverdev
 ms.date: 05/21/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:
@@ -52,7 +49,7 @@ completion packet.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_PACKET_COMPLETE FnVmbChannelPacketComplete; 

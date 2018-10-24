@@ -6,11 +6,8 @@ description: The OnSessionInaccessible method is called by the engine to inform 
 old-location: debugger\onsessioninaccessible.htm
 tech.root: debugger
 ms.assetid: ba2c158a-11be-40fe-971e-f58f19a9c1b6
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_3b2329d1-7a01-42d7-951c-777d9b93faa7.xml, ExtExtension.OnSessionInaccessible, ExtExtension::OnSessionInaccessible, OnSessionInaccessible, OnSessionInaccessible method [Windows Debugging], debugger.onsessioninaccessible
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

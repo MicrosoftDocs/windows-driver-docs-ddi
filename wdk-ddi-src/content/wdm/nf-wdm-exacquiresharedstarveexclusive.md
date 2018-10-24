@@ -6,11 +6,8 @@ description: The ExAcquireSharedStarveExclusive routine acquires a given resourc
 old-location: kernel\exacquiresharedstarveexclusive.htm
 tech.root: kernel
 ms.assetid: b148e684-18bd-4ab3-b772-6bc103b9f436
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExAcquireSharedStarveExclusive, ExAcquireSharedStarveExclusive routine [Kernel-Mode Driver Architecture], k102_b350fc88-cc76-4432-98e0-90e113e98007.xml, kernel.exacquiresharedstarveexclusive, wdm/ExAcquireSharedStarveExclusive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

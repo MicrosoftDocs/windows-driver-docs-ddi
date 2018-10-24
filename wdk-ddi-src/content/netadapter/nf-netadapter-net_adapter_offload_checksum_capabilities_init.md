@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT method initializes a NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: 22fa6f17-30aa-4ca4-ab53-a3c95591a68f
-ms.author: windowsdriverdev
 ms.date: 07/19/2018
 ms.topic: function
 ms.keywords: NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT

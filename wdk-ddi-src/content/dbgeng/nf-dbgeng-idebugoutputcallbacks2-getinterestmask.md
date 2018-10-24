@@ -6,11 +6,8 @@ description: Allows the callback object to describe which kinds of output notifi
 old-location: debugger\idebugoutputcallbacks2_getinterestmask.htm
 tech.root: debugger
 ms.assetid: BA710D92-63F4-4B4B-868A-58074FC052E9
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: DEBUG_OUTCBI_ANY_FORMAT, DEBUG_OUTCBI_DML, DEBUG_OUTCBI_EXPLICIT_FLUSH, DEBUG_OUTCBI_TEXT, GetInterestMask, GetInterestMask method [Windows Debugging], GetInterestMask method [Windows Debugging],IDebugOutputCallbacks2 interface, IDebugOutputCallbacks2 interface [Windows Debugging],GetInterestMask method, IDebugOutputCallbacks2.GetInterestMask, IDebugOutputCallbacks2::GetInterestMask, dbgeng/IDebugOutputCallbacks2::GetInterestMask, debugger.idebugoutputcallbacks2_getinterestmask
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

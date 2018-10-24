@@ -6,11 +6,8 @@ description: The IoReportRootDevice routine reports a device that cannot be dete
 old-location: kernel\ioreportrootdevice.htm
 tech.root: kernel
 ms.assetid: 43063BD3-8F2C-4F27-A304-75FBD5C87674
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoReportRootDevice, IoReportRootDevice routine [Kernel-Mode Driver Architecture], kernel.ioreportrootdevice, ntddk/IoReportRootDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

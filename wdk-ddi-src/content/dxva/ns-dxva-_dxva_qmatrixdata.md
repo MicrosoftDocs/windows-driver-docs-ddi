@@ -6,11 +6,8 @@ description: The DXVA_QmatrixData structure is sent by the host decoder to the a
 old-location: display\dxva_qmatrixdata.htm
 tech.root: display
 ms.assetid: 2cb96d6b-37f1-47dd-8135-66d3ead2dd64
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPDXVA_QmatrixData, DXVA_QmatrixData, DXVA_QmatrixData structure [Display Devices], LPDXVA_QmatrixData, LPDXVA_QmatrixData structure pointer [Display Devices], _DXVA_QmatrixData, display.dxva_qmatrixdata, dxva/DXVA_QmatrixData, dxva/LPDXVA_QmatrixData, dxvaref_96294cc5-1f6c-4632-bb98-df5e56bac34f.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dxva.h
 req.include-header: Dxva.h

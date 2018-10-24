@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_scan_request_v2.htm
 tech.root: netvista
 ms.assetid: fd6dd2f4-ee58-46da-ba87-5aecaff35dd0
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_SCAN_REQUEST_V2, DOT11_SCAN_REQUEST_V2, DOT11_SCAN_REQUEST_V2 structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_e7a02ffc-ecf6-4159-ab3d-85c87d844785.xml, PDOT11_SCAN_REQUEST_V2, PDOT11_SCAN_REQUEST_V2 structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SCAN_REQUEST_V2, netvista.dot11_scan_request_v2, windot11/DOT11_SCAN_REQUEST_V2, windot11/PDOT11_SCAN_REQUEST_V2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -60,7 +57,7 @@ The DOT11_SCAN_REQUEST_V2 structure defines the parameters for the explicit scan
 
 ## -syntax
 
-````
+```cpp
 typedef struct _DOT11_SCAN_REQUEST_V2 {
   DOT11_BSS_TYPE    dot11BSSType;
   DOT11_MAC_ADDRESS dot11BSSID;
@@ -77,7 +74,7 @@ typedef struct _DOT11_SCAN_REQUEST_V2 {
   ULONG             uIEsLength;
   UCHAR             ucBuffer[1];
 } DOT11_SCAN_REQUEST_V2, *PDOT11_SCAN_REQUEST_V2;
-````
+```
 
 
 ## -struct-fields

@@ -4,11 +4,8 @@ title: IModelKeyReference
 author: windows-driver-content
 description: A reference to a key on a data model object.
 ms.assetid: f92f8963-479b-4f90-abef-5ad227e8781c
-ms.author: windowsdriverdev
 ms.date: 07/16/2018
 ms.topic: interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

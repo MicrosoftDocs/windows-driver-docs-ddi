@@ -4,11 +4,8 @@ title: _D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE
 author: windows-driver-content
 description: Contains info about multiplane overlay post composition with source.
 ms.assetid: 1c72924f-dbb5-424b-be7a-1b872c1855d0
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE, D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE, 
 req.header: d3dkmthk.h
 req.include-header:

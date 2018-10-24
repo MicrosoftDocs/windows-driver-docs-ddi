@@ -6,11 +6,8 @@ description: The pfnUpdateAllocationPropertyCb functions updates the property of
 old-location: display\pfnupdateallocationpropertycb.htm
 tech.root: display
 ms.assetid: 49E4189A-2183-4033-BF17-ADFAC1CF1EF2
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_UPDATEALLOCATIONPROPERTYCB, PFND3DDDI_UPDATEALLOCATIONPROPERTYCB callback, d3dumddi/pfnUpdateAllocationPropertyCb, display.pfnupdateallocationpropertycb, pfnUpdateAllocationPropertyCb, pfnUpdateAllocationPropertyCb callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header:

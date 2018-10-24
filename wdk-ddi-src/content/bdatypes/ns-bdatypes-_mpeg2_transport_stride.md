@@ -6,11 +6,8 @@ description: The MPEG2_TRANSPORT_STRIDE structure describes the format block of 
 old-location: stream\mpeg2_transport_stride.htm
 tech.root: stream
 ms.assetid: 5756bb06-8fd3-4124-b3c8-35d5ed0bd57b
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE structure [Streaming Media Devices], PMPEG2_TRANSPORT_STRIDE, PMPEG2_TRANSPORT_STRIDE structure pointer [Streaming Media Devices], _MPEG2_TRANSPORT_STRIDE, bdaref_66678748-2c73-4bb6-b4ba-fc1c28fe567b.xml, bdatypes/MPEG2_TRANSPORT_STRIDE, bdatypes/PMPEG2_TRANSPORT_STRIDE, stream.mpeg2_transport_stride"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bdatypes.h
 req.include-header: Bdatypes.h

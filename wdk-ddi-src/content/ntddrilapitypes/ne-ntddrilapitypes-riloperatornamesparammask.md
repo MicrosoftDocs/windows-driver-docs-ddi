@@ -6,11 +6,8 @@ description: This enumeration describes the RILOPERATORNAMESPARAMMASK.
 old-location: netvista\riloperatornamesparammask.htm
 tech.root: netvista
 ms.assetid: f3e3654f-d317-4a8c-aa18-bbac86b06286
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: RILOPERATORNAMESPARAMMASK, RILOPERATORNAMESPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_ON_ALL, RIL_PARAM_ON_COUNTRY_CODE, RIL_PARAM_ON_LONGNAME, RIL_PARAM_ON_NUMNAME, RIL_PARAM_ON_SHORTNAME, RIL_PARAM_ON_SYSTEMTYPE, netvista.riloperatornamesparammask, rilapitypes/RILOPERATORNAMESPARAMMASK, rilapitypes/RIL_PARAM_ON_ALL, rilapitypes/RIL_PARAM_ON_COUNTRY_CODE, rilapitypes/RIL_PARAM_ON_LONGNAME, rilapitypes/RIL_PARAM_ON_NUMNAME, rilapitypes/RIL_PARAM_ON_SHORTNAME, rilapitypes/RIL_PARAM_ON_SYSTEMTYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
@@ -58,7 +55,7 @@ req.typenames: RILOPERATORNAMESPARAMMASK
 ## -syntax
 
 
-````
+```cpp
 enum RILOPERATORNAMESPARAMMASK {
   RIL_PARAM_ON_LONGNAME      = 0x00000001,
   RIL_PARAM_ON_SHORTNAME     = 0x00000002,
@@ -68,7 +65,7 @@ enum RILOPERATORNAMESPARAMMASK {
   RIL_PARAM_ON_ALL           = 0x0000001F
 
 };
-````
+```
 
 
 ## -enum-fields

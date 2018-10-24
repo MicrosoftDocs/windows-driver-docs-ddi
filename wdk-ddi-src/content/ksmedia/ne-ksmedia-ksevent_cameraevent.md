@@ -6,11 +6,8 @@ description: KSEVENT_CAMERAEVENT enumerates a kernel streaming event set that ca
 old-location: stream\ksevent_cameraevent.htm
 tech.root: stream
 ms.assetid: FD9483A5-7112-4141-8566-80B8D010366C
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KSEVENT_CAMERAEVENT, KSEVENT_CAMERAEVENT enumeration [Streaming Media Devices], KSEVENT_PHOTO_SAMPLE_SCANNED, ksmedia/KSEVENT_CAMERAEVENT, ksmedia/KSEVENT_PHOTO_SAMPLE_SCANNED, stream.ksevent_cameraevent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ksmedia.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The HBA_GetWrapperLibraryAttributes routine retrieves the attribute
 old-location: storage\hba_getwrapperlibraryattributes.htm
 tech.root: storage
 ms.assetid: c40b8f20-65e9-4e43-a402-14bd30f15975
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_GetWrapperLibraryAttributes, HBA_GetWrapperLibraryAttributes routine [Storage Devices], fibreHBA_rtns_98e62721-8cee-4799-b25f-bf01b52d966c.xml, hbaapi/HBA_GetWrapperLibraryAttributes, storage.hba_getwrapperlibraryattributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hbaapi.h
 req.include-header: Hbaapi.h

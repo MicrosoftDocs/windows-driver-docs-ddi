@@ -6,11 +6,8 @@ description: The SM_SendRPL_IN structure is used to provide input parameters to 
 old-location: storage\sm_sendrpl_in.htm
 tech.root: storage
 ms.assetid: 5d97b852-57ba-4696-879b-d93a8f539304
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSM_SendRPL_IN, PSM_SendRPL_IN, PSM_SendRPL_IN structure pointer [Storage Devices], SM_SendRPL_IN, SM_SendRPL_IN structure [Storage Devices], _SM_SendRPL_IN, hbapiwmi/PSM_SendRPL_IN, hbapiwmi/SM_SendRPL_IN, storage.sm_sendrpl_in, structs-Fibre_54275ca2-35b3-43f4-a62d-63c296b14663.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h

@@ -6,11 +6,8 @@ description: The WRITE_REGISTER_ULONG64 function writes a ULONG64 value to the s
 old-location: wdf\write_register_ulong64.htm
 tech.root: wdf
 ms.assetid: 50C407F2-657F-451F-8A6B-BEEB533D89DE
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WRITE_REGISTER_ULONG64, WRITE_REGISTER_ULONG64 function, umdf.write_register_ulong64, wdf.write_register_ulong64, wudfddi_hwaccess/WRITE_REGISTER_ULONG64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: miniport.h
 req.include-header: Wdm.h, Miniport.h, Wudfwdm.h
@@ -58,13 +55,13 @@ The <b>WRITE_REGISTER_ULONG64</b> function writes a ULONG64 value to the specifi
 ## -syntax
 
 
-````
+```cpp
 void WRITE_REGISTER_ULONG64(
   _In_ IWDFDevice3 *pDevice,
   _In_ PULONG64    Register,
   _In_ ULONG       Value
 );
-````
+```
 
 
 ## -parameters

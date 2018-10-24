@@ -6,11 +6,8 @@ description:
 old-location: print\ipartfont2_getfontrestriction.htm
 tech.root: print
 ms.assetid: C6289E38-281A-46A2-8E28-138A20BF6684
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetFontRestriction, GetFontRestriction method [Print Devices], GetFontRestriction method [Print Devices],IPartFont2 interface, IPartFont2 interface [Print Devices],GetFontRestriction method, IPartFont2.GetFontRestriction, IPartFont2::GetFontRestriction, filterpipeline/IPartFont2::GetFontRestriction, print.ipartfont2_getfontrestriction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: filterpipeline.h
 req.include-header: 

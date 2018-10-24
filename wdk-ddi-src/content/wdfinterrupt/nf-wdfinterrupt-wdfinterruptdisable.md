@@ -6,11 +6,8 @@ description: The WdfInterruptDisable method disables a specified device interrup
 old-location: wdf\wdfinterruptdisable.htm
 tech.root: wdf
 ms.assetid: 8ece6a3f-2f25-4143-8f0e-c65c02794cc4
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFInterruptObjectRef_05ca577a-87b3-419a-a3f8-ee57b0765701.xml, WdfInterruptDisable, WdfInterruptDisable method, kmdf.wdfinterruptdisable, wdf.wdfinterruptdisable, wdfinterrupt/WdfInterruptDisable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h

@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilpositioninfolte_2.htm
 tech.root: netvista
 ms.assetid: 4910571e-af1d-4bcf-a2d9-0d5383530171
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*LPRILPOSITIONINFOLTE, RILPOSITIONINFOLTE, RILPOSITIONINFOLTE structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfolte_2, rilapitypes/RILPOSITIONINFOLTE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
 req.include-header:
@@ -57,7 +54,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```cpp
 typedef struct _RILPOSITIONINFOLTE {
   DWORD  dwParams;
   DWORD  dwMobileCountryCode;
@@ -70,7 +67,7 @@ typedef struct _RILPOSITIONINFOLTE {
   LONG   dwRSRQ;
   DWORD  dwTimingAdvance;
 } RILPOSITIONINFOLTE, RILPOSITIONINFOLTE;
-````
+```
 
 
 ## -struct-fields

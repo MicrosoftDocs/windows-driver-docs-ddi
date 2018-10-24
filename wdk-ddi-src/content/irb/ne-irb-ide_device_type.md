@@ -6,11 +6,8 @@ description: The IDE_DEVICE_TYPE enumeration type indicates the device type.Note
 old-location: storage\ide_device_type.htm
 tech.root: storage
 ms.assetid: 6d94189f-d6ab-40ad-85e5-f4efe8c30ed8
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: DeviceIsAta, DeviceIsAtapi, DeviceNotExist, DeviceUnknown, IDE_DEVICE_TYPE, IDE_DEVICE_TYPE enumeration [Storage Devices], irb/DeviceIsAta, irb/DeviceIsAtapi, irb/DeviceNotExist, irb/DeviceUnknown, irb/IDE_DEVICE_TYPE, storage.ide_device_type, structs-ATA_ebe5b232-fdb1-4be8-ada6-54e2dc3d09a8.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: irb.h
 req.include-header: Irb.h

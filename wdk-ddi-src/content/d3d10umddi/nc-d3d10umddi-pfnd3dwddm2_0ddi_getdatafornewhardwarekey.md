@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Allows the driver to return independent hardware vendor (IHV)-specific information used when initializing the new hardware key.
 old-location: display\getdatafornewhardwarekey.htm
 ms.assetid: 0B365C66-2E6E-4DE9-A7A4-963965995F61
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DWDDM2_0DDI_GETDATAFORNEWHARDWAREKEY, PFND3DWDDM2_0DDI_GETDATAFORNEWHARDWAREKEY callback, d3d10umddi/pfnGetDataForNewHardwareKey, display.getdatafornewhardwarekey, pfnGetDataForNewHardwareKey, pfnGetDataForNewHardwareKey callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

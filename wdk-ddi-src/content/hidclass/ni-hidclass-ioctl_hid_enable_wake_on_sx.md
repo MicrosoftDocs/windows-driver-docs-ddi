@@ -6,11 +6,8 @@ description: The IOCTL_HID_ENABLE_WAKE_ON_SX request is used to indicate the req
 old-location: hid\ioctl_hid_enable_wake_on_sx.htm
 tech.root: hid
 ms.assetid: E06B1444-F270-48A0-A096-E0289DD4DBBA
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IOCTL_HID_ENABLE_WAKE_ON_SX, IOCTL_HID_ENABLE_WAKE_ON_SX control, IOCTL_HID_ENABLE_WAKE_ON_SX control code [Human Input Devices], hid.ioctl_hid_enable_wake_on_sx, hidclass/IOCTL_HID_ENABLE_WAKE_ON_SX
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: hidclass.h
 req.include-header: Hidclass.h

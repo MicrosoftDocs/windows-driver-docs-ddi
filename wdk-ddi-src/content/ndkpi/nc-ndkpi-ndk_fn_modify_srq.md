@@ -6,11 +6,8 @@ description: The NdkModifySrq (NDK_FN_MODIFY_SRQ) function modifies the size and
 old-location: netvista\ndk_fn_modify_srq.htm
 tech.root: netvista
 ms.assetid: ABB42AC6-8483-420C-B9A9-063C91E4FB13
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_FN_MODIFY_SRQ, NDK_FN_MODIFY_SRQ callback, NdkModifySrq, NdkModifySrq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkModifySrq, netvista.ndk_fn_modify_srq
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndkpi.h
 req.include-header: Ndkpi.h

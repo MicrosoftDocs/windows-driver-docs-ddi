@@ -4,11 +4,8 @@ title: PFND3DKMT_FREEGPUVIRTUALADDRESS
 author: windows-driver-content
 description: The Pfnd3dkmtFreegpuvirtualaddress callback function releases a range of graphics processing unit (GPU) virtual addresses, which was previously reserved or mapped.
 ms.assetid: c9072c10-4a54-4fa1-8bd5-c67cd876ccc6
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ The Pfnd3dkmtFreegpuvirtualaddress callback function releases a range of graphic
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_FREEGPUVIRTUALADDRESS Pfnd3dkmtFreegpuvirtualaddress; 

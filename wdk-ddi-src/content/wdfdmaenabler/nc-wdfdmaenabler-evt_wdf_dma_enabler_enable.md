@@ -6,11 +6,8 @@ description: A driver's EvtDmaEnablerEnable event callback function enables a de
 old-location: wdf\evtdmaenablerenable.htm
 tech.root: wdf
 ms.assetid: b6344a06-98ee-48c0-8fd5-76edfc71af2b
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDmaObjectRef_ca81d643-d2a6-4f88-9c6e-80c5681b76d1.xml, EVT_WDF_DMA_ENABLER_ENABLE, EVT_WDF_DMA_ENABLER_ENABLE callback, EvtDmaEnablerEnable, EvtDmaEnablerEnable callback function, kmdf.evtdmaenablerenable, wdf.evtdmaenablerenable, wdfdmaenabler/EvtDmaEnablerEnable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h

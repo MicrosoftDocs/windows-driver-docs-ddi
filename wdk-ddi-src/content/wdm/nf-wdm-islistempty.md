@@ -6,11 +6,8 @@ description: The IsListEmpty routine indicates whether a doubly linked list of L
 old-location: kernel\islistempty.htm
 tech.root: kernel
 ms.assetid: 6e494112-a808-4914-8194-e68a2799c38e
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IsListEmpty, IsListEmpty routine [Kernel-Mode Driver Architecture], k109_26969818-30d0-4e01-965d-e0ee6891fdd5.xml, kernel.islistempty, wdm/IsListEmpty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h

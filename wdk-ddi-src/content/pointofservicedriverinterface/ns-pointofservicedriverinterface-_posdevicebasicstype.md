@@ -6,11 +6,8 @@ description: This structure indicates the type of device, version, and recommend
 old-location: pos\posdevicebasicstype.htm
 tech.root: pos
 ms.assetid: 5f882f37-0554-48c0-b4a0-026d42452f56
-ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: PosDeviceBasicsType, PosDeviceBasicsType structure, _PosDeviceBasicsType, pointofservicedriverinterface/PosDeviceBasicsType, pos.posdevicebasicstype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
@@ -70,5 +67,5 @@ Indicates the <a href="https://msdn.microsoft.com/library/windows/hardware/dn772
 
 ### -field RecommendedBufferSize
 
-Indicates the size of the buffer that needs to be allocated to receive event data when calling <a href="http://go.microsoft.com/fwlink/p/?LinkId=314125">ReadFile</a> to retrieve events for this device
+Indicates the size of the buffer that needs to be allocated to receive event data when calling <a href="https://go.microsoft.com/fwlink/p/?LinkId=314125">ReadFile</a> to retrieve events for this device
 

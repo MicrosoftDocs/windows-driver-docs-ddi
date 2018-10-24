@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMTLock function locks an entire allocation or specific pages within an allocation.
 old-location: display\d3dkmtlock.htm
 ms.assetid: d64abd43-edf2-465a-8d99-8fdce1fcd25f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTLock, D3DKMTLock function [Display Devices], OpenGL_Functions_ca085861-b8a0-434a-843d-9b8052376df5.xml, d3dkmthk/D3DKMTLock, display.d3dkmtlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

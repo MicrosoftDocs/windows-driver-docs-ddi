@@ -6,11 +6,8 @@ description: When RevertToPrinterSelf is called on an impersonating thread, it r
 old-location: print\reverttoprinterself.htm
 tech.root: print
 ms.assetid: 3d94d363-fc8b-4b12-b90d-43dfc5923bdf
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: RevertToPrinterSelf, RevertToPrinterSelf function [Print Devices], print.reverttoprinterself, spoolfnc_4cf3c4c1-39bf-4ef6-b578-b9ff0955cbe5.xml, winsplp/RevertToPrinterSelf
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsplp.h
 req.include-header: Winsplp.h

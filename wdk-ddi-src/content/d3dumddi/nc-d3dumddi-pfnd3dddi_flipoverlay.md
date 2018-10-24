@@ -6,11 +6,8 @@ description: The FlipOverlay function causes the overlay hardware to start displ
 old-location: display\flipoverlay.htm
 tech.root: display
 ms.assetid: 8490ebdd-f993-4c77-b6da-d57ef5e5d05f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: FlipOverlay, FlipOverlay callback function [Display Devices], PFND3DDDI_FLIPOVERLAY, PFND3DDDI_FLIPOVERLAY callback, UserModeDisplayDriver_Functions_4a2c5f7b-8d52-465f-84ea-a1fc4f53381b.xml, d3dumddi/FlipOverlay, display.flipoverlay
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

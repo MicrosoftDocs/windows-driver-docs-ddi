@@ -4,8 +4,7 @@ title: IDataModelScriptDebugBreakpointEnumerator::Release
 author: windows-driver-content
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: b11ce58d-9614-4f05-875b-16e412d6c827
-ms.author: windowsdriverdev
-ms.date: 09/10/2018 
+ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebugBreakpointEnumerator::Release, Release, IDataModelScriptDebugBreakpointEnumerator.Release, IDataModelScriptDebugBreakpointEnumerator::Release, IDataModelScriptDebugBreakpointEnumerator.Release
 req.header: dbgmodel.h

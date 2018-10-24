@@ -4,11 +4,8 @@ title: PFND3D12DDI_GET_SHADER_IDENTIFIER_0054
 author: windows-driver-content
 description: Retrieves the unique identifier for a shader that can be used in a shader record.
 ms.assetid: 8b805532-df68-406b-871b-9022d3d1114c
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Retrieves the unique identifier for a shader that can be used in a shader record
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_GET_SHADER_IDENTIFIER_0054 Pfnd3d12ddiGetShaderIdentifier0054; 

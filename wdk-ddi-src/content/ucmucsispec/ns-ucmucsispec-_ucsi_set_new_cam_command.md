@@ -4,12 +4,9 @@ title: _UCSI_SET_NEW_CAM_COMMAND
 author: windows-driver-content
 description: Used in the SET_NEW_CAM command. See Table 4-32.
 ms.assetid: 873b6724-0496-40f6-b93f-fdd90e00d3cb
-ms.author: windowsdriverdev
 tech.root: usbref
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _UCSI_SET_NEW_CAM_COMMAND, UCSI_SET_NEW_CAM_COMMAND, *PUCSI_SET_NEW_CAM_COMMAND, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

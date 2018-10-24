@@ -6,11 +6,8 @@ description: This structure represents RILUICCRECORDSTATUS.
 old-location: netvista\riluiccrecordstatus.htm
 tech.root: netvista
 ms.assetid: 073fe700-ea6d-4d29-8751-66b27714f72d
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*LPRILUICCRECORDSTATUS, RILUICCRECORDSTATUS, RILUICCRECORDSTATUS structure [Network Drivers Starting with Windows Vista], netvista.riluiccrecordstatus, rilapitypes/RILUICCRECORDSTATUS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
 req.include-header: Ntddrilapitypes.h
@@ -56,7 +53,7 @@ req.typenames: RILUICCRECORDSTATUS, *LPRILUICCRECORDSTATUS
 ## -syntax
 
 
-````
+```cpp
 struct RILUICCRECORDSTATUS {
   DWORD                 cbSize;
   DWORD                 dwParams;
@@ -65,7 +62,7 @@ struct RILUICCRECORDSTATUS {
   DWORD                 dwSize;
   RILUICCFILELOCKSTATUS fileLockStatus[MAXNUM_EFACCESSTYPES];
 };
-````
+```
 
 
 ## -struct-fields

@@ -6,11 +6,8 @@ description: The WdfDeviceEnqueueRequest method delivers a specified I/O request
 old-location: wdf\wdfdeviceenqueuerequest.htm
 tech.root: wdf
 ms.assetid: f669790f-0370-46a0-ba38-05e35cdf23b3
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_f97fc280-163f-4931-a222-6a8ccf3251d2.xml, WdfDeviceEnqueueRequest, WdfDeviceEnqueueRequest method, kmdf.wdfdeviceenqueuerequest, wdf.wdfdeviceenqueuerequest, wdfdevice/WdfDeviceEnqueueRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h

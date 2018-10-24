@@ -6,11 +6,8 @@ description: FltSetVolumeContext sets a context for a volume.
 old-location: ifsk\fltsetvolumecontext.htm
 tech.root: ifsk
 ms.assetid: e1e8605c-b3d1-40db-bb33-fc1f7ed51617
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_889de924-a441-479f-9818-da016dd3feb3.xml, FltSetVolumeContext, FltSetVolumeContext function [Installable File System Drivers], fltkernel/FltSetVolumeContext, ifsk.fltsetvolumecontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

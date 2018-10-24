@@ -4,8 +4,7 @@ title: IDebugHostModule::GetContainingModule
 author: windows-driver-content
 description: Returns the module which contains this symbol if the symbol has a containing module.
 ms.assetid: 125fd543-0f5c-4628-8d81-1a4c7689df2c
-ms.author: windowsdriverdev
-ms.date: 09/18/2018  
+ms.date: 09/18/2018
 ms.topic: method
 ms.keywords: IDebugHostModule::GetContainingModule, GetContainingModule, IDebugHostModule.GetContainingModule, IDebugHostModule::GetContainingModule, IDebugHostModule.GetContainingModule
 req.header: dbgmodel.h

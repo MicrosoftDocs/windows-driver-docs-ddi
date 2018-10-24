@@ -6,11 +6,8 @@ description: The WdfFdoInitAllocAndQueryPropertyEx method allocates a buffer and
 old-location: wdf\wdffdoinitallocandquerypropertyex.htm
 tech.root: wdf
 ms.assetid: 8F338F5B-2F18-4D7D-AF96-7F80A48D37FB
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfFdoInitAllocAndQueryPropertyEx, WdfFdoInitAllocAndQueryPropertyEx method, wdf.wdffdoinitallocandquerypropertyex, wdffdo/WdfFdoInitAllocAndQueryPropertyEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdffdo.h
 req.include-header: Wdf.h

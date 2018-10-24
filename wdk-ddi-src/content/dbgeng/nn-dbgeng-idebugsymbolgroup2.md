@@ -6,11 +6,8 @@ description: IDebugSymbolGroup2 interface
 old-location: debugger\idebugsymbolgroup2.htm
 tech.root: debugger
 ms.assetid: d702fe69-966c-4b9a-aa0e-b8376288cb79
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], IDebugSymbolGroup2 interface [Windows Debugging],described, dbgeng/IDebugSymbolGroup2, debugger.idebugsymbolgroup2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

@@ -4,11 +4,8 @@ title: IDataModelScriptTemplateEnumerator
 author: windows-driver-content
 description: An enumerator which enumerates an available set of script templates.
 ms.assetid: 7d5f9983-35d8-4983-94af-3419f843b838
-ms.author: windowsdriverdev
 ms.date: 07/13/2018
 ms.topic: interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

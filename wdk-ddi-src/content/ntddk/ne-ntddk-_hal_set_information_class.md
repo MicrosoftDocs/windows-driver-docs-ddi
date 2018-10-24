@@ -4,12 +4,9 @@ title: _HAL_SET_INFORMATION_CLASS
 author: windows-driver-content
 description: The values are reserved for internal use.
 ms.assetid: d3fb9a2b-47bd-417e-961a-1b89f14d8f49
-ms.author: windowsdriverdev
 ms.date: 09/30/2018
 ms.topic: enum
 ms.keywords: _HAL_SET_INFORMATION_CLASS, *PHAL_SET_INFORMATION_CLASS, HAL_SET_INFORMATION_CLASS, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: ntddk.h
 req.include-header:
 req.target-type:

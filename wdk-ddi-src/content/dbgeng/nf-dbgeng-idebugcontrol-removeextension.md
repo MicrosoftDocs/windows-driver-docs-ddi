@@ -6,11 +6,8 @@ description: The RemoveExtension method unloads an extension library.
 old-location: debugger\removeextension.htm
 tech.root: debugger
 ms.assetid: ba4a87cc-2412-4769-9694-d6eefd750c4b
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugControl interface [Windows Debugging],RemoveExtension method, IDebugControl.RemoveExtension, IDebugControl2 interface [Windows Debugging],RemoveExtension method, IDebugControl2::RemoveExtension, IDebugControl3 interface [Windows Debugging],RemoveExtension method, IDebugControl3::RemoveExtension, IDebugControl::RemoveExtension, IDebugControl_c762281b-f49c-4837-a524-e2f04edb3b0c.xml, RemoveExtension, RemoveExtension method [Windows Debugging], RemoveExtension method [Windows Debugging],IDebugControl interface, RemoveExtension method [Windows Debugging],IDebugControl2 interface, RemoveExtension method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::RemoveExtension, dbgeng/IDebugControl3::RemoveExtension, dbgeng/IDebugControl::RemoveExtension, debugger.removeextension
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

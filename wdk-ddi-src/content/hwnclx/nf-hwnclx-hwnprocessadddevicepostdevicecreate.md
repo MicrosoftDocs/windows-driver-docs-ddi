@@ -6,11 +6,8 @@ description: Creates I/O queues. It should be called after the client driver’s
 old-location: gpiobtn\hwnprocessadddevicepostdevicecreate.htm
 tech.root: gpiobtn
 ms.assetid: 907cdeac-e2f0-48fa-bbf0-082c0fce6401
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: HwNProcessAddDevicePostDeviceCreate, HwNProcessAddDevicePostDeviceCreate function, gpiobtn.hwnprocessadddevicepostdevicecreate, hwnclx/HwNProcessAddDevicePostDeviceCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hwnclx.h
 req.include-header:
@@ -59,13 +56,13 @@ req.typenames: HWN_CLX_EXPORT_INDEX, *PHWN_CLX_EXPORT_INDEX
 ## -syntax
 
 
-````
+```cpp
 FORCEINLINE NTSTATUS  HwNProcessAddDevicePostDeviceCreate(
   _In_ WDFDRIVER  Driver,
   _In_ WDFDEVICE  Device,
   _In_ LPGUID     DeviceGuid
 );
-````
+```
 
 
 ## -parameters

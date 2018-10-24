@@ -6,11 +6,8 @@ description: The IStiDevice::UnSubscribe method removes the caller from the list
 old-location: image\istidevice_unsubscribe.htm
 tech.root: image
 ms.assetid: ee0bfafa-9f4b-4b4a-8b26-4bab81253500
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IStiDevice interface [Imaging Devices],UnSubscribe method, IStiDevice.UnSubscribe, IStiDevice::UnSubscribe, UnSubscribe, UnSubscribe method [Imaging Devices], UnSubscribe method [Imaging Devices],IStiDevice interface, image.istidevice_unsubscribe, sti/IStiDevice::UnSubscribe, stifnc_8144319d-d1da-40cd-ad1d-6b65c28155be.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sti.h
 req.include-header: Sti.h

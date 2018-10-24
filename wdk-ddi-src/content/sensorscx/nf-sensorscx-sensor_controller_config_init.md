@@ -6,11 +6,8 @@ description: This function initializes a SENSOR_CONTROLLER_CONFIG structure.
 old-location: sensors\sensor_controller_config_init.htm
 tech.root: sensors
 ms.assetid: 68A0A777-C068-4CE2-AB75-B977B34079C0
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: SENSOR_CONTROLLER_CONFIG_INIT, SENSOR_CONTROLLER_CONFIG_INIT function [Sensor Devices], sensors.sensor_controller_config_init, sensorscx/SENSOR_CONTROLLER_CONFIG_INIT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sensorscx.h
 req.include-header: 

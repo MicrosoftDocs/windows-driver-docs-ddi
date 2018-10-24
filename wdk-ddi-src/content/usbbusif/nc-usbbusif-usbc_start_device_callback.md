@@ -6,11 +6,8 @@ description: The USBC_START_DEVICE_CALLBACK routine allows a USB client driver t
 old-location: buses\usbc_start_device_callback.htm
 tech.root: usbref
 ms.assetid: f9a9510a-b55c-4566-83ce-4ed7ccafb543
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: USBC_START_DEVICE_CALLBACK, USBC_START_DEVICE_CALLBACK callback, UsbcStartDeviceCallback, UsbcStartDeviceCallback callback function [Buses], buses.usbc_start_device_callback, usbbusif/UsbcStartDeviceCallback, usbinterKR_d70617c5-be67-4660-9aa3-76b4c66c2616.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: usbbusif.h
 req.include-header: Usbbusif.h

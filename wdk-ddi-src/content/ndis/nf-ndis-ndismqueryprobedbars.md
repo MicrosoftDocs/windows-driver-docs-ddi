@@ -6,11 +6,8 @@ description: A miniport driver calls the NdisMQueryProbedBars function to obtain
 old-location: netvista\ndismqueryprobedbars.htm
 tech.root: netvista
 ms.assetid: 39deba08-3ff0-4037-b530-0cb4a01fc758
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMQueryProbedBars, NdisMQueryProbedBars function [Network Drivers Starting with Windows Vista], ndis/NdisMQueryProbedBars, netvista.ndismqueryprobedbars
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

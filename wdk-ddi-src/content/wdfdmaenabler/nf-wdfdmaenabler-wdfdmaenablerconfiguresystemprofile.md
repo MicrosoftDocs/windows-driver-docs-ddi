@@ -6,11 +6,8 @@ description: The WdfDmaEnablerConfigureSystemProfile method configures the hardw
 old-location: wdf\wdfdmaenablerconfiguresystemprofile.htm
 tech.root: wdf
 ms.assetid: 3374EBB8-F43A-4A2A-92AC-623B39F5EFA0
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfDmaEnablerConfigureSystemProfile, WdfDmaEnablerConfigureSystemProfile method, kmdf.wdfdmaenablerconfiguresystemprofile, wdf.wdfdmaenablerconfiguresystemprofile, wdfdmaenabler/WdfDmaEnablerConfigureSystemProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h

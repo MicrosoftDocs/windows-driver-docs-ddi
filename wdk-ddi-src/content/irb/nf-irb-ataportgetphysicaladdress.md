@@ -6,11 +6,8 @@ description: The AtaPortGetPhysicalAddress routine converts the virtual address 
 old-location: storage\ataportgetphysicaladdress.htm
 tech.root: storage
 ms.assetid: f6c595f2-a493-453a-a744-7ce6577ae29e
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: AtaPortGetPhysicalAddress, AtaPortGetPhysicalAddress routine [Storage Devices], atartns_8067117e-f163-4fe9-a3f4-24b32b5bcf63.xml, irb/AtaPortGetPhysicalAddress, storage.ataportgetphysicaladdress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: irb.h
 req.include-header: Ata.h, Irb.h

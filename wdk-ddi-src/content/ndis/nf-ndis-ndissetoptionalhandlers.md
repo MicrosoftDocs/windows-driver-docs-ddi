@@ -6,11 +6,8 @@ description: NDIS drivers can call the NdisSetOptionalHandlers function to set o
 old-location: netvista\ndissetoptionalhandlers.htm
 tech.root: netvista
 ms.assetid: 97649f4f-942a-47fc-a541-6f160c8b4eb4
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisSetOptionalHandlers, NdisSetOptionalHandlers function [Network Drivers Starting with Windows Vista], ndis/NdisSetOptionalHandlers, ndis_configuration_ref_343cba4f-9651-4f42-b0a9-0a85475cb6bf.xml, netvista.ndissetoptionalhandlers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

@@ -6,11 +6,8 @@ description: The device capability configuration structure sent with an OID_DOT1
 old-location: netvista\_dot11_wfd_device_capability_config.htm
 tech.root: netvista
 ms.assetid: 918307D4-0952-4FF0-8591-522C7E92194A
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_WFD_DEVICE_CAPABILITY_CONFIG, DOT11_WFD_DEVICE_CAPABILITY_CONFIG, DOT11_WFD_DEVICE_CAPABILITY_CONFIG structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_DEVICE_CAPABILITY_CONFIG, PDOT11_WFD_DEVICE_CAPABILITY_CONFIG structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_DEVICE_CAPABILITY_CONFIG, netvista._dot11_wfd_device_capability_config, windot11/ DOT11_WFD_DEVICE_CAPABILITY_CONFIG, windot11/PDOT11_WFD_DEVICE_CAPABILITY_CONFIG"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Windot11.h
@@ -58,7 +55,7 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DOT11_WFD_DEVICE_CAPABILITY_CONFIG {
   NDIS_OBJECT_HEADER Header;
   BOOLEAN            bServiceDiscoveryEnabled;
@@ -69,7 +66,7 @@ typedef struct _DOT11_WFD_DEVICE_CAPABILITY_CONFIG {
   BOOLEAN            bInvitationProcedureEnabled;
   ULONG              WPSVersionsEnabled;
 } DOT11_WFD_DEVICE_CAPABILITY_CONFIG, *PDOT11_WFD_DEVICE_CAPABILITY_CONFIG;
-````
+```
 
 
 ## -struct-fields

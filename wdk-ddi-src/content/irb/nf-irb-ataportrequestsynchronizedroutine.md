@@ -6,11 +6,8 @@ description: The AtaPortRequestSynchronizedRoutine routine is used by the minipo
 old-location: storage\ataportrequestsynchronizedroutine.htm
 tech.root: storage
 ms.assetid: fc4faca4-4d44-4b3e-bace-718fc8774f54
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: AtaPortRequestSynchronizedRoutine, AtaPortRequestSynchronizedRoutine routine [Storage Devices], atartns_612d4956-589d-4404-b3d3-f72eb6119e65.xml, irb/AtaPortRequestSynchronizedRoutine, storage.ataportrequestsynchronizedroutine
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: irb.h
 req.include-header: Ata.h, Irb.h

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Describes the link state of the adapter.
 tech.root: netvista
 ms.assetid: 0f984325-b393-4b7b-9572-edcef0248b93
-ms.author: windowsdriverdev
 ms.date: 02/06/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _NET_ADAPTER_LINK_STATE, NET_ADAPTER_LINK_STATE, *PNET_ADAPTER_LINK_STATE, 
 req.header: netadapter.h
 req.include-header:

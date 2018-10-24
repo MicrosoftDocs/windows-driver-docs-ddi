@@ -6,11 +6,8 @@ description: The RtlStringCchPrintfW and RtlStringCchPrintfA functions create a 
 old-location: kernel\rtlstringcchprintf.htm
 tech.root: kernel
 ms.assetid: e1c04e73-3055-4de8-bd8d-8d0a13541612
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlStringCchPrintf, RtlStringCchPrintfA, RtlStringCchPrintfW, RtlStringCchPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchprintf, ntstrsafe/RtlStringCchPrintfA, ntstrsafe/RtlStringCchPrintfW, safestrings_d1041cf8-bec9-4eef-8de8-7b662d474263.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
@@ -73,7 +70,7 @@ The size of the destination buffer, in characters. The buffer must be large enou
 
 ### -param pszFormat [in]
 
-A pointer to a null-terminated text string that contains <b>printf</b>-styled <a href="http://msdn.microsoft.com/library/56e442dc.aspx">formatting directives</a>.
+A pointer to a null-terminated text string that contains <b>printf</b>-styled <a href="https://msdn.microsoft.com/library/56e442dc.aspx">formatting directives</a>.
 
 
 ### -param param

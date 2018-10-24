@@ -6,11 +6,8 @@ description: The PsGetProcessCreateTimeQuadPart routine returns a LONGLONG value
 old-location: kernel\psgetprocesscreatetimequadpart.htm
 tech.root: kernel
 ms.assetid: d202b6d9-9964-4c95-acd3-f641e8f9d879
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PsGetProcessCreateTimeQuadPart, PsGetProcessCreateTimeQuadPart routine [Kernel-Mode Driver Architecture], k108_57bcfbb5-501b-41bf-964c-14c2b90548ea.xml, kernel.psgetprocesscreatetimequadpart, ntddk/PsGetProcessCreateTimeQuadPart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

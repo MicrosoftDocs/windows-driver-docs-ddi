@@ -6,11 +6,8 @@ description: The WDF_WRITE_REGISTER_USHORT routine writes a USHORT value to the 
 old-location: wdf\wdf_write_register_ushort.htm
 tech.root: wdf
 ms.assetid: E098794F-9A32-409E-9B44-04FDCEF75341
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WDF_WRITE_REGISTER_USHORT, WDF_WRITE_REGISTER_USHORT function, wdf.wdf_write_register_ushort, wdfhwaccess/WDF_WRITE_REGISTER_USHORT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfhwaccess.h
 req.include-header: 

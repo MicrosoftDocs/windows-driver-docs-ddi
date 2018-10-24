@@ -6,11 +6,8 @@ description: The IoQueueWorkItem routine associates a WorkItem routine with a wo
 old-location: kernel\ioqueueworkitem.htm
 tech.root: kernel
 ms.assetid: 92ec386e-205a-4704-bd13-941dd6d7d987
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoQueueWorkItem, IoQueueWorkItem routine [Kernel-Mode Driver Architecture], k104_6f5cb4e5-75d1-433a-864e-19de914aa2e7.xml, kernel.ioqueueworkitem, wdm/IoQueueWorkItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

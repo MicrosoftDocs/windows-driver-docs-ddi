@@ -6,11 +6,8 @@ description: Informs the USB device emulation class extension (UdeCx) that the r
 old-location: buses\udecxwdfdeviceresetcomplete.htm
 tech.root: usbref
 ms.assetid: B5873B19-17EF-4DF8-A3E7-7E7F6440A2B7
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UdecxWdfDeviceResetComplete, UdecxWdfDeviceResetComplete function [Buses], buses.udecxwdfdeviceresetcomplete, udecxwdfdevice/UdecxWdfDeviceResetComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: udecxwdfdevice.h
 req.include-header: Udecx.h

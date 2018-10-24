@@ -6,11 +6,8 @@ description: The ReadPtr function reads a pointer from the target. ReadPointer s
 old-location: debugger\readptr.htm
 tech.root: debugger
 ms.assetid: e3999ecc-9884-4ae6-8e01-be4538b1d53a
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ReadPtr, ReadPtr function [Windows Debugging], WdbgExts_Ref_4eaec659-6522-4d7f-b64a-ad771f93eb56.xml, debugger.readptr, wdbgexts/ReadPtr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h

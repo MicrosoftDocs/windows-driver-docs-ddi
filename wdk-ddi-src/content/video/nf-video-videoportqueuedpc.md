@@ -6,11 +6,8 @@ description: The VideoPortQueueDpc function allows a miniport driver to queue a 
 old-location: display\videoportqueuedpc.htm
 tech.root: display
 ms.assetid: 9715ff37-397b-4102-a363-443b8076f881
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortQueueDpc, VideoPortQueueDpc function [Display Devices], VideoPort_Functions_133e8c8b-e445-4f83-ad93-7eb560047f3f.xml, display.videoportqueuedpc, video/VideoPortQueueDpc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: video.h
 req.include-header: Video.h

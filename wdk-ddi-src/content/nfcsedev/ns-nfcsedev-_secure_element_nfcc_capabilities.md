@@ -6,11 +6,8 @@ description: SECURE_ELEMENT_NFCC_CAPABILITIES contains NFC controller capabiliti
 old-location: nfpdrivers\_secure_element_nfcc_capabilities.htm
 tech.root: nfpdrivers
 ms.assetid: D1F9588B-02D9-49B0-B45F-AF5C140D74E4
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PSECURE_ELEMENT_NFCC_CAPABILITIES, PSECURE_ELEMENT_NFCC_CAPABILITIES, P_SECURE_ELEMENT_NFCC_CAPABILITIES, P_SECURE_ELEMENT_NFCC_CAPABILITIES structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_NFCC_CAPABILITIES, SECURE_ELEMENT_NFCC_CAPABILITIES structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_NFCC_CAPABILITIES, nfcsedev/P_SECURE_ELEMENT_NFCC_CAPABILITIES, nfcsedev/_SECURE_ELEMENT_NFCC_CAPABILITIES, nfpdrivers._secure_element_nfcc_capabilities"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: nfcsedev.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: RxCreateNetRoot allocates and initializes a NET_ROOT structure and 
 old-location: ifsk\rxcreatenetroot.htm
 tech.root: ifsk
 ms.assetid: 076624d3-96f5-4e93-8598-b880a6b2289b
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxCreateNetRoot, RxCreateNetRoot function [Installable File System Drivers], fcb/RxCreateNetRoot, ifsk.rxcreatenetroot, rxref_3171aa4b-bf5b-4114-a5a0-40af765b09da.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fcb.h
 req.include-header: Rxcontx.h, Mrxfcb.h, Prefix.h, Struchdr.h, Fcb.h

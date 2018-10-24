@@ -6,11 +6,8 @@ description: The NdisDprReleaseSpinLock function releases a spin lock acquired i
 old-location: netvista\ndisdprreleasespinlock.htm
 tech.root: netvista
 ms.assetid: d6a7af70-6a1e-471b-919f-80a704d25446
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisDprReleaseSpinLock, NdisDprReleaseSpinLock macro [Network Drivers Starting with Windows Vista], ndis/NdisDprReleaseSpinLock, ndis_spin_lock_ref_7f9e73b2-9284-4a8c-895e-209a7685fa94.xml, netvista.ndisdprreleasespinlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ndis.h
 req.include-header: Ndis.h

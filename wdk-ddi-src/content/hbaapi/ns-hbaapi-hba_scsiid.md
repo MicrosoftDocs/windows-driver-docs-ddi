@@ -6,11 +6,8 @@ description: The HBA_ScsiId structure contains information used by the operating
 old-location: storage\hba_scsiid.htm
 tech.root: storage
 ms.assetid: c2acb40c-cb6e-45b4-b0be-911f6b37094e
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PHBA_SCSIID, HBA_SCSIID, HBA_SCSIID structure [Storage Devices], HBA_ScsiId, HBA_ScsiId structure [Storage Devices], PHBA_SCSIID, PHBA_SCSIID structure pointer [Storage Devices], hbaapi/HBA_ScsiId, hbaapi/PHBA_SCSIID, storage.hba_scsiid, structs-Fibre_855aa506-19ff-469d-8b32-3fc7f9e84ade.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hbaapi.h
 req.include-header: Hbaapi.h

@@ -6,11 +6,8 @@ description: This enumeration is not implemented.
 old-location: pos\linedisplaycursorcapabilities.htm
 tech.root: pos
 ms.assetid: 3F7AE8FE-F975-43AF-9FA0-C494E506D4B1
-ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: LineDisplayCursorCapabilities, LineDisplayCursorCapabilities enumeration, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayCursorCapabilities, pos.linedisplaycursorcapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h

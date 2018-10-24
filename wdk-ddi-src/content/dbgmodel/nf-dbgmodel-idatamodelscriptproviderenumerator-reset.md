@@ -4,7 +4,6 @@ title: IDataModelScriptProviderEnumerator::Reset
 author: windows-driver-content
 description: Resets the enumerator to the first element.
 ms.assetid: c424d21a-987d-4250-ae01-5e802e33b1f8
-ms.author: windowsdriverdev
 ms.date: 10/03/2018
 ms.topic: method
 ms.keywords: IDataModelScriptProviderEnumerator::Reset, Reset, IDataModelScriptProviderEnumerator.Reset, IDataModelScriptProviderEnumerator::Reset, IDataModelScriptProviderEnumerator.Reset

@@ -4,11 +4,8 @@ title: _IVHD_ACPI_DEVICE_ENTRY
 author: windows-driver-content
 description: Defines the I/O Virtualization Hardware Definition (IVHD) ACPI device entry structure. 
 ms.assetid: a21ba0d1-de8c-457a-86b3-2f85ba5abef1
-ms.author: windowsdriverdev
-ms.date: 10/1/2018
+ms.date: 10/01/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _IVHD_ACPI_DEVICE_ENTRY, IVHD_ACPI_DEVICE_ENTRY, *PIVHD_ACPI_DEVICE_ENTRY, 
 req.header: acpitabl.h
 req.include-header:

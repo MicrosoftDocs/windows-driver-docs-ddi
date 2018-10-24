@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_cipher_default_key_value.htm
 tech.root: netvista
 ms.assetid: 7362b20a-6ec4-4b22-8981-3a4b647a3cfa
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_CIPHER_DEFAULT_KEY_VALUE, DOT11_CIPHER_DEFAULT_KEY_VALUE, DOT11_CIPHER_DEFAULT_KEY_VALUE structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_dba46983-b572-4b76-8628-776848e4b22e.xml, PDOT11_CIPHER_DEFAULT_KEY_VALUE, PDOT11_CIPHER_DEFAULT_KEY_VALUE structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_cipher_default_key_value, windot11/DOT11_CIPHER_DEFAULT_KEY_VALUE, windot11/PDOT11_CIPHER_DEFAULT_KEY_VALUE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -61,7 +58,7 @@ product:
 ## -syntax
 
 
-````
+```cpp
 typedef struct DOT11_CIPHER_DEFAULT_KEY_VALUE {
   NDIS_OBJECT_HEADER     Header;
   ULONG                  uKeyIndex;
@@ -72,7 +69,7 @@ typedef struct DOT11_CIPHER_DEFAULT_KEY_VALUE {
   USHORT                 usKeyLength;
   UCHAR                  ucKey[1];
 } DOT11_CIPHER_DEFAULT_KEY_VALUE, *PDOT11_CIPHER_DEFAULT_KEY_VALUE;
-````
+```
 
 
 ## -struct-fields

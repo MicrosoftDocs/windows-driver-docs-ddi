@@ -6,11 +6,8 @@ description: NdisMCloseLog releases resources that were used for logging.
 old-location: netvista\ndismcloselog.htm
 tech.root: netvista
 ms.assetid: a4b2bf1a-f15d-409f-bd5f-84dbf8dadc09
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMCloseLog, NdisMCloseLog function [Network Drivers Starting with Windows Vista], miniport_logging_ref_ad3e4ea9-60c4-46b7-ac68-84517df279e0.xml, ndis/NdisMCloseLog, netvista.ndismcloselog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

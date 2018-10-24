@@ -6,11 +6,8 @@ description: The WdfTimerGetParentObject method returns a handle to the parent o
 old-location: wdf\wdftimergetparentobject.htm
 tech.root: wdf
 ms.assetid: 16ac6fea-9eea-4062-8ab9-fd14d80118a6
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFTimerObjectRef_b081e639-a1d6-4119-b47c-b95b772630bc.xml, WdfTimerGetParentObject, WdfTimerGetParentObject method, kmdf.wdftimergetparentobject, wdf.wdftimergetparentobject, wdftimer/WdfTimerGetParentObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdftimer.h
 req.include-header: Wdf.h

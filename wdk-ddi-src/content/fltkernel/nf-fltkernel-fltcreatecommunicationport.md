@@ -6,11 +6,8 @@ description: FltCreateCommunicationPort creates a communication server port on w
 old-location: ifsk\fltcreatecommunicationport.htm
 tech.root: ifsk
 ms.assetid: 9987ed6b-7792-4035-9640-9ee9595e854a
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_77aa523f-3374-41e7-9b9f-ed0d9e5b3094.xml, FltCreateCommunicationPort, FltCreateCommunicationPort function [Installable File System Drivers], fltkernel/FltCreateCommunicationPort, ifsk.fltcreatecommunicationport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

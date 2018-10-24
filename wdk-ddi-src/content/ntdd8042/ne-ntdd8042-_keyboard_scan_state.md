@@ -6,11 +6,8 @@ description: The KEYBOARD_SCAN_STATE enumeration type indicates the scan state o
 old-location: hid\keyboard_scan_state.htm
 tech.root: hid
 ms.assetid: fd6cba1d-e32c-4ee8-b827-826e5065ca8b
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PKEYBOARD_SCAN_STATE, GotE0, GotE1, KEYBOARD_SCAN_STATE, KEYBOARD_SCAN_STATE enumeration [Human Input Devices], Normal, PKEYBOARD_SCAN_STATE, PKEYBOARD_SCAN_STATE enumeration pointer [Human Input Devices], _KEYBOARD_SCAN_STATE, hid.keyboard_scan_state, i8042ref_c83b037a-9874-4ae3-b951-9d37a1df03be.xml, ntdd8042/GotE0, ntdd8042/GotE1, ntdd8042/KEYBOARD_SCAN_STATE, ntdd8042/Normal, ntdd8042/PKEYBOARD_SCAN_STATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntdd8042.h
 req.include-header: Ntdd8042.h

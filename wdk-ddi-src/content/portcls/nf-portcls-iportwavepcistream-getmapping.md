@@ -6,11 +6,8 @@ description: The GetMapping method obtains a mapping from the port driver and as
 old-location: audio\iportwavepcistream_getmapping.htm
 tech.root: audio
 ms.assetid: f0d4f266-6a43-4523-bf1d-3dda1fc9a5b8
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: GetMapping, GetMapping method [Audio Devices], GetMapping method [Audio Devices],IPortWavePciStream interface, IPortWavePciStream interface [Audio Devices],GetMapping method, IPortWavePciStream.GetMapping, IPortWavePciStream::GetMapping, audio.iportwavepcistream_getmapping, audmp-routines_e0c71b6a-ec20-47ab-85bc-7a3495e5247e.xml, portcls/IPortWavePciStream::GetMapping
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: Portcls.h

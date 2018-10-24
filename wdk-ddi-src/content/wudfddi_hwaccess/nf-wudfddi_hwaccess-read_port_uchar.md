@@ -6,11 +6,8 @@ description: The READ_PORT_UCHAR function reads a byte from the specified port a
 old-location: wdf\read_port_uchar.htm
 tech.root: wdf
 ms.assetid: B72EDABF-B5A5-4887-A8D6-77F4047CEDA8
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: READ_PORT_UCHAR, READ_PORT_UCHAR function, umdf.read_port_uchar, wdf.read_port_uchar, wudfddi_hwaccess/READ_PORT_UCHAR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wudfddi_hwaccess.h
 req.include-header: 

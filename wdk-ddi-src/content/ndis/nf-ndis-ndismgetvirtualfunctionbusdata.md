@@ -6,11 +6,8 @@ description: A miniport driver calls the NdisMGetVirtualFunctionBusData function
 old-location: netvista\ndismgetvirtualfunctionbusdata.htm
 tech.root: netvista
 ms.assetid: 15e2e1f4-6039-4588-a7ba-bd8aa6b78839
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMGetVirtualFunctionBusData, NdisMGetVirtualFunctionBusData function [Network Drivers Starting with Windows Vista], ndis/NdisMGetVirtualFunctionBusData, netvista.ndismgetvirtualfunctionbusdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

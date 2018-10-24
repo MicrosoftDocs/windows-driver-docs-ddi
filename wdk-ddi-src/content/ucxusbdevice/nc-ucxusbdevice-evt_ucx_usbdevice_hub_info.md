@@ -6,11 +6,8 @@ description: The client driver's implementation that UCX calls to retrieve hub p
 old-location: buses\evt_ucx_usbdevice_hub_info.htm
 tech.root: usbref
 ms.assetid: 5bf8000d-63d8-4901-b3fc-d3c43cefe37e
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: EVT_UCX_USBDEVICE_HUB_INFO, EVT_UCX_USBDEVICE_HUB_INFO callback, EvtUcxUsbDeviceHubInfo, EvtUcxUsbDeviceHubInfo callback function [Buses], PEVT_UCX_USBDEVICE_HUB_INFO, PEVT_UCX_USBDEVICE_HUB_INFO callback function pointer [Buses], buses.evt_ucx_usbdevice_hub_info, ucxusbdevice/EvtUcxUsbDeviceHubInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h

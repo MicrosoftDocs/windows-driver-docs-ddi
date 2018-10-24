@@ -6,11 +6,8 @@ description: The RtlCaptureStackBackTrace routine captures a stack back trace by
 old-location: ifsk\rtlcapturestackbacktrace.htm
 tech.root: ifsk
 ms.assetid: e4ad1eac-1788-4dfe-9444-f40e0de156c4
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlCaptureStackBackTrace, RtlCaptureStackBackTrace routine [Installable File System Drivers], ifsk.rtlcapturestackbacktrace, ntifs/RtlCaptureStackBackTrace, rtlref_c329ad74-ebb1-478d-a0d2-fd2ae2c8da2a.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h

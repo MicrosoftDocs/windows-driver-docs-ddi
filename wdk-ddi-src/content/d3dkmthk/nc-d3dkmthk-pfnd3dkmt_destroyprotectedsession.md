@@ -4,11 +4,8 @@ title: PFND3DKMT_DESTROYPROTECTEDSESSION
 author: windows-driver-content
 description: Implemented by the client driver to destroy a protected session.
 ms.assetid: a5e0bcd2-aa9e-450a-9f72-038c90dafc36
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to destroy a protected session.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_DESTROYPROTECTEDSESSION Pfnd3dkmtDestroyprotectedsession;

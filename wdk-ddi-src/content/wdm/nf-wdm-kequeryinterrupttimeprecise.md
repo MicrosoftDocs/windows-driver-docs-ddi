@@ -6,11 +6,8 @@ description: The KeQueryInterruptTimePrecise routine returns the current value o
 old-location: kernel\kequeryinterrupttimeprecise.htm
 tech.root: kernel
 ms.assetid: CCA03E61-6FEF-42BC-9407-A02432C50542
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeQueryInterruptTimePrecise, KeQueryInterruptTimePrecise routine [Kernel-Mode Driver Architecture], kernel.kequeryinterrupttimeprecise, wdm/KeQueryInterruptTimePrecise
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>KeQueryInterruptTimePrecise</b> routine returns the current value of the system <a href="http://go.microsoft.com/fwlink/p/?linkid=201082">interrupt time</a> count, with accuracy to within a microsecond.
+The <b>KeQueryInterruptTimePrecise</b> routine returns the current value of the system <a href="https://go.microsoft.com/fwlink/p/?linkid=201082">interrupt time</a> count, with accuracy to within a microsecond.
 
 
 ## -parameters

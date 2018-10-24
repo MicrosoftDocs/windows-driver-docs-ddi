@@ -6,11 +6,8 @@ description: The SetExtendedPolicy method specifies the interrupt priority, proc
 old-location: wdf\iwdfinterrupt_setextendedpolicy.htm
 tech.root: wdf
 ms.assetid: 6637E939-010E-4462-92CE-50C4DB867694
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFInterrupt interface,SetExtendedPolicy method, IWDFInterrupt.SetExtendedPolicy, IWDFInterrupt::SetExtendedPolicy, SetExtendedPolicy, SetExtendedPolicy method, SetExtendedPolicy method,IWDFInterrupt interface, umdf.iwdfinterrupt_setextendedpolicy, wdf.iwdfinterrupt_setextendedpolicy, wudfddi/IWDFInterrupt::SetExtendedPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: 

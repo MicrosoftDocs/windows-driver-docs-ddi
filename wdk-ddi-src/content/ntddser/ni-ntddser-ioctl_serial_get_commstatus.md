@@ -6,11 +6,8 @@ description: The IOCTL_SERIAL_GET_COMMSTATUS request returns information about t
 old-location: serports\ioctl_serial_get_commstatus.htm
 tech.root: serports
 ms.assetid: 70d0efe3-5ba1-4552-8c58-83c3f14e2264
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_GET_COMMSTATUS, IOCTL_SERIAL_GET_COMMSTATUS control, IOCTL_SERIAL_GET_COMMSTATUS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_COMMSTATUS, serports.ioctl_serial_get_commstatus, serref_4c26c2fc-2285-4b46-8791-0fb613e1c05a.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddser.h
 req.include-header: Ntddser.h

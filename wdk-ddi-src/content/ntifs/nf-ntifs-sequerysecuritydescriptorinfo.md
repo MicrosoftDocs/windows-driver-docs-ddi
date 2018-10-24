@@ -6,11 +6,8 @@ description: The SeQuerySecurityDescriptorInfo routine retrieves a copy of an ob
 old-location: ifsk\sequerysecuritydescriptorinfo.htm
 tech.root: ifsk
 ms.assetid: 4803e816-c59a-42b2-adc1-7a197ae16d42
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: SeQuerySecurityDescriptorInfo, SeQuerySecurityDescriptorInfo routine [Installable File System Drivers], ifsk.sequerysecuritydescriptorinfo, ntifs/SeQuerySecurityDescriptorInfo, seref_c8ecba25-bc67-4314-a262-3dbae1407205.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

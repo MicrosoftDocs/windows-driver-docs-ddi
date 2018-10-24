@@ -6,11 +6,8 @@ description: The MmAllocateContiguousMemorySpecifyCache routine allocates a rang
 old-location: kernel\mmallocatecontiguousmemoryspecifycache.htm
 tech.root: kernel
 ms.assetid: e35544ed-d113-476e-85a8-6b3f613c1dc2
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: MmAllocateContiguousMemorySpecifyCache, MmAllocateContiguousMemorySpecifyCache routine [Kernel-Mode Driver Architecture], k106_764af538-9f9b-432b-af6a-4a6b7addd95d.xml, kernel.mmallocatecontiguousmemoryspecifycache, wdm/MmAllocateContiguousMemorySpecifyCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h

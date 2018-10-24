@@ -5,11 +5,8 @@ author: windows-driver-content
 tech.root: usbref
 description: Used in the GET_CAM_SUPPORTED command. See Table 4-27. 
 ms.assetid: 0bec638b-c295-43ac-b35b-267f22f8f561
-ms.author: windowsdriverdev
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _UCSI_GET_CAM_SUPPORTED_COMMAND, UCSI_GET_CAM_SUPPORTED_COMMAND, *PUCSI_GET_CAM_SUPPORTED_COMMAND, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

@@ -6,11 +6,8 @@ description: Notifies UCX that a remote wake signal from the device is received.
 old-location: buses\_ucxusbdeviceremotewakenotification.htm
 tech.root: usbref
 ms.assetid: 0C95831F-2E20-461C-8478-9A40C1F063E2
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UcxUsbDeviceRemoteWakeNotification, UcxUsbDeviceRemoteWakeNotification method [Buses], buses._ucxusbdeviceremotewakenotification, ucxusbdevice/UcxUsbDeviceRemoteWakeNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h

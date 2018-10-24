@@ -6,11 +6,8 @@ description:
 old-location: stream\ioctl_swenum_remove_interface.htm
 tech.root: stream
 ms.assetid: 89E7498F-8568-4A24-8731-E84AC8D1CE94
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_SWENUM_REMOVE_INTERFACE, IOCTL_SWENUM_REMOVE_INTERFACE control, IOCTL_SWENUM_REMOVE_INTERFACE control code [Streaming Media Devices], stream.ioctl_swenum_remove_interface, swenum/IOCTL_SWENUM_REMOVE_INTERFACE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: swenum.h
 req.include-header: 

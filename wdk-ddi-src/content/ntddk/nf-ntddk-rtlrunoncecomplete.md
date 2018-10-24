@@ -6,11 +6,8 @@ description: The RtlRunOnceComplete routine completes the one-time initializatio
 old-location: kernel\rtlrunoncecomplete.htm
 tech.root: kernel
 ms.assetid: 1cdc4fde-2370-4e58-9e67-dec731cdb935
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlRunOnceComplete, RtlRunOnceComplete routine [Kernel-Mode Driver Architecture], k109_00290091-7130-4217-8098-0baa7309223c.xml, kernel.rtlrunoncecomplete, ntddk/RtlRunOnceComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

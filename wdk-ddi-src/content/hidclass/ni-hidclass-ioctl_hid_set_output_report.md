@@ -6,11 +6,8 @@ description: The IOCTL_HID_SET_OUTPUT_REPORT request sends an output report to a
 old-location: hid\ioctl_hid_set_output_report.htm
 tech.root: hid
 ms.assetid: f5c0f3a7-5d90-4a95-9ba0-01aea98d8c79
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IOCTL_HID_SET_OUTPUT_REPORT, IOCTL_HID_SET_OUTPUT_REPORT control, IOCTL_HID_SET_OUTPUT_REPORT control code [Human Input Devices], hid.ioctl_hid_set_output_report, hidclass/IOCTL_HID_SET_OUTPUT_REPORT, hidioreq_1b4d06b6-4e28-4465-8b88-356d70bf1dee.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: hidclass.h
 req.include-header: Hidclass.h

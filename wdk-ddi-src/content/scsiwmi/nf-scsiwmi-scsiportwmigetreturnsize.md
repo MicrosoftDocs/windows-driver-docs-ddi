@@ -6,11 +6,8 @@ description: The ScsiPortWmiGetReturnSize routine indicates the number of bytes 
 old-location: storage\scsiportwmigetreturnsize.htm
 tech.root: storage
 ms.assetid: 7cd54ac2-e13b-45eb-a0ac-56a2d60d9057
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ScsiPortWmiGetReturnSize, ScsiPortWmiGetReturnSize macro [Storage Devices], scsiprt_a9717bc6-2519-4446-8965-47340976a85f.xml, scsiwmi/ScsiPortWmiGetReturnSize, storage.scsiportwmigetreturnsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: scsiwmi.h
 req.include-header: Miniport.h, Scsi.h

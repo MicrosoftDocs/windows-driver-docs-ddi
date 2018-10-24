@@ -6,11 +6,8 @@ description: The Continue method tells the caller (the XPS rasterization service
 old-location: print\ixpsrasterizernotificationcallback_continue.htm
 tech.root: print
 ms.assetid: 8136eec2-1d4b-4233-bb93-7203d932816b
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: Continue, Continue method [Print Devices], Continue method [Print Devices],IXpsRasterizerNotificationCallback interface, IXpsRasterizerNotificationCallback interface [Print Devices],Continue method, IXpsRasterizerNotificationCallback.Continue, IXpsRasterizerNotificationCallback::Continue, print.ixpsrasterizernotificationcallback_continue, print_xpsrast_f107f6a3-c35f-4ec1-b50f-062852852af6.xml, xpsrassvc/IXpsRasterizerNotificationCallback::Continue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsrassvc.h
 req.include-header: 

@@ -4,11 +4,8 @@ title: _PCI_EXPRESS_PTM_CONTROL_REGISTER
 author: windows-driver-content
 description: Reserved. Do not use.
 ms.assetid: e7cf1582-8dbd-4f6f-827e-ae5fa6f3810a
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _PCI_EXPRESS_PTM_CONTROL_REGISTER, PCI_EXPRESS_PTM_CONTROL_REGISTER, *PPCI_EXPRESS_PTM_CONTROL_REGISTER, 
 req.header: wdm.h
 req.include-header:

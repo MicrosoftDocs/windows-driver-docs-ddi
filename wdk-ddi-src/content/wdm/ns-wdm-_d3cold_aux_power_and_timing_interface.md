@@ -4,11 +4,8 @@ title: _D3COLD_AUX_POWER_AND_TIMING_INTERFACE
 author: windows-driver-content
 description: Allows device drivers to negotiate a higher auxiliary power for their PCI devices while in D3Cold state. 
 ms.assetid: a69dbe9e-ea7d-4b71-8fa8-eb92abb3447b
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3COLD_AUX_POWER_AND_TIMING_INTERFACE, *PD3COLD_AUX_POWER_AND_TIMING_INTERFACE, D3COLD_AUX_POWER_AND_TIMING_INTERFACE, 
 req.header: wdm.h
 req.include-header:

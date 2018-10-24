@@ -6,11 +6,8 @@ description: The CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE enumeration type indic
 old-location: gpio\client_controller_query_set_request_type.htm
 tech.root: GPIO
 ms.assetid: 050752CC-FBD6-4EB1-A17F-53C5C569E3FB
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PCLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE enumeration [Parallel Ports], GPIO.client_controller_query_set_request_type, QueryBankInterruptBindingInformation, QueryBankPowerInformation, QueryControllerFunctionBankMappingInformation, QuerySetRequestMaximumType, _CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, gpioclx/CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, gpioclx/QueryBankInterruptBindingInformation, gpioclx/QueryBankPowerInformation, gpioclx/QueryControllerFunctionBankMappingInformation, gpioclx/QuerySetRequestMaximumType"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: gpioclx.h
 req.include-header: 

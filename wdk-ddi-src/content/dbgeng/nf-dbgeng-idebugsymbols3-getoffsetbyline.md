@@ -6,11 +6,8 @@ description: The GetOffsetByLine method returns the location of the instruction 
 old-location: debugger\getoffsetbyline.htm
 tech.root: debugger
 ms.assetid: 347e0d45-8be1-4e4e-8a6a-44d5c914bf0f
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetOffsetByLine, GetOffsetByLine method [Windows Debugging], GetOffsetByLine method [Windows Debugging],IDebugSymbols interface, GetOffsetByLine method [Windows Debugging],IDebugSymbols2 interface, GetOffsetByLine method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetOffsetByLine method, IDebugSymbols2 interface [Windows Debugging],GetOffsetByLine method, IDebugSymbols2::GetOffsetByLine, IDebugSymbols3 interface [Windows Debugging],GetOffsetByLine method, IDebugSymbols3.GetOffsetByLine, IDebugSymbols3::GetOffsetByLine, IDebugSymbols::GetOffsetByLine, IDebugSymbols_1aa7fddc-6a33-469e-828f-45ff0f31aae7.xml, dbgeng/IDebugSymbols2::GetOffsetByLine, dbgeng/IDebugSymbols3::GetOffsetByLine, dbgeng/IDebugSymbols::GetOffsetByLine, debugger.getoffsetbyline
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

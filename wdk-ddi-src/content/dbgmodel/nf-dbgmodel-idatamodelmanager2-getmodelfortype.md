@@ -4,7 +4,6 @@ title: IDataModelManager2::GetModelForType
 author: windows-driver-content
 description: The GetModelForType method returns the data model which is the canonical visualizer for a given type instance. 
 ms.assetid: feaec7e1-6dda-43c6-95c9-7ccbca6472fb
-ms.author: windowsdriverdev
 ms.date: 09/11/2018
 ms.topic: method
 ms.keywords: IDataModelManager2::GetModelForType, GetModelForType, IDataModelManager2.GetModelForType, IDataModelManager2::GetModelForType, IDataModelManager2.GetModelForType

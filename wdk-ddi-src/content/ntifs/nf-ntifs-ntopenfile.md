@@ -6,11 +6,8 @@ description: The ZwOpenFile routine opens an existing file, directory, device, o
 old-location: kernel\zwopenfile.htm
 tech.root: kernel
 ms.assetid: 7c07d250-6287-4dd3-96f9-f301bad8b6f3
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtOpenFile, ZwOpenFile, ZwOpenFile routine [Kernel-Mode Driver Architecture], k111_efde7b0f-a00d-47c8-8a34-ae22fb909718.xml, kernel.zwopenfile, wdm/NtOpenFile, wdm/ZwOpenFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

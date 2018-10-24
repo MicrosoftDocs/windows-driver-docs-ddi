@@ -6,11 +6,8 @@ description: Filter drivers call the NdisFSendNetBufferLists function to send a 
 old-location: netvista\ndisfsendnetbufferlists.htm
 tech.root: netvista
 ms.assetid: fe0896ab-2d20-465f-a8bc-bfc0033701d6
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisFSendNetBufferLists, NdisFSendNetBufferLists function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_333e9ef3-6858-4b5b-bca1-4f06da775906.xml, ndis/NdisFSendNetBufferLists, netvista.ndisfsendnetbufferlists
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

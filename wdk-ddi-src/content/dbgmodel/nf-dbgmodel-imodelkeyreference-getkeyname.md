@@ -4,7 +4,6 @@ title: IModelKeyReference::GetKeyName
 author: windows-driver-content
 description: The GetKeyName method returns the name of the key to which this key reference is a handle. 
 ms.assetid: 521db621-a4ea-41eb-b1ce-b1c8e89f3bdc
-ms.author: windowsdriverdev
 ms.date: 08/14/2018
 ms.topic: method
 ms.keywords: IModelKeyReference::GetKeyName, GetKeyName, IModelKeyReference.GetKeyName, IModelKeyReference::GetKeyName, IModelKeyReference.GetKeyName

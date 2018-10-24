@@ -4,8 +4,7 @@ title: UsbPm_RetrieveConnectorState function
 author: windows-driver-content
 description: Retrieves the current state of a connector. Unlike connector properties, state information is dynamic, which can change at runtime.
 ms.assetid: dc7c8d73-70bc-4021-83b3-1519fab014fa
-ms.author: windowsdriverdev
-ms.date: 9/30/2018 
+ms.date: 09/30/2018
 ms.topic: function
 ms.keywords: UsbPm_RetrieveConnectorState
 tech.root: usbref

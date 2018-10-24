@@ -6,11 +6,8 @@ description: The StorPortPutScatterGatherList routine releases any resources ass
 old-location: storage\storportputscattergatherlist.htm
 tech.root: storage
 ms.assetid: 0b380597-09dc-414f-b2c6-f541d35540da
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortPutScatterGatherList, StorPortPutScatterGatherList routine [Storage Devices], storage.storportputscattergatherlist, storport/StorPortPutScatterGatherList, storprt_d8e74add-b512-4584-aa56-d9337ad3d7a9.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

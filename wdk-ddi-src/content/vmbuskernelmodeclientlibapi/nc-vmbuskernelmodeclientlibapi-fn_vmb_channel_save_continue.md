@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbChannelSaveContinue function saves the channel state to a buffer. Run the VmbChannelSaveBegin before you run this function. The driver must check the return value of the function.
 tech.root: netvista
 ms.assetid: 020dcfd9-f552-4b0a-ad82-0dea44bcec28
-ms.author: windowsdriverdev
 ms.date: 05/21/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:
@@ -50,7 +47,7 @@ The <b>VmbChannelSaveContinue</b> function saves the channel state to a buffer. 
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_SAVE_CONTINUE FnVmbChannelSaveContinue; 

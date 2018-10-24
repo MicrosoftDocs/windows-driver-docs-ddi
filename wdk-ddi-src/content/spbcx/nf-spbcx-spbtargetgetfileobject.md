@@ -6,11 +6,8 @@ description: The SpbTargetGetFileObject method accepts, as an input parameter, a
 old-location: spb\spbtargetgetfileobject.htm
 tech.root: SPB
 ms.assetid: A89635EC-F5B8-4427-9AFD-9F71339595DF
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: SPB.spbtargetgetfileobject, SpbTargetGetFileObject, SpbTargetGetFileObject method [Buses], spbcx/SpbTargetGetFileObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: spbcx.h
 req.include-header: 

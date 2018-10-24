@@ -6,11 +6,8 @@ description: The IoCopyCurrentIrpStackLocationToNext routine copies the IRP stac
 old-location: kernel\iocopycurrentirpstacklocationtonext.htm
 tech.root: kernel
 ms.assetid: f1940737-4543-4e48-8a4a-90430b16890a
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoCopyCurrentIrpStackLocationToNext, IoCopyCurrentIrpStackLocationToNext routine [Kernel-Mode Driver Architecture], k104_11dd3823-a387-4699-a4c4-db88f8961b37.xml, kernel.iocopycurrentirpstacklocationtonext, wdm/IoCopyCurrentIrpStackLocationToNext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

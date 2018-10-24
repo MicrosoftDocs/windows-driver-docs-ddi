@@ -6,11 +6,8 @@ description: The IOCTL_PAR_SET_WRITE_ADDRESS request sets an extended capabiliti
 old-location: parports\ioctl_par_set_write_address.htm
 tech.root: parports
 ms.assetid: ea4a071e-aa6b-4c9f-b497-523af7e42430
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_PAR_SET_WRITE_ADDRESS, IOCTL_PAR_SET_WRITE_ADDRESS control code [Parallel Ports], cisspd_396ff93f-623f-48a5-925e-9338672fa974.xml, ntddpar/IOCTL_PAR_SET_WRITE_ADDRESS, parports.ioctl_par_set_write_address
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddpar.h
 req.include-header: Ntddpar.h

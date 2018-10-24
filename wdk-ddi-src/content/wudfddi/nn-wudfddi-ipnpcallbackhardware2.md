@@ -6,11 +6,8 @@ description: The IPnpCallbackHardware2 interface exposes callback methods relate
 old-location: wdf\ipnpcallbackhardware2.htm
 tech.root: wdf
 ms.assetid: C0DB967F-0A1A-4749-B902-EBA0D59A3E45
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IPnpCallbackHardware2, IPnpCallbackHardware2 interface, IPnpCallbackHardware2 interface,described, umdf.ipnpcallbackhardware2, wdf.ipnpcallbackhardware2, wudfddi/IPnpCallbackHardware2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wudfddi.h
 req.include-header: 

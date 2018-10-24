@@ -6,11 +6,8 @@ description: The OutSimpleValue method prints the value of the typed data repres
 old-location: debugger\extremotetyped_outsimplevalue.htm
 tech.root: debugger
 ms.assetid: e9c11c07-bd4a-4d49-a820-4617be691c80
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_8592b96c-7253-42f9-a704-739e539bad66.xml, ExtRemoteTyped interface [Windows Debugging],OutSimpleValue method, ExtRemoteTyped.OutSimpleValue, ExtRemoteTyped::OutSimpleValue, OutSimpleValue, OutSimpleValue method [Windows Debugging], OutSimpleValue method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_outsimplevalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

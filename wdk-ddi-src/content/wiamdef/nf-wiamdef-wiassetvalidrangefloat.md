@@ -6,11 +6,8 @@ description: The wiasSetValidRangeFloat function specifies the range of valid va
 old-location: image\wiassetvalidrangefloat.htm
 tech.root: image
 ms.assetid: 66bc5e03-4cc2-4de3-b707-18ff7e0deb4b
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiassetvalidrangefloat, wiamdef/wiasSetValidRangeFloat, wiasFncs_d8eb35e4-e295-43cf-a457-5e6fac3f537d.xml, wiasSetValidRangeFloat, wiasSetValidRangeFloat function [Imaging Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiamdef.h
 req.include-header: Wiamdef.h

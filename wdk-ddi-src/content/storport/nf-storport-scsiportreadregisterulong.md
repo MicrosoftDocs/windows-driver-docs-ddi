@@ -6,11 +6,8 @@ description: The ScsiPortReadRegisterUlong routine reads a ULONG value from the 
 old-location: storage\scsiportreadregisterulong.htm
 tech.root: storage
 ms.assetid: e644fce4-2367-4851-8252-47a25faf0b6d
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ScsiPortReadRegisterUlong, ScsiPortReadRegisterUlong routine [Storage Devices], scsiprt_fe99fb31-bbec-4213-bfe5-88efbe2e71e9.xml, srb/ScsiPortReadRegisterUlong, storage.scsiportreadregisterulong
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: storport.h
 req.include-header: Miniport.h, Scsi.h, Storport.h

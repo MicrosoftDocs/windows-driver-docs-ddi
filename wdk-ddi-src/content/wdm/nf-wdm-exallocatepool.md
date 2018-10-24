@@ -6,11 +6,8 @@ description: The ExAllocatePool routine is obsolete, and is exported only for ex
 old-location: kernel\exallocatepool.htm
 tech.root: kernel
 ms.assetid: b5b88a14-3d60-45bf-8340-b78175a55e01
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExAllocatePool, ExAllocatePool routine [Kernel-Mode Driver Architecture], k102_02ff5510-3d96-4a15-a0da-5da56e14b1b8.xml, kernel.exallocatepool, wdm/ExAllocatePool
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Classpnp.h, Smcnt.h

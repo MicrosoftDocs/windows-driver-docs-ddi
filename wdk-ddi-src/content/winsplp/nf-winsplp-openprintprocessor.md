@@ -6,11 +6,8 @@ description: A print processor's OpenPrintProcessor function prepares the print 
 old-location: print\openprintprocessor.htm
 tech.root: print
 ms.assetid: bab79fb6-1bb0-48ec-9d60-fcb6e679b758
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: OpenPrintProcessor, OpenPrintProcessor function [Print Devices], print.openprintprocessor, spoolfnc_b8a185f0-4289-49bb-bb98-b6f54b66fa70.xml, winsplp/OpenPrintProcessor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsplp.h
 req.include-header: Winsplp.h

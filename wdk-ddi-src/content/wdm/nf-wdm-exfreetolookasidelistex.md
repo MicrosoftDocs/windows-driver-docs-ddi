@@ -6,11 +6,8 @@ description: The ExFreeToLookasideListEx routine inserts an entry into a lookasi
 old-location: kernel\exfreetolookasidelistex.htm
 tech.root: kernel
 ms.assetid: 37057400-7f4d-4274-b1ef-f03771cae34f
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExFreeToLookasideListEx, ExFreeToLookasideListEx routine [Kernel-Mode Driver Architecture], k102_2d275628-4a0f-4da8-a512-60a0998d8c5b.xml, kernel.exfreetolookasidelistex, wdm/ExFreeToLookasideListEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

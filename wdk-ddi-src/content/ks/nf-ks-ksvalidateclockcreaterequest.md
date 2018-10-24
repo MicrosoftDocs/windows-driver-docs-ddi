@@ -6,11 +6,8 @@ description: The KsValidateClockCreateRequest function validates the clock creat
 old-location: stream\ksvalidateclockcreaterequest.htm
 tech.root: stream
 ms.assetid: ec10c10e-4604-47fc-a2e7-4df9d90acf0b
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsValidateClockCreateRequest, KsValidateClockCreateRequest function [Streaming Media Devices], ks/KsValidateClockCreateRequest, ksfunc_e681d03e-44fb-43fb-b317-dc7e63fe6cb2.xml, stream.ksvalidateclockcreaterequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

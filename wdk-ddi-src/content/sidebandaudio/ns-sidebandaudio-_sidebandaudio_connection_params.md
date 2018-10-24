@@ -4,11 +4,8 @@ title: _SIDEBANDAUDIO_CONNECTION_PARAMS
 author: windows-driver-content
 description: Describes the endpoint index and Connection value.
 ms.assetid: 15577347-4c95-4cd7-bb77-8341dbb0bae4
-ms.author: windowsdriverdev
 ms.date: 09/06/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _SIDEBANDAUDIO_CONNECTION_PARAMS, SIDEBANDAUDIO_CONNECTION_PARAMS, *PSIDEBANDAUDIO_CONNECTION_PARAMS, 
 req.header: sidebandaudio.h
 req.include-header:

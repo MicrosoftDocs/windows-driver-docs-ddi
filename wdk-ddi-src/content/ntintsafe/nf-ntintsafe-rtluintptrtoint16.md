@@ -6,11 +6,8 @@ description: Converts a value of type UINT_PTR to a value of type INT16.
 old-location: kernel\rtluintptrtoint16.htm
 tech.root: kernel
 ms.assetid: 11FA2777-93AA-4833-8726-4C6E5FADD0B9
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUIntPtrToInt16, RtlUIntPtrToInt16 function [Kernel-Mode Driver Architecture], kernel.rtluintptrtoint16, ntintsafe/RtlUIntPtrToInt16
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

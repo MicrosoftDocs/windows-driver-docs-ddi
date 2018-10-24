@@ -6,11 +6,8 @@ description: TheMRxComputeNewBufferingState routine is called by RDBSS to reques
 old-location: ifsk\mrxcomputenewbufferingstate.htm
 tech.root: ifsk
 ms.assetid: d47cbcab-8682-4c7f-b651-3d1e0f78dc0c
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: MRxComputeNewBufferingState, MRxComputeNewBufferingState routine [Installable File System Drivers], PMRX_COMPUTE_NEW_BUFFERING_STATE, ifsk.mrxcomputenewbufferingstate, mrx/MRxComputeNewBufferingState, mrxref_294ad2d0-2454-437d-818a-6879361f97e5.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: mrx.h
 req.include-header: Mrx.h

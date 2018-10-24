@@ -6,11 +6,8 @@ description: A driver can use the IOCTL_STORAGE_REINITIALIZE_MEDIA control code 
 old-location: storage\ioctl_storage_reinitialize_media.htm
 tech.root: storage
 ms.assetid: 4ECF51C3-D098-49E2-A675-78066A15C221
-ms.author: windowsdriverdev
-ms.date: 9/12/2018
+ms.date: 09/12/2018
 ms.keywords: IOCTL_STORAGE_REINITIALIZE_MEDIA, IOCTL_STORAGE_REINITIALIZE_MEDIA control, IOCTL_STORAGE_REINITIALIZE_MEDIA control code [Storage Devices], ntddstor/IOCTL_STORAGE_REINITIALIZE_MEDIA, storage.ioctl_storage_reinitialize_media
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddstor.h
 req.include-header: 

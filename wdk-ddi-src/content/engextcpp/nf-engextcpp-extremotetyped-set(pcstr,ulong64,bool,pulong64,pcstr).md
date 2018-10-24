@@ -6,11 +6,8 @@ description: The Set method sets the typed data represented by the ExtRemoteType
 old-location: debugger\extremotetyped_set_pcstr_ulong64_bool.htm
 tech.root: debugger
 ms.assetid: fc3d8d9c-0b19-42b3-b4d7-90df4667739b
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ExtRemoteTyped class [Windows Debugging],Set method, ExtRemoteTyped.Set, ExtRemoteTyped.Set(PCSTR,ULONG64,bool,PULONG64,PCSTR), ExtRemoteTyped::Set, ExtRemoteTyped::Set(PCSTR,ULONG64,bool,PULONG64,PCSTR), Set, Set method [Windows Debugging], Set method [Windows Debugging],ExtRemoteTyped class, debugger.extremotetyped_set_pcstr_ulong64_bool
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

@@ -4,8 +4,7 @@ title: IDebugHostType2::GetFunctionReturnType
 author: windows-driver-content
 description: The GetFunctionReturnType method returns the return type of the function. 
 ms.assetid: 5372dfd6-015f-41d8-ba2a-ee6f283ebab7
-ms.author: windowsdriverdev
-ms.date: 09/20/2018 
+ms.date: 09/20/2018
 ms.topic: method
 ms.keywords: IDebugHostType2::GetFunctionReturnType, GetFunctionReturnType, IDebugHostType2.GetFunctionReturnType, IDebugHostType2::GetFunctionReturnType, IDebugHostType2.GetFunctionReturnType
 req.header: dbgmodel.h

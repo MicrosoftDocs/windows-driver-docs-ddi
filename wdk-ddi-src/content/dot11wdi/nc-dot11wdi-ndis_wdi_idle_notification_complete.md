@@ -6,11 +6,8 @@ description: Miniport drivers call NdisWdiIdleNotificationComplete callback func
 old-location: netvista\ndiswdiidlenotificationcomplete.htm
 tech.root: netvista
 ms.assetid: 22622545-F92E-4FEE-8F5D-64EC792490C7
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDIS_WDI_IDLE_NOTIFICATION_COMPLETE, NDIS_WDI_IDLE_NOTIFICATION_COMPLETE callback, NdisWdiIdleNotificationComplete, NdisWdiIdleNotificationComplete callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiIdleNotificationComplete, netvista.ndiswdiidlenotificationcomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dot11wdi.h
 req.include-header: 

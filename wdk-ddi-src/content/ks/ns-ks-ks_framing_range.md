@@ -6,11 +6,8 @@ description: The KS_FRAMING_RANGE structure specifies a range for frame sizes fo
 old-location: stream\ks_framing_range.htm
 tech.root: stream
 ms.assetid: 3263b290-2966-4e19-9828-b91e7b2efa55
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKS_FRAMING_RANGE, KS_FRAMING_RANGE, KS_FRAMING_RANGE structure [Streaming Media Devices], PKS_FRAMING_RANGE, PKS_FRAMING_RANGE structure pointer [Streaming Media Devices], ks-struct_a489de91-e530-4185-9344-0ab4fe426cc8.xml, ks/KS_FRAMING_RANGE, ks/PKS_FRAMING_RANGE, stream.ks_framing_range"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ks.h
 req.include-header: Ks.h

@@ -6,11 +6,8 @@ description: The KsMergeAutomationTables function merges two automation tables.
 old-location: stream\ksmergeautomationtables.htm
 tech.root: stream
 ms.assetid: ef90f9da-3169-4b49-9ba2-2cab058e5d00
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsMergeAutomationTables, KsMergeAutomationTables function [Streaming Media Devices], avfunc_7e2146e2-0458-48ee-815a-8ea478187e07.xml, ks/KsMergeAutomationTables, stream.ksmergeautomationtables
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

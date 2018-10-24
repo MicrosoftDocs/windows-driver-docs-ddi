@@ -6,11 +6,8 @@ description: The WRITE_PORT_BUFFER_USHORT function writes a number of USHORT val
 old-location: wdf\write_port_buffer_ushort.htm
 tech.root: wdf
 ms.assetid: 04F51A7D-70D8-4844-973D-70B7A7797221
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WRITE_PORT_BUFFER_USHORT, WRITE_PORT_BUFFER_USHORT function, umdf.write_port_buffer_ushort, wdf.write_port_buffer_ushort, wudfddi_hwaccess/WRITE_PORT_BUFFER_USHORT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wudfddi_hwaccess.h
 req.include-header: 

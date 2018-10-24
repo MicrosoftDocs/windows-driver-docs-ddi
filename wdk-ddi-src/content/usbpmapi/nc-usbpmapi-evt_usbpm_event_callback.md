@@ -4,11 +4,8 @@ title: EVT_USBPM_EVENT_CALLBACK
 author: windows-driver-content
 description: Sends notifications about hub arrival/removal and connector state changes.
 ms.assetid: 5b0fd114-b3ee-484e-9d4f-f8eb4b07d6ca
-ms.author: windowsdriverdev
-ms.date: 9/30/2018 
+ms.date: 09/30/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 tech.root: usbref
 req.header: usbpmapi.h
 req.include-header:
@@ -47,7 +44,7 @@ Sends notifications about hub arrival/removal and connector state changes.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_USBPM_EVENT_CALLBACK EvtUsbpmEventCallback; 

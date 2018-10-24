@@ -6,11 +6,8 @@ description: The IDE_ACCESS_RANGE structure contains the address ranges allocate
 old-location: storage\ide_access_range.htm
 tech.root: storage
 ms.assetid: e81441a2-0659-4d32-97f4-415abef6c87a
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PIDE_ACCESS_RANGE, IDE_ACCESS_RANGE, IDE_ACCESS_RANGE structure [Storage Devices], PIDE_ACCESS_RANGE, PIDE_ACCESS_RANGE structure pointer [Storage Devices], _IDE_ACCESS_RANGE, irb/IDE_ACCESS_RANGE, irb/PIDE_ACCESS_RANGE, storage.ide_access_range, structs-ATA_6c50e733-2896-4052-a867-ae2c9d119ff2.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: irb.h
 req.include-header: Irb.h

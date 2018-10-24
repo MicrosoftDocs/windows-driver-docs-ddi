@@ -4,8 +4,7 @@ title: IDataModelManager::UnregisterNamedModel
 author: windows-driver-content
 description: The UnregisterNamedModel method undoes a prior call to RegisterNamedModel.
 ms.assetid: 9d7d6eea-8f62-4fb3-9422-60bdd141eb49
-ms.author: windowsdriverdev
-ms.date:  07/19/2018
+ms.date: 07/19/2018
 ms.topic: method
 ms.keywords: IDataModelManager::UnregisterNamedModel, UnregisterNamedModel, IDataModelManager.UnregisterNamedModel, IDataModelManager::UnregisterNamedModel, IDataModelManager.UnregisterNamedModel
 req.header: dbgmodel.h
