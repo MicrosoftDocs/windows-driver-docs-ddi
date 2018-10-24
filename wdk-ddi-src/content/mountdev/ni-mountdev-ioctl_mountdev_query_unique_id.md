@@ -43,12 +43,9 @@ req.typenames:
 
 # IOCTL_MOUNTDEV_QUERY_UNIQUE_ID IOCTL
 
-
 ## -description
 
-
 Support for this IOCTL by mount manager clients is mandatory. Upon receiving this IOCTL, the mount manager client must provide a counted byte string identifier that is unique to the client (that is, the device or the volume). The client cannot change this unique ID without alerting the mount manager (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560443">IOCTL_MOUNTDEV_UNIQUE_ID_CHANGE_NOTIFY</a>). 
-
 
 ## -ioctlparameters
 

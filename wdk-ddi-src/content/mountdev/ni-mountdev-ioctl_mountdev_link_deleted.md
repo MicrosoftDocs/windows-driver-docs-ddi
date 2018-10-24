@@ -43,71 +43,40 @@ req.typenames:
 
 # IOCTL_MOUNTDEV_LINK_DELETED IOCTL
 
-
 ## -description
-
 
 Support for this IOCTL by the mount manager clients is optional. It alerts the mount manager client that a persistent name associated with it has been deleted. The input for this IOCTL is the persistent name that was deleted. 
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
-The mount point manager places a variable-length structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562256">MOUNTDEV_NAME</a>, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The mount manager inserts the persistent name just assigned at the address pointed to by the <i>Name</i> member of this structure. 
-
+The mount point manager places a variable-length structure of type [MOUNTDEV_NAME](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mountmgr/ns-mountmgr-_mountdev_name), defined in *Mountmgr.h*, at the beginning of the buffer at **Irp-\>AssociatedIrp.SystemBuffer**. The mount manager inserts the persistent name just assigned at the address pointed to by the *Name* member of this structure. 
 
 ### -input-buffer-length
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the input buffer, which must be greater than or equal to <b>sizeof</b>(MOUNTDEV_NAME).
-
+**Parameters.DeviceIoControl.InputBufferLength** in the I/O stack location of the IRP indicates the size, in bytes, of the input buffer, which must be greater than or equal to **sizeof**(MOUNTDEV_NAME).
 
 ### -output-buffer
 
 None
 
-
 ### -output-buffer-length
 
 None
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
 
 ## -remarks
 
 The implementer of this function must not thread synchronize and must not make blocking and/or Interprocess Communication (IPC) function calls. 
 
-
-
-
-
-
 ### -status-block
 
 No status.
 
-
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562256">MOUNTDEV_NAME</a>
- 
-
- 
-
+[MOUNTDEV_NAME](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mountmgr/ns-mountmgr-_mountdev_name)
