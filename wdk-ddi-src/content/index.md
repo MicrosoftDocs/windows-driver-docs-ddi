@@ -8,6 +8,7 @@ ms.date: 12/12/2017
 ms.topic: landing-page
 ms.prod: windows-hardware
 ms.technology: windows-devices
+layout: LandingPage
 product:
 -	Windows
 ---
