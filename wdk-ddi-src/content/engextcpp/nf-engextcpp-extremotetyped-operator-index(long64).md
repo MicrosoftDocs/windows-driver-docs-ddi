@@ -41,7 +41,7 @@ targetos: Windows
 req.typenames: 
 ---
 
-# ExtRemoteTyped::operator[](LONG64)
+# ExtRemoteTyped::operator\[\](LONG64)
 
 
 ## -description
