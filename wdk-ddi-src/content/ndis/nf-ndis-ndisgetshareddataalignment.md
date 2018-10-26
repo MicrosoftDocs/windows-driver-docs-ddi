@@ -6,11 +6,8 @@ description: NdisGetSharedDataAlignment returns the preferred alignment for memo
 old-location: netvista\ndisgetshareddataalignment.htm
 tech.root: netvista
 ms.assetid: 561315b4-8866-4f48-8138-12b1a38f743e
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisGetSharedDataAlignment, NdisGetSharedDataAlignment function [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_1572f536-6b6a-4ea9-9150-78399870538c.xml, ndis/NdisGetSharedDataAlignment, netvista.ndisgetshareddataalignment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

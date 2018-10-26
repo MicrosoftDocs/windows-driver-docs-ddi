@@ -6,11 +6,8 @@ description: The DXGKMDT_OPM_OMAC structure contains a One-key Cipher Block Chai
 old-location: display\dxgkmdt_opm_omac.htm
 tech.root: display
 ms.assetid: caa64a32-3772-45b5-898a-78dc51b7f24b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*PDXGKMDT_OPM_OMAC, DXGKMDT_OPM_OMAC, DXGKMDT_OPM_OMAC structure [Display Devices], DmStructs_8c3b7364-5055-4152-b7ed-4e2d1d910dd4.xml, PDXGKMDT_OPM_OMAC, PDXGKMDT_OPM_OMAC structure pointer [Display Devices], _DXGKMDT_OPM_OMAC, d3dkmdt/DXGKMDT_OPM_OMAC, d3dkmdt/PDXGKMDT_OPM_OMAC, display.dxgkmdt_opm_omac"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
@@ -67,7 +64,7 @@ A 16-byte array that comprises the OMAC.
 
 
 
-For more information about OMAC, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=70417">OMAC-1 algorithm</a>. 
+For more information about OMAC, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=70417">OMAC-1 algorithm</a>. 
 
 The OMAC-1 parameters that OPM and COPP use are:
 
@@ -89,7 +86,7 @@ The OMAC-1 parameters that OPM and COPP use are:
 
 </li>
 </ul>
-For information about AES, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=70411">RSA Laboratories</a> website. 
+For information about AES, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=70411">RSA Laboratories</a> website. 
 
 
 

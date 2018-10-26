@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Arguments to the DxgkDdiGetMultiPlaneOverlayCaps function.
 old-location: display\dxgkarg_getmultiplaneoverlaycaps.htm
 ms.assetid: 4792107C-BAAA-48B5-AC9A-829C05795303
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*IN_OUT_PDXGKARG_GETMULTIPLANEOVERLAYCAPS, DXGKARG_GETMULTIPLANEOVERLAYCAPS, DXGKARG_GETMULTIPLANEOVERLAYCAPS structure [Display Devices], _DXGKARG_GETMULTIPLANEOVERLAYCAPS, d3dkmddi/DXGKARG_GETMULTIPLANEOVERLAYCAPS, display.dxgkarg_getmultiplaneoverlaycaps"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmddi.h
 req.include-header: 
@@ -65,7 +62,7 @@ Arguments to the DxgkDdiGetMultiPlaneOverlayCaps function.
 
 ### -field MaxPlanes
 
- 
+[out] Indicates the total number of planes, including the DWM's primary, that can be supported simultaneously.
 
 
 ### -field MaxRGBPlanes
@@ -93,7 +90,5 @@ Arguments to the DxgkDdiGetMultiPlaneOverlayCaps function.
 [out] Indicates the maximum shrink factor that can be applied to a plane.
 
 
-#### - MaxPlane
 
-[out] Indicates the total number of planes, including the DWM's primary, that can be supported simultaneously.
 

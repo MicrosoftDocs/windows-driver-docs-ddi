@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The Dispatch function executes the compute shader.
 old-location: display\dispatch.htm
 ms.assetid: 6fbbf05a-efb0-4f24-8811-b87141cf2daa
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: Dispatch, Dispatch callback function [Display Devices], PFND3D11DDI_DISPATCH, PFND3D11DDI_DISPATCH callback, UserModeDisplayDriverDx11_Functions_1b4b62fc-3cc5-4506-9a61-30ee65f8ffcd.xml, d3d10umddi/Dispatch, display.dispatch
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,40 +57,27 @@ The <b>Dispatch</b> function executes the compute shader.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
-
-### -param Arg3
-
-
-### -param Arg4
-
-
-
-
-
-
-
-
-#### - ThreadGroupCountX [in]
+*ThreadGroupCountX* [in]
 
  The size, in thread groups, of the x-dimension of the thread-group grid.  The maximum size is 65535. 
 
+### -param Arg3
 
-#### - ThreadGroupCountY [in]
+*ThreadGroupCountY* [in]
 
  The size, in thread groups, of the y-dimension of the thread-group grid.  The maximum size is 65535. 
 
+### -param Arg4
 
-#### - ThreadGroupCountZ [in]
+*ThreadGroupCountZ* [in]
 
  The size, in thread groups, of the z-dimension of the thread-group grid.  The maximum size is 65535. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
 
 
 ## -returns

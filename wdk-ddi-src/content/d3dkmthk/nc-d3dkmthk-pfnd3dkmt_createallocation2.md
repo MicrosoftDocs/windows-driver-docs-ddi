@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Reserved for system use. Do not use in your driver.
 old-location: display\d3dkmtcreateallocation2.htm
 ms.assetid: 416DE730-44A6-4BA3-BFC2-C11A179AD422
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTCreateAllocation2, D3DKMTCreateAllocation2 callback function [Display Devices], PFND3DKMT_CREATEALLOCATION2, PFND3DKMT_CREATEALLOCATION2 callback, d3dkmthk/D3DKMTCreateAllocation2, display.d3dkmtcreateallocation2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
@@ -67,5 +64,5 @@ Reserved for system use. Do not use in your driver.
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 

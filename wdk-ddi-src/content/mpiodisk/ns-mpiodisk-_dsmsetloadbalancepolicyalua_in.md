@@ -6,11 +6,8 @@ description: The DsmSetLoadBalancePolicyALUA_IN structure provides the input par
 old-location: storage\dsmsetloadbalancepolicyalua_in.htm
 tech.root: storage
 ms.assetid: d46cfba0-a749-436a-99ad-d3606aea9a4d
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PDsmSetLoadBalancePolicyALUA_IN, DsmSetLoadBalancePolicyALUA_IN, DsmSetLoadBalancePolicyALUA_IN structure [Storage Devices], PDsmSetLoadBalancePolicyALUA_IN, PDsmSetLoadBalancePolicyALUA_IN structure pointer [Storage Devices], _DsmSetLoadBalancePolicyALUA_IN, mpiodisk/DsmSetLoadBalancePolicyALUA_IN, mpiodisk/PDsmSetLoadBalancePolicyALUA_IN, storage.dsmsetloadbalancepolicyalua_in, structs-scsibus_898bd48b-e522-4a78-ac0a-a7ae10d0c1d0.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mpiodisk.h
 req.include-header: Mpiowmi.h

@@ -4,11 +4,8 @@ title: CVEC3D::~CVEC3D
 author: windows-driver-content
 description: Destructor for the vector 3d class used in sensor drivers.
 ms.assetid: 9d625a2d-0c7c-4bb1-91f7-7504fd871b7f
-ms.author: windowsdriverdev
-ms.date: 08/01/18
+ms.date: 08/01/2018
 ms.topic: method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 tech.root: sensors
 ms.keywords: CVEC3D::~CVEC3D, ~CVEC3D, CVEC3D.~CVEC3D, CVEC3D::~CVEC3D, CVEC3D.~CVEC3D
 req.header: math3dhelper.h

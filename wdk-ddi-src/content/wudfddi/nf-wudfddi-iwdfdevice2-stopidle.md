@@ -6,11 +6,8 @@ description: The StopIdle method informs the framework that the device must be p
 old-location: wdf\iwdfdevice2_stopidle.htm
 tech.root: wdf
 ms.assetid: 1a4907c9-8e3b-4fb6-a7d4-89985e470e48
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFDevice2 interface,StopIdle method, IWDFDevice2.StopIdle, IWDFDevice2::StopIdle, StopIdle, StopIdle method, StopIdle method,IWDFDevice2 interface, UMDFDeviceObjectRef_8b32ad46-c35a-4b3a-8779-fa183d9cbb72.xml, umdf.iwdfdevice2_stopidle, wdf.iwdfdevice2_stopidle, wudfddi/IWDFDevice2::StopIdle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>StopIdle</b> method informs the framework that the device must be placed in its working (D0) power state.
 
@@ -83,7 +80,7 @@ A Boolean value that indicates when <b>StopIdle</b> will return. If <b>TRUE</b>,
 </dl>
 </td>
 <td width="60%">
-The calling driver is not the device's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/power-policy-ownership-in-umdf">power policy owner</a>.
+The calling driver is not the device's <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/power-policy-ownership-in-umdf">power policy owner</a>.
 
 </td>
 </tr>
@@ -137,7 +134,7 @@ A call to <b>StopIdle</b> can restore an idle device to its working state only i
 
 Every call to <b>StopIdle</b> must eventually be followed by a call to <a href="https://msdn.microsoft.com/e821f738-3712-49c2-9026-ff6ddc0381a6">ResumeIdle</a>, or else the device will never return to a low-power state if it again becomes idle. Calls to <b>StopIdle</b> can be nested, so the number of calls to <b>ResumeIdle</b> must be equal to the number of calls to <b>StopIdle</b>.
 
-For more information about <b>StopIdle</b> and <a href="https://msdn.microsoft.com/e821f738-3712-49c2-9026-ff6ddc0381a6">ResumeIdle</a>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-idle-power-down-in-umdf-drivers">Supporting Idle Power-Down in UMDF-based Drivers</a>.
+For more information about <b>StopIdle</b> and <a href="https://msdn.microsoft.com/e821f738-3712-49c2-9026-ff6ddc0381a6">ResumeIdle</a>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-idle-power-down-in-umdf-drivers">Supporting Idle Power-Down in UMDF-based Drivers</a>.
 
 
 #### Examples

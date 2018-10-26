@@ -6,11 +6,8 @@ description: The ZwAllocateVirtualMemory routine reserves, commits, or both, a r
 old-location: kernel\zwallocatevirtualmemory.htm
 tech.root: kernel
 ms.assetid: bb82c90d-9bd3-4a23-b171-06a3208e424b
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtAllocateVirtualMemory, ZwAllocateVirtualMemory, ZwAllocateVirtualMemory routine [Kernel-Mode Driver Architecture], k111_76257300-f41b-4dad-a81f-8ea1b187244a.xml, kernel.zwallocatevirtualmemory, ntifs/NtAllocateVirtualMemory, ntifs/ZwAllocateVirtualMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h
@@ -274,6 +271,25 @@ This flag is a page protection modifier, valid only when used with one of the pa
 
 <b>ZwAllocateVirtualMemory</b> returns either STATUS_SUCCESS or an error status code. Possible error status codes include the following:
 
+**STATUS_ACCESS_DENIED**
+
+**STATUS_ALREADY_COMMITTED** 
+
+**STATUS_COMMITMENT_LIMIT**
+
+**STATUS_CONFLICTING_ADDRESSES**
+
+**STATUS_INSUFFICIENT_RESOURCES**
+
+**STATUS_INVALID_HANDLE** 
+
+**STATUS_INVALID_PAGE_PROTECTION**
+
+**STATUS_NO_MEMORY**
+
+**STATUS_OBJECT_TYPE_MISMATCH**
+
+**STATUS_PROCESS_IS_TERMINATING**
 
 
 

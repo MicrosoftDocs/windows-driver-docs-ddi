@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Contains I/O functions and the function pointers used by the serial drivers to access the device hardware.
 tech.root: serports
 ms.assetid: c666e70b-c456-4fb8-baa7-487936801181
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _UART_HARDWARE_ACCESS, UART_HARDWARE_ACCESS, *PUART_HARDWARE_ACCESS,
 req.header: uart.h
 req.include-header:

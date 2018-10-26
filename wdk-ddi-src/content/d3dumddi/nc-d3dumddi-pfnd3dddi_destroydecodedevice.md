@@ -6,11 +6,8 @@ description: The DestroyDecodeDevice function releases resources for a Microsoft
 old-location: display\destroydecodedevice.htm
 tech.root: display
 ms.assetid: 3685e58b-8d67-4b01-a8a0-8a794d653637
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DestroyDecodeDevice, DestroyDecodeDevice callback function [Display Devices], PFND3DDDI_DESTROYDECODEDEVICE, PFND3DDDI_DESTROYDECODEDEVICE callback, UserModeDisplayDriver_Functions_1a057944-edfe-4010-8726-9ac1deef11e6.xml, d3dumddi/DestroyDecodeDevice, display.destroydecodedevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,21 +57,14 @@ The <b>DestroyDecodeDevice</b> function releases resources for a Microsoft Direc
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param Arg1
 
+*hDecodeDevice* [in]
 
-
-
-
-
-
-
-#### - hDecodeDevice [in]
-
- A handle to the DirectX VA decode device that was created by the <a href="https://msdn.microsoft.com/4d9a062a-2fdf-4e55-a335-c03c5d5665ff">CreateDecodeDevice</a> function.
+A handle to the DirectX VA decode device that was created by the <a href="https://msdn.microsoft.com/4d9a062a-2fdf-4e55-a335-c03c5d5665ff">CreateDecodeDevice</a> function.
 
 
 ## -returns

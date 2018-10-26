@@ -6,11 +6,8 @@ description: Deletes the named property for the specified print job on the speci
 old-location: print\deletejobnamedproperty.htm
 tech.root: print
 ms.assetid: 14F8C0A2-0D19-446E-8C2B-530A3AEDA879
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: DeleteJobNamedProperty, DeleteJobNamedProperty function [Print Devices], print.deletejobnamedproperty, winspool/DeleteJobNamedProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winspool.h
 req.include-header: Winspool.h

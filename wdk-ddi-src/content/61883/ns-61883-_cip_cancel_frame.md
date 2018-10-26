@@ -6,11 +6,8 @@ description: The request cancels an attached frame buffer. A frame can be cancel
 old-location: ieee\cip_cancel_frame.htm
 tech.root: IEEE
 ms.assetid: 952625D0-BA82-40C1-8EBF-8CD54C0E4C40
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PCIP_CANCEL_FRAME, 61883/CIP_CANCEL_FRAME, 61883/PCIP_CANCEL_FRAME, CIP_CANCEL_FRAME, CIP_CANCEL_FRAME structure [Buses], IEEE.cip_cancel_frame, PCIP_CANCEL_FRAME, PCIP_CANCEL_FRAME structure pointer [Buses], _CIP_CANCEL_FRAME"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 61883.h
 req.include-header: 

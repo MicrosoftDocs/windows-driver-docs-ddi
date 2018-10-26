@@ -6,11 +6,8 @@ description: The IFixedDocument interface represents a fixed document for an XPS
 old-location: print\ifixeddocument.htm
 tech.root: print
 ms.assetid: 3f9f64a1-8681-4b70-8cdc-7c944912f767
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IFixedDocument, IFixedDocument interface [Print Devices], IFixedDocument interface [Print Devices],described, filterpipeline/IFixedDocument, filterpipeline_f295da8e-1444-40c4-8ecf-e3aadc1d324f.xml, print.ifixeddocument
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h

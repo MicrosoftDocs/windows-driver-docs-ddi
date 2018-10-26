@@ -6,11 +6,8 @@ description: The D3DDDICB_SUBMITCOMMAND structure is used to submit command buff
 old-location: display\d3dddicb_submitcommand.htm
 tech.root: display
 ms.assetid: 53D4890A-D075-4DF7-97E6-A8E8A174866B
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDICB_SUBMITCOMMAND, D3DDDICB_SUBMITCOMMAND structure [Display Devices], _D3DDDICB_SUBMITCOMMAND, d3dumddi/D3DDDICB_SUBMITCOMMAND, display.d3dddicb_submitcommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

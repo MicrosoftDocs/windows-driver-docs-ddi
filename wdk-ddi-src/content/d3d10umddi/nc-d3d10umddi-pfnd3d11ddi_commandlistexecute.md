@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The CommandListExecute function runs a command list.
 old-location: display\commandlistexecute.htm
 ms.assetid: 49f44f29-52f6-40d9-8617-a24aa3d30736
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CommandListExecute, CommandListExecute callback function [Display Devices], PFND3D11DDI_COMMANDLISTEXECUTE, PFND3D11DDI_COMMANDLISTEXECUTE callback, UserModeDisplayDriverDx11_Functions_14a50e02-5483-4d83-83d7-79064981f4c8.xml, d3d10umddi/CommandListExecute, display.commandlistexecute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,24 +57,16 @@ The <b>CommandListExecute</b> function runs a command list.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hCommandList* [in]
 
+A handle to the driver's private data for the command list to run. 
 
-
-
-
-
-
-#### - hCommandList [in]
-
- A handle to the driver's private data for the command list to run. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
 
 
 ## -returns

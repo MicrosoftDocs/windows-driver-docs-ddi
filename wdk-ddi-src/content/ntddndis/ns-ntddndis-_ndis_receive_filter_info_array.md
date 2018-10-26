@@ -6,11 +6,8 @@ description: The NDIS_RECEIVE_FILTER_INFO_ARRAY structure specifies a list of re
 old-location: netvista\ndis_receive_filter_info_array.htm
 tech.root: netvista
 ms.assetid: 32896b46-1143-4598-ad15-2eb4dbdea6e8
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_RECEIVE_FILTER_INFO_ARRAY, NDIS_RECEIVE_FILTER_INFO_ARRAY, NDIS_RECEIVE_FILTER_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_FILTER_INFO_ARRAY, PNDIS_RECEIVE_FILTER_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_FILTER_INFO_ARRAY, netvista.ndis_receive_filter_info_array, ntddndis/NDIS_RECEIVE_FILTER_INFO_ARRAY, ntddndis/PNDIS_RECEIVE_FILTER_INFO_ARRAY, virtual_machine_queue_ref_f87d474d-4909-48ed-8891-7213bd4dcbc1.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ndis.h
@@ -178,7 +175,7 @@ A NIC switch is supported by network adapters for the SR-IOV interface. The NIC 
 
 
 The <b>NDIS_RECEIVE_FILTER_INFO_ARRAY</b> structure is used in the 
-    OID request of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-filters">
+    OID request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-enum-filters">
     OID_RECEIVE_FILTER_ENUM_FILTERS</a>. This OID request enumerates the receive filters on a VMQ  or SR-IOV receive queue. Each
     element in the array that follows the <b>NDIS_RECEIVE_FILTER_INFO_ARRAY</b> structure is an 
     <a href="https://msdn.microsoft.com/12029cfd-58d0-4621-8cbc-c07e68db61b8">
@@ -204,7 +201,7 @@ The <b>NDIS_RECEIVE_FILTER_INFO_ARRAY</b> structure is used in the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-filters">OID_RECEIVE_FILTER_ENUM_FILTERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-enum-filters">OID_RECEIVE_FILTER_ENUM_FILTERS</a>
  
 
  

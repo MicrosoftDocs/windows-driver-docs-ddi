@@ -6,11 +6,8 @@ description: The KeQueryTotalCycleTimeThread routine returns the accumulated cyc
 old-location: kernel\kequerytotalcycletimethread_.htm
 tech.root: kernel
 ms.assetid: EC3A5F02-3D04-466E-8EB4-4BDA9CE47886
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeQueryTotalCycleTimeThread, KeQueryTotalCycleTimeThread , KeQueryTotalCycleTimeThread routine [Kernel-Mode Driver Architecture], kernel.kequerytotalcycletimethread_, wdm/KeQueryTotalCycleTimeThread
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: 

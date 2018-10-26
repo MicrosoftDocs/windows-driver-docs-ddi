@@ -4,11 +4,8 @@ title: _INPUT_MAPPING_ELEMENT
 author: windows-driver-content
 description: Contains the input mapping IDs for a device.
 ms.assetid: a1bbdb5d-d058-408a-8700-ac2e25a54144
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _INPUT_MAPPING_ELEMENT, INPUT_MAPPING_ELEMENT, *PINPUT_MAPPING_ELEMENT, 
 req.header: wdm.h
 req.include-header:

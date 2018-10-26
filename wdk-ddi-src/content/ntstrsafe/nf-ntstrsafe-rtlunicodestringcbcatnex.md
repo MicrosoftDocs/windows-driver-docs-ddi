@@ -6,11 +6,8 @@ description: The RtlUnicodeStringCbCatNEx function concatenates two strings that
 old-location: kernel\rtlunicodestringcbcatnex.htm
 tech.root: kernel
 ms.assetid: 5c8b0428-98ce-452d-bdfa-212965962250
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUnicodeStringCbCatNEx, RtlUnicodeStringCbCatNEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcatnex, ntstrsafe/RtlUnicodeStringCbCatNEx, safestrings_63518e2a-e301-4b39-ae83-39d72cbe75b6.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h

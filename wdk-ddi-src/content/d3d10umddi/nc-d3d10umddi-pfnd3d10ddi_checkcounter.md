@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The CheckCounter function retrieves information that describes a counter.
 old-location: display\checkcounter.htm
 ms.assetid: 592a5146-a2fe-41d1-854b-df27a97bd513
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CheckCounter, CheckCounter callback function [Display Devices], PFND3D10DDI_CHECKCOUNTER, PFND3D10DDI_CHECKCOUNTER callback, UserModeDisplayDriverDx10_Functions_450a0976-fc56-4a5a-8a01-9c9d1041b628.xml, d3d10umddi/CheckCounter, display.checkcounter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -55,20 +52,42 @@ The <b>CheckCounter</b> function retrieves information that describes a counter.
 
 ## -parameters
 
-
-
-
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*Query* [in]
+
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541850">D3D10DDI_QUERY</a>-typed value that identifies the counter identifier that information is retrieved for.
 
 ### -param *
 
+*pCounterType* [out]
+
+A pointer to a variable that receives one of the following values from the D3D10DDI_COUNTER_TYPE enumeration that identifies the data type that the counter outputs. 
+
+|Value|Meaning|
+|--|--|
+|D3D10DDI_COUNTER_TYPE_FLOAT32|Single-precision float|
+|D3D10DDI_COUNTER_TYPE_UINT16|16-bit value|
+|D3D10DDI_COUNTER_TYPE_UINT32|32-bit value|
+|D3D10DDI_COUNTER_TYPE_UINT64|64-bit value|
+
+### -param *
+
+*pDescription* [out]
+
+A pointer that the driver returns a NULL-terminated string to that contains the description of what the counter identifier measures.
 
 ### -param Arg3
 
+*pActiveCounters* [out]
+
+A pointer to a variable that receives the number of simultaneously active counters that are allocated for the creation of the counter identifier that <i>Query</i> identifies.
 
 ### -param *pNameLength [in, out]
 
@@ -77,101 +96,25 @@ A pointer to a variable that receives the size, in bytes, of the NULL-terminated
 
 ### -param Arg4
 
+*pName* [out]
+
+A pointer that the driver returns a NULL-terminated string to that contains the name of the counter identifier.
 
 ### -param *pUnitsLength [in, out]
 
- A pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the <i>pUnits</i> parameter specifies. 
+A pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the <i>pUnits</i> parameter specifies. 
 
 
 ### -param Arg5
 
+*pUnits* [out]
+
+A pointer that the driver returns a NULL-terminated string to that contains the name of the units that the counter identifier measures. 
 
 ### -param *pDescriptionLength [in, out]
 
- A pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the <i>pDescription</i> parameter specifies. 
+A pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the <i>pDescription</i> parameter specifies. 
 
-
-#### - Query [in]
-
- A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541850">D3D10DDI_QUERY</a>-typed value that identifies the counter identifier that information is retrieved for.
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - pActiveCounters [out]
-
-A pointer to a variable that receives the number of simultaneously active counters that are allocated for the creation of the counter identifier that <i>Query</i> identifies. 
-
-
-#### - pCounterType [out]
-
-A pointer to a variable that receives one of the following values from the D3D10DDI_COUNTER_TYPE enumeration that identifies the data type that the counter outputs. 
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3D10DDI_COUNTER_TYPE_FLOAT32
-
-</td>
-<td>
-Single-precision float
-
-</td>
-</tr>
-<tr>
-<td>
-D3D10DDI_COUNTER_TYPE_UINT16
-
-</td>
-<td>
-16-bit value
-
-</td>
-</tr>
-<tr>
-<td>
-D3D10DDI_COUNTER_TYPE_UINT32
-
-</td>
-<td>
-32-bit value
-
-</td>
-</tr>
-<tr>
-<td>
-D3D10DDI_COUNTER_TYPE_UINT64
-
-</td>
-<td>
-64-bit value
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - pDescription [out]
-
-A pointer that the driver returns a NULL-terminated string to that contains the description of what the counter identifier measures. 
-
-
-#### - pName [out]
-
-A pointer that the driver returns a NULL-terminated string to that contains the name of the counter identifier. 
-
-
-#### - pUnits [out]
-
-A pointer that the driver returns a NULL-terminated string to that contains the name of the units that the counter identifier measures. 
 
 
 ## -returns

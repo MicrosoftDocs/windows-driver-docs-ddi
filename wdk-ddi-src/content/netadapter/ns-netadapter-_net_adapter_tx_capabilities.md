@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The NET_ADAPTER_TX_CAPABILITIES structure describes the transmit capabilities of a net adapter.
 tech.root: netvista
 ms.assetid: dd7810b6-12cc-46d3-9b74-2eabede35831
-ms.author: windowsdriverdev
 ms.date: 07/11/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _NET_ADAPTER_TX_CAPABILITIES, NET_ADAPTER_TX_CAPABILITIES, *PNET_ADAPTER_TX_CAPABILITIES, 
 req.header: netadapter.h
 req.include-header: netadaptercx.h

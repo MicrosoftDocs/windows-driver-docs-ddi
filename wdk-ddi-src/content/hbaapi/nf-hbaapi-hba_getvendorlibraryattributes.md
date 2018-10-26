@@ -6,11 +6,8 @@ description: The HBA_GetVendorLibraryAttributes routine retrieves the vendor-spe
 old-location: storage\hba_getvendorlibraryattributes.htm
 tech.root: storage
 ms.assetid: 43c55364-1f73-4413-99fb-27c85600d7a6
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_GetVendorLibraryAttributes, HBA_GetVendorLibraryAttributes routine [Storage Devices], fibreHBA_rtns_d690dcf4-4ef6-4aea-80dc-846649ed3142.xml, hbaapi/HBA_GetVendorLibraryAttributes, storage.hba_getvendorlibraryattributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hbaapi.h
 req.include-header: Hbaapi.h

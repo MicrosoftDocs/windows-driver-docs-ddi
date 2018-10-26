@@ -6,11 +6,8 @@ description: An interface implemented by ports to provide notification helpers t
 old-location: audio\iportclsnotifications.htm
 tech.root: audio
 ms.assetid: 03F65E4E-C942-4748-8D3E-938A6AC51B2A
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IPortClsNotifications, IPortClsNotifications interface [Audio Devices], IPortClsNotifications interface [Audio Devices],described, audio.iportclsnotifications, portcls/IPortClsNotifications
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: portcls.h
 req.include-header: 
@@ -54,7 +51,7 @@ An interface implemented by ports to provide
  notification helpers to miniports to support audio module communication.
 
 For more information about audio modules, 
- see <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>. 
+ see <a href="https://msdn.microsoft.com/windows/hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>. 
  
 
 The miniport audio driver will call into their port to create and send the notification.  

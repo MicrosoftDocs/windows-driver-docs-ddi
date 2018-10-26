@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The pfnCheckResourceAllocationInfo callback function supports checking resource allocation information.
 old-location: display\pfnd3d12ddi_checkresourceallocationinfo_0022.htm
 ms.assetid: 9B223440-7462-4DF1-990B-82115DE50D67
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0022, PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0022 callback, d3d12umddi/pfnCheckResourceAllocationInfo, display.pfnd3d12ddi_checkresourceallocationinfo_0022, pfnCheckResourceAllocationInfo, pfnCheckResourceAllocationInfo callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
@@ -60,19 +57,21 @@ The <i>pfnCheckResourceAllocationInfo</i> callback function supports checking re
 
 ### -param Arg1
 
+*hDevice*
+
 A handle to the display device (graphics context).
 
 ### -param *
 
+*CreateResource* [in]
 
-
-
-
-
-
+A pointer to a create resource.
 
 ### -param Arg2
 
+*ResourceOptimizationFlags*
+
+Resource optimization flags.
 
 ### -param AlignmentRestriction
 
@@ -83,23 +82,9 @@ An alignment restriction value.
 
 A visible node mask.
 
+### -param *
 
-#### - CreateResource [in]
-
-A pointer to a create resource.
-
-
-#### - ResourceOptimizationFlags
-
-Resource optimization flags.
-
-
-#### - hDevice
-
-A device handle.
-
-
-#### - pInfo [out]
+*pInfo* [out]
 
 Information for resource allocation.
 

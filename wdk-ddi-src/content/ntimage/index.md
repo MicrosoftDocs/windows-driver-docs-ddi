@@ -19,7 +19,6 @@ tech.root: kernel
 ## -description
 
 
-This is the include file that describes all image structures. For information about those structures, see the comments in the header.
+ This header file that describes all image structures. For more information, see IMAGE_* structures under [Winnt.h] (https://docs.microsoft.com/windows/desktop/api/winnt/)
 
 
-- [Windows kernel](../_kernel/index.md)

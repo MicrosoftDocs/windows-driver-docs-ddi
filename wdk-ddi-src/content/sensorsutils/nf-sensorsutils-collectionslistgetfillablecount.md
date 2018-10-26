@@ -4,11 +4,8 @@ title: CollectionsListGetFillableCount function
 author: windows-driver-content
 description: Returns the number of elements a SENSOR_COLLECTION_LIST buffer of a certain size can possibly hold.
 ms.assetid: 36d2a3c0-ee27-4620-a783-9d910907d2fa
-ms.author: windowsdriverdev
-ms.date: 08/08/18
+ms.date: 08/08/2018
 ms.topic: function
-ms.prod: windows-hardware
-ms.technology: windows-devices
 tech.root: sensors
 ms.keywords: CollectionsListGetFillableCount
 req.header: sensorsutils.h

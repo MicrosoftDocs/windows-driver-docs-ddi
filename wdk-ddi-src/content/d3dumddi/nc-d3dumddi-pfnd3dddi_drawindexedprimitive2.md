@@ -6,11 +6,8 @@ description: The DrawIndexedPrimitive2 function draws indexed primitives that th
 old-location: display\drawindexedprimitive2.htm
 tech.root: display
 ms.assetid: f12af70c-a6f2-42da-be62-1cfeb90b6239
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DrawIndexedPrimitive2, DrawIndexedPrimitive2 callback function [Display Devices], PFND3DDDI_DRAWINDEXEDPRIMITIVE2, PFND3DDDI_DRAWINDEXEDPRIMITIVE2 callback, UserModeDisplayDriver_Functions_55bb1ac5-49e3-428b-9737-ffe0577e6bba.xml, d3dumddi/DrawIndexedPrimitive2, display.drawindexedprimitive2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,41 +57,35 @@ The <b>DrawIndexedPrimitive2</b> function draws indexed primitives that the Micr
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
 
+*pData* [in]
 
-
-
-
-
-
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543054">D3DDDIARG_DRAWINDEXEDPRIMITIVE2</a> structure that describes the primitive to draw.
 
 ### -param Arg1
 
+*dwIndicesSize* [in]
 
-#### - dwIndicesSize [in]
+The size, in bytes, of indexes in the buffer that <i>pIndexBuffer</i> points to. This size is 2 or 4 bytes. 
 
- The size, in bytes, of indexes in the buffer that <i>pIndexBuffer</i> points to. This size is 2 or 4 bytes. 
+### -param *
 
+*pIndexBuffer* [in]
 
-#### - pData [in]
+A pointer to a buffer of index data to be drawn.
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543054">D3DDDIARG_DRAWINDEXEDPRIMITIVE2</a> structure that describes the primitive to draw.
+### -param *
 
+*pFlagBuffer* [in, optional]
 
-#### - pFlagBuffer [in, optional]
-
- A pointer to a 32-bit value that contains triangle-edge flags, which are used only during line-fill mode. The first three bits (0/1/2) of the 32-bit value specify how the three edges of the corresponding triangle are rendered. If a bit is set to 1, its associated triangle edge is rendered; otherwise, the edge is not rendered.
+A pointer to a 32-bit value that contains triangle-edge flags, which are used only during line-fill mode. The first three bits (0/1/2) of the 32-bit value specify how the three edges of the corresponding triangle are rendered. If a bit is set to 1, its associated triangle edge is rendered; otherwise, the edge is not rendered.
 
 If the pointer is <b>NULL</b>, the user-mode display driver should use its fast path to draw primitives. 
 
-
-#### - pIndexBuffer [in]
-
- A pointer to a buffer of index data to be drawn.
 
 
 ## -returns

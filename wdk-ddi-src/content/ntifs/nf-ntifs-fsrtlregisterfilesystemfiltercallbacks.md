@@ -6,11 +6,8 @@ description: File system filter drivers and file systems call the FsRtlRegisterF
 old-location: ifsk\fsrtlregisterfilesystemfiltercallbacks.htm
 tech.root: ifsk
 ms.assetid: cd6d2ab6-ce17-47db-b5d0-4f9543e15487
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlRegisterFileSystemFilterCallbacks, FsRtlRegisterFileSystemFilterCallbacks routine [Installable File System Drivers], fsrtlref_a831a0f3-f819-45e3-9121-ae50ef1b95bf.xml, ifsk.fsrtlregisterfilesystemfiltercallbacks, ntifs/FsRtlRegisterFileSystemFilterCallbacks
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h
@@ -71,7 +68,7 @@ This structure is defined as follows.
 
 <div class="alert"><b>Note</b>  All of the callback entry points are optional and can be <b>NULL</b>. </div>
 <div> </div>
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="C++"><table>
 <tr>
 <th></th>
 </tr>
@@ -100,7 +97,7 @@ This structure is defined as follows.
 </table></span></div>
 The filter callback routine and its parameters are defined as follows: 
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="C++"><table>
 <tr>
 <th></th>
 </tr>
@@ -144,7 +141,7 @@ Context information to be passed to the filter completion callback routine. Set 
 
 The filter completion callback routine and its parameters are defined as follows: 
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="C++"><table>
 <tr>
 <th></th>
 </tr>
@@ -199,7 +196,7 @@ Context information that was set in the filter callback routine. This is set to 
 
 The callback data structure and its members are defined as follows: 
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="C++"><table>
 <tr>
 <th></th>
 </tr>
@@ -294,27 +291,59 @@ Union containing any operation-specific parameters.
 </table>
  
 
-The filter parameter union is defined as follows: 
+The filter parameters union is defined as follows: 
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="C++"><table>
 <tr>
 <th></th>
 </tr>
 <tr>
 <td>
-<pre>typedef union _FS_FILTER_PARAMETERS {
+<pre>
+typedef union _FS_FILTER_PARAMETERS {
+    //
+    //  AcquireForModifiedPageWriter
+    //
+
     struct {
         PLARGE_INTEGER EndingOffset;
         PERESOURCE *ResourceToRelease;
     } AcquireForModifiedPageWriter;
+
+    //
+    //  ReleaseForModifiedPageWriter
+    //
+
     struct {
         PERESOURCE ResourceToRelease;
     } ReleaseForModifiedPageWriter;
+
+    //
+    //  AcquireForSectionSynchronization
+    //
+
     struct {
- FS_FILTER_SECTION_SYNC_TYPE SyncType;
- ULONG PageProtection;
- PFS_FILTER_SECTION_SYNC_OUTPUT  OutputInformation;
+        FS_FILTER_SECTION_SYNC_TYPE SyncType;
+        ULONG PageProtection;
+        PFS_FILTER_SECTION_SYNC_OUTPUT OutputInformation;
     } AcquireForSectionSynchronization;
+
+    //
+    // QueryOpen
+    //
+
+    struct {
+        PIRP Irp;
+        PVOID FileInformation;
+        PULONG Length;
+        FILE_INFORMATION_CLASS FileInformationClass;
+        NTSTATUS CompletionStatus;
+    } QueryOpen;
+
+    //
+    //  Other
+    //
+
     struct {
         PVOID Argument1;
         PVOID Argument2;
@@ -322,10 +351,12 @@ The filter parameter union is defined as follows:
         PVOID Argument4;
         PVOID Argument5;
     } Others;
-} FS_FILTER_PARAMETERS, *PFS_FILTER_PARAMETERS;</pre>
+} FS_FILTER_PARAMETERS, *PFS_FILTER_PARAMETERS;
+</pre>
 </td>
 </tr>
 </table></span></div>
+
 <table>
 <tr>
 <th>Parameter</th>
@@ -395,12 +426,100 @@ Type of page protection requested for the section. Must be zero if <i>SyncType</
 
 </td>
 <td>
-The extended output information for the section.
+A [FS_FILTER_SECTION_SYNC_OUTPUT](ns-ntifs-_fs_filter_section_sync_output.md) structure that contains the extended output information for the section.
 </ul>
 
 
 </td>
 </tr>
+
+<tr>
+<td>
+<i>Irp</i>
+</td>
+<td>
+A pointer to the IRP associated with this operation.
+</td>
+</tr>
+
+<tr>
+<td>
+<i>FileInformation</i>
+</td>
+<td>
+Pointer to a caller-allocated buffer into which the routine writes the requested information about the file object. The <i>FileInformationClass</i> member specifies the type of information that the caller requests.
+</td>
+</tr>
+
+<tr>
+<td>
+<i>Length</i>
+</td>
+<td>
+The size, in bytes, of the buffer pointed to by <i>FileInformation</i>.
+</td>
+</tr>
+
+<tr>
+<td>
+<i>FileInformationClass</i>
+</td>
+<td>
+Specifies the type of information to be returned about the file, in the buffer that <i>FileInformation</i> points to. Device and intermediate drivers can specify any of the following <a href="https://msdn.microsoft.com/library/windows/hardware/ff728840">FILE_INFORMATION_CLASS</a> values. Other values cause the call to fail and should not be passed to PreQueryOpen/PostQueryOpen calls.
+
+<table>
+<tr>
+<th>FILE_INFORMATION_CLASS value</th>
+<th>Type of information returned</th>
+</tr>
+
+<tr>
+<td>
+<b>FileStatInformation</b>
+</td>
+<td>
+A [FILE_STAT_INFORMATION](ns-ntifs-_file_stat_information.md) structure. This structure contains an access mask. For more information about access masks, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>.
+</td>
+</tr>
+<tr>
+
+<tr>
+<td>
+<b>FileStatLxInformation</b>
+</td>
+<td>
+A [FILE_STAT_LX_INFORMATION](ns-ntifs-_file_stat_lx_information.md) structure. This structure contains an access mask. For more information about access masks, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>.
+</td>
+</tr>
+<tr>
+
+<tr>
+<td>
+<b>FileCaseSensitiveInformation</b>
+</td>
+<td>
+A [FILE_CASE_SENSITIVE_INFORMATION](ns-ntifs-_file_stat_information.md) structure.
+</td>
+</tr>
+<tr>
+
+</table>
+</td>
+</tr>
+
+<tr>
+<td>
+<i>CompletionStatus</i>
+</td>
+<td>
+<p>An NTSTATUS value that receives the final completion status and information about the operation. </p>
+
+<p><b>CompletionStatus</b> can be set by the PostQueryOpen callback to fail the operation, since post callbacks have no return value. This is primarily used so the PostQueryOpen callback can return STATUS_FLT_DISALLOW_FSFILTER_IO to request fallback to the slow path. Doing so causes the I/O manager to service the request by performing an open/query/close of the file.</p>
+
+<p>Similarly, the PreQueryOpen callback can return STATUS_FLT_DISALLOW_FSFILTER_IO to request fallback to the slow path.</p>
+</td>
+</tr>
+
 <tr>
 
 <td>
@@ -453,12 +572,10 @@ Reserved for future use.
 </td>
 </tr>
 </table>
- 
 
+<div></div>
 
 ## -returns
-
-
 
 The <b>FsRtlRegisterFileSystemFilterCallbacks</b> routine can return one of the following status values: 
 
@@ -538,10 +655,8 @@ One of the parameters is invalid.
 </td>
 </tr>
 </table>
- 
 
-
-
+<div></div>
 
 ## -remarks
 
@@ -696,7 +811,7 @@ The modified page writer releases a file after writing a portion of the file to 
 
 <tr>
 <td>
-TBD
+A component queries for file information by name without opening the file. 
 
 </td>
 <td>

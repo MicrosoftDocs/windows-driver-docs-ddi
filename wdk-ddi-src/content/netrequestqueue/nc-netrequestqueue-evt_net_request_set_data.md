@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Implemented by the client driver to handle a specific OID set request.
 tech.root: netvista
 ms.assetid: 213e6c64-701e-42ce-9e0e-7c8849dcedd6
-ms.author: windowsdriverdev
 ms.date: 02/08/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: netrequestqueue.h
 req.include-header:
 req.target-type: Universal

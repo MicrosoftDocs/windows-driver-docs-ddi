@@ -4,11 +4,8 @@ title: IOMMU_UNMAP_LOGICAL_RANGE
 author: windows-driver-content
 description: Unmaps a linear range from a domain.
 ms.assetid: 48b802b6-980c-407b-91cc-02b67c80fdc5
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ Unmaps a linear range from a domain.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 IOMMU_UNMAP_LOGICAL_RANGE IommuUnmapLogicalRange; 
@@ -75,13 +72,13 @@ IOMMU_UNMAP_LOGICAL_RANGE *PIOMMU_UNMAP_LOGICAL_RANGE
 ### -param LogicalAddress
 [_In_] The logical address at which unmapping begins. The address must be page aligned.
 
-### -param NumberOfPages: 
+### -param NumberOfPages
 [_In_] The number of pages to unmap.
 
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

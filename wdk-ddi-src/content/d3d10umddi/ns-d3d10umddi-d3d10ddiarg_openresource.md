@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3D10DDIARG_OPENRESOURCE structure contains information for opening a shared resource.
 old-location: display\d3d10ddiarg_openresource.htm
 ms.assetid: acd1a957-9a1f-48a5-849b-e0cb9f8e05b6
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D10DDIARG_OPENRESOURCE, D3D10DDIARG_OPENRESOURCE structure [Display Devices], UMDisplayDriver_Dx10param_Structs_bb0f1769-190c-4500-8efa-9ed3eab771f7.xml, d3d10umddi/D3D10DDIARG_OPENRESOURCE, display.d3d10ddiarg_openresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

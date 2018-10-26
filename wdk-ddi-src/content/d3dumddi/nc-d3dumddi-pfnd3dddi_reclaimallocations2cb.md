@@ -6,11 +6,8 @@ description: pfnReclaimAllocations2Cb is called by the user mode driver to recla
 old-location: display\pfnreclaimallocations2cb.htm
 tech.root: display
 ms.assetid: 1D3439BA-AB3D-4D94-B4C8-91BE9B3349A1
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_RECLAIMALLOCATIONS2CB, d3dumddi/pfnReclaimAllocations2Cb, display.pfnreclaimallocations2cb, pfnReclaimAllocations2Cb, pfnReclaimAllocations2Cb callback, pfnReclaimAllocations2Cb callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,7 +57,7 @@ req.typenames:
 
 ### -param hDevice [in]
 
- A handle to the display device.
+A handle to the display device.
 
 
 ### -param *
@@ -72,9 +69,9 @@ req.typenames:
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906764">D3DDDICB_RECLAIMALLOCATIONS2</a> structure that defines the allocations to reclaim.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906764">D3DDDICB_RECLAIMALLOCATIONS2</a> structure that defines the allocations to reclaim.
 
 
 ## -returns

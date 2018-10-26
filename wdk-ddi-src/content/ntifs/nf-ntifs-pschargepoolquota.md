@@ -6,11 +6,8 @@ description: The PsChargePoolQuota routine charges pool quota of the specified p
 old-location: ifsk\pschargepoolquota.htm
 tech.root: ifsk
 ms.assetid: c405771c-726f-4003-b3c6-f063dd74187e
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: PsChargePoolQuota, PsChargePoolQuota routine [Installable File System Drivers], ifsk.pschargepoolquota, ntifs/PsChargePoolQuota, psref_690f1550-4753-4f39-bcf2-bdcf7b80112d.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

@@ -6,11 +6,8 @@ description: This callback function sets the data interval for a specified senso
 old-location: sensors\evtsensorsetdatainterval.htm
 tech.root: sensors
 ms.assetid: 56A1D005-C060-4C6E-8CA4-0BAC4FBADABE
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EVT_SENSOR_DRIVER_SET_DATA_INTERVAL, EVT_SENSOR_DRIVER_SET_DATA_INTERVAL callback, EvtSensorSetDataInterval, EvtSensorSetDataInterval callback function [Sensor Devices], sensors.evtsensorsetdatainterval, sensorscx/EvtSensorSetDataInterval
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sensorscx.h
 req.include-header: 
@@ -58,23 +55,15 @@ This callback function sets the data interval for a specified sensor.
 
 
 
-### -param Sensor [in]
+### -param Sensor
 
-A reference to a sensor object.
+[in] A reference to a sensor object.
 
 
 ### -param DataRateMs
 
+[in] The data interval to set for the <b>Sensor</b>.
 
-
-
-
-
-
-
-#### - pDataRateMs [in]
-
-The data interval to set for the <b>Sensor</b>.
 
 
 ## -returns

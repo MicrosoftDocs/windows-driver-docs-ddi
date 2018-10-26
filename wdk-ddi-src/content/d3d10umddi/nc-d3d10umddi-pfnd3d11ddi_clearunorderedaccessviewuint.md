@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The ClearUnorderedAccessViewUINT function clears the specified unordered-access view by setting it to a constant value.
 old-location: display\clearunorderedaccessviewuint.htm
 ms.assetid: 7cdc81a9-e468-4da8-bc32-9e9cea1fd60d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: ClearUnorderedAccessViewUINT, ClearUnorderedAccessViewUINT callback function [Display Devices], PFND3D11DDI_CLEARUNORDEREDACCESSVIEWUINT, PFND3D11DDI_CLEARUNORDEREDACCESSVIEWUINT callback, UserModeDisplayDriverDx11_Functions_c31370b0-9955-4ccb-b540-92b15fc27cc5.xml, d3d10umddi/ClearUnorderedAccessViewUINT, display.clearunorderedaccessviewuint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,32 +57,21 @@ The <b>ClearUnorderedAccessViewUINT</b> function clears the specified unordered-
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hUnorderedAccessView* [in]
+
+A handle to the unordered-access view to clear. 
 
 ### -param UINT[4]
 
+[in]
 
-
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hUnorderedAccessView [in]
-
- A handle to the unordered-access view to clear. 
-
-
-#### - pUints [in]
-
- A four-element array of unsigned integers that the driver uses to clear an unordered-access view. 
+A four-element array of unsigned integers that the driver uses to clear an unordered-access view. 
 
 
 ## -returns

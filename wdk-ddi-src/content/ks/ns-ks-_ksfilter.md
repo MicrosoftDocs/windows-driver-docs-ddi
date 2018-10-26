@@ -6,11 +6,8 @@ description: The KSFILTER structure describes an instantiated filter.
 old-location: stream\ksfilter.htm
 tech.root: stream
 ms.assetid: b9233f69-1ddf-4133-afd3-150aef5fc4a0
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSFILTER, KSFILTER, KSFILTER structure [Streaming Media Devices], PKSFILTER, PKSFILTER structure pointer [Streaming Media Devices], _KSFILTER, avstruct_6662a03a-c6de-4f5e-b86a-a3685dba320e.xml, ks/KSFILTER, ks/PKSFILTER, stream.ksfilter"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ks.h
 req.include-header: Ks.h

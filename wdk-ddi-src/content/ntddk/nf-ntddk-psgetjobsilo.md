@@ -6,11 +6,8 @@ description: This routine returns the first job in the hierarchy that is a Silo.
 old-location: kernel\psgetjobsilo.htm
 tech.root: kernel
 ms.assetid: 1032282B-7CA3-4162-8FC2-1A4A683E9DEF
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PsGetJobSilo, PsGetJobSilo routine [Kernel-Mode Driver Architecture], kernel.psgetjobsilo, ntddk/PsGetJobSilo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: 

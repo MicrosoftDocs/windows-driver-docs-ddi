@@ -6,11 +6,8 @@ description: The HidD_GetPreparsedData routine returns a top-level collection's�
 old-location: hid\hidd_getpreparseddata.htm
 tech.root: hid
 ms.assetid: e5c550f0-a466-4d0b-ac6f-bcdce600245f
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: HidD_GetPreparsedData, HidD_GetPreparsedData routine [Human Input Devices], hid.hidd_getpreparseddata, hidfunc_e728f2ff-69e2-46d0-8266-7ff011fb8bd5.xml, hidsdi/HidD_GetPreparsedData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hidsdi.h
 req.include-header: Hidsdi.h
@@ -65,7 +62,7 @@ Specifies an open handle to a top-level collection.
 
 ### -param PreparsedData [out]
 
-Pointer to the address of a routine-allocated buffer that contains a collection's preparsed data in a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a> structure.
+Pointer to the address of a routine-allocated buffer that contains a collection's preparsed data in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a> structure.
 
 
 ## -returns
@@ -103,7 +100,7 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
  
 
  

@@ -6,11 +6,8 @@ description: The AACS_MEDIA_ID structure contains an Advanced Access Content Sys
 old-location: storage\aacs_media_id.htm
 tech.root: storage
 ms.assetid: 56be82fc-c438-4cd1-8fcc-1184699f03e6
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PAACS_MEDIA_ID, AACS_MEDIA_ID, AACS_MEDIA_ID structure [Storage Devices], PAACS_MEDIA_ID, PAACS_MEDIA_ID structure pointer [Storage Devices], _AACS_MEDIA_ID, ntddcdvd/AACS_MEDIA_ID, ntddcdvd/PAACS_MEDIA_ID, storage.aacs_media_id, structs-DVD_413a14c6-75e0-444f-b325-8dfeb9c0c074.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h

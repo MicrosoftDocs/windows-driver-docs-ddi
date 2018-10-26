@@ -4,11 +4,8 @@ title: PFND3D12DDI_CHECKMULTISAMPLEQUALITYLEVELS
 author: windows-driver-content
 description: Implemented by the client driver to check multi-sample quality levels.
 ms.assetid: 50197de3-654f-47d1-9213-d10ac78c0299
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to check multi-sample quality levels.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_CHECKMULTISAMPLEQUALITYLEVELS Pfnd3d12ddiCheckmultisamplequalitylevels;

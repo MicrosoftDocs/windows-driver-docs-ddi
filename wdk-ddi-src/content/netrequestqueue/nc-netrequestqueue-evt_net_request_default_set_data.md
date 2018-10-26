@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Implemented by the client driver as the default handler for set object identifier (OID) requests.
 tech.root: netvista
 ms.assetid: 28db8bbf-199f-4724-a6a0-3a31a8e71313
-ms.author: windowsdriverdev
 ms.date: 02/08/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: netrequestqueue.h
 req.include-header:
 req.target-type: Universal

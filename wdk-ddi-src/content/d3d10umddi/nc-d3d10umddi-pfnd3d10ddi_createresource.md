@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Creates a resource.
 old-location: display\createresource_d3d10_.htm
 ms.assetid: c21839f0-8302-49f9-a2b4-4009fbd2d88c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateResource, CreateResource callback function [Display Devices], PFND3D10DDI_CREATERESOURCE, PFND3D10DDI_CREATERESOURCE callback, UserModeDisplayDriverDx10_Functions_8cad56f3-3374-45ac-8934-60802fea0764.xml, d3d10umddi/CreateResource, display.createresource_d3d10_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,40 +57,28 @@ Creates a resource.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param *
 
+*pCreateResource* [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541697">D3D10DDIARG_CREATERESOURCE</a> structure that describes the parameters that the user-mode display driver uses to create a resource. 
 
 ### -param Arg2
 
+*hResource* [in]
+
+A handle to the driver's private data for the resource. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/2c4eb002-4788-46ab-92b9-3bb2dcb44ee3">CalcPrivateResourceSize</a> function. The handle is actually just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its resource object.
 
 ### -param Arg3
 
+*hRTResource* [in]
 
+A handle to the resource that the driver should use anytime it calls back into the Direct3D runtime. 
 
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hRTResource [in]
-
- A handle to the resource that the driver should use anytime it calls back into the Direct3D runtime. 
-
-
-#### - hResource [in]
-
- A handle to the driver's private data for the resource. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/2c4eb002-4788-46ab-92b9-3bb2dcb44ee3">CalcPrivateResourceSize</a> function. The handle is actually just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its resource object. 
-
-
-#### - pCreateResource [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541697">D3D10DDIARG_CREATERESOURCE</a> structure that describes the parameters that the user-mode display driver uses to create a resource. 
 
 
 ## -returns

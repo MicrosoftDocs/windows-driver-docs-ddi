@@ -6,11 +6,8 @@ description: Adds a new REFPROPERTYKEY value (type VT_UNKNOWN) or overwrites an 
 old-location: wpddk\iportabledevicevalues_setkeyvalue.htm
 tech.root: wpd_dk
 ms.assetid: 4c8ccaa6-a99e-42b5-9044-fe11d17e9aa7
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IPortableDeviceValues interface,SetKeyValue method, IPortableDeviceValues.SetKeyValue, IPortableDeviceValues::SetKeyValue, IPortableDeviceValuesSetKeyValue, SetKeyValue, SetKeyValue method, SetKeyValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetKeyValue, wpddk.iportabledevicevalues_setkeyvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledevicetypes.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The NdisEqualMemory function compares a specified number of charact
 old-location: netvista\ndisequalmemory.htm
 tech.root: netvista
 ms.assetid: 5417b821-b51d-4789-8380-f93d113f42d3
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisEqualMemory, NdisEqualMemory macro [Network Drivers Starting with Windows Vista], ndis/NdisEqualMemory, ndis_memory_ref_67be2fe2-f491-4b7d-9524-a4e324630f74.xml, netvista.ndisequalmemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ndis.h
 req.include-header: Ndis.h

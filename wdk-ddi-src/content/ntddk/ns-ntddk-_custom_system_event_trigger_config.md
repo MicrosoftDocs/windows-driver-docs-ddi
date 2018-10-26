@@ -4,11 +4,8 @@ title: _CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG
 author: windows-driver-content
 description: Contains information about a custom system event trigger.
 ms.assetid: 08c4b025-930e-4348-9fc2-a41fcfa33c0d
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG, CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG, *PCUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG, 
 req.header: ntddk.h
 req.include-header:

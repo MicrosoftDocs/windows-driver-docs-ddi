@@ -4,11 +4,8 @@ title: _D3DKMT_ADAPTER_PERFDATACAPS
 author: windows-driver-content
 description: Represents data capabilities that are static and queried once per GPU during initialization.
 ms.assetid: 3b903827-ca27-425d-afdf-04e1d43436dc
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_ADAPTER_PERFDATACAPS, D3DKMT_ADAPTER_PERFDATACAPS,
 req.header: d3dkmthk.h
 req.include-header:
@@ -47,7 +44,7 @@ Represents data capabilities that are static and queried once per GPU during ini
 
 ### -field PhysicalAdapterIndex
 
-The physical adapter index in a LDA chain.
+The physical adapter index in the LDA (linked display adapter) chain.
 
 ### -field MaxMemoryBandwidth
 

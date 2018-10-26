@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The pfnResolveQueryData callback function transforms a previously stored query into an API defined format.
 old-location: display\pfnd3d12ddi_resolve_query_data.htm
 ms.assetid: 981053FF-9928-442F-B3B3-3B89AC61EEE4
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_RESOLVE_QUERY_DATA, PFND3D12DDI_RESOLVE_QUERY_DATA callback, d3d12umddi/pfnResolveQueryData, display.pfnd3d12ddi_resolve_query_data, pfnResolveQueryData, pfnResolveQueryData callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
@@ -60,15 +57,21 @@ The <i>pfnResolveQueryData</i> callback function transforms a previously stored 
 
 ### -param Arg1
 
+hCommandList
+
 A handle to the driver's data for the command list. The driver uses this region of memory to store internal data structures that are related to its command list.
 
 ### -param Arg2
 
-The handle of a command list.
+hQueryHeap
+
+The handle of a query heap.
 
 ### -param Arg3
 
-The handle of a query heap.
+QueryType
+
+A query type.
 
 ### -param StartElement
 
@@ -88,13 +91,6 @@ The handle of a destination buffer.
 ### -param DestinationOffset
 
 The destination offset.
-
-
-#### - QueryType
-
-A query type.
-
-
 
 
 ## -returns

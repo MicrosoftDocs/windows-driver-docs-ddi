@@ -2,10 +2,9 @@
 UID: NF:ntddstor.DEVICE_DSM_ROUND_UP
 title: DEVICE_DSM_ROUND_UP macro
 author: windows-driver-content
-description:
+description: The DEVICE_DSM_ROUND_UP macro is a DSM helper routine that rounds a byte quantity up to a given number of whole bytes.
 ms.assetid: 72c878ff-ba84-4805-8850-f96af298e249
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/20/2018
 ms.topic: macro
 ms.keywords: DEVICE_DSM_ROUND_UP
 req.header: ntddstor.h
@@ -44,15 +43,17 @@ targetos: Windows
 
 ## -description
 
-TBD
+The **DEVICE_DSM_ROUND_UP** macro is a DSM helper routine that rounds a byte quantity up to a given number of whole bytes.
 
 ## -parameters
 
 ### -param _a
-TBD
-### -param _b
-TBD
 
+The original number of bytes to round up.
+
+### -param _b
+
+The target whole number of bytes up to which to round _\_a_.
 
 ## -remarks
 

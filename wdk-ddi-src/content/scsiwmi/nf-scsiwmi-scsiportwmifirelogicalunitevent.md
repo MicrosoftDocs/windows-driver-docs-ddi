@@ -6,11 +6,8 @@ description: The ScsiPortWmiFireLogicalUnitEvent routine sends an event associat
 old-location: storage\scsiportwmifirelogicalunitevent.htm
 tech.root: storage
 ms.assetid: f8bfc6cb-78d4-482b-b08b-0d86631ce979
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ScsiPortWmiFireLogicalUnitEvent, ScsiPortWmiFireLogicalUnitEvent routine [Storage Devices], scsiprt_67f96e3c-cc69-44a7-b324-a247a9a928cc.xml, scsiwmi/ScsiPortWmiFireLogicalUnitEvent, storage.scsiportwmifirelogicalunitevent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: scsiwmi.h
 req.include-header: Miniport.h, Scsi.h
@@ -51,7 +48,7 @@ req.typenames:
 
 
 The <b>ScsiPortWmiFireLogicalUnitEvent</b> routine sends an event associated with a logical unit to the port driver for delivery to WMI data consumers that have requested notification of the event.
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 

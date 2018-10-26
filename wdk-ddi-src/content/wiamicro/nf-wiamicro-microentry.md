@@ -6,11 +6,8 @@ description: The MicroEntry function responds to commands sent by the WIA Flatbe
 old-location: image\microentry.htm
 tech.root: image
 ms.assetid: 3e0c51af-ceb9-4c06-ab6a-ccc468997fdd
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: MicroDrv_04aa15b3-5e4d-453d-b41a-a4de3c1228f7.xml, MicroEntry, MicroEntry function [Imaging Devices], image.microentry, wiamicro/MicroEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiamicro.h
 req.include-header: Wiamicro.h

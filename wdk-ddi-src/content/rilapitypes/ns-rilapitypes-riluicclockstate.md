@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\riluicclockstate_2.htm
 tech.root: netvista
 ms.assetid: 18b933e6-cff3-49de-94ec-731a168c9d23
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*LPRILUICCLOCKSTATE, RILUICCLOCKSTATE, RILUICCLOCKSTATE structure [Network Drivers Starting with Windows Vista], netvista.riluicclockstate_2, rilapitypes/RILUICCLOCKSTATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
 req.include-header:
@@ -57,7 +54,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```cpp
 typedef struct _RILUICCLOCKSTATE {
   DWORD        cbSize;
   DWORD        dwParams;
@@ -66,7 +63,7 @@ typedef struct _RILUICCLOCKSTATE {
   DWORD        dwVerifyAttemptsLeft;
   DWORD        dwUnblockAttemptsLeft;
 } RILUICCLOCKSTATE, RILUICCLOCKSTATE;
-````
+```
 
 
 ## -struct-fields

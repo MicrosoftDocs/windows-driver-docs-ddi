@@ -6,11 +6,8 @@ description: The NDIS_OFFLOAD structure specifies several computational tasks th
 old-location: netvista\ndis_offload.htm
 tech.root: netvista
 ms.assetid: 9d1447f1-aae8-4c27-a27b-e521c0c8ca97
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_OFFLOAD, IPSEC_OFFLOAD_V2_AND_TCP_CHECKSUM_COEXISTENCE, IPSEC_OFFLOAD_V2_AND_UDP_CHECKSUM_COEXISTENCE, NDIS_OFFLOAD, NDIS_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_OFFLOAD, PNDIS_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OFFLOAD, netvista.ndis_offload, ntddndis/NDIS_OFFLOAD, ntddndis/PNDIS_OFFLOAD, tcpip_offload_ref_e5f796e9-714c-43f9-98e4-1d0de0dcc8ee.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ndis.h
@@ -50,7 +47,7 @@ req.typenames: NDIS_OFFLOAD, *PNDIS_OFFLOAD
 ## -description
 
 
-The NDIS_OFFLOAD structure specifies several computational <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/task-offload">tasks that can be offloaded to the network adapter</a>.
+The NDIS_OFFLOAD structure specifies several computational <a href="https://docs.microsoft.com/windows-hardware/drivers/network/task-offload">tasks that can be offloaded to the network adapter</a>.
 
 
 ## -struct-fields
@@ -207,8 +204,8 @@ The <b>NDIS_OFFLOAD</b> structure is used in the following places:<ul>
 <li>The <b>DefaultOffloadConfiguration</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565930">NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a> structure</li>
 <li>The <b>DefaultOffloadConfiguration</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a> structure</li>
 <li>The <b>DefaultOffloadConfiguration</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565481">NDIS_FILTER_ATTACH_PARAMETERS</a> structure</li>
-<li>The <b>InformationBuffer</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure (which is used in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a> OID request)</li>
-<li>The <b>StatusBuffer</b> member of the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a> status indication</li>
+<li>The <b>InformationBuffer</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure (which is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a> OID request)</li>
+<li>The <b>StatusBuffer</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567424">NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a> status indication</li>
 </ul>
 
 
@@ -257,7 +254,7 @@ The <b>NDIS_OFFLOAD</b> structure is used in the following places:<ul>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567424">
    NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a>
 
 
@@ -276,7 +273,7 @@ The <b>NDIS_OFFLOAD</b> structure is used in the following places:<ul>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/jj991956">Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj991956">Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload</a>
 
 
 
@@ -284,15 +281,15 @@ The <b>NDIS_OFFLOAD</b> structure is used in the following places:<ul>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">OID_TCP_OFFLOAD_HARDWARE_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">OID_TCP_OFFLOAD_HARDWARE_CAPABILITIES</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/task-offload">TCP/IP Task Offload</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/task-offload">TCP/IP Task Offload</a>
  
 
  

@@ -1,0 +1,58 @@
+---
+UID: NS:sidebandaudio._SIDEBANDAUDIO_ENDPOINT_CAPABILITIES
+title: _SIDEBANDAUDIO_ENDPOINT_CAPABILITIES
+author: windows-driver-content
+description: 
+ms.assetid: cef181e9-6807-4b37-af4f-cda1fd7446e6
+ms.date: 09/06/2018
+ms.topic: struct
+ms.keywords: _SIDEBANDAUDIO_ENDPOINT_CAPABILITIES, SIDEBANDAUDIO_ENDPOINT_CAPABILITIES, 
+req.header: sidebandaudio.h
+req.include-header:
+req.target-type:
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.lib:
+req.dll:
+req.ddi-compliance:
+req.unicode-ansi:
+req.max-support:
+req.typenames: SIDEBANDAUDIO_ENDPOINT_CAPABILITIES
+topic_type: 
+-	apiref
+api_type: 
+-	HeaderDef
+api_location: 
+-	sidebandaudio.h
+api_name: 
+-	_SIDEBANDAUDIO_ENDPOINT_CAPABILITIES
+product: Windows
+targetos: Windows
+tech.root: audio
+---
+
+# _SIDEBANDAUDIO_ENDPOINT_CAPABILITIES structure
+
+## -description
+TBD
+
+## -struct-fields
+
+### -field Volume
+TBD
+ 
+### -field Mute
+TBD
+
+### -field Sidetone
+TBD
+
+### -field Feedback
+TBD 
+
+## -remarks
+
+## -see-also
+[sidebandaudio.h](index.md)

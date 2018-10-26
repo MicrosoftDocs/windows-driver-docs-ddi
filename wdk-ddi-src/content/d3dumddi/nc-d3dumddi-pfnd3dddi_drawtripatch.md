@@ -6,11 +6,8 @@ description: The DrawTriPatch function draws a new or cached triangular patch or
 old-location: display\drawtripatch.htm
 tech.root: display
 ms.assetid: 98e5f2c5-2795-4226-b5c0-9498b37c22df
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DrawTriPatch, DrawTriPatch callback function [Display Devices], PFND3DDDI_DRAWTRIPATCH, PFND3DDDI_DRAWTRIPATCH callback, UserModeDisplayDriver_Functions_a4fb7bb1-ec56-45a9-9cca-5be7bd9f4746.xml, d3dumddi/DrawTriPatch, display.drawtripatch
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,31 +57,29 @@ The <b>DrawTriPatch</b> function draws a new or cached triangular patch or updat
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
 
 
+*pData* [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543070">D3DDDIARG_DRAWTRIPATCH</a> structure that describes the triangular patch to draw.
 
 
+### -param *
+
+*pInfo* [in]
+
+Optional. A pointer to a D3DDDITRIPATCH_INFO structure that describes information about the triangular patch.
 
 
+### -param *
 
+*pPatch* [in]
 
-#### - pData [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543070">D3DDDIARG_DRAWTRIPATCH</a> structure that describes the triangular patch to draw.
-
-
-#### - pInfo [in]
-
- Optional. A pointer to a D3DDDITRIPATCH_INFO structure that describes information about the triangular patch.
-
-
-#### - pPatch [in]
-
- Optional. A pointer to a buffer that contains three floating-point values (D3DFLOAT[3]) that provide the segment counts for each of the three edges of the triangular patch.
+Optional. A pointer to a buffer that contains three floating-point values (D3DFLOAT[3]) that provide the segment counts for each of the three edges of the triangular patch.
 
 
 ## -returns

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMTReleaseKeyedMutex function releases a keyed mutex object.
 old-location: display\d3dkmtreleasekeyedmutex.htm
 ms.assetid: c2a50621-fa84-4525-86f7-845e886203fe
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTReleaseKeyedMutex, D3DKMTReleaseKeyedMutex function [Display Devices], OpenGL_Functions_16fd3037-2615-49c0-8500-7c93bcda3c9f.xml, d3dkmthk/D3DKMTReleaseKeyedMutex, display.d3dkmtreleasekeyedmutex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
@@ -68,7 +65,7 @@ The <b>D3DKMTReleaseKeyedMutex</b> function releases a keyed mutex object.
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548234">D3DKMT_RELEASEKEYEDMUTEX</a> structure that specifies the keyed mutex object to release. 
 

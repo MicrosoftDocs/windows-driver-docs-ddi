@@ -6,11 +6,8 @@ description: The VideoPortGetRegistryParameters function retrieves device-specif
 old-location: display\videoportgetregistryparameters.htm
 tech.root: display
 ms.assetid: beca2e83-df56-4ed0-8ea8-b0090e574cd3
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortGetRegistryParameters, VideoPortGetRegistryParameters function [Display Devices], VideoPort_Functions_f4e1230a-ae49-4751-8c60-e05043dbb049.xml, display.videoportgetregistryparameters, video/VideoPortGetRegistryParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: video.h
 req.include-header: Video.h
@@ -75,12 +72,14 @@ If the value is <b>TRUE</b>, the data value normally returned is treated as a fi
 
 ### -param GetRegistryRoutine
 
-<p>Pointer to the miniport driver's <a href="https://msdn.microsoft.com/library/Ff567361(v=VS.85).aspx"><i>HwVidQueryNamedValueCallback</i></a> function.</p>
+Pointer to the miniport driver's [HwVidQueryNamedValueCallback](nc-video-pminiport_get_registry_routine.md) function.
 
 
 ### -param Context
 
 Pointer to a caller-determined context parameter to be passed to the <i>CallbackRoutine</i>, typically the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570531">VIDEO_PORT_CONFIG_INFO</a> buffer.
+
+
 
 
 ## -returns

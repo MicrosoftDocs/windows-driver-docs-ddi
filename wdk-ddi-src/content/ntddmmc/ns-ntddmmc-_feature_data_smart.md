@@ -6,11 +6,8 @@ description: The FEATURE_DATA_SMART structure holds data for the S.M.A.R.T. feat
 old-location: storage\feature_data_smart.htm
 tech.root: storage
 ms.assetid: cf6578d1-e455-4bbe-a89f-bc0292e24a4a
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PFEATURE_DATA_SMART, FEATURE_DATA_SMART, FEATURE_DATA_SMART structure [Storage Devices], PFEATURE_DATA_SMART, PFEATURE_DATA_SMART structure pointer [Storage Devices], _FEATURE_DATA_SMART, ntddmmc/FEATURE_DATA_SMART, ntddmmc/PFEATURE_DATA_SMART, storage.feature_data_smart, structs-CD-ROM_3d912360-2734-4d01-b7ef-298d90be28b7.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h

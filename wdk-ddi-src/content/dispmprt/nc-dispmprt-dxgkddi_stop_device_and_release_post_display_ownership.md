@@ -6,11 +6,8 @@ description: Called by the operating system to request the display miniport driv
 old-location: display\dxgkddireleasepostdisplayownership.htm
 tech.root: display
 ms.assetid: 6AF170BF-C422-4340-8935-31A4D4F3EFA5
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_STOP_DEVICE_AND_RELEASE_POST_DISPLAY_OWNERSHIP, DXGKDDI_STOP_DEVICE_AND_RELEASE_POST_DISPLAY_OWNERSHIP callback, DxgkDdiStopDeviceAndReleasePostDisplayOwnership, DxgkDdiStopDeviceAndReleasePostDisplayOwnership callback function [Display Devices], display.dxgkddireleasepostdisplayownership, dispmprt/DxgkDdiStopDeviceAndReleasePostDisplayOwnership
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dispmprt.h
 req.include-header: 
@@ -148,7 +145,7 @@ After the display miniport driver performs these steps, it must return the curre
 <h3><a id="Other_requirements"></a><a id="other_requirements"></a><a id="OTHER_REQUIREMENTS"></a>Other requirements</h3>
 On systems that support the Unified Extensible Firmware Interface (UEFI), a VGA basic input/output system (BIOS) does not exist. To support PnP stop operations on these systems, Windows Display Driver Model (WDDM) 1.2 and later provides support for the operating system to reset the POST device and to get its display information during a PnP stop operation.  The operating system does this by calling the display miniport driver's <i>DxgkDdiStopDeviceAndReleasePostDisplayOwnership</i> function.
 
- A PnP stop operation can occur in response to requests by processes such as the Device Manager, or during a driver upgrade process.
+A PnP stop operation can occur in response to requests by processes such as the Device Manager, or during a driver upgrade process.
 
 Starting with Windows 8, the operating system calls the driver's <i>DxgkDdiStopDeviceAndReleasePostDisplayOwnership</i> function only on the POST device during a PnP stop operation.
 

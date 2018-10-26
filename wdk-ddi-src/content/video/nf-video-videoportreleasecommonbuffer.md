@@ -6,11 +6,8 @@ description: The VideoPortReleaseCommonBuffer function frees a common buffer tha
 old-location: display\videoportreleasecommonbuffer.htm
 tech.root: display
 ms.assetid: b3733de1-63ef-43b8-b669-dbe7e573b499
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortReleaseCommonBuffer, VideoPortReleaseCommonBuffer function [Display Devices], VideoPort_Functions_78edd589-bea5-43e3-8658-8c6c95a1f0f7.xml, display.videoportreleasecommonbuffer, video/VideoPortReleaseCommonBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: video.h
 req.include-header: Video.h, Ntdef.h

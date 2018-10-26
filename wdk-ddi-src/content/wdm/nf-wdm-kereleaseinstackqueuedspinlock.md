@@ -6,11 +6,8 @@ description: The KeReleaseInStackQueuedSpinLock routine releases a queued spin l
 old-location: kernel\kereleaseinstackqueuedspinlock.htm
 tech.root: kernel
 ms.assetid: 5c36df75-6a95-47bb-99d8-14d87c102be4
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeReleaseInStackQueuedSpinLock, KeReleaseInStackQueuedSpinLock routine [Kernel-Mode Driver Architecture], k105_1904b4b2-4f31-4061-895f-8564a1de04f6.xml, kernel.kereleaseinstackqueuedspinlock, wdm/KeReleaseInStackQueuedSpinLock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

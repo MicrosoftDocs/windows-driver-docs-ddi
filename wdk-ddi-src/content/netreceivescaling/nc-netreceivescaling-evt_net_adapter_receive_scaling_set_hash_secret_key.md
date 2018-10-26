@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The EvtNetAdapterReceiveScalingSetHashSecretKey callback function is implemented by the client driver to set the hash secret key for the network interface controller (NIC).
 tech.root: netvista
 ms.assetid: 9144fad7-c6d6-4d67-9ad7-45e9a0cf31f6
-ms.author: windowsdriverdev
 ms.date: 03/12/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: netreceivescaling.h
 req.include-header:
 req.target-type: Universal
@@ -52,7 +49,7 @@ The *EvtNetAdapterReceiveScalingSetHashSecretKey* callback function is implement
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_NET_ADAPTER_RECEIVE_SCALING_SET_HASH_SECRET_KEY EvtNetAdapterReceiveScalingSetHashSecretKey; 

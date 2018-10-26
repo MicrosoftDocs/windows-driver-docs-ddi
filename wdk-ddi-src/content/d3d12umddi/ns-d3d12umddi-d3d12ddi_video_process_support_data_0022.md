@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Specifies information used to retrieve capabilities for a video processor.
 old-location: display\d3d12ddi_video_process_support_data.htm
 ms.assetid: B42D3637-BBFF-411B-AA1B-4B9578E2EDA9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022, D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022, display.d3d12ddi_video_process_support_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
@@ -100,7 +97,7 @@ The frame rate of the output.
 
 ### -field SupportFlags
 
-Indicates whether the conversion from input format and colorspace to output format and color space is supported.  For more information, see the <a href="https://msdn.microsoft.com/2E6E1F22-C6E8-4290-A342-B01387633D43">D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS</a> enumeration. 
+Indicates whether the conversion from input format and color space to output format and color space is supported.  For more information, see the <a href="https://msdn.microsoft.com/2E6E1F22-C6E8-4290-A342-B01387633D43">D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS</a> enumeration. 
 
 
 ### -field ScaleSupport

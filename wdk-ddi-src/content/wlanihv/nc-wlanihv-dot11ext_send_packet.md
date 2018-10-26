@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extsendpacket.htm
 tech.root: netvista
 ms.assetid: 0672eed0-4824-464b-9f4e-93862f27d586
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: DOT11EXT_SEND_PACKET, Dot11ExtSendPacket, Dot11ExtSendPacket callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_0acd1763-b9d3-4e75-ada6-63f5a77b42c3.xml, netvista.dot11extsendpacket, wlanihv/Dot11ExtSendPacket
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
@@ -59,14 +56,14 @@ req.product: Windows 10 or later.
 ## -prototype
 
 
-````
+```cpp
 DWORD WINAPI * Dot11ExtSendPacket(
   _In_opt_ HANDLE hDot11SvcHandle,
   _In_     ULONG  uPacketLen,
   _In_     LPVOID pvPacket,
   _In_opt_ HANDLE hSendCompletion
 );
-````
+```
 
 
 ## -parameters
@@ -145,7 +142,7 @@ The IHV Extensions DLL must set the
 </li>
 </ul>
 For more information about the IHV Handler functions, see
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
     Functions</a>.
 
 The buffer pointed to by
@@ -154,7 +151,7 @@ The buffer pointed to by
 <ul>
 <li>
 MAC address of destination (6 bytes), formatted according to the guidelines discussed in
-      <a href="https://technet.microsoft.com/en-us/library/cc757419">802.11 MAC Header
+      <a href="https://technet.microsoft.com/library/cc757419">802.11 MAC Header
       Management</a>
 
 
@@ -175,7 +172,7 @@ This packet data is passed to the miniport driver.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
    Functions</a>
 
 
@@ -189,7 +186,7 @@ This packet data is passed to the miniport driver.
 
 
 
-<a href="https://technet.microsoft.com/en-us/library/cc757419">802.11 MAC Header Management</a>
+<a href="https://technet.microsoft.com/library/cc757419">802.11 MAC Header Management</a>
 
 
 

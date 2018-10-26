@@ -6,11 +6,8 @@ description: An AVStream minidriver's AVStrMiniFilterProcess routine is called w
 old-location: stream\avstrminifilterprocess.htm
 tech.root: stream
 ms.assetid: f1998d68-1c9e-4527-a174-b22a8c301e63
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: AVStrMiniFilterProcess, AVStrMiniFilterProcess routine [Streaming Media Devices], PFNKSFILTERPROCESS, avstclbk_220bff5f-a966-460b-9157-b512cfc9c336.xml, ks/AVStrMiniFilterProcess, stream.avstrminifilterprocess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ks.h
 req.include-header: Ks.h

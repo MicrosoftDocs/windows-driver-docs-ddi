@@ -6,11 +6,8 @@ description: The WdfDeviceResumeIdle method informs the framework that the speci
 old-location: wdf\wdfdeviceresumeidle.htm
 tech.root: wdf
 ms.assetid: d63848e8-0e6a-4ad7-a147-8804869b9c9b
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_6078e8e8-7d4e-4714-a1b4-74fc973a678c.xml, WdfDeviceResumeIdle, WdfDeviceResumeIdle method, kmdf.wdfdeviceresumeidle, wdf.wdfdeviceresumeidle, wdfdevice/WdfDeviceResumeIdle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: wdfdevice.h
 req.include-header: Wdf.h

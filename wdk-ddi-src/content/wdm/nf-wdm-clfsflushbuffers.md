@@ -6,11 +6,8 @@ description: The ClfsFlushBuffers routine forces all log I/O blocks in a specifi
 old-location: kernel\clfsflushbuffers.htm
 tech.root: kernel
 ms.assetid: 70e93c8f-a23c-4399-9299-c2743d097ded
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ClfsFlushBuffers, ClfsFlushBuffers routine [Kernel-Mode Driver Architecture], Clfs_3c04240c-0914-472f-9b4b-97a00221e092.xml, kernel.clfsflushbuffers, wdm/ClfsFlushBuffers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h

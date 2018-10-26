@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Contains capability types for video.
 old-location: display\d3d12ddicaps_type_video_0020.htm
 ms.assetid: 3B95996D-EB7C-4DCF-B00C-BA5AFEFD4110
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: D3D12DDICAPS_TYPE_VIDEO_0020, D3D12DDICAPS_TYPE_VIDEO_0020 enumeration [Display Devices], D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_BITSTREAM_ENCRYPTION_SCHEMES, D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_CONVERSION_SUPPORT, D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_FORMATS, D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_PROFILES, D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_SUPPORT, D3D12DDICAPS_TYPE_VIDEO_0020_PROCESS_MAX_INPUT_STREAMS, D3D12DDICAPS_TYPE_VIDEO_0020_PROCESS_REFERENCE_INFO, D3D12DDICAPS_TYPE_VIDEO_0020_PROCESS_SUPPORT, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_BITSTREAM_ENCRYPTION_SCHEMES, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_CONVERSION_SUPPORT, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_FORMATS, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_PROFILES, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_SUPPORT, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020_PROCESS_MAX_INPUT_STREAMS, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020_PROCESS_REFERENCE_INFO, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020_PROCESS_SUPPORT, display.d3d12ddicaps_type_video_0020
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
@@ -65,17 +62,17 @@ Check if a decode profile, bitstream encryption, resolution, and format are supp
 
 ### -field D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_PROFILES
 
-Retrieve the list of decode profiles supported by the adapter. Use [ID3D12Device1::GetVideoDecoderProfileCount](https://msdn.microsoft.com/en-us/library/windows/desktop/hh447796(v=vs.85).aspx) to get the number of profiles before calling check feature support. The associated data structure is [D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020](ns-d3d12umddi-d3d12ddi_video_decode_profiles_data_0020.md).
+Retrieve the list of decode profiles supported by the adapter. Use [ID3D12Device1::GetVideoDecoderProfileCount](https://msdn.microsoft.com/library/windows/desktop/hh447796(v=vs.85).aspx) to get the number of profiles before calling check feature support. The associated data structure is [D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020](ns-d3d12umddi-d3d12ddi_video_decode_profiles_data_0020.md).
 
 
 ### -field D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_FORMATS
 
-Retrieve the list of supported decode formats for a [D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020](ns-d3d12umddi-d3d12ddi_video_decode_configuration_0020.md) structure. Use [ID3D12Device1::GetVideoDecoderProfileCount](https://msdn.microsoft.com/en-us/library/windows/desktop/hh447796(v=vs.85).aspx) to get the number of profiles before calling check feature support.
+Retrieve the list of supported decode formats for a [D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020](ns-d3d12umddi-d3d12ddi_video_decode_configuration_0020.md) structure. Use [ID3D12Device1::GetVideoDecoderProfileCount](https://msdn.microsoft.com/library/windows/desktop/hh447796(v=vs.85).aspx) to get the number of profiles before calling check feature support.
 
 
 ### -field D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_CONVERSION_SUPPORT
 
-Check whether a colorspace conversion, format conversion, and scale are supported. The associated data structure is [D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032](ns-d3d12umddi-d3d12ddi_video_decode_conversion_support_data_0032.md).
+Check whether a color space conversion, format conversion, and scale are supported. The associated data structure is [D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032](ns-d3d12umddi-d3d12ddi_video_decode_conversion_support_data_0032.md).
 
 
 ### -field D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_BITSTREAM_ENCRYPTION_SCHEMES
@@ -137,3 +134,15 @@ The video crypto session transform support. Maps to the [D3D12DDI_VIDEO_CRYPTO_S
 ### -field D3D12DDICAPS_TYPE_VIDEO_0040_DECODE_HISTOGRAM
 
 The video decode histogram data. Maps to the [D3D12DDI_VIDEO_DECODE_HISTOGRAM_DATA_0041](ns-d3d12umddi-d3d12ddi_video_decode_histogram_data_0041.md) structure.
+
+### -field D3D12DDICAPS_TYPE_VIDEO_0053_FEATURE_AREA_SUPPORT 
+
+The video feature area support.
+
+### -field D3D12DDICAPS_TYPE_VIDEO_0053_MOTION_ESTIMATOR 
+
+The video motion estimator caps check.
+
+### -field D3D12DDICAPS_TYPE_VIDEO_0053_MOTION_ESTIMATOR_SIZE 
+
+The video motion estimator size caps check.

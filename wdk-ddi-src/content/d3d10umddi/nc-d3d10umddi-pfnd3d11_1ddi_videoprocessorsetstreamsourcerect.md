@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Sets the source rectangle for an input stream on the video processor.
 old-location: display\videoprocessorsetstreamsourcerect.htm
 ms.assetid: 78d62117-260a-46ab-9daa-ee9dcfc7fc1f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT callback, d3d10umddi/pfnVideoProcessorSetStreamSourceRect, display.videoprocessorsetstreamsourcerect, pfnVideoProcessorSetStreamSourceRect, pfnVideoProcessorSetStreamSourceRect callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -62,26 +59,25 @@ Sets the source rectangle for an input stream on the video processor.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hVideoProcessor* [in]
+
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function.
 
 ### -param Arg3
 
+*StreamIndex* [in]
+
+The zero-based index of the input stream.
 
 ### -param Arg4
 
-
-### -param *
-
-
-
-
-
-
-
-
-#### - Enable [in]
+*Enable* [in]
 
 If <b>TRUE</b>, the specified source rectangle must be applied to the input stream.
 
@@ -90,28 +86,9 @@ If <b>TRUE</b>, the specified source rectangle must be applied to the input stre
 If <b>FALSE</b>, no source rectangle is applied to the input stream.
 
 
+### -param *
 
-
-#### - StreamIndex [in]
-
-The zero-based index of the input stream.
-
-
-#### - hDevice [in]
-
-A handle to the display device (graphics context).
-
-
-
-
-#### - hVideoProcessor [in]
-
-A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
-
-
-
-
-#### - pSourceRect [in]
+*pSourceRect* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies the source rectangle.
 

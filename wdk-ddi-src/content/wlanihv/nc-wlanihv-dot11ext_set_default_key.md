@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extsetdefaultkey.htm
 tech.root: netvista
 ms.assetid: 7c066a71-502a-4dc2-b117-32597c534cb6
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: DOT11EXT_SET_DEFAULT_KEY, Dot11ExtSetDefaultKey, Dot11ExtSetDefaultKey callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_c313f938-0a68-4470-b298-d9e6c0231268.xml, netvista.dot11extsetdefaultkey, wlanihv/Dot11ExtSetDefaultKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
@@ -63,13 +60,13 @@ The IHV Extensions DLL calls the
 ## -prototype
 
 
-````
+```cpp
 DWORD WINAPI * Dot11ExtSetDefaultKey(
   _In_opt_ HANDLE                          hDot11SvcHandle,
   _In_     PDOT11_CIPHER_DEFAULT_KEY_VALUE pKey,
   _In_     DOT11_DIRECTION                 dot11Direction
 );
-````
+```
 
 
 ## -parameters
@@ -123,7 +120,7 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 A call to the
     <b>Dot11ExtSetDefaultKey</b> function results in a set request of the
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">
     OID_DOT11_CIPHER_DEFAULT_KEY</a> object identifier to the WLAN adapter.
 
 A default cipher key is defined by setting the
@@ -159,7 +156,7 @@ A cipher key is deleted from the adapter's key tables if the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY</a>
 
 
 

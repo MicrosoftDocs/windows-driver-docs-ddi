@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Specifies input stream parameters for an input stream passed to the pfnProcessFrame callback function.
 old-location: display\d3d12ddiarg_video_process_input_stream_parameters.htm
 ms.assetid: 2488E73E-CF47-4852-8090-BC063DCC4EA4
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0020, D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0020 structure [Display Devices], d3d12umddi/D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0020, display.d3d12ddiarg_video_process_input_stream_parameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
@@ -95,7 +92,7 @@ Specifies whether the stream is stereo or not. If there is a value of <b>D3D12DD
 
 ### -field ColorSpace
 
-The colorspace for the video processor input and reference surfaces as a <a href="https://msdn.microsoft.com/E25C933F-0DB3-4BC4-9755-9361B2B9B9CB">DXGI_COLOR_SPACE_TYPE</a> value.
+The color space for the video processor input and reference surfaces as a <a href="https://msdn.microsoft.com/E25C933F-0DB3-4BC4-9755-9361B2B9B9CB">DXGI_COLOR_SPACE_TYPE</a> value.
 
 
 ### -field FilterFlags

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The RelocateDeviceFuncs function notifies the user-mode display driver about the new location of the driver function table.
 old-location: display\relocatedevicefuncs.htm
 ms.assetid: 3932a2a1-7b1d-4921-bd4a-905b44166091
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_RELOCATEDEVICEFUNCS, PFND3D10DDI_RELOCATEDEVICEFUNCS callback, RelocateDeviceFuncs, RelocateDeviceFuncs callback function [Display Devices], UserModeDisplayDriverDx10_Functions_01a40916-8ba8-4e29-87d7-32e9c3fe337f.xml, d3d10umddi/RelocateDeviceFuncs, display.relocatedevicefuncs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,24 +57,16 @@ The <i>RelocateDeviceFuncs</i> function notifies the user-mode display driver ab
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param *
 
 
+*pDeviceFunctions* [in]
 
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - pDeviceFunctions [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541833">D3D10DDI_DEVICEFUNCS</a> structure that contains pointers to the functions of the user-mode display driver. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541833">D3D10DDI_DEVICEFUNCS</a> structure that contains pointers to the functions of the user-mode display driver. 
 
 
 ## -returns

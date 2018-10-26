@@ -6,11 +6,8 @@ description: Called by the client driver after a WDF device has been created dur
 old-location: nfpdrivers\_nfccxdeviceinitialize.htm
 tech.root: nfpdrivers
 ms.assetid: E9282552-93AB-4380-A270-1A538CCF8C0E
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: NfcCxDeviceInitialize, NfcCxDeviceInitialize method [Near-Field Proximity Drivers], nfccx/NfcCxDeviceInitialize, nfpdrivers._nfccxdeviceinitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: nfccx.h
 req.include-header: Ncidef.h
@@ -81,7 +78,7 @@ If the operation succeeds, the function returns STATUS_SUCCESS.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
  
 
  

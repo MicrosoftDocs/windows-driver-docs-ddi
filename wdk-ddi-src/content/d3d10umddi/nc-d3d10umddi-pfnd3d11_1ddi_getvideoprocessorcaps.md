@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Queries the capabilities of a specified video processor.
 old-location: display\getvideoprocessorcaps.htm
 ms.assetid: 5ffb4f6e-41c6-4d15-8995-a398b9976822
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_GETVIDEOPROCESSORCAPS, PFND3D11_1DDI_GETVIDEOPROCESSORCAPS callback, d3d10umddi/pfnGetVideoProcessorCaps, display.getvideoprocessorcaps, pfnGetVideoProcessorCaps, pfnGetVideoProcessorCaps callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,34 +57,19 @@ Queries the capabilities of a specified video processor.
 
 ### -param Arg1
 
-
-### -param Arg2
-
-
-### -param *
-
-
-
-
-
-
-
-
-#### - hDevice [in]
+*hDevice* [in]
 
 A handle to the display device (graphics context).
 
+### -param Arg2
 
-
-
-#### - hProcessorEnum [in]
+*hProcessorEnum* [in]
 
 A handle to a video processor enumeration object that was created through a call to the <a href="https://msdn.microsoft.com/38c27502-7e8a-45a1-8a7c-315300502480">CreateVideoProcessorEnum</a> function.
 
+### -param *
 
-
-
-#### - pCaps [in, out]
+*pCaps* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450968">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a> structure that specifies the capabilities of the video processor that is specified by the <i>hProcessorEnum</i> parameter.
 

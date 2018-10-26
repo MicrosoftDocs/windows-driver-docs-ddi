@@ -6,11 +6,8 @@ description: The BufBlt function performs a bit-block transfer (bitblt) operatio
 old-location: display\bufblt.htm
 tech.root: display
 ms.assetid: d75f3fad-3bcd-44ad-9bd5-f61f5346cf8d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: BufBlt, BufBlt callback function [Display Devices], PFND3DDDI_BUFBLT, PFND3DDDI_BUFBLT callback, UserModeDisplayDriver_Functions_87f3469d-cae9-43e7-a0ae-d19bef34314e.xml, d3dumddi/BufBlt, display.bufblt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,21 +57,14 @@ The <b>BufBlt</b> function performs a bit-block transfer (bitblt) operation from
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
 
+*pData* [in]
 
-
-
-
-
-
-
-#### - pData [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542890">D3DDDIARG_BUFFERBLT</a> structure that describes the parameters of the buffer bitblt operation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542890">D3DDDIARG_BUFFERBLT</a> structure that describes the parameters of the buffer bitblt operation.
 
 
 ## -returns

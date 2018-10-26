@@ -6,11 +6,8 @@ description: The pfnRenderCb function submits the current command buffer for ren
 old-location: display\pfnrendercb.htm
 tech.root: display
 ms.assetid: f242162e-6237-469c-b178-5a51dcf69e32
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_487738b4-19e4-464f-80cc-d3b83eef1c6f.xml, PFND3DDDI_RENDERCB, PFND3DDDI_RENDERCB callback, d3dumddi/pfnRenderCb, display.pfnrendercb, pfnRenderCb, pfnRenderCb callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -72,7 +69,7 @@ A handle to the display device (graphics context).
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544241">D3DDDICB_RENDER</a> structure that describes the current command buffer to render.
 

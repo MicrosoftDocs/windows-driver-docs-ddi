@@ -6,11 +6,8 @@ description: The ZwQuerySecurityObject routine retrieves a copy of an object's s
 old-location: kernel\zwquerysecurityobject.htm
 tech.root: kernel
 ms.assetid: bc3c494d-890c-4699-a272-62cbcc234cdd
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtQuerySecurityObject, ZwQuerySecurityObject, ZwQuerySecurityObject routine [Kernel-Mode Driver Architecture], k111_50bbb447-b993-4020-a8d7-e54f0b31e84e.xml, kernel.zwquerysecurityobject, ntifs/NtQuerySecurityObject, ntifs/ZwQuerySecurityObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

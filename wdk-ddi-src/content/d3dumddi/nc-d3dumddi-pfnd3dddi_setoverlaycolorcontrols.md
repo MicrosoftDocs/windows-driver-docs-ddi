@@ -6,11 +6,8 @@ description: The SetOverlayColorControls function changes color-control settings
 old-location: display\setoverlaycolorcontrols.htm
 tech.root: display
 ms.assetid: c2723c57-44eb-4866-9381-a3a341996989
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETOVERLAYCOLORCONTROLS, PFND3DDDI_SETOVERLAYCOLORCONTROLS callback, SetOverlayColorControls, SetOverlayColorControls callback function [Display Devices], UserModeDisplayDriver_Functions_3164b9ba-d03c-473d-b067-2fc5b2756594.xml, d3dumddi/SetOverlayColorControls, display.setoverlaycolorcontrols
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,7 +57,7 @@ The <i>SetOverlayColorControls</i> function changes color-control settings for t
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +69,9 @@ The <i>SetOverlayColorControls</i> function changes color-control settings for t
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543323">D3DDDIARG_SETOVERLAYCOLORCONTROLS</a> structure that describes parameters for changing an overlay's color-control settings.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543323">D3DDDIARG_SETOVERLAYCOLORCONTROLS</a> structure that describes parameters for changing an overlay's color-control settings.
 
 
 ## -returns

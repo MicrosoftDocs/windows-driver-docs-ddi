@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Waits for specified wait objects, including a vertical blank event, to occur and then returns. Supported starting with Windows 8.
 old-location: display\d3dkmtwaitforverticalblankevent2.htm
 ms.assetid: 71a48c1f-1eca-4f3e-a085-99ffc207a7e0
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTWaitForVerticalBlankEvent2, D3DKMTWaitForVerticalBlankEvent2 function [Display Devices], d3dkmthk/D3DKMTWaitForVerticalBlankEvent2, display.d3dkmtwaitforverticalblankevent2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
@@ -60,14 +57,7 @@ Waits for specified wait objects, including a vertical blank event, to occur and
 
 ### -param D3DKMT_WAITFORVERTICALBLANKEVENT2
 
-
-
-
-
-
-#### - pWait [in]
-
-Specifies parameters for waiting on multiple wait objects, including a vertical blank event.
+[in] Specifies parameters for waiting on multiple wait objects, including a vertical blank event.
 
 
 ## -returns

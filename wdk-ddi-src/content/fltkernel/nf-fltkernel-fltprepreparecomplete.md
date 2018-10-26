@@ -6,11 +6,8 @@ description: The FltPrePrepareComplete routine acknowledges a TRANSACTION_NOTIFY
 old-location: ifsk\fltprepreparecomplete.htm
 tech.root: ifsk
 ms.assetid: f4049af3-3a6f-40fc-a2a7-fd081b27170e
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_d0d56c7a-abff-4cd2-a1c7-a511d1ac8903.xml, FltPrePrepareComplete, FltPrePrepareComplete routine [Installable File System Drivers], fltkernel/FltPrePrepareComplete, ifsk.fltprepreparecomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

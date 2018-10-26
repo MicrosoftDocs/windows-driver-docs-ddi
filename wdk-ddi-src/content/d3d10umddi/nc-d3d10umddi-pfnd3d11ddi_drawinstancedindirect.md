@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The DrawInstancedIndirect function draws particular instances of non-indexed primitives.
 old-location: display\drawinstancedindirect.htm
 ms.assetid: 99520dae-3934-496f-80bf-e5b306554415
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DrawInstancedIndirect, DrawInstancedIndirect callback function [Display Devices], PFND3D11DDI_DRAWINSTANCEDINDIRECT, PFND3D11DDI_DRAWINSTANCEDINDIRECT callback, UserModeDisplayDriverDx11_Functions_40c5a4c2-55dd-4ec1-ae2e-99fbe6ce11a9.xml, d3d10umddi/DrawInstancedIndirect, display.drawinstancedindirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,27 +57,15 @@ The <b>DrawInstancedIndirect</b> function draws particular instances of non-inde
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hBufferForArgs* [in]
 
-### -param Arg3
-
-
-
-
-
-
-
-
-#### - AlignedByteOffsetForArgs [in]
-
- The offset, in bytes, into the buffer that <i>hBufferForArgs</i> specifies. <i>AlignedByteOffsetForArgs</i> must be a multiple of four. 
-
-
-#### - hBufferForArgs [in]
-
- A handle to a buffer that contains the arguments for <b>DrawInstancedIndirect</b> to process. The buffer contains the following tightly packed structure:
+A handle to a buffer that contains the arguments for <b>DrawInstancedIndirect</b> to process. The buffer contains the following tightly packed structure:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -100,9 +85,11 @@ The <b>DrawInstancedIndirect</b> function draws particular instances of non-inde
 For more information about these arguments, see the <a href="https://msdn.microsoft.com/c539cf8b-e056-476a-9b23-7e360917a7d9">DrawInstanced</a> reference page. 
 
 
-#### - hDevice [in]
+### -param Arg3
 
- A handle to the display device (graphics context).
+*AlignedByteOffsetForArgs* [in]
+
+The offset, in bytes, into the buffer that <i>hBufferForArgs</i> specifies. <i>AlignedByteOffsetForArgs</i> must be a multiple of four. 
 
 
 ## -returns

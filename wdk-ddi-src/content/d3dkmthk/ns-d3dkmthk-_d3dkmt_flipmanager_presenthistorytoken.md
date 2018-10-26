@@ -4,11 +4,8 @@ title: _D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN
 author: windows-driver-content
 description: Identifies a flip present-history token.
 ms.assetid: 4622a5f0-905e-4ed6-9d78-54329bf5b2f7
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN, D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN,
 req.header: d3dkmthk.h
 req.include-header:
@@ -52,6 +49,10 @@ Attributes of a flip present-history token.
 ### -field Flags.Discard
 
 Discard the token.
+
+### -field Flags.PresentAt
+
+Present the token.
 
 ### -field Flags.Reserved
 

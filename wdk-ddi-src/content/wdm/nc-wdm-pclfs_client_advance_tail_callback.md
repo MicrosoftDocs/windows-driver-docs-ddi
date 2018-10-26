@@ -6,11 +6,8 @@ description: The ClfsAdvanceTailCallback function advances the base log sequence
 old-location: kernel\clfsadvancetailcallback.htm
 tech.root: kernel
 ms.assetid: e5c3ac56-9e9f-40b8-b8a8-2eb4d41bca52
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ClfsAdvanceTailCallback, ClfsAdvanceTailCallback callback function [Kernel-Mode Driver Architecture], Clfs_management_86e7d14f-866d-4023-9f97-d495ac16989f.xml, PCLFS_CLIENT_ADVANCE_TAIL_CALLBACK, PCLFS_CLIENT_ADVANCE_TAIL_CALLBACK callback, kernel.clfsadvancetailcallback, wdm/ClfsAdvanceTailCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

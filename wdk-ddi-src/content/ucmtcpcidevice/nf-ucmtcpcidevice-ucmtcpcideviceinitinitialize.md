@@ -6,11 +6,8 @@ description: Initializes device initialization operations when the Plug and Play
 old-location: buses\ucmtcpcideviceinitinitialize.htm
 tech.root: usbref
 ms.assetid: a9afbac3-9494-466c-b36b-26a5839913f1
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UcmTcpciDeviceInitInitialize, UcmTcpciDeviceInitInitialize method [Buses], buses.ucmtcpcideviceinitinitialize, ucmtcpcidevice/UcmTcpciDeviceInitInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ucmtcpcidevice.h
 req.include-header: 

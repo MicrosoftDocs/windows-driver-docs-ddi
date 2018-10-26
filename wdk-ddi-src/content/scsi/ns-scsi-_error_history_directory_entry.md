@@ -4,11 +4,8 @@ title: _ERROR_HISTORY_DIRECTORY_ENTRY
 author: windows-driver-content
 description: 
 ms.assetid: 0c51fcbb-01d6-49c2-b5ca-dd6aafdffbe5
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _ERROR_HISTORY_DIRECTORY_ENTRY, ERROR_HISTORY_DIRECTORY_ENTRY, *PERROR_HISTORY_DIRECTORY_ENTRY, 
 req.header: scsi.h
 req.include-header:

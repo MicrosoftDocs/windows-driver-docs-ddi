@@ -6,11 +6,8 @@ description: The values of DEBUG_FLR_PARAM_TYPE enumeration are tags that indica
 old-location: debugger\debug_flr_param_type.htm
 tech.root: debugger
 ms.assetid: D57D356F-DC11-4C27-97D3-DF40BF2AB490
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: "..., DEBUG_FLR_DRIVER_OBJECT, DEBUG_FLR_INVALID, DEBUG_FLR_MASK_ALL, DEBUG_FLR_PARAM_TYPE, DEBUG_FLR_PARAM_TYPE enumeration [Windows Debugging], DEBUG_FLR_RESERVED, FA_TAG, _DEBUG_FLR_PARAM_TYPE, debugger.debug_flr_param_type, extsfns/..., extsfns/DEBUG_FLR_DRIVER_OBJECT, extsfns/DEBUG_FLR_INVALID, extsfns/DEBUG_FLR_MASK_ALL, extsfns/DEBUG_FLR_PARAM_TYPE, extsfns/DEBUG_FLR_RESERVED"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: extsfns.h
 req.include-header: 
@@ -52,7 +49,7 @@ req.typenames: DEBUG_FLR_PARAM_TYPE
 
 The values of <b>DEBUG_FLR_PARAM_TYPE</b> enumeration are tags that indicate the kind of information that is stored in <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">failure analysis entry</a>.
 
-The <b>DEBUG_FLR_PARAM_TYPE</b> enumeration is also called the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
+The <b>DEBUG_FLR_PARAM_TYPE</b> enumeration is also called the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
 
 ## -enum-fields
@@ -2271,7 +2268,7 @@ For more information about tags, see <a href="https://msdn.microsoft.com/7648F78
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG enumeration</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG enumeration</a>
 
 
 

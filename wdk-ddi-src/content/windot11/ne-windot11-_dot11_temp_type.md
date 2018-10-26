@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_temp_type.htm
 tech.root: netvista
 ms.assetid: 73275e2e-b738-4adc-b89e-2cd152de6c75
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_TEMP_TYPE, DOT11_TEMP_TYPE, DOT11_TEMP_TYPE enumeration [Network Drivers Starting with Windows Vista], Native_802.11_data_types_5b580f41-75a6-4d16-9ea5-cc3dc3622a84.xml, PDOT11_TEMP_TYPE, PDOT11_TEMP_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _DOT11_TEMP_TYPE, dot11_temp_type_1, dot11_temp_type_2, dot11_temp_type_unknown, netvista.dot11_temp_type, windot11/DOT11_TEMP_TYPE, windot11/PDOT11_TEMP_TYPE, windot11/dot11_temp_type_1, windot11/dot11_temp_type_2, windot11/dot11_temp_type_unknown"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -42,7 +39,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_TEMP_TYPE, *PDOT11_TEMP_TYPE
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # _DOT11_TEMP_TYPE enumeration
@@ -58,13 +56,13 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```cpp
 typedef enum _DOT11_TEMP_TYPE {
   dot11_temp_type_unknown  = 0,
   dot11_temp_type_1        = 1,
   dot11_temp_type_2        = 2
 } DOT11_TEMP_TYPE, *PDOT11_TEMP_TYPE;
-````
+```
 
 
 ## -enum-fields

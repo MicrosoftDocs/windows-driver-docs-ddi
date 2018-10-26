@@ -6,11 +6,8 @@ description: An ACPI_OP_REGION_HANDLER-typed routine is supplied by an ACPI devi
 old-location: acpi\pacpi_op_region_handler.htm
 tech.root: acpi
 ms.assetid: c3a5af59-c97c-42be-bc43-afa30ad710ec
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: ACPI_OP_REGION_HANDLER, ACPI_OP_REGION_HANDLER callback, AcpiOpRegionHandler, AcpiOpRegionHandler callback function [ACPI Devices], acpi.pacpi_op_region_handler, opregref_be7bf2cd-0369-4efd-bbdb-5ad7dc28c33d.xml, oprghdlr/AcpiOpRegionHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: oprghdlr.h
 req.include-header: Oprghdlr.h
@@ -182,11 +179,11 @@ An internal error occurred.
 
 When the ACPI driver calls an operation region handler, it specifies values for <i>Address</i> and <i>Size</i> that ensure that the access is within the operation region that is defined in the ACPI BIOS for the ACPI device. The ACPI device function driver must ensure that the operation region memory buffer it allocates is at least as large, in bytes, as the operation region defined for the ACPI device.
 
-For more information about operation region handlers, see <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/acpi/supporting-an-operation-region">Supporting an Operation Region</a>.
+For more information about operation region handlers, see <a href="https://msdn.microsoft.com/windows/hardware/drivers/acpi/supporting-an-operation-region">Supporting an Operation Region</a>.
 
 An ACPI_OP_REGION_HANDLER-typed routine runs at the caller's IRQL.
 
-For detailed information about constraints on operation regions, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=57185">Advanced Configuration and Power Interface (ACPI) Specification</a>.
+For detailed information about constraints on operation regions, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=57185">Advanced Configuration and Power Interface (ACPI) Specification</a>.
 
 
 

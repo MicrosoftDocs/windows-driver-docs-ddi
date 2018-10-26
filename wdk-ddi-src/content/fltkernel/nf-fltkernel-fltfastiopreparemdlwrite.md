@@ -6,11 +6,8 @@ description: The FltFastIoPrepareMdlWrite routine returns a linked list of memor
 old-location: ifsk\fltfastiopreparemdlwrite.htm
 tech.root: ifsk
 ms.assetid: 7C48D179-35FA-44E1-B959-BD857AAA28E1
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltFastIoPrepareMdlWrite, FsRtlPrepareMdlWriteDev, FsRtlPrepareMdlWriteDev routine [Installable File System Drivers], fltkernel/FsRtlPrepareMdlWriteDev, ifsk.fltfastiopreparemdlwrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Ntifs.h

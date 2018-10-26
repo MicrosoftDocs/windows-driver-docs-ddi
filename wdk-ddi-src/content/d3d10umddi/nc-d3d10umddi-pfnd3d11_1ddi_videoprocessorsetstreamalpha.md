@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Sets the planar alpha for an input stream on the video processor.
 old-location: display\videoprocessorsetstreamalpha.htm
 ms.assetid: 9208bcd7-c030-4c2f-b3bc-e1bff3839cef
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMALPHA, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMALPHA callback, d3d10umddi/pfnVideoProcessorSetStreamAlpha, display.videoprocessorsetstreamalpha, pfnVideoProcessorSetStreamAlpha, pfnVideoProcessorSetStreamAlpha callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -62,26 +59,31 @@ Sets the planar alpha for an input stream on the video processor.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hVideoProcessor* [in]
+
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function.
 
 ### -param Arg3
 
+*StreamIndex* [in]
+
+The zero-based index of the input stream.
 
 ### -param Arg4
 
+*Enable* [in]
+
+If <b>TRUE</b>, alpha blending is to be enabled on the video processor.
 
 ### -param Arg5
 
-
-
-
-
-
-
-
-#### - Alpha [in]
+*Alpha* [in]
 
 A pointer to a <b>FLOAT</b> value that specifies the planar alpha value. The value can range from 0.0 (transparent) to 1.0 (opaque). 
 
@@ -89,28 +91,6 @@ A pointer to a <b>FLOAT</b> value that specifies the planar alpha value. The val
 
 </div>
 <div> </div>
-
-#### - Enable [in]
-
-If <b>TRUE</b>, alpha blending is to be enabled on the video processor.
-
-
-#### - StreamIndex [in]
-
-The zero-based index of the input stream.
-
-
-#### - hDevice [in]
-
-A handle to the display device (graphics context).
-
-
-
-
-#### - hVideoProcessor [in]
-
-A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
-
 
 
 

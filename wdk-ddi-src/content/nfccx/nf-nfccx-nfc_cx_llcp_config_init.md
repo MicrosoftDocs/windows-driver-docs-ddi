@@ -6,11 +6,8 @@ description: The NFC_CX_LLCP_CONFIG_INIT function initializes the NFC_CX_LLCP_CO
 old-location: nfpdrivers\nfc_cx_llcp_config_init.htm
 tech.root: nfpdrivers
 ms.assetid: 03E15708-7983-41F5-BD66-F9E1117740A6
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: NFC_CX_LLCP_CONFIG_INIT, NFC_CX_LLCP_CONFIG_INIT function [Near-Field Proximity Drivers], nfccx/NFC_CX_LLCP_CONFIG_INIT, nfpdrivers.nfc_cx_llcp_config_init
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: nfccx.h
 req.include-header: Ncidef.h
@@ -82,7 +79,7 @@ None.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
  
 
  

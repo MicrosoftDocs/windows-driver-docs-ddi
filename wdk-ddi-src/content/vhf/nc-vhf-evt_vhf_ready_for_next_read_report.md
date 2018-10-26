@@ -6,11 +6,8 @@ description: The HID source driver implements this event call back function to u
 old-location: hid\evtvhfreadyfornextreadreport.htm
 tech.root: hid
 ms.assetid: 02DDBE00-C342-474B-8D06-FBB929BA4760
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: EVT_VHF_READY_FOR_NEXT_READ_REPORT, EVT_VHF_READY_FOR_NEXT_READ_REPORT callback, EvtVhfReadyForNextReadReport, EvtVhfReadyForNextReadReport callback function [Human Input Devices], hid.evtvhfreadyfornextreadreport, vhf/EvtVhfReadyForNextReadReport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: vhf.h
 req.include-header: 

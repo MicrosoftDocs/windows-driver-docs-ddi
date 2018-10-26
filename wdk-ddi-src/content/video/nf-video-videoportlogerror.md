@@ -6,11 +6,8 @@ description: The VideoPortLogError function logs errors to the system event log 
 old-location: display\videoportlogerror.htm
 tech.root: display
 ms.assetid: d013aeb9-43a9-460f-a670-5b7bc9d3753d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortLogError, VideoPortLogError function [Display Devices], VideoPort_Functions_18666bd9-b871-4e4c-9f31-bd5cbd505d52.xml, display.videoportlogerror, video/VideoPortLogError
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: video.h
 req.include-header: Video.h
@@ -64,6 +61,8 @@ Pointer to the miniport driver's device extension.
 
 
 ### -param OPTIONAL
+
+*Vrp* [optional]
 
 <p>Pointer to the video request packet (<a href="wdkgloss.v#wdkgloss.video_request_packet__vrp_#wdkgloss.video_request_packet__vrp_"><i>VRP</i></a>) if one is associated with the error; otherwise <b>NULL</b>.</p>
 

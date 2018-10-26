@@ -6,11 +6,8 @@ description: The IoWMIHandleToInstanceName routine determines the instance name 
 old-location: kernel\iowmihandletoinstancename.htm
 tech.root: kernel
 ms.assetid: e9d8fde5-81b7-480b-8d7c-0005fd1868fb
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoWMIHandleToInstanceName, IoWMIHandleToInstanceName routine [Kernel-Mode Driver Architecture], k104_7d97f756-2f7f-4788-bcbc-368e08b6b86f.xml, kernel.iowmihandletoinstancename, wdm/IoWMIHandleToInstanceName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

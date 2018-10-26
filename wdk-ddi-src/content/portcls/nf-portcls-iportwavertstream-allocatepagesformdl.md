@@ -6,11 +6,8 @@ description: The AllocatePagesForMdl method allocates a list of nonpaged physica
 old-location: audio\iportwavertstream_allocatepagesformdl.htm
 tech.root: audio
 ms.assetid: 44839b9e-f206-49e6-a9f6-14e79d1e0ae2
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: AllocatePagesForMdl, AllocatePagesForMdl method [Audio Devices], AllocatePagesForMdl method [Audio Devices],IPortWaveRTStream interface, IPortWaveRTStream interface [Audio Devices],AllocatePagesForMdl method, IPortWaveRTStream.AllocatePagesForMdl, IPortWaveRTStream::AllocatePagesForMdl, audio.iportwavertstream_allocatepagesformdl, audmp-routines_2722e5c2-7fd2-4b72-acbf-474313bca229.xml, portcls/IPortWaveRTStream::AllocatePagesForMdl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: 

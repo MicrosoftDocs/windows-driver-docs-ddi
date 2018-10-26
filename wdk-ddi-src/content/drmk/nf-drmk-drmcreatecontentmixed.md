@@ -6,11 +6,8 @@ description: The DrmCreateContentMixed function creates a DRM content ID to iden
 old-location: audio\drmcreatecontentmixed.htm
 tech.root: audio
 ms.assetid: cec501d9-17e3-46a1-929e-4f9ba35ba721
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: DrmCreateContentMixed, DrmCreateContentMixed function [Audio Devices], aud-prop2_19a8815e-db9d-43a9-ad5a-c081a1af4f99.xml, audio.drmcreatecontentmixed, drmk/DrmCreateContentMixed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: drmk.h
 req.include-header: Drmk.h

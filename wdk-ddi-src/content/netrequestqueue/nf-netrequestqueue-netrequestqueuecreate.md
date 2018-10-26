@@ -5,7 +5,6 @@ author: windows-driver-content
 description: Creates a net request queue object.
 tech.root: netvista
 ms.assetid: 43552ec5-82e4-4ba8-af21-900c32c782b7
-ms.author: windowsdriverdev
 ms.date: 02/09/2018
 ms.topic: function
 ms.keywords: NetRequestQueueCreate

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Provides additional information for DxgkDdi_ControlInterrupt2 when VSYNC is being utilized.
 old-location: display\dxgk_crtc_vsync_state.htm
 ms.assetid: 1A7632BB-1DA6-4D03-8A3A-6468A2E4DF71
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_CRTC_VSYNC_STATE, DXGK_CRTC_VSYNC_STATE enumeration [Display Devices], DXGK_INTERRUPT_ENABLE, DXGK_VSYNC_DISABLE_KEEP_PHASE, DXGK_VSYNC_DISABLE_NO_PHASE, _DXGK_CRTC_VSYNC_STATE, d3dkmddi/DXGK_CRTC_VSYNC_STATE, d3dkmddi/DXGK_INTERRUPT_ENABLE, d3dkmddi/DXGK_VSYNC_DISABLE_KEEP_PHASE, d3dkmddi/DXGK_VSYNC_DISABLE_NO_PHASE, display.dxgk_crtc_vsync_state
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3dkmddi.h
 req.include-header: 
@@ -60,6 +57,7 @@ Provides additional information for <a href="https://msdn.microsoft.com/0C09CAB1
 
 ### -field DXGK_VSYNC_ENABLE
 
+Indicates that the VSYNC interrupt is enabled and will call into the interrupt callback whenever a display target enters the VBLANK state.
 
 ### -field DXGK_VSYNC_DISABLE_KEEP_PHASE
 
@@ -71,7 +69,7 @@ Indicates that the VSYNC interrupt is disabled and the display driver will ensur
 Indicates that the VSYNC interrupt is disabled, but that the display driver will not require re-entering the VSYNC enabled state in phase of prior interrupts.
 
 
-#### - DXGK_INTERRUPT_ENABLE
 
-Indicates that the VSYNC interrupt is enabled and will call into the interrupt callback whenever a display target enters the VBLANK state.
+
+
 

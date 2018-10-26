@@ -6,11 +6,8 @@ description: The D3DDDI_DEVICECALLBACKS structure contains Microsoft Direct3D ru
 old-location: display\d3dddi_devicecallbacks.htm
 tech.root: display
 ms.assetid: 29810132-5f53-4ba6-8302-6de315ecd04a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDI_DEVICECALLBACKS, D3DDDI_DEVICECALLBACKS structure [Display Devices], D3D_other_Structs_a835da78-4f70-4fc5-9f0f-43cef61bd304.xml, _D3DDDI_DEVICECALLBACKS, d3dumddi/D3DDDI_DEVICECALLBACKS, display.d3dddi_devicecallbacks
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -56,7 +53,7 @@ The D3DDDI_DEVICECALLBACKS structure contains Microsoft Direct3D runtime callbac
 ## -syntax
 
 
-````
+```cpp
 typedef struct _D3DDDI_DEVICECALLBACKS {
   PFND3DDDI_ALLOCATECB                            pfnAllocateCb;
   PFND3DDDI_DEALLOCATECB                          pfnDeallocateCb;
@@ -120,7 +117,7 @@ typedef struct _D3DDDI_DEVICECALLBACKS {
   PFND3DDDI_OFFERALLOCATIONS2CB                   pfnOfferAllocations2Cb;
   PFND3DDDI_RECLAIMALLOCATIONS3CB                 pfnReclaimAllocations3Cb;
 } D3DDDI_DEVICECALLBACKS;
-````
+```
 
 
 ## -struct-fields
@@ -422,40 +419,40 @@ A pointer to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reclaimallocations3c
 ### -field pfnCreateHwContextCb
 
 
-
+A pointer to a [PFND3DDDI_CREATEHWCONTEXTCB](nc-d3dumddi-pfnd3dddi_createhwcontextcb.md) callback function.
 
 ### -field pfnDestroyHwContextCb
 
-
+A pointer to a [PFND3DDDI_DESTROYHWCONTEXTCB](nc-d3dumddi-pfnd3dddi_destroyhwcontextcb.md) callback function.
 
 
 ### -field pfnCreateHwQueueCb
 
 
-
+A pointer to a [PFND3DDDI_CREATEHWQUEUECB](nc-d3dumddi-pfnd3dddi_createhwqueuecb.md) callback function.
 
 ### -field pfnDestroyHwQueueCb
 
 
-
+A pointer to a [PFND3DDDI_DESTROYHWQUEUECB](nc-d3dumddi-pfnd3dddi_destroyhwqueuecb.md) callback function.
 
 ### -field pfnSubmitCommandToHwQueueCb
 
 
-
+A pointer to a [PFND3DDDI_SUBMITCOMMANDTOHWQUEUECB](nc-d3dumddi-pfnd3dddi_submitcommandtohwqueuecb.md) callback function.
 
 ### -field pfnSubmitWaitForSyncObjectsToHwQueueCb
 
 
-
+A pointer to a [PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB](nc-d3dumddi-pfnd3dddi_submitwaitforsyncobjectstohwqueuecb.md) callback function.
 
 ### -field pfnSubmitSignalSyncObjectsToHwQueueCb
 
-
+A pointer to a [PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB](nc-d3dumddi-pfnd3dddi_submitsignalsyncobjectstohwqueuecb.md) callback function.
 
 ### -field pfnSubmitPresentBltToHwQueueCb
 
-
+A [PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB](nc-d3dumddi-pfnd3dddi_submitpresentblttohwqueuecb.md) callback function.
 
 ## -remarks
 

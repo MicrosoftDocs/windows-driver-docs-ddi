@@ -6,11 +6,8 @@ description: A driver for a device can use the IOCTL_ACPI_ASYNC_EVAL_METHOD_EX d
 old-location: acpi\ioctl_acpi_async_eval_method_ex.htm
 tech.root: acpi
 ms.assetid: fb5c6cbe-b1f4-4aed-afe3-1a4e8e26416e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_ACPI_ASYNC_EVAL_METHOD_EX, IOCTL_ACPI_ASYNC_EVAL_METHOD_EX control, IOCTL_ACPI_ASYNC_EVAL_METHOD_EX control code [ACPI Devices], acpi-meth-eval-ref_d6847663-52f2-4ae0-9ee5-defba8aed0cf.xml, acpi.ioctl_acpi_async_eval_method_ex, acpiioct/IOCTL_ACPI_ASYNC_EVAL_METHOD_EX
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
@@ -169,7 +166,7 @@ IOCTL_ACPI_ASYNC_EVAL_METHOD_EX supports the following types of input buffer str
 
 The output arguments from the control method are returned in the variable-length <a href="https://msdn.microsoft.com/library/windows/hardware/ff536123">ACPI_EVAL_OUTPUT_BUFFER</a> structure that is supplied by the <i>OutBuffer</i> pointer. The ACPI_EVAL_OUTPUT_BUFFER includes an array of variable-length <a href="https://msdn.microsoft.com/library/windows/hardware/ff536125">ACPI_METHOD_ARGUMENT</a> structures, each one of which returns an output argument.
 
-For information about how to evaluate an ACPI control method synchronously, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff536148">IOCTL_ACPI_EVAL_METHOD</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff536149">IOCTL_ACPI_EVAL_METHOD_EX</a>, and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/acpi/evaluating-acpi-control-methods-synchronously">Evaluating ACPI Control Methods Synchronously</a>.
+For information about how to evaluate an ACPI control method synchronously, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff536148">IOCTL_ACPI_EVAL_METHOD</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff536149">IOCTL_ACPI_EVAL_METHOD_EX</a>, and <a href="https://msdn.microsoft.com/windows/hardware/drivers/acpi/evaluating-acpi-control-methods-synchronously">Evaluating ACPI Control Methods Synchronously</a>.
 
 IOCTL_ACPI_ASYNC_EVAL_METHOD_EX can be used only at IRQL &lt;= DISPATCH_LEVEL.
 

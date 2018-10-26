@@ -6,11 +6,8 @@ description: Fills a device description block with collection description and th
 old-location: hid\hidp_getcollectiondescription.htm
 tech.root: hid
 ms.assetid: F8FD0C10-115D-4ACF-8C7F-127D342EA9CD
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: HidP_GetCollectionDescription, HidP_GetCollectionDescription function [Human Input Devices], hid.hidp_getcollectiondescription, hidpddi/HidP_GetCollectionDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hidpddi.h
 req.include-header: Hidpddi.h
@@ -74,7 +71,7 @@ The length of the report descriptor array.
 
 ### -param PoolType [in]
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a>-value that indicates the pool type from which memory for the linked list is allocated. This includes each <a href="https://msdn.microsoft.com/library/windows/hardware/mt740161">HIDP_COLLECTION_DESC</a> array element of <a href="https://msdn.microsoft.com/library/windows/hardware/mt740162">HIDP_DEVICE_DESC</a>, each <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">HIDP_PREPARSED_DATA</a> in each <b>HIDP_COLLECTION_DESC</b>, each <a href="https://msdn.microsoft.com/library/windows/hardware/mt740165">HIDP_REPORT_IDS</a> array element of <b>HIDP_DEVICE_DESC</b>.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a>-value that indicates the pool type from which memory for the linked list is allocated. This includes each <a href="https://msdn.microsoft.com/library/windows/hardware/mt740161">HIDP_COLLECTION_DESC</a> array element of <a href="https://msdn.microsoft.com/library/windows/hardware/mt740162">HIDP_DEVICE_DESC</a>, each <a href="https://msdn.microsoft.com/library/windows/hardware/ff539679">HIDP_PREPARSED_DATA</a> in each <b>HIDP_COLLECTION_DESC</b>, each <a href="https://msdn.microsoft.com/library/windows/hardware/mt740165">HIDP_REPORT_IDS</a> array element of <b>HIDP_DEVICE_DESC</b>.
 
 
 ### -param DeviceDescription [out]

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The GetCaps(D3D10_2) function queries for capabilities of the graphics adapter.
 old-location: display\getcaps_d3d10_2_.htm
 ms.assetid: 83cd5f34-5f12-4ead-ad33-366fc3c6e804
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: GetCaps, GetCaps callback function [Display Devices], PFND3D10_2DDI_GETCAPS, PFND3D10_2DDI_GETCAPS callback, UserModeDisplayDriverDx11_Functions_b0f0ebe4-205d-4eb5-ad35-e91dbcb21a1c.xml, d3d10umddi/GetCaps, display.getcaps_d3d10_2_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,24 +57,15 @@ The <i>GetCaps(D3D10_2)</i> function queries for capabilities of the graphics ad
 
 ### -param Arg1
 
+*hAdapter* [in]
+
+A handle that identifies the graphics adapter.
 
 ### -param *
 
+*pData* [in]
 
-
-
-
-
-
-
-#### - hAdapter [in]
-
- A handle that identifies the graphics adapter. 
-
-
-#### - pData [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541887">D3D10_2DDIARG_GETCAPS</a> structure that describes the capabilities to retrieve.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541887">D3D10_2DDIARG_GETCAPS</a> structure that describes the capabilities to retrieve.
 
 
 ## -returns

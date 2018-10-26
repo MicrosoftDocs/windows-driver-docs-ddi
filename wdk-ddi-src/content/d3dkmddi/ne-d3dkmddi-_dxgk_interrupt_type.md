@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The DXGK_INTERRUPT_TYPE enumeration indicates the type of interrupt that the display miniport driver notifies the graphics processing unit (GPU) scheduler about.
 old-location: display\dxgk_interrupt_type.htm
 ms.assetid: f942e448-94b8-400b-927b-fb5f2b1f544e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_INTERRUPT_CRTC_VSYNC, DXGK_INTERRUPT_CRTC_VSYNC_WITH_MULTIPLANE_OVERLAY, DXGK_INTERRUPT_DISPLAYONLY_PRESENT_PROGRESS, DXGK_INTERRUPT_DISPLAYONLY_VSYNC, DXGK_INTERRUPT_DMA_COMPLETED, DXGK_INTERRUPT_DMA_FAULTED, DXGK_INTERRUPT_DMA_PAGE_FAULTED, DXGK_INTERRUPT_DMA_PREEMPTED, DXGK_INTERRUPT_MICACAST_ENCODE_CHUNK_COMPLETE, DXGK_INTERRUPT_PERIODIC_MONITORED_FENCE_SIGNALED, DXGK_INTERRUPT_TYPE, DXGK_INTERRUPT_TYPE enumeration [Display Devices], DmEnums_5ed0a892-5813-43ff-aae9-25b03aa3ea5f.xml, _DXGK_INTERRUPT_TYPE, d3dkmddi/DXGK_INTERRUPT_CRTC_VSYNC, d3dkmddi/DXGK_INTERRUPT_CRTC_VSYNC_WITH_MULTIPLANE_OVERLAY, d3dkmddi/DXGK_INTERRUPT_DISPLAYONLY_PRESENT_PROGRESS, d3dkmddi/DXGK_INTERRUPT_DISPLAYONLY_VSYNC, d3dkmddi/DXGK_INTERRUPT_DMA_COMPLETED, d3dkmddi/DXGK_INTERRUPT_DMA_FAULTED, d3dkmddi/DXGK_INTERRUPT_DMA_PAGE_FAULTED, d3dkmddi/DXGK_INTERRUPT_DMA_PREEMPTED, d3dkmddi/DXGK_INTERRUPT_MICACAST_ENCODE_CHUNK_COMPLETE, d3dkmddi/DXGK_INTERRUPT_PERIODIC_MONITORED_FENCE_SIGNALED, d3dkmddi/DXGK_INTERRUPT_TYPE, display.dxgk_interrupt_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
@@ -105,6 +102,11 @@ Supported starting with Windows 8.1.
 
 ### -field DXGK_INTERRUPT_MICACAST_CHUNK_PROCESSING_COMPLETE
 
+The GPU has completed encoding a Miracast encode chunk.
+
+The display miniport driver can optionally provide private data that the user-mode driver can obtain using the <a href="https://msdn.microsoft.com/24b1d89a-4200-41ec-aa73-15b37e4cca6d">GetNextChunkData</a>  function.
+
+Supported starting with Windows 8.1.
 
 ### -field DXGK_INTERRUPT_DMA_PAGE_FAULTED
 
@@ -137,15 +139,6 @@ The interrupt type should be raised when the hardware context list switch has co
 This interrupt type should be raised when the periodic monitored fence is signaled.
 
 Supported starting with Windows 10.
-
-
-#### - DXGK_INTERRUPT_MICACAST_ENCODE_CHUNK_COMPLETE
-
-The GPU has completed encoding a Miracast encode chunk.
-
-The display miniport driver can optionally provide private data that the user-mode driver can obtain using the <a href="https://msdn.microsoft.com/24b1d89a-4200-41ec-aa73-15b37e4cca6d">GetNextChunkData</a>  function.
-
-Supported starting with Windows 8.1.
 
 ### -field DXGK_INTERRUPT_SCHEDULING_LOG_INTERRUPT
 

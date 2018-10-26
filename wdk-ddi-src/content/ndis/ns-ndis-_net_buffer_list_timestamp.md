@@ -5,11 +5,8 @@ author: windows-driver-content
 description: This structure is reserved for system use and should not be used in your code.
 tech.root: netvista
 ms.assetid: 6ecc7e27-d8c3-4fdf-aa3c-b7b5fece8200
-ms.author: windowsdriverdev
 ms.date: 08/08/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _NET_BUFFER_LIST_TIMESTAMP, NET_BUFFER_LIST_TIMESTAMP, *PNET_BUFFER_LIST_TIMESTAMP, 
 req.header: ndis.h
 req.include-header:

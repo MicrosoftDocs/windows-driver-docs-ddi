@@ -6,11 +6,8 @@ description: The WHEA_PCI_SLOT_NUMBER structure describes a logical PCI slot.
 old-location: whea\whea_pci_slot_number.htm
 tech.root: whea
 ms.assetid: 4e2938a2-6301-4d2a-a467-eca1f5bbb260
-ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: "*PWHEA_PCI_SLOT_NUMBER, PWHEA_PCI_SLOT_NUMBER, PWHEA_PCI_SLOT_NUMBER structure pointer [WHEA Drivers and Applications], WHEA_PCI_SLOT_NUMBER, WHEA_PCI_SLOT_NUMBER structure [WHEA Drivers and Applications], _WHEA_PCI_SLOT_NUMBER, ntddk/PWHEA_PCI_SLOT_NUMBER, ntddk/WHEA_PCI_SLOT_NUMBER, whea.whea_pci_slot_number, whearef_6999e061-3501-48fe-bd6c-383493056665.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddk.h
 req.include-header: Ntddk.h

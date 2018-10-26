@@ -6,11 +6,8 @@ description: The WdfRequestGetStatus method returns the status of an I/O request
 old-location: wdf\wdfrequestgetstatus.htm
 tech.root: wdf
 ms.assetid: 82f922a1-34c1-475b-b12a-210ae602a4bd
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_60149f5d-5523-4b88-9bba-464be280b2b7.xml, WdfRequestGetStatus, WdfRequestGetStatus method, kmdf.wdfrequestgetstatus, wdf.wdfrequestgetstatus, wdfrequest/WdfRequestGetStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfrequest.h
 req.include-header: Wdf.h
@@ -99,12 +96,12 @@ If a driver's call to <a href="https://msdn.microsoft.com/library/windows/hardwa
 </ul>
 If the driver sets the <a href="https://msdn.microsoft.com/68be1034-62f0-4444-b4c9-097277a7561f">WDF_REQUEST_SEND_OPTION_SYNCHRONOUS</a> flag for a request when calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550027">WdfRequestSend</a>, the driver can call <b>WdfRequestGetStatus</b> immediately after calling <b>WdfRequestSend</b>, whether the call to <b>WdfRequestSend</b> succeeds or fails.
 
-For more information about request completion, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
+For more information about request completion, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
 
 
 #### Examples
 
-The following code example is from the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">KbFiltr</a> sample driver. This example sends an I/O request to an I/O target. If <a href="https://msdn.microsoft.com/library/windows/hardware/ff550027">WdfRequestSend</a> fails, the example uses the <b>WdfRequestGetStatus</b> return value as input to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549945">WdfRequestComplete</a>. 
+The following code example is from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">KbFiltr</a> sample driver. This example sends an I/O request to an I/O target. If <a href="https://msdn.microsoft.com/library/windows/hardware/ff550027">WdfRequestSend</a> fails, the example uses the <b>WdfRequestGetStatus</b> return value as input to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549945">WdfRequestComplete</a>. 
 
 <div class="code"><span codelanguage=""><table>
 <tr>

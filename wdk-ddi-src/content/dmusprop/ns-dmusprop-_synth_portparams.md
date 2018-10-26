@@ -6,11 +6,8 @@ description: The SYNTH_PORTPARAMS structure contains the configuration parameter
 old-location: audio\synth_portparams.htm
 tech.root: audio
 ms.assetid: 94c953ae-519b-4659-a4c9-a97db7dc31e9
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: "*PSYNTH_PORTPARAMS, PSYNTH_PORTPARAMS, PSYNTH_PORTPARAMS structure pointer [Audio Devices], SYNTH_PORTPARAMS, SYNTH_PORTPARAMS structure [Audio Devices], _SYNTH_PORTPARAMS, aud-prop_33f03864-8052-4dff-9613-1e8046450d16.xml, audio.synth_portparams, dmusprop/PSYNTH_PORTPARAMS, dmusprop/SYNTH_PORTPARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dmusprop.h
 req.include-header: Dmusprop.h

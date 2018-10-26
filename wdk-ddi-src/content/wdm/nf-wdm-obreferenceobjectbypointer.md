@@ -6,11 +6,8 @@ description: The ObReferenceObjectByPointer routine increments the pointer refer
 old-location: kernel\obreferenceobjectbypointer.htm
 tech.root: kernel
 ms.assetid: c575bd3f-6790-4815-b7c7-8ee16a9cac17
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ObReferenceObjectByPointer, ObReferenceObjectByPointer routine [Kernel-Mode Driver Architecture], k107_2846f148-4ad5-472a-aa74-4f03c5251aee.xml, kernel.obreferenceobjectbypointer, wdm/ObReferenceObjectByPointer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

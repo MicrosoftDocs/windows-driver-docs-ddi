@@ -6,11 +6,8 @@ description: The CcRepinBcb routine pins a buffer control block (BCB) an additio
 old-location: ifsk\ccrepinbcb.htm
 tech.root: ifsk
 ms.assetid: 81c2446e-8f11-4146-8da5-17fc451c2729
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: CcRepinBcb, CcRepinBcb routine [Installable File System Drivers], ccref_5aacfd67-3d6c-4be6-9bfa-5b85772ce32f.xml, ifsk.ccrepinbcb, ntifs/CcRepinBcb
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

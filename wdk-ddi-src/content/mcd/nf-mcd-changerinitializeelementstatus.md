@@ -6,11 +6,8 @@ description: ChangerInitializeElementStatus handles the device-specific aspects 
 old-location: storage\changerinitializeelementstatus.htm
 tech.root: storage
 ms.assetid: 1f8f13e0-b0d3-4c94-bd1f-0e42bb75142d
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ChangerInitializeElementStatus, ChangerInitializeElementStatus function [Storage Devices], chgrmini_2aa82220-731a-49b0-b3e5-1db93f8e6dc0.xml, mcd/ChangerInitializeElementStatus, storage.changerinitializeelementstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h

@@ -6,11 +6,8 @@ description: The wiasReadPropGuid function retrieves a GUID property value from 
 old-location: image\wiasreadpropguid.htm
 tech.root: image
 ms.assetid: 287bf42b-253a-4d1a-8879-c3ab89b6743a
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiasreadpropguid, wiamdef/wiasReadPropGuid, wiasFncs_80e78a38-5f47-4bd3-b071-62eebc65fd6f.xml, wiasReadPropGuid, wiasReadPropGuid function [Imaging Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiamdef.h
 req.include-header: Wiamdef.h

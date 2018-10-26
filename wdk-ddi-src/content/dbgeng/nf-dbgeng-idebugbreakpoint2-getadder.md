@@ -6,11 +6,8 @@ description: The GetAdder method returns the client that owns the breakpoint.
 old-location: debugger\getadder.htm
 tech.root: debugger
 ms.assetid: f57abfc5-d6ae-474b-bea9-bfc53dff7f57
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ComOther_069dfd81-8ad8-4fe7-95c4-a3499c1b5512.xml, GetAdder, GetAdder method [Windows Debugging], GetAdder method [Windows Debugging],IDebugBreakpoint interface, GetAdder method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging],GetAdder method, IDebugBreakpoint2 interface [Windows Debugging],GetAdder method, IDebugBreakpoint2.GetAdder, IDebugBreakpoint2::GetAdder, IDebugBreakpoint::GetAdder, dbgeng/IDebugBreakpoint2::GetAdder, dbgeng/IDebugBreakpoint::GetAdder, debugger.getadder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

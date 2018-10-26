@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Creates a blend state.
 old-location: display\createblendstate_d3d11_1_.htm
 ms.assetid: 5956412e-ae35-4960-afc0-a82c6a2aa9f1
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateBlendState(D3D11_1), CreateBlendState(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CREATEBLENDSTATE, PFND3D11_1DDI_CREATEBLENDSTATE callback, d3d10umddi/CreateBlendState(D3D11_1), display.createblendstate_d3d11_1_, display.pfncreateblendstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,40 +57,26 @@ Creates a blend state.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param *
 
-
-### -param Arg2
-
-
-### -param Arg3
-
-
-
-
-
-
-
-
-#### - [in]
+*pBlendDesc* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451041">D3D11_1_DDI_BLEND_DESC</a> structure that describes the parameters that the user-mode display driver uses to create a blend state.
 
 
-#### - hBlendState
+### -param Arg2
+
+*hBlendState* [in]
 
 A handle to the driver's private data for the blend state. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/e53bb658-ef6c-4f44-aa5a-8c641046f90d">CalcPrivateBlendStateSize(D3D11_1)</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its blend state object.
 
+### -param Arg3
 
-#### - hDevice
-
-A handle to the display device (graphics context).
-
-
-
-
-#### - hRTBlendState
+*hRTBlendState* [in]
 
 A handle to the blend state that the driver should use when it calls back into the Direct3D runtime.
 

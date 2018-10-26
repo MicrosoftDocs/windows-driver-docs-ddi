@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Sets all the elements in a resource view to one value. A resource view is a surface descriptor that indicates a format and possibly a subset of the resource.
 old-location: display\clearview.htm
 ms.assetid: c3cc08ea-22db-4fae-a180-76f3babd1c5c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: ClearView, ClearView callback function [Display Devices], PFND3D11_1DDI_CLEARVIEW, PFND3D11_1DDI_CLEARVIEW callback, d3d10umddi/ClearView, display.clearview, display.clearview_d3d11_1_, display.pfnclearview
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -65,6 +62,13 @@ A handle to the display device (graphics context).
 
 ### -param viewType
 
+A value, of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff542152">D3D11DDI_HANDLETYPE</a>, that identifies the view handle type that supports this clear operation. Possible types are the following.
+
+<ul>
+<li><b>D3D10DDI_HT_RENDERTARGETVIEW</b></li>
+<li><b>D3D11DDI_HT_UNORDEREDACCESSVIEW</b></li>
+<li>Any <b>D3D11_1DDI_HT_VIDEOXXX</b> type</li>
+</ul>
 
 ### -param *hView
 
@@ -73,6 +77,7 @@ A pointer to the resource view to clear.
 
 ### -param Color[4]
 
+A 4-component array that represents the color to use to clear the resource view. For more details, see the Remarks section.
 
 ### -param *pRect [in]
 
@@ -82,22 +87,6 @@ An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff56923
 ### -param NumRects
 
 The number of rectangles in the array that the  <i>pRect</i> parameter specifies.
-
-
-#### - Color
-
-A 4-component array that represents the color to use to clear the resource view. For more details, see the Remarks section.
-
-
-#### - HandleType
-
-A value, of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff542152">D3D11DDI_HANDLETYPE</a>, that identifies the view handle type that supports this clear operation. Possible types are the following.
-
-<ul>
-<li><b>D3D10DDI_HT_RENDERTARGETVIEW</b></li>
-<li><b>D3D11DDI_HT_UNORDEREDACCESSVIEW</b></li>
-<li>Any <b>D3D11_1DDI_HT_VIDEOXXX</b> type</li>
-</ul>
 
 ## -returns
 
@@ -139,7 +128,7 @@ For Microsoft Direct3D views of the subsampled RTV or UAV video surfaces, note t
 However, video views of a video surface (such as views provided to the <a href="https://msdn.microsoft.com/a5a32b4e-799c-4d18-995d-f804e6dff85c">CreateVideoDecoderOutputView</a> function and other <b>XxxInputView</b> and <b>XxxOutputView</b> functions) appear at the full logical dimensions. In this case, the horizontal dimension is 1920 pixels wide, so <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures passed into <i>ClearView</i> honor that. Such  <b>RECT</b>s  must be aligned so they do not straddle subsampled blocks, otherwise the runtime will drop the call to this function. For video views, YUV colors must be appropriately replicated for subsampled formats. For example, YUV in the <i>ClearView</i> call has the Y value duplicated for each block in a YUY2 surface.
 
 
-    The <b>D3D10_DDI_RECT</b> structure is defined as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure.
+  The <b>D3D10_DDI_RECT</b> structure is defined as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

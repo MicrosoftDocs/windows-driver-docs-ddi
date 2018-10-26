@@ -6,11 +6,8 @@ description: The NdkGetConnectionData (NDK_FN_GET_CONNECTION_DATA) function gets
 old-location: netvista\ndk_fn_get_connection_data.htm
 tech.root: netvista
 ms.assetid: A6099DCB-7F10-4BDB-B463-422C2B7A2B3F
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_FN_GET_CONNECTION_DATA, NDK_FN_GET_CONNECTION_DATA callback, NdkGetConnectionData, NdkGetConnectionData callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetConnectionData, netvista.ndk_fn_get_connection_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndkpi.h
 req.include-header: Ndkpi.h

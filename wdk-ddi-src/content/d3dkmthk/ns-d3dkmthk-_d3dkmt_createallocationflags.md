@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMT_CREATEALLOCATIONFLAGS structure identifies how to create an allocation in a call to the D3DKMTCreateAllocation function.
 old-location: display\d3dkmt_createallocationflags.htm
 ms.assetid: ddcb8222-808b-4dfe-9303-a588b3522ebe
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_CREATEALLOCATIONFLAGS, D3DKMT_CREATEALLOCATIONFLAGS structure [Display Devices], OpenGL_Structs_0b22984b-feef-4975-b7d9-596427c82b2b.xml, _D3DKMT_CREATEALLOCATIONFLAGS, d3dkmthk/D3DKMT_CREATEALLOCATIONFLAGS, display.d3dkmt_createallocationflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
@@ -155,13 +152,13 @@ Supported starting with Windows 8.
 
 ### -field CrossAdapter
 
- 
+The cross adapter.
 
 
 ### -field OpenCrossAdapter
 
  
-
+The open cross adapter. Can't be used when allocation is created from the user mode.
 
 ### -field PartialSharedCreation
 
@@ -189,8 +186,6 @@ Supported starting with Windows 8.
 
 
 ### -field Reserved
-
-This member is reserved and should be set to zero. Setting this member is equivalent to setting the remaining 22 bits (0xFFFFFC00) of a 32-bit value to zeros.
 
 Supported starting with Windows 8.
 

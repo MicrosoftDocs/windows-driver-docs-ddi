@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMTQueryResourceInfo function retrieves information about a shared resource.
 old-location: display\d3dkmtqueryresourceinfo.htm
 ms.assetid: d195634e-d626-43c9-8212-f32b95c1f526
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTQueryResourceInfo, D3DKMTQueryResourceInfo function [Display Devices], OpenGL_Functions_77dad2ba-a352-4b1a-b2be-53c41589bf90.xml, d3dkmthk/D3DKMTQueryResourceInfo, display.d3dkmtqueryresourceinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
@@ -68,7 +65,7 @@ The <b>D3DKMTQueryResourceInfo</b> function retrieves information about a shared
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548223">D3DKMT_QUERYRESOURCEINFO</a> structure that contains parameters for retrieving information about a shared resource.
 

@@ -6,11 +6,8 @@ description: The MmUnsecureVirtualMemory routine unsecures a memory address rang
 old-location: kernel\mmunsecurevirtualmemory.htm
 tech.root: kernel
 ms.assetid: 979eef24-e53b-476c-b9db-e56c43630913
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: MmUnsecureVirtualMemory, MmUnsecureVirtualMemory routine [Kernel-Mode Driver Architecture], k106_0bfc6e9e-a4e9-4868-b1fb-da6714146dbf.xml, kernel.mmunsecurevirtualmemory, ntddk/MmUnsecureVirtualMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

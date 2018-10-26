@@ -6,11 +6,8 @@ description: The WskSocket function creates a new socket and returns a pointer t
 old-location: netvista\wsksocket.htm
 tech.root: netvista
 ms.assetid: fddfd724-c3ba-4908-a60f-70c4934efb49
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: PFN_WSK_SOCKET, PFN_WSK_SOCKET callback, WskSocket, WskSocket callback function [Network Drivers Starting with Windows Vista], netvista.wsksocket, wsk/WskSocket, wskref_37c59d39-d8fd-4e3f-9f69-c0874e1801ed.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wsk.h
 req.include-header: Wsk.h
@@ -115,7 +112,7 @@ The transport protocol for the socket that is being created. For more informatio
 ### -param Flags [in]
 
 A flag that specifies the WSK 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/winsock-kernel-socket-categories">socket category</a> for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/winsock-kernel-socket-categories">socket category</a> for the
      socket that is being created. This parameter can be one of the following flags:
      
 
@@ -171,7 +168,7 @@ A pointer to a caller-supplied context for the socket that is being created. The
 
 A pointer to a constant client dispatch structure. This structure is a dispatch table that
      contains pointers to the event callback functions for the new socket. Depending on the WSK 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/winsock-kernel-socket-categories">socket category</a> of the socket
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/winsock-kernel-socket-categories">socket category</a> of the socket
      (as specified by the 
      <i>Flags</i> parameter), this parameter is a pointer to one of the following structures.
      
@@ -278,7 +275,7 @@ For more information about the SECURITY_DESCRIPTOR structure, see the reference 
 
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the creation of the
      new socket asynchronously. For more information about using IRPs with WSK functions, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
      Kernel Functions</a>.
 
 
@@ -356,7 +353,7 @@ A WSK application can obtain a list of available transport protocols by calling 
 When a WSK application successfully creates a new socket, all of the event callback functions on the
     new socket are disabled by default. For more information about enabling any of the new socket's event
     callback functions, see 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa363707">Enabling and
+    <a href="https://msdn.microsoft.com/library/windows/desktop/aa363707">Enabling and
     Disabling Event Callback Functions</a>.
 
 If a WSK application specifies a non-<b>NULL</b> pointer for the 

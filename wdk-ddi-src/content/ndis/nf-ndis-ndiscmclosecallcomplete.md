@@ -6,11 +6,8 @@ description: NdisCmCloseCallComplete returns the final status of a client's requ
 old-location: netvista\ndiscmclosecallcomplete.htm
 tech.root: netvista
 ms.assetid: caf248e0-ec9a-4c85-86f7-f35c715c6e39
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisCmCloseCallComplete, NdisCmCloseCallComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_9380a315-f44c-4f6d-914f-480408c8d804.xml, ndis/NdisCmCloseCallComplete, netvista.ndiscmclosecallcomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

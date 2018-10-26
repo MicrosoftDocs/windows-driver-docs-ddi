@@ -6,11 +6,8 @@ description: The GetTypeName method returns the type name of the typed data repr
 old-location: debugger\extremotetyped_gettypename.htm
 tech.root: debugger
 ms.assetid: 162b3a05-dccd-4df4-8728-801a8fb39afc
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_063b1f9f-802d-4db4-9661-6f1909d396ee.xml, ExtRemoteTyped interface [Windows Debugging],GetTypeName method, ExtRemoteTyped.GetTypeName, ExtRemoteTyped::GetTypeName, GetTypeName, GetTypeName method [Windows Debugging], GetTypeName method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_gettypename
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

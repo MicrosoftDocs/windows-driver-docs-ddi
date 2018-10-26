@@ -6,11 +6,8 @@ description: A filter driver's RegistryCallback routine can monitor, block, or m
 old-location: kernel\registrycallback.htm
 tech.root: kernel
 ms.assetid: 220ce3b8-2820-4753-9659-5ce7b4f4f32d
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: DrvrRtns_988f8f3d-4ee8-4351-8fc0-703a88bd8421.xml, EX_CALLBACK_FUNCTION, RegistryCallback, RegistryCallback routine [Kernel-Mode Driver Architecture], kernel.registrycallback, wdm/RegistryCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
@@ -104,18 +101,18 @@ A pointer to a structure that contains information that is specific to the type 
 | **RegNtQueryMultipleValueKey** | [REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560985)  | 
 | **RegNtPreQueryMultipleValueKey** | [REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560985)  | 
 | **RegNtPostQueryMultipleValueKey** | [REG_POST_OPERATION_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560971)  | 
-| **RegNtPreCreateKey** | [REG_PRE_CREATE_KEY_INFORMATION](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_pre_create_key_information)  | 
+| **RegNtPreCreateKey** | [REG_PRE_CREATE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_pre_create_key_information)  | 
 | **RegNtPreCreateKeyEx** | [REG_CREATE_KEY_INFORMATION**](https://msdn.microsoft.com/5609a2c4-71db-432a-8a39-e407130a6e4c)  | 
 | **RegNtPostCreateKey** | [REG_POST_CREATE_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560962)  | 
 | **RegNtPostCreateKeyEx** | [REG_POST_OPERATION_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560971)  | 
 | **RegNtPreOpenKey** | [REG_PRE_OPEN_KEY_INFORMATION**](https://msdn.microsoft.com/9b7240b5-429b-4bf2-aa7b-373b63bb79ae)  | 
-| **RegNtPreOpenKeyEx** | [REG_OPEN_KEY_INFORMATION](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_create_key_information)  | 
-| **RegNtPostOpenKey** | [REG_POST_OPEN_KEY_INFORMATION](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_create_key_information)  | 
+| **RegNtPreOpenKeyEx** | [REG_OPEN_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_create_key_information)  | 
+| **RegNtPostOpenKey** | [REG_POST_OPEN_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_create_key_information)  | 
 | **RegNtPostOpenKeyEx** | [REG_POST_OPERATION_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560971)  | 
 | **RegNtKeyHandleClose** | [REG_KEY_HANDLE_CLOSE_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560943)  | 
 | **RegNtPreKeyHandleClose** | [REG_KEY_HANDLE_CLOSE_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560943)  | 
 | **RegNtPostKeyHandleClose** | [REG_POST_OPERATION_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560971)  | 
-| **RegNtPreFlushKey** | [REG_FLUSH_KEY_INFORMATION](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_delete_key_information)  | 
+| **RegNtPreFlushKey** | [REG_FLUSH_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_delete_key_information)  | 
 | **RegNtPostFlushKey** | [REG_POST_OPERATION_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560971)  | 
 | **RegNtPreLoadKey** | [REG_LOAD_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560948)  | 
 | **RegNtPostLoadKey** | [REG_POST_OPERATION_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560971)  | 
@@ -253,7 +250,7 @@ NTSTATUS
 </td>
 </tr>
 </table></span></div>
-The EX_CALLBACK_FUNCTION function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the EX_CALLBACK_FUNCTION function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
+The EX_CALLBACK_FUNCTION function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the EX_CALLBACK_FUNCTION function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>
 

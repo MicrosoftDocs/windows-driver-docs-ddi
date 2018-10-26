@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The pfnCreatePipelineState callback function creates a pipeline state.
 old-location: display\pfnd3d12ddi_create_pipeline_state_0021.htm
 ms.assetid: 08C19E55-7DD7-4BDF-8C9A-A2E1B973AFEC
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_CREATE_PIPELINE_STATE_0021, PFND3D12DDI_CREATE_PIPELINE_STATE_0021 callback, d3d12umddi/pfnCreatePipelineState, display.pfnd3d12ddi_create_pipeline_state_0021, pfnCreatePipelineState, pfnCreatePipelineState callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
@@ -60,41 +57,29 @@ The <i>pfnCreatePipelineState</i> callback function creates a pipeline state.
 
 ### -param Arg1
 
+*hDevice*
+
 A handle to the display device (graphics context).
 
 ### -param *
 
-
-### -param Arg2
-
-
-### -param Arg3
-
-
-
-
-
-
-
-
-#### - CreatePipelineState [in]
+CreatePipelineState [in]
 
 A value used to create a pipeline state.
 
+### -param Arg2
 
-#### - hDevice
-
-The handle of a device.
-
-
-#### - hPipelineState
+hPipelineState
 
 The handle of a pipeline state.
 
+### -param Arg3
 
-#### - hRTPipelineState
+hRTPipelineState
 
 The handle of the pipeline state for the driver to use when it calls back into the runtime.
+
+
 
 
 ## -returns

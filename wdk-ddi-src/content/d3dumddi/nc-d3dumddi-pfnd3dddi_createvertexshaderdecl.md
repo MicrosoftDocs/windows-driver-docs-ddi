@@ -6,11 +6,8 @@ description: The CreateVertexShaderDecl function converts the vertex shader decl
 old-location: display\createvertexshaderdecl.htm
 tech.root: display
 ms.assetid: 00c53e81-93db-46b8-b65c-c8d62059452a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateVertexShaderDecl, CreateVertexShaderDecl callback function [Display Devices], PFND3DDDI_CREATEVERTEXSHADERDECL, PFND3DDDI_CREATEVERTEXSHADERDECL callback, UserModeDisplayDriver_Functions_9b214e45-8b3c-49e9-ae72-6b7c2391c256.xml, d3dumddi/CreateVertexShaderDecl, display.createvertexshaderdecl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,7 +57,7 @@ The <b>CreateVertexShaderDecl</b> function converts the vertex shader declaratio
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,14 +69,15 @@ The <b>CreateVertexShaderDecl</b> function converts the vertex shader declaratio
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542970">D3DDDIARG_CREATEVERTEXSHADERDECL</a> structure that retrieves the shader handle that is associated with the vertex shader declaration that is specified by <i>pVertexElements</i>.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542970">D3DDDIARG_CREATEVERTEXSHADERDECL</a> structure that retrieves the shader handle that is associated with the vertex shader declaration that is specified by <i>pVertexElements</i>.
 
+### -param *
 
-#### - pVertexElements [in]
+*pVertexElements* [in]
 
- An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544344">D3DDDIVERTEXELEMENT</a> structures that make up the vertex shader declaration.
+An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544344">D3DDDIVERTEXELEMENT</a> structures that make up the vertex shader declaration.
 
 
 ## -returns

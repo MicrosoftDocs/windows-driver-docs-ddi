@@ -6,11 +6,8 @@ description: The IOCTL_SERIAL_GET_CHARS request retrieves the special characters
 old-location: serports\ioctl_serial_get_chars.htm
 tech.root: serports
 ms.assetid: f8ebf57a-1d2f-4362-8713-c37b6ef62cb6
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_GET_CHARS, IOCTL_SERIAL_GET_CHARS control, IOCTL_SERIAL_GET_CHARS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_CHARS, serports.ioctl_serial_get_chars, serref_103c18cc-6260-4a9d-8f2f-01ef8b82aebe.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddser.h
 req.include-header: Ntddser.h
@@ -102,7 +99,7 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the si
 
 If the request is successful, the <b>Information</b> member is set to the size in bytes of <b>SERIAL_CHARS</b>. Otherwise, the <b>Information</b> member is set to zero.
 
-The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
+The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
 
 
 ## -see-also

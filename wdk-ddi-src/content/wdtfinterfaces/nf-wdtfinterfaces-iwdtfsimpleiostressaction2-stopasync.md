@@ -6,11 +6,8 @@ description: Asynchronously signals the stop event to occur.
 old-location: dtf\iwdtfsimpleiostressaction2_stopasync.htm
 tech.root: dtf
 ms.assetid: fac4b59b-da9a-4245-bff0-f9177962c9d6
-ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework],StopAsync method, IWDTFSimpleIOStressAction2.StopAsync, IWDTFSimpleIOStressAction2::StopAsync, Microsoft.WDTF.IWDTFSimpleIOStressAction2.StopAsync, Microsoft::WDTF::IWDTFSimpleIOStressAction2::StopAsync, StopAsync, StopAsync method [Windows Device Testing Framework], StopAsync method [Windows Device Testing Framework],IWDTFSimpleIOStressAction2 interface, dtf.iwdtfsimpleiostressaction2_stopasync, wdtfinterfaces/IWDTFSimpleIOStressAction2::StopAsync
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtfinterfaces.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The WDF_USB_PIPE_INFORMATION structure contains information about a
 old-location: wdf\wdf_usb_pipe_information.htm
 tech.root: wdf
 ms.assetid: 05cba67b-c9da-4345-bc6f-09de12a617c1
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*PWDF_USB_PIPE_INFORMATION, DFUsbRef_80f26f29-adf0-4017-b261-36637da41c0d.xml, PWDF_USB_PIPE_INFORMATION, PWDF_USB_PIPE_INFORMATION structure pointer, WDF_USB_PIPE_INFORMATION, WDF_USB_PIPE_INFORMATION structure, _WDF_USB_PIPE_INFORMATION, kmdf.wdf_usb_pipe_information, wdf.wdf_usb_pipe_information, wdfusb/PWDF_USB_PIPE_INFORMATION, wdfusb/WDF_USB_PIPE_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

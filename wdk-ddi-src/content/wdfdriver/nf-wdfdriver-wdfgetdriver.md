@@ -6,11 +6,8 @@ description: The WdfGetDriver method returns a handle to the framework driver ob
 old-location: wdf\wdfgetdriver.htm
 tech.root: wdf
 ms.assetid: 423d4407-9e30-4625-bbe8-5465af29cfaa
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDriverObjectRef_7419a365-e5ee-49cd-8d85-4db65cd27645.xml, WdfGetDriver, WdfGetDriver method, kmdf.wdfgetdriver, wdf.wdfgetdriver, wdfdriver/WdfGetDriver
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdriver.h
 req.include-header: Wdf.h

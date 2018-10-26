@@ -4,11 +4,8 @@ title: _WHEA_XPF_MCA_SECTION
 author: windows-driver-content
 description: 
 ms.assetid: befdfe81-69c0-42d1-8359-b005b02d314f
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _WHEA_XPF_MCA_SECTION, WHEA_XPF_MCA_SECTION, *PWHEA_XPF_MCA_SECTION, 
 req.header: ntddk.h
 req.include-header:

@@ -6,11 +6,8 @@ description: The TCP_OFFLOAD_STATE_CONST structure contains the constant variabl
 old-location: netvista\tcp_offload_state_const.htm
 tech.root: netvista
 ms.assetid: 3e80f963-a494-475a-a246-abe5674dbcb6
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PTCP_OFFLOAD_STATE_CONST, PTCP_OFFLOAD_STATE_CONST, PTCP_OFFLOAD_STATE_CONST structure pointer [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATE_CONST, TCP_OFFLOAD_STATE_CONST structure [Network Drivers Starting with Windows Vista], _TCP_OFFLOAD_STATE_CONST, ndischimney/PTCP_OFFLOAD_STATE_CONST, ndischimney/TCP_OFFLOAD_STATE_CONST, netvista.tcp_offload_state_const, tcp_chim_struct_d6f90719-24f7-49d1-9253-5d5db776f192.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
@@ -136,7 +133,7 @@ The initial maximum segment size (MSS) advertised by the remote endpoint during 
 ### -field HashValue
 
 A 32-bit hash value that the offload target uses for 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/receive-side-scaling-on-an-offloaded-tcp-connection">receive side
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/receive-side-scaling-on-an-offloaded-tcp-connection">receive side
      scaling (RSS)</a> processing on the TCP connection if the offload target supports RSS.
 
 

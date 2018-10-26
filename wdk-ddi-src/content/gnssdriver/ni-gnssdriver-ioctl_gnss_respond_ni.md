@@ -6,11 +6,8 @@ description: The IOCTL_GNSS_RESPOND_NI control code is used by the GNSS adapter 
 old-location: gnss\ioctl_gnss_respond_ni.htm
 tech.root: gnss
 ms.assetid: AEEB014C-653F-459A-A04A-6E0732E8E5B0
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_GNSS_RESPOND_NI, IOCTL_GNSS_RESPOND_NI control, IOCTL_GNSS_RESPOND_NI control code [Sensor Devices], gnss.ioctl_gnss_respond_ni, gnssdriver/IOCTL_GNSS_RESPOND_NI
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: gnssdriver.h
 req.include-header: 

@@ -1,5 +1,0 @@
-# [Windows Device Testing Framework (WDTF)](../_dtf/index.md)
-## [Wdtfdriversetupdeviceaction.h](index.md)
-### [IWDTFDriverSetupAction2::UnInstallDriverPermanently](../wdtfdriversetupdeviceaction/nf-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2-uninstalldriverpermanently.md)
-### [IWDTFDriverSetupAction2::UpdateDriver](../wdtfdriversetupdeviceaction/nf-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2-updatedriver.md)
-### [IWDTFDriverSetupAction2 interface](../wdtfdriversetupdeviceaction/nn-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2.md)

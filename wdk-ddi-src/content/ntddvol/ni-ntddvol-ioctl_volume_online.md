@@ -6,11 +6,8 @@ description: The IOCTL_VOLUME_ONLINE IOCTL puts the volume in an ONLINE state, w
 old-location: storage\ioctl_volume_online.htm
 tech.root: storage
 ms.assetid: 3391bda9-2eec-4c03-84ed-76b89e2c0cf0
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_VOLUME_ONLINE, IOCTL_VOLUME_ONLINE control, IOCTL_VOLUME_ONLINE control code [Storage Devices], k307_236159f9-4ec2-4dec-9d34-5b4ecb8a2147.xml, ntddvol/IOCTL_VOLUME_ONLINE, storage.ioctl_volume_online
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddvol.h
 req.include-header: Ntddvol.h

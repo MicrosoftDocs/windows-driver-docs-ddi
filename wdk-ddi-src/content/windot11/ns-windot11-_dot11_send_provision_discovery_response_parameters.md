@@ -6,11 +6,8 @@ description: The parameters for a response to a provision discovery request are 
 old-location: netvista\dot11_send_provision_discovery_response_parameters.htm
 tech.root: netvista
 ms.assetid: C6F937B8-6C3B-4D95-ADE0-931463EB57C3
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, netvista.dot11_send_provision_discovery_response_parameters, windot11/DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, windot11/PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Windot11.h
@@ -42,7 +39,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, *PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # _DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS structure
@@ -57,7 +55,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS {
   NDIS_OBJECT_HEADER Header;
   DOT11_MAC_ADDRESS  ReceiverDeviceAddress;
@@ -67,7 +65,7 @@ typedef struct _DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS {
   ULONG              uIEsOffset;
   ULONG              uIEsLength;
 } DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, *PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS;
-````
+```
 
 
 ## -struct-fields

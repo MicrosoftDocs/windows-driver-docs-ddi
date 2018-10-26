@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NetDefaultAdapterInitAllocate method allocates a NETADAPTER_INIT structure that a client driver uses when creating a new default NETADAPTER object.
 tech.root: netvista
 ms.assetid: 3d76e324-cb65-42c4-b0a7-ea97bb9efc49
-ms.author: windowsdriverdev
 ms.date: 08/01/2018
 ms.topic: function
 ms.keywords: NetDefaultAdapterInitAllocate

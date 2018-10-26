@@ -6,11 +6,8 @@ description: The PcRegisterAdapterPnpManagement function registers the adapter's
 old-location: audio\pcregisteradapterpnpmanagement.htm
 tech.root: audio
 ms.assetid: DF597216-FB81-466C-871E-5E08C69B78DA
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: PcRegisterAdapterPnPManagement, PcRegisterAdapterPnPManagement function [Audio Devices], PcRegisterAdapterPnpManagement, audio.pcregisteradapterpnpmanagement, portcls/PcRegisterAdapterPnPManagement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: portcls.h
 req.include-header: Portcls.h

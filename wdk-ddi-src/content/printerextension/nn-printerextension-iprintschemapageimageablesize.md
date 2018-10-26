@@ -6,11 +6,8 @@ description: Exposes the PageImageableSize property of PrintCapabilities. The pr
 old-location: print\iprintschemapageimageablesize_interface.htm
 tech.root: print
 ms.assetid: C8E9278D-D24A-4EEC-8F68-D77C76ECCC40
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintSchemaPageImageableSize, IPrintSchemaPageImageableSize interface [Print Devices], IPrintSchemaPageImageableSize interface [Print Devices],described, print.iprintschemapageimageablesize_interface, printerextension/IPrintSchemaPageImageableSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: printerextension.h
 req.include-header: 

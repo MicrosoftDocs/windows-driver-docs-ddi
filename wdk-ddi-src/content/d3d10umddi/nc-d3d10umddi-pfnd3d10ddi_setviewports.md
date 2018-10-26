@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The SetViewports function sets viewports.
 old-location: display\setviewports.htm
 ms.assetid: f5a55dd3-a8c4-4741-b99e-105021d79603
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_SETVIEWPORTS, PFND3D10DDI_SETVIEWPORTS callback, SetViewports, SetViewports callback function [Display Devices], UserModeDisplayDriverDx10_Functions_fbab11b0-f3cc-41f1-afc8-e372a778255a.xml, d3d10umddi/SetViewports, display.setviewports
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,36 +57,27 @@ The <i>SetViewports</i> function sets viewports.
 
 ### -param Arg1
 
+*hDevice* [in]
 
-### -param NumViewports [in]
+A handle to the display device (graphics context).
 
- The total number of viewports that the <i>pViewports</i> parameter specifies. 
+### -param NumViewports 
+
+[in] The total number of viewports that the <i>pViewports</i> parameter specifies. 
 
 
-### -param ClearViewports [in]
+### -param ClearViewports 
 
- The number of viewports after the number of viewports that <i>NumViewports </i>specifies to be set to <b>NULL</b>. This number represents the difference between the previous number of viewports (that is, when the Microsoft Direct3D runtime previously called <i>SetViewports</i>) and the new number of viewports. 
+[in] The number of viewports after the number of viewports that <i>NumViewports </i>specifies to be set to <b>NULL</b>. This number represents the difference between the previous number of viewports (that is, when the Microsoft Direct3D runtime previously called <i>SetViewports</i>) and the new number of viewports. 
 
 Note that the number that <i>ClearViewports</i> specifies is only an optimization aid because the user-mode display driver could calculate this number. 
 
 
 ### -param *
 
+*pViewports* [in]
 
-
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - pViewports [in]
-
- An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff542020">D3D10_DDI_VIEWPORT</a> structures for the viewports to set. 
+An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff542020">D3D10_DDI_VIEWPORT</a> structures for the viewports to set. 
 
 
 ## -returns

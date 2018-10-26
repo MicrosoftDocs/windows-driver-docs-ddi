@@ -6,11 +6,8 @@ description: The KsAddObjectCreateItemToDeviceHeader function adds the specified
 old-location: stream\ksaddobjectcreateitemtodeviceheader.htm
 tech.root: stream
 ms.assetid: cf508b5c-4af8-4371-b833-eaa71535afc5
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsAddObjectCreateItemToDeviceHeader, KsAddObjectCreateItemToDeviceHeader function [Streaming Media Devices], ks/KsAddObjectCreateItemToDeviceHeader, ksfunc_89d7ee34-62de-4702-9cfa-5e3b6c9a9819.xml, stream.ksaddobjectcreateitemtodeviceheader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

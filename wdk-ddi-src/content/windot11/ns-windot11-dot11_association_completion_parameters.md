@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_association_completion_parameters.htm
 tech.root: netvista
 ms.assetid: 770962e3-0339-46f8-a789-7c9bbf9e058f
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_ASSOCIATION_COMPLETION_PARAMETERS, DOT11_ASSOCIATION_COMPLETION_PARAMETERS, DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_54cece34-410b-4c18-8657-47db6cab5518.xml, PDOT11_ASSOCIATION_COMPLETION_PARAMETERS, PDOT11_ASSOCIATION_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_association_completion_parameters, windot11/DOT11_ASSOCIATION_COMPLETION_PARAMETERS, windot11/PDOT11_ASSOCIATION_COMPLETION_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -42,7 +39,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_ASSOCIATION_COMPLETION_PARAMETERS, *PDOT11_ASSOCIATION_COMPLETION_PARAMETERS
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure
@@ -57,7 +55,7 @@ The DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure specifies the results of t
 
 ## -syntax
 
-````
+```cpp
 typedef struct DOT11_ASSOCIATION_COMPLETION_PARAMETERS {
   NDIS_OBJECT_HEADER     Header;
   DOT11_MAC_ADDRESS      MacAddr;
@@ -86,7 +84,7 @@ typedef struct DOT11_ASSOCIATION_COMPLETION_PARAMETERS {
   DOT11_CIPHER_ALGORITHM MulticastMgmtCipher;
   ULONG                  uAssocComebackTime;
 } DOT11_ASSOCIATION_COMPLETION_PARAMETERS, *PDOT11_ASSOCIATION_COMPLETION_PARAMETERS;
-````
+```
 
 ## -struct-fields
 

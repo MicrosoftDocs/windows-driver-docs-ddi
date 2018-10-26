@@ -6,11 +6,8 @@ description: Supports the debug output stream.
 old-location: debugger\idebugoutputstream.htm
 tech.root: debugger
 ms.assetid: 7A9AB25B-2B8B-4E8A-9E67-79C56181E5D9
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugOutputStream, IDebugOutputStream interface [Windows Debugging], IDebugOutputStream interface [Windows Debugging],described, dbgeng/IDebugOutputStream, debugger.idebugoutputstream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

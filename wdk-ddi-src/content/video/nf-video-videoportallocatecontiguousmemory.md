@@ -6,11 +6,8 @@ description: The VideoPortAllocateContiguousMemory function is obsolete in Windo
 old-location: display\videoportallocatecontiguousmemory.htm
 tech.root: display
 ms.assetid: ba23f4d4-7e3d-4bfc-acf7-68dab01d2f61
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortAllocateContiguousMemory, VideoPortAllocateContiguousMemory function [Display Devices], VideoPort_Functions_5aed176c-b0d1-4b0d-8d0d-7689bc31d661.xml, display.videoportallocatecontiguousmemory, video/VideoPortAllocateContiguousMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: video.h
 req.include-header: Video.h

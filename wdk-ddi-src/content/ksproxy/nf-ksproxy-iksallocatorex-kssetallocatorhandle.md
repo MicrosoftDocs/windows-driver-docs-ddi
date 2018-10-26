@@ -6,11 +6,8 @@ description: Sets the handle for an allocator.
 old-location: stream\iksallocatorex_kssetallocatorhandle.htm
 tech.root: stream
 ms.assetid: E259B3D0-7536-4287-A7A2-367407D97F33
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IKsAllocatorEx interface [Streaming Media Devices],KsSetAllocatorHandle method, IKsAllocatorEx.KsSetAllocatorHandle, IKsAllocatorEx::KsSetAllocatorHandle, KsSetAllocatorHandle, KsSetAllocatorHandle method [Streaming Media Devices], KsSetAllocatorHandle method [Streaming Media Devices],IKsAllocatorEx interface, ksproxy/IKsAllocatorEx::KsSetAllocatorHandle, stream.iksallocatorex_kssetallocatorhandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ksproxy.h
 req.include-header: Ksproxy.h

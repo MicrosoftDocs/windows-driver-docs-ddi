@@ -6,11 +6,8 @@ description: D3DDDI_RESERVEGPUVIRTUALADDRESS is used with pfnReserveGpuVirtualAd
 old-location: display\d3dddi_reservegpuvirtualaddress.htm
 tech.root: display
 ms.assetid: 89E8FCC6-B618-4D7E-B1E6-59E85261BE3C
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDI_RESERVEGPUVIRTUALADDRESS, D3DDDI_RESERVEGPUVIRTUALADDRESS structure [Display Devices], d3dukmdt/D3DDDI_RESERVEGPUVIRTUALADDRESS, display.d3dddi_reservegpuvirtualaddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h

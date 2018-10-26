@@ -6,11 +6,8 @@ description: The SDP_NODE_DATA union holds the data of an element in a tree-base
 old-location: bltooth\sdp_node_data.htm
 tech.root: bltooth
 ms.assetid: ce1f9f1b-2215-4b39-b5e6-a5076f02af64
-ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: "*PSDP_NODE_DATA, PSDP_NODE_DATA, PSDP_NODE_DATA union pointer [Bluetooth Devices], SDP_NODE_DATA, SDP_NODE_DATA union [Bluetooth Devices], _SDP_NODE_DATA, bltooth.sdp_node_data, bth_structs_c97da04d-31d0-4e0b-b909-9a1fae7d53dd.xml, sdpnode/PSDP_NODE_DATA, sdpnode/SDP_NODE_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: sdpnode.h
 req.include-header: Sdpnode.h

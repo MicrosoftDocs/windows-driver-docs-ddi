@@ -5,11 +5,8 @@ author: windows-driver-content
 description: D3DKMTMakeResident is used to add a resource to the device residency list and increment the residency reference count on this allocation.
 old-location: display\d3dkmtmakeresident.htm
 ms.assetid: 5F4E17CB-3B8B-4BBA-A819-B8E28183F1CB
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTMakeResident, D3DKMTMakeResident function [Display Devices], d3dkmthk/D3DKMTMakeResident, display.d3dkmtmakeresident
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
@@ -67,7 +64,7 @@ req.typenames:
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906323">D3DDDI_MAKERESIDENT</a> structure that describes the operation.
 

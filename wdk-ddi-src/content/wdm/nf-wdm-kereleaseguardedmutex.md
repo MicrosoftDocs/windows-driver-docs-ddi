@@ -6,11 +6,8 @@ description: The KeReleaseGuardedMutex routine releases a guarded mutex acquired
 old-location: kernel\kereleaseguardedmutex.htm
 tech.root: kernel
 ms.assetid: 0734094d-0386-4b00-a2cb-881b782108dc
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeReleaseGuardedMutex, KeReleaseGuardedMutex routine [Kernel-Mode Driver Architecture], k105_a338f1ba-027d-4637-a50f-776d60bd7da0.xml, kernel.kereleaseguardedmutex, wdm/KeReleaseGuardedMutex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

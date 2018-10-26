@@ -6,11 +6,8 @@ description: Provides the context associated with an asynchronous operation.
 old-location: print\iprinterextensionasyncoperation.htm
 tech.root: print
 ms.assetid: AA862667-42D6-4A82-9698-1C43E9EEC434
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrinterExtensionAsyncOperation, IPrinterExtensionAsyncOperation interface [Print Devices], IPrinterExtensionAsyncOperation interface [Print Devices],described, print.iprinterextensionasyncoperation, printerextension/IPrinterExtensionAsyncOperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: printerextension.h
 req.include-header: 

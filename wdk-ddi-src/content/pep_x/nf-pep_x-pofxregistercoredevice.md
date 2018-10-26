@@ -6,11 +6,8 @@ description: The PoFxRegisterCoreDevice routine registers a new core system reso
 old-location: kernel\pofxregistercoredevice.htm
 tech.root: kernel
 ms.assetid: D1564DB7-57D9-44B2-8ED2-1170CA4C22EE
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PoFxRegisterCoreDevice, PoFxRegisterCoreDevice routine [Kernel-Mode Driver Architecture], kernel.pofxregistercoredevice, pepfx/PoFxRegisterCoreDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pep_x.h
 req.include-header: Pep_x.h
@@ -61,7 +58,7 @@ The <b>PoFxRegisterCoreDevice</b> routine registers a new core system resource w
 
 ### -param Id [in]
 
-A string that uniquely identifies the core system resource. This member is a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
+A string that uniquely identifies the core system resource. This member is a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
 
 
 ### -param Device [in]

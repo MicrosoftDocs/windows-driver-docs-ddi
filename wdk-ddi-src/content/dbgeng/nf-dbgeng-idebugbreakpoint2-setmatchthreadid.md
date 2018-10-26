@@ -6,11 +6,8 @@ description: The SetMatchThreadId method sets the engine thread ID of the thread
 old-location: debugger\setmatchthreadid.htm
 tech.root: debugger
 ms.assetid: 66170e28-24db-4125-bd4e-ef07e8e82e79
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ComOther_5100cd0c-7d69-4210-9d32-ca1e9bd321aa.xml, IDebugBreakpoint interface [Windows Debugging],SetMatchThreadId method, IDebugBreakpoint2 interface [Windows Debugging],SetMatchThreadId method, IDebugBreakpoint2.SetMatchThreadId, IDebugBreakpoint2::SetMatchThreadId, IDebugBreakpoint::SetMatchThreadId, SetMatchThreadId, SetMatchThreadId method [Windows Debugging], SetMatchThreadId method [Windows Debugging],IDebugBreakpoint interface, SetMatchThreadId method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetMatchThreadId, dbgeng/IDebugBreakpoint::SetMatchThreadId, debugger.setmatchthreadid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

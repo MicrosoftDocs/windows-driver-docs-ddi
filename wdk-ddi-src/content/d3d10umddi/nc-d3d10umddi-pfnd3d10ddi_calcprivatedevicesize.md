@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The CalcPrivateDeviceSize function determines the size of a memory region that the user-mode display driver requires from the Microsoft Direct3D runtime to store frequently-accessed data.
 old-location: display\calcprivatedevicesize.htm
 ms.assetid: 8221a99a-1b46-48ba-8930-ac973e009eee
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CalcPrivateDeviceSize, CalcPrivateDeviceSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATEDEVICESIZE, PFND3D10DDI_CALCPRIVATEDEVICESIZE callback, UserModeDisplayDriverDx10_Functions_0de51abc-5fe3-4d65-bd0a-cc4f32f08d81.xml, d3d10umddi/CalcPrivateDeviceSize, display.calcprivatedevicesize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,24 +57,15 @@ The <b>CalcPrivateDeviceSize</b> function determines the size of a memory region
 
 ### -param Arg1
 
+*hAdapter* [in]
+
+A handle that identifies the graphics adapter. 
 
 ### -param *
 
+*pData* [in]
 
-
-
-
-
-
-
-#### - hAdapter [in]
-
- A handle that identifies the graphics adapter. 
-
-
-#### - pData [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541649">D3D10DDIARG_CALCPRIVATEDEVICESIZE</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541649">D3D10DDIARG_CALCPRIVATEDEVICESIZE</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region.
 
 
 ## -returns

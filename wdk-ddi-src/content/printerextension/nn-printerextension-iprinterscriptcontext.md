@@ -6,11 +6,8 @@ description: Passed to all third-party constraints JavaScript functions, and pro
 old-location: print\iprinterscriptcontext.htm
 tech.root: print
 ms.assetid: B44B47EA-6848-430E-9C10-F6DD460C2304
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrinterScriptContext, IPrinterScriptContext interface [Print Devices], IPrinterScriptContext interface [Print Devices],described, print.iprinterscriptcontext, printerextension/IPrinterScriptContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: printerextension.h
 req.include-header: 

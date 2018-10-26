@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Creates a rasterizer state.
 old-location: display\createrasterizerstate_d3d11_1_.htm
 ms.assetid: 5640e1c9-6a38-4eca-9048-0bc9ff66c43c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateRasterizerState(D3D11_1), CreateRasterizerState(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CREATERASTERIZERSTATE, PFND3D11_1DDI_CREATERASTERIZERSTATE callback, d3d10umddi/CreateRasterizerState(D3D11_1), display.createrasterizerstate_d3d11_1_, display.pfncreaterasterizerstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,40 +57,28 @@ Creates a rasterizer state.
 
 ### -param Arg1
 
-
-### -param *
-
-
-### -param Arg2
-
-
-### -param Arg3
-
-
-
-
-
-
-
-
-#### - hDevice
+*hDevice* [in]
 
 A handle to the display device (graphics context).
 
+### -param *
 
-#### - hRTRasterizerState
+*pRasterizerDesc* [in]
 
-A handle to the rasterizer state that the driver should use when it calls back into the Direct3D runtime.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451052">D3D11_1_DDI_RASTERIZER_DESC</a> structure that describes the parameters that the user-mode display driver uses to create a rasterizer state.
 
+### -param Arg2
 
-#### - hRasterizerState
+*hRasterizerState*
 
 A handle to the driver's private data for the rasterizer state. The driver returns the size, in bytes, of the memory region that the Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/76d0228e-a6e5-425e-a2b6-7d719dbfa43d">CalcPrivateRasterizerStateSize(D3D11_1)</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its rasterizer state object.
 
+### -param Arg3
 
-#### - pRasterizerDesc [in]
+*hRTRasterizerState*
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451052">D3D11_1_DDI_RASTERIZER_DESC</a> structure that describes the parameters that the user-mode display driver uses to create a rasterizer state.
+A handle to the rasterizer state that the driver should use when it calls back into the Direct3D runtime.
+
 
 
 ## -returns

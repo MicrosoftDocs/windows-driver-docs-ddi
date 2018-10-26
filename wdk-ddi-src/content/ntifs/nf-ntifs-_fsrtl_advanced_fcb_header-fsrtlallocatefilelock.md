@@ -6,11 +6,8 @@ description: The FsRtlAllocateFileLock routine allocates and initializes a new F
 old-location: ifsk\fsrtlallocatefilelock.htm
 tech.root: ifsk
 ms.assetid: 148c177d-162a-4578-a40c-2e5fe6176d51
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlAllocateFileLock, FsRtlAllocateFileLock routine [Installable File System Drivers], fsrtlref_cb42425d-add9-4c5b-bddc-54dc55448902.xml, ifsk.fsrtlallocatefilelock, ntifs/FsRtlAllocateFileLock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h

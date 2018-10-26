@@ -6,11 +6,8 @@ description: The FLT_RELATED_CONTEXTS_EX structure contains a minifilter driver'
 old-location: ifsk\flt_related_contexts_ex.htm
 tech.root: ifsk
 ms.assetid: 9D3E77AE-C63D-4253-8520-6A9ACCBB89CC
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PFLT_RELATED_CONTEXTS_EX, FLT_RELATED_CONTEXTS_EX, FLT_RELATED_CONTEXTS_EX structure [Installable File System Drivers], PFLT_RELATED_CONTEXTS_EX, PFLT_RELATED_CONTEXTS_EX structure pointer [Installable File System Drivers], _FLT_RELATED_CONTEXTS_EX, fltkernel/FLT_RELATED_CONTEXTS_EX, fltkernel/PFLT_RELATED_CONTEXTS_EX, ifsk.flt_related_contexts_ex"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

@@ -6,11 +6,8 @@ description: The FinishSessionKeyRefresh function indicates that all buffers fro
 old-location: display\finishsessionkeyrefresh.htm
 tech.root: display
 ms.assetid: e245f6f9-f4ea-429d-8421-be4fef1bf17e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: FinishSessionKeyRefresh, FinishSessionKeyRefresh callback function [Display Devices], PFND3DDDI_FINISHSESSIONKEYREFRESH, PFND3DDDI_FINISHSESSIONKEYREFRESH callback, UserModeDisplayDriver_Functions_6b7be711-8539-4b49-99d0-efbd424b33cc.xml, d3dumddi/FinishSessionKeyRefresh, display.finishsessionkeyrefresh
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,7 +57,7 @@ The <i>FinishSessionKeyRefresh</i> function indicates that all buffers from that
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +69,9 @@ The <i>FinishSessionKeyRefresh</i> function indicates that all buffers from that
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543120">D3DDDIARG_FINISHSESSIONKEYREFRESH</a> structure that describes the session. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543120">D3DDDIARG_FINISHSESSIONKEYREFRESH</a> structure that describes the session. 
 
 
 ## -returns

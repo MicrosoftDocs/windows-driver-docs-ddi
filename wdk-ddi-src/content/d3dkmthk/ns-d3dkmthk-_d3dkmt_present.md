@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMT_PRESENT structure describes the present operation.
 old-location: display\d3dkmt_present.htm
 ms.assetid: 959d17f1-588b-4b65-a3ea-e4609aa84eed
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_PRESENT, D3DKMT_PRESENT structure [Display Devices], OpenGL_Structs_f3a9c661-7b2d-4f75-864f-c5f2a3c591ad.xml, _D3DKMT_PRESENT, d3dkmthk/D3DKMT_PRESENT, display.d3dkmt_present
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
@@ -173,43 +170,43 @@ Supported starting with Windows 8.
 
 ### -field hAdapter
 
- 
+A handle to the graphics adapter.
 
 
 ### -field hIndirectContext
 
  
-
+The indirect adapter context for redirecting through the DoD present path. This member is valid only if the PresentIndirect flag is set.
 
 ### -field Duration
 
- 
+Per-present duration. Valid only when the DurationValid flag is set.
 
 
 ### -field BroadcastSrcAllocation
 
  
-
+Linked display adapter for the source.
 
 ### -field BroadcastDstAllocation
 
  
-
+Linked display adapter for the destination.
 
 ### -field PrivateDriverDataSize
 
  
-
+Private driver data size.
 
 ### -field pPrivateDriverData
 
- 
+Pointer to a buffer that contains optional private driver data.
 
 
 ### -field bOptimizeForComposition
 
  
-
+Indicates whether the device is optimized for composition.
 
 
 

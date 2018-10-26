@@ -5,11 +5,8 @@ author: windows-driver-content
 description: D3DKMT_RECLAIMALLOCATIONS2 describes video memory resources that are to be reclaimed and that the driver previously offered for reuse. Used with the D3DKMTReclaimAllocations2 function.
 old-location: display\d3dkmt_reclaimallocations2.htm
 ms.assetid: 7980F1FD-D7C2-4C74-8652-89FD38BE4D1F
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_RECLAIMALLOCATIONS2, D3DKMT_RECLAIMALLOCATIONS2 structure [Display Devices], _D3DKMT_RECLAIMALLOCATIONS2, d3dkmthk/D3DKMT_RECLAIMALLOCATIONS2, display.d3dkmt_reclaimallocations2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
@@ -87,8 +84,13 @@ If <b>HandleList</b> is not <b>NULL</b>, the <b>pResources</b> member must be <b
 
 ### -field pDiscarded
 
-[out] Optional array of boolean variables  specifying whether each resource or allocation was discarded.
+[out] Optional array of boolean variables specifying whether each resource or allocation was discarded.
 
+*pResults*
+
+[out] Pointer to an array of [D3DDDI_RECLAIM_RESULT](../d3dukmdt/ne-d3dukmdt-_d3dddi_reclaim_result.md) enumerations that represent results, specifying whether each resource or allocation is OK, discarded, or has no commitment. 
+
+*pResults* is valid only if the DXGKDDI_INTERFACE_VERSION and D3D_UMD_INTERFACE_VERSION are greater than or equal to DXGKDDI_INTERFACE_VERSION_WDDM2_1 and D3D_UMD_INTERFACE_VERSION_WDDM2_1, respectively.
 
 ### -field PagingFenceValue
 

@@ -6,11 +6,8 @@ description: The IPrintOemPS::ResetPDEV method allows a rendering plug-in for Ps
 old-location: print\iprintoemps_resetpdev.htm
 tech.root: print
 ms.assetid: 10248026-471a-4419-9c96-3502c24a6e96
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintOemPS interface [Print Devices],ResetPDEV method, IPrintOemPS.ResetPDEV, IPrintOemPS::ResetPDEV, ResetPDEV, ResetPDEV method [Print Devices], ResetPDEV method [Print Devices],IPrintOemPS interface, prcomoem/IPrintOemPS::ResetPDEV, print.iprintoemps_resetpdev, print_unidrv-pscript_rendering_d7b128bc-174c-4d06-8ffa-8df31ac22303.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

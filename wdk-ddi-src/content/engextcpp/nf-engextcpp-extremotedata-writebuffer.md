@@ -6,11 +6,8 @@ description: The WriteBuffer method writes data to the target's memory. The data
 old-location: debugger\extremotedata_writebuffer.htm
 tech.root: debugger
 ms.assetid: b50f0cf3-4cd5-4f9e-9749-49b1c9365a8f
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_0a08b058-ddc3-44e4-9d80-bb20d6e8f952.xml, ExtRemoteData class [Windows Debugging],WriteBuffer method, ExtRemoteData.WriteBuffer, ExtRemoteData::WriteBuffer, WriteBuffer, WriteBuffer method [Windows Debugging], WriteBuffer method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_writebuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp

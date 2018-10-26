@@ -6,11 +6,8 @@ description: The SetFormat method sets the KS data format of the MIDI stream.
 old-location: audio\iminiportmidistream_setformat.htm
 tech.root: audio
 ms.assetid: 35e11004-c716-4c6a-ba0a-be04750afb7a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IMiniportMidiStream interface [Audio Devices],SetFormat method, IMiniportMidiStream.SetFormat, IMiniportMidiStream::SetFormat, SetFormat, SetFormat method [Audio Devices], SetFormat method [Audio Devices],IMiniportMidiStream interface, audio.iminiportmidistream_setformat, audmp-routines_9e75b920-4cc0-4acb-83e6-f970524e0587.xml, portcls/IMiniportMidiStream::SetFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: Portcls.h

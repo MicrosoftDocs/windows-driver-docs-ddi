@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The SetRenderTargets function sets render target surfaces.
 old-location: display\setrendertargets.htm
 ms.assetid: 852893e6-1f1c-470a-ab72-f52c1e06e0c0
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_SETRENDERTARGETS, PFND3D10DDI_SETRENDERTARGETS callback, SetRenderTargets, SetRenderTargets callback function [Display Devices], UserModeDisplayDriverDx10_Functions_6d202eaa-50bb-4ffd-9217-a0c172974e49.xml, d3d10umddi/SetRenderTargets, display.setrendertargets
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,50 +57,32 @@ The <i>SetRenderTargets</i> function sets render target surfaces.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param *
 
+*phRenderTargetView* [in]
+
+An array of handles to the render target view objects to set. Note that some handle values can be <b>NULL</b>. 
 
 ### -param NumViews
 
+[in] The number of elements in the array that <i>phRenderTargetView</i> specifies.
 
 ### -param ClearSlots
 
-
-### -param Arg2
-
-
-
-
-
-
-
-
-#### - ClearTargets [in]
-
- The number of render target slots after the number of slots that <i>RTargets </i>specifies to be set to <b>NULL</b>. This number represents the difference between the previous number of render target view objects (that is, when the Microsoft Direct3D runtime previously called <i>SetRenderTargets</i>) and the new number of render target view objects. 
+[in] The number of render target slots after the number of slots that <i>RTargets </i>specifies to be set to <b>NULL</b>. This number represents the difference between the previous number of render target view objects (that is, when the Microsoft Direct3D runtime previously called <i>SetRenderTargets</i>) and the new number of render target view objects. 
 
 Note that the number that <i>ClearTargets</i> specifies is only an optimization aid because the user-mode display driver could calculate this number. 
 
+### -param Arg2
 
-#### - RTargets [in]
+*hDepthStencilView* [in]
 
- The number of elements in the array that <i>phRenderTargetView</i> specifies. 
+A handle to the depth stencil buffer to set. 
 
-
-#### - hDepthStencilView [in]
-
- A handle to the depth stencil buffer to set. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - phRenderTargetView [in]
-
- An array of handles to the render target view objects to set. Note that some handle values can be <b>NULL</b>. 
 
 
 ## -returns

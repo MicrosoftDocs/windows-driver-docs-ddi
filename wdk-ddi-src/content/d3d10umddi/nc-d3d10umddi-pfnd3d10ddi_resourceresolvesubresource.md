@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The ResourceResolveSubresource function resolves multiple samples to one pixel.
 old-location: display\resourceresolvesubresource.htm
 ms.assetid: f9f4a6e2-bc01-477f-a919-ec71871f665b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_RESOURCERESOLVESUBRESOURCE, PFND3D10DDI_RESOURCERESOLVESUBRESOURCE callback, ResourceResolveSubresource, ResourceResolveSubresource callback function [Display Devices], UserModeDisplayDriverDx10_Functions_bddd44ef-1872-4285-9b04-fdd509e84527.xml, d3d10umddi/ResourceResolveSubresource, display.resourceresolvesubresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,56 +57,40 @@ The <i>ResourceResolveSubresource</i> function resolves multiple samples to one 
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hDstResource* [in]
+
+A handle to the destination resource to resolve to. This resource must have been created as D3D10_USAGE_DEFAULT and single sampled.
 
 ### -param Arg3
 
+*DstSubresource* [in]
+
+An index that indicates the destination subresource to resolve to.
 
 ### -param Arg4
 
+*hSrcResource* [in]
+
+A handle to the source resource to resolve from.
 
 ### -param Arg5
 
+*SrcSubresource* [in]
+
+An index that indicates the source subresource to resolve from.
 
 ### -param Arg6
 
+*ResolveFormat* [in]
 
+A DXGI_FORMAT-typed value that indicates how to interpret the contents of the resolved resource.
 
-
-
-
-
-
-#### - DstSubresource [in]
-
- An index that indicates the destination subresource to resolve to. 
-
-
-#### - ResolveFormat [in]
-
- A DXGI_FORMAT-typed value that indicates how to interpret the contents of the resolved resource.
-
-
-#### - SrcSubresource [in]
-
- An index that indicates the source subresource to resolve from. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hDstResource [in]
-
- A handle to the destination resource to resolve to. This resource must have been created as D3D10_USAGE_DEFAULT and single sampled.
-
-
-#### - hSrcResource [in]
-
- A handle to the source resource to resolve from.
 
 
 ## -returns

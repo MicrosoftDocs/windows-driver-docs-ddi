@@ -6,11 +6,8 @@ description: Flags which describe the capabilities for driving the monitor.
 old-location: display\dxgk_monitorlinkinfo_capabilities.htm
 tech.root: display
 ms.assetid: 9838DF74-6561-40DB-A745-A15005B97AAC
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PDXGK_MONITORLINKINFO_CAPABILITIES, DXGK_MONITORLINKINFO_CAPABILITIES, DXGK_MONITORLINKINFO_CAPABILITIES union [Display Devices], PDXGK_MONITORLINKINFO_CAPABILITIES, PDXGK_MONITORLINKINFO_CAPABILITIES union pointer [Display Devices], _DXGK_MONITORLINKINFO_CAPABILITIES, d3dkmdt/DXGK_MONITORLINKINFO_CAPABILITIES, d3dkmdt/PDXGK_MONITORLINKINFO_CAPABILITIES, display.dxgk_monitorlinkinfo_capabilities"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmdt.h
 req.include-header: D3dkmddi.h
@@ -95,16 +92,21 @@ If TRUE, the timing generation for this display is independent from the timing g
 In general, this flag is target based rather than based on the combination of the target and the attached display. However, there may be cases where some baseline capability is dedicated but beyond the baseline resources that are shared across targets.  In this case, if the attached display’s maximum requirements fit within the baseline, the driver would be able to report the timing generation as dedicated and therefore enable optimized enumeration of cofunctional timings.
 
 
-### -field Reserved
+### -field TargetIndependentPrimary
 
-This value is reserved for system use.
+Indicates that the target can support the HDR pixel format.
 
+### -field SyncLockIdentical
 
-### -field Value
+The sync lock is identical.
 
+### -field Hdr10Plus
 
+Supports HDR10 plus.
 
+### -field DolbyVisionLowLatency
 
+Supports dolby vision at low latency.
 
 ### -field TargetIndependentPrimary
 
@@ -112,7 +114,7 @@ Used to indicate that the primary surfaces that are used to scan out to this dis
 
 In WDDM 2.4 and later, the only use of this capability is to verify that it is set when the SyncLockIdentical flag is set.
 
-### -field SyncLockIdentical
+This value is reserved for system use.
 
 The display attached to this target can be synchronized to other displays on this adapter which also support synchronization if the target modes are identical.
 

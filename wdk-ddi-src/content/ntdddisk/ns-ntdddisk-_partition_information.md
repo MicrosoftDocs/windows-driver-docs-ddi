@@ -6,11 +6,8 @@ description: The PARTITION_INFORMATION structure contains partition information 
 old-location: storage\partition_information.htm
 tech.root: storage
 ms.assetid: 06c3ed56-3640-431d-a4f0-bf3228a02cc2
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PPARTITION_INFORMATION, PARTITION_INFORMATION, PARTITION_INFORMATION structure [Storage Devices], PPARTITION_INFORMATION, PPARTITION_INFORMATION structure pointer [Storage Devices], _PARTITION_INFORMATION, ntdddisk/PARTITION_INFORMATION, ntdddisk/PPARTITION_INFORMATION, storage.partition_information, structs-disk_19ff49c5-6929-46fb-a9c2-4850969a99a8.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The pfnSetPredication callback function denotes that subsequent video operations and resource manipulation commands are not actually performed if the resulting predicate data of the predicate is equal to the operation specified.
 old-location: display\pfnd3d12ddi_set_predication.htm
 ms.assetid: C5830688-4FC6-4D3F-82EB-15354B28C5F1
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_SET_PREDICATION, PFND3D12DDI_SET_PREDICATION callback, d3d12umddi/pfnSetPredication, display.pfnd3d12ddi_set_predication, pfnSetPredication, pfnSetPredication callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
@@ -60,41 +57,25 @@ The <i>pfnSetPredication</i> callback function denotes that subsequent video ope
 
 ### -param Arg1
 
+*hCommandList*
+
 A handle to the driver's data for the command list. The driver uses this region of memory to store internal data structures that are related to its command list.
 
 ### -param Arg2
 
+*hResource*
+
+The handle of a resource.
 
 ### -param Arg3
 
 
 ### -param Arg4
 
-
-
-
-
-
-
-
-#### - PredicationOp
+*PredicationOp*
 
 A predication operation. For more information, see the <a href="https://msdn.microsoft.com/70676251-BCD7-4996-B5B7-96A8D9B107DB">D3D12DDI_PREDICATION_OP</a> enumeration.
 
-
-#### - Uint64
-
-An integer.
-
-
-#### - hCommandList
-
-The handle of a command list.
-
-
-#### - hResource
-
-The handle of a resource.
 
 
 ## -returns

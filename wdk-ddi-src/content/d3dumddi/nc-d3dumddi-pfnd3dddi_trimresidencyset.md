@@ -6,11 +6,8 @@ description: pfnTrimResidencySet is used to trim the residency list for a given 
 old-location: display\pfntrimresidencyset.htm
 tech.root: display
 ms.assetid: 192F419C-F38F-4B42-8111-86D58D6781DA
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_TRIMRESIDENCYSET, PFND3DDDI_TRIMRESIDENCYSET callback, d3dukmdt/pfnTrimResidencySet, display.pfntrimresidencyset, pfnTrimResidencySet, pfnTrimResidencySet callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h, D3dkmddi.h
@@ -72,7 +69,7 @@ A handle to the display device.
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906759">D3DDDIARG_TRIMRESIDENCYSET</a> structure that provides the details of the requested operation.
 

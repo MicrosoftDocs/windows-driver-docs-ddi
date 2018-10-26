@@ -6,11 +6,8 @@ description: Reserved for system use.
 old-location: ifsk\rtlcustomcptounicoden.htm
 tech.root: ifsk
 ms.assetid: 8f29aca1-9d38-4c28-976f-64549767b303
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlCustomCPToUnicodeN, RtlCustomCPToUnicodeN function [Installable File System Drivers], ifsk.rtlcustomcptounicoden, ntifs/RtlCustomCPToUnicodeN, rtlref_9b39575d-4ba4-49fa-9281-2858d3e2631d.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h
@@ -65,27 +62,27 @@ The <b>RtlCustomCPToUnicodeN</b> routine is reserved for system use. See <a href
 
 ### -param UnicodeString
 
-TBD
+Reserved.
 
 
 ### -param MaxBytesInUnicodeString
 
-TBD
+Reserved.
 
 
 ### -param BytesInUnicodeString
 
-TBD
+Reserved.
 
 
 ### -param CustomCPString
 
-TBD
+Reserved.
 
 
 ### -param BytesInCustomCPString
 
-TBD
+Reserved.
 
 
 

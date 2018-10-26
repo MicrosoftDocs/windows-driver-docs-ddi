@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The CalcPrivateShaderSize function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a shader.
 old-location: display\calcprivateshadersize.htm
 ms.assetid: 76cdddb0-b927-4547-ae1d-f5105905633b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CalcPrivateShaderSize, CalcPrivateShaderSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATESHADERSIZE, PFND3D10DDI_CALCPRIVATESHADERSIZE callback, UserModeDisplayDriverDx10_Functions_32a6a3cc-1a0d-4a20-a985-0e0e50daa914.xml, d3d10umddi/CalcPrivateShaderSize, display.calcprivateshadersize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,34 +57,21 @@ The <b>CalcPrivateShaderSize</b> function determines the size of the user-mode d
 
 ### -param Arg1
 
+*hDevice* [in] 
 
-### -param *pShaderCode
+A handle to the display device (graphics context).
 
+### -param 
+
+*pShaderCode* [in] 
+
+An array of CONST UINT tokens that make up the shader code.
 
 ### -param *
 
+*pSignatures* [in] 
 
-
-
-
-
-
-
-#### - hDevice
-
- [in] A handle to the display device (graphics context).
-
-
-#### - pCode
-
-
-      [in] An array of CONST UINT tokens that make up the shader code.
-     
-
-
-#### - pSignatures
-
- [in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541746">D3D10DDIARG_STAGE_IO_SIGNATURES</a> structure that makes up the shader's signature.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541746">D3D10DDIARG_STAGE_IO_SIGNATURES</a> structure that makes up the shader's signature.
 
 
 ## -returns

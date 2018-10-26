@@ -6,11 +6,8 @@ description: The DXVADDI_CONFIGPICTUREDECODE structure describes the configurati
 old-location: display\dxvaddi_configpicturedecode.htm
 tech.root: display
 ms.assetid: 3305b892-6785-4412-9b9e-86561c83764a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_23ba33fb-2b89-48c1-9455-6edc3bb8b9d3.xml, DXVADDI_CONFIGPICTUREDECODE, DXVADDI_CONFIGPICTUREDECODE structure [Display Devices], _DXVADDI_CONFIGPICTUREDECODE, d3dumddi/DXVADDI_CONFIGPICTUREDECODE, display.dxvaddi_configpicturedecode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -191,7 +188,7 @@ The preferred value for <b>ConfigHostInverseScan</b> is 1 if <b>ConfigResidDiffA
 
 ### -field ConfigSpecificIDCT
 
-[in] A UINT value that specifies the use of a specific <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">IDCT</a> method for off-host IDCT. A value of 1 in this member indicates the use of the IDCT that is specified in Annex W of ITU-T Recommendation H.263, which you can learn about from the <a href="http://go.microsoft.com/fwlink/p/?linkid=8741">International Telecommunication Union</a> website. A value of zero indicates that any compliant IDCT can be used for off-host IDCT. (Values other than zero and 1 are reserved.)
+[in] A UINT value that specifies the use of a specific <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">IDCT</a> method for off-host IDCT. A value of 1 in this member indicates the use of the IDCT that is specified in Annex W of ITU-T Recommendation H.263, which you can learn about from the <a href="https://go.microsoft.com/fwlink/p/?linkid=8741">International Telecommunication Union</a> website. A value of zero indicates that any compliant IDCT can be used for off-host IDCT. (Values other than zero and 1 are reserved.)
 
 <b>ConfigSpecificIDCT</b> must be zero if <b>ConfigResidDiffAccelerator</b> is zero, which indicates host-based residual difference decoding.
 

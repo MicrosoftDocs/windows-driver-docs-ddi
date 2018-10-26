@@ -6,11 +6,8 @@ description: The FltQueueDeferredIoWorkItem routine posts an IRP-based I/O opera
 old-location: ifsk\fltqueuedeferredioworkitem.htm
 tech.root: ifsk
 ms.assetid: c6a51b9b-544e-4595-842a-76c667928350
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_df42429d-485c-4c28-a9e7-b334d7ad52d7.xml, FltQueueDeferredIoWorkItem, FltQueueDeferredIoWorkItem routine [Installable File System Drivers], fltkernel/FltQueueDeferredIoWorkItem, ifsk.fltqueuedeferredioworkitem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_mac_info.htm
 tech.root: netvista
 ms.assetid: 0ca8814c-e91a-4f6a-b797-c440abf5cdd2
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_MAC_INFO, DOT11_MAC_INFO, DOT11_MAC_INFO structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_435a3e63-9d42-4b74-8280-d1a0456e3dbf.xml, PDOT11_MAC_INFO, PDOT11_MAC_INFO structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_mac_info, windot11/DOT11_MAC_INFO, windot11/PDOT11_MAC_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -42,7 +39,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_MAC_INFO, *PDOT11_MAC_INFO
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # DOT11_MAC_INFO structure
@@ -58,13 +56,13 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```cpp
 typedef struct DOT11_MAC_INFO {
   ULONG             uReserved;
   ULONG             uNdisPortNumber;
   DOT11_MAC_ADDRESS MacAddr;
 } DOT11_MAC_INFO, *PDOT11_MAC_INFO;
-````
+```
 
 
 ## -struct-fields

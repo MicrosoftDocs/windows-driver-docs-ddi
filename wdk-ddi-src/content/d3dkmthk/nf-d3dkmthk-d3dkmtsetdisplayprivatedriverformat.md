@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMTSetDisplayPrivateDriverFormat function changes the private-format attribute of a video present source.
 old-location: display\d3dkmtsetdisplayprivatedriverformat.htm
 ms.assetid: 4b720076-161f-47b4-b410-f9554e502a53
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTSetDisplayPrivateDriverFormat, D3DKMTSetDisplayPrivateDriverFormat function [Display Devices], OpenGL_Functions_742fb584-0b9d-4650-a0a6-64f3e3f55dff.xml, d3dkmthk/D3DKMTSetDisplayPrivateDriverFormat, display.d3dkmtsetdisplayprivatedriverformat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
@@ -68,7 +65,7 @@ The <b>D3DKMTSetDisplayPrivateDriverFormat</b> function changes the private-form
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548290">D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT</a> structure that describes how to format a video present source.
 

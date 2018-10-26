@@ -6,11 +6,8 @@ description: The USBD_UrbFree routine releases the URB that is allocated by USBD
 old-location: buses\usbd_urbfree.htm
 tech.root: usbref
 ms.assetid: DD80BAA0-EC01-4231-827A-962580D1E201
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: USBD_UrbFree, USBD_UrbFree routine [Buses], buses.usbd_urbfree, usbdlib/USBD_UrbFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usbdlib.h
 req.include-header: 

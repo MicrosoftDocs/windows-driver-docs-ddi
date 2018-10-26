@@ -6,11 +6,8 @@ description: The SM_SetPersistentBinding_OUT structure is used to receive output
 old-location: storage\sm_setpersistentbinding_out.htm
 tech.root: storage
 ms.assetid: 42d451ab-51dc-4b59-b6e9-42e02ec1b500
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSM_SetPersistentBinding_OUT, PSM_SetPersistentBinding_OUT, PSM_SetPersistentBinding_OUT structure pointer [Storage Devices], SM_SetPersistentBinding_OUT, SM_SetPersistentBinding_OUT structure [Storage Devices], _SM_SetPersistentBinding_OUT, hbapiwmi/PSM_SetPersistentBinding_OUT, hbapiwmi/SM_SetPersistentBinding_OUT, storage.sm_setpersistentbinding_out, structs-Fibre_efdd2145-a966-477a-a896-71adb1c9a1f0.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h

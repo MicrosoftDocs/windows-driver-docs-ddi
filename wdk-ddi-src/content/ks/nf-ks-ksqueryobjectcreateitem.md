@@ -6,11 +6,8 @@ description: The KsQueryObjectCreateItem function returns the create item assign
 old-location: stream\ksqueryobjectcreateitem.htm
 tech.root: stream
 ms.assetid: dd6d436c-6166-4baf-b180-67f7aa7238e3
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsQueryObjectCreateItem, KsQueryObjectCreateItem function [Streaming Media Devices], ks/KsQueryObjectCreateItem, ksfunc_57cde673-cd08-4018-b01e-45214058b435.xml, stream.ksqueryobjectcreateitem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

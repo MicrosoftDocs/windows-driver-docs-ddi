@@ -6,11 +6,8 @@ description: The PingIPAddress_IN structure holds the input data for the PingIPA
 old-location: storage\pingipaddress_in.htm
 tech.root: storage
 ms.assetid: 2dec9594-727e-44e6-8be8-2416ea77e447
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PPingIPAddress_IN, PPingIPAddress_IN, PPingIPAddress_IN structure pointer [Storage Devices], PingIPAddress_IN, PingIPAddress_IN structure [Storage Devices], _PingIPAddress_IN, iscsimgt/PPingIPAddress_IN, iscsimgt/PingIPAddress_IN, storage.pingipaddress_in, structs-iSCSI_4b2a763e-bb28-4132-9f29-08377e81dd82.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iscsimgt.h
 req.include-header: Iscsimgt.h

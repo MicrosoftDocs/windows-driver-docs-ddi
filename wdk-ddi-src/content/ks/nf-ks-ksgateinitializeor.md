@@ -6,11 +6,8 @@ description: The KsGateInitializeOr function initializes a KSGATE structure as a
 old-location: stream\ksgateinitializeor.htm
 tech.root: stream
 ms.assetid: a02a3b53-03fa-49d4-835c-88623c2f4d8b
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsGateInitializeOr, KsGateInitializeOr function [Streaming Media Devices], avfunc_6741b878-dfae-4d40-9040-ab78d32243e2.xml, ks/KsGateInitializeOr, stream.ksgateinitializeor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

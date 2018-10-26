@@ -6,11 +6,8 @@ description: The FltCreateSectionForDataScan routine creates a section object fo
 old-location: ifsk\fltcreatesectionfordatascan.htm
 tech.root: ifsk
 ms.assetid: D1215495-C737-45B6-BECD-8CB430C71DE8
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltCreateSectionForDataScan, FltCreateSectionForDataScan routine [Installable File System Drivers], fltkernel/FltCreateSectionForDataScan, ifsk.fltcreatesectionfordatascan
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

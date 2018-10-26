@@ -6,11 +6,8 @@ description: The DestroyExtensionDevice function releases resources for a Micros
 old-location: display\destroyextensiondevice.htm
 tech.root: display
 ms.assetid: 8c4bcab3-b903-4f39-aab0-7efb3b18d068
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DestroyExtensionDevice, DestroyExtensionDevice callback function [Display Devices], PFND3DDDI_DESTROYEXTENSIONDEVICE, PFND3DDDI_DESTROYEXTENSIONDEVICE callback, UserModeDisplayDriver_Functions_6d9ce1e0-efda-4633-83fb-fa6a5aa5f37b.xml, d3dumddi/DestroyExtensionDevice, display.destroyextensiondevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,12 +57,12 @@ The <b>DestroyExtensionDevice</b> function releases resources for a Microsoft Di
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param hExtension [in]
 
- A handle to the DirectX VA extension device that the <a href="https://msdn.microsoft.com/7e6dbb70-2e74-4ddb-a504-2c8145af99d9">CreateExtensionDevice</a> function created.
+A handle to the DirectX VA extension device that the <a href="https://msdn.microsoft.com/7e6dbb70-2e74-4ddb-a504-2c8145af99d9">CreateExtensionDevice</a> function created.
 
 
 ## -returns

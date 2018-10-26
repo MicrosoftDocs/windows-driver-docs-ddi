@@ -6,11 +6,8 @@ description: The UnlockAsync function unlocks a resource or a surface within the
 old-location: display\unlockasync.htm
 tech.root: display
 ms.assetid: 6af04c22-e559-4328-a20a-034b443fddc6
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_UNLOCKASYNC, PFND3DDDI_UNLOCKASYNC callback, UnlockAsync, UnlockAsync callback function [Display Devices], UserModeDisplayDriver_Functions_f2270e47-4bf2-4486-8e6b-919daabd7c48.xml, d3dumddi/UnlockAsync, display.unlockasync
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,7 +57,7 @@ The <i>UnlockAsync</i> function unlocks a resource or a surface within the resou
 
 ### -param hDevice [in]
 
- A handle to a display device (that is, the graphics context).
+A handle to a display device (that is, the graphics context).
 
 
 ### -param *
@@ -72,9 +69,9 @@ The <i>UnlockAsync</i> function unlocks a resource or a surface within the resou
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543395">D3DDDIARG_UNLOCKASYNC</a> structure that describes the resource or surface within the resource to unlock.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543395">D3DDDIARG_UNLOCKASYNC</a> structure that describes the resource or surface within the resource to unlock.
 
 
 ## -returns

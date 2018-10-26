@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Notifies the user-mode display driver about the new location of the driver function table. Implemented by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 old-location: display\relocatedevicefuncs_d3d11_2_.htm
 ms.assetid: BA2A1F90-6E30-4055-9374-943540AE2446
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DWDDM1_3DDI_RELOCATEDEVICEFUNCS, PFND3DWDDM1_3DDI_RELOCATEDEVICEFUNCS callback, RelocateDeviceFuncs(D3D11_2), RelocateDeviceFuncs(D3D11_2) callback function [Display Devices], d3d10umddi/RelocateDeviceFuncs(D3D11_2), display.relocatedevicefuncs_d3d11_2_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -62,24 +59,15 @@ Implemented by Windows Display Driver Model (WDDM) 1.3 and later user-mode displ
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - DeviceFuncs [in]
+*DeviceFuncs* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn458988">D3DWDDM1_3DDI_DEVICEFUNCS</a> structure that contains pointers to the functions of the user-mode display driver.
-
-
-#### - hDevice
-
-A handle to the display device (graphics context).
 
 
 ## -returns

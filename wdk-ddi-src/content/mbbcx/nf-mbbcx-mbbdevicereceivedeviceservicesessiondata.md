@@ -5,7 +5,6 @@ author: windows-driver-content
 description: Client drivers call the MbbDeviceReceiveServiceSessionData method to pass received device service session data up to an application through the MBBCx framework.
 tech.root: netvista
 ms.assetid: 691429b7-4abd-4a79-80bb-9dade10fda86
-ms.author: windowsdriverdev
 ms.date: 06/29/2018
 ms.topic: function
 ms.keywords: MbbDeviceReceiveDeviceServiceSessionData

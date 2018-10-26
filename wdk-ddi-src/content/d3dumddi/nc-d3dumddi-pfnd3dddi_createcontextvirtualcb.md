@@ -6,11 +6,8 @@ description: pfnCreateContextVirtualCb should be used with contexts that support
 old-location: display\pfncreatecontextvirtualcb.htm
 tech.root: display
 ms.assetid: 7787FEDF-E18C-4120-A073-A13933856F57
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_CREATECONTEXTVIRTUALCB, PFND3DDDI_CREATECONTEXTVIRTUALCB callback, d3dumddi/pfnCreateContextVirtualCb, display.pfncreatecontextvirtualcb, pfnCreateContextVirtualCb, pfnCreateContextVirtualCb callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -65,14 +62,7 @@ A handle to the display device.
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - pData [in, out]
+pData [in, out]
 
 A pointer to a [D3DDDICB_CREATECONTEXTVIRTUAL](..\d3dumddi\ns-d3dumddi-_d3dddicb_createcontextvirtual.md) structure that describes the context to create.
 

@@ -6,11 +6,8 @@ description: The IoReadPartitionTableEx routine reads a list of partitions on a 
 old-location: storage\ioreadpartitiontableex.htm
 tech.root: storage
 ms.assetid: 1aa8665a-1674-4fca-b5c6-d8d25166ca29
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IoReadPartitionTableEx, IoReadPartitionTableEx routine [Storage Devices], ntddk/IoReadPartitionTableEx, rtns-disk_eb4e14e1-14a3-441a-b8ff-9ce68c1b3992.xml, storage.ioreadpartitiontableex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

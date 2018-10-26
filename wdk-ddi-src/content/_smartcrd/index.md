@@ -25,7 +25,7 @@ To develop Smartcard device drivers, you need these headers:
  * [smclib.h](..\smclib\index.md)
  * [smcnt.h](..\smcnt\index.md)
 
-For the programming guide, see [Smartcard device drivers](https://docs.microsoft.com/en-us/windows-hardware/drivers/smartcard).
+For the programming guide, see [Smartcard device drivers](https://docs.microsoft.com/windows-hardware/drivers/smartcard).
 
 ## Structures
 

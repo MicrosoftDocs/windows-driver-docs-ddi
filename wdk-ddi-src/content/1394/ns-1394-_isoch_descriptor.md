@@ -6,11 +6,8 @@ description: The ISOCH_DESCRIPTOR structure describes a buffer to be attached or
 old-location: ieee\isoch_descriptor.htm
 tech.root: IEEE
 ms.assetid: 4f508af6-942b-4d48-8874-4b6d9918f01f
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PISOCH_DESCRIPTOR, 1394/ISOCH_DESCRIPTOR, 1394/PISOCH_DESCRIPTOR, 1394stct_ceca99ed-2075-42d4-9be7-31e659e2b654.xml, IEEE.isoch_descriptor, ISOCH_DESCRIPTOR, ISOCH_DESCRIPTOR structure [Buses], PISOCH_DESCRIPTOR, PISOCH_DESCRIPTOR structure pointer [Buses], _ISOCH_DESCRIPTOR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 1394.h
 req.include-header: 1394.h

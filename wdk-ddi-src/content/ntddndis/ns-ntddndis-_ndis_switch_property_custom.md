@@ -6,11 +6,8 @@ description: The NDIS_SWITCH_PROPERTY_CUSTOM structure specifies a custom profil
 old-location: netvista\ndis_switch_property_custom.htm
 tech.root: netvista
 ms.assetid: 9ded1ec7-1ca2-4410-8ede-b2ccc33571b1
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_SWITCH_PROPERTY_CUSTOM, NDIS_SWITCH_PROPERTY_CUSTOM, NDIS_SWITCH_PROPERTY_CUSTOM structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PROPERTY_CUSTOM, PNDIS_SWITCH_PROPERTY_CUSTOM structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PROPERTY_CUSTOM, netvista.ndis_switch_property_custom, ntddndis/NDIS_SWITCH_PROPERTY_CUSTOM, ntddndis/PNDIS_SWITCH_PROPERTY_CUSTOM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ndis.h

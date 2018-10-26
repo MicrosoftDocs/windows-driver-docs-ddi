@@ -6,11 +6,8 @@ description: The IOCTL_HID_SET_S0_IDLE_TIMEOUT request is used by a client to in
 old-location: hid\ioctl_hid_set_s0_idle_timeout.htm
 tech.root: hid
 ms.assetid: 9372E6D5-0E0B-4916-929D-73532FB6A5D6
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IOCTL_HID_SET_S0_IDLE_TIMEOUT, IOCTL_HID_SET_S0_IDLE_TIMEOUT control, IOCTL_HID_SET_S0_IDLE_TIMEOUT control code [Human Input Devices], hid.ioctl_hid_set_s0_idle_timeout, hidclass/IOCTL_HID_SET_S0_IDLE_TIMEOUT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: hidclass.h
 req.include-header: Hidclass.h
@@ -102,5 +99,5 @@ The <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> member is a pointer to the request
 
 ### -status-block
 
-<b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, Status to the appropriate error condition as a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a> code.
+<b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, Status to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a> code.
 

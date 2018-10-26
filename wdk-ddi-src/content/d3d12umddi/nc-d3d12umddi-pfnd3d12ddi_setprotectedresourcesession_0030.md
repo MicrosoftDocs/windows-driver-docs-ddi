@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Used to set a protected resource session.
 old-location: display\pfnd3d12ddi_setprotectedresourcesession_0030_.htm
 ms.assetid: 1AF1FA8A-3A7E-4277-B6BE-C41A5C4416B6
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030, PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030  callback, PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030 callback function [Display Devices], d3d12umddi/PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030, display.pfnd3d12ddi_setprotectedresourcesession_0030_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -60,23 +57,13 @@ Used to set a protected resource session.
 
 ### -param Arg1
 
+*hCommandList*
+
 A handle to the driver's data for the command list. The driver uses this region of memory to store internal data structures that are related to its command list.
 
 ### -param Arg2
 
-
-
-
-
-
-
-
-#### - hCommandList
-
-The command list.
-
-
-#### - hProtectedResourceSession
+*hProtectedResourceSession*
 
 The protected resource session.
 

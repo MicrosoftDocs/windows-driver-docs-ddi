@@ -6,11 +6,8 @@ description: The HID Source device driver calls this method to delete a VHF devi
 old-location: hid\vhfdelete.htm
 tech.root: hid
 ms.assetid: 85252A53-E653-4D14-B1FE-72CA9AFA1F10
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: VhfDelete, VhfDelete method [Human Input Devices], hid.vhfdelete, vhf/VhfDelete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vhf.h
 req.include-header: 

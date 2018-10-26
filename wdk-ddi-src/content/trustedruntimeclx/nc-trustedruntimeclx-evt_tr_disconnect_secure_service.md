@@ -4,11 +4,8 @@ title: EVT_TR_DISCONNECT_SECURE_SERVICE
 author: windows-driver-content
 description: 
 ms.assetid: f0bcdca4-bbbd-4ec5-88ce-dc8b68fcbd31
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:
@@ -47,7 +44,7 @@ targetos: Windows
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 EVT_TR_DISCONNECT_SECURE_SERVICE EvtTrDisconnectSecureService; 
@@ -71,7 +68,7 @@ NTSTATUS EvtTrDisconnectSecureService
 ## -returns
 
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

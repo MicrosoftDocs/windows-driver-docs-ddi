@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The CreateQuery(D3D10) function creates a query.
 old-location: display\createquery_d3d10_.htm
 ms.assetid: abe6a82f-1613-4c74-9e81-01939db74bfd
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateQuery, CreateQuery callback function [Display Devices], PFND3D10DDI_CREATEQUERY, PFND3D10DDI_CREATEQUERY callback, UserModeDisplayDriverDx10_Functions_faa26999-d692-40b4-81ef-99c730879b49.xml, d3d10umddi/CreateQuery, display.createquery_d3d10_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -56,44 +53,30 @@ The <b>CreateQuery(D3D10)</b> function creates a query.
 ## -parameters
 
 
-
-
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param *
 
+*pCreateQuery* [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541685">D3D10DDIARG_CREATEQUERY</a> structure that describes the parameters that the user-mode display driver uses to create a query. 
 
 ### -param Arg2
 
+*hQuery* [in]
+
+A handle to the driver's private data for the query. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/59a59aa8-085e-4bf8-8a6f-e08f2aecd894">CalcPrivateQuerySize</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its query object.
 
 ### -param Arg3
 
+*hRTQuery* [in]
 
+A handle to the query that the driver should use anytime it calls back into the Direct3D runtime. 
 
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hQuery [in]
-
- A handle to the driver's private data for the query. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/59a59aa8-085e-4bf8-8a6f-e08f2aecd894">CalcPrivateQuerySize</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its query object. 
-
-
-#### - hRTQuery [in]
-
- A handle to the query that the driver should use anytime it calls back into the Direct3D runtime. 
-
-
-#### - pCreateQuery [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541685">D3D10DDIARG_CREATEQUERY</a> structure that describes the parameters that the user-mode display driver uses to create a query. 
 
 
 ## -returns

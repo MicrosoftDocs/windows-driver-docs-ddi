@@ -6,11 +6,8 @@ description: D3DDDICB_RECLAIMALLOCATIONS2 is used with pfnReclaimAllocations2Cb 
 old-location: display\d3dddicb_reclaimallocations2.htm
 tech.root: display
 ms.assetid: 952935E2-3216-40E5-8A4E-AA5D5E584F12
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDICB_RECLAIMALLOCATIONS2, D3DDDICB_RECLAIMALLOCATIONS2 structure [Display Devices], _D3DDDICB_RECLAIMALLOCATIONS2, d3dumddi/D3DDDICB_RECLAIMALLOCATIONS2, display.d3dddicb_reclaimallocations2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

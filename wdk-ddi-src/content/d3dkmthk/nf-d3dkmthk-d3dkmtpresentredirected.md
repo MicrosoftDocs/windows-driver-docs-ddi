@@ -4,8 +4,7 @@ title: D3DKMTPresentRedirected function
 author: windows-driver-content
 description: Redirects the present command.
 ms.assetid: 1811b73a-c33f-4fd5-add5-4e6986ceb539
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTPresentRedirected
 req.header: d3dkmthk.h
@@ -55,4 +54,6 @@ Pointer to a [D3DKMT_PRESENT_REDIRECTED](ns-d3dkmthk-_d3dkmt_present_redirected.
 
 ## -returns
 
+
 This function returns NTSTATUS.
+

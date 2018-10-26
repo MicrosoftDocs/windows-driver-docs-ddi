@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NDIS_GET_NET_BUFFER_LIST_CANCEL_ID macro gets the cancellation identifier from a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: 803f83f9-0b3f-42a5-823c-dd5bbcf8f1a2
-ms.author: windowsdriverdev
 ms.date: 04/16/2018
 ms.topic: macro
 ms.keywords: NDIS_GET_NET_BUFFER_LIST_CANCEL_ID

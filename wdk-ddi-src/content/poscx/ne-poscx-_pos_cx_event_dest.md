@@ -6,11 +6,8 @@ description: The POS_CX_EVENT_DEST defines which applications receive this event
 old-location: pos\pos_cx_event_dest.htm
 tech.root: pos
 ms.assetid: 63D16B9E-82CC-4171-B80A-D0FA6F2066E2
-ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: POS_CX_EVENT_DEST, POS_CX_EVENT_DEST enumeration, POS_CX_EVENT_DEST_ALL, POS_CX_EVENT_DEST_DEVICE_OWNER, POS_CX_EVENT_DEST_INVALID, _POS_CX_EVENT_DEST, pos.pos_cx_event_dest, poscx/POS_CX_EVENT_DEST, poscx/POS_CX_EVENT_DEST_ALL, poscx/POS_CX_EVENT_DEST_DEVICE_OWNER, poscx/POS_CX_EVENT_DEST_INVALID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: poscx.h
 req.include-header: Poscx.h

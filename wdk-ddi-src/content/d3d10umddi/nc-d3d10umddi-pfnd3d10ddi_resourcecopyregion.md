@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The ResourceCopyRegion function copies a source subresource region to a location on a destination subresource.
 old-location: display\resourcecopyregion.htm
 ms.assetid: e782dc8c-e34e-4f96-b6d9-c34d7843ed05
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_RESOURCECOPYREGION, PFND3D10DDI_RESOURCECOPYREGION callback, ResourceCopyRegion, ResourceCopyRegion callback function [Display Devices], UserModeDisplayDriverDx10_Functions_8b5cb003-4fa5-4d23-99c4-a8165253907c.xml, d3d10umddi/ResourceCopyRegion, display.resourcecopyregion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -55,85 +52,59 @@ The <i>ResourceCopyRegion</i> function copies a source subresource region to a l
 
 ## -parameters
 
-
-
-
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hDstResource* [in]
+
+A handle to the destination resource to copy to.
 
 ### -param Arg3
 
+*DstSubresource* [in]
+
+An index that indicates the destination subresource to copy to. 
 
 ### -param Arg4
 
+*DstX* [in]
+
+The x-coordinate of the destination subresource. 
 
 ### -param Arg5
 
+*DstY* [in]
+
+The y-coordinate of the destination subresource. For one-dimensional (1-D) subresources, <i>DstY</i> is set to zero.
 
 ### -param Arg6
 
+*DstZ* [in]
+
+The z-coordinate of the destination subresource. For one-dimensional (1-D) and two-dimensional (2-D) subresources, <i>DstZ</i> is set to zero.
 
 ### -param Arg7
 
+*hSrcResource* [in]
+
+A handle to the source resource to copy from.
 
 ### -param Arg8
 
+*SrcSubresource* [in]
+
+An index that indicates the source subresource to copy from. 
 
 ### -param *
 
+*pSrcBox* [in, optional]
 
-
-
-
-
-
-
-#### - DstSubresource [in]
-
- An index that indicates the destination subresource to copy to. 
-
-
-#### - DstX [in]
-
- The x-coordinate of the destination subresource. 
-
-
-#### - DstY [in]
-
- The y-coordinate of the destination subresource. For one-dimensional (1-D) subresources, <i>DstY</i> is set to zero.
-
-
-#### - DstZ [in]
-
- The z-coordinate of the destination subresource. For one-dimensional (1-D) and two-dimensional (2-D) subresources, <i>DstZ</i> is set to zero.
-
-
-#### - SrcSubresource [in]
-
- An index that indicates the source subresource to copy from. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hDstResource [in]
-
- A handle to the destination resource to copy to.
-
-
-#### - hSrcResource [in]
-
- A handle to the source resource to copy from.
-
-
-#### - pSrcBox [in, optional]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541925">D3D10_DDI_BOX</a> structure that specifies a box that fits on either the source or destination subresource. If <i>pSrcBox</i> is <b>NULL</b>, the driver should copy the entire source subresouce to the destination.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541925">D3D10_DDI_BOX</a> structure that specifies a box that fits on either the source or destination subresource. If <i>pSrcBox</i> is <b>NULL</b>, the driver should copy the entire source subresouce to the destination.
 
 If the members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541925">D3D10_DDI_BOX</a> structure are such that <b>left</b>&gt;=<b>right</b>, <b>top</b>&gt;=<b>bottom</b>, or <b>front</b>&gt;=<b>back</b>, then <i>pSrcBox</i> is considered empty, and <i>ResourceCopyRegion</i> must not perform any copy operation.
 

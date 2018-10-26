@@ -6,11 +6,8 @@ description: The ReloadSymbols function deletes symbol information from the debu
 old-location: debugger\reloadsymbols.htm
 tech.root: debugger
 ms.assetid: 5778f57c-52dd-43f4-b0f7-d07e0c40512b
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ReloadSymbols, ReloadSymbols function [Windows Debugging], WdbgExts_Ref_c48c63b8-6c59-42f7-8a44-78462cbf653f.xml, debugger.reloadsymbols, wdbgexts/ReloadSymbols
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h

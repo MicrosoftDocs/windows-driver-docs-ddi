@@ -5,11 +5,8 @@ author: windows-driver-content
 description: From a provided adapter handle, returns the engine type and friendly name of an engine on a specified GPU node. Must be implemented by Windows Display Driver Model (WDDM) 1.3 and later display miniport drivers.
 old-location: display\dxgkddigetnodemetadata.htm
 ms.assetid: ECE54E1C-5291-43AF-8A71-BD95DE5DF0A6
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_GETNODEMETADATA, DXGKDDI_GETNODEMETADATA callback, DxgkDdiGetNodeMetadata, DxgkDdiGetNodeMetadata callback function [Display Devices], d3dkmddi/DxgkDdiGetNodeMetadata, display.dxgkddigetnodemetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
@@ -65,15 +62,15 @@ From a provided adapter handle, returns the engine type and friendly name of an 
 
 ### -param NodeOrdinalAndAdapterIndex
 
+An index of a node for which engine information will be obtained. This node is within the physical adapter defined by the <i>hAdapter</i> parameter.
 
 ### -param pGetNodeMetadata [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn265405">DXGKARG_GETNODEMETADATA</a> structure that contains the engine type and friendly name of the engine specified by the <i>NodeOrdinal</i> parameter.
+A pointer to a [DXGKARG_GETNODEMETADATA]() structure that contains the engine type and friendly name of the engine specified by the <i>NodeOrdinal</i> parameter.
 
 
-#### - NodeOrdinal [in]
 
-An index of a node for which engine information will be obtained. This node is within the physical adapter defined by the <i>hAdapter</i> parameter.
+
 
 
 ## -returns

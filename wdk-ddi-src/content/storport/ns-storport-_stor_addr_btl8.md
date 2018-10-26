@@ -6,11 +6,8 @@ description: The STOR_ADDR_BTL8 address structure contains the addressing inform
 old-location: storage\stor_addr_btl8.htm
 tech.root: storage
 ms.assetid: 53C8A5D4-4D8B-4D3E-A350-B3BBAC7F8C71
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSTOR_ADDR_BTL8, PSTOR_ADDR_BTL8, PSTOR_ADDR_BTL8 structure pointer [Storage Devices], STOR_ADDR_BTL8, STOR_ADDR_BTL8 structure [Storage Devices], _STOR_ADDR_BTL8, storage.stor_addr_btl8, storport/PSTOR_ADDR_BTL8, storport/STOR_ADDR_BTL8"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: storport.h
 req.include-header: Storport.h, Scsi.h, Minitape.h

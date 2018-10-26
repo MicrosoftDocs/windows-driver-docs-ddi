@@ -4,12 +4,9 @@ title: D3D12DDI_SHADER_MODEL
 author: windows-driver-content
 description: Specifies the Shader Model.
 ms.assetid: 2bfe0ac6-1de4-482d-9f15-8a5407fbb8a7
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_SHADER_MODEL, D3D12DDI_SHADER_MODEL,
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -70,3 +67,14 @@ Shader Model 6.2 Preview.
 
 Shader Model 6.2 Release.
 
+### -field D3D12DDI_SHADER_MODEL_6_3_EXPERIMENTAL_0054 
+
+Shader Model 6.3 Preview.
+
+### -field D3D12DDI_SHADER_MODEL_6_3_RELEASE_0054 
+
+Shader Model 6.3 Release.
+
+### -field D3D12DDI_SHADER_MODEL_6_4_EXPERIMENTAL_0054 
+
+Shader Model 6.4 Preview.

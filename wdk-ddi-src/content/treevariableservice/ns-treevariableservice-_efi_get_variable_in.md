@@ -4,11 +4,8 @@ title: _EFI_GET_VARIABLE_IN
 author: windows-driver-content
 description: 
 ms.assetid: d46c400b-6fa3-459b-96f4-5075269881fa
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _EFI_GET_VARIABLE_IN, EFI_GET_VARIABLE_IN, *PEFI_GET_VARIABLE_IN, 
 req.header: treevariableservice.h
 req.include-header:

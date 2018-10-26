@@ -6,11 +6,8 @@ description: The WdfUsbTargetPipeIsInEndpoint method determines whether a specif
 old-location: wdf\wdfusbtargetpipeisinendpoint.htm
 tech.root: wdf
 ms.assetid: 431d8f18-18db-460c-9f2f-454a5378825c
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_55ca68a2-c334-47b9-9716-68a492987897.xml, WdfUsbTargetPipeIsInEndpoint, WdfUsbTargetPipeIsInEndpoint method, kmdf.wdfusbtargetpipeisinendpoint, wdf.wdfusbtargetpipeisinendpoint, wdfusb/WdfUsbTargetPipeIsInEndpoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

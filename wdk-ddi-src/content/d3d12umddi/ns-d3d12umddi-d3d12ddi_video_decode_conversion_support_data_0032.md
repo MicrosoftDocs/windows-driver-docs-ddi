@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Video decode conversion support data.
 old-location: display\d3d12ddi-video-decode-conversion-support-data-0032.htm
 ms.assetid: 1395fe30-9bbf-433c-8696-a0f842bad10e
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032, D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032, display.d3d12ddi-video-decode-conversion-support-data-0032
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header:
@@ -50,7 +47,7 @@ req.typenames: D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032
 ## -description
 
 
-Structure used to check if a colorspace conversion, format conversion, and scale are supported, and whether it is required for real-time reasons or reference buffer format.
+Structure used to check if a color space conversion, format conversion, and scale are supported, and whether it is required for real-time reasons or reference buffer format.
 
 
 ## -struct-fields
@@ -100,7 +97,7 @@ Indicates the supported output size range for decode conversion. See [D3D12DDI_V
 
 ## -remarks
 
-If the colorspace and format conversion is reported, **SupportedFlags** will have D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_SUPPORTED set. Callers should check **ScaleSupport** to understand if the scale is supported.
+If the color space and format conversion is reported, **SupportedFlags** will have D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_SUPPORTED set. Callers should check **ScaleSupport** to understand if the scale is supported.
 
 
 ## -see-also

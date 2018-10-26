@@ -6,11 +6,8 @@ description: The CreatePixelShader function converts pixel shader code into a ha
 old-location: display\createpixelshader.htm
 tech.root: display
 ms.assetid: b80a1823-6d91-440f-89e4-f7248579cc8f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreatePixelShader, CreatePixelShader callback function [Display Devices], PFND3DDDI_CREATEPIXELSHADER, PFND3DDDI_CREATEPIXELSHADER callback, UserModeDisplayDriver_Functions_4e9d378f-d5aa-4b5d-9a66-ff2dd2f8fae8.xml, d3dumddi/CreatePixelShader, display.createpixelshader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,26 +57,20 @@ The <b>CreatePixelShader</b> function converts pixel shader code into a hardware
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
 
+*pCode* [in]
 
+An array of CONST UINT tokens that make up the pixel shader code.
 
+### -param *
 
+*pData* [in, out]
 
-
-
-
-#### - pCode [in]
-
- An array of CONST UINT tokens that make up the pixel shader code.
-
-
-#### - pData [in, out]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542952">D3DDDIARG_CREATEPIXELSHADER</a> structure that retrieves the shader handle that is associated with the pixel shader code that is specified by <b>pCode</b>.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542952">D3DDDIARG_CREATEPIXELSHADER</a> structure that retrieves the shader handle that is associated with the pixel shader code that is specified by <b>pCode</b>.
 
 
 ## -returns

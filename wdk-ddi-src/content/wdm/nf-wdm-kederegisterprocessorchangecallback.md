@@ -6,11 +6,8 @@ description: The KeDeregisterProcessorChangeCallback routine unregisters a callb
 old-location: kernel\kederegisterprocessorchangecallback.htm
 tech.root: kernel
 ms.assetid: 69b0f360-dfe5-4e1f-bdcb-0f908ed129a7
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeDeregisterProcessorChangeCallback, KeDeregisterProcessorChangeCallback routine [Kernel-Mode Driver Architecture], k105_d3e135a0-4eca-4879-97cc-946ad22693db.xml, kernel.kederegisterprocessorchangecallback, wdm/KeDeregisterProcessorChangeCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

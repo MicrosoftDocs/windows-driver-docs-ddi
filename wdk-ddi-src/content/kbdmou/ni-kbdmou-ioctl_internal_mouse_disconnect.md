@@ -6,11 +6,8 @@ description: The IOCTL_INTERNAL_MOUSE_DISCONNECT request is completed by Moufilt
 old-location: hid\ioctl_internal_mouse_disconnect.htm
 tech.root: hid
 ms.assetid: e62c61e7-ef64-4939-ad24-686d137b6319
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IOCTL_INTERNAL_MOUSE_DISCONNECT, IOCTL_INTERNAL_MOUSE_DISCONNECT control, IOCTL_INTERNAL_MOUSE_DISCONNECT control code [Human Input Devices], hid.ioctl_internal_mouse_disconnect, kbdmou/IOCTL_INTERNAL_MOUSE_DISCONNECT, mfilref_11062207-6bb0-4a84-aaee-c3c086812b90.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: kbdmou.h
 req.include-header: Kbdmou.h

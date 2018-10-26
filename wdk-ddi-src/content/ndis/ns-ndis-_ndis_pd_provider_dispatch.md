@@ -6,11 +6,8 @@ description: This structure is used as input for the OID_PD_OPEN_PROVIDER and se
 old-location: netvista\ndis_pd_provider_dispatch.htm
 tech.root: netvista
 ms.assetid: E93B8A07-7C06-470B-9B26-8D59C2685D2C
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDIS_PD_PROVIDER_DISPATCH, NDIS_PD_PROVIDER_DISPATCH structure [Network Drivers Starting with Windows Vista], PNDIS_PD_PROVIDER_DISPATCH, PNDIS_PD_PROVIDER_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_PROVIDER_DISPATCH, ndis/NDIS_PD_PROVIDER_DISPATCH, ndis/PNDIS_PD_PROVIDER_DISPATCH, netvista.ndis_pd_provider_dispatch
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndis.h
 req.include-header: 
@@ -142,7 +139,7 @@ See <a href="https://msdn.microsoft.com/library/windows/hardware/dn931860(d=robo
 
 #### - NdisPDOnRssReceiveQueues
 
-See <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt808524(d=robot)">NdisPDOnRssReceiveQueues</a>.
+See <a href="https://msdn.microsoft.com/library/windows/hardware/mt808524(d=robot)">NdisPDOnRssReceiveQueues</a>.
 
 
 ## -see-also

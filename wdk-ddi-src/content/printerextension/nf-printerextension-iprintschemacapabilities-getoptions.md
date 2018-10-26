@@ -6,11 +6,8 @@ description: Gets all the options of a feature.
 old-location: print\iprintschemacapabilities_getoptions.htm
 tech.root: print
 ms.assetid: 0A8271AC-389F-4E04-8691-CBED1391B453
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetOptions, GetOptions method [Print Devices], GetOptions method [Print Devices],IPrintSchemaCapabilities interface, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices],GetOptions method, IPrintSchemaCapabilities.GetOptions, IPrintSchemaCapabilities::GetOptions, print.iprintschemacapabilities_getoptions, printerextension/IPrintSchemaCapabilities::GetOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header: 

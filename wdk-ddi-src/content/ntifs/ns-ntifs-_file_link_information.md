@@ -6,11 +6,8 @@ description: The FILE_LINK_INFORMATION structure is used to create an NTFS hard 
 old-location: ifsk\file_link_information.htm
 tech.root: ifsk
 ms.assetid: c0c47dc7-d672-4094-af17-9de2b01886aa
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PFILE_LINK_INFORMATION, FILE_LINK_INFORMATION, FILE_LINK_INFORMATION structure [Installable File System Drivers], PFILE_LINK_INFORMATION, PFILE_LINK_INFORMATION structure pointer [Installable File System Drivers], _FILE_LINK_INFORMATION, fileinformationstructures_6702855e-5076-41aa-a6c8-e9569c782646.xml, ifsk.file_link_information, ntifs/FILE_LINK_INFORMATION, ntifs/PFILE_LINK_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
@@ -52,16 +49,48 @@ req.typenames: FILE_LINK_INFORMATION, *PFILE_LINK_INFORMATION
 
 The FILE_LINK_INFORMATION structure is used to create an NTFS hard link to an existing file. 
 
+## -syntax
+```cpp
+typedef struct _FILE_LINK_INFORMATION {
+#if (_WIN32_WINNT >= _WIN32_WINNT_WIN10_RS5)
+    union {
+        BOOLEAN ReplaceIfExists;  // FileLinkInformation
+        ULONG Flags;              // FileLinkInformationEx
+    } DUMMYUNIONNAME;
+#else
+    BOOLEAN ReplaceIfExists;
+#endif
+    HANDLE RootDirectory;
+    ULONG FileNameLength;
+    WCHAR FileName[1];
+} FILE_LINK_INFORMATION, *PFILE_LINK_INFORMATION;
+
+```
+
+
 
 ## -struct-fields
 
 
-
-
-### -field ReplaceIfExists
+### -field DUMMYUNIONNAME.ReplaceIfExists
 
 Set to <b>TRUE</b> to specify that if the link already exists, it should be replaced with the new link. Set to <b>FALSE</b> if the link creation operation should fail if the link already exists. 
 
+### -field DUMMYUNIONNAME.Flags
+
+Flags for the link operation.  This field is only applicable when used with the FileLinkInformationEx information class.
+
+Here are the possible values:
+
+| Value | Meaning |
+| ----- | ------- |
+| **FILE_LINK_REPLACE_IF_EXISTS**<br>0x00000001 | If a file with the given name already exists, it should be replaced with the new link.  Equivalent to the ReplaceIfExists field used with the FileLinkInformation information class. |
+| **FILE_LINK_POSIX_SEMANTICS**<br>0x00000002 | If FILE_LINK_REPLACE_IF_EXISTS is also specified, allow replacing a file even if there are existing handles to it.  Existing handles to the replaced file continue to be valid for operations such as read and write.  Any subsequent opens of the target name will open the new link, not the replaced file. |
+| **FILE_LINK_SUPPRESS_STORAGE_RESERVE_INHERITANCE**<br>0x00000008 | When creating a link in a new directory, suppress any inheritance rules related to the storage reserve ID property of the file. |
+| **FILE_LINK_NO_INCREASE_AVAILABLE_SPACE**<br>0x00000010 | If FILE_LINK_SUPPRESS_STORAGE_RESERVE_INHERITANCE is not also specified, when creating a link in a new directory, automatically resize affected storage reserve areas to prevent the user visible free space on the volume from increasing.  Requires manage volume access. |
+| **FILE_LINK_NO_DECREASE_AVAILABLE_SPACE**<br>0x00000020 | If FILE_LINK_SUPPRESS_STORAGE_RESERVE_INHERITANCE is not also specified, when creating a link in a new directory, automatically resize affected storage reserve areas to prevent the user visible free space on the volume from decreasing.  Requires manage volume access. |
+| **FILE_LINK_PRESERVE_AVAILABLE_SPACE**<br>0x00000030 | Equivalent to specifying both FILE_LINK_NO_INCREASE_AVAILABLE_SPACE and FILE_LINK_NO_DECREASE_AVAILABLE_SPACE. |
+| **FILE_LINK_IGNORE_READONLY_ATTRIBUTE**<br>0x00000040 | If FILE_LINK_REPLACE_IF_EXISTS is also specified, allow replacing a file even if it is read-only.  Requires WRITE_ATTRIBUTES access to the replaced file. |
 
 ### -field RootDirectory
 

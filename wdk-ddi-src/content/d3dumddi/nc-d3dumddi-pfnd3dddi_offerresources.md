@@ -6,11 +6,8 @@ description: Called by the Microsoft Direct3D runtime to request that the user-m
 old-location: display\offerresources.htm
 tech.root: display
 ms.assetid: 68551AD7-AC0C-4138-948F-33773F02DA41
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: OfferResources, OfferResources callback function [Display Devices], PFND3DDDI_OFFERRESOURCES, PFND3DDDI_OFFERRESOURCES callback, d3dumddi/OfferResources, display.offerresources
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,7 +57,7 @@ Called by the Microsoft Direct3D runtime to request that the user-mode display d
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +69,9 @@ Called by the Microsoft Direct3D runtime to request that the user-mode display d
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451078">D3DDDIARG_OFFERRESOURCES</a> structure that defines the video memory resources that the driver offers.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451078">D3DDDIARG_OFFERRESOURCES</a> structure that defines the video memory resources that the driver offers.
 
 
 ## -returns
@@ -108,7 +105,7 @@ The video memory resources were successfully offered.
 </td>
 <td width="60%">
 
-         The driver detected that the display adapter was removed, so the driver did not complete the operation.
+The driver detected that the display adapter was removed, so the driver did not complete the operation.
 
 If the driver is not aware of the adapter removal, the driver is not required to return this error code.
 

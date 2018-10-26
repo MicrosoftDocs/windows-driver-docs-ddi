@@ -4,11 +4,8 @@ title: _FILE_STAT_LX_INFORMATION
 author: windows-driver-content
 description: The _FILE_STAT_LX_INFORMATION structure contains metadata about a file.
 ms.assetid: dc897c81-2268-44bc-943e-1f494eba4a68
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _FILE_STAT_LX_INFORMATION, FILE_STAT_LX_INFORMATION, *PFILE_STAT_LX_INFORMATION, 
 req.header: ntifs.h
 req.include-header:
@@ -39,7 +36,7 @@ targetos: Windows
 # _FILE_STAT_LX_INFORMATION structure
 
 ## -description
-The _FILE_STAT_LX_INFORMATION structure contains metadata about a file.
+Contains Linux metadata extended attributes present on the file. This is used and created by the Windows Subsystem for Linux (WSL).
 
 ## -struct-fields
 
@@ -110,21 +107,39 @@ LX_FILE_CASE_SENSITIVE_DIR|x10
 
 ### -field LxUid
 
-Specifies the User id of the file
+Specifies the User id of the file.
 ### -field LxGid
- 
 
-Specifies the Group id of the file
+Specifies the Group id of the file.
 
 ### -field LxMode
+Specifies the Linux file type and and file system permissions. These values are defined in sys/stat.h in the Windows SDK. 
+
+- S_IFLNK
+- S_IFSOCK
+- S_IFBLK
+
+| Flag | Description|
+|---|---|
+|_S_IFMT   0xF000 |File type mask|
+|_S_IFDIR  0x4000 | Directory|
+|_S_IFCHR  0x2000 | Character special|
+|_S_IFIFO  0x1000 | Pipe|
+|_S_IFREG  0x8000 | Regular|
+|_S_IREAD  0x0100 | Read permission, owner|
+|_S_IWRITE 0x0080 | Write permission, owner|
+|_S_IEXEC  0x0040 | Execute/search permission, owner|
  
 ### -field LxDeviceIdMajor
+For device files (_S_IFCHR or S_IFBLK), specifies the device major number. For other file types, this field is not used.
  
 ### -field LxDeviceIdMinor
- 
+For device files (_S_IFCHR or S_IFBLK), specifies the device minor number. For other file types, this field is not used.
 
 ## -remarks
 
 For more information about absolute and relative symbolic links, see Creating Symbolic Links in the Microsoft Windows SDK documentation.
+
+
 
 ## -see-also

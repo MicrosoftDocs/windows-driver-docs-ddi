@@ -6,11 +6,8 @@ description: The routine, RtlGetNonVolatileToken, gets various properties about 
 old-location: ifsk\rtlgetnonvolatiletoken.htm
 tech.root: ifsk
 ms.assetid: A9E866D4-C47F-4926-A838-EDB739CF1185
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlGetNonVolatileToken, RtlGetNonVolatileToken routine [Installable File System Drivers], ifsk.rtlgetnonvolatiletoken, ntddk/RtlGetNonVolatileToken
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Winnt.h

@@ -6,11 +6,8 @@ description: The StorPortPoFxIdleComponent routine decrements the activation ref
 old-location: storage\storportpofxidlecomponent.htm
 tech.root: storage
 ms.assetid: DF329B68-3995-4B38-8208-4C779B0626A6
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortPoFxIdleComponent, StorPortPoFxIdleComponent routine [Storage Devices], storage.storportpofxidlecomponent, storport/StorPortPoFxIdleComponent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: 

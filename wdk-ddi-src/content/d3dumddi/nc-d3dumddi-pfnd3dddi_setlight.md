@@ -6,11 +6,8 @@ description: The SetLight function sets properties for a light source.
 old-location: display\setlight.htm
 tech.root: display
 ms.assetid: 28e3992e-a636-47e2-a5a6-5da06d276b5c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETLIGHT, PFND3DDDI_SETLIGHT callback, SetLight, SetLight callback function [Display Devices], UserModeDisplayDriver_Functions_82c42629-2344-4778-aaf4-e41acac4cfce.xml, d3dumddi/SetLight, display.setlight
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,26 +57,21 @@ The <i>SetLight</i> function sets properties for a light source.
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
 
 
+*pData* [in]
 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543317">D3DDDIARG_SETLIGHT</a> structure that describes how to set the light source.
 
+### -param *
 
+*pLightProperties* [in]
 
-
-
-#### - pData [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543317">D3DDDIARG_SETLIGHT</a> structure that describes how to set the light source.
-
-
-#### - pLightProperties [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544579">D3DDDI_LIGHT</a> structure that describes the light properties to set.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544579">D3DDDI_LIGHT</a> structure that describes the light properties to set.
 
 
 ## -returns

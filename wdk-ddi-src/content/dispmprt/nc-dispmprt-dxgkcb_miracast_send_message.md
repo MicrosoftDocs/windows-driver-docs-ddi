@@ -6,11 +6,8 @@ description: Sends an asynchronous message to the user-mode display driver.
 old-location: display\dxgkcbmiracastsendmessage.htm
 tech.root: display
 ms.assetid: E8C3B9E3-854C-488D-809B-0F0893591352
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKCB_MIRACAST_SEND_MESSAGE, DXGKCB_MIRACAST_SEND_MESSAGE callback, DxgkCbMiracastSendMessage, DxgkCbMiracastSendMessage callback function [Display Devices], display.dxgkcbmiracastsendmessage, dispmprt/DxgkCbMiracastSendMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
@@ -77,6 +74,7 @@ See Remarks for more info about the input buffer.
 
 ### -param OutputBufferSize
 
+[in] The size, in bytes, of the output buffer pointed to by <i>pOutputBuffer</i>.
 
 ### -param *pOutputBuffer [out]
 
@@ -99,9 +97,7 @@ See Return value and Remarks sections for more about calls to <a href="https://m
 An optional driver-supplied pointer to the driver-supplied callback context. The operating system passes this context to the driver-supplied callback routine after the operation has completed.
 
 
-#### - OutBufferSize [in]
 
-The size, in bytes, of the output buffer pointed to by <i>pOutputBuffer</i>.
 
 
 ## -returns

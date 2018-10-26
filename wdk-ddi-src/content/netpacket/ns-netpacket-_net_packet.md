@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Represents a single network packet.
 tech.root: netvista
 ms.assetid: c2fc32da-1979-45fe-96ed-0b79a48e58a3
-ms.author: windowsdriverdev
 ms.date: 07/13/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _NET_PACKET, NET_PACKET, *PNET_PACKET, 
 req.header: netpacket.h
 req.include-header:

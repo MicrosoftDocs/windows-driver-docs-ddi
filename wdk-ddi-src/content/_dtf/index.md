@@ -58,5 +58,5 @@ To develop Windows Device Testing Framework (WDTF), you need these headers:
  * [wextypes.h](..\wextypes\index.md)
  * [wppdefs.h](..\wppdefs\index.md)
 
-For the programming guide, see [Windows Device Testing Framework (WDTF)](https://docs.microsoft.com/en-us/windows-hardware/drivers/wdtf).
+For the programming guide, see [Windows Device Testing Framework (WDTF)](https://docs.microsoft.com/windows-hardware/drivers/wdtf).
 

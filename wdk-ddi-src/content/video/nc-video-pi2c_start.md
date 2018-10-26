@@ -6,11 +6,8 @@ description: The I2CStart function starts I2C communication.
 old-location: display\i2cstart.htm
 tech.root: display
 ms.assetid: 90f0a38d-f50e-4da0-b98f-2f3068f03b2e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: I2CStart, I2CStart callback function [Display Devices], PI2C_START, PI2C_START callback, VideoPort_Functions_287e51cf-dce0-47c5-b743-c6fb401bb74e.xml, display.i2cstart, video/I2CStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: video.h
 req.include-header: Video.h

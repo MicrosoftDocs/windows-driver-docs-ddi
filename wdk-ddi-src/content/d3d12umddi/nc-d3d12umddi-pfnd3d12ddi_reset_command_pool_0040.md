@@ -4,11 +4,8 @@ title: PFND3D12DDI_RESET_COMMAND_POOL_0040
 author: windows-driver-content
 description: Implemented by the client driver to reset a command pool.
 ms.assetid: 1b95c84d-7bde-43c6-9494-aabd25d114ad
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to reset a command pool.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3D12DDI_RESET_COMMAND_POOL_0040 Pfnd3d12ddiResetCommandPool0040;

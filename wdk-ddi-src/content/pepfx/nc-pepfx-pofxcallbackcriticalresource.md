@@ -6,11 +6,8 @@ description: The TransitionCriticalResource routine changes the active/inactive 
 old-location: kernel\transitioncriticalresource.htm
 tech.root: kernel
 ms.assetid: 18CB1032-78CB-4D65-9077-02B89E9C31B4
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: POFXCALLBACKCRITICALRESOURCE, TransitionCriticalResource, TransitionCriticalResource routine [Kernel-Mode Driver Architecture], kernel.transitioncriticalresource, pepfx/TransitionCriticalResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: pepfx.h
 req.include-header: Pep_x.h
@@ -60,7 +57,7 @@ The <b>TransitionCriticalResource</b> routine changes the active/inactive state 
 
 ### -param DeviceHandle [in]
 
-A POHANDLE value that represents the registration of the device with PoFx. The PEP previously received this handle from PoFx during the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification that informed the PEP that the device's driver stack registered the device with PoFx.
+A POHANDLE value that represents the registration of the device with PoFx. The PEP previously received this handle from PoFx during the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification that informed the PEP that the device's driver stack registered the device with PoFx.
 
 
 ### -param Component [in]
@@ -102,7 +99,7 @@ A PEP can call this routine at IRQL &lt;= HIGH_LEVEL.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
 
 

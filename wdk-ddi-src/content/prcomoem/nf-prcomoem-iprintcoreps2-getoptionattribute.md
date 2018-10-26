@@ -6,11 +6,8 @@ description: The IPrintCorePS2::GetOptionAttribute method retrieves the option a
 old-location: print\iprintcoreps2_getoptionattribute.htm
 tech.root: print
 ms.assetid: b9ac4c2f-1eba-4425-a102-56fef6d0f5a7
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetOptionAttribute, GetOptionAttribute method [Print Devices], GetOptionAttribute method [Print Devices],IPrintCorePS2 interface, IPrintCorePS2 interface [Print Devices],GetOptionAttribute method, IPrintCorePS2.GetOptionAttribute, IPrintCorePS2::GetOptionAttribute, prcomoem/IPrintCorePS2::GetOptionAttribute, print.iprintcoreps2_getoptionattribute, print_unidrv-pscript_rendering_514bd3e6-bf9e-464b-ade6-3a871523c9a4.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: DxgkDdiMapCpuHostAperture is called to map an allocation that is resident in a local memory segment into the CPU host aperture in order to make it visible to the CPU.
 old-location: display\dxgkddimapcpuhostaperture.htm
 ms.assetid: 78729B9A-A9FA-4D1E-8D30-3FFD61B1A7D3
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_MAPCPUHOSTAPERTURE, DXGKDDI_MAPCPUHOSTAPERTURE callback, DxgkDdiMapCpuHostAperture, DxgkDdiMapCpuHostAperture callback function [Display Devices], d3dkmddi/DxgkDdiMapCpuHostAperture, display.dxgkddimapcpuhostaperture
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
@@ -65,14 +62,7 @@ A handle to the display adapter.
 
 ### -param pArgs
 
-
-
-
-
-
-
-
-#### - Map [in]
+*Map* [in]
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/dn906822">DXGKARG_MAPCPUHOSTAPERTURE</a> structure that describes the operation.
 

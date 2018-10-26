@@ -6,11 +6,8 @@ description: The KsReleaseDevice function releases the device mutex and exits th
 old-location: stream\ksreleasedevice.htm
 tech.root: stream
 ms.assetid: 47692ac1-969a-4f6f-a2e1-008b82ac1429
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsReleaseDevice, KsReleaseDevice function [Streaming Media Devices], avfunc_47876dbc-0dea-459f-96f7-81790d245745.xml, ks/KsReleaseDevice, stream.ksreleasedevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

@@ -6,11 +6,8 @@ description: An AVStream minidriver's AVStrMiniDeviceAdd routine notifies the mi
 old-location: stream\avstrminideviceadd.htm
 tech.root: stream
 ms.assetid: 8f7168c3-0c28-4802-af34-45b46c1b6827
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: AVStrMiniDeviceAdd, AVStrMiniDeviceAdd routine [Streaming Media Devices], PFNKSDEVICECREATE, avstclbk_1cba196f-c0c6-42fb-8674-52e0fad4a337.xml, ks/AVStrMiniDeviceAdd, stream.avstrminideviceadd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ks.h
 req.include-header: Ks.h

@@ -6,11 +6,8 @@ description: This structures is the output buffer received by the IOCTL_SRIOV_MI
 old-location: pci\sriov_mitigated_range_update_output.htm
 tech.root: PCI
 ms.assetid: bd72ac9a-2985-4f2d-8b72-4039c9d3f896
-ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: "*PSRIOV_MITIGATED_RANGE_UPDATE_OUTPUT, PCI.sriov_mitigated_range_update_output, SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT, SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT structure [Buses], _SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT, pcivirt/SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pcivirt.h
 req.include-header:
@@ -57,11 +54,11 @@ This structures is the output buffer received by the <a href="https://msdn.micro
 ## -syntax
 
 
-````
+```cpp
 typedef struct _SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT {
   USHORT  VfIndex;
 } SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT, SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT;
-````
+```
 
 
 ## -struct-fields

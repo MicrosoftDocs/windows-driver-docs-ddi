@@ -6,11 +6,8 @@ description: The BAND_LOCATION_INFO structure specifies the location information
 old-location: storage\band_location_info.htm
 tech.root: storage
 ms.assetid: A9E28600-45B2-4082-917F-29B3237DEC84
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PBAND_LOCATION_INFO, BAND_LOCATION_INFO, BAND_LOCATION_INFO structure [Storage Devices], PBAND_LOCATION_INFO, PBAND_LOCATION_INFO structure pointer [Storage Devices], _BAND_LOCATION_INFO, ehstorbandmgmt/BAND_LOCATION_INFO, ehstorbandmgmt/PBAND_LOCATION_INFO, storage.band_location_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h

@@ -2,13 +2,10 @@
 UID: NS:acpitabl._ACPI_PLD_SPATIAL_BUFFER
 title: _ACPI_PLD_SPATIAL_BUFFER structure
 author: windows-driver-content
-description: 
+description: Describes the ACPI PLD spatial descriptor buffer, revision 1 (Microsoft custom PLD buffer extension, 128-bits).
 ms.assetid: 101db2e2-cf2f-49d9-81c2-f9377775930a
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/02/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _ACPI_PLD_SPATIAL_BUFFER, ACPI_PLD_SPATIAL_BUFFER, *PACPI_PLD_SPATIAL_BUFFER, 
 req.header: acpitabl.h
 req.include-header:
@@ -66,5 +63,10 @@ Describes the ACPI PLD spatial descriptor buffer, revision 1 (Microsoft custom P
  
 
 ## -remarks
+
+```C++
+DEFINE_GUID(ACPI_PLD_SPATIAL_BUFFER_GUID,
+    0x59af1a1f, 0xaba4, 0x4bb8, 0x81, 0xef, 0x55, 0x93, 0x8e, 0x9b, 0xc5, 0x3a);
+```
 
 ## -see-also

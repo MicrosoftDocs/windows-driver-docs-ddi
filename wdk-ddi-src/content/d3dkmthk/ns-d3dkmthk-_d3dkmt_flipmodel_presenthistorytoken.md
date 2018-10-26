@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure identifies a flip present-history operation.
 old-location: display\d3dkmt_flipmodel_presenthistorytoken.htm
 ms.assetid: dcf844e3-3346-485e-8965-c8cb824e2c78
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure [Display Devices], OpenGL_Structs_819c22ef-0bae-476a-9cbc-0169cd7fc82f.xml, _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, display.d3dkmt_flipmodel_presenthistorytoken
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
@@ -56,7 +53,7 @@ The D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure identifies a flip present-his
 ## -syntax
 
 
-````
+```cpp
 typedef struct _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN {
   UINT64                                    FenceValue;
   ULONG64                                   hLogicalSurface;
@@ -78,7 +75,7 @@ typedef struct _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN {
 #endif
   D3DKMT_DIRTYREGIONS                       DirtyRegions;
 } D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN;
-````
+```
 
 
 ## -struct-fields
@@ -99,11 +96,11 @@ typedef struct _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN {
 ### -field dxgContext
 
 
-
+The DirectX graphics context.
 
 ### -field VidPnSourceId
 
-
+The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the monitor is connected to.
 
 
 ### -field SwapChainIndex
@@ -141,7 +138,7 @@ Supported starting with Windows 8.
 ### -field confirmationCookie
 
 
-
+Confirmation cookie.
 
 ### -field CompositionSyncKey
 
@@ -209,27 +206,27 @@ Supported starting with Windows 8.
 ### -field Reserved
 
 
-
+Reserved for internal use.
 
 ### -field SourceRect
 
-
+The source rectangle.
 
 
 ### -field DestWidth
 
 
-
+The destination width.
 
 ### -field DestHeight
 
 
-
+The destination height.
 
 ### -field TargetRect
 
 
-
+The target rectangle.
 
 ### -field Transform
 
@@ -254,25 +251,12 @@ Supported starting with Windows 8.
 ### -field ColorSpace
 
 
-
+The color space of the data. 
 
 ### -field DirtyRegions
 
 [in] A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS</a> structure that identifies the active rectangles (dirty regions) of the flip surface.
 
-
-#### - ScatterBlts
-
-This member is reserved and should be set to zero.
-
-Supported starting with Windows 8.
-
-
-#### - hSyncObject
-
-This member is reserved and should be set to zero.
-
-Supported starting with Windows 8.
 
 ### -field HDRMetaDataHDR10
 

@@ -6,11 +6,8 @@ description: The Clear function performs hardware-assisted clearing on the rende
 old-location: display\clear.htm
 tech.root: display
 ms.assetid: 1cfb5f5b-8d46-4a38-8f16-b1cecaac948a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: Clear, Clear callback function [Display Devices], PFND3DDDI_CLEAR, PFND3DDDI_CLEAR callback, UserModeDisplayDriver_Functions_fc47f935-b69f-4e51-be36-73f0b89f44cf.xml, d3dumddi/Clear, display.clear
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,32 +57,26 @@ The <b>Clear</b> function performs hardware-assisted clearing on the rendering t
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
 
+*pData* [in]
 
-
-
-
-
-
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542903">D3DDDIARG_CLEAR</a> structure that describes the parameters of the hardware-assisted clearing operation.
 
 ### -param Arg1
 
 
-#### - NumRect [in]
+*NumRect* [in]
 
- The number of rectangles in the array at <b>pRect</b> to be cleared. If the number of rectangles is set to zero, <b>Clear</b> should clear the entire render target, depth buffer, and stencil buffer. In this situation, the contents of the array at <b>pRect</b> are undefined and the driver should not attempt to read them.
-
-
-#### - pData [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542903">D3DDDIARG_CLEAR</a> structure that describes the parameters of the hardware-assisted clearing operation.
+The number of rectangles in the array at <b>pRect</b> to be cleared. If the number of rectangles is set to zero, <b>Clear</b> should clear the entire render target, depth buffer, and stencil buffer. In this situation, the contents of the array at <b>pRect</b> are undefined and the driver should not attempt to read them.
 
 
-#### - pRect [in]
+### -param *
+
+*pRect* [in]
 
  An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures that indicate the rectangular areas of the buffer that the driver should clear.
 
@@ -119,7 +110,7 @@ If <i>NumRect</i> is set to a value greater than 0 (<i>NumRect</i>!= 0) and D3DC
 
 </li>
 </ul>
-Scissor testing also affects how the driver performs the clear operation. An application sets the D3DRS_SCISSORTESTENABLE render state in a call to the <b>IDirect3DDevice9::SetRenderState</b> method to enable scissor testing. For more information about scissor testing, see <a href="http://go.microsoft.com/fwlink/p/?linkid=144752">Scissor Test</a>. If the D3DRS_SCISSORTESTENABLE render state is set and the D3DCLEAR_COMPUTERECTS flag is set, the driver must clip the rectangular areas that <b>pRect</b> specifies to the scissor rectangular area. 
+Scissor testing also affects how the driver performs the clear operation. An application sets the D3DRS_SCISSORTESTENABLE render state in a call to the <b>IDirect3DDevice9::SetRenderState</b> method to enable scissor testing. For more information about scissor testing, see <a href="https://go.microsoft.com/fwlink/p/?linkid=144752">Scissor Test</a>. If the D3DRS_SCISSORTESTENABLE render state is set and the D3DCLEAR_COMPUTERECTS flag is set, the driver must clip the rectangular areas that <b>pRect</b> specifies to the scissor rectangular area. 
 
 If <i>NumRect</i> is set to a value greater than 0 (<i>NumRect</i> &gt; 0) and D3DCLEAR_COMPUTERECTS is set in <b>Flags</b>, the driver clips the specified rectangular areas to the current viewport, and to the scissor rectangle if an application previously set D3DRS_SCISSORTESTENABLE. If <i>NumRect</i> &gt; 0 and D3DCLEAR_COMPUTERECTS is not set, the driver determines that the Direct3D runtime already clipped the specified rectangular areas to the current viewport, and to the scissor rectangle if an application previously set D3DRS_SCISSORTESTENABLE.
 

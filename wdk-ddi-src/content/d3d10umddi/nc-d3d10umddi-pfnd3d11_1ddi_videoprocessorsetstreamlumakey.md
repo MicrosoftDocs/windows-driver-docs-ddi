@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Sets the luma key for an input stream on the video processor.
 old-location: display\videoprocessorsetstreamlumakey.htm
 ms.assetid: 1b5ca40d-1836-4c80-af55-8d20c6792445
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMLUMAKEY, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMLUMAKEY callback, d3d10umddi/pfnVideoProcessorSetStreamLumaKey, display.videoprocessorsetstreamlumakey, pfnVideoProcessorSetStreamLumaKey, pfnVideoProcessorSetStreamLumaKey callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -62,34 +59,25 @@ Sets the luma key for an input stream on the video processor.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hVideoProcessor* [in]
+
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function.
 
 ### -param Arg3
 
+*StreamIndex* [in]
+
+The zero-based index of the input stream.
 
 ### -param Arg4
 
-
-### -param Arg5
-
-
-### -param Arg6
-
-
-
-
-
-
-
-
-#### - Enable [in]
-
-If <b>TRUE</b>, the luma key is enabled on the specified input stream of the video processor.
-
-
-#### - Lower [in]
+*Lower* [in]
 
 The lower bound for the luma key. The valid range is from zero to one. 
 
@@ -98,12 +86,15 @@ The lower bound for the luma key. The valid range is from zero to one.
 </div>
 <div> </div>
 
-#### - StreamIndex [in]
+### -param Arg5
 
-The zero-based index of the input stream.
+*Enable* [in]
 
+If <b>TRUE</b>, the luma key is enabled on the specified input stream of the video processor.
 
-#### - Upper [in]
+### -param Arg6
+
+*Upper* [in]
 
 The upper bound for the luma key. The valid range is from zero to one. 
 
@@ -112,16 +103,6 @@ The upper bound for the luma key. The valid range is from zero to one.
 </div>
 <div> </div>
 
-#### - hDevice [in]
-
-A handle to the display device (graphics context).
-
-
-
-
-#### - hVideoProcessor [in]
-
-A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
 
 
 

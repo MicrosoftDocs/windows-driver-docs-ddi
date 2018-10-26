@@ -6,11 +6,8 @@ description: The ZwWaitForSingleObject routine waits until the specified object 
 old-location: kernel\zwwaitforsingleobject.htm
 tech.root: kernel
 ms.assetid: 5eea0877-329d-4fa3-847e-365d6a545b07
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtWaitForSingleObject, ZwWaitForSingleObject, ZwWaitForSingleObject routine [Kernel-Mode Driver Architecture], k111_44a7540a-fbf5-4f2e-92d1-0d23cc41a081.xml, kernel.zwwaitforsingleobject, ntifs/NtWaitForSingleObject, ntifs/ZwWaitForSingleObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h

@@ -6,11 +6,8 @@ description: The RtlCaptureContext function retrieves a context record in the co
 old-location: ifsk\rtlcapturecontext.htm
 tech.root: ifsk
 ms.assetid: c3edd10c-ea4f-4e2d-96f2-3d1cb3804512
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlCaptureContext, RtlCaptureContext function [Installable File System Drivers], ifsk.rtlcapturecontext, ntifs/RtlCaptureContext, rtlref_efe764ec-89fb-43bc-945d-7fee4594c284.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Fltkernel.h, Ntifs.h
@@ -63,7 +60,7 @@ The <b>RtlCaptureContext </b>function retrieves a context record in the context 
 
 ### -param ContextRecord [out]
 
-A pointer to a <a href="http://go.microsoft.com/fwlink/p/?linkid=132119">CONTEXT</a> structure.
+A pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=132119">CONTEXT</a> structure.
 
 
 ## -returns
@@ -81,7 +78,7 @@ This function does not return a value.
 
 The <i>ContextRecord</i> that is captured contains processor-specific register data.  
 
-For kernel-mode code, the CONTEXT structure is defined in <i>Ntddk.h</i>. For more information, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=132119">CONTEXT</a> Structure topic in the SDK documentation.
+For kernel-mode code, the CONTEXT structure is defined in <i>Ntddk.h</i>. For more information, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=132119">CONTEXT</a> Structure topic in the SDK documentation.
 
 
 
@@ -91,7 +88,7 @@ For kernel-mode code, the CONTEXT structure is defined in <i>Ntddk.h</i>. For mo
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=132119">CONTEXT</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=132119">CONTEXT</a>
  
 
  

@@ -6,11 +6,8 @@ description: This structure represents the RILOPERATORNAMES.
 old-location: netvista\riloperatornames.htm
 tech.root: netvista
 ms.assetid: 2813c28c-e964-44ee-9995-15aa563c43d0
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*LPRILOPERATORNAMES, RILOPERATORNAMES, RILOPERATORNAMES structure [Network Drivers Starting with Windows Vista], netvista.riloperatornames, rilapitypes/RILOPERATORNAMES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
@@ -56,7 +53,7 @@ req.typenames: RILOPERATORNAMES, *LPRILOPERATORNAMES
 ## -syntax
 
 
-````
+```cpp
 struct RILOPERATORNAMES {
   DWORD cbSize;
   DWORD dwParams;
@@ -66,7 +63,7 @@ struct RILOPERATORNAMES {
   WCHAR wszNumName[MAXLENGTH_OPERATOR_NUMERIC];
   WCHAR wszCountryCode[MAXLENGTH_OPERATOR_COUNTRY_CODE];
 };
-````
+```
 
 
 ## -struct-fields

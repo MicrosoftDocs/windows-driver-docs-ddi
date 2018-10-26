@@ -5,11 +5,8 @@ author: windows-driver-content
 description: DXGK_PHYSICALADAPTERFLAGS defines a set of flags that used to indicate the type of memory management model that is supported by a device.
 old-location: display\dxgk_physicaladapterflags.htm
 ms.assetid: AACF0C99-D6E2-4C7C-BAE6-BF558FDAFDE0
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_PHYSICALADAPTERFLAGS, DXGK_PHYSICALADAPTERFLAGS structure [Display Devices], _DXGK_PHYSICALADAPTERFLAGS, d3dkmddi/DXGK_PHYSICALADAPTERFLAGS, display.dxgk_physicaladapterflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
@@ -70,7 +67,7 @@ Indicates that the video memory manager manages the GPU memory management unit a
 
 ### -field MovePagingSupported
 
- 
+Indicates that the device driver is capable of moving content to a new destination on the same memory segment.
 
 
 ### -field VPRPagingContextRequired
@@ -93,7 +90,6 @@ This member is reserved and should be set to zero.
 The consolidated  value of the bitfield members in this structure.
 
 
-#### - MovingPagingSupported
 
-Indicates that the device driver is capable of moving content to a new destination on the same memory segment.
+
 

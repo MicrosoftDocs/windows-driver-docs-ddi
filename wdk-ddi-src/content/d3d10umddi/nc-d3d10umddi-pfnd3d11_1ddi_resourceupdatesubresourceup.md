@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Updates a destination subresource region that stores constant buffers from a source system-memory region. Implemented by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 old-location: display\defaultconstantbufferupdatesubresourceup_d3d11_1_.htm
 ms.assetid: 67FCC9A4-B3C5-46FC-83ED-CFFB8186328F
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DefaultConstantBufferUpdateSubresourceUP(D3D11_1), DefaultConstantBufferUpdateSubresourceUP(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_RESOURCEUPDATESUBRESOURCEUP, PFND3D11_1DDI_RESOURCEUPDATESUBRESOURCEUP callback, d3d10umddi/DefaultConstantBufferUpdateSubresourceUP(D3D11_1), display.defaultconstantbufferupdatesubresourceup_d3d11_1_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,60 +57,51 @@ updates a destination subresource region that stores constant buffers from a sou
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hDstResource*
+
+A handle to the destination resource to copy to.
 
 ### -param Arg3
 
+*DstSubresource*
+
+An index that indicates the destination subresource to copy to.
 
 ### -param *
 
+*pDstBox* [in, optional]
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541925">D3D10_DDI_BOX</a> structure that specifies the region of the destination subresource to copy data to. If <i>pDstBox</i> is <b>NULL</b>, the driver should copy to the entire destination subresouce. 
+
+### -param *
+
+*pSysMemUP* [in]
+
+A pointer to the beginning address of the source data that <b>DefaultConstantBufferUpdateSubresourceUP(D3D11_1)</b> uses to update the destination subresouce. 
 
 ### -param Arg4
 
+*RowPitch*
+
+The offset, in bytes, to move to the next row of source data.
 
 ### -param Arg5
 
+*DepthPitch*
+
+The offset, in bytes, to move to the next depth slice of source data.
 
 ### -param CopyFlags
 
 A value that specifies characteristics of copy operation as a bitwise <b>OR</b> of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451047">D3D11_1_DDI_COPY_FLAGS</a> enumeration type.
 
 
-#### - DepthPitch
-
- The offset, in bytes, to move to the next depth slice of source data.
-
-
-#### - DstSubresource
-
- An index that indicates the destination subresource to copy to.
-
-
-#### - RowPitch
-
- The offset, in bytes, to move to the next row of source data.
-
-
-#### - hDevice
-
- A handle to the display device (graphics context).
-
-
-#### - hDstResource
-
- A handle to the destination resource to copy to.
-
-
-#### - pDstBox [in, optional]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541925">D3D10_DDI_BOX</a> structure that specifies the region of the destination subresource to copy data to. If <i>pDstBox</i> is <b>NULL</b>, the driver should copy to the entire destination subresouce. 
-
-
-#### - pSysMemUP [in]
-
- A pointer to the beginning address of the source data that <b>DefaultConstantBufferUpdateSubresourceUP(D3D11_1)</b> uses to update the destination subresouce. 
 
 
 ## -returns

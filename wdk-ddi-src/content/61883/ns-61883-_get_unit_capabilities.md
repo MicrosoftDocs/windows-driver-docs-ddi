@@ -6,11 +6,8 @@ description: The GET_UNIT_CAPABILITIES structure is used in conjunction with the
 old-location: ieee\get_unit_capabilities.htm
 tech.root: IEEE
 ms.assetid: 7fe180c2-cf0b-4658-86e3-fed5e270db8c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PGET_UNIT_CAPABILITIES, 61883/GET_UNIT_CAPABILITIES, 61883/PGET_UNIT_CAPABILITIES, 61883_structures_d0aac9e5-5600-4552-b06a-7526e6c87336.xml, GET_UNIT_CAPABILITIES, GET_UNIT_CAPABILITIES structure [Buses], IEEE.get_unit_capabilities, PGET_UNIT_CAPABILITIES, PGET_UNIT_CAPABILITIES structure pointer [Buses], _GET_UNIT_CAPABILITIES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 61883.h
 req.include-header: 61883.h

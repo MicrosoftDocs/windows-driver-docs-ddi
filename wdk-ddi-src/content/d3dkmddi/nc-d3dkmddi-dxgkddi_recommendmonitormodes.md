@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The DxgkDdiRecommendMonitorModes function inspects the monitor source mode set that is associated with a particular video present target and possibly adds modes to the set.
 old-location: display\dxgkddirecommendmonitormodes.htm
 ms.assetid: 1fa29ab6-1faa-4be6-ae87-4cac9057471d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_RECOMMENDMONITORMODES, DXGKDDI_RECOMMENDMONITORMODES callback, DmFunctions_0e8f1382-ec41-4953-8e1e-f2a5121acc0c.xml, DxgkDdiRecommendMonitorModes, DxgkDdiRecommendMonitorModes callback function [Display Devices], d3dkmddi/DxgkDdiRecommendMonitorModes, display.dxgkddirecommendmonitormodes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
@@ -58,23 +55,14 @@ The <i>DxgkDdiRecommendMonitorModes</i> function inspects the monitor source mod
 
 
 
-### -param hAdapter [in]
+### -param hAdapter 
 
-A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function.
+[in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function.
 
 
 ### -param pRecommendMonitorModes
 
-
-
-
-
-
-
-
-#### - pRecommendMonitorModesArg [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557636">DXGKARG_RECOMMENDMONITORMODES</a> structure that contains function arguments.
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557636">DXGKARG_RECOMMENDMONITORMODES</a> structure that contains function arguments.
 
 
 ## -returns

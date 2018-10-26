@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The OpenAdapter10 function creates a graphics adapter object that is referenced in subsequent calls.
 old-location: display\openadapter10.htm
 ms.assetid: 50c10021-2bad-4e3c-99cc-24cf31fbc95d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: OpenAdapter10, OpenAdapter10 callback function [Display Devices], PFND3D10DDI_OPENADAPTER, PFND3D10DDI_OPENADAPTER callback, UserModeDisplayDriverDx10_Functions_686164e4-0e8b-40ab-8095-cdc3efb34866.xml, d3d10umddi/OpenAdapter10, display.openadapter10
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,14 +57,7 @@ The <i>OpenAdapter10</i> function creates a graphics adapter object that is refe
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - pOpenData [in, out]
+*pOpenData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541724">D3D10DDIARG_OPENADAPTER</a> structure. On input, this structure contains information that the driver can use. On output, the driver specifies information that the Microsoft Direct3D runtime can use.
 

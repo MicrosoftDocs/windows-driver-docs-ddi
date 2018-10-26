@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The SoSetTargets function sets stream output target resources.
 old-location: display\sosettargets.htm
 ms.assetid: 96f1c439-7323-456e-8c9c-793d8e0973d9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_SO_SETTARGETS, PFND3D10DDI_SO_SETTARGETS callback, SoSetTargets, SoSetTargets callback function [Display Devices], UserModeDisplayDriverDx10_Functions_02cc8776-273f-4442-93da-34c2df9746ee.xml, d3d10umddi/SoSetTargets, display.sosettargets
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,44 +57,34 @@ The <i>SoSetTargets</i> function sets stream output target resources.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param NumBuffers
 
+[in] The number of elements in the array that <i>phResource</i> specifies. 
 
 ### -param ClearTargets [in]
 
- The number of handles to stream output target resources that represents the difference between the previous number of stream output target resources (before the Microsoft Direct3D runtime calls <i>SoSetTargets</i>) and the new number of stream output target resources.
+The number of handles to stream output target resources that represents the difference between the previous number of stream output target resources (before the Microsoft Direct3D runtime calls <i>SoSetTargets</i>) and the new number of stream output target resources.
 
 Note that the number that i<i>ClearTargets</i> specifies is only an optimization aid because the user-mode display driver could calculate this number. 
 
 
 ### -param *
 
+*phResource* [in]
+
+An array of handles to the stream output target resources to set. Note that some handle values can be <b>NULL</b>.
 
 
+### -param *
 
+*pOffsets* [in]
 
+An array of offsets, in bytes, into the stream output target resources in the array that <i>phResource</i> specifies. 
 
-
-
-#### - SOTargets [in]
-
- The number of elements in the array that <i>phResource</i> specifies. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - pOffsets [in]
-
- An array of offsets, in bytes, into the stream output target resources in the array that <i>phResource</i> specifies. 
-
-
-#### - phResource [in]
-
- An array of handles to the stream output target resources to set. Note that some handle values can be <b>NULL</b>. 
 
 
 ## -returns

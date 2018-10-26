@@ -5,7 +5,6 @@ author: windows-driver-content
 description: Hyper-V extensible switch extensions use the NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_NEXT macro to access the next NDIS_SWITCH_PROPERTY_ENUM_INFO element that follows an NDIS_SWITCH_PROPERTY_ENUM_INFO structure in the array that is specified by an NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS structure.
 tech.root: netvista
 ms.assetid: 8481d60d-04da-4a52-b37d-26cabab05c78
-ms.author: windowsdriverdev
 ms.date: 04/17/2018
 ms.topic: macro
 ms.keywords: NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_NEXT

@@ -6,11 +6,8 @@ description: The IoReportInterruptActive routine informs the operating system th
 old-location: kernel\ioreportinterruptactive.htm
 tech.root: kernel
 ms.assetid: 41C3AC04-14AF-4C37-9557-F9FF494F234B
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoReportInterruptActive, IoReportInterruptActive routine [Kernel-Mode Driver Architecture], kernel.ioreportinterruptactive, wdm/IoReportInterruptActive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h

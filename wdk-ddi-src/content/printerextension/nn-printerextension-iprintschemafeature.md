@@ -6,11 +6,8 @@ description: Exposes a Print Schema Feature element.
 old-location: print\iprintschemafeature_interface.htm
 tech.root: print
 ms.assetid: AAC2A60B-9E70-4809-969A-68783A91B093
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintSchemaFeature, IPrintSchemaFeature interface [Print Devices], IPrintSchemaFeature interface [Print Devices],described, print.iprintschemafeature_interface, printerextension/IPrintSchemaFeature
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: printerextension.h
 req.include-header: 

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The DXGKARG_BUILDPAGINGBUFFER structure describes parameters for building a paging buffer that is used in a memory-transfer operation.
 old-location: display\dxgkarg_buildpagingbuffer.htm
 ms.assetid: dc0de06b-d495-4ce2-b0e2-a6fefd6c8e0c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*IN_PDXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER structure [Display Devices], DXGKARG_BUILDPAGINGBUFFER_OPERATION, DXGK_BUILDPAGINGBUFFER_OPERATION, DmStructs_06cb7ec2-482d-41ba-b550-3c4f27d36070.xml, _DXGKARG_BUILDPAGINGBUFFER, d3dkmddi/DXGKARG_BUILDPAGINGBUFFER, display.dxgkarg_buildpagingbuffer"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
@@ -386,19 +383,20 @@ For a shared allocation, <b>hDevice</b> is set to the device that the video memo
 
 
 
-##### Source.(unnamed union)
+#### Source.(unnamed union)
 
 [in] A union that contains either an offset into a segment of the source allocation (<b>SegmentAddress</b>) or a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> for the source (<b>pMdl</b>).
 
+### -field SpecialLockTransfer.Source.SegmentAddress
 
-
-###### (unnamed union).SegmentAddress
+#### (unnamed union).SegmentAddress
 
 [in] The source segment address, if the <b>SegmentId</b> member of <b>Source</b> is nonzero. The DirectX graphics kernel subsystem computes the segment address as the sum of the segment offset and the base address of the segment: <code>SegmentAddress = SegmentOffset + Segment.BaseAddr</code>.
 
 
+### -field SpecialLockTransfer.Source.pMdl
 
-###### (unnamed union).pMdl
+#### (unnamed union).pMdl
 
 [in] A pointer to a buffer that contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> structure that describes the system memory pages for the source, if the <b>SegmentId</b> member of <b>Source</b> is zero.
 
@@ -408,15 +406,6 @@ For a shared allocation, <b>hDevice</b> is set to the device that the video memo
 [in] The identifier of a segment within the source allocation, or zero if the source allocation is described by the <b>pMdl</b> member of the union that <b>Source</b> contains.
 
 
-### -field SpecialLockTransfer.Source.SegmentAddress
-
- 
-
-
-### -field SpecialLockTransfer.Source.pMdl
-
- 
-
 
 ### -field SpecialLockTransfer.Destination
 
@@ -424,19 +413,21 @@ For a shared allocation, <b>hDevice</b> is set to the device that the video memo
 
 
 
-##### Destination.(unnamed union)
+#### Destination.(unnamed union)
 
 [in] A union that contains either an offset into a segment of the destination allocation (<b>SegmentAddress</b>) or a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> for the destination (<b>pMdl</b>).
 
 
+### -field SpecialLockTransfer.Destination.SegmentAddress
 
-###### (unnamed union).SegmentAddress
+#### (unnamed union).SegmentAddress
 
 [in] The destination segment address, if the <b>SegmentId</b> member of <b>Destination</b> is nonzero. The DirectX graphics kernel subsystem computes the segment address as the sum of the segment offset and the base address of the segment: <code>SegmentAddress = SegmentOffset + Segment.BaseAddr</code>.
 
 
+### -field SpecialLockTransfer.Destination.pMdl
 
-###### (unnamed union).pMdl
+#### (unnamed union).pMdl
 
 [in] A pointer to a buffer that contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> structure that describes the system memory pages for the destination, if the <b>SegmentId</b> member of <b>Destination</b> is zero.
 
@@ -445,15 +436,6 @@ For a shared allocation, <b>hDevice</b> is set to the device that the video memo
 
 [in] The identifier of a segment within the destination allocation, or zero if the destination allocation is described by the <b>pMdl</b> member of the union that <b>Destination</b> contains.
 
-
-### -field SpecialLockTransfer.Destination.SegmentAddress
-
- 
-
-
-### -field SpecialLockTransfer.Destination.pMdl
-
- 
 
 
 ### -field SpecialLockTransfer.Flags
@@ -492,19 +474,21 @@ Supported beginning with Windows 8.
 
 
 
-##### Destination.(unnamed union)
+#### Destination.(unnamed union)
 
 [in] A union that contains either an offset into a segment of the destination context allocation (<b>SegmentAddress</b>) or a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> for the destination (<b>pMdl</b>).
 
 
+### -field InitContextResource.Destination.SegmentAddress
 
-###### (unnamed union).SegmentAddress
+#### (unnamed union).SegmentAddress
 
 [in] The destination segment address, if the <b>SegmentId</b> member of <b>Destination</b> is nonzero. The DirectX graphics kernel subsystem computes the segment address as the sum of the segment offset and the base address of the segment: <code>SegmentAddress = SegmentOffset + Segment.BaseAddr</code>.
 
 
+### -field InitContextResource.Destination.pMdl
 
-###### (unnamed union).pMdl
+#### (unnamed union).pMdl
 
 [in] A pointer to a buffer that contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> structure that describes the system memory pages for the destination, if the <b>SegmentId</b> member of <b>Destination</b> is zero.
 
@@ -512,16 +496,6 @@ Supported beginning with Windows 8.
 ### -field InitContextResource.Destination.SegmentId
 
 [in] The identifier of a segment within the destination context allocation, or zero if the destination context allocation is described by the <b>pMdl</b> member of the union that <b>Destination</b> contains.
-
-
-### -field InitContextResource.Destination.SegmentAddress
-
- 
-
-
-### -field InitContextResource.Destination.pMdl
-
- 
 
 
 ### -field InitContextResource.Destination.VirtualAddress
@@ -533,7 +507,7 @@ Follow procedures in  <a href="https://docs.microsoft.com/windows-hardware/drive
 
 ### -field InitContextResource.Destination.GpuVirtualAddress
 
- 
+GPU virtual address of the context resource to initialize.
 
 
 ### -field TransferVirtual
@@ -574,7 +548,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894168">DXGK_BU
 ### -field SignalMonitoredFence
 
  
-
+Add a GPU instruction to signal the paging monitored fence object to the DMA buffer.
 
 ### -field Reserved
 
@@ -593,11 +567,12 @@ This member is reserved and should not be used.
 
 ### -field DmaBufferGpuVirtualAddress
 
+A <b>D3DGPU_VIRTUAL_ADDRESS</b> data type that indicates the virtual address where the DMA buffer was paged in. If the physical address is zero, the DMA buffer is not correctly paged in.
 
 ### -field DmaBufferWriteOffset
 
  
-
+The current operation offset in bytes from the start of the DMA buffer.
 
 
 
@@ -607,7 +582,9 @@ This member is reserved and should not be used.
 
 MDL is defined in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565698">Windows Driver Model (WDM)</a> documentation.
 
+WDDM synchronization class: 
 
+* [First Level GPU Scheduler Class](https://docs.microsoft.com/windows-hardware/drivers/display/gpu-scheduler-class) for [BuildPagingBuffer](nc-d3dkmddi-dxgkddi_buildpagingbuffer.md) submission type.
 
 
 ## -see-also

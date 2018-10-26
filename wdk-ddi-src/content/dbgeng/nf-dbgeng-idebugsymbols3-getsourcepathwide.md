@@ -6,11 +6,8 @@ description: The GetSourcePathWide method returns the source path.
 old-location: debugger\getsourcepathwide.htm
 tech.root: debugger
 ms.assetid: 6c9c8270-78c4-4bc2-a0e4-5c5e245326ad
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetSourcePathWide, GetSourcePathWide method [Windows Debugging], GetSourcePathWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourcePathWide method, IDebugSymbols3.GetSourcePathWide, IDebugSymbols3::GetSourcePathWide, dbgeng/IDebugSymbols3::GetSourcePathWide, debugger.getsourcepathwide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

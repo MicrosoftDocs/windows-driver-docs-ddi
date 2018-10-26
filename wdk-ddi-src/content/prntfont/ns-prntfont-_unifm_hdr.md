@@ -6,11 +6,8 @@ description: The UNIFM_HDR structure is used to define the contents of Unidrv fo
 old-location: print\unifm_hdr.htm
 tech.root: print
 ms.assetid: 9490d090-2156-4653-9e56-a233d23c2fb3
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PUNIFM_HDR, PUNIFM_HDR, PUNIFM_HDR structure pointer [Print Devices], UNIFM_HDR, UNIFM_HDR structure [Print Devices], _UNIFM_HDR, print.unifm_hdr, print_unidrv-pscript_fonts_eaf5dd18-df64-41bc-91b5-836b6ed165b6.xml, prntfont/PUNIFM_HDR, prntfont/UNIFM_HDR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: prntfont.h
 req.include-header: Prntfont.h

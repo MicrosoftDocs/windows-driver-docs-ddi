@@ -6,11 +6,8 @@ description: The AgpAllocatePool function reserves, commits, and maps AGP memory
 old-location: display\agpallocatepool.htm
 tech.root: display
 ms.assetid: abac76e0-eb8a-450a-a797-3733a8f71990
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: AgpAllocatePool, AgpAllocatePool callback function [Display Devices], DXGKCB_AGP_ALLOCATE_POOL, DXGKCB_AGP_ALLOCATE_POOL callback, DpFunctions_2bd4981c-c9f1-4b37-a921-9eb33d1b622b.xml, display.agpallocatepool, dispmprt/AgpAllocatePool
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
@@ -60,46 +57,31 @@ The <b>AgpAllocatePool</b> function reserves, commits, and maps AGP memory.
 
 ### -param HANDLE
 
-
-### -param ULONG
-
-
-### -param MEMORY_CACHING_TYPE
-
-
-### -param PPHYSICAL_ADDRESS
-
-
-### -param PVOID
-
-
-
-
-
-
-
-
-#### - AllocationSize [in]
-
-The size, in bytes, of the AGP memory to be allocated.
-
-
-#### - CacheType [in]
-
-A constant from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554430">MEMORY_CACHING_TYPE</a> enumeration that specifies whether the CPU can use caching or write combining when it accesses the allocated AGP memory.
-
-
-#### - Context [in]
+*Context* [in]
 
 A handle to a context block associated with an AGP interface. The display miniport driver previously received this handle in the <b>Context</b> member of the DXGK_AGP_INTERFACE structure that was filled in by <a href="https://msdn.microsoft.com/0ce5df90-2019-4a92-97d6-0218acc8b1e8">DxgkCbQueryServices</a>.
 
+### -param ULONG
 
-#### - PhysicalAddress [out]
+*AllocationSize* [in]
+
+The size, in bytes, of the AGP memory to be allocated.
+
+### -param MEMORY_CACHING_TYPE
+
+*CacheType* [in]
+
+A constant from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554430">MEMORY_CACHING_TYPE</a> enumeration that specifies whether the CPU can use caching or write combining when it accesses the allocated AGP memory.
+
+### -param PPHYSICAL_ADDRESS
+
+*PhysicalAddress* [out]
 
 A pointer to a PHYSICAL_ADDRESS structure that receives the base physical address of the AGP allocation. This is the base of the physical address range that the GPU will use to access the AGP memory.
 
+### -param PVOID
 
-#### - VirtualAddress [out]
+*VirtualAddress* [out]
 
 A pointer to a variable that receives the base virtual address, in system space, of the AGP allocation. This is the base of the virtual address range that the CPU will use to access the AGP memory.
 

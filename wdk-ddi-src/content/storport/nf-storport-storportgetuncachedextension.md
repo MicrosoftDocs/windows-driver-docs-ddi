@@ -6,11 +6,8 @@ description: The StorPortGetUncachedExtension routine allocates an uncached comm
 old-location: storage\storportgetuncachedextension.htm
 tech.root: storage
 ms.assetid: d5fa83d6-d733-4fff-89a9-f519ed608e57
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortGetUncachedExtension, StorPortGetUncachedExtension routine [Storage Devices], storage.storportgetuncachedextension, storport/StorPortGetUncachedExtension, storprt_f3acfe04-374f-47d9-8e8f-7f7f8ee8a1d3.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: storport.h
 req.include-header: Storport.h

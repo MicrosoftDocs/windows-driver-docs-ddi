@@ -6,11 +6,8 @@ description:
 old-location: storage\ses_download_microcode_state.htm
 tech.root: storage
 ms.assetid: 5edff312-8373-4d36-b93c-c35fe8c2996a
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSES_DOWNLOAD_MICROCODE_STATE, PSES_DOWNLOAD_MICROCODE_STATE, PSES_DOWNLOAD_MICROCODE_STATE enumeration pointer [Storage Devices], SES_DOWNLOAD_MICROCODE_STATE, SES_DOWNLOAD_MICROCODE_STATE enumeration [Storage Devices], SesDownloadMcStateCompletedPendingActivation, SesDownloadMcStateCompletedPendingPowerOn, SesDownloadMcStateCompletedPendingReset, SesDownloadMcStateInProgress, SesDownloadMcStateNoneInProgress, _SES_DOWNLOAD_MICROCODE_STATE, scsi/PSES_DOWNLOAD_MICROCODE_STATE, scsi/SES_DOWNLOAD_MICROCODE_STATE, scsi/SesDownloadMcStateCompletedPendingActivation, scsi/SesDownloadMcStateCompletedPendingPowerOn, scsi/SesDownloadMcStateCompletedPendingReset, scsi/SesDownloadMcStateInProgress, scsi/SesDownloadMcStateNoneInProgress, storage.ses_download_microcode_state"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: scsi.h
 req.include-header: Minitape.h, Storport.h
@@ -50,7 +47,7 @@ req.typenames: SES_DOWNLOAD_MICROCODE_STATE, *PSES_DOWNLOAD_MICROCODE_STATE
 ## -description
 
 
-TBD
+The **SES_DOWNLOAD_MICROCODE_STATE** enumeration specifies the state of a microcode download operation.
 
 
 ## -enum-fields
@@ -70,15 +67,15 @@ Specifies a microcode download operation is in progress.
 
 ### -field SesDownloadMcStateCompletedPendingReset
 
-Specifies a microcode download operations completed and is waiting for a hard reset.
+Specifies a microcode download operation completed and is waiting for a hard reset.
 
 
 ### -field SesDownloadMcStateCompletedPendingPowerOn
 
-Specifies a microcode download operations completed and is waiting for a power on.
+Specifies a microcode download operation completed and is waiting for a power on.
 
 
 ### -field SesDownloadMcStateCompletedPendingActivation
 
-Specifies a microcode download operations completed and is waiting for activation.
+Specifies a microcode download operation completed and is waiting for activation.
 

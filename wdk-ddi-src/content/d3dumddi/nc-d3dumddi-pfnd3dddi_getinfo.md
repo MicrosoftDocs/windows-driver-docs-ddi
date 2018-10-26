@@ -6,11 +6,8 @@ description: The GetInfo function retrieves information about the specified disp
 old-location: display\getinfo.htm
 tech.root: display
 ms.assetid: dcc0519e-f919-48bc-829f-416648de0b40
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: GetInfo, GetInfo callback function [Display Devices], PFND3DDDI_GETINFO, PFND3DDDI_GETINFO callback, UserModeDisplayDriver_Functions_21bbab23-9804-468e-80fb-6618f8356ac7.xml, d3dumddi/GetInfo, display.getinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,28 +57,26 @@ The <i>GetInfo</i> function retrieves information about the specified display de
 
 ### -param hDevice
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param Arg1
 
+*DevInfoID*
+
+An identifier for the type of device information to retrieve.
 
 ### -param *
 
+*pDevInfoStruct*
+
+A pointer to a buffer of the type that <i>DevInfoID</i> specifies that receives information about the device.
 
 ### -param DevInfoSize
 
- The size, in bytes, of the buffer that is supplied by <i>pDevInfoStruct</i>.
+The size, in bytes, of the buffer that is supplied by <i>pDevInfoStruct</i>.
 
 
-#### - DevInfoID
-
- An identifier for the type of device information to retrieve.
-
-
-#### - pDevInfoStruct
-
- A pointer to a buffer of the type that <i>DevInfoID</i> specifies that receives information about the device.
 
 
 ## -returns

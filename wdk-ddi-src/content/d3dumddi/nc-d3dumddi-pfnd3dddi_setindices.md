@@ -6,11 +6,8 @@ description: The SetIndices function sets the current index buffer.
 old-location: display\setindices.htm
 tech.root: display
 ms.assetid: 5348b3f9-78c5-4915-ba68-296d6f9f916c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETINDICES, PFND3DDDI_SETINDICES callback, SetIndices, SetIndices callback function [Display Devices], UserModeDisplayDriver_Functions_c51c5796-e271-4b76-a013-88038767d356.xml, d3dumddi/SetIndices, display.setindices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,7 +57,7 @@ The <i>SetIndices</i> function sets the current index buffer.
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +69,9 @@ The <i>SetIndices</i> function sets the current index buffer.
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543313">D3DDDIARG_SETINDICES</a> structure that describes parameters for setting the current index buffer.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543313">D3DDDIARG_SETINDICES</a> structure that describes parameters for setting the current index buffer.
 
 
 ## -returns

@@ -6,11 +6,8 @@ description: Returns the name of a filter.
 old-location: stream\ikspinpipe_ksgetfiltername.htm
 tech.root: stream
 ms.assetid: A009B276-AF91-4FDD-AB81-6992311B3744
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetFilterName method, IKsPinPipe.KsGetFilterName, IKsPinPipe::KsGetFilterName, KsGetFilterName, KsGetFilterName method [Streaming Media Devices], KsGetFilterName method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetFilterName, stream.ikspinpipe_ksgetfiltername
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ksproxy.h
 req.include-header: Ksproxy.h

@@ -6,11 +6,8 @@ description: Increments the specified correlation vector. For a correlation vect
 old-location: kernel\rtlincrementcorrelationvector.htm
 tech.root: kernel
 ms.assetid: bb252dd5-9bf3-41bd-ab46-9524735970c5
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlIncrementCorrelationVector, RtlIncrementCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlincrementcorrelationvector, ntddk/RtlIncrementCorrelationVector
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: 

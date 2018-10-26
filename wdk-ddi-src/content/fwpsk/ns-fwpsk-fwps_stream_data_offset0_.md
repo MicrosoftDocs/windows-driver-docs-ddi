@@ -6,11 +6,8 @@ description: The FWPS_STREAM_DATA_OFFSET0 structure defines an offset into a por
 old-location: netvista\fwps_stream_data_offset0.htm
 tech.root: netvista
 ms.assetid: a6b60fa1-23ed-44dd-8300-c66d5f907993
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FWPS_STREAM_DATA_OFFSET0, FWPS_STREAM_DATA_OFFSET0 structure [Network Drivers Starting with Windows Vista], FWPS_STREAM_DATA_OFFSET0_, fwpsk/FWPS_STREAM_DATA_OFFSET0, netvista.fwps_stream_data_offset0, wfp_ref_3_struct_3_fwps_P-Z_dc4b9bc1-f92b-4318-9cf4-466047be22f2.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: fwpsk.h
 req.include-header: Fwpsk.h

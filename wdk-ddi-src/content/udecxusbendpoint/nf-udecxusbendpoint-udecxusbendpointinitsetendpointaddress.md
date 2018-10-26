@@ -6,11 +6,8 @@ description: Sets the address of the endpoint in the initialization parameters o
 old-location: buses\udecxusbendpointinitsetendpointaddress.htm
 tech.root: usbref
 ms.assetid: 1C6DDEAE-5E49-40AF-9667-3C185A82BDE8
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UdecxUsbEndpointInitSetEndpointAddress, UdecxUsbEndpointInitSetEndpointAddress function [Buses], buses.udecxusbendpointinitsetendpointaddress, udecxusbendpoint/UdecxUsbEndpointInitSetEndpointAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: udecxusbendpoint.h
 req.include-header: Udecx.h

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The SetRenderTargets(D3D11) function sets render target surfaces.
 old-location: display\setrendertargets_d3d11_.htm
 ms.assetid: cfe5f570-4e53-43ee-942d-56da8dfcfe80
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11DDI_SETRENDERTARGETS, PFND3D11DDI_SETRENDERTARGETS callback, SetRenderTargets, SetRenderTargets callback function [Display Devices], UserModeDisplayDriverDx11_Functions_a24d5500-fe0a-4d17-a3fb-acb6ed9e4698.xml, d3d10umddi/SetRenderTargets, display.setrendertargets_d3d11_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,88 +57,69 @@ The <i>SetRenderTargets(D3D11)</i> function sets render target surfaces.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param *
 
+phRenderTargetView [in]
+
+An array of handles to the render target view objects to set. Note that some handle values can be <b>NULL</b>. 
 
 ### -param NumRTVs [in]
 
- The number of elements in the array that <i>phRenderTargetView</i> specifies for the render target views (RTVs) to set. 
+The number of elements in the array that <i>phRenderTargetView</i> specifies for the render target views (RTVs) to set. 
 
 
 ### -param ClearSlots
 
+RTVNumbertoUnbind [in]
+
+The number of render target view (RTV) objects to unbind (that is, those render target view objects that are previously set but should be no longer set).
 
 ### -param Arg2
 
+hDepthStencilView [in]
+
+A handle to the depth-stencil buffer to set. 
+
+### -param *
+
+phUnorderedAccessView [in]
+
+An array of handles to the unordered access view (UAV) objects. 
+
+### -param *
+
+pUAVInitialCounts [in]
+
+An array of append and consume buffer offsets. <i>pUAV</i> is only relevant for unordered access views (UAVs)  of the <i>phUnorderedAccessView</i> array that were created with either <b>D3D11_DDI_BUFFER_UAV_FLAG_APPEND</b>  or <b>D3D11_DDI_BUFFER_UAV_FLAG_COUNTER</b> set in the <b>Flags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542033">D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW</a> structure when the UAV was created; otherwise, the argument is ignored. If an element in this array is set to -1, the current offset for that append and consume buffer should be kept. Any other value causes the driver to set the hidden counter for that UAV append and consume buffer.
 
 ### -param UAVStartSlot
-
-
-### -param NumUAVs [in]
-
- The number of unordered access view objects (UAVs) to set. 
-
-
-### -param UAVRangeStart
-
-
-### -param UAVRangeSize
-
-
-
-
-
-
-
-
-#### - RTVNumbertoUnbind [in]
-
- The number of render target view (RTV) objects to unbind (that is, those render target view objects that are previously set but should be no longer set). 
-
-
-#### - UAVFirsttoSet [in]
-
- The first unordered access view object (UAV) in the set of all updated UAVs (which includes <b>NULL</b> bindings). 
-
-
-#### - UAVIndex [in]
 
 Indicates the start element, in the array of bind points, where the passed unordered access view (UAV) array is going to be applied. <i>UAVIndex</i> should be at least as great as  the <i>NumRTVs</i> parameter.
 
 <div class="alert"><b>Note</b>  Only one shared set of binding points exists for render target views (RTVs) and UAVs. RTVs are bound first, followed by UAVs.</div>
 <div> </div>
 
-#### - UAVNumberUpdated [in]
+### -param NumUAVs [in]
 
- The number of unordered access view objects (UAVs) in the set of all updated UAVs (which includes <b>NULL</b> bindings). 
+The number of unordered access view objects (UAVs) to set. 
+
+
+### -param UAVRangeStart
+
+The first unordered access view object (UAV) in the set of all updated UAVs (which includes <b>NULL</b> bindings).
+
+### -param UAVRangeSize
+
+The number of unordered access view objects (UAVs) in the set of all updated UAVs (which includes <b>NULL</b> bindings). 
 
 <div class="alert"><b>Note</b>  The parameters <i>UAVNumberUpdated</i> and  <i>UAVFirsttoSet</i> specify which range, in the  UAVs array, contains changes in relation to the state previously bound. Notice that points in the range could be unchanged. Also, update range indexing is not different from other parameters. For example, <i>UAVFirsttoSet</i>      starts at 0 as the first element of the shared render target view (RTV) and UAV bound space. This parameter is a convenience that reveals the span of what actually changed given that the Direct3D DDI always binds everything (including what has not changed).</div>
 <div> </div>
 
-#### - hDepthStencilView [in]
 
- A handle to the depth-stencil buffer to set. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - pUAVInitialCounts [in]
-
-An array of append and consume buffer offsets. <i>pUAV</i> is only relevant for unordered access views (UAVs)  of the <i>phUnorderedAccessView</i> array that were created with either <b>D3D11_DDI_BUFFER_UAV_FLAG_APPEND</b>  or <b>D3D11_DDI_BUFFER_UAV_FLAG_COUNTER</b> set in the <b>Flags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542033">D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW</a> structure when the UAV was created; otherwise, the argument is ignored. If an element in this array is set to -1, the current offset for that append and consume buffer should be kept. Any other value causes the driver to set the hidden counter for that UAV append and consume buffer.
-
-
-#### - phRenderTargetView [in]
-
- An array of handles to the render target view objects to set. Note that some handle values can be <b>NULL</b>. 
-
-
-#### - phUnorderedAccessView [in]
-
- An array of handles to the unordered access view (UAV) objects. 
 
 
 ## -returns

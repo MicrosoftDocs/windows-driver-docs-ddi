@@ -6,11 +6,8 @@ description: Gets an individual item in the collection.
 old-location: dtf\iwdtftargets2_item.htm
 tech.root: dtf
 ms.assetid: 886c71d2-2ee7-4ee9-aa40-68add721b1a9
-ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFTargets2 interface [Windows Device Testing Framework],Item property, IWDTFTargets2.Item, IWDTFTargets2.get_Item, IWDTFTargets2::Item, IWDTFTargets2::get_Item, Item property [Windows Device Testing Framework], Item property [Windows Device Testing Framework],IWDTFTargets2 interface, Microsoft.WDTF.IWDTFTargets2.Item, Microsoft::WDTF::IWDTFTargets2::Item, dtf.iwdtftargets2_item, get_Item, wdtf/IWDTFTargets2::Item, wdtf/IWDTFTargets2::get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtf.h
 req.include-header: 

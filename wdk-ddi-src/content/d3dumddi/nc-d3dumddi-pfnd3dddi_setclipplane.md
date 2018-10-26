@@ -6,11 +6,8 @@ description: The SetClipPlane function sets a clip plane.
 old-location: display\setclipplane.htm
 tech.root: display
 ms.assetid: 99edfc35-23a5-41e0-8705-7dffba564c10
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETCLIPPLANE, PFND3DDDI_SETCLIPPLANE callback, SetClipPlane, SetClipPlane callback function [Display Devices], UserModeDisplayDriver_Functions_695212ed-888d-40c9-8234-305373703b98.xml, d3dumddi/SetClipPlane, display.setclipplane
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,7 +57,7 @@ The <i>SetClipPlane</i> function sets a clip plane.
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +69,9 @@ The <i>SetClipPlane</i> function sets a clip plane.
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543280">D3DDDIARG_SETCLIPPLANE</a> structure that describes the clip plane to set.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543280">D3DDDIARG_SETCLIPPLANE</a> structure that describes the clip plane to set.
 
 
 ## -returns

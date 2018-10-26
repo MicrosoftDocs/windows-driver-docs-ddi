@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The pfnStateHsShaderCb function causes the Microsoft Direct3D 11 runtime to refresh the hull shader.
 old-location: display\pfnstatehsshadercb.htm
 ms.assetid: 74b243a2-722b-4eec-b382-936a6f2f990e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11DDI_STATE_HS_SHADER_CB, PFND3D11DDI_STATE_HS_SHADER_CB callback, d3d10umddi/pfnStateHsShaderCb, d3d11state_functions_b16162bf-d379-49de-bc4a-85d7df7e95bf.xml, display.pfnstatehsshadercb, pfnStateHsShaderCb, pfnStateHsShaderCb callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,16 +57,9 @@ The <b>pfnStateHsShaderCb</b> function causes the Microsoft Direct3D 11 runtime 
 
 ### -param Arg1
 
+*hRuntimeDevice* [in]
 
-
-
-
-
-
-
-#### - hRuntimeDevice [in]
-
- A handle to a context for the core Direct3D runtime. This handle is supplied to the driver in a call to the driver's <a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a> function. 
+A handle to a context for the core Direct3D runtime. This handle is supplied to the driver in a call to the driver's <a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a> function. 
 
 
 ## -returns

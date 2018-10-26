@@ -6,11 +6,8 @@ description: The GetQueryData function retrieves information about a query.
 old-location: display\getquerydata.htm
 tech.root: display
 ms.assetid: 64daec14-8e16-4df3-bb0c-27760223b86c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: GetQueryData, GetQueryData callback function [Display Devices], PFND3DDDI_GETQUERYDATA, PFND3DDDI_GETQUERYDATA callback, UserModeDisplayDriver_Functions_05870f6b-5971-4201-9910-c8c8c548878a.xml, d3dumddi/GetQueryData, display.getquerydata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,7 +57,7 @@ The <i>GetQueryData</i> function retrieves information about a query.
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +69,9 @@ The <i>GetQueryData</i> function retrieves information about a query.
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543182">D3DDDIARG_GETQUERYDATA</a> structure that contains the information about the query that is retrieved from the driver.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543182">D3DDDIARG_GETQUERYDATA</a> structure that contains the information about the query that is retrieved from the driver.
 
 
 ## -returns

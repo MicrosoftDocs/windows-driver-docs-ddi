@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Specifies output duplication options for use with the D3DKMTSetVidPnSourceOwner1 function.
 old-location: display\d3dkmt_vidpnsourceowner_flags.htm
 ms.assetid: acc4e9d9-235f-4605-ae51-5056108843dc
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_VIDPNSOURCEOWNER_FLAGS, D3DKMT_VIDPNSOURCEOWNER_FLAGS structure [Display Devices], _D3DKMT_VIDPNSOURCEOWNER_FLAGS, d3dkmthk/D3DKMT_VIDPNSOURCEOWNER_FLAGS, display.d3dkmt_vidpnsourceowner_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
@@ -75,7 +72,7 @@ If a value of one, the video present network (VidPN) explicitly allows output du
 
 ### -field Reserved
 
-Reserved for system use.
+Reserved for internal use.
 
 
 ### -field Value

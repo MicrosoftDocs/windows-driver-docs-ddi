@@ -6,11 +6,8 @@ description: The FsRtlValidateReparsePointBuffer routine verifies that the speci
 old-location: ifsk\fsrtlvalidatereparsepointbuffer.htm
 tech.root: ifsk
 ms.assetid: fb67b116-12f5-4eef-ab05-f2056ccec4e3
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlValidateReparsePointBuffer, FsRtlValidateReparsePointBuffer routine [Installable File System Drivers], fsrtlref_809c9e16-62b6-4a08-82d5-d6e86e7844ff.xml, ifsk.fsrtlvalidatereparsepointbuffer, ntifs/FsRtlValidateReparsePointBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
@@ -124,7 +121,7 @@ The buffer has an invalid reparse tag.
 
 For more information about reparse points, see <a href="https://msdn.microsoft.com/6aae70d9-c934-4759-bb26-728b0ac025d1">Reparse Points in a File System Filter Driver</a>.
 
-Reparse tags contain several bits that cannot be set except by system components. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=179582">Reparse Point Tags</a>.
+Reparse tags contain several bits that cannot be set except by system components. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=179582">Reparse Point Tags</a>.
 
 
 

@@ -6,11 +6,8 @@ description: The GetExpressionSyntaxNames method returns the full and abbreviate
 old-location: debugger\getexpressionsyntaxnames.htm
 tech.root: debugger
 ms.assetid: c60b1d7b-b82d-4f59-a076-2122da97a161
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetExpressionSyntaxNames, GetExpressionSyntaxNames method [Windows Debugging], GetExpressionSyntaxNames method [Windows Debugging],IDebugControl3 interface, IDebugControl3 interface [Windows Debugging],GetExpressionSyntaxNames method, IDebugControl3.GetExpressionSyntaxNames, IDebugControl3::GetExpressionSyntaxNames, IDebugControl_9556ddd4-d38f-4c56-8456-81c12afb177e.xml, dbgeng/IDebugControl3::GetExpressionSyntaxNames, debugger.getexpressionsyntaxnames
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

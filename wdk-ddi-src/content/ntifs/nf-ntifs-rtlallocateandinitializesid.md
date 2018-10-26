@@ -6,11 +6,8 @@ description: Reserved for system use.
 old-location: ifsk\rtlallocateandinitializesid.htm
 tech.root: ifsk
 ms.assetid: c58f4448-06f5-4eda-a254-e453defd1d6c
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlAllocateAndInitializeSid, RtlAllocateAndInitializeSid function [Installable File System Drivers], ifsk.rtlallocateandinitializesid, ntifs/RtlAllocateAndInitializeSid, rtlref_74879713-f57f-4d67-a779-995c150bc7ea.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h
@@ -65,52 +62,52 @@ The <b>RtlAllocateAndInitializeSid</b> routine is reserved for system use. See <
 
 ### -param SubAuthorityCount
 
-TBD
+Reserved.
 
 
 ### -param SubAuthority0
 
-TBD
+Reserved.
 
 
 ### -param SubAuthority1
 
-TBD
+Reserved.
 
 
 ### -param SubAuthority2
 
-TBD
+Reserved.
 
 
 ### -param SubAuthority3
 
-TBD
+Reserved.
 
 
 ### -param SubAuthority4
 
-TBD
+Reserved.
 
 
 ### -param SubAuthority5
 
-TBD
+Reserved.
 
 
 ### -param SubAuthority6
 
-TBD
+Reserved.
 
 
 ### -param SubAuthority7
 
-TBD
+Reserved.
 
 
 ### -param Sid
 
-TBD
+Reserved.
 
 
 

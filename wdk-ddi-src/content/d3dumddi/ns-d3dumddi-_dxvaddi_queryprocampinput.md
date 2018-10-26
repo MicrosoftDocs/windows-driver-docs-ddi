@@ -6,11 +6,8 @@ description: The DXVADDI_QUERYPROCAMPINPUT structure describes a ProcAmp control
 old-location: display\dxvaddi_queryprocampinput.htm
 tech.root: display
 ms.assetid: 9ba7c42a-4140-4d8c-abb3-ae5f9285dbd9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_64cd50ed-940a-46a1-8a4d-b43d40e85b25.xml, DXVADDI_QUERYPROCAMPINPUT, DXVADDI_QUERYPROCAMPINPUT structure [Display Devices], _DXVADDI_QUERYPROCAMPINPUT, d3dumddi/DXVADDI_QUERYPROCAMPINPUT, display.dxvaddi_queryprocampinput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

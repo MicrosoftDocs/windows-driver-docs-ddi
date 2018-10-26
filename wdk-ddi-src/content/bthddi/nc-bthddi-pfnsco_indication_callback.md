@@ -6,11 +6,8 @@ description: Profile drivers implement a SCO callback function to provide the Bl
 old-location: bltooth\sco_callback_function.htm
 tech.root: bltooth
 ms.assetid: abc9fc88-6852-4bfb-8271-7a73a508c397
-ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: PFNSCO_INDICATION_CALLBACK, PFNSCO_INDICATION_CALLBACK callback, SCOIndicationCallback, SCOIndicationCallback callback function [Bluetooth Devices], bltooth.sco_callback_function, bth_funcs_05d035df-348d-42c0-8041-5d3822b0346e.xml, bthddi/SCOIndicationCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: bthddi.h
 req.include-header: Bthddi.h

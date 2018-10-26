@@ -6,11 +6,8 @@ description: The WdfFileObjectGetRelatedFileObject method retrieves the related 
 old-location: wdf\wdffileobjectgetrelatedfileobject.htm
 tech.root: wdf
 ms.assetid: EB00FF6B-144B-4256-A362-D593FD4CFC98
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfFileObjectGetRelatedFileObject, WdfFileObjectGetRelatedFileObject method, wdf.wdffileobjectgetrelatedfileobject, wdffileobject/WdfFileObjectGetRelatedFileObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdffileobject.h
 req.include-header: Wdf.h

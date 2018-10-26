@@ -6,11 +6,8 @@ description: Initializes the USB Type-C Port Controller Interface framework exte
 old-location: buses\ucmtcpcideviceinitialize.htm
 tech.root: usbref
 ms.assetid: f89dd322-520b-41b0-bbe2-6eab0f8a6b70
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UcmTcpciDeviceInitialize, UcmTcpciDeviceInitialize method [Buses], buses.ucmtcpcideviceinitialize, ucmtcpcidevice/UcmTcpciDeviceInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ucmtcpcidevice.h
 req.include-header: 

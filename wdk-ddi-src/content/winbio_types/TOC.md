@@ -1,7 +1,0 @@
-# [Biometric](../_biometric/index.md)
-## [Winbio_Types.h](index.md)
-### [_WINBIO_BIR structure](../winbio_types/ns-winbio_types-_winbio_bir.md)
-### [_WINBIO_BIR_DATA structure](../winbio_types/ns-winbio_types-_winbio_bir_data.md)
-### [_WINBIO_BIR_HEADER structure](../winbio_types/ns-winbio_types-_winbio_bir_header.md)
-### [_WINBIO_REGISTERED_FORMAT structure](../winbio_types/ns-winbio_types-_winbio_registered_format.md)
-### [_WINBIO_VERSION structure](../winbio_types/ns-winbio_types-_winbio_version.md)

@@ -6,11 +6,8 @@ description: Called by the operating system to request that the display miniport
 old-location: display\dxgkddimiracastiocontrol.htm
 tech.root: display
 ms.assetid: 83E817C3-A30D-4597-A490-C4FB93A78FCE
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_MIRACAST_HANDLE_IO_CONTROL, DXGKDDI_MIRACAST_HANDLE_IO_CONTROL callback, DxgkDdiMiracastIoControl, DxgkDdiMiracastIoControl callback function [Display Devices], display.dxgkddimiracastiocontrol, dispmprt/DxgkDdiMiracastIoControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
@@ -80,8 +77,11 @@ Supplied by the operating system as a pointer to the input buffer. This value or
 <i>InputBufferSize</i> specifies the size of the buffer.
 
 
-### -param OutputBufferSize
+### -param OutputBufferSize [in]
 
+Supplied by the operating system as the size, in bytes, of the output buffer pointed to by <i>pOutputBuffer</i>.
+
+This value originated as the user-mode <a href="https://msdn.microsoft.com/df63ec18-79e0-40a6-a412-46071eb8a7fe">MiracastIoControl</a> function's <i>OutputBufferSize</i> parameter.
 
 ### -param *pOutputBuffer [out]
 
@@ -95,11 +95,8 @@ Supplied by the operating system as a pointer to the output buffer. This value o
 Supplied by the operating system as a pointer to a buffer that holds a <b>ULONG</b>-type value that is the number of bytes that the display miniport driver returned in the buffer pointed to by <i>pOutputBuffer</i>.
 
 
-#### - OutBufferSize [in]
 
-Supplied by the operating system as the size, in bytes, of the output buffer pointed to by <i>pOutputBuffer</i>.
 
-This value originated as the user-mode <a href="https://msdn.microsoft.com/df63ec18-79e0-40a6-a412-46071eb8a7fe">MiracastIoControl</a> function's <i>OutputBufferSize</i> parameter.
 
 
 ## -returns

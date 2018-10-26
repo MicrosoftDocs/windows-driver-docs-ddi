@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Used to create a decoder object for a decode session.
 old-location: display\d3d12ddiarg_create_video_decoder.htm
 ms.assetid: 8178A279-96FE-40DC-A292-4551FA153F45
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D12DDIARG_CREATE_VIDEO_DECODER_0021, D3D12DDIARG_CREATE_VIDEO_DECODER_0021 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATE_VIDEO_DECODER_0021, display.d3d12ddiarg_create_video_decoder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
@@ -90,7 +87,7 @@ The frame rate of the input video stream.
 
 ### -field BitRate
 
-
+The data compression rate, in bits per second, for the compressed video stream.
 
 
 ### -field Usage
@@ -98,9 +95,7 @@ The frame rate of the input video stream.
 A hint for the intended usage for the decoder stream. For more information, see the <a href="https://msdn.microsoft.com/663790EE-A9E3-4EBC-93C7-20DE0D759A26">D3D12DDI_VIDEO_USAGE</a> enumeration.
 
 
-#### - Bitrate
 
-The data compression rate, in bits per second, for the compressed video stream.
 
 
 ## -remarks

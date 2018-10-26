@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The CsSetSamplers function sets samplers for a compute shader.
 old-location: display\cssetsamplers.htm
 ms.assetid: 7bf05fb6-e959-464a-9e6b-74c568d1d88c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CsSetSamplers, CsSetSamplers callback function [Display Devices], PFND3D10DDI_SETSAMPLERS, PFND3D10DDI_SETSAMPLERS callback, UserModeDisplayDriverDx11_Functions_a2d1c287-1dab-4852-a643-8d568d04f64d.xml, d3d10umddi/CsSetSamplers, display.cssetsamplers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,37 +57,26 @@ The <b>CsSetSamplers</b> function sets samplers for a compute shader.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param StartSlot
 
+*Offset* [in]
 
-### -param NumSamplers [in]
+The offset to the first sampler to set.
 
- The total number of samplers to set. 
+### -param NumSamplers 
 
+[in] The total number of samplers to set. 
 
 ### -param *
 
+*phSamplers* [in]
 
+An array of handles to the samplers, beginning at the offset that <i>Offset</i> specifies.
 
-
-
-
-
-
-#### - Offset [in]
-
- The offset to the first sampler to set. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - phSamplers [in]
-
- An array of handles to the samplers, beginning at the offset that <i>Offset</i> specifies.
 
 
 ## -returns

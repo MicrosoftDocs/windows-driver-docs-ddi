@@ -6,11 +6,8 @@ description: The IG_GET_BUS_DATA Ioctl operation reads data from a system bus an
 old-location: debugger\ig_get_bus_data.htm
 tech.root: debugger
 ms.assetid: aca1fe96-20c7-4a51-a331-583b107f62e0
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: "*PBUSDATA, BUSDATA, BUSDATA structure [Windows Debugging], GETSETBUSDATA, GETSETBUSDATA structure [Windows Debugging], PBUSDATA, PBUSDATA structure pointer [Windows Debugging], WdbgExts_Ref_090ca26a-5955-40c6-82c3-310a02a9d64d.xml, _GETSETBUSDATA, debugger.ig_get_bus_data, wdbgexts/GETSETBUSDATA, wdbgexts/PBUSDATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h

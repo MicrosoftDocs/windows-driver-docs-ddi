@@ -6,11 +6,8 @@ description: Notifies the USB connector manager framework extension (UcmCx) with
 old-location: buses\ucmconnectorpdconnectionstatechanged.htm
 tech.root: usbref
 ms.assetid: 2DE78869-9AFC-423A-BCB0-B7BBAB0C06BC
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UcmConnectorPdConnectionStateChanged, UcmConnectorPdConnectionStateChanged method [Buses], buses.ucmconnectorpdconnectionstatechanged, ucmmanager/UcmConnectorPdConnectionStateChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h

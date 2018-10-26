@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_setexecutorfocus.htm
 tech.root: netvista
 ms.assetid: c8deb6ef-e75b-4c90-a7ca-d685fdcc43bc
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_SetExecutorFocus, RIL_SetExecutorFocus method [Network Drivers Starting with Windows Vista], netvista.ril_setexecutorfocus, rilapi/RIL_SetExecutorFocus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rilapi.h
 req.include-header: 

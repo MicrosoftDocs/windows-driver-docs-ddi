@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Enables or disables stereo 3D video for an input stream on the video processor. In addition, this function specifies the layout of the video frames in memory.
 old-location: display\videoprocessorsetstreamstereoformat.htm
 ms.assetid: bc79f431-d23e-4440-a8c5-50c29c48444e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSTEREOFORMAT, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSTEREOFORMAT callback, d3d10umddi/pfnVideoProcessorSetStreamStereoFormat, display.videoprocessorsetstreamstereoformat, pfnVideoProcessorSetStreamStereoFormat, pfnVideoProcessorSetStreamStereoFormat callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -62,38 +59,65 @@ Enables or disables stereo 3D video for an input stream on the video processor. 
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hVideoProcessor* [in]
+
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function.
 
 ### -param Arg3
 
+*StreamIndex* [in]
+
+The zero-based index of the input stream.
 
 ### -param Arg4
 
+*Enable* [in]
+
+If <b>TRUE</b>, stereo 3D is enabled for the input stream.
+
+
+
+If <b>FALSE</b>, stereo 3D is disabled for the input stream.
+
+The driver must ignore the remaining parameters for this function.
 
 ### -param Arg5
 
+*StereoFormat* [in]
+
+Specifies the layout of the two stereo views in memory, as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451029">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a> value.
 
 ### -param Arg6
 
+*LeftViewFrame0* [in]
+
+If <b>TRUE</b>, frame 0 contains the left view. Otherwise, frame 0 contains the right view.
+
+This parameter is ignored for the following <a href="https://msdn.microsoft.com/library/windows/hardware/hh451029">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a> values:
+
+
+
+<ul>
+<li>
+<b>D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO 
+</b>
+
+</li>
+<li>
+<b>D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET</b>
+
+</li>
+</ul>
 
 ### -param Arg7
 
-
-### -param Arg8
-
-
-### -param Arg9
-
-
-
-
-
-
-
-
-#### - BaseViewFrame0 [in]
+*BaseViewFrame0* [in]
 
 If <b>TRUE</b>, frame 0 contains the base view. Otherwise, frame 1 contains the base view.
 
@@ -114,73 +138,22 @@ This parameter is ignored for the following <a href="https://msdn.microsoft.com/
 </li>
 </ul>
 
-#### - Enable [in]
+### -param Arg8
 
-If <b>TRUE</b>, stereo 3D is enabled for the input stream.
-
-
-
-If <b>FALSE</b>, stereo 3D is disabled for the input stream.
-
- The driver must ignore the remaining parameters for this function.
-
-
-#### - FlipMode [in]
+*FlipMode* [in]
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/hh451025">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE</a> enumeration value that specifies whether one of the views is flipped.
 
+### -param Arg9
 
-
-
-#### - LeftViewFrame0 [in]
-
-If <b>TRUE</b>, frame 0 contains the left view. Otherwise, frame 0 contains the right view.
-
-This parameter is ignored for the following <a href="https://msdn.microsoft.com/library/windows/hardware/hh451029">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a> values:
-
-
-
-<ul>
-<li>
-<b>D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO 
-</b>
-
-</li>
-<li>
-<b>D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET</b>
-
-</li>
-</ul>
-
-#### - MonoOffset [in]
+*MonoOffset* [in]
 
 If the <i>StereoFormat</i> parameter is set to <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET</b>, this parameter specifies how to generate the left and right views. For more information, see the Remarks section.
 
 <div class="alert"><b>Note</b>  If the <i>StereoFormat</i> parameter is not set to <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET</b>, this parameter must be set to zero and ignored by the driver.</div>
 <div> </div>
 
-#### - StereoFormat [in]
 
-Specifies the layout of the two stereo views in memory, as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451029">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a> value.
-
-
-
-
-#### - StreamIndex [in]
-
-The zero-based index of the input stream.
-
-
-#### - hDevice [in]
-
-A handle to the display device (graphics context).
-
-
-
-
-#### - hVideoProcessor [in]
-
-A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
 
 
 

@@ -6,11 +6,8 @@ description: Miniport drivers call the NdisMSynchronizeWithInterruptEx function 
 old-location: netvista\ndismsynchronizewithinterruptex.htm
 tech.root: netvista
 ms.assetid: 5dca9258-a3ae-43f4-a5aa-d591165d72ed
-ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 02/27/2018
 ms.keywords: BOOLEAN, NdisMSynchronizeWithInterruptEx, NdisMSynchronizeWithInterruptEx function [Network Drivers Starting with Windows Vista], ndis/NdisMSynchronizeWithInterruptEx, ndis_interrupts_functions_ref_e2b886ed-7425-4f7e-8cb6-4e3946dec8ff.xml, netvista.ndismsynchronizewithinterruptex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: video.h
 req.include-header: Ndis.h, Video.h
@@ -61,14 +58,14 @@ Miniport drivers call the
 ## -syntax
 
 
-````
+```cpp
 BOOLEAN NdisMSynchronizeWithInterruptEx(
   _In_ NDIS_HANDLE NdisInterruptHandle,
   _In_ ULONG       MessageId,
   _In_ PVOID       SynchronizeFunction,
   _In_ PVOID       SynchronizeContext
 );
-````
+```
 
 
 ## -parameters
@@ -76,10 +73,40 @@ BOOLEAN NdisMSynchronizeWithInterruptEx(
 
 
 
-### -param
+### -param NdisInterruptHandle 
 
-<p>An interrupt handle that the miniport driver obtained in a previous call to the 
-     <a href="https://msdn.microsoft.com/library/Ff563649(v=VS.85).aspx"><b>NdisMRegisterInterruptEx</b></a> function.</p>
+[in] An interrupt handle that the miniport driver obtained in a previous call to the <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a> function.
+
+<p>An interrupt handle that the miniport driver obtained in a previous call to the <a href="https://msdn.microsoft.com/library/Ff563649(v=VS.85).aspx"><b>NdisMRegisterInterruptEx</b></a> function.</p>
+
+
+
+
+### -param MessageId 
+
+[in] A message-signaled interrupt with which the driver must synchronize. If NDIS did not grant message signaled interrupts for the driver, NDIS ignores this parameter.
+     <i>MessageId</i> is an index to the
+     <a href="..\wdm\ns-wdm-_io_interrupt_message_info_entry.md">
+     IO_INTERRUPT_MESSAGE_INFO_ENTRY</a> structures inside a
+     <a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">
+     IO_INTERRUPT_MESSAGE_INFO</a> structure. NDIS passes a pointer to the associated
+     IO_INTERRUPT_MESSAGE_INFO structure at the
+     <b>MessageInfoTable</b> member when the driver successfully registers for MSI with the
+     <b>NdisMRegisterInterruptEx</b> function.
+
+
+### -param SynchronizeFunction 
+
+[in] The entry point of the driver's
+     <a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
+     MiniportSynchronizeInterrupt</a> function.
+
+### -param SynchronizeContext 
+
+[in] A pointer to a miniport-driver-determined context area that is passed to the
+     <i>MiniportSynchronizeInterrupt</i> function at
+     <i>SynchronizeContext</i> .
+
 
 
 

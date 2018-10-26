@@ -6,11 +6,8 @@ description: Describes how a Microsoft DirectX graphics kernel subsystem (Dxgkrn
 old-location: display\umdetwlogmapallocation.htm
 tech.root: display
 ms.assetid: 60456f6a-3de7-46ae-b486-f53041ce1508
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: UMDEtwLogMapAllocation, UMDEtwLogMapAllocation function [Display Devices], display.umdetwlogmapallocation, umdprovider/UMDEtwLogMapAllocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: umdprovider.h
 req.include-header: Umdprovider.h

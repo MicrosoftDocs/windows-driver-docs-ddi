@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Sets the color-palette entries for an input stream on the video processor.
 old-location: display\videoprocessorsetstreampalette.htm
 ms.assetid: a655baef-4f99-45a1-ac78-5f54d2f4f1ab
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPALETTE, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPALETTE callback, d3d10umddi/pfnVideoProcessorSetStreamPalette, display.videoprocessorsetstreampalette, pfnVideoProcessorSetStreamPalette, pfnVideoProcessorSetStreamPalette callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -62,50 +59,31 @@ Sets the color-palette entries for an input stream on the video processor.
 
 ### -param Arg1
 
-
-### -param Arg2
-
-
-### -param Arg3
-
-
-### -param Arg4
-
-
-### -param *
-
-
-
-
-
-
-
-
-#### - Count [in]
-
-The number of elements in the array that is referenced by the <i>pEntries</i> parameter.
-
-
-#### - StreamIndex [in]
-
-The zero-based index of the input stream.
-
-
-#### - hDevice [in]
+*hDevice* [in]
 
 A handle to the display device (graphics context).
 
+### -param Arg2
 
+*hVideoProcessor* [in]
 
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function.
 
-#### - hVideoProcessor [in]
+### -param Arg3
 
-A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
+*StreamIndex* [in]
 
+The zero-based index of the input stream.
 
+### -param Arg4
 
+*Count* [in]
 
-#### - pEntries [in]
+The number of elements in the array that is referenced by the <i>pEntries</i> parameter.
+
+### -param *
+
+*pEntries* [in]
 
 A pointer to an array of palette entries. For RGB streams, the palette entries are specified in the <b>DXGI_FORMAT_B8G8R8A8</b> format. For YCbCr streams, the palette entries are specified in the <b>DXGI_FORMAT_AYUV</b> format. 
 

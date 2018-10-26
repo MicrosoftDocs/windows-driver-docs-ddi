@@ -6,11 +6,8 @@ description: The NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure.
 old-location: netvista\ndis_protocol_offload_block_list.htm
 tech.root: netvista
 ms.assetid: 64febd55-1ab8-4e2e-b738-340167866333
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure [Network Drivers Starting with Windows Vista], PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, ndischimney/NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, ndischimney/PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, netvista.ndis_protocol_offload_block_list, tcp_chim_struct_77380eae-055d-471e-a94a-67575124981b.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
@@ -521,7 +518,7 @@ When a protocol or intermediate driver specifies a non-<b>NULL</b> value,
 The MDLs associated with the NET_BUFFER structures contain data that is being conveyed as part of a
       state-manipulation operation or the completion of such an operation. At present, the linked list can
       contain just one type of data: outstanding send data. For more information about send data, see 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-outstanding-send-data-during-and-after-an-offload-operation">Handling
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/handling-outstanding-send-data-during-and-after-an-offload-operation">Handling
       Outstanding Send Data During and After an Offload Operation</a>.
 
 An offload target or intermediate driver can pass outstanding send data to the overlying driver or
@@ -541,15 +538,15 @@ An offload target or intermediate driver can pass outstanding send data to the o
 An intermediate driver creates an NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure from an 
     <a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure when 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff563771">propagating a
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563771">propagating a
     state-manipulation operation</a>. When 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/propagating-the-completion-of-a-state-manipulation-operation">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/propagating-the-completion-of-a-state-manipulation-operation">
     propagating the completion of such an operation</a>, an intermediate driver uses an
     NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure to construct an NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
     structure.
 
 An NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure can be immediately followed in memory by an 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570939">offload state structure</a> that contains
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570939">offload state structure</a> that contains
     the state to be (or that has been) offloaded, queried, updated, invalidated, or terminated. The 
     <b>Type</b> member of the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure's 
     <b>Header</b> specifies the type of offload state, and by implication, the specific offload state

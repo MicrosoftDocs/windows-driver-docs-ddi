@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The ResourceCopy function copies an entire source resource to a destination resource.
 old-location: display\resourcecopy.htm
 ms.assetid: 9a837f42-0bea-4425-b693-dd7947ac24b1
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_RESOURCECOPY, PFND3D10DDI_RESOURCECOPY callback, ResourceCopy, ResourceCopy callback function [Display Devices], UserModeDisplayDriverDx10_Functions_40047363-38d4-4271-8c24-f9a7ea565079.xml, d3d10umddi/ResourceCopy, display.resourcecopy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,32 +57,21 @@ The <i>ResourceCopy</i> function copies an entire source resource to a destinati
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hDstResource* [in]
+
+A handle to the destination resource to copy to.
 
 ### -param Arg3
 
+*hSrcResource* [in]
 
-
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hDstResource [in]
-
- A handle to the destination resource to copy to.
-
-
-#### - hSrcResource [in]
-
- A handle to the source resource to copy from.
+A handle to the source resource to copy from.
 
 
 ## -returns

@@ -6,11 +6,8 @@ description: The DXGKRNL_INTERFACE structure contains a handle to a display adap
 old-location: display\dxgkrnl_interface2.htm
 tech.root: display
 ms.assetid: d97d3ec6-aaa5-4f4a-a39f-42c09473b18e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*PDXGKRNL_INTERFACE, DXGKDDI_INTERFACE_VERSION_VISTA, DXGKDDI_INTERFACE_VERSION_VISTA_SP1, DXGKDDI_INTERFACE_VERSION_VISTA_WIN7, DXGKDDI_INTERFACE_VERSION_WIN8, DXGKRNL_INTERFACE, DXGKRNL_INTERFACE structure [Display Devices], DmStructs_86ab8b5f-f30b-4ad3-ac4d-34fc3a864f27.xml, PDXGKRNL_INTERFACE, PDXGKRNL_INTERFACE structure pointer [Display Devices], _DXGKRNL_INTERFACE, display.dxgkrnl_interface2, dispmprt/DXGKRNL_INTERFACE, dispmprt/PDXGKRNL_INTERFACE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
@@ -56,7 +53,7 @@ The <b>DXGKRNL_INTERFACE</b> structure contains a handle to a display adapter an
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DXGKRNL_INTERFACE {
   ULONG                                 Size;
   ULONG                                 Version;
@@ -97,7 +94,7 @@ typedef struct _DXGKRNL_INTERFACE {
   DXGKCB_COMPLETEPSTATETRANSITION       DxgkCbCompletePStateTransition;
 #endif
 } DXGKRNL_INTERFACE, *PDXGKRNL_INTERFACE;
-````
+```
 
 
 ## -struct-fields
@@ -350,90 +347,156 @@ Supported starting with Windows 8.1.
 
 ### -field DxgkCbMapContextAllocation
 
+A pointer to the display port driver's [DXGKCB_MAPCONTEXTALLOCATION](..\d3dkmddi\nc-d3dkmddi-dxgkcb_mapcontextallocation.md) function.
 
-
+Supported starting with WDDM 2.0.
 
 ### -field DxgkCbUpdateContextAllocation
 
+A pointer to the display port driver's [DXGKCB_UPDATECONTEXTALLOCATION](..\d3dkmddi\nc-d3dkmddi-dxgkcb_updatecontextallocation.md) function.
 
-
+Supported starting with WDDM 2.0.
 
 ### -field DxgkCbReserveGpuVirtualAddressRange
 
 
+A pointer to the display port driver's [DXGKCB_RESERVEGPUVIRTUALADDRESSRANGE](..\d3dkmddi\nc-d3dkmddi-dxgkcb_reservegpuvirtualaddressrange.md) function.
 
+Supported starting with WDDM 2.0.
 
 ### -field DxgkCbAcquireHandleData
 
+A pointer to the display port driver's [DXGKCB_ACQUIREHANDLEDATA](..\d3dkmddi\nc-d3dkmddi-dxgkcb_acquirehandledata.md) function.
 
-
+Supported starting with WDDM 2.0.
 
 ### -field DxgkCbReleaseHandleData
 
+A pointer to the display port driver's [DXGKCB_RELEASEHANDLEDATA](..\d3dkmddi\nc-d3dkmddi-dxgkcb_releasehandledata.md) function.
 
-
+Supported starting with WDDM 2.0.
 
 ### -field DxgkCbHardwareContentProtectionTeardown
 
+A pointer to the display port driver's [DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN](..\d3dkmddi\nc-d3dkmddi-dxgkcb_hardwarecontentprotectionteardown.md) function.
 
-
+Supported starting with WDDM 2.0.
 
 ### -field DxgkCbMultiPlaneOverlayDisabled
 
 
+A pointer to the display port driver's [DXGKCB_MULTIPLANEOVERLAYDISABLED](..\d3dkmddi\nc-d3dkmddi-dxgkcb_multiplaneoverlaydisabled.md) function.
 
+Supported starting with WDDM 2.1.
 
 ### -field DxgkCbMitigatedRangeUpdate
 
 
+A pointer to the display port driver's DXGKCB_DXGKCB_MITIGATEDRANGEUPDATE function.
 
+Supported starting with WDDM 2.1.
 
 ### -field DxgkCbInvalidateHwContext
 
+A pointer to the display port driver's DXGKCB_INVALIDATEHWCONTEXT function.
 
-
+Supported starting with WDDM 2.2.
 
 ### -field DxgkCbIndicateConnectorChange
 
+A pointer to the display port driver's [DXGKCB_INDICATE_CONNECTOR_CHANGE](..\d3dkmddi\nc-d3dkmddi-dxgkcb_indicate_connector_change.md) function.
 
-
+Supported starting with WDDM 2.2.
 
 ### -field DxgkCbUnblockUEFIFrameBufferRanges
 
+A pointer to the display port driver's DXGKCB_UNBLOCKUEFIFRAMEBUFFERRANGES function.
 
-
+Supported starting with WDDM 2.2.
 
 ### -field DxgkCbAcquirePostDisplayOwnership2
 
+A pointer to the display port driver's [DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2](..\dispmprt\nc-dispmprt-dxgkcb_acquire_post_display_ownership2.md) function.
 
-
+Supported starting with WDDM 2.2.
 
 ### -field DxgkCbSetProtectedSessionStatus
 
+A pointer to the display port driver's DXGKCB_SETPROTECTEDSESSIONSTATUS function.
+
+Supported starting with WDDM 2.3.
 
 ### -field DxgkCbAllocateContiguousMemory
 
+A pointer to the display port driver's [DXGKCB_ALLOCATECONTIGUOUSMEMORY](..\d3dkmddi\nc-d3dkmddi-dxgkcb_allocatecontiguousmemory.md) function.
+
+Supported starting with WDDM 2.4.
+
 ### -field DxgkCbFreeContiguousMemory
+
+A pointer to the display port driver's [DXGKCB_FREECONTIGUOUSMEMORY](..\d3dkmddi\nc-d3dkmddi-dxgkcb_freecontiguousmemory.md) function.
+
+Supported starting with WDDM 2.4.
 
 ### -field DxgkCbAllocatePagesForMdl
 
+A pointer to the display port driver's [DXGKCB_ALLOCATEPAGESFORMDL](..\d3dkmddi\nc-d3dkmddi-dxgkcb_allocatepagesformdl.md) function.
+
+Supported starting with WDDM 2.4.
+
 ### -field DxgkCbFreePagesFromMdl
+
+A pointer to the display port driver's [DXGKCB_FREEPAGESFROMMDL](..\d3dkmddi\nc-d3dkmddi-dxgkcb_freepagesfrommdl.md) function.
+
+Supported starting with WDDM 2.4.
 
 ### -field DxgkCbPinFrameBufferForSave
 
+A pointer to the display port driver's [DXGKCB_PINFRAMEBUFFERFORSAVE](..\d3dkmddi\nc-d3dkmddi-dxgkcb_pinframebufferforsave.md) function.
+
+Supported starting with WDDM 2.4.
+
 ### -field DxgkCbUnpinFrameBufferForSave
+
+A pointer to the display port driver's [DXGKCB_UNPINFRAMEBUFFERFORSAVE](..\d3dkmddi\nc-d3dkmddi-dxgkcb_unpinframebufferforsave.md) function.
+
+Supported starting with WDDM 2.4.
 
 ### -field DxgkCbMapFrameBufferPointer
 
+A pointer to the display port driver's [DXGKCB_MAPFRAMEBUFFERPOINTER](..\d3dkmddi\nc-d3dkmddi-dxgkcb_mapframebufferpointer.md) function.
+
+Supported starting with WDDM 2.4.
+
 ### -field DxgkCbUnmapFrameBufferPointer
+
+A pointer to the display port driver's [DXGKCB_UNMAPFRAMEBUFFERPOINTER](..\d3dkmddi\nc-d3dkmddi-dxgkcb_unmapframebufferpointer.md) function.
+
+Supported starting with WDDM 2.4.
 
 ### -field DxgkCbMapMdlToIoMmu
 
+A pointer to the display port driver's [DXGKCB_MAPMDLTOIOMMU](..\d3dkmddi\nc-d3dkmddi-dxgkcb_mapmdltoiommu.md) function.
+
+Supported starting with WDDM 2.4.
+
 ### -field DxgkCbUnmapMdlFromIoMmu
+
+A pointer to the display port driver's [DXGKCB_UNMAPMDLFROMIOMMU](..\d3dkmddi\nc-d3dkmddi-dxgkcb_mapmdltoiommu.md) function.
+
+Supported starting with WDDM 2.4.
 
 ### -field DxgkCbReportDiagnostic
 
+A pointer to the display port driver's [DXGKCB_REPORT_DIAGNOSTIC](..\dispmprt\nc-dispmprt-dxgkcb_report_diagnostic.md) function.
 
+Supported starting with WDDM 2.4.
+
+### -field DxgkCbSignalEvent
+
+A pointer to the display port driver's [DXGKCB_SIGNALEVENT](..\d3dkmddi\nc-d3dkmddi-dxgkcb_signalevent.md) function.
+
+Supported starting with WDDM 2.5.
 
 ## -see-also
 

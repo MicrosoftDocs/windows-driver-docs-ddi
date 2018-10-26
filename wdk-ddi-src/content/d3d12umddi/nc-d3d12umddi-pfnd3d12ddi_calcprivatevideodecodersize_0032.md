@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Used to calculate the size of a video decoder.
 old-location: display\pfnd3d12ddi_calcprivatevideodecodersize_0032.htm
 ms.assetid: 90F05A41-692B-4301-81F3-56035072C8A3
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0032, PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0032 entry, PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0032 entry point [Display Devices], d3d12umddi/PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0032, display.pfnd3d12ddi_calcprivatevideodecodersize_0032
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -75,4 +72,8 @@ The hardware device being processed.
 Returns the size of the video decoder in bytes.
 
 
+## -remarks
 
+
+
+The runtime allocates memory for storing the driver CPU object that represents the video decoder.  This method is used to calculate the driver object size.

@@ -6,11 +6,8 @@ description: This callback is invoked when a silo is terminated.
 old-location: kernel\silo_monitor_terminate_callback.htm
 tech.root: kernel
 ms.assetid: 1F87D6AC-3603-4A34-BAAB-8B43ADF9E595
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: SILO_MONITOR_TERMINATE_CALLBACK, SILO_MONITOR_TERMINATE_CALLBACK callback, TerminateCallback, TerminateCallback callback function [Kernel-Mode Driver Architecture], kernel.silo_monitor_terminate_callback, ntddk/TerminateCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ntddk.h
 req.include-header: 

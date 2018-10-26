@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The ShaderResourceViewReadAfterWriteHazard function informs the user-mode display driver that the specified resource was used as an output from the graphics processing unit (GPU) and that the resource will be used as an input to the GPU.
 old-location: display\shaderresourceviewreadafterwritehazard.htm
 ms.assetid: bb391154-a9ff-4032-b86e-81fa4ea2e37c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_SHADERRESOURCEVIEWREADAFTERWRITEHAZARD, PFND3D10DDI_SHADERRESOURCEVIEWREADAFTERWRITEHAZARD callback, ShaderResourceViewReadAfterWriteHazard, ShaderResourceViewReadAfterWriteHazard callback function [Display Devices], UserModeDisplayDriverDx10_Functions_fa240239-13b6-43b1-a5c7-137d3d793e0c.xml, d3d10umddi/ShaderResourceViewReadAfterWriteHazard, display.shaderresourceviewreadafterwritehazard
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,32 +57,21 @@ The <i>ShaderResourceViewReadAfterWriteHazard</i> function informs the user-mode
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hResource* [in]
+
+A handle to the resource.
 
 ### -param Arg3
 
+*hShaderResourceView* [in]
 
-
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hResource [in]
-
- A handle to the resource.
-
-
-#### - hShaderResourceView [in]
-
- A handle to the driver's private data for a shader resource view object. 
+A handle to the driver's private data for a shader resource view object. 
 
 
 ## -returns

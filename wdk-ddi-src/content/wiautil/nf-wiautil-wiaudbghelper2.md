@@ -6,11 +6,8 @@ description: The wiauDbgHelper2 function writes a message to a log file, or debu
 old-location: image\wiaudbghelper2.htm
 tech.root: image
 ms.assetid: 577ce93a-5a90-4e85-afc6-3791f402c238
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiaudbghelper2, wiauDbgHelper2, wiauDbgHelper2 function [Imaging Devices], wiauFncs_6ccf146a-ec2e-4ca4-827a-dec2f8ea629d.xml, wiautil/wiauDbgHelper2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wiautil.h
 req.include-header: Wiautil.h

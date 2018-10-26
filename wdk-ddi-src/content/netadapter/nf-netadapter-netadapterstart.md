@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NetAdapterStart method starts a NETADAPTER object.
 tech.root: netvista
 ms.assetid: 7fd514f2-7f1e-449f-9037-636f1c3599d6
-ms.author: windowsdriverdev
 ms.date: 08/03/2018
 ms.topic: function
 ms.keywords: NetAdapterStart

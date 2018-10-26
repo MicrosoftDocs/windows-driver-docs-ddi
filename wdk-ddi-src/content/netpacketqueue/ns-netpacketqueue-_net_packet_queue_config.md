@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The NET_PACKET_QUEUE_CONFIG structure describes the configuration options for a NetAdapterCx client driver's packet queue.
 tech.root: netvista
 ms.assetid: 55af0931-b047-4d74-91dc-6d2f320ee68b
-ms.author: windowsdriverdev
 ms.date: 07/16/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _NET_PACKET_QUEUE_CONFIG, NET_PACKET_QUEUE_CONFIG, *PNET_PACKET_QUEUE_CONFIG, 
 req.header: netpacketqueue.h
 req.include-header:

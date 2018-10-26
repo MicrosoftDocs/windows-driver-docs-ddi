@@ -6,11 +6,8 @@ description: Reserved for system use.
 old-location: ifsk\iocheckquerysetfileinformation.htm
 tech.root: ifsk
 ms.assetid: c68cbdb4-bdf8-4c18-8f96-7274021f9ac2
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: IoCheckQuerySetFileInformation, IoCheckQuerySetFileInformation function [Installable File System Drivers], ifsk.iocheckquerysetfileinformation, ioref_22478455-1bd1-46cb-8ac2-05e4857c9524.xml, ntifs/IoCheckQuerySetFileInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h
@@ -65,14 +62,9 @@ The <b>IoCheckQuerySetFileInformation</b> routine is reserved for system use. Se
 
 ### -param Length
 
-TBD
+Reserved.
 
 
 ### -param SetOperation
 
-TBD
-
-
-
-
-
+Reserved.

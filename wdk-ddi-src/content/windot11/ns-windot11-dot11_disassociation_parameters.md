@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_disassociation_parameters.htm
 tech.root: netvista
 ms.assetid: bf5f520e-4bbc-4b9f-9e6c-b430cb9e3b28
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_DISASSOCIATION_PARAMETERS, DOT11_DISASSOCIATION_PARAMETERS, DOT11_DISASSOCIATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_289b81c2-13d2-484b-9306-6ca3dc961675.xml, PDOT11_DISASSOCIATION_PARAMETERS, PDOT11_DISASSOCIATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_disassociation_parameters, windot11/DOT11_DISASSOCIATION_PARAMETERS, windot11/PDOT11_DISASSOCIATION_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -42,7 +39,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_DISASSOCIATION_PARAMETERS, *PDOT11_DISASSOCIATION_PARAMETERS
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # DOT11_DISASSOCIATION_PARAMETERS structure
@@ -54,14 +52,14 @@ req.product: Windows 10 or later.
 <div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_DISASSOCIATION_PARAMETERS structure specifies the results of the disassociation operation
   performed by the 802.11 station with either an access point (AP) or peer station. The Native 802.11
   miniport driver includes a DOT11_ASSOCIATION_DISASSOCIATION_PARAMETERS structure when the driver makes an
-  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
   NDIS_STATUS_DOT11_DISASSOCIATION</a> status indication.
 
 
 ## -syntax
 
 
-````
+```cpp
 typedef struct DOT11_DISASSOCIATION_PARAMETERS {
   NDIS_OBJECT_HEADER Header;
   DOT11_MAC_ADDRESS  MacAddr;
@@ -69,7 +67,7 @@ typedef struct DOT11_DISASSOCIATION_PARAMETERS {
   ULONG              uIHVDataOffset;
   ULONG              uIHVDataSize;
 } DOT11_DISASSOCIATION_PARAMETERS, *PDOT11_DISASSOCIATION_PARAMETERS;
-````
+```
 
 
 ## -struct-fields
@@ -133,7 +131,7 @@ The reason for the disassociation formatted as a
 
 The offset of a block of data in a proprietary format that is defined by the IHV. The IHV can use
       this data block for any purposes that are related to the
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
       NDIS_STATUS_DOT11_DISASSOCIATION</a> status indication.
 
 This offset is relative to the start of the buffer, which contains the
@@ -147,7 +145,7 @@ If the miniport driver is not returning IHV data in the
 ### -field uIHVDataSize
 
 The length of the block of data that is used by the IHV for the
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
      NDIS_STATUS_DOT11_DISASSOCIATION</a> status indication. If the miniport driver is not returning IHV
      data in this indication, it must set
      <b>uIHVDataSize</b> to zero.
@@ -165,7 +163,7 @@ For more information about the disassociation operation, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
    NDIS_STATUS_DOT11_DISASSOCIATION</a>
 
 

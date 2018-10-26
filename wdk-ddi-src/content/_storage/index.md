@@ -62,4 +62,4 @@ To develop Storage, you need these headers:
  * [stortrce.h](..\stortrce\index.md)
  * [ufs.h](..\ufs\index.md)
 
-For the programming guide, see [Storage](https://docs.microsoft.com/en-us/windows-hardware/drivers/storage).
+For the programming guide, see [Storage](https://docs.microsoft.com/windows-hardware/drivers/storage).

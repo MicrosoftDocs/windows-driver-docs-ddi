@@ -6,11 +6,8 @@ description: The WDF_ABS_TIMEOUT_IN_MS function converts a specified number of m
 old-location: wdf\wdf_abs_timeout_in_ms.htm
 tech.root: wdf
 ms.assetid: 271d2b39-53a3-454b-97d0-0bace8504b48
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFTimerObjectRef_6ebc68ca-16c5-4948-ac68-d9247b8074f3.xml, WDF_ABS_TIMEOUT_IN_MS, WDF_ABS_TIMEOUT_IN_MS function, kmdf.wdf_abs_timeout_in_ms, wdf.wdf_abs_timeout_in_ms, wdfcore/WDF_ABS_TIMEOUT_IN_MS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfcore.h
 req.include-header: Wdf.h

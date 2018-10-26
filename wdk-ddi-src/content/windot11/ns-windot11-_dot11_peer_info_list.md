@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_peer_info_list.htm
 tech.root: netvista
 ms.assetid: 7f75ab1e-8aeb-4e49-9c18-c7a10ce3cbd3
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_PEER_INFO_LIST, DOT11_PEER_INFO_LIST, DOT11_PEER_INFO_LIST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_c969625e-444f-4741-a284-6bd77253c8b9.xml, PDOT11_PEER_INFO_LIST, PDOT11_PEER_INFO_LIST structure pointer [Network Drivers Starting with Windows Vista], _DOT11_PEER_INFO_LIST, netvista.dot11_peer_info_list, windot11/DOT11_PEER_INFO_LIST, windot11/PDOT11_PEER_INFO_LIST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -42,7 +39,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_PEER_INFO_LIST, *PDOT11_PEER_INFO_LIST
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # _DOT11_PEER_INFO_LIST structure
@@ -60,14 +58,14 @@ The DOT11_PEER_INFO_LIST structure specifies a list of <a href="..\windot11\ns-w
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DOT11_PEER_INFO_LIST {
   NDIS_OBJECT_HEADER Header;
   ULONG              uNumOfEntries;
   ULONG              uTotalNumOfEntries;
   DOT11_PEER_INFO    PeerInfo[1];
 } DOT11_PEER_INFO_LIST, *PDOT11_PEER_INFO_LIST;
-````
+```
 
 
 ## -struct-fields

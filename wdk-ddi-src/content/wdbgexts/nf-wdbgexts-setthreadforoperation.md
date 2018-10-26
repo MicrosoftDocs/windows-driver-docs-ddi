@@ -6,11 +6,8 @@ description: The SetThreadForOperation function sets the thread to use for the n
 old-location: debugger\setthreadforoperation.htm
 tech.root: debugger
 ms.assetid: b5bae644-6c8d-4346-87bd-211efcf27748
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: SetThreadForOperation, SetThreadForOperation function [Windows Debugging], WdbgExts_Ref_62cb59e2-5a16-4bee-936c-6eeaa5126fbc.xml, debugger.setthreadforoperation, wdbgexts/SetThreadForOperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h

@@ -6,11 +6,8 @@ description: Copies content from a source multiplane overlay allocation to a des
 old-location: display\pfnpresentmultiplaneoverlaycb_d3d.htm
 tech.root: display
 ms.assetid: f355c29a-8a8d-46aa-b3b3-c93c0afef266
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_PRESENTMULTIPLANEOVERLAYCB, d3dumddi/pfnPresentMultiPlaneOverlayCb, display.pfnpresentmultiplaneoverlaycb_d3d, pfnPresentMultiPlaneOverlayCb, pfnPresentMultiPlaneOverlayCb (D3D) callback, pfnPresentMultiPlaneOverlayCb callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,21 +57,14 @@ Copies content from a source multiplane overlay allocation to a destination allo
 
 ### -param hDevice [in]
 
- A handle to a display device (graphics context).
+A handle to a display device (graphics context).
 
 
 ### -param *
 
+*pPresent* [in]
 
-
-
-
-
-
-
-#### - pPresent [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh780231">D3DDDICB_PRESENTMULTIPLANEOVERLAY</a> structure that describes the source and destination allocations that content is copied from and to.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh780231">D3DDDICB_PRESENTMULTIPLANEOVERLAY</a> structure that describes the source and destination allocations that content is copied from and to.
 
 
 ## -returns
@@ -107,7 +97,7 @@ Content was successfully copied.
 </td>
 <td width="60%">
 
-        The function could not complete because of insufficient memory.
+The function could not complete because of insufficient memory.
 
 </td>
 </tr>

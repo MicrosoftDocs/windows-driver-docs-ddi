@@ -6,11 +6,8 @@ description: The WDF_USB_INTERFACE_SETTING_PAIR structure specifies an alternate
 old-location: wdf\wdf_usb_interface_setting_pair.htm
 tech.root: wdf
 ms.assetid: b6f169ae-6c4c-4c27-8532-75a76b66cc5a
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*PWDF_USB_INTERFACE_SETTING_PAIR, DFUsbRef_e8de7f02-5d9b-4cba-9e7c-dc4562256f9e.xml, PWDF_USB_INTERFACE_SETTING_PAIR, PWDF_USB_INTERFACE_SETTING_PAIR structure pointer, WDF_USB_INTERFACE_SETTING_PAIR, WDF_USB_INTERFACE_SETTING_PAIR structure, _WDF_USB_INTERFACE_SETTING_PAIR, kmdf.wdf_usb_interface_setting_pair, wdf.wdf_usb_interface_setting_pair, wdfusb/PWDF_USB_INTERFACE_SETTING_PAIR, wdfusb/WDF_USB_INTERFACE_SETTING_PAIR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

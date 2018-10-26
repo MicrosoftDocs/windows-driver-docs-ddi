@@ -6,11 +6,8 @@ description: The CreateProcessAndAttachWide method creates a process from a spec
 old-location: debugger\createprocessandattachwide.htm
 tech.root: debugger
 ms.assetid: ceaadcca-e206-402b-8aff-62aca483fb64
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: CreateProcessAndAttachWide, CreateProcessAndAttachWide method [Windows Debugging], CreateProcessAndAttachWide method [Windows Debugging],IDebugClient3 interface, CreateProcessAndAttachWide method [Windows Debugging],IDebugClient4 interface, CreateProcessAndAttachWide method [Windows Debugging],IDebugClient5 interface, IDebugClient3 interface [Windows Debugging],CreateProcessAndAttachWide method, IDebugClient3::CreateProcessAndAttachWide, IDebugClient4 interface [Windows Debugging],CreateProcessAndAttachWide method, IDebugClient4::CreateProcessAndAttachWide, IDebugClient5 interface [Windows Debugging],CreateProcessAndAttachWide method, IDebugClient5.CreateProcessAndAttachWide, IDebugClient5::CreateProcessAndAttachWide, dbgeng/IDebugClient3::CreateProcessAndAttachWide, dbgeng/IDebugClient4::CreateProcessAndAttachWide, dbgeng/IDebugClient5::CreateProcessAndAttachWide, debugger.createprocessandattachwide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h

@@ -6,11 +6,8 @@ description: The RtlInitializeBitMap routine initializes the header of a bitmap 
 old-location: kernel\rtlinitializebitmap.htm
 tech.root: kernel
 ms.assetid: 1e196ad1-5804-4d41-a273-18eb40e8f265
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlInitializeBitMap, RtlInitializeBitMap routine [Kernel-Mode Driver Architecture], k109_2c98c30e-fc9f-422d-bfa8-e0d765677664.xml, kernel.rtlinitializebitmap, wdm/RtlInitializeBitMap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

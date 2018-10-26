@@ -6,11 +6,8 @@ description: pfnEvictCb is used to instruct the OS to decrement the residency re
 old-location: display\pfnevictcb.htm
 tech.root: display
 ms.assetid: 5E66A522-BC1C-4E7C-8732-87D40F99BBDA
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_EVICTCB, PFND3DDDI_EVICTCB callback, d3dumddi/pfnEvictCb, display.pfnevictcb, pfnEvictCb, pfnEvictCb callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -72,7 +69,7 @@ A handle to the display device.
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906762">D3DDDICB_EVICT</a> structure that describes the memory pages to evict.
 

@@ -6,11 +6,8 @@ description: The NdkBuildLam (NDK_FN_BUILD_LAM) function gets an adapter logical
 old-location: netvista\ndk_fn_build_lam.htm
 tech.root: netvista
 ms.assetid: 89183961-0A96-4ED0-8316-E6A2C99C929F
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_FN_BUILD_LAM, NDK_FN_BUILD_LAM callback, NdkBuildLam, NdkBuildLam callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkBuildLam, netvista.ndk_fn_build_lam
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndkpi.h
 req.include-header: Ndkpi.h

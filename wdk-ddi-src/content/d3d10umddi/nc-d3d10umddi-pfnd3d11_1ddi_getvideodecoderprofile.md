@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Queries the attributes of a specified video decoder profile.
 old-location: display\getvideodecoderprofile.htm
 ms.assetid: 75576152-0afd-4602-b481-bf1d6d9348b3
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_GETVIDEODECODERPROFILE, PFND3D11_1DDI_GETVIDEODECODERPROFILE callback, d3d10umddi/pfnGetVideoDecoderProfile, display.getvideodecoderprofile, pfnGetVideoDecoderProfile, pfnGetVideoDecoderProfile callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,34 +57,23 @@ Queries the attributes of a specified video decoder profile.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
-
-### -param *
-
-
-
-
-
-
-
-
-#### - Index [in]
+*Index* [in]
 
 The zero-based index of the video decoder profile. The display miniport driver returns the maximum number of video decoder profiles that it supports through a call to its <a href="https://msdn.microsoft.com/library/windows/hardware/hh451672">GetVideoDecoderProfileCount</a> function.
 
 
-#### - hDevice [in]
+### -param *
 
-A handle to the display device (graphics context).
-
-
-
-
-#### - pDecodeDesc [out]
+*pDecodeDesc* [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450951">D3D11_1DDI_VIDEO_DECODER_DESC</a> structure that specifies the attributes of the specified video decoder profile.
+
 
 
 ## -returns

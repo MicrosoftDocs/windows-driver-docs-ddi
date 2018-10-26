@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Used to get information on the protected session.
 old-location: display\d3dkmtqueryprotectedsessioninfofromnthandle.htm
 ms.assetid: 04eff7e1-1ac3-4622-a837-1ea6aad97329
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTQueryProtectedSessionInfoFromNtHandle, D3DKMTQueryProtectedSessionInfoFromNtHandle method [Display Devices], d3dkmthk/D3DKMTQueryProtectedSessionInfoFromNtHandle, display.d3dkmtqueryprotectedsessioninfofromnthandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dkmthk.h
 req.include-header: 
@@ -62,12 +59,7 @@ Used to get information on the protected session.
 
 ### -param Arg1
 
-
-
-
-
-
-#### - D3dkmt_queryprotectedsessioninfofromnthandle
+*D3dkmt_queryprotectedsessioninfofromnthandle*
 
 Holds session information from the NT handle.
 

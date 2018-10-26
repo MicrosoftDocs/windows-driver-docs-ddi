@@ -6,11 +6,8 @@ description: The filter engine calls the FWPS_NET_BUFFER_LIST_NOTIFY_FN1 callout
 old-location: netvista\fwps_net_buffer_list_notify_fn1.htm
 tech.root: netvista
 ms.assetid: fe9ab4b2-5692-4b6e-a7fc-11e9ac8280bc
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FWPS_NET_BUFFER_LIST_NOTIFY_FN1, FWPS_NET_BUFFER_LIST_NOTIFY_FN1 callback, FwpsNetBufferListNotifyFN1, FwpsNetBufferListNotifyFN1 callback function [Network Drivers Starting with Windows Vista], fwpsk/FwpsNetBufferListNotifyFN1, netvista.fwps_net_buffer_list_notify_fn1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: fwpsk.h
 req.include-header: Fwpsk.h

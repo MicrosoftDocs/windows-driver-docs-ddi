@@ -6,11 +6,8 @@ description: The NDIS_OFFLOAD_HANDLE structure represents a driver's context for
 old-location: netvista\ndis_offload_handle.htm
 tech.root: netvista
 ms.assetid: cc1d7ca2-273a-42ca-896c-aebee862a4cd
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_OFFLOAD_HANDLE, NDIS_OFFLOAD_HANDLE, NDIS_OFFLOAD_HANDLE structure [Network Drivers Starting with Windows Vista], PNDIS_OFFLOAD_HANDLE, PNDIS_OFFLOAD_HANDLE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OFFLOAD_HANDLE, ndischimney/NDIS_OFFLOAD_HANDLE, ndischimney/PNDIS_OFFLOAD_HANDLE, netvista.ndis_offload_handle, tcp_chim_struct_32ac0fbc-873b-4cd9-9121-d7e77667f05d.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
@@ -86,7 +83,7 @@ The NDIS_OFFLOAD_HANDLE structure contains a
     references the underlying driver's or offload target's context for the offloaded state object.
 
 For more information about the use of the NDIS_OFFLOAD_HANDLE structure, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/referencing-offloaded-state-through-an-intermediate-driver">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/referencing-offloaded-state-through-an-intermediate-driver">
     Referencing Offloaded State Through an Intermediate Driver</a>.
 
 

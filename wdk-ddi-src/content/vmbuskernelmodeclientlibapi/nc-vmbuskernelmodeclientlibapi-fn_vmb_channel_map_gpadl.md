@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbChannelMapGpadl function maps a client-side buffer into server-side physical address space by using a Guest Physical Address Descriptor List (GPADL) number.
 tech.root: netvista
 ms.assetid: b71b9fbe-ab6c-41a6-8288-b98ebfc240dc
-ms.author: windowsdriverdev
 ms.date: 05/21/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:
@@ -50,7 +47,7 @@ The <b>VmbChannelMapGpadl</b>  function maps a client-side buffer into server-si
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_MAP_GPADL FnVmbChannelMapGpadl; 
@@ -126,17 +123,9 @@ You must pair calls to this
 function with calls to the <a href="https://msdn.microsoft.com/EE300158-D7D8-4353-B205-362232A22568">VmbChannelUnmapGpadl</a> function.
 
 > [!IMPORTANT]
-> This function is called through the VMBus Kernel Mode Client Library (KMCL) interface, provided by the Vmbkmcl.sys bus driver. 
+> This function is called through the VMBus Kernel Mode Client Library (KMCL) interface, provided by the Vmbkmcl.sys bus driver. This is a server-only function accessed from the [**KMCL_SERVER_ONLY_METHODS**](ns-vmbuskernelmodeclientlibapi-_kmcl_server_only_methods.md) structure. 
 >
-> To access the KMCL interface, allocate a **KMCL_CLIENT_INTERFACE_V1** structure to receive the interface, then call either [**WdfFdoQueryForInterface**](../wdffdo/nf-wdffdo-wdffdoqueryforinterface.md) or [**WdfIoTargetQueryForInterface**](../wdfiotarget/nf-wdfiotarget-wdfiotargetqueryforinterface.md) with these parameters:
-> 
-> - *InterfaceType* parameter: **KMCL_CLIENT_INTERFACE_TYPE**
-> - *Size* parameter: `sizeof(KMCL_CLIENT_INTERFACE_V1)`
-> - *Version* parameter: **KMCL_CLIENT_INTERFACE_VERSION_LATEST** 
->
-> If the interface query function succeeds, the **KMCL_CLIENT_INTERFACE_V1** structure contains function pointers for the VMBus KMCL functions that you can use to call them.
->
-> For more information about driver-defined interfaces, see [Using Driver-Defined Interfaces](https://docs.microsoft.com/windows-hardware/drivers/wdf/using-driver-defined-interfaces).
+> For more information, see the Remarks section of [**KMCL_SERVER_ONLY_METHODS**](ns-vmbuskernelmodeclientlibapi-_kmcl_server_only_methods.md).
 
 ## -see-also
 

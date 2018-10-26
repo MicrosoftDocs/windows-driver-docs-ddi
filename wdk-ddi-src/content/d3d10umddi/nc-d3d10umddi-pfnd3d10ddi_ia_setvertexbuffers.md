@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The IaSetVertexBuffers function sets vertex buffers for an input assembler.
 old-location: display\iasetvertexbuffers.htm
 ms.assetid: 3d5a7ea1-08c2-4594-93bc-97b985cd16dc
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IaSetVertexBuffers, IaSetVertexBuffers callback function [Display Devices], PFND3D10DDI_IA_SETVERTEXBUFFERS, PFND3D10DDI_IA_SETVERTEXBUFFERS callback, UserModeDisplayDriverDx10_Functions_12104a04-1497-42c6-a5e1-6573b33a43d3.xml, d3d10umddi/IaSetVertexBuffers, display.iasetvertexbuffers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,47 +57,36 @@ The <i>IaSetVertexBuffers</i> function sets vertex buffers for an input assemble
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param StartSlot
 
+The starting vertex buffer to set.
 
 ### -param NumBuffers [in]
 
- The total number of buffers to set. 
-
+The total number of buffers to set. 
 
 ### -param *
 
+*phBuffers* [in]
 
+An array of handles to the vertex buffers, beginning with the buffer that <i>StartBuffer</i> specifies.
+ 
+### -param *
 
+*pStrides* [in]
 
+An array of values that indicate the sizes, in bytes, from one vertex to the next vertex for each buffer
 
+### -param *
 
+*pOffsets* [in]
 
+An array of values that indicate the offsets, in bytes, into each vertex buffer. 
 
-#### - StartBuffer [in]
-
- The starting vertex buffer to set. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - pOffsets [in]
-
- An array of values that indicate the offsets, in bytes, into each vertex buffer. 
-
-
-#### - pStrides [in]
-
- An array of values that indicate the sizes, in bytes, from one vertex to the next vertex for each buffer 
-
-
-#### - phBuffers [in]
-
- An array of handles to the vertex buffers, beginning with the buffer that <i>StartBuffer</i> specifies.
 
 
 ## -returns

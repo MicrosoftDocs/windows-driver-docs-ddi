@@ -6,11 +6,8 @@ description: The IoGetAttachedDeviceReference routine returns a pointer to the h
 old-location: kernel\iogetattacheddevicereference.htm
 tech.root: kernel
 ms.assetid: 540a4e5c-8d7b-4ba8-a9a6-6e13d9b85f23
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoGetAttachedDeviceReference, IoGetAttachedDeviceReference routine [Kernel-Mode Driver Architecture], k104_f7fa8878-306a-4de2-b418-8102754306f7.xml, kernel.iogetattacheddevicereference, wdm/IoGetAttachedDeviceReference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

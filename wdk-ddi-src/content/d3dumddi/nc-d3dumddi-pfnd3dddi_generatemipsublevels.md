@@ -6,11 +6,8 @@ description: The GenerateMipSubLevels function regenerates the sublevels of a MI
 old-location: display\generatemipsublevels.htm
 tech.root: display
 ms.assetid: 86567fc1-cf66-4709-a6e1-6b24408df963
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: GenerateMipSubLevels, GenerateMipSubLevels callback function [Display Devices], PFND3DDDI_GENERATEMIPSUBLEVELS, PFND3DDDI_GENERATEMIPSUBLEVELS callback, UserModeDisplayDriver_Functions_795601cd-37d8-4268-8e41-38806c5961e6.xml, d3dumddi/GenerateMipSubLevels, display.generatemipsublevels
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,7 +57,7 @@ The <i>GenerateMipSubLevels</i> function regenerates the sublevels of a MIP-map 
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +69,9 @@ The <i>GenerateMipSubLevels</i> function regenerates the sublevels of a MIP-map 
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543135">D3DDDIARG_GENERATEMIPSUBLEVELS</a> structure that describes how to generate the sublevels of a MIP-map texture.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543135">D3DDDIARG_GENERATEMIPSUBLEVELS</a> structure that describes how to generate the sublevels of a MIP-map texture.
 
 
 ## -returns

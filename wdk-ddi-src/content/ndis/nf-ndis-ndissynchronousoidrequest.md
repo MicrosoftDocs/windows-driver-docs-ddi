@@ -6,11 +6,8 @@ description: Protocol drivers call the NdisSynchronousOidRequest function to ori
 old-location: netvista\ndissynchronousoidrequest.htm
 tech.root: netvista
 ms.assetid: BF539DDA-59ED-4010-88BC-3C7D8DC475EF
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisSynchronousOidRequest, NdisSynchronousOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisSynchronousOidRequest, netvista.ndissynchronousoidrequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

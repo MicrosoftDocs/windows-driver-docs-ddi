@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The IaSetIndexBuffer function sets an index buffer for an input assembler.
 old-location: display\iasetindexbuffer.htm
 ms.assetid: 042ebb72-b794-4cb8-9d81-bd52a785f1e0
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IaSetIndexBuffer, IaSetIndexBuffer callback function [Display Devices], PFND3D10DDI_IA_SETINDEXBUFFER, PFND3D10DDI_IA_SETINDEXBUFFER callback, UserModeDisplayDriverDx10_Functions_5b51e721-283c-447e-8170-17af90a29081.xml, d3d10umddi/IaSetIndexBuffer, display.iasetindexbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,40 +57,27 @@ The <i>IaSetIndexBuffer</i> function sets an index buffer for an input assembler
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hBuffer* [in]
+
+A handle to the index buffer to set.
 
 ### -param Arg3
 
+*Format* [in]
+
+A DXGI_FORMAT-typed value that indicates the pixel format of the index buffer. Only the DXGI_FORMAT_R16_UINT and DXGI_FORMAT_R32_UINT formats are valid; all other formats are invalid. 
 
 ### -param Arg4
 
+*Offset* [in]
 
-
-
-
-
-
-
-#### - Format [in]
-
- A DXGI_FORMAT-typed value that indicates the pixel format of the index buffer. Only the DXGI_FORMAT_R16_UINT and DXGI_FORMAT_R32_UINT formats are valid; all other formats are invalid. 
-
-
-#### - Offset [in]
-
- The offset, in bytes, into the index buffer. 
-
-
-#### - hBuffer [in]
-
- A handle to the index buffer to set.
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
+The offset, in bytes, into the index buffer. 
 
 
 ## -returns

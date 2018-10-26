@@ -6,11 +6,8 @@ description: The _URB_SELECT_INTERFACE structure is used by USB client drivers t
 old-location: buses\_urb_select_interface.htm
 tech.root: usbref
 ms.assetid: 48f80c80-49af-4cda-961b-8967e8d4897a
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "_URB_SELECT_INTERFACE, _URB_SELECT_INTERFACE structure [Buses], buses._urb_select_interface, usb/_URB_SELECT_INTERFACE, usbstrct_c23c108d-422b-4dee-a1de-a5e341fc1800.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: usb.h
 req.include-header: Usb.h

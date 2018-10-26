@@ -4,8 +4,7 @@ title: IofCallDriver function
 author: windows-driver-content
 description: Call **IoCallDriver** instead. Sends an IRP to the driver associated with a specified device object.
 ms.assetid: e241d188-273d-430a-9c27-403ddc6fa450
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.topic: function
 ms.keywords: IofCallDriver, IoCallDriver, IoCallDriver routine [Kernel-Mode Driver Architecture], k104_8579a946-2f96-455f-825c-c3f86caba99c.xml, kernel.iocalldriver, wdm/IoCallDriver
 req.header: wdm.h
@@ -57,7 +56,7 @@ Pointer to a device object, representing the target device for the requested I/O
 Pointer to the [**IRP**](ns-wdm-_irp.md).
 
 ## -returns
-Returns an appropriate [NTSTATUS value](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+Returns an appropriate [NTSTATUS value](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 Before calling <b>IoCallDriver</b>, the calling driver must set up the I/O stack location in the IRP for the target driver. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558781">Passing IRPs Down the Driver Stack</a>.

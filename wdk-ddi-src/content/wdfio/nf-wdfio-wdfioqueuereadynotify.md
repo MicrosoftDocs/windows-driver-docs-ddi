@@ -6,11 +6,8 @@ description: The WdfIoQueueReadyNotify method registers (or deregisters) an even
 old-location: wdf\wdfioqueuereadynotify.htm
 tech.root: wdf
 ms.assetid: 0d48dce1-252f-4dc2-85a8-6c25e99ce0ba
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_4816d999-fba0-46f6-8fbf-e1421d3d87e2.xml, WdfIoQueueReadyNotify, WdfIoQueueReadyNotify method, kmdf.wdfioqueuereadynotify, wdf.wdfioqueuereadynotify, wdfio/WdfIoQueueReadyNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfio.h
 req.include-header: Wdf.h
@@ -145,7 +142,7 @@ After a driver has called <b>WdfIoQueueReadyNotify</b> to register a <a href="ht
 
 The framework does not call <a href="https://msdn.microsoft.com/14999036-c137-4056-b6f7-53a8476fd385">EvtIoQueueState</a> while the specified queue is stopped. When the queue starts, the framework calls <i>EvtIoQueueState</i> if the queue is non-empty.
 
-Your driver can call <b>WdfIoQueueReadyNotify</b> only for I/O queues that use the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">manual dispatching</a> method. 
+Your driver can call <b>WdfIoQueueReadyNotify</b> only for I/O queues that use the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">manual dispatching</a> method. 
 
 The <a href="https://msdn.microsoft.com/14999036-c137-4056-b6f7-53a8476fd385">EvtIoQueueState</a> callback function typically calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh975100">WdfIoQueueRetrieveNextRequest</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548470">WdfIoQueueRetrieveRequestByFileObject</a> in a loop to retrieve all of the requests that have arrived since the last time the callback function executed.
 
@@ -153,7 +150,7 @@ To stop the framework from calling the <a href="https://msdn.microsoft.com/14999
 
 When a driver calls <b>WdfIoQueueReadyNotify</b> to register a <a href="https://msdn.microsoft.com/14999036-c137-4056-b6f7-53a8476fd385">EvtIoQueueState</a> callback function, it is possible for the framework to call the callback function before <b>WdfIoQueueReadyNotify</b> returns.
 
-For more information about the <b>WdfIoQueueReadyNotify</b> method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">Dispatching Methods for I/O Requests</a>.
+For more information about the <b>WdfIoQueueReadyNotify</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">Dispatching Methods for I/O Requests</a>.
 
 
 #### Examples

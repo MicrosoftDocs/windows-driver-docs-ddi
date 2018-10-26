@@ -4,8 +4,7 @@ title: D3DKMTOpenKeyedMutexFromNtHandle function
 author: windows-driver-content
 description: Opens a keyed mutex from an NT handle to the process.
 ms.assetid: 797fe9ea-3960-4b49-88aa-cfd8929fc0fe
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTOpenKeyedMutexFromNtHandle
 req.header: d3dkmthk.h
@@ -49,10 +48,14 @@ Opens a keyed mutex from an NT handle to the process.
 
 ## -parameters
 
-#### - D3DKMT_OPENKEYEDMUTEXFROMNTHANDLE * [in, out]
+### -param Arg1
+
+*D3DKMT_OPENKEYEDMUTEXFROMNTHANDLE* [in, out]
 
 Pointer to a [D3DKMT_OPENKEYEDMUTEXFROMNTHANDLE](ns-d3dkmthk-_d3dkmt_openkeyedmutexfromnthandle.md) structure.
 
 ## -returns
 
+
 This function returns NTSTATUS.
+

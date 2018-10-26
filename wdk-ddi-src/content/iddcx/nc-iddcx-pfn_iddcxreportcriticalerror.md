@@ -4,11 +4,8 @@ title: *PFN_IDDCXREPORTCRITICALERROR
 author: windows-driver-content
 description: An OS callback function the driver calls to report a critical error.
 ms.assetid: f4b2190f-f005-47bb-8b67-82701985e887
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: iddcx.h
 req.include-header:
 req.target-type:
@@ -49,7 +46,7 @@ Implemented by the client driver to ...
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 *PFN_IDDCXREPORTCRITICALERROR *PfnIddcxreportcriticalerror;
@@ -91,7 +88,7 @@ If the routine succeeds, it never returns to the driver as the driver process wi
 
 The OS will bug check the driver with the following bug check code:
 
-```
+```cpp
 (pInArgs->MajorErrorCode+0x100 << 8) + pInArgs->MinorErrorCode
 ```
 

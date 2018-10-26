@@ -6,11 +6,8 @@ description: Called during Microsoft Direct3D initialization on a hybrid system 
 old-location: display\querydlistforapplication1.htm
 tech.root: display
 ms.assetid: 4F27E884-D21C-483D-9E53-02D405D02F10
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_QUERYDLISTFORAPPLICATION1, PFND3DDDI_QUERYDLISTFORAPPLICATION1 callback, QueryDListForApplication, QueryDListForApplication callback function [Display Devices], d3dumddi/QueryDListForApplication, display.querydlistforapplication1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
@@ -60,30 +57,19 @@ Called during Microsoft Direct3D initialization on a <a href="https://msdn.micro
 
 ### -param *
 
-
-### -param Arg1
-
-
-### -param Arg2
-
-
-
-
-
-
-
-
-#### - hAdapter [in]
-
-A handle to the graphics adapter object.
-
-
-#### - pDefaultToDiscrete [out]
+*pDefaultToDiscrete* [out]
 
 If <b>TRUE</b>, the application should be run on the discrete GPU. Otherwise, the application should run on the integrated GPU.
 
+### -param Arg1
 
-#### - pfnEscapeCB [in]
+*hAdapter* [in]
+
+A handle to the graphics adapter object.
+
+### -param Arg2
+
+*pfnEscapeCB* [in]
 
 A function pointer to a <a href="https://msdn.microsoft.com/66c0347f-2cf3-42fc-8641-47c731e958c9">pfnEscapeCb</a> callback function that shares info with the display miniport driver.
 

@@ -6,11 +6,8 @@ description: Performs a bit-block transfer (bitblt) operation from a source text
 old-location: display\texblt1.htm
 tech.root: display
 ms.assetid: 63EE8130-47E5-4976-8A72-1B11136B1192
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_TEXBLT1, PFND3DDDI_TEXBLT1 callback, TexBlt1, TexBlt1 callback function [Display Devices], d3dumddi/TexBlt1, display.texblt1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,7 +57,7 @@ Performs a bit-block transfer (bitblt) operation from a source texture to a dest
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +69,9 @@ Performs a bit-block transfer (bitblt) operation from a source texture to a dest
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451142">D3DDDIARG_TEXBLT1</a> structure that defines the parameters for the texture bitblt operation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451142">D3DDDIARG_TEXBLT1</a> structure that defines the parameters for the texture bitblt operation.
 
 
 ## -returns

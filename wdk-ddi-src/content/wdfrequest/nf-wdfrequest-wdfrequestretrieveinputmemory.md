@@ -6,11 +6,8 @@ description: The WdfRequestRetrieveInputMemory method retrieves a handle to a fr
 old-location: wdf\wdfrequestretrieveinputmemory.htm
 tech.root: wdf
 ms.assetid: c619e9b3-3736-48e3-a84d-e166be4f39af
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_180dea64-0a3a-4b59-89e8-37705a674e77.xml, WdfRequestRetrieveInputMemory, WdfRequestRetrieveInputMemory method, kmdf.wdfrequestretrieveinputmemory, wdf.wdfrequestretrieveinputmemory, wdfrequest/WdfRequestRetrieveInputMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfrequest.h
 req.include-header: Wdf.h
@@ -162,11 +159,11 @@ The <b>WdfRequestRetrieveInputMemory</b> method retrieves the input buffer for I
 
 If <b>WdfRequestRetrieveInputMemory</b> returns STATUS_SUCCESS, the driver receives a handle to a framework memory object that represents the input buffer. To access the buffer, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548715">WdfMemoryGetBuffer</a>.
 
-The driver can access the retrieved framework memory object until it <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">completes the I/O request</a> that the <i>Request</i> parameter represents.
+The driver can access the retrieved framework memory object until it <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-i-o-requests">completes the I/O request</a> that the <i>Request</i> parameter represents.
 
 Instead of calling <b>WdfRequestRetrieveInputMemory</b>, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550014">WdfRequestRetrieveInputBuffer</a>, which retrieves the buffer's address and length.
 
-For more information about <b>WdfRequestRetrieveInputMemory</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in Framework-Based Drivers</a>.
+For more information about <b>WdfRequestRetrieveInputMemory</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in Framework-Based Drivers</a>.
 
 
 #### Examples

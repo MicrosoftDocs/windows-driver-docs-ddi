@@ -6,11 +6,8 @@ description: The IOCTL_HID_WRITE_REPORT request sends a HID report to a HIDClass
 old-location: hid\ioctl_hid_write_report.htm
 tech.root: hid
 ms.assetid: 30b56c97-f135-4603-a5f0-3ed2105aae59
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IOCTL_HID_WRITE_REPORT, IOCTL_HID_WRITE_REPORT control, IOCTL_HID_WRITE_REPORT control code [Human Input Devices], hid.ioctl_hid_write_report, hidioreq_0b1eb214-55b0-4659-bdf7-866cf03a7be6.xml, hidport/IOCTL_HID_WRITE_REPORT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: hidport.h
 req.include-header: Hidport.h

@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The NetAdapterInitSetNetRequestAttributes method sets the attributes of NETREQUEST objects created by NetAdapterCx for a net adapter.
 tech.root: netvista
 ms.assetid: fc8687c7-6c39-48bc-8aec-c9c694ab2cb1
-ms.author: windowsdriverdev
 ms.date: 08/01/2018
 ms.topic: function
 ms.keywords: NetAdapterInitSetNetRequestAttributes

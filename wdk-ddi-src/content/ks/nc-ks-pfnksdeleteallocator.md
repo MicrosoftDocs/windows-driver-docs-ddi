@@ -6,11 +6,8 @@ description: An AVStream minidriver's AVStrMiniDeleteAllocator routine deletes t
 old-location: stream\avstrminideleteallocator.htm
 tech.root: stream
 ms.assetid: 867da1f8-061b-4fc1-8e20-3ebc43300f15
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: AVStrMiniDeleteAllocator, AVStrMiniDeleteAllocator routine [Streaming Media Devices], PFNKSDELETEALLOCATOR, avstclbk_32e3c0fd-c437-45e0-8e5e-72f2f628ee51.xml, ks/AVStrMiniDeleteAllocator, stream.avstrminideleteallocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ks.h
 req.include-header: Ks.h

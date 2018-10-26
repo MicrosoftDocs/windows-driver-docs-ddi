@@ -23,4 +23,4 @@ This header Defines power policy device driver interfaces.
 
 This header is used with Battery driver interface. For more information, see:
 
-- [Battery Devices Design Guide](https://docs.microsoft.com/en-us/windows-hardware/drivers/battery/)
+- [Battery Devices Design Guide](https://docs.microsoft.com/windows-hardware/drivers/battery/)

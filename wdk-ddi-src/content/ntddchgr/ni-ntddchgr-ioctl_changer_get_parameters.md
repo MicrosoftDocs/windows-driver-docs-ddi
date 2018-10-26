@@ -6,11 +6,8 @@ description: Returns the parameters of the device.
 old-location: storage\ioctl_changer_get_parameters.htm
 tech.root: storage
 ms.assetid: c4a6faa4-f3ea-4504-8d3b-a34465c90273
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_CHANGER_GET_PARAMETERS, IOCTL_CHANGER_GET_PARAMETERS control, IOCTL_CHANGER_GET_PARAMETERS control code [Storage Devices], k307_e3288dd0-4585-40de-aa5a-499c596aa75b.xml, ntddchgr/IOCTL_CHANGER_GET_PARAMETERS, storage.ioctl_changer_get_parameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddchgr.h
 req.include-header: Ntddchgr.h

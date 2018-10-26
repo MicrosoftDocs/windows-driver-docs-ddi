@@ -6,11 +6,8 @@ description: Obsolete.
 old-location: ifsk\fsrtloplockbreaktonone.htm
 tech.root: ifsk
 ms.assetid: 9604c9bf-f15e-49fd-82c8-90a4a5cc1ba0
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlOplockBreakToNone, FsRtlOplockBreakToNone function [Installable File System Drivers], fsrtlref_8d6206fb-3cc8-4f43-83b1-266c398f933e.xml, ifsk.fsrtloplockbreaktonone, ntifs/FsRtlOplockBreakToNone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h
@@ -65,27 +62,27 @@ The <b>FsRtlOplockBreakToNone</b> routine is obsolete, but is exported to suppor
 
 ### -param IrpSp
 
-TBD
+Reserved.
 
 
 ### -param Irp
 
-TBD
+Reserved.
 
 
 ### -param Context
 
-TBD
+Reserved.
 
 
 ### -param CompletionRoutine
 
-TBD
+Reserved.
 
 
 ### -param PostIrpRoutine
 
-TBD
+Reserved.
 
 
 

@@ -6,11 +6,8 @@ description: Contains pointers to functions that a Windows Display Driver Model 
 old-location: display\dxgi1_2_ddi_base_functions.htm
 tech.root: display
 ms.assetid: 7A1CD16A-4B7A-40FE-8650-AAD8CAC10FB0
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGI1_2_DDI_BASE_FUNCTIONS, DXGI1_2_DDI_BASE_FUNCTIONS structure [Display Devices], display.dxgi1_2_ddi_base_functions, dxgiddi/DXGI1_2_DDI_BASE_FUNCTIONS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
@@ -166,12 +163,6 @@ Additionally, to support stereo presentation, the BltDXGI function must allow an
 
 
 
-#### pBlt1Data
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451221">DXGI_DDI_ARG_BLT1</a> structure that describes the parameters of a bit-block transfer (bitblt). 
-
-
-
 ### -field pfnResolveSharedResource
 
 A pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff569488">ResolveSharedResourceDXGI</a> function.
@@ -192,10 +183,6 @@ A pointer to the driver's <a href="https://msdn.microsoft.com/2E85EFB6-6116-4FE7
 Called by the DXGI runtime to reclaim video memory resources that the user-mode display driver  previously offered  for reuse. Implemented by WDDM 1.2 and later user-mode display drivers.
 
 
-
-#### pResources
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451235">DXGI_DDI_ARG_RECLAIMRESOURCES</a> structure that defines the video memory resources to reclaim.
 
 
 ### -field pfnGetMultiplaneOverlayCaps

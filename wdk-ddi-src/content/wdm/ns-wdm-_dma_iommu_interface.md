@@ -4,11 +4,8 @@ title: _DMA_IOMMU_INTERFACE
 author: windows-driver-content
 description: 
 ms.assetid: 9f82331e-29a6-4cb3-a4a9-12d079fdf7e6
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DMA_IOMMU_INTERFACE, *PDMA_IOMMU_INTERFACE, DMA_IOMMU_INTERFACE, 
 req.header: wdm.h
 req.include-header:
@@ -80,7 +77,10 @@ A pointer to the [_IOMMU_UNMAP_LOGICAL_RANGE_](nc-wdm-iommu_unmap_logical_range.
 A pointer to the [_IOMMU_MAP_IDENTITY_RANGE_](nc-wdm-iommu_map_identity_range.md) callback function that creates an identity mapping for the provided MDL in the specified domain.
  
 ### -field UnmapIdentityRange
-A pointer to the [_IOMMU_UNMAP_IDENTITY_RANGE_](nc-wdm-iommu_unmap_identity_range.md) callback function that deletes an identity mapping. 
+A pointer to the [_IOMMU_UNMAP_IDENTITY_RANGE_](nc-wdm-iommu_unmap_identity_range.md) callback function that deletes an identity mapping.
+
+### -field SetDeviceFaultReporting
+A pointer to the [IOMMU_SET_DEVICE_FAULT_REPORTING](nc-wdm-iommu_set_device_fault_reporting.md) callback function that sets the device fault reporting state to device already attached to a domain.
 
 ## -remarks
 

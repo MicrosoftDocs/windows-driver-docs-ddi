@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Sets the rate at which the video processor produces output frames for an input stream.
 old-location: display\videoprocessorsetstreamoutputrate.htm
 ms.assetid: fc1236f2-fcbf-4b3f-978f-a34260b78159
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMOUTPUTRATE, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMOUTPUTRATE callback, d3d10umddi/pfnVideoProcessorSetStreamOutputRate, display.videoprocessorsetstreamoutputrate, pfnVideoProcessorSetStreamOutputRate, pfnVideoProcessorSetStreamOutputRate callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -62,36 +59,25 @@ Sets the rate at which the video processor produces output frames for an input s
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hVideoProcessor* [in]
+
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function.
 
 ### -param Arg3
 
+*StreamIndex* [in]
+
+The zero-based index of the input stream.
 
 ### -param Arg4
 
-
-### -param Arg5
-
-
-### -param *
-
-
-
-
-
-
-
-
-#### - OutputRate [in]
-
-The output rate, specified as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450989">D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE</a> value.
-
-For more information, see the Remarks section.
-
-
-#### - RepeatFrame [in]
+*RepeatFrame* [in]
 
 Specifies how the driver performs frame-rate conversion, if it is required.
 
@@ -106,26 +92,17 @@ If the <i>RepeatFrame</i> parameter is <b>FALSE</b>,  the driver should interpol
 <div class="alert"><b>Note</b>  If the <b>VideoProcessorSetStreamOutputRate</b> function is never called, the driver should interpolate frames by default.</div>
 <div> </div>
 
-#### - StreamIndex [in]
+### -param Arg5
 
-The zero-based index of the input stream.
+*OutputRate* [in]
 
+The output rate, specified as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450989">D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE</a> value.
 
-#### - hDevice [in]
+For more information, see the Remarks section.
 
-A handle to the display device (graphics context).
+### -param *
 
-
-
-
-#### - hVideoProcessor [in]
-
-A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
-
-
-
-
-#### - pCustomRate [in]
+*pCustomRate* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a> structure. If the <i>OutputRate</i> parameter is set to <b>D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM</b>, this parameter specifies the exact output rate. Otherwise, this parameter is ignored and can be set to NULL.
 

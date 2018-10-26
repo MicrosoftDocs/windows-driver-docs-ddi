@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMTEscape function exchanges information with the display miniport driver.
 old-location: display\d3dkmtescape.htm
 ms.assetid: 60b105df-2085-40bc-9d95-0f6b317a565e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTEscape, D3DKMTEscape function [Display Devices], OpenGL_Functions_ad391641-4fb5-425a-839f-7b257f26849a.xml, d3dkmthk/D3DKMTEscape, display.d3dkmtescape
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
@@ -68,7 +65,7 @@ The <b>D3DKMTEscape</b> function exchanges information with the display miniport
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547970">D3DKMT_ESCAPE</a> structure that describes the exchanged information.
 

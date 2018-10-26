@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The arguments needed to create a periodic frame notification.
 old-location: display\dxgkarg_createperiodicframenotification.htm
 ms.assetid: 455C3FBD-2E0D-4CD7-B753-E53ED58A7F6F
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*INOUT_PDXGKARG_CREATEPERIODICFRAMENOTIFICATION, DXGKARG_CREATEPERIODICFRAMENOTIFICATION, DXGKARG_CREATEPERIODICFRAMENOTIFICATION structure [Display Devices], _DXGKARG_CREATEPERIODICFRAMENOTIFICATION, d3dkmddi/DXGKARG_CREATEPERIODICFRAMENOTIFICATION, display.dxgkarg_createperiodicframenotification"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmddi.h
 req.include-header: 
@@ -65,7 +62,7 @@ A handle to the adapter associated with VidPnSourceID.
 
 ### -field VidPnTargetId
 
- 
+The output that the compositor wishes to receive notifications for.
 
 
 ### -field Time
@@ -83,7 +80,6 @@ Represents an ID for the notification that will be used to track which interrupt
 A Handle to the notification object, later used to destroy the object.
 
 
-#### - VidPnTargetID
 
-The output that the compositor wishes to receive notifications for.
+
 

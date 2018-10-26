@@ -6,11 +6,8 @@ description: A PSHED plug-in's EnableErrorSource callback function enables an er
 old-location: whea\enableerrorsource.htm
 tech.root: whea
 ms.assetid: f2bc3b38-003e-4078-9bbd-d535e8971491
-ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: EnableErrorSource, EnableErrorSource callback function [WHEA Drivers and Applications], PSHED_PI_ENABLE_ERROR_SOURCE, PSHED_PI_ENABLE_ERROR_SOURCE callback, ntddk/EnableErrorSource, whea.enableerrorsource, whearef_d2fcd602-03f5-466c-bd90-abd81f15ec38.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ntddk.h
 req.include-header: Ntddk.h

@@ -6,11 +6,8 @@ description: The IOCTL_INTERNAL_I8042_HOOK_MOUSE request adds an ISR callback ro
 old-location: hid\ioctl_internal_i8042_hook_mouse.htm
 tech.root: hid
 ms.assetid: 606b9ae4-186c-47b1-84aa-3d380eaad672
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IOCTL_INTERNAL_I8042_HOOK_MOUSE, IOCTL_INTERNAL_I8042_HOOK_MOUSE control, IOCTL_INTERNAL_I8042_HOOK_MOUSE control code [Human Input Devices], hid.ioctl_internal_i8042_hook_mouse, mfilref_d95cd233-bc97-4bd6-8675-2560b83f4715.xml, ntdd8042/IOCTL_INTERNAL_I8042_HOOK_MOUSE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntdd8042.h
 req.include-header: Ntdd8042.h

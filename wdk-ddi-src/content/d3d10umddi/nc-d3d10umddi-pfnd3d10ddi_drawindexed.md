@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The DrawIndexed function draws indexed primitives.
 old-location: display\drawindexed.htm
 ms.assetid: d1097bb6-35ac-4069-ae05-b74c75a98e21
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DrawIndexed, DrawIndexed callback function [Display Devices], PFND3D10DDI_DRAWINDEXED, PFND3D10DDI_DRAWINDEXED callback, UserModeDisplayDriverDx10_Functions_4529cc06-0ad4-41ea-8cab-b55a398cb889.xml, d3d10umddi/DrawIndexed, display.drawindexed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,40 +57,29 @@ The <b>DrawIndexed</b> function draws indexed primitives.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*StartIndexLocation* [in]
+
+The first index in the index buffer that indexes are read from to draw the primitives.
 
 ### -param Arg3
 
+*BaseVertexLocation* [in]
+
+The number that should be added to each index that is referenced by the various primitives to determine the actual index of the vertex elements in each vertex stream.
 
 ### -param Arg4
 
+*IndexCount* [in]
+
+The number of indexes in the index buffer that indexes are read from to draw the primitives.
 
 
-
-
-
-
-
-#### - BaseVertexLocation [in]
-
- The number that should be added to each index that is referenced by the various primitives to determine the actual index of the vertex elements in each vertex stream.
-
-
-#### - IndexCount [in]
-
- The number of indexes in the index buffer that indexes are read from to draw the primitives. 
-
-
-#### - StartIndexLocation [in]
-
- The first index in the index buffer that indexes are read from to draw the primitives. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
 
 
 ## -returns

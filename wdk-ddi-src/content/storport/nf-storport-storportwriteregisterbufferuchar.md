@@ -6,11 +6,8 @@ description: The StorPortWriteRegisterBufferUchar routine transfers a given numb
 old-location: storage\storportwriteregisterbufferuchar.htm
 tech.root: storage
 ms.assetid: af8126cd-e931-4106-b543-9c84ee110901
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortWriteRegisterBufferUchar, StorPortWriteRegisterBufferUchar routine [Storage Devices], storage.storportwriteregisterbufferuchar, storport/StorPortWriteRegisterBufferUchar, storprt_21fa4636-6492-4cb1-9281-6f116f1a7591.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: storport.h
 req.include-header: Storport.h
@@ -66,17 +63,17 @@ The <b>StorPortWriteRegisterBufferUchar</b> routine transfers a given number of 
 
 ### -param r
 
-<p>Pointer to a buffer containing the data to be written. </p>
+Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by [**StorPortGetDeviceBase**](nf-storport-storportgetdevicebase.md).
 
 
 ### -param b
 
-<p>Specifies the number of bytes to be transferred to the HBA. </p>
+<p>Pointer to a buffer containing the data to be written. </p>
 
 
 ### -param c
 
-TBD
+<p>Specifies the number of bytes to be transferred to the HBA. </p>
 
 
 

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The DrawInstanced function draws particular instances of nonindexed primitives.
 old-location: display\drawinstanced.htm
 ms.assetid: c539cf8b-e056-476a-9b23-7e360917a7d9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DrawInstanced, DrawInstanced callback function [Display Devices], PFND3D10DDI_DRAWINSTANCED, PFND3D10DDI_DRAWINSTANCED callback, UserModeDisplayDriverDx10_Functions_15fe8a07-36ca-4ab1-8570-01250eed4866.xml, d3d10umddi/DrawInstanced, display.drawinstanced
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,48 +57,34 @@ The <b>DrawInstanced</b> function draws particular instances of nonindexed primi
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*VertexCountPerInstance* [in]
+
+The number of vertices per instance of the buffer that vertices are read from to draw the primitives.
 
 ### -param Arg3
 
+*InstanceCount* [in]
+
+The number of instances of the buffer that vertices are read from to draw the primitives.
 
 ### -param Arg4
 
+*StartVertexLocation* [in]
+
+The first vertex in the buffer that vertices are read from to draw the primitives.
 
 ### -param Arg5
 
+*StartInstanceLocation* [in]
 
+The first instance of the buffer that vertices are read from to draw the primitives. 
 
-
-
-
-
-
-#### - InstanceCount [in]
-
- The number of instances of the buffer that vertices are read from to draw the primitives. 
-
-
-#### - StartInstanceLocation [in]
-
- The first instance of the buffer that vertices are read from to draw the primitives. 
-
-
-#### - StartVertexLocation [in]
-
- The first vertex in the buffer that vertices are read from to draw the primitives. 
-
-
-#### - VertexCountPerInstance [in]
-
- The number of vertices per instance of the buffer that vertices are read from to draw the primitives. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
 
 
 ## -returns

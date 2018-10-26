@@ -6,11 +6,8 @@ description: EVT_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT is called by the OS 
 old-location: display\evt_idd_cx_monitor_opm_create_protected_output.htm
 tech.root: display
 ms.assetid: 16c6fda5-c2e1-4ee4-80f7-e970b1da0e01
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: EVT_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT, EVT_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT callback, EvtIddCxMonitorOpmCreateProtectedOutput, EvtIddCxMonitorOpmCreateProtectedOutput callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT, PFN_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_create_protected_output, iddcx/EvtIddCxMonitorOpmCreateProtectedOutput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: iddcx.h
 req.include-header: 
@@ -60,9 +57,7 @@ req.typenames:
 
 ### -param MonitorObject [in]
 
-
-                    
-                A handle used by the OS to identify the monitor that the OPM context should be created on.
+A handle used by the OS to identify the monitor that the OPM context should be created on.
 
 
 ### -param OpmCxtObject [in]

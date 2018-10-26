@@ -6,11 +6,8 @@ description: The WdfCollectionGetItem method returns a handle to the object that
 old-location: wdf\wdfcollectiongetitem.htm
 tech.root: wdf
 ms.assetid: 3bb6232c-b87e-4358-ba0c-8854d641bfd8
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFCollectionObjectRef_8476d0ef-d5e3-4dbc-95de-bbabd04c22bc.xml, WdfCollectionGetItem, WdfCollectionGetItem method, kmdf.wdfcollectiongetitem, wdf.wdfcollectiongetitem, wdfcollection/WdfCollectionGetItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfcollection.h
 req.include-header: Wdf.h
@@ -90,7 +87,7 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 Index values represent the order in which objects are added to a collection. An index value of zero represents the first object in the collection, an index value of one represents the second object, and so on, like a linked list. When the driver removes item <i>i</i> from a collection, item <i>i</i>+1 becomes item <i>i</i>. 
 
-For more information about object collections, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-collections">Framework Object Collections</a>.
+For more information about object collections, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-collections">Framework Object Collections</a>.
 
 
 #### Examples

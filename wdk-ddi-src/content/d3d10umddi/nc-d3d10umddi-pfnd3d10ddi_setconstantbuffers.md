@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The CsSetConstantBuffers function sets constant buffers for a compute shader.
 old-location: display\cssetconstantbuffers.htm
 ms.assetid: 159ee0ac-7ddf-4ffd-a07f-3d58130b90e8
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CsSetConstantBuffers, CsSetConstantBuffers callback function [Display Devices], PFND3D10DDI_SETCONSTANTBUFFERS, PFND3D10DDI_SETCONSTANTBUFFERS callback, UserModeDisplayDriverDx11_Functions_ae0b7e35-f8c5-428d-97d0-e22d5b609c72.xml, d3d10umddi/CsSetConstantBuffers, display.cssetconstantbuffers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -55,42 +52,27 @@ The <b>CsSetConstantBuffers</b> function sets constant buffers for a compute sha
 
 ## -parameters
 
-
-
-
 ### -param Arg1
+
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 
 ### -param StartSlot
 
+[in] The starting constant buffer to set.
 
-### -param NumBuffers [in]
+### -param NumBuffers 
 
- The total number of buffers to set. 
+[in] The total number of buffers to set. 
 
 
 ### -param *
 
+*phBuffers* [in]
 
-
-
-
-
-
-
-#### - StartBuffer [in]
-
- The starting constant buffer to set. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - phBuffers [in]
-
- An array of handles to the constant buffers, beginning with the buffer that <b>StartBuffer</b> specifies.
+An array of handles to the constant buffers, beginning with the buffer that <b>StartBuffer</b> specifies.
 
 
 ## -returns

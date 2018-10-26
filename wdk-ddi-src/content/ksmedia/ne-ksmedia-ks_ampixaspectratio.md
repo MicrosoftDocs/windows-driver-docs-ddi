@@ -6,11 +6,8 @@ description: The KS_AMPixAspectRatio enumeration defines the pixel aspect ratio 
 old-location: stream\ks_ampixaspectratio.htm
 tech.root: stream
 ms.assetid: 29c84529-11f6-429b-81c6-96d6a1773b3b
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KS_AMPixAspectRatio, KS_AMPixAspectRatio enumeration [Streaming Media Devices], KS_PixAspectRatio_NTSC16x9, KS_PixAspectRatio_NTSC4x3, KS_PixAspectRatio_PAL16x9, KS_PixAspectRatio_PAL4x3, ksmedia/KS_AMPixAspectRatio, ksmedia/KS_PixAspectRatio_NTSC16x9, ksmedia/KS_PixAspectRatio_NTSC4x3, ksmedia/KS_PixAspectRatio_PAL16x9, ksmedia/KS_PixAspectRatio_PAL4x3, stream.ks_ampixaspectratio, vidcapstruct_d891dbda-a467-4e13-bad6-fef794146717.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ksmedia.h
 req.include-header: Ksmedia.h

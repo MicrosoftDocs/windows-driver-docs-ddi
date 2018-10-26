@@ -6,11 +6,8 @@ description: The KsPinGetFirstCloneStreamPointer function returns the first clon
 old-location: stream\kspingetfirstclonestreampointer.htm
 tech.root: stream
 ms.assetid: 9b4880af-d748-4a4e-92ec-8081138d4e27
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsPinGetFirstCloneStreamPointer, KsPinGetFirstCloneStreamPointer function [Streaming Media Devices], avfunc_2a3d17ef-c1b8-4b22-af1e-7f9bb01c1183.xml, ks/KsPinGetFirstCloneStreamPointer, stream.kspingetfirstclonestreampointer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ks.h
 req.include-header: Ks.h

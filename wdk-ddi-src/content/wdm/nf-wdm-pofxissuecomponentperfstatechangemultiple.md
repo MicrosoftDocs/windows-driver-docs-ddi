@@ -6,11 +6,8 @@ description: The PoFxIssueComponentPerfStateChangeMultiple routine submits a req
 old-location: kernel\pofxissuecomponentperfstatechangemultiple.htm
 tech.root: kernel
 ms.assetid: 246211E7-89A9-4916-BF6E-5771B911CBA3
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PO_FX_FLAG_ASYNC_ONLY, PO_FX_FLAG_BLOCKING, PoFxIssueComponentPerfStateChangeMultiple, PoFxIssueComponentPerfStateChangeMultiple routine [Kernel-Mode Driver Architecture], kernel.pofxissuecomponentperfstatechangemultiple, wdm/PoFxIssueComponentPerfStateChangeMultiple
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: 

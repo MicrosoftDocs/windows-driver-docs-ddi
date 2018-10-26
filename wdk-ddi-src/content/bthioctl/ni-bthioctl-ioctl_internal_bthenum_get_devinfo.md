@@ -6,11 +6,8 @@ description: The IOCTL_INTERNAL_BTHENUM_GET_DEVINFO request returns information 
 old-location: bltooth\ioctl_internal_bthenum_get_devinfo.htm
 tech.root: bltooth
 ms.assetid: c0134541-2e17-41e5-b30a-493b1bb42d07
-ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: IOCTL_INTERNAL_BTHENUM_GET_DEVINFO, IOCTL_INTERNAL_BTHENUM_GET_DEVINFO control, IOCTL_INTERNAL_BTHENUM_GET_DEVINFO control code [Bluetooth Devices], bltooth.ioctl_internal_bthenum_get_devinfo, bth_ioctls_08047b17-31ae-4497-b83d-21e42058765f.xml, bthioctl/IOCTL_INTERNAL_BTHENUM_GET_DEVINFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
@@ -76,14 +73,14 @@ None.
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that holds a 
-      <a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structure that
+      <a href="https://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structure that
       contains information about the device's state, the device's address, and class of device (CoD).
 
 
 ### -output-buffer-length
 
 The length of a 
-      <a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structure.
+      <a href="https://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structure.
 
 
 ### -in-out-buffer
@@ -148,7 +145,7 @@ The output buffer was sized incorrectly.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
  
 
  

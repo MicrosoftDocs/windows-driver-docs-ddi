@@ -6,11 +6,8 @@ description: The WdmlibIoValidateDeviceIoControlAccess function verifies that th
 old-location: kernel\wdmlibiovalidatedeviceiocontrolaccess.htm
 tech.root: kernel
 ms.assetid: F986A431-A70D-4488-A792-F37128902C7E
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: FILE_READ_ACCESS, FILE_WRITE_ACCESS, IoValidateDeviceIoControlAccess, WdmlibIoValidateDeviceIoControlAccess, WdmlibIoValidateDeviceIoControlAccess function [Kernel-Mode Driver Architecture], kernel.wdmlibiovalidatedeviceiocontrolaccess, wdmsec/IoValidateDeviceIoControlAccess, wdmsec/WdmlibIoValidateDeviceIoControlAccess, IoValidateDeviceIoControlAccess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdmsec.h
 req.include-header: Wdmsec.h, Wdm.h, Ntddk.h, Ntifs.h

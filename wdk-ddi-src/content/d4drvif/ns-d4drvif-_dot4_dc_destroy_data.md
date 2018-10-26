@@ -6,11 +6,8 @@ description: This topic describes the DOT4_DC_DESTROY_DATA structure.
 old-location: print\dot4_dc_destroy_data.htm
 tech.root: print
 ms.assetid: 1AA00E3C-C6FB-49A4-9EFB-DFFEEFF4C0A0
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PDOT4_DC_DESTROY_DATA, DOT4_DC_DESTROY_DATA, DOT4_DC_DESTROY_DATA structure [Print Devices], PDOT4_DC_DESTROY_DATA, PDOT4_DC_DESTROY_DATA structure pointer [Print Devices], _DOT4_DC_DESTROY_DATA, d4drvif/DOT4_DC_DESTROY_DATA, d4drvif/PDOT4_DC_DESTROY_DATA, print.dot4_dc_destroy_data"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d4drvif.h
 req.include-header: 

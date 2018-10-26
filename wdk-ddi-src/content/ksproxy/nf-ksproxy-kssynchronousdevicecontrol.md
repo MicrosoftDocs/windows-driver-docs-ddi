@@ -6,11 +6,8 @@ description: The KsSynchronousDeviceControl function issues a synchronous device
 old-location: stream\kssynchronousdevicecontrol.htm
 tech.root: stream
 ms.assetid: 82c8f0c0-d9df-4f0d-8a45-dda8fa8a132a
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsSynchronousDeviceControl, KsSynchronousDeviceControl function [Streaming Media Devices], ksproxy/KsSynchronousDeviceControl, ksproxy_5bfad2d0-2ee7-476d-a67b-e7c877505280.xml, stream.kssynchronousdevicecontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ksproxy.h
 req.include-header: Ksproxy.h

@@ -6,11 +6,8 @@ description: The MS_SMHBA_SAS_Port structure is used to report the SAS port info
 old-location: storage\ms_smhba_sas_port.htm
 tech.root: storage
 ms.assetid: d294d97a-e6b2-4ab3-bebf-e545aa2f862d
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PMS_SMHBA_SAS_Port, MS_SMHBA_SAS_Port, MS_SMHBA_SAS_Port structure [Storage Devices], PMS_SMHBA_SAS_Port, PMS_SMHBA_SAS_Port structure pointer [Storage Devices], _MS_SMHBA_SAS_Port, hbapiwmi/MS_SMHBA_SAS_Port, hbapiwmi/PMS_SMHBA_SAS_Port, storage.ms_smhba_sas_port, structs-Fibre_c7678d06-756a-4733-bdff-35571ff2c571.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h

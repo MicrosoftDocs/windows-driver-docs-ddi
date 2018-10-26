@@ -6,11 +6,8 @@ description: The IOCTL_GET_PHYSICAL_DESCRIPTOR request obtains the physical desc
 old-location: hid\ioctl_get_physical_descriptor.htm
 tech.root: hid
 ms.assetid: cf15dd7f-4568-40c7-b2e4-7cec8239df0b
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IOCTL_GET_PHYSICAL_DESCRIPTOR, IOCTL_GET_PHYSICAL_DESCRIPTOR control, IOCTL_GET_PHYSICAL_DESCRIPTOR control code [Human Input Devices], hid.ioctl_get_physical_descriptor, hidclass/IOCTL_GET_PHYSICAL_DESCRIPTOR, hidioreq_3a61c6d2-a97a-47d6-86b1-317e22775271.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: hidclass.h
 req.include-header: Hidclass.h

@@ -6,11 +6,8 @@ description: The IStiDeviceControl::WriteToErrorLog method allows a user-mode st
 old-location: image\istidevicecontrol_writetoerrorlog.htm
 tech.root: image
 ms.assetid: 22f9688e-1e61-46a6-a9f6-0244d7dd47ce
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IStiDeviceControl interface [Imaging Devices],WriteToErrorLog method, IStiDeviceControl.WriteToErrorLog, IStiDeviceControl::WriteToErrorLog, WriteToErrorLog, WriteToErrorLog method [Imaging Devices], WriteToErrorLog method [Imaging Devices],IStiDeviceControl interface, image.istidevicecontrol_writetoerrorlog, stifnc_62f132a6-f597-4f46-9242-736a4e591942.xml, stiusd/IStiDeviceControl::WriteToErrorLog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: stiusd.h
 req.include-header: Stiusd.h

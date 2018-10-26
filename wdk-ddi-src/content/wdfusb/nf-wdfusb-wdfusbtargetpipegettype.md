@@ -6,11 +6,8 @@ description: The WdfUsbTargetPipeGetType method returns the type of a specified 
 old-location: wdf\wdfusbtargetpipegettype.htm
 tech.root: wdf
 ms.assetid: d02af0c8-f963-4bec-a8b6-fe334fd75a68
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_de8bc76f-0be3-46bb-a959-b3115e91b472.xml, WdfUsbTargetPipeGetType, WdfUsbTargetPipeGetType method, kmdf.wdfusbtargetpipegettype, wdf.wdfusbtargetpipegettype, wdfusb/WdfUsbTargetPipeGetType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

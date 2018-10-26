@@ -6,11 +6,8 @@ description: Describes video memory resources that are to be reclaimed and that 
 old-location: display\d3d12ddicb_reclaimallocations2.htm
 tech.root: display
 ms.assetid: B5ADCD5D-301C-4B02-A4B2-90A81A5FBBC9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D12DDICB_RECLAIMALLOCATIONS2, D3D12DDICB_RECLAIMALLOCATIONS2 structure [Display Devices], _D3D12DDICB_RECLAIMALLOCATIONS2, d3dumddi/D3D12DDICB_RECLAIMALLOCATIONS2, display.d3d12ddicb_reclaimallocations2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -75,11 +72,7 @@ Describes video memory resources that are to be reclaimed and that the driver  p
 
 ### -field PagingFenceValue
 
-[out] The paging fence to synchronize against before submitting work to the GPU which
-                                                                           references any of the resources or allocations in the provided arrays
+[out] The paging fence to synchronize against before submitting work to the GPU which references any of the resources or allocations in the provided arrays.
 
 
-#### - pResources
-
-[in]  An array of Direct3D runtime resource handles.
 

@@ -6,11 +6,8 @@ description: The AddSymbolOptions method turns on some of the engine's global sy
 old-location: debugger\addsymboloptions.htm
 tech.root: debugger
 ms.assetid: 952b4a7b-2713-4d7a-b70e-4fd1867bc096
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: AddSymbolOptions, AddSymbolOptions method [Windows Debugging], AddSymbolOptions method [Windows Debugging],IDebugSymbols interface, AddSymbolOptions method [Windows Debugging],IDebugSymbols2 interface, AddSymbolOptions method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],AddSymbolOptions method, IDebugSymbols.AddSymbolOptions, IDebugSymbols2 interface [Windows Debugging],AddSymbolOptions method, IDebugSymbols2::AddSymbolOptions, IDebugSymbols3 interface [Windows Debugging],AddSymbolOptions method, IDebugSymbols3::AddSymbolOptions, IDebugSymbols::AddSymbolOptions, IDebugSymbols_a7ffc5ae-fc9e-4298-a351-95871b8fd12e.xml, dbgeng/IDebugSymbols2::AddSymbolOptions, dbgeng/IDebugSymbols3::AddSymbolOptions, dbgeng/IDebugSymbols::AddSymbolOptions, debugger.addsymboloptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Dbghelp.h

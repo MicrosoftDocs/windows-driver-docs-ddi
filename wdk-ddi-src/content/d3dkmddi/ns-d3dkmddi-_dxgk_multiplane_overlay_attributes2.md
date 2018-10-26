@@ -5,11 +5,8 @@ author: windows-driver-content
 description: DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2 is used by the display miniport driver to specify overlay plane attributes.
 old-location: display\dxgk_multiplane_overlay_attributes2.htm
 ms.assetid: 48C481EF-F3A1-48BF-B251-86D06AC125CC
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2, DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2 structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2, display.dxgk_multiplane_overlay_attributes2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
@@ -100,7 +97,7 @@ Specifies the overlay plane's video frame format, given as a value from the <a h
 
 ### -field ColorSpaceType
 
-Specifies the colorspace configuration, given as a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/dn906320">D3DDDI_COLOR_SPACE_TYPE</a> enumeration.
+Specifies the color space configuration, given as a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/dn906320">D3DDDI_COLOR_SPACE_TYPE</a> enumeration.
 
 
 ### -field StereoFormat
@@ -130,12 +127,7 @@ Specifies the overlay plane's stretch quality, given as a value from the <a href
 
 ### -field Reserved1
 
- 
-
-
-
-
-#### - ColorKey
+*ColorKey*
 
 Specifies the color key value used when color key blending is enabled for legacy overlays.
 

@@ -6,11 +6,8 @@ description: The CreateVertexShaderFunc function converts vertex shader code int
 old-location: display\createvertexshaderfunc.htm
 tech.root: display
 ms.assetid: e986d37a-6039-4bc4-b5e8-6c4d4d7adedd
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateVertexShaderFunc, CreateVertexShaderFunc callback function [Display Devices], PFND3DDDI_CREATEVERTEXSHADERFUNC, PFND3DDDI_CREATEVERTEXSHADERFUNC callback, UserModeDisplayDriver_Functions_bb697f1f-765f-46d9-961a-f4e8060727bc.xml, d3dumddi/CreateVertexShaderFunc, display.createvertexshaderfunc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,26 +57,20 @@ The <b>CreateVertexShaderFunc</b> function converts vertex shader code into a ha
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
 
+*pCode* [in]
 
+An array of CONST UINT tokens that make up the vertex shader code.
 
+### -param *
 
+*pData* [in, out]
 
-
-
-
-#### - pCode [in]
-
- An array of CONST UINT tokens that make up the vertex shader code.
-
-
-#### - pData [in, out]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542973">D3DDDIARG_CREATEVERTEXSHADERFUNC</a> structure that retrieves the shader handle that is associated with the vertex shader code that is specified by <b>pCode</b>.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542973">D3DDDIARG_CREATEVERTEXSHADERFUNC</a> structure that retrieves the shader handle that is associated with the vertex shader code that is specified by <b>pCode</b>.
 
 
 ## -returns

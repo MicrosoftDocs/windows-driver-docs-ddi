@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Reads a USHORT value from the specified port or register.
 tech.root: serports
 ms.assetid: d516dfad-577b-4c6b-87df-ab6c7ce5c7f8
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: uart.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Reads a USHORT value from the specified port or register.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 UART_HARDWARE_READ_USHORT UartHardwareReadUshort;

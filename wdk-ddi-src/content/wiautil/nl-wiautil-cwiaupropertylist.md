@@ -6,11 +6,8 @@ description: The CWiauPropertyList class can be used to create and maintain a li
 old-location: image\cwiaupropertylist_class.htm
 tech.root: image
 ms.assetid: 4f11bec0-8ff4-4fa0-824c-71ce9774d5d1
-ms.author: windowsdriverdev
-ms.date: 9/7/2018
+ms.date: 09/07/2018
 ms.keywords: CWiauPropertyList, CWiauPropertyList class [Imaging Devices], CWiauPropertyList class [Imaging Devices],described, image.cwiaupropertylist_class, wiauFncs_b6021ff9-9843-4f31-b2c1-aff36af0cbc6.xml, wiautil/CWiauPropertyList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: class
 req.header: wiautil.h
 req.include-header: 

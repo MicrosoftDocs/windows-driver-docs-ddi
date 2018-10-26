@@ -6,11 +6,8 @@ description: Specifies an image data format that is used for an independent imag
 old-location: stream\ks_dataformat_imageinfo.htm
 tech.root: stream
 ms.assetid: d63289bc-9603-4e79-8a77-d2eb0f2c784c
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKS_DATAFORMAT_IMAGEINFO, KS_DATAFORMAT_IMAGEINFO, KS_DATAFORMAT_IMAGEINFO structure [Streaming Media Devices], PKS_DATAFORMAT_IMAGEINFO, PKS_DATAFORMAT_IMAGEINFO structure pointer [Streaming Media Devices], ksmedia/KS_DATAFORMAT_IMAGEINFO, ksmedia/PKS_DATAFORMAT_IMAGEINFO, stream.ks_dataformat_imageinfo, tagKS_DATAFORMAT_IMAGEINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ksmedia.h
 req.include-header: Ksmedia.h

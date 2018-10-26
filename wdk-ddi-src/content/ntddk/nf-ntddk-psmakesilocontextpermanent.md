@@ -6,11 +6,8 @@ description: This routine makes the slot in a silo instance read-only, allowing 
 old-location: kernel\psmakesilocontextpermanent.htm
 tech.root: kernel
 ms.assetid: 74BE4FF9-0342-4942-A58F-9C6D5F76E5F0
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PsMakeSiloContextPermanent, PsMakeSiloContextPermanent routine [Kernel-Mode Driver Architecture], kernel.psmakesilocontextpermanent, ntddk/PsMakeSiloContextPermanent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: 

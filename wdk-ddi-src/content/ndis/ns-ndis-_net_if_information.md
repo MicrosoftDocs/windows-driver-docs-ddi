@@ -6,11 +6,8 @@ description: The NET_IF_INFORMATION structure provides NDIS with information abo
 old-location: netvista\net_if_information.htm
 tech.root: netvista
 ms.assetid: 5508650c-473c-4710-869e-053481e83f1b
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNET_IF_INFORMATION, NET_IF_INFORMATION, NET_IF_INFORMATION structure [Network Drivers Starting with Windows Vista], PNET_IF_INFORMATION, PNET_IF_INFORMATION structure pointer [Network Drivers Starting with Windows Vista], _NET_IF_INFORMATION, ndis/NET_IF_INFORMATION, ndis/PNET_IF_INFORMATION, net_if_struct_ref_ceb46daa-0e14-4ed8-9f05-9cd064a57dfb.xml, netvista.net_if_information"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -314,7 +311,7 @@ The interface provider should allocate enough memory for the structure and the a
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-statistics">OID_GEN_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-statistics">OID_GEN_STATISTICS</a>
  
 
  

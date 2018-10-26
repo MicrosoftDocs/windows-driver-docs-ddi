@@ -6,11 +6,8 @@ description: The WdfDmaTransactionCreate method creates a DMA transaction.
 old-location: wdf\wdfdmatransactioncreate.htm
 tech.root: wdf
 ms.assetid: 9470e4a6-eee4-4a73-80b0-3d45f9d79934
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDmaObjectRef_d7399240-2da3-418f-b21b-8a441e7923d4.xml, WdfDmaTransactionCreate, WdfDmaTransactionCreate method, kmdf.wdfdmatransactioncreate, wdf.wdfdmatransactioncreate, wdfdmatransaction/WdfDmaTransactionCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h

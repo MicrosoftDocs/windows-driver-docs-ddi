@@ -4,12 +4,9 @@ title: _DRIVER_DIRECTORY_TYPE
 author: windows-driver-content
 description: 
 ms.assetid: 587aa860-ad2d-4de2-9f84-1ad5cb7b01bf
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _DRIVER_DIRECTORY_TYPE, DRIVER_DIRECTORY_TYPE, *PDRIVER_DIRECTORY_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: wdm.h
 req.include-header:
 req.target-type:

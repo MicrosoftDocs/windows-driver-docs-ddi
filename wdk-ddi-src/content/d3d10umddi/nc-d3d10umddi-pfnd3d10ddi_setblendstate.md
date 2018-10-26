@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The SetBlendState function sets a blend state.
 old-location: display\setblendstate.htm
 ms.assetid: 8794413f-f4d5-4382-8886-2f0659d8a781
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_SETBLENDSTATE, PFND3D10DDI_SETBLENDSTATE callback, SetBlendState, SetBlendState callback function [Display Devices], UserModeDisplayDriverDx10_Functions_11dcf032-7cd6-497e-985d-548960276981.xml, d3d10umddi/SetBlendState, display.setblendstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,40 +57,28 @@ The <i>SetBlendState</i> function sets a blend state.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hState* [in]
+
+A handle to the blend state to set.
 
 ### -param FLOAT[4]
 
+*pBlendFactor* [in]
+
+A four-element array of single-precision float vectors that the driver uses to set the blend state.
 
 ### -param Arg3
 
+*SampleMask* [in]
 
+A sample format mask.
 
-
-
-
-
-
-#### - SampleMask [in]
-
- A sample format mask.
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hState [in]
-
- A handle to the blend state to set.
-
-
-#### - pBlendFactor [in]
-
- A four-element array of single-precision float vectors that the driver uses to set the blend state.
 
 
 ## -returns

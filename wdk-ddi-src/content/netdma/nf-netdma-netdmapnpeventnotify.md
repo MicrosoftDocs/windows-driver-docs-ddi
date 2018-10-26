@@ -6,11 +6,8 @@ description: The NetDmaPnPEventNotify function indicates a power state change fo
 old-location: netvista\netdmapnpeventnotify.htm
 tech.root: netvista
 ms.assetid: a0f0fdbc-089c-4bfb-ba5f-eaff6042621c
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NetDmaPnPEventNotify, NetDmaPnPEventNotify function [Network Drivers Starting with Windows Vista], netdma/NetDmaPnPEventNotify, netdma_ref_406452bc-e56a-47da-9e7a-09fb4aebe1eb.xml, netvista.netdmapnpeventnotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netdma.h
 req.include-header: Netdma.h

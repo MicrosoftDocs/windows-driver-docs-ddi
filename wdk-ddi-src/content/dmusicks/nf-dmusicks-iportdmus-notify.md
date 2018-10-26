@@ -6,11 +6,8 @@ description: The Notify method should be called from the miniport driver's inter
 old-location: audio\iportdmus_notify.htm
 tech.root: audio
 ms.assetid: 64158ea5-23ca-42a3-9284-2b1523e616b8
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IPortDMus interface [Audio Devices],Notify method, IPortDMus.Notify, IPortDMus::Notify, Notify, Notify method [Audio Devices], Notify method [Audio Devices],IPortDMus interface, audio.iportdmus_notify, audmp-routines_cc818dda-ae0e-435e-8d94-f1632a4c4319.xml, dmusicks/IPortDMus::Notify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dmusicks.h
 req.include-header: Dmusicks.h

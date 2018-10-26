@@ -4,11 +4,8 @@ title: _DXGK_NODE_PERFDATA
 author: windows-driver-content
 description: Input arguments for the call to node performance data.
 ms.assetid: 3dd040ac-12ce-4fa6-81c5-b867dbe942ce
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGK_NODE_PERFDATA, DXGK_NODE_PERFDATA,
 req.header: d3dkmdt.h
 req.include-header:
@@ -69,3 +66,6 @@ The maximum voltage of the engine in milli-volts while not overclocked.
 
 The max voltage of the engine while overclocked in milli-volts.
 
+### -field MaxTransitionLatency
+
+The max transition latency.

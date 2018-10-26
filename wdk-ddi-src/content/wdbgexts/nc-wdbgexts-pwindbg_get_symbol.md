@@ -6,11 +6,8 @@ description: The PWINDBG_GET_SYMBOL (GetSymbol) function locates the symbol near
 old-location: debugger\getsymbol.htm
 tech.root: debugger
 ms.assetid: bec1b12f-0bf7-4cdd-86fe-baec2316d3c8
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetSymbol, GetSymbol callback function [Windows Debugging], PWINDBG_GET_SYMBOL, PWINDBG_GET_SYMBOL callback, WdbgExts_Ref_a892aa24-d1ee-43f4-8fd5-ea8d00aa678a.xml, debugger.getsymbol, wdbgexts/GetSymbol
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h

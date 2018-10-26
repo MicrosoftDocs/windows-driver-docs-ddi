@@ -6,11 +6,8 @@ description: Writes configuration data to a PCI Express SR-IOV Virtual Function 
 old-location: pci\sriov_write_config.htm
 tech.root: PCI
 ms.assetid: 323c8150-ef58-42a4-8c8b-77081ecb64b3
-ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: "*PSRIOV_WRITE_CONFIG, *PSRIOV_WRITE_CONFIG callback function pointer [Buses], PCI.sriov_write_config, SRIOV_WRITE_CONFIG, SriovWriteConfig, SriovWriteConfig callback function [Buses], pcivirt/SriovWriteConfig"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: pcivirt.h
 req.include-header:
@@ -56,7 +53,7 @@ Writes configuration data to a PCI Express SR-IOV Virtual Function (VF).
 ## -prototype
 
 
-````
+```cpp
 SRIOV_WRITE_CONFIG SriovWriteConfig;
 
 NTSTATUS SriovWriteConfig(
@@ -69,7 +66,7 @@ NTSTATUS SriovWriteConfig(
 { ... }
 
 typedef SRIOV_WRITE_CONFIG *PSRIOV_WRITE_CONFIG;
-````
+```
 
 
 ## -parameters

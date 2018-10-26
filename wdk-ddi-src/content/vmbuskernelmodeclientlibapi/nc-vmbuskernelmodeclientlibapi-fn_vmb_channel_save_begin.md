@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbChannelSaveBegin function initializes the context for saving the state of a channel. The driver must check the return value of the function.
 tech.root: netvista
 ms.assetid: 986669ad-e997-4850-a9b1-b45d6f1497cd
-ms.author: windowsdriverdev
 ms.date: 05/21/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:
@@ -50,7 +47,7 @@ The <b>VmbChannelSaveBegin</b> function initializes the context for saving the s
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_CHANNEL_SAVE_BEGIN FnVmbChannelSaveBegin; 
@@ -82,17 +79,9 @@ caller next calls the <a href="https://msdn.microsoft.com/57266CAE-C069-4379-92F
 all the state is saved, and then calls the <a href="https://msdn.microsoft.com/0E61AF98-DC71-4234-B337-71B2AF65D858">VmbChannelSaveEnd</a> function.
 
 > [!IMPORTANT]
-> This function is called through the VMBus Kernel Mode Client Library (KMCL) interface, provided by the Vmbkmcl.sys bus driver. 
+> This function is called through the VMBus Kernel Mode Client Library (KMCL) interface, provided by the Vmbkmcl.sys bus driver. This is a server-only function accessed from the [**KMCL_SERVER_ONLY_METHODS**](ns-vmbuskernelmodeclientlibapi-_kmcl_server_only_methods.md) structure. 
 >
-> To access the KMCL interface, allocate a **KMCL_CLIENT_INTERFACE_V1** structure to receive the interface, then call either [**WdfFdoQueryForInterface**](../wdffdo/nf-wdffdo-wdffdoqueryforinterface.md) or [**WdfIoTargetQueryForInterface**](../wdfiotarget/nf-wdfiotarget-wdfiotargetqueryforinterface.md) with these parameters:
-> 
-> - *InterfaceType* parameter: **KMCL_CLIENT_INTERFACE_TYPE**
-> - *Size* parameter: `sizeof(KMCL_CLIENT_INTERFACE_V1)`
-> - *Version* parameter: **KMCL_CLIENT_INTERFACE_VERSION_LATEST** 
->
-> If the interface query function succeeds, the **KMCL_CLIENT_INTERFACE_V1** structure contains function pointers for the VMBus KMCL functions that you can use to call them.
->
-> For more information about driver-defined interfaces, see [Using Driver-Defined Interfaces](https://docs.microsoft.com/windows-hardware/drivers/wdf/using-driver-defined-interfaces).
+> For more information, see the Remarks section of [**KMCL_SERVER_ONLY_METHODS**](ns-vmbuskernelmodeclientlibapi-_kmcl_server_only_methods.md).
 
 ## -see-also
 

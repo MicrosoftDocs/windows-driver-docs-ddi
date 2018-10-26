@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_mac_address.htm
 tech.root: netvista
 ms.assetid: 6b2b17fd-3695-4598-8d9a-be28e1bc5b53
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_MAC_ADDRESS, DOT11_MAC_ADDRESS, DOT11_MAC_ADDRESS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_8ff45785-198d-48f0-99b5-b79a27753668.xml, PDOT11_MAC_ADDRESS, PDOT11_MAC_ADDRESS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_MAC_ADDRESS, netvista.dot11_mac_address, windot11/DOT11_MAC_ADDRESS, windot11/PDOT11_MAC_ADDRESS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -42,7 +39,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_MAC_ADDRESS, *PDOT11_MAC_ADDRESS
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # _DOT11_MAC_ADDRESS structure
@@ -59,11 +57,11 @@ The <b>DOT11_MAC_ADDRESS</b> array defines an IEEE media access control (MAC) ad
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DOT11_MAC_ADDRESS {
   UCHAR ucDot11MacAddress[6];
 } DOT11_MAC_ADDRESS, *PDOT11_MAC_ADDRESS;
-````
+```
 
 
 ## -struct-fields
@@ -139,11 +137,11 @@ The PDOT11_MAC_ADDRESS type is defined as a pointer to the DOT11_MAC_ADDRESS typ
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-excluded-mac-address-list">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-excluded-mac-address-list">
    OID_DOT11_EXCLUDED_MAC_ADDRESS_LIST</a>
 
 
@@ -157,7 +155,7 @@ The PDOT11_MAC_ADDRESS type is defined as a pointer to the DOT11_MAC_ADDRESS typ
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
    NDIS_STATUS_DOT11_DISASSOCIATION</a>
 
 
@@ -183,7 +181,7 @@ The PDOT11_MAC_ADDRESS type is defined as a pointer to the DOT11_MAC_ADDRESS typ
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-start">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-association-start">
    NDIS_STATUS_DOT11_ASSOCIATION_START</a>
 
 
@@ -192,11 +190,11 @@ The PDOT11_MAC_ADDRESS type is defined as a pointer to the DOT11_MAC_ADDRESS typ
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-roaming-start">NDIS_STATUS_DOT11_ROAMING_START</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-roaming-start">NDIS_STATUS_DOT11_ROAMING_START</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
    OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
 
 
@@ -219,12 +217,12 @@ The PDOT11_MAC_ADDRESS type is defined as a pointer to the DOT11_MAC_ADDRESS typ
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn305127">
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn305127">
    NDIS_STATUS_DOT11_CONNECTION_START</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/gg157151.aspx">
+<a href="https://msdn.microsoft.com/library/gg157151.aspx">
    NDIS_STATUS_DOT11_TKIPMIC_FAILURE</a>
 
 

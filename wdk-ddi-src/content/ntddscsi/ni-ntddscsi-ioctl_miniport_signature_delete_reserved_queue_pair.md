@@ -4,11 +4,8 @@ title: IOCTL_MINIPORT_SIGNATURE_DELETE_RESERVED_QUEUE_PAIR
 author: windows-driver-content
 description: 
 ms.assetid: 50e2ad9f-3bb1-49e8-a694-6e0b28201aec
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: ioctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: ntddscsi.h
 req.include-header:
 req.target-type:
@@ -36,7 +33,7 @@ targetos: Windows
 
 # IOCTL_MINIPORT_SIGNATURE_DELETE_RESERVED_QUEUE_PAIR IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
+### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -73,7 +70,7 @@ targetos: Windows
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

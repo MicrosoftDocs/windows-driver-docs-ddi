@@ -6,11 +6,8 @@ description: A camera minidriver's CamStartCaptureEx callback function selects t
 old-location: stream\camstartcaptureex.htm
 tech.root: stream
 ms.assetid: ab2222ed-3166-4984-b76c-5499879f91d5
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: CamStartCaptureEx, CamStartCaptureEx routine [Streaming Media Devices], PCAM_START_CAPTURE_ROUTINE_EX, stream.camstartcaptureex, usbcamdi/CamStartCaptureEx, usbcmdpr_b6e64f48-1afd-40b0-adbe-dc5afb83d045.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h

@@ -6,11 +6,8 @@ description: The SetVertexShaderDecl function sets the vertex shader declaration
 old-location: display\setvertexshaderdecl.htm
 tech.root: display
 ms.assetid: 6387d632-78e2-4594-a58a-b11b2e831cc0
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETVERTEXSHADERDECL, PFND3DDDI_SETVERTEXSHADERDECL callback, SetVertexShaderDecl, SetVertexShaderDecl callback function [Display Devices], UserModeDisplayDriver_Functions_83e6bdef-65e0-4357-aa4c-51e20cbeb6d5.xml, d3dumddi/SetVertexShaderDecl, display.setvertexshaderdecl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,21 +57,14 @@ The <i>SetVertexShaderDecl</i> function sets the vertex shader declaration so th
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param Arg1
 
+*hShaderHandle* [in]
 
-
-
-
-
-
-
-#### - hShaderHandle [in]
-
- A handle to the vertex shader declaration object.
+A handle to the vertex shader declaration object.
 
 
 ## -returns

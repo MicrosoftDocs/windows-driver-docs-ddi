@@ -6,11 +6,8 @@ description: The D3DDDICB_QUERYRESIDENCY structure describes the residency statu
 old-location: display\d3dddicb_queryresidency.htm
 tech.root: display
 ms.assetid: 43dafaea-06cd-49bb-99ab-99708b1a93cb
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDICB_QUERYRESIDENCY, D3DDDICB_QUERYRESIDENCY structure [Display Devices], D3D_param_Structs_196c35e7-414d-465f-b5e5-695848a4c642.xml, _D3DDDICB_QUERYRESIDENCY, d3dumddi/D3DDDICB_QUERYRESIDENCY, display.d3dddicb_queryresidency
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMTCreateContextVirtual function creates a kernel mode device context that supports virtual addressing.
 old-location: display\d3dkmtcreatecontextvirtual.htm
 ms.assetid: 1E95228E-7513-46D2-8402-28CA6D26F3EB
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTCreateContextVirtual, D3DKMTCreateContextVirtual function [Display Devices], d3dkmthk/D3DKMTCreateContextVirtual, display.d3dkmtcreatecontextvirtual
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
@@ -66,7 +63,7 @@ The <b>D3DKMTCreateContextVirtual</b> function creates a kernel mode device cont
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906791">D3DKMT_CREATECONTEXTVIRTUAL</a> structure that describes the kernel-mode device context.
 

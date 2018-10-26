@@ -6,11 +6,8 @@ description: The ExUuidCreate routine initializes a UUID (GUID) structure to a n
 old-location: kernel\exuuidcreate.htm
 tech.root: kernel
 ms.assetid: e85fe5fa-b11e-41ff-a355-4da0394377d1
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExUuidCreate, ExUuidCreate routine [Kernel-Mode Driver Architecture], k102_e7d2044b-4f90-41bd-bac4-819c721e80c8.xml, kernel.exuuidcreate, ntddk/ExUuidCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

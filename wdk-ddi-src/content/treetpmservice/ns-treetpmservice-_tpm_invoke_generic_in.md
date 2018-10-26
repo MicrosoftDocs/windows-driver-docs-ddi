@@ -4,11 +4,8 @@ title: _TPM_INVOKE_GENERIC_IN
 author: windows-driver-content
 description: 
 ms.assetid: 7c474d05-45db-4467-864d-013e41610b63
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _TPM_INVOKE_GENERIC_IN, TPM_INVOKE_GENERIC_IN, *PTPM_INVOKE_GENERIC_IN, 
 req.header: treetpmservice.h
 req.include-header:

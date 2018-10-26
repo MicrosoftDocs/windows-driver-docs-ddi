@@ -6,11 +6,8 @@ description: The WdfUsbInterfaceGetNumSettings method returns the number of alte
 old-location: wdf\wdfusbinterfacegetnumsettings.htm
 tech.root: wdf
 ms.assetid: 07de1b64-bafb-4b5b-8ef3-24b87ae0c273
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_5515a8bf-1a43-434c-9806-75393a17fdf5.xml, WdfUsbInterfaceGetNumSettings, WdfUsbInterfaceGetNumSettings method, kmdf.wdfusbinterfacegetnumsettings, wdf.wdfusbinterfacegetnumsettings, wdfusb/WdfUsbInterfaceGetNumSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfusb.h
 req.include-header: Wdfusb.h

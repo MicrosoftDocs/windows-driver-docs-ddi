@@ -6,11 +6,8 @@ description: This IOCTL is called by a process that will share user-mode video m
 old-location: display\ioctl_video_share_video_memory.htm
 tech.root: display
 ms.assetid: 7e2e437c-d244-4799-abfc-35fb9d2196d7
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IOCTL_VIDEO_SHARE_VIDEO_MEMORY, IOCTL_VIDEO_SHARE_VIDEO_MEMORY control, IOCTL_VIDEO_SHARE_VIDEO_MEMORY control code [Display Devices], Video_IOCTLs_90056f20-b995-4709-9923-1f7385ebfdce.xml, display.ioctl_video_share_video_memory, ntddvdeo/IOCTL_VIDEO_SHARE_VIDEO_MEMORY
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: ntddvdeo.h
 req.include-header: 

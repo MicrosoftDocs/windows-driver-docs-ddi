@@ -6,11 +6,8 @@ description: The HBA_GetAdapterAttributes routine retrieves the attributes for a
 old-location: storage\hba_getadapterattributes.htm
 tech.root: storage
 ms.assetid: a172f53c-9993-4d52-ae3f-35a8ab5745f6
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_GetAdapterAttributes, HBA_GetAdapterAttributes routine [Storage Devices], fibreHBA_rtns_f7675f0c-2f71-428e-871b-90c51a1b5bc4.xml, hbaapi/HBA_GetAdapterAttributes, storage.hba_getadapterattributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: hbaapi.h
 req.include-header: Hbaapi.h

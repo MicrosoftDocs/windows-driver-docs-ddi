@@ -6,11 +6,8 @@ description: This callback function returns the thresholds that are associated w
 old-location: sensors\evtsensorgetdatathresholds.htm
 tech.root: sensors
 ms.assetid: 8D496490-2BB8-49A4-B575-101E61599A65
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EVT_SENSOR_DRIVER_GET_DATA_THRESHOLDS, EVT_SENSOR_DRIVER_GET_DATA_THRESHOLDS callback, EvtSensorGetDataThresholds, EvtSensorGetDataThresholds callback function [Sensor Devices], sensors.evtsensorgetdatathresholds, sensorscx/EvtSensorGetDataThresholds
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sensorscx.h
 req.include-header: 
@@ -58,20 +55,20 @@ This callback function returns the thresholds that are associated with a sensor.
 
 
 
-### -param Sensor [in]
+### -param Sensor
 
-A reference to a sensor object.
+[in] A reference to a sensor object.
 
 
-### -param pThresholds [out]
+### -param pThresholds
 
-A list of threshold properties and their values associated with the <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>.
+[out] A list of threshold properties and their values associated with the <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>.
 
 
 ### -param pSize
 
 
-
+The size of *pThresholds*.
 
 
 

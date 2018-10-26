@@ -6,11 +6,8 @@ description: The Lock function locks the given resource or a surface within the 
 old-location: display\lock.htm
 tech.root: display
 ms.assetid: e2289073-d46a-4a12-8de7-30400e04cc22
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: Lock, Lock callback function [Display Devices], PFND3DDDI_LOCK, PFND3DDDI_LOCK callback, UserModeDisplayDriver_Functions_c4db91e8-a67e-4647-97d3-abde07926169.xml, d3dumddi/Lock, display.lock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,7 +57,7 @@ The <i>Lock</i> function locks the given resource or a surface within the resour
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +69,9 @@ The <i>Lock</i> function locks the given resource or a surface within the resour
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543204">D3DDDIARG_LOCK</a> structure that describes the resource or surface within the resource to lock.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543204">D3DDDIARG_LOCK</a> structure that describes the resource or surface within the resource to lock.
 
 
 ## -returns

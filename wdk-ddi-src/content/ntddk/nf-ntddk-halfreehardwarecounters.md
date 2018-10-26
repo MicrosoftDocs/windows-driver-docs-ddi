@@ -6,11 +6,8 @@ description: The HalFreeHardwareCounters routine frees a set of hardware perform
 old-location: kernel\halfreehardwarecounters.htm
 tech.root: kernel
 ms.assetid: 646a073b-e0c5-4d41-b60c-3935c129fb39
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: ",  , C, F, H, HalFreeHardwareCounters, HalFreeHardwareCounters routine [Kernel-Mode Driver Architecture], a, d, e, k103_7516fb8d-7064-4f4a-bbef-a979809bf011.xml, kernel.halfreehardwarecounters, l, n, ntddk/HalFreeHardwareCounters, o, r, s, t, u, w"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
@@ -56,11 +53,11 @@ The <b>HalFreeHardwareCounters</b> routine frees a set of hardware performance c
 ## -syntax
 
 
-````
+```cpp
 NTSTATUS HalFreeHardwareCounters(
   _In_ HANDLE CounterSetHandle
 );
-````
+```
 
 
 ## -parameters

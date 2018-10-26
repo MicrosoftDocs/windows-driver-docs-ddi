@@ -6,11 +6,8 @@ description: A helper function that extracts the rotation angle from a given val
 old-location: display\d3dkmdt_vppr_get_content_rotation_part.htm
 tech.root: display
 ms.assetid: B533B0DD-B72C-4294-8E88-4C15EA1BB16E
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART, D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART function [Display Devices], d3dkmdt/D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART, display.d3dkmdt_vppr_get_content_rotation_part
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h

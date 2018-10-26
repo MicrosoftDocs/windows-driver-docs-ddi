@@ -6,11 +6,8 @@ description: Call the NdisFreeNetBuffer function to free a NET_BUFFER structure 
 old-location: netvista\ndisfreenetbuffer.htm
 tech.root: netvista
 ms.assetid: 9b5fe91b-29ae-4c83-b405-4a90e4375b4a
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisFreeNetBuffer, NdisFreeNetBuffer function [Network Drivers Starting with Windows Vista], ndis/NdisFreeNetBuffer, ndis_netbuf_functions_ref_623498b1-25e0-48ae-831e-8c1240106bd4.xml, netvista.ndisfreenetbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h

@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_incoming_assoc_decision.htm
 tech.root: netvista
 ms.assetid: aaddff8c-71da-475b-a395-ac40b3b787ae
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_INCOMING_ASSOC_DECISION, DOT11_INCOMING_ASSOC_DECISION, DOT11_INCOMING_ASSOC_DECISION structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_d6449324-f2b1-492f-849b-d4510b44e94f.xml, PDOT11_INCOMING_ASSOC_DECISION, PDOT11_INCOMING_ASSOC_DECISION structure pointer [Network Drivers Starting with Windows Vista], Revision, Size, Type, _DOT11_INCOMING_ASSOC_DECISION, netvista.dot11_incoming_assoc_decision, windot11/DOT11_INCOMING_ASSOC_DECISION, windot11/PDOT11_INCOMING_ASSOC_DECISION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -42,7 +39,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_INCOMING_ASSOC_DECISION, *PDOT11_INCOMING_ASSOC_DECISION
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # _DOT11_INCOMING_ASSOC_DECISION structure
@@ -58,7 +56,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DOT11_INCOMING_ASSOC_DECISION {
   NDIS_OBJECT_HEADER Header;
   DOT11_MAC_ADDRESS  PeerMacAddr;
@@ -67,7 +65,7 @@ typedef struct _DOT11_INCOMING_ASSOC_DECISION {
   ULONG              uAssocResponseIEsOffset;
   ULONG              uAssocResponseIEsLength;
 } DOT11_INCOMING_ASSOC_DECISION, *PDOT11_INCOMING_ASSOC_DECISION;
-````
+```
 
 
 ## -struct-fields
@@ -167,7 +165,7 @@ The length of the additional information elements (IEs), in bytes, which the NIC
 
 
 This structure is used with
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/hh406480">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/hh406480">
     OID_DOT11_INCOMING_ASSOCIATION_DECISION</a>.
 
 
@@ -175,7 +173,7 @@ This structure is used with
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/hh406480">
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406480">
    OID_DOT11_INCOMING_ASSOCIATION_DECISION</a>
 
 

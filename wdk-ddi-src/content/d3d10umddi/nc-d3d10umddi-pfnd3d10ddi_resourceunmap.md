@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The ResourceUnmap function unmaps a subresource of a resource.
 old-location: display\resourceunmap.htm
 ms.assetid: fb2b714e-232d-40b2-88ad-ee8dcd70a057
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_RESOURCEUNMAP, PFND3D10DDI_RESOURCEUNMAP callback, ResourceUnmap, ResourceUnmap callback function [Display Devices], UserModeDisplayDriverDx10_Functions_473ebdfc-f365-4194-9d52-6338e19ca0d5.xml, d3d10umddi/ResourceUnmap, display.resourceunmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,32 +57,22 @@ The <i>ResourceUnmap</i> function unmaps a subresource of a resource.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hResource* [in]
+
+A handle to the resource to unmap.
 
 ### -param Arg3
 
+*Subresource* [in]
 
+An index that indicates the subresource to unmap. 
 
-
-
-
-
-
-#### - Subresource [in]
-
- An index that indicates the subresource to unmap. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hResource [in]
-
- A handle to the resource to unmap.
 
 
 ## -returns

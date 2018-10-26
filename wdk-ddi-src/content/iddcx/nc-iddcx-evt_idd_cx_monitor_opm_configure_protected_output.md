@@ -6,11 +6,8 @@ description: EVT_IDD_CX_MONITOR_OPM_CONFIGURE_PROTECTED_OUTPUT is called by the 
 old-location: display\evt_idd_cx_monitor_opm_configure_protected_output.htm
 tech.root: display
 ms.assetid: 5314c5e3-bbc7-4179-bb59-4bd58110aee1
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: EVT_IDD_CX_MONITOR_OPM_CONFIGURE_PROTECTED_OUTPUT, EVT_IDD_CX_MONITOR_OPM_CONFIGURE_PROTECTED_OUTPUT callback, EvtIddCxMonitorOpmConfigureProtectedOutput, EvtIddCxMonitorOpmConfigureProtectedOutput callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_CONFIGURE_PROTECTED_OUTPUT, PFN_IDD_CX_MONITOR_OPM_CONFIGURE_PROTECTED_OUTPUT callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_configure_protected_output, iddcx/EvtIddCxMonitorOpmConfigureProtectedOutput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: iddcx.h
 req.include-header: 
@@ -60,16 +57,12 @@ req.typenames:
 
 ### -param OpmCxtObject [in]
 
-
-                    
-                A context used by the OS to identify the OPM context to configure output for.
+A context used by the OS to identify the OPM context to configure output for.
 
 
 ### -param pInArgs [in]
 
-
-                    
-                Input arguments used by <b>EVT_IDD_CX_MONITOR_OPM CONFIGURE_PROTECTED_OUTPUT</b>.
+Input arguments used by <b>EVT_IDD_CX_MONITOR_OPM CONFIGURE_PROTECTED_OUTPUT</b>.
 
 
 ## -returns

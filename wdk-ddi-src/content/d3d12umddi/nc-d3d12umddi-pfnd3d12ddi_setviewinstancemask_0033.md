@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Used to set a view instance mask.
 old-location: display\pfnd3d12ddi_setviewinstancemask_0033.htm
 ms.assetid: 0A41AC01-9F45-4026-9451-AEF2732C9084
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_SETVIEWINSTANCEMASK_0033, PFND3D12DDI_SETVIEWINSTANCEMASK_0033 callback, PFND3D12DDI_SETVIEWINSTANCEMASK_0033 callback function [Display Devices], d3d12umddi/PFND3D12DDI_SETVIEWINSTANCEMASK_0033, display.pfnd3d12ddi_setviewinstancemask_0033
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -60,6 +57,8 @@ Used to set a view instance mask.
 
 ### -param Arg1
 
+*hCommandList*
+
 A handle to the driver's data for the command list. The driver uses this region of memory to store internal data structures that are related to its command list.
 
 ### -param Mask
@@ -67,9 +66,6 @@ A handle to the driver's data for the command list. The driver uses this region 
 The mask that will be set.
 
 
-#### - hCommandList
-
-The command list.
 
 
 ## -returns

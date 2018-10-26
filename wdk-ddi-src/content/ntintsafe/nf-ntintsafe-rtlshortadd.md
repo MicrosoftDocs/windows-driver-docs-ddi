@@ -6,11 +6,8 @@ description: Adds two values of type SHORT.
 old-location: kernel\rtlshortadd.htm
 tech.root: kernel
 ms.assetid: 6CCBDECB-D52A-409D-91CA-6635E6D02545
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlShortAdd, RtlShortAdd function [Kernel-Mode Driver Architecture], kernel.rtlshortadd, ntintsafe/RtlShortAdd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

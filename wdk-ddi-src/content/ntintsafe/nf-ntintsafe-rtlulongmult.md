@@ -6,11 +6,8 @@ description: Multiplies one value of type ULONG by another.
 old-location: kernel\rtlulongmult.htm
 tech.root: kernel
 ms.assetid: 2D5DA884-1746-4DBC-8ABC-2D307181CCAE
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlULongMult, RtlULongMult function [Kernel-Mode Driver Architecture], kernel.rtlulongmult, ntintsafe/RtlULongMult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

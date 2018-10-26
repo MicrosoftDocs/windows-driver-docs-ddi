@@ -6,11 +6,8 @@ description: The STISUBSCRIBE structure is used as a parameter for the IStiDevic
 old-location: image\stisubscribe.htm
 tech.root: image
 ms.assetid: 68859180-274d-44f8-9ccf-1cae0348f902
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: "*LPSTISUBSCRIBE, LPSTISUBSCRIBE, LPSTISUBSCRIBE structure pointer [Imaging Devices], STISUBSCRIBE, STISUBSCRIBE structure [Imaging Devices], _STISUBSCRIBE, image.stisubscribe, sti/LPSTISUBSCRIBE, sti/STISUBSCRIBE, stifnc_6043f7d6-98b6-483f-b868-f18492af5f92.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: sti.h
 req.include-header: Sti.h

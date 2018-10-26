@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_closeuicclogicalchannelgroup.htm
 tech.root: netvista
 ms.assetid: de761fd9-5637-40be-a4bb-9e29ed19a434
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_CloseUiccLogicalChannelGroup, RIL_CloseUiccLogicalChannelGroup method [Network Drivers Starting with Windows Vista], netvista.ril_closeuicclogicalchannelgroup, rilapi/RIL_CloseUiccLogicalChannelGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rilapi.h
 req.include-header: 

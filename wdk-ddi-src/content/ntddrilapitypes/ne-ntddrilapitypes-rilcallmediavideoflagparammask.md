@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rilcallmediavideoflagparammask.htm
 tech.root: netvista
 ms.assetid: cff507e4-d673-4608-9fd9-530ff7e26ffb
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILCALLMEDIAVIDEOFLAGPARAMMASK, RILCALLMEDIAVIDEOFLAGPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIAVIDEOFLAG_ALL, RIL_CALLMEDIAVIDEOFLAG_CAPABILITY_UNKNOWN, RIL_CALLMEDIAVIDEOFLAG_PAUSE, RIL_CALLMEDIAVIDEOFLAG_TEMPORARILY_UNAVAILABLE, netvista.rilcallmediavideoflagparammask, ntddrilapitypes/RILCALLMEDIAVIDEOFLAGPARAMMASK, ntddrilapitypes/RIL_CALLMEDIAVIDEOFLAG_ALL, ntddrilapitypes/RIL_CALLMEDIAVIDEOFLAG_CAPABILITY_UNKNOWN, ntddrilapitypes/RIL_CALLMEDIAVIDEOFLAG_PAUSE, ntddrilapitypes/RIL_CALLMEDIAVIDEOFLAG_TEMPORARILY_UNAVAILABLE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h

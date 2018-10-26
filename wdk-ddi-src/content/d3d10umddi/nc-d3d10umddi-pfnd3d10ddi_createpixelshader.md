@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The CreatePixelShader(D3D10) function creates a pixel shader.
 old-location: display\createpixelshader_d3d10_.htm
 ms.assetid: 67b7cc14-89f5-45f2-b1cf-53316f495c66
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreatePixelShader, CreatePixelShader callback function [Display Devices], PFND3D10DDI_CREATEPIXELSHADER, PFND3D10DDI_CREATEPIXELSHADER callback, UserModeDisplayDriverDx10_Functions_23347d7f-4550-4b9e-a64a-8fcb9b1573c6.xml, d3d10umddi/CreatePixelShader, display.createpixelshader_d3d10_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,48 +57,31 @@ The <b>CreatePixelShader(D3D10)</b> function creates a pixel shader.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param *pShaderCode
 
+An array of CONST UINT tokens that make up the shader code. The first token in the shader code stream is always the version token. The next token in the stream is the length token that determines the end of the shader code stream. For more information about the format of Direct3D version 10 shader code, see the comments inside the <i>D3d10tokenizedprogramformat.hpp</i> header file that is included with the WDK.
 
 ### -param Arg2
 
+*hShader* [in]
+
+A handle to the driver's private data for the pixel shader. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/76cdddb0-b927-4547-ae1d-f5105905633b">CalcPrivateShaderSize</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its shader object. 
 
 ### -param Arg3
 
+*hRTShader* [in]
+
+A handle to the pixel shader that the driver should use anytime it calls back into the Direct3D runtime. 
 
 ### -param *
 
+*pSignatures* [in]
 
-
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hRTShader [in]
-
- A handle to the pixel shader that the driver should use anytime it calls back into the Direct3D runtime. 
-
-
-#### - hShader [in]
-
- A handle to the driver's private data for the pixel shader. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/76cdddb0-b927-4547-ae1d-f5105905633b">CalcPrivateShaderSize</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its shader object. 
-
-
-#### - pCode [in]
-
- An array of CONST UINT tokens that make up the shader code. The first token in the shader code stream is always the version token. The next token in the stream is the length token that determines the end of the shader code stream. For more information about the format of Direct3D version 10 shader code, see the comments inside the <i>D3d10tokenizedprogramformat.hpp</i> header file that is included with the WDK.
-
-
-#### - pSignatures [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541746">D3D10DDIARG_STAGE_IO_SIGNATURES</a> structure that makes up the shader's signature.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541746">D3D10DDIARG_STAGE_IO_SIGNATURES</a> structure that makes up the shader's signature.
 
 
 ## -returns

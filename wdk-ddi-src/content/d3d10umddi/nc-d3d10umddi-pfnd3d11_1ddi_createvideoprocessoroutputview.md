@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Creates a resource view for a video processor. This view defines the output sample for the video processing operation.
 old-location: display\createvideoprocessoroutputview.htm
 ms.assetid: 619695dc-8525-4200-a0c2-8ce0fb1010ed
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateVideoProcessorOutputView, CreateVideoProcessorOutputView callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEOPROCESSOROUTPUTVIEW, PFND3D11_1DDI_CREATEVIDEOPROCESSOROUTPUTVIEW callback, d3d10umddi/CreateVideoProcessorOutputView, display.createvideoprocessoroutputview
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,42 +57,28 @@ Creates a resource view for a video processor. This view defines the output samp
 
 ### -param Arg1
 
-
-### -param *
-
-
-### -param Arg2
-
-
-### -param Arg3
-
-
-
-
-
-
-
-
-#### - hDevice [in]
+*hDevice* [in]
 
 A handle to the display device (graphics context).
 
+### -param *
 
+pCreateData [in]
 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406320">D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW</a> structure. This structure specifies the attributes of the video processor output view to be created.
 
-#### - hRTView [in]
+### -param Arg2
 
-A handle to the video processor output view that the driver should use when it calls back into the Direct3D runtime.
-
-
-#### - hView [in]
+hView [in]
 
 A handle to the driver's private data for the video processor output view. For more information, see the Remarks section.
 
+### -param Arg3
 
-#### - pCreateData [in]
+hRTView [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406320">D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW</a> structure. This structure specifies the attributes of the video processor output view to be created.
+A handle to the video processor output view that the driver should use when it calls back into the Direct3D runtime.
+
 
 
 ## -returns

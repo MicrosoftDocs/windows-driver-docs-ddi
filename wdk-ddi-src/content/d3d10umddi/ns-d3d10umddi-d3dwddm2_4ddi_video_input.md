@@ -4,11 +4,8 @@ title: D3DWDDM2_4DDI_VIDEO_INPUT
 author: windows-driver-content
 description: D3DWDDM2_4DDI_VIDEO_INPUT contains the JPEG image function table that is provided to the Microsoft DirectX graphics kernel by the user mode driver.
 ms.assetid: 5e4a2b72-95ef-4a69-811d-128645c7bf67
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3DWDDM2_4DDI_VIDEO_INPUT, D3DWDDM2_4DDI_VIDEO_INPUT,
 req.header: d3d10umddi.h
 req.include-header:

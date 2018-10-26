@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Offers video memory allocations for reuse.
 old-location: display\d3dkmtofferallocations.htm
 ms.assetid: 3cc84381-fa1e-4c6c-bb5b-459a93676cfd
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTOfferAllocations, D3DKMTOfferAllocations callback function [Display Devices], PFND3DKMT_OFFERALLOCATIONS, PFND3DKMT_OFFERALLOCATIONS callback, d3dkmthk/D3DKMTOfferAllocations, display.d3dkmtofferallocations
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
@@ -60,16 +57,9 @@ Offers video memory allocations for reuse.
 
 ### -param *
 
+*pData* 
 
-
-
-
-
-
-
-#### - pData [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406482">D3DKMT_OFFERALLOCATIONS</a> structure that defines memory allocations that the driver offers for reuse.
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406482">D3DKMT_OFFERALLOCATIONS</a> structure that defines memory allocations that the driver offers for reuse.
 
 
 ## -returns

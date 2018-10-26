@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\ril_setmsgmemorystatus.htm
 tech.root: netvista
 ms.assetid: 23be30ba-3999-4e40-b0c5-30f0b37ff8c4
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_SetMsgMemoryStatus, RIL_SetMsgMemoryStatus method [Network Drivers Starting with Windows Vista], netvista.ril_setmsgmemorystatus, rilapi/RIL_SetMsgMemoryStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rilapi.h
 req.include-header: 

@@ -4,11 +4,8 @@ title: CollectionsListMarshall function
 author: windows-driver-content
 description: This routine is similar to CollectionsListCopyAndMarshall, except that it marshalls a collection list in-place.
 ms.assetid: e3f361d5-278a-4904-babf-7149a038b2fb
-ms.author: windowsdriverdev
-ms.date: 08/08/18
+ms.date: 08/08/2018
 ms.topic: function
-ms.prod: windows-hardware
-ms.technology: windows-devices
 tech.root: sensors
 ms.keywords: CollectionsListMarshall
 req.header: sensorsutils.h

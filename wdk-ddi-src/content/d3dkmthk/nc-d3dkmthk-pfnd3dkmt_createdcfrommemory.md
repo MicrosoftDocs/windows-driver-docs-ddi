@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMTCreateDCFromMemory function creates a display context from a specified block of memory.
 old-location: display\d3dkmtcreatedcfrommemory.htm
 ms.assetid: c02f53d9-7cf2-4420-9aea-4dba916be786
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTCreateDCFromMemory, D3DKMTCreateDCFromMemory callback function [Display Devices], OpenGL_Functions_676f0d3e-5a5a-48d5-9092-88ac897a73b8.xml, PFND3DKMT_CREATEDCFROMMEMORY, PFND3DKMT_CREATEDCFROMMEMORY callback, d3dkmthk/D3DKMTCreateDCFromMemory, display.d3dkmtcreatedcfrommemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
@@ -67,7 +64,7 @@ The <b>D3DKMTCreateDCFromMemory</b> function creates a display context from a sp
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547814">D3DKMT_CREATEDCFROMMEMORY</a> structure that describes parameters for creating a display context.
 

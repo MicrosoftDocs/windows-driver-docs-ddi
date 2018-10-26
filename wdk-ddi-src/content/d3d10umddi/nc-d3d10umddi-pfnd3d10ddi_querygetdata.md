@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The QueryGetData function polls for the state of a query operation.
 old-location: display\querygetdata.htm
 ms.assetid: 78ee9813-e23e-4d46-acc4-f2fa88559b03
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_QUERYGETDATA, PFND3D10DDI_QUERYGETDATA callback, QueryGetData, QueryGetData callback function [Display Devices], UserModeDisplayDriverDx10_Functions_c1a88bca-7df5-4640-9134-fc893e5c8a0d.xml, d3d10umddi/QueryGetData, display.querygetdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -55,53 +52,36 @@ The <i>QueryGetData</i> function polls for the state of a query operation.
 
 ## -parameters
 
-
-
-
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hQuery* [in]
+
+A handle to the query object to poll.
 
 ### -param *
 
+*pData* [out]
 
-### -param DataSize [out]
+A pointer to a region of memory that receives the data from a query operation. The user-mode display driver can set <i>pData</i> to <b>NULL</b> and set the <i>DataSize</i> parameter to zero. If <i>pData</i> is <b>NULL</b>, <i>QueryGetData</i> can indicate the state of the query operation (for example, whether the query operation is finished).
 
+### -param DataSize 
 
-      The size, in bytes, of the query data that the <i>pData</i> parameter points to. The user-mode display driver can set <i>DataSize</i> to zero and set <i>pData</i> to <b>NULL</b>. If <i>DataSize</i> is zero, <i>QueryGetData</i> can indicate the state of the query operation (for example, through return codes). 
+[out] The size, in bytes, of the query data that the <i>pData</i> parameter points to. The user-mode display driver can set <i>DataSize</i> to zero and set <i>pData</i> to <b>NULL</b>. If <i>DataSize</i> is zero, <i>QueryGetData</i> can indicate the state of the query operation (for example, through return codes). 
      
 
 
 ### -param Arg3
 
-
-
-
-
-
-
-
-#### - Flags [in]
+*Flags* [in]
 
 A bitwise OR of values. Currently, the D3D10_DDI_GET_DATA_DO_NOT_FLUSH (0x01L) value from the D3D10_DDI_GET_DATA_FLAG enumeration type is the only supported value. 
 
-
-#### - hDevice [in]
-
-A handle to the display device (graphics context).
-
-
-#### - hQuery [in]
-
-A handle to the query object to poll.
-     
-
-
-#### - pData [out]
-
-A pointer to a region of memory that receives the data from a query operation. The user-mode display driver can set <i>pData</i> to <b>NULL</b> and set the <i>DataSize</i> parameter to zero. If <i>pData</i> is <b>NULL</b>, <i>QueryGetData</i> can indicate the state of the query operation (for example, whether the query operation is finished). 
 
 
 ## -returns

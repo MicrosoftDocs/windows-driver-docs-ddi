@@ -6,11 +6,8 @@ description: Called when a bidi response is received.
 old-location: print\iprinterqueueevent_onbidiresponsereceived.htm
 tech.root: print
 ms.assetid: D0CD9950-DF73-4D46-B901-FA45BA88D3CF
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrinterQueueEvent interface [Print Devices],OnBidiResponseReceived method, IPrinterQueueEvent.OnBidiResponseReceived, IPrinterQueueEvent::OnBidiResponseReceived, OnBidiResponseReceived, OnBidiResponseReceived method [Print Devices], OnBidiResponseReceived method [Print Devices],IPrinterQueueEvent interface, print.iprinterqueueevent_onbidiresponsereceived, printerextension/IPrinterQueueEvent::OnBidiResponseReceived
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: printerextension.h
 req.include-header: 
@@ -81,7 +78,7 @@ This method returns an <b>HRESULT</b> value.
 
 
 
-The <i>bstrResponse</i> parameter is formatted according to the schema that is described in <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd183368(v=vs.85).aspx">Bidi Request and Response Schemas</a>.
+The <i>bstrResponse</i> parameter is formatted according to the schema that is described in <a href="https://msdn.microsoft.com/library/windows/desktop/dd183368(v=vs.85).aspx">Bidi Request and Response Schemas</a>.
 
 
 
@@ -91,7 +88,7 @@ The <i>bstrResponse</i> parameter is formatted according to the schema that is d
 
 
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd183368(v=vs.85).aspx">Bidi Request and Response Schemas</a>
+<a href="https://msdn.microsoft.com/library/windows/desktop/dd183368(v=vs.85).aspx">Bidi Request and Response Schemas</a>
 
 
 

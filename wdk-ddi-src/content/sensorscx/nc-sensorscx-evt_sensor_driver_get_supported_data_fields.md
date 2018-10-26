@@ -6,11 +6,8 @@ description: This callback function returns a list of data fields supported by t
 old-location: sensors\evtsensorgetsupporteddatafields.htm
 tech.root: sensors
 ms.assetid: 8C73DFE2-E87A-460D-8EBE-CF3767CAA23F
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS, EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS callback, EvtSensorGetSupportedDataFields, EvtSensorGetSupportedDataFields callback function [Sensor Devices], sensors.evtsensorgetsupporteddatafields, sensorscx/EvtSensorGetSupportedDataFields
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sensorscx.h
 req.include-header: 
@@ -60,19 +57,19 @@ For more information about data fields, see <a href="https://msdn.microsoft.com/
 
 
 
-### -param Sensor [in]
+### -param Sensor
 
-A reference to a sensor object.
-
-
-### -param pDataFields [in, out, optional]
-
-A list of data fields that are supported by the given <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn946699">SENSOR_PROPERTY_LIST</a>.
+[in] A reference to a sensor object.
 
 
-### -param pSize [out]
+### -param pDataFields
 
-The size of <b>pFields</b>.
+[in, out, optional] A list of data fields that are supported by the given <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn946699">SENSOR_PROPERTY_LIST</a>.
+
+
+### -param pSize 
+
+[out] The size of *pDataFields*.
 
 
 ## -returns

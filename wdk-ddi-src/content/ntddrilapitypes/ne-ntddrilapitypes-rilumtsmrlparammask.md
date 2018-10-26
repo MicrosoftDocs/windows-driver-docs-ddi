@@ -6,11 +6,8 @@ description: This enumeration describes the RILUMTSMRLPARAMMASK.
 old-location: netvista\rilumtsmrlparammask.htm
 tech.root: netvista
 ms.assetid: ba1f48ab-f301-4ae8-b56e-92eb6e3601f2
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: RILUMTSMRLPARAMMASK, RILUMTSMRLPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_UMTSMRL_ALL, RIL_PARAM_UMTSMRL_CELLID, RIL_PARAM_UMTSMRL_ECNO, RIL_PARAM_UMTSMRL_LAC, RIL_PARAM_UMTSMRL_MCC, RIL_PARAM_UMTSMRL_MNC, RIL_PARAM_UMTSMRL_PATHLOSS, RIL_PARAM_UMTSMRL_PRIMARY_SC, RIL_PARAM_UMTSMRL_RSCP, RIL_PARAM_UMTSMRL_UARFCN, netvista.rilumtsmrlparammask, rilapitypes/RILUMTSMRLPARAMMASK, rilapitypes/RIL_PARAM_UMTSMRL_ALL, rilapitypes/RIL_PARAM_UMTSMRL_CELLID, rilapitypes/RIL_PARAM_UMTSMRL_ECNO, rilapitypes/RIL_PARAM_UMTSMRL_LAC, rilapitypes/RIL_PARAM_UMTSMRL_MCC, rilapitypes/RIL_PARAM_UMTSMRL_MNC, rilapitypes/RIL_PARAM_UMTSMRL_PATHLOSS, rilapitypes/RIL_PARAM_UMTSMRL_PRIMARY_SC, rilapitypes/RIL_PARAM_UMTSMRL_RSCP, rilapitypes/RIL_PARAM_UMTSMRL_UARFCN
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
@@ -56,7 +53,7 @@ req.typenames: RILUMTSMRLPARAMMASK
 ## -syntax
 
 
-````
+```cpp
 enum RILUMTSMRLPARAMMASK  {
   RIL_PARAM_UMTSMRL_MCC         = 0x00000001,
   RIL_PARAM_UMTSMRL_MNC         = 0x00000002,
@@ -70,7 +67,7 @@ enum RILUMTSMRLPARAMMASK  {
   RIL_PARAM_UMTSMRL_ALL         = 0x000001ff
 
 };
-````
+```
 
 
 ## -enum-fields

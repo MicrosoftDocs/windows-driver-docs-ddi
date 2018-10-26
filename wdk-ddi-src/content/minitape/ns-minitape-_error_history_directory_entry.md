@@ -4,11 +4,8 @@ title: _ERROR_HISTORY_DIRECTORY_ENTRY
 author: windows-driver-content
 description: 
 ms.assetid: 0ef3d4b9-aa79-4895-8919-b76a985aca13
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _ERROR_HISTORY_DIRECTORY_ENTRY, ERROR_HISTORY_DIRECTORY_ENTRY, *PERROR_HISTORY_DIRECTORY_ENTRY, 
 req.header: minitape.h
 req.include-header:

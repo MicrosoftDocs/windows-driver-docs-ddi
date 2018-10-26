@@ -6,11 +6,8 @@ description: The CreateLight function creates a light source.
 old-location: display\createlight.htm
 tech.root: display
 ms.assetid: 4649b1d1-6fd3-48fb-b25f-1228851bb682
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateLight, CreateLight callback function [Display Devices], PFND3DDDI_CREATELIGHT, PFND3DDDI_CREATELIGHT callback, UserModeDisplayDriver_Functions_c6b9e247-5a6b-4e90-bcbd-bc02708ca555.xml, d3dumddi/CreateLight, display.createlight
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,7 +57,7 @@ The <b>CreateLight</b> function creates a light source.
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +69,9 @@ The <b>CreateLight</b> function creates a light source.
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542943">D3DDDIARG_CREATELIGHT</a> structure that contains the index into the light array.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542943">D3DDDIARG_CREATELIGHT</a> structure that contains the index into the light array.
 
 
 ## -returns

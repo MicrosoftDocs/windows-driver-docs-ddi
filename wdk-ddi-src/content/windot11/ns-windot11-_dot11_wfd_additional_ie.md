@@ -6,11 +6,8 @@ description: The DOT11_WFD_ADDITIONAL_IE structure represents an additional Info
 old-location: netvista\_dot11_wfd_additional_ie.htm
 tech.root: netvista
 ms.assetid: F381C8DB-DC69-4820-BDCE-2F1DF3482FDD
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_WFD_ADDITIONAL_IE, DOT11_WFD_ADDITIONAL_IE, DOT11_WFD_ADDITIONAL_IE structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_ADDITIONAL_IE, PDOT11_WFD_ADDITIONAL_IE structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_ADDITIONAL_IE, netvista._dot11_wfd_additional_ie, windot11/ DOT11_WFD_ADDITIONAL_IE, windot11/PDOT11_WFD_ADDITIONAL_IE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Windot11.h
@@ -42,7 +39,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_WFD_ADDITIONAL_IE, *PDOT11_WFD_ADDITIONAL_IE
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # _DOT11_WFD_ADDITIONAL_IE structure
@@ -57,7 +55,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```cpp
 typedef struct _DOT11_WFD_ADDITIONAL_IE {
   NDIS_OBJECT_HEADER Header;
   ULONG              uBeaconIEsOffset;
@@ -67,7 +65,7 @@ typedef struct _DOT11_WFD_ADDITIONAL_IE {
   ULONG              uDefaultRequestIEsOffset;
   ULONG              uDefaultRequestIEsLength;
 }  DOT11_WFD_ADDITIONAL_IE, *PDOT11_WFD_ADDITIONAL_IE;
-````
+```
 
 
 ## -struct-fields

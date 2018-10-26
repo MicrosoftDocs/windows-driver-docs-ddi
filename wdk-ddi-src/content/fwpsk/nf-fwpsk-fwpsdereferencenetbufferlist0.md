@@ -6,11 +6,8 @@ description: The FwpsDereferenceNetBufferList0 function decrements the reference
 old-location: netvista\fwpsdereferencenetbufferlist0.htm
 tech.root: netvista
 ms.assetid: e327fe9d-9425-4cc3-9552-88e9c4c3bdbe
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FwpsDereferenceNetBufferList0, FwpsDereferenceNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsDereferenceNetBufferList0, netvista.fwpsdereferencenetbufferlist0, wfp_ref_2_funct_3_fwps_D-H_c55180f3-4575-4279-8481-99b17215fc11.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpsk.h
 req.include-header: Fwpsk.h

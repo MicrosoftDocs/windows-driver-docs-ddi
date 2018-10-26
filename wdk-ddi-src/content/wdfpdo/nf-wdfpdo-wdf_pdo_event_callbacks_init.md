@@ -6,11 +6,8 @@ description: The WDF_PDO_EVENT_CALLBACKS_INIT function initializes a WDF_PDO_EVE
 old-location: wdf\wdf_pdo_event_callbacks_init.htm
 tech.root: wdf
 ms.assetid: f3e0ee33-42cd-4544-aad2-c353f7c30675
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_22fa36a8-bdfa-4aac-88aa-3fb50a4c1c42.xml, WDF_PDO_EVENT_CALLBACKS_INIT, WDF_PDO_EVENT_CALLBACKS_INIT function, kmdf.wdf_pdo_event_callbacks_init, wdf.wdf_pdo_event_callbacks_init, wdfpdo/WDF_PDO_EVENT_CALLBACKS_INIT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfpdo.h
 req.include-header: Wdf.h

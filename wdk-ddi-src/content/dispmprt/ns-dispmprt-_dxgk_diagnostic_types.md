@@ -4,11 +4,8 @@ title: _DXGK_DIAGNOSTIC_TYPES
 author: windows-driver-content
 description: A structure that contains a union of all the defined sets of diagnostic types.
 ms.assetid: 9373b413-20a5-4bee-a619-b71c0258124d
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGK_DIAGNOSTIC_TYPES, DXGK_DIAGNOSTIC_TYPES,
 req.header: dispmprt.h
 req.include-header:
@@ -47,6 +44,10 @@ A structure that contains a union of all the defined sets of diagnostic types. T
 ### -field Notifications
 
 A [DXGK_DIAGTYPE_NOTIFICATIONS](ns-dispmprt-_dxgk_diagtype_notifications.md) structure for indicating what kind of diagnostics are being described.
+
+### -field Progressions
+
+A [DXGK_DIAGTYPE_PROGRESSIONS](..\dispmprt\ns-dispmprt-_dxgk_diagtype_progressions.md) structure for indicating a Progressions diagnostic type.
 
 ### -field Value
 

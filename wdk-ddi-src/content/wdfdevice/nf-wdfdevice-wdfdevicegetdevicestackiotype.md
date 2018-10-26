@@ -6,11 +6,8 @@ description: The WdfDeviceGetDeviceStackIoType method retrieves the buffer acces
 old-location: wdf\wdfdevicegetdevicestackiotype.htm
 tech.root: wdf
 ms.assetid: E697F53C-2642-4E3F-AA8C-D0802B39D187
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfDeviceGetDeviceStackIoType, WdfDeviceGetDeviceStackIoType method, wdf.wdfdevicegetdevicestackiotype, wdfdevice/WdfDeviceGetDeviceStackIoType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h

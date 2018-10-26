@@ -6,11 +6,8 @@ description: This callback function returns the properties for a given sensor.
 old-location: sensors\evtsensorgetproperties.htm
 tech.root: sensors
 ms.assetid: 259C37C9-DE8C-4BC8-B18A-CDD96B97056D
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EVT_SENSOR_DRIVER_GET_PROPERTIES, EVT_SENSOR_DRIVER_GET_PROPERTIES callback, EvtSensorGetProperties, EvtSensorGetProperties callback function [Sensor Devices], sensors.evtsensorgetproperties, sensorscx/EvtSensorGetProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sensorscx.h
 req.include-header: 
@@ -58,19 +55,19 @@ This callback function returns the properties for a given sensor.
 
 
 
-### -param Sensor [in]
+### -param Sensor
 
-A reference to a sensor object.
-
-
-### -param pProperties [in, out, optional]
-
-A list of properties and their values for the specified <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>.
+[in] A reference to a sensor object.
 
 
-### -param pSize [out]
+### -param pProperties
 
-The size of pProperties.
+[in, out, optional] A list of properties and their values for the specified <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>.
+
+
+### -param pSize
+
+[out] The size of pProperties.
 
 
 ## -returns

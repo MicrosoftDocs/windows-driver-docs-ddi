@@ -6,11 +6,8 @@ description: The VideoPortScanRom function is obsolete in Windows XP and later v
 old-location: display\videoportscanrom.htm
 tech.root: display
 ms.assetid: 7787237c-5afd-46f2-ac75-6c0b41d37352
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortScanRom, VideoPortScanRom function [Display Devices], VideoPort_Functions_7bcf750d-48d5-4b3b-911f-90efd1f0eed1.xml, display.videoportscanrom, video/VideoPortScanRom
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: video.h
 req.include-header: Video.h

@@ -6,11 +6,8 @@ description: Obsolete.
 old-location: ifsk\fsrtlprivatelock.htm
 tech.root: ifsk
 ms.assetid: c0f6b5bd-991c-403c-9bda-82960b356ca9
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlPrivateLock, FsRtlPrivateLock function [Installable File System Drivers], fsrtlref_950e4ca4-4e7f-4158-8e1e-083af825488d.xml, ifsk.fsrtlprivatelock, ntifs/FsRtlPrivateLock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h
@@ -65,57 +62,57 @@ The <b>FsRtlPrivateLock</b> routine is obsolete, but is exported to support exis
 
 ### -param FileObject
 
-TBD
+Reserved.
 
 
 ### -param FileOffset
 
-TBD
+Reserved.
 
 
 ### -param Length
 
-TBD
+Reserved.
 
 
 ### -param ProcessId
 
-TBD
+Reserved.
 
 
 ### -param Key
 
-TBD
+Reserved.
 
 
 ### -param FailImmediately
 
-TBD
+Reserved.
 
 
 ### -param ExclusiveLock
 
-TBD
+Reserved.
 
 
 ### -param Iosb
 
-TBD
+Reserved.
 
 
 ### -param Irp
 
-TBD
+Reserved.
 
 
 ### -param Context
 
-TBD
+Reserved.
 
 
 ### -param AlreadySynchronized
 
-TBD
+Reserved.
 
 
 

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMTDestroyAllocation2 function releases a resource, a list of allocations, or both.
 old-location: display\d3dkmtdestroyallocation2.htm
 ms.assetid: C66CD2FB-AD45-4666-ACD4-6555ED681935
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTDestroyAllocation2, D3DKMTDestroyAllocation2 function [Display Devices], d3dkmthk/D3DKMTDestroyAllocation2, display.d3dkmtdestroyallocation2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
@@ -67,7 +64,7 @@ The <b>D3DKMTDestroyAllocation2</b> function releases a resource, a list of allo
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906793">D3DKMT_DESTROYALLOCATION2</a> structure that contains information for releasing allocations.
 

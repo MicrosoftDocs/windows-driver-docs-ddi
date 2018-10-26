@@ -6,11 +6,8 @@ description: The CreateDevice function creates a graphics context that is refere
 old-location: display\createdevice.htm
 tech.root: display
 ms.assetid: ce35bdac-af90-471f-af93-0e665be6c7f6
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateDevice, CreateDevice callback function [Display Devices], PFND3DDDI_CREATEDEVICE, PFND3DDDI_CREATEDEVICE callback, UserModeDisplayDriver_Functions_4603a980-54aa-4d90-859a-d84c2afe5f03.xml, d3dumddi/CreateDevice, display.createdevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,21 +57,14 @@ The <b>CreateDevice</b> function creates a graphics context that is referenced i
 
 ### -param hAdapter [in]
 
- A handle that identifies the graphics adapter. 
+A handle that identifies the graphics adapter. 
 
 
 ### -param *
 
+*pCreateData* [in, out]
 
-
-
-
-
-
-
-#### - pCreateData [in, out]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a> structure. On input, this structure contains information that the driver can use. On output, the driver specifies information in the structure that the Microsoft Direct3D runtime can use.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a> structure. On input, this structure contains information that the driver can use. On output, the driver specifies information in the structure that the Microsoft Direct3D runtime can use.
 
 
 ## -returns

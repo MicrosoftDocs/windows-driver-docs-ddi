@@ -6,11 +6,8 @@ description:
 old-location: print\spldeletespoolerportstart.htm
 tech.root: print
 ms.assetid: E66C34E2-2540-4BBC-82E4-6B5267D0EA7F
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: SplDeleteSpoolerPortStart, SplDeleteSpoolerPortStart function [Print Devices], print.spldeletespoolerportstart, winsplp/SplDeleteSpoolerPortStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsplp.h
 req.include-header: 

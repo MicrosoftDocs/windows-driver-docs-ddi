@@ -6,11 +6,8 @@ description: The StreamClassReadWriteConfig routine reads or writes configuratio
 old-location: stream\streamclassreadwriteconfig.htm
 tech.root: stream
 ms.assetid: ae8c1478-b429-4af1-a36d-96145696a990
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: StreamClassReadWriteConfig, StreamClassReadWriteConfig routine [Streaming Media Devices], strclass-routines_5bfa9287-1b6a-40d8-abdc-637fe88e6372.xml, stream.streamclassreadwriteconfig, strmini/StreamClassReadWriteConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: strmini.h
 req.include-header: Strmini.h

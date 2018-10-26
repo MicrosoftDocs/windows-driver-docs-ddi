@@ -6,11 +6,8 @@ description: The SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT function initializes a S
 old-location: serports\sercx2_system_dma_transmit_config_init.htm
 tech.root: serports
 ms.assetid: B65CE818-9D92-441B-AF98-1DE51DEEF3D5
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT, SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT, SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT function [Serial Ports], serports.sercx2_system_dma_transmit_config_init
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sercx.h
 req.include-header: 

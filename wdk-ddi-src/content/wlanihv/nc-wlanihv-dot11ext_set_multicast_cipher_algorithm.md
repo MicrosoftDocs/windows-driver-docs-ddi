@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11extsetmulticastcipheralgorithm.htm
 tech.root: netvista
 ms.assetid: af023bc5-af3e-429c-b9c4-c06e5598cfaf
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: DOT11EXT_SET_MULTICAST_CIPHER_ALGORITHM, Dot11ExtSetMulticastCipherAlgorithm, Dot11ExtSetMulticastCipherAlgorithm callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_67af4c54-7246-4d6e-a82f-35a7b23c8200.xml, netvista.dot11extsetmulticastcipheralgorithm, wlanihv/Dot11ExtSetMulticastCipherAlgorithm
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
@@ -61,12 +58,12 @@ The IHV Extensions DLL calls the
 ## -prototype
 
 
-````
+```cpp
 DWORD WINAPI * Dot11ExtSetMulticastCipherAlgorithm(
   _In_opt_ HANDLE hDot11SvcHandle,
   _In_     DWORD  dwMulticastCipherAlgo
 );
-````
+```
 
 
 ## -parameters
@@ -100,8 +97,8 @@ Otherwise, the DLL is responsible for processing a standard cipher algorithm sup
 <div class="alert"><b>Note</b>  The value of
      <i>dwMulticastCipherAlgo</i> must match the value of a cipher algorithm returned by the Native 802.11
      miniport driver through setting the appropriate <i>xxx</i><b>AlgoPairs</b> members of the  <a href="..\windot11\ns-windot11-dot11_extsta_attributes.md">DOT11_EXTSTA_ATTRIBUTES</a> structure, which must match the values that would be returned by queries of
-     <a href="https://msdn.microsoft.com/en-us/library/gg157261.aspx">OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a> or
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>.</div>
+     <a href="https://msdn.microsoft.com/library/gg157261.aspx">OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a> or
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>.</div>
 
 ## -returns
 
@@ -116,12 +113,12 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/gg157261.aspx">
+<a href="https://msdn.microsoft.com/library/gg157261.aspx">
    OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
    OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>
 
 

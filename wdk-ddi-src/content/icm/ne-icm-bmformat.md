@@ -6,11 +6,8 @@ description: The values of the BMFORMAT enumeration are used by WCS functions to
 old-location: print\bmformat.htm
 tech.root: print
 ms.assetid: 1c29bf1e-e785-48ab-aa2c-3665fd5c0ab0
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PBMFORMAT, BMFORMAT, BMFORMAT enumeration [Print Devices], BM_10b_G3CH, BM_10b_Lab, BM_10b_RGB, BM_10b_XYZ, BM_10b_Yxy, BM_16b_G3CH, BM_16b_GRAY, BM_16b_Lab, BM_16b_RGB, BM_16b_XYZ, BM_16b_Yxy, BM_32b_scARGB, BM_32b_scRGB, BM_565RGB, BM_5CHANNEL, BM_6CHANNEL, BM_7CHANNEL, BM_8CHANNEL, BM_BGRTRIPLETS, BM_CMYKQUADS, BM_G3CHTRIPLETS, BM_GRAY, BM_KYMCQUADS, BM_LabTRIPLETS, BM_NAMED_INDEX, BM_R10G10B10A2, BM_R10G10B10A2_XR, BM_R16G16B16A16_FLOAT, BM_RGBTRIPLETS, BM_S2DOT13FIXED_scARGB, BM_S2DOT13FIXED_scRGB, BM_XYZTRIPLETS, BM_YxyTRIPLETS, BM_x555G3CH, BM_x555Lab, BM_x555RGB, BM_x555XYZ, BM_x555Yxy, BM_xBGRQUADS, BM_xG3CHQUADS, BM_xRGBQUADS, colorfnc_44898765-c0de-41ae-8036-b288ab45b3cb.xml, icm/BMFORMAT, icm/BM_10b_G3CH, icm/BM_10b_Lab, icm/BM_10b_RGB, icm/BM_10b_XYZ, icm/BM_10b_Yxy, icm/BM_16b_G3CH, icm/BM_16b_GRAY, icm/BM_16b_Lab, icm/BM_16b_RGB, icm/BM_16b_XYZ, icm/BM_16b_Yxy, icm/BM_32b_scARGB, icm/BM_32b_scRGB, icm/BM_565RGB, icm/BM_5CHANNEL, icm/BM_6CHANNEL, icm/BM_7CHANNEL, icm/BM_8CHANNEL, icm/BM_BGRTRIPLETS, icm/BM_CMYKQUADS, icm/BM_G3CHTRIPLETS, icm/BM_GRAY, icm/BM_KYMCQUADS, icm/BM_LabTRIPLETS, icm/BM_NAMED_INDEX, icm/BM_R10G10B10A2, icm/BM_R10G10B10A2_XR, icm/BM_R16G16B16A16_FLOAT, icm/BM_RGBTRIPLETS, icm/BM_S2DOT13FIXED_scARGB, icm/BM_S2DOT13FIXED_scRGB, icm/BM_XYZTRIPLETS, icm/BM_YxyTRIPLETS, icm/BM_x555G3CH, icm/BM_x555Lab, icm/BM_x555RGB, icm/BM_x555XYZ, icm/BM_x555Yxy, icm/BM_xBGRQUADS, icm/BM_xG3CHQUADS, icm/BM_xRGBQUADS, print.bmformat"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: icm.h
 req.include-header: 

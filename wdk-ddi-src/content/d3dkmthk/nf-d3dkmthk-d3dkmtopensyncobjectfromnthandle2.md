@@ -5,11 +5,8 @@ author: windows-driver-content
 description: D3DKMTOpenSyncObjectFromNtHandle2 opens a monitored fence object from an NT handle previously created by D3DKMTShareObjects.
 old-location: display\d3dkmtopensyncobjectfromnthandle2.htm
 ms.assetid: E3295F4F-AB51-4EBB-8B9F-E47BBA52AF47
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTOpenSyncObjectFromNtHandle2, D3DKMTOpenSyncObjectFromNtHandle2 function [Display Devices], d3dkmthk/D3DKMTOpenSyncObjectFromNtHandle2, display.d3dkmtopensyncobjectfromnthandle2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
@@ -67,7 +64,7 @@ req.typenames:
 
 
 
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906796">D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2</a> structure that describes the operation.
 

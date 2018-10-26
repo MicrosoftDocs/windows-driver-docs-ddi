@@ -6,11 +6,8 @@ description: The KeReleaseGuardedMutexUnsafe routine releases a guarded mutex ac
 old-location: kernel\kereleaseguardedmutexunsafe.htm
 tech.root: kernel
 ms.assetid: 710f289c-4c2a-4ad3-b5af-ad8d8ca123a3
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeReleaseGuardedMutexUnsafe, KeReleaseGuardedMutexUnsafe routine [Kernel-Mode Driver Architecture], k105_645b087e-53ee-4434-ae8b-2bb801d1217e.xml, kernel.kereleaseguardedmutexunsafe, wdm/KeReleaseGuardedMutexUnsafe
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

@@ -6,11 +6,8 @@ description: The SM_GetRNIDMgmtInfo_OUT structure is used to receive output para
 old-location: storage\sm_getrnidmgmtinfo_out.htm
 tech.root: storage
 ms.assetid: e12bd494-4d2a-44a9-95dc-0bc78fa73a97
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSM_GetRNIDMgmtInfo_OUT, PSM_GetRNIDMgmtInfo_OUT, PSM_GetRNIDMgmtInfo_OUT structure pointer [Storage Devices], SM_GetRNIDMgmtInfo_OUT, SM_GetRNIDMgmtInfo_OUT structure [Storage Devices], _SM_GetRNIDMgmtInfo_OUT, hbapiwmi/PSM_GetRNIDMgmtInfo_OUT, hbapiwmi/SM_GetRNIDMgmtInfo_OUT, storage.sm_getrnidmgmtinfo_out, structs-Fibre_c5f33dc4-bde0-43bb-8528-9cb2e0d2ee3f.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h

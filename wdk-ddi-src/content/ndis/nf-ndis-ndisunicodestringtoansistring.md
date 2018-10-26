@@ -6,11 +6,8 @@ description: The NdisUnicodeStringToAnsiString function converts a given counted
 old-location: netvista\ndisunicodestringtoansistring.htm
 tech.root: netvista
 ms.assetid: 37ac55b8-093e-4bf4-9c66-05ab5fc7ebc9
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisUnicodeStringToAnsiString, NdisUnicodeStringToAnsiString macro [Network Drivers Starting with Windows Vista], ndis/NdisUnicodeStringToAnsiString, ndis_string_ref_31235ece-f64c-4806-af32-e3ffffdb7904.xml, netvista.ndisunicodestringtoansistring
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -92,7 +89,7 @@ The caller must allocate storage for both the source and destination strings and
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
+<a href="https://msdn.microsoft.com/library/gg156036.aspx">DriverEntry of NDIS Protocol
    Drivers</a>
 
 

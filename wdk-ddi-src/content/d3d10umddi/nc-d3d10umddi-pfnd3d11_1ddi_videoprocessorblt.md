@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Performs a video processing operation on one or more input samples and writes the result to a Direct3D surface.
 old-location: display\videoprocessorblt.htm
 ms.assetid: 7a3e17cb-0397-4051-8443-fb2edf3b4cff
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORBLT, PFND3D11_1DDI_VIDEOPROCESSORBLT callback, d3d10umddi/pfnVideoProcessorBlt, display.videoprocessorblt, pfnVideoProcessorBlt, pfnVideoProcessorBlt callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -62,34 +59,31 @@ Performs a video processing operation on one or more input samples and writes th
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hVideoProcessor* [in]
+
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function.
 
 ### -param Arg3
 
+*hOutputView* [in]
+
+A handle to the resource for the output view of the video processor. This handle was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessorOutputView</a> function.
 
 ### -param Arg4
 
-
-### -param Arg5
-
-
-### -param *
-
-
-
-
-
-
-
-
-#### - OutputFrame [in]
+*OutputFrame* [in]
 
 The zero-based index of the output video frame.
 
+### -param Arg5
 
-#### - StreamCount [in]
+*StreamCount* [in]
 
 The number of input streams to process in the array referenced by the <i>pStream</i> parameter.
 
@@ -100,28 +94,9 @@ The number of input streams to process in the array referenced by the <i>pStream
 </div>
 <div> </div>
 
-#### - hDevice [in]
+### -param *
 
-A handle to the display device (graphics context).
-
-
-
-
-#### - hOutputView [in]
-
-A handle to the resource for the output view of the video processor. This handle was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessorOutputView</a> function.
-
-
-
-
-#### - hVideoProcessor [in]
-
-A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function.
-
-
-
-
-#### - pStream [in]
+*pStream* [in]
 
 A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451033">D3D11_1DDI_VIDEO_PROCESSOR_STREAM</a> structures that contain information about the input streams.
 

@@ -6,11 +6,8 @@ description: Holds a collection of PROPVARIANT values of the same VARTYPE.
 old-location: wpddk\iportabledevicepropvariantcollection.htm
 tech.root: wpd_dk
 ms.assetid: e097ee45-d8df-406d-80ca-93f128c19416
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IPortableDevicePropVariantCollection, IPortableDevicePropVariantCollection interface, IPortableDevicePropVariantCollection interface,described, IPortableDevicePropVariantCollectionInterface, portabledevicetypes/IPortableDevicePropVariantCollection, wpddk.iportabledevicepropvariantcollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: portabledevicetypes.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The eEngineFormatType enumeration defines constants that specify th
 old-location: audio\eengineformattype.htm
 tech.root: audio
 ms.assetid: C16DE51F-6552-4379-B866-D7653B1BA9F2
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: audio.eengineformattype, eDeviceFormat, eEngineFormatType, eEngineFormatType enumeration [Audio Devices], eMixFormat, eSupportedDeviceFormats, portcls/eDeviceFormat, portcls/eEngineFormatType, portcls/eMixFormat, portcls/eSupportedDeviceFormats
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: portcls.h
 req.include-header: 

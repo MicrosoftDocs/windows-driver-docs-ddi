@@ -6,11 +6,8 @@ description: The DxgkDdiI2CTransmitDataToDisplay function transmits data to an I
 old-location: display\dxgkddii2ctransmitdatatodisplay.htm
 tech.root: display
 ms.assetid: 67a08982-5d2f-4cd8-be14-76977fde0aac
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY, DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY callback, DmFunctions_6152910a-6f9c-4686-b025-2508bbfdf257.xml, DxgkDdiI2CTransmitDataToDisplay, DxgkDdiI2CTransmitDataToDisplay callback function [Display Devices], display.dxgkddii2ctransmitdatatodisplay, dispmprt/DxgkDdiI2CTransmitDataToDisplay
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
@@ -78,11 +75,9 @@ The address of the I2C device to which data will be transmitted.
 The length, in bytes, of the data to be transmitted. This parameter must be between 1 and 64, inclusive.
 
 
-### -param PVOID
+### -param VOID
 
-
-
-#### - Data [in]
+*Data* [in]
 
 A pointer to a buffer that holds the data to be transmitted.
 

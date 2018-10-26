@@ -6,11 +6,8 @@ description: The CMP_MONITOR_INFO structure is used in conjunction with the Av61
 old-location: ieee\cmp_monitor_info.htm
 tech.root: IEEE
 ms.assetid: 258bcd6f-0536-48d3-a06a-10277f8bef87
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PCMP_MONITOR_INFO, 61883/CMP_MONITOR_INFO, 61883/PCMP_MONITOR_INFO, 61883_structures_0064b5eb-7b9a-4f96-9e56-f3190d2fd7a3.xml, CMP_MONITOR_INFO, CMP_MONITOR_INFO structure [Buses], IEEE.cmp_monitor_info, PCMP_MONITOR_INFO, PCMP_MONITOR_INFO structure pointer [Buses], _CMP_MONITOR_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 61883.h
 req.include-header: 61883.h

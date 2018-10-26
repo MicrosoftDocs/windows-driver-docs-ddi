@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Queries whether the video processor supports a specified video format.
 old-location: display\checkvideoprocessorformat.htm
 ms.assetid: f5f18a53-d121-445a-86b7-649624a2f175
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CheckVideoProcessorFormat, CheckVideoProcessorFormat callback function [Display Devices], PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT, PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT callback, d3d10umddi/CheckVideoProcessorFormat, display.checkvideoprocessorformat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -55,45 +52,27 @@ Queries whether the video processor supports a specified video format.
 
 ## -parameters
 
-
-
-
 ### -param Arg1
 
-
-### -param Arg2
-
-
-### -param Arg3
-
-
-### -param *
-
-
-
-
-
-
-
-
-#### - Format [in]
-
-The video format to query.
-
-
-#### - hDevice [in]
+*hDevice* [in]
 
 A handle to the display device (graphics context).
 
+### -param Arg2
 
-
-
-#### - hVideoProcessorEnum [in]
+*hVideoProcessorEnum* [in]
 
 A handle to a video processor enumeration object that was created through a call to the <a href="https://msdn.microsoft.com/38c27502-7e8a-45a1-8a7c-315300502480">CreateVideoProcessorEnum</a> function. 
 
+### -param Arg3
 
-#### - pSupported [out]
+*Format* [in]
+
+The video format to query.
+
+### -param *
+
+*pSupported* [out]
 
 Specifies a bitwise OR of zero or more flags from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450987">D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT</a> enumeration.
 

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Called by the display miniport driver to exchange information with the Power Engine Plug-in (PEP).
 old-location: display\dxgkcbpowerruntimecontrolrequest.htm
 ms.assetid: 28984c89-a1d9-4720-8c4c-2b2ce34e0899
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKCB_POWERRUNTIMECONTROLREQUEST, DXGKCB_POWERRUNTIMECONTROLREQUEST callback, DxgkCbPowerRuntimeControlRequest, DxgkCbPowerRuntimeControlRequest callback function [Display Devices], PDXGKCB_POWERRUNTIMECONTROLREQUEST, d3dkmddi/DxgkCbPowerRuntimeControlRequest, display.dxgkcbpowerruntimecontrolrequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
@@ -65,47 +62,41 @@ A handle to the display adapter. The display miniport driver receives the handle
 
 ### -param LPCGUID
 
+*PowerControlCode* [in]
+
+A pointer to a GUID that defines the meaning of the display miniport driver's control request. For more information, see Remarks.
 
 ### -param OPTIONAL
 
-
-
-
-
-
-
-
-### -param SIZE_T
-
-
-#### - BytesReturned [out, optional]
-
-An optional pointer to a buffer that contains the number of bytes that are written by the PEP to the output buffer.
-
-
-#### - InBuffer [in, optional]
+*InBuffer* [in, optional]
 
 An optional pointer to an input buffer.
 
 
-#### - InBufferSize [in]
+### -param SIZE_T
 
-The size, in bytes, of the buffer that <i>InBuffer</i> points to.
+*InBufferSize* [in]
 
+The size, in bytes, of the buffer that <i>InBuffer (OPTIONAL)</i> points to.
 
-#### - OutBuffer [out, optional]
+### -param OPTIONAL
+
+*OutBuffer* [out, optional]
 
 An optional pointer to an output buffer.
 
+### -param SIZE_T
 
-#### - OutBufferSize [in]
+*OutBufferSize* [in]
 
 The size, in bytes, of the buffer that <i>OutBuffer</i> points to.
 
+### -param OPTIONAL
 
-#### - PowerControlCode [in]
+*BytesReturned* [out, optional]
 
-A pointer to a GUID that defines the meaning of the display miniport driver's control request. For more information, see Remarks.
+An optional pointer to a buffer that contains the number of bytes that are written by the PEP to the output buffer.
+
 
 
 ## -returns

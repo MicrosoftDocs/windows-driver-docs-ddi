@@ -6,11 +6,8 @@ description: This callback function sets the threshold for one or more data fiel
 old-location: sensors\evtsensorsetdatathresholds.htm
 tech.root: sensors
 ms.assetid: 297C0F35-8A18-47CF-8040-BA429963AC5F
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EVT_SENSOR_DRIVER_SET_DATA_THRESHOLDS, EVT_SENSOR_DRIVER_SET_DATA_THRESHOLDS callback, EvtSensorSetDataThresholds, EvtSensorSetDataThresholds callback function [Sensor Devices], sensors.evtsensorsetdatathresholds, sensorscx/EvtSensorSetDataThresholds
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: sensorscx.h
 req.include-header: 
@@ -58,14 +55,14 @@ This callback function sets the threshold for one or more data fields associated
 
 
 
-### -param Sensor [in]
+### -param Sensor 
 
-A reference to a sensor object.
+[in] A reference to a sensor object.
 
 
-### -param pThresholds [in]
+### -param pThresholds 
 
-A list of thresholds and their values that are set for the <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>.
+[in] A list of thresholds and their values that are set for the <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>.
 
 
 ## -returns

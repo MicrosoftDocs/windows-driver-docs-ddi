@@ -6,11 +6,8 @@ description: The print spooler's ReplyPrinterChangeNotification function allows 
 old-location: print\replyprinterchangenotification.htm
 tech.root: print
 ms.assetid: 0b5378fa-ab1d-453f-b976-f6cd0d4247de
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: ReplyPrinterChangeNotification, ReplyPrinterChangeNotification function [Print Devices], print.replyprinterchangenotification, spoolfnc_524073df-9320-46d6-b4fe-6d3b73ccbe5b.xml, winsplp/ReplyPrinterChangeNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsplp.h
 req.include-header: Winsplp.h

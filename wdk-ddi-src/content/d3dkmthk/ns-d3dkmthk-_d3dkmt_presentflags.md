@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The D3DKMT_PRESENTFLAGS structure identifies how to perform a present operation.
 old-location: display\d3dkmt_presentflags.htm
 ms.assetid: 2ebee0bd-90f0-4628-8ddf-9e8029b4959a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_PRESENTFLAGS, D3DKMT_PRESENTFLAGS structure [Display Devices], OpenGL_Structs_bd28ba63-6019-4cc5-b1d0-7275a5a575b3.xml, _D3DKMT_PRESENTFLAGS, d3dkmthk/D3DKMT_PRESENTFLAGS, display.d3dkmt_presentflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
@@ -137,7 +134,7 @@ Setting this member is equivalent to setting the eleventh bit of the 32-bit <b>V
 
 ### -field LinearToSrgb
 
-A UINT value that specifies whether to convert the linear-formatted source to sRGB format during the copy operation. sRGB format is gamma corrected. For more information about sRGB format, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=10112">sRGB</a> website.
+A UINT value that specifies whether to convert the linear-formatted source to sRGB format during the copy operation. sRGB format is gamma corrected. For more information about sRGB format, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=10112">sRGB</a> website.
 
 Setting this member is equivalent to setting the twelfth bit of the 32-bit <b>Value</b> member (0x00000800).
 
@@ -291,26 +288,24 @@ Supported starting with Windows 8.
 ### -field CrossAdapter
 
  
-
+The cross adapter.
 
 ### -field DurationValid
 
  
-
+Indicates whether the duration is valid.
 
 ### -field PresentIndirect
 
- 
+Present indirect.
 
 
 ### -field PresentHMD
 
- 
+
 
 
 ### -field Reserved
-
-This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 6 bits (0xFC000000) of the 32-bit <b>Value</b> member to zeros.
 
 Supported starting with Windows 8.
 

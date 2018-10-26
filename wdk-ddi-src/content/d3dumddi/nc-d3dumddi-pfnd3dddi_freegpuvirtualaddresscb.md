@@ -6,11 +6,8 @@ description: pfnFreeGpuVirtualAddressCb releases a range of graphics processing 
 old-location: display\pfnfreegpuvirtualaddresscb.htm
 tech.root: display
 ms.assetid: 92F2A43C-699B-4580-8A56-472D837A76E2
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_FREEGPUVIRTUALADDRESSCB, PFND3DDDI_FREEGPUVIRTUALADDRESSCB callback, d3dumddi/pfnFreeGpuVirtualAddressCb, display.pfnfreegpuvirtualaddresscb, pfnFreeGpuVirtualAddressCb, pfnFreeGpuVirtualAddressCb callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -81,7 +78,7 @@ A handle to the display device.
 
 
 
-#### - pData [in]
+*pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906763">D3DDDICB_FREEGPUVIRTUALADDRESS</a> structure that describes the operation to perform.
 

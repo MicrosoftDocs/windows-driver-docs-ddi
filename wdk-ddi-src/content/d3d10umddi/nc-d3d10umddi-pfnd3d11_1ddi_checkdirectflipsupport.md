@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Called by the Desktop Window Manager (DWM) to verify that the user-mode driver supports Direct Flip operations, in which video memory is seamlessly flipped between an application's managed primary allocations and the DWM's managed primary allocations.
 old-location: display\checkdirectflipsupport_d3d11_1_.htm
 ms.assetid: 2acf84cb-5e51-4aa8-96ce-96abc6ceec8c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CheckDirectFlipSupport(D3D11_1), CheckDirectFlipSupport(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CHECKDIRECTFLIPSUPPORT, PFND3D11_1DDI_CHECKDIRECTFLIPSUPPORT callback, d3d10umddi/CheckDirectFlipSupport(D3D11_1), display.checkdirectflipsupport_d3d11_1_, display.pfncheckdirectflipsupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,12 +57,21 @@ Called by the Desktop Window Manager (DWM) to verify that the user-mode driver s
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hResource1*
+
+A resource in the application's swapchain.
 
 ### -param Arg3
 
+*hResource2*
+
+A resource in the DWM's swapchain.
 
 ### -param CheckDirectFlipFlags
 
@@ -75,21 +81,6 @@ If this parameter has a value of <b>D3D11_1DDI_CHECK_DIRECT_FLIP_IMMEDIATE</b>, 
 ### -param *pSupported [out]
 
 Set to <b>TRUE</b> if the driver can seamlessly flip video memory between  an application's managed primary allocations and the DWM's managed primary allocations. Otherwise, set to <b>FALSE</b>.
-
-
-#### - hDevice
-
-A handle to the display device (graphics context).
-
-
-#### - hResource1
-
-A resource in the application's swapchain.
-
-
-#### - hResource2
-
-A resource in the DWM's swapchain.
 
 
 ## -returns

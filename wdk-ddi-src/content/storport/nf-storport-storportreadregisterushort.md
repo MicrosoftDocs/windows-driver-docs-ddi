@@ -6,11 +6,8 @@ description: The StorPortReadRegisterUshort routine reads a value from a specifi
 old-location: storage\storportreadregisterushort.htm
 tech.root: storage
 ms.assetid: 11659e7d-db54-401c-a179-75cc5d411b55
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortReadRegisterUshort, StorPortReadRegisterUshort routine [Storage Devices], storage.storportreadregisterushort, storport/StorPortReadRegisterUshort, storprt_f477688d-54cb-4cb6-b713-0e70cfbf2139.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: storport.h
 req.include-header: Storport.h

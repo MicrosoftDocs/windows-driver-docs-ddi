@@ -6,11 +6,8 @@ description: The D3DHAL_DRAWPRIMITIVES2DATA structure contains the information r
 old-location: display\d3dhal_drawprimitives2data.htm
 tech.root: display
 ms.assetid: d971e866-3049-4722-bfec-ca3364f291fd
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_DRAWPRIMITIVES2DATA, D3DHAL_DRAWPRIMITIVES2DATA, D3DHAL_DRAWPRIMITIVES2DATA structure [Display Devices], LPD3DHAL_DRAWPRIMITIVES2DATA, LPD3DHAL_DRAWPRIMITIVES2DATA structure pointer [Display Devices], _D3DHAL_DRAWPRIMITIVES2DATA, d3dhal/D3DHAL_DRAWPRIMITIVES2DATA, d3dhal/LPD3DHAL_DRAWPRIMITIVES2DATA, d3dstrct_c9c3dea2-965c-4e98-8ff7-2928afe049fb.xml, display.d3dhal_drawprimitives2data"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dhal.h
 req.include-header: D3dhal.h
@@ -292,45 +289,12 @@ Each vertex has <i>x, y, z,</i> and <i>w</i> coordinates. This flag is always se
 ### -field lpDDCommands
 
 
-
-###### 
-
-
-
-####### 
-
-
-
-###### 
-
-
-
-####### 
-
-
 ### -field dwCommandOffset
-
-
-
-###### 
-
-
-
-##### 
-
-
-
-###### 
-
-
-
-###### 
 
 
 ### -field dwCommandLength
 
 Specifies the number of bytes of valid command data in the surface that <b>lpDDCommands</b> points to starting at <b>dwCommandOffset</b>.
-
 
 ### -field lpDDVertex
 
@@ -408,20 +372,7 @@ The driver requires the Direct3D runtime to parse the execute buffer.
 ### -field dwErrorOffset
 
 
-
-###### 
-
-
-
-###### 
-
-
-
-###### 
-
-
-
-########  Each D3DHAL_DP2RESPONSEQUERY is followed by the following data related to the query:
+Each D3DHAL_DP2RESPONSEQUERY is followed by the following data related to the query:
 
 
 
@@ -434,14 +385,6 @@ The driver requires the Direct3D runtime to parse the execute buffer.
 
 
 #### D3DDEVINFO_VCACHE structure for D3DQUERYTYPE_VCACHE
-
-
-
-##### 
-
-
-
-##### 
 
 
 ## -remarks

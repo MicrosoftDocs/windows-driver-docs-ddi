@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Creates a video processor object.
 old-location: display\createvideoprocessor1.htm
 ms.assetid: 741045a2-0a91-490a-907d-5f4900a4a0ae
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateVideoProcessor, CreateVideoProcessor callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEOPROCESSOR, PFND3D11_1DDI_CREATEVIDEOPROCESSOR callback, d3d10umddi/CreateVideoProcessor, display.createvideoprocessor1, display.pfncreatevideoprocessor1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,42 +57,27 @@ Creates a video processor object.
 
 ### -param Arg1
 
-
-### -param *
-
-
-### -param Arg2
-
-
-### -param Arg3
-
-
-
-
-
-
-
-
-#### - hDevice [in]
+*hDevice* [in]
 
 A handle to the display device (graphics context).
 
+### -param *
 
+pCreateData [in]
 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406314">D3D11_1DDIARG_CREATEVIDEOPROCESSOR</a> structure. This structure specifies the attributes of the video processor object to be created.
 
-#### - hRTVideoProcessor [in]
+### -param Arg2
 
-A handle to the video processor object that the driver should use when it calls back into the Direct3D runtime.
-
-
-#### - hVideoProcessor [in]
+hVideoProcessor [in]
 
 A handle to the driver's private data for the video processor object. For more information, see the Remarks section.
 
+### -param Arg3
 
-#### - pCreateData [in]
+hRTVideoProcessor [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406314">D3D11_1DDIARG_CREATEVIDEOPROCESSOR</a> structure. This structure specifies the attributes of the video processor object to be created.
+A handle to the video processor object that the driver should use when it calls back into the Direct3D runtime.
 
 
 ## -returns

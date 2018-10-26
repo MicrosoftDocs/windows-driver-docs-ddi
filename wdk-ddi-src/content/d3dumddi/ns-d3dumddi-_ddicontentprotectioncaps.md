@@ -6,11 +6,8 @@ description: The DDICONTENTPROTECTIONCAPS structure describes a specific encrypt
 old-location: display\ddicontentprotectioncaps.htm
 tech.root: display
 ms.assetid: d223712d-2c77-4bec-b8c0-d677d4caeac2
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D_other_Structs_15111323-4ebe-49be-8ce6-d43a896533ee.xml, DDICONTENTPROTECTIONCAPS, DDICONTENTPROTECTIONCAPS structure [Display Devices], _DDICONTENTPROTECTIONCAPS, d3dumddi/DDICONTENTPROTECTIONCAPS, display.ddicontentprotectioncaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

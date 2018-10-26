@@ -1,0 +1,52 @@
+---
+UID: NE:d3d12umddi.D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_0053
+title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_0053
+author: windows-driver-content
+description: The search block size to use in the video motion estimator operation.
+ms.assetid: cd42317d-9fb6-4d52-9468-15f8ab68e0e4
+ms.date: 10/19/2018
+ms.topic: enum
+ms.keywords: D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_0053, D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_0053, 
+req.header: d3d12umddi.h
+req.include-header:
+req.target-type:
+req.target-min-winverclnt: Windows 10, version 1809
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.max-support:
+req.typenames: D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_0053
+topic_type: 
+-	apiref
+api_type: 
+-	HeaderDef
+api_location: 
+-	d3d12umddi.h
+api_name: 
+-	D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_0053
+product:
+-	Windows
+targetos: Windows
+tech.root: display
+---
+
+# D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_0053 enumeration
+
+## -description
+
+The search block size to use in the video motion estimator operation. 
+
+## -enum-fields
+
+### -field D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_0053_8X8
+
+Indicates a block size of 8x8.
+
+### -field D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_0053_16X16 
+
+Indicates a block size of 16x16.
+
+## -remarks
+
+## -see-also

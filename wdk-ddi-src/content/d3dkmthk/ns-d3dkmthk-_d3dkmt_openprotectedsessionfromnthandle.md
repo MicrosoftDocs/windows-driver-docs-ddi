@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Used to open a protected session from the NT handle.
 old-location: display\d3dkmt-openprotectedsessionfromnthandle.htm
 ms.assetid: 15937864-c6ef-4c86-b957-87c7afe1cd94
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE, D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE structure [Display Devices], _D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE, d3dkmthk/D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE, display.d3dkmt-openprotectedsessionfromnthandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmthk.h
 req.include-header: 

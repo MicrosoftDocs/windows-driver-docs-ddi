@@ -6,11 +6,8 @@ description: The client driver's implementation to create a default endpoint obj
 old-location: buses\evt_ufx_device_endpoint_add.htm
 tech.root: usbref
 ms.assetid: F366990E-7FE3-401B-B8BE-E71EAFD3AC58
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: EVT_UFX_DEVICE_ENDPOINT_ADD, EVT_UFX_DEVICE_ENDPOINT_ADD callback, EvtUfxDeviceEndpointAdd, EvtUfxDeviceEndpointAdd callback function [Buses], PFN_UFX_DEVICE_ENDPOINT_ADD, PFN_UFX_DEVICE_ENDPOINT_ADD callback function pointer [Buses], buses.evt_ufx_device_endpoint_add, ufxclient/EvtUfxDeviceEndpointAdd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ufxclient.h
 req.include-header: 

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The DrawIndexedInstancedIndirect function draws particular instances of indexed primitives.
 old-location: display\drawindexedinstancedindirect.htm
 ms.assetid: 3debfb11-4de9-456b-a094-feb2f68e96a5
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DrawIndexedInstancedIndirect, DrawIndexedInstancedIndirect callback function [Display Devices], PFND3D11DDI_DRAWINDEXEDINSTANCEDINDIRECT, PFND3D11DDI_DRAWINDEXEDINSTANCEDINDIRECT callback, UserModeDisplayDriverDx11_Functions_18c492b3-4d4b-413c-82c3-7290af5aade6.xml, d3d10umddi/DrawIndexedInstancedIndirect, display.drawindexedinstancedindirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,27 +57,15 @@ The <b>DrawIndexedInstancedIndirect</b> function draws particular instances of i
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hBufferForArgs*
 
-### -param Arg3
-
-
-
-
-
-
-
-
-#### - AlignedByteOffsetForArgs
-
- The offset, in bytes, into the buffer that <i>hBufferForArgs</i> specifies. <i>AlignedByteOffsetForArgs</i> must be a multiple of 4. 
-
-
-#### - hBufferForArgs
-
- A handle to a buffer that contains the arguments for <b>DrawIndexedInstancedIndirect</b> to process. The buffer contains the following tightly packed structure:
+A handle to a buffer that contains the arguments for <b>DrawIndexedInstancedIndirect</b> to process. The buffer contains the following tightly packed structure:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -100,10 +85,14 @@ The <b>DrawIndexedInstancedIndirect</b> function draws particular instances of i
 </table></span></div>
 For more information about these arguments, see the <a href="https://msdn.microsoft.com/3dc64562-9dc0-4d43-835d-6fdd509435f8">DrawIndexedInstanced</a> reference page. 
 
+### -param Arg3
 
-#### - hDevice
+*AlignedByteOffsetForArgs*
 
- A handle to the display device (graphics context).
+The offset, in bytes, into the buffer that <i>hBufferForArgs</i> specifies. <i>AlignedByteOffsetForArgs</i> must be a multiple of 4. 
+
+
+
 
 
 ## -returns

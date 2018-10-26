@@ -6,11 +6,8 @@ description: Multiplies one value of type USHORT by another.
 old-location: kernel\rtlushortmult.htm
 tech.root: kernel
 ms.assetid: 1727AD96-FC0B-4B52-92C5-5E7502433021
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUShortMult, RtlUShortMult function [Kernel-Mode Driver Architecture], kernel.rtlushortmult, ntintsafe/RtlUShortMult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

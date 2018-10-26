@@ -6,11 +6,8 @@ description: The RtlStringCchCopyNW and RtlStringCchCopyNA functions copy a char
 old-location: kernel\rtlstringcchcopyn.htm
 tech.root: kernel
 ms.assetid: 86ec1a98-d70f-437c-9c8b-005bf78375ba
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlStringCchCopyN, RtlStringCchCopyNA, RtlStringCchCopyNW, RtlStringCchCopyNW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchcopyn, ntstrsafe/RtlStringCchCopyNW, safestrings_6ecbc673-80c3-4568-a6e3-96865035bfed.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h

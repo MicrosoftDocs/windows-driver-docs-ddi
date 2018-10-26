@@ -6,11 +6,8 @@ description: The INVOC structure is used for describing printer command strings 
 old-location: print\invoc.htm
 tech.root: print
 ms.assetid: 5eeaa7f7-dc99-4cf7-846c-801954cc9040
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PINVOC, INVOC, INVOC structure [Print Devices], PINVOC, PINVOC structure pointer [Print Devices], _INVOC, print.invoc, print_unidrv-pscript_fonts_1c5bebe8-a2ca-4049-bcce-defd8622761b.xml, prntfont/INVOC, prntfont/PINVOC"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: prntfont.h
 req.include-header: Prntfont.h

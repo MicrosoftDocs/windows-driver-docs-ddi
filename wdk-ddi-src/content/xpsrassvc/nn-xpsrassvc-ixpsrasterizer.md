@@ -6,11 +6,8 @@ description: The IXpsRasterizer interface represents an XPS rasterizer that can 
 old-location: print\ixpsrasterizer_interface.htm
 tech.root: print
 ms.assetid: 1ef99120-2b3b-45aa-bcf7-16bcb9656089
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IXpsRasterizer, IXpsRasterizer interface [Print Devices], IXpsRasterizer interface [Print Devices],described, print.ixpsrasterizer_interface, print_xpsrast_e8c45bd1-2f79-4e4f-b6c4-034c703ff173.xml, xpsrassvc/IXpsRasterizer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: xpsrassvc.h
 req.include-header: 

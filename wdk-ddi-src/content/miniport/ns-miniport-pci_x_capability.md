@@ -6,11 +6,8 @@ description: The PCI_X_CAPABILITY structure reports the contents of the command 
 old-location: pci\pci_x_capability.htm
 tech.root: PCI
 ms.assetid: b30ccf86-ae6d-484a-a3f2-8b38df26e995
-ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: "*PPCI_X_CAPABILITY, PCI.pci_x_capability, PCI_X_CAPABILITY, PCI_X_CAPABILITY structure [Buses], PPCI_X_CAPABILITY, PPCI_X_CAPABILITY structure pointer [Buses], pci_struct_171a6a86-48fe-4955-8f12-43df82659f7a.xml, wdm/PCI_X_CAPABILITY, wdm/PPCI_X_CAPABILITY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: miniport.h
 req.include-header: Wdm.h, Miniport.h
@@ -56,7 +53,7 @@ The PCI_X_CAPABILITY structure reports the contents of the command and status re
 ## -syntax
 
 
-````
+```cpp
 typedef struct {
   PCI_CAPABILITIES_HEADER Header;
   union {
@@ -89,7 +86,7 @@ typedef struct {
     ULONG  AsULONG;
   } Status;
 } PCI_X_CAPABILITY, *PPCI_X_CAPABILITY;
-````
+```
 
 
 ## -struct-fields

@@ -6,11 +6,8 @@ description: The PowerChangeNotify method notifies the miniport driver of change
 old-location: audio\ipowernotify_powerchangenotify.htm
 tech.root: audio
 ms.assetid: bbc49675-93d1-4ea2-9a3d-b72d76521de7
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IPowerNotify interface [Audio Devices],PowerChangeNotify method, IPowerNotify.PowerChangeNotify, IPowerNotify::PowerChangeNotify, PowerChangeNotify, PowerChangeNotify method [Audio Devices], PowerChangeNotify method [Audio Devices],IPowerNotify interface, audio.ipowernotify_powerchangenotify, audmp-routines_14b6d53d-cf30-47d1-bace-402fe4e5d7ba.xml, portcls/IPowerNotify::PowerChangeNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portcls.h
 req.include-header: Portcls.h

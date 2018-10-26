@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The pfnGetNumModes function returns the number of source modes in a specified VidPN source mode set.
 old-location: display\dxgk_vidpnsourcemodeset_interface_pfngetnummodes.htm
 ms.assetid: abdc053c-45da-4af3-84c1-7eeb4a2856cb
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPNSOURCEMODESET_GETNUMMODES, DXGKDDI_VIDPNSOURCEMODESET_GETNUMMODES callback, VidPnFunctions_e2cf0efc-e1a3-4515-b539-9c475877dd78.xml, d3dkmddi/pfnGetNumModes, display.dxgk_vidpnsourcemodeset_interface_pfngetnummodes, pfnGetNumModes, pfnGetNumModes callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

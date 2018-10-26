@@ -6,11 +6,8 @@ description: This structure contains the fields necessary in order for the Bus d
 old-location: ieee\irb_req_isoch_free_bandwidth.htm
 tech.root: IEEE
 ms.assetid: 1401F3B5-4F3F-47C1-88F9-96AFCCF2AA7E
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_ISOCH_FREE_BANDWIDTH, IEEE.irb_req_isoch_free_bandwidth, IRB_REQ_ISOCH_FREE_BANDWIDTH, IRB_REQ_ISOCH_FREE_BANDWIDTH structure [Buses], _IRB_REQ_ISOCH_FREE_BANDWIDTH
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: 1394.h
 req.include-header: 

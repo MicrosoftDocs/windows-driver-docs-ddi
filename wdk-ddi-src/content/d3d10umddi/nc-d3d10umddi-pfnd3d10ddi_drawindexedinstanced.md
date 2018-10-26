@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The DrawIndexedInstanced function draws particular instances of indexed primitives.
 old-location: display\drawindexedinstanced.htm
 ms.assetid: 3dc64562-9dc0-4d43-835d-6fdd509435f8
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DrawIndexedInstanced, DrawIndexedInstanced callback function [Display Devices], PFND3D10DDI_DRAWINDEXEDINSTANCED, PFND3D10DDI_DRAWINDEXEDINSTANCED callback, UserModeDisplayDriverDx10_Functions_7452fd0b-4fff-4321-b0ce-464ac0ad2f6d.xml, d3d10umddi/DrawIndexedInstanced, display.drawindexedinstanced
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,56 +57,40 @@ The <b>DrawIndexedInstanced</b> function draws particular instances of indexed p
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*IndexCountPerInstance* [in]
+
+The number of indexes per instance of the index buffer that indexes are read from to draw the primitives.
 
 ### -param Arg3
 
-
-### -param Arg4
-
-
-### -param Arg5
-
-
-### -param Arg6
-
-
-
-
-
-
-
-
-#### - BaseVertexLocation [in]
-
-The number that should be added to each index that is referenced by the various primitives to determine the actual index of the vertex elements in each vertex stream.
-
-
-#### - IndexCountPerInstance [in]
-
-The number of indexes per instance of the index buffer that indexes are read from to draw the primitives. 
-
-
-#### - InstanceCount [in]
+*InstanceCount* [in]
 
 The number of instances of the index buffer that indexes are read from to draw the primitives. 
 
+### -param Arg4
 
-#### - StartIndexLocation [in]
+*StartIndexLocation* [in]
 
-The first index in the index buffer that indexes are read from to draw the primitives. 
+The first index in the index buffer that indexes are read from to draw the primitives.
 
+### -param Arg5
 
-#### - StartInstanceLocation [in]
+*BaseVertexLocation* [in]
+
+The number that should be added to each index that is referenced by the various primitives to determine the actual index of the vertex elements in each vertex stream.
+
+### -param Arg6
+
+*StartInstanceLocation* [in]
 
 The first instance of the index buffer that indexes are read from to draw the primitives. 
 
-
-#### - hDevice [in]
-
-A handle to the display device (graphics context).
 
 
 ## -returns

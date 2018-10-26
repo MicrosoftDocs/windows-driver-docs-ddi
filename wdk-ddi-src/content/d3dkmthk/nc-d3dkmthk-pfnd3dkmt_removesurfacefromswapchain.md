@@ -4,11 +4,8 @@ title: PFND3DKMT_REMOVESURFACEFROMSWAPCHAIN
 author: windows-driver-content
 description: Implemented by the client driver to remove a surface from the swap chain.
 ms.assetid: ef478dff-62fd-4bcf-905a-b82e58dae8aa
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Implemented by the client driver to remove a surface from the swap chain.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 PFND3DKMT_REMOVESURFACEFROMSWAPCHAIN Pfnd3dkmtRemovesurfacefromswapchain;

@@ -6,11 +6,8 @@ description: RxpTrackDereference is used in checked builds to track requests to 
 old-location: ifsk\rxptrackdereference.htm
 tech.root: ifsk
 ms.assetid: eaff92d2-d866-4096-8528-0672255ced60
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxpTrackDereference, RxpTrackDereference function [Installable File System Drivers], fcb/RxpTrackDereference, ifsk.rxptrackdereference, rxref_60f3cce5-bd6b-47b9-a6cc-85b5ee027934.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fcb.h
 req.include-header: Fcb.h

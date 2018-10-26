@@ -6,11 +6,8 @@ description: Unregisters the event trace provider. Call this function before the
 old-location: display\umdetwunregister.htm
 tech.root: display
 ms.assetid: 19ab8771-2a86-469a-98e4-3d295a458b90
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: UMDEtwUnregister, UMDEtwUnregister function [Display Devices], display.umdetwunregister, umdprovider/UMDEtwUnregister
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: umdprovider.h
 req.include-header: Umdprovider.h

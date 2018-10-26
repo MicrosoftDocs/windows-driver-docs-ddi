@@ -6,11 +6,8 @@ description: Obsolete.
 old-location: ifsk\fsrtltruncatemcb.htm
 tech.root: ifsk
 ms.assetid: e23b9324-7e68-4914-93bb-3348d91b0b3f
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlTruncateMcb, FsRtlTruncateMcb function [Installable File System Drivers], fsrtlref_31bb51fe-e571-4bae-af8f-4c2b4413fa29.xml, ifsk.fsrtltruncatemcb, ntifs/FsRtlTruncateMcb
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h
@@ -65,7 +62,7 @@ The <b>FsRtlTruncateMcb</b> routine is obsolete, but is exported to support exis
 
 ### -param Vbn
 
-TBD
+Reserved.
 
 
 

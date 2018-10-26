@@ -6,11 +6,8 @@ description: The IOCTL_ACPI_ENUM_CHILDREN device control request can be used to 
 old-location: acpi\ioctl_acpi_enum_children.htm
 tech.root: acpi
 ms.assetid: 86d713e0-ec1e-4417-9ff7-8574bd040a6e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_ACPI_ENUM_CHILDREN, IOCTL_ACPI_ENUM_CHILDREN control, IOCTL_ACPI_ENUM_CHILDREN control code [ACPI Devices], acpi-meth-eval-ref_243e3f53-71b8-4090-bcf1-48b0c5634b5e.xml, acpi.ioctl_acpi_enum_children, acpiioct/IOCTL_ACPI_ENUM_CHILDREN
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
@@ -155,7 +152,7 @@ If the output buffer that the driver allocates is not large enough to return all
 
 A driver typically would use a sequence of two IOCTL_ACPI_ENUM_CHILDREN requests to enumerate the child objects of interest. The driver sends the first request to obtain the size of the output buffer that is required to contain the path and name of all the requested objects. The driver sends the second request to return the path and name of the objects in the output buffer. 
 
-For more information about how to enumerate child devices of a device, see <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/acpi/enumerating-child-devices-and-control-methods">Enumerating Child Devices and Control Methods</a>.
+For more information about how to enumerate child devices of a device, see <a href="https://msdn.microsoft.com/windows/hardware/drivers/acpi/enumerating-child-devices-and-control-methods">Enumerating Child Devices and Control Methods</a>.
 
 IOCTL_ACPI_ENUM_CHILDREN can be used only at IRQL&lt; DISPATCH_LEVEL.
 

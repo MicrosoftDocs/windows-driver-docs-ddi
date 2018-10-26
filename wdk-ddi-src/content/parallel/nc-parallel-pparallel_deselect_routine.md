@@ -6,11 +6,8 @@ description: The PPARALLEL_DESELECT_ROUTINE-typed callback routine deselects eit
 old-location: parports\pparallel_deselect_routine.htm
 tech.root: parports
 ms.assetid: 91182ed5-e444-41a7-b6fc-f14d0407f089
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "(*PPARALLEL_DESELECT_ROUTINE), (*PPARALLEL_DESELECT_ROUTINE) callback function [Parallel Ports], cisspd_e8bc6fa2-03e4-4845-bfd6-0ebaf573e1b2.xml, parallel/(*PPARALLEL_DESELECT_ROUTINE), parports.pparallel_deselect_routine"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: parallel.h
 req.include-header: Parallel.h
@@ -56,12 +53,12 @@ The <i>PPARALLEL_DESELECT_ROUTINE</i>-typed callback routine deselects either an
 ## -prototype
 
 
-````
+```cpp
 typedef NTSTATUS (*PPARALLEL_DESELECT_ROUTINE)(
   _In_ PVOID DeselectContext,
   _In_ PVOID DeselectCommand
 );
-````
+```
 
 
 ## -parameters

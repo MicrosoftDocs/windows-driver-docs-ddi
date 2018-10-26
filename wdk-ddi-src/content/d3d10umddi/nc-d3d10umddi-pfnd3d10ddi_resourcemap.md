@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The ResourceMap function maps a subresource of a resource.
 old-location: display\resourcemap.htm
 ms.assetid: 1310a3f8-02dd-4d35-98ad-4016e57d1eb2
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_RESOURCEMAP, PFND3D10DDI_RESOURCEMAP callback, ResourceMap, ResourceMap callback function [Display Devices], UserModeDisplayDriverDx10_Functions_2c1f2d21-4d2c-4e3f-993d-c6af5177e793.xml, d3d10umddi/ResourceMap, display.resourcemap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,56 +57,39 @@ The <i>ResourceMap</i> function maps a subresource of a resource.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hResource* [in]
+
+A handle to the resource to map.
 
 ### -param Arg3
 
+*Subresource* [in]
+
+An index that indicates the subresource to map. 
 
 ### -param Arg4
 
+*DDIMap* [in]
+
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541957">D3D10_DDI_MAP</a>-typed value that indicates the access level to map the subresource to. 
 
 ### -param Arg5
 
+*Flags* [in]
+
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541959">D3D10_DDI_MAP_FLAG</a>-typed value that indicates how to map the subresource. 
 
 ### -param *
 
+*pMappedSubResource* [out]
 
-
-
-
-
-
-
-#### - DDIMap [in]
-
- A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541957">D3D10_DDI_MAP</a>-typed value that indicates the access level to map the subresource to. 
-
-
-#### - Flags [in]
-
- A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541959">D3D10_DDI_MAP_FLAG</a>-typed value that indicates how to map the subresource. 
-
-
-#### - Subresource [in]
-
- An index that indicates the subresource to map. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hResource [in]
-
- A handle to the resource to map.
-
-
-#### - pMappedSubResource [out]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541839">D3D10DDI_MAPPED_SUBRESOURCE</a> structure that receives the information about the mapped subresource.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541839">D3D10DDI_MAPPED_SUBRESOURCE</a> structure that receives the information about the mapped subresource.
 
 
 ## -returns

@@ -4,11 +4,8 @@ title: _D3DKMT_NODE_PERFDATA
 author: windows-driver-content
 description: Represents performance data collected per engine from an adapter on an interval basis.
 ms.assetid: 90d91283-4891-4459-b182-40bf600c8b92
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_NODE_PERFDATA, D3DKMT_NODE_PERFDATA,
 req.header: d3dkmthk.h
 req.include-header:
@@ -47,33 +44,36 @@ Represents performance data collected per engine from an adapter on an interval 
 
 ### -field NodeOrdinal
 
-Node ordinal of the requested engine.
+[in] Node ordinal of the requested engine.
 
 ### -field PhysicalAdapterIndex
 
-The physical adapter index in a LDA chain.
+[in] The physical adapter index in the LDA (linked display adapter) chain.
 
 ### -field Frequency
 
-Clock frequency of the requested engine, represented in hertz.
+[out] Clock frequency of the requested engine, represented in hertz.
 
 ### -field MaxFrequency
 
-The max frequency the engine can normally reach in hertz while not overclocked.
+[out] The max frequency the engine can normally reach in hertz while not overclocked.
 
 ### -field MaxFrequencyOC
 
-The max frequency the engine can reach with it’s current overclock in hertz.
+[out] The max frequency the engine can reach with it’s current overclock in hertz.
 
 ### -field Voltage
 
-Voltage of the requested engine, represented in milli volts.
+[out] Voltage of the requested engine, represented in milli volts.
 
 ### -field VoltageMax
 
-The max voltage of the engine in milli volts while not overclocked.
+[out] The max voltage of the engine in milli volts while not overclocked.
 
 ### -field VoltageMaxOC
 
-The max voltage of the engine while overclocked in milli volts.
+[out] The max voltage of the engine while overclocked in milli volts.
 
+### -field MaxTransitionLatency
+
+[out] The max transition latency to change the frequency, in 100 nanoseconds.

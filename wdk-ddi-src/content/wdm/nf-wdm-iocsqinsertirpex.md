@@ -6,11 +6,8 @@ description: The IoCsqInsertIrpEx routine inserts an IRP into the driver's cance
 old-location: kernel\iocsqinsertirpex.htm
 tech.root: kernel
 ms.assetid: b1eb237d-ad4d-428c-beee-5f24677bd0d3
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoCsqInsertIrpEx, IoCsqInsertIrpEx routine [Kernel-Mode Driver Architecture], k104_5a30f95f-f46d-4f45-a261-a740f33c5327.xml, kernel.iocsqinsertirpex, wdm/IoCsqInsertIrpEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

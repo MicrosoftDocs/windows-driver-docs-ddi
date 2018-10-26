@@ -4,12 +4,9 @@ title: _STATE_LOCATION_TYPE
 author: windows-driver-content
 description: Defines values for persisted state locations for device and driver files. 
 ms.assetid: b1f859c2-ea58-4c37-9451-4521b83e3e8b
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _STATE_LOCATION_TYPE, STATE_LOCATION_TYPE, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: ntddk.h
 req.include-header:
 req.target-type:

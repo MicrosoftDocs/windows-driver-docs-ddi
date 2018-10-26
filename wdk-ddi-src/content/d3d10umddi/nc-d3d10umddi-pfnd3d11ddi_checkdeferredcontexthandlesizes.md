@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The CheckDeferredContextHandleSizes function verifies the sizes of the driver-private memory spaces that hold the handle data of deferred context handles.
 old-location: display\checkdeferredcontexthandlesizes.htm
 ms.assetid: 0ddaec86-79e6-4d09-8403-6588b35f8b0f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CheckDeferredContextHandleSizes, CheckDeferredContextHandleSizes callback function [Display Devices], PFND3D11DDI_CHECKDEFERREDCONTEXTHANDLESIZES, PFND3D11DDI_CHECKDEFERREDCONTEXTHANDLESIZES callback, UserModeDisplayDriverDx11_Functions_f96ddf8f-1b3c-4840-b76c-2386dfb582f8.xml, d3d10umddi/CheckDeferredContextHandleSizes, display.checkdeferredcontexthandlesizes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,6 +57,9 @@ The <b>CheckDeferredContextHandleSizes</b> function verifies the sizes of the dr
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param *pHSizes [in, out]
 
@@ -68,21 +68,9 @@ The size, in bytes, of the array pointed to by <i>pHandleSize</i>.
 
 ### -param *
 
+*pHandleSize* [out, optional]
 
-
-
-
-
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - pHandleSize [out, optional]
-
- An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff542146">D3D11DDI_HANDLESIZE</a> structures that describe the handle data of deferred context handles.
+An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff542146">D3D11DDI_HANDLESIZE</a> structures that describe the handle data of deferred context handles.
 
 
 ## -returns

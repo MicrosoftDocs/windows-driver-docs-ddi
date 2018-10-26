@@ -6,11 +6,8 @@ description: The VolBlt function performs a bit-block transfer (bitblt) operatio
 old-location: display\volblt.htm
 tech.root: display
 ms.assetid: 249a55a3-f2cf-4838-8a0f-b7108a17cd78
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_VOLBLT, PFND3DDDI_VOLBLT callback, UserModeDisplayDriver_Functions_2e451776-9da9-48d0-b766-979f361b96eb.xml, VolBlt, VolBlt callback function [Display Devices], d3dumddi/VolBlt, display.volblt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,7 +57,7 @@ The <i>VolBlt</i> function performs a bit-block transfer (bitblt) operation from
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +69,9 @@ The <i>VolBlt</i> function performs a bit-block transfer (bitblt) operation from
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544121">D3DDDIARG_VOLUMEBLT</a> structure that defines the parameters for the volume bitblt operation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544121">D3DDDIARG_VOLUMEBLT</a> structure that defines the parameters for the volume bitblt operation.
 
 
 ## -returns

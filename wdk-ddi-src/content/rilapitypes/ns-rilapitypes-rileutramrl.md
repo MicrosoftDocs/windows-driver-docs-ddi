@@ -6,11 +6,8 @@ description: This topic supports the Windows driver infrastructure and is not in
 old-location: netvista\rileutramrl_2.htm
 tech.root: netvista
 ms.assetid: 77a57c67-90ff-489c-a791-56ac0afbec59
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*LPRILEUTRAMRL, RILEUTRAMRL, RILEUTRAMRL structure [Network Drivers Starting with Windows Vista], netvista.rileutramrl_2, rilapitypes/RILEUTRAMRL"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
 req.include-header:
@@ -57,7 +54,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ## -syntax
 
 
-````
+```cpp
 typedef struct _RILEUTRAMRL {
   DWORD  dwParams;
   DWORD  dwMobileCountryCode;
@@ -69,7 +66,7 @@ typedef struct _RILEUTRAMRL {
   LONG   dwRSRP;
   LONG   dwRSRQ;
 } RILEUTRAMRL, RILEUTRAMRL;
-````
+```
 
 
 ## -struct-fields

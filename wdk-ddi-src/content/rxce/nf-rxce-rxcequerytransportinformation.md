@@ -6,11 +6,8 @@ description: RxCeQueryTransportInformation queries transport information for a g
 old-location: ifsk\rxcequerytransportinformation.htm
 tech.root: ifsk
 ms.assetid: 94744af6-0c62-4942-a8a8-3a45a0ab98da
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxCeQueryTransportInformation, RxCeQueryTransportInformation function [Installable File System Drivers], ifsk.rxcequerytransportinformation, rxce/RxCeQueryTransportInformation, rxref_db01b7e1-b0ea-4d42-99b8-c9b55fc34fb6.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rxce.h
 req.include-header: Rxce.h, Rxcehdlr.h, Tdi.h

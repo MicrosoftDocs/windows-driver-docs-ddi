@@ -6,11 +6,8 @@ description:
 old-location: stream\ksstack_use.htm
 tech.root: stream
 ms.assetid: 76B45154-5E81-4515-ADEE-11401FDF4681
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KSSTACK_USE, KSSTACK_USE enumeration [Streaming Media Devices], KsStackCopyToNewLocation, KsStackReuseCurrentLocation, KsStackUseNewLocation, ks/KSSTACK_USE, ks/KsStackCopyToNewLocation, ks/KsStackReuseCurrentLocation, ks/KsStackUseNewLocation, stream.ksstack_use
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: ks.h
 req.include-header: 

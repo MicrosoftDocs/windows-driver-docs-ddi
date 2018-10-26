@@ -5,11 +5,8 @@ author: windows-driver-content
 description: DXGK_CONTEXTINFO_CAPS is used to describe the capabilities supported by a driver.
 old-location: display\dxgk_contextinfo_caps.htm
 ms.assetid: AC65F790-981F-4B50-BB9E-84F79D8F6C4F
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_CONTEXTINFO_CAPS, DXGK_CONTEXTINFO_CAPS structure [Display Devices], _DXGK_CONTEXTINFO_CAPS, d3dkmddi/DXGK_CONTEXTINFO_CAPS, display.dxgk_contextinfo_caps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

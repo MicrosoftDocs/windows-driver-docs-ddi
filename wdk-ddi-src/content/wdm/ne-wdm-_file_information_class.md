@@ -6,11 +6,8 @@ description: A value that specifies which structure to use to query or set infor
 old-location: ifsk\file_information_class.htm
 tech.root: ifsk
 ms.assetid: aec0655b-7cc0-48b6-828c-b9d39c71e5b6
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PFILE_INFORMATION_CLASS, FILE_INFORMATION_CLASS, FILE_INFORMATION_CLASS enumeration [Installable File System Drivers], FileAccessInformation, FileAlignmentInformation, FileAllInformation, FileAllocationInformation, FileAlternateNameInformation, FileAttributeTagInformation, FileBasicInformation, FileBothDirectoryInformation, FileCompletionInformation, FileCompressionInformation, FileDirectoryInformation, FileDispositionInformation, FileDispositionInformationEx, FileEaInformation, FileEndOfFileInformation, FileFullDirectoryInformation, FileFullEaInformation, FileHardLinkFullIdInformation, FileHardLinkInformation, FileIdBothDirectoryInformation, FileIdExtdBothDirectoryInformation, FileIdExtdDirectoryInformation, FileIdFullDirectoryInformation, FileIdGlobalTxDirectoryInformation, FileIdInformation, FileInternalInformation, FileIoCompletionNotificationInformation, FileIoPriorityHintInformation, FileIoStatusBlockRangeInformation, FileIsRemoteDeviceInformation, FileLinkInformation, FileLinkInformationBypassAccessCheck, FileMailslotQueryInformation, FileMailslotSetInformation, FileMaximumInformation, FileModeInformation, FileMoveClusterInformation, FileNameInformation, FileNamesInformation, FileNetworkOpenInformation, FileNetworkPhysicalNameInformation, FileNormalizedNameInformation, FileNumaNodeInformation, FileObjectIdInformation, FilePipeInformation, FilePipeLocalInformation, FilePipeRemoteInformation, FilePositionInformation, FileProcessIdsUsingFileInformation, FileQuotaInformation, FileRemoteProtocolInformation, FileRenameInformation, FileRenameInformationBypassAccessCheck, FileRenameInformationEx, FileRenameInformationExBypassAccessCheck, FileReparsePointInformation, FileReplaceCompletionInformation, FileSfioReserveInformation, FileSfioVolumeInformation, FileShortNameInformation, FileStandardInformation, FileStandardLinkInformation, FileStreamInformation, FileTrackingInformation, FileUnusedInformation, FileValidDataLengthInformation, FileVolumeNameInformation, PFILE_INFORMATION_CLASS, PFILE_INFORMATION_CLASS enumeration pointer [Installable File System Drivers], _FILE_INFORMATION_CLASS, ifsk.file_information_class, ntifs/ FileDispositionInformationEx, ntifs/ FileIdExtdBothDirectoryInformation, ntifs/FILE_INFORMATION_CLASS, ntifs/FileAccessInformation, ntifs/FileAlignmentInformation, ntifs/FileAllInformation, ntifs/FileAllocationInformation, ntifs/FileAlternateNameInformation, ntifs/FileAttributeTagInformation, ntifs/FileBasicInformation, ntifs/FileBothDirectoryInformation, ntifs/FileCompletionInformation, ntifs/FileCompressionInformation, ntifs/FileDirectoryInformation, ntifs/FileDispositionInformation, ntifs/FileEaInformation, ntifs/FileEndOfFileInformation, ntifs/FileFullDirectoryInformation, ntifs/FileFullEaInformation, ntifs/FileHardLinkFullIdInformation, ntifs/FileHardLinkInformation, ntifs/FileIdBothDirectoryInformation, ntifs/FileIdExtdDirectoryInformation, ntifs/FileIdFullDirectoryInformation, ntifs/FileIdGlobalTxDirectoryInformation, ntifs/FileIdInformation, ntifs/FileInternalInformation, ntifs/FileIoCompletionNotificationInformation, ntifs/FileIoPriorityHintInformation, ntifs/FileIoStatusBlockRangeInformation, ntifs/FileIsRemoteDeviceInformation, ntifs/FileLinkInformation, ntifs/FileLinkInformationBypassAccessCheck, ntifs/FileMailslotQueryInformation, ntifs/FileMailslotSetInformation, ntifs/FileMaximumInformation, ntifs/FileModeInformation, ntifs/FileMoveClusterInformation, ntifs/FileNameInformation, ntifs/FileNamesInformation, ntifs/FileNetworkOpenInformation, ntifs/FileNetworkPhysicalNameInformation, ntifs/FileNormalizedNameInformation, ntifs/FileNumaNodeInformation, ntifs/FileObjectIdInformation, ntifs/FilePipeInformation, ntifs/FilePipeLocalInformation, ntifs/FilePipeRemoteInformation, ntifs/FilePositionInformation, ntifs/FileProcessIdsUsingFileInformation, ntifs/FileQuotaInformation, ntifs/FileRemoteProtocolInformation, ntifs/FileRenameInformation, ntifs/FileRenameInformationBypassAccessCheck, ntifs/FileRenameInformationEx, ntifs/FileRenameInformationExBypassAccessCheck, ntifs/FileReparsePointInformation, ntifs/FileReplaceCompletionInformation, ntifs/FileSfioReserveInformation, ntifs/FileSfioVolumeInformation, ntifs/FileShortNameInformation, ntifs/FileStandardInformation, ntifs/FileStandardLinkInformation, ntifs/FileStreamInformation, ntifs/FileTrackingInformation, ntifs/FileUnusedInformation, ntifs/FileValidDataLengthInformation, ntifs/FileVolumeNameInformation, ntifs/PFILE_INFORMATION_CLASS, wdm/ FileDispositionInformationEx, wdm/ FileIdExtdBothDirectoryInformation, wdm/FILE_INFORMATION_CLASS, wdm/FileAccessInformation, wdm/FileAlignmentInformation, wdm/FileAllInformation, wdm/FileAllocationInformation, wdm/FileAlternateNameInformation, wdm/FileAttributeTagInformation, wdm/FileBasicInformation, wdm/FileBothDirectoryInformation, wdm/FileCompletionInformation, wdm/FileCompressionInformation, wdm/FileDirectoryInformation, wdm/FileDispositionInformation, wdm/FileEaInformation, wdm/FileEndOfFileInformation, wdm/FileFullDirectoryInformation, wdm/FileFullEaInformation, wdm/FileHardLinkFullIdInformation, wdm/FileHardLinkInformation, wdm/FileIdBothDirectoryInformation, wdm/FileIdExtdDirectoryInformation, wdm/FileIdFullDirectoryInformation, wdm/FileIdGlobalTxDirectoryInformation, wdm/FileIdInformation, wdm/FileInternalInformation, wdm/FileIoCompletionNotificationInformation, wdm/FileIoPriorityHintInformation, wdm/FileIoStatusBlockRangeInformation, wdm/FileIsRemoteDeviceInformation, wdm/FileLinkInformation, wdm/FileLinkInformationBypassAccessCheck, wdm/FileMailslotQueryInformation, wdm/FileMailslotSetInformation, wdm/FileMaximumInformation, wdm/FileModeInformation, wdm/FileMoveClusterInformation, wdm/FileNameInformation, wdm/FileNamesInformation, wdm/FileNetworkOpenInformation, wdm/FileNetworkPhysicalNameInformation, wdm/FileNormalizedNameInformation, wdm/FileNumaNodeInformation, wdm/FileObjectIdInformation, wdm/FilePipeInformation, wdm/FilePipeLocalInformation, wdm/FilePipeRemoteInformation, wdm/FilePositionInformation, wdm/FileProcessIdsUsingFileInformation, wdm/FileQuotaInformation, wdm/FileRemoteProtocolInformation, wdm/FileRenameInformation, wdm/FileRenameInformationBypassAccessCheck, wdm/FileRenameInformationEx, wdm/FileRenameInformationExBypassAccessCheck, wdm/FileReparsePointInformation, wdm/FileReplaceCompletionInformation, wdm/FileSfioReserveInformation, wdm/FileSfioVolumeInformation, wdm/FileShortNameInformation, wdm/FileStandardInformation, wdm/FileStandardLinkInformation, wdm/FileStreamInformation, wdm/FileTrackingInformation, wdm/FileUnusedInformation, wdm/FileValidDataLengthInformation, wdm/FileVolumeNameInformation, wdm/PFILE_INFORMATION_CLASS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wdm.h
 req.include-header: FltKernel.h, Ntifs.h
@@ -399,10 +396,8 @@ A <b>FILE_REMOTE_PROTOCOL_INFORMATION</b> structure. This value is reserved for 
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff540344">FILE_RENAME_INFORMATION</a> structure. This value is available starting with Windows 10. 
 
-This is a special version of the <b>FileRenameInformation</b> operation that is used by kernel-mode drivers only in order to bypass security
-        access checks.  This operation
-        is only recognized by the <i>IOManager</i> and a file system should never
-        receive it.
+This is a special version of the <b>FileRenameInformation</b> operation that is used by kernel-mode drivers only in order to bypass security  access checks.  This operation
+is only recognized by the <i>IOManager</i> and a file system should never receive it.
 
 
 
@@ -410,10 +405,8 @@ This is a special version of the <b>FileRenameInformation</b> operation that is 
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff540324">FILE_LINK_INFORMATION</a> structure. This value is available starting with Windows 10.
 
-This is a special version of the <b>FileLinkInformation</b> operation that is used by kernel-mode drivers only in order to bypass security
-        access checks.  This operation
-        is only recognized by the <i>IOManager</i> and a file system should never
-        receive it.
+This is a special version of the <b>FileLinkInformation</b> operation that is used by kernel-mode drivers only in order to bypass security access checks.  This operation
+is only recognized by the <i>IOManager</i> and a file system should never receive it.
 
 
 
@@ -463,31 +456,49 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff540344">FILE_RE
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff540344">FILE_RENAME_INFORMATION</a> structure which contains additional flags. This value is available starting with Windows 10, version 1709. 
 
-This is a special version of the <b>FileRenameInformation</b> operation that is used by kernel-mode drivers only in order to bypass security
-        access checks.  This operation
-        is only recognized by the <i>IOManager</i> and a file system should never
-        receive it.
+This is a special version of the <b>FileRenameInformation</b> operation that is used by kernel-mode drivers only in order to bypass security access checks.  This operation is only recognized by the <i>IOManager</i> and a file system should never receive it.
 
 
 
 ### -field FileDesiredStorageClassInformation
 
-A [FILE_DESIRED_STORAGE_CLASS_INFORMATION] structure, declared in ntifs.h.  This value is available starting with Windows 10, version 1709. 
+A [**FILE_DESIRED_STORAGE_CLASS_INFORMATION**](..\ntifs\ns-ntifs-_file_desired_storage_class_information.md) structure, declared in ntifs.h.  This value is available starting with Windows 10, version 1709.
 
 ### -field FileStatInformation
 
-A **FILE_STAT_INFORMATION** structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709. 
+A [**FILE_STAT_INFORMATION**](..\ntifs\ns-ntifs-_file_stat_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709.
 
 ### -field FileMemoryPartitionInformation
 
-A **FILE_MEMORY_PARTITION_INFORMATION** structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709.
-
+Reserved. This value is available starting with Windows 10, version 1709.
 
 ### -field FileStatLxInformation 
-A [**FILE_STAT_LX_INFORMATION**](..\ntifs\ns-ntifs-_file_stat_lx_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10 April 2018 Update. 
+A [**FILE_STAT_LX_INFORMATION**](..\ntifs\ns-ntifs-_file_stat_lx_information.md) structure, declared in ntifs.h. This information class is used for fields refer to Linux metadata used/created by the Windows Subsystem for Linux. This value is available starting with Windows 10 April 2018 Update.
 
 ### -field FileCaseSensitiveInformation 
 A [**FILE_CASE_SENSITIVE_INFORMATION**](..\ntifs\ns-ntifs-_file_case_sensitive_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10 April 2018 Update.
+
+### -field FileLinkInformationEx
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff540324">FILE_LINK_INFORMATION</a> structure which contains additional flags. This value is available starting with Windows 10, version 1809.
+
+### -field FileLinkInformationExBypassAccessCheck
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff540324">FILE_LINK_INFORMATION</a> structure which contains additional flags.
+
+This is a special version of the <b>FileLinkInformation</b> operation that is used by kernel-mode drivers only in order to bypass security  access checks. This operation is only recognized by the <i>IOManager</i> and a file system should never receive it.
+
+
+This value is available starting with Windows 10, version 1809.
+
+### -field FileStorageReserveIdInformation
+A [**FILE_SET_STORAGE_RESERVE_ID_INFORMATION**](..\ntifs\ns-ntifs-_file_storage_reserve_id_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10, version 1809.
+
+
+### -field FileCaseSensitiveInformationForceAccessCheck 
+A [**FILE_CASE_SENSITIVE_INFORMATION**](..\ntifs\ns-ntifs-_file_case_sensitive_information.md), declared in ntifs.h. 
+
+This is a special version of the **FileCaseSensitiveInformation** operation that is used to force the IOManager to perform access checks for the kernel-mode driver, similar to the checks that apply to a user-mode caller. This operation is only recognized by the IOManager and a file system should never receive it.
+
+This value is available starting with Windows 10, version 1809.
 
 ### -field FileMaximumInformation
 

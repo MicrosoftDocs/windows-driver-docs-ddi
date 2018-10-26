@@ -6,11 +6,8 @@ description: Defines operations that control the system during driver setup.
 old-location: dtf\iwdtfdriversetupsystemaction2.htm
 tech.root: dtf
 ms.assetid: d825c8de-7565-494a-ae49-be404493945e
-ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFDriverSetupSystemAction2, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFDriverSetupSystemAction2, dtf.iwdtfdriversetupsystemaction2, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wdtfdriversetupsystemaction.h
 req.include-header: 

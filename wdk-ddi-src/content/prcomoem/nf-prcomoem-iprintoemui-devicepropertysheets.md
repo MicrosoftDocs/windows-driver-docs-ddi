@@ -6,11 +6,8 @@ description: The IPrintOemUI::DevicePropertySheets method allows a user interfac
 old-location: print\iprintoemui_devicepropertysheets.htm
 tech.root: print
 ms.assetid: 7d782f53-2409-416d-a3be-dad932c440a1
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: DevicePropertySheets, DevicePropertySheets method [Print Devices], DevicePropertySheets method [Print Devices],IPrintOemUI interface, IPrintOemUI interface [Print Devices],DevicePropertySheets method, IPrintOemUI.DevicePropertySheets, IPrintOemUI::DevicePropertySheets, prcomoem/IPrintOemUI::DevicePropertySheets, print.iprintoemui_devicepropertysheets, print_unidrv-pscript_ui_3e31410b-e0b6-490f-aea1-62f3d99ba96d.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prcomoem.h
 req.include-header: Prcomoem.h

@@ -6,11 +6,8 @@ description: The VideoPortGetVersion function gets version information about the
 old-location: display\videoportgetversion.htm
 tech.root: display
 ms.assetid: 242eb066-4b2e-4abe-b082-5bfd814c5774
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortGetVersion, VideoPortGetVersion function [Display Devices], VideoPort_Functions_b616e0f2-430a-43ca-a43f-44cdcaec757f.xml, display.videoportgetversion, video/VideoPortGetVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: video.h
 req.include-header: Video.h

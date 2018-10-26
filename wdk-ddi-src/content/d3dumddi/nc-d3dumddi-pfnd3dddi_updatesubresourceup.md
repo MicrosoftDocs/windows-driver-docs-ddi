@@ -6,11 +6,8 @@ description: Called by the Microsoft Direct3D runtime to update a destination su
 old-location: display\pfnupdatesubresourceup.htm
 tech.root: display
 ms.assetid: 5AF55FED-6FD6-41BE-A743-1E9D0EA51C9C
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_UPDATESUBRESOURCEUP, PFND3DDDI_UPDATESUBRESOURCEUP callback, d3dumddi/pfnUpdateSubresourceUP, display.pfnupdatesubresourceup, pfnUpdateSubresourceUP, pfnUpdateSubresourceUP callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
@@ -67,14 +64,7 @@ A handle to the display device (graphics context).
 
 ### -param *
 
-
-
-
-
-
-
-
-#### - pCounterInfo [in]
+*pCounterInfo* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn449153">D3DDDIARG_UPDATESUBRESOURCEUP</a> structure that describes how to update a destination subresource region from a source system-memory region.
 

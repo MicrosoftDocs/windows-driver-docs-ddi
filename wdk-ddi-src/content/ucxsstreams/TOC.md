@@ -1,5 +1,0 @@
-# [Universal Serial Bus (USB)](../_usbref/index.md)
-## [Ucxsstreams.h](index.md)
-### [UcxStaticStreamsCreate function](../ucxsstreams/nf-ucxsstreams-ucxstaticstreamscreate.md)
-### [UcxStaticStreamsSetStreamInfo function](../ucxsstreams/nf-ucxsstreams-ucxstaticstreamssetstreaminfo.md)
-### [_STREAM_INFO structure](../ucxsstreams/ns-ucxsstreams-_stream_info.md)

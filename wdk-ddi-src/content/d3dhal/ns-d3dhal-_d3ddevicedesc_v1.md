@@ -6,11 +6,8 @@ description: Obsolete in DirectX 8.0 and later versions; see Remarks. The D3DDEV
 old-location: display\d3ddevicedesc_v1.htm
 tech.root: display
 ms.assetid: 363e4044-e835-43e6-96ce-0fdccdd7fb52
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DDEVICEDESC_V1, D3DDEVICEDESC_V1, D3DDEVICEDESC_V1 structure [Display Devices], LPD3DDEVICEDESC_V1, LPD3DDEVICEDESC_V1 structure pointer [Display Devices], _D3DDeviceDesc_V1, d3dhal/D3DDEVICEDESC_V1, d3dhal/LPD3DDEVICEDESC_V1, d3dstrct_111d5153-fb7f-4c2b-acc5-65818723e263.xml, display.d3ddevicedesc_v1"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dhal.h
 req.include-header: D3dhal.h
@@ -447,19 +444,11 @@ Must be set to zero.
 
 
 
-#### DirectX 7 and later versions
+DirectX 7 and later versions
 
+DirectX 6
 
-
-##### 
-
-
-
-#### DirectX 6
-
-
-
-###### 
+ 
 
 
 ## -remarks

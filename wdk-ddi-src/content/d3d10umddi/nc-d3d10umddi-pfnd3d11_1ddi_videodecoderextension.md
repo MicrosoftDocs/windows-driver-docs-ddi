@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Performs an extended function for DirectX Video Acceleration (DXVA) decoding. This method enables extensions to the basic DXVA decoder functionality.
 old-location: display\videodecoderextension.htm
 ms.assetid: 0cfcc05a-77d7-4157-bd27-ba127afe3e92
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEODECODEREXTENSION, PFND3D11_1DDI_VIDEODECODEREXTENSION callback, d3d10umddi/pfnVideoDecoderExtension, display.videodecoderextension, pfnVideoDecoderExtension, pfnVideoDecoderExtension callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -62,34 +59,19 @@ Performs an extended function for DirectX Video Acceleration (DXVA) decoding. Th
 
 ### -param Arg1
 
-
-### -param Arg2
-
-
-### -param *
-
-
-
-
-
-
-
-
-#### - hDecoder [in]
-
-A handle to the video decoder object that was created through a call to the <a href="https://msdn.microsoft.com/41254f99-1806-428c-8bf3-7e736dbeec84">CreateVideoDecoder</a> function.
-
-
-
-
-#### - hDevice [in]
+*hDevice* [in]
 
 A handle to the display device (graphics context).
 
+### -param Arg2
 
+*hDecoder* [in]
 
+A handle to the video decoder object that was created through a call to the <a href="https://msdn.microsoft.com/41254f99-1806-428c-8bf3-7e736dbeec84">CreateVideoDecoder</a> function.
 
-#### - pExtension [in]
+### -param *
+
+*pExtension* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406330">D3D11_1DDIARG_VIDEODECODEREXTENSION</a> structure that contains data for the extended function.
 

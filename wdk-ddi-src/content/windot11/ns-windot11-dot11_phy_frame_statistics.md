@@ -6,11 +6,8 @@ description: Important  The Native 802.11 Wireless LAN interface is deprecated
 old-location: netvista\dot11_phy_frame_statistics.htm
 tech.root: netvista
 ms.assetid: 2adf102b-52aa-40e4-b3de-9189803339bf
-ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_PHY_FRAME_STATISTICS, DOT11_PHY_FRAME_STATISTICS, DOT11_PHY_FRAME_STATISTICS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_e7446fc8-9a7c-41c5-bf90-7988dfddc950.xml, PDOT11_PHY_FRAME_STATISTICS, PDOT11_PHY_FRAME_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_phy_frame_statistics, windot11/DOT11_PHY_FRAME_STATISTICS, windot11/PDOT11_PHY_FRAME_STATISTICS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Ndis.h
@@ -42,7 +39,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DOT11_PHY_FRAME_STATISTICS, *PDOT11_PHY_FRAME_STATISTICS
-req.product: Windows 10 or later.
+product:
+- Windows 10 or later.
 ---
 
 # DOT11_PHY_FRAME_STATISTICS structure
@@ -58,7 +56,7 @@ req.product: Windows 10 or later.
 ## -syntax
 
 
-````
+```cpp
 typedef struct DOT11_PHY_FRAME_STATISTICS {
   ULONGLONG ullTransmittedFrameCount;
   ULONGLONG ullMulticastTransmittedFrameCount;
@@ -79,7 +77,7 @@ typedef struct DOT11_PHY_FRAME_STATISTICS {
   ULONGLONG ullPromiscuousReceivedFragmentCount;
   ULONGLONG ullFCSErrorCount;
 } DOT11_PHY_FRAME_STATISTICS, *PDOT11_PHY_FRAME_STATISTICS;
-````
+```
 
 
 ## -struct-fields
@@ -130,7 +128,7 @@ For MSDU packets, the miniport driver must increment this counter for each packe
 The number of MSDU packets and MMPDU frames that the 802.11 station failed to transmit because of
      a timeout as defined by the IEEE 802.11
      <b>dot11MaxTransmitMSDULifetime</b> MIB object. For more information about this MIB object, see
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-max-transmit-msdu-lifetime">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-max-transmit-msdu-lifetime">
      OID_DOT11_MAX_TRANSMIT_MSDU_LIFETIME</a>.
 
 
@@ -192,7 +190,7 @@ This counter is optional. If the NIC does not support this counter, the miniport
 
 The number of MSDU packets or MMPDU frames received by the 802.11 station when a promiscuous
      packet filter is enabled. For more information about packet filters, see
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>.
 
 
 If a promiscuous packet filter is enabled, the miniport driver must only increment this counter for
@@ -219,7 +217,7 @@ Multicast or broadcast MSDU packets or MMPDU frames with a destination MAC addre
 The number if MSDU packets and MMPDU frames that the 802.11 station discarded because of a timeout
      as defined by the IEEE 802.11
      <b>dot11MaxReceiveLifetime</b> MIB object. For more information about this MIB object, see
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-max-receive-lifetime">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-max-receive-lifetime">
      OID_DOT11_MAX_RECEIVE_LIFETIME</a>.
 
 
@@ -238,7 +236,7 @@ The number of MPDU frames received by the 802.11 station for MSDU packets or MMP
 
 The number of MPDU frames received by the 802.11 station for MSDU packets or MMPDU frames when a
      promiscuous packet filter was enabled. For more information about packet filters, see
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>.
 
 
 If a promiscuous packet filter is enabled, the miniport driver must only increment this counter for
@@ -291,7 +289,7 @@ The members of this structure are used to record PHY-level statistics for:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-phy-statistics">Extensible Station PHY
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/extensible-station-phy-statistics">Extensible Station PHY
    Statistics</a>
 
 

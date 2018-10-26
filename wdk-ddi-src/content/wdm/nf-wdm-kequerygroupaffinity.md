@@ -6,11 +6,8 @@ description: The KeQueryGroupAffinity routine returns an affinity mask that iden
 old-location: kernel\kequerygroupaffinity.htm
 tech.root: kernel
 ms.assetid: 235ec93e-5b3c-4a19-876f-f668271a56a5
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeQueryGroupAffinity, KeQueryGroupAffinity routine [Kernel-Mode Driver Architecture], k105_9116eade-e2ed-47f4-a204-c21d456371b0.xml, kernel.kequerygroupaffinity, wdm/KeQueryGroupAffinity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
@@ -67,7 +64,7 @@ The group number. If a multiprocessor system contains <i>n</i> groups, the group
 
 
 
-<b>KeQueryGroupAffinity</b> returns a [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) value that identifies the active logical processors in the specified group. If the <i>GroupNumber</i> parameter value is not a valid group number, the routine returns zero. 
+<b>KeQueryGroupAffinity</b> returns a [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) value that identifies the active logical processors in the specified group. If the <i>GroupNumber</i> parameter value is not a valid group number, the routine returns zero. 
 
 
 
@@ -86,7 +83,7 @@ A related routine, <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 
 
-[**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)
+[**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)
 
 
 

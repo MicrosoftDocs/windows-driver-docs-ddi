@@ -6,11 +6,8 @@ description: Evaluate whether this target matches an SDEL statement.
 old-location: dtf\iwdtftarget2_eval.htm
 tech.root: dtf
 ms.assetid: 468cb35d-f816-4233-ba07-8dc47b77d442
-ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: Eval, Eval method [Windows Device Testing Framework], Eval method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],Eval method, IWDTFTarget2.Eval, IWDTFTarget2::Eval, Microsoft.WDTF.IWDTFTarget2.Eval, Microsoft::WDTF::IWDTFTarget2::Eval, dtf.iwdtftarget2_eval, wdtf/IWDTFTarget2::Eval
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdtf.h
 req.include-header: 

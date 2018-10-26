@@ -5,7 +5,6 @@ author: windows-driver-content
 description: Initializes a caller-allocated NET_REQUEST_QUEUE_METHOD_HANDLER structure.
 tech.root: netvista
 ms.assetid: fac0974d-1496-4b73-bd1f-40ce1dddfee9
-ms.author: windowsdriverdev
 ms.date: 02/09/2018
 ms.topic: function
 ms.keywords: NET_REQUEST_QUEUE_METHOD_HANDLER_INIT

@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Enum which indicates how this path has been modified since the previous successful call to SetTimingsFromVidPn.
 old-location: display\dxgk_path_update.htm
 ms.assetid: DCBBFBF7-73B2-4298-BB87-83E1C6D76BD0
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_PATH_UPDATE, DXGK_PATH_UPDATE enumeration [Display Devices], DXGK_PATH_UPDATE_ADDED, DXGK_PATH_UPDATE_MODIFIED, DXGK_PATH_UPDATE_REMOVED, DXGK_PATH_UPDATE_UNMODIFED, _DXGK_PATH_UPDATE, d3dkmddi/DXGK_PATH_UPDATE, d3dkmddi/DXGK_PATH_UPDATE_ADDED, d3dkmddi/DXGK_PATH_UPDATE_MODIFIED, d3dkmddi/DXGK_PATH_UPDATE_REMOVED, d3dkmddi/DXGK_PATH_UPDATE_UNMODIFED, display.dxgk_path_update
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3dkmddi.h
 req.include-header: 
@@ -60,6 +57,7 @@ Enum which indicates how this path has been modified since the previous successf
 
 ### -field DXGK_PATH_UPDATE_UNMODIFIED
 
+Indicates that this path has not been changed since the last call to SetTimingsFromVidPn.  This allows the driver to skip interrogating VidPn for changes.  Existing scan-out should continue, other than any glitching which might be caused due to reassignment of display resources to satisfy other paths.
 
 ### -field DXGK_PATH_UPDATE_ADDED
 
@@ -83,7 +81,4 @@ Indicates that this path was present in the previous VidPn but has been removed.
 
 
 
-#### - DXGK_PATH_UPDATE_UNMODIFED
-
-Indicates that this path has not been changed since the last call to SetTimingsFromVidPn.  This allows the driver to skip interrogating VidPn for changes.  Existing scan-out should continue, other than any glitching which might be caused due to reassignment of display resources to satisfy other paths.
 

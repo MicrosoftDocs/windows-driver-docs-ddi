@@ -6,11 +6,8 @@ description: The MiniportTerminateOffload function terminates the offload of one
 old-location: netvista\miniportterminateoffload.htm
 tech.root: netvista
 ms.assetid: 1b808e3c-2d64-44c9-88d3-0a0311e1dc99
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MiniportTerminateOffload, MiniportTerminateOffload callback function [Network Drivers Starting with Windows Vista], W_TERMINATE_OFFLOAD_HANDLER, W_TERMINATE_OFFLOAD_HANDLER callback, ndischimney/MiniportTerminateOffload, netvista.miniportterminateoffload, tcp_chim_miniport_func_73171220-b803-4d9e-bf13-fe4daebbe5dc.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
@@ -105,7 +102,7 @@ The
     a stand-alone structure or the root block list in an 
     <a href="https://msdn.microsoft.com/c96608bd-5e8f-499b-872a-b6f7f33c9e0c">offload state tree</a> that contains multiple
     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structures. Such block lists, as well as any 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570939">offload state structures</a> that are
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570939">offload state structures</a> that are
     associated with them, are valid until the miniport driver calls the 
     <b>NdisMTerminateOffloadComplete</b> function.
 

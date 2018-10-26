@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Creates a video decoder object.
 old-location: display\createvideodecoder.htm
 ms.assetid: 41254f99-1806-428c-8bf3-7e736dbeec84
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateVideoDecoder, CreateVideoDecoder callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEODECODER, PFND3D11_1DDI_CREATEVIDEODECODER callback, d3d10umddi/CreateVideoDecoder, display.createvideodecoder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,42 +57,28 @@ Creates a video decoder object.
 
 ### -param Arg1
 
-
-### -param *
-
-
-### -param Arg2
-
-
-### -param Arg3
-
-
-
-
-
-
-
-
-#### - hDecoder [in]
-
-A handle to the driver's private data for the video decoder object. For more information, see the Remarks section.
-
-
-#### - hDevice [in]
+*hDevice* [in]
 
 A handle to the display device (graphics context).
 
+### -param *
 
+*pCreateData* [in]
 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406310">D3D11_1DDIARG_CREATEVIDEODECODER</a> structure. This structure specifies the attributes of the video decoder object to be created.
 
-#### - hRTDecode [in]
+### -param Arg2
+
+*hDecoder* [in]
+
+A handle to the driver's private data for the video decoder object. For more information, see the Remarks section.
+
+### -param Arg3
+
+*hRTDecode* [in]
 
 A handle to the video decoder object that the driver should use when it calls back into the runtime.
 
-
-#### - pCreateData [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406310">D3D11_1DDIARG_CREATEVIDEODECODER</a> structure. This structure specifies the attributes of the video decoder object to be created.
 
 
 ## -returns

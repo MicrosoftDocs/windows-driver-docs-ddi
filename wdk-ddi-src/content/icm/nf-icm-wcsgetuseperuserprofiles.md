@@ -6,11 +6,8 @@ description: The WcsGetUsePerUserProfiles function determines whether the user h
 old-location: print\wcsgetuseperuserprofiles.htm
 tech.root: print
 ms.assetid: 6a970bec-c773-498e-b93a-2bd9f625e194
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: WcsGetUsePerUserProfiles, WcsGetUsePerUserProfiles function [Print Devices], colorfnc_b80783e5-17c0-4069-90ba-71ea82a2d7d5.xml, icm/WcsGetUsePerUserProfiles, print.wcsgetuseperuserprofiles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: icm.h
 req.include-header: 

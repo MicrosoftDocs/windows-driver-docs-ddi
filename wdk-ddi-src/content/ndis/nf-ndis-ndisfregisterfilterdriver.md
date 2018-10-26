@@ -6,11 +6,8 @@ description: A filter driver calls the NdisFRegisterFilterDriver function to reg
 old-location: netvista\ndisfregisterfilterdriver.htm
 tech.root: netvista
 ms.assetid: 14381de2-36d9-4ec8-9d4e-7af3e6d8ecf3
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisFRegisterFilterDriver, NdisFRegisterFilterDriver function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_a772ecb2-0cba-439e-82f1-928c3b40f3fd.xml, ndis/NdisFRegisterFilterDriver, netvista.ndisfregisterfilterdriver
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndis.h
 req.include-header: Ndis.h
@@ -67,7 +64,7 @@ A filter driver calls the
 A pointer to an opaque driver object that the filter driver received in its 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine at the 
      <i>Argument1</i> parameter. (For more information, see 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548813">DriverEntry of NDIS Filter
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff548813">DriverEntry of NDIS Filter
      Drivers</a>.)
 
 
@@ -200,7 +197,7 @@ A filter driver calls the
     NdisFRegisterFilterDriver</b> function from its 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. For more information about 
     <b>DriverEntry</b>, see 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548813">DriverEntry of NDIS Filter
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff548813">DriverEntry of NDIS Filter
     Drivers</a>.
 
 Drivers that call <b>
@@ -214,7 +211,7 @@ Every filter driver exports a set of
     NdisFRegisterFilterDriver</b>. NDIS copies this structure to the NDIS library's internal storage.
 
 To allow filter drivers to register optional services, NDIS calls the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a> function within the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">FilterSetOptions</a> function within the
     context of 
     <b>
     NdisFRegisterFilterDriver</b>.
@@ -238,7 +235,7 @@ Filter drivers call the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548813">DriverEntry of NDIS Filter
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548813">DriverEntry of NDIS Filter
    Drivers</a>
 
 

@@ -6,11 +6,8 @@ description: The AssignDeviceInterfaceState method enables or disables the speci
 old-location: wdf\iwdfdevice_assigndeviceinterfacestate.htm
 tech.root: wdf
 ms.assetid: 466af310-f2a7-4bd7-b927-df644e2e9c24
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: AssignDeviceInterfaceState, AssignDeviceInterfaceState method, AssignDeviceInterfaceState method,IWDFDevice interface, IWDFDevice interface,AssignDeviceInterfaceState method, IWDFDevice.AssignDeviceInterfaceState, IWDFDevice::AssignDeviceInterfaceState, UMDFDeviceObjectRef_d3c15e61-9df6-4b55-a479-375486383064.xml, umdf.iwdfdevice_assigndeviceinterfacestate, wdf.iwdfdevice_assigndeviceinterfacestate, wudfddi/IWDFDevice::AssignDeviceInterfaceState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
@@ -50,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>AssignDeviceInterfaceState</b> method enables or disables the specified device interface instance for a device.
 
@@ -94,7 +91,7 @@ Use the <b>AssignDeviceInterfaceState</b> method to disable and re-enable a devi
 
 
 
-For more information about device interfaces, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">Using Device Interfaces in UMDF Drivers</a>.
+For more information about device interfaces, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">Using Device Interfaces in UMDF Drivers</a>.
 
 
 #### Examples

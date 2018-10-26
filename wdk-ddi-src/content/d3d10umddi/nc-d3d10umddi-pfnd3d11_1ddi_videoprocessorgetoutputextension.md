@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Returns private state data from a video processor to an application.
 old-location: display\videoprocessorgetoutputextension.htm
 ms.assetid: 16f314f7-a54b-4c79-9cd6-1472ed454bbe
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORGETOUTPUTEXTENSION, PFND3D11_1DDI_VIDEOPROCESSORGETOUTPUTEXTENSION callback, d3d10umddi/pfnVideoProcessorGetOutputExtension, display.videoprocessorgetoutputextension, pfnVideoProcessorGetOutputExtension, pfnVideoProcessorGetOutputExtension callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,13 +57,21 @@ Returns private state data from a video processor to an application.
 
 ### -param Arg1
 
+*hDevice* [in]
+
+A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*hVideoProcessor* [in]
+
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function.
 
 ### -param *
 
+*pGuid* [in]
 
+A pointer to a GUID that identifies the private state data. The meaning of this GUID is defined by the graphics driver.
 
 
 
@@ -75,37 +80,15 @@ Returns private state data from a video processor to an application.
 
 ### -param Arg3
 
-
-#### - DataSize [in]
+*DataSize* [in]
 
 The size, in bytes, of the private state data in the buffer referenced by the <i>pData</i> parameter.
 
+### -param *
 
-#### - hDevice [in]
-
-A handle to the display device (graphics context).
-
-
-
-
-#### - hVideoProcessor [in]
-
-A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
-
-
-
-
-#### - pData [in, out]
+*pData* [in, out]
 
 A pointer to a buffer that receives the private state data. 
-
-
-
-
-#### - pGuid [in]
-
-A pointer to a GUID that identifies the private state data. The meaning of this GUID is defined by the graphics driver.
-
 
 
 
@@ -151,7 +134,7 @@ The graphics adapter was removed.
 </td>
 <td width="60%">
 
-        The display miniport driver cannot return the requested private state data from the video processor.
+The display miniport driver cannot return the requested private state data from the video processor.
 
 </td>
 </tr>

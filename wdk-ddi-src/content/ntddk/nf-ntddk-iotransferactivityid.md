@@ -6,11 +6,8 @@ description: The IoTransferActivityId routine logs an ETW transfer event using t
 old-location: kernel\iotransferactivityid.htm
 tech.root: kernel
 ms.assetid: BA6EBD60-B7D8-4EDE-A655-2F18F27E6299
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoTransferActivityId, IoTransferActivityId routine [Kernel-Mode Driver Architecture], kernel.iotransferactivityid, ntddk/IoTransferActivityId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: Ntddk.h

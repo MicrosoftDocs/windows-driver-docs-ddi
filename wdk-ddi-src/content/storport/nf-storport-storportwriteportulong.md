@@ -6,11 +6,8 @@ description: The StorPortWritePortUlong routine writes a value to a specified re
 old-location: storage\storportwriteportulong.htm
 tech.root: storage
 ms.assetid: 7c6d61c6-40e5-46fd-8c18-1f9d89c58515
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortWritePortUlong, StorPortWritePortUlong routine [Storage Devices], storage.storportwriteportulong, storport/StorPortWritePortUlong, storprt_4f568f62-adb7-4176-9229-e2af5d4453cb.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: storport.h
 req.include-header: Storport.h

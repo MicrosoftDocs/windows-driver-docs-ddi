@@ -6,11 +6,8 @@ description: The WdfDevStateNormalize method removes extra bits from a specified
 old-location: wdf\wdfdevstatenormalize.htm
 tech.root: wdf
 ms.assetid: 0243de8b-0f47-4f0a-af25-beb6365386dd
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_24d4e166-f4b0-4696-b775-62d0df565a8a.xml, WdfDevStateNormalize, WdfDevStateNormalize method, kmdf.wdfdevstatenormalize, wdf.wdfdevstatenormalize, wdfdevice/WdfDevStateNormalize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdevice.h
 req.include-header: Wdf.h

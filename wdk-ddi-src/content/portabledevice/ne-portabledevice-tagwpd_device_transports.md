@@ -6,11 +6,8 @@ description: The WPD_DEVICE_TRANSPORTS enumeration type describes the transport 
 old-location: wpddk\wpd_device_transports.htm
 tech.root: wpd_dk
 ms.assetid: fa29b986-3106-4f7d-b5c3-bcfe8b3bbbd2
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: WPD_DEVICE_TRANSPORTS, WPD_DEVICE_TRANSPORTS enumeration, WPD_DEVICE_TRANSPORT_BLUETOOTH, WPD_DEVICE_TRANSPORT_IP, WPD_DEVICE_TRANSPORT_UNSPECIFIED, WPD_DEVICE_TRANSPORT_USB, portabledevice/WPD_DEVICE_TRANSPORTS, portabledevice/WPD_DEVICE_TRANSPORT_BLUETOOTH, portabledevice/WPD_DEVICE_TRANSPORT_IP, portabledevice/WPD_DEVICE_TRANSPORT_UNSPECIFIED, portabledevice/WPD_DEVICE_TRANSPORT_USB, tagWPD_DEVICE_TRANSPORTS, wpddk.wpd_device_transports
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: portabledevice.h
 req.include-header: 

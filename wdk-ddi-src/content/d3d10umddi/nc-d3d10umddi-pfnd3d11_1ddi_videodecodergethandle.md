@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Returns the driver's handle for a video decoder that can be used by the application to configure content protection.
 old-location: display\videodecodergethandle.htm
 ms.assetid: 05c16416-d48c-44ce-b025-d62d763682bc
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEODECODERGETHANDLE, PFND3D11_1DDI_VIDEODECODERGETHANDLE callback, d3d10umddi/pfnVideoDecoderGetHandle, display.videodecodergethandle, pfnVideoDecoderGetHandle, pfnVideoDecoderGetHandle callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -67,15 +64,13 @@ A handle to the display device (graphics context).
 
 ### -param Arg1
 
+hDecoder [in]
+
+A handle to the video decoder object that was created through a call to the <a href="https://msdn.microsoft.com/41254f99-1806-428c-8bf3-7e736dbeec84">CreateVideoDecoder</a> function.
 
 ### -param *pContentProtectionHandle [out]
 
 A pointer to the handle.
-
-
-#### - hDecoder [in]
-
-A handle to the video decoder object that was created through a call to the <a href="https://msdn.microsoft.com/41254f99-1806-428c-8bf3-7e736dbeec84">CreateVideoDecoder</a> function.
 
 
 

@@ -6,11 +6,8 @@ description: The MaskTableEntry routine masks an interrupt in the MSI-X hardware
 old-location: kernel\masktableentry.htm
 tech.root: kernel
 ms.assetid: ADD9AA38-594D-413A-BE8B-BCC6B62EAA8E
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: MaskTableEntry, MaskTableEntry routine [Kernel-Mode Driver Architecture], PCI_MSIX_MASKUNMASK_ENTRY, drvr_interface_c4246cdd-8a44-423e-b145-fae6e1e96716.xml, kernel.masktableentry, kernel.msixmasktableentry, wdm/MaskTableEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h

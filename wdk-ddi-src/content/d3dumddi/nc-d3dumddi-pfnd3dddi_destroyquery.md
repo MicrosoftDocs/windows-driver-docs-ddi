@@ -6,11 +6,8 @@ description: The DestroyQuery function releases resources for a query.
 old-location: display\destroyquery.htm
 tech.root: display
 ms.assetid: c4cef278-1771-4903-a5cf-85674463aff8
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DestroyQuery, DestroyQuery callback function [Display Devices], PFND3DDDI_DESTROYQUERY, PFND3DDDI_DESTROYQUERY callback, UserModeDisplayDriver_Functions_ce2ecc4e-9e2e-485f-bde3-8800e62c5b8d.xml, d3dumddi/DestroyQuery, display.destroyquery
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,21 +57,14 @@ The <b>DestroyQuery</b> function releases resources for a query.
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param HANDLE
 
+*hQuery* [in]
 
-
-
-
-
-
-
-#### - hQuery [in]
-
- A handle to the query that the <a href="https://msdn.microsoft.com/ac63b77b-2704-4d5b-bf1d-9d85e8a1e336">CreateQuery</a> function created.
+A handle to the query that the <a href="https://msdn.microsoft.com/ac63b77b-2704-4d5b-bf1d-9d85e8a1e336">CreateQuery</a> function created.
 
 
 ## -returns

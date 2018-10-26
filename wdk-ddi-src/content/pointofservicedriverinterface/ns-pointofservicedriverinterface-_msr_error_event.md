@@ -6,11 +6,8 @@ description: This structure contains the error data that is passed to the Magnet
 old-location: pos\msr_error_event.htm
 tech.root: pos
 ms.assetid: daab2df5-4d23-4fe3-b357-74b2615e6d1e
-ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: "*PMSR_ERROR_EVENT, MSR_ERROR_EVENT, MSR_ERROR_EVENT structure, PMSR_ERROR_EVENT, PMSR_ERROR_EVENT structure pointer, _MSR_ERROR_EVENT, pointofservicedriverinterface/MSR_ERROR_EVENT, pointofservicedriverinterface/PMSR_ERROR_EVENT, pos.msr_error_event"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h

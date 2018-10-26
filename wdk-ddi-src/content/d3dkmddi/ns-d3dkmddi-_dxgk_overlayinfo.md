@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The DXGK_OVERLAYINFO structure describes parameters that are required to create or modify an overlay.
 old-location: display\dxgk_overlayinfo.htm
 ms.assetid: 7c2a7484-452f-4801-b650-3d8221740892
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_OVERLAYINFO, DXGK_OVERLAYINFO structure [Display Devices], DmStructs_232178f2-9a25-40aa-8604-0414128c1a91.xml, _DXGK_OVERLAYINFO, d3dkmddi/DXGK_OVERLAYINFO, display.dxgk_overlayinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

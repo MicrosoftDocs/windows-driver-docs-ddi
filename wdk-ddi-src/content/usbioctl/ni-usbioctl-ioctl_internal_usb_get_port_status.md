@@ -6,11 +6,8 @@ description: The IOCTL_INTERNAL_USB_GET_PORT_STATUS I/O request queries the stat
 old-location: buses\ioctl_internal_usb_get_port_status.htm
 tech.root: usbref
 ms.assetid: eb15d01c-e77c-4605-9c12-dd8495834875
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: IOCTL_INTERNAL_USB_GET_PORT_STATUS, IOCTL_INTERNAL_USB_GET_PORT_STATUS control, IOCTL_INTERNAL_USB_GET_PORT_STATUS control code [Buses], buses.ioctl_internal_usb_get_port_status, usbioctl/IOCTL_INTERNAL_USB_GET_PORT_STATUS, usbirp_4fc2e386-093d-45b3-a74d-da66e711d71d.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: usbioctl.h
 req.include-header: Usbioctl.h

@@ -6,11 +6,8 @@ description: The IO_CONNECT_INTERRUPT_PARAMETERS structure contains the paramete
 old-location: kernel\io_connect_interrupt_parameters.htm
 tech.root: kernel
 ms.assetid: 450c2e2b-56fa-4896-ba81-0f84f7e3051d
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PIO_CONNECT_INTERRUPT_PARAMETERS, IO_CONNECT_INTERRUPT_PARAMETERS, IO_CONNECT_INTERRUPT_PARAMETERS structure [Kernel-Mode Driver Architecture], PIO_CONNECT_INTERRUPT_PARAMETERS, PIO_CONNECT_INTERRUPT_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], _IO_CONNECT_INTERRUPT_PARAMETERS, kernel.io_connect_interrupt_parameters, kstruct_b_c3854cf4-b084-42f4-9f3b-92a96fc741c1.xml, wdm/IO_CONNECT_INTERRUPT_PARAMETERS, wdm/PIO_CONNECT_INTERRUPT_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
@@ -215,7 +212,7 @@ Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55423
 
 #### ProcessorEnableMask
 
-Specifies the [**KAFFINITY**](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) mask that represents the set of processors on which the device's interrupts can occur. This value is passed in the <b>CmResourceTypeInterrupt</b> resource at the <b>u.Interrupt.Affinity</b> member of <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b>.
+Specifies the [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) mask that represents the set of processors on which the device's interrupts can occur. This value is passed in the <b>CmResourceTypeInterrupt</b> resource at the <b>u.Interrupt.Affinity</b> member of <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b>.
 
 
 

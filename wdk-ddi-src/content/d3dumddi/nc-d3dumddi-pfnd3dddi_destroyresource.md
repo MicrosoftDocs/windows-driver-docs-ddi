@@ -6,11 +6,8 @@ description: The DestroyResource function releases a specified resource.
 old-location: display\destroyresource.htm
 tech.root: display
 ms.assetid: 1af85315-4367-49de-9453-eef62c838c97
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DestroyResource, DestroyResource callback function [Display Devices], PFND3DDDI_DESTROYRESOURCE, PFND3DDDI_DESTROYRESOURCE callback, UserModeDisplayDriver_Functions_7d6c0444-aa22-4348-9da4-9708414284e9.xml, d3dumddi/DestroyResource, display.destroyresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,21 +57,14 @@ The <b>DestroyResource</b> function releases a specified resource.
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context) that is used to destroy the resource.
+A handle to the display device (graphics context) that is used to destroy the resource.
 
 
 ### -param Arg1
 
+*hResource* [in]
 
-
-
-
-
-
-
-#### - hResource [in]
-
- A handle to the resource that the <a href="https://msdn.microsoft.com/5b74c989-1a62-4415-a19a-dd0ba2fcff83">CreateResource</a> or <a href="https://msdn.microsoft.com/e3f5cec2-391b-40f9-8a4b-afe6b8de2954">OpenResource</a> function created.
+A handle to the resource that the <a href="https://msdn.microsoft.com/5b74c989-1a62-4415-a19a-dd0ba2fcff83">CreateResource</a> or <a href="https://msdn.microsoft.com/e3f5cec2-391b-40f9-8a4b-afe6b8de2954">OpenResource</a> function created.
 
 
 ## -returns

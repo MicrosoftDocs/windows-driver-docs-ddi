@@ -6,11 +6,8 @@ description: Reserved for system use.
 old-location: ifsk\iosynchronouspagewrite.htm
 tech.root: ifsk
 ms.assetid: 3d66b517-91cd-44f7-8dfe-853468c49352
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: IoSynchronousPageWrite, IoSynchronousPageWrite function [Installable File System Drivers], ifsk.iosynchronouspagewrite, ioref_9ed81b03-18f6-4641-8f4e-b12c4afcfc5d.xml, ntifs/IoSynchronousPageWrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h
@@ -65,22 +62,22 @@ The <b>IoSynchronousPageWrite</b> routine is reserved for system use. See <a hre
 
 ### -param MemoryDescriptorList
 
-TBD
+Reserved.
 
 
 ### -param StartingOffset
 
-TBD
+Reserved.
 
 
 ### -param Event
 
-TBD
+Reserved.
 
 
 ### -param IoStatusBlock
 
-TBD
+Reserved.
 
 
 

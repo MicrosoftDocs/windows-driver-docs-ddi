@@ -6,11 +6,8 @@ description: This structure describes the Addressable Command Target (ACT) autho
 old-location: storage\act_authz_state.htm
 tech.root: storage
 ms.assetid: 32bb774f-b1eb-4198-8e4c-febcac83153d
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PACT_AUTHZ_STATE, ACT_AUTHZ_STATE, ACT_AUTHZ_STATE structure [Storage Devices], PACT_AUTHZ_STATE, PACT_AUTHZ_STATE structure pointer [Storage Devices], ehstorioctl/ACT_AUTHZ_STATE, ehstorioctl/PACT_AUTHZ_STATE, storage.act_authz_state, structs-silo_5a83edfd-d997-4f63-bbb9-58ec7cab438f.xml, tagACT_AUTHZ_STATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ehstorioctl.h
 req.include-header: EhStorIoctl.h

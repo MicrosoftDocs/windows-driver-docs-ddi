@@ -6,11 +6,8 @@ description: The ExtensionExecute function performs an operation by using the gi
 old-location: display\extensionexecute.htm
 tech.root: display
 ms.assetid: a3f73651-bfff-48fa-aa61-477b8af7fa07
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: ExtensionExecute, ExtensionExecute callback function [Display Devices], PFND3DDDI_EXTENSIONEXECUTE, PFND3DDDI_EXTENSIONEXECUTE callback, UserModeDisplayDriver_Functions_2972e743-bdb5-41ab-92ff-986b8335883b.xml, d3dumddi/ExtensionExecute, display.extensionexecute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,7 +57,7 @@ The <i>ExtensionExecute</i> function performs an operation by using the given Mi
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +69,9 @@ The <i>ExtensionExecute</i> function performs an operation by using the given Mi
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543112">D3DDDIARG_EXTENSIONEXECUTE</a> structure that describes the DirectX VA operation to perform.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543112">D3DDDIARG_EXTENSIONEXECUTE</a> structure that describes the DirectX VA operation to perform.
 
 
 ## -returns

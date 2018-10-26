@@ -5,7 +5,6 @@ author: windows-driver-content
 description: NET_BUFFER_DATA_LENGTH is a macro that NDIS drivers use to get the amount of used data space in a NET_BUFFER structure.
 tech.root: netvista
 ms.assetid: becba604-f2cd-49f4-bf64-ec8055047669
-ms.author: windowsdriverdev
 ms.date: 04/12/2018
 ms.topic: macro
 ms.keywords: NET_BUFFER_DATA_LENGTH

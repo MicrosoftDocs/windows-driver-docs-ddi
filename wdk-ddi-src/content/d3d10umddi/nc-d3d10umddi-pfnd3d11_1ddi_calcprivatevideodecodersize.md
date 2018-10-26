@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Returns the number of bytes that the driver requires to store private data for the video decoder state.
 old-location: display\calcprivatevideodecodersize.htm
 ms.assetid: a878cba1-589e-4932-9d2b-1abab417660f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CalcPrivateVideoDecoderSize, CalcPrivateVideoDecoderSize callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATEVIDEODECODERSIZE, PFND3D11_1DDI_CALCPRIVATEVIDEODECODERSIZE callback, d3d10umddi/CalcPrivateVideoDecoderSize, display.calcprivatevideodecodersize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
@@ -60,24 +57,13 @@ Returns the number of bytes that the driver requires to store private data for t
 
 ### -param Arg1
 
-
-### -param *
-
-
-
-
-
-
-
-
-#### - hDevice [in]
+*hDevice* [in]
 
 A handle to the display device (graphics context).
 
+### -param *
 
-
-
-#### - pDecoder [in]
+*pDecoder* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406310">D3D11_1DDIARG_CREATEVIDEODECODER</a> structure that describes the video decoder.
 

@@ -6,11 +6,8 @@ description: Subtracts one value of type UINT from another.
 old-location: kernel\rtluintsub.htm
 tech.root: kernel
 ms.assetid: 0886578A-C1CF-4A48-86A3-407A0C16ADEC
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUIntSub, RtlUIntSub function [Kernel-Mode Driver Architecture], kernel.rtluintsub, ntintsafe/RtlUIntSub
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntintsafe.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: Creates a resource. Implemented by Windows Display Driver Model (WD
 old-location: display\createresource2.htm
 tech.root: display
 ms.assetid: a8326707-cffc-4a20-ad3d-c7862661f513
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateResource2, CreateResource2 callback function [Display Devices], PFND3DDDI_CREATERESOURCE2, PFND3DDDI_CREATERESOURCE2 callback, d3dumddi/CreateResource2, display.createresource2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -58,23 +55,16 @@ Creates a resource. Implemented by Windows Display Driver Model (WDDM) 1.2 and l
 
 
 
-### -param hDevice [in]
+### -param hDevice 
 
- A handle to the display device (graphics context) that is used to create the resource.
+[in] A handle to the display device (graphics context) that is used to create the resource.
 
 
 ### -param *
 
+*pResource2* [in, out]
 
-
-
-
-
-
-
-#### - pResource2 [in, out]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451074">D3DDDIARG_CREATERESOURCE2</a> structure that describes the resource that is created.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451074">D3DDDIARG_CREATERESOURCE2</a> structure that describes the resource that is created.
 
 
 ## -returns

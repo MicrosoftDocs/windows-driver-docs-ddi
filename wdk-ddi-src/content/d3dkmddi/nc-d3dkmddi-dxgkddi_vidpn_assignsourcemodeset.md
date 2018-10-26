@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The pfnAssignSourceModeSet function assigns a source mode set to a particular source in a specified VidPN.
 old-location: display\dxgk_vidpn_interface_pfnassignsourcemodeset.htm
 ms.assetid: e1a2ca9e-9035-4656-bcb8-4ad956a8501d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPN_ASSIGNSOURCEMODESET, DXGKDDI_VIDPN_ASSIGNSOURCEMODESET callback, VidPnFunctions_558924ab-3dd4-43e9-84ed-4e28feae91c5.xml, d3dkmddi/pfnAssignSourceModeSet, display.dxgk_vidpn_interface_pfnassignsourcemodeset, pfnAssignSourceModeSet, pfnAssignSourceModeSet callback function [Display Devices]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

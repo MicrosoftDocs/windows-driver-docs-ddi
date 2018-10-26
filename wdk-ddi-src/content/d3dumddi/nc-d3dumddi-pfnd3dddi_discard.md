@@ -6,11 +6,8 @@ description: Discards (evicts) a set of subresources from video display memory. 
 old-location: display\discard.htm
 tech.root: display
 ms.assetid: F3EC7AAE-9DB8-43A1-B756-5F5C91F8372E
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: Discard, Discard callback function [Display Devices], PFND3DDDI_DISCARD, PFND3DDDI_DISCARD callback, d3dumddi/Discard, display.discard
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
@@ -60,7 +57,7 @@ Discards (evicts) a set of subresources from video display memory. Implemented b
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 
 ### -param *
@@ -72,9 +69,9 @@ Discards (evicts) a set of subresources from video display memory. Implemented b
 
 
 
-#### - pData [in]
+*pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451076">D3DDDIARG_DISCARD</a> structure that defines the set of subresources that is to be discarded.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451076">D3DDDIARG_DISCARD</a> structure that defines the set of subresources that is to be discarded.
 
 
 ## -returns

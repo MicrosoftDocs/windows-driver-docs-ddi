@@ -5,11 +5,8 @@ author: windows-driver-content
 description: Writes a USHORT value to the specified port or register.
 tech.root: serports
 ms.assetid: f1ad2554-41ea-4db2-9547-09ee6c602a1e
-ms.author: windowsdriverdev
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: uart.h
 req.include-header:
 req.target-type:
@@ -48,7 +45,7 @@ Writes a USHORT value to the specified port or register.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 UART_HARDWARE_WRITE_USHORT UartHardwareWriteUshort;

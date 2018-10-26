@@ -6,11 +6,8 @@ description:
 old-location: stream\kspin_cinstances.htm
 tech.root: stream
 ms.assetid: 90C861C3-26E0-43C0-A4CA-FD5491995DAB
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSPIN_CINSTANCES, KSPIN_CINSTANCES, KSPIN_CINSTANCES structure [Streaming Media Devices], PKSPIN_CINSTANCES, PKSPIN_CINSTANCES structure pointer [Streaming Media Devices], ks/KSPIN_CINSTANCES, ks/PKSPIN_CINSTANCES, stream.kspin_cinstances"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ks.h
 req.include-header: 

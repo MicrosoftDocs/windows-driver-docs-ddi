@@ -5,11 +5,8 @@ author: windows-driver-content
 description: The VmbPacketRestore function restores packet from a buffer that contains saved packet context.
 tech.root: netvista
 ms.assetid: 2bb4f7b2-a6e7-4a11-a5ca-bfd7db47037a
-ms.author: windowsdriverdev
 ms.date: 05/22/2018
 ms.topic: callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:
@@ -51,7 +48,7 @@ context.
 
 ## -prototype
 
-```
+```cpp
 //Declaration
 
 FN_VMB_PACKET_RESTORE FnVmbPacketRestore; 
@@ -89,16 +86,8 @@ Returns STATUS_SUCCESS if the operation succeeds, or an appropriate NTSTATUS err
 ## -remarks
 
 > [!IMPORTANT]
-> This function is called through the VMBus Kernel Mode Client Library (KMCL) interface, provided by the Vmbkmcl.sys bus driver. 
+> This function is called through the VMBus Kernel Mode Client Library (KMCL) interface, provided by the Vmbkmcl.sys bus driver. This is a server-only function accessed from the [**KMCL_SERVER_ONLY_METHODS**](ns-vmbuskernelmodeclientlibapi-_kmcl_server_only_methods.md) structure. 
 >
-> To access the KMCL interface, allocate a **KMCL_CLIENT_INTERFACE_V1** structure to receive the interface, then call either [**WdfFdoQueryForInterface**](../wdffdo/nf-wdffdo-wdffdoqueryforinterface.md) or [**WdfIoTargetQueryForInterface**](../wdfiotarget/nf-wdfiotarget-wdfiotargetqueryforinterface.md) with these parameters:
-> 
-> - *InterfaceType* parameter: **KMCL_CLIENT_INTERFACE_TYPE**
-> - *Size* parameter: `sizeof(KMCL_CLIENT_INTERFACE_V1)`
-> - *Version* parameter: **KMCL_CLIENT_INTERFACE_VERSION_LATEST** 
->
-> If the interface query function succeeds, the **KMCL_CLIENT_INTERFACE_V1** structure contains function pointers for the VMBus KMCL functions that you can use to call them.
->
-> For more information about driver-defined interfaces, see [Using Driver-Defined Interfaces](https://docs.microsoft.com/windows-hardware/drivers/wdf/using-driver-defined-interfaces).
+> For more information, see the Remarks section of [**KMCL_SERVER_ONLY_METHODS**](ns-vmbuskernelmodeclientlibapi-_kmcl_server_only_methods.md).
 
 ## -see-also

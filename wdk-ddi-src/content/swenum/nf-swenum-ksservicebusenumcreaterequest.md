@@ -6,11 +6,8 @@ description: The KsServiceBusEnumCreateRequest function services IRP_MJ_CREATE r
 old-location: stream\ksservicebusenumcreaterequest.htm
 tech.root: stream
 ms.assetid: 23a2dd4d-ea30-4646-a4c3-bc90ad60933d
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsServiceBusEnumCreateRequest, KsServiceBusEnumCreateRequest function [Streaming Media Devices], ksfunc_2eac1d4d-0b8f-4997-8265-4f3e7354f3a1.xml, stream.ksservicebusenumcreaterequest, swenum/KsServiceBusEnumCreateRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: swenum.h
 req.include-header: Swenum.h

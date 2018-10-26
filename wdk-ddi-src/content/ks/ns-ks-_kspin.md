@@ -6,11 +6,8 @@ description: The KSPIN structure describes an instantiated pin.
 old-location: stream\kspin.htm
 tech.root: stream
 ms.assetid: 0d290872-0944-4599-9deb-9a4f7b2df0e5
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSPIN, KSPIN, KSPIN structure [Streaming Media Devices], PKSPIN, PKSPIN structure pointer [Streaming Media Devices], _KSPIN, avstruct_9453feff-ba40-4f54-bdb6-07f4f31548aa.xml, ks/KSPIN, ks/PKSPIN, stream.kspin"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ks.h
 req.include-header: Ks.h

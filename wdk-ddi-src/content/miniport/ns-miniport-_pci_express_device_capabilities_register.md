@@ -6,11 +6,8 @@ description: The PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER structure describes a 
 old-location: pci\pci_express_device_capabilities_register.htm
 tech.root: PCI
 ms.assetid: 895b49e5-181b-4312-ab1c-7f67c102b32f
-ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: "*PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, PCI.pci_express_device_capabilities_register, PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER union [Buses], PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER union pointer [Buses], _PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, ntddk/PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, ntddk/PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, pci_struct_6643c57c-39dd-483b-9611-b0bf96cacbd8.xml"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: miniport.h
 req.include-header: Ntddk.h, Miniport.h
@@ -56,7 +53,7 @@ The PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER structure describes a PCI Express (
 ## -syntax
 
 
-````
+```cpp
 typedef union _PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER {
   struct {
     ULONG MaxPayloadSizeSupported  :3;
@@ -73,7 +70,7 @@ typedef union _PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER {
   };
   ULONG  AsULONG;
 } PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, *PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER;
-````
+```
 
 
 ## -struct-fields

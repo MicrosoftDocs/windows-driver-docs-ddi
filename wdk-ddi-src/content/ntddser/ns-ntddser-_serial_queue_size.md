@@ -6,11 +6,8 @@ description: The SERIAL_QUEUE_SIZE structure is used to resize the input buffer 
 old-location: serports\serial_queue_size.htm
 tech.root: serports
 ms.assetid: 5EEE0B7D-2857-42D1-A387-9D38DAC2E368
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PSERIAL_QUEUE_SIZE, PSERIAL_QUEUE_SIZE, PSERIAL_QUEUE_SIZE structure pointer [Serial Ports], SERIAL_QUEUE_SIZE, SERIAL_QUEUE_SIZE structure [Serial Ports], _SERIAL_QUEUE_SIZE, ntddser/PSERIAL_QUEUE_SIZE, ntddser/SERIAL_QUEUE_SIZE, serports.serial_queue_size"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddser.h
 req.include-header: 

@@ -6,11 +6,8 @@ description: The WdfDmaTransactionSetMaximumLength method sets the maximum lengt
 old-location: wdf\wdfdmatransactionsetmaximumlength.htm
 tech.root: wdf
 ms.assetid: b195c6df-79c4-427d-b722-309f43a4e150
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDmaObjectRef_966c396e-c161-46d6-856e-9bc9aa30c610.xml, WdfDmaTransactionSetMaximumLength, WdfDmaTransactionSetMaximumLength method, kmdf.wdfdmatransactionsetmaximumlength, wdf.wdfdmatransactionsetmaximumlength, wdfdmatransaction/WdfDmaTransactionSetMaximumLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h

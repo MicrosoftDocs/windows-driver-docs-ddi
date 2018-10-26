@@ -6,11 +6,8 @@ description: The WDF_INTERRUPT_EXTENDED_POLICY_INIT function initializes a WDF_I
 old-location: wdf\wdf_interrupt_extended_policy_init.htm
 tech.root: wdf
 ms.assetid: fcc1e631-c77b-483b-9b5e-ec8d643f9930
-ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFInterruptObjectRef_47d18efc-03a4-47b7-a022-ba9ed3247f1f.xml, WDF_INTERRUPT_EXTENDED_POLICY_INIT, WDF_INTERRUPT_EXTENDED_POLICY_INIT function, kmdf.wdf_interrupt_extended_policy_init, wdf.wdf_interrupt_extended_policy_init, wdfinterrupt/WDF_INTERRUPT_EXTENDED_POLICY_INIT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
