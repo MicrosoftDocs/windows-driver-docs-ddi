@@ -60,12 +60,12 @@ The FEATURE_DATA_CD_AUDIO_ANALOG_PLAY structure holds information about the CD A
 Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
-### -field SeperateVolume
+### -field SeparateVolume
 
 Indicates, when set to zero, that all audio channels have the same volume level. When set to 1, it indicates that the volume of each audio channel can be set separately. 
 
 
-### -field SeperateChannelMute
+### -field SeparateChannelMute
 
 Indicates, when set to zero, that all audio channels are muted simultaneously. When set to 1, it indicates that each audio channel can be muted independently. 
 
