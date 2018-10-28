@@ -94,7 +94,7 @@ The <i>DxgkDdiAcquireSwizzlingRange</i> function makes an allocation accessible 
 </dl>
 </td>
 <td width="60%">
-<i>DxgkDdiAcquireSwizzlingRange</i> could not program the swizzling range for the allocation. The video memory manager fails to acquire the swizzling range without making futher attempts.
+<i>DxgkDdiAcquireSwizzlingRange</i> could not program the swizzling range for the allocation. The video memory manager fails to acquire the swizzling range without making further attempts.
 
 </td>
 </tr>
