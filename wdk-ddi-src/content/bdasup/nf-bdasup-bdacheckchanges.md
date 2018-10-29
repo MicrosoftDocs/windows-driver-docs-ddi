@@ -12,7 +12,7 @@ ms.topic: function
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems. BdaCheckChanges is available on the Windows 2000 platform only if Microsoft DirectX 9.0 and later is installed on that platform.
+req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
