@@ -3,7 +3,7 @@ UID: NF:portcls.IDmaChannelSlave.ReadCounter
 title: IDmaChannelSlave::ReadCounter
 author: windows-driver-content
 description: The ReadCounter method reads the counter of a subordinate DMA object.
-tech.root:
+tech.root: audio
 ms.assetid: e3b67baa-da4b-468b-be74-8b760002b597
 ms.author: windowsdriverdev
 ms.date: 10/30/2018
