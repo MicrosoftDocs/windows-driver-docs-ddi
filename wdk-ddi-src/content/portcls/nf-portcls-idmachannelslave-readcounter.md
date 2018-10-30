@@ -18,7 +18,7 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql: <=DISPATCH_LEVEL
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
