@@ -8,6 +8,7 @@ ms.date: 12/12/2017
 ms.topic: landing-page
 ms.prod: windows-hardware
 ms.technology: windows-devices
+layout: LandingPage
 product:
 -	Windows
 ---
@@ -78,6 +79,9 @@ Windows Driver Kit (WDK) 10 is integrated with Microsoft Visual Studio 2017 and 
 ---
 
 <h2>Driver Reference</h2>
+
+The Windows driver API reference documentation is presented in two different views. When you click on an API, you see a technology-specific table of contents that shows only the APIs pertaining to that technology. When you click on a header, you see a header-specific table of contents that lists all APIs in the selected header.
+
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
