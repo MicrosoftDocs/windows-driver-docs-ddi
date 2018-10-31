@@ -137,6 +137,26 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545762">FILE_BA
 </tr>
 <tr>
 <td>
+<b>FileCaseSensitiveInformation</b>
+
+</td>
+<td>
+A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_case_sensitive_information">FILE_CASE_SENSITIVE_INFORMATION</a> structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the <i>DesiredAccess</i> parameter. This value is available starting with Windows 10 April 2018 Update.
+
+</td>
+</tr>
+<tr>
+<td>
+<b>FileCaseSensitiveInformationForceAccessCheck</b>
+
+</td>
+<td>
+A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_case_sensitive_information">FILE_CASE_SENSITIVE_INFORMATION</a> structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the <i>DesiredAccess</i> parameter. This is a special version of the FileCaseSensitiveInformation operation that is used to force the IOManager to perform access checks for the kernel-mode driver, similar to the checks that apply to a user-mode caller. This operation is only recognized by the IOManager and a file system should never receive it. This value is available starting with Windows 10 April 2018 Update.
+
+</td>
+</tr>
+<tr>
+<td>
 <b>FileEaInformation</b>
 
 </td>
