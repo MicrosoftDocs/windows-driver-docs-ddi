@@ -3,7 +3,7 @@ UID: NA:portcls
 author: windows-driver-content
 ms.assetid: 6e1a2bb6-6b07-3266-83bb-aa08030d97d6
 ms.author: windowsdriverdev
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

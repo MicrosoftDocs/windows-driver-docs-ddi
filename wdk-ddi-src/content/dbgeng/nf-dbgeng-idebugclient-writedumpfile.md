@@ -203,7 +203,7 @@ DEBUG_DUMP_DEFAULT
 </table>
  
 
-For a description of kernel-mode dump files, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560246">Varieties of Kernel-Mode Dump Files</a>.  For a description of user-mode dump files, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560251">Varieties of User-Mode Dump Files</a>.
+For a description of kernel-mode dump files, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560246">Varieties of Kernel-Mode Dump Files</a>.  For a description of user-mode dump files, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/user-mode-dump-files">Varieties of User-Mode Dump Files</a>.
 
 
 

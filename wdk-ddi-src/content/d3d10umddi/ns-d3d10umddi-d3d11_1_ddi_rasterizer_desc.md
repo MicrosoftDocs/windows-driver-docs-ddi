@@ -173,7 +173,7 @@ Cull back faces.
 
 ### -field ForcedSampleCount
 
-[in] During rendering of unordered access vews (UAVs) or rendering target views (RTVs), specifies whether to force a sample count, and if so, the maximum sample count. Valid values are 0, 1, 4, 8, and 16.
+[in] During rendering of unordered access views (UAVs) or rendering target views (RTVs), specifies whether to force a sample count, and if so, the maximum sample count. Valid values are 0, 1, 4, 8, and 16.
 
 If zero, the driver should not force a sample count.
 
