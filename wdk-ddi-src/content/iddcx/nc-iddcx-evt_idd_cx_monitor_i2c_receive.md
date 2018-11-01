@@ -95,7 +95,7 @@ The <b>EVT_IDD_CX_MONITOR_I2C_RECEIVE</b> function is responsible for signaling 
  using the specified monitor's I2C bus. It is also permitted to block if the display driver is using the I2C bus to send or receive High-bandwidth Digital Content Protection (HDCP) data.
  <b>EVT_IDD_CX_MONITOR_I2C_RECEIVE</b> has a 5 second timeout and must complete in that time limit.
 
-If the display adapter supports HDCP, <b>EVT_IDD_CX_MONITOR_I2C_RECIEVE</b> must refuse to receive data from an I2C device if the
+If the display adapter supports HDCP, <b>EVT_IDD_CX_MONITOR_I2C_RECEIVE</b> must refuse to receive data from an I2C device if the
  device has an I2C address that is used by HDCP.
  This function  can receive data from an I2C device in a monitor that is connected to the display adapter, but must never receive data from an I2C
  device that is on the display adapter itself.
