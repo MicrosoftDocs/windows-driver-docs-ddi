@@ -2,11 +2,11 @@
 UID: NF:portcls.IPortClsStreamResourceManager.AddStreamResource
 title: IPortClsStreamResourceManager::AddStreamResource
 author: windows-driver-content
-description: TBD
-tech.root:
+description: AddStreamResource adds a stream resource. Two type of stream resources are supported - interrupts and driver-owned threads.
+tech.root: audio
 ms.assetid: 2a050202-f31d-4e12-976e-8881407a6c32
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IPortClsStreamResourceManager::AddStreamResource, AddStreamResource, IPortClsStreamResourceManager.AddStreamResource, IPortClsStreamResourceManager::AddStreamResource, IPortClsStreamResourceManager.AddStreamResource
 req.header: portcls.h
@@ -18,7 +18,7 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -45,25 +45,33 @@ targetos: Windows
 
 ## -description
 
-TBD
+AddStreamResource adds a stream resource. Two type of stream resources are supported: interrupts and driver-owned threads. The AddStreamResource method can only be used by audio WaveRT miniport drivers.
 
 ## -parameters
 
 ### -param ResourceSet
-
+PVOID - Reserved for future use, set to NULL. Only device-scoped resources are supported at this time.
 
 
 ### -param ResourceDescriptor
-
+PPCSTREAMRESOURCE_DESCRIPTOR - The resource to add. For more information see, [_PCSTREAMRESOURCE_DESCRIPTOR](ns-portcls-_pcstreamresource_descriptor.md). 
 
 
 ### -param ResourceHandle
 
-
+PCSTREAMRESOURCE* - The location that will hold the resource handle. For more information, see [PcRemoveStreamResource](nf-portcls-pcremovestreamresource.md). 
 
 
 ## -returns
-This method returns NTSTATUS.
+This method returns NTSTATUS which contains:
+
+- STATUS_SUCCESS – The driver was able to register the resource of the specified PDO. 
+- STATUS_INVALID_PARAMETER – The driver returns this error if it finds any other parameter invalid, aside from the specific cases for other error status instances. 
+
+Additional standard status codes may be returned.
+
 ## -remarks
 
 ## -see-also
+
+[IPortClsStreamResourceManager](nn-portcls-iportclsstreamresourcemanager.md)

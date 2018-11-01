@@ -2,11 +2,11 @@
 UID: NF:portcls.IMiniportWaveRTStream.FreeAudioBuffer
 title: IMiniportWaveRTStream::FreeAudioBuffer
 author: windows-driver-content
-description: TBD
-tech.root:
+description: The FreeAudioBuffer method is used to free an audio buffer previously allocated with a call to IMiniportWaveRTStream::AllocateAudioBuffer.
+tech.root: audio
 ms.assetid: ba0f4d00-cc63-4dbd-bfb1-5d90bec6a6bd
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IMiniportWaveRTStream::FreeAudioBuffer, FreeAudioBuffer, IMiniportWaveRTStream.FreeAudioBuffer, IMiniportWaveRTStream::FreeAudioBuffer, IMiniportWaveRTStream.FreeAudioBuffer
 req.header: portcls.h
@@ -18,7 +18,7 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -45,21 +45,25 @@ targetos: Windows
 
 ## -description
 
-TBD
+The FreeAudioBuffer method is used to free an audio buffer previously allocated with a call to IMiniportWaveRTStream::AllocateAudioBuffer.
 
 ## -parameters
 
 ### -param AudioBufferMdl
-
+Specifies a memory descriptor list (MDL) previously allocated with a call to IMiniportWaveRTStream::AllocateAudioBuffer.
 
 
 ### -param BufferSize
-
+Output pointer for the number of bytes that the method has written to the Attributes buffer. This parameter points to a ULONG variable into which the method writes the byte count.
 
 
 
 ## -returns
 This method returns VOID.
+
 ## -remarks
 
 ## -see-also
+
+
+[IMiniPortWaveRTStream](nn-portcls-iminiportwavertstream.md)

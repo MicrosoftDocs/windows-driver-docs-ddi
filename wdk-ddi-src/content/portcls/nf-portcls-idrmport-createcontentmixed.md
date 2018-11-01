@@ -2,11 +2,11 @@
 UID: NF:portcls.IDrmPort.CreateContentMixed
 title: IDrmPort::CreateContentMixed
 author: windows-driver-content
-description: TBD
-tech.root:
+description: The CreateContentMixed method computes the DRM content rights for a composite stream containing mixed content from some number of KS audio streams. 
+tech.root: audio
 ms.assetid: 26ea9bd4-5540-4be7-bf34-8a56e2812ccd
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IDrmPort::CreateContentMixed, CreateContentMixed, IDrmPort.CreateContentMixed, IDrmPort::CreateContentMixed, IDrmPort.CreateContentMixed
 req.header: portcls.h
@@ -45,7 +45,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+The CreateContentMixed method computes the DRM content rights for a composite stream containing mixed content from some number of KS audio streams. Note that this method is identical in operation to the [DrmCreateContentMixed function](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmcreatecontentmixed), and its parameter definitions and return value are also identical.
 
 ## -parameters
 
@@ -67,3 +67,5 @@ This method returns NTSTATUS.
 ## -remarks
 
 ## -see-also
+
+[IDrmPort](nn-portcls-idrmport.md)

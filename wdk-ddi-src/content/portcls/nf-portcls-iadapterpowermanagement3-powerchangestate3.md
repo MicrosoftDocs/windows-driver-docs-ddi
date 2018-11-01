@@ -2,11 +2,11 @@
 UID: NF:portcls.IAdapterPowerManagement3.PowerChangeState3
 title: IAdapterPowerManagement3::PowerChangeState3
 author: windows-driver-content
-description: TBD
-tech.root:
+description: PortCls calls the PowerChangeState3 method to request a change to the new power state. This request is passed on to the adapter driver.
+tech.root: audio
 ms.assetid: e3bab2a6-34ac-490d-bcc3-95cb16ad7155
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IAdapterPowerManagement3::PowerChangeState3, PowerChangeState3, IAdapterPowerManagement3.PowerChangeState3, IAdapterPowerManagement3::PowerChangeState3, IAdapterPowerManagement3.PowerChangeState3
 req.header: portcls.h
@@ -45,25 +45,28 @@ targetos: Windows
 
 ## -description
 
-TBD
+PortCls calls the PowerChangeState3 method to request a change to the new power state. This request is passed on to the adapter driver.
 
 ## -parameters
 
 ### -param NewDeviceState
 
-
+The new power state that Portcls has requested for the device. This parameter is an enumeration of type DEVICE_POWER_STATE.
 
 ### -param NewSystemState
 
-
+The new power state that Portcls has requested for the system. This parameter is an enumeration of type SYSTEM_POWER_STATE.
 
 ### -param D3ExitLatency
-
-
+The acceptable exit latency for the state into which the device is put when the device comes out of PowerDeviceD3. This parameter is an enumeration of type PC_EXIT_LATENCY.
 
 
 ## -returns
 This method returns void.
+
 ## -remarks
+If the device is not going into its new state from PowerDeviceD3, then D3ExitLatency is set to PcExitLatencyInstant. For more information about the possible values for D3ExitLatency, see [D3ExitLatencyChanged](nf-portcls-iadapterpowermanagement3-d3exitlatencychanged.md).
 
 ## -see-also
+
+[IAdapterPowerManagement3](nn-portcls-iadapterpowermanagement3.md)

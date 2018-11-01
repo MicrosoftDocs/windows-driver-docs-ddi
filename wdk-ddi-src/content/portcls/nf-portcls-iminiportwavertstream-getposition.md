@@ -2,11 +2,11 @@
 UID: NF:portcls.IMiniportWaveRTStream.GetPosition
 title: IMiniportWaveRTStream::GetPosition
 author: windows-driver-content
-description: TBD
-tech.root:
+description: The GetPosition method retrieves the current play or record position as a byte offset from the beginning of the buffer.
+tech.root: audio
 ms.assetid: f5d1cef6-64ab-478e-9ad9-6f3b84633f99
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IMiniportWaveRTStream::GetPosition, GetPosition, IMiniportWaveRTStream.GetPosition, IMiniportWaveRTStream::GetPosition, IMiniportWaveRTStream.GetPosition
 req.header: portcls.h
@@ -18,7 +18,7 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql: PASSIVE_LEVEL or DISPATCH_LEVEL.
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -45,17 +45,20 @@ targetos: Windows
 
 ## -description
 
-TBD
+The GetPosition method retrieves the current play or record position as a byte offset from the beginning of the buffer.
 
 ## -parameters
 
 ### -param Position
-
-
-
+Pointer to a KSAUDIO_POSITION structure. For a wave rendering stream, the method writes the write position and the play position into this structure. For a wave-capture stream, the method writes the read position and the record position into the structure. Positions are specified as byte offsets from the beginning of the cyclic buffer.
 
 ## -returns
-This method returns NTSTATUS.
+This method returns NTSTATUS which contains STATUS_SUCCESS if the call was successful. Otherwise, the function returns an appropriate error status code.
+
 ## -remarks
 
+The WaveRT port driver calls this method in response to a KSPROPERTY_AUDIO_POSITION property request from a client.
+
 ## -see-also
+
+[IMiniPortWaveRTStream](nn-portcls-iminiportwavertstream.md)

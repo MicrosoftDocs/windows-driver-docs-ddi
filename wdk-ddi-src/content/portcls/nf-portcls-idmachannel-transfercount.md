@@ -2,11 +2,11 @@
 UID: NF:portcls.IDmaChannel.TransferCount
 title: IDmaChannel::TransferCount
 author: windows-driver-content
-description: TBD
-tech.root:
+description: The TransferCount method returns the size in bytes of the buffer that is currently being transferred by a subordinate DMA object.
+tech.root: audio
 ms.assetid: 2d008277-36b1-4c66-8b70-5500ed7dc81f
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IDmaChannel::TransferCount, TransferCount, IDmaChannel.TransferCount, IDmaChannel::TransferCount, IDmaChannel.TransferCount
 req.header: portcls.h
@@ -18,7 +18,7 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql: Any level
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -45,13 +45,16 @@ targetos: Windows
 
 ## -description
 
-TBD
+The TransferCount method returns the size in bytes of the buffer that is currently being transferred by a subordinate DMA object.
 
 ## -parameters
 
 
 ## -returns
-This method returns ULONG.
+This method returns ULONG which is the size in bytes of the buffer that is currently being transferred.
+
 ## -remarks
 
 ## -see-also
+
+[IDmaChannel](nn-portcls-idmachannel.md)

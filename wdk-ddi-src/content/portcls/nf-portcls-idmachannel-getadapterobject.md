@@ -2,11 +2,11 @@
 UID: NF:portcls.IDmaChannel.GetAdapterObject
 title: IDmaChannel::GetAdapterObject
 author: windows-driver-content
-description: TBD
-tech.root:
+description: The GetAdapterObject method returns the DMA channel's hardware adapter object.
+tech.root: audio
 ms.assetid: 36aeb4c5-4552-4139-bf24-475624e279dc
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/31/2018 
 ms.topic: method
 ms.keywords: IDmaChannel::GetAdapterObject, GetAdapterObject, IDmaChannel.GetAdapterObject, IDmaChannel::GetAdapterObject, IDmaChannel.GetAdapterObject
 req.header: portcls.h
@@ -18,7 +18,7 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql: Any level
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -44,14 +44,18 @@ targetos: Windows
 
 
 ## -description
-
-TBD
+The GetAdapterObject method returns the DMA channel's hardware adapter object.
 
 ## -parameters
-
+void
 
 ## -returns
-This method returns PADAPTER_OBJECT.
+This method returns PADAPTER_OBJECT. It returns a pointer to the DMA-channel object's internal adapter object, which is a DMA_ADAPTER structure.
+
+
 ## -remarks
+The method returns a pointer to a DMA adapter object that has a system-defined interface to the DMA operations that the hardware supports. The adapter driver can pass this pointer as a parameter to the AllocateCommonBuffer and FreeCommonBuffer functions if the miniport driver needs to allocate its own physically contiguous memory for common buffer blocks. These blocks can be accessed both by DMA hardware and by software running on the processor. 
 
 ## -see-also
+
+[IDmaChannel](nn-portcls-idmachannel.md)

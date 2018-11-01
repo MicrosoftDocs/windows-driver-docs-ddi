@@ -2,11 +2,11 @@
 UID: NF:portcls.IDmaChannel.CopyFrom
 title: IDmaChannel::CopyFrom
 author: windows-driver-content
-description: TBD
-tech.root:
+description: The CopyFrom method copies sample data from the DMA channel's common buffer to the specified destination buffer.
+tech.root: audio
 ms.assetid: 4def160a-db98-4315-87d4-beb69e650461
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/31/2018 
 ms.topic: method
 ms.keywords: IDmaChannel::CopyFrom, CopyFrom, IDmaChannel.CopyFrom, IDmaChannel::CopyFrom, IDmaChannel.CopyFrom
 req.header: portcls.h
@@ -18,7 +18,7 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql: Any level
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -45,25 +45,34 @@ targetos: Windows
 
 ## -description
 
-TBD
+The CopyFrom method copies sample data from the DMA channel's common buffer to the specified destination buffer.
 
 ## -parameters
 
 ### -param Destination
-
+Pointer to the destination buffer
 
 
 ### -param Source
+Pointer to the source buffer, which is located in the DMA channel's common buffer.
 
 
 
 ### -param ByteCount
-
+Specifies the number of bytes to be copied.
 
 
 
 ## -returns
 This method returns void.
+
 ## -remarks
 
+The Source and Destination pointers are both kernel-mode virtual addresses. The IDmaChannel::SystemAddress call returns the virtual address of a DMA channel's common buffer.
+
+The Source parameter points to the beginning of the source buffer, which occupies ByteCount contiguous bytes in the DMA channel's common buffer.
+
+
 ## -see-also
+
+[IDmaChannel](nn-portcls-idmachannel.md)

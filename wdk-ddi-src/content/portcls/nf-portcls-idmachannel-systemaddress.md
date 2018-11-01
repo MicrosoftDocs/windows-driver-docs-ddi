@@ -2,11 +2,11 @@
 UID: NF:portcls.IDmaChannel.SystemAddress
 title: IDmaChannel::SystemAddress
 author: windows-driver-content
-description: TBD
-tech.root:
+description: The SystemAddress method returns the system address of the allocated buffer.
+tech.root: audio
 ms.assetid: 90bbf083-1820-4841-9572-4fc6fad6e897
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IDmaChannel::SystemAddress, SystemAddress, IDmaChannel.SystemAddress, IDmaChannel::SystemAddress, IDmaChannel.SystemAddress
 req.header: portcls.h
@@ -18,7 +18,7 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql: Any level
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -45,13 +45,16 @@ targetos: Windows
 
 ## -description
 
-TBD
+SystemAddress returns the address in kernel-mode virtual address space of the allocated buffer.
 
 ## -parameters
-
+void
 
 ## -returns
 This method returns PVOID.
+
 ## -remarks
 
 ## -see-also
+
+[IDmaChannel](nn-portcls-idmachannel.md)

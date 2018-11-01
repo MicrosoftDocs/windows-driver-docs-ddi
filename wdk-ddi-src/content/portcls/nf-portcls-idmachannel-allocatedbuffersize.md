@@ -2,11 +2,11 @@
 UID: NF:portcls.IDmaChannel.AllocatedBufferSize
 title: IDmaChannel::AllocatedBufferSize
 author: windows-driver-content
-description: TBD
-tech.root:
+description: The AllocatedBufferSize method returns the size of the allocated buffer.
+tech.root: audio
 ms.assetid: 81a39c45-7ff4-488a-87f9-ed6b3120df35
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IDmaChannel::AllocatedBufferSize, AllocatedBufferSize, IDmaChannel.AllocatedBufferSize, IDmaChannel::AllocatedBufferSize, IDmaChannel.AllocatedBufferSize
 req.header: portcls.h
@@ -18,7 +18,7 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql: Any level
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -45,13 +45,16 @@ targetos: Windows
 
 ## -description
 
-TBD
+The AllocatedBufferSize method returns the size of the allocated buffer.
 
 ## -parameters
 
 
 ## -returns
-This method returns ULONG.
+This method returns ULONG which is the size in bytes of the allocated buffer.
+
 ## -remarks
 
 ## -see-also
+
+[IDmaChannel](nn-portcls-idmachannel.md)

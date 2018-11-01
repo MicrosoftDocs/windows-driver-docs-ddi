@@ -2,11 +2,11 @@
 UID: NF:portcls.IDmaChannel.FreeBuffer
 title: IDmaChannel::FreeBuffer
 author: windows-driver-content
-description: TBD
-tech.root:
+description: The FreeBuffer method frees the buffer that was allocated by the previous call to IDmaChannel::AllocateBuffer.
+tech.root: audio
 ms.assetid: 151e5da1-e78a-4f72-a132-87ae9f743330
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/31/2018 
 ms.topic: method
 ms.keywords: IDmaChannel::FreeBuffer, FreeBuffer, IDmaChannel.FreeBuffer, IDmaChannel::FreeBuffer, IDmaChannel.FreeBuffer
 req.header: portcls.h
@@ -18,7 +18,7 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -45,13 +45,18 @@ targetos: Windows
 
 ## -description
 
-TBD
+The FreeBuffer method frees the buffer that was allocated by the previous call to IDmaChannel::AllocateBuffer.
 
 ## -parameters
-
+void
 
 ## -returns
 This method returns void.
+
 ## -remarks
 
+Because the buffer is automatically freed when the DMA-channel object is deleted, the FreeBuffer method is not typically used.
+
 ## -see-also
+
+[IDmaChannel](nn-portcls-idmachannel.md)

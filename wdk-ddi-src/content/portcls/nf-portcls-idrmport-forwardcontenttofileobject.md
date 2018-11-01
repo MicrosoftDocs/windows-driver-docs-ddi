@@ -2,11 +2,11 @@
 UID: NF:portcls.IDrmPort.ForwardContentToFileObject
 title: IDrmPort::ForwardContentToFileObject
 author: windows-driver-content
-description: TBD
-tech.root:
+description: The ForwardContentToFileObject method is obsolete and is maintained only to support existing drivers. 
+tech.root: audio
 ms.assetid: 74e03ac6-5a4a-431b-b395-6410c775bec5
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IDrmPort::ForwardContentToFileObject, ForwardContentToFileObject, IDrmPort.ForwardContentToFileObject, IDrmPort::ForwardContentToFileObject, IDrmPort.ForwardContentToFileObject
 req.header: portcls.h
@@ -45,7 +45,8 @@ targetos: Windows
 
 ## -description
 
-TBD
+The ForwardContentToFileObject method is obsolete and is maintained only to support existing drivers. Note that this method is identical in operation to the [DrmForwardContentToFileObject](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmforwardcontenttofileobject) function, and its parameter definitions and return value are also identical.
+
 
 ## -parameters
 
@@ -57,9 +58,12 @@ TBD
 
 
 
-
 ## -returns
 This method returns NTSTATUS.
 ## -remarks
 
+See comments in [DrmForwardContentToFileObject](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmforwardcontenttofileobject).
+
 ## -see-also
+
+[IDrmPort](nn-portcls-idrmport.md)

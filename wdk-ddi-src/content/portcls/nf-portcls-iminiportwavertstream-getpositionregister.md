@@ -2,11 +2,11 @@
 UID: NF:portcls.IMiniportWaveRTStream.GetPositionRegister
 title: IMiniportWaveRTStream::GetPositionRegister
 author: windows-driver-content
-description: TBD
-tech.root:
+description: The GetPositionRegister method retrieves the information that the port driver requires to expose the position register to the audio subsystem and its clients.
+tech.root: audio
 ms.assetid: 84877d13-e24a-4c17-ac95-092e0e03e596
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IMiniportWaveRTStream::GetPositionRegister, GetPositionRegister, IMiniportWaveRTStream.GetPositionRegister, IMiniportWaveRTStream::GetPositionRegister, IMiniportWaveRTStream.GetPositionRegister
 req.header: portcls.h
@@ -18,7 +18,7 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -45,17 +45,21 @@ targetos: Windows
 
 ## -description
 
-TBD
+The GetPositionRegister method retrieves the information that the port driver requires to expose the position register to the audio subsystem and its clients.
 
 ## -parameters
 
 ### -param Register
 
-
+Output pointer to a KSRTAUDIO_HWREGISTER structure that describes the register mapping.
 
 
 ## -returns
-This method returns NTSTATUS.
+This method returns NTSTATUS which contains STATUS_SUCCESS if the call was successful. Otherwise, the function returns an appropriate error status code.
+
 ## -remarks
+The WaveRT port driver calls this method in response to a KSPROPERTY_RTAUDIO_POSITIONREGISTER property request from a client.
 
 ## -see-also
+
+[IMiniPortWaveRTStream](nn-portcls-iminiportwavertstream.md)
