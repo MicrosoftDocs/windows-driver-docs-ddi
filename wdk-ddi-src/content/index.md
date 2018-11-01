@@ -10,7 +10,7 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 layout: LandingPage
 product:
--	Windows
+- Windows
 ---
 
 # Programming reference for Windows Driver Kit (WDK)
