@@ -76,7 +76,7 @@ For a filter driver, this is the
      <i>NdisDriverHandle</i> value passed to the 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">FilterSetOptions</a> function or the 
      <i>NdisFilterHandle</i> value passed to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 
 ### -param OptionalHandlers
@@ -366,7 +366,7 @@ For more information on the 4 chimney offload structures, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 

@@ -62,7 +62,7 @@ NDIS calls a filter driver's
 ### -param FilterModuleContext [in]
 
 A handle to a context area that the filter driver allocated in its 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function. The filter driver
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a> function. The filter driver
      uses this context area to maintain state information for a filter module.
 
 
@@ -187,7 +187,7 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 

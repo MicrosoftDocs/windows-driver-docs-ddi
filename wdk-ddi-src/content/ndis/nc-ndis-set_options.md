@@ -213,7 +213,7 @@ There are no optional filter driver services in the current Windows version.
 
 NDIS can call the driver's other 
     <i>MiniportXxx</i>,  <i>ProtocolXxx</i>, or <i>FilterXxx</i> functions at any time after 
-    <i>XxxSetOptions</i> returns. The driver should be prepared to be called back at its initialization function:(<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> for miniport drivers, <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a> for protocol drivers, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> for filter drivers).
+    <i>XxxSetOptions</i> returns. The driver should be prepared to be called back at its initialization function:(<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> for miniport drivers, <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a> for protocol drivers, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a> for filter drivers).
 
 For miniport drivers, the
 miniport adapters are in the 

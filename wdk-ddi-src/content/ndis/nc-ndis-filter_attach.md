@@ -197,7 +197,7 @@ A filter driver should not make send requests, indicate received data, make OID 
     <i>Attaching</i> state.
 
 NDIS calls a filter driver's 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a> function to release all the
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_detach">FilterDetach</a> function to release all the
     resources that are associated with a filter module and return the filter module to the 
     <i>Detached</i> state.
 
@@ -250,7 +250,7 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_detach">FilterDetach</a>
 
 
 

@@ -326,7 +326,7 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/hh4
 
 To define filter module attach parameters, NDIS passes a pointer to an NDIS_FILTER_ATTACH_PARAMETERS
     structure to the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 Filter drivers should avoid issuing unnecessary OID queries. Instead, use the information in
     NDIS_FILTER_ATTACH_PARAMETERS, when available, to obtain information about underlying drivers.
@@ -343,7 +343,7 @@ Filter drivers should avoid issuing unnecessary OID queries. Instead, use the in
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 

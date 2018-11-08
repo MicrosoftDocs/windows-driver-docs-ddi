@@ -204,7 +204,7 @@ Indicates that NDK is currently disabled.
 
 #### NetEventFilterPreDetach
 
-Indicates that a filter is about to be detached, so that the filter can perform any necessary cleanup that isn't possible in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a> handler (because the OID and indication paths are closed at that time).
+Indicates that a filter is about to be detached, so that the filter can perform any necessary cleanup that isn't possible in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_detach">FilterDetach</a> handler (because the OID and indication paths are closed at that time).
 
 
 
@@ -776,7 +776,7 @@ Indicates that the PnP Manager has sent a Cancel Remove Device request. The PnP 
 
 ##### - NetEvent.NetEventFilterPreDetach
 
-Indicates that a filter is about to be detached, so that the filter can perform any necessary cleanup that isn't possible in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a> handler (because the OID and indication paths are closed at that time).
+Indicates that a filter is about to be detached, so that the filter can perform any necessary cleanup that isn't possible in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_detach">FilterDetach</a> handler (because the OID and indication paths are closed at that time).
 
 
 ##### - NetEvent.NetEventIMReEnableDevice
