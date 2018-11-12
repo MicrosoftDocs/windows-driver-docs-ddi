@@ -62,7 +62,7 @@ Handle to the device owning this context.
 
 ### -field NodeOrdinal
 
-Identifier for the node targetted by this context.
+Identifier for the node targeted by this context.
 
 
 
