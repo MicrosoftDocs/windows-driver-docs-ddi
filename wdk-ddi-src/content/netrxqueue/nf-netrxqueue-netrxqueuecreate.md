@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Creates a net receive queue object.
 tech.root: netvista
 ms.assetid: 2f5e886c-10c8-42bf-83d3-1902ef628b5a
-ms.date: 07/13/2018
+ms.date: 11/12/2018
 ms.topic: function
 ms.keywords: NetRxQueueCreate
 req.header: netrxqueue.h
@@ -60,7 +60,7 @@ Creates a net receive queue object.
 A pointer to the NETRXQUEUE_INIT structure that the client driver received in its *[EVT_NET_ADAPTER_CREATE_RXQUEUE](../netadapter/nc-netadapter-evt_net_adapter_create_rxqueue.md)* callback function.
 
 ### -param RxQueueAttributes
-A pointer to caller-allocated and initialized [**WDF_OBJECT_ATTRIBUTES**](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure. The structure’s **ParentObject** member must be NULL. The parameter is optional and can be **WDF_NO_OBJECT_ATTRIBUTES**.
+A pointer to caller-allocated and initialized [**WDF_OBJECT_ATTRIBUTES**](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure. This parameter is optional and can be **WDF_NO_OBJECT_ATTRIBUTES**. However, if the client driver supplies this parameter, the **ParentObject** field must be **NULL**.
 
 ### -param Configuration
 A pointer to a caller-allocated [**NET_PACKET_QUEUE_CONFIG**](../netpacketqueue/ns-netpacketqueue-_net_packet_queue_config.md) structure.
@@ -74,6 +74,6 @@ This method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this me
 ## -remarks
 The client calls **NetRxQueueCreate** from within its *[EVT_NET_ADAPTER_CREATE_RXQUEUE](../netadapter/nc-netadapter-evt_net_adapter_create_rxqueue.md)* event callback function. For info on assigning context space to the new object, see [Framework Object Context Space](https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-context-space).
 
-The NETPACKETQUEUE object is a standard WDF object. The framework manages its deletion, which occurs when the parent WDFDEVICE is deleted.
+The NETPACKETQUEUE object is a standard WDF object. The framework manages its deletion, which occurs when the parent NETADAPTER object is deleted.
 
 ## -see-also
