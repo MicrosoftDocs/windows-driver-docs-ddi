@@ -83,6 +83,12 @@ The I/O system uses this parameter on checked builds only.
 
 This macro wraps and assumes the return value of **IoAcquireRemoveLockEx**, which is NTSTATUS.
 
+**IoAcquireRemoveLock** returns STATUS_SUCCESS if the call was successful. One possible error return value is the following:
+
+STATUS_DELETE_PENDING: The driver has received an IRP_MN_REMOVE_DEVICE for the device and has called IoReleaseRemoveLockandWait. That routine is waiting for all remove locks to clear before returning control to the driver.
+
+If the routine returns any value besides STATUS_SUCCESS, do not start any new operations on the device.
+
 ## -remarks
 
 
