@@ -79,6 +79,9 @@ The <i>Tag</i> does not have to be unique, but should be something meaningful du
 
 The I/O system uses this parameter on checked builds only.
 
+## -returns
+
+This macro wraps and assumes the return value of **IoAcquireRemoveLockEx**, which is NTSTATUS.
 
 ## -remarks
 
