@@ -59,6 +59,10 @@ The <b>ARGUMENT_PRESENT</b> macro evaluates to <b>FALSE</b> if the value of <i>A
 
 Specifies the value of the pointer argument to be tested.
 
+## -returns
+**ARGUMENT_PRESENT** returns FALSE if the value of ArgumentPointer is NULL. Otherwise, it returns TRUE.
+
+
 
 ## -remarks
 
