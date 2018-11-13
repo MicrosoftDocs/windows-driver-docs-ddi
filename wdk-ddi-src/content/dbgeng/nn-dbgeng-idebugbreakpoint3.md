@@ -2,11 +2,11 @@
 UID: NN:dbgeng.IDebugBreakpoint3
 title: IDebugBreakpoint3
 author: windows-driver-content
-description: "."
+description: "IDebugBreakpoint3 interface"
 old-location: debugger\idebugbreakpoint3.htm
 tech.root: debugger
 ms.assetid: 42A31C23-9C02-48F6-83CC-CA017F76DE18
-ms.date: 05/03/2018
+ms.date: 11/13/2018
 ms.keywords: IDebugBreakpoint3, IDebugBreakpoint3 interface [Windows Debugging], IDebugBreakpoint3 interface [Windows Debugging],described, dbgeng/IDebugBreakpoint3, debugger.idebugbreakpoint3
 ms.topic: interface
 req.header: dbgeng.h
@@ -46,8 +46,7 @@ req.typenames:
 
 ## -description
 
-
-
+IDebugBreakpoint3 interface.
 
 
 ## -inheritance
