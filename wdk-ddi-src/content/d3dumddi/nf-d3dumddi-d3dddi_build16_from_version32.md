@@ -50,7 +50,10 @@ Converts a 16 bit build from a 32 bit version.
 
 ### -param v
 
-The current value.
+The current version.
+
+## -returns
+
 
 
 ## -remarks
