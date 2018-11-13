@@ -59,6 +59,9 @@ The <b>RtlLeftChild</b> routine returns a pointer to the left child of the speci
 
 Pointer to the node whose left child is to be returned. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>. 
 
+## -returns
+**RtlLeftChild** returns a pointer to the left child of the node at Links, or it returns NULL if the specified node has no left child. 
+
 
 ## -remarks
 

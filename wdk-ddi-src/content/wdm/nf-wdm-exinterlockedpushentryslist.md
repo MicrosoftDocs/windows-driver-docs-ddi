@@ -55,13 +55,13 @@ The <b>ExInterlockedPushEntrySList</b> routine atomically inserts an entry at th
 
 
 
-### -param Head
+### -param ListHead
 
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563810">SLIST_HEADER</a> structure that serves as the header for the sequenced singly linked list. <i>ListHead</i> must have been initialized by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545321">ExInitializeSListHead</a>.
 
 
-### -param Entry
+### -param ListEntry
 
 A pointer to the caller-allocated entry to be inserted. 
 
@@ -70,6 +70,7 @@ A pointer to the caller-allocated entry to be inserted.
 
 A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff552160">KeInitializeSpinLock</a>. You must use this spin lock only with the <b>ExInterlocked<i>Xxx</i>List</b> routines.
 
+## -returns
 
 
 ## -remarks

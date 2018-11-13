@@ -59,6 +59,9 @@ The <b>RtlIsRightChild</b> routine determines whether a given splay link is the 
 
 Pointer to the node. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>. 
 
+## -returns
+**RtlIsRightChild** returns TRUE if the given node at Links is the right child of its parent node, FALSE otherwise. 
+
 
 ## -remarks
 

@@ -59,6 +59,8 @@ The <b>MmGetMdlByteCount</b> macro returns the length, in bytes, of the buffer d
 
 A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> structure that describes the layout of a virtual memory buffer in physical memory. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565421">Using MDLs</a>.
 
+## -returns
+**MmGetMdlByteCount** returns the length, in bytes, of the buffer described by Mdl. 
 
 ## -remarks
 

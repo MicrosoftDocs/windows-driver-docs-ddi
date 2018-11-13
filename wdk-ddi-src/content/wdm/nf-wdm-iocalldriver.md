@@ -49,6 +49,8 @@ req.typenames:
 
 The <b>IoCallDriver</b> routine, wraps **IofCallDriver** that sends an IRP to the driver associated with a specified device object. For more information, see [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
+>Do not call **IofCallDriver**. Call **IoCallDriver** instead.
+
 
 ## -parameters
 
@@ -63,7 +65,8 @@ See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
 See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
-
+## -returns
+See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
 ## -remarks
 

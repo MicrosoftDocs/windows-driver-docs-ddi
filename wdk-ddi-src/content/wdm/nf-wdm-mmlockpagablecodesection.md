@@ -59,7 +59,8 @@ The <b>MmLockPagableCodeSection </b>routine locks a section of driver code, cont
 
 Specifies a symbolic address. This address is typically the name of a driver function within a section of driver code that has been marked with something like <b>#pragma alloc_text (PAGExxxx, driverfunction)</b>. All functions in the <b>PAGExxxx</b> section are then guaranteed to be locked down when this function returns. 
 
-
+## -returns
+**MmLockPagableCodeSection** returns an opaque value that the operating system uses to identify this section of the driver code. This opaque value can be passed subsequently to [**MmLockPagableSectionByHandle**](../ntddk/nf-ntddk-mmlockpagablesectionbyhandle.md) (if the driver unlocks and then later relocks the section) or to [**MmUnlockPagableImageSection**](nf-wdm-mmunlockpagableimagesection.md).
 
 
 ## -remarks
