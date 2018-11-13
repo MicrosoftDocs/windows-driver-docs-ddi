@@ -6,7 +6,7 @@ description: Returns notifications for the IDebugOutputCallbacks2 interface.
 old-location: debugger\idebugoutputcallbacks2_output2.htm
 tech.root: debugger
 ms.assetid: 2FFF9B54-6E77-4D46-B6C0-5BADD208BFCC
-ms.date: 05/03/2018
+ms.date: 11/13/2018
 ms.keywords: DEBUG_OUTCBI_ANY_FORMAT, DEBUG_OUTCBI_DML, DEBUG_OUTCBI_EXPLICIT_FLUSH, DEBUG_OUTCBI_TEXT, IDebugOutputCallbacks2 interface [Windows Debugging],Output2 method, IDebugOutputCallbacks2.Output2, IDebugOutputCallbacks2::Output2, Output2, Output2 method [Windows Debugging], Output2 method [Windows Debugging],IDebugOutputCallbacks2 interface, dbgeng/IDebugOutputCallbacks2::Output2, debugger.idebugoutputcallbacks2_output2
 ms.topic: method
 req.header: dbgeng.h
@@ -57,64 +57,38 @@ Returns notifications for the <a href="https://msdn.microsoft.com/D35D8960-AD9F-
 
 ### -param Which [in]
 
- The kind of notification that is coming in. 
+ The kind of notification that is coming in.  
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="DEBUG_OUTCBI_EXPLICIT_FLUSH"></a><a id="debug_outcbi_explicit_flush"></a><dl>
-<dt><b>DEBUG_OUTCBI_EXPLICIT_FLUSH</b></dt>
-<dt>0x00000001</dt>
-</dl>
-</td>
-<td width="60%">
-Indicates that the callback wants notifications
-of all explicit flushes.
+The notifications are defined in the dbgeng.h header using as #defines.
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="DEBUG_OUTCBI_TEXT"></a><a id="debug_outcbi_text"></a><dl>
-<dt><b>DEBUG_OUTCBI_TEXT</b></dt>
-<dt>0x00000002</dt>
-</dl>
-</td>
-<td width="60%">
-Indicates that the callback wants
-content in text form.
+```
+#define DEBUG_OUTPUT_NORMAL            0x00000001
+// Error output.
+#define DEBUG_OUTPUT_ERROR             0x00000002
+// Warnings.
+#define DEBUG_OUTPUT_WARNING           0x00000004
+// Additional output.
+#define DEBUG_OUTPUT_VERBOSE           0x00000008
+// Prompt output.
+#define DEBUG_OUTPUT_PROMPT            0x00000010
+// Register dump before prompt.
+#define DEBUG_OUTPUT_PROMPT_REGISTERS  0x00000020
+// Warnings specific to extension operation.
+#define DEBUG_OUTPUT_EXTENSION_WARNING 0x00000040
+// Debuggee debug output, such as from OutputDebugString.
+#define DEBUG_OUTPUT_DEBUGGEE          0x00000080
+// Debuggee-generated prompt, such as from DbgPrompt.
+#define DEBUG_OUTPUT_DEBUGGEE_PROMPT   0x00000100
+// Symbol messages, such as for !sym noisy.
+#define DEBUG_OUTPUT_SYMBOLS           0x00000200
+// Output which modifies the status bar
+#define DEBUG_OUTPUT_STATUS            0x00000400
+// Structured XML status messages
+#define DEBUG_OUTPUT_XML               0x00000800
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="DEBUG_OUTCBI_DML"></a><a id="debug_outcbi_dml"></a><dl>
-<dt><b>DEBUG_OUTCBI_DML</b></dt>
-<dt>0x00000004
-</dt>
-</dl>
-</td>
-<td width="60%">
-Indicates that the callback wants
-content in markup form.
+```
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="DEBUG_OUTCBI_ANY_FORMAT"></a><a id="debug_outcbi_any_format"></a><dl>
-<dt><b>DEBUG_OUTCBI_ANY_FORMAT</b></dt>
-<dt>0x00000006</dt>
-</dl>
-</td>
-<td width="60%">
-Indicates that the callback wants
-content in any format.
-
-</td>
-</tr>
-</table>
- 
+For more information, see [DEBUG_OUTPUT_XXX](https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-output-xxx).
 
 
 ### -param Flags [in]
