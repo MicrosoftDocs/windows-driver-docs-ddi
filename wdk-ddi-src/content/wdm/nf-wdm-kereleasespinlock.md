@@ -58,12 +58,13 @@ The <b>KeReleaseSpinLock</b> routine releases a spin lock and restores the origi
 
 ### -param a [in]
 
-Specifies the IRQL value saved from the preceding call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff551917">KeAcquireSpinLock</a>.
+Pointer to a KSPIN_LOCK spin lock for which the caller provides the storage.
 
 
 ### -param b [in, out]
+Specifies the KIRQL value saved from the preceding call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff551917">KeAcquireSpinLock</a>.
 
-Pointer to a spin lock for which the caller provides the storage.
+
 
 
 

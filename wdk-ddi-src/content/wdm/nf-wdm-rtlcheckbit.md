@@ -68,7 +68,9 @@ A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 
 Specifies which bit to check. This is a zero-based value indicating the position of the bit to be tested. 
 
+## -returns
 
+**RtlCheckBit** returns zero if the given bit is clear, or one if the given bit is set.
 
 ## -remarks
 

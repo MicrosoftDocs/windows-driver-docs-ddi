@@ -61,7 +61,8 @@ The <b>MmGetSystemAddressForMdl</b> routine is <u>obsolete</u> for Windows 2000 
 
 Pointer to a buffer whose corresponding base virtual address is to be mapped. 
 
-
+## -returns
+**MmGetSystemAddressForMdl** returns the base system-space virtual address that maps the physical pages described by the given MDL.
 
 
 ## -remarks
