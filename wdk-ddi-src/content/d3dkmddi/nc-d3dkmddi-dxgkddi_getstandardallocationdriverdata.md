@@ -71,37 +71,10 @@ The <i>DxgkDdiGetStandardAllocationDriverData</i> function returns a description
 
 <i>DxgkDdiGetStandardAllocationDriverData</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiGetStandardAllocationDriverData</i> successfully returned a description of the standard allocation type.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiGetStandardAllocationDriverData</i> could not allocate memory that was required for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|DxgkDdiGetStandardAllocationDriverData successfully returned a description of the standard allocation type.|
+|STATUS_NO_MEMORY|DxgkDdiGetStandardAllocationDriverData could not allocate memory that was required for it to complete.|
 
 
 ## -remarks

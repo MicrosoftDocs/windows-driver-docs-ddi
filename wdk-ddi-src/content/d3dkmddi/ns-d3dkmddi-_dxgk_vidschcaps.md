@@ -123,34 +123,10 @@ Supported starting with Windows 8.
 
 ### -field No64BitAtomics
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>TRUE</dt>
-</dl>
-</td>
-<td width="60%">
-Indicates a GPU is capable of only updating 32 bit values atomically. In this case, the OS will handle the fence wraparound case automatically, however it will place a restriction that an outstanding wait and signal fence values cannot be more than <b>UINT_MAX</b>/2 apart from the last signaled fence value.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>FALSE</dt>
-</dl>
-</td>
-<td width="60%">
-Indicates a GPU is capable of updating 64 bit values atomically as visible by the CPU.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|TRUE|Indicates a GPU is capable of only updating 32 bit values atomically. In this case, the OS will handle the fence wraparound case automatically, however it will place a restriction that an outstanding wait and signal fence values cannot be more than UINT_MAX/2 apart from the last signaled fence value.|
+|FALSE|Indicates a GPU is capable of updating 64 bit values atomically as visible by the CPU.|
  
 
 Supported starting with Windows 10.

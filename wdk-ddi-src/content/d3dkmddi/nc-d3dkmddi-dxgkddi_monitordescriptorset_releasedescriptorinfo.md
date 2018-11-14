@@ -71,45 +71,11 @@ A pointer to the D3DKMDT_MONITOR_DESCRIPTOR structure to be released.
 
 The <b>pfnReleaseDescriptorInfo</b> function returns one of the following values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_MONITOR_DESCRIPTOR</b></dt>
-</dl>
-</td>
-<td width="60%">
-The descriptor supplied in <i>pMonitorDescriptorInfo</i> was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_MONITOR_DESCRIPTORSET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hMonitorDescriptorSet</i> was invalid.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_INVALID_MONITOR_DESCRIPTOR|The descriptor supplied in pMonitorDescriptorInfo was invalid.|
+|STATUS_GRAPHICS_INVALID_MONITOR_DESCRIPTORSET|The handle supplied in hMonitorDescriptorSet was invalid.|
  
 
 

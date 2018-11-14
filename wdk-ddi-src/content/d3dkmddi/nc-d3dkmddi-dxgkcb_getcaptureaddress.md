@@ -66,34 +66,11 @@ The <b>DxgkCbGetCaptureAddress</b> function retrieves the physical address and s
 
 <b>DxgkCbGetCaptureAddress</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>DxgkCbGetCaptureAddress</b> successfully retrieved the capture buffer information.
+| **Return code** | **Description** | 
+|:--|:--|
+| **STATUS_SUCCESS** | DxgkCbGetCaptureAddress successfully retrieved the capture buffer information. | 
+| **STATUS_INVALID_PARAMETER** | The allocation handle that is specified in the hAllocation member of the [DXGKARGCB_GETCAPTUREADDRESS](https://msdn.microsoft.com/library/windows/hardware/ff557531) structure that the pData parameter pointed to was either invalid or did not represent a capture buffer. | 
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The allocation handle that is specified in the <b>hAllocation</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557531">DXGKARGCB_GETCAPTUREADDRESS</a> structure that the <i>pData</i> parameter pointed to was either invalid or did not represent a capture buffer. 
-
-</td>
-</tr>
-</table>
  
 
 <i>DxgkCbGetCaptureAddress</i> might also return other error codes that are defined in Ntstatus.h.

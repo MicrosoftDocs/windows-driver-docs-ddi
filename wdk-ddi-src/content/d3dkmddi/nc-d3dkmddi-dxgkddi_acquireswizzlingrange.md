@@ -71,45 +71,11 @@ The <i>DxgkDdiAcquireSwizzlingRange</i> function makes an allocation accessible 
 
 <i>DxgkDdiAcquireSwizzlingRange</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiAcquireSwizzlingRange</i> successfully made the allocation accessible.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_UNSWIZZLING_APERTURE_UNSUPPORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiAcquireSwizzlingRange</i> could not program the swizzling range for the allocation. The video memory manager fails to acquire the swizzling range without making further attempts.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_UNSWIZZLING_APERTURE_UNAVAILABLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiAcquireSwizzlingRange</i> could not program the swizzling range for the allocation because another swizzling range is currently using the graphics processing unit (GPU) resources that are required. The video memory manager attempts to release a range that is currently in use and then attempts to set up the swizzling range again.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|*DxgkDdiAcquireSwizzlingRange* successfully made the allocation accessible.|
+|STATUS_GRAPHICS_UNSWIZZLING_APERTURE_UNSUPPORTED|*DxgkDdiAcquireSwizzlingRange* could not program the swizzling range for the allocation. The video memory manager fails to acquire the swizzling range without making further attempts.|
+|STATUS_GRAPHICS_UNSWIZZLING_APERTURE_UNAVAILABLE|*DxgkDdiAcquireSwizzlingRange* could not program the swizzling range for the allocation because another swizzling range is currently using the graphics processing unit (GPU) resources that are required. The video memory manager attempts to release a range that is currently in use and then attempts to set up the swizzling range again.|
  
 
 

@@ -71,41 +71,10 @@ The <b>pfnAcquirePinnedModeInfo</b> function returns a descriptor of the pinned 
 
 The <b>pfnAcquirePinnedModeInfo</b> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded by doing one of the following:
-
-Setting <i>ppPinnedVidPnTargetModeInfo</i> to the address of D3DKMDT_VIDPN_TARGET_MODE structure that describes the pinned mode.
-
-Setting <i>ppPinnedVidPnTargetModeInfo</i> to <b>NULL</b> to indicate that the target mode set has no pinned mode. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN_TARGETMODESET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPnTargetModeSet</i> was invalid.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded by doing one of the following:<br/>1. Setting ppPinnedVidPnTargetModeInfo to the address of D3DKMDT_VIDPN_TARGET_MODE structure that describes the pinned mode.<br/>2. Setting ppPinnedVidPnTargetModeInfo to NULL to indicate that the target mode set has no pinned mode.|
+|STATUS_GRAPHICS_INVALID_VIDPN_TARGETMODESET|The handle supplied in hVidPnTargetModeSet was invalid.|
 
 
 ## -remarks

@@ -71,56 +71,12 @@ The <b>DXGKDDI_MONITORFREQUENCYRANGESET_ACQUIREFIRSTFREQUENCYRANGEINFO</b> funct
 
 The <b>pfnAcquireFirstFrequencyRangeInfo</b> function returns one of the following values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function successfully returned the first frequency range descriptor.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_DATASET_IS_EMPTY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded, but there were no frequency range descriptors in the set.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-An invalid parameter was supplied.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_MONITOR_FREQUENCYRANGESET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hMonitorFrequencyRangeSet</i> was invalid.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function successfully returned the first frequency range descriptor.|
+|STATUS_GRAPHICS_DATASET_IS_EMPTY|The function succeeded, but there were no frequency range descriptors in the set.|
+|STATUS_INVALID_PARAMETER|An invalid parameter was supplied.|
+|STATUS_INVALID_MONITOR_FREQUENCYRANGESET|The handle supplied in hMonitorFrequencyRangeSet was invalid.|
  
 
 This function might also return other error codes defined in <i>Ntstatus.h</i>.

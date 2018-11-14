@@ -71,49 +71,11 @@ The <b>pfnReleaseModeInfo</b> function releases a <a href="https://msdn.microsof
 
 The <b>pfnReleaseModeInfo</b> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN_TARGETMODESET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPnTargetModeSet</i> was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_TARGET_MODE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The pointer supplied in <i>pVidPnTargetModeInfo</i> was invalid.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_GRAPHICS_INVALID_VIDPN_TARGETMODESET|The handle supplied in hVidPnTargetModeSet was invalid.|
+|STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_TARGET_MODE|The pointer supplied in pVidPnTargetModeInfo was invalid.|
 
 ## -remarks
 

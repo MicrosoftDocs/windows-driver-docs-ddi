@@ -69,37 +69,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn90
 
 
 
-<table>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>STATUS_SUCCESS</dt>
-</dl>
-</td>
-<td width="60%">
-The submitted command is well-formed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>(other)</dt>
-</dl>
-</td>
-<td width="60%">
-All other return values will lead to the OS <i>bugcheck</i>.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Value|Description|
+|--- |--- |
+|STATUS_SUCCESS|The submitted command is well-formed.|
+|(other)|All other return values will lead to the OS bugcheck.|
 
 
 ## -see-also

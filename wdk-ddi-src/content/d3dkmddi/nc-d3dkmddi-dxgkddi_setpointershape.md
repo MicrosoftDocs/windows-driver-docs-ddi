@@ -71,37 +71,10 @@ The <i>DxgkDdiSetPointerShape</i> function sets the appearance and location of t
 
 <i>DxgkDdiSetPointerShape</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The mouse pointer is successfully drawn.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiSetPointerShape</i> could not allocate memory that was required for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The mouse pointer is successfully drawn.|
+|STATUS_NO_MEMORY|DxgkDdiSetPointerShape could not allocate memory that was required for it to complete.|
 
 
 ## -remarks

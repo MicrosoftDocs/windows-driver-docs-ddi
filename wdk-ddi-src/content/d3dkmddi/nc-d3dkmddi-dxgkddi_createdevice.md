@@ -71,34 +71,10 @@ The <i>DxgkDdiCreateDevice</i> function creates a graphics context device that i
 
 <i>DxgkDdiCreateDevice</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiCreateDevice</i> successfully created the graphics context device.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiCreateDevice</i> could not allocate memory that was required for it to complete.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|DxgkDdiCreateDevice successfully created the graphics context device.|
+|STATUS_NO_MEMORY|DxgkDdiCreateDevice could not allocate memory that was required for it to complete.|
  
 
 

@@ -67,45 +67,13 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh45
 
 ## -returns
 
+Returns one of the following values:
 
+| **Return code** | **Description** | 
+|:--|:--|
+| **STATUS_SUCCESS** |The present operation completed successfully. | 
+| **STATUS_PENDING** | The present operation has been sent to the software or hardware queue to complete. <br/>In this case, the KMDOD should use an interrupt and deferred procedure call (DPC) to report progress of the current present operation. Otherwise the operating system uses the [Timeout Detection and Recovery (TDR)](https://msdn.microsoft.com/f410eec7-026f-41e0-8c60-72f651659ead)  process, which reports an error and requires the KMDOD to reinitialize itself and to reset the GPU.<br/>Note that this status code should not be returned for synchronous mode, as described in Remarks. | 
 
-
-      Returns one of the following values:
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-        The present operation completed successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_PENDING</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-        The present operation has been sent to the software or hardware queue to complete.
-
-In this case, the KMDOD should use an interrupt and deferred procedure call (DPC) to report progress of the current present operation. Otherwise the operating system uses the <a href="https://msdn.microsoft.com/f410eec7-026f-41e0-8c60-72f651659ead">Timeout Detection and Recovery (TDR)</a> process, which reports an error and requires the KMDOD to reinitialize itself and to reset the GPU.
-
- Note that this status code should not be returned for synchronous mode, as described in Remarks.
-
-</td>
-</tr>
-</table>
  
 
 The driver can also return any other error status code defined in Ntstatus.h to indicate issues that have occurred with the present operation.

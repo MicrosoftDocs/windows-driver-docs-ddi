@@ -71,48 +71,11 @@ The <i>DxgkDdiBuildPagingBuffer</i> function builds paging buffers for memory op
 
 <i>DxgkDdiBuildPagingBuffer</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiBuildPagingBuffer</i> successfully built a paging buffer.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_ALLOCATION_BUSY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The GPU is currently using the allocation for the paging buffer.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INSUFFICIENT_DMA_BUFFER</b></dt>
-</dl>
-</td>
-<td width="60%">
-More space is required in the paging buffer (that is, in the <b>pDmaBuffer</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557540">DXGKARG_BUILDPAGINGBUFFER</a> structure that the <i>pBuildPagingBuffer</i> parameter points to).
-
-</td>
-</tr>
-</table>
- 
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **STATUS_SUCCESS** | DxgkDdiBuildPagingBuffersuccessfully built a paging buffer. | 
+| **STATUS_GRAPHICS_ALLOCATION_BUSY** | The GPU is currently using the allocation for the paging buffer. |
+| **STATUS_GRAPHICS_INSUFFICIENT_DMA_BUFFER** | More space is required in the paging buffer (that is, in the pDmaBuffer member of the [DXGKARG_BUILDPAGINGBUFFER](https://msdn.microsoft.com/library/windows/hardware/ff557540) structure that the pBuildPagingBuffer parameter points to). | 
 
 
 ## -remarks
@@ -121,24 +84,11 @@ More space is required in the paging buffer (that is, in the <b>pDmaBuffer</b> m
 
 The <i>DxgkDdiBuildPagingBuffer</i> function is called to build special purpose direct memory access (DMA) buffers that are known as <i>paging buffers</i>. A paging buffer contains an operation that moves the content of portions of allocations:
 
-<ul>
-<li>
-Within a segment of an allocation.
+* Within a segment of an allocation.
+* Between segments of allocations.
+* From a segment of an allocation to system memory.
+* From system memory to a segment of an allocation.
 
-</li>
-<li>
-Between segments of allocations.
-
-</li>
-<li>
-From a segment of an allocation to system memory.
-
-</li>
-<li>
-From system memory to a segment of an allocation.
-
-</li>
-</ul>
 The display miniport driver must write the appropriate graphics processing unit (GPU) instruction in the provided paging buffer (in the <b>pDmaBuffer</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff557540">DXGKARG_BUILDPAGINGBUFFER</a>) according to the requested paging operation; and then the driver must return the paging buffer back to the video memory manager (which is part of <i>Dxgkrnl.sys</i>). The GPU scheduler (which is also part of <i>Dxgkrnl.sys</i>) subsequently calls the driver's <a href="https://msdn.microsoft.com/de1925ab-e444-4cf6-acd9-8fdab26afcec">DxgkDdiSubmitCommand</a> function to request that the driver submit the paging buffer as a regular DMA buffer to the GPU. 
 
 <div class="alert"><b>Note</b>  Before the video memory manager submits the paging buffer, it calls the driver's <a href="https://msdn.microsoft.com/363be784-0e3b-4f9a-a643-80857478bbae">DxgkDdiPatch</a> function to assign (that is, <i>patch</i>) physical addresses to the paging buffer; however, in the call to <i>DxgkDdiPatch</i>, the video memory manager does not provide patch-location lists. The driver's <i>DxgkDdiPatch</i> function can perform last-minute updates to the paging buffer; however, the driver's <i>DxgkDdiPatch</i> function cannot change the size of the paging buffer.</div>
@@ -248,13 +198,8 @@ The system's memory manager ensures that the transfer is invisible to the applic
 
 The following code example shows how to use <i>DxgkDdiBuildPagingBuffer</i>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS ntStatus;
+```cpp
+NTSTATUS ntStatus;
 DXGKARG_BUILDPAGINGBUFFER param;
 
 // The driver receives the following paging operation to build:
@@ -308,10 +253,9 @@ do {
         // This situation should never occur because the driver can 
         // fail the call only if it requires more DMA buffer space.
     }
-} while(!NT_SUCCESS(ntStatus))</pre>
-</td>
-</tr>
-</table></span></div>
+} while(!NT_SUCCESS(ntStatus))
+```
+
 
 
 

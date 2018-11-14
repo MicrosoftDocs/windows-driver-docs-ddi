@@ -78,37 +78,10 @@ The <i>DxgkDdiControlInterrupt</i> function enables or disables the given interr
 
 <i>DxgkDdiControlInterrupt</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The interrupt type was successfully enabled or disabled on the graphics hardware.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiControlInterrupt</i> does not support enabling or disabling the specified interrupt type.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The interrupt type was successfully enabled or disabled on the graphics hardware.|
+|STATUS_NOT_IMPLEMENTED|*DxgkDdiControlInterrupt* does not support enabling or disabling the specified interrupt type.|
 
 
 ## -remarks

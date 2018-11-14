@@ -71,59 +71,12 @@ The <b>pfnReleaseTargetModeSet</b> function releases a handle to a target mode s
 
 The <b>pfnReleaseTargetModeSet</b> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPn</i> was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN_TARGETMODESET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPnTargetModeSet</i> was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_RESOURCES_NOT_RELATED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The VidPN identified by <i>hVidPn</i> does not contain the target mode set identified by <i>hVidPnTargetModeSet</i>.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_GRAPHICS_INVALID_VIDPN|The handle supplied in hVidPn was invalid.|
+|STATUS_GRAPHICS_INVALID_VIDPN_TARGETMODESET|The handle supplied in hVidPnTargetModeSet was invalid.|
+|STATUS_GRAPHICS_RESOURCES_NOT_RELATED|The VidPN identified by hVidPn does not contain the target mode set identified by hVidPnTargetModeSet.|
 
 
 ## -remarks

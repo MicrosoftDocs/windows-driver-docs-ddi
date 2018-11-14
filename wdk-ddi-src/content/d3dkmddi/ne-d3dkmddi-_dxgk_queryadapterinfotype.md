@@ -266,44 +266,15 @@ The device type capabilities.
 
 The display miniport driver must fill the buffer pointed to by the <b>pOutputData</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a> structure as follows:
 
-<table>
-<tr>
-<th>Value of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>.<b>Type</b></th>
-<th>Contents of output buffer pointed to by <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>.<b>pOutputData</b></th>
-</tr>
-<tr>
-<td><b>DXGKQAITYPE_UMDRIVERPRIVATE</b></td>
-<td>Proprietary buffer</td>
-</tr>
-<tr>
-<td><b>DXGKQAITYPE_DRIVERCAPS</b></td>
-<td>Populated <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a> structure</td>
-</tr>
-<tr>
-<td><b>DXGKQAITYPE_QUERYSEGMENT</b></td>
-<td>Populated <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout.md">DXGK_QUERYSEGMENTOUT</a> structure</td>
-</tr>
-<tr>
-<td><b>DXGKQAITYPE_QUERYSEGMENT3</b></td>
-<td>Populated <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout3.md">DXGK_QUERYSEGMENTOUT3</a> structure</td>
-</tr>
-<tr>
-<td><b>DXGKQAITYPE_NUMPOWERCOMPONENTS</b></td>
-<td>A UINT value that specifies the number of power components used by the display miniport driver</td>
-</tr>
-<tr>
-<td><b>DXGKQAITYPE_POWERCOMPONENTINFO</b></td>
-<td>Populated <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_component.md">DXGK_POWER_RUNTIME_COMPONENT</a> structure that provides information about the <i>n</i>th power component, where <i>n</i> is the component index specified by  <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>.<b>pInputData</b>  in a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> function</td>
-</tr>
-<tr>
-<td><b>DXGKQAITYPE_HISTORYBUFFERPRECISION</b></td>
-<td>Populated <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_historybufferprecision.md">DXGKARG_HISTORYBUFFERPRECISION</a> structure</td>
-</tr>
-</table>
- 
-
-
-
+| **Value of [DXGKARG_QUERYADAPTERINFO](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryadapterinfo.md) .Type** | **Contents of output buffer pointed to by [DXGKARG_QUERYADAPTERINFO](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryadapterinfo.md) .pOutputData** | 
+|:--|:--|
+| **DXGKQAITYPE_UMDRIVERPRIVATE** | Proprietary buffer | 
+| **DXGKQAITYPE_DRIVERCAPS** | Populated [DXGK_DRIVERCAPS](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps.md)  structure | 
+| **DXGKQAITYPE_QUERYSEGMENT** | Populated [DXGK_QUERYSEGMENTOUT](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/ns-d3dkmddi-_dxgk_querysegmentout.md)  structure | 
+| **DXGKQAITYPE_QUERYSEGMENT3** | Populated [DXGK_QUERYSEGMENTOUT3](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/ns-d3dkmddi-_dxgk_querysegmentout3.md) structure | 
+| **DXGKQAITYPE_NUMPOWERCOMPONENTS** | A UINT value that specifies the number of power components used by the display miniport driver | 
+| **DXGKQAITYPE_POWERCOMPONENTINFO** | Populated [DXGK_POWER_RUNTIME_COMPONENT](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/ns-d3dkmddi-_dxgk_power_runtime_component.md)  structure that provides information about the nth power component, where n is the component index specified by [DXGKARG_QUERYADAPTERINFO](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryadapterinfo.md) .pInputData in a call to the [DxgkDdiQueryAdapterInfo](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo.md)  function | 
+| **DXGKQAITYPE_HISTORYBUFFERPRECISION** | Populated [DXGKARG_HISTORYBUFFERPRECISION](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_historybufferprecision.md) structure |
 
 ## -see-also
 
