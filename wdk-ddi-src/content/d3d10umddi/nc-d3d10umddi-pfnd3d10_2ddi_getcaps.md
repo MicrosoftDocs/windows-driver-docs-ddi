@@ -47,13 +47,10 @@ req.typenames:
 ## -description
 
 
-The <i>GetCaps(D3D10_2)</i> function queries for capabilities of the graphics adapter. 
+The *GetCaps(D3D10_2)* function queries for capabilities of the graphics adapter. 
 
 
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -72,61 +69,21 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 
 
-<i>GetCaps(D3D10_2)</i> returns one of the following values:
+*GetCaps(D3D10_2)* returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The capabilities are successfully retrieved.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>GetCaps(D3D10_2)</i> could not allocate memory that is required for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|---|---|
+|S_OK|The capabilities are successfully retrieved.|
+|E_OUTOFMEMORY|GetCaps(D3D10_2) could not allocate memory that is required for it to complete.|
 
 ## -remarks
-
-
 
 The data that is returned by the <i>GetCaps(D3D10_2)</i> function in the <b>pData</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541887">D3D10_2DDIARG_GETCAPS</a> structure depends on the type of data that is requested (that is, the data depends on the <b>Type</b> member of D3D10_2DDIARG_GETCAPS and sometimes on the <b>pInfo</b> member). 
 
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541887">D3D10_2DDIARG_GETCAPS</a>
 
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541900">D3D10_2DDI_ADAPTERFUNCS</a>
  
-
- 
-

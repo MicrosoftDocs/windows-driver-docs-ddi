@@ -67,38 +67,15 @@ Specifies the size, in bytes, of the D3DLIGHTINGCAPS structure.
 ### -field dwCaps
 
  Specifies flags describing the capabilities of the lighting module. The following flags are defined:   
-  
-  
-  
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>D3DLIGHTCAPS_DIRECTIONAL</td>
-<td>Directional lights are supported. 
-</td>
-</tr>
-<tr>
-<td>D3DLIGHTCAPS_GLSPOT</td>
-<td>OpenGL-style spotlights are supported.</td>
-</tr>
-<tr>
-<td>D3DLIGHTCAPS_PARALLELPOINT</td>
-<td>Parallel-point lights are supported.</td>
-</tr>
-<tr>
-<td>D3DLIGHTCAPS_POINT</td>
-<td>Point lights are supported.</td>
-</tr>
-<tr>
-<td>D3DLIGHTCAPS_SPOT</td>
-<td>Spotlights are supported. 
-</td>
-</tr>
-</table>
+
+|Value|Meaning|
+|--- |--- |
+|D3DLIGHTCAPS_DIRECTIONAL|Directional lights are supported.|
+|D3DLIGHTCAPS_GLSPOT|OpenGL-style spotlights are supported.|
+|D3DLIGHTCAPS_PARALLELPOINT|Parallel-point lights are supported.|
+|D3DLIGHTCAPS_POINT|Point lights are supported.|
+|D3DLIGHTCAPS_SPOT|Spotlights are supported.|
  
 
 
@@ -106,22 +83,10 @@ Specifies the size, in bytes, of the D3DLIGHTINGCAPS structure.
 
  Specifies flags indicating whether the lighting model is RGB or monochrome. The following flags are defined: 
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>D3DLIGHTINGMODEL_MONO </td>
-<td>The lighting model is monochromatic. 
- </td>
-</tr>
-<tr>
-<td>D3DLIGHTINGMODEL_RGB</td>
-<td>The lighting model is RGB. 
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|D3DLIGHTINGMODEL_MONO|The lighting model is monochromatic.|
+|D3DLIGHTINGMODEL_RGB|The lighting model is RGB.|
  
 
 

@@ -64,53 +64,13 @@ Specifies the size in bytes of this structure.
 
 Indicates the callbacks associated with this structure that the driver has implemented. For every bit the driver sets in <b>dwFlags</b>, the driver must initialize the corresponding function pointer member of this structure. This member can be the bitwise-OR of one or more of the following flags:
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DHAL3_CB32_CLEAR2
+| **Flag** | **Meaning** | 
+|:--|:--|
+| D3DHAL3_CB32_CLEAR2 | Not used in DirectX 7.0 and later versions. | 
+| D3DHAL3_CB32_DRAWPRIMITIVES2 | The DrawPrimitives2member points to a driver-implemented [D3dDrawPrimitives2](https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5)  callback. | 
+| D3DHAL3_CB32_RESERVED | Not used in DirectX 7.0 and later versions. | 
+| D3DHAL3_CB32_VALIDATETEXTURESTAGESTATE | The ValidateTextureStageStatemember points to a driver-implemented [D3dValidateTextureStageState](https://msdn.microsoft.com/library/windows/hardware/ff549064) callback. | 
 
-</td>
-<td>
-Not used in DirectX 7.0 and later versions.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DHAL3_CB32_DRAWPRIMITIVES2
-
-</td>
-<td>
-The <b>DrawPrimitives2</b> member points to a driver-implemented <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> callback.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DHAL3_CB32_RESERVED
-
-</td>
-<td>
-Not used in DirectX 7.0 and later versions.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DHAL3_CB32_VALIDATETEXTURESTAGESTATE
-
-</td>
-<td>
-The <b>ValidateTextureStageState</b> member points to a driver-implemented <a href="https://msdn.microsoft.com/library/windows/hardware/ff549064">D3dValidateTextureStageState</a> callback.
-
-</td>
-</tr>
-</table>
- 
 
 
 ### -field Clear2

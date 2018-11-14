@@ -111,72 +111,14 @@ Specifies the location where the driver writes the return code for <a href="http
 
 When the Direct3D runtime calls the driver's <a href="https://msdn.microsoft.com/c960c3f4-7565-4163-b8c2-a13643110c8c">D3dContextCreate</a> function, the runtime specifies a number that indicates the runtime's user-mode version in the <b>dwhContext</b> member. The following table shows a mapping of numbers and user-mode versions.
 
-<table>
-<tr>
-<th>Number</th>
-<th>DirectX user-mode version</th>
-</tr>
-<tr>
-<td>
-5
-
-</td>
-<td>
-9.0
-
-</td>
-</tr>
-<tr>
-<td>
-4
-
-</td>
-<td>
-8.0
-
-</td>
-</tr>
-<tr>
-<td>
-3
-
-</td>
-<td>
-7.0
-
-</td>
-</tr>
-<tr>
-<td>
-2
-
-</td>
-<td>
-6.0
-
-</td>
-</tr>
-<tr>
-<td>
-1
-
-</td>
-<td>
-5.0
-
-</td>
-</tr>
-<tr>
-<td>
-0
-
-</td>
-<td>
-3.0
-
-</td>
-</tr>
-</table>
+|Number|DirectX user-mode version|
+|--- |--- |
+|5|9.0|
+|4|8.0|
+|3|7.0|
+|2|6.0|
+|1|5.0|
+|0|3.0|
  
 
 If the driver successfully creates a context, the driver returns the context ID in <b>dwhContext</b> for the Direct3D runtime to use when communicating with the driver. 

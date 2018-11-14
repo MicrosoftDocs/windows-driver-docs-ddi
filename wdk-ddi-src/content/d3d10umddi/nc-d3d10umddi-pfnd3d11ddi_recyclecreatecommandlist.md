@@ -87,34 +87,10 @@ A handle to the command list that the driver should use, when it calls back into
 
 <i>RecycleCreateCommandList</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The command list is successfully created.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>RecycleCreateCommandList</i> could not allocate memory that is required for it to complete.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The command list is successfully created.|
+|E_OUTOFMEMORY|RecycleCreateCommandList could not allocate memory that is required for it to complete.|
  
 
 

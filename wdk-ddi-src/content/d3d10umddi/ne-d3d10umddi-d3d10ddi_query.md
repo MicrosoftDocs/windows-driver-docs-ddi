@@ -95,99 +95,12 @@ Only the difference between two independent statistic requests will provide mean
 
 The following are examples of the interaction between the values in the <b>IAVertices</b>, <b>IAPrimitives</b>, and <b>VSInvocations</b> members of D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS with respect to post vertex shader (VS) caching.
 
-<table>
-<tr>
-<td>
-Scenario
-
-</td>
-<td>
-<b>IAVertices</b> valid value
-
-</td>
-<td>
-<b>IAPrimitives</b> valid value
-
-</td>
-<td>
-<b>VSInvocations</b> valid value
-
-</td>
-</tr>
-<tr>
-<td>
-Draw indexed triangle strip of 4 primitives (with all indices the same value)
-
-</td>
-<td>
-6
-
-</td>
-<td>
-4
-
-</td>
-<td>
-1--12
-
-</td>
-</tr>
-<tr>
-<td>
-Draw indexed triangle list of 4 primitives (with all indices the same value)
-
-</td>
-<td>
-12
-
-</td>
-<td>
-4
-
-</td>
-<td>
-1--12
-
-</td>
-</tr>
-<tr>
-<td>
-Draw triangle strip of 4 primitives
-
-</td>
-<td>
-6
-
-</td>
-<td>
-4
-
-</td>
-<td>
-6--12
-
-</td>
-</tr>
-<tr>
-<td>
-Draw triangle list of 4 primitives
-
-</td>
-<td>
-12
-
-</td>
-<td>
-4
-
-</td>
-<td>
-6--12
-
-</td>
-</tr>
-</table>
- 
+| Scenario | IAVertices valid value | IAPrimitives valid value | VSInvocations valid value | 
+|:--|:--|:--|:--|
+| Draw indexed triangle strip of 4 primitives (with all indices the same value) | 6 | 4 | 1--12 | 
+| Draw indexed triangle list of 4 primitives (with all indices the same value) | 12 | 4 | 1--12 | 
+| Draw triangle strip of 4 primitives | 6 | 4 | 6--12 | 
+| Draw triangle list of 4 primitives | 12 | 4 | 6--12 | 
 
 Partial primitives will be allowed to fall within range of values, similar to the way vertex caching behaves. Therefore, when partial primitives are possible, statistics should fall between a pipeline that clips them as soon as possible (before even the input assembler (IA) counts them), or as late as possible (post clipper and pre-pixel shader (PS)). Stream output and a <b>NULL</b> GS are flexible as to whether they actually cause GS invocations to occur. 
 

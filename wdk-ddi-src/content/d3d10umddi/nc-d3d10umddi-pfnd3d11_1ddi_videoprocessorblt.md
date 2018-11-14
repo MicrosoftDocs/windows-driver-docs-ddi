@@ -107,35 +107,10 @@ A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/har
 
 <b>VideoProcessorBlt</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The video processing operation completed successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-        Memory was not available to complete the operation.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The video processing operation completed successfully.|
+|E_OUTOFMEMORY|Memory was not available to complete the operation.|
  
 
 

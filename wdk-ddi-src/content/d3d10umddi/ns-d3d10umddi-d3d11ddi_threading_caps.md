@@ -59,42 +59,12 @@ The D3D11DDI_THREADING_CAPS structure contains display device threading capabili
 
 [in] A valid bitwise OR of values that describe the threading capabilities of the driver. The Direct3D runtime supports the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3D11DDICAPS_FREETHREADED (0x1)
+|Value|Meaning|
+|--- |--- |
+|D3D11DDICAPS_FREETHREADED (0x1)|The driver supports free threading.|
+|D3D11DDICAPS_COMMANDLISTS (0x2)|This value is deprecated.The driver supports command lists. To support D3D11DDICAPS_COMMANDLISTS, the driver must also support D3D11DDICAPS_FREETHREADED.|
+|D3D11DDICAPS_COMMANDLISTS_BUILD_2 (0x4)|The driver supports command lists. To support D3D11DDICAPS_COMMANDLISTS_BUILD_2, the driver must also support D3D11DDICAPS_FREETHREADED.|
 
-</td>
-<td>
-The driver supports free threading.
-
-</td>
-</tr>
-<tr>
-<td>
-D3D11DDICAPS_COMMANDLISTS (0x2)
-
-</td>
-<td>
-This value is deprecated.The driver supports command lists. To support D3D11DDICAPS_COMMANDLISTS, the driver must also support D3D11DDICAPS_FREETHREADED.
-
-</td>
-</tr>
-<tr>
-<td>
-D3D11DDICAPS_COMMANDLISTS_BUILD_2 (0x4)
-
-</td>
-<td>
-The driver supports command lists. To support D3D11DDICAPS_COMMANDLISTS_BUILD_2, the driver must also support D3D11DDICAPS_FREETHREADED. 
-
-</td>
-</tr>
-</table>
  
 
 
