@@ -46,95 +46,36 @@ req.typenames:
 
 # D3DKMTSetAllocationPriority function
 
-
 ## -description
-
 
 The <b>D3DKMTSetAllocationPriority</b> function sets the priority level of a resource or list of allocations.
 
-
 ## -parameters
 
-
-
-
 ### -param D3DKMT_SETALLOCATIONPRIORITY
-
-
-
-
-
 
 *pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548262">D3DKMT_SETALLOCATIONPRIORITY</a> structure that contains information for setting the priority level of a resource or list of allocations.
 
-
 ## -returns
-
-
 
 <b>D3DKMTSetAllocationPriority</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-Priority level for allocations was successfully set.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_DEVICE_REMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics adapter was stopped or the display device was reset.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|Priority level for allocations was successfully set.|
+|STATUS_DEVICE_REMOVED|The graphics adapter was stopped or the display device was reset.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
  
-
 This function might also return other NTSTATUS values.
-
-
-
 
 ## -remarks
 
-
-
 The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTSetAllocationPriority</b> to set the priority level of a resource (and therefore all of the allocations that are associated with the resource).
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID SetResourcePriority(D3DKMT_HANDLE hDevice, D3DKMT_HANDLE hResource, UINT uiPriority)
+```cpp
+VOID SetResourcePriority(D3DKMT_HANDLE hDevice, D3DKMT_HANDLE hResource, UINT uiPriority)
 {
     D3DKMT_SETALLOCATIONPRIORITY SetAllocationPriorityData;
 
@@ -145,20 +86,9 @@ The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTSetAl
     SetAllocationPriorityData.Priorities = &amp;uiPriority;    
 
     (*pfnKTSetAllocationPriority)(&amp;SetAllocationPriorityData);
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
-
+}
+```
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548262">D3DKMT_SETALLOCATIONPRIORITY</a>
- 
-
- 
-

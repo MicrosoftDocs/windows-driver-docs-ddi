@@ -46,24 +46,13 @@ req.typenames:
 
 # D3DKMTOpenAdapterFromGdiDisplayName function
 
-
 ## -description
-
 
 The <b>D3DKMTOpenAdapterFromGdiDisplayName</b> function maps a GDI device name to a graphics adapter handle and, if the adapter contains multiple monitor outputs, to one of those outputs.
 
-
 ## -parameters
 
-
-
-
 ### -param Arg1
-
-
-
-
-
 
 *pData* [in, out]
 
@@ -72,59 +61,20 @@ The <b>D3DKMTOpenAdapterFromGdiDisplayName</b> function maps a GDI device name t
 
 ## -returns
 
+<b>D3DKMTOpenAdapterFromGdiDisplayName</b> returns one of the following values:
 
-
-<b>D3DKMTOpenAdapterFromGdiDisplayName</b>
-       returns one of the following values:
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The mapping was performed successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect or the Windows Vista display driver model was not used.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The mapping was performed successfully.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect or the Windows Vista display driver model was not used.|
 
 This function might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
-
-
-
 ## -remarks
-
-
 
 A graphics adapter corresponds to a video card. A monitor output corresponds to a head on a video card. A system with a single video card contains only one adapter. However, if the video card supports multiple heads, it supports outputting to multiple monitors.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548113">D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME</a>
  

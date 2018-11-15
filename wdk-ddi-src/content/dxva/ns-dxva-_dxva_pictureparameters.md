@@ -52,9 +52,6 @@ The DXVA_PictureParameters structure is sent by the host decoder to the accelera
 
 ## -struct-fields
 
-
-
-
 ### -field wDecodedPictureIndex
 
 Specifies the destination frame buffer for the decoded macroblocks.
@@ -141,66 +138,23 @@ This member indicates the precision of luminance motion vectors and how chromina
 
 The following table lists values for this member with the specified luminance motion vector precision and a description of how the chrominance motion vectors are derived.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-0
-
-</td>
-<td>
-Luminance motion vectors have half-sample precision. Chrominance motion vectors are derived from luminance motion vectors in accordance with <a href="https://msdn.microsoft.com/d3dbc39f-f749-461b-9928-fa4bf3c72b68">MPEG-2 (H.262)</a>.
-
-</td>
-</tr>
-<tr>
-<td>
-1
-
-</td>
-<td>
-Luminance motion vectors have half-sample precision. Chrominance motion vectors are derived from luminance motion vectors in accordance with <a href="https://msdn.microsoft.com/08926037-da17-4ab0-81c5-9fd78cb1133c">H.263</a>.
-
-</td>
-</tr>
-<tr>
-<td>
-2
-
-</td>
-<td>
-Luminance motion vectors have full-sample precision. Chrominance motion vectors are derived from luminance motion vectors in accordance with <a href="https://msdn.microsoft.com/00fb9001-2896-4ecd-b6ee-5b36bc6e72cd">H.261</a> (dividing by two and truncating toward zero to full-sample values).
-
-</td>
-</tr>
-<tr>
-<td>
-3
-
-</td>
-<td>
-Reserved.
-
-</td>
-</tr>
-</table>
- 
-
+| **Value** | **Description** | 
+|:--|:--|
+| 0 | Luminance motion vectors have half-sample precision. Chrominance motion vectors are derived from luminance motion vectors in accordance with [MPEG-2 (H.262)](https://msdn.microsoft.com/d3dbc39f-f749-461b-9928-fa4bf3c72b68) . | 
+| 1 | Luminance motion vectors have half-sample precision. Chrominance motion vectors are derived from luminance motion vectors in accordance with [H.263](https://msdn.microsoft.com/08926037-da17-4ab0-81c5-9fd78cb1133c) . | 
+| 2 | Luminance motion vectors have full-sample precision. Chrominance motion vectors are derived from luminance motion vectors in accordance with [H.261](https://msdn.microsoft.com/00fb9001-2896-4ecd-b6ee-5b36bc6e72cd)  (dividing by two and truncating toward zero to full-sample values). | 
+| 3 | Reserved. | 
 
 ### -field bChromaFormat
 
 Affects the number of prediction error blocks expected by the accelerator. This variable is defined in MPEG-2 (H.262). For <a href="https://msdn.microsoft.com/be4db8ea-98fa-4693-a2ff-888499e97f38">MPEG-1</a>, MPEG-2 Main Profile, H.261 and H.263 bitstreams, this value must always be set to 1, indicating 4:2:0 format. If a value of 2, this indicates 4:2:2, and if a value of 3, indicates 4:4:4 sampling. This member must be equal to 1 if the <b>bConfig4GroupedCoefs</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563133">DXVA_ConfigPictureDecode</a> is 1 (because <b>bConfig4GroupedCoefs</b> operation does not include the EOB indication needed within coefficient data in 4:2:2 and 4:4:4 formats).
 
-<div class="alert"><b>Note</b>    Horizontal chroma siting differs slightly among H.261, H.263, and MPEG-1 versus MPEG-2 and MPEG-4. This difference is assumed to be small enough to ignore.</div>
-<div> </div>
+> [!NOTE]
+> Horizontal chroma siting differs slightly among H.261, H.263, and MPEG-1 versus MPEG-2 and MPEG-4. This difference is assumed to be small enough to ignore.
 
 ### -field bPicScanFixed
 
 When using accelerator-based IDCT processing of residual difference blocks, a value of 1 for this flag indicates that the inverse-scan method is the same for all macroblocks in the picture. A value of zero indicates that it is not. This member must be 1 if the <b>bConfigHostInverseScan</b> member is 1 or if the <b>bConfigResidDiffAccelerator</b> member is zero in DXVA_ConfigPictureDecode.
-
 
 ### -field bPicScanMethod
 
@@ -208,64 +162,17 @@ Indicates the fixed inverse scan method for the picture when <b>bPicScanFixed</b
 
 If the <b>bConfigHostInverseScan</b> member of DXVA_ConfigPictureDecode is zero, the scan method defined by this member can be one of the following.
 
-<table>
-<tr>
-<th>bPicScanMethod</th>
-<th>Scan Method</th>
-</tr>
-<tr>
-<td>
-0
-
-</td>
-<td>
-Zigzag scan (MPEG-2)
-
-</td>
-</tr>
-<tr>
-<td>
-1
-
-</td>
-<td>
-Alternate-vertical scan (MPEG-2)
-
-</td>
-</tr>
-<tr>
-<td>
-2
-
-</td>
-<td>
-Alternate-horizontal scan (H.263)
-
-</td>
-</tr>
-</table>
+|bPicScanMethod|Scan Method|
+|--- |--- |
+|0|Zigzag scan (MPEG-2)|
+|1|Alternate-vertical scan (MPEG-2)|
+|2|Alternate-horizontal scan (H.263)|
  
-
 If the <b>bConfigHostInverseScan</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563133">DXVA_ConfigPictureDecode</a> is 1, the scan method defined by <b>bPicScanMethod</b> must be set as follows.
 
-<table>
-<tr>
-<th>bPicScanMethod</th>
-<th>Scan Method</th>
-</tr>
-<tr>
-<td>
-3
-
-</td>
-<td>
-Arbitrary scan with absolute coefficient address.
-
-</td>
-</tr>
-</table>
- 
-
+|bPicScanMethod|Scan Method|
+|--- |--- |
+|3|Arbitrary scan with absolute coefficient address.|
 
 ### -field bPicReadbackRequests
 
@@ -287,16 +194,13 @@ If this member is equal to 1, spatial-domain intra macroblocks are sent as 8-bit
 
 The <b>bPicSpatialResid8</b> member differs from the <b>bConfigSpatialResid8</b> member of DXVA_ConfigPictureDecode in that it is an indication for a particular picture, not a global indication for the entire video sequence. In some cases such as in an <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">intra picture</a> with <i>BPP</i> equal to 8, <b>bPicSpatialResid8</b> will be 1 even though <b>bConfigSpatialResid8</b> may be zero.
 
-
 ### -field bPicOverflowBlocks
 
 Indicates whether spatial-domain difference blocks are sent to the accelerator from the host using overflow blocks. A value of 1 indicates that spatial-domain difference blocks for host-based residual difference decoding of a picture may be sent using overflow blocks. A value of zero indicates that spatial-domain difference blocks are not sent using overflow blocks. This member must be zero if <b>bConfigResidDiffHost</b> is zero or if <b>bConfigSpatialResid8</b> is zero, or if <i>BPP</i> is greater than 8. Parameters <b>bConfigResidDiffHost</b> and <b>bConfigSpatialResid8</b> are members of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563133">DXVA_ConfigPictureDecode</a>. <b>bPicOverflowBlocks</b> indicates whether any overflow blocks may be present for the particular picture. In an intra picture with <i>BPP</i> equal to 8, <b>bPicOverflowBlocks</b> must be zero as no overflow blocks are needed in this case.
 
-
 ### -field bPicExtrapolation
 
 Indicates whether motion vectors over picture boundaries are allowed as specified by H.263 Annex D and MPEG-4. This requires either allocation of picture planes that are two macroblocks wider (one extra macroblock at the left and another at the right) and two macroblocks taller (one extra macroblock at the top and another at the bottom) than the decoded picture size, or clipping of the address of each individual pixel access to within the picture boundaries. Macroblock addresses in this specification are for macroblocks in the interior of the picture, not including padding.
-
 
 ### -field bPicDeblocked
 
@@ -337,193 +241,38 @@ This is reserved for packing and alignment. Must be zero.
 
 Indicates the motion vector <i>f_code</i> values as defined in MPEG-2 for raw bitstream processing. Each <i>f_code</i> value takes 4 bits. These values are packed into a 16-bit word as follows.
 
-<table>
-<tr>
-<th>Bits</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-12 through 15 (the most significant bits)
-
-</td>
-<td>
-f_code[0][0]: The forward horizontal f_code
-
-</td>
-</tr>
-<tr>
-<td>
-8 through 11
-
-</td>
-<td>
-f_code[0][1]: The forward vertical f_code
-
-</td>
-</tr>
-<tr>
-<td>
-4 through 7
-
-</td>
-<td>
-f_code[1][0]: The backward horizontal f_code
-
-</td>
-</tr>
-<tr>
-<td>
-0 through 3 (the least significant bits)
-
-</td>
-<td>
-f_code[1][1]: The backward vertical f_code
-
-</td>
-</tr>
-</table>
- 
+|Bits|Description|
+|--- |--- |
+|12 through 15 (the most significant bits)|f_code[0][0]: The forward horizontal f_code|
+|8 through 11|f_code[0][1]: The forward vertical f_code|
+|4 through 7|f_code[1][0]: The backward horizontal f_code|
+|0 through 3 (the least significant bits)|f_code[1][1]: The backward vertical f_code|
 
 When the <b>bConfigBitstreamRaw</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563133">DXVA_ConfigPictureDecode</a> structure is 1, <b>wBitstreamFcodes</b> contains four motion vector <i>f_code</i> values. If <b>bConfigBitstreamRaw</b> is 1 and any of the four <i>f_code</i> values is unnecessary or irrelevant due to the structure of the bitstream data or due to the <i>f_code</i> value not being needed in the relevant video coding bitstream syntax (such as in H.261 or H.263), then each irrelevant f_code value is 0xF.
 
 If the <b>bConfigBitstreamRaw</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563133">DXVA_ConfigPictureDecode</a> structure is zero, then <b>wBitstreamFcodes</b> is set to 0xFFFF (all f_code values are set to 0xF).
 
-<div class="alert"><b>Note</b>    MPEG-1 bitstreams provide this information in a different form. Therefore for MPEG-1 bitstreams, f_code[0][0] and f_code[0][1] are equal to MPEG-1's forward_f_code, and f_code[1][0] and f_code[1][1] are equal to MPEG-1's backward_f_code.</div>
-<div> </div>
+> [!NOTE]
+> MPEG-1 bitstreams provide this information in a different form. Therefore for MPEG-1 bitstreams, f_code[0][0] and f_code[0][1] are equal to MPEG-1's forward_f_code, and f_code[1][0] and f_code[1][1] are equal to MPEG-1's backward_f_code.
 
 ### -field wBitstreamPCEelements
 
 When the <b>bConfigBitstreamRaw</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563133">DXVA_ConfigPictureDecode</a> is 1, this member contains a set of flags necessary for the bitstream decoding process of MPEG-2 video. It is not used and must be zero when <b>bConfigBitstreamRaw</b> is zero and for non-MPEG-2 video. The bits in this member are defined by their correspondence with bitstream elements of the MPEG-2 picture coding extension as follows.
 
-<table>
-<tr>
-<th>Bits</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-14 and 15
-
-</td>
-<td>
-<i>IntraDCprecision</i> is equal to <i>intra_dc_precision.</i>
-
-</td>
-</tr>
-<tr>
-<td>
-12 and 13
-
-</td>
-<td>
-<i>AnotherPicStructure</i> is equal to <i>picture_structure</i>. This must be equal to the <b>bPicStructure </b>member of this structure.
-
-</td>
-</tr>
-<tr>
-<td>
-11
-
-</td>
-<td>
-<i>TopFieldFirst</i> is equal to <i>top_field_first.</i>
-
-</td>
-</tr>
-<tr>
-<td>
-10
-
-</td>
-<td>
-<i>FrameDCTprediction</i> is equal to <i>frame_pred_frame_dct.</i>
-
-</td>
-</tr>
-<tr>
-<td>
-9
-
-</td>
-<td>
-<i>ConcealmentMVs</i> is equal to <i>concealment_motion_vectors.</i>
-
-</td>
-</tr>
-<tr>
-<td>
-8
-
-</td>
-<td>
-<i>QuantScaleType</i> is equal to <i>q_scale_type.</i>
-
-</td>
-</tr>
-<tr>
-<td>
-7
-
-</td>
-<td>
-<i>IntraVLCformat</i> is equal to <i>intra_vlc_format.</i>
-
-</td>
-</tr>
-<tr>
-<td>
-6
-
-</td>
-<td>
-<i>AlternateScan</i> is equal to <i>alternate_scan.</i>
-
-</td>
-</tr>
-<tr>
-<td>
-5
-
-</td>
-<td>
-<i>RepeatFirstField</i> is equal to <i>repeat_first_field</i> (not needed by the accelerator).
-
-</td>
-</tr>
-<tr>
-<td>
-4
-
-</td>
-<td>
-<i>Chroma420type</i> is equal to chroma_420_type (not needed by the accelerator and restricted by MPEG-2 to be equal to <i>progressive_frame</i>).
-
-</td>
-</tr>
-<tr>
-<td>
-3
-
-</td>
-<td>
-<i>ProgressiveFrame</i> is equal to <i>progressive_frame.</i>
-
-</td>
-</tr>
-<tr>
-<td>
-0, 1, and 2
-
-</td>
-<td>
-Reserved Bits. These are the least significant bits.
-
-</td>
-</tr>
-</table>
- 
-
+|Bits|Description|
+|--- |--- |
+|14 and 15|IntraDCprecision is equal to intra_dc_precision.|
+|12 and 13|AnotherPicStructure is equal to picture_structure. This must be equal to the bPicStructure member of this structure.|
+|11|TopFieldFirst is equal to top_field_first.|
+|10|FrameDCTprediction is equal to frame_pred_frame_dct.|
+|9|ConcealmentMVs is equal to concealment_motion_vectors.|
+|8|QuantScaleType is equal to q_scale_type.|
+|7|IntraVLCformat is equal to intra_vlc_format.|
+|6|AlternateScan is equal to alternate_scan.|
+|5|RepeatFirstField is equal to repeat_first_field (not needed by the accelerator).|
+|4|Chroma420type is equal to chroma_420_type (not needed by the accelerator and restricted by MPEG-2 to be equal to progressive_frame).|
+|3|ProgressiveFrame is equal to progressive_frame.|
+|0, 1, and 2|Reserved Bits. These are the least significant bits.|
 
 ### -field bBitstreamConcealmentNeed
 
@@ -531,125 +280,31 @@ Indicates the likelihood of errors in the bitstream data when the <b>bConfigBits
 
 Video accelerators must be designed not to fail or lock up, regardless of the content of the data given to them. Therefore, it may be helpful for a video accelerator to have information about the host's assessment of the likelihood of syntactical errors. This is in order to determine whether there is a need to invoke a more complex error concealment algorithm that might slow down the bitstream decoding process. Allowed values for this member are as follows (all other values are reserved).
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-0
-
-</td>
-<td>
-The bitstream is unlikely to contain any significant amount of errors in its syntactical format.
-
-</td>
-</tr>
-<tr>
-<td>
-1
-
-</td>
-<td>
-The bitstream may contain some errors. These errors are likely to be infrequent (for example, an error once or twice per hour).
-
-</td>
-</tr>
-<tr>
-<td>
-2
-
-</td>
-<td>
-The bitstream is likely to contain some errors. These errors are likely to occur with a frequency that could impact the user experience (for example, an error every five to ten minutes).
-
-</td>
-</tr>
-<tr>
-<td>
-3
-
-</td>
-<td>
-The bitstream is likely to contain relatively significant, serious, and frequent syntactical format errors (for example, one or more errors per minute).
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|0|The bitstream is unlikely to contain any significant amount of errors in its syntactical format.|
+|1|The bitstream may contain some errors. These errors are likely to be infrequent (for example, an error once or twice per hour).|
+|2|The bitstream is likely to contain some errors. These errors are likely to occur with a frequency that could impact the user experience (for example, an error every five to ten minutes).|
+|3|The bitstream is likely to contain relatively significant, serious, and frequent syntactical format errors (for example, one or more errors per minute).|
  
-
-
 ### -field bBitstreamConcealmentMethod
 
 Specifies a preferred default method for error concealment processing when the <b>bConfigBitstreamRaw</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563133">DXVA_ConfigPictureDecode</a> structure is 1. Must be zero if <b>bConfigBitstreamRaw</b> is zero. Allowed values for this member are as follows (all other values are reserved).
 
-<table>
-<tr>
-<th>Value</th>
-<th>Error Concealment Method</th>
-</tr>
-<tr>
-<td>
-0
-
-</td>
-<td>
-Unknown or unspecified.
-
-</td>
-</tr>
-<tr>
-<td>
-1
-
-</td>
-<td>
-Spatial intra-picture concealment within the picture.
-
-</td>
-</tr>
-<tr>
-<td>
-2
-
-</td>
-<td>
-Forward-motion reference picture for inter-picture concealment (to be used more typically in a <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">P picture</a> or in a <a href="https://msdn.microsoft.com/bf5fa319-14ec-40df-be7a-89c07ce519ad">B picture</a> that is closer to its forward-motion reference picture than to its backward-motion reference picture).
-
-</td>
-</tr>
-<tr>
-<td>
-3
-
-</td>
-<td>
-Backward-motion reference picture for inter-picture concealment (to be used more typically in a B picture that is closer to its backward-motion reference picture than to its forward-motion reference picture).
-
-</td>
-</tr>
-</table>
- 
-
+| **Value** | **Error Concealment Method** | 
+|:--|:--|
+| 0 | Unknown or unspecified. | 
+| 1 | Spatial intra-picture concealment within the picture. | 
+| 2 | Forward-motion reference picture for inter-picture concealment (to be used more typically in a [P picture](https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c)  or in a [B picture](https://msdn.microsoft.com/bf5fa319-14ec-40df-be7a-89c07ce519ad)  that is closer to its forward-motion reference picture than to its backward-motion reference picture). | 
+| 3 | Backward-motion reference picture for inter-picture concealment (to be used more typically in a B picture that is closer to its backward-motion reference picture than to its forward-motion reference picture). |
 
 ## -remarks
 
-
-
 Certain members of this structure are constrained to specific values by the configuration established using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563133">DXVA_ConfigPictureDecode</a> structure. After the picture-level parameters are conveyed using DXVA_PictureParameters, the picture decoding process is primarily governed by <a href="https://msdn.microsoft.com/be70ec8f-1821-4075-b5e3-b7574fbe4e27">macroblock control commands</a> formed using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563983">DXVA_MBctrl_I_HostResidDiff_1</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff563989">DXVA_MBctrl_I_OffHostIDCT_1</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff563993">DXVA_MBctrl_P_HostResidDiff_1</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff563997">DXVA_MBctrl_P_OffHostIDCT_1</a> structures.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563133">DXVA_ConfigPictureDecode</a>
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563983">DXVA_MBctrl_I_HostResidDiff_1</a>
 

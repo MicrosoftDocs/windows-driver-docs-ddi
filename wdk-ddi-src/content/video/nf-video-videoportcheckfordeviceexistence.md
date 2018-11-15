@@ -52,9 +52,6 @@ The <b>VideoPortCheckForDeviceExistence</b> function determines whether the spec
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
@@ -89,47 +86,16 @@ Specifies the subsystem ID.
 
 Is a set of flags that determine whether the <i>RevisionID</i> and <i>SubSystemID</i> parameters should be used in checking for the new device. This parameter can be the logical OR of the following values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-CDE_USE_REVISION
-
-</td>
-<td>
-Use the value in the <i>RevisionID</i> parameter in checking for the new device.
-
-</td>
-</tr>
-<tr>
-<td>
-CDE_USE_SUBSYSTEM_IDS
-
-</td>
-<td>
-Use the value in the <i>SubSystemID</i> parameter in checking for the new device.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|CDE_USE_REVISION|Use the value in the RevisionID parameter in checking for the new device.|
+|CDE_USE_SUBSYSTEM_IDS|Use the value in the SubSystemID parameter in checking for the new device.|
  
-
-
 ## -returns
-
-
 
 <b>VideoPortCheckForDeviceExistence</b> returns <b>TRUE</b> if the device exists in the system, and <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 For more information about PCI identifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/identifiers-for-pci-devices">Identifiers for PCI Devices</a>. 
 

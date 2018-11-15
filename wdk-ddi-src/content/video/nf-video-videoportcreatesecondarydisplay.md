@@ -69,28 +69,11 @@ Pointer to the location in which to store the hardware device extension for the 
 
 Is a set of attributes for the secondary display device. This parameter is restricted to the following value:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-VIDEO_DUALVIEW_REMOVABLE
-
-</td>
-<td>
-The secondary view can be removed.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|VIDEO_DUALVIEW_REMOVABLE|The secondary view can be removed.|
  
-
-
 ## -returns
-
-
 
 <b>VideoPortCreateSecondaryDisplay</b> returns NO_ERROR if the secondary display device was successfully created. Otherwise, this function returns an error code. 
 

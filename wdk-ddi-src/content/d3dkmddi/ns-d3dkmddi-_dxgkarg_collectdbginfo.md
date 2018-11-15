@@ -64,7 +64,7 @@ The DXGKARG_COLLECTDBGINFO structure describes information for a debug report.
 | **VIDEO_TDR_TIMEOUT_DETECTED** 0x117|A [DxgkDdiResetEngine](https://msdn.microsoft.com/9c2097b2-5742-422c-a650-7efff2484970)  operation has reset a logical adapter. |
 | **VIDEO_ENGINE_TIMEOUT_DETECTED** 0x141|A [DxgkDdiResetEngine](https://msdn.microsoft.com/9c2097b2-5742-422c-a650-7efff2484970)  operation has reset one or more nodes within a physical adapter.
 Available starting in Windows 8. | 
- 
+
 
 
 ### -field pBuffer

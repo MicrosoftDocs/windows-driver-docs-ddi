@@ -43,73 +43,27 @@ req.typenames:
 
 # D3DKMTSetContextInProcessSchedulingPriority function
 
-
 ## -description
-
 
 Called by an in-process (in-proc) Microsoft Direct3D composition device to set the scheduling priority for a device context that is in the same process as other device contexts.
 
-
 ## -parameters
-
-
-
 
 ### -param D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY
 
 [in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh780270">D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY</a> structure that describes parameters for setting the scheduling priority for a device context.
 
-
 ## -returns
-
-
 
 Returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The scheduling priority was successfully set.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The scheduling priority was successfully set.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
  
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh780246">D3DKMTGetContextInProcessSchedulingPriority</a>
 
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh780270">D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY</a>
- 
-
- 
-

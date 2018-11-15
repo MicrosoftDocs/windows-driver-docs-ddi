@@ -43,70 +43,31 @@ req.typenames:
 
 # VideoPortGetVgaStatus function
 
-
 ## -description
-
 
 The <b>VideoPortGetVgaStatus</b> function detects whether the calling device is decoding a VGA I/O address.
 
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
-
 
 ### -param VgaStatus [out]
 
 Pointer to the resulting VGA status. A value of zero (0) indicates that VGA is not enabled; a value of one (1) indicates that VGA is enabled.
 
-
 ## -returns
-
-
 
 <b>VideoPortGetVgaStatus</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>NO_ERROR</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function completed successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_INVALID_FUNCTION</b></dt>
-</dl>
-</td>
-<td width="60%">
-The device was not a PCI device.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|NO_ERROR|The function completed successfully.|
+|ERROR_INVALID_FUNCTION|The device was not a PCI device.|
 
 ## -remarks
-
-
 
 The <b>VideoPortGetVgaStatus</b> function is mainly used to determine whether a device is the sole VGA-enabled device in a <a href="https://msdn.microsoft.com/ba15af67-94c0-4c37-8b3d-b1472e731d88">multiple monitor</a> system. 
 

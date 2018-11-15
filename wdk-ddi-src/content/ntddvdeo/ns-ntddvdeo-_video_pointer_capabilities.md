@@ -59,64 +59,13 @@ The <b>VIDEO_POINTER_CAPABILITIES</b> structure contains capabilities of the scr
 
 A set of flags that specify certain capabilities of the pointer. Flags can be a combination of the following values.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-VIDEO_MODE_ASYNC_POINTER
-
-</td>
-<td>
-The pointer can be updated asynchronously to drawing operations.
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MODE_MONO_POINTER
-
-</td>
-<td>
-A monochrome hardware pointer is supported.
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MODE_COLOR_POINTER
-
-</td>
-<td>
-A color hardware pointer is supported.
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MODE_ANIMATE_START
-
-</td>
-<td>
-The current pointer has the same hotspot as the previous pointer.
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MODE_ANIMATE_UPDATE
-
-</td>
-<td>
-The current pointer has the same hotspot as the previous pointer.
-
-</td>
-</tr>
-</table>
- 
-
+|Flag|Meaning|
+|--- |--- |
+|VIDEO_MODE_ASYNC_POINTER|The pointer can be updated asynchronously to drawing operations.|
+|VIDEO_MODE_MONO_POINTER|A monochrome hardware pointer is supported.|
+|VIDEO_MODE_COLOR_POINTER|A color hardware pointer is supported.|
+|VIDEO_MODE_ANIMATE_START|The current pointer has the same hotspot as the previous pointer.|
+|VIDEO_MODE_ANIMATE_UPDATE|The current pointer has the same hotspot as the previous pointer.|
 
 ### -field MaxWidth
 

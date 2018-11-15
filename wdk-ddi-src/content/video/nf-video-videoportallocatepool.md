@@ -52,71 +52,24 @@ The <b>VideoPortAllocatePool</b> function allocates a block of pool memory, inse
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
-
 
 ### -param PoolType [in]
 
 Specifies the type of memory pool to allocate. This parameter can be set to one of the following:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-<b>VpNonPagedPool</b>
-
-</td>
-<td>
-The pool is from nonpaged memory.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>VpPagedPool</b>
-
-</td>
-<td>
-The pool is from paged memory.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>VpNonPagedPoolCacheAligned</b>
-
-</td>
-<td>
-The pool is from cache-aligned, nonpaged memory.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>VpPagedPoolCacheAligned</b>
-
-</td>
-<td>
-The pool is from cache-aligned, paged memory.
-
-</td>
-</tr>
-</table>
- 
-
+|Value|Meaning|
+|--- |--- |
+|VpNonPagedPool|The pool is from nonpaged memory.|
+|VpPagedPool|The pool is from paged memory.|
+|VpNonPagedPoolCacheAligned|The pool is from cache-aligned, nonpaged memory.|
+|VpPagedPoolCacheAligned|The pool is from cache-aligned, paged memory.|
 
 ### -param NumberOfBytes [in]
 
 Specifies the number of bytes of memory to allocate.
-
 
 ### -param Tag [in]
 
