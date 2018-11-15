@@ -43,75 +43,30 @@ req.typenames:
 
 # D3DKMTCloseAdapter function
 
-
 ## -description
-
 
 The <b>D3DKMTCloseAdapter</b> function closes a graphics adapter that was previously opened by using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547047">D3DKMTOpenAdapterFromHdc</a> function.
 
-
 ## -parameters
 
-
-
-
 ### -param D3DKMT_CLOSEADAPTER
-
-
-
-
-
 
 *pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547789">D3DKMT_CLOSEADAPTER</a> structure that specifies the adapter to close.
 
-
 ## -returns
-
-
 
 <b>D3DKMTCloseAdapter</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The adapter was closed successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect or the Windows Vista display driver model was not used.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The adapter was closed successfully.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect or the Windows Vista display driver model was not used.|
 
 This function might also return other NTSTATUS values.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547789">D3DKMT_CLOSEADAPTER</a>
  

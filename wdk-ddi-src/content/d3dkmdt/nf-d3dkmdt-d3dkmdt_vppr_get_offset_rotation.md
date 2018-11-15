@@ -66,123 +66,27 @@ The output value is always one of the supported values specified for this path i
 
 ## -returns
 
+The returned value corresponds to the offset angle as follows:
 
-
-The returned value corresponds to the offset angle as follows:<table>
-<tr>
-<td>Input enumeration value</td>
-<td>Input enumeration constant</td>
-<td>Offset in degrees</td>
-<td>Output <i>Rotation</i> value</td>
-</tr>
-<tr>
-<td>0</td>
-<td><b>D3DKMDT_VPPR_UNINITIALIZED</b></td>
-<td>-</td>
-<td>0</td>
-</tr>
-<tr>
-<td>1</td>
-<td><b>D3DKMDT_VPPR_IDENTITY</b></td>
-<td>0</td>
-<td>1</td>
-</tr>
-<tr>
-<td>2</td>
-<td><b>D3DKMDT_VPPR_ROTATE90</b></td>
-<td>0</td>
-<td>1</td>
-</tr>
-<tr>
-<td>3</td>
-<td><b>D3DKMDT_VPPR_ROTATE180</b></td>
-<td>0</td>
-<td>1</td>
-</tr>
-<tr>
-<td>4</td>
-<td><b>D3DKMDT_VPPR_ROTATE270</b></td>
-<td>0</td>
-<td>1</td>
-</tr>
-<tr>
-<td>5</td>
-<td><b>D3DKMDT_VPPR_IDENTITY_OFFSET90</b></td>
-<td>90</td>
-<td>2</td>
-</tr>
-<tr>
-<td>6</td>
-<td><b>D3DKMDT_VPPR_ROTATE90_OFFSET90</b></td>
-<td>90</td>
-<td>2</td>
-</tr>
-<tr>
-<td>7</td>
-<td><b>D3DKMDT_VPPR_ROTATE180_OFFSET90</b></td>
-<td>90</td>
-<td>2</td>
-</tr>
-<tr>
-<td>8</td>
-<td><b>D3DKMDT_VPPR_ROTATE270_OFFSET90</b></td>
-<td>90</td>
-<td>2</td>
-</tr>
-<tr>
-<td>9</td>
-<td><b>D3DKMDT_VPPR_IDENTITY_OFFSET180</b></td>
-<td>180</td>
-<td>3</td>
-</tr>
-<tr>
-<td>10</td>
-<td><b>D3DKMDT_VPPR_ROTATE90_OFFSET180</b></td>
-<td>180</td>
-<td>3</td>
-</tr>
-<tr>
-<td>11</td>
-<td><b>D3DKMDT_VPPR_ROTATE180_OFFSET180</b></td>
-<td>180</td>
-<td>3</td>
-</tr>
-<tr>
-<td>12</td>
-<td><b>D3DKMDT_VPPR_ROTATE270_OFFSET180</b></td>
-<td>180</td>
-<td>3</td>
-</tr>
-<tr>
-<td>13</td>
-<td><b>D3DKMDT_VPPR_IDENTITY_OFFSET270</b></td>
-<td>270</td>
-<td>4</td>
-</tr>
-<tr>
-<td>14</td>
-<td><b>D3DKMDT_VPPR_ROTATE90_OFFSET270</b></td>
-<td>270</td>
-<td>4</td>
-</tr>
-<tr>
-<td>15</td>
-<td><b>D3DKMDT_VPPR_ROTATE180_OFFSET270</b></td>
-<td>270</td>
-<td>4</td>
-</tr>
-<tr>
-<td>16</td>
-<td><b>D3DKMDT_VPPR_ROTATE270_OFFSET270</b></td>
-<td>270</td>
-<td>4</td>
-</tr>
-</table>
- 
-
-
-
-
+|Input enumeration value|Input enumeration constant|Offset in degrees|Output Rotation value|
+|--- |--- |--- |--- |
+|0|D3DKMDT_VPPR_UNINITIALIZED|-|0|
+|1|D3DKMDT_VPPR_IDENTITY|0|1|
+|2|D3DKMDT_VPPR_ROTATE90|0|1|
+|3|D3DKMDT_VPPR_ROTATE180|0|1|
+|4|D3DKMDT_VPPR_ROTATE270|0|1|
+|5|D3DKMDT_VPPR_IDENTITY_OFFSET90|90|2|
+|6|D3DKMDT_VPPR_ROTATE90_OFFSET90|90|2|
+|7|D3DKMDT_VPPR_ROTATE180_OFFSET90|90|2|
+|8|D3DKMDT_VPPR_ROTATE270_OFFSET90|90|2|
+|9|D3DKMDT_VPPR_IDENTITY_OFFSET180|180|3|
+|10|D3DKMDT_VPPR_ROTATE90_OFFSET180|180|3|
+|11|D3DKMDT_VPPR_ROTATE180_OFFSET180|180|3|
+|12|D3DKMDT_VPPR_ROTATE270_OFFSET180|180|3|
+|13|D3DKMDT_VPPR_IDENTITY_OFFSET270|270|4|
+|14|D3DKMDT_VPPR_ROTATE90_OFFSET270|270|4|
+|15|D3DKMDT_VPPR_ROTATE180_OFFSET270|270|4|
+|16|D3DKMDT_VPPR_ROTATE270_OFFSET270|270|4|
 
 
 ## -remarks
@@ -191,13 +95,8 @@ The returned value corresponds to the offset angle as follows:<table>
 
 This function is declared inline in D3dkmdt.h as:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>__inline
+```cpp
+__inline
 D3DKMDT_VIDPN_PRESENT_PATH_ROTATION 
     D3DKMDT_VPPR_GET_OFFSET_ROTATION(
         D3DKMDT_VIDPN_PRESENT_PATH_ROTATION Rotation)
@@ -209,10 +108,9 @@ D3DKMDT_VIDPN_PRESENT_PATH_ROTATION
             ((Rotation - 1) / 4) + 1);
     }
     return Rotation;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 The driver should use the output value of the <i>Rotation</i> parameter to rotate the secondary clone path content when the Desktop Window Manager (DWM) has already rotated the primary clone path content. For more info, see <a href="https://msdn.microsoft.com/136CEDA5-2839-4E6E-A032-1A9222C769C6">Supporting Path-Independent Rotation</a>.
 
 

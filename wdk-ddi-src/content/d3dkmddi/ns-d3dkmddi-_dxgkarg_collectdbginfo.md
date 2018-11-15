@@ -59,36 +59,11 @@ The DXGKARG_COLLECTDBGINFO structure describes information for a debug report.
 
 [in] The <a href="https://msdn.microsoft.com/DBA85578-97CF-4BD7-A67D-1C7AD2E9B2BB">bug-check code</a> for which to return debug information in the buffer that <b>pBuffer</b> points to. These are possible values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="VIDEO_TDR_TIMEOUT_DETECTED"></a><a id="video_tdr_timeout_detected"></a><dl>
-<dt><b>VIDEO_TDR_TIMEOUT_DETECTED</b></dt>
-<dt>0x117</dt>
-</dl>
-</td>
-<td width="60%">
-A <a href="https://msdn.microsoft.com/9c2097b2-5742-422c-a650-7efff2484970">DxgkDdiResetEngine</a> operation has reset a logical adapter.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="VIDEO_ENGINE_TIMEOUT_DETECTED"></a><a id="video_engine_timeout_detected"></a><dl>
-<dt><b>VIDEO_ENGINE_TIMEOUT_DETECTED</b></dt>
-<dt>0x141</dt>
-</dl>
-</td>
-<td width="60%">
-A <a href="https://msdn.microsoft.com/9c2097b2-5742-422c-a650-7efff2484970">DxgkDdiResetEngine</a> operation has reset one or more nodes within a physical adapter.
-
-Available starting in Windows 8.
-
-</td>
-</tr>
-</table>
+| **Value** | **Meaning** | 
+|:--|:--|
+| **VIDEO_TDR_TIMEOUT_DETECTED** 0x117|A [DxgkDdiResetEngine](https://msdn.microsoft.com/9c2097b2-5742-422c-a650-7efff2484970)  operation has reset a logical adapter. |
+| **VIDEO_ENGINE_TIMEOUT_DETECTED** 0x141|A [DxgkDdiResetEngine](https://msdn.microsoft.com/9c2097b2-5742-422c-a650-7efff2484970)  operation has reset one or more nodes within a physical adapter.
+Available starting in Windows 8. | 
  
 
 

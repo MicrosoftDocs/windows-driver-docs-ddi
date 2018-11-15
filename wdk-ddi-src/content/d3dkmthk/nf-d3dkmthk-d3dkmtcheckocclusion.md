@@ -43,98 +43,35 @@ req.typenames:
 
 # D3DKMTCheckOcclusion function
 
-
 ## -description
-
 
 The <b>D3DKMTCheckOcclusion</b> function verifies whether the client area of a window is occluded.
 
-
 ## -parameters
 
-
-
-
 ### -param D3DKMT_CHECKOCCLUSION
-
-
-
-
-
 
 *pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547306">D3DKMT_CHECKOCCLUSION</a> structure that describes parameters for checking occlusion.
 
-
 ## -returns
-
-
 
 <b>D3DKMTCheckOcclusion</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The client area of the window is not occluded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_PRESENT_OCCLUDED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The client area of the window is occluded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The client area of the window is not occluded.|
+|STATUS_GRAPHICS_PRESENT_OCCLUDED|The client area of the window is occluded.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
  
-
 This function might also return other <b>NTSTATUS</b> values.
-
-
-
 
 ## -remarks
 
-
-
 The handle to the window that is checked for occlusion must be valid. A window is not occluded if a part of its client area lies on a unowned video present network (VidPn) source, if its client area is an empty rectangular area (RECT), or if desktop composition is running.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547306">D3DKMT_CHECKOCCLUSION</a>
- 
-
- 
 
