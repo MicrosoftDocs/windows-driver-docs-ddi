@@ -64,37 +64,10 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545547">ISens
 
 This method returns an HRESULT. Possible values include, but are not limited to, one of the following values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The method succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HRESULT_FROM_WIN32(ERROR_CAN_NOT_COMPLETE)</b></dt>
-</dl>
-</td>
-<td width="60%">
-The class extension is not initialized.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The method succeeded.|
+|HRESULT_FROM_WIN32(ERROR_CAN_NOT_COMPLETE)|The class extension is not initialized.|
 
 
 ## -remarks

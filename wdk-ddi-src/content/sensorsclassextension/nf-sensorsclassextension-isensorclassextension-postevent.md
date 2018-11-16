@@ -68,97 +68,17 @@ Pointer to an IPortableDeviceValuesCollection interface that contains the list o
 
 ## -returns
 
-
-
 This method returns an HRESULT. Possible values include, but are not limited to, one of the following values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The method succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_FALSE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The method succeeded, but no client programs are currently subscribed to events. Do not post events when no clients are subscribed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-The event collection was empty.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_POINTER</b></dt>
-</dl>
-</td>
-<td width="60%">
-A required pointer argument was <b>NULL</b>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HRESULT_FROM_WIN32(ERROR_CAN_NOT_COMPLETE)</b></dt>
-</dl>
-</td>
-<td width="60%">
-The class extension is not initialized.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HRESULT_FROM_WIN32(ERROR_INTERNAL_DB_CORRUPTION</b></dt>
-</dl>
-</td>
-<td width="60%">
-A serialization error occurred.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HRESULT_FROM_WIN32(ERROR_OBJECT_NOT_FOUND)</b></dt>
-</dl>
-</td>
-<td width="60%">
-No client programs are currently subscribed to events. Do not post events when no clients are subscribed.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The method succeeded.|
+|S_FALSE|The method succeeded, but no client programs are currently subscribed to events. Do not post events when no clients are subscribed.|
+|E_INVALIDARG|The event collection was empty.|
+|E_POINTER|A required pointer argument was NULL.|
+|HRESULT_FROM_WIN32(ERROR_CAN_NOT_COMPLETE)|The class extension is not initialized.|
+|HRESULT_FROM_WIN32(ERROR_INTERNAL_DB_CORRUPTION|A serialization error occurred.|
+|HRESULT_FROM_WIN32(ERROR_OBJECT_NOT_FOUND)|No client programs are currently subscribed to events. Do not post events when no clients are subscribed.|
 
 ## -remarks
 
