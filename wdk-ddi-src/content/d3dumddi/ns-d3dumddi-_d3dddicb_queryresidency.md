@@ -78,43 +78,11 @@ If the user-mode display driver sets the handle in the <b>hResource</b> member t
 
 [out] A pointer to an array of D3DDDI_RESIDENCYSTATUS values. If the <b>hResource</b> member is non-<b>NULL</b>, the array contains a single element and receives one of the following value to indicate the residency status of the resource. If <b>hResource</b> is <b>NULL</b>, the number of elements in the array is specified by the <b>NumAllocations</b> member, and each element receives one of the following values to indicate the residency status of the corresponding allocation in the array that is specified by <b>HandleList</b>. 
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DDDI_RESIDENCYSTATUS_RESIDENTINGPUMEMORY (1)
-
-</td>
-<td>
-The resource or list of allocations reside in GPU memory, which is the highest residency status.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDDI_RESIDENCYSTATUS_RESIDENTINSHAREDMEMORY (2)
-
-</td>
-<td>
-The resource or list of allocations reside in shared memory.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDDI_RESIDENCYSTATUS_NOTRESIDENT (3)
-
-</td>
-<td>
-The resource or list of allocations is nonresident, which is the lowest residency status.
-
-</td>
-</tr>
-</table>
- 
+| **Value** | **Meaning** | 
+|:--|:--|
+| D3DDDI_RESIDENCYSTATUS_RESIDENTINGPUMEMORY (1) | The resource or list of allocations reside in GPU memory, which is the highest residency status. | 
+| D3DDDI_RESIDENCYSTATUS_RESIDENTINSHAREDMEMORY (2) | The resource or list of allocations reside in shared memory. | 
+| D3DDDI_RESIDENCYSTATUS_NOTRESIDENT (3) | The resource or list of allocations is nonresident, which is the lowest residency status. | 
 
 
 ## -see-also

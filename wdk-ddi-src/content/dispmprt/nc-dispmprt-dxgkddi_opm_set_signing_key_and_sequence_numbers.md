@@ -95,58 +95,12 @@ After the display miniport driver decrypts the data, only the first 40 bytes of 
 
 <i>DxgkDdiOPMSetSigningKeyAndSequenceNumbers</i> returns one of the following values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function successfully set the signing key and two sequence numbers.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_OPM_INVALID_ENCRYPTED_PARAMETERS</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiOPMSetSigningKeyAndSequenceNumbers</i> returns this value for one of the following reasons:
-
-<ul>
-<li>
-If the protected output has OPM semantics, the data that the display miniport driver decrypted was not encoded with the RSAES-OAEP encoding algorithm. For more information about RSAES-OAEP, see section 7.1.2 in the PKCS #1 v2.1: RSA Cryptography Standard, at the <a href="https://go.microsoft.com/fwlink/p/?linkid=70411">RSA Laboratories</a> website.
-
-</li>
-<li>
-The data was not encrypted by the caller with the appropriate public key. If the output has OPM semantics, the caller should encrypt the data with the public key from the display miniport driver's OPM certificate. If the output has COPP semantics, the caller should encrypt the data with the public key from the display miniport driver's COPP certificate.
-
-</li>
-<li>
-The caller did not encrypt at least 40 bytes of data.
-
-</li>
-<li>
-The 16-byte random number in the data that the display miniport driver decrypted did not match the 16-byte random number that the <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_random_number.md">DxgkDdiOPMGetRandomNumber</a> function returned.
-
-</li>
-</ul>
-</td>
-</tr>
-</table>
- 
+| **Return code** | **Description** | 
+|:--|:--|
+| **STATUS_SUCCESS** | The function successfully set the signing key and two sequence numbers. | 
+| **STATUS_OPM_INVALID_ENCRYPTED_PARAMETERS** | DxgkDdiOPMSetSigningKeyAndSequenceNumbersreturns this value for one of the following reasons:<br/><ul><li>If the protected output has OPM semantics, the data that the display miniport driver decrypted was not encoded with the RSAES-OAEP encoding algorithm. For more information about RSAES-OAEP, see section 7.1.2 in the PKCS #1 v2.1: RSA Cryptography Standard, at the [RSA Laboratories](https://go.microsoft.com/fwlink/p/?linkid=70411)  website.</li><li>The data was not encrypted by the caller with the appropriate public key. If the output has OPM semantics, the caller should encrypt the data with the public key from the display miniport driver's OPM certificate. If the output has COPP semantics, the caller should encrypt the data with the public key from the display miniport driver's COPP certificate.</li><li>The caller did not encrypt at least 40 bytes of data.</li><li>The 16-byte random number in the data that the display miniport driver decrypted did not match the 16-byte random number that the [DxgkDdiOPMGetRandomNumber](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/dispmprt/nc-dispmprt-dxgkddi_opm_get_random_number.md)  function returned.</li></ul> |
 
 This function might also return other error codes that are defined in Ntstatus.h.
-
-
-
 
 ## -remarks
 

@@ -52,22 +52,12 @@ The <b>pfnPresentCb</b> function copies content from a source allocation.
 
 ## -parameters
 
-
-
-
 ### -param hDevice [in]
 
 A handle to a display device (graphics context).
 
 
 ### -param *
-
-
-
-
-
-
-
 
 *pData* [in]
 
@@ -80,45 +70,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>pfnPresentCb</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-Content was successfully copied.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>pfnPresentCb</b> could not complete because of insufficient memory.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|Content was successfully copied.|
+|E_OUTOFMEMORY|pfnPresentCb could not complete because of insufficient memory.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
  
 
 This function might also return other HRESULT values.
@@ -143,13 +99,8 @@ The user-mode display driver sets the <b>hContext</b> member of the <a href="htt
 
 The following code example shows how to color-fill a destination surface.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    HRESULT hr=S_OK;
+```cpp
+    HRESULT hr=S_OK;
     // A color-fill request that does not have a source surface
     D3DDDICB_PRESENT    PresentCBData = {0};
 
@@ -165,11 +116,8 @@ The following code example shows how to color-fill a destination surface.
 
     hr = m_d3dCallbacks.pfnPresentCb(m_hD3D, &amp;PresentCBData);
 
-    return hr;</pre>
-</td>
-</tr>
-</table></span></div>
-
+    return hr;
+```
 
 
 ## -see-also

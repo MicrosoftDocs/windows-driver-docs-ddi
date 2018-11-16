@@ -81,26 +81,9 @@ A pointer to an operating system-provided buffer that holds the  ID of the VidPN
 
 Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes that are defined in Ntstatus.h, including:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_RESOURCE_IN_USE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The hardware resources needed to support a Miracast connected session aren't currently available.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_RESOURCE_IN_USE|The hardware resources needed to support a Miracast connected session aren't currently available.|
 
 
 ## -remarks

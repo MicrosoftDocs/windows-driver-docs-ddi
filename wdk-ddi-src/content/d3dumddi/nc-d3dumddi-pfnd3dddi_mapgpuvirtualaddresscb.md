@@ -86,35 +86,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn90
 
 <b>pfnMapGpuVirtualAddressCb</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The operation completed successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_PENDING </b></dt>
-</dl>
-</td>
-<td width="60%">
-The call was successful, but the operation is not finished. The caller must wait for the returned fence value before accessing the allocation.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|S_OK|The operation completed successfully.|
+|E_PENDING|The call was successful, but the operation is not finished. The caller must wait for the returned fence value before accessing the allocation.|
 
 This function might also return other values.
 

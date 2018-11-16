@@ -121,19 +121,11 @@ DXVADDI_VIDEOTRANSFERFUNCTION corresponds to the gamma function of the data. Som
 
 The following constants can also be used for gamma function:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define DXVADDI_VideoTransFunc_22_709  DXVADDI_VideoTransFunc_709
+```cpp
+#define DXVADDI_VideoTransFunc_22_709  DXVADDI_VideoTransFunc_709
 #define DXVADDI_VideoTransFunc_22_240M  DXVADDI_VideoTransFunc_240M
-#define DXVADDI_VideoTransFunc_22_8bit_sRGB  DXVADDI_VideoTransFunc_sRGB</pre>
-</td>
-</tr>
-</table></span></div>
-
+#define DXVADDI_VideoTransFunc_22_8bit_sRGB  DXVADDI_VideoTransFunc_sRGB
+```
 
 
 ## -see-also

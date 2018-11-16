@@ -79,35 +79,10 @@ req.typenames: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
 
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/dn914421">D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS</a> structure describing the operation.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="WaitAny"></a><a id="waitany"></a><a id="WAITANY"></a><dl>
-<dt><b>WaitAny</b></dt>
-<dt>FALSE</dt>
-</dl>
-</td>
-<td width="60%">
-The wait condition is considered to be satisfied when all input synchronization objects are signaled to the corresponding input fence values or greater.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="WaitAny"></a><a id="waitany"></a><a id="WAITANY"></a><dl>
-<dt><b>WaitAny</b></dt>
-<dt>TRUE</dt>
-</dl>
-</td>
-<td width="60%">
-The wait condition is considered to be satisfied when any of the input synchronization objects is signaled to the corresponding input fence value or greater.
-
-</td>
-</tr>
-</table>
- 
+| **Value** | **Meaning** | 
+|:--|:--|
+| **WaitAny** <br/>FALSE|The wait condition is considered to be satisfied when all input synchronization objects are signaled to the corresponding input fence values or greater. |
+| **WaitAny** <br/>TRUE|The wait condition is considered to be satisfied when any of the input synchronization objects is signaled to the corresponding input fence value or greater. |
 
 
 ## -see-also

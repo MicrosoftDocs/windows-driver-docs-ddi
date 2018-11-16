@@ -460,13 +460,8 @@ A [PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB](nc-d3dumddi-pfnd3dddi_submitpresentblt
 
 The following code, from D3dumddi.h, shows the function declarations for the callback functions that the members of <b>D3DDDI_DEVICECALLBACKS</b> point to.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_ALLOCATECB)(
+```cpp
+typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_ALLOCATECB)(
         _In_ HANDLE hDevice, _Inout_ D3DDDICB_ALLOCATE*);
 typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_DEALLOCATECB)(
         _In_ HANDLE hDevice, _In_ CONST D3DDDICB_DEALLOCATE*);
@@ -528,10 +523,7 @@ typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_PRESENTMULTIPLANEOV
 typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_LOGUMDMARKERCB)(
         _In_ HANDLE hDevice, _In_ CONST D3DDDICB_LOGUMDMARKER*);
 #endif
-</pre>
-</td>
-</tr>
-</table></span></div>
+```
 
 
 

@@ -64,149 +64,22 @@ Specifies the macroblock address of the current macroblock in raster scan order.
 
 Specifies the type of macroblock being processed. The following bits define macroblock processing.
 
-<table>
-<tr>
-<th>Bits</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-15 to 12
+| **Bits** | **Description** | 
+|:--|:--|
+| 15 to 12 | MvertFieldSel_3 (bit 15, the most significant bit) through MvertFieldSel_0 (bit 12)<br/>Specifies vertical field selection for corresponding motion vectors sent later in the macroblock control command. For frame-based motion with a frame picture structure (for example, for H.261 and H.263), these bits must all be zero. The bits in MvertFieldSel_0, *MvertFieldSel_1,* MvertFieldSel_2, and MvertFieldSel_3 correspond to the motion_vertical_field_select[r][s] bits in Section 6.3.17.2 of MPEG-2. | 
+| 11 | *Reserved Bit*<br/>Must be zero. | 
+| 10 | *HostResidDiff*<br/>Specifies whether spatial-domain residual difference decoded blocks are sent or whether transform coefficients are sent for off-host IDCT for the current macroblock.<br/>HostResidDiff is always equal to 1 in this structure. This flag must be zero if bConfigResidDiffHost is zero. This flag must be 1 if bConfigResidDiffAccelerator is zero. The bConfigResidDiffHost and bConfigResidDiffAccelerator members are contained in the [DXVA_ConfigPictureDecode](https://msdn.microsoft.com/library/windows/hardware/ff563133)  structure. | 
+| 9 and 8 | *MotionType*<br/>Must be zero. | 
+| 7 and 6 | *MBscanMethod*<br/>These bits have no meaning and should be set to zero. | 
+| 5 | *FieldResidual*<br/>Indicates whether the residual difference blocks use a field IDCT structure as specified in MPEG-2.<br/>Must be 1 if the bPicStructure member of DXVA_PictureParameters is 1 or 2. When used for MPEG-2, FieldResidual must be zero if the frame_pred_frame_DCT flag in the MPEG-2 syntax is 1, and must be equal to the dct_type variable of the MPEG-2 syntax if dct_type is present for the macroblock. | 
+| 4 | *H261LoopFilter*<br/>Must be zero. | 
+| 3 | *Motion4MV*<br/>Must be zero. | 
+| 2 | *MotionBackward*<br/>Must be zero. | 
+| 1 | *MotionForward*<br/>Must be zero. | 
+| 0 | *IntraMacroblock*<br/>Must be 1. | 
 
-</td>
-<td>
-<i>MvertFieldSel_</i>3 (bit 15, the most significant bit) through <i>MvertFieldSel</i>_0 (bit 12)
 
-Specifies vertical field selection for corresponding motion vectors sent later in the macroblock control command. For frame-based motion with a frame picture structure (for example, for H.261 and H.263), these bits must all be zero. The bits in <i>MvertFieldSel_0, MvertFieldSel_1, MvertFieldSel_2, </i>and <i>MvertFieldSel_3</i> correspond to the motion_vertical_field_select[r][s] bits in Section 6.3.17.2 of MPEG-2.
 
-</td>
-</tr>
-<tr>
-<td>
-11
-
-</td>
-<td>
-<i>Reserved Bit</i>
-
-Must be zero.
-
-</td>
-</tr>
-<tr>
-<td>
-10
-
-</td>
-<td>
-<i>HostResidDiff</i>
-
-Specifies whether spatial-domain residual difference decoded blocks are sent or whether transform coefficients are sent for off-host IDCT for the current macroblock.
-
-<i>HostResidDiff </i>is always equal to 1 in this structure. This flag must be zero if <b>bConfigResidDiffHost</b> is zero. This flag must be 1 if <b>bConfigResidDiffAccelerator</b> is zero. The <b>bConfigResidDiffHost</b> and <b>bConfigResidDiffAccelerator</b> members are contained in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563133">DXVA_ConfigPictureDecode</a> structure.
-
-</td>
-</tr>
-<tr>
-<td>
-9 and 8
-
-</td>
-<td>
-<i>MotionType</i>
-
-Must be zero.
-
-</td>
-</tr>
-<tr>
-<td>
-7 and 6
-
-</td>
-<td>
-<i>MBscanMethod</i>
-
-These bits have no meaning and should be set to zero.
-
-</td>
-</tr>
-<tr>
-<td>
-5
-
-</td>
-<td>
-<i>FieldResidual</i>
-
-Indicates whether the residual difference blocks use a field IDCT structure as specified in MPEG-2.
-
-Must be 1 if the <b>bPicStructure</b> member of DXVA_PictureParameters is 1 or 2. When used for MPEG-2, <i>FieldResidual</i> must be zero if the <i>frame_pred_frame_DCT</i> flag in the MPEG-2 syntax is 1, and must be equal to the <i>dct_type</i> variable of the MPEG-2 syntax if <i>dct_type</i> is present for the macroblock.
-
-</td>
-</tr>
-<tr>
-<td>
-4
-
-</td>
-<td>
-<i>H261LoopFilter</i>
-
-Must be zero.
-
-</td>
-</tr>
-<tr>
-<td>
-3
-
-</td>
-<td>
-<i>Motion4MV</i>
-
-Must be zero.
-
-</td>
-</tr>
-<tr>
-<td>
-2
-
-</td>
-<td>
-<i>MotionBackward</i>
-
-Must be zero.
-
-</td>
-</tr>
-<tr>
-<td>
-1
-
-</td>
-<td>
-<i>MotionForward</i>
-
-Must be zero.
-
-</td>
-</tr>
-<tr>
-<td>
-0
-
-</td>
-<td>
-<i>IntraMacroblock</i>
-
-Must be 1.
-
-</td>
-</tr>
-</table>
- 
 
 
 ### -field dwMB_SNL

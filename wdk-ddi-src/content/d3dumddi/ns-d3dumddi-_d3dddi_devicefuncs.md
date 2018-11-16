@@ -816,13 +816,8 @@ Supported starting with Windows 8.1.
 
 The following code, from D3dumddi.h, shows the function declarations for the functions that the members of <b>D3DDDI_DEVICEFUNCS</b> point to. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef _Check_return_ HRESULT (APIENTRY *PFND3DDDI_SETRENDERSTATE)(
+```cpp
+typedef _Check_return_ HRESULT (APIENTRY *PFND3DDDI_SETRENDERSTATE)(
         _In_ HANDLE hDevice, _In_ CONST D3DDDIARG_RENDERSTATE*);
 typedef _Check_return_ HRESULT (APIENTRY *PFND3DDDI_UPDATEWINFO)(
         _In_ HANDLE hDevice, _In_ CONST D3DDDIARG_WINFO*);
@@ -1110,11 +1105,8 @@ typedef _Check_return_ HRESULT (APIENTRY *PFND3DDDI_SETMARKERMODE)(
         _In_ HANDLE hDevice, _In_ D3DDDI_MARKERTYPE Type, /*D3DDDI_SETMARKERMODE*/ UINT Flags );
 typedef _Check_return_ HRESULT (APIENTRY *PFND3DDDI_SETMARKER)(
         _In_ HANDLE hDevice);
-#endif // D3D_UMD_INTERFACE_VERSION</pre>
-</td>
-</tr>
-</table></span></div>
-
+#endif // D3D_UMD_INTERFACE_VERSION
+```
 
 
 ## -see-also

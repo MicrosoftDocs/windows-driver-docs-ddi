@@ -74,18 +74,10 @@ Sets the protection type and level on the physical connector associated with the
 
 The DXVA_COPPSetProtectionLevel GUID is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DEFINE_GUID(DXVA_COPPSetProtectionLevel,
-    0x9bb9327c,0x4eb5,0x4727,0x9f,0x00,0xb4,0x2b,0x09,0x19,0xc0,0xda);</pre>
-</td>
-</tr>
-</table></span></div>
-
+```cpp
+DEFINE_GUID(DXVA_COPPSetProtectionLevel,
+    0x9bb9327c,0x4eb5,0x4727,0x9f,0x00,0xb4,0x2b,0x09,0x19,0xc0,0xda);
+```
 
 #### DXVA_COPPSetSignaling
 
@@ -93,17 +85,10 @@ An instruction about how to protect the signal that goes through the physical co
 
 The DXVA_COPPSetSignaling GUID is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DEFINE_GUID(DXVA_COPPSetSignaling,
-    0x9a631a5,0xd684,0x4c60,0x8e,0x4d,0xd3,0xbb,0xf,0xb,0xe3,0xee);</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+DEFINE_GUID(DXVA_COPPSetSignaling,
+    0x9a631a5,0xd684,0x4c60,0x8e,0x4d,0xd3,0xbb,0xf,0xb,0xe3,0xee);
+```
 
 ### -field dwSequence
 

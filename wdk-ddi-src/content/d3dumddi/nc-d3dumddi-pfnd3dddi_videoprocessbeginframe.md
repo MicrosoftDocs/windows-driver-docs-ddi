@@ -71,37 +71,10 @@ A handle to the display device (graphics context).
 
 <i>VideoProcessBeginFrame</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-Video frame processing successfully began.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>VideoProcessBeginFrame</i> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|Video frame processing successfully began.|
+|E_OUTOFMEMORY|VideoProcessBeginFrame could not allocate the required memory for it to complete.|
 
 
 ## -remarks

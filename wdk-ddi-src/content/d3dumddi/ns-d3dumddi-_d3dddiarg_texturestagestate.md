@@ -70,33 +70,10 @@ For a definition of each value, see the corresponding value of D3DTEXTURESTAGEST
 
 The following texture states are used exclusively by user-mode display drivers for texture colorkeying:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DDDITSS_DISABLETEXTURECOLORKEY (33)
-
-</td>
-<td>
-Disable the current texture's colorkey. The <b>Value</b> member is set to <b>TRUE</b> to disable.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDDITSS_TEXTURECOLORKEYVAL (34)
-
-</td>
-<td>
-Update the colorkey for the current texture. The <b>Value</b> member is set to the colorkey value.
-
-</td>
-</tr>
-</table>
- 
+| **Value** | **Meaning** | 
+|:--|:--|
+| D3DDDITSS_DISABLETEXTURECOLORKEY (33) | Disable the current texture's colorkey. The Value member is set to TRUE to disable. | 
+| D3DDDITSS_TEXTURECOLORKEYVAL (34) | Update the colorkey for the current texture. The Valuemember is set to the colorkey value. | 
 
 
 ### -field Value

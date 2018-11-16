@@ -64,16 +64,9 @@ A handle that represents a display adapter. The display miniport driver previous
 
 A pointer to a function, implemented by the display miniport driver, that will be synchronized with <i>DxgkDdiInterruptRoutine</i>. The function must conform to the following prototype:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BOOLEAN SynchronizeRoutine(PVOID Context);</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+BOOLEAN SynchronizeRoutine(PVOID Context);
+```
 
 ### -param Context [in]
 
@@ -96,48 +89,11 @@ A pointer to a Boolean variable that receives the return value of <i>Synchronize
 
 <b>DxgkCbSynchronizeExecution</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-One of the parameters is invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_UNSUCCESSFUL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function was unable to synchronize execution, possibly because the interrupt had not been connected yet.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_INVALID_PARAMETER|One of the parameters is invalid.|
+|STATUS_UNSUCCESSFUL|The function was unable to synchronize execution, possibly because the interrupt had not been connected yet.|
 
 
 ## -see-also

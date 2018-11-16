@@ -71,35 +71,10 @@ A Boolean value that specifies whether the runtime will start or stop receiving 
 
 <b>pfnSetAsyncCallbacksCb</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The Direct3D runtime was successfully notified. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|S_OK|The Direct3D runtime was successfully notified.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
 
 This function might also return other HRESULT values.
 

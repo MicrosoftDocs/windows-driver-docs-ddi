@@ -80,46 +80,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <i>Unlock</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The resource is successfully unlocked.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>Unlock</i> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-The resource that <a href="https://msdn.microsoft.com/library/windows/hardware/ff543394">D3DDDIARG_UNLOCK</a> describes was not locked by a previous call to the driver's <a href="https://msdn.microsoft.com/e2289073-d46a-4a12-8de7-30400e04cc22">Lock</a> function. 
-
-</td>
-</tr>
-</table>
- 
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The resource is successfully unlocked. | 
+| **E_OUTOFMEMORY** | Unlock could not allocate the required memory for it to complete. | 
+| **E_INVALIDARG** | The resource that [D3DDDIARG_UNLOCK](https://msdn.microsoft.com/library/windows/hardware/ff543394) describes was not locked by a previous call to the driver's [Lock](https://msdn.microsoft.com/e2289073-d46a-4a12-8de7-30400e04cc22)  function. | 
 
 
 

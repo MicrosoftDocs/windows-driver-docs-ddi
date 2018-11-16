@@ -59,53 +59,12 @@ The D3DDDIARG_CLEAR structure describes the parameters of a hardware-assisted cl
 
 [in] A UINT value that specifies which buffers the driver should clear and how the clear operation should be performed. This member can be a bitwise OR of the following values. For more information, see the Remarks section in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a> reference page.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DCLEAR_TARGET (0x00000001l)
-
-</td>
-<td>
-The driver should clear the context's render target to the color that is specified by the <b>FillColor</b> member. This value is defined in <i>D3d8types.h</i>.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DCLEAR_STENCIL (0x00000004l)
-
-</td>
-<td>
-The driver should clear the context's stencil buffer to the value that is specified by the <b>FillStencil</b> member. This value is defined in <i>D3d8types.h</i>.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DCLEAR_ZBUFFER (0x00000002l)
-
-</td>
-<td>
-The driver should clear the context's depth buffer to the depth that is specified by the <b>FillDepth</b> member. This value is defined in <i>D3d8types.h</i>.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DCLEAR_COMPUTERECTS (0x00000008l)
-
-</td>
-<td>
-If rectangles are specified for clearing, the driver should clip them against the current viewport. If no rectangles are specified, the driver should clear the entire viewport. This value is defined in <i>D3dhal.h</i>.
-
-</td>
-</tr>
-</table>
- 
+| **Value** | **Meaning** | 
+|:--|:--|
+| D3DCLEAR_TARGET (0x00000001l) | The driver should clear the context's render target to the color that is specified by the FillColor member. This value is defined in D3d8types.h. | 
+| D3DCLEAR_STENCIL (0x00000004l) | The driver should clear the context's stencil buffer to the value that is specified by the FillStencil member. This value is defined in D3d8types.h. | 
+| D3DCLEAR_ZBUFFER (0x00000002l) | The driver should clear the context's depth buffer to the depth that is specified by the FillDepth member. This value is defined in D3d8types.h. | 
+| D3DCLEAR_COMPUTERECTS (0x00000008l) | If rectangles are specified for clearing, the driver should clip them against the current viewport. If no rectangles are specified, the driver should clear the entire viewport. This value is defined in D3dhal.h. | 
 
 
 ### -field FillColor

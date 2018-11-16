@@ -89,23 +89,10 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff554430">MEMORY_
 
 A pointer to a variable that receives the address of the beginning of the mapped range. The way that the mapped range is accessed depends on the values of <i>InIoSpace</i> and <i>MapToUserMode</i>. The following table summarizes the different ways that the mapped range is accessed.
 
-<table>
-<tr>
-<td></td>
-<td><i>MapToUserMode</i> is <b>FALSE</b></td>
-<td><i>MapToUserMode</i> is <b>TRUE</b></td>
-</tr>
-<tr>
-<td><i>InIoSpace</i> is <b>FALSE</b></td>
-<td>READ_REGISTER_X WRITE_REGISTER_X</td>
-<td>User-mode code performs ordinary memory access.</td>
-</tr>
-<tr>
-<td><i>InIoSpace</i> is <b>TRUE</b></td>
-<td>READ_PORT_X WRITE_PORT_X</td>
-<td>Not possible.</td>
-</tr>
-</table>
+|*MapToUserMode* is FALSE|*MapToUserMode* is TRUE|
+|--- |--- |--- |
+|InIoSpace is FALSE|READ_REGISTER_X WRITE_REGISTER_X|User-mode code performs ordinary memory access.|
+|InIoSpace is TRUE|READ_PORT_X WRITE_PORT_X|Not possible.|
  
 
 
