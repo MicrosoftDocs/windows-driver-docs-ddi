@@ -108,74 +108,14 @@ Indicates whether the DeviceIoControl call to the driver completed and the OUT p
 
 The <b>Status</b> member is set to one of the values in the following table.
 
-<table>
-<tr>
-<th>Status value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-S_OK, STATUS_SUCCESS
-
-</td>
-<td>
-The operation completed successfully.  If the size of data returned is DWORD, the payload contains the size of the buffer necessary for the call.  Otherwise, the payload contains the full output buffer.
-
-</td>
-</tr>
-<tr>
-<td>
-E_INVALIDARG
-
-</td>
-<td>
-The parameters were not specified correctly.
-
-</td>
-</tr>
-<tr>
-<td>
-WINBIO_E_DATA_COLLECTION_IN_PROGRESS
-
-</td>
-<td>
-Device has an IOCTL_BIOMETRIC_CAPTURE_DATA pending.
-
-</td>
-</tr>
-<tr>
-<td>
-E_UNKNOWN
-
-</td>
-<td>
-Any other failure that prevents the payload from being filled in.
-
-</td>
-</tr>
-<tr>
-<td>
-E_UNEXPECTED
-
-</td>
-<td>
-Any other failure that prevents the payload from being filled in.
-
-</td>
-</tr>
-<tr>
-<td>
-E_FAIL
-
-</td>
-<td>
-Any other failure that prevents the payload from being filled in.
-
-</td>
-</tr>
-</table>
- 
-
+|Status value|Description|
+|--- |--- |
+|S_OK, STATUS_SUCCESS|The operation completed successfully.  If the size of data returned is DWORD, the payload contains the size of the buffer necessary for the call.  Otherwise, the payload contains the full output buffer.|
+|E_INVALIDARG|The parameters were not specified correctly.|
+|WINBIO_E_DATA_COLLECTION_IN_PROGRESS|Device has an IOCTL_BIOMETRIC_CAPTURE_DATA pending.|
+|E_UNKNOWN|Any other failure that prevents the payload from being filled in.|
+|E_UNEXPECTED|Any other failure that prevents the payload from being filled in.|
+|E_FAIL|Any other failure that prevents the payload from being filled in.|
 
 ## -remarks
 
