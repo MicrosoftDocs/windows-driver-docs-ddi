@@ -80,34 +80,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>pfnDestroyContextCb</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The context was successfully destroyed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The context was successfully destroyed.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
  
 
 This function might also return other HRESULT values.
@@ -127,22 +103,14 @@ If the specified context has not finished the work that is currently queued to i
 
 The following code example shows how to destroy the default context for a display device.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    if (m_d3dCallbacks.pfnDestroyContextCb) {
+```cpp
+    if (m_d3dCallbacks.pfnDestroyContextCb) {
         D3DDDICB_DESTROYCONTEXT DestroyContext;
         DestroyContext.hContext = m_sContexts[MULTI_ENGINE_NODE_3D].hContext;
         m_d3dCallbacks.pfnDestroyContextCb(m_hD3D, &amp;DestroyContext);
         m_sContexts[MULTI_ENGINE_NODE_3D].hContext = NULL;
-    }</pre>
-</td>
-</tr>
-</table></span></div>
-
+    }
+```
 
 
 ## -see-also

@@ -80,36 +80,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>CryptoSessionKeyExchange</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The session key is successfully exchanged. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/f8055bb3-b8f1-47f5-9ae0-8e7a26989871">CryptoSessionKeyExchange</a> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The session key is successfully exchanged. | 
+| **E_OUTOFMEMORY** | [CryptoSessionKeyExchange](https://msdn.microsoft.com/f8055bb3-b8f1-47f5-9ae0-8e7a26989871)  could not allocate the required memory for it to complete. | 
 
 
 

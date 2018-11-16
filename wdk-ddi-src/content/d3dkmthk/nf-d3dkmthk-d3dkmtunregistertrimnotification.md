@@ -45,83 +45,32 @@ req.typenames:
 
 # D3DKMTUnregisterTrimNotification function
 
-
 ## -description
-
 
 <b>D3DKMTUnregisterTrimNotification</b> is used to remove a callback registration for a kernel mode device receiving notifications from a graphics framework (such as OpenGL).
 <div class="alert"><b>Note</b>  The callback must be unregistered prior to unloading the module that contains the callback function and destroying the registered kernel mode device.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param Arg1
-
-
-
-
-
 
 *pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906808">D3DKMT_UNREGISTERTRIMNOTIFICATION</a> structure that describes the operation.
 
-
 ## -returns
-
-
 
 Returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The operation was performed successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER </b></dt>
-</dl>
-</td>
-<td width="60%">
-
-         Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The operation was performed successfully.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
  
-
 This function might also return other <b>NTSTATUS</b> values.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn906781">D3DKMTRegisterTrimNotification</a>
 
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn906808">D3DKMT_UNREGISTERTRIMNOTIFICATION</a>
- 
-
- 
-

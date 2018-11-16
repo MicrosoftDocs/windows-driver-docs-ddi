@@ -76,45 +76,14 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>D3DKMTDestroyKeyedMutex</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The keyed mutex object was successfully destroyed. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The keyed mutex object was successfully destroyed.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
 
 This function might also return other <b>NTSTATUS</b> values.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547885">D3DKMT_DESTROYKEYEDMUTEX</a>
  

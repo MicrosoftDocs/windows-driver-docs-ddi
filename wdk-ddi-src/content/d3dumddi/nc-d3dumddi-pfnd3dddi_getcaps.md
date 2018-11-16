@@ -80,35 +80,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <i>GetCaps</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The capabilities were successfully retrieved.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65">GetCaps</a> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The capabilities were successfully retrieved.|
+|E_OUTOFMEMORY|GetCaps could not allocate the required memory for it to complete.|
  
 
 
@@ -120,42 +95,17 @@ The capabilities were successfully retrieved.
 
 The data that is returned by the <i>GetCaps</i> function in the <b>pData</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543148">D3DDDIARG_GETCAPS</a> structure depends on the type of data that is requested (that is, the data depends on the <b>Type</b> member of <b>D3DDDIARG_GETCAPS</b> and sometimes on the <b>pInfo</b> member).
 
-Here are examples of how to set up the <i>GetCaps</i> call depending on the value of <a href="https://msdn.microsoft.com/library/windows/hardware/ff543148">D3DDDIARG_GETCAPS</a>.<b>Type</b>.
+Here are examples of how to set up the <i>GetCaps</i> call depending on the value of <a href="https://msdn.microsoft.com/library/windows/hardware/ff543148">D3DDDIARG_GETCAPS</a>.<i>Type</i>.
 
-<table>
-<tr>
-<th>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543148">D3DDDIARG_GETCAPS</a> member</th>
-<th>Member value—Example 1</th>
-<th>Member value—Example 2</th>
-</tr>
-<tr>
-<td><b>Type</b></td>
-<td><b>D3DDDICAPS_DDRAW</b></td>
-<td><b>D3DDDICAPS_GETFORMATCOUNT</b></td>
-</tr>
-<tr>
-<td><b>pInfo</b></td>
-<td>[in] <code>NULL</code> (no conditions are set)</td>
-<td>[in] <code>NULL</code> (no conditions are set)</td>
-</tr>
-<tr>
-<td><b>pData</b></td>
-<td>[out] <code>DDRAW_CAPS*</code> (unique pointer)</td>
-<td>[out] <code>UINT*</code> (unique pointer)</td>
-</tr>
-<tr>
-<td><b>DataSize</b></td>
-<td><code>sizeof(DDRAW_CAPS)</code></td>
-<td><code>sizeof(UINT)</code></td>
-</tr>
-<tr>
-<td><b>Notes</b></td>
-<td>Driver must fill in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550275">DDRAW_CAPS</a> structure pointed to by <b>pData</b> with Microsoft DirectDraw capabilities that it supports.</td>
-<td>Driver must fill the buffer pointed to by <b>pData</b> with a UINT value that represents the number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a> surface formats that the device supports.</td>
-</tr>
-</table>
- 
+| **[D3DDDIARG_GETCAPS](https://msdn.microsoft.com/library/windows/hardware/ff543148) member** | **Member value—Example 1** | **Member value—Example 2** | 
+|:--|:--|:--|
+| **Type** | **D3DDDICAPS_DDRAW** | **D3DDDICAPS_GETFORMATCOUNT** | 
+| **pInfo** | [in] `NULL` (no conditions are set) | [in] `NULL` (no conditions are set) | 
+| **pData** | [out] `DDRAW_CAPS*`(unique pointer) | [out] UINT* (unique pointer) | 
+| **DataSize** | `sizeof(DDRAW_CAPS)` | `sizeof(UINT)` | 
+| **Notes** | Driver must fill in the [DDRAW_CAPS](https://msdn.microsoft.com/library/windows/hardware/ff550275)  structure pointed to by pDatawith Microsoft DirectDraw capabilities that it supports. | Driver must fill the buffer pointed to by pData with a UINT value that represents the number of [D3DDDIFORMAT](https://msdn.microsoft.com/library/windows/hardware/ff544312)  surface formats that the device supports. | 
+
+
 
 See the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543148">D3DDDIARG_GETCAPS</a> enumeration topic for explanations of other values for <b>D3DDDIARG_GETCAPS</b>.<b>Type</b> that are used for multiplane overlays.
 

@@ -63,12 +63,6 @@ A handle to the display device (graphics context).
 ### -param *
 
 
-
-
-
-
-
-
 *pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542987">D3DDDIARG_DECODEBEGINFRAME</a> structure that describes information for the DirectX VA decoder to start decoding a frame.
@@ -80,39 +74,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>DecodeBeginFrame</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-Decoding successfully began.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/3e6153aa-7b21-429d-8908-1ff3a4d25e17">DecodeBeginFrame</a> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | Decoding successfully began. | 
+| **E_OUTOFMEMORY** | [DecodeBeginFrame](https://msdn.microsoft.com/3e6153aa-7b21-429d-8908-1ff3a4d25e17)  could not allocate the required memory for it to complete. | 
 
 ## -remarks
 

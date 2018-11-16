@@ -80,38 +80,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>DecodeExecute</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The DirectX VA decode operation is successfully performed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/e12496c0-e3e4-437e-9f84-a30ee99b4541">DecodeExecute</a> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The DirectX VA decode operation is successfully performed.|
+|E_OUTOFMEMORY|DecodeExecute could not allocate the required memory for it to complete.|
 
 
 ## -remarks

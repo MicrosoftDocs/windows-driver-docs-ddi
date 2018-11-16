@@ -60,70 +60,18 @@ The <b>D3DDDICB_DESTROYALLOCATION2FLAGS</b> structure is used with the <a href="
 
 ### -field AssumeNotInUse
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>FALSE</dt>
-</dl>
-</td>
-<td width="60%">
-Instructs the video memory manager to assume that commands queued prior to the destruction request may attempt to access the allocation being destroyed and defers the destruction operation until the queued commands finish.
-
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>TRUE</dt>
-</dl>
-</td>
-<td width="60%">
- Instructs the video memory manager to ignore pending commands on the owner device and destroy the allocations immediately.
-
-</td>
-</tr>
-</table>
- 
+|Value|Meaning|
+|--- |--- |
+|FALSE|Instructs the video memory manager to assume that commands queued prior to the destruction request may attempt to access the allocation being destroyed and defers the destruction operation until the queued commands finish.|
+|TRUE|Instructs the video memory manager to ignore pending commands on the owner device and destroy the allocations immediately.|
 
 
 ### -field SynchronousDestroy
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>FALSE</dt>
-</dl>
-</td>
-<td width="60%">
- Instructs the DirectX graphics kernel that the call may return prior to the underlying surface memory being fully reclaimed by the operating system.
-
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>TRUE</dt>
-</dl>
-</td>
-<td width="60%">
- Instructs the DirectX graphics kernel to wait until surface memory is reclaimed by the operating system.
-
-</td>
-</tr>
-</table>
- 
+|Value|Meaning|
+|--- |--- |
+|FALSE|Instructs the DirectX graphics kernel that the call may return prior to the underlying surface memory being fully reclaimed by the operating system.|
+|TRUE|Instructs the DirectX graphics kernel to wait until surface memory is reclaimed by the operating system.|
 
 
 ### -field Reserved

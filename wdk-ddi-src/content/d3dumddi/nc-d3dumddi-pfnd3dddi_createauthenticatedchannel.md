@@ -70,52 +70,13 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 ## -returns
 
 
-
 <b>CreateAuthenticatedChannel</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The channel is successfully created.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/0a565bff-fc6f-41c1-a6fd-3a82dd0d7889">CreateAuthenticatedChannel</a> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_NOTAVAILABLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The driver does not support the channel type that is specified in the <b>ChannelType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542918">D3DDDIARG_CREATEAUTHENTICATEDCHANNEL</a> structure that the <i>pData</i> parameter points to. 
-
-</td>
-</tr>
-</table>
- 
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The channel is successfully created. | 
+| **E_OUTOFMEMORY** | [CreateAuthenticatedChannel](https://msdn.microsoft.com/0a565bff-fc6f-41c1-a6fd-3a82dd0d7889)  could not allocate the required memory for it to complete. | 
+| **D3DDDIERR_NOTAVAILABLE** | The driver does not support the channel type that is specified in the ChannelType member of the [D3DDDIARG_CREATEAUTHENTICATEDCHANNEL](https://msdn.microsoft.com/library/windows/hardware/ff542918) structure that the pData parameter points to. |
 
 
 ## -remarks

@@ -45,73 +45,28 @@ req.typenames:
 
 # D3DKMTUnlock2 function
 
-
 ## -description
-
 
 The <b>D3DKMTUnlock2</b> function unlocks a list of allocations.
 
-
 ## -parameters
 
-
-
-
 ### -param D3DKMT_UNLOCK2
-
-
-
-
-
 
 *pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn914462">D3DKMT_UNLOCK2</a> structure that describes a list of allocations to unlock.
 
-
 ## -returns
 
-
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The allocations were successfully unlocked.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The allocations were successfully unlocked.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
 
 This function might also return other <b>NTSTATUS</b> values.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn914462">D3DKMT_UNLOCK2</a>
  

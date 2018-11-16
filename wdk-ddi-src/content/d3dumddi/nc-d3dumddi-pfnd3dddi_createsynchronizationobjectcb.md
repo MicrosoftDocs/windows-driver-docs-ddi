@@ -80,45 +80,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>pfnCreateSynchronizationObjectCb</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The synchronization object was successfully created.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>pfnCreateSynchronizationObjectCb</b> could not allocate memory that was required for it to complete.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The synchronization object was successfully created.|
+|E_OUTOFMEMORY|pfnCreateSynchronizationObjectCb could not allocate memory that was required for it to complete.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
  
 
 This function might also return other HRESULT values.

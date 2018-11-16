@@ -73,60 +73,12 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>CreateCryptoSession</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The crypto session is successfully created. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_NOTAVAILABLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The driver does not support the GUID that is specified in the <b>CryptoType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542923">D3DDDIARG_CREATECRYPTOSESSION</a> structure or the NULL_GUID (all zeros) is specified in the <b>CryptoType</b> member. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_UNSUPPORTEDCRYPTO</b></dt>
-</dl>
-</td>
-<td width="60%">
-The driver does not support the crypto type for the specified decode type. 
-
-</td>
-</tr>
-</table>
- 
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The crypto session is successfully created. | 
+| **E_OUTOFMEMORY** | [CreateCryptoSession](https://msdn.microsoft.com/library/windows/hardware/hh451619)  could not allocate the required memory for it to complete. | 
+| **D3DDDIERR_NOTAVAILABLE** | The driver does not support the GUID that is specified in the CryptoTypemember of the [D3DDDIARG_CREATECRYPTOSESSION](https://msdn.microsoft.com/library/windows/hardware/ff542923) structure or the NULL_GUID (all zeros) is specified in the CryptoTypemember. | 
+| **D3DDDIERR_UNSUPPORTEDCRYPTO** | The driver does not support the crypto type for the specified decode type. |
 
 
 ## -remarks
