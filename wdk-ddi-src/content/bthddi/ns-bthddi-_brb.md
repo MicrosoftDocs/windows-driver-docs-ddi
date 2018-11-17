@@ -134,7 +134,7 @@ Defines the format for the commands that register and unregister a Protocol/Serv
 ### -field BrbL2caUpdateChannel
 
 Defines the format of a command that updates the settings of a L2CAP channel to a Bluetooth
-      device. For more information about updaing a L2CAP channel, see 
+      device. For more information about updating a L2CAP channel, see 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff536864">_BRB_L2CA_UPDATE_CHANNEL</a>.
 
 
