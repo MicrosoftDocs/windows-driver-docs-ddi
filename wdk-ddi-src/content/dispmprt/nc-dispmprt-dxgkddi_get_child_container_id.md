@@ -78,36 +78,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh46
 
 Returns one of the following error codes.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The driver has updated the structure pointed to by the <i>ContainerId</i> parameter with  container ID information obtained from the display hardware.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_MONITOR_NODESCRIPTOR</b></dt>
-</dl>
-</td>
-<td width="60%">
-The driver has accepted the default container ID information provided in the structure pointed to by  <i>ContainerId</i>.
-
-<div class="alert"><b>Note</b>  If the driver returns this status code, it should not modify the structure.</div>
-<div> </div>
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The driver has updated the structure pointed to by the ContainerId parameter with  container ID information obtained from the display hardware.|
+|STATUS_MONITOR_NODESCRIPTOR|The driver has accepted the default container ID information provided in the structure pointed to by  ContainerId. **Note:** If the driver returns this status code, it should not modify the structure.|
  
 
 Otherwise the function returns one of the status codes defined in Ntstatus.h.

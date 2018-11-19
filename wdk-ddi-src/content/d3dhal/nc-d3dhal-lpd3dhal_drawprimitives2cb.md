@@ -130,68 +130,38 @@ The driver should stall when it transitions between rendering user-memory primit
 
 The following example shows when <b>D3dDrawPrimitives2</b> should stall on an implicit current vertex buffer:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DrawPrimitives2(p*, D3DHALDP2_USERMEMVERTICES); // Do not stall
-DrawPrimitives2(Implicit VB, 0); // Stall </pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+DrawPrimitives2(p*, D3DHALDP2_USERMEMVERTICES); // Do not stall
+DrawPrimitives2(Implicit VB, 0); // Stall 
+```
+
 The following example shows when <b>D3dDrawPrimitives2</b> should not stall on an implicit current vertex buffer:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DrawPrimitives2(p*, D3DHALDP2_USERMEMVERTICES); // Do not stall
+```cpp
+DrawPrimitives2(p*, D3DHALDP2_USERMEMVERTICES); // Do not stall
 DrawPrimitives2(Explicit VB, 0); // Do not stall if not locked
 DrawPrimitives2(Explicit VB, D3DHALDP2_SWAPVERTEXBUFFER); // Do not stall whether locked
 DrawPrimitives2(Implicit VB, 0); // Do not stall whether locked
 DrawPrimitives2(Implicit VB, 0); // Do not stall whether locked
 DrawPrimitives2(p*, D3DHALDP2_USERMEMVERTICES); // Do not stall
-DrawPrimitives2(Implicit VB, D3DHALDP2_SWAPVERTEXBUFFER); // Do not stall because D3DHALDP2_SWAPVERTEXBUFFER is set</pre>
-</td>
-</tr>
-</table></span></div>
-</li>
-<li>
+DrawPrimitives2(Implicit VB, D3DHALDP2_SWAPVERTEXBUFFER); // Do not stall because D3DHALDP2_SWAPVERTEXBUFFER is set
+```
+
 If the runtime sets the D3DHALDP2_REQCOMMANDBUFSIZE flag, then the driver is not required to stall. By coincidence, the DirectX 8.0 runtime also sets D3DHALDP2_REQCOMMANDBUFSIZE when it most commonly renders from a locked explicit current vertex buffer. The driver can therefore improve performance by not stalling when it detects D3DHALDP2_REQCOMMANDBUFSIZE while rendering from a locked explicit current vertex buffer.
 
 The following example shows when <b>D3dDrawPrimitives2</b> should stall on an explicit current vertex buffer:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DrawPrimitives2(Explicit VB, 0); // Stall when locked (happens rarely)</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+DrawPrimitives2(Explicit VB, 0); // Stall when locked (happens rarely)
+```
+
 The following example shows when <b>D3dDrawPrimitives2</b> should not stall on an explicit current vertex buffer:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DrawPrimitives2(Explicit VB, D3DHALDP2_REQCOMMANDBUFSIZE); // Do not stall whether locked
+```cpp
+DrawPrimitives2(Explicit VB, D3DHALDP2_REQCOMMANDBUFSIZE); // Do not stall whether locked
 DrawPrimitives2(Explicit VB, D3DHALDP2_SWAPVERTEXBUFFER); // Do not stall whether locked
-DrawPrimitives2(Explicit VB, D3DHALDP2_SWAPVERTEXBUFFER | D3DHALDP2_REQCOMMANDBUFSIZE); // Do not stall</pre>
-</td>
-</tr>
-</table></span></div>
-</li>
-</ul>
-
+DrawPrimitives2(Explicit VB, D3DHALDP2_SWAPVERTEXBUFFER | D3DHALDP2_REQCOMMANDBUFSIZE); // Do not stall
+```
 
 
 ## -see-also

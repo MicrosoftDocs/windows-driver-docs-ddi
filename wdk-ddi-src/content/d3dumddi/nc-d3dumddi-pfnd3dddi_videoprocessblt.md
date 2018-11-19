@@ -52,22 +52,11 @@ The <i>VideoProcessBlt</i> function processes a video frame by using the specifi
 
 ## -parameters
 
-
-
-
 ### -param hDevice [in]
 
 A handle to the display device (graphics context).
 
-
 ### -param *
-
-
-
-
-
-
-
 
 *pData* [in]
 
@@ -80,43 +69,13 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <i>VideoProcessBlt</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The DirectX VA video processing operation is successfully performed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>VideoProcessBlt</i> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The DirectX VA video processing operation is successfully performed. | 
+| **E_OUTOFMEMORY** | VideoProcessBlt could not allocate the required memory for it to complete. | 
 
 
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544102">D3DDDIARG_VIDEOPROCESSBLT</a>
 

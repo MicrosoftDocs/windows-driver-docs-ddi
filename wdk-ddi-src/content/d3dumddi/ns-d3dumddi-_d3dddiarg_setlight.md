@@ -64,43 +64,11 @@ The D3DDDIARG_SETLIGHT structure describes how to set light properties.
 
 [in] A valid bitwise OR of the following flags that indicate the type of light data:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DDDISETLIGHT_DATA
-
-</td>
-<td>
-Specifies that a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544579">D3DDDI_LIGHT</a> structure that defines light properties is supplied in the <i>pLightProperties</i> parameter in a call to the user-mode display driver's <a href="https://msdn.microsoft.com/28e3992e-a636-47e2-a5a6-5da06d276b5c">SetLight</a> function.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDDISETLIGHT_ENABLE
-
-</td>
-<td>
-Enables the light whose index is specified in the <b>Index</b> member.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDDISETLIGHT_DISABLE
-
-</td>
-<td>
-Disables the light whose index is specified in <b>Index</b>
-
-</td>
-</tr>
-</table>
- 
+| **Value** | **Meaning** | 
+|:--|:--|
+| D3DDDISETLIGHT_DATA | Specifies that a pointer to a [D3DDDI_LIGHT](https://msdn.microsoft.com/library/windows/hardware/ff544579) structure that defines light properties is supplied in the pLightProperties parameter in a call to the user-mode display driver's [SetLight](https://msdn.microsoft.com/28e3992e-a636-47e2-a5a6-5da06d276b5c) function. | 
+| D3DDDISETLIGHT_ENABLE | Enables the light whose index is specified in the Index member. | 
+| D3DDDISETLIGHT_DISABLE | Disables the light whose index is specified in Index. | 
 
 
 ## -see-also

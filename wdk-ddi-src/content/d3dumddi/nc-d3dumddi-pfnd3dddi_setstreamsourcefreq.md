@@ -93,29 +93,17 @@ After the stream's frequency divisor is set--for example, to 2--the driver must 
 
 The driver uses the frequency divisor to compute the vertex offset into the vertex buffer according to the following formula: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VertexOffset = ((VertexIndex / Divider) * StreamStride) + StreamOffset </pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+VertexOffset = ((VertexIndex / Divider) * StreamStride) + StreamOffset
+```
+
 For each vertex stream that is used, if the driver receives a start-vertex value during a call to the driver's <a href="https://msdn.microsoft.com/1a6de2b0-cab0-4fcf-be1b-a8cc1c1f79e9">DrawPrimitive</a> function, the driver also divides this start-vertex value by the frequency divisor and factors the result in the formula. This start-vertex value is provided in the <b>VStart</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543057">D3DDDIARG_DRAWPRIMITIVE</a> structure. The following formula includes the start-vertex value: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VertexOffset = (StartVertex / Divider) + 
-       ((VertexIndex / Divider) * StreamStride) + StreamOffset </pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+VertexOffset = (StartVertex / Divider) + 
+       ((VertexIndex / Divider) * StreamStride) + StreamOffset 
+```
+
 Note that the preceding formulas use integer division. 
 
 The driver ignores the setting of a stream's frequency divisor either for indexed primitives or if the driver supports only a vertex shader model that is earlier than version 3.0 (including fixed function). 

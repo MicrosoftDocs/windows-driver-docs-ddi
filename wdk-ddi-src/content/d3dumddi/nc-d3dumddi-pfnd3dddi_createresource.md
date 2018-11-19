@@ -73,49 +73,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>CreateResource</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The resource is successfully created.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/5b74c989-1a62-4415-a19a-dd0ba2fcff83">CreateResource</a> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DERR_NOTAVAILABLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/5b74c989-1a62-4415-a19a-dd0ba2fcff83">CreateResource</a> could not create the resource for reasons other than not being able to allocate memory. <b>CreateResource</b> can return this error only when creating vertex or index buffers.
-
-</td>
-</tr>
-</table>
- 
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The resource is successfully created. | 
+| **E_OUTOFMEMORY** | [CreateResource](https://msdn.microsoft.com/5b74c989-1a62-4415-a19a-dd0ba2fcff83)  could not allocate the required memory for it to complete. | 
+| **D3DERR_NOTAVAILABLE** | [CreateResource](https://msdn.microsoft.com/5b74c989-1a62-4415-a19a-dd0ba2fcff83)  could not create the resource for reasons other than not being able to allocate memory. CreateResourcecan return this error only when creating vertex or index buffers. | 
 
 
 

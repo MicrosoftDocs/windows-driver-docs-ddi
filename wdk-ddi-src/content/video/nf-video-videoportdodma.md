@@ -54,13 +54,9 @@ The <b>VideoPortDoDma</b> function is <b>obsolete</b> in Windows 2000 and later.
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
-
 
 ### -param pDma [in]
 
@@ -71,57 +67,20 @@ Specifies a non-<b>NULL</b> DMA handle. This handle was obtained from a prior ca
 
 Specifies the action to be performed. This member can be one of the following values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-<b>VideoPortKeepPagesLockedVideoPortDmaInitOnly</b>
-
-</td>
-<td>
-If possible, the video port driver should keep the memory locked for subsequent DMA operation(s).
-
-</td>
-</tr>
-<tr>
-<td>
-<b>VideoPortUnlockAfterDma</b>
-
-</td>
-<td>
-The video port driver should unlock the memory after the DMA operation is performed.
-
-</td>
-</tr>
-</table>
- 
-
+|Value|Meaning|
+|--- |--- |
+|VideoPortKeepPagesLockedVideoPortDmaInitOnly|If possible, the video port driver should keep the memory locked for subsequent DMA operation(s).|
+|VideoPortUnlockAfterDma|The video port driver should unlock the memory after the DMA operation is performed.|
 
 ## -returns
 
-
-
 <b>VideoPortDoDma</b> always returns <b>NULL</b>.
-
-
-
 
 ## -remarks
 
-
-
 See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570547">VIDEO_REQUEST_PACKET</a>
 

@@ -59,54 +59,13 @@ The DXVA_QmatrixData structure is sent by the host decoder to the accelerator to
 
 Indicates which new inverse-quantization matrices are present in an inverse-quantization matrix buffer. Each element in this array corresponds to an inverse-quantization matrix type and indicates whether a new inverse-quantization matrix of that type is present in the buffer. If any element in the <b>bNewQmatrix</b> array contains a value of 1, a new inverse-quantization matrix of the type specified for that array element follows in the inverse-quantization matrix buffer. The inverse-quantization matrices that can be used are as follows.
 
-<table>
-<tr>
-<th>bNewQmatrix Element</th>
-<th>Inverse-Quantization Matrix Type</th>
-</tr>
-<tr>
-<td>
-0
-
-</td>
-<td>
-Specifies intra-luminance quantization.
-
-</td>
-</tr>
-<tr>
-<td>
-1
-
-</td>
-<td>
-Specifies inter-luminance quantization.
-
-</td>
-</tr>
-<tr>
-<td>
-2
-
-</td>
-<td>
-Specifies intra-chrominance quantization.
-
-</td>
-</tr>
-<tr>
-<td>
-3
-
-</td>
-<td>
-Specifies inter-chrominance quantization.
-
-</td>
-</tr>
-</table>
+|NewQmatrix Element|Inverse-Quantization Matrix Type|
+|--- |--- |
+|0|Specifies intra-luminance quantization.|
+|1|Specifies inter-luminance quantization.|
+|2|Specifies intra-chrominance quantization.|
+|3|Specifies inter-chrominance quantization.|
  
-
 The value in <b>bNewQmatrix</b>[0] and <b>bNewQmatrix</b>[1] must not both be zero.
 
 If the value for <b>bNewQmatrix</b>[2] or <b>bNewQmatrix</b>[3] is zero, then the following applies:

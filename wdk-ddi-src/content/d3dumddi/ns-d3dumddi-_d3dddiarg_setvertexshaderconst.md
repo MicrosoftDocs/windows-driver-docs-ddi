@@ -87,19 +87,10 @@ Boolean values for the D3DDDIARG_SETVERTEXSHADERCONSTB structure in the <a href=
 </ul>
 The preceding structures are identical, as the following definitions show:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef D3DDDIARG_SETVERTEXSHADERCONST D3DDDIARG_SETVERTEXSHADERCONSTI;
-typedef D3DDDIARG_SETVERTEXSHADERCONST D3DDDIARG_SETVERTEXSHADERCONSTB;</pre>
-</td>
-</tr>
-</table></span></div>
-
-
+```cpp
+typedef D3DDDIARG_SETVERTEXSHADERCONST D3DDDIARG_SETVERTEXSHADERCONSTI;
+typedef D3DDDIARG_SETVERTEXSHADERCONST D3DDDIARG_SETVERTEXSHADERCONSTB;
+```
 
 ## -see-also
 

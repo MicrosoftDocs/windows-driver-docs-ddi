@@ -71,48 +71,11 @@ The <i>DxgkDdiRecommendFunctionalVidPn</i> function creates a functional VidPN t
 
 <i>DxgkDdiRecommendFunctionalVidPn </i>returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded in creating a functional VidPN.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_NO_RECOMMENDED_FUNCTIONAL_VIDPN</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function was not able to create a functional VidPN.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function failed because it was unable to allocate memory.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded in creating a functional VidPN.|
+|STATUS_GRAPHICS_NO_RECOMMENDED_FUNCTIONAL_VIDPN|The function was not able to create a functional VidPN.|
+|STATUS_NO_MEMORY|The function failed because it was unable to allocate memory.|
 
 
 ## -remarks

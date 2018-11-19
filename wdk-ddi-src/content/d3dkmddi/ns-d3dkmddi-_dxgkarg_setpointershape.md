@@ -84,58 +84,11 @@ The DXGKARG_SETPOINTERSHAPE structure describes the appearance of the mouse poin
 
 [in] A pointer to the start of the following bitmap depending on the bit-field flag that is set in the <b>Flags</b> member:
 
-<table>
-<tr>
-<th>Bit-field flag</th>
-<th>Bitmap</th>
-</tr>
-<tr>
-<td>
-<b>Monochrome</b>
-
-</td>
-<td>
-
-<dl>
-<dt>For monochrome mouse pointers:</dt>
-<dt>A monochrome bitmap whose size is specified by <b>Width</b> and <b>Height</b> in a 1 bits per pixel (bpp) DIB format AND mask that is followed by another 1 bpp DIB format XOR mask of the same size.</dt>
-</dl>
-
-
-</td>
-</tr>
-<tr>
-<td>
-<b>Color</b>
-
-</td>
-<td>
-
-<dl>
-<dt>For color mouse pointers:</dt>
-<dt>A color bitmap whose size is specified by <b>Width</b> and <b>Height</b> in a 32 bpp ARGB device independent bitmap (DIB) format.</dt>
-</dl>
-
-
-</td>
-</tr>
-<tr>
-<td>
-<b>MaskedColor</b>
-
-</td>
-<td>
-
-<dl>
-<dt>For masked color mouse pointers:</dt>
-<dt>A 32-bpp ARGB format bitmap with the mask value in the alpha bits. The only allowed mask values are 0 and 0xFF. When the mask value is 0, the RGB value should replace the screen pixel. When the mask value is 0xFF, an XOR operation is performed on the RGB value and the screen pixel; the result should replace the screen pixel.</dt>
-</dl>
-
-
-</td>
-</tr>
-</table>
- 
+|Bit-field flag|Bitmap|
+|--- |--- |
+|Monochrome|For monochrome mouse pointers:<br/>A monochrome bitmap whose size is specified by Width and Height in a 1 bits per pixel (bpp) DIB format AND mask that is followed by another 1 bpp DIB format XOR mask of the same size.|
+|Color|For color mouse pointers:<br/>A color bitmap whose size is specified by Width and Height in a 32 bpp ARGB device independent bitmap (DIB) format.|
+|MaskedColor|For masked color mouse pointers:<br/>A 32-bpp ARGB format bitmap with the mask value in the alpha bits. The only allowed mask values are 0 and 0xFF. When the mask value is 0, the RGB value should replace the screen pixel. When the mask value is 0xFF, an XOR operation is performed on the RGB value and the screen pixel; the result should replace the screen pixel.|
 
 
 ### -field XHot

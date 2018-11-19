@@ -77,282 +77,118 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 ## -remarks
 
 
-
 Access this function though the <a href="https://msdn.microsoft.com/05274F4B-0473-42BA-A382-B348A85DBFA5">D3D12DDI_VIDEO_DECODE_SUPPORT_DATA</a> structure.
 
 The following list describes the mapping of D3D12DDICAPS_TYPE_VIDEO_0010 type to the meaning of the pInfo, pData, and DataSize parameters.
 
 D3D12DDICAPS_TYPE_VIDEO_DECODE_SUPPORT
 
-<table>
-<tr>
-<th>Member</th>
-<th>Value</th>
-</tr>
-<tr>
-<td>pInfo</td>
-<td>nullptr</td>
-</tr>
-<tr>
-<td>pData</td>
-<td>D3D12DDI_VIDEO_DECODE_SUPPORT_DATA*</td>
-</tr>
-<tr>
-<td>DataSize</td>
-<td>sizeof(D3D12DDI_VIDEO_DECODE_SUPPORT_DATA)</td>
-</tr>
-</table>
+|Member|Value|
+|--- |--- |
+|pInfo|nullptr|
+|pData|D3D12DDI_VIDEO_DECODE_SUPPORT_DATA*|
+|DataSize|sizeof(D3D12DDI_VIDEO_DECODE_SUPPORT_DATA)|
  
 
 D3D12DDICAPS_TYPE_VIDEO_DECODE_PROFILES
 
-<table>
-<tr>
-<th>Member</th>
-<th>Value</th>
-</tr>
-<tr>
-<td>pInfo</td>
-<td>nullptr</td>
-</tr>
-<tr>
-<td>pData</td>
-<td>D3D12DDI_VIDEO_DECODE_PROFILES_DATA*</td>
-</tr>
-<tr>
-<td>DataSize</td>
-<td>sizeof(D3D12DDI_VIDEO_DECODE_PROFILES_DATA)</td>
-</tr>
-</table>
+|Member|Value|
+|--- |--- |
+|pInfo|nullptr|
+|pData|D3D12DDI_VIDEO_DECODE_PROFILES_DATA*|
+|DataSize|sizeof(D3D12DDI_VIDEO_DECODE_PROFILES_DATA)|
  
 
 D3D12DDICAPS_TYPE_VIDEO_DECODE_FORMATS
 
-<table>
-<tr>
-<th>Member</th>
-<th>Value</th>
-</tr>
-<tr>
-<td>pInfo</td>
-<td>nullptr</td>
-</tr>
-<tr>
-<td>pData</td>
-<td>D3D12DDI_VIDEO_DECODE_FORMATS_DATA *</td>
-</tr>
-<tr>
-<td>DataSize</td>
-<td>sizeof(D3D12DDI_VIDEO_DECODE_FORMATS_DATA)</td>
-</tr>
-</table>
+|Member|Value|
+|--- |--- |
+|pInfo|nullptr|
+|pData|D3D12DDI_VIDEO_DECODE_FORMATS_DATA *|
+|DataSize|sizeof(D3D12DDI_VIDEO_DECODE_FORMATS_DATA)|
  
 
 D3D12DDICAPS_TYPE_VIDEO_DECODE_CONVERSION_SUPPORT
 
-<table>
-<tr>
-<th>Member</th>
-<th>Value</th>
-</tr>
-<tr>
-<td>pInfo</td>
-<td>nullptr</td>
-</tr>
-<tr>
-<td>pData</td>
-<td>D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA *</td>
-</tr>
-<tr>
-<td>DataSize</td>
-<td>sizeof(D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA)</td>
-</tr>
-</table>
+|Member|Value|
+|--- |--- |
+|pInfo|nullptr|
+|pData|D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA *|
+|DataSize|sizeof(D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA)|
  
 
 D3D12DDICAPS_TYPE_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES
 
-<table>
-<tr>
-<th>Member</th>
-<th>Value</th>
-</tr>
-<tr>
-<td>pInfo</td>
-<td>nullptr</td>
-</tr>
-<tr>
-<td>pData</td>
-<td>D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES_DATA*</td>
-</tr>
-<tr>
-<td>DataSize</td>
-<td>sizeof(D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES_DATA)</td>
-</tr>
-</table>
+|Member|Value|
+|--- |--- |
+|pInfo|nullptr|
+|pData|D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES_DATA*|
+|DataSize|sizeof(D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES_DATA)|
  
 
 D3D12DDICAPS_TYPE_VIDEO_PROCESS_SUPPORT
 
-<table>
-<tr>
-<th>Member</th>
-<th>Value</th>
-</tr>
-<tr>
-<td>pInfo</td>
-<td>nullptr</td>
-</tr>
-<tr>
-<td>pData</td>
-<td>D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA*</td>
-</tr>
-<tr>
-<td>DataSize</td>
-<td>sizeof(D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA)</td>
-</tr>
-</table>
+|Member|Value|
+|--- |--- |
+|pInfo|nullptr|
+|pData|D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA*|
+|DataSize|sizeof(D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA)|
  
 
 D3D12DDICAPS_TYPE_VIDEO_PROCESS_MAX_INPUT_STREAMS
 
-<table>
-<tr>
-<th>Member</th>
-<th>Value</th>
-</tr>
-<tr>
-<td>pInfo</td>
-<td>nullptr</td>
-</tr>
-<tr>
-<td>pData</td>
-<td>D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA *</td>
-</tr>
-<tr>
-<td>DataSize</td>
-<td>sizeof(D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA)</td>
-</tr>
-</table>
+|Member|Value|
+|--- |--- |
+|pInfo|nullptr|
+|pData|D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA *|
+|DataSize|sizeof(D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA)|
  
 
 D3D12DDICAPS_TYPE_VIDEO_PROCESS_REFERENCE_INFO
 
-<table>
-<tr>
-<th>Member</th>
-<th>Value</th>
-</tr>
-<tr>
-<td>pInfo</td>
-<td>nullptr</td>
-</tr>
-<tr>
-<td>pData</td>
-<td>D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA *</td>
-</tr>
-<tr>
-<td>DataSize</td>
-<td>sizeof(D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA)</td>
-</tr>
-</table>
+|Member|Value|
+|--- |--- |
+|pInfo|nullptr|
+|pData|D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA *|
+|DataSize|sizeof(D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA)|
  
 
 D3D12DDICAPS_TYPE_VIDEO_0032_DECODER_HEAP_SIZE
 
-<table>
-<tr>
-<th>Member</th>
-<th>Value</th>
-</tr>
-<tr>
-<td>pInfo</td>
-<td>nullptr</td>
-</tr>
-<tr>
-<td>pData</td>
-<td>D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA *</td>
-</tr>
-<tr>
-<td>DataSize</td>
-<td>sizeof(D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA)</td>
-</tr>
-</table>
+|Member|Value|
+|--- |--- |
+|pInfo|nullptr|
+|pData|D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA *|
+|DataSize|sizeof(D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA)|
  
 
 D3D12DDICAPS_TYPE_VIDEO_DECODE_PROFILE_COUNT
 
-<table>
-<tr>
-<th>Member</th>
-<th>Value</th>
-</tr>
-<tr>
-<td>pInfo</td>
-<td>nullptr</td>
-</tr>
-<tr>
-<td>pData</td>
-<td>D3D12DDI_VIDEO_ DECODE_PROFILE_COUNT_DATA *</td>
-</tr>
-<tr>
-<td>DataSize</td>
-<td>sizeof(D3D12DDI_VIDEO_DECODE_PROFILE_COUNT_DATA)</td>
-</tr>
-</table>
+|Member|Value|
+|--- |--- |
+|pInfo|nullptr|
+|pData|D3D12DDI_VIDEO_ DECODE_PROFILE_COUNT_DATA *|
+|DataSize|sizeof(D3D12DDI_VIDEO_DECODE_PROFILE_COUNT_DATA)|
  
 
 D3D12DDICAPS_TYPE_VIDEO_DECODE_PROFILE_FORMAT_COUNT
 
-<table>
-<tr>
-<th>Member</th>
-<th>Value</th>
-</tr>
-<tr>
-<td>pInfo</td>
-<td>nullptr</td>
-</tr>
-<tr>
-<td>pData</td>
-<td>D3D12DDI_VIDEO_ DECODE_PROFILE_FORMAT_COUNT_DATA *</td>
-</tr>
-<tr>
-<td>DataSize</td>
-<td>sizeof(D3D12DDI_VIDEO_DECODE_PROFILE_FORMAT_COUNT_DATA)</td>
-</tr>
-</table>
+|Member|Value|
+|--- |--- |
+|pInfo|nullptr|
+|pData|D3D12DDI_VIDEO_ DECODE_PROFILE_FORMAT_COUNT_DATA *|
+|DataSize|sizeof(D3D12DDI_VIDEO_DECODE_PROFILE_FORMAT_COUNT_DATA)|
  
 
 D3D12DDICAPS_TYPE_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT
 
-<table>
-<tr>
-<th>Member</th>
-<th>Value</th>
-</tr>
-<tr>
-<td>pInfo</td>
-<td>nullptr</td>
-</tr>
-<tr>
-<td>pData</td>
-<td>D3D12DDI_VIDEO_ DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT_DATA *</td>
-</tr>
-<tr>
-<td>DataSize</td>
-<td>sizeof(D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT_DATA)</td>
-</tr>
-</table>
- 
-
-
-
+|Member|Value|
+|--- |--- |
+|pInfo|nullptr|
+|pData|D3D12DDI_VIDEO_ DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT_DATA *|
+|DataSize|sizeof(D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT_DATA)|
 
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/05274F4B-0473-42BA-A382-B348A85DBFA5">D3D12DDI_VIDEO_DECODE_SUPPORT_DATA</a>
  

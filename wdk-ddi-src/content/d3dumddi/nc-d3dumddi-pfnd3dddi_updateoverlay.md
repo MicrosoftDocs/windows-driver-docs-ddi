@@ -80,71 +80,13 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <i>UpdateOverlay</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The overlay is successfully modified.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>UpdateOverlay</i> could not complete because of insufficient memory.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_NOTAVAILABLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>UpdateOverlay</i> could not complete because insufficient bandwidth was available or the requested overlay hardware was unavailable.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_UNSUPPORTEDOVERLAYFORMAT</b></dt>
-</dl>
-</td>
-<td width="60%">
-The specified overlay format is not supported by the overlay hardware. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_UNSUPPORTEDOVERLAY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The overlay hardware is not supported for the specified size and display mode. 
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The overlay is successfully modified.|
+|E_OUTOFMEMORY|UpdateOverlay could not complete because of insufficient memory.|
+|D3DDDIERR_NOTAVAILABLE|UpdateOverlay could not complete because insufficient bandwidth was available or the requested overlay hardware was unavailable.|
+|D3DDDIERR_UNSUPPORTEDOVERLAYFORMAT|The specified overlay format is not supported by the overlay hardware.|
+|D3DDDIERR_UNSUPPORTEDOVERLAY|The overlay hardware is not supported for the specified size and display mode.|
 
 ## -remarks
 

@@ -67,22 +67,16 @@ A handle to the display device (graphics context).
 
 A handle to a buffer that contains the arguments for <b>DrawIndexedInstancedIndirect</b> to process. The buffer contains the following tightly packed structure:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>struct DrawIndexedInstancedIndirectArgs {
+```cpp
+struct DrawIndexedInstancedIndirectArgs {
   UINT IndexCountPerInstance; 
   UINT InstanceCount;
   UINT StartIndexLocation;
   INT BaseVertexLocation;
   UINT StartInstanceLocation;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 For more information about these arguments, see the <a href="https://msdn.microsoft.com/3dc64562-9dc0-4d43-835d-6fdd509435f8">DrawIndexedInstanced</a> reference page. 
 
 ### -param Arg3

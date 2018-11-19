@@ -98,17 +98,9 @@ This callback function does not return a value.
 
 The D3D10_DDI_RECT structure is defined as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef RECT D3D10_DDI_RECT;</pre>
-</td>
-</tr>
-</table></span></div>
-
+```cpp
+typedef RECT D3D10_DDI_RECT;
+```
 
 
 ## -see-also

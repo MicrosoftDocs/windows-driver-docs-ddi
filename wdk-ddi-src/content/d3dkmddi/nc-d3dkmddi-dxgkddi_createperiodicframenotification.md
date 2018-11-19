@@ -66,57 +66,9 @@ A structure of type <i>PDXGKARG_CREATEPERIODICFRAMENOTIFICATION</i> containing t
 
 DXGKDDI_CREATEPERIODICFRAMENOTIFICATION returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-When a periodic frame notification has been successfully created.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-When a periodic frame notification does not have enough memory to be allocated.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Indicates that there was an invalid parameter passed to the call.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_UNSUCCESSFUL</b></dt>
-</dl>
-</td>
-<td width="60%">
-When a periodic frame notification has not been successfully created.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|When a periodic frame notification has been successfully created.|
+|STATUS_NO_MEMORY|When a periodic frame notification does not have enough memory to be allocated.|
+|STATUS_INVALID_PARAMETER|Indicates that there was an invalid parameter passed to the call.|
+|STATUS_UNSUCCESSFUL|When a periodic frame notification has not been successfully created.|

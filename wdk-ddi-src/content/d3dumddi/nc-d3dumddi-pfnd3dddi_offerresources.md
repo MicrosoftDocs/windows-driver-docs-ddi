@@ -76,45 +76,12 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh45
 
 ## -returns
 
+Returns one of the following values.
 
-
-
-       Returns one of the following values.
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The video memory resources were successfully offered.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_DEVICEREMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-The driver detected that the display adapter was removed, so the driver did not complete the operation.
-
-If the driver is not aware of the adapter removal, the driver is not required to return this error code.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The video memory resources were successfully offered.|
+|D3DDDIERR_DEVICEREMOVED|The driver detected that the display adapter was removed, so the driver did not complete the operation.<br/>If the driver is not aware of the adapter removal, the driver is not required to return this error code.|
 
 
 ## -remarks

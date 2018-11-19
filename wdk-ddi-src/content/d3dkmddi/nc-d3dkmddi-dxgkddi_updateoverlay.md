@@ -71,68 +71,13 @@ The <i>DxgkDdiUpdateOverlay</i> function modifies the overlay hardware.
 
 <i>DxgkDdiUpdateOverlay</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiUpdateOverlay</i> successfully modified the overlay.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters that were passed to <i>DxgkDdiUpdateOverlay</i> contained errors that prevented it from completing.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiUpdateOverlay</i> could not allocate memory that was required for it to complete.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiUpdateOverlay</i> could not complete because insufficient bandwidth was available or the requested overlay hardware could not complete the task.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_DRIVER_MISMATCH</b></dt>
-</dl>
-</td>
-<td width="60%">
-The display miniport driver is not compatible with the user-mode display driver that initiated the call to <i>DxgkDdiUpdateOverlay</i>. 
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|DxgkDdiUpdateOverlay successfully modified the overlay.|
+|STATUS_INVALID_PARAMETER|Parameters that were passed to DxgkDdiUpdateOverlay contained errors that prevented it from completing.|
+|STATUS_NO_MEMORY|DxgkDdiUpdateOverlay could not allocate memory that was required for it to complete.|
+|STATUS_INSUFFICIENT_RESOURCES|DxgkDdiUpdateOverlay could not complete because insufficient bandwidth was available or the requested overlay hardware could not complete the task.|
+|STATUS_GRAPHICS_DRIVER_MISMATCH|The display miniport driver is not compatible with the user-mode display driver that initiated the call to DxgkDdiUpdateOverlay.|
 
 
 

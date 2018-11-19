@@ -61,34 +61,10 @@ Specifies whether the output is intended for playback or video processing (such 
 
 
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>0</dt>
-</dl>
-</td>
-<td width="60%">
-Playback
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-Video processing
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|0|Playback|
+|1|Video processing|
  
 
 
@@ -97,35 +73,10 @@ Video processing
 Specifies the RGB color range. The default state value is 0 (full range).
 
 
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>0</dt>
-</dl>
-</td>
-<td width="60%">
-Full range (0-255)
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-Limited range (16-235)
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|0|Full range (0-255)|
+|1|Limited range (16-235)|
  
 
 
@@ -133,74 +84,20 @@ Limited range (16-235)
 
 Specifies the YCbCr transfer matrix. The default state value is 0 (BT.601).
 
-
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>0</dt>
-</dl>
-</td>
-<td width="60%">
-ITU-R BT.601
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-ITU-R BT.709
-
-</td>
-</tr>
-</table>
- 
+|Value|Meaning|
+|--- |--- |
+|0|ITU-R BT.601|
+|1|ITU-R BT.709|
 
 
 ### -field YCbCr_xvYCC
 
 Specifies whether the output uses conventional YCbCr or extended YCbCr (xvYCC). The default state value is zero (conventional YCbCr).
 
-
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>0</dt>
-</dl>
-</td>
-<td width="60%">
-Conventional YCbCr
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-Extended YCbCr (xvYCC)
-
-</td>
-</tr>
-</table>
- 
+|Value|Meaning|
+|--- |--- |
+|0|Conventional YCbCr|
+|1|Extended YCbCr (xvYCC)|
 
 
 ### -field Nominal_Range

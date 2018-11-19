@@ -46,138 +46,43 @@ req.typenames:
 
 # D3DKMTInvalidateActiveVidPn function
 
-
 ## -description
 
-
 The <b>D3DKMTInvalidateActiveVidPn</b> function invalidates the active video present network (VidPN) currently in use.
-
 
 <div class="alert"><b>Note</b>    This function is obsolete in Windows 7 and later versions of the Windows operating systems.</div>
 <div> </div>
 
-
-
 ## -parameters
 
-
-
-
 ### -param D3DKMT_INVALIDATEACTIVEVIDPN
-
-
-
-
-
 
 *pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548082">D3DKMT_INVALIDATEACTIVEVIDPN</a> structure that describes parameters that invalidate the active VidPN currently in use.
 
-
 ## -returns
-
-
 
 <b>D3DKMTInvalidateActiveVidPn</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The VidPN currently in use was successfully invalidated.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_DISPLAY_ADAPTER</b></dt>
-</dl>
-</td>
-<td width="60%">
-No graphics adapter was specified in the <b>hAdapter</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff548082">D3DKMT_INVALIDATEACTIVEVIDPN</a> to invalidate the VidPN for.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547023">D3DKMTInvalidateActiveVidPn</a> could not complete because of insufficient memory.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The display mode that is requested by the OpenGL installable client driver (ICD) in the buffer pointed to by the <b>pPrivateDriverData</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff548082">D3DKMT_INVALIDATEACTIVEVIDPN</a> is not supported by the display miniport driver.
-
-This status value will also be returned if this function is called on a computer running Windows 7 and later by a display miniport driver with DXGKDDI_INTERFACE_VERSION &gt;= DXGKDDI_INTERFACE_VERSION_WIN7.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_DEVICE_REMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics adapter was stopped.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_NO_RECOMMENDED_FUNCTIONAL_VIDPN</b></dt>
-</dl>
-</td>
-<td width="60%">
-The display miniport driver did not recommend a VidPN to replace the VidPN currently in use.
-
-</td>
-</tr>
-</table>
- 
+| **Return code** | **Description** | 
+|:--|:--|
+| **STATUS_SUCCESS** | The VidPN currently in use was successfully invalidated. | 
+| **STATUS_GRAPHICS_INVALID_DISPLAY_ADAPTER** | No graphics adapter was specified in the hAdapter member of [D3DKMT_INVALIDATEACTIVEVIDPN](https://msdn.microsoft.com/library/windows/hardware/ff548082)  to invalidate the VidPN for. | 
+| **STATUS_NO_MEMORY** | [D3DKMTInvalidateActiveVidPn](https://msdn.microsoft.com/library/windows/hardware/ff547023)  could not complete because of insufficient memory. | 
+| **STATUS_NOT_SUPPORTED** | The display mode that is requested by the OpenGL installable client driver (ICD) in the buffer pointed to by the pPrivateDriverData member of [D3DKMT_INVALIDATEACTIVEVIDPN](https://msdn.microsoft.com/library/windows/hardware/ff548082)  is not supported by the display miniport driver. This status value will also be returned if this function is called on a computer running Windows 7 and later by a display miniport driver with DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN7. | 
+| **STATUS_DEVICE_REMOVED** | The graphics adapter was stopped. | 
+| **STATUS_GRAPHICS_NO_RECOMMENDED_FUNCTIONAL_VIDPN** | The display miniport driver did not recommend a VidPN to replace the VidPN currently in use. | 
 
 This function might also return other NTSTATUS values.
 
-
-
-
 ## -remarks
-
-
 
 When the <b>D3DKMTInvalidateActiveVidPn</b> function is called to invalidate the VidPN currently in use, the current VidPN is replaced with a new VidPN that the display miniport driver recommends. Because the display miniport driver must recommend a new VidPN, the display miniport driver must be able to determine the display mode that the OpenGL ICD requires from the buffer pointed to by the <b>pPrivateDriverData</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff548082">D3DKMT_INVALIDATEACTIVEVIDPN</a>.
 
 The OpenGL ICD can call <b>D3DKMTInvalidateActiveVidPn</b> for display modes (for example, clone-view mode) that are not supported by using the more general call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547169">D3DKMTSetDisplayMode</a> function. 
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547169">D3DKMTSetDisplayMode</a>
 

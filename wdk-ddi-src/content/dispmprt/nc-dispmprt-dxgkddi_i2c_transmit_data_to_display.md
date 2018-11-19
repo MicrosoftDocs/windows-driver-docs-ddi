@@ -88,60 +88,12 @@ A pointer to a buffer that holds the data to be transmitted.
 
 <i>DxgkDdiI2CTransmitDataToDisplay</i> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in Ntstatus.h. The following list gives some of the possible error codes that can be returned.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_MONITOR_NOT_CONNECTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-There is no monitor connected to the video output identified by <i>VidPnTargetId</i>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_I2C_NOT_SUPPORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The video output identified by <i>VidPnTargetId</i> does not have an I2C bus.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_I2C_DEVICE_DOES_NOT_EXIST</b></dt>
-</dl>
-</td>
-<td width="60%">
-No device acknowledged the I2C address supplied in <i>SevenBitI2CAddress</i>. This could mean that no device on the I2C bus has the specified address or that an error occurred when the address was transmitted.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_I2C_ERROR_TRANSMITTING_DATA</b></dt>
-</dl>
-</td>
-<td width="60%">
-The I2C address was successfully transmitted, but there was an error transmitting data to the I2C device.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_GRAPHICS_MONITOR_NOT_CONNECTED|There is no monitor connected to the video output identified by VidPnTargetId.|
+|STATUS_GRAPHICS_I2C_NOT_SUPPORTED|The video output identified by VidPnTargetId does not have an I2C bus.|
+|STATUS_GRAPHICS_I2C_DEVICE_DOES_NOT_EXIST|No device acknowledged the I2C address supplied in SevenBitI2CAddress. This could mean that no device on the I2C bus has the specified address or that an error occurred when the address was transmitted.|
+|STATUS_GRAPHICS_I2C_ERROR_TRANSMITTING_DATA|The I2C address was successfully transmitted, but there was an error transmitting data to the I2C device.|
 
 ## -remarks
 

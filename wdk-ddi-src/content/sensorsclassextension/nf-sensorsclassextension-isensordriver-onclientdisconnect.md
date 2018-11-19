@@ -106,30 +106,19 @@ The following example code demonstrates an implementation of <b>ISensorDriver::O
 
 The ClientData structure is defined as follows.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>// Struct to keep track of connected client status.
+```cpp
+// Struct to keep track of connected client status.
 struct ClientData
 {
     BOOL bListening;  // Client is listening to events.
     ULONG ulInterval;  // Interval requested by client.
-};</pre>
-</td>
-</tr>
-</table></span></div>
+};
+```
+
 The function definition follows.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CSensorDdi:: OnClientDisconnect(
+```cpp
+HRESULT CSensorDdi:: OnClientDisconnect(
         __in IWDFFile* pClientFile,
         __in LPWSTR pwszSensorID
         )
@@ -166,11 +155,8 @@ The function definition follows.
     }
 
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
+}
+```
 
 
 ## -see-also

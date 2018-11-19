@@ -65,106 +65,30 @@ The VRP <b>InputBuffer</b> contains a pointer to a ULONG, containing the index o
 
 ### -input-buffer-length
 
-
-
-
-
-
-
-
 ### -output-buffer
 
 The video miniport driver returns a ULONG in the VRP <b>OutputBuffer</b> that can be a combination of the following flags:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-VIDEO_CHILD_ACTIVE
+| **Value** | **Meaning** | 
+|:--|:--|
+| VIDEO_CHILD_ACTIVE | The child device is active. | 
+| VIDEO_CHILD_DETACHED | The child device is detached from the view. This flag is used in DualView implementations to indicate the logical relationships of child devices. See [Supporting DualView (Windows 2000 Model)](https://msdn.microsoft.com/08da97c9-1d31-40f5-99df-5f16eaa47c79)  for more information. | 
+| VIDEO_CHILD_NOPRUNE_FREQ | The child device can drive an image at any refresh rate, regardless of its EDID setting.<br/>This flag is used for mode pruning. By default, Windows 2000 and later perform mode pruning for each active child. When the miniport driver wants to prevent the operating system from performing mode pruning on specific child devices, however, it should use this flag. | 
+| VIDEO_CHILD_NOPRUNE_SIZE | The child device can drive an image of any size, regardless of its EDID setting.<br/>This flag is used for mode pruning. By default, Windows 2000 and later perform mode pruning for each active child. When the miniport driver wants to prevent the operating system from performing mode pruning on specific child devices, however, it should use this flag. |
 
-</td>
-<td>
-The child device is active.
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_CHILD_DETACHED
-
-</td>
-<td>
-The child device is detached from the view. This flag is used in DualView implementations to indicate the logical relationships of child devices. See <a href="https://msdn.microsoft.com/08da97c9-1d31-40f5-99df-5f16eaa47c79">Supporting DualView (Windows 2000 Model)</a>  for more information.
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_CHILD_NOPRUNE_FREQ
-
-</td>
-<td>
-The child device can drive an image at any refresh rate, regardless of its EDID setting.
-
-This flag is used for mode pruning. By default, Windows 2000 and later perform mode pruning for each active child. When the miniport driver wants to prevent the operating system from performing mode pruning on specific child devices, however, it should use this flag.
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_CHILD_NOPRUNE_SIZE
-
-</td>
-<td>
-The child device can drive an image of any size, regardless of its EDID setting.
-
-This flag is used for mode pruning. By default, Windows 2000 and later perform mode pruning for each active child. When the miniport driver wants to prevent the operating system from performing mode pruning on specific child devices, however, it should use this flag.
-
-</td>
-</tr>
-</table>
  
-
-
 ### -output-buffer-length
-
-
-
-
-
-
-
 
 ### -in-out-buffer
 
 
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
 The video miniport driver sets the <b>Information</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a> structure to <b>sizeof</b>(ULONG).
 
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/175030c1-95d9-4a3b-976c-16e04852cb91">HwVidGetVideoChildDescriptor</a>
 

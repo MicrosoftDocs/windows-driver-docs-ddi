@@ -74,32 +74,10 @@ The address of the I2C device from which data will be received.
 
 A value that specifies whether the length of the data is supplied as part of the data transmitted by the I2C device. This parameter must be set to one of the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-I2C_NO_FLAGS
-
-</td>
-<td>
-The data length is supplied by the <i>DataLength</i> parameter. The I2C device does not supply the data length as part of the data that it transmits.
-
-</td>
-</tr>
-<tr>
-<td>
-I2C_DEVICE_TRANSMITS_DATA_LENGTH
-
-</td>
-<td>
-The data length is supplied by the I2C device as part of the data that it transmits. The I2C device transmits at least two bytes. The seven least significant bits of the second byte transmitted contain the intermediate length. You can calculate the number of bytes that will be transmitted after the byte that contains the intermediate length by adding one to the intermediate length.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|I2C_NO_FLAGS|The data length is supplied by the DataLength parameter. The I2C device does not supply the data length as part of the data that it transmits.|
+|I2C_DEVICE_TRANSMITS_DATA_LENGTH|The data length is supplied by the I2C device as part of the data that it transmits. The I2C device transmits at least two bytes. The seven least significant bits of the second byte transmitted contain the intermediate length. You can calculate the number of bytes that will be transmitted after the byte that contains the intermediate length by adding one to the intermediate length.|
  
 
 
@@ -119,69 +97,13 @@ A pointer to a buffer that receives the data. The buffer can be in paged memory.
 
 <i>DxgkDdiI2CReceiveDataFromDisplay</i>returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>. The following list gives some of the possible error codes that can be returned.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_MONITOR_NOT_CONNECTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-There is no monitor connected to the video output identified by <i>VidPnTargetId</i>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_I2C_NOT_SUPPORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The video output identified by <i>VidPnTargetId</i> does not have an I2C bus.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_I2C_DEVICE_DOES_NOT_EXIST</b></dt>
-</dl>
-</td>
-<td width="60%">
-No device acknowledged the I2C address supplied in <i>SevenBitI2CAddress</i>. This could mean that no device on the I2C bus has the specified address or that an error occurred when the address was transmitted.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_I2C_ERROR_RECEIVING_DATA</b></dt>
-</dl>
-</td>
-<td width="60%">
-The I2C address was successfully transmitted, but there was an error receiving data from the I2C device.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The value supplied in <i>DataLength</i> is less than the required data buffer size. This return value is meaningful only if the I2C_DEVICE_TRANSMITS_DATA_LENGTH flag is set.
-
-</td>
-</tr>
-</table>
- 
-
+|Return code|Description|
+|--- |--- |
+|STATUS_GRAPHICS_MONITOR_NOT_CONNECTED|There is no monitor connected to the video output identified by VidPnTargetId.|
+|STATUS_GRAPHICS_I2C_NOT_SUPPORTED|The video output identified by VidPnTargetId does not have an I2C bus.|
+|STATUS_GRAPHICS_I2C_DEVICE_DOES_NOT_EXIST|No device acknowledged the I2C address supplied in SevenBitI2CAddress. This could mean that no device on the I2C bus has the specified address or that an error occurred when the address was transmitted.|
+|STATUS_GRAPHICS_I2C_ERROR_RECEIVING_DATA|The I2C address was successfully transmitted, but there was an error receiving data from the I2C device.|
+|STATUS_BUFFER_TOO_SMALL|The value supplied in DataLength is less than the required data buffer size. This return value is meaningful only if the I2C_DEVICE_TRANSMITS_DATA_LENGTH flag is set.|
 
 
 

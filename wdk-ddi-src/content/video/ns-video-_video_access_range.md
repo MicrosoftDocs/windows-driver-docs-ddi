@@ -92,38 +92,12 @@ Is ignored by VideoPortSetTrappedEmulatorPorts.
 
 Indicates whether the device actually uses the port. Values for this member are shown in the following table.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-VIDEO_RANGE_PASSIVE_DECODE
-
-</td>
-<td>
-The device decodes the port but the driver does not use it.
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_RANGE_10_BIT_DECODE
-
-</td>
-<td>
-The device decodes ten bits of the port address.
-
-</td>
-</tr>
-</table>
- 
-
+|Value|Meaning|
+|--- |--- |
+|VIDEO_RANGE_PASSIVE_DECODE|The device decodes the port but the driver does not use it.|
+|VIDEO_RANGE_10_BIT_DECODE|The device decodes ten bits of the port address.|
 
 ## -remarks
-
-
 
 The miniport driver must claim legacy resources in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> or <a href="https://msdn.microsoft.com/015086e9-70b4-4756-9945-c9da17829e90">HwVidLegacyResources</a> function.
 

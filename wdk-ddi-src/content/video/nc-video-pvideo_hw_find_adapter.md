@@ -86,53 +86,13 @@ Should be ignored by the miniport driver.
 
 <i>HwVidFindAdapter</i> must return one of the following status codes:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_DEV_NOT_EXIST</b></dt>
-</dl>
-</td>
-<td width="60%">
-Indicates, for a reenumerable bus, that the miniport driver could not find the device.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Indicates the miniport driver could not configure or initialize the adapter successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>NO_ERROR</b></dt>
-</dl>
-</td>
-<td width="60%">
-Indicates success.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|ERROR_DEV_NOT_EXIST|Indicates, for a reenumerable bus, that the miniport driver could not find the device.|
+|ERROR_INVALID_PARAMETER|Indicates the miniport driver could not configure or initialize the adapter successfully.|
+|NO_ERROR|Indicates success.|
 
 ## -remarks
-
-
 
 Every video miniport driver must have an <i>HwVidFindAdapter</i> function.
 

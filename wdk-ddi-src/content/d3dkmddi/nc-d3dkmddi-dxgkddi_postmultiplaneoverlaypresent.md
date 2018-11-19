@@ -73,25 +73,9 @@ A pointer to a DXGKARG_POSTMULTIPLANEOVERLAYPRESENT structure that describes the
 
 DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT returns the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-If the routine has been successfully completed. The driver should always return a success code.  Failures will result in a bugcheck.
-
-</td>
-</tr>
-</table>
- 
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|If the routine has been successfully completed. The driver should always return a success code.  Failures will result in a bugcheck.|
 
 
 

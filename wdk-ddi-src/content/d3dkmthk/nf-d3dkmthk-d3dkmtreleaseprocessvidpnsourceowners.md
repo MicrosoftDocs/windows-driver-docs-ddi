@@ -46,17 +46,11 @@ req.typenames:
 
 # D3DKMTReleaseProcessVidPnSourceOwners function
 
-
 ## -description
-
 
 The <b>D3DKMTReleaseProcessVidPnSourceOwners</b> function releases the video present network source owners for a process.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -64,44 +58,13 @@ The <b>D3DKMTReleaseProcessVidPnSourceOwners</b> function releases the video pre
 
 [in] A handle to the process that video present network source owners are released from.
 
-
 ## -returns
-
-
 
 <b>D3DKMTReleaseProcessVidPnSourceOwners</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The video present network source owners for a process were successfully released.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The video present network source owners for a process were successfully released.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
 
 This function might also return other <b>NTSTATUS</b> values.
-
-
-

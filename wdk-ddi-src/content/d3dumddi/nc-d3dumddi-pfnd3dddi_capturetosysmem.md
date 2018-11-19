@@ -73,43 +73,13 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>CaptureToSysMem</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-All resources for the bitblt are in GPU-accessible memory.
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | All resources for the bitblt are in GPU-accessible memory. | 
+| **E_OUTOFMEMORY** | [CaptureToSysMem](https://msdn.microsoft.com/ea2b5338-81cf-4114-bb07-16e8ff4d2b95)  could not allocate the required memory for it to complete. |
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/ea2b5338-81cf-4114-bb07-16e8ff4d2b95">CaptureToSysMem</a> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
  
-
-
-
-
 ## -remarks
-
-
 
 The <b>CaptureToSysMem</b> function is similar to the <a href="https://msdn.microsoft.com/e87576c6-0173-4d8e-bbaf-b82e2907140a">Blt</a> function except that <b>CaptureToSysMem</b> supports copying only from a capture buffer.
 

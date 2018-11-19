@@ -69,25 +69,9 @@ A pointer to the structure holding information to destroy the hardware context.
 
 ## -returns
 
-
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The call was successfully completed.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The call was successfully completed.|
  
 
 This function might also return other HRESULT values.

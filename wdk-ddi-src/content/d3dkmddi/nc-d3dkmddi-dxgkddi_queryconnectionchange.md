@@ -68,36 +68,10 @@ A pointer to a <a href="https://msdn.microsoft.com/6B91F3F0-B02D-46F3-9086-EA32F
 
 ## -returns
 
-
-
-<table>
-<tr>
-<th>Return value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>STATUS_SUCCESS</dt>
-</dl>
-</td>
-<td width="60%">
-Returned if the routine succeeds and returns the requested change.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>STATUS_ALREADY_COMPLETE</dt>
-</dl>
-</td>
-<td width="60%">
-Returned if the routine succeeds, but the changes have already been reported to the OS.
-
-</td>
-</tr>
-</table>
+|Return value|Description|
+|--- |--- |
+|STATUS_SUCCESS|Returned if the routine succeeds and returns the requested change.|
+|STATUS_ALREADY_COMPLETE|Returned if the routine succeeds, but the changes have already been reported to the OS.|
  
 
 

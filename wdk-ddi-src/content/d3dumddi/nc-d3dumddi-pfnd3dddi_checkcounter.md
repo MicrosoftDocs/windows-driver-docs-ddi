@@ -153,28 +153,9 @@ Here are limitations on the values of the <i>pDescriptionLength</i> and  <i>pszD
 
 If this routine succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code, including the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-An out-of-range device-dependent counter is requested, or a string length is not large enough for a buffer to contain the entire string.
-
-Even though all strings used in this function are based on Unicode, they are always in the English locale and are not localized to other locales.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|E_INVALIDARG|An out-of-range device-dependent counter is requested, or a string length is not large enough for a buffer to contain the entire string. <br/>Even though all strings used in this function are based on Unicode, they are always in the English locale and are not localized to other locales.|
 
 
 ## -remarks

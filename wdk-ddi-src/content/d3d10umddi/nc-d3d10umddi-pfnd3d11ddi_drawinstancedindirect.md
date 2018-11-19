@@ -67,21 +67,15 @@ A handle to the display device (graphics context).
 
 A handle to a buffer that contains the arguments for <b>DrawInstancedIndirect</b> to process. The buffer contains the following tightly packed structure:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>struct DrawInstancedIndirectArgs {
+```cpp
+struct DrawInstancedIndirectArgs {
   UINT VertexCountPerInstance; 
   UINT InstanceCount;
   UINT StartVertexLocation;
   UINT StartInstanceLocation;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 For more information about these arguments, see the <a href="https://msdn.microsoft.com/c539cf8b-e056-476a-9b23-7e360917a7d9">DrawInstanced</a> reference page. 
 
 

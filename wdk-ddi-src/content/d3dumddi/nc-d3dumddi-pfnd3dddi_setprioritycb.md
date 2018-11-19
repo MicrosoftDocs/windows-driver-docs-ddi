@@ -80,34 +80,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <i>pfnSetPriorityCb</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The priority level was successfully set.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The priority level was successfully set.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
  
 
 This function might also return other HRESULT values.
@@ -138,13 +114,8 @@ The driver can use priority levels other than the preceding defined values when 
 
 The following code example shows how to set priority level.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CD3DContext::SetPriority(CONST D3DDDIARG_SETPRIORITY* pSetPriority) {
+```cpp
+HRESULT CD3DContext::SetPriority(CONST D3DDDIARG_SETPRIORITY* pSetPriority) {
     DWORD  dwSurfaceHandle = (DWORD)(DWORD_PTR)pSetPriority-&gt;hResource;
     CResource   &amp;res = m_RTbl[dwSurfaceHandle];
     D3DDDICB_SETPRIORITY    setPri;
@@ -158,11 +129,8 @@ The following code example shows how to set priority level.
     setPri.pPriorities = &amp;priority;
 
     return (m_d3dCallbacks.pfnSetPriorityCb(m_hD3D, &amp;setPri));
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
+}
+```
 
 
 ## -see-also

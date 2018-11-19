@@ -66,124 +66,27 @@ The output value of <i>Rotation</i> is the sum of the output values from the <a 
 
 ## -returns
 
+The returned value corresponds to the rotation and offset angles as follows:
 
-
-The returned value corresponds to the rotation and offset angles as follows:<table>
-<tr>
-<td>Input enumeration value</td>
-<td>Input enumeration constant</td>
-<td>Rotation + offset, in degrees</td>
-<td>Output <i>Rotation</i> value</td>
-</tr>
-<tr>
-<td>0</td>
-<td><b>D3DKMDT_VPPR_UNINITIALIZED</b></td>
-<td>-</td>
-<td>0</td>
-</tr>
-<tr>
-<td>1</td>
-<td><b>D3DKMDT_VPPR_IDENTITY</b></td>
-<td>0</td>
-<td>1</td>
-</tr>
-<tr>
-<td>2</td>
-<td><b>D3DKMDT_VPPR_ROTATE90</b></td>
-<td>90</td>
-<td>2</td>
-</tr>
-<tr>
-<td>3</td>
-<td><b>D3DKMDT_VPPR_ROTATE180</b></td>
-<td>180</td>
-<td>3</td>
-</tr>
-<tr>
-<td>4</td>
-<td><b>D3DKMDT_VPPR_ROTATE270</b></td>
-<td>270</td>
-<td>4</td>
-</tr>
-<tr>
-<td>5</td>
-<td><b>D3DKMDT_VPPR_IDENTITY_OFFSET90</b></td>
-<td>90</td>
-<td>2</td>
-</tr>
-<tr>
-<td>6</td>
-<td><b>D3DKMDT_VPPR_ROTATE90_OFFSET90</b></td>
-<td>180</td>
-<td>3</td>
-</tr>
-<tr>
-<td>7</td>
-<td><b>D3DKMDT_VPPR_ROTATE180_OFFSET90</b></td>
-<td>270</td>
-<td>4</td>
-</tr>
-<tr>
-<td>8</td>
-<td><b>D3DKMDT_VPPR_ROTATE270_OFFSET90</b></td>
-<td>0</td>
-<td>1</td>
-</tr>
-<tr>
-<td>9</td>
-<td><b>D3DKMDT_VPPR_IDENTITY_OFFSET180</b></td>
-<td>180</td>
-<td>3</td>
-</tr>
-<tr>
-<td>10</td>
-<td><b>D3DKMDT_VPPR_ROTATE90_OFFSET180</b></td>
-<td>270</td>
-<td>4</td>
-</tr>
-<tr>
-<td>11</td>
-<td><b>D3DKMDT_VPPR_ROTATE180_OFFSET180</b></td>
-<td>0</td>
-<td>1</td>
-</tr>
-<tr>
-<td>12</td>
-<td><b>D3DKMDT_VPPR_ROTATE270_OFFSET180</b></td>
-<td>90</td>
-<td>2</td>
-</tr>
-<tr>
-<td>13</td>
-<td><b>D3DKMDT_VPPR_IDENTITY_OFFSET270</b></td>
-<td>270</td>
-<td>4</td>
-</tr>
-<tr>
-<td>14</td>
-<td><b>D3DKMDT_VPPR_ROTATE90_OFFSET270</b></td>
-<td>0</td>
-<td>1</td>
-</tr>
-<tr>
-<td>15</td>
-<td><b>D3DKMDT_VPPR_ROTATE180_OFFSET270</b></td>
-<td>90</td>
-<td>2</td>
-</tr>
-<tr>
-<td>16</td>
-<td><b>D3DKMDT_VPPR_ROTATE270_OFFSET270</b></td>
-<td>180</td>
-<td>3</td>
-</tr>
-</table>
- 
-
-
-
-
-
+|Input enumeration value|Input enumeration constant|Rotation + offset, in degrees|Output Rotation value|
+|--- |--- |--- |--- |
+|0|D3DKMDT_VPPR_UNINITIALIZED|-|0|
+|1|D3DKMDT_VPPR_IDENTITY|0|1|
+|2|D3DKMDT_VPPR_ROTATE90|90|2|
+|3|D3DKMDT_VPPR_ROTATE180|180|3|
+|4|D3DKMDT_VPPR_ROTATE270|270|4|
+|5|D3DKMDT_VPPR_IDENTITY_OFFSET90|90|2|
+|6|D3DKMDT_VPPR_ROTATE90_OFFSET90|180|3|
+|7|D3DKMDT_VPPR_ROTATE180_OFFSET90|270|4|
+|8|D3DKMDT_VPPR_ROTATE270_OFFSET90|0|1|
+|9|D3DKMDT_VPPR_IDENTITY_OFFSET180|180|3|
+|10|D3DKMDT_VPPR_ROTATE90_OFFSET180|270|4|
+|11|D3DKMDT_VPPR_ROTATE180_OFFSET180|0|1|
+|12|D3DKMDT_VPPR_ROTATE270_OFFSET180|90|2|
+|13|D3DKMDT_VPPR_IDENTITY_OFFSET270|270|4|
+|14|D3DKMDT_VPPR_ROTATE90_OFFSET270|0|1|
+|15|D3DKMDT_VPPR_ROTATE180_OFFSET270|90|2|
+|16|D3DKMDT_VPPR_ROTATE270_OFFSET270|180|3|
 
 ## -remarks
 
@@ -191,13 +94,8 @@ The returned value corresponds to the rotation and offset angles as follows:<tab
 
 This function is declared inline in D3dkmdt.h as:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>__inline
+```cpp
+__inline
 D3DKMDT_VIDPN_PRESENT_PATH_ROTATION 
     D3DKMDT_VPPR_GET_CONTENT_ROTATION(
         D3DKMDT_VIDPN_PRESENT_PATH_ROTATION Rotation)
@@ -213,10 +111,9 @@ D3DKMDT_VIDPN_PRESENT_PATH_ROTATION
             (((ContentPart - 1) + (OffsetPart - 1)) % 4) + 1);
     }
     return Rotation;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 If the content being presented has to be rotated by the driver, the output of this function represents the total rotation (the <b>Rotate</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562005">DXGK_PRESENTFLAGS</a> structure) that the driver needs to apply to the pixels provided in the <a href="https://msdn.microsoft.com/1a46b129-1e78-44e6-a609-59eab206692b">DxgkDdiPresent</a> operation. For more info, see <a href="https://msdn.microsoft.com/136CEDA5-2839-4E6E-A032-1A9222C769C6">Supporting Path-Independent Rotation</a>.
 
 Here's an example of how this function can provide your driver with the info it needs to properly rotate content. When a portrait-first device is connected in clone mode to a landscape-first monitor and  the user changes the <b>Orientation</b> in the <b>Display</b> control panel to <b>Portrait</b>, this represents the default orientation of the portrait-first device. Therefore the driver should set a value of <a href="https://msdn.microsoft.com/library/windows/hardware/ff546700">D3DKMDT_VIDPN_PRESENT_PATH_ROTATION</a>.<b>D3DKMDT_VPPR_ROTATE90_OFFSET270</b> on the path. This function will then return a <i>Rotation</i> value of 1 (identity) to indicate that the content displayed on the clone path is not to be rotated.

@@ -97,16 +97,10 @@ The driver can use the <a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6
 
 The D3D10_DDI_RECT structure is defined as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef RECT D3D10_DDI_RECT;</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+typedef RECT D3D10_DDI_RECT;
+```
+
 The user-mode display driver must set all render-target portions atomically as one operation. 
 
 Although the <i>NumScissorRects</i> parameter specifies the number of render-target portions in the array that the <i>pRects</i> parameter specifies, some values in the array can be <b>NULL</b>. 

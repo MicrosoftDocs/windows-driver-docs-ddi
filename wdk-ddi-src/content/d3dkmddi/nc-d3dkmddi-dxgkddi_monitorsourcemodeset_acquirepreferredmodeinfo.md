@@ -71,48 +71,11 @@ The <b>pfnAcquirePreferredModeInfo</b> returns a descriptor of the preferred mod
 
 The <b>pfnAcquirePreferredModeInfo</b> function returns one of the following values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function successfully returned a descriptor of the preferred mode.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATIS_GRAPHICS_NO_PREFERRED_MODE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded, but the specified monitor source mode set does not have a preferred mode.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_MONITOR_SOURCEMODESET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hMonitorSourceModeSet</i> was invalid.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function successfully returned a descriptor of the preferred mode.|
+|STATIS_GRAPHICS_NO_PREFERRED_MODE|The function succeeded, but the specified monitor source mode set does not have a preferred mode.|
+|STATUS_GRAPHICS_INVALID_MONITOR_SOURCEMODESET|The handle supplied in hMonitorSourceModeSet was invalid.|
 
 
 ## -remarks

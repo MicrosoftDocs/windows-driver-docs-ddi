@@ -76,56 +76,12 @@ The <b>DxgkCbQueryVidPnInterface</b> function returns a pointer to a <a href="ht
 
 <b>DxgkCbQueryVidPnInterface </b>returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The value passed to <i>ppVidPnInterface</i> is not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle passed to <i>hVidPn</i> is not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The interface version specified by <i>VidPnInterfaceVersion</i> is not supported.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_INVALID_PARAMETER|The value passed to ppVidPnInterface is not valid.|
+|STATUS_GRAPHICS_INVALID_VIDPN|The handle passed to hVidPn is not valid.|
+|STATUS_NOT_SUPPORTED|The interface version specified by VidPnInterfaceVersion is not supported.|
  
 
 

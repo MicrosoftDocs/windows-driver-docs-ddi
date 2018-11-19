@@ -88,34 +88,10 @@ For more information, see <a href="https://msdn.microsoft.com/ECBB0AA7-50C2-41C8
 
 ### -field TopOfPipeline
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>TRUE</dt>
-</dl>
-</td>
-<td width="60%">
-Specifies whether the synchronization object is signaled as soon as the contents of command buffer preceding it is entirely copied to the GPU pipeline, but not necessarily completed execution. This behavior allows reusing command buffers as soon as possible.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>FALSE</dt>
-</dl>
-</td>
-<td width="60%">
-The synchronization object is signaled after the preceding command buffers completed execution.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|TRUE|Specifies whether the synchronization object is signaled as soon as the contents of command buffer preceding it is entirely copied to the GPU pipeline, but not necessarily completed execution. This behavior allows reusing command buffers as soon as possible.|
+|FALSE|The synchronization object is signaled after the preceding command buffers completed execution.|
  
 
 This value can only be set to 1 (<b>TRUE</b>) for monitored fence synchronization objects, and it should be set to zero (<b>FALSE</b>) for all other synchronization object types.
@@ -125,34 +101,10 @@ Supported starting with Windows 10.
 
 ### -field NoSignal
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>TRUE</dt>
-</dl>
-</td>
-<td width="60%">
-Specifies the device this sync object is created or opened on can only submit wait commands for it. An attempt to submit a signal operation when this flag is set will return <b>STATUS_ACCESS_DENIED</b>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>FALSE</dt>
-</dl>
-</td>
-<td width="60%">
-The synchronization object can be signaled.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|TRUE|Specifies the device this sync object is created or opened on can only submit wait commands for it. An attempt to submit a signal operation when this flag is set will return STATUS_ACCESS_DENIED.|
+|FALSE|The synchronization object can be signaled.|
  
 
 This value can only be set to 1 (<b>TRUE</b>) for monitored fence synchronization objects, and it should be set to zero (<b>FALSE</b>) for all other synchronization object types.
@@ -162,34 +114,10 @@ Supported starting with Windows 10.
 
 ### -field NoWait
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>TRUE</dt>
-</dl>
-</td>
-<td width="60%">
-Specifies the device this sync object is created or opened on can only submit signal commands for it. An attempt to submit a wait operation when this flag is set will return <b>STATUS_ACCESS_DENIED</b>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>FALSE</dt>
-</dl>
-</td>
-<td width="60%">
-The synchronization object can be waited on.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|TRUE|Specifies the device this sync object is created or opened on can only submit signal commands for it. An attempt to submit a wait operation when this flag is set will return STATUS_ACCESS_DENIED.|
+|FALSE|The synchronization object can be waited on.|
  
 
 This value can only be set to 1 (<b>TRUE</b>) for monitored fence synchronization objects, and it should be set to zero (<b>FALSE</b>) for all other synchronization object types.
@@ -203,34 +131,10 @@ Supported starting with Windows 10.
 
 ### -field NoSignalMaxValueOnTdr
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>TRUE</dt>
-</dl>
-</td>
-<td width="60%">
-Instructs the GPU scheduler to bypass the aforementioned signaling of the monitored fence to the maximum value in TDR cases.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>FALSE</dt>
-</dl>
-</td>
-<td width="60%">
-The GPU scheduler will signal the monitored fence to the maximum value when a device that can potentially signal it is affected by the GPU reset (TDR).
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|TRUE|Instructs the GPU scheduler to bypass the aforementioned signaling of the monitored fence to the maximum value in TDR cases.|
+|FALSE|The GPU scheduler will signal the monitored fence to the maximum value when a device that can potentially signal it is affected by the GPU reset (TDR).|
  
 
 Supported starting with Windows 10.
@@ -242,10 +146,6 @@ Supported starting with Windows 10.
 
 
 ### -field Reserved
-
-This member is reserved and should be set to zero.
-
-This member is reserved and should be set to zero.
 
 This member is reserved and should be set to zero.
 

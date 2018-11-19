@@ -85,47 +85,11 @@ The size, in bytes, of the buffer that is supplied by <i>pDevInfoStruct</i>.
 
 <i>GetInfo</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The device information is successfully retrieved.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_NOTIMPL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The driver does not support the requested type of device information.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The device information is successfully retrieved.|
+|E_NOTIMPL|The driver does not support the requested type of device information.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
 
 
 

@@ -64,41 +64,8 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536439">IOCTL
 
 The status detail of the I/O operation.  This is where WINBIO error and information codes will be passed. The following table shows possible values.
 
-<table>
-<tr>
-<th>Status value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-S_OK
-
-</td>
-<td>
-The operation completed successfully.
-
-</td>
-</tr>
-<tr>
-<td>
-HRESULT_FROM_NT(STATUS_IO_DEVICE_ERROR)
-
-</td>
-<td>
-The driver could not gather the necessary information from the device.
-
-</td>
-</tr>
-<tr>
-<td>
-WINBIO_E_DEVICE_BUSY
-
-</td>
-<td>
-The device is in the middle of a vendor-specific operation.  This should only be returned when the device cannot be reset, and the vendor-specific operation cannot be canceled.
-
-</td>
-</tr>
-</table>
- 
-
+|Status value|Description|
+|--- |--- |
+|S_OK|The operation completed successfully.|
+|HRESULT_FROM_NT(STATUS_IO_DEVICE_ERROR)|The driver could not gather the necessary information from the device.|
+|WINBIO_E_DEVICE_BUSY|The device is in the middle of a vendor-specific operation.  This should only be returned when the device cannot be reset, and the vendor-specific operation cannot be canceled.|

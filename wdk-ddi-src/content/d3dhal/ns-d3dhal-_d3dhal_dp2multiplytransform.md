@@ -63,42 +63,11 @@ The D3DHAL_DP2MULTIPLYTRANSFORM structure is used to modify the transform matrix
 
 Specifies the current transform being modified.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DTRANSFORMSTATE_PROJECTION
-
-</td>
-<td>
-Specifies the current projection transformation.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTRANSFORMSTATE_VIEW
-
-</td>
-<td>
-Specifies the current view transformation.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTRANSFORMSTATE_WORLD
-
-</td>
-<td>
-Specifies the current world transformation.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|D3DTRANSFORMSTATE_PROJECTION|Specifies the current projection transformation.|
+|D3DTRANSFORMSTATE_VIEW|Specifies the current view transformation.|
+|D3DTRANSFORMSTATE_WORLD|Specifies the current world transformation.|
  
 
 

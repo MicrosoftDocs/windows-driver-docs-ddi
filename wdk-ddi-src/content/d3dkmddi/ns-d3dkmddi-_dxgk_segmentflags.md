@@ -245,71 +245,16 @@ You can avoid the limitations of <b>CpuVisible</b> for an aperture segment by us
 <h3><a id="optimized_standby_settings"></a><a id="OPTIMIZED_STANDBY_SETTINGS"></a>Optimized standby settings</h3>
 The combination of values for the <b>PreservedDuringStandby</b>, <b>PreservedDuringHibernate</b>, and  <b>PartiallyPreservedDuringHibernate</b> members determines whether a segment is purged of its content when the system enters a low-power (standby) system state, as follows.
 
-<table>
-<tr>
-<th>Preserved During Standby</th>
-<th>Preserved During Hibernate</th>
-<th>Partially Preserved During Hibernate</th>
-<th>Standby State</th>
-<th>Hibernate State</th>
-</tr>
-<tr>
-<td>1</td>
-<td>1</td>
-<td>1</td>
-<td>invalid</td>
-<td>invalid</td>
-</tr>
-<tr>
-<td>1</td>
-<td>1</td>
-<td>0</td>
-<td>not purged</td>
-<td>not purged</td>
-</tr>
-<tr>
-<td>1</td>
-<td>0</td>
-<td>1</td>
-<td>not purged</td>
-<td>partially purged</td>
-</tr>
-<tr>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>not purged</td>
-<td>purged</td>
-</tr>
-<tr>
-<td>0</td>
-<td>1</td>
-<td>1</td>
-<td>invalid</td>
-<td>invalid</td>
-</tr>
-<tr>
-<td>0</td>
-<td>1</td>
-<td>0</td>
-<td>invalid</td>
-<td>invalid</td>
-</tr>
-<tr>
-<td>0</td>
-<td>0</td>
-<td>1</td>
-<td>invalid</td>
-<td>invalid</td>
-</tr>
-<tr>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>purged</td>
-<td>purged</td>
-</tr>
-</table>
+|Preserved During Standby|Preserved During Hibernate|Partially Preserved During Hibernate|Standby State|Hibernate State|
+|--- |--- |--- |--- |--- |
+|1|1|1|invalid|invalid|
+|1|1|0|not purged|not purged|
+|1|0|1|not purged|partially purged|
+|1|0|0|not purged|purged|
+|0|1|1|invalid|invalid|
+|0|1|0|invalid|invalid|
+|0|0|1|invalid|invalid|
+|0|0|0|purged|purged|
  
 
 The operating system does not recognize combinations in this table that are marked "invalid."

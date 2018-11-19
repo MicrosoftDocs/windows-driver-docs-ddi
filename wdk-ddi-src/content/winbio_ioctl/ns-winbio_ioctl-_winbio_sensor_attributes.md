@@ -64,34 +64,10 @@ A DWORD value that indicates the total size of the payload, including the fixed 
 
 An HRESULT value that indicates containing status detail of the I/O operation.   The following table includes possible values.
 
-<table>
-<tr>
-<th>Status value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-S_OK
-
-</td>
-<td>
-The operation completed successfully.
-
-</td>
-</tr>
-<tr>
-<td>
-HRESULT_FROM_NT(STATUS_IO_DEVICE_ERROR)
-
-</td>
-<td>
-The driver could not gather the necessary information from the device.
-
-</td>
-</tr>
-</table>
- 
-
+|Status value|Description|
+|--- |--- |
+|S_OK|The operation completed successfully.|
+|HRESULT_FROM_NT(STATUS_IO_DEVICE_ERROR)|The driver could not gather the necessary information from the device.|
 
 ### -field WinBioVersion
 
@@ -109,42 +85,10 @@ A WINBIO_BIOMETRIC_SENSOR_SUBTYPE subtype that contains additional information a
 
 WINBIO_BIOMETRIC_SENSOR_SUBTYPE can contain the values in the following table.
 
-<table>
-<tr>
-<th>
-              
-                Biometric subtype value
-              
-            </th>
-<th>
-              
-                Description
-              
-            </th>
-</tr>
-<tr>
-<td>
-WINBIO_FP_SENSOR_SUBTYPE_SWIPE
-
-</td>
-<td>
-The device requires the user to swipe their fingertip over the sensor.
-
-</td>
-</tr>
-<tr>
-<td>
-WINBIO_FP_SENSOR_SUBTYPE_TOUCH
-
-</td>
-<td>
-The device requires the user to place their entire fingerprint on a sensor pad.
-
-</td>
-</tr>
-</table>
- 
-
+|Biometric subtype value|Description|
+|--- |--- |
+|WINBIO_FP_SENSOR_SUBTYPE_SWIPE|The device requires the user to swipe their fingertip over the sensor.|
+|WINBIO_FP_SENSOR_SUBTYPE_TOUCH|The device requires the user to place their entire fingerprint on a sensor pad.|
 
 ### -field Capabilities
 
@@ -152,136 +96,19 @@ A WINBIO_CAPABILITIES subtype, which indicates which capabilities are supported 
 
 WINBIO_CAPABILITIES can contain the values in the following table.
 
-<table>
-<tr>
-<th>
-       
-        Biometric capability value
-       
-      </th>
-<th>
-       
-        Description
-       
-      </th>
-</tr>
-<tr>
-<td>
-WINBIO_CAPABILITY_SENSOR 
-
-</td>
-<td>
-The device can collect biometric data.
-
-</td>
-</tr>
-<tr>
-<td>
-WINBIO_CAPABILITY_MATCHING
-
-</td>
-<td>
-The device can perform match operations.
-
-</td>
-</tr>
-<tr>
-<td>
-WINBIO_CAPABILITY_STORAGE
-
-</td>
-<td>
-The device can store biometric templates.
-
-</td>
-</tr>
-<tr>
-<td>
-WINBIO_CAPABILITY_SECURE_STORAGE
-
-</td>
-<td>
-The device can store secure data that is associated with a template.  The secure data is only released with a positive match.  The device must support at least the SHA-1 algorithm for secure hash computation to be used to store templates in the system pool.
-
-</td>
-</tr>
-<tr>
-<td>
-WINBIO_CAPABILITY_PROCESSING
-
-</td>
-<td>
-The device can process samples and turn them into biometric templates.
-
-</td>
-</tr>
-<tr>
-<td>
-WINBIO_CAPABILITY_ENCRYPTION
-
-</td>
-<td>
-The device supports encryption of samples and templates.
-
-</td>
-</tr>
-<tr>
-<td>
-WINBIO_CAPABILITY_SIGNING
-
-</td>
-<td>
-The device can sign captured data.
-
-</td>
-</tr>
-<tr>
-<td>
-WINBIO_CAPABILITY_NAVIGATION
-
-</td>
-<td>
-The device can be used as a navigation device.  Some devices and drivers can capture data in a format that can be translated by a user-mode application into navigation events, much like a mouse.
-
-</td>
-</tr>
-<tr>
-<td>
-WINBIO_CAPABILITY_INDICATOR
-
-</td>
-<td>
-The device has an indicator that can be turned on or off.
-
-</td>
-</tr>
-<tr>
-<td>
-WINBIO_CAPABILITY_VIRTUAL_SENSOR
-
-</td>
-<td>
-The sensor adapter manages its own connection to the biometric hardware.
-
-<div class="alert"><b>Note</b>  This constant applies only for Windows 10 and later.</div>
-<div> </div>
-</td>
-</tr>
-<tr>
-<td>
-WINBIO_CAPABILITY_SECURE_SENSOR
-
-</td>
-<td>
-The device supports security methods available in the WinBio engine adapter interface version 4.0  or later.
-
-<div class="alert"><b>Note</b>  This constant applies only for Windows 10 and later.</div>
-<div> </div>
-</td>
-</tr>
-</table>
- 
-
+|Biometric capability value|Description|
+|--- |--- |
+|WINBIO_CAPABILITY_SENSOR|The device can collect biometric data.|
+|WINBIO_CAPABILITY_MATCHING|The device can perform match operations.|
+|WINBIO_CAPABILITY_STORAGE|The device can store biometric templates.|
+|WINBIO_CAPABILITY_SECURE_STORAGE|The device can store secure data that is associated with a template. The secure data is only released with a positive match. The device must support at least the SHA-1 algorithm for secure hash computation to be used to store templates in the system pool.|
+|WINBIO_CAPABILITY_PROCESSING|The device can process samples and turn them into biometric templates.|
+|WINBIO_CAPABILITY_ENCRYPTION|The device supports encryption of samples and templates.|
+|WINBIO_CAPABILITY_SIGNING|The device can sign captured data.|
+|WINBIO_CAPABILITY_NAVIGATION|The device can be used as a navigation device. Some devices and drivers can capture data in a format that can be translated by a user-mode application into navigation events, much like a mouse.|
+|WINBIO_CAPABILITY_INDICATOR|The device has an indicator that can be turned on or off.|
+|WINBIO_CAPABILITY_VIRTUAL_SENSOR|The sensor adapter manages its own connection to the biometric hardware. **Note:** This constant applies only for Windows 10 and later.|
+|WINBIO_CAPABILITY_SECURE_SENSOR|The device supports security methods available in the WinBio engine adapter interface version 4.0  or later. **Note:** This constant applies only for Windows 10 and later.|
 
 ### -field ManufacturerName
 

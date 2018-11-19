@@ -539,24 +539,11 @@ Determines the maximum number of instructions that the pixel shader assembler ca
 The driver uses a DWORD data type with a default value of D3DINFINITEINSTRUCTIONS (0xffffffff) to report the maximum number of pixel-shader instructions.
 This maximum number depends on the version of the pixel shader that the display device supports as shown in the following table.
 
-<table>
-<tr>
-<th>Version</th>
-<th>Maximum number</th>
-</tr>
-<tr>
-<td>earlier than 2_0</td>
-<td>0</td>
-</tr>
-<tr>
-<td>2_0</td>
-<td>From 96 to D3DINFINITEINSTRUCTIONS</td>
-</tr>
-<tr>
-<td>3_0 and later</td>
-<td>From 2¹⁶ (0x0000ffff) to D3DINFINITEINSTRUCTIONS</td>
-</tr>
-</table>
+|Version|Maximum number|
+|--- |--- |
+|earlier than 2_0|0|
+|2_0|From 96 to D3DINFINITEINSTRUCTIONS|
+|3_0 and later|From 2¹⁶ (0x0000ffff) to D3DINFINITEINSTRUCTIONS|
  
 
 D3DINFINITEINSTRUCTIONS represents a virtually unlimited amount.
@@ -575,20 +562,10 @@ Determines the maximum number of instructions that the vertex shader assembler c
 The driver uses a DWORD data type with a default value of D3DINFINITEINSTRUCTIONS (0xffffffff) to report the maximum number of vertex-shader instructions.
 This maximum number depends on the version of the vertex shader that the display device supports as shown in the following table.
 
-<table>
-<tr>
-<th>Version</th>
-<th>Maximum number</th>
-</tr>
-<tr>
-<td>earlier than 2_0</td>
-<td>0</td>
-</tr>
-<tr>
-<td>2_0 and later</td>
-<td>From 2¹⁶ (0x0000ffff) to D3DINFINITEINSTRUCTIONS</td>
-</tr>
-</table>
+|Version|Maximum number|
+|--- |--- |
+|earlier than 2_0|0|
+|2_0 and later|From 2¹⁶ (0x0000ffff) to D3DINFINITEINSTRUCTIONS|
  
 
 D3DINFINITEINSTRUCTIONS represents a virtually unlimited amount.
@@ -602,16 +579,11 @@ The driver uses these render states when it performs graphics rendering. Only re
 
 To update a particular render state, Direct3D stores information about the render state, and then calls the driver's <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> callback routine. The information provided to the driver enables it to:
 
-<ul>
-<li>
-Determine that it should update one or more render states.
+* Determine that it should update one or more render states.
 
-</li>
-<li>
-Identify which render states to update, and what the new render state values should be.
+* Identify which render states to update, and what the new render state values should be.
 
-</li>
-</ul>
+
 Note that for certain render states to be honored, the driver must have previously set capability flags in the relevant member of the D3DPRIMCAPS structure.
 
 In order to indicate a specific render state update, Direct3D inserts a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a> structure into the command buffer, setting the <b>bCommand</b> member of this structure to D3DDP2OP_RENDERSTATE (see the description for D3DDP2OP_RENDERSTATE in <a href="https://msdn.microsoft.com/library/windows/hardware/ff545678">D3DHAL_DP2OPERATION</a>), and setting the <b>wStateCount</b> member of the same structure to the number of render states to be updated.
@@ -621,8 +593,8 @@ Immediately following the <a href="https://msdn.microsoft.com/library/windows/ha
 The following figure shows a portion of the command buffer containing a D3DDP2OP_RENDERSTATE command and two D3DHAL_DP2RENDERSTATE structures. The first of the three structures indicates that two render states are to be updated. The second structure indicates that the D3DRENDERSTATE_FILLMODE render state is to be changed to D3DFILL_SOLID. The third structure indicates that the D3DRENDERSTATE_SHADEMODE render state should be updated to D3DSHADE_GOURAUD.
 
 <img alt="Figure showing a command buffer with a D3DDP2OP_RENDERSTATE command and two D3DHAL_DP2RENDERSTATE structures" src="images/dp2rs.png"/>
-<b>
-     Additional Notes</b>
+
+<b>Additional Notes</b>
 
 See the D3DTEXTURESTAGESTATETYPE, D3DTEXTUREOP, and D3DTEXTUREFILTER enumerated types in the DirectX SDK documentation for complete listings of all of the enabled render state types.
 
