@@ -37,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # MAKE_D3DDDIHRESULT macro

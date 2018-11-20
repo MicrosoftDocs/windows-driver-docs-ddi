@@ -30,6 +30,7 @@ api_name:
 -	_DEVICE_FAULT_CONFIGURATION
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _DEVICE_FAULT_CONFIGURATION structure

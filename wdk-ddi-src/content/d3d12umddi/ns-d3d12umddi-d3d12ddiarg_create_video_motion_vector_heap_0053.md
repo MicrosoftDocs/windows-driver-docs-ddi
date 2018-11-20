@@ -32,6 +32,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDIARG_CREATE_VIDEO_MOTION_VECTOR_HEAP_0053 structure

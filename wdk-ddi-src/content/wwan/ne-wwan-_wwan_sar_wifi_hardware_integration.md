@@ -29,6 +29,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _WWAN_SAR_WIFI_HARDWARE_INTEGRATION enumeration

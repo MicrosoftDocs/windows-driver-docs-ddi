@@ -30,6 +30,7 @@ api_name:
 -	_PHYSICAL_ELEMENT_STATUS_REQUEST
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _PHYSICAL_ELEMENT_STATUS_REQUEST structure

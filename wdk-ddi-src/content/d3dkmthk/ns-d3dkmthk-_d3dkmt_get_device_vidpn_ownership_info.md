@@ -31,6 +31,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _D3DKMT_GET_DEVICE_VIDPN_OWNERSHIP_INFO structure

@@ -11,4 +11,5 @@ ms.topic: portal
 tech.root: netvista
 product:
 - Windows
+ms.custom: RS5
 ---

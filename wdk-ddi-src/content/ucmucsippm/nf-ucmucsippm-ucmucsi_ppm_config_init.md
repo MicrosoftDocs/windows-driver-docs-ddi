@@ -37,6 +37,7 @@ product: Windows
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # UCMUCSI_PPM_CONFIG_INIT function

@@ -31,6 +31,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # D3D12DDIARG_TEX1D_DEPTH_STENCIL_VIEW structure

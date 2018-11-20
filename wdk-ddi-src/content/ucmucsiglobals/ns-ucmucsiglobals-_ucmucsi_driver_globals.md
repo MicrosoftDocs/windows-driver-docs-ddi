@@ -31,6 +31,7 @@ api_name:
 -	_UCMUCSI_DRIVER_GLOBALS
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCMUCSI_DRIVER_GLOBALS structure

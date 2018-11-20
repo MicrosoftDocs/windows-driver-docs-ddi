@@ -39,6 +39,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: WPD_OPERATION_STATES
+ms.custom: RS5
 ---
 
 # tagWPD_OPERATION_STATES enumeration

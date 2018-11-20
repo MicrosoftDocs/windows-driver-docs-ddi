@@ -11,6 +11,7 @@ ms.topic: portal
 product:
 -	Windows
 tech.root: treedrv
+ms.custom: RS5
 ---
 
 # Trustedrt.h header

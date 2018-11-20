@@ -27,6 +27,7 @@ api_name:
 -	_HAL_QUERY_INFORMATION_CLASS
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _HAL_QUERY_INFORMATION_CLASS enumeration

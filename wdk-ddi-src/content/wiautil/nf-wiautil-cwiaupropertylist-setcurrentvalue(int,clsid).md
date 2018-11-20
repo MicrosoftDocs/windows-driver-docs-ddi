@@ -39,6 +39,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # CWiauPropertyList::SetCurrentValue(INT,CLSID)

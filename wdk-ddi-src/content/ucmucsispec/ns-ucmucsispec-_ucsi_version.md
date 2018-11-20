@@ -31,6 +31,7 @@ api_name:
 -	_UCSI_VERSION
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCSI_VERSION structure

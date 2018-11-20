@@ -34,6 +34,7 @@ api_name:
 -	EVT_USBPM_EVENT_CALLBACK
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # EVT_USBPM_EVENT_CALLBACK callback function

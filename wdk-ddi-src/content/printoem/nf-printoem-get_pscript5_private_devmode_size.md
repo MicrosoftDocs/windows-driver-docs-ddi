@@ -37,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE macro

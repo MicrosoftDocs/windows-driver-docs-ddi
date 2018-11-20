@@ -38,6 +38,7 @@ targetos: Windows
 tech.root: display
 
 
+ms.custom: RS5
 ---
 
 # D3DKMTGetAvailableTrackedWorkloadIndex function

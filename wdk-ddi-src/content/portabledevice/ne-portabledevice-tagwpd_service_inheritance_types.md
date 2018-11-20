@@ -39,6 +39,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: WPD_SERVICE_INHERITANCE_TYPES
+ms.custom: RS5
 ---
 
 # tagWPD_SERVICE_INHERITANCE_TYPES enumeration

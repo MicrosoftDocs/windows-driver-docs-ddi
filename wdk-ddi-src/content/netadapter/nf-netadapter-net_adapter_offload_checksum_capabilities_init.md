@@ -38,6 +38,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT function

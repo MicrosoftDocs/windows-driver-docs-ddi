@@ -39,6 +39,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: WPD_WHITE_BALANCE_SETTINGS
+ms.custom: RS5
 ---
 
 # tagWPD_WHITE_BALANCE_SETTINGS enumeration

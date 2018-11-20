@@ -39,6 +39,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: WPD_EFFECT_MODES
+ms.custom: RS5
 ---
 
 # tagWPD_EFFECT_MODES enumeration

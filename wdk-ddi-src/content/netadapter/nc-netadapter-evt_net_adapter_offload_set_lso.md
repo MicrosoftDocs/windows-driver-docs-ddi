@@ -35,6 +35,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # EVT_NET_ADAPTER_OFFLOAD_SET_LSO callback function

@@ -37,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # IS_OFFICIAL_DDI_INTERFACE_VERSION macro

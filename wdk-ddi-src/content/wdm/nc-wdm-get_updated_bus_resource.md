@@ -33,6 +33,7 @@ api_name:
 -	GET_UPDATED_BUS_RESOURCE
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # GET_UPDATED_BUS_RESOURCE callback function

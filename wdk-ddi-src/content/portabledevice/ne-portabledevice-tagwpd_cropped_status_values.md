@@ -39,6 +39,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: WPD_CROPPED_STATUS_VALUES
+ms.custom: RS5
 ---
 
 # tagWPD_CROPPED_STATUS_VALUES enumeration

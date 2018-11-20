@@ -39,6 +39,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: WpdAttributeForm
+ms.custom: RS5
 ---
 
 # tagWpdAttributeForm enumeration

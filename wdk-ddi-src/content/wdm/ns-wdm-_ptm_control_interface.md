@@ -30,6 +30,7 @@ api_name:
 -	_PTM_CONTROL_INTERFACE
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _PTM_CONTROL_INTERFACE structure

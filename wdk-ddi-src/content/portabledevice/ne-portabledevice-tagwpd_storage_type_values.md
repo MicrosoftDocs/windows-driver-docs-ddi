@@ -39,6 +39,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: WPD_STORAGE_TYPE_VALUES
+ms.custom: RS5
 ---
 
 # tagWPD_STORAGE_TYPE_VALUES enumeration

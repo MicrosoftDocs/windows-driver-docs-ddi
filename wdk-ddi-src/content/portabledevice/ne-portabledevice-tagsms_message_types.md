@@ -39,6 +39,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: SMS_MESSAGE_TYPES
+ms.custom: RS5
 ---
 
 # tagSMS_MESSAGE_TYPES enumeration

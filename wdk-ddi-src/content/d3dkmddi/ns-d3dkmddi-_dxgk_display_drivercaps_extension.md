@@ -31,6 +31,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _DXGK_DISPLAY_DRIVERCAPS_EXTENSION structure

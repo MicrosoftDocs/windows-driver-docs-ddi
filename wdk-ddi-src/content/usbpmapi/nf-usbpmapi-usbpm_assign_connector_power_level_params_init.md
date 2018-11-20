@@ -37,6 +37,7 @@ product: Windows
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS_INIT function

@@ -29,6 +29,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # _DXGK_SCHEDULING_PRIORITY_BAND enumeration

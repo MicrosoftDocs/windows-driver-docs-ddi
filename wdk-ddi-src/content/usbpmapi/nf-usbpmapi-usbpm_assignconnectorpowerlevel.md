@@ -37,6 +37,7 @@ product: Windows
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # UsbPm_AssignConnectorPowerLevel function
