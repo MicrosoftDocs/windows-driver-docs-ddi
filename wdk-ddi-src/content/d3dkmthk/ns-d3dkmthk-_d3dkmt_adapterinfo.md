@@ -46,31 +46,35 @@ req.typenames: D3DKMT_ADAPTERINFO
 
 ## -description
 
-
-Supplies configuration information about a graphics adapter.
-
+Supplies information about a adapter.
 
 ## -struct-fields
 
-
-
-
 ### -field hAdapter
+*D3DKMT\_HANDLE* *hAdapter*
 
-A handle to the graphics adapter.
-
+A handle to the adapter.
 
 ### -field AdapterLuid
+*LUID AdapterLuid*
 
-A LUID that serves as an identifier for the adapter.
-
+A LUID value that uniquely identifies the adapter, typically until the operating system is rebooted.
+The LUID value changes whenever:
+- the system is rebooted
+- the adapter's driver is updated
+- the adapter is disabled
+- the adapter is disconnected
 
 ### -field NumOfSources
+*ULONG NumOfSources*
 
 The number of video present sources supported by the adapter.
 
-
 ### -field bPresentMoveRegionsPreferred
+*BOOL bPresentMoveRegionsPreferred*
 
 If <b>TRUE</b>, the adapter prefers move regions.
+
+## -see-also
+- [D3DKMT_ENUMADAPTERS2](ns-d3dkmthk-_d3dkmt_enumadapters2.md)
 

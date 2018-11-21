@@ -37,24 +37,32 @@ tech.root: display
 # _D3DDDI_QUERYREGISTRY_FLAGS structure
 
 ## -description
-
-Contains information to query for registry flags.
+These flags control how strings are being retrieved through QueryAdapterInfo for **KMTQAITYPE_QUERYREGISTRY**.
 
 ## -struct-fields
 
-### -field TranslatePath
+## -see-also
 
-The translate path.
+### TranslatePath
+*UINT TranslatePath : 1*
 
-### -field MutableValue
+When a particular registry key stores a path to another driver file, the caller of QueryAdapterInfo may have that path translated into the path that an isolated processes can access.
+Setting **TranslatePath** to 1 indicates the registry key is a string that should be translated, when appropriate.
+The registry string must be a full path to a file in the driver store, and translation will not occur when translation is not needed.
 
-The mutable value.
+**TranslatePath** must be set to 0 when **D3DDDI_QUERYREGISTRY_DRIVERSTOREPATH** and **D3DDDI_QUERYREGISTRY_DRIVERIMAGEPATH** are used.
+However, **D3DDDI_QUERYREGISTRY_DRIVERSTOREPATH** and **D3DDDI_QUERYREGISTRY_DRIVERIMAGEPATH** will always act as-if **TranslatePath** were set to 1.
 
-### -field Reserved
+### MutableValue
+Reserved. Callers of QueryAdapterInfo must set this value to 0.
 
-Reserved.
+### Reserved
+Reserved. Callers of QueryAdapterInfo must set this value to 0.
 
-### -field Value
+### Value
+*UINT Value*
 
-Value.
+The **Value** field exists to read all these flags in a raw syntax, instead of the named bitfield.
 
+## See Also
+- [D3DDDI_QUERYREGISTRY_INFO](ns-d3dukmdt-_d3dddi_queryregistry_info.md)

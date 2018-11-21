@@ -47,7 +47,7 @@ req.typenames: D3DKMT_CLOSEADAPTER
 ## -description
 
 
-The D3DKMT_CLOSEADAPTER structure specifies the graphics adapter to close.
+The D3DKMT_CLOSEADAPTER structure specifies the adapter to close.
 
 
 ## -struct-fields
@@ -56,17 +56,10 @@ The D3DKMT_CLOSEADAPTER structure specifies the graphics adapter to close.
 
 
 ### -field hAdapter
+*\_In\_* *D3DKMT\_HANDLE* *hAdapter*
 
-[in] A handle to the graphics adapter to close.
-
+A handle to the graphics adapter to close.
 
 ## -see-also
-
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546787">D3DKMTCloseAdapter</a>
- 
-
- 
-
+- [D3DKMTCloseAdapter](nf-d3dkmthk-d3dkmtcloseadapter.md)
+- [PFND3DKMT_CLOSEADAPTER](nc-d3dkmthk-pfnd3dkmt_closeadapter.md)

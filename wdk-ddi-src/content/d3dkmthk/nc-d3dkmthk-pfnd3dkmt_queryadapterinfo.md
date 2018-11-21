@@ -40,8 +40,7 @@ ms.custom: RS5
 # PFND3DKMT_QUERYADAPTERINFO callback function
 
 ## -description
-
-The PFND3DKMT_QUERYADAPTERINFO callback function retrieves graphics adapter information.
+The PFND3DKMT_QUERYADAPTERINFO callback function retrieves various adapter information from an adapter handle.
 
 ## -prototype
 
@@ -63,17 +62,24 @@ NTSTATUS Pfnd3dkmtQueryadapterinfo
 ## -parameters
 
 ### -param * 
+*\_In\_* *[D3DKMT_QUERYADAPTERINFO](ns-d3dkmthk-_d3dkmt_queryadapterinfo.md)* * *Arg1*
 
-Pointer to a [D3DKMT_QUERYADAPTERINFO](ns-d3dkmthk-_d3dkmt_queryadapterinfo.md) structure.
+See documentation of structure type for more details.
 
 ## -returns
-
 Returns NTSTATUS.
 
+Return Code | Description
+--- | ---
+**STATUS_SUCCESS** | Adapter information was successfully retrieved.
+**STATUS_DEVICE_REMOVED** | The adapter was stopped.
+**STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect.
+**STATUS_NO_MEMORY** | Not enough memory could be allocated to satisfy the operation.
+
+This function might also return other NTSTATUS values.
 
 ## -remarks
 
-
-
-
 ## -see-also
+- [D3DKMT_QUERYADAPTERINFO](ns-d3dkmthk-_d3dkmt_queryadapterinfo.md)
+- [D3DKMTQueryAdapterInfo](nf-d3dkmthk-d3dkmtqueryadapterinfo.md)

@@ -38,18 +38,28 @@ ms.custom: RS5
 
 ## -description
 
-Supplies information for enumerating all graphics adapters on the system.
+Supplies information about adapters on the system.
 
 ## -struct-fields
 
 ### -field NumAdapters
+*\_Inout\_* *ULONG NumAdapters*
 
-The number of graphics adapters.
+The number of adapters.
+
+On input, NumAdapters specifies how many adapters can be returned in the empty pAdapters array.
+After a successful return when pAdapters is non-null, NumAdapters contains how many adapters were returned in the pAdapters array.
+After a failed return when pAdapters is non-null, NumAdapters is undefined.
+After a successful return when pAdapters is null, NumAdapters contains the maximum supported adapter count.
 
 ### -field pAdapters
+*\_Out\_opt\_* *[D3DKMT_ADAPTERINFO](ns-d3dkmthk-_d3dkmt_adapterinfo.md)* * *pAdapters*
  
-An array of configuration information for each adapter.
+An optional array to receive information for each adapter.
 
 ## -remarks
 
 ## -see-also
+- [D3DKMT_ADAPTERINFO](ns-d3dkmthk-_d3dkmt_adapterinfo.md)
+- [D3DKMTEnumAdapters2](nf-d3dkmthk-d3dkmtenumadapters2.md)
+- [PFND3DKMT_ENUMADAPTERS2](nc-d3dkmthk-pfnd3dkmt_enumadapters2.md)
