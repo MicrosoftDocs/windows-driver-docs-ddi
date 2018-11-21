@@ -27,6 +27,7 @@ api_name:
 -	_USBC_PD_POWER_DATA_OBJECT_TYPE
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _USBC_PD_POWER_DATA_OBJECT_TYPE enumeration

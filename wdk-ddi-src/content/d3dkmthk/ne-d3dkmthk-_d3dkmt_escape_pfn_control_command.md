@@ -28,6 +28,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _D3DKMT_ESCAPE_PFN_CONTROL_COMMAND enumeration

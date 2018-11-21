@@ -32,6 +32,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0053 structure

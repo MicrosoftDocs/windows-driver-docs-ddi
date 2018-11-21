@@ -35,6 +35,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_ADD_PIPELINE_STATE_TO_LIBRARY_0010 callback function

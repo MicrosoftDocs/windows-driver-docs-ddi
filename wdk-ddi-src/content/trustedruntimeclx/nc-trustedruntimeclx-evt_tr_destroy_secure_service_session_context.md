@@ -34,6 +34,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # EVT_TR_DESTROY_SECURE_SERVICE_SESSION_CONTEXT callback function

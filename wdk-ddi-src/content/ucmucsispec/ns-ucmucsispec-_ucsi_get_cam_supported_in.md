@@ -31,6 +31,7 @@ api_name:
 -	_UCSI_GET_CAM_SUPPORTED_IN
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCSI_GET_CAM_SUPPORTED_IN structure

@@ -34,6 +34,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # EVT_SENSOR_DRIVER_START_HISTORY_RETRIEVAL callback function

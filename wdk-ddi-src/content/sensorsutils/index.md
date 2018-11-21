@@ -11,6 +11,7 @@ ms.topic: portal
 product:
 -	Windows
 tech.root: sensors
+ms.custom: RS5
 ---
 
 # Sensorsutils.h header

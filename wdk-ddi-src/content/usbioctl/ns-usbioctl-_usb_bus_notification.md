@@ -30,6 +30,7 @@ api_name:
 -	_USB_BUS_NOTIFICATION
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _USB_BUS_NOTIFICATION structure

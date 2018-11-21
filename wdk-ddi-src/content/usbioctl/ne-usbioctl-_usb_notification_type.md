@@ -27,6 +27,7 @@ api_name:
 -	_USB_NOTIFICATION_TYPE
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _USB_NOTIFICATION_TYPE enumeration

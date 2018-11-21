@@ -9,6 +9,7 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # Dbgmodel.h header

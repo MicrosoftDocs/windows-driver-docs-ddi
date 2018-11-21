@@ -39,6 +39,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES
+ms.custom: RS5
 ---
 
 # tagWPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES enumeration

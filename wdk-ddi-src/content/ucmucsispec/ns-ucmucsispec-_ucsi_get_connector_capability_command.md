@@ -31,6 +31,7 @@ api_name:
 -	_UCSI_GET_CONNECTOR_CAPABILITY_COMMAND
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCSI_GET_CONNECTOR_CAPABILITY_COMMAND structure

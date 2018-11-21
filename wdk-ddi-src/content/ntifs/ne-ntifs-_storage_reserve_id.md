@@ -27,6 +27,7 @@ api_name:
 -	_STORAGE_RESERVE_ID
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _STORAGE_RESERVE_ID enumeration

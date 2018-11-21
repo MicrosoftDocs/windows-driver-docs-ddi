@@ -35,6 +35,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # EVT_PACKET_QUEUE_START callback function

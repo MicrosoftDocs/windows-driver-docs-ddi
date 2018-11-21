@@ -37,6 +37,7 @@ targetos: Windows
 
 
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostSymbol2::EnumerateChildrenEx

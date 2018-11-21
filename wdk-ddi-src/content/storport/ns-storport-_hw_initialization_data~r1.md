@@ -31,6 +31,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _HW_INITIALIZATION_DATA structure

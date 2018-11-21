@@ -31,6 +31,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _EFI_SET_VARIABLE_OUT structure

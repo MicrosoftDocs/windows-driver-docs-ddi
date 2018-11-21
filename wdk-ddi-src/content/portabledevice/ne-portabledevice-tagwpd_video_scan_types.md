@@ -39,6 +39,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: WPD_VIDEO_SCAN_TYPES
+ms.custom: RS5
 ---
 
 # tagWPD_VIDEO_SCAN_TYPES enumeration

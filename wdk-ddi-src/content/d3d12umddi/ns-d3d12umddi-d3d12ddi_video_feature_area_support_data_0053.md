@@ -32,6 +32,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDI_VIDEO_FEATURE_AREA_SUPPORT_DATA_0053 structure

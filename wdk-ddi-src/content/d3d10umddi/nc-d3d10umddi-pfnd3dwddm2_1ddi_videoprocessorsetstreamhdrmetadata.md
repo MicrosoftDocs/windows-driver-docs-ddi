@@ -35,6 +35,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3DWDDM2_1DDI_VIDEOPROCESSORSETSTREAMHDRMETADATA callback function

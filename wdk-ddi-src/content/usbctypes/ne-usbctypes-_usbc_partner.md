@@ -27,6 +27,7 @@ api_name:
 -	_USBC_PARTNER
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _USBC_PARTNER enumeration

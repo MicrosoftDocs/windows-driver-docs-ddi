@@ -35,6 +35,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # FN_VMB_CHANNEL_INIT_SET_STATE_CHANGE_CALLBACKS callback function

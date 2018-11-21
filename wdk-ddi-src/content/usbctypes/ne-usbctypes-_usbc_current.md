@@ -27,6 +27,7 @@ api_name:
 -	_USBC_CURRENT
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _USBC_CURRENT enumeration

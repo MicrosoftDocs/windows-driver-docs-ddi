@@ -37,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # GET_OUTPUT_DUPL_DEBUG_INFO_FROM_SNAPSHOT macro

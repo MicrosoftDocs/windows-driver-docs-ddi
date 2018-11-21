@@ -38,6 +38,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # MBB_DEVICE_MBIM_PARAMETERS_INIT function

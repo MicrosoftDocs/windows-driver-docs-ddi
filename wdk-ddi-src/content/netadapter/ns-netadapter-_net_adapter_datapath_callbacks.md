@@ -32,6 +32,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _NET_ADAPTER_DATAPATH_CALLBACKS structure

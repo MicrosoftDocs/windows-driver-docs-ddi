@@ -31,6 +31,7 @@ api_name:
 -	USBPM_CONNECTOR_PROPERTIES
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _USBPM_CONNECTOR_PROPERTIES structure

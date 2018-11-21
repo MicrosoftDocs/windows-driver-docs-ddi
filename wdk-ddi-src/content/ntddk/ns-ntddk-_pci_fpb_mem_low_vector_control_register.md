@@ -31,6 +31,7 @@ api_name:
 -	_PCI_FPB_MEM_LOW_VECTOR_CONTROL_REGISTER
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _PCI_FPB_MEM_LOW_VECTOR_CONTROL_REGISTER structure

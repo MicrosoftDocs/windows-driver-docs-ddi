@@ -34,6 +34,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # EVT_TR_RELEASE_HARDWARE_SECURE_ENVIRONMENT callback function

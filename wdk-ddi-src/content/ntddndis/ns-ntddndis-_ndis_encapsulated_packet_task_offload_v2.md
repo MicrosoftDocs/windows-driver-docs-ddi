@@ -32,6 +32,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2 structure

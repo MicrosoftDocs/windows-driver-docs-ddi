@@ -28,6 +28,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _D3DKMT_DEFRAG_ESCAPE_OPERATION enumeration

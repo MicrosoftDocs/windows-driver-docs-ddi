@@ -34,6 +34,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_SET_ROOT_SIGNATURE callback function

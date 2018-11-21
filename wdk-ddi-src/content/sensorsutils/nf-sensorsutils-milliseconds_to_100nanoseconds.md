@@ -38,6 +38,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # MILLISECONDS_TO_100NANOSECONDS macro

@@ -37,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # D3DDDI_VERSION32_FROM_VERSION64 macro

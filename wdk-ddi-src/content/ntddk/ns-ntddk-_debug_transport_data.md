@@ -30,6 +30,7 @@ api_name:
 -	_DEBUG_TRANSPORT_DATA
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _DEBUG_TRANSPORT_DATA structure

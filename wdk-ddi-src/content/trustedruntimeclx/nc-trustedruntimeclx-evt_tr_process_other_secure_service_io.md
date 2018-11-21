@@ -34,6 +34,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO callback function

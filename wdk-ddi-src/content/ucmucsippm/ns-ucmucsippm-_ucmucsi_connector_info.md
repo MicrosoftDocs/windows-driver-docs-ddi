@@ -31,6 +31,7 @@ api_name:
 -	_UCMUCSI_CONNECTOR_INFO
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCMUCSI_CONNECTOR_INFO structure

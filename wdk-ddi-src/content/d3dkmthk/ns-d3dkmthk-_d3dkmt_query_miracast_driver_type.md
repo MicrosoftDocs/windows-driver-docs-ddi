@@ -31,6 +31,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _D3DKMT_QUERY_MIRACAST_DRIVER_TYPE structure

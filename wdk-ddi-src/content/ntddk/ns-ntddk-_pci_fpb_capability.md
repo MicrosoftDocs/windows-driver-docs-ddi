@@ -31,6 +31,7 @@ api_name:
 -	_PCI_FPB_CAPABILITY
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _PCI_FPB_CAPABILITY structure

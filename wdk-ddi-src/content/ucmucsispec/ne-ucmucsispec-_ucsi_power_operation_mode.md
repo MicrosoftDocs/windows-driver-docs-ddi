@@ -28,6 +28,7 @@ api_name:
 -	_UCSI_POWER_OPERATION_MODE
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCSI_POWER_OPERATION_MODE enumeration

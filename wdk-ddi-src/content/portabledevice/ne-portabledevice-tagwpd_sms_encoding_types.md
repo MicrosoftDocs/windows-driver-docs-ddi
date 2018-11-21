@@ -39,6 +39,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: WPD_SMS_ENCODING_TYPES
+ms.custom: RS5
 ---
 
 # tagWPD_SMS_ENCODING_TYPES enumeration

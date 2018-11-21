@@ -27,6 +27,7 @@ api_name:
 -	_UCX_USBDEVICE_RECOVERY_ACTION
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCX_USBDEVICE_RECOVERY_ACTION enumeration

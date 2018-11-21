@@ -28,6 +28,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # D3DKMT_MULTIPLANE_OVERLAY_BLEND enumeration

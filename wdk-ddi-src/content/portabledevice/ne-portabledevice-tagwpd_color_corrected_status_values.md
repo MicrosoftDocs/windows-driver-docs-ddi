@@ -39,6 +39,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: WPD_COLOR_CORRECTED_STATUS_VALUES
+ms.custom: RS5
 ---
 
 # tagWPD_COLOR_CORRECTED_STATUS_VALUES enumeration

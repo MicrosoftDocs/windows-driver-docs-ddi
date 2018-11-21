@@ -35,6 +35,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # PROC_TOPOLOGY_NODE_CACHE_TYPE_UNIFIED macro

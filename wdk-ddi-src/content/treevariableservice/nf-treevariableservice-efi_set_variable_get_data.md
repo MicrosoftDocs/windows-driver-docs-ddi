@@ -37,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # EFI_SET_VARIABLE_GET_DATA macro

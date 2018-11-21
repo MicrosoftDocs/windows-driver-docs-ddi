@@ -29,6 +29,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: audio
+ms.custom: RS5
 ---
 
 # IOCTL_SBAUD_GET_SIDETONE_STATUS_UPDATE IOCTL

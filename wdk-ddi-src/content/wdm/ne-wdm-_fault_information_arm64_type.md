@@ -27,6 +27,7 @@ api_name:
 -	_FAULT_INFORMATION_ARM64_TYPE
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _FAULT_INFORMATION_ARM64_TYPE enumeration
