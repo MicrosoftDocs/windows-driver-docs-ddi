@@ -4,7 +4,7 @@ title: _KMTQUERYADAPTERINFOTYPE
 author: windows-driver-content
 description: The available types of display adapters in the registry.
 ms.assetid: bb3888be-1948-4b72-b3f4-c04ff33f2573
-ms.date: 10/19/2018
+ms.date: 11/21/2018
 ms.topic: enum
 ms.keywords: _KMTQUERYADAPTERINFOTYPE, KMTQUERYADAPTERINFOTYPE,
 req.header: d3dkmthk.h
@@ -92,42 +92,42 @@ Supported starting with  Windows 7.
 ### -field KMTQAITYPE_ADAPTERTYPE
 <b>pPrivateDriverData</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439472">D3DKMT_ADAPTERTYPE</a> structure that specifies the  graphics adapter type.
 
-Supported starting with  Windows 8.
+Supported starting with  Windows 8.
 
 ### -field KMTQAITYPE_OUTPUTDUPLCONTEXTSCOUNT
 <b>pPrivateDriverData</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406505">D3DKMT_OUTPUTDUPLCONTEXTSCOUNT</a> structure that specifies the  number of current <a href="https://msdn.microsoft.com/523FBFAD-5D78-4EE3-A3B7-8FD5BA39DC46">Desktop Duplication API</a> (DDA) clients that are attached to a given video present network (VidPN).
 
-Supported starting with  Windows 8.
+Supported starting with  Windows 8.
 
 ### -field KMTQAITYPE_WDDM_1_2_CAPS
 <b>pPrivateDriverData</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406678">D3DKMT_WDDM_1_2_CAPS</a> structure that specifies the  WDDM 1.2 and later capabilities of the graphics adapter and display miniport driver.
 
-Supported starting with  Windows 8.
+Supported starting with  Windows 8.
 
 ### -field KMTQAITYPE_UMD_DRIVER_VERSION
 <b>pPrivateDriverData</b> points to a  <a href="https://msdn.microsoft.com/library/windows/hardware/hh406598">D3DKMT_UMD_DRIVER_VERSION</a> structure that specifies the  user-mode driver version.
 
-Supported starting with  Windows 8.
+Supported starting with  Windows 8.
 
 ### -field KMTQAITYPE_DIRECTFLIP_SUPPORT
 <b>pPrivateDriverData</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406459">D3DKMT_DIRECTFLIP_SUPPORT</a> structure that specifies whether the user-mode driver supports Direct Flip operations.
 
-Supported starting with  Windows 8.
+Supported starting with  Windows 8.
 
 ### -field KMTQAITYPE_MULTIPLANEOVERLAY_SUPPORT
 Reserved for future use.
 
-Supported starting with  Windows 8.1.
+Supported starting with  Windows 8.1.
 
 ### -field KMTQAITYPE_DLIST_DRIVER_NAME
-Supported starting with  Windows 8.1.
+Supported starting with  Windows 8.1.
 
 ### -field KMTQAITYPE_WDDM_1_3_CAPS
 **pPrivateDriverData** points to a [D3DKMT_WDDM_1_3_CAPS](../d3dkmdt/ns-d3dkmdt-_d3dkmt_wddm_1_3_caps.md) structure.
 
 Returns information about supported WDDM 1.3 caps.
 
-Supported starting with  Windows 8.1.
+Supported starting with  Windows 8.1.
 
 ### -field KMTQAITYPE_MULTIPLANEOVERLAY_HUD_SUPPORT
 ### -field KMTQAITYPE_WDDM_2_0_CAPS
