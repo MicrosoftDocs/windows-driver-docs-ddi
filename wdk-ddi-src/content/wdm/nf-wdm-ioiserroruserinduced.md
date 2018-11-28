@@ -60,6 +60,9 @@ The <b>IoIsErrorUserInduced</b> routine determines whether an I/O error encounte
 Specifies the current NTSTATUS value, usually within the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff544079">DpcForIsr</a> routine.
 
 
+## -returns
+**IoIsErrorUserInduced** returns TRUE if an I/O request failed because of a user-induced error.
+
 ## -remarks
 
 

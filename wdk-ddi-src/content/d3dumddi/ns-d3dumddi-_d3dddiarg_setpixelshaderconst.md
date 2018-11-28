@@ -87,18 +87,10 @@ Boolean values for the D3DDDIARG_SETPIXELSHADERCONSTB structure in the <a href="
 </ul>
 The preceding structures are identical, as the following definitions show:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef D3DDDIARG_SETPIXELSHADERCONST D3DDDIARG_SETPIXELSHADERCONSTI;
-typedef D3DDDIARG_SETPIXELSHADERCONST D3DDDIARG_SETPIXELSHADERCONSTB;</pre>
-</td>
-</tr>
-</table></span></div>
-
+```cpp
+typedef D3DDDIARG_SETPIXELSHADERCONST D3DDDIARG_SETPIXELSHADERCONSTI;
+typedef D3DDDIARG_SETPIXELSHADERCONST D3DDDIARG_SETPIXELSHADERCONSTB;
+```
 
 
 ## -see-also

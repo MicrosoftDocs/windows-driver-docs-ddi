@@ -32,6 +32,7 @@ api_name:
 product: 
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # CVEC3D class
@@ -42,116 +43,11 @@ Math library for a 3D vector.
 
 
 ## -inheritance
-CVEC3D inherits from VEC3D. 
+
+CVEC3D inherits from VEC3D.
+
 ## -members
 
-<p>CVEC3D has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>CVEC3D</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>~CVEC3D</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>CVEC3D</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>CVEC3D</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>operator+=</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>operator-=</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>operator*=</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>operator/=</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>operator-</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>operator+</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>operator-</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>operator*</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>operator/</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>operator==</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>operator!=</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>operator=</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Clear</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>CrossProduct</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>DotProduct</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Magnitude</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Normalize</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AngularDiff</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>RotateAngleByAxis</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>HasNAN</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>LowPassFilter</td>
-		<td>TBD</td>
-	</tr>
-</table>
 
 ## -remarks
 

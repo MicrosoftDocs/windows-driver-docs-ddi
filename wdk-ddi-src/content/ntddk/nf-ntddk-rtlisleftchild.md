@@ -59,6 +59,8 @@ The <b>RtlIsLeftChild</b> routine determines whether a given splay link is the l
 
 Pointer to the node. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>.
 
+## -returns
+**RtlIsLeftChild** returns TRUE if the given node at Links is the left child of its parent node, FALSE otherwise. 
 
 ## -remarks
 

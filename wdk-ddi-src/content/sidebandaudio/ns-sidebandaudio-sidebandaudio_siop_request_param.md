@@ -31,6 +31,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: audio
+ms.custom: RS5
 ---
 
 # SIDEBANDAUDIO_SIOP_REQUEST_PARAM structure

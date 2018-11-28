@@ -80,36 +80,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>CreateExtensionDevice</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The extension device is successfully created.
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The extension device is successfully created. | 
+| **E_OUTOFMEMORY** | [CreateExtensionDevice](https://msdn.microsoft.com/7e6dbb70-2e74-4ddb-a504-2c8145af99d9)  could not allocate the required memory for it to complete. | 
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/7e6dbb70-2e74-4ddb-a504-2c8145af99d9">CreateExtensionDevice</a> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
 
 
 

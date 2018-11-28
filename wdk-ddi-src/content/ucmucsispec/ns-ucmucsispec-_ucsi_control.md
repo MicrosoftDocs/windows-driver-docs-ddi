@@ -31,6 +31,7 @@ api_name:
 -	_UCSI_CONTROL
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCSI_CONTROL structure

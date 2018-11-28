@@ -28,6 +28,7 @@ api_name:
 -	_UCSI_CONNECTOR_PARTNER_FLAGS
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCSI_CONNECTOR_PARTNER_FLAGS enumeration

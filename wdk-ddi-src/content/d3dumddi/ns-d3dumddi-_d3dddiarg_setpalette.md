@@ -64,43 +64,11 @@ The D3DDDIARG_SETPALETTE structure describes how to associate a palette with a t
 
 [in] A valid bitwise OR of the following flags that specify the attributes of the palette.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DDDISETPALETTE_256 (0x00000001)
-
-</td>
-<td>
-The palette has 256 entries.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDDISETPALETTE_ALLOW256 (0x00000200)
-
-</td>
-<td>
-The palette can be fully updated.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDDISETPALETTE_ALPHA (0x00002000)
-
-</td>
-<td>
-The palette's alpha data channel is valid and should be used.
-
-</td>
-</tr>
-</table>
- 
+| **Flag** | **Meaning** | 
+|:--|:--|
+| D3DDDISETPALETTE_256 (0x00000001) | The palette has 256 entries. | 
+| D3DDDISETPALETTE_ALLOW256 (0x00000200) | The palette can be fully updated. | 
+| D3DDDISETPALETTE_ALPHA (0x00002000) | The palette's alpha data channel is valid and should be used. | 
 
 
 ### -field hResource

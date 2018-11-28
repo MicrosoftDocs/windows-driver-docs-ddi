@@ -31,6 +31,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE2 structure

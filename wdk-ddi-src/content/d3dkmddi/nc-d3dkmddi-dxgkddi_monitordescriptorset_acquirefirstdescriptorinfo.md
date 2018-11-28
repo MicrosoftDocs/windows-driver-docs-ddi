@@ -71,56 +71,13 @@ The <b>pfnAcquireFirstDescriptorInfo</b> function returns the first descriptor i
 
 The <b>pfnAcquireFirstDescriptorInfo</b> function returns one of the following values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function successfully returned the first descriptor in the set.
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function successfully returned the first descriptor in the set.|
+|STATUS_GRAPHICS_DATASET_IS_EMPTY|The function succeeded, but there were no descriptors in the set.|
+|STATUS_INVALID_PARAMETER|An invalid parameter was supplied.|
+|STATUS_GRAPHICS_INVALID_MONITOR_DESCRIPTORSET|The handle supplied in *hMonitorDescriptorSet* was invalid.|
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_DATASET_IS_EMPTY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded, but there were no descriptors in the set.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-An invalid parameter was supplied.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_MONITOR_DESCRIPTORSET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hMonitorDescriptorSet</i> was invalid.
-
-</td>
-</tr>
-</table>
  
 
 

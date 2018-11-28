@@ -66,80 +66,28 @@ Windows XP and later send this request to the video miniport driver to notify it
 
 The VRP <b>InputBuffer</b> contains a pointer to a ULONG, which can be one of the two following values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-0
-
-</td>
-<td>
-The device is about to be detached.
-
-</td>
-</tr>
-<tr>
-<td>
-1
-
-</td>
-<td>
-The device is about to be attached.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|0|The device is about to be detached.|
+|1|The device is about to be attached.|
  
 
-
 ### -input-buffer-length
-
-
-
-
-
-
-
 
 ### -output-buffer
 
 None
 
-
 ### -output-buffer-length
-
-
-
-
-
-
 
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
 The miniport driver does not set the <b>Information</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a> structure.
-
 
 ## -see-also
 

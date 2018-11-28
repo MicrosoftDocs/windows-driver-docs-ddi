@@ -39,6 +39,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: WPD_DEVICE_TRANSPORTS
+ms.custom: RS5
 ---
 
 # tagWPD_DEVICE_TRANSPORTS enumeration

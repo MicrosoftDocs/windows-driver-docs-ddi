@@ -125,18 +125,11 @@ The user-mode display driver can use the sizes of the <a href="https://msdn.micr
 
 In a call to this function, as many available packets as can fit will be placed sequentially in the supplied buffer. This code snippet shows how to calculate the size of each packet:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>ChunkSize == FIELD_OFFSET
+```cpp
+ChunkSize == FIELD_OFFSET
     (D3DKMT_MIRACAST_CHUNK_DATA, PrivateDriverData) \
-    + Chunk-&gt;ChunkData.PrivateDriverDataSize;</pre>
-</td>
-</tr>
-</table></span></div>
+    + Chunk-&gt;ChunkData.PrivateDriverDataSize;
+```
 
 #### Thread Safety
 

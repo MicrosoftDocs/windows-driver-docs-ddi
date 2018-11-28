@@ -31,6 +31,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _INLINE_CRYPTO_PROGRAM_KEY_IN structure

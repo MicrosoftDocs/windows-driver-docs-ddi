@@ -52,71 +52,17 @@ The VIDEO_PUBLIC_ACCESS_RANGES structure contains information about video resour
 
 ## -struct-fields
 
-
-
-
 ### -field InIoSpace
 
 Indicates the location of the range. This parameter can be one of the following values, or certain bitwise combinations of these values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_DENSE
-
-</td>
-<td>
-Obsolete.
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_IO
-
-</td>
-<td>
-The indicated address ranges are in system I/O space rather than in memory space.
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_MEMORY
-
-</td>
-<td>
-The indicated address ranges are in memory space rather than in system I/O space. 
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_P6CACHE
-
-</td>
-<td>
-The processor aggregates a sequence of write operations and sends them to a given cache line. The processor then flushes the cache. This flag is meaningful only when VIDEO_MEMORY_SPACE_IO is not set.
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_USER_MODE
-
-</td>
-<td>
-Indicates that the address range specified should be mapped into user mode rather than kernel mode. This flag is meaningful only when VIDEO_MEMORY_SPACE_IO is not set.
-
-</td>
-</tr>
-</table>
- 
-
+|Value|Meaning|
+|--- |--- |
+|VIDEO_MEMORY_SPACE_DENSE|Obsolete.|
+|VIDEO_MEMORY_SPACE_IO|The indicated address ranges are in system I/O space rather than in memory space.|
+|VIDEO_MEMORY_SPACE_MEMORY|The indicated address ranges are in memory space rather than in system I/O space.|
+|VIDEO_MEMORY_SPACE_P6CACHE|The processor aggregates a sequence of write operations and sends them to a given cache line. The processor then flushes the cache. This flag is meaningful only when VIDEO_MEMORY_SPACE_IO is not set.|
+|VIDEO_MEMORY_SPACE_USER_MODE|Indicates that the address range specified should be mapped into user mode rather than kernel mode. This flag is meaningful only when VIDEO_MEMORY_SPACE_IO is not set.|
 
 ### -field MappedInIoSpace
 

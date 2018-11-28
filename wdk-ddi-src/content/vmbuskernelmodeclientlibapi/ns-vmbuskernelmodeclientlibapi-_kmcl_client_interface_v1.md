@@ -32,6 +32,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _KMCL_CLIENT_INTERFACE_V1 structure

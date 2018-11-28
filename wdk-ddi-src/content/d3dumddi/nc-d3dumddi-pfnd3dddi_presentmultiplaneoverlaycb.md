@@ -73,48 +73,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh78
 
 Returns one of these values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-Content was successfully copied.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-The function could not complete because of insufficient memory.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
-
+|Return code|Description|
+|--- |--- |
+|S_OK|Content was successfully copied.|
+|E_OUTOFMEMORY|The function could not complete because of insufficient memory.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
 
 
 

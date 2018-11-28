@@ -98,13 +98,8 @@ If the <b>DeviceSpecific</b> bit-field flag is set in the <b>Flags</b> member of
 
 The following code example shows an implementation of <a href="https://msdn.microsoft.com/551154d7-950d-40e5-810b-8d803c1731ca">DxgkDdiOpenAllocation</a> in which <b>DxgkCbGetHandleData</b> is called.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 DxgkDdiOpenAllocation(
     VOID    *InterfaceContext,
     CONST DXGKARG_OPENALLOCATION    *pDDIDAData)
@@ -129,10 +124,8 @@ DxgkDdiOpenAllocation(
         pAllocInfo-&gt;vidMemData.hAllocation = pDDIDAData-&gt;pOpenAllocation[dwIdx].hAllocation;
     }
     return STATUS_SUCCESS;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

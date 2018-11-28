@@ -46,17 +46,11 @@ req.typenames:
 
 # D3DKMTOpenSyncObjectFromNtHandle function
 
-
 ## -description
-
 
 Maps an NT process handle to a graphics processing unit (GPU) synchronization object.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -64,53 +58,18 @@ Maps an NT process handle to a graphics processing unit (GPU) synchronization ob
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh780268">D3DKMT_OPENSYNCOBJECTFROMNTHANDLE</a> structure that describes information that is required to perform the mapping.
 
-
 ## -returns
-
-
 
 Returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The mapping was performed successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER </b></dt>
-</dl>
-</td>
-<td width="60%">
-
-         Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The mapping was performed successfully.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
 
 This function might also return other NTSTATUS values.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh780268">D3DKMT_OPENSYNCOBJECTFROMNTHANDLE</a>
  

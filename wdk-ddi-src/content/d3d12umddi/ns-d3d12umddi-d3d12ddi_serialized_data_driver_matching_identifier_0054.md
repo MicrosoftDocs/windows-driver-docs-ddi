@@ -32,6 +32,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDI_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER_0054 structure

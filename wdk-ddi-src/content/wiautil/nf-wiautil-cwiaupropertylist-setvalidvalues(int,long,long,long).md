@@ -39,6 +39,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG)

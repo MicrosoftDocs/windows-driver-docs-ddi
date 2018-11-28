@@ -64,32 +64,10 @@ The D3D10_DDI_DEPTH_STENCIL_DESC structure describes a depth stencil state.
 
 [in] A bitwise value that indicates the write properties for a depth stencil state. This member is a valid bitwise OR of the following values from the D3D10_DDI_DEPTH_WRITE_MASK enumeration.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3D10_DDI_DEPTH_WRITE_MASK_ZERO (0)
-
-</td>
-<td>
-No properties
-
-</td>
-</tr>
-<tr>
-<td>
-D3D10_DDI_DEPTH_WRITE_MASK_ALL (1)
-
-</td>
-<td>
-All properties
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|D3D10_DDI_DEPTH_WRITE_MASK_ZERO (0)|No properties|
+|D3D10_DDI_DEPTH_WRITE_MASK_ALL (1)|All properties|
  
 
 

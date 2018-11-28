@@ -69,6 +69,9 @@ Datatype: void*. A pointer to a caller-allocated block of memory that is compare
 
 Datatype: size_t. Specifies the number of bytes to be compared.
 
+## -returns
+**RtlEqualMemory** returns TRUE if Source1 and Source2 are equivalent; otherwise, it returns FALSE. 
+
 
 ## -remarks
 

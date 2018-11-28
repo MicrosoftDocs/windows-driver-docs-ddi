@@ -111,13 +111,8 @@ Before it returns, <b>DxgkCbEvalAcpiMethod</b> resets the <b>Signature</b> membe
 
 The following code example shows how to evaluate an ACPI method.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>if (HwDeviceExtension-&gt;AcpiChildren != NULL) {
+```cpp
+if (HwDeviceExtension-&gt;AcpiChildren != NULL) {
     ULONG ChildIndex;
     PACPI_METHOD_ARGUMENT AcpiChildrenArray = 
  &amp;(((PACPI_EVAL_OUTPUT_BUFFER)HwDeviceExtension-&gt;AcpiChildren) 
@@ -186,10 +181,8 @@ The following code example shows how to evaluate an ACPI method.
   }
 
  Status = InvalidateVidPnForHotKey(HwDeviceExtension, pDesiredStatus);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

@@ -69,43 +69,11 @@ Specifies the number of pages that the video port driver should reserve.
 
 Specifies the type of caching that the system should use. This parameter can be set to one of the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-<b>VpNonCached</b>
-
-</td>
-<td>
-The system should not cache the range of addresses.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>VpWriteCombined</b>
-
-</td>
-<td>
-The system should use write-combined (WC) caching. For information about WC caching, see the <a href="https://msdn.microsoft.com/library/windows/hardware/dn642116">Write-Combining Memory in Video Miniport Drivers</a> website article.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>VpCached</b>
-
-</td>
-<td>
-The system should use ordinary caching.
-
-</td>
-</tr>
-</table>
- 
+| **Value** | **Meaning** | 
+|:--|:--|
+| **VpNonCached** | The system should not cache the range of addresses. | 
+| **VpWriteCombined** | The system should use write-combined (WC) caching. For information about WC caching, see the [Write-Combining Memory in Video Miniport Drivers](https://msdn.microsoft.com/library/windows/hardware/dn642116)  website article. | 
+| **VpCached** | The system should use ordinary caching. | 
 
 
 ### -param *PhysicalReserveContext [out]

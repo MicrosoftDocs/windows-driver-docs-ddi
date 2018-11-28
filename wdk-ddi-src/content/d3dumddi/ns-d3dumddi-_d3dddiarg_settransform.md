@@ -59,43 +59,12 @@ The D3DDDIARG_SETTRANSFORM structure describes how to set up a transform.
 
 [in] A D3DTRANSFORMSTATETYPE-typed value that indicates the type of transform to set up. This member can be one of the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DTRANSFORMSTATE_PROJECTION
+| **Value** | **Meaning** | 
+|:--|:--|
+| D3DTRANSFORMSTATE_PROJECTION | Projection transformation | 
+| D3DTRANSFORMSTATE_VIEW | View transformation | 
+| D3DTRANSFORMSTATE_WORLD | World transformation | 
 
-</td>
-<td>
-Projection transformation
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTRANSFORMSTATE_VIEW
-
-</td>
-<td>
-View transformation
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTRANSFORMSTATE_WORLD
-
-</td>
-<td>
-World transformation
-
-</td>
-</tr>
-</table>
- 
 
 
 ### -field Matrix

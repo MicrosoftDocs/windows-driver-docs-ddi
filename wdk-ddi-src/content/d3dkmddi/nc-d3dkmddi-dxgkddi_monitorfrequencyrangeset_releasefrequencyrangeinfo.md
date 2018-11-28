@@ -71,47 +71,11 @@ The <b>pfnReleaseFrequencyRangeInfo</b> function releases a <a href="https://msd
 
 The <b>pfnAcquireNextFrequencyRangeInfo</b> function returns one of the following values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_MONITOR_FREQUENCY_RANGE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The frequency range descriptor supplied in <i>pMonitorFrequencyRangeInfo</i> was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_MONITOR_FREQUENCYRANGESET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hMonitorFrequencyRangeSet</i> was invalid.
-
-</td>
-</tr>
-</table>
- 
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_INVALID_MONITOR_FREQUENCY_RANGE|The frequency range descriptor supplied in pMonitorFrequencyRangeInfo was invalid.|
+|STATUS_INVALID_MONITOR_FREQUENCYRANGESET|The handle supplied in hMonitorFrequencyRangeSet was invalid.|
 
 
 

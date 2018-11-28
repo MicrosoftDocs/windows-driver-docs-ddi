@@ -30,6 +30,7 @@ api_name:
 -	_USBC_PD_ALTERNATE_MODE
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _USBC_PD_ALTERNATE_MODE structure

@@ -90,13 +90,8 @@ Callers of <b>DxgkCbNotifyInterrupt</b> run at interrupt level (that is, DIRQL, 
 
 The following code example shows software engine code that monitors a software queue and notifies the GPU scheduler about packet completion.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _SubmitParams {
+```cpp
+typedef struct _SubmitParams {
     HW_DEVICE_EXTENSION *pHwDeviceExtension;
     UINT                NodeOrdinal;
     UINT                FenceID;
@@ -136,10 +131,8 @@ BOOLEAN R200TEST_SWNode_SynchronizeVidSchNotifyInt(PVOID* params)
     }
 
     return TRUE;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

@@ -88,49 +88,11 @@ A handle to the video decoder output view that the driver should use when it cal
 
 <b>CreateVideoDecoderOutputView</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The video decoder output view was created successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_DEVICEREMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics adapter was removed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-        Memory was not available to complete the operation.
-
-</td>
-</tr>
-</table>
- 
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The video decoder output view was created successfully. | 
+| **D3DDDIERR_DEVICEREMOVED** | The graphics adapter was removed. | 
+| **E_OUTOFMEMORY** |     Memory was not available to complete the operation. | 
 
 
 ## -remarks

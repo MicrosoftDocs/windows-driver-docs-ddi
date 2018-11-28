@@ -31,6 +31,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _TREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT structure

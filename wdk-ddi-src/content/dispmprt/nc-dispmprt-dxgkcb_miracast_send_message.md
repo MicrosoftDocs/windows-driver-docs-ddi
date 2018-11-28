@@ -122,13 +122,8 @@ If the driver supplies the <a href="https://msdn.microsoft.com/2DD7D46A-2E2B-482
 <h3><a id="Example_calling_sequence"></a><a id="example_calling_sequence"></a><a id="EXAMPLE_CALLING_SEQUENCE"></a>Example calling sequence</h3>
 Here's example code that shows how to use this function:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _CALLBACK_CONTEXT
+```cpp
+typedef struct _CALLBACK_CONTEXT
 {
     UCHAR InputBuffer[INPUT_BUFFER_SIZE];
     UCHAR OutputBuffer[OUTPUT_BUFFER_SIZE];
@@ -174,11 +169,8 @@ DriverCallbackFunction(
           CallbackContext-&gt;OutputBuffer,
           &amp;DriverCallbackFunction,
           CallbackContex);
-</pre>
-</td>
-</tr>
-</table></span></div>
 
+```
 
 
 ## -see-also

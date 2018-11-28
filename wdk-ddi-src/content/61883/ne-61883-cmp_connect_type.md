@@ -1,5 +1,5 @@
 ---
-UID: NE:61883.CMP_CONNECT_TYPE
+UID: NE:61883.__unnamed_enum_3
 title: CMP_CONNECT_TYPE
 author: windows-driver-content
 description: This enumeration specifies a connection type.

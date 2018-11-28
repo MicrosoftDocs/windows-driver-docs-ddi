@@ -28,6 +28,7 @@ api_name:
 -	_USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT enumeration

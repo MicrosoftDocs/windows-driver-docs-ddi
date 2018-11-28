@@ -83,60 +83,12 @@ A handle to the cryptographic session that the driver should use when it calls b
 
 Returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The authenticated channel was created successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_DEVICEREMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics adapter was removed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_UNSUPPORTEDCRYPTO</b></dt>
-</dl>
-</td>
-<td width="60%">
-A cryptographic type was specified that is not supported by the decode profile.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-Memory was not available to complete the operation.
-
-</td>
-</tr>
-</table>
- 
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The authenticated channel was created successfully. | 
+| **D3DDDIERR_DEVICEREMOVED** | The graphics adapter was removed. | 
+| **D3DDDIERR_UNSUPPORTEDCRYPTO** | A cryptographic type was specified that is not supported by the decode profile. | 
+| **E_OUTOFMEMORY** | Memory was not available to complete the operation. | 
 
 
 ## -remarks

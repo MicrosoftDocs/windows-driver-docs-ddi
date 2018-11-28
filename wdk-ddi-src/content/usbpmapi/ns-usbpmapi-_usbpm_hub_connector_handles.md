@@ -31,6 +31,7 @@ api_name:
 -	_USBPM_HUB_CONNECTOR_HANDLES
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _USBPM_HUB_CONNECTOR_HANDLES structure

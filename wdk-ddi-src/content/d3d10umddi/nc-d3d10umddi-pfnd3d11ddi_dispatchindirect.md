@@ -67,20 +67,13 @@ A handle to the display device (graphics context).
 
 A handle to a buffer that contains three UINT values that hold the sizes, in thread groups, of the X, Y, and Z dimensions of the thread-group grid. The buffer contains the following tightly packed structure:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>struct DispatchArgs {
+```cpp
+struct DispatchArgs {
   UINT ThreadGroupCountX; 
   UINT ThreadGroupCountY;
   UINT ThreadGroupCountZ;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 ### -param Arg3
 

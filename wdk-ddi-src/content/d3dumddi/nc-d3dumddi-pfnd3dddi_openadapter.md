@@ -52,15 +52,11 @@ The <i>OpenAdapter</i> function creates a graphics adapter object that is refere
 
 ## -parameters
 
-
-
-
 ### -param *
 
 *pOpenData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543226">D3DDDIARG_OPENADAPTER</a> structure. On input, this structure contains information that the driver can use. On output, the driver specifies information that the Microsoft Direct3D runtime can use.
-
 
 ## -returns
 
@@ -68,38 +64,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <i>OpenAdapter</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics adapter object is successfully created.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>OpenAdapter</i> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The graphics adapter object is successfully created.|
+|E_OUTOFMEMORY|OpenAdapter could not allocate the required memory for it to complete.|
 
 ## -remarks
 

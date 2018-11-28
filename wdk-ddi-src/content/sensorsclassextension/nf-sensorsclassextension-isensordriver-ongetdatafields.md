@@ -82,36 +82,10 @@ Address of an IPortableDeviceValues pointer that receives the requested data.
 
 This method returns an HRESULT. Possible values include, but are not limited to, one of the following values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The method succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HRESULT_FROM_WIN32(ERROR_NO_DATA)</b></dt>
-</dl>
-</td>
-<td width="60%">
-The sensor has no data to report. Each of the data fields returned in the <i>ppDataValues</i> parameter is VT_EMPTY.
-
-</td>
-</tr>
-</table>
- 
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The method succeeded. | 
+| **HRESULT_FROM_WIN32(ERROR_NO_DATA)** | The sensor has no data to report. Each of the data fields returned in the ppDataValues parameter is VT_EMPTY. | 
 
 
 

@@ -38,6 +38,7 @@ targetos: Windows
 
 
 
+ms.custom: RS5
 ---
 
 # UCMUCSI_DEVICE_CONFIG_INIT function

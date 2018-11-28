@@ -71,47 +71,11 @@ The <i>DxgkDdiIsSupportedVidPn</i> function determines whether a specified VidPN
 
 <i>DxgkDdiIsSupportedVidPn</i> returns one of the following values
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The topology of the VidPN is valid. The <b>IsVidPnSupported</b> structure member is set to either <b>TRUE</b> or <b>FALSE</b>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN_TOPOLOGY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The topology of the VidPN implementation is invalid. The <b>IsVidPnSupported</b> structure member is set to <b>FALSE</b>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function failed because it was unable to allocate memory.
-
-</td>
-</tr>
-</table>
- 
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The topology of the VidPN is valid. The IsVidPnSupported structure member is set to either TRUE or FALSE.|
+|STATUS_GRAPHICS_INVALID_VIDPN_TOPOLOGY|The topology of the VidPN implementation is invalid. The IsVidPnSupported structure member is set to FALSE.|
+|STATUS_NO_MEMORY|The function failed because it was unable to allocate memory.|
 
 
 

@@ -30,6 +30,7 @@ api_name:
 -	_WAIT_CONTEXT_BLOCK
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _WAIT_CONTEXT_BLOCK structure

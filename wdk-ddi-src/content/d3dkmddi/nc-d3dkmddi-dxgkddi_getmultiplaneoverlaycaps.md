@@ -71,26 +71,9 @@ A pointer to a DXGKARG_GETMULTIPLANEOVERLAYCAPS structure that receives the driv
 
 DXGKDDI_GETMULTIPLANEOVERLAYCAPS returns the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-If the routine has been successfully completed.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|If the routine has been successfully completed.|
 
 
 ## -remarks

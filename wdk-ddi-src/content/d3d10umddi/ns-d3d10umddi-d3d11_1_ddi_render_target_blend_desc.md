@@ -112,62 +112,13 @@ This member is <b>TRUE</b> if the driver supports feature level 11.1 and later.
 
 [in] An 8-bit bitwise value that indicates the write properties for the enabled render target. Each bit must be set to one of the following values from the D3D10_DDI_COLOR_WRITE_ENABLE enumeration.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-<b>D3D10_DDI_COLOR_WRITE_ENABLE_RED</b> (1)
-
-</td>
-<td>
-Writes red
-
-</td>
-</tr>
-<tr>
-<td>
-<b>D3D10_DDI_COLOR_WRITE_ENABLE_GREEN</b> (2)
-
-</td>
-<td>
-Writes green
-
-</td>
-</tr>
-<tr>
-<td>
-<b>D3D10_DDI_COLOR_WRITE_ENABLE_BLUE</b> (4)
-
-</td>
-<td>
-Writes blue
-
-</td>
-</tr>
-<tr>
-<td>
-<b>D3D10_DDI_COLOR_WRITE_ENABLE_ALPHA</b> (8)
-
-</td>
-<td>
-Writes a transparency level
-
-</td>
-</tr>
-<tr>
-<td>
-<b>D3D10_DDI_COLOR_WRITE_ENABLE_ALL</b> (1 | 2 | 4 | 8)
-
-</td>
-<td>
-Writes red, green, blue, and a transparency level
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|D3D10_DDI_COLOR_WRITE_ENABLE_RED (1)|Writes red|
+|D3D10_DDI_COLOR_WRITE_ENABLE_GREEN (2)|Writes green|
+|D3D10_DDI_COLOR_WRITE_ENABLE_BLUE (4)|Writes blue|
+|D3D10_DDI_COLOR_WRITE_ENABLE_ALPHA (8)|Writes a transparency level|
+|D3D10_DDI_COLOR_WRITE_ENABLE_ALL (1 | 2 | 4 | 8)|Writes red, green, blue, and a transparency level|
  
 
 

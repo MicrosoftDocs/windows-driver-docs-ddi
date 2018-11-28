@@ -37,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # D3DDDI_BUILD16_FROM_VERSION32 macro
@@ -50,7 +51,10 @@ Converts a 16 bit build from a 32 bit version.
 
 ### -param v
 
-The current value.
+The current version.
+
+## -returns
+
 
 
 ## -remarks

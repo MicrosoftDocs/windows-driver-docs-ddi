@@ -28,6 +28,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _DXVAHDDDI_INPUT_FORMAT_CAPS enumeration

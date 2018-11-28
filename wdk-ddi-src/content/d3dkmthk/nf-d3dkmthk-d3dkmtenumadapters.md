@@ -43,78 +43,32 @@ req.typenames:
 
 # D3DKMTEnumAdapters function
 
-
 ## -description
-
 
 Enumerates all graphics adapters on the system.
 
-
 ## -parameters
-
-
-
 
 ### -param D3DKMT_ENUMADAPTERS
 
 [in, out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406463">D3DKMT_ENUMADAPTERS</a> structure that lists all graphics adapters and their characteristics.
 
-
 ## -returns
-
-
 
 Returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The enumeration was successful.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER </b></dt>
-</dl>
-</td>
-<td width="60%">
-The  <i>pEnumAdapters</i> parameter was validated and determined to be incorrect.
-
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The enumeration was successful.|
+|STATUS_INVALID_PARAMETER|The  pEnumAdapters parameter was validated and determined to be incorrect.|
 
 This function might also return other NTSTATUS values.
 
-
-
-
 ## -remarks
-
-
 
 The operating system enumerates graphics adapters in the same sequence as their corresponding physical devices.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406463">D3DKMT_ENUMADAPTERS</a>
  

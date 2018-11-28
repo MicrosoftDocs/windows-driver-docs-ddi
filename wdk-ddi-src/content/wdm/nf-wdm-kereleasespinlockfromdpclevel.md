@@ -58,7 +58,7 @@ The <b>KeReleaseSpinLockFromDpcLevel</b> routine releases an executive spin lock
 
 ### -param a [in, out]
 
-Pointer to an executive spin lock for which the caller provides the storage. 
+Pointer to an executive KSPIN_LOCK spin lock for which the caller provides the storage. 
 
 
 

@@ -76,56 +76,12 @@ The number of bytes, starting at <i>IoAddress</i>, to map.
 
 The location of the <i>IoAddress</i> range. This parameter can be one of the following flags or an ORed, compatible combination of these flags.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_DENSE
-
-</td>
-<td>
-Obsolete.
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_IO
-
-</td>
-<td>
-The address range is in I/O space, not in memory space.
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_MEMORY
-
-</td>
-<td>
-The address range is in memory space, not in I/O space.
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_P6CACHE
-
-</td>
-<td>
-The processor aggregates a sequence of write operations, sends them to a cache line, and later flushes the cache. This flag is meaningful only when VIDEO_MEMORY_SPACE_IO is not set.
-
-Designates the video memory as write-combined (WC). For information about WC caching, see the <a href="https://msdn.microsoft.com/library/windows/hardware/dn642116">Write-Combining Memory in Video Miniport Drivers</a> website article.
-
-</td>
-</tr>
-</table>
- 
-
+| **Flag** | **Meaning** | 
+|:--|:--|
+| VIDEO_MEMORY_SPACE_DENSE | Obsolete. | 
+| VIDEO_MEMORY_SPACE_IO | The address range is in I/O space, not in memory space. | 
+| VIDEO_MEMORY_SPACE_MEMORY | The address range is in memory space, not in I/O space. | 
+| VIDEO_MEMORY_SPACE_P6CACHE | The processor aggregates a sequence of write operations, sends them to a cache line, and later flushes the cache. This flag is meaningful only when VIDEO_MEMORY_SPACE_IO is not set. Designates the video memory as write-combined (WC). For information about WC caching, see the [Write-Combining Memory in Video Miniport Drivers](https://msdn.microsoft.com/library/windows/hardware/dn642116) website article. | 
 
 ## -returns
 

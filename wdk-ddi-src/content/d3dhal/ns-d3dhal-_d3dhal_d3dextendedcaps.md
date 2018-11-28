@@ -138,92 +138,16 @@ Specifies the number of pixels required to adjust the extents rectangle outward 
 
 Specifies the stencil buffer operations supported by the driver or device. For further descriptions of the stencil buffer operations shown in the following table, see D3DSTENCILOP in the DirectX SDK documentation. Stencil operations are assumed to be valid for all three stencil buffer operation render states (D3DRENDERSTATE_STENCILFAIL, D3DRENDERSTATE_STENCILPASS, and D3DRENDERSTATE_STENCILZFAIL). This member can be a bitwise OR of any of the following values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Stencil Buffer Operation</th>
-</tr>
-<tr>
-<td>
-D3DSTENCILCAPS_DECR
-
-</td>
-<td>
-The D3DSTENCILOP_DECR operation is supported.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DSTENCILCAPS_DECRSAT
-
-</td>
-<td>
-The D3DSTENCILOP_DECRSAT operation is supported.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DSTENCILCAPS_INCR
-
-</td>
-<td>
-The D3DSTENCILOP_INCR operation is supported.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DSTENCILCAPS_INCRSAT
-
-</td>
-<td>
-The D3DSTENCILOP_INCRSAT operation is supported.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DSTENCILCAPS_INVERT
-
-</td>
-<td>
-The D3DSTENCILOP_INVERT operation is supported.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DSTENCILCAPS_KEEP
-
-</td>
-<td>
-The D3DSTENCILOP_KEEP operation is supported.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DSTENCILCAPS_REPLACE
-
-</td>
-<td>
-The D3DSTENCILOP_REPLACE operation is supported.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DSTENCILCAPS_ZERO
-
-</td>
-<td>
-The D3DSTENCILOP_ZERO operation is supported.
-
-</td>
-</tr>
-</table>
+|Value|Stencil Buffer Operation|
+|--- |--- |
+|D3DSTENCILCAPS_DECR|The D3DSTENCILOP_DECR operation is supported.|
+|D3DSTENCILCAPS_DECRSAT|The D3DSTENCILOP_DECRSAT operation is supported.|
+|D3DSTENCILCAPS_INCR|The D3DSTENCILOP_INCR operation is supported.|
+|D3DSTENCILCAPS_INCRSAT|The D3DSTENCILOP_INCRSAT operation is supported.|
+|D3DSTENCILCAPS_INVERT|The D3DSTENCILOP_INVERT operation is supported.|
+|D3DSTENCILCAPS_KEEP|The D3DSTENCILOP_KEEP operation is supported.|
+|D3DSTENCILCAPS_REPLACE|The D3DSTENCILOP_REPLACE operation is supported.|
+|D3DSTENCILCAPS_ZERO|The D3DSTENCILOP_ZERO operation is supported.|
  
 
 
@@ -238,252 +162,33 @@ A driver must be able to parse all texture coordinates present in the vertex dat
 
 Specifies the texture operations supported by the device. See D3DTEXTUREOP in the DirectX SDK documentation for descriptions of the texture operations listed in the following table. This member can be a bitwise OR of the following values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Texture Operation Supported</th>
-</tr>
-<tr>
-<td>
-D3DTEXOPCAPS_ADD
+|Value|Texture Operation Supported|
+|--- |--- |
+|D3DTEXOPCAPS_ADD|The D3DTOP_ADD texture blending operation is supported by this device.|
+|D3DTEXOPCAPS_ADDSIGNED|The D3DTOP_ADDSIGNED texture blending operation is supported by this device.|
+|D3DTEXOPCAPS_ADDSIGNED2X|The D3DTOP_ADDSIGNED2X texture blending operation is supported by this device.|
+|D3DTEXOPCAPS_ADDSMOOTH|The D3DTOP_ADDSMOOTH texture blending operation is supported by this device.|
+|D3DTEXOPCAPS_BLENDCURRENTALPHA|The D3DTOP_BLENDCURRENTALPHA texture blending operation is supported by this device.|
+|D3DTEXOPCAPS_BLENDDIFFUSEALPHA|The D3DTOP_BLENDDIFFUSEALPHA texture blending operation is supported by this device.|
+|D3DTEXOPCAPS_BLENDFACTORALPHA|The D3DTOP_BLENDFACTORALPHA texture blending operation is supported by this device.|
+|D3DTEXOPCAPS_BLENDTEXTUREALPHA|The D3DTOP_BLENDTEXTUREALPHA texture blending operation is supported by this device.|
+|D3DTEXOPCAPS_BLENDTEXTUREALPHAPM|The D3DTOP_BLENDTEXTUREALPHAPM texture blending operation is supported by this device.|
+|D3DTEXOPCAPS_BUMPENVMAP.|The D3DTOP_BUMPENVMAP texture blending operation is supported by this device.|
+|D3DTEXOPCAPS_BUMPENVMAPLUMINANCE|The D3DTOP_BUMPENVMAPLUMINANCE texture blending operation is supported by this device.|
+|D3DTEXOPCAPS_DISABLE|The D3DTOP_DISABLE texture blending operation is supported by this device.|
+|D3DTEXOPCAPS_DOTPRODUCT3|The D3DTOP_DOTPRODUCT3 texture blending operation is supported by this device.|
+|D3DTEXOPCAPS_MODULATE|The D3DTOP_MODULATE texture blending operation is supported by this device.|
+|D3DTEXOPCAPS_MODULATE2X|The D3DTOP_MODULATE2X texture blending operation is supported by this device.|
+|D3DTEXOPCAPS_MODULATE4X|The D3DTOP_MODULATE4X texture blending operation is supported by this device.|
+|D3DTEXOPCAPS_MODULATEALPHA_ADDCOLOR|The D3DTOP_MODULATEALPHA_ADDCOLOR texture blending operation is supported by this device.|
+|D3DTEXOPCAPS_MODULATECOLOR_ADDALPHA|The D3DTOP_MODULATEALPHA_ADDCOLOR texture blending operation is supported by this device.|
+|D3DTEXOPCAPS_MODULATEINVALPHA_ADDCOLOR|The D3DTOP_MODULATEINVALPHA_ADDCOLOR texture blending operation is supported by this device.|
+|D3DTEXOPCAPS_MODULATEINVCOLOR_ADDALPHA|The D3DTOP_MODULATEINVCOLOR_ADDALPHA texture blending operation is supported by this device.|
+|D3DTEXOPCAPS_PREMODULATE|The D3DTOP_PREMODULATE texture blending operation is supported by this device.|
+|D3DTEXOPCAPS_SELECTARG1|The D3DTOP_SELECTARG1 texture blending operation is supported by this device.|
+|D3DTEXOPCAPS_SELECTARG2|The D3DTOP_SELECTARG2 texture blending operation is supported by this device.|
+|D3DTEXOPCAPS_SUBTRACT|The D3DTOP_SUBTRACT texture blending operation is supported by this device.|
 
-</td>
-<td>
-The D3DTOP_ADD texture blending operation is supported by this device.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTEXOPCAPS_ADDSIGNED
-
-</td>
-<td>
-The D3DTOP_ADDSIGNED texture blending operation is supported by this device.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTEXOPCAPS_ADDSIGNED2X
-
-</td>
-<td>
-The D3DTOP_ADDSIGNED2X texture blending operation is supported by this device.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTEXOPCAPS_ADDSMOOTH
-
-</td>
-<td>
-The D3DTOP_ADDSMOOTH texture blending operation is supported by this device.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTEXOPCAPS_BLENDCURRENTALPHA
-
-</td>
-<td>
-The D3DTOP_BLENDCURRENTALPHA texture blending operation is supported by this device.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTEXOPCAPS_BLENDDIFFUSEALPHA
-
-</td>
-<td>
-The D3DTOP_BLENDDIFFUSEALPHA texture blending operation is supported by this device.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTEXOPCAPS_BLENDFACTORALPHA
-
-</td>
-<td>
-The D3DTOP_BLENDFACTORALPHA texture blending operation is supported by this device.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTEXOPCAPS_BLENDTEXTUREALPHA
-
-</td>
-<td>
-The D3DTOP_BLENDTEXTUREALPHA texture blending operation is supported by this device.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTEXOPCAPS_BLENDTEXTUREALPHAPM
-
-</td>
-<td>
-The D3DTOP_BLENDTEXTUREALPHAPM texture blending operation is supported by this device.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTEXOPCAPS_BUMPENVMAP.
-
-</td>
-<td>
-The D3DTOP_BUMPENVMAP texture blending operation is supported by this device.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTEXOPCAPS_BUMPENVMAPLUMINANCE
-
-</td>
-<td>
-The D3DTOP_BUMPENVMAPLUMINANCE texture blending operation is supported by this device.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTEXOPCAPS_DISABLE
-
-</td>
-<td>
-The D3DTOP_DISABLE texture blending operation is supported by this device.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTEXOPCAPS_DOTPRODUCT3
-
-</td>
-<td>
-The D3DTOP_DOTPRODUCT3 texture blending operation is supported by this device.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTEXOPCAPS_MODULATE
-
-</td>
-<td>
-The D3DTOP_MODULATE texture blending operation is supported by this device.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTEXOPCAPS_MODULATE2X
-
-</td>
-<td>
-The D3DTOP_MODULATE2X texture blending operation is supported by this device.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTEXOPCAPS_MODULATE4X
-
-</td>
-<td>
-The D3DTOP_MODULATE4X texture blending operation is supported by this device.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTEXOPCAPS_MODULATEALPHA_ADDCOLOR
-
-</td>
-<td>
-The D3DTOP_MODULATEALPHA_ADDCOLOR texture blending operation is supported by this device.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTEXOPCAPS_MODULATECOLOR_ADDALPHA
-
-</td>
-<td>
-The D3DTOP_MODULATEALPHA_ADDCOLOR texture blending operation is supported by this device.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTEXOPCAPS_MODULATEINVALPHA_ADDCOLOR
-
-</td>
-<td>
-The D3DTOP_MODULATEINVALPHA_ADDCOLOR texture blending operation is supported by this device.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTEXOPCAPS_MODULATEINVCOLOR_ADDALPHA
-
-</td>
-<td>
-The D3DTOP_MODULATEINVCOLOR_ADDALPHA texture blending operation is supported by this device.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTEXOPCAPS_PREMODULATE
-
-</td>
-<td>
-The D3DTOP_PREMODULATE texture blending operation is supported by this device.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTEXOPCAPS_SELECTARG1
-
-</td>
-<td>
-The D3DTOP_SELECTARG1 texture blending operation is supported by this device.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTEXOPCAPS_SELECTARG2
-
-</td>
-<td>
-The D3DTOP_SELECTARG2 texture blending operation is supported by this device.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTEXOPCAPS_SUBTRACT
-
-</td>
-<td>
-The D3DTOP_SUBTRACT texture blending operation is supported by this device.
-
-</td>
-</tr>
-</table>
  
 
 
@@ -521,92 +226,17 @@ Specifies the number of world matrices supported for vertex blending.
 
 Specifies the vertex processing caps that are supported by the driver. This member can be a bitwise OR of the following values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DVTXPCAPS_DIRECTIONALLIGHTS
+|Value|Meaning|
+|--- |--- |
+|D3DVTXPCAPS_DIRECTIONALLIGHTS|Device can do directional lights.|
+|D3DVTXPCAPS_LOCALVIEWER|Device can do local viewer.|
+|D3DVTXPCAPS_MATERIALSOURCE7|Device can do DirectX 7.0 color-material-source operations.|
+|D3DVTXPCAPS_NO_TEXGEN_NONLOCALVIEWER|Device does not support texture generation in nonlocal viewer mode.|
+|D3DVTXPCAPS_POSITIONALLIGHTS|Device can do positional lights (includes point and spot).|
+|D3DVTXPCAPS_TEXGEN|Device can do texgen.|
+|D3DVTXPCAPS_TEXGEN_SPHEREMAP|Device supports D3DTSS_TCI_SPHEREMAP.|
+|D3DVTXPCAPS_TWEENING|Device can do vertex tweening.|
 
-</td>
-<td>
-Device can do directional lights.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DVTXPCAPS_LOCALVIEWER
-
-</td>
-<td>
-Device can do local viewer.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DVTXPCAPS_MATERIALSOURCE7
-
-</td>
-<td>
-Device can do DirectX 7.0 color-material-source operations.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DVTXPCAPS_NO_TEXGEN_NONLOCALVIEWER
-
-</td>
-<td>
-Device does not support texture generation in nonlocal viewer mode.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DVTXPCAPS_POSITIONALLIGHTS
-
-</td>
-<td>
-Device can do positional lights (includes point and spot).
-
-</td>
-</tr>
-<tr>
-<td>
-D3DVTXPCAPS_TEXGEN
-
-</td>
-<td>
-Device can do texgen.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DVTXPCAPS_TEXGEN_SPHEREMAP
-
-</td>
-<td>
-Device supports D3DTSS_TCI_SPHEREMAP.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DVTXPCAPS_TWEENING
-
-</td>
-<td>
-Device can do vertex tweening.
-
-</td>
-</tr>
-</table>
  
 
 

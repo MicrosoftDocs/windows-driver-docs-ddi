@@ -112,13 +112,8 @@ Examples of when to call this function are:
 </ul>
 <b>UMDEtwLogMapAllocation</b> is defined inline in Umdprovider.h as:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>FORCEINLINE void LogMapAllocation(BOOLEAN Enter,
+```
+FORCEINLINE void LogMapAllocation(BOOLEAN Enter,
                     ULONGLONG hD3DAllocation,
                     ULONGLONG hDxgAllocation,
                     ULONGLONG Offset,
@@ -162,11 +157,8 @@ FORCEINLINE void UMDEtwLogMapAllocation(ULONGLONG hD3DAllocation,
                      Size,
                      Usage,
                      Semantic);
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
+}
+```
 
 
 ## -see-also

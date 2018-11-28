@@ -73,72 +73,14 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>pfnAllocateCb</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The memory was successfully allocated.
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The memory was successfully allocated. | 
+| **E_INVALIDARG** | Parameters were validated and determined to be incorrect. | 
+| **E_OUTOFMEMORY** | pfnAllocateCb could not allocate memory that was required for it to complete. | 
+| **D3DERR_OUTOFVIDEOMEMORY** | pfnAllocateCb could not complete because of insufficient video memory. The video memory manager attempts to virtualize video memory; however, if the virtualization fails (such as, when virtual address space runs out), the memory manager might return this error code. | 
+| **D3DDDIERR_DEVICEREMOVED** | pfnAllocateCb could not initiate a call to the display miniport driver's [DxgkDdiCreateAllocation](https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2) function because a Plug and Play (PnP) stop or a Timeout Detection and Recovery (TDR) event occurred. The user-mode display driver function that called pfnAllocateCb (typically, the [CreateResource](https://msdn.microsoft.com/5b74c989-1a62-4415-a19a-dd0ba2fcff83), [CreateResource(D3D10)](https://msdn.microsoft.com/c21839f0-8302-49f9-a2b4-4009fbd2d88c), or [CreateResource(D3D11)](https://msdn.microsoft.com/2dff9d2e-c497-422f-824b-a7101904fd67) function) must return this error code back to the Direct3D runtime. <br/>**Direct3D Version 9** Note:  For more information about returning error codes, see [Returning Error Codes Received from Runtime Functions](https://msdn.microsoft.com/4a2384e8-407f-4248-8b31-7c4e836b15dc).<br/>**Direct3D Versions 10 and 11** Note:  If the driver function does not return a value (that is, has VOID for a return parameter type), the driver function calls the [pfnSetErrorCb](https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f) function to send an error code back to the runtime. For more information about handling error codes, see [Handling Errors](https://msdn.microsoft.com/ac4e056e-3304-4934-887a-5cc2b87989bd). | 
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>pfnAllocateCb</b> could not allocate memory that was required for it to complete.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DERR_OUTOFVIDEOMEMORY </b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>pfnAllocateCb</b> could not complete because of insufficient video memory. The video memory manager attempts to virtualize video memory; however, if the virtualization fails (such as, when virtual address space runs out), the memory manager might return this error code.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_DEVICEREMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>pfnAllocateCb</b> could not initiate a call to the display miniport driver's <a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a> function because a Plug and Play (PnP) stop or a Timeout Detection and Recovery (TDR) event occurred. The user-mode display driver function that called <b>pfnAllocateCb</b> (typically, the <a href="https://msdn.microsoft.com/5b74c989-1a62-4415-a19a-dd0ba2fcff83">CreateResource</a>, <a href="https://msdn.microsoft.com/c21839f0-8302-49f9-a2b4-4009fbd2d88c">CreateResource(D3D10)</a>, or <a href="https://msdn.microsoft.com/2dff9d2e-c497-422f-824b-a7101904fd67">CreateResource(D3D11)</a> function) must return this error code back to the Direct3D runtime. 
-
-<b>Direct3D Version 9 Note:  </b>For more information about returning error codes, see <a href="https://msdn.microsoft.com/4a2384e8-407f-4248-8b31-7c4e836b15dc">Returning Error Codes Received from Runtime Functions</a>.
-
-<b>Direct3D Versions 10 and 11 Note:  </b>If the driver function does not return a value (that is, has VOID for a return parameter type), the driver function calls the <a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f">pfnSetErrorCb</a> function to send an error code back to the runtime. For more information about handling error codes, see <a href="https://msdn.microsoft.com/ac4e056e-3304-4934-887a-5cc2b87989bd">Handling Errors</a>.
-
-</td>
-</tr>
-</table>
- 
 
 This function might also return other HRESULT values.
 
@@ -177,13 +119,8 @@ Note that if the <b>hResource</b> member of D3DDDICB_ALLOCATE is set to <b>NULL<
 
 The following code example shows how to allocate memory for a resource.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    D3DDDICB_ALLOCATE           allocCB;
+```cpp
+    D3DDDICB_ALLOCATE           allocCB;
     D3DDDI_ALLOCATIONINFO       allocInfo;
     HRESULT                     hr;
     memset(&amp;allocInfo,   0, sizeof(allocInfo));
@@ -213,11 +150,8 @@ The following code example shows how to allocate memory for a resource.
         *phAllocation = allocInfo.hAllocation;
     }
 
-    return (hr);</pre>
-</td>
-</tr>
-</table></span></div>
-
+    return (hr);
+```
 
 
 ## -see-also

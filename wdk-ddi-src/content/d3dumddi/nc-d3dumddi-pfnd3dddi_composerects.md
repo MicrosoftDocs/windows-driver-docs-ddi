@@ -73,37 +73,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>ComposeRects</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The rectangular areas were successfully composed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/b6a6b549-7590-4b27-b759-631fa62a76d2">ComposeRects</a> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The rectangular areas were successfully composed. | 
+| **E_OUTOFMEMORY** | [ComposeRects](https://msdn.microsoft.com/b6a6b549-7590-4b27-b759-631fa62a76d2)  could not allocate the required memory for it to complete. | 
 
 
 
@@ -153,13 +126,8 @@ Local display memory should be specified for the destination surface.
 </ul>
 The following example code shows an operation that <b>ComposeRects</b> performs:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>for (UINT i=0; i &lt; COMPOSERECTS.NumDstRects; i++) {
+```cpp
+for (UINT i=0; i &lt; COMPOSERECTS.NumDstRects; i++) {
    if (i &gt;= Size(VertexBuffer(hDstRectDescsVB)) / sizeof(D3DCOMPOSERECTDSTDESC))
       Ignore the rectangle;
    if (VertexBuffer(hDstRectDescsVB)[i].RectDescIndex &gt;= Size(VertexBuffer(hSrcRectDescsVB)) / sizeof(D3DCOMPOSERECTSRCDESC))
@@ -170,12 +138,8 @@ The following example code shows an operation that <b>ComposeRects</b> performs:
    DestinationRectangle.Width = SourceRectangle.Width;
    DestinationRectangle.Height = SourceRectangle.Height;
    Perform COMPOSERECTS.Operation for each pixel;
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
-
+}
+```
 
 ## -see-also
 

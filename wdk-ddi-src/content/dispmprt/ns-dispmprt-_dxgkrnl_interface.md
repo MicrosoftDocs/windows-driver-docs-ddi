@@ -114,55 +114,12 @@ A positive integer that indicates the version of the functional interface implem
 
 The following are the allowed values, which are defined in D3dukmdt.h.
 
-
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="DXGKDDI_INTERFACE_VERSION_VISTA"></a><a id="dxgkddi_interface_version_vista"></a><dl>
-<dt><b>DXGKDDI_INTERFACE_VERSION_VISTA</b></dt>
-</dl>
-</td>
-<td width="60%">
-Windows Vista
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="DXGKDDI_INTERFACE_VERSION_VISTA_SP1"></a><a id="dxgkddi_interface_version_vista_sp1"></a><dl>
-<dt><b>DXGKDDI_INTERFACE_VERSION_VISTA_SP1</b></dt>
-</dl>
-</td>
-<td width="60%">
-Windows Vista with SP1
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="DXGKDDI_INTERFACE_VERSION_VISTA_WIN7"></a><a id="dxgkddi_interface_version_vista_win7"></a><dl>
-<dt><b>DXGKDDI_INTERFACE_VERSION_VISTA_WIN7</b></dt>
-</dl>
-</td>
-<td width="60%">
-Windows 7
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="DXGKDDI_INTERFACE_VERSION_WIN8"></a><a id="dxgkddi_interface_version_win8"></a><dl>
-<dt><b>DXGKDDI_INTERFACE_VERSION_WIN8</b></dt>
-</dl>
-</td>
-<td width="60%">
-Windows 8
-
-</td>
-</tr>
-</table>
- 
+| **Value** | **Meaning** | 
+|:--|:--|
+| **DXGKDDI_INTERFACE_VERSION_VISTA** | Windows Vista | 
+| **DXGKDDI_INTERFACE_VERSION_VISTA_SP1** | Windows Vista with SP1 | 
+| **DXGKDDI_INTERFACE_VERSION_VISTA_WIN7** | Windows 7 | 
+| **DXGKDDI_INTERFACE_VERSION_WIN8** | Windows 8 | 
 
 
 ### -field DeviceHandle

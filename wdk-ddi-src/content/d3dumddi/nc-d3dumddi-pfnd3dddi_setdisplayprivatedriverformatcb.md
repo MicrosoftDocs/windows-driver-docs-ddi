@@ -80,46 +80,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>pfnSetDisplayPrivateDriverFormatCb</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The video present source was successfully changed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_FAIL</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>pfnSetDisplayPrivateDriverFormatCb</b> could not change the private-format attribute of the video present source. 
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|S_OK|The video present source was successfully changed.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
+|E_FAIL|pfnSetDisplayPrivateDriverFormatCb could not change the private-format attribute of the video present source.|
 
 This function might also return other HRESULT values.
 

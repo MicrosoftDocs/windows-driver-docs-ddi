@@ -77,25 +77,14 @@ This function does not return a value.
 
 The data type for the <i>CbRundown</i> parameter is defined as:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef void (*PFNUMDETW_RUNDOWN)();</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+typedef void (*PFNUMDETW_RUNDOWN)();
+```
+
 <b>UMDEtwRegister</b> is defined inline in Umdprovider.h as:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// GUID for UMD ETW provider
+```cpp
+// GUID for UMD ETW provider
 // {A688EE40-D8D9-4736-B6F9-6B74935BA3B1}
 static const GUID UMDEtwProviderId = 
 { 0xa688ee40, 0xd8d9, 0x4736, { 0xb6, 0xf9, 0x6b, 0x74, 0x93, 0x5b, 0xa3, 0xb1 } };
@@ -155,14 +144,10 @@ FORCEINLINE void UMDEtwRegister(PFNUMDETW_RUNDOWN RundownCb)
                   EnableCallback,
                   NULL,
                   &amp;RegHandle);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 The <a href="https://msdn.microsoft.com/6025c3a6-7d88-49dc-bbc3-655c172dde3c">EventRegister</a> function and the <b>EVENT_CONTROL_CODE_XXX</b> values are  described in the <a href="https://msdn.microsoft.com/c10baa8d-50b9-4fda-89d0-d00b1d9f5404">Windows Events</a> documentation.
-
-
-
 
 ## -see-also
 

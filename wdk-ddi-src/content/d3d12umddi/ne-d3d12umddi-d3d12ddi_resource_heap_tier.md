@@ -28,6 +28,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # D3D12DDI_RESOURCE_HEAP_TIER enumeration

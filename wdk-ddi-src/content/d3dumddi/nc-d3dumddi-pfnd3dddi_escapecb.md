@@ -80,62 +80,13 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>pfnEscapeCb</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-Information was successfully shared.
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | Information was successfully shared. | 
+| **E_OUTOFMEMORY** | pfnEscapeCb could not complete because of insufficient memory. | 
+| **E_INVALIDARG** |     Parameters were validated and determined to be incorrect.| 
+| **D3DDDIERR_DEVICEREMOVED** | pfnEscapeCb could not initiate a call to the display miniport driver's [DxgkDdiEscape](https://msdn.microsoft.com/79a524cd-dec1-4ea8-a660-d9d9c644e162) function because a Plug and Play (PnP) stop or a Timeout Detection and Recovery (TDR) event occurred. The user-mode display driver function that called pfnEscapeCb must return this error code back to the Direct3D runtime.<br/>**Direct3D Version 9** Note:  For more information about returning error codes, see [Returning Error Codes Received from Runtime Functions](https://msdn.microsoft.com/4a2384e8-407f-4248-8b31-7c4e836b15dc).<br/>**Direct3D Versions 10 and 11** Note:  If the driver function does not return a value (that is, has VOID for a return parameter type), the driver function calls the [pfnSetErrorCb](https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f) function to send an error code back to the runtime. For more information about handling error codes, see [Handling Errors](https://msdn.microsoft.com/ac4e056e-3304-4934-887a-5cc2b87989bd). |
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>pfnEscapeCb</b> could not complete because of insufficient memory.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-        Parameters were validated and determined to be incorrect.
-       
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_DEVICEREMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>pfnEscapeCb</b> could not initiate a call to the display miniport driver's <a href="https://msdn.microsoft.com/79a524cd-dec1-4ea8-a660-d9d9c644e162">DxgkDdiEscape</a> function because a Plug and Play (PnP) stop or a Timeout Detection and Recovery (TDR) event occurred. The user-mode display driver function that called <b>pfnEscapeCb</b> must return this error code back to the Direct3D runtime. 
-
-<b>Direct3D Version 9 Note:  </b>For more information about returning error codes, see <a href="https://msdn.microsoft.com/4a2384e8-407f-4248-8b31-7c4e836b15dc">Returning Error Codes Received from Runtime Functions</a>.
-
-<b>Direct3D Versions 10 and 11 Note:  </b>If the driver function does not return a value (that is, has VOID for a return parameter type), the driver function calls the <a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f">pfnSetErrorCb</a> function to send an error code back to the runtime. For more information about handling error codes, see <a href="https://msdn.microsoft.com/ac4e056e-3304-4934-887a-5cc2b87989bd">Handling Errors</a>.
-
-</td>
-</tr>
-</table>
  
 
 This function might also return other HRESULT values.

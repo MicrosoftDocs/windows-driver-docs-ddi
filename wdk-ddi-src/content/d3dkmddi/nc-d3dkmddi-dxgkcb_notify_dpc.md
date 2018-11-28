@@ -80,13 +80,8 @@ The display miniport driver's DPC callback routine calls the <b>DxgkCbNotifyDpc<
 
 The following code example shows how to notify the GPU scheduler about the DMA or V-Sync interrupt.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 D3DDDINotifyDPC(
     HW_DEVICE_EXTENSION  *pAdapter)
 {
@@ -104,10 +99,8 @@ D3DDDINotifyDPC(
     DxgkCbNotifyDpc(pAdapter-&gt;DeviceHandle);
 
     return (STATUS_SUCCESS);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

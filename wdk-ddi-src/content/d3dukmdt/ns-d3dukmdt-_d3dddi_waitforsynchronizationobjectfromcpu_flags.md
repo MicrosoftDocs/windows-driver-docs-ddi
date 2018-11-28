@@ -57,35 +57,10 @@ req.typenames: D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS
 
 ### -field WaitAny
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>0 (FALSE)</dt>
-</dl>
-</td>
-<td width="60%">
-[in] The wait condition is considered to be satisfied when all input synchronization objects are signaled to the corresponding input fence values or greater.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>1 (TRUE)</dt>
-</dl>
-</td>
-<td width="60%">
-[in] The wait condition is considered to be satisfied when any of the input synchronization objects is signaled to the corresponding input fence value or greater. 
-
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|0 (FALSE)|[in] The wait condition is considered to be satisfied when all input synchronization objects are signaled to the corresponding input fence values or greater.|
+|1 (TRUE)|[in] The wait condition is considered to be satisfied when any of the input synchronization objects is signaled to the corresponding input fence value or greater.|
  
 
 

@@ -35,6 +35,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # EVT_MBB_DEVICE_RECEIVE_MBIM_FRAGMENT callback function

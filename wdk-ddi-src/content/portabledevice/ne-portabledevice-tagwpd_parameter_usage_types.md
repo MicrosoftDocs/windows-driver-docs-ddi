@@ -39,6 +39,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: WPD_PARAMETER_USAGE_TYPES
+ms.custom: RS5
 ---
 
 # tagWPD_PARAMETER_USAGE_TYPES enumeration

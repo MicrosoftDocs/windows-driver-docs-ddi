@@ -69,61 +69,14 @@ Specifies the size, in bytes, of the status data at <b>COPPStatus</b>.
 
 Specifies an array that contains the status data. The display driver should return status data in one of the following ways, depending on the input value that was specified in the <b>guidStatusRequestID</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563899">DXVA_COPPStatusInput</a> structure: 
 
-<table>
-<tr>
-<th>Input value</th>
-<th>Output status data</th>
-</tr>
-<tr>
-<td>
-DXVA_COPPQueryDisplayData
-
-</td>
-<td>
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563157">DXVA_COPPStatusDisplayData</a> structure
-
-</td>
-</tr>
-<tr>
-<td>
-
-<dl>
-<dt>DXVA_COPPQueryProtectionType, </dt>
-<dt>DXVA_COPPQueryConnectorType, </dt>
-<dt>DXVA_COPPQueryLocalProtectionLevel, </dt>
-<dt>DXVA_COPPQueryGlobalProtectionLevel or </dt>
-<dt>DXVA_COPPQueryBusData</dt>
-</dl>
+| ****Input value**** | ****Output status data**** | 
+|:--|:--|
+| DXVA_COPPQueryDisplayData | Pointer to a [DXVA_COPPStatusDisplayData](https://msdn.microsoft.com/library/windows/hardware/ff563157)  structure | 
+| DXVA_COPPQueryProtectionType, DXVA_COPPQueryConnectorType, DXVA_COPPQueryLocalProtectionLevel, DXVA_COPPQueryGlobalProtectionLevel or DXVA_COPPQueryBusData| Pointer to a [DXVA_COPPStatusData](https://msdn.microsoft.com/library/windows/hardware/ff563154)  structure | 
+| DXVA_COPPQueryHDCPKeyData | Pointer to a [DXVA_COPPStatusHDCPKeyData](https://msdn.microsoft.com/library/windows/hardware/ff563896)  structure | 
+| DXVA_COPPQuerySignaling | Pointer to a [DXVA_COPPStatusSignalingCmdData](https://msdn.microsoft.com/library/windows/hardware/ff563905)  structure | 
 
 
-</td>
-<td>
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563154">DXVA_COPPStatusData</a> structure
-
-</td>
-</tr>
-<tr>
-<td>
-DXVA_COPPQueryHDCPKeyData
-
-</td>
-<td>
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563896">DXVA_COPPStatusHDCPKeyData</a> structure
-
-</td>
-</tr>
-<tr>
-<td>
-DXVA_COPPQuerySignaling
-
-</td>
-<td>
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563905">DXVA_COPPStatusSignalingCmdData</a> structure
-
-</td>
-</tr>
-</table>
- 
 
 
 ## -remarks

@@ -65,38 +65,11 @@ A handle to the display device (graphics context).
 
 The function table being retrieved, with the following possible values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-A video function table that is described as a   structure. The function returns a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406452">D3D11_1DDI_VIDEODEVICEFUNCS</a> structure in the buffer referenced by the <i>pOutputParamsBuffer</i> parameter.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>3</dt>
-</dl>
-</td>
-<td width="60%">
-A WDDM 2.0 and later video function table that is described as a   structure. The function returns a <a href="https://msdn.microsoft.com/library/windows/hardware/dn894613">D3DWDDM2_0DDI_VIDEODEVICEFUNCS</a> structure in the buffer referenced by the <i>pOutputParamsBuffer</i> parameter.
-
-Supported starting with WDDM 2.0.
-
-</td>
-</tr>
-</table>
- 
-
+| **Value** | **Meaning** | 
+|:--|:--|
+| 1 | A video function table that is described as a structure. The function returns a [D3D11_1DDI_VIDEODEVICEFUNCS](https://msdn.microsoft.com/library/windows/hardware/hh406452)  structure in the buffer referenced by the pOutputParamsBuffer parameter. | 
+| 3 | A WDDM 2.0 and later video function table that is described as a structure. The function returns a [D3DWDDM2_0DDI_VIDEODEVICEFUNCS](https://msdn.microsoft.com/library/windows/hardware/dn894613) structure in the buffer referenced by the pOutputParamsBuffer parameter.
+Supported starting with WDDM 2.0. | 
 
 ### -param ParamSize [in]
 
@@ -123,12 +96,7 @@ A pointer to an output parameter structure that is described by the <i>SubDevice
 
 ## -returns
 
-
-
 Returns S_OK if the operation succeeds. Otherwise, this function returns an appropriate error result. 
-
-
-
 
 
 ## -remarks

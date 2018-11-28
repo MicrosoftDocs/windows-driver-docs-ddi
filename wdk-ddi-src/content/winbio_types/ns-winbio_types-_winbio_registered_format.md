@@ -67,47 +67,24 @@ Specifies format type.
 
 ## -remarks
 
-
-
 For Windows, the format owner is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define WINBIO_ANSI_381_FORMAT_OWNER    ((USHORT)0x001B)    // INCITS Technical Committee M1</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+#define WINBIO_ANSI_381_FORMAT_OWNER    ((USHORT)0x001B)    // INCITS Technical Committee M1
+```
+
 The Type for the standard Windows fingerprint format is:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define WINBIO_ANSI_381_FORMAT_TYPE     ((USHORT)0x0401)    // ANSI-381</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+#define WINBIO_ANSI_381_FORMAT_TYPE     ((USHORT)0x0401)    // ANSI-381
+```
+
 WBDI drivers for fingerprint sensors must support the Owner and Type for the Windows fingerprint data format. The Windows Biometric Service (WBS) verifies that a sensor minimally supports the Windows fingerprint raw data format.  Windows defines this standard raw data format to allow ISVs to write engine adapters that can take input from any sensor.  Each engine should have a capability to support at least this format, but it can specify a different format as a preferred raw format.
 
 No format owner or type are defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define WINBIO_NO_FORMAT_OWNER_AVAILABLE    ((USHORT)0)
+```cpp
+#define WINBIO_NO_FORMAT_OWNER_AVAILABLE    ((USHORT)0)
 #define WINBIO_NO_FORMAT_TYPE_AVAILABLE     ((USHORT)0)
-</pre>
-</td>
-</tr>
-</table></span></div>
-
+```
 

@@ -105,39 +105,11 @@ Specifies the length, in bytes, of <i>Buffer</i>.
 
 <b>VideoPortGetBusData</b> returns the number of bytes of configuration information it has written in <i>Buffer</i>. If the given <i>BusDataType</i> is not valid for the current platform, this function generally returns zero.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>0</b></dt>
-</dl>
-</td>
-<td width="60%">
-The PCI bus does not exist.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>2</b></dt>
-</dl>
-</td>
-<td width="60%">
-The PCI bus exists, but <i>Buffer</i> contains the value PCI_INVALID_VENDOR_ID at the PCI_COMMON_CONFIG <b>VendorId</b> member.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|0|The PCI bus does not exist.|
+|2|The PCI bus exists, but Buffer contains the value PCI_INVALID_VENDOR_ID at the PCI_COMMON_CONFIG VendorId member.|
  
-
-
-
-
 ## -remarks
 
 

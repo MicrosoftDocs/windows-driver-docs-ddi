@@ -31,6 +31,7 @@ api_name:
 -	_USBPM_CLIENT_CONFIG_EXTRA_INFO
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _USBPM_CLIENT_CONFIG_EXTRA_INFO structure

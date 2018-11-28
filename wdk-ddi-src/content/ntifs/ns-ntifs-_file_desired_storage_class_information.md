@@ -30,6 +30,7 @@ api_name:
 -	_FILE_DESIRED_STORAGE_CLASS_INFORMATION
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _FILE_DESIRED_STORAGE_CLASS_INFORMATION structure

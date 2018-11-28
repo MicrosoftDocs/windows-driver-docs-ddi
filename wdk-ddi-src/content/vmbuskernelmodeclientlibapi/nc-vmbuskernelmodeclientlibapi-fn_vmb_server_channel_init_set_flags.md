@@ -35,6 +35,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: netvista
+ms.custom: RS5
 ---
 
 # FN_VMB_SERVER_CHANNEL_INIT_SET_FLAGS callback function

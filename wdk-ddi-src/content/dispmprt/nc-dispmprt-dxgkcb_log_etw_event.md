@@ -101,13 +101,8 @@ If <i>EventBufferSize</i> is less than or equal to 256, <i>DxgkCbLogEtwEvent</i>
 
 The following code example shows how to log an event with the event logger.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>// {A7BF27A0-7401-4733-9FED-FDB51067FECC}
+```cpp
+// {A7BF27A0-7401-4733-9FED-FDB51067FECC}
 DEFINE_GUID(R200_DUMMY_LOGGING,
 0xa7bf27a0, 0x7401, 0x4733, 0x9f, 0xed, 0xfd, 0xb5, 0x10, 0x67, 0xfe, 0xcc);
 
@@ -120,12 +115,8 @@ DummyTrace(
   EVENT_TRACE_TYPE_INFO,
   0,
   NULL);
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
-
+}
+```
 
 ## -see-also
 

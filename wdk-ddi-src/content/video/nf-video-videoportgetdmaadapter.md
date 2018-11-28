@@ -82,26 +82,13 @@ The <b>VP_DMA_ADAPTER</b> structure contains attribute information about a parti
 
 A video miniport driver should call the video port driver's <b>VideoPortGetDmaAdapter</b> to obtain information about a DMA adapter.
 
-
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct __VP_DMA_ADAPTER* PVP_DMA_ADAPTER;
-</pre>
-</td>
-</tr>
-</table></span></div>
-
+```cpp
+typedef struct __VP_DMA_ADAPTER* PVP_DMA_ADAPTER;
+```
 
 This structure has no public members.
 
 This structure is available in Windows XP and later.
-
-
-
 
 ## -see-also
 

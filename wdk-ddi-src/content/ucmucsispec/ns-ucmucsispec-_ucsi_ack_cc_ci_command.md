@@ -31,6 +31,7 @@ api_name:
 -	_UCSI_ACK_CC_CI_COMMAND
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCSI_ACK_CC_CI_COMMAND structure

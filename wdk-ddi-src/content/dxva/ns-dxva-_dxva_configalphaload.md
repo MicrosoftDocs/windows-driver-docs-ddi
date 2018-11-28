@@ -73,52 +73,13 @@ Reserved bits used for packing and alignment. These bits are zero.
 
 Specifies the type of alpha-blend data to be used. This member can be set to one of the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-0
+| **Value** | **Description** | 
+|:--|:--|
+| 0 | 16-entry AYUV palette with [IA44](https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca)  alpha-blending surface. | 
+| 1 | 16-entry AYUV palette with [AI44](https://msdn.microsoft.com/4ef14b5b-128b-4b7c-9211-116e8bd60cab)  alpha-blending surface. | 
+| 2 | 16-entry AYUV palette with DPXD, Highlight, and DCCMD data. | 
+| 3 | AYUV graphic surface. | 
 
-</td>
-<td>
-16-entry AYUV palette with <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">IA44</a> alpha-blending surface.
-
-</td>
-</tr>
-<tr>
-<td>
-1
-
-</td>
-<td>
-16-entry AYUV palette with <a href="https://msdn.microsoft.com/4ef14b5b-128b-4b7c-9211-116e8bd60cab">AI44</a> alpha-blending surface.
-
-</td>
-</tr>
-<tr>
-<td>
-2
-
-</td>
-<td>
-16-entry AYUV palette with DPXD, Highlight, and DCCMD data.
-
-</td>
-</tr>
-<tr>
-<td>
-3
-
-</td>
-<td>
-AYUV graphic surface.
-
-</td>
-</tr>
-</table>
  
 
 The preferred values for an accelerator to support for <b>bConfigDataType</b> are 1 and 3.

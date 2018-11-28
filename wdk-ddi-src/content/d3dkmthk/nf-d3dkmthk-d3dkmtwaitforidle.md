@@ -46,24 +46,13 @@ req.typenames:
 
 # D3DKMTWaitForIdle function
 
-
 ## -description
-
 
 The <b>D3DKMTWaitForIdle</b> function waits for a display device to be idle. 
 
-
 ## -parameters
 
-
-
-
 ### -param D3DKMT_WAITFORIDLE
-
-
-
-
-
 
 *pData* [in]
 
@@ -72,49 +61,16 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 ## -returns
 
-
-
 <b>D3DKMTWaitForIdle</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The wait for the display device successfully occurred. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The wait for the display device successfully occurred.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
  
-
 This function might also return other NTSTATUS values.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548423">D3DKMT_WAITFORIDLE</a>
  

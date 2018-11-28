@@ -59,47 +59,19 @@ The D3D10DDI_VERTEX_CACHE_DESC structure describes mesh-optimization data.
 
 [out] The bit pattern. The driver must specify the bit pattern as a CACH four-character code (FOURCC) value. The driver can use the following MAKEFOURCC macro to specify the FOURCC value as CACH:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>MAKEFOURCC('C', 'A', 'C', 'H'); </pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+MAKEFOURCC('C', 'A', 'C', 'H'); 
+```
 
 ### -field OptMethod
 
 [out] The method of mesh optimization. The driver can use one of the following values to specify the mesh optimization that it uses.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-0
-
-</td>
-<td>
-Longest strips optimization
-
-</td>
-</tr>
-<tr>
-<td>
-1
-
-</td>
-<td>
-Vertex-cache-based optimization
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|0|Longest strips optimization|
+|1|Vertex-cache-based optimization|
  
 
 

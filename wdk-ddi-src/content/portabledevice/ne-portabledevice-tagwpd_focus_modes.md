@@ -39,6 +39,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: WPD_FOCUS_MODES
+ms.custom: RS5
 ---
 
 # tagWPD_FOCUS_MODES enumeration

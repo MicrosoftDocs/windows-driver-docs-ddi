@@ -90,13 +90,8 @@ The display miniport driver's <a href="https://msdn.microsoft.com/library/window
 
 The following code example shows an implementation of <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> in which <b>DxgkInitialize</b> is called.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 DriverEntry(
     IN PDRIVER_OBJECT DriverObject,
     IN PUNICODE_STRING RegistryPath
@@ -189,11 +184,8 @@ DriverEntry(
     return DxgkInitialize(DriverObject,
                           RegistryPath,
                           &amp;DriverInitializationData);
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
+}
+```
 
 
 ## -see-also

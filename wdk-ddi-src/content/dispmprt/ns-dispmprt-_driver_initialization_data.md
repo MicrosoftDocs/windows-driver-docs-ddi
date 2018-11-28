@@ -873,13 +873,8 @@ A pointer to the [DxgkDdiSetTrackedWorkloadPowerLevel](../d3dkmddi/nc-d3dkmddi-d
 
 The following <b>typedef</b> declarations provide function data types from data types that are dereferenced pointers to functions:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef DXGKDDI_ADD_DEVICE  *PDXGKDDI_ADD_DEVICE;
+```cpp
+typedef DXGKDDI_ADD_DEVICE  *PDXGKDDI_ADD_DEVICE;
 typedef DXGKDDI_START_DEVICE  *PDXGKDDI_START_DEVICE;
 typedef DXGKDDI_STOP_DEVICE  *PDXGKDDI_STOP_DEVICE;
 typedef DXGKDDI_REMOVE_DEVICE  *PDXGKDDI_REMOVE_DEVICE;
@@ -970,11 +965,8 @@ typedef DXGKDDI_CONTROLINTERRUPT2  *PDXGKDDI_CONTROLINTERRUPT2;
 typedef DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT  *PDXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT;
 typedef DXGKDDI_FORMATHISTORYBUFFER  *PDXGKDDI_FORMATHISTORYBUFFER;
 typedef DXGKDDI_CALIBRATEGPUCLOCK  *PDXGKDDI_CALIBRATEGPUCLOCK;
-#endif</pre>
-</td>
-</tr>
-</table></span></div>
-
+#endif
+```
 
 
 ## -see-also

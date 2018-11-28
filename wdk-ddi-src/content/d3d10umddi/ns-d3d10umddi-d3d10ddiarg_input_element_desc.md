@@ -74,32 +74,10 @@ The D3D10DDIARG_INPUT_ELEMENT_DESC structure describes an element of a layout.
 
 [in] A value that specifies the type of element. This member must be set to one of the following values from the D3D10_DDI_INPUT_CLASSIFICATION enumeration.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3D10_DDI_INPUT_PER_VERTEX_DATA (0)
-
-</td>
-<td>
-The <b>InstanceDataStepRate</b> member holds the number of instances to render.
-
-</td>
-</tr>
-<tr>
-<td>
-D3D10_DDI_INPUT_PER_INSTANCE_DATA (1)
-
-</td>
-<td>
-<b>InstanceDataStepRate</b> is set to zero.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|D3D10_DDI_INPUT_PER_VERTEX_DATA (0)|The InstanceDataStepRate member holds the number of instances to render.|
+|D3D10_DDI_INPUT_PER_INSTANCE_DATA (1)|InstanceDataStepRate is set to zero.|
  
 
 

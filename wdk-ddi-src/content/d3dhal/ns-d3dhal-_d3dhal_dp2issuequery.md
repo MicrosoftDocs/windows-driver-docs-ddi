@@ -68,45 +68,13 @@ Identifies the query for which the driver asynchronously provides information.
 
 Specifies the state of the query. This member can contain one or more of the following flags: 
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-
-<dl>
-<dt>D3DISSUE_BEGIN</dt>
-<dt>(1 &lt;&lt; 1)</dt>
-</dl>
-
-
-</td>
-<td>
-Starts building the query. The runtime does not request query data while in this state.
-
-</td>
-</tr>
-<tr>
-<td>
-
-<dl>
-<dt>D3DISSUE_END</dt>
-<dt>(1 &lt;&lt; 0)</dt>
-</dl>
-
-
-</td>
-<td>
-Transitions the state to subsignaled. Results of the query are not available until the state transitions to signaled.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|---|---|
+|D3DISSUE_BEGIN (1 &lt;&lt; 1)|Starts building the query. The runtime does not request query data while in this state.|
+|D3DISSUE_END (1 &lt;&lt; 0)|Transitions the state to subsignaled. Results of the query are not available until the state transitions to signaled.|
  
 
-The driver can ignore query requests with <b>dwFlags</b> set to 0. 
+The driver can ignore query requests with **dwFlags** set to 0. 
 
 
 ## -remarks

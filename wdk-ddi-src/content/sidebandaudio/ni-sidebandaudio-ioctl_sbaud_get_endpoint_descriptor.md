@@ -29,6 +29,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: audio
+ms.custom: RS5
 ---
 
 # IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR IOCTL

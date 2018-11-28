@@ -288,44 +288,11 @@ A value of type <b>NTSTATUS</b> that indicates whether the encode chunk was succ
 
 Supported starting with Windows 8.1.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="STATUS_SUCCESS"></a><a id="status_success"></a><dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The chunk was successfully added to the queue.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="STATUS_INVALID_PARAMETER"></a><a id="status_invalid_parameter"></a><dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="STATUS_NO_MEMORY"></a><a id="status_no_memory"></a><dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The interrupt-service-routine (ISR) ran out of free encode chunks.
-
-</td>
-</tr>
-</table>
- 
+|Value|Meaning|
+|--- |--- |
+|STATUS_SUCCESS|The chunk was successfully added to the queue.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
+|STATUS_NO_MEMORY|The interrupt-service-routine (ISR) ran out of free encode chunks.|
 
 
 ### -field DmaPageFaulted

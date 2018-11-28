@@ -34,6 +34,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_MAKERESIDENT_0001 callback function

@@ -81,16 +81,9 @@ The D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure describes cube textures t
 
 The value in the <b>First2DArrayFace</b> member added with 6 multiplied by the number in the <b>NumCubes</b> member must be less than or equal to the value in the <b>ArraySize</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541697">D3D10DDIARG_CREATERESOURCE</a> structure for the shader resource whose view is created in a call to the driver's <a href="https://msdn.microsoft.com/7a0a92d2-a5df-4bee-a950-8a89aeb3dbb8">CreateShaderResourceView(D3D10_1)</a> function. That is, the following calculation applies:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>::First2DArrayFace + 6 * ::NumCubes &lt;= Resource ::ArraySize</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+::First2DArrayFace + 6 * ::NumCubes &lt;= Resource ::ArraySize
+```
 
 
 

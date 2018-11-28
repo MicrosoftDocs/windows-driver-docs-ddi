@@ -70,56 +70,20 @@ A pointer to a variable that, on input, contains the number of entries that the 
 
 A pointer to a block of memory that receives the array of Direct3D interface versions that the driver supports.
 
-
-
-
-
 ## -returns
 
+*GetSupportedVersions* returns one of the following values:
 
-
-<i>GetSupportedVersions</i> returns one of the following values:
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The capabilities are successfully retrieved.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>GetSupportedVersions</i> could not allocate memory that is required for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The capabilities are successfully retrieved. | 
+| **E_OUTOFMEMORY** | GetSupportedVersions could not allocate memory that is required for it to complete. | 
 
 
 ## -remarks
 
 
-
 When the Direct3D runtime calls the driver's <a href="https://msdn.microsoft.com/6f058f81-4cce-40c5-95a9-c0b717cf2bae">OpenAdapter10_2</a> function, the <b>Interface</b> and <b>Version</b> members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541724">D3D10DDIARG_OPENADAPTER</a> structure contain the DDI version that the runtime uses to instantiate the driver. The driver can completely ignore these members. The driver can instead return capabilities and version information out through its <i>GetSupportedVersions</i> function. 
-
-
 
 
 ## -see-also

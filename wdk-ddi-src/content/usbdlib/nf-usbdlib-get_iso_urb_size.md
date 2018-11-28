@@ -61,7 +61,8 @@ The <b>GET_ISO_URB_SIZE</b> macro returns the number of bytes required to hold a
 
 
 
-
+## -returns
+GET_ISO_URB_SIZE returns the number of bytes required to hold an isochronous request with the given NumberOfPackets.
 
 
 ## -see-also

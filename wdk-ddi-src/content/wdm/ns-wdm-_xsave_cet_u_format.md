@@ -30,6 +30,7 @@ api_name:
 -	_XSAVE_CET_U_FORMAT
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _XSAVE_CET_U_FORMAT structure

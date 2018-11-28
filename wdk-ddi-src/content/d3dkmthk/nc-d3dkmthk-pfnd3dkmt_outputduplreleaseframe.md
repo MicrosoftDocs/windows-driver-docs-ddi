@@ -43,17 +43,11 @@ req.typenames:
 
 # PFND3DKMT_OUTPUTDUPLRELEASEFRAME callback function
 
-
 ## -description
-
 
 Indicates that the driver has finished processing the duplicated desktop image.
 
-
 ## -parameters
-
-
-
 
 ### -param *
 
@@ -64,50 +58,13 @@ Indicates that the driver has finished processing the duplicated desktop image.
 
 ## -returns
 
-
-
 Returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function performed successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER </b></dt>
-</dl>
-</td>
-<td width="60%">
-
-         Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-The context of the process could not be found.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function performed successfully.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
+|STATUS_NOT_FOUND|The context of the process could not be found.|
  
 
 This function might also return other NTSTATUS values.

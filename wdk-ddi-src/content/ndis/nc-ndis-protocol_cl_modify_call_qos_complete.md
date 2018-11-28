@@ -50,7 +50,7 @@ req.typenames:
 The 
   <i>ProtocolClModifyCallQoSComplete</i> function is used by connection-oriented NDIS clients that can modify
   the quality of service on a connection dynamically. Such clients must have 
-  <i>ProtocolClModifyCallQoSComplete</i> functions to complete the asynchronous operations that they initate
+  <i>ProtocolClModifyCallQoSComplete</i> functions to complete the asynchronous operations that they initiate
   with 
   <a href="https://msdn.microsoft.com/library/windows/hardware/ff561636">NdisClModifyCallQoS</a>. Otherwise, such a
   protocol driver's registered 

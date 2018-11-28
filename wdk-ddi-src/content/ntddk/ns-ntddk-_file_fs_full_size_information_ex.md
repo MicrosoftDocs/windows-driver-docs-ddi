@@ -31,6 +31,7 @@ api_name:
 -	_FILE_FS_FULL_SIZE_INFORMATION_EX
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _FILE_FS_FULL_SIZE_INFORMATION_EX structure

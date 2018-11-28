@@ -28,6 +28,7 @@ api_name:
 -	_UCMUCSIFUNCENUM
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCMUCSIFUNCENUM enumeration

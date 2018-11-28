@@ -27,6 +27,7 @@ api_name:
 -	_USBC_PD_CONN_STATE
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _USBC_PD_CONN_STATE enumeration

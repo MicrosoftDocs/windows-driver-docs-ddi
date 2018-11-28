@@ -33,6 +33,7 @@ api_name:
 -	IOMMU_DEVICE_FAULT_HANDLER
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # IOMMU_DEVICE_FAULT_HANDLER callback function

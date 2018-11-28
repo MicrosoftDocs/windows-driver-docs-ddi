@@ -81,45 +81,12 @@ Pointer to an event that is to be set by the miniport driver, or <b>NULL</b>. Th
 
 Specifies the action to be performed. This parameter must be one of the following values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-<b>VideoPortDmaInitOnly</b>
-
-</td>
-<td>
-<b>VideoPortLockPages</b> locks the requested memory.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>VideoPortKeepPagesLocked</b>
-
-</td>
-<td>
-<b>VideoPortLockPages</b> takes no action.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>VideoPortUnlockAfterDma</b>
-
-</td>
-<td>
-<b>VideoPortLockPages</b> takes no action.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|VideoPortDmaInitOnly|VideoPortLockPages locks the requested memory.|
+|VideoPortKeepPagesLocked|VideoPortLockPages takes no action.|
+|VideoPortUnlockAfterDma|VideoPortLockPages takes no action.|
  
-
-
 ## -returns
 
 

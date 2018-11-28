@@ -81,82 +81,16 @@ A 4076-byte array that specifies the information that is retrieved from a protec
 
 To return the requested information, the display miniport driver should cast <b>abRequestedInformation</b> to one of the following structures, depending on the GUID that was specified in the <b>guidInformation</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560868">DXGKMDT_OPM_GET_INFO_PARAMETERS</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff560859">DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure that the <i>Parameters</i> parameter of <a href="https://msdn.microsoft.com/3d6559e5-776e-4fc0-b99a-8818cbcc289d">DxgkDdiOPMGetInformation</a> or <a href="https://msdn.microsoft.com/9f15df1e-bdf5-4634-97f1-78515664b594">DxgkDdiOPMGetCOPPCompatibleInformation</a> points to. As an example, the DXGKMDT_OPM_GET_CONNECTED_HDCP_DEVICE_INFORMATION GUID indicates the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560854">DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION</a> structure.
 
-<table>
-<tr>
-<th>GUID</th>
-<th>Structure for retrieved information</th>
-</tr>
-<tr>
-<td>
-
-<dl>
-<dt>DXGKMDT_OPM_GET_CONNECTOR_TYPE, DXGKMDT_OPM_GET_SUPPORTED_PROTECTION_TYPES, DXGKMDT_OPM_GET_VIRTUAL_PROTECTION_LEVEL, DXGKMDT_OPM_GET_ACTUAL_PROTECTION_LEVEL, DXGKMDT_OPM_GET_ADAPTER_BUS_TYPE, </dt>
-<dt>DXGKMDT_OPM_GET_DVI_CHARACTERISTICS, or DXGKMDT_OPM_GET_CURRENT_HDCP_SRM_VERSION</dt>
-</dl>
-
-
-</td>
-<td>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560925">DXGKMDT_OPM_STANDARD_INFORMATION</a>
-
-
-</td>
-</tr>
-<tr>
-<td>
-DXGKMDT_OPM_GET_ACTUAL_OUTPUT_FORMAT
-
-</td>
-<td>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560840">DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT</a>
-
-
-</td>
-</tr>
-<tr>
-<td>
-DXGKMDT_OPM_GET_OUTPUT_ID
-
-</td>
-<td>
-Supported in Windows 7 and later versions.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560890">DXGKMDT_OPM_OUTPUT_ID</a>
-
-
-</td>
-</tr>
-<tr>
-<td>
-DXGKMDT_OPM_GET_ACP_AND_CGMSA_SIGNALING
-
-</td>
-<td>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560830">DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING</a>
-
-
-</td>
-</tr>
-<tr>
-<td>
-DXGKMDT_OPM_GET_CONNECTED
-
-_HDCP_DEVICE_INFORMATION
-
-</td>
-<td>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560854">DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION</a>
-
-
-</td>
-</tr>
-</table>
- 
+| **GUID** | **Structure for retrieved information** | 
+|:--|:--|
+| DXGKMDT_OPM_GET_CONNECTOR_TYPE, DXGKMDT_OPM_GET_SUPPORTED_PROTECTION_TYPES, DXGKMDT_OPM_GET_VIRTUAL_PROTECTION_LEVEL, DXGKMDT_OPM_GET_ACTUAL_PROTECTION_LEVEL, DXGKMDT_OPM_GET_ADAPTER_BUS_TYPE, [DXGKMDT_OPM_STANDARD_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560925)  |
+DXGKMDT_OPM_GET_DVI_CHARACTERISTICS, or DXGKMDT_OPM_GET_CURRENT_HDCP_SRM_VERSION |
+| DXGKMDT_OPM_GET_ACTUAL_OUTPUT_FORMAT | [DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT](https://msdn.microsoft.com/library/windows/hardware/ff560840)  |
+| DXGKMDT_OPM_GET_OUTPUT_ID | Supported in Windows 7 and later versions.
+[DXGKMDT_OPM_OUTPUT_ID](https://msdn.microsoft.com/library/windows/hardware/ff560890)  | 
+| DXGKMDT_OPM_GET_ACP_AND_CGMSA_SIGNALING | [DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING](https://msdn.microsoft.com/library/windows/hardware/ff560830)  |
+| DXGKMDT_OPM_GET_CONNECTED [DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560854)  |
+_HDCP_DEVICE_INFORMATION |
 
 
 ## -see-also
