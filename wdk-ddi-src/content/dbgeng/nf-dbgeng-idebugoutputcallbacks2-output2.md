@@ -55,7 +55,7 @@ Returns notifications for the <a href="https://msdn.microsoft.com/D35D8960-AD9F-
 
 ### -param Which [in]
 
-The kind of DEBUG_OUTPUTCB_XXX notification that is coming in. The DEBUG_OUTPUTCB_XXX notifications are defined in the dbgeng.h header using  #defines. For more information, see [DEBUG_OUTPUTCB_XXX](https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outputcb-xxx).
+The kind of DEBUG_OUTCB_XXX notification that is coming in. The DEBUG_OUTCB_XXX notifications are defined in the dbgeng.h header using  #defines. For more information, see [DEBUG_OUTCB_XXX](https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outcb-xxx).
 
 
 ### -param Flags [in]
