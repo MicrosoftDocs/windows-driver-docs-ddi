@@ -59,7 +59,7 @@ The <b>PcRegisterAdapterPowerManagement</b> function registers the adapter's pow
 
 ### -param Unknown
 
-<p>Pointer to an adapter driver object's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown"><b>IUnknown</b></a> interface. The PortCls system driver queries this object for its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iadapterpowermanagement">IAdapterPowerManagement</a> interface.</p>
+<p>Pointer to an adapter driver object's <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown"><b>IUnknown</b></a> interface. The PortCls system driver queries this object for its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iadapterpowermanagement">IAdapterPowerManagement</a> interface.</p>
 
 
 ### -param pvContext1 [in]
