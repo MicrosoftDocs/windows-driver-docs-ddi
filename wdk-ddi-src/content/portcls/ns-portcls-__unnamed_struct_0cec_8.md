@@ -1,5 +1,5 @@
 ---
-UID: NS:portcls.__unnamed_struct_0cec_8
+UID: NS:portcls.__unnamed_struct_5
 title: "*PPCNODE_DESCRIPTOR"
 author: windows-driver-content
 description: The PCNODE_DESCRIPTOR structure describes a node in the filter that a topology miniport driver implements.

@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.PKSPIN_COMMUNICATION
+UID: NE:ks.__unnamed_enum_13
 title: "*PKSPIN_COMMUNICATION"
 author: windows-driver-content
 description: 

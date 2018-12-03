@@ -1,5 +1,5 @@
 ---
-UID: NE:iscsiop.PISCSI_ADAPTER_EVENT_CODE
+UID: NE:iscsiop.__unnamed_enum_1
 title: "*PISCSI_ADAPTER_EVENT_CODE"
 author: windows-driver-content
 description: The ISCSI_ADAPTER_EVENT_CODE enumeration indicates the type of adapter event.

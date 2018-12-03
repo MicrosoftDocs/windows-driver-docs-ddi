@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.PKSSTATE
+UID: NE:ks.__unnamed_enum_1
 title: "*PKSSTATE"
 author: windows-driver-content
 description: The KSSTATE enumeration lists possible states of a kernel streaming object.

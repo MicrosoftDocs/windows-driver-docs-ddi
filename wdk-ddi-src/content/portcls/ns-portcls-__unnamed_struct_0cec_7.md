@@ -1,5 +1,5 @@
 ---
-UID: NS:portcls.__unnamed_struct_0cec_7
+UID: NS:portcls.__unnamed_struct_4
 title: "*PPCPIN_DESCRIPTOR"
 author: windows-driver-content
 description: The PCPIN_DESCRIPTOR structure describes a pin factory.

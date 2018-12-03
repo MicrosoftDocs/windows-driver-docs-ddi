@@ -1,5 +1,5 @@
 ---
-UID: NE:iscsiop.PLOGINSESSIONTYPE
+UID: NE:iscsiop.__unnamed_enum_0
 title: "*PLOGINSESSIONTYPE"
 author: windows-driver-content
 description: The LOGINSESSIONTYPE enumeration indicates the type of logon session.

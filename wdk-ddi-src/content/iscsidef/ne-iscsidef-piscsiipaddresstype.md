@@ -1,5 +1,5 @@
 ---
-UID: NE:iscsidef.PISCSIIPADDRESSTYPE
+UID: NE:iscsidef.__unnamed_enum_0
 title: "*PISCSIIPADDRESSTYPE"
 author: windows-driver-content
 description: The ISCSIIPADDRESSTYPE enumeration indicates formats for an IP address.

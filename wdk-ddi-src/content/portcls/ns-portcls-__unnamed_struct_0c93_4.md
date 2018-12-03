@@ -1,5 +1,5 @@
 ---
-UID: NS:portcls.__unnamed_struct_0c93_4
+UID: NS:portcls.__unnamed_struct_1
 title: "*PPCMETHOD_ITEM"
 author: windows-driver-content
 description: The PCMETHOD_ITEM structure describes a method supported by a filter, pin, or node.

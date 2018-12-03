@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.PKSPIN_DATAFLOW
+UID: NE:ks.__unnamed_enum_12
 title: "*PKSPIN_DATAFLOW"
 author: windows-driver-content
 description: An instance of the KSPIN_DATAFLOW enumeration is returned by KSPROPERTY_PIN_DATAFLOW.

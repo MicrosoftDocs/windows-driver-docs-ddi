@@ -1,5 +1,5 @@
 ---
-UID: NE:iscsidef.PISCSI_DIGEST_TYPES
+UID: NE:iscsidef.__unnamed_enum_1
 title: "*PISCSI_DIGEST_TYPES"
 author: windows-driver-content
 description: The ISCSI_DIGEST_TYPES enumeration indicates the digest type.

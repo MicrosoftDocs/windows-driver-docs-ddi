@@ -1,5 +1,5 @@
 ---
-UID: NE:pep_x.PPEP_PROCESSOR_IDLE_CANCEL_CODE
+UID: NE:pep_x.__unnamed_enum_1
 title: "*PPEP_PROCESSOR_IDLE_CANCEL_CODE"
 author: windows-driver-content
 description: The PEP_PROCESSOR_IDLE_CANCEL_CODE enumeration values indicate reasons why a processor cannot enter an idle state that was previously selected by the platform extension plug-in (PEP).
