@@ -1,5 +1,5 @@
 ---
-UID: XXNS:ks.__unnamed_struct_29
+UID: NS:ks.__unnamed_struct_29
 title: KSDATAFORMAT
 author: windows-driver-content
 description: The KSDATAFORMAT structure is a variable-length structure that describes a data format.

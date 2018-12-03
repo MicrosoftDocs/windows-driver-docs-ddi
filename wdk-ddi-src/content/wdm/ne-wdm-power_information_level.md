@@ -1,5 +1,5 @@
 ---
-UID: XXNE:ntpoapi.__unnamed_enum_2
+UID: NE:ntpoapi.__unnamed_enum_2
 title: POWER_INFORMATION_LEVEL
 author: windows-driver-content
 description: Indicates power level information.
