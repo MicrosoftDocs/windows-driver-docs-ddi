@@ -93,7 +93,7 @@ The size of the creation parameters.
 
 Handle to a meta-command.
 
-### -param Arg3: 
+### -param Arg3
 
 A meta-command.
 

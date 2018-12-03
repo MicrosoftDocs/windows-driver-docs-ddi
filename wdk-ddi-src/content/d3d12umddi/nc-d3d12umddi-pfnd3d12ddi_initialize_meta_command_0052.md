@@ -76,9 +76,9 @@ A handle to a meta-command.
 
 ### -param *
 
-A pointer to a D3D12DDIARG_METACOMMAND_PARAMETER_DATA structure to initialize.
+A pointer to a [D3D12DDIARG_METACOMMAND_PARAMETER_DATA](ns-d3d12umddi-d3d12ddiarg_metacommand_parameter_data.md) structure to initialize.
 
-### -param Arg3: 
+### -param Arg3
 
 The number of parameters in the meta-command.
 

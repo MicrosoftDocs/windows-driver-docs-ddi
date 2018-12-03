@@ -7,10 +7,10 @@ ms.assetid: d67108d9-c3fa-41dc-ac6f-79243c1f7b68
 ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.include-header: D3dkmthk.h
+req.target-type: Universal
+req.target-min-winverclnt: Windows 8.1
+req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver:
 req.umdf-ver:
 req.lib:
@@ -35,6 +35,7 @@ product:
 -	Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
 ---
 
 # PFND3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT callback function

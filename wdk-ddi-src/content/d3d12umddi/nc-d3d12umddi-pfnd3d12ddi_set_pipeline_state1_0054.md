@@ -68,7 +68,7 @@ VOID Pfnd3d12ddiSetPipelineState10054
 
 A handle to the command list.
 
-### -param Arg2: 
+### -param Arg2
 
 A handle to the state object.
 

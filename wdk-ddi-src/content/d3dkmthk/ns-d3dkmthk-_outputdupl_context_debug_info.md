@@ -32,6 +32,7 @@ product:
 -	Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
 ---
 
 # _OUTPUTDUPL_CONTEXT_DEBUG_INFO structure

@@ -31,6 +31,7 @@ api_name:
 product: 
 -	Windows
 targetos: Windows
+tech.root: display
 ---
 
 # DXGK_BRIGHTNESS_INTERFACE_3 structure

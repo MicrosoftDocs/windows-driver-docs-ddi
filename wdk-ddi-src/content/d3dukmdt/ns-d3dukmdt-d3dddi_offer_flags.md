@@ -32,6 +32,7 @@ product:
 -	Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
 ---
 
 # D3DDDI_OFFER_FLAGS structure

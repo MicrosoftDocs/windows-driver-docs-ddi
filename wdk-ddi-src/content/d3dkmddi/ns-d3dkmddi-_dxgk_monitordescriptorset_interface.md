@@ -47,7 +47,7 @@ req.typenames: DXGK_MONITORDESCRIPTORSET_INTERFACE
 ## -description
 
 
-The DXGK_MONITORDESCRIPTORSET_INTERFACE structure contains pointers to functions that belong to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568427">Monitor Descriptor Set Interface</a>, which is implemented by the video present network (VidPN) manager.
+The DXGK_MONITORDESCRIPTORSET_INTERFACE structure contains pointers to functions that belong to the Monitor descriptor set interface, which is implemented by the [video present network (VidPN) manager](https://docs.microsoft.com/windows-hardware/drivers/display/vidpn-objects-and-interfaces).
 
 
 ## -struct-fields

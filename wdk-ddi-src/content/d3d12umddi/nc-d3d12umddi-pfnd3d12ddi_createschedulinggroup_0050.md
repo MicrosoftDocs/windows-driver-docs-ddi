@@ -72,13 +72,13 @@ A handle to the display device (graphics context).
 
 ### -param *
 
-Pointer to a D3D12DDIARG_CREATESCHEDULINGGROUP_0050 structure that contains arguments to create a scheduling group.
+Pointer to a [D3D12DDIARG_CREATESCHEDULINGGROUP_0050](ns-d3d12umddi-d3d12ddiarg_createschedulinggroup_0050.md) structure that contains arguments to create a scheduling group.
 
 ### -param Arg2
 
 A D3D12DDI_HSCHEDULINGGROUP_0050 user mode driver handle type that represents a hardware scheduling group.
 
-### -param Arg3: 
+### -param Arg3
 
 A D3D12DDI_HRTSCHEDULINGGROUP_0050 runtime handle type that represents the contexts associated with a hardware scheduling group.
 

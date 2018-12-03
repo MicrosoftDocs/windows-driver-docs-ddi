@@ -35,6 +35,7 @@ product:
 -	Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
 ---
 
 # PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW callback function

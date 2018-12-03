@@ -7,10 +7,10 @@ ms.assetid: 7cb8aa84-fd33-4667-af4d-6ceb20e5edf5
 ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.include-header: D3dkmthk.h
+req.target-type: Universal
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver:
 req.umdf-ver:
 req.lib:
@@ -30,11 +30,13 @@ api_type:
 api_location: 
 -	d3dkmthk.h
 api_name: 
--	PFND3DKMT_PINDIRECTFLIPRESOURCES
+- PFND3DKMT_PINDIRECTFLIPRESOURCES
+- D3DKMTPinDirectFlipResources
 product:
 -	Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
 ---
 
 # PFND3DKMT_PINDIRECTFLIPRESOURCES callback function
@@ -64,16 +66,16 @@ NTSTATUS Pfnd3dkmtPindirectflipresources
 
 ### -param * 
 
+*\_In\_* *pResources*
+
 Pointer to a [D3DKMT_PINDIRECTFLIPRESOURCES](ns-d3dkmthk-_d3dkmt_pindirectflipresources.md) structure.
 
 ## -returns
 
 Returns NTSTATUS.
 
-
 ## -remarks
 
-
-
-
 ## -see-also
+
+[D3DKMT_PINDIRECTFLIPRESOURCES](ns-d3dkmthk-_d3dkmt_pindirectflipresources.md)

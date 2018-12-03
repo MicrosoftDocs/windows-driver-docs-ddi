@@ -18,7 +18,7 @@ req.lib:
 req.dll:
 req.ddi-compliance:
 req.unicode-ansi:
-req.max-support:
+req.max-support: Windows 10, version 1803
 req.typenames: D3D12DDIARG_BINDPOINT_IN_SHADER
 topic_type:
 -	apiref

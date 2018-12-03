@@ -9,7 +9,7 @@ ms.topic: callback
 req.header: dispmprt.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -68,7 +68,7 @@ NTSTATUS DxgkddiGetbackingresource
 
 A handle to the device context.
 
-### -param pArgs: 
+### -param pArgs
 
 Pointer to a [DXGKARG_GETBACKINGRESOURCE](ns-dispmprt-_dxgkarg_getbackingresource.md) structure.
 

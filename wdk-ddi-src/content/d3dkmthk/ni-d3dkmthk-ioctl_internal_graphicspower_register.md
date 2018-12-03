@@ -30,6 +30,7 @@ product:
 -	Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
 ---
 
 # IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER IOCTL

@@ -55,14 +55,14 @@ The <b>pfnAllocateCb</b> function allocates system or video memory.
 
 
 
-### -param hDevice [in]
+### -param hDevice 
 
-A handle to the display device (graphics context).
+[in] A handle to the display device (graphics context).
 
 
 ### -param *
 
-pData [in, out]
+*pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544137">D3DDDICB_ALLOCATE</a> structure that describes the allocation.
 
@@ -206,5 +206,5 @@ The following code example shows how to allocate memory for a resource.
 <a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a>
  
 
- 
+[Direct3D Runtime Functions Called by the User-Mode Display Drivers](https://docs.microsoft.com/windows-hardware/drivers/display/direct3d-runtime-functions-called-by-user-mode)
 

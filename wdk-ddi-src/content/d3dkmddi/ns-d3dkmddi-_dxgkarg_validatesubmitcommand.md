@@ -10,7 +10,7 @@ ms.keywords: _DXGKARG_VALIDATESUBMITCOMMAND, DXGKARG_VALIDATESUBMITCOMMAND, *INO
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -48,10 +48,12 @@ Arguments used in the call to [DXGKDDI_VALIDATESUBMITCOMMAND](nc-d3dkmddi-dxgkdd
 GPU virtual address of the command buffer.
 
 ### -field CommandLength
- 
+
+Command length.
+
 ### -field Flags
 
-**HardwareQueueSubmission** Set to TRUE when [DXGKDDI_VALIDATESUBMITCOMMAND](nc-d3dkmddi-dxgkddi_validatesubmitcommand.md) is called from [DxgkDdiSubmitCommandToHwQueue](nc-d3dkmddi-dxgkddi_submitcommandtohwqueue.md). Otherwise, it is called from [D3DKMTSubmitCommand](nc-d3dkmddi-dxgkddi_submitcommand.md).
+**HardwareQueueSubmission** is set to TRUE when [DXGKDDI_VALIDATESUBMITCOMMAND](nc-d3dkmddi-dxgkddi_validatesubmitcommand.md) is called from [DxgkDdiSubmitCommandToHwQueue](nc-d3dkmddi-dxgkddi_submitcommandtohwqueue.md). Otherwise, it is called from [D3DKMTSubmitCommand](nc-d3dkmddi-dxgkddi_submitcommand.md).
 
 ### -field ContextCount
 
@@ -59,7 +61,7 @@ Number of valid handles in the Context array.
 
 ### -field Context
 
-Array of driver context handles when Flags.HardwareQueueSubmission is 0. An array of driver hardware queue handles when Flags.HardwareQueueSubmission is 1.
+Array of driver context handles when **Flags.HardwareQueueSubmission** is 0. An array of driver hardware queue handles when **Flags.HardwareQueueSubmission** is 1.
 
 ### -field pPrivateDriverData
 
@@ -77,7 +79,7 @@ The portion of the buffer, which is not passed from user mode, is not initialize
 
 ### -field HwQueueProgressFenceId
  
-Valid only when Flags.HardwareQueueSubmission is set.
+Valid only when **Flags.HardwareQueueSubmission** is set.
 
 ## -remarks
 
