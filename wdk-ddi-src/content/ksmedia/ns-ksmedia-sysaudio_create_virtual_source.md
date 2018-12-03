@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.SYSAUDIO_CREATE_VIRTUAL_SOURCE
+UID: NS:ksmedia.__unnamed_struct_55
 title: SYSAUDIO_CREATE_VIRTUAL_SOURCE
 author: windows-driver-content
 description: The SYSAUDIO_CREATE_VIRTUAL_SOURCE structure is used to create a mixer-line virtual source such as a volume control or mute.

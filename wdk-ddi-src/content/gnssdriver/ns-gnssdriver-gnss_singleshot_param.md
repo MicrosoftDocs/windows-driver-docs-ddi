@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_SINGLESHOT_PARAM
+UID: NS:gnssdriver.__unnamed_struct_4
 title: GNSS_SINGLESHOT_PARAM
 author: windows-driver-content
 description: This structure defines the parameters for a single-shot fix session.

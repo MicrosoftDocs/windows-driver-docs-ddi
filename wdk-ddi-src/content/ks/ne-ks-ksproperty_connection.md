@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.KSPROPERTY_CONNECTION
+UID: NE:ks.__unnamed_enum_17
 title: KSPROPERTY_CONNECTION
 author: windows-driver-content
 description: 

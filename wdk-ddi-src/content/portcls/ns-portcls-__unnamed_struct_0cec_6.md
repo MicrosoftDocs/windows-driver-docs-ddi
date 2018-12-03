@@ -1,5 +1,5 @@
 ---
-UID: NS:portcls.__unnamed_struct_0cec_6
+UID: NS:portcls.__unnamed_struct_3
 title: PCAUTOMATION_TABLE
 author: windows-driver-content
 description: The PCAUTOMATION_TABLE structure contains a miniport driver's master table of properties, methods, and events.

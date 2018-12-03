@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSRTAUDIO_BUFFER
+UID: NS:ksmedia.__unnamed_struct_25
 title: KSRTAUDIO_BUFFER
 author: windows-driver-content
 description: The KSRTAUDIO_BUFFER structure specifies the buffer address, size, and a call memory barrier flag for a cyclic audio data buffer.

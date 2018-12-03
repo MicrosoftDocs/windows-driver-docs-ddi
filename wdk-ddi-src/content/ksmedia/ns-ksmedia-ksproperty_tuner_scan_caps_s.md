@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSPROPERTY_TUNER_SCAN_CAPS_S
+UID: NS:ksmedia.__unnamed_struct_104
 title: KSPROPERTY_TUNER_SCAN_CAPS_S
 author: windows-driver-content
 description: The KSPROPERTY_TUNER_SCAN_CAPS_S structure describes the hardware scanning capabilities of a tuning device.

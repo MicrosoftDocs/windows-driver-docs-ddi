@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSRESOLUTION
+UID: NS:ks.__unnamed_struct_60
 title: KSRESOLUTION
 author: windows-driver-content
 description: The KSRESOLUTION structure specifies granularity and error of a kernel streaming clock.

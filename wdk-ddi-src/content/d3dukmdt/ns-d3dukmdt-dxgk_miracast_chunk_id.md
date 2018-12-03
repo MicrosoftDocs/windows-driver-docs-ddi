@@ -1,5 +1,5 @@
 ---
-UID: NS:d3dukmdt.DXGK_MIRACAST_CHUNK_ID
+UID: NS:d3dukmdt.__unnamed_union_16
 title: DXGK_MIRACAST_CHUNK_ID
 author: windows-driver-content
 description: Stores info that identifies a wireless display (Miracast) encode chunk.

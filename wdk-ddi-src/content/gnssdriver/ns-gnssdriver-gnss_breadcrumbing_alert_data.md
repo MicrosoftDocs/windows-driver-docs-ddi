@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_BREADCRUMBING_ALERT_DATA
+UID: NS:gnssdriver.__unnamed_struct_16
 title: GNSS_BREADCRUMBING_ALERT_DATA
 author: windows-driver-content
 description: This structure contains alert information for when the breadcrumb buffer has reached a level where OS read operations should be performed.

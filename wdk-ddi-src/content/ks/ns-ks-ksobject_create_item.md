@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSOBJECT_CREATE_ITEM
+UID: NS:ks.__unnamed_struct_76
 title: KSOBJECT_CREATE_ITEM
 author: windows-driver-content
 description: The KSOBJECT_CREATE_ITEM structure is used to look up the string passed to a create request.

@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S
+UID: NS:ksmedia.__unnamed_struct_85
 title: KSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S
 author: windows-driver-content
 description: The KSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S structure specifies the width and height of an overlay surface.

@@ -1,5 +1,5 @@
 ---
-UID: NS:netdispumdddi.MIRACAST_STATISTIC_DATA
+UID: NS:netdispumdddi.__unnamed_struct_2
 title: MIRACAST_STATISTIC_DATA
 author: windows-driver-content
 description: Contains Miracast statistics data that the user-mode display driver reports to the operating system.

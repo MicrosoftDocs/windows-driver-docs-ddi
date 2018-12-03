@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.TUNER_ANALOG_CAPS_S
+UID: NS:ksmedia.__unnamed_struct_103
 title: TUNER_ANALOG_CAPS_S
 author: windows-driver-content
 description: The TUNER_ANALOG_CAPS_S structure describes the hardware scanning capabilities of a tuning device that supports an analog broadcast network.

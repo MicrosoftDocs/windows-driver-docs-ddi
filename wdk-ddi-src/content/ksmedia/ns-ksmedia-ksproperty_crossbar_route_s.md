@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSPROPERTY_CROSSBAR_ROUTE_S
+UID: NS:ksmedia.__unnamed_struct_140
 title: KSPROPERTY_CROSSBAR_ROUTE_S
 author: windows-driver-content
 description: The KSPROPERTY_CROSSBAR_ROUTE_S structure describes whether a particular routing is possible and specifies the current routing for a pin.

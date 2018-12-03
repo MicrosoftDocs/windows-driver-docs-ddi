@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_CONTINUOUSTRACKING_PARAM
+UID: NS:gnssdriver.__unnamed_struct_6
 title: GNSS_CONTINUOUSTRACKING_PARAM
 author: windows-driver-content
 description: This structure defines the parameters for a continuous tracking fix session.

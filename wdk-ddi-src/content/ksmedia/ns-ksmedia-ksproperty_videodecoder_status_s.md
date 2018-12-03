@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSPROPERTY_VIDEODECODER_STATUS_S
+UID: NS:ksmedia.__unnamed_struct_110
 title: KSPROPERTY_VIDEODECODER_STATUS_S
 author: windows-driver-content
 description: The KSPROPERTY_VIDEODECODER_STATUS_S structure describes the present status of a video decoding device, such as number of lines in the incoming analog signal and whether the signal is locked in.

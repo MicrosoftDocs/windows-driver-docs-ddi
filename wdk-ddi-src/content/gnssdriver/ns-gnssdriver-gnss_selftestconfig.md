@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_SELFTESTCONFIG
+UID: NS:gnssdriver.__unnamed_struct_44
 title: GNSS_SELFTESTCONFIG
 author: windows-driver-content
 description: This structure defines the specific data elements associated with a carrier wave test results returned from the driver.

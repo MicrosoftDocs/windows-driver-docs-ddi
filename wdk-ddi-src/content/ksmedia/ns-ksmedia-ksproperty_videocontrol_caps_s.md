@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSPROPERTY_VIDEOCONTROL_CAPS_S
+UID: NS:ksmedia.__unnamed_struct_148
 title: KSPROPERTY_VIDEOCONTROL_CAPS_S
 author: windows-driver-content
 description: The KSPROPERTY_VIDEOCONTROL_CAPS_S structure describes the video-control capabilities of a minidriver, such as image flipping or event triggering abilities.

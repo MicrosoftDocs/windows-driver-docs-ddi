@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.KSPROPERTY_QUALITY
+UID: NE:ks.__unnamed_enum_16
 title: KSPROPERTY_QUALITY
 author: windows-driver-content
 description: 

@@ -1,5 +1,5 @@
 ---
-UID: NS:bdamedia.KSP_NODE_ESPID
+UID: NS:bdamedia.__unnamed_struct_0
 title: KSP_NODE_ESPID
 author: windows-driver-content
 description: The KSP_NODE_ESPID structure describes property and node type for an Entitlement Control Message (ECM) map node along with the packet identifier (PID) for an elementary stream that the ECM map node processes.

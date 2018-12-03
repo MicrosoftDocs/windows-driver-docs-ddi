@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSAUDIO_PRESENTATION_POSITION
+UID: NS:ksmedia.__unnamed_struct_8
 title: KSAUDIO_PRESENTATION_POSITION
 author: windows-driver-content
 description: The KSAUDIO_PRESENTATION_POSITION structure specifies the current cursor position in audio data stream that is being rendered to the endpoint.

@@ -1,5 +1,5 @@
 ---
-UID: NS:netdispumdddi.MIRACAST_CHUNK_INFO
+UID: NS:netdispumdddi.__unnamed_struct_1
 title: MIRACAST_CHUNK_INFO
 author: windows-driver-content
 description: Contains info about a specified wireless display (Miracast) encode chunk.

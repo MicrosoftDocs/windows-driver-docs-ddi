@@ -1,5 +1,5 @@
 ---
-UID: NS:ufs.UFS_GEOMETRY_DESCRIPTOR
+UID: NS:ufs.__unnamed_struct_3
 title: UFS_GEOMETRY_DESCRIPTOR
 author: windows-driver-content
 description: UFS_GEOMETRY_DESCRIPTOR describes a device's geometric parameters.

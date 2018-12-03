@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSMETHOD_SET
+UID: NS:ks.__unnamed_struct_71
 title: KSMETHOD_SET
 author: windows-driver-content
 description: The KSMETHOD_SET structure describes the methods that comprise a kernel streaming method set.

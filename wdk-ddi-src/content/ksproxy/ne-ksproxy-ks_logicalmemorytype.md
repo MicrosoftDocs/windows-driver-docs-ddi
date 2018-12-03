@@ -1,5 +1,5 @@
 ---
-UID: NE:ksproxy.KS_LogicalMemoryType
+UID: NE:ksproxy.__unnamed_enum_5
 title: KS_LogicalMemoryType
 author: windows-driver-content
 description: 

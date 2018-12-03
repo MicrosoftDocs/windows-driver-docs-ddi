@@ -1,5 +1,5 @@
 ---
-UID: NS:storport.POPULATE_TOKEN_HEADER
+UID: XXXXNS:minitape.__unnamed_struct_16
 title: POPULATE_TOKEN_HEADER
 author: windows-driver-content
 description: A populate token parameter list starts with a POPULATE_TOKEN_HEADER structure. This is the header for the parameters in a command data block (CDB) of the POPULATE TOKEN command.

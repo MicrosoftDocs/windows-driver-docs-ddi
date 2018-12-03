@@ -1,5 +1,5 @@
 ---
-UID: NS:ufs.UFS_DEVICE_HEALTH_DESCRIPTOR
+UID: NS:ufs.__unnamed_struct_8
 title: UFS_DEVICE_HEALTH_DESCRIPTOR
 author: windows-driver-content
 description: The UFS_DEVICE_HEALTH_DESCRIPTOR structure describes the health of a device.

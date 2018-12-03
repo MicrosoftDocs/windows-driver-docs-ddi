@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSRTAUDIO_GETREADPACKET_INFO
+UID: NS:ksmedia.__unnamed_struct_34
 title: KSRTAUDIO_GETREADPACKET_INFO
 author: windows-driver-content
 description: The KSRTAUDIO_GETREADPACKET_INFO structure describes information for an audio packet.

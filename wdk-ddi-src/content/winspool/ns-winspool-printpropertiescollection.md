@@ -1,5 +1,5 @@
 ---
-UID: NS:winspool.PrintPropertiesCollection
+UID: NS:winspool.__unnamed_struct_2
 title: PrintPropertiesCollection
 author: windows-driver-content
 description: 

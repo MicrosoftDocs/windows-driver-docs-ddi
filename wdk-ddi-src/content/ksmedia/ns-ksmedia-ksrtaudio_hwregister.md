@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSRTAUDIO_HWREGISTER
+UID: NS:ksmedia.__unnamed_struct_30
 title: KSRTAUDIO_HWREGISTER
 author: windows-driver-content
 description: The KSRTAUDIO_HWREGISTER structure specifies the address and additional information about a hardware register requested by the client.

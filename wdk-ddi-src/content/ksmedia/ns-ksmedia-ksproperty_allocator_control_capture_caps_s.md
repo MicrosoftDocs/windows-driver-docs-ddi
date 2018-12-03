@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_CAPS_S
+UID: NS:ksmedia.__unnamed_struct_86
 title: KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_CAPS_S
 author: windows-driver-content
 description: The KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_CAPS_S structure specifies if interleaved capture is supported.

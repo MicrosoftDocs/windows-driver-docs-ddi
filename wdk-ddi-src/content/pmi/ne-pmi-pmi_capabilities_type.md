@@ -1,5 +1,5 @@
 ---
-UID: NE:pmi.PMI_CAPABILITIES_TYPE
+UID: NE:pmi.__unnamed_enum_0
 title: PMI_CAPABILITIES_TYPE
 author: windows-driver-content
 description: The PMI_CAPABILITIES_TYPE enumeration defines the type of capabilities data that is referenced by the Capability member of the PMI_CAPABILITIES structure.

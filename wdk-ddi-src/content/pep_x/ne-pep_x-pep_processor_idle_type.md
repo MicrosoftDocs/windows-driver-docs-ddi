@@ -1,5 +1,5 @@
 ---
-UID: NE:pep_x.PEP_PROCESSOR_IDLE_TYPE
+UID: NE:pep_x.__unnamed_enum_0
 title: PEP_PROCESSOR_IDLE_TYPE
 author: windows-driver-content
 description: The PEP_PROCESSOR_IDLE_TYPE enumeration indicates whether idle constraints apply to just the current processor or to all processors in the hardware platform.

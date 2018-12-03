@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE
+UID: NE:ksmedia.__unnamed_enum_77
 title: KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE
 author: windows-driver-content
 description: Used to specify camera video stabilization.

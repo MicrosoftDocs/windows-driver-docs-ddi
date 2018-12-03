@@ -1,5 +1,5 @@
 ---
-UID: NS:netdispumdddi.MIRACAST_CHUNK_ID
+UID: NS:netdispumdddi.__unnamed_union_0
 title: MIRACAST_CHUNK_ID
 author: windows-driver-content
 description: Stores info that identifies a wireless display (Miracast) encode chunk.

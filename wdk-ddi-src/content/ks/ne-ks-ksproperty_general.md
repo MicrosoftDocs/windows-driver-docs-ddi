@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.KSPROPERTY_GENERAL
+UID: NE:ks.__unnamed_enum_2
 title: KSPROPERTY_GENERAL
 author: windows-driver-content
 description: 

@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.KSPROPERTY_CLOCK
+UID: NE:ks.__unnamed_enum_26
 title: KSPROPERTY_CLOCK
 author: windows-driver-content
 description: 

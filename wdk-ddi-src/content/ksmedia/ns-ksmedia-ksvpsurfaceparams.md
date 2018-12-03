@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSVPSURFACEPARAMS
+UID: XXNS:ksmedia.__unnamed_struct_155
 title: KSVPSURFACEPARAMS
 author: windows-driver-content
 description: The KSVPSURFACEPARAMS structure is used to describe the surface parameters of a video port surface.

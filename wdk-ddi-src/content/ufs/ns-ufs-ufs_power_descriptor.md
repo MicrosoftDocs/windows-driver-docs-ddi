@@ -1,5 +1,5 @@
 ---
-UID: NS:ufs.UFS_POWER_DESCRIPTOR
+UID: NS:ufs.__unnamed_struct_6
 title: UFS_POWER_DESCRIPTOR
 author: windows-driver-content
 description: UFS_POWER_DESCRIPTOR contains information about the power capabilities and power states of the device.

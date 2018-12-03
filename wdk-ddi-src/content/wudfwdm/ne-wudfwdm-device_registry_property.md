@@ -1,5 +1,5 @@
 ---
-UID: NE:wudfwdm.DEVICE_REGISTRY_PROPERTY
+UID: XXNE:wdm.__unnamed_enum_9
 title: DEVICE_REGISTRY_PROPERTY
 author: windows-driver-content
 description: The DEVICE_REGISTRY_PROPERTY enumeration identifies device properties that are stored in the registry.

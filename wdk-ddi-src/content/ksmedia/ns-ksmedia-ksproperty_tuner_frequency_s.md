@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSPROPERTY_TUNER_FREQUENCY_S
+UID: NS:ksmedia.__unnamed_struct_98
 title: KSPROPERTY_TUNER_FREQUENCY_S
 author: windows-driver-content
 description: The KSPROPERTY_TUNER_FREQUENCY_S structure describes the frequency of a TV or radio tuner device.

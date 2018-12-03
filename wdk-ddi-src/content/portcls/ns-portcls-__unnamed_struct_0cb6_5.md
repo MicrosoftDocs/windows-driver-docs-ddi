@@ -1,5 +1,5 @@
 ---
-UID: NS:portcls.__unnamed_struct_0cb6_5
+UID: NS:portcls.__unnamed_struct_2
 title: PCEVENT_ITEM
 author: windows-driver-content
 description: The PCEVENT_ITEM structure is used to describe an event that is supported by a particular filter, pin, or node.

@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION
+UID: NS:ksmedia.__unnamed_struct_23
 title: KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION
 author: windows-driver-content
 description: The KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION structure appends a buffer base address, a requested buffer size, and a notification count to a KSPROPERTY structure.

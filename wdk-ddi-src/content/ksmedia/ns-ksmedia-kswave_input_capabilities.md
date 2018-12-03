@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSWAVE_INPUT_CAPABILITIES
+UID: NS:ksmedia.__unnamed_struct_49
 title: KSWAVE_INPUT_CAPABILITIES
 author: windows-driver-content
 description: The KSWAVE_INPUT_CAPABILITIES structure is used to describe the input capabilities of a device.

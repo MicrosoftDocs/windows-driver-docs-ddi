@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_DEVICE_CAPABILITY
+UID: NS:gnssdriver.__unnamed_struct_1
 title: GNSS_DEVICE_CAPABILITY
 author: windows-driver-content
 description: This structure is used to determine the device capabilities of the underlying GNSS engine.

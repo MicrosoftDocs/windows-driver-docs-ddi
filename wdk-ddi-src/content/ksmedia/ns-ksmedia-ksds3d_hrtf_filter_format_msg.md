@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSDS3D_HRTF_FILTER_FORMAT_MSG
+UID: NS:ksmedia.__unnamed_struct_17
 title: KSDS3D_HRTF_FILTER_FORMAT_MSG
 author: windows-driver-content
 description: The KSDS3D_HRTF_FILTER_FORMAT_MSG structure specifies the filter format to use for a head-relative transfer function (HRTF).

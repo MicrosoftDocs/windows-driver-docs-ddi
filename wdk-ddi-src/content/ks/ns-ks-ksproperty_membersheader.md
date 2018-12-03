@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSPROPERTY_MEMBERSHEADER
+UID: NS:ks.__unnamed_struct_8
 title: KSPROPERTY_MEMBERSHEADER
 author: windows-driver-content
 description: A driver provides a structure of type KSPROPERTY_MEMBERSHEADER to describe the size and type of each element in an array containing property values or ranges.

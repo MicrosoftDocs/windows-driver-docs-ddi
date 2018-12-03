@@ -1,5 +1,5 @@
 ---
-UID: NE:ndis.NDIS_PD_COUNTER_TYPE
+UID: NE:ndis.__unnamed_enum_1
 title: NDIS_PD_COUNTER_TYPE
 author: windows-driver-content
 description: The NDIS_PD_COUNTER_TYPE enumeration defines types of PacketDirect Provider Interface (PDPI) counters. Its enumeration values are used in the Type member of the NDIS_PD_COUNTER_PARAMETERS structure.

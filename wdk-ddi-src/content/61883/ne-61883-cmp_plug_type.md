@@ -1,5 +1,5 @@
 ---
-UID: NE:61883.CMP_PLUG_TYPE
+UID: NE:61883.__unnamed_enum_2
 title: CMP_PLUG_TYPE
 author: windows-driver-content
 description: This enumeration specifies the type of a plug.

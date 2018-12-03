@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_GEOREGION_CIRCLE
+UID: NS:gnssdriver.__unnamed_struct_19
 title: GNSS_GEOREGION_CIRCLE
 author: windows-driver-content
 description: This structure is used for defining a circular geofence.

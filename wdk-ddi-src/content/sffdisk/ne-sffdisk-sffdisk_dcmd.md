@@ -1,5 +1,5 @@
 ---
-UID: NE:sffdisk.SFFDISK_DCMD
+UID: NE:sffdisk.__unnamed_enum_0
 title: SFFDISK_DCMD
 author: windows-driver-content
 description: The SFFDISK_DCMD enumeration identifies the type of Secure Digital (SD) card operation.

@@ -1,5 +1,5 @@
 ---
-UID: NS:portcls.__unnamed_struct_0c93_9
+UID: NS:portcls.__unnamed_struct_6
 title: PCFILTER_DESCRIPTOR
 author: windows-driver-content
 description: The PCFILTER_DESCRIPTOR structure describes a miniport driver's implementation of a filter. The structure specifies the filter's pins, nodes, connections, and properties.

@@ -1,5 +1,5 @@
 ---
-UID: NE:gnssdriver.GNSS_DRIVER_REQUEST
+UID: NE:gnssdriver.__unnamed_enum_9
 title: GNSS_DRIVER_REQUEST
 author: windows-driver-content
 description: GNSS_DRIVER_REQUEST enumerates the GNSS driver data request types.

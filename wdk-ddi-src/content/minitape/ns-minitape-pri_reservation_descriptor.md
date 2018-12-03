@@ -1,5 +1,5 @@
 ---
-UID: NS:minitape.PRI_RESERVATION_DESCRIPTOR
+UID: XXXXNS:minitape.__unnamed_struct_10
 title: PRI_RESERVATION_DESCRIPTOR
 author: windows-driver-content
 description: The PRI_RESERVATION_DESCRIPTOR structure is used to construct the PRI_RESERVATION_LIST structure that is returned in response to a Persistent Reserve In command with ServiceAction = RESERVATION_ACTION_READ_RESERVATIONS.

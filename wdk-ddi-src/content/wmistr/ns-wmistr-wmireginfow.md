@@ -1,5 +1,5 @@
 ---
-UID: NS:wmistr.WMIREGINFOW
+UID: NS:wmistr.__unnamed_struct_2
 title: WMIREGINFOW
 author: windows-driver-content
 description: The WMIREGINFO structure contains information provided by a driver to register or update its data blocks and event blocks.

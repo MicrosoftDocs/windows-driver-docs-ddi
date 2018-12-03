@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSPROPERTY_VALUES
+UID: NS:ks.__unnamed_struct_65
 title: KSPROPERTY_VALUES
 author: windows-driver-content
 description: The KSPROPERTY_VALUES structure describes the type and acceptable default values of a property.

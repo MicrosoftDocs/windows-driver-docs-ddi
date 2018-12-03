@@ -1,5 +1,5 @@
 ---
-UID: NS:scsi.PRI_REGISTRATION_LIST
+UID: XXXXNS:minitape.__unnamed_struct_9
 title: PRI_REGISTRATION_LIST
 author: windows-driver-content
 description: The PRI_REGISTRATION_LIST structure is returned in response to a Persistent Reserve In command with ServiceAction = RESERVATION_ACTION_READ_KEYS.

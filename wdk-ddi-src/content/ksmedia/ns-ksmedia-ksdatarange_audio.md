@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSDATARANGE_AUDIO
+UID: NS:ksmedia.__unnamed_struct_20
 title: KSDATARANGE_AUDIO
 author: windows-driver-content
 description: The KSDATARANGE_AUDIO structure specifies a range of audio formats.

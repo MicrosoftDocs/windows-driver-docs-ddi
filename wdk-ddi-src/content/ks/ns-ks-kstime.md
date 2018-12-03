@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSTIME
+UID: NS:ks.__unnamed_struct_46
 title: KSTIME
 author: windows-driver-content
 description: The KSTIME structure specifies a time stamp that can be used to indicate stream position.

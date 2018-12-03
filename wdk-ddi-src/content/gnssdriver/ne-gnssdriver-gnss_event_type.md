@@ -1,5 +1,5 @@
 ---
-UID: NE:gnssdriver.GNSS_EVENT_TYPE
+UID: NE:gnssdriver.__unnamed_enum_4
 title: GNSS_EVENT_TYPE
 author: windows-driver-content
 description: This enumeration indicates the type of an event and is used by the GNSS_EVENT structure.

@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_AGNSS_INJECT
+UID: NS:gnssdriver.__unnamed_struct_38
 title: GNSS_AGNSS_INJECT
 author: windows-driver-content
 description: This structure defines the parameters for AGNSS injection.

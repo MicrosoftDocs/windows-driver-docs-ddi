@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSPROPERTY_EXTDEVICE_S
+UID: NS:ksmedia.__unnamed_struct_131
 title: KSPROPERTY_EXTDEVICE_S
 author: windows-driver-content
 description: The KSPROPERTY_EXTDEVICE_S structure describes an external device and its capabilities.

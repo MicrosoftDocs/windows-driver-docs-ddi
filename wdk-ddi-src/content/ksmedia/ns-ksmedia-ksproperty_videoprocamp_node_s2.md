@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSPROPERTY_VIDEOPROCAMP_NODE_S2
+UID: NS:ksmedia.__unnamed_struct_91
 title: KSPROPERTY_VIDEOPROCAMP_NODE_S2
 author: windows-driver-content
 description: The KSPROPERTY_VIDEOPROCAMP_NODE_S2 structure describes node-based property settings in the PROPSETID_VIDCAP_VIDEOPROCAMP property set that use two values at the same time.

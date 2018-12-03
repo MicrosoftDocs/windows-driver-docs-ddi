@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.KS_AnalogVideoStandard
+UID: NE:ksmedia.__unnamed_enum_60
 title: KS_AnalogVideoStandard
 author: windows-driver-content
 description: The KS_AnalogVideoStandard enumeration defines various analog video standards that are used worldwide.

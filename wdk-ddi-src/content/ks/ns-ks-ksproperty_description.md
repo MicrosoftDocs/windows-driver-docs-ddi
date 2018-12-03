@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSPROPERTY_DESCRIPTION
+UID: NS:ks.__unnamed_struct_7
 title: KSPROPERTY_DESCRIPTION
 author: windows-driver-content
 description: The KSPROPERTY_DESCRIPTION structure specifies the size and type of values contained in a specific property.

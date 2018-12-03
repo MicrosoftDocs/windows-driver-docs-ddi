@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.KSPROPERTY_STREAM
+UID: NE:ks.__unnamed_enum_24
 title: KSPROPERTY_STREAM
 author: windows-driver-content
 description: 

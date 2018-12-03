@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.KS_AMVP_MODE
+UID: NE:ksmedia.__unnamed_enum_110
 title: KS_AMVP_MODE
 author: windows-driver-content
 description: The KS_AMVP_MODE enumeration defines video port display modes.

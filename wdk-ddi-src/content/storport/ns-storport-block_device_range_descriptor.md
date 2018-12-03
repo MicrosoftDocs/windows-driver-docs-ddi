@@ -1,5 +1,5 @@
 ---
-UID: NS:storport.BLOCK_DEVICE_RANGE_DESCRIPTOR
+UID: XXXXNS:minitape.__unnamed_struct_15
 title: BLOCK_DEVICE_RANGE_DESCRIPTOR
 author: windows-driver-content
 description: The BLOCK_DEVICE_RANGE_DESCRIPTOR structure describes a range of logical blocks associated with various fragments of a file for an offload copy operation.

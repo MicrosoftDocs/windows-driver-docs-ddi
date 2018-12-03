@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSDATAFORMAT_DSOUND
+UID: NS:ksmedia.__unnamed_struct_6
 title: KSDATAFORMAT_DSOUND
 author: windows-driver-content
 description: The KSDATAFORMAT_DSOUND structure provides detailed information about a DirectSound audio stream.

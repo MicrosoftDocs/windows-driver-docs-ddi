@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_DRIVERCOMMAND_PARAM
+UID: NS:gnssdriver.__unnamed_struct_3
 title: GNSS_DRIVERCOMMAND_PARAM
 author: windows-driver-content
 description: This structure is used to send a command to the GNSS driver.
