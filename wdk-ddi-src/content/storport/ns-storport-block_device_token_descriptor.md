@@ -1,5 +1,5 @@
 ---
-UID: NS:minitape.__unnamed_struct_20
+UID: NS:storport.__unnamed_struct_20
 title: BLOCK_DEVICE_TOKEN_DESCRIPTOR
 author: windows-driver-content
 description: BLOCK_DEVICE_TOKEN_DESCRIPTOR contains the token returned from a the POPULATE TOKEN command for an offload read data operation.

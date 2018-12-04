@@ -1,5 +1,5 @@
 ---
-UID: NE:minitape.__unnamed_enum_0
+UID: NE:storport.__unnamed_enum_0
 title: STOR_POWER_ACTION
 author: windows-driver-content
 description: The STOR_POWER_ACTION enumerator indicates the power state that the system is about to enter during a power transition.

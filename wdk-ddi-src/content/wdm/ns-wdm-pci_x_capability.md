@@ -1,5 +1,5 @@
 ---
-UID: NS:miniport.__unnamed_struct_0
+UID: NS:wdm.__unnamed_struct_15
 title: PCI_X_CAPABILITY
 author: windows-driver-content
 description: The PCI_X_CAPABILITY structure reports the contents of the command and status registers of a device that is compliant with the PCI-X Addendum to the PCI Local Bus Specification.

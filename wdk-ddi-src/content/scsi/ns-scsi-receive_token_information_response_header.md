@@ -1,5 +1,5 @@
 ---
-UID: NS:minitape.__unnamed_struct_19
+UID: NS:scsi.__unnamed_struct_19
 title: RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER
 author: windows-driver-content
 description: A token, created as a representation of data (ROD), for an offload read data operation is returned in a RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure.

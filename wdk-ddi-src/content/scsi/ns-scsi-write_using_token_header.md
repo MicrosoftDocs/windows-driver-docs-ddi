@@ -1,5 +1,5 @@
 ---
-UID: NS:minitape.__unnamed_struct_17
+UID: NS:scsi.__unnamed_struct_17
 title: WRITE_USING_TOKEN_HEADER
 author: windows-driver-content
 description: The WRITE_USING_TOKEN_HEADER structure describes the destination data locations for an offload write data operation.
