@@ -85,31 +85,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn26
 
 On success, this function returns <b>STATUS_SUCCESS</b>. Otherwise, the function returns an error code defined in the Ntstatus.h header, including the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_DEVICE_INSUFFICIENT_RESOURCES</b></dt>
-</dl>
-</td>
-<td width="60%">
-The current suggested encode rate cannot sustain a Miracast sink that supports more than 1024 x 768 pixels.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_DEVICE_INSUFFICIENT_RESOURCES|The current suggested encode rate cannot sustain a Miracast sink that supports more than 1024 x 768 pixels.|
  
-
-
-
-
 ## -remarks
-
-
 
 When this function is called, the Miracast user-mode driver should start communicating with the Miracast sink using the Miracast protocol. The driver should  gather the capabilities of the sink and the attributes of the monitor that's connected to the sink.  The driver should perform enough of the negotiation with the sink to determine whether a monitor is connected to the sink or not. If the driver determines that a monitor is connected to the sink, it should also determine whether the current suggested bit rate is high enough to at least support the lowest sink supported mode of 1024 x 768 pixels.
 

@@ -8,14 +8,14 @@ ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTPresentMultiPlaneOverlay
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.include-header: D3dkmthk.h
+req.target-type: Universal
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver:
 req.umdf-ver:
-req.lib:
-req.dll:
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
 req.irql: 
 req.ddi-compliance:
 req.unicode-ansi:
@@ -37,6 +37,8 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3DKMTPresentMultiPlaneOverlay function
@@ -50,6 +52,8 @@ Copies content from a source multiplane overlay allocation to a destination allo
 
 ### -param Arg1
 
+*\_In\_* *pPresent*
+
 Pointer to a [D3DKMT_PRESENT_MULTIPLANE_OVERLAY](ns-d3dkmthk-d3dkmt_present_multiplane_overlay.md) structure.
 
 ## -returns
@@ -59,3 +63,5 @@ This function returns NTSTATUS.
 ## -remarks
 
 ## -see-also
+
+[D3DKMT_PRESENT_MULTIPLANE_OVERLAY](ns-d3dkmthk-d3dkmt_present_multiplane_overlay.md)

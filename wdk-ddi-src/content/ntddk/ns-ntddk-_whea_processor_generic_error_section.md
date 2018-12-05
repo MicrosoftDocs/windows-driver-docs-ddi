@@ -360,7 +360,7 @@ The CPU brand string.
 <li>For x86 and x64 processors, this member contains the result of executing the CPUID instruction with EAX 
         set to 0x80000002 on input, followed by executing the CPUID instruction with EAX set to 0x80000003 on input. 
         For more information about the CPUID instruction, see the 
-        <a href="http://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.</li>
+        <a href="https://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.</li>
 <li>For Itanium processors, this member contains the result of executing the 
         <b>PAL_BRAND_INFO</b> procedure.</li>
 </ul>

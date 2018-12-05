@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S
+UID: NS:ksmedia.__unnamed_struct_105
 title: KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S
 author: windows-driver-content
 description: The KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S structure describes the scanning capabilities of a broadcast network type that a tuning device supports.

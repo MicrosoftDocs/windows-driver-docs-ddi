@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInterlockedFlushSList
-title: ExInterlockedFlushSList macro
+title: ExInterlockedFlushSList function
 author: windows-driver-content
 description: The ExInterlockedFlushSList routine atomically removes all entries from a sequenced singly linked list.
 old-location: kernel\exinterlockedflushslist.htm
@@ -8,7 +8,7 @@ tech.root: kernel
 ms.assetid: 98fcada7-5160-4eb2-ac7c-0ab1192340a9
 ms.date: 04/30/2018
 ms.keywords: ExInterlockedFlushSList, ExInterlockedFlushSList routine [Kernel-Mode Driver Architecture], k102_493935e2-44c7-471b-807f-ca6f110d8155.xml, kernel.exinterlockedflushslist, wdm/ExInterlockedFlushSList
-ms.topic: macro
+ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -55,12 +55,13 @@ The <b>ExInterlockedFlushSList</b> routine atomically removes all entries from a
 
 
 
-### -param Head
+### -param ListHead
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563810">SLIST_HEADER</a> structure that serves as the header for the sequenced singly linked list.
 
+## -returns
 
-
+If there were entries on the specified list, **ExInterlockedFlushSList** returns a pointer to the first [**SLIST_ENTRY**](https://msdn.microsoft.com/library/windows/hardware/ff563805) structure that was entry on the list; otherwise, it returns NULL.
 
 ## -remarks
 

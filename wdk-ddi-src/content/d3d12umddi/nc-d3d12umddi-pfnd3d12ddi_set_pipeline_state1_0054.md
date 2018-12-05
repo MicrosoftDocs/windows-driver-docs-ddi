@@ -35,6 +35,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_SET_PIPELINE_STATE1_0054 callback function
@@ -67,7 +68,7 @@ VOID Pfnd3d12ddiSetPipelineState10054
 
 A handle to the command list.
 
-### -param Arg2: 
+### -param Arg2
 
 A handle to the state object.
 

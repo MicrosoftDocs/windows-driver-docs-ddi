@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSRELATIVEEVENT
+UID: NS:ks.__unnamed_struct_15
 title: KSRELATIVEEVENT
 author: windows-driver-content
 description: The KSPROPERTY_CONNECTION_STARTAT property is passed a KSRELATIVEEVENT structure.

@@ -54,7 +54,6 @@ Callback functions of the type <b>PDEBUG_EXTENSION_CALL</b> are called by the en
 
 
 
-
 ### -param Client [in]
 
 Specifies an interface pointer to the client.  This can be used to interact with the engine.  Typically, this is the client through which the extension command was issued.
@@ -66,7 +65,6 @@ Specifies the arguments passed to the extension command.  In particular, if the 
 
 
 ## -returns
-
 
 
 <table>
@@ -106,8 +104,6 @@ All other return values are ignored by the engine.
 
 ## -remarks
 
-
-
 The name of the function becomes the name of the extension command.  When executing an extension command, the engine searches through each of the loaded extension DLLs in turn, looking for an exported function that has the same name as the command.  For example, when executing the command <b>!stack</b>, the engine will look for an exported function named <b>stack</b> in each loaded extension DLL. For information about the order in which extension DLLs are searched, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560098">Using Debugger Extension Commands</a>.
 
 The extension function should use the client that was passed to it in <i>Client</i> for all interaction with the engine, unless it has a specific reason to use another client.  The extension function should not maintain the pointer to the client object after it has finished.
@@ -116,11 +112,7 @@ DebugExtensionCall is called <b>PDEBUG_EXTENSION_CALL</b>   in the Dbgeng.h head
 
 
 
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549827">IDebugClient</a>
  

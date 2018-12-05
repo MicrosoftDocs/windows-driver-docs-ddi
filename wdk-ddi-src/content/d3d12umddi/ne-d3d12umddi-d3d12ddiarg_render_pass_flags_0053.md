@@ -29,6 +29,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDIARG_RENDER_PASS_FLAGS_0053 enumeration

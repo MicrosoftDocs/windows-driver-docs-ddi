@@ -30,6 +30,7 @@ api_name:
 -	_PCI_EXPRESS_PTM_CONTROL_REGISTER
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _PCI_EXPRESS_PTM_CONTROL_REGISTER structure

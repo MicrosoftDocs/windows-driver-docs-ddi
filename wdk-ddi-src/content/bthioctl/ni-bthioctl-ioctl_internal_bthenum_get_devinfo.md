@@ -73,14 +73,14 @@ None.
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that holds a 
-      <a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structure that
+      <a href="https://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structure that
       contains information about the device's state, the device's address, and class of device (CoD).
 
 
 ### -output-buffer-length
 
 The length of a 
-      <a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structure.
+      <a href="https://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structure.
 
 
 ### -in-out-buffer
@@ -145,7 +145,7 @@ The output buffer was sized incorrectly.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
  
 
  

@@ -80,48 +80,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <i>Lock</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The resource is successfully locked.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>Lock</i> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_WASSTILLDRAWING</b></dt>
-</dl>
-</td>
-<td width="60%">
-The resource was not idle when the Microsoft Direct3D runtime called the <i>Lock</i> function with the <b>DoNotWait</b> bit-field flag set in the <b>Flags</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff543204">D3DDDIARG_LOCK</a>.
-
-</td>
-</tr>
-</table>
- 
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The resource is successfully locked. | 
+| **E_OUTOFMEMORY** | Lock could not allocate the required memory for it to complete. | 
+| **D3DDDIERR_WASSTILLDRAWING** | The resource was not idle when the Microsoft Direct3D runtime called the Lock function with the DoNotWait bit-field flag set in the Flags member of [D3DDDIARG_LOCK](https://msdn.microsoft.com/library/windows/hardware/ff543204) . | 
 
 
 ## -remarks

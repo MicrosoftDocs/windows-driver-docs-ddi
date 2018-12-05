@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_BREADCRUMB_LIST
+UID: NS:gnssdriver.__unnamed_struct_18
 title: GNSS_BREADCRUMB_LIST
 author: windows-driver-content
 description: This structure contains the response to an IOCTL_GNSS_POP_BREADCRUMBS.

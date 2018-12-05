@@ -35,6 +35,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_DESTROY_META_COMMAND_0052 callback function
@@ -67,7 +68,7 @@ VOID Pfnd3d12ddiDestroyMetaCommand0052
 
 A handle to the display device (graphics context).
 
-### -param Arg2: 
+### -param Arg2
 
 Handle to a meta-command.
 

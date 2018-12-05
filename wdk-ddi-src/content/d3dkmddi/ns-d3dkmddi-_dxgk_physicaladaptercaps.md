@@ -72,57 +72,12 @@ Handle, which is passed to the kernel mode driver as <b>DXGKRNL_INTERFACE::Devic
 
 ### -field Flags
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="Flags.IoMmuSupported"></a><a id="flags.iommusupported"></a><a id="FLAGS.IOMMUSUPPORTED"></a><dl>
-<dt><b>Flags.IoMmuSupported</b></dt>
-<dt><b>TRUE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The adapter supports <i>IoMmu</i>.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="Flags.GpuMmuSupported"></a><a id="flags.gpummusupported"></a><a id="FLAGS.GPUMMUSUPPORTED"></a><dl>
-<dt><b>Flags.GpuMmuSupported</b></dt>
-<dt><b>TRUE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The adapter supports <i>GpuMmu</i>.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="Flags.MovePagingSupported"></a><a id="flags.movepagingsupported"></a><a id="FLAGS.MOVEPAGINGSUPPORTED"></a><dl>
-<dt><b>Flags.MovePagingSupported</b></dt>
-<dt><b>TRUE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The adapter supports move paging.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="Flags.VPRPagingContextRequired"></a><a id="flags.vprpagingcontextrequired"></a><a id="FLAGS.VPRPAGINGCONTEXTREQUIRED"></a><dl>
-<dt><b>Flags.VPRPagingContextRequired</b></dt>
-<dt><b>TRUE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The adapter requires the index of the VPR paging node.
-
-</td>
-</tr>
-</table>
- 
+|Value|Meaning|
+|--- |--- |
+|Flags.IoMmuSupported TRUE|The adapter supports IoMmu.|
+|Flags.GpuMmuSupported TRUE|The adapter supports GpuMmu.|
+|Flags.MovePagingSupported TRUE|The adapter supports move paging.|
+|Flags.VPRPagingContextRequired TRUE|The adapter requires the index of the VPR paging node.|
 
 
 ### -field VPRPagingNode

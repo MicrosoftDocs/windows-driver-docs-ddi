@@ -73,7 +73,7 @@ The <b>LOCALE_NEUTRAL</b> LCID specifies that the property is language-neutral (
 
 Do not set this parameter to <b>LOCALE_SYSTEM_DEFAULT</b> or <b>LOCALE_USER_DEFAULT</b>.
 
-For more information about language-specific LCID values, see <a href="http://msdn.microsoft.com/library/cc233968(PROT.10).aspx">LCID Structure</a>.
+For more information about language-specific LCID values, see <a href="https://msdn.microsoft.com/library/cc233968(PROT.10).aspx">LCID Structure</a>.
 
 
 ### -param Flags [in]

@@ -46,85 +46,31 @@ req.typenames:
 
 # D3DKMTGetSharedPrimaryHandle function
 
-
 ## -description
-
 
 The <b>D3DKMTGetSharedPrimaryHandle</b> function retrieves the global shared handle for the primary surface.
 
-
 ## -parameters
 
-
-
-
 ### -param Arg1
-
-
-
-
-
 
 *pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548070">D3DKMT_GETSHAREDPRIMARYHANDLE</a> structure that describes the parameters that are required to retrieve the shared handle.
 
-
 ## -returns
-
-
 
 <b>D3DKMTGetSharedPrimaryHandle</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle was successfully retrieved.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_DEVICE_REMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics adapter was stopped or the display device was reset.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The handle was successfully retrieved.|
+|STATUS_DEVICE_REMOVED|The graphics adapter was stopped or the display device was reset.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
  
-
 This function might also return other NTSTATUS values.
 
-
-
-
 ## -remarks
-
-
 
 The primary surface is typically created by the Microsoft DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>) every time the display mode changes (although, in some situations, the shared primary might not exist). If an OpenGL application attempts to create a primary surface, it typically must open the existing shared primary. To open the shared primary, the OpenGL application must use <b>D3DKMTGetSharedPrimaryHandle</b> to retrieve the global shared handle for the primary surface.
 
@@ -132,13 +78,8 @@ The primary surface is typically created by the Microsoft DirectX graphics kerne
 
 The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTGetSharedPrimaryHandle</b> to create a primary surface by opening the shared handle.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT OpenSharedPrimarySurface(D3DKMT_HANDLE hAdapter,
+```cpp
+HRESULT OpenSharedPrimarySurface(D3DKMT_HANDLE hAdapter,
                                  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId,
                                  D3DKMT_HANDLE hDevice, 
                                  VOID* pPrivateDriverData,
@@ -189,17 +130,10 @@ The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTGetSh
         return S_OK;
     }
     return E_FAIL;
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
-
+}
+```
 
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548070">D3DKMT_GETSHAREDPRIMARYHANDLE</a>
  

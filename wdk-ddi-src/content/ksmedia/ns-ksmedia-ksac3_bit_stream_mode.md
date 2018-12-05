@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSAC3_BIT_STREAM_MODE
+UID: NS:ksmedia.__unnamed_struct_69
 title: KSAC3_BIT_STREAM_MODE
 author: windows-driver-content
 description: The KSAC3_BIT_STREAM_MODE structure specifies the bit-stream mode, which is the type of audio service that is encoded into an AC-3 stream.
@@ -156,7 +156,7 @@ These constants correspond to the bit-stream modes that are defined in the AC-3 
 
 This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537212">KSPROPERTY_AC3_BIT_STREAM_MODE</a> property.
 
-For more information about bit stream modes, see the AC-3 specification at the <a href="http://go.microsoft.com/fwlink/p/?linkid=8730">Dolby Laboratories</a> website. The specification is titled Digital Audio Compression Standard (AC-3).
+For more information about bit stream modes, see the AC-3 specification at the <a href="https://go.microsoft.com/fwlink/p/?linkid=8730">Dolby Laboratories</a> website. The specification is titled Digital Audio Compression Standard (AC-3).
 
 
 

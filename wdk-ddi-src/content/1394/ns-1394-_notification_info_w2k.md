@@ -171,7 +171,7 @@ address).
 </table>
  
 
-<div class="alert"><b>Important</b>  Under certain conditions in Windows 7, a memory leak could occur if the driver's notification routine modifies the <b>ResponseCode</b> member. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=192281">Memory Leak in IEEE 1394 Bus Driver Performing Asynchronous Notification Callbacks</a>.</div>
+<div class="alert"><b>Important</b>  Under certain conditions in Windows 7, a memory leak could occur if the driver's notification routine modifies the <b>ResponseCode</b> member. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=192281">Memory Leak in IEEE 1394 Bus Driver Performing Asynchronous Notification Callbacks</a>.</div>
 <div> </div>
 
 ## -remarks

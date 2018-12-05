@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S
+UID: NS:ksmedia.__unnamed_struct_144
 title: KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S
 author: windows-driver-content
 description: The KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S structure describes information about the video compression capabilities supported by a device.

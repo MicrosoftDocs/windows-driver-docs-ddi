@@ -80,7 +80,7 @@ An array of UUIDs that represent the services for which to query. Each entry can
 ### -field range
 
 A variable-length array of 
-     <a href="http://go.microsoft.com/fwlink/p/?linkid=50714">SdpAttributeRange</a> structures that
+     <a href="https://go.microsoft.com/fwlink/p/?linkid=50714">SdpAttributeRange</a> structures that
      contains the range of SDP attributes for which to search.
 
 
@@ -117,7 +117,7 @@ The Bluetooth driver stack determines the number of array items in the
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=50714">SdpAttributeRange</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=50714">SdpAttributeRange</a>
  
 
  

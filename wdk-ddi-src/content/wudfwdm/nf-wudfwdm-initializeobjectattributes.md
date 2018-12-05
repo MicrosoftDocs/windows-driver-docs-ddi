@@ -90,6 +90,9 @@ A handle to the root object directory for the path name specified in the ObjectN
 
 Specifies a security descriptor to apply to an object when it is created. This parameter is optional. Drivers can specify NULL to accept the default security for the object. For more information, see the following Remarks section.
 
+## -returns
+
+None
 
 ## -remarks
 

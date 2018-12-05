@@ -47,7 +47,7 @@ req.typenames: DXGK_TIMED_OPERATION_INTERFACE, *PDXGK_TIMED_OPERATION_INTERFACE
 ## -description
 
 
-The DXGK_TIMED_OPERATION_INTERFACE structure contains pointers to functions in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>, which is implemented by the display port driver.
+The DXGK_TIMED_OPERATION_INTERFACE structure contains pointers to functions in the Timed Operation Interface, which is implemented by the display port driver.
 
 
 ## -struct-fields
@@ -62,7 +62,7 @@ The size, in bytes, of this structure.
 
 ### -field Version
 
-The version number of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>. Version number constants are defined in <i>Dispmprt.h</i> (for example, DXGK_TIMED_OPERATION_INTERFACE_VERSION_1).
+The version number of the Timed Operation Interface. Version number constants are defined in <i>Dispmprt.h</i> (for example, DXGK_TIMED_OPERATION_INTERFACE_VERSION_1).
 
 
 ### -field Context

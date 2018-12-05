@@ -36,6 +36,7 @@ product:
 -	Windows
 targetos: Windows
 
+ms.custom: RS5
 ---
 
 # FltReleasePushLockEx function

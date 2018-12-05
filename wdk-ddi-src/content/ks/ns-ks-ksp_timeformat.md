@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSP_TIMEFORMAT
+UID: NS:ks.__unnamed_struct_22
 title: KSP_TIMEFORMAT
 author: windows-driver-content
 description: The KSP_TIMEFORMAT structure corresponds to KSPROPERTY_MEDIASEEKING_CONVERTTIMEFORMAT.

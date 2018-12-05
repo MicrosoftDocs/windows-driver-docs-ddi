@@ -1,5 +1,5 @@
 ---
-UID: NS:netdispumdddi.MIRACAST_WFD_CONNECTION_STATS
+UID: NS:netdispumdddi.__unnamed_struct_6
 title: MIRACAST_WFD_CONNECTION_STATS
 author: windows-driver-content
 description: Contains bit rate info on the Wi-Fi Direct connection.

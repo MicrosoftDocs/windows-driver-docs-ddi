@@ -60,7 +60,8 @@ The <b>ObDereferenceObject</b> routine decrements the given object's reference c
 Pointer to the object's body. 
 
 
-
+## -returns
+**ObDereferenceObject** returns a value that is reserved for system use. Drivers must treat this value as VOID.
 
 ## -remarks
 

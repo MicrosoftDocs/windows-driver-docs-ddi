@@ -66,121 +66,27 @@ On output, a value between 1 and 4, inclusive, that corresponds to the <b>ROTATI
 
 
 
-The returned value corresponds to the rotation angle as follows:<table>
-<tr>
-<td>Input enumeration value</td>
-<td>Input enumeration constant</td>
-<td>Rotation in degrees</td>
-<td> Output <i>Rotation</i> value</td>
-</tr>
-<tr>
-<td>0</td>
-<td><b>D3DKMDT_VPPR_UNINITIALIZED</b></td>
-<td>-</td>
-<td>0</td>
-</tr>
-<tr>
-<td>1</td>
-<td><b>D3DKMDT_VPPR_IDENTITY</b></td>
-<td>0</td>
-<td>1</td>
-</tr>
-<tr>
-<td>2</td>
-<td><b>D3DKMDT_VPPR_ROTATE90</b></td>
-<td>90</td>
-<td>2</td>
-</tr>
-<tr>
-<td>3</td>
-<td><b>D3DKMDT_VPPR_ROTATE180</b></td>
-<td>180</td>
-<td>3</td>
-</tr>
-<tr>
-<td>4</td>
-<td><b>D3DKMDT_VPPR_ROTATE270</b></td>
-<td>270</td>
-<td>4</td>
-</tr>
-<tr>
-<td>5</td>
-<td><b>D3DKMDT_VPPR_IDENTITY_OFFSET90</b></td>
-<td>0</td>
-<td>1</td>
-</tr>
-<tr>
-<td>6</td>
-<td><b>D3DKMDT_VPPR_ROTATE90_OFFSET90</b></td>
-<td>90</td>
-<td>2</td>
-</tr>
-<tr>
-<td>7</td>
-<td><b>D3DKMDT_VPPR_ROTATE180_OFFSET90</b></td>
-<td>180</td>
-<td>3</td>
-</tr>
-<tr>
-<td>8</td>
-<td><b>D3DKMDT_VPPR_ROTATE270_OFFSET90</b></td>
-<td>270</td>
-<td>4</td>
-</tr>
-<tr>
-<td>9</td>
-<td><b>D3DKMDT_VPPR_IDENTITY_OFFSET180</b></td>
-<td>0</td>
-<td>1</td>
-</tr>
-<tr>
-<td>10</td>
-<td><b>D3DKMDT_VPPR_ROTATE90_OFFSET180</b></td>
-<td>90</td>
-<td>2</td>
-</tr>
-<tr>
-<td>11</td>
-<td><b>D3DKMDT_VPPR_ROTATE180_OFFSET180</b></td>
-<td>180</td>
-<td>3</td>
-</tr>
-<tr>
-<td>12</td>
-<td><b>D3DKMDT_VPPR_ROTATE270_OFFSET180</b></td>
-<td>270</td>
-<td>4</td>
-</tr>
-<tr>
-<td>13</td>
-<td><b>D3DKMDT_VPPR_IDENTITY_OFFSET270</b></td>
-<td>0</td>
-<td>1</td>
-</tr>
-<tr>
-<td>14</td>
-<td><b>D3DKMDT_VPPR_ROTATE90_OFFSET270</b></td>
-<td>90</td>
-<td>2</td>
-</tr>
-<tr>
-<td>15</td>
-<td><b>D3DKMDT_VPPR_ROTATE180_OFFSET270</b></td>
-<td>180</td>
-<td>3</td>
-</tr>
-<tr>
-<td>16</td>
-<td><b>D3DKMDT_VPPR_ROTATE270_OFFSET270</b></td>
-<td>270</td>
-<td>4</td>
-</tr>
-</table>
- 
+The returned value corresponds to the rotation angle as follows:
 
-
-
-
+|Input enumeration value|Input enumeration constant|Rotation in degrees|Output Rotation value|
+|--- |--- |--- |--- |
+|0|D3DKMDT_VPPR_UNINITIALIZED|-|0|
+|1|D3DKMDT_VPPR_IDENTITY|0|1|
+|2|D3DKMDT_VPPR_ROTATE90|90|2|
+|3|D3DKMDT_VPPR_ROTATE180|180|3|
+|4|D3DKMDT_VPPR_ROTATE270|270|4|
+|5|D3DKMDT_VPPR_IDENTITY_OFFSET90|0|1|
+|6|D3DKMDT_VPPR_ROTATE90_OFFSET90|90|2|
+|7|D3DKMDT_VPPR_ROTATE180_OFFSET90|180|3|
+|8|D3DKMDT_VPPR_ROTATE270_OFFSET90|270|4|
+|9|D3DKMDT_VPPR_IDENTITY_OFFSET180|0|1|
+|10|D3DKMDT_VPPR_ROTATE90_OFFSET180|90|2|
+|11|D3DKMDT_VPPR_ROTATE180_OFFSET180|180|3|
+|12|D3DKMDT_VPPR_ROTATE270_OFFSET180|270|4|
+|13|D3DKMDT_VPPR_IDENTITY_OFFSET270|0|1|
+|14|D3DKMDT_VPPR_ROTATE90_OFFSET270|90|2|
+|15|D3DKMDT_VPPR_ROTATE180_OFFSET270|180|3|
+|16|D3DKMDT_VPPR_ROTATE270_OFFSET270|270|4|
 
 
 ## -remarks
@@ -189,13 +95,8 @@ The returned value corresponds to the rotation angle as follows:<table>
 
 This function is declared inline in D3dkmdt.h as:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>__inline
+```cpp
+__inline
 D3DKMDT_VIDPN_PRESENT_PATH_ROTATION 
     D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART(
         D3DKMDT_VIDPN_PRESENT_PATH_ROTATION Rotation)
@@ -208,10 +109,9 @@ D3DKMDT_VIDPN_PRESENT_PATH_ROTATION
                 ((Rotation - 1) % 4) + 1);
     }
     return Rotation;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 Your driver typically won't need to call this function.
 
 

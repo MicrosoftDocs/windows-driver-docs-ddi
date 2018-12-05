@@ -101,7 +101,7 @@ Reserved. Should be set to zero (GUID_NULL).
 
 The display driver returns status about the HDCP key through the <i>pOutput</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a>. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff563903">DXVA_COPPStatusOutput</a> structure describes the returned status information. The display driver should cast the HDCP key status to a pointer to a DXVA_COPPStatusHDCPKeyData structure and return the status information in the <b>COPPStatus</b> member of DXVA_COPPStatusOutput. 
 
-Applications initiate a query for HDCP key data to determine if the receiver or repeater device is revoked; they can then disable protected content flow to the device. Applications must obtain lists of revoked KSVs by processing System Renewability Messages (SRMs). In coordination with <a href="http://go.microsoft.com/fwlink/p/?linkid=38728">Digital Content Protection LLC</a>, owners of HDCP licensing applications should not let protected content flow to HDCP repeaters for COPP version 1.0.
+Applications initiate a query for HDCP key data to determine if the receiver or repeater device is revoked; they can then disable protected content flow to the device. Applications must obtain lists of revoked KSVs by processing System Renewability Messages (SRMs). In coordination with <a href="https://go.microsoft.com/fwlink/p/?linkid=38728">Digital Content Protection LLC</a>, owners of HDCP licensing applications should not let protected content flow to HDCP repeaters for COPP version 1.0.
 
 
 

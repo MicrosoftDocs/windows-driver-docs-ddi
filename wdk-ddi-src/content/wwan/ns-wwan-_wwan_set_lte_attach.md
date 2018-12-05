@@ -32,6 +32,7 @@ api_name:
 product: 
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _WWAN_SET_LTE_ATTACH structure

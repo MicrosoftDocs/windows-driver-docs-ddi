@@ -49,13 +49,7 @@ req.typenames:
 
 Called by the user-mode driver to register with the operating system to receive network quality of service (QoS) notifications and the current  network bandwidth of the Miracast connection.The data type of this function is <b>PFN_REGISTER_DATARATE_NOTIFICATIONS</b>.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hMiracastDeviceHandle [in]
 
@@ -71,53 +65,20 @@ The context that will be passed to the <a href="https://msdn.microsoft.com/5eb00
 
 A pointer to the driver routine that will be called when the bit rate of the Miracast network link has changed. See Remarks for more info.
 
-  The driver can supply a <b>NULL</b> value to unregister for notifications.
+The driver can supply a <b>NULL</b> value to unregister for notifications.
 
 
 ## -returns
-
-
 
 If the operating system successfully registers or unregisters the driver for notifications, it returns <b>STATUS_SUCCESS</b>.
 
 Otherwise, these error codes can be returned:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-One or more parameters are invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The operating system cannot support quality of service (QoS) notifications, or the call to the function is made outside of the calling thread in which the operating system called <a href="https://msdn.microsoft.com/2778d9d0-7f97-416f-a5ae-3754b17e8a29">StartMiracastSession</a> or <a href="https://msdn.microsoft.com/ab9ad8ee-9390-41a4-9a69-2e98579b2b77">StopMiracastSession</a> functions.
-
-</td>
-</tr>
-</table>
- 
-
-
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **STATUS_INVALID_PARAMETER** | One or more parameters are invalid. | 
+| **STATUS_NOT_SUPPORTED** | The operating system cannot support quality of service (QoS) notifications, or the call to the function is made outside of the calling thread in which the operating system called [StartMiracastSession](https://msdn.microsoft.com/2778d9d0-7f97-416f-a5ae-3754b17e8a29)  or [StopMiracastSession](https://msdn.microsoft.com/ab9ad8ee-9390-41a4-9a69-2e98579b2b77)  functions. | 
 ## -remarks
-
-
 
 The user-mode driver can optionally call this function to register for automatic calls to data rate notification callback functions once a second.
 

@@ -83,7 +83,7 @@ The error data section contains a reference to a firmware error record that is s
 
 #### IPF_PROCESSOR_ERROR_SECTION_GUID
 
-The error data section contains processor error data that is specific to the Itanium processor architecture. For more information about the format of the error data that is contained in this error data section, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=72212">Intel Itanium Processor Family System Abstraction Layer Specification</a>.
+The error data section contains processor error data that is specific to the Itanium processor architecture. For more information about the format of the error data that is contained in this error data section, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=72212">Intel Itanium Processor Family System Abstraction Layer Specification</a>.
 
 
 

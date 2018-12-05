@@ -275,14 +275,12 @@ The following routine is for system use. Do not use it in your driver.
 IoUpdateDiskGeometry
 
 ## Power Management Routines
-The Windows power management architecture provides a comprehensive approach to power management at the system, device, and component level. Starting with Windows 2000, power management is supported at the system level and the device level. Starting with Windows 8, power management is supported at the component (subdevice) level, in addition to the system level and the device level.
 
-For more information about power management, see Power Management for Windows Drivers.
-
+The Windows power management architecture provides a comprehensive approach to power management supported at the component (subdevice) level, in addition to the system level and the device level.
 
 Kernel-mode drivers call the PoXxx routines to perform power management for the devices that they control. This section contains the reference pages for these routines. The PoXxx routines are declared in the Wdm.h header file.
 
-For more information about power management, see Power Management for Windows Drivers.
+For more information about power management, see [Power Management for Windows Drivers](https://docs.microsoft.com/windows-hardware/drivers/kernel/implementing-power-management).
 
 |Function|Description|
 |---|---|

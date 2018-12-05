@@ -35,6 +35,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_CREATEHWQUEUE_CB_0050 callback function
@@ -67,7 +68,7 @@ HRESULT Pfnd3d12ddiCreatehwqueueCb0050
 
 The handle of the command queue for the driver to use when it calls back into the runtime.
 
-### -param *: 
+### -param *
 
 Pointer to a [D3DDDICB_CREATEHWQUEUE](..\d3dumddi\ns-d3dumddi-_d3dddicb_createhwqueue.md) structure that contains information needed to create a hardware queue.
 

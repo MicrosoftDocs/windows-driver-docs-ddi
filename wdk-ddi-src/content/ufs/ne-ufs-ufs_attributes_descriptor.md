@@ -1,5 +1,5 @@
 ---
-UID: NE:ufs.UFS_ATTRIBUTES_DESCRIPTOR
+UID: NE:ufs.__unnamed_enum_1
 title: UFS_ATTRIBUTES_DESCRIPTOR
 author: windows-driver-content
 description: UFS_ATTRIBUTES_DESCRIPTOR describes the different types of attributes used by Universal Flash Storage (UFS) descriptors.

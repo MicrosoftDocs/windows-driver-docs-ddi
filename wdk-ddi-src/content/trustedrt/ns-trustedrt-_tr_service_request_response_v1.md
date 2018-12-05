@@ -31,6 +31,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _TR_SERVICE_REQUEST_RESPONSE_V1 structure

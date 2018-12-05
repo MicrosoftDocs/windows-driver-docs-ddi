@@ -1,5 +1,5 @@
 ---
-UID: NS:scsiwmi.SCSIWMIGUIDREGINFO
+UID: NS:scsiwmi.__unnamed_struct_1
 title: SCSIWMIGUIDREGINFO
 author: windows-driver-content
 description: The SCSIWMIGUIDREGINFO structure contains information about a given data or event block supported by a SCSI miniport driver.

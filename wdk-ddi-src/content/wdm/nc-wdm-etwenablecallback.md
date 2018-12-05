@@ -67,14 +67,14 @@ The GUID that identifies the session that enabled the provider.
 
 The level at which the event is enabled. This parameter is a provider-defined value that specifies the verboseness of the events that the provider writes. The provider must write the event if this value is less than or equal to the level value that the event defines. 
 
-This value is passed in the <i>Level</i> parameter of the <a href="http://go.microsoft.com/fwlink/p/?linkid=103398">EnableTraceEx</a> function or the <i>EnableLevel</i> parameter of the <a href="http://go.microsoft.com/fwlink/p/?linkid=103399">EnableTrace</a> function.
+This value is passed in the <i>Level</i> parameter of the <a href="https://go.microsoft.com/fwlink/p/?linkid=103398">EnableTraceEx</a> function or the <i>EnableLevel</i> parameter of the <a href="https://go.microsoft.com/fwlink/p/?linkid=103399">EnableTrace</a> function.
 
 
 ### -param MatchAnyKeyword [in]
 
 The bitmask of keywords that the provider uses to determine the category of events that it writes. 
 
-This value is passed in the <i>MatchAnyKeyword</i> parameter of the <a href="http://go.microsoft.com/fwlink/p/?linkid=103398">EnableTraceEx</a> function or the <i>EnableFlag</i> parameter of the <a href="http://go.microsoft.com/fwlink/p/?linkid=103399">EnableTrace</a> function. <i>MatchAnyKeyword</i> is a 64-bit value and is basically an extended version of the 32-bit <i>EnableFlag</i>.
+This value is passed in the <i>MatchAnyKeyword</i> parameter of the <a href="https://go.microsoft.com/fwlink/p/?linkid=103398">EnableTraceEx</a> function or the <i>EnableFlag</i> parameter of the <a href="https://go.microsoft.com/fwlink/p/?linkid=103399">EnableTrace</a> function. <i>MatchAnyKeyword</i> is a 64-bit value and is basically an extended version of the 32-bit <i>EnableFlag</i>.
 
 
 ### -param MatchAllKeyword [in]
@@ -126,11 +126,11 @@ Callers of <b>EtwEnableCallback</b> must be running at IRQL = PASSIVE_LEVEL in t
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=103399">EnableTrace</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=103399">EnableTrace</a>
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=103398">EnableTraceEx</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=103398">EnableTraceEx</a>
 
 
 

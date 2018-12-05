@@ -27,6 +27,7 @@ api_name:
 -	_USBC_POWER_ROLE
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _USBC_POWER_ROLE enumeration

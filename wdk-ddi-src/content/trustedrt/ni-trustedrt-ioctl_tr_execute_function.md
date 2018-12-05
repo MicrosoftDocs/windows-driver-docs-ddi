@@ -29,6 +29,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # IOCTL_TR_EXECUTE_FUNCTION IOCTL

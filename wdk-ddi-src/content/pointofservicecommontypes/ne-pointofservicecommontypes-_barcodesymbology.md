@@ -357,7 +357,7 @@ The Code49 symbology contains between 2 and 8 rows, each separated by a separato
 
 ### -field Aztec
 
-The Aztec symbology. For more information, see <a href="http://go.microsoft.com/fwlink/p/?LinkId=317296">ISO Spec 24778</a>. 
+The Aztec symbology. For more information, see <a href="https://go.microsoft.com/fwlink/p/?LinkId=317296">ISO Spec 24778</a>. 
 
 
 ### -field DataCode
@@ -367,7 +367,7 @@ The DataCode symbology.
 
 ### -field DataMatrix
 
-This symbology is good for small codes and will store large amounts of data. For more information, see <a href="http://go.microsoft.com/fwlink/p/?LinkID=317298">ISO Spec 16022</a>. 
+This symbology is good for small codes and will store large amounts of data. For more information, see <a href="https://go.microsoft.com/fwlink/p/?LinkID=317298">ISO Spec 16022</a>. 
 
 
 ### -field HanXin
@@ -382,22 +382,22 @@ This symbology is used for the United States Postal Service and is fixed length 
 
 ### -field MicroPdf417
 
-The MicroPdf417 symbology. For more information, see <a href="http://go.microsoft.com/fwlink/p/?LinkId=317299">ISO Spec 24728</a>. 
+The MicroPdf417 symbology. For more information, see <a href="https://go.microsoft.com/fwlink/p/?LinkId=317299">ISO Spec 24728</a>. 
 
 
 ### -field MicroQr
 
-The MicroQr symbology, a subset of the QR symbology. For more information, see <a href="http://go.microsoft.com/fwlink/p/?LinkId=317300">ISO Spec 18004</a>. 
+The MicroQr symbology, a subset of the QR symbology. For more information, see <a href="https://go.microsoft.com/fwlink/p/?LinkId=317300">ISO Spec 18004</a>. 
 
 
 ### -field Pdf417
 
-The Pdf417 symbology. For more information, see <a href="http://go.microsoft.com/fwlink/p/?LinkId=317299">ISO Spec 24728</a>. 
+The Pdf417 symbology. For more information, see <a href="https://go.microsoft.com/fwlink/p/?LinkId=317299">ISO Spec 24728</a>. 
 
 
 ### -field Qr
 
-The Qr symbology. For more information, see <a href="http://go.microsoft.com/fwlink/p/?LinkId=317300">ISO Spec 18004</a>. 
+The Qr symbology. For more information, see <a href="https://go.microsoft.com/fwlink/p/?LinkId=317300">ISO Spec 18004</a>. 
 
 
 ### -field MsTag
@@ -502,12 +502,12 @@ The US 4-State Flat Identification Code Sort symbology.
 
 ### -field OcrA
 
-The OCR-A symbology. OCR-A is a widely used font in a variety of industries. The characters appear more block-like than other OCR fonts. The characters are printed in a format that can be read by both machines and humans and can be directly marked on parts. For more information, see the <a href="http://go.microsoft.com/fwlink/p/?LinkId=317306">ISO 1073-1 specification</a>. 
+The OCR-A symbology. OCR-A is a widely used font in a variety of industries. The characters appear more block-like than other OCR fonts. The characters are printed in a format that can be read by both machines and humans and can be directly marked on parts. For more information, see the <a href="https://go.microsoft.com/fwlink/p/?LinkId=317306">ISO 1073-1 specification</a>. 
 
 
 ### -field OcrB
 
-The OCR-B symbology is a widely used font in conjunction with UPC/EAN symbology. For more information, see the <a href="http://go.microsoft.com/fwlink/p/?LinkId=317306">ISO 1073-1 specification</a>. 
+The OCR-B symbology is a widely used font in conjunction with UPC/EAN symbology. For more information, see the <a href="https://go.microsoft.com/fwlink/p/?LinkId=317306">ISO 1073-1 specification</a>. 
 
 
 ### -field Micr

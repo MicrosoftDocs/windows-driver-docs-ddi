@@ -186,7 +186,7 @@ Indicates that the configuration has changed for a virtual miniport of an NDIS 6
        example, an intermediate driver receives the 
        <b>NetEventIMReEnableDevice</b> event when a user disables and then enables a single virtual miniport
        from the Device Manager or another source. For examples of intermediate driver power management, see the 
-    <a href="http://go.microsoft.com/fwlink/p/?LinkId=617916">NDIS MUX Intermediate Driver and Notify Object</a> driver sample available in the <a href="http://go.microsoft.com/fwlink/p/?LinkId=616507">Windows driver samples</a> repository on GitHub.
+    <a href="https://go.microsoft.com/fwlink/p/?LinkId=617916">NDIS MUX Intermediate Driver and Notify Object</a> driver sample available in the <a href="https://go.microsoft.com/fwlink/p/?LinkId=616507">Windows driver samples</a> repository on GitHub.
 
 
 
@@ -204,7 +204,7 @@ Indicates that NDK is currently disabled.
 
 #### NetEventFilterPreDetach
 
-Indicates that a filter is about to be detached, so that the filter can perform any necessary cleanup that isn't possible in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a> handler (because the OID and indication paths are closed at that time).
+Indicates that a filter is about to be detached, so that the filter can perform any necessary cleanup that isn't possible in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_detach">FilterDetach</a> handler (because the OID and indication paths are closed at that time).
 
 
 

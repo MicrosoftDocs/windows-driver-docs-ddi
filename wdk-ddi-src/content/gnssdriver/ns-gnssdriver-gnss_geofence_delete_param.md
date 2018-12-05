@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_GEOFENCE_DELETE_PARAM
+UID: NS:gnssdriver.__unnamed_struct_23
 title: GNSS_GEOFENCE_DELETE_PARAM
 author: windows-driver-content
 description: This structure is used for deleting a geofence.

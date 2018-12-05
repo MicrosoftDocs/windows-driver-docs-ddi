@@ -1,5 +1,5 @@
 ---
-UID: NS:netdispumdddi.MIRACAST_DATARATE_STATS
+UID: NS:netdispumdddi.__unnamed_struct_4
 title: MIRACAST_DATARATE_STATS
 author: windows-driver-content
 description: Contains info used in the wireless display (Miracast) pfnDataRateNotify function about the audio/video encoder bit rate and failed or retried Wi-Fi frames.

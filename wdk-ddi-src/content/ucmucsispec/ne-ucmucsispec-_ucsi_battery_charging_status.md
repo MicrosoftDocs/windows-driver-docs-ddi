@@ -28,6 +28,7 @@ api_name:
 -	_UCSI_BATTERY_CHARGING_STATUS
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCSI_BATTERY_CHARGING_STATUS enumeration

@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSE_PIN
+UID: NS:ks.__unnamed_struct_27
 title: KSE_PIN
 author: windows-driver-content
 description: 

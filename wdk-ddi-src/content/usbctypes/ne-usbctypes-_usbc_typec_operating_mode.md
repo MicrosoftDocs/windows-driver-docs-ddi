@@ -27,6 +27,7 @@ api_name:
 -	_USBC_TYPEC_OPERATING_MODE
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _USBC_TYPEC_OPERATING_MODE enumeration

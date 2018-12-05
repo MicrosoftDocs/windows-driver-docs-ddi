@@ -78,57 +78,13 @@ When an application must have access to user-mode video memory, the display driv
 
 The video miniport driver fills out a VIDEO_SHARE_MEMORY_INFORMATION structure based on information in a VIDEO_SHARE_MEMORY structure. The following table summarizes how the information is used:
 
-<table>
-<tr>
-<th>VIDEO_SHARE_MEMORY member</th>
-<th>Result on VIDEO_SHARE_MEMORY_INFORMATION</th>
-</tr>
-<tr>
-<td>
-<b>ProcessHandle</b>
-
-</td>
-<td>
-Is not used.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>ViewOffset</b>
-
-</td>
-<td>
-Copied directly to <b>SharedViewOffset</b>.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>ViewSize</b>
-
-</td>
-<td>
-Values that are multiples of 64 KB are copied directly to <b>SharedViewSize</b>. Other values are rounded up to the next larger multiple of 64 KB. 
-
-</td>
-</tr>
-<tr>
-<td>
-<b>RequestedVirtualAddress</b>
-
-</td>
-<td>
-If <b>NULL</b>, the miniport driver determines the address of a frame buffer to assign to <b>VirtualAddress</b>. If non-<b>NULL</b>, the miniport driver attempts to assign that value to <b>VirtualAddress</b>.
-
-</td>
-</tr>
-</table>
+|VIDEO_SHARE_MEMORY member|Result on VIDEO_SHARE_MEMORY_INFORMATION|
+|--- |--- |
+|ProcessHandle|Is not used.|
+|ViewOffset|Copied directly to SharedViewOffset.|
+|ViewSize|Values that are multiples of 64 KB are copied directly to SharedViewSize. Other values are rounded up to the next larger multiple of 64 KB.|
+|RequestedVirtualAddress|If NULL, the miniport driver determines the address of a frame buffer to assign to VirtualAddress. If non-NULL, the miniport driver attempts to assign that value to VirtualAddress.|
  
-
-
-
-
 ## -see-also
 
 

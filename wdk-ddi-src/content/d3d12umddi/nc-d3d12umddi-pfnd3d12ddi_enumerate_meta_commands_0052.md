@@ -35,6 +35,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_ENUMERATE_META_COMMANDS_0052 callback function
@@ -72,7 +73,7 @@ A handle to the display device (graphics context).
 
 The number of meta-commands.
 
-### -param *pDescs: 
+### -param *pDescs
 
 Pointer to an array of meta-command descriptions.
 

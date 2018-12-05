@@ -27,6 +27,7 @@ api_name:
 -	MEM_EXTENDED_PARAMETER_TYPE
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # MEM_EXTENDED_PARAMETER_TYPE enumeration

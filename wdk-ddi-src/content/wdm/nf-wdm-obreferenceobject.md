@@ -60,6 +60,9 @@ The <b>ObReferenceObject</b> routine increments the reference count to the given
 
 Pointer to the object. The caller obtained this parameter either when it created the object or from a preceding call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a> after it opened the object. 
 
+## -returns
+**ObReferenceObject** returns a value that is reserved for system use. Drivers must treat this value as VOID. 
+
 
 ## -remarks
 

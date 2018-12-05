@@ -59,7 +59,7 @@ The BTH_LOCAL_RADIO_INFO structure contains information about the local Bluetoot
 ### -field localInfo
 
 A 
-     <a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structure that contains
+     <a href="https://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structure that contains
      information about the local radio.
 
 
@@ -111,7 +111,7 @@ The
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
 
 
 

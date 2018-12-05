@@ -38,6 +38,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # MILLISECONDS_TO_100NANOSECONDS macro
@@ -54,6 +55,9 @@ This macro converts time, in milliseconds, to 100 nanosecond units.
 
 The duration in milliseconds to convert to 100 nanosecond units.
 
+## -returns
+
+A ULONGLONG that represents a time length in nanoseconds.
 
 ## -remarks
 

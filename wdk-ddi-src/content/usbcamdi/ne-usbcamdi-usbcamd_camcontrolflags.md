@@ -1,5 +1,5 @@
 ---
-UID: NE:usbcamdi.USBCAMD_CamControlFlags
+UID: NE:usbcamdi.__unnamed_enum_0
 title: USBCAMD_CamControlFlags
 author: windows-driver-content
 description: 
@@ -28,6 +28,7 @@ api_name:
 product:
 -   Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # USBCAMD_CamControlFlags enumeration

@@ -129,7 +129,7 @@ The possible values are: <ul><li>FWP_DIRECTION_INBOUND</li><li>FWP_DIRECTION_OUT
 
 The type of the network interface, as defined by the Internet Assigned Numbers Authority (IANA).
      For more information, see 
-     <a href="http://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a>.
+     <a href="https://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a>.
 
 
 ### -field FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_TUNNEL_TYPE
@@ -137,7 +137,7 @@ The type of the network interface, as defined by the Internet Assigned Numbers A
 The encapsulation method used by a tunnel if the 
      <b>IfType</b> member of the IP_ADAPTER_ADDRESSES structure is IF_TYPE_TUNNEL. The tunnel type is defined
      by IANA. For more information, see 
-     <a href="http://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a> and the
+     <a href="https://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a> and the
      Windows SDK.
 
 

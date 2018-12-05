@@ -45,79 +45,30 @@ req.typenames:
 
 # D3DKMTDestroyAllocation2 function
 
-
 ## -description
-
 
 The <b>D3DKMTDestroyAllocation2</b> function releases a resource, a list of allocations, or both.
 
 
 ## -parameters
 
-
-
-
 ### -param D3DKMT_DESTROYALLOCATION2
-
-
-
-
-
 
 *pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906793">D3DKMT_DESTROYALLOCATION2</a> structure that contains information for releasing allocations.
 
-
 ## -returns
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546891">D3DKMTDestroyAllocation</a> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-Allocations were successfully released.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|Allocations were successfully released.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
  
-
 This function might also return other <b>NTSTATUS</b> values.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn906793">D3DKMT_DESTROYALLOCATION2</a>
- 
-
- 
-

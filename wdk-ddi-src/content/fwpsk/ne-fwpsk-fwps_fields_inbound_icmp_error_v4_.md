@@ -125,7 +125,7 @@ The sub-interface index of the local logical network interface, as enumerated by
 
 The type of the local network interface, as defined by the Internet Assigned Numbers Authority
      (IANA). For more information, see 
-     <a href="http://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a>.
+     <a href="https://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a>.
 
 
 ### -field FWPS_FIELD_INBOUND_ICMP_ERROR_V4_TUNNEL_TYPE
@@ -133,7 +133,7 @@ The type of the local network interface, as defined by the Internet Assigned Num
 The encapsulation method used by a tunnel if the 
      <b>IfType</b> member of the IP_ADAPTER_ADDRESSES structure is IF_TYPE_TUNNEL. The tunnel type is defined
      by IANA. For more information, see 
-     <a href="http://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a> and the
+     <a href="https://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a> and the
      Windows SDK.
 
 
@@ -159,7 +159,7 @@ The index of the arrival network interface, as enumerated by the network stack.
 
 The type of the arrival network interface, as defined by the Internet Assigned Numbers Authority
      (IANA). For more information, see 
-     <a href="http://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a>.
+     <a href="https://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a>.
      
 
 <div class="alert"><b>Note</b>  Supported in Windows Server 2008, Windows Vista SP1, and later versions of
@@ -171,7 +171,7 @@ The type of the arrival network interface, as defined by the Internet Assigned N
 The encapsulation method used by a tunnel if the 
      <b>IfType</b> member of the IP_ADAPTER_ADDRESSES structure is IF_TYPE_TUNNEL. The tunnel type is defined
      by IANA. For more information, see 
-     <a href="http://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a> and the
+     <a href="https://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a> and the
      Windows SDK.
      
 

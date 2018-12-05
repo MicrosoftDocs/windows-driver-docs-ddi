@@ -76,57 +76,13 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt76
 
 ## -returns
 
+Returns one of the following values.
 
-
-
-      Returns one of the following values.
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The  allocations were successfully offered.
-
-<div class="alert"><b>Note</b>  If the driver does not need to call <a href="https://msdn.microsoft.com/4A8123D3-3A7D-4716-BD02-DD6533DB22F6">pfnOfferAllocations2Cb</a>, it should return <b>S_OK</b>.</div>
-<div> </div>
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_DEVICEREMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-        The video memory manager or display miniport driver could not complete the operation because either a Plug and Play (PnP) Stop event or a Timeout Detection and Recovery (TDR) event occurred.
-
-<div class="alert"><b>Note</b>  If this error code is returned, the driver's calling function (typically the <a href="https://msdn.microsoft.com/2E85EFB6-6116-4FE7-97E0-547FFD61B511">pfnOfferResources</a> routine) must return this error code to the  Direct3D runtime.</div>
-<div> </div>
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-An invalid parameter was supplied.
-
-</td>
-</tr>
-</table>
- 
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The allocations were successfully offered.<br/>**Note:** If the driver does not need to call [pfnOfferAllocations2Cb](https://msdn.microsoft.com/4A8123D3-3A7D-4716-BD02-DD6533DB22F6) , it should return S_OK.| 
+| **D3DDDIERR_DEVICEREMOVED** | The video memory manager or display miniport driver could not complete the operation because either a Plug and Play (PnP) Stop event or a Timeout Detection and Recovery (TDR) event occurred.<br/>**Note:** If this error code is returned, the driver's calling function (typically the [pfnOfferResources](https://msdn.microsoft.com/2E85EFB6-6116-4FE7-97E0-547FFD61B511)  routine) must return this error code to the Direct3D runtime. | 
+| **E_INVALIDARG** | An invalid parameter was supplied. | 
 
 
 

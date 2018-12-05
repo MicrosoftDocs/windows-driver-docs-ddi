@@ -59,54 +59,13 @@ D3DHAL_DP2CLEAR contains all of the information that the driver needs to perform
 
 Specifies what buffers the driver should clear. This member can be a bitwise OR of the following values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DCLEAR_TARGET
+| **Value** | **Meaning** | 
+|:--|:--|
+| D3DCLEAR_TARGET | The driver should clear the context's render target to the color specified by the dwFillColor member. | 
+| D3DCLEAR_STENCIL | The driver should clear the context's stencil buffer to the value specified by the dwFillStencil member. | 
+| D3DCLEAR_ZBUFFER | The driver should clear the context's depth buffer to the depth specified by the dwFillDepth member. | 
+| D3DCLEAR_COMPUTERECTS | DirectX 8.0 and later versions only.<br/>If this flag is set, the specified rectangles should be clipped against the current viewport. Furthermore, it is possible that when D3DCLEAR_COMPUTERECTS is specified the number of rectangles to clear can be zero (the number of rectangles to clear can be found in the wStateCount/wPrimtiveCount union of the [D3DHAL_DP2COMMAND](https://msdn.microsoft.com/library/windows/hardware/ff545454)  structure for the clear). In this case the entire viewport should be cleared. | 
 
-</td>
-<td>
-The driver should clear the context's render target to the color specified by the <b>dwFillColor</b> member.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DCLEAR_STENCIL
-
-</td>
-<td>
-The driver should clear the context's stencil buffer to the value specified by the <b>dwFillStencil</b> member.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DCLEAR_ZBUFFER
-
-</td>
-<td>
-The driver should clear the context's depth buffer to the depth specified by the <b>dwFillDepth</b> member.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DCLEAR_COMPUTERECTS
-
-</td>
-<td>
-DirectX 8.0 and later versions only.
-
-If this flag is set, the specified rectangles should be clipped against the current viewport. Furthermore, it is possible that when D3DCLEAR_COMPUTERECTS is specified the number of rectangles to clear can be zero (the number of rectangles to clear can be found in the <b>wStateCount</b>/<b>wPrimtiveCount</b> union of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a> structure for the clear). In this case the entire viewport should be cleared.
-
-</td>
-</tr>
-</table>
  
 
 

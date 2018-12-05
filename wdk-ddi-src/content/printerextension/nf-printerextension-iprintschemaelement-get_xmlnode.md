@@ -60,7 +60,7 @@ This property is read-only.
 
 
 
-When you dereference the <i>ppXmlNode</i> parameter (using *ppXmlNode ), you obtain a pointer to an interface of type <b>IUnknown</b>. Use this pointer to  call the <b>QueryInterface</b> method, to access the underlying <a href="http://msdn.microsoft.com/library/windows/desktop/ms760248(v=vs.85).aspx">IXMLDOMElement</a> object.print.
+When you dereference the <i>ppXmlNode</i> parameter (using *ppXmlNode ), you obtain a pointer to an interface of type <b>IUnknown</b>. Use this pointer to  call the <b>QueryInterface</b> method, to access the underlying <a href="https://msdn.microsoft.com/library/windows/desktop/ms760248(v=vs.85).aspx">IXMLDOMElement</a> object.print.
 
 
 
@@ -90,7 +90,7 @@ When you dereference the <i>ppXmlNode</i> parameter (using *ppXmlNode ), you obt
 
 
 
-<a href="http://msdn.microsoft.com/library/windows/desktop/ms760248(v=vs.85).aspx">IXMLDOMElement</a>
+<a href="https://msdn.microsoft.com/library/windows/desktop/ms760248(v=vs.85).aspx">IXMLDOMElement</a>
  
 
  

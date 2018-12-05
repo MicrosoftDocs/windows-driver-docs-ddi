@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSQUERYBUFFER
+UID: NS:ks.__unnamed_struct_14
 title: KSQUERYBUFFER
 author: windows-driver-content
 description: The KSQUERYBUFFER structure is used when querying for outstanding buffers available on an event with KSEVENT_TYPE_QUERYBUFFER.

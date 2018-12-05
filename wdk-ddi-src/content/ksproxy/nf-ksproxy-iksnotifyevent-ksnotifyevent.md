@@ -86,7 +86,7 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=183549">IMediaEvent</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=183549">IMediaEvent</a>
  
 
  

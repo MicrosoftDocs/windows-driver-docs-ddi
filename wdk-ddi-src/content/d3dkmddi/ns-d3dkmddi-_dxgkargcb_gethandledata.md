@@ -64,33 +64,10 @@ The DXGKARGCB_GETHANDLEDATA structure describes a handle to private data.
 
 [in] A DXGK_HANDLE_TYPE-typed value that indicates the type of handle to retrieve data about. This member can be one of the following values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-DXGK_HANDLE_ALLOCATION (1)
-
-</td>
-<td>
-The allocations belong to a resource.
-
-</td>
-</tr>
-<tr>
-<td>
-DXGK_HANDLE_RESOURCE (2)
-
-</td>
-<td>
-The <a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a> call is the result of the creation of the primary surface.
-
-</td>
-</tr>
-</table>
- 
+| **Value** | **Meaning** |
+|:--|:--|
+| DXGK_HANDLE_ALLOCATION (1) | The allocations belong to a resource. | 
+| DXGK_HANDLE_RESOURCE (2) | The [DxgkDdiCreateAllocation](https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2)  call is the result of the creation of the primary surface. |
 
 
 ### -field Flags

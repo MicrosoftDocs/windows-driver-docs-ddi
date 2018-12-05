@@ -9,7 +9,7 @@ ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -35,6 +35,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_CALC_PRIVATE_GEOMETRY_SHADER_WITH_STREAM_OUTPUT_0010 callback function
@@ -66,13 +67,13 @@ PFND3D12DDI_CALC_PRIVATE_GEOMETRY_SHADER_WITH_STREAM_OUTPUT_0010
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE  
+### -param Arg1
 
 A handle to the display device (graphics context).
  
-### -param * 
+### -param *
 
-
+Pointer to a D3D12DDIARG_CREATE_GEOMETRY_SHADER_WITH_STREAM_OUTPUT_0010 structure.
 
 ## -returns
 

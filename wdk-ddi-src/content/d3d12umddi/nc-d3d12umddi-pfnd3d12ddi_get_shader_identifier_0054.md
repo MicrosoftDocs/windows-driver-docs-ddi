@@ -35,6 +35,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_GET_SHADER_IDENTIFIER_0054 callback function
@@ -67,7 +68,7 @@ void * Pfnd3d12ddiGetShaderIdentifier0054
 
 A handle to a state object. The state object can be a collection or a ray tracing pipeline state object.
 
-### -param pExportName: 
+### -param pExportName
 
 Entry point in the state object for which to retrieve an identifier.
 

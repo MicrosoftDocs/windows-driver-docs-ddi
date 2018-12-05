@@ -1,5 +1,5 @@
 ---
-UID: NE:ksproxy.KSIOOPERATION
+UID: NE:ksproxy.__unnamed_enum_7
 title: KSIOOPERATION
 author: windows-driver-content
 description: 

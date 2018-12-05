@@ -36,6 +36,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # CVEC3D::~CVEC3D

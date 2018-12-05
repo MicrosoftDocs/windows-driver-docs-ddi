@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSPROPERTY_STEPPING_LONGLONG
+UID: NS:ks.__unnamed_struct_12
 title: KSPROPERTY_STEPPING_LONGLONG
 author: windows-driver-content
 description: The KSPROPERTY_STEPPING_LONGLONG structure defines the valid range of values for a 64-bit property.

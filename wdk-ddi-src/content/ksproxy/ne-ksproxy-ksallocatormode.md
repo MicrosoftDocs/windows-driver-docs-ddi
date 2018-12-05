@@ -1,5 +1,5 @@
 ---
-UID: NE:ksproxy.KSALLOCATORMODE
+UID: NE:ksproxy.__unnamed_enum_0
 title: KSALLOCATORMODE
 author: windows-driver-content
 description: 

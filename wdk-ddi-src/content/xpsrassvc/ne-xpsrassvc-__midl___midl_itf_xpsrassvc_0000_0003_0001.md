@@ -47,7 +47,7 @@ req.typenames: XPSRAS_PIXEL_FORMAT
 ## -description
 
 
-<b>XPSRAS_PIXEL_FORMAT</b> allows a caller to select the pixel format used by the <a href="http://go.microsoft.com/fwlink/p/?linkid=133875">IWICBitmap</a> interface that is returned by the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a> method. <b>XPSRAS_PIXEL_FORMAT</b> is provided with  Windows 8 and later versions of Windows.  
+<b>XPSRAS_PIXEL_FORMAT</b> allows a caller to select the pixel format used by the <a href="https://go.microsoft.com/fwlink/p/?linkid=133875">IWICBitmap</a> interface that is returned by the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a> method. <b>XPSRAS_PIXEL_FORMAT</b> is provided with  Windows 8 and later versions of Windows.  
 
 
 ## -enum-fields
@@ -84,7 +84,7 @@ For more information about rasterizing XPS documents, see <a href="https://msdn.
 
 
 
-<a href="http://msdn.microsoft.com/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
+<a href="https://msdn.microsoft.com/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
 
 
 

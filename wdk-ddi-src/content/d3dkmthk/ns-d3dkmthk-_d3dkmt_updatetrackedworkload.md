@@ -10,7 +10,7 @@ ms.keywords: _D3DKMT_UPDATETRACKEDWORKLOAD, D3DKMT_UPDATETRACKEDWORKLOAD,
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -32,6 +32,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # _D3DKMT_UPDATETRACKEDWORKLOAD structure

@@ -73,26 +73,9 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh45
 
 Returns <b>S_OK</b> or an appropriate error result. WDDM 1.3 and later Direct3D Level 9 drivers must return this error code:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451074">D3DDDIARG_CREATERESOURCE2</a>.<b>Flags</b> member has the <b>CaptureBuffer</b> flag value set and the resource exceeds what the driver can support.
-
-</td>
-</tr>
-</table>
- 
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **E_INVALIDARG** | The [D3DDDIARG_CREATERESOURCE2](https://msdn.microsoft.com/library/windows/hardware/hh451074) .Flagsmember has the CaptureBuffer flag value set and the resource exceeds what the driver can support. | 
 
 
 ## -remarks

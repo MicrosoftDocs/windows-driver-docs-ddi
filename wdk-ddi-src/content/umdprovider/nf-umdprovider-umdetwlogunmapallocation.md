@@ -110,13 +110,8 @@ The driver should pass the same parameters values to <b>UMDEtwLogUnmapAllocation
 
 <b>UMDEtwLogUnmapAllocation</b> is defined inline in Umdprovider.h as:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>FORCEINLINE void LogMapAllocation(BOOLEAN Enter,
+```cpp
+FORCEINLINE void LogMapAllocation(BOOLEAN Enter,
                     ULONGLONG hD3DAllocation,
                     ULONGLONG hDxgAllocation,
                     ULONGLONG Offset,
@@ -160,11 +155,8 @@ FORCEINLINE void UMDEtwLogUnmapAllocation(ULONGLONG hD3DAllocation,
                      Size,
                      Usage,
                      Semantic);
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
+}
+```
 
 
 ## -see-also

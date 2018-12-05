@@ -7,9 +7,9 @@ ms.assetid: fbb456a6-4ffc-4d65-a3d6-e3d78b573ae3
 ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmddi.h
-req.include-header:
+req.include-header: d3dkmddi.h
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -35,6 +35,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # DXGKCB_SIGNALEVENT callback function

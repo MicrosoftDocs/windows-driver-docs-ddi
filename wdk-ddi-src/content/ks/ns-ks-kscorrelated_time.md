@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSCORRELATED_TIME
+UID: NS:ks.__unnamed_struct_59
 title: KSCORRELATED_TIME
 author: windows-driver-content
 description: The KSCORRELATED_TIME structure contains a clock time as well as the corresponding number of clock ticks since system boot.

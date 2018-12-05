@@ -154,7 +154,7 @@ Root ports and root complex event collectors use the <a href="https://msdn.micro
 
 All other PCIe devices and ports that are not bridge devices use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a> structure instead of the PCI_EXPRESS_BRIDGE_AER_CAPABILITY structure to describe the PCIe advanced error reporting capability structure.
 
-For additional information about the PCIe advanced error reporting capability structure for PCIe bridge devices, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=69486">PCI Express Bridge Specification</a>.
+For additional information about the PCIe advanced error reporting capability structure for PCIe bridge devices, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=69486">PCI Express Bridge Specification</a>.
 
 
 

@@ -52,9 +52,6 @@ req.typenames:
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension
 
 Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543119">Device Extensions</a>.
@@ -73,45 +70,14 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5705
 ## -returns
 
 
-
 <i>HwVidGetPowerState</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>NO_ERROR </b></dt>
-</dl>
-</td>
-<td width="60%">
-The device supports the requested power state.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_DEVICE_REINITIALIZATION_NEEDED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The driver failed the power state query.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|NO_ERROR|The device supports the requested power state.|
+|ERROR_DEVICE_REINITIALIZATION_NEEDED|The driver failed the power state query.|
  
-
-
-
-
 ## -remarks
-
-
 
 <i>HwVidGetPowerState</i> is a required function in a video miniport driver.
 
@@ -121,13 +87,7 @@ This function must not return the current power state of the device.
 
 <i>HwVidGetPowerState</i> should be made pageable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/175030c1-95d9-4a3b-976c-16e04852cb91">HwVidGetVideoChildDescriptor</a>
 

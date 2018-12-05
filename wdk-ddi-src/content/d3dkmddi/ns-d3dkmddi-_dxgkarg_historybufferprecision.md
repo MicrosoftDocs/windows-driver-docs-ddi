@@ -53,57 +53,17 @@ Indicates info about the precision of history buffer data used by the display mi
 ## -struct-fields
 
 
-
-
 ### -field PrecisionBits
 
 The number of valid bits that are used in each time stamp. This number doesn't include bits used for junk values.
 
 This precision value has three valid ranges:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>0</dt>
-</dl>
-</td>
-<td width="60%">
-No bits contain useful data, and the  DirectX graphics kernel subsystem will call the <a href="https://msdn.microsoft.com/84417629-5C12-4CB5-B147-0A558A4F9090">DxgkDdiFormatHistoryBuffer</a> function to provide valid data to output to the Event Tracing for Windows (ETW) facility. When the driver processes this call, it sets a new precision value as the output parameter of the function.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>32</dt>
-</dl>
-</td>
-<td width="60%">
-The driver should log 32-bit time stamps using the full 32 bits of precision.
-
-
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>33–64</dt>
-</dl>
-</td>
-<td width="60%">
-The driver should log 64-bit time stamps. This value defines the number of bits used to store data per time stamp.
-
-To reduce the cost of formatting the data, the driver can include junk values in the 64-bit time stamps. For example, the driver could write 64-bit time stamps with 55 valid bits of precision. In this case the upper 9 bits are considered junk values and are stripped off by ETW.
-
-</td>
-</tr>
-</table>
+| **Value** | **Meaning** | 
+|:--|:--|
+| 0 | No bits contain useful data, and the DirectX graphics kernel subsystem will call the [DxgkDdiFormatHistoryBuffer](https://msdn.microsoft.com/84417629-5C12-4CB5-B147-0A558A4F9090) function to provide valid data to output to the Event Tracing for Windows (ETW) facility. When the driver processes this call, it sets a new precision value as the output parameter of the function. |
+| 32 | The driver should log 32-bit time stamps using the full 32 bits of precision. | 
+| 33–64 | The driver should log 64-bit time stamps. This value defines the number of bits used to store data per time stamp.<br/>To reduce the cost of formatting the data, the driver can include junk values in the 64-bit time stamps. For example, the driver could write 64-bit time stamps with 55 valid bits of precision. In this case the upper 9 bits are considered junk values and are stripped off by ETW. |
  
 
 Values between 0 and 32 are unsupported and invalid.
@@ -117,16 +77,9 @@ If the hardware supports 64-bit time stamps but only 32 bits are usable, the dri
 
 In a call to the <a href="https://msdn.microsoft.com/f2f4c54c-7413-48e5-a165-d71f35642b6c">DxgkDdiQueryAdapterInfo</a> function, the output data size,  <a href="https://msdn.microsoft.com/library/windows/hardware/ff557621">DXGKARG_QUERYADAPTERINFO</a>.<b>OutputDataSize</b>, is:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>sizeof(DXGKARG_HISTORYBUFFERPRECISION) * m_DriverCaps.GpuEngineTopology.NbAsymetricProcessingNodes</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+sizeof(DXGKARG_HISTORYBUFFERPRECISION) * m_DriverCaps.GpuEngineTopology.NbAsymetricProcessingNodes
+```
 
 
 

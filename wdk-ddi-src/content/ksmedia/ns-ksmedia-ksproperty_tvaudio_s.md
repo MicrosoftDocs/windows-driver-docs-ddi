@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSPROPERTY_TVAUDIO_S
+UID: NS:ksmedia.__unnamed_struct_143
 title: KSPROPERTY_TVAUDIO_S
 author: windows-driver-content
 description: The KSPROPERTY_TVAUDIO_S structure describes the current TV audio mode, such as stereo or mono audio and language settings.

@@ -199,7 +199,7 @@ If the incoming NS message has a Source Address value that matches this IPv6 add
         sends a neighbor advertisement (NA) message when it is in a low power state. If this member is zero,
         the network adapter should respond to NS messages from any remote IPv6 address.
 
-For more information about IPv6 NS and NA messages, see <a href="http://go.microsoft.com/fwlink/p/?linkid=268370">RFC 4861</a>.
+For more information about IPv6 NS and NA messages, see <a href="https://go.microsoft.com/fwlink/p/?linkid=268370">RFC 4861</a>.
 
 
 ### -field ProtocolOffloadParameters.IPv6NSParameters.SolicitedNodeIPv6Address

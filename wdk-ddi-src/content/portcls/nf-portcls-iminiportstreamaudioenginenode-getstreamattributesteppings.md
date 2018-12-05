@@ -62,7 +62,7 @@ An <a href="https://msdn.microsoft.com/library/windows/hardware/dn302034">eChann
 
 ### -param pKsPropStepLong [out]
 
-A structure of type <a href="http://msdn.microsoft.com/library/windows/hardware/ff565631(v=vs.85).aspx">KSPROPERTY_STEPPING_LONG</a> that contains information about the allowed stepping value for the audio stream attribute.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff565631(v=vs.85).aspx">KSPROPERTY_STEPPING_LONG</a> that contains information about the allowed stepping value for the audio stream attribute.
 
 
 ### -param ui32DataSize [in]
@@ -90,7 +90,7 @@ code.
 
 
 
-<a href="http://msdn.microsoft.com/library/windows/hardware/ff565631(v=vs.85).aspx">KSPROPERTY_STEPPING_LONG</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565631(v=vs.85).aspx">KSPROPERTY_STEPPING_LONG</a>
 
 
 

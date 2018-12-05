@@ -57,7 +57,7 @@ The <code>KSJACK_SINK_INFORMATION</code> structure specifies information about a
 
 ### -field ConnType
 
-Specifies the connection type of the sink. This parameter is an enumeration of type <a href="http://go.microsoft.com/fwlink/p/?linkid=143848">KSJACK_SINK_CONNECTIONTYPE</a>. 
+Specifies the connection type of the sink. This parameter is an enumeration of type <a href="https://go.microsoft.com/fwlink/p/?linkid=143848">KSJACK_SINK_CONNECTIONTYPE</a>. 
 
 
 ### -field ManufacturerId

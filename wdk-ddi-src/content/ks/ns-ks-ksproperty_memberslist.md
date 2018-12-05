@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSPROPERTY_MEMBERSLIST
+UID: NS:ks.__unnamed_struct_64
 title: KSPROPERTY_MEMBERSLIST
 author: windows-driver-content
 description: The KSPROPERTY_MEMBERSLIST structure contains a list of legal values or ranges for a property.

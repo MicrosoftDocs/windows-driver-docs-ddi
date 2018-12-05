@@ -59,23 +59,9 @@ The DDIGAMMACAPS structure describes gamma-ramp capabilities that the user-mode 
 
 [out] A valid bitwise OR of the following capability bits that the driver supports.
 
-<table>
-<tr>
-<th>Capability bit</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-GAMMA_CAP_RGB256x3x16 (0x00000001)
-
-</td>
-<td>
-Gamma-ramp data is stored as 256 16-bit RGB values.
-
-</td>
-</tr>
-</table>
- 
+| **Capability bit** | **Meaning** | 
+|:--|:--|
+| GAMMA_CAP_RGB256x3x16 (0x00000001) | Gamma-ramp data is stored as 256 16-bit RGB values. | 
 
 
 ## -see-also

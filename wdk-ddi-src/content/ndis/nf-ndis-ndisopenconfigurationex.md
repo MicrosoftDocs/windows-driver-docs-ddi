@@ -224,11 +224,11 @@ If a filter driver obtained the handle in
 If a filter driver obtained the handle in 
     <b>NdisHandle</b> from the 
     <i>NdisFilterHandle</i> parameter of the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function, 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a> function, 
     <b>NdisOpenConfigurationEx</b> provides a handle to the registry location where a filter modules
     configuration parameters are stored. The filter driver can use the configuration handle until NDIS
     detaches the filter module and the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a> function returns. If a
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_detach">FilterDetach</a> function returns. If a
     monitoring filter driver specifies the NDIS_CONFIG_FLAG_FILTER_INSTANCE_CONFIGURATION flag in the 
     <b>Flags</b> member of the 
     <a href="https://msdn.microsoft.com/8fa80414-c87a-4f05-b99c-5153f08a0862">
@@ -252,11 +252,11 @@ After a driver is done accessing the configuration information, the driver must 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_detach">FilterDetach</a>
 
 
 

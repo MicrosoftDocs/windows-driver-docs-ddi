@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSPROPERTY_CAMERACONTROL_FLASH_S
+UID: NS:ksmedia.__unnamed_struct_120
 title: KSPROPERTY_CAMERACONTROL_FLASH_S
 author: windows-driver-content
 description: Describes flash control properties in the PROPSETID_VIDCAP_CAMERACONTROL_FLASH camera control property set. This structure specifies property values that are used by applications to configure the camera's flash.

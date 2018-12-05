@@ -164,7 +164,7 @@ The operating system has insufficient resources to create the requested registra
 
 
 
-This routine can potentially support notifications of events in a variety of event classes. In Windows 7, this routine supports only <b>IoSessionStateNotification</b> notifications, which notify a kernel-mode driver of changes in the status of user sessions that the driver is interested in. For user-mode applications, the <a href="http://go.microsoft.com/fwlink/p/?linkid=155043">WTSRegisterSessionNotification</a> function fills a similar role.
+This routine can potentially support notifications of events in a variety of event classes. In Windows 7, this routine supports only <b>IoSessionStateNotification</b> notifications, which notify a kernel-mode driver of changes in the status of user sessions that the driver is interested in. For user-mode applications, the <a href="https://go.microsoft.com/fwlink/p/?linkid=155043">WTSRegisterSessionNotification</a> function fills a similar role.
 
 The function pointer type for the <i>CallbackFunction</i> parameter is defined as follows:
 
@@ -206,7 +206,7 @@ The caller should cast the callback function pointer to this type to match the <
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=155043">WTSRegisterSessionNotification</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=155043">WTSRegisterSessionNotification</a>
  
 
  

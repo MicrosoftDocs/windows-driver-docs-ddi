@@ -1,5 +1,5 @@
 ---
-UID: NE:ksproxy.FRAMING_PROP
+UID: NE:ksproxy.__unnamed_enum_1
 title: FRAMING_PROP
 author: windows-driver-content
 description: 

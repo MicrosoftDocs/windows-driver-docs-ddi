@@ -37,6 +37,7 @@ product: Windows
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # USBPM_HUB_CONNECTOR_HANDLES_INIT function

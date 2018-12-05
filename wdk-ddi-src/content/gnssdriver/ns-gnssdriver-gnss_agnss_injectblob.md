@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_AGNSS_INJECTBLOB
+UID: NS:gnssdriver.__unnamed_struct_37
 title: GNSS_AGNSS_INJECTBLOB
 author: windows-driver-content
 description: This structure defines the format for AGNSS extended ephemeris injection.

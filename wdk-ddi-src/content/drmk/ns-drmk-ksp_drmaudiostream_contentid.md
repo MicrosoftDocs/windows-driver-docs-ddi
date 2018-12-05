@@ -1,5 +1,5 @@
 ---
-UID: NS:drmk.KSP_DRMAUDIOSTREAM_CONTENTID
+UID: NS:drmk.__unnamed_struct_1
 title: KSP_DRMAUDIOSTREAM_CONTENTID
 author: windows-driver-content
 description: The KSP_DRMAUDIOSTREAM_CONTENTID structure specifies the property, request type, and context for a KSPROPERTY_DRMAUDIOSTREAM_CONTENTIDset-property request. It also specifies a list of function pointers to the DRM functions.

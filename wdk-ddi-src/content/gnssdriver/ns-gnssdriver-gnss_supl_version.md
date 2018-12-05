@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_SUPL_VERSION
+UID: NS:gnssdriver.__unnamed_struct_0
 title: GNSS_SUPL_VERSION
 author: windows-driver-content
 description: This structure contains SUPL version information.

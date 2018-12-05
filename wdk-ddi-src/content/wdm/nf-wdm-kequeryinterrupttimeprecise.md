@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>KeQueryInterruptTimePrecise</b> routine returns the current value of the system <a href="http://go.microsoft.com/fwlink/p/?linkid=201082">interrupt time</a> count, with accuracy to within a microsecond.
+The <b>KeQueryInterruptTimePrecise</b> routine returns the current value of the system <a href="https://go.microsoft.com/fwlink/p/?linkid=201082">interrupt time</a> count, with accuracy to within a microsecond.
 
 
 ## -parameters

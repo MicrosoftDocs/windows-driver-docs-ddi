@@ -1,5 +1,5 @@
 ---
-UID: NE:sensorsstructures.AXIS
+UID: NE:sensorsstructures.__unnamed_enum_0
 title: AXIS
 author: windows-driver-content
 description: Defines 3D coordinates.
@@ -29,6 +29,7 @@ api_name:
 product: 
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # AXIS enumeration

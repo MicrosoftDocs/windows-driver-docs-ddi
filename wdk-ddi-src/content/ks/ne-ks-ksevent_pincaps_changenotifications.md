@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.KSEVENT_PINCAPS_CHANGENOTIFICATIONS
+UID: NE:ks.__unnamed_enum_14
 title: KSEVENT_PINCAPS_CHANGENOTIFICATIONS
 author: windows-driver-content
 description: 

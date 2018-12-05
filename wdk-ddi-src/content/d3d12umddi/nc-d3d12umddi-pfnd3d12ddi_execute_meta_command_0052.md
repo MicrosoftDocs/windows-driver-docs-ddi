@@ -35,6 +35,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_EXECUTE_META_COMMAND_0052 callback function
@@ -77,7 +78,7 @@ A handle to the meta-command.
 
 A pointer to void.
 
-### -param Arg3: 
+### -param Arg3
 
 The size of the meta-command array.
 

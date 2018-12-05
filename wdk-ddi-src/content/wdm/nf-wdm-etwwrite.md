@@ -203,7 +203,7 @@ You can call <b>EtwWrite</b> at any IRQL. However, when IRQL is greater than APC
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=70404">EventDataDescCreate</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=70404">EventDataDescCreate</a>
  
 
  

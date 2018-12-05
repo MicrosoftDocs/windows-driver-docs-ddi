@@ -131,7 +131,7 @@ The <i>pTransport</i> parameter passed to this routine was invalid.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=138885">ADAPTER_STATUS</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=138885">ADAPTER_STATUS</a>
 
 
 

@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM
+UID: NS:ksmedia.__unnamed_struct_126
 title: KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM
 author: windows-driver-content
 description: This structure contains a custom item.

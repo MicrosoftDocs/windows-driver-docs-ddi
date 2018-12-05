@@ -69,48 +69,12 @@ A pointer to a [D3DDDICB_CREATECONTEXTVIRTUAL](..\d3dumddi\ns-d3dumddi-_d3dddicb
 
 ## -returns
 
+|Return code|Description|
+|--- |--- |
+|S_OK|The context was successfully created.|
+|E_OUTOFMEMORY|Could not allocate memory that was required for the operation to complete.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
 
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The context was successfully created.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-        Could not allocate memory that was required for the operation to complete.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
  
 
 This function might also return other <b>HRESULT</b> values.

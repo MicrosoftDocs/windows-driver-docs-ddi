@@ -39,6 +39,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: WPD_META_GENRES
+ms.custom: RS5
 ---
 
 # tagWPD_META_GENRES enumeration

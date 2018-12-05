@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSRTAUDIO_PACKETVREGISTER_PROPERTY
+UID: NS:ksmedia.__unnamed_struct_36
 title: KSRTAUDIO_PACKETVREGISTER_PROPERTY
 author: windows-driver-content
 description: The KSRTAUDIO_PACKETVREGISTER_PROPERTY structure contains information about the KSPROPERTY_RTAUDIO_PACKETVREGISTER property.
@@ -31,6 +31,7 @@ api_name:
 product:
 -   Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # KSRTAUDIO_PACKETVREGISTER_PROPERTY structure

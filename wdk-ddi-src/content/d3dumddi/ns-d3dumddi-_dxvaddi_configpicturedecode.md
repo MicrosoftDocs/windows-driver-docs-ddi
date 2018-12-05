@@ -188,7 +188,7 @@ The preferred value for <b>ConfigHostInverseScan</b> is 1 if <b>ConfigResidDiffA
 
 ### -field ConfigSpecificIDCT
 
-[in] A UINT value that specifies the use of a specific <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">IDCT</a> method for off-host IDCT. A value of 1 in this member indicates the use of the IDCT that is specified in Annex W of ITU-T Recommendation H.263, which you can learn about from the <a href="http://go.microsoft.com/fwlink/p/?linkid=8741">International Telecommunication Union</a> website. A value of zero indicates that any compliant IDCT can be used for off-host IDCT. (Values other than zero and 1 are reserved.)
+[in] A UINT value that specifies the use of a specific <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">IDCT</a> method for off-host IDCT. A value of 1 in this member indicates the use of the IDCT that is specified in Annex W of ITU-T Recommendation H.263, which you can learn about from the <a href="https://go.microsoft.com/fwlink/p/?linkid=8741">International Telecommunication Union</a> website. A value of zero indicates that any compliant IDCT can be used for off-host IDCT. (Values other than zero and 1 are reserved.)
 
 <b>ConfigSpecificIDCT</b> must be zero if <b>ConfigResidDiffAccelerator</b> is zero, which indicates host-based residual difference decoding.
 

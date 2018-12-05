@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>KeQueryUnbiasedInterruptTime</b> routine returns the current value of the system <a href="http://go.microsoft.com/fwlink/p/?linkid=201082">interrupt time</a> count.
+The <b>KeQueryUnbiasedInterruptTime</b> routine returns the current value of the system <a href="https://go.microsoft.com/fwlink/p/?linkid=201082">interrupt time</a> count.
 
 
 ## -parameters

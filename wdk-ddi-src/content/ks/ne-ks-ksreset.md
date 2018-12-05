@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.KSRESET
+UID: NE:ks.__unnamed_enum_0
 title: KSRESET
 author: windows-driver-content
 description: 

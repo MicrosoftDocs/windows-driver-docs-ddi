@@ -1,5 +1,5 @@
 ---
-UID: NS:ufs.UFS_UNIT_CONFIG_DESCRIPTOR
+UID: NS:ufs.__unnamed_struct_1
 title: UFS_UNIT_CONFIG_DESCRIPTOR
 author: windows-driver-content
 description: The UFS_UNIT_CONFIG_DESCRIPTOR structure describes the user configurable parameters within the UFS_CONFIG_DESCRIPTOR.

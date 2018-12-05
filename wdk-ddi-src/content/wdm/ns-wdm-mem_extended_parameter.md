@@ -30,6 +30,7 @@ api_name:
 -	MEM_EXTENDED_PARAMETER
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # MEM_EXTENDED_PARAMETER structure

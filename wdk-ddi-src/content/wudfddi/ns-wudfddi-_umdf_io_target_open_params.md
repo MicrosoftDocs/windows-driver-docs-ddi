@@ -59,17 +59,17 @@ The <b>UMDF_IO_TARGET_OPEN_PARAMS</b> structure contains file-open parameters.
 
 ### -field dwShareMode
 
-The type of sharing to allow for the file. For more information about this member, see the <i>dwShareMode</i> parameter of <a href="http://go.microsoft.com/fwlink/p/?linkid=152795">CreateFile</a> in the Windows SDK.
+The type of sharing to allow for the file. For more information about this member, see the <i>dwShareMode</i> parameter of <a href="https://go.microsoft.com/fwlink/p/?linkid=152795">CreateFile</a> in the Windows SDK.
 
 
 ### -field dwCreationDisposition
 
-The action to take if the file already exists. For more information about this member, see the <i>dwCreationDisposition</i> parameter of <a href="http://go.microsoft.com/fwlink/p/?linkid=152795">CreateFile</a> in the Windows SDK.
+The action to take if the file already exists. For more information about this member, see the <i>dwCreationDisposition</i> parameter of <a href="https://go.microsoft.com/fwlink/p/?linkid=152795">CreateFile</a> in the Windows SDK.
 
 
 ### -field dwFlagsAndAttributes
 
-Additional flags and attributes for the file. For more information about this member, see the <i>dwFlagsAndAttributes</i> parameter of <a href="http://go.microsoft.com/fwlink/p/?linkid=152795">CreateFile</a> in the Windows SDK.
+Additional flags and attributes for the file. For more information about this member, see the <i>dwFlagsAndAttributes</i> parameter of <a href="https://go.microsoft.com/fwlink/p/?linkid=152795">CreateFile</a> in the Windows SDK.
 
 
 ## -remarks

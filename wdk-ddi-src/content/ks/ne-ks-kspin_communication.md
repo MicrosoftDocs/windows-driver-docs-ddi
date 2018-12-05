@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.KSPIN_COMMUNICATION
+UID: NE:ks.__unnamed_enum_13
 title: KSPIN_COMMUNICATION
 author: windows-driver-content
 description: 

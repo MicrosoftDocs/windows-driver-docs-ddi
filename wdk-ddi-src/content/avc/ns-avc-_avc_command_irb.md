@@ -92,7 +92,7 @@ This specifies a value from the AvcResponseCode enumeration. This member is used
 
 ### -field SubunitAddr
 
-Set this to the address of nonpaged memory containing the desired subunit address encoded according to Section 5.3.3 of the AV/C Digital Interface Command Set General Specification, Rev 3.0. This specification can be found at the <a href="http://go.microsoft.com/fwlink/p/?linkid=8728">1394 Trade Association</a> website. No length is necessary because the subunit address encoding implies this. This parameter is ignored if <b>SubunitAddrFlag</b> is zero.
+Set this to the address of nonpaged memory containing the desired subunit address encoded according to Section 5.3.3 of the AV/C Digital Interface Command Set General Specification, Rev 3.0. This specification can be found at the <a href="https://go.microsoft.com/fwlink/p/?linkid=8728">1394 Trade Association</a> website. No length is necessary because the subunit address encoding implies this. This parameter is ignored if <b>SubunitAddrFlag</b> is zero.
 
 
 ### -field AlternateOpcodes

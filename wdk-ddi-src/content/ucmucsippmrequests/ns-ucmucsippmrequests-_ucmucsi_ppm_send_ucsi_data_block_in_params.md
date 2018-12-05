@@ -31,6 +31,7 @@ api_name:
 -	_UCMUCSI_PPM_SEND_UCSI_DATA_BLOCK_IN_PARAMS
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCMUCSI_PPM_SEND_UCSI_DATA_BLOCK_IN_PARAMS structure

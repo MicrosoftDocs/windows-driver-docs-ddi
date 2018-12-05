@@ -83,63 +83,13 @@ If <b>hResource</b> is non-<b>NULL</b>, all of the allocations that belong to th
 
 Each element in <b>pPriorities</b> can be set to one of the following values.
 
-<table>
-<tr>
-<th>Enumerator</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DDDI_ALLOCATIONPRIORITY_MINIMUM (0x28000000)
-
-</td>
-<td>
-Minimum priority
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDDI_ALLOCATIONPRIORITY_LOW (0x50000000)
-
-</td>
-<td>
-Low priority
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDDI_ALLOCATIONPRIORITY_NORMAL (0x78000000)
-
-</td>
-<td>
-Normal priority
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDDI_ALLOCATIONPRIORITY_HIGH (0xa0000000)
-
-</td>
-<td>
-High priority
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDDI_ALLOCATIONPRIORITY_MAXIMUM (0xc8000000)
-
-</td>
-<td>
-Maximum priority
-
-</td>
-</tr>
-</table>
- 
+|Enumerator|Meaning|
+|--- |--- |
+|D3DDDI_ALLOCATIONPRIORITY_MINIMUM (0x28000000)|Minimum priority|
+|D3DDDI_ALLOCATIONPRIORITY_LOW (0x50000000)|Low priority|
+|D3DDDI_ALLOCATIONPRIORITY_NORMAL (0x78000000)|Normal priority|
+|D3DDDI_ALLOCATIONPRIORITY_HIGH (0xa0000000)|High priority|
+|D3DDDI_ALLOCATIONPRIORITY_MAXIMUM (0xc8000000)|Maximum priority|
 
 For more information about the meanings of the preceding values, see the Remarks section of the <a href="https://msdn.microsoft.com/1812cb0f-9232-4813-9c7b-74c9fa4d03cf">pfnSetPriorityCb</a> function. 
 

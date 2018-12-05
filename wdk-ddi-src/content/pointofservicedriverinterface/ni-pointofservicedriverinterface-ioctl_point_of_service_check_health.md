@@ -97,7 +97,7 @@ Size of the output buffer, in bytes. Set to sizeof(<i>PosStringType</i>) + enoug
 
 Returns <b>TRUE</b> if successful; otherwise, returns <b>FALSE</b>.
 
-To get extended error information, call <a href="http://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following is a common error value:
+To get extended error information, call <a href="https://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following is a common error value:
 
 
 

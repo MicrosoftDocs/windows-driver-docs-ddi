@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.KSPROPERTY_MEDIASEEKING
+UID: NE:ks.__unnamed_enum_4
 title: KSPROPERTY_MEDIASEEKING
 author: windows-driver-content
 description: 

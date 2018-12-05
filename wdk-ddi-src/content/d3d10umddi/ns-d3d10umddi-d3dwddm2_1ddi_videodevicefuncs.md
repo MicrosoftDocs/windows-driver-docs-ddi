@@ -33,6 +33,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3DWDDM2_1DDI_VIDEODEVICEFUNCS structure

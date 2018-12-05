@@ -38,6 +38,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # NET_PACKET_QUEUE_CONFIG_INIT function

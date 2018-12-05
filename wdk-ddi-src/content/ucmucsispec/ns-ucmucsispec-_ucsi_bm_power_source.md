@@ -31,6 +31,7 @@ api_name:
 -	_UCSI_BM_POWER_SOURCE
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCSI_BM_POWER_SOURCE structure

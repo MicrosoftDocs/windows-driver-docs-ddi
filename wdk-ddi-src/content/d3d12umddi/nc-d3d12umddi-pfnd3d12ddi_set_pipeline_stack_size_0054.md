@@ -35,6 +35,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_SET_PIPELINE_STACK_SIZE_0054 callback function
@@ -67,13 +68,13 @@ void Pfnd3d12ddiSetPipelineStackSize0054
 
 A handle to the state object.
 
-### -param Arg2: 
+### -param Arg2
 
 Stack size in bytes to use during pipeline execution for each shader thread (of which there can be many thousands in flight on the GPU).
 
 ## -returns
 
-Returns void that ...
+Returns void.
 
 ## -remarks
 

@@ -32,6 +32,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _NET_PACKET_QUEUE_CONFIG structure

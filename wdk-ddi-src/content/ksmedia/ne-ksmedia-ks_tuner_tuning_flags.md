@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.KS_TUNER_TUNING_FLAGS
+UID: NE:ksmedia.__unnamed_enum_66
 title: KS_TUNER_TUNING_FLAGS
 author: windows-driver-content
 description: The KS_TUNER_TUNING_FLAGS enumeration defines tuning flags that describe the granularity of a tuning operation.

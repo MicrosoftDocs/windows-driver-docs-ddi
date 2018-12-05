@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSAC3_ROOM_TYPE
+UID: NS:ksmedia.__unnamed_struct_71
 title: KSAC3_ROOM_TYPE
 author: windows-driver-content
 description: The KSAC3_ROOM_TYPE structure specifies the type of audio mixing room in which an AC-3-encoded stream was produced.
@@ -68,7 +68,7 @@ This structure characterizes the production environment of an AC-3-encoded strea
 
 This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537225">KSPROPERTY_AC3_ROOM_TYPE</a> property.
 
-For more information about room types, see the AC-3 specification at the <a href="http://go.microsoft.com/fwlink/p/?linkid=8730">Dolby Laboratories</a> website. The specification is titled Digital Audio Compression Standard (AC-3).
+For more information about room types, see the AC-3 specification at the <a href="https://go.microsoft.com/fwlink/p/?linkid=8730">Dolby Laboratories</a> website. The specification is titled Digital Audio Compression Standard (AC-3).
 
 
 

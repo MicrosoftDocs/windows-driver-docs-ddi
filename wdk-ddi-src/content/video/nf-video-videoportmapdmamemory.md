@@ -43,19 +43,13 @@ req.typenames:
 
 # VideoPortMapDmaMemory function
 
-
 ## -description
-
 
 The <b>VideoPortMapDmaMemory</b> function is <b>obsolete</b> in Windows 2000 and later.
 
 <b>VideoPortMapDmaMemory</b> maps a range of memory for use in DMA transfers.
 
-
 ## -parameters
-
-
-
 
 ### -param HwDeviceExtension [in]
 
@@ -66,107 +60,43 @@ Pointer to the miniport driver's device extension.
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570547">VIDEO_REQUEST_PACKET</a>.
 
-
 ### -param BoardAddress [in]
 
 Specifies the adapter's beginning address.
-
 
 ### -param Length [in]
 
 Specifies the length, in bytes, of the range of memory.
 
-
 ### -param InIoSpace [in]
 
 Indicates the location of the range. This parameter can be one of the following values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_DENSE
-
-</td>
-<td>
-Memory is densely mapped and linear.
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_IO
-
-</td>
-<td>
-The range is in system I/O space. Should not be set by the display driver.
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_MEMORY
-
-</td>
-<td>
-The range is in memory space. Should not be set by the display driver.
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_P6CACHE
-
-</td>
-<td>
-P6 MTRR caching, which is equivalent to write-combine caching. (kernel and user mode).
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_USER_MODE
-
-</td>
-<td>
-Memory pointer for application use.
-
-</td>
-</tr>
-</table>
- 
-
+|Value|Meaning|
+|--- |--- |
+|VIDEO_MEMORY_SPACE_DENSE|Memory is densely mapped and linear.|
+|VIDEO_MEMORY_SPACE_IO|The range is in system I/O space. Should not be set by the display driver.|
+|VIDEO_MEMORY_SPACE_MEMORY|The range is in memory space. Should not be set by the display driver.|
+|VIDEO_MEMORY_SPACE_P6CACHE|P6 MTRR caching, which is equivalent to write-combine caching. (kernel and user mode).|
+|VIDEO_MEMORY_SPACE_USER_MODE|Memory pointer for application use.|
 
 ### -param MappedUserEvent [in]
 
 Is reserved for system use.
 
-
 ### -param DisplayDriverEvent [in]
 
 Is reserved for system use.
-
 
 ### -param VirtualAddress [in, out]
 
 Is reserved for system use.
 
-
 ## -returns
-
-
 
 <b>VideoPortMapDmaMemory</b> always returns <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.
 

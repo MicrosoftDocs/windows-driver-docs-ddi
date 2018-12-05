@@ -32,6 +32,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: netvista
+ms.custom: RS5
 ---
 
 # _KMCL_SERVER_ONLY_METHODS structure

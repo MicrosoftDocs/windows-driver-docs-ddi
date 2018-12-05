@@ -35,6 +35,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_END_RENDER_PASS callback function
@@ -62,7 +63,7 @@ VOID Pfnd3d12ddiEndRenderPass
 
 ## -parameters
 
-### -param Arg1: 
+### -param Arg1
 
 A D3D12DDI_HCOMMANDLIST (command list) that contains the Render Pass.
 

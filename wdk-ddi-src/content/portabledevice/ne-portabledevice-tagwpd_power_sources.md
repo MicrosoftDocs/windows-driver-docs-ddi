@@ -39,6 +39,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: WPD_POWER_SOURCES
+ms.custom: RS5
 ---
 
 # tagWPD_POWER_SOURCES enumeration

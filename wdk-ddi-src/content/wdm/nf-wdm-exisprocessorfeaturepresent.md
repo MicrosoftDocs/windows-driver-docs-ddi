@@ -125,7 +125,7 @@ The processor supports the denormals-are-zero (DAZ) mode for SSE instructions. T
 
 #### PF_NX_ENABLED
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=165498">Data execution prevention</a> is enabled. This parameter value is supported only in Windows Vista and later versions of Windows.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=165498">Data execution prevention</a> is enabled. This parameter value is supported only in Windows Vista and later versions of Windows.
 
 
 

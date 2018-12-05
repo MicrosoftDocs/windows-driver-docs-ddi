@@ -64,57 +64,24 @@ Pointer to the miniport driver's device extension.
 
 Specifies the event type and initial event state. This can be an ORed combination of the following flags:
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-INITIAL_EVENT_SIGNALED
-
-</td>
-<td>
-Set this flag to indicate the signaled state for the event object. Otherwise, the initial state of the event is nonsignaled.
-
-</td>
-</tr>
-<tr>
-<td>
- NOTIFICATION_EVENT
-
-</td>
-<td>
-Set this flag to create a notification event. If this flag is not set, a synchronization event is created.
-
-</td>
-</tr>
-</table>
- 
-
+|Flag|Meaning|
+|--- |--- |
+|INITIAL_EVENT_SIGNALED|Set this flag to indicate the signaled state for the event object. Otherwise, the initial state of the event is nonsignaled.|
+|NOTIFICATION_EVENT|Set this flag to create a notification event. If this flag is not set, a synchronization event is created.|
 
 ### -param Unused [in]
 
 Is currently ignored by the video port driver and must be set to <b>NULL</b>.
 
-
 ### -param ppEvent [out]
 
 Pointer to the memory location at which a pointer to the event object will be returned.
 
-
 ## -returns
-
-
 
 <b>VideoPortCreateEvent</b> returns NO_ERROR if the event object is successfully created.
 
-
-
-
 ## -remarks
-
-
 
 When a synchronization event is set to the signaled state, a single thread that was waiting for the signaled state is released (its dispatch state transitions from waiting to ready, standby, or running), and the event is automatically reset to the nonsignaled state.
 

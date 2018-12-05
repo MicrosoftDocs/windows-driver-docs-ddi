@@ -28,6 +28,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # __unnamed_enum_0 enumeration

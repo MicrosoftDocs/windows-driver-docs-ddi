@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.WAVEFORMATEXTENSIBLE
+UID: NS:ksmedia.__unnamed_struct_2
 title: WAVEFORMATEXTENSIBLE
 author: windows-driver-content
 description: The WAVEFORMATEXTENSIBLE structure specifies the format of an audio wave stream.
@@ -318,7 +318,7 @@ Typically, the count in <b>nChannels</b> equals the number of bits set in <b>dwC
 
 KSAUDIO_SPEAKER_DIRECTOUT represents a configuration with no speakers and is defined in Ksmedia.h as zero. In this configuration, the audio device renders the first channel to the first port on the device, the second channel to the second port on the device, and so on. This allows an audio authoring application to output multichannel data directly and without modification to a device such as a digital mixer or a digital audio storage device (hard disk or ADAT). For example, channels 0 through 30 might contain, respectively, drums, guitar, bass, voice, and so on. For this kind of raw audio data, speaker positions are meaningless, and assigning speaker positions to the input or output streams could cause a component such as KMixer to intervene inappropriately by performing an unwanted format conversion. If a device is unable to process the raw audio streams, it should reject a request to change its speaker configuration to KSAUDIO_SPEAKER_DIRECTOUT. For more information, see <a href="https://msdn.microsoft.com/a4198fb7-157f-40e3-8cca-5a9e392087d2">DSSPEAKER_DIRECTOUT Speaker Configuration</a>.
 
-For more information about multichannel configurations, see the white paper titled <i>Multiple Channel Audio Data and WAVE Files</i> at the <a href="http://go.microsoft.com/fwlink/p/?linkid=8751">audio technology</a> website.
+For more information about multichannel configurations, see the white paper titled <i>Multiple Channel Audio Data and WAVE Files</i> at the <a href="https://go.microsoft.com/fwlink/p/?linkid=8751">audio technology</a> website.
 
 The <b>SubFormat</b> member contains a GUID that specifies the general data format for a wave stream. For example, this GUID might specify that the stream contains integer PCM data. The other members provide additional information such as the sample size and the number of channels. The meaning of the <b>SubFormat</b> GUID is similar to that of the 16-bit format tag in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure's <b>wFormatTag</b> member.
 

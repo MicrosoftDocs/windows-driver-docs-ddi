@@ -69,7 +69,7 @@ An optional pointer to a caller-supplied, <b>null</b>-terminated string that the
 
 ### -param DesiredAccess [in]
 
-A bitmask that specifies the caller's desired access to the file. For more information about this member, see the <i>DesiredAccess</i> parameter of <a href="http://go.microsoft.com/fwlink/p/?linkid=152795">CreateFile</a> in the Windows SDK.
+A bitmask that specifies the caller's desired access to the file. For more information about this member, see the <i>DesiredAccess</i> parameter of <a href="https://go.microsoft.com/fwlink/p/?linkid=152795">CreateFile</a> in the Windows SDK.
 
 
 ### -param pOpenParams [in, optional]

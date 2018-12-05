@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSSTREAMALLOCATOR_FUNCTIONTABLE
+UID: NS:ks.__unnamed_struct_43
 title: KSSTREAMALLOCATOR_FUNCTIONTABLE
 author: windows-driver-content
 description: Clients can request the function table of a given allocator by sending a KSSTREAMALLOCATOR_FUNCTIONTABLE structure in a KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE property request.

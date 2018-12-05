@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.SYSAUDIO_ATTACH_VIRTUAL_SOURCE
+UID: NS:ksmedia.__unnamed_struct_59
 title: SYSAUDIO_ATTACH_VIRTUAL_SOURCE
 author: windows-driver-content
 description: The SYSAUDIO_ATTACH_VIRTUAL_SOURCE structure is used to attach a mixer-line virtual source (for example, a volume or mute control) to a mixer pin on the virtual audio device.

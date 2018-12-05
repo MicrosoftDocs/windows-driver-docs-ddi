@@ -80,34 +80,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>pfnDeallocateCb</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The memory was successfully released.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The memory was successfully released.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
  
 
 This function might also return other HRESULT values.
@@ -141,13 +117,8 @@ Note that the <b>pfnDeallocateCb</b> function is distinct from the user-mode dis
 
 The following code example shows how to release a resource.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    D3DDDICB_DEALLOCATE deAllocCB;
+```
+    D3DDDICB_DEALLOCATE deAllocCB;
     HRESULT             hr;
     D3DKMT_HANDLE       hKMAllocHandle;
 
@@ -158,11 +129,8 @@ The following code example shows how to release a resource.
     hr = m_d3dCallbacks.pfnDeallocateCb(m_hD3D, &amp;deAllocCB);
     if ((m_hCurResRuntime) &amp;&amp; (SUCCEEDED(hr))) {
         m_bCurResFreed = TRUE;
-    }</pre>
-</td>
-</tr>
-</table></span></div>
-
+    }
+```
 
 
 ## -see-also

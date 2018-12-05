@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.KSPROPERTY_STREAMALLOCATOR
+UID: NE:ks.__unnamed_enum_21
 title: KSPROPERTY_STREAMALLOCATOR
 author: windows-driver-content
 description: 

@@ -28,6 +28,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_MEMORY_SEGMENT_GROUP enumeration

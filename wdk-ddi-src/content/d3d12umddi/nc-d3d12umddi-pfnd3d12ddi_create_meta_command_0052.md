@@ -35,6 +35,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_CREATE_META_COMMAND_0052 callback function
@@ -92,7 +93,7 @@ The size of the creation parameters.
 
 Handle to a meta-command.
 
-### -param Arg3: 
+### -param Arg3
 
 A meta-command.
 

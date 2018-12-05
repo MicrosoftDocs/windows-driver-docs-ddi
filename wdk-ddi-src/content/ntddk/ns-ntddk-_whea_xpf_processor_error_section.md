@@ -69,7 +69,7 @@ This member contains valid data only if the <b>ValidBits.LocalAPICId</b> bit is 
 
 ### -field CpuId
 
-A 48-byte buffer that contains the results of executing the CPUID instruction. For more information about the CPUID instruction, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.
+A 48-byte buffer that contains the results of executing the CPUID instruction. For more information about the CPUID instruction, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.
 
 This member contains valid data only if the <b>ValidBits.CpuId </b>bit is set.
 

@@ -35,6 +35,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_CREATECOMMANDQUEUE_0050 callback function
@@ -77,7 +78,7 @@ Pointer to a [D3D12DDIARG_CREATECOMMANDQUEUE_0050](ns-d3d12umddi-d3d12ddiarg_cre
 
 The handle of a command queue.
 
-### -param Arg3: 
+### -param Arg3
 
 
 The handle of the command queue for the driver to use when it calls back into the runtime.

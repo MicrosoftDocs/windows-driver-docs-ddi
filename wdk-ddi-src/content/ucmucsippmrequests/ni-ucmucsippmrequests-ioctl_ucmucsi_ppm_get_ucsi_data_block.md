@@ -29,6 +29,7 @@ api_name:
 -	IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK IOCTL

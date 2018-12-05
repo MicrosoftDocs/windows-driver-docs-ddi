@@ -163,7 +163,7 @@ The raw SMBIOS table provider ('RSMB') currently returns a single table identifi
 
 The raw firmware table provider ('FIRM') retrieves a list of DWORD table identifiers. Each identifier corresponds to the beginning of a physical address range. Currently, this provider returns two identifiers, 0x000C0000 and 0x000E0000. These identifiers represent physical memory from 0x000C0000 to 0x000DFFFF and from 0x000E0000 to 0x000FFFFF, respectively.
 
-The ACPI table provider ('ACPI') returns a list of DWORD table identifiers. Each identifier returned corresponds to <b>Signature</b> field of the <b>DESCRIPTION_HEADER</b> structure for an ACPI table currently in the ACPI namespace of the system. For more information about this structure, see the Advanced Configuration and Power Interface Specification at the <a href="http://go.microsoft.com/fwlink/p/?linkid=57185">Advanced Configuration and Power Interface</a> website.
+The ACPI table provider ('ACPI') returns a list of DWORD table identifiers. Each identifier returned corresponds to <b>Signature</b> field of the <b>DESCRIPTION_HEADER</b> structure for an ACPI table currently in the ACPI namespace of the system. For more information about this structure, see the Advanced Configuration and Power Interface Specification at the <a href="https://go.microsoft.com/fwlink/p/?linkid=57185">Advanced Configuration and Power Interface</a> website.
 
 For ACPI, if the system firmware contains multiple tables with the same name, <b>AuxKlibEnumerateSystemFirmwareTables</b> enumerates them all. However, <a href="https://msdn.microsoft.com/library/windows/hardware/jj151549">AuxKlibGetSystemFirmwareTable</a> retrieves only the first table in the list that has this name.
 

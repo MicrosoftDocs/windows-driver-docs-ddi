@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSPROPERTY_TUNER_STATUS_S
+UID: NS:ksmedia.__unnamed_struct_102
 title: KSPROPERTY_TUNER_STATUS_S
 author: windows-driver-content
 description: The KSPROPERTY_TUNER_STATUS_S structure describes the progress of a tuning operation for TV and radio tuner devices, including present tuning frequency.

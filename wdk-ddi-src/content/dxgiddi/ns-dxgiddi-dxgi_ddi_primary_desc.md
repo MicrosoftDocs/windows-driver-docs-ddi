@@ -59,58 +59,12 @@ Describes a resource that is used as a primary (that is, a resource that is scan
 
 [in] A valid bitwise OR of any of the following values that indicates how the resource is displayed. 
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-DXGI_DDI_PRIMARY_OPTIONAL (0x1)
-
-</td>
-<td>
-The user-mode display driver can prevent the resource from ever being a primary. 
-
-The driver can prevent the actual flip (from optional primary to regular primary) and can use a copy-style present operation. Therefore, in this way, the driver might be able to prevent the resource from being actually used as a primary.
-
-</td>
-</tr>
-<tr>
-<td>
-DXGI_DDI_PRIMARY_NONPREROTATED (0x2)
-
-</td>
-<td>
-The primary really represents the DXGI_DDI_MODE_ROTATION_IDENTITY-type rotation, even though it is used with non-DXGI_DDI_MODE_ROTATION_IDENTITY-type display modes, because applications will handle the output orientation by rotating, for example, the viewport and projection matrix.
-
-</td>
-</tr>
-<tr>
-<td>
-DXGI_DDI_PRIMARY_STEREO (0x4)
-
-</td>
-<td>
-Supported in Windows 8 and later versions.
-
-The primary represents a stereo back buffer.
-
-</td>
-</tr>
-<tr>
-<td>
-DXGI_DDI_PRIMARY_INDIRECT (0x8)
-
-</td>
-<td>
-Supported in Windows 10 and later versions.
-
-The primary will be used for presenting to an indirect display device.
-
-</td>
-</tr>
-</table>
+| **Value** | **Meaning** | 
+|:--|:--|
+| DXGI_DDI_PRIMARY_OPTIONAL (0x1) | The user-mode display driver can prevent the resource from ever being a primary.<br/>The driver can prevent the actual flip (from optional primary to regular primary) and can use a copy-style present operation. Therefore, in this way, the driver might be able to prevent the resource from being actually used as a primary. | 
+| DXGI_DDI_PRIMARY_NONPREROTATED (0x2) | The primary really represents the DXGI_DDI_MODE_ROTATION_IDENTITY-type rotation, even though it is used with non-DXGI_DDI_MODE_ROTATION_IDENTITY-type display modes, because applications will handle the output orientation by rotating, for example, the viewport and projection matrix. | 
+| DXGI_DDI_PRIMARY_STEREO (0x4) | Supported in Windows 8 and later versions.<br/>The primary represents a stereo back buffer. | 
+| DXGI_DDI_PRIMARY_INDIRECT (0x8) | Supported in Windows 10 and later versions.<br/>The primary will be used for presenting to an indirect display device. | 
 
 
 

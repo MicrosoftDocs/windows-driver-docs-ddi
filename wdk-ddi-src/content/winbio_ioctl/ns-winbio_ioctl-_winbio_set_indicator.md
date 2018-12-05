@@ -64,42 +64,12 @@ Specifies the total size of the payload, which includes the fixed length structu
 
 Specifies a WINBIO_INDICATOR_STATUS that indicates whether the indicator light should be set on or off.
 
- Possible values are shown in the following table. 
+Possible values are shown in the following table.
 
-<table>
-<tr>
-<td>
-Indicator status code
-
-</td>
-<td>
-Description
-
-</td>
-</tr>
-<tr>
-<td>
-WINBIO_INDICATOR_ON
-
-</td>
-<td>
-The indicator light is on, and changes according to the sensor status.  To be able to set WINBIO_INDICATOR_ON, you must set WINBIO_CAPABILITY_INDICATOR in the <b>Capabilities</b> member of the WINBIO_SENSOR_ATTRIBUTES structure.
-
-</td>
-</tr>
-<tr>
-<td>
-WINBIO_INDICATOR_OFF
-
-</td>
-<td>
-The sensor indicator light is off.  Sensors that do not have an indicator light will always return this value in IOCTL_GET_SENSOR_STATUS. 
-
-</td>
-</tr>
-</table>
- 
-
+|Indicator status code|Description|
+|--- |--- |
+|WINBIO_INDICATOR_ON|The indicator light is on, and changes according to the sensor status.  To be able to set WINBIO_INDICATOR_ON, you must set WINBIO_CAPABILITY_INDICATOR in the Capabilities member of the WINBIO_SENSOR_ATTRIBUTES structure.|
+|WINBIO_INDICATOR_OFF|The sensor indicator light is off.  Sensors that do not have an indicator light will always return this value in IOCTL_GET_SENSOR_STATUS.|
 
 ## -see-also
 

@@ -28,6 +28,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY enumeration

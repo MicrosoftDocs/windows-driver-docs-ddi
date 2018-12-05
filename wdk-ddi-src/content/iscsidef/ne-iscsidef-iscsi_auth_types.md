@@ -1,5 +1,5 @@
 ---
-UID: NE:iscsidef.ISCSI_AUTH_TYPES
+UID: NE:iscsidef.__unnamed_enum_2
 title: ISCSI_AUTH_TYPES
 author: windows-driver-content
 description: The ISCSI_AUTH_TYPES enumeration indicates the type of authentication method that is used to establish a logon connection.

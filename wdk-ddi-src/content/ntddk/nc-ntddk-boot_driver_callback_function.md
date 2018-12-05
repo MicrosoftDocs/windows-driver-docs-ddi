@@ -34,6 +34,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # BOOT_DRIVER_CALLBACK_FUNCTION callback function

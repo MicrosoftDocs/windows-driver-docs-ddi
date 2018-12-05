@@ -97,7 +97,7 @@ Not used with this operation; set to <b>0</b> (zero).
 
 Returns TRUE if successful; otherwise, returns FALSE.
 
-To get extended error information, call <a href="http://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>.
+To get extended error information, call <a href="https://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>.
 
 
 ## -remarks

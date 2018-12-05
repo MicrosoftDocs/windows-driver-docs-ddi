@@ -1,5 +1,5 @@
 ---
-UID: NE:irb.IDE_CONTROL_ACTION
+UID: NE:irb.__unnamed_enum_2
 title: IDE_CONTROL_ACTION
 author: windows-driver-content
 description: The IDE_CONTROL_ACTION enumeration type indicates the control action to be performed by a IdeHwControl routine.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.

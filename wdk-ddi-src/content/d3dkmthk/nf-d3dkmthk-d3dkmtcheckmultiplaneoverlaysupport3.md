@@ -37,6 +37,8 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3DKMTCheckMultiPlaneOverlaySupport3 function

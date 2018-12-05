@@ -90,7 +90,7 @@ TRANSACTION_NOTIFY_COMMIT_FINALIZE
 
 </td>
 <td>
-For Windows Vista SP1 and later, this notification is sent when the transaction is fully committed (that is, when all of the <a href="http://go.microsoft.com/fwlink/p/?linkid=94490">resource managers</a> associated with the transaction, such as <a href="http://go.microsoft.com/fwlink/p/?linkid=66161">TxF</a>, have committed).
+For Windows Vista SP1 and later, this notification is sent when the transaction is fully committed (that is, when all of the <a href="https://go.microsoft.com/fwlink/p/?linkid=94490">resource managers</a> associated with the transaction, such as <a href="https://go.microsoft.com/fwlink/p/?linkid=66161">TxF</a>, have committed).
 
 </td>
 </tr>

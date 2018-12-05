@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSWAVE_VOLUME
+UID: NS:ksmedia.__unnamed_struct_51
 title: KSWAVE_VOLUME
 author: windows-driver-content
 description: The KSWAVE_VOLUME structure is used to describe sample volume.

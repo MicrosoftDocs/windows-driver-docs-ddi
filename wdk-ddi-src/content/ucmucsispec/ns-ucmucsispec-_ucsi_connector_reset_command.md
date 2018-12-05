@@ -31,6 +31,7 @@ api_name:
 -	_UCSI_CONNECTOR_RESET_COMMAND
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCSI_CONNECTOR_RESET_COMMAND structure

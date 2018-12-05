@@ -57,7 +57,7 @@ The WHEA_ERROR_PACKET_DATA_FORMAT enumeration defines the raw hardware error dat
 
 ### -field WheaDataFormatIPFSalRecord
 
-The raw data in the hardware error packet contains an Itanium processor family system abstraction layer (SAL) error record. For more information about the format of a SAL error record, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=72212">Intel Itanium Processor Family System Abstraction Layer Specification</a>.
+The raw data in the hardware error packet contains an Itanium processor family system abstraction layer (SAL) error record. For more information about the format of a SAL error record, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=72212">Intel Itanium Processor Family System Abstraction Layer Specification</a>.
 
 
 ### -field WheaDataFormatXPFMCA

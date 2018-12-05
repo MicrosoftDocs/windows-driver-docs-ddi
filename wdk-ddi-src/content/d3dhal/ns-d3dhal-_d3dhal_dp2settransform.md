@@ -59,42 +59,11 @@ D3DHAL_DP2SETTRANSFORM structure is used to specify the transform state and matr
 
 Specifies the type of transform being done.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DTRANSFORMSTATE_PROJECTION
-
-</td>
-<td>
-Specifies a projection transformation.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTRANSFORMSTATE_VIEW
-
-</td>
-<td>
-Specifies a view transformation.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTRANSFORMSTATE_WORLD
-
-</td>
-<td>
-Specifies a world transformation.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|D3DTRANSFORMSTATE_PROJECTION|Specifies a projection transformation.|
+|D3DTRANSFORMSTATE_VIEW|Specifies a view transformation.|
+|D3DTRANSFORMSTATE_WORLD|Specifies a world transformation.|
  
 
 

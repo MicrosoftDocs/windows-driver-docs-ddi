@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSAC3_DIALOGUE_LEVEL
+UID: NS:ksmedia.__unnamed_struct_70
 title: KSAC3_DIALOGUE_LEVEL
 author: windows-driver-content
 description: The KSAC3_DIALOGUE_LEVEL structure specifies the average volume level of spoken dialog within the audio program encoded in an AC-3 stream.
@@ -66,7 +66,7 @@ Specifies how far the average dialog level is below digital 100 percent. Valid v
 
 This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537212">KSPROPERTY_AC3_BIT_STREAM_MODE</a> property.
 
-For more information about dialog levels, see the AC-3 specification at the <a href="http://go.microsoft.com/fwlink/p/?linkid=8730">Dolby Laboratories</a> website. The specification is titled Digital Audio Compression Standard (AC-3).
+For more information about dialog levels, see the AC-3 specification at the <a href="https://go.microsoft.com/fwlink/p/?linkid=8730">Dolby Laboratories</a> website. The specification is titled Digital Audio Compression Standard (AC-3).
 
 
 

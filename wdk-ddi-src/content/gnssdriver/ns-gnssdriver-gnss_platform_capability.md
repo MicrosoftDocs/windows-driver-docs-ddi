@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_PLATFORM_CAPABILITY
+UID: NS:gnssdriver.__unnamed_struct_2
 title: GNSS_PLATFORM_CAPABILITY
 author: windows-driver-content
 description: This structure is used to communicate the platform/HLOS capabilities to the underlying GNSS driver.

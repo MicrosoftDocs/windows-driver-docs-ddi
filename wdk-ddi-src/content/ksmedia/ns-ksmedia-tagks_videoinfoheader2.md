@@ -320,7 +320,7 @@ Indicates a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56730
 
 To describe a video stream without bob or weave settings, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff567700">KS_VIDEOINFOHEADER</a>.
 
-The KS_VIDEOINFOHEADER2 structure is identical to the DirectShow <a href="http://go.microsoft.com/fwlink/p/?linkid=96751">VIDEOINFOHEADER2</a> structure.
+The KS_VIDEOINFOHEADER2 structure is identical to the DirectShow <a href="https://go.microsoft.com/fwlink/p/?linkid=96751">VIDEOINFOHEADER2</a> structure.
 
 Capture minidrivers that produce video fields (instead of frames) must use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567629">KS_DATARANGE_VIDEO2</a> structure, which contains the KS_VIDEOINFOHEADER2 structure.
 
@@ -330,7 +330,7 @@ Ideally, a sink filter checks <b>rcSource</b> and if the sink filter does not su
 
 The <b>rcTarget</b> member specifies the destination rectangle for the video. Most source filters set this member to all zeros. A downstream filter can request that the video be placed in a particular area of the buffers that it supplies. In this case, it calls the Win32 function <b>QueryAccept</b> with a nonempty target.
 
-If the AMCONTROL_COLORINFO_PRESENT flag is set in the <b>dwControlFlags</b> member, you can cast the <b>dwControlFlags</b> value to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563967">DXVA_ExtendedFormat</a> structure to access the extended color information. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=96751">VIDEOINFOHEADER2</a>.
+If the AMCONTROL_COLORINFO_PRESENT flag is set in the <b>dwControlFlags</b> member, you can cast the <b>dwControlFlags</b> value to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563967">DXVA_ExtendedFormat</a> structure to access the extended color information. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=96751">VIDEOINFOHEADER2</a>.
 
 
 

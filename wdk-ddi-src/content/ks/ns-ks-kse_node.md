@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSE_NODE
+UID: NS:ks.__unnamed_struct_5
 title: KSE_NODE
 author: windows-driver-content
 description: The KSE_NODE structure specifies an event request on a specific node.

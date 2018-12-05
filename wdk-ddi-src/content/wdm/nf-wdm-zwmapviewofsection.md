@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>ZwMapViewOfSection</b> routine maps a of a section into the virtual address space of a subject process.
+The <b>ZwMapViewOfSection</b> routine maps a view of a section into the virtual address space of a subject process.
 
 
 ## -parameters

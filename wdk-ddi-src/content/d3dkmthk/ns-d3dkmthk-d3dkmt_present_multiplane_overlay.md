@@ -31,6 +31,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3DKMT_PRESENT_MULTIPLANE_OVERLAY structure

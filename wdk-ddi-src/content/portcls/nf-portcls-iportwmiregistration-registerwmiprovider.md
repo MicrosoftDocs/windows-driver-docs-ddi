@@ -85,7 +85,7 @@ The <code>RegisterWMIProvider</code> method returns STATUS_SUCCESS if the call i
 
 
 
-For more information about ETW, see <a href="http://go.microsoft.com/fwlink/p/?linkid=154129">Improve Debugging And Performance Tuning With ETW</a>.
+For more information about ETW, see <a href="https://go.microsoft.com/fwlink/p/?linkid=154129">Improve Debugging And Performance Tuning With ETW</a>.
 
 
 
@@ -107,7 +107,7 @@ For more information about ETW, see <a href="http://go.microsoft.com/fwlink/p/?l
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=154129">Improve Debugging And Performance Tuning With ETW</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=154129">Improve Debugging And Performance Tuning With ETW</a>
 
 
 

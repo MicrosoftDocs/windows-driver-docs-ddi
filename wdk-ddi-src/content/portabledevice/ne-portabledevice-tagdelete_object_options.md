@@ -39,6 +39,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: DELETE_OBJECT_OPTIONS
+ms.custom: RS5
 ---
 
 # tagDELETE_OBJECT_OPTIONS enumeration

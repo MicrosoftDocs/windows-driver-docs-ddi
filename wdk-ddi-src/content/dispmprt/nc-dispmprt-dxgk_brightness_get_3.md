@@ -34,6 +34,7 @@ api_name:
 product: 
 - Windows
 targetos: Windows
+tech.root: display
 ---
 
 # DXGK_BRIGHTNESS_GET_3 callback function

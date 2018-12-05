@@ -56,6 +56,9 @@ The <b>RtlUlonglongByteSwap</b> routine reverses the ordering of the eight bytes
 
 A ULONGLONG value to convert to a byte-swapped version.
 
+## -returns
+The byte-swapped version of the input parameter value.
+
 ## -remarks
 
 

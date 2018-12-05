@@ -59,32 +59,10 @@ Describes a rasterizer state. Used by Windows Display Driver Model (WDDM) 1.2 an
 
 [in] A value that specifies the fill mode for primitives. This member must be set to one of the following values from the D3D10_DDI_FILL_MODE enumeration.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3D10_DDI_FILL_WIREFRAME (2)
-
-</td>
-<td>
-Fills wireframes.
-
-</td>
-</tr>
-<tr>
-<td>
-D3D10_DDI_FILL_SOLID (3)
-
-</td>
-<td>
-Fills solids.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|D3D10_DDI_FILL_WIREFRAME (2)|Fills wireframes.|
+|D3D10_DDI_FILL_SOLID (3)|Fills solids.|
  
 
 
@@ -92,42 +70,11 @@ Fills solids.
 
 [in] A value that specifies how back-facing triangles are culled, if at all. This member must be set to one of the following values from the D3D10_DDI_CULL_MODE enumeration.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3D10_DDI_CULL_NONE (1)
-
-</td>
-<td>
-Do not cull any triangles.
-
-</td>
-</tr>
-<tr>
-<td>
-D3D10_DDI_CULL_FRONT (2)
-
-</td>
-<td>
-Cull front faces.
-
-</td>
-</tr>
-<tr>
-<td>
-D3D10_DDI_CULL_BACK (3)
-
-</td>
-<td>
-Cull back faces.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|D3D10_DDI_CULL_NONE (1)|Do not cull any triangles.|
+|D3D10_DDI_CULL_FRONT (2)|Cull front faces.|
+|D3D10_DDI_CULL_BACK (3)|Cull back faces.|
  
 
 
@@ -173,7 +120,7 @@ Cull back faces.
 
 ### -field ForcedSampleCount
 
-[in] During rendering of unordered access vews (UAVs) or rendering target views (RTVs), specifies whether to force a sample count, and if so, the maximum sample count. Valid values are 0, 1, 4, 8, and 16.
+[in] During rendering of unordered access views (UAVs) or rendering target views (RTVs), specifies whether to force a sample count, and if so, the maximum sample count. Valid values are 0, 1, 4, 8, and 16.
 
 If zero, the driver should not force a sample count.
 

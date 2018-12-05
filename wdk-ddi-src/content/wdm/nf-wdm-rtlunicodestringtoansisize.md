@@ -59,6 +59,8 @@ The <b>RtlUnicodeStringToAnsiSize</b> routine returns the number of bytes requir
 
 Pointer to the Unicode string for which to compute the number of bytes required for an equivalent null-terminated ANSI string.
 
+## -returns
+If the Unicode string can be translated into an ANSI string using the current system locale information, [**RtlUnicodeStringToAnsiSize**](nf-wdm-rtlunicodestringtoansisize.md) returns the number of bytes required for an equivalent null-terminated ANSI string. Otherwise, [**RtlUnicodeStringToAnsiSize**](nf-wdm-rtlunicodestringtoansisize.md) returns zero.
 
 ## -remarks
 

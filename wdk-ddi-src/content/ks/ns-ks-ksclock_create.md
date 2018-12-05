@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSCLOCK_CREATE
+UID: NS:ks.__unnamed_struct_58
 title: KSCLOCK_CREATE
 author: windows-driver-content
 description: The KSCLOCK_CREATE structure is used in clock create parameters for the KsCreateClock function.

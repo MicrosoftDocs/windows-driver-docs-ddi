@@ -29,6 +29,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDI_META_COMMAND_PARAMETER_FLAGS enumeration

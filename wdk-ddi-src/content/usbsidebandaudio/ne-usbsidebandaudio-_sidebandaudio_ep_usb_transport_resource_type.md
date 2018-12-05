@@ -28,6 +28,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: audio
+ms.custom: RS5
 ---
 
 # _SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE enumeration

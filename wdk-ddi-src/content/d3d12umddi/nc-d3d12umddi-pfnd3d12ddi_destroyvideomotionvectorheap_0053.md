@@ -35,6 +35,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_DESTROYVIDEOMOTIONVECTORHEAP_0053 callback function
@@ -67,7 +68,7 @@ VOID Pfnd3d12ddiDestroyvideomotionvectorheap0053
 
 A handle to the display device (graphics context) that the Direct3D runtime uses.
 
-### -param hDrvMotionEstimator: 
+### -param hDrvMotionEstimator
 
 A handle to the user mode driver motion estimator type.
 

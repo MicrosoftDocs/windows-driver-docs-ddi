@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.KS_TUNER_STRATEGY
+UID: NE:ksmedia.__unnamed_enum_67
 title: KS_TUNER_STRATEGY
 author: windows-driver-content
 description: The KS_TUNER_STRATEGY enumeration defines tuning method strategies.

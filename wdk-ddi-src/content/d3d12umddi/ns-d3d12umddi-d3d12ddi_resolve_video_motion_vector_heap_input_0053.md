@@ -32,21 +32,28 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_INPUT_0053 structure
 
 ## -description
 
+Describes the input of the resolve operation.
 
 ## -struct-fields
 
 ### -field hDrvMotionVectorHeap
- 
+
+The input buffer for hardware dependent layout.
+
 ### -field PixelWidth
- 
+
+Width in pixels.
+
 ### -field PixelHeight
- 
+
+Height in pixels.
 
 ## -remarks
 

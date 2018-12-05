@@ -121,7 +121,7 @@ Pointer to an <a href="https://msdn.microsoft.com/45512F88-D4B8-4488-99EB-B47EE7
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
  
 
  

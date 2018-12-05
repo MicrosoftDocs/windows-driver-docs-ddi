@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.KS_VideoControlFlags
+UID: NE:ksmedia.__unnamed_enum_105
 title: KS_VideoControlFlags
 author: windows-driver-content
 description: The KS_VideoControlFlags enumeration defines video control capabilities for a specific stream.

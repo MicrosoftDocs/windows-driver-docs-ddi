@@ -1,5 +1,5 @@
 ---
-UID: NE:pmi.PMI_EVENT_TYPE
+UID: NE:pmi.__unnamed_enum_4
 title: PMI_EVENT_TYPE
 author: windows-driver-content
 description: The PMI_EVENT_TYPE enumeration defines the type of PMI power meter event that is returned through the successful completion of an IOCTL_PMI_REGISTER_EVENT_NOTIFY request.

@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.KSPROPERTY_RTAUDIO
+UID: NE:ksmedia.__unnamed_enum_14
 title: KSPROPERTY_RTAUDIO
 author: windows-driver-content
 description: KSPROPERTY_RTAUDIO enumerates the properties of a WaveRT audio device.
@@ -28,6 +28,7 @@ api_name:
 product:
 -   Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # KSPROPERTY_RTAUDIO enumeration

@@ -35,6 +35,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_BEGIN_RENDER_PASS_0053 callback function
@@ -76,9 +77,13 @@ The number of rendering targets.
 
 ### -param *pRenderTargets
 
+*_In_reads_opt_(NumRenderTargets)*
+
 Pointer to the [D3D12DDIARG_RENDER_PASS_RENDER_TARGET_DESC_0053](ns-d3d12umddi-d3d12ddiarg_render_pass_render_target_desc_0053.md) structure, that specifies the render target.
 
 ### -param *pDepthStencil
+
+*_In_opt_*
 
 Pointer to [D3D12DDIARG_RENDER_PASS_DEPTH_STENCIL_DESC_0053](ns-d3d12umddi-d3d12ddiarg_render_pass_depth_stencil_desc_0053.md), that provides information about the Render Pass depth stencil.
 

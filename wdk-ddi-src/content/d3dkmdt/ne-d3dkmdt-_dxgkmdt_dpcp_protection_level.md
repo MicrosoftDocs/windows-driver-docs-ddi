@@ -74,7 +74,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 
-DPCP protects digital video signals from DisplayPort output connectors. For more information about DisplayPort, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=71382">DisplayPort article</a>.
+DPCP protects digital video signals from DisplayPort output connectors. For more information about DisplayPort, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=71382">DisplayPort article</a>.
 
 
 

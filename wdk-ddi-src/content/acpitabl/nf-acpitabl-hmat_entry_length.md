@@ -35,6 +35,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # HMAT_ENTRY_LENGTH macro

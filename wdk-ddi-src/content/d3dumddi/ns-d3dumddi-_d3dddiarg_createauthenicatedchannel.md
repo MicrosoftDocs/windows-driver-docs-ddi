@@ -59,33 +59,10 @@ The D3DDDIARG_CREATEAUTHENTICATEDCHANNEL structure identifies a channel to creat
 
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff549536">DDIAUTHENTICATEDCHANNELTYPE</a>-typed value that indicates the channel type to create. This member can be one of the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-DDIAUTHENTICATEDCHANNEL_DRIVER_SOFTWARE (2)
-
-</td>
-<td>
-The authenticated-channel type is software.
-
-</td>
-</tr>
-<tr>
-<td>
-DDIAUTHENTICATEDCHANNEL_DRIVER_HARDWARE (3)
-
-</td>
-<td>
-The authenticated-channel type is hardware.
-
-</td>
-</tr>
-</table>
- 
+| **Value** | **Meaning** | 
+|:--|:--|
+| DDIAUTHENTICATEDCHANNEL_DRIVER_SOFTWARE (2) | The authenticated-channel type is software. | 
+| DDIAUTHENTICATEDCHANNEL_DRIVER_HARDWARE (3) | The authenticated-channel type is hardware. | 
 
 
 ### -field hChannel

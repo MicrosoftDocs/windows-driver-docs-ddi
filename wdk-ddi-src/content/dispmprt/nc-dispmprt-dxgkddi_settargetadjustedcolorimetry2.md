@@ -9,7 +9,7 @@ ms.topic: callback
 req.header: dispmprt.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -35,6 +35,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY2 callback function
@@ -67,7 +68,7 @@ NTSTATUS DxgkddiSettargetadjustedcolorimetry2
 
 A handle to an adapter.
 
-### -param pArgSetTargetAdjustedColorimetry: 
+### -param pArgSetTargetAdjustedColorimetry
 
 Pointer to a [DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2](ns-dispmprt-_dxgkarg_settargetadjustedcolorimetry2.md) structure containing the colorimetry related fields for the monitor attached to this target after the OS has processed the display device descriptor, all overrides and any adjustments.
 

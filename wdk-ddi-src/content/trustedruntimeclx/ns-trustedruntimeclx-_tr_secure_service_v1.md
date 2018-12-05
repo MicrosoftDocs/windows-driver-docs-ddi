@@ -31,6 +31,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _TR_SECURE_SERVICE_V1 structure

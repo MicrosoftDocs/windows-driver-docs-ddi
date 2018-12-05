@@ -43,75 +43,30 @@ req.typenames:
 
 # D3DKMTCheckMonitorPowerState function
 
-
 ## -description
-
 
 The <b>D3DKMTCheckMonitorPowerState</b> function verifies the power state of a monitor.
 
-
 ## -parameters
 
-
-
-
 ### -param D3DKMT_CHECKMONITORPOWERSTATE
-
-
-
-
-
 
 *pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547301">D3DKMT_CHECKMONITORPOWERSTATE</a> structure that describes the connection to the monitor for which to check the power state. 
 
-
 ## -returns
-
-
 
 <b>D3DKMTCheckMonitorPowerState</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The power state of the monitor was successfully verified.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The power state of the monitor was successfully verified.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
  
-
 This function might also return other <b>NTSTATUS</b> values.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547301">D3DKMT_CHECKMONITORPOWERSTATE</a>
  

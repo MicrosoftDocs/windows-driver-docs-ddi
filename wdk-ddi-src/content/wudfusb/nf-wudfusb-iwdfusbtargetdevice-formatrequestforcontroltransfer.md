@@ -138,7 +138,7 @@ After a UMDF driver calls <b>FormatRequestForControlTransfer</b> to format an I/
 
 #### Examples
 
-The following code example is taken from the <a href="http://go.microsoft.com/fwlink/p/?LinkID=256209">wdf_osrfx2_lab</a> sample in the WDK.
+The following code example is taken from the <a href="https://go.microsoft.com/fwlink/p/?LinkID=256209">wdf_osrfx2_lab</a> sample in the WDK.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

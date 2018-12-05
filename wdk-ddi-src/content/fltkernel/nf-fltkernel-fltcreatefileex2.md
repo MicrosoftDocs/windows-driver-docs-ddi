@@ -903,7 +903,7 @@ To specify an extra create parameter (ECP) as part of a create operation, initia
 
 To create/open a file in the context of a transaction, set the <b>TxnParameters</b> member of the IO_DRIVER_CREATE_CONTEXT structure to the value returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548412">IoGetTransactionParameterBlock</a> routine.
 
-For additional information regarding transactions, see <a href="http://go.microsoft.com/fwlink/p/?linkid=66161">Transaction Management (TxF)</a>.
+For additional information regarding transactions, see <a href="https://go.microsoft.com/fwlink/p/?linkid=66161">Transaction Management (TxF)</a>.
 
 <b>FltCreateFileEx2</b> sends the create request only to the instances attached below the specified minifilter driver instance and to the file system. The specified instance and the instances attached above it do not receive the create request. If no instance is specified, the request goes to the top of the stack and is received by all instances and the file system. 
 

@@ -9,7 +9,7 @@ ms.topic: callback
 req.header: dispmprt.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -35,6 +35,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # DXGKDDI_GETMMIORANGES callback function
@@ -63,11 +64,11 @@ NTSTATUS DxgkddiGetmmioranges
 
 ## -parameters
 
-### -param Context:
+### -param Context
 
 A handle to the device context.
 
-### -param pArgs: 
+### -param pArgs
 
 Pointer to a [DXGKARG_GETMMIORANGES](ns-dispmprt-_dxgkarg_getmmioranges.md) structure.
 

@@ -35,6 +35,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_ENUMERATE_META_COMMAND_PARAMETERS_0052 callback function
@@ -82,7 +83,7 @@ A [D3D12DDI_META_COMMAND_PARAMETER_STAGE](ne-d3d12umddi-d3d12ddi_meta_command_pa
 
 The number of meta-command paramters.
 
-### -param *pParameterDescs: 
+### -param *pParameterDescs
 
 Pointer to an meta-command descriptions.
 

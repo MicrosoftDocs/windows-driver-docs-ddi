@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSDISPATCH_TABLE
+UID: NS:ks.__unnamed_struct_78
 title: KSDISPATCH_TABLE
 author: windows-driver-content
 description: The KSDISPATCH_TABLE structure contains pointers to minidriver implemented IRP dispatch routines.

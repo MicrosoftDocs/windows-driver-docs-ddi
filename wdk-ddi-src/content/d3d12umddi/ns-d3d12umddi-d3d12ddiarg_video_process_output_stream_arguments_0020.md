@@ -74,34 +74,12 @@ The zero-based index of an input stream. If the <b>AlphaFillMode</b> member has 
 
 The background color, which the video processor uses to fill areas of the target rectangle that do not contain a video image. Areas outside the target rectangle are not affected.  The meaning of the values are specified by the <b>ColorSpace</b> member
 
-<table>
-<tr>
-<th></th>
-<th>YCbCrA</th>
-<th>RGBA</th>
-</tr>
-<tr>
-<td>BackgroundColor[0]</td>
-<td>Y</td>
-<td>R</td>
-</tr>
-<tr>
-<td>BackgroundColor[1]</td>
-<td>Cb</td>
-<td>G</td>
-</tr>
-<tr>
-<td>BackgroundColor[2]</td>
-<td>Cr</td>
-<td>N</td>
-</tr>
-<tr>
-<td>BackgroundColor[3]</td>
-<td>A</td>
-<td>A</td>
-</tr>
-</table>
- 
+||YCbCrA|RGBA|
+|--- |--- |--- |
+|BackgroundColor[0]|Y|R|
+|BackgroundColor[1]|Cb|G|
+|BackgroundColor[2]|Cr|N|
+|BackgroundColor[3]|A|A|
 
 
 ### -field FrameRate

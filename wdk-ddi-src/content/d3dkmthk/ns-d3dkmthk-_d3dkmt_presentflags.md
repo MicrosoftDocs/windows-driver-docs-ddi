@@ -134,7 +134,7 @@ Setting this member is equivalent to setting the eleventh bit of the 32-bit <b>V
 
 ### -field LinearToSrgb
 
-A UINT value that specifies whether to convert the linear-formatted source to sRGB format during the copy operation. sRGB format is gamma corrected. For more information about sRGB format, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=10112">sRGB</a> website.
+A UINT value that specifies whether to convert the linear-formatted source to sRGB format during the copy operation. sRGB format is gamma corrected. For more information about sRGB format, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=10112">sRGB</a> website.
 
 Setting this member is equivalent to setting the twelfth bit of the 32-bit <b>Value</b> member (0x00000800).
 

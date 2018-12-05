@@ -35,6 +35,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_CALC_PRIVATE_ROOT_SIGNATURE_SIZE_0001 callback function
@@ -66,11 +67,11 @@ PFND3D12DDI_CALC_PRIVATE_ROOT_SIGNATURE_SIZE_0001
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE
+### -param Arg1
 
 A handle to the display device (graphics context).
 
-### -param * 
+### -param *
 
 Used to create a root signature.
 

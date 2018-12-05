@@ -121,7 +121,7 @@ The buffer has an invalid reparse tag.
 
 For more information about reparse points, see <a href="https://msdn.microsoft.com/6aae70d9-c934-4759-bb26-728b0ac025d1">Reparse Points in a File System Filter Driver</a>.
 
-Reparse tags contain several bits that cannot be set except by system components. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=179582">Reparse Point Tags</a>.
+Reparse tags contain several bits that cannot be set except by system components. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=179582">Reparse Point Tags</a>.
 
 
 

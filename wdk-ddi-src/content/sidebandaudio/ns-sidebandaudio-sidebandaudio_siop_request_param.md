@@ -1,5 +1,5 @@
 ---
-UID: NS:sidebandaudio.SIDEBANDAUDIO_SIOP_REQUEST_PARAM
+UID: NS:sidebandaudio.__unnamed_union_1
 title: SIDEBANDAUDIO_SIOP_REQUEST_PARAM
 author: windows-driver-content
 description: Describes the variable I/O parameter.
@@ -31,6 +31,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: audio
+ms.custom: RS5
 ---
 
 # SIDEBANDAUDIO_SIOP_REQUEST_PARAM structure

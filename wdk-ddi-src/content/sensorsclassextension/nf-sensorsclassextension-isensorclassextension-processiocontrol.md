@@ -67,59 +67,12 @@ Pointer to the IWDFIoRequest interface that represents the UMDF request object.
 
 This method returns an HRESULT. Possible values include, but are not limited to, one of the following values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The method succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_ACCESS_DENIED</b></dt>
-</dl>
-</td>
-<td width="60%">
-No permission. For example, the I/O request sought data for which no permission exists.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_POINTER</b></dt>
-</dl>
-</td>
-<td width="60%">
-A required pointer argument was <b>NULL</b>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)</b></dt>
-</dl>
-</td>
-<td width="60%">
-The request did not contain a WPD IOCTL.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The method succeeded.|
+|E_ACCESS_DENIED|No permission. For example, the I/O request sought data for which no permission exists.|
+|E_POINTER|A required pointer argument was NULL.|
+|HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)|The request did not contain a WPD IOCTL.|
 
 
 ## -remarks

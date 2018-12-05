@@ -1,5 +1,5 @@
 ---
-UID: NE:netdispumdddi.MIRACAST_CHUNK_TYPE
+UID: NE:netdispumdddi.__unnamed_enum_3
 title: MIRACAST_CHUNK_TYPE
 author: windows-driver-content
 description: Specifies the types of wireless display (Miracast) chunk info that is to be processed.

@@ -104,22 +104,16 @@ With TexBlt it is not necessary for the driver to perform any synchronization be
 
 The following pseudocode shows how a subrectangle should be computed for consecutive MIP levels, to go to MIP level i + 1 from MIP level i: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>rect.left &gt;&gt;= 1;
-rect.top &gt;&gt;= 1;
-DWORD right = (rect.right + 1) &gt;&gt; 1;
-DWORD bottom = (rect.bottom + 1) &gt;&gt; 1;
-rect.right = ((right - rect.left) &lt; 1) ? (rect.left + 1) : (right);
-rect.bottom = ((bottom - rect.top ) &lt; 1) ? (rect.top + 1) : (bottom); </pre>
-</td>
-</tr>
-</table></span></div>
-
+```cpp
+rect.left >>= 1; 
+rect.top >>= 1; 
+DWORD right = (rect.right + 1) >> 1; 
+DWORD bottom = (rect.bottom + 1) >> 1; 
+rect.right = ((right - rect.left) < 1) ? 
+    (rect.left + 1) : (right); 
+rect.bottom = ((bottom - rect.top ) < 1) ? 
+    (rect.top + 1) : (bottom);
+```
 
 
 ## -see-also

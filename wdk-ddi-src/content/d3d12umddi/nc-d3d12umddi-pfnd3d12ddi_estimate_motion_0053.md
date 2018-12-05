@@ -35,6 +35,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_ESTIMATE_MOTION_0053 callback function
@@ -77,7 +78,7 @@ Handle to the motion estimator context object.
 
 Pointer to a [D3D12DDI_VIDEO_MOTION_ESTIMATOR_OUTPUT_0053](ns-d3d12umddi-d3d12ddi_video_motion_estimator_output_0053.md) structure that contains the output arguments for the motion estimation operation.
 
-### -param *pInputArguments: 
+### -param *pInputArguments
 
 Pointer to a [D3D12DDI_VIDEO_MOTION_ESTIMATOR_INPUT_0053](ns-d3d12umddi-d3d12ddi_video_motion_estimator_input_0053.md) structure that contains the input arguments for the motion estimation operation.
 

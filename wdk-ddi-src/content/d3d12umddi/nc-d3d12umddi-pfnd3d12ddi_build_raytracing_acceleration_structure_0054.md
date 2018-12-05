@@ -34,6 +34,8 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # PFND3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054 callback function
@@ -67,6 +69,8 @@ VOID Pfnd3d12ddiBuildRaytracingAccelerationStructure0054
 A handle to the command list.
 
 ### -param *
+
+*_In_* [D3D12DDIARG_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054](ns-d3d12umddi-d3d12ddiarg_build_raytracing_acceleration_structure_0054.md)
 
 Description of the acceleration structure to build.
 

@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.KS_AMVP_SELECTFORMATBY
+UID: NE:ksmedia.__unnamed_enum_109
 title: KS_AMVP_SELECTFORMATBY
 author: windows-driver-content
 description: The KS_AMVP_SELECTFORMATBY enumeration specifies the criteria that the Overlay Mixer Filter should use to select the video format.

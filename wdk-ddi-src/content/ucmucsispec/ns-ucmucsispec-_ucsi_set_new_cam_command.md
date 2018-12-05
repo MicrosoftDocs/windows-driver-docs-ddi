@@ -31,6 +31,7 @@ api_name:
 -	_UCSI_SET_NEW_CAM_COMMAND
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCSI_SET_NEW_CAM_COMMAND structure

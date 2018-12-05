@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>ZwCreateSection</b> routine creates a <a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e66">section object</a>.
+The **ZwCreateSection** routine creates a [section object](https://docs.microsoft.com/windows-hardware/drivers/kernel/section-objects-and-views).
 
 
 ## -parameters

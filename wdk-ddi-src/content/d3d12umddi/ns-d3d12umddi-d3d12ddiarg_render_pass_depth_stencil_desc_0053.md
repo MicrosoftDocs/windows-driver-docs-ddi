@@ -32,6 +32,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDIARG_RENDER_PASS_DEPTH_STENCIL_DESC_0053 structure

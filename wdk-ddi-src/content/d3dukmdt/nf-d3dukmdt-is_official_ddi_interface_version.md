@@ -37,6 +37,8 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
+tech.root: display
 ---
 
 # IS_OFFICIAL_DDI_INTERFACE_VERSION macro
@@ -66,6 +68,9 @@ The version to test. Can be one of the following values:
 * DXGKDDI_INTERFACE_VERSION_WDDM2_4
 * DXGKDDI_INTERFACE_VERSION_WDDM2_5
 
+## -returns
+
+Returns a boolean value.
 
 ## -remarks
 

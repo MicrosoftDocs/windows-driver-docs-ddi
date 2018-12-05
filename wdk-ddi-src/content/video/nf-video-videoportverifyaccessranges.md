@@ -52,62 +52,26 @@ The <b>VideoPortVerifyAccessRanges</b> function checks the registry for whether 
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
-
 
 ### -param NumAccessRanges
 
 Specifies the number of elements in the <i>AccessRanges</i> array, or zero.
 
-
 ### -param AccessRanges [in, optional]
 
 Pointer to the miniport driver's access ranges array, or <b>NULL</b>. Each <a href="https://msdn.microsoft.com/library/windows/hardware/ff570498">VIDEO_ACCESS_RANGE</a>-type element in this array specifies a bus-relative range of device memory, I/O ports, or register addresses for the adapter.
 
-
 ## -returns
-
-
 
 <b>VideoPortVerifyAccessRanges</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-An error occurred or a conflict was found; that is, another driver has already claimed one or more of the given hardware resources for its device.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>NO_ERROR</b></dt>
-</dl>
-</td>
-<td width="60%">
-The given <i>AccessRanges</i> are valid and have been claimed for use by the caller.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|ERROR_INVALID_PARAMETER|An error occurred or a conflict was found; that is, another driver has already claimed one or more of the given hardware resources for its device.|
+|NO_ERROR|The given AccessRanges are valid and have been claimed for use by the caller.|
 
 ## -remarks
 

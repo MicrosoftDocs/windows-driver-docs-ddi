@@ -1,5 +1,5 @@
 ---
-UID: NE:winsplp.EBranchOfficeJobEventType
+UID: NE:winsplp.__unnamed_enum_0
 title: EBranchOfficeJobEventType
 author: windows-driver-content
 description: 
@@ -28,6 +28,7 @@ api_name:
 product: 
 -   Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # EBranchOfficeJobEventType enumeration

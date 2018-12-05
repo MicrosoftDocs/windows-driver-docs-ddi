@@ -68,7 +68,7 @@ A pointer to a profile structure that specifies a  WCS color appearance model pr
 
 ### -param pGMMPProfile [in, optional]
 
-A pointer to a profile structure that specifies a WCS gamut map model profile (GMMP). The <i>pGMMPProfile</i> pointer can be freed as soon as the handle is created. If <b>NULL</b>, the default GMMP for the default rendering intent is used, and the current user setting, WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER, is used while querying the default GMMP. For a description of rendering intents, see <a href="http://go.microsoft.com/fwlink/p/?linkid=52269">Rendering Intents</a> in the Microsoft Windows SDK documentation.
+A pointer to a profile structure that specifies a WCS gamut map model profile (GMMP). The <i>pGMMPProfile</i> pointer can be freed as soon as the handle is created. If <b>NULL</b>, the default GMMP for the default rendering intent is used, and the current user setting, WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER, is used while querying the default GMMP. For a description of rendering intents, see <a href="https://go.microsoft.com/fwlink/p/?linkid=52269">Rendering Intents</a> in the Microsoft Windows SDK documentation.
 
 
 ### -param dwDesireAccess
@@ -189,7 +189,7 @@ The <i>dwCreationMode</i> flags CREATE_NEW, CREATE_ALWAYS, and TRUNCATE_EXISTING
 
 Once the handle to the color profile is created, any information used to create that handle can be deleted.
 
-Use the <a href="http://go.microsoft.com/fwlink/p/?linkid=52323">CloseColorProfile </a> function to close an object handle returned by <code>WcsOpenColorProfile</code>.
+Use the <a href="https://go.microsoft.com/fwlink/p/?linkid=52323">CloseColorProfile </a> function to close an object handle returned by <code>WcsOpenColorProfile</code>.
 
 
 
@@ -199,7 +199,7 @@ Use the <a href="http://go.microsoft.com/fwlink/p/?linkid=52323">CloseColorProfi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=52323">CloseColorProfile</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=52323">CloseColorProfile</a>
 
 
 

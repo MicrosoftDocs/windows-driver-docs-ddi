@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>GetSecurityUserInfo</b> function retrieves information about a logon <a href="http://go.microsoft.com/fwlink/p/?linkid=121237">session</a>.
+The <b>GetSecurityUserInfo</b> function retrieves information about a logon <a href="https://go.microsoft.com/fwlink/p/?linkid=121237">session</a>.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ The <b>GetSecurityUserInfo</b> function retrieves information about a logon <a h
 
 ### -param LogonId [in, optional]
 
-An optional pointer to an <a href="http://go.microsoft.com/fwlink/p/?linkid=121236">LUID</a> containing the logon session for which information is to be retrieved. If <i>LogonId</i> is <b>NULL</b>, information for the logon session of the calling thread is returned.
+An optional pointer to an <a href="https://go.microsoft.com/fwlink/p/?linkid=121236">LUID</a> containing the logon session for which information is to be retrieved. If <i>LogonId</i> is <b>NULL</b>, information for the logon session of the calling thread is returned.
 
 
 ### -param Flags [in]
@@ -68,7 +68,7 @@ This parameter is currently not used.
 
 ### -param UserInformation [out]
 
-A pointer to a location which contains a pointer to a <a href="http://go.microsoft.com/fwlink/p/?linkid=121238">SecurityUserData</a> structure. If the function call succeeds, the user information is returned in this structure. The caller is responsible for freeing this buffer by calling the <a href="http://go.microsoft.com/fwlink/p/?linkid=121239">LsaFreeReturnBuffer</a> function.
+A pointer to a location which contains a pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=121238">SecurityUserData</a> structure. If the function call succeeds, the user information is returned in this structure. The caller is responsible for freeing this buffer by calling the <a href="https://go.microsoft.com/fwlink/p/?linkid=121239">LsaFreeReturnBuffer</a> function.
 
 
 ## -returns
@@ -114,7 +114,7 @@ Indicates that the specified logon session does not exist.
 
 
 
-This function obtains information about a logon <a href="http://go.microsoft.com/fwlink/p/?linkid=121237">session</a> via  the <a href="http://go.microsoft.com/fwlink/p/?linkid=121238">SecurityUserData</a>  structure.
+This function obtains information about a logon <a href="https://go.microsoft.com/fwlink/p/?linkid=121237">session</a> via  the <a href="https://go.microsoft.com/fwlink/p/?linkid=121238">SecurityUserData</a>  structure.
 
 
 
@@ -124,7 +124,7 @@ This function obtains information about a logon <a href="http://go.microsoft.com
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121239">LsaFreeReturnBuffer</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=121239">LsaFreeReturnBuffer</a>
 
 
 

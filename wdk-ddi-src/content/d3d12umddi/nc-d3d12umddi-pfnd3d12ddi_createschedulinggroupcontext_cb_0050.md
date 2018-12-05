@@ -35,6 +35,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_CREATESCHEDULINGGROUPCONTEXT_CB_0050 callback function
@@ -67,7 +68,7 @@ HRESULT Pfnd3d12ddiCreateschedulinggroupcontextCb0050
 
 A D3D12DDI_HRTSCHEDULINGGROUP_0050 runtime handle type that represents the contexts associated with a hardware scheduling group.
 
-### -param *: 
+### -param *
 
 Pointer to a [D3DDDICB_CREATECONTEXT](..\d3dumddi\ns-d3dumddi-_d3dddicb_createcontext.md) structure that contains information needed to create a context.
 

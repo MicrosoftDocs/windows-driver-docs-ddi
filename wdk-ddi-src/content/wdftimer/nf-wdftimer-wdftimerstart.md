@@ -76,7 +76,8 @@ If the value is negative, the time period is relative to the current system time
 <li>If the value is positive, the time period specifies an absolute time (which is actually relative to January 1, 1601).</li>
 </ul>
 
-[!Warning]  If you set the **UseHighResolutionTimer** member of  [WDF_TIMER_CONFIG](ns-wdftimer-_wdf_timer_config.md) to **WdfTrue**, you must call **WdfTimerStart** with the *DueTime* parameter set to a negative value.  Otherwise, the call causes the system to crash.
+> [!WARNING]  
+> If you set the **UseHighResolutionTimer** member of  [WDF_TIMER_CONFIG](ns-wdftimer-_wdf_timer_config.md) to **WdfTrue**, you must call **WdfTimerStart** with the *DueTime* parameter set to a negative value.  Otherwise, the call causes the system to crash.
 
 Relative times are not affected by any changes to the system time that might occur within the specified time period. Absolute times do reflect system time changes.
 
@@ -100,7 +101,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 ## -remarks
 
-
+Drivers must always call **WdfTimerStart** to start a timer after creating it, regardless of whether the timer is a periodic timer or not.
 
 After a driver calls <b>WdfTimerStart</b>, the framework calls the driver's <a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a> callback function when the time that is specified for the <i>DueTime</i> parameter elapses. After this first call, the framework calls the callback function each time that the time period that is specified by the <b>Period</b> member of the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552519">WDF_TIMER_CONFIG</a> structure elapses. 
 

@@ -1,5 +1,5 @@
 ---
-UID: NE:dot11wdi.eDiagnoseLevel
+UID: NE:dot11wdi.__unnamed_enum_0
 title: eDiagnoseLevel
 author: windows-driver-content
 description: The eDiagnoseLevel enumeration defines the diagnosis levels for adapter hang diagnosis.

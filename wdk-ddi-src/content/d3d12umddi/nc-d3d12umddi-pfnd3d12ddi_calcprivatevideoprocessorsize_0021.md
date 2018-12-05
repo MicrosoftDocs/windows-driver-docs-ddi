@@ -11,7 +11,7 @@ ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

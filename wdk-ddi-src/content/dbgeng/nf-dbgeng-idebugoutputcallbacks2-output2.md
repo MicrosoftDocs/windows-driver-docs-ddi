@@ -6,7 +6,7 @@ description: Returns notifications for the IDebugOutputCallbacks2 interface.
 old-location: debugger\idebugoutputcallbacks2_output2.htm
 tech.root: debugger
 ms.assetid: 2FFF9B54-6E77-4D46-B6C0-5BADD208BFCC
-ms.date: 05/03/2018
+ms.date: 11/28/2018
 ms.keywords: DEBUG_OUTCBI_ANY_FORMAT, DEBUG_OUTCBI_DML, DEBUG_OUTCBI_EXPLICIT_FLUSH, DEBUG_OUTCBI_TEXT, IDebugOutputCallbacks2 interface [Windows Debugging],Output2 method, IDebugOutputCallbacks2.Output2, IDebugOutputCallbacks2::Output2, Output2, Output2 method [Windows Debugging], Output2 method [Windows Debugging],IDebugOutputCallbacks2 interface, dbgeng/IDebugOutputCallbacks2::Output2, debugger.idebugoutputcallbacks2_output2
 ms.topic: method
 req.header: dbgeng.h
@@ -53,68 +53,9 @@ Returns notifications for the <a href="https://msdn.microsoft.com/D35D8960-AD9F-
 ## -parameters
 
 
-
-
 ### -param Which [in]
 
- The kind of notification that is coming in. 
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="DEBUG_OUTCBI_EXPLICIT_FLUSH"></a><a id="debug_outcbi_explicit_flush"></a><dl>
-<dt><b>DEBUG_OUTCBI_EXPLICIT_FLUSH</b></dt>
-<dt>0x00000001</dt>
-</dl>
-</td>
-<td width="60%">
-Indicates that the callback wants notifications
-of all explicit flushes.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="DEBUG_OUTCBI_TEXT"></a><a id="debug_outcbi_text"></a><dl>
-<dt><b>DEBUG_OUTCBI_TEXT</b></dt>
-<dt>0x00000002</dt>
-</dl>
-</td>
-<td width="60%">
-Indicates that the callback wants
-content in text form.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="DEBUG_OUTCBI_DML"></a><a id="debug_outcbi_dml"></a><dl>
-<dt><b>DEBUG_OUTCBI_DML</b></dt>
-<dt>0x00000004
-</dt>
-</dl>
-</td>
-<td width="60%">
-Indicates that the callback wants
-content in markup form.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="DEBUG_OUTCBI_ANY_FORMAT"></a><a id="debug_outcbi_any_format"></a><dl>
-<dt><b>DEBUG_OUTCBI_ANY_FORMAT</b></dt>
-<dt>0x00000006</dt>
-</dl>
-</td>
-<td width="60%">
-Indicates that the callback wants
-content in any format.
-
-</td>
-</tr>
-</table>
- 
+The kind of DEBUG_OUTCB_XXX notification that is coming in. The DEBUG_OUTCB_XXX notifications are defined in the dbgeng.h header using  #defines. For more information, see [DEBUG_OUTCB_XXX](https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outcb-xxx).
 
 
 ### -param Flags [in]

@@ -1,5 +1,5 @@
 ---
-UID: NS:sensorsstructures.VEC3D
+UID: NS:sensorsstructures.__unnamed_struct_0
 title: VEC3D
 author: windows-driver-content
 description: Defines a 3D vector.
@@ -32,6 +32,7 @@ api_name:
 product: 
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # VEC3D structure

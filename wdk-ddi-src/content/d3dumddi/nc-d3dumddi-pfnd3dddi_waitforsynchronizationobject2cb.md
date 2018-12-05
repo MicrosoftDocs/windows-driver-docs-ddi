@@ -62,13 +62,6 @@ A handle to a display device (that is, the graphics context).
 
 ### -param *
 
-
-
-
-
-
-
-
 *pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451167">D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2</a> structure that describes the synchronization objects and context DMA stream that are required to set up the wait.
@@ -76,39 +69,12 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh45
 
 ## -returns
 
+Returns one of the following values:
 
-
-
-      Returns one of the following values:
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The wait was successfully set up.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The wait was successfully set up. | 
+| **E_INVALIDARG** | Parameters were validated and determined to be incorrect. | 
  
 
 This function might also return other HRESULT values.

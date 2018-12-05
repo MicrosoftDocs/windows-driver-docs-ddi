@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSPROPERTY_TUNER_INPUT_S
+UID: NS:ksmedia.__unnamed_struct_101
 title: KSPROPERTY_TUNER_INPUT_S
 author: windows-driver-content
 description: The KSPROPERTY_TUNER_INPUT_S structure describes the input connection index of a tuner device for devices that support multiple inputs.

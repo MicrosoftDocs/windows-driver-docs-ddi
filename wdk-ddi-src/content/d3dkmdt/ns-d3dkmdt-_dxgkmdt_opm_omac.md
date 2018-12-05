@@ -64,7 +64,7 @@ A 16-byte array that comprises the OMAC.
 
 
 
-For more information about OMAC, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=70417">OMAC-1 algorithm</a>. 
+For more information about OMAC, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=70417">OMAC-1 algorithm</a>. 
 
 The OMAC-1 parameters that OPM and COPP use are:
 
@@ -86,7 +86,7 @@ The OMAC-1 parameters that OPM and COPP use are:
 
 </li>
 </ul>
-For information about AES, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=70411">RSA Laboratories</a> website. 
+For information about AES, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=70411">RSA Laboratories</a> website. 
 
 
 

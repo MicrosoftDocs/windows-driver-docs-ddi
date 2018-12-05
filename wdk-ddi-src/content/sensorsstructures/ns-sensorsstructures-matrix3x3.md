@@ -1,5 +1,5 @@
 ---
-UID: NS:sensorsstructures.MATRIX3X3
+UID: NS:sensorsstructures.__unnamed_struct_1
 title: MATRIX3X3
 author: windows-driver-content
 description: Defines a 3x3 matrix.
@@ -32,6 +32,7 @@ api_name:
 product: 
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # MATRIX3X3 structure

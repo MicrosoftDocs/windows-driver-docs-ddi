@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.MEDIUM_INFO
+UID: NS:ksmedia.__unnamed_struct_132
 title: MEDIUM_INFO
 author: windows-driver-content
 description: The MEDIUM_INFO structure describes the media loaded into an external device.

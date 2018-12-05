@@ -64,42 +64,11 @@ Specifies an index into an array of lights.
 
 Specifies the type of data being passed.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DHAL_SETLIGHT_DATA
-
-</td>
-<td>
-Specifies that a D3DLIGHT7 (described in the Microsoft Windows SDK documentation) structure defining the light follows immediately in the command stream.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DHAL_SETLIGHT_ENABLE
-
-</td>
-<td>
-Enables the light whose index is specified in <b>dwIndex</b>.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DHAL_SETLIGHT_DISABLE
-
-</td>
-<td>
-Disables the light whose index is specified in <b>dwIndex</b>.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|D3DHAL_SETLIGHT_DATA|Specifies that a D3DLIGHT7 (described in the Microsoft Windows SDK documentation) structure defining the light follows immediately in the command stream.|
+|D3DHAL_SETLIGHT_ENABLE|Enables the light whose index is specified in **dwIndex**.|
+|D3DHAL_SETLIGHT_DISABLE|Disables the light whose index is specified in **dwIndex**.|
  
 
 

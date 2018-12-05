@@ -81,34 +81,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn70
 
 
 
-<table>
-<tr>
-<th>Return value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>S_OK</dt>
-</dl>
-</td>
-<td width="60%">
-The operation completed successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>STATUS_INVALID_BUFFER_SIZE</dt>
-</dl>
-</td>
-<td width="60%">
-The value of <a href="https://msdn.microsoft.com/library/windows/hardware/dn701957">D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA</a>::<b>PrivateDriverDataSize</b> was zero or was insufficient to hold the data. When control returns to the caller, <b>PrivateDriverDataSize</b> will contain the required buffer size.
-
-</td>
-</tr>
-</table>
+|Return value|Description|
+|--- |--- |
+|S_OK|The operation completed successfully.|
+|STATUS_INVALID_BUFFER_SIZE|The value of D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA::PrivateDriverDataSize was zero or was insufficient to hold the data. When control returns to the caller, PrivateDriverDataSize will contain the required buffer size.|
  
 
 This method may return other <b>HRESULT</b> values.

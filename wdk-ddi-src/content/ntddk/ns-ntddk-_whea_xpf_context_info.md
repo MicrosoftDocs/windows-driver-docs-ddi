@@ -89,7 +89,7 @@ Machine check and other machine-specific registers.
 
 #### XPF_CONTEXT_INFO_FXSAVE
 
-Floating point registers as saved by the FXSAVE instruction. For more information about the FXSAVE instruction, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.
+Floating point registers as saved by the FXSAVE instruction. For more information about the FXSAVE instruction, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.
 
 
 
@@ -164,7 +164,7 @@ The buffer contains a WHEA_X64_REGISTER_STATE structure.
 
 #### XPF_CONTEXT_INFO_FXSAVE
 
-The buffer contains the floating point registers as saved by the FXSAVE instruction. For more information about the FXSAVE instruction, see the  <a href="http://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>. 
+The buffer contains the floating point registers as saved by the FXSAVE instruction. For more information about the FXSAVE instruction, see the  <a href="https://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>. 
 
 
 

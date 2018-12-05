@@ -80,39 +80,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>CreateQuery</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The query is successfully created.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/ac63b77b-2704-4d5b-bf1d-9d85e8a1e336">CreateQuery</a> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The query is successfully created. | 
+| **E_OUTOFMEMORY** | [CreateQuery](https://msdn.microsoft.com/ac63b77b-2704-4d5b-bf1d-9d85e8a1e336)  could not allocate the required memory for it to complete. | 
 
 ## -remarks
 

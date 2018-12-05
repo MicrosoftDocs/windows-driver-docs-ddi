@@ -82,7 +82,7 @@ The record handle that is returned by the remote SDP server from a previous call
 ### -field range
 
 A variable-length array of structures of type 
-     <a href="http://go.microsoft.com/fwlink/p/?linkid=50714">SdpAttributeRange</a> that contains the
+     <a href="https://go.microsoft.com/fwlink/p/?linkid=50714">SdpAttributeRange</a> that contains the
      range of SDP attributes for which to search. The range array must be in ascending numeric order.
 
 
@@ -126,7 +126,7 @@ The Bluetooth driver stack determines the number of array items in the
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=50714">SdpAttributeRange</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=50714">SdpAttributeRange</a>
  
 
  

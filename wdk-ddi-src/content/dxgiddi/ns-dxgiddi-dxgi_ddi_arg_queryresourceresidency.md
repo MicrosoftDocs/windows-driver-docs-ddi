@@ -69,43 +69,11 @@ The DXGI_DDI_ARG_QUERYRESOURCERESIDENCY structure describes the residency status
 
 [out] A pointer to an array of DXGI_DDI_RESIDENCY values. The number of elements in the array is specified by the <b>Resources</b> member, and each element receives one of the following values to indicate the residency status of the corresponding resource in the array that <b>pResources</b> specifies. 
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-DXGI_DDI_RESIDENCY_FULLY_RESIDENT (1)
-
-</td>
-<td>
-The resources reside in GPU memory, which is the highest residency status.
-
-</td>
-</tr>
-<tr>
-<td>
-DXGI_DDI_RESIDENCY_RESIDENT_IN_SHARED_MEMORY (2)
-
-</td>
-<td>
-The resources reside in shared memory.
-
-</td>
-</tr>
-<tr>
-<td>
-DXGI_DDI_RESIDENCY_EVICTED_TO_DISK (3)
-
-</td>
-<td>
-The resources are nonresident, which is the lowest residency status.
-
-</td>
-</tr>
-</table>
- 
+| **Value** | **Meaning** | 
+|:--|:--|
+| DXGI_DDI_RESIDENCY_FULLY_RESIDENT (1) | The resources reside in GPU memory, which is the highest residency status. | 
+| DXGI_DDI_RESIDENCY_RESIDENT_IN_SHARED_MEMORY (2) | The resources reside in shared memory. | 
+| DXGI_DDI_RESIDENCY_EVICTED_TO_DISK (3) | The resources are nonresident, which is the lowest residency status. | 
 
 
 ### -field Resources

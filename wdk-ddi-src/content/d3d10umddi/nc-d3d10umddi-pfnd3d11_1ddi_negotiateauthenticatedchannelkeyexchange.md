@@ -89,46 +89,11 @@ A pointer to a byte array that contains the encrypted session key.
 
 <b>NegotiateAuthenticatedChannelKeyExchange</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The session key for the authenticated channel was negotiated successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-        Memory was not available to complete the operation.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The session key for the authenticated channel was negotiated successfully.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
+|E_OUTOFMEMORY|Memory was not available to complete the operation.|
  
 
 
@@ -142,8 +107,8 @@ The <i>pData</i> parameter references a buffer that contains a session key for t
 
 The key exchange for an authenticated channel is identical to the key exchange for the Output Protection Manager (OPM) interface. However,  the OPM key buffer contains additional data besides the session key.  
 
-<div class="alert"><b>Note</b>  The same certificate can be used for the authenticated channel and OPM session key.</div>
-<div> </div>
+> [!NOTE]
+> The same certificate can be used for the authenticated channel and OPM session key.
 
 
 

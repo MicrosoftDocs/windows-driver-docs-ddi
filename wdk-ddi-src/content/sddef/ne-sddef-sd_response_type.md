@@ -1,5 +1,5 @@
 ---
-UID: NE:sddef.SD_RESPONSE_TYPE
+UID: NE:sddef.__unnamed_enum_3
 title: SD_RESPONSE_TYPE
 author: windows-driver-content
 description: The SD_RESPONSE_TYPE enumeration lists the types of response data that a Secure Digital (SD) card returns in response to a command.

@@ -9,6 +9,7 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: usbref
+ms.custom: RS5
 ---
 
 # Ucmucsicx.h header
@@ -16,7 +17,7 @@ tech.root: usbref
 
 ## -description
 
-This header is the main include header for client drivers of the UcmUcsiCx class extension. The extension provides a transport-agnostic implementation of the [UCSI specification](http://go.microsoft.com/fwlink/p/?LinkId=760658).
+This header is the main include header for client drivers of the UcmUcsiCx class extension. The extension provides a transport-agnostic implementation of the [UCSI specification](https://go.microsoft.com/fwlink/p/?LinkId=760658).
 
 Ucmucsicx includes these headers:
 

@@ -70,7 +70,7 @@ The size of the destination buffer, in characters. The buffer must be large enou
 
 ### -param pszFormat [in]
 
-A pointer to a null-terminated text string that contains <b>printf</b>-styled <a href="http://msdn.microsoft.com/library/56e442dc.aspx">formatting directives</a>.
+A pointer to a null-terminated text string that contains <b>printf</b>-styled <a href="https://msdn.microsoft.com/library/56e442dc.aspx">formatting directives</a>.
 
 
 ### -param param

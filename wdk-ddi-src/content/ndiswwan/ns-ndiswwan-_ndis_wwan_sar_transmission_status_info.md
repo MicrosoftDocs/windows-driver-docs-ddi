@@ -32,6 +32,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _NDIS_WWAN_SAR_TRANSMISSION_STATUS_INFO structure

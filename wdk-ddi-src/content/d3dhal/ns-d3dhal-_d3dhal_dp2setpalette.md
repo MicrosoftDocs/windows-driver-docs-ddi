@@ -63,154 +63,22 @@ Specifies a handle to the palette to be set up. If the value is zero, the surfac
 ### -field dwPaletteFlags
 
 Specifies a set of flags that specify the attributes of the palette.
-
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_2
-
-</td>
-<td>
-The palette has 2 entries. Currently unused.
-
-</td>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_4
-
-</td>
-<td>
-The palette has 4 entries. Currently unused.
-
-</td>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_16
-
-</td>
-<td>
-The palette has 16 entries. Currently unused.
-
-</td>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_256
-
-</td>
-<td>
-The palette has 256 entries. Currently unused.
-
-</td>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_ALLOW256
-
-</td>
-<td>
-The palette can be fully updated. Currently unused.
-
-</td>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_ALPHA
-
-</td>
-<td>
-The palette's alpha data channel is valid and should be used.
-
-</td>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_DIRTY
-
-</td>
-<td>
-The palette has been changed so the GDI palette is out of sync. Currently unused.
-
-</td>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_EXCLUSIVE
-
-</td>
-<td>
-The palette is being used in exclusive mode. Currently unused.
-
-</td>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_GDI
-
-</td>
-<td>
-The palette is allocated through GDI. Currently unused.
-
-</td>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_INHEL
-
-</td>
-<td>
-The palette is done in the HEL (hardware emulation layer). Currently unused.
-
-</td>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_STORED_8
-
-</td>
-<td>
-The palette is stored using 8 bpp per entry. Currently unused.
-
-</td>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_STORED_16
-
-</td>
-<td>
-The palette is stored using 16 bpp per entry. Currently unused.
-
-</td>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_STORED_24
-
-</td>
-<td>
-The palette is stored using 24 bpp per entry. Currently unused.
-
-</td>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_STORED_8INDEX
-
-</td>
-<td>
-The palette is stored as an 8-bit index into a destination palette. Currently unused.
-
-</td>
-</tr>
-</table>
- 
+|Flag|Meaning|
+|--- |--- |
+|DDRAWIPAL_2|The palette has 2 entries. Currently unused.|
+|DDRAWIPAL_4|The palette has 4 entries. Currently unused.|
+|DDRAWIPAL_16|The palette has 16 entries. Currently unused.|
+|DDRAWIPAL_256|The palette has 256 entries. Currently unused.|
+|DDRAWIPAL_ALLOW256|The palette can be fully updated. Currently unused.|
+|DDRAWIPAL_ALPHA|The palette's alpha data channel is valid and should be used.|
+|DDRAWIPAL_DIRTY|The palette has been changed so the GDI palette is out of sync. Currently unused.|
+|DDRAWIPAL_EXCLUSIVE|The palette is being used in exclusive mode. Currently unused.|
+|DDRAWIPAL_GDI|The palette is allocated through GDI. Currently unused.|
+|DDRAWIPAL_INHEL|The palette is done in the HEL (hardware emulation layer). Currently unused.|
+|DDRAWIPAL_STORED_8|The palette is stored using 8 bpp per entry. Currently unused.|
+|DDRAWIPAL_STORED_16|The palette is stored using 16 bpp per entry. Currently unused.|
+|DDRAWIPAL_STORED_24|The palette is stored using 24 bpp per entry. Currently unused.|
+|DDRAWIPAL_STORED_8INDEX|The palette is stored as an 8-bit index into a destination palette. Currently unused.|
 
 
 ### -field dwSurfaceHandle

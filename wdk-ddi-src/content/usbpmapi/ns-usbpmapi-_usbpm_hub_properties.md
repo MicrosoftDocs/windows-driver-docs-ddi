@@ -31,6 +31,7 @@ api_name:
 -	USBPM_HUB_PROPERTIES
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _USBPM_HUB_PROPERTIES structure

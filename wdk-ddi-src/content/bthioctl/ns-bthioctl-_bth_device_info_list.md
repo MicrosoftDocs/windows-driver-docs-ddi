@@ -64,7 +64,7 @@ The number of devices that have been discovered.
 ### -field deviceList
 
 An open-ended array of 
-     <a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structures. Each
+     <a href="https://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structures. Each
      structure contains information about a previously discovered remote device.
 
 
@@ -89,7 +89,7 @@ The
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
 
 
 

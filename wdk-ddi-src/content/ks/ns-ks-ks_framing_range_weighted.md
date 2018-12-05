@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KS_FRAMING_RANGE_WEIGHTED
+UID: NS:ks.__unnamed_struct_39
 title: KS_FRAMING_RANGE_WEIGHTED
 author: windows-driver-content
 description: Drivers can use the KS_FRAMING_RANGE_WEIGHTED structure to specify a range of weighted frame sizes.

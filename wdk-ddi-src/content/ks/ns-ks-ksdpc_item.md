@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSDPC_ITEM
+UID: NS:ks.__unnamed_struct_74
 title: KSDPC_ITEM
 author: windows-driver-content
 description: The KSDPC_ITEM structure is used to store information related to any internal DPCs that might be used to generate event notification from a raised IRQL.

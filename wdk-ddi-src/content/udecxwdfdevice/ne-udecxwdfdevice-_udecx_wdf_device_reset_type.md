@@ -27,6 +27,7 @@ api_name:
 -	_UDECX_WDF_DEVICE_RESET_TYPE
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UDECX_WDF_DEVICE_RESET_TYPE enumeration

@@ -265,7 +265,7 @@ Update the previous usage list to the current usage list.
 
 </li>
 </ol>
-For information about the mapping between HID usages and PS/2 keyboard scan codes, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=242210">key support and scan codes</a> website.
+For information about the mapping between HID usages and PS/2 keyboard scan codes, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=242210">key support and scan codes</a> website.
 
 
 

@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSCAMERA_PERFRAMESETTING_CAP_HEADER
+UID: NS:ksmedia.__unnamed_struct_125
 title: KSCAMERA_PERFRAMESETTING_CAP_HEADER
 author: windows-driver-content
 description: This structure contains the header information for the per frame settings capabilities.

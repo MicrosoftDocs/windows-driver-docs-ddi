@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.KS_CompressionCaps
+UID: NE:ksmedia.__unnamed_enum_101
 title: KS_CompressionCaps
 author: windows-driver-content
 description: The KS_CompressionCaps enumeration defines compression capabilities of a device.

@@ -216,7 +216,7 @@ The error code returned from the device. For an ATA device, this value is the co
 
 
 
-For more information on function behavior, see section 7.20 of the <a href="http://go.microsoft.com/fwlink/p/?linkid=74996">ATA8-ACS specification</a>.
+For more information on function behavior, see section 7.20 of the <a href="https://go.microsoft.com/fwlink/p/?linkid=74996">ATA8-ACS specification</a>.
 
 
 

@@ -1,5 +1,5 @@
 ---
-UID: NE:strmini.TIME_FUNCTION
+UID: NE:strmini.__unnamed_enum_1
 title: TIME_FUNCTION
 author: windows-driver-content
 description: 

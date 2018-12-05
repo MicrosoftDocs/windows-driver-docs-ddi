@@ -73,102 +73,16 @@ If the driver does not support context creation, the Microsoft DirectX graphics 
 
 <i>DxgkDdiPresent</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiPresent</i> successfully copied the content.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY or STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiPresent</i> could not allocate memory that was required for it to complete.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INSUFFICIENT_DMA_BUFFER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The current direct memory access (DMA) buffer is depleted.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_CANNOTCOLORCONVERT</b></dt>
-</dl>
-</td>
-<td width="60%">
-The display miniport driver detected a bit-block transfer (bitblt) for color conversion that the device could not perform. The Microsoft Direct3D runtime prevents the application from continuing, and the application receives a failure to copy content.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_PRIVILEGED_INSTRUCTION</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiPresent</i> detected nonprivileged instructions (that is, instructions that access memory beyond the privilege of the current central processing unit [CPU] process).
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_ILLEGAL_INSTRUCTION</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiPresent</i> detected instructions that graphics hardware cannot support.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_HANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiPresent</i> detected an invalid handle in the command buffer.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_GPU_EXCEPTION_ON_DEVICE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The display miniport driver detected an error in the DMA stream. The graphics context device is placed in a lost state if the driver returns this error code. 
-
-</td>
-</tr>
-</table>
- 
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|DxgkDdiPresent successfully copied the content.|
+|STATUS_NO_MEMORY or STATUS_INSUFFICIENT_RESOURCES|DxgkDdiPresent could not allocate memory that was required for it to complete.|
+|STATUS_GRAPHICS_INSUFFICIENT_DMA_BUFFER|The current direct memory access (DMA) buffer is depleted.|
+|STATUS_GRAPHICS_CANNOTCOLORCONVERT|The display miniport driver detected a bit-block transfer (bitblt) for color conversion that the device could not perform. The Microsoft Direct3D runtime prevents the application from continuing, and the application receives a failure to copy content.|
+|STATUS_PRIVILEGED_INSTRUCTION|DxgkDdiPresent detected nonprivileged instructions (that is, instructions that access memory beyond the privilege of the current central processing unit [CPU] process).|
+|STATUS_ILLEGAL_INSTRUCTION|DxgkDdiPresent detected instructions that graphics hardware cannot support.|
+|STATUS_INVALID_HANDLE|DxgkDdiPresent detected an invalid handle in the command buffer.|
+|STATUS_GRAPHICS_GPU_EXCEPTION_ON_DEVICE|The display miniport driver detected an error in the DMA stream. The graphics context device is placed in a lost state if the driver returns this error code.|
 
 
 

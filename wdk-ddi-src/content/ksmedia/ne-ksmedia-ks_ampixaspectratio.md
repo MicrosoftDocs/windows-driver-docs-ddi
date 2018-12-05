@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.KS_AMPixAspectRatio
+UID: NE:ksmedia.__unnamed_enum_108
 title: KS_AMPixAspectRatio
 author: windows-driver-content
 description: The KS_AMPixAspectRatio enumeration defines the pixel aspect ratio that corresponds to a 720 480 NTSC video signal or a 720 × 576 PAL video signal.

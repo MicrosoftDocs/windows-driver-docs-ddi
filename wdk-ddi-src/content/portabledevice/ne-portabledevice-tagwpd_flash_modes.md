@@ -39,6 +39,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: WPD_FLASH_MODES
+ms.custom: RS5
 ---
 
 # tagWPD_FLASH_MODES enumeration

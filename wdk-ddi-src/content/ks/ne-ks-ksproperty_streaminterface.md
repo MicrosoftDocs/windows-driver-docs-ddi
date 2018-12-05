@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.KSPROPERTY_STREAMINTERFACE
+UID: NE:ks.__unnamed_enum_23
 title: KSPROPERTY_STREAMINTERFACE
 author: windows-driver-content
 description: 

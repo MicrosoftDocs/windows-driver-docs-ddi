@@ -93,32 +93,10 @@ Specifies the sublevel of a MIP-map texture that is the destination for the blt.
 
 Specifies a flag that indicates the type of filtering that the driver must perform. This member is set to zero to indicate that the driver can use its own filtering technique or is set to one of the following flags.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-DP2BLT_LINEAR
-
-</td>
-<td>
-Set for linear filtering.
-
-</td>
-</tr>
-<tr>
-<td>
-DP2BLT_POINT
-
-</td>
-<td>
-Set for point filtering.
-
-</td>
-</tr>
-</table>
+|Flag|Meaning|
+|--- |--- |
+|DP2BLT_LINEAR|Set for linear filtering.|
+|DP2BLT_POINT|Set for point filtering.|
  
 
 

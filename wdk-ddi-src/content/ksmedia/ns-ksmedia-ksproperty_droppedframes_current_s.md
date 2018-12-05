@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSPROPERTY_DROPPEDFRAMES_CURRENT_S
+UID: NS:ksmedia.__unnamed_struct_152
 title: KSPROPERTY_DROPPEDFRAMES_CURRENT_S
 author: windows-driver-content
 description: The KSPROPERTY_DROPPEDFRAMES_CURRENT_S structure describes the dropped frame information from the minidriver.

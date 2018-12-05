@@ -58,65 +58,13 @@ The VIDEO_POINTER_ATTRIBUTES structure contains attributes of the screen pointer
 ### -field Flags
 
 A set of flags that specify certain attributes of the pointer. <b>Flags</b> can be a combination of the following values:
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="VIDEO_MODE_ASYNC_POINTER"></a><a id="video_mode_async_pointer"></a><dl>
-<dt><b>VIDEO_MODE_ASYNC_POINTER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The pointer can be updated asynchronously to drawing operations.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="VIDEO_MODE_MONO_POINTER"></a><a id="video_mode_mono_pointer"></a><dl>
-<dt><b>VIDEO_MODE_MONO_POINTER</b></dt>
-</dl>
-</td>
-<td width="60%">
-A monochrome hardware pointer is supported.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="VIDEO_MODE_COLOR_POINTER"></a><a id="video_mode_color_pointer"></a><dl>
-<dt><b>VIDEO_MODE_COLOR_POINTER</b></dt>
-</dl>
-</td>
-<td width="60%">
-A color hardware pointer is supported.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="VIDEO_MODE_ANIMATE_START"></a><a id="video_mode_animate_start"></a><dl>
-<dt><b>VIDEO_MODE_ANIMATE_START</b></dt>
-</dl>
-</td>
-<td width="60%">
-The current pointer has the same hotspot as the previous pointer.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="VIDEO_MODE_ANIMATE_UPDATE"></a><a id="video_mode_animate_update"></a><dl>
-<dt><b>VIDEO_MODE_ANIMATE_UPDATE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The current pointer has the same hotspot as the previous pointer.
-
-</td>
-</tr>
-</table>
- 
-
+|Value|Meaning|
+|--- |--- |
+|VIDEO_MODE_ASYNC_POINTER|The pointer can be updated asynchronously to drawing operations.|
+|VIDEO_MODE_MONO_POINTER|A monochrome hardware pointer is supported.|
+|VIDEO_MODE_COLOR_POINTER|A color hardware pointer is supported.|
+|VIDEO_MODE_ANIMATE_START|The current pointer has the same hotspot as the previous pointer.|
+|VIDEO_MODE_ANIMATE_UPDATE|The current pointer has the same hotspot as the previous pointer.|
 
 ### -field Width
 

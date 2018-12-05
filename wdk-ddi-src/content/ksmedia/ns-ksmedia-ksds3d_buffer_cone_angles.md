@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSDS3D_BUFFER_CONE_ANGLES
+UID: NS:ksmedia.__unnamed_struct_14
 title: KSDS3D_BUFFER_CONE_ANGLES
 author: windows-driver-content
 description: A KSDS3D_BUFFER_CONE_ANGLES structure specifies the inside and outside cone angles.

@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KS_FRAMING_ITEM
+UID: NS:ks.__unnamed_struct_41
 title: KS_FRAMING_ITEM
 author: windows-driver-content
 description: The KS_FRAMING_ITEM structure is used to declare allocator requirements on a kernel-mode pin.

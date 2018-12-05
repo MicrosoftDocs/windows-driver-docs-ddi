@@ -64,149 +64,19 @@ Specifies the macroblock address of the current macroblock in raster scan order.
 
 Specifies the type of macroblock being processed. The following bits define the contents of <b>wMBtype</b>.
 
-<table>
-<tr>
-<th>Bits</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-15 to 12
-
-</td>
-<td>
-<i>MvertFieldSel_</i>3 (bit 15, the most significant bit) through <i>MvertFieldSel</i>_0 (bit 12)
-
-Specifies vertical field selection for corresponding motion vectors sent later in the macroblock control command. For frame-based motion with a frame picture structure (for example, for H.261 and H.263), these bits must all be zero. The use of these bits is the same as that specified for the corresponding bits in Section 6.3.17.2 of MPEG-2.
-
-</td>
-</tr>
-<tr>
-<td>
-11
-
-</td>
-<td>
-Reserved Bit. Must be zero.
-
-</td>
-</tr>
-<tr>
-<td>
-10
-
-</td>
-<td>
-<i>HostResidDiff</i>
-
-Specifies whether spatial-domain residual difference decoded blocks are sent or whether transform coefficients are sent for off-host IDCT for the current macroblock.
-
-The <i>HostResidDif</i> flag is always equal to 1 in this structure. This flag must be zero if <b>bConfigResidDiffHost</b> is zero. This flag must be 1 if <b>bConfigResidDiffAccelerator</b> is zero.
-
-</td>
-</tr>
-<tr>
-<td>
-9 and 8
-
-</td>
-<td>
-<i>MotionType</i>
-
-Specifies the motion type in the picture. For example, for frame-based motion with a frame picture structure (as in H.261), bit 9 must be 1 and bit 8 must be zero.
-
-The use of these bits corresponds directly to the use of <i>frame_motion_type</i> or <i>field_motion_type</i> bits in Section 6.3.17.1 and Tables 6-17 and 6-18 of MPEG-2 videowhen these bits are present in MPEG-2. The use of these bits are further explained in the following <b>Remarks</b> section.
-
-</td>
-</tr>
-<tr>
-<td>
-7 and 6
-
-</td>
-<td>
-<i>MBscanMethod</i>
-
-This variable has no meaning and these bits should be set to zero in this structure.
-
-</td>
-</tr>
-<tr>
-<td>
-5
-
-</td>
-<td>
-<i>FieldResidual</i>
-
-Indicates whether the residual difference blocks use a field IDCT structure as specified in MPEG-2.
-
-Must be 1 if the <b>bPicStructure</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff564012">DXVA_PictureParameters</a> is 1 or 2. When used for MPEG-2, <i>FieldResidual</i> must be zero if the <i>frame_pred_frame_DCT</i> variable in the MPEG-2 syntax is 1, and must be equal to the <i>dct_type </i>variable in the MPEG-2 syntax if <i>dct_type</i> is present for the macroblock.
-
-</td>
-</tr>
-<tr>
-<td>
-4
-
-</td>
-<td>
-<i>H261LoopFilter</i>
-
-Specifies whether the H.261 loop filter (Section 3.2.3 of H.261) is active for the current macroblock prediction. The H.261 loop filter is a separable 1/4, 1/2, 1/4 filter applied both horizontally and vertically to all six blocks in an H.261 macroblock, except at block edges where one of the taps would fall outside the block. In such cases, the filter is changed to have coefficients 0, 1, 0. Full arithmetic precision is retained with rounding to 8-bit integers at the output of the 2-D filter process (half-integer or higher values being rounded up).
-
-</td>
-</tr>
-<tr>
-<td>
-3
-
-</td>
-<td>
-<i>Motion4MV</i>
-
-A variable indicating that forward motion uses a distinct motion vector for each of the four luminance blocks in the macroblock, as used in H.263 Annexes F and J. <i>Motion4MV</i> must be zero if <i>MotionForward</i> is zero or if the <b>bPic4MVallowed</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff564012">DXVA_PictureParameters</a> is zero.
-
-</td>
-</tr>
-<tr>
-<td>
-2
-
-</td>
-<td>
-<i>MotionBackward</i>
-
-Used in the manner specified for the corresponding <i>macroblock_motion_backward</i> variable in MPEG-2. If the <b>bPicBackwardPrediction</b> member of DXVA_PictureParameters is zero, <i>MotionBackward</i> must be zero. The use of this bit is further explained in the following <b>Remarks</b> section.
-
-</td>
-</tr>
-<tr>
-<td>
-1
-
-</td>
-<td>
-<i>MotionForward</i>
-
-Used for the corresponding <i>macroblock_motion_forward</i> variable in MPEG-2. The use of this bit is further explained in the following <b>Remarks</b> section.
-
-</td>
-</tr>
-<tr>
-<td>
-0
-
-</td>
-<td>
-<i>IntraMacroblock</i>
-
-Indicates that the macroblock is coded as intra, and no motion vectors are used for the current macroblock. Corresponds to <i>macroblock_intra</i> in MPEG-2. The use of this bit is further explained in the following <b>Remarks</b> section.
-
-</td>
-</tr>
-</table>
- 
+| **Bits** | **Description** | 
+|:--|:--|
+| 15 to 12 | MvertFieldSel_3 (bit 15, the most significant bit) through MvertFieldSel_0 (bit 12)<br/>Specifies vertical field selection for corresponding motion vectors sent later in the macroblock control command. For frame-based motion with a frame picture structure (for example, for H.261 and H.263), these bits must all be zero. The use of these bits is the same as that specified for the corresponding bits in Section 6.3.17.2 of MPEG-2. | 
+| 11 | Reserved Bit. Must be zero. | 
+| 10 | *HostResidDiff*<br/>Specifies whether spatial-domain residual difference decoded blocks are sent or whether transform coefficients are sent for off-host IDCT for the current macroblock.<br/>The HostResidDif flag is always equal to 1 in this structure. This flag must be zero if bConfigResidDiffHost is zero. This flag must be 1 if bConfigResidDiffAccelerator is zero. | 
+| 9 and 8 | *MotionType*<br/>Specifies the motion type in the picture. For example, for frame-based motion with a frame picture structure (as in H.261), bit 9 must be 1 and bit 8 must be zero.<br/>The use of these bits corresponds directly to the use of frame_motion_type or field_motion_type bits in Section 6.3.17.1 and Tables 6-17 and 6-18 of MPEG-2 videowhen these bits are present in MPEG-2. The use of these bits are further explained in the following Remarks section. | 
+| 7 and 6 | *MBscanMethod*<br/>This variable has no meaning and these bits should be set to zero in this structure. | 
+| 5 | *FieldResidual*<br/>Indicates whether the residual difference blocks use a field IDCT structure as specified in MPEG-2.<br/>Must be 1 if the bPicStructure member of [DXVA_PictureParameters](https://msdn.microsoft.com/library/windows/hardware/ff564012)  is 1 or 2. When used for MPEG-2, FieldResidual must be zero if the frame_pred_frame_DCT variable in the MPEG-2 syntax is 1, and must be equal to the dct_type variable in the MPEG-2 syntax if dct_type is present for the macroblock. | 
+| 4 | *H261LoopFilter*<br/>Specifies whether the H.261 loop filter (Section 3.2.3 of H.261) is active for the current macroblock prediction. The H.261 loop filter is a separable 1/4, 1/2, 1/4 filter applied both horizontally and vertically to all six blocks in an H.261 macroblock, except at block edges where one of the taps would fall outside the block. In such cases, the filter is changed to have coefficients 0, 1, 0. Full arithmetic precision is retained with rounding to 8-bit integers at the output of the 2-D filter process (half-integer or higher values being rounded up). | 
+| 3 | *Motion4MV*<br/>A variable indicating that forward motion uses a distinct motion vector for each of the four luminance blocks in the macroblock, as used in H.263 Annexes F and J. Motion4MV must be zero if MotionForward is zero or if the bPic4MVallowed member of [DXVA_PictureParameters](https://msdn.microsoft.com/library/windows/hardware/ff564012)  is zero. |
+| 2 | *MotionBackward*<br/>Used in the manner specified for the corresponding macroblock_motion_backward variable in MPEG-2. If the bPicBackwardPrediction member of DXVA_PictureParameters is zero, MotionBackward must be zero. The use of this bit is further explained in the following Remarks section. |
+| 1 | *MotionForward*<br/>Used for the corresponding macroblock_motion_forward variable in MPEG-2. The use of this bit is further explained in the following Remarks section. | 
+| 0 | *IntraMacroblock*<br/>Indicates that the macroblock is coded as intra, and no motion vectors are used for the current macroblock. Corresponds to macroblock_intrain MPEG-2. The use of this bit is further explained in the following Remarks section. | 
 
 
 ### -field dwMB_SNL

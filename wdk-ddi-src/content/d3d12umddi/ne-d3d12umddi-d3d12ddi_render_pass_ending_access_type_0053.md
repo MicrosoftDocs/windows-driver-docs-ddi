@@ -29,6 +29,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDI_RENDER_PASS_ENDING_ACCESS_TYPE_0053 enumeration

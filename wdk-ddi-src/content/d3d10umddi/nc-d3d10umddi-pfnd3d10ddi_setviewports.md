@@ -97,13 +97,8 @@ The driver can use the <a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6
 
 Viewports specify the transformation post clip to the output render target and depth stencil resources. Any viewports that are not defined in a call to <i>SetViewports</i> are set to <b>NULL</b>. A <b>NULL</b> viewport is defined as follows. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>struct D3D10_DDI_VIEWPORT {
+```cpp
+struct D3D10_DDI_VIEWPORT {
   FLOAT  TopLeftX = NaN;
   FLOAT  TopLeftY = NaN;
   FLOAT  Width = NaN;
@@ -111,9 +106,8 @@ Viewports specify the transformation post clip to the output render target and d
   FLOAT  MinDepth = NaN;
   FLOAT  MaxDepth = NaN;
 } D3D10_DDI_VIEWPORT;</pre>
-</td>
-</tr>
-</table></span></div>
+```
+
 This definition implies that the viewport is off.
 
 The user-mode display driver must set all viewports atomically as one operation. 

@@ -28,6 +28,7 @@ api_name:
 -	USBPM_ACCESS_TYPE
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _USBPM_ACCESS_TYPE enumeration

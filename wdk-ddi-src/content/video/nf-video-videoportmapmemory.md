@@ -74,66 +74,14 @@ On input, specifies the number of bytes of video memory to map. On output, recei
 
 Pointer to a variable that indicates the location of the range. The variable can be one of the following flags or an ORed, compatible combination of these flags.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_DENSE
-
-</td>
-<td>
-Obsolete.
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_IO
-
-</td>
-<td>
-The address range is in I/O space, not in memory space. 
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_MEMORY
-
-</td>
-<td>
-The address range is in memory space, not in I/O space. 
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_P6CACHE
-
-</td>
-<td>
-The processor aggregates a sequence of write operations, sends them to a cache line, and later flushes the cache. This flag is meaningful only if VIDEO_MEMORY_SPACE_IO is not set.
-
-Designates the video memory as write-combined (WC). For information about WC caching, see the <a href="https://msdn.microsoft.com/library/windows/hardware/dn642116">Write-Combining Memory in Video Miniport Drivers</a> website article.
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_USER_MODE
-
-</td>
-<td>
-The address range should be mapped into the virtual address space of a user-mode process, not into system space. This flag is meaningful only if VIDEO_MEMORY_SPACE_IO is not set.
-
-</td>
-</tr>
-</table>
- 
-
+| **Flag** | **Meaning** | 
+|:--|:--|
+| VIDEO_MEMORY_SPACE_DENSE | Obsolete. | 
+| VIDEO_MEMORY_SPACE_IO | The address range is in I/O space, not in memory space. | 
+| VIDEO_MEMORY_SPACE_MEMORY | The address range is in memory space, not in I/O space. | 
+| VIDEO_MEMORY_SPACE_P6CACHE | The processor aggregates a sequence of write operations, sends them to a cache line, and later flushes the cache. This flag is meaningful only if VIDEO_MEMORY_SPACE_IO is not set.
+Designates the video memory as write-combined (WC). For information about WC caching, see the [Write-Combining Memory in Video Miniport Drivers](https://msdn.microsoft.com/library/windows/hardware/dn642116)  website article. | 
+| VIDEO_MEMORY_SPACE_USER_MODE | The address range should be mapped into the virtual address space of a user-mode process, not into system space. This flag is meaningful only if VIDEO_MEMORY_SPACE_IO is not set. | 
 
 ### -param VirtualAddress
 
@@ -172,13 +120,8 @@ Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff566481">ZwMa
 </ol>
 The following example shows how to map a UMA frame buffer into the virtual address space of the current process.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>UNICODE_STRING    UnicodeString;          // Name of the section object
+```cpp
+UNICODE_STRING    UnicodeString;          // Name of the section object
 OBJECT_ATTRIBUTES ObjectAttributes;       // Description for the section object
 HANDLE            hPhysicalMemoryHandle;  // Handle to the section object
 PHYSICAL_ADDRESS  MappedLength;           // Length of the frame buffer
@@ -224,14 +167,10 @@ if(NT_SUCCESS(ntStatus))
 
    // Close the handle to the physical-memory section object.
    ZwClose(hPhysicalMemoryHandle);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 Miniport drivers should use <b>VideoPortMapMemory</b> to manage video adapters that allow the video <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">frame buffer</a> to be completely mapped at all times. That is, miniport drivers for adapters that are not restricted to using <a href="https://msdn.microsoft.com/bf5fa319-14ec-40df-be7a-89c07ce519ad">banks</a> to map a slice at a time can use the more efficient <b>VideoPortMapMemory</b>. 
-
-
-
 
 ## -see-also
 

@@ -157,7 +157,7 @@ This method might also return other <a href="https://msdn.microsoft.com/library/
 
 When your driver calls <b>WdfTimerCreate</b>, it must supply a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure and must specify a parent object in the structure's <b>ParentObject</b> member. The parent object can be a framework device object or any object whose chain of parents leads to a framework device object. The framework will delete the timer object when it deletes the device object.
 
-After creating a timer object, the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff550054">WdfTimerStart</a> to start the timer's clock. 
+After creating a timer object, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550054">WdfTimerStart</a> to start the timer's clock regardless of whether the timer is periodic or not. 
 
 If your driver provides <a href="https://msdn.microsoft.com/aba2efca-7d1f-4594-af65-13356f0e3f8b">EvtCleanupCallback</a> or <a href="https://msdn.microsoft.com/4c3b08d2-bb25-40bd-b2fc-1b9ea2d452b3">EvtDestroyCallback</a> callback functions for the framework timer object, note that the framework calls these callback functions at IRQL = PASSIVE_LEVEL.
 

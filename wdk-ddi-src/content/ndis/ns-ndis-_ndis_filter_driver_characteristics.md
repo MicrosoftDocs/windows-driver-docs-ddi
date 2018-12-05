@@ -6,7 +6,7 @@ description: To specify its driver characteristics, a filter driver initializes 
 old-location: netvista\ndis_filter_driver_characteristics.htm
 tech.root: netvista
 ms.assetid: 1eb2bae0-70b9-4bc0-9d93-4fc9467f9532
-ms.date: 05/02/2018
+ms.date: 11/08/2018
 ms.keywords: "*PNDIS_FILTER_DRIVER_CHARACTERISTICS, NDIS_FILTER_DRIVER_CHARACTERISTICS, NDIS_FILTER_DRIVER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_FILTER_DRIVER_CHARACTERISTICS, PNDIS_FILTER_DRIVER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_FILTER_DRIVER_CHARACTERISTICS, filter_structures_ref_8fc4ed95-82fe-47bd-849d-f9733647cacd.xml, ndis/NDIS_FILTER_DRIVER_CHARACTERISTICS, ndis/PNDIS_FILTER_DRIVER_CHARACTERISTICS, netvista.ndis_filter_driver_characteristics"
 ms.topic: struct
 req.header: ndis.h
@@ -228,6 +228,18 @@ NDIS 6.81
 
 </td>
 </tr>
+
+<tr>
+<td width="40%">
+<dl>
+<dt>82</dt>
+</dl>
+</td>
+<td width="60%">
+NDIS 6.82
+
+</td>
+</tr>
 </table>
  
 
@@ -281,13 +293,13 @@ The entry point of the caller's
 ### -field AttachHandler
 
 The entry point of the caller's 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 
 ### -field DetachHandler
 
 The entry point of the caller's 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_detach">FilterDetach</a> function.
 
 
 ### -field RestartHandler
@@ -429,7 +441,7 @@ A filter driver calls the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 
@@ -447,7 +459,7 @@ A filter driver calls the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_detach">FilterDetach</a>
 
 
 

@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.KSPPROPERTY_ALLOCATOR_MDLCACHING
+UID: NE:ks.__unnamed_enum_25
 title: KSPPROPERTY_ALLOCATOR_MDLCACHING
 author: windows-driver-content
 description: This enumeration is used internally by the operating system.

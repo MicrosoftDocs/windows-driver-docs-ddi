@@ -75,40 +75,13 @@ A pointer to a [DXGKARG_GETNODEMETADATA]() structure that contains the engine ty
 
 ## -returns
 
+Returns one of the following values:
 
+| **Return code** | **Description** | 
+|:--|:--|
+| **STATUS_SUCCESS** | [DxgkDdiGetNodeMetadata](https://msdn.microsoft.com/ECE54E1C-5291-43AF-8A71-BD95DE5DF0A6)  successfully retrieved the engine information. | 
+| **STATUS_INVALID_PARAMETER** | The caller-provided hAdapter or pGetNodeMetadata parameters are invalid, or the caller-provided value of NodeOrdinal is greater than or equal to the number of nodes on the adapter. |
 
-
-      Returns one of the following values:
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/ECE54E1C-5291-43AF-8A71-BD95DE5DF0A6">DxgkDdiGetNodeMetadata</a> successfully retrieved the engine information.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The caller-provided <i>hAdapter</i> or <i>pGetNodeMetadata</i> parameters are invalid, or the caller-provided value of <i>NodeOrdinal</i> is greater than or equal to the number of nodes on the adapter.
-
-</td>
-</tr>
-</table>
  
 
 If the <i>hAdapter</i> and <i>pGetNodeMetadata</i> parameters are valid, and <i>NodeOrdinal</i> has a value in the range of 0 to (number of nodes - 1), all calls to this function must be successful.

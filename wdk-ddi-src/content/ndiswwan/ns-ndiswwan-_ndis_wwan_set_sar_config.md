@@ -32,6 +32,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _NDIS_WWAN_SET_SAR_CONFIG structure

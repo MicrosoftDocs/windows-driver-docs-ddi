@@ -64,6 +64,13 @@ The <b>WdfDeviceResumeIdle</b> method informs the framework that the specified d
 
 A handle to a framework device object.
 
+## -returns
+
+None.
+
+A bug check occurs if the driver supplies an invalid object handle.
+
+
 
 ## -remarks
 

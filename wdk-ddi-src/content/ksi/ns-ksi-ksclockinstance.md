@@ -1,5 +1,5 @@
 ---
-UID: NS:ksi.KSCLOCKINSTANCE
+UID: NS:ksi.__unnamed_struct_1
 title: KSCLOCKINSTANCE
 author: windows-driver-content
 description: 

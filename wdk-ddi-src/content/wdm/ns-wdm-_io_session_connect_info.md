@@ -57,7 +57,7 @@ The <b>IO_SESSION_CONNECT_INFO</b> structure provides information about a user s
 
 ### -field SessionId
 
-Session ID. This member contains the <a href="http://go.microsoft.com/fwlink/p/?linkid=155045">Terminal Services</a> session identifier of the user session for which the driver is receiving this notification.
+Session ID. This member contains the <a href="https://go.microsoft.com/fwlink/p/?linkid=155045">Terminal Services</a> session identifier of the user session for which the driver is receiving this notification.
 
 
 ### -field LocalSession

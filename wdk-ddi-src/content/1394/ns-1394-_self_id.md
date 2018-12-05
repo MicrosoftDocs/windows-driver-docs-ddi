@@ -47,7 +47,7 @@ req.typenames: SELF_ID, *PSELF_ID
 ## -description
 
 
-The SELF_ID structure contains a raw packet zero self-ID packet. See the <a href="http://go.microsoft.com/fwlink/p/?linkid=8729">IEEE 1394 Trade Association specification</a> website for details.
+The SELF_ID structure contains a raw packet zero self-ID packet. See the <a href="https://go.microsoft.com/fwlink/p/?linkid=8729">IEEE 1394 Trade Association specification</a> website for details.
 
 
 ## -struct-fields

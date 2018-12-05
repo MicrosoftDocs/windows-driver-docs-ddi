@@ -80,61 +80,12 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <i>LockAsync</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The resource is successfully locked.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>LockAsync</i> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_WASSTILLDRAWING</b></dt>
-</dl>
-</td>
-<td width="60%">
-Renaming the allocation that corresponds to the resource that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543213">D3DDDIARG_LOCKASYNC</a> structure specifies failed. 
-
-The driver returns this value only if the <b>Discard</b> bit-field flag was set in the <b>Flags</b> member of D3DDDIARG_LOCKASYNC.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_NOTIMPL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The user-mode display driver does not support <i>LockAsync</i> for the specified resource.
-
-</td>
-</tr>
-</table>
- 
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The resource is successfully locked. | 
+| **E_OUTOFMEMORY** | LockAsync could not allocate the required memory for it to complete. | 
+| **D3DDDIERR_WASSTILLDRAWING** | Renaming the allocation that corresponds to the resource that the [D3DDDIARG_LOCKASYNC](https://msdn.microsoft.com/library/windows/hardware/ff543213)  structure specifies failed.<br/>The driver returns this value only if the Discard bit-field flag was set in the Flags member of D3DDDIARG_LOCKASYNC. | 
+| **E_NOTIMPL** | The user-mode display driver does not support LockAsync for the specified resource. | 
 
 
 ## -remarks

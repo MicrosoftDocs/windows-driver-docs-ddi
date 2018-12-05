@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_DRIVER_REQUEST_DATA
+UID: NS:gnssdriver.__unnamed_struct_33
 title: GNSS_DRIVER_REQUEST_DATA
 author: windows-driver-content
 description: This structure contains driver data request information.

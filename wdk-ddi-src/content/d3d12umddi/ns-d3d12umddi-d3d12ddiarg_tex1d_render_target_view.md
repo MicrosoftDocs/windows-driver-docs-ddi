@@ -31,6 +31,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3D12DDIARG_TEX1D_RENDER_TARGET_VIEW structure

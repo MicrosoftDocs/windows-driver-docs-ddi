@@ -71,35 +71,10 @@ The <i>DxgkDdiRecommendMonitorModes</i> function inspects the monitor source mod
 
 <i>DxgkDdiRecommendMonitorModes</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function failed because it was unable to allocate enough memory.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_NO_MEMORY|The function failed because it was unable to allocate enough memory.|
 
 The miniport driver should pass through any error code that it gets from the operating system for which it does not have a fallback code path.
 

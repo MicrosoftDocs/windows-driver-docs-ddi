@@ -39,6 +39,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: WPD_EXPOSURE_METERING_MODES
+ms.custom: RS5
 ---
 
 # tagWPD_EXPOSURE_METERING_MODES enumeration

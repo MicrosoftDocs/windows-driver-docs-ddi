@@ -1,5 +1,5 @@
 ---
-UID: NS:ufs.UFS_INTERCONNECT_DESCRIPTOR
+UID: NS:ufs.__unnamed_struct_7
 title: UFS_INTERCONNECT_DESCRIPTOR
 author: windows-driver-content
 description: UFS_INTERCONNECT_DESCRIPTOR contains the MIPI M-PHY® specification version number and the MIPI 6338 UniPro℠ specification version number.

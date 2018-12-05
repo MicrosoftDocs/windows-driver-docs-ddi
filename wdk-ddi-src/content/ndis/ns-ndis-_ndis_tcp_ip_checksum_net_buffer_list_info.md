@@ -6,7 +6,7 @@ description: The NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO structure specifies i
 old-location: netvista\ndis_tcp_ip_checksum_net_buffer_list_info.htm
 tech.root: netvista
 ms.assetid: 989ecf50-18c4-4977-b845-b3fea0cade47
-ms.date: 09/19/2018
+ms.date: 10/23/2018
 ms.keywords: "*PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, ndis/NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, ndis/PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, netvista.ndis_tcp_ip_checksum_net_buffer_list_info, tcpip_offload_ref_2ce657f6-a894-420b-bcb0-310819237c5b.xml"
 ms.topic: struct
 req.header: ndis.h
@@ -189,26 +189,11 @@ The <b>NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO</b> structure specifies informa
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> information (out-of-band
     data) that is associated with a <b>NET_BUFFER_LIST</b> structure.
 
-Before the TCP/IP transport passes to the miniport driver a TCP/IP packet on which the miniport driver
-    will perform checksum tasks, the TCP/IP transport updates the <b>NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO</b>
-    structure that is associated with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. Specifically, the TCP/IP transport sets
-    the 
-    <b>IsIPv4</b> or 
-    <b>IsIPv6</b> flag to indicate that the send packet is an IPv4 or IPv6 packet. If the TCP/IP transport
-    does not set either the 
-    <b>IsIPv4</b> or 
-    <b>IsIPv6</b> flag, the miniport driver should not perform checksum tasks on the packet. If the TCP/IP
-    transport sets the 
-    <b>IsIPv4</b> or 
-    <b>IsIPv6</b> flag, it also sets the 
-    <b>IpHeaderChecksum</b>, <b>TcpChecksum</b>, or 
-    <b>UdpChecksum</b> flags that are required to indicate which checksums the miniport driver should
-    calculate for the packet. In addition, for TCP packets, the TCP/IP transport sets the **TcpHeaderOffset** field when either the **IsIPv4** or **IPv6** flag is set. The transport does not set this field for UDP packets.
+Before the TCP/IP transport passes to the miniport driver a TCP/IP packet on which the miniport driver will perform checksum tasks, the TCP/IP transport updates the <b>NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO</b> structure that is associated with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. Specifically, the TCP/IP transport sets the <b>IsIPv4</b> or <b>IsIPv6</b> flag to indicate that the send packet is an IPv4 or IPv6 packet. 
 
-Before indicating up a receive TCP/IP packet on which it performs checksum tasks, a miniport driver
-    sets the appropriate 
-    Xxx<b>ChecksumFailed</b> or 
-    Xxx<b>ChecksumSucceeded</b> flags in the <b>NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO</b> structure.
+yyIf the TCP/IP transport does not set either the <b>IsIPv4</b> or <b>IsIPv6</b> flag, the miniport driver should not perform checksum tasks on the packet. If the TCP/IP transport sets the <b>IsIPv4</b> or <b>IsIPv6</b> flag, it also sets the appropriate flags that are required to indicate which checksums the miniport driver should calculate for the packet. For IPv4, this includes the <b>IpHeaderChecksum</b>, <b>TcpChecksum</b>, or <b>UdpChecksum</b> flags. For IPv6, this includes the <b>TcpChecksum</b> or <b>UdpChecksum</b> flags. In addition, for TCP packets, the TCP/IP transport sets the **TcpHeaderOffset** field when either the **IsIPv4** or **IPv6** flag is set. The transport does not set this field for UDP packets.
+
+Before indicating up a receive TCP/IP packet on which it performs checksum tasks, a miniport driver sets the appropriate Xxx<b>ChecksumFailed</b> or Xxx<b>ChecksumSucceeded</b> flags in the <b>NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO</b> structure.
 
 <div class="alert"><b>Note</b>  Checksum offload is disabled until the miniport receives <a href="https://msdn.microsoft.com/library/windows/hardware/ff569762">OID_OFFLOAD_ENCAPSULATION</a>. After it receives this OID, the miniport is then permitted to start validating the checksums on some received packets. The miniport is not required to validate the checksum on every packet; if both the Xxx<b>ChecksumFailed</b> and Xxx<b>ChecksumSucceeded</b> flags are clear, the OS will fall back to validating the checksum in software.</div>
 <div> </div>

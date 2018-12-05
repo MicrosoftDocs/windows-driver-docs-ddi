@@ -20,15 +20,23 @@ Overview of the Human Interface Devices (HID) technology.
 
 To develop Human Interface Devices (HID), you need these headers:
 
- * [hidclass.h](..\hidclass\index.md)
- * [hidpddi.h](..\hidpddi\index.md)
- * [hidpi.h](..\hidpi\index.md)
- * [hidport.h](..\hidport\index.md)
- * [hidsdi.h](..\hidsdi\index.md)
- * [kbdmou.h](..\kbdmou\index.md)
- * [ntdd8042.h](..\ntdd8042\index.md)
- * [sffprtcl.h](..\sffprtcl\index.md)
- * [vhf.h](..\vhf\index.md)
+* [hidclass.h](..\hidclass\index.md)
+
+* [hidpddi.h](..\hidpddi\index.md)
+
+* [hidpi.h](..\hidpi\index.md)
+
+* [hidport.h](..\hidport\index.md)
+
+* [hidsdi.h](..\hidsdi\index.md)
+
+* [kbdmou.h](..\kbdmou\index.md)
+
+* [ntdd8042.h](..\ntdd8042\index.md)
+
+* [sffprtcl.h](..\sffprtcl\index.md)
+
+* [vhf.h](..\vhf\index.md)
 
 For the programming guide, see [Human Interface Devices (HID)](https://docs.microsoft.com/windows-hardware/drivers/hid).
 
@@ -46,13 +54,12 @@ For Windows 8.1 Microsoft introduced the new Windows.Devices.HumanInterfaceDevic
 
 The header defines IOCTLs that a HID minidriver must support. Only the HID class driver sends these IOCTLs to a HID minidriver. User-mode applications and other kernel-mode drivers can only communicate with HID collections by using the HIDClass support routines and HID class driver ioctls.
 
-
 ## HID Minidriver IOCTLs
+
 A HID minidriver must handle a set of IOCTLs. Only the HID class driver sends these IOCTLs to a HID minidriver. User-mode applications and other kernel-mode drivers can only communicate with HID collections by using the [HIDClass support routines](#hidclasssupportroutines) and HID class driver ioctls.
 
-
 |Topic | Description |
-|---|---| 
+|---|---|
 |IOCTL_HID_ACTIVATE_DEVICE| The IOCTL_HID_ACTIVATE_DEVICE request activates a HIDClass device, which makes it ready for I/O operations.|
 |IOCTL_HID_DEACTIVATE_DEVICE| The IOCTL_HID_DEACTIVATE_DEVICE request deactivates a HIDClass device, which causes it to stop operations and terminate all outstanding I/O requests.|
 |IOCTL_HID_GET_DEVICE_ATTRIBUTES| The IOCTL_HID_GET_DEVICE_ATTRIBUTES request obtains a HIDClass device's attributes in a HID_DEVICE_ATTRIBUTES structure.|
@@ -66,10 +73,9 @@ A HID minidriver must handle a set of IOCTLs. Only the HID class driver sends th
 |IOCTL_UMDF_HID_GET_INPUT_REPORT| The IOCTL_UMDF_HID_GET_INPUT_REPORT control code returns an input report from a HIDClass device.|
 |IOCTL_UMDF_HID_SET_FEATURE| The IOCTL_UMDF_HID_GET_FEATURE control code sends a feature report to a HIDClass device.|
 |IOCTL_UMDF_HID_SET_OUTPUT_REPORT| The IOCTL_UMDF_HID_SET_OUTPUT_REPORT control code sends an output report to a top-level collection.|
- 
-
 
 ## HID Class Driver IOCTLs
+
 The HID class driver handles IOCTLs to support for top-level collections. 
 
 Although user applications can communicate with the HID class driver by using HidD_Xxx  HIDClass support routines, kernel-mode drivers must send the corresponding device control requests described in this section.
@@ -108,42 +114,59 @@ As described for each IOCTL, the Information member is set either by the class d
 |IOCTL_HID_SET_OUTPUT_REPORT| The IOCTL_HID_SET_OUTPUT_REPORT request sends an output report to a top-level collection.|
 |IOCTL_HID_SET_POLL_FREQUENCY_MSEC| The IOCTL_HID_SET_POLL_FREQUENCY_MSEC request sets the polling frequency, in milliseconds, for a top-level collection. User-mode applications or kernel-mode drivers that perform irregular, opportunistic reads on a polled device must furnish a polling interval of zero. In such cases, IOCTL_HID_SET_POLL_FREQUENCY_MSEC does not actually change the polling frequency of the device; but if the report data is not stale when it is read, the read is completed immediately with the latest report data for the indicated collection. If the report data is stale, it is refreshed immediately, without waiting for the expiration of the polling interval, and the read is completed with the new data. If the value for the polling interval that is provided in the IRP is not zero, it must be >= MIN_POLL_INTERVAL_MSEC and <= MAX_POLL_INTERVAL_MSEC. Polling may be limited if there are multiple top-level collections. For general information about HIDClass devices, see HID Collections. |
 |IOCTL_HID_SET_S0_IDLE_TIMEOUT| The IOCTL_HID_SET_S0_IDLE_TIMEOUT request is used by a client to inform the HID class driver about the client's preferred idle timeout value.|
-|IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS| The IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS request sets the number of buffers for the input report queue of a top-level collection. Each input report queue is implemented as a ring buffer. If a collection transmits data to the HID class driver faster than the driver can read it, some of the data may be lost. To prevent this type of loss, you can use an IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS request to adjust the number of buffers that the input report queue contains. The HID class driver requires a minimum of two input buffers. On Windows 2000, the maximum number of input buffers that the HID class driver supports is 200, and on Windows XP and later, the maximum number of input buffers that the HID class driver supports is 512. The default number of input buffers is 32. For general information about HIDClass devices, see HID Collections. |
- 
-
-
+|IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS| The IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS request sets the number of buffers for the input report queue of a top-level collection. Each input report queue is implemented as a ring buffer. If a collection transmits data to the HID class driver faster than the driver can read it, some of the data may be lost. To prevent this type of loss, you can use an IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS request to adjust the number of buffers that the input report queue contains. The HID class driver requires a minimum of two input buffers. The maximum number of input buffers that the HID class driver supports is 512. The default number of input buffers is 32. For general information about HIDClass devices, see HID Collections. |
 
 ## Reserved for internal system use.
 
 This section lists, in alphabetical order, the HIDClass-related routines, structures, enumeration types and data types that are reserved for internal system use.
 
-- DeviceObjectState
-- HID_DRIVER_CONFIG
-- HID_INTERFACE_HIDPARSE
-- HID_INTERFACE_NOTIFY_PNP
-- HIDD_CONFIGURATION
-- HidD_GetConfiguration
-- HidD_GetMsGenreDescriptor
-- HidD_SetConfiguration
-- HIDP_COLLECTION_DESC
-- HIDP_DEVICE_DESC
-- HidP_FreeCollectionDescription
-- HIDP_GETCOLDESC_DBG
-- HIDP_KEYBOARD_DIRECTION
-- HIDP_KEYBOARD_MODIFIER_STATE
-- HIDP_REPORT_IDS
-- HidP_SysPowerCaps
-- HidP_SysPowerEvent
-- HidP_TranslateUsageAndPagesToI8042ScanCodes
-- PHID_STATUS_CHANGE
-- PHIDP_INSERT_SCANCODES
-- PHIDP_REPORT_DESCRIPTOR
+* DeviceObjectState
 
+* HID_DRIVER_CONFIG
+
+* HID_INTERFACE_HIDPARSE
+
+* HID_INTERFACE_NOTIFY_PNP
+
+* HIDD_CONFIGURATION
+
+* HidD_GetConfiguration
+
+* HidD_GetMsGenreDescriptor
+
+* HidD_SetConfiguration
+
+* HIDP_COLLECTION_DESC
+
+* HIDP_DEVICE_DESC
+
+* HidP_FreeCollectionDescription
+
+* HIDP_GETCOLDESC_DBG
+
+* HIDP_KEYBOARD_DIRECTION
+
+* HIDP_KEYBOARD_MODIFIER_STATE
+
+* HIDP_REPORT_IDS
+
+* HidP_SysPowerCaps
+
+* HidP_SysPowerEvent
+
+* HidP_TranslateUsageAndPagesToI8042ScanCodes
+
+* PHID_STATUS_CHANGE
+
+* PHIDP_INSERT_SCANCODES
+
+* PHIDP_REPORT_DESCRIPTOR
 
 ### DeviceObjectState
+
 The DeviceObjectState enumeration type is reserved for internal system use.
 
-``` 
+```cpp 
 enum DeviceObjectState {
   DeviceObjectStarted,
   DeviceObjectStopped,
@@ -156,20 +179,21 @@ Declared in Hidclass.h.
 ### HID_DRIVER_CONFIG
 The HID_DRIVER_CONFIG structure is reserved for internal system use.
 
-``` 
+```cpp
 typedef struct _HID_DRIVER_CONFIG {
   ULONG  Size;
   ULONG  RingBufferSize;
 } HID_DRIVER_CONFIG, *PHID_DRIVER_CONFIG;
-``` 
+```
 
 Headers
 Declared in Hidclass.h.
 
 ### HID_INTERFACE_HIDPARSE
+
 The HID_INTERFACE_HIDPARSE structure is reserved for internal system use.
 
-``` 
+```cpp
 typedef struct _HID_INTERFACE_HIDPARSE {
 #ifndef __cplusplus
   INTERFACE;
@@ -178,15 +202,16 @@ typedef struct _HID_INTERFACE_HIDPARSE {
 #endif
   PHIDP_GETCAPS  HidpGetCaps;
 } HID_INTERFACE_HIDPARSE, *PHID_INTERFACE_HIDPARSE;
-``` 
+```
 
 Headers
 Declared in Hidclass.h.
 
 ### HID_INTERFACE_NOTIFY_PNP
+
 The HID_INTERFACE_NOTIFY_PNP structure is reserved for internal system use.
 
-``` 
+```cpp
 typedef struct _HID_INTERFACE_NOTIFY_PNP {
 #ifndef __cplusplus
   INTERFACE;
@@ -196,74 +221,79 @@ typedef struct _HID_INTERFACE_NOTIFY_PNP {
   PHID_STATUS_CHANGE  StatusChangeFn;
   PVOID CallbackContext;
 } HID_INTERFACE_NOTIFY_PNP, *PHID_INTERFACE_NOTIFY_PNP;
-``` 
+```
 
 Headers
 Declared in Hidclass.h.
 
 ### HIDD_CONFIGURATION
+
 The HIDD_CONFIGURATION structure is reserved for internal system use.
 
-``` 
+```cpp
 typedef struct _HIDD_CONFIGURATION {
   PVOID  cookie;
   ULONG  size;
   ULONG  RingBufferSize;
 } HIDD_CONFIGURATION, *PHIDD_CONFIGURATION;
-``` 
+```
 
 Headers
 Declared in Hidsdi.h.
 
 ### HidD_GetConfiguration
+
 The HidD_GetConfiguration routine is reserved for internal system use.
 
-``` 
+```cpp
 BOOLEAN __stdcall
 HidD_GetConfiguration(
     IN HANDLE  HidDeviceObject,
     OUT PHIDD_CONFIGURATION  Configuration,
     IN ULONG  ConfigurationLength
     );
-``` 
+```
 
 Headers
 Declared in Hidsdi.h.
 
 ### HidD_GetMsGenreDescriptor
+
 The HidD_GetMsGenreDescriptor routine is reserved for internal system use.
 
-``` 
+```cpp
 BOOLEAN __stdcall
 HidD_GetMsGenreDescriptor(
     IN HANDLE  HidDeviceObject,
     OUT PVOID  Buffer,
     IN ULONG  BufferLength
     );
-``` 
+```
 
 Headers
 Declared in Hidsdi.h.
 
 ### HidD_SetConfiguration
+
 The HidD_SetConfiguration routine is reserved for internal system use.
 
-``` 
+```cpp
 BOOLEAN __stdcall
 HidD_SetConfiguration(
     IN HANDLE  HidDeviceObject,
     IN PHIDD_CONFIGURATION  Configuration,
     IN ULONG  ConfigurationLength
     );
-``` 
+```
 
 Headers
 Declared in Hidsdi.h.
 
 ### HIDP_COLLECTION_DESC
+
 The HIDP_COLLECTION_DESC structure is reserved for internal system use.
 
-``` 
+```cpp
 typedef struct _HIDP_COLLECTION_DESC {
   USAGE  UsagePage;
   USAGE  Usage;
@@ -275,15 +305,16 @@ typedef struct _HIDP_COLLECTION_DESC {
   USHORT  PreparsedDataLength;
   PHIDP_PREPARSED_DATA  PreparsedData;
 } HIDP_COLLECTION_DESC, *PHIDP_COLLECTION_DESC;
-``` 
+```
 
 Headers
 Declared in Hidpddi.h.
 
 ### HIDP_DEVICE_DESC
+
 The HIDP_DEVICE_DESC structure is reserved for internal system use.
 
-``` 
+```cpp
 typedef struct _HIDP_DEVICE_DESC {
   PHIDP_COLLECTION_DESC  CollectionDesc;
   ULONG  CollectionDescLength;
@@ -291,55 +322,59 @@ typedef struct _HIDP_DEVICE_DESC {
   ULONG  ReportIDsLength;
   HIDP_GETCOLDESC_DBG  Dbg;
 } HIDP_DEVICE_DESC, *PHIDP_DEVICE_DESC;
-``` 
+```
 
 Headers
 Declared in Hidpddi.h.
 
 ### HidP_FreeCollectionDescription
+
 The HidP_FreeCollectionDescription routine is reserved for internal system use.
 
-``` 
+```cpp
 VOID
 HidP_FreeCollectionDescription(
     IN PHIDP_DEVICE_DESC  DeviceDescription
     );
-``` 
+```
 
 Headers
 Declared in Hidpddi.h.
 
 ### HIDP_GETCOLDESC_DBG
+
 The HIDP_GETCOLDESC_DBG structure is reserved for internal system use.
 
-``` 
+```cpp
 typedef struct _HIDP_GETCOLDESC_DBG {
   ULONG  BreakOffset;
   ULONG  ErrorCode;
   ULONG  Args[6];
 } HIDP_GETCOLDESC_DBG, *PHIDP_GETCOLDESC_DBG;
-``` 
+```
 
 Headers
 Declared in Hidpddi.h.
 
 ### HIDP_KEYBOARD_DIRECTION
+
 The HIDP_KEYBOARD_DIRECTION enumeration type is reserved for internal system use.
 
-``` 
+```cpp
 typedef enum _HIDP_KEYBOARD_DIRECTION {
  HidP_Keyboard_Break,
  HidP_Keyboard_Make
 } HIDP_KEYBOARD_DIRECTION;
-``` 
+```
 
 Headers
 Declared in Hidpi.h.
 
 ### HIDP_KEYBOARD_MODIFIER_STATE
+
 The HIDP_KEYBOARD_MODIFIER_STATE structure is reserved for internal system use.
 
-``` 
+```cpp
 typedef struct _HIDP_KEYBOARD_MODIFIER_STATE {
   union {
     struct {
@@ -359,15 +394,16 @@ typedef struct _HIDP_KEYBOARD_MODIFIER_STATE {
     ULONG ul;
   };
 } HIDP_KEYBOARD_MODIFIER_STATE, *PHIDP_KEYBOARD_MODIFIER_STATE;
-``` 
+```
 
 Headers
 Declared in Hidpi.h.
 
 ### HIDP_REPORT_IDS
+
 The HIDP_REPORT_IDS structure is reserved for internal system use.
 
-``` 
+```cpp
 typedef struct _HIDP_REPORT_IDS {
   UCHAR  ReportID;
   UCHAR  CollectionNumber;
@@ -375,29 +411,31 @@ typedef struct _HIDP_REPORT_IDS {
   USHORT  OutputLength;
   USHORT  FeatureLength;
 } HIDP_REPORT_IDS, *PHIDP_REPORT_IDS;
-``` 
+```
 
 Headers
 Declared in Hidpddi.h.
 
 ### HidP_SysPowerCaps
+
 The HidP_SysPowerCaps routine is reserved for internal system use.
 
-``` 
+```cpp
 NTSTATUS
 HidP_SysPowerCaps(
     IN PHIDP_PREPARSED_DATA  Ppd,
     OUT PULONG  OutputBuffer
     );
-``` 
+```
 
 Headers
 Declared in Hidpddi.h.
 
 ### HidP_SysPowerEvent
+
 The HidP_SysPowerEvent routine is reserved for internal system use.
 
-``` 
+```cpp
 NTSTATUS
 HidP_SysPowerEvent(
     IN PCHAR  HidPacket,
@@ -405,15 +443,16 @@ HidP_SysPowerEvent(
     IN PHIDP_PREPARSED_DATA  Ppd,
     OUT PULONG  OutputBuffer
     );
-``` 
+```
 
 Headers
 Declared in Hidpddi.h.
 
 ### HidP_TranslateUsageAndPagesToI8042ScanCodes
+
 The HidP_TranslateUsageAndPagesToI8042ScanCodes routine is reserved for internal system use.
 
-``` 
+```cpp
 NTSTATUS __stdcall
   HidP_TranslateUsageAndPagesToI8042ScanCodes(
     IN PUSAGE_AND_PAGE  ChangedUsageList,
@@ -423,50 +462,50 @@ NTSTATUS __stdcall
     IN PHIDP_INSERT_SCANCODES  InsertCodesProcedure,
     IN PVOID  InsertCodesContext
     );
-``` 
+```
 
 Headers
 Declared in Hidpi.h.
 
 ### PHID_STATUS_CHANGE
+
 The PHID_STATUS_CHANGE routine is reserved for internal system use.
 
-``` 
+```cpp
 typedef VOID (*PHID_STATUS_CHANGE)(
     PVOID  Context, 
     enum DeviceObjectState State
     );
-``` 
+```
 
 Headers
 Declared in Hidclass.h.
 
 ### PHIDP_INSERT_SCANCODES
+
 The PHIDP_INSERT_SCANCODES routine is reserved for internal system use.
 
-``` 
+```cpp
 typedef BOOLEAN (*PHIDP_INSERT_SCANCODES)(
     IN PVOID  Context,
     IN PCHAR  NewScanCodes,
     IN ULONG  Length
     );
-``` 
+```
 
 Headers
 Declared in Hidpi.h.
 
 ### PHIDP_REPORT_DESCRIPTOR
+
 The PHIDP_REPORT_DESCRIPTOR data type is reserved for internal system use.
 
-``` 
+```cpp
 typedef PUCHAR  PHIDP_REPORT_DESCRIPTOR;
-``` 
+```
 
 Headers
 Declared in Hidpi.h.
-
-
-
 
 ## Functions
 
