@@ -34,6 +34,7 @@ apiname:
 product: 
 - Windows
 targetos: Windows
+tech.root: display
 ---
 
 # *PFN_IDDCXMONITORGETSRMLISTVERSION callback function

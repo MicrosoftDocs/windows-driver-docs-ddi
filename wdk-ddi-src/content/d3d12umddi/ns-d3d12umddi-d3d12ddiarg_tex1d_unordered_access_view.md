@@ -32,6 +32,7 @@ product:
 -	Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
 ---
 
 # D3D12DDIARG_TEX1D_UNORDERED_ACCESS_VIEW structure

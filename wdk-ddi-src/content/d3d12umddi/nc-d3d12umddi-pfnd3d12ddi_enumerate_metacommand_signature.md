@@ -19,7 +19,7 @@ req.irql:
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
-req.max-support:
+req.max-support: Windows 10, version 1803
 req.namespace:
 req.assembly:
 req.type-library:

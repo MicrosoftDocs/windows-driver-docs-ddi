@@ -19,7 +19,7 @@ req.irql:
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
-req.max-support:
+req.max-support: Windows 10, version 1803
 req.namespace:
 req.assembly:
 req.type-library:
@@ -70,7 +70,7 @@ PFND3D12DDI_DESTROY_METACOMMAND
 
 A handle to the display device (graphics context).
 
-### -param D3D12DDI_HMETACOMMAND:
+### -param D3D12DDI_HMETACOMMAND
 
 A handle to a meta-command.
 

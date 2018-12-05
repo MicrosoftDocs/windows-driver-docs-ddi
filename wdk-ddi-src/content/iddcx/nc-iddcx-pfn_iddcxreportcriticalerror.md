@@ -34,6 +34,7 @@ apiname:
 product: 
 - Windows
 targetos: Windows
+tech.root: display
 ---
 
 # *PFN_IDDCXREPORTCRITICALERROR callback function

@@ -53,6 +53,9 @@ A structure used to create hardware queue flags.
 ## -struct-fields
 
 
+### -field Value
+
+This value is used to operate over the members collectively.
 
 
 ### -field DisableGpuTimeout
@@ -65,7 +68,4 @@ Indicates that GPU timeout should be disabled.
 This value is reserved for system use.
 
 
-### -field Value
-
-This value is used to operate over the members collectively.
 

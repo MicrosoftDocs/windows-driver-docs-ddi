@@ -68,7 +68,7 @@ VOID Pfnd3d12ddiDestroyMetaCommand0052
 
 A handle to the display device (graphics context).
 
-### -param Arg2: 
+### -param Arg2
 
 Handle to a meta-command.
 

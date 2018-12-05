@@ -32,6 +32,7 @@ product:
 -	Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DDDICB_RECLAIMALLOCATIONS3 structure

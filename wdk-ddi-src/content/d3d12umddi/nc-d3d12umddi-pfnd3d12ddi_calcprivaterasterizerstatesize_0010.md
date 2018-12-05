@@ -9,7 +9,7 @@ ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -67,13 +67,13 @@ PFND3D12DDI_CALCPRIVATERASTERIZERSTATESIZE_0010
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE  
+### -param Arg1
 
 A handle to the display device (graphics context).
  
 ### -param * 
 
-Pointer to a D3D12DDI_RASTERIZER_DESC_0010.
+Pointer to a D3D12DDI_RASTERIZER_DESC_0010 structure.
 
 ## -returns
 

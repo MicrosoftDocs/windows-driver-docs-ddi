@@ -67,7 +67,7 @@ PFND3D12DDI_CALCPRIVATEBLENDSTATESIZE_0010
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE
+### -param Arg1
 
 A handle to the display device (graphics context).
 
@@ -80,8 +80,6 @@ A pointer to a D3D12DDI_BLEND_DESC_0010 structure that describes the parameters 
 Returns SIZE_T.
 
 ## -remarks
-
-
 
 
 ## -see-also

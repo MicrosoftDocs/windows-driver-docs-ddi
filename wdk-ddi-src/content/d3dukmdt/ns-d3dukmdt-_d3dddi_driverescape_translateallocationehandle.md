@@ -10,7 +10,7 @@ ms.keywords: _D3DDDI_DRIVERESCAPE_TRANSLATEALLOCATIONEHANDLE, D3DDDI_DRIVERESCAP
 req.header: d3dukmdt.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -43,15 +43,17 @@ Used to translate the guest allocation to the corresponding host handle.
 
 ## -struct-fields
 
-### -field EscapeType
 
-A [D3DDDI_DRIVERESCAPETYPE](ne-d3dukmdt-_d3dddi_driverescapetype.md).
 
 ### -field hAllocation
  
 [in] A handle to a DirectX Graphics allocation, returned from [DxgkCreateAllocation](../d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation.md).
 
 [out] A handle, which can be sent to the kernel mode driver and used in [DxgkCbAcquireHandleData](../d3dkmddi/nc-d3dkmddi-dxgkcb_acquirehandledata.md), [DxgkCbReleaseHandleData](../d3dkmddi/nc-d3dkmddi-dxgkcb_releasehandledata.md), [DxgkCbGetHandleData](../d3dkmddi/nc-d3dkmddi-dxgkcb_gethandledata.md), and [DxgkCbGetHandleParent](../d3dkmddi/nc-d3dkmddi-dxgkcb_gethandleparent.md).
+
+### -field EscapeType
+
+A [D3DDDI_DRIVERESCAPETYPE](ne-d3dukmdt-_d3dddi_driverescapetype.md).
 
 ## -remarks
 

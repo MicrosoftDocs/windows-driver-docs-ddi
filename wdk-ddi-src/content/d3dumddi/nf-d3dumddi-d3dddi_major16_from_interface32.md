@@ -38,6 +38,7 @@ targetos: Windows
 
 
 ms.custom: RS5
+tech.root: display
 ---
 
 # D3DDDI_MAJOR16_FROM_INTERFACE32 macro

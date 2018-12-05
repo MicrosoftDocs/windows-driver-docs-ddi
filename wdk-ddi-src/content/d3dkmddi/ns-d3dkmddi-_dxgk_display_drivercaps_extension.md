@@ -32,6 +32,7 @@ product:
 - Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
 ---
 
 # _DXGK_DISPLAY_DRIVERCAPS_EXTENSION structure

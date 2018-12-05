@@ -78,7 +78,7 @@ A handle to the meta-command.
 
 A pointer to void.
 
-### -param Arg3: 
+### -param Arg3
 
 The size of the meta-command array.
 

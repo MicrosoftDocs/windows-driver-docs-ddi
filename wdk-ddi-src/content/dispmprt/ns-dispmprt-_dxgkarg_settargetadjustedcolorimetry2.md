@@ -10,7 +10,7 @@ ms.keywords: _DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2, DXGKARG_SETTARGETADJUSTEDCO
 req.header: dispmprt.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -53,7 +53,7 @@ The adjusted colorimetry.
 
 ### -field SdrWhiteLevel
  
-This represents the SDR white level value in nits which is currently being used by OS for desktop composition.
+This represents the SDR (standard dynamic range) white level value in nits which is currently being used by OS for desktop composition.
 
 ## -remarks
 

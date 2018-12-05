@@ -63,7 +63,7 @@ VOID Pfnd3d12ddiEndRenderPass0053
 
 ## -parameters
 
-### -param Arg1: 
+### -param Arg1
 
 A D3D12DDI_HCOMMANDLIST (command list) that contains the Render Pass.
 

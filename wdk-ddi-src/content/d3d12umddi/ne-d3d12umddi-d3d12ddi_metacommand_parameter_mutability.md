@@ -15,7 +15,7 @@ req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
-req.max-support:
+req.max-support: Windows 10, version 1803
 req.typenames: D3D12DDI_METACOMMAND_PARAMETER_MUTABILITY
 topic_type:
 -	apiref

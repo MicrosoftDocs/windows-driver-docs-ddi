@@ -9,7 +9,7 @@ ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -44,7 +44,7 @@ ms.custom: RS5
 
 Resets the tracked workload to its initial state and resets all the rolling statistics.
 
-Note that it will reset all previously tracked workloads, and current work in flight in the GPU will affect upcoming stats.
+Note that this callback will reset all previously tracked workloads, and current work in flight in the GPU will affect upcoming stats.
 
 ## -prototype
 

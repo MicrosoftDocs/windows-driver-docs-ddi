@@ -5,7 +5,8 @@ author: windows-driver-content
 description: Sets constant buffers for a compute shader.
 old-location: display\cssetconstantbuffers_d3d11_1_.htm
 ms.assetid: 6A2B50BF-415D-47BB-9514-B15F717A76EA
-ms.date: 05/10/2018
+ms.author: windowsdriverdev
+ms.date: 10/12/2018
 ms.keywords: CsSetConstantBuffers(D3D11_1), CsSetConstantBuffers(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_SETCONSTANTBUFFERS, PFND3D11_1DDI_SETCONSTANTBUFFERS callback, d3d10umddi/CsSetConstantBuffers(D3D11_1), display.cssetconstantbuffers_d3d11_1_
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -107,7 +108,15 @@ Buffers that this function specifies are created with the D3D10_BIND_CONSTANT_BU
 
 The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. Therefore, if the driver passes any error, except for D3DDDIERR_DEVICEREMOVED, in a call to the <a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f">pfnSetErrorCb</a> function, the Direct3D runtime determines that the error is critical. Even if the device is removed, the driver is not required to return D3DDDIERR_DEVICEREMOVED; however, if device removal interferes with the operation of this function (which typically should not happen), the driver can return D3DDDIERR_DEVICEREMOVED.
 
+The <b>VsSetConstantBuffers</b> function sets constant buffers for a vertex shader.
 
+The <b>GsSetConstantBuffers</b> function sets constant buffers for a geometry shader.
+
+The <b>HsSetConstantBuffers</b> function sets constant buffers for a hull shader.
+
+The <b>PsSetConstantBuffers</b> function sets constant buffers for a pixel shader.
+
+The <b>DsSetConstantBuffers</b> function sets constant buffers for a domain shader.
 
 
 ## -see-also

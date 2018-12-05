@@ -32,6 +32,7 @@ product:
 -	Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_PRESENT_REDIRECTEDS_FLAGS structure

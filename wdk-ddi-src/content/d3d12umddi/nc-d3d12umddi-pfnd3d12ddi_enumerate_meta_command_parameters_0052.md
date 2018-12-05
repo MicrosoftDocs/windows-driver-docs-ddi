@@ -83,7 +83,7 @@ A [D3D12DDI_META_COMMAND_PARAMETER_STAGE](ne-d3d12umddi-d3d12ddi_meta_command_pa
 
 The number of meta-command paramters.
 
-### -param *pParameterDescs: 
+### -param *pParameterDescs
 
 Pointer to an meta-command descriptions.
 

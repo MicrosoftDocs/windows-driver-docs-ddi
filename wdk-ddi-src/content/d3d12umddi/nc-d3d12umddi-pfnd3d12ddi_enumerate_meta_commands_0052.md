@@ -73,7 +73,7 @@ A handle to the display device (graphics context).
 
 The number of meta-commands.
 
-### -param *pDescs: 
+### -param *pDescs
 
 Pointer to an array of meta-command descriptions.
 

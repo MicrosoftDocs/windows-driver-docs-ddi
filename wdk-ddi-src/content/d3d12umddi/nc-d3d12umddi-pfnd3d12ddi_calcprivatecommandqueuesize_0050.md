@@ -64,11 +64,13 @@ SIZE_T Pfnd3d12ddiCalcprivatecommandqueuesize0050
 
 ## -parameters
 
-### -param hDevice
+### -param Arg1
 
 The handle of a device.
 
-### -param CreateCommandQueue [in]
+### -param *
+
+*_In_ CreateCommandQueue*
 
 Pointer to a [D3D12DDIARG_CREATECOMMANDQUEUE_0050](ns-d3d12umddi-d3d12ddiarg_createcommandqueue_0050.md) structure used to create a command queue.
 

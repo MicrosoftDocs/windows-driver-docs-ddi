@@ -35,6 +35,7 @@ product:
 -	Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
 ---
 
 # PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECT callback function

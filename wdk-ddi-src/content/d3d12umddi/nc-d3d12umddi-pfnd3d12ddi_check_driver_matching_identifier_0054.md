@@ -73,7 +73,7 @@ A handle to the device.
 
 Specifies the type of serialized data.
 
-### -param *: 
+### -param *
 
 Pointer to a [D3D12DDI_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER_0054](ns-d3d12umddi-d3d12ddi_serialized_data_driver_matching_identifier_0054.md) structure.
 

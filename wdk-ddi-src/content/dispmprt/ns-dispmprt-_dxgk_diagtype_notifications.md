@@ -31,6 +31,7 @@ api_name:
 product: 
 - Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _DXGK_DIAGTYPE_NOTIFICATIONS structure
