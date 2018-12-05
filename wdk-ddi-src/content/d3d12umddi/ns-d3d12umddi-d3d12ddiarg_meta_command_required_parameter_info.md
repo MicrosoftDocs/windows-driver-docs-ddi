@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_META_COMMAND_REQUIRED_PARAMETER_INFO
 title: D3D12DDIARG_META_COMMAND_REQUIRED_PARAMETER_INFO
-author: windows-driver-content
+author: mimisasouvanh
 description: 
 ms.assetid: 09830007-9bad-4247-b468-074a69f8f8c0
 ms.date: 10/19/2018

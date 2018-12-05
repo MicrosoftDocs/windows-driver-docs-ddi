@@ -1,7 +1,7 @@
 ---
 UID: NE:systemrng.__unnamed_enum_0
 title: ENTROPY_SOURCE_TYPE
-author: windows-driver-content
+author: mimisasouvanh
 description: 
 ms.assetid: c6c13e86-2973-4294-a531-aec524a07598
 ms.date: 10/19/2018
