@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_NI_REQUEST_PARAM
+UID: NS:gnssdriver.__unnamed_struct_32
 title: GNSS_NI_REQUEST_PARAM
 author: windows-driver-content
 description: This structure contains the NI request parameters.

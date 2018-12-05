@@ -1,5 +1,5 @@
 ---
-UID: NE:systemrng.ENTROPY_SOURCE_TYPE
+UID: NE:systemrng.__unnamed_enum_0
 title: ENTROPY_SOURCE_TYPE
 author: windows-driver-content
 description: 

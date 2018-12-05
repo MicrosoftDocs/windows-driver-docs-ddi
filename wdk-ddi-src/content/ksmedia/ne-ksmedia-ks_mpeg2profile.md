@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.KS_MPEG2Profile
+UID: NE:ksmedia.__unnamed_enum_53
 title: KS_MPEG2Profile
 author: windows-driver-content
 description: The KS_MPEG2Profile enumeration describes MPEG-2 profiles.

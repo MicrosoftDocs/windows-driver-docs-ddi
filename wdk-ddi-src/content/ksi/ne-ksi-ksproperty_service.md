@@ -1,5 +1,5 @@
 ---
-UID: NE:ksi.KSPROPERTY_SERVICE
+UID: NE:ksi.__unnamed_enum_0
 title: KSPROPERTY_SERVICE
 author: windows-driver-content
 description: 

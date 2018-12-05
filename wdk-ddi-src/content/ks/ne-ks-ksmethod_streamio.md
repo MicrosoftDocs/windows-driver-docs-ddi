@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.KSMETHOD_STREAMIO
+UID: NE:ks.__unnamed_enum_3
 title: KSMETHOD_STREAMIO
 author: windows-driver-content
 description: 

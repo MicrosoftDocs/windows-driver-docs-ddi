@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.KSEVENT_STREAMALLOCATOR
+UID: NE:ks.__unnamed_enum_19
 title: KSEVENT_STREAMALLOCATOR
 author: windows-driver-content
 description: 

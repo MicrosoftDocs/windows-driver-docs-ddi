@@ -1,5 +1,5 @@
 ---
-UID: NE:d3dkmdt.DXGK_ENGINE_TYPE
+UID: NE:d3dkmdt.__unnamed_enum_1
 title: DXGK_ENGINE_TYPE
 author: windows-driver-content
 description: Indicates the type of engine on a GPU node. Note the selection rules discussed in Remarks.

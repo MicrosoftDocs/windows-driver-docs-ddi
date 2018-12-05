@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.KSPROPERTY_PIN
+UID: NE:ks.__unnamed_enum_11
 title: KSPROPERTY_PIN
 author: windows-driver-content
 description: 

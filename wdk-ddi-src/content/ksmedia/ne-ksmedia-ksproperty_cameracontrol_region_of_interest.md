@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST
+UID: NE:ksmedia.__unnamed_enum_78
 title: KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST
 author: windows-driver-content
 description: Used to specify a camera region of interest.

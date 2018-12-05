@@ -1,5 +1,5 @@
 ---
-UID: NE:ufs.UFS_PURGE_STATUS
+UID: NE:ufs.__unnamed_enum_2
 title: UFS_PURGE_STATUS
 author: windows-driver-content
 description: Specifies the current status of a purge operation.

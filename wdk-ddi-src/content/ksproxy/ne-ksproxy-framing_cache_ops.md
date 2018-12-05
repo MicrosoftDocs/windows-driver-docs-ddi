@@ -1,5 +1,5 @@
 ---
-UID: NE:ksproxy.FRAMING_CACHE_OPS
+UID: NE:ksproxy.__unnamed_enum_2
 title: FRAMING_CACHE_OPS
 author: windows-driver-content
 description: 

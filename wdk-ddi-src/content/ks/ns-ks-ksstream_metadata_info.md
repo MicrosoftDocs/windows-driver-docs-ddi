@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSSTREAM_METADATA_INFO
+UID: NS:ks.__unnamed_struct_48
 title: KSSTREAM_METADATA_INFO
 author: windows-driver-content
 description: This structure contains the metadata information that is passed down to the driver.

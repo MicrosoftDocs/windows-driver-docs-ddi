@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KS_AM_ExactRateChange
+UID: NS:ksmedia.__unnamed_struct_160
 title: KS_AM_ExactRateChange
 author: windows-driver-content
 description: The KS_AM_ExactRateChange structure is not yet implemented.

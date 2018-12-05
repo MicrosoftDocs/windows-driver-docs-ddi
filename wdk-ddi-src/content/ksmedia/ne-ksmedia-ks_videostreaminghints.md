@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.KS_VideoStreamingHints
+UID: NE:ksmedia.__unnamed_enum_102
 title: KS_VideoStreamingHints
 author: windows-driver-content
 description: The KS_VideoStreamingHints enumeration defines video compression hints.

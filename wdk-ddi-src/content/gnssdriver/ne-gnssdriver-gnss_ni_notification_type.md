@@ -1,5 +1,5 @@
 ---
-UID: NE:gnssdriver.GNSS_NI_NOTIFICATION_TYPE
+UID: NE:gnssdriver.__unnamed_enum_8
 title: GNSS_NI_NOTIFICATION_TYPE
 author: windows-driver-content
 description: GNSS_NI_NOTIFICATION_TYPE enumerates network-initialized (NI) notification types.

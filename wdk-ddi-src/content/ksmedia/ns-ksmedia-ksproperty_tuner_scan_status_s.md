@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSPROPERTY_TUNER_SCAN_STATUS_S
+UID: NS:ksmedia.__unnamed_struct_106
 title: KSPROPERTY_TUNER_SCAN_STATUS_S
 author: windows-driver-content
 description: The KSPROPERTY_TUNER_SCAN_STATUS_S structure describes status for a scanning operation.

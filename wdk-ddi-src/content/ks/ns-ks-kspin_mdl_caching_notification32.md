@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSPIN_MDL_CACHING_NOTIFICATION32
+UID: NS:ks.__unnamed_struct_53
 title: KSPIN_MDL_CACHING_NOTIFICATION32
 author: windows-driver-content
 description: This structure is used internally by the operating system.

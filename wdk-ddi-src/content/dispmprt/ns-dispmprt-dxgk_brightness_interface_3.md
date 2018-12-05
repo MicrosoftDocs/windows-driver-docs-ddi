@@ -1,5 +1,5 @@
 ---
-UID: NS:dispmprt.DXGK_BRIGHTNESS_INTERFACE_3
+UID: NS:dispmprt.__unnamed_struct_2
 title: DXGK_BRIGHTNESS_INTERFACE_3
 author: windows-driver-content
 description:

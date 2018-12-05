@@ -1,5 +1,5 @@
 ---
-UID: NE:ksproxy.PIPE_STATE
+UID: NE:ksproxy.__unnamed_enum_3
 title: PIPE_STATE
 author: windows-driver-content
 description: 

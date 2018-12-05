@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_FIXSESSION_PARAM
+UID: NS:gnssdriver.__unnamed_struct_8
 title: GNSS_FIXSESSION_PARAM
 author: windows-driver-content
 description: This structure defines the parameters used by the GNSS adapter to start a fix session.

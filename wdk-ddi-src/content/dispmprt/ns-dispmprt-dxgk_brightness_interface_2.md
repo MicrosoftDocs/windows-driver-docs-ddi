@@ -1,5 +1,5 @@
 ---
-UID: NS:dispmprt.DXGK_BRIGHTNESS_INTERFACE_2
+UID: NS:dispmprt.__unnamed_struct_1
 title: DXGK_BRIGHTNESS_INTERFACE_2
 author: windows-driver-content
 description: Contains pointers to functions in the Panel Brightness Control Interface Version 2. Used by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers that support adaptive and smooth brightness control.

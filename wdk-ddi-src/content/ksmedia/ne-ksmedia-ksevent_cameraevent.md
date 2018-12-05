@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.KSEVENT_CAMERAEVENT
+UID: NE:ksmedia.__unnamed_enum_81
 title: KSEVENT_CAMERAEVENT
 author: windows-driver-content
 description: KSEVENT_CAMERAEVENT enumerates a kernel streaming event set that can be used by the pipeline to enable or disable camera event notifications from the driver.

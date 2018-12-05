@@ -1,5 +1,5 @@
 ---
-UID: NE:ntddcdvd.DVD_KEY_TYPE
+UID: NE:ntddcdvd.__unnamed_enum_0
 title: DVD_KEY_TYPE
 author: windows-driver-content
 description: The DVD_KEY_TYPE enumeration type is used in conjunction with the DVD_COPY_PROTECT_KEY structure to indicate a key to be read, to invalidate an authentication grant ID (AGID), and to request state information or region settings.

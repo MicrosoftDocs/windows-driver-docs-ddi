@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSPROPERTY_VIDEOCONTROL_MODE_S
+UID: NS:ksmedia.__unnamed_struct_149
 title: KSPROPERTY_VIDEOCONTROL_MODE_S
 author: windows-driver-content
 description: The KSPROPERTY_VIDEOCONTROL_MODE_S structure describes video-control modes for a stream, such as image flipping or event triggering abilities.

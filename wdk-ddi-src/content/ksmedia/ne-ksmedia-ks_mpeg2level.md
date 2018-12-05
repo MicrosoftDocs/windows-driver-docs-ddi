@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.KS_MPEG2Level
+UID: NE:ksmedia.__unnamed_enum_52
 title: KS_MPEG2Level
 author: windows-driver-content
 description: The KS_MPEG2Level enumeration describes MPEG-2 levels.

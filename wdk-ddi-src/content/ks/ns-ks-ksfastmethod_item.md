@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSFASTMETHOD_ITEM
+UID: NS:ks.__unnamed_struct_70
 title: KSFASTMETHOD_ITEM
 author: windows-driver-content
 description: Drivers provide a structure of type KSFASTMETHOD_ITEM to support fast I/O dispatching.

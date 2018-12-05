@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_SATELLITEINFO
+UID: NS:gnssdriver.__unnamed_struct_12
 title: GNSS_SATELLITEINFO
 author: windows-driver-content
 description: This structure defines satellite-related information of a fix.

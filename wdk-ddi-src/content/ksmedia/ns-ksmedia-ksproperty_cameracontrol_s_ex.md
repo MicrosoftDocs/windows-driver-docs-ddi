@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSPROPERTY_CAMERACONTROL_S_EX
+UID: NS:ksmedia.__unnamed_struct_113
 title: KSPROPERTY_CAMERACONTROL_S_EX
 author: windows-driver-content
 description: Specifies a camera control operation, including setting the flash, the image pin control properties, the region of interest in the image, or video stabilization.

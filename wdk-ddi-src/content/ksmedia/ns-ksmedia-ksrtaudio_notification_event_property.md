@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY
+UID: NS:ksmedia.__unnamed_struct_32
 title: KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY
 author: windows-driver-content
 description: The KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY structure appends an event handle to a KSPROPERTY structure

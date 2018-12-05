@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_CP_NI_INFO
+UID: NS:gnssdriver.__unnamed_struct_30
 title: GNSS_CP_NI_INFO
 author: windows-driver-content
 description: This structure contains CP NI information.

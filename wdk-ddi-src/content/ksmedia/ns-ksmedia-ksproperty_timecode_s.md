@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSPROPERTY_TIMECODE_S
+UID: NS:ksmedia.__unnamed_struct_136
 title: KSPROPERTY_TIMECODE_S
 author: windows-driver-content
 description: The KSPROPERTY_TIMECODE_S structure describes a timecode.

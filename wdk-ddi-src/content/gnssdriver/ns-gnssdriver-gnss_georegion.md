@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_GEOREGION
+UID: NS:gnssdriver.__unnamed_struct_20
 title: GNSS_GEOREGION
 author: windows-driver-content
 description: This structure defines the geographical shape of a geofence.

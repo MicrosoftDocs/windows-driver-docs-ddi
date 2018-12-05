@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.KS_CameraControlAsyncOperation
+UID: NE:ksmedia.__unnamed_enum_75
 title: KS_CameraControlAsyncOperation
 author: windows-driver-content
 description: Defines notifications that the driver uses to start and stop an asynchronous camera operation, including setting the flash, the image pin control properties, the region of interest in the image, or video stabilization.

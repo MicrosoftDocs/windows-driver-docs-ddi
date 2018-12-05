@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSDSOUND_BUFFERDESC
+UID: NS:ksmedia.__unnamed_struct_5
 title: KSDSOUND_BUFFERDESC
 author: windows-driver-content
 description: The KSDSOUND_BUFFERDESC structure describes a DirectSound buffer.

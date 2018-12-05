@@ -1,5 +1,5 @@
 ---
-UID: NS:ksi.KSIDEFAULTCLOCK
+UID: NS:ksi.__unnamed_struct_0
 title: KSIDEFAULTCLOCK
 author: windows-driver-content
 description: 

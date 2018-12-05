@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.BUS_INTERFACE_REFERENCE
+UID: NS:ks.__unnamed_struct_79
 title: BUS_INTERFACE_REFERENCE
 author: windows-driver-content
 description: A software device enumerator exports this interface to allow drivers to reference count physical device objects (PDOs) such that the device remains active while in use and is unloaded when not in use.

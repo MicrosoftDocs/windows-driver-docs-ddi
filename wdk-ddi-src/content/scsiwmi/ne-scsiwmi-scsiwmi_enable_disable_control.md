@@ -1,5 +1,5 @@
 ---
-UID: NE:scsiwmi.SCSIWMI_ENABLE_DISABLE_CONTROL
+UID: NE:scsiwmi.__unnamed_enum_0
 title: SCSIWMI_ENABLE_DISABLE_CONTROL
 author: windows-driver-content
 description: The SCSIWMI_ENABLE_DISABLE_CONTROL enumerator is used to specify what to enable or disable.

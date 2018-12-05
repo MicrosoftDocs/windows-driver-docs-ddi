@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_GEOFENCE_CREATE_RESPONSE
+UID: NS:gnssdriver.__unnamed_struct_22
 title: GNSS_GEOFENCE_CREATE_RESPONSE
 author: windows-driver-content
 description: This structure defines the response expected from the GNSS engine when a new geofence is created.

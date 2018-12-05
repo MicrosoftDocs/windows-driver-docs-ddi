@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSDATAFORMAT_WAVEFORMATEX
+UID: NS:ksmedia.__unnamed_struct_1
 title: KSDATAFORMAT_WAVEFORMATEX
 author: windows-driver-content
 description: The KSDATAFORMAT_WAVEFORMATEX structure provides detailed information about the data format of an audio stream consisting of wave data.

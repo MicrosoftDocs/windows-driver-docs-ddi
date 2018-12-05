@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSDS3D_LISTENER_ALL
+UID: NS:ksmedia.__unnamed_struct_11
 title: KSDS3D_LISTENER_ALL
 author: windows-driver-content
 description: The KSDS3D_LISTENER_ALL structure specifies all the properties of the DirectSound 3D listener. This structure is used to get or set the data value for the KSPROPERTY_DIRECTSOUND3DLISTENER_ALL property.

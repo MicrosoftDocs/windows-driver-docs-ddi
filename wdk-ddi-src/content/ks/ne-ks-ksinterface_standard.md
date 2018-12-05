@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.KSINTERFACE_STANDARD
+UID: NE:ks.__unnamed_enum_9
 title: KSINTERFACE_STANDARD
 author: windows-driver-content
 description: 

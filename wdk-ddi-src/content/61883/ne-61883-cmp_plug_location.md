@@ -1,5 +1,5 @@
 ---
-UID: NE:61883.CMP_PLUG_LOCATION
+UID: NE:61883.__unnamed_enum_1
 title: CMP_PLUG_LOCATION
 author: windows-driver-content
 description: This enumeration specifies the location of a plug.

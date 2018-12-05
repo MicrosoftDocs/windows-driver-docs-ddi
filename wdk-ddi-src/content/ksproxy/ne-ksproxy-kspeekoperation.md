@@ -1,5 +1,5 @@
 ---
-UID: NE:ksproxy.KSPEEKOPERATION
+UID: NE:ksproxy.__unnamed_enum_6
 title: KSPEEKOPERATION
 author: windows-driver-content
 description: 

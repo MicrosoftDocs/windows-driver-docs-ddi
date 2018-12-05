@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_GEOFENCE_CREATE_PARAM
+UID: NS:gnssdriver.__unnamed_struct_21
 title: GNSS_GEOFENCE_CREATE_PARAM
 author: windows-driver-content
 description: This structure defines the parameters for creating a geofence in the GNSS engine.

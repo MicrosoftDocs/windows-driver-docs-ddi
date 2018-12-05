@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSPROPERTY_TUNER_STANDARD_S
+UID: NS:ksmedia.__unnamed_struct_99
 title: KSPROPERTY_TUNER_STANDARD_S
 author: windows-driver-content
 description: The KSPROPERTY_TUNER_STANDARD_S structure describe the standard of a TV tuner device, such as PAL, NTSC or SECAM.

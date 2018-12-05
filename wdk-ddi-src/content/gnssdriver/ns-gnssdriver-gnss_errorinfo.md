@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_ERRORINFO
+UID: NS:gnssdriver.__unnamed_struct_26
 title: GNSS_ERRORINFO
 author: windows-driver-content
 description: This structure contains error information.

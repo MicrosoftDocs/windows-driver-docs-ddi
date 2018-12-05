@@ -1,5 +1,5 @@
 ---
-UID: NE:sddef.SD_COMMAND_CLASS
+UID: NE:sddef.__unnamed_enum_0
 title: SD_COMMAND_CLASS
 author: windows-driver-content
 description: The SD_COMMAND_CLASS enumeration lists the classes of Secure Digital (SD) card commands.

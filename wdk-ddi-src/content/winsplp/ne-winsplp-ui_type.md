@@ -1,5 +1,5 @@
 ---
-UID: NE:winsplp.UI_TYPE
+UID: NE:winsplp.__unnamed_enum_1
 title: UI_TYPE
 author: windows-driver-content
 description: 

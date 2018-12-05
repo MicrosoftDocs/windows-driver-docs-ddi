@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSP_PIN
+UID: NS:ks.__unnamed_struct_26
 title: KSP_PIN
 author: windows-driver-content
 description: Kernel streaming clients use the KSP_PIN structure to specify the property and pin type within a KSPROPSETID_Pin property request.

@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSAUDIO_COPY_PROTECTION
+UID: NS:ksmedia.__unnamed_struct_39
 title: KSAUDIO_COPY_PROTECTION
 author: windows-driver-content
 description: The KSAUDIO_COPY_PROTECTION structure specifies the copy-protection status of an audio stream.

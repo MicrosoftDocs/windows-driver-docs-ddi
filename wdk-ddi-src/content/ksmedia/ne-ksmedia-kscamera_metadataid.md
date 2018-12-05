@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.KSCAMERA_MetadataId
+UID: NE:ksmedia.__unnamed_enum_86
 title: KSCAMERA_MetadataId
 author: windows-driver-content
 description: This enumeration contains identifiers for a metadata item.

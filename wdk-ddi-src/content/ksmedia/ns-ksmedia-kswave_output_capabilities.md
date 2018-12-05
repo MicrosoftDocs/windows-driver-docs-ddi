@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSWAVE_OUTPUT_CAPABILITIES
+UID: NS:ksmedia.__unnamed_struct_50
 title: KSWAVE_OUTPUT_CAPABILITIES
 author: windows-driver-content
 description: The KSWAVE_OUTPUT_CAPABILITIES structure is used to describe the output capabilities of a device.

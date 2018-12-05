@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSAC3_DIALOGUE_LEVEL
+UID: NS:ksmedia.__unnamed_struct_70
 title: KSAC3_DIALOGUE_LEVEL
 author: windows-driver-content
 description: The KSAC3_DIALOGUE_LEVEL structure specifies the average volume level of spoken dialog within the audio program encoded in an AC-3 stream.

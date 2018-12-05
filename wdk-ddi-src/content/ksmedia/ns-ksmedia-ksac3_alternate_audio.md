@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSAC3_ALTERNATE_AUDIO
+UID: NS:ksmedia.__unnamed_struct_67
 title: KSAC3_ALTERNATE_AUDIO
 author: windows-driver-content
 description: The KSAC3_ALTERNATE_AUDIO structure specifies whether the two mono channels in an AC-3-encoded stream should be interpreted as a stereo pair or as two independent program channels.

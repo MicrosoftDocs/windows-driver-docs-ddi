@@ -1,5 +1,5 @@
 ---
-UID: NS:sidebandaudio.SIDEBANDAUDIO_STREAM_OPEN_PARAMS
+UID: NS:sidebandaudio.__unnamed_union_2
 title: SIDEBANDAUDIO_STREAM_OPEN_PARAMS
 author: windows-driver-content
 description: Describes the variable I/O parameters for IOCTLs.

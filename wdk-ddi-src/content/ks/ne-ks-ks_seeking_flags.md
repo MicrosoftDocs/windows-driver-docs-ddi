@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.KS_SEEKING_FLAGS
+UID: NE:ks.__unnamed_enum_5
 title: KS_SEEKING_FLAGS
 author: windows-driver-content
 description: The KS_SEEKING_FLAGS enumeration lists positioning options that can be used in conjunction with the KSPROPERTY_POSITIONS structure.

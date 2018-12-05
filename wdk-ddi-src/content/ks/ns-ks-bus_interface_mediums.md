@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.BUS_INTERFACE_MEDIUMS
+UID: NS:ks.__unnamed_struct_80
 title: BUS_INTERFACE_MEDIUMS
 author: windows-driver-content
 description: 

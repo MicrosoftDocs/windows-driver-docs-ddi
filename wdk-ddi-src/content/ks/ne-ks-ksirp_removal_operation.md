@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.KSIRP_REMOVAL_OPERATION
+UID: NE:ks.__unnamed_enum_35
 title: KSIRP_REMOVAL_OPERATION
 author: windows-driver-content
 description: 

@@ -1,5 +1,5 @@
 ---
-UID: NE:wdm.PPOWER_ACTION
+UID: NE:wdm.__unnamed_enum_0
 title: "*PPOWER_ACTION"
 author: windows-driver-content
 description: The POWER_ACTION enumeration identifies the system power actions that can occur on a computer.

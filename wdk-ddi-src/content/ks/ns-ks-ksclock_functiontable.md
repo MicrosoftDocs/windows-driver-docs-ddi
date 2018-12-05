@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSCLOCK_FUNCTIONTABLE
+UID: NS:ks.__unnamed_struct_61
 title: KSCLOCK_FUNCTIONTABLE
 author: windows-driver-content
 description: The KSCLOCK_FUNCTIONTABLE structure describes a function table for the master clock.

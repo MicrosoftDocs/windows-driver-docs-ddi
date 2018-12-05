@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSWAVE_BUFFER
+UID: NS:ksmedia.__unnamed_struct_52
 title: KSWAVE_BUFFER
 author: windows-driver-content
 description: The KSWAVE_BUFFER structure is used to describe a sample buffer.
