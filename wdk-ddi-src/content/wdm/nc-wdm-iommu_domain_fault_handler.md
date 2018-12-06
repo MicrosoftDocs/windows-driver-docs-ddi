@@ -1,7 +1,8 @@
 ---
 UID: NC:wdm.IOMMU_DOMAIN_FAULT_HANDLER
 title: IOMMU_DOMAIN_FAULT_HANDLER
-author: windows-driver-content
+author: mimisasouvanh
+ms.author: misaso
 description: Sets the fault report on a device that is already attached to a domain.
 ms.assetid: bf44815d-9a0b-482b-8525-816a98c727f9
 ms.date: 10/19/2018
