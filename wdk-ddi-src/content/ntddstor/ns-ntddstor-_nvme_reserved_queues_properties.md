@@ -2,6 +2,7 @@
 UID: NS:ntddstor._NVME_RESERVED_QUEUES_PROPERTIES
 title: _NVME_RESERVED_QUEUES_PROPERTIES
 author: mimisasouvanh
+ms.author: misaso
 description: 
 ms.assetid: 21902ab7-7443-42d3-9beb-f792caf7f357
 ms.date: 10/19/2018

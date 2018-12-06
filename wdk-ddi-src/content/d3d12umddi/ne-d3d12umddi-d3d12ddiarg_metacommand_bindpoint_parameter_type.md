@@ -2,6 +2,7 @@
 UID: NE:d3d12umddi.D3D12DDIARG_METACOMMAND_BINDPOINT_PARAMETER_TYPE
 title: D3D12DDIARG_METACOMMAND_BINDPOINT_PARAMETER_TYPE
 author: mimisasouvanh
+ms.author: misaso
 description: The available meta-command bind point parameter types.
 ms.assetid: bad015e6-e95f-43e4-b139-4e8b4555a089
 ms.date: 10/19/2018
