@@ -57,7 +57,7 @@ The <b>IoRegisterShutdownNotification</b> routine registers the driver to receiv
 
 ### -param DeviceObject [in]
 
-Pointer to the device object of the device for which the driver requests shutdown notification. The system passes this pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff543405">DispatchShutdown</a> routine. 
+Pointer to the device object of the device for which the driver requests shutdown notification. The system passes this pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_dispatch">DispatchShutdown</a> routine. 
 
 
 ## -returns
@@ -73,7 +73,7 @@ Pointer to the device object of the device for which the driver requests shutdow
 
 
 
-The <b>IoRegisterShutdownNotification</b> routine registers the driver to receive an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549423">IRP_MJ_SHUTDOWN</a> IRP for the specified device when the system shuts down. The driver receives one such IRP for each device it registers to receive notification for. Drivers handle <b>IRP_MJ_SHUTDOWN</b> IRPs within their <a href="https://msdn.microsoft.com/library/windows/hardware/ff543405">DispatchShutdown</a> routines.
+The <b>IoRegisterShutdownNotification</b> routine registers the driver to receive an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549423">IRP_MJ_SHUTDOWN</a> IRP for the specified device when the system shuts down. The driver receives one such IRP for each device it registers to receive notification for. Drivers handle <b>IRP_MJ_SHUTDOWN</b> IRPs within their <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_dispatch">DispatchShutdown</a> routines.
 
 If the driver ceases to require shutdown notification for the device, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff550409">IoUnregisterShutdownNotification</a> to remove the driver from the shutdown notification queue.
 
@@ -95,7 +95,7 @@ A PnP driver might register a shutdown routine to perform certain tasks before s
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543405">DispatchShutdown</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_dispatch">DispatchShutdown</a>
 
 
 

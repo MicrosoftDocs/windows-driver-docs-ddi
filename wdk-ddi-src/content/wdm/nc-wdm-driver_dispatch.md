@@ -121,7 +121,7 @@ A driver's <i>DispatchCreate</i> routine should be named <i>Xxx</i>DispatchCreat
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
 </td>
 <td>
-A driver can provide a single <i>DispatchCreateClose</i> routine instead of separate <a href="https://msdn.microsoft.com/library/windows/hardware/ff543266">DispatchCreate</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff543255">DispatchClose</a> routines.
+A driver can provide a single <i>DispatchCreateClose</i> routine instead of separate <a href="https://msdn.microsoft.com/library/windows/hardware/ff543266">DispatchCreate</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_dispatch">DispatchClose</a> routines.
 
 A driver's <i>DispatchCreateClose</i> routine should be named <b><i>Xxx</i>DispatchCreateClose</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchCreateClose</i> routine's address in <i>DriverObject</i>-&gt;<b>MajorFunction</b>[IRP_MJ_CREATE] and in <i>DriverObject</i>-&gt;<b>MajorFunction</b>[IRP_MJ_CLOSE].
 
@@ -197,7 +197,7 @@ A driver's <i>DispatchRead</i> routine should be named <b><i>Xxx</i>DispatchRead
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
 </td>
 <td>
-A driver can provide a single <i>DispatchReadWrite</i> routine instead of separate <a href="https://msdn.microsoft.com/library/windows/hardware/ff543376">DispatchRead</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff544034">DispatchWrite</a> routines.
+A driver can provide a single <i>DispatchReadWrite</i> routine instead of separate <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_dispatch">DispatchRead</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_dispatch">DispatchWrite</a> routines.
 
 A driver's <i>DispatchReadWrite</i> routine should be named <b><i>Xxx</i>DispatchReadWrite</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchReadWrite</i> routine's address in <i>DriverObject</i>-&gt;<b>MajorFunction</b>[<b>IRP_MJ_READ</b>] and in <i>DriverObject</i>-&gt;<b>MajorFunction</b>[<b>IRP_MJ_WRITE</b>].
 
