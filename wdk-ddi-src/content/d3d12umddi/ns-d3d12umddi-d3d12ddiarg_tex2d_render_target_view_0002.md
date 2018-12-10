@@ -32,6 +32,7 @@ product:
 -	Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
 ---
 
 # D3D12DDIARG_TEX2D_RENDER_TARGET_VIEW_0002 structure

@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_SUPL_HSLP_CONFIG
+UID: NS:gnssdriver.__unnamed_struct_39
 title: GNSS_SUPL_HSLP_CONFIG
 author: windows-driver-content
 description: This structure contains SUPL H-SLP configuration information.

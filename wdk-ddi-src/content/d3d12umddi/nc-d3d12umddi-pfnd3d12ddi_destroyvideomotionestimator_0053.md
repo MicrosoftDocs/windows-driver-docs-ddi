@@ -68,7 +68,7 @@ VOID Pfnd3d12ddiDestroyvideomotionestimator0053
 
 A handle to the display device (graphics context) that the Direct3D runtime uses.
 
-### -param hDrvMotionEstimator: 
+### -param hDrvMotionEstimator
 
 A handle to the user mode driver motion estimator type.
 

@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSAUDIO_MIX_CAPS
+UID: NS:ksmedia.__unnamed_struct_43
 title: KSAUDIO_MIX_CAPS
 author: windows-driver-content
 description: The KSAUDIO_MIX_CAPS structure specifies the mixing capabilities of a particular data path from one input channel of a supermixer node (KSNODETYPE_SUPERMIX) to an output channel of the same node.

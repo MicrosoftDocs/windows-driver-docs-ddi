@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSDS3D_ITD_PARAMS
+UID: NS:ksmedia.__unnamed_struct_18
 title: KSDS3D_ITD_PARAMS
 author: windows-driver-content
 description: The KSDS3D_ITD_PARAMS structure specifies the parameters applied by the interaural time delay (ITD) algorithm to the left or right channel in a 3D node (KSNODETYPE_3D_EFFECTS).

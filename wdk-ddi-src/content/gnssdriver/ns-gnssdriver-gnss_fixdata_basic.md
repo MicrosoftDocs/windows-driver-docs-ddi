@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_FIXDATA_BASIC
+UID: NS:gnssdriver.__unnamed_struct_10
 title: GNSS_FIXDATA_BASIC
 author: windows-driver-content
 description: This structure defines basic position information.

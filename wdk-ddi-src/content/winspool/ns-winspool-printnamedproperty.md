@@ -1,5 +1,5 @@
 ---
-UID: NS:winspool.PrintNamedProperty
+UID: NS:winspool.__unnamed_struct_1
 title: PrintNamedProperty
 author: windows-driver-content
 description: 

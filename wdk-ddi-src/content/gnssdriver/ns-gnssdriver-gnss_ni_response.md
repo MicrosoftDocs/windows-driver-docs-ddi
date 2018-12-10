@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_NI_RESPONSE
+UID: NS:gnssdriver.__unnamed_struct_42
 title: GNSS_NI_RESPONSE
 author: windows-driver-content
 description: This structure contains NI request response information.

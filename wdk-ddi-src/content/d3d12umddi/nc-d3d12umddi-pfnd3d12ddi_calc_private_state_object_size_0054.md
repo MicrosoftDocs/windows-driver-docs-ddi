@@ -7,7 +7,7 @@ ms.assetid: cfefa406-e5de-4256-be0c-97c6b62fb10d
 ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
-req.include-header:
+req.include-header: d3d12umddi.h
 req.target-type:
 req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:

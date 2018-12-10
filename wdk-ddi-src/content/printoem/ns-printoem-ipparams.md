@@ -1,5 +1,5 @@
 ---
-UID: NS:printoem.IPPARAMS
+UID: NS:printoem.__unnamed_struct_0
 title: IPPARAMS
 author: windows-driver-content
 description: The IPPARAMS structure is used as an input parameter to a rendering plug-in's IPrintOemUni::ImageProcessing method.

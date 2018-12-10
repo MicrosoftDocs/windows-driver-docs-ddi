@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.KSEVENT_CONNECTION
+UID: NE:ks.__unnamed_enum_28
 title: KSEVENT_CONNECTION
 author: windows-driver-content
 description: 

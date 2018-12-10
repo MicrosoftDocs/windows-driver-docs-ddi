@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_NMEA_DATA
+UID: NS:gnssdriver.__unnamed_struct_27
 title: GNSS_NMEA_DATA
 author: windows-driver-content
 description: This structure contains generic (non-parsed) NMEA data.

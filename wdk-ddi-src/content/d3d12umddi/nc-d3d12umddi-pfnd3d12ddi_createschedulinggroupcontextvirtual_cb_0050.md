@@ -68,7 +68,7 @@ HRESULT Pfnd3d12ddiCreateschedulinggroupcontextvirtualCb0050
 
 A D3D12DDI_HRTSCHEDULINGGROUP_0050 runtime handle type that represents the contexts associated with a hardware scheduling group.
 
-### -param *: 
+### -param *
 
 A pointer to a [D3DDDICB_CREATECONTEXTVIRTUAL](..\d3dumddi\ns-d3dumddi-_d3dddicb_createcontextvirtual.md) structure that describes the context to create.
 

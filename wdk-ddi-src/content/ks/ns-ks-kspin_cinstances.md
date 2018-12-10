@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSPIN_CINSTANCES
+UID: NS:ks.__unnamed_struct_28
 title: KSPIN_CINSTANCES
 author: windows-driver-content
 description: 

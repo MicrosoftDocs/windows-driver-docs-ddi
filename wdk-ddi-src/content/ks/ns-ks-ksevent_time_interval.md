@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSEVENT_TIME_INTERVAL
+UID: NS:ks.__unnamed_struct_17
 title: KSEVENT_TIME_INTERVAL
 author: windows-driver-content
 description: The KSEVENT_TIME_INTERVAL structure is used in various events within the KSEVENTSETID_Clock event set.

@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_V2UPL_NI_INFO
+UID: NS:gnssdriver.__unnamed_struct_31
 title: GNSS_V2UPL_NI_INFO
 author: windows-driver-content
 description: This structure contains V2UPL NI information.

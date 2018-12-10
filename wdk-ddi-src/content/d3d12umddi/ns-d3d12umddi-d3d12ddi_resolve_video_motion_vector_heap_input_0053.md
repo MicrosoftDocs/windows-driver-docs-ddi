@@ -39,15 +39,21 @@ ms.custom: RS5
 
 ## -description
 
+Describes the input of the resolve operation.
 
 ## -struct-fields
 
 ### -field hDrvMotionVectorHeap
- 
+
+The input buffer for hardware dependent layout.
+
 ### -field PixelWidth
- 
+
+Width in pixels.
+
 ### -field PixelHeight
- 
+
+Height in pixels.
 
 ## -remarks
 

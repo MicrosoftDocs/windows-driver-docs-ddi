@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.KSTARGET_STATE
+UID: NE:ks.__unnamed_enum_37
 title: KSTARGET_STATE
 author: windows-driver-content
 description: 

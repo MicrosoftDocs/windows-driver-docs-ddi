@@ -1,5 +1,5 @@
 ---
-UID: NE:gnssdriver.GNSS_NI_REQUEST_TYPE
+UID: NE:gnssdriver.__unnamed_enum_7
 title: GNSS_NI_REQUEST_TYPE
 author: windows-driver-content
 description: This enumeration indicates the network initiated (NI) request type represented by the GNSS_NI_REQUEST_PARAM structure.

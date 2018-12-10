@@ -1,5 +1,5 @@
 ---
-UID: NE:sddef.SD_TRANSFER_TYPE
+UID: NE:sddef.__unnamed_enum_2
 title: SD_TRANSFER_TYPE
 author: windows-driver-content
 description: The SD_TRANSFER_TYPE enumeration specifies the type of a Secure Digital (SD) data transfer.

@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.KS_VIDEODECODER_FLAGS
+UID: NE:ksmedia.__unnamed_enum_71
 title: KS_VIDEODECODER_FLAGS
 author: windows-driver-content
 description: The KS_VIDEODECODER_FLAGS enumeration defines video decoder capabilities.

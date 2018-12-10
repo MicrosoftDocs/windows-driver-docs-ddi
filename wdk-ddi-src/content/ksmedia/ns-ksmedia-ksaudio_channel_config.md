@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSAUDIO_CHANNEL_CONFIG
+UID: NS:ksmedia.__unnamed_struct_40
 title: KSAUDIO_CHANNEL_CONFIG
 author: windows-driver-content
 description: The KSAUDIO_CHANNEL_CONFIG structure specifies the configuration of channels within the data format of an audio stream.

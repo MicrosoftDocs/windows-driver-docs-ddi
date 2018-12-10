@@ -55,24 +55,29 @@ The <i>pfnBeginQuery</i> callback function defines the beginning of the portion 
 
 
 
-### -param hCommandList
+### -param Arg1
+
+*hCommandList*
 
 A handle to the driver's data for the command list. The driver uses this region of memory to store internal data structures that are related to its command list.
 
-### -param hQueryHeap
+### -param Arg2
+
+*hQueryHeap*
 
 The handle of a query heap, which represents an array of query results. The underlying data representation of a query result is IHV dependent in query heaps and opaque to applications.  Query results are stored in a query heap until they are later “resolved” into the API defined format.
 
-### -param QueryType
+### -param Arg3
+
+*QueryType*
 
 The type of query. Resolve is used by applications to transform a query result previously stored in a query heap into the API defined format.  The resolved data is stored in a D3D12 buffer.  The results can then be consumed by a shader, predication, or mapped and read on the CPU.
 
-### -param StartElement
+### -param Arg4
+
+*StartElement*
 
 The value of the start element.
-
-
-
 
 ## -returns
 

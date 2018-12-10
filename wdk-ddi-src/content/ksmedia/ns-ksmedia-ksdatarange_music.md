@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSDATARANGE_MUSIC
+UID: NS:ksmedia.__unnamed_struct_53
 title: KSDATARANGE_MUSIC
 author: windows-driver-content
 description: The KSDATARANGE_MUSIC structure specifies a range of DirectMusic MIDI formats.

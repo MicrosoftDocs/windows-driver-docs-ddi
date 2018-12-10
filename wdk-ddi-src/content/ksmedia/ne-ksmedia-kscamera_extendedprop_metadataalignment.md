@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.KSCAMERA_EXTENDEDPROP_MetadataAlignment
+UID: NE:ksmedia.__unnamed_enum_85
 title: KSCAMERA_EXTENDEDPROP_MetadataAlignment
 author: windows-driver-content
 description: This enumeration contains identifiers for the metadata alignment.

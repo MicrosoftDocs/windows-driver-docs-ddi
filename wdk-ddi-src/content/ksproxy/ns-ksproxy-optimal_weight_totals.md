@@ -1,5 +1,5 @@
 ---
-UID: NS:ksproxy.OPTIMAL_WEIGHT_TOTALS
+UID: NS:ksproxy.__unnamed_struct_0
 title: OPTIMAL_WEIGHT_TOTALS
 author: windows-driver-content
 description: 

@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.KSCAMERA_EXTENDEDPROP_ROITYPE
+UID: NE:ksmedia.__unnamed_enum_88
 title: KSCAMERA_EXTENDEDPROP_ROITYPE
 author: windows-driver-content
 description: This enumeration contains the ROI types.

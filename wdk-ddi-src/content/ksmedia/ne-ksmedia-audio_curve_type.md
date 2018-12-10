@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.AUDIO_CURVE_TYPE
+UID: NE:ksmedia.__unnamed_enum_124
 title: AUDIO_CURVE_TYPE
 author: windows-driver-content
 description: The AUDIO_CURVE_TYPE enumeration defines constants that specify a curve algorithm to be applied to set a volume level.

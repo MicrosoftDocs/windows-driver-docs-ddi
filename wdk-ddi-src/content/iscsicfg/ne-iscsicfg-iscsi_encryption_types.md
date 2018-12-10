@@ -1,5 +1,5 @@
 ---
-UID: NE:iscsicfg.ISCSI_ENCRYPTION_TYPES
+UID: NE:iscsicfg.__unnamed_enum_1
 title: ISCSI_ENCRYPTION_TYPES
 author: windows-driver-content
 description: The ISCSI_ENCRYPTION_TYPES enumeration indicates the type of encryption that is supported.

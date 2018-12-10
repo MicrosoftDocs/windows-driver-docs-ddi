@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.KSEVENT_CLOCK_POSITION
+UID: NE:ks.__unnamed_enum_27
 title: KSEVENT_CLOCK_POSITION
 author: windows-driver-content
 description: 

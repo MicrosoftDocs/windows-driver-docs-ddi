@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSNODE_CREATE
+UID: NS:ks.__unnamed_struct_25
 title: KSNODE_CREATE
 author: windows-driver-content
 description: The KSNODE_CREATE structure describes the set of information used to create the node handle.

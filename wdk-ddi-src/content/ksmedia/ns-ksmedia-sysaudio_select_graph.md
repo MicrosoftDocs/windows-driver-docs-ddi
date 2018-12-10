@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.SYSAUDIO_SELECT_GRAPH
+UID: NS:ksmedia.__unnamed_struct_56
 title: SYSAUDIO_SELECT_GRAPH
 author: windows-driver-content
 description: The SYSAUDIO_SELECT_GRAPH structure is used to specify a graph that includes an optional node such as an AEC control.

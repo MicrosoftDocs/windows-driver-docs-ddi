@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSFASTPROPERTY_ITEM
+UID: NS:ks.__unnamed_struct_67
 title: KSFASTPROPERTY_ITEM
 author: windows-driver-content
 description: The KSFASTPROPERTY_ITEM structure is used with items for fast I/O dispatching.

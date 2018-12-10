@@ -1,5 +1,5 @@
 ---
-UID: NS:scsi.PRO_PARAMETER_LIST
+UID: NS:scsi.__unnamed_struct_12
 title: PRO_PARAMETER_LIST
 author: windows-driver-content
 description: The PRO_PARAMETER_LIST structure is sent in a Persistent Reserve Out command to a device server.

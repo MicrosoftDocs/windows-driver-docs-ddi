@@ -1,5 +1,5 @@
 ---
-UID: NS:ufs.UFS_CONFIG_DESCRIPTOR
+UID: NS:ufs.__unnamed_struct_2
 title: UFS_CONFIG_DESCRIPTOR
 author: windows-driver-content
 description: The UFS_CONFIG_DESCRIPTOR structure describes the modifiable values of the default device configuration set by the manufacturer.

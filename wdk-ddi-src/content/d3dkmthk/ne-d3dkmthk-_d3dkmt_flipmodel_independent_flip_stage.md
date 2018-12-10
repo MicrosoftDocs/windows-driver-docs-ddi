@@ -29,6 +29,7 @@ product:
 -	Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_FLIPMODEL_INDEPENDENT_FLIP_STAGE enumeration

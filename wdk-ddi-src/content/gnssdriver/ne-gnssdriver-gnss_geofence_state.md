@@ -1,5 +1,5 @@
 ---
-UID: NE:gnssdriver.GNSS_GEOFENCE_STATE
+UID: NE:gnssdriver.__unnamed_enum_3
 title: GNSS_GEOFENCE_STATE
 author: windows-driver-content
 description: GNSS_GEOFENCE_STATE enumerates the various states of a single geofence.

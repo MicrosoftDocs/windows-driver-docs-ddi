@@ -1,5 +1,5 @@
 ---
-UID: NE:strmini.STREAM_DEBUG_LEVEL
+UID: NE:strmini.__unnamed_enum_0
 title: STREAM_DEBUG_LEVEL
 author: windows-driver-content
 description: The STREAM_DEBUG_LEVEL enumeration lists incrementally increasing levels of debugger output.

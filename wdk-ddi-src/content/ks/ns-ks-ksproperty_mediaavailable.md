@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSPROPERTY_MEDIAAVAILABLE
+UID: NS:ks.__unnamed_struct_21
 title: KSPROPERTY_MEDIAAVAILABLE
 author: windows-driver-content
 description: The KSPROPERTY_MEDIAAVAILABLE structure specifies the media time span (the time span that a client can seek within) that is currently available on a filter.

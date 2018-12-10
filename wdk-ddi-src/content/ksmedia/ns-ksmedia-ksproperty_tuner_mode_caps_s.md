@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSPROPERTY_TUNER_MODE_CAPS_S
+UID: NS:ksmedia.__unnamed_struct_96
 title: KSPROPERTY_TUNER_MODE_CAPS_S
 author: windows-driver-content
 description: The KS_PROPERTY_TUNER_MODE_CAPS_S structure describes the capabilities of TV and radio tuner devices.

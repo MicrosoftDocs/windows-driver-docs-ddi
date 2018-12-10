@@ -68,7 +68,7 @@ void * Pfnd3d12ddiGetShaderIdentifier0054
 
 A handle to a state object. The state object can be a collection or a ray tracing pipeline state object.
 
-### -param pExportName: 
+### -param pExportName
 
 Entry point in the state object for which to retrieve an identifier.
 

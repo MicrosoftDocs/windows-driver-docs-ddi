@@ -1,5 +1,5 @@
 ---
-UID: NS:dispmprt.DXGK_BRIGHTNESS_INTERFACE
+UID: NS:dispmprt.__unnamed_struct_0
 title: DXGK_BRIGHTNESS_INTERFACE
 author: windows-driver-content
 description: The DXGK_BRIGHTNESS_INTERFACE structure contains pointers to functions in the Panel Brightness Control Interface, which is implemented by the display miniport driver.

@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.KSSTACK_USE
+UID: NE:ks.__unnamed_enum_36
 title: KSSTACK_USE
 author: windows-driver-content
 description: 

@@ -35,6 +35,7 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ExInterlockedPushEntrySList
+-   ExpInterlockedPushEntrySList
 product:
 - Windows
 targetos: Windows

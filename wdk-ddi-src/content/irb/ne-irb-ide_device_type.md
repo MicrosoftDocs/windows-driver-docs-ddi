@@ -1,5 +1,5 @@
 ---
-UID: NE:irb.IDE_DEVICE_TYPE
+UID: NE:irb.__unnamed_enum_0
 title: IDE_DEVICE_TYPE
 author: windows-driver-content
 description: The IDE_DEVICE_TYPE enumeration type indicates the device type.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.

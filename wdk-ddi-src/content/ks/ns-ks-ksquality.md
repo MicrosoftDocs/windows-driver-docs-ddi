@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSQUALITY
+UID: NS:ks.__unnamed_struct_62
 title: KSQUALITY
 author: windows-driver-content
 description: The KSQUALITY structure is used to report QM problems in both kernel and user mode to their respective quality managers.

@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.VIDEOENCODER_BITRATE_MODE
+UID: NE:ksmedia.__unnamed_enum_116
 title: VIDEOENCODER_BITRATE_MODE
 author: windows-driver-content
 description: The VIDEOENCODER_BITRATE_MODE enumeration describes the bit rate encoding modes supported by the device.

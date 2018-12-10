@@ -63,7 +63,7 @@ UINT Pfnd3d12ddiGetPipelineStackSize0054
 
 ## -parameters
 
-### -param Arg1: 
+### -param Arg1
 
 A handle to the state object.
 

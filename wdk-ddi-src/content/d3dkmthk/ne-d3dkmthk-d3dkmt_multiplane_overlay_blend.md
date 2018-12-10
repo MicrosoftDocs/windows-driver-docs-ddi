@@ -29,6 +29,7 @@ product:
 -	Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
 ---
 
 # D3DKMT_MULTIPLANE_OVERLAY_BLEND enumeration

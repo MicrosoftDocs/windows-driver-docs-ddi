@@ -68,7 +68,7 @@ VOID Pfnd3d12ddiDestroyschedulinggroup0050
 
 A handle to the display device (graphics context).
 
-### -param Arg2: 
+### -param Arg2
 
 A D3D12DDI_HSCHEDULINGGROUP_0050 user mode driver handle type that represents a hardware scheduling group.
 

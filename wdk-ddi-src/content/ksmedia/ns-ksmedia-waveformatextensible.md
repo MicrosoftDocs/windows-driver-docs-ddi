@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.WAVEFORMATEXTENSIBLE
+UID: NS:ksmedia.__unnamed_struct_2
 title: WAVEFORMATEXTENSIBLE
 author: windows-driver-content
 description: The WAVEFORMATEXTENSIBLE structure specifies the format of an audio wave stream.

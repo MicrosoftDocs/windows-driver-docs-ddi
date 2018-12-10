@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSTOPOLOGY
+UID: NS:ks.__unnamed_struct_24
 title: KSTOPOLOGY
 author: windows-driver-content
 description: The KSTOPOLOGY structure describes the topology of pins and nodes.

@@ -1,5 +1,5 @@
 ---
-UID: NE:irb.IDE_POWER_STATE
+UID: NE:irb.__unnamed_enum_3
 title: IDE_POWER_STATE
 author: windows-driver-content
 description: The IDE_POWER_STATE enumeration type indicates that power state of the device.

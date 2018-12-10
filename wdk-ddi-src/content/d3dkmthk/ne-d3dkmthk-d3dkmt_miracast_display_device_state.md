@@ -1,5 +1,5 @@
 ---
-UID: NE:d3dkmthk.D3DKMT_MIRACAST_DISPLAY_DEVICE_STATE
+UID: NE:d3dkmthk.__unnamed_enum_1
 title: D3DKMT_MIRACAST_DISPLAY_DEVICE_STATE
 author: windows-driver-content
 description: Miracast display device state.
@@ -29,6 +29,7 @@ product:
 -	Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
 ---
 
 # D3DKMT_MIRACAST_DISPLAY_DEVICE_STATE enumeration

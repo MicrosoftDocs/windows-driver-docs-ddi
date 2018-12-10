@@ -1,5 +1,5 @@
 ---
-UID: NE:ksproxy.PIPE_ALLOCATOR_PLACE
+UID: NE:ksproxy.__unnamed_enum_4
 title: PIPE_ALLOCATOR_PLACE
 author: windows-driver-content
 description: 

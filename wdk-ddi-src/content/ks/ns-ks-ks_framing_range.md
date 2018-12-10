@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KS_FRAMING_RANGE
+UID: NS:ks.__unnamed_struct_38
 title: KS_FRAMING_RANGE
 author: windows-driver-content
 description: The KS_FRAMING_RANGE structure specifies a range for frame sizes for a given framing item.

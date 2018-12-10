@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSRTAUDIO_PACKETVREGISTER
+UID: NS:ksmedia.__unnamed_struct_37
 title: KSRTAUDIO_PACKETVREGISTER
 author: windows-driver-content
 description: The KSRTAUDIO_PACKETVREGISTER structure contains information about the packet virtual register pointers.

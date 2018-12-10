@@ -1,5 +1,5 @@
 ---
-UID: NE:sensorsstructures.AXIS
+UID: NE:sensorsstructures.__unnamed_enum_0
 title: AXIS
 author: windows-driver-content
 description: Defines 3D coordinates.

@@ -57,6 +57,7 @@ The BDCB_STATUS_UPDATE_TYPE enumeration lists the types of boot-driver callback 
 
 ### -field BdCbStatusPrepareForDependencyLoad
 
+Windows will start loading driver dependencies next.
 
 ### -field BdCbStatusPrepareForDriverLoad
 

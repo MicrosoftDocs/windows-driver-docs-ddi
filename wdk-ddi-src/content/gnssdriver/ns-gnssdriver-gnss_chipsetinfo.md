@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_CHIPSETINFO
+UID: NS:gnssdriver.__unnamed_struct_46
 title: GNSS_CHIPSETINFO
 author: windows-driver-content
 description: This structure defines the specific data elements associated with the GNSS hardware.

@@ -1,5 +1,5 @@
 ---
-UID: NE:portcls.eEngineFormatType
+UID: NE:portcls.__unnamed_enum_4
 title: eEngineFormatType
 author: windows-driver-content
 description: The eEngineFormatType enumeration defines constants that specify the audio data type supported by the audio engine.

@@ -1,5 +1,5 @@
 ---
-UID: NS:winsplp.BranchOfficeJobDataContainer
+UID: NS:winsplp.__unnamed_struct_6
 title: BranchOfficeJobDataContainer
 author: windows-driver-content
 description: This structure defines a container for one or more BranchOfficeJobData structures to sent to a server.

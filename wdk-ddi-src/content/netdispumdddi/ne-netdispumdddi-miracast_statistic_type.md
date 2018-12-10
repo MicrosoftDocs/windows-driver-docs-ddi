@@ -1,5 +1,5 @@
 ---
-UID: NE:netdispumdddi.MIRACAST_STATISTIC_TYPE
+UID: NE:netdispumdddi.__unnamed_enum_2
 title: MIRACAST_STATISTIC_TYPE
 author: windows-driver-content
 description: Specifies types of Miracast statistics data that the user-mode display driver generates.

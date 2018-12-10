@@ -1,5 +1,5 @@
 ---
-UID: NE:portcls.PC_REBALANCE_TYPE
+UID: NE:portcls.__unnamed_enum_0
 title: PC_REBALANCE_TYPE
 author: windows-driver-content
 description: The PC_REBALANCE_TYPE enum describes the type of support for rebalancing.

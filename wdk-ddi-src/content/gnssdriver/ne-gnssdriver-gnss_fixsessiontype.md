@@ -1,5 +1,5 @@
 ---
-UID: NE:gnssdriver.GNSS_FIXSESSIONTYPE
+UID: NE:gnssdriver.__unnamed_enum_1
 title: GNSS_FIXSESSIONTYPE
 author: windows-driver-content
 description: This enumeration indicates the type of location fix needed by the GNSS adapter when it issues an IOCTL_GNSS_START_FIXSESSION control code. This enumeration is set within the GNSS_FIXSESSION_PARAM structure.

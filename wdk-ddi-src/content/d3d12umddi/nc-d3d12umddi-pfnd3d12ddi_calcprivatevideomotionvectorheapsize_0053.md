@@ -68,7 +68,7 @@ SIZE_T Pfnd3d12ddiCalcprivatevideomotionvectorheapsize0053
 
 A handle to the display device (graphics context).
 
-### -param *pArgs: 
+### -param *pArgs
 
 Pointer to a [D3D12DDIARG_CREATE_VIDEO_MOTION_VECTOR_HEAP_0053](ns-d3d12umddi-d3d12ddiarg_create_video_motion_vector_heap_0053.md) structure.
 

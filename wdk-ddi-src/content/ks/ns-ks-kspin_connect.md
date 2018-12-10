@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSPIN_CONNECT
+UID: NS:ks.__unnamed_struct_33
 title: KSPIN_CONNECT
 author: windows-driver-content
 description: Clients use the KSPIN_CONNECT structure to describe the connection they request from a driver in a KsCreatePin call.

@@ -1,5 +1,5 @@
 ---
-UID: NS:winsplp.MESSAGEBOX_PARAMS
+UID: NS:winsplp.__unnamed_struct_7
 title: MESSAGEBOX_PARAMS
 author: windows-driver-content
 description: The MESSAGEBOX_PARAMS structure is used by the SplPromptUIInUsersSession function to hold information about the appearance and behavior of a message box.

@@ -75,10 +75,10 @@ The ray tracing pipeline configuration.
 ### -field D3D12DDI_STATE_SUBOBJECT_TYPE_HIT_GROUP
 
 The HIT group configuration. A hit group is one or more shaders consisting of: 
-
-* 0 or 1 intersection shader
-* 0 or 1 any hit shader
-* 0 or 1 closest hit shader
+<br/>
+- 0 or 1 intersection shader<br/>
+- 0 or 1 any hit shader<br/>
+- 0 or 1 closest hit shader
 
 ### -field D3D12DDI_STATE_SUBOBJECT_TYPE_SHADER_EXPORT_SUMMARY 
 

@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSDS3D_BUFFER_ALL
+UID: NS:ksmedia.__unnamed_struct_13
 title: KSDS3D_BUFFER_ALL
 author: windows-driver-content
 description: The KSDS3D_BUFFER_ALL structure specifies all the 3D characteristics of a DirectSound 3D buffer.

@@ -32,6 +32,7 @@ product:
 -	Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
 ---
 
 # D3D12DDIARG_TEXCUBE_SHADER_RESOURCE_VIEW structure

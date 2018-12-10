@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSDS3D_LISTENER_ORIENTATION
+UID: NS:ksmedia.__unnamed_struct_12
 title: KSDS3D_LISTENER_ORIENTATION
 author: windows-driver-content
 description: A KSD3D_LISTENER_ORIENTATION structure specifies the position vector of the 3D listener. This structure is used to get or set the data value for the KSPROPERTY_DIRECTSOUND3DLISTENER_ORIENTATION property.

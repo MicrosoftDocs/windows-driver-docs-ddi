@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_STOPFIXSESSION_PARAM
+UID: NS:gnssdriver.__unnamed_struct_9
 title: GNSS_STOPFIXSESSION_PARAM
 author: windows-driver-content
 description: This structure is used to stop an active fix session.

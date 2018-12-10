@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_FIXDATA_SATELLITE
+UID: NS:gnssdriver.__unnamed_struct_13
 title: GNSS_FIXDATA_SATELLITE
 author: windows-driver-content
 description: This structure defines satellite-related information of a fix.

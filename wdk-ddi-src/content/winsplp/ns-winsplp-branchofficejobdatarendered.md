@@ -1,5 +1,5 @@
 ---
-UID: NS:winsplp.BranchOfficeJobDataRendered
+UID: NS:winsplp.__unnamed_struct_2
 title: BranchOfficeJobDataRendered
 author: windows-driver-content
 description: Contains the necessary data for logging a branch office job Pipeline Rendering Event on a remote server. This is based on job-related data available to the spooler.

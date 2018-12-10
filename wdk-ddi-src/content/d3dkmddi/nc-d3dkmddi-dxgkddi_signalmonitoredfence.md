@@ -9,7 +9,7 @@ ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -68,7 +68,7 @@ NTSTATUS DxgkddiSignalmonitoredfence
 
 Driver context handle for the context that generated the kernel submission.
 
-### -param pSignalMonitoredFence: 
+### -param pSignalMonitoredFence
 
 Pointer to a [DXGKARG_SIGNALMONITOREDFENCE](ns-d3dkmddi-_dxgkarg_signalmonitoredfence.md) structure that contains parameters to signal the monitored fence object.
 
@@ -78,7 +78,7 @@ Returns NTSTATUS.
 
 ## -remarks
 
-WDDM synchronization class: 
+WDDM synchronization class:
 
 * [Zero Level](https://docs.microsoft.com/windows-hardware/drivers/display/threading-and-synchronization-zero-level) for RenderGdi and PresentBlt submission types.
 * [First Level GPU Scheduler Class](https://docs.microsoft.com/windows-hardware/drivers/display/gpu-scheduler-class) for [BuildPagingBuffer](nc-d3dkmddi-dxgkddi_buildpagingbuffer.md) submission type.

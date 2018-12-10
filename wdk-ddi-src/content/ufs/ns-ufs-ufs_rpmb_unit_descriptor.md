@@ -1,5 +1,5 @@
 ---
-UID: NS:ufs.UFS_RPMB_UNIT_DESCRIPTOR
+UID: NS:ufs.__unnamed_struct_5
 title: UFS_RPMB_UNIT_DESCRIPTOR
 author: windows-driver-content
 description: The UFS_RPMB_UNIT_DESCRIPTOR structure describes the contents of a Replay Protected Memory Block (RBMB) Unit.

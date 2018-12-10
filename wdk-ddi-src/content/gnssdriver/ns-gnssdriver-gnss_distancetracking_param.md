@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_DISTANCETRACKING_PARAM
+UID: NS:gnssdriver.__unnamed_struct_5
 title: GNSS_DISTANCETRACKING_PARAM
 author: windows-driver-content
 description: This structure defines the parameters for a distance-based tracking fix session.

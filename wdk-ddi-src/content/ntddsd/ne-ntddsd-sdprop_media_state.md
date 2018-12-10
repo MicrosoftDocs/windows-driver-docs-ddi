@@ -1,5 +1,5 @@
 ---
-UID: NE:ntddsd.SDPROP_MEDIA_STATE
+UID: NE:ntddsd.__unnamed_enum_1
 title: SDPROP_MEDIA_STATE
 author: windows-driver-content
 description: The SDPROP_MEDIA_STATE enumeration lists the values associated with the media states property.

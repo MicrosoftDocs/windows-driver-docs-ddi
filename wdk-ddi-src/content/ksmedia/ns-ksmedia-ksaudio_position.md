@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSAUDIO_POSITION
+UID: NS:ksmedia.__unnamed_struct_7
 title: KSAUDIO_POSITION
 author: windows-driver-content
 description: The KSAUDIO_POSITION structure specifies the current positions of the play and write cursors in the sound buffer for an audio stream.

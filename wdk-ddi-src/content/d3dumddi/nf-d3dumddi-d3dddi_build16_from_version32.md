@@ -38,6 +38,7 @@ targetos: Windows
 
 
 ms.custom: RS5
+tech.root: display
 ---
 
 # D3DDDI_BUILD16_FROM_VERSION32 macro

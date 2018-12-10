@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.KSOBJECTTYPE
+UID: NE:ks.__unnamed_enum_38
 title: KSOBJECTTYPE
 author: windows-driver-content
 description: The KSOBJECTTYPE enumeration lists different types of kernel streaming objects.

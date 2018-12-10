@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.GNSS_SUPL_CERT_CONFIG
+UID: NS:gnssdriver.__unnamed_struct_40
 title: GNSS_SUPL_CERT_CONFIG
 author: windows-driver-content
 description: This structure contains SUPL certificate information.

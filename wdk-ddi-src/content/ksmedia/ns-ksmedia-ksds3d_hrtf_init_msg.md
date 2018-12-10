@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.KSDS3D_HRTF_INIT_MSG
+UID: NS:ksmedia.__unnamed_struct_16
 title: KSDS3D_HRTF_INIT_MSG
 author: windows-driver-content
 description: The KSDS3D_HRTF_INIT_MSG structure specifies the parameter settings to use to initialize the head-relative transfer function (HRTF).

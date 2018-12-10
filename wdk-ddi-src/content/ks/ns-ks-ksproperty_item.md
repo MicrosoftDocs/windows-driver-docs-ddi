@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.KSPROPERTY_ITEM
+UID: NS:ks.__unnamed_struct_66
 title: KSPROPERTY_ITEM
 author: windows-driver-content
 description: Drivers use the KSPROPERTY_ITEM structure to describe how they support a property in a property set.

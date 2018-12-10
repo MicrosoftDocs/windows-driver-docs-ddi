@@ -10,10 +10,10 @@ ms.keywords: DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE, DXGIDDICB_SUBMITPRESENTBLTTOHW
 req.header: dxgiddi.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr:
 req.kmdf-ver:
-req.umdf-ver:
+req.umdf-ver: D3D_UMD_INTERFACE_VERSION_WDDM2_4_2
 req.lib:
 req.dll:
 req.ddi-compliance:

@@ -1,5 +1,5 @@
 ---
-UID: NS:ufs.UFS_DEVICE_DESCRIPTOR
+UID: NS:ufs.__unnamed_struct_0
 title: UFS_DEVICE_DESCRIPTOR
 author: windows-driver-content
 description: UFS_DEVICE_DESCRIPTOR is the main descriptor for Universal Flash Storage (UFS) devices and should be the first descriptor retrieved as it specifies the device class and sub-class and the protocol (command set) to use to access this device and the maximum number of logical units contained within the device.

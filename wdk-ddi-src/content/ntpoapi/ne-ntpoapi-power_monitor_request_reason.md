@@ -1,5 +1,5 @@
 ---
-UID: NE:ntpoapi.POWER_MONITOR_REQUEST_REASON
+UID: NE:ntpoapi.__unnamed_enum_4
 title: POWER_MONITOR_REQUEST_REASON
 author: windows-driver-content
 description: Defines values for power transitions reasons for a monitor.
