@@ -3,9 +3,10 @@ UID: NS:hdaudio._HDAUDIO_BUS_INTERFACE_V3
 title: _HDAUDIO_BUS_INTERFACE_V3
 author: windows-driver-content
 description: 
+tech.root: audio
 ms.assetid: a7bcda7e-4e39-4250-9154-6af32cdc1ecf
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 12/18/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
