@@ -134,8 +134,9 @@ Supported starting with Windows 8. Used by WDDM 1.3 and later drivers.
 
 ### -field D3DWDDM2_2DDICAPS_SWIZZLE_PATTERN
 
+### -field D3D12_DOWNLEVEL_DDICAPS_UMDFILENAME
 
-
+Supported starting from Windows 10, version 1901. Used by WDDM 2.6 and later drivers.
 
 ## -remarks
 
