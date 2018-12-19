@@ -1,25 +1,25 @@
 ﻿---
-UID: NC:hdaudio.PREGISTER_NOTIFICATION_CALLBACK
-title: PREGISTER_NOTIFICATION_CALLBACK
+UID: NC:hdaudio.PUNREGISTER_NOTIFICATION_CALLBACK
+title: PUNREGISTER_NOTIFICATION_CALLBACK
 author: windows-driver-content
 description: 
 tech.root: audio
 ms.assetid: 453c5313-24a0-4009-98bd-9bba2a546a75
 ms.author: windowsdriverdev
-ms.date: 12/18/2018 
+ms.date: 12/19/2018 
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: hdaudio.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: 19H1
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -34,60 +34,72 @@ api_type:
 api_location: 
 -	hdaudio.h
 api_name: 
--	PREGISTER_NOTIFICATION_CALLBACK
+-	PUNREGISTER_NOTIFICATION_CALLBACK
 product: Windows
 targetos: Windows
 ---
 
-# PREGISTER_NOTIFICATION_CALLBACK callback function
+# PUNREGISTER_NOTIFICATION_CALLBACK callback function
 
 ## -description
 
-Implemented by the client driver to ... 
+The **PUNREGISTER_NOTIFICATION_CALLBACK** callback function deletes the registration of a notification callback routine that was previously registered by a call to RegisterNotificationCallback.
+
 
 ## -prototype
+
+The function pointer type for an UnregisterNotificationCallback routine is defined as follows.
 
 ```
 //Declaration
 
-PREGISTER_NOTIFICATION_CALLBACK PregisterNotificationCallback; 
+PUNREGISTER_NOTIFICATION_CALLBACK PunregisterNotificationCallback;
 
 // Definition
 
-NTSTATUS PregisterNotificationCallback 
-(
-	PVOID _context
-	HANDLE Handle
-	PDEVICE_OBJECT Fdo
-	PHDAUDIO_DMA_NOTIFICATION_CALLBACK NotificationCallback
-	PVOID CallbackContext
+NTSTATUS PunregisterNotificationCallback(
+  PVOID _context,
+  HANDLE Handle,
+  PHDAUDIO_DMA_NOTIFICATION_CALLBACK NotificationCallback,
+  PVOID CallbackContext
 )
 {...}
+
 
 ```
 
 ## -parameters
 
 ### -param _context: 
+Specifies the context value from the Context member of the [HDAUDIO_BUS_INTERFACE_V3](ns-hdaudio-_hdaudio_bus_interface_v3.md) structure.
 
 ### -param Handle: 
+Handle that identifies the DMA engine. This handle value was obtained from a previous call to [AllocateCaptureDmaEngine](nc-hdaudio-pallocate_capture_dma_engine.md) or [AllocateRenderDmaEngine](nc-hdaudio-pallocate_render_dma_engine.md).
 
-### -param Fdo: 
 
 ### -param NotificationCallback: 
+A callback routine that was previously registered for DMA progress notification with a call to [PREGISTER_NOTIFICATION_CALLBACK](nc-hdaudio-pregister_notification_callback.md).
+
 
 ### -param CallbackContext: 
-
+Driver-specific context value for the callback routine.
 
 
 ## -returns
 
-Returns NTSTATUS that ...
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+PUNREGISTER_NOTIFICATION_CALLBACK returns STATUS_SUCCESS if the call successfully unregisters the notification event. Otherwise, the routine returns STATUS_INVALID_PARAMETER to indicate that the specified tag is not valid.
+
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+PUNREGISTER_NOTIFICATION_CALLBACK will use both the NotificationCallback and CallbackContext to find the matching previously-registered callback routine to remove.
+
+The HD Audio bus driver will release the reference it took on the driver FDO when the notification callback routine was previously registered.
 
 
 ## -see-also
+
+[PREGISTER_NOTIFICATION_CALLBACK](nc-hdaudio-pregister_notification_callback.md)
+
+[HDAUDIO_BUS_INTERFACE_V3](ns-hdaudio-_hdaudio_bus_interface_v3.md)
