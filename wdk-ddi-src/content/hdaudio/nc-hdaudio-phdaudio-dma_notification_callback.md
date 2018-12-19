@@ -6,20 +6,20 @@ description:
 tech.root: audio
 ms.assetid: 5f618d11-1d66-4bf8-8176-91101c5355f3
 ms.author: windowsdriverdev
-ms.date: 12/18/2018
+ms.date: 12/19/2018
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: hdaudio.h
-req.include-header:
+req.include-header: hdaudio.h
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: 19H1
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql: DPC_LEVEL
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -44,7 +44,9 @@ targetos: Windows
 
 ## -description
 
-Implemented by the client driver to ... 
+HDAudio codec DMA Notification Callback function. 
+
+**PHDAUDIO_DMA_NOTIFICATION_CALLBACK** is used by the [PREGISTER_NOTIFICATION_CALLBACK](nc-hdaudio-pregister_notification_callback.md) callback function.
 
 ## -prototype
 
@@ -57,8 +59,8 @@ PHDAUDIO_DMA_NOTIFICATION_CALLBACK PhdaudioDmaNotificationCallback;
 
 VOID PhdaudioDmaNotificationCallback 
 (
-	PVOID Arg1
-	LARGE_INTEGER Arg2
+	PVOID Context
+	LARGE_INTEGER QPCDMANotificationTimestamp 
 )
 {...}
 
@@ -66,18 +68,23 @@ VOID PhdaudioDmaNotificationCallback
 
 ## -parameters
 
-### -param Arg1: 
-### -param Arg2: 
+### -param Context:
 
+Driver-specific context value used when registering the callback routine.
+
+
+### -param QPCDMANotificationTimestamp:
+
+The QPC time when the IOC ISR handled the DMA interrupt. 
 
 
 ## -returns
 
-Returns VOID that ...
+Returns VOID.
+
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
 
 
 ## -see-also
