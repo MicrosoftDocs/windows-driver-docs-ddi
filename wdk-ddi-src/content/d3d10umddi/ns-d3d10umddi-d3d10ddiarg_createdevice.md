@@ -77,7 +77,9 @@ The driver is required only to monitor the high 16 bits. The driver should ensur
 [in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544512">D3DDDI_DEVICECALLBACKS</a> structure that contains a table of Direct3D runtime callback functions that the driver can use to access kernel services.
 
 
-### -field pDeviceFuncs
+### -field __unnamed_union_0c2d_31.pDeviceFuncs
+
+pDeviceFuncs
 
 [in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541833">D3D10DDI_DEVICEFUNCS</a> structure that the user-mode display driver fills with a table of its functions. The Direct3D runtime uses these functions to communicate with the user-mode display driver.
 
@@ -133,7 +135,9 @@ Supported starting with Windows 8.1.
 ### -field pWDDM2_2DeviceFuncs
 
  
+### -field pWDDM2_6DeviceFuncs
 
+Supported starting with Windows 10, version 1901.
 
 ### -field hDrvDevice
 
