@@ -1,5 +1,5 @@
 ---
-UID: NE:d3dkmthk.__unnamed_enum_2
+UID: NE:d3dkmthk.D3DKMT_MIRACAST_DEVICE_STATUS
 title: D3DKMT_MIRACAST_DEVICE_STATUS
 author: windows-driver-content
 description: Miracast (wireless display) device status.
