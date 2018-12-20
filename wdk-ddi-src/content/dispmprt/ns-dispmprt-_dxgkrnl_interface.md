@@ -455,6 +455,10 @@ A pointer to the display port driver's [DXGKCB_SIGNALEVENT](..\d3dkmddi\nc-d3dkm
 
 Supported starting with WDDM 2.5.
 
+### -field DxgkCbIsFeatureEnabled
+
+Supported starting with WDDM 2.6.
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560940">Dxgkrnl Interface</a>

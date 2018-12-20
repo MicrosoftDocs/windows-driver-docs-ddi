@@ -143,6 +143,10 @@ The display miniport driver supports the Windows display driver model with relea
 
 Supported starting with Windows 10, version 1809.
 
+### -field KMT_DRIVERVERSION_WDDM_2_6 
+
+Supported starting with Windows 10, version 1901.
+
 ## -remarks
 
 

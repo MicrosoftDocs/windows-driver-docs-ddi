@@ -174,3 +174,4 @@ The IDD_CX_CLIENT_CONFIG structure contains IDDCX callback functions that the di
 
                      A pointer to the  <b>PFN_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT</b> function.
 
+### -field EvtIddCxMonitorGetPhysicalSize

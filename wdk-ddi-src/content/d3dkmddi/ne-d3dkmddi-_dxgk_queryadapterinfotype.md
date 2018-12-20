@@ -260,6 +260,10 @@ Used to collect the bios version and gpu architecture name once during GPU initi
 
 The device type capabilities.
 
+### -field DXGKQAITYPE_WDDMDEVICECAPS
+
+### -field DXGKQAITYPE_GPUPCAPS
+
 ## -remarks
 
 

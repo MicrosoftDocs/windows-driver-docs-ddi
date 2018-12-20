@@ -55,6 +55,10 @@ Pointer to an array of objects.
  
 Flags.
 
+### -field Flags.EvictOnlyIfNecessary
+ 
+### -field Flags.Value
+
 ## -remarks
 
 ## -see-also
