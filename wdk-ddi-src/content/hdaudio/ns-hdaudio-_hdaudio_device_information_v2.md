@@ -74,15 +74,15 @@ Specifies whether the HD Audio controller supports [Striping](https://docs.micro
 
 ### -field CtrlRevision
 
-UCHAR - HDA controller revision.
+HDA controller revision.
 
 ### -field CtrlVendorId 
 
-USHORT - HDA controller vendor ID.
+HDA controller vendor ID.
 
 ### -field - CtrlDeviceId
 
-USHORT - HDA controller device ID.
+HDA controller device ID.
 
 
 ## -remarks
