@@ -78,6 +78,7 @@ A pointer to the pfnCreateContextCb function.
 
 A pointer to the pfnCreateContextVirtualCb function.
 
+### -field pfnReservedCreateContextVirtualCb
 
 ### -field pfnDestroyContextCb
 
@@ -113,6 +114,17 @@ A pointer to the pfnReclaimAllocations2Cb function.
 
 A pointer to the pfnOfferAllocationsCb function.
 
+### -field pfnReservedCreatePagingQueueCb
+ 
+### -field pfnReservedDestroyPagingQueueCb
+ 
+### -field pfnReservedMakeResidentCb
+ 
+### -field pfnReservedEvictCb
+ 
+### -field pfnReservedReclaimAllocations2Cb
+ 
+### -field pfnReservedOfferAllocationsCb
 
 ### -field pfnAllocateCb
 

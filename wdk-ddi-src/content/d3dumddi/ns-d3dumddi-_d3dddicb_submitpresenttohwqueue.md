@@ -66,6 +66,12 @@ The total size in bytes of the private data buffer.
  
 Pointer to the private data to pass to DdiPresent.
 
+### -field bOptimizeForComposition
+ 
+### -field SyncIntervalOverrideValid
+ 
+### -field SyncIntervalOverride
+
 ## -remarks
 
 ## -see-also

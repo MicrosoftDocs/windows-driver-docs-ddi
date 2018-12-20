@@ -319,7 +319,13 @@ A handle to the process.
 
  
 
-
+### -field DelayExecution
+ 
+### -field DelayExecution.hPagingQueue
+ 
+### -field DelayExecution.Milliseconds
+ 
+### -field DelayExecution.PagingFenceValue
 
 
 ## -see-also

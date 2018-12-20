@@ -96,7 +96,7 @@ Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Val
 ### -field AllowFlexibleRefresh
 
  
-
+### -field NoScanoutTransform
 
 ### -field Reserved
 

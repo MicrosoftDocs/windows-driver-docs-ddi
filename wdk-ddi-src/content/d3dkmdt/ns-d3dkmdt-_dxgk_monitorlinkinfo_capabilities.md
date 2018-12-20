@@ -95,29 +95,26 @@ In general, this flag is target based rather than based on the combination of th
 
 Indicates that the target can support the HDR pixel format.
 
-### -field SyncLockIdentical
-
-The sync lock is identical.
-
-### -field Hdr10Plus
-
-Supports HDR10 plus.
-
-### -field DolbyVisionLowLatency
-
-Supports dolby vision at low latency.
-
-### -field TargetIndependentPrimary
-
 Used to indicate that the primary surfaces that are used to scan out to this display may be used on other targets on this adapter that set this flag and vice versa. This would allow primary surfaces to be shared across targets or moved from one target to another. Once this flag is set on a VidPn target, OS will not specify the VidPn source ID on the primary allocations which will be used crossing the VidPn sources connected to the VidPn targets with this capability in the same SyncLock group.
 
 In WDDM 2.4 and later, the only use of this capability is to verify that it is set when the SyncLockIdentical flag is set.
 
-This value is reserved for system use.
+### -field SyncLockIdentical
 
 The display attached to this target can be synchronized to other displays on this adapter which also support synchronization if the target modes are identical.
 
 ### -field Hdr10Plus
 
-The display supports HDR10Plus as per the [HDR10Plus](https://hdr10plus.org/
-) spec.
+The display supports HDR10Plus as per the [HDR10Plus](https://hdr10plus.org/) spec.
+
+### -field DolbyVisionLowLatency
+
+Supports dolby vision at low latency.
+
+### -field VariableRefresh
+ 
+### -field Reserved
+
+This value is reserved for system use.
+
+### -field Value
