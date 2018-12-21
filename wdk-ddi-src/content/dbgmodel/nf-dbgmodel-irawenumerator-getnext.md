@@ -4,7 +4,7 @@ title: IRawEnumerator::GetNext
 author: windows-driver-content
 description: Moves the iterator forward and fetches the name of the raw element and, optionally, its value (or a reference to it) and what kind of element it is.
 ms.assetid: 64162d89-113d-4383-ba11-d984a16c801b
-ms.date: 10/05/2018
+ms.date: 12/21/2018
 ms.topic: method
 ms.keywords: IRawEnumerator::GetNext, GetNext, IRawEnumerator.GetNext, IRawEnumerator::GetNext, IRawEnumerator.GetNext
 req.header: dbgmodel.h
@@ -49,16 +49,17 @@ If there was an error in reading the value of the raw element (for EnumerateRawV
 ## -parameters
 
 ### -param name
-TBD
+The name of the raw element (e.g.: field) being enumerated is returned here.  The caller is responsible for freeing this string with the SysFreeString method.
 
 ### -param kind
-TBD
+The kind of symbol being enumerated (e.g.: a type, field, base class, etc…) is returned here.
 
 ### -param value
-TBD
+The value of the raw element (e.g.: field) being enumerated is optionally returned here.  Depending on how the enumerator was acquired, this value may be the actual value of the raw element (EnumerateRawValues) or a reference to it (EnumerateRawReferences).
 
 ## -returns
 This method returns HRESULT.
+
 ## -remarks
 
 ## -see-also
