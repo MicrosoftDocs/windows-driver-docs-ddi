@@ -43,60 +43,34 @@ req.typenames: PARTITION_INFORMATION_MBR, *PPARTITION_INFORMATION_MBR
 
 # _PARTITION_INFORMATION_MBR structure
 
-
 ## -description
-
 
 PARTITION_INFORMATION_MBR contains information for a Master Boot Record partition that is not held in common with a GUID Partition Table partition.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PartitionType
 
-Specifies the partition type. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff563751">PARTITION_INFORMATION</a> for a list of system-defined partition types.
-
+Specifies the partition type. See [PARTITION_INFORMATION](ns-ntdddisk-_partition_information.md) for a list of system-defined partition types.
 
 ### -field BootIndicator
 
-Indicates, when <b>TRUE</b>, that the partition is bootable. When <b>FALSE</b>, the partition is not bootable.
-
+Indicates, when **TRUE**, that the partition is bootable. When **FALSE**, the partition is not bootable.
 
 ### -field RecognizedPartition
 
-Indicates, when <b>TRUE</b>, that this is a partition with a recognized partition type. When <b>FALSE</b> this is a not a partition with a recognized partition.
-
+Indicates, when **TRUE**, that this is a partition with a recognized partition type. When **FALSE** this is a not a partition with a recognized partition.
 
 ### -field HiddenSectors
 
 Contains the number of hidden sectors in the partition.
 
-
 ### -field PartitionId
-
- 
-
-
-
 
 ## -see-also
 
+[IoReadPartitionTable](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-ioreadpartitiontable)
 
+[PARTITION_INFORMATION_EX](ns-ntdddisk-_partition_information_ex.md)
 
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561452">IoReadPartitionTable</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563754">PARTITION_INFORMATION_EX</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563763">PARTITION_INFORMATION_GPT</a>
- 
-
- 
-
+[PARTITION_INFORMATION_GPT](ns-ntdddisk-_partition_information_gpt.md)

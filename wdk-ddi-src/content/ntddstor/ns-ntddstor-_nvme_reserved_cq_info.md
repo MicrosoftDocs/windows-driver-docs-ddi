@@ -1,7 +1,8 @@
 ---
 UID: NS:ntddstor._NVME_RESERVED_CQ_INFO
 title: _NVME_RESERVED_CQ_INFO
-author: windows-driver-content
+author: mimisasouvanh
+ms.author: misaso
 description: 
 ms.assetid: b13e73e2-1d4f-42b9-b33a-5b51bbcee311
 ms.date: 10/19/2018

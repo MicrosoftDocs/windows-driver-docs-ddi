@@ -10,8 +10,8 @@ ms.keywords: D3DKMT_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT, D3DKMT_MULTIPLANE_OVE
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
