@@ -1,7 +1,6 @@
 ---
 UID: NS:msviddrv.tag_video_geterrortext_parms
 title: tag_video_geterrortext_parms
-author: windows-driver-content
 description: 
 old-location: stream\video_geterrortext_parms.htm
 tech.root: stream

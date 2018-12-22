@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_100
 title: KSPROPERTY_TUNER_STANDARD_MODE_S
-author: windows-driver-content
 description: The KSPROPERTY_TUNER_STANDARD_MODE_S structure describes whether the tuning device can identify the tuner standard from the signal itself.
 old-location: stream\ksproperty_tuner_standard_mode_s.htm
 tech.root: stream

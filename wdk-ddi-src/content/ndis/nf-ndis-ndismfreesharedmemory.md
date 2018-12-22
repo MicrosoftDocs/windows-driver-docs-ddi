@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMFreeSharedMemory
 title: NdisMFreeSharedMemory function
-author: windows-driver-content
 description: NdisMFreeSharedMemory frees memory that was previously allocated by NdisMAllocateSharedMemory or NdisMAllocateSharedMemoryAsyncEx by the driver of a DMA NIC.
 old-location: netvista\ndismfreesharedmemory.htm
 tech.root: netvista

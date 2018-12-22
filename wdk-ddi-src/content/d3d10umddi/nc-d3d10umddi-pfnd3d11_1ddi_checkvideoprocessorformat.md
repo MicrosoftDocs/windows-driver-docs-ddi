@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT
 title: PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT
-author: windows-driver-content
 description: Queries whether the video processor supports a specified video format.
 old-location: display\checkvideoprocessorformat.htm
 ms.assetid: f5f18a53-d121-445a-86b7-649624a2f175

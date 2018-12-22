@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_EXCLUSIVE_LOCK_STATE
 title: "_CDROM_EXCLUSIVE_LOCK_STATE"
-author: windows-driver-content
 description: The CDROM_EXCLUSIVE_LOCK_STATE structure is used by the CD-ROM class driver to report the exclusive access state of a CD-ROM device.
 old-location: storage\cdrom_exclusive_lock_state.htm
 tech.root: storage

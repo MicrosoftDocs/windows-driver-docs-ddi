@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaFeature.get_SelectionType
 title: IPrintSchemaFeature::get_SelectionType
-author: windows-driver-content
 description: Gets the selection type of the Feature.
 old-location: print\iprintschemafeature_selectiontype.htm
 tech.root: print

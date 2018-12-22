@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsReleaseCachedMdl
 title: KsReleaseCachedMdl function
-author: windows-driver-content
 description: The KsReleaseCachedMdl function is used to release the MDL acquired by the KsAcquireCachedMdl call.
 old-location: stream\ksreleasecachedmdl.htm
 tech.root: stream

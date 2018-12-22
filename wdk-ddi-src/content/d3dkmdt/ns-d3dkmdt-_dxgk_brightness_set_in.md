@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGK_BRIGHTNESS_SET_IN
 title: _DXGK_BRIGHTNESS_SET_IN
-author: windows-driver-content
 description:
 ms.assetid: c19ab02a-7216-4a94-8d8c-832bdcf22c02
 ms.date: 10/19/2018

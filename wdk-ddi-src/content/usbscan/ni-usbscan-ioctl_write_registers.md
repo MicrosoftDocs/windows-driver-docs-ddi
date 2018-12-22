@@ -1,7 +1,6 @@
 ---
 UID: NI:usbscan.IOCTL_WRITE_REGISTERS
 title: IOCTL_WRITE_REGISTERS
-author: windows-driver-content
 description: Writes to USB device registers, using the control pipe.
 old-location: image\ioctl_write_registers.htm
 tech.root: image

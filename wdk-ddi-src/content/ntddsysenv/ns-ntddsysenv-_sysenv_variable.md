@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddsysenv._SYSENV_VARIABLE
 title: "_SYSENV_VARIABLE"
-author: windows-driver-content
 description: Stores the name a system environment variable using SysEnv device. This structure is used in the IOCTL_SYSENV_GET_VARIABLE request.
 old-location: kernel\sysenv_variable.htm
 tech.root: kernel

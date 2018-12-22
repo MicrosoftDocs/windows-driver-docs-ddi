@@ -1,7 +1,6 @@
 ---
 UID: NI:gnssdriver.IOCTL_GNSS_LISTEN_GEOFENCE_ALERT
 title: IOCTL_GNSS_LISTEN_GEOFENCE_ALERT
-author: windows-driver-content
 description: The IOCTL_GNSS_LISTEN_GEOFENCE_ALERT control code is used to start listening for geofence alerts from the driver.
 old-location: gnss\ioctl_gnss_listen_geofence_alert.htm
 tech.root: gnss

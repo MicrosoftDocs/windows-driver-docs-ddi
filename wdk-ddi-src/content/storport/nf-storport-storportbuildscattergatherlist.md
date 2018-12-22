@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortBuildScatterGatherList
 title: StorPortBuildScatterGatherList function
-author: windows-driver-content
 description: The StorPortBuildScatterGatherList routine creates a scatter/gather list for the specified data buffer.
 old-location: storage\storportbuildscattergatherlist.htm
 tech.root: storage

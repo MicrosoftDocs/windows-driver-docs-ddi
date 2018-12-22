@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_DECODE_TIER_0020
 title: D3D12DDI_VIDEO_DECODE_TIER_0020
-author: windows-driver-content
 description: Specifies the video decode tier.
 old-location: display\d3d12ddi_video_decode_tier.htm
 ms.assetid: CC4B83A3-1F57-493F-840F-F0F799B631E6

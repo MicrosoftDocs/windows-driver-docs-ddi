@@ -1,7 +1,6 @@
 ---
 UID: NF:sdplib.SdpAppendNodeToContainerNode
 title: SdpAppendNodeToContainerNode function
-author: windows-driver-content
 description: The Bluetooth SdpAppendNodeToContainerNode function is used to attach an SDP node to a sequence or alternative SDP node.
 old-location: bltooth\sdpappendnodetocontainernode.htm
 tech.root: bltooth

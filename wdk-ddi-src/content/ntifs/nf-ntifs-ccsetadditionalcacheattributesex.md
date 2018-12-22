@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.CcSetAdditionalCacheAttributesEx
 title: CcSetAdditionalCacheAttributesEx function
-author: windows-driver-content
 description: Call the CcSetAdditionalCacheAttributesEx routine to enable extended cache behavior on a cached file.
 old-location: ifsk\ccsetadditionalcacheattributesex.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_FREEGPUVIRTUALADDRESS
 title: "_D3DDDICB_FREEGPUVIRTUALADDRESS"
-author: windows-driver-content
 description: D3DDDICB_FREEGPUVIRTUALADDRESS is used with pfnFreeGpuVirtualAddressCb to release a range of graphics processing unit (GPU) virtual addresses that were previously reserved or mapped.
 old-location: display\d3dddicb_freegpuvirtualaddress.htm
 tech.root: display

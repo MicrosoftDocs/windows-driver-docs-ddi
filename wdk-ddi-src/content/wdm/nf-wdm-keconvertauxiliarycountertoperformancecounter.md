@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeConvertAuxiliaryCounterToPerformanceCounter
 title: KeConvertAuxiliaryCounterToPerformanceCounter function
-author: windows-driver-content
 description: The KeConvertAuxiliaryCounterToPerformanceCounter routine converts the specified auxiliary counter value into a performance counter value.
 old-location: kernel\keconvertauxiliarycountertoperformancecounter.htm
 tech.root: kernel

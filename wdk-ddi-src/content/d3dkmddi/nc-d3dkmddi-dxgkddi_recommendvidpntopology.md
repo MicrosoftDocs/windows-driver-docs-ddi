@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_RECOMMENDVIDPNTOPOLOGY
 title: DXGKDDI_RECOMMENDVIDPNTOPOLOGY
-author: windows-driver-content
 description: The DxgkDdiRecommendVidPnTopology function creates the topology of a specified VidPN or augments the topology with a new path to video present targets.
 old-location: display\dxgkddirecommendvidpntopology.htm
 ms.assetid: a7c31d2c-3893-4d25-837d-d4650aeb1cd1

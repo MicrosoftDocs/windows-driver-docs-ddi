@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlPrivateLock~r11
 title: FsRtlPrivateLock function
-author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\fsrtlprivatelock.htm
 tech.root: ifsk

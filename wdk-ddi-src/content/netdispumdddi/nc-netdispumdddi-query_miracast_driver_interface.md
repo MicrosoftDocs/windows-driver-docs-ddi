@@ -1,7 +1,6 @@
 ---
 UID: NC:netdispumdddi.QUERY_MIRACAST_DRIVER_INTERFACE
 title: QUERY_MIRACAST_DRIVER_INTERFACE
-author: windows-driver-content
 description: Called by the operating system to query the Miracast user-mode driver interface, MIRACAST_DRIVER_INTERFACE.
 old-location: display\querymiracastdriverinterface.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.WriteSymbol
 title: IDebugSymbolGroup2::WriteSymbol
-author: windows-driver-content
 description: The WriteSymbol methods set the value of the specified symbol.
 old-location: debugger\writesymbol.htm
 tech.root: debugger

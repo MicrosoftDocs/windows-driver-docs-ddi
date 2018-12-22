@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgmodel.IKeyStore
 title: IKeyStore
-author: windows-driver-content
 description: A key/value store.  Typically used for metadata.
 ms.assetid: 434182b4-c9ee-4ca0-b092-f60098df5d16
 ms.date: 07/16/2018

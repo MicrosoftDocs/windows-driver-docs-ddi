@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltDeleteExtraCreateParameterLookasideList
 title: FltDeleteExtraCreateParameterLookasideList function
-author: windows-driver-content
 description: The FltDeleteExtraCreateParameterLookasideList routine frees an extra create parameter (ECP) lookaside list.
 old-location: ifsk\fltdeleteextracreateparameterlookasidelist.htm
 tech.root: ifsk

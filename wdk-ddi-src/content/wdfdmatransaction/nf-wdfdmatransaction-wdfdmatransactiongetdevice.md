@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionGetDevice
 title: WdfDmaTransactionGetDevice function
-author: windows-driver-content
 description: The WdfDmaTransactionGetDevice method returns a handle to the framework device object that is associated with a specified DMA transaction.
 old-location: wdf\wdfdmatransactiongetdevice.htm
 tech.root: wdf

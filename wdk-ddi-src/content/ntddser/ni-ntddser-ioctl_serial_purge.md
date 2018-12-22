@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_PURGE
 title: IOCTL_SERIAL_PURGE
-author: windows-driver-content
 description: The IOCTL_SERIAL_PURGE request cancels the specified requests and deletes data from the specified buffers.
 old-location: serports\ioctl_serial_purge.htm
 tech.root: serports

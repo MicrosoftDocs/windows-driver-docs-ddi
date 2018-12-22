@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsInterfaceHandler.KsCompleteIo
 title: IKsInterfaceHandler::KsCompleteIo
-author: windows-driver-content
 description: The KsCompleteIo method cleans up extended headers and releases media samples after input and output (I/O) complete.
 old-location: stream\iksinterfacehandler_kscompleteio.htm
 tech.root: stream

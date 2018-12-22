@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltFreeCallbackData
 title: FltFreeCallbackData function
-author: windows-driver-content
 description: The FltFreeCallbackData routine frees a callback data structure allocated by the FltAllocateCallbackData routine.
 old-location: ifsk\fltfreecallbackdata.htm
 tech.root: ifsk

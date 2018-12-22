@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._KBUGCHECK_SECONDARY_DUMP_DATA
 title: "_KBUGCHECK_SECONDARY_DUMP_DATA"
-author: windows-driver-content
 description: The KBUGCHECK_SECONDARY_DUMP_DATA structure describes a section of driver-supplied data to be written by BugCheckSecondaryDumpDataCallback to the crash dump file.
 old-location: kernel\kbugcheck_secondary_dump_data.htm
 tech.root: kernel

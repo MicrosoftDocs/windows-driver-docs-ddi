@@ -1,7 +1,6 @@
 ---
 UID: NI:ucmucsippmrequests.IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK
 title: IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK
-author: windows-driver-content
 tech.root: usbref
 description: 
 ms.assetid: 8572406b-0348-4b9b-bd82-6f3d88b733ed

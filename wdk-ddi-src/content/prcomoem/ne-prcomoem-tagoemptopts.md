@@ -1,7 +1,6 @@
 ---
 UID: NE:prcomoem.tagOEMPTOPTS
 title: tagOEMPTOPTS
-author: windows-driver-content
 description: 
 old-location: print\oemptopts.htm
 tech.root: print

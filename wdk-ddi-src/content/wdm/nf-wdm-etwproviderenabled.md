@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.EtwProviderEnabled
 title: EtwProviderEnabled function
-author: windows-driver-content
 description: The EtwProviderEnabled function verifies that a provider is enabled for event logging at a specified level and keyword.
 old-location: devtest\etwproviderenabled.htm
 tech.root: devtest

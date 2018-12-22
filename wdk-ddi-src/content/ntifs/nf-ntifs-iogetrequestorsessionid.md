@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoGetRequestorSessionId
 title: IoGetRequestorSessionId function
-author: windows-driver-content
 description: The IoGetRequestorSessionId routine returns the session ID for the process that originally requested a given I/O operation.
 old-location: ifsk\iogetrequestorsessionid.htm
 tech.root: ifsk

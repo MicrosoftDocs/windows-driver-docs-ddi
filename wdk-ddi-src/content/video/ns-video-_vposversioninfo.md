@@ -1,7 +1,6 @@
 ---
 UID: NS:video._VPOSVERSIONINFO
 title: "_VPOSVERSIONINFO"
-author: windows-driver-content
 description: The VPOSVERSIONINFO structure contains version information about the currently running operating system.
 old-location: display\vposversioninfo.htm
 tech.root: display

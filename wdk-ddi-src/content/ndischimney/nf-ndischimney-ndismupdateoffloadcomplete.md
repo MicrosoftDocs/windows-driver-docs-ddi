@@ -1,7 +1,6 @@
 ---
 UID: NF:ndischimney.NdisMUpdateOffloadComplete
 title: NdisMUpdateOffloadComplete function
-author: windows-driver-content
 description: An offload target calls the NdisMUpdateOffloadComplete function to complete an update offload operation that was initiated by a previous call to the MiniportUpdateOffload function of the offload target.
 old-location: netvista\ndismupdateoffloadcomplete.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CALCPRIVATEQUERYSIZE
 title: PFND3D10DDI_CALCPRIVATEQUERYSIZE
-author: windows-driver-content
 description: The CalcPrivateQuerySize function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a query.
 old-location: display\calcprivatequerysize.htm
 ms.assetid: 59a59aa8-085e-4bf8-8a6f-e08f2aecd894

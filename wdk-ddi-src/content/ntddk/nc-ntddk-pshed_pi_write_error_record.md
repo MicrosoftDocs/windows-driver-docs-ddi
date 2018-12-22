@@ -1,7 +1,6 @@
 ---
 UID: NC:ntddk.PSHED_PI_WRITE_ERROR_RECORD
 title: PSHED_PI_WRITE_ERROR_RECORD
-author: windows-driver-content
 description: A PSHED plug-in's WriteErrorRecord callback function writes an error record to the system's persistent data storage.
 old-location: whea\writeerrorrecord.htm
 tech.root: whea

@@ -1,7 +1,6 @@
 ---
 UID: NE:bdamedia._BdaLockType
 title: "_BdaLockType"
-author: windows-driver-content
 description: The BDA_LockType enumerated type contains values that specify lock types for a signal.
 old-location: stream\bda_locktype.htm
 tech.root: stream

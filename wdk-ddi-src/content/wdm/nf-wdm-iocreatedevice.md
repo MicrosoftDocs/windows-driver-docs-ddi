@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoCreateDevice
 title: IoCreateDevice function
-author: windows-driver-content
 description: The IoCreateDevice routine creates a device object for use by a driver.
 old-location: kernel\iocreatedevice.htm
 tech.root: kernel

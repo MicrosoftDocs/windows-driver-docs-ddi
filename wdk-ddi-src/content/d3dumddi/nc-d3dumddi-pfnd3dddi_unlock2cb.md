@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_UNLOCK2CB
 title: PFND3DDDI_UNLOCK2CB
-author: windows-driver-content
 description: The pfnUnlock2Cb function unlocks an allocation that was locked by a call to the pfnLock2Cb function.
 old-location: display\pfnunlock2cb.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3DWDDM2_2DDI_DEVICEFUNCS
 title: D3DWDDM2_2DDI_DEVICEFUNCS
-author: windows-driver-content
 description: Specifies the callback functions that operate on a shader cache.
 old-location: display\d3dwddm2_2ddi_devicefuncs.htm
 ms.assetid: 4E082193-70BA-4F36-9001-2A12014F3AC3

@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._DMA_ADAPTER
 title: "_DMA_ADAPTER"
-author: windows-driver-content
 description: The DMA_ADAPTER structure describes a system-defined interface to a DMA controller for a given device. A driver calls IoGetDmaAdapter to obtain this structure.
 old-location: kernel\dma_adapter.htm
 tech.root: kernel

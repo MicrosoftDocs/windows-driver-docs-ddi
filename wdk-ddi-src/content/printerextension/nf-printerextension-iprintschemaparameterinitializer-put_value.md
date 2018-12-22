@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaParameterInitializer.put_Value
 title: IPrintSchemaParameterInitializer::put_Value
-author: windows-driver-content
 description: The Value (put_Value) property modifies the value of the IPrintSchemaParameterInitializer object.
 old-location: print\iprintschemaparameterinitializer_putvalue.htm
 tech.root: print

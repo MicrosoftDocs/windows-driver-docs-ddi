@@ -1,7 +1,6 @@
 ---
 UID: NS:prntfont._WIDTHRUN
 title: "_WIDTHRUN"
-author: windows-driver-content
 description: The WIDTHRUN structure is used to define the contents of Unidrv font metrics files (.ufm files).
 old-location: print\widthrun.htm
 tech.root: print

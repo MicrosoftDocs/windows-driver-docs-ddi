@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExInterlockedPopEntryList
 title: ExInterlockedPopEntryList function
-author: windows-driver-content
 description: The ExInterlockedPopEntryList routine atomically removes an entry from the beginning of a singly linked list of SINGLE_LIST_ENTRY structures.
 old-location: kernel\exinterlockedpopentrylist.htm
 tech.root: kernel

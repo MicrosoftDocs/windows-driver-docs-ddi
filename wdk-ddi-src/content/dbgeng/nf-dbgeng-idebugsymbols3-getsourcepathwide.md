@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSourcePathWide
 title: IDebugSymbols3::GetSourcePathWide
-author: windows-driver-content
 description: The GetSourcePathWide method returns the source path.
 old-location: debugger\getsourcepathwide.htm
 tech.root: debugger

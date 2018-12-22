@@ -1,7 +1,6 @@
 ---
 UID: NF:winppi.GdiGetPageCount
 title: GdiGetPageCount function
-author: windows-driver-content
 description: The GdiGetPageCount function returns the number of pages in a print job.
 old-location: print\gdigetpagecount.htm
 tech.root: print

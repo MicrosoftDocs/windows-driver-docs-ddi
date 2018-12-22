@@ -1,7 +1,6 @@
 ---
 UID: NF:rxce.RxCeQueryTransportInformation
 title: RxCeQueryTransportInformation function
-author: windows-driver-content
 description: RxCeQueryTransportInformation queries transport information for a given transport.
 old-location: ifsk\rxcequerytransportinformation.htm
 tech.root: ifsk

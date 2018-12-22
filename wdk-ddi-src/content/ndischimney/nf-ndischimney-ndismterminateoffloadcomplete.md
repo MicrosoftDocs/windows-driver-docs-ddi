@@ -1,7 +1,6 @@
 ---
 UID: NF:ndischimney.NdisMTerminateOffloadComplete
 title: NdisMTerminateOffloadComplete function
-author: windows-driver-content
 description: An offload target calls the NdisMTerminateOffloadComplete function to complete a terminate offload operation that was initiated by a previous call to the MiniportTerminateOffload function of the offload target.
 old-location: netvista\ndismterminateoffloadcomplete.htm
 tech.root: netvista

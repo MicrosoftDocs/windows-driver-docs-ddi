@@ -1,7 +1,6 @@
 ---
 UID: NF:sercx.SerCxProgressTransmit
 title: SerCxProgressTransmit function
-author: windows-driver-content
 description: The SerCxProgressTransmit method reports the progress of the current write (transmit) operation.
 old-location: serports\sercxprogresstransmit.htm
 tech.root: serports

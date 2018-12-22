@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dumddi.D3DDDI_CHECK_DIRECT_FLIP_FLAGS
 title: D3DDDI_CHECK_DIRECT_FLIP_FLAGS
-author: windows-driver-content
 description: Used by the CheckDirectFlipFlags parameter of the CheckDirectFlipSupport function to specify seamless flipping of video memory.
 old-location: display\d3dddi_check_direct_flip_flags.htm
 tech.root: display

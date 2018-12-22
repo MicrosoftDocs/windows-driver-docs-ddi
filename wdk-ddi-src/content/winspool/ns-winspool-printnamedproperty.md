@@ -1,7 +1,6 @@
 ---
 UID: NS:winspool.__unnamed_struct_1
 title: PrintNamedProperty
-author: windows-driver-content
 description: 
 old-location: print\printnamedproperty.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
 title: "_ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER"
-author: windows-driver-content
 description: This topic describes the ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER structure.
 old-location: acpi\acpi_manipulate_global_lock_buffer.htm
 tech.root: acpi

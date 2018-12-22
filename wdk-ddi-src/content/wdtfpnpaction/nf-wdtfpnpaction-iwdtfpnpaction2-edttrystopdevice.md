@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPAction2.EDTTryStopDevice
 title: IWDTFPNPAction2::EDTTryStopDevice
-author: windows-driver-content
 description: Attempts to send an IRP_MN_STOP_DEVICE event to the target device.
 old-location: dtf\iwdtfpnpaction2_edttrystopdevice.htm
 tech.root: dtf

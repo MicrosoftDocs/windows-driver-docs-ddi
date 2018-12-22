@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsClassifyOptionSet0
 title: FwpsClassifyOptionSet0 function
-author: windows-driver-content
 description: The FwpsClassifyOptionSet0 function is called by a callout filter's classifyFn function to specify additional information that affects the characteristics of permitted filtering operations.Note  FwpsClassifyOptionSet0 is a specific version of FwpsClassifyOptionSet. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwpsclassifyoptionset0.htm
 tech.root: netvista

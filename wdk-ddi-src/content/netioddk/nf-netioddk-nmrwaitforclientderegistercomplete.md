@@ -1,7 +1,6 @@
 ---
 UID: NF:netioddk.NmrWaitForClientDeregisterComplete
 title: NmrWaitForClientDeregisterComplete function
-author: windows-driver-content
 description: The NmrWaitForClientDeregisterComplete function waits for the deregistration of a client module to complete.
 old-location: netvista\nmrwaitforclientderegistercomplete.htm
 tech.root: netvista

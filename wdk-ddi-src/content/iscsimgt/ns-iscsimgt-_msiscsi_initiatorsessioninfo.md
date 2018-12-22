@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsimgt._MSiSCSI_InitiatorSessionInfo
 title: "_MSiSCSI_InitiatorSessionInfo"
-author: windows-driver-content
 description: The MSiSCSI_InitiatorSessionInfo structure contains information about a collection of sessions that belong to the indicated HBA initiator.
 old-location: storage\msiscsi_initiatorsessioninfo.htm
 tech.root: storage

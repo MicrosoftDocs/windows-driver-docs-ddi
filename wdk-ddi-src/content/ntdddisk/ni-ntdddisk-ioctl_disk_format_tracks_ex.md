@@ -1,7 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_FORMAT_TRACKS_EX
 title: IOCTL_DISK_FORMAT_TRACKS_EX
-author: windows-driver-content
 description: Is similar to IOCTL_DISK_FORMAT_TRACKS, except that it allows the caller to specify several more parameters.
 old-location: storage\ioctl_disk_format_tracks_ex.htm
 tech.root: storage

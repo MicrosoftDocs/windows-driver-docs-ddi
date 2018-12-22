@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoInitAllocate
 title: WdfPdoInitAllocate function
-author: windows-driver-content
 description: The WdfPdoInitAllocate method allocates a WDFDEVICE_INIT structure for a framework-based bus driver, which the bus driver uses when reporting a new device.
 old-location: wdf\wdfpdoinitallocate.htm
 tech.root: wdf

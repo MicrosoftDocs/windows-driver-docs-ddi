@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient2.DispatchCallbacks
 title: IDebugClient2::DispatchCallbacks
-author: windows-driver-content
 description: The DispatchCallbacks method lets the debugger engine use the current thread for callbacks.
 old-location: debugger\dispatchcallbacks.htm
 tech.root: debugger

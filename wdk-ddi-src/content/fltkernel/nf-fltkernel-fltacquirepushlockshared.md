@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltAcquirePushLockShared
 title: FltAcquirePushLockShared macro
-author: windows-driver-content
 description: The FltAcquirePushLockShared routine acquires the given push lock for shared access by the calling thread.
 old-location: ifsk\fltacquirepushlockshared.htm
 tech.root: ifsk

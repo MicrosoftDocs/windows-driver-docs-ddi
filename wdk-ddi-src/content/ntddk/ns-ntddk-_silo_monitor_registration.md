@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._SILO_MONITOR_REGISTRATION
 title: "_SILO_MONITOR_REGISTRATION"
-author: windows-driver-content
 description: This structure specifies a server silo monitor that can receive notifications about server silo events.
 old-location: kernel\silo_monitor_registration.htm
 tech.root: kernel

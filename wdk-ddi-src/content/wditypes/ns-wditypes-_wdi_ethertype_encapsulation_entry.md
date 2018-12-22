@@ -1,7 +1,6 @@
 ---
 UID: NS:wditypes._WDI_ETHERTYPE_ENCAPSULATION_ENTRY
 title: "_WDI_ETHERTYPE_ENCAPSULATION_ENTRY"
-author: windows-driver-content
 description: The WDI_ETHERTYPE_ENCAPSULATION_ENTRY structure defines an EtherType encapsulation entry.
 old-location: netvista\wdi_ethertype_encapsulation_entry.htm
 tech.root: netvista

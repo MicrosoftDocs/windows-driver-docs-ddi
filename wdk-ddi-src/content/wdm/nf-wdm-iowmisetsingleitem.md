@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoWMISetSingleItem
 title: IoWMISetSingleItem function
-author: windows-driver-content
 description: The IoWMISetSingleItem routine sets a single property in the data block instance that matches the specified WMI class and instance name.
 old-location: kernel\iowmisetsingleitem.htm
 tech.root: kernel

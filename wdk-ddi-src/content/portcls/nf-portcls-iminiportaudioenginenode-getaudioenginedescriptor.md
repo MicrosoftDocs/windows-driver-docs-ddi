@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.GetAudioEngineDescriptor
 title: IMiniportAudioEngineNode::GetAudioEngineDescriptor
-author: windows-driver-content
 description: Gets the descriptor for the audio engine node.
 old-location: audio\iminiportaudioenginenode_getaudioenginedescriptor.htm
 tech.root: audio

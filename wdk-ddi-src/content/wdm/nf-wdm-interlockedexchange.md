@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.InterlockedExchange
 title: InterlockedExchange function
-author: windows-driver-content
 description: The InterlockedExchange routine sets an integer variable to a given value as an atomic operation.
 old-location: kernel\interlockedexchange.htm
 tech.root: kernel

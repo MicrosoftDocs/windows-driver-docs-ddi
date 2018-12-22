@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEELEMENTLAYOUT_0003
 title: PFND3D12DDI_CREATEELEMENTLAYOUT_0003
-author: windows-driver-content
 description: Creates an element layout.
 ms.assetid: 23cc0136-45a0-4eb3-84e6-3c906b2bbca0
 ms.date: 10/19/2018

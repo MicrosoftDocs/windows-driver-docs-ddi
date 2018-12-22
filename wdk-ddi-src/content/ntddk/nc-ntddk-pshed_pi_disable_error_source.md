@@ -1,7 +1,6 @@
 ---
 UID: NC:ntddk.PSHED_PI_DISABLE_ERROR_SOURCE
 title: PSHED_PI_DISABLE_ERROR_SOURCE
-author: windows-driver-content
 description: A PSHED plug-in's DisableErrorSource callback function disables an error source.
 old-location: whea\disableerrorsource.htm
 tech.root: whea

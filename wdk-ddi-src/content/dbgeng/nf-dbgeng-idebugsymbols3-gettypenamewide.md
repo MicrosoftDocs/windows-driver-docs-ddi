@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetTypeNameWide
 title: IDebugSymbols3::GetTypeNameWide
-author: windows-driver-content
 description: The GetTypeNameWide method returns the name of the type symbol specified by its type ID and module.
 old-location: debugger\gettypenamewide.htm
 tech.root: debugger

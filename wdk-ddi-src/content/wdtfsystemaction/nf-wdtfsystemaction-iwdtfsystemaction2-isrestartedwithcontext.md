@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.IsRestartedWithContext
 title: IWDTFSystemAction2::IsRestartedWithContext
-author: windows-driver-content
 description: Gets a value that indicates whether the test script was restarted for a specific context.
 old-location: dtf\iwdtfsystemaction2_isrestartedwithcontext.htm
 tech.root: dtf

@@ -1,7 +1,6 @@
 ---
 UID: NF:winsplp.UpdatePrintDeviceObject
 title: UpdatePrintDeviceObject function
-author: windows-driver-content
 description: The UpdatePrintDeviceObject function updates the properties of a device object that is in the print provider queue.
 old-location: print\updateprintdeviceobject.htm
 tech.root: print

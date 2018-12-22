@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_ISDBCAS_RESPONSEDATA
 title: "_BDA_ISDBCAS_RESPONSEDATA"
-author: windows-driver-content
 description: 
 old-location: stream\bda_isdbcas_responsedata.htm
 tech.root: stream

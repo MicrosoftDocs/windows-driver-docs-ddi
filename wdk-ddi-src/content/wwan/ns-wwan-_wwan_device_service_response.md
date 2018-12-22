@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_DEVICE_SERVICE_RESPONSE
 title: "_WWAN_DEVICE_SERVICE_RESPONSE"
-author: windows-driver-content
 description: The WWAN_DEVICE_SERVICE_RESPONSE structure represents a response from a device service.
 old-location: netvista\wwan_device_service_response.htm
 tech.root: netvista

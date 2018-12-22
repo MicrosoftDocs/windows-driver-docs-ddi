@@ -1,7 +1,6 @@
 ---
 UID: NF:hidsdi.HidD_GetHidGuid
 title: HidD_GetHidGuid function
-author: windows-driver-content
 description: The HidD_GetHidGuid routine returns the device interfaceGUID for HIDClass devices.
 old-location: hid\hidd_gethidguid.htm
 tech.root: hid

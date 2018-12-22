@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_RADIO_STATE
 title: "_NDIS_WWAN_RADIO_STATE"
-author: windows-driver-content
 description: The NDIS_WWAN_RADIO_STATE structure represents the hardware-based and software-based radio power states of the MB device.
 old-location: netvista\ndis_wwan_radio_state.htm
 tech.root: netvista

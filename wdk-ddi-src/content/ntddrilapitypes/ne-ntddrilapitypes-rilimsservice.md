@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILIMSSERVICE
 title: RILIMSSERVICE
-author: windows-driver-content
 description: The RILIMSSERVICE enumeration has the following values.
 old-location: netvista\rilimsservice.htm
 tech.root: netvista

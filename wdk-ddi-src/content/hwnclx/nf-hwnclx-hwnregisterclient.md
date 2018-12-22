@@ -1,7 +1,6 @@
 ---
 UID: NF:hwnclx.HwNRegisterClient
 title: HwNRegisterClient function
-author: windows-driver-content
 description: Registers the hardware notification client driver and its callback functions with the class extension.
 old-location: gpiobtn\hwnregisterclient.htm
 tech.root: gpiobtn

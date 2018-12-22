@@ -1,7 +1,6 @@
 ---
 UID: NF:winspool.WaitForPrinterChange
 title: WaitForPrinterChange function
-author: windows-driver-content
 description: 
 old-location: print\waitforprinterchange.htm
 tech.root: print

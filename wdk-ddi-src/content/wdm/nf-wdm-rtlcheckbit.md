@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlCheckBit
 title: RtlCheckBit macro
-author: windows-driver-content
 description: The RtlCheckBit routine determines whether a particular bit in a given bitmap variable is clear or set.
 old-location: kernel\rtlcheckbit.htm
 tech.root: kernel

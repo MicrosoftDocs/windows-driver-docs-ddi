@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_DEVICE_CAPS_EX
 title: "_NDIS_WWAN_DEVICE_CAPS_EX"
-author: windows-driver-content
 description: The NDIS_WWAN_DEVICE_CAPS_EX structure represents the capabilities of the MB device.
 old-location: netvista\ndis_wwan_device_caps_ex.htm
 tech.root: netvista

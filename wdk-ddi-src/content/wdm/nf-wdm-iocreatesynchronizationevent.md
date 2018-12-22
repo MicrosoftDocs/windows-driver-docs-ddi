@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoCreateSynchronizationEvent
 title: IoCreateSynchronizationEvent function
-author: windows-driver-content
 description: The IoCreateSynchronizationEvent routine creates or opens a named synchronization event for use in serialization of access to hardware between two otherwise unrelated drivers.
 old-location: kernel\iocreatesynchronizationevent.htm
 tech.root: kernel

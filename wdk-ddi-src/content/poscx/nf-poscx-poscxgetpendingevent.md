@@ -1,7 +1,6 @@
 ---
 UID: NF:poscx.PosCxGetPendingEvent
 title: PosCxGetPendingEvent function
-author: windows-driver-content
 description: PosCxGetPendingEvent is called either from the device read callback, or when a new event arrives.
 old-location: pos\poscxgetpendingevent.htm
 tech.root: pos

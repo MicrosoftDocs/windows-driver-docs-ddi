@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.HasInterface
 title: IWDTFTarget2::HasInterface
-author: windows-driver-content
 description: Determines whether the target supports a given interface.
 old-location: dtf\iwdtftarget2_hasinterface.htm
 tech.root: dtf

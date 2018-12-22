@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemPrintTicketProvider.QueryDeviceDefaultNamespace
 title: IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace
-author: windows-driver-content
 description: The IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace method queries the device for its default namespace uniform resource identifier (URI).
 old-location: print\iprintoemprintticketprovider_querydevicedefaultnamespace.htm
 tech.root: print

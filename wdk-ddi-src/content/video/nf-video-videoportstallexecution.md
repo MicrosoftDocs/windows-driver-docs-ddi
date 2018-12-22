@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortStallExecution
 title: VideoPortStallExecution function
-author: windows-driver-content
 description: The VideoPortStallExecution function retains control of the processor for the specified number of microseconds and returns to the caller.
 old-location: display\videoportstallexecution.htm
 tech.root: display

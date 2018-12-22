@@ -1,7 +1,6 @@
 ---
 UID: NS:ucmmanager._UCM_CONNECTOR_TYPEC_CONFIG
 title: "_UCM_CONNECTOR_TYPEC_CONFIG"
-author: windows-driver-content
 description: Describes the configuration options for a Type-C connector.
 old-location: buses\ucm_connector_type_c_config.htm
 tech.root: usbref

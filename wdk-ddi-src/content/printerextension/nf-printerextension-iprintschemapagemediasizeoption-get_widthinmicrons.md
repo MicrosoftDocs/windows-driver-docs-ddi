@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaPageMediaSizeOption.get_WidthInMicrons
 title: IPrintSchemaPageMediaSizeOption::get_WidthInMicrons
-author: windows-driver-content
 description: Gets the width of the page in microns.
 old-location: print\iprintschemapagemediasizeoption_widthinmicrons.htm
 tech.root: print

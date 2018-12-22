@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetSystemVersionValues
 title: IDebugControl4::GetSystemVersionValues
-author: windows-driver-content
 description: The GetSystemVersionValues method returns version number information for the current target.
 old-location: debugger\getsystemversionvalues.htm
 tech.root: debugger

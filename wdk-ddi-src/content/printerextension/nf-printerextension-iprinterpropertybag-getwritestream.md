@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterPropertyBag.GetWriteStream
 title: IPrinterPropertyBag::GetWriteStream
-author: windows-driver-content
 description: Gets a stream in order to write a stream property.
 old-location: print\iprinterpropertybag_getwritestream.htm
 tech.root: print

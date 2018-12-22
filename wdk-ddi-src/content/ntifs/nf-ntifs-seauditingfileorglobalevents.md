@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SeAuditingFileOrGlobalEvents
 title: SeAuditingFileOrGlobalEvents function
-author: windows-driver-content
 description: The SeAuditingFileOrGlobalEvents routine determines whether file or global events are currently being audited.
 old-location: ifsk\seauditingfileorglobalevents.htm
 tech.root: ifsk

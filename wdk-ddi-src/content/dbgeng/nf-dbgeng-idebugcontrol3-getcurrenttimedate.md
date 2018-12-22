@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetCurrentTimeDate
 title: IDebugControl3::GetCurrentTimeDate
-author: windows-driver-content
 description: The GetCurrentTimeDate method returns the time of the current target.
 old-location: debugger\getcurrenttimedate.htm
 tech.root: debugger

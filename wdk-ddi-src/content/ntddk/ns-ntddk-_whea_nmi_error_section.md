@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_NMI_ERROR_SECTION
 title: "_WHEA_NMI_ERROR_SECTION"
-author: windows-driver-content
 description: The WHEA_NMI_ERROR_SECTION structure describes nonmaskable interrupt (NMI) error data.
 old-location: whea\whea_nmi_error_section.htm
 tech.root: whea

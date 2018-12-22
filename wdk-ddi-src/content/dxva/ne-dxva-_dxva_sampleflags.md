@@ -1,7 +1,6 @@
 ---
 UID: NE:dxva._DXVA_SampleFlags
 title: "_DXVA_SampleFlags"
-author: windows-driver-content
 description: The DXVA_SampleFlags enumeration type contains a collection of flags that identify changes in the current sample frame from the previous sample frame.
 old-location: display\dxva_sampleflags.htm
 tech.root: display

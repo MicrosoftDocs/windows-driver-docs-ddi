@@ -1,7 +1,6 @@
 ---
 UID: NC:hdaudio.PREGISTER_EVENT_CALLBACK
 title: PREGISTER_EVENT_CALLBACK
-author: windows-driver-content
 description: The RegisterEventCallback routine registers a callback routine for an unsolicited response from a codec or codecs.The function pointer type for a RegisterEventCallback routine is defined as follows.
 old-location: audio\registereventcallback.htm
 tech.root: audio

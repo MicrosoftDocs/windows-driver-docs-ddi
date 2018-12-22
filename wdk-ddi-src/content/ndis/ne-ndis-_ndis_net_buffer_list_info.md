@@ -1,7 +1,6 @@
 ---
 UID: NE:ndis._NDIS_NET_BUFFER_LIST_INFO
 title: "_NDIS_NET_BUFFER_LIST_INFO"
-author: windows-driver-content
 description: The NDIS_NET_BUFFER_LIST_INFO enumeration identifies information that is common to all NET_BUFFER structures in a NET_BUFFER_LIST structure.
 old-location: netvista\ndis_net_buffer_list_info.htm
 tech.root: netvista

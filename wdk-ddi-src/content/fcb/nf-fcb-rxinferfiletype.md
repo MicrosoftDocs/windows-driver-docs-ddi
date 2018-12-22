@@ -1,7 +1,6 @@
 ---
 UID: NF:fcb.RxInferFileType
 title: RxInferFileType function
-author: windows-driver-content
 description: RxInferFileType tries to infer the file type (directory or non-directory) from a member in the RX_CONTEXT structure.
 old-location: ifsk\rxinferfiletype.htm
 tech.root: ifsk

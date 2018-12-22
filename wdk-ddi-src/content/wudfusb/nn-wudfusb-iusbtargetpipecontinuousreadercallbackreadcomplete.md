@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfusb.IUsbTargetPipeContinuousReaderCallbackReadComplete
 title: IUsbTargetPipeContinuousReaderCallbackReadComplete
-author: windows-driver-content
 description: IUsbTargetPipeContinuousReaderCallbackReadComplete is a driver-supplied interface.
 old-location: wdf\iusbtargetpipecontinuousreadercallbackreadcomplete.htm
 tech.root: wdf

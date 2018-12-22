@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoReleaseRemoveLockAndWait
 title: IoReleaseRemoveLockAndWait macro
-author: windows-driver-content
 description: The IoReleaseRemoveLockAndWait routine releases a remove lock that the driver acquired in a previous call to IoAcquireRemoveLock, and waits until all acquisitions of the lock have been released.
 old-location: kernel\ioreleaseremovelockandwait.htm
 tech.root: kernel

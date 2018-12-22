@@ -1,7 +1,6 @@
 ---
 UID: NI:nfpdev.IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE
 title: IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE
-author: windows-driver-content
 description: The client sends the IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE request to the subscription handle repeatedly in order to receive subscribed messages as they arrive.
 old-location: nfpdrivers\ioctl_nfp_get_next_subscribed_message.htm
 tech.root: nfpdrivers

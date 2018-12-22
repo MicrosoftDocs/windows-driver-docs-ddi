@@ -1,7 +1,6 @@
 ---
 UID: NE:winspool.__unnamed_enum_0
 title: BIDI_TYPE
-author: windows-driver-content
 description: The BIDI_TYPE enumeration lists the possible values of data transferred in a bidi operation.
 old-location: print\bidi_type.htm
 tech.root: print

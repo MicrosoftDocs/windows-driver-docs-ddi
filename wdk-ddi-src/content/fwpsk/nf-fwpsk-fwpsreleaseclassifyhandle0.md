@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsReleaseClassifyHandle0
 title: FwpsReleaseClassifyHandle0 function
-author: windows-driver-content
 description: A callout driver calls FwpsReleaseClassifyHandle0 to release a classification handle that was previously acquired through a call to FwpsAcquireClassifyHandle0.Note  FwpsReleaseClassifyHandle0 is a specific version of FwpsReleaseClassifyHandle.
 old-location: netvista\fwpsreleaseclassifyhandle0.htm
 tech.root: netvista

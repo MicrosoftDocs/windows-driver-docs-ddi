@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltIsVolumeWritable
 title: FltIsVolumeWritable function
-author: windows-driver-content
 description: The FltIsVolumeWritable routine determines whether the disk device that corresponds to a volume or minifilter driver instance is writable.
 old-location: ifsk\fltisvolumewritable.htm
 tech.root: ifsk

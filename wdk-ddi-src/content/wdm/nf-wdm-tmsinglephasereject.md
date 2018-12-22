@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.TmSinglePhaseReject
 title: TmSinglePhaseReject function
-author: windows-driver-content
 description: The TmSinglePhaseReject routine informs KTM that the calling resource manager will not support a single-phase commit operation for a specified enlistment.
 old-location: kernel\tmsinglephasereject.htm
 tech.root: kernel

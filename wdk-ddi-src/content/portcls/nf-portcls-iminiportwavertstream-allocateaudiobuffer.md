@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveRTStream.AllocateAudioBuffer
 title: IMiniportWaveRTStream::AllocateAudioBuffer
-author: windows-driver-content
 description: The AllocateAudioBuffer method allocates a cyclic buffer for audio data.
 tech.root: audio
 ms.assetid: 9da789c4-8f39-4e09-8505-1119df379165

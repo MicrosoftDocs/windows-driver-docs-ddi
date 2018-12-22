@@ -1,7 +1,6 @@
 ---
 UID: NE:ksi.__unnamed_enum_0
 title: KSPROPERTY_SERVICE
-author: windows-driver-content
 description: 
 old-location: stream\ksproperty_service.htm
 tech.root: stream

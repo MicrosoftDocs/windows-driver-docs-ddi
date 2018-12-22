@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddchgr.IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS
 title: IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS
-author: windows-driver-content
 description: Initializes the status of all elements or of specified number of elements of a particular type.
 old-location: storage\ioctl_changer_initialize_element_status.htm
 tech.root: storage

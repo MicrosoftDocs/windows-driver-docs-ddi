@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortFreeDmaMemory
 title: StorPortFreeDmaMemory function
-author: windows-driver-content
 description:  This function is the extended version of the StorPortFreeContiguousMemorySpecifyCache function. It deallocates a range of noncached memory in the nonpaged portion of the system address space.
 ms.assetid: c32b4578-c75b-45ec-82f7-ff8081346aa8
 ms.date: 10/19/2018

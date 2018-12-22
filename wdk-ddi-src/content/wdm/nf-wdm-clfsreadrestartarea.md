@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsReadRestartArea
 title: ClfsReadRestartArea function
-author: windows-driver-content
 description: The ClfsReadRestartArea routine reads the restart record that was most recently written to a specified CLFS stream.
 old-location: kernel\clfsreadrestartarea.htm
 tech.root: kernel

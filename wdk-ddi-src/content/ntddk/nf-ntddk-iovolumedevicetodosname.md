@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoVolumeDeviceToDosName
 title: IoVolumeDeviceToDosName function
-author: windows-driver-content
 description: The IoVolumeDeviceToDosName routine returns the MS-DOS path for a specified device object that represents a file system volume.
 old-location: kernel\iovolumedevicetodosname.htm
 tech.root: kernel

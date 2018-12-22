@@ -1,7 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_73
 title: KSEVENT_CAMERACONTROL
-author: windows-driver-content
 description: Specifies camera control event notifications that the driver generates to indicate that an operation has been completed or canceled.
 old-location: stream\ksevent_cameracontrol.htm
 tech.root: stream

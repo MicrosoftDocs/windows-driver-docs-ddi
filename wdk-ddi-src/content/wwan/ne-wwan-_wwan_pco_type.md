@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_PCO_TYPE
 title: "_WWAN_PCO_TYPE"
-author: windows-driver-content
 description: The WWAN_PCO_TYPE enumeration indicates whether the header of a PCO structure is partial, meaning only a subset of the complete PCO value from the network is being passed up to the host.
 old-location: netvista\wwan_pco_type.htm
 tech.root: netvista

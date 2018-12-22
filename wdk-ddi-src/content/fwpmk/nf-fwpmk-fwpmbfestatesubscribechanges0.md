@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpmk.FwpmBfeStateSubscribeChanges0
 title: FwpmBfeStateSubscribeChanges0 function
-author: windows-driver-content
 description: The FwpmBfeStateSubscribeChanges0 function registers a callback function that is called whenever there is a change to the state of the filter engine.Note  FwpmBfeStateSubscribeChanges0 is a specific version of FwpmBfeStateSubscribeChanges.
 old-location: netvista\fwpmbfestatesubscribechanges0.htm
 tech.root: netvista

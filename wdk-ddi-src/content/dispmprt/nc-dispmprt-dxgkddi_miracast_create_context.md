@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_MIRACAST_CREATE_CONTEXT
 title: DXGKDDI_MIRACAST_CREATE_CONTEXT
-author: windows-driver-content
 description: Creates a kernel-mode context for a Miracast device.
 old-location: display\dxgkddimiracastcreatecontext.htm
 tech.root: display

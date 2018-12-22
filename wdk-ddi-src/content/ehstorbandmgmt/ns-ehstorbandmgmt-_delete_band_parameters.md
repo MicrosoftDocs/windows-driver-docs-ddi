@@ -1,7 +1,6 @@
 ---
 UID: NS:ehstorbandmgmt._DELETE_BAND_PARAMETERS
 title: "_DELETE_BAND_PARAMETERS"
-author: windows-driver-content
 description: A configured band is deleted according to the parameters in a DELETE_BAND_PARAMETERS structure. This structure is input for an IOCTL_EHSTOR_BANDMGMT_DELETE_BAND request.
 old-location: storage\delete_band_parameters.htm
 tech.root: storage

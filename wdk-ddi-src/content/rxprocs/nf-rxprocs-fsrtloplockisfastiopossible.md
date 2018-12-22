@@ -1,7 +1,6 @@
 ---
 UID: NF:rxprocs.FsRtlOplockIsFastIoPossible
 title: FsRtlOplockIsFastIoPossible macro
-author: windows-driver-content
 description: FsRtlOplockIsFastIoPossible checks a file's opportunistic lock (oplock) state to determine whether fast I/O can be performed on the file.
 old-location: ifsk\fsrtloplockisfastiopossible.htm
 tech.root: ifsk

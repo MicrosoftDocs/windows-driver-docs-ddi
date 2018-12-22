@@ -1,7 +1,6 @@
 ---
 UID: NE:bthddi._BRB_TYPE
 title: "_BRB_TYPE"
-author: windows-driver-content
 description: The BRB_TYPE enumeration type is used to determine the Bluetooth request block when a profile driver builds and sends a BRB.
 old-location: bltooth\brb_type.htm
 tech.root: bltooth

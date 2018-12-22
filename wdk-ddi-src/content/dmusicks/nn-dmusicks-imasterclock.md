@@ -1,7 +1,6 @@
 ---
 UID: NN:dmusicks.IMasterClock
 title: IMasterClock
-author: windows-driver-content
 description: The IMasterClock interface provides Microsoft DirectMusic streams with access to the current reference time from the master clock.
 old-location: audio\imasterclock.htm
 tech.root: audio

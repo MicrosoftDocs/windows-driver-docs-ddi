@@ -1,7 +1,6 @@
 ---
 UID: NF:sercx.SerCx2PioTransmitPurgeFifoComplete
 title: SerCx2PioTransmitPurgeFifoComplete function
-author: windows-driver-content
 description: The SerCx2PioTransmitPurgeFifoComplete method notifies version 2 of the serial framework extension (SerCx2) that the serial controller driver has finished purging the data from the transmit FIFO in the serial controller hardware.
 old-location: serports\sercx2piotransmitpurgefifocomplete.htm
 tech.root: serports

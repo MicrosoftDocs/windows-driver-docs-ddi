@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dukmdt._D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE
 title: _D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE
-author: windows-driver-content
 description: Specifies the final wire signaling color space values.
 ms.assetid: 56328267-47fd-4d35-b033-34b5835a3802
 ms.date: 10/19/2018

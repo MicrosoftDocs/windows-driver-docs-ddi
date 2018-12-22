@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dukmdt._DXGKVGPU_ESCAPE_READ_PCI_CONFIG
 title: "_DXGKVGPU_ESCAPE_READ_PCI_CONFIG"
-author: windows-driver-content
 description: A structure used to read the PCI config for an escape.
 old-location: display\dxgkvgpu_escape_read_pci_config.htm
 tech.root: display

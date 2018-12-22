@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsStreamPointerClone
 title: KsStreamPointerClone function
-author: windows-driver-content
 description: The KsStreamPointerClone function creates a clone of a given stream pointer.
 old-location: stream\ksstreampointerclone.htm
 tech.root: stream

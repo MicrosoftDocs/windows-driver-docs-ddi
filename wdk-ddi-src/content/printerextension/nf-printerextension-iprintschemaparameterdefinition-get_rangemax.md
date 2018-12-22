@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaParameterDefinition.get_RangeMax
 title: IPrintSchemaParameterDefinition::get_RangeMax
-author: windows-driver-content
 description: The RangeMax property gets the maximum value of the allowed data range.
 old-location: print\_iprintschemaparameterdefinition_rangemax.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlIntPtrToInt
 title: RtlIntPtrToInt function
-author: windows-driver-content
 description: Converts a value of type INT_PTR to a value of type INT.
 old-location: kernel\rtlintptrtoint.htm
 tech.root: kernel

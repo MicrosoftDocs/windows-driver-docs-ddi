@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsimgt._ISCSI_SessionStaticInfo
 title: "_ISCSI_SessionStaticInfo"
-author: windows-driver-content
 description: The ISCSI_SessionStaticInfo structure provides information about the characteristics of an iSCSI session.
 old-location: storage\iscsi_sessionstaticinfo.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntdddisk._DRIVE_LAYOUT_INFORMATION
 title: "_DRIVE_LAYOUT_INFORMATION"
-author: windows-driver-content
 description: The DRIVE_LAYOUT_INFORMATION structure is obsolete and is provided only to support existing drivers.
 old-location: storage\drive_layout_information.htm
 tech.root: storage

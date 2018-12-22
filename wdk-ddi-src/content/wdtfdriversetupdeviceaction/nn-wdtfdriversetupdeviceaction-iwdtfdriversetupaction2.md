@@ -1,7 +1,6 @@
 ---
 UID: NN:wdtfdriversetupdeviceaction.IWDTFDriverSetupAction2
 title: IWDTFDriverSetupAction2
-author: windows-driver-content
 description: Defines operations that control the target device during driver setup.
 old-location: dtf\iwdtfdriversetupaction2.htm
 tech.root: dtf

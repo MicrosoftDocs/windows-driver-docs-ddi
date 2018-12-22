@@ -1,7 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_15
 title: GNSS_BREADCRUMBING_PARAM
-author: windows-driver-content
 description: This structure contains the configuration passed into the start of breadcrumbing via IOCTL_GNSS_START_BREADCRUMBING.
 old-location: gnss\gnss_breadcrumbing_param.htm
 tech.root: gnss

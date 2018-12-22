@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_PTM_CAPABILITY_REGISTER
 title: _PCI_EXPRESS_PTM_CAPABILITY_REGISTER
-author: windows-driver-content
 description: Reserved. Do not use.
 ms.assetid: 5149d900-1122-4330-a03f-8d3ac5fce330
 ms.date: 10/19/2018

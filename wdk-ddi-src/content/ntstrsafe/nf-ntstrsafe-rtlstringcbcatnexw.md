@@ -1,7 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCbCatNExW
 title: RtlStringCbCatNExW function
-author: windows-driver-content
 description: The RtlStringCbCatNExW and RtlStringCbCatNExA functions concatenate two byte-counted strings while limiting the size of the appended string.
 old-location: kernel\rtlstringcbcatnex.htm
 tech.root: kernel

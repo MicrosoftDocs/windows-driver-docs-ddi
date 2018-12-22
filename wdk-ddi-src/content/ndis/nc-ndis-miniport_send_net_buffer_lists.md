@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_SEND_NET_BUFFER_LISTS
 title: MINIPORT_SEND_NET_BUFFER_LISTS
-author: windows-driver-content
 description: NDIS calls the MiniportSendNetBufferLists function to transmit network data that is contained in a linked list of NET_BUFFER_LIST structures.
 old-location: netvista\miniportsendnetbufferlists.htm
 tech.root: netvista

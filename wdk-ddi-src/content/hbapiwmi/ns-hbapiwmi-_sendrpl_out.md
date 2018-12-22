@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SendRPL_OUT
 title: "_SendRPL_OUT"
-author: windows-driver-content
 description: The SendRPL_OUT structure is used to report the output parameter data of the SendRPL WMI method to the WMI client.
 old-location: storage\sendrpl_out.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NI:nfcsedev.IOCTL_NFCSE_ENUM_ENDPOINTS
 title: IOCTL_NFCSE_ENUM_ENDPOINTS
-author: windows-driver-content
 description: Returns information regarding the list of all the secure elements attached to the NFC controller.
 old-location: nfpdrivers\ioctl_nfcse_enum_endpoints.htm
 tech.root: nfpdrivers

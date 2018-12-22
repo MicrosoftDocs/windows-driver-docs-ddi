@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceInitSetRemoveLockOptions
 title: WdfDeviceInitSetRemoveLockOptions function
-author: windows-driver-content
 description: The WdfDeviceInitSetRemoveLockOptions method causes the framework to acquire a remove lock before delivering an IRP of any type to the driver.
 old-location: wdf\wdfdeviceinitsetremovelockoptions.htm
 tech.root: wdf

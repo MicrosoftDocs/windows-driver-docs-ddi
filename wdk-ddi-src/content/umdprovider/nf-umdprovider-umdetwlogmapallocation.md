@@ -1,7 +1,6 @@
 ---
 UID: NF:umdprovider.UMDEtwLogMapAllocation
 title: UMDEtwLogMapAllocation function
-author: windows-driver-content
 description: Describes how a Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys) memory allocation, or a portion of the allocation, is being used.
 old-location: display\umdetwlogmapallocation.htm
 tech.root: display

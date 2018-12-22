@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.PsQueryTotalCycleTimeProcess
 title: PsQueryTotalCycleTimeProcess function
-author: windows-driver-content
 description: The PsQueryTotalCycleTimeProcess routine returns the accumulated cycle time for the specified process.
 old-location: kernel\psquerytotalcycletimeprocess.htm
 tech.root: kernel

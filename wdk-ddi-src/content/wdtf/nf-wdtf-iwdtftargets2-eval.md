@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.Eval
 title: IWDTFTargets2::Eval
-author: windows-driver-content
 description: Evaluates whether all items in the collection match an SDEL statement.
 old-location: dtf\iwdtftargets2_eval.htm
 tech.root: dtf

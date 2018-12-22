@@ -1,7 +1,6 @@
 ---
 UID: NN:ksproxy.IKsQualityForwarder
 title: IKsQualityForwarder
-author: windows-driver-content
 description: The IKsQualityForwarder interface inherits the method of the IKsObject interface and extends IKsObject to provide a method that flushes information from a pin.
 old-location: stream\iksqualityforwarder.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._PHYSICAL_ELEMENT_STATUS_REQUEST
 title: _PHYSICAL_ELEMENT_STATUS_REQUEST
-author: windows-driver-content
 description: The PHYSICAL_ELEMENT_STATUS_REQUEST structure defines the starting element to look for the physical element status of a device.
 ms.assetid: 982f2bcd-3206-458c-af5d-9a01dddb1a8c
 ms.date: 09/10/2018

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExDeleteNPagedLookasideList
 title: ExDeleteNPagedLookasideList function
-author: windows-driver-content
 description: The ExDeleteNPagedLookasideList routine destroys a nonpaged lookaside list.
 old-location: kernel\exdeletenpagedlookasidelist.htm
 tech.root: kernel

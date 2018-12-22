@@ -1,7 +1,6 @@
 ---
 UID: NS:mbbcxtypes._MBB_DRIVER_GLOBALS
 title: _MBB_DRIVER_GLOBALS
-author: windows-driver-content
 description: Call MBB_DRIVER_GLOBALS_INIT to initialize this structure.
 tech.root: netvista
 ms.assetid: 68caf662-edfa-4ede-b063-3b7589dc8d34

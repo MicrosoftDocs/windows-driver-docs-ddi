@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDIARG_OPENRESOURCE
 title: D3D10DDIARG_OPENRESOURCE
-author: windows-driver-content
 description: The D3D10DDIARG_OPENRESOURCE structure contains information for opening a shared resource.
 old-location: display\d3d10ddiarg_openresource.htm
 ms.assetid: acd1a957-9a1f-48a5-849b-e0cb9f8e05b6

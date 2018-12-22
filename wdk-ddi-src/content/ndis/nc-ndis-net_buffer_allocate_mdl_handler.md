@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.NET_BUFFER_ALLOCATE_MDL_HANDLER
 title: NET_BUFFER_ALLOCATE_MDL_HANDLER
-author: windows-driver-content
 description: The NetAllocateMdl function allocates an MDL with an associated memory block of a specified size.
 old-location: netvista\netallocatemdl.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_VIDEOPROCESSENDFRAME
 title: PFND3DDDI_VIDEOPROCESSENDFRAME
-author: windows-driver-content
 description: The VideoProcessEndFrame function notifies the user-mode display driver that all of the data that is required to process the current frame was submitted.
 old-location: display\videoprocessendframe.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NS:minitape._SRBEX_DATA
 title: "_SRBEX_DATA"
-author: windows-driver-content
 description: The SRBEX_DATA structure is the generalized format for containing extended SRB data.
 old-location: storage\srbex_data.htm
 tech.root: storage

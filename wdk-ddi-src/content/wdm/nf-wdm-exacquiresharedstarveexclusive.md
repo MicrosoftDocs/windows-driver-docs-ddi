@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExAcquireSharedStarveExclusive
 title: ExAcquireSharedStarveExclusive function
-author: windows-driver-content
 description: The ExAcquireSharedStarveExclusive routine acquires a given resource for shared access without waiting for any pending attempts to acquire exclusive access to the same resource.
 old-location: kernel\exacquiresharedstarveexclusive.htm
 tech.root: kernel

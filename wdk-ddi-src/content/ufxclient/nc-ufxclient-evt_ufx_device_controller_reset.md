@@ -1,7 +1,6 @@
 ---
 UID: NC:ufxclient.EVT_UFX_DEVICE_CONTROLLER_RESET
 title: EVT_UFX_DEVICE_CONTROLLER_RESET
-author: windows-driver-content
 description: The client driver's implementation to reset the function controller to its initial state.
 old-location: buses\evt_ufx_device_controller_reset.htm
 tech.root: usbref

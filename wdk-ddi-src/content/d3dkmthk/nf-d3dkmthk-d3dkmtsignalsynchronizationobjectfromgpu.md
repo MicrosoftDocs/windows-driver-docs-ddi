@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSignalSynchronizationObjectFromGpu
 title: D3DKMTSignalSynchronizationObjectFromGpu function
-author: windows-driver-content
 description: D3DKMTSignalSynchronizationObjectFromGpu is used to signal a monitored fence.
 old-location: display\d3dkmtsignalsynchronizationobjectfromgpu.htm
 ms.assetid: 5343A7F6-7EFC-4BAE-8D21-CA8FB9B6078A

@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._FILE_FS_DEVICE_INFORMATION
 title: "_FILE_FS_DEVICE_INFORMATION"
-author: windows-driver-content
 description: The FILE_FS_DEVICE_INFORMATION structure provides file system device information about the type of device object associated with a file object.
 old-location: kernel\file_fs_device_information.htm
 tech.root: kernel

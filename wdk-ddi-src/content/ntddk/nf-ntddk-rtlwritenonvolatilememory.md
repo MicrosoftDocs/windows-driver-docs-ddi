@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlWriteNonVolatileMemory
 title: RtlWriteNonVolatileMemory function
-author: windows-driver-content
 description: The routine RtlWriteNonVolatileMemory copies the contents of a source buffer to a non-volatile destination memory buffer.
 old-location: ifsk\rtlwritenonvolatilememory.htm
 tech.root: ifsk

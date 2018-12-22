@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_GET_CQ_RESULTS_EX
 title: NDK_FN_GET_CQ_RESULTS_EX
-author: windows-driver-content
 description: The NdkGetCqResultsEx (NDK_FN_GET_CQ_RESULTS_EX) function removes completions from an NDK completion queue (CQ) object.
 old-location: netvista\ndk_fn_get_cq_results_ex.htm
 tech.root: netvista

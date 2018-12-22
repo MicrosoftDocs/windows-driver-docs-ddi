@@ -1,7 +1,6 @@
 ---
 UID: NS:wsk._WSK_PROVIDER_DATAGRAM_DISPATCH
 title: "_WSK_PROVIDER_DATAGRAM_DISPATCH"
-author: windows-driver-content
 description: The WSK_PROVIDER_DATAGRAM_DISPATCH structure specifies the WSK subsystem's table of functions for a datagram socket.
 old-location: netvista\wsk_provider_datagram_dispatch.htm
 tech.root: netvista

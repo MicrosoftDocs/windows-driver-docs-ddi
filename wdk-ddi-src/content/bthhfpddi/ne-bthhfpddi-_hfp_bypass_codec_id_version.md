@@ -1,7 +1,6 @@
 ---
 UID: NE:bthhfpddi._HFP_BYPASS_CODEC_ID_VERSION
 title: "_HFP_BYPASS_CODEC_ID_VERSION"
-author: windows-driver-content
 description: The HFP_BYPASS_CODEC_ID_VERSION enumeration defines the codec ID structure versions that are supported by the HFP service.
 old-location: audio\hfp_bypass_codec_id_version.htm
 tech.root: audio

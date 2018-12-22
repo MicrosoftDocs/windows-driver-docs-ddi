@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfresource.WdfIoResourceListRemoveByDescriptor
 title: WdfIoResourceListRemoveByDescriptor function
-author: windows-driver-content
 description: The WdfIoResourceListRemoveByDescriptor method removes a resource descriptor from a resource requirement list's logical configuration.
 old-location: wdf\wdfioresourcelistremovebydescriptor.htm
 tech.root: wdf

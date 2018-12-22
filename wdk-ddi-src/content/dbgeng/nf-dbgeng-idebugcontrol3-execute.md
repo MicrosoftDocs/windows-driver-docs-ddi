@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.Execute
 title: IDebugControl3::Execute
-author: windows-driver-content
 description: The Execute method executes the specified debugger commands.
 old-location: debugger\execute.htm
 tech.root: debugger

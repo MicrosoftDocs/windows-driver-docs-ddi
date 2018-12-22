@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoCsqInitializeEx
 title: IoCsqInitializeEx function
-author: windows-driver-content
 description: The IoCsqInitializeEx routine initializes the dispatch table for a cancel-safe IRP queue.
 old-location: kernel\iocsqinitializeex.htm
 tech.root: kernel

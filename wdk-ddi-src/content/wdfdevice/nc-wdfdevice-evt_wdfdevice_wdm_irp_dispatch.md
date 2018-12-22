@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDFDEVICE_WDM_IRP_DISPATCH
 title: EVT_WDFDEVICE_WDM_IRP_DISPATCH
-author: windows-driver-content
 description: A driver's EvtDeviceWdmIrpDispatch event callback function receives an IRP before the framework processes the IRP.
 old-location: wdf\evtdevicewdmirpdispatch.htm
 tech.root: wdf

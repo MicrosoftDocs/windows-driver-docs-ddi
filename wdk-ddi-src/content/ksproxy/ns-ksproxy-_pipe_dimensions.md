@@ -1,7 +1,6 @@
 ---
 UID: NS:ksproxy._PIPE_DIMENSIONS
 title: "_PIPE_DIMENSIONS"
-author: windows-driver-content
 description: The PIPE_DIMENSIONS structure is for proxy use and not recommended for application use. PIPE_DIMENSIONS contains information that describes the compression/expansion ratio of frames on various pins related to a pipe.
 old-location: stream\pipe_dimensions.htm
 tech.root: stream

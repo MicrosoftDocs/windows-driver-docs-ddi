@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RAYTRACING_INSTANCE_FLAGS
 title: D3D12DDI_RAYTRACING_INSTANCE_FLAGS
-author: windows-driver-content
 description: Flag options when generating instance data on the CPU to upload to the GPU, during ray tracing acceleration structure build.
 ms.assetid: 6b171e36-4b02-45b1-9f84-cfae92d118d4
 ms.date: 10/19/2018

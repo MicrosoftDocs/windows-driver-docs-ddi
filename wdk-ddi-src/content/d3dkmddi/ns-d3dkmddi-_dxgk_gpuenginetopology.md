@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_GPUENGINETOPOLOGY
 title: "_DXGK_GPUENGINETOPOLOGY"
-author: windows-driver-content
 description: The DXGK_GPUENGINETOPOLOGY structure describes the graphics processing unit (GPU)-engine topology that a driver can support.
 old-location: display\dxgk_gpuenginetopology.htm
 ms.assetid: 8ed224eb-c1f6-4793-ae32-36f96d3af9ab

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfdriverpackageaction.IWDTFDriverPackageAction2.get_CatalogFile
 title: IWDTFDriverPackageAction2::get_CatalogFile
-author: windows-driver-content
 description: Gets the catalog file name.
 old-location: dtf\iwdtfdriverpackageaction2_catalogfile.htm
 tech.root: dtf

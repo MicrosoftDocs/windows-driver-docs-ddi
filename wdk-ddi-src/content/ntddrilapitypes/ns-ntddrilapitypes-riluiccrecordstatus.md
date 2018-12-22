@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILUICCRECORDSTATUS
 title: RILUICCRECORDSTATUS
-author: windows-driver-content
 description: This structure represents RILUICCRECORDSTATUS.
 old-location: netvista\riluiccrecordstatus.htm
 tech.root: netvista

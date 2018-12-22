@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsCacheMedium
 title: KsCacheMedium function
-author: windows-driver-content
 description: The KsCacheMedium function improves graph building performance of pins that use Mediums to define connectivity.
 old-location: stream\kscachemedium.htm
 tech.root: stream

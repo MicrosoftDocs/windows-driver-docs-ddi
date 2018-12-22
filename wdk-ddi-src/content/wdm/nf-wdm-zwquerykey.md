@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwQueryKey
 title: ZwQueryKey function
-author: windows-driver-content
 description: The ZwQueryKey routine provides information about the class of a registry key, and the number and sizes of its subkeys.
 old-location: kernel\zwquerykey.htm
 tech.root: kernel

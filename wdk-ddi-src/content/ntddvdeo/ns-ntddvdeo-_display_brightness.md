@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddvdeo._DISPLAY_BRIGHTNESS
 title: "_DISPLAY_BRIGHTNESS"
-author: windows-driver-content
 description: The DISPLAY_BRIGHTNESS structure is reserved for system use.
 old-location: display\display_brightness.htm
 tech.root: display

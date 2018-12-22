@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoQueueThreadIrp
 title: IoQueueThreadIrp function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\ioqueuethreadirp.htm
 tech.root: ifsk

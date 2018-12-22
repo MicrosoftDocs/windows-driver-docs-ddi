@@ -1,7 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_READ_USER_MINIDUMP_STREAM
 title: "_DEBUG_READ_USER_MINIDUMP_STREAM"
-author: windows-driver-content
 description: Describes a user minidump to read.
 old-location: debugger\debug_read_user_minidump_stream.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequestCompletionParams.GetReadParameters
 title: IWDFIoRequestCompletionParams::GetReadParameters
-author: windows-driver-content
 description: The GetReadParameters method retrieves parameters that are associated with the completion of a read request.
 old-location: wdf\iwdfiorequestcompletionparams_getreadparameters.htm
 tech.root: wdf

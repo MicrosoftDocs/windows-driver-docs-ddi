@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFObject.AcquireLock
 title: IWDFObject::AcquireLock
-author: windows-driver-content
 description: The AcquireLock method prevents the framework from calling methods of interfaces that a driver registered.
 old-location: wdf\iwdfobject_acquirelock.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlUnicodeStringCbCopyStringN
 title: RtlUnicodeStringCbCopyStringN function
-author: windows-driver-content
 description: The RtlUnicodeStringCbCopyStringN function copies a string into a UNICODE_STRING structure while limiting the size of the copied string.
 old-location: kernel\rtlunicodestringcbcopystringn.htm
 tech.root: kernel

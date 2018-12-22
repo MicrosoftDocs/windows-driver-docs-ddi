@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsAcquireClassifyHandle0
 title: FwpsAcquireClassifyHandle0 function
-author: windows-driver-content
 description: The FwpsAcquireClassifyHandle0 function generates a classification handle that is used to identify asynchronous classification operations and requests for writable layer data.Note  FwpsAcquireClassifyHandle0 is a specific version of FwpsAcquireClassifyHandle. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwpsacquireclassifyhandle0.htm
 tech.root: netvista

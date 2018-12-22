@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortCreateSecondaryDisplay
 title: VideoPortCreateSecondaryDisplay function
-author: windows-driver-content
 description: The VideoPortCreateSecondaryDisplay function enables dual-view support by creating a secondary device object for the given device.
 old-location: display\videoportcreatesecondarydisplay.htm
 tech.root: display

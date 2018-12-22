@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.PcGetContentRights
 title: PcGetContentRights function
-author: windows-driver-content
 description: The PcGetContentRights function retrieves the DRM content rights assigned to a DRM content ID. Note that this function call is identical in operation to the DrmGetContentRights function, and its parameter definitions and return value are also identical.
 old-location: audio\pcgetcontentrights.htm
 tech.root: audio

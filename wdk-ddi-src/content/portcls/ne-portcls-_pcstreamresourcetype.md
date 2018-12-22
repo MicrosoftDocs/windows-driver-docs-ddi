@@ -1,7 +1,6 @@
 ---
 UID: NE:portcls._PcStreamResourceType
 title: "_PcStreamResourceType"
-author: windows-driver-content
 description: This topic discusses the PcStreamResourceType enum, and describes its members. The PcStreamResourceType enum is used to define the type of resources used for specific audio streaming.
 old-location: audio\pcstreamresourcetype.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM1_3DDI_COPYTILEMAPPINGS
 title: PFND3DWDDM1_3DDI_COPYTILEMAPPINGS
-author: windows-driver-content
 description: Copies mappings from a source tiled resource to a destination tiled resource.
 old-location: display\copytilemappings.htm
 ms.assetid: CB2CE5E7-DDD4-4782-BB91-67A2C562A975

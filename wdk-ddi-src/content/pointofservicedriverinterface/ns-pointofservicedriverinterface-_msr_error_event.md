@@ -1,7 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._MSR_ERROR_EVENT
 title: "_MSR_ERROR_EVENT"
-author: windows-driver-content
 description: This structure contains the error data that is passed to the MagneticStripeReaderErrorOccured event.
 old-location: pos\msr_error_event.htm
 tech.root: pos

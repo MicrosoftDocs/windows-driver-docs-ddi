@@ -1,7 +1,6 @@
 ---
 UID: NS:dxva._DXVA_BlendCombination
 title: "_DXVA_BlendCombination"
-author: windows-driver-content
 description: The DXVA_BlendCombination structure is sent by the host decoder to the accelerator to specify how a blended picture is created from a source picture and a graphic image with accompanying alpha-blending information.
 old-location: display\dxva_blendcombination.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:drmk.DrmAddContentHandlers
 title: DrmAddContentHandlers function
-author: windows-driver-content
 description: The DrmAddContentHandlers function provides the system with a list of functions that handle protected content.
 old-location: audio\drmaddcontenthandlers.htm
 tech.root: audio

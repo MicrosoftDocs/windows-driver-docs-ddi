@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_FILTER_PAUSE_PARAMETERS
 title: "_NDIS_FILTER_PAUSE_PARAMETERS"
-author: windows-driver-content
 description: The NDIS_FILTER_PAUSE_PARAMETERS structure defines the pause parameters for the filter module.
 old-location: netvista\ndis_filter_pause_parameters.htm
 tech.root: netvista

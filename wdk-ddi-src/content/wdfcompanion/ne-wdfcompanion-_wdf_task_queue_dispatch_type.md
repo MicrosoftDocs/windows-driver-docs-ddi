@@ -1,7 +1,6 @@
 ---
 UID: NE:wdfcompanion._WDF_TASK_QUEUE_DISPATCH_TYPE
 title: "_WDF_TASK_QUEUE_DISPATCH_TYPE"
-author: windows-driver-content
 description: For internal use only.
 old-location: wdf\wdf_task_queue_dispatch_type.htm
 tech.root: wdf

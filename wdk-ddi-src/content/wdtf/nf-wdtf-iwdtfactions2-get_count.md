@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFActions2.get_Count
 title: IWDTFActions2::get_Count
-author: windows-driver-content
 description: Gets the number of actions in this collection.
 old-location: dtf\iwdtfactions2_count.htm
 tech.root: dtf

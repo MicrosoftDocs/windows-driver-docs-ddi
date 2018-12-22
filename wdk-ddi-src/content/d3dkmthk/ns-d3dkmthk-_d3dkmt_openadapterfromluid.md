@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OPENADAPTERFROMLUID
 title: "_D3DKMT_OPENADAPTERFROMLUID"
-author: windows-driver-content
 description: Describes the mapping of the given locally unique identifier (LUID) of a device to a graphics adapter handle.
 old-location: display\d3dkmt_openadapterfromluid.htm
 ms.assetid: 93f5c1d1-e1df-4536-8b52-db3b4942488c

@@ -1,7 +1,6 @@
 ---
 UID: NS:hbaapi.HBA_fc4types
 title: HBA_fc4types
-author: windows-driver-content
 description: The HBA_fc4types structure contains a set of up to 32 values indicating the FC-4 types that the HBA supports.
 old-location: storage\hba_fc4types.htm
 tech.root: storage

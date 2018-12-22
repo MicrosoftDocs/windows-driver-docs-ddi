@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgInit
 title: wiauDbgInit macro
-author: windows-driver-content
 description: The wiauDbgInit function initializes WIA debugging.
 old-location: image\wiaudbginit.htm
 tech.root: image

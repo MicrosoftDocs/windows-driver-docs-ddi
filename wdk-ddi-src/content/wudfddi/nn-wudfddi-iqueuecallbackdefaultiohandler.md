@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IQueueCallbackDefaultIoHandler
 title: IQueueCallbackDefaultIoHandler
-author: windows-driver-content
 description: The IQueueCallbackDefaultIoHandler interface contains a method that handles I/O requests that no other method is registered to handle.
 old-location: wdf\iqueuecallbackdefaultiohandler.htm
 tech.root: wdf

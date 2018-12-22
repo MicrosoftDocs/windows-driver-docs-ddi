@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorscx.SensorsCxDeviceInitConfig
 title: SensorsCxDeviceInitConfig function
-author: windows-driver-content
 description: This function configures the sensor device.
 old-location: sensors\sensorscxdeviceinitconfig.htm
 tech.root: sensors

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_TEX1D_UNORDERED_ACCESS_VIEW
 title: D3D12DDIARG_TEX1D_UNORDERED_ACCESS_VIEW
-author: windows-driver-content
 description: Describes a one-dimensional (1-D) texture that is used to create an unordered access view.
 ms.assetid: d994273e-fc8d-4a07-aff0-393aa72f7f94
 ms.date: 10/19/2018

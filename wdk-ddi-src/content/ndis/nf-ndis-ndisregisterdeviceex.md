@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisRegisterDeviceEx
 title: NdisRegisterDeviceEx function
-author: windows-driver-content
 description: The NdisRegisterDeviceEx function creates a device object that is based upon the specified attributes.
 old-location: netvista\ndisregisterdeviceex.htm
 tech.root: netvista

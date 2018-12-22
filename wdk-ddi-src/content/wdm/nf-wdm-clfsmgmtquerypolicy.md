@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsMgmtQueryPolicy
 title: ClfsMgmtQueryPolicy function
-author: windows-driver-content
 description: The ClfsMgmtQueryPolicy routine retrieves a specific CLFS_MGMT_POLICY structure for a log.
 old-location: kernel\clfsmgmtquerypolicy.htm
 tech.root: kernel

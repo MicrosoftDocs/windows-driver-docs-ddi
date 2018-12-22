@@ -1,7 +1,6 @@
 ---
 UID: NF:minitape.TapeClassPhysicalBlockToLogicalBlock
 title: TapeClassPhysicalBlockToLogicalBlock function
-author: windows-driver-content
 description: The TapeClassPhysicalBlockToLogicalBlock routine translates a physical block address to a pseudological block address. This routine is for SCSI-1 devices.
 old-location: storage\tapeclassphysicalblocktologicalblock.htm
 tech.root: storage

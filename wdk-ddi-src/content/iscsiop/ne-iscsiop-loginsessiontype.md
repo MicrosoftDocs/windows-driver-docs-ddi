@@ -1,7 +1,6 @@
 ---
 UID: NE:iscsiop.__unnamed_enum_0
 title: LOGINSESSIONTYPE
-author: windows-driver-content
 description: The LOGINSESSIONTYPE enumeration indicates the type of logon session.
 old-location: storage\loginsessiontype.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NS:ucxroothub._ROOTHUB_20PORT_INFO
 title: "_ROOTHUB_20PORT_INFO"
-author: windows-driver-content
 description: Provides information about a USB 2.0 root hub port. This structure is passed by UCX in the EVT_UCX_ROOTHUB_GET_20PORT_INFO callback function.
 old-location: buses\_roothub_20port_info.htm
 tech.root: usbref

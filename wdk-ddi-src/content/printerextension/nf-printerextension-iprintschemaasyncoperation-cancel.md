@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaAsyncOperation.Cancel
 title: IPrintSchemaAsyncOperation::Cancel
-author: windows-driver-content
 description: Cancels the asynchronous PrintSchema operation.
 old-location: print\iprintschemaasyncoperation_cancel.htm
 tech.root: print

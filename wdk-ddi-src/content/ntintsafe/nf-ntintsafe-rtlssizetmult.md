@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlSSIZETMult
 title: RtlSSIZETMult function
-author: windows-driver-content
 description: Multiplies one value of type SSIZE_T by another.
 old-location: kernel\rtlssizetmult.htm
 tech.root: kernel

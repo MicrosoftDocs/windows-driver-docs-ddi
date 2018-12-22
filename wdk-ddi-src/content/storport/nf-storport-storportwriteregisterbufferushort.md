@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortWriteRegisterBufferUshort
 title: StorPortWriteRegisterBufferUshort macro
-author: windows-driver-content
 description: The StorPortWriteRegisterBufferUshort routine transfers a given number of USHORT values from a buffer to the HBA.
 old-location: storage\storportwriteregisterbufferushort.htm
 tech.root: storage

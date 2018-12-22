@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_DATAFORMAT_IMAGEINFO
 title: tagKS_DATAFORMAT_IMAGEINFO
-author: windows-driver-content
 description: Specifies an image data format that is used for an independent image pin (or stream).
 old-location: stream\ks_dataformat_imageinfo.htm
 tech.root: stream

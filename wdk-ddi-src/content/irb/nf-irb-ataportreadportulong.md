@@ -1,7 +1,6 @@
 ---
 UID: NF:irb.AtaPortReadPortUlong
 title: AtaPortReadPortUlong function
-author: windows-driver-content
 description: The AtaPortReadPortUlong routine reads a ULONG value from the HBA.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportreadportulong.htm
 tech.root: storage

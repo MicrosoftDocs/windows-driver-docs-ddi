@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetCodeLevel
 title: IDebugControl::GetCodeLevel
-author: windows-driver-content
 description: The GetCodeLevel method returns the current code level and is mainly used when stepping through code.
 old-location: debugger\getcodelevel.htm
 tech.root: debugger

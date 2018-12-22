@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._FILE_DISPOSITION_INFORMATION
 title: "_FILE_DISPOSITION_INFORMATION"
-author: windows-driver-content
 description: The FILE_DISPOSITION_INFORMATION structure is used as an argument to the ZwSetInformationFile routine.
 old-location: kernel\file_disposition_information.htm
 tech.root: kernel

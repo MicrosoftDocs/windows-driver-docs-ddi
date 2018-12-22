@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlCreateRegistryKey
 title: RtlCreateRegistryKey function
-author: windows-driver-content
 description: The RtlCreateRegistryKey routine adds a key object in the registry along a given relative path.
 old-location: kernel\rtlcreateregistrykey.htm
 tech.root: kernel

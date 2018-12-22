@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IDrmPort.DestroyContent
 title: IDrmPort::DestroyContent
-author: windows-driver-content
 description: The DestroyContent method deletes a DRM content ID that was created by IDrmPort::CreateContentMixed.
 tech.root: audio
 ms.assetid: f37f5dda-6223-41e5-bdfd-5ac8a66d0525

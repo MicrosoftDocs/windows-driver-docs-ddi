@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ADAPTERADDRESS
 title: "_D3DKMT_ADAPTERADDRESS"
-author: windows-driver-content
 description: The D3DKMT_ADAPTERADDRESS structure describes the physical location of the graphics adapter.
 old-location: display\d3dkmt_adapteraddress.htm
 ms.assetid: 70f45ca2-4be6-4e74-b2e8-55ef7a43192f

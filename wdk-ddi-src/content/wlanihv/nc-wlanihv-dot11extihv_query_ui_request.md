@@ -1,7 +1,6 @@
 ---
 UID: NC:wlanihv.DOT11EXTIHV_QUERY_UI_REQUEST
 title: DOT11EXTIHV_QUERY_UI_REQUEST
-author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extihvqueryuirequest.htm
 tech.root: netvista

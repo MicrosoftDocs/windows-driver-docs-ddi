@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsCompleteOperation0
 title: FwpsCompleteOperation0 function
-author: windows-driver-content
 description: The FwpsCompleteOperation0 function is called by a callout to resume packet processing that was suspended pending completion of another operation.Note  FwpsCompleteOperation0 is a specific version of FwpsCompleteOperation.
 old-location: netvista\fwpscompleteoperation0.htm
 tech.root: netvista

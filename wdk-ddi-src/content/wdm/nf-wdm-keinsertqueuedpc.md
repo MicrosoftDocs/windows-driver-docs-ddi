@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeInsertQueueDpc
 title: KeInsertQueueDpc function
-author: windows-driver-content
 description: The KeInsertQueueDpc routine queues a DPC for execution.
 old-location: kernel\keinsertqueuedpc.htm
 tech.root: kernel

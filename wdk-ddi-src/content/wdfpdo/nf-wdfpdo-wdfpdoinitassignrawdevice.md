@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoInitAssignRawDevice
 title: WdfPdoInitAssignRawDevice function
-author: windows-driver-content
 description: The WdfPdoInitAssignRawDevice method indicates that the calling driver can support a specified device in raw mode.
 old-location: wdf\wdfpdoinitassignrawdevice.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_NIC_SWITCH_VPORT_STATE
 title: "_NDIS_NIC_SWITCH_VPORT_STATE"
-author: windows-driver-content
 description: The NDIS_NIC_SWITCH_VPORT_STATE enumeration specifies the state of a single root I/O virtualization (SR-IOV) virtual port (VPort) on the NIC switch of a network adapter.
 old-location: netvista\ndis_nic_switch_vport_state.htm
 tech.root: netvista

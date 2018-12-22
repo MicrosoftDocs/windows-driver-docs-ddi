@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoDecrementKeepAliveCount
 title: IoDecrementKeepAliveCount function
-author: windows-driver-content
 description: The IoDecrementKeepAliveCount routine decrements a reference count associated with an Windows app on a specific device.
 old-location: kernel\iodecrementkeepalivecount.htm
 tech.root: kernel

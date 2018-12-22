@@ -1,7 +1,6 @@
 ---
 UID: NF:hidpi.HidP_GetUsageValueArray
 title: HidP_GetUsageValueArray function
-author: windows-driver-content
 description: The HidP_GetUsageValueArray routine extracts the data associated with a HID control usage value array from a HID report.
 old-location: hid\hidp_getusagevaluearray.htm
 tech.root: hid

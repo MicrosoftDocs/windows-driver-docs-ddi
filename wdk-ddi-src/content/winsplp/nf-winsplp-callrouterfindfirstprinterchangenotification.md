@@ -1,7 +1,6 @@
 ---
 UID: NF:winsplp.CallRouterFindFirstPrinterChangeNotification
 title: CallRouterFindFirstPrinterChangeNotification function
-author: windows-driver-content
 description: 
 old-location: print\callrouterfindfirstprinterchangenotification.htm
 tech.root: print

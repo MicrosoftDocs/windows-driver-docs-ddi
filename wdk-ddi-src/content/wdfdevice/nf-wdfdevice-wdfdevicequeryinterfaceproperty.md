@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceQueryInterfaceProperty
 title: WdfDeviceQueryInterfaceProperty function
-author: windows-driver-content
 description: The WdfDeviceQueryInterfaceProperty method retrieves a specified device interface property.
 old-location: wdf\wdfdevicequeryinterfaceproperty.htm
 tech.root: wdf

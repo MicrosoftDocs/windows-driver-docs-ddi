@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WDF_USB_CONTROL_SETUP_PACKET_INIT
 title: WDF_USB_CONTROL_SETUP_PACKET_INIT function
-author: windows-driver-content
 description: The WDF_USB_CONTROL_SETUP_PACKET_INIT function initializes a WDF_USB_CONTROL_SETUP_PACKET structure for a standard USB control transfer.
 old-location: wdf\wdf_usb_control_setup_packet_init.htm
 tech.root: wdf

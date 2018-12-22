@@ -1,7 +1,6 @@
 ---
 UID: NC:dbgeng.PDEBUG_EXTENSION_INITIALIZE
 title: PDEBUG_EXTENSION_INITIALIZE
-author: windows-driver-content
 description: The DebugExtensionInitialize callback function is called by the engine after loading a DbgEng extension DLL.C++ CALLBACK* PDEBUG_EXTENSION_INITIALIZE DebugExtensionInitialize;
 old-location: debugger\debugextensioninitialize.htm
 tech.root: debugger

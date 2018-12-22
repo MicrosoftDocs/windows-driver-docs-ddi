@@ -1,7 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_GET_DEVICE_SPECIFIC_DATA
 title: "_ACPI_GET_DEVICE_SPECIFIC_DATA"
-author: windows-driver-content
 description: The ACPI_GET_DEVICE_SPECIFIC_DATA structure contains input arguments for the IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA control method.
 old-location: acpi\acpi_get_device_specific_data.htm
 tech.root: acpi

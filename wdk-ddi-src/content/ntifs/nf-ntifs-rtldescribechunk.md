@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlDescribeChunk
 title: RtlDescribeChunk function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\rtldescribechunk.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_SEND_PHY_CONFIGURATION_PACKET
 title: "_IRB_REQ_SEND_PHY_CONFIGURATION_PACKET"
-author: windows-driver-content
 description: This structure contains the fields necessary to carry out a SendPhyConfigurationPacket request.
 old-location: ieee\irb_req_send_phy_configuration_packet.htm
 tech.root: IEEE

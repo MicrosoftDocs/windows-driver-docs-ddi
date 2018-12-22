@@ -1,7 +1,6 @@
 ---
 UID: NC:printoem.PFN_DrvGetDriverSetting
 title: PFN_DrvGetDriverSetting
-author: windows-driver-content
 description: The DrvGetDriverSetting function is obsolete.
 old-location: print\drvgetdriversetting.htm
 tech.root: print

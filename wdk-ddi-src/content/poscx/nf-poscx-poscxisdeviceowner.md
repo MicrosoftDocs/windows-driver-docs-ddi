@@ -1,7 +1,6 @@
 ---
 UID: NF:poscx.PosCxIsDeviceOwner
 title: PosCxIsDeviceOwner function
-author: windows-driver-content
 description: PosCxIsDeviceOwner checks if the caller currently owns the claim on the device.
 old-location: pos\poscxisdeviceowner.htm
 tech.root: pos

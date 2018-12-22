@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_DECODE_CONFIGURATION_FLAGS_0020
 title: D3D12DDI_VIDEO_DECODE_CONFIGURATION_FLAGS_0020
-author: windows-driver-content
 description: Contains video decode configuration flags.
 old-location: display\d3d12ddi_video_decode_configuration_flags.htm
 ms.assetid: 33BD5E1F-75F3-44DC-AE83-A22992CAB6B5

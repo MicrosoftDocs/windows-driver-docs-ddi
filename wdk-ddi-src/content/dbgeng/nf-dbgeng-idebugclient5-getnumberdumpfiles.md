@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetNumberDumpFiles
 title: IDebugClient5::GetNumberDumpFiles
-author: windows-driver-content
 description: The GetNumberDumpFiles method returns the number of files containing supporting information that were used when opening the current dump target.
 old-location: debugger\getnumberdumpfiles.htm
 tech.root: debugger

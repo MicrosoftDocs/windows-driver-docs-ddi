@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltAddOpenReparseEntry
 title: FltAddOpenReparseEntry function
-author: windows-driver-content
 description: This routine adds a caller allocated open reparse structure, OPEN_REPARSE_LIST_ENTRY, into a create operation.
 old-location: ifsk\fltaddopenreparseentry.htm
 tech.root: ifsk

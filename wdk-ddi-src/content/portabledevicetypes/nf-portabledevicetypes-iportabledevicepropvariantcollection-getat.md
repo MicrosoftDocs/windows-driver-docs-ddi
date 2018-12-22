@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDevicePropVariantCollection.GetAt
 title: IPortableDevicePropVariantCollection::GetAt
-author: windows-driver-content
 description: Retrieves an item from the collection by a zero-based index.
 old-location: wpddk\iportabledevicepropvariantcollection_getat.htm
 tech.root: wpd_dk

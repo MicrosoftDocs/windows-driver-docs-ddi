@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NDK_CAPABILITIES
 title: "_NDIS_NDK_CAPABILITIES"
-author: windows-driver-content
 description: The NDIS_NDK_CAPABILITIES structure specifies the capabilities of an NDK adapter.
 old-location: netvista\ndis_ndk_capabilities.htm
 tech.root: netvista

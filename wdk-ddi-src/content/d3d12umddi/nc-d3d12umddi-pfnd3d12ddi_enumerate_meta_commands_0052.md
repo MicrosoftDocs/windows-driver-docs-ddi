@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_ENUMERATE_META_COMMANDS_0052
 title: PFND3D12DDI_ENUMERATE_META_COMMANDS_0052
-author: windows-driver-content
 description: The PFND3D12DDI_ENUMERATE_META_COMMANDS_0052 callback function enumerates meta-commands.
 ms.assetid: fdf5f76e-4486-4058-beaf-1ebefe65246a
 ms.date: 10/19/2018

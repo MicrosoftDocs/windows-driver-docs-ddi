@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeLeaveCriticalRegion
 title: KeLeaveCriticalRegion function
-author: windows-driver-content
 description: The KeLeaveCriticalRegion routine reenables the delivery of normal kernel-mode APCs that were disabled by a preceding call to KeEnterCriticalRegion.
 old-location: kernel\keleavecriticalregion.htm
 tech.root: kernel

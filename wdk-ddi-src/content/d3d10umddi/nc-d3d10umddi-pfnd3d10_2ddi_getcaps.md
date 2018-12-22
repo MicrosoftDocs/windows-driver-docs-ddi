@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10_2DDI_GETCAPS
 title: PFND3D10_2DDI_GETCAPS
-author: windows-driver-content
 description: The GetCaps(D3D10_2) function queries for capabilities of the graphics adapter.
 old-location: display\getcaps_d3d10_2_.htm
 ms.assetid: 83cd5f34-5f12-4ead-ad33-366fc3c6e804

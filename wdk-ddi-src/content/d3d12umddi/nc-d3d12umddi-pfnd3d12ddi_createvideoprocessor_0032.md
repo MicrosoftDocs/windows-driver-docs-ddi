@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEVIDEOPROCESSOR_0032
 title: PFND3D12DDI_CREATEVIDEOPROCESSOR_0032
-author: windows-driver-content
 description: Used to create a video processor.
 old-location: display\pfnd3d12ddi_createvideoprocessor_0032_.htm
 ms.assetid: 64E9EDF7-0B98-4D8A-BB2B-D336622558D0

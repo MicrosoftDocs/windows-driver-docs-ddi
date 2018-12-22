@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfcompanion.WdfDeviceInitSetCompanionEventCallbacks
 title: WdfDeviceInitSetCompanionEventCallbacks function
-author: windows-driver-content
 description: For internal use only.
 old-location: wdf\wdfdeviceinitsetcompanioneventcallbacks.htm
 tech.root: wdf

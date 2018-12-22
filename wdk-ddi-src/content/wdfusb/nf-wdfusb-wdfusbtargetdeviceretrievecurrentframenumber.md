@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceRetrieveCurrentFrameNumber
 title: WdfUsbTargetDeviceRetrieveCurrentFrameNumber function
-author: windows-driver-content
 description: The WdfUsbTargetDeviceRetrieveCurrentFrameNumber method retrieves the current USB frame number.
 old-location: wdf\wdfusbtargetdeviceretrievecurrentframenumber.htm
 tech.root: wdf

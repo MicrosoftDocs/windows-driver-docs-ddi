@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisZeroMappedMemory
 title: NdisZeroMappedMemory macro
-author: windows-driver-content
 description: NdisZeroMappedMemory fills a block of memory that was mapped with a preceding call to NdisMMapIoSpace with zeros.
 old-location: netvista\ndiszeromappedmemory.htm
 tech.root: netvista

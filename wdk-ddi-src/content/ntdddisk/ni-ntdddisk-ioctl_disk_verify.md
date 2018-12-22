@@ -1,7 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_VERIFY
 title: IOCTL_DISK_VERIFY
-author: windows-driver-content
 description: Performs verification for a specified extent on a disk.
 old-location: storage\ioctl_disk_verify.htm
 tech.root: storage

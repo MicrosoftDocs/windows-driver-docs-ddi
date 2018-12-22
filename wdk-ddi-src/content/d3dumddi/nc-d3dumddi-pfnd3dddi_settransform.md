@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETTRANSFORM
 title: PFND3DDDI_SETTRANSFORM
-author: windows-driver-content
 description: The SetTransform function sets up a transform.
 old-location: display\settransform.htm
 tech.root: display

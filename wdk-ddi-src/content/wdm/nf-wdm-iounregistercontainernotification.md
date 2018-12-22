@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoUnregisterContainerNotification
 title: IoUnregisterContainerNotification function
-author: windows-driver-content
 description: The IoUnregisterContainerNotification routine cancels a container notification registration that was previously created by the IoRegisterContainerNotification routine.
 old-location: kernel\iounregistercontainernotification.htm
 tech.root: kernel

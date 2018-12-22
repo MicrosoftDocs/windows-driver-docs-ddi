@@ -1,7 +1,6 @@
 ---
 UID: NF:sdplib.SdpFreeTree
 title: SdpFreeTree function
-author: windows-driver-content
 description: The Bluetooth SdpFreeTree function is used to free the memory allocated for the tree-based representation of an SDP record.
 old-location: bltooth\sdpfreetree.htm
 tech.root: bltooth

@@ -1,7 +1,6 @@
 ---
 UID: NC:ntddk.SILO_MONITOR_TERMINATE_CALLBACK
 title: SILO_MONITOR_TERMINATE_CALLBACK
-author: windows-driver-content
 description: This callback is invoked when a silo is terminated.
 old-location: kernel\silo_monitor_terminate_callback.htm
 tech.root: kernel

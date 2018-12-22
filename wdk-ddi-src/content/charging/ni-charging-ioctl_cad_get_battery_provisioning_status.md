@@ -1,7 +1,6 @@
 ---
 UID: NI:charging.IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS
 title: IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS
-author: windows-driver-content
 description: This IOCTL is for internal use only.
 old-location: battery\ioctl_cad_get_battery_provisioning_status.htm
 tech.root: battery

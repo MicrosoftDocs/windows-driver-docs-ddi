@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING
 title: tagKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING
-author: windows-driver-content
 description: The KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING is a property payload structure for video processing settings related to white balance, exposure mode, and focus mode.
 old-location: stream\kscamera_extendedprop_videoprocsetting.htm
 tech.root: stream

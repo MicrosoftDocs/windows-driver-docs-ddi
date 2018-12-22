@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ObDereferenceObjectDeferDelete
 title: ObDereferenceObjectDeferDelete function
-author: windows-driver-content
 description: The ObDereferenceObjectDeferDelete routine decrements the reference count for the given object, checks for object retention, and avoids deadlocks.
 old-location: kernel\obdereferenceobjectdeferdelete.htm
 tech.root: kernel

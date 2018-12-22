@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddscsi._SCSI_BUS_DATA
 title: "_SCSI_BUS_DATA"
-author: windows-driver-content
 description: The SCSI_BUS_DATA structure is used in conjunction with the IOCTL_SCSI_GET_INQUIRY_DATA request and the SCSI_ADAPTER_BUS_INFO structure to retrieve the SCSI inquiry data for all devices on a given SCSI bus.
 old-location: storage\scsi_bus_data.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_RENDERSTATE
 title: "_D3DDDIARG_RENDERSTATE"
-author: windows-driver-content
 description: The D3DDDIARG_RENDERSTATE structure describes how to update a specific render state.
 old-location: display\d3dddiarg_renderstate.htm
 tech.root: display

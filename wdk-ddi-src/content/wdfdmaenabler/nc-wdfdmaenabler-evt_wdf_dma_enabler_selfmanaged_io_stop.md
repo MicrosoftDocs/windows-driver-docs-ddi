@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfdmaenabler.EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_STOP
 title: EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_STOP
-author: windows-driver-content
 description: A driver's EvtDmaEnablerSelfManagedIoStop event callback function stops a DMA device's self-managed I/O operations.
 old-location: wdf\evtdmaenablerselfmanagediostop.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdriver.WdfDriverWdmGetDriverObject
 title: WdfDriverWdmGetDriverObject function
-author: windows-driver-content
 description: The WdfDriverWdmGetDriverObject method retrieves a pointer to the Windows Driver Model (WDM) driver object that is associated with a specified framework driver object.
 old-location: wdf\wdfdriverwdmgetdriverobject.htm
 tech.root: wdf

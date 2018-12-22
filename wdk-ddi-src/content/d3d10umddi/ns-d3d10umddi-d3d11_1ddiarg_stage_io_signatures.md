@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDIARG_STAGE_IO_SIGNATURES
 title: D3D11_1DDIARG_STAGE_IO_SIGNATURES
-author: windows-driver-content
 description: Describes an I/O signature.
 old-location: display\d3d11_1ddiarg_stage_io_signatures.htm
 ms.assetid: c7da4303-2ba4-4ac3-ad24-4ff25bb5466d

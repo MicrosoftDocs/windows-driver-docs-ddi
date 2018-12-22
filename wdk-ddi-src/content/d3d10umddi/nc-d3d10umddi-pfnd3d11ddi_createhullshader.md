@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_CREATEHULLSHADER
 title: PFND3D11DDI_CREATEHULLSHADER
-author: windows-driver-content
 description: The CreateHullShader function creates a hull shader.
 old-location: display\createhullshader.htm
 ms.assetid: 7fe647cf-37b0-427e-9e16-664bdd365ea6

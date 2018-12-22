@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsPinDataIntersectionEx
 title: KsPinDataIntersectionEx function
-author: windows-driver-content
 description: The KsPinDataIntersectionEx function handles the KSPROPERTY_PIN_DATAINTERSECTION through a callback function.
 old-location: stream\kspindataintersectionex.htm
 tech.root: stream

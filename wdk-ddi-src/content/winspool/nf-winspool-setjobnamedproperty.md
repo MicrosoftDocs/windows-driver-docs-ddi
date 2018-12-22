@@ -1,7 +1,6 @@
 ---
 UID: NF:winspool.SetJobNamedProperty
 title: SetJobNamedProperty function
-author: windows-driver-content
 description: Describes the SetJobNamedProperty function.
 old-location: print\setjobnamedproperty.htm
 tech.root: print

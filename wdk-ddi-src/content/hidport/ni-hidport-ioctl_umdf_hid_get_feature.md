@@ -1,7 +1,6 @@
 ---
 UID: NI:hidport.IOCTL_UMDF_HID_GET_FEATURE
 title: IOCTL_UMDF_HID_GET_FEATURE
-author: windows-driver-content
 description: The IOCTL_UMDF_HID_GET_FEATURE control code obtains a feature report from a HIDClass device.
 old-location: hid\ioctl_umdf_hid_get_feature.htm
 tech.root: hid

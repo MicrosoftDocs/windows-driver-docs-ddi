@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILUICCRECORDTYPE
 title: RILUICCRECORDTYPE
-author: windows-driver-content
 description: This enumeration describes the RILUICCRECORDTYPE.
 old-location: netvista\riluiccrecordtype.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IMiniportWaveCyclic
 title: IMiniportWaveCyclic
-author: windows-driver-content
 description: The IMiniportWaveCyclic interface is the primary interface that is exposed by the miniport driver for a WaveCyclic audio device.
 old-location: audio\iminiportwavecyclic.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_DATARANGE_IMAGE
 title: tagKS_DATARANGE_IMAGE
-author: windows-driver-content
 description: Specifies an image data range that is used in the KSPIN_DESCRIPTOR structure that describes a pin (or stream).
 old-location: stream\ks_datarange_image.htm
 tech.root: stream

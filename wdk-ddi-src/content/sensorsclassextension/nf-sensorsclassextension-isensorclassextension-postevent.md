@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorsclassextension.ISensorClassExtension.PostEvent
 title: ISensorClassExtension::PostEvent
-author: windows-driver-content
 description: The ISensorClassExtension::PostEvent method raises one or more driver events in the sensor class extension.
 old-location: sensors\isensorclassextension_postevent.htm
 tech.root: sensors

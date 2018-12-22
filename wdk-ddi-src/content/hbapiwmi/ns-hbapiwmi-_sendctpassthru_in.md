@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SendCTPassThru_IN
 title: "_SendCTPassThru_IN"
-author: windows-driver-content
 description: The SendCTPassThru_IN structure is used to deliver input parameter data to the SendCTPassThru WMI method.
 old-location: storage\sendctpassthru_in.htm
 tech.root: storage

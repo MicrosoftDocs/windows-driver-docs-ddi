@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltDeviceIoControlFile
 title: FltDeviceIoControlFile function
-author: windows-driver-content
 description: FltDeviceIoControlFile sends a control code directly to a specified device driver, causing the corresponding driver to perform the specified action.
 old-location: ifsk\fltdeviceiocontrolfile.htm
 tech.root: ifsk

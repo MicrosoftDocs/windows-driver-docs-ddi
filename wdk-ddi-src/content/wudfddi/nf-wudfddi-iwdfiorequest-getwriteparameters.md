@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.GetWriteParameters
 title: IWDFIoRequest::GetWriteParameters
-author: windows-driver-content
 description: The GetWriteParameters method retrieves the request parameters for a write-type request.
 old-location: wdf\iwdfiorequest_getwriteparameters.htm
 tech.root: wdf

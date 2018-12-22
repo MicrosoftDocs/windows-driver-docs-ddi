@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAddToTunnelCache
 title: FsRtlAddToTunnelCache function
-author: windows-driver-content
 description: The FsRtlAddToTunnelCache routine caches a file name that is removed from a directory when a file is renamed or deleted.
 old-location: ifsk\fsrtladdtotunnelcache.htm
 tech.root: ifsk

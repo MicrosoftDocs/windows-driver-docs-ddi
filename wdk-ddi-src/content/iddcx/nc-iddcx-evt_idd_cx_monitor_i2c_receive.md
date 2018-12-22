@@ -1,7 +1,6 @@
 ---
 UID: NC:iddcx.EVT_IDD_CX_MONITOR_I2C_RECEIVE
 title: EVT_IDD_CX_MONITOR_I2C_RECEIVE
-author: windows-driver-content
 description: EVT_IDD_CX_MONITOR_I2C_RECEIVE is called by the OS to return data received from an I2C device in a monitor.
 old-location: display\evt_idd_cx_monitor_i2c_receive.htm
 tech.root: display

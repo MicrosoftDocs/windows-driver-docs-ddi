@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SRIOV_VF_SERIAL_NUMBER_INFO
 title: "_NDIS_SRIOV_VF_SERIAL_NUMBER_INFO"
-author: windows-driver-content
 description: The NDIS_SRIOV_VF_SERIAL_NUMBER_INFO structure contains the serial number associated with a PCI Express (PCIe) Virtual Function (VF) network adapter. This adapter is exposed in the guest operating system of a Hyper-V child partition.
 old-location: netvista\ndis_sriov_vf_serial_number_info.htm
 tech.root: netvista

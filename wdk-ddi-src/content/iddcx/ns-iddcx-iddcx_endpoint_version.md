@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_ENDPOINT_VERSION
 title: IDDCX_ENDPOINT_VERSION
-author: windows-driver-content
 description: Gives version information about the video data endpoint.
 old-location: display\iddcx_endpoint_version.htm
 tech.root: display

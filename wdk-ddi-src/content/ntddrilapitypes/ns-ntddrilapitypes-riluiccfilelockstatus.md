@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILUICCFILELOCKSTATUS
 title: RILUICCFILELOCKSTATUS
-author: windows-driver-content
 description: This structure represents RILUICCFILELOCKSTATUS.
 old-location: netvista\riluiccfilelockstatus.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:charging._CHARGINGSTATUSCOMPLETE
 title: "_CHARGINGSTATUSCOMPLETE"
-author: windows-driver-content
 description: This structure is for internal use only.
 old-location: battery\chargingstatuscomplete.htm
 tech.root: battery

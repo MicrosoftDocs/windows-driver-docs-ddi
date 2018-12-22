@@ -1,7 +1,6 @@
 ---
 UID: NC:wdbgexts.PSYM_DUMP_FIELD_CALLBACK
 title: PSYM_DUMP_FIELD_CALLBACK
-author: windows-driver-content
 description: The PSYM_DUMP_FIELD_CALLBACK callback function is called by the debugger engine during the IG_DUMP_SYMBOL_INFO Ioctl operation with information about a member in the specified symbol.
 old-location: debugger\psym_dump_field_callback.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.Set(bool,ULONG64,ULONG,ULONG64)
 title: ExtRemoteTyped::Set(bool,ULONG64,ULONG,ULONG64)
-author: windows-driver-content
 description: The Set method sets the typed data represented by the ExtRemoteTyped object.
 old-location: debugger\extremotetyped_set_bool.htm
 tech.root: debugger

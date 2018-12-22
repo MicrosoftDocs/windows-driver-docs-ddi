@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemPrintTicketProvider.GetSupportedVersions
 title: IPrintOemPrintTicketProvider::GetSupportedVersions
-author: windows-driver-content
 description: The IPrintOemPrintTicketProvider::GetSupportedVersions method retrieves major versions of the print schemas that are supported by the plug-in provider.
 old-location: print\iprintoemprintticketprovider_getsupportedversions.htm
 tech.root: print

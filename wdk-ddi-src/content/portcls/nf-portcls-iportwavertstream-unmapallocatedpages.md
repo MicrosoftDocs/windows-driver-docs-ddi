@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IPortWaveRTStream.UnmapAllocatedPages
 title: IPortWaveRTStream::UnmapAllocatedPages
-author: windows-driver-content
 description: The UnmapAllocatedPages method releases a mapping.
 old-location: audio\iportwavertstream_unmapallocatedpages.htm
 tech.root: audio

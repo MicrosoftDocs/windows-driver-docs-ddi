@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CLOSEADAPTER
 title: PFND3DDDI_CLOSEADAPTER
-author: windows-driver-content
 description: The CloseAdapter function releases resources for a graphics adapter object.
 old-location: display\closeadapter.htm
 tech.root: display

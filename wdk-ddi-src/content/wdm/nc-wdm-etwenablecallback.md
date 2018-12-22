@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.ETWENABLECALLBACK
 title: ETWENABLECALLBACK
-author: windows-driver-content
 description: The EtwEnableCallback function is an optional driver-supplied callback function that is used to receive enable or disable notifications.
 old-location: devtest\etwenablecallback.htm
 tech.root: devtest

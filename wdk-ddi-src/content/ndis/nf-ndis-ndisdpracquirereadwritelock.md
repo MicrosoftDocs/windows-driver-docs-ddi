@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisDprAcquireReadWriteLock
 title: NdisDprAcquireReadWriteLock function
-author: windows-driver-content
 description: The NdisDprAcquireReadWriteLock function acquires a lock that the caller uses for either write or read access to the resources that are shared among driver threads.Note  The read-write lock interface is deprecated for NDIS 6.20 and later drivers, which should use NdisAcquireRWLockRead or NdisAcquireRWLockWrite (setting NDIS_RWL_AT_DISPATCH_LEVEL in the Flags parameter) instead of NdisDprAcquireReadWriteLock.
 old-location: netvista\ndisdpracquirereadwritelock.htm
 tech.root: netvista

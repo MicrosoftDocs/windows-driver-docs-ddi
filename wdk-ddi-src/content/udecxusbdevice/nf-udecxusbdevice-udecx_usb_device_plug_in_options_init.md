@@ -1,7 +1,6 @@
 ---
 UID: NF:udecxusbdevice.UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT
 title: UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT function
-author: windows-driver-content
 description: Initializes a UDECX_USB_DEVICE_PLUG_IN_OPTIONS structure.
 old-location: buses\udecx_usb_device_plug_in_options_init.htm
 tech.root: usbref

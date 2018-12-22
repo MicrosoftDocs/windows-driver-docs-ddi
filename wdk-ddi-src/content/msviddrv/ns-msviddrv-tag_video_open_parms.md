@@ -1,7 +1,6 @@
 ---
 UID: NS:msviddrv.tag_video_open_parms
 title: tag_video_open_parms
-author: windows-driver-content
 description: 
 old-location: stream\video_open_parms.htm
 tech.root: stream

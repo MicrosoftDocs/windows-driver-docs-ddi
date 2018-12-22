@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_DESTROYHWQUEUE
 title: "_D3DDDICB_DESTROYHWQUEUE"
-author: windows-driver-content
 description: A structure that holds information to destroy a hardware queue.
 old-location: display\d3dddicb_destroyhwqueue.htm
 tech.root: display

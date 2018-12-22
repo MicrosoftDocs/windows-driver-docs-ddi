@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_DSM_NOTIFICATION_PARAMETERS
 title: "_DEVICE_DSM_NOTIFICATION_PARAMETERS"
-author: windows-driver-content
 description: The DEVICE_DSM_NOTIFICATION_PARAMETERS structure specifies the parameters for a notification action related to the data-set attributes for a device.
 old-location: storage\device_dsm_notification_parameters.htm
 tech.root: storage

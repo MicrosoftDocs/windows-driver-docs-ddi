@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddstor.DeviceDsmInitializeOutput
 title: DeviceDsmInitializeOutput function
-author: windows-driver-content
 description: The DeviceDsmInitializeOutput function initializes a DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure.
 ms.assetid: e68acc49-63c9-4ea2-9450-fa45dd2b5e06
 ms.date: 04/11/2018

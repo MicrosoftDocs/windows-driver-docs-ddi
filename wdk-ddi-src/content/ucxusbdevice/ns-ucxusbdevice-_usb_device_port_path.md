@@ -1,7 +1,6 @@
 ---
 UID: NS:ucxusbdevice._USB_DEVICE_PORT_PATH
 title: "_USB_DEVICE_PORT_PATH"
-author: windows-driver-content
 description: Contains the port path of a USB device.
 old-location: buses\_usb_device_port_path.htm
 tech.root: usbref

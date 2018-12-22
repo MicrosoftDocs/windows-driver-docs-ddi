@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_138
 title: KSPROPERTY_CROSSBAR_CAPS_S
-author: windows-driver-content
 description: The KSPROPERTY_CROSSBAR_CAPS_S structure describes the crossbar capabilities for a device.
 old-location: stream\ksproperty_crossbar_caps_s.htm
 tech.root: stream

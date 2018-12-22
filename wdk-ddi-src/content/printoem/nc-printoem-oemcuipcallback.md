@@ -1,7 +1,6 @@
 ---
 UID: NC:printoem.OEMCUIPCALLBACK
 title: OEMCUIPCALLBACK
-author: windows-driver-content
 description: The OEMCUIPCALLBACK function type is used for defining callback functions that are specified by a user interface plug-in's IPrintOemUI::CommonUIProp method. The structure is defined in printoem.h.
 old-location: print\oemcuipcallback.htm
 tech.root: print

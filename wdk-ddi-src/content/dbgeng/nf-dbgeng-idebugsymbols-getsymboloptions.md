@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.GetSymbolOptions
 title: IDebugSymbols::GetSymbolOptions
-author: windows-driver-content
 description: The GetSymbolOptions method returns the engine's global symbol options.
 old-location: debugger\getsymboloptions.htm
 tech.root: debugger

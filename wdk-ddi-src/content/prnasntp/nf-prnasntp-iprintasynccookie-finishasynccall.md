@@ -1,7 +1,6 @@
 ---
 UID: NF:prnasntp.IPrintAsyncCookie.FinishAsyncCall
 title: IPrintAsyncCookie::FinishAsyncCall
-author: windows-driver-content
 description: 
 old-location: print\iprintasyncnotify_finishasynccall.htm
 tech.root: print

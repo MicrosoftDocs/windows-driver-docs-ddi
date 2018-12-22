@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.NtQueryVirtualMemory
 title: NtQueryVirtualMemory function
-author: windows-driver-content
 description: The ZwQueryVirtualMemory routine determines the state, protection, and type of a region of pages within the virtual address space of the subject process.
 old-location: kernel\zwqueryvirtualmemory.htm
 tech.root: kernel

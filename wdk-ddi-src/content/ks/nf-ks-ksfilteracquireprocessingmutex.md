@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsFilterAcquireProcessingMutex
 title: KsFilterAcquireProcessingMutex function
-author: windows-driver-content
 description: The KsFilterAcquireProcessingMutex function acquires the processing mutex for a specified AVStream filter.
 old-location: stream\ksfilteracquireprocessingmutex.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_CREATECONTEXTVIRTUAL
 title: "_D3DDDICB_CREATECONTEXTVIRTUAL"
-author: windows-driver-content
 description: D3DDDICB_CREATECONTEXTVIRTUAL is used with pfnCreateContextVirtualCb to create contexts that support virtual addressing.
 old-location: display\d3dddicb_createcontextvirtual.htm
 tech.root: display

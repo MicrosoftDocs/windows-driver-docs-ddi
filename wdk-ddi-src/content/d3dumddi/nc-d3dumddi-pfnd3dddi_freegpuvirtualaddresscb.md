@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_FREEGPUVIRTUALADDRESSCB
 title: PFND3DDDI_FREEGPUVIRTUALADDRESSCB
-author: windows-driver-content
 description: pfnFreeGpuVirtualAddressCb releases a range of graphics processing unit (GPU) virtual addresses that was previously reserved or mapped.
 old-location: display\pfnfreegpuvirtualaddresscb.htm
 tech.root: display

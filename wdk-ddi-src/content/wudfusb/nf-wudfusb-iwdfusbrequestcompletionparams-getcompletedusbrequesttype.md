@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbRequestCompletionParams.GetCompletedUsbRequestType
 title: IWDFUsbRequestCompletionParams::GetCompletedUsbRequestType
-author: windows-driver-content
 description: The GetCompletedUsbRequestType method retrieves the type of operation that the request to be completed contains.
 old-location: wdf\iwdfusbrequestcompletionparams_getcompletedusbrequesttype.htm
 tech.root: wdf

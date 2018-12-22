@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_MEDIA_INFO
 title: "_DEVICE_MEDIA_INFO"
-author: windows-driver-content
 description: A storage class driver returns an array of DEVICE_MEDIA_INFO structures, embedded in a GET_MEDIA_TYPES structure, in response to an IOCTL_STORAGE_GET_MEDIA_TYPES_EX device-control request.
 old-location: storage\device_media_info.htm
 tech.root: storage

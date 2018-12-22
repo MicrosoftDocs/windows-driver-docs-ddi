@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_DVBT2_L1_SIGNALLING_DATA
 title: "_BDA_DVBT2_L1_SIGNALLING_DATA"
-author: windows-driver-content
 description: 
 old-location: stream\bda_dvbt2_l1_signalling_data.htm
 tech.root: stream

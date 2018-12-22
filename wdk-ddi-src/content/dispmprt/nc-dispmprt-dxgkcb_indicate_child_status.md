@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_INDICATE_CHILD_STATUS
 title: DXGKCB_INDICATE_CHILD_STATUS
-author: windows-driver-content
 description: The DxgkCbIndicateChildStatus function records the current status of a specified child device of a display adapter.
 old-location: display\dxgkcbindicatechildstatus.htm
 tech.root: display

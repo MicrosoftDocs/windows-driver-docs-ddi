@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATECONTEXT
 title: "_D3DKMT_CREATECONTEXT"
-author: windows-driver-content
 description: The D3DKMT_CREATECONTEXT structure describes a kernel-mode device context to create.
 old-location: display\d3dkmt_createcontext.htm
 ms.assetid: 867705b9-a721-48a6-b1bc-6a75d5a03a21

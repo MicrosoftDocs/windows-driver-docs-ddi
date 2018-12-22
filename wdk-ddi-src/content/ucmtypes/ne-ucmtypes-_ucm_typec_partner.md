@@ -1,7 +1,6 @@
 ---
 UID: NE:ucmtypes._UCM_TYPEC_PARTNER
 title: "_UCM_TYPEC_PARTNER"
-author: windows-driver-content
 description: Defines the state of the Type-C connector.
 old-location: buses\ucm_type_c_port_state.htm
 tech.root: usbref

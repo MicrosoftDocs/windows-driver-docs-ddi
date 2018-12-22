@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGKMDT_OPM_ENCRYPTED_PARAMETERS
 title: "_DXGKMDT_OPM_ENCRYPTED_PARAMETERS"
-author: windows-driver-content
 description: The DXGKMDT_OPM_ENCRYPTED_PARAMETERS structure contains data that is encrypted with the public key from an appropriate certificate.
 old-location: display\dxgkmdt_opm_encrypted_parameters.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSourceEntryString
 title: IDebugSymbols3::GetSourceEntryString
-author: windows-driver-content
 description: Queries symbol information and returns locations in the target's memory.
 old-location: debugger\idebugsymbols3_getsourceentrystring.htm
 tech.root: debugger

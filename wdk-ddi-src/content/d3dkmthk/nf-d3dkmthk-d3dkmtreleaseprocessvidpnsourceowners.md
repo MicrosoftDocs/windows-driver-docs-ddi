@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTReleaseProcessVidPnSourceOwners
 title: D3DKMTReleaseProcessVidPnSourceOwners function
-author: windows-driver-content
 description: The D3DKMTReleaseProcessVidPnSourceOwners function releases the video present network source owners for a process.
 old-location: display\d3dkmtreleaseprocessvidpnsourceowners.htm
 ms.assetid: 65fa0654-25b5-4ead-ac9e-0eb0f404259a

@@ -1,7 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_CLIENT_CONTEXT
 title: "_DEBUG_CLIENT_CONTEXT"
-author: windows-driver-content
 description: Contains a debug client constant to provide to the IDebugClient7::SetClientContext method.
 old-location: debugger\debug_client_context.htm
 tech.root: debugger

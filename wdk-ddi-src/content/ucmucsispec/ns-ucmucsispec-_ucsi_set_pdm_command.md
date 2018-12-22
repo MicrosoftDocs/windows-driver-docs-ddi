@@ -1,7 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_SET_PDM_COMMAND
 title: _UCSI_SET_PDM_COMMAND
-author: windows-driver-content
 description: Obsolete.
 ms.assetid: 9f813bd2-bfcb-450f-a8bb-77df5b79270a
 tech.root: usbref

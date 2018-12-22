@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortAllocateRegistryBuffer
 title: StorPortAllocateRegistryBuffer function
-author: windows-driver-content
 description: The StorPortAllocateRegistryBuffer routine is called by the miniport driver to allocate a buffer that can be used to read and write registry data.
 old-location: storage\storportallocateregistrybuffer.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NC:sensorscx.EVT_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION
 title: EVT_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION
-author: windows-driver-content
 description: Used to stop a state change notification.
 old-location: sensors\evt_sensor_driver_stop_state_change_notification.htm
 tech.root: sensors

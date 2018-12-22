@@ -1,7 +1,6 @@
 ---
 UID: NE:ntdd8042._KEYBOARD_SCAN_STATE
 title: "_KEYBOARD_SCAN_STATE"
-author: windows-driver-content
 description: The KEYBOARD_SCAN_STATE enumeration type indicates the scan state of an input byte from a keyboard.
 old-location: hid\keyboard_scan_state.htm
 tech.root: hid

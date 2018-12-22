@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SeReleaseSubjectContext
 title: SeReleaseSubjectContext function
-author: windows-driver-content
 description: The SeReleaseSubjectContext routine releases a subject security context captured by an earlier call to SeCaptureSubjectContext.
 old-location: ifsk\sereleasesubjectcontext.htm
 tech.root: ifsk

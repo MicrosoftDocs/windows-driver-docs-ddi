@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestRetrieveInputMemory
 title: WdfRequestRetrieveInputMemory function
-author: windows-driver-content
 description: The WdfRequestRetrieveInputMemory method retrieves a handle to a framework memory object that represents an I/O request's input buffer.
 old-location: wdf\wdfrequestretrieveinputmemory.htm
 tech.root: wdf

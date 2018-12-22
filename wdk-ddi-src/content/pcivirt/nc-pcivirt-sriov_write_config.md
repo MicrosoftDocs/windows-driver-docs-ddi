@@ -1,7 +1,6 @@
 ---
 UID: NC:pcivirt.SRIOV_WRITE_CONFIG
 title: SRIOV_WRITE_CONFIG
-author: windows-driver-content
 description: Writes configuration data to a PCI Express SR-IOV Virtual Function (VF).
 old-location: pci\sriov_write_config.htm
 tech.root: PCI

@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpmk.FwpmBfeStateGet0
 title: FwpmBfeStateGet0 function
-author: windows-driver-content
 description: The FwpmBfeStateGet0 function retrieves the current state of the filter engine.Note  FwpmBfeStateGet0 is a specific version of FwpmBfeStateGet.
 old-location: netvista\fwpmbfestateget0.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IResourceList.AddEntryFromParent
 title: IResourceList::AddEntryFromParent
-author: windows-driver-content
 description: The AddEntryFromParent method adds to a resource list an entry found in the resource list's parent list.
 old-location: audio\iresourcelist_addentryfromparent.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetRunningProcessDescriptionWide
 title: IDebugClient5::GetRunningProcessDescriptionWide
-author: windows-driver-content
 description: The GetRunningProcessDescriptionWide method returns a description of the process that includes the executable image name, the service names, the MTS package names, and the command line.
 old-location: debugger\getrunningprocessdescriptionwide.htm
 tech.root: debugger

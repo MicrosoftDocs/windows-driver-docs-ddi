@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDD_DRIVER_GLOBALS
 title: IDD_DRIVER_GLOBALS
-author: windows-driver-content
 description: Holds per-driver Indirect Display information. Reserved for use by the system.
 old-location: display\idd_driver_globals.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.SetDeviceChannelVolume
 title: IMiniportAudioEngineNode::SetDeviceChannelVolume
-author: windows-driver-content
 description: Sets the volume level for a given channel of the audio device.
 old-location: audio\iminiportaudioenginenode_setdevicechannelvolume.htm
 tech.root: audio

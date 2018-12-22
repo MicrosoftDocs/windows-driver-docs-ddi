@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGKMDT_OPM_HDCP_FLAG
 title: "_DXGKMDT_OPM_HDCP_FLAG"
-author: windows-driver-content
 description: The DXGKMDT_OPM_HDCP_FLAG enumeration identifies whether a protected output's physical connector is connected to a High-bandwidth Digital Content Protection (HDCP) repeater.
 old-location: display\dxgkmdt_opm_hdcp_flag.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsDispatchIrp
 title: KsDispatchIrp function
-author: windows-driver-content
 description: KsDispatchIrp calls a dispatch routine corresponding to the function code of the specified IRP. KsDispatchIrp then returns the status code from this call.
 old-location: stream\ksdispatchirp.htm
 tech.root: stream

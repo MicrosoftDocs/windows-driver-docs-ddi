@@ -1,7 +1,6 @@
 ---
 UID: NF:winsplp.OpenPort
 title: OpenPort function
-author: windows-driver-content
 description: A port monitor's OpenPort function opens a printer port.
 old-location: print\openport.htm
 tech.root: print

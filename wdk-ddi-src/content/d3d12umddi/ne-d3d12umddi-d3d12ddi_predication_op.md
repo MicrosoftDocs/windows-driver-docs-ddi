@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_PREDICATION_OP
 title: D3D12DDI_PREDICATION_OP
-author: windows-driver-content
 description: Contains values for predication operation options.
 old-location: display\d3d12ddi_predication_op.htm
 ms.assetid: 70676251-BCD7-4996-B5B7-96A8D9B107DB

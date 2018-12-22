@@ -1,7 +1,6 @@
 ---
 UID: NE:wditypes._WDI_P2P_SCAN_TYPE
 title: "_WDI_P2P_SCAN_TYPE"
-author: windows-driver-content
 description: The WDI_P2P_SCAN_TYPE enumeration defines the Wi-Fi Direct scan types.
 old-location: netvista\wdi_p2p_scan_type.htm
 tech.root: netvista

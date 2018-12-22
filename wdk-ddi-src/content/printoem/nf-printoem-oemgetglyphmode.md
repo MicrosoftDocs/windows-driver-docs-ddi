@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMGetGlyphMode
 title: OEMGetGlyphMode function
-author: windows-driver-content
 description: The OEMGetGlyphMode function informs the GDI how to cache glyph information.
 old-location: print\oemgetglyphmode.htm
 tech.root: print

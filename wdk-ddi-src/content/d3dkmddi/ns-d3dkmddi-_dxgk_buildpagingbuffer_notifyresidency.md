@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY
 title: "_DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY"
-author: windows-driver-content
 description: DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY describes a residency allocation change operation.
 old-location: display\dxgk_buildpagingbuffer_notifyresidency.htm
 ms.assetid: 0E70F621-03CD-4593-88C7-DF6F2ADC902A

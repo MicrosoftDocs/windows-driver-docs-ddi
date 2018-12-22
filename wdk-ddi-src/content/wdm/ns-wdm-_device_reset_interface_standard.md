@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._DEVICE_RESET_INTERFACE_STANDARD
 title: "_DEVICE_RESET_INTERFACE_STANDARD"
-author: windows-driver-content
 description: The DEVICE_RESET_INTERFACE_STANDARD structure enables function drivers to reset and recover malfunctioning devices. This structure describes the GUID_DEVICE_RESET_INTERFACE_STANDARD interface.
 old-location: kernel\device_reset_interface_standard.htm
 tech.root: kernel

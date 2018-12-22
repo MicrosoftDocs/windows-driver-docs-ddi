@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenSynchronizationObject
 title: D3DKMTOpenSynchronizationObject function
-author: windows-driver-content
 description: The D3DKMTOpenSynchronizationObject function opens a kernel-mode synchronization object.
 old-location: display\d3dkmtopensynchronizationobject.htm
 ms.assetid: e6316816-5260-4dd5-9c44-897ed5a88cc8

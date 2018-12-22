@@ -1,7 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlUnicodeStringPrintfEx
 title: RtlUnicodeStringPrintfEx function
-author: windows-driver-content
 description: The RtlUnicodeStringPrintfEx function creates a text string, with formatting that is based on supplied formatting information, and stores the string in a UNICODE_STRING structure.
 old-location: kernel\rtlunicodestringprintfex.htm
 tech.root: kernel

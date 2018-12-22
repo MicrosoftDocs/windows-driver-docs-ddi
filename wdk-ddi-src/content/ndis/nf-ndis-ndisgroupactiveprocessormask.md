@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisGroupActiveProcessorMask
 title: NdisGroupActiveProcessorMask function
-author: windows-driver-content
 description: The NdisGroupActiveProcessorMask function returns the currently active processor mask for the specified group.
 old-location: netvista\ndisgroupactiveprocessormask.htm
 tech.root: netvista

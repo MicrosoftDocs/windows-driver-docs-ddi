@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlULongLongToInt
 title: RtlULongLongToInt function
-author: windows-driver-content
 description: Converts a value of type ULONGLONG to a value of type INT.
 old-location: kernel\rtlulonglongtoint.htm
 tech.root: kernel

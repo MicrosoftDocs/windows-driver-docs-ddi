@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILUMTSMRL
 title: RILUMTSMRL
-author: windows-driver-content
 description: This structure represents a RILUMTSMRL.
 old-location: netvista\rilumtsmrl.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_IMMEDIATE_CHAR
 title: IOCTL_SERIAL_IMMEDIATE_CHAR
-author: windows-driver-content
 description: The IOCTL_SERIAL_IMMEDIATE_CHAR request causes a specified character to be transmitted as soon as possible.
 old-location: serports\ioctl_serial_immediate_char.htm
 tech.root: serports

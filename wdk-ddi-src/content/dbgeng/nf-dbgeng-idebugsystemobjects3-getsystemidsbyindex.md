@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetSystemIdsByIndex
 title: IDebugSystemObjects3::GetSystemIdsByIndex
-author: windows-driver-content
 description: The GetSystemIdsByIndex method returns the engine target IDs for the specified targets.
 old-location: debugger\getsystemidsbyindex.htm
 tech.root: debugger

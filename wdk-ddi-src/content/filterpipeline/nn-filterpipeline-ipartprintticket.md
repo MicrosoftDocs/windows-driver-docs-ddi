@@ -1,7 +1,6 @@
 ---
 UID: NN:filterpipeline.IPartPrintTicket
 title: IPartPrintTicket
-author: windows-driver-content
 description: The IPartPrintTicket interface is the abstraction for a print ticket in an XPS document.
 old-location: print\ipartprintticket.htm
 tech.root: print

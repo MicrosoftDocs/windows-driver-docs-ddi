@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportMidiStream.SetFormat
 title: IMiniportMidiStream::SetFormat
-author: windows-driver-content
 description: The SetFormat method sets the KS data format of the MIDI stream.
 old-location: audio\iminiportmidistream_setformat.htm
 tech.root: audio

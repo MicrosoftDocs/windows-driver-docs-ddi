@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsPinPropertyHandler
 title: KsPinPropertyHandler function
-author: windows-driver-content
 description: The KsPinPropertyHandler function performs standard handling of the static members of the KSPROPSETID_Pin property set. This handling does not include KSPROPERTY_PIN_CINSTANCES or KSPROPERTY_PIN_DATAINTERSECTION.
 old-location: stream\kspinpropertyhandler.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NS:lamp.LAMP_CAPABILITIES_WHITE
 title: LAMP_CAPABILITIES_WHITE
-author: windows-driver-content
 description: This structure is the I/O parameter type of IOCTL_LAMP_{GET|SET}_INTENSITY_WHITE.
 old-location: stream\lamp_capabilities_white.htm
 tech.root: stream

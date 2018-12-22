@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddvdeo._VIDEO_MODE
 title: "_VIDEO_MODE"
-author: windows-driver-content
 description: The VIDEO_MODE structure contains the requested VGA mode that an adapter should set. This structure is used in conjunction with IOCTL_VIDEO_SET_CURRENT_MODE.
 old-location: display\video_mode.htm
 tech.root: display

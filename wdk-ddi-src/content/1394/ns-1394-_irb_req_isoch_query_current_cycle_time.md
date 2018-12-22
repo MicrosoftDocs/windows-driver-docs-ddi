@@ -1,7 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME
 title: "_IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME"
-author: windows-driver-content
 description: This structure contains the fields necessary for the Bus driver to carry out an IsochQueryCurrentCycleTime request.
 old-location: ieee\irb_req_isoch_query_current_cycle_time.htm
 tech.root: IEEE

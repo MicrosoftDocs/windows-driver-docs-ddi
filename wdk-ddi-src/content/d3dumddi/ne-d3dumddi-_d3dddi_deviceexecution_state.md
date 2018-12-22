@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dumddi._D3DDDI_DEVICEEXECUTION_STATE
 title: "_D3DDDI_DEVICEEXECUTION_STATE"
-author: windows-driver-content
 description: Indicates the state of the device.
 old-location: display\d3dddi_deviceexecution_state.htm
 tech.root: display

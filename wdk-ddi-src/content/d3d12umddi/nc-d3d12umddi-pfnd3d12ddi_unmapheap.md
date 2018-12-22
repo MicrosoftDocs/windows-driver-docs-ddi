@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_UNMAPHEAP
 title: PFND3D12DDI_UNMAPHEAP
-author: windows-driver-content
 description: Implemented by the client driver to unmap a heap.
 ms.assetid: ff2743ac-ae14-4c19-836a-d8a869b3ff9b
 ms.date: 10/19/2018

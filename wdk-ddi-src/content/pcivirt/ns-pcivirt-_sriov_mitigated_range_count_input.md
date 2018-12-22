@@ -1,7 +1,6 @@
 ---
 UID: NS:pcivirt._SRIOV_MITIGATED_RANGE_COUNT_INPUT
 title: "_SRIOV_MITIGATED_RANGE_COUNT_INPUT"
-author: windows-driver-content
 description: This structure is used as an input buffer to the IOCTL_SRIOV_QUERY_MITIGATED_RANGE_COUNT request to determine the ranges of memory-mapped I/O space that must be mitigated.
 old-location: pci\sriov_mitigated_range_count_input.htm
 tech.root: PCI

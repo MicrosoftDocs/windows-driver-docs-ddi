@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMMIRROR
 title: PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMMIRROR
-author: windows-driver-content
 description: Indicates whether the stream should be flipped vertically or horizontally. Optional for Windows Display Driver Model (WDDM) 2.0, or later, drivers.
 old-location: display\videoprocessorsetstreammirror.htm
 ms.assetid: 945BD212-7B48-41FD-B11F-FB03DB073BD4

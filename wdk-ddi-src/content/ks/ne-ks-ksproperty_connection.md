@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_17
 title: KSPROPERTY_CONNECTION
-author: windows-driver-content
 description: 
 old-location: stream\ksproperty_connection.htm
 tech.root: stream

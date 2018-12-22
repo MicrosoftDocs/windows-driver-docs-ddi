@@ -1,7 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.Get
 title: IDebugFailureAnalysis2::Get
-author: windows-driver-content
 description: The Get method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag.
 old-location: debugger\idebugfailureanalysis2_get.htm
 tech.root: debugger

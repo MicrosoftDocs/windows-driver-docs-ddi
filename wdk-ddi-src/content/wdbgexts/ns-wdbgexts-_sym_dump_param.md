@@ -1,7 +1,6 @@
 ---
 UID: NS:wdbgexts._SYM_DUMP_PARAM
 title: "_SYM_DUMP_PARAM"
-author: windows-driver-content
 description: The IG_DUMP_SYMBOL_INFO Ioctl operation provides information about the type of a symbol.
 old-location: debugger\ig_dump_symbol_info.htm
 tech.root: debugger

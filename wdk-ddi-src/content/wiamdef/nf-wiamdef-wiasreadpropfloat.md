@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasReadPropFloat
 title: wiasReadPropFloat function
-author: windows-driver-content
 description: The wiasReadPropFloat function retrieves a floating-point property value from a WIA item.
 old-location: image\wiasreadpropfloat.htm
 tech.root: image

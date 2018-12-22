@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetVidPnSourceOwner2
 title: D3DKMTSetVidPnSourceOwner2 function
-author: windows-driver-content
 description: Used to set the VidPN source owner.
 old-location: display\d3dkmtsetvidpnsourceowner2.htm
 ms.assetid: 14ba3307-753f-4dca-8d4d-c87b3fee00a5

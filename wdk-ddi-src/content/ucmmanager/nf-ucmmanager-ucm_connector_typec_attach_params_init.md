@@ -1,7 +1,6 @@
 ---
 UID: NF:ucmmanager.UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT
 title: UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT function
-author: windows-driver-content
 description: Initializes a UCM_CONNECTOR_TYPEC_ATTACH_PARAMS structure.
 old-location: buses\ucm_connector_typec_attach_params_init.htm
 tech.root: usbref

@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltCopyOpenReparseList
 title: FltCopyOpenReparseList function
-author: windows-driver-content
 description: This routine copies any open reparse information from a previous create into a new ECP list that can be used to issue a second create.
 old-location: ifsk\fltcopyopenreparselist.htm
 tech.root: ifsk

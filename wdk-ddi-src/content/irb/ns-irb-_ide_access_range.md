@@ -1,7 +1,6 @@
 ---
 UID: NS:irb._IDE_ACCESS_RANGE
 title: "_IDE_ACCESS_RANGE"
-author: windows-driver-content
 description: The IDE_ACCESS_RANGE structure contains the address ranges allocated for an IDE controller.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_access_range.htm
 tech.root: storage

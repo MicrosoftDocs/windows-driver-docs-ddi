@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgFlags
 title: wiauDbgFlags function
-author: windows-driver-content
 description: The wiauDbgFlags function determines whether a particular debugging flag is set.
 old-location: image\wiaudbgflags.htm
 tech.root: image

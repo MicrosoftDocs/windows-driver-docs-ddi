@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsDispatchSpecificProperty
 title: KsDispatchSpecificProperty function
-author: windows-driver-content
 description: The KsDispatchSpecificProperty function dispatches the property to a specific handler.
 old-location: stream\ksdispatchspecificproperty.htm
 tech.root: stream

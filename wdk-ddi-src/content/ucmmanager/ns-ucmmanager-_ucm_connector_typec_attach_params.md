@@ -1,7 +1,6 @@
 ---
 UID: NS:ucmmanager._UCM_CONNECTOR_TYPEC_ATTACH_PARAMS
 title: "_UCM_CONNECTOR_TYPEC_ATTACH_PARAMS"
-author: windows-driver-content
 description: Describes the partner that is currently attached to the connector.
 old-location: buses\ucm_connector_typec_attach_params.htm
 tech.root: usbref

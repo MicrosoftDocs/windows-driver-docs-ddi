@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoFreeController
 title: IoFreeController function
-author: windows-driver-content
 description: The IoFreeController routine releases a previously allocated controller object when the driver has completed an I/O request.
 old-location: kernel\iofreecontroller.htm
 tech.root: kernel

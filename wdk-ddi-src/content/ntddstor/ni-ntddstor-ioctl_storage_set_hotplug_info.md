@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_SET_HOTPLUG_INFO
 title: IOCTL_STORAGE_SET_HOTPLUG_INFO
-author: windows-driver-content
 description: Sets the hotplug configuration of the specified device.
 old-location: storage\ioctl_storage_set_hotplug_info.htm
 tech.root: storage

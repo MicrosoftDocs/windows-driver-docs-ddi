@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_RELOCATEDEVICEFUNCS
 title: PFND3D10DDI_RELOCATEDEVICEFUNCS
-author: windows-driver-content
 description: The RelocateDeviceFuncs function notifies the user-mode display driver about the new location of the driver function table.
 old-location: display\relocatedevicefuncs.htm
 ms.assetid: 3932a2a1-7b1d-4921-bd4a-905b44166091

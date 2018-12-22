@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DESTROYOVERLAY
 title: "_D3DDDIARG_DESTROYOVERLAY"
-author: windows-driver-content
 description: The D3DDDIARG_DESTROYOVERLAY structure contains a handle to the overlay to disable.
 old-location: display\d3dddiarg_destroyoverlay.htm
 tech.root: display

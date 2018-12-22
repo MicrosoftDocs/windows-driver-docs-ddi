@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsStreamPointerGetIrp
 title: KsStreamPointerGetIrp function
-author: windows-driver-content
 description: The KsStreamPointerGetIrp function returns the IRP associated with the frame that is referenced by the given stream pointer.
 old-location: stream\ksstreampointergetirp.htm
 tech.root: stream

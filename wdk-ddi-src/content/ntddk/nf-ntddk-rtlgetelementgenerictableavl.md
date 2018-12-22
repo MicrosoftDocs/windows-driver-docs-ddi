@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlGetElementGenericTableAvl
 title: RtlGetElementGenericTableAvl function
-author: windows-driver-content
 description: The RtlGetElementGenericTableAvl routine returns a pointer to the caller-supplied data for a particular generic Adelson-Velsky/Landis (AVL) table element.
 old-location: ifsk\rtlgetelementgenerictableavl.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NE:dxgiddi.DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FORMAT
 title: DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FORMAT
-author: windows-driver-content
 description: Identifies the overlay plane's stereo presentation format. Only the DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FORMAT_MONO value is supported.
 old-location: display\dxgi_ddi_multiplane_overlay_stereo_format.htm
 tech.root: display

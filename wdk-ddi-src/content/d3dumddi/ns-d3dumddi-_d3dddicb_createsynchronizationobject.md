@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_CREATESYNCHRONIZATIONOBJECT
 title: "_D3DDDICB_CREATESYNCHRONIZATIONOBJECT"
-author: windows-driver-content
 description: The D3DDDICB_CREATESYNCHRONIZATIONOBJECT structure describes a synchronization object that the pfnCreateSynchronizationObjectCb function creates.
 old-location: display\d3dddicb_createsynchronizationobject.htm
 tech.root: display

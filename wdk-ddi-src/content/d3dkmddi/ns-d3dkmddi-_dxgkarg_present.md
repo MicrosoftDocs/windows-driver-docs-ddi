@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_PRESENT
 title: "_DXGKARG_PRESENT"
-author: windows-driver-content
 description: The DXGKARG_PRESENT structure describes a source-to-primary copy operation.
 old-location: display\dxgkarg_present.htm
 ms.assetid: 1bf91677-fa9e-4738-b8ea-efce90a52859

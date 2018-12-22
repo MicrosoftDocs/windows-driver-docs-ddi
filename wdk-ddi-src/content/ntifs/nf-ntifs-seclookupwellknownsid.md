@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SecLookupWellKnownSid
 title: SecLookupWellKnownSid function
-author: windows-driver-content
 description: SecLookupWellKnownSid accepts a well-known security identifier (SID) type as input and retrieves the local security identifier (SID) for this well known SID.
 old-location: ifsk\seclookupwellknownsid.htm
 tech.root: ifsk

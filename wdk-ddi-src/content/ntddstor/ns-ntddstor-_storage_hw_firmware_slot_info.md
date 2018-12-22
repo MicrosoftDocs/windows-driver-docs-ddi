@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_HW_FIRMWARE_SLOT_INFO
 title: "_STORAGE_HW_FIRMWARE_SLOT_INFO"
-author: windows-driver-content
 description: This structure contains information about a slot on a device.
 old-location: storage\storage_hw_firmware_slot_info.htm
 tech.root: storage

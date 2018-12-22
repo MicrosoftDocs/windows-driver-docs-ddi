@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES
 title: "_PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES"
-author: windows-driver-content
 description: The PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES structure contains a list of translated power-control resources for the platform extension plug-in (PEP) to use.
 old-location: kernel\pep_acpi_translated_device_control_resources.htm
 tech.root: kernel

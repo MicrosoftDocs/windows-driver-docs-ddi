@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.ExtRemoteTyped(const ExtRemoteTyped &)
 title: ExtRemoteTyped::ExtRemoteTyped(const ExtRemoteTyped &)
-author: windows-driver-content
 description: The ExtRemoteTyped copy constructor creates a new instance of the ExtRemoteTyped class.
 old-location: debugger\extremotetyped_extremotetyped_extremotetyped.htm
 tech.root: debugger

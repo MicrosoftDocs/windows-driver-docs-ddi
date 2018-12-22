@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects2.SetCurrentProcessId
 title: IDebugSystemObjects2::SetCurrentProcessId
-author: windows-driver-content
 description: The SetCurrentProcessId method makes the specified process the current process.
 old-location: debugger\setcurrentprocessid.htm
 tech.root: debugger

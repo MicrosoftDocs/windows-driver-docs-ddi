@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_STATE_RS_SCISSOR_CB
 title: PFND3D10DDI_STATE_RS_SCISSOR_CB
-author: windows-driver-content
 description: The pfnStateRsScissorCb function causes the Microsoft Direct3D 10 runtime to refresh the scissor state.
 old-location: display\pfnstatersscissorcb.htm
 ms.assetid: 4bb88e3c-2309-42f5-bc22-4c7182358e6e

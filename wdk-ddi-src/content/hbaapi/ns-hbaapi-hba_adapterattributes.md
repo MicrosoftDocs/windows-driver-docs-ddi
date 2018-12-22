@@ -1,7 +1,6 @@
 ---
 UID: NS:hbaapi.HBA_AdapterAttributes
 title: HBA_AdapterAttributes
-author: windows-driver-content
 description: The HBA_AdapterAttributes structure is used in conjunction with the HBA_GetAdapterAttributes routine to report the attributes of an HBA.
 old-location: storage\hba_adapterattributes.htm
 tech.root: storage

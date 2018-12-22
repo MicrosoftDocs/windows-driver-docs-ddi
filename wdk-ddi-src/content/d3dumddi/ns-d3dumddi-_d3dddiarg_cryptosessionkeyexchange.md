@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE
 title: "_D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE"
-author: windows-driver-content
 description: The D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE structure describes a buffer that contains the session key, which is used for encryption.
 old-location: display\d3dddiarg_cryptosessionkeyexchange.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetTypeId
 title: IDebugSymbols2::GetTypeId
-author: windows-driver-content
 description: The GetTypeId method looks up the specified type and return its type ID.
 old-location: debugger\gettypeid.htm
 tech.root: debugger

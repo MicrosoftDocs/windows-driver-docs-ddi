@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMWriteLogData
 title: NdisMWriteLogData function
-author: windows-driver-content
 description: NdisMWriteLogData transfers driver-supplied information into the log file for consumption and display by a driver-dedicated Win32 application.
 old-location: netvista\ndismwritelogdata.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfcollection.WdfCollectionGetFirstItem
 title: WdfCollectionGetFirstItem function
-author: windows-driver-content
 description: The WdfCollectionGetFirstItem method returns a handle to the first object that is in an object collection.
 old-location: wdf\wdfcollectiongetfirstitem.htm
 tech.root: wdf

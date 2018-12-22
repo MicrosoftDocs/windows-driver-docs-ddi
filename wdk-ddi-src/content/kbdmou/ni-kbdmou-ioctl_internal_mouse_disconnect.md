@@ -1,7 +1,6 @@
 ---
 UID: NI:kbdmou.IOCTL_INTERNAL_MOUSE_DISCONNECT
 title: IOCTL_INTERNAL_MOUSE_DISCONNECT
-author: windows-driver-content
 description: The IOCTL_INTERNAL_MOUSE_DISCONNECT request is completed by Moufiltr with an error status of STATUS_NOT_IMPLEMENTED.
 old-location: hid\ioctl_internal_mouse_disconnect.htm
 tech.root: hid

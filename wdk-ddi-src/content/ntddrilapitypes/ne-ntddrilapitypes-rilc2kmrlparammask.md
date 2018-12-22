@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILC2KMRLPARAMMASK
 title: RILC2KMRLPARAMMASK
-author: windows-driver-content
 description: This enumeration describes the RILC2KMRLPARAMMASK.
 old-location: netvista\rilc2kmrlparammask.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaParameterDefinition.get_DataType
 title: IPrintSchemaParameterDefinition::get_DataType
-author: windows-driver-content
 description: The DataType property gets the PrintSchemaParameterDataType enumerated value that indicates the expected data type for the Print Schema parameter.
 old-location: print\_iprintschemaparameterdefinition_datatype.htm
 tech.root: print

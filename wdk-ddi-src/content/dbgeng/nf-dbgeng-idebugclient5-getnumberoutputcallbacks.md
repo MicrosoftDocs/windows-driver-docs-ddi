@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetNumberOutputCallbacks
 title: IDebugClient5::GetNumberOutputCallbacks
-author: windows-driver-content
 description: The GetNumberOutputCallbacks method returns the number of output callbacks registered over all clients.
 old-location: debugger\getnumberoutputcallbacks.htm
 tech.root: debugger

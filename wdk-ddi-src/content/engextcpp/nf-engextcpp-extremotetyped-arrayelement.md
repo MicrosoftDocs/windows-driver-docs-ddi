@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.ArrayElement
 title: ExtRemoteTyped::ArrayElement
-author: windows-driver-content
 description: The ArrayElement method returns the typed data in the specified array element of the typed data represented by the ExtRemoteTyped object.
 old-location: debugger\extremotetyped_arrayelement.htm
 tech.root: debugger

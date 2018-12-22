@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceWdmDispatchIrp
 title: WdfDeviceWdmDispatchIrp function
-author: windows-driver-content
 description: The WdfDeviceWdmDispatchIrp method returns a dispatched IRP to the framework from EvtDeviceWdmIrpDispatch.
 old-location: wdf\wdfdevicewdmdispatchirp.htm
 tech.root: wdf

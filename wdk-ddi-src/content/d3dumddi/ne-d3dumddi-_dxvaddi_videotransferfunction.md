@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVADDI_VIDEOTRANSFERFUNCTION
 title: "_DXVADDI_VIDEOTRANSFERFUNCTION"
-author: windows-driver-content
 description: The DXVADDI_VIDEOTRANSFERFUNCTION enumeration type contains values that identify the conversion function from R'G'B' to RGB.
 old-location: display\dxvaddi_videotransferfunction.htm
 tech.root: display

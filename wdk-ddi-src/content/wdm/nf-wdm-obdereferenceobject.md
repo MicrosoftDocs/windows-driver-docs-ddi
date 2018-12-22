@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ObDereferenceObject
 title: ObDereferenceObject macro
-author: windows-driver-content
 description: The ObDereferenceObject routine decrements the given object's reference count and performs retention checks.
 old-location: kernel\obdereferenceobject.htm
 tech.root: kernel

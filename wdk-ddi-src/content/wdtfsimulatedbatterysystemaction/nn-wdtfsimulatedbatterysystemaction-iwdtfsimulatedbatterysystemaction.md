@@ -1,7 +1,6 @@
 ---
 UID: NN:wdtfsimulatedbatterysystemaction.IWDTFSimulatedBatterySystemAction
 title: IWDTFSimulatedBatterySystemAction
-author: windows-driver-content
 description: IWDTFSimulatedBatterySystemAction Interface
 old-location: dtf\iwdtfsimulatedbatterysystemaction.htm
 tech.root: dtf

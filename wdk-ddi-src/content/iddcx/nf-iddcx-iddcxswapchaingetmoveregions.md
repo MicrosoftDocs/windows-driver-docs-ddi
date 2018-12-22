@@ -1,7 +1,6 @@
 ---
 UID: NF:iddcx.IddCxSwapChainGetMoveRegions
 title: IddCxSwapChainGetMoveRegions function
-author: windows-driver-content
 description: An OS callback function the driver calls when it wants retrieve the move regions for the current frame.
 old-location: display\iddcxswapchaingetmoveregions.htm
 tech.root: display

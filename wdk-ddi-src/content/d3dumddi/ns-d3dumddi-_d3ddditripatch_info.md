@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDITRIPATCH_INFO
 title: _D3DDDITRIPATCH_INFO
-author: windows-driver-content
 description: Contains tri-patch info.
 ms.assetid: 8c4e7b1f-6618-4ffe-ad51-0311681c35e3
 ms.date: 10/19/2018

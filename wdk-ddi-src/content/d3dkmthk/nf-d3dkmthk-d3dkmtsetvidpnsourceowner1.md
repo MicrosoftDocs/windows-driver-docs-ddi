@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetVidPnSourceOwner1
 title: D3DKMTSetVidPnSourceOwner1 function
-author: windows-driver-content
 description: Sets and releases the video present source in the path of a video present network (VidPN) topology that owns the VidPN, and lets output duplication options be specified. Supported starting with Windows 8.
 old-location: display\d3dkmtsetvidpnsourceowner1.htm
 ms.assetid: ccee5459-f156-41c3-b9a1-8bd7d16c8d19

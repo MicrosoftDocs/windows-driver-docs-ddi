@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfdriverpackageaction.IWDTFDriverPackageAction2.get_ClassName
 title: IWDTFDriverPackageAction2::get_ClassName
-author: windows-driver-content
 description: Gets the class name.
 old-location: dtf\iwdtfdriverpackageaction2_classname.htm
 tech.root: dtf

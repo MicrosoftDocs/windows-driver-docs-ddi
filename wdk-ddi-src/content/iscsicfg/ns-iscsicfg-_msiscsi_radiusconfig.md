@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsicfg._MSiSCSI_RADIUSConfig
 title: "_MSiSCSI_RADIUSConfig"
-author: windows-driver-content
 description: The MSiSCSI_RADIUSConfig structure provides information that the initiator requires to use the remote authentication dial-in user service (RADIUS).
 old-location: storage\msiscsi_radiusconfig.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NI:bthhfpddi.IOCTL_BTHHFP_DEVICE_GET_CONNECTION_STATUS_UPDATE
 title: IOCTL_BTHHFP_DEVICE_GET_CONNECTION_STATUS_UPDATE
-author: windows-driver-content
 description: The IOCTL_BTHHFP_DEVICE_GET_CONNECTION_STATUS_UPDATE IOCTL Gets a connection status update.
 old-location: audio\ioctl_bthhfp_device_get_connection_status_update.htm
 tech.root: audio

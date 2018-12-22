@@ -1,7 +1,6 @@
 ---
 UID: NI:ehstorioctl.IOCTL_EHSTOR_DEVICE_GET_QUEUE_STATE
 title: IOCTL_EHSTOR_DEVICE_GET_QUEUE_STATE
-author: windows-driver-content
 description: The IOCTL_EHSTOR_DEVICE_GET_QUEUE_STATE request is sent by silo drivers and applications to determine the state of a storage device queue.
 old-location: storage\ioctl_ehstor_device_get_queue_state.htm
 tech.root: storage

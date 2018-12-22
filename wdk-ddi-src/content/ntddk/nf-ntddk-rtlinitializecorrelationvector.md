@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlInitializeCorrelationVector
 title: RtlInitializeCorrelationVector function
-author: windows-driver-content
 description: Initializes the specified correlation vector with the supplied GUID.
 old-location: kernel\rtlinitializecorrelationvector.htm
 tech.root: kernel

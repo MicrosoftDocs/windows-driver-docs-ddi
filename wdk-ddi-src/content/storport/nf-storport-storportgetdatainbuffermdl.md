@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortGetDataInBufferMdl
 title: StorPortGetDataInBufferMdl function
-author: windows-driver-content
 description: Returns an MDL associated with the input data buffer of a SCSI request block (SRB).
 old-location: storage\storportgetdatainbuffermdl.htm
 tech.root: storage

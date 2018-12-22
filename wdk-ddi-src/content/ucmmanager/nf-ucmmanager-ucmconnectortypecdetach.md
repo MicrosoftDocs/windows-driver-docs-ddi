@@ -1,7 +1,6 @@
 ---
 UID: NF:ucmmanager.UcmConnectorTypeCDetach
 title: UcmConnectorTypeCDetach function
-author: windows-driver-content
 description: Notifies the USB connector manager framework extension (UcmCx) when the partner connector detaches from the specified Type-C connector.
 old-location: buses\ucmconnectortypecdetach.htm
 tech.root: usbref

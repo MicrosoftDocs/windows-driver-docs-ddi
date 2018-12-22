@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfsync.WdfWaitLockAcquire
 title: WdfWaitLockAcquire function
-author: windows-driver-content
 description: The WdfWaitLockAcquire method acquires a specified wait lock.
 old-location: wdf\wdfwaitlockacquire.htm
 tech.root: wdf

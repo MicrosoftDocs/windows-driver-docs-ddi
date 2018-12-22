@@ -1,7 +1,6 @@
 ---
 UID: NE:filterpipeline.__MIDL___MIDL_itf_filterpipeline_0000_0000_0001
 title: "__MIDL___MIDL_itf_filterpipeline_0000_0000_0001"
-author: windows-driver-content
 description: The ExpsCompressionOptions enumeration describes compression options for an XPS part.
 old-location: print\expscompressionoptions.htm
 tech.root: print

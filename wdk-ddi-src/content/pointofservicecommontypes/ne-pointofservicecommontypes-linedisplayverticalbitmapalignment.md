@@ -1,7 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes.LineDisplayVerticalBitmapAlignment
 title: LineDisplayVerticalBitmapAlignment
-author: windows-driver-content
 description: This enumeration is not implemented.
 old-location: pos\linedisplayverticalbitmapalignment.htm
 tech.root: pos

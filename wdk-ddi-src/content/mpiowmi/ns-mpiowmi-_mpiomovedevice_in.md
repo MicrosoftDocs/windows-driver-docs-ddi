@@ -1,7 +1,6 @@
 ---
 UID: NS:mpiowmi._MPIOMoveDevice_IN
 title: "_MPIOMoveDevice_IN"
-author: windows-driver-content
 description: The MPIOMoveDevice_IN structure is used to set the active path on the device.
 old-location: storage\mpiomovedevice_in.htm
 tech.root: storage

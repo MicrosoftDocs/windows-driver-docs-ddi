@@ -1,7 +1,6 @@
 ---
 UID: NC:ndischimney.NDIS_TCP_OFFLOAD_FORWARD_COMPLETE
 title: NDIS_TCP_OFFLOAD_FORWARD_COMPLETE
-author: windows-driver-content
 description: An offload target calls the NdisTcpOffloadForwardComplete function to complete one or more forward requests that were made to the MiniportTcpOffloadForward function of the offload target.
 old-location: netvista\ndistcpoffloadforwardcomplete.htm
 tech.root: netvista

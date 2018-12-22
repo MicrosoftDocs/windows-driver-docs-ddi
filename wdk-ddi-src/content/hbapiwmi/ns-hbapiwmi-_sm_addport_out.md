@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_AddPort_OUT
 title: "_SM_AddPort_OUT"
-author: windows-driver-content
 description: The SM_AddPort_OUT structure is used to receive output parameters from the SM_RemoveTarget WMI method.
 old-location: storage\sm_addport_out.htm
 tech.root: storage

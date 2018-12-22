@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.RequestEjectDevice
 title: IWDTFPNPActions2::RequestEjectDevice
-author: windows-driver-content
 description: Initiates a device eject.
 old-location: dtf\iwdtfpnpactions2_requestejectdevice.htm
 tech.root: dtf

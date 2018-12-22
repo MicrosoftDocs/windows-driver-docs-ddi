@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlCreateSectionForDataScan
 title: FsRtlCreateSectionForDataScan function
-author: windows-driver-content
 description: The FsRtlCreateSectionForDataScan routine creates a section object.
 old-location: ifsk\fsrtlcreatesectionfordatascan.htm
 tech.root: ifsk

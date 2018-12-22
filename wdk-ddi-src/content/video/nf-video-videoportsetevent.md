@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortSetEvent
 title: VideoPortSetEvent function
-author: windows-driver-content
 description: The VideoPortSetEvent function sets an event object to the signaled state if it was not already in that state, and returns the event object's previous state.
 old-location: display\videoportsetevent.htm
 tech.root: display

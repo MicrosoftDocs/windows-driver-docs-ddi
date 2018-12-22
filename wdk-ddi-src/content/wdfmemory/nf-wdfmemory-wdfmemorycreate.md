@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfmemory.WdfMemoryCreate
 title: WdfMemoryCreate function
-author: windows-driver-content
 description: The WdfMemoryCreate method creates a framework memory object and allocates a memory buffer of a specified size.
 old-location: wdf\wdfmemorycreate.htm
 tech.root: wdf

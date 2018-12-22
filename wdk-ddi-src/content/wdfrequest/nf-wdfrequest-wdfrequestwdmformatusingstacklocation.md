@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestWdmFormatUsingStackLocation
 title: WdfRequestWdmFormatUsingStackLocation function
-author: windows-driver-content
 description: The WdfRequestWdmFormatUsingStackLocation method formats an I/O request by copying the contents of a specified WDM I/O stack location structure to the next stack location in the request.
 old-location: wdf\wdfrequestwdmformatusingstacklocation.htm
 tech.root: wdf

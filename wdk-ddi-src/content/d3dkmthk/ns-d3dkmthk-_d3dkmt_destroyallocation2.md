@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DESTROYALLOCATION2
 title: "_D3DKMT_DESTROYALLOCATION2"
-author: windows-driver-content
 description: The D3DKMT_DESTROYALLOCATION2 structure describes parameters for releasing allocations with D3DKMTDestroyAllocation2.
 old-location: display\d3dkmt_destroyallocation2.htm
 ms.assetid: A51C5F98-5979-436A-9E7E-EA54A1469940

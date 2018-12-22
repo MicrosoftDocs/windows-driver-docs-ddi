@@ -1,7 +1,6 @@
 ---
 UID: NF:wsk.WskCaptureProviderNPI
 title: WskCaptureProviderNPI function
-author: windows-driver-content
 description: The WskCaptureProviderNPI function captures a provider Network Programming Interface (NPI) when it becomes available from the WSK subsystem.
 old-location: netvista\wskcaptureprovidernpi.htm
 tech.root: netvista

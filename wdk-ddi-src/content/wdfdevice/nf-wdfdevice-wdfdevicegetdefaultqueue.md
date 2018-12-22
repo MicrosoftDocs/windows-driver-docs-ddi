@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceGetDefaultQueue
 title: WdfDeviceGetDefaultQueue function
-author: windows-driver-content
 description: The WdfDeviceGetDefaultQueue method returns a handle to a device's default I/O queue.
 old-location: wdf\wdfdevicegetdefaultqueue.htm
 tech.root: wdf

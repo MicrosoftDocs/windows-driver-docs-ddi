@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS
 title: "_NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS"
-author: windows-driver-content
 description: The NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS structure specifies the parameters for a Hyper-V extensible switch port policy property that will be deleted.
 old-location: netvista\ndis_switch_port_property_delete_parameters.htm
 tech.root: netvista

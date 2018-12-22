@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.ControlledOutput
 title: IDebugControl3::ControlledOutput
-author: windows-driver-content
 description: The ControlledOutput method formats a string and sends the result to output callbacks that were registered with some of the engine's clients.
 old-location: debugger\controlledoutput.htm
 tech.root: debugger

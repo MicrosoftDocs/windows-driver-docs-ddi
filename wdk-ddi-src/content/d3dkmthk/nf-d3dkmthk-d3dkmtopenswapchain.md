@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenSwapChain
 title: D3DKMTOpenSwapChain function
-author: windows-driver-content
 description: Opens a swap chain.
 ms.assetid: 9c22ba58-1f78-42ea-a320-8e5ce0cf1943
 ms.date: 10/19/2018

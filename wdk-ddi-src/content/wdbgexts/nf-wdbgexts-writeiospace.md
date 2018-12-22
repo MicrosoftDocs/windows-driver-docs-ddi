@@ -1,7 +1,6 @@
 ---
 UID: NF:wdbgexts.WriteIoSpace
 title: WriteIoSpace function
-author: windows-driver-content
 description: The WriteIoSpace function writes to the system I/O locations.
 old-location: debugger\writeiospace.htm
 tech.root: debugger

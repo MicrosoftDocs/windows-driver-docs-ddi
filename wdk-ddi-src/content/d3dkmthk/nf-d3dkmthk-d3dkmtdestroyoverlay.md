@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTDestroyOverlay
 title: D3DKMTDestroyOverlay function
-author: windows-driver-content
 description: The D3DKMTDestroyOverlay function destroys a kernel-mode overlay object.
 old-location: display\d3dkmtdestroyoverlay.htm
 ms.assetid: 8a5eef07-97b7-43ca-b8e0-15af89aa7d82

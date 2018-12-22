@@ -1,7 +1,6 @@
 ---
 UID: NS:dxva._DXVA_COPPCommand
 title: "_DXVA_COPPCommand"
-author: windows-driver-content
 description: The DXVA_COPPCommand structure describes a command sent to a protected video session that is associated with a COPP DirectX VA device.
 old-location: display\dxva_coppcommand.htm
 tech.root: display

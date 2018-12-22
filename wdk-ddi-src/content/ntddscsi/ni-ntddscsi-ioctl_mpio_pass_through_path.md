@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddscsi.IOCTL_MPIO_PASS_THROUGH_PATH
 title: IOCTL_MPIO_PASS_THROUGH_PATH
-author: windows-driver-content
 description: This I/O control code allows an application or kernel driver to send a SCSI command to a designated real LUN.
 old-location: storage\ioctl_mpio_pass_through_path.htm
 tech.root: storage

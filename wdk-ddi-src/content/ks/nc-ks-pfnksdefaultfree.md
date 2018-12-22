@@ -1,7 +1,6 @@
 ---
 UID: NC:ks.PFNKSDEFAULTFREE
 title: PFNKSDEFAULTFREE
-author: windows-driver-content
 description: An AVStream minidriver's AVStrMiniAllocatorFreeFrame routine frees the specified frame.
 old-location: stream\avstrminiallocatorfreeframe.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IAdapterPnpManagement.PnpQueryStop
 title: IAdapterPnpManagement::PnpQueryStop
-author: windows-driver-content
 description: PnpQueryStop provides a notification when PnpQueryStop is invoked by portcls just before succeeding the QueryStop IRP. 
 tech.root: audio
 ms.assetid: ddc729dd-71fe-4341-ba7e-ee05e9f91291

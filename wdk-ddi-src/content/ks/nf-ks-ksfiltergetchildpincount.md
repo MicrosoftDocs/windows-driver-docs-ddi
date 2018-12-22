@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsFilterGetChildPinCount
 title: KsFilterGetChildPinCount function
-author: windows-driver-content
 description: The KsFilterGetChildPinCountfunctionreturns the number of pins of a given type that are currently instantiated on a given filter.
 old-location: stream\ksfiltergetchildpincount.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NE:wdfdevice._WDF_DEVICE_POWER_STATE
 title: "_WDF_DEVICE_POWER_STATE"
-author: windows-driver-content
 description: The WDF_DEVICE_POWER_STATE enumeration identifies all of the states that the framework's power state machine can enter.
 old-location: wdf\wdf_device_power_state.htm
 tech.root: wdf

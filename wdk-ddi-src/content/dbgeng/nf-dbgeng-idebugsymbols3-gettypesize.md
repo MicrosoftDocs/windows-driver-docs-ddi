@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetTypeSize
 title: IDebugSymbols3::GetTypeSize
-author: windows-driver-content
 description: The GetTypeSize method returns the number of bytes of memory an instance of the specified type requires.
 old-location: debugger\gettypesize2.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOEx2.Close
 title: IWDTFSimpleIOEx2::Close
-author: windows-driver-content
 description: Closes the device.
 old-location: dtf\iwdtfsimpleioex2_close.htm
 tech.root: dtf

@@ -1,7 +1,6 @@
 ---
 UID: NF:stiusd.IStiUSD.RawWriteData
 title: IStiUSD::RawWriteData
-author: windows-driver-content
 description: A still image minidriver's IStiUSD::RawWriteData method writes data to a still image device.
 old-location: image\istiusd_rawwritedata.htm
 tech.root: image

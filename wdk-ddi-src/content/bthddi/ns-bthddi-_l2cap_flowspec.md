@@ -1,7 +1,6 @@
 ---
 UID: NS:bthddi._L2CAP_FLOWSPEC
 title: "_L2CAP_FLOWSPEC"
-author: windows-driver-content
 description: This structure reserved for future use.
 old-location: bltooth\l2cap_flowspec.htm
 tech.root: bltooth

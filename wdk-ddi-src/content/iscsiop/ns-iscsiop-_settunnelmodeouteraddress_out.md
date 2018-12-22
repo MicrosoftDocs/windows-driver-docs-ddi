@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._SetTunnelModeOuterAddress_OUT
 title: "_SetTunnelModeOuterAddress_OUT"
-author: windows-driver-content
 description: The SetTunnelModeOuterAddress_OUT structure holds the output data for the SetTunnelModeOuterAddress method.
 old-location: storage\settunnelmodeouteraddress_out.htm
 tech.root: storage

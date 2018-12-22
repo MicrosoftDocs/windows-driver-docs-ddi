@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsDeleteMarshallingArea
 title: ClfsDeleteMarshallingArea function
-author: windows-driver-content
 description: The ClfsDeleteMarshallingArea routine deletes a marshalling area.
 old-location: kernel\clfsdeletemarshallingarea.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:wsk._WSK_DATAGRAM_INDICATION
 title: "_WSK_DATAGRAM_INDICATION"
-author: windows-driver-content
 description: The WSK_DATAGRAM_INDICATION structure describes a datagram that has been received on a datagram socket.
 old-location: netvista\wsk_datagram_indication.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceInitAssignSDDLString
 title: WdfDeviceInitAssignSDDLString function
-author: windows-driver-content
 description: The WdfDeviceInitAssignSDDLString method assigns a security setting for a device.
 old-location: wdf\wdfdeviceinitassignsddlstring.htm
 tech.root: wdf

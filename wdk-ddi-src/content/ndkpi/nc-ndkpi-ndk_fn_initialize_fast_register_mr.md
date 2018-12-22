@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_INITIALIZE_FAST_REGISTER_MR
 title: NDK_FN_INITIALIZE_FAST_REGISTER_MR
-author: windows-driver-content
 description: The NdkInitializeFastRegisterMr (NDK_FN_INITIALIZE_FAST_REGISTER_MR) function initializes an NDK memory region (MR) for fast registration.
 old-location: netvista\ndk_fn_initialize_fast_register_mr.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceAssignProperty
 title: WdfDeviceAssignProperty function
-author: windows-driver-content
 description: The WdfDeviceAssignProperty method modifies the current setting of a device property.
 old-location: wdf\wdfdeviceassignproperty.htm
 tech.root: wdf

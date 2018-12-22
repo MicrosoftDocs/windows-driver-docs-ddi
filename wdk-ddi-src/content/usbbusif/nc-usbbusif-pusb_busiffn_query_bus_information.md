@@ -1,7 +1,6 @@
 ---
 UID: NC:usbbusif.PUSB_BUSIFFN_QUERY_BUS_INFORMATION
 title: PUSB_BUSIFFN_QUERY_BUS_INFORMATION
-author: windows-driver-content
 description: The QueryBusInformation routine gets information about the bus.
 old-location: buses\querybusinformation.htm
 tech.root: usbref

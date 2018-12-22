@@ -1,7 +1,6 @@
 ---
 UID: NL:wiautil.CWiauPropertyList
 title: CWiauPropertyList
-author: windows-driver-content
 description: The CWiauPropertyList class can be used to create and maintain a list of properties for a device.
 old-location: image\cwiaupropertylist_class.htm
 tech.root: image

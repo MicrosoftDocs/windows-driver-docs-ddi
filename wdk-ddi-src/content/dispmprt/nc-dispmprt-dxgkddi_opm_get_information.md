@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_OPM_GET_INFORMATION
 title: DXGKDDI_OPM_GET_INFORMATION
-author: windows-driver-content
 description: The DxgkDdiOPMGetInformation function retrieves information from the given protected output object.
 old-location: display\dxgkddiopmgetinformation.htm
 tech.root: display

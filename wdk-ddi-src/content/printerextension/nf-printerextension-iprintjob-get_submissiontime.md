@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintJob.get_SubmissionTime
 title: IPrintJob::get_SubmissionTime
-author: windows-driver-content
 description: Gets the submission time, in the “DATE” format, provided in the user’s local time (not in the UTC format that is provided by the spooler).
 old-location: print\iprintjob_submissiontime.htm
 tech.root: print

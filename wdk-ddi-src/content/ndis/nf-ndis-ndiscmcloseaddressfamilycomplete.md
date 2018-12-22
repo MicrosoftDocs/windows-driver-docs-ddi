@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisCmCloseAddressFamilyComplete
 title: NdisCmCloseAddressFamilyComplete function
-author: windows-driver-content
 description: NdisCmCloseAddressFamilyComplete returns the final status of a client's request, for which the CM's ProtocolCmCloseAf function returned NDIS_STATUS_PENDING, to close the AF.
 old-location: netvista\ndiscmcloseaddressfamilycomplete.htm
 tech.root: netvista

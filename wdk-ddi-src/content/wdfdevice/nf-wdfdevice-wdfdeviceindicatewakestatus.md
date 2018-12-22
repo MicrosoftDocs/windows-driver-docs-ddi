@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceIndicateWakeStatus
 title: WdfDeviceIndicateWakeStatus function
-author: windows-driver-content
 description: The WdfDeviceIndicateWakeStatus method informs the framework that the calling bus driver has stopped waiting for a specified device to trigger a wake signal on the bus.
 old-location: wdf\wdfdeviceindicatewakestatus.htm
 tech.root: wdf

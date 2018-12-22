@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_SET_COLOR_REGISTERS
 title: IOCTL_VIDEO_SET_COLOR_REGISTERS
-author: windows-driver-content
 description: Sets the adapter's color registers to the specified RGB values. If the adapter has a color look up table (CLUT), sometimes called a palette, the miniport driver is required to support this modal request.
 old-location: display\ioctl_video_set_color_registers.htm
 tech.root: display

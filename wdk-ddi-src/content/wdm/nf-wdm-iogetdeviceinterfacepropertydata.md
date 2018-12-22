@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoGetDeviceInterfacePropertyData
 title: IoGetDeviceInterfacePropertyData function
-author: windows-driver-content
 description: The IoGetDeviceInterfacePropertyData routine retrieves the current value of a device interface property.
 old-location: kernel\iogetdeviceinterfacepropertydata.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlQueryCachedVdl
 title: FsRtlQueryCachedVdl function
-author: windows-driver-content
 description: The current valid data length (VDL) for a cached file is retrieved with the FsRtlQueryCachedVdl routine.
 old-location: ifsk\fsrtlquerycachedvdl.htm
 tech.root: ifsk

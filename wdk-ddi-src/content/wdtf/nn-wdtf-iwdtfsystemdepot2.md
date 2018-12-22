@@ -1,7 +1,6 @@
 ---
 UID: NN:wdtf.IWDTFSystemDepot2
 title: IWDTFSystemDepot2
-author: windows-driver-content
 description: Defines operations and properties for the SystemDepot - the object that represents the local computer.
 old-location: dtf\iwdtfsystemdepot2.htm
 tech.root: dtf

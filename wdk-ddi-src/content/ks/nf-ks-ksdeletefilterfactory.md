@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsDeleteFilterFactory
 title: KsDeleteFilterFactory macro
-author: windows-driver-content
 description: KsDeleteFilterFactory deletes a given filter factory.
 old-location: stream\ksdeletefilterfactory.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaElement.get_XmlNode
 title: IPrintSchemaElement::get_XmlNode
-author: windows-driver-content
 description: Gets the IXMLDOMNode object associated with this item.
 old-location: print\iprintschemaelement_xmlnode.htm
 tech.root: print

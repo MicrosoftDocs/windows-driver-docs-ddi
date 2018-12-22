@@ -1,7 +1,6 @@
 ---
 UID: NE:dbgmodel.LocationKind
 title: LocationKind
-author: windows-driver-content
 description: Defines the location of a field or other data.
 ms.assetid: 31b989a5-1029-48b4-b4e7-c7de24615bc4
 ms.date: 07/16/2018

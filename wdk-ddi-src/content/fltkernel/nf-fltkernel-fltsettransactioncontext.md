@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltSetTransactionContext
 title: FltSetTransactionContext function
-author: windows-driver-content
 description: The FltSetTransactionContext routine sets a context on a transaction.
 old-location: ifsk\fltsettransactioncontext.htm
 tech.root: ifsk

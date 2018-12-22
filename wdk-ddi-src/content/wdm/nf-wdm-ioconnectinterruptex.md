@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoConnectInterruptEx
 title: IoConnectInterruptEx function
-author: windows-driver-content
 description: For more information, see the WdmlibIoConnectInterruptEx function.#define IoConnectInterruptEx WdmlibIoConnectInterruptEx
 old-location: kernel\ioconnectinterruptex.htm
 tech.root: kernel

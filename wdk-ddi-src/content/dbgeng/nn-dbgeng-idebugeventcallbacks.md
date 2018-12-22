@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugEventCallbacks
 title: IDebugEventCallbacks
-author: windows-driver-content
 description: IDebugEventCallbacks interface
 old-location: debugger\idebugeventcallbacks.htm
 tech.root: debugger

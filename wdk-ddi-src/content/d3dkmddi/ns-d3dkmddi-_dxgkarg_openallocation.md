@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_OPENALLOCATION
 title: "_DXGKARG_OPENALLOCATION"
-author: windows-driver-content
 description: The DXGKARG_OPENALLOCATION structure describes allocations that the display miniport driver should open.
 old-location: display\dxgkarg_openallocation.htm
 ms.assetid: cddb85c7-137c-4ceb-b53c-170ce020cea1

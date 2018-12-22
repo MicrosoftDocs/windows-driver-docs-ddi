@@ -1,7 +1,6 @@
 ---
 UID: NC:wlanihv.DOT11EXTIHV_DEINIT_ADAPTER
 title: DOT11EXTIHV_DEINIT_ADAPTER
-author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extihvdeinitadapter.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlDeleteElementGenericTable
 title: RtlDeleteElementGenericTable function
-author: windows-driver-content
 description: The RtlDeleteElementGenericTable routine deletes an element from a generic table.
 old-location: ifsk\rtldeleteelementgenerictable.htm
 tech.root: ifsk

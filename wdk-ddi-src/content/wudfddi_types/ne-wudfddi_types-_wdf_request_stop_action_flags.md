@@ -1,7 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_REQUEST_STOP_ACTION_FLAGS
 title: "_WDF_REQUEST_STOP_ACTION_FLAGS"
-author: windows-driver-content
 description: The WDF_REQUEST_STOP_ACTION_FLAGS enumeration contains values that identify the state of a stop action request in a call to the driver's IQueueCallbackIoStop::OnIoStop method.
 old-location: wdf\wdf_request_stop_action_flags_umdf.htm
 tech.root: wdf

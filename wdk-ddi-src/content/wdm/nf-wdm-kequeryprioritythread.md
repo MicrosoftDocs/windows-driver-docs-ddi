@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeQueryPriorityThread
 title: KeQueryPriorityThread function
-author: windows-driver-content
 description: The KeQueryPriorityThread routine returns the current priority of a particular thread.
 old-location: kernel\kequeryprioritythread.htm
 tech.root: kernel

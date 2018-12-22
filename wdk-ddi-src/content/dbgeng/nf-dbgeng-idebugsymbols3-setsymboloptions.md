@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.SetSymbolOptions
 title: IDebugSymbols3::SetSymbolOptions
-author: windows-driver-content
 description: The SetSymbolOptions method changes the engine's global symbol options.
 old-location: debugger\setsymboloptions.htm
 tech.root: debugger

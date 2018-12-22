@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacksWide.SystemError
 title: IDebugEventCallbacksWide::SystemError
-author: windows-driver-content
 description: The SystemError callback method is called by the engine when a system error occurs in the target.
 old-location: debugger\idebugeventcallbackswide_systemerror.htm
 tech.root: debugger

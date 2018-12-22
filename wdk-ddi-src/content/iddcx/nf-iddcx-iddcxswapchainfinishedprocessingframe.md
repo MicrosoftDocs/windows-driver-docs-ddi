@@ -1,7 +1,6 @@
 ---
 UID: NF:iddcx.IddCxSwapChainFinishedProcessingFrame
 title: IddCxSwapChainFinishedProcessingFrame function
-author: windows-driver-content
 description: An OS callback function the driver calls report all GPU command for processing this frame have been queue.
 old-location: display\iddcxswapchainfinishedprocessingframe.htm
 tech.root: display

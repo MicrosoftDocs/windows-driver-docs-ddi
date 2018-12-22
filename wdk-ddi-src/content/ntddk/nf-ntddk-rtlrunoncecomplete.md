@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlRunOnceComplete
 title: RtlRunOnceComplete function
-author: windows-driver-content
 description: The RtlRunOnceComplete routine completes the one-time initialization began by RtlRunOnceBeginInitialize.
 old-location: kernel\rtlrunoncecomplete.htm
 tech.root: kernel

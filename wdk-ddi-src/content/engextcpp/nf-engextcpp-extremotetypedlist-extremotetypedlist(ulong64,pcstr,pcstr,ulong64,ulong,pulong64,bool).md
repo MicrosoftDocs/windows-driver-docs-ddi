@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTypedList.ExtRemoteTypedList(ULONG64,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool)
 title: ExtRemoteTypedList::ExtRemoteTypedList(ULONG64,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool)
-author: windows-driver-content
 description: The ExtRemoteTypedList constructors create a new instance that wraps a typed singly-linked or doubly-linked list.
 old-location: debugger\extremotetypedlist_extremotetypedlist_ulong64.htm
 tech.root: debugger

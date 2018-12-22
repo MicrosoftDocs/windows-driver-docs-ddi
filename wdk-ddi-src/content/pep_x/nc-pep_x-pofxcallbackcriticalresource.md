@@ -1,7 +1,6 @@
 ---
 UID: NC:pep_x.POFXCALLBACKCRITICALRESOURCE
 title: POFXCALLBACKCRITICALRESOURCE
-author: windows-driver-content
 description: The TransitionCriticalResource routine changes the active/inactive state of a core system component.
 old-location: kernel\transitioncriticalresource.htm
 tech.root: kernel

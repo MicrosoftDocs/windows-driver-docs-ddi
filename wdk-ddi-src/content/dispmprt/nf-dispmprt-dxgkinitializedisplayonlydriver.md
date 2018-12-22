@@ -1,7 +1,6 @@
 ---
 UID: NF:dispmprt.DxgkInitializeDisplayOnlyDriver
 title: DxgkInitializeDisplayOnlyDriver function
-author: windows-driver-content
 description: Loads and initializes the DirectX graphics kernel subsystem (Dxgkrnl.sys) for use by a kernel mode display-only driver (KMDOD).
 old-location: display\dxgkinitializedisplayonlydriver.htm
 tech.root: display

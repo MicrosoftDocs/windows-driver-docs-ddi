@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDICAPS_UMD_BASED_COMMAND_QUEUE_PRIORITY_DATA_0023
 title: D3D12DDICAPS_UMD_BASED_COMMAND_QUEUE_PRIORITY_DATA_0023
-author: windows-driver-content
 description: Contains priority data for a user-mode driver (UMD)-based command queue.
 old-location: display\d3d12ddicaps_umd_based_command_queue_priority_data_0023.htm
 ms.assetid: B82C6050-689A-4D70-831A-B935EDBBC9AC

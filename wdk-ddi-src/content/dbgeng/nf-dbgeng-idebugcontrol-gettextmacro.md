@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetTextMacro
 title: IDebugControl::GetTextMacro
-author: windows-driver-content
 description: The GetTextMacro method returns the value of a fixed-name alias.
 old-location: debugger\gettextmacro.htm
 tech.root: debugger

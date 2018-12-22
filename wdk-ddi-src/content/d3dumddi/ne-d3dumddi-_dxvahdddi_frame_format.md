@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVAHDDDI_FRAME_FORMAT
 title: "_DXVAHDDDI_FRAME_FORMAT"
-author: windows-driver-content
 description: The DXVAHDDDI_FRAME_FORMAT enumeration contains values that identify the frame format.
 old-location: display\dxvahdddi_frame_format.htm
 tech.root: display

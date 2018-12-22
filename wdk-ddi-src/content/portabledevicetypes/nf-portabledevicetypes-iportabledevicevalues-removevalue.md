@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.RemoveValue
 title: IPortableDeviceValues::RemoveValue
-author: windows-driver-content
 description: The RemoveValue method removes an item from the collection.
 old-location: wpddk\iportabledevicevalues_removevalue.htm
 tech.root: wpd_dk

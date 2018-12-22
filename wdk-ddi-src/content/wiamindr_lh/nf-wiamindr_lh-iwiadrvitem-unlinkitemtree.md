@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaDrvItem.UnlinkItemTree
 title: IWiaDrvItem::UnlinkItemTree
-author: windows-driver-content
 description: The IWiaDrvItem::UnlinkItemTree method unlinks the driver item tree and releases all items in the tree.
 old-location: image\iwiadrvitem_unlinkitemtree.htm
 tech.root: image

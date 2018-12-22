@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlLookupPerStreamContext
 title: FsRtlLookupPerStreamContext macro
-author: windows-driver-content
 description: The FsRtlLookupPerStreamContext macro retrieves a per-stream context structure for a file stream.
 old-location: ifsk\fsrtllookupperstreamcontext.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NS:netadapter._NET_ADAPTER_RX_CAPABILITIES
 title: _NET_ADAPTER_RX_CAPABILITIES
-author: windows-driver-content
 description: The NET_ADAPTER_RX_CAPABILITIES structure describes the receive capabilities of a net adapter.
 tech.root: netvista
 ms.assetid: 32a95b23-291f-4cee-a836-33cd7dba5149

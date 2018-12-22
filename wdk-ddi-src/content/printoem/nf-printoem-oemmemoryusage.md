@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMMemoryUsage
 title: OEMMemoryUsage function
-author: windows-driver-content
 description: This function is obsolete for Windows XP and later.wcs
 old-location: print\oemmemoryusage__function_.htm
 tech.root: print

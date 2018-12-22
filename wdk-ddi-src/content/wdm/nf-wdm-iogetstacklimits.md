@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoGetStackLimits
 title: IoGetStackLimits function
-author: windows-driver-content
 description: The IoGetStackLimits routine returns the boundaries of the current thread's stack frame.
 old-location: kernel\iogetstacklimits.htm
 tech.root: kernel

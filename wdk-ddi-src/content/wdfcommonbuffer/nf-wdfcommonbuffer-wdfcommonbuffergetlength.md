@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfcommonbuffer.WdfCommonBufferGetLength
 title: WdfCommonBufferGetLength function
-author: windows-driver-content
 description: The WdfCommonBufferGetLength method returns the length of a specified common buffer.
 old-location: wdf\wdfcommonbuffergetlength.htm
 tech.root: wdf

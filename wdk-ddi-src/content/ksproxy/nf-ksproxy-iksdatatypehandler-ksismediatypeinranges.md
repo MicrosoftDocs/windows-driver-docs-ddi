@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsDataTypeHandler.KsIsMediaTypeInRanges
 title: IKsDataTypeHandler::KsIsMediaTypeInRanges
-author: windows-driver-content
 description: The KsIsMediaTypeInRanges method validates that a media type is within the provided data ranges.
 old-location: stream\iksdatatypehandler_ksismediatypeinranges.htm
 tech.root: stream

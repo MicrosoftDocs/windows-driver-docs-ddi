@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SET_UICC_RESET
 title: "_WWAN_SET_UICC_RESET"
-author: windows-driver-content
 description: The WWAN_SET_UICC_RESET structure represents the passthrough action the MB host specifies for a modem miniport adapter after it resets a UICC smart card.
 old-location: netvista\wwan_set_uicc_reset.htm
 tech.root: netvista

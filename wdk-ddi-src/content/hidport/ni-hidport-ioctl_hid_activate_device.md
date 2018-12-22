@@ -1,7 +1,6 @@
 ---
 UID: NI:hidport.IOCTL_HID_ACTIVATE_DEVICE
 title: IOCTL_HID_ACTIVATE_DEVICE
-author: windows-driver-content
 description: The IOCTL_HID_ACTIVATE_DEVICE request activates a HIDClass device, which makes it ready for I/O operations.
 old-location: hid\ioctl_hid_activate_device.htm
 tech.root: hid

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExFreeToLookasideListEx
 title: ExFreeToLookasideListEx function
-author: windows-driver-content
 description: The ExFreeToLookasideListEx routine inserts an entry into a lookaside list, or, if the list is full, frees the allocated storage for the entry.
 old-location: kernel\exfreetolookasidelistex.htm
 tech.root: kernel

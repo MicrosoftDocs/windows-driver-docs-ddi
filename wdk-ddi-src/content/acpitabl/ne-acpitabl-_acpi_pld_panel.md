@@ -1,7 +1,6 @@
 ---
 UID: NE:acpitabl._ACPI_PLD_PANEL
 title: _ACPI_PLD_PANEL enumeration
-author: windows-driver-content
 description: Describes panel surface bits 67:69.
 ms.assetid: 7eb82460-e490-481b-8ef3-18131e876a74
 ms.date: 10/02/2018

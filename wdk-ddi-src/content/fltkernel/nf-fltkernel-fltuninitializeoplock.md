@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltUninitializeOplock
 title: FltUninitializeOplock function
-author: windows-driver-content
 description: FltUninitializeOplock uninitializes an opportunistic lock (oplock) pointer.
 old-location: ifsk\fltuninitializeoplock.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMALPHA
 title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMALPHA
-author: windows-driver-content
 description: Sets the planar alpha for an input stream on the video processor.
 old-location: display\videoprocessorsetstreamalpha.htm
 ms.assetid: 9208bcd7-c030-4c2f-b3bc-e1bff3839cef

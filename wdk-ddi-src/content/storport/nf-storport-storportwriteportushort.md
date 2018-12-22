@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortWritePortUshort
 title: StorPortWritePortUshort macro
-author: windows-driver-content
 description: The StorPortWritePortUshort routine writes a value to a specified register address.
 old-location: storage\storportwriteportushort.htm
 tech.root: storage

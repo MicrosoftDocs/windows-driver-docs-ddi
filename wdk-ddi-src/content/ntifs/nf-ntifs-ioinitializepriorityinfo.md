@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoInitializePriorityInfo
 title: IoInitializePriorityInfo function
-author: windows-driver-content
 description: The IoInitializePriorityInfo routine initializes a structure of type IO_PRIORITY_INFO.
 old-location: ifsk\ioinitializepriorityinfo.htm
 tech.root: ifsk

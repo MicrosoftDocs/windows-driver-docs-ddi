@@ -1,7 +1,6 @@
 ---
 UID: NF:winddiui.DrvSplClose
 title: DrvSplClose function
-author: windows-driver-content
 description: 
 old-location: print\drvsplclose.htm
 tech.root: print

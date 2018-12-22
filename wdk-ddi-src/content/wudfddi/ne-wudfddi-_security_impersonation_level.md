@@ -1,7 +1,6 @@
 ---
 UID: NE:wudfddi._SECURITY_IMPERSONATION_LEVEL
 title: "_SECURITY_IMPERSONATION_LEVEL"
-author: windows-driver-content
 description: The SECURITY_IMPERSONATION_LEVEL enumeration contains values that identify security impersonation levels.
 old-location: wdf\security_impersonation_level.htm
 tech.root: wdf

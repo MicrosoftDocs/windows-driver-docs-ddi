@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorsdef.SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT
 title: SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT function
-author: windows-driver-content
 description: This function calculates the number of SENSOR_VALUE_PAIR elements in a SENSOR_COLLECTION_LIST structure.
 old-location: sensors\sensor_collection_list_calculate_max_count.htm
 tech.root: sensors

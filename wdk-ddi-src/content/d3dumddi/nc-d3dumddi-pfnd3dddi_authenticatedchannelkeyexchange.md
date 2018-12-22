@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_AUTHENTICATEDCHANNELKEYEXCHANGE
 title: PFND3DDDI_AUTHENTICATEDCHANNELKEYEXCHANGE
-author: windows-driver-content
 description: The AuthenticatedChannelKeyExchange function negotiates the session key.
 old-location: display\authenticatedchannelkeyexchange.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SET_REGISTER_STATE
 title: "_WWAN_SET_REGISTER_STATE"
-author: windows-driver-content
 description: The WWAN_SET_REGISTER_STATE structure represents the command to set the MB device's registration mode and the network provider it should register with.
 old-location: netvista\wwan_set_register_state.htm
 tech.root: netvista

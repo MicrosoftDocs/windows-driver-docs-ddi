@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetActivityIdCallbackData
 title: FltGetActivityIdCallbackData function
-author: windows-driver-content
 description: The FltGetActivityIdCallbackData routine retrieves the current activity ID associated with a request in a minifilter's callback data.
 old-location: ifsk\fltgetactivityidcallbackdata.htm
 tech.root: ifsk

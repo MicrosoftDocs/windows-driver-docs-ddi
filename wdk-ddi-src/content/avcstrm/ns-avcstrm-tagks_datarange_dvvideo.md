@@ -1,7 +1,6 @@
 ---
 UID: NS:avcstrm.tagKS_DATARANGE_DVVIDEO
 title: tagKS_DATARANGE_DVVIDEO
-author: windows-driver-content
 description: The KS_DATARANGE_DV_AVC structure stores a range of digital video formats.
 old-location: stream\ks_datarange_dvvideo.htm
 tech.root: stream

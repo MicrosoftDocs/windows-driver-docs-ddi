@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SMS_STATUS
 title: "_WWAN_SMS_STATUS"
-author: windows-driver-content
 description: The WWAN_SMS_STATUS structure represents the status of the SMS message store.
 old-location: netvista\wwan_sms_status.htm
 tech.root: netvista

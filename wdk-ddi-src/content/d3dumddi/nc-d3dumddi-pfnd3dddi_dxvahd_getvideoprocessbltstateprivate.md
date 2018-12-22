@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE
 title: PFND3DDDI_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE
-author: windows-driver-content
 description: The GetVideoProcessBltStatePrivate function retrieves the state data of a private bit-block transfer (bitblt) for a video processor.
 old-location: display\getvideoprocessbltstateprivate.htm
 tech.root: display

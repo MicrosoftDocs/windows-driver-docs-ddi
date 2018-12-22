@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2
 title: _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2
-author: windows-driver-content
 description: Used to register the power state of a new input.
 ms.assetid: e312c3ba-7a23-41e4-bebb-b19daa7a43ae
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeInitializeDpc
 title: KeInitializeDpc function
-author: windows-driver-content
 description: The KeInitializeDpc routine initializes a DPC object, and registers a CustomDpc routine for that object.
 old-location: kernel\keinitializedpc.htm
 tech.root: kernel

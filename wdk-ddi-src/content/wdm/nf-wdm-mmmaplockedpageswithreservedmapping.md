@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.MmMapLockedPagesWithReservedMapping
 title: MmMapLockedPagesWithReservedMapping function
-author: windows-driver-content
 description: The MmMapLockedPagesWithReservedMapping routine maps all or part of an address range that was previously reserved by the MmAllocateMappingAddress routine.
 old-location: kernel\mmmaplockedpageswithreservedmapping.htm
 tech.root: kernel

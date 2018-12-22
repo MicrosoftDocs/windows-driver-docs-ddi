@@ -1,7 +1,6 @@
 ---
 UID: NF:udecxusbdevice.UdecxUsbDeviceInitAllocate
 title: UdecxUsbDeviceInitAllocate function
-author: windows-driver-content
 description: Allocates memory for a UDECXUSBDEVICE_INIT structure that is used to initialize a virtual USB device.
 old-location: buses\udecxusbdeviceinitallocate.htm
 tech.root: usbref

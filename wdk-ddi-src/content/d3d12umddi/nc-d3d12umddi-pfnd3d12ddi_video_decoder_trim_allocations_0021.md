@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_VIDEO_DECODER_TRIM_ALLOCATIONS_0021
 title: PFND3D12DDI_VIDEO_DECODER_TRIM_ALLOCATIONS_0021
-author: windows-driver-content
 description: The pfnDecoderTrimAllocations callback function trims allocations for submissions that are finished.
 old-location: display\pfnd3d12ddi_video_decoder_trim_allocations.htm
 ms.assetid: 2E90B365-8C5D-4586-AAA8-D49CC9BBCF70

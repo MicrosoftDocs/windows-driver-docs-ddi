@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.SetEventCallbacksWide
 title: IDebugClient5::SetEventCallbacksWide
-author: windows-driver-content
 description: The SetEventCallbacksWide method registers an event callbacks object with this client.
 old-location: debugger\seteventcallbackswide.htm
 tech.root: debugger

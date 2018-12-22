@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_PACKET_SERVICE_STATE
 title: "_WWAN_PACKET_SERVICE_STATE"
-author: windows-driver-content
 description: The WWAN_PACKET_SERVICE_STATE enumeration lists the different packet service attachment states that are supported by the MB device.
 old-location: netvista\wwan_packet_service_state.htm
 tech.root: netvista

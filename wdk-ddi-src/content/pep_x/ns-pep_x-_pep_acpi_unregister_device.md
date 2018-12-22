@@ -1,7 +1,6 @@
 ---
 UID: NS:pep_x._PEP_ACPI_UNREGISTER_DEVICE
 title: "_PEP_ACPI_UNREGISTER_DEVICE"
-author: windows-driver-content
 description: The PEP_ACPI_UNREGISTER_DEVICE structure contains information about a device that has been unregistered from ACPI services.
 old-location: kernel\pep_acpi_unregister_device.htm
 tech.root: kernel

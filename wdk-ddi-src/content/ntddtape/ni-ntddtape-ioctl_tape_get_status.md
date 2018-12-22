@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddtape.IOCTL_TAPE_GET_STATUS
 title: IOCTL_TAPE_GET_STATUS
-author: windows-driver-content
 description: Returns the current status of the drive in the Status field of the I/O status block.
 old-location: storage\ioctl_tape_get_status.htm
 tech.root: storage

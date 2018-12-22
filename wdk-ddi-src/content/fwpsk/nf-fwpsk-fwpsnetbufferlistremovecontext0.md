@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsNetBufferListRemoveContext0
 title: FwpsNetBufferListRemoveContext0 function
-author: windows-driver-content
 description: The FwpsNetBufferListRemoveContext0 function removes the context associated with a network buffer list.Note  FwpsNetBufferListRemoveContext0 is a specific version of FwpsNetBufferListRemoveContext.
 old-location: netvista\fwpsnetbufferlistremovecontext0.htm
 tech.root: netvista

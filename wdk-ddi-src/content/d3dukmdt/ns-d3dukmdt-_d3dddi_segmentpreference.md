@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_SEGMENTPREFERENCE
 title: _D3DDDI_SEGMENTPREFERENCE
-author: windows-driver-content
 description: The segment preference.
 ms.assetid: d026dae6-6978-44a1-9586-d69d5fbdc052
 ms.date: 10/19/2018

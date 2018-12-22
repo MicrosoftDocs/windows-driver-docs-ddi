@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_CREATECONTEXTALLOCATION
 title: "_DXGKARGCB_CREATECONTEXTALLOCATION"
-author: windows-driver-content
 description: Specifies the allocation attributes of a GPU context or device-specific context.
 old-location: display\dxgkargcb_createcontextallocation.htm
 ms.assetid: 2f5338a9-2a53-4fee-af6a-8a052ef8c423

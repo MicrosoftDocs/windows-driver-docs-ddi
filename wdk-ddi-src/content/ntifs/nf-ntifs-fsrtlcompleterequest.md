@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlCompleteRequest
 title: FsRtlCompleteRequest macro
-author: windows-driver-content
 description: The FsRtlCompleteRequest macro completes an IRP with the specified status.
 old-location: ifsk\fsrtlcompleterequest.htm
 tech.root: ifsk

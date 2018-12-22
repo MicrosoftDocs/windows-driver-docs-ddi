@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_ESCAPE
 title: "_D3DDDICB_ESCAPE"
-author: windows-driver-content
 description: The D3DDDICB_ESCAPE structure describes information that a user-mode display driver shares with a display miniport driver.
 old-location: display\d3dddicb_escape.htm
 tech.root: display

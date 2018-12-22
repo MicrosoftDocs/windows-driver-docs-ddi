@@ -1,7 +1,6 @@
 ---
 UID: NF:udecxwdfdevice.UdecxWdfDeviceAddUsbDeviceEmulation
 title: UdecxWdfDeviceAddUsbDeviceEmulation function
-author: windows-driver-content
 description: Initializes a framework device object to support operations related to a host controller and a virtual USB device attached to the controller.
 old-location: buses\udecxwdfdeviceaddusbdeviceemulation.htm
 tech.root: usbref

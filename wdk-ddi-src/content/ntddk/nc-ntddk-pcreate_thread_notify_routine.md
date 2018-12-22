@@ -1,7 +1,6 @@
 ---
 UID: NC:ntddk.PCREATE_THREAD_NOTIFY_ROUTINE
 title: PCREATE_THREAD_NOTIFY_ROUTINE
-author: windows-driver-content
 description: A callback routine implemented by a driver to notify the caller when a thread is created or deleted.
 old-location: kernel\pcreate_thread_notify_routine.htm
 tech.root: kernel

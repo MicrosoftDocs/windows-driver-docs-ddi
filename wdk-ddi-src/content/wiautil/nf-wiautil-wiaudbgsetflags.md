@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgSetFlags
 title: wiauDbgSetFlags macro
-author: windows-driver-content
 description: The wiauDbgSetFlags function sets debugging flags.
 old-location: image\wiaudbgsetflags.htm
 tech.root: image

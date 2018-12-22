@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisGetVersion
 title: NdisGetVersion function
-author: windows-driver-content
 description: The NdisGetVersion function returns the version number of NDIS.
 old-location: netvista\ndisgetversion.htm
 tech.root: netvista

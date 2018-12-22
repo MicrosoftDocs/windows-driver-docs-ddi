@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_VIDEO_SIGNAL_STANDARD
 title: "_D3DKMDT_VIDEO_SIGNAL_STANDARD"
-author: windows-driver-content
 description: The D3DKMDT_VIDEO_SIGNAL_STANDARD enumeration contains constants that represent video signal standards.
 old-location: display\d3dkmdt_video_signal_standard.htm
 tech.root: display

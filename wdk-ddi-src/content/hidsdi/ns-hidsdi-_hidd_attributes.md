@@ -1,7 +1,6 @@
 ---
 UID: NS:hidsdi._HIDD_ATTRIBUTES
 title: "_HIDD_ATTRIBUTES"
-author: windows-driver-content
 description: The HIDD_ATTRIBUTES structure contains vendor information about a HIDClass device.
 old-location: hid\hidd_attributes.htm
 tech.root: hid

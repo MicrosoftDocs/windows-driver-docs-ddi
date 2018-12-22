@@ -1,7 +1,6 @@
 ---
 UID: NS:winsplp._MONITORREG
 title: "_MONITORREG"
-author: windows-driver-content
 description: The MONITORREG structure supplies print monitors with the address of registry functions to use instead of Win32 registry API functions.
 old-location: print\monitorreg.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NS:dxva._DXVA_MBctrl_I_HostResidDiff_1
 title: "_DXVA_MBctrl_I_HostResidDiff_1"
-author: windows-driver-content
 description: The DXVA_MBctrl_I_HostResidDiff_1 structure is sent once per macroblock by the host decoder to the accelerator to specify macroblock control commands for an intra picture.
 old-location: display\dxva_mbctrl_i_hostresiddiff_1.htm
 tech.root: display

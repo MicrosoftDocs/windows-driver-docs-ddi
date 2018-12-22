@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeSetCoalescableTimer
 title: KeSetCoalescableTimer function
-author: windows-driver-content
 description: The KeSetCoalescableTimer routine sets the initial expiration time and period of a timer object and specifies how much delay can be tolerated in the expiration times.
 old-location: kernel\kesetcoalescabletimer.htm
 tech.root: kernel

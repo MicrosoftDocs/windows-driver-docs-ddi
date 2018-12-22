@@ -1,7 +1,6 @@
 ---
 UID: NS:windot11._DOT11_WFD_ADDITIONAL_IE
 title: "_DOT11_WFD_ADDITIONAL_IE"
-author: windows-driver-content
 description: The DOT11_WFD_ADDITIONAL_IE structure represents an additional Information Element (IE) included in an OID_DOT11_WFD_ADDITIONAL_IE request. An additional IE contains both request and response data for probe and beacon operations.
 old-location: netvista\_dot11_wfd_additional_ie.htm
 tech.root: netvista

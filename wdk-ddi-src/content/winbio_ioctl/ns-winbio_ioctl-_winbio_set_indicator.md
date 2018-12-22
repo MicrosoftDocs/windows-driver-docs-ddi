@@ -1,7 +1,6 @@
 ---
 UID: NS:winbio_ioctl._WINBIO_SET_INDICATOR
 title: "_WINBIO_SET_INDICATOR"
-author: windows-driver-content
 description: The WINBIO_SET_INDICATOR structure is the IN payload for IOCTL_BIOMETRIC_SET_INDICATOR.
 old-location: biometric\winbio_set_indicator.htm
 tech.root: biometric

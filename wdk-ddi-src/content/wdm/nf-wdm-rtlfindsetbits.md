@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlFindSetBits
 title: RtlFindSetBits function
-author: windows-driver-content
 description: The RtlFindSetBits routine searches for a range of set bits of a requested size within a bitmap.
 old-location: kernel\rtlfindsetbits.htm
 tech.root: kernel

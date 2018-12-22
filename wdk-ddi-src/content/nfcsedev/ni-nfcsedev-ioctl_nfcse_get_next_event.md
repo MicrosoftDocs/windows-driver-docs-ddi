@@ -1,7 +1,6 @@
 ---
 UID: NI:nfcsedev.IOCTL_NFCSE_GET_NEXT_EVENT
 title: IOCTL_NFCSE_GET_NEXT_EVENT
-author: windows-driver-content
 description: The IOCTL_NFCSE_GET_NEXT_EVENT control code returns the next event available in the buffer, or if there are no more buffered events remains pending until a secure element event is available. The event details must then be returned to the caller.
 old-location: nfpdrivers\ioctl_nfcse_get_next_event.htm
 tech.root: nfpdrivers

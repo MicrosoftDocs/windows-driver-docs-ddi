@@ -1,7 +1,6 @@
 ---
 UID: NC:hdaudio.PGET_WALL_CLOCK_REGISTER
 title: PGET_WALL_CLOCK_REGISTER
-author: windows-driver-content
 description: The GetWallClockRegister routine retrieves a pointer to the wall clock register.The function pointer type for a GetWallClockRegister routine is defined as follows.
 old-location: audio\getwallclockregister.htm
 tech.root: audio

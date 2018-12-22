@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDriver.CreateDevice
 title: IWDFDriver::CreateDevice
-author: windows-driver-content
 description: The CreateDevice method configures and creates a new framework device object.
 old-location: wdf\iwdfdriver_createdevice.htm
 tech.root: wdf

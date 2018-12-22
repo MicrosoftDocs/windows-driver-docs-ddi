@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltReuseCallbackData
 title: FltReuseCallbackData function
-author: windows-driver-content
 description: The FltReuseCallbackData routine reinitializes a callback data structure so that it can be reused.
 old-location: ifsk\fltreusecallbackdata.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CM_CLOSE_AF
 title: PROTOCOL_CM_CLOSE_AF
-author: windows-driver-content
 description: The ProtocolCmCloseAf function is a required function that releases per-open resources for an address family that a call manager supports.Note  You must declare the function by using the PROTOCOL_CM_CLOSE_AF type.
 old-location: netvista\protocolcmcloseaf.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoQueryFullDriverPath
 title: IoQueryFullDriverPath function
-author: windows-driver-content
 description: The IoQueryFullDriverPath routine retrieves the full path name of the binary file that is loaded for the specified driver object.
 old-location: kernel\ioqueryfulldriverpath.htm
 tech.root: kernel

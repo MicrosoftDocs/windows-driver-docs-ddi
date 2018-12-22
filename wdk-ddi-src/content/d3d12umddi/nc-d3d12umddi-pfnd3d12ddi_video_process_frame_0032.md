@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_VIDEO_PROCESS_FRAME_0032
 title: PFND3D12DDI_VIDEO_PROCESS_FRAME_0032
-author: windows-driver-content
 description: Used to process a video frame.
 old-location: display\pfnd3d12ddi_video_process_frame_0032.htm
 ms.assetid: C7923B09-FBA2-43EE-A56B-0B8B6C3403A0

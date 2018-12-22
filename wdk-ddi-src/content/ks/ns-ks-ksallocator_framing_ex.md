@@ -1,7 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_42
 title: KSALLOCATOR_FRAMING_EX
-author: windows-driver-content
 description: The KSALLOCATOR_FRAMING_EX structure is the AVStream replacement for KSALLOCATOR_FRAMING. KSALLOCATOR_FRAMING_EX defines allocator requirements on a pin in a kernel level filter.
 old-location: stream\ksallocator_framing_ex.htm
 tech.root: stream

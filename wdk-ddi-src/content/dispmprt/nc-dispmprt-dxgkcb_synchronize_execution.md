@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_SYNCHRONIZE_EXECUTION
 title: DXGKCB_SYNCHRONIZE_EXECUTION
-author: windows-driver-content
 description: The DxgkCbSynchronizeExecution function synchronizes a specified function, implemented by the display miniport driver, with the display miniport driver's DxgkDdiInterruptRoutine function.
 old-location: display\dxgkcbsynchronizeexecution.htm
 tech.root: display

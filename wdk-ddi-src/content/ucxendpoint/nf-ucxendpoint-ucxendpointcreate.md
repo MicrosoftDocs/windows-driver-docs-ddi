@@ -1,7 +1,6 @@
 ---
 UID: NF:ucxendpoint.UcxEndpointCreate
 title: UcxEndpointCreate function
-author: windows-driver-content
 description: Creates an endpoint on the specified USB device object.
 old-location: buses\_ucxendpointcreate.htm
 tech.root: usbref

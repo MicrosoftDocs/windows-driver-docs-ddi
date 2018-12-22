@@ -1,7 +1,6 @@
 ---
 UID: NI:ks.IOCTL_KS_DISABLE_EVENT
 title: IOCTL_KS_DISABLE_EVENT
-author: windows-driver-content
 description: An application can use IOCTL_KS_DISABLE_EVENT to rescind a previous request notification. The application specifies IOCTL_KS_DISABLE_EVENT in the IoControl parameter of a call to KsSynchronousDeviceControl.
 old-location: stream\ioctl_ks_disable_event.htm
 tech.root: stream

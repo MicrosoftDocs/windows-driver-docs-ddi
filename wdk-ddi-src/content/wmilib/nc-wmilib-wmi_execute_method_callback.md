@@ -1,7 +1,6 @@
 ---
 UID: NC:wmilib.WMI_EXECUTE_METHOD_CALLBACK
 title: WMI_EXECUTE_METHOD_CALLBACK
-author: windows-driver-content
 description: The DpWmiExecuteMethod routine executes a method associated with a data block. This routine is optional.
 old-location: kernel\dpwmiexecutemethod.htm
 tech.root: kernel

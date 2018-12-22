@@ -1,7 +1,6 @@
 ---
 UID: NI:ntdd8042.IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER
 title: IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER
-author: windows-driver-content
 description: The IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER request writes data to the i8042 port controller to control operation of a keyboard device.
 old-location: hid\ioctl_internal_i8042_keyboard_write_buffer.htm
 tech.root: hid

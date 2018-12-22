@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient3.IsKernelDebuggerEnabled
 title: IDebugClient3::IsKernelDebuggerEnabled
-author: windows-driver-content
 description: The IsKernelDebuggerEnabled method checks whether kernel debugging is enabled for the local kernel.
 old-location: debugger\iskerneldebuggerenabled.htm
 tech.root: debugger

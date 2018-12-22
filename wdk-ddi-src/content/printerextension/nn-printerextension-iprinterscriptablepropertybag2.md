@@ -1,7 +1,6 @@
 ---
 UID: NN:printerextension.IPrinterScriptablePropertyBag2
 title: IPrinterScriptablePropertyBag2
-author: windows-driver-content
 description: 
 old-location: print\iprinterscriptablepropertybag2.htm
 tech.root: print

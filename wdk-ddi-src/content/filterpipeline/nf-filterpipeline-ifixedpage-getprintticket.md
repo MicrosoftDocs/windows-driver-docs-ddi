@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IFixedPage.GetPrintTicket
 title: IFixedPage::GetPrintTicket
-author: windows-driver-content
 description: The GetPrintTicket method gets the print ticket object for the fixed page.
 old-location: print\ifixedpage_getprintticket.htm
 tech.root: print

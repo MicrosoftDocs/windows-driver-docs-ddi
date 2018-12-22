@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsStreamContinue0
 title: FwpsStreamContinue0 function
-author: windows-driver-content
 description: The FwpsStreamContinue0 function resumes the processing of an inbound data stream that was previously deferred.Note  FwpsStreamContinue0 is a specific version of FwpsStreamContinue.
 old-location: netvista\fwpsstreamcontinue0.htm
 tech.root: netvista

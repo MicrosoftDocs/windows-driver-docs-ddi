@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.POB_PRE_OPERATION_CALLBACK
 title: POB_PRE_OPERATION_CALLBACK
-author: windows-driver-content
 description: The ObjectPreCallback routine is called by the operating system when a process or thread handle operation occurs.
 old-location: kernel\objectprecallback.htm
 tech.root: kernel

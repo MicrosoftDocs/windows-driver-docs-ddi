@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.GetOffset
 title: IDebugBreakpoint::GetOffset
-author: windows-driver-content
 description: The GetOffset method returns the location that triggers a breakpoint.
 old-location: debugger\getoffset.htm
 tech.root: debugger

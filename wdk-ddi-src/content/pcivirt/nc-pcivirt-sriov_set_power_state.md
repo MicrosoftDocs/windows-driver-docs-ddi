@@ -1,7 +1,6 @@
 ---
 UID: NC:pcivirt.SRIOV_SET_POWER_STATE
 title: SRIOV_SET_POWER_STATE
-author: windows-driver-content
 description: Sets the power state of the specified PCI Express SR-IOV Virtual Function (VF).
 old-location: pci\sriov_set_power_state.htm
 tech.root: PCI

@@ -1,7 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_FIELDS_ALE_RESOURCE_ASSIGNMENT_V6_
 title: FWPS_FIELDS_ALE_RESOURCE_ASSIGNMENT_V6_
-author: windows-driver-content
 description: The FWPS_FIELDS_ALE_RESOURCE_ASSIGNMENT_V6enumeration type specifies the data field identifiers for the FWPS_LAYER_ALE_RESOURCE_ASSIGNMENT_V6 and FWPS_LAYER_ALE_RESOURCE_ASSIGNMENT_V6_DISCARD run-time filtering layers.
 old-location: netvista\fwps_fields_ale_resource_assignment_v6.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionEventArgs.get_DetailedReasonId
 title: IPrinterExtensionEventArgs::get_DetailedReasonId
-author: windows-driver-content
 description: Gets a more detailed activation reason than what can be retrieved from ReasonId.
 old-location: print\iprinterextensioneventargs_detailedreasonid.htm
 tech.root: print

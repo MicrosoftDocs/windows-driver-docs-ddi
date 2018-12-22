@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_CREATEOVERLAY
 title: "_D3DDDICB_CREATEOVERLAY"
-author: windows-driver-content
 description: The D3DDDICB_CREATEOVERLAY structure describes overlay hardware.
 old-location: display\d3dddicb_createoverlay.htm
 tech.root: display

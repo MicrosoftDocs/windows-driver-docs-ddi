@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._REG_REPLACE_KEY_INFORMATION
 title: "_REG_REPLACE_KEY_INFORMATION"
-author: windows-driver-content
 description: The REG_REPLACE_KEY_INFORMATION structure describes the metadata that is about to be replaced for a key.
 old-location: kernel\reg_replace_key_information.htm
 tech.root: kernel

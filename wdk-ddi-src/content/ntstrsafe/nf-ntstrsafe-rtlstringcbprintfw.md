@@ -1,7 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCbPrintfW
 title: RtlStringCbPrintfW function
-author: windows-driver-content
 description: The RtlStringCbPrintfW and RtlStringCbPrintfA functions create a byte-counted text string, with formatting that is based on supplied formatting information.
 old-location: kernel\rtlstringcbprintf.htm
 tech.root: kernel

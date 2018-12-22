@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetLogMask
 title: IDebugControl::GetLogMask
-author: windows-driver-content
 description: The GetLogMask method returns the output mask for the currently open log file.
 old-location: debugger\getlogmask.htm
 tech.root: debugger

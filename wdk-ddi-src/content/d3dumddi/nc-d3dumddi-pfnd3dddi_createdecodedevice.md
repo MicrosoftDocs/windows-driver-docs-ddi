@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATEDECODEDEVICE
 title: PFND3DDDI_CREATEDECODEDEVICE
-author: windows-driver-content
 description: The CreateDecodeDevice function creates a Microsoft DirectX Video Acceleration (DirectX VA) decode device that is used to decode video.
 old-location: display\createdecodedevice.htm
 tech.root: display

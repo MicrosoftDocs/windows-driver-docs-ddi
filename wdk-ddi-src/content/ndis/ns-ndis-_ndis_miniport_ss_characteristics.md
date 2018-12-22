@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_MINIPORT_SS_CHARACTERISTICS
 title: "_NDIS_MINIPORT_SS_CHARACTERISTICS"
-author: windows-driver-content
 description: The NDIS_MINIPORT_SS_CHARACTERISTICS structure specifies the pointers to a miniport driver's NDIS selective suspend handler functions. These functions are called by NDIS to issue idle notifications to the driver during a selective suspend operation.
 old-location: netvista\ndis_miniport_ss_characteristics.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_PAUSE
 title: MINIPORT_PAUSE
-author: windows-driver-content
 description: NDIS calls a miniport driver's MiniportPause function to stop the flow of network data through a specified miniport adapter.
 old-location: netvista\miniportpause.htm
 tech.root: netvista

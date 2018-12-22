@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_GETCAPTUREALLOCATIONHANDLE
 title: "_D3DDDIARG_GETCAPTUREALLOCATIONHANDLE"
-author: windows-driver-content
 description: The D3DDDIARG_GETCAPTUREALLOCATIONHANDLE structure describes the parameters for retrieving an allocation handle from a capture resource handle.
 old-location: display\d3dddiarg_getcaptureallocationhandle.htm
 tech.root: display

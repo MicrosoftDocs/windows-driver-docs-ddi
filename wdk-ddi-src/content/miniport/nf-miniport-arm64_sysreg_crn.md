@@ -1,7 +1,6 @@
 ---
 UID: NF:miniport.ARM64_SYSREG_CRN
 title: ARM64_SYSREG_CRN macro
-author: windows-driver-content
 description: Returns the CRn field for a given ARM system register encoding value. For more information, see the ARM Architecture Reference Manual.
 ms.assetid: e49773c3-d777-4f0b-b14f-1bd505f55f43
 ms.date: 09/20/2018

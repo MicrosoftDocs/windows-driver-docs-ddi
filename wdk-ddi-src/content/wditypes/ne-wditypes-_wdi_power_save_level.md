@@ -1,7 +1,6 @@
 ---
 UID: NE:wditypes._WDI_POWER_SAVE_LEVEL
 title: "_WDI_POWER_SAVE_LEVEL"
-author: windows-driver-content
 description: The WDI_POWER_SAVE_LEVEL enumeration defines the power save levels.
 old-location: netvista\wdi_power_save_level.htm
 tech.root: netvista

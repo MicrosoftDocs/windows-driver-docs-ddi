@@ -1,7 +1,6 @@
 ---
 UID: NF:hidpi.HidP_SetUsages
 title: HidP_SetUsages function
-author: windows-driver-content
 description: The HidP_SetUsages routine sets specified HID control buttons ON (1) in a HID report.
 old-location: hid\hidp_setusages.htm
 tech.root: hid

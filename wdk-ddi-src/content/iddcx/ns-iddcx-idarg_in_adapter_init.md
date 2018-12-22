@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_ADAPTER_INIT
 title: IDARG_IN_ADAPTER_INIT
-author: windows-driver-content
 description: Initializes an adapter that will be hosted on a WDF device.
 old-location: display\idarg_in_adapter_init.htm
 tech.root: display

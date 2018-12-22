@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoStartNextPacket
 title: IoStartNextPacket function
-author: windows-driver-content
 description: The IoStartNextPacket routine dequeues the next IRP, if any, from the given device object's associated device queue and calls the driver's StartIo routine.
 old-location: kernel\iostartnextpacket.htm
 tech.root: kernel

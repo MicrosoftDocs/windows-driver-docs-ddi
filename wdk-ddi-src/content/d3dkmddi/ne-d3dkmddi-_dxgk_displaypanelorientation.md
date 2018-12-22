@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_DISPLAYPANELORIENTATION
 title: "_DXGK_DISPLAYPANELORIENTATION"
-author: windows-driver-content
 description: Enum used to express the orientation of an integrated panel.
 old-location: display\dxgk_displaypanelorientation.htm
 ms.assetid: 49758A57-EFCE-4E9C-9BF6-74F6EFD356D9

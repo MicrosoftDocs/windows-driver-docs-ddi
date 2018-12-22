@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.FILTER_CANCEL_DIRECT_OID_REQUEST
 title: FILTER_CANCEL_DIRECT_OID_REQUEST
-author: windows-driver-content
 description: NDIS calls a filter driver's FilterCancelDirectOidRequest function to cancel a direct OID request.Note  You must declare the function by using the FILTER_CANCEL_DIRECT_OID_REQUEST type.
 old-location: netvista\filtercanceldirectoidrequest.htm
 tech.root: netvista

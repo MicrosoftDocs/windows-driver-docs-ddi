@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_NETWORK_IDLE_HINT
 title: "_NDIS_WWAN_NETWORK_IDLE_HINT"
-author: windows-driver-content
 description: The NDIS_WWAN_NETWORK_IDLE_HINT structure contains a hint for the network interface regarding whether data is expected to be active or idle on the interface.
 old-location: netvista\ndis_wwan_network_idle_hint.htm
 tech.root: netvista

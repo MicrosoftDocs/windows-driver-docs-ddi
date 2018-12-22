@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeQuerySystemTime~r1
 title: KeQuerySystemTime function
-author: windows-driver-content
 description: The KeQuerySystemTime routine obtains the current system time.
 old-location: kernel\kequerysystemtime.htm
 tech.root: kernel

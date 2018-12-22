@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugPlmClient3.LaunchAndDebugPlmAppWide
 title: IDebugPlmClient3::LaunchAndDebugPlmAppWide
-author: windows-driver-content
 description: Launches and attaches to a Process Lifecycle Management (PLM) application.
 old-location: debugger\idebugplmclient3_launchanddebugplmappwide.htm
 tech.root: debugger

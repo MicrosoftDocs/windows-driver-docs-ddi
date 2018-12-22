@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_COLORFILLFLAGS
 title: "_D3DDDI_COLORFILLFLAGS"
-author: windows-driver-content
 description: The D3DDDI_COLORFILLFLAGS structure describes how to color-fill a rectangle on a surface.
 old-location: display\d3dddi_colorfillflags.htm
 tech.root: display

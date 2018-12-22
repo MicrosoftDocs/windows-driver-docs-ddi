@@ -1,7 +1,6 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_CREATE_SECURE_SERVICE_SESSION_CONTEXT
 title: EVT_TR_CREATE_SECURE_SERVICE_SESSION_CONTEXT
-author: windows-driver-content
 description: 
 ms.assetid: 398accdf-300c-43d5-b460-f87f83c6edfc
 ms.date: 10/19/2018

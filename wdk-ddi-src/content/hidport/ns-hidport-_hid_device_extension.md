@@ -1,7 +1,6 @@
 ---
 UID: NS:hidport._HID_DEVICE_EXTENSION
 title: "_HID_DEVICE_EXTENSION"
-author: windows-driver-content
 description: The HID_DEVICE_EXTENSION structure is used by a HID minidriver as its layout for the device extension of a HIDClass device's functional device object.
 old-location: hid\hid_device_extension.htm
 tech.root: hid

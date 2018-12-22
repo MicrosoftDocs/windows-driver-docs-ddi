@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_FILTER_RESTART_PARAMETERS
 title: "_NDIS_FILTER_RESTART_PARAMETERS"
-author: windows-driver-content
 description: The NDIS_FILTER_RESTART_PARAMETERS structure defines the restart parameters for the filter module.
 old-location: netvista\ndis_filter_restart_parameters.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_IPSEC_OFFLOAD_V2
 title: "_NDIS_IPSEC_OFFLOAD_V2"
-author: windows-driver-content
 description: The NDIS_IPSEC_OFFLOAD_V2 structure provides information about Internet protocol security (IPsec) version 2 task offload capabilities in the NDIS_OFFLOAD structure.
 old-location: netvista\ndis_ipsec_offload_v2.htm
 tech.root: netvista

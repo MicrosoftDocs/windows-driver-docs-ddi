@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetCurrentThreadTeb
 title: IDebugSystemObjects3::GetCurrentThreadTeb
-author: windows-driver-content
 description: The GetCurrentThreadTeb method returns the location of the thread environment block (TEB) for the current thread.
 old-location: debugger\getcurrentthreadteb.htm
 tech.root: debugger

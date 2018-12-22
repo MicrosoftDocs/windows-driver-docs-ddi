@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetPossibleExecutingProcessorTypes
 title: IDebugControl2::GetPossibleExecutingProcessorTypes
-author: windows-driver-content
 description: The GetPossibleExecutingProcessorTypes method returns the processor types that are supported by the computer running the current target.
 old-location: debugger\getpossibleexecutingprocessortypes.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeIoWorkItem
 title: NdisFreeIoWorkItem function
-author: windows-driver-content
 description: NDIS drivers call the NdisFreeIoWorkItem function to free a specified work item.
 old-location: netvista\ndisfreeioworkitem.htm
 tech.root: netvista

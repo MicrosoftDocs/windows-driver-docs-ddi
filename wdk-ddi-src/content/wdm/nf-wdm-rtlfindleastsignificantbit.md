@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlFindLeastSignificantBit
 title: RtlFindLeastSignificantBit function
-author: windows-driver-content
 description: The RtlFindLeastSignificantBit routine returns the zero-based position of the least significant nonzero bit in its parameter.
 old-location: kernel\rtlfindleastsignificantbit.htm
 tech.root: kernel

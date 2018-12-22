@@ -1,7 +1,6 @@
 ---
 UID: NE:windot11._DOT11_WPS_CONFIG_METHOD
 title: "_DOT11_WPS_CONFIG_METHOD"
-author: windows-driver-content
 description: The DOT11_WPS_CONFIG_METHOD enumeration specifies the Wi-Fi Protected Setup methods.
 old-location: netvista\dot11_wps_config_method.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdbgexts.TranslateVirtualToPhysical
 title: TranslateVirtualToPhysical function
-author: windows-driver-content
 description: The TranslateVirtualToPhysical function translates a virtual memory address into a physical memory address.
 old-location: debugger\translatevirtualtophysical.htm
 tech.root: debugger

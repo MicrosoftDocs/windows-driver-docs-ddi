@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_RECEIVE_QUEUE_TYPE
 title: "_NDIS_RECEIVE_QUEUE_TYPE"
-author: windows-driver-content
 description: The NDIS_RECEIVE_QUEUE_TYPE enumeration identifies the type of a receive queue.
 old-location: netvista\ndis_receive_queue_type.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IPowerNotify.PowerChangeNotify
 title: IPowerNotify::PowerChangeNotify
-author: windows-driver-content
 description: The PowerChangeNotify method notifies the miniport driver of changes in the power state.
 old-location: audio\ipowernotify_powerchangenotify.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ObReferenceObjectByPointerWithTag
 title: ObReferenceObjectByPointerWithTag function
-author: windows-driver-content
 description: The ObReferenceObjectByPointerWithTag routine increments the reference count of the specified object, and writes a four-byte tag value to the object to support object reference tracing.
 old-location: kernel\obreferenceobjectbypointerwithtag.htm
 tech.root: kernel

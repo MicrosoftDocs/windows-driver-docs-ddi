@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisFRegisterFilterDriver
 title: NdisFRegisterFilterDriver function
-author: windows-driver-content
 description: A filter driver calls the NdisFRegisterFilterDriver function to register its FilterXxx functions with NDIS.
 old-location: netvista\ndisfregisterfilterdriver.htm
 tech.root: netvista

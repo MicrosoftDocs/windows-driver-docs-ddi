@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorsclassextension.ISensorClassExtension.Uninitialize
 title: ISensorClassExtension::Uninitialize
-author: windows-driver-content
 description: The ISensorClassExtension::Uninitialize method uninitializes the sensor class extension object.
 old-location: sensors\isensorclassextension_uninitialize.htm
 tech.root: sensors

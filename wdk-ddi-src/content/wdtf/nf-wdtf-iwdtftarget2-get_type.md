@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.get_Type
 title: IWDTFTarget2::get_Type
-author: windows-driver-content
 description: Gets a value that identifies the depot that the target comes from.
 old-location: dtf\iwdtftarget2_type.htm
 tech.root: dtf

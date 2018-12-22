@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.GetGlobalAttribute
 title: IPrintCoreUI2::GetGlobalAttribute
-author: windows-driver-content
 description: The IPrintCoreUI2::GetGlobalAttribute method retrieves the global attribute list or the value of a specific global attribute.
 old-location: print\iprintcoreui2_getglobalattribute.htm
 tech.root: print

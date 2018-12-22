@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WDF_PNPPOWER_EVENT_CALLBACKS_INIT
 title: WDF_PNPPOWER_EVENT_CALLBACKS_INIT function
-author: windows-driver-content
 description: The WDF_PNPPOWER_EVENT_CALLBACKS_INIT function initializes a driver's WDF_PNPPOWER_EVENT_CALLBACKS structure.
 old-location: wdf\wdf_pnppower_event_callbacks_init.htm
 tech.root: wdf

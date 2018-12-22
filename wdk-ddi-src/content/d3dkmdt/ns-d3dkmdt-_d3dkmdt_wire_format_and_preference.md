@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_WIRE_FORMAT_AND_PREFERENCE
 title: "_D3DKMDT_WIRE_FORMAT_AND_PREFERENCE"
-author: windows-driver-content
 description: Holds information about the preferred pixel encoding format.
 old-location: display\d3dkmdt_wire_format_and_preference.htm
 tech.root: display

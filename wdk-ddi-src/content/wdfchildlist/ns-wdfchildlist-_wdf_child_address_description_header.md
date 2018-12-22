@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfchildlist._WDF_CHILD_ADDRESS_DESCRIPTION_HEADER
 title: "_WDF_CHILD_ADDRESS_DESCRIPTION_HEADER"
-author: windows-driver-content
 description: The WDF_CHILD_ADDRESS_DESCRIPTION_HEADER structure is a header structure that must be the first member of every address description structure.
 old-location: wdf\wdf_child_address_description_header.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_TS_SELECTORINFO_ISDBS_EXT
 title: "_BDA_TS_SELECTORINFO_ISDBS_EXT"
-author: windows-driver-content
 description: 
 old-location: stream\bda_ts_selectorinfo_isdbs_ext.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_MAPMDLTOIOMMU
 title: _DXGKARGCB_MAPMDLTOIOMMU
-author: windows-driver-content
 description: Arguments used by the DXGKCB_MAPMDLTOIOMMU callback function.
 ms.assetid: 2dc0bd13-f7d3-44b4-a1da-ee05ff63d832
 ms.date: 10/19/2018

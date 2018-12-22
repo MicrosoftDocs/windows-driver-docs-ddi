@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.CcZeroData
 title: CcZeroData function
-author: windows-driver-content
 description: The CcZeroData routine zeros the specified range of bytes in a cached or noncached file.
 old-location: ifsk\cczerodata.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_GETPITCH
 title: PFND3DDDI_GETPITCH
-author: windows-driver-content
 description: The GetPitch function retrieves the pitch of a protected or non-lockable surface.
 old-location: display\getpitch.htm
 tech.root: display

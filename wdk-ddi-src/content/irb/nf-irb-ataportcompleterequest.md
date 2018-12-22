@@ -1,7 +1,6 @@
 ---
 UID: NF:irb.AtaPortCompleteRequest
 title: AtaPortCompleteRequest function
-author: windows-driver-content
 description: The AtaPortCompleteRequest routine completes the indicated IRB.
 old-location: storage\ataportcompleterequest.htm
 tech.root: storage

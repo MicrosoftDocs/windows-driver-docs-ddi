@@ -1,7 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_GET_LENGTH_INFO
 title: IOCTL_DISK_GET_LENGTH_INFO
-author: windows-driver-content
 description: Returns the length, in bytes, of the disk, partition, or volume associated with the device object that is the target of the request.
 old-location: storage\ioctl_disk_get_length_info.htm
 tech.root: storage

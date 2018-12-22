@@ -1,7 +1,6 @@
 ---
 UID: NS:ntdddisk._IDEREGS
 title: "_IDEREGS"
-author: windows-driver-content
 description: The IDEREGS structure is used to report the contents of the IDE controller registers.
 old-location: storage\ideregs.htm
 tech.root: storage

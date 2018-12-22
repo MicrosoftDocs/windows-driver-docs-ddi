@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_122
 title: KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S
-author: windows-driver-content
 description: Describes region of interest (ROI) control properties in the PROPSETID_VIDCAP_CAMERACONTROL_REGION_OF_INTEREST camera control property set.
 old-location: stream\ksproperty_cameracontrol_region_of_interest_s.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfobject._WDF_OBJECT_CONTEXT_TYPE_INFO
 title: "_WDF_OBJECT_CONTEXT_TYPE_INFO"
-author: windows-driver-content
 description: The WDF_OBJECT_CONTEXT_TYPE_INFO structure describes a framework object's driver-defined context memory.
 old-location: wdf\wdf_object_context_type_info.htm
 tech.root: wdf

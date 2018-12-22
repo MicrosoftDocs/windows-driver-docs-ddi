@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_GET_DEVICE_INFORMATION
 title: DXGKCB_GET_DEVICE_INFORMATION
-author: windows-driver-content
 description: The DxgkCbGetDeviceInformation function gets information, including the registry path and a list of translated resources, about a specified display adapter.
 old-location: display\dxgkcbgetdeviceinformation.htm
 tech.root: display

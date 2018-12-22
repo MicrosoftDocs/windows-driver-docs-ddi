@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.WIAS_LERROR
 title: WIAS_LERROR macro
-author: windows-driver-content
 description: The WIAS_LERROR macro is obsolete for Windows Vista and later. It is recommended that the WIAS_ERROR macro be used instead.The WIAS_LERROR macro writes a diagnostic WIA_ERROR message to the log file.
 old-location: image\wias_lerror.htm
 tech.root: image

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddcdvd._DVD_COPY_PROTECT_KEY
 title: "_DVD_COPY_PROTECT_KEY"
-author: windows-driver-content
 description: The DVD_COPY_PROTECT_KEY structure is used in conjunction with the IOCTL_DVD_READ_KEY request to execute a report key command of the specified type.
 old-location: storage\dvd_copy_protect_key.htm
 tech.root: storage

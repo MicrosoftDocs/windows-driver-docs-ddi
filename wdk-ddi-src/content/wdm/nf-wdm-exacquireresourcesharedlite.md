@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExAcquireResourceSharedLite
 title: ExAcquireResourceSharedLite function
-author: windows-driver-content
 description: The ExAcquireResourceSharedLite routine acquires the given resource for shared access by the calling thread.
 old-location: kernel\exacquireresourcesharedlite.htm
 tech.root: kernel

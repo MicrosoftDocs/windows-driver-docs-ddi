@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMAllocatePort
 title: NdisMAllocatePort function
-author: windows-driver-content
 description: The NdisMAllocatePort function allocates an NDIS port that is associated with a miniport adapter.
 old-location: netvista\ndismallocateport.htm
 tech.root: netvista

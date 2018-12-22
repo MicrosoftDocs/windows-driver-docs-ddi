@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE
 title: "_PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE"
-author: windows-driver-content
 description: The PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE structure contains the results of an ACPI control method that was asynchronously evaluated by the platform extension plug-in (PEP).
 old-location: kernel\pep_work_acpi_evaluate_control_method_complete.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGK_CHILD_DEVICE_HPD_AWARENESS
 title: "_DXGK_CHILD_DEVICE_HPD_AWARENESS"
-author: windows-driver-content
 description: The DXGK_CHILD_DEVICE_HPD_AWARENESS enumeration is used to describe the hot plug capabilities of a child device of a display adapter.
 old-location: display\dxgk_child_device_hpd_awareness.htm
 tech.root: display

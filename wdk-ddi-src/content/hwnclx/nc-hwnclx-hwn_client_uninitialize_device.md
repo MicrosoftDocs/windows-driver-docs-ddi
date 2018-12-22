@@ -1,7 +1,6 @@
 ---
 UID: NC:hwnclx.HWN_CLIENT_UNINITIALIZE_DEVICE
 title: HWN_CLIENT_UNINITIALIZE_DEVICE
-author: windows-driver-content
 description: Implemented by the client driver and invoked as invoked as a result of a call to EVT_WDF_DEVICE_RELEASE_HARDWARE. This callback function uninitializes the hardware notification component.
 old-location: gpiobtn\hwn_client_uninitialize_device.htm
 tech.root: gpiobtn

@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemPrintTicketProvider.PublishPrintTicketHelperInterface
 title: IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface
-author: windows-driver-content
 description: The IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface method publishes the print ticket helper interface for either Unidrv or Pscript5 user interface (UI) plug-ins.
 old-location: print\iprintoemprintticketprovider_publishprinttickethelperinterface.htm
 tech.root: print

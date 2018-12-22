@@ -1,7 +1,6 @@
 ---
 UID: NS:hidport._HID_MINIDRIVER_REGISTRATION
 title: "_HID_MINIDRIVER_REGISTRATION"
-author: windows-driver-content
 description: The HID_MINIDRIVER_REGISTRATION structure contains registration information that a HID minidriver passes to the HID Client Drivers when the minidriver registers with the class driver.
 old-location: hid\hid_minidriver_registration.htm
 tech.root: hid

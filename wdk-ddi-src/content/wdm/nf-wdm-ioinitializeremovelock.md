@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoInitializeRemoveLock
 title: IoInitializeRemoveLock macro
-author: windows-driver-content
 description: The IoInitializeRemoveLock routine initializes a remove lock for a device object.
 old-location: kernel\ioinitializeremovelock.htm
 tech.root: kernel

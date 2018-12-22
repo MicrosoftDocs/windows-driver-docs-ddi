@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.DMA_COMPLETION_ROUTINE
 title: DMA_COMPLETION_ROUTINE
-author: windows-driver-content
 description: The DmaCompletionRoutine callback routine notifies the driver that previously requested a system DMA transfer that this transfer is complete.
 old-location: kernel\dmacompletionroutine.htm
 tech.root: kernel

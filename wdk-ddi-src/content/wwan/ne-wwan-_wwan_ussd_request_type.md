@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_USSD_REQUEST_TYPE
 title: "_WWAN_USSD_REQUEST_TYPE"
-author: windows-driver-content
 description: The WWAN_USSD_REQUEST_TYPE enumeration lists the different types of Unstructured Supplementary Service Data (USSD) session requests.
 old-location: netvista\wwan_ussd_request_type.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_READ_CAPACITY
 title: "_STORAGE_READ_CAPACITY"
-author: windows-driver-content
 description: The STORAGE_READ_CAPACITY contains the disk read capacity information returned from a IOCTL_STORAGE_READ_CAPACITIY request.
 old-location: storage\storage_read_capacity.htm
 tech.root: storage

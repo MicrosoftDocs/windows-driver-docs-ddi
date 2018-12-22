@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DLIST_DRIVER_NAME
 title: _D3DKMT_DLIST_DRIVER_NAME
-author: windows-driver-content
 description: The device list file name.
 ms.assetid: 7911f08b-39a6-424b-ba4a-ac3b697b7040
 ms.date: 10/19/2018

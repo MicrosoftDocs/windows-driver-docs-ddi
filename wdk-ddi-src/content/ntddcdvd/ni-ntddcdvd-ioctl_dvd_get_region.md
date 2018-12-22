@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddcdvd.IOCTL_DVD_GET_REGION
 title: IOCTL_DVD_GET_REGION
-author: windows-driver-content
 description: Returns Region Playback Control (RPC) information for a DVD device, such as whether the player supports the RPC2 standard, the current region code of the player, and the remaining number of times the player's region code can be changed by the user.
 old-location: storage\ioctl_dvd_get_region.htm
 tech.root: storage

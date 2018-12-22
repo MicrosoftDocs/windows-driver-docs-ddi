@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IWpdSerializer.WriteIPortableDeviceValuesToBuffer
 title: IWpdSerializer::WriteIPortableDeviceValuesToBuffer
-author: windows-driver-content
 description: Serializes an IPortableDeviceValues interface to a caller-allocated byte array.
 old-location: wpddk\iwpdserializer_writeiportabledevicevaluestobuffer.htm
 tech.root: wpd_dk

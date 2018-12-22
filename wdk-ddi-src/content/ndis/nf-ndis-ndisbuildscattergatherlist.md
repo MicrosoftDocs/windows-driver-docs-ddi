@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisBuildScatterGatherList
 title: NdisBuildScatterGatherList function
-author: windows-driver-content
 description: The NdisBuildScatterGatherList function builds a scatter/gather list by using the specified parameters.
 old-location: netvista\ndisbuildscattergatherlist.htm
 tech.root: netvista

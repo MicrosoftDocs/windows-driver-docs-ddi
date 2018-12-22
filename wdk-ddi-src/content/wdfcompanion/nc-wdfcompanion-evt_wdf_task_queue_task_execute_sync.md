@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfcompanion.EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC
 title: EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC
-author: windows-driver-content
 description: For internal use only.
 old-location: wdf\evt_wdf_task_queue_task_execute_sync.htm
 tech.root: wdf

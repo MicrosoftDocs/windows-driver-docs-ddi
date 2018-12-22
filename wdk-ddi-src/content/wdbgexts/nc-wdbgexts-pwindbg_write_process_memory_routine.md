@@ -1,7 +1,6 @@
 ---
 UID: NC:wdbgexts.PWINDBG_WRITE_PROCESS_MEMORY_ROUTINE
 title: PWINDBG_WRITE_PROCESS_MEMORY_ROUTINE
-author: windows-driver-content
 description: The PWINDBG_WRITE_PROCESS_MEMORY_ROUTINE (WriteMemory) function works like the Win32 WriteProcessMemory routine. It writes memory to the process being debugged. The entire area to be written must be accessible, or the operation fails.
 old-location: debugger\writememory.htm
 tech.root: debugger

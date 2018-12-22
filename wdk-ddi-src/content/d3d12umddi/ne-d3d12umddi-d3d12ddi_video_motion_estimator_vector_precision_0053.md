@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_MOTION_ESTIMATOR_VECTOR_PRECISION_0053
 title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_VECTOR_PRECISION_0053
-author: windows-driver-content
 description: The precision of motion vector components, supported by the driver.
 ms.assetid: 950be956-a0ac-46c6-9f57-ca9371bb94c4
 ms.date: 10/19/2018

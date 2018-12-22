@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_GETCAPTUREALLOCATIONHANDLE
 title: PFND3DDDI_GETCAPTUREALLOCATIONHANDLE
-author: windows-driver-content
 description: The GetCaptureAllocationHandle function maps the given capture resource handle to a kernel-mode allocation handle.
 old-location: display\getcaptureallocationhandle.htm
 tech.root: display

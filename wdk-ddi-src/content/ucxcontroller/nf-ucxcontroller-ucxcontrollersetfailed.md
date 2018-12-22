@@ -1,7 +1,6 @@
 ---
 UID: NF:ucxcontroller.UcxControllerSetFailed
 title: UcxControllerSetFailed function
-author: windows-driver-content
 description: Informs USB Host Controller Extension (UCX) that the controller has encountered a critical failure.
 old-location: buses\_ucxcontrollersetfailed.htm
 tech.root: usbref

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_CORE
 title: "_FEATURE_DATA_CORE"
-author: windows-driver-content
 description: The FEATURE_DATA_CORE structure holds data for the Core feature descriptor.
 old-location: storage\feature_data_core.htm
 tech.root: storage

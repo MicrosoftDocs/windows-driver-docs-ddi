@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfdriverpackageaction.IWDTFDriverPackageAction2.GetQueryForDeviceThatCanUsePackage
 title: IWDTFDriverPackageAction2::GetQueryForDeviceThatCanUsePackage method
-author: windows-driver-content
 description: Returns an SDEL statement that queries for all devices that can use the driver package.
 old-location: dtf\iwdtfdriverpackageaction2_getqueryfordevicethatcanusepackage.htm
 tech.root: dtf

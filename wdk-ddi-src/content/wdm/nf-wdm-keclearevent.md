@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeClearEvent
 title: KeClearEvent function
-author: windows-driver-content
 description: The KeClearEvent routine sets an event to a not-signaled state.
 old-location: kernel\keclearevent.htm
 tech.root: kernel

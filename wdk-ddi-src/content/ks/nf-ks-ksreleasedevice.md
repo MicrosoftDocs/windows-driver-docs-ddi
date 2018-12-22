@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsReleaseDevice
 title: KsReleaseDevice function
-author: windows-driver-content
 description: The KsReleaseDevice function releases the device mutex and exits the critical region.
 old-location: stream\ksreleasedevice.htm
 tech.root: stream

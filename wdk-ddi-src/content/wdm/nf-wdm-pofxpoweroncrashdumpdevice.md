@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.PoFxPowerOnCrashdumpDevice
 title: PoFxPowerOnCrashdumpDevice function
-author: windows-driver-content
 description: The PoFxPowerOnCrashdumpDevice routine requests that a crash-dump device be turned on.
 old-location: kernel\pofxpoweroncrashdumpdevice.htm
 tech.root: kernel

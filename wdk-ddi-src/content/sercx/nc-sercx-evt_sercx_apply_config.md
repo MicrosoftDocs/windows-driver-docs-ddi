@@ -1,7 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX_APPLY_CONFIG
 title: EVT_SERCX_APPLY_CONFIG
-author: windows-driver-content
 description: The EvtSerCxApplyConfig event callback function instructs the serial controller driver to apply a list of configuration settings to the serial controller hardware.
 old-location: serports\evtsercxapplyconfig.htm
 tech.root: serports

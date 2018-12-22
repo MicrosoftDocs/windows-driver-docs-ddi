@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_REPORTFRAMESTATISTICS
 title: IDARG_IN_REPORTFRAMESTATISTICS
-author: windows-driver-content
 description: Gives information about frame statistics.
 old-location: display\idarg_in_reportframestatistics.htm
 tech.root: display

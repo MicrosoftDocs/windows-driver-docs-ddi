@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_PRE_START_INFO
 title: "_DXGK_PRE_START_INFO"
-author: windows-driver-content
 description: Structure to allow very simple data to be exchanged between the OS and driver which may be required prior to start device being called and therefore cannot be queried through normal caps or adapter info DDIs.
 old-location: display\dxgk_pre_start_info.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_FLIPOVERLAY
 title: PFND3DDDI_FLIPOVERLAY
-author: windows-driver-content
 description: The FlipOverlay function causes the overlay hardware to start displaying the given new allocation.
 old-location: display\flipoverlay.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.SetValidValues(INT,BSTR,BSTR,INT,BSTR)
 title: CWiauPropertyList::SetValidValues(INT,BSTR,BSTR,INT,BSTR)
-author: windows-driver-content
 description: The CWiauPropertyList::SetValidValues(INT,BSTR,BSTR,INT,BSTR) method sets the type, as well as default, current, and valid values for a BSTR property associated with a list of values.
 old-location: image\cwiaupropertylist_setvalidvalues_bstr__list_.htm
 tech.root: image

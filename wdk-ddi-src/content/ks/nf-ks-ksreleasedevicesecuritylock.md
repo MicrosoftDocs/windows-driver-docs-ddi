@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsReleaseDeviceSecurityLock
 title: KsReleaseDeviceSecurityLock function
-author: windows-driver-content
 description: The KsReleaseDeviceSecurityLock function releases a previously acquired security lock on the device object header.
 old-location: stream\ksreleasedevicesecuritylock.htm
 tech.root: stream

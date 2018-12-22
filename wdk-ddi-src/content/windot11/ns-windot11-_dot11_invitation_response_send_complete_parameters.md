@@ -1,7 +1,6 @@
 ---
 UID: NS:windot11._DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS
 title: "_DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS"
-author: windows-driver-content
 description: The parameters for an invitation response send completion are specified in a DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS structure. This structure is sent with an NDIS_STATUS_DOT11_WFD_INVITATION_RESPONSE_SEND_COMPLETE indication.
 old-location: netvista\dot11_invitation_response_send_complete_parameters.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.GetCreateParametersEx
 title: IWDFIoRequest2::GetCreateParametersEx
-author: windows-driver-content
 description: The GetCreateParametersEx method retrieves file creation parameters that are associated with a file that is being created or opened.
 old-location: wdf\iwdfiorequest2_getcreateparametersex.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetEventFilterCommand
 title: IDebugControl3::GetEventFilterCommand
-author: windows-driver-content
 description: The GetEventFilterCommand method returns the debugger command that the engine will execute when a specified event occurs.
 old-location: debugger\geteventfiltercommand.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces3.FillPhysical
 title: IDebugDataSpaces3::FillPhysical
-author: windows-driver-content
 description: The FillPhysical method writes a pattern of bytes to the target's physical memory. The pattern is written repeatedly until the specified memory range is filled.
 old-location: debugger\fillphysical.htm
 tech.root: debugger

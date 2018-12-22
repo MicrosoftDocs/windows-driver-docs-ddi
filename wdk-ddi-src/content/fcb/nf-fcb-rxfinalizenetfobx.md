@@ -1,7 +1,6 @@
 ---
 UID: NF:fcb.RxFinalizeNetFobx
 title: RxFinalizeNetFobx function
-author: windows-driver-content
 description: RxFinalizeNetFOBX finalizes the given FOBX structure. The caller must have an exclusive lock on the FCB associated with FOBX structure.
 old-location: ifsk\rxfinalizenetfobx.htm
 tech.root: ifsk

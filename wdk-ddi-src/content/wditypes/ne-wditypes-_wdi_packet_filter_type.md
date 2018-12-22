@@ -1,7 +1,6 @@
 ---
 UID: NE:wditypes._WDI_PACKET_FILTER_TYPE
 title: "_WDI_PACKET_FILTER_TYPE"
-author: windows-driver-content
 description: The WDI_PACKET_FILTER_TYPE enumeration defines the packet filter types.
 old-location: netvista\wdi_packet_filter_type.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters.GetNumberRegisters
 title: IDebugRegisters::GetNumberRegisters
-author: windows-driver-content
 description: The GetNumberRegisters method returns the number of registers on the target computer.
 old-location: debugger\getnumberregisters.htm
 tech.root: debugger

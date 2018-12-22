@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetLogFile
 title: IDebugControl::GetLogFile
-author: windows-driver-content
 description: The GetLogFile method returns the name of the currently open log file.
 old-location: debugger\getlogfile.htm
 tech.root: debugger

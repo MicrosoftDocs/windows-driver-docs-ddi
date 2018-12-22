@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMUpgradeRegistry
 title: OEMUpgradeRegistry function
-author: windows-driver-content
 description: OEMUpgradeRegistry function
 old-location: print\oemupgraderegistry.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.GetReadParameters
 title: IWDFIoRequest::GetReadParameters
-author: windows-driver-content
 description: The GetReadParameters method retrieves the request parameters for a read-type request.
 old-location: wdf\iwdfiorequest_getreadparameters.htm
 tech.root: wdf

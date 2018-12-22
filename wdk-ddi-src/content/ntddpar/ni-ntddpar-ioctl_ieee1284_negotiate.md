@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddpar.IOCTL_IEEE1284_NEGOTIATE
 title: IOCTL_IEEE1284_NEGOTIATE
-author: windows-driver-content
 description: The IOCTL_IEEE1284_NEGOTIATE request sets the read and write protocols that are used for a parallel device.
 old-location: parports\ioctl_ieee1284_negotiate.htm
 tech.root: parports

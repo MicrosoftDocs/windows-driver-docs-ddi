@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.ZwPowerInformation
 title: ZwPowerInformation function
-author: windows-driver-content
 description: The ZwPowerInformation routine sets or retrieves system power information.
 old-location: kernel\zwpowerinformation.htm
 tech.root: kernel

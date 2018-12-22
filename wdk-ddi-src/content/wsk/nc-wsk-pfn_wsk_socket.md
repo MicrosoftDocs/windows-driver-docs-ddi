@@ -1,7 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_SOCKET
 title: PFN_WSK_SOCKET
-author: windows-driver-content
 description: The WskSocket function creates a new socket and returns a pointer to the associated socket object.
 old-location: netvista\wsksocket.htm
 tech.root: netvista

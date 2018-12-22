@@ -1,7 +1,6 @@
 ---
 UID: NE:iddcx.IDDCX_MONITOR_MODE_ORIGIN
 title: IDDCX_MONITOR_MODE_ORIGIN
-author: windows-driver-content
 description: Used to describe a mode the monitor supports based on the monitor description.
 old-location: display\iddcx_monitor_mode_origin.htm
 tech.root: display

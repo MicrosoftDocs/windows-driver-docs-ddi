@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.WriteTypedDataPhysical
 title: IDebugSymbols3::WriteTypedDataPhysical
-author: windows-driver-content
 description: The WriteTypedDataPhysical method writes the value of a variable in the target computer's physical memory.
 old-location: debugger\writetypeddataphysical.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NE:wditypes._WDI_SCAN_TYPE
 title: "_WDI_SCAN_TYPE"
-author: windows-driver-content
 description: The WDI_SCAN_TYPE enumeration defines the scan types.
 old-location: netvista\wdi_scan_type.htm
 tech.root: netvista

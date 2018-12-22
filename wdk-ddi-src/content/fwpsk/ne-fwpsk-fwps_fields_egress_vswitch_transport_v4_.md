@@ -1,7 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_FIELDS_EGRESS_VSWITCH_TRANSPORT_V4_
 title: FWPS_FIELDS_EGRESS_VSWITCH_TRANSPORT_V4_
-author: windows-driver-content
 description: The FWPS_FIELDS_EGRESS_VSWITCH_TRANSPORT_V4 enumeration type specifies the data field identifiers for the FWPS_LAYER_EGRESS_VSWITCH_TRANSPORT_V4 run-time filtering layer.
 old-location: netvista\fwps_fields_egress_vswitch_transport_v4.htm
 tech.root: netvista

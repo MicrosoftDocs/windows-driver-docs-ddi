@@ -1,7 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosValueStatisticsEntry
 title: "_PosValueStatisticsEntry"
-author: windows-driver-content
 description: This structure contains the value of a statistic.
 old-location: pos\posvaluestatisticsentry.htm
 tech.root: pos

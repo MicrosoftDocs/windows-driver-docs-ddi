@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_DATARANGE_VIDEO_PALETTE
 title: tagKS_DATARANGE_VIDEO_PALETTE
-author: windows-driver-content
 description: The KS_DATARANGE_VIDEO_PALETTE structure describes a stream and its color capabilities.
 old-location: stream\ks_datarange_video_palette.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIsLeadDbcsCharacter
 title: FsRtlIsLeadDbcsCharacter macro
-author: windows-driver-content
 description: The FsRtlIsLeadDbcsCharacter macro determines whether a character is a lead byte (the first byte of a character) in a double-byte character set (DBCS).
 old-location: ifsk\fsrtlisleaddbcscharacter.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NS:dmusprop._SYNTH_REVERB_PARAMS
 title: "_SYNTH_REVERB_PARAMS"
-author: windows-driver-content
 description: The SYNTH_REVERB_PARAMS structure contains configuration parameters.
 old-location: audio\synth_reverb_params.htm
 tech.root: audio

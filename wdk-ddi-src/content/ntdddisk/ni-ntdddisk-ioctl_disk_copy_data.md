@@ -1,7 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_COPY_DATA
 title: IOCTL_DISK_COPY_DATA
-author: windows-driver-content
 description: This IOCTL_DISK_COPY_DATA IOCTL is used to copy data from one area of the disk to another.
 old-location: storage\ioctl_disk_copy_data.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATESWAPCHAIN
 title: _D3DKMT_CREATESWAPCHAIN
-author: windows-driver-content
 description: Used to create a swap chain.
 ms.assetid: 998e0e16-2680-4073-88a0-81d326d482a8
 ms.date: 10/19/2018

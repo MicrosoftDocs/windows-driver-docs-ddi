@@ -1,7 +1,6 @@
 ---
 UID: NI:storport.IOCTL_SCSI_MINIPORT_DSM
 title: IOCTL_SCSI_MINIPORT_DSM
-author: windows-driver-content
 description: A Data Set Management (DSM) notification is transferred to a miniport driver in a IOCTL_SCSI_MINIPORT_DSM control code request.
 old-location: storage\ioctl_scsi_miniport_dsm.htm
 tech.root: storage

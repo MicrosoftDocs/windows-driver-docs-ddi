@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwRecoverResourceManager
 title: ZwRecoverResourceManager function
-author: windows-driver-content
 description: The ZwRecoverResourceManager routine tries to recover the transaction that is associated with each enlistment of a specified resource manager object.
 old-location: kernel\zwrecoverresourcemanager.htm
 tech.root: kernel

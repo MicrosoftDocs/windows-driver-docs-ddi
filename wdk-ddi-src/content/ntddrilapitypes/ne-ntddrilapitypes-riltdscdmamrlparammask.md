@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILTDSCDMAMRLPARAMMASK
 title: RILTDSCDMAMRLPARAMMASK
-author: windows-driver-content
 description: This enumeration describes the RILTDSCDMAMRLPARAMMASK.
 old-location: netvista\riltdscdmamrlparammask.htm
 tech.root: netvista

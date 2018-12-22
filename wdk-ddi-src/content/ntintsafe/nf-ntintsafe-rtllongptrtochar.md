@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlLongPtrToChar
 title: RtlLongPtrToChar function
-author: windows-driver-content
 description: Converts a value of type LONG_PTR to a value of type CHAR.
 old-location: kernel\rtllongptrtochar.htm
 tech.root: kernel

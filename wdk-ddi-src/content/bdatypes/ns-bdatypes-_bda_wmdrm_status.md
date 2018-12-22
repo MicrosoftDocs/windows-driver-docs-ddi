@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_WMDRM_STATUS
 title: "_BDA_WMDRM_STATUS"
-author: windows-driver-content
 description: 
 old-location: stream\bda_wmdrm_status.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_SWAPCHAINSETDEVICE
 title: IDARG_IN_SWAPCHAINSETDEVICE
-author: windows-driver-content
 description: Gives information about the device that will process the swap chain.
 old-location: display\idarg_in_swapchainsetdevice.htm
 tech.root: display

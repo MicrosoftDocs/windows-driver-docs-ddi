@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisAcquireSpinLock
 title: NdisAcquireSpinLock macro
-author: windows-driver-content
 description: The NdisAcquireSpinLock function acquires a spin lock so the caller gains exclusive access to the resources, shared among driver functions, that the spin lock protects.
 old-location: netvista\ndisacquirespinlock.htm
 tech.root: netvista

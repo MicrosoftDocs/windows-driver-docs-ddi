@@ -1,7 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlUnicodeStringCchCopyStringN
 title: RtlUnicodeStringCchCopyStringN function
-author: windows-driver-content
 description: The RtlUnicodeStringCchCopyStringN function copies a string into a UNICODE_STRING structure while limiting the size of the copied string.
 old-location: kernel\rtlunicodestringcchcopystringn.htm
 tech.root: kernel

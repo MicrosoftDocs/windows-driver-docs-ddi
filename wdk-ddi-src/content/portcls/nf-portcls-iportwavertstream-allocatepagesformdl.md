@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IPortWaveRTStream.AllocatePagesForMdl
 title: IPortWaveRTStream::AllocatePagesForMdl
-author: windows-driver-content
 description: The AllocatePagesForMdl method allocates a list of nonpaged physical memory pages and returns a pointer to a memory descriptor list (MDL) that describes them.
 old-location: audio\iportwavertstream_allocatepagesformdl.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NF:sti.IStillImageW.EnableHwNotifications
 title: IStillImageW::EnableHwNotifications
-author: windows-driver-content
 description: The IStillImage::EnableHwNotifications method requests the still image event monitor to enable or disable the notification of applications when Still Image Device Events occur for a specified device.
 old-location: image\istillimage_enablehwnotifications.htm
 tech.root: image

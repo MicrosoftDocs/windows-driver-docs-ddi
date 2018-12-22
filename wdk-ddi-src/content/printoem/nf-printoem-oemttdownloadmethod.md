@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMTTDownloadMethod
 title: OEMTTDownloadMethod function
-author: windows-driver-content
 description: OEMTTDownloadMethod function
 old-location: print\oemttdownloadmethod.htm
 tech.root: print

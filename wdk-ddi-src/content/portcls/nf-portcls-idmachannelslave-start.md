@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IDmaChannelSlave.Start
 title: IDmaChannelSlave::Start
-author: windows-driver-content
 description: The Start method starts a subordinate DMA object.
 tech.root: audio
 ms.assetid: 35bad0d6-f3ce-48c8-8bf2-f25707378dec

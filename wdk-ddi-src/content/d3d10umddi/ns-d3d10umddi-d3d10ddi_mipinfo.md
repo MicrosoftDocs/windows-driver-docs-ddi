@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDI_MIPINFO
 title: D3D10DDI_MIPINFO
-author: windows-driver-content
 description: The D3D10DDI_MIPINFO structure describes the MIP-level texture and physical coordinates of a surface.
 old-location: display\d3d10ddi_mipinfo.htm
 ms.assetid: 5f00ff32-5ecf-40ca-91bb-aacc542bb7f4

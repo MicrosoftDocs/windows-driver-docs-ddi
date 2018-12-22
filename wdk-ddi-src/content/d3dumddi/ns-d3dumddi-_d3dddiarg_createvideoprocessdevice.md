@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATEVIDEOPROCESSDEVICE
 title: "_D3DDDIARG_CREATEVIDEOPROCESSDEVICE"
-author: windows-driver-content
 description: The D3DDDIARG_CREATEVIDEOPROCESSDEVICE structure describes a Microsoft DirectX Video Acceleration (DirectX VA) video processing device to create.
 old-location: display\d3dddiarg_createvideoprocessdevice.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:ucxendpoint.UcxDefaultEndpointInitSetEventCallbacks
 title: UcxDefaultEndpointInitSetEventCallbacks function
-author: windows-driver-content
 description: Initializes a UCXENDPOINT_INIT structure with client driver's event callback functions related to the default endpoint.
 old-location: buses\_ucxdefaultendpointinitseteventcallbacks.htm
 tech.root: usbref

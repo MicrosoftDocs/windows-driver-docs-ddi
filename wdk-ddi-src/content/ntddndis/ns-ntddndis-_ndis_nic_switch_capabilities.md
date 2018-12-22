@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NIC_SWITCH_CAPABILITIES
 title: "_NDIS_NIC_SWITCH_CAPABILITIES"
-author: windows-driver-content
 description: The NDIS_NIC_SWITCH_CAPABILITIES structure specifies the capabilities of a NIC switch on the network adapter.
 old-location: netvista\ndis_nic_switch_capabilities.htm
 tech.root: netvista

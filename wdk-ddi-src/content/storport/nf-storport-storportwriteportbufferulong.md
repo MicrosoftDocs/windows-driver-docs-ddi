@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortWritePortBufferUlong
 title: StorPortWritePortBufferUlong macro
-author: windows-driver-content
 description: The StorPortWritePortBufferUlong routine writes a value to a specified register address.
 old-location: storage\storportwriteportbufferulong.htm
 tech.root: storage

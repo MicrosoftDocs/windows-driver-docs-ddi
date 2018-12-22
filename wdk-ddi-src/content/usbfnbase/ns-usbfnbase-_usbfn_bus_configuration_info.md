@@ -1,7 +1,6 @@
 ---
 UID: NS:usbfnbase._USBFN_BUS_CONFIGURATION_INFO
 title: "_USBFN_BUS_CONFIGURATION_INFO"
-author: windows-driver-content
 description: Configuration packet that stores information about an available USB configuration.
 old-location: buses\usbfn_bus_configuration_info.htm
 tech.root: usbref

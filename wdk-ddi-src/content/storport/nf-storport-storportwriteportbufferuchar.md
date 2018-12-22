@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortWritePortBufferUchar
 title: StorPortWritePortBufferUchar macro
-author: windows-driver-content
 description: The StorPortWritePortBufferUchar routine writes a value to a specified register address.
 old-location: storage\storportwriteportbufferuchar.htm
 tech.root: storage

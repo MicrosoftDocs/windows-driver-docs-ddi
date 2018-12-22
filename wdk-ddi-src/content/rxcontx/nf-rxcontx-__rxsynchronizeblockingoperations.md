@@ -1,7 +1,6 @@
 ---
 UID: NF:rxcontx.__RxSynchronizeBlockingOperations
 title: "__RxSynchronizeBlockingOperations function"
-author: windows-driver-content
 description: "__RxSynchronizeBlockingOperations synchronizes blocking I/O requests to the same work queue."
 old-location: ifsk\__rxsynchronizeblockingoperations.htm
 tech.root: ifsk

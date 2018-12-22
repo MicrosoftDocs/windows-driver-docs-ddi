@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.RemoveDevice
 title: IWDTFPNPActions2::RemoveDevice
-author: windows-driver-content
 description: Removes the device.
 old-location: dtf\iwdtfpnpactions2_removedevice.htm
 tech.root: dtf

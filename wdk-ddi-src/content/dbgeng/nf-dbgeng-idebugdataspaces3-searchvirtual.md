@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces3.SearchVirtual
 title: IDebugDataSpaces3::SearchVirtual
-author: windows-driver-content
 description: The SearchVirtual method searches the target's virtual memory for a specified pattern of bytes.
 old-location: debugger\searchvirtual.htm
 tech.root: debugger

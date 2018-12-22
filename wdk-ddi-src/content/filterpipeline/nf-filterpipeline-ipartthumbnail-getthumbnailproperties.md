@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IPartThumbnail.GetThumbnailProperties
 title: IPartThumbnail::GetThumbnailProperties
-author: windows-driver-content
 description: The GetThumbnailProperties method gets the thumbnail properties.
 old-location: print\ipartthumbnail_getthumbnailproperties.htm
 tech.root: print

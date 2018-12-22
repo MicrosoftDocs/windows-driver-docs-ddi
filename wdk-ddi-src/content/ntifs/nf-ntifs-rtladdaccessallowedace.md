@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlAddAccessAllowedAce
 title: RtlAddAccessAllowedAce function
-author: windows-driver-content
 description: The RtlAddAccessAllowedAce routine adds an access-allowed access control entry (ACE) to an access control list (ACL). The access is granted to the specified security identifier (SID).
 old-location: ifsk\rtladdaccessallowedace.htm
 tech.root: ifsk

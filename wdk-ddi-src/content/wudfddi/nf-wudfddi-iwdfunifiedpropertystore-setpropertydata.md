@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFUnifiedPropertyStore.SetPropertyData
 title: IWDFUnifiedPropertyStore::SetPropertyData
-author: windows-driver-content
 description: The SetPropertyData method modifies the current setting of a device property.
 old-location: wdf\iwdfunifiedpropertystore_setpropertydata.htm
 tech.root: wdf

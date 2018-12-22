@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_DISEQC_SEND
 title: "_BDA_DISEQC_SEND"
-author: windows-driver-content
 description: 
 old-location: stream\bda_diseqc_send.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IFixedDocumentSequence.GetUri
 title: IFixedDocumentSequence::GetUri
-author: windows-driver-content
 description: The GetUri method gets the URI of the fixed document sequence.
 old-location: print\ifixeddocumentsequence_geturi.htm
 tech.root: print

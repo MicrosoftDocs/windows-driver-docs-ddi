@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE
 title: "_D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE"
-author: windows-driver-content
 description: The D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE enumeration indicates the importance of a video present path.
 old-location: display\d3dkmdt_vidpn_present_path_importance.htm
 tech.root: display

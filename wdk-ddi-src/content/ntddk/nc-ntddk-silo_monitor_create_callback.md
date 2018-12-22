@@ -1,7 +1,6 @@
 ---
 UID: NC:ntddk.SILO_MONITOR_CREATE_CALLBACK
 title: SILO_MONITOR_CREATE_CALLBACK
-author: windows-driver-content
 description: This is callback is invoked when a new silo is created.
 old-location: kernel\silo_monitor_create_callback.htm
 tech.root: kernel

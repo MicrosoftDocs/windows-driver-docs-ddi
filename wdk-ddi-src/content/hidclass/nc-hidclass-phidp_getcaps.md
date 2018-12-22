@@ -1,7 +1,6 @@
 ---
 UID: NC:hidclass.PHIDP_GETCAPS
 title: PHIDP_GETCAPS
-author: windows-driver-content
 description: The HidP_GetCaps routine returns a top-level collection's HIDP_CAPS structure.
 old-location: hid\hidp_getcaps.htm
 tech.root: hid

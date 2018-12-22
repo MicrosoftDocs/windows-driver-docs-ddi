@@ -1,7 +1,6 @@
 ---
 UID: NF:poscx.PosCxGetDeviceInterfaceTag
 title: PosCxGetDeviceInterfaceTag function
-author: windows-driver-content
 description: PosCxGetDeviceInterfaceTag returns the device interface tag that is set in PosCxOpen.
 old-location: pos\poscxgetdeviceinterfacetag.htm
 tech.root: pos

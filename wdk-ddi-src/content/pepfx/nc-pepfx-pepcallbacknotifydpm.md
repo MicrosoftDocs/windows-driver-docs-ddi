@@ -1,7 +1,6 @@
 ---
 UID: NC:pepfx.PEPCALLBACKNOTIFYDPM
 title: PEPCALLBACKNOTIFYDPM
-author: windows-driver-content
 description: An AcceptDeviceNotification event callback routine handles device power management (DPM) notifications from the Windows power management framework (PoFx).
 old-location: kernel\acceptdevicenotification.htm
 tech.root: kernel

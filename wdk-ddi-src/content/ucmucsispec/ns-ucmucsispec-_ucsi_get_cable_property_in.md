@@ -1,7 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_GET_CABLE_PROPERTY_IN
 title: _UCSI_GET_CABLE_PROPERTY_IN
-author: windows-driver-content
 tech.root: usbref
 description: Used in the GET_CABLE_PROPERTY command. See Table 4-39.
 ms.assetid: f57d1ca6-dc11-485c-a6f4-18675e80c707

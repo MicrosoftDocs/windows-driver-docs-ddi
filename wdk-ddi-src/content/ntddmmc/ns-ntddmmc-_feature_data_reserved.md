@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_RESERVED
 title: "_FEATURE_DATA_RESERVED"
-author: windows-driver-content
 description: The FEATURE_DATA_RESERVED structure holds information about an unspecified feature.
 old-location: storage\feature_data_reserved.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlLookupPerFileObjectContext
 title: FsRtlLookupPerFileObjectContext function
-author: windows-driver-content
 description: For a &#0034;legacy&#0034; file system filter driver, the FsRtlLookupPerFileObjectContext function retrieves context information previously associated with a file object.
 old-location: ifsk\fsrtllookupperfileobjectcontext.htm
 tech.root: ifsk

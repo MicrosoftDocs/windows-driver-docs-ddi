@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMEXTENSION
 title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMEXTENSION
-author: windows-driver-content
 description: Sets the private state data for a video processor stream from an application.
 old-location: display\videoprocessorsetstreamextension.htm
 ms.assetid: 380f7fbd-34aa-401b-a7dc-5d8b521f7948

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfedtaction.IWDTFEnhancedDeviceTestSupportAction2.IsEnabled
 title: IWDTFEnhancedDeviceTestSupportAction2::IsEnabled
-author: windows-driver-content
 description: Gets a value that indicates whether the Enhanced Device Test (EDT) filter driver is enabled on the target device.
 old-location: dtf\iwdtfenhanceddevicetestsupportaction2_isenabled.htm
 tech.root: dtf

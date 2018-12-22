@@ -1,7 +1,6 @@
 ---
 UID: NE:sffdisk.__unnamed_enum_1
 title: SFFDISK_DPCMD
-author: windows-driver-content
 description: The SFFDISK_DPCMD enumeration lists the operations performed by an IOCTL_SFFDISK_DEVICE_PASSWORD request.
 old-location: sd\sffdisk_dpcmd.htm
 tech.root: SD

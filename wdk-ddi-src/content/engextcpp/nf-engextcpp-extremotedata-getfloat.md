@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetFloat
 title: ExtRemoteData::GetFloat
-author: windows-driver-content
 description: The GetFloat method returns a float version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getfloat.htm
 tech.root: debugger

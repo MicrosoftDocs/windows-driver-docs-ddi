@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dumddi._D3DDDIQUERYTYPE
 title: _D3DDDIQUERYTYPE
-author: windows-driver-content
 description: The query type.
 ms.assetid: dbaf8ce2-277d-4754-a4fc-c0969fdea2a1
 ms.date: 10/19/2018

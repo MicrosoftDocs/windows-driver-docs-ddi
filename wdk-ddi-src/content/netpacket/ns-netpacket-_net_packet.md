@@ -1,7 +1,6 @@
 ---
 UID: NS:netpacket._NET_PACKET
 title: _NET_PACKET
-author: windows-driver-content
 description: Represents a single network packet.
 tech.root: netvista
 ms.assetid: c2fc32da-1979-45fe-96ed-0b79a48e58a3

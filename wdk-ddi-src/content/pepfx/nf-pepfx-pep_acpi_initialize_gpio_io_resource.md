@@ -1,7 +1,6 @@
 ---
 UID: NF:pepfx.PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE
 title: PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE function
-author: windows-driver-content
 description: The PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_GPIO_RESOURCE structure.
 old-location: kernel\pep_acpi_initialize_gpio_io_resource.htm
 tech.root: kernel

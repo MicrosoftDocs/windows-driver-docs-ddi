@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemPS.DisableDriver
 title: IPrintOemPS::DisableDriver
-author: windows-driver-content
 description: The IPrintOemPS::DisableDriver method allows a rendering plug-in for Pscript to free resources that were allocated by the plug-in's IPrintOemPS::EnableDriver method.
 old-location: print\iprintoemps_disabledriver.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.GetIoQueue
 title: IWDFIoRequest::GetIoQueue
-author: windows-driver-content
 description: The GetIoQueue method retrieves the I/O queue object that is associated with an I/O request.
 old-location: wdf\iwdfiorequest_getioqueue.htm
 tech.root: wdf

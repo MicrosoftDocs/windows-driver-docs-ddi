@@ -1,7 +1,6 @@
 ---
 UID: NF:winsplp.XcvClosePort
 title: XcvClosePort function
-author: windows-driver-content
 description: A port monitor server DLL's XcvClosePort function closes a printer port that was opened by XcvOpenPort.
 old-location: print\xcvcloseport.htm
 tech.root: print

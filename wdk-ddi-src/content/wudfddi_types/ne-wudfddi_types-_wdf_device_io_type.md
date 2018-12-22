@@ -1,7 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_DEVICE_IO_TYPE
 title: "_WDF_DEVICE_IO_TYPE"
-author: windows-driver-content
 description: The WDF_DEVICE_IO_TYPE enumeration is used to specify a method for accessing data buffers.
 old-location: wdf\wdf_device_io_type__umdf_.htm
 tech.root: wdf

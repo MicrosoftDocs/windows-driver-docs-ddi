@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestRetrieveInputWdmMdl
 title: WdfRequestRetrieveInputWdmMdl function
-author: windows-driver-content
 description: The WdfRequestRetrieveInputWdmMdl method retrieves a memory descriptor list (MDL) that represents an I/O request's input buffer.
 old-location: wdf\wdfrequestretrieveinputwdmmdl.htm
 tech.root: wdf

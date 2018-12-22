@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfchildlist.WdfChildListBeginScan
 title: WdfChildListBeginScan function
-author: windows-driver-content
 description: The WdfChildListBeginScan method prepares a specified list of child devices so the driver can update the information in the list.
 old-location: wdf\wdfchildlistbeginscan.htm
 tech.root: wdf

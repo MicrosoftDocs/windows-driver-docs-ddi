@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.DRIVER_LIST_CONTROL
 title: DRIVER_LIST_CONTROL
-author: windows-driver-content
 description: The AdapterListControl routine starts a direct memory access (DMA) scatter/gather operation.
 old-location: kernel\adapterlistcontrol.htm
 tech.root: kernel

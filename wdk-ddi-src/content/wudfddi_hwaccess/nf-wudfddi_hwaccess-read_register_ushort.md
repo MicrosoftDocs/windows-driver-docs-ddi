@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi_hwaccess.READ_REGISTER_USHORT
 title: READ_REGISTER_USHORT function
-author: windows-driver-content
 description: The READ_REGISTER_USHORT function reads a USHORT value from the specified register address.
 old-location: wdf\read_register_ushort.htm
 tech.root: wdf

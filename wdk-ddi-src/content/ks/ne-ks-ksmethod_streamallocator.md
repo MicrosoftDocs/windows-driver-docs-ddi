@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_20
 title: KSMETHOD_STREAMALLOCATOR
-author: windows-driver-content
 description: 
 old-location: stream\ksmethod_streamallocator.htm
 tech.root: stream

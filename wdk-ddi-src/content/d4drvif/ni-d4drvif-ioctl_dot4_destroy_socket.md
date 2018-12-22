@@ -1,7 +1,6 @@
 ---
 UID: NI:d4drvif.IOCTL_DOT4_DESTROY_SOCKET
 title: IOCTL_DOT4_DESTROY_SOCKET
-author: windows-driver-content
 description: This topic describes IOCTL_DOT4_DESTROY_SOCKET.
 old-location: print\ioctl_ioctl_dot4_destroy_socket.htm
 tech.root: print

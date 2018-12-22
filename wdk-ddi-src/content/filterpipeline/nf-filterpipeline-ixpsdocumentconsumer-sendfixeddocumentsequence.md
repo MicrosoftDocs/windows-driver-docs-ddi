@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IXpsDocumentConsumer.SendFixedDocumentSequence
 title: IXpsDocumentConsumer::SendFixedDocumentSequence
-author: windows-driver-content
 description: The SendFixedDocumentSequence method sends a fixed document sequence to the pipeline.
 old-location: print\ixpsdocumentconsumer_sendfixeddocumentsequence.htm
 tech.root: print

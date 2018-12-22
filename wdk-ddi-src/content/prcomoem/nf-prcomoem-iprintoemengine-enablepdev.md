@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemEngine.EnablePDEV
 title: IPrintOemEngine::EnablePDEV
-author: windows-driver-content
 description: 
 old-location: print\iprintoemengine_enablepdev.htm
 tech.root: print

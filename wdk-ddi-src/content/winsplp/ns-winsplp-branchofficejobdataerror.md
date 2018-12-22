@@ -1,7 +1,6 @@
 ---
 UID: NS:winsplp.__unnamed_struct_1
 title: BranchOfficeJobDataError
-author: windows-driver-content
 description: This structure contains the necessary data for logging a branch office job failure event on a remote server. This is based on standard job-related data available to the spooler.
 old-location: print\branchofficejobdataerror.htm
 tech.root: print

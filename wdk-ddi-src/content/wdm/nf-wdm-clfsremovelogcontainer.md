@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsRemoveLogContainer
 title: ClfsRemoveLogContainer function
-author: windows-driver-content
 description: The ClfsRemoveLogContainer routine removes a container from a CLFS log.
 old-location: kernel\clfsremovelogcontainer.htm
 tech.root: kernel

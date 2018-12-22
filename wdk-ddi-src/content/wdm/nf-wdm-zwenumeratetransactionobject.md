@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwEnumerateTransactionObject
 title: ZwEnumerateTransactionObject function
-author: windows-driver-content
 description: The ZwEnumerateTransactionObject routine enumerates the KTM objects on a computer.
 old-location: kernel\zwenumeratetransactionobject.htm
 tech.root: kernel

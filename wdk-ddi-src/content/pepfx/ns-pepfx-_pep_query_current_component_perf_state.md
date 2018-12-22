@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_QUERY_CURRENT_COMPONENT_PERF_STATE
 title: "_PEP_QUERY_CURRENT_COMPONENT_PERF_STATE"
-author: windows-driver-content
 description: The PEP_QUERY_CURRENT_COMPONENT_PERF_STATE structure contains information about the current P-state in the specified P-state set.
 old-location: kernel\pep_query_current_component_perf_state.htm
 tech.root: kernel

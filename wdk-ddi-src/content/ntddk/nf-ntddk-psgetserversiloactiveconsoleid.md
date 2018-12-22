@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.PsGetServerSiloActiveConsoleId
 title: PsGetServerSiloActiveConsoleId function
-author: windows-driver-content
 description: Gets the active console for the current server silo context for the supplied thread.
 old-location: kernel\psgetserversiloactiveconsoleid.htm
 tech.root: kernel

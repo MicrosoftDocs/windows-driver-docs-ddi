@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.PoFxQueryCurrentComponentPerfState
 title: PoFxQueryCurrentComponentPerfState function
-author: windows-driver-content
 description: The PoFxQueryCurrentComponentPerfState routine retrieves the active performance state in a component's performance state set.
 old-location: kernel\pofxquerycurrentcomponentperfstate.htm
 tech.root: kernel

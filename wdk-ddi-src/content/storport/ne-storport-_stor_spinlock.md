@@ -1,7 +1,6 @@
 ---
 UID: NE:storport._STOR_SPINLOCK
 title: "_STOR_SPINLOCK"
-author: windows-driver-content
 description: The STOR_SPINLOCK enumeration is used to specify the type of a spinlock.
 old-location: storage\stor_spinlock.htm
 tech.root: storage

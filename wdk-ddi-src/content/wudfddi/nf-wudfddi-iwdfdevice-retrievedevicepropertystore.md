@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.RetrieveDevicePropertyStore
 title: IWDFDevice::RetrieveDevicePropertyStore
-author: windows-driver-content
 description: The RetrieveDevicePropertyStore method retrieves a property store interface that drivers can use to access the registry.
 old-location: wdf\iwdfdevice_retrievedevicepropertystore.htm
 tech.root: wdf

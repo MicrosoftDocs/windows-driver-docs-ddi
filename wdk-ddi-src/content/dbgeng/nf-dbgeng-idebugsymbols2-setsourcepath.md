@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.SetSourcePath
 title: IDebugSymbols2::SetSourcePath
-author: windows-driver-content
 description: The SetSourcePath method sets the source path.
 old-location: debugger\setsourcepath.htm
 tech.root: debugger

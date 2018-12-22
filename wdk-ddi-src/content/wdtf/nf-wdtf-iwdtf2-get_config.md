@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTF2.get_Config
 title: IWDTF2::get_Config
-author: windows-driver-content
 description: Gets the WDTF configuration object.
 old-location: dtf\iwdtf2_config.htm
 tech.root: dtf

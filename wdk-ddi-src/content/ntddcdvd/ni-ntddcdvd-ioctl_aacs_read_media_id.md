@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddcdvd.IOCTL_AACS_READ_MEDIA_ID
 title: IOCTL_AACS_READ_MEDIA_ID
-author: windows-driver-content
 description: Reads the Advanced Access Content System (AACS)-specific media identifier data.
 old-location: storage\ioctl_aacs_read_media_id.htm
 tech.root: storage

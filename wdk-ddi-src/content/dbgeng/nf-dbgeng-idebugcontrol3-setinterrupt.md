@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.SetInterrupt
 title: IDebugControl3::SetInterrupt
-author: windows-driver-content
 description: The SetInterrupt method registers a user interrupt or breaks into the debugger.
 old-location: debugger\setinterrupt.htm
 tech.root: debugger

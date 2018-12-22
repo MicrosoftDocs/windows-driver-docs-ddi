@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsPinRegisterPowerCallbacks
 title: KsPinRegisterPowerCallbacks function
-author: windows-driver-content
 description: The KsPinRegisterPowerCallbacks function registers power management callbacks for Pin.
 old-location: stream\kspinregisterpowercallbacks.htm
 tech.root: stream

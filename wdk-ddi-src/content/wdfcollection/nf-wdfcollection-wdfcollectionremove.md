@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfcollection.WdfCollectionRemove
 title: WdfCollectionRemove function
-author: windows-driver-content
 description: The WdfCollectionRemove method removes an object from a specified object collection.
 old-location: wdf\wdfcollectionremove.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.NDIS_PD_ALLOCATE_COUNTER
 title: NDIS_PD_ALLOCATE_COUNTER
-author: windows-driver-content
 description: The PacketDirect (PD) platform calls a PD-capable miniport driver's NdisPDAllocateCounter function to allocate a counter object.
 old-location: netvista\ndispdallocatecounter.htm
 tech.root: netvista

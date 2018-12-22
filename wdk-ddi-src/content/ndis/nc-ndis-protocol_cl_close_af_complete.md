@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CL_CLOSE_AF_COMPLETE
 title: PROTOCOL_CL_CLOSE_AF_COMPLETE
-author: windows-driver-content
 description: The ProtocolClCloseAfComplete function is used by connection-oriented NDIS clients.
 old-location: netvista\protocolclcloseafcomplete.htm
 tech.root: netvista

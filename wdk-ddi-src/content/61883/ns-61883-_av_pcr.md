@@ -1,7 +1,6 @@
 ---
 UID: NS:61883._AV_PCR
 title: "_AV_PCR"
-author: windows-driver-content
 description: The AV_PCR structure specifies settings for an input or output plug.
 old-location: ieee\av_pcr.htm
 tech.root: IEEE

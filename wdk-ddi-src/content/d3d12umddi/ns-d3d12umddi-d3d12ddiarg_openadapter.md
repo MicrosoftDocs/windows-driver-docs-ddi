@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_OPENADAPTER
 title: D3D12DDIARG_OPENADAPTER
-author: windows-driver-content
 description: The D3D12DDIARG_OPENADAPTER structure describes the graphics adapter object.
 old-location: display\d3d12ddiarg_openadapter.htm
 ms.assetid: 1FABEEBC-358C-40EB-8F5C-F834EE57A1A8

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestWdmGetIrp
 title: WdfRequestWdmGetIrp function
-author: windows-driver-content
 description: The WdfRequestWdmGetIrp method returns the WDM IRP structure that is associated with a specified framework request object.
 old-location: wdf\wdfrequestwdmgetirp.htm
 tech.root: wdf

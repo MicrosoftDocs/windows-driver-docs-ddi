@@ -1,7 +1,6 @@
 ---
 UID: NC:ks.PFNKSFASTHANDLER
 title: PFNKSFASTHANDLER
-author: windows-driver-content
 description: KStrFastHandler is a driver-supplied routine that handles a property or method request without the creation of an IRP.
 old-location: stream\kstrfasthandler.htm
 tech.root: stream

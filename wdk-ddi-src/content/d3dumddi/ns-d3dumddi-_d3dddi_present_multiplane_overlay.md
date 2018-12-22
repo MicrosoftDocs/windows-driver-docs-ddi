@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_PRESENT_MULTIPLANE_OVERLAY
 title: "_D3DDDI_PRESENT_MULTIPLANE_OVERLAY"
-author: windows-driver-content
 description: Specifies an overlay plane to display.
 old-location: display\d3dddi_present_multiplane_overlay.htm
 tech.root: display

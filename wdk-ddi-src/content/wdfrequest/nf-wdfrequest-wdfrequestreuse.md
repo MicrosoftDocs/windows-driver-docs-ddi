@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestReuse
 title: WdfRequestReuse function
-author: windows-driver-content
 description: The WdfRequestReuse method reinitializes a framework request object so that it can be reused.
 old-location: wdf\wdfrequestreuse.htm
 tech.root: wdf

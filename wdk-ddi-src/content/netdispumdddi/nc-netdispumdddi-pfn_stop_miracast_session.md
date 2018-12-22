@@ -1,7 +1,6 @@
 ---
 UID: NC:netdispumdddi.PFN_STOP_MIRACAST_SESSION
 title: PFN_STOP_MIRACAST_SESSION
-author: windows-driver-content
 description: Called by the operating system to start a Miracast connected session that had earlier been started by a call to the StartMiracastSession function.
 old-location: display\stopmiracastsession.htm
 tech.root: display

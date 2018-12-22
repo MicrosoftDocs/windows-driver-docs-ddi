@@ -1,7 +1,6 @@
 ---
 UID: NN:printerextension.IPrintSchemaPageMediaSizeOption
 title: IPrintSchemaPageMediaSizeOption
-author: windows-driver-content
 description: Exposes a Print Schema PageMediaSize Option element.
 old-location: print\iprintschemapagemediasizeoption_interface.htm
 tech.root: print

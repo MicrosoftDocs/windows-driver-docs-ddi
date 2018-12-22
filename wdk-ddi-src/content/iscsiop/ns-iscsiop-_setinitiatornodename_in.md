@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._SetInitiatorNodeName_IN
 title: "_SetInitiatorNodeName_IN"
-author: windows-driver-content
 description: The SetInitiatorNodeName_IN structure holds the input data for the SetInitiatorNodeName method.
 old-location: storage\setinitiatornodename_in.htm
 tech.root: storage

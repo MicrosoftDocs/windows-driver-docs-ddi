@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlxUnicodeStringToOemSize
 title: RtlxUnicodeStringToOemSize function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\rtlxunicodestringtooemsize.htm
 tech.root: ifsk

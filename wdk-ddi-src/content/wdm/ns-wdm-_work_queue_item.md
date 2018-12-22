@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._WORK_QUEUE_ITEM
 title: "_WORK_QUEUE_ITEM"
-author: windows-driver-content
 description: The WORK_QUEUE_ITEM structure is used to post a work items to a system work queue.
 old-location: ifsk\work_queue_item.htm
 tech.root: ifsk

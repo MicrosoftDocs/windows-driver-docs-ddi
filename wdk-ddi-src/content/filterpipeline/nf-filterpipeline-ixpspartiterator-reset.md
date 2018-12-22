@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IXpsPartIterator.Reset
 title: IXpsPartIterator::Reset
-author: windows-driver-content
 description: The Reset method sets the iterator to the first element.
 old-location: print\ixpspartiterator_reset.htm
 tech.root: print

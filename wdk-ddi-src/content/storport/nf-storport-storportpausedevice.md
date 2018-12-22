@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortPauseDevice
 title: StorPortPauseDevice function
-author: windows-driver-content
 description: The StorPortPauseDevice routine pauses a specific logical unit device for the specified period of time.
 old-location: storage\storportpausedevice.htm
 tech.root: storage

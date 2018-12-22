@@ -1,7 +1,6 @@
 ---
 UID: NF:xpsrassvc.IXpsRasterizationFactory.CreateRasterizer
 title: IXpsRasterizationFactory::CreateRasterizer
-author: windows-driver-content
 description: The CreateRasterize method creates an XPS rasterizer object.
 old-location: print\ixpsrasterizationfactory_createrasterizer.htm
 tech.root: print

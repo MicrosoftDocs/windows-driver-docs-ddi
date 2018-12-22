@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_PAGETABLEUPDATEMODE
 title: "_DXGK_PAGETABLEUPDATEMODE"
-author: windows-driver-content
 description: DXGK_PAGETABLEUPDATEMODE is used as part of a DxgkDdiBuildPagingBuffer operation to indicate which member of the related DXGK_PAGETABLEUPDATEADDRESS structure contains the address of the page table to update.
 old-location: display\dxgk_pagetableupdatemode.htm
 ms.assetid: E7C823B1-457E-4B86-B44B-DC5BD48CF98E

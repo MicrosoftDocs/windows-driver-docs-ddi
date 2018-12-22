@@ -1,7 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_SET_DRIVER_CONFIG
 title: IOCTL_HID_SET_DRIVER_CONFIG
-author: windows-driver-content
 description: The IOCTL_HID_SET_DRIVER_CONFIG request sets the driver configuration.
 old-location: hid\ioctl_hid_set_driver_config.htm
 tech.root: hid

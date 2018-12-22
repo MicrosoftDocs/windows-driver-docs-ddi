@@ -1,7 +1,6 @@
 ---
 UID: NF:spbcx.SpbControllerSetIoOtherCallback
 title: SpbControllerSetIoOtherCallback function
-author: windows-driver-content
 description: The SpbControllerSetIoOtherCallback method registers an SPB controller driver's EvtSpbControllerIoOther callback function.
 old-location: spb\spbcontrollersetioothercallback.htm
 tech.root: SPB

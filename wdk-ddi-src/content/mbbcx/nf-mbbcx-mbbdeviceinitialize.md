@@ -1,7 +1,6 @@
 ---
 UID: NF:mbbcx.MbbDeviceInitialize
 title: MbbDeviceInitialize function
-author: windows-driver-content
 description: The MbbDeviceInitialize method registers the client driver's MBB-specific callback functions.
 tech.root: netvista
 ms.assetid: 051cb7e8-4baf-46b2-99fd-43fc30dd49a9

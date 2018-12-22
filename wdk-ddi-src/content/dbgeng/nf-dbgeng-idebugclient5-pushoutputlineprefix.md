@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.PushOutputLinePrefix
 title: IDebugClient5::PushOutputLinePrefix
-author: windows-driver-content
 description: Saves an output line prefix.
 old-location: debugger\idebugclient5_pushoutputlineprefix.htm
 tech.root: debugger

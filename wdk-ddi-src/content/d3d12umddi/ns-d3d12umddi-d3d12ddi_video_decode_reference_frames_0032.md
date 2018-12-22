@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0032
 title: D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0032
-author: windows-driver-content
 description: Video decode reference frames.
 old-location: display\d3d12ddi-video-decode-reference-frames-0032.htm
 ms.assetid: 58a814ab-629e-4528-a349-c469defc0a5a

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_GENERIC_ERROR_BLOCKSTATUS
 title: "_WHEA_GENERIC_ERROR_BLOCKSTATUS"
-author: windows-driver-content
 description: The WHEA_GENERIC_ERROR_BLOCKSTATUS union indicates what kind of error data is reported in a generic error status block.
 old-location: whea\whea_generic_error_blockstatus.htm
 tech.root: whea

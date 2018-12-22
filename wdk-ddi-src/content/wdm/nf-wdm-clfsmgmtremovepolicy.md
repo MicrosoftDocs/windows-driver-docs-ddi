@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsMgmtRemovePolicy
 title: ClfsMgmtRemovePolicy function
-author: windows-driver-content
 description: The ClfsMgmtRemovePolicy routine resets a log's CLFS_MGMT_POLICY structure to its default value.
 old-location: kernel\clfsmgmtremovepolicy.htm
 tech.root: kernel

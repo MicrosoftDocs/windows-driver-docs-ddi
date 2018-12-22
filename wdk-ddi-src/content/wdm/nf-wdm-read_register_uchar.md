@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.READ_REGISTER_UCHAR
 title: READ_REGISTER_UCHAR function
-author: windows-driver-content
 description: The READ_REGISTER_UCHAR routine reads a byte from the specified register address.
 old-location: kernel\read_register_uchar.htm
 tech.root: kernel

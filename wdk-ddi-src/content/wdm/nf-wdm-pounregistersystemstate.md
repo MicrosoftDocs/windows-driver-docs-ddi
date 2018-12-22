@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.PoUnregisterSystemState
 title: PoUnregisterSystemState function
-author: windows-driver-content
 description: The PoUnregisterSystemState routine cancels a system state registration created by PoRegisterSystemState.
 old-location: kernel\pounregistersystemstate.htm
 tech.root: kernel

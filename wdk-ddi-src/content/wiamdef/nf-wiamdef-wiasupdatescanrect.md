@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasUpdateScanRect
 title: wiasUpdateScanRect function
-author: windows-driver-content
 description: The wiasUpdateScanRect function updates the scanning area sizes of the scanning device.
 old-location: image\wiasupdatescanrect.htm
 tech.root: image

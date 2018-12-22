@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS
 title: "_NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS"
-author: windows-driver-content
 description: The NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS structure specifies the parameters to clear a receive filter on a network adapter.
 old-location: netvista\ndis_receive_filter_clear_parameters.htm
 tech.root: netvista

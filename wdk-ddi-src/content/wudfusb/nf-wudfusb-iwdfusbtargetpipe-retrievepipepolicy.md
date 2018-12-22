@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetPipe.RetrievePipePolicy
 title: IWDFUsbTargetPipe::RetrievePipePolicy
-author: windows-driver-content
 description: The RetrievePipePolicy method retrieves a WinUsb pipe policy.
 old-location: wdf\iwdfusbtargetpipe_retrievepipepolicy.htm
 tech.root: wdf

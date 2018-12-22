@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.BindProperty~r1
 title: BindProperty function
-author: windows-driver-content
 description:  A binder which converts two lambdas to a read/write property accessor.
 ms.assetid: 5bb97697-3462-4fcc-9306-e8741fc6003e
 ms.date: 09/28/2018

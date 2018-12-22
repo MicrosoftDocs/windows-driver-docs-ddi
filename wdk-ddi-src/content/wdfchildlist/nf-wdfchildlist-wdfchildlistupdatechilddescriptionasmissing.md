@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfchildlist.WdfChildListUpdateChildDescriptionAsMissing
 title: WdfChildListUpdateChildDescriptionAsMissing function
-author: windows-driver-content
 description: The WdfChildListUpdateChildDescriptionAsMissing method informs the framework that a specified child device is currently unplugged or otherwise unavailable.
 old-location: wdf\wdfchildlistupdatechilddescriptionasmissing.htm
 tech.root: wdf

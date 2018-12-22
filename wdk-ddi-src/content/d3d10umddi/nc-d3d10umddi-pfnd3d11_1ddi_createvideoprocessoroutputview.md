@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CREATEVIDEOPROCESSOROUTPUTVIEW
 title: PFND3D11_1DDI_CREATEVIDEOPROCESSOROUTPUTVIEW
-author: windows-driver-content
 description: Creates a resource view for a video processor. This view defines the output sample for the video processing operation.
 old-location: display\createvideoprocessoroutputview.htm
 ms.assetid: 619695dc-8525-4200-a0c2-8ce0fb1010ed

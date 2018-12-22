@@ -1,7 +1,6 @@
 ---
 UID: NF:winsplp.InitializePrintMonitorUI
 title: InitializePrintMonitorUI function
-author: windows-driver-content
 description: A port monitor UI DLL's InitializePrintMonitorUI function supplies the print spooler with addresses of DLL functions.
 old-location: print\initializeprintmonitorui.htm
 tech.root: print

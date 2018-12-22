@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_GETHANDLEPARENT
 title: DXGKCB_GETHANDLEPARENT
-author: windows-driver-content
 description: The DxgkCbGetHandleParent function retrieves the parent resource from the specified allocation.
 old-location: display\dxgkcbgethandleparent.htm
 ms.assetid: db8e7a91-d62a-4d2f-ac21-266e365a352c

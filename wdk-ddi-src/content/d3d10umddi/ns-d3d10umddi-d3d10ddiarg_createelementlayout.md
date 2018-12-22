@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDIARG_CREATEELEMENTLAYOUT
 title: D3D10DDIARG_CREATEELEMENTLAYOUT
-author: windows-driver-content
 description: The D3D10DDIARG_CREATEELEMENTLAYOUT structure describes the element layout to create.
 old-location: display\d3d10ddiarg_createelementlayout.htm
 ms.assetid: 3eb1555b-3274-496d-b6af-9cb0a6083ee4

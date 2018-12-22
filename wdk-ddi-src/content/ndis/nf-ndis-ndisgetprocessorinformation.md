@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisGetProcessorInformation
 title: NdisGetProcessorInformation function
-author: windows-driver-content
 description: The NdisGetProcessorInformation function retrieves information about the CPU topology of the local computer and the set of processors that a miniport driver must use for receive side scaling (RSS).
 old-location: netvista\ndisgetprocessorinformation.htm
 tech.root: netvista

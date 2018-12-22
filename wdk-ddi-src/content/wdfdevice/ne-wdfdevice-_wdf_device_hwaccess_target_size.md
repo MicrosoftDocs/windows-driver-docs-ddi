@@ -1,7 +1,6 @@
 ---
 UID: NE:wdfdevice._WDF_DEVICE_HWACCESS_TARGET_SIZE
 title: "_WDF_DEVICE_HWACCESS_TARGET_SIZE"
-author: windows-driver-content
 description: The WDF_DEVICE_HWACCESS_TARGET_SIZE enumeration is used internally by the framework. Do not use.
 old-location: wdf\wdf_device_hwaccess_target_size.htm
 tech.root: wdf

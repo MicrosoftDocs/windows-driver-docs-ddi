@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.KeSetIdealProcessorThread
 title: KeSetIdealProcessorThread function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\kesetidealprocessorthread.htm
 tech.root: ifsk

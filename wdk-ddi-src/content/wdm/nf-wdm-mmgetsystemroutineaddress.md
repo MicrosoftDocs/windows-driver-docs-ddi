@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.MmGetSystemRoutineAddress
 title: MmGetSystemRoutineAddress function
-author: windows-driver-content
 description: The MmGetSystemRoutineAddress routine returns a pointer to a function specified by SystemRoutineName.
 old-location: kernel\mmgetsystemroutineaddress.htm
 tech.root: kernel

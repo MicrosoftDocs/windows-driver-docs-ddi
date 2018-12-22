@@ -1,7 +1,6 @@
 ---
 UID: NE:pointofservicedriverinterface._MsrAuthenticationProtocol
 title: "_MsrAuthenticationProtocol"
-author: windows-driver-content
 description: This enumeration defines magnetic stripe reader (MSR) authentication protocols.
 old-location: pos\msrauthenticationprotocoltype.htm
 tech.root: pos

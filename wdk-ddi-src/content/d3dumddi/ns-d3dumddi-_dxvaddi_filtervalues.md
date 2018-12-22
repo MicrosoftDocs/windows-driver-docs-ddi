@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_FILTERVALUES
 title: "_DXVADDI_FILTERVALUES"
-author: windows-driver-content
 description: The DXVADDI_FILTERVALUES structure describes values that are related to a filter.
 old-location: display\dxvaddi_filtervalues.htm
 tech.root: display

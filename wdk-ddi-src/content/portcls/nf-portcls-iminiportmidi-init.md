@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportMidi.Init
 title: IMiniportMidi::Init
-author: windows-driver-content
 description: The Init method initializes the MIDI miniport object.
 old-location: audio\iminiportmidi_init.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_CONTROL
 title: _UCSI_CONTROL
-author: windows-driver-content
 tech.root: usbref
 description: Used in the SET_NOTIFICATION_ENABLE command. See Table 4-9.
 ms.assetid: e4ef0fb0-fe00-4d7b-9e89-a7c0d6c74a32

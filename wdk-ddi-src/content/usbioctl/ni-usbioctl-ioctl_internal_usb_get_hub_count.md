@@ -1,7 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_INTERNAL_USB_GET_HUB_COUNT
 title: IOCTL_INTERNAL_USB_GET_HUB_COUNT
-author: windows-driver-content
 description: The IOCTL_INTERNAL_USB_GET_HUB_COUNT IOCTL is used by the USB hub driver. Do not use.
 old-location: buses\ioctl_internal_usb_get_hub_count.htm
 tech.root: usbref

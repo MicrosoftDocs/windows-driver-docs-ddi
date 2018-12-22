@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisIMDeInitializeDeviceInstance
 title: NdisIMDeInitializeDeviceInstance function
-author: windows-driver-content
 description: The NdisIMDeInitializeDeviceInstance function calls an NDIS intermediate driver's MiniportHaltEx function to tear down the driver's virtual miniport.
 old-location: netvista\ndisimdeinitializedeviceinstance.htm
 tech.root: netvista

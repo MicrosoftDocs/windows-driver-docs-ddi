@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMSetVirtualFunctionBusData
 title: NdisMSetVirtualFunctionBusData function
-author: windows-driver-content
 description: A miniport driver calls the NdisMSetVirtualFunctionBusData function to write data to the PCI Express (PCIe) configuration space of a Virtual Function (VF) on the network adapter.
 old-location: netvista\ndismsetvirtualfunctionbusdata.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:wpprecorder.imp_WppRecorderLogGetDefault
 title: imp_WppRecorderLogGetDefault function
-author: windows-driver-content
 description: The WppRecorderLogGetDefault method gets a handle to the default recorder log.
 old-location: devtest\wpprecorderloggetdefault.htm
 tech.root: devtest

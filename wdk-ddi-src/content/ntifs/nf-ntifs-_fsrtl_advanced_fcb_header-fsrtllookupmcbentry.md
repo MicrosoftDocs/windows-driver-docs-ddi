@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlLookupMcbEntry
 title: FsRtlLookupMcbEntry function
-author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\fsrtllookupmcbentry.htm
 tech.root: ifsk

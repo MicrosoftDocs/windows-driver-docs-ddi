@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SetBindingSupport_IN
 title: "_SetBindingSupport_IN"
-author: windows-driver-content
 description: The SetBindingSupport_IN structure is used to deliver input parameter data to the SetBindingSupport WMI method.
 old-location: storage\setbindingsupport_in.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.ExUuidCreate
 title: ExUuidCreate function
-author: windows-driver-content
 description: The ExUuidCreate routine initializes a UUID (GUID) structure to a newly generated value.
 old-location: kernel\exuuidcreate.htm
 tech.root: kernel

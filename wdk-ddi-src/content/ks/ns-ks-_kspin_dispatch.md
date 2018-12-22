@@ -1,7 +1,6 @@
 ---
 UID: NS:ks._KSPIN_DISPATCH
 title: "_KSPIN_DISPATCH"
-author: windows-driver-content
 description: The KSPIN_DISPATCH structure describes the callbacks for which clients can register in order to receive notification of pin events.
 old-location: stream\kspin_dispatch.htm
 tech.root: stream

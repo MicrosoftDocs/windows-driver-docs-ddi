@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES
 title: IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES
-author: windows-driver-content
 description: Returns an array, possibly with one element, of address ranges used to program the adapter registers or ports directly. Support for this nonmodal request is optional.
 old-location: display\ioctl_video_query_public_access_ranges.htm
 tech.root: display

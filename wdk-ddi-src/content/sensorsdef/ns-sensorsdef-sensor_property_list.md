@@ -1,7 +1,6 @@
 ---
 UID: NS:sensorsdef.SENSOR_PROPERTY_LIST
 title: SENSOR_PROPERTY_LIST
-author: windows-driver-content
 description: This structure contains a list of all SENSOR_VALUE_PAIR structures for each sensor. This structure is returned by calling ReadFile.
 old-location: sensors\sensor_property_list.htm
 tech.root: sensors

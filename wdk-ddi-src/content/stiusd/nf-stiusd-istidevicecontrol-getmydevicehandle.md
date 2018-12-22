@@ -1,7 +1,6 @@
 ---
 UID: NF:stiusd.IStiDeviceControl.GetMyDeviceHandle
 title: IStiDeviceControl::GetMyDeviceHandle
-author: windows-driver-content
 description: This topic describes the GetMyDeviceHandle method.
 old-location: image\istidevicecontrol_getmydevicehandle.htm
 tech.root: image

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_VIDEOPROCESSORCAPS
 title: "_DXVADDI_VIDEOPROCESSORCAPS"
-author: windows-driver-content
 description: The DXVADDI_VIDEOPROCESSORCAPS structure describes the video processing capabilities of a specific deinterlace mode.
 old-location: display\dxvaddi_videoprocessorcaps.htm
 tech.root: display

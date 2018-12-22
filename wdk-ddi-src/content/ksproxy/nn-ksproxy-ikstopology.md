@@ -1,7 +1,6 @@
 ---
 UID: NN:ksproxy.IKsTopology
 title: IKsTopology
-author: windows-driver-content
 description: The IKsTopology interface provides a method that opens topology node objects contained within a filter.
 old-location: stream\ikstopology.htm
 tech.root: stream

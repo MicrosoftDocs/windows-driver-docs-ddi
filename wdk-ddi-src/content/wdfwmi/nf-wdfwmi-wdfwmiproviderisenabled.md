@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfwmi.WdfWmiProviderIsEnabled
 title: WdfWmiProviderIsEnabled function
-author: windows-driver-content
 description: The WdfWmiProviderIsEnabled method determines if either data collection or event notification is enabled for a specified WMI data provider.
 old-location: wdf\wdfwmiproviderisenabled.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisStoreUlong
 title: NdisStoreUlong macro
-author: windows-driver-content
 description: The NdisStoreUlong function stores a ULONG value at a particular address, avoiding alignment faults.
 old-location: netvista\ndisstoreulong.htm
 tech.root: netvista

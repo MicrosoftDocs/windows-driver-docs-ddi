@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaOptionCollection.GetAt
 title: IPrintSchemaOptionCollection::GetAt
-author: windows-driver-content
 description: Gets a pointer to an IPrintSchemaOption object.
 old-location: print\iprintschemaoptioncollection_getat.htm
 tech.root: print

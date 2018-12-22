@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetLongPtr
 title: ExtRemoteData::GetLongPtr
-author: windows-driver-content
 description: The GetLongPtr method returns a signed integer version (extended to LONG64) of the ExtRemoteData object, which represents the contents of the target's memory. The size of the unsigned integer from the target is the same size as a pointer on the target.
 old-location: debugger\extremotedata_getlongptr.htm
 tech.root: debugger

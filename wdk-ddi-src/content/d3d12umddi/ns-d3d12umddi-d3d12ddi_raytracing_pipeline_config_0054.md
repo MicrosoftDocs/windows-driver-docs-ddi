@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_RAYTRACING_PIPELINE_CONFIG_0054
 title: D3D12DDI_RAYTRACING_PIPELINE_CONFIG_0054
-author: windows-driver-content
 description: Describes a ray tracing pipeline configuration.
 ms.assetid: 6b313ba9-39e5-4b7b-837f-2dbf919fe4ea
 ms.date: 10/19/2018

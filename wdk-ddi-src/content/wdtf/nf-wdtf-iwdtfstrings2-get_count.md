@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFStrings2.get_Count
 title: IWDTFStrings2::get_Count
-author: windows-driver-content
 description: Gets the number of strings in the collection.
 old-location: dtf\iwdtfstrings2_count.htm
 tech.root: dtf

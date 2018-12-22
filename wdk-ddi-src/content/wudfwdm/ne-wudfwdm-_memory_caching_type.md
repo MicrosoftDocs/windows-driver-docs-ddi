@@ -1,7 +1,6 @@
 ---
 UID: NE:wudfwdm._MEMORY_CACHING_TYPE
 title: "_MEMORY_CACHING_TYPE"
-author: windows-driver-content
 description: The MEMORY_CACHING_TYPE enumeration type specifies the permitted caching behavior when allocating or mapping memory.
 old-location: kernel\memory_caching_type.htm
 tech.root: kernel

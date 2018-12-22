@@ -1,7 +1,6 @@
 ---
 UID: NN:wia_lh.IWiaTransferCallback
 title: IWiaTransferCallback
-author: windows-driver-content
 description: The IWiaTransferCallback interface is implemented by image processing filter developers and called by Microsoft Windows Image Acquisition (WIA).
 old-location: image\iwiatransfercallback_interface.htm
 tech.root: image

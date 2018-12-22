@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_SCAN_STATE
 title: "_BDA_SCAN_STATE"
-author: windows-driver-content
 description: 
 old-location: stream\bda_scan_state.htm
 tech.root: stream

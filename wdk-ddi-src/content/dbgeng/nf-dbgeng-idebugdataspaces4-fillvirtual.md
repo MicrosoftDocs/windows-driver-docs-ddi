@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.FillVirtual
 title: IDebugDataSpaces4::FillVirtual
-author: windows-driver-content
 description: The FillVirtual method writes a pattern of bytes to the target's virtual memory. The pattern is written repeatedly until the specified memory range is filled.
 old-location: debugger\fillvirtual.htm
 tech.root: debugger

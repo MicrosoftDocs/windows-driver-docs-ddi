@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfresource.WdfIoResourceRequirementsListRemove
 title: WdfIoResourceRequirementsListRemove function
-author: windows-driver-content
 description: The WdfIoResourceRequirementsListRemove method removes a logical configuration from a resource requirements list.
 old-location: wdf\wdfioresourcerequirementslistremove.htm
 tech.root: wdf

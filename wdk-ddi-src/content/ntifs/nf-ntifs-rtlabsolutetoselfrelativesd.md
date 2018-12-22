@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlAbsoluteToSelfRelativeSD
 title: RtlAbsoluteToSelfRelativeSD function
-author: windows-driver-content
 description: The RtlAbsoluteToSelfRelativeSD routine creates a new security descriptor in self-relative format by using a security descriptor in absolute format as a template.
 old-location: ifsk\rtlabsolutetoselfrelativesd.htm
 tech.root: ifsk

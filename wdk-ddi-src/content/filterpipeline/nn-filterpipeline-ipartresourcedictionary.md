@@ -1,7 +1,6 @@
 ---
 UID: NN:filterpipeline.IPartResourceDictionary
 title: IPartResourceDictionary
-author: windows-driver-content
 description: The IPartResourceDictionary interface is the abstraction for an XPS resource dictionary.
 old-location: print\ipartresourcedictionary.htm
 tech.root: print

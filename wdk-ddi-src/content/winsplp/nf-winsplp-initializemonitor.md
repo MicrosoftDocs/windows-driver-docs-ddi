@@ -1,7 +1,6 @@
 ---
 UID: NF:winsplp.InitializeMonitor
 title: InitializeMonitor function
-author: windows-driver-content
 description: 
 old-location: print\initializemonitor.htm
 tech.root: print

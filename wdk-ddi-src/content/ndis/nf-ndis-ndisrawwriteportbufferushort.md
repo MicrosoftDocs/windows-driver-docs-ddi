@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisRawWritePortBufferUshort
 title: NdisRawWritePortBufferUshort macro
-author: windows-driver-content
 description: NdisRawWritePortBufferUshort writes a specified number of USHORT values from a caller-supplied buffer to a given I/O port.
 old-location: netvista\ndisrawwriteportbufferushort.htm
 tech.root: netvista

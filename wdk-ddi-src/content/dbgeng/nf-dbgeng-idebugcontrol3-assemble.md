@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.Assemble
 title: IDebugControl3::Assemble
-author: windows-driver-content
 description: The Assemble method assembles a single processor instruction. The assembled instruction is placed in the target's memory.
 old-location: debugger\assemble.htm
 tech.root: debugger

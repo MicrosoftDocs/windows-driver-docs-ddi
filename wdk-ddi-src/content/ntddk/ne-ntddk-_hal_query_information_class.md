@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddk._HAL_QUERY_INFORMATION_CLASS
 title: _HAL_QUERY_INFORMATION_CLASS
-author: windows-driver-content
 description:  The values are reserved for internal use.
 ms.assetid: 1512ba13-b7a4-4418-bccb-7a65ec5f43c6
 ms.date: 09/30/2018

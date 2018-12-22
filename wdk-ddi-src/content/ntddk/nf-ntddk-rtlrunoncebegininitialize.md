@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlRunOnceBeginInitialize
 title: RtlRunOnceBeginInitialize function
-author: windows-driver-content
 description: The RtlRunOnceBeginInitialize routine begins a one-time initialization.
 old-location: kernel\rtlrunoncebegininitialize.htm
 tech.root: kernel

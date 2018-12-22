@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugControl
 title: IDebugControl
-author: windows-driver-content
 description: IDebugControl interface
 old-location: debugger\idebugcontrol.htm
 tech.root: debugger

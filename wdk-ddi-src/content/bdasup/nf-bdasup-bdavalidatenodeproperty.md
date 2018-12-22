@@ -1,7 +1,6 @@
 ---
 UID: NF:bdasup.BdaValidateNodeProperty
 title: BdaValidateNodeProperty function
-author: windows-driver-content
 description: The BdaValidateNodeProperty function validates that a node property request is associated with a specific pin.
 old-location: stream\bdavalidatenodeproperty.htm
 tech.root: stream

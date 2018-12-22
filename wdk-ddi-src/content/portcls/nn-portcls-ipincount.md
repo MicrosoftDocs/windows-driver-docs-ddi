@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IPinCount
 title: IPinCount
-author: windows-driver-content
 description: The IPinCount interface provides a means for the miniport driver to monitor and manipulate its pin counts dynamically as pins are instantiated and closed.
 old-location: audio\ipincount.htm
 tech.root: audio

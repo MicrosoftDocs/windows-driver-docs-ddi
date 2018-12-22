@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMPDriverEvent
 title: OEMPDriverEvent function
-author: windows-driver-content
 description: OEMPDriverEvent function
 old-location: print\oempdriverevent.htm
 tech.root: print

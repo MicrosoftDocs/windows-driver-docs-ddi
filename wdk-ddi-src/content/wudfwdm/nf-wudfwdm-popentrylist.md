@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfwdm.PopEntryList
 title: PopEntryList function
-author: windows-driver-content
 description: The PopEntryList routine removes the first entry from a singly linked list of SINGLE_LIST_ENTRY structures.
 old-location: kernel\popentrylist.htm
 tech.root: kernel

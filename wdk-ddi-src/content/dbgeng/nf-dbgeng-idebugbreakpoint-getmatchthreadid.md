@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.GetMatchThreadId
 title: IDebugBreakpoint::GetMatchThreadId
-author: windows-driver-content
 description: The GetMatchThreadId method returns the engine thread ID of the thread that can trigger a breakpoint.
 old-location: debugger\getmatchthreadid.htm
 tech.root: debugger

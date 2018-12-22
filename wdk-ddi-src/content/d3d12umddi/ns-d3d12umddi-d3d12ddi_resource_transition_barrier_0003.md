@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003
 title: D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003
-author: windows-driver-content
 description: Describes a transition barrier between subresources.
 old-location: display\d3d12ddi_resource_transition_barrier_0003.htm
 ms.assetid: 86E2A0A4-F02C-43E7-8CC1-395B444299A6

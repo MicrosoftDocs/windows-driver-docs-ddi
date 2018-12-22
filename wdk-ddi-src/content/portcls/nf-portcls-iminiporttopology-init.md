@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportTopology.Init
 title: IMiniportTopology::Init
-author: windows-driver-content
 description: The Init method initializes the topology miniport object.
 old-location: audio\iminiporttopology_init.htm
 tech.root: audio

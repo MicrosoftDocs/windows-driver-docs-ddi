@@ -1,7 +1,6 @@
 ---
 UID: NC:dot11wdi.NDIS_WDI_OPEN_ADAPTER_COMPLETE
 title: NDIS_WDI_OPEN_ADAPTER_COMPLETE
-author: windows-driver-content
 description: The NdisWdiOpenAdapterComplete callback function is called by the IHV when an Open Task operation from MiniportWdiOpenAdapter has been successfully started.
 old-location: netvista\ndiswdiopenadaptercomplete.htm
 tech.root: netvista

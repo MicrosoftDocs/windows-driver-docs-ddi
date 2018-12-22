@@ -1,7 +1,6 @@
 ---
 UID: NI:ntifs.IOCTL_REDIR_QUERY_PATH_EX
 title: IOCTL_REDIR_QUERY_PATH_EX
-author: windows-driver-content
 description: The IOCTL_REDIR_QUERY_PATH_EX control code is sent by the multiple UNC provider (MUP) on Windows Vista or later to network redirectors to determine which provider can handle a specific UNC path in a name-based operation, typically an IRP_MJ_CREATE request.
 old-location: ifsk\ioctl_redir_query_path_ex.htm
 tech.root: ifsk

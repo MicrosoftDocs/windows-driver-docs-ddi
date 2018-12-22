@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMCloseLog
 title: NdisMCloseLog function
-author: windows-driver-content
 description: NdisMCloseLog releases resources that were used for logging.
 old-location: netvista\ndismcloselog.htm
 tech.root: netvista

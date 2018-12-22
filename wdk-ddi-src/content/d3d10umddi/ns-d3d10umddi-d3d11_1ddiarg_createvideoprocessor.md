@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDIARG_CREATEVIDEOPROCESSOR
 title: D3D11_1DDIARG_CREATEVIDEOPROCESSOR
-author: windows-driver-content
 description: Specifies the attributes of a video processor object.
 old-location: display\d3d11_1ddiarg_createvideoprocessor.htm
 ms.assetid: 957cfebe-4cd9-4a35-822e-ebde4cd9e84c

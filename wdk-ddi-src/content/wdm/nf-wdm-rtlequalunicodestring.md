@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlEqualUnicodeString
 title: RtlEqualUnicodeString function
-author: windows-driver-content
 description: The RtlEqualUnicodeString routine compares two Unicode strings to determine whether they are equal.
 old-location: kernel\rtlequalunicodestring.htm
 tech.root: kernel

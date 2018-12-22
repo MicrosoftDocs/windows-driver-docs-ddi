@@ -1,7 +1,6 @@
 ---
 UID: NS:usbioctl._USB_NODE_INFORMATION
 title: "_USB_NODE_INFORMATION"
-author: windows-driver-content
 description: The USB_NODE_INFORMATION structure is used with the IOCTL_USB_GET_NODE_INFORMATION I/O control request to retrieve information about a parent device.
 old-location: buses\usb_node_information.htm
 tech.root: usbref

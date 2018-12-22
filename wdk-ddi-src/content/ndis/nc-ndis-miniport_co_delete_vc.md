@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_CO_DELETE_VC
 title: MINIPORT_CO_DELETE_VC
-author: windows-driver-content
 description: The MiniportCoDeleteVc function is required for connection-oriented miniports.
 old-location: netvista\miniportcodeletevc.htm
 tech.root: netvista

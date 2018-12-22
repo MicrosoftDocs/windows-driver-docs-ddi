@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.MmFreeNonCachedMemory
 title: MmFreeNonCachedMemory function
-author: windows-driver-content
 description: The MmFreeNonCachedMemory routine releases a range of noncached memory that was allocated by the MmAllocateNonCachedMemory routine.
 old-location: kernel\mmfreenoncachedmemory.htm
 tech.root: kernel

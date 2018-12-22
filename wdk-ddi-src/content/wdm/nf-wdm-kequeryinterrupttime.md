@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeQueryInterruptTime
 title: KeQueryInterruptTime function
-author: windows-driver-content
 description: The KeQueryInterruptTime routine returns the current value of the system interrupt time count, with accuracy to within system clock tick.
 old-location: kernel\kequeryinterrupttime.htm
 tech.root: kernel

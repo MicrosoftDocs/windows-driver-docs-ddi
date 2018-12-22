@@ -1,7 +1,6 @@
 ---
 UID: NC:irb.IDE_CHANNEL_INIT
 title: IDE_CHANNEL_INIT
-author: windows-driver-content
 description: The AtaChannelInitRoutine miniport driver routine initializes the miniport driver's channel interface.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\atachannelinitroutine.htm
 tech.root: storage

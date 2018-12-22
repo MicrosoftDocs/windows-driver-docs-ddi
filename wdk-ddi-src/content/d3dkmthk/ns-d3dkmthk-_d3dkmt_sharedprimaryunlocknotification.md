@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION
 title: "_D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION"
-author: windows-driver-content
 description: The D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION structure describes the shared primary surface that an application just unlocked.
 old-location: display\d3dkmt_sharedprimaryunlocknotification.htm
 ms.assetid: 294fe805-4dce-4d0e-b0dd-9279a1ef9514

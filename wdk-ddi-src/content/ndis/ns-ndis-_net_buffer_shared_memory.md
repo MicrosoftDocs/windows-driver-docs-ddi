@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NET_BUFFER_SHARED_MEMORY
 title: "_NET_BUFFER_SHARED_MEMORY"
-author: windows-driver-content
 description: The NET_BUFFER_SHARED_MEMORY structure specifies a shared memory buffer that is associated with a NET_BUFFER structure.
 old-location: netvista\net_buffer_shared_memory.htm
 tech.root: netvista

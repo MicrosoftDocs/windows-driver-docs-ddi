@@ -1,7 +1,6 @@
 ---
 UID: NF:ucmtcpciportcontroller.UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT
 title: UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT function
-author: windows-driver-content
 description: Initializes the UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION structure.
 old-location: buses\ucmtcpci_port_controller_identification_init.htm
 tech.root: usbref

@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_0
 title: KSRESET
-author: windows-driver-content
 description: 
 old-location: stream\ksreset.htm
 tech.root: stream

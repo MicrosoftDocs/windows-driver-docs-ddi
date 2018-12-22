@@ -1,7 +1,6 @@
 ---
 UID: NS:bdamedia._KSM_BDA_PIN
 title: "_KSM_BDA_PIN"
-author: windows-driver-content
 description: The KSM_BDA_PIN structure describes a method request to create or delete a pin factory for a filter.
 old-location: stream\ksm_bda_pin.htm
 tech.root: stream

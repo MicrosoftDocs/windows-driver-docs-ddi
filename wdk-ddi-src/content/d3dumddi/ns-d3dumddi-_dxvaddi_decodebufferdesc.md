@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_DECODEBUFFERDESC
 title: "_DXVADDI_DECODEBUFFERDESC"
-author: windows-driver-content
 description: The DXVADDI_DECODEBUFFERDESC structure describes a buffer that is currently passed from the host decoder to the accelerator.
 old-location: display\dxvaddi_decodebufferdesc.htm
 tech.root: display

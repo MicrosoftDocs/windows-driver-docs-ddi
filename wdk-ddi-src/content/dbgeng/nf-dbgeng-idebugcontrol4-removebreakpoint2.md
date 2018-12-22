@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.RemoveBreakpoint2
 title: IDebugControl4::RemoveBreakpoint2
-author: windows-driver-content
 description: The RemoveBreakpoint2 method removes a breakpoint.
 old-location: debugger\removebreakpoint2.htm
 tech.root: debugger

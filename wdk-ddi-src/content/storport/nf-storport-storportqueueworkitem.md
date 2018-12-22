@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortQueueWorkItem
 title: StorPortQueueWorkItem function
-author: windows-driver-content
 description: Schedules a Storport work item to execute within the context of a system worker thread.
 old-location: storage\storportqueueworkitem.htm
 tech.root: storage

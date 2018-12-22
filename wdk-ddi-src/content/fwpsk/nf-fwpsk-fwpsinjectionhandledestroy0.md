@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsInjectionHandleDestroy0
 title: FwpsInjectionHandleDestroy0 function
-author: windows-driver-content
 description: The FwpsInjectionHandleDestroy0 function destroys an injection handle that was previously created by calling the FwpsInjectionHandleCreate0 function.Note  FwpsInjectionHandleDestroy0 is a specific version of FwpsInjectionHandleDestroy.
 old-location: netvista\fwpsinjectionhandledestroy0.htm
 tech.root: netvista

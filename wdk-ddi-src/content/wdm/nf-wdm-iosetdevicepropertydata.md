@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoSetDevicePropertyData
 title: IoSetDevicePropertyData function
-author: windows-driver-content
 description: The IoSetDevicePropertyData routine modifies the current setting for a device property.
 old-location: kernel\iosetdevicepropertydata.htm
 tech.root: kernel

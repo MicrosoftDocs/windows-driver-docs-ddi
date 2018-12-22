@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient4.CreateClient
 title: IDebugClient4::CreateClient
-author: windows-driver-content
 description: The CreateClient method creates a new client object for the current thread.
 old-location: debugger\createclient.htm
 tech.root: debugger

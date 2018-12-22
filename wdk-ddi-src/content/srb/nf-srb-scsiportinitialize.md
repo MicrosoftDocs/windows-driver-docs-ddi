@@ -1,7 +1,6 @@
 ---
 UID: NF:srb.ScsiPortInitialize
 title: ScsiPortInitialize function
-author: windows-driver-content
 description: For a non-Plug and Play miniport driver, the ScsiPortInitialize routine sets up the PORT_CONFIGURATION_INFORMATION structure and calls the miniport driver's HwScsiFindAdapter routine.
 old-location: storage\scsiportinitialize.htm
 tech.root: storage

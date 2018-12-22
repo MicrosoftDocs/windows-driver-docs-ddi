@@ -1,7 +1,6 @@
 ---
 UID: NC:netdma.DMA_APPEND_HANDLER
 title: DMA_APPEND_HANDLER
-author: windows-driver-content
 description: The ProviderAppendDma function appends a linked list of DMA descriptors to the last descriptor on a DMA channel.
 old-location: netvista\providerappenddma.htm
 tech.root: netvista

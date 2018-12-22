@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlPostStackOverflow
 title: FsRtlPostStackOverflow function
-author: windows-driver-content
 description: The FsRtlPostStackOverflow routine posts a stack overflow item to the stack overflow thread.
 old-location: ifsk\fsrtlpoststackoverflow.htm
 tech.root: ifsk

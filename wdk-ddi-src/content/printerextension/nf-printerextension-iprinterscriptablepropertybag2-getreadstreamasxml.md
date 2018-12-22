@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag2.GetReadStreamAsXML
 title: IPrinterScriptablePropertyBag2::GetReadStreamAsXML
-author: windows-driver-content
 description: 
 old-location: print\iprinterscriptablepropertybag2_getreadstreamasxml.htm
 tech.root: print

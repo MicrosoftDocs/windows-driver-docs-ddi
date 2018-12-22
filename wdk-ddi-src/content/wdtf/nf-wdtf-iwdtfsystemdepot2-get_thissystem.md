@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFSystemDepot2.get_ThisSystem
 title: IWDTFSystemDepot2::get_ThisSystem
-author: windows-driver-content
 description: Gets an IWDTFTarget2 value that represents the local computer.
 old-location: dtf\iwdtfsystemdepot2_thissystem.htm
 tech.root: dtf

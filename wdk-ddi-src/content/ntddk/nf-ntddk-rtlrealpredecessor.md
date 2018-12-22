@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlRealPredecessor
 title: RtlRealPredecessor function
-author: windows-driver-content
 description: The RtlRealPredecessor routine returns a pointer to the predecessor of the specified node in the splay link tree.
 old-location: ifsk\rtlrealpredecessor.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortGetAssociatedDeviceExtension
 title: VideoPortGetAssociatedDeviceExtension function
-author: windows-driver-content
 description: The VideoPortGetAssociatedDeviceExtension function returns the device extension for the parent of the specified device object.
 old-location: display\videoportgetassociateddeviceextension.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoSetInformation
 title: IoSetInformation function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\iosetinformation.htm
 tech.root: ifsk

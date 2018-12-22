@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IDmaChannel.PhysicalAddress
 title: IDmaChannel::PhysicalAddress
-author: windows-driver-content
 description: The PhysicalAddress method returns the physical address of the allocated buffer.
 tech.root: audio
 ms.assetid: bb324307-e28b-4185-bfc0-ef69a99125ff

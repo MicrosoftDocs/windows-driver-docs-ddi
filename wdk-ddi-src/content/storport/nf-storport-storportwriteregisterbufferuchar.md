@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortWriteRegisterBufferUchar
 title: StorPortWriteRegisterBufferUchar macro
-author: windows-driver-content
 description: The StorPortWriteRegisterBufferUchar routine transfers a given number of unsigned bytes from a buffer to the HBA.
 old-location: storage\storportwriteregisterbufferuchar.htm
 tech.root: storage

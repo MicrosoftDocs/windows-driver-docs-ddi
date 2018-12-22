@@ -1,7 +1,6 @@
 ---
 UID: NS:fwpsk.FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0_
 title: FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0_
-author: windows-driver-content
 description: The FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0 structure defines IPsec information associated with outbound packet data.Note  FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0 is a specific version of FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION.
 old-location: netvista\fwps_packet_list_outbound_ipsec_information0.htm
 tech.root: netvista

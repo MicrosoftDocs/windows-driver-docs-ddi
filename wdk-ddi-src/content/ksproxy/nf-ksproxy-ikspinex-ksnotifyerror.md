@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPinEx.KsNotifyError
 title: IKsPinEx::KsNotifyError
-author: windows-driver-content
 description: The KsNotifyError method notifies the filter graph of an error to give the filter graph an opportunity to halt.
 old-location: stream\ikspinex_ksnotifyerror.htm
 tech.root: stream

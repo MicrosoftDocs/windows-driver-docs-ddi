@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoRegisterDeviceInterface
 title: IoRegisterDeviceInterface function
-author: windows-driver-content
 description: The IoRegisterDeviceInterface routine registers a device interface class, if it has not been previously registered, and creates a new instance of the interface class, which a driver can subsequently enable for use by applications or other system components.
 old-location: kernel\ioregisterdeviceinterface.htm
 tech.root: kernel

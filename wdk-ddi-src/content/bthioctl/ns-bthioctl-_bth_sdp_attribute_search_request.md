@@ -1,7 +1,6 @@
 ---
 UID: NS:bthioctl._BTH_SDP_ATTRIBUTE_SEARCH_REQUEST
 title: "_BTH_SDP_ATTRIBUTE_SEARCH_REQUEST"
-author: windows-driver-content
 description: The BTH_SDP_ATTRIBUTE_SEARCH_REQUEST structure contains information pertinent to an SDP attribute search.
 old-location: bltooth\bth_sdp_attribute_search_request.htm
 tech.root: bltooth

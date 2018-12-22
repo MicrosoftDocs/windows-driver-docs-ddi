@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMReadDmaCounter
 title: NdisMReadDmaCounter function
-author: windows-driver-content
 description: The NdisMReadDmaCounter function returns the current value of the system DMA controller's counter.
 old-location: netvista\ndismreaddmacounter.htm
 tech.root: netvista

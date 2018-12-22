@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DECODEEXTENSIONEXECUTE
 title: "_D3DDDIARG_DECODEEXTENSIONEXECUTE"
-author: windows-driver-content
 description: The D3DDDIARG_DECODEEXTENSIONEXECUTE structure describes a nonstandard Microsoft DirectX Video Acceleration (VA) decode operation to perform.
 old-location: display\d3dddiarg_decodeextensionexecute.htm
 tech.root: display

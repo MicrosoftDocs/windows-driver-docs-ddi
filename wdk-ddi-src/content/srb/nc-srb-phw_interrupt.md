@@ -1,7 +1,6 @@
 ---
 UID: NC:srb.PHW_INTERRUPT
 title: PHW_INTERRUPT
-author: windows-driver-content
 description: The PHW_INTERRUPT routine prototype declares the miniport driver's interrupt handler routine.
 old-location: storage\phw_interrupt.htm
 tech.root: storage

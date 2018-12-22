@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._PNP_BUS_INFORMATION
 title: "_PNP_BUS_INFORMATION"
-author: windows-driver-content
 description: The PNP_BUS_INFORMATION structure describes a bus.
 old-location: kernel\pnp_bus_information.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._MS_SMHBA_FC_PHY
 title: "_MS_SMHBA_FC_PHY"
-author: windows-driver-content
 description: The MS_SMHBA_FC_PHY structure is used to report the physical attributes of a fibre channel port.
 old-location: storage\ms_smhba_fc_phy.htm
 tech.root: storage

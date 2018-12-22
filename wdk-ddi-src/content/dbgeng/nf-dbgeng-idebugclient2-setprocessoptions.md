@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient2.SetProcessOptions
 title: IDebugClient2::SetProcessOptions
-author: windows-driver-content
 description: The SetProcessOptions method sets the process options affecting the current process.
 old-location: debugger\setprocessoptions.htm
 tech.root: debugger

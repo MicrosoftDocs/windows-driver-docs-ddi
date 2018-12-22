@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgDump
 title: wiauDbgDump function
-author: windows-driver-content
 description: The wiauDbgDump function logs a message containing one or more data values.
 old-location: image\wiaudbgdump.htm
 tech.root: image

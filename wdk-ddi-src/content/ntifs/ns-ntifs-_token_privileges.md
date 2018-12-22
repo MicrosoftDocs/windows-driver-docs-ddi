@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._TOKEN_PRIVILEGES
 title: "_TOKEN_PRIVILEGES"
-author: windows-driver-content
 description: TOKEN_PRIVILEGES contains information about a set of privileges for an access token.
 old-location: ifsk\token_privileges.htm
 tech.root: ifsk

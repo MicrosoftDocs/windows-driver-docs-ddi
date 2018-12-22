@@ -1,7 +1,6 @@
 ---
 UID: NN:printerextension.IPrintSchemaAsyncOperation
 title: IPrintSchemaAsyncOperation
-author: windows-driver-content
 description: Represents an asynchronous operation context for validation, merge or commit operations.
 old-location: print\iprintschemaasyncoperation_interface.htm
 tech.root: print

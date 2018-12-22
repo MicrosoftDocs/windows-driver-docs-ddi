@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.IsCanceled
 title: IWDFIoRequest2::IsCanceled
-author: windows-driver-content
 description: The IsCanceled method determines whether the I/O manager has attempted to cancel an I/O request.
 old-location: wdf\iwdfiorequest2_iscanceled.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:sercx.SerCx2SystemDmaTransmitGetDmaEnabler
 title: SerCx2SystemDmaTransmitGetDmaEnabler function
-author: windows-driver-content
 description: The SerCx2SystemDmaTransmitGetDmaEnabler method gets the DMA enabler for the system DMA controller that is used for system-DMA-transmit transactions.
 old-location: serports\sercx2systemdmatransmitgetdmaenabler.htm
 tech.root: serports

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoAdjustPagingPathCount
 title: IoAdjustPagingPathCount macro
-author: windows-driver-content
 description: The IoAdjustPagingPathCount routine increments or decrements a caller-supplied page-file counter as an atomic operation.
 old-location: kernel\ioadjustpagingpathcount.htm
 tech.root: kernel

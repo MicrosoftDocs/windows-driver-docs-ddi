@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_CONTEXTDESTROYDATA
 title: "_D3DHAL_CONTEXTDESTROYDATA"
-author: windows-driver-content
 description: The D3DHAL_CONTEXTDESTROYDATA structure contains the information that the D3dContextDestroy function requires to delete a context.
 old-location: display\d3dhal_contextdestroydata.htm
 tech.root: display

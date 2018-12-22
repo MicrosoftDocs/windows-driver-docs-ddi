@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtExtension.SetArg
 title: ExtExtension::SetArg
-author: windows-driver-content
 description: The SetArg method sets a named argument for the current extension command.
 old-location: debugger\setarg.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFWorkItem
 title: IWDFWorkItem
-author: windows-driver-content
 description: This interface exposes a work item object.
 old-location: wdf\iwdfworkitem.htm
 tech.root: wdf

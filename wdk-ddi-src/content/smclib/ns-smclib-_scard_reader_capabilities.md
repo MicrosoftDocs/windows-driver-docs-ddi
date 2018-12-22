@@ -1,7 +1,6 @@
 ---
 UID: NS:smclib._SCARD_READER_CAPABILITIES
 title: "_SCARD_READER_CAPABILITIES"
-author: windows-driver-content
 description: The SCARD_READER_CAPABILITIES structure holds state information about the smart card reader.
 old-location: smartcrd\scard_reader_capabilities.htm
 tech.root: smartcrd

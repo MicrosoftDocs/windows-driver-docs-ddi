@@ -1,7 +1,6 @@
 ---
 UID: NS:61883._CMP_GET_PLUG_STATE
 title: "_CMP_GET_PLUG_STATE"
-author: windows-driver-content
 description: This structure is used in getting the state of a plug.
 old-location: ieee\cmp_get_plug_state.htm
 tech.root: IEEE

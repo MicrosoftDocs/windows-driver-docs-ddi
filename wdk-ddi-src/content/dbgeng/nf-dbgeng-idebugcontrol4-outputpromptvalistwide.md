@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.OutputPromptVaListWide
 title: IDebugControl4::OutputPromptVaListWide
-author: windows-driver-content
 description: The OutputPromptVaListWide method formats and sends a user prompt to the output callback objects.
 old-location: debugger\outputpromptvalistwide.htm
 tech.root: debugger

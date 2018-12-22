@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlRemoveUnicodePrefix
 title: RtlRemoveUnicodePrefix function
-author: windows-driver-content
 description: The RtlRemoveUnicodePrefix routine removes an element from a prefix table.
 old-location: ifsk\rtlremoveunicodeprefix.htm
 tech.root: ifsk

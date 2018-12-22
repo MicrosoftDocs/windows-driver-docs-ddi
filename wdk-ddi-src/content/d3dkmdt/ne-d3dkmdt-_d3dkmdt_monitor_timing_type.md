@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_MONITOR_TIMING_TYPE
 title: "_D3DKMDT_MONITOR_TIMING_TYPE"
-author: windows-driver-content
 description: The D3DKMDT_MONITOR_TIMING_TYPE enumeration is reserved for system use. Do not use it in your driver.
 old-location: display\d3dkmdt_monitor_timing_type.htm
 tech.root: display

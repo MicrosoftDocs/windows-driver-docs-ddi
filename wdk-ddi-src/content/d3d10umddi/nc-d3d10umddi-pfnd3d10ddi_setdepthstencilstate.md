@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_SETDEPTHSTENCILSTATE
 title: PFND3D10DDI_SETDEPTHSTENCILSTATE
-author: windows-driver-content
 description: The SetDepthStencilState function sets a depth-stencil state.
 old-location: display\setdepthstencilstate.htm
 ms.assetid: 379f8113-b07c-4984-ba37-a06d6c21b9e9

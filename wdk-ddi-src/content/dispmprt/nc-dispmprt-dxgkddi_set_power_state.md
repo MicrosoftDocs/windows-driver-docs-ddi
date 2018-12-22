@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_SET_POWER_STATE
 title: DXGKDDI_SET_POWER_STATE
-author: windows-driver-content
 description: The DxgkDdiSetPowerState function sets the power state of a display adapter or a child device of a display adapter.
 old-location: display\dxgkddisetpowerstate.htm
 tech.root: display

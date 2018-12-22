@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfchildlist.WdfChildListAddOrUpdateChildDescriptionAsPresent
 title: WdfChildListAddOrUpdateChildDescriptionAsPresent function
-author: windows-driver-content
 description: The WdfChildListAddOrUpdateChildDescriptionAsPresent method adds a new child description to a list of children or updates an existing child description.
 old-location: wdf\wdfchildlistaddorupdatechilddescriptionaspresent.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient3.GetOutputMask
 title: IDebugClient3::GetOutputMask
-author: windows-driver-content
 description: The GetOutputMask method returns the output mask currently set for the client.
 old-location: debugger\getoutputmask.htm
 tech.root: debugger

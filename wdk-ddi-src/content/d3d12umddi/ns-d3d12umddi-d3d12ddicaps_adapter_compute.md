@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDICAPS_ADAPTER_COMPUTE
 title: D3D12DDICAPS_ADAPTER_COMPUTE
-author: windows-driver-content
 description: Checks if the adapter is compatible with compute.
 ms.assetid: f750d808-1a5e-45c5-8cf6-4d1bf08443cf
 ms.date: 10/19/2018

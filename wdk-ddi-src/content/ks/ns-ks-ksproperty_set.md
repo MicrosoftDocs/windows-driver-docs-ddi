@@ -1,7 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_68
 title: KSPROPERTY_SET
-author: windows-driver-content
 description: A kernel streaming driver or pin may use the KSPROPERTY_SET structure to describe how it supports a property set.
 old-location: stream\ksproperty_set.htm
 tech.root: stream

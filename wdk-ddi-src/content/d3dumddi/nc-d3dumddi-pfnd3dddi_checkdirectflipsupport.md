@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CHECKDIRECTFLIPSUPPORT
 title: PFND3DDDI_CHECKDIRECTFLIPSUPPORT
-author: windows-driver-content
 description: Called by the Desktop Window Manager (DWM) to verify that the user-mode driver supports Direct Flip operations, in which video memory is seamlessly flipped between an application's managed primary allocations and the DWM's managed primary allocations.
 old-location: display\checkdirectflipsupport.htm
 tech.root: display

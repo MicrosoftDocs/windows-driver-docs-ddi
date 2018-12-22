@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoRegisterFsRegistrationChangeMountAware
 title: IoRegisterFsRegistrationChangeMountAware function
-author: windows-driver-content
 description: The IoRegisterFsRegistrationChangeMountAware routine registers a file system filter driver's notification routine. This notification routine is called whenever a file system registers or unregisters itself as an active file system.
 old-location: ifsk\ioregisterfsregistrationchangemountaware.htm
 tech.root: ifsk

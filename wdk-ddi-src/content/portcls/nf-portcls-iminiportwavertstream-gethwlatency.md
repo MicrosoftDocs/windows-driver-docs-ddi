@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveRTStream.GetHWLatency
 title: IMiniportWaveRTStream::GetHWLatency
-author: windows-driver-content
 description: The GetHWLatency method retrieves information about sources of stream latency in the audio hardware.
 tech.root: audio
 ms.assetid: faddde96-d13f-4f19-9370-ea756e39c6d3

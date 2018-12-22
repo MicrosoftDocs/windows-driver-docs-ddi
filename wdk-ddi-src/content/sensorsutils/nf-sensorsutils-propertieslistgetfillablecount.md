@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorsutils.PropertiesListGetFillableCount
 title: PropertiesListGetFillableCount function
-author: windows-driver-content
 description: Returns the number of elements a properties list buffer of a certain size can possibly hold.
 ms.assetid: 18425b45-8ebc-4bbe-b69c-caf7a3a83414
 ms.date: 08/08/2018

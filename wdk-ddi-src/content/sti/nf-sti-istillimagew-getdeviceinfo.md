@@ -1,7 +1,6 @@
 ---
 UID: NF:sti.IStillImageW.GetDeviceInfo
 title: IStillImageW::GetDeviceInfo
-author: windows-driver-content
 description: The IStillImage::GetDeviceInfo method returns hardware characteristics for a specified still image device.
 old-location: image\istillimage_getdeviceinfo.htm
 tech.root: image

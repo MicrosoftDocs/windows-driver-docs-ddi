@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_DEVICE_ERROR_REASON
 title: _D3DKMT_DEVICE_ERROR_REASON
-author: windows-driver-content
 description: Device error reasons.
 ms.assetid: a8c1f1c5-4de8-4a64-812f-863ee5bb843d
 ms.date: 10/19/2018

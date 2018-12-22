@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFIoRequest3
 title: IWDFIoRequest3
-author: windows-driver-content
 description: To obtain the IWDFIoRequest3 interface, drivers call IWDFIoRequest::QueryInterface.
 old-location: wdf\iwdfiorequest3.htm
 tech.root: wdf

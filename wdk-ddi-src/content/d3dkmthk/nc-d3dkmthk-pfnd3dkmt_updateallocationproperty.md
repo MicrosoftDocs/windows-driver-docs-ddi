@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_UPDATEALLOCATIONPROPERTY
 title: PFND3DKMT_UPDATEALLOCATIONPROPERTY
-author: windows-driver-content
 description: The PFND3DKMT_UPDATEALLOCATIONPROPERTY callback function updates allocation property of a context.
 ms.assetid: 70da6f66-26d7-47c6-8236-2003cfa6edf3
 ms.date: 10/19/2018

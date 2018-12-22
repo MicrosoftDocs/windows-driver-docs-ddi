@@ -1,7 +1,6 @@
 ---
 UID: NN:stiusd.IStiUSD
 title: IStiUSD
-author: windows-driver-content
 description: This section describes the methods defined for the IStiUSD COM Interface. Method prototypes are contained in Stiusd.h.
 old-location: image\istiusd_interface_methods.htm
 tech.root: image

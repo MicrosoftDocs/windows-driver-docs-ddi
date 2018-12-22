@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMCmDispatchIncomingCall
 title: NdisMCmDispatchIncomingCall macro
-author: windows-driver-content
 description: NdisMCmDispatchIncomingCall informs the client of an incoming call on a SAP previously registered by that client with the MCM driver.
 old-location: netvista\ndismcmdispatchincomingcall.htm
 tech.root: netvista

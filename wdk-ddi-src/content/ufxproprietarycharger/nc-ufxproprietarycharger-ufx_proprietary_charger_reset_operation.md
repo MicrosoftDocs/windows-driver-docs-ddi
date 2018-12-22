@@ -1,7 +1,6 @@
 ---
 UID: NC:ufxproprietarycharger.UFX_PROPRIETARY_CHARGER_RESET_OPERATION
 title: UFX_PROPRIETARY_CHARGER_RESET_OPERATION
-author: windows-driver-content
 description: The filter driver's implementation to reset a charger operation.
 old-location: buses\ufx_proprietary_charger_reset_operation.htm
 tech.root: usbref

@@ -1,7 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_PERFORMANCE
 title: IOCTL_DISK_PERFORMANCE
-author: windows-driver-content
 description: Increments a reference counter that enables the collection of disk performance statistics, such as the numbers of bytes read and written since the driver last processed this request, for a corresponding disk monitoring application.
 old-location: storage\ioctl_disk_performance.htm
 tech.root: storage

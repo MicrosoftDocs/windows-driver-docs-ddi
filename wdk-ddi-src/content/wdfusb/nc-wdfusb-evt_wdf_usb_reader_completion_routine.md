@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfusb.EVT_WDF_USB_READER_COMPLETION_ROUTINE
 title: EVT_WDF_USB_READER_COMPLETION_ROUTINE
-author: windows-driver-content
 description: A driver's EvtUsbTargetPipeReadComplete event callback function informs the driver that a continuous reader has successfully completed a read request.
 old-location: wdf\evtusbtargetpipereadcomplete.htm
 tech.root: wdf

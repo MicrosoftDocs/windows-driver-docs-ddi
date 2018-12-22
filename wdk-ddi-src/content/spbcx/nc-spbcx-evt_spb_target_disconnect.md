@@ -1,7 +1,6 @@
 ---
 UID: NC:spbcx.EVT_SPB_TARGET_DISCONNECT
 title: EVT_SPB_TARGET_DISCONNECT
-author: windows-driver-content
 description: An SPB controller driver's EvtSpbTargetDisconnect event callback function closes a connection to a target device that was previously opened by a call to the driver's EvtSpbTargetConnect event callback function.
 old-location: spb\evtspbtargetdisconnect.htm
 tech.root: SPB

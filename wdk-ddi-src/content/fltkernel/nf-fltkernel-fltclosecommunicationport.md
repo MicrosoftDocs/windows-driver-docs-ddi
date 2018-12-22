@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltCloseCommunicationPort
 title: FltCloseCommunicationPort function
-author: windows-driver-content
 description: FltCloseCommunicationPort closes a minifilter driver's communication server port.
 old-location: ifsk\fltclosecommunicationport.htm
 tech.root: ifsk

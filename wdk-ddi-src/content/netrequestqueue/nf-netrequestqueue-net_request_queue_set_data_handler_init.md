@@ -1,7 +1,6 @@
 ---
 UID: NF:netrequestqueue.NET_REQUEST_QUEUE_SET_DATA_HANDLER_INIT
 title: NET_REQUEST_QUEUE_SET_DATA_HANDLER_INIT function
-author: windows-driver-content
 description: Initializes a caller-allocated NET_REQUEST_QUEUE_SET_DATA_HANDLER structure.
 tech.root: netvista
 ms.assetid: 0b9803b4-438b-459e-849c-5e08fa9f58e5

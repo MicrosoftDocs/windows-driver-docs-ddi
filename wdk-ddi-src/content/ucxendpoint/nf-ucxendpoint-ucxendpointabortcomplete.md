@@ -1,7 +1,6 @@
 ---
 UID: NF:ucxendpoint.UcxEndpointAbortComplete
 title: UcxEndpointAbortComplete function
-author: windows-driver-content
 description: Notifies UCX that a transfer abort operation has been completed on the specified endpoint object.
 old-location: buses\_ucxendpointabortcomplete.htm
 tech.root: usbref

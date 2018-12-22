@@ -1,7 +1,6 @@
 ---
 UID: NS:prntfont._DATA_HEADER
 title: "_DATA_HEADER"
-author: windows-driver-content
 description: The DATA_HEADER structure is used to specify a data section within a Unidrv font format file (.uff file).
 old-location: print\data_header.htm
 tech.root: print

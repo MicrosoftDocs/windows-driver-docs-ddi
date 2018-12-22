@@ -1,7 +1,6 @@
 ---
 UID: NF:winsplp.RouterFreeBidiMem
 title: RouterFreeBidiMem function
-author: windows-driver-content
 description: RouterFreeBidiMem frees a block of memory that was previously allocated by RouterAllocBidiMem.
 old-location: print\routerfreebidimem.htm
 tech.root: print

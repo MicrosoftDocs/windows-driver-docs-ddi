@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlTimeToTimeFields
 title: RtlTimeToTimeFields function
-author: windows-driver-content
 description: The RtlTimeToTimeFields routine converts system time into a TIME_FIELDS structure.
 old-location: kernel\rtltimetotimefields.htm
 tech.root: kernel

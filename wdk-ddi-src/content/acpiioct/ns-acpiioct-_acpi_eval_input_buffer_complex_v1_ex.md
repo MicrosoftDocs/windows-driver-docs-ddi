@@ -1,7 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX
 title: "_ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX"
-author: windows-driver-content
 description: The ACPI_EVAL_INPUT_BUFFER_COMPLEX_EX structure is used as input to an IOCTL_ACPI_EVAL_METHOD_EX request and to an IOCTL_ACPI_ASYNC_EVAL_METHOD_EX request.
 old-location: acpi\acpi_eval_input_buffer_complex_ex.htm
 tech.root: acpi

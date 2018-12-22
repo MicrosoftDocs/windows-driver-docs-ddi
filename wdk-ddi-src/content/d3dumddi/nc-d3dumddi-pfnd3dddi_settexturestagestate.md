@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETTEXTURESTAGESTATE
 title: PFND3DDDI_SETTEXTURESTAGESTATE
-author: windows-driver-content
 description: The SetTextureStageState function updates the state of a texture at a particular stage in a multiple-texture group.
 old-location: display\settexturestagestate.htm
 tech.root: display

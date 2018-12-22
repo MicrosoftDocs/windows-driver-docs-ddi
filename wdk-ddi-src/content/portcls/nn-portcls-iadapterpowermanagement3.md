@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IAdapterPowerManagement3
 title: IAdapterPowerManagement3
-author: windows-driver-content
 description: The IAdapterPowerManagement3 interface inherits from IUnknown, and it is used for receiving power management messages.
 old-location: audio\iadapterpowermanagement3.htm
 tech.root: audio

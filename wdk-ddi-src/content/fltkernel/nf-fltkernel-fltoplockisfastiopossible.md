@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltOplockIsFastIoPossible
 title: FltOplockIsFastIoPossible function
-author: windows-driver-content
 description: The FltOplockIsFastIoPossible routine checks a file's opportunistic lock (oplock) state to determine whether fast I/O can be performed on the file.
 old-location: ifsk\fltoplockisfastiopossible.htm
 tech.root: ifsk

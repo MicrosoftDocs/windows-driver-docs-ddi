@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlIsPartialPlaceholder
 title: RtlIsPartialPlaceholder function
-author: windows-driver-content
 description: The RtlIsPartialPlaceholder routine determines if a file or a directory is a CloudFiles placeholder, based on the FileAttributes and ReparseTag values of the file.
 old-location: ifsk\rtlispartialplaceholder.htm
 tech.root: ifsk

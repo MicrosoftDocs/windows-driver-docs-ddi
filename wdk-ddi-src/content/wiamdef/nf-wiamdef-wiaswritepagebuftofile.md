@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasWritePageBufToFile
 title: wiasWritePageBufToFile function
-author: windows-driver-content
 description: The wiasWritePageBufToFile function writes the contents of a temporary page buffer to an image file.
 old-location: image\wiaswritepagebuftofile.htm
 tech.root: image

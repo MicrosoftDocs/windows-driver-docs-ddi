@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDIARG_CREATEQUERY
 title: D3D10DDIARG_CREATEQUERY
-author: windows-driver-content
 description: The D3D10DDIARG_CREATEQUERY structure describes the query to create.
 old-location: display\d3d10ddiarg_createquery.htm
 ms.assetid: 1042f401-fbdd-47ee-8cfc-1bca331ac722

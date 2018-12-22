@@ -1,7 +1,6 @@
 ---
 UID: NS:windot11._DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO
 title: "_DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO"
-author: windows-driver-content
 description: The DOT11_POWER_MGMT_AUTO_MODE_ENABLED structure describes to a device whether to automatically manage its power saving mode.
 old-location: netvista\dot11_power_mgmt_auto_mode_enabled_info.htm
 tech.root: netvista

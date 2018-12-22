@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltSupportsStreamHandleContexts
 title: FltSupportsStreamHandleContexts function
-author: windows-driver-content
 description: FltSupportsStreamHandleContexts determines whether stream handle contexts are supported on a given file object.
 old-location: ifsk\fltsupportsstreamhandlecontexts.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_OUT_QUERY_HWCURSOR
 title: IDARG_OUT_QUERY_HWCURSOR
-author: windows-driver-content
 description: Gives information about the coordinates and shape of the current cursor.
 old-location: display\idarg_out_query_hwcursor.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient.SetOutputWidth
 title: IDebugClient::SetOutputWidth
-author: windows-driver-content
 description: Controls the width of an output line for commands that produce formatted output.
 old-location: debugger\idebugclient_setoutputwidth.htm
 tech.root: debugger

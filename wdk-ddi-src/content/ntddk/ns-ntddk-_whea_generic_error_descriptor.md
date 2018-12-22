@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_GENERIC_ERROR_DESCRIPTOR
 title: "_WHEA_GENERIC_ERROR_DESCRIPTOR"
-author: windows-driver-content
 description: The WHEA_GENERIC_ERROR_DESCRIPTOR structure describes a generic error source.
 old-location: whea\whea_generic_error_descriptor.htm
 tech.root: whea

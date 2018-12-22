@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.GetSymbolParameters
 title: IDebugSymbolGroup2::GetSymbolParameters
-author: windows-driver-content
 description: The GetSymbolParameters method returns the symbol parameters that describe the specified symbols in a symbol group.
 old-location: debugger\getsymbolparameters.htm
 tech.root: debugger

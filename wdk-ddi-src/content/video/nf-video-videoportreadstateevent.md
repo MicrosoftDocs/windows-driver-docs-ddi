@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortReadStateEvent
 title: VideoPortReadStateEvent function
-author: windows-driver-content
 description: The VideoPortReadStateEvent function returns the current state of a given event object:\_signaled or nonsignaled.
 old-location: display\videoportreadstateevent.htm
 tech.root: display

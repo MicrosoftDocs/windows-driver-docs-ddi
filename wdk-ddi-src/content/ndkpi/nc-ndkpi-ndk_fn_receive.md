@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_RECEIVE
 title: NDK_FN_RECEIVE
-author: windows-driver-content
 description: The NdkReceive (NDK_FN_RECEIVE) function posts a receive request on an NDK queue pair (QP).
 old-location: netvista\ndk_fn_receive.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IRegistryKey.NewSubKey
 title: IRegistryKey::NewSubKey
-author: windows-driver-content
 description: The NewSubKey method either creates a new registry subkey or opens an existing subkey under the key represented by the IRegistryKey object.
 old-location: audio\iregistrykey_newsubkey.htm
 tech.root: audio

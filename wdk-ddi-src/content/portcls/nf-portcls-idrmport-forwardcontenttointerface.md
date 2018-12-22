@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IDrmPort.ForwardContentToInterface
 title: IDrmPort::ForwardContentToInterface
-author: windows-driver-content
 description: The ForwardContentToInterface method accepts a pointer to the COM interface of an object to which the caller intends to forward protected content.
 tech.root: audio
 ms.assetid: 8ccec5e2-2239-4d3d-a789-f7d1800966d7

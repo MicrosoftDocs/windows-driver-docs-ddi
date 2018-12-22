@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfdriverpackageaction.IWDTFDriverPackageAction2.get_Date
 title: IWDTFDriverPackageAction2::get_Date
-author: windows-driver-content
 description: Gets the driver package date.
 old-location: dtf\iwdtfdriverpackageaction2_date.htm
 tech.root: dtf

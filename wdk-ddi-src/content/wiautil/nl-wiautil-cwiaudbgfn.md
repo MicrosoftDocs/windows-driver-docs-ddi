@@ -1,7 +1,6 @@
 ---
 UID: NL:wiautil.CWiauDbgFn
 title: CWiauDbgFn
-author: windows-driver-content
 description: The CWiauDbgFn class is a helper class that is used for tracing function or method entry and exit points.
 old-location: image\cwiaudbgfn_class.htm
 tech.root: image

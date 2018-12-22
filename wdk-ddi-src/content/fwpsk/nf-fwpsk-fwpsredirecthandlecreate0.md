@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsRedirectHandleCreate0
 title: FwpsRedirectHandleCreate0 function
-author: windows-driver-content
 description: The FwpsRedirectHandleCreate0 function creates a handle that connection redirection functions can use to redirect connections to a local process.
 old-location: netvista\fwpsredirecthandlecreate0.htm
 tech.root: netvista

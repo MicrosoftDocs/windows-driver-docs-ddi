@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisGeneratePartialCancelId
 title: NdisGeneratePartialCancelId function
-author: windows-driver-content
 description: The NdisGeneratePartialCancelId function returns a value that the calling driver must use as the high-order byte of a cancellation ID.
 old-location: netvista\ndisgeneratepartialcancelid.htm
 tech.root: netvista

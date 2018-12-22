@@ -1,7 +1,6 @@
 ---
 UID: NS:usbpmapi._USBPM_CLIENT_CONFIG_EXTRA_INFO
 title: _USBPM_CLIENT_CONFIG_EXTRA_INFO
-author: windows-driver-content
 description: Contains optional information used to configure the client driver's registration.
 ms.assetid: 919040a7-21d8-4fc4-9539-fdc7fff53b40
 ms.date: 09/30/2018

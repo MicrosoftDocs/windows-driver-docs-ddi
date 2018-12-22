@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_RECLAIMALLOCATIONS2CB
 title: PFND3DDDI_RECLAIMALLOCATIONS2CB
-author: windows-driver-content
 description: pfnReclaimAllocations2Cb is called by the user mode driver to reclaim video memory allocations that were previously offered for reuse.
 old-location: display\pfnreclaimallocations2cb.htm
 tech.root: display

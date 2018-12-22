@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenResource
 title: D3DKMTOpenResource function
-author: windows-driver-content
 description: The D3DKMTOpenResource function opens a shared resource.
 old-location: display\d3dkmtopenresource.htm
 ms.assetid: 787ace79-c9ba-4e3e-9cee-0d07ef50ba35

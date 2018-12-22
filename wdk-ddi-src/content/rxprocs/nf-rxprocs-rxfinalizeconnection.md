@@ -1,7 +1,6 @@
 ---
 UID: NF:rxprocs.RxFinalizeConnection
 title: RxFinalizeConnection function
-author: windows-driver-content
 description: RxFinalizeConnection deletes a connection to a share.
 old-location: ifsk\rxfinalizeconnection.htm
 tech.root: ifsk

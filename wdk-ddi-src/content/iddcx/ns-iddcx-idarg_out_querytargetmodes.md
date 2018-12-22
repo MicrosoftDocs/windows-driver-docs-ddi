@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_OUT_QUERYTARGETMODES
 title: IDARG_OUT_QUERYTARGETMODES
-author: windows-driver-content
 description: Gives information about the number of target modes provided by the OS.
 old-location: display\idarg_out_querytargetmodes.htm
 tech.root: display

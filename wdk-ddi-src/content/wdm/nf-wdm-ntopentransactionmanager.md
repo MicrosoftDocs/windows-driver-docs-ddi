@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.NtOpenTransactionManager
 title: NtOpenTransactionManager function
-author: windows-driver-content
 description: The ZwOpenTransactionManager routine obtains a handle to an existing transaction manager object.
 old-location: kernel\zwopentransactionmanager.htm
 tech.root: kernel

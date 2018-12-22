@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.SetDataParameters
 title: IDebugBreakpoint::SetDataParameters
-author: windows-driver-content
 description: The SetDataParameters method sets the parameters for a processor breakpoint.
 old-location: debugger\setdataparameters.htm
 tech.root: debugger

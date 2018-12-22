@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.GetInterface
 title: IWDTFTarget2::GetInterface
-author: windows-driver-content
 description: Returns an action for the target.
 old-location: dtf\iwdtftarget2_getinterface.htm
 tech.root: dtf

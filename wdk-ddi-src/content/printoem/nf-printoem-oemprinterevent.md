@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMPrinterEvent
 title: OEMPrinterEvent function
-author: windows-driver-content
 description: OEMPrinterEvent function
 old-location: print\oemprinterevent.htm
 tech.root: print

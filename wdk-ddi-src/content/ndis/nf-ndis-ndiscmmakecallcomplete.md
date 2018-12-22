@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisCmMakeCallComplete
 title: NdisCmMakeCallComplete function
-author: windows-driver-content
 description: NdisCmMakeCallComplete returns the final status of a client's request, for which the call manager previously returned NDIS_STATUS_PENDING, to make an outgoing call.
 old-location: netvista\ndiscmmakecallcomplete.htm
 tech.root: netvista

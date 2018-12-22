@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.FindSourceFile
 title: IDebugSymbols3::FindSourceFile
-author: windows-driver-content
 description: The FindSourceFile method searches the source path for a specified source file.
 old-location: debugger\findsourcefile.htm
 tech.root: debugger

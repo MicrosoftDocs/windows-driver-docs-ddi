@@ -1,7 +1,6 @@
 ---
 UID: NS:prntfont._UFF_FILEHEADER
 title: "_UFF_FILEHEADER"
-author: windows-driver-content
 description: The UFF_FILEHEADER structure is used to define the contents of Unidrv font format files (.uff files).
 old-location: print\uff_fileheader.htm
 tech.root: print

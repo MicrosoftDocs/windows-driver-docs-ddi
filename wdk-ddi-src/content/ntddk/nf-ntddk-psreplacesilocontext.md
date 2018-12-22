@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.PsReplaceSiloContext
 title: PsReplaceSiloContext function
-author: windows-driver-content
 description: This routine inserts an object in a Silo.
 old-location: kernel\psreplacesilocontext.htm
 tech.root: kernel

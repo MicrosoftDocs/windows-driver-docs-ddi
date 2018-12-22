@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtExtension.OnSessionAccessible
 title: ExtExtension::OnSessionAccessible
-author: windows-driver-content
 description: The OnSessionAccessible method is called by the engine to inform the EngExtCpp extension library when the debugging session becomes accessible.
 old-location: debugger\onsessionaccessible.htm
 tech.root: debugger

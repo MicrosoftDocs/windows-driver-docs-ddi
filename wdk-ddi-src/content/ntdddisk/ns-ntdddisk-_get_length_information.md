@@ -1,7 +1,6 @@
 ---
 UID: NS:ntdddisk._GET_LENGTH_INFORMATION
 title: "_GET_LENGTH_INFORMATION"
-author: windows-driver-content
 description: The GET_LENGTH_INFORMATION structure is used with the IOCTL_DISK_GET_LENGTH_INFO to obtain the length, in bytes, of a disk, partition, or volume.
 old-location: storage\get_length_information.htm
 tech.root: storage

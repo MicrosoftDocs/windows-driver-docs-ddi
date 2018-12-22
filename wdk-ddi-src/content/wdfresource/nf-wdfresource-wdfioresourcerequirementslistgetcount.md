@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfresource.WdfIoResourceRequirementsListGetCount
 title: WdfIoResourceRequirementsListGetCount function
-author: windows-driver-content
 description: The WdfIoResourceRequirementsListGetCount method returns the number of logical configurations that are contained in a resource requirements list.
 old-location: wdf\wdfioresourcerequirementslistgetcount.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NS:wiadef._WIA_MICR
 title: "_WIA_MICR"
-author: windows-driver-content
 description: The WIA_MICR structure stores header information for the MICR metadata report of one scan job (one call to IWiaMiniDrv::drvAcquireItemData).
 old-location: image\wia_micr.htm
 tech.root: image

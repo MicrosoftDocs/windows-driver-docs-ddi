@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.CloseLogFile
 title: IDebugControl2::CloseLogFile
-author: windows-driver-content
 description: The CloseLogFile method closes the currently-open log file.
 old-location: debugger\closelogfile.htm
 tech.root: debugger

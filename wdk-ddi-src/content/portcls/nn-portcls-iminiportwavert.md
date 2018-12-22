@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IMiniportWaveRT
 title: IMiniportWaveRT
-author: windows-driver-content
 description: The IMiniportWaveRT interface is the primary interface that is exposed by the miniport driver for a WaveRT audio device.
 old-location: audio\iminiportwavert.htm
 tech.root: audio

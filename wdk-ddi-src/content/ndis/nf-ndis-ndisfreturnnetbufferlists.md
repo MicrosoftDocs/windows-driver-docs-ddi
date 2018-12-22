@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisFReturnNetBufferLists
 title: NdisFReturnNetBufferLists function
-author: windows-driver-content
 description: Filter drivers call NdisFReturnNetBufferLists to release the ownership of one or more NET_BUFFER_LIST structures and their associated NET_BUFFER structures.
 old-location: netvista\ndisfreturnnetbufferlists.htm
 tech.root: netvista

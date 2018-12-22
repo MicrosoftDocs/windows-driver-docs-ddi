@@ -1,7 +1,6 @@
 ---
 UID: NF:miniport.InterlockedIncrement
 title: InterlockedIncrement function
-author: windows-driver-content
 description: The InterlockedIncrement routine increments a caller-supplied variable as an atomic operation.
 old-location: kernel\interlockedincrement.htm
 tech.root: kernel

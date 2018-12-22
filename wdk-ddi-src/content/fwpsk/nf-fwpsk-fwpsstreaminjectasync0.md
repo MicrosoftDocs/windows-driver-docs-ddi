@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsStreamInjectAsync0
 title: FwpsStreamInjectAsync0 function
-author: windows-driver-content
 description: The FwpsStreamInjectAsync0 function injects TCP data segments into a TCP data stream.Note  FwpsStreamInjectAsync0 is a specific version of FwpsStreamInjectAsync.
 old-location: netvista\fwpsstreaminjectasync0.htm
 tech.root: netvista

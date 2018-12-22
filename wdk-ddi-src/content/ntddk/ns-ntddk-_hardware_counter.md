@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._HARDWARE_COUNTER
 title: "_HARDWARE_COUNTER"
-author: windows-driver-content
 description: The HARDWARE_COUNTER structure contains information about a hardware counter.
 old-location: kernel\hardware_counter.htm
 tech.root: kernel

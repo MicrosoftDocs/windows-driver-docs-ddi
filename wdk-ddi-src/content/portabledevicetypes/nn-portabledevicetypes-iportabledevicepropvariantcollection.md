@@ -1,7 +1,6 @@
 ---
 UID: NN:portabledevicetypes.IPortableDevicePropVariantCollection
 title: IPortableDevicePropVariantCollection
-author: windows-driver-content
 description: Holds a collection of PROPVARIANT values of the same VARTYPE.
 old-location: wpddk\iportabledevicepropvariantcollection.htm
 tech.root: wpd_dk

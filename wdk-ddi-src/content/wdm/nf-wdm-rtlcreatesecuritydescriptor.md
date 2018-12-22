@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlCreateSecurityDescriptor
 title: RtlCreateSecurityDescriptor function
-author: windows-driver-content
 description: The RtlCreateSecurityDescriptor routine initializes a new absolute-format security descriptor. On return, the security descriptor is initialized with no system ACL, no discretionary ACL, no owner, no primary group, and all control flags set to zero.
 old-location: kernel\rtlcreatesecuritydescriptor.htm
 tech.root: kernel

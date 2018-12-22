@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetRequestorSessionId
 title: FltGetRequestorSessionId function
-author: windows-driver-content
 description: The FltGetRequestorSessionId routine returns the session ID of the process that originally requested the specified I/O operation.
 old-location: ifsk\fltgetrequestorsessionid.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NE:storport._STOR_CRYPTO_OPERATION_TYPE
 title: "_STOR_CRYPTO_OPERATION_TYPE"
-author: windows-driver-content
 description: Reserved for system use.
 old-location: storage\stor_crypto_operation_type.htm
 tech.root: storage

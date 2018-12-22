@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_CLR_RTS
 title: IOCTL_SERIAL_CLR_RTS
-author: windows-driver-content
 description: The IOCTL_SERIAL_CLR_RTS request clears the request to send (RTS) control signal.
 old-location: serports\ioctl_serial_clr_rts.htm
 tech.root: serports

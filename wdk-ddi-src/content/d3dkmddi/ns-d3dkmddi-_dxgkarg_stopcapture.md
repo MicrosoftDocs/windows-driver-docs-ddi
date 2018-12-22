@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_STOPCAPTURE
 title: "_DXGKARG_STOPCAPTURE"
-author: windows-driver-content
 description: The DXGKARG_STOPCAPTURE structure contains the handle to the allocation that is used for a capture buffer.
 old-location: display\dxgkarg_stopcapture.htm
 ms.assetid: 09b1275f-9755-44f7-ab8a-1b6797bfefde

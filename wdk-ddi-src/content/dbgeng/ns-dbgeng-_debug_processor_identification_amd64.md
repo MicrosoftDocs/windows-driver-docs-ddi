@@ -1,7 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_PROCESSOR_IDENTIFICATION_AMD64
 title: "_DEBUG_PROCESSOR_IDENTIFICATION_AMD64"
-author: windows-driver-content
 description: Identifies an AMD64 processor.
 old-location: debugger\debug_processor_identification_amd64.htm
 tech.root: debugger

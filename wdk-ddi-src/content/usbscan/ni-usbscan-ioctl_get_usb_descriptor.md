@@ -1,7 +1,6 @@
 ---
 UID: NI:usbscan.IOCTL_GET_USB_DESCRIPTOR
 title: IOCTL_GET_USB_DESCRIPTOR
-author: windows-driver-content
 description: Returns a specified USB Descriptor.
 old-location: image\ioctl_get_usb_descriptor.htm
 tech.root: image

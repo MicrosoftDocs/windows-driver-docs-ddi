@@ -1,7 +1,6 @@
 ---
 UID: NS:fwpsk.FWPS_PACKET_LIST_FWP_INFORMATION0_
 title: FWPS_PACKET_LIST_FWP_INFORMATION0_
-author: windows-driver-content
 description: The FWPS_PACKET_LIST_FWP_INFORMATION0 structure defines Windows Filtering Platform information associated with a packet list.Note  FWPS_PACKET_LIST_FWP_INFORMATION0 is a specific version of FWPS_PACKET_LIST_FWP_INFORMATION.
 old-location: netvista\fwps_packet_list_fwp_information0.htm
 tech.root: netvista

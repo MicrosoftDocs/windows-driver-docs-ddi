@@ -1,7 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.UnLockDevice
 title: IStiDevice::UnLockDevice
-author: windows-driver-content
 description: The IStiDevice::UnLockDevice method unlocks a device that was locked by a previous call to IStiDevice::LockDevice.
 old-location: image\istidevice_unlockdevice.htm
 tech.root: image

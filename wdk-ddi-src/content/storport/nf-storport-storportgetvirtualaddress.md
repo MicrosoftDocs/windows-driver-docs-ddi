@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortGetVirtualAddress
 title: StorPortGetVirtualAddress function
-author: windows-driver-content
 description: The StorPortGetVirtualAddress routine obtains a virtual address that maps to the indicated physical address.
 old-location: storage\storportgetvirtualaddress.htm
 tech.root: storage

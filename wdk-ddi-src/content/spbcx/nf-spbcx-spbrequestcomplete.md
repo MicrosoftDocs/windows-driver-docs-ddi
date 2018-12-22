@@ -1,7 +1,6 @@
 ---
 UID: NF:spbcx.SpbRequestComplete
 title: SpbRequestComplete function
-author: windows-driver-content
 description: The SpbRequestComplete method completes an I/O request and supplies a completion status.
 old-location: spb\spbrequestcomplete.htm
 tech.root: SPB

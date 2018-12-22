@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_QUERY_DEVICE_DESCRIPTOR
 title: DXGKDDI_QUERY_DEVICE_DESCRIPTOR
-author: windows-driver-content
 description: The DxgkDdiQueryDeviceDescriptor function returns a descriptor for a child device of a display adapter or for an external device (typically a monitor) connected to a child device of a display adapter.
 old-location: display\dxgkddiquerydevicedescriptor.htm
 tech.root: display

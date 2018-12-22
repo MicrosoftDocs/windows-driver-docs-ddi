@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.IO_WORKITEM_ROUTINE_EX
 title: IO_WORKITEM_ROUTINE_EX
-author: windows-driver-content
 description: A WorkItemEx routine performs the processing for a work item that was queued by the IoQueueWorkItemEx or IoTryQueueWorkItem routine.
 old-location: kernel\workitemex.htm
 tech.root: kernel

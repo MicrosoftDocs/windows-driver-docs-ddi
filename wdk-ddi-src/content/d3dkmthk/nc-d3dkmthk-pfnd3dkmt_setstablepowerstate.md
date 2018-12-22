@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_SETSTABLEPOWERSTATE
 title: PFND3DKMT_SETSTABLEPOWERSTATE
-author: windows-driver-content
 description: The PFND3DKMT_SETSTABLEPOWERSTATE callback function sets stable power state.
 ms.assetid: aa8f5012-ea44-46a1-923d-1649632d6656
 ms.date: 10/19/2018

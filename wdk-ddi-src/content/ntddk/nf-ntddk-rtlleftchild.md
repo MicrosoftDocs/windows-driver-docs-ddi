@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlLeftChild
 title: RtlLeftChild macro
-author: windows-driver-content
 description: The RtlLeftChild routine returns a pointer to the left child of the specified splay link node.
 old-location: ifsk\rtlleftchild.htm
 tech.root: ifsk

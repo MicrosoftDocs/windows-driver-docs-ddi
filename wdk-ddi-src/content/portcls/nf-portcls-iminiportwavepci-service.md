@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWavePci.Service
 title: IMiniportWavePci::Service
-author: windows-driver-content
 description: The Service method notifies the miniport driver of a request for service.
 old-location: audio\iminiportwavepci_service.htm
 tech.root: audio

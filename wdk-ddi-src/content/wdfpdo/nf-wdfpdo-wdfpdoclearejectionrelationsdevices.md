@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoClearEjectionRelationsDevices
 title: WdfPdoClearEjectionRelationsDevices function
-author: windows-driver-content
 description: The WdfPdoClearEjectionRelationsDevices method removes all devices from the list of devices that must be ejected when a specified device is ejected.
 old-location: wdf\wdfpdoclearejectionrelationsdevices.htm
 tech.root: wdf

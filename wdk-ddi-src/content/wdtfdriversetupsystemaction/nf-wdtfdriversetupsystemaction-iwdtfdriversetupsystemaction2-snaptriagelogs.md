@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfdriversetupsystemaction.IWDTFDriverSetupSystemAction2.SnapTriageLogs
 title: IWDTFDriverSetupSystemAction2::SnapTriageLogs
-author: windows-driver-content
 description: Copies the driver setup triage logs.
 old-location: dtf\iwdtfdriversetupsystemaction2_snaptriagelogs.htm
 tech.root: dtf

@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortZeroDeviceMemory
 title: VideoPortZeroDeviceMemory function
-author: windows-driver-content
 description: The VideoPortZeroDeviceMemory function fills an adapter frame buffer or other device memory with zeros.
 old-location: display\videoportzerodevicememory.htm
 tech.root: display

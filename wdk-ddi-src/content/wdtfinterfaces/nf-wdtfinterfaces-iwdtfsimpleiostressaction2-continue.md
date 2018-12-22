@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOStressAction2.Continue
 title: IWDTFSimpleIOStressAction2::Continue
-author: windows-driver-content
 description: Continues the I/O.
 old-location: dtf\iwdtfsimpleiostressaction2_continue.htm
 tech.root: dtf

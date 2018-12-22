@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PD_CONFIG
 title: "_NDIS_PD_CONFIG"
-author: windows-driver-content
 description: This structure holds configuration data for the PD provider.
 old-location: netvista\ndis_pd_config.htm
 tech.root: netvista

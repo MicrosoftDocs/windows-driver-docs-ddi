@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_AMVPDATAINFO
 title: tagKS_AMVPDATAINFO
-author: windows-driver-content
 description: The KS_AMVPDATAINFO structure is used to describe the properties of a video port.
 old-location: stream\ks_amvpdatainfo.htm
 tech.root: stream

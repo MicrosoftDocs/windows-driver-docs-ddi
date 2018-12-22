@@ -1,7 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_PROCESSOR_IDENTIFICATION_X86
 title: "_DEBUG_PROCESSOR_IDENTIFICATION_X86"
-author: windows-driver-content
 description: Identifies an x86 processor.
 old-location: debugger\debug_processor_identification_x86.htm
 tech.root: debugger

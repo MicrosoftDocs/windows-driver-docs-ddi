@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IKeyStore.Release
 title: IKeyStore::Release
-author: windows-driver-content
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: aead1e27-6a4e-4e94-be63-73099198d4cf
 ms.date: 08/13/2018

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATEDEVICE
 title: "_D3DDDIARG_CREATEDEVICE"
-author: windows-driver-content
 description: The D3DDDIARG_CREATEDEVICE structure contains information that describes the display device to create.
 old-location: display\d3dddiarg_createdevice.htm
 tech.root: display

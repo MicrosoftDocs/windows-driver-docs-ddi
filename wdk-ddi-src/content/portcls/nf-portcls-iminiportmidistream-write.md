@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportMidiStream.Write
 title: IMiniportMidiStream::Write
-author: windows-driver-content
 description: The Write method writes data to an outgoing MIDI stream.
 old-location: audio\iminiportmidistream_write.htm
 tech.root: audio

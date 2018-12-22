@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTarget2.FormatRequestForFlush
 title: IWDFIoTarget2::FormatRequestForFlush
-author: windows-driver-content
 description: The FormatRequestForFlush method builds an I/O request for a flush operation but does not send the request to an I/O target.
 old-location: wdf\iwdfiotarget2_formatrequestforflush.htm
 tech.root: wdf

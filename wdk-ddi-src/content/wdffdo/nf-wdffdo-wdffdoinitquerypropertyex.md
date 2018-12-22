@@ -1,7 +1,6 @@
 ---
 UID: NF:wdffdo.WdfFdoInitQueryPropertyEx
 title: WdfFdoInitQueryPropertyEx function
-author: windows-driver-content
 description: The WdfFdoInitQueryPropertyEx method retrieves a specified device property.
 old-location: wdf\wdffdoinitquerypropertyex.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdpc.WdfDpcEnqueue
 title: WdfDpcEnqueue function
-author: windows-driver-content
 description: The WdfDpcEnqueue method schedules the execution of a DPC object's EvtDpcFunc callback function.
 old-location: wdf\wdfdpcenqueue.htm
 tech.root: wdf

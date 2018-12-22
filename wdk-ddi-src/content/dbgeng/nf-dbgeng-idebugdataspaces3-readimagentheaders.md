@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces3.ReadImageNtHeaders
 title: IDebugDataSpaces3::ReadImageNtHeaders
-author: windows-driver-content
 description: The ReadImageNtHeaders method returns the NT headers for the specified image loaded in the target.
 old-location: debugger\readimagentheaders.htm
 tech.root: debugger

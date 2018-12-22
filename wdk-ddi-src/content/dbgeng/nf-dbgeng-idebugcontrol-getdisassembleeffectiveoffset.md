@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetDisassembleEffectiveOffset
 title: IDebugControl::GetDisassembleEffectiveOffset
-author: windows-driver-content
 description: The GetDisassembleEffectiveOffset method returns the address of the last instruction disassembled using Disassemble.
 old-location: debugger\getdisassembleeffectiveoffset.htm
 tech.root: debugger

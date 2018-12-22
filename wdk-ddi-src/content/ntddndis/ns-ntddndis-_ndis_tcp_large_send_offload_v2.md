@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_TCP_LARGE_SEND_OFFLOAD_V2
 title: "_NDIS_TCP_LARGE_SEND_OFFLOAD_V2"
-author: windows-driver-content
 description: The NDIS_TCP_LARGE_SEND_OFFLOAD_V2 structure provides large send offload version 2 (LSOV2) information in the NDIS_OFFLOAD structure.
 old-location: netvista\ndis_tcp_large_send_offload_v2.htm
 tech.root: netvista

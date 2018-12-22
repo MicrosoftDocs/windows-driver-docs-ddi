@@ -1,7 +1,6 @@
 ---
 UID: NS:sti._STISUBSCRIBE
 title: "_STISUBSCRIBE"
-author: windows-driver-content
 description: The STISUBSCRIBE structure is used as a parameter for the IStiDevice::Subscribe method.
 old-location: image\stisubscribe.htm
 tech.root: image

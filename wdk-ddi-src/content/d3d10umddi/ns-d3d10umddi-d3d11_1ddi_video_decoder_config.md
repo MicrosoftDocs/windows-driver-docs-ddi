@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_VIDEO_DECODER_CONFIG
 title: D3D11_1DDI_VIDEO_DECODER_CONFIG
-author: windows-driver-content
 description: Describes the configuration of a Microsoft Direct3D 11 decoder device for Microsoft DirectX Video Acceleration (DXVA).
 old-location: display\d3d11_1ddi_video_decoder_config.htm
 ms.assetid: f96a63b5-a560-4230-b6c9-3e3e98c1b8ab

@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortReadPortUchar
 title: StorPortReadPortUchar macro
-author: windows-driver-content
 description: The StorPortReadPortUchar routine reads a value from a specified port address
 old-location: storage\storportreadportuchar.htm
 tech.root: storage

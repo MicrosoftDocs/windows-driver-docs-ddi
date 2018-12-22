@@ -1,7 +1,6 @@
 ---
 UID: NN:prcomoem.IPrintOemDriverUni
 title: IPrintOemDriverUni
-author: windows-driver-content
 description: This section describes the methods defined for the IPrintOemDriverUni COM interface.
 old-location: print\iprintoemdriveruni_interface.htm
 tech.root: print

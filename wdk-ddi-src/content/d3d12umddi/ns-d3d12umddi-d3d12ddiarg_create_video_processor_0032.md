@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032
 title: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032
-author: windows-driver-content
 description: Creates a video processor.
 old-location: display\d3d12ddiarg-create-video-processor-0032.htm
 ms.assetid: 6b945476-c1cf-4bf8-8273-bb3d05b90277

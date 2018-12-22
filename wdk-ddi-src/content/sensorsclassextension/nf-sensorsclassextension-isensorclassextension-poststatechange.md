@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorsclassextension.ISensorClassExtension.PostStateChange
 title: ISensorClassExtension::PostStateChange
-author: windows-driver-content
 description: The ISensorClassExtension::PostStateChange method notifies the sensor class extension about a change in the operational state of the sensor.
 old-location: sensors\isensorclassextension_poststatechange.htm
 tech.root: sensors

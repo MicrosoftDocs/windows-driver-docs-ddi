@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_RESOLVESHAREDRESOURCE
 title: "_D3DDDIARG_RESOLVESHAREDRESOURCE"
-author: windows-driver-content
 description: The D3DDDIARG_RESOLVESHAREDRESOURCE structure specifies the resource that the user-mode display driver's ResolveSharedResource function uses as a synchronized shared surface or a GDI interoperable surface.
 old-location: display\d3dddiarg_resolvesharedresource.htm
 tech.root: display

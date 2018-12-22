@@ -1,7 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.DeviceReset
 title: IStiDevice::DeviceReset
-author: windows-driver-content
 description: The IStiDevice::DeviceReset method resets a still image device to a known state.
 old-location: image\istidevice_devicereset.htm
 tech.root: image

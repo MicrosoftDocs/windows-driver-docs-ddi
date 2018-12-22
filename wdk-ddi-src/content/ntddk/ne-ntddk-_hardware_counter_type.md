@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddk._HARDWARE_COUNTER_TYPE
 title: "_HARDWARE_COUNTER_TYPE"
-author: windows-driver-content
 description: The HARDWARE_COUNTER_TYPE enumeration specifies the type of a hardware counter.
 old-location: kernel\hardware_counter_type.htm
 tech.root: kernel

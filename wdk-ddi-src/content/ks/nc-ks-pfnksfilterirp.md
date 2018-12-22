@@ -1,7 +1,6 @@
 ---
 UID: NC:ks.PFNKSFILTERIRP
 title: PFNKSFILTERIRP
-author: windows-driver-content
 description: An AVStream minidriver's AVStrMiniFilterCreate routine is called when a filter receives an IRP.
 old-location: stream\avstrminifiltercreate.htm
 tech.root: stream

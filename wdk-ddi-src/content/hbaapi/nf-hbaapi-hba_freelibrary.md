@@ -1,7 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_FreeLibrary
 title: HBA_FreeLibrary function
-author: windows-driver-content
 description: The HBA_FreeLibrary routine releases system resources associated with fibre channel HBA library.
 old-location: storage\hba_freelibrary.htm
 tech.root: storage

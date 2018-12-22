@@ -1,7 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_GetAdapterAttributes
 title: HBA_GetAdapterAttributes function
-author: windows-driver-content
 description: The HBA_GetAdapterAttributes routine retrieves the attributes for an HBA.
 old-location: storage\hba_getadapterattributes.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NI:usbfnioctl.IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE
 title: IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE
-author: windows-driver-content
 description: Do not use.
 old-location: buses\ioctl_internal_usbfn_set_power_filter_state.htm
 tech.root: usbref

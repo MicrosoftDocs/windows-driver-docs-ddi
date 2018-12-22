@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortGetBusData
 title: VideoPortGetBusData function
-author: windows-driver-content
 description: The VideoPortGetBusData function returns bus-type-specific configuration information.
 old-location: display\videoportgetbusdata.htm
 tech.root: display

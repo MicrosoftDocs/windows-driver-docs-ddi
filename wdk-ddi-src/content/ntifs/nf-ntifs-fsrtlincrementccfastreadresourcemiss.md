@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIncrementCcFastReadResourceMiss
 title: FsRtlIncrementCcFastReadResourceMiss function
-author: windows-driver-content
 description: The FsRtlIncrementCcFastReadResourceMiss routine increments the CcFastReadNotPossible performance counter in a per processor control block of cache manager system counters.
 old-location: ifsk\fsrtlincrementccfastreadresourcemiss.htm
 tech.root: ifsk

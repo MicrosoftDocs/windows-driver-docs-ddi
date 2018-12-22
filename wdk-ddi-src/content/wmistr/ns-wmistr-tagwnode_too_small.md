@@ -1,7 +1,6 @@
 ---
 UID: NS:wmistr.tagWNODE_TOO_SMALL
 title: tagWNODE_TOO_SMALL
-author: windows-driver-content
 description: The WNODE_TOO_SMALL structure indicates the size of the buffer needed to receive output from a request.
 old-location: kernel\wnode_too_small.htm
 tech.root: kernel

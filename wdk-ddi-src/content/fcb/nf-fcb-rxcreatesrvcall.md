@@ -1,7 +1,6 @@
 ---
 UID: NF:fcb.RxCreateSrvCall
 title: RxCreateSrvCall function
-author: windows-driver-content
 description: RxCreateSrvCall builds a SRV_CALL structure and inserts the name into the net name table maintained by RDBSS.
 old-location: ifsk\rxcreatesrvcall.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.MmFlushImageSection
 title: MmFlushImageSection function
-author: windows-driver-content
 description: The MmFlushImageSection routine flushes the image section for a file.
 old-location: ifsk\mmflushimagesection.htm
 tech.root: ifsk

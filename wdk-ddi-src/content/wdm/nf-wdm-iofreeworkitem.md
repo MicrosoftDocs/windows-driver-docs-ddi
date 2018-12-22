@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoFreeWorkItem
 title: IoFreeWorkItem function
-author: windows-driver-content
 description: The IoFreeWorkItem routine frees a work item that was allocated by IoAllocateWorkItem.
 old-location: kernel\iofreeworkitem.htm
 tech.root: kernel

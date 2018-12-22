@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortPause
 title: StorPortPause function
-author: windows-driver-content
 description: The StorPortPause routine pauses an adapter for the specified period of time.
 old-location: storage\storportpause.htm
 tech.root: storage

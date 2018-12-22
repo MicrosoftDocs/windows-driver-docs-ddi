@@ -1,7 +1,6 @@
 ---
 UID: NS:gpioclx._GPIO_DISCONNECT_IO_PINS_PARAMETERS
 title: "_GPIO_DISCONNECT_IO_PINS_PARAMETERS"
-author: windows-driver-content
 description: The GPIO_DISCONNECT_IO_PINS_PARAMETERS structure describes a set of general-purpose I/O (GPIO) pins that are to be disconnected.
 old-location: gpio\gpio_disconnect_io_pins_parameters.htm
 tech.root: GPIO

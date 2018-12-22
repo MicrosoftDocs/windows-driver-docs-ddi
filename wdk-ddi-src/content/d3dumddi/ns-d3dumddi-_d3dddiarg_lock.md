@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_LOCK
 title: "_D3DDDIARG_LOCK"
-author: windows-driver-content
 description: The D3DDDIARG_LOCK structure describes a resource or a surface within the resource to lock.
 old-location: display\d3dddiarg_lock.htm
 tech.root: display

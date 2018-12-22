@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_DEVICE_NUMBER
 title: "_STORAGE_DEVICE_NUMBER"
-author: windows-driver-content
 description: The STORAGE_DEVICE_NUMBER structure is used in conjunction with the IOCTL_STORAGE_GET_DEVICE_NUMBER request to retrieve the FILE_DEVICE_XXX device type, the device number, and, for a device that can be partitioned, the partition number assigned to a device by the driver when the device is started.
 old-location: storage\storage_device_number.htm
 tech.root: storage

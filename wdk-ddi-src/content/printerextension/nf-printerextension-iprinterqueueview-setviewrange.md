@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterQueueView.SetViewRange
 title: IPrinterQueueView::SetViewRange
-author: windows-driver-content
 description: Sets the range of print jobs being monitored.
 old-location: print\iprinterqueueview_setviewrange.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NS:ehstorbandmgmt._BAND_TABLE_ENTRY
 title: "_BAND_TABLE_ENTRY"
-author: windows-driver-content
 description: Banding information entries in BAND_TABLE are represented as BAND_TABLE_ENTRY structures. These entries contain location and security properties for a band configuration.
 old-location: storage\band_table_entry.htm
 tech.root: storage

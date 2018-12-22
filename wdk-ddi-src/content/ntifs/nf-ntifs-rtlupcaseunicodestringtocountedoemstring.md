@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlUpcaseUnicodeStringToCountedOemString
 title: RtlUpcaseUnicodeStringToCountedOemString function
-author: windows-driver-content
 description: The RtlUpcaseUnicodeStringToCountedOemString routine translates a given Unicode source string into an uppercase counted OEM string using the current system OEM code page.
 old-location: ifsk\rtlupcaseunicodestringtocountedoemstring.htm
 tech.root: ifsk

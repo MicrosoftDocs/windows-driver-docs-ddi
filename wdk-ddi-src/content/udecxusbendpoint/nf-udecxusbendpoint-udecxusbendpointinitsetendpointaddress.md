@@ -1,7 +1,6 @@
 ---
 UID: NF:udecxusbendpoint.UdecxUsbEndpointInitSetEndpointAddress
 title: UdecxUsbEndpointInitSetEndpointAddress function
-author: windows-driver-content
 description: Sets the address of the endpoint in the initialization parameters of the simple endpoint to create.
 old-location: buses\udecxusbendpointinitsetendpointaddress.htm
 tech.root: usbref

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetFieldOffsetWide
 title: IDebugSymbols3::GetFieldOffsetWide
-author: windows-driver-content
 description: The GetFieldOffsetWide method returns the offset of a field from the base address of an instance of a type.
 old-location: debugger\getfieldoffsetwide.htm
 tech.root: debugger

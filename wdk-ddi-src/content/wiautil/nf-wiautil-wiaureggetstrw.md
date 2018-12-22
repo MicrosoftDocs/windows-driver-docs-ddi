@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.wiauRegGetStrW
 title: wiauRegGetStrW function
-author: windows-driver-content
 description: The wiauRegGetStr function gets a string value from the DeviceData section of the registry.
 old-location: image\wiaureggetstr.htm
 tech.root: image

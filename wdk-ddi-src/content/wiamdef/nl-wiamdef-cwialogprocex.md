@@ -1,7 +1,6 @@
 ---
 UID: NL:wiamdef.CWiaLogProcEx
 title: CWiaLogProcEx
-author: windows-driver-content
 description: 
 ms.assetid: 40432fb3-ec6f-44ac-a757-0de2b99320fb
 ms.date: 10/19/2018

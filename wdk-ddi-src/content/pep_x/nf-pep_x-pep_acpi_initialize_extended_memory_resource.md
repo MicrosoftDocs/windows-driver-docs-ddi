@@ -1,7 +1,6 @@
 ---
 UID: NF:pep_x.PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE
 title: PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE function
-author: windows-driver-content
 description: The PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_EXTENDED_ADDRESS structure.
 old-location: kernel\pep_acpi_initialize_extended_memory_resource.htm
 tech.root: kernel

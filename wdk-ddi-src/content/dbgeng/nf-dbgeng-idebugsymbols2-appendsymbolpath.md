@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.AppendSymbolPath
 title: IDebugSymbols2::AppendSymbolPath
-author: windows-driver-content
 description: The AppendSymbolPath method appends directories to the symbol path.
 old-location: debugger\appendsymbolpath.htm
 tech.root: debugger

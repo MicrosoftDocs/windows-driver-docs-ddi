@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IRequestCallbackRequestCompletion
 title: IRequestCallbackRequestCompletion
-author: windows-driver-content
 description: A driver implements the IRequestCallbackRequestCompletion interface to complete a request object.
 old-location: wdf\irequestcallbackrequestcompletion.htm
 tech.root: wdf

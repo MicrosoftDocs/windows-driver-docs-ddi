@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILUICCSLOTSTATE
 title: RILUICCSLOTSTATE
-author: windows-driver-content
 description: This enumeration describes the RILUICCSLOTSTATE.
 old-location: netvista\riluiccslotstate.htm
 tech.root: netvista

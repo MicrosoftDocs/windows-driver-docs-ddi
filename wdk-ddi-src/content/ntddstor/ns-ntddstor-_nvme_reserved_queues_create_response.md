@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._NVME_RESERVED_QUEUES_CREATE_RESPONSE
 title: _NVME_RESERVED_QUEUES_CREATE_RESPONSE
-author: windows-driver-content
 description: 
 ms.assetid: 6015b7ef-962a-4207-847d-97f472869f9b
 ms.date: 10/19/2018

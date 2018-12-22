@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._CM_RESOURCE_LIST
 title: "_CM_RESOURCE_LIST"
-author: windows-driver-content
 description: The CM_RESOURCE_LIST structure specifies all of the system hardware resources assigned to a device.
 old-location: kernel\cm_resource_list.htm
 tech.root: kernel

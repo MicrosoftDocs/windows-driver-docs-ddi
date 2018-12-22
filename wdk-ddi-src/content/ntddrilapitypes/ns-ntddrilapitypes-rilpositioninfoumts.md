@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILPOSITIONINFOUMTS
 title: RILPOSITIONINFOUMTS
-author: windows-driver-content
 description: This structure represents a RILPOSITIONINFOUMTS.
 old-location: netvista\rilpositioninfoumts.htm
 tech.root: netvista

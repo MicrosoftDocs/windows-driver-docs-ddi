@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.ZwFlushBuffersFile
 title: ZwFlushBuffersFile function
-author: windows-driver-content
 description: The ZwFlushBuffersFile routine is called by a file system filter driver to send a flush request for the specified file to the file system.
 old-location: kernel\zwflushbuffersfile.htm
 tech.root: kernel

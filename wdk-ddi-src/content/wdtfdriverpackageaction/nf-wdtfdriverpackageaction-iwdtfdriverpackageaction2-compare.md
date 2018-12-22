@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfdriverpackageaction.IWDTFDriverPackageAction2.Compare
 title: IWDTFDriverPackageAction2::Compare
-author: windows-driver-content
 description: Compares two driver packages.
 old-location: dtf\iwdtfdriverpackageaction2_compare.htm
 tech.root: dtf

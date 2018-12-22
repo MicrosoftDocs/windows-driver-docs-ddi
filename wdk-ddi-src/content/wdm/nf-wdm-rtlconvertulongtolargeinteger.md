@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlConvertUlongToLargeInteger
 title: RtlConvertUlongToLargeInteger function
-author: windows-driver-content
 description: The RtlConvertUlongToLargeInteger routine converts the input unsigned integer to a signed large integer. For Windows XP and later versions of Windows, do not use this routine; use the native support for __int64.
 old-location: kernel\rtlconvertulongtolargeinteger.htm
 tech.root: kernel

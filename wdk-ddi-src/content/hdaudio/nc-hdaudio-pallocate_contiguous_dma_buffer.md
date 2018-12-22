@@ -1,7 +1,6 @@
 ---
 UID: NC:hdaudio.PALLOCATE_CONTIGUOUS_DMA_BUFFER
 title: PALLOCATE_CONTIGUOUS_DMA_BUFFER
-author: windows-driver-content
 description: The AllocateContiguousDmaBuffer routine allocates a DMA buffer that consists of a single, contiguous block of physical memory.The function pointer type for an AllocateContiguousDmaBuffer routine is defined as follows.
 old-location: audio\allocatecontiguousdmabuffer.htm
 tech.root: audio

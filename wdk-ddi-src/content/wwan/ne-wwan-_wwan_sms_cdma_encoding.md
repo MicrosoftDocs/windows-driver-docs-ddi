@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_SMS_CDMA_ENCODING
 title: "_WWAN_SMS_CDMA_ENCODING"
-author: windows-driver-content
 description: The WWAN_SMS_CDMA_ENCODING enumeration lists the different SMS CDMA encoding formats that are supported by the MB device.
 old-location: netvista\wwan_sms_cdma_encoding.htm
 tech.root: netvista

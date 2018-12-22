@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIsAnsiCharacterLegalHpfs
 title: FsRtlIsAnsiCharacterLegalHpfs macro
-author: windows-driver-content
 description: The FsRtlIsAnsiCharacterLegalHpfs macro determines whether an ANSI character is legal for HPFS file names.
 old-location: ifsk\fsrtlisansicharacterlegalhpfs.htm
 tech.root: ifsk

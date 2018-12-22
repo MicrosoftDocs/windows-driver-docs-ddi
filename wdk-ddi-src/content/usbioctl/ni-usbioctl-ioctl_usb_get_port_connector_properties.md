@@ -1,7 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES
 title: IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES
-author: windows-driver-content
 description: The IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES I/O control request is sent by an application to retrieve information about a specific port on a USB hub.
 old-location: buses\ioctl_usb_get_port_connector_properties.htm
 tech.root: usbref

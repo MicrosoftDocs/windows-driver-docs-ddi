@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsFilterFactoryGetSymbolicLink
 title: KsFilterFactoryGetSymbolicLink function
-author: windows-driver-content
 description: The KsFilterFactoryGetSymbolicLink function returns the symbolic link associated with a given filter factory.
 old-location: stream\ksfilterfactorygetsymboliclink.htm
 tech.root: stream

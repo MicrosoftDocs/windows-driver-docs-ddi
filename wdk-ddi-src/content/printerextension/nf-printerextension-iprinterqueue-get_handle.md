@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterQueue.get_Handle
 title: IPrinterQueue::get_Handle
-author: windows-driver-content
 description: Gets the underlying native handle for this print queue.
 old-location: print\iprinterqueue_handle.htm
 tech.root: print

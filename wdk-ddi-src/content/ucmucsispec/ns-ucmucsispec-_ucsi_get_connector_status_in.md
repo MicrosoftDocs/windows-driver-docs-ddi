@@ -1,7 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_GET_CONNECTOR_STATUS_IN
 title: _UCSI_GET_CONNECTOR_STATUS_IN
-author: windows-driver-content
 description: Used in the GET_CONNECTOR_STATUS command. See Table 4-42.
 ms.assetid: 09365116-affe-4b3e-9b31-e98bcf6c3518
 tech.root: usbref

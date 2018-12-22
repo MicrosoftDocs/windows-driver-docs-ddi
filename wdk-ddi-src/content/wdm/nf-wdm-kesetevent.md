@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeSetEvent
 title: KeSetEvent function
-author: windows-driver-content
 description: The KeSetEvent routine sets an event object to a signaled state if the event was not already signaled, and returns the previous state of the event object.
 old-location: kernel\kesetevent.htm
 tech.root: kernel

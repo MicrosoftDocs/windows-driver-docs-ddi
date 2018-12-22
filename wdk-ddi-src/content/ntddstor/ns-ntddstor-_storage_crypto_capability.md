@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_CRYPTO_CAPABILITY
 title: "_STORAGE_CRYPTO_CAPABILITY"
-author: windows-driver-content
 description: Reserved for system use.
 old-location: storage\storage_crypto_capability.htm
 tech.root: storage

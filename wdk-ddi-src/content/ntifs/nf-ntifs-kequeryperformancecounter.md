@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.KeQueryPerformanceCounter
 title: KeQueryPerformanceCounter function
-author: windows-driver-content
 description: The KeQueryPerformanceCounter routine retrieves the current value and frequency of the performance counter.Use KeQueryPerformanceCounter to acquire high resolution (&lt;1us) time stamps for time interval measurements.
 old-location: kernel\kequeryperformancecounter.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PM_COUNTED_STRING
 title: "_NDIS_PM_COUNTED_STRING"
-author: windows-driver-content
 description: The NDIS_PM_COUNTED_STRING structure specifies a limited size string that is used in power management structures.
 old-location: netvista\ndis_pm_counted_string.htm
 tech.root: netvista

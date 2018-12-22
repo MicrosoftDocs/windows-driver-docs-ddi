@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlSetupAdvancedHeaderEx
 title: FsRtlSetupAdvancedHeaderEx macro
-author: windows-driver-content
 description: The FsRtlSetupAdvancedHeaderEx macro is used by file systems to initialize an FSRTL_ADVANCED_FCB_HEADER structure for use with both stream and file contexts.
 old-location: ifsk\fsrtlsetupadvancedheaderex.htm
 tech.root: ifsk

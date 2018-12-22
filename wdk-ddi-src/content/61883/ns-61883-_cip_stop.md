@@ -1,7 +1,6 @@
 ---
 UID: NS:61883._CIP_STOP
 title: "_CIP_STOP"
-author: windows-driver-content
 description: This structure is used to stop transmission or reception.
 old-location: ieee\cip_stop.htm
 tech.root: IEEE

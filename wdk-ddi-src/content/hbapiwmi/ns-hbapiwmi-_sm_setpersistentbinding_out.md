@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SetPersistentBinding_OUT
 title: "_SM_SetPersistentBinding_OUT"
-author: windows-driver-content
 description: The SM_SetPersistentBinding_OUT structure is used to receive output parameters from the SM_SetPersistentBinding method.
 old-location: storage\sm_setpersistentbinding_out.htm
 tech.root: storage

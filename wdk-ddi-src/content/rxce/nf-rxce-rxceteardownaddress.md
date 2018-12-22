@@ -1,7 +1,6 @@
 ---
 UID: NF:rxce.RxCeTearDownAddress
 title: RxCeTearDownAddress function
-author: windows-driver-content
 description: RxCeTearDownAddress deregisters a transport address from a transport binding.
 old-location: ifsk\rxceteardownaddress.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES
 title: IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES
-author: windows-driver-content
 description: The IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES I/O control request retrieves the Microsoft-extended port attributes for a specific port.
 old-location: buses\ioctl_usb_get_node_connection_attributes.htm
 tech.root: usbref

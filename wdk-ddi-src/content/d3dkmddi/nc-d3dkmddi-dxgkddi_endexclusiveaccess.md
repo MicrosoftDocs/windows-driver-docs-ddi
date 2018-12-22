@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_ENDEXCLUSIVEACCESS
 title: DXGKDDI_ENDEXCLUSIVEACCESS
-author: windows-driver-content
 description: Implemented by the client driver to end exclusive access.
 ms.assetid: 942f37e5-310a-4233-bda9-5e606d41756e
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_DEVICE_RESILIENCY_DESCRIPTOR
 title: "_STORAGE_DEVICE_RESILIENCY_DESCRIPTOR"
-author: windows-driver-content
 description: Reserved for system use.
 old-location: storage\storage_device_resiliency_descriptor.htm
 tech.root: storage

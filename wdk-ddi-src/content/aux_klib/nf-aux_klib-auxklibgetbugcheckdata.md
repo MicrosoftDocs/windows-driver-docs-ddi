@@ -1,7 +1,6 @@
 ---
 UID: NF:aux_klib.AuxKlibGetBugCheckData
 title: AuxKlibGetBugCheckData function
-author: windows-driver-content
 description: The AuxKlibGetBugCheckData routine retrieves information about a bug check that has just occurred.
 old-location: kernel\auxklibgetbugcheckdata.htm
 tech.root: kernel

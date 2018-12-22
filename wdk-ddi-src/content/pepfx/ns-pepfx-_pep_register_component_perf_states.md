@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_REGISTER_COMPONENT_PERF_STATES
 title: "_PEP_REGISTER_COMPONENT_PERF_STATES"
-author: windows-driver-content
 description: The PEP_REGISTER_COMPONENT_PERF_STATES structure describes the performance states (P-states) of the specified component.
 old-location: kernel\pep_register_component_perf_states.htm
 tech.root: kernel

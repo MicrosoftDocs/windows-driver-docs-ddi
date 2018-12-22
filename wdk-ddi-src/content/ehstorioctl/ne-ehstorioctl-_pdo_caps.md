@@ -1,7 +1,6 @@
 ---
 UID: NE:ehstorioctl._PDO_CAPS
 title: "_PDO_CAPS"
-author: windows-driver-content
 description: This enumeration describes the capabilities of Physical Device Objects (PDOs).
 old-location: storage\pdo_caps.htm
 tech.root: storage

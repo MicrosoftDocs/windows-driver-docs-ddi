@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IDrmPort2.ForwardContentToDeviceObject
 title: IDrmPort2::ForwardContentToDeviceObject
-author: windows-driver-content
 description: The ForwardContentToDeviceObject method accepts a device object representing a device to which the caller intends to forward protected content.
 old-location: audio\idrmport2_forwardcontenttodeviceobject.htm
 tech.root: audio

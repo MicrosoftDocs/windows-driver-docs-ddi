@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlCopyUnicodeString
 title: RtlCopyUnicodeString function
-author: windows-driver-content
 description: The RtlCopyUnicodeString routine copies a source string to a destination string.
 old-location: kernel\rtlcopyunicodestring.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPAction2.RescanDevice
 title: IWDTFPNPAction2::RescanDevice
-author: windows-driver-content
 description: Rescans the target device.
 old-location: dtf\iwdtfpnpaction2_rescandevice.htm
 tech.root: dtf

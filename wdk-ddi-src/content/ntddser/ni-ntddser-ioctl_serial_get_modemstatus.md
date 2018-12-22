@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_GET_MODEMSTATUS
 title: IOCTL_SERIAL_GET_MODEMSTATUS
-author: windows-driver-content
 description: The IOCTL_SERIAL_GET_MODEMSTATUS request updates the modem status, and returns the value of the modem status register before the update.
 old-location: serports\ioctl_serial_get_modemstatus.htm
 tech.root: serports

@@ -1,7 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_PROPERTY_STORE_ROOT_CLASS
 title: "_WDF_PROPERTY_STORE_ROOT_CLASS"
-author: windows-driver-content
 description: The WDF_PROPERTY_STORE_ROOT_CLASS enumeration identifies the registry keys that UMDF property stores represent.
 old-location: wdf\wdf_property_store_root_class.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlRemovePerFileContext
 title: FsRtlRemovePerFileContext function
-author: windows-driver-content
 description: The FsRtlRemovePerFileContext routine returns a pointer to a FSRTL_PER_FILE_CONTEXT object that is associated with a file.
 old-location: ifsk\fsrtlremoveperfilecontext.htm
 tech.root: ifsk

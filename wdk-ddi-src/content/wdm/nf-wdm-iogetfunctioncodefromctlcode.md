@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoGetFunctionCodeFromCtlCode
 title: IoGetFunctionCodeFromCtlCode macro
-author: windows-driver-content
 description: The IoGetFunctionCodeFromCtlCode macro returns the value of the function code contained in an I/O control code.
 old-location: kernel\iogetfunctioncodefromctlcode.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwOpenResourceManager
 title: ZwOpenResourceManager function
-author: windows-driver-content
 description: The ZwOpenResourceManager routine returns a handle to an existing resource manager object.
 old-location: kernel\zwopenresourcemanager.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.PsReferencePrimaryToken
 title: PsReferencePrimaryToken function
-author: windows-driver-content
 description: The PsReferencePrimaryToken routine increments the reference count of the primary token for the specified process.
 old-location: ifsk\psreferenceprimarytoken.htm
 tech.root: ifsk

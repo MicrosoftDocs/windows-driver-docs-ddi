@@ -1,7 +1,6 @@
 ---
 UID: NC:pep_x.POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS
 title: POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS
-author: windows-driver-content
 description: The EnumerateUnmaskedInterrupts routine enumerates interrupt sources whose interrupts are unmasked and enabled.
 old-location: kernel\enumerateunmaskedinterrupts.htm
 tech.root: kernel

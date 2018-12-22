@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILNITZINFO_V2
 title: RILNITZINFO_V2
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilnitzinfo_v2.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:prntfont._OEMFONTINSTPARAM
 title: "_OEMFONTINSTPARAM"
-author: windows-driver-content
 description: The OEMFONTINSTPARAM structure is used as an input parameter to a user interface plug-in's IPrintOemUI::FontInstallerDlgProc method.
 old-location: print\oemfontinstparam.htm
 tech.root: print

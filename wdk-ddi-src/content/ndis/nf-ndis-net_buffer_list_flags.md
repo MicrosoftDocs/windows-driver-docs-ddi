@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NET_BUFFER_LIST_FLAGS
 title: NET_BUFFER_LIST_FLAGS macro
-author: windows-driver-content
 description: NET_BUFFER_LIST_FLAGS is a macro that NDIS drivers use to get the flags associated with a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: dbfc432b-5751-4796-8ede-2d9e73759e3b

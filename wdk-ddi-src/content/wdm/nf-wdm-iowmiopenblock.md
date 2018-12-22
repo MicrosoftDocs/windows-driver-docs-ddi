@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoWMIOpenBlock
 title: IoWMIOpenBlock function
-author: windows-driver-content
 description: The IoWMIOpenBlock routine opens the WMI data block object for the specified WMI class.
 old-location: kernel\iowmiopenblock.htm
 tech.root: kernel

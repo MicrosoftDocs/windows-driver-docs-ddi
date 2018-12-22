@@ -1,7 +1,6 @@
 ---
 UID: NS:fwpsk.FWPS_INCOMING_METADATA_VALUES0_
 title: FWPS_INCOMING_METADATA_VALUES0_
-author: windows-driver-content
 description: The FWPS_INCOMING_METADATA_VALUES0 structure defines metadata values that the filter engine passes to a callout's classifyFn callout function.Note  FWPS_INCOMING_METADATA_VALUES0 is a specific version of FWPS_INCOMING_METADATA_VALUES.
 old-location: netvista\fwps_incoming_metadata_values0.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugPlmClient3.QueryPlmPackageWide
 title: IDebugPlmClient3::QueryPlmPackageWide
-author: windows-driver-content
 description: Query a Process Lifecycle Management (PLM) package.
 old-location: debugger\idebugplmclient3_queryplmpackagewide.htm
 tech.root: debugger

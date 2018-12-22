@@ -1,7 +1,6 @@
 ---
 UID: NF:rxcontx.RxSetMinirdrCancelRoutine
 title: RxSetMinirdrCancelRoutine function
-author: windows-driver-content
 description: RxSetMinirdrCancelRoutine is called by a network mini-redirector driver to set up a network mini-redirector cancel routine for an RX_CONTEXT structure.
 old-location: ifsk\rxsetminirdrcancelroutine.htm
 tech.root: ifsk

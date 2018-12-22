@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_54
 title: LOOPEDSTREAMING_POSITION_EVENT_DATA
-author: windows-driver-content
 description: The LOOPEDSTREAMING_POSITION_EVENT_DATA structure describes a position event in a looped buffer.
 old-location: audio\loopedstreaming_position_event_data.htm
 tech.root: audio

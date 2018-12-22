@@ -1,7 +1,6 @@
 ---
 UID: NF:netrequestqueue.NET_REQUEST_QUEUE_CONFIG_INIT_DEFAULT_SEQUENTIAL
 title: NET_REQUEST_QUEUE_CONFIG_INIT_DEFAULT_SEQUENTIAL function
-author: windows-driver-content
 description: Initializes a caller-allocated NET_REQUEST_QUEUE_CONFIG structure to create a default sequential request queue for normal control requests (OIDs).
 tech.root: netvista
 ms.assetid: cee1dccc-cbe6-49ca-b640-01dd7c0192b0

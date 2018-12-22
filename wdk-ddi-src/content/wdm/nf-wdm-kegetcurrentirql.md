@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeGetCurrentIrql
 title: KeGetCurrentIrql function
-author: windows-driver-content
 description: The KeGetCurrentIrql routine returns the current IRQL.
 old-location: kernel\kegetcurrentirql.htm
 tech.root: kernel

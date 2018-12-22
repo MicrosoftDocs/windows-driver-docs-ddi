@@ -1,7 +1,6 @@
 ---
 UID: NF:usbdlib.USBD_CreateHandle
 title: USBD_CreateHandle function
-author: windows-driver-content
 description: The USBD_CreateHandle routine is called by a WDM USB client driver to obtain a USBD handle. The routine registers the client driver with the underlying USB driver stack.
 old-location: buses\usbd_register.htm
 tech.root: usbref

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._ATOMIC_CREATE_ECP_CONTEXT
 title: "_ATOMIC_CREATE_ECP_CONTEXT"
-author: windows-driver-content
 description: This structure allows supplemental operations to be performed on a file atomically during create.
 old-location: ifsk\atomic_create_ecp_context.htm
 tech.root: ifsk

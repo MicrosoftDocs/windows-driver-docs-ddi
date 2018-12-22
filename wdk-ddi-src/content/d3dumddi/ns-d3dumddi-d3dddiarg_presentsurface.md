@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi.D3DDDIARG_PRESENTSURFACE
 title: D3DDDIARG_PRESENTSURFACE
-author: windows-driver-content
 description: Describes a surface to display.
 old-location: display\d3dddiarg_presentsurface.htm
 tech.root: display

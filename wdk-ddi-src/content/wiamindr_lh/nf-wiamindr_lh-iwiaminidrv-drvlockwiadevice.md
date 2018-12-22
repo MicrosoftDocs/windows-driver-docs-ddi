@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvLockWiaDevice
 title: IWiaMiniDrv::drvLockWiaDevice
-author: windows-driver-content
 description: The IWiaMiniDrv::drvLockWiaDevice method locks the WIA hardware device so that only the current minidriver can access it.
 old-location: image\iwiaminidrv_drvlockwiadevice.htm
 tech.root: image

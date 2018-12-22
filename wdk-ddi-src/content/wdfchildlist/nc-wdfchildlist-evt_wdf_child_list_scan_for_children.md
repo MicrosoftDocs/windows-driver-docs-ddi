@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfchildlist.EVT_WDF_CHILD_LIST_SCAN_FOR_CHILDREN
 title: EVT_WDF_CHILD_LIST_SCAN_FOR_CHILDREN
-author: windows-driver-content
 description: A driver's EvtChildListScanForChildren event callback function must report all of the child devices that are present.
 old-location: wdf\evtchildlistscanforchildren.htm
 tech.root: wdf

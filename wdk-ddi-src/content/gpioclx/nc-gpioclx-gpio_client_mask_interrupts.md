@@ -1,7 +1,6 @@
 ---
 UID: NC:gpioclx.GPIO_CLIENT_MASK_INTERRUPTS
 title: GPIO_CLIENT_MASK_INTERRUPTS
-author: windows-driver-content
 description: The CLIENT_MaskInterrupts event callback function masks interrupts on a set of general-purpose I/O (GPIO) pins that are configured as interrupt inputs.
 old-location: gpio\client_maskinterrupts.htm
 tech.root: GPIO

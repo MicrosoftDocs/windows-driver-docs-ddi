@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.SetRadix
 title: IDebugControl3::SetRadix
-author: windows-driver-content
 description: The SetRadix method sets the default radix (number base) used by the debugger engine when it evaluates and displays MASM expressions, and when it displays symbol information.
 old-location: debugger\setradix.htm
 tech.root: debugger

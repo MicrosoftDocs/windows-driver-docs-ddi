@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_TEXTURESTAGESTATE
 title: "_D3DDDIARG_TEXTURESTAGESTATE"
-author: windows-driver-content
 description: The D3DDDIARG_TEXTURESTAGESTATE structure describes how to update a texture at a particular stage in a multiple-texture group.
 old-location: display\d3dddiarg_texturestagestate.htm
 tech.root: display

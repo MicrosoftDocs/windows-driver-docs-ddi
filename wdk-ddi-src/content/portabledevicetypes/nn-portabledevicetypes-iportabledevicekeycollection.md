@@ -1,7 +1,6 @@
 ---
 UID: NN:portabledevicetypes.IPortableDeviceKeyCollection
 title: IPortableDeviceKeyCollection
-author: windows-driver-content
 description: Holds a collection of PROPERTYKEY values. This interface can be retrieved from a method or, if a new object is required, call CoCreate with CLSID_PortableDeviceKeyCollection.
 old-location: wpddk\iportabledevicekeycollection.htm
 tech.root: wpd_dk

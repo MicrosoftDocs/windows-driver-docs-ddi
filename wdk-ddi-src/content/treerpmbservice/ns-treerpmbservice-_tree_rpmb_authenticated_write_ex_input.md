@@ -1,7 +1,6 @@
 ---
 UID: NS:treerpmbservice._TREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT
 title: _TREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT
-author: windows-driver-content
 description: 
 ms.assetid: 2aaeaf15-1089-430f-a431-17fcf27c9518
 ms.date: 10/19/2018

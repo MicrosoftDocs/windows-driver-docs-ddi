@@ -1,7 +1,6 @@
 ---
 UID: NI:charging.IOCTL_CAD_DISABLE_CHARGING
 title: IOCTL_CAD_DISABLE_CHARGING
-author: windows-driver-content
 description: This IOCTL is for internal use only.
 old-location: battery\ioctl_cad_disable_charging.htm
 tech.root: battery

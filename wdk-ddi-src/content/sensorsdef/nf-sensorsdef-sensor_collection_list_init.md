@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorsdef.SENSOR_COLLECTION_LIST_INIT
 title: SENSOR_COLLECTION_LIST_INIT function
-author: windows-driver-content
 description: This function initializes a SENSOR_COLLECTION_LIST structure.
 old-location: sensors\sensor_collection_list_init.htm
 tech.root: sensors

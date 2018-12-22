@@ -1,7 +1,6 @@
 ---
 UID: NS:mpiowmi._SetDSMCounters_IN
 title: "_SetDSMCounters_IN"
-author: windows-driver-content
 description: The SetDSMCounters_IN structure is used to set the timer counters for a particular DSM.
 old-location: storage\setdsmcounters_in.htm
 tech.root: storage

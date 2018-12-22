@@ -1,7 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_44
 title: KSSTREAMALLOCATOR_STATUS
-author: windows-driver-content
 description: The KSSTREAMALLOCATOR_STATUS structure describes framing requirements and current number of allocated frames for a specific allocator.
 old-location: stream\ksstreamallocator_status.htm
 tech.root: stream

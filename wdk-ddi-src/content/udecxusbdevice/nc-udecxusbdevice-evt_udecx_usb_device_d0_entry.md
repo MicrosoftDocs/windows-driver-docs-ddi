@@ -1,7 +1,6 @@
 ---
 UID: NC:udecxusbdevice.EVT_UDECX_USB_DEVICE_D0_ENTRY
 title: EVT_UDECX_USB_DEVICE_D0_ENTRY
-author: windows-driver-content
 description: The USB device emulation class extension (UdeCx) invokes this callback function when it gets a request to bring the virtual USB device out of a low power state to working state.
 old-location: buses\evt_udecx_usb_device_d0_entry.htm
 tech.root: usbref

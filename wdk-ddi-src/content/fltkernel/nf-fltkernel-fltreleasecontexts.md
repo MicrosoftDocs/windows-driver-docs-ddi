@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltReleaseContexts
 title: FltReleaseContexts function
-author: windows-driver-content
 description: FltReleaseContexts releases each context in a given FLT_RELATED_CONTEXTS structure.
 old-location: ifsk\fltreleasecontexts.htm
 tech.root: ifsk

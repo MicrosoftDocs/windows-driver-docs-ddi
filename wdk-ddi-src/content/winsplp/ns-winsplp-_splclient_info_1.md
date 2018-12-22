@@ -1,7 +1,6 @@
 ---
 UID: NS:winsplp._SPLCLIENT_INFO_1
 title: "_SPLCLIENT_INFO_1"
-author: windows-driver-content
 description: The SPLCLIENT_INFO_1 structure is used as input to the GenerateCopyFilePaths function that is exported by Point and Print DLLs.
 old-location: print\splclient_info_1.htm
 tech.root: print

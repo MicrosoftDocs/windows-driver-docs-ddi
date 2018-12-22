@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT
 title: _D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT
-author: windows-driver-content
 description: Used to get process device removal support.
 ms.assetid: 28258371-4419-4aa9-aadb-e5e085fa503f
 ms.date: 10/19/2018

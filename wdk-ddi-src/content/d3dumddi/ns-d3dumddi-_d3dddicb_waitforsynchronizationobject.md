@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT
 title: "_D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT"
-author: windows-driver-content
 description: The D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT structure describes the parameters that are required to set up the wait in a call to the pfnWaitForSynchronizationObjectCb function.
 old-location: display\d3dddicb_waitforsynchronizationobject.htm
 tech.root: display

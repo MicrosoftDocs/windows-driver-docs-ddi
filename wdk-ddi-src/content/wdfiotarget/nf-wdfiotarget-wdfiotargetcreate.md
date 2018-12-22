@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetCreate
 title: WdfIoTargetCreate function
-author: windows-driver-content
 description: The WdfIoTargetCreate method creates a remote I/O target for a specified device.
 old-location: wdf\wdfiotargetcreate.htm
 tech.root: wdf

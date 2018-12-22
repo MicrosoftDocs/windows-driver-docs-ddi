@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetUpperInstance
 title: FltGetUpperInstance function
-author: windows-driver-content
 description: The FltGetUpperInstance routine returns an opaque instance pointer for the next higher minifilter driver instance, if there is one, that is attached above a given minifilter driver instance on the same volume.
 old-location: ifsk\fltgetupperinstance.htm
 tech.root: ifsk

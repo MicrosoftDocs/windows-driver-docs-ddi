@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IPortClsPnp
 title: IPortClsPnp
-author: windows-driver-content
 description: IPortClsPnp is the PnP management interface that the port class driver (PortCls) exposes to the adapter.
 old-location: audio\iportclspnp.htm
 tech.root: audio

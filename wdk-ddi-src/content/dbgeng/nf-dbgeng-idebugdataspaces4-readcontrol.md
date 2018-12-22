@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.ReadControl
 title: IDebugDataSpaces4::ReadControl
-author: windows-driver-content
 description: The ReadControl method reads implementation-specific system data.
 old-location: debugger\readcontrol.htm
 tech.root: debugger

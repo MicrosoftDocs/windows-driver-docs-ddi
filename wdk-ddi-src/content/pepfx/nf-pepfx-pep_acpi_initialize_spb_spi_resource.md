@@ -1,7 +1,6 @@
 ---
 UID: NF:pepfx.PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE
 title: PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE function
-author: windows-driver-content
 description: The PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_SPB_SPI_RESOURCE structure.
 old-location: kernel\pep_acpi_initialize_spb_spi_resource.htm
 tech.root: kernel

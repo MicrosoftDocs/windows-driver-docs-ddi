@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D10_DDI_MAP
 title: D3D10_DDI_MAP
-author: windows-driver-content
 description: The D3D10_DDI_MAP enumeration type contains values that identify the access levels to map to a subresource in a call to the driver's ResourceMap function.
 old-location: display\d3d10_ddi_map.htm
 ms.assetid: f544ae60-b9c4-497c-8cb5-a2f9500a0cde

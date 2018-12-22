@@ -1,7 +1,6 @@
 ---
 UID: NF:ucxcontroller.UcxIoDeviceControl
 title: UcxIoDeviceControl function
-author: windows-driver-content
 description: Allows USB host controller extension (UCX) to handle an I/O control code (IOCTL) request from user mode.
 old-location: buses\_ucxiodevicecontrol.htm
 tech.root: usbref

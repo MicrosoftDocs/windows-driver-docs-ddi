@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OUTPUTDUPLCREATIONFLAGS
 title: _D3DKMT_OUTPUTDUPLCREATIONFLAGS
-author: windows-driver-content
 description: The output creation flags.
 ms.assetid: 6aea34d1-19c8-4900-a626-519dd50a50f4
 ms.date: 10/19/2018

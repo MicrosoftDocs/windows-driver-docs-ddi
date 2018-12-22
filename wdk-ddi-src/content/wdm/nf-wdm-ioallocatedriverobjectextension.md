@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoAllocateDriverObjectExtension
 title: IoAllocateDriverObjectExtension function
-author: windows-driver-content
 description: The IoAllocateDriverObjectExtension routine allocates a per-driver context area, called a driver object extension, and assigns a unique identifier to it.
 old-location: kernel\ioallocatedriverobjectextension.htm
 tech.root: kernel

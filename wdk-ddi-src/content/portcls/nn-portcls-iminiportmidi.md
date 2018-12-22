@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IMiniportMidi
 title: IMiniportMidi
-author: windows-driver-content
 description: The IMiniportMidi interface is the primary interface for a MIDI miniport driver for a MIDI synthesizer device.
 old-location: audio\iminiportmidi.htm
 tech.root: audio

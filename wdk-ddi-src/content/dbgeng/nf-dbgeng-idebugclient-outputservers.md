@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient.OutputServers
 title: IDebugClient::OutputServers
-author: windows-driver-content
 description: The OutputServers method lists the servers running on a given computer.
 old-location: debugger\outputservers.htm
 tech.root: debugger

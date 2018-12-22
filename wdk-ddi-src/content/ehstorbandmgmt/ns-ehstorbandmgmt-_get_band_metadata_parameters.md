@@ -1,7 +1,6 @@
 ---
 UID: NS:ehstorbandmgmt._GET_BAND_METADATA_PARAMETERS
 title: "_GET_BAND_METADATA_PARAMETERS"
-author: windows-driver-content
 description: The metadata for a configured band is retrieved according to the parameters in a GET_BAND_METADATA_PARAMETERS structure. This structure is input for an IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA request.
 old-location: storage\get_band_metadata_parameters.htm
 tech.root: storage

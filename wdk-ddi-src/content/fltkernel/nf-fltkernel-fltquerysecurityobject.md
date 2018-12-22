@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltQuerySecurityObject
 title: FltQuerySecurityObject function
-author: windows-driver-content
 description: FltQuerySecurityObject retrieves a copy of an object's security descriptor.
 old-location: ifsk\fltquerysecurityobject.htm
 tech.root: ifsk

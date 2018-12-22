@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.MarkCancelable
 title: IWDFIoRequest::MarkCancelable
-author: windows-driver-content
 description: The MarkCancelable method enables the canceling of the I/O request.
 old-location: wdf\iwdfiorequest_markcancelable.htm
 tech.root: wdf

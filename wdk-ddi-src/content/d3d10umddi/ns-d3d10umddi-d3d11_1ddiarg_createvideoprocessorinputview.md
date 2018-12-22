@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW
 title: D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW
-author: windows-driver-content
 description: Describes the video processor's input view.
 old-location: display\d3d11_1ddiarg_createvideoprocessorinputview.htm
 ms.assetid: 73F8F146-A38B-4890-867D-862361455AD4

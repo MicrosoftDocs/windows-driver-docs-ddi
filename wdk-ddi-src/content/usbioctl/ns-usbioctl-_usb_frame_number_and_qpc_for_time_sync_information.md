@@ -1,7 +1,6 @@
 ---
 UID: NS:usbioctl._USB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION
 title: "_USB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION"
-author: windows-driver-content
 description: Stores the frame and microframe numbers and the calculated system QPC values. This structure is used in the IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC request.
 old-location: buses\usb_frame_number_and_qpc_for_time_sync_information.htm
 tech.root: usbref

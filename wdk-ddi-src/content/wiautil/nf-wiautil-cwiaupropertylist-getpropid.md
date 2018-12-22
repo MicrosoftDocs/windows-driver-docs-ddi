@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.GetPropId
 title: CWiauPropertyList::GetPropId
-author: windows-driver-content
 description: The CWiauPropertyList::GetPropId method finds the property ID for a property, given its index in the property list.
 old-location: image\cwiaupropertylist_getpropid.htm
 tech.root: image

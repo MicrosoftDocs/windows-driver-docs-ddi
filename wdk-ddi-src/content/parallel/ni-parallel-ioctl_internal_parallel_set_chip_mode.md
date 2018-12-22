@@ -1,7 +1,6 @@
 ---
 UID: NI:parallel.IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE
 title: IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE
-author: windows-driver-content
 description: The IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE request sets the operating mode of a parallel port.
 old-location: parports\ioctl_internal_parallel_set_chip_mode.htm
 tech.root: parports

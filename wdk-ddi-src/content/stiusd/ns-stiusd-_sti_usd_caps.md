@@ -1,7 +1,6 @@
 ---
 UID: NS:stiusd._STI_USD_CAPS
 title: "_STI_USD_CAPS"
-author: windows-driver-content
 description: The STI_USD_CAPS structure is used as a parameter for the IStiUSD::GetCapabilities method.
 old-location: image\sti_usd_caps.htm
 tech.root: image

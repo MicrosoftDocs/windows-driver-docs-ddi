@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfwdm.READ_REGISTER_ULONG
 title: READ_REGISTER_ULONG function
-author: windows-driver-content
 description: The READ_REGISTER_ULONG routine reads a ULONG value from the specified register address.
 old-location: kernel\read_register_ulong.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwOpenEvent
 title: ZwOpenEvent function
-author: windows-driver-content
 description: The ZwOpenEvent routine opens a handle to an existing named event object with the specified desired access.
 old-location: kernel\zwopenevent.htm
 tech.root: kernel

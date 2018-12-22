@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlParent
 title: RtlParent macro
-author: windows-driver-content
 description: The RtlParent routine returns a pointer to the parent of the specified node in a splay link tree.
 old-location: ifsk\rtlparent.htm
 tech.root: ifsk

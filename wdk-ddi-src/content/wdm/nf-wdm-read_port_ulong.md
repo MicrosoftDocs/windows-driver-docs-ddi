@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.READ_PORT_ULONG
 title: READ_PORT_ULONG function
-author: windows-driver-content
 description: The READ_PORT_ULONG routine reads a ULONG value from the specified port address.
 old-location: kernel\read_port_ulong.htm
 tech.root: kernel

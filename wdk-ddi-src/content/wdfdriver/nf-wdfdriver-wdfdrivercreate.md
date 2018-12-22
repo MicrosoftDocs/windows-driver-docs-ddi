@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdriver.WdfDriverCreate
 title: WdfDriverCreate function
-author: windows-driver-content
 description: The WdfDriverCreate method creates a framework driver object for the calling driver.
 old-location: wdf\wdfdrivercreate.htm
 tech.root: wdf

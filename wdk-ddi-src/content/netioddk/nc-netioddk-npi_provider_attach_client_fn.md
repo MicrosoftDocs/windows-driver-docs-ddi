@@ -1,7 +1,6 @@
 ---
 UID: NC:netioddk.NPI_PROVIDER_ATTACH_CLIENT_FN
 title: NPI_PROVIDER_ATTACH_CLIENT_FN
-author: windows-driver-content
 description: A provider module's ProviderAttachClient callback function attaches the provider module to a client module.
 old-location: netvista\providerattachclient.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_IS_WRITABLE
 title: IOCTL_DISK_IS_WRITABLE
-author: windows-driver-content
 description: Determines whether a disk is writable.
 old-location: storage\ioctl_disk_is_writable.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_EXPORT_DESC_0054
 title: D3D12DDI_EXPORT_DESC_0054
-author: windows-driver-content
 description: Describes information about exports.
 ms.assetid: bc4a3647-e7c6-4681-bd5a-4c44c5e72e86
 ms.date: 10/19/2018

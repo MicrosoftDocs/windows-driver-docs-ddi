@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMGradientFill
 title: OEMGradientFill function
-author: windows-driver-content
 description: The OEMGradientFill function shades the specified primitives.
 old-location: print\oemgradientfill.htm
 tech.root: print

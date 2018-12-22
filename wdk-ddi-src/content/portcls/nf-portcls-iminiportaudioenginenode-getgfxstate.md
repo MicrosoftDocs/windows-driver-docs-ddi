@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.GetGfxState
 title: IMiniportAudioEngineNode::GetGfxState
-author: windows-driver-content
 description: Gets the state of the global effects (GFX) node in the audio engine.
 old-location: audio\iminiportaudioenginenode_getgfxstate.htm
 tech.root: audio

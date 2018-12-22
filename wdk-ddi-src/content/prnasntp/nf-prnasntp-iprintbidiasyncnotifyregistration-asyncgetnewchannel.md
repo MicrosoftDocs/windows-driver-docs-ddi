@@ -1,7 +1,6 @@
 ---
 UID: NF:prnasntp.IPrintBidiAsyncNotifyRegistration.AsyncGetNewChannel
 title: IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel
-author: windows-driver-content
 description: 
 old-location: print\iprintbidiasyncnotifyregistration_asyncgetnewchannel.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETASYNCCALLBACKSCB
 title: PFND3DDDI_SETASYNCCALLBACKSCB
-author: windows-driver-content
 description: The pfnSetAsyncCallbacksCb function notifies the Microsoft Direct3D runtime whether the runtime will start or stop receiving calls to the runtime's callback functions from a worker thread.
 old-location: display\pfnsetasynccallbackscb.htm
 tech.root: display

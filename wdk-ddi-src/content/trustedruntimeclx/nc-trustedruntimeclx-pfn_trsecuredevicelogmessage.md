@@ -1,7 +1,6 @@
 ---
 UID: NC:trustedruntimeclx.PFN_TRSECUREDEVICELOGMESSAGE
 title: *PFN_TRSECUREDEVICELOGMESSAGE
-author: windows-driver-content
 description: 
 ms.assetid: 796ac627-fd80-4074-bcf3-a7c23108d518
 ms.date: 10/19/2018

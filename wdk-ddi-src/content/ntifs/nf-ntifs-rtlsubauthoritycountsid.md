@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlSubAuthorityCountSid
 title: RtlSubAuthorityCountSid function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\rtlsubauthoritycountsid.htm
 tech.root: ifsk

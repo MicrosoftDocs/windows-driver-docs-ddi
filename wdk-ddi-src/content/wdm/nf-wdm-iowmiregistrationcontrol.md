@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoWMIRegistrationControl
 title: IoWMIRegistrationControl function
-author: windows-driver-content
 description: The IoWMIRegistrationControl routine registers or unregisters the caller as a WMI data provider for a specified device object.
 old-location: kernel\iowmiregistrationcontrol.htm
 tech.root: kernel

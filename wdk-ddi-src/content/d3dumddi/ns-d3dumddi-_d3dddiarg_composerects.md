@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_COMPOSERECTS
 title: "_D3DDDIARG_COMPOSERECTS"
-author: windows-driver-content
 description: The D3DDDIARG_COMPOSERECTS structure describes the parameters that are used to compose rectangular areas.
 old-location: display\d3dddiarg_composerects.htm
 tech.root: display

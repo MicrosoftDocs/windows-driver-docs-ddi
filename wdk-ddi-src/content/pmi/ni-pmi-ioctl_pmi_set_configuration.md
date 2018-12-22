@@ -1,7 +1,6 @@
 ---
 UID: NI:pmi.IOCTL_PMI_SET_CONFIGURATION
 title: IOCTL_PMI_SET_CONFIGURATION
-author: windows-driver-content
 description: The IOCTL_PMI_SET_CONFIGURATION request sets the configuration data for a power meter.
 old-location: powermeter\ioctl_pmi_set_configuration.htm
 tech.root: powermeter

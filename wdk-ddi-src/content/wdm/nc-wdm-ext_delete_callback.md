@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.EXT_DELETE_CALLBACK
 title: EXT_DELETE_CALLBACK
-author: windows-driver-content
 description: An ExTimerDeleteCallback callback routine runs when the operating system deletes an EX_TIMER timer object.
 old-location: kernel\extimerdeletecallback.htm
 tech.root: kernel

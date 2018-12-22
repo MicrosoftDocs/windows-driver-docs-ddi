@@ -1,7 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_INTERNAL_USB_RESET_PORT
 title: IOCTL_INTERNAL_USB_RESET_PORT
-author: windows-driver-content
 description: The IOCTL_INTERNAL_USB_RESET_PORT I/O control request is used by a driver to reset the upstream port of the device it manages.
 old-location: buses\ioctl_internal_usb_reset_port.htm
 tech.root: usbref

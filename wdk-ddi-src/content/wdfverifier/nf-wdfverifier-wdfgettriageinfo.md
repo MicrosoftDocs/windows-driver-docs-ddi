@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfverifier.WdfGetTriageInfo
 title: WdfGetTriageInfo function
-author: windows-driver-content
 description: The WdfGetTriageInfo method is reserved for internal use only.
 old-location: wdf\wdfgettriageinfo.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILALPHAIDENTIFIDERTYPE
 title: RILALPHAIDENTIFIDERTYPE
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilalphaidentifidertype.htm
 tech.root: netvista

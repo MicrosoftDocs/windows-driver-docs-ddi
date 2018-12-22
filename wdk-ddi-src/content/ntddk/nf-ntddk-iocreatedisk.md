@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoCreateDisk
 title: IoCreateDisk function
-author: windows-driver-content
 description: The IoCreateDisk routine initializes a raw disk by creating a new partition table.
 old-location: storage\iocreatedisk.htm
 tech.root: storage

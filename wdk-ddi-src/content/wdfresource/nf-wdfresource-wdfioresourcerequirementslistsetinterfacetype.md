@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfresource.WdfIoResourceRequirementsListSetInterfaceType
 title: WdfIoResourceRequirementsListSetInterfaceType function
-author: windows-driver-content
 description: The WdfIoResourceRequirementsListSetInterfaceType method assigns a bus type to a resource requirements list.
 old-location: wdf\wdfioresourcerequirementslistsetinterfacetype.htm
 tech.root: wdf

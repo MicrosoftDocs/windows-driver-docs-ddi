@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlSizeTSub
 title: RtlSizeTSub function
-author: windows-driver-content
 description: Subtracts one value of type SIZE_T from another.
 old-location: kernel\rtlsizetsub.htm
 tech.root: kernel

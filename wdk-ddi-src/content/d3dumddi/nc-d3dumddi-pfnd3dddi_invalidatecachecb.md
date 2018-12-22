@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_INVALIDATECACHECB
 title: PFND3DDDI_INVALIDATECACHECB
-author: windows-driver-content
 description: The PFND3DDDI_INVALIDATECACHECB callback function invalidates cache.
 ms.assetid: 40e15cff-6522-47af-9dd3-232a7cf106ae
 ms.date: 10/19/2018

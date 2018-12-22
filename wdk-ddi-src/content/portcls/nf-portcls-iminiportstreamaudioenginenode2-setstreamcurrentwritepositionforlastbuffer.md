@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode2.SetStreamCurrentWritePositionForLastBuffer
 title: IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuffer
-author: windows-driver-content
 description: Sets the current cursor position in the last audio data stream that was written to the audio buffer.
 old-location: audio\iminiportstreamaudioenginenode2_setstreamcurrentwritepositionforlastbuffer.htm
 tech.root: audio

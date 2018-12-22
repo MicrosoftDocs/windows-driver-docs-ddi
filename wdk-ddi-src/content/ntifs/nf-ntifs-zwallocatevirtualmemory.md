@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.ZwAllocateVirtualMemory
 title: ZwAllocateVirtualMemory function
-author: windows-driver-content
 description: The ZwAllocateVirtualMemory routine reserves, commits, or both, a region of pages within the user-mode virtual address space of a specified process.
 old-location: kernel\zwallocatevirtualmemory.htm
 tech.root: kernel

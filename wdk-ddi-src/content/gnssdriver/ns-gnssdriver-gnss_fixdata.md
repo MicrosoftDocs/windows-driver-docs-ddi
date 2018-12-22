@@ -1,7 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_14
 title: GNSS_FIXDATA
-author: windows-driver-content
 description: This structure defines the specific data elements associated with a GNSS fix returned from the driver.
 old-location: gnss\gnss_fixdata.htm
 tech.root: gnss

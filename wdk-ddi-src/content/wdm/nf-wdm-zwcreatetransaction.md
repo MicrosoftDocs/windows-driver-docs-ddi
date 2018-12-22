@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwCreateTransaction
 title: ZwCreateTransaction function
-author: windows-driver-content
 description: The ZwCreateTransaction routine creates a transaction object.
 old-location: kernel\zwcreatetransaction.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddpar.IOCTL_PAR_QUERY_DEVICE_ID_SIZE
 title: IOCTL_PAR_QUERY_DEVICE_ID_SIZE
-author: windows-driver-content
 description: The IOCTL_PAR_QUERY_DEVICE_ID_SIZE request returns the size, in bytes, of a buffer that can hold a device's IEEE 1284 device ID and a NULL terminator.
 old-location: parports\ioctl_par_query_device_id_size.htm
 tech.root: parports

@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IImpersonateCallback.OnImpersonate
 title: IImpersonateCallback::OnImpersonate
-author: windows-driver-content
 description: The OnImpersonate method handles impersonation.
 old-location: wdf\iimpersonatecallback_onimpersonate.htm
 tech.root: wdf

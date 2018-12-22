@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYVIDEOMOTIONESTIMATOR_0053
 title: PFND3D12DDI_DESTROYVIDEOMOTIONESTIMATOR_0053
-author: windows-driver-content
 description: Destroys the video motion estimator.
 ms.assetid: 6d142a01-4ba6-4d72-b5ae-19a5117f4448
 ms.date: 10/19/2018

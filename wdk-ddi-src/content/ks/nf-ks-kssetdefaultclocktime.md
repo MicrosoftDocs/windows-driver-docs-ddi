@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsSetDefaultClockTime
 title: KsSetDefaultClockTime function
-author: windows-driver-content
 description: The KsSetDefaultClockTime function sets the current time of the clock.
 old-location: stream\kssetdefaultclocktime.htm
 tech.root: stream

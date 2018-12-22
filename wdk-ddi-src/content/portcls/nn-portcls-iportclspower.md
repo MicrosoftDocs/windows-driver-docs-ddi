@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IPortClsPower
 title: IPortClsPower
-author: windows-driver-content
 description: The IPortClsPower interface is supported in Windows Vista and later versions of Windows. IPortClsPower is the power management interface that the port class driver (PortCls) exposes to the adapter.
 old-location: audio\iportclspower.htm
 tech.root: audio

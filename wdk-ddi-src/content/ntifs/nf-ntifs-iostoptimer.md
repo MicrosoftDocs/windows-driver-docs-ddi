@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoStopTimer
 title: IoStopTimer function
-author: windows-driver-content
 description: The IoStopTimer routine disables the timer for a specified device object so the driver-supplied IoTimer routine is not called.
 old-location: kernel\iostoptimer.htm
 tech.root: kernel

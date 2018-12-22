@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledeviceclassextension.IPortableDeviceClassExtension.Initialize
 title: IPortableDeviceClassExtension::Initialize
-author: windows-driver-content
 description: The Initialize interface initializes a portable device by registering the device, device service, and private interfaces.
 old-location: wpddk\iportabledeviceclassextension_initialize.htm
 tech.root: wpd_dk

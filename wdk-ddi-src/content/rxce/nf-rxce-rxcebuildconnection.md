@@ -1,7 +1,6 @@
 ---
 UID: NF:rxce.RxCeBuildConnection
 title: RxCeBuildConnection function
-author: windows-driver-content
 description: RxCeBuildConnection establishes a connection between a local RDBSS connection address and a given remote address.
 old-location: ifsk\rxcebuildconnection.htm
 tech.root: ifsk

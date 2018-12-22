@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddvdeo._VIDEO_MODE_INFORMATION
 title: "_VIDEO_MODE_INFORMATION"
-author: windows-driver-content
 description: The VIDEO_MODE_INFORMATION structure contains all of the information about one mode of a video adapter.
 old-location: display\video_mode_information.htm
 tech.root: display

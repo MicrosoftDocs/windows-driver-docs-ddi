@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfusb._WDF_USB_INTERFACE_SETTING_PAIR
 title: "_WDF_USB_INTERFACE_SETTING_PAIR"
-author: windows-driver-content
 description: The WDF_USB_INTERFACE_SETTING_PAIR structure specifies an alternate setting for a specified USB interface.
 old-location: wdf\wdf_usb_interface_setting_pair.htm
 tech.root: wdf

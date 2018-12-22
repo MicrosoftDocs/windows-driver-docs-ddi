@@ -1,7 +1,6 @@
 ---
 UID: NE:wditypes._WDI_PHY_TYPE
 title: "_WDI_PHY_TYPE"
-author: windows-driver-content
 description: The WDI_PHY_TYPE enumeration defines the PHY types.
 old-location: netvista\wdi_phy_type.htm
 tech.root: netvista

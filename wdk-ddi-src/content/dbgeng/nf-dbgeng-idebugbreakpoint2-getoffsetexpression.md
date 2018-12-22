@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint2.GetOffsetExpression
 title: IDebugBreakpoint2::GetOffsetExpression
-author: windows-driver-content
 description: The GetOffsetExpression methods return the expression string that evaluates to the location that triggers a breakpoint.
 old-location: debugger\getoffsetexpression.htm
 tech.root: debugger

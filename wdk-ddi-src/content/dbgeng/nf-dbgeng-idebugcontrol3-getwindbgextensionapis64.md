@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetWindbgExtensionApis64
 title: IDebugControl3::GetWindbgExtensionApis64
-author: windows-driver-content
 description: The GetWindbgExtensionApis64 method returns a structure that facilitates using the WdbgExts API.
 old-location: debugger\getwindbgextensionapis64.htm
 tech.root: debugger

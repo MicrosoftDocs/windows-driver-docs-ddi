@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltSetSecurityObject
 title: FltSetSecurityObject function
-author: windows-driver-content
 description: FltSetSecurityObject sets an object's security state.
 old-location: ifsk\fltsetsecurityobject.htm
 tech.root: ifsk

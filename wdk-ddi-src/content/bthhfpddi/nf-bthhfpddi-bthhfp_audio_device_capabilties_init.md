@@ -1,7 +1,6 @@
 ---
 UID: NF:bthhfpddi.BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT
 title: BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT function
-author: windows-driver-content
 description: The BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT method returns a pointer to an initialized BTHHFP_AUDIO_DEVICE_CAPABILTIES data structure.
 old-location: audio\bthhfp_audio_device_capabilties_init.htm
 tech.root: audio

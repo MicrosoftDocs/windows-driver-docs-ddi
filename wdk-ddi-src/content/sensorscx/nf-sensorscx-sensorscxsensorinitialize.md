@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorscx.SensorsCxSensorInitialize
 title: SensorsCxSensorInitialize function
-author: windows-driver-content
 description: This function sets the enumeration properties of a sensor.
 old-location: sensors\sensorscxsensorinitialize.htm
 tech.root: sensors

@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperUni.CreateInstanceOfMSXMLObject
 title: IPrintCoreHelperUni::CreateInstanceOfMSXMLObject
-author: windows-driver-content
 description: The IPrintCoreHelperUni::CreateInstanceOfMSXMLObject method creates an instance of an MSXML object.
 old-location: print\iprintcorehelperuni_createinstanceofmsxmlobject.htm
 tech.root: print

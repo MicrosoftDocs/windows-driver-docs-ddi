@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.GetInfo
 title: IPrintOemUni::GetInfo
-author: windows-driver-content
 description: A rendering plug-in's IPrintOemUni::GetInfo method returns identification information.
 old-location: print\iprintoemuni_getinfo.htm
 tech.root: print

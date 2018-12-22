@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_RESETFROMTIMEOUT
 title: DXGKDDI_RESETFROMTIMEOUT
-author: windows-driver-content
 description: The DxgkDdiResetFromTimeout function resets the graphics processing unit (GPU) after a hardware timeout occurs and guarantees that the GPU is not writing or reading any memory by the time that DxgkDdiResetFromTimeout returns.
 old-location: display\dxgkddiresetfromtimeout.htm
 ms.assetid: b9bfc801-33f6-4911-ab7d-8e3c99a5e2e9

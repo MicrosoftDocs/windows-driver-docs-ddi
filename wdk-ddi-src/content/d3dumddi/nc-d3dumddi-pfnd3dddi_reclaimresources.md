@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_RECLAIMRESOURCES
 title: PFND3DDDI_RECLAIMRESOURCES
-author: windows-driver-content
 description: Called by the Microsoft Direct3D runtime to reclaim video memory resources that it previously offered for reuse.
 old-location: display\reclaimresources.htm
 tech.root: display

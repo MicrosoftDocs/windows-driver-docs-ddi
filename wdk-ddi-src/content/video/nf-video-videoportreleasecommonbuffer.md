@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortReleaseCommonBuffer
 title: VideoPortReleaseCommonBuffer function
-author: windows-driver-content
 description: The VideoPortReleaseCommonBuffer function frees a common buffer that was previously allocated by VideoPortAllocateCommonBuffer.
 old-location: display\videoportreleasecommonbuffer.htm
 tech.root: display

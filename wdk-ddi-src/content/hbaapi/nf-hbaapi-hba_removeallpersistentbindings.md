@@ -1,7 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_RemoveAllPersistentBindings
 title: HBA_RemoveAllPersistentBindings function
-author: windows-driver-content
 description: The HBA_RemoveAllPersistentBindings routine removes all persistent bindings for a specified HBA port.
 old-location: storage\hba_removeallpersistentbindings.htm
 tech.root: storage

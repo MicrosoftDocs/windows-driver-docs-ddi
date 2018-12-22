@@ -1,7 +1,6 @@
 ---
 UID: NS:hdaudio._HDAUDIO_BUS_INTERFACE_V2
 title: "_HDAUDIO_BUS_INTERFACE_V2"
-author: windows-driver-content
 description: The HDAUDIO_BUS_INTERFACE_V2 structure specifies the information that a client requires to call the routines in the HDAUDIO_BUS_INTERFACE_V2 version of the HD Audio DDI.
 old-location: audio\hdaudio_bus_interface_v2.htm
 tech.root: audio

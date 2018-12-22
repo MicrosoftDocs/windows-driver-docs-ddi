@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugPlmClient2.LaunchPlmBgTaskForDebugWide
 title: IDebugPlmClient2::LaunchPlmBgTaskForDebugWide
-author: windows-driver-content
 description: Launches a suspended Process Lifecycle Management (PLM) background task.
 old-location: debugger\idebugplmclient2_launchplmbgtaskfordebugwide.htm
 tech.root: debugger

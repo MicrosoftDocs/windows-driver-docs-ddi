@@ -1,7 +1,6 @@
 ---
 UID: NE:gnssdriver.__unnamed_enum_11
 title: GNSS_NI_USER_RESPONSE
-author: windows-driver-content
 description: This enumeration indicates the user’s response to a network initiated (NI) request, which is represented by the GNSS_NI_RESPONSE structure.
 old-location: gnss\gnss_ni_user_response.htm
 tech.root: gnss

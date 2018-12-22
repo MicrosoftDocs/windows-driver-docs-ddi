@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddstor.DeviceDsmDataSetRanges
 title: DeviceDsmDataSetRanges function
-author: windows-driver-content
 description: The DeviceDsmDataSetRanges function sets the data set range in a DEVICE_DSM_RANGE structure.
 ms.assetid: 0a7044a8-4cf1-4e40-92e1-c0dacea99ea9
 ms.date: 04/09/2018

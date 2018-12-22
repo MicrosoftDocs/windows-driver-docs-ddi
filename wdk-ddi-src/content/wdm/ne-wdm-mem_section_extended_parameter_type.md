@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm.MEM_SECTION_EXTENDED_PARAMETER_TYPE
 title: MEM_SECTION_EXTENDED_PARAMETER_TYPE
-author: windows-driver-content
 description: 
 ms.assetid: befad141-3eee-4c01-8763-9d92e6b6942e
 ms.date: 09/30/2018

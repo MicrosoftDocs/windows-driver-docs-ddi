@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmdt.D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART
 title: D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART function
-author: windows-driver-content
 description: A helper function that extracts the rotation angle from a given value of the D3DKMDT_VIDPN_PRESENT_PATH_ROTATION enumeration.
 old-location: display\d3dkmdt_vppr_get_content_rotation_part.htm
 tech.root: display

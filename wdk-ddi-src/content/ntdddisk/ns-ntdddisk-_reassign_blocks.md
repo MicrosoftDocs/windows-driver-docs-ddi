@@ -1,7 +1,6 @@
 ---
 UID: NS:ntdddisk._REASSIGN_BLOCKS
 title: "_REASSIGN_BLOCKS"
-author: windows-driver-content
 description: The REASSIGN_BLOCKS structure is used in conjunction with the IOCTL_DISK_REASSIGN_BLOCKS request to instruct a disk device to reassign the block numbers of the indicated bad blocks to good blocks.
 old-location: storage\reassign_blocks.htm
 tech.root: storage

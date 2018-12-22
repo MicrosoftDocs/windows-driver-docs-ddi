@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwOpenEnlistment
 title: ZwOpenEnlistment function
-author: windows-driver-content
 description: The ZwOpenEnlistment routine obtains a handle to an existing enlistment object.
 old-location: kernel\zwopenenlistment.htm
 tech.root: kernel

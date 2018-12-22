@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlUShortToInt8
 title: RtlUShortToInt8 function
-author: windows-driver-content
 description: Converts a value of type USHORT to a value of type INT8.
 old-location: kernel\rtlushorttoint8.htm
 tech.root: kernel

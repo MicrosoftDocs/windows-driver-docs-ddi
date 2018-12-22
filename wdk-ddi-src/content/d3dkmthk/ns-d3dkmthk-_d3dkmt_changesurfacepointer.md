@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CHANGESURFACEPOINTER
 title: _D3DKMT_CHANGESURFACEPOINTER
-author: windows-driver-content
 description: Used to change the surface pointer.
 ms.assetid: 44c82b4f-a356-462c-a0e4-c82e0b091bfb
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NS:mpiodisk._PDOSCSI_ADDR
 title: "_PDOSCSI_ADDR"
-author: windows-driver-content
 description: The PDOSCSI_ADDR structure is used to represent a SCSI address.
 old-location: storage\pdoscsi_addr.htm
 tech.root: storage

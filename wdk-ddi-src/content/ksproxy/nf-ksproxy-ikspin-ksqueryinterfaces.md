@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPin.KsQueryInterfaces
 title: IKsPin::KsQueryInterfaces
-author: windows-driver-content
 description: The KsQueryInterfaces method retrieves interfaces that a pin supports.
 old-location: stream\ikspin_ksqueryinterfaces.htm
 tech.root: stream

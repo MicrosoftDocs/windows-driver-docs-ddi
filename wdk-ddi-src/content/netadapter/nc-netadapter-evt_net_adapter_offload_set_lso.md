@@ -1,7 +1,6 @@
 ---
 UID: NC:netadapter.EVT_NET_ADAPTER_OFFLOAD_SET_LSO
 title: EVT_NET_ADAPTER_OFFLOAD_SET_LSO
-author: windows-driver-content
 description: The EvtNetAdapterOffloadSetLso callback function is implemented by the client driver to set changes in large send offload (LSO) offload capabilities.
 tech.root: netvista
 ms.assetid: 7c11be49-4d85-49c4-9416-47da1214fc1b

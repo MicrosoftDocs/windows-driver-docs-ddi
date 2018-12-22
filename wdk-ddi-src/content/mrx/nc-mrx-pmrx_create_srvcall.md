@@ -1,7 +1,6 @@
 ---
 UID: NC:mrx.PMRX_CREATE_SRVCALL
 title: PMRX_CREATE_SRVCALL
-author: windows-driver-content
 description: The MRxCreateSrvCall routine is called by RDBSS to request that the network mini-redirector create an SRV_CALL structure and establish connection with a server.
 old-location: ifsk\mrxcreatesrvcall.htm
 tech.root: ifsk

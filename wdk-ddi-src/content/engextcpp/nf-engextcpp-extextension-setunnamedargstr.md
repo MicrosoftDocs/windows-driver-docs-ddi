@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtExtension.SetUnnamedArgStr
 title: ExtExtension::SetUnnamedArgStr
-author: windows-driver-content
 description: The SetUnnamedArgStr method sets an unnamed string argument for the current extension command.
 old-location: debugger\setunnamedargstr.htm
 tech.root: debugger

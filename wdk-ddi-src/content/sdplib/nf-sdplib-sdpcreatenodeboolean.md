@@ -1,7 +1,6 @@
 ---
 UID: NF:sdplib.SdpCreateNodeBoolean
 title: SdpCreateNodeBoolean function
-author: windows-driver-content
 description: The Bluetooth SdpCreateNodeBoolean function is used to allocate and initialize an SDP_NODE structure to a Boolean type.
 old-location: bltooth\sdpcreatenodeboolean.htm
 tech.root: bltooth

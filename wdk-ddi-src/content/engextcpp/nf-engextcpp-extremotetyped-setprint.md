@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.SetPrint
 title: ExtRemoteTyped::SetPrint
-author: windows-driver-content
 description: The SetPrint method sets the typed data represented by the ExtRemoteTyped object by formatting an expression and then evaluating that expression.
 old-location: debugger\extremotetyped_setprint.htm
 tech.root: debugger

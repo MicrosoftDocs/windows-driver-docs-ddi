@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnGetSupportedDataFields
 title: ISensorDriver::OnGetSupportedDataFields
-author: windows-driver-content
 description: The ISensorDriver::OnGetSupportedDataFields method retrieves the list of data fields that the specified sensor can provide.
 old-location: sensors\isensordriver_ongetsupporteddatafields.htm
 tech.root: sensors

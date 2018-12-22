@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_QUERYADAPTERINFOCB
 title: PFND3DDDI_QUERYADAPTERINFOCB
-author: windows-driver-content
 description: The pfnQueryAdapterInfoCb function retrieves graphics adapter information.
 old-location: display\pfnqueryadapterinfocb.htm
 tech.root: display

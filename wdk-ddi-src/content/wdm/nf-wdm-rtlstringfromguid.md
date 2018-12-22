@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlStringFromGUID
 title: RtlStringFromGUID function
-author: windows-driver-content
 description: The RtlStringFromGUID routine converts a given GUID from binary format into a Unicode string.
 old-location: kernel\rtlstringfromguid.htm
 tech.root: kernel

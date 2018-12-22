@@ -1,7 +1,6 @@
 ---
 UID: NF:ioaccess.READ_PORT_USHORT
 title: READ_PORT_USHORT function
-author: windows-driver-content
 description: The READ_PORT_USHORT routine reads a USHORT value from the specified port address.
 old-location: kernel\read_port_ushort.htm
 tech.root: kernel

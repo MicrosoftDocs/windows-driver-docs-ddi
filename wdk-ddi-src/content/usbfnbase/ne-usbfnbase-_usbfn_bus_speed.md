@@ -1,7 +1,6 @@
 ---
 UID: NE:usbfnbase._USBFN_BUS_SPEED
 title: "_USBFN_BUS_SPEED"
-author: windows-driver-content
 description: The USBFN_BUS_SPEED enumeration defines possible bus speeds.
 old-location: buses\usbfn_bus_speed.htm
 tech.root: usbref

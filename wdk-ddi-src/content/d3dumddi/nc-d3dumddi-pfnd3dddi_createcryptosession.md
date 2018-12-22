@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATECRYPTOSESSION
 title: PFND3DDDI_CREATECRYPTOSESSION
-author: windows-driver-content
 description: The CreateCryptoSession function creates a crypto session that the Direct3D runtime uses to manage a session key and to perform crypto operations into and out of protected memory.
 old-location: display\createcryptosession.htm
 tech.root: display

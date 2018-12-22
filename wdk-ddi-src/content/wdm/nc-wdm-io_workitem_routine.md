@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.IO_WORKITEM_ROUTINE
 title: IO_WORKITEM_ROUTINE
-author: windows-driver-content
 description: A WorkItem routine performs the processing for a work item that was queued by the IoQueueWorkItem routine.
 old-location: kernel\workitem.htm
 tech.root: kernel

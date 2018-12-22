@@ -1,7 +1,6 @@
 ---
 UID: NN:printerextension.IPrinterQueue2
 title: IPrinterQueue2
-author: windows-driver-content
 description: Represents a single printer queue.
 old-location: print\iprinterqueue2.htm
 tech.root: print

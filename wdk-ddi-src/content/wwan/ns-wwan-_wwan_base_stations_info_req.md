@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_BASE_STATIONS_INFO_REQ
 title: "_WWAN_BASE_STATIONS_INFO_REQ"
-author: windows-driver-content
 description: The WWAN_BASE_STATIONS_INFO_REQ structure represents the aspects of cellular base stations information that are requested in a base stations information query.
 old-location: netvista\wwan_base_stations_info_req.htm
 tech.root: netvista

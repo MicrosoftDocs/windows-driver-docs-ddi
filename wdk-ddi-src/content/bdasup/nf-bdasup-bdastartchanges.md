@@ -1,7 +1,6 @@
 ---
 UID: NF:bdasup.BdaStartChanges
 title: BdaStartChanges function
-author: windows-driver-content
 description: The BdaStartChanges function initiates the setting of new BDA topology changes.
 old-location: stream\bdastartchanges.htm
 tech.root: stream

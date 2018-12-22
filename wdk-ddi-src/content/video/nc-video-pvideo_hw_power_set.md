@@ -1,7 +1,6 @@
 ---
 UID: NC:video.PVIDEO_HW_POWER_SET
 title: PVIDEO_HW_POWER_SET
-author: windows-driver-content
 description: HwVidSetPowerState sets the power state of the specified device.
 old-location: display\hwvidsetpowerstate.htm
 tech.root: display

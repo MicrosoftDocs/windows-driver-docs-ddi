@@ -1,7 +1,6 @@
 ---
 UID: NS:dxva._DXVA_VideoDesc
 title: "_DXVA_VideoDesc"
-author: windows-driver-content
 description: The DXVA_VideoDesc structure is sent by the renderer to the driver to specify a description of the video stream on which the deinterlacing or frame-rate conversion operation is to be performed.
 old-location: display\dxva_videodesc.htm
 tech.root: display

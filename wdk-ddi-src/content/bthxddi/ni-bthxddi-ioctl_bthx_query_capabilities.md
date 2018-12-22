@@ -1,7 +1,6 @@
 ---
 UID: NI:bthxddi.IOCTL_BTHX_QUERY_CAPABILITIES
 title: IOCTL_BTHX_QUERY_CAPABILITIES
-author: windows-driver-content
 description: IOCTL_BTHX_QUERY_CAPABILITIES is used to query the capabilities of the transport driver.
 old-location: bltooth\ioctl_bthx_query_capabilities.htm
 tech.root: bltooth

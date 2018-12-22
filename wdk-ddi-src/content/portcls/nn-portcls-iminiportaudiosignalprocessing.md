@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IMiniportAudioSignalProcessing
 title: IMiniportAudioSignalProcessing
-author: windows-driver-content
 description: The IMiniportAudioSignalProcessing interface is implemented by the WaveRT miniport component of any audio driver, if any of its pins support audio signal processing modes.
 old-location: audio\iminiportaudiosignalprocessing.htm
 tech.root: audio

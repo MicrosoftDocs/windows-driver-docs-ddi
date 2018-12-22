@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPin.KsMediaSamplesCompleted
 title: IKsPin::KsMediaSamplesCompleted
-author: windows-driver-content
 description: The KsMediaSamplesCompleted method informs a pin that a stream segment completed.
 old-location: stream\ikspin_ksmediasamplescompleted.htm
 tech.root: stream

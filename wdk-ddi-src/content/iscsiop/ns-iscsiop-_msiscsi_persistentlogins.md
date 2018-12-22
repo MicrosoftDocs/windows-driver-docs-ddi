@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._MSiSCSI_PersistentLogins
 title: "_MSiSCSI_PersistentLogins"
-author: windows-driver-content
 description: The MSiSCSI_PersistentLogins structure contains the list of persistent target logon sessions.
 old-location: storage\msiscsi_persistentlogins.htm
 tech.root: storage

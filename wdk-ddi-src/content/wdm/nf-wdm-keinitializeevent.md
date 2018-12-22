@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeInitializeEvent
 title: KeInitializeEvent function
-author: windows-driver-content
 description: The KeInitializeEvent routine initializes an event object as a synchronization (single waiter) or notification type event and sets it to a signaled or not-signaled state.
 old-location: kernel\keinitializeevent.htm
 tech.root: kernel

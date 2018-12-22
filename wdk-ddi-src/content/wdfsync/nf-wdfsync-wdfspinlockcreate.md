@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfsync.WdfSpinLockCreate
 title: WdfSpinLockCreate function
-author: windows-driver-content
 description: The WdfSpinLockCreate method creates a framework spin-lock object.
 old-location: wdf\wdfspinlockcreate.htm
 tech.root: wdf

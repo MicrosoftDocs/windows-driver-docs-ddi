@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030
 title: D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030
-author: windows-driver-content
 description: Creates a crypto session policy.
 old-location: display\d3d12ddiarg-create-crypto-session-policy-0030.htm
 ms.assetid: b7574112-2cac-4bec-9039-9afeef4d2f51

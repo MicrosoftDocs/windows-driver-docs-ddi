@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.GetSecurityUserInfo
 title: GetSecurityUserInfo function
-author: windows-driver-content
 description: The GetSecurityUserInfo function retrieves information about a logon session.
 old-location: ifsk\getsecurityuserinfo.htm
 tech.root: ifsk

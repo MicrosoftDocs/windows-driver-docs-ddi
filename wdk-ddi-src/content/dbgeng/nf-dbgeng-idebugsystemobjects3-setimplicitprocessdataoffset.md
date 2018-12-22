@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.SetImplicitProcessDataOffset
 title: IDebugSystemObjects3::SetImplicitProcessDataOffset
-author: windows-driver-content
 description: The SetImplicitProcessDataOffset method sets the implicit process for the current target.
 old-location: debugger\setimplicitprocessdataoffset.htm
 tech.root: debugger

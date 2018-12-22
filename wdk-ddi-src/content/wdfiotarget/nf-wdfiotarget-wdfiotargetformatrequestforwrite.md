@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetFormatRequestForWrite
 title: WdfIoTargetFormatRequestForWrite function
-author: windows-driver-content
 description: The WdfIoTargetFormatRequestForWrite method builds a write request for an I/O target but does not send the request.
 old-location: wdf\wdfiotargetformatrequestforwrite.htm
 tech.root: wdf

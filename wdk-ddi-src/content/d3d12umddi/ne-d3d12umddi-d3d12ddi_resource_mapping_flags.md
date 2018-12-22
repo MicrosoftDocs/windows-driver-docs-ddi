@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RESOURCE_MAPPING_FLAGS
 title: D3D12DDI_RESOURCE_MAPPING_FLAGS
-author: windows-driver-content
 description: Specifies the resource mapping flags.
 ms.assetid: 2fe66683-3710-4ac6-9e98-3927c563d463
 ms.date: 10/19/2018

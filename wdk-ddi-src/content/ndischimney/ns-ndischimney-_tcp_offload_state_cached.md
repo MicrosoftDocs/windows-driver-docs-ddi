@@ -1,7 +1,6 @@
 ---
 UID: NS:ndischimney._TCP_OFFLOAD_STATE_CACHED
 title: "_TCP_OFFLOAD_STATE_CACHED"
-author: windows-driver-content
 description: The TCP_OFFLOAD_STATE_CACHED structure contains the cached variables of a TCP connection state object.
 old-location: netvista\tcp_offload_state_cached.htm
 tech.root: netvista

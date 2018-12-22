@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_VIDEOINFOHEADER2
 title: tagKS_VIDEOINFOHEADER2
-author: windows-driver-content
 description: The KS_VIDEOINFOHEADER2 structure describes the details of a video stream, including bob or weave settings, copy protection, and pixel aspect ratio.
 old-location: stream\ks_videoinfoheader2.htm
 tech.root: stream

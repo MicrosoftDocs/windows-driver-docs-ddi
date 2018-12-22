@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintJobCollection.get__NewEnum
 title: IPrintJobCollection::get__NewEnum
-author: windows-driver-content
 description: Gets a pointer to the enumerants of IPrintJobCollection objects.
 old-location: print\iprintjobcollection_newenum.htm
 tech.root: print

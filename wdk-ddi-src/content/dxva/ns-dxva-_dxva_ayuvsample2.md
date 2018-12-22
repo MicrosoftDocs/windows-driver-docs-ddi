@@ -1,7 +1,6 @@
 ---
 UID: NS:dxva._DXVA_AYUVsample2
 title: "_DXVA_AYUVsample2"
-author: windows-driver-content
 description: The DXVA_AYUVsample2 structure is sent by the host decoder to the accelerator to specify Y, Cb, Cr color values, and an associated opacity.
 old-location: display\dxva_ayuvsample2.htm
 tech.root: display

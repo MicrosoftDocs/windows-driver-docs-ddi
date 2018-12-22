@@ -1,7 +1,6 @@
 ---
 UID: NE:filterpipeline.__MIDL___MIDL_itf_filterpipeline_0000_0000_0004
 title: "__MIDL___MIDL_itf_filterpipeline_0000_0000_0004"
-author: windows-driver-content
 description: 
 old-location: print\expsfontrestriction.htm
 tech.root: print

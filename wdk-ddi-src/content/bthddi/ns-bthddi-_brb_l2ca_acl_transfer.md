@@ -1,7 +1,6 @@
 ---
 UID: NS:bthddi._BRB_L2CA_ACL_TRANSFER
 title: "_BRB_L2CA_ACL_TRANSFER"
-author: windows-driver-content
 description: The _BRB_L2CA_ACL_TRANSFER structure describes a buffer to read asynchronous data from, or write asynchronous data to a L2CAP channel.
 old-location: bltooth\_brb_l2ca_acl_transfer.htm
 tech.root: bltooth

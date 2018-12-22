@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IPrintPipelineFilter.InitializeFilter
 title: IPrintPipelineFilter::InitializeFilter
-author: windows-driver-content
 description: The InitializeFilter method initializes a filter.
 old-location: print\iprintpipelinefilter_initializefilter.htm
 tech.root: print

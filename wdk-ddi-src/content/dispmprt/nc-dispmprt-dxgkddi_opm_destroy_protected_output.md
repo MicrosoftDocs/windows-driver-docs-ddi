@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_OPM_DESTROY_PROTECTED_OUTPUT
 title: DXGKDDI_OPM_DESTROY_PROTECTED_OUTPUT
-author: windows-driver-content
 description: The DxgkDdiOPMDestroyProtectedOutput function destroys the given protected output object.
 old-location: display\dxgkddiopmdestroyprotectedoutput.htm
 tech.root: display

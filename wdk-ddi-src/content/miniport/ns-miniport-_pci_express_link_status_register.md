@@ -1,7 +1,6 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_LINK_STATUS_REGISTER
 title: "_PCI_EXPRESS_LINK_STATUS_REGISTER"
-author: windows-driver-content
 description: The PCI_EXPRESS_LINK_STATUS_REGISTER structure describes a PCI Express (PCIe) link status register of a PCIe capability structure.
 old-location: pci\pci_express_link_status_register.htm
 tech.root: PCI

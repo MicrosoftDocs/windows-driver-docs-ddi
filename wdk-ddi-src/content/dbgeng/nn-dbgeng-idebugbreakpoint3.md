@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugBreakpoint3
 title: IDebugBreakpoint3
-author: windows-driver-content
 description: "IDebugBreakpoint3 interface"
 old-location: debugger\idebugbreakpoint3.htm
 tech.root: debugger

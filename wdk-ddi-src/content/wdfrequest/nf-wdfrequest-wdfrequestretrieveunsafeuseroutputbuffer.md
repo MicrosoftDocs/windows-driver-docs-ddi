@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestRetrieveUnsafeUserOutputBuffer
 title: WdfRequestRetrieveUnsafeUserOutputBuffer function
-author: windows-driver-content
 description: The WdfRequestRetrieveUnsafeUserOutputBuffer method retrieves an I/O request's output buffer, if the request's technique for accessing data buffers is neither buffered nor direct I/O.
 old-location: wdf\wdfrequestretrieveunsafeuseroutputbuffer.htm
 tech.root: wdf

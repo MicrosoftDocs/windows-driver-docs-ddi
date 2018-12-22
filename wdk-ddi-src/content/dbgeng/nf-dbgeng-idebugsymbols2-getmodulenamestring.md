@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetModuleNameString
 title: IDebugSymbols2::GetModuleNameString
-author: windows-driver-content
 description: The GetModuleNameString method returns the name of the specified module.
 old-location: debugger\getmodulenamestring.htm
 tech.root: debugger

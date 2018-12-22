@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IMiniportMidiStream
 title: IMiniportMidiStream
-author: windows-driver-content
 description: The IMiniportMidiStream interface represents the MIDI stream that flows through a pin on a MIDI filter.
 old-location: audio\iminiportmidistream.htm
 tech.root: audio

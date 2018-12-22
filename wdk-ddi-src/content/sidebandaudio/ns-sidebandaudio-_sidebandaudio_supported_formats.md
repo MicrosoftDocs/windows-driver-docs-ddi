@@ -1,7 +1,6 @@
 ---
 UID: NS:sidebandaudio._SIDEBANDAUDIO_SUPPORTED_FORMATS
 title: _SIDEBANDAUDIO_SUPPORTED_FORMATS
-author: windows-driver-content
 description: Describes the formats supported by the Audio Endpoint.
 ms.assetid: 3aaefd01-561e-42be-859c-240f1305b266
 ms.date: 09/07/2018

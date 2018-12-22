@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_16
 title: KSPROPERTY_QUALITY
-author: windows-driver-content
 description: 
 old-location: stream\ksproperty_quality.htm
 tech.root: stream

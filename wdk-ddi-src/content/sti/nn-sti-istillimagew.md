@@ -1,7 +1,6 @@
 ---
 UID: NN:sti.IStillImageW
 title: IStillImageW
-author: windows-driver-content
 description: This section describes the methods defined for the IStillImage COM Interface. Method prototypes are contained in Sti.h.
 old-location: image\istillimage_interface_methods.htm
 tech.root: image

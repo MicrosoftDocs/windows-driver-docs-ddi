@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionRequest.Complete
 title: IPrinterExtensionRequest::Complete
-author: windows-driver-content
 description: Completes the extension event.
 old-location: print\iprinterextensionrequest_complete.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_MIRACAST_REPORT_CHUNK_INFO
 title: DXGKCB_MIRACAST_REPORT_CHUNK_INFO
-author: windows-driver-content
 description: Called by the display miniport driver to report info about an encode chunk.
 old-location: display\dxgkcbreportchunkinfo.htm
 tech.root: display

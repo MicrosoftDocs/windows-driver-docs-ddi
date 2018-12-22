@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_WRITE_DEVICE_SPACE
 title: DXGKCB_WRITE_DEVICE_SPACE
-author: windows-driver-content
 description: The DxgkCbWriteDeviceSpace function writes to a device configuration space or the expansion ROM of a display adapter.
 old-location: display\dxgkcbwritedevicespace.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NE:lamp.LAMP_MODE
 title: LAMP_MODE
-author: windows-driver-content
 description: This enumeration contains the operating modes of a lamp device.
 old-location: stream\lamp_mode.htm
 tech.root: stream

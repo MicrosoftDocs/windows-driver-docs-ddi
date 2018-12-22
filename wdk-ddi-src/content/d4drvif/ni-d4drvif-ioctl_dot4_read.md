@@ -1,7 +1,6 @@
 ---
 UID: NI:d4drvif.IOCTL_DOT4_READ
 title: IOCTL_DOT4_READ
-author: windows-driver-content
 description: This topic describes IOCTL_DOT4_READ.
 old-location: print\ioctl_ioctl_dot4_read.htm
 tech.root: print

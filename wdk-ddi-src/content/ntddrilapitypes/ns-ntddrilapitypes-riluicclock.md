@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILUICCLOCK
 title: RILUICCLOCK
-author: windows-driver-content
 description: This structure represents a RILUICCLOCK.
 old-location: netvista\riluicclock.htm
 tech.root: netvista

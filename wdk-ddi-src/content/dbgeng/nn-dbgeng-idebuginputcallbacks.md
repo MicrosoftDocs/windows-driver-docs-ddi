@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugInputCallbacks
 title: IDebugInputCallbacks
-author: windows-driver-content
 description: IDebugInputCallbacks interface
 old-location: debugger\idebuginputcallbacks.htm
 tech.root: debugger

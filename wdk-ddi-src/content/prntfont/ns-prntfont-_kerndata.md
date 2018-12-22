@@ -1,7 +1,6 @@
 ---
 UID: NS:prntfont._KERNDATA
 title: "_KERNDATA"
-author: windows-driver-content
 description: The KERNDATA structure is used for describing printer kerning pairs.
 old-location: print\kerndata.htm
 tech.root: print

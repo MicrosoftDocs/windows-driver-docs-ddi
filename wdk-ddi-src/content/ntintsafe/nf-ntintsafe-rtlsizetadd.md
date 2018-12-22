@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlSizeTAdd
 title: RtlSizeTAdd function
-author: windows-driver-content
 description: Adds two values of type SIZE_T.
 old-location: kernel\rtlsizetadd.htm
 tech.root: kernel

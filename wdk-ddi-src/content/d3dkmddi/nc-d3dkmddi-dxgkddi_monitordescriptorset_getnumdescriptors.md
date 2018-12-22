@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS
 title: DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS
-author: windows-driver-content
 description: The pfnGetNumDescriptors function returns the number of descriptors in a monitor descriptor set.
 old-location: display\dxgk_monitordescriptorset_interface_pfngetnumdescriptors.htm
 ms.assetid: 7bfcef0b-1371-4e3b-b5dc-c4c548625c8f

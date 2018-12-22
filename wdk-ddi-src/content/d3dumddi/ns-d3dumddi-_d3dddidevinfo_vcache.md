@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIDEVINFO_VCACHE
 title: "_D3DDDIDEVINFO_VCACHE"
-author: windows-driver-content
 description: The D3DDDIDEVINFO_VCACHE structure describes the vertex-cache information of a device.
 old-location: display\d3dddidevinfo_vcache.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeReadStateEvent
 title: KeReadStateEvent function
-author: windows-driver-content
 description: The KeReadStateEvent routine returns the current state, signaled or not-signaled, of an event object.
 old-location: kernel\kereadstateevent.htm
 tech.root: kernel

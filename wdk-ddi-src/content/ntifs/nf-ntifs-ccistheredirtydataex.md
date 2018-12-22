@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.CcIsThereDirtyDataEx
 title: CcIsThereDirtyDataEx function
-author: windows-driver-content
 description: The CcIsThereDirtyDataEx routine determines whether a volume contains any files that have dirty data in the system cache.
 old-location: ifsk\ccistheredirtydataex.htm
 tech.root: ifsk

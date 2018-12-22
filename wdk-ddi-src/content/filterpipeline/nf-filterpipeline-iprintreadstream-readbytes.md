@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IPrintReadStream.ReadBytes
 title: IPrintReadStream::ReadBytes
-author: windows-driver-content
 description: The ReadBytes method reads a number of bytes into a buffer.
 old-location: print\iprintreadstream_readbytes.htm
 tech.root: print

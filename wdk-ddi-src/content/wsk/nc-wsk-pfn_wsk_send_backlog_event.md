@@ -1,7 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_SEND_BACKLOG_EVENT
 title: PFN_WSK_SEND_BACKLOG_EVENT
-author: windows-driver-content
 description: The WskSendBacklogEvent event callback function notifies a WSK application when the ideal send backlog size changes for a connection-oriented socket.
 old-location: netvista\wsksendbacklogevent.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:minitape.TapeClassInitialize
 title: TapeClassInitialize function
-author: windows-driver-content
 description: The TapeClassInitialize routine performs much of the driver and device initialization on behalf of a miniclass driver.
 old-location: storage\tapeclassinitialize.htm
 tech.root: storage

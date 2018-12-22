@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.SetIPortableDeviceValuesValue
 title: IPortableDeviceValues::SetIPortableDeviceValuesValue
-author: windows-driver-content
 description: Adds a new IPortableDeviceValues value (type VT_UNKNOWN) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setiportabledevicevaluesvalue.htm
 tech.root: wpd_dk

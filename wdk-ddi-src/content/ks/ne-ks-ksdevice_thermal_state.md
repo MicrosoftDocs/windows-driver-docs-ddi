@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_29
 title: KSDEVICE_THERMAL_STATE
-author: windows-driver-content
 description: A KS-defined enumeration for thermal state changes.
 old-location: stream\ksdevice_thermal_state.htm
 tech.root: stream

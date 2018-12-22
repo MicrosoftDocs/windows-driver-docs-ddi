@@ -1,7 +1,6 @@
 ---
 UID: NS:acpitabl._LPIT
 title: "_LPIT"
-author: windows-driver-content
 description: Defines an LPI ACPI table.
 old-location: acpi\lpit.htm
 tech.root: acpi

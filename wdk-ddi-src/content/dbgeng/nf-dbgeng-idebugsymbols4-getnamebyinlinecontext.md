@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols4.GetNameByInlineContext
 title: IDebugSymbols4::GetNameByInlineContext
-author: windows-driver-content
 description: Gets a name by inline context.
 old-location: debugger\idebugsymbols4_getnamebyinlinecontext.htm
 tech.root: debugger

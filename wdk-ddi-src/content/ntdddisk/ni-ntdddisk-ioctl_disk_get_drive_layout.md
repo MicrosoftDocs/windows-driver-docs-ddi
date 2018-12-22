@@ -1,7 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_GET_DRIVE_LAYOUT
 title: IOCTL_DISK_GET_DRIVE_LAYOUT
-author: windows-driver-content
 description: Returns information about the number of partitions, disk signature, and features of each partition on a disk. (Floppy drivers need not handle this request.).
 old-location: storage\ioctl_disk_get_drive_layout.htm
 tech.root: storage

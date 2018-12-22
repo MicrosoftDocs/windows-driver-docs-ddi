@@ -1,7 +1,6 @@
 ---
 UID: NF:udecxusbendpoint.UdecxUsbEndpointInitSetCallbacks
 title: UdecxUsbEndpointInitSetCallbacks function
-author: windows-driver-content
 description: Sets pointers to UDE client driver-implemented callback functions in the initialization parameters of the simple endpoint to create.
 old-location: buses\udecxusbendpointinitsetcallbacks.htm
 tech.root: usbref

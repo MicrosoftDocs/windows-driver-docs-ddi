@@ -1,7 +1,6 @@
 ---
 UID: NI:usbscan.IOCTL_GET_VERSION
 title: IOCTL_GET_VERSION
-author: windows-driver-content
 description: Returns the version number of the driver.
 old-location: image\ioctl_get_version.htm
 tech.root: image

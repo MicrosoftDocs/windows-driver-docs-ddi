@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KSEVENT_ENTRY_IRP_STORAGE
 title: KSEVENT_ENTRY_IRP_STORAGE macro
-author: windows-driver-content
 description: This macro retrieves a pointer to the KSEVENT_ENTRY structure stored in Irp.
 old-location: stream\ksevent_entry_irp_storage.htm
 tech.root: stream

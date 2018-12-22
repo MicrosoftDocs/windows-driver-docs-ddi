@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RFC6877_464XLAT_OFFLOAD
 title: _NDIS_RFC6877_464XLAT_OFFLOAD
-author: windows-driver-content
 description: The NDIS_RFC6877_464XLAT_OFFLOAD structure contains 464XLAT hardware offload information.
 tech.root: netvista
 ms.assetid: d94bee25-3b7f-43d1-8319-abf41e6e4b3c

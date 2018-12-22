@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugOutputStream
 title: IDebugOutputStream
-author: windows-driver-content
 description: Supports the debug output stream.
 old-location: debugger\idebugoutputstream.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NS:windot11._DOT11_WFD_DEVICE_ENTRY
 title: "_DOT11_WFD_DEVICE_ENTRY"
-author: windows-driver-content
 description: The DOT11_WFD_DEVICE_ENTRY structure contains information about a discovered Wi-Fi Direct (WFD) device, a discovered WFD Group Owner (GO), or or a discovered infrastructure access point.
 old-location: netvista\_dot11_wfd_device_entry.htm
 tech.root: netvista

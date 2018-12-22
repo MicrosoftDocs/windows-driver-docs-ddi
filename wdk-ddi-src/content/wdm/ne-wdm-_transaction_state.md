@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm._TRANSACTION_STATE
 title: "_TRANSACTION_STATE"
-author: windows-driver-content
 description: The TRANSACTION_STATE enumeration defines the states that KTM can assign to a transaction.
 old-location: kernel\transaction_state.htm
 tech.root: kernel

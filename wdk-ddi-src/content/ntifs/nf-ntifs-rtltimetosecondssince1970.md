@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlTimeToSecondsSince1970
 title: RtlTimeToSecondsSince1970 function
-author: windows-driver-content
 description: The RtlTimeToSecondsSince1970 routine converts a given absolute system time value to the elapsed time, in seconds, since the beginning of 1970.
 old-location: ifsk\rtltimetosecondssince1970.htm
 tech.root: ifsk

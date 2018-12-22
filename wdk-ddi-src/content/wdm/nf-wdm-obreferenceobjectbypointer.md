@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ObReferenceObjectByPointer
 title: ObReferenceObjectByPointer function
-author: windows-driver-content
 description: The ObReferenceObjectByPointer routine increments the pointer reference count for a given object.
 old-location: kernel\obreferenceobjectbypointer.htm
 tech.root: kernel

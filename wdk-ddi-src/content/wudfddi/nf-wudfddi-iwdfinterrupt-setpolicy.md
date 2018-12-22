@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFInterrupt.SetPolicy
 title: IWDFInterrupt::SetPolicy
-author: windows-driver-content
 description: The SetPolicy method specifies the interrupt priority, processor affinity, and affinity policy for a specified interrupt.
 old-location: wdf\iwdfinterrupt_setpolicy.htm
 tech.root: wdf

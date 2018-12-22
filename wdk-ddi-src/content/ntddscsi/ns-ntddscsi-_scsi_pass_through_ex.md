@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddscsi._SCSI_PASS_THROUGH_EX
 title: "_SCSI_PASS_THROUGH_EX"
-author: windows-driver-content
 description: The SCSI_PASS_THROUGH_EX structure is used in conjunction with an IOCTL_SCSI_PASS_THROUGH_EX request to instruct the port driver to send an embedded SCSI command to the target device.
 old-location: storage\scsi_pass_through_ex.htm
 tech.root: storage

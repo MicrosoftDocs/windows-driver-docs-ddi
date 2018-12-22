@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasSetPropertyAttributes
 title: wiasSetPropertyAttributes function
-author: windows-driver-content
 description: The wiasSetPropertyAttributes function sets the access flags and valid values for a set of properties.
 old-location: image\wiassetpropertyattributes.htm
 tech.root: image

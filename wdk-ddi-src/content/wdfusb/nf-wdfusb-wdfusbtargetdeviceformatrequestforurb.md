@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceFormatRequestForUrb
 title: WdfUsbTargetDeviceFormatRequestForUrb function
-author: windows-driver-content
 description: The WdfUsbTargetDeviceFormatRequestForUrb method builds an USB request for a specified USB device, using request parameters that are described by a URB, but it does not send the request.
 old-location: wdf\wdfusbtargetdeviceformatrequestforurb.htm
 tech.root: wdf

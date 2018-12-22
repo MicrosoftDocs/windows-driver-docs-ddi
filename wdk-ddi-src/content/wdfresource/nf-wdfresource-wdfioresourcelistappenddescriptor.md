@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfresource.WdfIoResourceListAppendDescriptor
 title: WdfIoResourceListAppendDescriptor function
-author: windows-driver-content
 description: The WdfIoResourceListAppendDescriptor method adds a resource descriptor to the end of a resource requirements list's logical configuration.
 old-location: wdf\wdfioresourcelistappenddescriptor.htm
 tech.root: wdf

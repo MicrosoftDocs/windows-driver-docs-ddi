@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IRegistryKey.EnumerateValueKey
 title: IRegistryKey::EnumerateValueKey
-author: windows-driver-content
 description: The EnumerateValueKey method returns information about a registry entry that contains a value key.
 old-location: audio\iregistrykey_enumeratevaluekey.htm
 tech.root: audio

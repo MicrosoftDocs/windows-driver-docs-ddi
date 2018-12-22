@@ -1,7 +1,6 @@
 ---
 UID: NN:dmusicks.IPositionNotify
 title: IPositionNotify
-author: windows-driver-content
 description: PositionNotify
 old-location: audio\ipositionnotify.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
 title: "_STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR"
-author: windows-driver-content
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to describe the product type of a storage device.
 old-location: storage\storage_medium_product_type_descriptor.htm
 tech.root: storage

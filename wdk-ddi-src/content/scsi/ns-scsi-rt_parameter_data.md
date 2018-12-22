@@ -1,7 +1,6 @@
 ---
 UID: NS:scsi.__unnamed_struct_13
 title: RT_PARAMETER_DATA
-author: windows-driver-content
 description: The RT_PARAMETER_DATA structure contains the parameter data for the report timestamp command.
 old-location: storage\rt_parameter_data.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallbackSelfManagedIo.OnSelfManagedIoCleanup
 title: IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup
-author: windows-driver-content
 description: The OnSelfManagedIoCleanup method releases memory for a device's self-managed I/O operations, after the device is removed.
 old-location: wdf\ipnpcallbackselfmanagedio_onselfmanagediocleanup.htm
 tech.root: wdf

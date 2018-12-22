@@ -1,7 +1,6 @@
 ---
 UID: NC:netdma.DMA_RESUME_HANDLER
 title: DMA_RESUME_HANDLER
-author: windows-driver-content
 description: The ProviderResumeDma function resumes the DMA transfers that are currently suspended on a DMA channel.
 old-location: netvista\providerresumedma.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_SCHEDULING_LOG_ENTRY
 title: _DXGK_SCHEDULING_LOG_ENTRY
-author: windows-driver-content
 description: Contains information about a scheduling log entry.
 ms.assetid: 66e7d724-9605-486a-b02a-62378cf95319
 ms.date: 10/19/2018

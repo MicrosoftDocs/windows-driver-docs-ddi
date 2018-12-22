@@ -1,7 +1,6 @@
 ---
 UID: NC:mrx.PMRX_COMPUTE_NEW_BUFFERING_STATE
 title: PMRX_COMPUTE_NEW_BUFFERING_STATE
-author: windows-driver-content
 description: TheMRxComputeNewBufferingState routine is called by RDBSS to request that the network mini-redirector compute a new buffering state change.
 old-location: ifsk\mrxcomputenewbufferingstate.htm
 tech.root: ifsk

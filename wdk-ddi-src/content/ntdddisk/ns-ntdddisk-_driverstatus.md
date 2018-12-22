@@ -1,7 +1,6 @@
 ---
 UID: NS:ntdddisk._DRIVERSTATUS
 title: "_DRIVERSTATUS"
-author: windows-driver-content
 description: The DRIVERSTATUS structure is used in conjunction with the SENDCMDOUTPARAMS structure and the SMART_SEND_DRIVE_COMMAND request to retrieve data returned by a Self-Monitoring Analysis and Reporting Technology (SMART) command.
 old-location: storage\driverstatus.htm
 tech.root: storage

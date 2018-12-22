@@ -1,7 +1,6 @@
 ---
 UID: NF:rilapi.RIL_ResetModem_V2
 title: RIL_ResetModem_V2 function
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_resetmodem_v2.htm
 tech.root: netvista

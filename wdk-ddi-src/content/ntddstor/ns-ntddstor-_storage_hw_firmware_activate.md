@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_HW_FIRMWARE_ACTIVATE
 title: "_STORAGE_HW_FIRMWARE_ACTIVATE"
-author: windows-driver-content
 description: This structure contains information about the downloaded firmware to activate.
 old-location: storage\storage_hw_firmware_activate.htm
 tech.root: storage

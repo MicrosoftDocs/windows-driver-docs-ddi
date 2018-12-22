@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorscx.SensorsCxSensorCreate
 title: SensorsCxSensorCreate function
-author: windows-driver-content
 description: This function creates an instance of a sensor in the class extension.
 old-location: sensors\sensorscxsensorcreate.htm
 tech.root: sensors

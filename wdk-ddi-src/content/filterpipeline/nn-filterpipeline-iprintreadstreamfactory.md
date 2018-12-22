@@ -1,7 +1,6 @@
 ---
 UID: NN:filterpipeline.IPrintReadStreamFactory
 title: IPrintReadStreamFactory
-author: windows-driver-content
 description: The IPrintReadStreamFactory interface creates a stream reader that a filter can use to access the stream. For example, a filter could use this stream to access the per-user print ticket.
 old-location: print\iprintreadstreamfactory.htm
 tech.root: print

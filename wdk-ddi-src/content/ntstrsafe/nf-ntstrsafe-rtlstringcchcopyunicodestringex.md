@@ -1,7 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCchCopyUnicodeStringEx
 title: RtlStringCchCopyUnicodeStringEx function
-author: windows-driver-content
 description: The RtlStringCchCopyUnicodeStringEx function copies the contents of a UNICODE_STRING structure to a specified destination.
 old-location: kernel\rtlstringcchcopyunicodestringex.htm
 tech.root: kernel

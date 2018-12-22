@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwUnloadDriver
 title: ZwUnloadDriver function
-author: windows-driver-content
 description: The ZwUnloadDriver routine unloads a driver from the system.
 old-location: kernel\zwunloaddriver.htm
 tech.root: kernel

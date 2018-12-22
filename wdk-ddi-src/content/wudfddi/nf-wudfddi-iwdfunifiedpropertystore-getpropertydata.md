@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFUnifiedPropertyStore.GetPropertyData
 title: IWDFUnifiedPropertyStore::GetPropertyData
-author: windows-driver-content
 description: The GetPropertyData method retrieves the current setting for a device property.
 old-location: wdf\iwdfunifiedpropertystore_getpropertydata.htm
 tech.root: wdf

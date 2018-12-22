@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExRegisterCallback
 title: ExRegisterCallback function
-author: windows-driver-content
 description: The ExRegisterCallback routine registers a given callback routine with a given callback object.
 old-location: kernel\exregistercallback.htm
 tech.root: kernel

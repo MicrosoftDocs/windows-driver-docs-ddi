@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILADDRESSTYPE
 title: RILADDRESSTYPE
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riladdresstype_2.htm
 tech.root: netvista

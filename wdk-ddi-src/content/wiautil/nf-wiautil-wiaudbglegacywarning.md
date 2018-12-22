@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgLegacyWarning
 title: wiauDbgLegacyWarning function
-author: windows-driver-content
 description: The wiauDbgLegacyWarning function logs a warning message.
 old-location: image\wiaudbglegacywarning.htm
 tech.root: image

@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_MEDIA_REMOVAL
 title: IOCTL_STORAGE_MEDIA_REMOVAL
-author: windows-driver-content
 description: Locks the device to prevent removal of the media.
 old-location: storage\ioctl_storage_media_removal.htm
 tech.root: storage

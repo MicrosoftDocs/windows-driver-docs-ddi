@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtExtension.GetNumUnnamedArgs
 title: ExtExtension::GetNumUnnamedArgs
-author: windows-driver-content
 description: The GetNumUnnamedArgs method returns the number of unnamed arguments in the command line used to invoke the current extension command.
 old-location: debugger\getnumunnamedargs.htm
 tech.root: debugger

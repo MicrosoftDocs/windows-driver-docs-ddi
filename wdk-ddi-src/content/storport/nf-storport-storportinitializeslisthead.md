@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortInitializeSListHead
 title: StorPortInitializeSListHead function
-author: windows-driver-content
 description: Initializes the head of a Storport managed singly linked list.
 old-location: storage\storportinitializeslisthead.htm
 tech.root: storage

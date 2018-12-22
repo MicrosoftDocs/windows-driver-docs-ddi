@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaElement.get_NamespaceUri
 title: IPrintSchemaElement::get_NamespaceUri
-author: windows-driver-content
 description: Gets the namespace URI value of the &#0034;name&#0034; attribute of this node.
 old-location: print\iprintschemaelement_namespaceuri.htm
 tech.root: print

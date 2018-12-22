@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaCapabilities.GetFeatureByKeyName
 title: IPrintSchemaCapabilities::GetFeatureByKeyName
-author: windows-driver-content
 description: Gets a feature from the PrintCapabilities based on a given key name.
 old-location: print\iprintschemacapabilities_getfeaturebykeyname.htm
 tech.root: print

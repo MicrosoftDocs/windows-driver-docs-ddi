@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugClient7
 title: IDebugClient7
-author: windows-driver-content
 description: The IDebugClient7 interface is reserved for internal use.
 old-location: debugger\idebugclient7.htm
 tech.root: debugger

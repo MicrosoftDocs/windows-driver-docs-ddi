@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlRemoveExtraCreateParameter
 title: FsRtlRemoveExtraCreateParameter function
-author: windows-driver-content
 description: The FsRtlRemoveExtraCreateParameter routine searches an ECP list for an ECP context structure and, if found, detaches it from the ECP list.
 old-location: ifsk\fsrtlremoveextracreateparameter.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.RemoveEngineOptions
 title: IDebugControl3::RemoveEngineOptions
-author: windows-driver-content
 description: The RemoveEngineOptions method turns off some of the engine's options.
 old-location: debugger\removeengineoptions.htm
 tech.root: debugger

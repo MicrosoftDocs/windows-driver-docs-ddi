@@ -1,7 +1,6 @@
 ---
 UID: NF:compstui.GetCPSUIUserData
 title: GetCPSUIUserData function
-author: windows-driver-content
 description: CPSUI's GetCPSUIUserData function retrieves data that was previously stored using the SetCPSUIUserData function.
 old-location: print\getcpsuiuserdata.htm
 tech.root: print

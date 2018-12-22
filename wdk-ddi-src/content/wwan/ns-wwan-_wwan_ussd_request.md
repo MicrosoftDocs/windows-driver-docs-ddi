@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_USSD_REQUEST
 title: "_WWAN_USSD_REQUEST"
-author: windows-driver-content
 description: The WWAN_USSD_REQUEST structure describes an Unstructured Supplementary Service Data (USSD) request.
 old-location: netvista\wwan_ussd_request.htm
 tech.root: netvista

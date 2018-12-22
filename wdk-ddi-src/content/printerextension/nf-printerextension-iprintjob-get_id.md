@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintJob.get_Id
 title: IPrintJob::get_Id
-author: windows-driver-content
 description: Gets the print job identifier (ID).
 old-location: print\iprintjob_id.htm
 tech.root: print

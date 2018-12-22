@@ -1,7 +1,6 @@
 ---
 UID: NS:pep_x._PEP_WORK_IDLE_STATE
 title: "_PEP_WORK_IDLE_STATE"
-author: windows-driver-content
 description: The PEP_WORK_IDLE_STATE structure contains a request to transition a component to an Fx power state.
 old-location: kernel\pep_work_idle_state.htm
 tech.root: kernel

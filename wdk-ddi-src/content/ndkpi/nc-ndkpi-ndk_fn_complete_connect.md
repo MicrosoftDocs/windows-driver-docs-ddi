@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_COMPLETE_CONNECT
 title: NDK_FN_COMPLETE_CONNECT
-author: windows-driver-content
 description: The NdkCompleteConnect (NDK_FN_COMPLETE_CONNECT) function completes an asynchronous connection request.
 old-location: netvista\ndk_fn_complete_connect.htm
 tech.root: netvista

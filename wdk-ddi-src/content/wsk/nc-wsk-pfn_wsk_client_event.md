@@ -1,7 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_CLIENT_EVENT
 title: PFN_WSK_CLIENT_EVENT
-author: windows-driver-content
 description: The WskClientEvent event callback function notifies a WSK application about events that are not specific to a particular socket.
 old-location: netvista\wskclientevent.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_USSD_REQUEST
 title: "_NDIS_WWAN_USSD_REQUEST"
-author: windows-driver-content
 description: The NDIS_WWAN_USSD_EVENT structure represents an Unstructured Supplementary Service Data (USSD) NDIS request.
 old-location: netvista\ndis_wwan_ussd_request.htm
 tech.root: netvista

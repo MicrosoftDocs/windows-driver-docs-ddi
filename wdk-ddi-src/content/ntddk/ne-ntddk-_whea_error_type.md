@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddk._WHEA_ERROR_TYPE
 title: "_WHEA_ERROR_TYPE"
-author: windows-driver-content
 description: The WHEA_ERROR_TYPE enumeration defines the different types of hardware components that can report a hardware error.
 old-location: whea\whea_error_type.htm
 tech.root: whea

@@ -1,7 +1,6 @@
 ---
 UID: NE:iscsicfg.__unnamed_enum_0
 title: ISCSI_NIC_LINKSTATE
-author: windows-driver-content
 description: The ISCSI_NIC_LINKSTATE enumeration indicates whether a port is connected to the network or not.
 old-location: storage\iscsi_nic_linkstate.htm
 tech.root: storage

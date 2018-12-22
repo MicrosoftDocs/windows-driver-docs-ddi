@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortAllocateBuffer
 title: VideoPortAllocateBuffer function
-author: windows-driver-content
 description: The VideoPortAllocateBuffer function is obsolete in Windows 2000 and later. In its place, video miniport drivers should instead use VideoPortAllocatePool. VideoPortAllocateBuffer allocates a buffer of paged pool memory.
 old-location: display\videoportallocatebuffer.htm
 tech.root: display

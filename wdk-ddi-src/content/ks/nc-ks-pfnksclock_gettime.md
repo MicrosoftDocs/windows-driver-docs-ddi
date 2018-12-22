@@ -1,7 +1,6 @@
 ---
 UID: NC:ks.PFNKSCLOCK_GETTIME
 title: PFNKSCLOCK_GETTIME
-author: windows-driver-content
 description: The routine gets system time.KStrClockGetTime is a system-supplied routine that retrieves the current system time.KStrClockGetPhysicalTime is a system-supplied routine that retrieves the current system time minus any suspended delta.
 old-location: stream\kstrclockgettime.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.CcScheduleReadAheadEx
 title: CcScheduleReadAheadEx function
-author: windows-driver-content
 description: The CcScheduleReadAheadEx routine performs read-ahead (also called &#0034;lazy read&#0034;) on a cached file. The I/O byte count for the operation is charged to the issuing thread.
 old-location: ifsk\ccschedulereadaheadex.htm
 tech.root: ifsk

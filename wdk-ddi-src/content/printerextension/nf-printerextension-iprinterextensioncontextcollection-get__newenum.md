@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionContextCollection.get__NewEnum
 title: IPrinterExtensionContextCollection::get__NewEnum method
-author: windows-driver-content
 description: Gets a pointer to the enumerants of IPrinterExtensionContextCollection objects.
 old-location: print\iprinterextensioncontextcollection_newenum.htm
 tech.root: print

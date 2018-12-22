@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.SetEffectiveProcessorType
 title: IDebugControl::SetEffectiveProcessorType
-author: windows-driver-content
 description: The SetEffectiveProcessorType method sets the effective processor type of the processor of the computer that is running the target.
 old-location: debugger\seteffectiveprocessortype.htm
 tech.root: debugger

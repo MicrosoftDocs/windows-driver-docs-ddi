@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlInitializeOplock
 title: FsRtlInitializeOplock function
-author: windows-driver-content
 description: FsRtlInitializeOplock initializes an opportunistic lock (oplock) pointer.
 old-location: ifsk\fsrtlinitializeoplock.htm
 tech.root: ifsk

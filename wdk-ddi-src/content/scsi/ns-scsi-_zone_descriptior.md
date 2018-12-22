@@ -1,7 +1,6 @@
 ---
 UID: NS:scsi._ZONE_DESCRIPTIOR
 title: "_ZONE_DESCRIPTIOR"
-author: windows-driver-content
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\zone_descriptior.htm
 tech.root: storage

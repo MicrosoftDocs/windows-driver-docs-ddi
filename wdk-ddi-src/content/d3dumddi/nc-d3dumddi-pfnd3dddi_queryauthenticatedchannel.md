@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_QUERYAUTHENTICATEDCHANNEL
 title: PFND3DDDI_QUERYAUTHENTICATEDCHANNEL
-author: windows-driver-content
 description: The QueryAuthenticatedChannel function queries an authenticated channel for capability and state information.
 old-location: display\queryauthenticatedchannel.htm
 tech.root: display

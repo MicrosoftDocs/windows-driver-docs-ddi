@@ -1,7 +1,6 @@
 ---
 UID: NF:scsiwmi.ScsiPortWmiGetInstanceName
 title: ScsiPortWmiGetInstanceName function
-author: windows-driver-content
 description: The ScsiPortWmiGetInstanceName routine returns a pointer to the instance name associated with the indicated the Windows Management Instrumentation (WMI) SCSI Request Block (SRB).
 old-location: storage\scsiportwmigetinstancename.htm
 tech.root: storage

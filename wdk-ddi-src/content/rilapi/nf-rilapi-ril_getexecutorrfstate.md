@@ -1,7 +1,6 @@
 ---
 UID: NF:rilapi.RIL_GetExecutorRFState
 title: RIL_GetExecutorRFState function
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getexecutorrfstate.htm
 tech.root: netvista

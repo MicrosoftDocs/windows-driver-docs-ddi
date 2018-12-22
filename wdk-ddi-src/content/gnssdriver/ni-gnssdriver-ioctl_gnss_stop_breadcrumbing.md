@@ -1,7 +1,6 @@
 ---
 UID: NI:gnssdriver.IOCTL_GNSS_STOP_BREADCRUMBING
 title: IOCTL_GNSS_STOP_BREADCRUMBING
-author: windows-driver-content
 description: The IOCTL_GNSS_STOP_BREADCRUMBING control code is used to stop breadcrumbing.
 old-location: gnss\ioctl_gnss_stop_breadcrumbing.htm
 tech.root: gnss

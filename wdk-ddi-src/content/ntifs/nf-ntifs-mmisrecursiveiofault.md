@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.MmIsRecursiveIoFault
 title: MmIsRecursiveIoFault function
-author: windows-driver-content
 description: The MmIsRecursiveIoFault routine determines whether the current page fault is occurring during an I/O operation.
 old-location: ifsk\mmisrecursiveiofault.htm
 tech.root: ifsk

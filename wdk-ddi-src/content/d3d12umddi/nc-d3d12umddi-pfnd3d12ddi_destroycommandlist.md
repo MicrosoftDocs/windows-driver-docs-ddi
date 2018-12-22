@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYCOMMANDLIST
 title: PFND3D12DDI_DESTROYCOMMANDLIST
-author: windows-driver-content
 description: Destroys a command list.
 ms.assetid: 275e31b7-359b-447d-90c7-7d69e6234645
 ms.date: 10/19/2018

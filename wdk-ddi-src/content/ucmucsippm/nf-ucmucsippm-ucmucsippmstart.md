@@ -1,7 +1,6 @@
 ---
 UID: NF:ucmucsippm.UcmUcsiPpmStart
 title: UcmUcsiPpmStart function
-author: windows-driver-content
 tech.root: usbref
 description: Instructs the class extension to start sending requests to the client driver.
 ms.assetid: b0899727-573a-4cd6-b1b4-3ca6b682bffa

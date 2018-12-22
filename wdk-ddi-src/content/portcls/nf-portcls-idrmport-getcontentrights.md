@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IDrmPort.GetContentRights
 title: IDrmPort::GetContentRights
-author: windows-driver-content
 description: The GetContentRights method retrieves the DRM content rights that are assigned to a stream that is identified by a content ID.
 tech.root: audio
 ms.assetid: 9d6ed9a9-9d5e-4af6-b9f8-49431ad7d854

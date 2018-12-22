@@ -1,7 +1,6 @@
 ---
 UID: NS:charging._POWERSOURCEUPDATEEX
 title: "_POWERSOURCEUPDATEEX"
-author: windows-driver-content
 description: This structure is for internal use only.
 old-location: battery\powersourceupdateex.htm
 tech.root: battery

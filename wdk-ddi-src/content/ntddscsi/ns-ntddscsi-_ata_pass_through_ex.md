@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddscsi._ATA_PASS_THROUGH_EX
 title: "_ATA_PASS_THROUGH_EX"
-author: windows-driver-content
 description: The ATA_PASS_THROUGH_EX structure is used in conjunction with an IOCTL_ATA_PASS_THROUGH request to instruct the port driver to send an embedded ATA command to the target device.
 old-location: storage\ata_pass_through_ex.htm
 tech.root: storage

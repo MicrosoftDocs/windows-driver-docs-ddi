@@ -1,7 +1,6 @@
 ---
 UID: NS:sensorsdriversutils._I2C_REQUEST
 title: _I2C_REQUEST
-author: windows-driver-content
 description: An I2C request.
 ms.assetid: 6c58320f-2dee-43a2-acbf-f0233f3eb6fd
 ms.date: 04/19/2018

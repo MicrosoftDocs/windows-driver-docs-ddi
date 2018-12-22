@@ -1,7 +1,6 @@
 ---
 UID: NF:prnasntp.IPrintAsyncNotifyServerReferral.GetServerReferral
 title: IPrintAsyncNotifyServerReferral::GetServerReferral
-author: windows-driver-content
 description: 
 old-location: print\iprintasyncnotifyserverreferral_getserverreferral.htm
 tech.root: print

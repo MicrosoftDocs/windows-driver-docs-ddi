@@ -1,7 +1,6 @@
 ---
 UID: NF:ucmmanager.UcmConnectorPdSourceCaps
 title: UcmConnectorPdSourceCaps function
-author: windows-driver-content
 description: Notifies the USB connector manager framework extension (UcmCx) with the power source capabilities of the connector.
 old-location: buses\ucmconnectorpdsourcecaps.htm
 tech.root: usbref

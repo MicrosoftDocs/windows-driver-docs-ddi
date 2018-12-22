@@ -1,7 +1,6 @@
 ---
 UID: NS:spb.SPB_TRANSFER_LIST_ENTRY
 title: SPB_TRANSFER_LIST_ENTRY
-author: windows-driver-content
 description: The SPB_TRANSFER_LIST_ENTRY structure describes a single transfer in an I/O transfer sequence.
 old-location: spb\spb_transfer_list_entry.htm
 tech.root: SPB

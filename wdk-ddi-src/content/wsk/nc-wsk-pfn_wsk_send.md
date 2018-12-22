@@ -1,7 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_SEND
 title: PFN_WSK_SEND
-author: windows-driver-content
 description: The WskSend function sends data over a connection-oriented or stream socket to a remote transport address.
 old-location: netvista\wsksend.htm
 tech.root: netvista

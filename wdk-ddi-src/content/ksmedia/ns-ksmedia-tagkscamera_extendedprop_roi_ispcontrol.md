@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL
 title: tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL
-author: windows-driver-content
 description: This structure contains information for an ROI ISP control.
 old-location: stream\kscamera_extendedprop_roi_ispcontrol.htm
 tech.root: stream

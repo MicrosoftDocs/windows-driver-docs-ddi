@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_OFFER_PRIORITY
 title: "_D3DKMT_OFFER_PRIORITY"
-author: windows-driver-content
 description: Indicates the importance of video memory resources that the user-mode display driver offers for reuse.
 old-location: display\d3dkmt_offer_priority.htm
 ms.assetid: fec15098-3130-42d6-b889-579ecab6f162

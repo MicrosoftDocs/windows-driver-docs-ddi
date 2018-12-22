@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasWritePropGuid
 title: wiasWritePropGuid function
-author: windows-driver-content
 description: The wiasWritePropGuid function writes a single GUID property value to a WIA item.
 old-location: image\wiaswritepropguid.htm
 tech.root: image

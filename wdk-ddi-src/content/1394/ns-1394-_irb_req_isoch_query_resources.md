@@ -1,7 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_ISOCH_QUERY_RESOURCES
 title: "_IRB_REQ_ISOCH_QUERY_RESOURCES"
-author: windows-driver-content
 description: This structure contains the fields necessary to carry out a IsochQueryResources request.
 old-location: ieee\irb_req_isoch_query_resources.htm
 tech.root: IEEE

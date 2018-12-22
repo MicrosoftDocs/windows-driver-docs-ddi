@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfWdmDeviceGetWdfDeviceHandle
 title: WdfWdmDeviceGetWdfDeviceHandle function
-author: windows-driver-content
 description: The WdfWdmDeviceGetWdfDeviceHandle method returns a handle to the framework device object that is associated with a specified WDM device object.
 old-location: wdf\wdfwdmdevicegetwdfdevicehandle.htm
 tech.root: wdf

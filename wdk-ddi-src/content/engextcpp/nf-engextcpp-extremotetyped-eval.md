@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.Eval
 title: ExtRemoteTyped::Eval
-author: windows-driver-content
 description: The Eval method returns typed data that is the result of evaluating an expression.
 old-location: debugger\extremotetyped_eval.htm
 tech.root: debugger

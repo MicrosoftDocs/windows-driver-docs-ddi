@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_USSD_SESSION_STATE
 title: "_WWAN_USSD_SESSION_STATE"
-author: windows-driver-content
 description: The WWAN_USSD_SESSION_STATE enumeration lists the different types of USSD session states.
 old-location: netvista\wwan_ussd_session_state.htm
 tech.root: netvista

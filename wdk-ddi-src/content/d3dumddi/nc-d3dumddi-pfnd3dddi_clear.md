@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CLEAR
 title: PFND3DDDI_CLEAR
-author: windows-driver-content
 description: The Clear function performs hardware-assisted clearing on the rendering target, depth buffer, or stencil buffer.
 old-location: display\clear.htm
 tech.root: display

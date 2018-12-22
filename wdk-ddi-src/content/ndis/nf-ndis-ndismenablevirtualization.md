@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMEnableVirtualization
 title: NdisMEnableVirtualization function
-author: windows-driver-content
 description: A miniport driver calls the NdisMEnableVirtualization function during the creation or deletion of a NIC switch on the network adapter.
 old-location: netvista\ndismenablevirtualization.htm
 tech.root: netvista

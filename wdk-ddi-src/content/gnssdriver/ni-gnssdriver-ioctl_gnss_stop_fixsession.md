@@ -1,7 +1,6 @@
 ---
 UID: NI:gnssdriver.IOCTL_GNSS_STOP_FIXSESSION
 title: IOCTL_GNSS_STOP_FIXSESSION
-author: windows-driver-content
 description: The IOCTL_GNSS_STOP_FIXSESSION control code is used by the GNSS adapter to stop an active fix session.
 old-location: gnss\ioctl_gnss_stop_fixsession.htm
 tech.root: gnss

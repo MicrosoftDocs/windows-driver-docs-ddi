@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KdPrint
 title: KdPrint macro
-author: windows-driver-content
 description: The KdPrint macro sends a message to the kernel debugger.
 old-location: devtest\kdprint.htm
 tech.root: devtest

@@ -1,7 +1,6 @@
 ---
 UID: NS:ksi.__unnamed_struct_0
 title: KSIDEFAULTCLOCK
-author: windows-driver-content
 description: 
 old-location: stream\ksidefaultclock.htm
 tech.root: stream

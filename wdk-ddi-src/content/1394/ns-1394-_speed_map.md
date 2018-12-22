@@ -1,7 +1,6 @@
 ---
 UID: NS:1394._SPEED_MAP
 title: "_SPEED_MAP"
-author: windows-driver-content
 description: The SPEED_MAP structure is stores a IEEE 1394 bus speed map.
 old-location: ieee\speed_map.htm
 tech.root: IEEE

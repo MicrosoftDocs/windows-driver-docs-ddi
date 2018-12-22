@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMDisablePDEV
 title: OEMDisablePDEV function
-author: windows-driver-content
 description: OEMDisablePDEV function
 old-location: print\oemdisablepdev.htm
 tech.root: print

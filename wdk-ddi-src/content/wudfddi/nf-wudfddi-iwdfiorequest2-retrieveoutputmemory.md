@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.RetrieveOutputMemory
 title: IWDFIoRequest2::RetrieveOutputMemory
-author: windows-driver-content
 description: The RetrieveOutputMemory method retrieves the IWDFMemory interface of a framework memory object that represents an I/O request's output buffer.
 old-location: wdf\iwdfiorequest2_retrieveoutputmemory.htm
 tech.root: wdf

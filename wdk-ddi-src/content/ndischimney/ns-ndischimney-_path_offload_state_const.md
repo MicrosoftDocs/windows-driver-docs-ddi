@@ -1,7 +1,6 @@
 ---
 UID: NS:ndischimney._PATH_OFFLOAD_STATE_CONST
 title: "_PATH_OFFLOAD_STATE_CONST"
-author: windows-driver-content
 description: The PATH_OFFLOAD_STATE_CONST structure contains the constant variables of a path state object.
 old-location: netvista\path_offload_state_const.htm
 tech.root: netvista

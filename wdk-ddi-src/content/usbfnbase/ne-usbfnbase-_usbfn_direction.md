@@ -1,7 +1,6 @@
 ---
 UID: NE:usbfnbase._USBFN_DIRECTION
 title: "_USBFN_DIRECTION"
-author: windows-driver-content
 description: Defines the USB data transfer direction types.
 old-location: buses\usbfn_direction.htm
 tech.root: usbref

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExInitializeResourceLite
 title: ExInitializeResourceLite function
-author: windows-driver-content
 description: The ExInitializeResourceLite routine initializes a resource variable.
 old-location: kernel\exinitializeresourcelite.htm
 tech.root: kernel

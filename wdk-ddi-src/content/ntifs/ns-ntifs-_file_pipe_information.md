@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._FILE_PIPE_INFORMATION
 title: "_FILE_PIPE_INFORMATION"
-author: windows-driver-content
 description: The FILE_PIPE_INFORMATION structure contains information about a named pipe that is not specific to the local or the remote end of the pipe.
 old-location: ifsk\file_pipe_information.htm
 tech.root: ifsk

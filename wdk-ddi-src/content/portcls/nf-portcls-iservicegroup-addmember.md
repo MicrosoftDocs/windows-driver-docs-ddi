@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IServiceGroup.AddMember
 title: IServiceGroup::AddMember
-author: windows-driver-content
 description: The AddMember method adds a member to the service group.
 old-location: audio\iservicegroup_addmember.htm
 tech.root: audio

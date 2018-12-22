@@ -1,7 +1,6 @@
 ---
 UID: NS:dot11wdi._WDI_TX_COMPLETE_DATA
 title: "_WDI_TX_COMPLETE_DATA"
-author: windows-driver-content
 description: The WDI_TX_COMPLETE_DATA structure defines TX completion data.
 old-location: netvista\wdi_tx_complete_data.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltOplockFsctrlEx
 title: FltOplockFsctrlEx function
-author: windows-driver-content
 description: The FltOplockFsctrlEx routine performs various opportunistic lock (oplock) operations on behalf of a minifilter driver.
 old-location: ifsk\fltoplockfsctrlex.htm
 tech.root: ifsk

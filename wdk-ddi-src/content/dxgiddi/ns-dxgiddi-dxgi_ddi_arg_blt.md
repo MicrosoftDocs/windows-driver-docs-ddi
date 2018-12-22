@@ -1,7 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_ARG_BLT
 title: DXGI_DDI_ARG_BLT
-author: windows-driver-content
 description: The DXGI_DDI_ARG_BLT structure describes the parameters of a bit-block transfer (bitblt).
 old-location: display\dxgi_ddi_arg_blt.htm
 tech.root: display

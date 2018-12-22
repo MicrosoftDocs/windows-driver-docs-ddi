@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoRemoveShareAccess
 title: IoRemoveShareAccess function
-author: windows-driver-content
 description: The IoRemoveShareAccess routine removes the access and share-access information for a given open instance of a file object.
 old-location: kernel\ioremoveshareaccess.htm
 tech.root: kernel

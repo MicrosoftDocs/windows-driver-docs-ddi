@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlOemStringToUnicodeString
 title: RtlOemStringToUnicodeString function
-author: windows-driver-content
 description: The RtlOemStringToUnicodeString routine translates a given source string into a null-terminated Unicode string using the current system OEM code page.
 old-location: ifsk\rtloemstringtounicodestring.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.StartSymbolMatch
 title: IDebugSymbols::StartSymbolMatch
-author: windows-driver-content
 description: The StartSymbolMatch method initializes a search for symbols whose names match a given pattern.
 old-location: debugger\startsymbolmatch.htm
 tech.root: debugger

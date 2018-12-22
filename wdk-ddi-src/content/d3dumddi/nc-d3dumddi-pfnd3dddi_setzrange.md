@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETZRANGE
 title: PFND3DDDI_SETZRANGE
-author: windows-driver-content
 description: The SetZRange function informs the driver about the range of z values.
 old-location: display\setzrange.htm
 tech.root: display

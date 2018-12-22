@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_DESTROYHWCONTEXT
 title: "_D3DDDICB_DESTROYHWCONTEXT"
-author: windows-driver-content
 description: A structure that holds information to destroy a hardware context.
 old-location: display\d3dddicb_destroyhwcontext.htm
 tech.root: display

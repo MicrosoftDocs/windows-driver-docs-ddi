@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_GET_STATS
 title: IOCTL_SERIAL_GET_STATS
-author: windows-driver-content
 description: The IOCTL_SERIAL_GET_STATS request returns information about the performance of a serial controller.
 old-location: serports\ioctl_serial_get_stats.htm
 tech.root: serports

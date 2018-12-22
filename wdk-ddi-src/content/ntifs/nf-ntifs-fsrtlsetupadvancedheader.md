@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlSetupAdvancedHeader
 title: FsRtlSetupAdvancedHeader function
-author: windows-driver-content
 description: The FsRtlSetupAdvancedHeader macro is used by file systems to initialize an FSRTL_ADVANCED_FCB_HEADER structure for use with filter contexts.
 old-location: ifsk\fsrtlsetupadvancedheader.htm
 tech.root: ifsk

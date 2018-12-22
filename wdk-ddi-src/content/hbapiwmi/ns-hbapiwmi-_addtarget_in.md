@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._AddTarget_IN
 title: "_AddTarget_IN"
-author: windows-driver-content
 description: The AddPort_IN structure is used by a WMI client to deliver the input parameter data of the AddTarget WMI method to the HBA miniport driver.
 old-location: storage\addtarget_in.htm
 tech.root: storage

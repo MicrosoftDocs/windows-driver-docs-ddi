@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortAllocatePool
 title: StorPortAllocatePool function
-author: windows-driver-content
 description: The StorPortAllocatePool routine allocates a block of non-contiguous, non-paged pool memory.
 old-location: storage\storportallocatepool.htm
 tech.root: storage

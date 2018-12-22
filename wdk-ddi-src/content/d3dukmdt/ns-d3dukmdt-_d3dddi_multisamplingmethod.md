@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_MULTISAMPLINGMETHOD
 title: "_D3DDDI_MULTISAMPLINGMETHOD"
-author: windows-driver-content
 description: The D3DDDI_MULTISAMPLINGMETHOD structure describes a multiple-sampling method.
 old-location: display\d3dddi_multisamplingmethod.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltPrepareComplete
 title: FltPrepareComplete function
-author: windows-driver-content
 description: The FltPrepareComplete routine acknowledges a TRANSACTION_NOTIFY_PREPARE notification.
 old-location: ifsk\fltpreparecomplete.htm
 tech.root: ifsk

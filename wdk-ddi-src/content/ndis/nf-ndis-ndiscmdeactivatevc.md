@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisCmDeactivateVc
 title: NdisCmDeactivateVc function
-author: windows-driver-content
 description: NdisCmDeactivateVc notifies NDIS and the underlying miniport driver that there will be no further transfers on a particular active VC.
 old-location: netvista\ndiscmdeactivatevc.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_OPM_CONFIGURE_PARAMETERS
 title: IDDCX_OPM_CONFIGURE_PARAMETERS
-author: windows-driver-content
 description: Gives information about the OPM configure parameters.
 old-location: display\iddcx_opm_configure_parameters.htm
 tech.root: display

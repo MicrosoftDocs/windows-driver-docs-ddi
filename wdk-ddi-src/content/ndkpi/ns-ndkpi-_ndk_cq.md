@@ -1,7 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_CQ
 title: "_NDK_CQ"
-author: windows-driver-content
 description: The NDK_CQ structure specifies the attributes of an NDK completion queue (CQ) object.
 old-location: netvista\ndk_cq.htm
 tech.root: netvista

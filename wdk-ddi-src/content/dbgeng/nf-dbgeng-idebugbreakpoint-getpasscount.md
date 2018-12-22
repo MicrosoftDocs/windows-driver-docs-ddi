@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.GetPassCount
 title: IDebugBreakpoint::GetPassCount
-author: windows-driver-content
 description: The GetPassCount method returns the number of times that the target was originally required to reach the breakpoint location before the breakpoint is triggered.
 old-location: debugger\getpasscount.htm
 tech.root: debugger

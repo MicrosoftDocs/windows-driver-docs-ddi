@@ -1,7 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_SendLIRR
 title: HBA_SendLIRR function
-author: windows-driver-content
 description: The HBA_SendLIRR routine registers or de-registers a local (source) port to receive link incident records (LIR) from a remote (destination) port.
 old-location: storage\hba_sendlirr.htm
 tech.root: storage

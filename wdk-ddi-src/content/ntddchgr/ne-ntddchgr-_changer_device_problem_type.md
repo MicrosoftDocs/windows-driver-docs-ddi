@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddchgr._CHANGER_DEVICE_PROBLEM_TYPE
 title: "_CHANGER_DEVICE_PROBLEM_TYPE"
-author: windows-driver-content
 description: The CHANGER_DEVICE_PROBLEM_TYPE data type contains the values returned by the ChangerPerformDiagnostics routine.
 old-location: storage\changer_device_problem_type.htm
 tech.root: storage

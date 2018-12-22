@@ -1,7 +1,6 @@
 ---
 UID: NC:mrx.PMRX_FORCECLOSED_CALLDOWN
 title: PMRX_FORCECLOSED_CALLDOWN
-author: windows-driver-content
 description: The MRxForceClosed routine is called by RDBSS to request that a network mini-redirector force a close. This routine is called when the condition of the SRV_OPEN structure is not good or the SRV_OPEN structure is marked as closed.
 old-location: ifsk\mrxforceclosed.htm
 tech.root: ifsk

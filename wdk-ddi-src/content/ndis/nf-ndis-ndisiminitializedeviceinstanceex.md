@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisIMInitializeDeviceInstanceEx
 title: NdisIMInitializeDeviceInstanceEx function
-author: windows-driver-content
 description: The NdisIMInitializeDeviceInstanceEx function initiates the initialization operation for a virtual miniport and optionally sets up state information about the virtual miniport for subsequently bound protocol drivers.
 old-location: netvista\ndisiminitializedeviceinstanceex.htm
 tech.root: netvista

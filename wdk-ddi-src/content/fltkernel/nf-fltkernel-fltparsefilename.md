@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltParseFileName
 title: FltParseFileName function
-author: windows-driver-content
 description: FltParseFileName parses the extension, stream, and final component from a file name string.
 old-location: ifsk\fltparsefilename.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortGetBusData
 title: StorPortGetBusData function
-author: windows-driver-content
 description: The StorPortGetBusData routine retrieves the bus-specific configuration information necessary to initialize the HBA.
 old-location: storage\storportgetbusdata.htm
 tech.root: storage

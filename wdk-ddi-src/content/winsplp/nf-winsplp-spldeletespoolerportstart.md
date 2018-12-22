@@ -1,7 +1,6 @@
 ---
 UID: NF:winsplp.SplDeleteSpoolerPortStart
 title: SplDeleteSpoolerPortStart function
-author: windows-driver-content
 description: 
 old-location: print\spldeletespoolerportstart.htm
 tech.root: print

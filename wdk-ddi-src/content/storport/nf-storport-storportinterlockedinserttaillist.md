@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortInterlockedInsertTailList
 title: StorPortInterlockedInsertTailList function
-author: windows-driver-content
 description: The StorPortInterlockedInsertTailList routine atomically inserts an entry at the end of a doubly linked list of STOR_LIST_ENTRY structures.
 old-location: storage\storportinterlockedinserttaillist.htm
 tech.root: storage

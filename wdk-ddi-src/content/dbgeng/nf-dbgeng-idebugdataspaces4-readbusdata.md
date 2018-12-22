@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.ReadBusData
 title: IDebugDataSpaces4::ReadBusData
-author: windows-driver-content
 description: The ReadBusData method reads data from a system bus.
 old-location: debugger\readbusdata.htm
 tech.root: debugger

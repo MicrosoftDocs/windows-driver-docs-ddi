@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsFilterFactoryGetFirstChildFilter
 title: KsFilterFactoryGetFirstChildFilter function
-author: windows-driver-content
 description: The KsFilterFactoryGetFirstChildFilter function returns the first instantiated filter created by FilterFactory.
 old-location: stream\ksfilterfactorygetfirstchildfilter.htm
 tech.root: stream

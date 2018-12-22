@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoStartPacket
 title: IoStartPacket function
-author: windows-driver-content
 description: The IoStartPacket routine calls the driver's StartIo routine with the given IRP or inserts the IRP into the device queue associated with the given device object if the device is already busy.
 old-location: kernel\iostartpacket.htm
 tech.root: kernel

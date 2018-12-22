@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExDeleteResourceLite
 title: ExDeleteResourceLite function
-author: windows-driver-content
 description: The ExDeleteResourceLite routine deletes a given resource from the system's resource list.
 old-location: kernel\exdeleteresourcelite.htm
 tech.root: kernel

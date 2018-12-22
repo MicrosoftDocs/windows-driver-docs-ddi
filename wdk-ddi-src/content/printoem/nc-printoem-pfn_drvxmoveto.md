@@ -1,7 +1,6 @@
 ---
 UID: NC:printoem.PFN_DrvXMoveTo
 title: PFN_DrvXMoveTo
-author: windows-driver-content
 description: The DrvXMoveTo function is obsolete.
 old-location: print\drvxmoveto.htm
 tech.root: print

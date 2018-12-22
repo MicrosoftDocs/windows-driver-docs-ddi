@@ -1,7 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES
 title: DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES
-author: windows-driver-content
 description: Describes a list of resources to rotate.
 old-location: display\dxgi_ddi_arg_rotate_resource_identities.htm
 tech.root: display

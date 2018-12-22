@@ -1,7 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_CONNECTOR
 title: "_NDK_CONNECTOR"
-author: windows-driver-content
 description: The NDK_CONNECTOR structure specifies the attributes of an NDK connector object.
 old-location: netvista\ndk_connector.htm
 tech.root: netvista

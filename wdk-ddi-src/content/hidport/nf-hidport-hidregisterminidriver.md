@@ -1,7 +1,6 @@
 ---
 UID: NF:hidport.HidRegisterMinidriver
 title: HidRegisterMinidriver function
-author: windows-driver-content
 description: The HidRegisterMinidriver routine is called by HID minidrivers, during their initialization, to register with the HID class driver.
 old-location: hid\hidregisterminidriver.htm
 tech.root: hid

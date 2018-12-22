@@ -1,7 +1,6 @@
 ---
 UID: NS:dbgeng._STACK_SYM_FRAME_INFO
 title: "_STACK_SYM_FRAME_INFO"
-author: windows-driver-content
 description: Defines stack source information for an extended stack frame.
 old-location: debugger\stack_sym_frame_info.htm
 tech.root: debugger

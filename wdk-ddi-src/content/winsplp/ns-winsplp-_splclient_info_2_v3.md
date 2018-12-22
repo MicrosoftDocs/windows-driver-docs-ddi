@@ -1,7 +1,6 @@
 ---
 UID: NS:winsplp._SPLCLIENT_INFO_2_V3
 title: "_SPLCLIENT_INFO_2_V3"
-author: windows-driver-content
 description: 
 old-location: print\splclient_info_2_longhorn.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvUnInitializeWia
 title: IWiaMiniDrv::drvUnInitializeWia
-author: windows-driver-content
 description: The IWiaMiniDrv::drvUnInitializeWia method releases resources held by the minidriver.
 old-location: image\iwiaminidrv_drvuninitializewia.htm
 tech.root: image

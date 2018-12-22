@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.WriteTypedDataVirtual
 title: IDebugSymbols2::WriteTypedDataVirtual
-author: windows-driver-content
 description: The WriteTypedDataVirtual method writes data to the target's virtual address space. The number of bytes written is the size of the specified type.
 old-location: debugger\writetypeddatavirtual.htm
 tech.root: debugger

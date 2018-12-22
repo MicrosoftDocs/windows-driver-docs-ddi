@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_BASE_STATIONS_INFO_REQ
 title: "_NDIS_WWAN_BASE_STATIONS_INFO_REQ"
-author: windows-driver-content
 description: The NDIS_WWAN_BASE_STATIONS_INFO_REQ structure is used in OID_WWAN_BASE_STATIONS_INFO query requests to configure aspects of cellular base station information to be used in response.
 old-location: netvista\ndis_wwan_base_stations_info_req.htm
 tech.root: netvista

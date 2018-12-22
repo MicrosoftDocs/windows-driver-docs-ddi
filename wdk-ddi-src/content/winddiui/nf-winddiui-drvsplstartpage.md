@@ -1,7 +1,6 @@
 ---
 UID: NF:winddiui.DrvSplStartPage
 title: DrvSplStartPage function
-author: windows-driver-content
 description: 
 old-location: print\drvsplstartpage.htm
 tech.root: print

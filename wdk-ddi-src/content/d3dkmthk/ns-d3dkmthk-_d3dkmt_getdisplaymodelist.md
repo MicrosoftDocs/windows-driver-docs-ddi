@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETDISPLAYMODELIST
 title: "_D3DKMT_GETDISPLAYMODELIST"
-author: windows-driver-content
 description: The D3DKMT_GETDISPLAYMODELIST structure describes a list of display modes.
 old-location: display\d3dkmt_getdisplaymodelist.htm
 ms.assetid: c937f1df-0221-4418-b48a-bcf0c41fa1e0

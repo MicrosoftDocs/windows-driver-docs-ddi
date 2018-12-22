@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlUlonglongByteSwap
 title: RtlUlonglongByteSwap macro
-author: windows-driver-content
 description: The RtlUlonglongByteSwap routine reverses the ordering of the eight bytes in a 64-bit unsigned integer value.
 old-location: kernel\rtlulonglongbyteswap.htm
 tech.root: kernel

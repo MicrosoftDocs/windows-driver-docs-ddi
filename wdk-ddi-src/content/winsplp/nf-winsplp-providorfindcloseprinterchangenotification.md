@@ -1,7 +1,6 @@
 ---
 UID: NF:winsplp.ProvidorFindClosePrinterChangeNotification
 title: ProvidorFindClosePrinterChangeNotification function
-author: windows-driver-content
 description: 
 old-location: print\providorfindcloseprinterchangenotification.htm
 tech.root: print

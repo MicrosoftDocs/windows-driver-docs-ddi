@@ -1,7 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_SHARED_ENDPOINT
 title: "_NDK_SHARED_ENDPOINT"
-author: windows-driver-content
 description: The NDK_SHARED_ENDPOINT structure specifies the attributes of an NDK shared endpoint object.
 old-location: netvista\ndk_shared_endpoint.htm
 tech.root: netvista

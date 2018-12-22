@@ -1,7 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_EVAL_INPUT_BUFFER_V2
 title: "_ACPI_EVAL_INPUT_BUFFER_V2"
-author: windows-driver-content
 description: This topic describes the ACPI_EVAL_INPUT_BUFFER_V2 structure.
 old-location: acpi\acpi_eval_input_buffer_v2.htm
 tech.root: acpi

@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_RENDERKM_OPERATION
 title: "_DXGK_RENDERKM_OPERATION"
-author: windows-driver-content
 description: The DXGK_RENDERKM_OPERATION enumeration indicates the type of GDI hardware-accelerated rendering operation to perform when the DxgkDdiRenderKm function is called.
 old-location: display\dxgk_renderkm_operation.htm
 ms.assetid: bde22894-97a1-42a8-97c1-ba9738c087b9

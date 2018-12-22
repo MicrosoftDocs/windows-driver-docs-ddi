@@ -1,7 +1,6 @@
 ---
 UID: NS:scsiwmi.__unnamed_struct_0
 title: SCSIWMI_REQUEST_CONTEXT
-author: windows-driver-content
 description: A SCSIWMI_REQUEST_CONTEXT structure contains context information for a WMI SRB.
 old-location: storage\scsiwmi_request_context.htm
 tech.root: storage

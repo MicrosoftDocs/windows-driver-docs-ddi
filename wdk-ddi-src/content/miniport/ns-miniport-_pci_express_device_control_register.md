@@ -1,7 +1,6 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_DEVICE_CONTROL_REGISTER
 title: "_PCI_EXPRESS_DEVICE_CONTROL_REGISTER"
-author: windows-driver-content
 description: The PCI_EXPRESS_DEVICE_CONTROL_REGISTER structure describes a PCI Express (PCIe) device control register of a PCIe capability structure.
 old-location: pci\pci_express_device_control_register.htm
 tech.root: PCI

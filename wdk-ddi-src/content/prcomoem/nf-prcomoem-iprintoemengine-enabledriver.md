@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemEngine.EnableDriver
 title: IPrintOemEngine::EnableDriver
-author: windows-driver-content
 description: 
 old-location: print\iprintoemengine_enabledriver.htm
 tech.root: print

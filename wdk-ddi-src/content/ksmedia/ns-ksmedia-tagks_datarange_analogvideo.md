@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_DATARANGE_ANALOGVIDEO
 title: tagKS_DATARANGE_ANALOGVIDEO
-author: windows-driver-content
 description: The KS_DATARANGE_ANALOGVIDEO structure describes an analog video stream.
 old-location: stream\ks_datarange_analogvideo.htm
 tech.root: stream

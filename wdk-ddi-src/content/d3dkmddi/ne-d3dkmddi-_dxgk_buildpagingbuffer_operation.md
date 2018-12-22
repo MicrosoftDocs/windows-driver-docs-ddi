@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_BUILDPAGINGBUFFER_OPERATION
 title: "_DXGK_BUILDPAGINGBUFFER_OPERATION"
-author: windows-driver-content
 description: Indicates the type of memory operation to perform.
 old-location: display\dxgk_buildpagingbuffer_operation.htm
 ms.assetid: D170D828-A0BC-4CBC-9F3F-E384AAD11FCC

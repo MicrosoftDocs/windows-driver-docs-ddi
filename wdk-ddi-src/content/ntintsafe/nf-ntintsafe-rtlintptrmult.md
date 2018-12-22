@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlIntPtrMult
 title: RtlIntPtrMult function
-author: windows-driver-content
 description: Multiplies one value of type INT_PTR by another.
 old-location: kernel\rtlintptrmult.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRequestCompletionParams.GetCompletedRequestType
 title: IWDFRequestCompletionParams::GetCompletedRequestType
-author: windows-driver-content
 description: The GetCompletedRequestType method retrieves the type of operation that the request to be completed contains.
 old-location: wdf\iwdfrequestcompletionparams_getcompletedrequesttype.htm
 tech.root: wdf

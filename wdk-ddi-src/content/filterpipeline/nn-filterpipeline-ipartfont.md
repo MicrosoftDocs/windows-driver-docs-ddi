@@ -1,7 +1,6 @@
 ---
 UID: NN:filterpipeline.IPartFont
 title: IPartFont
-author: windows-driver-content
 description: The IPartFont interface is the abstraction for fonts in a part.
 old-location: print\ipartfont.htm
 tech.root: print

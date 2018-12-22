@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_LINK_QUIESCENT_INTERFACE
 title: "_PCI_EXPRESS_LINK_QUIESCENT_INTERFACE"
-author: windows-driver-content
 description: The PCI_EXPRESS_LINK_QUIESCENT_INTERFACE structure is reserved for system use.
 old-location: pci\pci_express_link_quiescent_interface_.htm
 tech.root: PCI

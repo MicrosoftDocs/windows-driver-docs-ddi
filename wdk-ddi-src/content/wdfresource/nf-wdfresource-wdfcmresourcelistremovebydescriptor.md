@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfresource.WdfCmResourceListRemoveByDescriptor
 title: WdfCmResourceListRemoveByDescriptor function
-author: windows-driver-content
 description: The WdfCmResourceListRemoveByDescriptor method removes a specified resource descriptor from a specified resource list.
 old-location: wdf\wdfcmresourcelistremovebydescriptor.htm
 tech.root: wdf

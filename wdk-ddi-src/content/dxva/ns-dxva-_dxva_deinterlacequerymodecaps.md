@@ -1,7 +1,6 @@
 ---
 UID: NS:dxva._DXVA_DeinterlaceQueryModeCaps
 title: "_DXVA_DeinterlaceQueryModeCaps"
-author: windows-driver-content
 description: The DXVA_DeinterlaceQueryModeCaps structure describes a deinterlacing mode.
 old-location: display\dxva_deinterlacequerymodecaps.htm
 tech.root: display
