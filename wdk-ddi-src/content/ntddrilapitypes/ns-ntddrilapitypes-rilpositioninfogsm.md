@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILPOSITIONINFOGSM
 title: RILPOSITIONINFOGSM
-author: windows-driver-content
 description: This structure represents RILPOSITIONINFOGSM.
 old-location: netvista\rilpositioninfogsm.htm
 tech.root: netvista

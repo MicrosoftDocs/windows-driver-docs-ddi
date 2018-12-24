@@ -1,7 +1,6 @@
 ---
 UID: NF:rxprocs.RxPurgeAllFobxs
 title: RxPurgeAllFobxs function
-author: windows-driver-content
 description: RxPurgeAllFobxs purges all of the FOBX structures associated with a network mini-redirector.
 old-location: ifsk\rxpurgeallfobxs.htm
 tech.root: ifsk

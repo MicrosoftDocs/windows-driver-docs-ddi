@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.MmUnmapViewInSystemSpace
 title: MmUnmapViewInSystemSpace function
-author: windows-driver-content
 description:
 ms.assetid: 0fabae76-0497-4d17-a684-fade48708a57
 ms.date: 10/19/2018

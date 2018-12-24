@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces3.ReadTagged
 title: IDebugDataSpaces3::ReadTagged
-author: windows-driver-content
 description: The ReadTagged method reads the tagged data that might be associated with a debugger session.
 old-location: debugger\readtagged.htm
 tech.root: debugger

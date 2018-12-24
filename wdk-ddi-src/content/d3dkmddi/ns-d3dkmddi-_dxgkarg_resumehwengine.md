@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_RESUMEHWENGINE
 title: _DXGKARG_RESUMEHWENGINE
-author: windows-driver-content
 description: Arguments used to resume the hardware engine.
 ms.assetid: 745bf4ce-87ca-4471-b162-5687380ae09c
 ms.date: 10/19/2018

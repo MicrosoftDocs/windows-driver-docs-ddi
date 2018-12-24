@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnGetSupportedSensorObjects
 title: ISensorDriver::OnGetSupportedSensorObjects
-author: windows-driver-content
 description: The ISensorDriver::OnGetSupportedSensorObjects method retrieves the list of sensors that the driver provides.
 old-location: sensors\isensordriver_ongetsupportedsensorobjects.htm
 tech.root: sensors

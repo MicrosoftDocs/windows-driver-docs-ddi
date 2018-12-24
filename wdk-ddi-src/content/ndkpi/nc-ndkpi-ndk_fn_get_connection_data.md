@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_GET_CONNECTION_DATA
 title: NDK_FN_GET_CONNECTION_DATA
-author: windows-driver-content
 description: The NdkGetConnectionData (NDK_FN_GET_CONNECTION_DATA) function gets read limit values and the private data sent by the peer.
 old-location: netvista\ndk_fn_get_connection_data.htm
 tech.root: netvista

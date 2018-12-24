@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dumddi.D3DDDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT
 title: D3DDDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT
-author: windows-driver-content
 description: Identifies the overlay plane's video frame format. Only the D3DDDI_MULIIPLANE_OVERLAY_VIDEO_FRAME_FORMAT_PROGRESSIVE value is supported.
 old-location: display\d3dddi_multiplane_overlay_video_frame_format.htm
 tech.root: display

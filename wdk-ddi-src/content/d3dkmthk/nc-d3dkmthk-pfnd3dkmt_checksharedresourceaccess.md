@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CHECKSHAREDRESOURCEACCESS
 title: PFND3DKMT_CHECKSHAREDRESOURCEACCESS
-author: windows-driver-content
 description: The D3DKMTCheckSharedResourceAccess function determines if a process can access a shared resource.
 old-location: display\d3dkmtchecksharedresourceaccess.htm
 ms.assetid: ca1861d3-a838-4b4a-9304-e75dcca04f0d

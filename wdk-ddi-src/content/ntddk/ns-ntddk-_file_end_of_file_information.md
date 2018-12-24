@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._FILE_END_OF_FILE_INFORMATION
 title: "_FILE_END_OF_FILE_INFORMATION"
-author: windows-driver-content
 description: The FILE_END_OF_FILE_INFORMATION structure is used as an argument to the ZwSetInformationFile routine.
 old-location: kernel\file_end_of_file_information.htm
 tech.root: kernel

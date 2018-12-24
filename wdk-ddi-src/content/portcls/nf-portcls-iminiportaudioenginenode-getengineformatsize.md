@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.GetEngineFormatSize
 title: IMiniportAudioEngineNode::GetEngineFormatSize
-author: windows-driver-content
 description: Gets the format type and the buffer size for the audio engine's audio data format.
 old-location: audio\iminiportaudioenginenode_getengineformatsize.htm
 tech.root: audio

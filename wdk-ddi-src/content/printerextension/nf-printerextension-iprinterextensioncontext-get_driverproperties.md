@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionContext.get_DriverProperties
 title: IPrinterExtensionContext::get_DriverProperties
-author: windows-driver-content
 description: Gets the driver property bag.
 old-location: print\iprinterextensioncontext_driverproperties.htm
 tech.root: print

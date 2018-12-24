@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SWITCH_NIC_PARAMETERS
 title: "_NDIS_SWITCH_NIC_PARAMETERS"
-author: windows-driver-content
 description: The NDIS_SWITCH_NIC_PARAMETERS structure specifies the configuration parameters for a network adapter (NIC) that is connected to a Hyper-V extensible switch port.
 old-location: netvista\ndis_switch_nic_parameters.htm
 tech.root: netvista

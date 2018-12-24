@@ -1,7 +1,6 @@
 ---
 UID: NF:bdasup.BdaInitFilter
 title: BdaInitFilter function
-author: windows-driver-content
 description: The BdaInitFilter function initializes the BDA filter context associated with a filter instance.
 old-location: stream\bdainitfilter.htm
 tech.root: stream

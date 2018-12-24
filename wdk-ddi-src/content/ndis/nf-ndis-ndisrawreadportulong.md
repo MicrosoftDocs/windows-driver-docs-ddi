@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisRawReadPortUlong
 title: NdisRawReadPortUlong macro
-author: windows-driver-content
 description: NdisRawReadPortUlong reads a ULONG value from a given I/O port on the NIC.
 old-location: netvista\ndisrawreadportulong.htm
 tech.root: netvista

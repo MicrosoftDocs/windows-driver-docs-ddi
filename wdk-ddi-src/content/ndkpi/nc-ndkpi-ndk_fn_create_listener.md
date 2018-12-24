@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_CREATE_LISTENER
 title: NDK_FN_CREATE_LISTENER
-author: windows-driver-content
 description: The NdkCreateListener (NDK_FN_CREATE_LISTENER) function creates an NDK listener object.
 old-location: netvista\ndk_fn_create_listener.htm
 tech.root: netvista

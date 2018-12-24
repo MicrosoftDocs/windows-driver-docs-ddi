@@ -1,7 +1,6 @@
 ---
 UID: NE:poscx._POS_CX_EVENT_PRIORITY
 title: "_POS_CX_EVENT_PRIORITY"
-author: windows-driver-content
 description: The POS_CX_EVENT_PRIORITY defines the importance of the event and the order it will be delivered to the client application.
 old-location: pos\pos_cx_event_priority.htm
 tech.root: pos

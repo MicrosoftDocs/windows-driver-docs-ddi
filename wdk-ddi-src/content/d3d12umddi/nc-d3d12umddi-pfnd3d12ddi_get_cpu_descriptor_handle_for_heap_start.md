@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_GET_CPU_DESCRIPTOR_HANDLE_FOR_HEAP_START
 title: PFND3D12DDI_GET_CPU_DESCRIPTOR_HANDLE_FOR_HEAP_START
-author: windows-driver-content
 description: Gets the CPU descriptor handle that represents the start of the heap.
 ms.assetid: 1ba126a0-ae78-48f9-9560-3c15d464e390
 ms.date: 10/19/2018

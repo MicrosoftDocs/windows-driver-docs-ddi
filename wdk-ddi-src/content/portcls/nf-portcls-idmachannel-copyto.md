@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IDmaChannel.CopyTo
 title: IDmaChannel::CopyTo
-author: windows-driver-content
 description: The CopyTo method copies sample data to the DMA channel's common buffer from the specified source buffer.
 tech.root: audio
 ms.assetid: 510bdb3a-1a85-4e34-aa47-769e3f1fd9c0

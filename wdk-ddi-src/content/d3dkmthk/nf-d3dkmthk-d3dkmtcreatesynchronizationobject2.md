@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateSynchronizationObject2
 title: D3DKMTCreateSynchronizationObject2 function
-author: windows-driver-content
 description: The D3DKMTCreateSynchronizationObject2 function creates a kernel-mode synchronization object.
 old-location: display\d3dkmtcreatesynchronizationobject2.htm
 ms.assetid: 45849844-a466-4e62-957a-bfe33a464b5a

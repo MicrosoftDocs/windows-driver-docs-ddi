@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.ScsiPortWritePortUlong
 title: ScsiPortWritePortUlong macro
-author: windows-driver-content
 description: The ScsiPortWritePortUlong routine transfers a ULONG value to the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportwriteportulong.htm
 tech.root: storage

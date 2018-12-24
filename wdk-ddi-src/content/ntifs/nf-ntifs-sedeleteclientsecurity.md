@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SeDeleteClientSecurity
 title: SeDeleteClientSecurity macro
-author: windows-driver-content
 description: The SeDeleteClientSecurity routine deletes a client security context.
 old-location: ifsk\sedeleteclientsecurity.htm
 tech.root: ifsk

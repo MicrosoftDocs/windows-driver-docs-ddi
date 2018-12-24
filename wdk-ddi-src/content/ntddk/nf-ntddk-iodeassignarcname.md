@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoDeassignArcName
 title: IoDeassignArcName macro
-author: windows-driver-content
 description: The IoDeassignArcName routine removes a symbolic link between the ARC name for a device and the named device object.
 old-location: kernel\iodeassignarcname.htm
 tech.root: kernel

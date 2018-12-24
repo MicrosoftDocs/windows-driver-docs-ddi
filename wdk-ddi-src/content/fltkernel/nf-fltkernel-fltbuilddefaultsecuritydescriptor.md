@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltBuildDefaultSecurityDescriptor
 title: FltBuildDefaultSecurityDescriptor function
-author: windows-driver-content
 description: FltBuildDefaultSecurityDescriptor builds a default security descriptor for use with FltCreateCommunicationPort.
 old-location: ifsk\fltbuilddefaultsecuritydescriptor.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NS:strmini._HW_CLOCK_OBJECT
 title: "_HW_CLOCK_OBJECT"
-author: windows-driver-content
 description: The HW_CLOCK_OBJECT structure describes the clock associated with a stream.
 old-location: stream\hw_clock_object.htm
 tech.root: stream

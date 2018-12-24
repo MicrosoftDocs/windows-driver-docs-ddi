@@ -1,7 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_OPEN_ADAPTER
 title: MINIPORT_WDI_OPEN_ADAPTER
-author: windows-driver-content
 description: The MiniportWdiOpenAdapter handler function is used by the Microsoft component to initiate the Open Task operation on the IHV driver.
 old-location: netvista\miniportwdiopenadapter.htm
 tech.root: netvista

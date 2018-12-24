@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.SetTextReplacementWide
 title: IDebugControl4::SetTextReplacementWide
-author: windows-driver-content
 description: The SetTextReplacementWide method sets the value of a user-named alias.
 old-location: debugger\settextreplacementwide.htm
 tech.root: debugger

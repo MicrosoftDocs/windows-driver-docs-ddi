@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeRemoveQueueDpc
 title: KeRemoveQueueDpc function
-author: windows-driver-content
 description: The KeRemoveQueueDpc routine removes the specified DPC object from the system DPC queue.
 old-location: kernel\keremovequeuedpc.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_BUFBLT
 title: PFND3DDDI_BUFBLT
-author: windows-driver-content
 description: The BufBlt function performs a bit-block transfer (bitblt) operation from a source vertex or index buffer to a destination vertex or index buffer.
 old-location: display\bufblt.htm
 tech.root: display

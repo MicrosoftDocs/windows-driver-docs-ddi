@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfchildlist.WDF_CHILD_RETRIEVE_INFO_INIT
 title: WDF_CHILD_RETRIEVE_INFO_INIT function
-author: windows-driver-content
 description: The WDF_CHILD_RETRIEVE_INFO_INIT function initializes a WDF_CHILD_RETRIEVE_INFO structure.
 old-location: wdf\wdf_child_retrieve_info_init.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.KsGetMediaType
 title: KsGetMediaType function
-author: windows-driver-content
 description: The KsGetMediaType function retrieves information about a media type on a pin factory identifier.
 old-location: stream\ksgetmediatype.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.ZwNotifyChangeKey
 title: ZwNotifyChangeKey function
-author: windows-driver-content
 description: The ZwNotifyChangeKey routine allows a driver to request notification when a registry key changes.
 old-location: kernel\zwnotifychangekey.htm
 tech.root: kernel

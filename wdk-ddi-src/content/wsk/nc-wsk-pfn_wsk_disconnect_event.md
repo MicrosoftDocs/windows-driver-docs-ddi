@@ -1,7 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_DISCONNECT_EVENT
 title: PFN_WSK_DISCONNECT_EVENT
-author: windows-driver-content
 description: The WskDisconnectEvent event callback function notifies a WSK application that a connection on a connection-oriented socket has been disconnected by the remote application.
 old-location: netvista\wskdisconnectevent.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledeviceclassextension.IPortableDeviceClassExtension.ProcessLibraryMessage
 title: IPortableDeviceClassExtension::ProcessLibraryMessage
-author: windows-driver-content
 description: The ProcessLibraryMessage interface processes class library-specific messages and commands.
 old-location: wpddk\iportabledeviceclassextension_processlibrarymessage.htm
 tech.root: wpd_dk

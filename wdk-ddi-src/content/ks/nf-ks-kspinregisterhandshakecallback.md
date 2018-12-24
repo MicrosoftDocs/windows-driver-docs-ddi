@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsPinRegisterHandshakeCallback
 title: KsPinRegisterHandshakeCallback function
-author: windows-driver-content
 description: The KsPinRegisterHandshakeCallback function registers a minidriver-provided callback routine for a given pin.
 old-location: stream\kspinregisterhandshakecallback.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionAsyncOperation.Cancel
 title: IPrinterExtensionAsyncOperation::Cancel
-author: windows-driver-content
 description: Cancels the asynchronous operation.
 old-location: print\iprinterextensionasyncoperation_cancel.htm
 tech.root: print

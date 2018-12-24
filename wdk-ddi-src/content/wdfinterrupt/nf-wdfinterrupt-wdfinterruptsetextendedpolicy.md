@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfinterrupt.WdfInterruptSetExtendedPolicy
 title: WdfInterruptSetExtendedPolicy function
-author: windows-driver-content
 description: The WdfInterruptSetExtendedPolicy method specifies the interrupt priority, processor affinity, affinity policy, and processor group for a specified interrupt.
 old-location: wdf\wdfinterruptsetextendedpolicy.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGKMDT_OPM_VIDEO_OUTPUT_SEMANTICS
 title: "_DXGKMDT_OPM_VIDEO_OUTPUT_SEMANTICS"
-author: windows-driver-content
 description: The DXGKMDT_OPM_VIDEO_OUTPUT_SEMANTICS enumeration identifies the semantics of a protected output that is created in a call to the DxgkDdiOPMCreateProtectedOutput function.
 old-location: display\dxgkmdt_opm_video_output_semantics.htm
 tech.root: display

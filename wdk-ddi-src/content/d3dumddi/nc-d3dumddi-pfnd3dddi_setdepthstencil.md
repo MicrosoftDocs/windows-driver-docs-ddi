@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETDEPTHSTENCIL
 title: PFND3DDDI_SETDEPTHSTENCIL
-author: windows-driver-content
 description: The SetDepthStencil function sets the depth buffer in the driver's context.
 old-location: display\setdepthstencil.htm
 tech.root: display

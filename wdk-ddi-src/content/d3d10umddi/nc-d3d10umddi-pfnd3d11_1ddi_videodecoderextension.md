@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEODECODEREXTENSION
 title: PFND3D11_1DDI_VIDEODECODEREXTENSION
-author: windows-driver-content
 description: Performs an extended function for DirectX Video Acceleration (DXVA) decoding. This method enables extensions to the basic DXVA decoder functionality.
 old-location: display\videodecoderextension.htm
 ms.assetid: 0cfcc05a-77d7-4157-bd27-ba127afe3e92

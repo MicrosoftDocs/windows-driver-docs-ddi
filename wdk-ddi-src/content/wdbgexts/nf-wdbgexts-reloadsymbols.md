@@ -1,7 +1,6 @@
 ---
 UID: NF:wdbgexts.ReloadSymbols
 title: ReloadSymbols function
-author: windows-driver-content
 description: The ReloadSymbols function deletes symbol information from the debugger so that it can be reloaded as needed. This function behaves the same way as the debugger command .reload.
 old-location: debugger\reloadsymbols.htm
 tech.root: debugger

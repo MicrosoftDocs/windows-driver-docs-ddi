@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisClearNblFlag
 title: NdisClearNblFlag macro
-author: windows-driver-content
 description: The NdisClearNblFlag macro clears a flag in a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: 244839a5-cdc2-4b05-8a96-37c477313238

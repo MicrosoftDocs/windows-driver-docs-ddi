@@ -1,7 +1,6 @@
 ---
 UID: NS:winddiui._PRINTER_EVENT_ATTRIBUTES_INFO
 title: "_PRINTER_EVENT_ATTRIBUTES_INFO"
-author: windows-driver-content
 description: The PRINTER_EVENT_ATTRIBUTES_INFO structure contains the former attributes and the new attributes for a printer.
 old-location: print\printer_event_attributes_info.htm
 tech.root: print

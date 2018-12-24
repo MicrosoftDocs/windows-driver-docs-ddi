@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_UNMAP_VIDEO_MEMORY
 title: IOCTL_VIDEO_UNMAP_VIDEO_MEMORY
-author: windows-driver-content
 description: Releases a mapping between the virtual address space and the adapter's frame buffer and video RAM. Miniport drivers are required to support this nonmodal request.
 old-location: display\ioctl_video_unmap_video_memory.htm
 tech.root: display

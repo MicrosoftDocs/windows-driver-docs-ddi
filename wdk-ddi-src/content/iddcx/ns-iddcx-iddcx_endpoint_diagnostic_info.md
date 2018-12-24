@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_ENDPOINT_DIAGNOSTIC_INFO
 title: IDDCX_ENDPOINT_DIAGNOSTIC_INFO
-author: windows-driver-content
 description: Gives information about the video data endpoint.
 old-location: display\iddcx_endpoint_diagnostic_info.htm
 tech.root: display

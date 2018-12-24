@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfdmatransaction.EVT_WDF_PROGRAM_DMA
 title: EVT_WDF_PROGRAM_DMA
-author: windows-driver-content
 description: A framework-based driver's EvtProgramDma event callback function programs a specified device to perform a DMA transfer operation.
 old-location: wdf\evtprogramdma.htm
 tech.root: wdf

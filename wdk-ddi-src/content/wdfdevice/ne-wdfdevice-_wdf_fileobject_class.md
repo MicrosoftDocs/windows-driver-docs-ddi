@@ -1,7 +1,6 @@
 ---
 UID: NE:wdfdevice._WDF_FILEOBJECT_CLASS
 title: "_WDF_FILEOBJECT_CLASS"
-author: windows-driver-content
 description: The WDF_FILEOBJECT_CLASS enumeration defines values that identify whether a driver requires a framework file object to represent a file that an application or another driver is attempting to create or open.
 old-location: wdf\wdf_fileobject_class.htm
 tech.root: wdf

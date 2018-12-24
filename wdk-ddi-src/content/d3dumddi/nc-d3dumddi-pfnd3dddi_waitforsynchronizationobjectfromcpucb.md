@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPUCB
 title: PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPUCB
-author: windows-driver-content
 description: pfnWaitForSynchronizationObjectFromCpuCb waits for a monitored fence to reach a certain value before processing subsequent context commands.
 old-location: display\pfnwaitforsynchronizationobjectfromcpucb.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:mrx.__RxFillAndInstallFastIoDispatch
 title: "__RxFillAndInstallFastIoDispatch function"
-author: windows-driver-content
 description: RxFillAndInstallFastIoDispatch fills out a fast I/O dispatch vector to be identical with the normal dispatch I/O vector and installs it into the driver object associated with the device object passed.
 old-location: ifsk\__rxfillandinstallfastiodispatch.htm
 tech.root: ifsk

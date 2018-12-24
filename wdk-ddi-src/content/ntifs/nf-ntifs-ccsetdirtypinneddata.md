@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.CcSetDirtyPinnedData
 title: CcSetDirtyPinnedData function
-author: windows-driver-content
 description: The CcSetDirtyPinnedData routine marks as dirty the buffer control block (BCB) for a pinned buffer whose contents have been modified.
 old-location: ifsk\ccsetdirtypinneddata.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTRegisterTrimNotification
 title: D3DKMTRegisterTrimNotification function
-author: windows-driver-content
 description: D3DKMTRegisterTrimNotification is used by a kernel mode video memory manager to register and implement a callback for each kernel mode device to receive notifications from a graphics framework (such as OpenGL).
 old-location: display\d3dkmtregistertrimnotification.htm
 ms.assetid: 4D35ED8F-2D1E-4C0B-8302-CE651D47AF10

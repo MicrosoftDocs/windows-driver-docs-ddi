@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_POSTMULTIPLANEOVERLAYPRESENT
 title: "_DXGKARG_POSTMULTIPLANEOVERLAYPRESENT"
-author: windows-driver-content
 description: Contains arguments for the DxgkDdiPostMultiPlaneOverlayPresent function.
 old-location: display\dxgkarg_postmultiplaneoverlaypresent.htm
 

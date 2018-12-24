@@ -1,7 +1,6 @@
 ---
 UID: NF:fcb.RxCreateSrvOpen
 title: RxCreateSrvOpen function
-author: windows-driver-content
 description: RxCreateSrvOpen allocates, initializes, and inserts a new SRV_OPEN structure into the in-memory data structures used by RDBSS. If a new structure has to be allocated, it has space for an FOBX structure.
 old-location: ifsk\rxcreatesrvopen.htm
 tech.root: ifsk

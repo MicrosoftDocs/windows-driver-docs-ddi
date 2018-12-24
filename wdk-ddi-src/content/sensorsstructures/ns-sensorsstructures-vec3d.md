@@ -1,7 +1,6 @@
 ---
 UID: NS:sensorsstructures.__unnamed_struct_0
 title: VEC3D
-author: windows-driver-content
 description: Defines a 3D vector.
 ms.assetid: 44c53c34-c7fd-467a-a969-40ead8f990f3
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.GetSymbolSize
 title: IDebugSymbolGroup2::GetSymbolSize
-author: windows-driver-content
 description: The GetSymbolSize method returns the size of a symbol's value.
 old-location: debugger\getsymbolsize.htm
 tech.root: debugger

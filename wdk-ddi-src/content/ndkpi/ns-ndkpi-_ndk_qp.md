@@ -1,7 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_QP
 title: "_NDK_QP"
-author: windows-driver-content
 description: The NDK_QP structure specifies the attributes of an NDK queue pair (QP) object.
 old-location: netvista\ndk_qp.htm
 tech.root: netvista

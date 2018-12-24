@@ -1,7 +1,6 @@
 ---
 UID: NE:printerextension.tagPrintSchemaSelectionType
 title: tagPrintSchemaSelectionType
-author: windows-driver-content
 description: The PrintSchemaSelectionType enumeration identifies how a Feature’s options should be selected. This property appears only in a PrintCapabilities document.
 old-location: print\printschemaselectiontype.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlDeleteExtraCreateParameterLookasideList
 title: FsRtlDeleteExtraCreateParameterLookasideList function
-author: windows-driver-content
 description: The FsRtlDeleteExtraCreateParameterLookasideList routine frees an extra create parameter (ECP) lookaside list.
 old-location: ifsk\fsrtldeleteextracreateparameterlookasidelist.htm
 tech.root: ifsk

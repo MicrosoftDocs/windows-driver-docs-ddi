@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NDK_CONNECTIONS
 title: "_NDIS_NDK_CONNECTIONS"
-author: windows-driver-content
 description: The NDIS_NDK_CONNECTIONS structure describes the NDK connections that are active on a miniport adapter.
 old-location: netvista\ndis_ndk_connections.htm
 tech.root: netvista

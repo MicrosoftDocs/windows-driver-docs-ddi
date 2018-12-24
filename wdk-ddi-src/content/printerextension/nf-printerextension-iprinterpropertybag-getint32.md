@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterPropertyBag.GetInt32
 title: IPrinterPropertyBag::GetInt32
-author: windows-driver-content
 description: Reads an integer property.
 old-location: print\iprinterpropertybag_getint32.htm
 tech.root: print

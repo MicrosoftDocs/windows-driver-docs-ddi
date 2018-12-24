@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMGetVirtualFunctionBusData
 title: NdisMGetVirtualFunctionBusData function
-author: windows-driver-content
 description: A miniport driver calls the NdisMGetVirtualFunctionBusData function to read data from the PCI Express (PCIe) configuration space of a specified Virtual Function (VF) on the network adapter.
 old-location: netvista\ndismgetvirtualfunctionbusdata.htm
 tech.root: netvista

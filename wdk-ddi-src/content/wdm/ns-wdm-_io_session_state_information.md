@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._IO_SESSION_STATE_INFORMATION
 title: "_IO_SESSION_STATE_INFORMATION"
-author: windows-driver-content
 description: The IO_SESSION_STATE_INFORMATION structure contains information about the state of a user session.
 old-location: kernel\io_session_state_information.htm
 tech.root: kernel

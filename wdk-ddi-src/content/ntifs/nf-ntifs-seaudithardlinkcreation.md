@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SeAuditHardLinkCreation
 title: SeAuditHardLinkCreation function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\seaudithardlinkcreation.htm
 tech.root: ifsk

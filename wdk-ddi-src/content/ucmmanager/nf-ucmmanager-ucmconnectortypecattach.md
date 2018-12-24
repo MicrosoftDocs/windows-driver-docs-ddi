@@ -1,7 +1,6 @@
 ---
 UID: NF:ucmmanager.UcmConnectorTypeCAttach
 title: UcmConnectorTypeCAttach function
-author: windows-driver-content
 description: Notifies the USB connector manager framework extension (UcmCx) when a partner connector is attached.
 old-location: buses\ucmconnectortypecattach.htm
 tech.root: usbref

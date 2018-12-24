@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IAdapterPnpManagement.PnpStop
 title: IAdapterPnpManagement::PnpStop
-author: windows-driver-content
 description: The PnpStop method provides a notification after stopping all Ioctl operations.
 tech.root: audio
 ms.assetid: 7ad59aef-fc02-4102-a5b8-5349209bd65d

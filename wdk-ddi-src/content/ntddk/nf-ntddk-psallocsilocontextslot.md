@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.PsAllocSiloContextSlot
 title: PsAllocSiloContextSlot function
-author: windows-driver-content
 description: This routine allocates a slot that can be used to insert, retrieve, and delete an object in all silos. .
 old-location: kernel\psallocsilocontextslot.htm
 tech.root: kernel

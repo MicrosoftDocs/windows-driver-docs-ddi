@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoSynchronousPageWrite
 title: IoSynchronousPageWrite function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\iosynchronouspagewrite.htm
 tech.root: ifsk

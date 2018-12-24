@@ -1,7 +1,6 @@
 ---
 UID: NE:bthddi._SCO_RETRANSMISSION_EFFORT
 title: "_SCO_RETRANSMISSION_EFFORT"
-author: windows-driver-content
 description: The SCO_RETRANSMISSION_EFFORT enumeration type is used to determine the retransmission policies of a SCO channel.
 old-location: bltooth\sco_retransmission_effort.htm
 tech.root: bltooth

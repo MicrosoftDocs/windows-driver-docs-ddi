@@ -1,7 +1,6 @@
 ---
 UID: NE:dispmprt.__unnamed_enum_1
 title: DOCKING_STATE
-author: windows-driver-content
 description: The DOCKING_STATE enumeration is used to describe the state of a portable computer that can be attached to a docking station.
 old-location: display\docking_state.htm
 tech.root: display

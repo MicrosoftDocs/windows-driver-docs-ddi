@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_DEALLOCATE
 title: "_D3DDDICB_DEALLOCATE"
-author: windows-driver-content
 description: The D3DDDICB_DEALLOCATE structure describes allocations to release.
 old-location: display\d3dddicb_deallocate.htm
 tech.root: display

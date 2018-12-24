@@ -1,7 +1,6 @@
 ---
 UID: NF:srb.ScsiPortReadRegisterUshort
 title: ScsiPortReadRegisterUshort function
-author: windows-driver-content
 description: The ScsiPortReadRegisterUshort routine reads a USHORT value from the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportreadregisterushort.htm
 tech.root: storage

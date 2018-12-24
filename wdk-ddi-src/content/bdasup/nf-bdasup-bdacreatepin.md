@@ -1,7 +1,6 @@
 ---
 UID: NF:bdasup.BdaCreatePin
 title: BdaCreatePin function
-author: windows-driver-content
 description: The BdaCreatePin function creates a new pin in the specified filter.
 old-location: stream\bdacreatepin.htm
 tech.root: stream

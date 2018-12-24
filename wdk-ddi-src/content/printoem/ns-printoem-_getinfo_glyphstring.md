@@ -1,7 +1,6 @@
 ---
 UID: NS:printoem._GETINFO_GLYPHSTRING
 title: "_GETINFO_GLYPHSTRING"
-author: windows-driver-content
 description: The GETINFO_GLYPHSTRING structure is used as input to the UNIFONTOBJ_GetInfo callback function.
 old-location: print\getinfo_glyphstring.htm
 tech.root: print

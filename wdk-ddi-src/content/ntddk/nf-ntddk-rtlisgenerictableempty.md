@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlIsGenericTableEmpty
 title: RtlIsGenericTableEmpty function
-author: windows-driver-content
 description: The RtlIsGenericTableEmpty routine determines if a generic table is empty.
 old-location: ifsk\rtlisgenerictableempty.htm
 tech.root: ifsk

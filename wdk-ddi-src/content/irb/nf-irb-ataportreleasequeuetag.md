@@ -1,7 +1,6 @@
 ---
 UID: NF:irb.AtaPortReleaseQueueTag
 title: AtaPortReleaseQueueTag function
-author: windows-driver-content
 description: The AtaPortReleaseQueueTag routine releases the specified queue tag.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportreleasequeuetag.htm
 tech.root: storage

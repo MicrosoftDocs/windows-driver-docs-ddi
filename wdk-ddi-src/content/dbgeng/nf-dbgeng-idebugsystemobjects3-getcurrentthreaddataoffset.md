@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetCurrentThreadDataOffset
 title: IDebugSystemObjects3::GetCurrentThreadDataOffset
-author: windows-driver-content
 description: The GetCurrentThreadDataOffset method returns the location of the system data structure for the current thread.
 old-location: debugger\getcurrentthreaddataoffset.htm
 tech.root: debugger

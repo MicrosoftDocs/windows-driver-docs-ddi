@@ -1,7 +1,6 @@
 ---
 UID: NC:ursdevice.EVT_URS_SET_ROLE
 title: EVT_URS_SET_ROLE
-author: windows-driver-content
 description: The URS class extension invokes this event callback when it requires the client driver to change the role of the controller.
 old-location: buses\evt_urs_set_role.htm
 tech.root: usbref

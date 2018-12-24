@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfresource.WdfCmResourceListInsertDescriptor
 title: WdfCmResourceListInsertDescriptor function
-author: windows-driver-content
 description: The WdfCmResourceListInsertDescriptor method inserts a resource descriptor into a specified resource list.
 old-location: wdf\wdfcmresourcelistinsertdescriptor.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_QUERYADAPTERINFO
 title: DXGKDDI_QUERYADAPTERINFO
-author: windows-driver-content
 description: The DxgkDdiQueryAdapterInfo function retrieves configuration information from the graphics adapter.
 old-location: display\dxgkddiqueryadapterinfo.htm
 ms.assetid: f2f4c54c-7413-48e5-a165-d71f35642b6c

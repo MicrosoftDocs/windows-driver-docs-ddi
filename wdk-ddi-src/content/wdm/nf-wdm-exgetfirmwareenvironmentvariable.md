@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExGetFirmwareEnvironmentVariable
 title: ExGetFirmwareEnvironmentVariable function
-author: windows-driver-content
 description: The ExGetFirmwareEnvironmentVariable routine gets the value of the specified system firmware environment variable.
 old-location: kernel\exgetfirmwareenvironmentvariable.htm
 tech.root: kernel

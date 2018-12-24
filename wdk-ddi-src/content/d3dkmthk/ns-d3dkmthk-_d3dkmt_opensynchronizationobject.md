@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OPENSYNCHRONIZATIONOBJECT
 title: "_D3DKMT_OPENSYNCHRONIZATIONOBJECT"
-author: windows-driver-content
 description: The D3DKMT_OPENSYNCHRONIZATIONOBJECT structure describes a synchronization object that the D3DKMTOpenSynchronizationObject function opens.
 old-location: display\d3dkmt_opensynchronizationobject.htm
 ms.assetid: 58e71ce5-29d0-4ee2-8d91-02230021110d

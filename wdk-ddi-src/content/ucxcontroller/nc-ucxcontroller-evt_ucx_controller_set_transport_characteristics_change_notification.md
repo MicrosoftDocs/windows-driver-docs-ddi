@@ -1,7 +1,6 @@
 ---
 UID: NC:ucxcontroller.EVT_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION
 title: EVT_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION
-author: windows-driver-content
 description: UCX invokes this callback function to specify its preference in transport characteristics for which the client driver must send notifications when changes occur.
 old-location: buses\evt_ucx_controller_set_transport_characteristics_change_notification.htm
 tech.root: usbref

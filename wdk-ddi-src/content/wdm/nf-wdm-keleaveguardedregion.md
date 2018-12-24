@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeLeaveGuardedRegion
 title: KeLeaveGuardedRegion function
-author: windows-driver-content
 description: The KeLeaveGuardedRegion routine exits a guarded region entered by KeEnterGuardedRegion.
 old-location: kernel\keleaveguardedregion.htm
 tech.root: kernel

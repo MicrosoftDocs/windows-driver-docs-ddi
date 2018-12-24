@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsPinGetConnectedPinDeviceObject
 title: KsPinGetConnectedPinDeviceObject function
-author: windows-driver-content
 description: The KsPinGetConnectedPinDeviceObject function returns the device object at the top of the device stack corresponding to the sink pin attached to the source pin Pin.
 old-location: stream\kspingetconnectedpindeviceobject.htm
 tech.root: stream

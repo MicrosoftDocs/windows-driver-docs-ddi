@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag.GetReadStream
 title: IPrinterScriptablePropertyBag::GetReadStream
-author: windows-driver-content
 description: Gets a read stream and uses it to read from a property.
 old-location: print\iprinterscriptablepropertybag_getreadstream.htm
 tech.root: print

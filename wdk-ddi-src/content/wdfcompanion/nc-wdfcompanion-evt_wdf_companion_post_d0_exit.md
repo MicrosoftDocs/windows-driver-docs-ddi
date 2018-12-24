@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfcompanion.EVT_WDF_COMPANION_POST_D0_EXIT
 title: EVT_WDF_COMPANION_POST_D0_EXIT
-author: windows-driver-content
 description: For internal use only.
 old-location: wdf\evt_wdf_companion_post_d0_exit.htm
 tech.root: wdf

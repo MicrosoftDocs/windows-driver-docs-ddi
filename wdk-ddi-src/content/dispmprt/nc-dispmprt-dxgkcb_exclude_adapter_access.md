@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_EXCLUDE_ADAPTER_ACCESS
 title: DXGKCB_EXCLUDE_ADAPTER_ACCESS
-author: windows-driver-content
 description: The DxgkCbExcludeAdapterAccess function prevents all access to the display adapter and calls a provided DxgkProtectedCallback callback routine while in this protected state.
 old-location: display\dxgkcbexcludeadapteraccess.htm
 tech.root: display

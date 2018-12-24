@@ -1,7 +1,6 @@
 ---
 UID: NC:ucxcontroller.EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY
 title: EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY
-author: windows-driver-content
 description: The client driver's implementation to determine if the controller supports a specific capability.
 old-location: buses\evt_ucx_controller_query_usb_capability.htm
 tech.root: usbref

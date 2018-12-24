@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExReleaseSpinLockShared
 title: ExReleaseSpinLockShared function
-author: windows-driver-content
 description: The ExReleaseSpinLockShared routine releases ownership of a spin lock that the caller previously acquired for shared access, and restores the IRQL to its original value.
 old-location: kernel\exreleasespinlockshared_.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:icm.WcsEnumColorProfiles
 title: WcsEnumColorProfiles function
-author: windows-driver-content
 description: The WcsEnumColorProfiles function enumerates all color profiles that satisfy the enumeration criteria in the specified profile management scope.
 old-location: print\wcsenumcolorprofiles.htm
 tech.root: print

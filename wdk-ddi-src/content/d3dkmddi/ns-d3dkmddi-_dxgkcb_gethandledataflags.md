@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKCB_GETHANDLEDATAFLAGS
 title: _DXGKCB_GETHANDLEDATAFLAGS
-author: windows-driver-content
 description: The DXGKCB_GETHANDLEDATAFLAGS structure indicates if allocations belong to a resource.
 old-location: display\dxgkcb_gethandledataflags.htm
 ms.assetid: 01689a2f-115a-4db8-b53d-38717c10a0ff

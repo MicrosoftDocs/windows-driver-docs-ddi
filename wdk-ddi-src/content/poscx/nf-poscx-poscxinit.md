@@ -1,7 +1,6 @@
 ---
 UID: NF:poscx.PosCxInit
 title: PosCxInit function
-author: windows-driver-content
 description: PosCxInit is called to initialize the PosCx library's internal resources. The resources are tied to the device, and are released when the device goes away.
 old-location: pos\poscxinit.htm
 tech.root: pos

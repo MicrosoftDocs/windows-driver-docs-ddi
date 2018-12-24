@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetSpecificFilterArgument
 title: IDebugControl3::GetSpecificFilterArgument
-author: windows-driver-content
 description: The GetSpecificFilterArgument method returns the value of filter argument for thespecific filters that have an argument.
 old-location: debugger\getspecificfilterargument.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetVolumeGuidName
 title: FltGetVolumeGuidName function
-author: windows-driver-content
 description: The FltGetVolumeGuidName routine returns the volume name for a given volume, in volume globally unique identifier (GUID) format.
 old-location: ifsk\fltgetvolumeguidname.htm
 tech.root: ifsk

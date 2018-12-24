@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceSendControlTransferSynchronously
 title: WdfUsbTargetDeviceSendControlTransferSynchronously function
-author: windows-driver-content
 description: The WdfUsbTargetDeviceSendControlTransferSynchronously method builds a USB control transfer request and sends it synchronously to an I/O target.
 old-location: wdf\wdfusbtargetdevicesendcontroltransfersynchronously.htm
 tech.root: wdf

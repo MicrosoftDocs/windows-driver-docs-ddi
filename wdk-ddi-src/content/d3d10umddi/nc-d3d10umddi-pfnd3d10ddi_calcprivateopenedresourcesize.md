@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CALCPRIVATEOPENEDRESOURCESIZE
 title: PFND3D10DDI_CALCPRIVATEOPENEDRESOURCESIZE
-author: windows-driver-content
 description: The CalcPrivateOpenedResourceSize function determines the size of the user-mode display driver's private shared region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for an opened resource.
 old-location: display\calcprivateopenedresourcesize.htm
 ms.assetid: 000688fb-6475-4dab-bb65-91c899a592a7

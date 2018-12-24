@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._NVME_RESERVED_SQ_CREATE_REQUEST
 title: _NVME_RESERVED_SQ_CREATE_REQUEST
-author: windows-driver-content
 description: 
 ms.assetid: 543df92c-a592-41ca-abe7-e4e036f93043
 ms.date: 10/19/2018

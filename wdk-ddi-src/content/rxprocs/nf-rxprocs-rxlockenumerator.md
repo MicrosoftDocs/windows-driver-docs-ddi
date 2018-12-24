@@ -1,7 +1,6 @@
 ---
 UID: NF:rxprocs.RxLockEnumerator
 title: RxLockEnumerator function
-author: windows-driver-content
 description: RxLockEnumerator is called from a network mini-redirector to enumerate the file locks on an FCB.
 old-location: ifsk\rxlockenumerator.htm
 tech.root: ifsk

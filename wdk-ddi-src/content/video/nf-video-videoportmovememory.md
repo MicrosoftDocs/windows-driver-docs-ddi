@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortMoveMemory
 title: VideoPortMoveMemory function
-author: windows-driver-content
 description: The VideoPortMoveMemory function copies data from the source location to the destination location in system memory.
 old-location: display\videoportmovememory.htm
 tech.root: display

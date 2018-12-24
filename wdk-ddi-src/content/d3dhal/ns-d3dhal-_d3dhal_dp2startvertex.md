@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2STARTVERTEX
 title: "_D3DHAL_DP2STARTVERTEX"
-author: windows-driver-content
 description: A D3DHAL_DP2STARTVERTEX structure follows certain D3DHAL_DP2COMMAND structures in the command buffer, and indicates the offset in the vertex buffer for the first vertex to use in D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2startvertex.htm
 tech.root: display

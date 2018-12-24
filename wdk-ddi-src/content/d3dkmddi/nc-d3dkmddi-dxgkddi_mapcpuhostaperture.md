@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_MAPCPUHOSTAPERTURE
 title: DXGKDDI_MAPCPUHOSTAPERTURE
-author: windows-driver-content
 description: DxgkDdiMapCpuHostAperture is called to map an allocation that is resident in a local memory segment into the CPU host aperture in order to make it visible to the CPU.
 old-location: display\dxgkddimapcpuhostaperture.htm
 ms.assetid: 78729B9A-A9FA-4D1E-8D30-3FFD61B1A7D3

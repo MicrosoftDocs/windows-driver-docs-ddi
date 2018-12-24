@@ -1,7 +1,6 @@
 ---
 UID: NI:nfcsedev.IOCTL_NFCSE_SET_CARD_EMULATION_MODE
 title: IOCTL_NFCSE_SET_CARD_EMULATION_MODE
-author: windows-driver-content
 description: The IOCTL_NFCSE_SET_CARD_EMULATION_MODE control code sets whether the specified secure element is exposed in card emulation mode.
 old-location: nfpdrivers\ioctl_nfcse_set_card_emulation_mode.htm
 tech.root: nfpdrivers

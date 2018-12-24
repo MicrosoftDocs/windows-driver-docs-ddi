@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwOpenSection
 title: ZwOpenSection function
-author: windows-driver-content
 description: The ZwOpenSection routine opens a handle for an existing section object.
 old-location: kernel\zwopensection.htm
 tech.root: kernel

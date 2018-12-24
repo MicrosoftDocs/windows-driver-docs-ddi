@@ -1,7 +1,6 @@
 ---
 UID: NI:gnssdriver.IOCTL_GNSS_GET_CHIPSETINFO
 title: IOCTL_GNSS_GET_CHIPSETINFO
-author: windows-driver-content
 description: The IOCTL_GNSS_GET_CHIPSETINFO control code is used by the GNSS manufacturing test application to get information about the GNSS chipset.
 old-location: gnss\ioctl_gnss_get_chipsetinfo.htm
 tech.root: gnss

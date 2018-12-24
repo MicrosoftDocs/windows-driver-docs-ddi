@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_PRESENTCB
 title: PFND3DDDI_PRESENTCB
-author: windows-driver-content
 description: The pfnPresentCb function copies content from a source allocation.
 old-location: display\pfnpresentcb.htm
 tech.root: display

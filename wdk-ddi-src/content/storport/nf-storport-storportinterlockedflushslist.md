@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortInterlockedFlushSList
 title: StorPortInterlockedFlushSList function
-author: windows-driver-content
 description: Removes all items from a Storport managed singly linked list. Access to the list is synchronized on a multiprocessor system.
 old-location: storage\storportinterlockedflushslist.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.PcAddAdapterDevice
 title: PcAddAdapterDevice function
-author: windows-driver-content
 description: The PcAddAdapterDevice function adds an adapter device to the WDM device stack.
 old-location: audio\pcaddadapterdevice.htm
 tech.root: audio

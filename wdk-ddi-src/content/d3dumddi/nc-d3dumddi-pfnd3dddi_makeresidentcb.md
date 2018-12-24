@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_MAKERESIDENTCB
 title: PFND3DDDI_MAKERESIDENTCB
-author: windows-driver-content
 description: pfnMakeResidentCb is used to instruct the OS to add a resource to the device residency list and increment the residency reference count on this allocation.
 old-location: display\pfnmakeresidentcb.htm
 tech.root: display

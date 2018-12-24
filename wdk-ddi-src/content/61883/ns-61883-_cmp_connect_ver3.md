@@ -1,7 +1,6 @@
 ---
 UID: NS:61883._CMP_CONNECT_VER3
 title: "_CMP_CONNECT_VER3"
-author: windows-driver-content
 description: This structure contains information for a connection request.
 old-location: ieee\cmp_connect_ver3.htm
 tech.root: IEEE

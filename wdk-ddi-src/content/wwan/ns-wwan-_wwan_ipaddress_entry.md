@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_IPADDRESS_ENTRY
 title: "_WWAN_IPADDRESS_ENTRY"
-author: windows-driver-content
 description: The WWAN_IPADDRESS_ENTRY structure represents either the IPV4 or IPV6 address of a PDP context.
 old-location: netvista\wwan_ipaddress_entry.htm
 tech.root: netvista

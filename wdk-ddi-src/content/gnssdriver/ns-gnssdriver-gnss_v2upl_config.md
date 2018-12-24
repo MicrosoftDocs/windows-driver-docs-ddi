@@ -1,7 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_41
 title: GNSS_V2UPL_CONFIG
-author: windows-driver-content
 description: This structure contains V2UPL configuration information.
 old-location: gnss\gnss_v2upl_config.htm
 tech.root: gnss

@@ -1,7 +1,6 @@
 ---
 UID: NS:wmistr.tagWNODE_SINGLE_INSTANCE
 title: tagWNODE_SINGLE_INSTANCE
-author: windows-driver-content
 description: The WNODE_SINGLE_INSTANCE structure contains values for all data items in one instance of a data block.
 old-location: kernel\wnode_single_instance.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeFlushQueuedDpcs
 title: KeFlushQueuedDpcs function
-author: windows-driver-content
 description: The KeFlushQueuedDpcs routine returns after all queued DPCs on all processors have executed.
 old-location: kernel\keflushqueueddpcs.htm
 tech.root: kernel

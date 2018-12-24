@@ -1,7 +1,6 @@
 ---
 UID: NF:spbcx.SPB_REQUEST_PARAMETERS_INIT
 title: SPB_REQUEST_PARAMETERS_INIT function
-author: windows-driver-content
 description: The SPB_REQUEST_PARAMETERS_INIT function initializes an SPB_REQUEST_PARAMETERS structure.
 old-location: spb\spb_request_parameters_init.htm
 tech.root: SPB

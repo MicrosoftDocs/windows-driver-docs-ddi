@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.KeInitializeQueue
 title: KeInitializeQueue function
-author: windows-driver-content
 description: The KeInitializeQueue routine initializes a queue object on which threads can wait for entries.
 old-location: ifsk\keinitializequeue.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoCsqInsertIrp
 title: IoCsqInsertIrp function
-author: windows-driver-content
 description: The IoCsqInsertIrp routine inserts an IRP in the driver's cancel-safe IRP queue.
 old-location: kernel\iocsqinsertirp.htm
 tech.root: kernel

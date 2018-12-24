@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortReady
 title: StorPortReady function
-author: windows-driver-content
 description: The StorPortReady routine notifies the port driver that the adapter is no longer busy.
 old-location: storage\storportready.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfinterrupt.EVT_WDF_INTERRUPT_ENABLE
 title: EVT_WDF_INTERRUPT_ENABLE
-author: windows-driver-content
 description: A driver's EvtInterruptEnable event callback function enables a specified hardware interrupt.
 old-location: wdf\evtinterruptenable.htm
 tech.root: wdf

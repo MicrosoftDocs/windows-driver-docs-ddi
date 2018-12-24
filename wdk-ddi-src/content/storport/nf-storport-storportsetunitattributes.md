@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortSetUnitAttributes
 title: StorPortSetUnitAttributes function
-author: windows-driver-content
 description: The StorPortSetUnitAttributes routine registers the power attributes of a storage unit device with the Storport driver.
 old-location: storage\storportsetunitattributes.htm
 tech.root: storage

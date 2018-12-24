@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoRegisterFileSystem
 title: IoRegisterFileSystem function
-author: windows-driver-content
 description: The IoRegisterFileSystem routine adds a file system's control device object to the global file system queue.
 old-location: ifsk\ioregisterfilesystem.htm
 tech.root: ifsk

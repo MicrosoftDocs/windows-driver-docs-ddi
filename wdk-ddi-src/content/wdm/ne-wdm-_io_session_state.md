@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm._IO_SESSION_STATE
 title: "_IO_SESSION_STATE"
-author: windows-driver-content
 description: The IO_SESSION_STATE enumeration contains constants that indicate the current state of a user session.
 old-location: kernel\io_session_state.htm
 tech.root: kernel

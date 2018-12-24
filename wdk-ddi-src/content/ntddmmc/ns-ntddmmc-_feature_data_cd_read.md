@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_CD_READ
 title: "_FEATURE_DATA_CD_READ"
-author: windows-driver-content
 description: The FEATURE_DATA_CD_READ structure contains information about the CD Read feature.
 old-location: storage\feature_data_cd_read.htm
 tech.root: storage

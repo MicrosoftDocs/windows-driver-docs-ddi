@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlCreateSecurityDescriptorRelative
 title: RtlCreateSecurityDescriptorRelative function
-author: windows-driver-content
 description: The RtlCreateSecurityDescriptorRelative routine initializes a new security descriptor in self-relative format.
 old-location: ifsk\rtlcreatesecuritydescriptorrelative.htm
 tech.root: ifsk

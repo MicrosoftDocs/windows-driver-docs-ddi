@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IMiniportWaveRTInputStream
 title: IMiniportWaveRTInputStream
-author: windows-driver-content
 description: The IMiniportWaveRTInputStream interface represents the input wave stream that flows through a pin on the KS filter that wraps a WaveRT rendering or capture device. IMiniportWaveRTInputStream inherits from the IUnknown interface.
 old-location: audio\iminiportwavertinputstream.htm
 tech.root: audio

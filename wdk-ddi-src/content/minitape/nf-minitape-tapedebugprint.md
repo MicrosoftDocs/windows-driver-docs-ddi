@@ -1,7 +1,6 @@
 ---
 UID: NF:minitape.TapeDebugPrint
 title: TapeDebugPrint function
-author: windows-driver-content
 description: The TapeDebugPrint routine prints the indicated string.
 old-location: storage\tapedebugprint.htm
 tech.root: storage

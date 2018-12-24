@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_CLIENTHINT
 title: _D3DKMT_CLIENTHINT
-author: windows-driver-content
 description: Client hints.
 ms.assetid: dc5a7042-db2b-4a45-8000-8b81e18df5db
 ms.date: 10/19/2018

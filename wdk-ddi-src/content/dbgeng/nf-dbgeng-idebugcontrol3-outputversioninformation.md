@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.OutputVersionInformation
 title: IDebugControl3::OutputVersionInformation
-author: windows-driver-content
 description: The OutputVersionInformation method prints version information about the debugger engine to the debugger console.
 old-location: debugger\outputversioninformation.htm
 tech.root: debugger

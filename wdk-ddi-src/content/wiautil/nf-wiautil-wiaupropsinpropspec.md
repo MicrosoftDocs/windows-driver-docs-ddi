@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.wiauPropsInPropSpec
 title: wiauPropsInPropSpec function
-author: windows-driver-content
 description: The wiauPropsInPropSpec function determines whether any of a list of property specification IDs is contained within an array of such values.
 old-location: image\wiaupropsinpropspec.htm
 tech.root: image

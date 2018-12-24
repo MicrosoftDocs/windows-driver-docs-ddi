@@ -1,7 +1,6 @@
 ---
 UID: NS:portcls._PCSTREAMRESOURCE_DESCRIPTOR
 title: "_PCSTREAMRESOURCE_DESCRIPTOR"
-author: windows-driver-content
 description: PCSTREAMRESOURCE_DESCRIPTOR defines the stream resource. Use PCSTREAMRESOURCE_DESCRIPTOR_INIT to correctly initialize this structure.
 old-location: audio\pcstreamresource_descriptor.htm
 tech.root: audio

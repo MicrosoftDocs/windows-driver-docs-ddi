@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.ScsiPortReadRegisterUlong
 title: ScsiPortReadRegisterUlong macro
-author: windows-driver-content
 description: The ScsiPortReadRegisterUlong routine reads a ULONG value from the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportreadregisterulong.htm
 tech.root: storage

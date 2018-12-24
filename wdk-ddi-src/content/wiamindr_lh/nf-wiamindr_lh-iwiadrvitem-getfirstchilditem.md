@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaDrvItem.GetFirstChildItem
 title: IWiaDrvItem::GetFirstChildItem
-author: windows-driver-content
 description: The IWiaDrvItem::GetFirstChildItem method gets the first child item in an IWiaDrvItem folder item.
 old-location: image\iwiadrvitem_getfirstchilditem.htm
 tech.root: image

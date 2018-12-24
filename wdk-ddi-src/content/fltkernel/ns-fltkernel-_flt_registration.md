@@ -1,7 +1,6 @@
 ---
 UID: NS:fltkernel._FLT_REGISTRATION
 title: "_FLT_REGISTRATION"
-author: windows-driver-content
 description: The FLT_REGISTRATION structure is passed as a parameter to FltRegisterFilter.
 old-location: ifsk\flt_registration.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:rxprocs.RxCompleteRequest_Real
 title: RxCompleteRequest_Real function
-author: windows-driver-content
 description: RxCompleteRequest_Real completes the IRP request associated with an RX_CONTEXT structure.
 old-location: ifsk\rxcompleterequest_real.htm
 tech.root: ifsk

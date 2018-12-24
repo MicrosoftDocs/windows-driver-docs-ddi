@@ -1,7 +1,6 @@
 ---
 UID: NS:usbioctl._USB_HUB_INFORMATION
 title: "_USB_HUB_INFORMATION"
-author: windows-driver-content
 description: The USB_HUB_INFORMATION structure contains information about a hub.
 old-location: buses\usb_hub_information.htm
 tech.root: usbref

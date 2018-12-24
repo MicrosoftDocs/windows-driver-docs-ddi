@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_UNLOCK2
 title: "_D3DKMT_UNLOCK2"
-author: windows-driver-content
 description: D3DKMT_UNLOCK2 describes an allocation to unlock.
 old-location: display\d3dkmt_unlock2.htm
 ms.assetid: 8651297B-BCF7-42A2-9175-D9D072E052D6

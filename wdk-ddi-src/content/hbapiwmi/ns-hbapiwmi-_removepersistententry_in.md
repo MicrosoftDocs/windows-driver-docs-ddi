@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._RemovePersistentEntry_IN
 title: "_RemovePersistentEntry_IN"
-author: windows-driver-content
 description: The RemovePersistentEntry_IN structure is used by a WMI client to deliver input parameter data to the RemovePersistentEntry WMI method.
 old-location: storage\removepersistententry_in.htm
 tech.root: storage

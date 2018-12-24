@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE
 title: EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE
-author: windows-driver-content
 description: The EvtDeviceWdmPostPoFxRegisterDevice callback function performs device-specific operations after the framework has registered with the power framework.
 old-location: wdf\evtdevicewdmpostpofxregisterdevice.htm
 tech.root: wdf

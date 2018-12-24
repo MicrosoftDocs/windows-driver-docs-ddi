@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetRadix
 title: IDebugControl::GetRadix
-author: windows-driver-content
 description: The GetRadix method returns the default radix (number base) used by the debugger engine when it evaluates and displays MASM expressions, and when it displays symbol information.
 old-location: debugger\getradix.htm
 tech.root: debugger

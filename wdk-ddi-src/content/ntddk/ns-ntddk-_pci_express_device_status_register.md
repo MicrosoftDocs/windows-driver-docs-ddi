@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._PCI_EXPRESS_DEVICE_STATUS_REGISTER
 title: "_PCI_EXPRESS_DEVICE_STATUS_REGISTER"
-author: windows-driver-content
 description: The PCI_EXPRESS_DEVICE_STATUS_REGISTER structure describes a PCI Express (PCIe) device status register of a PCIe capability structure.
 old-location: pci\pci_express_device_status_register.htm
 tech.root: PCI

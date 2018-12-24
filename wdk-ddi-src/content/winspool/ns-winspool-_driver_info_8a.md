@@ -1,7 +1,6 @@
 ---
 UID: NS:winspool._DRIVER_INFO_8A
 title: "_DRIVER_INFO_8A"
-author: windows-driver-content
 description: The DRIVER_INFO_8 structure contains printer driver information.
 old-location: print\driver_info_8.htm
 tech.root: print

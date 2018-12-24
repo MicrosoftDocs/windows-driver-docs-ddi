@@ -1,7 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_MESSAGE_OUT
 title: _UCSI_MESSAGE_OUT
-author: windows-driver-content
 description: The MESSAGE OUT data structure. See Section 3.5.
 ms.assetid: c6b580ab-45c4-4cc9-b466-ae3d599b33b9
 tech.root: usbref

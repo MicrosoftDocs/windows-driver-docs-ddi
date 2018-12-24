@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoGetBaseFileSystemDeviceObject
 title: IoGetBaseFileSystemDeviceObject function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\iogetbasefilesystemdeviceobject.htm
 tech.root: ifsk

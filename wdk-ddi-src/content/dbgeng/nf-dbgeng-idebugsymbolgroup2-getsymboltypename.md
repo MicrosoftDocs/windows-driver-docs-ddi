@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.GetSymbolTypeName
 title: IDebugSymbolGroup2::GetSymbolTypeName
-author: windows-driver-content
 description: The GetSymbolTypeName methods return the name of the specified symbol's type.
 old-location: debugger\getsymboltypename.htm
 tech.root: debugger

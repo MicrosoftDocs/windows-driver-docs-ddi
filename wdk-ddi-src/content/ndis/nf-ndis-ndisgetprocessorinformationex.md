@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisGetProcessorInformationEx
 title: NdisGetProcessorInformationEx function
-author: windows-driver-content
 description: The NdisGetProcessorInformationEx function retrieves information about the CPU topology of the local computer.
 old-location: netvista\ndisgetprocessorinformationex.htm
 tech.root: netvista

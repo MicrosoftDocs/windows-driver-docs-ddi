@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_STRING
 title: "_BDA_STRING"
-author: windows-driver-content
 description: 
 old-location: stream\bda_string.htm
 tech.root: stream

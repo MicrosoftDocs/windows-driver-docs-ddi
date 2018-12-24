@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_WRITE_PROTECT
 title: "_FEATURE_DATA_WRITE_PROTECT"
-author: windows-driver-content
 description: The FEATURE_DATA_WRITE_PROTECT structure contains information about the Write Protect feature.
 old-location: storage\feature_data_write_protect.htm
 tech.root: storage

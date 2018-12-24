@@ -1,7 +1,6 @@
 ---
 UID: NF:ucmtcpcidevice.UcmTcpciDeviceInitialize
 title: UcmTcpciDeviceInitialize function
-author: windows-driver-content
 description: Initializes the USB Type-C Port Controller Interface framework extension (UcmTcpciCx).
 old-location: buses\ucmtcpcideviceinitialize.htm
 tech.root: usbref

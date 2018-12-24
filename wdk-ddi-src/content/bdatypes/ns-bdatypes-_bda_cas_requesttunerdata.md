@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_CAS_REQUESTTUNERDATA
 title: "_BDA_CAS_REQUESTTUNERDATA"
-author: windows-driver-content
 description: 
 old-location: stream\bda_cas_requesttunerdata.htm
 tech.root: stream

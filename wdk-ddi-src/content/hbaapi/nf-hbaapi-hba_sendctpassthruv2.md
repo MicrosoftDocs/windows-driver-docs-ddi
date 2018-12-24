@@ -1,7 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_SendCTPassThruV2
 title: HBA_SendCTPassThruV2 function
-author: windows-driver-content
 description: The HBA_SendCTPassThruV2 routine sends a common transport (CT) pass-through command through the indicated port.
 old-location: storage\hba_sendctpassthruv2.htm
 tech.root: storage

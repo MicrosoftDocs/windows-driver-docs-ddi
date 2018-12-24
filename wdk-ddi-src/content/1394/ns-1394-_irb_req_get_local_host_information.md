@@ -1,7 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_GET_LOCAL_HOST_INFORMATION
 title: "_IRB_REQ_GET_LOCAL_HOST_INFORMATION"
-author: windows-driver-content
 description: This structure contains the fields necessary for the 1394 bus driver to carry out a GetLocalHostInformation request.
 old-location: ieee\irb_req_get_local_host_information.htm
 tech.root: IEEE

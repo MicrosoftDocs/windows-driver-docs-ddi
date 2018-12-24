@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3DWDDM2_4DDI_VIDEO_OUTPUT_RS4_0
 title: D3DWDDM2_4DDI_VIDEO_OUTPUT_RS4_0
-author: windows-driver-content
 description: This structure is not implemented.
 ms.assetid: 091b9d97-1656-4f02-b90c-d3663ee9bc11
 ms.date: 10/19/2018

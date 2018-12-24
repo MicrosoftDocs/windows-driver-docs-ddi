@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced3.GetSourceFileInformationWide
 title: IDebugAdvanced3::GetSourceFileInformationWide
-author: windows-driver-content
 description: The GetSourceFileInformationWide method returns specified information about a source file.
 old-location: debugger\getsourcefileinformationwide.htm
 tech.root: debugger

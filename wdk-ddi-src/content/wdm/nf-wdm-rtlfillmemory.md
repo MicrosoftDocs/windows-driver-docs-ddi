@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlFillMemory
 title: RtlFillMemory macro
-author: windows-driver-content
 description: The RtlFillMemory routine fills a block of memory with the specified fill value.
 old-location: kernel\rtlfillmemory.htm
 tech.root: kernel

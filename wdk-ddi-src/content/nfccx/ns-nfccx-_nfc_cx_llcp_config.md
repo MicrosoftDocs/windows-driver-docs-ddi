@@ -1,7 +1,6 @@
 ---
 UID: NS:nfccx._NFC_CX_LLCP_CONFIG
 title: "_NFC_CX_LLCP_CONFIG"
-author: windows-driver-content
 description: The NFC_CX_LLCP_CONFIG structure is an input parameter to NfcCxSetLlcpConfig.
 old-location: nfpdrivers\nfc_cx_llcp_config.htm
 tech.root: nfpdrivers

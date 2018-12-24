@@ -1,7 +1,6 @@
 ---
 UID: NE:ksproxy.__unnamed_enum_7
 title: KSIOOPERATION
-author: windows-driver-content
 description: 
 old-location: stream\ksiooperation.htm
 tech.root: stream

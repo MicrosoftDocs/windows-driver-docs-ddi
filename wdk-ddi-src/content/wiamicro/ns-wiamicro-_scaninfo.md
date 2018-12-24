@@ -1,7 +1,6 @@
 ---
 UID: NS:wiamicro._SCANINFO
 title: "_SCANINFO"
-author: windows-driver-content
 description: The SCANINFO structure is used to store and communicate information about a scan acquisition.
 old-location: image\scaninfo.htm
 tech.root: image

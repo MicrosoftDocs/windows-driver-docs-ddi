@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IDmaChannel.MaximumBufferSize
 title: IDmaChannel::MaximumBufferSize
-author: windows-driver-content
 description: The MaximumBufferSize method returns the size in bytes of the largest buffer that this DMA-channel object is configured to support.
 tech.root: audio
 ms.assetid: 85d5a1be-e372-4d64-9b27-631f566094ba

@@ -1,7 +1,6 @@
 ---
 UID: NF:ucmmanager.UCM_CONNECTOR_PD_CONFIG_INIT
 title: UCM_CONNECTOR_PD_CONFIG_INIT function
-author: windows-driver-content
 description: Initializes a UCM_CONNECTOR_PD_CONFIG structure.
 old-location: buses\ucm_connector_pd_config_init.htm
 tech.root: usbref

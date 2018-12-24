@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SMS_READ
 title: "_NDIS_WWAN_SMS_READ"
-author: windows-driver-content
 description: The NDIS_WWAN_SMS_READ structure represents an SMS message to read.
 old-location: netvista\ndis_wwan_sms_read.htm
 tech.root: netvista

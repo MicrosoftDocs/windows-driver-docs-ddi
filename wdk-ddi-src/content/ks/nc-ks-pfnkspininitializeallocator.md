@@ -1,7 +1,6 @@
 ---
 UID: NC:ks.PFNKSPININITIALIZEALLOCATOR
 title: PFNKSPININITIALIZEALLOCATOR
-author: windows-driver-content
 description: An AVStream minidriver's AVStrMiniInitializeAllocator routine initializes an allocator that will be associated with a pin.
 old-location: stream\avstrminiinitializeallocator.htm
 tech.root: stream

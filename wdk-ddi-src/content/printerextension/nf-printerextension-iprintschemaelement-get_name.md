@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaElement.get_Name
 title: IPrintSchemaElement::get_Name
-author: windows-driver-content
 description: Gets the base value of the &#0034;name&#0034; attribute of this node.
 old-location: print\iprintschemaelement_name.htm
 tech.root: print

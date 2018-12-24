@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortUnlockBuffer
 title: VideoPortUnlockBuffer function
-author: windows-driver-content
 description: The VideoPortUnLockBuffer function unlocks physical pages described by the specified memory descriptor list (MDL).
 old-location: display\videoportunlockbuffer.htm
 tech.root: display

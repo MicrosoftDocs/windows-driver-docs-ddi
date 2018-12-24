@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsPublishDeviceProfile
 title: KsPublishDeviceProfile function
-author: windows-driver-content
 description: The KsPublishDeviceProfile API is called to publish device profile information.
 old-location: stream\kspublishdeviceprofile.htm
 tech.root: stream

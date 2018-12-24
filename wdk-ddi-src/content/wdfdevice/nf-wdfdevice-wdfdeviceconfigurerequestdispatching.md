@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceConfigureRequestDispatching
 title: WdfDeviceConfigureRequestDispatching function
-author: windows-driver-content
 description: The WdfDeviceConfigureRequestDispatching method causes the framework to queue a specified type of I/O requests to a specified I/O queue.
 old-location: wdf\wdfdeviceconfigurerequestdispatching.htm
 tech.root: wdf

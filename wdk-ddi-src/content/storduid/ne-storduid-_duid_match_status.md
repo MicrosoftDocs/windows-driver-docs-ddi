@@ -1,7 +1,6 @@
 ---
 UID: NE:storduid._DUID_MATCH_STATUS
 title: "_DUID_MATCH_STATUS"
-author: windows-driver-content
 description: The DUID_MATCH_STATUS enumeration lists the status values that the CompareStorageDuids routine returns.
 old-location: storage\duid_match_status.htm
 tech.root: storage

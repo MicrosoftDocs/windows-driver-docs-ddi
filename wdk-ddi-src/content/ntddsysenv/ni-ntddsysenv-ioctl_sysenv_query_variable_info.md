@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddsysenv.IOCTL_SYSENV_QUERY_VARIABLE_INFO
 title: IOCTL_SYSENV_QUERY_VARIABLE_INFO
-author: windows-driver-content
 description: Returns information about system environment variables using SysEnv device.
 old-location: kernel\ioctl_ioctl_sysenv_query_variable_info.htm
 tech.root: kernel

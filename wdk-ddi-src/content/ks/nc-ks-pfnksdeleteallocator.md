@@ -1,7 +1,6 @@
 ---
 UID: NC:ks.PFNKSDELETEALLOCATOR
 title: PFNKSDELETEALLOCATOR
-author: windows-driver-content
 description: An AVStream minidriver's AVStrMiniDeleteAllocator routine deletes the allocator that is associated with a pin.
 old-location: stream\avstrminideleteallocator.htm
 tech.root: stream

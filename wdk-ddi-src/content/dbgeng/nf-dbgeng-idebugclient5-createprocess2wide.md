@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.CreateProcess2Wide
 title: IDebugClient5::CreateProcess2Wide
-author: windows-driver-content
 description: The CreateProcess2Wide method executes the specified command to create a new process.
 old-location: debugger\createprocess2wide.htm
 tech.root: debugger

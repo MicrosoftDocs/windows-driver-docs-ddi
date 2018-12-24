@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsimgt._ISCSI_Path
 title: "_ISCSI_Path"
-author: windows-driver-content
 description: The ISCSI_Path structure contains information about a connection of the iSCSI portal.
 old-location: storage\iscsi_path.htm
 tech.root: storage

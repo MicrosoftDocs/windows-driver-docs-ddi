@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.CoerceValues
 title: IDebugControl2::CoerceValues
-author: windows-driver-content
 description: The CoerceValues method converts an array of values into an array of values of different types.
 old-location: debugger\coercevalues.htm
 tech.root: debugger

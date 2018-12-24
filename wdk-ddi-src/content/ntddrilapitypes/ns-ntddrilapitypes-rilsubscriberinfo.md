@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILSUBSCRIBERINFO
 title: RILSUBSCRIBERINFO
-author: windows-driver-content
 description: This structure represents RILSUBSCRIBERINFO.
 old-location: netvista\rilsubscriberinfo.htm
 tech.root: netvista

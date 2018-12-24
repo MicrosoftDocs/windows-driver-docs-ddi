@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DESTROYHWQUEUECB
 title: PFND3DDDI_DESTROYHWQUEUECB
-author: windows-driver-content
 description: A callback to destroy a hardware queue.
 old-location: display\pfnd3dddi_destroyhwqueuecb.htm
 tech.root: display

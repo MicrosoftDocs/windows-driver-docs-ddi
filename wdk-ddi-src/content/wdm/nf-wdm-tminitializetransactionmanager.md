@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.TmInitializeTransactionManager
 title: TmInitializeTransactionManager function
-author: windows-driver-content
 description: The TmInitializeTransactionManager routine initializes a transaction manager object.
 old-location: kernel\tminitializetransactionmanager_.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlIsTotalDeviceFailure
 title: FsRtlIsTotalDeviceFailure function
-author: windows-driver-content
 description: The FsRtlIsTotalDeviceFailure routine determines whether a media or other hardware failure has occurred.
 old-location: ifsk\fsrtlistotaldevicefailure.htm
 tech.root: ifsk

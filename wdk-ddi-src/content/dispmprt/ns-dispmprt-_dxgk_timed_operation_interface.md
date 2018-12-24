@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_TIMED_OPERATION_INTERFACE
 title: "_DXGK_TIMED_OPERATION_INTERFACE"
-author: windows-driver-content
 description: The DXGK_TIMED_OPERATION_INTERFACE structure contains pointers to functions in the Timed Operation Interface, which is implemented by the display port driver.
 old-location: display\dxgk_timed_operation_interface.htm
 tech.root: display

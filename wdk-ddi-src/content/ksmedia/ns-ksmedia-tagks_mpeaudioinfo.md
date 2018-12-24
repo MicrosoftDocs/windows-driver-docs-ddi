@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_MPEAUDIOINFO
 title: tagKS_MPEAUDIOINFO
-author: windows-driver-content
 description: The KS_MPEGAUDIOINFO structure describes an MPEG audio stream.
 old-location: stream\ks_mpegaudioinfo.htm
 tech.root: stream

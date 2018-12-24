@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ObDereferenceObjectWithTag
 title: ObDereferenceObjectWithTag macro
-author: windows-driver-content
 description: The ObDereferenceObjectWithTag routine decrements the reference count of the specified object, and writes a four-byte tag value to the object to support object reference tracing.
 old-location: kernel\obdereferenceobjectwithtag.htm
 tech.root: kernel

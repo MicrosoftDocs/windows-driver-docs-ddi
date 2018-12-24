@@ -1,7 +1,6 @@
 ---
 UID: NS:ucxusbdevice._UCX_USBDEVICE_EVENT_CALLBACKS
 title: "_UCX_USBDEVICE_EVENT_CALLBACKS"
-author: windows-driver-content
 description: This structure provides a list of UCX USB device event callback functions.
 old-location: buses\_ucx_usbdevice_event_callbacks.htm
 tech.root: usbref

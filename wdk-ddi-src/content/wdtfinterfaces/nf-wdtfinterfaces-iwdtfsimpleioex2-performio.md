@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOEx2.PerformIO
 title: IWDTFSimpleIOEx2::PerformIO
-author: windows-driver-content
 description: Performs a small amount of simple I/O to the device.
 old-location: dtf\iwdtfsimpleioex2_performio.htm
 tech.root: dtf

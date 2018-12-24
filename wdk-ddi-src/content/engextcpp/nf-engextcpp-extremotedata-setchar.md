@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.SetChar
 title: ExtRemoteData::SetChar method
-author: windows-driver-content
 description: The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods.
 old-location: debugger\extremotedata.htm
 tech.root: debugger

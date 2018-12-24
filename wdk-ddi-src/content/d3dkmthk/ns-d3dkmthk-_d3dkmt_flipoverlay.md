@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_FLIPOVERLAY
 title: "_D3DKMT_FLIPOVERLAY"
-author: windows-driver-content
 description: The D3DKMT_FLIPOVERLAY structure describes a new allocation to display for the overlay.
 old-location: display\d3dkmt_flipoverlay.htm
 ms.assetid: 7e224009-dccb-41e5-99e8-01f1479aa79f

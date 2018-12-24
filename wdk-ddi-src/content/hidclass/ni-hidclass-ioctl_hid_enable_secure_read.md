@@ -1,7 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_ENABLE_SECURE_READ
 title: IOCTL_HID_ENABLE_SECURE_READ
-author: windows-driver-content
 description: The IOCTL_HID_ENABLE_SECURE_READ request enables a secure read for open files of a HID collection.
 old-location: hid\ioctl_hid_enable_secure_read.htm
 tech.root: hid

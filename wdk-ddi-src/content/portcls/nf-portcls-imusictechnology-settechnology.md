@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMusicTechnology.SetTechnology
 title: IMusicTechnology::SetTechnology
-author: windows-driver-content
 description: The SetTechnology method changes the Technology member of each KSDATARANGE_MUSIC structure in the data ranges for the miniport driver's pins.
 old-location: audio\imusictechnology_settechnology.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._MSFC_TargetEvent
 title: "_MSFC_TargetEvent"
-author: windows-driver-content
 description: A WMI provider uses the MSFC_TargetEvent structure to report port events for the indicated adapter.
 old-location: storage\msfc_targetevent.htm
 tech.root: storage

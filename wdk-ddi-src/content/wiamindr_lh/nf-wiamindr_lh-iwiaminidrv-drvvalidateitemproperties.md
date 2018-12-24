@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvValidateItemProperties
 title: IWiaMiniDrv::drvValidateItemProperties
-author: windows-driver-content
 description: The IWiaMiniDrv::drvValidateItemProperties method validates an item's properties against the set of valid values for each property and will update those properties if necessary.
 old-location: image\iwiaminidrv_drvvalidateitemproperties.htm
 tech.root: image

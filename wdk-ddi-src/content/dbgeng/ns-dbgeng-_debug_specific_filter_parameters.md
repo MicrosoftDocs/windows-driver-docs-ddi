@@ -1,7 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_SPECIFIC_FILTER_PARAMETERS
 title: "_DEBUG_SPECIFIC_FILTER_PARAMETERS"
-author: windows-driver-content
 description: The DEBUG_SPECIFIC_FILTER_PARAMETERS structure contains the parameters for a specific event filter.
 old-location: debugger\debug_specific_filter_parameters.htm
 tech.root: debugger

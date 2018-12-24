@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDynamicConceptProviderConcept.NotifyParent
 title: IDynamicConceptProviderConcept::NotifyParent
-author: windows-driver-content
 description: The NotifyParent call is used by the core data model to inform the dynamic provider of the single parent model which is created to allow for bridging the "multiple parent models" paradigm.
 ms.assetid: 200f5925-57bf-4b7d-b187-39b5daab0992
 ms.date: 09/19/2018

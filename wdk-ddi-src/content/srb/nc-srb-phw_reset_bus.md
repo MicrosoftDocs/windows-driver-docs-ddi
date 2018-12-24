@@ -1,7 +1,6 @@
 ---
 UID: NC:srb.PHW_RESET_BUS
 title: PHW_RESET_BUS
-author: windows-driver-content
 description: The PHW_RESET_BUS prototype declares a routine that resets the indicated SCSI bus.
 old-location: storage\phw_reset_bus.htm
 tech.root: storage

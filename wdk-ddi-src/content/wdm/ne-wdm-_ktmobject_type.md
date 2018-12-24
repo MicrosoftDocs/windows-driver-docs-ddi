@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm._KTMOBJECT_TYPE
 title: "_KTMOBJECT_TYPE"
-author: windows-driver-content
 description: The KTMOBJECT_TYPE enumeration identifies the types of objects that KTM supports.
 old-location: kernel\ktmobject_type.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsStreamPointerUnlock
 title: KsStreamPointerUnlock function
-author: windows-driver-content
 description: The KsStreamPointerUnlock function unlocks a stream pointer that has previously been locked by an acquisition function (KsGetXxxEdgeStreamPointer) or by KsStreamPointerLock.
 old-location: stream\ksstreampointerunlock.htm
 tech.root: stream

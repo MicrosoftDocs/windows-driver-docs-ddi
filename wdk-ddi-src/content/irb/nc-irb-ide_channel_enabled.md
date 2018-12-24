@@ -1,7 +1,6 @@
 ---
 UID: NC:irb.IDE_CHANNEL_ENABLED
 title: IDE_CHANNEL_ENABLED
-author: windows-driver-content
 description: The AtaControllerChannelEnabled miniport driver routine indicates whether the specified channel is enabled.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\atacontrollerchannelenabled.htm
 tech.root: storage

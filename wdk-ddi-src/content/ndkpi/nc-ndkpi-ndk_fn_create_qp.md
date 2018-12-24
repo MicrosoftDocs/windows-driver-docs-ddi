@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_CREATE_QP
 title: NDK_FN_CREATE_QP
-author: windows-driver-content
 description: The NdkCreateQp (NDK_FN_CREATE_QP) function creates an NDK queue pair (QP) object.
 old-location: netvista\ndk_fn_create_qp.htm
 tech.root: netvista

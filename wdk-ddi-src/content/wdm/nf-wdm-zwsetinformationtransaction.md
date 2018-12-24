@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwSetInformationTransaction
 title: ZwSetInformationTransaction function
-author: windows-driver-content
 description: The ZwSetInformationTransaction routine sets information for a specified transaction.
 old-location: kernel\zwsetinformationtransaction.htm
 tech.root: kernel

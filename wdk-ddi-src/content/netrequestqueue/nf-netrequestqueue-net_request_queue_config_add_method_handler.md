@@ -1,7 +1,6 @@
 ---
 UID: NF:netrequestqueue.NET_REQUEST_QUEUE_CONFIG_ADD_METHOD_HANDLER
 title: NET_REQUEST_QUEUE_CONFIG_ADD_METHOD_HANDLER function
-author: windows-driver-content
 description: Adds a caller-provided handler for a specific OID method request to a NET_REQUEST_QUEUE_CONFIG structure.
 tech.root: netvista
 ms.assetid: 6dba1c38-fcf3-49f3-a1ad-925ab6f545b5

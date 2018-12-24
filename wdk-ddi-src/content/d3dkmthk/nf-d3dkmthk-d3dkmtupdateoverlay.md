@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTUpdateOverlay
 title: D3DKMTUpdateOverlay function
-author: windows-driver-content
 description: The D3DKMTUpdateOverlay function modifies a kernel-mode overlay object.
 old-location: display\d3dkmtupdateoverlay.htm
 ms.assetid: bd8fc34a-60a3-4ae7-b13e-50d8b4342834

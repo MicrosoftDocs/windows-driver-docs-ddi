@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_27
 title: KSRTAUDIO_HWLATENCY
-author: windows-driver-content
 description: The KSRTAUDIO_HWLATENCY structure describes the latency that the audio hardware adds to a wave stream during playback or recording.
 old-location: audio\ksrtaudio_hwlatency.htm
 tech.root: audio

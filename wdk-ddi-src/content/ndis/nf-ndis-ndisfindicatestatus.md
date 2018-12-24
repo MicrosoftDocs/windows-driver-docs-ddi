@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisFIndicateStatus
 title: NdisFIndicateStatus function
-author: windows-driver-content
 description: The NdisFIndicateStatus function passes on a filtered status indication from an underlying driver or originates a status indication.
 old-location: netvista\ndisfindicatestatus.htm
 tech.root: netvista

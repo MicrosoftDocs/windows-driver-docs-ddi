@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10_1_DDI_BLEND_DESC
 title: D3D10_1_DDI_BLEND_DESC
-author: windows-driver-content
 description: The D3D10_1_DDI_BLEND_DESC structure describes a blend state.
 old-location: display\d3d10_1_ddi_blend_desc.htm
 ms.assetid: e398b1a3-60bf-4a4a-b5c2-1dc11cf3dae1

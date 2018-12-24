@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMDeviceCapabilities
 title: OEMDeviceCapabilities function
-author: windows-driver-content
 description: OEMDeviceCapabilities function
 old-location: print\oemdevicecapabilities.htm
 tech.root: print

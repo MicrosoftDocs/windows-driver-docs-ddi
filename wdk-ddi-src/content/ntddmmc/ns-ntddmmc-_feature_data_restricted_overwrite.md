@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_RESTRICTED_OVERWRITE
 title: "_FEATURE_DATA_RESTRICTED_OVERWRITE"
-author: windows-driver-content
 description: The FEATURE_DATA_RESTRICTED_OVERWRITE structure holds information about the Restricted Overwrite feature.
 old-location: storage\feature_data_restricted_overwrite.htm
 tech.root: storage

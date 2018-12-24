@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IPortWMIRegistration
 title: IPortWMIRegistration
-author: windows-driver-content
 description: The IPortWMIRegistration interface is provided in Windows 7 and later versions of Windows. This interface allows the miniport driver to coordinate Event Tracing for Windows (ETW) registration between PortCls and the miniport driver.
 old-location: audio\iportwmiregistration.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.SetMatchThreadId
 title: IDebugBreakpoint::SetMatchThreadId
-author: windows-driver-content
 description: The SetMatchThreadId method sets the engine thread ID of the thread that can trigger a breakpoint.
 old-location: debugger\setmatchthreadid.htm
 tech.root: debugger

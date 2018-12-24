@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_PANEL_GET_BACKLIGHT_REDUCTION
 title: IOCTL_PANEL_GET_BACKLIGHT_REDUCTION
-author: windows-driver-content
 description: Panel control IOCTLs must/can be handled by the monitor, OEM panel, or port/miniport driver.
 ms.assetid: 376241d5-082c-45b2-b7bf-b6fe5dd4eb39
 ms.date: 10/19/2018

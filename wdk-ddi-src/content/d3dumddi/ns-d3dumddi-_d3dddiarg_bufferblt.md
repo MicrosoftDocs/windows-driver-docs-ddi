@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_BUFFERBLT
 title: "_D3DDDIARG_BUFFERBLT"
-author: windows-driver-content
 description: The D3DDDIARG_BUFFERBLT structure describes the parameters of a buffer bit-block transfer (bitblt) operation.
 old-location: display\d3dddiarg_bufferblt.htm
 tech.root: display

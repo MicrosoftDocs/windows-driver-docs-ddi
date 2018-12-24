@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTLock2
 title: D3DKMTLock2 function
-author: windows-driver-content
 description: The D3DKMTLock2 function locks an entire allocation or specific pages within an allocation.
 old-location: display\d3dkmtlock2.htm
 ms.assetid: 033FF321-2617-4AAF-8445-10800411F0B5

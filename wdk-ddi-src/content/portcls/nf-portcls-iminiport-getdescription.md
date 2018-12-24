@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniport.GetDescription
 title: IMiniport::GetDescription
-author: windows-driver-content
 description: The GetDescription method outputs a pointer to the miniport object's filter descriptor.
 tech.root: audio
 ms.assetid: 1e5d13a0-4052-4655-8e48-8cbe87ffc685

@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortReleaseDeviceLock
 title: VideoPortReleaseDeviceLock function
-author: windows-driver-content
 description: The VideoPortReleaseDeviceLock function releases the device lock acquired in a prior call to VideoPortAcquireDeviceLock.
 old-location: display\videoportreleasedevicelock.htm
 tech.root: display

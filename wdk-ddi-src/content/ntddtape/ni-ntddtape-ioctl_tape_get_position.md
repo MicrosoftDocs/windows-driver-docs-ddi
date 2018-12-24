@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddtape.IOCTL_TAPE_GET_POSITION
 title: IOCTL_TAPE_GET_POSITION
-author: windows-driver-content
 description: Returns the current absolute, logical, or pseudological partition and offset position on the tape.
 old-location: storage\ioctl_tape_get_position.htm
 tech.root: storage

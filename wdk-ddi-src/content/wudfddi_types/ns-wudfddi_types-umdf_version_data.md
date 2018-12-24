@@ -1,7 +1,6 @@
 ---
 UID: NS:wudfddi_types.UMDF_VERSION_DATA
 title: UMDF_VERSION_DATA
-author: windows-driver-content
 description: The UMDF_VERSION_DATA structure describes a version of the framework.
 old-location: wdf\umdf_version_data.htm
 tech.root: wdf

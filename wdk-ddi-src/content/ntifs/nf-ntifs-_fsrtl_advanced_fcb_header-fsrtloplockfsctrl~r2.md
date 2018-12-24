@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlOplockFsctrl~r2
 title: FsRtlOplockFsctrl function
-author: windows-driver-content
 description: FsRtlOplockFsctrl performs various opportunistic lock (oplock) operations on behalf of a file system or filter driver.
 old-location: ifsk\fsrtloplockfsctrl.htm
 tech.root: ifsk

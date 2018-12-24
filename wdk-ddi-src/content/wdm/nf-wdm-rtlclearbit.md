@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlClearBit
 title: RtlClearBit function
-author: windows-driver-content
 description: The RtlClearBit routine sets the specified bit in a bitmap to zero.
 old-location: kernel\rtlclearbit.htm
 tech.root: kernel

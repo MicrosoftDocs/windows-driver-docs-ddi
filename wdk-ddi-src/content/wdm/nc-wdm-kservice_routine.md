@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.KSERVICE_ROUTINE
 title: KSERVICE_ROUTINE
-author: windows-driver-content
 description: The InterruptService routine (ISR) quickly services a device interrupt and schedules post-interrupt processing of received data, if necessary.
 old-location: kernel\interruptservice.htm
 tech.root: kernel

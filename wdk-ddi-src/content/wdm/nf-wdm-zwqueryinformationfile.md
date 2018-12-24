@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwQueryInformationFile
 title: ZwQueryInformationFile function
-author: windows-driver-content
 description: The ZwQueryInformationFile routine returns various kinds of information about a file object.
 old-location: kernel\zwqueryinformationfile.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NC:systemrng.PENTROPY_SOURCE_CALLBACK_FUNCTION
 title: PENTROPY_SOURCE_CALLBACK_FUNCTION
-author: windows-driver-content
 description: 
 ms.assetid: e9ed974c-3854-4644-8ad9-9f694082698e
 ms.date: 10/19/2018

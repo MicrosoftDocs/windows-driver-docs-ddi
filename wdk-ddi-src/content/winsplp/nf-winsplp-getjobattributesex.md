@@ -1,7 +1,6 @@
 ---
 UID: NF:winsplp.GetJobAttributesEx
 title: GetJobAttributesEx function
-author: windows-driver-content
 description: Warning  Starting with Windows 10, the APIs which support third-party print providers are deprecated.
 old-location: print\getjobattributesex.htm
 tech.root: print

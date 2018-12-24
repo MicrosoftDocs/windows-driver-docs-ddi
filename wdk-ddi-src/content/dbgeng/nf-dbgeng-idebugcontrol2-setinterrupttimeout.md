@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.SetInterruptTimeout
 title: IDebugControl2::SetInterruptTimeout
-author: windows-driver-content
 description: The SetInterruptTimeout method sets the number of seconds that the debugger engine should wait when requesting a break into the debugger.
 old-location: debugger\setinterrupttimeout.htm
 tech.root: debugger

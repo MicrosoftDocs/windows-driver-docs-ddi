@@ -1,7 +1,6 @@
 ---
 UID: NF:ucmtcpciportcontroller.UcmTcpciPortControllerStop
 title: UcmTcpciPortControllerStop function
-author: windows-driver-content
 description: Indicates to the UcmTcpciCx class extension to stop sending hardware requests to the port controller object.
 old-location: buses\ucmtcpciportcontrollerstop.htm
 tech.root: usbref

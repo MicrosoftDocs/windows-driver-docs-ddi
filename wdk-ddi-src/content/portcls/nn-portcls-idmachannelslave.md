@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IDmaChannelSlave
 title: IDmaChannelSlave
-author: windows-driver-content
 description: The IDmaChannelSlave interface provides methods for monitoring and controlling a DMA channel for a subordinate device (as described in Introduction to Adapter Objects).
 old-location: audio\idmachannelslave.htm
 tech.root: audio

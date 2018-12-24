@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SIGNALSYNCHRONIZATIONOBJECT
 title: "_D3DKMT_SIGNALSYNCHRONIZATIONOBJECT"
-author: windows-driver-content
 description: The D3DKMT_SIGNALSYNCHRONIZATIONOBJECT structure contains information about the synchronization events that the D3DKMTSignalSynchronizationObject function signals.
 old-location: display\d3dkmt_signalsynchronizationobject.htm
 ms.assetid: 13368ea2-dd2e-48af-b528-097104dffb60

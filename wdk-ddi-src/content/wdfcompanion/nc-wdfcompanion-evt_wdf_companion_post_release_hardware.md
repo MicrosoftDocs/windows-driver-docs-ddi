@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfcompanion.EVT_WDF_COMPANION_POST_RELEASE_HARDWARE
 title: EVT_WDF_COMPANION_POST_RELEASE_HARDWARE
-author: windows-driver-content
 description: For internal use only.
 old-location: wdf\evt_wdf_companion_post_release_hardware.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NC:portcls.PCPFNEVENT_HANDLER
 title: PCPFNEVENT_HANDLER
-author: windows-driver-content
 description: An EventHandler routine processes event requests.
 old-location: audio\eventhandler.htm
 tech.root: audio

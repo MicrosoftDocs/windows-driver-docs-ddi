@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILGETDRIVERVERSIONPARAMS
 title: RILGETDRIVERVERSIONPARAMS
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilgetdriverversionparams.htm
 tech.root: netvista

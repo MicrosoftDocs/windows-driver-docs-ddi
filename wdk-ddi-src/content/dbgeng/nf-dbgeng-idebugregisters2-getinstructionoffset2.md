@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetInstructionOffset2
 title: IDebugRegisters2::GetInstructionOffset2
-author: windows-driver-content
 description: The GetInstructionOffset2 method returns the location of the current thread's current instruction.
 old-location: debugger\getinstructionoffset2.htm
 tech.root: debugger

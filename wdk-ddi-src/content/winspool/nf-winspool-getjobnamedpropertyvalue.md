@@ -1,7 +1,6 @@
 ---
 UID: NF:winspool.GetJobNamedPropertyValue
 title: GetJobNamedPropertyValue function
-author: windows-driver-content
 description: Retrieves the value of the named property for the specified print job on the specified printer.
 old-location: print\getjobnamedpropertyvalue.htm
 tech.root: print

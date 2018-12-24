@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.PsTerminateServerSilo
 title: PsTerminateServerSilo function
-author: windows-driver-content
 description: This routine terminates the specified silo.
 old-location: kernel\psterminateserversilo.htm
 tech.root: kernel

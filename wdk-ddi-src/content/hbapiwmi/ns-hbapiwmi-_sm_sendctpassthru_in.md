@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SendCTPassThru_IN
 title: "_SM_SendCTPassThru_IN"
-author: windows-driver-content
 description: The SM_SendCTPassThru_IN structure is used to provide input parameters to the SM_SendCTPassThru method.
 old-location: storage\sm_sendctpassthru_in.htm
 tech.root: storage

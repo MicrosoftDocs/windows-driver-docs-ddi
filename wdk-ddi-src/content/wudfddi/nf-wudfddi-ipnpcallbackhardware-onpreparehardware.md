@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallbackHardware.OnPrepareHardware
 title: IPnpCallbackHardware::OnPrepareHardware
-author: windows-driver-content
 description: The OnPrepareHardware method notifies a driver to make the specified hardware accessible.
 old-location: wdf\ipnpcallbackhardware_onpreparehardware.htm
 tech.root: wdf

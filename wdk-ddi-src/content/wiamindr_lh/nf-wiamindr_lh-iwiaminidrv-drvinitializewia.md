@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvInitializeWia
 title: IWiaMiniDrv::drvInitializeWia
-author: windows-driver-content
 description: The IWiaMiniDrv::drvInitializeWia method initializes the minidriver and builds the driver item tree representing the device.
 old-location: image\iwiaminidrv_drvinitializewia.htm
 tech.root: image

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlSSIZETSub
 title: RtlSSIZETSub function
-author: windows-driver-content
 description: Subtracts one value of type SSIZE_T from another.
 old-location: kernel\rtlssizetsub.htm
 tech.root: kernel

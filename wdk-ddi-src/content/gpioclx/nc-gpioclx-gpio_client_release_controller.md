@@ -1,7 +1,6 @@
 ---
 UID: NC:gpioclx.GPIO_CLIENT_RELEASE_CONTROLLER
 title: GPIO_CLIENT_RELEASE_CONTROLLER
-author: windows-driver-content
 description: The CLIENT_ReleaseController event callback function performs operations that are needed when the general-purpose I/O (GPIO) controller device is no longer accessible.
 old-location: gpio\client_releasecontroller.htm
 tech.root: GPIO

@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMFontInstallerDlgProc
 title: OEMFontInstallerDlgProc function
-author: windows-driver-content
 description: OEMFontInstallerDlgProc function
 old-location: print\oemfontinstallerdlgproc.htm
 tech.root: print

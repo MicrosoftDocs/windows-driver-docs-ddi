@@ -1,7 +1,6 @@
 ---
 UID: NC:usbbusif.PUSB_BUSIFFN_QUERY_BUS_TIME_EX
 title: PUSB_BUSIFFN_QUERY_BUS_TIME_EX
-author: windows-driver-content
 description: The QueryBusTimeEx routine gets the current 32-bit USB micro-frame number.
 old-location: buses\querybustimeex.htm
 tech.root: usbref

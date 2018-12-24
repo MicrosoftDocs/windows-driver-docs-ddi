@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS
 title: D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS
-author: windows-driver-content
 description: Defines command queue creation options.
 old-location: display\d3d12ddi_command_queue_creation_flags.htm
 ms.assetid: 6BA4B1B4-07D6-4498-BDA4-C559FB3E8843

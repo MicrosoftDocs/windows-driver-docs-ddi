@@ -1,7 +1,6 @@
 ---
 UID: NC:hdaudio.PSET_DMA_ENGINE_STATE
 title: PSET_DMA_ENGINE_STATE
-author: windows-driver-content
 description: The SetDmaEngineState routine sets the state of one or more DMA engines to the Running, Stopped, Paused, or Reset state.The function pointer type for a SetDmaEngineState routine is defined as follows.
 old-location: audio\setdmaenginestate.htm
 tech.root: audio

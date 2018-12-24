@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_LOAD_MEDIA
 title: IOCTL_STORAGE_LOAD_MEDIA
-author: windows-driver-content
 description: Causes media to be loaded in a device that the caller has opened for read or write access.
 old-location: storage\ioctl_storage_load_media.htm
 tech.root: storage

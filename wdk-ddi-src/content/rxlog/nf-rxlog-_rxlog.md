@@ -1,7 +1,6 @@
 ---
 UID: NF:rxlog._RxLog
 title: "_RxLog function"
-author: windows-driver-content
 description: "_RxLog takes a format string and variable number of parameters and formats an output string for recording as an I/O error log entry if logging is enabled."
 old-location: ifsk\_rxlog.htm
 tech.root: ifsk

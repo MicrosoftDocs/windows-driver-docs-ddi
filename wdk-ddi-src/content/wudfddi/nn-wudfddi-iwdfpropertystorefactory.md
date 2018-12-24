@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFPropertyStoreFactory
 title: IWDFPropertyStoreFactory
-author: windows-driver-content
 description: The IWDFPropertyStoreFactory interface is a factory interface that is used to create a property store interface.
 old-location: wdf\iwdfpropertystorefactory.htm
 tech.root: wdf

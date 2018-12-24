@@ -1,7 +1,6 @@
 ---
 UID: NF:ufxclient.UfxDeviceNotifyReset
 title: UfxDeviceNotifyReset function
-author: windows-driver-content
 description: Notifies UFX about a USB bus reset event.
 old-location: buses\ufxdevicenotifyreset.htm
 tech.root: usbref

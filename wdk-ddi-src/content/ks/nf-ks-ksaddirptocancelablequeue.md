@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsAddIrpToCancelableQueue
 title: KsAddIrpToCancelableQueue function
-author: windows-driver-content
 description: The KsAddIrpToCancelableQueue function adds an IRP to a queue of cancelable IRPs, thus allowing the IRP to be canceled. If the IRP had been previously set to a canceled state, the KsAddIrpToCancelableQueue function completes the canceling of that IRP.
 old-location: stream\ksaddirptocancelablequeue.htm
 tech.root: stream

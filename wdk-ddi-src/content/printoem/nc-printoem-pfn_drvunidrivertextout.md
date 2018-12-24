@@ -1,7 +1,6 @@
 ---
 UID: NC:printoem.PFN_DrvUnidriverTextOut
 title: PFN_DrvUnidriverTextOut
-author: windows-driver-content
 description: The DrvUnidriverTextOut function is obsolete.
 old-location: print\drvunidrivertextout.htm
 tech.root: print

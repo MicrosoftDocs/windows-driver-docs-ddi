@@ -1,7 +1,6 @@
 ---
 UID: NC:oprghdlr.ACPI_OP_REGION_CALLBACK
 title: ACPI_OP_REGION_CALLBACK
-author: windows-driver-content
 description: 
 ms.assetid: 1549e0f0-69cd-4ee4-abf4-92e5da9d7903
 ms.date: 10/19/2018

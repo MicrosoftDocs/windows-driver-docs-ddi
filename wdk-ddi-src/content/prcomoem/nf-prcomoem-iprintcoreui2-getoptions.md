@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.GetOptions
 title: IPrintCoreUI2::GetOptions
-author: windows-driver-content
 description: The IPrintCoreUI2::GetOptions method retrieves the driver's current feature settings in the format of a list of feature/option keyword pairs.
 old-location: print\iprintcoreui2_getoptions.htm
 tech.root: print

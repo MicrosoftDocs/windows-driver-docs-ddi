@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlCompareString
 title: RtlCompareString function
-author: windows-driver-content
 description: The RtlCompareString routine compares two counted strings.
 old-location: kernel\rtlcomparestring.htm
 tech.root: kernel

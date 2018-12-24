@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._SetTunnelModeOuterAddress_IN
 title: "_SetTunnelModeOuterAddress_IN"
-author: windows-driver-content
 description: The SetTunnelModeOuterAddress_IN structure holds the input data for the SetTunnelModeOuterAddress method.
 old-location: storage\settunnelmodeouteraddress_in.htm
 tech.root: storage

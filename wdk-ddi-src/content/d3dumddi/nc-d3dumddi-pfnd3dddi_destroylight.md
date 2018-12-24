@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DESTROYLIGHT
 title: PFND3DDDI_DESTROYLIGHT
-author: windows-driver-content
 description: The DestroyLight function deactivates a light source.
 old-location: display\destroylight.htm
 tech.root: display

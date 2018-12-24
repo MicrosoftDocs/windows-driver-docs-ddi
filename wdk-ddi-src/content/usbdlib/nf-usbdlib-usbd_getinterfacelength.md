@@ -1,7 +1,6 @@
 ---
 UID: NF:usbdlib.USBD_GetInterfaceLength
 title: USBD_GetInterfaceLength function
-author: windows-driver-content
 description: The USBD_GetInterfaceLength routine obtains the length of a given interface descriptor, including the length of all endpoint descriptors contained within the interface.
 old-location: buses\usbd_getinterfacelength.htm
 tech.root: usbref

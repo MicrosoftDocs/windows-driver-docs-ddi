@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces2.WriteIo
 title: IDebugDataSpaces2::WriteIo
-author: windows-driver-content
 description: The WriteIo method writes to the system and bus I/O memory.
 old-location: debugger\writeio.htm
 tech.root: debugger

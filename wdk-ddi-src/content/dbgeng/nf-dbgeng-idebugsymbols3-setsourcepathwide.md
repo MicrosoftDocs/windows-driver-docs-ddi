@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.SetSourcePathWide
 title: IDebugSymbols3::SetSourcePathWide
-author: windows-driver-content
 description: The SetSourcePathWide method sets the source path.
 old-location: debugger\setsourcepathwide.htm
 tech.root: debugger

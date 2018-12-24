@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm.CM_Power_Data_s
 title: CM_Power_Data_s
-author: windows-driver-content
 description: The CM_POWER_DATA structure contains information about a device's power management state and capabilities.
 old-location: kernel\cm_power_data.htm
 tech.root: kernel

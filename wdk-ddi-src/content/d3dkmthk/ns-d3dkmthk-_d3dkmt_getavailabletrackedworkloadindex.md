@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETAVAILABLETRACKEDWORKLOADINDEX
 title: _D3DKMT_GETAVAILABLETRACKEDWORKLOADINDEX
-author: windows-driver-content
 description: Gets the available tracked workload index.
 ms.assetid: 8a64867d-86b3-4d6e-a029-06ae7437133b
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX_FILEOPEN
 title: EVT_SERCX_FILEOPEN
-author: windows-driver-content
 description: The EvtSerCxFileOpen event callback function notifies the serial controller driver that a client opened a file handle on the serial controller device and that a file object has been created to represent the device.
 old-location: serports\evtsercxfileopen.htm
 tech.root: serports

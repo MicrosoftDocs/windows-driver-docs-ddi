@@ -1,7 +1,6 @@
 ---
 UID: NF:fcb.RxFinalizeSrvCall
 title: RxFinalizeSrvCall function
-author: windows-driver-content
 description: RxFinalizeSrvCall finalizes the given SRV_CALL structure. The caller must have an exclusive lock on the netname table associated with the device object.
 old-location: ifsk\rxfinalizesrvcall.htm
 tech.root: ifsk

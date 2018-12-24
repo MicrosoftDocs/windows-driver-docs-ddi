@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetWdmGetTargetFileHandle
 title: WdfIoTargetWdmGetTargetFileHandle function
-author: windows-driver-content
 description: The WdfIoTargetWdmGetTargetFileHandle method returns a handle to the file that is associated with a specified remote I/O target.
 old-location: wdf\wdfiotargetwdmgettargetfilehandle.htm
 tech.root: wdf

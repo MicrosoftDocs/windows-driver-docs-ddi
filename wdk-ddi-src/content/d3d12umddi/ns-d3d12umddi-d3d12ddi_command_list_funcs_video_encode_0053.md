@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0053
 title: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0053
-author: windows-driver-content
 description: Command list functions for video encode.
 ms.assetid: 2f120f70-da11-44a2-9c43-341fcad41bf3
 ms.date: 10/19/2018

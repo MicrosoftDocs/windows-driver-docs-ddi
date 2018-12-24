@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisClRegisterSap
 title: NdisClRegisterSap function
-author: windows-driver-content
 description: NdisClRegisterSap registers a SAP on which the client can receive incoming calls from a remote node.
 old-location: netvista\ndisclregistersap.htm
 tech.root: netvista

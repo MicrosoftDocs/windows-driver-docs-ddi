@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_EXCLUSIVE_LOCK
 title: "_CDROM_EXCLUSIVE_LOCK"
-author: windows-driver-content
 description: The CDROM_EXCLUSIVE_LOCK structure is used with the IOCTL_CDROM_EXCLUSIVE_ACCESS request to lock a CD-ROM device for exclusive access.
 old-location: storage\cdrom_exclusive_lock.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_72
 title: KSEVENT_ITEM
-author: windows-driver-content
 description: The KSEVENT_ITEM structure describe a minidriver's support for a specific event within an event set.
 old-location: stream\ksevent_item.htm
 tech.root: stream

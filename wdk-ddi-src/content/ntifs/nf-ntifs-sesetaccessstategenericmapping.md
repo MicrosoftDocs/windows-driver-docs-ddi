@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SeSetAccessStateGenericMapping
 title: SeSetAccessStateGenericMapping function
-author: windows-driver-content
 description: The SeSetAccessStateGenericMapping routine sets the generic mapping field of an ACCESS_STATE structure.
 old-location: ifsk\sesetaccessstategenericmapping.htm
 tech.root: ifsk

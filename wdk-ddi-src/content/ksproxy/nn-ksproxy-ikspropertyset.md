@@ -1,7 +1,6 @@
 ---
 UID: NN:ksproxy.IKsPropertySet
 title: IKsPropertySet
-author: windows-driver-content
 description: The IKsPropertySet interface provides methods that access properties of KS objects that are implemented in a KS minidriver.
 old-location: stream\ikspropertyset.htm
 tech.root: stream

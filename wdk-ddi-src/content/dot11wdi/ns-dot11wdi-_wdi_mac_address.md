@@ -1,7 +1,6 @@
 ---
 UID: NS:dot11wdi._WDI_MAC_ADDRESS
 title: "_WDI_MAC_ADDRESS"
-author: windows-driver-content
 description: The WDI_MAC_ADDRESS structure defines an IEEE media access control (MAC) address.
 old-location: netvista\wdi_mac_address.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.OutTypeDefinition
 title: ExtRemoteTyped::OutTypeDefinition
-author: windows-driver-content
 description: The OutTypeDefinition method prints the type of the typed data represented by this object.
 old-location: debugger\extremotetyped_outtypedefinition.htm
 tech.root: debugger

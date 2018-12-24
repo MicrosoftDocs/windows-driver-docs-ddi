@@ -1,7 +1,6 @@
 ---
 UID: NF:ucmtypes.UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY
 title: UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY function
-author: windows-driver-content
 description: Initializes a UCM_PD_POWER_DATA_OBJECT structure as a Variable Supply Non Battery type Power Data Object.
 old-location: buses\ucm_pd_power_data_object_init_variable_non_battery.htm
 tech.root: usbref

@@ -1,7 +1,6 @@
 ---
 UID: NF:upssvc.UPSCancelWait
 title: UPSCancelWait function
-author: windows-driver-content
 description: The UPSCancelWait function cancels all waits initiated by calls to UPSWaitForStateChange.
 old-location: battery\upscancelwait.htm
 tech.root: battery

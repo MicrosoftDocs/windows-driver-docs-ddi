@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfio.WdfIoQueueStart
 title: WdfIoQueueStart function
-author: windows-driver-content
 description: The WdfIoQueueStart method enables an I/O queue to start receiving and delivering new I/O requests.
 old-location: wdf\wdfioqueuestart.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsGateTurnInputOn
 title: KsGateTurnInputOn function
-author: windows-driver-content
 description: The KsGateTurnInputOn function turns on an existing input to Gate.
 old-location: stream\ksgateturninputon.htm
 tech.root: stream

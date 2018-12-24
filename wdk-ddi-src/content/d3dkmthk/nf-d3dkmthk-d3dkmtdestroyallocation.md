@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTDestroyAllocation
 title: D3DKMTDestroyAllocation function
-author: windows-driver-content
 description: The D3DKMTDestroyAllocation function releases a resource, a list of allocations, or both.
 old-location: display\d3dkmtdestroyallocation.htm
 ms.assetid: 249ca05c-406d-4d47-a266-222f7be1a883

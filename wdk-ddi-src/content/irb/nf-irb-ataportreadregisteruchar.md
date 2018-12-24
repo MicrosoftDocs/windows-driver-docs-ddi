@@ -1,7 +1,6 @@
 ---
 UID: NF:irb.AtaPortReadRegisterUchar
 title: AtaPortReadRegisterUchar function
-author: windows-driver-content
 description: The AtaPortReadRegisterUchar routine reads an unsigned byte value from the HBA.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportreadregisteruchar.htm
 tech.root: storage

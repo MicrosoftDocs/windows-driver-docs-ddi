@@ -1,7 +1,6 @@
 ---
 UID: NF:usbpmapi.USBPM_CONNECTOR_PROPERTIES_INIT
 title: USBPM_CONNECTOR_PROPERTIES_INIT function
-author: windows-driver-content
 description: Initializes a **USBPM_CONNECTOR_PROPERTIES** structure. 
 ms.assetid: 99379e0c-8bf7-4972-9883-7da58820b1a1
 ms.date: 09/30/2018

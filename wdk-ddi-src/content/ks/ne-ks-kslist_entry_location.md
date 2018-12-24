@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_34
 title: KSLIST_ENTRY_LOCATION
-author: windows-driver-content
 description: 
 old-location: stream\kslist_entry_location.htm
 tech.root: stream

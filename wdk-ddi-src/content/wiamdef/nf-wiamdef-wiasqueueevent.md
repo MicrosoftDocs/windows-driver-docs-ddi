@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasQueueEvent
 title: wiasQueueEvent function
-author: windows-driver-content
 description: The wiasQueueEvent function informs the service that the device generated an event.
 old-location: image\wiasqueueevent.htm
 tech.root: image

@@ -1,7 +1,6 @@
 ---
 UID: NE:ndis._NDIS_MSIX_TABLE_CONFIG
 title: "_NDIS_MSIX_TABLE_CONFIG"
-author: windows-driver-content
 description: The NDIS_MSIX_TABLE_OPERATION enumeration identifies the type of MSI-X configuration operation.
 old-location: netvista\ndis_msix_table_operation.htm
 tech.root: netvista

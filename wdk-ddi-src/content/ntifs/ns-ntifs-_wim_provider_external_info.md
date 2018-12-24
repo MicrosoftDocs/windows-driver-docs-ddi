@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._WIM_PROVIDER_EXTERNAL_INFO
 title: "_WIM_PROVIDER_EXTERNAL_INFO"
-author: windows-driver-content
 description: The WIM_PROVIDER_EXTERNAL_INFO structure holds the identifier and status information for the Windows Image File (WIM) external backing provider.
 old-location: ifsk\wim_provider_external_info.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenKeyedMutex2
 title: D3DKMTOpenKeyedMutex2 function
-author: windows-driver-content
 description: Opens a keyed mutex object that includes private data.
 old-location: display\d3dkmtopenkeyedmutex2.htm
 ms.assetid: 33140445-e312-4495-990a-033a87598fa1

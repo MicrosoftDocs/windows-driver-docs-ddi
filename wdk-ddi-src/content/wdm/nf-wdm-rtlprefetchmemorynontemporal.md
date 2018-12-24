@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlPrefetchMemoryNonTemporal
 title: RtlPrefetchMemoryNonTemporal function
-author: windows-driver-content
 description: The RtlPrefetchMemoryNonTemporal routine provides a hint to the processor that a buffer should be temporarily moved into the processor cache.
 old-location: kernel\rtlprefetchmemorynontemporal.htm
 tech.root: kernel

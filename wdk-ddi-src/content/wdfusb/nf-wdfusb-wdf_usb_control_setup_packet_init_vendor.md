@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR
 title: WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR function
-author: windows-driver-content
 description: The WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR function initializes a WDF_USB_CONTROL_SETUP_PACKET structure for a vendor-specific USB control transfer.
 old-location: wdf\wdf_usb_control_setup_packet_init_vendor.htm
 tech.root: wdf

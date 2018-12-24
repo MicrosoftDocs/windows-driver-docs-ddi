@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SMS_DELETE
 title: "_NDIS_WWAN_SMS_DELETE"
-author: windows-driver-content
 description: The NDIS_WWAN_SMS_DELETE structure represents an SMS message to delete.
 old-location: netvista\ndis_wwan_sms_delete.htm
 tech.root: netvista

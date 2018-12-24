@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_OBJECT_NAME_WITH_TYPE
 title: "_PEP_ACPI_OBJECT_NAME_WITH_TYPE"
-author: windows-driver-content
 description: The PEP_ACPI_OBJECT_NAME_WITH_TYPE structure that specifies both the path-relative name of an ACPI object and the type of this object.
 old-location: kernel\pep_acpi_object_name_with_type.htm
 tech.root: kernel

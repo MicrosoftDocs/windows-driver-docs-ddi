@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportMidi.Service
 title: IMiniportMidi::Service
-author: windows-driver-content
 description: The Service method notifies the miniport driver of a request for service.
 old-location: audio\iminiportmidi_service.htm
 tech.root: audio

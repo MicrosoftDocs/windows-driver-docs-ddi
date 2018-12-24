@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._MSiSCSI_BootInformation
 title: "_MSiSCSI_BootInformation"
-author: windows-driver-content
 description: The MSiSCSI_BootInformation structure is used with the MSiSCSI_BootInformation WMI Class to expose information about the node that contains the target boot device.
 old-location: storage\msiscsi_bootinformation.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NC:ks.PFNALLOCATOR_ALLOCATEFRAME
 title: PFNALLOCATOR_ALLOCATEFRAME
-author: windows-driver-content
 description: The KStrAllocateFrame routine describes a vendor-supplied frame allocation function.
 old-location: stream\kstrallocateframe.htm
 tech.root: stream

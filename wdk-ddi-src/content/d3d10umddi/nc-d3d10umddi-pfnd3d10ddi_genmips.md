@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_GENMIPS
 title: PFND3D10DDI_GENMIPS
-author: windows-driver-content
 description: The GenMips function generates the lower MIP-map levels on the specified shader-resource view.
 old-location: display\genmips.htm
 ms.assetid: abd045f2-9c05-4579-8d80-aba31523157d

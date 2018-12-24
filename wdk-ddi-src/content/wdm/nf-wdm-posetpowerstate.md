@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.PoSetPowerState
 title: PoSetPowerState function
-author: windows-driver-content
 description: The PoSetPowerState routine notifies the system of a change in the device power state for a device.
 old-location: kernel\posetpowerstate.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_ARG_PRESENT1
 title: DXGI_DDI_ARG_PRESENT1
-author: windows-driver-content
 description: Describes a resource to display. Used with the pfnPresent1(DXGI) function by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 old-location: display\dxgi_ddi_arg_present1.htm
 tech.root: display

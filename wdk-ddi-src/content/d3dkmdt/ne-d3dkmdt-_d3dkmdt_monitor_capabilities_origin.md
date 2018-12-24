@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_MONITOR_CAPABILITIES_ORIGIN
 title: "_D3DKMDT_MONITOR_CAPABILITIES_ORIGIN"
-author: windows-driver-content
 description: The D3DKMDT_MONITOR_CAPABILITIES_ORIGIN enumeration is used to indicate where a monitor's capability information was obtained.
 old-location: display\d3dkmdt_monitor_capabilities_origin.htm
 tech.root: display

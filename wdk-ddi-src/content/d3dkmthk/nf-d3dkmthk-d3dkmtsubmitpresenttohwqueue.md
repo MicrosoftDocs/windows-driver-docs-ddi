@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSubmitPresentToHwQueue
 title: D3DKMTSubmitPresentToHwQueue function
-author: windows-driver-content
 description: SubmitPresentToHwQueue submits a Blt Present operation to a hardware queue.
 ms.assetid: d43c7da0-ce52-408c-8b74-5941ecde7898
 ms.date: 10/19/2018

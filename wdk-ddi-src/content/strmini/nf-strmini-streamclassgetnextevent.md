@@ -1,7 +1,6 @@
 ---
 UID: NF:strmini.StreamClassGetNextEvent
 title: StreamClassGetNextEvent function
-author: windows-driver-content
 description: Minidrivers can use the StreamClassGetNextEvent routine to search the event queue of a device or of a particular stream.
 old-location: stream\streamclassgetnextevent.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILPOSITIONINFOTDSCDMA
 title: RILPOSITIONINFOTDSCDMA
-author: windows-driver-content
 description: This structure represents the RILPOSITIONINFOTDSCDMA.
 old-location: netvista\rilpositioninfotdscdma.htm
 tech.root: netvista

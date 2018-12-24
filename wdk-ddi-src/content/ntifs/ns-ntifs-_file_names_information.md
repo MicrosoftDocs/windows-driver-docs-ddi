@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._FILE_NAMES_INFORMATION
 title: "_FILE_NAMES_INFORMATION"
-author: windows-driver-content
 description: A FILE_NAMES_INFORMATION structure used to query detailed information about the names of files in a directory.
 old-location: ifsk\file_names_information.htm
 tech.root: ifsk

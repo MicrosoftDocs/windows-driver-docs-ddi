@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetCurrentProcessSystemId
 title: IDebugSystemObjects4::GetCurrentProcessSystemId
-author: windows-driver-content
 description: The GetCurrentProcessSystemId method returns the system process ID of the current process.
 old-location: debugger\getcurrentprocesssystemid.htm
 tech.root: debugger

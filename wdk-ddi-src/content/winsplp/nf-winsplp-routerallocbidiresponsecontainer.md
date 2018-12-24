@@ -1,7 +1,6 @@
 ---
 UID: NF:winsplp.RouterAllocBidiResponseContainer
 title: RouterAllocBidiResponseContainer function
-author: windows-driver-content
 description: RouterAllocBidiResponseContainer allocates a BIDI_RESPONSE_CONTAINER structure containing a list of bidi responses. The bidi response list is an array of BIDI_RESPONSE_DATA structures.
 old-location: print\routerallocbidiresponsecontainer.htm
 tech.root: print

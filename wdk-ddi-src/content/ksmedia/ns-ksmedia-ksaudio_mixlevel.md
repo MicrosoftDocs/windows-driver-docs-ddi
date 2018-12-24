@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_42
 title: KSAUDIO_MIXLEVEL
-author: windows-driver-content
 description: The KSAUDIO_MIXLEVEL structure specifies the mixing level of an input-output path in a supermixer node (KSNODETYPE_SUPERMIX).
 old-location: audio\ksaudio_mixlevel.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NC:wmilib.WMI_FUNCTION_CONTROL_CALLBACK
 title: WMI_FUNCTION_CONTROL_CALLBACK
-author: windows-driver-content
 description: The DpWmiFunctionControl routine enables or disables notification of events, and enables or disables data collection for data blocks that the driver registered as expensive to collect. This routine is optional.
 old-location: kernel\dpwmifunctioncontrol.htm
 tech.root: kernel

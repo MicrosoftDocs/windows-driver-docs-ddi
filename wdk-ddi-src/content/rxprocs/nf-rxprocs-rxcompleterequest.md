@@ -1,7 +1,6 @@
 ---
 UID: NF:rxprocs.RxCompleteRequest
 title: RxCompleteRequest function
-author: windows-driver-content
 description: RxCompleteRequest completes the IRP request associated with an RX_CONTEXT structure.
 old-location: ifsk\rxcompleterequest.htm
 tech.root: ifsk

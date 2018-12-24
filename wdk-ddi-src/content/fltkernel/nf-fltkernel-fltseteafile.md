@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltSetEaFile
 title: FltSetEaFile function
-author: windows-driver-content
 description: FltSetEaFile sets extended-attribute (EA) values for a file.
 old-location: ifsk\fltseteafile.htm
 tech.root: ifsk

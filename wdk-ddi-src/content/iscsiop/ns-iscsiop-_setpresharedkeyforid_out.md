@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._SetPresharedKeyForId_OUT
 title: "_SetPresharedKeyForId_OUT"
-author: windows-driver-content
 description: The SetPresharedKeyForId_OUT structure holds the output data for the SetPresharedKeyForId method.
 old-location: storage\setpresharedkeyforid_out.htm
 tech.root: storage

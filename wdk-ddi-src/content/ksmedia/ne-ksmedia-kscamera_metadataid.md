@@ -1,7 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_86
 title: KSCAMERA_MetadataId
-author: windows-driver-content
 description: This enumeration contains identifiers for a metadata item.
 old-location: stream\kscamera_metadataid.htm
 tech.root: stream

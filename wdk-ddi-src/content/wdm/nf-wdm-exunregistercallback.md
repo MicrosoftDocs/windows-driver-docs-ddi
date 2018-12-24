@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExUnregisterCallback
 title: ExUnregisterCallback function
-author: windows-driver-content
 description: The ExUnregisterCallback routine removes a callback routine previously registered with a callback object from the list of routines to be called during the notification process.
 old-location: kernel\exunregistercallback.htm
 tech.root: kernel

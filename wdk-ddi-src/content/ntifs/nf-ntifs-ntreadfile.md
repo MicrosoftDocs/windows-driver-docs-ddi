@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.NtReadFile
 title: NtReadFile function
-author: windows-driver-content
 description: The ZwReadFile routine reads data from an open file.
 old-location: kernel\zwreadfile.htm
 tech.root: kernel

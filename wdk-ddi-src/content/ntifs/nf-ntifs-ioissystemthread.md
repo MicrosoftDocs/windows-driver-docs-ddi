@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoIsSystemThread
 title: IoIsSystemThread function
-author: windows-driver-content
 description: The IoIsSystemThread routine checks whether a given thread is a system thread.
 old-location: ifsk\ioissystemthread.htm
 tech.root: ifsk

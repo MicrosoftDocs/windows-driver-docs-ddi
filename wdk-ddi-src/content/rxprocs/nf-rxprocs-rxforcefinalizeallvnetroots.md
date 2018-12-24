@@ -1,7 +1,6 @@
 ---
 UID: NF:rxprocs.RxForceFinalizeAllVNetRoots
 title: RxForceFinalizeAllVNetRoots function
-author: windows-driver-content
 description: RxForceFinalizeAllVNetRoots force finalizes all the V_NET_ROOT structures associated with a given NET_ROOT structure. The caller must have an exclusive lock on the netname table associated with the device object.
 old-location: ifsk\rxforcefinalizeallvnetroots.htm
 tech.root: ifsk

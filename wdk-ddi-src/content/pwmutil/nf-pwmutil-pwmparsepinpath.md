@@ -1,7 +1,6 @@
 ---
 UID: NF:pwmutil.PwmParsePinPath
 title: PwmParsePinPath function
-author: windows-driver-content
 description: Parses a pin path under the Pulse Width Modulation (PWM) controller namespace to validate its format and extract the pin number.
 old-location: kernel\pwmparsepinpath.htm
 tech.root: spb

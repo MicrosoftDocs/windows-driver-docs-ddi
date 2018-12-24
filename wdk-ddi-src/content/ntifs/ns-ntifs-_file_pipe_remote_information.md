@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._FILE_PIPE_REMOTE_INFORMATION
 title: "_FILE_PIPE_REMOTE_INFORMATION"
-author: windows-driver-content
 description: The FILE_PIPE_REMOTE_INFORMATION structure contains information about the remote end of a named pipe.
 old-location: ifsk\file_pipe_remote_information.htm
 tech.root: ifsk

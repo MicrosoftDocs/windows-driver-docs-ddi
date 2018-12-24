@@ -1,7 +1,6 @@
 ---
 UID: NF:poscx.PosCxCleanupEvents
 title: PosCxCleanupEvents function
-author: windows-driver-content
 description: PosCxCleanupEvents is called to clean up all pending events for a given caller, identified by the open instance.
 old-location: pos\poscxcleanupevents.htm
 tech.root: pos

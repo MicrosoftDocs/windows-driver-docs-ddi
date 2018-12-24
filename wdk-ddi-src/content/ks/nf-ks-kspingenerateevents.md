@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsPinGenerateEvents
 title: KsPinGenerateEvents function
-author: windows-driver-content
 description: The KsPinGenerateEvents function generates events of an indicated type that are present in Pin's event list.
 old-location: stream\kspingenerateevents.htm
 tech.root: stream

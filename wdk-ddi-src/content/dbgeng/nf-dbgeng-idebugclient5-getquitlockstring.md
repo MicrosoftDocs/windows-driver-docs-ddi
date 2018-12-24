@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetQuitLockString
 title: IDebugClient5::GetQuitLockString
-author: windows-driver-content
 description: Gets a quit lock string.
 old-location: debugger\idebugclient5_getquitlockstring.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PROCESSOR_IDLE_STATE
 title: "_PEP_PROCESSOR_IDLE_STATE"
-author: windows-driver-content
 description: The PEP_PROCESSOR_IDLE_STATE structure describes the capabilities of a processor idle state.
 old-location: kernel\pep_processor_idle_state.htm
 tech.root: kernel

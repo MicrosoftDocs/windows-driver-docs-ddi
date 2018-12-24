@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeRevertToUserAffinityThreadEx
 title: KeRevertToUserAffinityThreadEx function
-author: windows-driver-content
 description: The KeRevertToUserAffinityThreadEx routine restores the previous affinity of the current thread.
 old-location: kernel\kereverttouseraffinitythreadex.htm
 tech.root: kernel

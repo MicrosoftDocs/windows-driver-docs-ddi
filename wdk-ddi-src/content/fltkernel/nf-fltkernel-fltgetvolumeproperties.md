@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetVolumeProperties
 title: FltGetVolumeProperties function
-author: windows-driver-content
 description: The FltGetVolumeProperties routine returns volume property information for the given volume.
 old-location: ifsk\fltgetvolumeproperties.htm
 tech.root: ifsk

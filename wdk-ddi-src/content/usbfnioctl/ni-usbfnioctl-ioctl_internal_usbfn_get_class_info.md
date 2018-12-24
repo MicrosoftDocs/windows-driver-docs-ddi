@@ -1,7 +1,6 @@
 ---
 UID: NI:usbfnioctl.IOCTL_INTERNAL_USBFN_GET_CLASS_INFO
 title: IOCTL_INTERNAL_USBFN_GET_CLASS_INFO
-author: windows-driver-content
 description: The class driver sends this request IO control code to retrieve information about the available pipes for a device, as configured in the registry.
 old-location: buses\ioctl_internal_usbfn_get_class_info.htm
 tech.root: usbref

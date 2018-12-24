@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.VARENUM
 title: VARENUM
-author: windows-driver-content
 description: 
 old-location: stream\varenum.htm
 tech.root: stream

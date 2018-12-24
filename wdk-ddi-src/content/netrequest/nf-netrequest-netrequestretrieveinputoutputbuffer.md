@@ -1,7 +1,6 @@
 ---
 UID: NF:netrequest.NetRequestRetrieveInputOutputBuffer
 title: NetRequestRetrieveInputOutputBuffer function
-author: windows-driver-content
 description: Retrieves the input/output buffer associated with a NETREQUEST object.
 tech.root: netvista
 ms.assetid: 1ad27440-ca21-4600-a115-285cd72baf2c

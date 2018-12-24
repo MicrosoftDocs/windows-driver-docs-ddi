@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_QUERYENGINESTATUS
 title: DXGKDDI_QUERYENGINESTATUS
-author: windows-driver-content
 description: The display port driver's GPU scheduler calls this function to determine the progress of a node within an active physical display adapter (engine).
 old-location: display\dxgkddiqueryenginestatus.htm
 ms.assetid: 87c99fcb-d25a-41b1-a1f3-9cf9ab7b141e

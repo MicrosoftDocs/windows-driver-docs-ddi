@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlInitializeGenericTableAvl
 title: RtlInitializeGenericTableAvl function
-author: windows-driver-content
 description: The RtlInitializeGenericTableAvl routine initializes a generic table using Adelson-Velsky/Landis (AVL) trees.
 old-location: ifsk\rtlinitializegenerictableavl.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:rxce.RxCeBuildVC
 title: RxCeBuildVC function
-author: windows-driver-content
 description: RxCeBuildVC adds a virtual circuit to a specified RDBSS connection..
 old-location: ifsk\rxcebuildvc.htm
 tech.root: ifsk

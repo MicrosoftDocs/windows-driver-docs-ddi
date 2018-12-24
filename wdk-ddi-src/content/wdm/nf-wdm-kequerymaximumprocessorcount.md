@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeQueryMaximumProcessorCount
 title: KeQueryMaximumProcessorCount function
-author: windows-driver-content
 description: The KeQueryMaximumProcessorCount routine returns the maximum number of processors.
 old-location: kernel\kequerymaximumprocessorcount.htm
 tech.root: kernel

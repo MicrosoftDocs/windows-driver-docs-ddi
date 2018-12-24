@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.ExecuteWide
 title: IDebugControl4::ExecuteWide
-author: windows-driver-content
 description: The ExecuteWide method executes the specified debugger commands.
 old-location: debugger\executewide.htm
 tech.root: debugger

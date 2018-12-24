@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._OSVERSIONINFOW
 title: "_OSVERSIONINFOW"
-author: windows-driver-content
 description: The RTL_OSVERSIONINFOW structure contains operating system version information.
 old-location: kernel\rtl_osversioninfow.htm
 tech.root: kernel

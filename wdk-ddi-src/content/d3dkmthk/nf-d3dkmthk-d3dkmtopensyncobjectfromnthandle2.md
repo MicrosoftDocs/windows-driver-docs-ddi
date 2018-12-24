@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenSyncObjectFromNtHandle2
 title: D3DKMTOpenSyncObjectFromNtHandle2 function
-author: windows-driver-content
 description: D3DKMTOpenSyncObjectFromNtHandle2 opens a monitored fence object from an NT handle previously created by D3DKMTShareObjects.
 old-location: display\d3dkmtopensyncobjectfromnthandle2.htm
 ms.assetid: E3295F4F-AB51-4EBB-8B9F-E47BBA52AF47

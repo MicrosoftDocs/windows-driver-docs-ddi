@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_AUTH_PROTOCOL
 title: "_WWAN_AUTH_PROTOCOL"
-author: windows-driver-content
 description: The WWAN_AUTH_PROTOCOL enumeration lists the different types of authentication protocols that are supported by the MB device.
 old-location: netvista\wwan_auth_protocol.htm
 tech.root: netvista

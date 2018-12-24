@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.CcFlushCache
 title: CcFlushCache function
-author: windows-driver-content
 description: The CcFlushCache routine flushes all or a portion of a cached file to disk.
 old-location: ifsk\ccflushcache.htm
 tech.root: ifsk

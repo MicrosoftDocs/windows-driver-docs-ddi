@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CHECKFORMATSUPPORT
 title: PFND3D12DDI_CHECKFORMATSUPPORT
-author: windows-driver-content
 description: Implemented by the client driver to check the format support.
 ms.assetid: b05a2e1a-5839-4a5e-83c5-67bfd41287b0
 ms.date: 10/19/2018

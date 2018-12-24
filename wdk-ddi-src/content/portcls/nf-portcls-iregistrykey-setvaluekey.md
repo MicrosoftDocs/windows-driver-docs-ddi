@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IRegistryKey.SetValueKey
 title: IRegistryKey::SetValueKey
-author: windows-driver-content
 description: The SetValueKey method replaces or creates a value entry under the open key.
 old-location: audio\iregistrykey_setvaluekey.htm
 tech.root: audio

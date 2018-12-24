@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlShortMult
 title: RtlShortMult function
-author: windows-driver-content
 description: Multiplies one value of type SHORT by another.
 old-location: kernel\rtlshortmult.htm
 tech.root: kernel

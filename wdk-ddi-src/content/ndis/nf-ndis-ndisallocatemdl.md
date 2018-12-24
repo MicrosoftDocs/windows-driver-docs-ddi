@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateMdl
 title: NdisAllocateMdl function
-author: windows-driver-content
 description: The NdisAllocateMdl function allocates an MDL that describes the memory buffer at the specified virtual address.
 old-location: netvista\ndisallocatemdl.htm
 tech.root: netvista

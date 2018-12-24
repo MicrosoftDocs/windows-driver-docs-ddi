@@ -1,7 +1,6 @@
 ---
 UID: NC:printoem.PFN_DrvWriteAbortBuf
 title: PFN_DrvWriteAbortBuf
-author: windows-driver-content
 description: The DrvWriteAbortBuf function is obsolete.
 old-location: print\drvwriteabortbuf.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IImpersonateCallback
 title: IImpersonateCallback
-author: windows-driver-content
 description: The IImpersonateCallback interface contains a method that handles impersonation.
 old-location: wdf\iimpersonatecallback.htm
 tech.root: wdf

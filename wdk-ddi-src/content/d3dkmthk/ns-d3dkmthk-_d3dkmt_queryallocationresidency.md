@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_QUERYALLOCATIONRESIDENCY
 title: "_D3DKMT_QUERYALLOCATIONRESIDENCY"
-author: windows-driver-content
 description: The D3DKMT_QUERYALLOCATIONRESIDENCY structure describes information for retrieving the residency status from a resource or list of allocations.
 old-location: display\d3dkmt_queryallocationresidency.htm
 ms.assetid: 53dd0306-4dcc-47a0-aa98-67d289c93b9b

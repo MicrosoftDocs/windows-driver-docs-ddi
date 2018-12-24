@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwWriteFile
 title: ZwWriteFile function
-author: windows-driver-content
 description: The ZwWriteFile routine writes data to an open file.
 old-location: kernel\zwwritefile.htm
 tech.root: kernel

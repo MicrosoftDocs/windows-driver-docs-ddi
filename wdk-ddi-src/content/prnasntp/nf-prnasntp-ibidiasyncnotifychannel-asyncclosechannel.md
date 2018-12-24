@@ -1,7 +1,6 @@
 ---
 UID: NF:prnasntp.IBidiAsyncNotifyChannel.AsyncCloseChannel
 title: IBidiAsyncNotifyChannel::AsyncCloseChannel
-author: windows-driver-content
 description: 
 old-location: print\ibidiasyncnotifychannel_asyncclosechannel.htm
 tech.root: print

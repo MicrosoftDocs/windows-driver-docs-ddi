@@ -1,7 +1,6 @@
 ---
 UID: NN:printerextension.IPrinterExtensionEventArgs
 title: IPrinterExtensionEventArgs
-author: windows-driver-content
 description: Represents the context for the desktop printer extension activation.
 old-location: print\iprinterextensioneventargs.htm
 tech.root: print

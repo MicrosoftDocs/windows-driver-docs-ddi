@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortGetLogicalProcessorRelationship
 title: StorPortGetLogicalProcessorRelationship function
-author: windows-driver-content
 description: The StorPortGetLogicalProcessorRelationship routine returns relationship information for one or more specified types.
 old-location: storage\storportgetlogicalprocessorrelationship.htm
 tech.root: storage

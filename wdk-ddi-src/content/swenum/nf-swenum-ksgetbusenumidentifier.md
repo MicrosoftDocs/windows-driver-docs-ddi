@@ -1,7 +1,6 @@
 ---
 UID: NF:swenum.KsGetBusEnumIdentifier
 title: KsGetBusEnumIdentifier function
-author: windows-driver-content
 description: The KsGetBusEnumIdentifier function retrieves the software bus enumerator identifier for the bus device associated with the given IRP.
 old-location: stream\ksgetbusenumidentifier.htm
 tech.root: stream

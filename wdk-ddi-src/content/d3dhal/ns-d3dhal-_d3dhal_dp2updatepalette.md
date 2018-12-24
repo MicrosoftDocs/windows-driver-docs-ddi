@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2UPDATEPALETTE
 title: "_D3DHAL_DP2UPDATEPALETTE"
-author: windows-driver-content
 description: The D3DHAL_DP2UPDATEPALETTE structure alters the palette that is used for palletized textures.
 old-location: display\d3dhal_dp2updatepalette.htm
 tech.root: display

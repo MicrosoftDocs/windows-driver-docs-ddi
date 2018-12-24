@@ -1,7 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_PRESENT_FLAGS
 title: DXGI_DDI_PRESENT_FLAGS
-author: windows-driver-content
 description: Identifies how to perform a present operation.
 old-location: display\dxgi_ddi_present_flags.htm
 tech.root: display

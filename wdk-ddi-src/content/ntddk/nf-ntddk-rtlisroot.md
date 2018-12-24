@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlIsRoot
 title: RtlIsRoot macro
-author: windows-driver-content
 description: The RtlIsRoot routine determines whether the specified node is the root node of a splay link tree.
 old-location: ifsk\rtlisroot.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoCheckQuotaBufferValidity
 title: IoCheckQuotaBufferValidity function
-author: windows-driver-content
 description: The IoCheckQuotaBufferValidity routine checks whether the specified quota buffer is valid.
 old-location: ifsk\iocheckquotabuffervalidity.htm
 tech.root: ifsk

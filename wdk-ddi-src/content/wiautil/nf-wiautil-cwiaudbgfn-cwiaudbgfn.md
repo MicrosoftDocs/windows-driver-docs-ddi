@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.CWiauDbgFn.CWiauDbgFn
 title: CWiauDbgFn::CWiauDbgFn
-author: windows-driver-content
 description: The CWiauDbgFn::CWiauDbgFn method is used for tracing when a function or method is entered.
 old-location: image\cwiaudbgfn_cwiaudbgfn.htm
 tech.root: image

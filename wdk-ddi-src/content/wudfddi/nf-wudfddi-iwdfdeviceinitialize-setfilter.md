@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDeviceInitialize.SetFilter
 title: IWDFDeviceInitialize::SetFilter
-author: windows-driver-content
 description: The SetFilter method sets the property that enables a device as a filter device.
 old-location: wdf\iwdfdeviceinitialize_setfilter.htm
 tech.root: wdf

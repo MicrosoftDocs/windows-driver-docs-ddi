@@ -1,7 +1,6 @@
 ---
 UID: NF:ufxclient.UfxDeviceNotifyFinalExit
 title: UfxDeviceNotifyFinalExit function
-author: windows-driver-content
 description: Notifies UFX that the device is detached.
 ms.assetid: 7c48f7e0-ce21-40b2-be17-037b70178673
 ms.date: 10/19/2018

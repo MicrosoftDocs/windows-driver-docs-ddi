@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PDXGK_GRAPHICSPOWER_UNREGISTER
 title: PDXGK_GRAPHICSPOWER_UNREGISTER
-author: windows-driver-content
 description: A callback to un-register itself with the graphics driver.
 old-location: display\pdxgk_graphicspower_unregister.htm
 ms.assetid: A925D5D3-EF79-4C14-BE1C-188C255DDF8E

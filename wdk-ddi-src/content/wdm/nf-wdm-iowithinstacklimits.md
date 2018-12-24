@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoWithinStackLimits
 title: IoWithinStackLimits function
-author: windows-driver-content
 description: The IoWithinStackLimits routine determines whether a region of memory is within the stack limit of the current thread.
 old-location: kernel\iowithinstacklimits.htm
 tech.root: kernel

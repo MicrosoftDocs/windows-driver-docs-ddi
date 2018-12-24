@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoGetTransactionParameterBlock
 title: IoGetTransactionParameterBlock function
-author: windows-driver-content
 description: The IoGetTransactionParameterBlock routine returns the transaction parameter block for a transacted file operation.
 old-location: ifsk\iogettransactionparameterblock.htm
 tech.root: ifsk

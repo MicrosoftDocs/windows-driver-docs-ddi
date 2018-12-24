@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFDeviceDepot2.get_Count
 title: IWDTFDeviceDepot2::get_Count
-author: windows-driver-content
 description: Gets the number of devices that are currently provided by the DeviceDepot.
 old-location: dtf\iwdtfdevicedepot2_count.htm
 tech.root: dtf

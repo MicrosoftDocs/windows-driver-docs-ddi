@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoEnumerateDeviceObjectList
 title: IoEnumerateDeviceObjectList function
-author: windows-driver-content
 description: The IoEnumerateDeviceObjectList routine enumerates a driver's device object list.
 old-location: ifsk\ioenumeratedeviceobjectlist.htm
 tech.root: ifsk

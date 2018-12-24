@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk.WHEA_XPF_PROCESSOR_ERROR_SECTION
 title: WHEA_XPF_PROCESSOR_ERROR_SECTION
-author: windows-driver-content
 description: The WHEA_XPF_PROCESSOR_ERROR_SECTION structure describes processor error data that is specific to the x86/x64 processor architecture.
 old-location: whea\whea_xpf_processor_error_section.htm
 tech.root: whea

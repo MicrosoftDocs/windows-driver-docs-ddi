@@ -1,7 +1,6 @@
 ---
 UID: NI:bthhfpddi.IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT
 title: IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT
-author: windows-driver-content
 description: The IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT IOCTL removes the Handfree Profile (HFP) Service Level Connection that existed between the audio driver and the Bluetooth device.
 old-location: audio\ioctl_bthhfp_device_request_disconnect.htm
 tech.root: audio

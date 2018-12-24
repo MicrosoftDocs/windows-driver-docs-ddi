@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaDisplayableElement.get_DisplayName
 title: IPrintSchemaDisplayableElement::get_DisplayName
-author: windows-driver-content
 description: Gets a displayable string for this item.
 old-location: print\iprintschemadisplayableelement_displayname.htm
 tech.root: print

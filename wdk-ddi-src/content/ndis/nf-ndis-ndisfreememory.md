@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeMemory
 title: NdisFreeMemory function
-author: windows-driver-content
 description: The NdisFreeMemory function releases a block of memory that was previously allocated with the NdisAllocateMemoryWithTagPriority function.
 old-location: netvista\ndisfreememory.htm
 tech.root: netvista

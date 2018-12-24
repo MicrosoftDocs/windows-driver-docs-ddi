@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_SEND
 title: NDK_FN_SEND
-author: windows-driver-content
 description: The NdkSend (NDK_FN_SEND) function posts a send request on an NDK queue pair (QP).
 old-location: netvista\ndk_fn_send.htm
 tech.root: netvista

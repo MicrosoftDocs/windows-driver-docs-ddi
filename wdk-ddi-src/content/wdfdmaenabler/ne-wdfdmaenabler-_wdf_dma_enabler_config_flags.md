@@ -1,7 +1,6 @@
 ---
 UID: NE:wdfdmaenabler._WDF_DMA_ENABLER_CONFIG_FLAGS
 title: "_WDF_DMA_ENABLER_CONFIG_FLAGS"
-author: windows-driver-content
 description: The WDF_DMA_ENABLER_CONFIG_FLAGS enumeration type defines flags that are used in a driver's WDF_DMA_ENABLER_CONFIG structure.
 old-location: wdf\wdf_dma_enabler_config_flags.htm
 tech.root: wdf

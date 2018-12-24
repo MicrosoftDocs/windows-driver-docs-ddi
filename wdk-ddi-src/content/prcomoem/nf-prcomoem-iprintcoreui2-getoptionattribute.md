@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.GetOptionAttribute
 title: IPrintCoreUI2::GetOptionAttribute
-author: windows-driver-content
 description: The IPrintCoreUI2::GetOptionAttribute method retrieves the option attribute list or the value of a specific option attribute.
 old-location: print\iprintcoreui2_getoptionattribute.htm
 tech.root: print

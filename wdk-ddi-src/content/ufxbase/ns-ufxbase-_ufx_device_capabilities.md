@@ -1,7 +1,6 @@
 ---
 UID: NS:ufxbase._UFX_DEVICE_CAPABILITIES
 title: "_UFX_DEVICE_CAPABILITIES"
-author: windows-driver-content
 description: The UFX_DEVICE_CAPABILITIES structure is used USB to define properties of the Universal Serial Bus (USB) device created by the controller.
 old-location: buses\ufx_device_capabilities.htm
 tech.root: usbref

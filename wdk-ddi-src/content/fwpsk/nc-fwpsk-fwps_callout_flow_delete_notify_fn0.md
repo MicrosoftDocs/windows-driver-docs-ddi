@@ -1,7 +1,6 @@
 ---
 UID: NC:fwpsk.FWPS_CALLOUT_FLOW_DELETE_NOTIFY_FN0
 title: FWPS_CALLOUT_FLOW_DELETE_NOTIFY_FN0
-author: windows-driver-content
 description: The filter engine calls a callout's flowDeleteFn callout function to notify the callout that a data flow that is being processed by the callout is being terminated.
 old-location: netvista\flowdeletefn.htm
 tech.root: netvista

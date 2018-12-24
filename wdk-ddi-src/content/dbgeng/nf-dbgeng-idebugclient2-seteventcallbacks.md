@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient2.SetEventCallbacks
 title: IDebugClient2::SetEventCallbacks
-author: windows-driver-content
 description: The SetEventCallbacks method registers an event callbacks object with this client.
 old-location: debugger\seteventcallbacks.htm
 tech.root: debugger

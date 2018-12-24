@@ -1,7 +1,6 @@
 ---
 UID: NF:scsiwmi.ScsiPortWmiGetReturnStatus
 title: ScsiPortWmiGetReturnStatus macro
-author: windows-driver-content
 description: The ScsiPortWmiGetReturnStatus routine returns the status of a WMI SRB.
 old-location: storage\scsiportwmigetreturnstatus.htm
 tech.root: storage

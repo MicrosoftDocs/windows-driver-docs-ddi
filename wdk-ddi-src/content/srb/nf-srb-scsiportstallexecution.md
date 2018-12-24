@@ -1,7 +1,6 @@
 ---
 UID: NF:srb.ScsiPortStallExecution
 title: ScsiPortStallExecution function
-author: windows-driver-content
 description: The ScsiPortStallExecution routine stalls in the miniport driver.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportstallexecution.htm
 tech.root: storage

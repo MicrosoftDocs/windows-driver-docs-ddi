@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceQueryPropertyEx
 title: WdfDeviceQueryPropertyEx function
-author: windows-driver-content
 description: The WdfDeviceQueryPropertyEx method retrieves a specified device property.
 old-location: wdf\wdfdevicequerypropertyex.htm
 tech.root: wdf

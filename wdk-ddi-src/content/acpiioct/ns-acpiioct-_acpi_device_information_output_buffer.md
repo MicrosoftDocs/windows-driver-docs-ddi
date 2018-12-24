@@ -1,7 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
 title: "_ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER"
-author: windows-driver-content
 description: The ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure contains output arguments from the IOCTL_ACPI_GET_DEVICE_INFORMATION control method.
 old-location: acpi\acpi_device_information_output_buffer.htm
 tech.root: acpi

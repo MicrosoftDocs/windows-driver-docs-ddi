@@ -1,7 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosProfileType
 title: "_PosProfileType"
-author: windows-driver-content
 description: This structure describes the number of profile strings in a buffer.
 old-location: pos\posprofiletype.htm
 tech.root: pos

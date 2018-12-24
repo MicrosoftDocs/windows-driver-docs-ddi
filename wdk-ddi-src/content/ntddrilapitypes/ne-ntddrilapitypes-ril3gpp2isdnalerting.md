@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RIL3GPP2ISDNALERTING
 title: RIL3GPP2ISDNALERTING
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril3gpp2isdnalerting.htm
 tech.root: netvista

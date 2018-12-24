@@ -1,7 +1,6 @@
 ---
 UID: NS:storport._VIRTUAL_HW_INITIALIZATION_DATA
 title: "_VIRTUAL_HW_INITIALIZATION_DATA"
-author: windows-driver-content
 description: The VIRTUAL_HW_INITIALIZATION_DATA structure contains information particular to each virtual miniport driver.
 old-location: storage\virtual_hw_initialization_data.htm
 tech.root: storage

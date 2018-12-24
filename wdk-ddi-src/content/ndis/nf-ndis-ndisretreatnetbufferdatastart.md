@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisRetreatNetBufferDataStart
 title: NdisRetreatNetBufferDataStart function
-author: windows-driver-content
 description: Call the NdisRetreatNetBufferDataStart function to access more used data space in the MDL chain of a NET_BUFFER structure.
 old-location: netvista\ndisretreatnetbufferdatastart.htm
 tech.root: netvista

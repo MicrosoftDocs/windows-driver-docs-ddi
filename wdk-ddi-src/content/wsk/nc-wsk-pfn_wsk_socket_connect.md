@@ -1,7 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_SOCKET_CONNECT
 title: PFN_WSK_SOCKET_CONNECT
-author: windows-driver-content
 description: The WskSocketConnect function creates a new connection-oriented socket, binds it to a local transport address, connects it to a given remote transport address, and returns a pointer to the associated socket object.
 old-location: netvista\wsksocketconnect.htm
 tech.root: netvista

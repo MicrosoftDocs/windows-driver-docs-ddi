@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoInitAssignInstanceID
 title: WdfPdoInitAssignInstanceID function
-author: windows-driver-content
 description: The WdfPdoInitAssignInstanceID method updates the instance ID for a child device.
 old-location: wdf\wdfpdoinitassigninstanceid.htm
 tech.root: wdf

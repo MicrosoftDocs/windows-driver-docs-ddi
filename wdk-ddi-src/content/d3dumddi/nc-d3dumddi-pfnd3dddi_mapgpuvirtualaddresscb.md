@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_MAPGPUVIRTUALADDRESSCB
 title: PFND3DDDI_MAPGPUVIRTUALADDRESSCB
-author: windows-driver-content
 description: pfnMapGpuVirtualAddressCb maps graphics processing unit (GPU) virtual address ranges to a specific allocation range or puts it to the Invalid or Zero state.
 old-location: display\pfnmapgpuvirtualaddresscb.htm
 tech.root: display

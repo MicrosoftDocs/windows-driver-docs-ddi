@@ -1,7 +1,6 @@
 ---
 UID: NF:keyworddetectoroemadapter.IKeywordDetectorOemAdapter.GetCapabilities
 title: IKeywordDetectorOemAdapter::GetCapabilities
-author: windows-driver-content
 description: The GetCapabilities method returns the keywords and languages supported by the object.
 old-location: audio\ikeyworddetectoroemadapter_getcapabilities.htm
 tech.root: audio

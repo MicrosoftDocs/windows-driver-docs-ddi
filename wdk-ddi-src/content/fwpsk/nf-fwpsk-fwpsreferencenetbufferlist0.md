@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsReferenceNetBufferList0
 title: FwpsReferenceNetBufferList0 function
-author: windows-driver-content
 description: The FwpsReferenceNetBufferList0 function increments the reference count for a NET_BUFFER_LIST structure.Note  FwpsReferenceNetBufferList0 is a specific version of FwpsReferenceNetBufferList.
 old-location: netvista\fwpsreferencenetbufferlist0.htm
 tech.root: netvista

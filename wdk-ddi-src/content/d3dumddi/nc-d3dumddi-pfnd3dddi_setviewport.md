@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETVIEWPORT
 title: PFND3DDDI_SETVIEWPORT
-author: windows-driver-content
 description: The SetViewport function informs guard-band-aware drivers of the view-clipping rectangle.
 old-location: display\setviewport.htm
 tech.root: display

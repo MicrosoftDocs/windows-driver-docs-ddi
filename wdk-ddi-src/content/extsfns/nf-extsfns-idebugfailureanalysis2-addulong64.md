@@ -1,7 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.AddUlong64
 title: IDebugFailureAnalysis2::AddUlong64
-author: windows-driver-content
 description: The AddUlong64 method adds a new FA entry to a DebugFailureAnalysis object and sets the data block of the FA entry to a specified 64-bit value.
 old-location: debugger\idebugfailureanalysis2_addulong64.htm
 tech.root: debugger

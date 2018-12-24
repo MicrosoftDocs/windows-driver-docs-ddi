@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetFieldName
 title: IDebugSymbols2::GetFieldName
-author: windows-driver-content
 description: The GetFieldName method returns the name of a field within a structure.
 old-location: debugger\getfieldname.htm
 tech.root: debugger

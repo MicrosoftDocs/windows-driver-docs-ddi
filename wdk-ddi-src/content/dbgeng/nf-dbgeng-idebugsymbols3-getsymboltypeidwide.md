@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSymbolTypeIdWide
 title: IDebugSymbols3::GetSymbolTypeIdWide
-author: windows-driver-content
 description: The GetSymbolTypeIdWide method returns the type ID and module of the specified symbol.
 old-location: debugger\getsymboltypeidwide.htm
 tech.root: debugger

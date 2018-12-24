@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExSetTimer
 title: ExSetTimer function
-author: windows-driver-content
 description: The ExSetTimer routine starts a timer operation and sets the timer to expire at the specified due time.
 old-location: kernel\exsettimer.htm
 tech.root: kernel

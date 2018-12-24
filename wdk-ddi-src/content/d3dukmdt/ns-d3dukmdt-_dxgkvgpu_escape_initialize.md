@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dukmdt._DXGKVGPU_ESCAPE_INITIALIZE
 title: "_DXGKVGPU_ESCAPE_INITIALIZE"
-author: windows-driver-content
 description: Used to initialize an escape.
 old-location: display\dxgkvgpu_escape_initialize.htm
 tech.root: display

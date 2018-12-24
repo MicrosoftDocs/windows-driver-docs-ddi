@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlInitAnsiString
 title: RtlInitAnsiString function
-author: windows-driver-content
 description: The RtlInitAnsiString routine initializes a counted string of ANSI characters.
 old-location: kernel\rtlinitansistring.htm
 tech.root: kernel

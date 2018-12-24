@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.Set(PCSTR,ULONG64)
 title: ExtRemoteTyped::Set(PCSTR,ULONG64)
-author: windows-driver-content
 description: The Set method sets the typed data represented by the ExtRemoteTyped object.
 old-location: debugger\extremotetyped_set_pcstr_ulong64.htm
 tech.root: debugger

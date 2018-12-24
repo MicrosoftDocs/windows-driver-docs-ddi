@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILEUTRAMRLPARAMMASK
 title: RILEUTRAMRLPARAMMASK
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rileutramrlparammask_2.htm
 tech.root: netvista

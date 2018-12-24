@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeGetCurrentThread
 title: KeGetCurrentThread function
-author: windows-driver-content
 description: The KeGetCurrentThread routine identifies the current thread.
 old-location: kernel\kegetcurrentthread.htm
 tech.root: kernel

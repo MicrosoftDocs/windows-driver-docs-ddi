@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfchildlist.WdfChildListRequestChildEject
 title: WdfChildListRequestChildEject function
-author: windows-driver-content
 description: The WdfChildListRequestChildEject method informs the framework that a specified device is about to be ejected from its docking station.
 old-location: wdf\wdfchildlistrequestchildeject.htm
 tech.root: wdf

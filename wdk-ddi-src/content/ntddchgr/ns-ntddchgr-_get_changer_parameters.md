@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddchgr._GET_CHANGER_PARAMETERS
 title: "_GET_CHANGER_PARAMETERS"
-author: windows-driver-content
 description: Retrieves the characteristics of the changer.
 old-location: storage\get_changer_parameters.htm
 tech.root: storage

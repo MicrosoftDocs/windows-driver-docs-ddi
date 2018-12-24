@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.Clear
 title: IPortableDeviceValues::Clear
-author: windows-driver-content
 description: Deletes all items from the collection.
 old-location: wpddk\iportabledevicevalues_clear.htm
 tech.root: wpd_dk

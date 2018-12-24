@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfwdm.InsertTailList
 title: InsertTailList function
-author: windows-driver-content
 description: The InsertTailList routine inserts an entry at the tail of a doubly linked list of LIST_ENTRY structures.
 old-location: kernel\inserttaillist.htm
 tech.root: kernel

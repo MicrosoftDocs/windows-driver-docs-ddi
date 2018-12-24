@@ -1,7 +1,6 @@
 ---
 UID: NS:fwpsk.FWPS_CALLOUT2_
 title: FWPS_CALLOUT2_
-author: windows-driver-content
 description: The FWPS_CALLOUT2 structure defines the data that is required for a callout driver to register a callout with the filter engine.Note  FWPS_CALLOUT2 is the specific version of FWPS_CALLOUT used in Windows 8 and later.
 old-location: netvista\fwps_callout2.htm
 tech.root: netvista

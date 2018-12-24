@@ -1,7 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCchPrintfA
 title: RtlStringCchPrintfA function
-author: windows-driver-content
 description: The RtlStringCchPrintfW and RtlStringCchPrintfA functions create a character-counted text string, with formatting that is based on supplied formatting information.
 old-location: kernel\rtlstringcchprintf.htm
 tech.root: kernel

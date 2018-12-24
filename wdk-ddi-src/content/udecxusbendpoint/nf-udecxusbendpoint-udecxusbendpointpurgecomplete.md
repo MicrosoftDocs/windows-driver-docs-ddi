@@ -1,7 +1,6 @@
 ---
 UID: NF:udecxusbendpoint.UdecxUsbEndpointPurgeComplete
 title: UdecxUsbEndpointPurgeComplete function
-author: windows-driver-content
 description: Completes an asynchronous request for canceling all I/O requests queued to the specified endpoint.
 old-location: buses\udecxusbendpointpurgecomplete.htm
 tech.root: usbref

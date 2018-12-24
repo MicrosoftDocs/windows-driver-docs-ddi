@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IAdapterPowerManagement.PowerChangeState
 title: IAdapterPowerManagement::PowerChangeState
-author: windows-driver-content
 description: The PowerChangeState method requests that the device change to a new power state.
 old-location: audio\iadapterpowermanagement_powerchangestate.htm
 tech.root: audio

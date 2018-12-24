@@ -1,7 +1,6 @@
 ---
 UID: NE:gnssdriver.__unnamed_enum_10
 title: GNSS_SUPL_CERT_ACTION
-author: windows-driver-content
 description: This enumeration indicates the action to take upon receipt of the SUPL certificate, which is defined by the GNSS_SUPL_CERT_CONFIG structure.
 old-location: gnss\gnss_supl_cert_action.htm
 tech.root: gnss

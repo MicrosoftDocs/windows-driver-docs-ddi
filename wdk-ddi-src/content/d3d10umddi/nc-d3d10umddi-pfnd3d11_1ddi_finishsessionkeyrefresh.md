@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_FINISHSESSIONKEYREFRESH
 title: PFND3D11_1DDI_FINISHSESSIONKEYREFRESH
-author: windows-driver-content
 description: Completes the switch to a new session key.
 old-location: display\finishsessionkeyrefresh1.htm
 ms.assetid: 95c0433f-e4da-4566-b128-34cb758b8001

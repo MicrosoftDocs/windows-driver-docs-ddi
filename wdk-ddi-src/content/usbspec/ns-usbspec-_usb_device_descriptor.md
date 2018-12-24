@@ -1,7 +1,6 @@
 ---
 UID: NS:usbspec._USB_DEVICE_DESCRIPTOR
 title: "_USB_DEVICE_DESCRIPTOR"
-author: windows-driver-content
 description: The USB_DEVICE_DESCRIPTOR structure is used by USB client drivers to retrieve a USB-defined device descriptor.
 old-location: buses\usb_device_descriptor.htm
 tech.root: usbref

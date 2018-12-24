@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorsdriversutils.InitTransformationMatrix
 title: InitTransformationMatrix function
-author: windows-driver-content
 description: The InitTransformationMatrix function reads the rotation matrix from the ACPI entries.
 ms.assetid: 691a3ff7-8db6-4519-8768-909f05a09e6c
 ms.date: 04/19/2018

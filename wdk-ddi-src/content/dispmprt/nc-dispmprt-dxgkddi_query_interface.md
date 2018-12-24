@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_QUERY_INTERFACE
 title: DXGKDDI_QUERY_INTERFACE
-author: windows-driver-content
 description: The DxgkDdiQueryInterface function returns a functional interface that is implemented by the display miniport driver.
 old-location: display\dxgkddiqueryinterface.htm
 tech.root: display

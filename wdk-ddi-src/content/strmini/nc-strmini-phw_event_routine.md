@@ -1,7 +1,6 @@
 ---
 UID: NC:strmini.PHW_EVENT_ROUTINE
 title: PHW_EVENT_ROUTINE
-author: windows-driver-content
 description: The class driver calls the stream minidriver's StrMiniEvent routine to signal to a minidriver an event should be enabled or disabled.
 old-location: stream\strminievent.htm
 tech.root: stream

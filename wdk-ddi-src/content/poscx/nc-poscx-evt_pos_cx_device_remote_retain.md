@@ -1,7 +1,6 @@
 ---
 UID: NC:poscx.EVT_POS_CX_DEVICE_REMOTE_RETAIN
 title: EVT_POS_CX_DEVICE_REMOTE_RETAIN
-author: windows-driver-content
 description: The EVT_POS_CX_DEVICE_REMOTE_RETAIN callback is called whenever PosCx attempts to hold onto a claim on a network device and allows the driver to do additional work.
 old-location: pos\evt_pos_cx_device_remote_retain.htm
 tech.root: pos

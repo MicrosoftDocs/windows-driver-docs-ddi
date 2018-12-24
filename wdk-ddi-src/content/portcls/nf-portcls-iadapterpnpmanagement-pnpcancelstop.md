@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IAdapterPnpManagement.PnpCancelStop
 title: IAdapterPnpManagement::PnpCancelStop
-author: windows-driver-content
 description: The PnpCancelStop method provides a notification while processing the CancelStop IRP.
 tech.root: audio
 ms.assetid: 882d841c-1e16-4bb6-a9e2-df8fbe5728c9

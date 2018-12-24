@@ -1,7 +1,6 @@
 ---
 UID: NS:bthsdpddi._BTHDDI_SDP_PARSE_INTERFACE
 title: "_BTHDDI_SDP_PARSE_INTERFACE"
-author: windows-driver-content
 description: The BTHDDI_SDP_PARSE_INTERFACE structure provides functions for parsing SDP records.
 old-location: bltooth\bthddi_sdp_parse_interface.htm
 tech.root: bltooth

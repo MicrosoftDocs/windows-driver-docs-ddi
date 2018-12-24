@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlCreateSystemVolumeInformationFolder
 title: RtlCreateSystemVolumeInformationFolder function
-author: windows-driver-content
 description: The RtlCreateSystemVolumeInformationFolder routine verifies the existence of the &#0034;System Volume Information&#0034; folder on a file system volume. If the folder is not present, then the folder is created.
 old-location: ifsk\rtlcreatesystemvolumeinformationfolder.htm
 tech.root: ifsk

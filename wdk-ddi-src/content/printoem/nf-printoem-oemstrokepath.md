@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMStrokePath
 title: OEMStrokePath function
-author: windows-driver-content
 description: The OEMStrokePath function strokes a path.
 old-location: print\oemstrokepath.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsifnd._ReportDiscoveredTargets2_OUT
 title: "_ReportDiscoveredTargets2_OUT"
-author: windows-driver-content
 description: The ReportDiscoveredTargets2_OUT structure holds the output data for the ReportDiscoveredTargets2 method.
 old-location: storage\reportdiscoveredtargets2_out.htm
 tech.root: storage

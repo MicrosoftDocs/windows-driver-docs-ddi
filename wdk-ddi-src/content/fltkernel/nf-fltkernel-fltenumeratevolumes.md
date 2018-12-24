@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltEnumerateVolumes
 title: FltEnumerateVolumes function
-author: windows-driver-content
 description: The FltEnumerateVolumes routine enumerates all volumes in the system.
 old-location: ifsk\fltenumeratevolumes.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaPageMediaSizeOption.get_HeightInMicrons
 title: IPrintSchemaPageMediaSizeOption::get_HeightInMicrons
-author: windows-driver-content
 description: Gets the height of the page in microns.
 old-location: print\iprintschemapagemediasizeoption_heightinmicrons.htm
 tech.root: print

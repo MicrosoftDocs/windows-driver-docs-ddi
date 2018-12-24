@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CREATEDEPTHSTENCILSTATE
 title: PFND3D10DDI_CREATEDEPTHSTENCILSTATE
-author: windows-driver-content
 description: The CreateDepthStencilState function creates a depth stencil state.
 old-location: display\createdepthstencilstate.htm
 ms.assetid: ed2da104-c4e8-43eb-80e0-10273b575020

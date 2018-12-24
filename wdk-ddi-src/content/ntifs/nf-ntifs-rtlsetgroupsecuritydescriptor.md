@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlSetGroupSecurityDescriptor
 title: RtlSetGroupSecurityDescriptor function
-author: windows-driver-content
 description: The RtlSetGroupSecurityDescriptor routine sets the primary group information of an absolute-format security descriptor. It replaces any primary group information that is already present in the security descriptor.
 old-location: ifsk\rtlsetgroupsecuritydescriptor.htm
 tech.root: ifsk

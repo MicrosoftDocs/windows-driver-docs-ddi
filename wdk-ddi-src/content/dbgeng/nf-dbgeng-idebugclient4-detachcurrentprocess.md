@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient4.DetachCurrentProcess
 title: IDebugClient4::DetachCurrentProcess
-author: windows-driver-content
 description: The DetachCurrentProcess method detaches the debugger engine from the current process, resuming all its threads.
 old-location: debugger\detachcurrentprocess.htm
 tech.root: debugger

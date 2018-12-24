@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoIsFileOriginRemote
 title: IoIsFileOriginRemote function
-author: windows-driver-content
 description: The IoIsFileOriginRemote routine determines whether a given file object is for a remote create request.
 old-location: ifsk\ioisfileoriginremote.htm
 tech.root: ifsk

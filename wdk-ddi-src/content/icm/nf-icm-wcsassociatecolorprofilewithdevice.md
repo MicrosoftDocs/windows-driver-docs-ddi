@@ -1,7 +1,6 @@
 ---
 UID: NF:icm.WcsAssociateColorProfileWithDevice
 title: WcsAssociateColorProfileWithDevice function
-author: windows-driver-content
 description: The WcsAssociateColorProfileWithDevice function associates a specified WCS color profile with a specified device.
 old-location: print\wcsassociatecolorprofilewithdevice.htm
 tech.root: print

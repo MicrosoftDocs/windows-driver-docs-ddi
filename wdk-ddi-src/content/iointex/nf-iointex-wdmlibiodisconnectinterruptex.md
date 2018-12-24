@@ -1,7 +1,6 @@
 ---
 UID: NF:iointex.WdmlibIoDisconnectInterruptEx
 title: WdmlibIoDisconnectInterruptEx function
-author: windows-driver-content
 description: The WdmlibIoDisconnectInterruptEx function unregisters an interrupt service routine (ISR) that was registered by a previous call to the WdmlibIoConnectInterruptEx function.
 old-location: kernel\wdmlibiodisconnectinterruptex.htm
 tech.root: kernel

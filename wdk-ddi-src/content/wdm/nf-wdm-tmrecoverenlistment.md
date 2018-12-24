@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.TmRecoverEnlistment
 title: TmRecoverEnlistment function
-author: windows-driver-content
 description: The TmRecoverEnlistment routine initiates a recovery operation for the transaction that is associated with a specified enlistment.
 old-location: kernel\tmrecoverenlistment.htm
 tech.root: kernel

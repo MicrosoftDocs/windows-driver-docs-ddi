@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltIs32bitProcess
 title: FltIs32bitProcess function
-author: windows-driver-content
 description: The FltIs32bitProcess routine checks whether the originator of the current I/O operation is a 32-bit user-mode application.
 old-location: ifsk\fltis32bitprocess.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceCreateSymbolicLink
 title: WdfDeviceCreateSymbolicLink function
-author: windows-driver-content
 description: The WdfDeviceCreateSymbolicLink method creates a symbolic link to a specified device.
 old-location: wdf\wdfdevicecreatesymboliclink.htm
 tech.root: wdf

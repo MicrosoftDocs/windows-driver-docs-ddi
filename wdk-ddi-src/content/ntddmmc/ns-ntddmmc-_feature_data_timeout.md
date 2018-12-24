@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_TIMEOUT
 title: "_FEATURE_DATA_TIMEOUT"
-author: windows-driver-content
 description: The FEATURE_DATA_TIMEOUT structure holds information about the Time-Out feature.
 old-location: storage\feature_data_timeout.htm
 tech.root: storage

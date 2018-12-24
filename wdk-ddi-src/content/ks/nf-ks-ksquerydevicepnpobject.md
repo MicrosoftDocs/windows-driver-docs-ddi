@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsQueryDevicePnpObject
 title: KsQueryDevicePnpObject function
-author: windows-driver-content
 description: The KsQueryDevicePnpObject function returns the PnP device object that can be stored in the device header. This is the next device object on the PnP stack and is the device object that PnP requests are forwarded to if KsDefaultDispatchPnp is used.
 old-location: stream\ksquerydevicepnpobject.htm
 tech.root: stream

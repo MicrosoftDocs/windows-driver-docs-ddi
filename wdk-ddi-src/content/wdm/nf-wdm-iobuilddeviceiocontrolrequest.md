@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoBuildDeviceIoControlRequest
 title: IoBuildDeviceIoControlRequest function
-author: windows-driver-content
 description: The IoBuildDeviceIoControlRequest routine allocates and sets up an IRP for a synchronously processed device control request.
 old-location: kernel\iobuilddeviceiocontrolrequest.htm
 tech.root: kernel

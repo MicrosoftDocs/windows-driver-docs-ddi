@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceWdmDispatchIrpToIoQueue
 title: WdfDeviceWdmDispatchIrpToIoQueue function
-author: windows-driver-content
 description: The WdfDeviceWdmDispatchIrpToIoQueue method forwards the IRP to a specified I/O queue.
 old-location: wdf\wdfdevicewdmdispatchirptoioqueue.htm
 tech.root: wdf

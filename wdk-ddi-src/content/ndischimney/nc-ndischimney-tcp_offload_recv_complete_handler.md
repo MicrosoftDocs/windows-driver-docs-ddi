@@ -1,7 +1,6 @@
 ---
 UID: NC:ndischimney.TCP_OFFLOAD_RECV_COMPLETE_HANDLER
 title: TCP_OFFLOAD_RECV_COMPLETE_HANDLER
-author: windows-driver-content
 description: NDIS calls a protocol or intermediate driver's ProtocolTcpOffloadReceiveComplete function to complete a receive operation that the driver previously initiated by calling the NdisOffloadTcpReceive function.
 old-location: netvista\protocoltcpoffloadreceivecomplete.htm
 tech.root: netvista

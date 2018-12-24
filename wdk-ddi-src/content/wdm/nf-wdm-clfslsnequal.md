@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsLsnEqual
 title: ClfsLsnEqual function
-author: windows-driver-content
 description: The ClfsLsnEqual routine determines whether two LSNs from the same stream are equal.
 old-location: kernel\clfslsnequal.htm
 tech.root: kernel

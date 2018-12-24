@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_GETPITCH
 title: "_D3DDDIARG_GETPITCH"
-author: windows-driver-content
 description: The D3DDDIARG_GETPITCH structure describes an encrypted surface for which the GetPitch function retrieves the pitch.
 old-location: display\d3dddiarg_getpitch.htm
 tech.root: display

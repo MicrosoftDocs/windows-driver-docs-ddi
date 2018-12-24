@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenResource2
 title: D3DKMTOpenResource2 function
-author: windows-driver-content
 description: Reserved for system use. Do not use in your driver.
 old-location: display\d3dkmtopenresource2.htm
 ms.assetid: 7D496443-F68D-41E6-B377-BC9E6F6ABB83

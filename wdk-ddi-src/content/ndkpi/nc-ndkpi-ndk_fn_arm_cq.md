@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_ARM_CQ
 title: NDK_FN_ARM_CQ
-author: windows-driver-content
 description: The NdkArmCq (NDK_FN_ARM_CQ) function arms an NDK completion queue (CQ) notification.
 old-location: netvista\ndk_fn_arm_cq.htm
 tech.root: netvista

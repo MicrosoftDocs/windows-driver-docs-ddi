@@ -1,7 +1,6 @@
 ---
 UID: NF:sercx.SerCxProgressReceive
 title: SerCxProgressReceive function
-author: windows-driver-content
 description: The SerCxProgressReceive method reports the progress of the current read (receive) operation.
 old-location: serports\sercxprogressreceive.htm
 tech.root: serports

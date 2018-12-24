@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetOutputCallbacksWide
 title: IDebugClient5::GetOutputCallbacksWide
-author: windows-driver-content
 description: The GetOutputCallbacksWide method returns the output callbacks object registered with the client.
 old-location: debugger\getoutputcallbackswide.htm
 tech.root: debugger

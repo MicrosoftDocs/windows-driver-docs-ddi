@@ -1,7 +1,6 @@
 ---
 UID: NS:video._STATUS_BLOCK
 title: "_STATUS_BLOCK"
-author: windows-driver-content
 description: The STATUS_BLOCK structure is a substructure within the VIDEO_REQUEST_PACKET structure. A miniport driver's HwVidStartIO function must set the status block of each VRP that it gets.
 old-location: display\status_block.htm
 tech.root: display

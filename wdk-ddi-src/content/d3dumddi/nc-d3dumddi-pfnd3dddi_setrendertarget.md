@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETRENDERTARGET
 title: PFND3DDDI_SETRENDERTARGET
-author: windows-driver-content
 description: The SetRenderTarget function sets the render target surface.
 old-location: display\setrendertarget.htm
 tech.root: display

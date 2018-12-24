@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DESTROYSYNCHRONIZATIONOBJECT
 title: "_D3DKMT_DESTROYSYNCHRONIZATIONOBJECT"
-author: windows-driver-content
 description: The D3DKMT_DESTROYSYNCHRONIZATIONOBJECT structure contains the handle to a synchronization object to destroy.
 old-location: display\d3dkmt_destroysynchronizationobject.htm
 ms.assetid: d6be16da-7f92-4c10-af8b-7ecd05ef6856

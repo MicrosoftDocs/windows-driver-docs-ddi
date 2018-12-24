@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaPageImageableSize.get_ExtentWidthInMicrons
 title: IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons
-author: windows-driver-content
 description: Gets the horizontal distance between the origin and the bounding limit of the application media size.
 old-location: print\iprintschemapageimageablesize_extentwidthinmicrons.htm
 tech.root: print

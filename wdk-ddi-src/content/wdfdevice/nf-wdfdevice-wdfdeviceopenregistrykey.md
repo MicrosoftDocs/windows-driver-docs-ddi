@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceOpenRegistryKey
 title: WdfDeviceOpenRegistryKey function
-author: windows-driver-content
 description: The WdfDeviceOpenRegistryKey method opens a device's hardware key or a driver's software key in the registry and creates a framework registry-key object that represents the registry key.
 old-location: wdf\wdfdeviceopenregistrykey.htm
 tech.root: wdf

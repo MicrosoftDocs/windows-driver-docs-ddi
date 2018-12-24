@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfsync.WdfWaitLockRelease
 title: WdfWaitLockRelease function
-author: windows-driver-content
 description: The WdfWaitLockRelease method releases a specified wait lock.
 old-location: wdf\wdfwaitlockrelease.htm
 tech.root: wdf

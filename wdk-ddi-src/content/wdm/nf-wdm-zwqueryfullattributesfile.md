@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwQueryFullAttributesFile
 title: ZwQueryFullAttributesFile function
-author: windows-driver-content
 description: The ZwQueryFullAttributesFile routine supplies network open information for the specified file.
 old-location: kernel\zwqueryfullattributesfile.htm
 tech.root: kernel

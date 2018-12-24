@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsCreateClock
 title: KsCreateClock function
-author: windows-driver-content
 description: The KsCreateClock function creates a handle to a clock instance.
 old-location: stream\kscreateclock.htm
 tech.root: stream

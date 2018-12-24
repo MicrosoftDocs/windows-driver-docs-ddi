@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient2.AddDumpInformationFile
 title: IDebugClient2::AddDumpInformationFile
-author: windows-driver-content
 description: The AddDumpInformationFile method registers additional files containing supporting information that will be used when opening a dump file. The Unicode version of this method is AddDumpInformationFileWide.
 old-location: debugger\adddumpinformationfile.htm
 tech.root: debugger

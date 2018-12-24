@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetSystemErrorControl
 title: IDebugControl::GetSystemErrorControl
-author: windows-driver-content
 description: The GetSystemErrorControl method returns the control values for handling system errors.
 old-location: debugger\getsystemerrorcontrol.htm
 tech.root: debugger

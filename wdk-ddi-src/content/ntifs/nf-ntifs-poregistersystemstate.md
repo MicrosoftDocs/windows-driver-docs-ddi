@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.PoRegisterSystemState
 title: PoRegisterSystemState function
-author: windows-driver-content
 description: The PoRegisterSystemState routine registers the system as busy due to certain activity.
 old-location: kernel\poregistersystemstate.htm
 tech.root: kernel

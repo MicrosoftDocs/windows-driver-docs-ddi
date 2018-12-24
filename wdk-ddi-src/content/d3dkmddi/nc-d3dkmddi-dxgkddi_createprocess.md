@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_CREATEPROCESS
 title: DXGKDDI_CREATEPROCESS
-author: windows-driver-content
 description: DxgkDdiCreateProcess creates a graphics kernel process object.
 old-location: display\dxgkddicreateprocess.htm
 ms.assetid: E5AAEEB1-C29E-4AA7-9F8E-2C2DCFADED81

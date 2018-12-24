@@ -1,7 +1,6 @@
 ---
 UID: NS:usbspec._USB_CONFIGURATION_DESCRIPTOR
 title: "_USB_CONFIGURATION_DESCRIPTOR"
-author: windows-driver-content
 description: The USB_CONFIGURATION_DESCRIPTOR structure is used by USB client drivers to hold a USB-defined configuration descriptor.
 old-location: buses\usb_configuration_descriptor.htm
 tech.root: usbref

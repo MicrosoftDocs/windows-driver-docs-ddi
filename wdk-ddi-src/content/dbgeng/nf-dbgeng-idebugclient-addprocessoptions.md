@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient.AddProcessOptions
 title: IDebugClient::AddProcessOptions
-author: windows-driver-content
 description: The AddProcessOptions method adds the process options to those options that affect the current process.
 old-location: debugger\addprocessoptions.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NC:ufxclient.EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE
 title: EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE
-author: windows-driver-content
 description: The client driver's implementation to set or clear the specified power feature on the function controller.
 old-location: buses\evt_ufx_device_super_speed_power_feature.htm
 tech.root: usbref

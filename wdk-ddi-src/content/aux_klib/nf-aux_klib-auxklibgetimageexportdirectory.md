@@ -1,7 +1,6 @@
 ---
 UID: NF:aux_klib.AuxKlibGetImageExportDirectory
 title: AuxKlibGetImageExportDirectory function
-author: windows-driver-content
 description: The AuxKlibGetImageExportDirectory routine returns an image module's export directory.
 old-location: kernel\auxklibgetimageexportdirectory.htm
 tech.root: kernel

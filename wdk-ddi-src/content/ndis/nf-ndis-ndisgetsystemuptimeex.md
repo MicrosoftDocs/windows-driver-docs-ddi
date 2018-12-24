@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisGetSystemUpTimeEx
 title: NdisGetSystemUpTimeEx function
-author: windows-driver-content
 description: The NdisGetSystemUpTimeEx function returns the number of milliseconds that have elapsed since the computer was restarted.
 old-location: netvista\ndisgetsystemuptimeex.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_COMPRESSION
 title: "_WWAN_COMPRESSION"
-author: windows-driver-content
 description: The WWAN_COMPRESSION enumeration lists the different compression options that are supported by the MB device.
 old-location: netvista\wwan_compression.htm
 tech.root: netvista

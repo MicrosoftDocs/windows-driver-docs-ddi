@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._MSFC_HBAPortStatistics
 title: "_MSFC_HBAPortStatistics"
-author: windows-driver-content
 description: The MSFC_HBAPortStatistics structure contains statistics information about a port.
 old-location: storage\msfc_hbaportstatistics.htm
 tech.root: storage

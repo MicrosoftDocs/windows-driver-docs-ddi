@@ -1,7 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlUnicodeStringCbCatStringN
 title: RtlUnicodeStringCbCatStringN function
-author: windows-driver-content
 description: The RtlUnicodeStringCbCatStringN function concatenates two strings when the destination string is contained in a UNICODE_STRING structure, while limiting the size of the appended string.
 old-location: kernel\rtlunicodestringcbcatstringn.htm
 tech.root: kernel

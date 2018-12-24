@@ -1,7 +1,6 @@
 ---
 UID: NC:videoagp.PAGP_RESERVE_VIRTUAL
 title: PAGP_RESERVE_VIRTUAL
-author: windows-driver-content
 description: The AgpReserveVirtual function reserves a range of virtual addresses for AGP.
 old-location: display\agpreservevirtual.htm
 tech.root: display

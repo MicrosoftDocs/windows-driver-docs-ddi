@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTQueryProtectedSessionStatus
 title: D3DKMTQueryProtectedSessionStatus function
-author: windows-driver-content
 description: Used to query the status of the protected session.
 old-location: display\d3dkmtqueryprotectedsessionstatus.htm
 ms.assetid: 787f20a4-51b6-44e3-aefb-2dc529359545

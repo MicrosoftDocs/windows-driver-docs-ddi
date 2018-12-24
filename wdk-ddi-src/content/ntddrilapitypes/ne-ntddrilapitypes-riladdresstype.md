@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILADDRESSTYPE
 title: RILADDRESSTYPE
-author: windows-driver-content
 description: This enumeration describes the RILADDRESSTYPE.
 old-location: netvista\riladdresstype.htm
 tech.root: netvista

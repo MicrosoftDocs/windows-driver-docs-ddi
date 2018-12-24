@@ -1,7 +1,6 @@
 ---
 UID: NS:wmistr.tagWNODE_METHOD_ITEM
 title: tagWNODE_METHOD_ITEM
-author: windows-driver-content
 description: The WNODE_METHOD_ITEM structure indicates a method associated with an instance of a data block and contains any input data for the method.
 old-location: kernel\wnode_method_item.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:61883._GET_UNIT_IDS
 title: "_GET_UNIT_IDS"
-author: windows-driver-content
 description: The GET_UNIT_CAPABILITIES structure is used in conjunction with the Av61883_GetUnitInfo request to retrieve device identifiers.
 old-location: ieee\get_unit_ids.htm
 tech.root: IEEE

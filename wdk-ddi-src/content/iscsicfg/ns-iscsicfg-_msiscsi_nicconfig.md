@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsicfg._MSiSCSI_NICConfig
 title: "_MSiSCSI_NICConfig"
-author: windows-driver-content
 description: The MSiSCSI_NICConfig structure describes the configuration of a network interface card (NIC) port.
 old-location: storage\msiscsi_nicconfig.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeSynchronizeExecution
 title: KeSynchronizeExecution function
-author: windows-driver-content
 description: The KeSynchronizeExecution routine synchronizes the execution of the specified routine with the interrupt service routine (ISR) that is assigned to a set of one or more interrupt objects.
 old-location: kernel\kesynchronizeexecution.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_GET_CONFIGURATION
 title: IOCTL_CDROM_GET_CONFIGURATION
-author: windows-driver-content
 description: Requests feature and profile information from a CD-ROM device.
 old-location: storage\ioctl_cdrom_get_configuration.htm
 tech.root: storage

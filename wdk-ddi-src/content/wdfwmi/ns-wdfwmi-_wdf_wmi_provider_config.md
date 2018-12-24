@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfwmi._WDF_WMI_PROVIDER_CONFIG
 title: "_WDF_WMI_PROVIDER_CONFIG"
-author: windows-driver-content
 description: The WDF_WMI_PROVIDER_CONFIG structure contains configuration information for a driver's WMI data block.
 old-location: wdf\wdf_wmi_provider_config.htm
 tech.root: wdf

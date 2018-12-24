@@ -1,7 +1,6 @@
 ---
 UID: NF:sercx.SerCx2PioTransmitInitializeTransactionComplete
 title: SerCx2PioTransmitInitializeTransactionComplete function
-author: windows-driver-content
 description: The SerCx2PioTransmitInitializeTransactionComplete method notifies version 2 of the serial framework extension (SerCx2) that the serial controller driver has finished initializing the serial controller hardware in preparation for a new PIO-transmit transaction.
 old-location: serports\sercx2piotransmitinitializetransactioncomplete.htm
 tech.root: serports

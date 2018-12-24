@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.ExQueryPoolBlockSize
 title: ExQueryPoolBlockSize function
-author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\exquerypoolblocksize.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.MmProbeAndLockSelectedPages
 title: MmProbeAndLockSelectedPages function
-author: windows-driver-content
 description: The MmProbeAndLockSelectedPages routine probes the selected virtual memory pages, makes them resident, and locks them in memory.
 old-location: kernel\mmprobeandlockselectedpages_.htm
 tech.root: kernel

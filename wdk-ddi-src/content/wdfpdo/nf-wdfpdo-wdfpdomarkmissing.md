@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoMarkMissing
 title: WdfPdoMarkMissing function
-author: windows-driver-content
 description: The WdfPdoMarkMissing method informs the framework that a device is no longer accessible.
 old-location: wdf\wdfpdomarkmissing.htm
 tech.root: wdf

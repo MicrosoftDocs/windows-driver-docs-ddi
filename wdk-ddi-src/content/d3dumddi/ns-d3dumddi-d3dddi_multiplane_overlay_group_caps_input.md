@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi.D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT
 title: D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT
-author: windows-driver-content
 description: Specifies info on a multiplane overlay capability group.
 old-location: display\d3dddi_multiplane_overlay_group_caps_input.htm
 tech.root: display

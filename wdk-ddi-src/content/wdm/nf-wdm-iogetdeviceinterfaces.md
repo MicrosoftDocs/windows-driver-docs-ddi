@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoGetDeviceInterfaces
 title: IoGetDeviceInterfaces function
-author: windows-driver-content
 description: The IoGetDeviceInterfaces routine returns a list of device interface instances of a particular device interface class (such as all devices on the system that support a HID interface).
 old-location: kernel\iogetdeviceinterfaces.htm
 tech.root: kernel

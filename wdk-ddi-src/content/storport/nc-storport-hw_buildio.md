@@ -1,7 +1,6 @@
 ---
 UID: NC:storport.HW_BUILDIO
 title: HW_BUILDIO
-author: windows-driver-content
 description: The HwStorBuildIo routine processes the SRB with unsynchronized access to shared system data structures before passing it to HwStorStartIo.
 old-location: storage\hwstorbuildio.htm
 tech.root: storage

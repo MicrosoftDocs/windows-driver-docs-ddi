@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVAHDDDI_ROTATION
 title: "_DXVAHDDDI_ROTATION"
-author: windows-driver-content
 description: Specifies the clockwise rotation of the display output surface.
 old-location: display\dxvahdddi_rotation.htm
 tech.root: display

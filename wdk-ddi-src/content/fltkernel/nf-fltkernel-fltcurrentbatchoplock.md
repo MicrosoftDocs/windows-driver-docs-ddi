@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltCurrentBatchOplock
 title: FltCurrentBatchOplock function
-author: windows-driver-content
 description: A minifilter driver calls FltCurrentBatchOplock to determine whether there are any batch or filter opportunistic locks (oplocks) on a file.
 old-location: ifsk\fltcurrentbatchoplock.htm
 tech.root: ifsk

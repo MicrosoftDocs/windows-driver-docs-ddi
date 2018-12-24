@@ -1,7 +1,6 @@
 ---
 UID: NS:video._DDC_CONTROL
 title: "_DDC_CONTROL"
-author: windows-driver-content
 description: The DDC_CONTROL structure holds function pointers and EDID segment information needed by the VideoPortDDCMonitorHelper function, which is exported by the video port driver.
 old-location: display\ddc_control.htm
 tech.root: display

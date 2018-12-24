@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlNotifyFullReportChange
 title: FsRtlNotifyFullReportChange function
-author: windows-driver-content
 description: The FsRtlNotifyFullReportChange routine completes pending notify change IRPs.
 old-location: ifsk\fsrtlnotifyfullreportchange.htm
 tech.root: ifsk

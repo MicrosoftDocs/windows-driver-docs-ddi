@@ -1,7 +1,6 @@
 ---
 UID: NF:bidispl.IBidiRequestContainer.AddRequest
 title: IBidiRequestContainer::AddRequest
-author: windows-driver-content
 description: The AddRequest method adds a request to the request list.
 old-location: print\ibidirequestcontainer_ibidirequestcontainer__addrequest.htm
 tech.root: print

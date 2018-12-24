@@ -1,7 +1,6 @@
 ---
 UID: NS:ehstorioctl.tagSILO_COMMAND
 title: tagSILO_COMMAND
-author: windows-driver-content
 description: This structure describes a storage silo driver command.
 old-location: storage\silo_command.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DESTROYDEVICE
 title: PFND3DDDI_DESTROYDEVICE
-author: windows-driver-content
 description: The DestroyDevice function destroys a graphics context.
 old-location: display\destroydevice.htm
 tech.root: display

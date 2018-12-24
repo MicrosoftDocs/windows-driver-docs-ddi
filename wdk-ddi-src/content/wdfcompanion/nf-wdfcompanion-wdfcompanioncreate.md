@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfcompanion.WdfCompanionCreate
 title: WdfCompanionCreate function
-author: windows-driver-content
 description: For internal use only.
 old-location: wdf\wdfcompanioncreate.htm
 tech.root: wdf

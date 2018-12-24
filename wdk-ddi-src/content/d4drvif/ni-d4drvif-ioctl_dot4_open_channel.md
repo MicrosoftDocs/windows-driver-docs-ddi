@@ -1,7 +1,6 @@
 ---
 UID: NI:d4drvif.IOCTL_DOT4_OPEN_CHANNEL
 title: IOCTL_DOT4_OPEN_CHANNEL
-author: windows-driver-content
 description: This topic describes IOCTL_DOT4_OPEN_CHANNEL.
 old-location: print\ioctl_ioctl_dot4_open_channel.htm
 tech.root: print

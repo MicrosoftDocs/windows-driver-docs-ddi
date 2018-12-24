@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdmaenabler.WdfDmaEnablerSetMaximumScatterGatherElements
 title: WdfDmaEnablerSetMaximumScatterGatherElements function
-author: windows-driver-content
 description: The WdfDmaEnablerSetMaximumScatterGatherElements method sets the maximum number of scatter/gather elements that a device supports, for a specified DMA enabler object.
 old-location: wdf\wdfdmaenablersetmaximumscattergatherelements.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlCheckLockForReadAccess(PFILE_LOCK,PIRP)
 title: FsRtlCheckLockForReadAccess function
-author: windows-driver-content
 description: The FsRtlCheckLockForReadAccess routine determines whether the process associated with a given IRP has read access to a locked region of a file.
 old-location: ifsk\fsrtlchecklockforreadaccess.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi.D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
 title: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
-author: windows-driver-content
 description: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU is used with pfnWaitForSynchronizationObjectFromCpuCb to wait for a monitored fence to reach a certain value.
 old-location: display\d3dddicb_waitforsynchronizationobjectfromcpu.htm
 tech.root: display

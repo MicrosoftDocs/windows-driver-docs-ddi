@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddsd.SdBusSubmitRequest
 title: SdBusSubmitRequest function
-author: windows-driver-content
 description: The SdBusSubmitRequest routine sends a synchronous Secure Digital (SD) request to the bus driver.
 old-location: sd\sdbussubmitrequest.htm
 tech.root: SD

@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasReadPropGuid
 title: wiasReadPropGuid function
-author: windows-driver-content
 description: The wiasReadPropGuid function retrieves a GUID property value from a WIA item.
 old-location: image\wiasreadpropguid.htm
 tech.root: image

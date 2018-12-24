@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SetPersistentEntry_OUT
 title: "_SetPersistentEntry_OUT"
-author: windows-driver-content
 description: The SetPersistentEntry_OUT structure is used to report the output parameter data of the SetPersistentEntry WMI method to the WMI client.
 old-location: storage\setpersistententry_out.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.MmAllocatePagesForMdlEx
 title: MmAllocatePagesForMdlEx function
-author: windows-driver-content
 description: The MmAllocatePagesForMdlEx routine allocates nonpaged, physical memory pages to an MDL.
 old-location: kernel\mmallocatepagesformdlex.htm
 tech.root: kernel

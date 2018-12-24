@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WDF_REQUEST_SEND_OPTIONS_INIT
 title: WDF_REQUEST_SEND_OPTIONS_INIT function
-author: windows-driver-content
 description: The WDF_REQUEST_SEND_OPTIONS_INIT function initializes a driver's WDF_REQUEST_SEND_OPTIONS structure.
 old-location: wdf\wdf_request_send_options_init.htm
 tech.root: wdf

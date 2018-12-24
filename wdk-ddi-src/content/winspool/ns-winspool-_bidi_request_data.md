@@ -1,7 +1,6 @@
 ---
 UID: NS:winspool._BIDI_REQUEST_DATA
 title: "_BIDI_REQUEST_DATA"
-author: windows-driver-content
 description: The BIDI_REQUEST_DATA structure holds a single bidi request.
 old-location: print\bidi_request_data.htm
 tech.root: print

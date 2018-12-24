@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IResourceList.UntranslatedList
 title: IResourceList::UntranslatedList
-author: windows-driver-content
 description: The UntranslatedList method returns the list of untranslated resources.
 old-location: audio\iresourcelist_untranslatedlist.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NF:dot11wdi.NdisMDeregisterWdiMiniportDriver
 title: NdisMDeregisterWdiMiniportDriver function
-author: windows-driver-content
 description: A miniport driver calls the NdisMDeregisterWdiMiniportDriver function to release resources that it allocated with a previous call to the NdisMRegisterWdiMiniportDriver function.
 old-location: netvista\ndismderegisterwdiminiportdriver.htm
 tech.root: netvista

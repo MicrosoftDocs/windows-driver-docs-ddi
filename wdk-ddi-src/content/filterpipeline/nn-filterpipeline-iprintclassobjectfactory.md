@@ -1,7 +1,6 @@
 ---
 UID: NN:filterpipeline.IPrintClassObjectFactory
 title: IPrintClassObjectFactory
-author: windows-driver-content
 description: TheIPrintClassObjectFactory interface creates print filter-related interfaces.
 old-location: print\iprintclassobjectfactory.htm
 tech.root: print

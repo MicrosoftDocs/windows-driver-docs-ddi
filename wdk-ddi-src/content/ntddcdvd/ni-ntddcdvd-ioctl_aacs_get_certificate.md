@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddcdvd.IOCTL_AACS_GET_CERTIFICATE
 title: IOCTL_AACS_GET_CERTIFICATE
-author: windows-driver-content
 description: Queries the logical unit for the device certificate.
 old-location: storage\ioctl_aacs_get_certificate.htm
 tech.root: storage

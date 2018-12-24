@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExAllocateTimer
 title: ExAllocateTimer function
-author: windows-driver-content
 description: The ExAllocateTimer routine allocates and initializes a timer object.
 old-location: kernel\exallocatetimer.htm
 tech.root: kernel

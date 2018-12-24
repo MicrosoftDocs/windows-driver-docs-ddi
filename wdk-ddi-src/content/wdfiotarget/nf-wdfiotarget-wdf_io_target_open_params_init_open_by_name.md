@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfiotarget.WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME
 title: WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME function
-author: windows-driver-content
 description: The WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME function initializes a driver's WDF_IO_TARGET_OPEN_PARAMS structure so the driver can open an I/O target by specifying the name of the device, file, or device interface.
 old-location: wdf\wdf_io_target_open_params_init_open_by_name.htm
 tech.root: wdf

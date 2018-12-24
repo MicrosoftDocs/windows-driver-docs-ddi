@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsStreamPointerDelete
 title: KsStreamPointerDelete function
-author: windows-driver-content
 description: The KsStreamPointerDelete function deletes a clone stream pointer, releasing a reference on the frame to which this stream pointer referred.
 old-location: stream\ksstreampointerdelete.htm
 tech.root: stream

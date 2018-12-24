@@ -1,7 +1,6 @@
 ---
 UID: NS:minitape._TAPE_ERASE
 title: "_TAPE_ERASE"
-author: windows-driver-content
 description: The TAPE_ERASE structure is used in conjunction with the IOCTL_TAPE_ERASE request to erase the current tape partition.
 old-location: storage\tape_erase.htm
 tech.root: storage

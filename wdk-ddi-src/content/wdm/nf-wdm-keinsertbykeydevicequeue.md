@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeInsertByKeyDeviceQueue
 title: KeInsertByKeyDeviceQueue function
-author: windows-driver-content
 description: The KeInsertByKeyDeviceQueue routine acquires the spin lock for the specified DeviceQueue and queues an entry according to the specified sort-key value if the device queue is set to a busy state.
 old-location: kernel\keinsertbykeydevicequeue.htm
 tech.root: kernel

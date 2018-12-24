@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_RENDERCB
 title: PFND3DDDI_RENDERCB
-author: windows-driver-content
 description: The pfnRenderCb function submits the current command buffer for rendering to the display miniport driver.
 old-location: display\pfnrendercb.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NS:video._VIDEO_PORT_DEBUG_REPORT_INTERFACE
 title: _VIDEO_PORT_DEBUG_REPORT_INTERFACE
-author: windows-driver-content
 description: The VIDEO_PORT_DEBUG_REPORT_INTERFACE structure holds pointers to the Debug Report functions, which are implemented by the video port driver.
 old-location: display\video_port_debug_report_interface.htm
 tech.root: display

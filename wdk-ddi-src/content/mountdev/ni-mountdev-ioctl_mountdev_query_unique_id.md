@@ -1,7 +1,6 @@
 ---
 UID: NI:mountdev.IOCTL_MOUNTDEV_QUERY_UNIQUE_ID
 title: IOCTL_MOUNTDEV_QUERY_UNIQUE_ID
-author: windows-driver-content
 description: Support for this IOCTL by mount manager clients is mandatory.
 old-location: storage\ioctl_mountdev_query_unique_id.htm
 tech.root: storage

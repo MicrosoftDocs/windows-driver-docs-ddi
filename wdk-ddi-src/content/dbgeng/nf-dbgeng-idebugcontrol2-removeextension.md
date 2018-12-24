@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.RemoveExtension
 title: IDebugControl2::RemoveExtension
-author: windows-driver-content
 description: The RemoveExtension method unloads an extension library.
 old-location: debugger\removeextension.htm
 tech.root: debugger

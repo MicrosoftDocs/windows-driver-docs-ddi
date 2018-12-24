@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_GET_DTRRTS
 title: IOCTL_SERIAL_GET_DTRRTS
-author: windows-driver-content
 description: The IOCTL_SERIAL_GET_DTRRTS request returns information about the data terminal ready (DTR) control signal and the request to send (RTS) control signal.
 old-location: serports\ioctl_serial_get_dtrrts.htm
 tech.root: serports

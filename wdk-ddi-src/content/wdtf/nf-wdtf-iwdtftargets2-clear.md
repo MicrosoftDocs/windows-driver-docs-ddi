@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.Clear
 title: IWDTFTargets2::Clear
-author: windows-driver-content
 description: Removes all items from the collection.
 old-location: dtf\iwdtftargets2_clear.htm
 tech.root: dtf

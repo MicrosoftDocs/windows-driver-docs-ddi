@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_SPB_SPI_RESOURCE
 title: "_PEP_ACPI_SPB_SPI_RESOURCE"
-author: windows-driver-content
 description: The PEP_ACPI_SPB_SPI_RESOURCE structure describes an ACPI SPI serial bus resource.
 old-location: kernel\pep_acpi_spb_spi_resource.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisDeregisterProtocolDriver
 title: NdisDeregisterProtocolDriver function
-author: windows-driver-content
 description: A protocol driver calls the NdisDeregisterProtocolDriver function to release the resources that NDIS allocated when the driver called the NdisRegisterProtocolDriver function.
 old-location: netvista\ndisderegisterprotocoldriver.htm
 tech.root: netvista

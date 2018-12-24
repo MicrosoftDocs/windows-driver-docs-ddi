@@ -1,7 +1,6 @@
 ---
 UID: NN:prnasntp.IPrintAsyncNewChannelCookie
 title: IPrintAsyncNewChannelCookie
-author: windows-driver-content
 description: 
 old-location: print\iprintasyncnewchannelcookie.htm
 tech.root: print

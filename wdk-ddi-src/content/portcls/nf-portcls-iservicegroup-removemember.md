@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IServiceGroup.RemoveMember
 title: IServiceGroup::RemoveMember
-author: windows-driver-content
 description: The RemoveMember method removes the specified member from the service group.
 old-location: audio\iservicegroup_removemember.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfdevice._WDF_DEVICE_POWER_CAPABILITIES
 title: "_WDF_DEVICE_POWER_CAPABILITIES"
-author: windows-driver-content
 description: The WDF_DEVICE_POWER_CAPABILITIES structure describes a device's power capabilities.
 old-location: wdf\wdf_device_power_capabilities.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CM_MODIFY_QOS_CALL
 title: PROTOCOL_CM_MODIFY_QOS_CALL
-author: windows-driver-content
 description: The ProtocolCmModifyCallQoS function is required.
 old-location: netvista\protocolcmmodifycallqos.htm
 tech.root: netvista

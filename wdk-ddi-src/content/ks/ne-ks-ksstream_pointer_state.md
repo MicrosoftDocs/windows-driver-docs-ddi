@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_39
 title: KSSTREAM_POINTER_STATE
-author: windows-driver-content
 description: 
 old-location: stream\ksstream_pointer_state.htm
 tech.root: stream

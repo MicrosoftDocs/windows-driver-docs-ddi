@@ -1,7 +1,6 @@
 ---
 UID: NF:ufxclient.UfxDevicePortDetectComplete
 title: UfxDevicePortDetectComplete function
-author: windows-driver-content
 description: Notifies UFX about the port type that was detected.
 old-location: buses\ufxdeviceportdetectcomplete.htm
 tech.root: usbref

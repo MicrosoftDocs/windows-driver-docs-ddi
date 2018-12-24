@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._CLFS_STREAM_ID_INFORMATION
 title: "_CLFS_STREAM_ID_INFORMATION"
-author: windows-driver-content
 description: The CLFS_STREAM_ID_INFORMATION structure holds a value that identifies a stream in a Common Log File System (CLFS) log.
 old-location: kernel\clfs_stream_id_information.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._CM_FLOPPY_DEVICE_DATA
 title: "_CM_FLOPPY_DEVICE_DATA"
-author: windows-driver-content
 description: The CM_FLOPPY_DEVICE_DATA structure defines a device-type-specific data record that is stored in the \\Registry\Machine\Hardware\Description tree for a floppy controller if the system can collect this information during the boot process.
 old-location: kernel\cm_floppy_device_data.htm
 tech.root: kernel

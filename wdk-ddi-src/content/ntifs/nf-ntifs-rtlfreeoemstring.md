@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlFreeOemString
 title: RtlFreeOemString function
-author: windows-driver-content
 description: The RtlFreeOemString routine releases storage that was allocated by any of the Rtl..ToOemString routines.
 old-location: ifsk\rtlfreeoemstring.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_PROCESS_VERIFIER_OPTION_DATA
 title: _D3DKMT_PROCESS_VERIFIER_OPTION_DATA
-author: windows-driver-content
 description: The process verifier's option data.
 ms.assetid: c29bbb50-df77-459d-bdb1-d9782c5980d1
 ms.date: 10/19/2018

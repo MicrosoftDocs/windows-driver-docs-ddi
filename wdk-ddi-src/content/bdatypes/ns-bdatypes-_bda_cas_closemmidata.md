@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_CAS_CLOSEMMIDATA
 title: "_BDA_CAS_CLOSEMMIDATA"
-author: windows-driver-content
 description: 
 old-location: stream\bda_cas_closemmidata.htm
 tech.root: stream

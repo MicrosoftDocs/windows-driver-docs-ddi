@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltFastIoMdlRead
 title: FltFastIoMdlRead function
-author: windows-driver-content
 description: The FltFastIoMdlRead routine returns a memory descriptor list (MDL) that points directly to the specified byte range in the file cache.
 old-location: ifsk\fltfastiomdlread.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlOplockBreakToNone
 title: FsRtlOplockBreakToNone function
-author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\fsrtloplockbreaktonone.htm
 tech.root: ifsk

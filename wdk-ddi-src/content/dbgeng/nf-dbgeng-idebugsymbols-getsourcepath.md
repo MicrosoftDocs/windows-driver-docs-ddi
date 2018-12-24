@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.GetSourcePath
 title: IDebugSymbols::GetSourcePath
-author: windows-driver-content
 description: The GetSourcePath method returns the source path.
 old-location: debugger\getsourcepath.htm
 tech.root: debugger

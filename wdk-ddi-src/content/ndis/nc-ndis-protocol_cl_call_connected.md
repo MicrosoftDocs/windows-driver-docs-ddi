@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CL_CALL_CONNECTED
 title: PROTOCOL_CL_CALL_CONNECTED
-author: windows-driver-content
 description: The ProtocolClCallConnected function is used by connection-oriented NDIS clients that accept incoming calls.
 old-location: netvista\protocolclcallconnected.htm
 tech.root: netvista

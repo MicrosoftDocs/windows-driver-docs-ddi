@@ -1,7 +1,6 @@
 ---
 UID: NN:dmusicks.ISynthSinkDMus
 title: ISynthSinkDMus
-author: windows-driver-content
 description: The ISynthSinkDMus interface handles wave output for a DirectMusic synthesizer device.
 old-location: audio\isynthsinkdmus.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwEnumerateValueKey
 title: ZwEnumerateValueKey function
-author: windows-driver-content
 description: The ZwEnumerateValueKey routine gets information about the value entries of an open key.
 old-location: kernel\zwenumeratevaluekey.htm
 tech.root: kernel

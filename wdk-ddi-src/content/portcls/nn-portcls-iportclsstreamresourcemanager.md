@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IPortClsStreamResourceManager
 title: IPortClsStreamResourceManager
-author: windows-driver-content
 description: IPortClsStreamResourceManager is used to manage the registration of audio stream resources.
 old-location: audio\iportclsstreamresourcemanager.htm
 tech.root: audio

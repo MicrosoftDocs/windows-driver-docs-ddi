@@ -1,7 +1,6 @@
 ---
 UID: NE:iddcx.IDDCX_PATH_FLAGS
 title: IDDCX_PATH_FLAGS
-author: windows-driver-content
 description: Indicates the state of the path.
 old-location: display\iddcx_path_flags.htm
 tech.root: display

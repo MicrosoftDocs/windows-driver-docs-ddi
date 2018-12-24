@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILPSMEDIACONFIGURATIONSET
 title: RILPSMEDIACONFIGURATIONSET
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilpsmediaconfigurationset.htm
 tech.root: netvista

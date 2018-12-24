@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFDeviceInitialize2
 title: IWDFDeviceInitialize2
-author: windows-driver-content
 description: The IWDFDeviceInitialize2 interface is a helper interface that allows a driver to specify a preferred buffer retrieval mode and buffer access method.
 old-location: wdf\iwdfdeviceinitialize2.htm
 tech.root: wdf

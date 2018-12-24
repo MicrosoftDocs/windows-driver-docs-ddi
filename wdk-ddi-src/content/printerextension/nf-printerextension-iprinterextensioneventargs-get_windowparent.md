@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionEventArgs.get_WindowParent
 title: IPrinterExtensionEventArgs::get_WindowParent
-author: windows-driver-content
 description: Gets the handle of the parent window.
 old-location: print\iprinterextensioneventargs_windowparent.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.IO_COMPLETION_ROUTINE
 title: IO_COMPLETION_ROUTINE
-author: windows-driver-content
 description: The IoCompletion routine completes the processing of I/O operations.
 old-location: kernel\iocompletion.htm
 tech.root: kernel

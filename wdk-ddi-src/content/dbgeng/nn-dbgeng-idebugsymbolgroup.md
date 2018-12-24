@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugSymbolGroup
 title: IDebugSymbolGroup
-author: windows-driver-content
 description: IDebugSymbolGroup interface
 old-location: debugger\idebugsymbolgroup.htm
 tech.root: debugger

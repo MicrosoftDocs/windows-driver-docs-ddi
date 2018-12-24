@@ -1,7 +1,6 @@
 ---
 UID: NE:iscsidef.__unnamed_enum_0
 title: ISCSIIPADDRESSTYPE
-author: windows-driver-content
 description: The ISCSIIPADDRESSTYPE enumeration indicates formats for an IP address.
 old-location: storage\iscsiipaddresstype.htm
 tech.root: storage

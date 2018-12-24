@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsQueryConnectionSioFormatRedirectRecords0
 title: FwpsQueryConnectionSioFormatRedirectRecords0 function
-author: windows-driver-content
 description: The FwpsQueryConnectionSioFormatRedirectRecords0 function returns the connection redirect records for a redirected connection.
 old-location: netvista\fwpsqueryconnectionsioformatredirectrecords0.htm
 tech.root: netvista

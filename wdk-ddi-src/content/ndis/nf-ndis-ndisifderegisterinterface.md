@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisIfDeregisterInterface
 title: NdisIfDeregisterInterface function
-author: windows-driver-content
 description: The NdisIfDeregisterInterface function deregisters an NDIS network interface that was previously registered by a call to the NdisIfRegisterInterface function.
 old-location: netvista\ndisifderegisterinterface.htm
 tech.root: netvista

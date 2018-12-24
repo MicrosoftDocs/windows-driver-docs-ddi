@@ -1,7 +1,6 @@
 ---
 UID: NS:wmistr.tagWNODE_EVENT_REFERENCE
 title: tagWNODE_EVENT_REFERENCE
-author: windows-driver-content
 description: The WNODE_EVENT_REFERENCE structure contains information that WMI can use to query for an event that exceeds the event size limit set in the registry.
 old-location: kernel\wnode_event_reference.htm
 tech.root: kernel

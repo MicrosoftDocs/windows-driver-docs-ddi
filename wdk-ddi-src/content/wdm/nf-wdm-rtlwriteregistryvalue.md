@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlWriteRegistryValue
 title: RtlWriteRegistryValue function
-author: windows-driver-content
 description: The RtlWriteRegistryValue routine writes caller-supplied data into the registry along the specified relative path at the given value name.
 old-location: kernel\rtlwriteregistryvalue.htm
 tech.root: kernel

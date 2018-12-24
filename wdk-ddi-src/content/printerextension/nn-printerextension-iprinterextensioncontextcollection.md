@@ -1,7 +1,6 @@
 ---
 UID: NN:printerextension.IPrinterExtensionContextCollection
 title: IPrinterExtensionContextCollection
-author: windows-driver-content
 description: Exposes a collection of IPrinterExtensionContext objects.
 old-location: print\iprinterextensioncontextcollection.htm
 tech.root: print

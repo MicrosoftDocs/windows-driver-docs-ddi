@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.PGET_SCATTER_GATHER_LIST
 title: PGET_SCATTER_GATHER_LIST
-author: windows-driver-content
 description: The GetScatterGatherList routine prepares the system for a DMA scatter/gather operation on behalf of the target device object, through either the system DMA controller or a bus-master adapter.
 old-location: kernel\getscattergatherlist.htm
 tech.root: kernel

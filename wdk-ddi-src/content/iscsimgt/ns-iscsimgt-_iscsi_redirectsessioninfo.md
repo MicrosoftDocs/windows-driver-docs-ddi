@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsimgt._ISCSI_RedirectSessionInfo
 title: "_ISCSI_RedirectSessionInfo"
-author: windows-driver-content
 description: This ISCSI_RedirectSessionInfo structure contains information about an iSCSI session and its portal information resulted from iSCSI target redirection.
 old-location: storage\iscsi_redirectsessioninfo.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoUninitializeWorkItem
 title: IoUninitializeWorkItem function
-author: windows-driver-content
 description: The IoUninitializeWorkItem routine uninitializes a work item that was initialized by IoInitializeWorkItem.
 old-location: kernel\iouninitializeworkitem.htm
 tech.root: kernel

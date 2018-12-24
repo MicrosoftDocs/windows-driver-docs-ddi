@@ -1,7 +1,6 @@
 ---
 UID: NF:ioaccess.WRITE_REGISTER_USHORT~r2
 title: WRITE_REGISTER_USHORT function
-author: windows-driver-content
 description: The WRITE_REGISTER_USHORT routine writes a USHORT value to the specified address.
 old-location: kernel\write_register_ushort.htm
 tech.root: kernel

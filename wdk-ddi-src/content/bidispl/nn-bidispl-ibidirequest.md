@@ -1,7 +1,6 @@
 ---
 UID: NN:bidispl.IBidiRequest
 title: IBidiRequest
-author: windows-driver-content
 description: The IBidiRequest interface allows an application or other objects to compose a bidi request.
 old-location: print\ibidirequest.htm
 tech.root: print

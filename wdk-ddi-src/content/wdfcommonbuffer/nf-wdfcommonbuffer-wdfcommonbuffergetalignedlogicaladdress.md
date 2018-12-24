@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfcommonbuffer.WdfCommonBufferGetAlignedLogicalAddress
 title: WdfCommonBufferGetAlignedLogicalAddress function
-author: windows-driver-content
 description: The WdfCommonBufferGetAlignedLogicalAddress method returns the logical address that is associated with a specified common buffer.
 old-location: wdf\wdfcommonbuffergetalignedlogicaladdress.htm
 tech.root: wdf

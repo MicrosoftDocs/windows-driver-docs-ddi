@@ -1,7 +1,6 @@
 ---
 UID: NE:iddcx.IDDCX_FEATURE_IMPLEMENTATION
 title: IDDCX_FEATURE_IMPLEMENTATION
-author: windows-driver-content
 description: Enum used to indicate how a given supported feature is implemented.
 old-location: display\iddcx_feature_implementation.htm
 tech.root: display

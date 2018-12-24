@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_PROCESS_VERIFIER_OPTION
 title: _D3DKMT_PROCESS_VERIFIER_OPTION
-author: windows-driver-content
 description: The process verifier options.
 ms.assetid: da3d3e93-844c-452b-a424-693e9d968faa
 ms.date: 10/19/2018

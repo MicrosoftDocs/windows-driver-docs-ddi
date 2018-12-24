@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_I2C_INTERFACE
 title: "_DXGK_I2C_INTERFACE"
-author: windows-driver-content
 description: The DXGK_I2C_INTERFACE structure contains pointers to functions in the I2C interface, which is implemented by the display miniport driver.
 old-location: display\dxgk_i2c_interface.htm
 tech.root: display

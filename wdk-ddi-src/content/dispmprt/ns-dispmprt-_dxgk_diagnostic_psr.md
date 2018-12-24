@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_DIAGNOSTIC_PSR
 title: _DXGK_DIAGNOSTIC_PSR
-author: windows-driver-content
 description: A diagnostic that indicates that the panel connected via the target in the TargetId field in the _DXGK_DIAGNOSTIC_HEADER structure has entered or exited a panel self-refresh (PSR) state.
 ms.assetid: ec746886-9f49-4986-a73e-4a806f8e5025
 ms.date: 10/19/2018

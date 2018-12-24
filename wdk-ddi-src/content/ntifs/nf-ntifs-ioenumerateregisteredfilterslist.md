@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoEnumerateRegisteredFiltersList
 title: IoEnumerateRegisteredFiltersList function
-author: windows-driver-content
 description: The IoEnumerateRegisteredFiltersList routine enumerates the file system filter drivers that have registered with the system.
 old-location: ifsk\ioenumerateregisteredfilterslist.htm
 tech.root: ifsk

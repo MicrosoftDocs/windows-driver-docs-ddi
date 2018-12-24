@@ -1,7 +1,6 @@
 ---
 UID: NI:gnssdriver.IOCTL_GNSS_MODIFY_FIXSESSION
 title: IOCTL_GNSS_MODIFY_FIXSESSION
-author: windows-driver-content
 description: The IOCTL_GNSS_MODIFY_FIXSESSION control code is used by the GNSS adapter to modify the fix session parameters of an active fix session.
 old-location: gnss\ioctl_gnss_modify_fixsession.htm
 tech.root: gnss

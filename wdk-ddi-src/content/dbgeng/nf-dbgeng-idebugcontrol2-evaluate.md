@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.Evaluate
 title: IDebugControl2::Evaluate
-author: windows-driver-content
 description: The Evaluate method evaluates an expression, returning the result.
 old-location: debugger\evaluate.htm
 tech.root: debugger

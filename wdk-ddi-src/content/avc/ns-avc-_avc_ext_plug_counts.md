@@ -1,7 +1,6 @@
 ---
 UID: NS:avc._AVC_EXT_PLUG_COUNTS
 title: "_AVC_EXT_PLUG_COUNTS"
-author: windows-driver-content
 description: The AVC_EXT_PLUG_COUNTS structure describes the number of external plugs on the subunit.
 old-location: stream\avc_ext_plug_counts.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.ExtRemoteTyped(PCSTR)
 title: ExtRemoteTyped::ExtRemoteTyped(PCSTR)
-author: windows-driver-content
 description: The ExtRemoteTyped constructor creates a new instance of the ExtRemoteTyped class.
 old-location: debugger\extremotetyped_extremotetyped_pcstr.htm
 tech.root: debugger

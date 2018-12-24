@@ -1,7 +1,6 @@
 ---
 UID: NF:ucmtcpciportcontroller.UcmTcpciPortControllerSetHardwareRequestQueue
 title: UcmTcpciPortControllerSetHardwareRequestQueue function
-author: windows-driver-content
 description: Assigns a framework queue object to which the UcmTcpciCx dispatches hardware requests for the port controller.
 old-location: buses\ucmtcpciportcontrollersethardwarerequestqueue.htm
 tech.root: usbref

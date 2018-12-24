@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEHEAPANDRESOURCE_0030
 title: PFND3D12DDI_CREATEHEAPANDRESOURCE_0030
-author: windows-driver-content
 description: Used to simultaneously create a heap and resource.
 old-location: display\pfnd3d12ddi_createheapandresource_0030.htm
 ms.assetid: A6D597AA-C72A-46A5-91E8-22B225B380F2

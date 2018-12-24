@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExSystemTimeToLocalTime
 title: ExSystemTimeToLocalTime function
-author: windows-driver-content
 description: The ExSystemTimeToLocalTime routine converts a GMT system time value to the local system time for the current time zone.
 old-location: kernel\exsystemtimetolocaltime.htm
 tech.root: kernel

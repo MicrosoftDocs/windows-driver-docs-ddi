@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortQueueDpc
 title: VideoPortQueueDpc function
-author: windows-driver-content
 description: The VideoPortQueueDpc function allows a miniport driver to queue a DPC.
 old-location: display\videoportqueuedpc.htm
 tech.root: display

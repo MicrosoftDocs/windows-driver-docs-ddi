@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlULongLongToULong
 title: RtlULongLongToULong function
-author: windows-driver-content
 description: Converts a value of type ULONGLONG to a value of type ULONG.
 old-location: kernel\rtlulonglongtoulong.htm
 tech.root: kernel

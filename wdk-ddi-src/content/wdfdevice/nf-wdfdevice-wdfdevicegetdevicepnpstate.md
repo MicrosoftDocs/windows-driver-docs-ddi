@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceGetDevicePnpState
 title: WdfDeviceGetDevicePnpState function
-author: windows-driver-content
 description: The WdfDeviceGetDevicePnpState method returns the current state of the framework's Plug and Play state machine for a specified device.
 old-location: wdf\wdfdevicegetdevicepnpstate.htm
 tech.root: wdf

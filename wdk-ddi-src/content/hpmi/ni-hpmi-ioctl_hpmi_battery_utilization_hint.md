@@ -1,7 +1,6 @@
 ---
 UID: NI:hpmi.IOCTL_HPMI_BATTERY_UTILIZATION_HINT
 title: IOCTL_HPMI_BATTERY_UTILIZATION_HINT
-author: windows-driver-content
 description: Set command sent to HPMI to provide battery utilization hints.
 old-location: powermeter\ioctl_hpmi_battery_utilization_hint.htm
 tech.root: powermeter

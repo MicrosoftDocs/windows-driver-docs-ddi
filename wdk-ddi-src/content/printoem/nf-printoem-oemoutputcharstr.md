@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMOutputCharStr
 title: OEMOutputCharStr function
-author: windows-driver-content
 description: OEMOutputCharStr function
 old-location: print\oemoutputcharstr.htm
 tech.root: print

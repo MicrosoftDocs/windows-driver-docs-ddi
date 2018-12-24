@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETRENDERSTATE
 title: PFND3DDDI_SETRENDERSTATE
-author: windows-driver-content
 description: The SetRenderState function updates a render state.
 old-location: display\setrenderstate.htm
 tech.root: display

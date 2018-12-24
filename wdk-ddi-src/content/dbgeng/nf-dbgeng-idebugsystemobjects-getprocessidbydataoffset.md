@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects.GetProcessIdByDataOffset
 title: IDebugSystemObjects::GetProcessIdByDataOffset
-author: windows-driver-content
 description: The GetProcessIdByDataOffset method returns the engine process ID for the specified process. The process is specified by its data offset.
 old-location: debugger\getprocessidbydataoffset.htm
 tech.root: debugger

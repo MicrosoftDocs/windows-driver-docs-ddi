@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_SET_CHARS
 title: IOCTL_SERIAL_SET_CHARS
-author: windows-driver-content
 description: The IOCTL_SERIAL_SET_CHARS request sets the special characters that the serial controller driver uses for handshake flow control. This driver verifies the specified special characters.
 old-location: serports\ioctl_serial_set_chars.htm
 tech.root: serports

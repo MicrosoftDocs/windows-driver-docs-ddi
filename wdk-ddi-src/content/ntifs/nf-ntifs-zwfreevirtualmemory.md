@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.ZwFreeVirtualMemory
 title: ZwFreeVirtualMemory function
-author: windows-driver-content
 description: The ZwFreeVirtualMemory routine releases, decommits, or both, a region of pages within the virtual address space of a specified process.
 old-location: kernel\zwfreevirtualmemory.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateNetBufferPool
 title: NdisAllocateNetBufferPool function
-author: windows-driver-content
 description: Call the NdisAllocateNetBufferPool function to allocate a pool of NET_BUFFER structures.
 old-location: netvista\ndisallocatenetbufferpool.htm
 tech.root: netvista

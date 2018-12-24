@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetExceptionFilterSecondCommand
 title: IDebugControl2::GetExceptionFilterSecondCommand
-author: windows-driver-content
 description: The GetExceptionFilterSecondCommand method returns the command that will be executed by the debugger engine upon the second chance of a specified exception.
 old-location: debugger\getexceptionfiltersecondcommand.htm
 tech.root: debugger

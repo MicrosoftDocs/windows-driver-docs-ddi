@@ -1,7 +1,6 @@
 ---
 UID: NF:sti.IStillImageW.GetSTILaunchInformation
 title: IStillImageW::GetSTILaunchInformation
-author: windows-driver-content
 description: The IStillImage::GetSTILaunchInformation method returns the reason the calling still image application was started, if the still image event monitor started it.
 old-location: image\istillimage_getstilaunchinformation.htm
 tech.root: image

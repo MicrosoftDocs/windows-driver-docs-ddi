@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMSendNetBufferListsComplete
 title: NdisMSendNetBufferListsComplete function
-author: windows-driver-content
 description: Miniport drivers call the NdisMSendNetBufferListsComplete function to return a linked list of NET_BUFFER_LIST structures to an overlying driver and to return the final status of a send request.
 old-location: netvista\ndismsendnetbufferlistscomplete.htm
 tech.root: netvista

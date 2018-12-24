@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.RemoveSymbolOptions
 title: IDebugSymbols::RemoveSymbolOptions
-author: windows-driver-content
 description: The RemoveSymbolOptions method turns off some of the engine's global symbol options.
 old-location: debugger\removesymboloptions.htm
 tech.root: debugger

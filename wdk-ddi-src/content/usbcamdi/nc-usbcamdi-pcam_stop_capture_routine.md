@@ -1,7 +1,6 @@
 ---
 UID: NC:usbcamdi.PCAM_STOP_CAPTURE_ROUTINE
 title: PCAM_STOP_CAPTURE_ROUTINE
-author: windows-driver-content
 description: A camera minidriver's CamStopCapture callback function performs any processing after the stream is stopped.
 old-location: stream\camstopcapture.htm
 tech.root: stream

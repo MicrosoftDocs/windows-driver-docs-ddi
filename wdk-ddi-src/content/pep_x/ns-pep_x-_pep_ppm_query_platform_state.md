@@ -1,7 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_QUERY_PLATFORM_STATE
 title: "_PEP_PPM_QUERY_PLATFORM_STATE"
-author: windows-driver-content
 description: The PEP_PPM_QUERY_PLATFORM_STATE structure contains information about a platform idle state.
 old-location: kernel\pep_ppm_query_platform_state.htm
 tech.root: kernel

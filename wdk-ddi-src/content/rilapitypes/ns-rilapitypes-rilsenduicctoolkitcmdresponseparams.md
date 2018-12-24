@@ -1,7 +1,6 @@
 ---
 UID: NS:rilapitypes.RILSENDUICCTOOLKITCMDRESPONSEPARAMS
 title: RILSENDUICCTOOLKITCMDRESPONSEPARAMS
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsenduicctoolkitcmdresponseparams.htm
 tech.root: netvista

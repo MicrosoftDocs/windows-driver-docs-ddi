@@ -1,7 +1,6 @@
 ---
 UID: NS:ntdddisk._CREATE_DISK_MBR
 title: "_CREATE_DISK_MBR"
-author: windows-driver-content
 description: The CREATE_DISK_MBR structure is used with the IOCTL IOCTL_DISK_CREATE_DISK to initialize a disk with an empty MBR partition table.
 old-location: storage\create_disk_mbr.htm
 tech.root: storage

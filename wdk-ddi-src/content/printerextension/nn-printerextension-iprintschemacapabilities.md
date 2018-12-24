@@ -1,7 +1,6 @@
 ---
 UID: NN:printerextension.IPrintSchemaCapabilities
 title: IPrintSchemaCapabilities
-author: windows-driver-content
 description: Provides the primary method to access PrintCapabilities.
 old-location: print\iprintschemacapabilities_interface.htm
 tech.root: print

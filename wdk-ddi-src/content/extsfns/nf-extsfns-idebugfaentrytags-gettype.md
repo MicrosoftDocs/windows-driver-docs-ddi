@@ -1,7 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFAEntryTags.GetType
 title: IDebugFAEntryTags::GetType
-author: windows-driver-content
 description: The GetType method gets the data type that is associated with a tag in a DebugFailureAnalysisTags object.
 old-location: debugger\idebugfaentrytags_gettype.htm
 tech.root: debugger

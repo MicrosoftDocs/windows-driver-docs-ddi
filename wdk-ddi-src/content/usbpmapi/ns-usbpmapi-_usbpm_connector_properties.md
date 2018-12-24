@@ -1,7 +1,6 @@
 ---
 UID: NS:usbpmapi._USBPM_CONNECTOR_PROPERTIES
 title: _USBPM_CONNECTOR_PROPERTIES
-author: windows-driver-content
 description: Describes the properties of a connector.
 ms.assetid: f07a2985-d569-4fe2-9a37-c95e7d664d28
 ms.date: 09/30/2018

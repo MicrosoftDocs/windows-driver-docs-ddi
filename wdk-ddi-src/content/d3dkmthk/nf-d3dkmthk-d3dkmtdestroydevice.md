@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTDestroyDevice
 title: D3DKMTDestroyDevice function
-author: windows-driver-content
 description: The D3DKMTDestroyDevice function releases a kernel-mode device context.
 old-location: display\d3dkmtdestroydevice.htm
 ms.assetid: 7699214a-0cd2-401a-9f66-199d181abce4

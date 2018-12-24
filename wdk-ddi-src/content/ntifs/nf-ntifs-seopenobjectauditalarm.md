@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SeOpenObjectAuditAlarm
 title: SeOpenObjectAuditAlarm function
-author: windows-driver-content
 description: The SeOpenObjectAuditAlarm routine generates audit and alarm messages when an attempt is made to open an object.
 old-location: ifsk\seopenobjectauditalarm.htm
 tech.root: ifsk

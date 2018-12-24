@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_USERACTIVITY_INTERVAL
 title: "_BDA_USERACTIVITY_INTERVAL"
-author: windows-driver-content
 description: 
 old-location: stream\bda_useractivity_interval.htm
 tech.root: stream

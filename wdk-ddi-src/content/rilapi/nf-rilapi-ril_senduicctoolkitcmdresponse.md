@@ -1,7 +1,6 @@
 ---
 UID: NF:rilapi.RIL_SendUiccToolkitCmdResponse
 title: RIL_SendUiccToolkitCmdResponse function
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_senduicctoolkitcmdresponse.htm
 tech.root: netvista

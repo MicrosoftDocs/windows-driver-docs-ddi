@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsDeviceGetBusData
 title: KsDeviceGetBusData function
-author: windows-driver-content
 description: The KsDeviceGetBusData function reads data from the bus where the given AVStream device resides.
 old-location: stream\ksdevicegetbusdata.htm
 tech.root: stream

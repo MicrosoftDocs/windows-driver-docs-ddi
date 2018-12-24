@@ -1,7 +1,6 @@
 ---
 UID: NI:pointofservicedriverinterface.IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE
 title: IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE
-author: windows-driver-content
 description: The I/O control function claims the device for exclusive access.
 old-location: pos\ioctl_point_of_service_claim_device.htm
 tech.root: pos

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.EnumerateKeys
 title: IModelObject::EnumerateKeys
-author: windows-driver-content
 description: Enumerates the keys within the dynamic key provider. 
 ms.assetid: 6eeb14e2-1bf1-4f6e-a12d-345480eb9d60
 ms.date: 07/20/2018

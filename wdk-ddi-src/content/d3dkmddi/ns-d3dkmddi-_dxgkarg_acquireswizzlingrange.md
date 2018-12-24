@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_ACQUIRESWIZZLINGRANGE
 title: "_DXGKARG_ACQUIRESWIZZLINGRANGE"
-author: windows-driver-content
 description: The DXGKARG_ACQUIRESWIZZLINGRANGE structure describes parameters for making an allocation accessible through a CPU aperture.
 old-location: display\dxgkarg_acquireswizzlingrange.htm
 ms.assetid: 865f4d08-f2b3-4922-956f-2c49aa4e68b0

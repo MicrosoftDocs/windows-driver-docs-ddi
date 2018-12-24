@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW
 title: D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW
-author: windows-driver-content
 description: Arguments used to create a depth stencil view.
 ms.assetid: 4ea81c63-03b8-4966-9dbf-8eee2af122d2
 ms.date: 10/19/2018

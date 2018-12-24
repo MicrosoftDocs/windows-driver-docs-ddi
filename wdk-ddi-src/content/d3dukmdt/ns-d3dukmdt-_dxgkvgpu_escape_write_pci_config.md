@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dukmdt._DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG
 title: "_DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG"
-author: windows-driver-content
 description: Used to write to the PCI config space.
 old-location: display\dxgkvgpu_escape_write_pci_config.htm
 tech.root: display

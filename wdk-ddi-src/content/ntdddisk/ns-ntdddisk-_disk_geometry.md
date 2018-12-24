@@ -1,7 +1,6 @@
 ---
 UID: NS:ntdddisk._DISK_GEOMETRY
 title: "_DISK_GEOMETRY"
-author: windows-driver-content
 description: The DISK_GEOMETRY structure is obsolete and provided only to support existing drivers.
 old-location: storage\disk_geometry.htm
 tech.root: storage

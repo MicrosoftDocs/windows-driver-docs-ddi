@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltAllocateDeferredIoWorkItem
 title: FltAllocateDeferredIoWorkItem function
-author: windows-driver-content
 description: FltAllocateDeferredIoWorkItem allocates a deferred-I/O work item.
 old-location: ifsk\fltallocatedeferredioworkitem.htm
 tech.root: ifsk

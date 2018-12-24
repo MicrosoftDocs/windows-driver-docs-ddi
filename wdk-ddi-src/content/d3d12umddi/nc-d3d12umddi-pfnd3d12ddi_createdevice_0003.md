@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEDEVICE_0003
 title: PFND3D12DDI_CREATEDEVICE_0003
-author: windows-driver-content
 description: The PFND3D12DDI_CREATEDEVICE_0003 function creates a graphics context that is referenced in subsequent calls.
 old-location: display\pfnd3d12ddi_createdevice_0003.htm
 ms.assetid: 5F25CFE0-00C5-45CD-8EA1-50F01BA4EA0B

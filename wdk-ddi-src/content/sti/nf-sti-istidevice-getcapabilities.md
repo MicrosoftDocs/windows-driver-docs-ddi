@@ -1,7 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.GetCapabilities
 title: IStiDevice::GetCapabilities
-author: windows-driver-content
 description: The IStiDevice::GetCapabilities method returns a still image device's capabilities.
 old-location: image\istidevice_getcapabilities.htm
 tech.root: image

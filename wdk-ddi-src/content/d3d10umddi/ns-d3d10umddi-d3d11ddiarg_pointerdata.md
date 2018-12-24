@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11DDIARG_POINTERDATA
 title: D3D11DDIARG_POINTERDATA
-author: windows-driver-content
 description: The D3D11DDIARG_POINTERDATA structure describes the location of the data that is reference by a class instance that has been assigned to an interface implementation.
 old-location: display\d3d11ddiarg_pointerdata.htm
 ms.assetid: 1065079d-ff48-4b68-930c-bbbd3f17d5bd

@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._REG_POST_OPERATION_INFORMATION
 title: "_REG_POST_OPERATION_INFORMATION"
-author: windows-driver-content
 description: The REG_POST_OPERATION_INFORMATION structure contains information about a completed registry operation that a RegistryCallback routine can use.
 old-location: kernel\reg_post_operation_information.htm
 tech.root: kernel

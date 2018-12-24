@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IQueueCallbackIoStop.OnIoStop
 title: IQueueCallbackIoStop::OnIoStop
-author: windows-driver-content
 description: The OnIoStop callback function stops the processing of the specified I/O request from the specified queue.
 old-location: wdf\iqueuecallbackiostop_oniostop.htm
 tech.root: wdf

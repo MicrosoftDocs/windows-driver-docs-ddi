@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsPinSetPinClockTime
 title: KsPinSetPinClockTime function
-author: windows-driver-content
 description: The KsPinSetPinClockTime function sets the current time on the clock exposed by Pin.
 old-location: stream\kspinsetpinclocktime.htm
 tech.root: stream

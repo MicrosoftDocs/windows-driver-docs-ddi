@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterScriptableStream.Seek
 title: IPrinterScriptableStream::Seek
-author: windows-driver-content
 description: Sets the seek pointer.
 old-location: print\iprinterscriptablestream__seek.htm
 tech.root: print

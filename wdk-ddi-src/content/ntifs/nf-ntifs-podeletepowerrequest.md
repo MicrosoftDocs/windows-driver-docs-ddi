@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.PoDeletePowerRequest
 title: PoDeletePowerRequest function
-author: windows-driver-content
 description: The PoDeletePowerRequest routine deletes a power request object.
 old-location: kernel\podeletepowerrequest.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRemoteTarget.OpenFileByName
 title: IWDFRemoteTarget::OpenFileByName
-author: windows-driver-content
 description: The OpenFileByName method opens a remote I/O target that is a file.
 old-location: wdf\iwdfremotetarget_openfilebyname.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NC:video.PVIDEO_READ_CLOCK_LINE
 title: PVIDEO_READ_CLOCK_LINE
-author: windows-driver-content
 description: ReadClockLine reads a single data bit from the I2C serial clock line.
 old-location: display\readclockline.htm
 tech.root: display

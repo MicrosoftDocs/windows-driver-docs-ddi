@@ -1,7 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_ENUM_CHILD
 title: "_ACPI_ENUM_CHILD"
-author: windows-driver-content
 description: The ACPI_ENUM_CHILD structure is a member of the ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure and contains the full path and name of an object in an ACPI namespace.
 old-location: acpi\acpi_enum_child.htm
 tech.root: acpi

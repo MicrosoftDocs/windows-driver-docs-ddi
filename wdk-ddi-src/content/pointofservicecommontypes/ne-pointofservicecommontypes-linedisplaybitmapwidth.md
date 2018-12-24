@@ -1,7 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes.LineDisplayBitmapWidth
 title: LineDisplayBitmapWidth
-author: windows-driver-content
 description: This enumeration is not implemented.
 old-location: pos\linedisplaybitmapwidth.htm
 tech.root: pos

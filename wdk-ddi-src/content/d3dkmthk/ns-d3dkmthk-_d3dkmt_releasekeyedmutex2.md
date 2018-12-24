@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_RELEASEKEYEDMUTEX2
 title: "_D3DKMT_RELEASEKEYEDMUTEX2"
-author: windows-driver-content
 description: Describes a keyed mutex object that the D3DKMTReleaseKeyedMutex2 function releases that includes private data.
 old-location: display\d3dkmt_releasekeyedmutex2.htm
 ms.assetid: e343b11c-7cd1-4aea-a87c-e33577456851

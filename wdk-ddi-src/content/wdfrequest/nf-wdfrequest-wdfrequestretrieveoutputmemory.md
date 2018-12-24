@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestRetrieveOutputMemory
 title: WdfRequestRetrieveOutputMemory function
-author: windows-driver-content
 description: The WdfRequestRetrieveOutputMemory method retrieves a handle to a framework memory object that represents an I/O request's output buffer.
 old-location: wdf\wdfrequestretrieveoutputmemory.htm
 tech.root: wdf

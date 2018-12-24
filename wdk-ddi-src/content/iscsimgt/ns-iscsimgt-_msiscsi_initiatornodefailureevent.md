@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsimgt._MSiSCSI_InitiatorNodeFailureEvent
 title: "_MSiSCSI_InitiatorNodeFailureEvent"
-author: windows-driver-content
 description: The MSiSCSI_InitiatorNodeFailureEvent structure is used to report an event when a node failure occurs.
 old-location: storage\msiscsi_initiatornodefailureevent.htm
 tech.root: storage

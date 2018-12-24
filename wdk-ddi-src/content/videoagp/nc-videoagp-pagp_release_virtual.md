@@ -1,7 +1,6 @@
 ---
 UID: NC:videoagp.PAGP_RELEASE_VIRTUAL
 title: PAGP_RELEASE_VIRTUAL
-author: windows-driver-content
 description: The AgpReleaseVirtual function frees system memory reserved by a previous call to AgpReserveVirtual.
 old-location: display\agpreleasevirtual.htm
 tech.root: display

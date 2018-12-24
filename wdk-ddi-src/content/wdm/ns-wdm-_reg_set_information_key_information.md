@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._REG_SET_INFORMATION_KEY_INFORMATION
 title: "_REG_SET_INFORMATION_KEY_INFORMATION"
-author: windows-driver-content
 description: The REG_SET_INFORMATION_KEY_INFORMATION structure describes a new setting for a key's metadata.
 old-location: kernel\reg_set_information_key_information.htm
 tech.root: kernel

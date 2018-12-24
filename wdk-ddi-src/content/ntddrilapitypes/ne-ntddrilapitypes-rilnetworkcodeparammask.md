@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILNETWORKCODEPARAMMASK
 title: RILNETWORKCODEPARAMMASK
-author: windows-driver-content
 description: This enumeration describes the RILNETWORKCODEPARAMMASK.
 old-location: netvista\rilnetworkcodeparammask.htm
 tech.root: netvista

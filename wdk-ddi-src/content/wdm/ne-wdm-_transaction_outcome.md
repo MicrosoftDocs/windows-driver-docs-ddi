@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm._TRANSACTION_OUTCOME
 title: "_TRANSACTION_OUTCOME"
-author: windows-driver-content
 description: The TRANSACTION_OUTCOME enumeration defines the outcomes (results) that KTM can assign to a transaction.
 old-location: kernel\transaction_outcome.htm
 tech.root: kernel

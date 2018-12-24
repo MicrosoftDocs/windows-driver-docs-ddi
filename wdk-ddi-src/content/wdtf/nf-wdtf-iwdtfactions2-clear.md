@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFActions2.Clear
 title: IWDTFActions2::Clear
-author: windows-driver-content
 description: Removes all items from the collection.
 old-location: dtf\iwdtfactions2_clear.htm
 tech.root: dtf

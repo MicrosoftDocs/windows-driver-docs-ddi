@@ -1,7 +1,6 @@
 ---
 UID: NF:sercx.SerCx2PioReceiveInitializeTransactionComplete
 title: SerCx2PioReceiveInitializeTransactionComplete function
-author: windows-driver-content
 description: The SerCx2PioReceiveInitializeTransactionComplete method notifies version 2 of the serial framework extension (SerCx2) that the serial driver has finished initializing the serial controller hardware in preparation for a new PIO-receive transaction.
 old-location: serports\sercx2pioreceiveinitializetransactioncomplete.htm
 tech.root: serports

@@ -1,7 +1,6 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_PROCESS_OTHER_DEVICE_IO
 title: EVT_TR_PROCESS_OTHER_DEVICE_IO
-author: windows-driver-content
 description: 
 ms.assetid: 33c1d7c7-75bc-4a1d-a7b4-d85180224a68
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY
 title: "_OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY"
-author: windows-driver-content
 description: The OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure specifies the UDP-ESP encapsulation type and destination port of a parser entry.
 old-location: netvista\offload_ipsec_udpesp_encaptype_entry.htm
 tech.root: netvista

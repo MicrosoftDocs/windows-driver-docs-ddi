@@ -1,7 +1,6 @@
 ---
 UID: NS:ucmmanager._UCM_MANAGER_CONFIG
 title: "_UCM_MANAGER_CONFIG"
-author: windows-driver-content
 description: Describes the configuration options for the UCM Manager. An initialized UCM_MANAGER_CONFIG structure is an input parameter value to UcmInitializeDevice.
 old-location: buses\ucm_manager_config.htm
 tech.root: usbref

@@ -1,7 +1,6 @@
 ---
 UID: NF:winddiui.DrvPrinterEvent
 title: DrvPrinterEvent function
-author: windows-driver-content
 description: A printer interface DLL's DrvPrinterEvent function is called by the print spooler when processing printer-specific events that might require action by the printer driver.
 old-location: print\drvprinterevent.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_VIDEO_MOTION_ESTIMATOR_0053
 title: D3D12DDIARG_CREATE_VIDEO_MOTION_ESTIMATOR_0053
-author: windows-driver-content
 description: Specifies the creation arguments for the motion estimator.
 ms.assetid: 0d46a722-c3ad-4e95-a4a0-3d0fc9dc0dfb
 ms.date: 10/19/2018

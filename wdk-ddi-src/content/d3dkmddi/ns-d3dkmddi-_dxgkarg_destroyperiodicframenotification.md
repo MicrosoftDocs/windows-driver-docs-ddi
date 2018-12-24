@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_DESTROYPERIODICFRAMENOTIFICATION
 title: "_DXGKARG_DESTROYPERIODICFRAMENOTIFICATION"
-author: windows-driver-content
 description: The arguments used to destroy a periodic frame notification.
 old-location: display\dxgkarg_destroyperiodicframenotification.htm
 ms.assetid: 94797515-3440-46A9-ACBD-09D005A33CE3

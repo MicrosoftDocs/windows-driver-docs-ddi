@@ -1,7 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_GET_DEVICE_CHARACTERISTICS
 title: IOCTL_USB_GET_DEVICE_CHARACTERISTICS
-author: windows-driver-content
 description: The client driver sends this request to determine general characteristics about a USB device, such as maximum send and receive delays for any request.
 old-location: buses\_ioctl_usb_get_device_characteristics.htm
 tech.root: usbref

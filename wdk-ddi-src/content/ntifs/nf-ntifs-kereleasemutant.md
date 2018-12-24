@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.KeReleaseMutant
 title: KeReleaseMutant function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\kereleasemutant.htm
 tech.root: ifsk

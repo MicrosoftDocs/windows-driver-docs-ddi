@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.MmProbeAndLockPages
 title: MmProbeAndLockPages function
-author: windows-driver-content
 description: The MmProbeAndLockPages routine probes the specified virtual memory pages, makes them resident, and locks them in memory.
 old-location: kernel\mmprobeandlockpages.htm
 tech.root: kernel

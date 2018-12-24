@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.GetBitField
 title: IDebugHostType2::GetBitField
-author: windows-driver-content
 description: If a given member of a data structure is a bitfield (e.g. ULONG MyBits:8), the type information for the field carries with it information about the bitfield placement. 
 ms.assetid: 9dcdb1c5-dfb8-43da-aec8-4a2536cfef49
 ms.date: 09/20/2018

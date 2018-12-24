@@ -1,7 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.GetFailureType
 title: IDebugFailureAnalysis2::GetFailureType
-author: windows-driver-content
 description: The GetFailureType method gets the failure type of a DebugFailureAnalysis object. The failure type indicates whether the code being analyzed was running in kernel mode or user mode.
 old-location: debugger\idebugfailureanalysis2_getfailuretype.htm
 tech.root: debugger

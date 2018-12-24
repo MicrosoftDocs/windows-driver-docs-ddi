@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlEqualSid
 title: RtlEqualSid function
-author: windows-driver-content
 description: The RtlEqualSid routine determines whether two security identifier (SID) values are equal. Two SIDs must match exactly to be considered equal.
 old-location: ifsk\rtlequalsid.htm
 tech.root: ifsk

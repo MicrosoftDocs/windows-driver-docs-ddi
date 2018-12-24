@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._FILE_ALIGNMENT_INFORMATION
 title: "_FILE_ALIGNMENT_INFORMATION"
-author: windows-driver-content
 description: The FILE_ALIGNMENT_INFORMATION structure is used as an argument to the ZwQueryInformationFile routine.
 old-location: kernel\file_alignment_information.htm
 tech.root: kernel

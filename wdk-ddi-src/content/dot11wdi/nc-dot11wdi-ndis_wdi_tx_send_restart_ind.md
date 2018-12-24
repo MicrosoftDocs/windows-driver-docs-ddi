@@ -1,7 +1,6 @@
 ---
 UID: NC:dot11wdi.NDIS_WDI_TX_SEND_RESTART_IND
 title: NDIS_WDI_TX_SEND_RESTART_IND
-author: windows-driver-content
 description: The NdisWdiTxSendRestartIndication callback function resumes transmission on a given port to a given peer or peer-TID combination.
 old-location: netvista\ndiswditxsendrestartindication.htm
 tech.root: netvista

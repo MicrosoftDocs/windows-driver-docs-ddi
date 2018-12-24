@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.IO_CSQ_RELEASE_LOCK
 title: IO_CSQ_RELEASE_LOCK
-author: windows-driver-content
 description: The CsqReleaseLock routine is used by the system to release the lock that was acquired using CsqAcquireLock.
 old-location: kernel\csqreleaselock.htm
 tech.root: kernel

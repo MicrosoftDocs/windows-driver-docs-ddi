@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisClDropParty
 title: NdisClDropParty function
-author: windows-driver-content
 description: NdisClDropParty drops a party from the client's multipoint VC.
 old-location: netvista\ndiscldropparty.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFCmResourceList
 title: IWDFCmResourceList
-author: windows-driver-content
 description: This interface represents a list of hardware resources for a device.
 old-location: wdf\iwdfcmresourcelist.htm
 tech.root: wdf

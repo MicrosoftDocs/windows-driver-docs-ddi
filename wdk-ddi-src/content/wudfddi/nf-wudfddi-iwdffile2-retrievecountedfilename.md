@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFFile2.RetrieveCountedFileName
 title: IWDFFile2::RetrieveCountedFileName
-author: windows-driver-content
 description: The RetrieveCountedFileName method retrieves the full counted file name for a file that is associated with a device.
 old-location: wdf\iwdffile2_retrievecountedfilename.htm
 tech.root: wdf

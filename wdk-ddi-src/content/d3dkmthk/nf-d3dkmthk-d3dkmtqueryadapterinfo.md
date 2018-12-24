@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTQueryAdapterInfo
 title: D3DKMTQueryAdapterInfo function
-author: windows-driver-content
 description: The D3DKMTQueryAdapterInfo function retrieves graphics adapter information.
 old-location: display\d3dkmtqueryadapterinfo.htm
 ms.assetid: fa67207d-cf83-42a5-969b-29379f99883f

@@ -1,7 +1,6 @@
 ---
 UID: NE:dispmprt._DXGK_CHILD_STATUS_TYPE
 title: "_DXGK_CHILD_STATUS_TYPE"
-author: windows-driver-content
 description: The DXGK_CHILD_STATUS_TYPE enumeration indicates the type of status being requested or reported for a child device of the display adapter.
 old-location: display\dxgk_child_status_type.htm
 tech.root: display

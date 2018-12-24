@@ -1,7 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_32
 title: KSATTRIBUTE_LIST
-author: windows-driver-content
 description: The KSATTRIBUTE_LIST structure contains an attribute defined in a KSATTRIBUTE structure.
 old-location: stream\ksattribute_list.htm
 tech.root: stream

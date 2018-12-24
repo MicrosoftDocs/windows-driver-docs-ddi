@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.CreateProcessAndAttachWide
 title: IDebugClient5::CreateProcessAndAttachWide
-author: windows-driver-content
 description: The CreateProcessAndAttachWide method creates a process from a specified command line, then attach to another user-mode process.
 old-location: debugger\createprocessandattachwide.htm
 tech.root: debugger

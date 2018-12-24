@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_UPDATETRACKEDWORKLOAD
 title: _D3DKMT_UPDATETRACKEDWORKLOAD
-author: windows-driver-content
 description: Arguments used to update the tracked workload.
 ms.assetid: 7a3a3f6b-77a4-493b-a137-68fa57dc91de
 ms.date: 10/19/2018

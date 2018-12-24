@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALC_PRIVATE_COMMAND_LIST_SIZE_0001
 title: PFND3D12DDI_CALC_PRIVATE_COMMAND_LIST_SIZE_0001
-author: windows-driver-content
 description: Determines the size of the user-mode display driver's private region of memory for a command list.
 ms.assetid: a36c7d5c-6c17-4d57-be31-0ac527f56083
 ms.date: 10/19/2018

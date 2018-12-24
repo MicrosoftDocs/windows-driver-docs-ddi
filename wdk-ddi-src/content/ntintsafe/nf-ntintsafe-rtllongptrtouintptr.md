@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlLongPtrToUIntPtr
 title: RtlLongPtrToUIntPtr function
-author: windows-driver-content
 description: Converts a value of type LONG_PTR to a value of type UINT_PTR.
 old-location: kernel\rtllongptrtouintptr.htm
 tech.root: kernel

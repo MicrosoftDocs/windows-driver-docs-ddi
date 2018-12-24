@@ -1,7 +1,6 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_QUERY_SERVICE_CALLBACKS
 title: EVT_TR_QUERY_SERVICE_CALLBACKS
-author: windows-driver-content
 description: 
 ms.assetid: 1c9369ed-3095-4119-a2ed-faa7cedd6d12
 ms.date: 10/19/2018

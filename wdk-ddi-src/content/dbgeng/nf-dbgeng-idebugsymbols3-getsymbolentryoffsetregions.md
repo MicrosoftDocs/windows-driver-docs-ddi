@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSymbolEntryOffsetRegions
 title: IDebugSymbols3::GetSymbolEntryOffsetRegions
-author: windows-driver-content
 description: Returns all the memory regions known to be associated with a symbol.
 old-location: debugger\idebugsymbols3_getsymbolentryoffsetregions.htm
 tech.root: debugger

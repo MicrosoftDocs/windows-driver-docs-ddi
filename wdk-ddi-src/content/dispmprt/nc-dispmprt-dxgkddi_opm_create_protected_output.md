@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT
 title: DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT
-author: windows-driver-content
 description: The DxgkDdiOPMCreateProtectedOutput function creates a new protected output object with Certified Output Protection Protocol (COPP) or OPM semantics.
 old-location: display\dxgkddiopmcreateprotectedoutput.htm
 tech.root: display

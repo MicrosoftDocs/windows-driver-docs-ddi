@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient3.RemoveProcessOptions
 title: IDebugClient3::RemoveProcessOptions
-author: windows-driver-content
 description: The RemoveProcessOptions method removes process options from those options that affect the current process.
 old-location: debugger\removeprocessoptions.htm
 tech.root: debugger

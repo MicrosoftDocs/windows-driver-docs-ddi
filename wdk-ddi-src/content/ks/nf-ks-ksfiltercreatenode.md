@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsFilterCreateNode
 title: KsFilterCreateNode function
-author: windows-driver-content
 description: The KsFilterCreateNode function creates a new topology node on the specified filter.
 old-location: stream\ksfiltercreatenode.htm
 tech.root: stream

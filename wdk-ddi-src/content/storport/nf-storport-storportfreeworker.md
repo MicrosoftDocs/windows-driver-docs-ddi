@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortFreeWorker
 title: StorPortFreeWorker function
-author: windows-driver-content
 description: Frees a Storport work item previously allocated by the StorPortInitializeWorker routine.
 old-location: storage\storportfreeworker.htm
 tech.root: storage

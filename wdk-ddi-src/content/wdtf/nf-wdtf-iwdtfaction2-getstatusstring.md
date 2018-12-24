@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFAction2.GetStatusString
 title: IWDTFAction2::GetStatusString
-author: windows-driver-content
 description: Returns the status for the last operation as a string.
 old-location: dtf\iwdtfaction2_getstatusstring.htm
 tech.root: dtf

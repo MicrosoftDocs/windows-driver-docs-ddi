@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlSplay
 title: RtlSplay function
-author: windows-driver-content
 description: The RtlSplay routine rebalances, or &#0034;splays,&#0034; a splay link tree around the specified splay link, making that link the new root of the tree.
 old-location: ifsk\rtlsplay.htm
 tech.root: ifsk

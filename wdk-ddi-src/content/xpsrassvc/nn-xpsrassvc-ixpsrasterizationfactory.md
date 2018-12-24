@@ -1,7 +1,6 @@
 ---
 UID: NN:xpsrassvc.IXpsRasterizationFactory
 title: IXpsRasterizationFactory
-author: windows-driver-content
 description: The IXpsRasterizationFactory interface represents an object factory for creating XPS rasterizer objects.
 old-location: print\ixpsrasterizationfactory_interface.htm
 tech.root: print

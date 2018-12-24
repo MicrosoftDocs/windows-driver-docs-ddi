@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltSetIoPriorityHintIntoFileObject
 title: FltSetIoPriorityHintIntoFileObject function
-author: windows-driver-content
 description: The FltSetIoPriorityHintIntoFileObject routine is used by a minifilter driver to set the I/O priority information in a file object.
 old-location: ifsk\fltsetiopriorityhintintofileobject.htm
 tech.root: ifsk

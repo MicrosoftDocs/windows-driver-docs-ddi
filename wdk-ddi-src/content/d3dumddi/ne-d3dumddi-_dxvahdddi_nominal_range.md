@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVAHDDDI_NOMINAL_RANGE
 title: "_DXVAHDDDI_NOMINAL_RANGE"
-author: windows-driver-content
 description: Indicates the luminance range of YUV data.
 old-location: display\dxvahdddi_nominal_range.htm
 tech.root: display

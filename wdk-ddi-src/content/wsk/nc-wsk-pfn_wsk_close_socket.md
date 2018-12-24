@@ -1,7 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_CLOSE_SOCKET
 title: PFN_WSK_CLOSE_SOCKET
-author: windows-driver-content
 description: The WskCloseSocket function closes a socket and frees any associated resources.
 old-location: netvista\wskclosesocket.htm
 tech.root: netvista

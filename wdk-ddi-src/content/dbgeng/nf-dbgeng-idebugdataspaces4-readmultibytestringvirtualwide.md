@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.ReadMultiByteStringVirtualWide
 title: IDebugDataSpaces4::ReadMultiByteStringVirtualWide
-author: windows-driver-content
 description: The ReadMultiByteStringVirtualWide method reads a null-terminated, multibyte string from the target and converts it to Unicode.
 old-location: debugger\readmultibytestringvirtualwide.htm
 tech.root: debugger

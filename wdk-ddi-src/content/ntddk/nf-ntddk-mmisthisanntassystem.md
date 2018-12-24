@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.MmIsThisAnNtAsSystem
 title: MmIsThisAnNtAsSystem function
-author: windows-driver-content
 description: The MmIsThisAnNtAsSystem routine is obsolete for Windows XP and later versions of Windows. Use RtlGetVersion or RtlVerifyVersionInfo instead.
 old-location: kernel\mmisthisanntassystem.htm
 tech.root: kernel

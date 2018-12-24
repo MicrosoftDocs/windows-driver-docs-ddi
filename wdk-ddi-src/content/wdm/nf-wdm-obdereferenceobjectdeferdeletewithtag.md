@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ObDereferenceObjectDeferDeleteWithTag
 title: ObDereferenceObjectDeferDeleteWithTag function
-author: windows-driver-content
 description: The ObDereferenceObjectDeferDeleteWithTag routine decrements the reference count for the specified object, defers deletion of the object to avoid deadlocks, and writes a four-byte tag value to the object to support object reference tracing.
 old-location: kernel\obdereferenceobjectdeferdeletewithtag.htm
 tech.root: kernel

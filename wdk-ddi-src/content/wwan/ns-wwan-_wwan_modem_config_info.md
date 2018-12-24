@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_MODEM_CONFIG_INFO
 title: "_WWAN_MODEM_CONFIG_INFO"
-author: windows-driver-content
 description: The WWAN_MODEM_CONFIG_INFO structure represents the modem's configuration information.
 old-location: netvista\wwan_modem_config_info.htm
 tech.root: netvista

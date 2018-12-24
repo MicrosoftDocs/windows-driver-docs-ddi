@@ -1,7 +1,6 @@
 ---
 UID: NS:1394._GET_LOCAL_HOST_INFO2
 title: "_GET_LOCAL_HOST_INFO2"
-author: windows-driver-content
 description: The GET_LOCAL_HOST_INFO2 structure contains the data returned by a REQUEST_GET_LOCAL_HOST_INFO request using u.GetLocalHostInformation.nLevel GET_HOST_CAPABILITIES.
 old-location: ieee\get_local_host_info2.htm
 tech.root: IEEE

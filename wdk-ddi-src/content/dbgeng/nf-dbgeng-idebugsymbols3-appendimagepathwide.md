@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.AppendImagePathWide
 title: IDebugSymbols3::AppendImagePathWide
-author: windows-driver-content
 description: The AppendImagePathWide method appends directories to the executable image path.
 old-location: debugger\appendimagepathwide.htm
 tech.root: debugger

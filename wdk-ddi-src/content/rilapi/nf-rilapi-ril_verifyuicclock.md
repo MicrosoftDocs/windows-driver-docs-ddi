@@ -1,7 +1,6 @@
 ---
 UID: NF:rilapi.RIL_VerifyUiccLock
 title: RIL_VerifyUiccLock function
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_verifyuicclock.htm
 tech.root: netvista

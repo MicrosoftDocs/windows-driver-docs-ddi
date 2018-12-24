@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.PsTerminateSystemThread
 title: PsTerminateSystemThread function
-author: windows-driver-content
 description: The PsTerminateSystemThread routine terminates the current system thread.
 old-location: kernel\psterminatesystemthread.htm
 tech.root: kernel

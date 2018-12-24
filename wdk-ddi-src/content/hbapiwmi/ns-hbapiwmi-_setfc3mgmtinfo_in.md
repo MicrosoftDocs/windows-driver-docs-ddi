@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SetFC3MgmtInfo_IN
 title: "_SetFC3MgmtInfo_IN"
-author: windows-driver-content
 description: The SetFC3MgmtInfo_IN structure is used to deliver input parameter data to the SetFC3MgmtInfo WMI method.
 old-location: storage\setfc3mgmtinfo_in.htm
 tech.root: storage

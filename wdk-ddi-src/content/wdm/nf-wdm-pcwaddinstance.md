@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.PcwAddInstance
 title: PcwAddInstance function
-author: windows-driver-content
 description: The PcwAddInstance function adds the specified instance of the counter set to the consumer buffer.
 old-location: devtest\pcwaddinstance.htm
 tech.root: devtest

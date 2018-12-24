@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMTextOutAsBitmap
 title: OEMTextOutAsBitmap function
-author: windows-driver-content
 description: OEMTextOutAsBitmap function
 old-location: print\oemtextoutasbitmap.htm
 tech.root: print

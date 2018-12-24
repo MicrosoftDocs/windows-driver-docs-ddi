@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint2.SetOffset
 title: IDebugBreakpoint2::SetOffset
-author: windows-driver-content
 description: The SetOffset method sets the location that triggers a breakpoint.
 old-location: debugger\setoffset.htm
 tech.root: debugger

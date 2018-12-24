@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddtape._TAPE_GET_MEDIA_PARAMETERS
 title: "_TAPE_GET_MEDIA_PARAMETERS"
-author: windows-driver-content
 description: The TAPE_GET_MEDIA_PARAMETERS structure is used in conjunction with the TapeMiniGetMediaParameters routine to retrieve tape media parameters.
 old-location: storage\tape_get_media_parameters.htm
 tech.root: storage

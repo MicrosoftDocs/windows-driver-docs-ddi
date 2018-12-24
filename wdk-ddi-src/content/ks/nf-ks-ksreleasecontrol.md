@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsReleaseControl
 title: KsReleaseControl function
-author: windows-driver-content
 description: The KsReleaseControl function releases the control mutex for Object.
 old-location: stream\ksreleasecontrol.htm
 tech.root: stream

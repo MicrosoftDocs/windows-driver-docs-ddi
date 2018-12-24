@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExInitializeDeleteTimerParameters
 title: ExInitializeDeleteTimerParameters function
-author: windows-driver-content
 description: The ExInitializeDeleteTimerParameters routine initializes an EXT_DELETE_PARAMETERS structure.
 old-location: kernel\exinitializedeletetimerparameters.htm
 tech.root: kernel

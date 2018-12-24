@@ -1,7 +1,6 @@
 ---
 UID: NF:nfccx.NfcCxUnregisterSequenceHandler
 title: NfcCxUnregisterSequenceHandler function
-author: windows-driver-content
 description: Called by the client driver during device shutdown to unregister for the previously registered sequence handler callback.
 old-location: nfpdrivers\_nfccxunregistersequencehandler.htm
 tech.root: nfpdrivers

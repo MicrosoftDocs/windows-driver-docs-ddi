@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_ALLOCATECONTIGUOUSMEMORY
 title: _DXGKARGCB_ALLOCATECONTIGUOUSMEMORY
-author: windows-driver-content
 description: Arguments used in the DXGKCB_ALLOCATECONTIGUOUSMEMORY callback function, to allocate contiguous memory.
 ms.assetid: dce7b187-8ebf-4309-8769-29536b908e76
 ms.date: 10/19/2018

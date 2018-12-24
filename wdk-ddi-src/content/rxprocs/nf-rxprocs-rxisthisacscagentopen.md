@@ -1,7 +1,6 @@
 ---
 UID: NF:rxprocs.RxIsThisACscAgentOpen
 title: RxIsThisACscAgentOpen function
-author: windows-driver-content
 description: RxIsThisACscAgentOpen determines if a file open was made by a user-mode client-side caching agent.
 old-location: ifsk\rxisthisacscagentopen.htm
 tech.root: ifsk

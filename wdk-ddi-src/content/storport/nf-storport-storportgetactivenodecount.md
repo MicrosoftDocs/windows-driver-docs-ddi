@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortGetActiveNodeCount
 title: StorPortGetActiveNodeCount function
-author: windows-driver-content
 description: The StorPortGetActiveNodeCount routine returns the number of nodes that are present in the system.
 old-location: storage\storportgetactivenodecount.htm
 tech.root: storage

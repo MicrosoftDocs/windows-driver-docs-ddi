@@ -1,7 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_SECTION_DATA_UNITS_VALUES
 title: tagWPD_SECTION_DATA_UNITS_VALUES
-author: windows-driver-content
 description: The WPD_SECTION_DATA_UNITS_VALUES enumeration indicates the units for a referenced section of data.
 old-location: wpddk\wpd_section_data_units_values.htm
 tech.root: wpd_dk

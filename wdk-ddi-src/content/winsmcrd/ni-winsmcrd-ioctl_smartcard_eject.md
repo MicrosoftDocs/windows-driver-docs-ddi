@@ -1,7 +1,6 @@
 ---
 UID: NI:winsmcrd.IOCTL_SMARTCARD_EJECT
 title: IOCTL_SMARTCARD_EJECT
-author: windows-driver-content
 description: The IOCTL_SMARTCARD_EJECT request ejects the currently inserted smart card from the smart card reader.
 old-location: smartcrd\ioctl_smartcard_eject.htm
 tech.root: smartcrd

@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsFilterReleaseControl
 title: KsFilterReleaseControl function
-author: windows-driver-content
 description: The KsFilterReleaseControl function releases the control mutex for the AVStream filter specified by Filter.
 old-location: stream\ksfilterreleasecontrol.htm
 tech.root: stream

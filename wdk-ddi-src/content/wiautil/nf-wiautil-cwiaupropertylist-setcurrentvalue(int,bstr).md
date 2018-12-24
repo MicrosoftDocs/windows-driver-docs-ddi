@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.SetCurrentValue(INT,BSTR)
 title: CWiauPropertyList::SetCurrentValue(INT,BSTR)
-author: windows-driver-content
 description: The CWiauPropertyList::SetCurrentValue(INT,BSTR) method sets the current value of a property of type BSTR, and sets its type to VT_BSTR.
 old-location: image\cwiaupropertylist_setcurrentvalue_bstr_.htm
 tech.root: image

@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasGetPropertyAttributes
 title: wiasGetPropertyAttributes function
-author: windows-driver-content
 description: The wiasGetPropertyAttributes function retrieves the access flags and valid values for a set of properties.
 old-location: image\wiasgetpropertyattributes.htm
 tech.root: image

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_QUERYDEPENDENTENGINEGROUP
 title: "_DXGKARG_QUERYDEPENDENTENGINEGROUP"
-author: windows-driver-content
 description: Describes all nodes on the physical display adapter (engine) that are to be queried when the display port driver's GPU scheduler calls the DxgkDdiQueryDependentEngineGroup function to query node dependencies.
 old-location: display\dxgkarg_querydependentenginegroup.htm
 ms.assetid: 6b1d6465-83bd-42c4-be1f-d7a2cfb74483

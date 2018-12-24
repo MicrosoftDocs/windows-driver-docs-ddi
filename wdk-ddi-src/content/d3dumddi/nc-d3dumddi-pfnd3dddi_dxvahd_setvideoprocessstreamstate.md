@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DXVAHD_SETVIDEOPROCESSSTREAMSTATE
 title: PFND3DDDI_DXVAHD_SETVIDEOPROCESSSTREAMSTATE
-author: windows-driver-content
 description: The SetVideoProcessStreamState function sets the stream state for a video processor.
 old-location: display\setvideoprocessstreamstate.htm
 tech.root: display

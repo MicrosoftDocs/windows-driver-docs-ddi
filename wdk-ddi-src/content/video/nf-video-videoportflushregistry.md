@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortFlushRegistry
 title: VideoPortFlushRegistry function
-author: windows-driver-content
 description: The VideoPortFlushRegistry function flushes registry keys and values associated with the video miniport driver.
 old-location: display\videoportflushregistry.htm
 tech.root: display

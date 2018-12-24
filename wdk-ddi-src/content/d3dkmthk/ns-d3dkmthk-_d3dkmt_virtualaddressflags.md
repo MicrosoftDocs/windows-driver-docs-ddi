@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_VIRTUALADDRESSFLAGS
 title: _D3DKMT_VIRTUALADDRESSFLAGS
-author: windows-driver-content
 description: Contains info about virtual address flags.
 ms.assetid: 6086c0b9-6550-4400-8551-2d29d142c2e5
 ms.date: 10/19/2018

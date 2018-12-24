@@ -1,7 +1,6 @@
 ---
 UID: NF:mcd.ChangerSetPosition
 title: ChangerSetPosition function
-author: windows-driver-content
 description: ChangerSetPosition handles the device-specific aspects of a device-control IRP with the IOCTL code IOCTL_CHANGER_SET_POSITION.
 old-location: storage\changersetposition.htm
 tech.root: storage

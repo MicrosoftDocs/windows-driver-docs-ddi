@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddvol._VOLUME_LOGICAL_OFFSET
 title: "_VOLUME_LOGICAL_OFFSET"
-author: windows-driver-content
 description: The VOLUME_LOGICAL_OFFSET structure contains a logical offset into a volume.
 old-location: storage\volume_logical_offset.htm
 tech.root: storage

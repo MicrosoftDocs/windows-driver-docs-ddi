@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient2.StartServer
 title: IDebugClient2::StartServer
-author: windows-driver-content
 description: The StartServer method starts a debugging server.
 old-location: debugger\startserver.htm
 tech.root: debugger

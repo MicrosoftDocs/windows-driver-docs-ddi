@@ -1,7 +1,6 @@
 ---
 UID: NE:dispmprt.__unnamed_enum_0
 title: DXGK_SERVICES
-author: windows-driver-content
 description: The DXGK_SERVICES enumeration indicates the type of interface being requested by a call to the DxgkCbQueryServices function.
 old-location: display\dxgk_services.htm
 tech.root: display

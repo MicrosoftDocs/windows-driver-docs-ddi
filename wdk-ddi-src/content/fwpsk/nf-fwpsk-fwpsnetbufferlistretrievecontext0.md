@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsNetBufferListRetrieveContext0
 title: FwpsNetBufferListRetrieveContext0 function
-author: windows-driver-content
 description: The FwpsNetBufferListRetrieveContext0 function retrieves the context associated with a network buffer list that was tagged in another layer.Note  FwpsNetBufferListRetrieveContext0 is a specific version of FwpsNetBufferListRetrieveContext.
 old-location: netvista\fwpsnetbufferlistretrievecontext0.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_ADD_DEVICE
 title: DXGKDDI_ADD_DEVICE
-author: windows-driver-content
 description: The DxgkDdiAddDevice function creates a context block for a display adapter and returns a handle that represents the display adapter.
 old-location: display\dxgkddiadddevice.htm
 tech.root: display

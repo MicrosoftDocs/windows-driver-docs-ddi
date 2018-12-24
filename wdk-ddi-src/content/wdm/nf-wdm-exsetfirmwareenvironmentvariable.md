@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExSetFirmwareEnvironmentVariable
 title: ExSetFirmwareEnvironmentVariable function
-author: windows-driver-content
 description: The ExSetFirmwareEnvironmentVariable routine sets the value of the specified system firmware environment variable.
 old-location: kernel\exsetfirmwareenvironmentvariable.htm
 tech.root: kernel

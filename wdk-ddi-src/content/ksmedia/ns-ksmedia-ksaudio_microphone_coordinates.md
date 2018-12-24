@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_9
 title: KSAUDIO_MICROPHONE_COORDINATES
-author: windows-driver-content
 description: The KSAUDIO_MICROPHONE_COORDINATES structure specifies the type and the coordinates of a single microphone in the microphone array.
 old-location: audio\ksaudio_microphone_coordinates.htm
 tech.root: audio

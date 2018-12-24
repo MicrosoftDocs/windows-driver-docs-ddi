@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.GetId
 title: IDebugBreakpoint::GetId
-author: windows-driver-content
 description: The GetId method returns a breakpoint ID, which is the engine's unique identifier for a breakpoint.
 old-location: debugger\getid.htm
 tech.root: debugger

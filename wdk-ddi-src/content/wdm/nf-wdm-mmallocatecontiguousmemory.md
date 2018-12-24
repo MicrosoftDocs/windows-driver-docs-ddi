@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.MmAllocateContiguousMemory
 title: MmAllocateContiguousMemory function
-author: windows-driver-content
 description: The MmAllocateContiguousMemory routine allocates a range of contiguous, nonpaged physical memory and maps it to the system address space.
 old-location: kernel\mmallocatecontiguousmemory.htm
 tech.root: kernel

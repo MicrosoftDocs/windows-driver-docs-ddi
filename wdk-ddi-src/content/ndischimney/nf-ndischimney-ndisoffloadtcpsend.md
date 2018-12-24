@@ -1,7 +1,6 @@
 ---
 UID: NF:ndischimney.NdisOffloadTcpSend
 title: NdisOffloadTcpSend function
-author: windows-driver-content
 description: A protocol driver or intermediate driver calls the NdisOffloadTcpSend function to transmit data on an offloaded TCP connection.
 old-location: netvista\ndisoffloadtcpsend.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeIpiGenericCall
 title: KeIpiGenericCall function
-author: windows-driver-content
 description: The KeIpiGenericCall routine causes the specified routine to run on all processors simultaneously.
 old-location: kernel\keipigenericcall.htm
 tech.root: kernel

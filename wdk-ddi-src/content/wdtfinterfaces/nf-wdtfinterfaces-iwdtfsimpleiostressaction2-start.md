@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOStressAction2.Start
 title: IWDTFSimpleIOStressAction2::Start
-author: windows-driver-content
 description: Opens the device.
 old-location: dtf\iwdtfsimpleiostressaction2_start.htm
 tech.root: dtf

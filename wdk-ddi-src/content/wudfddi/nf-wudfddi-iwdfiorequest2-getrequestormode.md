@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.GetRequestorMode
 title: IWDFIoRequest2::GetRequestorMode
-author: windows-driver-content
 description: The GetRequestorMode method indicates whether an I/O request came from a kernel-mode driver or a user-mode component (either an application or a user-mode driver).
 old-location: wdf\iwdfiorequest2_getrequestormode.htm
 tech.root: wdf

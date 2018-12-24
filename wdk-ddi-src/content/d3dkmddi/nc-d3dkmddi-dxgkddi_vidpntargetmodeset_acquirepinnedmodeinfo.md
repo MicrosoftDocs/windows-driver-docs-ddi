@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTARGETMODESET_ACQUIREPINNEDMODEINFO
 title: DXGKDDI_VIDPNTARGETMODESET_ACQUIREPINNEDMODEINFO
-author: windows-driver-content
 description: The pfnAcquirePinnedModeInfo function returns a descriptor of the pinned mode in a specified VidPN target mode set.
 old-location: display\dxgk_vidpntargetmodeset_interface_pfnacquirepinnedmodeinfo.htm
 ms.assetid: 0a321ee2-f246-498d-b658-a01e275644be

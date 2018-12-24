@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_AUTH_SIM_CHALLENGE
 title: "_WWAN_AUTH_SIM_CHALLENGE"
-author: windows-driver-content
 description: The WWAN_AUTH_SIM_CHALLENGE structure represents an authentication challenge using the SIM method.
 old-location: netvista\wwan_auth_sim_challenge.htm
 tech.root: netvista

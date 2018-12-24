@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfcompanion._WDF_TASK_QUEUE_CONFIG
 title: "_WDF_TASK_QUEUE_CONFIG"
-author: windows-driver-content
 description: For internal use only.
 old-location: wdf\wdf_task_queue_config.htm
 tech.root: wdf

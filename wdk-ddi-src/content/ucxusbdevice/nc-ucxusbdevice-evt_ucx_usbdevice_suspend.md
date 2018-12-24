@@ -1,7 +1,6 @@
 ---
 UID: NC:ucxusbdevice.EVT_UCX_USBDEVICE_SUSPEND
 title: EVT_UCX_USBDEVICE_SUSPEND
-author: windows-driver-content
 description: UCX invokes this callback function to send a device suspend state.
 old-location: buses\evt_ucx_usbdevice_suspend.htm
 tech.root: usbref

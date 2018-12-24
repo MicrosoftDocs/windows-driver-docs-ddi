@@ -1,7 +1,6 @@
 ---
 UID: NC:ntdddump.DUMP_FINISH
 title: DUMP_FINISH
-author: windows-driver-content
 description: The Dump_Finish callback routine is called after writing all the dump data. The dump port driver generally flushes the cache to ensure the data is stored on the storage media before the system powers down.
 old-location: storage\dump_finish.htm
 tech.root: storage

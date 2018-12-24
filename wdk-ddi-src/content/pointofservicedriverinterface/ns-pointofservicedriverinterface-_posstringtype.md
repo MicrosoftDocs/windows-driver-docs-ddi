@@ -1,7 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosStringType
 title: "_PosStringType"
-author: windows-driver-content
 description: This structure represents a Point of Service (POS) unicode string with a length of DataLengthInBytes.
 old-location: pos\posstringtype.htm
 tech.root: pos

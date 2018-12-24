@@ -1,7 +1,6 @@
 ---
 UID: NF:stiusd.IStiUSD.GetStatus
 title: IStiUSD::GetStatus
-author: windows-driver-content
 description: A still image minidriver's IStiUSD::GetStatus method returns the status of a still image device.
 old-location: image\istiusd_getstatus.htm
 tech.root: image

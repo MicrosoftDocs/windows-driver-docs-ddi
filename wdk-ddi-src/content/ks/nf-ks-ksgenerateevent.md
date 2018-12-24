@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsGenerateEvent
 title: KsGenerateEvent function
-author: windows-driver-content
 description: The KsGenerateEvent function generates a standard event notification given an event entry structure.
 old-location: stream\ksgenerateevent.htm
 tech.root: stream

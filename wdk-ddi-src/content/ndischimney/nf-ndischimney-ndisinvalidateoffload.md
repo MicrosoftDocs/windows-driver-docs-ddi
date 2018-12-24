@@ -1,7 +1,6 @@
 ---
 UID: NF:ndischimney.NdisInvalidateOffload
 title: NdisInvalidateOffload function
-author: windows-driver-content
 description: A protocol or intermediate driver calls the NdisInvalidateOffload function to invalidate previously offloaded TCP chimney state objects.
 old-location: netvista\ndisinvalidateoffload.htm
 tech.root: netvista

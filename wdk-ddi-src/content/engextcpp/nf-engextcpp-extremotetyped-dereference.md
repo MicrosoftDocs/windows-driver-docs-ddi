@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.Dereference
 title: ExtRemoteTyped::Dereference
-author: windows-driver-content
 description: The Dereference method returns the typed data that is pointed to by the typed data represented by this object.
 old-location: debugger\extremotetyped_dereference.htm
 tech.root: debugger

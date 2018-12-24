@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIncrementCcFastReadNotPossible
 title: FsRtlIncrementCcFastReadNotPossible function
-author: windows-driver-content
 description: The FsRtlIncrementCcFastReadNotPossible routine increments the CcFastReadNotPossible performance counter in a per processor control block of cache manager system counters.
 old-location: ifsk\fsrtlincrementccfastreadnotpossible.htm
 tech.root: ifsk

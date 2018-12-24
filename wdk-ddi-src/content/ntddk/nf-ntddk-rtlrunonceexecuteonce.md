@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlRunOnceExecuteOnce
 title: RtlRunOnceExecuteOnce function
-author: windows-driver-content
 description: The RtlRunOnceExecuteOnce performs a one-time initialization.
 old-location: kernel\rtlrunonceexecuteonce.htm
 tech.root: kernel

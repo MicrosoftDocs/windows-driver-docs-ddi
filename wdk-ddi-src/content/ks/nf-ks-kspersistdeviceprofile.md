@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsPersistDeviceProfile
 title: KsPersistDeviceProfile function
-author: windows-driver-content
 description: The KsPersistDeviceProfile API commits the profile information to the persistent store.
 old-location: stream\kspersistdeviceprofile.htm
 tech.root: stream

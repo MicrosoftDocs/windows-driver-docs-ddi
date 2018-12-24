@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_DESCRIPTOR_RANGE_FLAGS
 title: D3D12DDI_DESCRIPTOR_RANGE_FLAGS
-author: windows-driver-content
 description: Descriptor range flags.
 ms.assetid: f3a6679d-10b9-4b9a-a7c1-e5d967e02a5b
 ms.date: 10/19/2018

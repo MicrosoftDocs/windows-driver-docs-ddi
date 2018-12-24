@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceGetSystemPowerAction
 title: WdfDeviceGetSystemPowerAction function
-author: windows-driver-content
 description: The WdfDeviceGetSystemPowerAction method returns the system power action, if any, that is currently occurring for the computer.
 old-location: wdf\wdfdevicegetsystempoweraction.htm
 tech.root: wdf

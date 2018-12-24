@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfio.WdfIoQueueRetrieveRequestByFileObject
 title: WdfIoQueueRetrieveRequestByFileObject function
-author: windows-driver-content
 description: The WdfIoQueueRetrieveRequestByFileObject method retrieves the next available I/O request, from a specified I/O queue, that is associated with a specified file object.
 old-location: wdf\wdfioqueueretrieverequestbyfileobject.htm
 tech.root: wdf

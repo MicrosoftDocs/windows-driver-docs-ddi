@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFObject
 title: IWDFObject
-author: windows-driver-content
 description: The IWDFObject interface exposes the framework base object that provides the basic functionality common across all framework object types. All framework objects are derived from this root object.
 old-location: wdf\iwdfobject.htm
 tech.root: wdf

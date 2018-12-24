@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfio._WDF_IO_QUEUE_CONFIG
 title: "_WDF_IO_QUEUE_CONFIG"
-author: windows-driver-content
 description: The WDF_IO_QUEUE_CONFIG structure contains configuration information for a framework queue object.
 old-location: wdf\wdf_io_queue_config.htm
 tech.root: wdf

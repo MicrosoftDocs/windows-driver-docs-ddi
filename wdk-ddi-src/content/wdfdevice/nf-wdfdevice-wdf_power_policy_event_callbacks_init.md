@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WDF_POWER_POLICY_EVENT_CALLBACKS_INIT
 title: WDF_POWER_POLICY_EVENT_CALLBACKS_INIT function
-author: windows-driver-content
 description: The WDF_POWER_POLICY_EVENT_CALLBACKS_INIT function initializes a driver's WDF_POWER_POLICY_EVENT_CALLBACKS structure.
 old-location: wdf\wdf_power_policy_event_callbacks_init.htm
 tech.root: wdf

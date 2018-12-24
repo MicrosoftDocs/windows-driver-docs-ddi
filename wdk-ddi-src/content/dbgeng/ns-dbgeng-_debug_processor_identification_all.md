@@ -1,7 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_PROCESSOR_IDENTIFICATION_ALL
 title: "_DEBUG_PROCESSOR_IDENTIFICATION_ALL"
-author: windows-driver-content
 description: This union contains relevant information for a processor the supported processors.
 old-location: debugger\debug_processor_identification_all.htm
 tech.root: debugger

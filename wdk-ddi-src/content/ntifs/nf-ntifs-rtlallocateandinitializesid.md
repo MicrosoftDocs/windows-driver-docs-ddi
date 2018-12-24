@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlAllocateAndInitializeSid
 title: RtlAllocateAndInitializeSid function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\rtlallocateandinitializesid.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfresource.WdfIoResourceRequirementsListInsertIoResList
 title: WdfIoResourceRequirementsListInsertIoResList function
-author: windows-driver-content
 description: The WdfIoResourceRequirementsListInsertIoResList method inserts a logical configuration into a resource requirements list.
 old-location: wdf\wdfioresourcerequirementslistinsertioreslist.htm
 tech.root: wdf

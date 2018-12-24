@@ -1,7 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
 title: "_WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS"
-author: windows-driver-content
 description: WDF_CALLBACK_CONSTRAINT enumeration
 old-location: wdf\wdf_callback_constraint.htm
 tech.root: wdf

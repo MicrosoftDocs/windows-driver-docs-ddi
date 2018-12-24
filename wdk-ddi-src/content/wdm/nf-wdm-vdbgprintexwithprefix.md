@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.vDbgPrintExWithPrefix
 title: vDbgPrintExWithPrefix function
-author: windows-driver-content
 description: The vDbgPrintExWithPrefix routine sends a string to the kernel debugger if certain conditions that you specify are met. This routine can append a prefix to debugger output to help organize debugging results.
 old-location: devtest\vdbgprintexwithprefix.htm
 tech.root: devtest

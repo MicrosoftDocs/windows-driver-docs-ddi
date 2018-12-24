@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_TOC_CD_TEXT_DATA
 title: "_CDROM_TOC_CD_TEXT_DATA"
-author: windows-driver-content
 description: Device control IRPs with a control code of IOCTL_CDROM_READ_TOC_EX and a format of CDROM_READ_TOC_EX_FORMAT_CDTEXT return their output data in this structure followed by a series of descriptors of type CDROM_TOC_CD_TEXT_DATA_BLOCK.
 old-location: storage\cdrom_toc_cd_text_data.htm
 tech.root: storage

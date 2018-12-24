@@ -1,7 +1,6 @@
 ---
 UID: NE:nfcsedev._SECURE_ELEMENT_ROUTING_TYPE
 title: "_SECURE_ELEMENT_ROUTING_TYPE"
-author: windows-driver-content
 description: SECURE_ELEMENT_ROUTING_TYPE is a member of SECURE_ELEMENT_ROUTING_TABLE_ENTRY.
 old-location: nfpdrivers\_secure_element_routing_type.htm
 tech.root: nfpdrivers

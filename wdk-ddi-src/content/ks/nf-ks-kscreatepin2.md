@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsCreatePin2
 title: KsCreatePin2 function
-author: windows-driver-content
 description: Passes a connection request to a device, creating a pin instance.
 old-location: stream\kscreatepin2.htm
 tech.root: stream

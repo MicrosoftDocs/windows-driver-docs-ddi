@@ -1,7 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFAEntryTags.GetProperties
 title: IDebugFAEntryTags::GetProperties
-author: windows-driver-content
 description: The GetProperties method gets the name or description (or both) of a tag in a DebugFailureAnalysisTags object.
 old-location: debugger\idebugfaentrytags_getproperties.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetBindingSupport_OUT
 title: "_GetBindingSupport_OUT"
-author: windows-driver-content
 description: The GetBindingSupport_OUT structure is used by a WMI provider to report the output parameter data of the GetBindingSupport WMI method to the WMI client.
 old-location: storage\getbindingsupport_out.htm
 tech.root: storage

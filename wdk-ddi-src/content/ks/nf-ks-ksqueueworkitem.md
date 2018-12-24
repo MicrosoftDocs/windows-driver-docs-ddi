@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsQueueWorkItem
 title: KsQueueWorkItem function
-author: windows-driver-content
 description: The KsQueueWorkItem function queues the specified work item with a worker previous created by the KsRegisterWorker function.
 old-location: stream\ksqueueworkitem.htm
 tech.root: stream

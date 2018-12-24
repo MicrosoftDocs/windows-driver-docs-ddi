@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.RemoveAssemblyOptions
 title: IDebugControl3::RemoveAssemblyOptions
-author: windows-driver-content
 description: The RemoveAssemblyOptions method turns off some of the assembly and disassembly options.
 old-location: debugger\removeassemblyoptions.htm
 tech.root: debugger

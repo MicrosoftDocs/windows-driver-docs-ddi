@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.TmIsTransactionActive
 title: TmIsTransactionActive function
-author: windows-driver-content
 description: The TmIsTransactionActive routine indicates whether a specified transaction is in its active state.
 old-location: kernel\tmistransactionactive.htm
 tech.root: kernel

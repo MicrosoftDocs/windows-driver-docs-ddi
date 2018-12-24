@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters.OutputRegisters
 title: IDebugRegisters::OutputRegisters
-author: windows-driver-content
 description: The OutputRegisters method formats and sends the target's registers to the clients as output.
 old-location: debugger\outputregisters.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NS:wsk._WSK_EVENT_CALLBACK_CONTROL
 title: "_WSK_EVENT_CALLBACK_CONTROL"
-author: windows-driver-content
 description: The WSK_EVENT_CALLBACK_CONTROL structure specifies the information for enabling and disabling a socket's event callback functions.
 old-location: netvista\wsk_event_callback_control.htm
 tech.root: netvista

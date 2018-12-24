@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasWritePropLong
 title: wiasWritePropLong function
-author: windows-driver-content
 description: The wiasWritePropLong function writes a single long integer property value to a WIA item.
 old-location: image\wiaswriteproplong.htm
 tech.root: image

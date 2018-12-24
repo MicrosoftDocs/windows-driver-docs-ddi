@@ -1,7 +1,6 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR
 title: IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR
-author: windows-driver-content
 description: 
 ms.assetid: 425f4c56-06d0-438a-81ec-f1335b52e398
 ms.date: 10/05/2018

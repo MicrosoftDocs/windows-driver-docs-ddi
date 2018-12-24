@@ -1,7 +1,6 @@
 ---
 UID: NF:wia_lh.IWiaImageFilter.FilterPreviewImage
 title: IWiaImageFilter::FilterPreviewImage
-author: windows-driver-content
 description: The IWiaImageFilter::FilterPreviewImage method is called by the WIA Preview component, when an application calls the IWiaPreview::UpdatePreview method.
 old-location: image\iwiaimagefilter_filterpreviewimage.htm
 tech.root: image

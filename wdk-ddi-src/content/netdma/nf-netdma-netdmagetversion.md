@@ -1,7 +1,6 @@
 ---
 UID: NF:netdma.NetDmaGetVersion
 title: NetDmaGetVersion function
-author: windows-driver-content
 description: Note  The NetDMA interface is not supported in Windows 8 and later. The NetDmaGetVersion function returns the version of the NetDMA interface that the local computer supports.
 old-location: netvista\netdmagetversion.htm
 tech.root: netvista

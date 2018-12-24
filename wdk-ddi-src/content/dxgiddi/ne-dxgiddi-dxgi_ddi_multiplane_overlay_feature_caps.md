@@ -1,7 +1,6 @@
 ---
 UID: NE:dxgiddi.DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS
 title: DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS
-author: windows-driver-content
 description: Identifies overlay capabilities.
 old-location: display\dxgi_ddi_multiplane_overlay_feature_caps.htm
 tech.root: display

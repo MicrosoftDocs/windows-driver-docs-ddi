@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltEnumerateFilters
 title: FltEnumerateFilters function
-author: windows-driver-content
 description: The FltEnumerateFilters routine enumerates all registered minifilter drivers in the system.
 old-location: ifsk\fltenumeratefilters.htm
 tech.root: ifsk

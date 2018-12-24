@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfobject.WdfObjectQuery
 title: WdfObjectQuery function
-author: windows-driver-content
 description: The WdfObjectQuery method is not implemented.
 old-location: wdf\wdfobjectquery.htm
 tech.root: wdf

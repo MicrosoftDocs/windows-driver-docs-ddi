@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_ALLOCATE
 title: "_D3DDDICB_ALLOCATE"
-author: windows-driver-content
 description: The D3DDDICB_ALLOCATE structure contains information for allocating memory.
 old-location: display\d3dddicb_allocate.htm
 tech.root: display

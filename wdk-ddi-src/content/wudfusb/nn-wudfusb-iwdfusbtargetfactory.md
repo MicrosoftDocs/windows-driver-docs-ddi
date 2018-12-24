@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfusb.IWDFUsbTargetFactory
 title: IWDFUsbTargetFactory
-author: windows-driver-content
 description: The IWDFUsbTargetFactory interface is a factory interface that is used to create a USB target device object.
 old-location: wdf\iwdfusbtargetfactory.htm
 tech.root: wdf

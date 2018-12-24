@@ -1,7 +1,6 @@
 ---
 UID: NC:ks.PFNKSHANDLER
 title: PFNKSHANDLER
-author: windows-driver-content
 description: The minidriver-provided routine is called when Kernel Streaming receives an IOCTL_KS_METHOD, get/set property request. Provide a pointer to this handler in the relevant KSMETHOD_ITEM, KSPROPERTY_ITEM structure.
 old-location: stream\kstrmethodhandler.htm
 tech.root: stream

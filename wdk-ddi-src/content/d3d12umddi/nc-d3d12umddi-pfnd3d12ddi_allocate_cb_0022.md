@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_ALLOCATE_CB_0022
 title: PFND3D12DDI_ALLOCATE_CB_0022
-author: windows-driver-content
 description: The pfnAllocateCb callback function controls heap allocation by using a D3D12DDICB_ALLOCATE_0022 value.
 old-location: display\pfnd3d12ddi_allocate_cb_0022.htm
 ms.assetid: D0326C98-F187-4F62-AE60-60F0B38AB0D4

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._TOKEN_GROUPS_AND_PRIVILEGES
 title: "_TOKEN_GROUPS_AND_PRIVILEGES"
-author: windows-driver-content
 description: TOKEN_GROUPS_AND_PRIVILEGES contains information about the group security identifiers (SIDs) and privileges in an access token.
 old-location: ifsk\token_groups_and_privileges.htm
 tech.root: ifsk

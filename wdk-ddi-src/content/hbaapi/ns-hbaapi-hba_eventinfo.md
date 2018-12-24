@@ -1,7 +1,6 @@
 ---
 UID: NS:hbaapi.HBA_EventInfo
 title: HBA_EventInfo
-author: windows-driver-content
 description: The HBA_EventInfo structure contains information about an event of the indicated type.
 old-location: storage\hba_eventinfo.htm
 tech.root: storage

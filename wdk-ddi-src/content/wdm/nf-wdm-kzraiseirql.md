@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KzRaiseIrql
 title: KzRaiseIrql function
-author: windows-driver-content
 description: Raises the hardware priority to the specified IRQL value, thereby masking off interrupts of equivalent or lower IRQL on the current processor.
 ms.assetid: 61da4441-a9bd-47dc-bc54-23699213701a
 ms.date: 09/30/2018

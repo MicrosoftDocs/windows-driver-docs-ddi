@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_PERSISTENT_RESERVE_IN
 title: IOCTL_STORAGE_PERSISTENT_RESERVE_IN
-author: windows-driver-content
 description: The generic storage class driver (classpnp.sys) exposes an I/O control (IOCTL) interface for issuing Persistent Reserve In commands.
 old-location: storage\ioctl_storage_persistent_reserve_in.htm
 tech.root: storage

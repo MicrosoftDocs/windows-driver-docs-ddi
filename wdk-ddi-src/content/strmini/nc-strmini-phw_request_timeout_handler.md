@@ -1,7 +1,6 @@
 ---
 UID: NC:strmini.PHW_REQUEST_TIMEOUT_HANDLER
 title: PHW_REQUEST_TIMEOUT_HANDLER
-author: windows-driver-content
 description: The stream class driver calls the minidriver's StrMiniRequestTimeout routine to signal to the minidriver that a request has timed out.
 old-location: stream\strminirequesttimeout.htm
 tech.root: stream

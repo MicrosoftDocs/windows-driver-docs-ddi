@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsFlowAbort0
 title: FwpsFlowAbort0 function
-author: windows-driver-content
 description: The FwpsFlowAbort0 function aborts a data flow.Note  FwpsFlowAbort0 is a specific version of FwpsFlowAbort.
 old-location: netvista\fwpsflowabort0.htm
 tech.root: netvista

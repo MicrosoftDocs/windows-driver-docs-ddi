@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_PSHED_PLUGIN_CALLBACKS
 title: "_WHEA_PSHED_PLUGIN_CALLBACKS"
-author: windows-driver-content
 description: The WHEA_PSHED_PLUGIN_CALLBACKS structure describes the callback functions for a PSHED plug-in.
 old-location: whea\whea_pshed_plugin_callbacks.htm
 tech.root: whea

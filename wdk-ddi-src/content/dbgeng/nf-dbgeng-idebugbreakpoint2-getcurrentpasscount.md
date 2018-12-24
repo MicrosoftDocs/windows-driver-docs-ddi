@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint2.GetCurrentPassCount
 title: IDebugBreakpoint2::GetCurrentPassCount
-author: windows-driver-content
 description: The GetCurrentPassCount method returns the remaining number of times that the target must reach the breakpoint location before the breakpoint is triggered.
 old-location: debugger\getcurrentpasscount.htm
 tech.root: debugger

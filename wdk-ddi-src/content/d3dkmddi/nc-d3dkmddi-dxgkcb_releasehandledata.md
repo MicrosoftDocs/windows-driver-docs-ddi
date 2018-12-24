@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_RELEASEHANDLEDATA
 title: DXGKCB_RELEASEHANDLEDATA
-author: windows-driver-content
 description: Releases handle data.
 ms.assetid: b7a1b8b8-f631-478b-a441-c89dcd7bfd29
 ms.date: 10/19/2018

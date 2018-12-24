@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisDprReleaseReadWriteLock
 title: NdisDprReleaseReadWriteLock function
-author: windows-driver-content
 description: The NdisDprReleaseReadWriteLock function releases a lock that was acquired in a preceding call to NdisDprAcquireReadWriteLock.Note  The read-write lock interface is deprecated for NDIS 6.20 and later drivers, which should use NdisReleaseRWLock instead of NdisDprReleaseReadWriteLock.
 old-location: netvista\ndisdprreleasereadwritelock.htm
 tech.root: netvista

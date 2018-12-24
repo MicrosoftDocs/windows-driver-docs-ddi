@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetPipe.IsInEndPoint
 title: IWDFUsbTargetPipe::IsInEndPoint
-author: windows-driver-content
 description: The IsInEndPoint method determines whether a USB pipe (endpoint) is an IN pipe.
 old-location: wdf\iwdfusbtargetpipe_isinendpoint.htm
 tech.root: wdf

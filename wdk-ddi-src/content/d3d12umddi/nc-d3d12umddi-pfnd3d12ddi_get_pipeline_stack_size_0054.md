@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_GET_PIPELINE_STACK_SIZE_0054
 title: PFND3D12DDI_GET_PIPELINE_STACK_SIZE_0054
-author: windows-driver-content
 description: Retrieves the current pipeline stack size.
 ms.assetid: fab470e7-e0bf-4648-bc28-49b13e47add2
 ms.date: 10/19/2018

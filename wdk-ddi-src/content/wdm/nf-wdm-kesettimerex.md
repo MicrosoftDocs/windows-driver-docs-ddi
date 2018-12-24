@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeSetTimerEx
 title: KeSetTimerEx function
-author: windows-driver-content
 description: The KeSetTimerEx routine sets the absolute or relative interval at which a timer object is to be set to a signaled state, optionally supplies a CustomTimerDpc routine to be executed when that interval expires, and optionally supplies a recurring interval for the timer.
 old-location: kernel\kesettimerex.htm
 tech.root: kernel

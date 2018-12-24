@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO
 title: "_DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO"
-author: windows-driver-content
 description: The DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO enumeration indicates the display device's aspect ratio, defined as width by height (width x height).
 old-location: display\displayid_detailed_timing_type_i_aspect_ratio.htm
 tech.root: display

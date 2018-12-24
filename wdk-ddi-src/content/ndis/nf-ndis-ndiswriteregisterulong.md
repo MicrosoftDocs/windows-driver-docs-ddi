@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisWriteRegisterUlong
 title: NdisWriteRegisterUlong macro
-author: windows-driver-content
 description: NdisWriteRegisterUlong is called by the miniport driver to write a ULONG to a memory-mapped device register.
 old-location: netvista\ndiswriteregisterulong.htm
 tech.root: netvista

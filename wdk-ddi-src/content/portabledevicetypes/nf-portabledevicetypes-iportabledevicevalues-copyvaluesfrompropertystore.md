@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.CopyValuesFromPropertyStore
 title: IPortableDeviceValues::CopyValuesFromPropertyStore
-author: windows-driver-content
 description: Copies the contents of an IPropertyStore into the collection.
 old-location: wpddk\iportabledevicevalues_copyvaluesfrompropertystore.htm
 tech.root: wpd_dk

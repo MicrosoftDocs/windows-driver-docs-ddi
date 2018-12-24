@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RECEIVE_FILTER_PARAMETERS
 title: "_NDIS_RECEIVE_FILTER_PARAMETERS"
-author: windows-driver-content
 description: The NDIS_RECEIVE_FILTER_PARAMETERS structure specifies the parameters for an NDIS receive filter.
 old-location: netvista\ndis_receive_filter_parameters.htm
 tech.root: netvista

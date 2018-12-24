@@ -1,7 +1,6 @@
 ---
 UID: NS:windot11._DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS
 title: "_DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS"
-author: windows-driver-content
 description: The parameters for a response to a Group Owner (GO) negotiation request are specified in a DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS structure. This structure is sent with an OID_DOT11_WFD_SEND_INVITATION_RESPONSE request to the miniport.
 old-location: netvista\dot11_send_go_negotiation_response_parameters.htm
 tech.root: netvista

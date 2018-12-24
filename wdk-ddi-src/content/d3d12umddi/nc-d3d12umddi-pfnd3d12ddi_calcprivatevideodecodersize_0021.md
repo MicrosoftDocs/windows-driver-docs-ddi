@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0021
 title: PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0021
-author: windows-driver-content
 description: The pfnCalcPrivateVideoDecoderSize callback function calculates the size of a private video decoder.
 old-location: display\pfnd3d12ddi_calcprivatevideodecodersize.htm
 ms.assetid: 29A0CB0F-3469-4EF5-8C5B-132321F6C8E8

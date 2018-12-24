@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisIMCancelInitializeDeviceInstance
 title: NdisIMCancelInitializeDeviceInstance function
-author: windows-driver-content
 description: The NdisIMCancelInitializeDeviceInstance function cancels a preceding call to the NdisIMInitializeDeviceInstanceEx function.
 old-location: netvista\ndisimcancelinitializedeviceinstance.htm
 tech.root: netvista

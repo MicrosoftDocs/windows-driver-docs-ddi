@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetThreadIdsByIndex
 title: IDebugSystemObjects3::GetThreadIdsByIndex
-author: windows-driver-content
 description: The GetThreadIdsByIndex method returns the engine and system thread IDs for the specified threads in the current process.
 old-location: debugger\getthreadidsbyindex.htm
 tech.root: debugger

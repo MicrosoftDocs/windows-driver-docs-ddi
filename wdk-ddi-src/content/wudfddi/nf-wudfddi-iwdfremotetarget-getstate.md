@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRemoteTarget.GetState
 title: IWDFRemoteTarget::GetState
-author: windows-driver-content
 description: The GetState method returns the current state of a remote I/O target.
 old-location: wdf\iwdfremotetarget_getstate.htm
 tech.root: wdf

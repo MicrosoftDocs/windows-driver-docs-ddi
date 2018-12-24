@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.FILTER_SET_MODULE_OPTIONS
 title: FILTER_SET_MODULE_OPTIONS
-author: windows-driver-content
 description: The FilterSetModuleOptions function changes the set of optional services that are associated with a specified filter module.Note  You must declare the function by using the FILTER_SET_MODULE_OPTIONS type.
 old-location: netvista\filtersetmoduleoptions.htm
 tech.root: netvista

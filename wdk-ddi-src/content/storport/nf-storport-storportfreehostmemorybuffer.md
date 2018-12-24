@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortFreeHostMemoryBuffer
 title: StorPortFreeHostMemoryBuffer function
-author: windows-driver-content
 description: The StorPortFreeHostMemoryBuffer routine frees the physically contiguous memory that was allocated to be used for a Host Memory Buffer (HMB).
 old-location: storage\storportfreehostmemorybuffer.htm
 tech.root: storage

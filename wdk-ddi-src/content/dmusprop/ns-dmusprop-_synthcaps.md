@@ -1,7 +1,6 @@
 ---
 UID: NS:dmusprop._SYNTHCAPS
 title: "_SYNTHCAPS"
-author: windows-driver-content
 description: The SYNTHCAPS structure specifies the capabilities of a synthesizer.
 old-location: audio\synthcaps.htm
 tech.root: audio

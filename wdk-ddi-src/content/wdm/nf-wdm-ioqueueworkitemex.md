@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoQueueWorkItemEx
 title: IoQueueWorkItemEx function
-author: windows-driver-content
 description: The IoQueueWorkItemEx routine associates a WorkItemEx routine with a work item, and it inserts the work item into a queue for later processing by a system worker thread.
 old-location: kernel\ioqueueworkitemex.htm
 tech.root: kernel

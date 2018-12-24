@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.CreateWdfFile
 title: IWDFDevice::CreateWdfFile
-author: windows-driver-content
 description: The CreateWdfFile method creates a file object for a driver to use.
 old-location: wdf\iwdfdevice_createwdffile.htm
 tech.root: wdf

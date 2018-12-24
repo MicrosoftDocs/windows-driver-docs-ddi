@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_ERROR_RECORD_HEADER
 title: "_WHEA_ERROR_RECORD_HEADER"
-author: windows-driver-content
 description: The WHEA_ERROR_RECORD_HEADER structure describes general information about a hardware error condition.
 old-location: whea\whea_error_record_header.htm
 tech.root: whea

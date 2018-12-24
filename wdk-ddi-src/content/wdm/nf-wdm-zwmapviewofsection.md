@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwMapViewOfSection
 title: ZwMapViewOfSection function
-author: windows-driver-content
 description: The ZwMapViewOfSection routine maps a view of a section into the virtual address space of a subject process.
 old-location: kernel\zwmapviewofsection.htm
 tech.root: kernel

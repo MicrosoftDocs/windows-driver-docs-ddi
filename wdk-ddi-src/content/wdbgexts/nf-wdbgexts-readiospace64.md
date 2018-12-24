@@ -1,7 +1,6 @@
 ---
 UID: NF:wdbgexts.ReadIoSpace64
 title: ReadIoSpace64 function
-author: windows-driver-content
 description: The ReadIoSpace64 function reads from the system I/O locations.
 old-location: debugger\readiospace64.htm
 tech.root: debugger

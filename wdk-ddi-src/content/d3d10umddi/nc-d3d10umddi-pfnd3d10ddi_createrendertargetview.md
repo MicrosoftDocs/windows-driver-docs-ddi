@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CREATERENDERTARGETVIEW
 title: PFND3D10DDI_CREATERENDERTARGETVIEW
-author: windows-driver-content
 description: The CreateRenderTargetView function creates a render target view.
 old-location: display\createrendertargetview.htm
 ms.assetid: bf9fc732-5f9a-4fee-8ea0-19b140789463

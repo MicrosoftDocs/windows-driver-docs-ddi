@@ -1,7 +1,6 @@
 ---
 UID: NS:treevariableservice._EFI_GET_NEXT_VARIABLE_NAME_OUT
 title: _EFI_GET_NEXT_VARIABLE_NAME_OUT
-author: windows-driver-content
 description: 
 ms.assetid: 8ef8a377-e74d-4278-83b7-b2f521d58b77
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceSetBusInformationForChildren
 title: WdfDeviceSetBusInformationForChildren function
-author: windows-driver-content
 description: The WdfDeviceSetBusInformationForChildren method sets information about a bus that a bus driver supports. This information is available to the bus's child devices.
 old-location: wdf\wdfdevicesetbusinformationforchildren.htm
 tech.root: wdf

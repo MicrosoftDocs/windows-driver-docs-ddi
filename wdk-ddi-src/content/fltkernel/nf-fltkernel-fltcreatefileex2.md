@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltCreateFileEx2
 title: FltCreateFileEx2 function
-author: windows-driver-content
 description: Minifilter drivers call FltCreateFileEx2 to create a new file or open an existing file. This routine also includes an optional create context parameter.
 old-location: ifsk\fltcreatefileex2.htm
 tech.root: ifsk

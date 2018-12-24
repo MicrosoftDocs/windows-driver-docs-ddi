@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_ARM_WAKE_FROM_SX
 title: EVT_WDF_DEVICE_ARM_WAKE_FROM_SX
-author: windows-driver-content
 description: A driver's EvtDeviceArmWakeFromSx event callback function arms (that is, enables) a device so that it can trigger a wake signal while in a low-power device state.
 old-location: wdf\evtdevicearmwakefromsx.htm
 tech.root: wdf

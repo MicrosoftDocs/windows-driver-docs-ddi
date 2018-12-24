@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.NtCreateSection
 title: NtCreateSection function
-author: windows-driver-content
 description: The ZwCreateSection routine creates a section object.
 old-location: kernel\zwcreatesection.htm
 tech.root: kernel

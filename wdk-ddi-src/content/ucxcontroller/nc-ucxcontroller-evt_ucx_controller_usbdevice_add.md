@@ -1,7 +1,6 @@
 ---
 UID: NC:ucxcontroller.EVT_UCX_CONTROLLER_USBDEVICE_ADD
 title: EVT_UCX_CONTROLLER_USBDEVICE_ADD
-author: windows-driver-content
 description: The client driver's implementation that UCX calls when a new USB device is detected.
 old-location: buses\evt_ucx_controller_usbdevice_add.htm
 tech.root: usbref

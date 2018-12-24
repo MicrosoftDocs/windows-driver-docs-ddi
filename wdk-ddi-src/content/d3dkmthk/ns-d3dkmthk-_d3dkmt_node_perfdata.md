@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_NODE_PERFDATA
 title: _D3DKMT_NODE_PERFDATA
-author: windows-driver-content
 description: Represents performance data collected per engine from an adapter on an interval basis.
 ms.assetid: 90d91283-4891-4459-b182-40bf600c8b92
 ms.date: 10/19/2018

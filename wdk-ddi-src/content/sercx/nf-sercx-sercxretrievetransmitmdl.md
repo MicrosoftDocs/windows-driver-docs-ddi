@@ -1,7 +1,6 @@
 ---
 UID: NF:sercx.SerCxRetrieveTransmitMdl
 title: SerCxRetrieveTransmitMdl function
-author: windows-driver-content
 description: The SerCxRetrieveTransmitMdl method retrieves the MDL that describes the buffer that contains the next block of output data to be transmitted.
 old-location: serports\sercxretrievetransmitmdl.htm
 tech.root: serports

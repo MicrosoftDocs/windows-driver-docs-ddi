@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.PoGetSystemWake
 title: PoGetSystemWake function
-author: windows-driver-content
 description: The PoGetSystemWake routine determines whether a specified IRP has been marked as waking the system from a sleeping state.
 old-location: kernel\pogetsystemwake.htm
 tech.root: kernel

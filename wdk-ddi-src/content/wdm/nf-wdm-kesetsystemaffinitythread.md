@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeSetSystemAffinityThread
 title: KeSetSystemAffinityThread function
-author: windows-driver-content
 description: The KeSetSystemAffinityThread routine sets the system affinity of the current thread.
 old-location: kernel\kesetsystemaffinitythread.htm
 tech.root: kernel

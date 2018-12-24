@@ -1,7 +1,6 @@
 ---
 UID: NF:storduid.CompareStorageDuids
 title: CompareStorageDuids function
-author: windows-driver-content
 description: The CompareStorageDuids routine compares two device unique identifiers (DUIDs) and reports whether they match or not.
 old-location: storage\comparestorageduids.htm
 tech.root: storage

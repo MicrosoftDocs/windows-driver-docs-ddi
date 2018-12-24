@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoWMIExecuteMethod
 title: IoWMIExecuteMethod function
-author: windows-driver-content
 description: The IoWMIExecuteMethod routine runs a WMI class method on the specified WMI data block instance.
 old-location: kernel\iowmiexecutemethod.htm
 tech.root: kernel

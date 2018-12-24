@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagTRANSPORTVIDEOPARMS
 title: tagTRANSPORTVIDEOPARMS
-author: windows-driver-content
 description: The TRANSPORTVIDEOPARMS structure is defined but not presently used. It may be used in the future.
 old-location: stream\transportvideoparms.htm
 tech.root: stream

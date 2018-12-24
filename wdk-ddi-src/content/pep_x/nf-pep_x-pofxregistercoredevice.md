@@ -1,7 +1,6 @@
 ---
 UID: NF:pep_x.PoFxRegisterCoreDevice
 title: PoFxRegisterCoreDevice function
-author: windows-driver-content
 description: The PoFxRegisterCoreDevice routine registers a new core system resource with the Windows power management framework (PoFx).
 old-location: kernel\pofxregistercoredevice.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacks.UnloadModule
 title: IDebugEventCallbacks::UnloadModule
-author: windows-driver-content
 description: The UnloadModule callback method is called by the engine when a module-unload debugging event occurs in the target.
 old-location: debugger\idebugeventcallbacks_unloadmodule.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NF:systemrng.EntropyProvideData
 title: EntropyProvideData function
-author: windows-driver-content
 description: 
 ms.assetid: b4c814cc-3af9-4481-8060-6ea107e6e9a3
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT
 title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT
-author: windows-driver-content
 description: Sets the source rectangle for an input stream on the video processor.
 old-location: display\videoprocessorsetstreamsourcerect.htm
 ms.assetid: 78d62117-260a-46ab-9daa-ee9dcfc7fc1f

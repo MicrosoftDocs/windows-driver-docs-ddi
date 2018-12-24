@@ -1,7 +1,6 @@
 ---
 UID: NI:nfpdev.IOCTL_NFP_DISABLE
 title: IOCTL_NFP_DISABLE
-author: windows-driver-content
 description: A client sends the IOCTL_NFP_DISABLE request to temporarily disable subscriptions, publications, and presence events.
 old-location: nfpdrivers\ioctl_nfp_disable.htm
 tech.root: nfpdrivers

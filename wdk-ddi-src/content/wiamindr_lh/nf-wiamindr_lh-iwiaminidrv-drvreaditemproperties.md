@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvReadItemProperties
 title: IWiaMiniDrv::drvReadItemProperties
-author: windows-driver-content
 description: The IWiaMiniDrv::drvReadItemProperties method reads the driver item properties that need to be updated.
 old-location: image\iwiaminidrv_drvreaditemproperties.htm
 tech.root: image

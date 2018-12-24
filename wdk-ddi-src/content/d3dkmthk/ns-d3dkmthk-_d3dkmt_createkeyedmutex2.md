@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATEKEYEDMUTEX2
 title: "_D3DKMT_CREATEKEYEDMUTEX2"
-author: windows-driver-content
 description: Describes a keyed mutex that the D3DKMTCreateKeyedMutex2 function creates that includes private data.
 old-location: display\d3dkmt_createkeyedmutex2.htm
 ms.assetid: 6c4c07ff-5e37-4094-9dc3-57082dec8edf

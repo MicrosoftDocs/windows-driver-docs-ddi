@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnGetDataFields
 title: ISensorDriver::OnGetDataFields
-author: windows-driver-content
 description: The ISensorDriver::OnGetDataFields method retrieves current sensor data.
 old-location: sensors\isensordriver_ongetdatafields.htm
 tech.root: sensors

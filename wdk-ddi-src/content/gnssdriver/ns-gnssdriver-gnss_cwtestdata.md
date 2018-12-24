@@ -1,7 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_43
 title: GNSS_CWTESTDATA
-author: windows-driver-content
 description: This structure defines specific data elements associated with carrier wave test results returned from the driver.
 old-location: gnss\gnss_cwtestdata.htm
 tech.root: gnss

@@ -1,7 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_POWER_SOURCES
 title: tagWPD_POWER_SOURCES
-author: windows-driver-content
 description: The WPD_POWER_SOURCES enumeration type describes the power source that a device is using.
 old-location: wpddk\wpd_power_sources.htm
 tech.root: wpd_dk

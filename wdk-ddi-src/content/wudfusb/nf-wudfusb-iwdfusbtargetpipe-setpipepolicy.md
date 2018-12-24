@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetPipe.SetPipePolicy
 title: IWDFUsbTargetPipe::SetPipePolicy
-author: windows-driver-content
 description: The SetPipePolicy method sets the WinUsb pipe policy.
 old-location: wdf\iwdfusbtargetpipe_setpipepolicy.htm
 tech.root: wdf

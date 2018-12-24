@@ -1,7 +1,6 @@
 ---
 UID: NS:umdprovider._UMDETW_ALLOCATION_USAGE
 title: "_UMDETW_ALLOCATION_USAGE"
-author: windows-driver-content
 description: Indicates the reason for mapping from a Microsoft Direct3D memory allocation to a Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys) allocation.
 old-location: display\umdetw_allocation_usage.htm
 tech.root: display

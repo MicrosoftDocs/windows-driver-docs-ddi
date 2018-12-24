@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFIoRequest
 title: IWDFIoRequest
-author: windows-driver-content
 description: The IWDFIoRequest interface exposes an I/O request object.
 old-location: wdf\iwdfiorequest.htm
 tech.root: wdf

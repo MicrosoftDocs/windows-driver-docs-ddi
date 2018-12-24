@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KdPrintEx
 title: KdPrintEx macro
-author: windows-driver-content
 description: The KdPrintEx macro sends a string to the kernel debugger if the conditions you specify are met.A call to KdPrintEx requires double parentheses.
 old-location: devtest\kdprintex.htm
 tech.root: devtest

@@ -1,7 +1,6 @@
 ---
 UID: NS:fwpsk.FWPS_CALLOUT0_
 title: FWPS_CALLOUT0_
-author: windows-driver-content
 description: The FWPS_CALLOUT0 structure defines the data that is required for a callout driver to register a callout with the filter engine.Note  FWPS_CALLOUT0 is the specific version of FWPS_CALLOUT used in Windows Vista and later.
 old-location: netvista\fwps_callout0.htm
 tech.root: netvista

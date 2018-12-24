@@ -1,7 +1,6 @@
 ---
 UID: NS:wmistr.tagWNODE_SINGLE_ITEM
 title: tagWNODE_SINGLE_ITEM
-author: windows-driver-content
 description: The WNODE_SINGLE_ITEM structure contains the value of a single data item in an instance of a data block.
 old-location: kernel\wnode_single_item.htm
 tech.root: kernel

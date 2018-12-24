@@ -1,7 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PREPARE_DEVICE
 title: "_PEP_PREPARE_DEVICE"
-author: windows-driver-content
 description: The PEP_PREPARE_DEVICE structure identifies a device that must be started up in preparation for its use by the operating system.
 old-location: kernel\pep_prepare_device.htm
 tech.root: kernel

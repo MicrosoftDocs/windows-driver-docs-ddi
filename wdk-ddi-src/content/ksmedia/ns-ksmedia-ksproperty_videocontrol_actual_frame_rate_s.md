@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_150
 title: KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S
-author: windows-driver-content
 description: The KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S structure describes actual frame rate information in response to KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE property requests.
 old-location: stream\ksproperty_videocontrol_actual_frame_rate_s.htm
 tech.root: stream

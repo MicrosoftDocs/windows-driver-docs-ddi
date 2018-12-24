@@ -1,7 +1,6 @@
 ---
 UID: NS:ks._KSDEVICE_DESCRIPTOR
 title: "_KSDEVICE_DESCRIPTOR"
-author: windows-driver-content
 description: The KSDEVICE_DESCRIPTOR structure describes the characteristics of a particular device.
 old-location: stream\ksdevice_descriptor.htm
 tech.root: stream

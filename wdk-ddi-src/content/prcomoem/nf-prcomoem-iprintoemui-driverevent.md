@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.DriverEvent
 title: IPrintOemUI::DriverEvent
-author: windows-driver-content
 description: The printer driver's DrvDriverEvent function calls a user interface plug-in's IPrintOemUI::DriverEvent method for additional processing of printer driver events.
 old-location: print\iprintoemui_driverevent.htm
 tech.root: print

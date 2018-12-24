@@ -1,7 +1,6 @@
 ---
 UID: NC:wlanihv.DOT11EXTIHV_PERFORM_POST_ASSOCIATE
 title: DOT11EXTIHV_PERFORM_POST_ASSOCIATE
-author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extihvperformpostassociate.htm
 tech.root: netvista

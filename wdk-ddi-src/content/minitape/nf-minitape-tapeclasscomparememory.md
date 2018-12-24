@@ -1,7 +1,6 @@
 ---
 UID: NF:minitape.TapeClassCompareMemory
 title: TapeClassCompareMemory function
-author: windows-driver-content
 description: The TapeClassCompareMemory routine compares two memory buffers and returns the number of bytes that are equivalent.
 old-location: storage\tapeclasscomparememory.htm
 tech.root: storage

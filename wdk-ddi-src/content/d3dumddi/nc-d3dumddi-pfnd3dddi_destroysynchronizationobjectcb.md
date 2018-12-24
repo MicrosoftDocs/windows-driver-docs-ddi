@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DESTROYSYNCHRONIZATIONOBJECTCB
 title: PFND3DDDI_DESTROYSYNCHRONIZATIONOBJECTCB
-author: windows-driver-content
 description: The pfnDestroySynchronizationObjectCb function destroys the synchronization object that was created through a call to the pfnCreateSynchronizationObjectCb function.
 old-location: display\pfndestroysynchronizationobjectcb.htm
 tech.root: display

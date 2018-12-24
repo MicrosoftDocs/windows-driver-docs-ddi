@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni3.SetBandSize
 title: IPrintOemUni3::SetBandSize
-author: windows-driver-content
 description: The IPrintOemUni3::SetBandSize method can be used with Unidrv-supported printers to specify the desired band size on the printed output.
 old-location: print\iprintoemuni3_setbandsize.htm
 tech.root: print

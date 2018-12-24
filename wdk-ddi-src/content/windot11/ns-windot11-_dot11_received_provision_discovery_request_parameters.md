@@ -1,7 +1,6 @@
 ---
 UID: NS:windot11._DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS
 title: "_DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS"
-author: windows-driver-content
 description: The parameters for a provision discovery request are specified in a DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS structure. This structure is sent with an NDIS_STATUS_DOT11_WFD_RECEIVED_PROVISION_DISCOVERY_REQUEST indication.
 old-location: netvista\dot11_received_provision_discovery_request_parameters.htm
 tech.root: netvista

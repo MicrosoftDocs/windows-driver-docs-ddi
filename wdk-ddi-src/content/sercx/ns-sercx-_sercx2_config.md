@@ -1,7 +1,6 @@
 ---
 UID: NS:sercx._SERCX2_CONFIG
 title: "_SERCX2_CONFIG"
-author: windows-driver-content
 description: The SERCX2_CONFIG structure contains configuration information for version 2 of the serial framework extension (SerCx2).
 old-location: serports\sercx2_config.htm
 tech.root: serports

@@ -1,7 +1,6 @@
 ---
 UID: NF:ufxclient.UfxDeviceNotifyHardwareFailure
 title: UfxDeviceNotifyHardwareFailure function
-author: windows-driver-content
 description: Notifies UFX about a non-recoverable hardware failure in the controller.
 old-location: buses\ufxdevicenotifyhardwarefailure.htm
 tech.root: usbref

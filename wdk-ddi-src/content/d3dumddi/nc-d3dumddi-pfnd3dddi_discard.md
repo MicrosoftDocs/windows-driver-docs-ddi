@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DISCARD
 title: PFND3DDDI_DISCARD
-author: windows-driver-content
 description: Discards (evicts) a set of subresources from video display memory. Implemented by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 old-location: display\discard.htm
 tech.root: display

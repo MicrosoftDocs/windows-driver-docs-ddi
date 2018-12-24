@@ -1,7 +1,6 @@
 ---
 UID: NS:portcls.__unnamed_struct_1
 title: PCMETHOD_ITEM
-author: windows-driver-content
 description: The PCMETHOD_ITEM structure describes a method supported by a filter, pin, or node.
 old-location: audio\pcmethod_item.htm
 tech.root: audio

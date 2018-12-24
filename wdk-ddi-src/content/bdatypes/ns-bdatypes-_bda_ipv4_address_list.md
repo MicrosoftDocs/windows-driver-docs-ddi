@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_IPv4_ADDRESS_LIST
 title: "_BDA_IPv4_ADDRESS_LIST"
-author: windows-driver-content
 description: 
 old-location: stream\bda_ipv4_address_list.htm
 tech.root: stream

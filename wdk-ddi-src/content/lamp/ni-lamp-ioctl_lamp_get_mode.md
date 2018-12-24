@@ -1,7 +1,6 @@
 ---
 UID: NI:lamp.IOCTL_LAMP_GET_MODE
 title: IOCTL_LAMP_GET_MODE
-author: windows-driver-content
 description: The IOCTL_LAMP_GET_MODE control code queries the mode with which the lamp is currently configured.
 old-location: stream\ioctl_lamp_get_mode.htm
 tech.root: stream

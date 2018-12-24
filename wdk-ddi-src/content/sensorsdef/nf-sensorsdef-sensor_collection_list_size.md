@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorsdef.SENSOR_COLLECTION_LIST_SIZE
 title: SENSOR_COLLECTION_LIST_SIZE function
-author: windows-driver-content
 description: This function returns the size of a SENSOR_COLLECTION_LIST structure.
 old-location: sensors\sensor_collection_list_size.htm
 tech.root: sensors

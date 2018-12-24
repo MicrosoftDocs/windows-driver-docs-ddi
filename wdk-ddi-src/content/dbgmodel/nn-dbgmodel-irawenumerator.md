@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgmodel.IRawEnumerator
 title: IRawEnumerator
-author: windows-driver-content
 description: An interface which enumerates the raw children (base classes, fields, etc...) of an object (and their values and associated metadata). 
 ms.assetid: 9ffd4c68-726e-41a9-a5d7-523d039dc72f
 ms.date: 07/16/2018

@@ -1,7 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_DISABLE_SECURE_READ
 title: IOCTL_HID_DISABLE_SECURE_READ
-author: windows-driver-content
 description: The IOCTL_HID_DISABLE_SECURE_READ request cancels an IOCTL_HID_ENABLE_SECURE_READ request for a HID collection.
 old-location: hid\ioctl_hid_disable_secure_read.htm
 tech.root: hid

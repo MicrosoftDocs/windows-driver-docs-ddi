@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces.WritePhysical
 title: IDebugDataSpaces::WritePhysical
-author: windows-driver-content
 description: The WritePhysical method writes data to the specified physical address in the target's memory.
 old-location: debugger\writephysical3.htm
 tech.root: debugger

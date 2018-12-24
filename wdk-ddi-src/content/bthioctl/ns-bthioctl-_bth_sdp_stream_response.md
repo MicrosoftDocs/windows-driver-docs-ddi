@@ -1,7 +1,6 @@
 ---
 UID: NS:bthioctl._BTH_SDP_STREAM_RESPONSE
 title: "_BTH_SDP_STREAM_RESPONSE"
-author: windows-driver-content
 description: The BTH_SDP_STREAM_RESPONSE structure contains information about an SDP record.
 old-location: bltooth\bth_sdp_stream_response.htm
 tech.root: bltooth

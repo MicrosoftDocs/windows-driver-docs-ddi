@@ -1,7 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_GET_NAME_INFO
 title: PFN_WSK_GET_NAME_INFO
-author: windows-driver-content
 description: The WskGetNameInfo function provides protocol-independent translation from a transport address to a host name.
 old-location: netvista\wskgetnameinfo.htm
 tech.root: netvista

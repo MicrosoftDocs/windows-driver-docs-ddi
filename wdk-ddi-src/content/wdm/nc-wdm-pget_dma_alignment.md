@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.PGET_DMA_ALIGNMENT
 title: PGET_DMA_ALIGNMENT
-author: windows-driver-content
 description: The GetDmaAlignment routine returns the alignment requirements of the DMA system.
 old-location: kernel\getdmaalignment.htm
 tech.root: kernel

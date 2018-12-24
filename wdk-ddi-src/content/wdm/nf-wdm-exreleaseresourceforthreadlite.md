@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExReleaseResourceForThreadLite
 title: ExReleaseResourceForThreadLite function
-author: windows-driver-content
 description: The ExReleaseResourceForThreadLite routine releases the input resource of the indicated thread.
 old-location: kernel\exreleaseresourceforthreadlite.htm
 tech.root: kernel

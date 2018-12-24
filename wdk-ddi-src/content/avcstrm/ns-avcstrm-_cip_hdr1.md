@@ -1,7 +1,6 @@
 ---
 UID: NS:avcstrm._CIP_HDR1
 title: "_CIP_HDR1"
-author: windows-driver-content
 description: The CIP_HDR1 structure describes the generic data structure of the two quadlet CIP headers (first quadlet of the pair).
 old-location: stream\cip_hdr1.htm
 tech.root: stream

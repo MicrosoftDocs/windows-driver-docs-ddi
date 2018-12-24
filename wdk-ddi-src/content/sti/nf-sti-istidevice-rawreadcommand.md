@@ -1,7 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.RawReadCommand
 title: IStiDevice::RawReadCommand
-author: windows-driver-content
 description: The IStiDevice::RawReadCommand method reads command information from a still image device.
 old-location: image\istidevice_rawreadcommand.htm
 tech.root: image

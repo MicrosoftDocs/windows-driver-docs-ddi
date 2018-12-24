@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlIsNtDdiVersionAvailable
 title: RtlIsNtDdiVersionAvailable function
-author: windows-driver-content
 description: The RtlIsNtDdiVersionAvailable routine determines if a specified version of the Microsoft Windows device driver interface (DDI) is available.
 old-location: kernel\rtlisntddiversionavailable.htm
 tech.root: kernel

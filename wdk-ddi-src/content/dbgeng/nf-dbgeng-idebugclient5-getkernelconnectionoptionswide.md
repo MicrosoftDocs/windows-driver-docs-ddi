@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetKernelConnectionOptionsWide
 title: IDebugClient5::GetKernelConnectionOptionsWide
-author: windows-driver-content
 description: The GetKernelConnectionOptionsWide method returns the connection options for the current kernel target.
 old-location: debugger\getkernelconnectionoptionswide.htm
 tech.root: debugger

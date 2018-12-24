@@ -1,7 +1,6 @@
 ---
 UID: NF:spbcx.SpbRequestGetController
 title: SpbRequestGetController function
-author: windows-driver-content
 description: The SpbRequestGetController method returns the WDFDEVICE handle to the device object for the SPB controller that the specified I/O request was sent to.
 old-location: spb\spbrequestgetcontroller.htm
 tech.root: SPB

@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfworkitem.WUDF_WORKITEM_CONFIG_INIT
 title: WUDF_WORKITEM_CONFIG_INIT function
-author: windows-driver-content
 description: The WUDF_WORKITEM_CONFIG_INIT macro initializes a driver's WUDF_WORKITEM_CONFIG structure.
 old-location: wdf\wudf_workitem_config_init.htm
 tech.root: wdf

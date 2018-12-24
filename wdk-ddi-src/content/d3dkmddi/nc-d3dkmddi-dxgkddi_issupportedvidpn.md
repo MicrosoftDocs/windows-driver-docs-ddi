@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_ISSUPPORTEDVIDPN
 title: DXGKDDI_ISSUPPORTEDVIDPN
-author: windows-driver-content
 description: The DxgkDdiIsSupportedVidPn function determines whether a specified VidPN is supported on a display adapter.
 old-location: display\dxgkddiissupportedvidpn.htm
 ms.assetid: 96e96366-6306-4d20-8752-e942f2ed4069

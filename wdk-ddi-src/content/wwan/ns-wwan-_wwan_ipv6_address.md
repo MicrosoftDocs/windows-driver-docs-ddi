@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_IPV6_ADDRESS
 title: "_WWAN_IPV6_ADDRESS"
-author: windows-driver-content
 description: The WWAN_IPV6_ADDRESS structure represents an IPV6 address of a PDP context.
 old-location: netvista\wwan_ipv6_address.htm
 tech.root: netvista

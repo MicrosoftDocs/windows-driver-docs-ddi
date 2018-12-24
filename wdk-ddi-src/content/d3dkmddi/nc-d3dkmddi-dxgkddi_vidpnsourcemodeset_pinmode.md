@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNSOURCEMODESET_PINMODE
 title: DXGKDDI_VIDPNSOURCEMODESET_PINMODE
-author: windows-driver-content
 description: The pfnPinMode function pins a specified mode in a VidPN source mode set.
 old-location: display\dxgk_vidpnsourcemodeset_interface_pfnpinmode.htm
 ms.assetid: 14bbdc35-e633-49a5-bdf0-6b60d330ca8e

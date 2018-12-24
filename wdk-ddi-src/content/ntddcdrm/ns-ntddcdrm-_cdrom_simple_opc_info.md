@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_SIMPLE_OPC_INFO
 title: "_CDROM_SIMPLE_OPC_INFO"
-author: windows-driver-content
 description: The CDROM_SIMPLE_OPC_INFO structure is the only input for the IOCTL_CDROM_SEND_OPC_INFORMATION I/O control code.
 old-location: storage\cdrom_simple_opc_info.htm
 tech.root: storage

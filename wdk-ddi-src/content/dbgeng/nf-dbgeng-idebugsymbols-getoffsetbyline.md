@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.GetOffsetByLine
 title: IDebugSymbols::GetOffsetByLine
-author: windows-driver-content
 description: The GetOffsetByLine method returns the location of the instruction that corresponds to a specified line in the source code.
 old-location: debugger\getoffsetbyline.htm
 tech.root: debugger

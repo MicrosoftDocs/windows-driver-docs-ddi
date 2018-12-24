@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.AddSyntheticSymbolWide
 title: IDebugSymbols3::AddSyntheticSymbolWide
-author: windows-driver-content
 description: The AddSyntheticSymbolWide method adds a synthetic symbol to a module in the current process.
 old-location: debugger\addsyntheticsymbolwide.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceQueryString
 title: WdfUsbTargetDeviceQueryString function
-author: windows-driver-content
 description: The WdfUsbTargetDeviceQueryString method retrieves the Unicode string that is associated with a specified USB device and descriptor index value.
 old-location: wdf\wdfusbtargetdevicequerystring.htm
 tech.root: wdf

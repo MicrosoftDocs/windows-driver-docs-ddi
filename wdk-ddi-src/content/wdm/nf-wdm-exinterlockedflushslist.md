@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExInterlockedFlushSList
 title: ExInterlockedFlushSList function
-author: windows-driver-content
 description: The ExInterlockedFlushSList routine atomically removes all entries from a sequenced singly linked list.
 old-location: kernel\exinterlockedflushslist.htm
 tech.root: kernel

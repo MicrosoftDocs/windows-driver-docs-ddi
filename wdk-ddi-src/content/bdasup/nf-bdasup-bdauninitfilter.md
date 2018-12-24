@@ -1,7 +1,6 @@
 ---
 UID: NF:bdasup.BdaUninitFilter
 title: BdaUninitFilter function
-author: windows-driver-content
 description: The BdaUninitFilter function removes the BDA filter context from the associated filter instance.
 old-location: stream\bdauninitfilter.htm
 tech.root: stream

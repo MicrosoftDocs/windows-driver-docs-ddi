@@ -1,7 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCbCatExW
 title: RtlStringCbCatExW function
-author: windows-driver-content
 description: The RtlStringCbCatExW and RtlStringCbCatExA functions concatenate two byte-counted strings.
 old-location: kernel\rtlstringcbcatex.htm
 tech.root: kernel

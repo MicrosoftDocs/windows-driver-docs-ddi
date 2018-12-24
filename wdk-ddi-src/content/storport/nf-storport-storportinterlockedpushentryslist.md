@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortInterlockedPushEntrySList
 title: StorPortInterlockedPushEntrySList function
-author: windows-driver-content
 description: Inserts an item at the front of a Storport managed singly linked list. Access to the list is synchronized on a multiprocessor system.
 old-location: storage\storportinterlockedpushentryslist.htm
 tech.root: storage

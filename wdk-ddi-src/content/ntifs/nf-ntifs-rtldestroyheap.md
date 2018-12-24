@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlDestroyHeap
 title: RtlDestroyHeap function
-author: windows-driver-content
 description: The RtlDestroyHeap routine destroys the specified heap object. RtlDestroyHeap decommits and releases all the pages of a private heap object, and it invalidates the handle to the heap.
 old-location: ifsk\rtldestroyheap.htm
 tech.root: ifsk

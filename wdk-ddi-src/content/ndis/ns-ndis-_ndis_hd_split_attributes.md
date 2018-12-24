@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_HD_SPLIT_ATTRIBUTES
 title: "_NDIS_HD_SPLIT_ATTRIBUTES"
-author: windows-driver-content
 description: The NDIS_HD_SPLIT_ATTRIBUTES structure defines header-data split attributes, if any, that are associated with a miniport adapter.
 old-location: netvista\ndis_hd_split_attributes.htm
 tech.root: netvista

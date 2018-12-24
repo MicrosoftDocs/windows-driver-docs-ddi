@@ -1,7 +1,6 @@
 ---
 UID: NS:video._VIDEO_PORT_I2C_INTERFACE
 title: "_VIDEO_PORT_I2C_INTERFACE"
-author: windows-driver-content
 description: The VIDEO_PORT_I2C_INTERFACE structure describes the I2C service routines provided by the video port driver.
 old-location: display\video_port_i2c_interface.htm
 tech.root: display

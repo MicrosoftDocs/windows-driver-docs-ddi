@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYSCHEDULINGGROUP_0050
 title: PFND3D12DDI_DESTROYSCHEDULINGGROUP_0050
-author: windows-driver-content
 description: Destroys a hardware scheduling group.
 ms.assetid: 688cd4a2-6775-42e8-8dde-88a0d4d196b6
 ms.date: 10/19/2018

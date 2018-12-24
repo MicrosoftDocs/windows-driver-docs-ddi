@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._LOCK_STATE
 title: "_LOCK_STATE"
-author: windows-driver-content
 description: The LOCK_STATE structure tracks the state of a read/write lock.
 old-location: netvista\lock_state.htm
 tech.root: netvista

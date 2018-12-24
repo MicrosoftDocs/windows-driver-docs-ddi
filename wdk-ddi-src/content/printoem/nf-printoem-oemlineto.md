@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMLineTo
 title: OEMLineTo function
-author: windows-driver-content
 description: The OEMLineTo function draws a single, solid, integer-only cosmetic line.
 old-location: print\oemlineto.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.BOUND_CALLBACK
 title: BOUND_CALLBACK
-author: windows-driver-content
 description: The BoundCallback routine is executed whenever the system issues a bounds exception for a user-mode thread.
 old-location: kernel\boundcallback.htm
 tech.root: kernel

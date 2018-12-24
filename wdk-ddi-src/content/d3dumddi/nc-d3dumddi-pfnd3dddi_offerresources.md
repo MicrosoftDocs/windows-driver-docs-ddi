@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_OFFERRESOURCES
 title: PFND3DDDI_OFFERRESOURCES
-author: windows-driver-content
 description: Called by the Microsoft Direct3D runtime to request that the user-mode display driver offer video memory resources for reuse.
 old-location: display\offerresources.htm
 tech.root: display

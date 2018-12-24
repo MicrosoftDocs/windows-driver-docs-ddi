@@ -1,7 +1,6 @@
 ---
 UID: NS:bthddi._BRB_L2CA_OPEN_ENHANCED_CHANNEL
 title: "_BRB_L2CA_OPEN_ENHANCED_CHANNEL"
-author: windows-driver-content
 description: The _BRB_L2CA_OPEN_ENHANCED_CHANNEL structure is used to open an enhanced L2CAP channel to a remote device, or send a response for accepting/rejecting an incoming enhanced L2CAP connection request that was initiated by a remote device.
 old-location: bltooth\_brb_l2ca_open_enhanced_channel.htm
 tech.root: bltooth

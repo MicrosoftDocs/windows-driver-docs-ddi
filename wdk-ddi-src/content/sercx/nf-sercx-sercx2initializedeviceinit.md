@@ -1,7 +1,6 @@
 ---
 UID: NF:sercx.SerCx2InitializeDeviceInit
 title: SerCx2InitializeDeviceInit function
-author: windows-driver-content
 description: The SerCx2InitializeDeviceInit method enables version 2 of the serial framework extension (SerCx2) to register extension-specific properties with the driver framework during the creation of the framework device object for the serial controller.
 old-location: serports\sercx2initializedeviceinit.htm
 tech.root: serports

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.TmCommitEnlistment
 title: TmCommitEnlistment function
-author: windows-driver-content
 description: The TmCommitEnlistment routine initiates the commit operation for a specified enlistment's transaction.
 old-location: kernel\tmcommitenlistment.htm
 tech.root: kernel

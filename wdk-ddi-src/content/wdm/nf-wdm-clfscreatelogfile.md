@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsCreateLogFile
 title: ClfsCreateLogFile function
-author: windows-driver-content
 description: The ClfsCreateLogFile routine creates or opens a CLFS stream. If necessary, ClfsCreateLogFile also creates the underlying physical log that holds the stream's records.
 old-location: kernel\clfscreatelogfile.htm
 tech.root: kernel

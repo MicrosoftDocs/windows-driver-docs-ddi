@@ -1,7 +1,6 @@
 ---
 UID: NI:ehstorbandmgmt.IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA
 title: IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA
-author: windows-driver-content
 description: Metadata associated with a band is set with an IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA request. The metadata for a band serves as a data area for a key manager application.
 old-location: storage\ioctl_ehstor_bandmgmt_set_band_metadata.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IMiniportTopology
 title: IMiniportTopology
-author: windows-driver-content
 description: The IMiniportTopology interface is the primary interface of a Topology miniport driver.
 old-location: audio\iminiporttopology.htm
 tech.root: audio

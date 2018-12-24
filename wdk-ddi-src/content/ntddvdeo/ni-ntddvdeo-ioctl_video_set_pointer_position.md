@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_SET_POINTER_POSITION
 title: IOCTL_VIDEO_SET_POINTER_POSITION
-author: windows-driver-content
 description: Sets the pointer position. Support for this modal request is optional. A supporting miniport driver should have already processed an enable-pointer request before processing this request.
 old-location: display\ioctl_video_set_pointer_position.htm
 tech.root: display

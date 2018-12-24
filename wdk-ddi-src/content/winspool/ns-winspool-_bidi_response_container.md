@@ -1,7 +1,6 @@
 ---
 UID: NS:winspool._BIDI_RESPONSE_CONTAINER
 title: "_BIDI_RESPONSE_CONTAINER"
-author: windows-driver-content
 description: The BIDI_RESPONSE_CONTAINER structure is a container for a list of bidi responses.
 old-location: print\bidi_response_container.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_PRESENT
 title: "_D3DDDIARG_PRESENT"
-author: windows-driver-content
 description: The D3DDDIARG_PRESENT structure describes a resource to display.
 old-location: display\d3dddiarg_present.htm
 tech.root: display

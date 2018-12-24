@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsGetObjectTypeFromFileObject
 title: KsGetObjectTypeFromFileObject function
-author: windows-driver-content
 description: The KsGetObjectTypeFromFileObject function returns the AVStream object type that is associated with a given file object.
 old-location: stream\ksgetobjecttypefromfileobject.htm
 tech.root: stream

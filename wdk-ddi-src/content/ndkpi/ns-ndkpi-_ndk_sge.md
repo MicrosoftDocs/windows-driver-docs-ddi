@@ -1,7 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_SGE
 title: "_NDK_SGE"
-author: windows-driver-content
 description: The NDK_SGE structure specifies the local buffers for NDK work requests.
 old-location: netvista\ndk_sge.htm
 tech.root: netvista

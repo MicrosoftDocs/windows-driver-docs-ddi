@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetSourcePathElement
 title: IDebugSymbols2::GetSourcePathElement
-author: windows-driver-content
 description: The GetSourcePathElement method returns an element from the source path.
 old-location: debugger\getsourcepathelement.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGKMDT_OPM_GET_INFO_PARAMETERS
 title: "_DXGKMDT_OPM_GET_INFO_PARAMETERS"
-author: windows-driver-content
 description: The DXGKMDT_OPM_GET_INFO_PARAMETERS structure contains parameters that are used to retrieve information from a protected output object in a call to the DxgkDdiOPMGetInformation function.
 old-location: display\dxgkmdt_opm_get_info_parameters.htm
 tech.root: display

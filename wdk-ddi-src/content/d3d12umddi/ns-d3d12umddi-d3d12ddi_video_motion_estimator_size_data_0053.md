@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053
 title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053
-author: windows-driver-content
 description: The video capability check for motion estimation size.
 ms.assetid: 7b0578ac-afde-4356-ac90-c906f8c91487
 ms.date: 10/23/2018

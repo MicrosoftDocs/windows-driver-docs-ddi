@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._INTERFACE
 title: "_INTERFACE"
-author: windows-driver-content
 description: The INTERFACE structure describes an interface that is exported by a driver for use by other drivers.
 old-location: kernel\interface.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_HISTORY_BUFFER_STATUS
 title: _D3DKMT_HISTORY_BUFFER_STATUS
-author: windows-driver-content
 description: Contains history buffer status.
 ms.assetid: 4c8c2589-85e5-4238-a69f-40fd23f70a28
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._RemoveiSNSServer_IN
 title: "_RemoveiSNSServer_IN"
-author: windows-driver-content
 description: The RemoveiSNSServer_IN structure holds the input data for the user-mode RemoveISNSServer method, which is used to remove an iSNS server entry.
 old-location: storage\removeisnsserver_in.htm
 tech.root: storage

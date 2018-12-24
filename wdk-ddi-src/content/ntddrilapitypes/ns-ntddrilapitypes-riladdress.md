@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILADDRESS
 title: RILADDRESS
-author: windows-driver-content
 description: This structure represents a phone number.
 old-location: netvista\riladdress.htm
 tech.root: netvista

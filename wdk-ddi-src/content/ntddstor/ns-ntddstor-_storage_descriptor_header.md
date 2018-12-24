@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_DESCRIPTOR_HEADER
 title: "_STORAGE_DESCRIPTOR_HEADER"
-author: windows-driver-content
 description: The STORAGE_DESCRIPTOR_HEADER structure is used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the properties of a storage device or adapter.
 old-location: storage\storage_descriptor_header.htm
 tech.root: storage

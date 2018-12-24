@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlPrepareToReuseEcp
 title: FsRtlPrepareToReuseEcp function
-author: windows-driver-content
 description: The FsRtlPrepareToReuseEcp routine resets an extra create parameter (ECP) context structure, which prepares it for reuse.
 old-location: ifsk\fsrtlpreparetoreuseecp.htm
 tech.root: ifsk

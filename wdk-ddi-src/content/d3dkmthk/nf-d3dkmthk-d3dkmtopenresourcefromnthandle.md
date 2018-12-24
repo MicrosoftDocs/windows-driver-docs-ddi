@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenResourceFromNtHandle
 title: D3DKMTOpenResourceFromNtHandle function
-author: windows-driver-content
 description: Opens a shared resource from an NT handle.
 old-location: display\d3dkmtopenresourcefromnthandle.htm
 ms.assetid: d5a66102-782a-482e-8119-48015820d0c7

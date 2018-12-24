@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaCapabilities.GetOptions
 title: IPrintSchemaCapabilities::GetOptions
-author: windows-driver-content
 description: Gets all the options of a feature.
 old-location: print\iprintschemacapabilities_getoptions.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlInitializeFileLock
 title: FsRtlInitializeFileLock function
-author: windows-driver-content
 description: The FsRtlInitializeFileLock routine initializes a FILE_LOCK structure.
 old-location: ifsk\fsrtlinitializefilelock.htm
 tech.root: ifsk

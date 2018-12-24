@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlInitializeExtraCreateParameter
 title: FsRtlInitializeExtraCreateParameter function
-author: windows-driver-content
 description: The FsRtlInitializeExtraCreateParameter routine initializes an extra create parameter (ECP) context structure.
 old-location: ifsk\fsrtlinitializeextracreateparameter.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntdddisk._DRIVE_LAYOUT_INFORMATION_EX
 title: "_DRIVE_LAYOUT_INFORMATION_EX"
-author: windows-driver-content
 description: The DRIVE_LAYOUT_INFORMATION_EX structure is used to report information about the driver layout.
 old-location: storage\drive_layout_information_ex.htm
 tech.root: storage

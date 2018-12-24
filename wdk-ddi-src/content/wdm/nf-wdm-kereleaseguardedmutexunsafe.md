@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeReleaseGuardedMutexUnsafe
 title: KeReleaseGuardedMutexUnsafe function
-author: windows-driver-content
 description: The KeReleaseGuardedMutexUnsafe routine releases a guarded mutex acquired by KeAcquireGuardedMutexUnsafe.
 old-location: kernel\kereleaseguardedmutexunsafe.htm
 tech.root: kernel

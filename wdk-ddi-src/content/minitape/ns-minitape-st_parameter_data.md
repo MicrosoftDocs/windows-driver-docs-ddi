@@ -1,7 +1,6 @@
 ---
 UID: NS:minitape.__unnamed_struct_14
 title: ST_PARAMETER_DATA
-author: windows-driver-content
 description: The ST_PARAMETER_DATA structure contains the parameter list for the set timestamp command.
 old-location: storage\st_parameter_data.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_IDLE_COMPLETE
 title: "_PEP_PPM_IDLE_COMPLETE"
-author: windows-driver-content
 description: The PEP_PPM_IDLE_COMPLETE structure describe the idle states from which the processor and hardware platform are waking.
 old-location: kernel\pep_ppm_idle_complete.htm
 tech.root: kernel

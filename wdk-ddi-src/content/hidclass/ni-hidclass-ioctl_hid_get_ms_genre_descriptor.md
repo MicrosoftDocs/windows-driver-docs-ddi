@@ -1,7 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_GET_MS_GENRE_DESCRIPTOR
 title: IOCTL_HID_GET_MS_GENRE_DESCRIPTOR
-author: windows-driver-content
 description: The IOCTL_HID_GET_MS_GENRE_DESCRIPTOR request is used for retrieving the genre descriptor for the device.
 old-location: hid\ioctl_hid_get_ms_genre_descriptor.htm
 tech.root: hid

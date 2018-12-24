@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveCyclicStream.SetState
 title: IMiniportWaveCyclicStream::SetState
-author: windows-driver-content
 description: The SetState method sets the new state of playback or recording for the stream.
 old-location: audio\iminiportwavecyclicstream_setstate.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeInitializeGuardedMutex
 title: KeInitializeGuardedMutex function
-author: windows-driver-content
 description: The KeInitializeGuardedMutex routine initializes a guarded mutex.
 old-location: kernel\keinitializeguardedmutex.htm
 tech.root: kernel

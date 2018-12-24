@@ -1,7 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_ALTERNATE_MODE
 title: _UCSI_ALTERNATE_MODE
-author: windows-driver-content
 tech.root: usbref
 description: Used in GET_ALTERNATE_MODES command. See Table 4-26.
 ms.assetid: d083982e-c565-4242-a805-d2495c2c63bb

@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionContextCollection.GetAt
 title: IPrinterExtensionContextCollection::GetAt
-author: windows-driver-content
 description: Gets a pointer to an IPrinterExtensionContext object.
 old-location: print\iprinterextensioncontextcollection_getat.htm
 tech.root: print

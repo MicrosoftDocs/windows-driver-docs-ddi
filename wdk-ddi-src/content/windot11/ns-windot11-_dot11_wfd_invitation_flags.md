@@ -1,7 +1,6 @@
 ---
 UID: NS:windot11._DOT11_WFD_INVITATION_FLAGS
 title: "_DOT11_WFD_INVITATION_FLAGS"
-author: windows-driver-content
 description: The DOT11_WFD_INVITATION_FLAGS structure represents the Invitation Attributes used during the Invitation procedure.
 old-location: netvista\dot11_wfd_invitation_flags.htm
 tech.root: netvista

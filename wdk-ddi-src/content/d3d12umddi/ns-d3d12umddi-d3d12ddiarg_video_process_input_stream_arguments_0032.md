@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032
 title: D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032
-author: windows-driver-content
 description: The video process input stream arguments.
 old-location: display\d3d12ddiarg-video-process-input-stream-arguments-0032.htm
 ms.assetid: b6eafa0c-1b5e-4723-9317-60f1507f12ea

@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IPortWaveRTStream.GetPhysicalPageAddress
 title: IPortWaveRTStream::GetPhysicalPageAddress
-author: windows-driver-content
 description: The GetPhysicalPageAddress method returns the physical address for a page within a memory descriptor list (MDL).
 old-location: audio\iportwavertstream_getphysicalpageaddress.htm
 tech.root: audio

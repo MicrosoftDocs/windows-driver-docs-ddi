@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_UPDATEMONITORLINKINFO
 title: DXGKDDI_UPDATEMONITORLINKINFO
-author: windows-driver-content
 description: Implemented by the client driver to allow capabilities of a monitor which are tied to the link through which it is currently attached, to be queried.
 ms.assetid: 5fdf54da-03c7-4eb8-a354-bbbcb1335446
 ms.date: 10/19/2018

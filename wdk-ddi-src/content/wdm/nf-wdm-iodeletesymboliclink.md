@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoDeleteSymbolicLink
 title: IoDeleteSymbolicLink function
-author: windows-driver-content
 description: The IoDeleteSymbolicLink routine removes a symbolic link from the system.
 old-location: kernel\iodeletesymboliclink.htm
 tech.root: kernel

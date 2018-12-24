@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.ZwQueryEaFile
 title: ZwQueryEaFile function
-author: windows-driver-content
 description: The ZwQueryEaFile routine returns information about extended-attribute (EA) values for a file.
 old-location: kernel\zwqueryeafile.htm
 tech.root: kernel

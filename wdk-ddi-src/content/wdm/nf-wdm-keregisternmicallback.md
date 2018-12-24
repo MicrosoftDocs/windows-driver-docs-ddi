@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeRegisterNmiCallback
 title: KeRegisterNmiCallback function
-author: windows-driver-content
 description: The KeRegisterNmiCallback routine registers a routine to be called whenever a nonmaskable interrupt (NMI) occurs.
 old-location: kernel\keregisternmicallback.htm
 tech.root: kernel

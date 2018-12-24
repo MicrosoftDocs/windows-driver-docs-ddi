@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoIsValidNameGraftingBuffer
 title: IoIsValidNameGraftingBuffer function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\ioisvalidnamegraftingbuffer.htm
 tech.root: ifsk

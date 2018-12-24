@@ -1,7 +1,6 @@
 ---
 UID: NS:pep_x._PEP_WORK_DEVICE_IDLE
 title: "_PEP_WORK_DEVICE_IDLE"
-author: windows-driver-content
 description: The PEP_WORK_DEVICE_IDLE structure indicates whether to ignore the idle time-out for the specified device.
 old-location: kernel\pep_work_device_idle.htm
 tech.root: kernel

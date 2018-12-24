@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfobject.WdfObjectDereferenceActual
 title: WdfObjectDereferenceActual function
-author: windows-driver-content
 description: The WdfObjectDereferenceActual method decrements the reference count for a specified framework object and assigns a tag value, line number, and file name to the reference.
 old-location: wdf\wdfobjectdereferenceactual.htm
 tech.root: wdf

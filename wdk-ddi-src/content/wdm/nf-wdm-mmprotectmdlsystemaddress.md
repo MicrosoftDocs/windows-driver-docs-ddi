@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.MmProtectMdlSystemAddress
 title: MmProtectMdlSystemAddress function
-author: windows-driver-content
 description: The MmProtectMdlSystemAddress routine sets the protection type for a memory address range.
 old-location: kernel\mmprotectmdlsystemaddress.htm
 tech.root: kernel

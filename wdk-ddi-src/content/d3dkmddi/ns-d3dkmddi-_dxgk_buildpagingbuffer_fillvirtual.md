@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL
 title: "_DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL"
-author: windows-driver-content
 description: DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL is used as part of an operation to fill an allocation with a pattern.
 old-location: display\dxgk_buildpagingbuffer_fillvirtual.htm
 ms.assetid: 373065F6-C754-4517-905E-86A974866120

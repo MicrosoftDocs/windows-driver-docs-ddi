@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasGetDrvItem
 title: wiasGetDrvItem function
-author: windows-driver-content
 description: The wiasGetDrvItem function retrieves a driver item.
 old-location: image\wiasgetdrvitem.htm
 tech.root: image

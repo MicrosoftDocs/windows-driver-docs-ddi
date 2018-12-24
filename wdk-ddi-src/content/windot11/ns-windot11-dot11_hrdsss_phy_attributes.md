@@ -1,7 +1,6 @@
 ---
 UID: NS:windot11.DOT11_HRDSSS_PHY_ATTRIBUTES
 title: DOT11_HRDSSS_PHY_ATTRIBUTES
-author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_hrdsss_phy_attributes.htm
 tech.root: netvista

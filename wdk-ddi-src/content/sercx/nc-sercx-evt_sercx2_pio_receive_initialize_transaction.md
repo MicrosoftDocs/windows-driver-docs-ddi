@@ -1,7 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION
 title: EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION
-author: windows-driver-content
 description: The EvtSerCx2PioReceiveInitializeTransaction event callback function is called by version 2 of the serial framework extension (SerCx2) to prepare the serial controller to perform a PIO-receive transaction.
 old-location: serports\evtsercx2pioreceiveinitializetransaction.htm
 tech.root: serports

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_DESTROYVIDEOPROCESSOROUTPUTVIEW
 title: PFND3D11_1DDI_DESTROYVIDEOPROCESSOROUTPUTVIEW
-author: windows-driver-content
 description: Releases resources for the video processor output view that were created through a call to the CreateVideoProcessorOutputView function.
 old-location: display\destroyvideoprocessoroutputview.htm
 ms.assetid: 7efc032e-0ee4-4eca-b6b0-dda4bfab2756

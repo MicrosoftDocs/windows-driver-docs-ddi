@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetNumberEventFilters
 title: IDebugControl2::GetNumberEventFilters
-author: windows-driver-content
 description: The GetNumberEventFilters method returns the number of event filters currently used by the engine.
 old-location: debugger\getnumbereventfilters.htm
 tech.root: debugger

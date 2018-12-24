@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11DDI_3DPIPELINELEVEL
 title: D3D11DDI_3DPIPELINELEVEL
-author: windows-driver-content
 description: The D3D11DDI_3DPIPELINELEVEL enumeration type contains values that identify the pipeline level that the driver supports, which is retrieved from a call to the driver's GetCaps(D3D10_2) function.
 old-location: display\d3d11ddi_3dpipelinelevel.htm
 ms.assetid: 824008f2-fe83-47ea-9387-38978b98e7e4

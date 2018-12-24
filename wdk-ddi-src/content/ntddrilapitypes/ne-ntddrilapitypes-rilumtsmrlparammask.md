@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILUMTSMRLPARAMMASK
 title: RILUMTSMRLPARAMMASK
-author: windows-driver-content
 description: This enumeration describes the RILUMTSMRLPARAMMASK.
 old-location: netvista\rilumtsmrlparammask.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_SETPOWERCOMPONENTIDLE
 title: DXGKCB_SETPOWERCOMPONENTIDLE
-author: windows-driver-content
 description: Called by the display miniport driver to notify the Microsoft DirectX graphics kernel subsystem that a power component is no longer needed.
 old-location: display\dxgkcbsetpowercomponentidle.htm
 ms.assetid: 7746d09a-7fb6-4e5d-926c-4ded6830b06d

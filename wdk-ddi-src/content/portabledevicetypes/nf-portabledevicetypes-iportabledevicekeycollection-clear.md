@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceKeyCollection.Clear
 title: IPortableDeviceKeyCollection::Clear
-author: windows-driver-content
 description: Deletes all items from the collection.
 old-location: wpddk\iportabledevicekeycollection_clear.htm
 tech.root: wpd_dk

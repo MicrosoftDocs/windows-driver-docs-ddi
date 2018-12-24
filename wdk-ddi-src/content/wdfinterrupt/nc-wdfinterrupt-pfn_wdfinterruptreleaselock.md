@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfinterrupt.PFN_WDFINTERRUPTRELEASELOCK
 title: PFN_WDFINTERRUPTRELEASELOCK
-author: windows-driver-content
 description: The WdfInterruptReleaseLock method ends a code sequence that executes at the device's DIRQL while holding an interrupt object's spin lock.
 old-location: wdf\wdfinterruptreleaselock.htm
 tech.root: wdf

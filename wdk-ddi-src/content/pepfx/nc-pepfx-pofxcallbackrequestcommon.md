@@ -1,7 +1,6 @@
 ---
 UID: NC:pepfx.POFXCALLBACKREQUESTCOMMON
 title: POFXCALLBACKREQUESTCOMMON
-author: windows-driver-content
 description: The RequestCommon routine is a generic request handler.
 old-location: kernel\requestcommon.htm
 tech.root: kernel

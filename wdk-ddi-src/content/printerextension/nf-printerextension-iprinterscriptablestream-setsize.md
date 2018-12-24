@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterScriptableStream.SetSize
 title: IPrinterScriptableStream::SetSize
-author: windows-driver-content
 description: Sets the size of the scriptable stream, in bytes.
 old-location: print\iprinterscriptablestream__setsize.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG
 title: WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG function
-author: windows-driver-content
 description: The WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG function initializes a WDF_USB_DEVICE_SELECT_CONFIG_PARAMS structure so that a driver can deconfigure a USB device.
 old-location: wdf\wdf_usb_device_select_config_params_init_deconfig.htm
 tech.root: wdf

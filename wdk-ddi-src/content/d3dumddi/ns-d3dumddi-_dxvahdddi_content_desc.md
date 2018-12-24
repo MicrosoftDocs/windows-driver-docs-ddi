@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_CONTENT_DESC
 title: "_DXVAHDDDI_CONTENT_DESC"
-author: windows-driver-content
 description: The DXVAHDDDI_CONTENT_DESC structure describes the video content that a decode device processes.
 old-location: display\dxvahdddi_content_desc.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.ObQueryObjectAuditingByHandle
 title: ObQueryObjectAuditingByHandle function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\obqueryobjectauditingbyhandle.htm
 tech.root: ifsk

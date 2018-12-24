@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.SET_D3COLD_SUPPORT
 title: SET_D3COLD_SUPPORT
-author: windows-driver-content
 description: The SetD3ColdSupport routine enables or disables transitions to the D3cold device power state.
 old-location: kernel\setd3coldsupport.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_SETINPUTLAYOUT
 title: PFND3D10DDI_SETINPUTLAYOUT
-author: windows-driver-content
 description: The IaSetInputLayout function sets an input layout for the input assembler.
 old-location: display\iasetinputlayout.htm
 ms.assetid: 905e4e7f-5bc5-487f-8d82-4ebc2db66135

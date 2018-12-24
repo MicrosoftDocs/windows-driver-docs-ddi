@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_VIDEOPROCESSBLT
 title: PFND3DDDI_VIDEOPROCESSBLT
-author: windows-driver-content
 description: The VideoProcessBlt function processes a video frame by using the specified Microsoft DirectX Video Accelerator (VA) video processing device.
 old-location: display\videoprocessblt.htm
 tech.root: display

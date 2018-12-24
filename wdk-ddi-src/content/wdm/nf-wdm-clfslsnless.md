@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsLsnLess
 title: ClfsLsnLess function
-author: windows-driver-content
 description: The ClfsLsnLess routine determines whether one LSN is less than another LSN. The two LSNs must be from the same stream.
 old-location: kernel\clfslsnless.htm
 tech.root: kernel

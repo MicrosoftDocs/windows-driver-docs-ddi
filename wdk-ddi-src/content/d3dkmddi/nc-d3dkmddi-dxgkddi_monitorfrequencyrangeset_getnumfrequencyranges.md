@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES
 title: DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES
-author: windows-driver-content
 description: The pfnGetNumFrequencyRanges returns the number of frequency range descriptors in a specified monitor frequency range set object.
 old-location: display\dxgk_monitorfrequencyrangeset_interface_pfngetnumfrequencyranges.htm
 ms.assetid: ba70c191-832f-4dd1-b949-cb47cf736c6e

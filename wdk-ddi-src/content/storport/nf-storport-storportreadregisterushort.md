@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortReadRegisterUshort
 title: StorPortReadRegisterUshort macro
-author: windows-driver-content
 description: The StorPortReadRegisterUshort routine reads a value from a specified register address.
 old-location: storage\storportreadregisterushort.htm
 tech.root: storage

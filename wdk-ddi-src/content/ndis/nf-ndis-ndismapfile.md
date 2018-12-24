@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMapFile
 title: NdisMapFile function
-author: windows-driver-content
 description: The NdisMapFile function maps an already open file into a caller-accessible buffer if the file is currently unmapped.
 old-location: netvista\ndismapfile.htm
 tech.root: netvista

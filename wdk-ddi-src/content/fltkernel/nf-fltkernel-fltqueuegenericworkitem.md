@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltQueueGenericWorkItem
 title: FltQueueGenericWorkItem function
-author: windows-driver-content
 description: FltQueueGenericWorkItem posts a work item that is not associated with a specific I/O operation to a work queue.
 old-location: ifsk\fltqueuegenericworkitem.htm
 tech.root: ifsk

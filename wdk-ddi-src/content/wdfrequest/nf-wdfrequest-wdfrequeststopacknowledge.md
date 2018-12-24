@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestStopAcknowledge
 title: WdfRequestStopAcknowledge function
-author: windows-driver-content
 description: The WdfRequestStopAcknowledge method informs the framework that the driver has stopped processing a specified I/O request.
 old-location: wdf\wdfrequeststopacknowledge.htm
 tech.root: wdf

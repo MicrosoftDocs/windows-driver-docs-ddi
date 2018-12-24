@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterQueueEvent.OnBidiResponseReceived
 title: IPrinterQueueEvent::OnBidiResponseReceived
-author: windows-driver-content
 description: Called when a bidi response is received.
 old-location: print\iprinterqueueevent_onbidiresponsereceived.htm
 tech.root: print

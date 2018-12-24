@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgLegacyError2
 title: wiauDbgLegacyError2 function
-author: windows-driver-content
 description: The wiauDbgLegacyError2 function logs an error message.
 old-location: image\wiaudbglegacyerror2.htm
 tech.root: image

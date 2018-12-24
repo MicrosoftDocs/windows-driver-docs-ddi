@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS
 title: "_D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS"
-author: windows-driver-content
 description: Identifies attributes of a synchronization object.
 old-location: display\d3dddi_synchronizationobject_flags.htm
 tech.root: display

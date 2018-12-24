@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.Reuse
 title: IWDFIoRequest2::Reuse
-author: windows-driver-content
 description: The Reuse method reinitializes a framework request object so that it can be reused.
 old-location: wdf\iwdfiorequest2_reuse.htm
 tech.root: wdf

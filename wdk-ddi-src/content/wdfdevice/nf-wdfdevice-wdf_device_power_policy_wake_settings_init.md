@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT
 title: WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT function
-author: windows-driver-content
 description: The WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT function initializes a driver's WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS structure.
 old-location: wdf\wdf_device_power_policy_wake_settings_init.htm
 tech.root: wdf

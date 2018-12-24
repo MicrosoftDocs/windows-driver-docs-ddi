@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.PshedRegisterPlugin
 title: PshedRegisterPlugin function
-author: windows-driver-content
 description: The PshedRegisterPlugin function registers a PSHED plug-in with the PSHED.
 old-location: whea\pshedregisterplugin.htm
 tech.root: whea

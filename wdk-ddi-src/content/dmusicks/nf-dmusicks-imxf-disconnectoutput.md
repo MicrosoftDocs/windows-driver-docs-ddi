@@ -1,7 +1,6 @@
 ---
 UID: NF:dmusicks.IMXF.DisconnectOutput
 title: IMXF::DisconnectOutput
-author: windows-driver-content
 description: The DisconnectOutput method disconnects this IMXF interface from the synth sink or capture sink.
 tech.root: audio
 ms.assetid: 65b18277-7b28-455c-ae39-81d97a09e21b

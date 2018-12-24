@@ -1,7 +1,6 @@
 ---
 UID: NS:windot11.DOT11_EXTSTA_RECV_CONTEXT
 title: DOT11_EXTSTA_RECV_CONTEXT
-author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_extsta_recv_context.htm
 tech.root: netvista

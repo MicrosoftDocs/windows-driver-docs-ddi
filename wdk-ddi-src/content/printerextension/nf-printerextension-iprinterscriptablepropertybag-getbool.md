@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag.GetBool
 title: IPrinterScriptablePropertyBag::GetBool
-author: windows-driver-content
 description: Gets a specified boolean property.
 old-location: print\iprinterscriptablepropertybag_getbool.htm
 tech.root: print

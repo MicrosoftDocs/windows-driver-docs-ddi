@@ -1,7 +1,6 @@
 ---
 UID: NS:video._VIDEO_ACCESS_RANGE
 title: "_VIDEO_ACCESS_RANGE"
-author: windows-driver-content
 description: The VIDEO_ACCESS_RANGE structure defines a device I/O port or memory range for the video adapter.
 old-location: display\video_access_range.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetRunningProcessSystemIdByExecutableName
 title: IDebugClient5::GetRunningProcessSystemIdByExecutableName
-author: windows-driver-content
 description: The GetRunningProcessSystemIdByExecutableName method searches for a process with a given executable file name and return its process ID.
 old-location: debugger\getrunningprocesssystemidbyexecutablename.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IMiniportWavePci
 title: IMiniportWavePci
-author: windows-driver-content
 description: The IMiniportWavePci interface is the primary interface that is exposed by the miniport driver for a WavePci audio device.
 old-location: audio\iminiportwavepci.htm
 tech.root: audio

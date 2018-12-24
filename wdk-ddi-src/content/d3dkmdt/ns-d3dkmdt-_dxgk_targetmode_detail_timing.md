@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGK_TARGETMODE_DETAIL_TIMING
 title: "_DXGK_TARGETMODE_DETAIL_TIMING"
-author: windows-driver-content
 description: The DXGK_TARGETMODE_DETAIL_TIMING structure describes a video present target's additional timing modes that are compatible with the display device.
 old-location: display\dxgk_targetmode_detail_timing.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_MINIPORT_RESTART_PARAMETERS
 title: "_NDIS_MINIPORT_RESTART_PARAMETERS"
-author: windows-driver-content
 description: The NDIS_MINIPORT_RESTART_PARAMETERS structure defines the restart parameters for a miniport adapter.
 old-location: netvista\ndis_miniport_restart_parameters.htm
 tech.root: netvista

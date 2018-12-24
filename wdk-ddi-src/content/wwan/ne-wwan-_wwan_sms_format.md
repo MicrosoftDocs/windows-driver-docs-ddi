@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_SMS_FORMAT
 title: "_WWAN_SMS_FORMAT"
-author: windows-driver-content
 description: The WWAN_SMS_FORMAT enumeration lists different Short Message Service (SMS) formats.
 old-location: netvista\wwan_sms_format.htm
 tech.root: netvista

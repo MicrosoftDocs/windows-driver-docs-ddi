@@ -1,7 +1,6 @@
 ---
 UID: NF:wdbgexts.ReadIoSpace
 title: ReadIoSpace function
-author: windows-driver-content
 description: The ReadIoSpace function reads from the system I/O locations.
 old-location: debugger\readiospace.htm
 tech.root: debugger

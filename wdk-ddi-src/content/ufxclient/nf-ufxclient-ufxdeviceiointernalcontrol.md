@@ -1,7 +1,6 @@
 ---
 UID: NF:ufxclient.UfxDeviceIoInternalControl
 title: UfxDeviceIoInternalControl function
-author: windows-driver-content
 description: Passes kernel mode IOCTLs to UFX.
 old-location: buses\ufxdeviceiointernalcontrol.htm
 tech.root: usbref

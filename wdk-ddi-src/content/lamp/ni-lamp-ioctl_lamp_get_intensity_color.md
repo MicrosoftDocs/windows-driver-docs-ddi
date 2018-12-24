@@ -1,7 +1,6 @@
 ---
 UID: NI:lamp.IOCTL_LAMP_GET_INTENSITY_COLOR
 title: IOCTL_LAMP_GET_INTENSITY_COLOR
-author: windows-driver-content
 description: The IOCTL_LAMP_GET_INTENSITY_COLOR control code queries the light intensity when the lamp is configured to emit color light.
 old-location: stream\ioctl_lamp_get_intensity_color.htm
 tech.root: stream

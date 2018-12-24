@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetFieldTypeAndOffsetWide
 title: IDebugSymbols3::GetFieldTypeAndOffsetWide
-author: windows-driver-content
 description: The GetFieldTypeAndOffsetWide method returns the type of a field and its offset within a container.
 old-location: debugger\getfieldtypeandoffsetwide.htm
 tech.root: debugger

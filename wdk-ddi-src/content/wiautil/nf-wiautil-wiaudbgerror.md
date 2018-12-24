@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgError
 title: wiauDbgError function
-author: windows-driver-content
 description: The wiauDbgError function logs an error message.
 old-location: image\wiaudbgerror.htm
 tech.root: image

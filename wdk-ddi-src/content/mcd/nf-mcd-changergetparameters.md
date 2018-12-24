@@ -1,7 +1,6 @@
 ---
 UID: NF:mcd.ChangerGetParameters
 title: ChangerGetParameters function
-author: windows-driver-content
 description: ChangerGetParameters handles the device-specific aspects of a device-control IRP with the IOCTL code IOCTL_CHANGER_GET_PARAMETERS.
 old-location: storage\changergetparameters.htm
 tech.root: storage

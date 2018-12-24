@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFObject.DeleteWdfObject
 title: IWDFObject::DeleteWdfObject
-author: windows-driver-content
 description: The DeleteWdfObject method deletes a previously created Microsoft Windows Driver Frameworks (WDF) object.
 old-location: wdf\iwdfobject_deletewdfobject.htm
 tech.root: wdf

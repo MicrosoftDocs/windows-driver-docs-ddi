@@ -1,7 +1,6 @@
 ---
 UID: NE:dxva._DXVA_VideoChromaSubsampling
 title: "_DXVA_VideoChromaSubsampling"
-author: windows-driver-content
 description: The DXVA_VideoChromaSubsampling enumeration type contains enumerators that identify the chroma encoding scheme for Y'Cb'Cr' data.
 old-location: display\dxva_videochromasubsampling.htm
 tech.root: display

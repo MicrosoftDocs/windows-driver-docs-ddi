@@ -1,7 +1,6 @@
 ---
 UID: NS:printoem._PDEV_HOSTFONT_ENABLED
 title: "_PDEV_HOSTFONT_ENABLED"
-author: windows-driver-content
 description: The PDEV_HOSTFONT_ENABLED structure indicates whether the Hostfont feature is enabled.
 old-location: print\pdev_hostfont_enabled.htm
 tech.root: print

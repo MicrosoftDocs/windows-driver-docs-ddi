@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_ENUMHANDLECHILDREN
 title: "_DXGKARGCB_ENUMHANDLECHILDREN"
-author: windows-driver-content
 description: The DXGKARGCB_ENUMHANDLECHILDREN structure describes a parent resource and the index of one of its child allocations.
 old-location: display\dxgkargcb_enumhandlechildren.htm
 ms.assetid: da97b175-a24c-406d-9747-c84122781f79

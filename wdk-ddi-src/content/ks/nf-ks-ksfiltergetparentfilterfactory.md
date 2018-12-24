@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsFilterGetParentFilterFactory
 title: KsFilterGetParentFilterFactory function
-author: windows-driver-content
 description: The KsFilterGetParentFilterFactory function returns the parent filter factory of the given filter.
 old-location: stream\ksfiltergetparentfilterfactory.htm
 tech.root: stream

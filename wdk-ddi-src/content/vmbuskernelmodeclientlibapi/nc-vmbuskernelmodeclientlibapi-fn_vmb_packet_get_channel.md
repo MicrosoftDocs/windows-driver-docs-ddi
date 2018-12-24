@@ -1,7 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_PACKET_GET_CHANNEL
 title: FN_VMB_PACKET_GET_CHANNEL
-author: windows-driver-content
 description: The VmbPacketGetChannel function returns the VMBus channel with which a VMBus packet is associated.
 tech.root: netvista
 ms.assetid: 3032635f-c7f0-42f7-9c44-5077b23c0f75

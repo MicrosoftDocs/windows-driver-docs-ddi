@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisSystemProcessorCount
 title: NdisSystemProcessorCount function
-author: windows-driver-content
 description: The NdisSystemProcessorCount function determines whether the caller is running on a uniprocessor or multiprocessor computer.
 old-location: netvista\ndissystemprocessorcount.htm
 tech.root: netvista

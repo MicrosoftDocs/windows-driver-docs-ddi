@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_VIDEOSAMPLE
 title: "_DXVADDI_VIDEOSAMPLE"
-author: windows-driver-content
 description: The DXVADDI_VIDEOSAMPLE structure describes the format of a video sample that is used in a video processing operation.
 old-location: display\dxvaddi_videosample.htm
 tech.root: display

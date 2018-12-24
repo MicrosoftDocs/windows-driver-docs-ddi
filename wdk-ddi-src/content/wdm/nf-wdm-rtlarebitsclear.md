@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlAreBitsClear
 title: RtlAreBitsClear function
-author: windows-driver-content
 description: The RtlAreBitsClear routine determines whether a given range of bits within a bitmap variable is clear.
 old-location: kernel\rtlarebitsclear.htm
 tech.root: kernel

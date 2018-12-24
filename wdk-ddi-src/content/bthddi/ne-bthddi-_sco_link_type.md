@@ -1,7 +1,6 @@
 ---
 UID: NE:bthddi._SCO_LINK_TYPE
 title: "_SCO_LINK_TYPE"
-author: windows-driver-content
 description: The SCO_LINK_TYPE enumeration type describes the type of link used by the SCO connection when a ScoIndicationRemoteConnect indication event is processed.
 old-location: bltooth\sco_link_type.htm
 tech.root: bltooth

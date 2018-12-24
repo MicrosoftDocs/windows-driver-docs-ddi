@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES
 title: D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES
-author: windows-driver-content
 description: Describes a tessellation I/O signature.
 old-location: display\d3d11_1ddiarg_tessellation_io_signatures.htm
 ms.assetid: 90b9cbba-6a8f-444e-b0eb-cfbabdd57dcf

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoGetDeviceAttachmentBaseRef
 title: IoGetDeviceAttachmentBaseRef function
-author: windows-driver-content
 description: The IoGetDeviceAttachmentBaseRef routine returns a pointer to the lowest-level device object in a file system or device driver stack.
 old-location: ifsk\iogetdeviceattachmentbaseref.htm
 tech.root: ifsk

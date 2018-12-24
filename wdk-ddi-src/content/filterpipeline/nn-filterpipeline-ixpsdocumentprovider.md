@@ -1,7 +1,6 @@
 ---
 UID: NN:filterpipeline.IXpsDocumentProvider
 title: IXpsDocumentProvider
-author: windows-driver-content
 description: The IxpsDocumentProvider interface provides interfaces to consume parts of a document.
 old-location: print\ixpsdocumentprovider.htm
 tech.root: print

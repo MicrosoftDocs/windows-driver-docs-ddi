@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._FILE_MAILSLOT_QUERY_INFORMATION
 title: "_FILE_MAILSLOT_QUERY_INFORMATION"
-author: windows-driver-content
 description: The FILE_MAILSLOT_QUERY_INFORMATION structure contains information about a mailslot.
 old-location: ifsk\file_mailslot_query_information.htm
 tech.root: ifsk

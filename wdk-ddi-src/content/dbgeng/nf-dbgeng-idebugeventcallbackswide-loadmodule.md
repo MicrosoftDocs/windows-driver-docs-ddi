@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacksWide.LoadModule
 title: IDebugEventCallbacksWide::LoadModule
-author: windows-driver-content
 description: The LoadModule callback method is called by the engine when a module-load debugging event occurs in the target.
 old-location: debugger\idebugeventcallbackswide_loadmodule.htm
 tech.root: debugger

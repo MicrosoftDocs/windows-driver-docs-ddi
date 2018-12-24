@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionEventArgs.get_SourceApplication
 title: IPrinterExtensionEventArgs::get_SourceApplication
-author: windows-driver-content
 description: Gets the name of the application that invoked the printer extension.
 old-location: print\iprinterextensioneventargs_sourceapplication.htm
 tech.root: print

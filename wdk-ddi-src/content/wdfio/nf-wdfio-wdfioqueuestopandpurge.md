@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfio.WdfIoQueueStopAndPurge
 title: WdfIoQueueStopAndPurge function
-author: windows-driver-content
 description: The WdfIoQueueStopAndPurge method prevents an I/O queue from delivering new requests and cancels existing unprocessed requests and driver-owned cancellable requests, but the queue receives and stores new requests.
 old-location: wdf\wdfioqueuestopandpurge.htm
 tech.root: wdf

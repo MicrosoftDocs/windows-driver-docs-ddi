@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.PoCallDriver
 title: PoCallDriver function
-author: windows-driver-content
 description: The PoCallDriver routine passes a power IRP to the next-lower driver in the device stack. (Windows Server 2003, Windows XP, and Windows 2000 only.).
 old-location: kernel\pocalldriver.htm
 tech.root: kernel

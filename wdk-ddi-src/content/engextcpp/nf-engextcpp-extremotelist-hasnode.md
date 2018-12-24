@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteList.HasNode
 title: ExtRemoteList::HasNode
-author: windows-driver-content
 description: The HasNode method determines if there is a current item in the list iteration.
 old-location: debugger\extremotelist_hasnode.htm
 tech.root: debugger

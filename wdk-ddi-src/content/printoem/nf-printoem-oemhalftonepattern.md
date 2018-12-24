@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMHalftonePattern
 title: OEMHalftonePattern function
-author: windows-driver-content
 description: OEMHalftonePattern function
 old-location: print\oemhalftonepattern.htm
 tech.root: print

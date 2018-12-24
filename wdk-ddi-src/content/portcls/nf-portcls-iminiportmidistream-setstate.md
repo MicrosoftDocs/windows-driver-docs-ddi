@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportMidiStream.SetState
 title: IMiniportMidiStream::SetState
-author: windows-driver-content
 description: The SetState method sets the stream's transport state to a new state value.
 old-location: audio\iminiportmidistream_setstate.htm
 tech.root: audio

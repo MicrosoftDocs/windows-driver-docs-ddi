@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.EndProcessServer
 title: IDebugClient5::EndProcessServer
-author: windows-driver-content
 description: The EndProcessServer method requests that a process server be shut down.
 old-location: debugger\endprocessserver.htm
 tech.root: debugger

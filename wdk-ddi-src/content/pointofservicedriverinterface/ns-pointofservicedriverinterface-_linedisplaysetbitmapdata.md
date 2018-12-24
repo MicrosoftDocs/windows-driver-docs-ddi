@@ -1,7 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._LineDisplaySetBitmapData
 title: "_LineDisplaySetBitmapData"
-author: windows-driver-content
 description: This structure is not implemented.
 old-location: pos\linedisplaysetbitmapdata.htm
 tech.root: pos

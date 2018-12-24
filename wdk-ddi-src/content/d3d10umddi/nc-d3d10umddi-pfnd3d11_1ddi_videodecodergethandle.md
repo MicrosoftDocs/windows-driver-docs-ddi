@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEODECODERGETHANDLE
 title: PFND3D11_1DDI_VIDEODECODERGETHANDLE
-author: windows-driver-content
 description: Returns the driver's handle for a video decoder that can be used by the application to configure content protection.
 old-location: display\videodecodergethandle.htm
 ms.assetid: 05c16416-d48c-44ce-b025-d62d763682bc

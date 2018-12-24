@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_19
 title: KSEVENT_STREAMALLOCATOR
-author: windows-driver-content
 description: 
 old-location: stream\ksevent_streamallocator.htm
 tech.root: stream

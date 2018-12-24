@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisCompleteBindAdapterEx
 title: NdisCompleteBindAdapterEx function
-author: windows-driver-content
 description: A protocol driver calls the NdisCompleteBindAdapterEx function to complete a binding operation for which the driver's ProtocolBindAdapterEx function returned NDIS_STATUS_PENDING.
 old-location: netvista\ndiscompletebindadapterex.htm
 tech.root: netvista

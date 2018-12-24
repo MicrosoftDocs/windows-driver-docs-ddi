@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsGetContainerName
 title: ClfsGetContainerName function
-author: windows-driver-content
 description: The ClfsGetContainerName routine returns the path name of a specified container.
 old-location: kernel\clfsgetcontainername.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.AddEngineOptions
 title: IDebugControl2::AddEngineOptions
-author: windows-driver-content
 description: The AddEngineOptions method turns on some of the debugger engine's options.
 old-location: debugger\addengineoptions.htm
 tech.root: debugger

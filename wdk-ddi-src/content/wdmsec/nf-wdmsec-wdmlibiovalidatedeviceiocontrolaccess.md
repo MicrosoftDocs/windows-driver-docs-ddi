@@ -1,7 +1,6 @@
 ---
 UID: NF:wdmsec.WdmlibIoValidateDeviceIoControlAccess
 title: WdmlibIoValidateDeviceIoControlAccess function
-author: windows-driver-content
 description: The WdmlibIoValidateDeviceIoControlAccess function verifies that the sender of an IRP_MJ_DEVICE_CONTROL or IRP_MJ_FILE_SYSTEM_CONTROL IRP has the specified access to the device object.
 old-location: kernel\wdmlibiovalidatedeviceiocontrolaccess.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NI:bthioctl.IOCTL_BTH_SDP_CONNECT
 title: IOCTL_BTH_SDP_CONNECT
-author: windows-driver-content
 description: The IOCTL_BTH_SDP_CONNECT request creates a connection to the SDP service on a remote Bluetooth device.
 old-location: bltooth\ioctl_bth_sdp_connect.htm
 tech.root: bltooth

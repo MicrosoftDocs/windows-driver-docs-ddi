@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm._FAULT_INFORMATION_ARM64_TYPE
 title: _FAULT_INFORMATION_ARM64_TYPE
-author: windows-driver-content
 description: Defines values for the type of fault. 
 ms.assetid: a9fee055-614c-4122-a60b-8975d67e771e
 ms.date: 09/30/2018

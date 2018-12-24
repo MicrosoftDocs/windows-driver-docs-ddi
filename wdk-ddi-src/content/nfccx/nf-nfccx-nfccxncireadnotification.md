@@ -1,7 +1,6 @@
 ---
 UID: NF:nfccx.NfcCxNciReadNotification
 title: NfcCxNciReadNotification function
-author: windows-driver-content
 description: Called by the client driver when a read packet is available.
 old-location: nfpdrivers\_nfccxncireadnotification.htm
 tech.root: nfpdrivers

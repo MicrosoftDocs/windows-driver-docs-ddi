@@ -1,7 +1,6 @@
 ---
 UID: NF:ndischimney.NdisTerminateOffload
 title: NdisTerminateOffload function
-author: windows-driver-content
 description: A protocol driver or intermediate driver calls the NdisTerminateOffload function to terminate the offload of one or more state objects
 old-location: netvista\ndisterminateoffload.htm
 tech.root: netvista

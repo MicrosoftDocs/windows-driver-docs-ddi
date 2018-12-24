@@ -1,7 +1,6 @@
 ---
 UID: NF:trustedruntimeclx.TrSecureDeviceLogMessage
 title: TrSecureDeviceLogMessage function
-author: windows-driver-content
 description: 
 ms.assetid: 16b1cdbb-3e55-406e-8755-cc5e944ad1cb
 ms.date: 10/19/2018

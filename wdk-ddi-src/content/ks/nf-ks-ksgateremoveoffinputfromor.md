@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsGateRemoveOffInputFromOr
 title: KsGateRemoveOffInputFromOr function
-author: windows-driver-content
 description: The KsGateRemoveOffInputFromOr function removes an existing input that is in the OFF state from an OR gate.
 old-location: stream\ksgateremoveoffinputfromor.htm
 tech.root: stream

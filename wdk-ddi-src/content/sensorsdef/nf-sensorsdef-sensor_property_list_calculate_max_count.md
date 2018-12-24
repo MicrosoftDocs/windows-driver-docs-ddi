@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorsdef.SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT
 title: SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT function
-author: windows-driver-content
 description: This function calculates the number of PROPERTYKEY elements.
 old-location: sensors\sensor_property_list_calculate_max_count.htm
 tech.root: sensors

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdbgexts.ReadIoSpaceEx64
 title: ReadIoSpaceEx64 function
-author: windows-driver-content
 description: The ReadIoSpaceEx64 function is an extended version of ReadIoSpace64.
 old-location: debugger\readiospaceex64.htm
 tech.root: debugger

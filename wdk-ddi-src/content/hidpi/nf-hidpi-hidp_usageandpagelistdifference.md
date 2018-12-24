@@ -1,7 +1,6 @@
 ---
 UID: NF:hidpi.HidP_UsageAndPageListDifference
 title: HidP_UsageAndPageListDifference function
-author: windows-driver-content
 description: The HidP_UsageAndPageListDifference routine is not implemented.
 old-location: hid\hidp_usageandpagelistdifference.htm
 tech.root: hid

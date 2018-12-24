@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.StartEnumTagged
 title: IDebugDataSpaces4::StartEnumTagged
-author: windows-driver-content
 description: The StartEnumTagged method initializes a enumeration over the tagged data associated with a debugger session.
 old-location: debugger\startenumtagged.htm
 tech.root: debugger

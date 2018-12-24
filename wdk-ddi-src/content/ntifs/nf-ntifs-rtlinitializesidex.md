@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlInitializeSidEx
 title: RtlInitializeSidEx function
-author: windows-driver-content
 description: The RtlInitializeSidEx routine initializes a pre-allocated security identifier (SID) structure.
 old-location: ifsk\rtlinitializesidex.htm
 tech.root: ifsk

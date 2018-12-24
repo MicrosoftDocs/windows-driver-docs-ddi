@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFMemory.GetSize
 title: IWDFMemory::GetSize
-author: windows-driver-content
 description: The GetSize method retrieves the size of the data buffer that is associated with a memory object.
 old-location: wdf\iwdfmemory_getsize.htm
 tech.root: wdf

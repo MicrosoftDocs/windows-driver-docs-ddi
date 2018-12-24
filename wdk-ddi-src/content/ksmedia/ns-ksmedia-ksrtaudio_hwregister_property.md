@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_28
 title: KSRTAUDIO_HWREGISTER_PROPERTY
-author: windows-driver-content
 description: The KSRTAUDIO_HWREGISTRY_PROPERTY structure appends a register base address to a KSPROPERTY structure.
 old-location: audio\ksrtaudio_hwregister_property.htm
 tech.root: audio

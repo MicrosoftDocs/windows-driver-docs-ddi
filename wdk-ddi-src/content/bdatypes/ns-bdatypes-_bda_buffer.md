@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_BUFFER
 title: "_BDA_BUFFER"
-author: windows-driver-content
 description: 
 old-location: stream\bda_buffer.htm
 tech.root: stream

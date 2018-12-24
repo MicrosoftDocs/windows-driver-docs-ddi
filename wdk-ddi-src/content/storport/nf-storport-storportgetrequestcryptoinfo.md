@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortGetRequestCryptoInfo
 title: StorPortGetRequestCryptoInfo function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: storage\storportgetrequestcryptoinfo.htm
 tech.root: storage

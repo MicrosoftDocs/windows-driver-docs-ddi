@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisCoSendNetBufferLists
 title: NdisCoSendNetBufferLists function
-author: windows-driver-content
 description: The NdisCoSendNetBufferLists function sends network data that is contained in a specified list of NET_BUFFER_LIST structures.
 old-location: netvista\ndiscosendnetbufferlists.htm
 tech.root: netvista

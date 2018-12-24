@@ -1,7 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX2_SYSTEM_DMA_RECEIVE_CONFIGURE_DMA_CHANNEL
 title: EVT_SERCX2_SYSTEM_DMA_RECEIVE_CONFIGURE_DMA_CHANNEL
-author: windows-driver-content
 description: The EvtSerCx2SystemDmaReceiveConfigureDmaChannel event callback function is called by version 2 of the serial framework extension (SerCx2) to let the serial controller driver do any custom configuration of the DMA adapter that might be required before the start of each transfer in a system-DMA-receive transaction.
 old-location: serports\evtsercx2systemdmareceiveconfiguredmachannel.htm
 tech.root: serports

@@ -1,7 +1,6 @@
 ---
 UID: NC:ucxcontroller.EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER
 title: EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER
-author: windows-driver-content
 description: The client driver's implementation that UCX calls to retrieve the current 32-bit frame number.
 old-location: buses\evt_ucx_controller_get_current_framenumber.htm
 tech.root: usbref

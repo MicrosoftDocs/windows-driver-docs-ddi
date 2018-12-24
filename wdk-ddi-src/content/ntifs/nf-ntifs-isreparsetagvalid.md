@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IsReparseTagValid
 title: IsReparseTagValid macro
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\isreparsetagvalid.htm
 tech.root: ifsk

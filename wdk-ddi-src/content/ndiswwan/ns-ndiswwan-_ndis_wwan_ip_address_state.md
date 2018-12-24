@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_IP_ADDRESS_STATE
 title: "_NDIS_WWAN_IP_ADDRESS_STATE"
-author: windows-driver-content
 description: The NDIS_WWAN_IP_ADDRESS_STATE structure represents the IP address of a PDP context.
 old-location: netvista\ndis_wwan_ip_address_state.htm
 tech.root: netvista

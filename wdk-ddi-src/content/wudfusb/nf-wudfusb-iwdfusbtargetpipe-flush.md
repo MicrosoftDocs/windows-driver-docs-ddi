@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetPipe.Flush
 title: IWDFUsbTargetPipe::Flush
-author: windows-driver-content
 description: The Flush method discards any data that WinUsb saved when the device returned more data than the client requested.
 old-location: wdf\iwdfusbtargetpipe_flush.htm
 tech.root: wdf

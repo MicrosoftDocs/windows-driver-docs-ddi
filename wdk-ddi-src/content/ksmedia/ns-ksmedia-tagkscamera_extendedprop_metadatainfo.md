@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSCAMERA_EXTENDEDPROP_METADATAINFO
 title: tagKSCAMERA_EXTENDEDPROP_METADATAINFO
-author: windows-driver-content
 description: This structure represents the metadata information for the extended property control.
 old-location: stream\kscamera_extendedprop_metadatainfo.htm
 tech.root: stream

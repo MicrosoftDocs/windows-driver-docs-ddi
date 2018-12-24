@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMDriverDMS
 title: OEMDriverDMS function
-author: windows-driver-content
 description: OEMDriverDMS function
 old-location: print\oemdriverdms.htm
 tech.root: print

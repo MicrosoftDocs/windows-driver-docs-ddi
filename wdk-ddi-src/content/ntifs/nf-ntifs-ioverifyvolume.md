@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoVerifyVolume
 title: IoVerifyVolume function
-author: windows-driver-content
 description: The IoVerifyVolume routine sends a volume verify request to the given removable-media device.
 old-location: ifsk\ioverifyvolume.htm
 tech.root: ifsk

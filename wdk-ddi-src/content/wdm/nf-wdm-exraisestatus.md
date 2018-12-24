@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExRaiseStatus
 title: ExRaiseStatus function
-author: windows-driver-content
 description: The ExRaiseStatus routine is called by drivers that supply structured exception handlers to handle particular errors that occur while they are processing I/O requests.
 old-location: kernel\exraisestatus.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsControl.KsProperty
 title: IKsControl::KsProperty
-author: windows-driver-content
 description: The KsProperty method sets a property or retrieves property information, along with any other defined support operations available on a property set.
 old-location: stream\ikscontrol_ksproperty.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._IMAGE_POLICY_METADATA
 title: "_IMAGE_POLICY_METADATA"
-author: windows-driver-content
 description: This structure is not supported.
 old-location: kernel\_image_policy_metadata.htm
 tech.root: kernel

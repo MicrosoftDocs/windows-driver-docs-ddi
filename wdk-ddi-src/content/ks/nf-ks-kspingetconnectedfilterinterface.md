@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsPinGetConnectedFilterInterface
 title: KsPinGetConnectedFilterInterface function
-author: windows-driver-content
 description: The KsPinGetConnectedFilterInterface function queries the filter to which Pin is connected in order to obtain a pointer to a COM interface.
 old-location: stream\kspingetconnectedfilterinterface.htm
 tech.root: stream

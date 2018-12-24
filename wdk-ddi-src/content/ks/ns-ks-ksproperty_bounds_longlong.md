@@ -1,7 +1,6 @@
 ---
 UID: NS:ks.__unnamed_union_10
 title: KSPROPERTY_BOUNDS_LONGLONG
-author: windows-driver-content
 description: The KSPROPERTY_BOUNDS_LONGLONG structure defines the bounds for a 64-bit property.
 old-location: stream\ksproperty_bounds_longlong.htm
 tech.root: stream

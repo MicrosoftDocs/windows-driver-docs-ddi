@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._PNP_LOCATION_INTERFACE
 title: "_PNP_LOCATION_INTERFACE"
-author: windows-driver-content
 description: The PNP_LOCATION_INTERFACE structure describes the GUID_PNP_LOCATION_INTERFACE interface.
 old-location: kernel\pnp_location_interface.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY2
 title: DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY2
-author: windows-driver-content
 description: Reports the colorimetry values selected by the OS for a target.
 ms.assetid: 6177791c-0854-4902-bcbb-d5a58676dbb4
 ms.date: 10/19/2018
@@ -42,7 +41,8 @@ ms.custom: RS5
 
 ## -description
 
-Reports the colorimetry values selected by the OS for a target.
+Reports the colorimetry values selected by the OS for a target. The OS will call this routine whenever any of the values in the [DXGK_COLORIMETRY](../d3dkmddi/ns-d3dkmddi-_dxgk_colorimetry.md) changes or the **SdrWhiteLevel** in [DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3 structure](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_multiplane_overlay_attributes3) changes for a target.
+
 
 ## -prototype
 
@@ -76,8 +76,10 @@ Pointer to a [DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2](ns-dispmprt-_dxgkarg_settar
 
 The driver returns STATUS_SUCCESS if it has updates its colorimetry values based on the supplied data.
 
+If the driver fails, the OS will revert to standard SDR values for all parameters (i.e. 709 primaries, 2.2 gamma and 8-bit per color component RGB wire format), but it will not call the driver as this should never fail.
+
 ## -remarks
 
-
+This callback function replaces [DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY](nc-dispmprt-dxgkddi_settargetadjustedcolorimetry.md) and is more extensible in the future, as it contains a pointer to the DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2 that can change over new releases.
 
 ## -see-also

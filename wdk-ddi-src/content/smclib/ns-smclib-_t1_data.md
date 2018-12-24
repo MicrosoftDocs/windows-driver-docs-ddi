@@ -1,7 +1,6 @@
 ---
 UID: NS:smclib._T1_DATA
 title: "_T1_DATA"
-author: windows-driver-content
 description: The T1_DATA structure is used by the smart card driver library to process T1 I/O.
 old-location: smartcrd\t1_data.htm
 tech.root: smartcrd

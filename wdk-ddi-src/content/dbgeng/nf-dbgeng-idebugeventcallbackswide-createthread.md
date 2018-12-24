@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacksWide.CreateThread
 title: IDebugEventCallbacksWide::CreateThread
-author: windows-driver-content
 description: The CreateThread callback method is called by the engine when a create-threaddebugging event occurs in the target.
 old-location: debugger\idebugeventcallbackswide_createthread.htm
 tech.root: debugger

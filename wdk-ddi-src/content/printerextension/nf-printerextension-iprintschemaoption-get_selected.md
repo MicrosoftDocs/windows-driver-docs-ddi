@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaOption.get_Selected
 title: IPrintSchemaOption::get_Selected
-author: windows-driver-content
 description: Indicates whether this option is selected.
 old-location: print\iprintschemaoption_selected.htm
 tech.root: print

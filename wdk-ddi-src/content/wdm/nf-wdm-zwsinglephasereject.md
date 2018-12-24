@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwSinglePhaseReject
 title: ZwSinglePhaseReject function
-author: windows-driver-content
 description: The ZwSinglePhaseReject routine informs KTM that the calling resource manager will not support single-phase commit operations for a specified enlistment.
 old-location: kernel\zwsinglephasereject.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:usbcamdi._pipe_config_descriptor
 title: "_pipe_config_descriptor"
-author: windows-driver-content
 description: The USBCAMD_Pipe_Config_Descriptor structure describes the association between pipes and streams.
 old-location: stream\usbcamd_pipe_config_descriptor.htm
 tech.root: stream

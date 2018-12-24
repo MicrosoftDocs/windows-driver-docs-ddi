@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.ZwQueryObject
 title: ZwQueryObject function
-author: windows-driver-content
 description: The ZwQueryObject routine provides information about a supplied object.
 old-location: kernel\zwqueryobject.htm
 tech.root: kernel

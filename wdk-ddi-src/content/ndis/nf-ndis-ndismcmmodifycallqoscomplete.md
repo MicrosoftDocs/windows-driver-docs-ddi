@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMCmModifyCallQoSComplete
 title: NdisMCmModifyCallQoSComplete macro
-author: windows-driver-content
 description: NdisMCmModifyCallQoSComplete indicates the completion of the client's request, for which the MCM driver previously returned NDIS_STATUS_PENDING, to modify the quality of service on a VC.
 old-location: netvista\ndismcmmodifycallqoscomplete.htm
 tech.root: netvista

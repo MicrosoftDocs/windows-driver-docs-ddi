@@ -1,7 +1,6 @@
 ---
 UID: NF:rxprocs.RxMapSystemBuffer
 title: RxMapSystemBuffer function
-author: windows-driver-content
 description: RxMapSystemBuffer returns the system buffer address from the IRP.
 old-location: ifsk\rxmapsystembuffer.htm
 tech.root: ifsk

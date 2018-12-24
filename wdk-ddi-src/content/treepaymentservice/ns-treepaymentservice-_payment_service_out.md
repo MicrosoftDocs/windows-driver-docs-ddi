@@ -1,7 +1,6 @@
 ---
 UID: NS:treepaymentservice._PAYMENT_SERVICE_OUT
 title: _PAYMENT_SERVICE_OUT structure
-author: windows-driver-content
 description: Output structure for PAYMENT_SERVICE_OUT.
 ms.assetid: 3d13bd2a-ca37-43e5-b555-b858aed687ee
 ms.date: 10/19/2018

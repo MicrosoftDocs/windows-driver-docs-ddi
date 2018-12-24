@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols4.GetFieldOffset
 title: IDebugSymbols4::GetFieldOffset method
-author: windows-driver-content
 description: The GetFieldOffset function returns the offset of a member from the beginning of a structure.
 old-location: debugger\getfieldoffset.htm
 tech.root: debugger

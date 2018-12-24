@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoGetCurrentIrpStackLocation
 title: IoGetCurrentIrpStackLocation function
-author: windows-driver-content
 description: The IoGetCurrentIrpStackLocation routine returns a pointer to the caller's I/O stack location in the specified IRP.
 old-location: kernel\iogetcurrentirpstacklocation.htm
 tech.root: kernel

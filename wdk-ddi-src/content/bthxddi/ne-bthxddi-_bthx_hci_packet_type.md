@@ -1,7 +1,6 @@
 ---
 UID: NE:bthxddi._BTHX_HCI_PACKET_TYPE
 title: "_BTHX_HCI_PACKET_TYPE"
-author: windows-driver-content
 description: The BTHX_HCI_PACKET_TYPE enumeration lists the different types of packets being sent from the Bluetooth stack to the transport driver.
 old-location: bltooth\bthx_hci_packet_type.htm
 tech.root: bltooth

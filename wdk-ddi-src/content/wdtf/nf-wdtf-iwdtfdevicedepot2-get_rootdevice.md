@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFDeviceDepot2.get_RootDevice
 title: IWDTFDeviceDepot2::get_RootDevice
-author: windows-driver-content
 description: Gets the root device.
 old-location: dtf\iwdtfdevicedepot2_rootdevice.htm
 tech.root: dtf

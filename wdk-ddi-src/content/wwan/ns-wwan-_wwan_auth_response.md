@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_AUTH_RESPONSE
 title: "_WWAN_AUTH_RESPONSE"
-author: windows-driver-content
 description: The WWAN_AUTH_RESPONSE structure represents an authentication challenge response.
 old-location: netvista\wwan_auth_response.htm
 tech.root: netvista

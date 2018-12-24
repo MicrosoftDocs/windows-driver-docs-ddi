@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SeAppendPrivileges
 title: SeAppendPrivileges function
-author: windows-driver-content
 description: The SeAppendPrivileges routine appends additional privileges to the privilege set in an access state structure.
 old-location: ifsk\seappendprivileges.htm
 tech.root: ifsk

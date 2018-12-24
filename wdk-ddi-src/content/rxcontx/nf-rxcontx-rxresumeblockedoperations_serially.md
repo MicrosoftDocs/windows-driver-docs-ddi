@@ -1,7 +1,6 @@
 ---
 UID: NF:rxcontx.RxResumeBlockedOperations_Serially
 title: RxResumeBlockedOperations_Serially function
-author: windows-driver-content
 description: RxResumeBlockedOperations_Serially wakes up the next waiting thread, if any, on the serialized blocking I/O queue.
 old-location: ifsk\rxresumeblockedoperations_serially.htm
 tech.root: ifsk

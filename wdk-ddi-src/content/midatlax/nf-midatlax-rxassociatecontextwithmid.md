@@ -1,7 +1,6 @@
 ---
 UID: NF:midatlax.RxAssociateContextWithMid
 title: RxAssociateContextWithMid function
-author: windows-driver-content
 description: RxAssociateContextWithMid associates the supplied opaque context with an available multiplex ID (MID) from a MID_ATLAS.
 old-location: ifsk\rxassociatecontextwithmid.htm
 tech.root: ifsk

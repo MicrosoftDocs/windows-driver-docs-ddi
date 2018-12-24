@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.SetQuitLockStringWide
 title: IDebugClient5::SetQuitLockStringWide
-author: windows-driver-content
 description: Sets a quit lock Unicode character string.
 old-location: debugger\idebugclient5_setquitlockstringwide.htm
 tech.root: debugger

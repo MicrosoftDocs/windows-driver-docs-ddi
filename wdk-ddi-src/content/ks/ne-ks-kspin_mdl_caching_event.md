@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_22
 title: KSPIN_MDL_CACHING_EVENT
-author: windows-driver-content
 description: This enumeration is used internally by the operating system.
 old-location: stream\kspin_mdl_caching_event.htm
 tech.root: stream

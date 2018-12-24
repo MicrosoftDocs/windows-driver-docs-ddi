@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlNotifyCleanup~r2
 title: FsRtlNotifyCleanup function
-author: windows-driver-content
 description: When the last handle to a file object is released, the FsRtlNotifyCleanup routine removes the file object's notify structure, if present, from the specified notify list.
 old-location: ifsk\fsrtlnotifycleanup.htm
 tech.root: ifsk

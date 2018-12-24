@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.SetLogMask
 title: IDebugControl3::SetLogMask
-author: windows-driver-content
 description: The SetLogMask method sets the output mask for the currently open log file.
 old-location: debugger\setlogmask.htm
 tech.root: debugger

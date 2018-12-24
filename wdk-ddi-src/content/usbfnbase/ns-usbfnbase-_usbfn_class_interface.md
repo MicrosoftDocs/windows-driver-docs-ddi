@@ -1,7 +1,6 @@
 ---
 UID: NS:usbfnbase._USBFN_CLASS_INTERFACE
 title: "_USBFN_CLASS_INTERFACE"
-author: windows-driver-content
 description: Describes an interface and its endpoints.
 old-location: buses\usbfn_class_interface.htm
 tech.root: usbref

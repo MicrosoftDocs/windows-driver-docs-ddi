@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IPort
 title: IPort
-author: windows-driver-content
 description: The IPort interface is the generic interface for audio port drivers. All audio port drivers expose IPort as part of their lower edge. The adapter driver calls the initialization method on this interface. IPort inherits from the IUnknown interface.
 old-location: audio\iport.htm
 tech.root: audio

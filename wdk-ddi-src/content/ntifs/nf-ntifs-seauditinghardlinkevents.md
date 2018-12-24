@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SeAuditingHardLinkEvents
 title: SeAuditingHardLinkEvents function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\seauditinghardlinkevents.htm
 tech.root: ifsk

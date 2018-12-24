@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient4.TerminateCurrentProcess
 title: IDebugClient4::TerminateCurrentProcess
-author: windows-driver-content
 description: The TerminateCurrentProcess method attempts to terminate the current process.
 old-location: debugger\terminatecurrentprocess.htm
 tech.root: debugger

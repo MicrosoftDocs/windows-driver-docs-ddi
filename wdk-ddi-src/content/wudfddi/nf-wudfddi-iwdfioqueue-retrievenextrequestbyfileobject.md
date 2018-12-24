@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoQueue.RetrieveNextRequestByFileObject
 title: IWDFIoQueue::RetrieveNextRequestByFileObject
-author: windows-driver-content
 description: The RetrieveNextRequestByFileObject method retrieves from an I/O queue the next I/O request whose file object matches the specified file object.
 old-location: wdf\iwdfioqueue_retrievenextrequestbyfileobject.htm
 tech.root: wdf

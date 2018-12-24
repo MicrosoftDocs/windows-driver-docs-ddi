@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.GetDeviceFormat
 title: IMiniportAudioEngineNode::GetDeviceFormat
-author: windows-driver-content
 description: Gets the audio data format for an audio device.
 old-location: audio\iminiportaudioenginenode_getdeviceformat.htm
 tech.root: audio

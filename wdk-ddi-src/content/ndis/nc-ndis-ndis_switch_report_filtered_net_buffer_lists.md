@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS
 title: NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS
-author: windows-driver-content
 description: The ReportFilteredNetBufferLists function reports on one or more network packets that were dropped or excluded from port delivery by the extensible switch extension. Each network packet is defined through a NET_BUFFER_LIST structure.
 old-location: netvista\reportfilterednetbufferlists.htm
 tech.root: netvista

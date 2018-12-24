@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.PcAddStreamResource
 title: PcAddStreamResource function
-author: windows-driver-content
 description: PcAddStreamResource adds a stream resource.
 old-location: audio\pcaddstreamresource.htm
 tech.root: audio

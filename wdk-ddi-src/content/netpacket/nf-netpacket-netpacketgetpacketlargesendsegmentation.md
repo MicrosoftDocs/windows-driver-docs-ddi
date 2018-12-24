@@ -1,7 +1,6 @@
 ---
 UID: NF:netpacket.NetPacketGetPacketLargeSendSegmentation
 title: NetPacketGetPacketLargeSendSegmentation function
-author: windows-driver-content
 description: The NetPacketGetPacketLargeSendSegmentation method retrieves large send offload (LSO) information for a packet.
 tech.root: netvista
 ms.assetid: cd6668b9-37f0-4b67-a1b1-970465f894b8

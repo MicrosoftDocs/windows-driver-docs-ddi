@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_D0_EXIT_PRE_INTERRUPTS_DISABLED
 title: EVT_WDF_DEVICE_D0_EXIT_PRE_INTERRUPTS_DISABLED
-author: windows-driver-content
 description: A driver's EvtDeviceD0ExitPreInterruptsDisabled event callback function performs device-specific operations that are required before the driver disables the device's hardware interrupts.
 old-location: wdf\evtdeviced0exitpreinterruptsdisabled.htm
 tech.root: wdf

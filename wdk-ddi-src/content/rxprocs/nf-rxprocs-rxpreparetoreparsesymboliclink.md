@@ -1,7 +1,6 @@
 ---
 UID: NF:rxprocs.RxPrepareToReparseSymbolicLink
 title: RxPrepareToReparseSymbolicLink function
-author: windows-driver-content
 description: RxPrepareToReparseSymbolicLink sets up the file object name to facilitate a reparse. This routine is used by the network mini-redirectors to traverse symbolic links.
 old-location: ifsk\rxpreparetoreparsesymboliclink.htm
 tech.root: ifsk

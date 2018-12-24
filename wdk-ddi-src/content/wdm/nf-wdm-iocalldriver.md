@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoCallDriver
 title: IoCallDriver macro
-author: windows-driver-content
 description: The IoCallDriver routine sends an IRP to the driver associated with a specified device object.
 old-location: kernel\iocalldriver.htm
 tech.root: kernel

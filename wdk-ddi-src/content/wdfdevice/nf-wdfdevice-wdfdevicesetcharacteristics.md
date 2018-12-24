@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceSetCharacteristics
 title: WdfDeviceSetCharacteristics function
-author: windows-driver-content
 description: The WdfDeviceSetCharacteristics method sets device characteristics for a specified device.
 old-location: wdf\wdfdevicesetcharacteristics.htm
 tech.root: wdf

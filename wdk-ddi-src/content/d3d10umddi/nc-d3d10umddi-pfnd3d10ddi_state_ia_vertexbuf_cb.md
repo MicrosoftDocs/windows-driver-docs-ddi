@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_STATE_IA_VERTEXBUF_CB
 title: PFND3D10DDI_STATE_IA_VERTEXBUF_CB
-author: windows-driver-content
 description: The pfnStateIaVertexBufCb function causes the Microsoft Direct3D 10 runtime to refresh the set of vertex buffers that are bound to the input assembler.
 old-location: display\pfnstateiavertexbufcb.htm
 ms.assetid: 15068932-b769-4027-986f-195b569a23eb

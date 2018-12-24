@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfinterrupt.WdfInterruptQueueWorkItemForIsr
 title: WdfInterruptQueueWorkItemForIsr function
-author: windows-driver-content
 description: The WdfInterruptQueueWorkItemForIsr method queues a framework interrupt object's EvtInterruptWorkItem callback function for execution.
 old-location: wdf\wdfinterruptqueueworkitemforisr.htm
 tech.root: wdf

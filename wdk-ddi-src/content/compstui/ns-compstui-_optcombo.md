@@ -1,7 +1,6 @@
 ---
 UID: NS:compstui._OPTCOMBO
 title: "_OPTCOMBO"
-author: windows-driver-content
 description: 
 old-location: print\optcombo.htm
 tech.root: print

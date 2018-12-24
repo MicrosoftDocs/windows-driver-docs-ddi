@@ -1,7 +1,6 @@
 ---
 UID: NE:sensorsclassextension.LOCATION_DESIRED_ACCURACY
 title: LOCATION_DESIRED_ACCURACY
-author: windows-driver-content
 description: The LOCATION_DESIRED_ACCURACY enumeration type defines values for the SENSOR_PROPERTY_LOCATION_DESIRED_ACCURACY property.
 old-location: sensors\location_desired_accuracy.htm
 tech.root: sensors

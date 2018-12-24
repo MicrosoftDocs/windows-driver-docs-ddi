@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DESTROYEXTENSIONDEVICE
 title: PFND3DDDI_DESTROYEXTENSIONDEVICE
-author: windows-driver-content
 description: The DestroyExtensionDevice function releases resources for a Microsoft DirectX Video Acceleration (VA) extension device.
 old-location: display\destroyextensiondevice.htm
 tech.root: display

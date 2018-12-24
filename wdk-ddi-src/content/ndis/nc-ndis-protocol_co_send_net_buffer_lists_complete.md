@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CO_SEND_NET_BUFFER_LISTS_COMPLETE
 title: PROTOCOL_CO_SEND_NET_BUFFER_LISTS_COMPLETE
-author: windows-driver-content
 description: The ProtocolCoSendNetBufferListsComplete function completes a send operation that the protocol driver initiated with a call to the NdisCoSendNetBufferLists function.Note  You must declare the function by using the PROTOCOL_CO_SEND_NET_BUFFER_LISTS_COMPLETE type. For more information, see the following Examples section.
 old-location: netvista\protocolcosendnetbufferlistscomplete.htm
 tech.root: netvista

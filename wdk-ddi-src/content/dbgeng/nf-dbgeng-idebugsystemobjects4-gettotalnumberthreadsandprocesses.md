@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetTotalNumberThreadsAndProcesses
 title: IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses
-author: windows-driver-content
 description: The GetTotalNumberThreadsAndProcesses method returns the total number of threads and processes in all the targets the engine is attached to, in addition to the largest number of threads and processes in a target.
 old-location: debugger\gettotalnumberthreadsandprocesses.htm
 tech.root: debugger

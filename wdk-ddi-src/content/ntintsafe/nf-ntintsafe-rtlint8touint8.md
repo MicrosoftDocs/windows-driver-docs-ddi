@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlInt8ToUInt8
 title: RtlInt8ToUInt8 function
-author: windows-driver-content
 description: Converts a value of type INT8 to a value of type UINT8.
 old-location: kernel\rtlint8touint8.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMCOLORSPACE1
 title: PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMCOLORSPACE1
-author: windows-driver-content
 description: Sets the color space information for the video processor input stream. This function must be implemented by Windows Display Driver Model (WDDM) 2.0, or later, drivers.
 old-location: display\videoprocessorsetstreamcolorspace1.htm
 ms.assetid: BFE62398-DDAE-4DC1-9DB3-6B71BBDD506D

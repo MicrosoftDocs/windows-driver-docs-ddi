@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsFilterFactoryGetNextSiblingFilterFactory
 title: KsFilterFactoryGetNextSiblingFilterFactory function
-author: windows-driver-content
 description: The KsFilterFactoryGetNextSiblingFilterFactory function returns the next filter factory belonging to the parent device of FilterFactory.
 old-location: stream\ksfilterfactorygetnextsiblingfilterfactory.htm
 tech.root: stream

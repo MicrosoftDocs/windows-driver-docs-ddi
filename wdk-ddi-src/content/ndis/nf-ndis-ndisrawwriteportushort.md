@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisRawWritePortUshort
 title: NdisRawWritePortUshort macro
-author: windows-driver-content
 description: NdisRawWritePortUshort writes a USHORT value to an I/O port on the NIC.
 old-location: netvista\ndisrawwriteportushort.htm
 tech.root: netvista

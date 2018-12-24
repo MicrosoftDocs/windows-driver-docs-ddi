@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlValidSecurityDescriptor
 title: RtlValidSecurityDescriptor function
-author: windows-driver-content
 description: The RtlValidSecurityDescriptor routine checks a given security descriptor's validity.
 old-location: kernel\rtlvalidsecuritydescriptor.htm
 tech.root: kernel

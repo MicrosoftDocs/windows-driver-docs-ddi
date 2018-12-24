@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_REMOVE_DEVICE
 title: MINIPORT_REMOVE_DEVICE
-author: windows-driver-content
 description: The MiniportRemoveDevice function releases resources that the MiniportAddDevice function allocated.
 old-location: netvista\miniportremovedevice.htm
 tech.root: netvista

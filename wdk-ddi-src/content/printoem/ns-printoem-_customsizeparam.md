@@ -1,7 +1,6 @@
 ---
 UID: NS:printoem._CUSTOMSIZEPARAM
 title: "_CUSTOMSIZEPARAM"
-author: windows-driver-content
 description: The CUSTOMSIZEPARAM structure holds information pertaining to a single custom page size parameter for a printer.
 old-location: print\customsizeparam.htm
 tech.root: print

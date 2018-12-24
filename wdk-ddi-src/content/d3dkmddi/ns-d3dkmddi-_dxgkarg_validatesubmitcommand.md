@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_VALIDATESUBMITCOMMAND
 title: _DXGKARG_VALIDATESUBMITCOMMAND
-author: windows-driver-content
 description: Arguments used in the call to DXGKDDI_VALIDATESUBMITCOMMAND.
 ms.assetid: c1d647f6-1b10-4a58-b3af-33e45f0a19ce
 ms.date: 10/19/2018

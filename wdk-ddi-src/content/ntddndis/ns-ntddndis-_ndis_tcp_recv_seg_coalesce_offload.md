@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD
 title: "_NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD"
-author: windows-driver-content
 description: The NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD structure contains the offload support state for receive segment coalescing (RSC).
 old-location: netvista\ndis_tcp_recv_seg_coalesce_offload.htm
 tech.root: netvista

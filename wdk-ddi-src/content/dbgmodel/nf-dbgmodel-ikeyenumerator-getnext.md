@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.IKeyEnumerator.GetNext
 title: IKeyEnumerator::GetNext
-author: windows-driver-content
 description:  Moves the iterator forward and fetches the name of the next key and, optionally, its value (or a reference to it) and associated metadata.
 ms.assetid: 0a6a1109-c97f-4335-ac2d-434e9bd57f40
-ms.date: 10/05/2018
+ms.date: 12/21/2018
 ms.topic: method
 ms.keywords: IKeyEnumerator::GetNext, GetNext, IKeyEnumerator.GetNext, IKeyEnumerator::GetNext, IKeyEnumerator.GetNext
 req.header: dbgmodel.h
@@ -51,13 +50,13 @@ ms.custom: RS5
 ## -parameters
 
 ### -param key
-TBD
+The name of the key being enumerated is returned here.  The caller is responsible for freeing this string with the SysFreeString method.
 
 ### -param value
-TBD
+The value of the key being enumerated is returned here.  Depending on how the enumerator was acquired, this value may be the value associated with the key (EnumerateKeys), the resolved value of any property that the key refers to (EnumerateKeyValues), or a reference to the key (EnumerateKeyReferences).
 
 ### -param metadata
-If there is any metadata associated with the iterated element, it is returned (optionally) in this argument.
+Any metadata associated with the key is optionally returned in this argument.
 
 
 ## -returns

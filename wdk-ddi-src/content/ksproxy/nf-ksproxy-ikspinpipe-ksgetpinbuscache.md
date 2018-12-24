@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPinPipe.KsGetPinBusCache
 title: IKsPinPipe::KsGetPinBusCache
-author: windows-driver-content
 description: Not recommended for application use.
 old-location: stream\ikspinpipe_ksgetpinbuscache.htm
 tech.root: stream

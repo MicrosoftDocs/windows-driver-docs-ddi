@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortStateChangeDetected
 title: StorPortStateChangeDetected function
-author: windows-driver-content
 description: Notifies the Storport port driver of a state change for a logical unit number (LUN), host bus adapter (HBA) port, or target device.
 old-location: storage\storportstatechangedetected.htm
 tech.root: storage

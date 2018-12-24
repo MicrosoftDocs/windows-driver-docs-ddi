@@ -1,7 +1,6 @@
 ---
 UID: NC:wlanihv.DOT11EXT_SET_CURRENT_PROFILE
 title: DOT11EXT_SET_CURRENT_PROFILE
-author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extsetcurrentprofile.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddvdeo._VIDEO_POWER_MANAGEMENT
 title: "_VIDEO_POWER_MANAGEMENT"
-author: windows-driver-content
 description: The VIDEO_POWER_MANAGEMENT structure contains information required by the miniport driver to perform power management.
 old-location: display\video_power_management.htm
 tech.root: display

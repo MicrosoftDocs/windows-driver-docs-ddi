@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_POWER_STATE_CHANGE_NOTIFICATION
 title: EVT_WDF_DEVICE_POWER_STATE_CHANGE_NOTIFICATION
-author: windows-driver-content
 description: A driver's EvtDevicePowerStateChange event callback function informs the driver that a device's power state machine is moving from one state to another.
 old-location: wdf\evtdevicepowerstatechange.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NS:ks._KSFILTER_DISPATCH
 title: "_KSFILTER_DISPATCH"
-author: windows-driver-content
 description: The KSFILTER_DISPATCH structure describes the client callbacks that are made to notify the client of certain events on a given filter type.
 old-location: stream\ksfilter_dispatch.htm
 tech.root: stream

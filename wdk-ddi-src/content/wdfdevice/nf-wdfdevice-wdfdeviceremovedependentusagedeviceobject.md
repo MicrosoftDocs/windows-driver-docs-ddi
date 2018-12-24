@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceRemoveDependentUsageDeviceObject
 title: WdfDeviceRemoveDependentUsageDeviceObject function
-author: windows-driver-content
 description: The WdfDeviceRemoveDependentUsageDeviceObject method indicates that a specified device no longer depends on another device when the specified device is used to store special files.
 old-location: wdf\wdfdeviceremovedependentusagedeviceobject.htm
 tech.root: wdf

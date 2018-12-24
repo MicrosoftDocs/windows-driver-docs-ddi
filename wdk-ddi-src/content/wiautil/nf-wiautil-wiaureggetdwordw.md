@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.wiauRegGetDwordW
 title: wiauRegGetDwordW function
-author: windows-driver-content
 description: The wiauRegGetDword function gets a DWORD value from the DeviceData section of the registry.
 old-location: image\wiaureggetdword.htm
 tech.root: image

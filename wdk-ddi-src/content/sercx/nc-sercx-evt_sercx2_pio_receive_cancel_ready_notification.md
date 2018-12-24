@@ -1,7 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX2_PIO_RECEIVE_CANCEL_READY_NOTIFICATION
 title: EVT_SERCX2_PIO_RECEIVE_CANCEL_READY_NOTIFICATION
-author: windows-driver-content
 description: The EvtSerCx2PioReceiveCancelReadyNotification event callback function is called by version 2 of the serial framework extension (SerCx2) to cancel a ready notification that SerCx2 enabled in a previous call to the EvtSerCx2PioReceiveEnableReadyNotification event callback function.
 old-location: serports\evtsercx2pioreceivecancelreadynotification.htm
 tech.root: serports

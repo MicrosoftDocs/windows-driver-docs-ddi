@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILRTTDATA
 title: RILRTTDATA
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilrttdata.htm
 tech.root: netvista

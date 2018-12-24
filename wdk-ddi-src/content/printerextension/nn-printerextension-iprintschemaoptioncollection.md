@@ -1,7 +1,6 @@
 ---
 UID: NN:printerextension.IPrintSchemaOptionCollection
 title: IPrintSchemaOptionCollection
-author: windows-driver-content
 description: Exposes a collection of IPrintSchemaOption objects.
 old-location: print\iprintschemaoptioncollection.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_DESTROYDEVICE
 title: DXGKDDI_DESTROYDEVICE
-author: windows-driver-content
 description: The DxgkDdiDestroyDevice function destroys a graphics context device.
 old-location: display\dxgkddidestroydevice.htm
 ms.assetid: c067fe92-2364-4122-a7ed-03df7906ae64

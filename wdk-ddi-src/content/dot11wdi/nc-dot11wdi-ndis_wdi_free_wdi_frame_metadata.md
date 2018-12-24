@@ -1,7 +1,6 @@
 ---
 UID: NC:dot11wdi.NDIS_WDI_FREE_WDI_FRAME_METADATA
 title: NDIS_WDI_FREE_WDI_FRAME_METADATA
-author: windows-driver-content
 description: The NdisWdiFreeWiFiFrameMetaData callback function frees a frame metadata buffer.
 old-location: netvista\ndiswdifreewdiframemetadata.htm
 tech.root: netvista

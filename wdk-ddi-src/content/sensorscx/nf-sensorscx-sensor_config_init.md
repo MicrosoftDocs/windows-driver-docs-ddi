@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorscx.SENSOR_CONFIG_INIT
 title: SENSOR_CONFIG_INIT function
-author: windows-driver-content
 description: This function initializes a SENSOR_CONFIG structure.
 old-location: sensors\sensor_config_init.htm
 tech.root: sensors

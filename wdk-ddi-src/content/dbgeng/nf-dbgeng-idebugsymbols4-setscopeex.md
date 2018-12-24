@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols4.SetScopeEx
 title: IDebugSymbols4::SetScopeEx
-author: windows-driver-content
 description: Sets the scope as an extended frame structure.
 old-location: debugger\idebugsymbols4_setscopeex.htm
 tech.root: debugger

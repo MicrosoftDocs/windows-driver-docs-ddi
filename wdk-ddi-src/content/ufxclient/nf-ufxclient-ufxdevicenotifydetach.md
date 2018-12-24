@@ -1,7 +1,6 @@
 ---
 UID: NF:ufxclient.UfxDeviceNotifyDetach
 title: UfxDeviceNotifyDetach function
-author: windows-driver-content
 description: Notifies UFX that the device's USB cable has been detached.
 old-location: buses\ufxdevicenotifydetach.htm
 tech.root: usbref

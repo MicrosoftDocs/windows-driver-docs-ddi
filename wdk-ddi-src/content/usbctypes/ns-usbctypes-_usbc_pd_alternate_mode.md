@@ -1,7 +1,6 @@
 ---
 UID: NS:usbctypes._USBC_PD_ALTERNATE_MODE
 title: _USBC_PD_ALTERNATE_MODE
-author: windows-driver-content
 description: Stores information about the alternate mode that was detected. 
 ms.assetid: abdc59fd-adc4-4f06-90ca-25fb04998c44
 ms.date: 09/30/2018

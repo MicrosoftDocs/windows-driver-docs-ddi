@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMGetDmaAlignment
 title: NdisMGetDmaAlignment function
-author: windows-driver-content
 description: The NdisMGetDmaAlignment function returns the alignment requirements of the DMA system for a NIC.
 old-location: netvista\ndismgetdmaalignment.htm
 tech.root: netvista

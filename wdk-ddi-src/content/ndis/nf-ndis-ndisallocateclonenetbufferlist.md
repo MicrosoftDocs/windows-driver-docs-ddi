@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateCloneNetBufferList
 title: NdisAllocateCloneNetBufferList function
-author: windows-driver-content
 description: Call the NdisAllocateCloneNetBufferList function to create a new clone NET_BUFFER_LIST structure.
 old-location: netvista\ndisallocateclonenetbufferlist.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceCreateIsochUrb
 title: WdfUsbTargetDeviceCreateIsochUrb function
-author: windows-driver-content
 description: The WdfUsbTargetDeviceCreateIsochUrb method allocates an isochronous USB request block (URB).
 old-location: wdf\wdfusbtargetdevicecreateisochurb.htm
 tech.root: wdf

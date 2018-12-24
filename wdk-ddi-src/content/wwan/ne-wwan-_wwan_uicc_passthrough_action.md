@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_UICC_PASSTHROUGH_ACTION
 title: "_WWAN_UICC_PASSTHROUGH_ACTION"
-author: windows-driver-content
 description: The WWAN_UICC_PASSTHROUGH_ACTION enumeration defines the passthrough action specified by the MB host for a modem miniport adapter after it resets a UICC smart card.
 old-location: netvista\wwan_uicc_passthrough_action.htm
 tech.root: netvista

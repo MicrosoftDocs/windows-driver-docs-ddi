@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SeLengthSid
 title: SeLengthSid macro
-author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\selengthsid.htm
 tech.root: ifsk

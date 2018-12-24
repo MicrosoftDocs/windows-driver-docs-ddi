@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltEnumerateInstances
 title: FltEnumerateInstances function
-author: windows-driver-content
 description: The FltEnumerateInstances routine enumerates minifilter driver instances for a given minifilter driver or volume.
 old-location: ifsk\fltenumerateinstances.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.Compression
 title: IPrintOemUni::Compression
-author: windows-driver-content
 description: The IPrintOemUni::Compression method can be used with Unidrv-supported printers to provide a customized bitmap compression method.
 old-location: print\iprintoemuni_compression.htm
 tech.root: print

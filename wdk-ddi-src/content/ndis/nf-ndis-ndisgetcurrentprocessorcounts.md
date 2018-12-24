@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisGetCurrentProcessorCounts
 title: NdisGetCurrentProcessorCounts function
-author: windows-driver-content
 description: The NdisGetCurrentProcessorCounts function returns counts for the current processor that a driver can use to determine CPU usage for a particular time interval.
 old-location: netvista\ndisgetcurrentprocessorcounts.htm
 tech.root: netvista

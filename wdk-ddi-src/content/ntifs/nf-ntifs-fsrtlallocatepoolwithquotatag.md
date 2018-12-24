@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlAllocatePoolWithQuotaTag
 title: FsRtlAllocatePoolWithQuotaTag macro
-author: windows-driver-content
 description: The FsRtlAllocatePoolWithQuotaTag routine allocates pool memory, charging quota against the current process.
 old-location: ifsk\fsrtlallocatepoolwithquotatag.htm
 tech.root: ifsk

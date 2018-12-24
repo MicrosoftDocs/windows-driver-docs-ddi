@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WDF_USB_PIPE_INFORMATION_INIT
 title: WDF_USB_PIPE_INFORMATION_INIT function
-author: windows-driver-content
 description: The WDF_USB_PIPE_INFORMATION_INIT function initializes a WDF_USB_PIPE_INFORMATION structure.
 old-location: wdf\wdf_usb_pipe_information_init.htm
 tech.root: wdf

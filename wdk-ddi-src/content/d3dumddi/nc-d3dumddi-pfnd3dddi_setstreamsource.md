@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETSTREAMSOURCE
 title: PFND3DDDI_SETSTREAMSOURCE
-author: windows-driver-content
 description: The SetStreamSource function binds a portion of a vertex stream source to a vertex buffer.
 old-location: display\setstreamsource.htm
 tech.root: display

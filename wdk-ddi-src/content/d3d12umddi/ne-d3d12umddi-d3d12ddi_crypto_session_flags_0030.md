@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_CRYPTO_SESSION_FLAGS_0030
 title: D3D12DDI_CRYPTO_SESSION_FLAGS_0030
-author: windows-driver-content
 description: The crypto session flags.
 old-location: display\d3d12ddi-crypto-session-flags-0030.htm
 ms.assetid: 0a799227-9b37-45f6-bded-e56c439e465f

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_TEXTURE_LAYOUT_CAPS_0001
 title: D3D12DDI_TEXTURE_LAYOUT_CAPS_0001
-author: windows-driver-content
 description: Specifies texture layout capabilities.
 old-location: display\d3d12ddi_texture_layout_caps_0001.htm
 ms.assetid: CFA0C474-129A-4A05-B426-520B96C318D8

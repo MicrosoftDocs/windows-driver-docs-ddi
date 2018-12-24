@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterPropertyBag.SetInt32
 title: IPrinterPropertyBag::SetInt32
-author: windows-driver-content
 description: Writes an integer property.
 old-location: print\iprinterpropertybag_setint32.htm
 tech.root: print

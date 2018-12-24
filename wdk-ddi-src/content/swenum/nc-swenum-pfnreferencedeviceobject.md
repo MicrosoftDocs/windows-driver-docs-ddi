@@ -1,7 +1,6 @@
 ---
 UID: NC:swenum.PFNREFERENCEDEVICEOBJECT
 title: PFNREFERENCEDEVICEOBJECT
-author: windows-driver-content
 description: The driver can use this routine to increment the reference count of the PDO.
 old-location: stream\kstrreferencedeviceobject.htm
 tech.root: stream

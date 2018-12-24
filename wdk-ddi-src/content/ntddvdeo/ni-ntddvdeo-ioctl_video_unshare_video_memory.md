@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY
 title: IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY
-author: windows-driver-content
 description: Unmaps a video hardware frame buffer and video RAM from the virtual address space of the requester that was mapped by an IOCTL_VIDEO_SHARE_VIDEO_MEMORY request.
 old-location: display\ioctl_video_unshare_video_memory.htm
 tech.root: display

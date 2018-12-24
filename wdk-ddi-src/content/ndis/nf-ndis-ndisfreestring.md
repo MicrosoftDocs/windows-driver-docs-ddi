@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeString
 title: NdisFreeString macro
-author: windows-driver-content
 description: The NdisFreeString function releases storage that was allocated by NdisInitializeString for a buffered string.
 old-location: netvista\ndisfreestring.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoUnregisterShutdownNotification
 title: IoUnregisterShutdownNotification function
-author: windows-driver-content
 description: The IoUnregisterShutdownNotification routine removes a registered driver from the shutdown notification queue.
 old-location: kernel\iounregistershutdownnotification.htm
 tech.root: kernel

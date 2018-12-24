@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetVolumeInformation
 title: FltGetVolumeInformation function
-author: windows-driver-content
 description: The FltGetVolumeInformation routine provides information about a given volume.
 old-location: ifsk\fltgetvolumeinformation.htm
 tech.root: ifsk

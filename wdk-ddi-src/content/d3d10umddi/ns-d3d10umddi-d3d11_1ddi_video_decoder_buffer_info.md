@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_VIDEO_DECODER_BUFFER_INFO
 title: D3D11_1DDI_VIDEO_DECODER_BUFFER_INFO
-author: windows-driver-content
 description: Specifies information about a video decoder buffer.
 old-location: display\d3d11_1ddi_video_decoder_buffer_info.htm
 ms.assetid: 1f013077-ea85-4c35-8667-cdf0c1353b0f

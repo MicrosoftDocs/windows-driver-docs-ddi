@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetIndexByNameWide
 title: IDebugRegisters2::GetIndexByNameWide
-author: windows-driver-content
 description: The GetIndexByNameWide method returns the index of the named register.
 old-location: debugger\getindexbynamewide.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NS:dot11wdi._TAL_TXRX_PARAMETERS
 title: "_TAL_TXRX_PARAMETERS"
-author: windows-driver-content
 description: The TAL_TXRX_PARAMETERS structure defines the TAL TXRX parameters.
 old-location: netvista\tal_txrx_parameters.htm
 tech.root: netvista

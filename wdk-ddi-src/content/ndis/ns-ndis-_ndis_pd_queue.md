@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PD_QUEUE
 title: "_NDIS_PD_QUEUE"
-author: windows-driver-content
 description: This structure represents a provider's receive or transmit queue.
 old-location: netvista\ndis_pd_queue.htm
 tech.root: netvista

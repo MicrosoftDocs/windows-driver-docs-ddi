@@ -1,7 +1,6 @@
 ---
 UID: NS:usbspec._USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR
 title: _USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR
-author: windows-driver-content
 description: USB FW Update as defined in the USB 3.2 ENGINEERING CHANGE NOTICE.
 ms.assetid: 406a6a28-2d3b-413a-b9b3-10d053afb80d
 ms.date: 10/19/2018

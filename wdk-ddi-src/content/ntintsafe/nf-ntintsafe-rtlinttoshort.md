@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlIntToShort
 title: RtlIntToShort function
-author: windows-driver-content
 description: Converts a value of type INT to a value of type SHORT.
 old-location: kernel\rtlinttoshort.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE
 title: "_D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE"
-author: windows-driver-content
 description: The D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE structure describes a buffer that contains the session key, which the authenticated channel uses.
 old-location: display\d3dddiarg_authenticatedchannelkeyexchange.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:irb.AtaPortRegistryControllerKeyRead
 title: AtaPortRegistryControllerKeyRead function
-author: windows-driver-content
 description: The AtaPortRegistryControllerKeyRead routine reads the data that is associated with the indicated value name under the registry key HKLM\CurrentControlSet\Services\&lt;service name&gt;\ControllerN, where N is the number of the controller.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\ataportregistrycontrollerkeyread.htm
 tech.root: storage

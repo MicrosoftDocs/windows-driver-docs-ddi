@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIEW_INSTANCING_DESC
 title: D3D12DDI_VIEW_INSTANCING_DESC
-author: windows-driver-content
 description: View instancing description.
 old-location: display\d3d12ddi-view-instancing-desc.htm
 ms.assetid: 4d942de6-d829-499c-80cf-3cff8266aee4

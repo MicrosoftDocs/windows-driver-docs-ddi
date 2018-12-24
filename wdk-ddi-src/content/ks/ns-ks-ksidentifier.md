@@ -1,7 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_1
 title: KSIDENTIFIER
-author: windows-driver-content
 description: The KSIDENTIFIER structure specifies a GUID that uniquely identifies a related set of GUIDs, and an index value to refer to a specific member within that set.
 old-location: stream\ksidentifier.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_37
 title: KSALLOCATOR_FRAMING
-author: windows-driver-content
 description: The KSALLOCATOR_FRAMING structure is used to query framing requirements and submit allocator creation requests.
 old-location: stream\ksallocator_framing.htm
 tech.root: stream

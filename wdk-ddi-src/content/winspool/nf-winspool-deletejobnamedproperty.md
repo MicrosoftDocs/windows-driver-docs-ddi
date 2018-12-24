@@ -1,7 +1,6 @@
 ---
 UID: NF:winspool.DeleteJobNamedProperty
 title: DeleteJobNamedProperty function
-author: windows-driver-content
 description: Deletes the named property for the specified print job on the specified printer.
 old-location: print\deletejobnamedproperty.htm
 tech.root: print

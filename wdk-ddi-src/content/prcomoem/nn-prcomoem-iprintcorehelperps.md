@@ -1,7 +1,6 @@
 ---
 UID: NN:prcomoem.IPrintCoreHelperPS
 title: IPrintCoreHelperPS
-author: windows-driver-content
 description: This section describes the methods that are defined for the IPrintCoreHelperPS COM interface.
 old-location: print\iprintcorehelperps_interface.htm
 tech.root: print

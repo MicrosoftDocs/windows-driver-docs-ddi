@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvDeviceCommand
 title: IWiaMiniDrv::drvDeviceCommand
-author: windows-driver-content
 description: The IWiaMiniDrv::drvDeviceCommand method issues a command to a WIA device.
 old-location: image\iwiaminidrv_drvdevicecommand.htm
 tech.root: image

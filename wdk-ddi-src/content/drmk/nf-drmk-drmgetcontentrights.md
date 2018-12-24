@@ -1,7 +1,6 @@
 ---
 UID: NF:drmk.DrmGetContentRights
 title: DrmGetContentRights function
-author: windows-driver-content
 description: The DrmGetContentRights function retrieves the DRM content rights assigned to a DRM content ID.
 old-location: audio\drmgetcontentrights.htm
 tech.root: audio

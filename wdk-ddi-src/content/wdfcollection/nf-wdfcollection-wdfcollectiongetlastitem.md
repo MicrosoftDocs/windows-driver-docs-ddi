@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfcollection.WdfCollectionGetLastItem
 title: WdfCollectionGetLastItem function
-author: windows-driver-content
 description: The WdfCollectionGetLastItem method returns a handle to the last object that is in an object collection.
 old-location: wdf\wdfcollectiongetlastitem.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.PsRegisterSiloMonitor
 title: PsRegisterSiloMonitor function
-author: windows-driver-content
 description: This routine registers a server silo monitor that can receive notifications about server silo events.
 old-location: kernel\psregistersilomonitor.htm
 tech.root: kernel

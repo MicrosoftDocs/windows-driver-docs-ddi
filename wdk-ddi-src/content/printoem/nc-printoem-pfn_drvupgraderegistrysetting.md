@@ -1,7 +1,6 @@
 ---
 UID: NC:printoem.PFN_DrvUpgradeRegistrySetting
 title: PFN_DrvUpgradeRegistrySetting
-author: windows-driver-content
 description: The DrvUpgradeRegistrySetting function is obsolete.
 old-location: print\drvupgraderegistrysetting.htm
 tech.root: print

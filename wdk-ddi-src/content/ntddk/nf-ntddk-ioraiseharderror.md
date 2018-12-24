@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoRaiseHardError
 title: IoRaiseHardError function
-author: windows-driver-content
 description: The IoRaiseHardError routine causes a dialog box to appears that warns the user that a device I/O error has occurred, which might indicate that a physical device is failing.
 old-location: kernel\ioraiseharderror.htm
 tech.root: kernel

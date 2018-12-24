@@ -1,7 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX_CONTROL
 title: EVT_SERCX_CONTROL
-author: windows-driver-content
 description: The EvtSerCxControl event callback function handles an I/O control request that has an I/O control code (IOCTL) that the serial framework extension (SerCx) supports.
 old-location: serports\evtsercxcontrol.htm
 tech.root: serports

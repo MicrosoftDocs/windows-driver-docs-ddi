@@ -1,7 +1,6 @@
 ---
 UID: NF:mcd.ChangerPerformDiagnostics
 title: ChangerPerformDiagnostics function
-author: windows-driver-content
 description: ChangerPerformDiagnostics performs diagnostic tests on the changer device.
 old-location: storage\changerperformdiagnostics.htm
 tech.root: storage

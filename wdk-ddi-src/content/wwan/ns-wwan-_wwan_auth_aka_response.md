@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_AUTH_AKA_RESPONSE
 title: "_WWAN_AUTH_AKA_RESPONSE"
-author: windows-driver-content
 description: The WWAN_AUTH_AKA_RESPONSE structure represents a response to an AKA authentication challenge.
 old-location: netvista\wwan_auth_aka_response.htm
 tech.root: netvista

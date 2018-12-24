@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._DXGK_ESCAPE_GPUMMUCAPS
 title: _DXGK_ESCAPE_GPUMMUCAPS
-author: windows-driver-content
 description: The GPU memory management capabilities.
 ms.assetid: c1ab6b76-d6f8-4ea6-83a1-94f392208502
 ms.date: 10/19/2018

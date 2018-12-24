@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDIARG_CREATERESOURCE
 title: "_D3DDDIARG_CREATERESOURCE"
-author: windows-driver-content
 description: The D3DDDIARG_CREATERESOURCE structure contains information for creating a resource.
 old-location: display\d3dddiarg_createresource.htm
 tech.root: display

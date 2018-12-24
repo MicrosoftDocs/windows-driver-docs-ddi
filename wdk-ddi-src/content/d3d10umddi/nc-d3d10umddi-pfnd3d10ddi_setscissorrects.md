@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_SETSCISSORRECTS
 title: PFND3D10DDI_SETSCISSORRECTS
-author: windows-driver-content
 description: The SetScissorRects function marks portions of render targets that rendering is confined to.
 old-location: display\setscissorrects.htm
 ms.assetid: ef61f50b-a82b-43df-865f-2f9d9ca906d4

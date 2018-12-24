@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltFreeOpenReparseList
 title: FltFreeOpenReparseList function
-author: windows-driver-content
 description: This routine deallocates any information copied into a create operation by a previous call to FltCopyOpenReparseList.
 old-location: ifsk\fltfreeopenreparselist.htm
 tech.root: ifsk

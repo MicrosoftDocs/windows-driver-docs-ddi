@@ -1,7 +1,6 @@
 ---
 UID: NN:filterpipeline.IPartThumbnail
 title: IPartThumbnail
-author: windows-driver-content
 description: The IPartThumbnail interface is an abstraction for thumbnails in an XPS document.
 old-location: print\ipartthumbnail.htm
 tech.root: print

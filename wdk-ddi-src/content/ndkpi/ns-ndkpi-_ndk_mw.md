@@ -1,7 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_MW
 title: "_NDK_MW"
-author: windows-driver-content
 description: The NDK_MW structure specifies the attributes of an NDK memory window (MW) object.
 old-location: netvista\ndk_mw.htm
 tech.root: netvista

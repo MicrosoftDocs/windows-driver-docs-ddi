@@ -1,7 +1,6 @@
 ---
 UID: NF:midatlax.RxMapAndDissociateMidFromContext
 title: RxMapAndDissociateMidFromContext function
-author: windows-driver-content
 description: RxMapAndDissociateMidFromContext maps a Multiplex ID (MID) to its associated context in a MID_ATLAS structure and then disassociates the MID from the context.
 old-location: ifsk\rxmapanddissociatemidfromcontext.htm
 tech.root: ifsk

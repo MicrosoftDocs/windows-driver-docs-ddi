@@ -1,7 +1,6 @@
 ---
 UID: NN:ksproxy.IKsAggregateControl
 title: IKsAggregateControl
-author: windows-driver-content
 description: The IKsAggregateControl interface provides methods that add and remove COM servers as aggregate providers on KS objects that support the interface.
 old-location: stream\iksaggregatecontrol.htm
 tech.root: stream

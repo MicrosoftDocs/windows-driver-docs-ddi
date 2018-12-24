@@ -1,7 +1,6 @@
 ---
 UID: NS:bthhfpddi._BTHHFP_DESCRIPTOR
 title: "_BTHHFP_DESCRIPTOR"
-author: windows-driver-content
 description: The BTHHFP_DESCRIPTOR data structure stores information describing a paired Handsfree profile (HFP) device.
 old-location: audio\bthhfp_descriptor.htm
 tech.root: audio

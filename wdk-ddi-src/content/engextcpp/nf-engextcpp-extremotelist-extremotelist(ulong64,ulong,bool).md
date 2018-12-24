@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteList.ExtRemoteList(ULONG64,ULONG,bool)
 title: ExtRemoteList::ExtRemoteList(ULONG64,ULONG,bool)
-author: windows-driver-content
 description: The ExtRemoteList constructors create a new instance that wraps a singly-linked or doubly-linked list.
 old-location: debugger\extremotelist_extremotelist_ulong64.htm
 tech.root: debugger

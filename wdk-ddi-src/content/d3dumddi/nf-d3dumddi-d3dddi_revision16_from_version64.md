@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dumddi.D3DDDI_REVISION16_FROM_VERSION64
 title: D3DDDI_REVISION16_FROM_VERSION64 macro
-author: windows-driver-content
 description: Converts a 16 bit revision from a 64 bit version.
 ms.assetid: e791fbfb-133f-46f8-aba7-9b9a51449573
 ms.date: 10/19/2018

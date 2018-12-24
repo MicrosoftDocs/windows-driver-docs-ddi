@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateReassembledNetBufferList
 title: NdisAllocateReassembledNetBufferList function
-author: windows-driver-content
 description: Call the NdisAllocateReassembledNetBufferList function to reassemble a fragmented NET_BUFFER_LIST structure.
 old-location: netvista\ndisallocatereassemblednetbufferlist.htm
 tech.root: netvista

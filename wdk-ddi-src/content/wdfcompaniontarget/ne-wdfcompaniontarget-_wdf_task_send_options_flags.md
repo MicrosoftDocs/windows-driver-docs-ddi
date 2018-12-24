@@ -1,7 +1,6 @@
 ---
 UID: NE:wdfcompaniontarget._WDF_TASK_SEND_OPTIONS_FLAGS
 title: "_WDF_TASK_SEND_OPTIONS_FLAGS"
-author: windows-driver-content
 description: For internal use only.
 old-location: wdf\wdf_task_send_options_flags.htm
 tech.root: wdf

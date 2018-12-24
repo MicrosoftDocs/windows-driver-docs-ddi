@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGKMDT_OPM_REQUESTED_INFORMATION
 title: "_DXGKMDT_OPM_REQUESTED_INFORMATION"
-author: windows-driver-content
 description: The DXGKMDT_OPM_REQUESTED_INFORMATION structure contains information that was requested in a call to the DxgkDdiOPMGetInformation or DxgkDdiOPMGetCOPPCompatibleInformation function.
 old-location: display\dxgkmdt_opm_requested_information.htm
 tech.root: display

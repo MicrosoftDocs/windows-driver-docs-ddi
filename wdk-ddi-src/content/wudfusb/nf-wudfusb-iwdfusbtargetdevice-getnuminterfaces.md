@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetDevice.GetNumInterfaces
 title: IWDFUsbTargetDevice::GetNumInterfaces
-author: windows-driver-content
 description: The GetNumInterfaces method retrieves the number of USB interfaces for the USB device.
 old-location: wdf\iwdfusbtargetdevice_getnuminterfaces.htm
 tech.root: wdf

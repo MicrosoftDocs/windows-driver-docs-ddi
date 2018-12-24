@@ -1,7 +1,6 @@
 ---
 UID: NI:usbfnioctl.IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_IN
 title: IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_IN
-author: windows-driver-content
 description: The class driver sends this request to send a zero-length control status handshake on endpoint 0 in the IN direction.
 old-location: buses\_ioctl_internal_usbfn_control_status_handshake_in.htm
 tech.root: usbref

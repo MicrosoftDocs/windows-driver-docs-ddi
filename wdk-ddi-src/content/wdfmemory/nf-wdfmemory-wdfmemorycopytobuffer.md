@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfmemory.WdfMemoryCopyToBuffer
 title: WdfMemoryCopyToBuffer function
-author: windows-driver-content
 description: The WdfMemoryCopyToBuffer method copies the contents of a specified memory object's buffer into a specified destination buffer.
 old-location: wdf\wdfmemorycopytobuffer.htm
 tech.root: wdf

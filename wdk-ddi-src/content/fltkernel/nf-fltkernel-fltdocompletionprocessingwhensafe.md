@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltDoCompletionProcessingWhenSafe
 title: FltDoCompletionProcessingWhenSafe function
-author: windows-driver-content
 description: If it is safe to do so, the FltDoCompletionProcessingWhenSafe function executes a minifilter driver postoperation callback routine.
 old-location: ifsk\fltdocompletionprocessingwhensafe.htm
 tech.root: ifsk

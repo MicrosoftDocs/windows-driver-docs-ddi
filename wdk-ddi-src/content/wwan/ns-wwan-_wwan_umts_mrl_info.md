@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_UMTS_MRL_INFO
 title: "_WWAN_UMTS_MRL_INFO"
-author: windows-driver-content
 description: The WWAN_UMTS_MRL_INFO structure represents information about a neighboring UMTS cell.
 old-location: netvista\wwan_umts_mrl_info.htm
 tech.root: netvista

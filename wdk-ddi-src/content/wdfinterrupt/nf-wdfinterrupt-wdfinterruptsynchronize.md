@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfinterrupt.WdfInterruptSynchronize
 title: WdfInterruptSynchronize function
-author: windows-driver-content
 description: The WdfInterruptSynchronize method executes a specified callback function at the device's DIRQL while holding an interrupt object's spin lock.
 old-location: wdf\wdfinterruptsynchronize.htm
 tech.root: wdf

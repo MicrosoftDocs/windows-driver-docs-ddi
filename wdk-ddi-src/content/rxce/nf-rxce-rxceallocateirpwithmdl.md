@@ -1,7 +1,6 @@
 ---
 UID: NF:rxce.RxCeAllocateIrpWithMDL
 title: RxCeAllocateIrpWithMDL function
-author: windows-driver-content
 description: RxCeAllocateIrpWithMDL allocates an IRP and associates it with an existing memory descriptor list.
 old-location: ifsk\rxceallocateirpwithmdl.htm
 tech.root: ifsk

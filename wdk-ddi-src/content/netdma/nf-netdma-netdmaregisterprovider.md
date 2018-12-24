@@ -1,7 +1,6 @@
 ---
 UID: NF:netdma.NetDmaRegisterProvider
 title: NetDmaRegisterProvider function
-author: windows-driver-content
 description: The NetDmaRegisterProvider function registers a DMA provider.
 old-location: netvista\netdmaregisterprovider.htm
 tech.root: netvista

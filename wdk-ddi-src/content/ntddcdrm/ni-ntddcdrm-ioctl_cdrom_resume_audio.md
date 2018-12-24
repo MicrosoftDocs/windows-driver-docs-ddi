@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_RESUME_AUDIO
 title: IOCTL_CDROM_RESUME_AUDIO
-author: windows-driver-content
 description: Resumes a suspended audio operation. Obsolete, beginning with Windows Vista.
 old-location: storage\ioctl_cdrom_resume_audio.htm
 tech.root: storage

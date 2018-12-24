@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SendECHO_IN
 title: "_SM_SendECHO_IN"
-author: windows-driver-content
 description: The SM_SendECHO_IN structure is used to provide input parameters to the SM_SendECHO method.
 old-location: storage\sm_sendecho_in.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NS:61883._BUS_GENERATION_NODE
 title: "_BUS_GENERATION_NODE"
-author: windows-driver-content
 description: The BUS_GENERATION_NODE structure is used in conjunction with the Av61883_GetUnitInfo request to retrieve bus characteristics.
 old-location: ieee\bus_generation_node.htm
 tech.root: IEEE

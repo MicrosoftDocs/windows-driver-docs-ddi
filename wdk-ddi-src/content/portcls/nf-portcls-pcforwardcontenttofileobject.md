@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.PcForwardContentToFileObject
 title: PcForwardContentToFileObject function
-author: windows-driver-content
 description: The PcForwardContentToFileObject function is obsolete and is maintained only to support existing drivers.
 old-location: audio\pcforwardcontenttofileobject.htm
 tech.root: audio

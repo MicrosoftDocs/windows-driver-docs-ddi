@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.MmAllocateContiguousMemorySpecifyCacheNode
 title: MmAllocateContiguousMemorySpecifyCacheNode function
-author: windows-driver-content
 description: The MmAllocateContiguousMemorySpecifyCacheNode routine allocates a range of contiguous, nonpaged physical memory and maps it to the system address space.
 old-location: kernel\mmallocatecontiguousmemoryspecifycachenode.htm
 tech.root: kernel

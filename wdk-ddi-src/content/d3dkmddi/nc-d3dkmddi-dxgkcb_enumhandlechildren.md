@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_ENUMHANDLECHILDREN
 title: DXGKCB_ENUMHANDLECHILDREN
-author: windows-driver-content
 description: The DxgkCbEnumHandleChildren function enumerates all of the allocations that are associated with a given resource, one allocation at a time.
 old-location: display\dxgkcbenumhandlechildren.htm
 ms.assetid: 36307e63-9e94-4441-92c6-fd4293ea8fa9

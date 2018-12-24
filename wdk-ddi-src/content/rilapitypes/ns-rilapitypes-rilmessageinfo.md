@@ -1,7 +1,6 @@
 ---
 UID: NS:rilapitypes.RILMESSAGEINFO
 title: RILMESSAGEINFO
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmessageinfo.htm
 tech.root: netvista

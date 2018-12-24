@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortGetPfns
 title: StorPortGetPfns function
-author: windows-driver-content
 description: The StorPortGetPfns routine can be called when a miniport needs to retreive PFNs associated with a MDL for a SRB.
 old-location: storage\storportgetpfns.htm
 tech.root: storage

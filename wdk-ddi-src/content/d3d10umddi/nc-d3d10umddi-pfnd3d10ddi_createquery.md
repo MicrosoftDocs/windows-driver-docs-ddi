@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CREATEQUERY
 title: PFND3D10DDI_CREATEQUERY
-author: windows-driver-content
 description: The CreateQuery(D3D10) function creates a query.
 old-location: display\createquery_d3d10_.htm
 ms.assetid: abe6a82f-1613-4c74-9e81-01939db74bfd

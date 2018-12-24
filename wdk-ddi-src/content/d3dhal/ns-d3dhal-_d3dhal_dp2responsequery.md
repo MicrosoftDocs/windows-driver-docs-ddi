@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2RESPONSEQUERY
 title: "_D3DHAL_DP2RESPONSEQUERY"
-author: windows-driver-content
 description: DirectX 9.0 and later versions only.
 old-location: display\d3dhal_dp2responsequery.htm
 tech.root: display

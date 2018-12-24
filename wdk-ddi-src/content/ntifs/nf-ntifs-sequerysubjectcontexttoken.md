@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SeQuerySubjectContextToken
 title: SeQuerySubjectContextToken macro
-author: windows-driver-content
 description: The SeQuerySubjectContextToken macro retrieves the access token for a security subject context.
 old-location: ifsk\sequerysubjectcontexttoken.htm
 tech.root: ifsk

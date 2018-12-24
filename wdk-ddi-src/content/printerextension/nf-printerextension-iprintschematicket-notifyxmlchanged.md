@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaTicket.NotifyXmlChanged
 title: IPrintSchemaTicket::NotifyXmlChanged
-author: windows-driver-content
 description: Notifies the print system that the XML DOM object has changed.
 old-location: print\iprintschematicket_notifyxmlchanged.htm
 tech.root: print

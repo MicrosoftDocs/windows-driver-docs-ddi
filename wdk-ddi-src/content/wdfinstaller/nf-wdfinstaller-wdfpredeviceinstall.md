@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfinstaller.WdfPreDeviceInstall
 title: WdfPreDeviceInstall function
-author: windows-driver-content
 description: The co-installer's WdfPreDeviceInstall function performs any operations that the co-installer might require before a non-Plug and Play (PnP) driver's installer creates the driver's kernel-mode service.
 old-location: wdf\wdfpredeviceinstall.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NS:wiadef._WIA_RAW_HEADER
 title: _WIA_RAW_HEADER
-author: windows-driver-content
 description: 
 ms.assetid: 6b591713-1094-4d77-81ba-b531cd886f6a
 ms.date: 10/19/2018

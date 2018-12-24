@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._REG_QUERY_KEY_INFORMATION
 title: "_REG_QUERY_KEY_INFORMATION"
-author: windows-driver-content
 description: The REG_QUERY_KEY_INFORMATION structure describes the metadata that is about to be queried for a key.
 old-location: kernel\reg_query_key_information.htm
 tech.root: kernel

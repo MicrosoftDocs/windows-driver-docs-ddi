@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsAleEndpointGetSecurityInfo0
 title: FwpsAleEndpointGetSecurityInfo0 function
-author: windows-driver-content
 description: The FwpsAleEndpointGetSecurityInfo0 function retrieves security information about the application layer enforcement (ALE) endpoint enumeration session.Note  FwpsAleEndpointGetSecurityInfo0 is a specific version of FwpsAleEndpointGetSecurityInfo.
 old-location: netvista\fwpsaleendpointgetsecurityinfo0.htm
 tech.root: netvista

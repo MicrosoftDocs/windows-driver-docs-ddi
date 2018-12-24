@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisCoAssignInstanceName
 title: NdisCoAssignInstanceName function
-author: windows-driver-content
 description: NdisCoAssignInstanceName assigns an instance name to a VC and causes NDIS to register a GUID (globally unique identifier) for the assigned name with Windows Management Instrumentation (WMI).
 old-location: netvista\ndiscoassigninstancename.htm
 tech.root: netvista

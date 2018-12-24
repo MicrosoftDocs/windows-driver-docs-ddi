@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltCompletePendedPostOperation
 title: FltCompletePendedPostOperation function
-author: windows-driver-content
 description: FltCompletePendedPostOperation resumes completion processing for an I/O operation that was pended in a minifilter driver's postoperation callback routine.
 old-location: ifsk\fltcompletependedpostoperation.htm
 tech.root: ifsk

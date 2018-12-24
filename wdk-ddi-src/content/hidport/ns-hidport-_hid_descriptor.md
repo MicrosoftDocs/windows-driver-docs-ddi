@@ -1,7 +1,6 @@
 ---
 UID: NS:hidport._HID_DESCRIPTOR
 title: "_HID_DESCRIPTOR"
-author: windows-driver-content
 description: The HID_DESCRIPTOR structure represents a HID descriptor for a HIDClass device.
 old-location: hid\hid_descriptor.htm
 tech.root: hid

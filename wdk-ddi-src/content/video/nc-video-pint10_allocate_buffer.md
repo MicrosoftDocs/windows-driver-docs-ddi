@@ -1,7 +1,6 @@
 ---
 UID: NC:video.PINT10_ALLOCATE_BUFFER
 title: PINT10_ALLOCATE_BUFFER
-author: windows-driver-content
 description: The Int10AllocateBuffer function can be used to allocate a single 4 KB block of memory in the context of another thread. After the block of memory has been allocated, it must be freed before another block of memory can be allocated.
 old-location: display\int10allocatebuffer.htm
 tech.root: display

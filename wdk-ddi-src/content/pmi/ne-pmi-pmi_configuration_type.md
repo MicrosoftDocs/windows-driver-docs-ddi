@@ -1,7 +1,6 @@
 ---
 UID: NE:pmi.__unnamed_enum_3
 title: PMI_CONFIGURATION_TYPE
-author: windows-driver-content
 description: The PMI_CONFIGURATION_TYPE enumeration defines the type of PMI configuration data that is referenced by the Configuration member of the PMI_CONFIGURATION structure.
 old-location: powermeter\pmi_configuration_type.htm
 tech.root: powermeter

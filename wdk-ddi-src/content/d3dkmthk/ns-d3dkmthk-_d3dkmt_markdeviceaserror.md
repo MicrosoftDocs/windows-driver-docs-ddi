@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_MARKDEVICEASERROR
 title: _D3DKMT_MARKDEVICEASERROR
-author: windows-driver-content
 description: Marks a device as error.
 ms.assetid: d2fd01ec-02fe-4e9e-9fc9-68202f7de079
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_DISEQC_RESPONSE
 title: "_BDA_DISEQC_RESPONSE"
-author: windows-driver-content
 description: 
 old-location: stream\bda_diseqc_response.htm
 tech.root: stream

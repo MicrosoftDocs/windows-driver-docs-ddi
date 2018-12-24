@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.NtSetInformationThread
 title: NtSetInformationThread function
-author: windows-driver-content
 description: The ZwSetInformationThread routine sets the priority of a thread.
 old-location: kernel\zwsetinformationthread.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NI:ks.IOCTL_KS_WRITE_STREAM
 title: IOCTL_KS_WRITE_STREAM
-author: windows-driver-content
 description: An application can use IOCTL_KS_WRITE_STREAM to write data to a pin. The application passes IOCTL_KS_WRITE_STREAM with the parameters described below to the KsSynchronousDeviceControl function.
 old-location: stream\ioctl_ks_write_stream.htm
 tech.root: stream

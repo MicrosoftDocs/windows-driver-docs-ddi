@@ -1,7 +1,6 @@
 ---
 UID: NF:nettxqueue.NetTxQueueCreate
 title: NetTxQueueCreate function
-author: windows-driver-content
 description: Creates a net transmit queue object.
 tech.root: netvista
 ms.assetid: 50a3a979-0699-40d9-9932-3836a3b0b3a0

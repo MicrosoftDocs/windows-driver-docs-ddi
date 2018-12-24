@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._OB_PRE_CREATE_HANDLE_INFORMATION
 title: "_OB_PRE_CREATE_HANDLE_INFORMATION"
-author: windows-driver-content
 description: The OB_PRE_CREATE_HANDLE_INFORMATION structure provides information to an ObjectPreCallback routine about a thread or process handle that is being opened.
 old-location: kernel\ob_pre_create_handle_information.htm
 tech.root: kernel

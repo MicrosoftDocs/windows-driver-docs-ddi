@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisRawReadPortUchar
 title: NdisRawReadPortUchar macro
-author: windows-driver-content
 description: NdisRawReadPortUchar reads a byte from a given I/O port on the NIC.
 old-location: netvista\ndisrawreadportuchar.htm
 tech.root: netvista

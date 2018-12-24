@@ -1,7 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.RawWriteCommand
 title: IStiDevice::RawWriteCommand
-author: windows-driver-content
 description: The IStiDevice::RawWriteCommand method sends command information to a still image device.
 old-location: image\istidevice_rawwritecommand.htm
 tech.root: image

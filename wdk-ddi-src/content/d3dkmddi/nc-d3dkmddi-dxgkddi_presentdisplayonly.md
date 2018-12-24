@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_PRESENTDISPLAYONLY
 title: DXGKDDI_PRESENTDISPLAYONLY
-author: windows-driver-content
 description: Presents the screen image to the display device of a kernel mode display-only driver (KMDOD).
 old-location: display\dxgkddipresentdisplayonly.htm
 ms.assetid: b68839e3-ad82-4fcc-8e5a-02dea5db08d9

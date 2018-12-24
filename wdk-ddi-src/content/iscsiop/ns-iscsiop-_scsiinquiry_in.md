@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._ScsiInquiry_IN
 title: "_ScsiInquiry_IN"
-author: windows-driver-content
 description: The ScsiInquiry_IN structure holds the input data for the ScsiInquiry method, which is used to send a SCSI inquiry command.
 old-location: storage\scsiinquiry_in.htm
 tech.root: storage

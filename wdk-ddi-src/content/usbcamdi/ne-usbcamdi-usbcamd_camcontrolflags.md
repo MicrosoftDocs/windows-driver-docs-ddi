@@ -1,7 +1,6 @@
 ---
 UID: NE:usbcamdi.__unnamed_enum_0
 title: USBCAMD_CamControlFlags
-author: windows-driver-content
 description: 
 ms.assetid: bd137228-b5a9-4e97-8a89-d42ac59a3d7d
 ms.date: 10/19/2018

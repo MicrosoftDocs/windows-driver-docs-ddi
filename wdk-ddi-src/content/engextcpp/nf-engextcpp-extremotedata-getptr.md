@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetPtr
 title: ExtRemoteData::GetPtr
-author: windows-driver-content
 description: The GetPtr method returns a pointer from the target's memory version of the ExtRemoteData object, which represents the contents of the target's memory. The size of the unsigned integer from the target is the same size as a pointer on the target.
 old-location: debugger\extremotedata_getptr.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_WMDRM_KEYINFOLIST
 title: "_BDA_WMDRM_KEYINFOLIST"
-author: windows-driver-content
 description: 
 old-location: stream\bda_wmdrm_keyinfolist.htm
 tech.root: stream

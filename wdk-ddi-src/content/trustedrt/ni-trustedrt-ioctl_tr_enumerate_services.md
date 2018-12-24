@@ -1,7 +1,6 @@
 ---
 UID: NI:trustedrt.IOCTL_TR_ENUMERATE_SERVICES
 title: IOCTL_TR_ENUMERATE_SERVICES
-author: windows-driver-content
 description: 
 ms.assetid: de6f27ed-7fb3-4cf1-953c-e683ffdbf475
 ms.date: 10/19/2018

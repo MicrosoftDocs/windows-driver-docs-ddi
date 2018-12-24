@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_RFC6877_464XLAT_OFFLOAD_OPTIONS
 title: _NDIS_RFC6877_464XLAT_OFFLOAD_OPTIONS
-author: windows-driver-content
 description: The NDIS_RFC6877_464XLAT_OFFLOAD_OPTIONS enumeration describes a miniport driver's 464XLAT hardware offload capabilities.
 tech.root: netvista
 ms.assetid: b3f8ea58-f66e-4e5d-bd2c-4dcedca81d95

@@ -1,7 +1,6 @@
 ---
 UID: NF:ndischimney.NdisQueryOffloadState
 title: NdisQueryOffloadState function
-author: windows-driver-content
 description: A protocol or intermediate driver calls the NdisQueryOffloadState function to query previously offloaded TCP chimney state objects.
 old-location: netvista\ndisqueryoffload.htm
 tech.root: netvista

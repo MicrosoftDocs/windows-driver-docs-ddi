@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetLastEventInformation
 title: IDebugControl3::GetLastEventInformation
-author: windows-driver-content
 description: The GetLastEventInformation method returns information about the last event that occurred in a target.
 old-location: debugger\getlasteventinformation.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveRTStreamNotification.AllocateBufferWithNotification
 title: IMiniportWaveRTStreamNotification::AllocateBufferWithNotification
-author: windows-driver-content
 description: The AllocateAudioBufferWithNotification method allocates a cyclic buffer for audio data when you want to implement DMA-driven event notification. If you do not want event notification, you must use IMiniportWaveRTStream::AllocateAudioBuffer.
 old-location: audio\iminiportwavertstreamnotification_allocatebufferwithnotification.htm
 tech.root: audio

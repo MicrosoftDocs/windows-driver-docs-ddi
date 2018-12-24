@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsDiscard
 title: KsDiscard macro
-author: windows-driver-content
 description: The KsDiscard macro removes a given item from an object bag.
 old-location: stream\ksdiscard.htm
 tech.root: stream

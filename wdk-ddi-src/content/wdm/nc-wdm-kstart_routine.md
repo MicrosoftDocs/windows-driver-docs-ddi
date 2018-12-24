@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.KSTART_ROUTINE
 title: KSTART_ROUTINE
-author: windows-driver-content
 description: The ThreadStart routine provides an entry point for a driver-created system thread.
 old-location: kernel\threadstart.htm
 tech.root: kernel

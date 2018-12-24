@@ -1,7 +1,6 @@
 ---
 UID: NS:storport._STOR_UNIT_ATTRIBUTES
 title: "_STOR_UNIT_ATTRIBUTES"
-author: windows-driver-content
 description: The STOR_UNIT_ATTRIBUTES structure contains bitfields indicating attribute support for a storage device unit.
 old-location: storage\stor_unit_attributes.htm
 tech.root: storage

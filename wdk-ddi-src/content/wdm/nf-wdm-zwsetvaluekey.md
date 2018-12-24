@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwSetValueKey
 title: ZwSetValueKey function
-author: windows-driver-content
 description: The ZwSetValueKey routine creates or replaces a registry key's value entry.
 old-location: kernel\zwsetvaluekey.htm
 tech.root: kernel

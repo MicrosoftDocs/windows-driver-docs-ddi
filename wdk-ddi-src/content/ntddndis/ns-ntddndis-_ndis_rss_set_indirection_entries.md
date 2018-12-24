@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RSS_SET_INDIRECTION_ENTRIES
 title: "_NDIS_RSS_SET_INDIRECTION_ENTRIES"
-author: windows-driver-content
 description: The NDIS_RSS_SET_INDIRECTION_ENTRIES structure represents a set of actions, where each action moves a single entry of the Receive Side Scaling (RSS) indirection table of a specified VPort to a specified target CPU.
 old-location: netvista\ndis_rss_set_indirection_entries.htm
 tech.root: netvista

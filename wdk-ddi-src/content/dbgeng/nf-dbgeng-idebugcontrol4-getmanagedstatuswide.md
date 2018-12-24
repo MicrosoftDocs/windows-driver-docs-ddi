@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetManagedStatusWide
 title: IDebugControl4::GetManagedStatusWide
-author: windows-driver-content
 description: Provides feedback as a Unicode character string on the engine's use of the runtime debugging APIs provided by the common language runtime (CLR).
 old-location: debugger\idebugcontrol4_getmanagedstatuswide.htm
 tech.root: debugger

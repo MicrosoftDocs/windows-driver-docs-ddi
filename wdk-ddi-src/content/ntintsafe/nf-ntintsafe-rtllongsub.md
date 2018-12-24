@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlLongSub
 title: RtlLongSub function
-author: windows-driver-content
 description: Subtracts one value of type LONG from another.
 old-location: kernel\rtllongsub.htm
 tech.root: kernel

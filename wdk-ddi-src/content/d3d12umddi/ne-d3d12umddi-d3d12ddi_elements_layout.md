@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_ELEMENTS_LAYOUT
 title: D3D12DDI_ELEMENTS_LAYOUT
-author: windows-driver-content
 description: Describes how instances or geometries are laid out.
 ms.assetid: c886ddab-ba16-4d7f-abbd-3e57b7cc8dc5
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RESOURCE_OPTIMIZATION_FLAGS
 title: D3D12DDI_RESOURCE_OPTIMIZATION_FLAGS
-author: windows-driver-content
 description: Defines resource optimization flags.
 ms.assetid: 8ef6b7fe-11c4-4658-90aa-231ddd363a47
 ms.date: 10/19/2018

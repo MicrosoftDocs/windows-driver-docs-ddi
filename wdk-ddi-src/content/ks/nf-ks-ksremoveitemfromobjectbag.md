@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsRemoveItemFromObjectBag
 title: KsRemoveItemFromObjectBag function
-author: windows-driver-content
 description: The KsRemoveItemFromObjectBag function removes an item from an object bag.
 old-location: stream\ksremoveitemfromobjectbag.htm
 tech.root: stream

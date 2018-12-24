@@ -1,7 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_54
 title: KSQUALITY_MANAGER
-author: windows-driver-content
 description: The KSQUALITY_MANAGER structure is used with the KSPROPERTY_STREAM_QUALITY property and contains the handle of the quality manager sink and a context to pass in the quality complaints.
 old-location: stream\ksquality_manager.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.CWiauPropertyList
 title: CWiauPropertyList::CWiauPropertyList
-author: windows-driver-content
 description: The CWiauPropertyList::CWiauPropertyList method is the constructor for the CWiauPropertyList class.
 old-location: image\cwiaupropertylist_cwiaupropertylist.htm
 tech.root: image

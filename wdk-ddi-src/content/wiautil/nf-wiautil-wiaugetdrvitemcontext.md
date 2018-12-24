@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.wiauGetDrvItemContext
 title: wiauGetDrvItemContext function
-author: windows-driver-content
 description: The wiauGetDrvItemContext function gets the driver item context, and optionally, the driver item.
 old-location: image\wiaugetdrvitemcontext.htm
 tech.root: image

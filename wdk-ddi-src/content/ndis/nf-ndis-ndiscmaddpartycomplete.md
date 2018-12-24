@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisCmAddPartyComplete
 title: NdisCmAddPartyComplete function
-author: windows-driver-content
 description: NdisCmAddPartyComplete returns the final status of a client's request, for which the call manager previously returned NDIS_STATUS_PENDING, to add a party on an established multipoint VC.
 old-location: netvista\ndiscmaddpartycomplete.htm
 tech.root: netvista

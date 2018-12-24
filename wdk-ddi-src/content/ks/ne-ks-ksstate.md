@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_1
 title: KSSTATE
-author: windows-driver-content
 description: The KSSTATE enumeration lists possible states of a kernel streaming object.
 old-location: stream\ksstate.htm
 tech.root: stream

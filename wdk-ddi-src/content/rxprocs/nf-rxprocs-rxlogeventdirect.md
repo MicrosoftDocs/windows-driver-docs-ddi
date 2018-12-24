@@ -1,7 +1,6 @@
 ---
 UID: NF:rxprocs.RxLogEventDirect
 title: RxLogEventDirect function
-author: windows-driver-content
 description: RxLogEventDirect is called to log an error to the I/O error log. It is recommended that the RXLogEvent macro or the RxLogFailure macro be used instead of calling this routine directly.
 old-location: ifsk\rxlogeventdirect.htm
 tech.root: ifsk

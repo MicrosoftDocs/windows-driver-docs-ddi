@@ -1,7 +1,6 @@
 ---
 UID: NN:filterpipeline.IPartImage
 title: IPartImage
-author: windows-driver-content
 description: The IPartImage interface is the abstraction for images in an XPS document.
 old-location: print\ipartimage.htm
 tech.root: print

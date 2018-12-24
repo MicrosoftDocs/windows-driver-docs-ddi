@@ -1,7 +1,6 @@
 ---
 UID: NF:irb.AtaPortReadRegisterBufferUlong
 title: AtaPortReadRegisterBufferUlong function
-author: windows-driver-content
 description: The AtaPortReadRegisterBufferUlong routine transfers a specified number of ULONG values from the HBA to a buffer.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportreadregisterbufferulong.htm
 tech.root: storage

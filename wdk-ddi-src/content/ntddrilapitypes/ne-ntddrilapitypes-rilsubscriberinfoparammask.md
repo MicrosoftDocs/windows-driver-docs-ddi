@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILSUBSCRIBERINFOPARAMMASK
 title: RILSUBSCRIBERINFOPARAMMASK
-author: windows-driver-content
 description: This enumeration describes the RILSUBSCRIBERINFOPARAMMASK.
 old-location: netvista\rilsubscriberinfoparammask.htm
 tech.root: netvista

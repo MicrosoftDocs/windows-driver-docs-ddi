@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_26
 title: KSPROPERTY_CLOCK
-author: windows-driver-content
 description: 
 old-location: stream\ksproperty_clock.htm
 tech.root: stream

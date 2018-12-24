@@ -1,7 +1,6 @@
 ---
 UID: NF:netadapterpacket.NET_PACKET_DECLARE_CASTING_FUNCTION
 title: NET_PACKET_DECLARE_CASTING_FUNCTION macro
-author: windows-driver-content
 description: The NET_PACKET_DECLARE_CASTING_FUNCTION macro declares a casting function for a NET_PACKET context space. 
 tech.root: netvista
 ms.assetid: b422849e-6601-46d9-a07c-6e9f2cf48725

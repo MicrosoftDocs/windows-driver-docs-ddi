@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_QOS_CAPABILITIES
 title: "_NDIS_QOS_CAPABILITIES"
-author: windows-driver-content
 description: The NDIS_QOS_CAPABILITIES structure specifies the NDIS Quality of Service (QoS) capabilities of a network adapter that supports the IEEE 802.1 Data Center Bridging (DCB) interface.
 old-location: netvista\ndis_qos_capabilities.htm
 tech.root: netvista

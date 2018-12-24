@@ -1,7 +1,6 @@
 ---
 UID: NC:sensorscx.PFN_SENSORSCXSENSORDATAREADY
 title: *PFN_SENSORSCXSENSORDATAREADY
-author: windows-driver-content
 description: Notifies the class extension that the driver has retrieved data.
 ms.assetid: 3f3740d2-5c45-483f-9ed4-5d4b65726705
 ms.date: 10/19/2018

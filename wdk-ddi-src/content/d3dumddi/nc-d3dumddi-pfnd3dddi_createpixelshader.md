@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATEPIXELSHADER
 title: PFND3DDDI_CREATEPIXELSHADER
-author: windows-driver-content
 description: The CreatePixelShader function converts pixel shader code into a hardware-specific format and associates this code with a shader handle.
 old-location: display\createpixelshader.htm
 tech.root: display

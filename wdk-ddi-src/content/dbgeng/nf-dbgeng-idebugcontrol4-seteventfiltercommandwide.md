@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.SetEventFilterCommandWide
 title: IDebugControl4::SetEventFilterCommandWide
-author: windows-driver-content
 description: The SetEventFilterCommandWide method sets a debugger command for the engine to execute when a specified event occurs.
 old-location: debugger\seteventfiltercommandwide.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_22
 title: TELEPHONY_CALLTYPE
-author: windows-driver-content
 description: The TELEPHONY_CALLTYPE enumeration defines constants that specify the type of phone call.
 old-location: audio\telephony_calltype.htm
 tech.root: audio

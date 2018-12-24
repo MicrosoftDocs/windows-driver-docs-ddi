@@ -1,7 +1,6 @@
 ---
 UID: NC:mrx.PMRX_EXTRACT_NETROOT_NAME
 title: PMRX_EXTRACT_NETROOT_NAME
-author: windows-driver-content
 description: The MRxExtractNetRootName routine is called by RDBSS to request that a network mini-redirector extract the name of the NET_ROOT structure from a given pathname.
 old-location: ifsk\mrxextractnetrootname.htm
 tech.root: ifsk

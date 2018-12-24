@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoQueryFileInformation
 title: IoQueryFileInformation function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\ioqueryfileinformation.htm
 tech.root: ifsk

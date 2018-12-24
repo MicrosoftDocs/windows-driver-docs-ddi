@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.PsGetParentSilo
 title: PsGetParentSilo function
-author: windows-driver-content
 description: Retrieves the most immediate parent silo in the hierarchy for a given job object.
 old-location: kernel\psgetparentsilo.htm
 tech.root: kernel

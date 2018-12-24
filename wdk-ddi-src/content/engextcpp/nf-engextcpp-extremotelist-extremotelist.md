@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteList.ExtRemoteList
 title: ExtRemoteList::ExtRemoteList method
-author: windows-driver-content
 description: The ExtRemoteList class provides a wrapper around a singly-linked or doubly-linked list. The class contains methods that can be used to move both forward and backward through the list.
 old-location: debugger\extremotelist.htm
 tech.root: debugger

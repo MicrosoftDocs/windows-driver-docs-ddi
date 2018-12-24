@@ -1,7 +1,6 @@
 ---
 UID: NI:bthioctl.IOCTL_BTH_GET_LOCAL_INFO
 title: IOCTL_BTH_GET_LOCAL_INFO
-author: windows-driver-content
 description: The IOCTL_BTH_GET_LOCAL_INFO request returns information about the local Bluetooth system and radio.
 old-location: bltooth\ioctl_bth_get_local_info.htm
 tech.root: bltooth

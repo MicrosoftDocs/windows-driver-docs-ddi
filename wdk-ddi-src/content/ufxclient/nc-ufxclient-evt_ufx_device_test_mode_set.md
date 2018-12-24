@@ -1,7 +1,6 @@
 ---
 UID: NC:ufxclient.EVT_UFX_DEVICE_TEST_MODE_SET
 title: EVT_UFX_DEVICE_TEST_MODE_SET
-author: windows-driver-content
 description: The client driver's implementation to set the test mode of the function controller.
 old-location: buses\evt_ufx_device_test_mode_set.htm
 tech.root: usbref

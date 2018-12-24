@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._REG_UNLOAD_KEY_INFORMATION
 title: "_REG_UNLOAD_KEY_INFORMATION"
-author: windows-driver-content
 description: The REG_UNLOAD_KEY_INFORMATION structure contains information that a driver's RegistryCallback routine can use when a registry hive is unloaded.
 old-location: kernel\reg_unload_key_information.htm
 tech.root: kernel

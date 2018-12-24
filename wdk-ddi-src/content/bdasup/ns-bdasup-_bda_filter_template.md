@@ -1,7 +1,6 @@
 ---
 UID: NS:bdasup._BDA_FILTER_TEMPLATE
 title: "_BDA_FILTER_TEMPLATE"
-author: windows-driver-content
 description: The BDA_FILTER_TEMPLATE structure describes the template topology for a BDA filter.
 old-location: stream\bda_filter_template.htm
 tech.root: stream

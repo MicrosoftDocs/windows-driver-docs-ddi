@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFLOG2.EndTestCase
 title: IWDTFLOG2::EndTestCase
-author: windows-driver-content
 description: Marks the end of a test case.
 old-location: dtf\iwdtflog2_endtestcase.htm
 tech.root: dtf

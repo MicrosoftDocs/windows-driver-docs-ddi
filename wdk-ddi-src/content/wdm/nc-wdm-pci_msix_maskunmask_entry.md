@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.PCI_MSIX_MASKUNMASK_ENTRY
 title: PCI_MSIX_MASKUNMASK_ENTRY
-author: windows-driver-content
 description: The MaskTableEntry routine masks an interrupt in the MSI-X hardware interrupt table.
 old-location: kernel\masktableentry.htm
 tech.root: kernel

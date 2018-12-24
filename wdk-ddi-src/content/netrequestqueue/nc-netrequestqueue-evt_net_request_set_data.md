@@ -1,7 +1,6 @@
 ---
 UID: NC:netrequestqueue.EVT_NET_REQUEST_SET_DATA
 title: EVT_NET_REQUEST_SET_DATA
-author: windows-driver-content
 description: Implemented by the client driver to handle a specific OID set request.
 tech.root: netvista
 ms.assetid: 213e6c64-701e-42ce-9e0e-7c8849dcedd6

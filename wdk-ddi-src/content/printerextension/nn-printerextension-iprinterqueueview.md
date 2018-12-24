@@ -1,7 +1,6 @@
 ---
 UID: NN:printerextension.IPrinterQueueView
 title: IPrinterQueueView
-author: windows-driver-content
 description: Provides a way to change the range of print jobs being monitored.
 old-location: print\iprinterqueueview.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlAnsiStringToUnicodeSize
 title: RtlAnsiStringToUnicodeSize macro
-author: windows-driver-content
 description: The RtlAnsiStringToUnicodeSize routine returns the number of bytes required to hold an ANSI string converted into a Unicode string.
 old-location: kernel\rtlansistringtounicodesize.htm
 tech.root: kernel

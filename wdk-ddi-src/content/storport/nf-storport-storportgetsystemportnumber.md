@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortGetSystemPortNumber
 title: StorPortGetSystemPortNumber function
-author: windows-driver-content
 description: The StorPortGetSystemPortNumber routine retrieves the system assigned port number for a storage adapter.
 old-location: storage\storportgetsystemportnumber.htm
 tech.root: storage

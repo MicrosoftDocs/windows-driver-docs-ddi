@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetImplicitThreadDataOffset
 title: IDebugSystemObjects4::GetImplicitThreadDataOffset
-author: windows-driver-content
 description: The GetImplicitThreadDataOffset method returns the implicit thread for the current process.
 old-location: debugger\getimplicitthreaddataoffset.htm
 tech.root: debugger

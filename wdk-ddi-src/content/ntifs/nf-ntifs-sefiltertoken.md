@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SeFilterToken
 title: SeFilterToken function
-author: windows-driver-content
 description: The SeFilterToken routine creates a new access token that is a restricted version of an existing access token.
 old-location: ifsk\sefiltertoken.htm
 tech.root: ifsk

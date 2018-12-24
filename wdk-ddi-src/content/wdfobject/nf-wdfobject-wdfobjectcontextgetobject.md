@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfobject.WdfObjectContextGetObject
 title: WdfObjectContextGetObject function
-author: windows-driver-content
 description: The WdfObjectContextGetObject method returns a handle to the framework object that a specified context space belongs to.
 old-location: wdf\wdfobjectcontextgetobject.htm
 tech.root: wdf

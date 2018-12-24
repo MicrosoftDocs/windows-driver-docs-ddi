@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniport.DataRangeIntersection
 title: IMiniport::DataRangeIntersection
-author: windows-driver-content
 description: TBD
 tech.root: audio
 ms.assetid: 4426949b-74c5-48b4-8a06-fad96a8ab743

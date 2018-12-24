@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD
 title: "_D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD"
-author: windows-driver-content
 description: The D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD structure describes a Microsoft DirectX Video Acceleration (VA) video processing high definition operation to perform.
 old-location: display\d3dddiarg_dxvahd_videoprocessblthd.htm
 tech.root: display

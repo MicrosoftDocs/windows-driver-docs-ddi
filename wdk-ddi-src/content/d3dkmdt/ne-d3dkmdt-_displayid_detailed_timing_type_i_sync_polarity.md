@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY
 title: "_DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY"
-author: windows-driver-content
 description: The DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY enumeration indicates the display device's sync polarity (whether the sync signal is positive or negative).
 old-location: display\displayid_detailed_timing_type_i_sync_polarity.htm
 tech.root: display

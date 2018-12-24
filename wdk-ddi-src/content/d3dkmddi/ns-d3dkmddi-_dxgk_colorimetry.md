@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_COLORIMETRY
 title: "_DXGK_COLORIMETRY"
-author: windows-driver-content
 description: Describes colorimetry and closely related fields used to describe overrides from the descriptor retrieved from the display device.
 old-location: display\dxgk_colorimetry.htm
 ms.assetid: F3F9B6EC-B978-4C87-8AE0-8F6BC73099D2

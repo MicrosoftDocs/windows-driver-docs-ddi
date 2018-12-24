@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltQueryDirectoryFile
 title: FltQueryDirectoryFile function
-author: windows-driver-content
 description: The FltQueryDirectoryFile routine returns various kinds of information about files in the directory specified by a given file object.
 old-location: ifsk\fltquerydirectoryfile.htm
 tech.root: ifsk

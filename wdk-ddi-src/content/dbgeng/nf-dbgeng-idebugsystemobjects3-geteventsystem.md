@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetEventSystem
 title: IDebugSystemObjects3::GetEventSystem
-author: windows-driver-content
 description: The GetEventSystem method returns the engine target ID for the target in which the last event occurred.
 old-location: debugger\geteventsystem.htm
 tech.root: debugger

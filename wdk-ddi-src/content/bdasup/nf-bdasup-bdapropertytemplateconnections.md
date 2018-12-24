@@ -1,7 +1,6 @@
 ---
 UID: NF:bdasup.BdaPropertyTemplateConnections
 title: BdaPropertyTemplateConnections function
-author: windows-driver-content
 description: The BdaPropertyTemplateConnections function retrieves a list of connections that describe how pin types and node types are connected in a template topology.
 old-location: stream\bdapropertytemplateconnections.htm
 tech.root: stream

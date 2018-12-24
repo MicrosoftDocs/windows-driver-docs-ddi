@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacksWide.ChangeDebuggeeState
 title: IDebugEventCallbacksWide::ChangeDebuggeeState
-author: windows-driver-content
 description: The ChangeDebuggeeState callback method is called by the engine when it makes or detects changes to the target.
 old-location: debugger\idebugeventcallbackswide_changedebuggeestate.htm
 tech.root: debugger

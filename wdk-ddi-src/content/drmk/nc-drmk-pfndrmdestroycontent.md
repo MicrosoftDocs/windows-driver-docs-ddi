@@ -1,7 +1,6 @@
 ---
 UID: NC:drmk.PFNDRMDESTROYCONTENT
 title: PFNDRMDESTROYCONTENT
-author: windows-driver-content
 description: This callback function is reserved for system use.
 old-location: audio\pfndrmdestroycontent.htm
 tech.root: audio

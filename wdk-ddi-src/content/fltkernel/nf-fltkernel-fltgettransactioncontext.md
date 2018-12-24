@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetTransactionContext
 title: FltGetTransactionContext function
-author: windows-driver-content
 description: The FltGetTransactionContext routine retrieves a context that was set for a transaction by a given minifilter driver.
 old-location: ifsk\fltgettransactioncontext.htm
 tech.root: ifsk

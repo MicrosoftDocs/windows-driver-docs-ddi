@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlIncrementCorrelationVector
 title: RtlIncrementCorrelationVector function
-author: windows-driver-content
 description: Increments the specified correlation vector. For a correlation vector of the form X.i, the incremented value is be X.(i+1).
 old-location: kernel\rtlincrementcorrelationvector.htm
 tech.root: kernel

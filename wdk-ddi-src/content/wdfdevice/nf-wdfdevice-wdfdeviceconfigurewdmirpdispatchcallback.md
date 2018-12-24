@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceConfigureWdmIrpDispatchCallback
 title: WdfDeviceConfigureWdmIrpDispatchCallback function
-author: windows-driver-content
 description: The WdfDeviceConfigureWdmIrpDispatchCallback method registers a driver's EvtDeviceWdmIrpDispatch callback function.
 old-location: wdf\wdfdeviceconfigurewdmirpdispatchcallback.htm
 tech.root: wdf

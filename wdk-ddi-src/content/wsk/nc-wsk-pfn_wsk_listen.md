@@ -1,7 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_LISTEN
 title: PFN_WSK_LISTEN
-author: windows-driver-content
 description: The WskListen function enables a stream socket to listen for incoming connections at the socket's bound address.
 old-location: netvista\wsklisten.htm
 tech.root: netvista

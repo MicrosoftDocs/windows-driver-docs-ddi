@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMUpdateExternalFonts
 title: OEMUpdateExternalFonts function
-author: windows-driver-content
 description: OEMUpdateExternalFonts function
 old-location: print\oemupdateexternalfonts.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:sercx.SERCX_CONFIG_INIT
 title: SERCX_CONFIG_INIT function
-author: windows-driver-content
 description: The SERCX_CONFIG_INIT function initializes a SERCX_CONFIG structure.
 old-location: serports\sercx_config_init.htm
 tech.root: serports

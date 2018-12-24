@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetNumberEventCallbacks
 title: IDebugClient5::GetNumberEventCallbacks
-author: windows-driver-content
 description: The GetNumberEventCallbacks method returns the number of event callbacks that are interested in the given events.
 old-location: debugger\getnumbereventcallbacks.htm
 tech.root: debugger

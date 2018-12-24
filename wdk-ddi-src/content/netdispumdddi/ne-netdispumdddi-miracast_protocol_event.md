@@ -1,7 +1,6 @@
 ---
 UID: NE:netdispumdddi.__unnamed_enum_1
 title: MIRACAST_PROTOCOL_EVENT
-author: windows-driver-content
 description: Specifies the types of wireless display (Miracast) protocol event that the user-mode display driver should report.
 old-location: display\miracast_protocol_event.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NC:ntddk.pHalExamineMBR
 title: pHalExamineMBR
-author: windows-driver-content
 description: The HalExamineMBR routine reads the master boot record (MBR) of a disk and returns data from the MBR if the MBR is of the type specified by the caller.
 old-location: kernel\halexaminembr.htm
 tech.root: kernel

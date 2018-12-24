@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.ReadProcessorSystemData
 title: IDebugDataSpaces4::ReadProcessorSystemData
-author: windows-driver-content
 description: The ReadProcessorSystemData method returns data about the specified processor.
 old-location: debugger\readprocessorsystemdata.htm
 tech.root: debugger

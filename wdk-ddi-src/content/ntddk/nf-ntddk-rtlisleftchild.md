@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlIsLeftChild
 title: RtlIsLeftChild macro
-author: windows-driver-content
 description: The RtlIsLeftChild routine determines whether a given splay link is the left child of a node in a splay link tree.
 old-location: ifsk\rtlisleftchild.htm
 tech.root: ifsk

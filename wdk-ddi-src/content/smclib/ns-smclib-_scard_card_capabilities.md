@@ -1,7 +1,6 @@
 ---
 UID: NS:smclib._SCARD_CARD_CAPABILITIES
 title: "_SCARD_CARD_CAPABILITIES"
-author: windows-driver-content
 description: The SCARD_CARD_CAPABILITIES structure declaration defines the data that is stored in the CardCapabilites member of the SMARTCARD_EXTENSION structure and holds all information that is specific to the particular smart card that is currently used.
 old-location: smartcrd\scard_card_capabilities.htm
 tech.root: smartcrd

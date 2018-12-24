@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperUni.WhyConstrained
 title: IPrintCoreHelperUni::WhyConstrained
-author: windows-driver-content
 description: The IPrintCoreHelperUni::WhyConstrained method provides a list of options that constrain the specified feature-option pair in the current configuration.
 old-location: print\iprintcorehelperuni_whyconstrained.htm
 tech.root: print

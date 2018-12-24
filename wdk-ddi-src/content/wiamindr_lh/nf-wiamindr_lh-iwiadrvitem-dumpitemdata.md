@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaDrvItem.DumpItemData
 title: IWiaDrvItem::DumpItemData
-author: windows-driver-content
 description: The IWiaDrvItem::DumpItemData method dumps private data associated with an IWiaDrvItem item into an allocated private buffer.
 old-location: image\iwiadrvitem_dumpitemdata.htm
 tech.root: image

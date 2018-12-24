@@ -1,7 +1,6 @@
 ---
 UID: NI:parallel.IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT
 title: IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT
-author: windows-driver-content
 description: The IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT request disconnects an interrupt service routine (and an optional deferred port check service routine) that was connected by using an IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT request.
 old-location: parports\ioctl_internal_parallel_disconnect_interrupt.htm
 tech.root: parports

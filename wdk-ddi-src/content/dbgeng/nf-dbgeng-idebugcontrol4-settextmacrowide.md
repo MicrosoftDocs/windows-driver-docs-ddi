@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.SetTextMacroWide
 title: IDebugControl4::SetTextMacroWide
-author: windows-driver-content
 description: The SetTextMacroWide method sets the value of a fixed-name alias.
 old-location: debugger\settextmacrowide.htm
 tech.root: debugger

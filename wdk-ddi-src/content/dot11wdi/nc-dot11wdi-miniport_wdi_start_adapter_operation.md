@@ -1,7 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_START_ADAPTER_OPERATION
 title: MINIPORT_WDI_START_ADAPTER_OPERATION
-author: windows-driver-content
 description: The MiniportWdiStartAdapterOperation handler function can be used by the IHV driver to perform any additional MiniportInitializeEx tasks.
 old-location: netvista\miniportwdistartoperation.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.OutSimpleValue
 title: ExtRemoteTyped::OutSimpleValue
-author: windows-driver-content
 description: The OutSimpleValue method prints the value of the typed data represented by this object.
 old-location: debugger\extremotetyped_outsimplevalue.htm
 tech.root: debugger

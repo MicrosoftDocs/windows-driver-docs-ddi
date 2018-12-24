@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IIterableConcept.GetDefaultIndexDimensionality
 title: IIterableConcept::GetDefaultIndexDimensionality
-author: windows-driver-content
 description: The GetDefaultIndexDimensionality method returns the number of dimensions to the default index. 
 ms.assetid: 877b66bb-4b7a-4e4e-8199-d90a77eabda7
 ms.date: 09/19/2018

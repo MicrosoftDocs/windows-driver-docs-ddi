@@ -1,7 +1,6 @@
 ---
 UID: NC:ntddk.EXPAND_STACK_CALLOUT
 title: EXPAND_STACK_CALLOUT
-author: windows-driver-content
 description: The ExpandedStackCall routine executes with a guaranteed stack size.
 old-location: kernel\expandedstackcall.htm
 tech.root: kernel

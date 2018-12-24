@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_WMDRMTUNER_PURCHASEENTITLEMENT
 title: "_BDA_WMDRMTUNER_PURCHASEENTITLEMENT"
-author: windows-driver-content
 description: 
 old-location: stream\bda_wmdrmtuner_purchaseentitlement.htm
 tech.root: stream

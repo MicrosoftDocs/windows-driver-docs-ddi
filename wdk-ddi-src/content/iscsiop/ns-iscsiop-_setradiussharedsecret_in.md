@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._SetRADIUSSharedSecret_IN
 title: "_SetRADIUSSharedSecret_IN"
-author: windows-driver-content
 description: The SetRADIUSSharedSecret_IN structure holds the input data for the SetRADIUSSharedSecret method.
 old-location: storage\setradiussharedsecret_in.htm
 tech.root: storage

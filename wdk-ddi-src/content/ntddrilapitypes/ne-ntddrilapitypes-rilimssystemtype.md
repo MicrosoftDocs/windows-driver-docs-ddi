@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILIMSSYSTEMTYPE
 title: RILIMSSYSTEMTYPE
-author: windows-driver-content
 description: The RILIMSSYSTEMTYPE enumeration has the following values.
 old-location: netvista\rilimssystemtype.htm
 tech.root: netvista

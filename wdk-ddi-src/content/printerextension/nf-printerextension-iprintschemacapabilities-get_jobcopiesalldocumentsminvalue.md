@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMinValue
 title: IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue
-author: windows-driver-content
 description: Gets the JobCopiesAllDocuments parameter minimum value.
 old-location: print\iprintschemacapabilities_jobcopiesalldocumentsminvalue.htm
 tech.root: print

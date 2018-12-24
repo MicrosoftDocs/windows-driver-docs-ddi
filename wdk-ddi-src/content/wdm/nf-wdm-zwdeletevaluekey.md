@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwDeleteValueKey
 title: ZwDeleteValueKey function
-author: windows-driver-content
 description: The ZwDeleteValueKey routine deletes a value entry matching a name from an open key in the registry. If no such entry exists, an error is returned.
 old-location: kernel\zwdeletevaluekey.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPAction2.EnableDevice
 title: IWDTFPNPAction2::EnableDevice
-author: windows-driver-content
 description: Enables the target device.
 old-location: dtf\iwdtfpnpaction2_enabledevice.htm
 tech.root: dtf

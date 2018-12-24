@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SUBMITCOMMANDCB
 title: PFND3DDDI_SUBMITCOMMANDCB
-author: windows-driver-content
 description: pfnSubmitCommandCb is used to submit command buffers on contexts that support graphics processing unit (GPU) virtual addressing.
 old-location: display\pfnsubmitcommandcb.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionEventArgs.get_ReasonId
 title: IPrinterExtensionEventArgs::get_ReasonId
-author: windows-driver-content
 description: Gets the reason why the printer extension was activated.
 old-location: print\iprinterextensioneventargs_reasonid.htm
 tech.root: print

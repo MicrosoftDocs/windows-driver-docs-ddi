@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS
 title: "_FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS"
-author: windows-driver-content
 description: The FUNCTION_LEVEL_DEVICE_RESET_PARAMETER structure is used as an argument to the DeviceReset routine of the GUID_DEVICE_RESET_INTERFACE_STANDARD interface.
 old-location: kernel\function_level_device_reset_parameters.htm
 tech.root: kernel

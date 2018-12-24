@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_UPDATEMODES
 title: IDARG_IN_UPDATEMODES
-author: windows-driver-content
 description: Gives information about the target modes that will be updated by the driver.
 old-location: display\idarg_in_updatemodes.htm
 tech.root: display

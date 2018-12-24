@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY
 title: DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY
-author: windows-driver-content
 description: Reports the colorimetry values selected by the OS for a target.
 old-location: display\dxgkddi_settargetadjustedcolorimetry.htm
 tech.root: display

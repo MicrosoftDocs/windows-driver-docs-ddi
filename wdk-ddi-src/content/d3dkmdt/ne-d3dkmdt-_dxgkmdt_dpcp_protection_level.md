@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGKMDT_DPCP_PROTECTION_LEVEL
 title: "_DXGKMDT_DPCP_PROTECTION_LEVEL"
-author: windows-driver-content
 description: The DXGKMDT_OPM_DPCP_PROTECTION_LEVEL enumeration indicates the protection levels for a protected output that supports DisplayPort Content Protection (DPCP).
 old-location: display\dxgkmdt_opm_dpcp_protection_level.htm
 tech.root: display

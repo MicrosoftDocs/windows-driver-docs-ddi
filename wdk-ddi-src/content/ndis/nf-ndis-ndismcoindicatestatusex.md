@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMCoIndicateStatusEx
 title: NdisMCoIndicateStatusEx function
-author: windows-driver-content
 description: The NdisMCoIndicateStatusEx function reports a change in the status of a CoNDIS miniport adapter.
 old-location: netvista\ndismcoindicatestatusex.htm
 tech.root: netvista

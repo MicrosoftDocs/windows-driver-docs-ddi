@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_CULL_MODE
 title: D3D12DDI_CULL_MODE
-author: windows-driver-content
 description: Specifies the type of cull mode, or what graphical object, is visible in rendering.
 ms.assetid: 3c5a468b-3b0c-46a7-af58-31000942e688
 ms.date: 10/19/2018

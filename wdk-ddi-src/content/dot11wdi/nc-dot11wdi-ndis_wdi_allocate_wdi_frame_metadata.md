@@ -1,7 +1,6 @@
 ---
 UID: NC:dot11wdi.NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA
 title: NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA
-author: windows-driver-content
 description: The NdisWdiAllocateWiFiFrameMetaData callback function allocates a frame metadata buffer.
 old-location: netvista\ndiswdiallocatewdiframemetadata.htm
 tech.root: netvista

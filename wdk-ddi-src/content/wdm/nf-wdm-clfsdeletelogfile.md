@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsDeleteLogFile
 title: ClfsDeleteLogFile function
-author: windows-driver-content
 description: The ClfsDeleteLogFile routine marks a CLFS stream for deletion.
 old-location: kernel\clfsdeletelogfile.htm
 tech.root: kernel

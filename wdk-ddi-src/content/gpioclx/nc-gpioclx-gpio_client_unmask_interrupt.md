@@ -1,7 +1,6 @@
 ---
 UID: NC:gpioclx.GPIO_CLIENT_UNMASK_INTERRUPT
 title: GPIO_CLIENT_UNMASK_INTERRUPT
-author: windows-driver-content
 description: The CLIENT_UnmaskInterrupt event callback function unmasks the interrupt on a general-purpose I/O (GPIO) pin that is configured as an interrupt input.
 old-location: gpio\client_unmaskinterrupt.htm
 tech.root: GPIO

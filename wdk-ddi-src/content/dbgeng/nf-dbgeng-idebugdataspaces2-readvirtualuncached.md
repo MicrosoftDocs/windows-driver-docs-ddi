@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces2.ReadVirtualUncached
 title: IDebugDataSpaces2::ReadVirtualUncached
-author: windows-driver-content
 description: The ReadVirtualUncached method reads memory from the target's virtual address space.
 old-location: debugger\readvirtualuncached.htm
 tech.root: debugger

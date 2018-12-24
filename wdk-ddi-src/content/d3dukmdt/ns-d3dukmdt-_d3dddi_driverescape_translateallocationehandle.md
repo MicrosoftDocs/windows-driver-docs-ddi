@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_DRIVERESCAPE_TRANSLATEALLOCATIONEHANDLE
 title: _D3DDDI_DRIVERESCAPE_TRANSLATEALLOCATIONEHANDLE
-author: windows-driver-content
 description: Used to translate the guest allocation to the corresponding host handle.
 ms.assetid: 8a286cbc-92cb-45cd-ac98-c0d185fc0bf0
 ms.date: 10/19/2018

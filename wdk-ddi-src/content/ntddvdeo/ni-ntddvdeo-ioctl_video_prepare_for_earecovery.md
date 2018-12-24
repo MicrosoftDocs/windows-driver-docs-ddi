@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_PREPARE_FOR_EARECOVERY
 title: IOCTL_VIDEO_PREPARE_FOR_EARECOVERY
-author: windows-driver-content
 description: This IOCTL is for internal use only.
 old-location: display\ioctl_video_prepare_for_earecovery.htm
 tech.root: display

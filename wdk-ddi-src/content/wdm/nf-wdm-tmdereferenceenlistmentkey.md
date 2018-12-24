@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.TmDereferenceEnlistmentKey
 title: TmDereferenceEnlistmentKey function
-author: windows-driver-content
 description: The TmDereferenceEnlistmentKey routine decrements the reference count for the key of a specified enlistment object.
 old-location: kernel\tmdereferenceenlistmentkey.htm
 tech.root: kernel

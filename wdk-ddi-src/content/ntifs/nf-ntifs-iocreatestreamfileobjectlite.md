@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoCreateStreamFileObjectLite
 title: IoCreateStreamFileObjectLite function
-author: windows-driver-content
 description: The IoCreateStreamFileObjectLite routine creates a new stream file object, but does not cause an IRP_MJ_CLEANUP request to be sent to the file system driver stack.
 old-location: ifsk\iocreatestreamfileobjectlite.htm
 tech.root: ifsk

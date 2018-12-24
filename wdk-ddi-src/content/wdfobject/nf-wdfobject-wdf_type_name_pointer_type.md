@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfobject.WDF_TYPE_NAME_POINTER_TYPE
 title: WDF_TYPE_NAME_POINTER_TYPE macro
-author: windows-driver-content
 description: This macro is reserved for internal use only.
 old-location: wdf\wdf_type_name_pointer_type.htm
 tech.root: wdf

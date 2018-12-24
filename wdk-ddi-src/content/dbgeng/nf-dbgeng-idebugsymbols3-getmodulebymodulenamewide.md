@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetModuleByModuleNameWide
 title: IDebugSymbols3::GetModuleByModuleNameWide
-author: windows-driver-content
 description: The GetModuleByModuleNameWide method searches through the target's modules for one with the specified name.
 old-location: debugger\getmodulebymodulenamewide.htm
 tech.root: debugger

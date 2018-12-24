@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUI2.HideStandardUI
 title: IPrintOemUI2::HideStandardUI
-author: windows-driver-content
 description: The IPrintOemUI2::HideStandardUI method allows a user interface plug-in to specify whether the standard property sheets should be displayed or hidden.
 old-location: print\iprintoemui2_hidestandardui.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols5.SetScopeFrameByIndexEx
 title: IDebugSymbols5::SetScopeFrameByIndexEx
-author: windows-driver-content
 description: Sets the current frame by using an index.
 old-location: debugger\idebugsymbols5_setscopeframebyindexex.htm
 tech.root: debugger

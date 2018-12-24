@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILPHONEBOOKANSOPERATION
 title: RILPHONEBOOKANSOPERATION
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilphonebookansoperation.htm
 tech.root: netvista

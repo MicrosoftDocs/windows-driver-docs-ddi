@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisInterlockedDecrement
 title: NdisInterlockedDecrement macro
-author: windows-driver-content
 description: The NdisInterlockedDecrement function decrements a caller-supplied variable of type LONG as an atomic operation.
 old-location: netvista\ndisinterlockeddecrement.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_SAVE_HARDWARE_STATE
 title: IOCTL_VIDEO_SAVE_HARDWARE_STATE
-author: windows-driver-content
 description: Saves the state of the video adapter in the VRP OutputBuffer. Miniport drivers for VGA-compatible adapters are required to support this nonmodal request; optional for other miniport drivers.
 old-location: display\ioctl_video_save_hardware_state.htm
 tech.root: display

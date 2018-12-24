@@ -1,7 +1,6 @@
 ---
 UID: NS:minitape.__unnamed_struct_18
 title: RECEIVE_TOKEN_INFORMATION_HEADER
-author: windows-driver-content
 description: The RECEIVE_TOKEN_INFORMATION_HEADER structure contains information returned as status from an offload data transfer operation.
 old-location: storage\receive_token_information_header.htm
 tech.root: storage

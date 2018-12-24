@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWavePciStream.GetAllocatorFraming
 title: IMiniportWavePciStream::GetAllocatorFraming
-author: windows-driver-content
 description: The GetAllocatorFraming method gets the preferred allocator-framing parameters for the stream.
 old-location: audio\iminiportwavepcistream_getallocatorframing.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces.ReadVirtual
 title: IDebugDataSpaces::ReadVirtual
-author: windows-driver-content
 description: The ReadVirtual method reads memory from the target's virtual address space.
 old-location: debugger\readvirtual.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_SPEC_VERSION
 title: "_STORAGE_SPEC_VERSION"
-author: windows-driver-content
 description: Indicates the specification of the storage device.
 old-location: storage\storage_spec_version.htm
 tech.root: storage

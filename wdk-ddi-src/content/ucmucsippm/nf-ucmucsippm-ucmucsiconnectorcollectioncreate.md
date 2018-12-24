@@ -1,7 +1,6 @@
 ---
 UID: NF:ucmucsippm.UcmUcsiConnectorCollectionCreate
 title: UcmUcsiConnectorCollectionCreate function
-author: windows-driver-content
 tech.root: usbref
 description: Creates a connector collection object with UcmUcsiCx.
 ms.assetid: 60a87133-87f2-4f4a-92b7-78c2562b88f5

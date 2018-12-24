@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.DeviceCapabilities
 title: IPrintOemUI::DeviceCapabilities
-author: windows-driver-content
 description: The IPrintOemUI::DeviceCapabilities method enables a user interface plug-in to specify customized device capabilities.
 old-location: print\iprintoemui_devicecapabilities.htm
 tech.root: print

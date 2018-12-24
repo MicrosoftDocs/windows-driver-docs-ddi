@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltAllocateFileLock
 title: FltAllocateFileLock function
-author: windows-driver-content
 description: The FltAllocateFileLock routine allocates and initializes a new FILE_LOCK structure.
 old-location: ifsk\fltallocatefilelock.htm
 tech.root: ifsk

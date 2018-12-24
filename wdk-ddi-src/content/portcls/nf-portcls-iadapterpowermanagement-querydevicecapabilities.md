@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IAdapterPowerManagement.QueryDeviceCapabilities
 title: IAdapterPowerManagement::QueryDeviceCapabilities
-author: windows-driver-content
 description: The QueryDeviceCapabilities method is called by PortCls in response to a Plug and Play IRP_MN_QUERY_CAPABILITIES IRP.
 old-location: audio\iadapterpowermanagement_querydevicecapabilities.htm
 tech.root: audio

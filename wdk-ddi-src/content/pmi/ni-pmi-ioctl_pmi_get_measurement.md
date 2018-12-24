@@ -1,7 +1,6 @@
 ---
 UID: NI:pmi.IOCTL_PMI_GET_MEASUREMENT
 title: IOCTL_PMI_GET_MEASUREMENT
-author: windows-driver-content
 description: The IOCTL_PMI_GET_MEASUREMENT request returns the current measurement data from a power meter.
 old-location: powermeter\ioctl_pmi_get_measurement.htm
 tech.root: powermeter

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.CmGetBoundTransaction
 title: CmGetBoundTransaction function
-author: windows-driver-content
 description: The CmGetBoundTransaction routine returns a pointer to the transaction object that represents the transaction, if any, that is associated with a specified registry key object.
 old-location: kernel\cmgetboundtransaction.htm
 tech.root: kernel

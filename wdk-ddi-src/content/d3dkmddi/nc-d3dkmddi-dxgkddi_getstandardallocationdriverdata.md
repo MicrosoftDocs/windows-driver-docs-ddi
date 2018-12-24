@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_GETSTANDARDALLOCATIONDRIVERDATA
 title: DXGKDDI_GETSTANDARDALLOCATIONDRIVERDATA
-author: windows-driver-content
 description: The DxgkDdiGetStandardAllocationDriverData function returns a description of a standard allocation type.
 old-location: display\dxgkddigetstandardallocationdriverdata.htm
 ms.assetid: 38a9859f-ed9f-41a5-9bf1-c734480499ea

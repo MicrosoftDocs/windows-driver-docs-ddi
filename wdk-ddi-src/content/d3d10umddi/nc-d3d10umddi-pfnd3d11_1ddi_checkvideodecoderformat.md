@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CHECKVIDEODECODERFORMAT
 title: PFND3D11_1DDI_CHECKVIDEODECODERFORMAT
-author: windows-driver-content
 description: Determines whether a specified format can be used as a video decoder output format for a specified DirectX Video Acceleration (DXVA) profile.
 old-location: display\checkvideodecoderformat.htm
 ms.assetid: 6bde6e00-70ba-4fa5-9cc0-9884ce7381ed

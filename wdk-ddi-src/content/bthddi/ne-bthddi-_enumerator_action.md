@@ -1,7 +1,6 @@
 ---
 UID: NE:bthddi._ENUMERATOR_ACTION
 title: "_ENUMERATOR_ACTION"
-author: windows-driver-content
 description: Reserved for internal use.
 old-location: bltooth\enumerator_action.htm
 tech.root: bltooth

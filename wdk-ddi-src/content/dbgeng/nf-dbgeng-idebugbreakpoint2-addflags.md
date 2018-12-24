@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint2.AddFlags
 title: IDebugBreakpoint2::AddFlags
-author: windows-driver-content
 description: The AddFlags method adds flags to a breakpoint.
 old-location: debugger\addflags.htm
 tech.root: debugger

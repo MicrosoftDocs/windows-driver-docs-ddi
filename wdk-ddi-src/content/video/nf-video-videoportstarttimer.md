@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortStartTimer
 title: VideoPortStartTimer function
-author: windows-driver-content
 description: The VideoPortStartTimer function enables calls to a miniport driver's HwVidTimer function.
 old-location: display\videoportstarttimer.htm
 tech.root: display

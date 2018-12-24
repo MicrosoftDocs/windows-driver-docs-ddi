@@ -1,7 +1,6 @@
 ---
 UID: NF:wia_lh.IWiaErrorHandler.ReportStatus
 title: IWiaErrorHandler::ReportStatus
-author: windows-driver-content
 description: The ReportStatus method displays information about an error or status during a transfer. In some cases this method allows the user to recover from an error.
 old-location: image\iwiaerrorhandler_reportstatus.htm
 tech.root: image

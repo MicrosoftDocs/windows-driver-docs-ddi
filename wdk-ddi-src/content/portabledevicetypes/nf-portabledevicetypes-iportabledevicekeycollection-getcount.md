@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceKeyCollection.GetCount
 title: IPortableDeviceKeyCollection::GetCount
-author: windows-driver-content
 description: Retrieves the number of keys in this collection.
 old-location: wpddk\iportabledevicekeycollection_getcount.htm
 tech.root: wpd_dk

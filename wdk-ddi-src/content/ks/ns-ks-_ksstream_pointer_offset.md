@@ -1,7 +1,6 @@
 ---
 UID: NS:ks._KSSTREAM_POINTER_OFFSET
 title: "_KSSTREAM_POINTER_OFFSET"
-author: windows-driver-content
 description: The KSSTREAM_POINTER_OFFSET structure indexes bytes or mappings within a frame.
 old-location: stream\ksstream_pointer_offset.htm
 tech.root: stream

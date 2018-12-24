@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEVIDEODECODER_0032
 title: PFND3D12DDI_CREATEVIDEODECODER_0032
-author: windows-driver-content
 description: Used to create a video decoder.
 old-location: display\pfnd3d12ddi_createvideodecoder_0032.htm
 ms.assetid: F3E8FB7A-A25B-47CE-8B14-9AE8737930D4

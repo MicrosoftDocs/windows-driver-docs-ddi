@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetSendInternalIoctlSynchronously
 title: WdfIoTargetSendInternalIoctlSynchronously function
-author: windows-driver-content
 description: The WdfIoTargetSendInternalIoctlSynchronously method builds an internal device control request and sends it synchronously to an I/O target.
 old-location: wdf\wdfiotargetsendinternalioctlsynchronously.htm
 tech.root: wdf

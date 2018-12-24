@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_REPORT_DIAGNOSTIC
 title: DXGKCB_REPORT_DIAGNOSTIC
-author: windows-driver-content
 description: Implemented by the kernel mode driver to report diagnostic logging.
 ms.assetid: 1c38189b-daaf-4d55-826a-5e868a0e1190
 ms.date: 10/19/2018

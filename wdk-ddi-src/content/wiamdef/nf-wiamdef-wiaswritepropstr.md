@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasWritePropStr
 title: wiasWritePropStr function
-author: windows-driver-content
 description: The wiasWritePropStr function writes a single string property value to a WIA item.
 old-location: image\wiaswritepropstr.htm
 tech.root: image

@@ -1,7 +1,6 @@
 ---
 UID: NS:bthioctl._BTH_COMMAND_HEADER
 title: "_BTH_COMMAND_HEADER"
-author: windows-driver-content
 description: The BTH_COMMAND_HEADER structure specifies header information for a vendor-specific HCI command.
 old-location: bltooth\bth_command_header.htm
 tech.root: bltooth

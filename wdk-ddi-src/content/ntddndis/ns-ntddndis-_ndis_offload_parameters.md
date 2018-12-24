@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_OFFLOAD_PARAMETERS
 title: "_NDIS_OFFLOAD_PARAMETERS"
-author: windows-driver-content
 description: The NDIS_OFFLOAD_PARAMETERS structure specifies the current task offload configuration settings in response to an OID set request of OID_TCP_OFFLOAD_PARAMETERS.
 old-location: netvista\ndis_offload_parameters.htm
 tech.root: netvista

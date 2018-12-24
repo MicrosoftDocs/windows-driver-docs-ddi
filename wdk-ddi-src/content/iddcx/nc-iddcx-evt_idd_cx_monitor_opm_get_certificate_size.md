@@ -1,7 +1,6 @@
 ---
 UID: NC:iddcx.EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE
 title: EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE
-author: windows-driver-content
 description: EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE is called by the OS to get the size of an OPM certificate.
 old-location: display\evt_idd_cx_monitor_opm_get_certificate_size.htm
 tech.root: display

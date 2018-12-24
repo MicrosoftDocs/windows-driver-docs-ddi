@@ -1,7 +1,6 @@
 ---
 UID: NN:prnasntp.IPrintAsyncNotify
 title: IPrintAsyncNotify
-author: windows-driver-content
 description: 
 old-location: print\iprintasyncnotify.htm
 tech.root: print

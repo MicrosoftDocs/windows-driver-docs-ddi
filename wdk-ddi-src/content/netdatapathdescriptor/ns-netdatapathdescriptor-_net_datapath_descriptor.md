@@ -1,7 +1,6 @@
 ---
 UID: NS:netdatapathdescriptor._NET_DATAPATH_DESCRIPTOR
 title: _NET_DATAPATH_DESCRIPTOR
-author: windows-driver-content
 description: The NET_DATAPATH_DESCRIPTOR structure describes a datapath queue's ring buffers.
 tech.root: netvista
 ms.assetid: 9b156fe0-5746-4628-9bc1-5973bf55710a

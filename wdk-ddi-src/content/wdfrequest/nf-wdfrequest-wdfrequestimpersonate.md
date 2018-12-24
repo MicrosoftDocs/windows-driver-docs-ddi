@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestImpersonate
 title: WdfRequestImpersonate function
-author: windows-driver-content
 description: The WdfRequestImpersonate method registers a driver-supplied event callback function that the framework should call for impersonation.
 old-location: wdf\wdfrequestimpersonate.htm
 tech.root: wdf

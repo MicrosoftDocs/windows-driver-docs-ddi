@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.GetSymbolValueText
 title: IDebugSymbolGroup2::GetSymbolValueText
-author: windows-driver-content
 description: The GetSymbolValueText method returns a string that represents the value of a symbol.
 old-location: debugger\getsymbolvaluetext.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects2.GetEventProcess
 title: IDebugSystemObjects2::GetEventProcess
-author: windows-driver-content
 description: The GetEventProcess method returns the engine process ID for the process on which the last event occurred.
 old-location: debugger\geteventprocess.htm
 tech.root: debugger

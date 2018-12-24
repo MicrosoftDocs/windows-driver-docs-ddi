@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_GDIARG_STRETCHBLT
 title: "_DXGK_GDIARG_STRETCHBLT"
-author: windows-driver-content
 description: The DXGK_GDIARG_STRETCHBLT structure describes the characteristics of a GDI hardware-accelerated stretch bit-block transfer (bitblt) operation.
 old-location: display\dxgk_gdiarg_stretchblt.htm
 ms.assetid: 11988e4c-9f4b-44cc-bc09-ff6da62f3904

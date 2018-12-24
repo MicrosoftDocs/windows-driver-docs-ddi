@@ -1,7 +1,6 @@
 ---
 UID: NF:iddcx.IddCxSwapChainGetDirtyRects
 title: IddCxSwapChainGetDirtyRects function
-author: windows-driver-content
 description: An OS callback function the driver calls when it wants retrieve the dirty rects for the current frame.
 old-location: display\iddcxswapchaingetdirtyrects.htm
 tech.root: display

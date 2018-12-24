@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_MAXDISPLAYPIPELINERATE
 title: IDARG_IN_MAXDISPLAYPIPELINERATE
-author: windows-driver-content
 description: Gives information about the maximum display pipeline rate.
 old-location: display\idarg_in_maxdisplaypipelinerate.htm
 tech.root: display

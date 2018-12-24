@@ -1,7 +1,6 @@
 ---
 UID: NF:usbdlib.COMPOSITE_DEVICE_CAPABILITIES_INIT
 title: COMPOSITE_DEVICE_CAPABILITIES_INIT function
-author: windows-driver-content
 description: The COMPOSITE_DEVICE_CAPABILITIES_INIT macro initializes the COMPOSITE_DEVICE_CAPABILITIES structure.
 old-location: buses\composite_driver_capabilities_init.htm
 tech.root: usbref

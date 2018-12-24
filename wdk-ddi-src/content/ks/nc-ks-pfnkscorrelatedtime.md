@@ -1,7 +1,6 @@
 ---
 UID: NC:ks.PFNKSCORRELATEDTIME
 title: PFNKSCORRELATEDTIME
-author: windows-driver-content
 description: A streaming minidriver's KStrCorrelatedTime routine is called to retrieve both the presentation time and physical time in a correlated manner. This allows the clock owner to completely determine the current time.
 old-location: stream\kstrcorrelatedtime.htm
 tech.root: stream

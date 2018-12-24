@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlInitializeMcb
 title: FsRtlInitializeMcb function
-author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\fsrtlinitializemcb.htm
 tech.root: ifsk

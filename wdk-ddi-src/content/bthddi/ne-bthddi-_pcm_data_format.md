@@ -1,7 +1,6 @@
 ---
 UID: NE:bthddi._PCM_DATA_FORMAT
 title: "_PCM_DATA_FORMAT"
-author: windows-driver-content
 description: This enumeration is for internal use only.
 old-location: bltooth\pcm_data_format.htm
 tech.root: bltooth

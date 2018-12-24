@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVAHDDDI_DEVICE_USAGE
 title: "_DXVAHDDDI_DEVICE_USAGE"
-author: windows-driver-content
 description: The DXVAHDDDI_DEVICE_USAGE enumeration contains values that identify how the decode device plays video.
 old-location: display\dxvahdddi_device_usage.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NC:storport.HW_INITIALIZE
 title: HW_INITIALIZE
-author: windows-driver-content
 description: The HwStorInitialize routine initializes the miniport driver after a system reboot or power failure occurs.
 old-location: storage\hwstorinitialize.htm
 tech.root: storage

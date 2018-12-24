@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYPROTECTEDRESOURCESESSION_0030
 title: PFND3D12DDI_DESTROYPROTECTEDRESOURCESESSION_0030
-author: windows-driver-content
 description: Used to destroy a protected resource session.
 old-location: display\pfnd3d12ddi_destroyprotectedresourcesession_0030.htm
 ms.assetid: B247AB7B-D133-43FE-A208-CF5E3C7F7DBE

@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMResetMiniport
 title: NdisMResetMiniport function
-author: windows-driver-content
 description: A miniport driver calls the NdisMResetMiniport function to trigger a later reset operation from NDIS.
 old-location: netvista\ndismresetminiport.htm
 tech.root: netvista

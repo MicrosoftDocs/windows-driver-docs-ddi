@@ -1,7 +1,6 @@
 ---
 UID: NF:irb.AtaPortAllocateQueueTag
 title: AtaPortAllocateQueueTag function
-author: windows-driver-content
 description: The AtaPortAllocateQueueTag routine returns a queue tag for the specified device.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportallocatequeuetag.htm
 tech.root: storage

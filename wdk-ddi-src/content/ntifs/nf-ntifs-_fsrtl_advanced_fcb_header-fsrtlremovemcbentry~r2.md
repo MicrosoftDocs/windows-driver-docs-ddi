@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlRemoveMcbEntry~r2
 title: FsRtlRemoveMcbEntry function
-author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\fsrtlremovemcbentry.htm
 tech.root: ifsk

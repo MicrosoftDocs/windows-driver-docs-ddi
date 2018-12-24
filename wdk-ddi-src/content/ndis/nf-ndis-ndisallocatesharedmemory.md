@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateSharedMemory
 title: NdisAllocateSharedMemory function
-author: windows-driver-content
 description: The NdisAllocateSharedMemory function allocates shared memory from a shared memory provider.
 old-location: netvista\ndisallocatesharedmemory.htm
 tech.root: netvista

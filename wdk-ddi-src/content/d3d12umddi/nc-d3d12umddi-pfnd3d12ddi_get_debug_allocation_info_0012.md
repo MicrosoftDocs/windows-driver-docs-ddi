@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_GET_DEBUG_ALLOCATION_INFO_0012
 title: PFND3D12DDI_GET_DEBUG_ALLOCATION_INFO_0012
-author: windows-driver-content
 description: Returns the associated kernel mode allocation handles and GPU Virtual Address ranges.
 ms.assetid: 335eb3b8-d6ce-4158-a710-796a504dc40d
 ms.date: 10/19/2018

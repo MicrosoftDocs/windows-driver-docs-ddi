@@ -1,7 +1,6 @@
 ---
 UID: NF:ucmmanager.UcmConnectorDataDirectionChanged
 title: UcmConnectorDataDirectionChanged function
-author: windows-driver-content
 description: Notifies the USB connector manager framework extension (UcmCx) with the new data role of a change in data role.
 old-location: buses\ucmconnectordatadirectionchanged.htm
 tech.root: usbref

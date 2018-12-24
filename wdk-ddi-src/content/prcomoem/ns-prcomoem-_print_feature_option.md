@@ -1,7 +1,6 @@
 ---
 UID: NS:prcomoem._PRINT_FEATURE_OPTION
 title: "_PRINT_FEATURE_OPTION"
-author: windows-driver-content
 description: The PRINT_FEATURE_OPTION structure contains information about a feature-option pair, where the option is one option of a particular feature.
 old-location: print\print_feature_option.htm
 tech.root: print

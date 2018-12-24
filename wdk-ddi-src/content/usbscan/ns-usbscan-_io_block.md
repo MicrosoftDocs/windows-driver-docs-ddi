@@ -1,7 +1,6 @@
 ---
 UID: NS:usbscan._IO_BLOCK
 title: "_IO_BLOCK"
-author: windows-driver-content
 description: The IO_BLOCK structure is used as a parameter to DeviceIoControl, when the specified I/O control code is IOCTL_READ_REGISTERS or IOCTL_WRITE_REGISTERS.
 old-location: image\io_block.htm
 tech.root: image

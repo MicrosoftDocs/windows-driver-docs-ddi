@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMSynchronizeWithInterruptEx
 title: NdisMSynchronizeWithInterruptEx function
-author: windows-driver-content
 description: Miniport drivers call the NdisMSynchronizeWithInterruptEx function to synchronize the execution of a miniport driver-supplied function with the MiniportInterrupt function.
 old-location: netvista\ndismsynchronizewithinterruptex.htm
 tech.root: netvista

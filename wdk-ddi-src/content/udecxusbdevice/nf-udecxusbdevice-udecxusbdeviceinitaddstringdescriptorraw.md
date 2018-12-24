@@ -1,7 +1,6 @@
 ---
 UID: NF:udecxusbdevice.UdecxUsbDeviceInitAddStringDescriptorRaw
 title: UdecxUsbDeviceInitAddStringDescriptorRaw function
-author: windows-driver-content
 description: Adds a USB string descriptor to the initialization parameters used to create a virtual USB device.
 old-location: buses\udecxusbdeviceinitaddstringdescriptorraw.htm
 tech.root: usbref

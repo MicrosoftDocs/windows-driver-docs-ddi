@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMEnableDriver
 title: OEMEnableDriver function
-author: windows-driver-content
 description: OEMEnableDriver function
 old-location: print\oemenabledriver.htm
 tech.root: print

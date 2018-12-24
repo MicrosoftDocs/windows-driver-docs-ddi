@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.NtPrepareComplete
 title: NtPrepareComplete function
-author: windows-driver-content
 description: The ZwPrepareComplete routine notifies KTM that the calling resource manager has finished preparing a transaction's data.
 old-location: kernel\zwpreparecomplete.htm
 tech.root: kernel

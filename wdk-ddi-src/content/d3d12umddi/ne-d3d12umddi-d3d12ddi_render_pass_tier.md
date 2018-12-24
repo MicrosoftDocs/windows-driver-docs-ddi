@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RENDER_PASS_TIER
 title: D3D12DDI_RENDER_PASS_TIER
-author: windows-driver-content
 description: The extent to which a UMD efficiently supports Render Pass.
 ms.assetid: 7cd2f2a1-af74-44e6-b094-06e6c02443c7
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.GetValueStrings
 title: IWDTFTarget2::GetValueStrings
-author: windows-driver-content
 description: Returns a collection of string values from the target that are associated with a specified attribute.
 old-location: dtf\iwdtftarget2_getvaluestrings.htm
 tech.root: dtf

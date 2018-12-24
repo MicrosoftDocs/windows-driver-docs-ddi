@@ -1,7 +1,6 @@
 ---
 UID: NF:ursdevice.URS_CONFIG_INIT
 title: URS_CONFIG_INIT function
-author: windows-driver-content
 description: Initializes a URS_CONFIG structure.
 old-location: buses\urs_config_init.htm
 tech.root: usbref

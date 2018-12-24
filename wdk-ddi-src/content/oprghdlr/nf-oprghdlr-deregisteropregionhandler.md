@@ -1,7 +1,6 @@
 ---
 UID: NF:oprghdlr.DeRegisterOpRegionHandler
 title: DeRegisterOpRegionHandler function
-author: windows-driver-content
 description: The DeRegisterOpRegionHandler routine deregisters an operation region handler with the ACPI driver.
 old-location: acpi\deregisteropregionhandler.htm
 tech.root: acpi

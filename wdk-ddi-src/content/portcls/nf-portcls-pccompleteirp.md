@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.PcCompleteIrp
 title: PcCompleteIrp function
-author: windows-driver-content
 description: The PcCompleteIrp function completes an IRP that was previously marked as pending.
 old-location: audio\pccompleteirp.htm
 tech.root: audio

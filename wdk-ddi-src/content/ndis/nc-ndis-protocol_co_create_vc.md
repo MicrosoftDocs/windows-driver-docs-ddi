@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CO_CREATE_VC
 title: PROTOCOL_CO_CREATE_VC
-author: windows-driver-content
 description: The ProtocolCoCreateVc function is a required function that allocates resources necessary for a call manager or client to activate and maintain a virtual connection (VC).Note  You must declare the function by using the PROTOCOL_CO_CREATE_VC type.
 old-location: netvista\protocolcocreatevc.htm
 tech.root: netvista

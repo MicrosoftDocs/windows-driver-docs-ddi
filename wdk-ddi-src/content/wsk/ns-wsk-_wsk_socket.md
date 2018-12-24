@@ -1,7 +1,6 @@
 ---
 UID: NS:wsk._WSK_SOCKET
 title: "_WSK_SOCKET"
-author: windows-driver-content
 description: The WSK_SOCKET structure defines a socket object for a socket.
 old-location: netvista\wsk_socket.htm
 tech.root: netvista

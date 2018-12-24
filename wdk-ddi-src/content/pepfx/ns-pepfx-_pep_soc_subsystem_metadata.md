@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_SOC_SUBSYSTEM_METADATA
 title: "_PEP_SOC_SUBSYSTEM_METADATA"
-author: windows-driver-content
 description: The PEP_SOC_SUBSYSTEM_METADATA structure contains key-value pairs that contain metadata for a system on a chip (SoC) subsystem. It is used in the context of a PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA notification sent to a platform extension plug-in (PEP).
 old-location: kernel\pep_soc_subsystem_metadata.htm
 tech.root: kernel

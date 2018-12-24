@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortGetRegistryParameters
 title: VideoPortGetRegistryParameters function
-author: windows-driver-content
 description: The VideoPortGetRegistryParameters function retrieves device-specific configuration information under the adapter key in the registry at startup.
 old-location: display\videoportgetregistryparameters.htm
 tech.root: display

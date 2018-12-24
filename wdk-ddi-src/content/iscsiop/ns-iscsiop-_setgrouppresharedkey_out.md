@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._SetGroupPresharedKey_OUT
 title: "_SetGroupPresharedKey_OUT"
-author: windows-driver-content
 description: The SetGroupPresharedKey_OUT structure holds the output data for the SetGroupPresharedKey method.
 old-location: storage\setgrouppresharedkey_out.htm
 tech.root: storage

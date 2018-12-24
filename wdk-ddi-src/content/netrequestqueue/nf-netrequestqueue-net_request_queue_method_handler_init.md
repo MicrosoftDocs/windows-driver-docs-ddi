@@ -1,7 +1,6 @@
 ---
 UID: NF:netrequestqueue.NET_REQUEST_QUEUE_METHOD_HANDLER_INIT
 title: NET_REQUEST_QUEUE_METHOD_HANDLER_INIT function
-author: windows-driver-content
 description: Initializes a caller-allocated NET_REQUEST_QUEUE_METHOD_HANDLER structure.
 tech.root: netvista
 ms.assetid: fac0974d-1496-4b73-bd1f-40ce1dddfee9

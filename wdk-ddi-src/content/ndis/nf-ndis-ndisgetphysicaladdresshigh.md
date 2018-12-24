@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisGetPhysicalAddressHigh
 title: NdisGetPhysicalAddressHigh macro
-author: windows-driver-content
 description: NdisGetPhysicalAddressHigh returns the high-order part of a given physical address.
 old-location: netvista\ndisgetphysicaladdresshigh.htm
 tech.root: netvista

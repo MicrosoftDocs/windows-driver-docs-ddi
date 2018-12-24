@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_RESOLVESHAREDRESOURCE
 title: PFND3DDDI_RESOLVESHAREDRESOURCE
-author: windows-driver-content
 description: The ResolveSharedResource function informs a user-mode display driver that ownership of a shared surface changed or that a surface is being used for GDI interoperation.
 old-location: display\resolvesharedresource.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateOutputDupl
 title: D3DKMTCreateOutputDupl function
-author: windows-driver-content
 description: Reserved for system use. Do not use in your driver.
 ms.assetid: 23e39e16-fffd-4687-a26b-6183fad6ba29
 ms.date: 10/19/2018

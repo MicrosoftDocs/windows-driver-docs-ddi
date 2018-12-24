@@ -1,7 +1,6 @@
 ---
 UID: NE:ndis._NDIS_SHARED_MEMORY_USAGE
 title: "_NDIS_SHARED_MEMORY_USAGE"
-author: windows-driver-content
 description: The NDIS_SHARED_MEMORY_USAGE enumeration specifies how shared memory is used.
 old-location: netvista\ndis_shared_memory_usage.htm
 tech.root: netvista

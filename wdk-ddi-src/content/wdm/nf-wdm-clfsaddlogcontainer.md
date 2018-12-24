@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsAddLogContainer
 title: ClfsAddLogContainer function
-author: windows-driver-content
 description: The ClfsAddLogContainer routine adds a container to a CLFS log.
 old-location: kernel\clfsaddlogcontainer.htm
 tech.root: kernel

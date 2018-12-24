@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsPinAttemptProcessing
 title: KsPinAttemptProcessing function
-author: windows-driver-content
 description: The KsPinAttemptProcessing function is used to resume processing on a specific pin on a pin-centric filter. It attempts to initiate processing on Pin by sending a processing dispatch call to Pin's processing object.
 old-location: stream\kspinattemptprocessing.htm
 tech.root: stream

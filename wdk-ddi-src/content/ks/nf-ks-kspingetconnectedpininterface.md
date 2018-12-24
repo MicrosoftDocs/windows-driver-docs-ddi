@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsPinGetConnectedPinInterface
 title: KsPinGetConnectedPinInterface function
-author: windows-driver-content
 description: The KsPinGetConnectedPinInterface function queries the pin to which Pin is connected for a COM style interface.
 old-location: stream\kspingetconnectedpininterface.htm
 tech.root: stream

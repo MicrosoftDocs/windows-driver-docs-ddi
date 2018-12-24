@@ -1,7 +1,6 @@
 ---
 UID: NE:storport._STOR_EVENT_ASSOCIATION_ENUM
 title: "_STOR_EVENT_ASSOCIATION_ENUM"
-author: windows-driver-content
 description: The STOR_EVENT_ASSOCIATION_ENUM enumerator specifies the type of device that is associated with an event.
 old-location: storage\stor_event_association_enum.htm
 tech.root: storage

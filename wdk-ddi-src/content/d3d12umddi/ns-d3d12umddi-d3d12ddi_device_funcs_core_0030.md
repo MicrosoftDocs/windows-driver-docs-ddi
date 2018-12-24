@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_DEVICE_FUNCS_CORE_0030
 title: D3D12DDI_DEVICE_FUNCS_CORE_0030
-author: windows-driver-content
 description: Core device functions.
 old-location: display\d3d12ddi-device-funcs-core-0030.htm
 ms.assetid: 421e6b72-a771-4b18-9776-0b5e8e7a1e29

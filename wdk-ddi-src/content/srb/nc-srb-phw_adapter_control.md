@@ -1,7 +1,6 @@
 ---
 UID: NC:srb.PHW_ADAPTER_CONTROL
 title: PHW_ADAPTER_CONTROL
-author: windows-driver-content
 description: The PHW_INITIALIZE routine prototype declares a routine that initializes the miniport driver after a reboot or power failure occurs.
 old-location: storage\phw_adapter_control.htm
 tech.root: storage

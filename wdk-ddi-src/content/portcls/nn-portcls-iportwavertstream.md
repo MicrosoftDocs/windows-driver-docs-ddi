@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IPortWaveRTStream
 title: IPortWaveRTStream
-author: windows-driver-content
 description: The IPortWaveRTStream interface is supported in Windows Vista and later operating systems, and it is a stream-specific interface that provides helper methods for use by the WaveRT miniport driver.
 old-location: audio\iportwavertstream.htm
 tech.root: audio

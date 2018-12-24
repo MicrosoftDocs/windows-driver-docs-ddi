@@ -1,7 +1,6 @@
 ---
 UID: NS:strmini._HW_TIME_CONTEXT
 title: "_HW_TIME_CONTEXT"
-author: windows-driver-content
 description: The class driver passes an HW_TIME_CONTEXT structure as a parameter to be filled in by a stream's StrMiniClock routine, or returns a completed HW_TIME_CONTEXT structure when it responds to a StreamClassQueryMasterClock or StreamClassQueryMasterClockSync request.
 old-location: stream\hw_time_context.htm
 tech.root: stream

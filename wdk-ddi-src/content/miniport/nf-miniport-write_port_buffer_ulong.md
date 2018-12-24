@@ -1,7 +1,6 @@
 ---
 UID: NF:miniport.WRITE_PORT_BUFFER_ULONG
 title: WRITE_PORT_BUFFER_ULONG function
-author: windows-driver-content
 description: The WRITE_PORT_BUFFER_ULONG routine writes a number of ULONG values from a buffer to the specified port address.
 old-location: kernel\write_port_buffer_ulong.htm
 tech.root: kernel

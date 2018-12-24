@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SeSetSecurityDescriptorInfo
 title: SeSetSecurityDescriptorInfo function
-author: windows-driver-content
 description: The SeSetSecurityDescriptorInfo routine sets an object's security descriptor.
 old-location: ifsk\sesetsecuritydescriptorinfo.htm
 tech.root: ifsk

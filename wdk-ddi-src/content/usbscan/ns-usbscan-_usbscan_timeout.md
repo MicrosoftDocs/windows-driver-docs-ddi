@@ -1,7 +1,6 @@
 ---
 UID: NS:usbscan._USBSCAN_TIMEOUT
 title: "_USBSCAN_TIMEOUT"
-author: windows-driver-content
 description: The USBSCAN_TIMEOUT structure stores time-out values for USB bulk IN and bulk OUT operations, and interrupts.
 old-location: image\usbscan_timeout.htm
 tech.root: image

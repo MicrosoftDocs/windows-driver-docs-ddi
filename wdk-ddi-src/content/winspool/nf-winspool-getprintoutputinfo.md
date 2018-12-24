@@ -1,7 +1,6 @@
 ---
 UID: NF:winspool.GetPrintOutputInfo
 title: GetPrintOutputInfo function
-author: windows-driver-content
 description: 
 old-location: print\getprintoutputinfo.htm
 tech.root: print

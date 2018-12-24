@@ -1,7 +1,6 @@
 ---
 UID: NF:vhf.VhfAsyncOperationComplete
 title: VhfAsyncOperationComplete function
-author: windows-driver-content
 description: The HID source driver calls this method to set the results of an asynchronous operation.
 old-location: hid\_vhfasyncoperationcomplete.htm
 tech.root: hid

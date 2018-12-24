@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfinterrupt.WdfInterruptWdmGetInterrupt
 title: WdfInterruptWdmGetInterrupt function
-author: windows-driver-content
 description: The WdfInterruptWdmGetInterrupt method returns a pointer to the WDM interrupt object that is associated with a specified framework interrupt object.
 old-location: wdf\wdfinterruptwdmgetinterrupt.htm
 tech.root: wdf

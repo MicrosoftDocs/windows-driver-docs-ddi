@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetActualProcessorType
 title: IDebugControl2::GetActualProcessorType
-author: windows-driver-content
 description: The GetActualProcessorType method returns the processor type of the physical processor of the computer that is running the target.
 old-location: debugger\getactualprocessortype.htm
 tech.root: debugger

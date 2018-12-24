@@ -1,7 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosBarcodeScannerErrorOccurredEventData
 title: "_PosBarcodeScannerErrorOccurredEventData"
-author: windows-driver-content
 description: This structure contains the error data that is passed to the BarcodeScannerErrorOccurred event.
 old-location: pos\posbarcodescannererroroccurredeventdata.htm
 tech.root: pos

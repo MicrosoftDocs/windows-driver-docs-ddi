@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.PcGetDeviceProperty
 title: PcGetDeviceProperty function
-author: windows-driver-content
 description: The PcGetDeviceProperty function returns the requested device property from the registry.
 old-location: audio\pcgetdeviceproperty.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_PERSISTENCE_INFO
 title: "_WHEA_PERSISTENCE_INFO"
-author: windows-driver-content
 description: The WHEA_PERSISTENCE_INFO union describes data that is used by the error record persistence interface for storing an error record.
 old-location: whea\whea_persistence_info.htm
 tech.root: whea

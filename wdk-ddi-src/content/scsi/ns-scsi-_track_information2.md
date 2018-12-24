@@ -1,7 +1,6 @@
 ---
 UID: NS:scsi._TRACK_INFORMATION2
 title: "_TRACK_INFORMATION2"
-author: windows-driver-content
 description: The TRACK_INFORMATION2 structure is used to report track information.
 old-location: storage\track_information2.htm
 tech.root: storage

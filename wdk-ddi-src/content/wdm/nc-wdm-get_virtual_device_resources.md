@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.GET_VIRTUAL_DEVICE_RESOURCES
 title: GET_VIRTUAL_DEVICE_RESOURCES
-author: windows-driver-content
 description: The GetResources routine returns the resources that the PCI Express (PCIe) physical function (PF) requires in order to enable virtualization on a device that supports the single root I/O virtualization (SR-IOV) interface.
 old-location: pci\getresources.htm
 tech.root: PCI

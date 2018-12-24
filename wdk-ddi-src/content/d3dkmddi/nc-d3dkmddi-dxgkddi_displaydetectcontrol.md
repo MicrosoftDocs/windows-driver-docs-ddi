@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_DISPLAYDETECTCONTROL
 title: DXGKDDI_DISPLAYDETECTCONTROL
-author: windows-driver-content
 description: Used to turn hot plug detection on and off and to initiate status polls on either a specific target or all targets.
 old-location: display\dxgkddi_displaydetectcontrol.htm
 ms.assetid: 6F10EA4D-BCDE-475E-9937-414CB83F6F2F

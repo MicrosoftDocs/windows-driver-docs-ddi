@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddscsi.IOCTL_SCSI_PASS_THROUGH_EX
 title: IOCTL_SCSI_PASS_THROUGH_EX
-author: windows-driver-content
 description: The IOCTL_SCSI_PASS_THROUGH_EX control code request is the extended version of the IOCTL_SCSI_PASS_THROUGH request. This request provides support for bidirectional data transfers and allows a command data block (CDB) &gt; 16 bytes.
 old-location: storage\ioctl_scsi_pass_through_ex.htm
 tech.root: storage

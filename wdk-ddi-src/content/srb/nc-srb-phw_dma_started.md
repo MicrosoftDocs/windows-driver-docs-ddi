@@ -1,7 +1,6 @@
 ---
 UID: NC:srb.PHW_DMA_STARTED
 title: PHW_DMA_STARTED
-author: windows-driver-content
 description: The PHW_DMA_STARTED routine prototype declares a SCSI miniport driver routine that starts DMA for subordinate DMA device.
 old-location: storage\phw_dma_started.htm
 tech.root: storage

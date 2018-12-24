@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddcdvd.IOCTL_AACS_START_SESSION
 title: IOCTL_AACS_START_SESSION
-author: windows-driver-content
 description: Retrieves an Authentication Grant Identifier (AGID) that identifies a secure session.
 old-location: storage\ioctl_aacs_start_session.htm
 tech.root: storage

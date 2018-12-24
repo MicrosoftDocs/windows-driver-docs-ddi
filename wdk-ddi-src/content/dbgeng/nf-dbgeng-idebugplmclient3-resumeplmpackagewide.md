@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugPlmClient3.ResumePlmPackageWide
 title: IDebugPlmClient3::ResumePlmPackageWide
-author: windows-driver-content
 description: Resumes a Process Lifecycle Management (PLM) package.
 old-location: debugger\idebugplmclient3_resumeplmpackagewide.htm
 tech.root: debugger

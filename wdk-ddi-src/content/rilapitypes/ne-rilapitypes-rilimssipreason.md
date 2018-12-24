@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILIMSSIPREASON
 title: RILIMSSIPREASON
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilimssipreason.htm
 tech.root: netvista

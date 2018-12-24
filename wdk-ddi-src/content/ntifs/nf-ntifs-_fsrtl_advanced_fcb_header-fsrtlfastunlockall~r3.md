@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlFastUnlockAll~r3
 title: FsRtlFastUnlockAll function
-author: windows-driver-content
 description: The FsRtlFastUnlockAll routine releases all byte-range locks that were acquired by the specified process for a file.
 old-location: ifsk\fsrtlfastunlockall.htm
 tech.root: ifsk

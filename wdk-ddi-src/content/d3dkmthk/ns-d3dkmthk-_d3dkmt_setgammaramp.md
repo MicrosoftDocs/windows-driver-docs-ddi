@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SETGAMMARAMP
 title: "_D3DKMT_SETGAMMARAMP"
-author: windows-driver-content
 description: The D3DKMT_SETGAMMARAMP structure describes parameters for setting the gamma ramp.
 old-location: display\d3dkmt_setgammaramp.htm
 ms.assetid: aeab6bf1-bb6f-427e-a566-942b3fb061b2

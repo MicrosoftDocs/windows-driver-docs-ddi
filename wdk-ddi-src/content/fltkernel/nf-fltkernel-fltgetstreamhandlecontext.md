@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetStreamHandleContext
 title: FltGetStreamHandleContext function
-author: windows-driver-content
 description: The FltGetStreamHandleContext routine retrieves a context that was set for a stream handle by a given minifilter driver instance.
 old-location: ifsk\fltgetstreamhandlecontext.htm
 tech.root: ifsk

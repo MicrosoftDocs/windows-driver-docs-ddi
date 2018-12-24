@@ -1,7 +1,6 @@
 ---
 UID: NC:sensorscx.EVT_SENSOR_DRIVER_DISABLE_WAKE
 title: EVT_SENSOR_DRIVER_DISABLE_WAKE
-author: windows-driver-content
 description: Callback to disable wake for the sensor.
 old-location: sensors\evt_sensor_driver_disable_wake.htm
 tech.root: sensors

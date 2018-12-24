@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CO_AF_REGISTER_NOTIFY
 title: PROTOCOL_CO_AF_REGISTER_NOTIFY
-author: windows-driver-content
 description: The ProtocolCoAfRegisterNotify function is used by connection-oriented NDIS clients.
 old-location: netvista\protocolcoafregisternotify.htm
 tech.root: netvista

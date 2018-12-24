@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_SETRASTERIZERSTATE
 title: PFND3D10DDI_SETRASTERIZERSTATE
-author: windows-driver-content
 description: The SetRasterizerState function sets the rasterizer state.
 old-location: display\setrasterizerstate.htm
 ms.assetid: 8162c9c9-4ebd-45a9-adaf-576f25c3907e

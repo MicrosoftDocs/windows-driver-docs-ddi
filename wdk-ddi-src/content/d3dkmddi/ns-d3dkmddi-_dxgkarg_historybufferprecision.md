@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_HISTORYBUFFERPRECISION
 title: "_DXGKARG_HISTORYBUFFERPRECISION"
-author: windows-driver-content
 description: Indicates info about the precision of history buffer data used by the display miniport driver.
 old-location: display\dxgkarg_historybufferprecision.htm
 ms.assetid: D55A8B5A-4133-4CE8-AD08-F551A3AEA42C

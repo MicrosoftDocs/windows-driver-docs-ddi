@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_EVICTCB
 title: PFND3DDDI_EVICTCB
-author: windows-driver-content
 description: pfnEvictCb is used to instruct the OS to decrement the residency reference count. Once this count reaches zero, it will remove the allocation from the device residency list.
 old-location: display\pfnevictcb.htm
 tech.root: display

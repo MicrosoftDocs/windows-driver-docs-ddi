@@ -1,7 +1,6 @@
 ---
 UID: NS:ks.KSAUTOMATION_TABLE_
 title: KSAUTOMATION_TABLE_
-author: windows-driver-content
 description: The KSAUTOMATION_TABLE structure defines a structure that combines tables for properties, methods, and events.
 old-location: stream\ksautomation_table.htm
 tech.root: stream

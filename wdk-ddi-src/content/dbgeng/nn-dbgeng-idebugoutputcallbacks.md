@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugOutputCallbacks
 title: IDebugOutputCallbacks
-author: windows-driver-content
 description: IDebugOutputCallbacks interface
 old-location: debugger\idebugoutputcallbacks.htm
 tech.root: debugger

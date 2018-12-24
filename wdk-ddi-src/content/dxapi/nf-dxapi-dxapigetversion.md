@@ -1,7 +1,6 @@
 ---
 UID: NF:dxapi.DxApiGetVersion
 title: DxApiGetVersion function
-author: windows-driver-content
 description: Do not use the DxApiGetVersion function; use the DxApi function along with the DD_DXAPI_GETVERSIONNUMBER function identifier instead.The DxApiGetVersion function returns a Direct Sound version number of 4.02.
 old-location: display\dxapigetversion.htm
 tech.root: display

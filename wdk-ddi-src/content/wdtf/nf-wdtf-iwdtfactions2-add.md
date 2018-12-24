@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFActions2.Add
 title: IWDTFActions2::Add
-author: windows-driver-content
 description: Add a single action to the collection.
 old-location: dtf\iwdtfactions2_add.htm
 tech.root: dtf

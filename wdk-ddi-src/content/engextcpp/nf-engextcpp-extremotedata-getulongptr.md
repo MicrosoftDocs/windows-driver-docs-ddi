@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetUlongPtr
 title: ExtRemoteData::GetUlongPtr
-author: windows-driver-content
 description: The GetUlongPtr method returns an unsigned integer version (extended to ULONG64) of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getulongptr.htm
 tech.root: debugger

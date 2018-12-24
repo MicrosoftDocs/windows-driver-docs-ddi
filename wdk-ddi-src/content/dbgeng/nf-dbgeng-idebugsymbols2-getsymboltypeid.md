@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetSymbolTypeId
 title: IDebugSymbols2::GetSymbolTypeId
-author: windows-driver-content
 description: The GetSymbolTypeId method returns the type ID and module of the specified symbol.
 old-location: debugger\getsymboltypeid.htm
 tech.root: debugger

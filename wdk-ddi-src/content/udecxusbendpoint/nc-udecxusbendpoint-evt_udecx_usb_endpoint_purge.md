@@ -1,7 +1,6 @@
 ---
 UID: NC:udecxusbendpoint.EVT_UDECX_USB_ENDPOINT_PURGE
 title: EVT_UDECX_USB_ENDPOINT_PURGE
-author: windows-driver-content
 description: The USB device emulation class extension (UdeCx) invokes this callback function to stop queuing I/O requests to the endpoint's queue and cancel unprocessed requests.
 old-location: buses\evt_udecx_usb_endpoint_purge.htm
 tech.root: usbref

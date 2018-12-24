@@ -1,7 +1,6 @@
 ---
 UID: NI:swenum.IOCTL_SWENUM_GET_BUS_ID
 title: IOCTL_SWENUM_GET_BUS_ID
-author: windows-driver-content
 description: 
 old-location: stream\ioctl_swenum_get_bus_id.htm
 tech.root: stream

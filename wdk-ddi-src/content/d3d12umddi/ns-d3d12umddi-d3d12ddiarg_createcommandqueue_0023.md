@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATECOMMANDQUEUE_0023
 title: D3D12DDIARG_CREATECOMMANDQUEUE_0023
-author: windows-driver-content
 description: Contains arguments used to create a command queue.
 old-location: display\d3d12ddiarg_createcommandqueue_0023.htm
 ms.assetid: F8194BA0-325F-48B8-994F-FA2EA80C70D9

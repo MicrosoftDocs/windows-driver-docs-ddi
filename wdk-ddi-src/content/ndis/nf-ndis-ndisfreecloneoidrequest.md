@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeCloneOidRequest
 title: NdisFreeCloneOidRequest function
-author: windows-driver-content
 description: The NdisFreeCloneOidRequest function frees a cloned NDIS_OID_REQUEST structure.
 old-location: netvista\ndisfreecloneoidrequest.htm
 tech.root: netvista

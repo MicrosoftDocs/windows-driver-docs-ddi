@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.SetEngineOptions
 title: IDebugControl3::SetEngineOptions
-author: windows-driver-content
 description: The SetEngineOptions method changes the engine's options.
 old-location: debugger\setengineoptions.htm
 tech.root: debugger

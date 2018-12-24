@@ -1,7 +1,6 @@
 ---
 UID: NS:wpprecorder._RECORDER_LOG_CREATE_PARAMS
 title: "_RECORDER_LOG_CREATE_PARAMS"
-author: windows-driver-content
 description: The RECORDER_LOG_CREATE_PARAMS structure is an input parameter to the WppRecorderLogCreate method.
 old-location: devtest\recorder_log_create_params.htm
 tech.root: devtest

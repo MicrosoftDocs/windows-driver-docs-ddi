@@ -1,7 +1,6 @@
 ---
 UID: NS:sti._STI_DIAG
 title: "_STI_DIAG"
-author: windows-driver-content
 description: The STI_DIAG structure is used as a parameter to the IStiDevice::Diagnostic and IStiUSD::Diagnostic methods.
 old-location: image\sti_diag.htm
 tech.root: image

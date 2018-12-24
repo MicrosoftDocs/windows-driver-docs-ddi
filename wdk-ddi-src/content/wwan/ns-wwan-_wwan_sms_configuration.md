@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SMS_CONFIGURATION
 title: "_WWAN_SMS_CONFIGURATION"
-author: windows-driver-content
 description: The WWAN_SMS_CONFIGURATION structure represents the SMS configuration of the MB device.
 old-location: netvista\wwan_sms_configuration.htm
 tech.root: netvista

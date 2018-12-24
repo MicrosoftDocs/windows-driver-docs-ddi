@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient3.GetOtherOutputMask
 title: IDebugClient3::GetOtherOutputMask
-author: windows-driver-content
 description: The GetOtherOutputMask method returns the output mask for another client.
 old-location: debugger\getotheroutputmask.htm
 tech.root: debugger

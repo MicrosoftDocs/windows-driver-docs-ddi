@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltIsIoRedirectionAllowedForOperation
 title: FltIsIoRedirectionAllowedForOperation function
-author: windows-driver-content
 description: The FltIsIoRedirectionAllowedForOperation routine determines whether I/O can be redirected from the filter instance associated with the specified FLT_CALLBACK_DATA structure to the specified filter instance.
 old-location: ifsk\fltisioredirectionallowedforoperation.htm
 tech.root: ifsk

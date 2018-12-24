@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgWarning
 title: wiauDbgWarning function
-author: windows-driver-content
 description: The wiauDbgWarning function logs a warning message.
 old-location: image\wiaudbgwarning.htm
 tech.root: image

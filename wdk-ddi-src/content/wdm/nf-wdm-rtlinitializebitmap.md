@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlInitializeBitMap
 title: RtlInitializeBitMap function
-author: windows-driver-content
 description: The RtlInitializeBitMap routine initializes the header of a bitmap variable.
 old-location: kernel\rtlinitializebitmap.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFDriver
 title: IWDFDriver
-author: windows-driver-content
 description: The IWDFDriver interface exposes the framework driver object that represents the driver image that is loaded in the host process.
 old-location: wdf\iwdfdriver.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:mcd.ChangerClassDebugPrint
 title: ChangerClassDebugPrint function
-author: windows-driver-content
 description: The ChangerClassDebugPrint function prints debugging information.
 old-location: storage\changerclassdebugprint.htm
 tech.root: storage
