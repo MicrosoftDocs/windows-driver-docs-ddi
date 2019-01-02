@@ -62,7 +62,7 @@ The <b>FWPS_BIND_REQUEST0</b> structure defines modifiable data for the FWPM_LAY
 
 The local transport address of the bind request. This is an IPV4 or IPV6 address and TCP/UDP port
      formatted as a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr_storage">SOCKADDR_STORAGE</a> structure.
+     <a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh">SOCKADDR_STORAGE</a> structure.
 
 
 ### -field portReservationToken
@@ -152,7 +152,7 @@ This structure acts as a linked list that contains a record of all changes made 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr_storage">SOCKADDR_STORAGE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh">SOCKADDR_STORAGE</a>
 
 
 
