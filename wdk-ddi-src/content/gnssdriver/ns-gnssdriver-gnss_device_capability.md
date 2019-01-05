@@ -96,8 +96,8 @@ Specifies a bitmask containing the different AGNSS formats (GNSS_AGNSSFORMAT_*) 
 #define GNSS_AGNSSFORMAT_LTO        0x04
 #define GNSS_AGNSSFORMAT_XTRA3      0x08
 #define GNSS_AGNSSFORMAT_XTRA3_1    0x10
-#define GNSS_AGNSSFORMAT_XTRA3_2    0x20
-#define GNSS_AGNSSFORMAT_XTRA_INT   0x40
+#define GNSS_AGNSSFORMAT_XTRA3_2    0x20 //Note: This value is currently in prerelease, and is subject to change.
+#define GNSS_AGNSSFORMAT_XTRA_INT   0x40 //Note: This value is currently in prerelease, and is subject to change.
 </code></pre>
 The values 0x0020-0xFFFF are  reserved for extensibility.
 
