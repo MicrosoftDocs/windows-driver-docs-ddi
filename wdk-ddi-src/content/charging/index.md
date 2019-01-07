@@ -3,7 +3,7 @@ UID: NA:charging
 author: windows-driver-content
 ms.assetid: ea5ea45e-3345-3551-94ef-8fd0f279aa6b
 ms.author: windowsdriverdev
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
