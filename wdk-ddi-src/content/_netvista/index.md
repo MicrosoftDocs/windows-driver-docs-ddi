@@ -1,8 +1,6 @@
 ---
 UID: TP:netvista
-author: windows-driver-content
 ms.assetid: 81753000-e53e-3c99-bde3-5c662c944380
-ms.author: windowsdriverdev
 ms.date: 08/20/18
 ms.keywords: 
 ms.prod: windows-hardware

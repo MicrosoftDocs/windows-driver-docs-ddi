@@ -1,8 +1,6 @@
 ---
 UID: NA:netreceivescaling
-author: windows-driver-content
 ms.assetid: b76ca427-86f2-3158-8375-477be3d9484f
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

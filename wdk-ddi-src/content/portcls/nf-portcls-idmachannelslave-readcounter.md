@@ -4,7 +4,6 @@ title: IDmaChannelSlave::ReadCounter
 description: The ReadCounter method reads the counter of a subordinate DMA object.
 tech.root: audio
 ms.assetid: e3b67baa-da4b-468b-be74-8b760002b597
-ms.author: windowsdriverdev
 ms.date: 10/30/2018
 ms.topic: method
 ms.keywords: IDmaChannelSlave::ReadCounter, ReadCounter, IDmaChannelSlave.ReadCounter, IDmaChannelSlave::ReadCounter, IDmaChannelSlave.ReadCounter

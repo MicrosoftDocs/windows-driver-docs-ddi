@@ -4,7 +4,6 @@ title: PFND3D12DDI_CALC_PRIVATE_GEOMETRY_SHADER_WITH_STREAM_OUTPUT
 description: Calculates the geometry shader with stream output.
 tech.root: display
 ms.assetid: 8a3e0549-12b2-449b-bf03-24946246877a
-ms.author: windowsdriverdev
 ms.date: 11/28/2018
 ms.topic: callback
 ms.prod: windows-hardware

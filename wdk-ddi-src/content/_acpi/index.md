@@ -1,8 +1,6 @@
 ---
 UID: TP:acpi
-author: windows-driver-content
 ms.assetid: 6eb30b27-568a-3203-bd11-0f238870d174
-ms.author: windowsdriverdev
 ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows-hardware

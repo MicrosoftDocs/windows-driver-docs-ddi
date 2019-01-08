@@ -4,7 +4,6 @@ title: PFND3D12DDI_BEGIN_PASS
 description: The driver is notified that the app has started of a pass of consistent workloads.
 tech.root: display
 ms.assetid: 05d0f76c-4a82-433c-9d97-a4fb2c4b4e1a
-ms.author: windowsdriverdev
 ms.date: 11/28/2018
 ms.topic: callback
 ms.prod: windows-hardware

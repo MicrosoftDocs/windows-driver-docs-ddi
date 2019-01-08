@@ -4,7 +4,6 @@ title: "_DXGK_VIDPNSOURCEMODESET_INTERFACE"
 description: The DXGK_VIDPNSOURCEMODESET_INTERFACE structure contains pointers to functions that belong to the VidPn Source Mode Set interface, which is implemented by the video present network (VidPN) manager.
 old-location: display\dxgk_vidpnsourcemodeset_interface.htm
 ms.assetid: c608643f-e791-44b8-8719-4e98e10fa7b0
-ms.author: windowsdriverdev
 ms.date: 10/30/2018
 ms.keywords: DXGK_VIDPNSOURCEMODESET_INTERFACE, DXGK_VIDPNSOURCEMODESET_INTERFACE structure [Display Devices], DmStructs_8e8b4b99-8121-4cff-9d1b-f88a9041e7cd.xml, _DXGK_VIDPNSOURCEMODESET_INTERFACE, d3dkmddi/DXGK_VIDPNSOURCEMODESET_INTERFACE, display.dxgk_vidpnsourcemodeset_interface
 ms.topic: struct

@@ -4,7 +4,6 @@ title: PFND3D12DDI_CALCPRIVATERASTERIZERSTATESIZE
 description: The CalcPrivateRasterizerStateSize function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a rasterizer state.
 tech.root: display
 ms.assetid: 73e36761-ac4e-45e1-8ad4-2d23fee52777
-ms.author: windowsdriverdev
 ms.date: 11/28/2018
 ms.topic: callback
 ms.prod: windows-hardware

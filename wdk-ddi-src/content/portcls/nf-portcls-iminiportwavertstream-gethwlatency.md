@@ -4,7 +4,6 @@ title: IMiniportWaveRTStream::GetHWLatency
 description: The GetHWLatency method retrieves information about sources of stream latency in the audio hardware.
 tech.root: audio
 ms.assetid: faddde96-d13f-4f19-9370-ea756e39c6d3
-ms.author: windowsdriverdev
 ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IMiniportWaveRTStream::GetHWLatency, GetHWLatency, IMiniportWaveRTStream.GetHWLatency, IMiniportWaveRTStream::GetHWLatency, IMiniportWaveRTStream.GetHWLatency

@@ -4,7 +4,6 @@ title: IMXF::PutMessage
 description: The PutMessage method passes a DMUS_KERNEL_EVENT structure to its next destination.
 tech.root: audio
 ms.assetid: 0ef3df3c-c340-49d5-947f-590767e6f02f
-ms.author: windowsdriverdev
 ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IMXF::PutMessage, PutMessage, IMXF.PutMessage, IMXF::PutMessage, IMXF.PutMessage

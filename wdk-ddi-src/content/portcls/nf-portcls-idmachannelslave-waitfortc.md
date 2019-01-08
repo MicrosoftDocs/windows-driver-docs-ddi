@@ -4,7 +4,6 @@ title: IDmaChannelSlave::WaitForTC
 description: The WaitForTC method waits for the DMA-transfer terminal count to complete, or it times out if the time-out interval expires.
 tech.root: audio
 ms.assetid: 9e022d50-5bdd-4eb9-a6b4-86c93eca8527
-ms.author: windowsdriverdev
 ms.date: 10/30/2018
 ms.topic: method
 ms.keywords: IDmaChannelSlave::WaitForTC, WaitForTC, IDmaChannelSlave.WaitForTC, IDmaChannelSlave::WaitForTC, IDmaChannelSlave.WaitForTC

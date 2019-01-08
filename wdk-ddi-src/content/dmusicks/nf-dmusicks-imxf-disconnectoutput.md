@@ -4,7 +4,6 @@ title: IMXF::DisconnectOutput
 description: The DisconnectOutput method disconnects this IMXF interface from the synth sink or capture sink.
 tech.root: audio
 ms.assetid: 65b18277-7b28-455c-ae39-81d97a09e21b
-ms.author: windowsdriverdev
 ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IMXF::DisconnectOutput, DisconnectOutput, IMXF.DisconnectOutput, IMXF::DisconnectOutput, IMXF.DisconnectOutput

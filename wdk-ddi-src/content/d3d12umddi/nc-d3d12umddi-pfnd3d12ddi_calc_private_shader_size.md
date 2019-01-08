@@ -4,7 +4,6 @@ title: PFND3D12DDI_CALC_PRIVATE_SHADER_SIZE
 description: Determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a shader.
 tech.root: display
 ms.assetid: 31508a0d-c1de-4f2e-9e1a-200f26f0f4f9
-ms.author: windowsdriverdev
 ms.date: 11/28/2018
 ms.topic: callback
 ms.prod: windows-hardware

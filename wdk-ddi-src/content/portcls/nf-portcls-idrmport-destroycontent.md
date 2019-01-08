@@ -4,7 +4,6 @@ title: IDrmPort::DestroyContent
 description: The DestroyContent method deletes a DRM content ID that was created by IDrmPort::CreateContentMixed.
 tech.root: audio
 ms.assetid: f37f5dda-6223-41e5-bdfd-5ac8a66d0525
-ms.author: windowsdriverdev
 ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IDrmPort::DestroyContent, DestroyContent, IDrmPort.DestroyContent, IDrmPort::DestroyContent, IDrmPort.DestroyContent

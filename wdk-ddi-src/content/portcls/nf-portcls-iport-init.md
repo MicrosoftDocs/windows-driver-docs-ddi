@@ -4,7 +4,6 @@ title: IPort::Init
 description: The Init method initializes the port driver.
 tech.root: audio
 ms.assetid: 57c68de4-8063-41c0-897c-bc22c9a2b0f1
-ms.author: windowsdriverdev
 ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IPort::Init, Init, IPort.Init, IPort::Init, IPort.Init

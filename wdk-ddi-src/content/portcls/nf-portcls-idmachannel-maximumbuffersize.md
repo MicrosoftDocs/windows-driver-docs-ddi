@@ -4,7 +4,6 @@ title: IDmaChannel::MaximumBufferSize
 description: The MaximumBufferSize method returns the size in bytes of the largest buffer that this DMA-channel object is configured to support.
 tech.root: audio
 ms.assetid: 85d5a1be-e372-4d64-9b27-631f566094ba
-ms.author: windowsdriverdev
 ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IDmaChannel::MaximumBufferSize, MaximumBufferSize, IDmaChannel.MaximumBufferSize, IDmaChannel::MaximumBufferSize, IDmaChannel.MaximumBufferSize

@@ -4,7 +4,6 @@ title: IAdapterPnpManagement::PnpStop
 description: The PnpStop method provides a notification after stopping all Ioctl operations.
 tech.root: audio
 ms.assetid: 7ad59aef-fc02-4102-a5b8-5349209bd65d
-ms.author: windowsdriverdev
 ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IAdapterPnpManagement::PnpStop, PnpStop, IAdapterPnpManagement.PnpStop, IAdapterPnpManagement::PnpStop, IAdapterPnpManagement.PnpStop

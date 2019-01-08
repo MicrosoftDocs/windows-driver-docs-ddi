@@ -4,7 +4,6 @@ title: IDmaChannel::CopyFrom
 description: The CopyFrom method copies sample data from the DMA channel's common buffer to the specified destination buffer.
 tech.root: audio
 ms.assetid: 4def160a-db98-4315-87d4-beb69e650461
-ms.author: windowsdriverdev
 ms.date: 10/31/2018 
 ms.topic: method
 ms.keywords: IDmaChannel::CopyFrom, CopyFrom, IDmaChannel.CopyFrom, IDmaChannel::CopyFrom, IDmaChannel.CopyFrom

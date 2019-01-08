@@ -1,8 +1,6 @@
 ---
 UID: NA:bthddi
-author: windows-driver-content
 ms.assetid: 075c7427-63f8-368d-8e29-b03b091fac0d
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

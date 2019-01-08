@@ -4,7 +4,6 @@ title: PFND3D12DDI_CALC_PRIVATE_ROOT_SIGNATURE_SIZE_0013
 description: Calculates the driver's root signature size. 
 tech.root: display
 ms.assetid: 75572755-4ff2-4cba-bb1a-ba7cbec6bcd7
-ms.author: windowsdriverdev
 ms.date: 11/28/2018
 ms.topic: callback
 ms.prod: windows-hardware

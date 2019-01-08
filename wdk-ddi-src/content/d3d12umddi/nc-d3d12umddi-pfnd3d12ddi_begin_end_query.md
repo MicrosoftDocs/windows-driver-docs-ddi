@@ -4,7 +4,6 @@ title: PFND3D12DDI_BEGIN_END_QUERY
 description: The pfnBeginEndQuery callback function defines the beginning of the portion of a command list to which a query applies.
 tech.root: display
 ms.assetid: 2032148a-3b57-4fce-be81-c91bef88fd51
-ms.author: windowsdriverdev
 ms.date: 11/28/2018
 ms.topic: callback
 ms.prod: windows-hardware

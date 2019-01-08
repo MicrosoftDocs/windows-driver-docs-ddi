@@ -1,8 +1,6 @@
 ---
 UID: TP:audio
-author: windows-driver-content
 ms.assetid: 91b97f1d-92f1-3c32-955a-dd6524d5b764
-ms.author: windowsdriverdev
 ms.date: 07/10/18
 ms.keywords: 
 ms.prod: windows-hardware

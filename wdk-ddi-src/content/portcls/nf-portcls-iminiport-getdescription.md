@@ -4,7 +4,6 @@ title: IMiniport::GetDescription
 description: The GetDescription method outputs a pointer to the miniport object's filter descriptor.
 tech.root: audio
 ms.assetid: 1e5d13a0-4052-4655-8e48-8cbe87ffc685
-ms.author: windowsdriverdev
 ms.date: 10/31/2018 
 ms.topic: method
 ms.keywords: IMiniport::GetDescription, GetDescription, IMiniport.GetDescription, IMiniport::GetDescription, IMiniport.GetDescription

@@ -4,7 +4,6 @@ title: IPort::GetDeviceProperty
 description: The GetDeviceProperty method provides simplified access to device properties that are contained in the registry for Plug and Play devices.
 tech.root: audio
 ms.assetid: 7ca86c00-624a-4c09-9f20-8dc11dd6a1bc
-ms.author: windowsdriverdev
 ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IPort::GetDeviceProperty, GetDeviceProperty, IPort.GetDeviceProperty, IPort::GetDeviceProperty, IPort.GetDeviceProperty

@@ -4,7 +4,6 @@ title: IMiniportWaveRTStream::FreeAudioBuffer
 description: The FreeAudioBuffer method is used to free an audio buffer previously allocated with a call to IMiniportWaveRTStream::AllocateAudioBuffer.
 tech.root: audio
 ms.assetid: ba0f4d00-cc63-4dbd-bfb1-5d90bec6a6bd
-ms.author: windowsdriverdev
 ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IMiniportWaveRTStream::FreeAudioBuffer, FreeAudioBuffer, IMiniportWaveRTStream.FreeAudioBuffer, IMiniportWaveRTStream::FreeAudioBuffer, IMiniportWaveRTStream.FreeAudioBuffer
