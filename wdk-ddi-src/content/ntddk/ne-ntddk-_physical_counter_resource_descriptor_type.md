@@ -13,19 +13,19 @@ req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows 7 and later versions of Windows.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -67,17 +67,20 @@ A range of counter indexes. The counter indexes are described by the <b>u.Range<
 
 ### -field ResourceTypeExtendedCounterConfiguration
 
-An extended counter configuration register address. The register address is contained in the <b>u.ExtendedRegisterAddress</b> member of the <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structure. This value is used only on Intel NetBurst systems.
+An extended counter configuration register address. This resource is currently unsupported. The <b>u</b> member of the <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structure is not used for this counter resource type.
 
 
 ### -field ResourceTypeOverflow
 
-A counter overflow interrupt. The <b>u</b> member of the <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structure is not used for this counter resource type.
+A counter overflow interrupt. The interrupt handler to be invoked is described by the <b>u.OverflowHandler</b> member of the <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structure is not used for this counter resource type.
 
+### -field ResourceTypeEventBuffer
+
+An event buffer configuration. The configuration of the event buffer threshold, entry size, and overflow handler are described by the <b>u.EventBufferConfiguration</b> member of the <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structure.
 
 ### -field ResourceTypeMax
 
-The maximum value in this enumeration type. 
+The maximum value in this enumeration type.
 
 
 ## -remarks
@@ -95,7 +98,10 @@ The <b>Type</b> member of a <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structur
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558796">PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</a>
- 
 
- 
+RAZTODO: Add links to _PHYSICAL_COUNTER_OVERFLOW_HANDLER and _PHYSICAL_COUNTER_EVENT_BUFFER_CONFIGURATION and PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER
+
+RAZTODO: Create Pages for _PHYSICAL_COUNTER_OVERFLOW_HANDLER and _PHYSICAL_COUNTER_EVENT_BUFFER_CONFIGURATION and PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER
+
+
 
