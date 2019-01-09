@@ -13,19 +13,19 @@ req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows 7 and later versions of Windows.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -69,11 +69,15 @@ Indicates the type of counter resource described by the structure. Set this para
 
 </li>
 <li>
-<b>ResourceTypeExtendedCounterConfiguration</b>
+<b>ResourceTypeExtendedCounterConfiguration</b> (currently unsupported)
 
 </li>
 <li>
 <b>ResourceTypeOverflow</b>
+
+</li>
+<li>
+<b>ResourceTypeEventBuffer</b>
 
 </li>
 </ul>
@@ -85,33 +89,56 @@ No flags are currently defined. Set this member to zero.
 
 ### -field u
 
-A union that can contain a <b>CounterIndex</b>, <b>ExtendedRegisterAddress</b>, or <b>Range</b> value.
+A union that can contain a <b>CounterIndex</b>, <b>Range</b>, <b>OverflowHandler</b>, or <b>EventBufferConfiguration</b> value.
 
 
 ### -field u.CounterIndex
 
-A physical counter index. 
-
-
-### -field u.ExtendedRegisterAddress
-
-An extended configuration register address. 
+A physical counter index.
 
 
 ### -field u.Range
 
-A range of counter indexes. 
+A range of counter indexes.
 
 
 ### -field u.Range.Begin
 
-The starting counter index of a block of contiguous counters. 
+The starting counter index of a block of contiguous counters.
 
 
 ### -field u.Range.End
 
-The ending counter index of a block of contiguous counters. 
+The ending counter index of a block of contiguous counters.
 
+
+### -field u.OverflowHandler
+
+<i>RAZTODO: Add link</i>
+
+A pointer to the <b>PHYSICAL_COUNTER_OVERFLOW_HANDLER</b> routine that will be called when an associated hardware counter (specified by another <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b>) overflows.
+
+
+### -field u.EventBufferConfiguration
+
+A configuration for event buffer based sampling (such as Intel's PEBS).
+
+
+### -field u.EventBufferConfiguration.OverflowHandler
+
+<i>RAZTODO: Add link</i>
+
+A pointer to the <b>PHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER</b> routine that will be called when the event buffer entries reach a threshold in the event buffer.
+
+
+### -field u.EventBufferConfiguration.CustomEventBufferEntrySize
+
+The size of the event buffer entries, for custom event buffer sizes. This should be set to 0.
+
+
+### -field.u.EventBufferConfiguration.EventThreshold
+
+The number of events to be recorded before the EventBufferOverflowHandler is invoked. This value is used as a maximum threshold. The actual number of events will depend on the number of actors using event buffer profiling.
 
 ## -remarks
 
