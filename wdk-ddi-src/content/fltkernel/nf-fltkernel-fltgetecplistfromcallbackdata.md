@@ -66,7 +66,7 @@ An opaque filter pointer to the minifilter driver. This pointer uniquely identif
 
 ### -param EcpList [out]
 
-Receives a pointer to the ECP list that is associated with the <i>Data</i> callback-data object.
+Receives a pointer to the ECP list that is associated with the <i>CallbackData</i> callback-data object.
 
 
 ## -returns
