@@ -42,99 +42,54 @@ req.typenames: UNICODE_STRING
 
 # _UNICODE_STRING structure
 
-
 ## -description
 
-
-The <b>UNICODE_STRING</b> structure is used to define Unicode strings.
-
+The **UNICODE_STRING** structure is used to define Unicode strings.
 
 ## -struct-fields
 
-
-
-
 ### -field Length
 
-The length, in bytes, of the string stored in <b>Buffer</b>.
-
+The length, in bytes, of the string stored in **Buffer**.
 
 ### -field MaximumLength
 
-The length, in bytes, of <b>Buffer</b>.
+The length, in bytes, of **Buffer**.
 
 ### -field Buffer
 
 Pointer to a buffer used to contain a string of wide characters.
 
-
 ### -field Buffer.size_is
-
- 
-
 
 ### -field Buffer.size_is.MaximumLength/2
 
- 
-
-
 ### -field Buffer.length_is
-
- 
-
 
 ### -field Buffer.length_is.(Length)/2
 
 ## -remarks
 
+The **UNICODE_STRING** structure is used to pass Unicode strings. Use [RtlUnicodeStringInit](https://msdn.microsoft.com/library/windows/hardware/ff562954) or [RtlUnicodeStringInitEx](https://msdn.microsoft.com/library/windows/hardware/ff562958) to initialize a **UNICODE_STRING** structure.
 
+If the string is null-terminated, **Length** does not include the trailing null character.
 
-The <b>UNICODE_STRING</b> structure is used to pass Unicode strings. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff562954">RtlUnicodeStringInit</a> or   <a href="https://msdn.microsoft.com/library/windows/hardware/ff562958">RtlUnicodeStringInitEx</a> to initialize a <b>UNICODE_STRING</b> structure.
-
-If the string is null-terminated, <b>Length</b> does not include the trailing null character.
-
-The <b>MaximumLength</b> is used to indicate the length of <b>Buffer</b> so that if the string is passed to a conversion routine such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff561729">RtlAnsiStringToUnicodeString</a> the returned string does not exceed the buffer size.
-
-
-
+The **MaximumLength** is used to indicate the length of **Buffer** so that if the string is passed to a conversion routine such as [RtlAnsiStringToUnicodeString](https://msdn.microsoft.com/library/windows/hardware/ff561729) the returned string does not exceed the buffer size.
 
 ## -see-also
 
+[ANSI_STRING](https://msdn.microsoft.com/library/windows/hardware/ff540605)
 
+[OEM_STRING](https://msdn.microsoft.com/library/windows/hardware/ff558741)
 
+[RtlAnsiStringToUnicodeSize](https://msdn.microsoft.com/library/windows/hardware/ff561725)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
+[RtlAnsiStringToUnicodeString](https://msdn.microsoft.com/library/windows/hardware/ff561729)
 
+[RtlFreeUnicodeString](https://msdn.microsoft.com/library/windows/hardware/ff561903)
 
+[RtlInitUnicodeString](https://msdn.microsoft.com/library/windows/hardware/ff561934)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
+[RtlUnicodeStringToAnsiSize](https://msdn.microsoft.com/library/windows/hardware/ff553248)
 
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561725">RtlAnsiStringToUnicodeSize</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561729">RtlAnsiStringToUnicodeString</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561903">RtlFreeUnicodeString</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561934">RtlInitUnicodeString</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553248">RtlUnicodeStringToAnsiSize</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562969">RtlUnicodeStringToAnsiString</a>
- 
-
- 
-
-
-
+[RtlUnicodeStringToAnsiString](https://msdn.microsoft.com/library/windows/hardware/ff562969)
