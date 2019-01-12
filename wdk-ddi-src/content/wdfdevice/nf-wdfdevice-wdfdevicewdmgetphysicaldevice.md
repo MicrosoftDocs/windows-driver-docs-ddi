@@ -70,7 +70,7 @@ A handle to a framework device object.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
+<b>WdfDeviceWdmGetPhysicalDevice</b> returns <b>NULL</b> if the caller supplies a control device object.
 
 
 ## -remarks
