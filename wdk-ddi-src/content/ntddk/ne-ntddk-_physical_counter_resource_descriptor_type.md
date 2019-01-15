@@ -99,7 +99,9 @@ The <b>Type</b> member of a <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structur
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558796">PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</a>
 
-<i>RAZTODO: Add links to _PHYSICAL_COUNTER_OVERFLOW_HANDLER and PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER
+<a href="..\ntddk\nc-ntddk-pphysical_counter_overflow_handler.md">PPHYSICAL_COUNTER_OVERFLOW_HANDLER</a>
+
+<a href="..\ntddk\nc-ntddk-pphysical_counter_event_buffer_overflow_handler.md">PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER</a>
 
 RAZTODO: Create Pages for _PHYSICAL_COUNTER_OVERFLOW_HANDLER and PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER</i>
 

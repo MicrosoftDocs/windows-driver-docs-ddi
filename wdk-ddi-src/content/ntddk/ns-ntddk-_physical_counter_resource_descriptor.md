@@ -114,9 +114,7 @@ The ending counter index of a block of contiguous counters.
 
 ### -field u.OverflowHandler
 
-<i>RAZTODO: Add link</i>
-
-A pointer to the <b>PHYSICAL_COUNTER_OVERFLOW_HANDLER</b> routine that will be called when an associated hardware counter (specified by another <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b>) overflows.
+A pointer to the <a href="..\ntddk\nc-ntddk-pphysical_counter_overflow_handler.md">PPHYSICAL_COUNTER_OVERFLOW_HANDLER</a> routine that will be called when an associated hardware counter (specified by another <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b>) overflows.
 
 
 ### -field u.EventBufferConfiguration
@@ -126,9 +124,8 @@ A configuration for event buffer based sampling (such as Intel's PEBS).
 
 ### -field u.EventBufferConfiguration.OverflowHandler
 
-<i>RAZTODO: Add link</i>
 
-A pointer to the <b>PHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER</b> routine that will be called when the event buffer entries reach a threshold in the event buffer.
+A pointer to the <a href="..\ntddk\nc-ntddk-pphysical_counter_event_buffer_overflow_handler.md">PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER</a> routine that will be called when the event buffer entries reach a threshold in the event buffer.
 
 
 ### -field u.EventBufferConfiguration.CustomEventBufferEntrySize
