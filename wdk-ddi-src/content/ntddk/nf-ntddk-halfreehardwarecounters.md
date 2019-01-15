@@ -47,7 +47,7 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ## -description
 
 
-The <b>HalFreeHardwareCounters</b> routine frees a set of hardware performance counters that was acquired in a previous call to <a href="..\ntddk\nf-ntddk-halallocatehardwarecounters.md">HalAllocateHardwareCounters</a> routine.
+The <b>HalFreeHardwareCounters</b> routine frees a set of hardware performance counter resources that was acquired in a previous call to <a href="..\ntddk\nf-ntddk-halallocatehardwarecounters.md">HalAllocateHardwareCounters</a> routine.
 
 
 ## -syntax
