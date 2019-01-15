@@ -55,7 +55,7 @@ The <b>HalAllocateHardwareCounters</b> routine allocates a set of hardware perfo
 
 
 
-### -param GroupAffinty
+### -param GroupAffinity
 
 A pointer to a set of <b>GROUP_AFFINITY</b> structures indicating which processors' counter resources the consumer requests. If this parameter is <b>NULL</b>, then the request indicates an allocation across all processors in the system.
 
@@ -137,9 +137,9 @@ A counter resource is a single hardware counter, a block of contiguous counters,
 
 Before configuring the counters, a driver can call the <b>HalAllocateHardwareCounters</b> routine to acquire exclusive access to a set of counter resources. After the driver no longer needs these resources, it must free the resources by calling the <b>HalFreeHardwareCounters</b> routine.
 
-In Windows 8 and Windows 7, a successful call to <b>HalAllocateHardwareCounters</b> grants the caller exclusive access to all counter resources in the performance monitor unit of a single-processor system. In a multiprocessor system, a successful call grants the caller exclusive access to all counter resources in all processors in the system. Future versions of this routine might provide more fine-grained allocation of counter resources.
+In Windows 10 versions before 1903, Windows 8 and Windows 7, a successful call to <b>HalAllocateHardwareCounters</b> grants the caller exclusive access to all counter resources in the performance monitor unit of a single-processor system. In a multiprocessor system, a successful call grants the caller exclusive access to all counter resources in all processors in the system. GroupAffinity and ResourceList must be <b>NULL</b> and GroupCount must be zero.
 
-<i>RazTodo: For 19H1 Fine grained allocation.</i>
+Starting in Windows 10 Version 1903, counter resources can be allocated based on the resource list and group affinites provided.
 
 Virtualization software typically does not virtualize hardware performance counters. Thus, these counters might not be available in a virtual machine, regardless of whether <b>HalAllocateHardwareCounters</b> returns a status code of STATUS_SUCCESS. For example, hardware performance counters are not available in a Hyper-V virtual machine, but <b>HalAllocateHardwareCounters</b> might still return STATUS_SUCCESS.
 
