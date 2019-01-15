@@ -72,7 +72,7 @@ An extended counter configuration register address. This resource is currently u
 
 ### -field ResourceTypeOverflow
 
-A counter overflow interrupt. The interrupt handler to be invoked is described by the <b>u.OverflowHandler</b> member of the <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structure is not used for this counter resource type.
+A counter overflow interrupt handler. The interrupt handler to be invoked is described by the <b>u.OverflowHandler</b> member of the <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structure.
 
 ### -field ResourceTypeEventBuffer
 
