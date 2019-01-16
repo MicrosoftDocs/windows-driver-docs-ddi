@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFObject.ReleaseLock
 title: IWDFObject::ReleaseLock
-author: windows-driver-content
 description: The ReleaseLock method allows the framework to call methods of interfaces that are registered by the driver that the framework previously prevented from calling because the driver called the IWDFObject::AcquireLock method.
 old-location: wdf\iwdfobject_releaselock.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
 title: IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
-author: windows-driver-content
 description: This IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES request is used to send a manage data set attributes request to a storage device.
 old-location: storage\ioctl_storage_manage_data_set_attributes.htm
 tech.root: storage

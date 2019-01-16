@@ -1,7 +1,6 @@
 ---
 UID: NS:61883._CMP_CREATE_PLUG
 title: "_CMP_CREATE_PLUG"
-author: windows-driver-content
 description: This structure is used to create a plug.
 old-location: ieee\cmp_create_plug.htm
 tech.root: IEEE

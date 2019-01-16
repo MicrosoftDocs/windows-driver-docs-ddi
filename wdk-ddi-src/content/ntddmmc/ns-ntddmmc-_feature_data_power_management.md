@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_POWER_MANAGEMENT
 title: "_FEATURE_DATA_POWER_MANAGEMENT"
-author: windows-driver-content
 description: The FEATURE_DATA_POWER_MANAGEMENT structure holds information about the Power Management feature.
 old-location: storage\feature_data_power_management.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdbgexts.WriteIoSpace64
 title: WriteIoSpace64 function
-author: windows-driver-content
 description: The WriteIoSpace64 function writes to the system I/O locations.
 old-location: debugger\writeiospace64.htm
 tech.root: debugger

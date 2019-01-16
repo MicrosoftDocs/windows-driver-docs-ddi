@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SETVIDPNSOURCEOWNER
 title: "_D3DKMT_SETVIDPNSOURCEOWNER"
-author: windows-driver-content
 description: The D3DKMT_SETVIDPNSOURCEOWNER structure describes the parameters for setting or releasing the video present source in the path of a video present network (VidPN) topology that owns the VidPN.
 old-location: display\d3dkmt_setvidpnsourceowner.htm
 ms.assetid: 9154848b-ecbe-4f21-9d27-9013f97c5dde

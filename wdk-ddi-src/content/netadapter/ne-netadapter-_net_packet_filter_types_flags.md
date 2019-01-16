@@ -1,7 +1,6 @@
 ---
 UID: NE:netadapter._NET_PACKET_FILTER_TYPES_FLAGS
 title: _NET_PACKET_FILTER_TYPES_FLAGS
-author: windows-driver-content
 description: Specifies packet filters that control the types of packets the NIC completes on its receive path.
 tech.root: netvista
 ms.assetid: a701a508-aaf8-4272-bdb5-d5d57b33ae08

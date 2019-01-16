@@ -1,7 +1,6 @@
 ---
 UID: NI:acpiioct.IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA
 title: IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA
-author: windows-driver-content
 description: The IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA control code is used to get device specific data.
 old-location: acpi\ioctl_acpi_get_device_specific_data.htm
 tech.root: acpi

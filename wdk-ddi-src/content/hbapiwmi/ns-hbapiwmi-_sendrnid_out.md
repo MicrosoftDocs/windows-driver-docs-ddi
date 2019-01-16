@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SendRNID_OUT
 title: "_SendRNID_OUT"
-author: windows-driver-content
 description: The SendRNID_OUT structure is used to report the output parameter data of the SendRNID WMI method to the WMI client.
 old-location: storage\sendrnid_out.htm
 tech.root: storage

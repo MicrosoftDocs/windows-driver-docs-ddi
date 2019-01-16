@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SETTARGETCONTENTTYPE
 title: DXGKDDI_SETTARGETCONTENTTYPE
-author: windows-driver-content
 description: Passes the content type for which the driver should optimize on the specified target.
 old-location: display\dxgkddi_settargetcontenttype.htm
 ms.assetid: 7639BF7B-6219-4490-953F-80E76CDFBAAA

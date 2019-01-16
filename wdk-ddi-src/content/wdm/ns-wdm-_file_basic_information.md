@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._FILE_BASIC_INFORMATION
 title: "_FILE_BASIC_INFORMATION"
-author: windows-driver-content
 description: The FILE_BASIC_INFORMATION structure is used as an argument to routines that query or set file information.
 old-location: kernel\file_basic_information.htm
 tech.root: kernel

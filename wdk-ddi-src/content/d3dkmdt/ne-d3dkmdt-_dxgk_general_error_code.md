@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGK_GENERAL_ERROR_CODE
 title: "_DXGK_GENERAL_ERROR_CODE"
-author: windows-driver-content
 description: The DXGK_GENERAL_ERROR_CODE enumeration specifies a set of predefined graphics processing unit (GPU) errors reported via a page fault interrupt.
 old-location: display\dxgk_general_error_code.htm
 tech.root: display

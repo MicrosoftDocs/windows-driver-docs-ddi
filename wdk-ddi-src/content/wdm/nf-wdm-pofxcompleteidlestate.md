@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.PoFxCompleteIdleState
 title: PoFxCompleteIdleState function
-author: windows-driver-content
 description: The PoFxCompleteIdleState routine informs the power management framework (PoFx) that the specified component has completed a pending change to an Fx state.
 old-location: kernel\pofxcompleteidlestate.htm
 tech.root: kernel

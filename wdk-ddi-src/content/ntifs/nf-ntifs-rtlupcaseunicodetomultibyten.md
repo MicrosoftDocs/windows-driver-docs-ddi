@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlUpcaseUnicodeToMultiByteN
 title: RtlUpcaseUnicodeToMultiByteN function
-author: windows-driver-content
 description: The RtlUpcaseUnicodeToMultiByteN routine translates the specified Unicode string into a new uppercase character string, using the current system ANSI code page (ACP). The translated string is not necessarily from a multibyte character set.
 old-location: ifsk\rtlupcaseunicodetomultibyten.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.MmFreePagesFromMdl
 title: MmFreePagesFromMdl function
-author: windows-driver-content
 description: The MmFreePagesFromMdl routine frees all the physical pages that are described by an MDL that was created by the MmAllocatePagesForMdl routine.
 old-location: kernel\mmfreepagesfrommdl.htm
 tech.root: kernel

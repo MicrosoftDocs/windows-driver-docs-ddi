@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IResourceList.TranslatedList
 title: IResourceList::TranslatedList
-author: windows-driver-content
 description: The TranslatedList method returns the list of translated resources.
 old-location: audio\iresourcelist_translatedlist.htm
 tech.root: audio

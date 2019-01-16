@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeQueryRuntimeThread
 title: KeQueryRuntimeThread function
-author: windows-driver-content
 description: The KeQueryRuntimeThread routine reports the accumulated kernel-mode and user-mode run time of a thread, in clock ticks.
 old-location: kernel\kequeryruntimethread.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PORT_ARRAY
 title: "_NDIS_PORT_ARRAY"
-author: windows-driver-content
 description: The NDIS_PORT_ARRAY structure specifies a list of NDIS ports and their associated characteristics.
 old-location: netvista\ndis_port_array.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._LineDisplaySetDescriptorData
 title: "_LineDisplaySetDescriptorData"
-author: windows-driver-content
 description: This structure is not implemented.
 old-location: pos\linedisplaysetdescriptordata.htm
 tech.root: pos

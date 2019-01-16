@@ -1,7 +1,6 @@
 ---
 UID: NF:ucmucsippm.UcmUcsiPpmCreate
 title: UcmUcsiPpmCreate function
-author: windows-driver-content
 description: Creates a Platform Policy Manager (PPM) object.
 ms.assetid: 2b0d12ae-dc1d-45ff-bde5-a589f0272e3e
 ms.date: 09/30/2018

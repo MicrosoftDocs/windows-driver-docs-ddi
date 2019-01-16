@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfqueryinterface.WdfDeviceInterfaceDereferenceNoOp
 title: WdfDeviceInterfaceDereferenceNoOp function
-author: windows-driver-content
 description: The WdfDeviceInterfaceDereferenceNoOp method can be used for driver-defined interfaces that do not require reference counts.
 old-location: wdf\wdfdeviceinterfacedereferencenoop.htm
 tech.root: wdf

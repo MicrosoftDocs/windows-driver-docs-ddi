@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlGetGroupSecurityDescriptor
 title: RtlGetGroupSecurityDescriptor function
-author: windows-driver-content
 description: The RtlGetGroupSecurityDescriptor routine returns the primary group information for a given security descriptor.
 old-location: ifsk\rtlgetgroupsecuritydescriptor.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NE:dxgiddi.DXGI_DDI_MODE_SCALING
 title: DXGI_DDI_MODE_SCALING
-author: windows-driver-content
 description: The DXGI_DDI_MODE_SCALING enumeration type contains values that identify the scaling support for a display.
 old-location: display\dxgi_ddi_mode_scaling.htm
 tech.root: display

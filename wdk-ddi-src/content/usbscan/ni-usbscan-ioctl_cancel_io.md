@@ -1,7 +1,6 @@
 ---
 UID: NI:usbscan.IOCTL_CANCEL_IO
 title: IOCTL_CANCEL_IO
-author: windows-driver-content
 description: Cancels activity on the specified USB transfer pipe that is associated with the specified device handle.
 old-location: image\ioctl_cancel_io.htm
 tech.root: image

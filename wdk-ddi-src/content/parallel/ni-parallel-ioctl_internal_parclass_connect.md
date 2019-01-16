@@ -1,7 +1,6 @@
 ---
 UID: NI:parallel.IOCTL_INTERNAL_PARCLASS_CONNECT
 title: IOCTL_INTERNAL_PARCLASS_CONNECT
-author: windows-driver-content
 description: The IOCTL_INTERNAL_PARCLASS_CONNECT request returns information about a parallel port and the callback routines that the system-supplied bus driver for parallel ports provides to operate the parallel port.
 old-location: parports\ioctl_internal_parclass_connect.htm
 tech.root: parports

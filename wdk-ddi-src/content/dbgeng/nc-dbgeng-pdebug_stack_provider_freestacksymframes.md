@@ -1,7 +1,6 @@
 ---
 UID: NC:dbgeng.PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES
 title: PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES
-author: windows-driver-content
 description: The FreeStackSymFrames callback function frees memory from a stack provider.
 old-location: debugger\freestacksymframes.htm
 tech.root: debugger

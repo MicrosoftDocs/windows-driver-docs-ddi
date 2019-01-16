@@ -1,7 +1,6 @@
 ---
 UID: NC:ucxusbdevice.EVT_UCX_USBDEVICE_ADDRESS
 title: EVT_UCX_USBDEVICE_ADDRESS
-author: windows-driver-content
 description: The client driver's implementation that UCX calls to address the USB device.
 old-location: buses\evt_ucx_usbdevice_address.htm
 tech.root: usbref

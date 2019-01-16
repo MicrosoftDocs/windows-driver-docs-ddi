@@ -1,7 +1,6 @@
 ---
 UID: NF:strmini.StreamClassCallAtNewPriority
 title: StreamClassCallAtNewPriority function
-author: windows-driver-content
 description: The StreamClassCallAtNewPriority routine schedules a routine to be called at a different priority.
 old-location: stream\streamclasscallatnewpriority.htm
 tech.root: stream

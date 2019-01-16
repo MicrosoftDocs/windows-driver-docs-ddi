@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.SetTextReplacement
 title: IDebugControl3::SetTextReplacement
-author: windows-driver-content
 description: The SetTextReplacement method sets the value of a user-named alias.
 old-location: debugger\settextreplacement.htm
 tech.root: debugger

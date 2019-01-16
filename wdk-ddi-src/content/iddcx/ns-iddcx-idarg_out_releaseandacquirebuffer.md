@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_OUT_RELEASEANDACQUIREBUFFER
 title: IDARG_OUT_RELEASEANDACQUIREBUFFER
-author: windows-driver-content
 description: Gives information about the acquired swap chain buffer.
 old-location: display\idarg_out_releaseandacquirebuffer.htm
 tech.root: display

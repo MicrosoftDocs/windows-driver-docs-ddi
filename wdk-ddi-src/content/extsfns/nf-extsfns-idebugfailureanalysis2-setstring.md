@@ -1,7 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.SetString
 title: IDebugFailureAnalysis2::SetString
-author: windows-driver-content
 description: The SetString method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag. If it finds an FA entry with the specified tag, it sets (overwrites) the data block of the FA entry to a specified string value.
 old-location: debugger\idebugfailureanalysis2_setstring.htm
 tech.root: debugger

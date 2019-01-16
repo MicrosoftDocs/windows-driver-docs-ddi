@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoReplaceFileObjectName
 title: IoReplaceFileObjectName function
-author: windows-driver-content
 description: The IoReplaceFileObjectName routine replaces the name of a file object.
 old-location: ifsk\ioreplacefileobjectname.htm
 tech.root: ifsk

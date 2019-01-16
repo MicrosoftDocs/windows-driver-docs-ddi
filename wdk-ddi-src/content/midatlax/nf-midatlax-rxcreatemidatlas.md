@@ -1,7 +1,6 @@
 ---
 UID: NF:midatlax.RxCreateMidAtlas
 title: RxCreateMidAtlas function
-author: windows-driver-content
 description: RxCreateMidAtlas allocates a new instance of MID_ATLAS data structure and initializes it.
 old-location: ifsk\rxcreatemidatlas.htm
 tech.root: ifsk

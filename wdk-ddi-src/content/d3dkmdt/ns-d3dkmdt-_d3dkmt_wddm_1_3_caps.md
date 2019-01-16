@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMT_WDDM_1_3_CAPS
 title: _D3DKMT_WDDM_1_3_CAPS
-author: windows-driver-content
 description: Indicates the capabilities for Windows Display Driver Model v1.3.
 ms.assetid: d0b0e38a-4f43-4c20-8eb6-0dd3be95e6b0
 ms.date: 10/19/2018

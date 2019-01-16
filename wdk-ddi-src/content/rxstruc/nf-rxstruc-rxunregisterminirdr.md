@@ -1,7 +1,6 @@
 ---
 UID: NF:rxstruc.RxUnregisterMinirdr
 title: RxUnregisterMinirdr function
-author: windows-driver-content
 description: RxUnregisterMinirdr is an inline routine called by a network mini-redirector driver to de-register the driver with RDBSS and remove the registration information from the internal RDBSS registration table.
 old-location: ifsk\rxunregisterminirdr.htm
 tech.root: ifsk

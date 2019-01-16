@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPALETTE
 title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPALETTE
-author: windows-driver-content
 description: Sets the color-palette entries for an input stream on the video processor.
 old-location: display\videoprocessorsetstreampalette.htm
 ms.assetid: a655baef-4f99-45a1-ac78-5f54d2f4f1ab

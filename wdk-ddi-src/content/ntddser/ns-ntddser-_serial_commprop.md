@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddser._SERIAL_COMMPROP
 title: "_SERIAL_COMMPROP"
-author: windows-driver-content
 description: The SERIAL_COMMPROP structure specifies the properties of a serial port.
 old-location: serports\serial_commprop.htm
 tech.root: serports

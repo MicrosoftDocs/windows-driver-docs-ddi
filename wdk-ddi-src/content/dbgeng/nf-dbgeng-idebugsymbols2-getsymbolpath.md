@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetSymbolPath
 title: IDebugSymbols2::GetSymbolPath
-author: windows-driver-content
 description: The GetSymbolPath method returns the symbol path.
 old-location: debugger\getsymbolpath.htm
 tech.root: debugger

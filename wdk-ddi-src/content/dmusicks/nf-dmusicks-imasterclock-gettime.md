@@ -1,7 +1,6 @@
 ---
 UID: NF:dmusicks.IMasterClock.GetTime
 title: IMasterClock::GetTime
-author: windows-driver-content
 description: The GetTime method retrieves the current reference time read from the master clock.
 old-location: audio\imasterclock_gettime.htm
 tech.root: audio

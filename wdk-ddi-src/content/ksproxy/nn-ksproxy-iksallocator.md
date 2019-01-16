@@ -1,7 +1,6 @@
 ---
 UID: NN:ksproxy.IKsAllocator
 title: IKsAllocator
-author: windows-driver-content
 description: TheIKsAllocator interface provides methods that control and query an allocator. IKsAllocator is for proxy use and not recommended for application use.
 old-location: stream\iksallocator.htm
 tech.root: stream

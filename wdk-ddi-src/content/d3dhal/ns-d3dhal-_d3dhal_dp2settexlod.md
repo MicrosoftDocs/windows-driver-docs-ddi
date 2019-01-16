@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2SETTEXLOD
 title: "_D3DHAL_DP2SETTEXLOD"
-author: windows-driver-content
 description: The D3DHAL_DP2SETTEXLOD structure is used to set the level of detail (LOD) for MIP maps when the D3DDP2OP_SETTEXLOD command is sent to D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2settexlod.htm
 tech.root: display

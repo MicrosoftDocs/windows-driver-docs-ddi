@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_LTE_MRL_INFO
 title: "_WWAN_LTE_MRL_INFO"
-author: windows-driver-content
 description: The WWAN_LTE_MRL_INFO structure represents information about a neighboring LTE cell.
 old-location: netvista\wwan_lte_mrl_info.htm
 tech.root: netvista

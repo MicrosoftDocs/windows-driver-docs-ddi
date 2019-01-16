@@ -1,7 +1,6 @@
 ---
 UID: NC:ks.PFNALLOCATOR_FREEFRAME
 title: PFNALLOCATOR_FREEFRAME
-author: windows-driver-content
 description: The KStrFreeFrame routine describes a vendor-supplied frame deallocation function.
 old-location: stream\kstrfreeframe.htm
 tech.root: stream

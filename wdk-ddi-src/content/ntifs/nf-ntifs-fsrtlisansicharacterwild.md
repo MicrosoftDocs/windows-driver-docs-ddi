@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIsAnsiCharacterWild
 title: FsRtlIsAnsiCharacterWild macro
-author: windows-driver-content
 description: The FsRtlIsAnsiCharacterWild macro determines whether an ANSI character is a wildcard character.
 old-location: ifsk\fsrtlisansicharacterwild.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMCmCreateVc
 title: NdisMCmCreateVc function
-author: windows-driver-content
 description: NdisMCmCreateVc sets up a connection endpoint on which an MCM driver can dispatch an incoming-call offer to a client.
 old-location: netvista\ndismcmcreatevc.htm
 tech.root: netvista

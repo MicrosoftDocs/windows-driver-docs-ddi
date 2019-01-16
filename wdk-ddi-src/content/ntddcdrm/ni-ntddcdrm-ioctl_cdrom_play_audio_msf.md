@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_PLAY_AUDIO_MSF
 title: IOCTL_CDROM_PLAY_AUDIO_MSF
-author: windows-driver-content
 description: Plays the specified range of the media. Obsolete, beginning with Windows Vista.
 old-location: storage\ioctl_cdrom_play_audio_msf.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.CreateSymbolGroup2
 title: IDebugSymbols3::CreateSymbolGroup2
-author: windows-driver-content
 description: The CreateSymbolGroup2 method creates a new symbol group.
 old-location: debugger\createsymbolgroup2.htm
 tech.root: debugger

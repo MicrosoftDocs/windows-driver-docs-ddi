@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.GetSymbolEntryInformation
 title: IDebugSymbolGroup2::GetSymbolEntryInformation
-author: windows-driver-content
 description: The GetSymbolEntryInformation method returns information about a symbol in a symbol group.
 old-location: debugger\getsymbolentryinformation2.htm
 tech.root: debugger

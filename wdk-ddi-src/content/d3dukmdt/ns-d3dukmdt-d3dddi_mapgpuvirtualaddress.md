@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dukmdt.D3DDDI_MAPGPUVIRTUALADDRESS
 title: D3DDDI_MAPGPUVIRTUALADDRESS
-author: windows-driver-content
 description: D3DDDI_MAPGPUVIRTUALADDRESS is used with pfnMapGpuVirtualAddressCb to map a graphics processing unit (GPU) virtual address ranges to a specific allocation range or to put it to the Invalid or Zero state.
 old-location: display\d3dddi_mapgpuvirtualaddress.htm
 tech.root: display

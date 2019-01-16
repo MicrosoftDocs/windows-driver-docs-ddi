@@ -1,7 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_GET_POLL_FREQUENCY_MSEC
 title: IOCTL_HID_GET_POLL_FREQUENCY_MSEC
-author: windows-driver-content
 description: The IOCTL_HID_GET_POLL_FREQUENCY_MSEC request obtains the current polling frequency, in milliseconds, of a top-level collection.
 old-location: hid\ioctl_hid_get_poll_frequency_msec.htm
 tech.root: hid

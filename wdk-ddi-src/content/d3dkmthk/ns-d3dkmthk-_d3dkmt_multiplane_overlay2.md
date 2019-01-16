@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_MULTIPLANE_OVERLAY2
 title: _D3DKMT_MULTIPLANE_OVERLAY2
-author: windows-driver-content
 description: Multiplane overlay structure.
 ms.assetid: 134dae27-808d-48c3-8d3e-9fac505e1915
 ms.date: 10/19/2018

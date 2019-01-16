@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM2_2DDI_DESTROY_SHADERCACHE_SESSION
 title: PFND3DWDDM2_2DDI_DESTROY_SHADERCACHE_SESSION
-author: windows-driver-content
 description: The pfnDestroyShaderCacheSession callback function destroys a shader cache session.
 old-location: display\pfnd3dwddm2_2ddi_destroy_shadercache_session.htm
 ms.assetid: 1C6AFC89-F740-4309-9389-BFB5C62FCA77

@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dumddi._DDIAUTHENTICATEDCHANNELTYPE
 title: "_DDIAUTHENTICATEDCHANNELTYPE"
-author: windows-driver-content
 description: The DDIAUTHENTICATEDCHANNELTYPE enumeration contains values that identify authenticated-channel types.
 old-location: display\ddiauthenticatedchanneltype.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILPOSITIONINFOLTE
 title: RILPOSITIONINFOLTE
-author: windows-driver-content
 description: This structure represents the RILPOSITIONINFOLTE.
 old-location: netvista\rilpositioninfolte.htm
 tech.root: netvista

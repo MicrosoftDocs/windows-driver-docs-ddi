@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisIfGetInterfaceIndexFromNetLuid
 title: NdisIfGetInterfaceIndexFromNetLuid function
-author: windows-driver-content
 description: The NdisIfGetInterfaceIndexFromNetLuid function gets the network interface index that is associated with a NET_LUID value.
 old-location: netvista\ndisifgetinterfaceindexfromnetluid.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:winsplp._MONITORINIT
 title: "_MONITORINIT"
-author: windows-driver-content
 description: The MONITORINIT structure is used as an input parameter to a print monitor's InitializePrintMonitor2 function.
 old-location: print\monitorinit.htm
 tech.root: print

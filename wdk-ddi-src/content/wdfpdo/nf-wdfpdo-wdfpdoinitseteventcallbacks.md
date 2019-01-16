@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoInitSetEventCallbacks
 title: WdfPdoInitSetEventCallbacks function
-author: windows-driver-content
 description: The WdfPdoInitSetEventCallbacks method registers a bus driver's event callback functions.
 old-location: wdf\wdfpdoinitseteventcallbacks.htm
 tech.root: wdf

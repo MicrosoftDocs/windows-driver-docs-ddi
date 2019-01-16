@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugOutputCallbacks2.GetInterestMask
 title: IDebugOutputCallbacks2::GetInterestMask
-author: windows-driver-content
 description: Allows the callback object to describe which kinds of output notifications it wants to receive.
 old-location: debugger\idebugoutputcallbacks2_getinterestmask.htm
 tech.root: debugger

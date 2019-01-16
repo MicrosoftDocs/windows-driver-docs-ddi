@@ -1,7 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_LAST_EVENT_INFO_EXCEPTION
 title: "_DEBUG_LAST_EVENT_INFO_EXCEPTION"
-author: windows-driver-content
 description: Describes the exception of the last event.
 old-location: debugger\debug_last_event_info_exception.htm
 tech.root: debugger

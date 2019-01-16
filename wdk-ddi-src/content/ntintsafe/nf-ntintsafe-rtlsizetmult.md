@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlSizeTMult
 title: RtlSizeTMult function
-author: windows-driver-content
 description: Multiplies one value of type SIZE_T by another.
 old-location: kernel\rtlsizetmult.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NI:pointofservicedriverinterface.IOCTL_POINT_OF_SERVICE_CHECK_HEALTH
 title: IOCTL_POINT_OF_SERVICE_CHECK_HEALTH
-author: windows-driver-content
 description: This I/O control function checks the device health.
 old-location: pos\ioctl_point_of_service_check_health.htm
 tech.root: pos

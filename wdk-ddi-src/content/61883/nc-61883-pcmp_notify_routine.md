@@ -1,7 +1,6 @@
 ---
 UID: NC:61883.PCMP_NOTIFY_ROUTINE
 title: PCMP_NOTIFY_ROUTINE
-author: windows-driver-content
 description: This routine is called for plug notification.
 old-location: ieee\pcmp_notify_routine.htm
 tech.root: IEEE

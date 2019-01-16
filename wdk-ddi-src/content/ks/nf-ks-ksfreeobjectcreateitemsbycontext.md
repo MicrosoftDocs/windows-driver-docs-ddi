@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsFreeObjectCreateItemsByContext
 title: KsFreeObjectCreateItemsByContext function
-author: windows-driver-content
 description: Frees all create items with a specific context.
 old-location: stream\ksfreeobjectcreateitemsbycontext.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IPortClsRuntimePower.RegisterPowerControlCallback
 title: IPortClsRuntimePower::RegisterPowerControlCallback
-author: windows-driver-content
 description: The port class driver (PortCls) uses the RegisterPowerControlCallback method to register a power control callback.
 old-location: audio\iportclsruntimepower_registerpowercontrolcallback.htm
 tech.root: audio

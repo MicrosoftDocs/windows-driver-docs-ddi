@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.IF_QUERY_OBJECT
 title: IF_QUERY_OBJECT
-author: windows-driver-content
 description: The ProviderQueryObject function retrieves information about a network interface.
 old-location: netvista\providerqueryobject.htm
 tech.root: netvista

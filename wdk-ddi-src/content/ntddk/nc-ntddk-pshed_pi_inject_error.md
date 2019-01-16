@@ -1,7 +1,6 @@
 ---
 UID: NC:ntddk.PSHED_PI_INJECT_ERROR
 title: PSHED_PI_INJECT_ERROR
-author: windows-driver-content
 description: A PSHED plug-in's InjectError callback function injects an error into the hardware platform.
 old-location: whea\injecterror.htm
 tech.root: whea

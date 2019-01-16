@@ -1,7 +1,6 @@
 ---
 UID: NS:smcnt._OS_DEP_DATA
 title: "_OS_DEP_DATA"
-author: windows-driver-content
 description: The OS_DEP_DATA structure defines the data that is stored in the OsData member of the SMARTCARD_EXTENSION structure, which holds smart card information that is specific to the operating system.
 old-location: smartcrd\os_dep_data__wdm_.htm
 tech.root: smartcrd

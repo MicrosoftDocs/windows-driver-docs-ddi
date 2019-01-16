@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltDetachVolume
 title: FltDetachVolume function
-author: windows-driver-content
 description: FltDetachVolume detaches a minifilter driver instance from a volume.
 old-location: ifsk\fltdetachvolume.htm
 tech.root: ifsk

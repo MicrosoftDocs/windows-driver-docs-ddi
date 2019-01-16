@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
 title: "_D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE"
-author: windows-driver-content
 description: A structure that holds information to wait for synchronized objects.
 old-location: display\d3dddicb_submitwaitforsyncobjectstohwqueue.htm
 tech.root: display

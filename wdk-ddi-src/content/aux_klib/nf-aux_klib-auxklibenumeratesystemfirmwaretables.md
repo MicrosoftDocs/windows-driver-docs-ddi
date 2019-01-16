@@ -1,7 +1,6 @@
 ---
 UID: NF:aux_klib.AuxKlibEnumerateSystemFirmwareTables
 title: AuxKlibEnumerateSystemFirmwareTables function
-author: windows-driver-content
 description: The AuxKlibEnumerateSystemFirmwareTables routine enumerates all system firmware tables of the specified type.
 old-location: kernel\auxklibenumeratesystemfirmwaretables.htm
 tech.root: kernel

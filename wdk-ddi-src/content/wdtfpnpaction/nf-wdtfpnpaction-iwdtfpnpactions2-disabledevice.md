@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.DisableDevice
 title: IWDTFPNPActions2::DisableDevice
-author: windows-driver-content
 description: Disables the target device.
 old-location: dtf\iwdtfpnpactions2_disabledevice.htm
 tech.root: dtf

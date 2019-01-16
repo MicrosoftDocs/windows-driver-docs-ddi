@@ -1,7 +1,6 @@
 ---
 UID: NF:wdftimer.WdfTimerGetParentObject
 title: WdfTimerGetParentObject function
-author: windows-driver-content
 description: The WdfTimerGetParentObject method returns a handle to the parent object of a specified framework timer object.
 old-location: wdf\wdftimergetparentobject.htm
 tech.root: wdf

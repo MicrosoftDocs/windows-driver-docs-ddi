@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.MmFreeMappingAddress
 title: MmFreeMappingAddress function
-author: windows-driver-content
 description: The MmFreeMappingAddress routine frees a range of virtual memory reserved by the MmAllocateMappingAddress routine.
 old-location: kernel\mmfreemappingaddress.htm
 tech.root: kernel

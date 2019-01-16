@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.HasContext
 title: IWDTFTarget2::HasContext
-author: windows-driver-content
 description: Determines whether a given context exists for the target.
 old-location: dtf\iwdtftarget2_hascontext.htm
 tech.root: dtf

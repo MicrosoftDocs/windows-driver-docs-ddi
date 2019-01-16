@@ -1,7 +1,6 @@
 ---
 UID: NS:nfcsedev._SECURE_ELEMENT_HCE_DATA_PACKET
 title: "_SECURE_ELEMENT_HCE_DATA_PACKET"
-author: windows-driver-content
 description: SECURE_ELEMENT_HCE_DATA_PACKET is an input buffer to IOCTL_NFCSE_HCE_REMOTE_SEND and output buffer for IOCTL_NFCSE_HCE_REMOTE_RECV.
 old-location: nfpdrivers\_secure_element_hce_data_packet.htm
 tech.root: nfpdrivers

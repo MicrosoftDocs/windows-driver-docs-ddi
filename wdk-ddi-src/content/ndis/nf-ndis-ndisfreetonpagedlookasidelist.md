@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeToNPagedLookasideList
 title: NdisFreeToNPagedLookasideList macro
-author: windows-driver-content
 description: The NdisFreeToNPagedLookasideList function returns an entry to the given lookaside list.
 old-location: netvista\ndisfreetonpagedlookasidelist.htm
 tech.root: netvista

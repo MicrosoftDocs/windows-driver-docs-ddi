@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsFlushBuffers
 title: ClfsFlushBuffers function
-author: windows-driver-content
 description: The ClfsFlushBuffers routine forces all log I/O blocks in a specified marshalling area to stable storage.
 old-location: kernel\clfsflushbuffers.htm
 tech.root: kernel

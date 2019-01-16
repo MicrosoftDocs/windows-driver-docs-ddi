@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortReadPortUlong
 title: StorPortReadPortUlong macro
-author: windows-driver-content
 description: The StorPortReadPortUlong routine reads a value from a specified port address.
 old-location: storage\storportreadportulong.htm
 tech.root: storage

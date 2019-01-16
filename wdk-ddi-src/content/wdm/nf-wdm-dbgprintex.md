@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.DbgPrintEx
 title: DbgPrintEx function
-author: windows-driver-content
 description: The DbgPrintEx routine sends a string to the kernel debugger if the conditions you specify are met.
 old-location: devtest\dbgprintex.htm
 tech.root: devtest

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeSetSystemGroupAffinityThread
 title: KeSetSystemGroupAffinityThread function
-author: windows-driver-content
 description: The KeSetSystemGroupAffinityThread routine changes the group number and affinity mask of the calling thread.
 old-location: kernel\kesetsystemgroupaffinitythread.htm
 tech.root: kernel

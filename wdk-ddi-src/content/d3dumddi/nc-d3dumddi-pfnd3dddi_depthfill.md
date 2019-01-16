@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DEPTHFILL
 title: PFND3DDDI_DEPTHFILL
-author: windows-driver-content
 description: The DepthFill function fills a depth buffer with a pixel value that is specified in native format.
 old-location: display\depthfill.htm
 tech.root: display

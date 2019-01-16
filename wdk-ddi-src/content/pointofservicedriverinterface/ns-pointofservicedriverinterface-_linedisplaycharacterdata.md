@@ -1,7 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._LineDisplayCharacterData
 title: "_LineDisplayCharacterData"
-author: windows-driver-content
 description: This structure is not implemented.
 old-location: pos\linedisplaycharacterdata.htm
 tech.root: pos

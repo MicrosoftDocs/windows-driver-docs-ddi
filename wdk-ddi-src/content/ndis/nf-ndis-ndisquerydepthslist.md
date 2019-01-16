@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisQueryDepthSList
 title: NdisQueryDepthSList macro
-author: windows-driver-content
 description: The NdisQueryDepthSList function returns the current number of entries in a given sequenced, singly linked list.
 old-location: netvista\ndisquerydepthslist.htm
 tech.root: netvista

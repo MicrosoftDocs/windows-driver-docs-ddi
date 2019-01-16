@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoSetMasterIrpStatus
 title: IoSetMasterIrpStatus function
-author: windows-driver-content
 description: The IoSetMasterIrpStatus routine conditionally replaces the Status value in an IRP with the specified NTSTATUS value.
 old-location: kernel\iosetmasterirpstatus.htm
 tech.root: kernel

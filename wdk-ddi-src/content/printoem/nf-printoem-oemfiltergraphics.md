@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMFilterGraphics
 title: OEMFilterGraphics function
-author: windows-driver-content
 description: OEMFilterGraphics function
 old-location: print\oemfiltergraphics.htm
 tech.root: print

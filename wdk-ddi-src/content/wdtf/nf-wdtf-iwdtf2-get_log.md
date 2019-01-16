@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTF2.get_Log
 title: IWDTF2::get_Log
-author: windows-driver-content
 description: Gets the WDTF log object.
 old-location: dtf\iwdtf2_log.htm
 tech.root: dtf

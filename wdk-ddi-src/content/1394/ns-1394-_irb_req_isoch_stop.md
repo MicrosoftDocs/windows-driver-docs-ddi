@@ -1,7 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_ISOCH_STOP
 title: "_IRB_REQ_ISOCH_STOP"
-author: windows-driver-content
 description: This structure contains the field necessary to carry out a IsochStop request.
 old-location: ieee\irb_req_isoch_stop.htm
 tech.root: IEEE

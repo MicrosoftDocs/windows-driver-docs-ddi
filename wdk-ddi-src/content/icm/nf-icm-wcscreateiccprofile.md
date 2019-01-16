@@ -1,7 +1,6 @@
 ---
 UID: NF:icm.WcsCreateIccProfile
 title: WcsCreateIccProfile function
-author: windows-driver-content
 description: The WcsCreateIccProfile function converts a WCS profile into an ICC profile.
 old-location: print\wcscreateiccprofile.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes._BarcodeSymbology
 title: "_BarcodeSymbology"
-author: windows-driver-content
 description: This enumeration defines the barcode symbologies.
 old-location: pos\barcodesymbology.htm
 tech.root: pos

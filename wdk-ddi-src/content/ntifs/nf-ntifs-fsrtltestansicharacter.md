@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlTestAnsiCharacter
 title: FsRtlTestAnsiCharacter macro
-author: windows-driver-content
 description: The FsRtlTestAnsiCharacter macro determines whether an ANSI or double-byte character set (DBCS) character meets the specified criteria.
 old-location: ifsk\fsrtltestansicharacter.htm
 tech.root: ifsk

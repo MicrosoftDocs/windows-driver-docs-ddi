@@ -1,7 +1,6 @@
 ---
 UID: NS:sensorscx._SENSOR_CONFIG
 title: "_SENSOR_CONFIG"
-author: windows-driver-content
 description: This structure contains information that the sensor driver passes to the class extension about each sensor.
 old-location: sensors\sensor_config.htm
 tech.root: sensors

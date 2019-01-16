@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisReadRegisterUlong
 title: NdisReadRegisterUlong macro
-author: windows-driver-content
 description: NdisReadRegisterUlong is called by the miniport driver to read a ULONG from a memory-mapped device register.
 old-location: netvista\ndisreadregisterulong.htm
 tech.root: netvista

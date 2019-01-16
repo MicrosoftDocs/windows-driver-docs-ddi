@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_2
 title: KSPROPERTY_GENERAL
-author: windows-driver-content
 description: 
 old-location: stream\ksproperty_general.htm
 tech.root: stream

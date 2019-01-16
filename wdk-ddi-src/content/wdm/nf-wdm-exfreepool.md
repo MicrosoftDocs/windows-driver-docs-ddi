@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExFreePool
 title: ExFreePool function
-author: windows-driver-content
 description: The ExFreePool routine deallocates a block of pool memory.
 old-location: kernel\exfreepool.htm
 tech.root: kernel

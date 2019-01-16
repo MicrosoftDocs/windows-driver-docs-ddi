@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SIGNAL_STATE
 title: "_WWAN_SIGNAL_STATE"
-author: windows-driver-content
 description: The WWAN_SIGNAL_STATE structure represents the signal state of the MB device.
 old-location: netvista\wwan_signal_state.htm
 tech.root: netvista

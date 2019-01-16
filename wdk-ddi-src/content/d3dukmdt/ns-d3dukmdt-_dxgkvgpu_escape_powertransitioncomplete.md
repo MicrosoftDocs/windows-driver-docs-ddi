@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dukmdt._DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE
 title: "_DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE"
-author: windows-driver-content
 description: Indicates that a power transition has completed.
 old-location: display\dxgkvgpu_escape_powertransitioncomplete.htm
 tech.root: display

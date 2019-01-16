@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlUnicodeToMultiByteN
 title: RtlUnicodeToMultiByteN function
-author: windows-driver-content
 description: The RtlUnicodeToMultiByteN routine translates the specified Unicode string into a new character string, using the current system ANSI code page (ACP). The translated string is not necessarily from a multibyte character set.
 old-location: ifsk\rtlunicodetomultibyten.htm
 tech.root: ifsk

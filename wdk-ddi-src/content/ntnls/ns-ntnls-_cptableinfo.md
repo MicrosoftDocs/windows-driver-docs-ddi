@@ -1,7 +1,6 @@
 ---
 UID: NS:ntnls._CPTABLEINFO
 title: "_CPTABLEINFO"
-author: windows-driver-content
 description: Stores the NLS file formats.
 old-location: kernel\cptableinfo.htm
 tech.root: ifsk

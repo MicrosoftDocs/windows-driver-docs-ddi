@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeSpinLock
 title: NdisFreeSpinLock function
-author: windows-driver-content
 description: The NdisFreeSpinLock function releases a spin lock initialized in a preceding call to the NdisAllocateSpinLock functioin.
 old-location: netvista\ndisfreespinlock.htm
 tech.root: netvista

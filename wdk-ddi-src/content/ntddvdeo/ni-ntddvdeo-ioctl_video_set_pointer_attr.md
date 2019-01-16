@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_SET_POINTER_ATTR
 title: IOCTL_VIDEO_SET_POINTER_ATTR
-author: windows-driver-content
 description: Sets the pointer attributes.
 old-location: display\ioctl_video_set_pointer_attr.htm
 tech.root: display

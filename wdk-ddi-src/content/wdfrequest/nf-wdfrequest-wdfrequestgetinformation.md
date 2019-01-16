@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestGetInformation
 title: WdfRequestGetInformation function
-author: windows-driver-content
 description: The WdfRequestGetInformation method returns completion status information for a specified I/O request.
 old-location: wdf\wdfrequestgetinformation.htm
 tech.root: wdf

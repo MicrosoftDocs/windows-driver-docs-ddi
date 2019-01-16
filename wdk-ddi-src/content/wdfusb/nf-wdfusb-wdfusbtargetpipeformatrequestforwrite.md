@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetPipeFormatRequestForWrite
 title: WdfUsbTargetPipeFormatRequestForWrite function
-author: windows-driver-content
 description: The WdfUsbTargetPipeFormatRequestForWrite method builds a write request for a USB output pipe, but it does not send the request.
 old-location: wdf\wdfusbtargetpipeformatrequestforwrite.htm
 tech.root: wdf

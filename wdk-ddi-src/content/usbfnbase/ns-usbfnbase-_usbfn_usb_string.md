@@ -1,7 +1,6 @@
 ---
 UID: NS:usbfnbase._USBFN_USB_STRING
 title: "_USBFN_USB_STRING"
-author: windows-driver-content
 description: Describes a USB string descriptor and the associated string index.
 old-location: buses\usbfn_usb_string.htm
 tech.root: usbref

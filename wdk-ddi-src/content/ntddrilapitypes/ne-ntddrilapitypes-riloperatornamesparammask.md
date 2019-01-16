@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILOPERATORNAMESPARAMMASK
 title: RILOPERATORNAMESPARAMMASK
-author: windows-driver-content
 description: This enumeration describes the RILOPERATORNAMESPARAMMASK.
 old-location: netvista\riloperatornamesparammask.htm
 tech.root: netvista

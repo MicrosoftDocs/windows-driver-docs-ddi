@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE
 title: D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE
-author: windows-driver-content
 description: Specifies the alpha fill mode for video processing.
 old-location: display\d3d11_1ddi_video_processor_alpha_fill_mode.htm
 ms.assetid: 22b50f49-821a-407e-89c0-fe7d637664fa

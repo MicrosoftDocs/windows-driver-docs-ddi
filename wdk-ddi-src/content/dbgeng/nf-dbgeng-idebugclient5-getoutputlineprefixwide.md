@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetOutputLinePrefixWide
 title: IDebugClient5::GetOutputLinePrefixWide
-author: windows-driver-content
 description: Gets a Unicode character string prefix for output lines.
 old-location: debugger\idebugclient5_getoutputlineprefixwide.htm
 tech.root: debugger

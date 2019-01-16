@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS
 title: WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS function
-author: windows-driver-content
 description: The WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS function initializes a WDF_USB_CONTROL_SETUP_PACKET structure for a USB control transfer that obtains device status.
 old-location: wdf\wdf_usb_control_setup_packet_init_get_status.htm
 tech.root: wdf

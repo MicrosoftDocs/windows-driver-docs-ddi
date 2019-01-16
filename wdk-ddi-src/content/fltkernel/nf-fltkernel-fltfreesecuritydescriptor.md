@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltFreeSecurityDescriptor
 title: FltFreeSecurityDescriptor function
-author: windows-driver-content
 description: FltFreeSecurityDescriptor frees a security descriptor allocated by the FltBuildDefaultSecurityDescriptor routine.
 old-location: ifsk\fltfreesecuritydescriptor.htm
 tech.root: ifsk

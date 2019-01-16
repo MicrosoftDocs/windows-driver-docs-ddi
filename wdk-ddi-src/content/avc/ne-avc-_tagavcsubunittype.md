@@ -1,7 +1,6 @@
 ---
 UID: NE:avc._tagAvcSubunitType
 title: "_tagAvcSubunitType"
-author: windows-driver-content
 description: The AvcSubunitType enumeration type is used to indicate the type of AV/C subunit.
 old-location: stream\avcsubunittype.htm
 tech.root: stream

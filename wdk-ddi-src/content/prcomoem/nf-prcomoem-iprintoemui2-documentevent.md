@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUI2.DocumentEvent
 title: IPrintOemUI2::DocumentEvent
-author: windows-driver-content
 description: The IPrintOemUI2::DocumentEvent method allows a UI plug-in to replace the core driver UI module's default implementation of the DrvDocumentEvent DDI.
 old-location: print\iprintoemui2_documentevent.htm
 tech.root: print

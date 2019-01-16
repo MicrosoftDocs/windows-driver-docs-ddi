@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.OutputDisassemblyLines
 title: IDebugControl::OutputDisassemblyLines
-author: windows-driver-content
 description: The OutputDisassemblyLines method disassembles several processor instructions and sends the resulting assembly instructions to the output callbacks.
 old-location: debugger\outputdisassemblylines.htm
 tech.root: debugger

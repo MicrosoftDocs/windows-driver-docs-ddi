@@ -1,7 +1,6 @@
 ---
 UID: NS:tcpxcv._DELETE_PORT_DATA_1
 title: "_DELETE_PORT_DATA_1"
-author: windows-driver-content
 description: The XcvData function uses a DELETE_PORT_DATA_1 structure when it deletes a port.
 old-location: print\delete_port_data_1.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwCreateFile
 title: ZwCreateFile function
-author: windows-driver-content
 description: The ZwCreateFile routine creates a new file or opens an existing file.
 old-location: kernel\zwcreatefile.htm
 tech.root: kernel

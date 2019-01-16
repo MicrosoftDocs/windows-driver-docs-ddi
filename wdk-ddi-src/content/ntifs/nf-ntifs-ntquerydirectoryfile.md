@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.NtQueryDirectoryFile
 title: NtQueryDirectoryFile function
-author: windows-driver-content
 description: The ZwQueryDirectoryFile routine returns various kinds of information about files in the directory specified by a given file handle.
 old-location: kernel\zwquerydirectoryfile.htm
 tech.root: kernel

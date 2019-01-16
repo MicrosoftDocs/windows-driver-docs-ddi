@@ -1,7 +1,6 @@
 ---
 UID: NC:video.PVIDEO_HW_RESET_HW
 title: PVIDEO_HW_RESET_HW
-author: windows-driver-content
 description: HwVidResetHw resets the adapter to character mode.
 old-location: display\hwvidresethw.htm
 tech.root: display

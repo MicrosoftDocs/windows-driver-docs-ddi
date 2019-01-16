@@ -1,7 +1,6 @@
 ---
 UID: NF:poscx.PosCxPutPendingEventMemory
 title: PosCxPutPendingEventMemory function
-author: windows-driver-content
 description: PosCxPutPendingEventMemory tries to delegate a memory object containing the event data to a waiting caller. If the target caller does not have a read request waiting, the new event is added to the designated event queue (control or data).
 old-location: pos\poscxputpendingeventmemory.htm
 tech.root: pos

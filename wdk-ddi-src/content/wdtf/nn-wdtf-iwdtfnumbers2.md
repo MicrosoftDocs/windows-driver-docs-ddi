@@ -1,7 +1,6 @@
 ---
 UID: NN:wdtf.IWDTFNumbers2
 title: IWDTFNumbers2
-author: windows-driver-content
 description: Defines operations and properties for a collection of numbers.
 old-location: dtf\iwdtfnumbers2.htm
 tech.root: dtf

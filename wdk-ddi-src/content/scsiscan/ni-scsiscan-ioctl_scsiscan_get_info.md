@@ -1,7 +1,6 @@
 ---
 UID: NI:scsiscan.IOCTL_SCSISCAN_GET_INFO
 title: IOCTL_SCSISCAN_GET_INFO
-author: windows-driver-content
 description: The IOCTL_SCSISCAN_GET_INFO I/O control code returns device information.
 old-location: image\ioctl_scsiscan_get_info.htm
 tech.root: image

@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisResetEvent
 title: NdisResetEvent function
-author: windows-driver-content
 description: The NdisResetEvent function clears the Signaled state of a given event.
 old-location: netvista\ndisresetevent.htm
 tech.root: netvista

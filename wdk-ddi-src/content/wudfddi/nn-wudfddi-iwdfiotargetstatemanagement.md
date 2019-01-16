@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFIoTargetStateManagement
 title: IWDFIoTargetStateManagement
-author: windows-driver-content
 description: The IWDFIoTargetStateManagement interface exposes methods that manage and monitor the state of an I/O target object.
 old-location: wdf\iwdfiotargetstatemanagement.htm
 tech.root: wdf

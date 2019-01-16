@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.PcGetPhysicalDeviceObject
 title: PcGetPhysicalDeviceObject function
-author: windows-driver-content
 description: The PcGetPhysicalDeviceObject function enables audio miniport drivers to retrieve the underlying physical device object of the audio device.
 old-location: audio\pcgetphysicaldeviceobject.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsicfg._MSiSCSI_TCPIPConfig
 title: "_MSiSCSI_TCPIPConfig"
-author: windows-driver-content
 description: The MSiSCSI_TCPIPConfig structure reports TCP/IP configuration information about one of the adapter's ports.
 old-location: storage\msiscsi_tcpipconfig.htm
 tech.root: storage

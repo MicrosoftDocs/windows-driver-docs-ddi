@@ -1,7 +1,6 @@
 ---
 UID: NF:wdbgexts.GetShortField
 title: GetShortField function
-author: windows-driver-content
 description: The GetShortField function reads the value of a member in a structure if its size is less than or equal to 8 bytes, or initializes a structure so it can be read later.
 old-location: debugger\getshortfield.htm
 tech.root: debugger

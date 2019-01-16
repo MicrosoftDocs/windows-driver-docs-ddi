@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_START_DEVICE
 title: DXGKDDI_START_DEVICE
-author: windows-driver-content
 description: The DxgkDdiStartDevice function prepares a display adapter to receive I/O requests.
 old-location: display\dxgkddistartdevice.htm
 tech.root: display

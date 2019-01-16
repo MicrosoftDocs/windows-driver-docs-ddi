@@ -1,7 +1,6 @@
 ---
 UID: NE:filterpipeline.__MIDL___MIDL_itf_filterpipeline_0000_0000_0003
 title: "__MIDL___MIDL_itf_filterpipeline_0000_0000_0003"
-author: windows-driver-content
 description: The EXpsJobConsumption enumeration describes job consumption updates.
 old-location: print\expsjobconsumption.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SeQueryAuthenticationIdToken
 title: SeQueryAuthenticationIdToken function
-author: windows-driver-content
 description: The SeQueryAuthenticationIdToken routine retrieves the authentication ID of an access token.
 old-location: ifsk\sequeryauthenticationidtoken.htm
 tech.root: ifsk

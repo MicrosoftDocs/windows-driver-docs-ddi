@@ -1,7 +1,6 @@
 ---
 UID: NS:bdamedia.tagKS_DATARANGE_BDA_TRANSPORT
 title: tagKS_DATARANGE_BDA_TRANSPORT
-author: windows-driver-content
 description: The KS_DATARANGE_BDA_TRANSPORT structure describes a range of data formats for a BDA transport stream.
 old-location: stream\ks_datarange_bda_transport.htm
 tech.root: stream

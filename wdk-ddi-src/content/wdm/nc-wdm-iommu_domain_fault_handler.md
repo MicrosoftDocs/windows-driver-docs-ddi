@@ -41,21 +41,21 @@ targetos: Windows
 
 ## -description
 
-Sets the fault report on a device that is already attached to a domain. 
+Sets the fault report on a device that is already attached to a domain.
 
 ## -prototype
 
 ```cpp
 //Declaration
 
-IOMMU_DOMAIN_FAULT_HANDLER IommuDomainFaultHandler; 
+IOMMU_DOMAIN_FAULT_HANDLER IommuDomainFaultHandler;
 
 // Definition
 
-VOID IommuDomainFaultHandler 
+VOID IommuDomainFaultHandler
 (
-	PVOID Context
-	PFAULT_INFORMATION FaultInformation
+    PVOID Context
+    PFAULT_INFORMATION FaultInformation
 )
 {...}
 
@@ -67,16 +67,14 @@ IOMMU_DOMAIN_FAULT_HANDLER *PIOMMU_DOMAIN_FAULT_HANDLER
 ## -parameters
 
 ### -param Context
+
 A pointed to the driver-supplied context.
 
 ### -param FaultInformation
+
 A pointer to a [**FAULT_INFORMATION**](ns-wdm-_fault_information.md) structure that contains the fault report.
 
-
-
 ## -returns
-
-
 
 ## -remarks
 

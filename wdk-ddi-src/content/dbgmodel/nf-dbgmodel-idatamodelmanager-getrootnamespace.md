@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.GetRootNamespace
 title: IDataModelManager::GetRootNamespace
-author: windows-driver-content
 description: The GetRootNamespace method returns the data model's root namespace.
 ms.assetid: d32bbeda-15ce-48b1-abaf-1ac21f497e98
 ms.date: 07/19/2018

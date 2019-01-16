@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_CONTEXT_QUERY_PARKING_PAGE
 title: "_PEP_PPM_CONTEXT_QUERY_PARKING_PAGE"
-author: windows-driver-content
 description: The PEP_PPM_CONTEXT_QUERY_PARKING_PAGE structure describes the parking page for a processor.
 old-location: kernel\pep_ppm_context_query_parking_page.htm
 tech.root: kernel

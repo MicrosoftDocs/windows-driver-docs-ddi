@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfdevice._WDF_DEVICE_STATE
 title: "_WDF_DEVICE_STATE"
-author: windows-driver-content
 description: The WDF_DEVICE_STATE structure specifies a device's Plug and Play state.
 old-location: wdf\wdf_device_state.htm
 tech.root: wdf

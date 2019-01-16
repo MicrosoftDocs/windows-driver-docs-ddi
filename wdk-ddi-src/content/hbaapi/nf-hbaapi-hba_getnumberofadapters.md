@@ -1,7 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_GetNumberOfAdapters
 title: HBA_GetNumberOfAdapters function
-author: windows-driver-content
 description: The HBA_GetNumberOfAdapters routine returns the number of HBAs supported by the library.
 old-location: storage\hba_getnumberofadapters.htm
 tech.root: storage

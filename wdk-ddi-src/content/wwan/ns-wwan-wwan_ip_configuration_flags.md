@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan.__unnamed_union_0
 title: WWAN_IP_CONFIGURATION_FLAGS
-author: windows-driver-content
 description: The WWAN_IP_CONFIGURATION_FLAGS structure represents flags that describe the availability of the IP address, gateway, DNS server, and/or MTU information of a PDP context.
 old-location: netvista\wwan_ip_configuration_flags.htm
 tech.root: netvista

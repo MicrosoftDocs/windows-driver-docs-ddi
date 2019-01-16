@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_DESTROYVIDEOPROCESSORENUM
 title: PFND3D11_1DDI_DESTROYVIDEOPROCESSORENUM
-author: windows-driver-content
 description: Releases resources for the video processor enumeration object that were created through a call to the CreateVideoProcessorEnum function.
 old-location: display\destroyvideoprocessorenum.htm
 ms.assetid: a4325993-aa87-466e-8e89-40bede1e0306

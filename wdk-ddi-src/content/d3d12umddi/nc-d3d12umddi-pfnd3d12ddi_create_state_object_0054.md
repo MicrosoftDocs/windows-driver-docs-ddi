@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_STATE_OBJECT_0054
 title: PFND3D12DDI_CREATE_STATE_OBJECT_0054
-author: windows-driver-content
 description: Creates a state object.
 ms.assetid: 2d818331-58bb-4530-921a-96a5cd404043
 ms.date: 10/19/2018

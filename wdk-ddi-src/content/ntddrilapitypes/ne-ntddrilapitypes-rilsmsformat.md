@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILSMSFORMAT
 title: RILSMSFORMAT
-author: windows-driver-content
 description: The RILSMSFORMAT enumeration has the following values.
 old-location: netvista\rilsmsformat.htm
 tech.root: netvista

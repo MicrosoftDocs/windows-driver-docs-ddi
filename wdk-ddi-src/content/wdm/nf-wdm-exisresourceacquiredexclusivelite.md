@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExIsResourceAcquiredExclusiveLite
 title: ExIsResourceAcquiredExclusiveLite function
-author: windows-driver-content
 description: The ExIsResourceAcquiredExclusiveLite routine returns whether the current thread has exclusive access to a given resource.
 old-location: kernel\exisresourceacquiredexclusivelite.htm
 tech.root: kernel

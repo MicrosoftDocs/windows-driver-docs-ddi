@@ -1,7 +1,6 @@
 ---
 UID: NF:ucmucsippm.UcmUcsiPpmSetUcsiCommandRequestQueue
 title: UcmUcsiPpmSetUcsiCommandRequestQueue function
-author: windows-driver-content
 tech.root: usbref
 description: Provides a framework queue object that is used to dispatch UCSI commands to the client driver.
 ms.assetid: 6f3d5025-84ec-484a-aa88-e4ac86118c73

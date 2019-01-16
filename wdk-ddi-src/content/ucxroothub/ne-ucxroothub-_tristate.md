@@ -1,7 +1,6 @@
 ---
 UID: NE:ucxroothub._TRISTATE
 title: "_TRISTATE"
-author: windows-driver-content
 description: The TRISTATE enumeration indicates generic state values for true or false.
 old-location: buses\tristate.htm
 tech.root: usbref

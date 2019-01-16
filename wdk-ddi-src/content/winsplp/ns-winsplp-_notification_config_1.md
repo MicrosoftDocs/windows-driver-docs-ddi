@@ -1,7 +1,6 @@
 ---
 UID: NS:winsplp._NOTIFICATION_CONFIG_1
 title: "_NOTIFICATION_CONFIG_1"
-author: windows-driver-content
 description: 
 old-location: print\notification_config_1.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeReleaseInStackQueuedSpinLockForDpc
 title: KeReleaseInStackQueuedSpinLockForDpc function
-author: windows-driver-content
 description: The KeReleaseInStackQueuedSpinLockForDpc routine releases a queued spin lock that was acquired by calling KeAcquireInStackQueuedSpinLockForDpc.
 old-location: kernel\kereleaseinstackqueuedspinlockfordpc.htm
 tech.root: kernel

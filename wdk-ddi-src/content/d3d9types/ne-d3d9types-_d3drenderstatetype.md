@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d9types._D3DRENDERSTATETYPE
 title: "_D3DRENDERSTATETYPE"
-author: windows-driver-content
 description: The D3DRENDERSTATETYPE enumerated type lists a variety of attributes, or render states.
 old-location: display\d3drenderstatetype.htm
 tech.root: display

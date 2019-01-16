@@ -1,7 +1,6 @@
 ---
 UID: NE:spb.SpbIoctl
 title: SpbIoctl
-author: windows-driver-content
 description: Defines values to indicate the type I/O control request.
 old-location: spb\spbioctl.htm
 tech.root: SPB

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfmemory.WdfMemoryAssignBuffer
 title: WdfMemoryAssignBuffer function
-author: windows-driver-content
 description: The WdfMemoryAssignBuffer method assigns a specified buffer to a memory object that a driver created by calling WdfMemoryCreatePreallocated.
 old-location: wdf\wdfmemoryassignbuffer.htm
 tech.root: wdf

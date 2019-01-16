@@ -1,8 +1,6 @@
 ---
 UID: NA:iscsidef
-author: windows-driver-content
 ms.assetid: 39aa6161-feb2-3ec8-a07b-b4e1594d4617
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

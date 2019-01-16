@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.PsDereferenceSiloContext
 title: PsDereferenceSiloContext function
-author: windows-driver-content
 description: This routine decrements the reference count on the object.
 old-location: kernel\psdereferencesilocontext.htm
 tech.root: kernel

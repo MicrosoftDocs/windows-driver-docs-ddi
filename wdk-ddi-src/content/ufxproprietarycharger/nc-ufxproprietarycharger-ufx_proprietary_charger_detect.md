@@ -1,7 +1,6 @@
 ---
 UID: NC:ufxproprietarycharger.UFX_PROPRIETARY_CHARGER_DETECT
 title: UFX_PROPRIETARY_CHARGER_DETECT
-author: windows-driver-content
 description: The filter driver's implementation to detect if a charger is attached and get details about the charger.
 old-location: buses\ufx_proprietary_charger_detect.htm
 tech.root: usbref

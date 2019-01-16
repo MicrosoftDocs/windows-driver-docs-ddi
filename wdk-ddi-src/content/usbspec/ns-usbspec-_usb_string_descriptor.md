@@ -1,7 +1,6 @@
 ---
 UID: NS:usbspec._USB_STRING_DESCRIPTOR
 title: "_USB_STRING_DESCRIPTOR"
-author: windows-driver-content
 description: The USB_STRING_DESCRIPTOR structure is used by USB client drivers to hold a USB-defined string descriptor.
 old-location: buses\usb_string_descriptor.htm
 tech.root: usbref

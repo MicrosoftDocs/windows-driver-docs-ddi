@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMFreePort
 title: NdisMFreePort function
-author: windows-driver-content
 description: The NdisMFreePort function frees an NDIS port that was previously allocated with the NdisMAllocatePort function.
 old-location: netvista\ndismfreeport.htm
 tech.root: netvista

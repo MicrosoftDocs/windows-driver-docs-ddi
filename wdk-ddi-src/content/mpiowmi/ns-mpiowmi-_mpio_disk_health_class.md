@@ -1,7 +1,6 @@
 ---
 UID: NS:mpiowmi._MPIO_DISK_HEALTH_CLASS
 title: "_MPIO_DISK_HEALTH_CLASS"
-author: windows-driver-content
 description: The MPIO_DISK_HEALTH_CLASS structure contains the health information for a multi-path disk.
 old-location: storage\mpio_disk_health_class.htm
 tech.root: storage

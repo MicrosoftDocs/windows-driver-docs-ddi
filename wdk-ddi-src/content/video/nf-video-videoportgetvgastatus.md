@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortGetVgaStatus
 title: VideoPortGetVgaStatus function
-author: windows-driver-content
 description: The VideoPortGetVgaStatus function detects whether the calling device is decoding a VGA I/O address.
 old-location: display\videoportgetvgastatus.htm
 tech.root: display

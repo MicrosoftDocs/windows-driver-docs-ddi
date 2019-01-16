@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfworkitem.WdfWorkItemFlush
 title: WdfWorkItemFlush function
-author: windows-driver-content
 description: The WdfWorkItemFlush method returns after a specified work item has been serviced.
 old-location: wdf\wdfworkitemflush.htm
 tech.root: wdf

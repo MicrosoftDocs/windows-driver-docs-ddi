@@ -1,7 +1,6 @@
 ---
 UID: NF:sti.IStillImageW.LaunchApplicationForDevice
 title: IStillImageW::LaunchApplicationForDevice
-author: windows-driver-content
 description: The IStillImage::LaunchApplicationForDevice method starts a specified application for a specified still image device.
 old-location: image\istillimage_launchapplicationfordevice.htm
 tech.root: image

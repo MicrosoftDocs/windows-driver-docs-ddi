@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddk._WHEA_RAW_DATA_FORMAT
 title: "_WHEA_RAW_DATA_FORMAT"
-author: windows-driver-content
 description: The WHEA_RAW_DATA_FORMAT enumeration defines the possible formats that raw hardware error data can be encoded in a hardware error packet.
 old-location: whea\whea_raw_data_format.htm
 tech.root: whea

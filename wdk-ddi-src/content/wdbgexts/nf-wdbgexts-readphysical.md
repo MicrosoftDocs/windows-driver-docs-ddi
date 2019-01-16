@@ -1,7 +1,6 @@
 ---
 UID: NF:wdbgexts.ReadPhysical
 title: ReadPhysical function
-author: windows-driver-content
 description: The ReadPhysical function reads from physical memory.
 old-location: debugger\readphysical.htm
 tech.root: debugger

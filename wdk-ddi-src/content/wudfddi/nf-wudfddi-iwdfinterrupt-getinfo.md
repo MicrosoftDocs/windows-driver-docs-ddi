@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFInterrupt.GetInfo
 title: IWDFInterrupt::GetInfo
-author: windows-driver-content
 description: The GetInfo method retrieves information about a specified interrupt.
 old-location: wdf\iwdfinterrupt_getinfo.htm
 tech.root: wdf

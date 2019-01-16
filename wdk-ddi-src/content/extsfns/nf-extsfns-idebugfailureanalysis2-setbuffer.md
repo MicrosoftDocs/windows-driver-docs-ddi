@@ -1,7 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.SetBuffer
 title: IDebugFailureAnalysis2::SetBuffer
-author: windows-driver-content
 description: The SetBuffer method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag. If it finds an FA entry with the specified tag, it overwrites the data block of the FA entry with the bytes in a specified buffer.
 old-location: debugger\idebugfailureanalysis2_setbuffer.htm
 tech.root: debugger

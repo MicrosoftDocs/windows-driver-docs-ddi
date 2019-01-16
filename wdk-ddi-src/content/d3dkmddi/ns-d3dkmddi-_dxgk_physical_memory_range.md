@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_PHYSICAL_MEMORY_RANGE
 title: _DXGK_PHYSICAL_MEMORY_RANGE
-author: windows-driver-content
 description: The physical memory range.
 ms.assetid: 915fa8ff-3726-4166-9d7a-7e342c685bdd
 ms.date: 10/19/2018

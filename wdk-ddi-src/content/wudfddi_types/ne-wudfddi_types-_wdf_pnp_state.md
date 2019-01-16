@@ -1,7 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_PNP_STATE
 title: "_WDF_PNP_STATE"
-author: windows-driver-content
 description: The WDF_PNP_STATE enumeration contains values that identify the status of Plug and Play (PnP) for a device.
 old-location: wdf\wdf_pnp_state.htm
 tech.root: wdf

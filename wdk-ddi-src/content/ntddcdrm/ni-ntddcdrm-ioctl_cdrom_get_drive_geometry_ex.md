@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX
 title: IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX
-author: windows-driver-content
 description: Returns information about a CD-ROM's geometry (media type, number of cylinders, tracks per cylinder, sectors per track, and bytes per sector).The IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX request differs from the older IOCTL_CDROM_GET_DRIVE_GEOMETRY request.
 old-location: storage\ioctl_cdrom_get_drive_geometry_ex.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._SID_AND_ATTRIBUTES
 title: "_SID_AND_ATTRIBUTES"
-author: windows-driver-content
 description: The SID_AND_ATTRIBUTES structure represents a security identifier (SID) and its attributes. SIDs are used to uniquely identify users or groups.
 old-location: ifsk\sid_and_attributes.htm
 tech.root: ifsk

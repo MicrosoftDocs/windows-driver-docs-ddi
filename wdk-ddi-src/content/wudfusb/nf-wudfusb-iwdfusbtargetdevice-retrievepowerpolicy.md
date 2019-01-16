@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetDevice.RetrievePowerPolicy
 title: IWDFUsbTargetDevice::RetrievePowerPolicy
-author: windows-driver-content
 description: The RetrievePowerPolicy method retrieves a WinUsb power policy.
 old-location: wdf\iwdfusbtargetdevice_retrievepowerpolicy.htm
 tech.root: wdf

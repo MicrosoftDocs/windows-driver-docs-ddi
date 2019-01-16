@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoClearActivityIdThread
 title: IoClearActivityIdThread function
-author: windows-driver-content
 description: The IoClearActivityIdThread routine clears the activity ID of the current thread.
 old-location: kernel\ioclearactivityidthread.htm
 tech.root: kernel

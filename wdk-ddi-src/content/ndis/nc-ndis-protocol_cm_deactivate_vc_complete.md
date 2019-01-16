@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CM_DEACTIVATE_VC_COMPLETE
 title: PROTOCOL_CM_DEACTIVATE_VC_COMPLETE
-author: windows-driver-content
 description: The ProtocolCmDeactivateVcComplete function is a required function.
 old-location: netvista\protocolcmdeactivatevccomplete.htm
 tech.root: netvista

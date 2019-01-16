@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwDeleteKey
 title: ZwDeleteKey function
-author: windows-driver-content
 description: The ZwDeleteKey routine deletes an open key from the registry.
 old-location: kernel\zwdeletekey.htm
 tech.root: kernel

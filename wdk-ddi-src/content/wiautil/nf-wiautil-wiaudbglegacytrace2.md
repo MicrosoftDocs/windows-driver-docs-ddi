@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgLegacyTrace2
 title: wiauDbgLegacyTrace2 function
-author: windows-driver-content
 description: The wiauDbgLegacyTrace2 function logs a trace message.
 old-location: image\wiaudbglegacytrace2.htm
 tech.root: image

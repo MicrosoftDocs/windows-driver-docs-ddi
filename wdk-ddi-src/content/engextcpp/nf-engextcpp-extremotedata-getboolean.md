@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetBoolean
 title: ExtRemoteData::GetBoolean
-author: windows-driver-content
 description: The GetBoolean method returns a Boolean version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getboolean.htm
 tech.root: debugger

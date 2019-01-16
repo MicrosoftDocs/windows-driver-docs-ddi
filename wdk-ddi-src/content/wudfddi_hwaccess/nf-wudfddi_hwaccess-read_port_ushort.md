@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi_hwaccess.READ_PORT_USHORT
 title: READ_PORT_USHORT function
-author: windows-driver-content
 description: The READ_PORT_USHORT function reads a USHORT value from the specified port address.
 old-location: wdf\read_port_ushort.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NI:d4drvif.IOCTL_DOT4_USER_BASE
 title: IOCTL_DOT4_USER_BASE
-author: windows-driver-content
 description: This topic describes IOCTL_DOT4_USER_BASE.
 old-location: print\ioctl_ioctl_dot4_user_base.htm
 tech.root: print

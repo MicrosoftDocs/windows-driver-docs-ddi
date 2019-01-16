@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCorePS2.GetGlobalAttribute
 title: IPrintCorePS2::GetGlobalAttribute
-author: windows-driver-content
 description: The IPrintCorePS2::GetGlobalAttribute method retrieves the global attribute list or the value of a specific global attribute.
 old-location: print\iprintcoreps2_getglobalattribute.htm
 tech.root: print

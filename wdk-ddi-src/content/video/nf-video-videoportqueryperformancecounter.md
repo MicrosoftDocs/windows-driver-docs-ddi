@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortQueryPerformanceCounter
 title: VideoPortQueryPerformanceCounter function
-author: windows-driver-content
 description: The VideoPortQueryPerformanceCounter function provides the finest-grained running count available in the system.
 old-location: display\videoportqueryperformancecounter.htm
 tech.root: display

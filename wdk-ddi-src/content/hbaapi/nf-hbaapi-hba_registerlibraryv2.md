@@ -1,7 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_RegisterLibraryV2
 title: HBA_RegisterLibraryV2 function
-author: windows-driver-content
 description: "."
 old-location: storage\hba_registerlibraryv2.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoQueue.Stop
 title: IWDFIoQueue::Stop
-author: windows-driver-content
 description: The Stop method prevents an I/O queue from delivering I/O requests, but the queue receives and stores new requests.
 old-location: wdf\iwdfioqueue_stop.htm
 tech.root: wdf

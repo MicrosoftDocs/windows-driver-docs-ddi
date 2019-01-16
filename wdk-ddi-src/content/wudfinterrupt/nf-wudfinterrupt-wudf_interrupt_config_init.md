@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfinterrupt.WUDF_INTERRUPT_CONFIG_INIT
 title: WUDF_INTERRUPT_CONFIG_INIT function
-author: windows-driver-content
 description: The WUDF_INTERRUPT_CONFIG_INIT function initializes a WUDF_INTERRUPT_CONFIG structure.
 old-location: wdf\wudf_interrupt_config_init.htm
 tech.root: wdf

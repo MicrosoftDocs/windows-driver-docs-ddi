@@ -1,7 +1,6 @@
 ---
 UID: NS:ehstorbandmgmt._ENUMERATE_BANDS_PARAMETERS
 title: "_ENUMERATE_BANDS_PARAMETERS"
-author: windows-driver-content
 description: The ENUMERATE_BANDS_PARAMETERS structure is used to select which band information entries are selected for return from an IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS request.
 old-location: storage\enumerate_bands_parameters.htm
 tech.root: storage

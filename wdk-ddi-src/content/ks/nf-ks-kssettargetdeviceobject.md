@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsSetTargetDeviceObject
 title: KsSetTargetDeviceObject function
-author: windows-driver-content
 description: The KsSetTargetDeviceObject function sets the target device object of an object. The function adds the object header to a list of object headers that have target devices.
 old-location: stream\kssettargetdeviceobject.htm
 tech.root: stream

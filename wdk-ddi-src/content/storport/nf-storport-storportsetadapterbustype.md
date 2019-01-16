@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortSetAdapterBusType
 title: StorPortSetAdapterBusType function
-author: windows-driver-content
 description: Used to adjust the BusType of the adapter depending on its current configuration.
 old-location: storage\storportsetadapterbustype.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugPlmClient
 title: IDebugPlmClient
-author: windows-driver-content
 description: This interface supports Process Lifecycle Management (PLM) for the debug client.
 old-location: debugger\idebugplmclient.htm
 tech.root: debugger

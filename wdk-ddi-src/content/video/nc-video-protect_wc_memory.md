@@ -1,7 +1,6 @@
 ---
 UID: NC:video.PROTECT_WC_MEMORY
 title: PROTECT_WC_MEMORY
-author: windows-driver-content
 description: The VideoPortProtectWCMemory callback routine protects Write Combined (WC) video memory from being accessed by the CPU.
 old-location: display\videoportprotectwcmemory.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoInitAllowForwardingRequestToParent
 title: WdfPdoInitAllowForwardingRequestToParent function
-author: windows-driver-content
 description: The WdfPdoInitAllowForwardingRequestToParent method enables a driver's ability to call WdfRequestForwardToParentDeviceIoQueue.
 old-location: wdf\wdfpdoinitallowforwardingrequesttoparent.htm
 tech.root: wdf

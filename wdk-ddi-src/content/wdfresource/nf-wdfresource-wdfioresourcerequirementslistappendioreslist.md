@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfresource.WdfIoResourceRequirementsListAppendIoResList
 title: WdfIoResourceRequirementsListAppendIoResList function
-author: windows-driver-content
 description: The WdfIoResourceRequirementsListAppendIoResList method adds a logical configuration to the end of a resource requirements list.
 old-location: wdf\wdfioresourcerequirementslistappendioreslist.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._TARGET_DEVICE_CUSTOM_NOTIFICATION
 title: "_TARGET_DEVICE_CUSTOM_NOTIFICATION"
-author: windows-driver-content
 description: The TARGET_DEVICE_CUSTOM_NOTIFICATION structure describes a custom device event.
 old-location: kernel\target_device_custom_notification.htm
 tech.root: kernel

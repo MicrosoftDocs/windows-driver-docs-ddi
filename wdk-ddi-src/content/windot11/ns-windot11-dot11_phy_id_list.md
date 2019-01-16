@@ -1,7 +1,6 @@
 ---
 UID: NS:windot11.DOT11_PHY_ID_LIST
 title: DOT11_PHY_ID_LIST
-author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_phy_id_list.htm
 tech.root: netvista

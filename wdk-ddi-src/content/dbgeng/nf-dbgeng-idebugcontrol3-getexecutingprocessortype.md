@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetExecutingProcessorType
 title: IDebugControl3::GetExecutingProcessorType
-author: windows-driver-content
 description: The GetExecutingProcessorType method returns the executing processor type for the processor for which the last event occurred.
 old-location: debugger\getexecutingprocessortype.htm
 tech.root: debugger

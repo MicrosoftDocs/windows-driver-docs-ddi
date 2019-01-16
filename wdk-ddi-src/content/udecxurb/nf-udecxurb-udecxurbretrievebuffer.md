@@ -1,7 +1,6 @@
 ---
 UID: NF:udecxurb.UdecxUrbRetrieveBuffer
 title: UdecxUrbRetrieveBuffer function
-author: windows-driver-content
 description: Retrieves the transfer buffer of an URB from the specified framework request object sent to the endpoint queue.
 old-location: buses\udecxurbretrievebuffer.htm
 tech.root: usbref

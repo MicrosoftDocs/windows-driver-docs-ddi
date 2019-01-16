@@ -1,7 +1,6 @@
 ---
 UID: NF:dmusicks.IAllocatorMXF.GetMessage
 title: IAllocatorMXF::GetMessage
-author: windows-driver-content
 description: The GetMessage method serves as the retrieval point for any DirectMusic kernel-mode component that utilizes the port driver's allocator to reuse DMUS_KERNEL_EVENT structures.
 old-location: audio\iallocatormxf_getmessage.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NF:rilapi.RIL_GetDriverVersion
 title: RIL_GetDriverVersion function
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getdriverversion.htm
 tech.root: netvista

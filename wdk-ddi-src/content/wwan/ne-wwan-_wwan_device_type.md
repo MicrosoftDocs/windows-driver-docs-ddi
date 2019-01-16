@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_DEVICE_TYPE
 title: "_WWAN_DEVICE_TYPE"
-author: windows-driver-content
 description: The WWAN_DEVICE_TYPE enumeration lists the different device types that describe the MB device.
 old-location: netvista\wwan_device_type.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NC:ks.PFNKSDEVICEIRPVOID
 title: PFNKSDEVICEIRPVOID
-author: windows-driver-content
 description: An AVStream minidriver's IRP handling routine is called when these IRPs are dispatched by the device.IRP_MN_CANCEL_STOP_DEVICEIRP_MN_CANCEL_REMOVE_DEVICEIRP_MN_REMOVE_DEVICEIRP_MN_STOP_DEVICEIRP_MN_SURPRISE_REMOVAL
 old-location: stream\avstrminidevicecancelstop.htm
 tech.root: stream

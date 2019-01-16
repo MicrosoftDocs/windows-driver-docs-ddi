@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_STATE_PS_SRV_CB
 title: PFND3D10DDI_STATE_PS_SRV_CB
-author: windows-driver-content
 description: The pfnStatePsSrvCb function causes the Microsoft Direct3D 10 runtime to refresh the pixel shader stage's bound shader resource views.
 old-location: display\pfnstatepssrvcb.htm
 ms.assetid: ed49ce47-c56d-4d38-8f2c-562841b8e804

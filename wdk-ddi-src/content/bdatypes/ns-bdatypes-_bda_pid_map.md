@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_PID_MAP
 title: "_BDA_PID_MAP"
-author: windows-driver-content
 description: The BDA_PID_MAP structure describes a type of data to filter out of the input stream of a packet identifier (PID) filter and then pass to a downstream filter.
 old-location: stream\bda_pid_map.htm
 tech.root: stream

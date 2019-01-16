@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.VslCreateSecureSection
 title: VslCreateSecureSection function
-author: windows-driver-content
 description: This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release.
 old-location: kernel\vslcreatesecuresection.htm
 tech.root: kernel

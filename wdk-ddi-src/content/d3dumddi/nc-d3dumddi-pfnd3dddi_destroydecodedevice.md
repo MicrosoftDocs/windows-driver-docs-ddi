@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DESTROYDECODEDEVICE
 title: PFND3DDDI_DESTROYDECODEDEVICE
-author: windows-driver-content
 description: The DestroyDecodeDevice function releases resources for a Microsoft DirectX Video Acceleration (VA) decode device.
 old-location: display\destroydecodedevice.htm
 tech.root: display

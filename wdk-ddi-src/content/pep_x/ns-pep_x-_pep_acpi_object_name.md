@@ -1,7 +1,6 @@
 ---
 UID: NS:pep_x._PEP_ACPI_OBJECT_NAME
 title: "_PEP_ACPI_OBJECT_NAME"
-author: windows-driver-content
 description: The PEP_ACPI_OBJECT_NAME union contains the four-character name of an ACPI object.
 old-location: kernel\pep_acpi_object_name.htm
 tech.root: kernel

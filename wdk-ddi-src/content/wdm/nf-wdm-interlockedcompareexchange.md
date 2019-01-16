@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.InterlockedCompareExchange
 title: InterlockedCompareExchange function
-author: windows-driver-content
 description: The InterlockedCompareExchange routine performs an atomic operation that compares the input value pointed to by Destination with the value of Comperand.
 old-location: kernel\interlockedcompareexchange.htm
 tech.root: kernel

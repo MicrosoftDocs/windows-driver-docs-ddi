@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_AMVPSIZE
 title: tagKS_AMVPSIZE
-author: windows-driver-content
 description: The KS_AMVPSIZE structure is used to describe the dimension of a video port (width by height).
 old-location: stream\ks_amvpsize.htm
 tech.root: stream

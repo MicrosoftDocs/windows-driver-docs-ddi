@@ -1,7 +1,6 @@
 ---
 UID: NF:irb.AtaPortDeviceReady
 title: AtaPortDeviceReady function
-author: windows-driver-content
 description: The AtaPortDeviceReady routine informs the port driver that the indicated device is ready to accept new requests.
 old-location: storage\ataportdeviceready.htm
 tech.root: storage

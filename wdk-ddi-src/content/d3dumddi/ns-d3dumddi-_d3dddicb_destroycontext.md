@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_DESTROYCONTEXT
 title: "_D3DDDICB_DESTROYCONTEXT"
-author: windows-driver-content
 description: The D3DDDICB_DESTROYCONTEXT structure contains the handle to a context to destroy.
 old-location: display\d3dddicb_destroycontext.htm
 tech.root: display

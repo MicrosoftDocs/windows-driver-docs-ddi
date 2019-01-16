@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddk._BDCB_CLASSIFICATION
 title: "_BDCB_CLASSIFICATION"
-author: windows-driver-content
 description: The BDCB_CLASSIFICATION enumeration lists different classifications of boot start images.
 old-location: kernel\bdcb_classification.htm
 tech.root: kernel

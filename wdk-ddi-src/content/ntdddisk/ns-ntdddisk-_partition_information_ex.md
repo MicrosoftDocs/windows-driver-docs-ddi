@@ -1,7 +1,6 @@
 ---
 UID: NS:ntdddisk._PARTITION_INFORMATION_EX
 title: "_PARTITION_INFORMATION_EX"
-author: windows-driver-content
 description: PARTITION_INFORMATION_EX is the extended version of the PARTITION_INFORMATION structure. It holds information both for partitions with a Master Boot Record and for partitions with a GUID Partition Table.
 old-location: storage\partition_information_ex.htm
 tech.root: storage
@@ -77,7 +76,7 @@ Contains a structure of type [PARTITION_INFORMATION_MBR](ns-ntdddisk-_partition_
 
 ### -field DUMMYUNIONNAME.Gpt
 
-Contains a structure of type [PARTITION_INFORMATION_GPT](ns-ntdddisk-_partition_information_mbr.md) containing information specific to a partition with a **PartitionStyle** member of PARTITION_STYLE_GPT.
+Contains a structure of type [PARTITION_INFORMATION_GPT](ns-ntdddisk-_partition_information_gpt.md) containing information specific to a partition with a **PartitionStyle** member of PARTITION_STYLE_GPT.
 
 ## -remarks
 
@@ -89,6 +88,6 @@ This is the extended version of the partition information structure, PARTITION_I
 
 [IoWritePartitionTable](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-iowritepartitiontable)
 
-[PARTITION_INFORMATION_GPT](ns-ntdddisk-_partition_information_mbr.md)
+[PARTITION_INFORMATION_GPT](ns-ntdddisk-_partition_information_gpt.md)
 
 [PARTITION_INFORMATION_MBR](ns-ntdddisk-_partition_information_mbr.md)

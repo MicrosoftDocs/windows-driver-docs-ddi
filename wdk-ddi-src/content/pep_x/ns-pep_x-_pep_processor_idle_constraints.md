@@ -1,7 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PROCESSOR_IDLE_CONSTRAINTS
 title: "_PEP_PROCESSOR_IDLE_CONSTRAINTS"
-author: windows-driver-content
 description: The PEP_PROCESSOR_IDLE_CONSTRAINTS structure specifies a set of constraints that the PEP uses to select a processor idle state.
 old-location: kernel\pep_processor_idle_constraints.htm
 tech.root: kernel

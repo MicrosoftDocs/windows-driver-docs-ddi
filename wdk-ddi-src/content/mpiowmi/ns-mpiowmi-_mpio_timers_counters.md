@@ -1,7 +1,6 @@
 ---
 UID: NS:mpiowmi._MPIO_TIMERS_COUNTERS
 title: "_MPIO_TIMERS_COUNTERS"
-author: windows-driver-content
 description: The MPIO_TIMERS_COUNTERS structure controls the timer counters that affect all devices whose controlling DSMs do not implement independent timer counter settings.
 old-location: storage\mpio_timers_counters.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoCheckFunctionAccess
 title: IoCheckFunctionAccess function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\iocheckfunctionaccess.htm
 tech.root: ifsk

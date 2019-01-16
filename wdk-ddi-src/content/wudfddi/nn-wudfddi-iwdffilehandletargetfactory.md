@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFFileHandleTargetFactory
 title: IWDFFileHandleTargetFactory
-author: windows-driver-content
 description: The IWDFFileHandleTargetFactory interface is a factory interface that is used to create a file-handle-based target device object.
 old-location: wdf\iwdffilehandletargetfactory.htm
 tech.root: wdf

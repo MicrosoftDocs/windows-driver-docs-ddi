@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATEHWQUEUE
 title: "_D3DKMT_CREATEHWQUEUE"
-author: windows-driver-content
 description: A structure holding information to create a hardware queue.
 old-location: display\d3dkmt_createhwqueue.htm
 ms.assetid: DBD99353-4798-4540-89DB-EA08521B276E

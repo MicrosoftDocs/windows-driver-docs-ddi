@@ -1,7 +1,6 @@
 ---
 UID: NI:hidport.IOCTL_HID_GET_DEVICE_ATTRIBUTES
 title: IOCTL_HID_GET_DEVICE_ATTRIBUTES
-author: windows-driver-content
 description: The IOCTL_HID_GET_DEVICE_ATTRIBUTES request obtains a HIDClass device's attributes in a HID_DEVICE_ATTRIBUTES structure.
 old-location: hid\ioctl_hid_get_device_attributes.htm
 tech.root: hid

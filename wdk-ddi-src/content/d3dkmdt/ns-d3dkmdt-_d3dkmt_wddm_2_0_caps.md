@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMT_WDDM_2_0_CAPS
 title: _D3DKMT_WDDM_2_0_CAPS
-author: windows-driver-content
 description: Indicates the capabilities for Windows Display Driver Model v2.0.
 ms.assetid: 4a073daa-4233-4c38-bcef-86dc04d00352
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlDowncaseUnicodeString
 title: RtlDowncaseUnicodeString function
-author: windows-driver-content
 description: The RtlDowncaseUnicodeString routine converts the specified Unicode source string to lowercase. The translation conforms to the current system locale information.
 old-location: ifsk\rtldowncaseunicodestring.htm
 tech.root: ifsk

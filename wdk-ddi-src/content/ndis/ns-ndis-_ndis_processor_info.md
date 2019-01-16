@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PROCESSOR_INFO
 title: "_NDIS_PROCESSOR_INFO"
-author: windows-driver-content
 description: The NDIS_PROCESSOR_INFO structure specifies information about a processor in the local computer.
 old-location: netvista\ndis_processor_info.htm
 tech.root: netvista

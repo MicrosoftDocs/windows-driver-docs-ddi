@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsReadNextLogRecord
 title: ClfsReadNextLogRecord function
-author: windows-driver-content
 description: The ClfsReadNextLogRecord routine reads the next record in a sequence, relative to the current record in a read context.
 old-location: kernel\clfsreadnextlogrecord.htm
 tech.root: kernel

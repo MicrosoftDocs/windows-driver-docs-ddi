@@ -1,7 +1,6 @@
 ---
 UID: NS:acpitabl._ACPI_PLD_CONTAINER_BUFFER
 title: _ACPI_PLD_CONTAINER_BUFFER
-author: windows-driver-content
 description: Defines the ACPI Physical Location Descriptor (PLD) container buffer structure.
 ms.assetid: 3ba566f6-602a-44e7-80f1-392d34021890
 ms.date: 10/01/2018

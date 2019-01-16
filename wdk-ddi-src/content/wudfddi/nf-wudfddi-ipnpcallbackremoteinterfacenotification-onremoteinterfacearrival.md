@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallbackRemoteInterfaceNotification.OnRemoteInterfaceArrival
 title: IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival
-author: windows-driver-content
 description: A driver's OnRemoteInterfaceArrival event callback function informs the driver when a device interface is available.
 old-location: wdf\ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.ExpandSymbol
 title: IDebugSymbolGroup2::ExpandSymbol
-author: windows-driver-content
 description: The ExpandSymbol method adds or removes the children of a symbol from a symbol group.
 old-location: debugger\expandsymbol.htm
 tech.root: debugger

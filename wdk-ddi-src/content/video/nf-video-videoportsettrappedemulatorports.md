@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortSetTrappedEmulatorPorts
 title: VideoPortSetTrappedEmulatorPorts function
-author: windows-driver-content
 description: VGA-compatible (SVGA) miniport drivers call the VideoPortSetTrappedEmulatorPorts function to dynamically change the list of I/O ports that are trapped when a VDM runs in full-screen mode on an x86-based machine.
 old-location: display\videoportsettrappedemulatorports.htm
 tech.root: display

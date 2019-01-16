@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_BEGIN_RENDER_PASS
 title: PFND3D12DDI_BEGIN_RENDER_PASS
-author: windows-driver-content
 description: Implemented by the client driver to start the Render Pass. 
 ms.assetid: 563ef6fb-d509-4f6b-8a2f-95cfcaea8dd7
 ms.date: 10/19/2018

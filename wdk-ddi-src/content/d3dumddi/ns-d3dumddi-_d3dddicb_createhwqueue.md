@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_CREATEHWQUEUE
 title: "_D3DDDICB_CREATEHWQUEUE"
-author: windows-driver-content
 description: A structure that holds information to create a hardware queue.
 old-location: display\d3dddicb_createhwqueue.htm
 tech.root: display

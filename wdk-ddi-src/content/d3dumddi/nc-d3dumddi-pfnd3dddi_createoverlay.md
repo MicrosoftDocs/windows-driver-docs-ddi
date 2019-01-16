@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATEOVERLAY
 title: PFND3DDDI_CREATEOVERLAY
-author: windows-driver-content
 description: The CreateOverlay function allocates overlay hardware and makes the overlay visible.
 old-location: display\createoverlay.htm
 tech.root: display

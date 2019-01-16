@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlPtrdiffTSub
 title: RtlPtrdiffTSub function
-author: windows-driver-content
 description: Subtracts one value of type PTRDIFF_T from another.
 old-location: kernel\rtlptrdifftsub.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsFilterRegisterAggregatedClientUnknown
 title: KsFilterRegisterAggregatedClientUnknown function
-author: windows-driver-content
 description: This inline function is a wrapper for KsRegisterAggregatedClientUnknown.
 old-location: stream\ksfilterregisteraggregatedclientunknown.htm
 tech.root: stream

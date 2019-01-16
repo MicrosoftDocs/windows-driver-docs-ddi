@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMConfigMSIXTableEntry
 title: NdisMConfigMSIXTableEntry function
-author: windows-driver-content
 description: The NdisMConfigMSIXTableEntry function performs configuration operations for MSI-X table entries for device-assigned MSI-X messages.
 old-location: netvista\ndismconfigmsixtableentry.htm
 tech.root: netvista

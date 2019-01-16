@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.KeReleaseQueuedSpinLock
 title: KeReleaseQueuedSpinLock function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\kereleasequeuedspinlock.htm
 tech.root: ifsk

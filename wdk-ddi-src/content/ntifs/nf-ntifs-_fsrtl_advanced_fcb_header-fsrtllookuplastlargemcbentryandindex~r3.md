@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlLookupLastLargeMcbEntryAndIndex~r3
 title: FsRtlLookupLastLargeMcbEntryAndIndex function
-author: windows-driver-content
 description: The FsRtlLookupLastLargeMcbEntryAndIndex routine retrieves the last mapping entry stored in a given map control block (MCB).
 old-location: ifsk\fsrtllookuplastlargemcbentryandindex.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NS:strmini._STREAM_METHOD_DESCRIPTOR
 title: "_STREAM_METHOD_DESCRIPTOR"
-author: windows-driver-content
 description: 
 old-location: stream\stream_method_descriptor.htm
 tech.root: stream

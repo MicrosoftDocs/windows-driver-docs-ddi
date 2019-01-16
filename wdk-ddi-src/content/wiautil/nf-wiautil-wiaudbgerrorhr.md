@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgErrorHr
 title: wiauDbgErrorHr function
-author: windows-driver-content
 description: The wiauDbgErrorHr function logs a message containing an HRESULT and its error message string.
 old-location: image\wiaudbgerrorhr.htm
 tech.root: image

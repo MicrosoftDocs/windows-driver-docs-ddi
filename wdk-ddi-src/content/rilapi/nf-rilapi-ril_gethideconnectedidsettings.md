@@ -1,7 +1,6 @@
 ---
 UID: NF:rilapi.RIL_GetHideConnectedIdSettings
 title: RIL_GetHideConnectedIdSettings function
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_gethideconnectedidsettings.htm
 tech.root: netvista

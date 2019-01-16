@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlFindUnicodePrefix
 title: RtlFindUnicodePrefix function
-author: windows-driver-content
 description: The RtlFindUnicodePrefix routine searches for the best match for a given Unicode file name in a prefix table.
 old-location: ifsk\rtlfindunicodeprefix.htm
 tech.root: ifsk

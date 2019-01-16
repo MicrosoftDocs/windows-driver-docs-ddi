@@ -1,7 +1,6 @@
 ---
 UID: NE:ntifs._SID_NAME_USE
 title: "_SID_NAME_USE"
-author: windows-driver-content
 description: The SID_NAME_USE enumeration type contains values that specify the type of a security identifier (SID).
 old-location: ifsk\sid_name_use.htm
 tech.root: ifsk

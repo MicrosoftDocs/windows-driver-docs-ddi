@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddcdvd.IOCTL_AACS_READ_BINDING_NONCE
 title: IOCTL_AACS_READ_BINDING_NONCE
-author: windows-driver-content
 description: Reads the Advanced Access Content System (AACS) binding nonce starting at the specified byte offset on the disc, as part of the protocol for reading a protected data area.
 old-location: storage\ioctl_aacs_read_binding_nonce.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NI:ehstorbandmgmt.IOCTL_EHSTOR_BANDMGMT_CREATE_BAND
 title: IOCTL_EHSTOR_BANDMGMT_CREATE_BAND
-author: windows-driver-content
 description: New bands are created on a band-managed storage device with the IOCTL_EHSTOR_BANDMGMT_CREATE_BAND request. A new band is added to the table of band entries, which includes band location and security properties.
 old-location: storage\ioctl_ehstor_bandmgmt_create_band.htm
 tech.root: storage

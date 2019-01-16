@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILMSGMWITYPE
 title: RILMSGMWITYPE
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgmwitype.htm
 tech.root: netvista

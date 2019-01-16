@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlCopyString
 title: RtlCopyString function
-author: windows-driver-content
 description: The RtlCopyString routine copies a source string to a destination string.
 old-location: kernel\rtlcopystring.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_MAPCONTEXTALLOCATION
 title: "_DXGKARGCB_MAPCONTEXTALLOCATION"
-author: windows-driver-content
 description: DXGKARGCB_MAPCONTEXTALLOCATION is used with DxgkCbMapContextAllocation to map a graphics processing unit (GPU) virtual address to the specified context allocation.
 old-location: display\dxgkargcb_mapcontextallocation.htm
 ms.assetid: F26E382F-D9F8-4452-983E-4523A77ADC35

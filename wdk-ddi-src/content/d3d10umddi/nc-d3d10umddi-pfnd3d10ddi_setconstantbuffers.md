@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_SETCONSTANTBUFFERS
 title: PFND3D10DDI_SETCONSTANTBUFFERS
-author: windows-driver-content
 description: The CsSetConstantBuffers function sets constant buffers for a compute shader.
 old-location: display\cssetconstantbuffers.htm
 ms.assetid: 159ee0ac-7ddf-4ffd-a07f-3d58130b90e8

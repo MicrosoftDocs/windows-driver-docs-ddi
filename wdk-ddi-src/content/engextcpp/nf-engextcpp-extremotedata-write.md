@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.Write
 title: ExtRemoteData::Write
-author: windows-driver-content
 description: The Write method writes the data cached by the ExtRemoteData object to the region of memory on the target, represented by this object.
 old-location: debugger\extremotedata_write.htm
 tech.root: debugger

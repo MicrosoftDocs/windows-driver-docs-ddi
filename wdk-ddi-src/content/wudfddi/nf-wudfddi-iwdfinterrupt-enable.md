@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFInterrupt.Enable
 title: IWDFInterrupt::Enable
-author: windows-driver-content
 description: The Enable method enables a specified device interrupt by calling the driver's OnInterruptEnable callback function.
 old-location: wdf\iwdfinterrupt_enable.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM2_0DDI_GETDATAFORNEWHARDWAREKEY
 title: PFND3DWDDM2_0DDI_GETDATAFORNEWHARDWAREKEY
-author: windows-driver-content
 description: Allows the driver to return independent hardware vendor (IHV)-specific information used when initializing the new hardware key.
 old-location: display\getdatafornewhardwarekey.htm
 ms.assetid: 0B365C66-2E6E-4DE9-A7A4-963965995F61

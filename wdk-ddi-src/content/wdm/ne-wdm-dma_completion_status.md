@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm.__unnamed_enum_10
 title: DMA_COMPLETION_STATUS
-author: windows-driver-content
 description: The DMA_COMPLETION_STATUS enumeration describes the completion status of a DMA transfer.
 old-location: kernel\dma_completion_status.htm
 tech.root: kernel

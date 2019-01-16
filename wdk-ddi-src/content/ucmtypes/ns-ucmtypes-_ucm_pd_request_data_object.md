@@ -1,7 +1,6 @@
 ---
 UID: NS:ucmtypes._UCM_PD_REQUEST_DATA_OBJECT
 title: "_UCM_PD_REQUEST_DATA_OBJECT"
-author: windows-driver-content
 description: Describes a Request Data Object (RDO). For information about these members, see the Power Delivery specification.
 old-location: buses\ucm_pd_request_data_object.htm
 tech.root: usbref

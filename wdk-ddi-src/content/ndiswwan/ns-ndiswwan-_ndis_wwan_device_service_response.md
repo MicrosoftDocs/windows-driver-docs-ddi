@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_DEVICE_SERVICE_RESPONSE
 title: "_NDIS_WWAN_DEVICE_SERVICE_RESPONSE"
-author: windows-driver-content
 description: The NDIS_WWAN_DEVICE_SERVICE_RESPONSE structure represents device service data from the transaction completion of a device service command.
 old-location: netvista\ndis_wwan_device_service_response.htm
 tech.root: netvista

@@ -1,8 +1,6 @@
 ---
 UID: NA:fltsafe
-author: windows-driver-content
 ms.assetid: 1d17ac47-d602-385e-b08e-40ed399183c3
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

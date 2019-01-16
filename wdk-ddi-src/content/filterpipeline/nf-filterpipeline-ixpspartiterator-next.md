@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IXpsPartIterator.Next
 title: IXpsPartIterator::Next
-author: windows-driver-content
 description: The Next method advances the iterator to the next part.
 old-location: print\ixpspartiterator_next.htm
 tech.root: print

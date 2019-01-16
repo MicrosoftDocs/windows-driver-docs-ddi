@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWavePciStream.SetFormat
 title: IMiniportWavePciStream::SetFormat
-author: windows-driver-content
 description: The SetFormat method sets the KS data format of the wave stream.
 old-location: audio\iminiportwavepcistream_setformat.htm
 tech.root: audio

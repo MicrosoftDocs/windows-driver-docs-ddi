@@ -1,7 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_PD
 title: "_NDK_PD"
-author: windows-driver-content
 description: The NDK_PD structure specifies the attributes of an NDK protection domain (PD) object.
 old-location: netvista\ndk_pd.htm
 tech.root: netvista

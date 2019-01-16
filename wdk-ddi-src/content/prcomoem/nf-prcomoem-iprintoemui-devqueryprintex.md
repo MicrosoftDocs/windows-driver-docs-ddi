@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.DevQueryPrintEx
 title: IPrintOemUI::DevQueryPrintEx
-author: windows-driver-content
 description: The IPrintOemUI::DevQueryPrintEx method allows a user interface plug-in to help determine if a print job is printable.
 old-location: print\iprintoemui_devqueryprintex.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_VIDEOPROCESSBLT
 title: "_D3DDDIARG_VIDEOPROCESSBLT"
-author: windows-driver-content
 description: The D3DDDIARG_VIDEOPROCESSBLT structure describes a Microsoft DirectX Video Acceleration (VA) video processing operation to perform.
 old-location: display\d3dddiarg_videoprocessblt.htm
 tech.root: display

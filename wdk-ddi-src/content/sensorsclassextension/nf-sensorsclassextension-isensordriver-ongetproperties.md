@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnGetProperties
 title: ISensorDriver::OnGetProperties
-author: windows-driver-content
 description: The ISensorDriver::OnGetProperties method retrieves values for the specified properties from the specified sensor.
 old-location: sensors\isensordriver_ongetproperties.htm
 tech.root: sensors

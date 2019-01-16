@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_QUERY_NUM_AVAIL_MODES
 title: IOCTL_VIDEO_QUERY_NUM_AVAIL_MODES
-author: windows-driver-content
 description: Returns the number of video modes supported by the adapter and the size in bytes of the video mode information, which can be used to allocate a buffer for an IOCTL_VIDEO_QUERY_AVAIL_MODES request.
 old-location: display\ioctl_video_query_num_avail_modes.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMAllocateSharedMemory
 title: NdisMAllocateSharedMemory function
-author: windows-driver-content
 description: NdisMAllocateSharedMemory allocates and maps a host memory range so that the memory range is simultaneously accessible from both the host system and a DMA NIC.
 old-location: netvista\ndismallocatesharedmemory.htm
 tech.root: netvista

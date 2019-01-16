@@ -1,7 +1,6 @@
 ---
 UID: NS:netdispumdddi._MIRACAST_DRIVER_INTERFACE
 title: "_MIRACAST_DRIVER_INTERFACE"
-author: windows-driver-content
 description: Contains pointers to wireless display (Miracast) functions that are implemented by the Miracast user-mode driver.
 old-location: display\miracast_driver_interface.htm
 tech.root: display

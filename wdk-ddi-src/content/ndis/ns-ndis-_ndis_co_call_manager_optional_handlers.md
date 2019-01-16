@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS
 title: "_NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS"
-author: windows-driver-content
 description: The NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS structure specifies CoNDIS call manager ProtocolXxx functions for the driver that passes this structure to the NdisSetOptionalHandlers function.
 old-location: netvista\ndis_co_call_manager_optional_handlers.htm
 tech.root: netvista

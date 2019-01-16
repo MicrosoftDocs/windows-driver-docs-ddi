@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoSetActivityIdThread
 title: IoSetActivityIdThread function
-author: windows-driver-content
 description: The IoSetActivityIdThread routine associates an activity ID with the current thread. Drivers should use this routine when they are tracing aware and are issuing I/O on a worker thread.
 old-location: kernel\iosetactivityidthread.htm
 tech.root: kernel

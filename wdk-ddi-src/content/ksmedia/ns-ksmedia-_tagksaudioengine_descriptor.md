@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia._tagKSAUDIOENGINE_DESCRIPTOR
 title: "_tagKSAUDIOENGINE_DESCRIPTOR"
-author: windows-driver-content
 description: The KSAUDIOENGINE_DESCRIPTOR structure describes the static, external properties of the audio engine.
 old-location: audio\ksaudioengine_descriptor.htm
 tech.root: audio

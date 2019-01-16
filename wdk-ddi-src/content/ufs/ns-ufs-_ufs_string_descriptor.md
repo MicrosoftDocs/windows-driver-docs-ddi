@@ -1,7 +1,6 @@
 ---
 UID: NS:ufs._UFS_STRING_DESCRIPTOR
 title: "_UFS_STRING_DESCRIPTOR"
-author: windows-driver-content
 description: The UFS_STRING_DESCRIPTOR structure describes either the Manufacturer Name, Product Name, OEM ID, or Serial Number as a string.
 old-location: storage\ufs_string_descriptor.htm
 tech.root: storage

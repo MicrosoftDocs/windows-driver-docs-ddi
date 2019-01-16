@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATESCHEDULINGGROUP_0050
 title: D3D12DDIARG_CREATESCHEDULINGGROUP_0050
-author: windows-driver-content
 description: Arguments used in the call to PFND3D12DDI_CREATESCHEDULINGGROUP_0050 to create a scheduling group.
 ms.assetid: d6916789-d42a-4089-a305-1a28248047e3
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlTeardownPerStreamContexts
 title: FsRtlTeardownPerStreamContexts function
-author: windows-driver-content
 description: The FsRtlTeardownPerStreamContexts routine frees all per-stream context structures associated with a given FSRTL_ADVANCED_FCB_HEADER structure.
 old-location: ifsk\fsrtlteardownperstreamcontexts.htm
 tech.root: ifsk

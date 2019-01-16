@@ -1,7 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX2_FILECLOSE
 title: EVT_SERCX2_FILECLOSE
-author: windows-driver-content
 description: The EvtSerCx2FileClose event callback function is called by version 2 of the serial framework extension (SerCx2) to notify the serial controller driver that the client released the file object that represents the logical connection to the serial controller device.
 old-location: serports\evtsercx2fileclose.htm
 tech.root: serports

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATECONTEXTVIRTUALCB
 title: PFND3DDDI_CREATECONTEXTVIRTUALCB
-author: windows-driver-content
 description: pfnCreateContextVirtualCb should be used with contexts that support virtual addressing.
 old-location: display\pfncreatecontextvirtualcb.htm
 tech.root: display

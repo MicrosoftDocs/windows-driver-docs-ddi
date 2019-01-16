@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KdEnableDebugger
 title: KdEnableDebugger function
-author: windows-driver-content
 description: The KdEnableDebugger routine re-enables the kernel debugger after a call to the KdDisableDebugger routine disables the kernel debugger.
 old-location: devtest\kdenabledebugger.htm
 tech.root: devtest

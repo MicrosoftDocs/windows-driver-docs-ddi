@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_RECLAIMALLOCATIONS3
 title: _D3DDDICB_RECLAIMALLOCATIONS3
-author: windows-driver-content
 description: D3DDDICB_RECLAIMALLOCATIONS3 is used with pfnReclaimAllocations3Cb to describe video memory resources, previously offered for reuse by the driver, that are to be reclaimed.
 ms.assetid: 11306f6b-dfb5-4357-9bf2-14c4c4034594
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoReportDetectedDevice
 title: IoReportDetectedDevice function
-author: windows-driver-content
 description: The IoReportDetectedDevice routine reports a non-PnP device to the PnP manager.
 old-location: kernel\ioreportdetecteddevice.htm
 tech.root: kernel

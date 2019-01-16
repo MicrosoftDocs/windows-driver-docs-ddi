@@ -1,7 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA
 title: "_MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA"
-author: windows-driver-content
 description: This structure contains authentication information retrieved from the device.
 old-location: pos\msr_retrieve_device_authentication_data.htm
 tech.root: pos

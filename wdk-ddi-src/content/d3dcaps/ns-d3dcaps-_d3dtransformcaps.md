@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dcaps._D3DTRANSFORMCAPS
 title: "_D3DTRANSFORMCAPS"
-author: windows-driver-content
 description: Obsolete in DirectX 8.0 and later versions. D3DTRANSFORMCAPS structure describes the transform capabilities of a device.
 old-location: display\d3dtransformcaps.htm
 tech.root: display

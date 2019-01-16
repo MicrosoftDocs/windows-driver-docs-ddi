@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisAdvanceNetBufferListDataStart
 title: NdisAdvanceNetBufferListDataStart function
-author: windows-driver-content
 description: Call the NdisAdvanceNetBufferListDataStart function to release data space that was claimed in previous calls to the NdisRetreatNetBufferListDataStart function.
 old-location: netvista\ndisadvancenetbufferlistdatastart.htm
 tech.root: netvista

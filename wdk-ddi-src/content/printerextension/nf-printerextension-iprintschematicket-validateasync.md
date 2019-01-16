@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaTicket.ValidateAsync
 title: IPrintSchemaTicket::ValidateAsync
-author: windows-driver-content
 description: Gets an asynchronous PrintTicket validation operation context.
 old-location: print\iprintschematicket_validateasync.htm
 tech.root: print

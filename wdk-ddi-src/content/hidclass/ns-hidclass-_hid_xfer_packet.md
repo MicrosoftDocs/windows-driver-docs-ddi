@@ -1,7 +1,6 @@
 ---
 UID: NS:hidclass._HID_XFER_PACKET
 title: "_HID_XFER_PACKET"
-author: windows-driver-content
 description: The HID_XFER_PACKET structure contains information about a HID report that the HID class driver uses with I/O requests to get or set a report.
 old-location: hid\hid_xfer_packet.htm
 tech.root: hid

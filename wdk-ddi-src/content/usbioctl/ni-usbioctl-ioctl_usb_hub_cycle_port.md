@@ -1,7 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_HUB_CYCLE_PORT
 title: IOCTL_USB_HUB_CYCLE_PORT
-author: windows-driver-content
 description: The IOCTL_USB_HUB_CYCLE_PORT I/O control request power-cycles the port that is associated with the PDO that receives the request.
 old-location: buses\ioctl_usb_hub_cycle_port.htm
 tech.root: usbref

@@ -1,7 +1,6 @@
 ---
 UID: NF:winsplp.CreatePrinterIC
 title: CreatePrinterIC function
-author: windows-driver-content
 description: 
 old-location: print\createprinteric.htm
 tech.root: print

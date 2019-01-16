@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEPROTECTEDRESOURCESESSION_0030
 title: PFND3D12DDI_CREATEPROTECTEDRESOURCESESSION_0030
-author: windows-driver-content
 description: Used to create a protected resource session.
 old-location: display\pfnd3d12ddi_createprotectedresourcesession_0030.htm
 ms.assetid: CE866047-61AD-4F4C-9990-76CE6B7BC4AA

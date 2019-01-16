@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_GETNODEMETADATA
 title: DXGKDDI_GETNODEMETADATA
-author: windows-driver-content
 description: From a provided adapter handle, returns the engine type and friendly name of an engine on a specified GPU node. Must be implemented by Windows Display Driver Model (WDDM) 1.3 and later display miniport drivers.
 old-location: display\dxgkddigetnodemetadata.htm
 ms.assetid: ECE54E1C-5291-43AF-8A71-BD95DE5DF0A6

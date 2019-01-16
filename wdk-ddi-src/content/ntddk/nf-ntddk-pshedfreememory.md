@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.PshedFreeMemory
 title: PshedFreeMemory function
-author: windows-driver-content
 description: The PshedFreeMemory function frees a block of memory that was previously allocated by calling the PshedAllocateMemory function.
 old-location: whea\pshedfreememory.htm
 tech.root: whea

@@ -1,7 +1,6 @@
 ---
 UID: NI:swenum.IOCTL_SWENUM_REMOVE_INTERFACE
 title: IOCTL_SWENUM_REMOVE_INTERFACE
-author: windows-driver-content
 description: 
 old-location: stream\ioctl_swenum_remove_interface.htm
 tech.root: stream

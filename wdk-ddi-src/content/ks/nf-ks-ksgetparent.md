@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsGetParent
 title: KsGetParent function
-author: windows-driver-content
 description: The KsGetParent function acquires the parent of the given object.
 old-location: stream\ksgetparent.htm
 tech.root: stream

@@ -1,11 +1,9 @@
 ---
 UID: NF:portcls.IMiniportWaveRTStream.GetPositionRegister
 title: IMiniportWaveRTStream::GetPositionRegister
-author: windows-driver-content
 description: The GetPositionRegister method retrieves the information that the port driver requires to expose the position register to the audio subsystem and its clients.
 tech.root: audio
 ms.assetid: 84877d13-e24a-4c17-ac95-092e0e03e596
-ms.author: windowsdriverdev
 ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IMiniportWaveRTStream::GetPositionRegister, GetPositionRegister, IMiniportWaveRTStream.GetPositionRegister, IMiniportWaveRTStream::GetPositionRegister, IMiniportWaveRTStream.GetPositionRegister

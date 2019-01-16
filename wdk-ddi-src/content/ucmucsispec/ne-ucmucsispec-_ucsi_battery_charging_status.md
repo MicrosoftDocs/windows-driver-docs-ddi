@@ -1,7 +1,6 @@
 ---
 UID: NE:ucmucsispec._UCSI_BATTERY_CHARGING_STATUS
 title: _UCSI_BATTERY_CHARGING_STATUS
-author: windows-driver-content
 tech.root: usbref
 description: See Table 4-42, Offset 64.
 ms.assetid: 46ac6952-3aff-45c8-98b6-f410e20614f9

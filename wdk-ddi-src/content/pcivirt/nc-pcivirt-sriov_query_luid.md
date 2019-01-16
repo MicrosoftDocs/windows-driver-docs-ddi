@@ -1,7 +1,6 @@
 ---
 UID: NC:pcivirt.SRIOV_QUERY_LUID
 title: SRIOV_QUERY_LUID
-author: windows-driver-content
 description: Gets the local unique identifier of the SR-IOV device.
 old-location: pci\sriov_query_luid.htm
 tech.root: PCI

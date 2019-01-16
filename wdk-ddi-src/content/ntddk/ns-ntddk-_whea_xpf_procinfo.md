@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_XPF_PROCINFO
 title: "_WHEA_XPF_PROCINFO"
-author: windows-driver-content
 description: The WHEA_XPF_PROCINFO structure describes processor error information that is specific to the x86 and x64 processor architectures.
 old-location: whea\whea_xpf_procinfo.htm
 tech.root: whea

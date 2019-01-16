@@ -1,7 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_HANDLE_DATA_BASIC
 title: "_DEBUG_HANDLE_DATA_BASIC"
-author: windows-driver-content
 description: The DEBUG_HANDLE_DATA_BASIC structure contains handle-related information about a system object.
 old-location: debugger\debug_handle_data_basic.htm
 tech.root: debugger

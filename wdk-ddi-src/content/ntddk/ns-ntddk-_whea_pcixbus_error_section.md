@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_PCIXBUS_ERROR_SECTION
 title: "_WHEA_PCIXBUS_ERROR_SECTION"
-author: windows-driver-content
 description: The WHEA_PCIXBUS_ERROR_SECTION structure describes PCI or PCI-X bus error data.
 old-location: whea\whea_pcixbus_error_section.htm
 tech.root: whea

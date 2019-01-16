@@ -1,7 +1,6 @@
 ---
 UID: NF:rxcontx.RxCreateRxContext
 title: RxCreateRxContext function
-author: windows-driver-content
 description: RxCreateRxContext allocates a new RX_CONTEXT structure and initializes the data structure.
 old-location: ifsk\rxcreaterxcontext.htm
 tech.root: ifsk

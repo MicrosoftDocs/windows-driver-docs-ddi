@@ -1,11 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEDESERIALIZEDOBJECTSIZE
 title: PFND3D12DDI_CALCPRIVATEDESERIALIZEDOBJECTSIZE
-author: windows-driver-content
 description: CalcPrivateDeserializedObjectSize is called to get the size of the private driver data that the runtime should allocate for the driver to instantiate an object from serialized form.
 tech.root: display
 ms.assetid: a51ef44d-3323-4458-b03f-c5babe4ecc40
-ms.author: windowsdriverdev
 ms.date: 11/28/2018
 ms.topic: callback
 ms.prod: windows-hardware

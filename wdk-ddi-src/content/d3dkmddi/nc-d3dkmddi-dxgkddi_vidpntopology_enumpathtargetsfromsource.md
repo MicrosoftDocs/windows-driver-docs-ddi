@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTOPOLOGY_ENUMPATHTARGETSFROMSOURCE
 title: DXGKDDI_VIDPNTOPOLOGY_ENUMPATHTARGETSFROMSOURCE
-author: windows-driver-content
 description: The pfnEnumPathTargetsFromSource function returns the identifier of one of the video present targets associated with a specified video present source.
 old-location: display\dxgk_vidpntopology_interface_pfnenumpathtargetsfromsource.htm
 ms.assetid: ca925b3c-8141-419d-99a1-43764ec07315

@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_88
 title: KSPROPERTY_VIDEOPROCAMP_S
-author: windows-driver-content
 description: The KSPROPERTY_VIDEOPROCAMP_S structure describes filter-based property settings in the PROPSETID_VIDCAP_VIDEOPROCAMP property set.
 old-location: stream\ksproperty_videoprocamp_s.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient4.AttachProcess
 title: IDebugClient4::AttachProcess
-author: windows-driver-content
 description: The AttachProcess method connects the debugger engine to a user-modeprocess.
 old-location: debugger\attachprocess.htm
 tech.root: debugger

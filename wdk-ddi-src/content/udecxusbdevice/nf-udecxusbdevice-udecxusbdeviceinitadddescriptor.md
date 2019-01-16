@@ -1,7 +1,6 @@
 ---
 UID: NF:udecxusbdevice.UdecxUsbDeviceInitAddDescriptor
 title: UdecxUsbDeviceInitAddDescriptor function
-author: windows-driver-content
 description: Adds a USB descriptor to the initialization parameters used to create a virtual USB device.
 old-location: buses\udecxusbdeviceinitadddescriptor.htm
 tech.root: usbref

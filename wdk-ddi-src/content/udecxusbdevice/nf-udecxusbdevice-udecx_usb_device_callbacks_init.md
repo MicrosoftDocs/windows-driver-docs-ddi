@@ -1,7 +1,6 @@
 ---
 UID: NF:udecxusbdevice.UDECX_USB_DEVICE_CALLBACKS_INIT
 title: UDECX_USB_DEVICE_CALLBACKS_INIT function
-author: windows-driver-content
 description: Initializes a UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS structure before a UdecxUsbDeviceCreate call.
 old-location: buses\udecx_usb_device_callbacks_init.htm
 tech.root: usbref

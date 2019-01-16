@@ -1,7 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_ARG_RESOLVESHAREDRESOURCE
 title: DXGI_DDI_ARG_RESOLVESHAREDRESOURCE
-author: windows-driver-content
 description: The DXGI_DDI_ARG_RESOLVESHAREDRESOURCE structure describes the parameters that the user-mode display driver's ResolveSharedResourceDXGI function uses to synchronize a shared surface or a GDI interoperable surface.
 old-location: display\dxgi_ddi_arg_resolvesharedresource.htm
 tech.root: display

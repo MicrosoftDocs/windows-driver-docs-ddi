@@ -1,7 +1,6 @@
 ---
 UID: NF:spb.SPB_TRANSFER_LIST_INIT
 title: SPB_TRANSFER_LIST_INIT function
-author: windows-driver-content
 description: The SPB_TRANSFER_LIST_INIT function initializes an SPB_TRANSFER_LIST structure.
 old-location: spb\spb_transfer_list_init.htm
 tech.root: SPB

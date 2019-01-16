@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_RESOURCEISSTAGINGBUSY
 title: PFND3D10DDI_RESOURCEISSTAGINGBUSY
-author: windows-driver-content
 description: The ResourceIsStagingBusy function determines whether a resource is currently being used by the graphics pipeline.
 old-location: display\resourceisstagingbusy.htm
 ms.assetid: df8498e2-a3b5-4bc8-b6d2-0d444f1d1485

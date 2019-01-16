@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfobject.WDF_GET_CONTEXT_TYPE_INFO
 title: WDF_GET_CONTEXT_TYPE_INFO macro
-author: windows-driver-content
 description: This macro is reserved for internal use only.
 old-location: wdf\wdf_get_context_type_info.htm
 tech.root: wdf

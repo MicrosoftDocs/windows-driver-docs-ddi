@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorscx.SENSOR_CONTROLLER_CONFIG_INIT
 title: SENSOR_CONTROLLER_CONFIG_INIT function
-author: windows-driver-content
 description: This function initializes a SENSOR_CONTROLLER_CONFIG structure.
 old-location: sensors\sensor_controller_config_init.htm
 tech.root: sensors

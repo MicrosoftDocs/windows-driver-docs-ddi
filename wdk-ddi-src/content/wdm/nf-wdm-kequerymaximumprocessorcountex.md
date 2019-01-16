@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeQueryMaximumProcessorCountEx
 title: KeQueryMaximumProcessorCountEx function
-author: windows-driver-content
 description: The KeQueryMaximumProcessorCountEx routine returns the maximum number of logical processors in a specified group in a multiprocessor system.
 old-location: kernel\kequerymaximumprocessorcountex.htm
 tech.root: kernel

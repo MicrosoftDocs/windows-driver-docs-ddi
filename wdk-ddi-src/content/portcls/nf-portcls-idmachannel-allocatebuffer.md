@@ -1,11 +1,9 @@
 ---
 UID: NF:portcls.IDmaChannel.AllocateBuffer
 title: IDmaChannel::AllocateBuffer
-author: windows-driver-content
 description: The AllocateBuffer method allocates a common buffer that can be accessed by the port driver and DMA hardware.
 tech.root: audio
 ms.assetid: 5a1752fd-35e1-4ce1-9322-e4202705cb29
-ms.author: windowsdriverdev
 ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IDmaChannel::AllocateBuffer, AllocateBuffer, IDmaChannel.AllocateBuffer, IDmaChannel::AllocateBuffer, IDmaChannel.AllocateBuffer

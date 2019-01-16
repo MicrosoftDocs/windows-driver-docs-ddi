@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_GET_MODEM_CONTROL
 title: IOCTL_SERIAL_GET_MODEM_CONTROL
-author: windows-driver-content
 description: The IOCTL_SERIAL_GET_MODEM_CONTROL request returns the value of the modem control register in the serial controller.
 old-location: serports\ioctl_serial_get_modem_control.htm
 tech.root: serports

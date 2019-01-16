@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoGetRelatedDeviceObject
 title: IoGetRelatedDeviceObject function
-author: windows-driver-content
 description: Given a file object, the IoGetRelatedDeviceObject routine returns a pointer to the corresponding device object.
 old-location: kernel\iogetrelateddeviceobject.htm
 tech.root: kernel

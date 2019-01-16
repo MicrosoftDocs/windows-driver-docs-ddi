@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsStreamPointerScheduleTimeout
 title: KsStreamPointerScheduleTimeout function
-author: windows-driver-content
 description: The KsStreamPointerScheduleTimeout function registers a timeout callback with AVStream for the given stream pointer.
 old-location: stream\ksstreampointerscheduletimeout.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NE:wditypes._WDI_ANQP_QUERY_STATUS
 title: "_WDI_ANQP_QUERY_STATUS"
-author: windows-driver-content
 description: The WDI_ANQP_QUERY_STATUS enumeration defines the Access Network Query Protocol (ANQP) query status values.
 old-location: netvista\wdi_anqp_query_status.htm
 tech.root: netvista

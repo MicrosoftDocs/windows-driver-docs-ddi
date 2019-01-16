@@ -1,8 +1,6 @@
 ---
 UID: NA:netrxqueue
-author: windows-driver-content
 ms.assetid: 88d9b4af-6ff1-3534-b451-a126ba223490
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

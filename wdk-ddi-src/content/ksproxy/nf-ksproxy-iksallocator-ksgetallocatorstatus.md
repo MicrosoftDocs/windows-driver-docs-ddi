@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsAllocator.KsGetAllocatorStatus
 title: IKsAllocator::KsGetAllocatorStatus
-author: windows-driver-content
 description: Retrieves the status of an allocator.
 old-location: stream\iksallocator_ksgetallocatorstatus.htm
 tech.root: stream

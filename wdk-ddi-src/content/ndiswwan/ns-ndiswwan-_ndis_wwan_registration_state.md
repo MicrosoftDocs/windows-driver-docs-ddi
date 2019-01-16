@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_REGISTRATION_STATE
 title: "_NDIS_WWAN_REGISTRATION_STATE"
-author: windows-driver-content
 description: The NDIS_WWAN_REGISTRATION_STATE structure represents the registration state of the MB device.
 old-location: netvista\ndis_wwan_registration_state.htm
 tech.root: netvista

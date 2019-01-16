@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsCreateScanContext
 title: ClfsCreateScanContext function
-author: windows-driver-content
 description: The ClfsCreateScanContext routine creates a scan context that can be used to iterate over the containers of a specified CLFS log.
 old-location: kernel\clfscreatescancontext.htm
 tech.root: kernel

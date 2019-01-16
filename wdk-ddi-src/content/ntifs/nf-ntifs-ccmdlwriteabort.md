@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.CcMdlWriteAbort
 title: CcMdlWriteAbort function
-author: windows-driver-content
 description: The CcMdlWriteAbort routine frees memory descriptor lists (MDL) created by an earlier call to CcPrepareMdlWrite.
 old-location: ifsk\ccmdlwriteabort.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceIsConnectedSynchronous
 title: WdfUsbTargetDeviceIsConnectedSynchronous function
-author: windows-driver-content
 description: The WdfUsbTargetDeviceIsConnectedSynchronous method determines if the specified USB device is connected.
 old-location: wdf\wdfusbtargetdeviceisconnectedsynchronous.htm
 tech.root: wdf

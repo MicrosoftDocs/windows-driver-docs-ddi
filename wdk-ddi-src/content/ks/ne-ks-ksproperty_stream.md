@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_24
 title: KSPROPERTY_STREAM
-author: windows-driver-content
 description: 
 old-location: stream\ksproperty_stream.htm
 tech.root: stream

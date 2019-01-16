@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.TmRollbackTransaction
 title: TmRollbackTransaction function
-author: windows-driver-content
 description: The TmRollbackTransaction routine initiates a rollback operation for a specified transaction.
 old-location: kernel\tmrollbacktransaction.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisStallExecution
 title: NdisStallExecution macro
-author: windows-driver-content
 description: The NdisStallExecution function stalls the caller on the current processor for a given interval.
 old-location: netvista\ndisstallexecution.htm
 tech.root: netvista

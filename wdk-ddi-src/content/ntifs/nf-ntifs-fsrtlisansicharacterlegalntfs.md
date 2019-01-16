@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIsAnsiCharacterLegalNtfs
 title: FsRtlIsAnsiCharacterLegalNtfs macro
-author: windows-driver-content
 description: The FsRtlIsAnsiCharacterLegalNtfs macro determines whether an ANSI character is legal for NTFS file names.
 old-location: ifsk\fsrtlisansicharacterlegalntfs.htm
 tech.root: ifsk

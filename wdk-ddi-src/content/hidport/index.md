@@ -1,8 +1,6 @@
 ---
 UID: NA:hidport
-author: windows-driver-content
 ms.assetid: a158f664-a913-37af-9370-c18096783d37
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATEHWQUEUECB
 title: PFND3DDDI_CREATEHWQUEUECB
-author: windows-driver-content
 description: A callback to create a new hardware queue.
 old-location: display\pfnd3dddi_createhwqueuecb.htm
 tech.root: display

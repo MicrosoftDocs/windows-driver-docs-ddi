@@ -1,7 +1,6 @@
 ---
 UID: NF:hidpi.HidP_GetValueCaps
 title: HidP_GetValueCaps function
-author: windows-driver-content
 description: The HidP_GetValueCaps routine returns a value capability array that describes all the HID control values in a top-level collection for a specified type of HID report.
 old-location: hid\hidp_getvaluecaps.htm
 tech.root: hid

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DEPTHFILL
 title: "_D3DDDIARG_DEPTHFILL"
-author: windows-driver-content
 description: The D3DDDIARG_DEPTHFILL structure describes the parameters of a depth-fill operation.
 old-location: display\d3dddiarg_depthfill.htm
 tech.root: display

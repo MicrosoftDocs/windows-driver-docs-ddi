@@ -1,7 +1,6 @@
 ---
 UID: NF:sdplib.SdpCreateNodeInt8
 title: SdpCreateNodeInt8 function
-author: windows-driver-content
 description: The Bluetooth SdpCreateNodeInt8 function is used to allocate and initialize an SDP_NODE structure to an 8-bit integer type.
 old-location: bltooth\sdpcreatenodeint8.htm
 tech.root: bltooth

@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.Impersonate
 title: IWDFIoRequest::Impersonate
-author: windows-driver-content
 description: The Impersonate method registers the interface for the method that the framework should call for impersonation.
 old-location: wdf\iwdfiorequest_impersonate.htm
 tech.root: wdf

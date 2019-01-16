@@ -1,7 +1,6 @@
 ---
 UID: NS:parallel._PARALLEL_CHIP_MODE
 title: "_PARALLEL_CHIP_MODE"
-author: windows-driver-content
 description: The PARALLEL_CHIP_MODE structure specifies the operating mode of a parallel port.
 old-location: parports\parallel_chip_mode.htm
 tech.root: parports

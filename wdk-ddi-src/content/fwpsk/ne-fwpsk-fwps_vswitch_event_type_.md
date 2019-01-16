@@ -1,7 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_VSWITCH_EVENT_TYPE_
 title: FWPS_VSWITCH_EVENT_TYPE_
-author: windows-driver-content
 description: The FWPS_VSWITCH_EVENT_TYPE enumeration type specifies the type of a virtual switch event notification.
 old-location: netvista\fwps_vswitch_event_type.htm
 tech.root: netvista

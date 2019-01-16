@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_EVICT
 title: "_D3DKMT_EVICT"
-author: windows-driver-content
 description: D3DKMT_EVICT is used with D3DKMTEvict to subtract one from the residency reference count.
 old-location: display\d3dkmt_evict.htm
 ms.assetid: 07785939-C3D1-4085-BA1A-91E8FEE52B70

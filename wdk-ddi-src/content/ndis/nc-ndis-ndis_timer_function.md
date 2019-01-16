@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.NDIS_TIMER_FUNCTION
 title: NDIS_TIMER_FUNCTION
-author: windows-driver-content
 description: The NdisTimerFunction function is called by NDIS after a driver sets a one-shot or periodic timer when a timer fires.Note  You must declare the function by using the NDIS_TIMER_FUNCTION type.
 old-location: netvista\nettimercallback.htm
 tech.root: netvista

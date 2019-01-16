@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIsEcpFromUserMode
 title: FsRtlIsEcpFromUserMode function
-author: windows-driver-content
 description: The FsRtlIsEcpFromUserMode routine determines whether an extra create parameter (ECP) context structure originated from user mode.
 old-location: ifsk\fsrtlisecpfromusermode.htm
 tech.root: ifsk

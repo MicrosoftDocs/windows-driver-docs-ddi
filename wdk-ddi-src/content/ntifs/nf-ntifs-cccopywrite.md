@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.CcCopyWrite
 title: CcCopyWrite function
-author: windows-driver-content
 description: The CcCopyWrite routine copies data from a user buffer to a cached file.
 old-location: ifsk\cccopywrite.htm
 tech.root: ifsk

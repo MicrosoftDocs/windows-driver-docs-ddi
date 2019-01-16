@@ -1,7 +1,6 @@
 ---
 UID: NC:storport.HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE
 title: HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE
-author: windows-driver-content
 description: The HwMSInterruptRoutine routine handles a message signaled interrupt (MSI).
 old-location: storage\hwmsinterruptroutine.htm
 tech.root: storage

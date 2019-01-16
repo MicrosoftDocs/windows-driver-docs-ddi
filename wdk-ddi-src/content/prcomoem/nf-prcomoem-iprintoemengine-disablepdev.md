@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemEngine.DisablePDEV
 title: IPrintOemEngine::DisablePDEV
-author: windows-driver-content
 description: 
 old-location: print\iprintoemengine_disablepdev.htm
 tech.root: print

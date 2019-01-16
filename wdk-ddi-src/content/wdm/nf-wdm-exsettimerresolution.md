@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExSetTimerResolution
 title: ExSetTimerResolution function
-author: windows-driver-content
 description: The ExSetTimerResolution routine modifies the frequency at which the system clock interrupts. Use this routine with extreme caution (see the following Remarks section).
 old-location: kernel\exsettimerresolution.htm
 tech.root: kernel

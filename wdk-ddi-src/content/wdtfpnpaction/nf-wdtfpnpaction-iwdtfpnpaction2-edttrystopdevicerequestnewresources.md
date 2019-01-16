@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPAction2.EDTTryStopDeviceRequestNewResources
 title: IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources
-author: windows-driver-content
 description: Attempts to send an IRP_MN_STOP_DEVICE event to the target device and assign new resources to the target device.
 old-location: dtf\iwdtfpnpaction2_edttrystopdevicerequestnewresources.htm
 tech.root: dtf

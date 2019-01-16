@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeLowerIrql~r1
 title: KeLowerIrql function
-author: windows-driver-content
 description: The KeLowerIrql routine restores the IRQL on the current processor to its original value.
 old-location: kernel\kelowerirql.htm
 tech.root: kernel

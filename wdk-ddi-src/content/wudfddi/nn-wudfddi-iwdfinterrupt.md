@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFInterrupt
 title: IWDFInterrupt
-author: windows-driver-content
 description: This interface exposes an interrupt object.
 old-location: wdf\iwdfinterrupt.htm
 tech.root: wdf

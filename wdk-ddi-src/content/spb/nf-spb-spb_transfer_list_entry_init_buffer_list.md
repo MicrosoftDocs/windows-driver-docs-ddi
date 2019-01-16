@@ -1,7 +1,6 @@
 ---
 UID: NF:spb.SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST
 title: SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST function
-author: windows-driver-content
 description: The SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST function returns an SPB_TRANSFER_LIST_ENTRY structure that is initialized to describe a scatter-gather list.SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST function returns an SPB_TRANSFER_LIST_ENTRY structure that is initialized to describe a scatter-gather list.
 old-location: spb\spb_transfer_list_entry_init_buffer_list.htm
 tech.root: SPB

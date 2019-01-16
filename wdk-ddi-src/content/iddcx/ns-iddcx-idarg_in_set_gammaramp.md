@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_SET_GAMMARAMP
 title: IDARG_IN_SET_GAMMARAMP
-author: windows-driver-content
 description: Gives information about the gamma ramp being set.
 old-location: display\idarg_in_set_gammaramp.htm
 tech.root: display

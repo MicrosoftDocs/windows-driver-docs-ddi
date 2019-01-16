@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_SETSAMPLERS
 title: PFND3D10DDI_SETSAMPLERS
-author: windows-driver-content
 description: The CsSetSamplers function sets samplers for a compute shader.
 old-location: display\cssetsamplers.htm
 ms.assetid: 7bf05fb6-e959-464a-9e6b-74c568d1d88c

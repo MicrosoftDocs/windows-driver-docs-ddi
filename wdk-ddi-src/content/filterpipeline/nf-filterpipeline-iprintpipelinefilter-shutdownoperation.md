@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IPrintPipelineFilter.ShutdownOperation
 title: IPrintPipelineFilter::ShutdownOperation
-author: windows-driver-content
 description: The Pipeline Manager uses the ShutdownOperation method to shut down a filter if the print job is canceled or an error occurs.
 old-location: print\iprintpipelinefilter_shutdownoperation.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:bidispl.IBidiSpl.UnbindDevice
 title: IBidiSpl::UnbindDevice
-author: windows-driver-content
 description: The UnbindDevice method unbinds a printer from a bidi request.
 old-location: print\ibidispl_ibidispl__unbinddevice.htm
 tech.root: print

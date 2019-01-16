@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup.RemoveSymbolByIndex
 title: IDebugSymbolGroup::RemoveSymbolByIndex
-author: windows-driver-content
 description: The RemoveSymbolByIndex method removes the specified symbol from a symbol group.
 old-location: debugger\removesymbolbyindex.htm
 tech.root: debugger

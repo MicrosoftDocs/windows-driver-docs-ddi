@@ -1,7 +1,6 @@
 ---
 UID: NF:iointex.WdmlibIoConnectInterruptEx
 title: WdmlibIoConnectInterruptEx function
-author: windows-driver-content
 description: The WdmlibIoConnectInterruptEx function registers an interrupt-handling routine for a device's interrupts.
 old-location: kernel\wdmlibioconnectinterruptex.htm
 tech.root: kernel

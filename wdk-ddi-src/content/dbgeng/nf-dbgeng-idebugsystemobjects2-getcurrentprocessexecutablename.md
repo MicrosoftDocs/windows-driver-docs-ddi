@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects2.GetCurrentProcessExecutableName
 title: IDebugSystemObjects2::GetCurrentProcessExecutableName
-author: windows-driver-content
 description: The GetCurrentProcessExecutableName method returns the name of executable file loaded in the current process.
 old-location: debugger\getcurrentprocessexecutablename.htm
 tech.root: debugger

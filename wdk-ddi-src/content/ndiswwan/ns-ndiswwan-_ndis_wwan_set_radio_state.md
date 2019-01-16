@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SET_RADIO_STATE
 title: "_NDIS_WWAN_SET_RADIO_STATE"
-author: windows-driver-content
 description: The NDIS_WWAN_SET_RADIO_STATE structure represents the power action to take on the MB device's radio.
 old-location: netvista\ndis_wwan_set_radio_state.htm
 tech.root: netvista

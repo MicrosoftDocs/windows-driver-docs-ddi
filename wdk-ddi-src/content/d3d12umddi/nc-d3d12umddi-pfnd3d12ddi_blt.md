@@ -1,11 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_BLT
 title: PFND3D12DDI_BLT
-author: windows-driver-content
 description: The Blt function copies the contents of a source surface to a destination surface.
 tech.root: display
 ms.assetid: 170ad11a-c97a-4f30-9d0d-73e3a5e3a9ad
-ms.author: windowsdriverdev
 ms.date: 11/28/2018
 ms.topic: callback
 ms.prod: windows-hardware

@@ -1,7 +1,6 @@
 ---
 UID: NI:nfcsedev.IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT
 title: IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT
-author: windows-driver-content
 description: The IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT control code is issued by a client to subscribe to a specific event.
 old-location: nfpdrivers\ioctl_nfcse_subscribe_for_event.htm
 tech.root: nfpdrivers

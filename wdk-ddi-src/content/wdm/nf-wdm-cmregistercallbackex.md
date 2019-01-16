@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.CmRegisterCallbackEx
 title: CmRegisterCallbackEx function
-author: windows-driver-content
 description: The CmRegisterCallbackEx routine registers a RegistryCallback routine.
 old-location: kernel\cmregistercallbackex.htm
 tech.root: kernel

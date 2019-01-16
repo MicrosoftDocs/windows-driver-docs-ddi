@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacksWide.ChangeEngineState
 title: IDebugEventCallbacksWide::ChangeEngineState
-author: windows-driver-content
 description: The ChangeEngineState callback method is called by the engine when its state has changed.
 old-location: debugger\idebugeventcallbackswide_changeenginestate.htm
 tech.root: debugger

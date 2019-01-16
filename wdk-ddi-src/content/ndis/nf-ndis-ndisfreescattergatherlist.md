@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeScatterGatherList
 title: NdisFreeScatterGatherList function
-author: windows-driver-content
 description: The NdisFreeScatterGatherList function frees a scatter/gather list.
 old-location: netvista\ndisfreescattergatherlist.htm
 tech.root: netvista

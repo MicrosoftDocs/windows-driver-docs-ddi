@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IResourceList.NumberOfEntries
 title: IResourceList::NumberOfEntries
-author: windows-driver-content
 description: The NumberOfEntries method returns the number of resource items in the resource list.
 old-location: audio\iresourcelist_numberofentries.htm
 tech.root: audio

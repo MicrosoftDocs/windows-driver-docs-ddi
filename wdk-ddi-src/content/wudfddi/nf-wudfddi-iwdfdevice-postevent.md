@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.PostEvent
 title: IWDFDevice::PostEvent
-author: windows-driver-content
 description: The PostEvent method asynchronously notifies applications that are waiting for the specified event from a driver.
 old-location: wdf\iwdfdevice_postevent.htm
 tech.root: wdf

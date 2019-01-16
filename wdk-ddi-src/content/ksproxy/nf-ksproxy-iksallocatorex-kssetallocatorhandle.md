@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsAllocatorEx.KsSetAllocatorHandle
 title: IKsAllocatorEx::KsSetAllocatorHandle
-author: windows-driver-content
 description: Sets the handle for an allocator.
 old-location: stream\iksallocatorex_kssetallocatorhandle.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:irb.AtaPortReadPortBufferUshort
 title: AtaPortReadPortBufferUshort function
-author: windows-driver-content
 description: The AtaPortReadPortBufferUshort routine transfers a given number of USHORT values from the HBA to a buffer.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportreadportbufferushort.htm
 tech.root: storage

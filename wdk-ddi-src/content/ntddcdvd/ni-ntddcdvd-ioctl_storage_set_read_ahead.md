@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddcdvd.IOCTL_STORAGE_SET_READ_AHEAD
 title: IOCTL_STORAGE_SET_READ_AHEAD
-author: windows-driver-content
 description: Causes the device to skip to the given target address when the device reaches a certain trigger address during read-ahead caching.
 old-location: storage\ioctl_storage_set_read_ahead.htm
 tech.root: storage

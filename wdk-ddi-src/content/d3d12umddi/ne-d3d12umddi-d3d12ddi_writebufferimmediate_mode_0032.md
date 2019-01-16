@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_0032
 title: D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_0032
-author: windows-driver-content
 description: The write buffer immediate mode.
 old-location: display\d3d12ddi-writebufferimmediate-mode-0032.htm
 ms.assetid: 4d968e4c-fb5b-47d6-b4ca-5f9d1d9c4739

@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_FIND_NEW_DEVICES
 title: IOCTL_STORAGE_FIND_NEW_DEVICES
-author: windows-driver-content
 description: Determines whether another device that the driver supports has been connected to the I/O bus, either since the system was booted or since the driver last processed this request.
 old-location: storage\ioctl_storage_find_new_devices.htm
 tech.root: storage

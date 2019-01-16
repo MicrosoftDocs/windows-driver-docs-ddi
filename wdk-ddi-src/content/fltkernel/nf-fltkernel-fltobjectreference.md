@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltObjectReference
 title: FltObjectReference function
-author: windows-driver-content
 description: The FltObjectReference routine adds a rundown reference to an opaque filter, instance, or volume pointer.
 old-location: ifsk\fltobjectreference.htm
 tech.root: ifsk

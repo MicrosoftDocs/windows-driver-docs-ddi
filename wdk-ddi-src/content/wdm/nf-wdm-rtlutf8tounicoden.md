@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlUTF8ToUnicodeN
 title: RtlUTF8ToUnicodeN function
-author: windows-driver-content
 description: The RtlUTF8ToUnicodeN routine converts a UTF-8 string to a Unicode string.
 old-location: kernel\rtlutf8tounicoden.htm
 tech.root: kernel

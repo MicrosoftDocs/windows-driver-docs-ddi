@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_MIRACAST_HANDLE_IO_CONTROL
 title: DXGKDDI_MIRACAST_HANDLE_IO_CONTROL
-author: windows-driver-content
 description: Called by the operating system to request that the display miniport driver process a synchronous I/O control request in response to a user-mode display driver call to the MiracastIoControl function.
 old-location: display\dxgkddimiracastiocontrol.htm
 tech.root: display

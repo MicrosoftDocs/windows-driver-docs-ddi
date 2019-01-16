@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols4.GetLineByInlineContext
 title: IDebugSymbols4::GetLineByInlineContext
-author: windows-driver-content
 description: Gets a line by inline context.
 old-location: debugger\idebugsymbols4_getlinebyinlinecontext.htm
 tech.root: debugger

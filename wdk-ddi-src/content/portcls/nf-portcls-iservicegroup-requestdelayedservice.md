@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IServiceGroup.RequestDelayedService
 title: IServiceGroup::RequestDelayedService
-author: windows-driver-content
 description: The RequestDelayedService method requests service after the specified delay.
 old-location: audio\iservicegroup_requestdelayedservice.htm
 tech.root: audio

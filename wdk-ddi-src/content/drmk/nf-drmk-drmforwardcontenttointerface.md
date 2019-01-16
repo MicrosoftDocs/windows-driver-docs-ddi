@@ -1,7 +1,6 @@
 ---
 UID: NF:drmk.DrmForwardContentToInterface
 title: DrmForwardContentToInterface function
-author: windows-driver-content
 description: The DrmForwardContentToInterface function accepts a pointer to the COM interface of an object to which the caller intends to forward protected content.
 old-location: audio\drmforwardcontenttointerface.htm
 tech.root: audio

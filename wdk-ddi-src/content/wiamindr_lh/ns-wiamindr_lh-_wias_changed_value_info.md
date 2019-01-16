@@ -1,7 +1,6 @@
 ---
 UID: NS:wiamindr_lh._WIAS_CHANGED_VALUE_INFO
 title: "_WIAS_CHANGED_VALUE_INFO"
-author: windows-driver-content
 description: The WIAS_CHANGED_VALUE_INFO structure is used to store the current and previous values of a property.
 old-location: image\wias_changed_value_info.htm
 tech.root: image

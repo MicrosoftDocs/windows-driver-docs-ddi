@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsAllocateDefaultClockEx
 title: KsAllocateDefaultClockEx function
-author: windows-driver-content
 description: The KsAllocateDefaultClockEx function allocates and initializes the default clock structure.
 old-location: stream\ksallocatedefaultclockex.htm
 tech.root: stream

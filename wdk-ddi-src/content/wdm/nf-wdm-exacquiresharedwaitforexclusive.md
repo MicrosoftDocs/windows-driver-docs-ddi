@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExAcquireSharedWaitForExclusive
 title: ExAcquireSharedWaitForExclusive function
-author: windows-driver-content
 description: The ExAcquireSharedWaitForExclusive routine acquires the given resource for shared access if shared access can be granted and there are no exclusive waiters.
 old-location: kernel\exacquiresharedwaitforexclusive.htm
 tech.root: kernel

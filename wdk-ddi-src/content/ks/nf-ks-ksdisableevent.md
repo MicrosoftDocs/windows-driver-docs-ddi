@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsDisableEvent
 title: KsDisableEvent function
-author: windows-driver-content
 description: The KsDisableEvent function disables events requested through IOCTL_KS_DISABLE_EVENT.
 old-location: stream\ksdisableevent.htm
 tech.root: stream

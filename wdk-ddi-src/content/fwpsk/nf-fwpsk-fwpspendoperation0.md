@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsPendOperation0
 title: FwpsPendOperation0 function
-author: windows-driver-content
 description: The FwpsPendOperation0 function is called by a callout to suspend packet processing pending completion of another operation.Note  FwpsPendOperation0 is a specific version of FwpsPendOperation.
 old-location: netvista\fwpspendoperation0.htm
 tech.root: netvista

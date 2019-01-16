@@ -1,7 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFAEntryTags.SetProperties
 title: IDebugFAEntryTags::SetProperties
-author: windows-driver-content
 description: The SetProperties method sets the name or description (or both) of a tag in a DebugFailureAnalysisTags object.
 old-location: debugger\idebugfaentrytags_setproperties.htm
 tech.root: debugger

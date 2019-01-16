@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltReferenceContext
 title: FltReferenceContext function
-author: windows-driver-content
 description: FltReferenceContext increments the reference count on a context structure.
 old-location: ifsk\fltreferencecontext.htm
 tech.root: ifsk

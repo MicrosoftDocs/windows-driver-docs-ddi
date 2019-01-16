@@ -1,7 +1,6 @@
 ---
 UID: NS:mpiowmi._SCSI_ADDR
 title: "_SCSI_ADDR"
-author: windows-driver-content
 description: The SCSI_ADDR structure represents a SCSI address.
 old-location: storage\scsi_addr.htm
 tech.root: storage

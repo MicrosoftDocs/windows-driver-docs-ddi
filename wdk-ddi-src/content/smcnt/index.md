@@ -1,8 +1,6 @@
 ---
 UID: NA:smcnt
-author: windows-driver-content
 ms.assetid: f0458d39-14d8-3d3d-9c48-866fa482bc98
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

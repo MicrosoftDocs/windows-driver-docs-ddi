@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsFilterFactoryGetDevice
 title: KsFilterFactoryGetDevice function
-author: windows-driver-content
 description: The KsFilterFactoryGetDevice function returns the AVStream device to which FilterFactory belongs.
 old-location: stream\ksfilterfactorygetdevice.htm
 tech.root: stream

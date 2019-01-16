@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SET_SIGNAL_INDICATION
 title: "_NDIS_WWAN_SET_SIGNAL_INDICATION"
-author: windows-driver-content
 description: The NDIS_WWAN_SET_SIGNAL_INDICATION structure represents the signal indication of the MB device.
 old-location: netvista\ndis_wwan_set_signal_indication.htm
 tech.root: netvista

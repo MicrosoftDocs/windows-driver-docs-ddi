@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PDXGK_INITIAL_COMPONENT_STATE
 title: PDXGK_INITIAL_COMPONENT_STATE
-author: windows-driver-content
 description: The InitialComponentStateCb callback function is implemented by the client driver to initialize the component state.
 ms.assetid: 98b7dfae-6112-4d88-8580-ac3314187e22
 ms.date: 10/19/2018

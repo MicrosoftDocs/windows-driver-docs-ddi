@@ -1,7 +1,6 @@
 ---
 UID: NF:bdasup.BdaPropertyPinTypes
 title: BdaPropertyPinTypes function
-author: windows-driver-content
 description: The BdaPropertyPinTypes function retrieves a list of pin types in a template topology.
 old-location: stream\bdapropertypintypes.htm
 tech.root: stream

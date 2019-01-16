@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExCancelTimer
 title: ExCancelTimer function
-author: windows-driver-content
 description: The ExCancelTimer routine cancels a timer that was set by a previous call to the ExSetTimer routine.
 old-location: kernel\excanceltimer.htm
 tech.root: kernel

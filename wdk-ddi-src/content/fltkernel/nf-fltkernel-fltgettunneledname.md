@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetTunneledName
 title: FltGetTunneledName function
-author: windows-driver-content
 description: The FltGetTunneledName routine retrieves the tunneled name for a file, given the normalized name returned for the file by a previous call to FltGetFileNameInformation, FltGetFileNameInformationUnsafe, or FltGetDestinationFileNameInformation.
 old-location: ifsk\fltgettunneledname.htm
 tech.root: ifsk

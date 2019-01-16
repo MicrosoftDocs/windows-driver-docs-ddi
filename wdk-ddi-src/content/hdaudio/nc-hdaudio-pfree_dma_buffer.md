@@ -1,7 +1,6 @@
 ---
 UID: NC:hdaudio.PFREE_DMA_BUFFER
 title: PFREE_DMA_BUFFER
-author: windows-driver-content
 description: The FreeDmaBuffer routine frees a DMA buffer that was previously allocated by a call to AllocateDmaBuffer.The function pointer type for a FreeDmaBuffer routine is defined as follows.
 old-location: audio\freedmabuffer.htm
 tech.root: audio

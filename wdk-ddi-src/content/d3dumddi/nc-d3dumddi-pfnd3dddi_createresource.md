@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATERESOURCE
 title: PFND3DDDI_CREATERESOURCE
-author: windows-driver-content
 description: The CreateResource function creates a resource.
 old-location: display\createresource.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi.D3DDDICB_PRESENTMULTIPLANEOVERLAY
 title: D3DDDICB_PRESENTMULTIPLANEOVERLAY
-author: windows-driver-content
 description: Describes multiplane overlay allocations that content is copied to and from.
 old-location: display\d3dddicb_presentmultiplaneoverlay.htm
 tech.root: display

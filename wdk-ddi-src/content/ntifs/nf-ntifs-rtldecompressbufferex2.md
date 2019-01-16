@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlDecompressBufferEx2
 title: RtlDecompressBufferEx2 function
-author: windows-driver-content
 description: The RtlDecompressBufferEx2 function decompresses an entire compressed buffer, using multiple processors where possible. Multiple processor support is only implemented for kernel mode callers.
 old-location: ifsk\rtldecompressbufferex2.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_QUERY_SUPPORTED_BRIGHTNESS
 title: IOCTL_VIDEO_QUERY_SUPPORTED_BRIGHTNESS
-author: windows-driver-content
 description: This IOCTL is not handled by video miniport drivers. It is handled entirely by the system-supplied video port driver.
 old-location: display\ioctl_video_query_supported_brightness.htm
 tech.root: display

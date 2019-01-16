@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_PRESENTMULTIPLANEOVERLAYCB
 title: PFND3DDDI_PRESENTMULTIPLANEOVERLAYCB
-author: windows-driver-content
 description: Copies content from a source multiplane overlay allocation to a destination allocation. Can be called by Windows Display Driver Model (WDDM) 1.3 or later user-mode display drivers.
 old-location: display\pfnpresentmultiplaneoverlaycb_d3d.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IUnregisterPhysicalConnection.UnregisterPhysicalConnectionFromExternal
 title: IUnregisterPhysicalConnection::UnregisterPhysicalConnectionFromExternal
-author: windows-driver-content
 description: The UnregisterPhysicalConnectionFromExternal method deletes the registration of a physical connection that was registered by a previous call to PcRegisterPhysicalConnectionFromExternal.
 old-location: audio\iunregisterphysicalconnection_unregisterphysicalconnectionfromexternal.htm
 tech.root: audio

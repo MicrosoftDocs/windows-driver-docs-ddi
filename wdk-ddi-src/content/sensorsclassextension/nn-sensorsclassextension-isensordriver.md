@@ -1,7 +1,6 @@
 ---
 UID: NN:sensorsclassextension.ISensorDriver
 title: ISensorDriver
-author: windows-driver-content
 description: The ISensorDriver interface provides callback methods that the sensor class extension uses to provide requests and notifications to the sensor driver.
 old-location: sensors\isensordriver.htm
 tech.root: sensors

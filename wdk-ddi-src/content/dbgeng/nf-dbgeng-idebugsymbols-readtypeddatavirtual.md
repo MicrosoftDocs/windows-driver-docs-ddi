@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.ReadTypedDataVirtual
 title: IDebugSymbols::ReadTypedDataVirtual
-author: windows-driver-content
 description: The ReadTypedDataVirtual method reads the value of a variable in the target's virtual memory.
 old-location: debugger\readtypeddatavirtual.htm
 tech.root: debugger

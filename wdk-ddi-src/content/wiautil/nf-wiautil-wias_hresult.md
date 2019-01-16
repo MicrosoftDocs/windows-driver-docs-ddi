@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.WIAS_HRESULT
 title: WIAS_HRESULT macro
-author: windows-driver-content
 description: The WIAS_HRESULT macro writes a diagnostic message to the Wiatrace.log file.
 old-location: image\wias_hresult.htm
 tech.root: image

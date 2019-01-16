@@ -1,7 +1,6 @@
 ---
 UID: NN:printerextension.IPrintSchemaTicket2
 title: IPrintSchemaTicket2
-author: windows-driver-content
 description: The IPrintSchemaTicket2 interface is an extension to the IPrintSchemaTicket interface, which provides wrapper methods over a print ticket document.
 old-location: print\iprintschematicket2.htm
 tech.root: print

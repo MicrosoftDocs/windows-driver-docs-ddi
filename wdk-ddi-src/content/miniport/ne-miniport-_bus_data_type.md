@@ -1,7 +1,6 @@
 ---
 UID: NE:miniport._BUS_DATA_TYPE
 title: "_BUS_DATA_TYPE"
-author: windows-driver-content
 description: The BUS_DATA_TYPE enumeration indicates the type of bus configuration space.
 old-location: kernel\bus_data_type.htm
 tech.root: kernel

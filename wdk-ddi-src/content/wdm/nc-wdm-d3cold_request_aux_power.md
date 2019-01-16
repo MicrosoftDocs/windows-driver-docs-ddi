@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.D3COLD_REQUEST_AUX_POWER
 title: D3COLD_REQUEST_AUX_POWER
-author: windows-driver-content
 description: Enables the function device object (FDO) to convey its auxiliary power requirement.
 ms.assetid: c367131f-520b-4d5a-8ccd-e465057cf102
 ms.date: 10/19/2018

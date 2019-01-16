@@ -1,7 +1,6 @@
 ---
 UID: NS:miniport._PCI_PM_CAPABILITY
 title: "_PCI_PM_CAPABILITY"
-author: windows-driver-content
 description: The PCI_PM_CAPABILITY structure reports the power management capabilities of the device.
 old-location: pci\pci_pm_capability.htm
 tech.root: PCI

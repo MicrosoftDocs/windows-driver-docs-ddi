@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFAction2.GetStatus
 title: IWDTFAction2::GetStatus
-author: windows-driver-content
 description: Returns the status code for the last operation.
 old-location: dtf\iwdtfaction2_getstatus.htm
 tech.root: dtf

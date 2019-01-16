@@ -1,7 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX_PURGE
 title: EVT_SERCX_PURGE
-author: windows-driver-content
 description: The EvtSerCxPurge event callback function is called by the serial framework extension (SerCx) to purge the serial controller's hardware buffers.
 old-location: serports\evtsercxpurge.htm
 tech.root: serports

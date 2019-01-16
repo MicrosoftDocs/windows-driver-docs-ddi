@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATEHWCONTEXTCB
 title: PFND3DDDI_CREATEHWCONTEXTCB
-author: windows-driver-content
 description: A callback to create a new hardware context.
 old-location: display\pfnd3dddi_createhwcontextcb.htm
 tech.root: display

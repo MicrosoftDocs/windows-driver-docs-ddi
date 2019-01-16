@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoFreeErrorLogEntry
 title: IoFreeErrorLogEntry function
-author: windows-driver-content
 description: The IoFreeErrorLogEntry routine frees an unused error log entry.
 old-location: kernel\iofreeerrorlogentry.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:usbpmapi._USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS
 title: _USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS
-author: windows-driver-content
 description: Describes the parameters for the **UsbPm_AssignConnectorPowerLevel**.
 ms.assetid: 3c56ef5e-2bfa-41e8-8eca-1f692b38935d
 ms.date: 09/30/2018

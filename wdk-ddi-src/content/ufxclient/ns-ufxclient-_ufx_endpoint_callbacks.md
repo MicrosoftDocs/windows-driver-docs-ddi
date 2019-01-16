@@ -1,7 +1,6 @@
 ---
 UID: NS:ufxclient._UFX_ENDPOINT_CALLBACKS
 title: "_UFX_ENDPOINT_CALLBACKS"
-author: windows-driver-content
 description: The UFX_ENDPOINT_CALLBACKS structure is used to define then event callback functions supported by the client driver.
 old-location: buses\ufx_endpoint_callbacks.htm
 tech.root: usbref

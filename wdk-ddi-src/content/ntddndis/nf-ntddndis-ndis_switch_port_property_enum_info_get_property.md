@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddndis.NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO_GET_PROPERTY
 title: NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO_GET_PROPERTY macro
-author: windows-driver-content
 description: Hyper-V extensible switch extensions use the NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO_GET_PROPERTY macro to access the port property buffer that is specified by an NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO structure.
 tech.root: netvista
 ms.assetid: 38af4698-9281-4ba5-bf7c-14abebff1bca

@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.GetDeviceAttributeSteppings
 title: IMiniportAudioEngineNode::GetDeviceAttributeSteppings
-author: windows-driver-content
 description: Gets the allowed stepping value for the audio device attribute.
 old-location: audio\iminiportaudioenginenode_getdeviceattributesteppings.htm
 tech.root: audio

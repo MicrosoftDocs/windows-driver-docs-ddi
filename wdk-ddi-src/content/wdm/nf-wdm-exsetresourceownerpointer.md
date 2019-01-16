@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExSetResourceOwnerPointer
 title: ExSetResourceOwnerPointer function
-author: windows-driver-content
 description: The ExSetResourceOwnerPointer routine sets the owner thread pointer for an executive resource.
 old-location: kernel\exsetresourceownerpointer.htm
 tech.root: kernel

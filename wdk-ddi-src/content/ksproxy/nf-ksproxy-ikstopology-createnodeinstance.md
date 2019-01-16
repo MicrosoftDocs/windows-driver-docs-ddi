@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsTopology.CreateNodeInstance
 title: IKsTopology::CreateNodeInstance
-author: windows-driver-content
 description: The CreateNodeInstance method requests a KS filter object to open a topology node object.
 old-location: stream\ikstopology_createnodeinstance.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetThreadIdByProcessor
 title: IDebugSystemObjects4::GetThreadIdByProcessor
-author: windows-driver-content
 description: The GetThreadIdByProcessor method returns the engine thread ID for the kernel-modevirtual thread corresponding to the specified processor.
 old-location: debugger\getthreadidbyprocessor.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SecLookupAccountSid
 title: SecLookupAccountSid function
-author: windows-driver-content
 description: SecLookupAccountSid accepts a security identifier (SID) as input. It retrieves the name of the account for this SID and the name of the first domain on which this SID is found.
 old-location: ifsk\seclookupaccountsid.htm
 tech.root: ifsk

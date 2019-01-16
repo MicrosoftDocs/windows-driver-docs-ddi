@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTWaitForSynchronizationObject
 title: D3DKMTWaitForSynchronizationObject function
-author: windows-driver-content
 description: The D3DKMTWaitForSynchronizationObject function inserts a wait for the specified synchronization objects in the specified context stream.
 old-location: display\d3dkmtwaitforsynchronizationobject.htm
 ms.assetid: 6b622b61-ec39-4ffb-b744-2b33ac560af6

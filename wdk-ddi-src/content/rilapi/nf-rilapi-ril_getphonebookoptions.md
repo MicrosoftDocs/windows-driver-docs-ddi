@@ -1,7 +1,6 @@
 ---
 UID: NF:rilapi.RIL_GetPhonebookOptions
 title: RIL_GetPhonebookOptions function
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getphonebookoptions.htm
 tech.root: netvista

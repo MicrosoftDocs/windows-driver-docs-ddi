@@ -1,7 +1,6 @@
 ---
 UID: NS:mpiowmi._GetPathConfiguration_OUT
 title: "_GetPathConfiguration_OUT"
-author: windows-driver-content
 description: The GetPathConfiguration_OUT structure is used to report the output parameters that are associated with the GetPathConfiguration method.
 old-location: storage\getpathconfiguration_out.htm
 tech.root: storage

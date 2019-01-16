@@ -1,7 +1,6 @@
 ---
 UID: NS:ks._KSGATE
 title: "_KSGATE"
-author: windows-driver-content
 description: The KSGATE structure describes an AVStream gate object.
 old-location: stream\ksgate.htm
 tech.root: stream

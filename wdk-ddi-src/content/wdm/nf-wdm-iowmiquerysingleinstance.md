@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoWMIQuerySingleInstance
 title: IoWMIQuerySingleInstance function
-author: windows-driver-content
 description: The IoWMIQuerySingleInstance routine returns the specified instance of a WMI data block.
 old-location: kernel\iowmiquerysingleinstance.htm
 tech.root: kernel

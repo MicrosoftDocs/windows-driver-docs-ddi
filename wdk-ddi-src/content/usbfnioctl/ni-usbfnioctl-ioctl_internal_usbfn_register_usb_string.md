@@ -1,7 +1,6 @@
 ---
 UID: NI:usbfnioctl.IOCTL_INTERNAL_USBFN_REGISTER_USB_STRING
 title: IOCTL_INTERNAL_USBFN_REGISTER_USB_STRING
-author: windows-driver-content
 description: The class driver sends this request to register a USB string descriptor.
 old-location: buses\ioctl_internal_usbfn_register_usb_string.htm
 tech.root: usbref

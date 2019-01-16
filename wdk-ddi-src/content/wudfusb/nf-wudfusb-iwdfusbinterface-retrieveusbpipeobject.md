@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbInterface.RetrieveUsbPipeObject
 title: IWDFUsbInterface::RetrieveUsbPipeObject
-author: windows-driver-content
 description: The RetrieveUsbPipeObject method retrieves a USB pipe object for the specified pipe index.
 old-location: wdf\iwdfusbinterface_retrieveusbpipeobject.htm
 tech.root: wdf

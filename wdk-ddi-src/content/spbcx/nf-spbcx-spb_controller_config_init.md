@@ -1,7 +1,6 @@
 ---
 UID: NF:spbcx.SPB_CONTROLLER_CONFIG_INIT
 title: SPB_CONTROLLER_CONFIG_INIT function
-author: windows-driver-content
 description: The SPB_CONTROLLER_CONFIG_INIT function initializes an SPB_CONTROLLER_CONFIG structure.
 old-location: spb\spb_controller_config_init.htm
 tech.root: SPB

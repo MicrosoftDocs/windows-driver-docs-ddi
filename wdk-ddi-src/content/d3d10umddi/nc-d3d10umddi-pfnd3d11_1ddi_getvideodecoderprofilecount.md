@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_GETVIDEODECODERPROFILECOUNT
 title: PFND3D11_1DDI_GETVIDEODECODERPROFILECOUNT
-author: windows-driver-content
 description: Queries the number of video decoder profiles that are supported by the display miniport driver.
 old-location: display\getvideodecoderprofilecount.htm
 ms.assetid: ae24bc29-177e-48a1-adf9-ed8c79b7f39c

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.Input
 title: IDebugControl::Input
-author: windows-driver-content
 description: The Input method requests an input string from the debugger engine.
 old-location: debugger\input.htm
 tech.root: debugger

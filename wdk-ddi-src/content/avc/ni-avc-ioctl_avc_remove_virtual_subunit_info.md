@@ -1,7 +1,6 @@
 ---
 UID: NI:avc.IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO
 title: IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO
-author: windows-driver-content
 description: The IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO I/O control code controls the enumeration of virtual subunits.
 old-location: stream\ioctl_avc_remove_virtual_subunit_info.htm
 tech.root: stream

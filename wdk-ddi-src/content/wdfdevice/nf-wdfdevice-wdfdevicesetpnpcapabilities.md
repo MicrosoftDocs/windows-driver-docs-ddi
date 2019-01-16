@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceSetPnpCapabilities
 title: WdfDeviceSetPnpCapabilities function
-author: windows-driver-content
 description: The WdfDeviceSetPnpCapabilities method reports a device's Plug and Play capabilities.
 old-location: wdf\wdfdevicesetpnpcapabilities.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NN:printerextension.IPrinterQueueViewEvent
 title: IPrinterQueueViewEvent
-author: windows-driver-content
 description: Provides the signature of the event handler.
 old-location: print\iprinterqueueviewevent.htm
 tech.root: print

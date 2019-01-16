@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlAcknowledgeEcp
 title: FsRtlAcknowledgeEcp function
-author: windows-driver-content
 description: The FsRtlAcknowledgeEcp routine marks an extra create parameter (ECP) context structure as acknowledged.
 old-location: ifsk\fsrtlacknowledgeecp.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_DESTROYCOMMANDLIST
 title: PFND3D11DDI_DESTROYCOMMANDLIST
-author: windows-driver-content
 description: The DestroyCommandList function destroys a command list.
 old-location: display\destroycommandlist.htm
 ms.assetid: 9f03c193-f017-4189-a082-908e28a2e9f7

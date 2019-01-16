@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.SetUnsignedIntegerValue
 title: IPortableDeviceValues::SetUnsignedIntegerValue
-author: windows-driver-content
 description: Adds a new ULONG value (type VT_UI4) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setunsignedintegervalue.htm
 tech.root: wpd_dk

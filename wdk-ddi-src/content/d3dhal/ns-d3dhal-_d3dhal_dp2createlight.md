@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2CREATELIGHT
 title: "_D3DHAL_DP2CREATELIGHT"
-author: windows-driver-content
 description: The D3DHAL_DP2CREATELIGHT structure is used to create a light for D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2createlight.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NC:usbcamdi.PCAM_ALLOCATE_BW_ROUTINE_EX
 title: PCAM_ALLOCATE_BW_ROUTINE_EX
-author: windows-driver-content
 description: A camera minidriver's CamAllocateBandwidthEx callback function selects the appropriate alternate setting within the USB video streaming interface and prepares the device to stream.
 old-location: stream\camallocatebandwidthex.htm
 tech.root: stream

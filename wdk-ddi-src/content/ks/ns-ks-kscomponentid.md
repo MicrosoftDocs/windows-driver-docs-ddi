@@ -1,7 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_19
 title: KSCOMPONENTID
-author: windows-driver-content
 description: The KSCOMPONENTID structure contains unique identifiers that describe an individual kernel streaming object.
 old-location: stream\kscomponentid.htm
 tech.root: stream

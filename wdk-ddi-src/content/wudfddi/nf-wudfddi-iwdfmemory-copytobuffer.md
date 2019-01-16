@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFMemory.CopyToBuffer
 title: IWDFMemory::CopyToBuffer
-author: windows-driver-content
 description: The CopyToBuffer method safely copies data from a memory object to the specified target buffer.
 old-location: wdf\iwdfmemory_copytobuffer.htm
 tech.root: wdf

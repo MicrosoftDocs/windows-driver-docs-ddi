@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintJobCollection.get_Count
 title: IPrintJobCollection::get_Count
-author: windows-driver-content
 description: Gets the number of jobs in the print queue.
 old-location: print\iprintjobcollection_count.htm
 tech.root: print

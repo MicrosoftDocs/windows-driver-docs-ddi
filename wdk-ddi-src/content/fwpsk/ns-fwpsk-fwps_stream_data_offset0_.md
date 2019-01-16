@@ -1,7 +1,6 @@
 ---
 UID: NS:fwpsk.FWPS_STREAM_DATA_OFFSET0_
 title: FWPS_STREAM_DATA_OFFSET0_
-author: windows-driver-content
 description: The FWPS_STREAM_DATA_OFFSET0 structure defines an offset into a portion of a data stream that is described by an FWPS_STREAM_DATA0 structure.Note  FWPS_STREAM_DATA_OFFSET0 is a specific version of FWPS_STREAM_DATA_OFFSET.
 old-location: netvista\fwps_stream_data_offset0.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020
 title: D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020
-author: windows-driver-content
 description: Data structure for D3D12DDICAPS_VIDEO_PROCESS_REFERENCE_INFO capability check. Retrieves the number of past and future frames required for a given deinterlace mode.
 old-location: display\d3d12ddi_video_process_reference_info_data.htm
 ms.assetid: 3711ACBD-482E-4BB8-8530-C92DA610CA5B

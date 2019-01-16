@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfpdo.EVT_WDF_DEVICE_EJECT
 title: EVT_WDF_DEVICE_EJECT
-author: windows-driver-content
 description: A driver's EvtDeviceEject event callback function handles operations that are necessary to eject a device from its docking station.
 old-location: wdf\evtdeviceeject.htm
 tech.root: wdf

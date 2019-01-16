@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExGetExclusiveWaiterCount
 title: ExGetExclusiveWaiterCount function
-author: windows-driver-content
 description: The ExGetExclusiveWaiterCount routine returns the number of waiters on exclusive access to a given resource.
 old-location: kernel\exgetexclusivewaitercount.htm
 tech.root: kernel

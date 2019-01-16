@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.CmSetCallbackObjectContext
 title: CmSetCallbackObjectContext function
-author: windows-driver-content
 description: The CmSetCallbackObjectContext routine associates specified context information with a specified registry object.
 old-location: kernel\cmsetcallbackobjectcontext.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020
 title: D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020
-author: windows-driver-content
 description: Describes the width, height, format, and color space of a picture buffer.
 old-location: display\d3d12ddi_video_sample_description.htm
 ms.assetid: B9918A06-6C10-4AD7-97EC-4FA0BC5319AD

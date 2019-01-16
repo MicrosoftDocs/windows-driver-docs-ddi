@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_DEALLOCATE2
 title: "_D3DDDICB_DEALLOCATE2"
-author: windows-driver-content
 description: The D3DDDICB_DEALLOCATE2 structure describes parameters for releasing allocations with pfnDeallocate2Cb.
 old-location: display\d3dddicb_deallocate2.htm
 tech.root: display

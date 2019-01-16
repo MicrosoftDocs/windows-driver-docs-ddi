@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlIntAdd
 title: RtlIntAdd function
-author: windows-driver-content
 description: Adds two values of type INT.
 old-location: kernel\rtlintadd.htm
 tech.root: kernel

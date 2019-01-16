@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_PREPARE_HARDWARE
 title: EVT_WDF_DEVICE_PREPARE_HARDWARE
-author: windows-driver-content
 description: A driver's EvtDevicePrepareHardware event callback function performs any operations that are needed to make a device accessible to the driver.
 old-location: wdf\evtdevicepreparehardware.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._FSRTL_ADVANCED_FCB_HEADER
 title: "_FSRTL_ADVANCED_FCB_HEADER"
-author: windows-driver-content
 description: The FSRTL_ADVANCED_FCB_HEADER structure contains context information that a file system maintains about a file.
 old-location: ifsk\fsrtl_advanced_fcb_header.htm
 tech.root: ifsk

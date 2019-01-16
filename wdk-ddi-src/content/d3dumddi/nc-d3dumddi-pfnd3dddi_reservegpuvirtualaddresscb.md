@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB
 title: PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB
-author: windows-driver-content
 description: pfnReserveGPUVirtualAddressCb reserves an address range in the current process graphics processing unit (GPU) virtual address space. The address range is only reserved, there is no actual memory behind it.
 old-location: display\pfnreservegpuvirtualaddresscb.htm
 tech.root: display

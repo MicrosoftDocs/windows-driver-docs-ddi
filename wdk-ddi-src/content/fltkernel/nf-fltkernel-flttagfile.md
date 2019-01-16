@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltTagFile
 title: FltTagFile function
-author: windows-driver-content
 description: FltTagFile sets a reparse tag on a file or directory.
 old-location: ifsk\flttagfile.htm
 tech.root: ifsk

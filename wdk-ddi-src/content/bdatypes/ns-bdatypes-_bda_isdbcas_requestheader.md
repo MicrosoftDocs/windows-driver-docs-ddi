@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_ISDBCAS_REQUESTHEADER
 title: "_BDA_ISDBCAS_REQUESTHEADER"
-author: windows-driver-content
 description: 
 old-location: stream\bda_isdbcas_requestheader.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NS:minitape._SAVED_INTERNAL_STATUS_PARAMETER_DATA
 title: _SAVED_INTERNAL_STATUS_PARAMETER_DATA
-author: windows-driver-content
 description: 
 ms.assetid: a3d9f2ab-79b5-46b2-ba6a-1dfe04bc9b49
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_ABANDONSWAPCHAIN
 title: PFND3DKMT_ABANDONSWAPCHAIN
-author: windows-driver-content
 description: Abandon the swap chain effect.
 ms.assetid: 06eaa290-e47f-446f-9f60-3aba3f31029c
 ms.date: 10/19/2018

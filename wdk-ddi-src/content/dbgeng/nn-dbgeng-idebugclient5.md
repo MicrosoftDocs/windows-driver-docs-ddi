@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugClient5
 title: IDebugClient5
-author: windows-driver-content
 description: IDebugClient5 interface
 old-location: debugger\idebugclient5.htm
 tech.root: debugger

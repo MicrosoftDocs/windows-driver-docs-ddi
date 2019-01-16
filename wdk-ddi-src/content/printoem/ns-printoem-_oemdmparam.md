@@ -1,7 +1,6 @@
 ---
 UID: NS:printoem._OEMDMPARAM
 title: "_OEMDMPARAM"
-author: windows-driver-content
 description: The OEMDMPARAM structure is used as an input parameter to the IPrintOemUI::DevMode, IPrintOemUni::DevMode, and IPrintOemPS::DevMode methods.
 old-location: print\oemdmparam.htm
 tech.root: print

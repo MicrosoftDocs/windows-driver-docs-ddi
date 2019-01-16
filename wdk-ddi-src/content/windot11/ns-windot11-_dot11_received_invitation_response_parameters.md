@@ -1,7 +1,6 @@
 ---
 UID: NS:windot11._DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS
 title: "_DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS"
-author: windows-driver-content
 description: The parameters for a received invitation response are specified in a DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS structure. This structure is sent with an NDIS_STATUS_DOT11_WFD_RECEIVED_INVITATION_RESPONSE indication.
 old-location: netvista\_dot11_received_invitation_response_parameters.htm
 tech.root: netvista

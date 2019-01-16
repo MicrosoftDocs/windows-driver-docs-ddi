@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortWriteRegisterUchar
 title: VideoPortWriteRegisterUchar function
-author: windows-driver-content
 description: The VideoPortWriteRegisterUchar function writes a byte to a mapped register.
 old-location: display\videoportwriteregisteruchar.htm
 tech.root: display

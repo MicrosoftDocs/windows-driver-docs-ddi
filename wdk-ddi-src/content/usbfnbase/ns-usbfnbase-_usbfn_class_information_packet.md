@@ -1,7 +1,6 @@
 ---
 UID: NS:usbfnbase._USBFN_CLASS_INFORMATION_PACKET
 title: "_USBFN_CLASS_INFORMATION_PACKET"
-author: windows-driver-content
 description: Describes device interface class information associated with a USB interface. This structure can only hold information about a single function interface.
 old-location: buses\usbfn_class_information_packet.htm
 tech.root: usbref

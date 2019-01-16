@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALC_PRIVATE_COMMAND_SIGNATURE_SIZE_0001
 title: PFND3D12DDI_CALC_PRIVATE_COMMAND_SIGNATURE_SIZE_0001
-author: windows-driver-content
 description: Calculates the command signature size.
 ms.assetid: 227d7c48-2d0d-48a9-ac1e-03a1e649685a
 ms.date: 10/19/2018

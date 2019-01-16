@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.FILTER_DIRECT_OID_REQUEST_COMPLETE
 title: FILTER_DIRECT_OID_REQUEST_COMPLETE
-author: windows-driver-content
 description: NDIS calls the FilterDirectOidRequestComplete function to complete a filter driver direct OID request that queried or set information in an underlying driver.Note  You must declare the function by using the FILTER_DIRECT_OID_REQUEST_COMPLETE type.
 old-location: netvista\filterdirectoidrequestcomplete.htm
 tech.root: netvista

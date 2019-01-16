@@ -1,7 +1,6 @@
 ---
 UID: NN:ksproxy.IKsDataTypeCompletion
 title: IKsDataTypeCompletion
-author: windows-driver-content
 description: The IKsDataTypeCompletion interface provides a method to complete partially specified media types that are passed to the IAMStreamConfig::SetFormat method.
 old-location: stream\iksdatatypecompletion.htm
 tech.root: stream

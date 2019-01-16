@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILSUPSVCINFOPARAMMASK
 title: RILSUPSVCINFOPARAMMASK
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsupsvcinfoparammask.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:windot11.DOT11_BYTE_ARRAY
 title: DOT11_BYTE_ARRAY
-author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_byte_array.htm
 tech.root: netvista

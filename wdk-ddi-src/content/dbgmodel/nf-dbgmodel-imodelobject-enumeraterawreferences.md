@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.EnumerateRawReferences
 title: IModelObject::EnumerateRawReferences
-author: windows-driver-content
 description: The EnumerateRawReferences method enumerates references to all native children (fields, base classes, etc...) of the given object.
 ms.assetid: fe0e5bc3-e852-4755-81b5-e169365b3064
 ms.date: 08/08/2018

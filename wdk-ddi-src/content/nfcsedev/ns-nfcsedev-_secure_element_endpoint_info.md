@@ -1,7 +1,6 @@
 ---
 UID: NS:nfcsedev._SECURE_ELEMENT_ENDPOINT_INFO
 title: "_SECURE_ELEMENT_ENDPOINT_INFO"
-author: windows-driver-content
 description: SECURE_ELEMENT_ENDPOINT_INFO is a member of SECURE_ELEMENT_ENDPOINT_LIST.
 old-location: nfpdrivers\_secure_element_endpoint_info.htm
 tech.root: nfpdrivers

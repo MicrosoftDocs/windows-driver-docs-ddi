@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_UNLOCKASYNC
 title: PFND3DDDI_UNLOCKASYNC
-author: windows-driver-content
 description: The UnlockAsync function unlocks a resource or a surface within the resource that the LockAsync function previously locked.
 old-location: display\unlockasync.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFDriverCreatedFile
 title: IWDFDriverCreatedFile
-author: windows-driver-content
 description: The IWDFDriverCreatedFile interface exposes a UMDF driver-created-file object for the driver to use.
 old-location: wdf\iwdfdrivercreatedfile.htm
 tech.root: wdf

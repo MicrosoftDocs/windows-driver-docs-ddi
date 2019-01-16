@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlShortToUShort
 title: RtlShortToUShort function
-author: windows-driver-content
 description: Converts a value of type SHORT to a value of type USHORT.
 old-location: kernel\rtlshorttoushort.htm
 tech.root: kernel

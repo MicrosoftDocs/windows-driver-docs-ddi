@@ -1,7 +1,6 @@
 ---
 UID: NF:ucmtcpciportcontroller.UcmTcpciPortControllerStart
 title: UcmTcpciPortControllerStart function
-author: windows-driver-content
 description: Indicates to the UcmTcpciCx class extension that the client driver is now ready to service hardware requests for the port controller.
 old-location: buses\ucmtcpciportcontrollerstart.htm
 tech.root: usbref

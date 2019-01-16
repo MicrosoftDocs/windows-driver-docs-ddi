@@ -1,7 +1,6 @@
 ---
 UID: NS:video._QUERY_INTERFACE
 title: "_QUERY_INTERFACE"
-author: windows-driver-content
 description: The QUERY_INTERFACE structure describes the interface being requested.
 old-location: display\query_interface.htm
 tech.root: display

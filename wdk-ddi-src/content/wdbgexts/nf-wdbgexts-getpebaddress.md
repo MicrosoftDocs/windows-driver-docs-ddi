@@ -1,7 +1,6 @@
 ---
 UID: NF:wdbgexts.GetPebAddress
 title: GetPebAddress function
-author: windows-driver-content
 description: The GetPebAddress function returns the address of the process environment block (PEB) for a system process.
 old-location: debugger\getpebaddress.htm
 tech.root: debugger

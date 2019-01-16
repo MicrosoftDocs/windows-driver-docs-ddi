@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_QUERYRESOURCEINFO
 title: PFND3DKMT_QUERYRESOURCEINFO
-author: windows-driver-content
 description: The PFND3DKMT_QUERYRESOURCEINFO callback function retrieves information about a shared resource.
 ms.assetid: 4e48ccbd-d20b-433f-aa1d-9c44fc5d930a
 ms.date: 10/19/2018

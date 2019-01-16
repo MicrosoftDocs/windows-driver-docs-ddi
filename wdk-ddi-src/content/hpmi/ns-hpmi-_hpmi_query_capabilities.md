@@ -1,7 +1,6 @@
 ---
 UID: NS:hpmi._HPMI_QUERY_CAPABILITIES
 title: "_HPMI_QUERY_CAPABILITIES"
-author: windows-driver-content
 description: The HPMI_QUERY_CAPABILITIES structure is used to query HPMI capabilities.
 old-location: powermeter\hpmi_query_capabilities.htm
 tech.root: powermeter

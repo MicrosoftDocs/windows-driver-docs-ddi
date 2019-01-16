@@ -1,7 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_36
 title: GNSS_AGNSS_INJECTPOSITION
-author: windows-driver-content
 description: This structure defines the format for AGNSS position injection.
 old-location: gnss\gnss_agnss_injectposition.htm
 tech.root: gnss

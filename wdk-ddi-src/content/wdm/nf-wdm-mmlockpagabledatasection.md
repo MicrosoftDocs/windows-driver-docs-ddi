@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.MmLockPagableDataSection
 title: MmLockPagableDataSection function
-author: windows-driver-content
 description: The MmLockPagableDataSection routine locks an entire section of driver data into system space.
 old-location: kernel\mmlockpagabledatasection.htm
 tech.root: kernel

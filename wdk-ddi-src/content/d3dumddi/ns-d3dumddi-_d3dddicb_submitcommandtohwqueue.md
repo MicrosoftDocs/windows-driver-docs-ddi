@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_SUBMITCOMMANDTOHWQUEUE
 title: "_D3DDDICB_SUBMITCOMMANDTOHWQUEUE"
-author: windows-driver-content
 description: A structure that holds information to queue hardware.
 old-location: display\d3dddicb_submitcommandtohwqueue.htm
 tech.root: display

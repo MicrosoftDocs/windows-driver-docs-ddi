@@ -1,7 +1,6 @@
 ---
 UID: NS:ks._KSPROCESSPIN
 title: "_KSPROCESSPIN"
-author: windows-driver-content
 description: The KSPROCESSPIN structure describes the process state of a specific pin.
 old-location: stream\ksprocesspin.htm
 tech.root: stream

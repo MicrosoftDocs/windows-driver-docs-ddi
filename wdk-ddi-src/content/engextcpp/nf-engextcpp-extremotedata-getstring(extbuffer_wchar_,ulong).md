@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetString(ExtBuffer<WCHAR>,ULONG)
 title: ExtRemoteData::GetString(ExtBuffer<WCHAR>,ULONG)
-author: windows-driver-content
 description: The GetString method reads a null-terminated string from the target's memory. The string is located in the beginning of the region represented by the ExtRemoteData object.
 old-location: debugger\extremotedata_getstring.htm
 tech.root: debugger

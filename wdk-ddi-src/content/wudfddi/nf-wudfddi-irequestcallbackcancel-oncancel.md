@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IRequestCallbackCancel.OnCancel
 title: IRequestCallbackCancel::OnCancel
-author: windows-driver-content
 description: The OnCancel method is called when an application cancels an I/O operation through the Microsoft Win32 CancelIo, CancelIoEx, or CancelSynchronousIo function.
 old-location: wdf\irequestcallbackcancel_oncancel.htm
 tech.root: wdf

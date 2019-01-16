@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IWpdSerializer.GetBufferFromIPortableDeviceValues
 title: IWpdSerializer::GetBufferFromIPortableDeviceValues
-author: windows-driver-content
 description: Serializes a submitted IPortableDeviceValues interface to an allocated byte array. The byte array returned is allocated for the caller and should be freed by the caller using CoTaskMemFree.
 old-location: wpddk\iwpdserializer_getbufferfromiportabledevicevalues.htm
 tech.root: wpd_dk

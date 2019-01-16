@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_READY_INFO
 title: "_NDIS_WWAN_READY_INFO"
-author: windows-driver-content
 description: The NDIS_WWAN_READY_INFO structure represents the ready-state of the MB device and Subscriber Identity Module (SIM card).
 old-location: netvista\ndis_wwan_ready_info.htm
 tech.root: netvista

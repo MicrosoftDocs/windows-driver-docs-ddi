@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMRegisterDmaChannel
 title: NdisMRegisterDmaChannel function
-author: windows-driver-content
 description: The NdisMRegisterDmaChannel function claims a system DMA controller channel during initialization for DMA operations on a subordinate NIC or on an ISA bus-master NIC.
 old-location: netvista\ndismregisterdmachannel.htm
 tech.root: netvista

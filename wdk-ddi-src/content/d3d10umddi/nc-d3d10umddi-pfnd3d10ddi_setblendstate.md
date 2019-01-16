@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_SETBLENDSTATE
 title: PFND3D10DDI_SETBLENDSTATE
-author: windows-driver-content
 description: The SetBlendState function sets a blend state.
 old-location: display\setblendstate.htm
 ms.assetid: 8794413f-f4d5-4382-8886-2f0659d8a781

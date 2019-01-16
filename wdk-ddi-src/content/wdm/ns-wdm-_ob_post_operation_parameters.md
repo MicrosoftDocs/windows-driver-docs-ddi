@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._OB_POST_OPERATION_PARAMETERS
 title: "_OB_POST_OPERATION_PARAMETERS"
-author: windows-driver-content
 description: The OB_POST_OPERATION_PARAMETERS union describes the operation-specific parameters for an ObjectPostCallback routine.
 old-location: kernel\ob_post_operation_parameters.htm
 tech.root: kernel

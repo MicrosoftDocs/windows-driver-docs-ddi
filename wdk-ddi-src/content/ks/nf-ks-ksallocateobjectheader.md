@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsAllocateObjectHeader
 title: KsAllocateObjectHeader function
-author: windows-driver-content
 description: The KsAllocateObjectHeader function initializes the required file context header.
 old-location: stream\ksallocateobjectheader.htm
 tech.root: stream

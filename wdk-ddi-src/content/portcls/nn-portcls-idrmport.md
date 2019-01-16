@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IDrmPort
 title: IDrmPort
-author: windows-driver-content
 description: The IDrmPort interface is used by a WaveCyclic or WavePci miniport driver to manage DRM-protected content (see Digital Rights Management).
 old-location: audio\idrmport.htm
 tech.root: audio

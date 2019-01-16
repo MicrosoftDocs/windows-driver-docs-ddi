@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient2.GetExitCode
 title: IDebugClient2::GetExitCode
-author: windows-driver-content
 description: The GetExitCode method returns the exit code of the current process if that process has already run through to completion.
 old-location: debugger\getexitcode.htm
 tech.root: debugger

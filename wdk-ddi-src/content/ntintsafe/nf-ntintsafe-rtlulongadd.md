@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlULongAdd
 title: RtlULongAdd function
-author: windows-driver-content
 description: Adds two values of type ULONG.
 old-location: kernel\rtlulongadd.htm
 tech.root: kernel

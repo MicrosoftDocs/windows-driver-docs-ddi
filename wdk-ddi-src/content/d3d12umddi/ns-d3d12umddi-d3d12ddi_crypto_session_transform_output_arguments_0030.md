@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_CRYPTO_SESSION_TRANSFORM_OUTPUT_ARGUMENTS_0030
 title: D3D12DDI_CRYPTO_SESSION_TRANSFORM_OUTPUT_ARGUMENTS_0030
-author: windows-driver-content
 description: Crypto session transform output arguments.
 old-location: display\d3d12ddi-crypto-session-transform-output-arguments-0030.htm
 ms.assetid: a6b33349-cba2-4664-886d-1e007b4dc2f2

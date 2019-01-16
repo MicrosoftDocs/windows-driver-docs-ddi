@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlGetAce
 title: RtlGetAce function
-author: windows-driver-content
 description: The RtlGetAce routine obtains a pointer to an access control entry (ACE) in an access control list (ACL).
 old-location: ifsk\rtlgetace.htm
 tech.root: ifsk

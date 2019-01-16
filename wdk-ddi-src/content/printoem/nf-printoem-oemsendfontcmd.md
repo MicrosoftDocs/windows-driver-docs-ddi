@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMSendFontCmd
 title: OEMSendFontCmd function
-author: windows-driver-content
 description: OEMSendFontCmd function
 old-location: print\oemsendfontcmd.htm
 tech.root: print

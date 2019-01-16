@@ -1,7 +1,6 @@
 ---
 UID: NE:ntifs._MEMORY_INFORMATION_CLASS
 title: "_MEMORY_INFORMATION_CLASS"
-author: windows-driver-content
 description: Defines classes of memory information that can be retrieved by using the ZwQueryVirtualMemory function.
 old-location: kernel\memory_information_class.htm
 tech.root: kernel

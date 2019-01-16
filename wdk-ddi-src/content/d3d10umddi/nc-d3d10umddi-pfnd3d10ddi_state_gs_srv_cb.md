@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_STATE_GS_SRV_CB
 title: PFND3D10DDI_STATE_GS_SRV_CB
-author: windows-driver-content
 description: The pfnStateGsSrvCb function causes the Microsoft Direct3D 10 runtime to refresh the geometry shader constant shader resource view state.
 old-location: display\pfnstategssrvcb.htm
 ms.assetid: 4ab7444f-face-4ad0-a73c-18dd0b59a344

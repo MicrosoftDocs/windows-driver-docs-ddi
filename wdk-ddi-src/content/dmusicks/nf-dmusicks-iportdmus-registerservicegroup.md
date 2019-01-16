@@ -1,7 +1,6 @@
 ---
 UID: NF:dmusicks.IPortDMus.RegisterServiceGroup
 title: IPortDMus::RegisterServiceGroup
-author: windows-driver-content
 description: The RegisterServiceGroup method registers a service group with the DMus port driver.
 old-location: audio\iportdmus_registerservicegroup.htm
 tech.root: audio

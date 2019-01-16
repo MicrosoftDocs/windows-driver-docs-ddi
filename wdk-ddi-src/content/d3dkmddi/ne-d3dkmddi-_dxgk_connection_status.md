@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_CONNECTION_STATUS
 title: "_DXGK_CONNECTION_STATUS"
-author: windows-driver-content
 description: Enumeration indicating the connection status values which can be reported.
 old-location: display\dxgk_connection_status.htm
 ms.assetid: D78A845E-1F5D-42F7-9391-8F3F6555B7E5

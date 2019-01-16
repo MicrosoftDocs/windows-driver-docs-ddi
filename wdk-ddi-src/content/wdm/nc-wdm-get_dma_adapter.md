@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.GET_DMA_ADAPTER
 title: GET_DMA_ADAPTER
-author: windows-driver-content
 description: The GetDmaAdapter routine returns a DMA_ADAPTER structure for the target device.
 old-location: kernel\getdmaadapter.htm
 tech.root: kernel

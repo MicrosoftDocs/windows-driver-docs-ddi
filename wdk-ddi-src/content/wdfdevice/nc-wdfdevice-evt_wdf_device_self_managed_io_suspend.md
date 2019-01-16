@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_SELF_MANAGED_IO_SUSPEND
 title: EVT_WDF_DEVICE_SELF_MANAGED_IO_SUSPEND
-author: windows-driver-content
 description: A driver's EvtDeviceSelfManagedIoSuspend event callback function suspends a device's self-managed I/O operations.
 old-location: wdf\evtdeviceselfmanagediosuspend.htm
 tech.root: wdf

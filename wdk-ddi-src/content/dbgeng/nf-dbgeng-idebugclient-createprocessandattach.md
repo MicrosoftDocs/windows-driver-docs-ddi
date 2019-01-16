@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient.CreateProcessAndAttach
 title: IDebugClient::CreateProcessAndAttach
-author: windows-driver-content
 description: The CreateProcessAndAttach method creates a process from a specified command line, then attach to another user-mode process.
 old-location: debugger\createprocessandattach.htm
 tech.root: debugger

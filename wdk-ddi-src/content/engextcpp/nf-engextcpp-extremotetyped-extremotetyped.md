@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.ExtRemoteTyped
 title: ExtRemoteTyped::ExtRemoteTyped
-author: windows-driver-content
 description: The ExtRemoteTyped constructors create a new instance of the ExtRemoteTyped class.
 old-location: debugger\extremotetyped_extremotetyped.htm
 tech.root: debugger

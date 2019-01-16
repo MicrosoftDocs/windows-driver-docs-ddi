@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoCreateFile
 title: IoCreateFile function
-author: windows-driver-content
 description: The IoCreateFile routine either causes a new file or directory to be created, or it opens an existing file, device, directory, or volume, giving the caller a handle for the file object.
 old-location: kernel\iocreatefile.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoGetOplockKeyContextEx
 title: IoGetOplockKeyContextEx function
-author: windows-driver-content
 description: The IoGetOplockKeyContext routine returns a target oplock key context for a file object.
 old-location: ifsk\iogetoplockkeycontext.htm
 tech.root: ifsk

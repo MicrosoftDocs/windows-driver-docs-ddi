@@ -1,7 +1,6 @@
 ---
 UID: NN:wdtfsystemaction.IWDTFSystemAction2
 title: IWDTFSystemAction2
-author: windows-driver-content
 description: Defines operations and properties that support driver testing.
 old-location: dtf\iwdtfsystemaction2.htm
 tech.root: dtf

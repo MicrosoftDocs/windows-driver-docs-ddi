@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KdDisableDebugger
 title: KdDisableDebugger function
-author: windows-driver-content
 description: The KdDisableDebugger routine disables the kernel debugger.
 old-location: devtest\kddisabledebugger.htm
 tech.root: devtest

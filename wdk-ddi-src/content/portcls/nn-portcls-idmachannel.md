@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IDmaChannel
 title: IDmaChannel
-author: windows-driver-content
 description: The IDmaChannel interface provides an abstraction of a DMA channel and its associated DMA buffer and usage parameters.
 old-location: audio\idmachannel.htm
 tech.root: audio

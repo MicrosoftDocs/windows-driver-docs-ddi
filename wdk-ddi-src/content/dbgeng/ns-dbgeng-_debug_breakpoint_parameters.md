@@ -1,7 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_BREAKPOINT_PARAMETERS
 title: "_DEBUG_BREAKPOINT_PARAMETERS"
-author: windows-driver-content
 description: The DEBUG_BREAKPOINT_PARAMETERS structure contains most of the parameters for describing a breakpoint.
 old-location: debugger\debug_breakpoint_parameters.htm
 tech.root: debugger

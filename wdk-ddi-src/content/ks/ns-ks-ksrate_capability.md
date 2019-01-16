@@ -1,7 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_57
 title: KSRATE_CAPABILITY
-author: windows-driver-content
 description: The client uses the KSRATE_CAPABILITY structure in a KSPROPERTY_STREAM_RATECAPABILITY property request.
 old-location: stream\ksrate_capability.htm
 tech.root: stream

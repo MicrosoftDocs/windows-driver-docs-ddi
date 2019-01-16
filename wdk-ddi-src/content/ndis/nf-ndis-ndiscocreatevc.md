@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisCoCreateVc
 title: NdisCoCreateVc function
-author: windows-driver-content
 description: NdisCoCreateVc sets up a connection endpoint from which a client can make outgoing calls or on which a stand-alone call manager can dispatch incoming calls.
 old-location: netvista\ndiscocreatevc.htm
 tech.root: netvista

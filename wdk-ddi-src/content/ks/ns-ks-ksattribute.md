@@ -1,7 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_31
 title: KSATTRIBUTE
-author: windows-driver-content
 description: The KSATTRIBUTE structure defines an additional attribute of a data format or data range that is not covered by the KSDATAFORMAT and KSDATARANGE structures or the extended information based on the format and range specifiers.
 old-location: stream\ksattribute.htm
 tech.root: stream

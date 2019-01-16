@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IPortWavePciStream.TerminatePacket
 title: IPortWavePciStream::TerminatePacket
-author: windows-driver-content
 description: The TerminatePacket method terminates the packet currently being mapped.
 old-location: audio\iportwavepcistream_terminatepacket.htm
 tech.root: audio

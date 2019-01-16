@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SUSPENDCONTEXT
 title: DXGKDDI_SUSPENDCONTEXT
-author: windows-driver-content
 description: Instruct the GPU to suspend a context.
 ms.assetid: 05af5f3c-0884-4d16-9320-874a3e0a1b4d
 ms.date: 10/19/2018

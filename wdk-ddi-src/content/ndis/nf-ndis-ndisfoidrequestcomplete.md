@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisFOidRequestComplete
 title: NdisFOidRequestComplete function
-author: windows-driver-content
 description: Filter drivers call the NdisFOidRequestComplete function to return the final status of an OID request for which the driver's FilterOidRequest function returned NDIS_STATUS_PENDING.
 old-location: netvista\ndisfoidrequestcomplete.htm
 tech.root: netvista

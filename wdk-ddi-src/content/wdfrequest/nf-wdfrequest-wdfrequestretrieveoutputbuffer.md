@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestRetrieveOutputBuffer
 title: WdfRequestRetrieveOutputBuffer function
-author: windows-driver-content
 description: The WdfRequestRetrieveOutputBuffer method retrieves an I/O request's output buffer.
 old-location: wdf\wdfrequestretrieveoutputbuffer.htm
 tech.root: wdf

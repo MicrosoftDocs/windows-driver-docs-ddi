@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisUnicodeStringToAnsiString
 title: NdisUnicodeStringToAnsiString macro
-author: windows-driver-content
 description: The NdisUnicodeStringToAnsiString function converts a given counted Unicode string into a counted ANSI string. The translation conforms to the current system locale information.
 old-location: netvista\ndisunicodestringtoansistring.htm
 tech.root: netvista

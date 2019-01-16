@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceClearRemovalRelationsDevices
 title: WdfDeviceClearRemovalRelationsDevices function
-author: windows-driver-content
 description: The WdfDeviceClearRemovalRelationsDevices method removes all devices from the list of devices that must be removed when a specified device is removed.
 old-location: wdf\wdfdeviceclearremovalrelationsdevices.htm
 tech.root: wdf

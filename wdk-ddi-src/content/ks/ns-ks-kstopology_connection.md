@@ -1,7 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_23
 title: KSTOPOLOGY_CONNECTION
-author: windows-driver-content
 description: The KSTOPOLOGY_CONNECTION structure describes a single data-path connection inside a kernel streaming filter.
 old-location: stream\kstopology_connection.htm
 tech.root: stream

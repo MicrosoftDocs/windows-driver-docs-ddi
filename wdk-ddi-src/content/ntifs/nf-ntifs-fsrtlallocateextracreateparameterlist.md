@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlAllocateExtraCreateParameterList
 title: FsRtlAllocateExtraCreateParameterList function
-author: windows-driver-content
 description: The FsRtlAllocateExtraCreateParameterList routine allocates paged pool memory for an ECP_LIST structure and generates a pointer to that structure.
 old-location: ifsk\fsrtlallocateextracreateparameterlist.htm
 tech.root: ifsk

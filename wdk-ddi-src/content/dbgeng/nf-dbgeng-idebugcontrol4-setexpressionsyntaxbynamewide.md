@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.SetExpressionSyntaxByNameWide
 title: IDebugControl4::SetExpressionSyntaxByNameWide
-author: windows-driver-content
 description: The SetExpressionSyntaxByNameWide method sets the syntax that the engine will use to evaluate expressions.
 old-location: debugger\setexpressionsyntaxbynamewide.htm
 tech.root: debugger

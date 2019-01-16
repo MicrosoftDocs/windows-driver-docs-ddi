@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.InputWide
 title: IDebugControl4::InputWide
-author: windows-driver-content
 description: The InputWide method requests an input string from the debugger engine.
 old-location: debugger\inputwide.htm
 tech.root: debugger

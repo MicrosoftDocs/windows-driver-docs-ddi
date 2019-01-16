@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._PHYSICAL_COUNTER_RESOURCE_LIST
 title: "_PHYSICAL_COUNTER_RESOURCE_LIST"
-author: windows-driver-content
 description: The PHYSICAL_COUNTER_RESOURCE_LIST structure describes an array of PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structures.
 old-location: kernel\physical_counter_resource_list.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dukmdt._DXGKVGPU_ESCAPE_RELEASE
 title: "_DXGKVGPU_ESCAPE_RELEASE"
-author: windows-driver-content
 description: Indicates that an escape has been released.
 old-location: display\dxgkvgpu_escape_release.htm
 tech.root: display

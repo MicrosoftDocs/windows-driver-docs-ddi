@@ -1,7 +1,6 @@
 ---
 UID: NS:fltkernel._FLT_FILE_NAME_INFORMATION
 title: "_FLT_FILE_NAME_INFORMATION"
-author: windows-driver-content
 description: The FLT_FILE_NAME_INFORMATION structure contains file name information.
 old-location: ifsk\flt_file_name_information.htm
 tech.root: ifsk
@@ -115,7 +114,7 @@ FLTFL_FILE_NAME_PARSED_PARENT_DIR
 
 ### -field Format
 
-Format of the name information stored in the <b>Name</b> member. One of the following. (For an explanation of these formats, see the following Remarks section.) 
+Format of the name information stored in the <b>Name</b> member. This member can be one of the following values. (For an explanation of these formats, see the following Remarks section.) 
 
 <table>
 <tr>

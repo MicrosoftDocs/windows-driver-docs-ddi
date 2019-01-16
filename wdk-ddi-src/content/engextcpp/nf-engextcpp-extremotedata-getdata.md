@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetData
 title: ExtRemoteData::GetData
-author: windows-driver-content
 description: The GetData method returns the contents of the target's memory, represented by the ExtRemoteData object.
 old-location: debugger\extremotedata_getdata.htm
 tech.root: debugger

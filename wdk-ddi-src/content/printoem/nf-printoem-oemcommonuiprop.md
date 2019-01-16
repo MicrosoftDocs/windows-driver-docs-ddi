@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMCommonUIProp
 title: OEMCommonUIProp function
-author: windows-driver-content
 description: OEMCommonUIProp function
 old-location: print\oemcommonuiprop.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeInitializeTimer
 title: KeInitializeTimer function
-author: windows-driver-content
 description: The KeInitializeTimer routine initializes a timer object.
 old-location: kernel\keinitializetimer.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.wiauGetResourceString
 title: wiauGetResourceString function
-author: windows-driver-content
 description: The wiauGetResourceString function gets a resource string, storing it as a BSTR.
 old-location: image\wiaugetresourcestring.htm
 tech.root: image

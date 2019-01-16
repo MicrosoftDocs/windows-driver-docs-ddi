@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetInstanceInformation
 title: FltGetInstanceInformation function
-author: windows-driver-content
 description: The FltGetInstanceInformation routine returns information about a minifilter driver instance.
 old-location: ifsk\fltgetinstanceinformation.htm
 tech.root: ifsk

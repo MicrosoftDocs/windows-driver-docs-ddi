@@ -1,7 +1,6 @@
 ---
 UID: NF:rxprocs.RxIndicateChangeOfBufferingStateForSrvOpen
 title: RxIndicateChangeOfBufferingStateForSrvOpen function
-author: windows-driver-content
 description: RxIndicateChangeOfBufferingStateForSrvOpen is called to register a change buffering state request (an oplock break indication, for example) for later processing. If the necessary preconditions are satisfied, the oplock is processed further.
 old-location: ifsk\rxindicatechangeofbufferingstateforsrvopen.htm
 tech.root: ifsk

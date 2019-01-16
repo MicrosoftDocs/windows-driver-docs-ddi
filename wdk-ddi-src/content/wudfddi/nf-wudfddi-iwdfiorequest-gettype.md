@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.GetType
 title: IWDFIoRequest::GetType
-author: windows-driver-content
 description: The GetType method retrieves the type of operation that a request contains.
 old-location: wdf\iwdfiorequest_gettype.htm
 tech.root: wdf

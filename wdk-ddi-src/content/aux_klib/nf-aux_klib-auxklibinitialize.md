@@ -1,7 +1,6 @@
 ---
 UID: NF:aux_klib.AuxKlibInitialize
 title: AuxKlibInitialize function
-author: windows-driver-content
 description: The AuxKlibInitialize routine initializes the Auxiliary Kernel-Mode Library.
 old-location: kernel\auxklibinitialize.htm
 tech.root: kernel

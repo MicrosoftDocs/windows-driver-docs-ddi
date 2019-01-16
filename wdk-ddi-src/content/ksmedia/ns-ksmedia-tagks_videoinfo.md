@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_VIDEOINFO
 title: tagKS_VIDEOINFO
-author: windows-driver-content
 description: The KS_VIDEOINFO structure describes the bitmap and color information for a video stream.
 old-location: stream\ks_videoinfo.htm
 tech.root: stream

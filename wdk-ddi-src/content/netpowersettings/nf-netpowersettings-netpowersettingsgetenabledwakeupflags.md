@@ -1,7 +1,6 @@
 ---
 UID: NF:netpowersettings.NetPowerSettingsGetEnabledWakeUpFlags
 title: NetPowerSettingsGetEnabledWakeUpFlags function
-author: windows-driver-content
 description: Retrieves flags that specify currently enabled media-independent wake-up events that a network adapter supports.
 tech.root: netvista
 ms.assetid: 2b658690-0b0e-4b28-93c0-6540a2527c30

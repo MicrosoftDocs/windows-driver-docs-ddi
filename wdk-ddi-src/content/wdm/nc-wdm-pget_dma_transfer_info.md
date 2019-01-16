@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.PGET_DMA_TRANSFER_INFO
 title: PGET_DMA_TRANSFER_INFO
-author: windows-driver-content
 description: The GetDmaTransferInfo routine calculates the allocation requirements for a scatter/gather DMA transfer.
 old-location: kernel\getdmatransferinfo.htm
 tech.root: kernel

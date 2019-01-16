@@ -1,7 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosStatusUpdatedEventData
 title: "_PosStatusUpdatedEventData"
-author: windows-driver-content
 description: This structure contains data passed to the StatusUpdated event.
 old-location: pos\posstatusupdatedeventdata.htm
 tech.root: pos

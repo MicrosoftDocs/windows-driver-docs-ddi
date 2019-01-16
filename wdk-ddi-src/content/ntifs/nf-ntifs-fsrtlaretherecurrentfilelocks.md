@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlAreThereCurrentFileLocks
 title: FsRtlAreThereCurrentFileLocks macro
-author: windows-driver-content
 description: The FsRtlAreThereCurrentFileLocks macro checks whether any byte range locks exist for the specified file.
 old-location: ifsk\fsrtlaretherecurrentfilelocks.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NN:wia_lh.IWiaImageFilter
 title: IWiaImageFilter
-author: windows-driver-content
 description: The IWiaImageFilter interface is an extension interface implemented by image processing filter developers and called by Microsoft Windows Image Acquisition (WIA).
 old-location: image\iwiaimagefilter_interface.htm
 tech.root: image

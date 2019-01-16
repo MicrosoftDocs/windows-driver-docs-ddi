@@ -1,7 +1,6 @@
 ---
 UID: NE:dxva._DXVA_SampleFormat
 title: "_DXVA_SampleFormat"
-author: windows-driver-content
 description: The DXVA_SampleFormat enumeration type describes the format of data that the input sample contains.
 old-location: display\dxva_sampleformat.htm
 tech.root: display

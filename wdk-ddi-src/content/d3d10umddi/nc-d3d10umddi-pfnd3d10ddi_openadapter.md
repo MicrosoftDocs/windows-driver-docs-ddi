@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_OPENADAPTER
 title: PFND3D10DDI_OPENADAPTER
-author: windows-driver-content
 description: The OpenAdapter10 function creates a graphics adapter object that is referenced in subsequent calls.
 old-location: display\openadapter10.htm
 ms.assetid: 50c10021-2bad-4e3c-99cc-24cf31fbc95d

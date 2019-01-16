@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IXpsDocumentConsumer.GetNewEmptyPart
 title: IXpsDocumentConsumer::GetNewEmptyPart
-author: windows-driver-content
 description: The GetNewEmptyPart method creates a new XPS part.
 old-location: print\ixpsdocumentconsumer_getnewemptypart.htm
 tech.root: print

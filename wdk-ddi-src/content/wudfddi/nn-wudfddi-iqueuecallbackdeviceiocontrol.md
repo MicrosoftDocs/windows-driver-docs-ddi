@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IQueueCallbackDeviceIoControl
 title: IQueueCallbackDeviceIoControl
-author: windows-driver-content
 description: An I/O queue object notifies a driver when a device I/O control request is available for the driver.
 old-location: wdf\iqueuecallbackdeviceiocontrol.htm
 tech.root: wdf

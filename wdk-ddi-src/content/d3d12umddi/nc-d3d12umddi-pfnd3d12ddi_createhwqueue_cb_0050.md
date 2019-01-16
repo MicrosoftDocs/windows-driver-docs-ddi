@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEHWQUEUE_CB_0050
 title: PFND3D12DDI_CREATEHWQUEUE_CB_0050
-author: windows-driver-content
 description: Creates a hardware queue associated with a command queue.
 ms.assetid: d10f77b2-d116-41ab-918e-539c9a0ec528
 ms.date: 10/19/2018

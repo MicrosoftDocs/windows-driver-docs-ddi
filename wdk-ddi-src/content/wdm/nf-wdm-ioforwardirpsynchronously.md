@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoForwardIrpSynchronously
 title: IoForwardIrpSynchronously function
-author: windows-driver-content
 description: The IoForwardIrpSynchronously routine sends an IRP to a specified driver and waits for that driver to complete the IRP.
 old-location: kernel\ioforwardirpsynchronously.htm
 tech.root: kernel

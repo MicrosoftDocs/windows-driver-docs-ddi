@@ -1,7 +1,6 @@
 ---
 UID: NF:kcom.KoDeviceInitialize
 title: KoDeviceInitialize function
-author: windows-driver-content
 description: The KoDeviceInitialize function adds a kernel COM create-item entry to the specified device object.
 old-location: stream\kodeviceinitialize.htm
 tech.root: stream

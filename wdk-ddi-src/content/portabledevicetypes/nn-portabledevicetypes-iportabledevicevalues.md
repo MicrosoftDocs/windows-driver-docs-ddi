@@ -1,7 +1,6 @@
 ---
 UID: NN:portabledevicetypes.IPortableDeviceValues
 title: IPortableDeviceValues
-author: windows-driver-content
 description: The IPortableDeviceValues interface holds a collection of PROPERTYKEY/PROPVARIANT pairs.
 old-location: wpddk\iportabledevicevalues.htm
 tech.root: wpd_dk

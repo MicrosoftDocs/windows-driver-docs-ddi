@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsValidateAllocatorFramingEx
 title: KsValidateAllocatorFramingEx function
-author: windows-driver-content
 description: For system use only.
 old-location: stream\ksvalidateallocatorframingex.htm
 tech.root: stream

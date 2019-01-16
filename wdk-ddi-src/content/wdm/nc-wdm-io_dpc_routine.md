@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.IO_DPC_ROUTINE
 title: IO_DPC_ROUTINE
-author: windows-driver-content
 description: The DpcForIsr routine finishes the servicing of an I/O operation, after an InterruptService routine returns.
 old-location: kernel\dpcforisr.htm
 tech.root: kernel

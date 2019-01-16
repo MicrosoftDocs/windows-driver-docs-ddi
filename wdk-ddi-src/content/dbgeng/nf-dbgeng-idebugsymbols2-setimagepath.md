@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.SetImagePath
 title: IDebugSymbols2::SetImagePath
-author: windows-driver-content
 description: The SetImagePath method sets the executable image path.
 old-location: debugger\setimagepath.htm
 tech.root: debugger

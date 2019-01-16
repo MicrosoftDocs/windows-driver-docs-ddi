@@ -1,7 +1,6 @@
 ---
 UID: NF:wdbgexts.WritePointer
 title: WritePointer function
-author: windows-driver-content
 description: The WritePointer function writes a pointer to the target.
 old-location: debugger\writepointer.htm
 tech.root: debugger

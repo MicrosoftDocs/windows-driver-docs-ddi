@@ -1,7 +1,6 @@
 ---
 UID: NF:spbcx.SPB_CONNECTION_PARAMETERS_INIT
 title: SPB_CONNECTION_PARAMETERS_INIT function
-author: windows-driver-content
 description: The SPB_CONNECTION_PARAMETERS_INIT function initializes an SPB_CONNECTION_PARAMETERS structure.
 old-location: spb\spb_connection_parameters_init.htm
 tech.root: SPB

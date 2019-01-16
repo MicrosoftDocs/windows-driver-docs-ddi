@@ -1,7 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_SendRLS
 title: HBA_SendRLS function
-author: windows-driver-content
 description: The HBA_SendRLS WMI routine sends a read link error status block (RLS) request through the indicated local port to the indicated remote port to retrieve a link error status block associated with the remote port.
 old-location: storage\hba_sendrls.htm
 tech.root: storage

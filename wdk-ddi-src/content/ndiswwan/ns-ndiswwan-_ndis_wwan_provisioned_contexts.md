@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_PROVISIONED_CONTEXTS
 title: "_NDIS_WWAN_PROVISIONED_CONTEXTS"
-author: windows-driver-content
 description: The NDIS_WWAN_PROVISIONED_CONTEXTS structure represents a list of provisioned contexts and the number of provisioned contexts in the list.
 old-location: netvista\ndis_wwan_provisioned_contexts.htm
 tech.root: netvista

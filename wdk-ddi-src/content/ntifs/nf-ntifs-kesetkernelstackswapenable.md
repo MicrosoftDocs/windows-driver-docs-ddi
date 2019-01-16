@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.KeSetKernelStackSwapEnable
 title: KeSetKernelStackSwapEnable function
-author: windows-driver-content
 description: The KeSetKernelStackSwapEnable routine enables and disables swapping of the caller's stack to disk.
 old-location: kernel\kesetkernelstackswapenable.htm
 tech.root: kernel

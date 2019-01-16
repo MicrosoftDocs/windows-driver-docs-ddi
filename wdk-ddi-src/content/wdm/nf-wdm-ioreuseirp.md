@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoReuseIrp
 title: IoReuseIrp function
-author: windows-driver-content
 description: The IoReuseIrp routine reinitializes an IRP so that it can be reused.
 old-location: kernel\ioreuseirp.htm
 tech.root: kernel

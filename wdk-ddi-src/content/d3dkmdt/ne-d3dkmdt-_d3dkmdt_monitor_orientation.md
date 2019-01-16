@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_MONITOR_ORIENTATION
 title: "_D3DKMDT_MONITOR_ORIENTATION"
-author: windows-driver-content
 description: The D3DKMDT_MONITOR_ORIENTATION enumeration is used to describe the orientation (rotation angle) of a connected external display device.
 old-location: display\d3dkmdt_monitor_orientation.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugOutputCallbacks2.Output
 title: IDebugOutputCallbacks2::Output
-author: windows-driver-content
 description: This method is not used.
 old-location: debugger\idebugoutputcallbacks2_output.htm
 tech.root: debugger

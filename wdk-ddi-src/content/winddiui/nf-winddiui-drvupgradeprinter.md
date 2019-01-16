@@ -1,7 +1,6 @@
 ---
 UID: NF:winddiui.DrvUpgradePrinter
 title: DrvUpgradePrinter function
-author: windows-driver-content
 description: A printer interface DLL's DrvUpgradePrinter function is used for updating a printer's registry settings when a new version of the driver is added to a system.
 old-location: print\drvupgradeprinter.htm
 tech.root: print

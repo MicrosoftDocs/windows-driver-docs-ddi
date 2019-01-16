@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_EXPORT_FLAGS
 title: D3D12DDI_EXPORT_FLAGS
-author: windows-driver-content
 description: The type of export flags.
 ms.assetid: 45950c2a-cfbe-4dd0-bcd2-16ce7ca0dbf0
 ms.date: 10/19/2018

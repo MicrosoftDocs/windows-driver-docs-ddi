@@ -1,7 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_RX_RESTART
 title: MINIPORT_WDI_RX_RESTART
-author: windows-driver-content
 description: The MiniportWdiRxRestart handler function configures the RxEngine to restart indicating data traffic. This is issued following a MiniportWdiRxStop.
 old-location: netvista\miniportwdirxrestart.htm
 tech.root: netvista

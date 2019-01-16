@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionInitialize
 title: WdfDmaTransactionInitialize function
-author: windows-driver-content
 description: The WdfDmaTransactionInitialize method initializes a specified DMA transaction.
 old-location: wdf\wdfdmatransactioninitialize.htm
 tech.root: wdf

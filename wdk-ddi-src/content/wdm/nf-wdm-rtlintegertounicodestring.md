@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlIntegerToUnicodeString
 title: RtlIntegerToUnicodeString function
-author: windows-driver-content
 description: The RtlIntegerToUnicodeString routine converts an unsigned integer value to a null-terminated string of one or more Unicode characters in the specified base.
 old-location: kernel\rtlintegertounicodestring.htm
 tech.root: kernel

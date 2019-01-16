@@ -1,7 +1,6 @@
 ---
 UID: NS:wdbgexts._WDBGEXTS_THREAD_OS_INFO
 title: "_WDBGEXTS_THREAD_OS_INFO"
-author: windows-driver-content
 description: The IG_GET_THREAD_OS_INFO Ioctl operation returns information about an operating system thread in the target. When calling Ioctl with IoctlType set to IG_GET_THREAD_OS_INFO, IpvData should contain an instance of the WDBGEXTS_THREAD_OS_INFO structure.
 old-location: debugger\ig_get_thread_os_info.htm
 tech.root: debugger

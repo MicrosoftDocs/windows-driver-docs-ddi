@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmthk.D3DKMT_MIRACAST_DISPLAY_DEVICE_STATE
 title: D3DKMT_MIRACAST_DISPLAY_DEVICE_STATE
-author: windows-driver-content
 description: Miracast display device state.
 ms.assetid: 266068fa-5ac9-4c83-8425-cb4efcfd6bce
 ms.date: 10/19/2018

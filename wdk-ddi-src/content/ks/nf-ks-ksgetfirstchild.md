@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsGetFirstChild
 title: KsGetFirstChild function
-author: windows-driver-content
 description: The KsGetFirstChild function returns the first AVStream child object of Object.
 old-location: stream\ksgetfirstchild.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NE:wditypes._WDI_WNM_ACTION
 title: "_WDI_WNM_ACTION"
-author: windows-driver-content
 description: The WDI_WNM_ACTION enumeration defines the message type for 802.11v BSS Transition Management action frames.
 old-location: netvista\wdi_wnm_action.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisClAddParty
 title: NdisClAddParty function
-author: windows-driver-content
 description: NdisClAddParty adds a party on the client's multipoint VC.
 old-location: netvista\ndiscladdparty.htm
 tech.root: netvista

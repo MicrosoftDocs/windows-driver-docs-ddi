@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsReferencevSwitchPacketContext0
 title: FwpsReferencevSwitchPacketContext0 function
-author: windows-driver-content
 description: This function is not supported.
 old-location: netvista\fwpsreferencevswitchpacketcontext0.htm
 tech.root: netvista

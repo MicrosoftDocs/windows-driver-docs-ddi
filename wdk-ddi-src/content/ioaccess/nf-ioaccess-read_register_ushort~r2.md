@@ -1,7 +1,6 @@
 ---
 UID: NF:ioaccess.READ_REGISTER_USHORT~r2
 title: READ_REGISTER_USHORT function
-author: windows-driver-content
 description: The READ_REGISTER_USHORT routine reads a USHORT value from the specified register address.
 old-location: kernel\read_register_ushort.htm
 tech.root: kernel

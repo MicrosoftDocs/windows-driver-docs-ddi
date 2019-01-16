@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorsutils.PropKeyFindKeyGetFileTime
 title: PropKeyFindKeyGetFileTime function
-author: windows-driver-content
 description: This routine gets a FILETIME value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
 ms.assetid: 87d6d150-2b52-468a-b6da-45179bf823cb
 ms.date: 08/08/2018

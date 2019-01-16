@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IPortWavePci.NewMasterDmaChannel
 title: IPortWavePci::NewMasterDmaChannel
-author: windows-driver-content
 description: The NewMasterDmaChannel method creates a new instance of a bus-master DMA channel.
 old-location: audio\iportwavepci_newmasterdmachannel.htm
 tech.root: audio

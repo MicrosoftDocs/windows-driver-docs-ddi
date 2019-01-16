@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects2.GetThreadIdByTeb
 title: IDebugSystemObjects2::GetThreadIdByTeb
-author: windows-driver-content
 description: The GetThreadIdByTeb method returns the engine thread ID of the specified thread. The thread is specified by its thread environment block (TEB).
 old-location: debugger\getthreadidbyteb.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dukmdt._D3DDDI_ROTATION
 title: "_D3DDDI_ROTATION"
-author: windows-driver-content
 description: The D3DDDI_ROTATION enumeration type contains values that identify the orientation of a resource.
 old-location: display\d3dddi_rotation.htm
 tech.root: display

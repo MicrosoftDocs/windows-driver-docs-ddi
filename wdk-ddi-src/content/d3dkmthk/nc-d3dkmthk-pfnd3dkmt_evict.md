@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_EVICT
 title: PFND3DKMT_EVICT
-author: windows-driver-content
 description: The Pfnd3dkmtEvict instructs the OS to decrement the residency reference count.
 ms.assetid: ef46edbc-aebc-465a-90fc-7087b7fc857b
 ms.date: 10/19/2018

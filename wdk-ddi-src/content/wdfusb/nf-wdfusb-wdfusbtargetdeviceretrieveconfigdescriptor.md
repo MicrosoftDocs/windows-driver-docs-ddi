@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceRetrieveConfigDescriptor
 title: WdfUsbTargetDeviceRetrieveConfigDescriptor function
-author: windows-driver-content
 description: The WdfUsbTargetDeviceRetrieveConfigDescriptor method retrieves the USB configuration descriptor for the USB device that is associated with a specified framework USB device object.
 old-location: wdf\wdfusbtargetdeviceretrieveconfigdescriptor.htm
 tech.root: wdf
@@ -137,7 +136,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 The <b>WdfUsbTargetDeviceRetrieveConfigDescriptor</b> method retrieves all of the specified USB device's configuration information (that is, the configuration descriptor plus any interface or endpoint descriptors that might be present). To learn about the format of this information, see the USB specification.
 
-To select a different USB configuration for a device (for example if the device is not in its first or default configuration), the driver can call [**WdfUsbTargetDeviceSelectConfig**](nf-wdfusb-wdfusbtargetdeviceselectconfig.md) before calling **WdfUsbTargetDeviceRetrieveConfigDescriptor**.
+You can use [**WdfUsbTargetDeviceSelectConfig**](nf-wdfusb-wdfusbtargetdeviceselectconfig.md) to select only the first USB configuration listed in the descriptor list, but you can select multiple interfaces within this single configuration. 
 
 Drivers should call <b>WdfUsbTargetDeviceRetrieveConfigDescriptor</b> twice, as follows:
 

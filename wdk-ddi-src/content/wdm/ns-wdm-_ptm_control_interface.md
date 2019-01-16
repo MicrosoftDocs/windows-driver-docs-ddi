@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._PTM_CONTROL_INTERFACE
 title: _PTM_CONTROL_INTERFACE
-author: windows-driver-content
 description: Resereved. Do not use.
 ms.assetid: ac2d0ac1-6ce2-47c5-b31e-935d16358a86
 ms.date: 10/19/2018

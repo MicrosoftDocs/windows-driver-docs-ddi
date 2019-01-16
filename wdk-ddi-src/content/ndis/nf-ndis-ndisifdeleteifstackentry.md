@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisIfDeleteIfStackEntry
 title: NdisIfDeleteIfStackEntry function
-author: windows-driver-content
 description: The NdisIfDeleteIfStackEntry function deletes information about the ordering of two network interfaces in the NDIS interface stack.
 old-location: netvista\ndisifdeleteifstackentry.htm
 tech.root: netvista

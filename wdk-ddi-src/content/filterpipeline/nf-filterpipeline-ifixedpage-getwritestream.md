@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IFixedPage.GetWriteStream
 title: IFixedPage::GetWriteStream
-author: windows-driver-content
 description: The GetWriteStream method retrieves the stream object to write page markup to read . You can use this stream to change page markup.
 old-location: print\ifixedpage_getwritestream.htm
 tech.root: print

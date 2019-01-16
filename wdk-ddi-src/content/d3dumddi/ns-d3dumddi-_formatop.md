@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._FORMATOP
 title: "_FORMATOP"
-author: windows-driver-content
 description: The FORMATOP structure describes a surface format and operations that can be performed with such a surface.
 old-location: display\formatop.htm
 tech.root: display

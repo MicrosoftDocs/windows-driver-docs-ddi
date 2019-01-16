@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.CcGetDirtyPages
 title: CcGetDirtyPages function
-author: windows-driver-content
 description: The CcGetDirtyPages routine searches for dirty pages in all files that match a given log handle.
 old-location: ifsk\ccgetdirtypages.htm
 tech.root: ifsk

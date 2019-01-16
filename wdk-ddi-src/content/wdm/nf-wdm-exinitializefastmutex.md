@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExInitializeFastMutex
 title: ExInitializeFastMutex function
-author: windows-driver-content
 description: The ExInitializeFastMutex routine initializes a fast mutex variable, used to synchronize mutually exclusive access by a set of threads to a shared resource.
 old-location: kernel\exinitializefastmutex.htm
 tech.root: kernel

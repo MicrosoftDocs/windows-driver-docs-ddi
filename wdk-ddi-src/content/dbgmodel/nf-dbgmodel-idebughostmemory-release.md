@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostMemory.Release
 title: IDebugHostMemory::Release
-author: windows-driver-content
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: f88e3c4b-8375-4e28-9e6e-8980b391237b
 ms.date: 09/18/2018

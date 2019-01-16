@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasGetRootItem
 title: wiasGetRootItem function
-author: windows-driver-content
 description: The wiasGetRootItem function retrieves the root item context of a specified WIA item.
 old-location: image\wiasgetrootitem.htm
 tech.root: image

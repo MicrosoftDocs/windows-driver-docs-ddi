@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_STREAM_STATE_LUMA_KEY_DATA
 title: "_DXVAHDDDI_STREAM_STATE_LUMA_KEY_DATA"
-author: windows-driver-content
 description: The DXVAHDDDI_STREAM_STATE_LUMA_KEY_DATA structure describes stream-state data that specifies the luma key of the input. The driver assumes that a pixel that has a luma value within the luma-key range is transparent.
 old-location: display\dxvahdddi_stream_state_luma_key_data.htm
 tech.root: display

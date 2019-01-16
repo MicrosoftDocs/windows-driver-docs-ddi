@@ -1,7 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_29
 title: GNSS_SUPL_NI_INFO
-author: windows-driver-content
 description: This structure contains the requested SUPL NI information.
 old-location: gnss\gnss_supl_ni_info.htm
 tech.root: gnss

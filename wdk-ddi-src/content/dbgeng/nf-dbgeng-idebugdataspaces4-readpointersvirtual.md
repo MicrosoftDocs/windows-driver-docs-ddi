@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.ReadPointersVirtual
 title: IDebugDataSpaces4::ReadPointersVirtual
-author: windows-driver-content
 description: The ReadPointersVirtual method is a convenience method for reading pointers from the target's virtual address space.
 old-location: debugger\readpointersvirtual.htm
 tech.root: debugger

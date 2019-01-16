@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_EJECTION_CONTROL
 title: IOCTL_STORAGE_EJECTION_CONTROL
-author: windows-driver-content
 description: Locks the device to prevent removal of the media.
 old-location: storage\ioctl_storage_ejection_control.htm
 tech.root: storage

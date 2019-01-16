@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetTextMacroWide
 title: IDebugControl4::GetTextMacroWide
-author: windows-driver-content
 description: The GetTextMacroWide method returns the value of a fixed-name alias.
 old-location: debugger\gettextmacrowide.htm
 tech.root: debugger

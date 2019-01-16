@@ -1,7 +1,6 @@
 ---
 UID: NF:pepfx.PoFxRegisterPlugin
 title: PoFxRegisterPlugin function
-author: windows-driver-content
 description: The PoFxRegisterPlugin routine registers a platform extension plug-in (PEP) with the Windows power management framework (PoFx).
 old-location: kernel\pofxregisterplugin.htm
 tech.root: kernel
@@ -44,108 +43,44 @@ req.typenames:
 
 # PoFxRegisterPlugin function
 
-
 ## -description
 
-
-The <b>PoFxRegisterPlugin</b> routine registers a platform extension plug-in (PEP) with the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx).
-
+The **PoFxRegisterPlugin** routine registers a platform extension plug-in (PEP) with the Windows [power management framework](https://docs.microsoft.com/windows-hardware/drivers/kernel/overview-of-the-power-management-framework) (PoFx).
 
 ## -parameters
 
-
-
-
 ### -param PepInformation [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186745">PEP_INFORMATION</a> structure.
-
+A pointer to a [PEP_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/mt186745) structure.
 
 ### -param KernelInformation [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186747">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure.
-
+A pointer to a [PEP_KERNEL_INFORMATION_STRUCT_V3](https://msdn.microsoft.com/library/windows/hardware/mt186747) structure.
 
 ## -returns
 
+**PoFxRegisterPlugin** returns STATUS_SUCCESS if the call successfully registers the PEP. Possible error return values include the following status codes.
 
-
-<b>PoFxRegisterPlugin</b> returns STATUS_SUCCESS if the call successfully registers the PEP. Possible error return values include the following status codes.
-
-<table>
-<tr>
-<th>Return value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>STATUS_INVALID_PARAMETER</dt>
-</dl>
-</td>
-<td width="60%">
-The <b>Version</b> or <b>Size</b> member of the <b>PEP_KERNEL_INFORMATION</b> structure is set to an invalid value; or the <b>AcceptDeviceNotification</b> member of this structure is set to NULL.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>STATUS_INVALID_PEP_INFO_VERSION</dt>
-</dl>
-</td>
-<td width="60%">
-The <b>Version</b> member of the <b>PEP_INFORMATION</b> structure is set to an invalid value.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>STATUS_INSUFFICIENT_RESOURCES</dt>
-</dl>
-</td>
-<td width="60%">
-Unable to allocate the resources required to complete the requested registration.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return value|Description|
+|----|----|
+|STATUS_INVALID_PARAMETER|The **Version** or **Size** member of the **PEP_KERNEL_INFORMATION** structure is set to an invalid value; or the **AcceptDeviceNotification** member of this structure is set to NULL.|
+|STATUS_INVALID_PEP_INFO_VERSION|The **Version** member of the **PEP_INFORMATION** structure is set to an invalid value.|
+|STATUS_INSUFFICIENT_RESOURCES|Unable to allocate the resources required to complete the requested registration.|
 
 ## -remarks
-
-
 
 A PEP calls this routine to register itself with PoFx.
 
 A PEP cannot unregister, and cannot register twice. If the PEP must be serviced, the operating system must restart.
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/mt186874">PoFxRegisterPluginEx</a> routine is similar to <b>PoFxRegisterPlugin</b>, except that it takes an additional parameter, <i>Flags</i>.
+The [PoFxRegisterPluginEx](https://msdn.microsoft.com/library/windows/hardware/mt186874) routine is similar to **PoFxRegisterPlugin**, except that it takes an additional parameter, *Flags*.
 
-The PEP must call <b>PoFxRegisterPlugin</b> at IRQL = PASSIVE_LEVEL.
-
-
-
+The PEP must call **PoFxRegisterPlugin** at IRQL = PASSIVE_LEVEL.
 
 ## -see-also
 
+[PEP_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/mt186745)
 
+[PEP_KERNEL_INFORMATION_STRUCT_V3](https://msdn.microsoft.com/library/windows/hardware/mt186747)
 
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186745">PEP_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186747">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186874">PoFxRegisterPluginEx</a>
- 
-
- 
-
+[PoFxRegisterPluginEx](https://msdn.microsoft.com/library/windows/hardware/mt186874)

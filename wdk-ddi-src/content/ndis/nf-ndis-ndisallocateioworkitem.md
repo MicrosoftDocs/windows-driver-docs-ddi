@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateIoWorkItem
 title: NdisAllocateIoWorkItem function
-author: windows-driver-content
 description: NDIS drivers call the NdisAllocateIoWorkItem function to allocate a work item. For more information, see NDIS I/O Work Items.
 old-location: netvista\ndisallocateioworkitem.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:netioddk.NmrDeregisterClient
 title: NmrDeregisterClient function
-author: windows-driver-content
 description: The NmrDeregisterClient function deregisters a client module from the NMR.
 old-location: netvista\nmrderegisterclient.htm
 tech.root: netvista

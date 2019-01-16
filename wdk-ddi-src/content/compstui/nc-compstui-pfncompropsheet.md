@@ -1,7 +1,6 @@
 ---
 UID: NC:compstui.PFNCOMPROPSHEET
 title: PFNCOMPROPSHEET
-author: windows-driver-content
 description: The ComPropSheet function is supplied by CPSUI and can be called by CPSUI applications (including printer interface DLLs) to build property sheet pages.
 old-location: print\compropsheet.htm
 tech.root: print

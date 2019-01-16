@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SWITCH_PROPERTY_PARAMETERS
 title: "_NDIS_SWITCH_PROPERTY_PARAMETERS"
-author: windows-driver-content
 description: The NDIS_SWITCH_PROPERTY_PARAMETERS structure specifies the parameters for a policy property of a Hyper-V extensible switch.
 old-location: netvista\ndis_switch_property_parameters.htm
 tech.root: netvista

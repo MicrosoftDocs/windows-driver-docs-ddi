@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.SeUnlockSubjectContext
 title: SeUnlockSubjectContext function
-author: windows-driver-content
 description: The SeUnlockSubjectContext routine unlocks the tokens of a captured subject context that were locked by a call to SeLockSubjectContext.
 old-location: ifsk\seunlocksubjectcontext.htm
 tech.root: ifsk

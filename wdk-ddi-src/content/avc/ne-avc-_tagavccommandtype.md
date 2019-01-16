@@ -1,7 +1,6 @@
 ---
 UID: NE:avc._tagAvcCommandType
 title: "_tagAvcCommandType"
-author: windows-driver-content
 description: The AvcCommandType enumeration type is used to indicate the type of command issued by a subunit driver to its AV/C subunit through AVC_FUNCTION_COMMAND or AVC_FUNCTION_GET_REQUEST function codes.
 old-location: stream\avccommandtype.htm
 tech.root: stream

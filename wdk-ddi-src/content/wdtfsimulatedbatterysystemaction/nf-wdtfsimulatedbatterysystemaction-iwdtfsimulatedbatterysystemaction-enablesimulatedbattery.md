@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfsimulatedbatterysystemaction.IWDTFSimulatedBatterySystemAction.EnableSimulatedBattery
 title: IWDTFSimulatedBatterySystemAction::EnableSimulatedBattery
-author: windows-driver-content
 description: Enables the simulated battery.
 old-location: dtf\iwdtfsimulatedbatterysystemaction_enablesimulatedbattery.htm
 tech.root: dtf

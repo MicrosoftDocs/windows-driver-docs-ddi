@@ -1,7 +1,6 @@
 ---
 UID: NE:ucmtcpciportcontroller._UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE
 title: "_UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE"
-author: windows-driver-content
 description: Defines generic alert values that are used to indicate the type of hardware alert received on the port controller.
 old-location: buses\ucmtcpci_port_controller_alert_type.htm
 tech.root: usbref

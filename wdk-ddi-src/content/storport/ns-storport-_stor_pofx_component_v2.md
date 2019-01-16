@@ -1,7 +1,6 @@
 ---
 UID: NS:storport._STOR_POFX_COMPONENT_V2
 title: "_STOR_POFX_COMPONENT_V2"
-author: windows-driver-content
 description: The STOR_POFX_COMPONENT_V2 structure describes the power state attributes of a storage device component.
 old-location: storage\stor_pofx_component_v2.htm
 tech.root: storage

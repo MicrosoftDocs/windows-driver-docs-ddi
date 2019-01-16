@@ -1,7 +1,6 @@
 ---
 UID: NC:storport.HW_FREE_ADAPTER_RESOURCES
 title: HW_FREE_ADAPTER_RESOURCES
-author: windows-driver-content
 description: The HwStorFreeAdapterResources callback routine allows the Storport virtual miniport driver to free resources when the virtual adapter is being removed. This is the last callback routine for the adapter.
 old-location: storage\hwstorfreeadapterresources.htm
 tech.root: storage

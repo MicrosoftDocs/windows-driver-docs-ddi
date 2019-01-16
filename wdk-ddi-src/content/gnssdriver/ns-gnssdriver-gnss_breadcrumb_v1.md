@@ -1,7 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_17
 title: GNSS_BREADCRUMB_V1
-author: windows-driver-content
 description: This structure contains an individual breadcrumb. The order and types of the fields are designed to pack densely.
 old-location: gnss\gnss_breadcrumb_v1.htm
 tech.root: gnss

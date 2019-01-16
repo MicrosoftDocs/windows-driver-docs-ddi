@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._FILE_DESIRED_STORAGE_CLASS_INFORMATION
 title: _FILE_DESIRED_STORAGE_CLASS_INFORMATION
-author: windows-driver-content
 description: Contains the information for the Desired Storage Class attribute.
 ms.assetid: 0a6927e5-e1cb-439e-a899-1583baff7cbb
 ms.date: 09/30/2018

@@ -1,7 +1,6 @@
 ---
 UID: NS:gpioclx._GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS
 title: "_GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS"
-author: windows-driver-content
 description: The GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS structure describes the input and output buffers for a controller-specific operation.
 old-location: gpio\gpio_client_controller_specific_function_parameters.htm
 tech.root: GPIO

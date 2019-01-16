@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoGetInitiatorProcess
 title: IoGetInitiatorProcess function
-author: windows-driver-content
 description: The IoGetInitiatorProcess routine retrieves the process which initiated the creation of a file object if different than the process which is issuing the create.
 old-location: kernel\iogetinitiatorprocess.htm
 tech.root: kernel

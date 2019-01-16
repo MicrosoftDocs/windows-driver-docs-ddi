@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.InterlockedDecrement
 title: InterlockedDecrement function
-author: windows-driver-content
 description: The InterlockedDecrement routine decrements a caller-supplied variable of type LONG as an atomic operation.
 old-location: kernel\interlockeddecrement.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortWriteRegisterUshort
 title: StorPortWriteRegisterUshort macro
-author: windows-driver-content
 description: The StorPortWriteRegisterUshort routine transfers a ULONG value to the indicated HBA register address.
 old-location: storage\storportwriteregisterushort.htm
 tech.root: storage

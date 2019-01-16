@@ -1,7 +1,6 @@
 ---
 UID: NC:ntdddump.DUMP_START
 title: DUMP_START
-author: windows-driver-content
 description: The Dump_Start callback routine is called after initializing the dump driver and just before starting the dump write process.
 old-location: storage\dump_start.htm
 tech.root: storage

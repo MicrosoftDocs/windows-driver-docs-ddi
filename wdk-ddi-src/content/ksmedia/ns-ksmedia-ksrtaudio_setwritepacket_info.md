@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_35
 title: KSRTAUDIO_SETWRITEPACKET_INFO
-author: windows-driver-content
 description: The KSRTAUDIO_SETWRITEPACKET_INFO structure describes information associated with an audio packet.
 old-location: audio\ksrtaudio_setwritepacket_info.htm
 tech.root: audio

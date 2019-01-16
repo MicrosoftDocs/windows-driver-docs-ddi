@@ -1,7 +1,6 @@
 ---
 UID: NF:winddiui.DrvSplEndPage
 title: DrvSplEndPage function
-author: windows-driver-content
 description: 
 old-location: print\drvsplendpage.htm
 tech.root: print

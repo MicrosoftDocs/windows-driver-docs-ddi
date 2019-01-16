@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.NDIS_PD_FREE_QUEUE
 title: NDIS_PD_FREE_QUEUE
-author: windows-driver-content
 description: The PacketDirect (PD) platform calls a PD-capable miniport driver's NdisPDFreeQueue function to free a queue.
 old-location: netvista\ndispdfreequeue.htm
 tech.root: netvista

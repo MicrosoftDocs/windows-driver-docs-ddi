@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateNetBufferAndNetBufferList
 title: NdisAllocateNetBufferAndNetBufferList function
-author: windows-driver-content
 description: Call the NdisAllocateNetBufferAndNetBufferList function to allocate and initialize a NET_BUFFER_LIST structure that is initialized with a preallocated NET_BUFFER structure.
 old-location: netvista\ndisallocatenetbufferandnetbufferlist.htm
 tech.root: netvista

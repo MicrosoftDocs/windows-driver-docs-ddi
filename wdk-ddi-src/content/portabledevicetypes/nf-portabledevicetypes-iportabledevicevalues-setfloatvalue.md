@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.SetFloatValue
 title: IPortableDeviceValues::SetFloatValue
-author: windows-driver-content
 description: Adds a new FLOAT value (type VT_R4) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setfloatvalue.htm
 tech.root: wpd_dk

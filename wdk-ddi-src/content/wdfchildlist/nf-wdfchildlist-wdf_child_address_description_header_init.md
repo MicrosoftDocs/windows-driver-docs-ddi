@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfchildlist.WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT
 title: WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT function
-author: windows-driver-content
 description: The WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT function initializes a WDF_CHILD_ADDRESS_DESCRIPTION_HEADER structure.
 old-location: wdf\wdf_child_address_description_header_init.htm
 tech.root: wdf

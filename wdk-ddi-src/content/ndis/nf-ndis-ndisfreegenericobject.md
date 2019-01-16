@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeGenericObject
 title: NdisFreeGenericObject function
-author: windows-driver-content
 description: Call the NdisFreeGenericObject function to free a generic object that was created with the NdisAllocateGenericObject function.
 old-location: netvista\ndisfreegenericobject.htm
 tech.root: netvista

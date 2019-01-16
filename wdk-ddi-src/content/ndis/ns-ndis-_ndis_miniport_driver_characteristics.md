@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_MINIPORT_DRIVER_CHARACTERISTICS
 title: "_NDIS_MINIPORT_DRIVER_CHARACTERISTICS"
-author: windows-driver-content
 description: An NDIS driver initializes an NDIS_MINIPORT_DRIVER_CHARACTERISTICS structure to define its miniport driver characteristics, including the entry points for its MiniportXxx functions.
 old-location: netvista\ndis_miniport_driver_characteristics.htm
 tech.root: netvista

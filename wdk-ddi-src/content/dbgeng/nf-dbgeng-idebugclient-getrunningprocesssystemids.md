@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient.GetRunningProcessSystemIds
 title: IDebugClient::GetRunningProcessSystemIds
-author: windows-driver-content
 description: The GetRunningProcessSystemIds method returns the process IDs for each running process.
 old-location: debugger\getrunningprocesssystemids.htm
 tech.root: debugger

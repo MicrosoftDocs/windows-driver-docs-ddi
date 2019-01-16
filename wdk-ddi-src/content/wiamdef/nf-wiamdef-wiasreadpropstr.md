@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasReadPropStr
 title: wiasReadPropStr function
-author: windows-driver-content
 description: The wiasReadPropStr function retrieves a string property value from a WIA item.
 old-location: image\wiasreadpropstr.htm
 tech.root: image

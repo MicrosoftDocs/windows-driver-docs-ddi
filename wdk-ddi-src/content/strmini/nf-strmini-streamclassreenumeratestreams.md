@@ -1,7 +1,6 @@
 ---
 UID: NF:strmini.StreamClassReenumerateStreams
 title: StreamClassReenumerateStreams function
-author: windows-driver-content
 description: Obsolete. Do not use.
 old-location: stream\streamclassreenumeratestreams.htm
 tech.root: stream

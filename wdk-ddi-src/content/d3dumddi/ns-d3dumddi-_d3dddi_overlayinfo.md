@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_OVERLAYINFO
 title: "_D3DDDI_OVERLAYINFO"
-author: windows-driver-content
 description: The D3DDDI_OVERLAYINFO structure describes information about an overlay.
 old-location: display\d3dddi_overlayinfo.htm
 tech.root: display

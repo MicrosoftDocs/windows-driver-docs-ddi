@@ -1,7 +1,6 @@
 ---
 UID: NS:aux_klib._KBUGCHECK_DATA
 title: "_KBUGCHECK_DATA"
-author: windows-driver-content
 description: The KBUGCHECK_DATA structure contains bug check parameters.
 old-location: kernel\kbugcheck_data.htm
 tech.root: kernel

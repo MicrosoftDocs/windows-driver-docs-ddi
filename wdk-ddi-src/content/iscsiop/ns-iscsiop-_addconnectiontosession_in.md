@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._AddConnectionToSession_IN
 title: "_AddConnectionToSession_IN"
-author: windows-driver-content
 description: The AddConnectionToSession_IN structure holds input data for the AddConnectionToSession method, which is used to add a new connection to an already existing session.
 old-location: storage\addconnectiontosession_in.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgmodel.IDebugHostMemory
 title: IDebugHostMemory
-author: windows-driver-content
 description: The memory access interface to the underlying debugger.
 ms.assetid: 6a713259-f5cf-4ca8-a68a-55dd44a748fe
 ms.date: 07/13/2018

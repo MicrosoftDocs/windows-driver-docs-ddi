@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._PO_FX_PERF_STATE
 title: "_PO_FX_PERF_STATE"
-author: windows-driver-content
 description: The PO_FX_PERF_STATE structure represents a performance state for a single component within a device.
 old-location: kernel\po_fx_perf_state.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfchildlist.EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_CLEANUP
 title: EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_CLEANUP
-author: windows-driver-content
 description: A driver's EvtChildListAddressDescriptionCleanup event callback function frees any memory allocations for an address description that the driver's EvtChildListAddressDescriptionDuplicate callback function allocated.
 old-location: wdf\evtchildlistaddressdescriptioncleanup.htm
 tech.root: wdf

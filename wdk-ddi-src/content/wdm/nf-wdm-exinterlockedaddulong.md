@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExInterlockedAddUlong
 title: ExInterlockedAddUlong function
-author: windows-driver-content
 description: The ExInterlockedAddUlong routine adds an unsigned long value to a given unsigned integer as an atomic operation.
 old-location: kernel\exinterlockedaddulong.htm
 tech.root: kernel

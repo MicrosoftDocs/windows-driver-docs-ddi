@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_VIDEO_PROCESSOR_DEVICE_CAPS
 title: D3D11_1DDI_VIDEO_PROCESSOR_DEVICE_CAPS
-author: windows-driver-content
 description: Defines video processing capabilities for a Microsoft Direct3D 11 video processor.
 old-location: display\d3d11_1ddi_video_processor_device_caps.htm
 ms.assetid: ce2bdf90-45c1-4a4b-bc6e-276536460324

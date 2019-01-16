@@ -1,7 +1,6 @@
 ---
 UID: NF:ucxroothub.UcxRootHubPortChanged
 title: UcxRootHubPortChanged function
-author: windows-driver-content
 description: Notifies UCX about a new port change event on the host controller.
 old-location: buses\_ucxroothubportchanged.htm
 tech.root: usbref

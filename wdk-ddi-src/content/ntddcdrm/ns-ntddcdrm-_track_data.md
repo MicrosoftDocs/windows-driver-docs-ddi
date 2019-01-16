@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddcdrm._TRACK_DATA
 title: "_TRACK_DATA"
-author: windows-driver-content
 description: Track descriptor is used in conjunction with CDROM_TOC and CDROM_TOC_SESSION_DATA.
 old-location: storage\track_data.htm
 tech.root: storage

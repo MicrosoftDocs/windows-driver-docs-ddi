@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlUIntToUChar
 title: RtlUIntToUChar function
-author: windows-driver-content
 description: Converts a value of type UINT to a value of type UCHAR.
 old-location: kernel\rtluinttouchar.htm
 tech.root: kernel

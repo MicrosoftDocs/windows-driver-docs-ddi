@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest3.SetActivityId
 title: IWDFIoRequest3::SetActivityId
-author: windows-driver-content
 description: The SetActivityId method associates an activity identifier with an I/O request.
 old-location: wdf\iwdfiorequest3_setactivityid.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.ALLOCATE_FUNCTION_EX
 title: ALLOCATE_FUNCTION_EX
-author: windows-driver-content
 description: The LookasideListAllocateEx routine allocates the storage for a new lookaside-list entry when a client requests an entry from a lookaside list that is empty.
 old-location: kernel\lookasidelistallocateex.htm
 tech.root: kernel

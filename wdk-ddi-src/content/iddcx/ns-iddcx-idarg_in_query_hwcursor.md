@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_QUERY_HWCURSOR
 title: IDARG_IN_QUERY_HWCURSOR
-author: windows-driver-content
 description: Gives information about the cursor associated with the monitor.
 old-location: display\idarg_in_query_hwcursor.htm
 tech.root: display

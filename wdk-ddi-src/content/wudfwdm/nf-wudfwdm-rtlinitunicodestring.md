@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfwdm.RtlInitUnicodeString
 title: RtlInitUnicodeString function
-author: windows-driver-content
 description: For more information, see the WdmlibRtlInitUnicodeStringEx function.
 old-location: kernel\rtlinitunicodestring.htm
 tech.root: kernel

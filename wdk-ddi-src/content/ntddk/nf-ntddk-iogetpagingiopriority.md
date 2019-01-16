@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoGetPagingIoPriority
 title: IoGetPagingIoPriority function
-author: windows-driver-content
 description: The IoGetPagingIoPriority routine indicates the priority level of a paging I/O request.
 old-location: kernel\iogetpagingiopriority.htm
 tech.root: kernel

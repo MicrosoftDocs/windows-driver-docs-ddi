@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFLongNumbers2.get_Item
 title: IWDTFLongNumbers2::get_Item
-author: windows-driver-content
 description: Gets an individual long number in the collection.
 old-location: dtf\iwdtflongnumbers2_item.htm
 tech.root: dtf

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DECODEEXECUTE
 title: PFND3DDDI_DECODEEXECUTE
-author: windows-driver-content
 description: The DecodeExecute function performs a decode operation by using the given Microsoft DirectX Video Accelerator (VA) decode device.
 old-location: display\decodeexecute.htm
 tech.root: display

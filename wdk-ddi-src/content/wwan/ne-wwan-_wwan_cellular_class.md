@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_CELLULAR_CLASS
 title: "_WWAN_CELLULAR_CLASS"
-author: windows-driver-content
 description: The WWAN_CELLULAR_CLASS enumeration lists the different classes of cellular technology that are supported by the MB device.
 old-location: netvista\wwan_cellular_class.htm
 tech.root: netvista

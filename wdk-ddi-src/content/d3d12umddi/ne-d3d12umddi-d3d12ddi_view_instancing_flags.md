@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIEW_INSTANCING_FLAGS
 title: D3D12DDI_VIEW_INSTANCING_FLAGS
-author: windows-driver-content
 description: Defines the view instancing flags.
 old-location: display\d3d12ddi-view-instancing-flags.htm
 ms.assetid: fa44933f-aa3b-466a-8ee2-2d34d0311562

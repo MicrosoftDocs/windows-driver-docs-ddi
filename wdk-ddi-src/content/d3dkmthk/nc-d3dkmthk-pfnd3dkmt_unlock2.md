@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_UNLOCK2
 title: PFND3DKMT_UNLOCK2
-author: windows-driver-content
 description: The PFND3DKMT_UNLOCK2 callback function unlocks a list of allocations.
 ms.assetid: c6c055d7-5307-4e8f-985e-22dc13aba2e2
 ms.date: 10/19/2018

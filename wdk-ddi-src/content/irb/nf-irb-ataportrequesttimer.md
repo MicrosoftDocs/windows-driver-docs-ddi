@@ -1,7 +1,6 @@
 ---
 UID: NF:irb.AtaPortRequestTimer
 title: AtaPortRequestTimer function
-author: windows-driver-content
 description: The AtaPortRequestTimer routine requests a timer callback.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportrequesttimer.htm
 tech.root: storage

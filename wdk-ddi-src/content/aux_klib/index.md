@@ -1,8 +1,6 @@
 ---
 UID: NA:aux_klib
-author: windows-driver-content
 ms.assetid: c8496ac9-e318-30df-baca-c0ea009e04d1
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

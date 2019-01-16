@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_GET_SLOT_INFO
 title: "_NDIS_WWAN_GET_SLOT_INFO"
-author: windows-driver-content
 description: The NDIS_WWAN_GET_SLOT_INFO structure represents the status of a slot in the modem of the MB device.
 old-location: netvista\ndis_wwan_get_slot_info_status.htm
 tech.root: netvista

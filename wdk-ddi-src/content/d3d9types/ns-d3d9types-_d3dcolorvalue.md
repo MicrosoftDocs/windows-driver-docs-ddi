@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d9types._D3DCOLORVALUE
 title: _D3DCOLORVALUE
-author: windows-driver-content
 description: 
 ms.assetid: fcd9bc0c-b625-4e74-a007-77ffe7866571
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NC:ntdddump.DUMP_WRITE
 title: DUMP_WRITE
-author: windows-driver-content
 description: The Dump_Write callback routine is called before the write to the dump port driver. The filter driver can access the dump data at this time.
 old-location: storage\dump_write.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced3.SetThreadContext
 title: IDebugAdvanced3::SetThreadContext
-author: windows-driver-content
 description: The SetThreadContext method sets the current thread context.
 old-location: debugger\setthreadcontext.htm
 tech.root: debugger

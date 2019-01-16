@@ -1,7 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.Subscribe
 title: IStiDevice::Subscribe
-author: windows-driver-content
 description: The IStiDevice::Subscribe method registers the caller to receive notifications of device events.
 old-location: image\istidevice_subscribe.htm
 tech.root: image

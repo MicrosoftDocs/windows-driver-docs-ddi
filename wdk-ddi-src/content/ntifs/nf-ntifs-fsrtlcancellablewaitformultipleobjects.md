@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlCancellableWaitForMultipleObjects
 title: FsRtlCancellableWaitForMultipleObjects function
-author: windows-driver-content
 description: The FsRtlCancellableWaitForMultipleObjects routine executes a cancelable wait operation (a wait that can be terminated) on one or more dispatcher objects.
 old-location: ifsk\fsrtlcancellablewaitformultipleobjects.htm
 tech.root: ifsk

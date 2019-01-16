@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_GET_TIMEOUTS
 title: IOCTL_SERIAL_GET_TIMEOUTS
-author: windows-driver-content
 description: The IOCTL_SERIAL_GET_TIMEOUTS request returns the time-out values that the serial controller driver uses with read and write requests.
 old-location: serports\ioctl_serial_get_timeouts.htm
 tech.root: serports

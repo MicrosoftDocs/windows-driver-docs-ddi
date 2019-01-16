@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwPrePrepareEnlistment
 title: ZwPrePrepareEnlistment function
-author: windows-driver-content
 description: The ZwPrePrepareEnlistment routine initiates the pre-prepare operation for a specified enlistment's transaction.
 old-location: kernel\zwpreprepareenlistment.htm
 tech.root: kernel

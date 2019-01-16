@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.ControlledOutputVaListWide
 title: IDebugControl4::ControlledOutputVaListWide
-author: windows-driver-content
 description: The ControlledOutputVaListWide method formats a string and sends the result to output callbacks that were registered with some of the engine's clients.
 old-location: debugger\controlledoutputvalistwide.htm
 tech.root: debugger

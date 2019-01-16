@@ -1,7 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_INTERNAL_USB_GET_BUS_INFO
 title: IOCTL_INTERNAL_USB_GET_BUS_INFO
-author: windows-driver-content
 description: The IOCTL_INTERNAL_USB_GET_BUS_INFO I/O request queries the bus driver for certain bus information.
 old-location: buses\ioctl_internal_usb_get_bus_info.htm
 tech.root: usbref

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetEffectiveProcessorType
 title: IDebugControl3::GetEffectiveProcessorType
-author: windows-driver-content
 description: The GetEffectiveProcessorType method returns the effective processor type of the processor of the computer that is running the target.
 old-location: debugger\geteffectiveprocessortype.htm
 tech.root: debugger

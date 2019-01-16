@@ -1,7 +1,6 @@
 ---
 UID: NE:wdfio._WDF_IO_FORWARD_PROGRESS_ACTION
 title: "_WDF_IO_FORWARD_PROGRESS_ACTION"
-author: windows-driver-content
 description: The WDF_IO_FORWARD_PROGRESS_ACTION enumeration identifies actions that the framework can take for an I/O request packet (IRP) that your driver examines during a low-memory situation.
 old-location: wdf\wdf_io_forward_progress_action.htm
 tech.root: wdf

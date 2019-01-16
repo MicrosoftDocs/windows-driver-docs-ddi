@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOStressAction2.StopAsync
 title: IWDTFSimpleIOStressAction2::StopAsync
-author: windows-driver-content
 description: Asynchronously signals the stop event to occur.
 old-location: dtf\iwdtfsimpleiostressaction2_stopasync.htm
 tech.root: dtf

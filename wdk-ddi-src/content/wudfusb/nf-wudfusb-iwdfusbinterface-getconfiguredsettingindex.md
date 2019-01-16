@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbInterface.GetConfiguredSettingIndex
 title: IWDFUsbInterface::GetConfiguredSettingIndex
-author: windows-driver-content
 description: The GetConfiguredSettingIndex method retrieves the current setting index for a USB interface.
 old-location: wdf\iwdfusbinterface_getconfiguredsettingindex.htm
 tech.root: wdf

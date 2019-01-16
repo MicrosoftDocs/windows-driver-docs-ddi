@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.EtwWrite
 title: EtwWrite function
-author: windows-driver-content
 description: The EtwWrite function is a tracing function for publishing events in your kernel-mode driver code.
 old-location: devtest\etwwrite.htm
 tech.root: devtest

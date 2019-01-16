@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisGetNblTimestampInfo
 title: NdisGetNblTimestampInfo function
-author: windows-driver-content
 description: This function is reserved for system use and should not be called in your code.
 tech.root: netvista
 ms.assetid: a71d10b6-aab2-43fe-9adf-f5289d6f77a7

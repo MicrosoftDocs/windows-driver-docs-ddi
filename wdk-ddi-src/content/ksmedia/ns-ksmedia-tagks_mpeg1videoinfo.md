@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_MPEG1VIDEOINFO
 title: tagKS_MPEG1VIDEOINFO
-author: windows-driver-content
 description: The KS_MPEG1VIDEOINFO structure describes an MPEG-1 video stream.
 old-location: stream\ks_mpeg1videoinfo.htm
 tech.root: stream

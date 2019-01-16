@@ -1,7 +1,6 @@
 ---
 UID: NS:ucxusbdevice._UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY
 title: "_UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY"
-author: windows-driver-content
 description: Stores the isochronous transfer path delay values.
 old-location: buses\ucx_usbdevice_characteristic_path_delay.htm
 tech.root: usbref

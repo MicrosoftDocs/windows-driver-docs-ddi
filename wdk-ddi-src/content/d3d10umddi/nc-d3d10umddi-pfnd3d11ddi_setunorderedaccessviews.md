@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_SETUNORDEREDACCESSVIEWS
 title: PFND3D11DDI_SETUNORDEREDACCESSVIEWS
-author: windows-driver-content
 description: The CsSetUnorderedAccessViews function sets unordered access view (UAV) objects for a compute shader.
 old-location: display\cssetunorderedaccessviews.htm
 ms.assetid: ab8c529b-19e2-4a2a-af68-0e3998829788

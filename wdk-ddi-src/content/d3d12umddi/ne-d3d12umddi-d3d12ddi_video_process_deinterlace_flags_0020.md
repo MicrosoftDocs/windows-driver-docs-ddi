@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS_0020
 title: D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS_0020
-author: windows-driver-content
 description: Defines the deinterlacing video processor capabilities.
 old-location: display\d3d12ddi_video_process_deinterlace_flags.htm
 ms.assetid: 7E34CCE5-A771-4EBE-A09B-79424405BFF3

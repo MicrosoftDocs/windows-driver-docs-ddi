@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlUpcaseUnicodeToCustomCPN
 title: RtlUpcaseUnicodeToCustomCPN function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\rtlupcaseunicodetocustomcpn.htm
 tech.root: ifsk

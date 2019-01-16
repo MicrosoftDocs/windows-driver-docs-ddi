@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS
 title: "_NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS"
-author: windows-driver-content
 description: The NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS structure specifies the parameters for moving a previously created receive filter. A receive filter is moved from a receive queue on a virtual port (VPort) to a receive queue on another VPort.
 old-location: netvista\ndis_receive_filter_move_filter_parameters.htm
 tech.root: netvista

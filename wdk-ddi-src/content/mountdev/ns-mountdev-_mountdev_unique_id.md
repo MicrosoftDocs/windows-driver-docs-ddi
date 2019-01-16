@@ -1,7 +1,6 @@
 ---
 UID: NS:mountdev._MOUNTDEV_UNIQUE_ID
 title: "_MOUNTDEV_UNIQUE_ID"
-author: windows-driver-content
 description: The MOUNTDEV_UNIQUE_ID structure contains a unique volume ID that a mount manager client provides to the mount manager in response to an IOCTL_MOUNTDEV_QUERY_UNIQUE_ID request.
 old-location: storage\mountdev_unique_id.htm
 tech.root: storage

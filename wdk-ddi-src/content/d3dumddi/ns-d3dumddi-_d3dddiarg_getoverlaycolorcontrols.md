@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_GETOVERLAYCOLORCONTROLS
 title: "_D3DDDIARG_GETOVERLAYCOLORCONTROLS"
-author: windows-driver-content
 description: The D3DDDIARG_GETOVERLAYCOLORCONTROLS structure describes the parameters for retrieving an overlay's color-control settings.
 old-location: display\d3dddiarg_getoverlaycolorcontrols.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni3.GetPDEVAdjustment
 title: IPrintOemUni3::GetPDEVAdjustment
-author: windows-driver-content
 description: The IPrintOemUni3::GetPDEVAdjustment method enables a plug-in to override specific PDEV settings.
 old-location: print\iprintoemuni3_getpdevadjustment.htm
 tech.root: print

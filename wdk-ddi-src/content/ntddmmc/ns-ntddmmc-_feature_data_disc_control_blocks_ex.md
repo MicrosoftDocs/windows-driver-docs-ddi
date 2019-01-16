@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_DISC_CONTROL_BLOCKS_EX
 title: "_FEATURE_DATA_DISC_CONTROL_BLOCKS_EX"
-author: windows-driver-content
 description: The FEATURE_DATA_DISC_CONTROL_BLOCKS_EX structure holds the data reported for a Disc Control Block.
 old-location: storage\feature_data_disc_control_blocks_ex.htm
 tech.root: storage

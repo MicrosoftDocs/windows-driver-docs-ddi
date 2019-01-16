@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.SetSymbolPathWide
 title: IDebugSymbols3::SetSymbolPathWide
-author: windows-driver-content
 description: The SetSymbolPathWide method sets the symbol path.
 old-location: debugger\setsymbolpathwide.htm
 tech.root: debugger

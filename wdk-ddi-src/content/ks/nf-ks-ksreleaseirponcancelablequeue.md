@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsReleaseIrpOnCancelableQueue
 title: KsReleaseIrpOnCancelableQueue function
-author: windows-driver-content
 description: The KsReleaseIrpOnCancelableQueue function releases an acquired IRP that is already on a queue that can be canceled.
 old-location: stream\ksreleaseirponcancelablequeue.htm
 tech.root: stream

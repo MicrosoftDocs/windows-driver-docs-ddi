@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.ScsiPortReadPortUshort
 title: ScsiPortReadPortUshort macro
-author: windows-driver-content
 description: The ScsiPortReadPortUshort routine reads a USHORT value from the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportreadportushort.htm
 tech.root: storage

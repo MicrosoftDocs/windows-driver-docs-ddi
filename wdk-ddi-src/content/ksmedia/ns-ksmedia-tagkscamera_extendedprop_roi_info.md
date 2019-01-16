@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSCAMERA_EXTENDEDPROP_ROI_INFO
 title: tagKSCAMERA_EXTENDEDPROP_ROI_INFO
-author: windows-driver-content
 description: This structure contains information about an ROI.
 old-location: stream\kscamera_extendedprop_roi_info.htm
 tech.root: stream

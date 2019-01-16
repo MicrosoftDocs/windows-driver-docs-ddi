@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_AGP_ALLOCATE_POOL
 title: DXGKCB_AGP_ALLOCATE_POOL
-author: windows-driver-content
 description: The AgpAllocatePool function reserves, commits, and maps AGP memory.
 old-location: display\agpallocatepool.htm
 tech.root: display

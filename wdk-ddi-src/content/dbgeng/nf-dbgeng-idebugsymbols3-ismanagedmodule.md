@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.IsManagedModule
 title: IDebugSymbols3::IsManagedModule
-author: windows-driver-content
 description: Checks whether the engine is using managed debugging support when it retrieves information for a module.
 old-location: debugger\idebugsymbols3_ismanagedmodule.htm
 tech.root: debugger

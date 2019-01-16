@@ -1,7 +1,6 @@
 ---
 UID: NE:sensorsclassextension.MagnetometerAccuracy
 title: MagnetometerAccuracy
-author: windows-driver-content
 description: Specifies the accuracy of the magnetometer.
 old-location: sensors\magnetometeraccuracy.htm
 tech.root: sensors

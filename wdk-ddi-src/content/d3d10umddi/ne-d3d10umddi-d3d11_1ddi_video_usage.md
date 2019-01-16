@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_VIDEO_USAGE
 title: D3D11_1DDI_VIDEO_USAGE
-author: windows-driver-content
 description: Identifies how the decode device plays video.
 old-location: display\d3d11_1ddi_video_usage.htm
 ms.assetid: f107b9a8-d124-4fc3-80b3-dd20a87f9a86

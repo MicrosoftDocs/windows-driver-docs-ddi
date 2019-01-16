@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlQueryKernelEaFile
 title: FsRtlQueryKernelEaFile function
-author: windows-driver-content
 description: The routine FsRtlQueryKernelEaFile is used to build an explicit QueryEA request and synchronously wait for it to complete, returning the result. This allows the caller to do this by FileObject instead of a handle.
 old-location: ifsk\fsrtlquerykerneleafile.htm
 tech.root: ifsk

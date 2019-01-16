@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenAdapterFromDeviceName
 title: D3DKMTOpenAdapterFromDeviceName function
-author: windows-driver-content
 description: The D3DKMTOpenAdapterFromDeviceName function maps a device name to a graphics adapter handle and, if the adapter contains multiple monitor outputs, to one of those outputs.
 old-location: display\d3dkmtopenadapterfromdevicename.htm
 ms.assetid: bff9d991-63a1-47af-a351-073c82c0d31c

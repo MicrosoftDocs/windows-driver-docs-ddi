@@ -1,7 +1,6 @@
 ---
 UID: NI:pcivirt.IOCTL_SRIOV_QUERY_MITIGATED_RANGE_COUNT
 title: IOCTL_SRIOV_QUERY_MITIGATED_RANGE_COUNT
-author: windows-driver-content
 description: The request determines the ranges of memory-mapped I/O space that must mitigated.
 old-location: pci\ioctl-sriov-query-mitigated-range-count.htm
 tech.root: PCI

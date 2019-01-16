@@ -1,7 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_STACK_FRAME_EX
 title: "_DEBUG_STACK_FRAME_EX"
-author: windows-driver-content
 description: The DEBUG_STACK_FRAME_EX structure describes a stack frame and the address of the current instruction for the stack frame.
 old-location: debugger\debug_stack_frame_ex.htm
 tech.root: debugger

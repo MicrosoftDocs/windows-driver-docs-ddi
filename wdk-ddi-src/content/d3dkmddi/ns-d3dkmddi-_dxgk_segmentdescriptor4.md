@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_SEGMENTDESCRIPTOR4
 title: "_DXGK_SEGMENTDESCRIPTOR4"
-author: windows-driver-content
 description: The DXGK_SEGMENTDESCRIPTOR4 structure describes a programmable CPU host aperture.
 old-location: display\dxgk_segmentdescriptor4.htm
 ms.assetid: 0958443F-1554-47B0-83B9-283D98D927CE

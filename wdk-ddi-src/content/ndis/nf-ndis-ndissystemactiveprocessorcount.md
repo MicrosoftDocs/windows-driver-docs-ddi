@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisSystemActiveProcessorCount
 title: NdisSystemActiveProcessorCount function
-author: windows-driver-content
 description: The NdisSystemActiveProcessorCount function returns the number of currently active processors in the local computer.
 old-location: netvista\ndissystemactiveprocessorcount.htm
 tech.root: netvista

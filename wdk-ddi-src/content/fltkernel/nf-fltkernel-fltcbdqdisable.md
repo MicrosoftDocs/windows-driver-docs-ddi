@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltCbdqDisable
 title: FltCbdqDisable function
-author: windows-driver-content
 description: FltCbdqDisable disables a minifilter driver's callback data queue.
 old-location: ifsk\fltcbdqdisable.htm
 tech.root: ifsk

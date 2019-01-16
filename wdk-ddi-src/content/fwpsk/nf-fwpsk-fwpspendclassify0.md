@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsPendClassify0
 title: FwpsPendClassify0 function
-author: windows-driver-content
 description: A callout's classifyFn function calls FwpsPendClassify0 to pend the current classify request.
 old-location: netvista\fwpspendclassify0.htm
 tech.root: netvista

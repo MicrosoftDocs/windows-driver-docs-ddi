@@ -1,7 +1,6 @@
 ---
 UID: NC:iddcx.EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP
 title: EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP
-author: windows-driver-content
 description: EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP is called by the OS to set a gamma ramp on the specified monitor.
 old-location: display\evt_idd_cx_monitor_set_gamma_ramp.htm
 tech.root: display

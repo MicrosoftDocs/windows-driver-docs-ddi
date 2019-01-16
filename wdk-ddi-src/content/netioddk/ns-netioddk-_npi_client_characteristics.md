@@ -1,7 +1,6 @@
 ---
 UID: NS:netioddk._NPI_CLIENT_CHARACTERISTICS
 title: "_NPI_CLIENT_CHARACTERISTICS"
-author: windows-driver-content
 description: The NPI_CLIENT_CHARACTERISTICS structure defines the characteristics of a client module.
 old-location: netvista\npi_client_characteristics.htm
 tech.root: netvista

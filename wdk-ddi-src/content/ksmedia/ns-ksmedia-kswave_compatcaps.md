@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_48
 title: KSWAVE_COMPATCAPS
-author: windows-driver-content
 description: The KSWAVE_COMPATCAPS structure is used to describe the compatible capabilities of a device.
 old-location: stream\kswave_compatcaps.htm
 tech.root: stream

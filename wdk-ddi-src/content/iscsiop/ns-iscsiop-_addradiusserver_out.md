@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._AddRADIUSServer_OUT
 title: "_AddRADIUSServer_OUT"
-author: windows-driver-content
 description: The AddRADIUSServer_OUT structure holds the output data for the AddRADIUSServer method.
 old-location: storage\addradiusserver_out.htm
 tech.root: storage

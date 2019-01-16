@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasIsPropChanged
 title: wiasIsPropChanged function
-author: windows-driver-content
 description: The wiasIsPropChanged function tests whether a specified property has been changed by an application.
 old-location: image\wiasispropchanged.htm
 tech.root: image

@@ -1,7 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_ARG_BLT_FLAGS
 title: DXGI_DDI_ARG_BLT_FLAGS
-author: windows-driver-content
 description: The DXGI_DDI_ARG_BLT_FLAGS structure identifies the type of bit-block transfer (bitblt) to perform.
 old-location: display\dxgi_ddi_arg_blt_flags.htm
 tech.root: display

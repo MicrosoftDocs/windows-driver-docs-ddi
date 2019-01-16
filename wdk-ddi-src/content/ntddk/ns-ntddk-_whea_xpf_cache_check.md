@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_XPF_CACHE_CHECK
 title: "_WHEA_XPF_CACHE_CHECK"
-author: windows-driver-content
 description: The WHEA_XPF_CACHE_CHECK union describes cache error information for an x86 or x64 processor.
 old-location: whea\whea_xpf_cache_check.htm
 tech.root: whea

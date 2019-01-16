@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsFilterFactorySetDeviceClassesState
 title: KsFilterFactorySetDeviceClassesState function
-author: windows-driver-content
 description: The KsFilterFactorySetDeviceClassesState function enables or disables the device classes that have been registered by a given filter factory.
 old-location: stream\ksfilterfactorysetdeviceclassesstate.htm
 tech.root: stream

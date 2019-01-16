@@ -1,7 +1,6 @@
 ---
 UID: NS:wmidata._WMI_CHANGER_PROBLEM_DEVICE_ERROR
 title: "_WMI_CHANGER_PROBLEM_DEVICE_ERROR"
-author: windows-driver-content
 description: When the ChangerPerformDiagnostics routine performs diagnostic tests on a changer device it returns the results in a WMI_CHANGER_PROBLEM_DEVICE_ERROR structure.
 old-location: storage\wmi_changer_problem_device_error.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NC:ucxendpoint.EVT_UCX_ENDPOINT_SET_CHARACTERISTIC
 title: EVT_UCX_ENDPOINT_SET_CHARACTERISTIC
-author: windows-driver-content
 description: UCX invokes this callback function to set the priority on an endpoint.
 old-location: buses\evt_ucx_endpoint_set_characteristic.htm
 tech.root: usbref

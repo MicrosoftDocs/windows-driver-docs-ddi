@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IPartBase.SetPartCompression
 title: IPartBase::SetPartCompression
-author: windows-driver-content
 description: The SetPartCompression method sets the compression of the part.
 old-location: print\ipartbase_setpartcompression.htm
 tech.root: print

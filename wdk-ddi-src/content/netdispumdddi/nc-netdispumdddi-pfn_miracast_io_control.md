@@ -1,7 +1,6 @@
 ---
 UID: NC:netdispumdddi.PFN_MIRACAST_IO_CONTROL
 title: PFN_MIRACAST_IO_CONTROL
-author: windows-driver-content
 description: Called by the user-mode display driver to send the kernel-mode display miniport driver a synchronous I/O control request.The data type of this function is PFN_MIRACAST_IO_CONTROL.
 old-location: display\miracastiocontrol.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_SendSRL
 title: HBA_SendSRL function
-author: windows-driver-content
 description: The HBA_SendSRL routine issues a scan remote loop (SRL) request through the specified HBA to a specified domain controller.
 old-location: storage\hba_sendsrl.htm
 tech.root: storage

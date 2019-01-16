@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisFDevicePnPEventNotify
 title: NdisFDevicePnPEventNotify function
-author: windows-driver-content
 description: A filter driver can call the NdisFDevicePnPEventNotify function to forward a device Plug and Play (PnP) or Power Management event to underlying drivers.
 old-location: netvista\ndisfdevicepnpeventnotify.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes._LineDisplayMarqueeFormatType
 title: "_LineDisplayMarqueeFormatType"
-author: windows-driver-content
 description: This enumeration is not implemented.
 old-location: pos\linedisplaymarqueeformattype.htm
 tech.root: pos

@@ -1,7 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_RECEIVE_FROM
 title: PFN_WSK_RECEIVE_FROM
-author: windows-driver-content
 description: The WskReceiveFrom function receives a datagram and any associated control information from a remote transport address.
 old-location: netvista\wskreceivefrom.htm
 tech.root: netvista

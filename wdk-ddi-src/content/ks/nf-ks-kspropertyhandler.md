@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsPropertyHandler
 title: KsPropertyHandler function
-author: windows-driver-content
 description: Drivers call KsPropertyHandler function for IRP handling.
 old-location: stream\kspropertyhandler.htm
 tech.root: stream

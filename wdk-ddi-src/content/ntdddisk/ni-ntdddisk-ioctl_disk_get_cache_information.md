@@ -1,7 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_GET_CACHE_INFORMATION
 title: IOCTL_DISK_GET_CACHE_INFORMATION
-author: windows-driver-content
 description: Returns disk cache configuration data.
 old-location: storage\ioctl_disk_get_cache_information.htm
 tech.root: storage

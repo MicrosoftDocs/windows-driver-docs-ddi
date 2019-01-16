@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetNotifyEventHandle
 title: IDebugControl3::GetNotifyEventHandle
-author: windows-driver-content
 description: The GetNotifyEventHandle method receives the handle of the event that will be signaled after the next exception in a target.
 old-location: debugger\getnotifyeventhandle.htm
 tech.root: debugger

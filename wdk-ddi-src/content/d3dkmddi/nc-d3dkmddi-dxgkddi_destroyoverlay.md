@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_DESTROYOVERLAY
 title: DXGKDDI_DESTROYOVERLAY
-author: windows-driver-content
 description: The DxgkDdiDestroyOverlay function disables overlay hardware and deletes the specified overlay handle.
 old-location: display\dxgkddidestroyoverlay.htm
 ms.assetid: ea4672a2-ba21-42d4-9ff3-4fa611f86c90

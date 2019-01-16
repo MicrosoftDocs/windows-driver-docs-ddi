@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_ETHERNET_ADDRESS
 title: "_BDA_ETHERNET_ADDRESS"
-author: windows-driver-content
 description: 
 old-location: stream\bda_ethernet_address.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:winsplp.XcvOpenPort
 title: XcvOpenPort function
-author: windows-driver-content
 description: A port monitor server DLL's XcvOpenPort function opens a port for configuration operations.
 old-location: print\xcvopenport.htm
 tech.root: print

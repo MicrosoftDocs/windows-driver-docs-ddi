@@ -1,7 +1,6 @@
 ---
 UID: NC:trustedruntimeclx.PFN_TRSECUREDEVICEHANDOFFSERVICEDEVICECONTROL
 title: PFN_TRSECUREDEVICEHANDOFFSERVICEDEVICECONTROL
-author: windows-driver-content
 description: 
 ms.assetid: 554690bc-e0aa-411a-9168-40ea01012d88
 ms.date: 10/19/2018

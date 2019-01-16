@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisCmDispatchIncomingDropParty
 title: NdisCmDispatchIncomingDropParty function
-author: windows-driver-content
 description: NdisCmDispatchIncomingDropParty notifies a client that it should remove a particular party on a multipoint VC, usually because the call manager has received a request over the network to close an active multipoint connection.
 old-location: netvista\ndiscmdispatchincomingdropparty.htm
 tech.root: netvista

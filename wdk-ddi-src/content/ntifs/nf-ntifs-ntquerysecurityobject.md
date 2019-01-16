@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.NtQuerySecurityObject
 title: NtQuerySecurityObject function
-author: windows-driver-content
 description: The ZwQuerySecurityObject routine retrieves a copy of an object's security descriptor.
 old-location: kernel\zwquerysecurityobject.htm
 tech.root: kernel

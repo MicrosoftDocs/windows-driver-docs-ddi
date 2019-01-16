@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_DESTROYPROTECTEDSESSION
 title: DXGKDDI_DESTROYPROTECTEDSESSION
-author: windows-driver-content
 description: Used to destroy a protected session.
 old-location: display\dxgkddi_destroyprotectedsession.htm
 ms.assetid: 42D4064A-1697-4772-8450-6D217C526347

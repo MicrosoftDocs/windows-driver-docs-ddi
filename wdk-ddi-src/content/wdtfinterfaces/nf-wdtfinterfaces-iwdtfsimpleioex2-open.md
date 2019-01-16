@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOEx2.Open
 title: IWDTFSimpleIOEx2::Open
-author: windows-driver-content
 description: Opens the device.
 old-location: dtf\iwdtfsimpleioex2_open.htm
 tech.root: dtf

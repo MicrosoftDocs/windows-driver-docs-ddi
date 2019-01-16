@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETTEXTURE
 title: PFND3DDDI_SETTEXTURE
-author: windows-driver-content
 description: The SetTexture function inserts a texture at a particular stage in a multiple-texture group.
 old-location: display\settexture.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_UNLOAD
 title: MINIPORT_UNLOAD
-author: windows-driver-content
 description: NDIS calls a miniport driver's MiniportDriverUnload function to request the driver to release resources before the system completes a driver unload operation.
 old-location: netvista\miniportdriverunload.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NL:wiautil.CWiauFormatConverter
 title: CWiauFormatConverter
-author: windows-driver-content
 description: The CWiauFormatConverter class is a helper class for converting images to BMP format.
 old-location: image\cwiauformatconverter_class.htm
 tech.root: image

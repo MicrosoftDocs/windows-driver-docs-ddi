@@ -1,7 +1,6 @@
 ---
 UID: NS:avc._AVCPRECONNECTINFO
 title: "_AVCPRECONNECTINFO"
-author: windows-driver-content
 description: The AVCPRECONNECTINFO structure is used to initialize a subunit driver and establish pin connections.
 old-location: stream\avcpreconnectinfo.htm
 tech.root: stream

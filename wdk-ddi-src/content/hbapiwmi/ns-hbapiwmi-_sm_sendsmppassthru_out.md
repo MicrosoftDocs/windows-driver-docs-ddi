@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SendSMPPassThru_OUT
 title: "_SM_SendSMPPassThru_OUT"
-author: windows-driver-content
 description: The SM_SendSMPPassThru_OUT structure is used to receive output parameters from the SM_SendSMPPassThru method.
 old-location: storage\sm_sendsmppassthru_out.htm
 tech.root: storage

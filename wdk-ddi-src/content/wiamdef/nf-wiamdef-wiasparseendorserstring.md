@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasParseEndorserString
 title: wiasParseEndorserString function
-author: windows-driver-content
 description: The wiasParseEndorserString function parses an endorser string, replacing WIA service-defined and vendor-defined tokens in the string with values associated with those tokens.
 old-location: image\wiasparseendorserstring.htm
 tech.root: image

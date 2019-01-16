@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisOpenFile
 title: NdisOpenFile function
-author: windows-driver-content
 description: The NdisOpenFile function returns a handle for an opened file.
 old-location: netvista\ndisopenfile.htm
 tech.root: netvista

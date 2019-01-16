@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_PRESENT
 title: "_D3DDDICB_PRESENT"
-author: windows-driver-content
 description: The D3DDDICB_PRESENT structure describes allocations that content is copied to and from.
 old-location: display\d3dddicb_present.htm
 tech.root: display

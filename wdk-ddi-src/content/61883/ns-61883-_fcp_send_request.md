@@ -1,7 +1,6 @@
 ---
 UID: NS:61883._FCP_SEND_REQUEST
 title: "_FCP_SEND_REQUEST"
-author: windows-driver-content
 description: This structure is used for a send request.
 old-location: ieee\fcp_send_request.htm
 tech.root: IEEE

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdriver.WdfDriverErrorReportApiMissing
 title: WdfDriverErrorReportApiMissing function
-author: windows-driver-content
 description:
 ms.assetid: fdd7c033-0b0a-46d7-8488-ac7d49b37676
 ms.date: 10/19/2018

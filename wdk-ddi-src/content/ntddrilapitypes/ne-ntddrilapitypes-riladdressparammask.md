@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILADDRESSPARAMMASK
 title: RILADDRESSPARAMMASK
-author: windows-driver-content
 description: This enumeration describes the RILADDRESSPARAMMASK enumeration.
 old-location: netvista\riladdressparammask.htm
 tech.root: netvista

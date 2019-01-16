@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtExtension.SetArgU64
 title: ExtExtension::SetArgU64
-author: windows-driver-content
 description: The SetArgU64 method sets a named expression argument for the current expression command.
 old-location: debugger\setargu64.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NS:ucxcontroller._UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS
 title: "_UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS"
-author: windows-driver-content
 description: Stores the transport characteristics at relevant points in time. This structure is used in the EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS callback function.
 old-location: buses\ucx_controller_transport_characteristics.htm
 tech.root: usbref

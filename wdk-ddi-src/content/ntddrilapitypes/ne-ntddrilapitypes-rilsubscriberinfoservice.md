@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILSUBSCRIBERINFOSERVICE
 title: RILSUBSCRIBERINFOSERVICE
-author: windows-driver-content
 description: This enumeration describes the RILSUBSCRIBERINFOSERVICE.
 old-location: netvista\rilsubscriberinfoservice.htm
 tech.root: netvista

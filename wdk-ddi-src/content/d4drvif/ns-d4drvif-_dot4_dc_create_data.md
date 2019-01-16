@@ -1,7 +1,6 @@
 ---
 UID: NS:d4drvif._DOT4_DC_CREATE_DATA
 title: "_DOT4_DC_CREATE_DATA"
-author: windows-driver-content
 description: Defines the DOT4_DC_CREATE_DATA construct.
 old-location: print\dot4_dc_create_data.htm
 tech.root: print

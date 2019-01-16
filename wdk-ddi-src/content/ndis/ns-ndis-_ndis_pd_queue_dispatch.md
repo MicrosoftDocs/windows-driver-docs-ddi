@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PD_QUEUE_DISPATCH
 title: "_NDIS_PD_QUEUE_DISPATCH"
-author: windows-driver-content
 description: This structure contains a provider's driver routines for receive or transmit queues.
 old-location: netvista\ndis_pd_queue_dispatch.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetNumberSystems
 title: IDebugSystemObjects4::GetNumberSystems
-author: windows-driver-content
 description: The GetNumberSystems method returns the number of targets to which the engine is currently connected.
 old-location: debugger\getnumbersystems.htm
 tech.root: debugger

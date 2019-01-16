@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.CreateRequest
 title: IWDFDevice::CreateRequest
-author: windows-driver-content
 description: The CreateRequest method creates an unformatted request object.
 old-location: wdf\iwdfdevice_createrequest.htm
 tech.root: wdf

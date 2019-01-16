@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_SYSTEM_PROCESSOR_INFO
 title: "_NDIS_SYSTEM_PROCESSOR_INFO"
-author: windows-driver-content
 description: The NDIS_SYSTEM_PROCESSOR_INFO structure specifies information about the CPU topology of the local computer and the receive side scaling (RSS) processor set.
 old-location: netvista\ndis_system_processor_info.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup.RemoveSymbolByName
 title: IDebugSymbolGroup::RemoveSymbolByName
-author: windows-driver-content
 description: The RemoveSymbolByName method removes the specified symbol from a symbol group.
 old-location: debugger\removesymbolbyname.htm
 tech.root: debugger

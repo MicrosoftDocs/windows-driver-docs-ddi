@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.FontInstallerDlgProc
 title: IPrintOemUI::FontInstallerDlgProc
-author: windows-driver-content
 description: A user interface plug-in's IPrintOemUI::FontInstallerDlgProc method replaces the Unidrv font installer's user interface.
 old-location: print\iprintoemui_fontinstallerdlgproc.htm
 tech.root: print

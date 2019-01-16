@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMFillPath
 title: OEMFillPath function
-author: windows-driver-content
 description: The OEMFillPath function handles the filling of closed paths.
 old-location: print\oemfillpath.htm
 tech.root: print

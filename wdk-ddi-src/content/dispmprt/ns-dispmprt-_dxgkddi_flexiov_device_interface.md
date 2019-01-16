@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGKDDI_FLEXIOV_DEVICE_INTERFACE
 title: _DXGKDDI_FLEXIOV_DEVICE_INTERFACE
-author: windows-driver-content
 description: 
 ms.assetid: 03ceba62-6439-4a5e-b15b-38dd06a6a924
 ms.date: 10/19/2018

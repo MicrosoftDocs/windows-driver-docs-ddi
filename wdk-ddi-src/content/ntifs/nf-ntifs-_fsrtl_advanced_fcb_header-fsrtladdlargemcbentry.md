@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAddLargeMcbEntry
 title: FsRtlAddLargeMcbEntry function
-author: windows-driver-content
 description: The FsRtlAddLargeMcbEntry routine adds a new mapping to an existing map control block (MCB).
 old-location: ifsk\fsrtladdlargemcbentry.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlInitCodePageTable
 title: RtlInitCodePageTable function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\rtlinitcodepagetable.htm
 tech.root: ifsk

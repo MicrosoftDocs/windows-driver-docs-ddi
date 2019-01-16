@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._PO_FX_COMPONENT_IDLE_STATE
 title: "_PO_FX_COMPONENT_IDLE_STATE"
-author: windows-driver-content
 description: The PO_FX_COMPONENT_IDLE_STATE structure specifies the attributes of an Fx power state of a component in a device.
 old-location: kernel\po_fx_component_idle_state.htm
 tech.root: kernel

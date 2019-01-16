@@ -1,7 +1,6 @@
 ---
 UID: NS:avc._AVC_PIN_ID
 title: "_AVC_PIN_ID"
-author: windows-driver-content
 description: The AVC_PIN_ID structure describes a pin on a subunit.
 old-location: stream\avc_pin_id.htm
 tech.root: stream

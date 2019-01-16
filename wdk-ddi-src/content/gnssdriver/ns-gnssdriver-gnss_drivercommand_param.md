@@ -1,7 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_3
 title: GNSS_DRIVERCOMMAND_PARAM
-author: windows-driver-content
 description: This structure is used to send a command to the GNSS driver.
 old-location: gnss\gnss_drivercommand_param.htm
 tech.root: gnss

@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPropertySet.Set
 title: IKsPropertySet::Set
-author: windows-driver-content
 description: The Set method sets a property identified by a property-set GUID and a property identifier.
 old-location: stream\ikspropertyset_set.htm
 tech.root: stream

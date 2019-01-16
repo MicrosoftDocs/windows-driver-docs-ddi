@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlByteToChar
 title: RtlByteToChar function
-author: windows-driver-content
 description: Converts a value of type BYTE to a value of type CHAR.
 old-location: kernel\rtlbytetochar.htm
 tech.root: kernel

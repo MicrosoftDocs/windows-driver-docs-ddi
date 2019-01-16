@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_CONTEXT_STATE
 title: "_NDIS_WWAN_CONTEXT_STATE"
-author: windows-driver-content
 description: The NDIS_WWAN_CONTEXT_STATE structure represents the Packet Data Protocol (PDP) context state of the MB device.
 old-location: netvista\ndis_wwan_context_state.htm
 tech.root: netvista

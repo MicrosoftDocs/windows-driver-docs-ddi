@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATECONTEXTVIRTUAL
 title: "_D3DKMT_CREATECONTEXTVIRTUAL"
-author: windows-driver-content
 description: D3DKMT_CREATECONTEXTVIRTUAL is used with D3DKMTCreateContextVirtual to create a kernel mode device context that supports virtual addressing.
 old-location: display\d3dkmt_createcontextvirtual.htm
 ms.assetid: C9707F47-75DF-4CDE-B88B-24323FC8C94B

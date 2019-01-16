@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.SetAccessSubType
 title: CWiauPropertyList::SetAccessSubType method
-author: windows-driver-content
 description: The CWiauPropertyList::SetAccessSubType method resets a property's access and subtype.
 old-location: image\cwiaupropertylist_setaccesssubtype.htm
 tech.root: image

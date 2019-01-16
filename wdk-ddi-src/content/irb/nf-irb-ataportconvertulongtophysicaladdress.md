@@ -1,7 +1,6 @@
 ---
 UID: NF:irb.AtaPortConvertUlongToPhysicalAddress
 title: AtaPortConvertUlongToPhysicalAddress function
-author: windows-driver-content
 description: The AtaPortConvertUlongToPhysicalAddress routine converts a given ULONG address into a value of type IDE_PHYSICAL_ADDRESS.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportconvertulongtophysicaladdress.htm
 tech.root: storage

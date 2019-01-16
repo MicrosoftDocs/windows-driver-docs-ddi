@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CONFIGUREAUTHENICATEDCHANNEL
 title: "_D3DDDIARG_CONFIGUREAUTHENICATEDCHANNEL"
-author: windows-driver-content
 description: The D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL structure describes the state that is set within an authenticated channel by using the ConfigureAuthenticatedChannel function.
 old-location: display\d3dddiarg_configureauthenticatedchannel.htm
 tech.root: display

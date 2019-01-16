@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.SetStreamLoopbackProtection
 title: IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection
-author: windows-driver-content
 description: Sets the loopback protection status of the audio engine node.
 old-location: audio\iminiportstreamaudioenginenode_setstreamloopbackprotection.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT
 title: PFND3D10DDI_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT
-author: windows-driver-content
 description: The CreateGeometryShaderWithStreamOutput function creates a geometry shader with stream output.
 old-location: display\creategeometryshaderwithstreamoutput.htm
 ms.assetid: 6ad1573d-4377-4795-8511-5d6cae96ee4f

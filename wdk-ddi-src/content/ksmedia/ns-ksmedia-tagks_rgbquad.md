@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_RGBQUAD
 title: tagKS_RGBQUAD
-author: windows-driver-content
 description: The KS_RGBQUAD structure describes a color consisting of relative intensities of red, green, and blue, ranging from 0 to 255 (0x0 to 0xff).
 old-location: stream\ks_rgbquad.htm
 tech.root: stream

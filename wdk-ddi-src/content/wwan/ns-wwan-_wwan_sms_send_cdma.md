@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SMS_SEND_CDMA
 title: "_WWAN_SMS_SEND_CDMA"
-author: windows-driver-content
 description: The WWAN_SMS_SEND_CDMA structure represents a CDMA-based SMS text message to send.
 old-location: netvista\wwan_sms_send_cdma.htm
 tech.root: netvista

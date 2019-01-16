@@ -1,7 +1,6 @@
 ---
 UID: NS:ucxusbdevice._USBDEVICE_UPDATE
 title: "_USBDEVICE_UPDATE"
-author: windows-driver-content
 description: Passed by UCX to update the specified device. This structure is in the request parameters (Parameters.Others.Arg1) of a framework request object passed in the EVT_UCX_USBDEVICE_UPDATE callback function.
 old-location: buses\_usbdevice_update.htm
 tech.root: usbref

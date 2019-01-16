@@ -1,7 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_GET_ADDRESS_INFO
 title: PFN_WSK_GET_ADDRESS_INFO
-author: windows-driver-content
 description: The WskGetAddressInfo function performs protocol-independent translation from a host name to a transport address.
 old-location: netvista\wskgetaddressinfo.htm
 tech.root: netvista

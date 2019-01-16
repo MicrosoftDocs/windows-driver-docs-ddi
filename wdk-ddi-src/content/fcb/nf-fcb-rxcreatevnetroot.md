@@ -1,7 +1,6 @@
 ---
 UID: NF:fcb.RxCreateVNetRoot
 title: RxCreateVNetRoot function
-author: windows-driver-content
 description: RxCreateVNetRoot allocates and initializes a NET_ROOT structure and inserts the name into the net name table on the associated device object.
 old-location: ifsk\rxcreatevnetroot.htm
 tech.root: ifsk

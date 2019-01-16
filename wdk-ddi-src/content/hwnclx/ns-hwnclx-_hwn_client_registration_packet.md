@@ -1,7 +1,6 @@
 ---
 UID: NS:hwnclx._HWN_CLIENT_REGISTRATION_PACKET
 title: "_HWN_CLIENT_REGISTRATION_PACKET"
-author: windows-driver-content
 description: Hardware Notification client driver registration packet that is passed to the class extension when a client driver is registered. Contains version information and client driver callback functions.
 old-location: gpiobtn\_hwn_client_registration_packet.htm
 tech.root: gpiobtn

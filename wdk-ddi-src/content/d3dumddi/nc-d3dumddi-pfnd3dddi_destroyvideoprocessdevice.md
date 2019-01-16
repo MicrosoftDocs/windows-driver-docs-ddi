@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DESTROYVIDEOPROCESSDEVICE
 title: PFND3DDDI_DESTROYVIDEOPROCESSDEVICE
-author: windows-driver-content
 description: The DestroyVideoProcessDevice function releases resources for a Microsoft DirectX Video Acceleration (VA) video processing device.
 old-location: display\destroyvideoprocessdevice.htm
 tech.root: display

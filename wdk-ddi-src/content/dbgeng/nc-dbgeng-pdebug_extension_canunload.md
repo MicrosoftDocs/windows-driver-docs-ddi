@@ -1,7 +1,6 @@
 ---
 UID: NC:dbgeng.PDEBUG_EXTENSION_CANUNLOAD
 title: PDEBUG_EXTENSION_CANUNLOAD
-author: windows-driver-content
 description: The DebugExtensionCanUnload callback function checks whether a debug extension can unload after the uninitialization call.
 old-location: debugger\debugextensioncanunload.htm
 tech.root: debugger

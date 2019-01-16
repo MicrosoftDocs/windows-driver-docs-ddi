@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.CWiauFormatConverter.IsFormatSupported
 title: CWiauFormatConverter::IsFormatSupported
-author: windows-driver-content
 description: The CWiauFormatConverter::IsFormatSupported method verifies that GDI+ supports the image format that is to be converted.
 old-location: image\cwiauformatconverter_isformatsupported.htm
 tech.root: image

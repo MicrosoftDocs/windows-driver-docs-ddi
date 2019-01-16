@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeAreAllApcsDisabled
 title: KeAreAllApcsDisabled function
-author: windows-driver-content
 description: The KeAreAllApcsDisabled routine indicates whether the calling thread is inside a guarded region or running at IRQL &gt;= APC_LEVEL, which disables all APC delivery.
 old-location: kernel\keareallapcsdisabled.htm
 tech.root: kernel

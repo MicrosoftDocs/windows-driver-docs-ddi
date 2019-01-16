@@ -1,7 +1,6 @@
 ---
 UID: NS:61883._CIP_DATA_FORMAT_VER2
 title: "_CIP_DATA_FORMAT_VER2"
-author: windows-driver-content
 description: This structure is a CIP data format which is used by CMP_CONNECT_VER2.
 old-location: ieee\cip_data_format_ver2.htm
 tech.root: IEEE

@@ -1,7 +1,6 @@
 ---
 UID: NC:dxgiddi.PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB
 title: PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB
-author: windows-driver-content
 description: Called by the Microsoft DirectX Graphics Infrastructure (DXGI) runtime to notify the user-mode display driver that an application finished rendering and requests that the driver display the source surface by either copying or flipping or that the driver perform a color-fill operation. 
 old-location: display\pfnpresentmultiplaneoverlay__dxgi_.htm
 tech.root: display

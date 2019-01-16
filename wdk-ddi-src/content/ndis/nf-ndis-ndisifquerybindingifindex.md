@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisIfQueryBindingIfIndex
 title: NdisIfQueryBindingIfIndex function
-author: windows-driver-content
 description: The NdisIfQueryBindingIfIndex function retrieves the network interface indexes and NET_LUID values for the highest and lowest layered network interfaces that are associated with a specified protocol binding.
 old-location: netvista\ndisifquerybindingifindex.htm
 tech.root: netvista

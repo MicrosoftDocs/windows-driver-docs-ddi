@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgHelper
 title: wiauDbgHelper macro
-author: windows-driver-content
 description: The wiauDbgHelper function formats a message and writes it to a log file, or debugger, or both.
 old-location: image\wiaudbghelper.htm
 tech.root: image

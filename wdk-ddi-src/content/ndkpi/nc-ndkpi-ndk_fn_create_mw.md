@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_CREATE_MW
 title: NDK_FN_CREATE_MW
-author: windows-driver-content
 description: The NdkCreateMw (NDK_FN_CREATE_MW) function creates an NDK memory window (MW) object.
 old-location: netvista\ndk_fn_create_mw.htm
 tech.root: netvista

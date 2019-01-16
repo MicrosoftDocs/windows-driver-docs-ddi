@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlMdlReadEx~r5
 title: FsRtlMdlReadEx function
-author: windows-driver-content
 description: The FsRtlMdlReadEx routine performs a fast cached MDL read. If the requested data is not cached, the routine reverts to an IRP based MDL read operation.
 old-location: ifsk\fsrtlmdlreadex.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetValues2
 title: IDebugRegisters2::GetValues2
-author: windows-driver-content
 description: The GetValues2 method fetches the value of several of the target's registers.
 old-location: debugger\getvalues2.htm
 tech.root: debugger

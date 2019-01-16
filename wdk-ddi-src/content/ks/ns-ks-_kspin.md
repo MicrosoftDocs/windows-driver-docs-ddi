@@ -1,7 +1,6 @@
 ---
 UID: NS:ks._KSPIN
 title: "_KSPIN"
-author: windows-driver-content
 description: The KSPIN structure describes an instantiated pin.
 old-location: stream\kspin.htm
 tech.root: stream

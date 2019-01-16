@@ -1,7 +1,6 @@
 ---
 UID: NN:wiamindr_lh.IWiaMiniDrvTransferCallback
 title: IWiaMiniDrvTransferCallback
-author: windows-driver-content
 description: This is a Callback interface that is called by the WIA mini-driver for stream-based transfers.
 old-location: image\iwiaminidrvtransfercallback.htm
 tech.root: image

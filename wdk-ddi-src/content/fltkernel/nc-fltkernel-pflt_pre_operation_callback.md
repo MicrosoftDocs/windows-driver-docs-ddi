@@ -1,7 +1,6 @@
 ---
 UID: NC:fltkernel.PFLT_PRE_OPERATION_CALLBACK
 title: PFLT_PRE_OPERATION_CALLBACK
-author: windows-driver-content
 description: A minifilter driver's PFLT_PRE_OPERATION_CALLBACK routine performs pre-operation processing for I/O operations.
 old-location: ifsk\pflt_pre_operation_callback.htm
 tech.root: ifsk

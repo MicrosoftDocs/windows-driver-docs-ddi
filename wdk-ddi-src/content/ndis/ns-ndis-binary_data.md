@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis.__unnamed_struct_0
 title: BINARY_DATA
-author: windows-driver-content
 description: The BINARY_DATA structure contains the binary data of a named entry in the registry.
 old-location: netvista\binary_data.htm
 tech.root: netvista

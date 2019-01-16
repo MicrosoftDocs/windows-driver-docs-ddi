@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlLongLongToUShort
 title: RtlLongLongToUShort function
-author: windows-driver-content
 description: Converts a value of type LONGLONG to a value of type USHORT.
 old-location: kernel\rtllonglongtoushort.htm
 tech.root: kernel

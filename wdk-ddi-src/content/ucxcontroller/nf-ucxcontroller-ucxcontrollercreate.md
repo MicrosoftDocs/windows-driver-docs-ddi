@@ -1,7 +1,6 @@
 ---
 UID: NF:ucxcontroller.UcxControllerCreate
 title: UcxControllerCreate function
-author: windows-driver-content
 description: Creates a host controller object.
 old-location: buses\_ucxcontrollercreate.htm
 tech.root: usbref

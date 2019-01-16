@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATEVERTEXSHADERDECL
 title: "_D3DDDIARG_CREATEVERTEXSHADERDECL"
-author: windows-driver-content
 description: The D3DDDIARG_CREATEVERTEXSHADERDECL structure specifies a shader handle to associate with the vertex shader declaration.
 old-location: display\d3dddiarg_createvertexshaderdecl.htm
 tech.root: display

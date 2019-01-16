@@ -1,7 +1,6 @@
 ---
 UID: NS:nfcsedev._SECURE_ELEMENT_TECH_ROUTING_INFO
 title: "_SECURE_ELEMENT_TECH_ROUTING_INFO"
-author: windows-driver-content
 description: SECURE_ELEMENT_TECH_ROUTING_INFO is a member of SECURE_ELEMENT_ROUTING_TABLE_ENTRY.
 old-location: nfpdrivers\_secure_element_tech_routing_info.htm
 tech.root: nfpdrivers

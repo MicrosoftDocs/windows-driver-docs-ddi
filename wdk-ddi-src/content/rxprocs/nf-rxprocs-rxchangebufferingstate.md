@@ -1,7 +1,6 @@
 ---
 UID: NF:rxprocs.RxChangeBufferingState
 title: RxChangeBufferingState function
-author: windows-driver-content
 description: RxChangeBufferingState is called to process a buffering state change request.
 old-location: ifsk\rxchangebufferingstate.htm
 tech.root: ifsk

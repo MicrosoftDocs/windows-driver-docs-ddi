@@ -1,7 +1,6 @@
 ---
 UID: NN:filterpipeline.IPartFont2
 title: IPartFont2
-author: windows-driver-content
 description: 
 old-location: print\ipartfont2.htm
 tech.root: print

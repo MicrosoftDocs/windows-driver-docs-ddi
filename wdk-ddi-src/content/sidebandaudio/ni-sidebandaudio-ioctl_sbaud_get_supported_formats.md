@@ -1,7 +1,6 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_SUPPORTED_FORMATS
 title: IOCTL_SBAUD_GET_SUPPORTED_FORMATS
-author: windows-driver-content
 description: 
 ms.assetid: 0e17eae1-e498-43b6-88d8-6a5f0752f3f0
 ms.date: 10/05/2018

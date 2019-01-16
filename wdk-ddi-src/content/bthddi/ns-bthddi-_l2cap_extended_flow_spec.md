@@ -1,7 +1,6 @@
 ---
 UID: NS:bthddi._L2CAP_EXTENDED_FLOW_SPEC
 title: "_L2CAP_EXTENDED_FLOW_SPEC"
-author: windows-driver-content
 description: The L2CAP_EXTENDED_FLOW_SPEC is reserved for future use.
 old-location: bltooth\l2cap_extended_flow_spec.htm
 tech.root: bltooth

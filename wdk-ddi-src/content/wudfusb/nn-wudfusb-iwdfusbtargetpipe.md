@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfusb.IWDFUsbTargetPipe
 title: IWDFUsbTargetPipe
-author: windows-driver-content
 description: The IWDFUsbTargetPipe interface exposes a USB pipe (endpoint), which is also an I/O target.
 old-location: wdf\iwdfusbtargetpipe.htm
 tech.root: wdf

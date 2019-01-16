@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsInjectMacReceiveAsync0
 title: FwpsInjectMacReceiveAsync0 function
-author: windows-driver-content
 description: The FwpsInjectMacReceiveAsync0 function can reinject a previously absorbed media access control (MAC) frame (or a clone of the frame) back to the layer 2 inbound data path it was intercepted from, or inject an invented MAC frame.
 old-location: netvista\fwpsinjectmacreceiveasync0.htm
 tech.root: netvista

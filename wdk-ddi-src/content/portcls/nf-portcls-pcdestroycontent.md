@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.PcDestroyContent
 title: PcDestroyContent function
-author: windows-driver-content
 description: The PcDestroyContent function deletes a DRM content ID that was created by PcCreateContentMixed. Note that this function call is identical in operation to the DrmDestroyContent function, and its parameter definitions and return value are also identical.
 old-location: audio\pcdestroycontent.htm
 tech.root: audio

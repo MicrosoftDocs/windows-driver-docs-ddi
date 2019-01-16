@@ -1,7 +1,6 @@
 ---
 UID: NC:pepfx.PEPCALLBACKPOWERONCRASHDUMPDEVICE
 title: PEPCALLBACKPOWERONCRASHDUMPDEVICE
-author: windows-driver-content
 description: The PowerOnDumpDeviceCallback callback routine turns on the crash-dump device.
 old-location: kernel\powerondumpdevicecallback.htm
 tech.root: kernel

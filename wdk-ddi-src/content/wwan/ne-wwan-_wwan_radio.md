@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_RADIO
 title: "_WWAN_RADIO"
-author: windows-driver-content
 description: The WWAN_RADIO enumeration lists the different types of radio power modes that are supported by the MB device.
 old-location: netvista\wwan_radio.htm
 tech.root: netvista

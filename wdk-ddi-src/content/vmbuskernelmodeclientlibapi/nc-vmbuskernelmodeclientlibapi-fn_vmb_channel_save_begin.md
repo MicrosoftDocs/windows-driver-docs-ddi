@@ -1,7 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_SAVE_BEGIN
 title: FN_VMB_CHANNEL_SAVE_BEGIN
-author: windows-driver-content
 description: The VmbChannelSaveBegin function initializes the context for saving the state of a channel. The driver must check the return value of the function.
 tech.root: netvista
 ms.assetid: 986669ad-e997-4850-a9b1-b45d6f1497cd

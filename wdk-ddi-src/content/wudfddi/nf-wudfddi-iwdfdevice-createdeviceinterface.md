@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.CreateDeviceInterface
 title: IWDFDevice::CreateDeviceInterface
-author: windows-driver-content
 description: The CreateDeviceInterface method creates an instance of a device interface class.
 old-location: wdf\iwdfdevice_createdeviceinterface.htm
 tech.root: wdf

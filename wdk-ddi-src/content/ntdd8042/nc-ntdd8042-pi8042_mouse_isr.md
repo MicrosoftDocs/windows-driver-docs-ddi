@@ -1,7 +1,6 @@
 ---
 UID: NC:ntdd8042.PI8042_MOUSE_ISR
 title: PI8042_MOUSE_ISR
-author: windows-driver-content
 description: A PI8042_MOUSE_ISR-typed callback routine customizes the operation of the I8042prt mouse ISR.
 old-location: hid\pi8042_mouse_isr.htm
 tech.root: hid

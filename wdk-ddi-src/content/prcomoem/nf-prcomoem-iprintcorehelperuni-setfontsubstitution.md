@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperUni.SetFontSubstitution
 title: IPrintCoreHelperUni::SetFontSubstitution
-author: windows-driver-content
 description: The IPrintCoreHelperUni::SetFontSubstitution method specifies the device font to print in place of a given TrueType font.
 old-location: print\iprintcorehelperuni_setfontsubstitution.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NI:bthhfpddi.IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE
 title: IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE
-author: windows-driver-content
 description: The IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE IOCTL Gets a stream channel status update.
 old-location: audio\ioctl_bthhfp_stream_get_status_update.htm
 tech.root: audio

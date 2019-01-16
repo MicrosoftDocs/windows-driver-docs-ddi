@@ -1,7 +1,6 @@
 ---
 UID: NS:ucmmanager._UCM_CONNECTOR_PD_CONFIG
 title: "_UCM_CONNECTOR_PD_CONFIG"
-author: windows-driver-content
 description: Describes the Power Delivery 2.0 capabilities of the connector.
 old-location: buses\ucm_connector_pd_config.htm
 tech.root: usbref

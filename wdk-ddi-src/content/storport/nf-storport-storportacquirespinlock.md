@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortAcquireSpinLock
 title: StorPortAcquireSpinLock function
-author: windows-driver-content
 description: The StorPortAcquireSpinLock routine acquires the specified spin lock.
 old-location: storage\storportacquirespinlock.htm
 tech.root: storage

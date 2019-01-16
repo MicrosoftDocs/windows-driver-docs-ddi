@@ -1,7 +1,6 @@
 ---
 UID: NS:dot11wdi._WDI_TXRX_TARGET_CAPABILITIES
 title: "_WDI_TXRX_TARGET_CAPABILITIES"
-author: windows-driver-content
 description: The WDI_TXRX_CAPABILITIES structure defines the target capabilities.
 old-location: netvista\wdi_txrx_capabilities.htm
 tech.root: netvista

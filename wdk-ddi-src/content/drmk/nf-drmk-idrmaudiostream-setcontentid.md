@@ -1,7 +1,6 @@
 ---
 UID: NF:drmk.IDrmAudioStream.SetContentId
 title: IDrmAudioStream::SetContentId
-author: windows-driver-content
 description: The SetContentId method sets the DRM content ID and its assigned DRM content rights on a KS audio stream.
 old-location: audio\idrmaudiostream_setcontentid.htm
 tech.root: audio

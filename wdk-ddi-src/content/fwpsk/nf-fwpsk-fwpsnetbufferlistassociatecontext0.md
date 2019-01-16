@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsNetBufferListAssociateContext0
 title: FwpsNetBufferListAssociateContext0 function
-author: windows-driver-content
 description: The FwpsNetBufferListAssociateContext0 function associates the callout driver's context with a network buffer list and configures notification for network buffer list events.Note  FwpsNetBufferListAssociateContext0 is the specific version of FwpsNetBufferListAssociateContext used in Windows 7 and later. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information. For Windows 8, FwpsNetBufferListAssociateContext1 is available.
 old-location: netvista\fwpsnetbufferlistassociatecontext0.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:winddiui.DrvQueryColorProfile
 title: DrvQueryColorProfile function
-author: windows-driver-content
 description: The DrvQueryColorProfile function allows a printer interface DLL to specify an ICC profile to use for color management.
 old-location: print\drvquerycolorprofile.htm
 tech.root: print

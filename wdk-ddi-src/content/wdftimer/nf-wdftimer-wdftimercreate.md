@@ -1,7 +1,6 @@
 ---
 UID: NF:wdftimer.WdfTimerCreate
 title: WdfTimerCreate function
-author: windows-driver-content
 description: The WdfTimerCreate method creates a framework timer object.
 old-location: wdf\wdftimercreate.htm
 tech.root: wdf

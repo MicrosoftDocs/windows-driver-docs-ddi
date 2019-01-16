@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlRandomEx
 title: RtlRandomEx function
-author: windows-driver-content
 description: The RtlRandomEx routine returns a random number that was generated from a given seed value.
 old-location: ifsk\rtlrandomex.htm
 tech.root: ifsk

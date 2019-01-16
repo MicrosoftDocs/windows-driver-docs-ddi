@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.RestartDevice
 title: IWDTFPNPActions2::RestartDevice
-author: windows-driver-content
 description: Initiates a device restart.
 old-location: dtf\iwdtfpnpactions2_restartdevice.htm
 tech.root: dtf

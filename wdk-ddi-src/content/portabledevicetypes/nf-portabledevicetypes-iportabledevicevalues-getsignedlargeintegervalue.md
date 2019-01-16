@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetSignedLargeIntegerValue
 title: IPortableDeviceValues::GetSignedLargeIntegerValue
-author: windows-driver-content
 description: Retrieves a LONGLONG value (type VT_I8) that is specified by a key.
 old-location: wpddk\iportabledevicevalues_getsignedlargeintegervalue.htm
 tech.root: wpd_dk

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_PINDIRECTFLIPRESOURCES
 title: _D3DKMT_PINDIRECTFLIPRESOURCES
-author: windows-driver-content
 description: Indirect flip resources.
 ms.assetid: 85ecd291-4c2d-4cb2-bb8c-67c21d61b0a6
 ms.date: 10/19/2018

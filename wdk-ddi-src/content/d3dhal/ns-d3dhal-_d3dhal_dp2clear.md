@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2CLEAR
 title: "_D3DHAL_DP2CLEAR"
-author: windows-driver-content
 description: D3DHAL_DP2CLEAR contains all of the information that the driver needs to perform hardware-assisted clearing on the rendering target, depth buffer or stencil buffer.
 old-location: display\d3dhal_dp2clear.htm
 tech.root: display

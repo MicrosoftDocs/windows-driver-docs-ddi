@@ -1,7 +1,6 @@
 ---
 UID: NS:windot11.DOT11_ROAMING_START_PARAMETERS
 title: DOT11_ROAMING_START_PARAMETERS
-author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_roaming_start_parameters.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1_DDI_RENDER_TARGET_BLEND_DESC
 title: D3D11_1_DDI_RENDER_TARGET_BLEND_DESC
-author: windows-driver-content
 description: Describes a blend state for a render target. Used by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 old-location: display\d3d11_1_ddi_render_target_blend_desc.htm
 ms.assetid: ad90ad4c-625f-4177-8160-cd6576942c91

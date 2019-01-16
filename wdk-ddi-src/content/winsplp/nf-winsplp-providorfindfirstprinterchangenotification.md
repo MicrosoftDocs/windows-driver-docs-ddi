@@ -1,7 +1,6 @@
 ---
 UID: NF:winsplp.ProvidorFindFirstPrinterChangeNotification
 title: ProvidorFindFirstPrinterChangeNotification function
-author: windows-driver-content
 description: 
 old-location: print\providorfindfirstprinterchangenotification.htm
 tech.root: print

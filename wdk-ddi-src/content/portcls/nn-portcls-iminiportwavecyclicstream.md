@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IMiniportWaveCyclicStream
 title: IMiniportWaveCyclicStream
-author: windows-driver-content
 description: The IMiniportWaveCyclicStream interface represents the wave stream that flows through a pin on a WaveCyclic filter.
 old-location: audio\iminiportwavecyclicstream.htm
 tech.root: audio

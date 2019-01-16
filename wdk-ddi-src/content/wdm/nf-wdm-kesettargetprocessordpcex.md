@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeSetTargetProcessorDpcEx
 title: KeSetTargetProcessorDpcEx function
-author: windows-driver-content
 description: The KeSetTargetProcessorDpcEx routine specifies the processor that a DPC routine will run on.
 old-location: kernel\kesettargetprocessordpcex.htm
 tech.root: kernel

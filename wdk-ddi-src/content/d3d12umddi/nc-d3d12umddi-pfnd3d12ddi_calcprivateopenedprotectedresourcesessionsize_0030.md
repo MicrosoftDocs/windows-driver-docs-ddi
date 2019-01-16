@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEOPENEDPROTECTEDRESOURCESESSIONSIZE_0030
 title: PFND3D12DDI_CALCPRIVATEOPENEDPROTECTEDRESOURCESESSIONSIZE_0030
-author: windows-driver-content
 description: Used to calculate the size of an opened protected resource session.
 old-location: display\pfnd3d12ddi_calcprivateopenedprotectedresourcesessionsize_0030.htm
 ms.assetid: B4F8FDC2-BF32-42D2-848B-E3B2335C0131

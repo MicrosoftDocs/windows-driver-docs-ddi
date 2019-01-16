@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.PcNewResourceList
 title: PcNewResourceList function
-author: windows-driver-content
 description: The PcNewResourceList function creates and initializes a resource list.
 old-location: audio\pcnewresourcelist.htm
 tech.root: audio

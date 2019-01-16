@@ -1,7 +1,6 @@
 ---
 UID: NS:windot11._DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS
 title: "_DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS"
-author: windows-driver-content
 description: The request parameters for a provision discovery request are specified in a DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS structure. This structure is sent with an OID_DOT11_WFD_SEND_PROVISION_DISCOVERY_REQUEST request to the miniport.
 old-location: netvista\dot11_send_provision_discovery_request_parameters.htm
 tech.root: netvista

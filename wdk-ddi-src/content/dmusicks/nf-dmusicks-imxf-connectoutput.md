@@ -1,11 +1,9 @@
 ---
 UID: NF:dmusicks.IMXF.ConnectOutput
 title: IMXF::ConnectOutput
-author: windows-driver-content
 description: The ConnectOutput method connects this IMXF interface with the sink specified by the pSinkMXF parameter.
 tech.root: audio
 ms.assetid: cca02916-afd0-47a5-a19a-1c3159c54ed4
-ms.author: windowsdriverdev
 ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IMXF::ConnectOutput, ConnectOutput, IMXF.ConnectOutput, IMXF::ConnectOutput, IMXF.ConnectOutput

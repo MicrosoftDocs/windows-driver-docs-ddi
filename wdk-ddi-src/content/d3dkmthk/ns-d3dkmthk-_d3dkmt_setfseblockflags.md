@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SETFSEBLOCKFLAGS
 title: _D3DKMT_SETFSEBLOCKFLAGS
-author: windows-driver-content
 description: Used to set the FSE (full screen exclusive) block flags.
 ms.assetid: de196937-105b-42e2-8df8-9df6c005e9ff
 ms.date: 10/19/2018

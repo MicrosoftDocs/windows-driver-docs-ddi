@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT
 title: WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT function
-author: windows-driver-content
 description: The WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT function sets a time-out value in a driver's WDF_REQUEST_SEND_OPTIONS structure.
 old-location: wdf\wdf_request_send_options_set_timeout.htm
 tech.root: wdf

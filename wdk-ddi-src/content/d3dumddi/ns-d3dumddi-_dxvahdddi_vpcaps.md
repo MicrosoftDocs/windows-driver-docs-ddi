@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_VPCAPS
 title: "_DXVAHDDDI_VPCAPS"
-author: windows-driver-content
 description: Describes a video processor and its capabilities.
 old-location: display\dxvahdddi_vpcaps.htm
 tech.root: display

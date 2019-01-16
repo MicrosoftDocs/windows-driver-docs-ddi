@@ -1,7 +1,6 @@
 ---
 UID: NS:printoem._USERDATA
 title: "_USERDATA"
-author: windows-driver-content
 description: The USERDATA structure is used by Unidrv and Pscript to specify additional information about printer features. A USERDATA structure pointer is supplied as the UserData member for each OPTITEM structure.
 old-location: print\userdata.htm
 tech.root: print

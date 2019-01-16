@@ -1,7 +1,6 @@
 ---
 UID: NC:dot11wdi.NDIS_WDI_RX_STOP_CONFIRM
 title: NDIS_WDI_RX_STOP_CONFIRM
-author: windows-driver-content
 description: The NdisWdiRxStopConfirm callback function indicates completion of a MiniportWdiRxStop request.
 old-location: netvista\ndiswdirxstopconfirm.htm
 tech.root: netvista

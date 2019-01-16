@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.PcRegisterIoTimeout
 title: PcRegisterIoTimeout function
-author: windows-driver-content
 description: The PcRegisterIoTimeout function registers a driver-supplied I/O-timer callback routine for a specified device object.
 old-location: audio\pcregisteriotimeout.htm
 tech.root: audio

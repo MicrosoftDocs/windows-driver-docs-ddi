@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltCreateSystemVolumeInformationFolder
 title: FltCreateSystemVolumeInformationFolder function
-author: windows-driver-content
 description: FltCreateSystemVolumeInformationFolder verifies the existence of the &#0034;System Volume Information&#0034; folder on a file system volume. If the folder is not present, then the folder is created.
 old-location: ifsk\fltcreatesystemvolumeinformationfolder.htm
 tech.root: ifsk

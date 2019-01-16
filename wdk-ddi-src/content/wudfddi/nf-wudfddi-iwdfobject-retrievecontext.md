@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFObject.RetrieveContext
 title: IWDFObject::RetrieveContext
-author: windows-driver-content
 description: The RetrieveContext method retrieves a context that was previously registered through the IWDFObject::AssignContext method.
 old-location: wdf\iwdfobject_retrievecontext.htm
 tech.root: wdf

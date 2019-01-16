@@ -1,7 +1,6 @@
 ---
 UID: NC:netioddk.NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN
 title: NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN
-author: windows-driver-content
 description: A client module's ClientCleanupBindingContext callback function performs any necessary cleanup and deallocation of the client module's binding context after the client module and a provider module have detached from one another.
 old-location: netvista\clientcleanupbindingcontext.htm
 tech.root: netvista

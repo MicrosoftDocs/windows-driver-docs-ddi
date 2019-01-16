@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.MmUnmapLockedPages
 title: MmUnmapLockedPages function
-author: windows-driver-content
 description: The MmUnmapLockedPages routine releases a mapping that was set up by a preceding call to the MmMapLockedPages or MmMapLockedPagesSpecifyCache routine.
 old-location: kernel\mmunmaplockedpages.htm
 tech.root: kernel

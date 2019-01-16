@@ -1,7 +1,6 @@
 ---
 UID: NF:ucxusbdevice.UcxUsbDeviceCreate
 title: UcxUsbDeviceCreate function
-author: windows-driver-content
 description: Creates a USB device object on the specified controller.
 old-location: buses\_ucxusbdevicecreate.htm
 tech.root: usbref

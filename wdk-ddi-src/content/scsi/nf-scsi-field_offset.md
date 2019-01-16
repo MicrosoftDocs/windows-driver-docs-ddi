@@ -1,7 +1,6 @@
 ---
 UID: NF:scsi.FIELD_OFFSET
 title: FIELD_OFFSET macro
-author: windows-driver-content
 description: The FIELD_OFFSET macro returns the byte offset of a named field in a known structure type.
 old-location: kernel\field_offset.htm
 tech.root: kernel

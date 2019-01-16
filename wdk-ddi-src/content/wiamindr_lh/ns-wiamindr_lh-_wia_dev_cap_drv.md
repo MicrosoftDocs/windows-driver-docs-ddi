@@ -1,7 +1,6 @@
 ---
 UID: NS:wiamindr_lh._WIA_DEV_CAP_DRV
 title: "_WIA_DEV_CAP_DRV"
-author: windows-driver-content
 description: The WIA_DEV_CAP_DRV structure is used to enumerate device capabilities. A device capability is defined by an event or command that the device supports.
 old-location: image\wia_dev_cap_drv.htm
 tech.root: image

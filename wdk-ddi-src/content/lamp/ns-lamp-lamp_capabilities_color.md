@@ -1,7 +1,6 @@
 ---
 UID: NS:lamp.LAMP_CAPABILITIES_COLOR
 title: LAMP_CAPABILITIES_COLOR
-author: windows-driver-content
 description: This structure is the I/O parameter type of IOCTL_LAMP_{GET|SET}_INTENSITY_COLOR.
 old-location: stream\lamp_capabilities_color.htm
 tech.root: stream

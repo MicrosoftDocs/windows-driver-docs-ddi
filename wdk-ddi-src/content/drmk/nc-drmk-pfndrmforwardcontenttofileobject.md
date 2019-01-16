@@ -1,7 +1,6 @@
 ---
 UID: NC:drmk.PFNDRMFORWARDCONTENTTOFILEOBJECT
 title: PFNDRMFORWARDCONTENTTOFILEOBJECT
-author: windows-driver-content
 description: This callback function is reserved for system use.
 old-location: audio\pfndrmforwardcontenttofileobject.htm
 tech.root: audio

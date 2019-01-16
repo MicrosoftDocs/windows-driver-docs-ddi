@@ -1,7 +1,6 @@
 ---
 UID: NS:dmusicks._DMUS_KERNEL_EVENT
 title: "_DMUS_KERNEL_EVENT"
-author: windows-driver-content
 description: The DMUS_KERNEL_EVENT structure is used to package time-stamped music events.
 old-location: audio\dmus_kernel_event.htm
 tech.root: audio

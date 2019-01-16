@@ -1,7 +1,6 @@
 ---
 UID: NF:hidsdi.HidD_FlushQueue
 title: HidD_FlushQueue function
-author: windows-driver-content
 description: The HidD_FlushQueue routine deletes all pending input reports in a top-level collection's input queue.
 old-location: hid\hidd_flushqueue.htm
 tech.root: hid

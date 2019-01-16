@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._NVME_RESERVED_QUEUES_DELETE_REQUEST
 title: _NVME_RESERVED_QUEUES_DELETE_REQUEST
-author: windows-driver-content
 description: 
 ms.assetid: 322d7dfd-7e65-452c-a239-184f30d119af
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetFrameOffset
 title: IDebugRegisters2::GetFrameOffset
-author: windows-driver-content
 description: The GetFrameOffset method returns the location of the stack frame for the current function.
 old-location: debugger\getframeoffset.htm
 tech.root: debugger

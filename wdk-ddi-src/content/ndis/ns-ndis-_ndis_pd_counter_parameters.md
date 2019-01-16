@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PD_COUNTER_PARAMETERS
 title: "_NDIS_PD_COUNTER_PARAMETERS"
-author: windows-driver-content
 description: This structure holds parameters for the provider counter.
 old-location: netvista\ndis_pd_counter_parameters.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SETTIMINGSFROMVIDPN
 title: DXGKDDI_SETTIMINGSFROMVIDPN
-author: windows-driver-content
 description: DXGKDDI_SETTIMINGSFROMVIDPN is called to set or modify the display timings on an adapter. This DDI replaces DxgkDdiCommitVidPn.
 old-location: display\dxgkddi_settimingsfromvidpn.htm
 ms.assetid: 7E991251-1738-41AD-83D6-60DD7E183D68

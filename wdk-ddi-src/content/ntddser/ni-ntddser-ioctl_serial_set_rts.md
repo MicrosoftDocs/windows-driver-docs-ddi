@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_SET_RTS
 title: IOCTL_SERIAL_SET_RTS
-author: windows-driver-content
 description: The IOCTL_SERIAL_SET_RTS request sets RTS (request to send).
 old-location: serports\ioctl_serial_set_rts.htm
 tech.root: serports

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.ControlledOutputVaList
 title: IDebugControl2::ControlledOutputVaList
-author: windows-driver-content
 description: The ControlledOutputVaList method formats a string and sends the result to output callbacks that were registered with some of the engine's clients.
 old-location: debugger\controlledoutputvalist.htm
 tech.root: debugger

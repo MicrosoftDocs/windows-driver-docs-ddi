@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoGetFileObjectGenericMapping
 title: IoGetFileObjectGenericMapping function
-author: windows-driver-content
 description: The IoGetFileObjectGenericMapping routine returns information about the mapping between each generic access right and the set of specific access rights for file objects.
 old-location: kernel\iogetfileobjectgenericmapping.htm
 tech.root: kernel

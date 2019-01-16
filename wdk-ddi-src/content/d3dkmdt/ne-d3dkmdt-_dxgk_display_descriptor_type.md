@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGK_DISPLAY_DESCRIPTOR_TYPE
 title: "_DXGK_DISPLAY_DESCRIPTOR_TYPE"
-author: windows-driver-content
 description: Enum used to express the display descriptor type.
 old-location: display\dxgk_display_descriptor_type.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.Compare
 title: IModelObject::Compare
-author: windows-driver-content
 description: The Compare method compares two model objects and returns an indication of how those objects relate.
 ms.assetid: 18bf4d91-bbd6-4c5a-8b21-962fbd94c8fb
 ms.date: 07/20/2018

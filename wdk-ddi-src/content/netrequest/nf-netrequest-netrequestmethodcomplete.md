@@ -1,7 +1,6 @@
 ---
 UID: NF:netrequest.NetRequestMethodComplete
 title: NetRequestMethodComplete function
-author: windows-driver-content
 description: Completes a method (OID) request.
 tech.root: netvista
 ms.assetid: 5f846a1d-3de6-44d8-9aa0-0111962cdc57

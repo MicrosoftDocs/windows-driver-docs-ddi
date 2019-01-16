@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfdriversetupdeviceaction.IWDTFDriverSetupAction2.UpdateDriver
 title: IWDTFDriverSetupAction2::UpdateDriver
-author: windows-driver-content
 description: Updates the target device with a driver from the driver package.
 old-location: dtf\iwdtfdriversetupaction2_updatedriver.htm
 tech.root: dtf

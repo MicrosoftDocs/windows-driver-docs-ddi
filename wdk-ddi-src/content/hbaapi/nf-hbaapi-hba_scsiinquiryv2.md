@@ -1,7 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_ScsiInquiryV2
 title: HBA_ScsiInquiryV2 function
-author: windows-driver-content
 description: The HBA_ScsiInquiryV2 routine sends a SCSI inquiry command to the specified remote port.
 old-location: storage\hba_scsiinquiryv2.htm
 tech.root: storage

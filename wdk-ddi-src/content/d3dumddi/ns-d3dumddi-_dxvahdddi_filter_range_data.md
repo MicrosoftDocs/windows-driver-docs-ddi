@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_FILTER_RANGE_DATA
 title: "_DXVAHDDDI_FILTER_RANGE_DATA"
-author: windows-driver-content
 description: Describes a filter range.
 old-location: display\dxvahdddi_filter_range_data.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_GET_CHARS
 title: IOCTL_SERIAL_GET_CHARS
-author: windows-driver-content
 description: The IOCTL_SERIAL_GET_CHARS request retrieves the special characters that the serial controller driver uses with handshake flow control. The special characters are described by a SERIAL_CHARS structure.
 old-location: serports\ioctl_serial_get_chars.htm
 tech.root: serports

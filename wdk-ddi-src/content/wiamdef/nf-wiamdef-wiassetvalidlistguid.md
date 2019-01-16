@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasSetValidListGuid
 title: wiasSetValidListGuid function
-author: windows-driver-content
 description: The wiasSetValidListGuid function sets valid values for a WIA_PROP_LIST property of type VT_CLSID.
 old-location: image\wiassetvalidlistguid.htm
 tech.root: image

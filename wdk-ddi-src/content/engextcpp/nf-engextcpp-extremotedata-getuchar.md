@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetUchar
 title: ExtRemoteData::GetUchar
-author: windows-driver-content
 description: The GetUChar method returns a UCHAR version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getuchar.htm
 tech.root: debugger

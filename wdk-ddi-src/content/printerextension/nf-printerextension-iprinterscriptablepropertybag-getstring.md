@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag.GetString
 title: IPrinterScriptablePropertyBag::GetString
-author: windows-driver-content
 description: Gets a string property.
 old-location: print\iprinterscriptablepropertybag_getstring.htm
 tech.root: print

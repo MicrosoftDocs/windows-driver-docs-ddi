@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.EX_CALLBACK_FUNCTION
 title: EX_CALLBACK_FUNCTION
-author: windows-driver-content
 description: A filter driver's RegistryCallback routine can monitor, block, or modify a registry operation.
 old-location: kernel\registrycallback.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GET_PTE
 title: _D3DKMT_GET_PTE
-author: windows-driver-content
 description: Used to get page table entries.
 ms.assetid: bfe177b0-8922-438c-b214-e08f786b8e9c
 ms.date: 10/19/2018

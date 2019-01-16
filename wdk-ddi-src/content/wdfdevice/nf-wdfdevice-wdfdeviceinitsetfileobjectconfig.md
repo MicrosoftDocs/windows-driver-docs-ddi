@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceInitSetFileObjectConfig
 title: WdfDeviceInitSetFileObjectConfig function
-author: windows-driver-content
 description: The WdfDeviceInitSetFileObjectConfig method registers event callback functions and sets configuration information for the driver's framework file objects.
 old-location: wdf\wdfdeviceinitsetfileobjectconfig.htm
 tech.root: wdf

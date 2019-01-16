@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortGetCurrentProcessorNumber
 title: StorPortGetCurrentProcessorNumber function
-author: windows-driver-content
 description: The StorPortGetCurrentProcessorNumber routine retrieves the current processor number from the kernel.
 old-location: storage\storportgetcurrentprocessornumber.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsPinGetOuterUnknown
 title: KsPinGetOuterUnknown function
-author: windows-driver-content
 description: The KsPinGetOuterUnknown function returns the outer IUnknown of the pin specified by Pin.
 old-location: stream\kspingetouterunknown.htm
 tech.root: stream

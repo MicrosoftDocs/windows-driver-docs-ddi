@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_GETVIDEOPROCESSORCUSTOMRATE
 title: PFND3D11_1DDI_GETVIDEOPROCESSORCUSTOMRATE
-author: windows-driver-content
 description: Queries a custom frame rate that is associated with a rate conversion capability group.
 old-location: display\getvideoprocessorcustomrate.htm
 ms.assetid: 49aec00a-8d63-4ec9-966a-0826354fbbe0

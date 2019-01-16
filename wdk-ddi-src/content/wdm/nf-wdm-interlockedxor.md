@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.InterlockedXor
 title: InterlockedXor function
-author: windows-driver-content
 description: The InterlockedOr routine atomically computes a bitwise exclusive OR operation.
 old-location: kernel\interlockedxor.htm
 tech.root: kernel

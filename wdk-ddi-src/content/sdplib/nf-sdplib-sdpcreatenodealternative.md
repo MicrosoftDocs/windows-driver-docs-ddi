@@ -1,7 +1,6 @@
 ---
 UID: NF:sdplib.SdpCreateNodeAlternative
 title: SdpCreateNodeAlternative function
-author: windows-driver-content
 description: The Bluetooth SdpCreateNodeAlternative function is used to create an empty alternative sequence SDP node.
 old-location: bltooth\sdpcreatenodealternative.htm
 tech.root: bltooth

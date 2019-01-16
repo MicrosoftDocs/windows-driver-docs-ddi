@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetSpecificFilterParameters
 title: IDebugControl::GetSpecificFilterParameters
-author: windows-driver-content
 description: The GetSpecificFilterParameters method returns the parameters for specific event filters.
 old-location: debugger\getspecificfilterparameters.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGKMDT_OPM_PROTECTION_TYPE
 title: "_DXGKMDT_OPM_PROTECTION_TYPE"
-author: windows-driver-content
 description: The DXGKMDT_OPM_PROTECTION_TYPE enumeration indicates the type of protections that a video output supports.
 old-location: display\dxgkmdt_opm_protection_type.htm
 tech.root: display

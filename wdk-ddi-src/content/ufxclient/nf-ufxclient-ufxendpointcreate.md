@@ -1,7 +1,6 @@
 ---
 UID: NF:ufxclient.UfxEndpointCreate
 title: UfxEndpointCreate function
-author: windows-driver-content
 description: Creates an endpoint object.
 old-location: buses\ufxendpointcreate.htm
 tech.root: usbref

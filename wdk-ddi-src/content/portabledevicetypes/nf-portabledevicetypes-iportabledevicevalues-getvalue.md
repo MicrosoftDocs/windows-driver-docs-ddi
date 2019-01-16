@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetValue
 title: IPortableDeviceValues::GetValue
-author: windows-driver-content
 description: The GetValue interface retrieves a PROPVARIANT value that is specified by a key.
 old-location: wpddk\iportabledevicevalues_getvalue.htm
 tech.root: wpd_dk

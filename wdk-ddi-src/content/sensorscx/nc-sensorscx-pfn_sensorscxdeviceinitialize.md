@@ -1,7 +1,6 @@
 ---
 UID: NC:sensorscx.PFN_SENSORSCXDEVICEINITIALIZE
 title: *PFN_SENSORSCXDEVICEINITIALIZE
-author: windows-driver-content
 description: Initializes the sensor in the class extension.
 ms.assetid: cc62e248-377f-4018-89c5-618264a98a4e
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_GetPortAttributesByWWN
 title: HBA_GetPortAttributesByWWN function
-author: windows-driver-content
 description: The HBA_GetPortAttributesByWWN routine retrieves the attributes for the port specified by the indicated port name.
 old-location: storage\hba_getportattributesbywwn.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoSetPartitionInformationEx
 title: IoSetPartitionInformationEx function
-author: windows-driver-content
 description: For the disk represented by DeviceObject, the IoSetPartitionInformationEx routine initializes a partition table entry with the information specified in the SET_PARTITION_INFORMATION_EX structure.
 old-location: storage\iosetpartitioninformationex.htm
 tech.root: storage

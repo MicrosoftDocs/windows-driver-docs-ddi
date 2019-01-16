@@ -1,7 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_SET_POLL_FREQUENCY_MSEC
 title: IOCTL_HID_SET_POLL_FREQUENCY_MSEC
-author: windows-driver-content
 description: The IOCTL_HID_SET_POLL_FREQUENCY_MSEC request sets the polling frequency, in milliseconds, for a top-level collection.
 old-location: hid\ioctl_hid_set_poll_frequency_msec.htm
 tech.root: hid

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfchildlist.WdfChildListCreate
 title: WdfChildListCreate function
-author: windows-driver-content
 description: The WdfChildListCreate method creates a child list for a specified parent device.
 old-location: wdf\wdfchildlistcreate.htm
 tech.root: wdf

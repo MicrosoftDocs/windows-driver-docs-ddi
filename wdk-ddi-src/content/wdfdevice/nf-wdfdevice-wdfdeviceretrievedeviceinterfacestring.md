@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceRetrieveDeviceInterfaceString
 title: WdfDeviceRetrieveDeviceInterfaceString function
-author: windows-driver-content
 description: The WdfDeviceRetrieveDeviceInterfaceString method retrieves the symbolic link name that the operating system assigned to a device interface that the driver registered for a specified device.
 old-location: wdf\wdfdeviceretrievedeviceinterfacestring.htm
 tech.root: wdf

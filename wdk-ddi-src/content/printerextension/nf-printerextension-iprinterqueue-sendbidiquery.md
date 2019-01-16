@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterQueue.SendBidiQuery
 title: IPrinterQueue::SendBidiQuery
-author: windows-driver-content
 description: Performs an asynchronous refresh operation with the specified query, and invokes the IPrinterQueueEvent::OnBidiResponseReceived method.
 old-location: print\iprinterqueue_sendbidiquery.htm
 tech.root: print

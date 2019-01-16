@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.OutputCharStr
 title: IPrintOemUni::OutputCharStr
-author: windows-driver-content
 description: The IPrintOemUni::OutputCharStr method enables a rendering plug-in to control the printing of font glyphs.
 old-location: print\iprintoemuni_outputcharstr.htm
 tech.root: print

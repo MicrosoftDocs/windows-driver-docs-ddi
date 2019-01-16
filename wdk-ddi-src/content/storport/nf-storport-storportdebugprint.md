@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortDebugPrint
 title: StorPortDebugPrint function
-author: windows-driver-content
 description: The StorPortDebugPrint routine prints a debug string to the kernel debugger, if the debugger is attached.
 old-location: storage\storportdebugprint.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IXpsDocumentConsumer.SendXpsUnknown
 title: IXpsDocumentConsumer::SendXpsUnknown
-author: windows-driver-content
 description: The SendXpsUnknown method sends an XPS document part that cannot be identified to the filter pipeline.
 old-location: print\ixpsdocumentconsumer_sendxpsunknown.htm
 tech.root: print

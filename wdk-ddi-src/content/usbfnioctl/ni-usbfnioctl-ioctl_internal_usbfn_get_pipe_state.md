@@ -1,7 +1,6 @@
 ---
 UID: NI:usbfnioctl.IOCTL_INTERNAL_USBFN_GET_PIPE_STATE
 title: IOCTL_INTERNAL_USBFN_GET_PIPE_STATE
-author: windows-driver-content
 description: The class driver sends this request to get the stall state of the specified pipe.
 old-location: buses\ioctl_internal_usbfn_get_pipe_state.htm
 tech.root: usbref

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCchCopyNExW
 title: RtlStringCchCopyNExW function
-author: windows-driver-content
 description: The RtlStringCchCopyNExW and RtlStringCchCopyNExA functions copy a character-counted string to a buffer while limiting the size of the copied string.
 old-location: kernel\rtlstringcchcopynex.htm
 tech.root: kernel

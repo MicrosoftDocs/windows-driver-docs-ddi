@@ -1,7 +1,6 @@
 ---
 UID: NC:fltkernel.PFLT_CONTEXT_ALLOCATE_CALLBACK
 title: PFLT_CONTEXT_ALLOCATE_CALLBACK
-author: windows-driver-content
 description: A minifilter driver can register a routine of type PFLT_CONTEXT_ALLOCATE_CALLBACK as the minifilter driver's ContextAllocateCallback routine.
 old-location: ifsk\pflt_context_allocate_callback.htm
 tech.root: ifsk

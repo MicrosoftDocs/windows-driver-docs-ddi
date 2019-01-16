@@ -1,7 +1,6 @@
 ---
 UID: NI:bthioctl.IOCTL_BTH_GET_RADIO_INFO
 title: IOCTL_BTH_GET_RADIO_INFO
-author: windows-driver-content
 description: The IOCTL_BTH_GET_RADIO_INFO request obtains information about the specified remote radio.
 old-location: bltooth\ioctl_bth_get_radio_info.htm
 tech.root: bltooth

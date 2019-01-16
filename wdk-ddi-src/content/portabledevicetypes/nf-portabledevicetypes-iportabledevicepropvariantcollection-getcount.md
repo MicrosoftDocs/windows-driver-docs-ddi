@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDevicePropVariantCollection.GetCount
 title: IPortableDevicePropVariantCollection::GetCount
-author: windows-driver-content
 description: Retrieves the number of items in this collection.
 old-location: wpddk\iportabledevicepropvariantcollection_getcount.htm
 tech.root: wpd_dk

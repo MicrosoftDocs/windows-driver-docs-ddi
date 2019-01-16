@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._FILE_TIMESTAMPS
 title: "_FILE_TIMESTAMPS"
-author: windows-driver-content
 description: The FILE_TIMESTAMPS structure specifies the last recorded instance of specific actions on a file.
 old-location: ifsk\file_timestamps.htm
 tech.root: ifsk

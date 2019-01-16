@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient4.GetProcessOptions
 title: IDebugClient4::GetProcessOptions
-author: windows-driver-content
 description: The GetProcessOptions method retrieves the process options affecting the current process.
 old-location: debugger\getprocessoptions.htm
 tech.root: debugger

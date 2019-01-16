@@ -1,7 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_SET_PDR_COMMAND
 title: _UCSI_SET_PDR_COMMAND
-author: windows-driver-content
 description: Used in the SET_PDR command. See Table 4-22.
 ms.assetid: 795c8e74-6b3e-4027-89aa-06070d4119a2
 tech.root: usbref

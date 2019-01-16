@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.KeQueryGroupAffinity
 title: KeQueryGroupAffinity function
-author: windows-driver-content
 description: The KeQueryGroupAffinity routine returns an affinity mask that identifies the active logical processors in a specified group in a multiprocessor system.
 old-location: kernel\kequerygroupaffinity.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortResume
 title: StorPortResume function
-author: windows-driver-content
 description: The StorPortResume routine resumes a paused adapter.
 old-location: storage\storportresume.htm
 tech.root: storage

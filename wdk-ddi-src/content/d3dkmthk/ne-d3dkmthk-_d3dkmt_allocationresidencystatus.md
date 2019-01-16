@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_ALLOCATIONRESIDENCYSTATUS
 title: _D3DKMT_ALLOCATIONRESIDENCYSTATUS
-author: windows-driver-content
 description: The allocation residency status.
 ms.assetid: d4174517-650d-49f6-95f3-0959640ee88b
 ms.date: 10/19/2018

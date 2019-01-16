@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfio.WdfIoQueueCreate
 title: WdfIoQueueCreate function
-author: windows-driver-content
 description: The WdfIoQueueCreate method creates and configures an I/O queue for a specified device.
 old-location: wdf\wdfioqueuecreate.htm
 tech.root: wdf

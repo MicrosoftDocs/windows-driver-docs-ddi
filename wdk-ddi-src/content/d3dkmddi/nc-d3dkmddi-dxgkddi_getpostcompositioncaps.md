@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_GETPOSTCOMPOSITIONCAPS
 title: DXGKDDI_GETPOSTCOMPOSITIONCAPS
-author: windows-driver-content
 description: Called to retrieve post composition capabilities. Support for this DDI is required for any WDDM 2.2 driver that wants to support post composition scaling.
 old-location: display\dxgkddi_getpostcompositioncaps.htm
 ms.assetid: B79959EC-A064-4B35-98EF-5B032AF5D4B4

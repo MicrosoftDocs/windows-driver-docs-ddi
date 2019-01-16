@@ -1,7 +1,6 @@
 ---
 UID: NF:iddcx.IddCxDeviceInitialize
 title: IddCxDeviceInitialize function
-author: windows-driver-content
 description: Initializes a WDF device.
 old-location: display\iddcxdeviceinitialize.htm
 tech.root: display

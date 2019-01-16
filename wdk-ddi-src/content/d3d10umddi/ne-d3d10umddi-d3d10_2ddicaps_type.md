@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D10_2DDICAPS_TYPE
 title: D3D10_2DDICAPS_TYPE
-author: windows-driver-content
 description: The D3D10_2DDICAPS_TYPE enumeration type contains values that identify the type of capability information that is retrieved from a call to the driver's GetCaps(D3D10_2) function.
 old-location: display\d3d10_2ddicaps_type.htm
 ms.assetid: 2ca906d4-6d09-4624-a985-a47794acc959

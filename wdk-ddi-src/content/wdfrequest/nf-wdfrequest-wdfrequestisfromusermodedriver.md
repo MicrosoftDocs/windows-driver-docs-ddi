@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestIsFromUserModeDriver
 title: WdfRequestIsFromUserModeDriver function
-author: windows-driver-content
 description: The WdfRequestIsFromUserModeDriver method indicates whether an I/O request came from a user-mode driver or an application.
 old-location: wdf\wdfrequestisfromusermodedriver.htm
 tech.root: wdf

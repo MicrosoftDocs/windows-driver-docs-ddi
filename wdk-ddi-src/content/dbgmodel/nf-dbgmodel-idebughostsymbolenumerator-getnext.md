@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostSymbolEnumerator.GetNext
 title: IDebugHostSymbolEnumerator::GetNext
-author: windows-driver-content
 description: Moves the iterator forward and fetches the next symbol in the set.
 ms.assetid: 906a53c9-af84-46c6-9b39-f55b85786641
 ms.date: 12/21/2018

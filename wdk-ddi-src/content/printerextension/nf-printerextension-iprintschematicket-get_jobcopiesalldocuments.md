@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaTicket.get_JobCopiesAllDocuments
 title: IPrintSchemaTicket::get_JobCopiesAllDocuments
-author: windows-driver-content
 description: Gets the copy count.
 old-location: print\iprintschematicket_jobcopiesalldocuments.htm
 tech.root: print

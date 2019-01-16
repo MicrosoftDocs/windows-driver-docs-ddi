@@ -1,7 +1,6 @@
 ---
 UID: NC:netpacketqueue.EVT_PACKET_QUEUE_START
 title: EVT_PACKET_QUEUE_START
-author: windows-driver-content
 description: The EvtPacketQueueStart callback function is implemented by the client driver to start the data path for a packet queue.
 tech.root: netvista
 ms.assetid: 0B5CB7F0-C840-4138-8B22-4FE35120C7A5

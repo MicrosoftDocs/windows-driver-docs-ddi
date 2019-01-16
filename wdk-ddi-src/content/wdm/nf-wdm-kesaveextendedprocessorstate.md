@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeSaveExtendedProcessorState
 title: KeSaveExtendedProcessorState function
-author: windows-driver-content
 description: The KeSaveExtendedProcessorState routine saves extended processor state information.
 old-location: kernel\kesaveextendedprocessorstate.htm
 tech.root: kernel

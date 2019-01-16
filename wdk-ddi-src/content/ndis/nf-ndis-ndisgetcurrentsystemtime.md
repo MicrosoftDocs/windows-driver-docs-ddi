@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisGetCurrentSystemTime
 title: NdisGetCurrentSystemTime macro
-author: windows-driver-content
 description: The NdisGetCurrentSystemTime function returns the current system time, suitable for setting timestamps.
 old-location: netvista\ndisgetcurrentsystemtime.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NDK_STATISTICS_INFO
 title: "_NDIS_NDK_STATISTICS_INFO"
-author: windows-driver-content
 description: The NDIS_NDK_STATISTICS_INFO structure contains the NDK statistics.
 old-location: netvista\ndis_ndk_statistics_info.htm
 tech.root: netvista

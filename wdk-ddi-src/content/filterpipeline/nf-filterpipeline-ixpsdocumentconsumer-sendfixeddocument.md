@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IXpsDocumentConsumer.SendFixedDocument
 title: IXpsDocumentConsumer::SendFixedDocument
-author: windows-driver-content
 description: The SendFixedDocument method sends a fixed document object to the pipeline.
 old-location: print\ixpsdocumentconsumer_sendfixeddocument.htm
 tech.root: print

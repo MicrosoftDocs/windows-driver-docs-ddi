@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveCyclicStream.GetPosition
 title: IMiniportWaveCyclicStream::GetPosition
-author: windows-driver-content
 description: The GetPosition method gets the current position of the stream.
 old-location: audio\iminiportwavecyclicstream_getposition.htm
 tech.root: audio

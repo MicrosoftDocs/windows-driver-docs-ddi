@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.SetKernelConnectionOptionsWide
 title: IDebugClient5::SetKernelConnectionOptionsWide
-author: windows-driver-content
 description: The SetKernelConnectionOptionsWide method updates some of the connection options for a live kernel target.
 old-location: debugger\setkernelconnectionoptionswide.htm
 tech.root: debugger

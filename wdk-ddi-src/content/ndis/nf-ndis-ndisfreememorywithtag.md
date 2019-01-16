@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeMemoryWithTag
 title: NdisFreeMemoryWithTag function
-author: windows-driver-content
 description: The NdisFreeMemoryWithTag function is deprecated for all NDIS versions. Use NdisAllocateMemoryWithTagPriority instead.
 old-location: netvista\ndisfreememorywithtag.htm
 tech.root: netvista

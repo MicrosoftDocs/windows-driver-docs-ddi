@@ -1,7 +1,6 @@
 ---
 UID: NF:namcache.RxNameCacheCreateEntry
 title: RxNameCacheCreateEntry function
-author: windows-driver-content
 description: RxNameCacheCreateEntry allocates and initializes a NAME_CACHE structure with the given name string.
 old-location: ifsk\rxnamecachecreateentry.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NS:pointofservicecommontypes._LineDisplayCursorCoordinates
 title: "_LineDisplayCursorCoordinates"
-author: windows-driver-content
 description: This structure is not implemented.
 old-location: pos\linedisplaycursorcoordinates.htm
 tech.root: pos

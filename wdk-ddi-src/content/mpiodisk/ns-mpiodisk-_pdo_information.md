@@ -1,7 +1,6 @@
 ---
 UID: NS:mpiodisk._PDO_INFORMATION
 title: "_PDO_INFORMATION"
-author: windows-driver-content
 description: The PDO_INFORMATION structure represents a device-path pairing, which is an instance of a LUN through a particular path.
 old-location: storage\pdo_information.htm
 tech.root: storage

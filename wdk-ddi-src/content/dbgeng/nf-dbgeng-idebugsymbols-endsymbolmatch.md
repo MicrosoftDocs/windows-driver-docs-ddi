@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.EndSymbolMatch
 title: IDebugSymbols::EndSymbolMatch
-author: windows-driver-content
 description: The EndSymbolMatch method releases the resources used by a symbol search.
 old-location: debugger\endsymbolmatch.htm
 tech.root: debugger

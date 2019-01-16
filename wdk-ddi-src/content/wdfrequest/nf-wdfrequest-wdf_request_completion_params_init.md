@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WDF_REQUEST_COMPLETION_PARAMS_INIT
 title: WDF_REQUEST_COMPLETION_PARAMS_INIT function
-author: windows-driver-content
 description: The WDF_REQUEST_COMPLETION_PARAMS_INIT function initializes a WDF_REQUEST_COMPLETION_PARAMS structure.
 old-location: wdf\wdf_request_completion_params_init.htm
 tech.root: wdf

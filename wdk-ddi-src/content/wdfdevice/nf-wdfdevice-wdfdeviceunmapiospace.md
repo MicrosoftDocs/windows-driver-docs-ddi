@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceUnmapIoSpace
 title: WdfDeviceUnmapIoSpace function
-author: windows-driver-content
 description: The WdfDeviceUnmapIoSpace function unmaps a specified range of physical addresses previously mapped by the WdfDeviceMapIoSpace function.
 old-location: wdf\wdfdeviceunmapiospace.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NC:fltkernel.PFLT_TRANSACTION_NOTIFICATION_CALLBACK
 title: PFLT_TRANSACTION_NOTIFICATION_CALLBACK
-author: windows-driver-content
 description: A minifilter driver can register a routine of type PFLT_TRANSACTION_NOTIFICATION_CALLBACK as its TransactionNotificationCallback routine.
 old-location: ifsk\pflt_transaction_notification_callback.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NN:filterpipeline.IFixedPage
 title: IFixedPage
-author: windows-driver-content
 description: A filter uses the IFixedPage interface to work with fixed pages in an XPS document.
 old-location: print\ifixedpage.htm
 tech.root: print

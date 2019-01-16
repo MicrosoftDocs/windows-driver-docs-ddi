@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeQueryTickCount
 title: KeQueryTickCount macro
-author: windows-driver-content
 description: The KeQueryTickCount routine maintains a count of the interval timer interrupts that have occurred since the system was booted.
 old-location: kernel\kequerytickcount.htm
 tech.root: kernel

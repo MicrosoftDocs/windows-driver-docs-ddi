@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KzLowerIrql
 title: KzLowerIrql function
-author: windows-driver-content
 description: Restores the IRQL on the current processor to its original value. 
 ms.assetid: 516b6d64-447e-427e-a544-88b9dc8bea66
 ms.date: 09/30/2018

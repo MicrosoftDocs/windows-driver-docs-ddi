@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlIsFatDbcsLegal
 title: FsRtlIsFatDbcsLegal function
-author: windows-driver-content
 description: The FsRtlIsFatDbcsLegal routine determines whether the specified ANSI or double-byte character set (DBCS) string is a legal FAT file name.
 old-location: ifsk\fsrtlisfatdbcslegal.htm
 tech.root: ifsk

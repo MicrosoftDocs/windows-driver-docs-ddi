@@ -1,7 +1,6 @@
 ---
 UID: NF:miniport.WRITE_REGISTER_BUFFER_ULONG64
 title: WRITE_REGISTER_BUFFER_ULONG64 function
-author: windows-driver-content
 description: The WRITE_REGISTER_BUFFER_ULONG64 function writes a number of ULONG64 values from a buffer to the specified register.
 old-location: wdf\write_register_buffer_ulong64.htm
 tech.root: wdf

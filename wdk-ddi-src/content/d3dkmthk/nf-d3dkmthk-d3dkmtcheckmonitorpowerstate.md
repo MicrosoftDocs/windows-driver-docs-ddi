@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCheckMonitorPowerState
 title: D3DKMTCheckMonitorPowerState function
-author: windows-driver-content
 description: The D3DKMTCheckMonitorPowerState function verifies the power state of a monitor.
 old-location: display\d3dkmtcheckmonitorpowerstate.htm
 ms.assetid: 8f218b63-304e-4f25-88d8-ea1326c613ee

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._POWER_THROTTLING_THREAD_STATE
 title: "_POWER_THROTTLING_THREAD_STATE"
-author: windows-driver-content
 description: Stores the throttling policies and how to apply them to a target thread when that thread is subject to power management.
 old-location: kernel\power_throttling_thread_state.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.ZwSetEaFile
 title: ZwSetEaFile function
-author: windows-driver-content
 description: The ZwSetEaFile routine sets extended-attribute (EA) values for a file.
 old-location: kernel\zwseteafile.htm
 tech.root: kernel

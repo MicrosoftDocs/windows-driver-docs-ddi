@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFIoTarget
 title: IWDFIoTarget
-author: windows-driver-content
 description: The IWDFIoTarget interface exposes the I/O target object that typically represents a lower driver in the stack.
 old-location: wdf\iwdfiotarget.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOStressAction2.Pause
 title: IWDTFSimpleIOStressAction2::Pause
-author: windows-driver-content
 description: Pauses the I/O.
 old-location: dtf\iwdtfsimpleiostressaction2_pause.htm
 tech.root: dtf

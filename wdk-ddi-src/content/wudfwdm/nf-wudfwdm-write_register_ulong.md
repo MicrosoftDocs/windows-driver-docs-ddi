@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfwdm.WRITE_REGISTER_ULONG
 title: WRITE_REGISTER_ULONG function
-author: windows-driver-content
 description: The WRITE_REGISTER_ULONG routine writes a ULONG value to the specified address.
 old-location: kernel\write_register_ulong.htm
 tech.root: kernel

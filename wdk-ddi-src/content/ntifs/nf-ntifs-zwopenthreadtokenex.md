@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.ZwOpenThreadTokenEx
 title: ZwOpenThreadTokenEx function
-author: windows-driver-content
 description: The ZwOpenThreadTokenEx routine opens the access token associated with a thread.
 old-location: kernel\zwopenthreadtokenex.htm
 tech.root: kernel

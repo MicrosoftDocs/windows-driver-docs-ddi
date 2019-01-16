@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetPipeWdmGetPipeHandle
 title: WdfUsbTargetPipeWdmGetPipeHandle function
-author: windows-driver-content
 description: The WdfUsbTargetPipeWdmGetPipeHandle method returns the USBD_PIPE_HANDLE-typed handle that is associated with a specified framework pipe object.
 old-location: wdf\wdfusbtargetpipewdmgetpipehandle.htm
 tech.root: wdf

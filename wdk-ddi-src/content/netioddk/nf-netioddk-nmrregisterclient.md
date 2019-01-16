@@ -1,7 +1,6 @@
 ---
 UID: NF:netioddk.NmrRegisterClient
 title: NmrRegisterClient function
-author: windows-driver-content
 description: The NmrRegisterClient function registers a client module with the NMR.
 old-location: netvista\nmrregisterclient.htm
 tech.root: netvista

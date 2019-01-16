@@ -1,7 +1,6 @@
 ---
 UID: NC:iddcx.EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN
 title: EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN
-author: windows-driver-content
 description: EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN is called by the OS to inform the driver of a mode change for monitors on the adapter.
 old-location: display\evt_idd_cx_monitor_assign_swapchain.htm
 tech.root: display

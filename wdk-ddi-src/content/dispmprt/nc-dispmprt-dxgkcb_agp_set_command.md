@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_AGP_SET_COMMAND
 title: DXGKCB_AGP_SET_COMMAND
-author: windows-driver-content
 description: The AgpSetCommand function sets the AGP rate and specifies whether side band addressing and fast write transactions are enabled.
 old-location: display\agpsetcommand.htm
 tech.root: display

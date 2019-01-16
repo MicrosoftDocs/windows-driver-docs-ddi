@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExInitializeWorkItem
 title: ExInitializeWorkItem function
-author: windows-driver-content
 description: ExInitializeWorkItem initializes a work-queue item with a caller-supplied context and callback routine to be queued for execution when a system worker thread is given control.
 old-location: ifsk\exinitializeworkitem.htm
 tech.root: ifsk

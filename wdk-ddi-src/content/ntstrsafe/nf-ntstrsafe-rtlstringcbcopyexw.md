@@ -1,7 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCbCopyExW
 title: RtlStringCbCopyExW function
-author: windows-driver-content
 description: The RtlStringCbCopyExW and RtlStringCbCopyExA functions copy a byte-counted string into a buffer.
 old-location: kernel\rtlstringcbcopyex.htm
 tech.root: kernel

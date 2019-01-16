@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PM_PARAMETERS
 title: "_NDIS_PM_PARAMETERS"
-author: windows-driver-content
 description: The NDIS_PM_PARAMETERS structure specifies the current or new power management hardware capabilities that are enabled for a network adapter.
 old-location: netvista\ndis_pm_parameters.htm
 tech.root: netvista

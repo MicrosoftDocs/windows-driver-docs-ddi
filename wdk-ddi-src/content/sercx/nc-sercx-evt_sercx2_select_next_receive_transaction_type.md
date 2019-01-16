@@ -1,7 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX2_SELECT_NEXT_RECEIVE_TRANSACTION_TYPE
 title: EVT_SERCX2_SELECT_NEXT_RECEIVE_TRANSACTION_TYPE
-author: windows-driver-content
 description: The EvtSerCx2SelectNextReceiveTransactionType event callback function is called by version 2 of the serial framework extension (SerCx2) to determine which data-transfer mechanism to use for the next read operation.
 old-location: serports\evtsercx2selectnextreceivetransactiontype.htm
 tech.root: serports

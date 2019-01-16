@@ -1,7 +1,6 @@
 ---
 UID: NF:minitape.TapeClassZeroMemory
 title: TapeClassZeroMemory function
-author: windows-driver-content
 description: The TapeClassZeroMemory routine fills a buffer with zeros.
 old-location: storage\tapeclasszeromemory.htm
 tech.root: storage

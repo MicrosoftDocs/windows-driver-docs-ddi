@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SeSetSecurityDescriptorInfoEx
 title: SeSetSecurityDescriptorInfoEx function
-author: windows-driver-content
 description: The SeSetSecurityDescriptorInfoEx routine modifies an object's security descriptor and specifies whether the object supports automatic inheritance of access control entries (ACE).
 old-location: ifsk\sesetsecuritydescriptorinfoex.htm
 tech.root: ifsk

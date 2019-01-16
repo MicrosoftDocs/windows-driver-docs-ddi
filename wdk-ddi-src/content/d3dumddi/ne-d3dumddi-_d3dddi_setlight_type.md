@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dumddi._D3DDDI_SETLIGHT_TYPE
 title: _D3DDDI_SETLIGHT_TYPE
-author: windows-driver-content
 description: The set light type.
 ms.assetid: 45ad2d59-7246-49d0-b76a-b4ad792d1bd0
 ms.date: 10/19/2018

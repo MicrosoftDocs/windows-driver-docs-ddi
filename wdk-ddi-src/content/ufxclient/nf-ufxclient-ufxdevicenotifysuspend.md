@@ -1,7 +1,6 @@
 ---
 UID: NF:ufxclient.UfxDeviceNotifySuspend
 title: UfxDeviceNotifySuspend function
-author: windows-driver-content
 description: Notifies UFX about a USB bus suspend event.
 old-location: buses\ufxdevicenotifysuspend.htm
 tech.root: usbref

@@ -1,7 +1,6 @@
 ---
 UID: NI:pcivirt.IOCTL_SRIOV_PROXY_QUERY_LUID
 title: IOCTL_SRIOV_PROXY_QUERY_LUID
-author: windows-driver-content
 description: This request supplies the local unique identifier of the SR_IOV device implementing the interface.
 old-location: pci\ioctl-sriov-proxy-query-luid.htm
 tech.root: PCI

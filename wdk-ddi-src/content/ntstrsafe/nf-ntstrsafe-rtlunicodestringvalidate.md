@@ -1,7 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlUnicodeStringValidate
 title: RtlUnicodeStringValidate function
-author: windows-driver-content
 description: The RtlUnicodeStringValidate function validates the contents of a UNICODE_STRING structure.
 old-location: kernel\rtlunicodestringvalidate.htm
 tech.root: kernel

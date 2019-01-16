@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMCmCloseCallComplete
 title: NdisMCmCloseCallComplete macro
-author: windows-driver-content
 description: NdisMCmCloseCallComplete returns the final status of a client's request, for which the MCM driver previously returned NDIS_STATUS_PENDING, to tear down a call.
 old-location: netvista\ndismcmclosecallcomplete.htm
 tech.root: netvista

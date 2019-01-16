@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_PRESENT
 title: PFND3DDDI_PRESENT
-author: windows-driver-content
 description: The Present function notifies the user-mode display driver that an application finished rendering and requests that the driver display the source surface by either copying or flipping or that the driver perform a color-fill operation.
 old-location: display\present.htm
 tech.root: display

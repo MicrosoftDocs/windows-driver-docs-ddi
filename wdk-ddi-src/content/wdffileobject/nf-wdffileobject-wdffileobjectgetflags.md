@@ -1,7 +1,6 @@
 ---
 UID: NF:wdffileobject.WdfFileObjectGetFlags
 title: WdfFileObjectGetFlags function
-author: windows-driver-content
 description: The WdfFileObjectGetFlags method returns the flags that a specified framework file object contains.
 old-location: wdf\wdffileobjectgetflags.htm
 tech.root: wdf

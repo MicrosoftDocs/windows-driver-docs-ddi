@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTWaitForVerticalBlankEvent
 title: D3DKMTWaitForVerticalBlankEvent function
-author: windows-driver-content
 description: The D3DKMTWaitForVerticalBlankEvent function waits for the vertical blanking interval to occur and then returns.
 old-location: display\d3dkmtwaitforverticalblankevent.htm
 ms.assetid: aa40633e-1881-4bf4-a57b-f7ee3ce23438

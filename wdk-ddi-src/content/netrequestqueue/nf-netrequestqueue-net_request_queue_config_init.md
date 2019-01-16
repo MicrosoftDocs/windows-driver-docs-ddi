@@ -1,7 +1,6 @@
 ---
 UID: NF:netrequestqueue.NET_REQUEST_QUEUE_CONFIG_INIT
 title: NET_REQUEST_QUEUE_CONFIG_INIT function
-author: windows-driver-content
 description: Initializes a caller-allocated NET_REQUEST_QUEUE_CONFIG structure.
 tech.root: netvista
 ms.assetid: 4eaf1360-d120-4585-8792-8a2c632e744f

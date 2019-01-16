@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetEventFilterTextWide
 title: IDebugControl4::GetEventFilterTextWide
-author: windows-driver-content
 description: The GetEventFilterTextWide method returns a short description of an event for a specific filter.
 old-location: debugger\geteventfiltertextwide.htm
 tech.root: debugger

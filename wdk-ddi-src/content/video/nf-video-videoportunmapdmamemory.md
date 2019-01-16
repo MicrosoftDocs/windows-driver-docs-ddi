@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortUnmapDmaMemory
 title: VideoPortUnmapDmaMemory function
-author: windows-driver-content
 description: The VideoPortUnmapDmaMemory function is obsolete in Windows 2000 and later.VideoPortUnmapDmaMemory unmaps a range of memory previously mapped by VideoPortMapDmaMemory.
 old-location: display\videoportunmapdmamemory.htm
 tech.root: display

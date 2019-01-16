@@ -1,7 +1,6 @@
 ---
 UID: NF:strmini.StreamClassAbortOutstandingRequests
 title: StreamClassAbortOutstandingRequests function
-author: windows-driver-content
 description: The StreamClassAbortOutstandingRequests routine aborts all outstanding requests, either to a particular stream, or to the entire driver.
 old-location: stream\streamclassabortoutstandingrequests.htm
 tech.root: stream

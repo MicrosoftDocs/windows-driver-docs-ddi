@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsAdvanceLogBase
 title: ClfsAdvanceLogBase function
-author: windows-driver-content
 description: The ClfsAdvanceLogBase routine sets the base LSN of a CLFS stream.
 old-location: kernel\clfsadvancelogbase.htm
 tech.root: kernel

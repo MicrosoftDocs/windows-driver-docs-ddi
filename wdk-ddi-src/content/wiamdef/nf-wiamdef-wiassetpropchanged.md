@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasSetPropChanged
 title: wiasSetPropChanged function
-author: windows-driver-content
 description: The wiasSetPropChanged function modifies a property context to indicate that a property is being changed.
 old-location: image\wiassetpropchanged.htm
 tech.root: image

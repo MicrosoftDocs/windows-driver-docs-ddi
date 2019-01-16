@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltLockUserBuffer
 title: FltLockUserBuffer function
-author: windows-driver-content
 description: The FltLockUserBuffer routine locks the user buffer for a given I/O operation.
 old-location: ifsk\fltlockuserbuffer.htm
 tech.root: ifsk

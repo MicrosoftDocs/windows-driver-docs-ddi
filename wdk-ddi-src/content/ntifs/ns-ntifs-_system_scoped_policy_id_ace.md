@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._SYSTEM_SCOPED_POLICY_ID_ACE
 title: "_SYSTEM_SCOPED_POLICY_ID_ACE"
-author: windows-driver-content
 description: The SYSTEM_SCOPED_POLICY_ID_ACE structure defines an access-control entry (ACE) for the system access-control list (ACL) specifying rights for a scoped policy identifer.
 old-location: ifsk\system_scoped_policy_id_ace.htm
 tech.root: ifsk

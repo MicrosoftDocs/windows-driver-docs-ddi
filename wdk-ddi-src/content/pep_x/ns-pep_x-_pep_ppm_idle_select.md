@@ -1,7 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_IDLE_SELECT
 title: "_PEP_PPM_IDLE_SELECT"
-author: windows-driver-content
 description: The PEP_PPM_IDLE_SELECT structure describes the most energy-efficient idle state that the processor can enter and still satisfy the constraints specified by the operating system.
 old-location: kernel\pep_ppm_idle_select.htm
 tech.root: kernel

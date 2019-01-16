@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwReadOnlyEnlistment
 title: ZwReadOnlyEnlistment function
-author: windows-driver-content
 description: The ZwReadOnlyEnlistment routine sets a specified enlistment to be read-only.
 old-location: kernel\zwreadonlyenlistment.htm
 tech.root: kernel

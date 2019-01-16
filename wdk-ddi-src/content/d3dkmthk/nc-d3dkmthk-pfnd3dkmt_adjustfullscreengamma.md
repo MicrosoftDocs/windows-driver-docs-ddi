@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_ADJUSTFULLSCREENGAMMA
 title: PFND3DKMT_ADJUSTFULLSCREENGAMMA
-author: windows-driver-content
 description: The PFND3DKMT_ADJUSTFULLSCREENGAMMA callback function adjusts to full screen gamma.
 ms.assetid: 0f0190e4-6c4a-4be7-8edb-e56faa25af69
 ms.date: 10/19/2018

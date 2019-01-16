@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortGetScatterGatherList
 title: StorPortGetScatterGatherList function
-author: windows-driver-content
 description: The StorPortGetScatterGatherList routine retrieves the associated scatter/gather list for the specified SCSI request block (SRB).
 old-location: storage\storportgetscattergatherlist.htm
 tech.root: storage

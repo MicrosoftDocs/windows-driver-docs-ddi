@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortInitializeDpc
 title: StorPortInitializeDpc function
-author: windows-driver-content
 description: The StorPortInitializeDpc routine initializes a StorPort DPC.
 old-location: storage\storportinitializedpc.htm
 tech.root: storage

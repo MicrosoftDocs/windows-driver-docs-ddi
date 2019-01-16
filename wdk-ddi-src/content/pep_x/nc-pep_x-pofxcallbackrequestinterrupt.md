@@ -1,7 +1,6 @@
 ---
 UID: NC:pep_x.POFXCALLBACKREQUESTINTERRUPT
 title: POFXCALLBACKREQUESTINTERRUPT
-author: windows-driver-content
 description: The RequestInterrupt routine requests that the operating system replay an edge-triggered interrupt that might have been lost while the hardware platform was in a low-power state.
 old-location: kernel\requestinterrupt.htm
 tech.root: kernel

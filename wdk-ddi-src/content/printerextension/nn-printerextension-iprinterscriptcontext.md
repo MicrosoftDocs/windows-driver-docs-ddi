@@ -1,7 +1,6 @@
 ---
 UID: NN:printerextension.IPrinterScriptContext
 title: IPrinterScriptContext
-author: windows-driver-content
 description: Passed to all third-party constraints JavaScript functions, and provides access to relevant objects.
 old-location: print\iprinterscriptcontext.htm
 tech.root: print

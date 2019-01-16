@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.CreateSyntheticObject
 title: IDataModelManager2::CreateSyntheticObject
-author: windows-driver-content
 description: The CreateSyntheticObject method creates an empty data model object -- a dictionary of key/value/metadata tuples and concepts.
 ms.assetid: 039a1b6e-6b9d-47fd-9c18-c65640daca3a
 ms.date: 09/11/2018

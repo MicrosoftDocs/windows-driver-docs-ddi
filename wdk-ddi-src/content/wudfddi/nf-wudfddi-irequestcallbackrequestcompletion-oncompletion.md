@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IRequestCallbackRequestCompletion.OnCompletion
 title: IRequestCallbackRequestCompletion::OnCompletion
-author: windows-driver-content
 description: The OnCompletion method completes the specified request.
 old-location: wdf\irequestcallbackrequestcompletion_oncompletion.htm
 tech.root: wdf

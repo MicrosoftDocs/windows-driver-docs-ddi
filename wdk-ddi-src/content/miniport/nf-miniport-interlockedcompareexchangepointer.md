@@ -1,7 +1,6 @@
 ---
 UID: NF:miniport.InterlockedCompareExchangePointer
 title: InterlockedCompareExchangePointer function
-author: windows-driver-content
 description: The InterlockedCompareExchangePointer routine performs an atomic operation that compares the input pointer value pointed to by Destination with the pointer value Comparand.
 old-location: kernel\interlockedcompareexchangepointer.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.GetValueNumbers
 title: IWDTFTarget2::GetValueNumbers
-author: windows-driver-content
 description: Returns a collection of number values from the target that are associated with a specified attribute.
 old-location: dtf\iwdtftarget2_getvaluenumbers.htm
 tech.root: dtf

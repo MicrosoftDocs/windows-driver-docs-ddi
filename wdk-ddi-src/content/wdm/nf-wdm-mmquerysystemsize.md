@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.MmQuerySystemSize
 title: MmQuerySystemSize function
-author: windows-driver-content
 description: The MmQuerySystemSize routine returns an estimate of the amount of memory in the system.
 old-location: kernel\mmquerysystemsize.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IAdapterPowerManagement
 title: IAdapterPowerManagement
-author: windows-driver-content
 description: The IAdapterPowerManagement interface is used to manage the power state of an audio adapter.
 old-location: audio\iadapterpowermanagement.htm
 tech.root: audio

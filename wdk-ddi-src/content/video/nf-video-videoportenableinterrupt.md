@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortEnableInterrupt
 title: VideoPortEnableInterrupt function
-author: windows-driver-content
 description: The VideoPortEnableInterrupt function is obsolete and should not be called.The VideoPortEnableInterrupt function reenables interrupts from a video adapter after a call to VideoPortDisableInterrupt.
 old-location: display\videoportenableinterrupt.htm
 tech.root: display

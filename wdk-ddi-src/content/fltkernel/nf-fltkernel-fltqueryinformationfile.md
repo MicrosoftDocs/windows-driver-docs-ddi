@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltQueryInformationFile
 title: FltQueryInformationFile function
-author: windows-driver-content
 description: FltQueryInformationFile retrieves information for a given file.
 old-location: ifsk\fltqueryinformationfile.htm
 tech.root: ifsk

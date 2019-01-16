@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsLsnNull
 title: ClfsLsnNull function
-author: windows-driver-content
 description: The ClfsLsnNull routine determines whether a specified LSN is equal to the smallest possible LSN, CLFS_LSN_NULL.
 old-location: kernel\clfslsnnull.htm
 tech.root: kernel

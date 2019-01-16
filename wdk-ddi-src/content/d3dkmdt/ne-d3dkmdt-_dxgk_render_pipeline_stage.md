@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGK_RENDER_PIPELINE_STAGE
 title: "_DXGK_RENDER_PIPELINE_STAGE"
-author: windows-driver-content
 description: The DXGK_RENDER_PIPELINE_STAGE enumeration describes the render pipeline stage during which the GPU error has occurred.
 old-location: display\dxgk_render_pipeline_stage.htm
 tech.root: display

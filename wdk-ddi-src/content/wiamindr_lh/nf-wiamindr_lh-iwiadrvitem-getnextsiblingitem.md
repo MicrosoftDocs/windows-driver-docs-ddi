@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaDrvItem.GetNextSiblingItem
 title: IWiaDrvItem::GetNextSiblingItem
-author: windows-driver-content
 description: The IWiaDrvItem::GetNextSiblingItem method gets the next sibling of the current item in an IWiaDrvItem folder.
 old-location: image\iwiadrvitem_getnextsiblingitem.htm
 tech.root: image

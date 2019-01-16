@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateGenericObject
 title: NdisAllocateGenericObject function
-author: windows-driver-content
 description: Components that do not have an NDIS handle use the NdisAllocateGenericObject function to allocate a generic NDIS object.
 old-location: netvista\ndisallocategenericobject.htm
 tech.root: netvista

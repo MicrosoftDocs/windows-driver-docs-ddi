@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_FILTER_PARTIAL_CHARACTERISTICS
 title: "_NDIS_FILTER_PARTIAL_CHARACTERISTICS"
-author: windows-driver-content
 description: To specify optional entry points for a filter module, a filter driver initializes an NDIS_FILTER_PARTIAL_CHARACTERISTICS structure and passes it to the NdisSetOptionalHandlers function.
 old-location: netvista\ndis_filter_partial_characteristics.htm
 tech.root: netvista

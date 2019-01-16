@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMSetBusData
 title: NdisMSetBusData function
-author: windows-driver-content
 description: NDIS drivers call the NdisMSetBusData function to write to the configuration space of a device.
 old-location: netvista\ndismsetbusdata.htm
 tech.root: netvista

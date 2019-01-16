@@ -1,7 +1,6 @@
 ---
 UID: NS:bthsdpddi._BTHDDI_SDP_NODE_INTERFACE
 title: "_BTHDDI_SDP_NODE_INTERFACE"
-author: windows-driver-content
 description: The BTHDDI_SDP_NODE_INTERFACE structure provides functions for manipulating SDP records, including converting them to and from a tree representation that profile drivers can more easily parse.
 old-location: bltooth\bthddi_sdp_node_interface.htm
 tech.root: bltooth

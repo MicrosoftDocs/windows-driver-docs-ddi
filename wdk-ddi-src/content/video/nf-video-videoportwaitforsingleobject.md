@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortWaitForSingleObject
 title: VideoPortWaitForSingleObject function
-author: windows-driver-content
 description: The VideoPortWaitForSingleObject function puts the current thread into a wait state until the given dispatch object is set to the signaled state, or (optionally) until the wait times out.
 old-location: display\videoportwaitforsingleobject.htm
 tech.root: display

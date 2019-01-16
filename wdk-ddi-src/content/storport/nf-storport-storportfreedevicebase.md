@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortFreeDeviceBase
 title: StorPortFreeDeviceBase function
-author: windows-driver-content
 description: StorPortFreeDeviceBase frees a range of device I/O memory that was mapped by StorPortGetDeviceBase.
 old-location: storage\storportfreedevicebase.htm
 tech.root: storage

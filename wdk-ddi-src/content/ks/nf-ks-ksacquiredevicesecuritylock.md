@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsAcquireDeviceSecurityLock
 title: KsAcquireDeviceSecurityLock function
-author: windows-driver-content
 description: The KsAcquireDeviceSecurityLock function acquires the security lock associated with a device object.
 old-location: stream\ksacquiredevicesecuritylock.htm
 tech.root: stream

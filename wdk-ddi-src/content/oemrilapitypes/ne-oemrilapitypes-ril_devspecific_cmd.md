@@ -1,7 +1,6 @@
 ---
 UID: NE:oemrilapitypes.RIL_DEVSPECIFIC_CMD
 title: RIL_DEVSPECIFIC_CMD
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_devspecific_cmd.htm
 tech.root: netvista

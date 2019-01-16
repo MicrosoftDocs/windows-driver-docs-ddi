@@ -1,7 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_SendReadCapacity
 title: HBA_SendReadCapacity function
-author: windows-driver-content
 description: The HBA_SendReadCapacity routine sends a SCSI read capacity command to the indicated remote port.
 old-location: storage\hba_sendreadcapacity.htm
 tech.root: storage

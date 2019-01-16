@@ -1,7 +1,6 @@
 ---
 UID: NE:irb.__unnamed_enum_1
 title: ATA_ADDRESS_TRANSLATION
-author: windows-driver-content
 description: The ATA_ADDRESS_TRANSLATION enumeration type indicates the type of address translation used during data transfers.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ata_address_translation.htm
 tech.root: storage

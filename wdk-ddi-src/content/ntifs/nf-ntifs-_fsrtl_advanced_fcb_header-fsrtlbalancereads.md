@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlBalanceReads
 title: FsRtlBalanceReads function
-author: windows-driver-content
 description: The FsRtlBalanceReads routine signals to a fault-tolerant disk driver that it is now safe to start balancing reads from a mirrored drive.
 old-location: ifsk\fsrtlbalancereads.htm
 tech.root: ifsk

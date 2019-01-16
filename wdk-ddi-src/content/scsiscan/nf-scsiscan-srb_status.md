@@ -1,7 +1,6 @@
 ---
 UID: NF:scsiscan.SRB_STATUS
 title: SRB_STATUS macro
-author: windows-driver-content
 description: 
 ms.assetid: ec99b574-4519-44c4-8cef-639d2c0a00c3
 ms.date: 10/19/2018

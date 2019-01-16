@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._RemoveConnectionFromSession_IN
 title: "_RemoveConnectionFromSession_IN"
-author: windows-driver-content
 description: The RemoveConnectionFromSession_IN structure holds the input data for the RemoveConnectionFromSession method, which is used to remove a connection from a session.
 old-location: storage\removeconnectionfromsession_in.htm
 tech.root: storage

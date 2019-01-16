@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetContexts
 title: FltGetContexts function
-author: windows-driver-content
 description: The FltGetContexts routine retrieves a minifilter driver's contexts for the objects related to the current operation.
 old-location: ifsk\fltgetcontexts.htm
 tech.root: ifsk

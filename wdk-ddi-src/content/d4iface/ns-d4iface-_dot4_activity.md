@@ -1,7 +1,6 @@
 ---
 UID: NS:d4iface._DOT4_ACTIVITY
 title: "_DOT4_ACTIVITY"
-author: windows-driver-content
 description: 
 old-location: print\dot4_activity.htm
 tech.root: print

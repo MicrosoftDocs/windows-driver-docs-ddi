@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_LOCK
 title: PFND3DDDI_LOCK
-author: windows-driver-content
 description: The Lock function locks the given resource or a surface within the resource.
 old-location: display\lock.htm
 tech.root: display

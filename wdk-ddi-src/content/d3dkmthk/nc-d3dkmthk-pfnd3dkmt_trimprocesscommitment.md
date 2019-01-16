@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_TRIMPROCESSCOMMITMENT
 title: PFND3DKMT_TRIMPROCESSCOMMITMENT
-author: windows-driver-content
 description: Trim process commitment.
 ms.assetid: f80d916f-aec5-4074-b934-51ec5eced878
 ms.date: 10/19/2018

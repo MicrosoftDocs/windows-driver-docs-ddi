@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_33
 title: KSCOMPLETION_INVOCATION
-author: windows-driver-content
 description: 
 old-location: stream\kscompletion_invocation.htm
 tech.root: stream

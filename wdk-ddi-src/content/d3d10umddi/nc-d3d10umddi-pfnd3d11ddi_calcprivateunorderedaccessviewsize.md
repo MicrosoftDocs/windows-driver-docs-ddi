@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_CALCPRIVATEUNORDEREDACCESSVIEWSIZE
 title: PFND3D11DDI_CALCPRIVATEUNORDEREDACCESSVIEWSIZE
-author: windows-driver-content
 description: The CalcPrivateUnorderedAccessViewSize function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for an unordered access view.
 old-location: display\calcprivateunorderedaccessviewsize.htm
 ms.assetid: 6aca5d33-c8c6-4c6b-a66a-e28a958cbc2e

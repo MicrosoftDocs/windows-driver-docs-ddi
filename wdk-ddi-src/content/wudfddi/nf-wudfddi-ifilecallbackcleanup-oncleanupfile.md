@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IFileCallbackCleanup.OnCleanupFile
 title: IFileCallbackCleanup::OnCleanupFile
-author: windows-driver-content
 description: The OnCleanupFile method cancels all I/O requests that a driver has pending in the framework queue.
 old-location: wdf\ifilecallbackcleanup_oncleanupfile.htm
 tech.root: wdf

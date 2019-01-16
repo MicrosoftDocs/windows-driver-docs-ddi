@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPSHEADER
 title: tagKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPSHEADER
-author: windows-driver-content
 description: This structure contains the header information for ROI capabilities.
 old-location: stream\kscamera_extendedprop_roi_configcapsheader.htm
 tech.root: stream

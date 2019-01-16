@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_DECODEBUFFERINFO
 title: "_DXVADDI_DECODEBUFFERINFO"
-author: windows-driver-content
 description: The DXVADDI_DECODEBUFFERINFO structure describes information about a particular type of compressed buffer that is required for a video decoding scenario.
 old-location: display\dxvaddi_decodebufferinfo.htm
 tech.root: display

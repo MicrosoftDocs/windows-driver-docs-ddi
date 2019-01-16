@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGK_MONITORLINKINFO_CAPABILITIES
 title: "_DXGK_MONITORLINKINFO_CAPABILITIES"
-author: windows-driver-content
 description: Flags which describe the capabilities for driving the monitor.
 old-location: display\dxgk_monitorlinkinfo_capabilities.htm
 tech.root: display

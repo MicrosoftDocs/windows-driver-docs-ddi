@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._SetGroupPresharedKey_IN
 title: "_SetGroupPresharedKey_IN"
-author: windows-driver-content
 description: The SetGroupPresharedKey_IN structure holds the input data for the SetGroupPresharedKey method.
 old-location: storage\setgrouppresharedkey_in.htm
 tech.root: storage

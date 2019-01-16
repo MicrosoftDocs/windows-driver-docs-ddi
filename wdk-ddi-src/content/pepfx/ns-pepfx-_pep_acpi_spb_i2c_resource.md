@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_SPB_I2C_RESOURCE
 title: "_PEP_ACPI_SPB_I2C_RESOURCE"
-author: windows-driver-content
 description: The PEP_ACPI_SPB_I2C_RESOURCE structure describes an ACPI I2C serial bus resource.
 old-location: kernel\pep_acpi_spb_i2c_resource.htm
 tech.root: kernel

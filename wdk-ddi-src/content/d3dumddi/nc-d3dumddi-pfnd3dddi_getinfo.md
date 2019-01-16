@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_GETINFO
 title: PFND3DDDI_GETINFO
-author: windows-driver-content
 description: The GetInfo function retrieves information about the specified display device.
 old-location: display\getinfo.htm
 tech.root: display

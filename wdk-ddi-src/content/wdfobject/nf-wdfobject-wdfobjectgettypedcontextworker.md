@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfobject.WdfObjectGetTypedContextWorker
 title: WdfObjectGetTypedContextWorker function
-author: windows-driver-content
 description: The WdfObjectGetTypedContextWorker method is reserved for internal use only. Use the WdfObjectGetTypedContext macro instead.
 old-location: wdf\wdfobjectgettypedcontextworker.htm
 tech.root: wdf

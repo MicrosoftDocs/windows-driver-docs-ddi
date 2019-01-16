@@ -1,7 +1,6 @@
 ---
 UID: NN:ksproxy.IKsPin
 title: IKsPin
-author: windows-driver-content
 description: The IKsPin interface provides methods that control and retrieve information about a pin.
 old-location: stream\ikspin.htm
 tech.root: stream

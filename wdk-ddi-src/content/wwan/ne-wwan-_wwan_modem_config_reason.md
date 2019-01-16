@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_MODEM_CONFIG_REASON
 title: "_WWAN_MODEM_CONFIG_REASON"
-author: windows-driver-content
 description: The WWAN_MODEM_CONFIG_REASON enumeration lists definitions for reasons why a modem's configuration state change was triggered.
 old-location: netvista\wwan_modem_config_reason.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SET_CONTEXT_STATE
 title: "_WWAN_SET_CONTEXT_STATE"
-author: windows-driver-content
 description: The WWAN_SET_CONTEXT_STATE structure represents the command to set the Packet Data Protocol (PDP) context state of the MB device.
 old-location: netvista\wwan_set_context_state.htm
 tech.root: netvista

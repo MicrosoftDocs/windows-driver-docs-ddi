@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugSystemObjects2
 title: IDebugSystemObjects2
-author: windows-driver-content
 description: IDebugSystemObjects2 interface
 old-location: debugger\idebugsystemobjects2.htm
 tech.root: debugger

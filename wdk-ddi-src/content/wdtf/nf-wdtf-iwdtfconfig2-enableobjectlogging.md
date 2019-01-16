@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFCONFIG2.EnableObjectLogging
 title: IWDTFCONFIG2::EnableObjectLogging
-author: windows-driver-content
 description: Enables object logging for all objects.
 old-location: dtf\iwdtfconfig2_enableobjectlogging.htm
 tech.root: dtf

@@ -1,7 +1,6 @@
 ---
 UID: NS:printoem.__unnamed_struct_1
 title: OEMMEMORYUSAGE
-author: windows-driver-content
 description: The OEMMEMORYUSAGE structure is used as an input parameter to a rendering plug-in's IPrintOemUni::MemoryUsage method.
 old-location: print\oemmemoryusage.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NS:nfccx._NFC_CX_HARDWARE_EVENT
 title: "_NFC_CX_HARDWARE_EVENT"
-author: windows-driver-content
 description: The NFC_CX_HARDWARE_EVENT structure is an input parameter to NfcCxHardwareEvent.
 old-location: nfpdrivers\nfc_cx_hardware_event.htm
 tech.root: nfpdrivers

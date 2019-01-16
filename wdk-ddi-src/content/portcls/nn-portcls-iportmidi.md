@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IPortMidi
 title: IPortMidi
-author: windows-driver-content
 description: The IPortMidi interface is the MIDI port driver's primary interface.
 old-location: audio\iportmidi.htm
 tech.root: audio

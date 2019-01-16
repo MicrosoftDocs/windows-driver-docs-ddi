@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.PoFxStartDevicePowerManagement
 title: PoFxStartDevicePowerManagement function
-author: windows-driver-content
 description: The PoFxStartDevicePowerManagement routine completes the registration of a device with the power management framework (PoFx) and starts device power management.
 old-location: kernel\pofxstartdevicepowermanagement.htm
 tech.root: kernel

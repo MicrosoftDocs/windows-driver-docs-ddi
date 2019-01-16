@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsDefaultAddEventHandler
 title: KsDefaultAddEventHandler function
-author: windows-driver-content
 description: The KsDefaultAddEventHandler function is a default routine to handle event 'add' requests.
 old-location: stream\ksdefaultaddeventhandler.htm
 tech.root: stream

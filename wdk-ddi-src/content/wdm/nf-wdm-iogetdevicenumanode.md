@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoGetDeviceNumaNode
 title: IoGetDeviceNumaNode function
-author: windows-driver-content
 description: The IoGetDeviceNumaNode routine gets the node number of a device.
 old-location: kernel\iogetdevicenumanode.htm
 tech.root: kernel

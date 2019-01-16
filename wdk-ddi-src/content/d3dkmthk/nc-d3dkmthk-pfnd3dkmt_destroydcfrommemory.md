@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_DESTROYDCFROMMEMORY
 title: PFND3DKMT_DESTROYDCFROMMEMORY
-author: windows-driver-content
 description: The PFND3DKMT_DESTROYDCFROMMEMORY callback function destroys a device context from memory.
 ms.assetid: bd569dac-e7ff-4782-833a-227eb7ccdd82
 ms.date: 10/19/2018

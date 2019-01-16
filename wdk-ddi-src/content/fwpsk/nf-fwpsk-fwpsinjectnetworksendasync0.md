@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsInjectNetworkSendAsync0
 title: FwpsInjectNetworkSendAsync0 function
-author: windows-driver-content
 description: The FwpsInjectNetworkSendAsync0 function injects packet data into the send data path.Note  FwpsInjectNetworkSendAsync0 is a specific version of FwpsInjectNetworkSendAsync.
 old-location: netvista\fwpsinjectnetworksendasync0.htm
 tech.root: netvista

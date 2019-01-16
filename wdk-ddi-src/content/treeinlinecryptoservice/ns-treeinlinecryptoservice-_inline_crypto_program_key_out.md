@@ -1,7 +1,6 @@
 ---
 UID: NS:treeinlinecryptoservice._INLINE_CRYPTO_PROGRAM_KEY_OUT
 title: _INLINE_CRYPTO_PROGRAM_KEY_OUT
-author: windows-driver-content
 description: 
 ms.assetid: 81c7cd3a-1e68-4903-9a1f-6b7263e1857f
 ms.date: 10/19/2018

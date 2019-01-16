@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFNumbers2.Add
 title: IWDTFNumbers2::Add
-author: windows-driver-content
 description: Adds a single number to the collection.
 old-location: dtf\iwdtfnumbers2_add.htm
 tech.root: dtf

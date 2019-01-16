@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiprf._MSiSCSI_RequestTimeStatistics
 title: "_MSiSCSI_RequestTimeStatistics"
-author: windows-driver-content
 description: The MSiSCSI_RequestTimeStatistics structure is used by iSCSI initiators to report request time statistics.
 old-location: storage\msiscsi_requesttimestatistics.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeNetBuffer
 title: NdisFreeNetBuffer function
-author: windows-driver-content
 description: Call the NdisFreeNetBuffer function to free a NET_BUFFER structure that was previously allocated from a NET_BUFFER structure pool with the NdisAllocateNetBuffer function.
 old-location: netvista\ndisfreenetbuffer.htm
 tech.root: netvista

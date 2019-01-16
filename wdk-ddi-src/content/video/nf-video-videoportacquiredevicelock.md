@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortAcquireDeviceLock
 title: VideoPortAcquireDeviceLock function
-author: windows-driver-content
 description: The VideoPortAcquireDeviceLock function acquires the device lock maintained by the video port driver.
 old-location: display\videoportacquiredevicelock.htm
 tech.root: display

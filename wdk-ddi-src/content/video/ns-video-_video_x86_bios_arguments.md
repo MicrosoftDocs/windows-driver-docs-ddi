@@ -1,7 +1,6 @@
 ---
 UID: NS:video._VIDEO_X86_BIOS_ARGUMENTS
 title: "_VIDEO_X86_BIOS_ARGUMENTS"
-author: windows-driver-content
 description: The VIDEO_x86_BIOS_ARGUMENTS structure is used to support full-screen MS-DOS application INT10 calls. It contains seven of the high-end x86 microprocessor registers.
 old-location: display\video_x86_bios_arguments.htm
 tech.root: display

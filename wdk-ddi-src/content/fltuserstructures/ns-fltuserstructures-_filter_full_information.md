@@ -1,7 +1,6 @@
 ---
 UID: NS:fltuserstructures._FILTER_FULL_INFORMATION
 title: "_FILTER_FULL_INFORMATION"
-author: windows-driver-content
 description: The FILTER_FULL_INFORMATION structure contains full information for a minifilter driver.
 old-location: ifsk\filter_full_information.htm
 tech.root: ifsk

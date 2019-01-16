@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaParameterDefinition.get_RangeMin
 title: IPrintSchemaParameterDefinition::get_RangeMin
-author: windows-driver-content
 description: The RangeMin property gets the minimum value of the allowed data range.
 old-location: print\_iprintschemaparameterdefinition_rangemin.htm
 tech.root: print

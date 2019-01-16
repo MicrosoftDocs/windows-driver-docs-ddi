@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATERASTERIZERSTATESIZE_0010
 title: PFND3D12DDI_CALCPRIVATERASTERIZERSTATESIZE_0010
-author: windows-driver-content
 description: Calculate the private rasterizer state size.
 ms.assetid: b6ff00b0-7a72-4617-878b-b2c1b775999f
 ms.date: 10/19/2018

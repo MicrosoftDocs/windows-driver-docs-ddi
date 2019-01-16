@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDICB_ALLOCATE_0022
 title: D3D12DDICB_ALLOCATE_0022
-author: windows-driver-content
 description: Specifies information for use in an allocation callback function.
 old-location: display\d3d12ddicb_allocate_0022.htm
 ms.assetid: C39262BA-D1CE-4634-974A-ACCE8D321830

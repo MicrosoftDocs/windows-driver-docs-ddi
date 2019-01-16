@@ -1,7 +1,6 @@
 ---
 UID: NF:stiusd.IStiUSD.RawReadData
 title: IStiUSD::RawReadData
-author: windows-driver-content
 description: A still image minidriver's IStiUSD::RawReadData method reads data from a still image device.
 old-location: image\istiusd_rawreaddata.htm
 tech.root: image

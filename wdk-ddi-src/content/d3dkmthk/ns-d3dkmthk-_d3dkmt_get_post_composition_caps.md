@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GET_POST_COMPOSITION_CAPS
 title: _D3DKMT_GET_POST_COMPOSITION_CAPS
-author: windows-driver-content
 description: Used to get post composition capabilities.
 ms.assetid: 0934194f-5638-4c75-b134-acebf647745e
 ms.date: 10/19/2018

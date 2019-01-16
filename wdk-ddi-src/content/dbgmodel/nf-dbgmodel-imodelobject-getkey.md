@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.GetKey
 title: IModelObject::GetKey
-author: windows-driver-content
 description: The GetKey method will get the value of (and the metadata associated with) a given key by name.
 ms.assetid: 533111d9-50cd-4bd3-8807-6c9be2374fba
 ms.date: 08/09/2018

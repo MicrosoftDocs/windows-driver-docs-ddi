@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionContext.get_PrinterQueue
 title: IPrinterExtensionContext::get_PrinterQueue
-author: windows-driver-content
 description: Gets the queue for the printer.
 old-location: print\iprinterextensioncontext_printerqueue.htm
 tech.root: print

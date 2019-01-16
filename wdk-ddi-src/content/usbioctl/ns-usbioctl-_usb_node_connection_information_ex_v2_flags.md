@@ -1,7 +1,6 @@
 ---
 UID: NS:usbioctl._USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS
 title: "_USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS"
-author: windows-driver-content
 description: The USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS union is used to indicate the speed at which a USB 3.0 device is currently operating and whether it can operate at higher speed, when attached to a particular port.
 old-location: buses\usb_node_connection_information_ex_v2_flags.htm
 tech.root: usbref

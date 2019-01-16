@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._HBAFCPID
 title: "_HBAFCPID"
-author: windows-driver-content
 description: The HBAFCPID structure contains information that uniquely identifies a logical unit on a fibre channel network.
 old-location: storage\hbafcpid.htm
 tech.root: storage

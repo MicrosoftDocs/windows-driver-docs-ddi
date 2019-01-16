@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE
 title: tagKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE
-author: windows-driver-content
 description: This structure contains the ROI info structure for white balance.
 old-location: stream\kscamera_extendedprop_roi_whitebalance.htm
 tech.root: stream

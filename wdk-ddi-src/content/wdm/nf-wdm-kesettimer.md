@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeSetTimer
 title: KeSetTimer function
-author: windows-driver-content
 description: The KeSetTimer routine sets the absolute or relative interval at which a timer object is to be set to a signaled state and, optionally, supplies a CustomTimerDpc routine to be executed when that interval expires.
 old-location: kernel\kesettimer.htm
 tech.root: kernel

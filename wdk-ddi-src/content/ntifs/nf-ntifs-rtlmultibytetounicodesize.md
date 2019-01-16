@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlMultiByteToUnicodeSize
 title: RtlMultiByteToUnicodeSize function
-author: windows-driver-content
 description: The RtlMultiByteToUnicodeSize routine determines the number of bytes that are required to store the Unicode translation for the specified source string.
 old-location: ifsk\rtlmultibytetounicodesize.htm
 tech.root: ifsk

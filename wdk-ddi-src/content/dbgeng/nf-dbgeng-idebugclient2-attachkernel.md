@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient2.AttachKernel
 title: IDebugClient2::AttachKernel
-author: windows-driver-content
 description: The AttachKernel methods connect the debugger engine to a kernel target.
 old-location: debugger\attachkernel.htm
 tech.root: debugger

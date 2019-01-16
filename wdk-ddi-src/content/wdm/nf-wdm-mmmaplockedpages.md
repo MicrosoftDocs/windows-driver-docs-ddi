@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.MmMapLockedPages
 title: MmMapLockedPages function
-author: windows-driver-content
 description: The MmMapLockedPages routine is obsolete for Windows 2000 and later versions of Windows, and for Windows Me.
 old-location: kernel\mmmaplockedpages.htm
 tech.root: kernel

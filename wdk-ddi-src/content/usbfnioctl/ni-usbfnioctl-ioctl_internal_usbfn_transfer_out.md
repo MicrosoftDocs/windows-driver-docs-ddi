@@ -1,7 +1,6 @@
 ---
 UID: NI:usbfnioctl.IOCTL_INTERNAL_USBFN_TRANSFER_OUT
 title: IOCTL_INTERNAL_USBFN_TRANSFER_OUT
-author: windows-driver-content
 description: The class driver sends this request to initiate a data transfer from the host on the specified pipe.
 old-location: buses\ioctl_internal_usbfn_transfer_out.htm
 tech.root: usbref

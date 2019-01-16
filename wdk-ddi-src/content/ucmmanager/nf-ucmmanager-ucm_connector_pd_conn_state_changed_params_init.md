@@ -1,7 +1,6 @@
 ---
 UID: NF:ucmmanager.UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT
 title: UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT function
-author: windows-driver-content
 description: Initializes a UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS structure.
 old-location: buses\ucm_connector_pd_conn_state_changed_params_init.htm
 tech.root: usbref

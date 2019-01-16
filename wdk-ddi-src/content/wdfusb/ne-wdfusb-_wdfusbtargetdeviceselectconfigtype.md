@@ -1,7 +1,6 @@
 ---
 UID: NE:wdfusb._WdfUsbTargetDeviceSelectConfigType
 title: "_WdfUsbTargetDeviceSelectConfigType"
-author: windows-driver-content
 description: The WdfUsbTargetDeviceSelectConfigType enumeration defines types of configuration operations for USB devices.
 old-location: wdf\wdfusbtargetdeviceselectconfigtype.htm
 tech.root: wdf

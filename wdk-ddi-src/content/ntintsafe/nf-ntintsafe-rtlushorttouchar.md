@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlUShortToUChar
 title: RtlUShortToUChar function
-author: windows-driver-content
 description: Converts a value of type USHORT to a value of type UCHAR.
 old-location: kernel\rtlushorttouchar.htm
 tech.root: kernel

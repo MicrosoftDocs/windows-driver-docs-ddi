@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetReturnOffset
 title: IDebugControl::GetReturnOffset
-author: windows-driver-content
 description: The GetReturnOffset method returns the return address for the current function.
 old-location: debugger\getreturnoffset.htm
 tech.root: debugger

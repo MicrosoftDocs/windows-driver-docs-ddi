@@ -1,7 +1,6 @@
 ---
 UID: NS:windot11.DOT11_CHANNEL_HINT
 title: DOT11_CHANNEL_HINT
-author: windows-driver-content
 description: The DOT11_CHANNEL_HINT structure describes suggested channel numbers for an NLO operation.
 old-location: netvista\dot11_channel_hint.htm
 tech.root: netvista

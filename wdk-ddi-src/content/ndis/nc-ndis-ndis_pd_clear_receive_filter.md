@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.NDIS_PD_CLEAR_RECEIVE_FILTER
 title: NDIS_PD_CLEAR_RECEIVE_FILTER
-author: windows-driver-content
 description: The PacketDirect (PD) platform calls a PD-capable miniport driver's NdisPDClearReceiveFilter function to clear this filter from the PD platform.
 old-location: netvista\ndispdclearreceivefilter.htm
 tech.root: netvista

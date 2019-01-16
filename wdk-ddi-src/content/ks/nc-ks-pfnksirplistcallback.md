@@ -1,7 +1,6 @@
 ---
 UID: NC:ks.PFNKSIRPLISTCALLBACK
 title: PFNKSIRPLISTCALLBACK
-author: windows-driver-content
 description: A streaming minidriver's KStrIrpListCallback routine is called to determine whether the passed in IRP should be moved from the source list to the destination list, or if IRP enumeration should be terminated.
 old-location: stream\kstrirplistcallback.htm
 tech.root: stream

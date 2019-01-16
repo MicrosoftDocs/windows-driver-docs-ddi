@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortSetBusDataByOffset
 title: StorPortSetBusDataByOffset function
-author: windows-driver-content
 description: The StorPortSetBusDataByOffset routine writes bus-specific configuration information.
 old-location: storage\storportsetbusdatabyoffset.htm
 tech.root: storage

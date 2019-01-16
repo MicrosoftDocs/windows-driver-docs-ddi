@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfsimulatedbatterysystemaction.IWDTFSimulatedBatterySystemAction.DisableRealBatteries
 title: IWDTFSimulatedBatterySystemAction::DisableRealBatteries
-author: windows-driver-content
 description: Disables real batteries if they are present in the system.
 old-location: dtf\iwdtfsimulatedbatterysystemaction_disablerealbatteries.htm
 tech.root: dtf

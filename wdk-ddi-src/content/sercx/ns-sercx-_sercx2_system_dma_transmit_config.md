@@ -1,7 +1,6 @@
 ---
 UID: NS:sercx._SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG
 title: "_SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG"
-author: windows-driver-content
 description: The SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG structure contains information that version 2 of the serial framework extension (SerCx2) uses to configure a new system-DMA-transmit object.
 old-location: serports\sercx2_system_dma_transmit_config.htm
 tech.root: serports

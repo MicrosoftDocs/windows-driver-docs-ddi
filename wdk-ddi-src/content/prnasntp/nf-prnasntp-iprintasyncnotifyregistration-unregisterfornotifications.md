@@ -1,7 +1,6 @@
 ---
 UID: NF:prnasntp.IPrintAsyncNotifyRegistration.UnregisterForNotifications
 title: IPrintAsyncNotifyRegistration::UnregisterForNotifications
-author: windows-driver-content
 description: 
 old-location: print\iprintasyncnotifyregistration_unregisterfornotifications.htm
 tech.root: print

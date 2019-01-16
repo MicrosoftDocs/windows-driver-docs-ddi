@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._WIM_PROVIDER_ADD_OVERLAY_INPUT
 title: "_WIM_PROVIDER_ADD_OVERLAY_INPUT"
-author: windows-driver-content
 description: A new Windows Image File (WIM) data source is added to the WIM provider with the WIM_PROVIDER_ADD_OVERLAY_INPUT structure.
 old-location: ifsk\wim_provider_add_overlay_input.htm
 tech.root: ifsk

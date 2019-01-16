@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_STREAM_STATE_PALETTE_DATA
 title: "_DXVAHDDDI_STREAM_STATE_PALETTE_DATA"
-author: windows-driver-content
 description: The DXVAHDDDI_STREAM_STATE_PALETTE_DATA structure describes stream-state data that specifies the palette entries of the input.
 old-location: display\dxvahdddi_stream_state_palette_data.htm
 tech.root: display

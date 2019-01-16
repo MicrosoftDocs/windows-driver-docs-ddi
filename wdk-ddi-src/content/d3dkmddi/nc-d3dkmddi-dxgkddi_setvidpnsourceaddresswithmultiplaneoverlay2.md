@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2
 title: DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2
-author: windows-driver-content
 description: DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2 is called to change the overlay configuration being displayed.
 old-location: display\dxgkddisetvidpnsourceaddresswithmultiplaneoverlay2.htm
 ms.assetid: 7E87D610-6449-47E0-AB6B-9D926B490B45

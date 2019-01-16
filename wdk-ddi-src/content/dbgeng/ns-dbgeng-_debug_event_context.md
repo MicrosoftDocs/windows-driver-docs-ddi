@@ -1,7 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_EVENT_CONTEXT
 title: "_DEBUG_EVENT_CONTEXT"
-author: windows-driver-content
 description: Defines context information about an event.
 old-location: debugger\debug_event_context.htm
 tech.root: debugger

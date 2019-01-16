@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestCreate
 title: WdfRequestCreate function
-author: windows-driver-content
 description: The WdfRequestCreate method creates an empty framework request object.
 old-location: wdf\wdfrequestcreate.htm
 tech.root: wdf

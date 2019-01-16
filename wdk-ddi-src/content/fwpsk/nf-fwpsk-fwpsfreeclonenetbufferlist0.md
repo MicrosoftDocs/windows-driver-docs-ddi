@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsFreeCloneNetBufferList0
 title: FwpsFreeCloneNetBufferList0 function
-author: windows-driver-content
 description: The FwpsFreeCloneNetBufferList0 function frees a clone NET_BUFFER_LIST structure that was previously allocated by a call to the FwpsAllocateCloneNetBufferList0 function.Note  FwpsFreeCloneNetBufferList0 is a specific version of FwpsFreeCloneNetBufferList. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwpsfreeclonenetbufferlist0.htm
 tech.root: netvista

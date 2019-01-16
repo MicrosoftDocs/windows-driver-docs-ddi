@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._FILE_STREAM_INFORMATION
 title: "_FILE_STREAM_INFORMATION"
-author: windows-driver-content
 description: The FILE_STREAM_INFORMATION structure is used to enumerate the streams for a file.
 old-location: ifsk\file_stream_information.htm
 tech.root: ifsk

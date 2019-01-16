@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_AUDIO_CONTROL
 title: "_CDROM_AUDIO_CONTROL"
-author: windows-driver-content
 description: The CDROM_AUDIO_CONTROL structure is used in conjunction with the IOCTL_CDROM_GET_CONTROL request to report the audio playback mode.
 old-location: storage\cdrom_audio_control.htm
 tech.root: storage

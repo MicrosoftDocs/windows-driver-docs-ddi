@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtExtension.SetArgStr
 title: ExtExtension::SetArgStr
-author: windows-driver-content
 description: The SetArgStr method sets a named string argument for the current expression command.
 old-location: debugger\setargstr.htm
 tech.root: debugger

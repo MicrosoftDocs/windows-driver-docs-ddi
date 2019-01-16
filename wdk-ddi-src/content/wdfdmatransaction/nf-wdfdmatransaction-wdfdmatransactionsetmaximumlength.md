@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionSetMaximumLength
 title: WdfDmaTransactionSetMaximumLength function
-author: windows-driver-content
 description: The WdfDmaTransactionSetMaximumLength method sets the maximum length for the DMA transfers that are associated with a specified DMA transaction.
 old-location: wdf\wdfdmatransactionsetmaximumlength.htm
 tech.root: wdf

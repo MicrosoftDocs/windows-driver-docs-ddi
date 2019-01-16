@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortInterlockedRemoveHeadList
 title: StorPortInterlockedRemoveHeadList function
-author: windows-driver-content
 description: The StorPortInterlockedRemoveHeadList routine removes an entry from the beginning of a doubly linked list of STOR_LIST_ENTRY structures.
 old-location: storage\storportinterlockedremoveheadlist.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_QUERYADAPTERINFOTYPE
 title: "_DXGK_QUERYADAPTERINFOTYPE"
-author: windows-driver-content
 description: The DXGK_QUERYADAPTERINFOTYPE enumeration indicates the type of information to retrieve.
 old-location: display\dxgk_queryadapterinfotype.htm
 

@@ -1,7 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_34
 title: KSPIN_PHYSICALCONNECTION
-author: windows-driver-content
 description: A structure of type KSPIN_PHYSICALCONNECTION is returned in response to a KSPROPERTY_PIN_PHYSICALCONNECTION request.
 old-location: stream\kspin_physicalconnection.htm
 tech.root: stream

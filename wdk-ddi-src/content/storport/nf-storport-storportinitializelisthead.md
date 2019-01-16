@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortInitializeListHead
 title: StorPortInitializeListHead function
-author: windows-driver-content
 description: The StorPortInitializeListHead routine initializes a STOR_LIST_ENTRY structure that represents the head of a doubly linked list.
 old-location: storage\storportinitializelisthead.htm
 tech.root: storage

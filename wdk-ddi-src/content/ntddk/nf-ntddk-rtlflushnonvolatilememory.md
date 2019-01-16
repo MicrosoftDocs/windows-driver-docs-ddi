@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlFlushNonVolatileMemory
 title: RtlFlushNonVolatileMemory function
-author: windows-driver-content
 description: The routine RtlFlushNonVolatileMemory optimally flushes the given non-volatile memory region.
 old-location: ifsk\rtlflushnonvolatilememory.htm
 tech.root: ifsk

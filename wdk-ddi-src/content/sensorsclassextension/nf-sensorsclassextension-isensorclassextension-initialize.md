@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorsclassextension.ISensorClassExtension.Initialize
 title: ISensorClassExtension::Initialize
-author: windows-driver-content
 description: The ISensorClassExtension::Initialize method initializes the sensor class extension object.
 old-location: sensors\isensorclassextension_initialize.htm
 tech.root: sensors

@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamicro.SetPixelWindow
 title: SetPixelWindow function
-author: windows-driver-content
 description: The SetPixelWindow function sets the image area to be scanned.
 old-location: image\setpixelwindow.htm
 tech.root: image

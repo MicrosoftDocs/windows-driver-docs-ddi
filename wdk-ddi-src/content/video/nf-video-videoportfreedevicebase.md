@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortFreeDeviceBase
 title: VideoPortFreeDeviceBase function
-author: windows-driver-content
 description: The VideoPortFreeDeviceBase function frees a range of bus-relative device I/O ports or memory addresses previously mapped into the system address space. It does this by calling VideoPortGetDeviceBase.
 old-location: display\videoportfreedevicebase.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteList.StartTail
 title: ExtRemoteList::StartTail
-author: windows-driver-content
 description: The StartTail method initializes the list for iterating backward, starting at the head.
 old-location: debugger\extremotelist_starttail.htm
 tech.root: debugger

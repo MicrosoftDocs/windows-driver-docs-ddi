@@ -1,11 +1,9 @@
 ---
 UID: NF:portcls.IDmaChannel.BufferSize
 title: IDmaChannel::BufferSize
-author: windows-driver-content
 description: The BufferSize method returns the size in bytes of the DMA channel's data buffer.
 tech.root: audio
 ms.assetid: e20d36d9-4f2a-43bf-b224-da5501321c7a
-ms.author: windowsdriverdev
 ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IDmaChannel::BufferSize, BufferSize, IDmaChannel.BufferSize, IDmaChannel::BufferSize, IDmaChannel.BufferSize

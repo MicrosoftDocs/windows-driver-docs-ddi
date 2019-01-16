@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisFSetAttributes
 title: NdisFSetAttributes function
-author: windows-driver-content
 description: A filter driver calls the NdisFSetAttributes function to specify a filter module context area.
 old-location: netvista\ndisfsetattributes.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvFreeDrvItemContext
 title: IWiaMiniDrv::drvFreeDrvItemContext
-author: windows-driver-content
 description: The IWiaMiniDrv::drvFreeDrvItemContext method frees a device-specific context.
 old-location: image\iwiaminidrv_drvfreedrvitemcontext.htm
 tech.root: image

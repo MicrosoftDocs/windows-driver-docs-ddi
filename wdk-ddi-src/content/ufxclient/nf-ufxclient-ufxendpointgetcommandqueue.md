@@ -1,7 +1,6 @@
 ---
 UID: NF:ufxclient.UfxEndpointGetCommandQueue
 title: UfxEndpointGetCommandQueue function
-author: windows-driver-content
 description: Returns the command queue previously created by UfxEndpointCreate.
 old-location: buses\ufxendpointgetcommandqueue.htm
 tech.root: usbref

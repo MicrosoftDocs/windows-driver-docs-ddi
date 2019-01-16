@@ -1,7 +1,6 @@
 ---
 UID: NF:netioddk.NmrRegisterProvider
 title: NmrRegisterProvider function
-author: windows-driver-content
 description: The NmrRegisterProvider function registers a provider module with the NMR.
 old-location: netvista\nmrregisterprovider.htm
 tech.root: netvista

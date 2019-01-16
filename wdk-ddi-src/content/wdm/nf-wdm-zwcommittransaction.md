@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwCommitTransaction
 title: ZwCommitTransaction function
-author: windows-driver-content
 description: The ZwCommitTransaction routine initiates a commit operation for a specified transaction.
 old-location: kernel\zwcommittransaction.htm
 tech.root: kernel

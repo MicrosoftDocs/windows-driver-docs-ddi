@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortPutDmaAdapter
 title: VideoPortPutDmaAdapter function
-author: windows-driver-content
 description: The VideoPortPutDmaAdapter function frees a VP_DMA_ADAPTER structure that was previously allocated by a call to VideoPortGetDmaAdapter.
 old-location: display\videoportputdmaadapter.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfdriver.EVT_WDF_DRIVER_UNLOAD
 title: EVT_WDF_DRIVER_UNLOAD
-author: windows-driver-content
 description: A driver's EvtDriverUnload event callback function performs operations that must take place before the driver is unloaded.
 old-location: wdf\evtdriverunload.htm
 tech.root: wdf

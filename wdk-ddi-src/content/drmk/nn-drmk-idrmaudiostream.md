@@ -1,7 +1,6 @@
 ---
 UID: NN:drmk.IDrmAudioStream
 title: IDrmAudioStream
-author: windows-driver-content
 description: The IDrmAudioStream interface assigns DRM protection to the digital content in an audio stream.
 old-location: audio\idrmaudiostream.htm
 tech.root: audio

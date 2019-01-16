@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.AddSymbolOptions
 title: IDebugSymbols2::AddSymbolOptions
-author: windows-driver-content
 description: The AddSymbolOptions method turns on some of the engine's global symbol options.
 old-location: debugger\addsymboloptions.htm
 tech.root: debugger

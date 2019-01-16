@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOStressAction2.ContinueAsync
 title: IWDTFSimpleIOStressAction2::ContinueAsync
-author: windows-driver-content
 description: Asynchronously signals the I/O to continue.
 old-location: dtf\iwdtfsimpleiostressaction2_continueasync.htm
 tech.root: dtf

@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IXpsDocumentConsumer.SendXpsDocument
 title: IXpsDocumentConsumer::SendXpsDocument
-author: windows-driver-content
 description: The SendXpsDocument method sends an XPS document to the pipeline.
 old-location: print\ixpsdocumentconsumer_sendxpsdocument.htm
 tech.root: print

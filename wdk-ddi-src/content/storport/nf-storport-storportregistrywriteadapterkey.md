@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortRegistryWriteAdapterKey
 title: StorPortRegistryWriteAdapterKey function
-author: windows-driver-content
 description: The StorPortRegistryReadAdapterKey routine is called by the miniport driver to read the hardware or device registry adapter keys located in registry at HKLM/CurrentControlSet/Enum/&lt;Instance path&gt;/DeviceParameters/...
 old-location: storage\storportregistryreadadapterkey.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionFreeResources
 title: WdfDmaTransactionFreeResources function
-author: windows-driver-content
 description: The WdfDmaTransactionFreeResources method releases DMA resources that the driver previously allocated by calling WdfDmaTransactionAllocateResources.
 old-location: wdf\wdfdmatransactionfreeresources.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi_hwaccess.WRITE_REGISTER_UCHAR
 title: WRITE_REGISTER_UCHAR function
-author: windows-driver-content
 description: The WRITE_REGISTER_UCHAR routine writes a byte to the specified address.
 old-location: wdf\write_register_uchar.htm
 tech.root: wdf

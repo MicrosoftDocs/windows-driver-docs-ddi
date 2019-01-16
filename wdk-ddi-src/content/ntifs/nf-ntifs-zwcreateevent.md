@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.ZwCreateEvent
 title: ZwCreateEvent function
-author: windows-driver-content
 description: The ZwCreateEvent routine creates an event object, sets the initial state of the event to the specified value, and opens a handle to the object with the specified desired access.
 old-location: kernel\zwcreateevent.htm
 tech.root: kernel

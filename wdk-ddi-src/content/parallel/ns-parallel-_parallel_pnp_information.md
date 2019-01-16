@@ -1,7 +1,6 @@
 ---
 UID: NS:parallel._PARALLEL_PNP_INFORMATION
 title: "_PARALLEL_PNP_INFORMATION"
-author: windows-driver-content
 description: The PARALLEL_PNP_INFORMATION structure specifies information about the capabilities of a parallel port.
 old-location: parports\parallel_pnp_information.htm
 tech.root: parports

@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm.__unnamed_struct_2
 title: BATTERY_REPORTING_SCALE
-author: windows-driver-content
 description: Battery miniclass drivers fill in this structure in response to certain BatteryMiniQueryInformation requests.
 old-location: battery\battery_reporting_scale.htm
 tech.root: battery

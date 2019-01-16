@@ -1,7 +1,6 @@
 ---
 UID: NE:ntdd8042._MOUSE_STATE
 title: "_MOUSE_STATE"
-author: windows-driver-content
 description: The MOUSE_STATE enumeration type identifies the current state of input from a mouse.
 old-location: hid\mouse_state.htm
 tech.root: hid

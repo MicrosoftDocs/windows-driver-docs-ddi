@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES
 title: IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES
-author: windows-driver-content
 description: Returns the color-capabilities information found in the VDDP description file for the adapter.
 old-location: display\ioctl_video_query_color_capabilities.htm
 tech.root: display

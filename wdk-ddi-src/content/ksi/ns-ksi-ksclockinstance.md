@@ -1,7 +1,6 @@
 ---
 UID: NS:ksi.__unnamed_struct_1
 title: KSCLOCKINSTANCE
-author: windows-driver-content
 description: 
 old-location: stream\ksclockinstance.htm
 tech.root: stream

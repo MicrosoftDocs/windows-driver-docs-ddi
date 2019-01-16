@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl5.GetBreakpointByGuid
 title: IDebugControl5::GetBreakpointByGuid
-author: windows-driver-content
 description: The GetBreakpointByGuid method returns the breakpoint with the specified breakpoint GUID.
 old-location: debugger\idebugcontrol5_getbreakpointbyguid.htm
 tech.root: debugger

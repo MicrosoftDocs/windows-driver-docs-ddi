@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces3.WriteVirtualUncached
 title: IDebugDataSpaces3::WriteVirtualUncached
-author: windows-driver-content
 description: The WriteVirtualUncached method writes data to the target's virtual address space.
 old-location: debugger\writevirtualuncached.htm
 tech.root: debugger

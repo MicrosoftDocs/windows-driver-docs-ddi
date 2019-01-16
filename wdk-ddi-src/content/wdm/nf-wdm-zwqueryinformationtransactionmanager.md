@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwQueryInformationTransactionManager
 title: ZwQueryInformationTransactionManager function
-author: windows-driver-content
 description: The ZwQueryInformationTransactionManager routine retrieves information about a specified transaction manager object.
 old-location: kernel\zwqueryinformationtransactionmanager.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_53
 title: KSPIN_MDL_CACHING_NOTIFICATION32
-author: windows-driver-content
 description: This structure is used internally by the operating system.
 old-location: stream\kspin_mdl_caching_notification32.htm
 tech.root: stream

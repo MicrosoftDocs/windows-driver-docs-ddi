@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.PcAddContentHandlers
 title: PcAddContentHandlers function
-author: windows-driver-content
 description: The PcAddContentHandlers function provides the system with a list of functions that handle protected content.
 old-location: audio\pcaddcontenthandlers.htm
 tech.root: audio

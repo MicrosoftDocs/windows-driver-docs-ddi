@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._ScsiReadCapacity_OUT
 title: "_ScsiReadCapacity_OUT"
-author: windows-driver-content
 description: The ScsiReadCapacity_OUT structure is used to report the output data of the ScsiReadCapacity WMI method to the WMI client.
 old-location: storage\scsireadcapacity_out2.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlGetNextExtraCreateParameter
 title: FsRtlGetNextExtraCreateParameter function
-author: windows-driver-content
 description: The FsRtlGetNextExtraCreateParameter routine returns a pointer to the next (or first) extra create parameter (ECP) context structure in a given ECP list.
 old-location: ifsk\fsrtlgetnextextracreateparameter.htm
 tech.root: ifsk

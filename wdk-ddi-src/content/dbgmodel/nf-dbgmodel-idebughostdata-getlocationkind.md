@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostData.GetLocationKind
 title: IDebugHostData::GetLocationKind
-author: windows-driver-content
 description: The GetLocationKind method returns what kind of location the symbol is at according to the LocationKind enumeration. 
 ms.assetid: 1abb0b33-9501-4f44-b9ff-1b01f3cd05ad
 ms.date: 09/10/2018

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExAllocatePoolWithTag
 title: ExAllocatePoolWithTag function
-author: windows-driver-content
 description: The ExAllocatePoolWithTag routine allocates pool memory of the specified type and returns a pointer to the allocated block.
 old-location: kernel\exallocatepoolwithtag.htm
 tech.root: kernel

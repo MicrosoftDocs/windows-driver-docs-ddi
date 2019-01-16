@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_ALLOCATIONINFO
 title: "_DXGK_ALLOCATIONINFO"
-author: windows-driver-content
 description: The DXGK_ALLOCATIONINFO structure describes parameters for creating an allocation.
 old-location: display\dxgk_allocationinfo.htm
 ms.assetid: d5767bd3-11f8-45a7-b760-3ed51c54c044

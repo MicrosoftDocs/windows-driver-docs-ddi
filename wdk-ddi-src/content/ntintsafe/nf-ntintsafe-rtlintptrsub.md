@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlIntPtrSub
 title: RtlIntPtrSub function
-author: windows-driver-content
 description: Subtracts one value of type INT_PTR from another.
 old-location: kernel\rtlintptrsub.htm
 tech.root: kernel

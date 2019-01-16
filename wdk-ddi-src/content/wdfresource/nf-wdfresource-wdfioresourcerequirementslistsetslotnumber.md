@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfresource.WdfIoResourceRequirementsListSetSlotNumber
 title: WdfIoResourceRequirementsListSetSlotNumber function
-author: windows-driver-content
 description: The WdfIoResourceRequirementsListSetSlotNumber method assigns a slot number to a resource requirements list.
 old-location: wdf\wdfioresourcerequirementslistsetslotnumber.htm
 tech.root: wdf

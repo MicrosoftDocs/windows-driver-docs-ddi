@@ -1,7 +1,6 @@
 ---
 UID: NF:netioddk.NmrWaitForProviderDeregisterComplete
 title: NmrWaitForProviderDeregisterComplete function
-author: windows-driver-content
 description: The NmrWaitForProviderDeregisterComplete function waits for the deregistration of a provider module to complete.
 old-location: netvista\nmrwaitforproviderderegistercomplete.htm
 tech.root: netvista

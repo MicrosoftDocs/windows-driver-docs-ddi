@@ -1,7 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_EXPOSURE_METERING_MODES
 title: tagWPD_EXPOSURE_METERING_MODES
-author: windows-driver-content
 description: The WPD_EXPOSURE_METERING_MODES enumeration type describes the metering mode to use when estimating exposure for still image capture by a device.
 old-location: wpddk\wpd_exposure_metering_modes.htm
 tech.root: wpd_dk

@@ -1,7 +1,6 @@
 ---
 UID: NF:sercx.SerCx2InitializeDevice
 title: SerCx2InitializeDevice function
-author: windows-driver-content
 description: The SerCx2InitializeDevice method finishes initializing the framework device object for the serial controller.
 old-location: serports\sercx2initializedevice.htm
 tech.root: serports

@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_SCHEDULING_LOG_CONTEXT_STATE
 title: _DXGK_SCHEDULING_LOG_CONTEXT_STATE
-author: windows-driver-content
 description: Describes that event to log when a context transitions between one of its execution states.
 ms.assetid: ec661384-328c-479c-9f9e-dd6b955ff3bb
 ms.date: 10/19/2018

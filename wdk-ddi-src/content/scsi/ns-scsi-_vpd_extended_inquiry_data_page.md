@@ -1,7 +1,6 @@
 ---
 UID: NS:scsi._VPD_EXTENDED_INQUIRY_DATA_PAGE
 title: _VPD_EXTENDED_INQUIRY_DATA_PAGE
-author: windows-driver-content
 description: 
 ms.assetid: c1576a19-8f1a-44f5-af68-6fb1804a1878
 ms.date: 10/19/2018

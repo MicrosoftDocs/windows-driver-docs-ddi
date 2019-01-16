@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.WIAS_ERROR
 title: WIAS_ERROR macro
-author: windows-driver-content
 description: The WIAS_ERROR macro writes a diagnostic message to the Wiatrace.log file.
 old-location: image\wias_error.htm
 tech.root: image

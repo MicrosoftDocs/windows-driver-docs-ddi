@@ -1,7 +1,6 @@
 ---
 UID: NF:umdprovider.UMDEtwRegister
 title: UMDEtwRegister function
-author: windows-driver-content
 description: Registers the event trace provider. The driver should call this function before it makes any calls to log events.
 old-location: display\umdetwregister.htm
 tech.root: display

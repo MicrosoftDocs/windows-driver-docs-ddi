@@ -1,7 +1,6 @@
 ---
 UID: NE:ucmtypes._UCM_TYPEC_OPERATING_MODE
 title: "_UCM_TYPEC_OPERATING_MODE"
-author: windows-driver-content
 description: Defines operating modes of a USB Type-C connector.
 old-location: buses\ucm_type_c_operating_mode.htm
 tech.root: usbref

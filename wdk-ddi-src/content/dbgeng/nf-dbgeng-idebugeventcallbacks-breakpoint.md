@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacks.Breakpoint
 title: IDebugEventCallbacks::Breakpoint
-author: windows-driver-content
 description: The Breakpoint callback method is called by the engine when the target issues a breakpointexception.
 old-location: debugger\idebugeventcallbacks_breakpoint.htm
 tech.root: debugger

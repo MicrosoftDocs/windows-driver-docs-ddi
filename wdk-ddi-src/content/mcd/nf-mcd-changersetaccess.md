@@ -1,7 +1,6 @@
 ---
 UID: NF:mcd.ChangerSetAccess
 title: ChangerSetAccess function
-author: windows-driver-content
 description: ChangerSetAccess handles the device-specific aspects of a device-control IRP with the IOCTL code IOCTL_CHANGER_SET_ACCESS.
 old-location: storage\changersetaccess.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_DESC_0054
 title: D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_DESC_0054
-author: windows-driver-content
 description: Describes the ray tracing acceleration structure space requirements.
 ms.assetid: 0e9ce39c-45fc-43e9-8d04-7003633a98e7
 ms.date: 10/19/2018

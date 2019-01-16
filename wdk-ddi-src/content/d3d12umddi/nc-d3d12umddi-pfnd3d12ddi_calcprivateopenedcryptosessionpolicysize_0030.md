@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONPOLICYSIZE_0030
 title: PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONPOLICYSIZE_0030
-author: windows-driver-content
 description: Used to calculate the size of an opened session policy.
 old-location: display\pfnd3d12ddi_calcprivateopenedcryptosessionpolicysize_0030_.htm
 ms.assetid: 8D88C470-5C1F-4A72-BFB6-B09C038A07F9

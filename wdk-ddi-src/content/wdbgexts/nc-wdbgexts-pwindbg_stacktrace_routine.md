@@ -1,7 +1,6 @@
 ---
 UID: NC:wdbgexts.PWINDBG_STACKTRACE_ROUTINE
 title: PWINDBG_STACKTRACE_ROUTINE
-author: windows-driver-content
 description: The PWINDBG_STACKTRACE_ROUTINE (StackTrace) function retrieves a stack trace for the process being debugged. Returns the number of frames read into the buffer pointed to by StackFrames.
 old-location: debugger\stacktrace.htm
 tech.root: debugger

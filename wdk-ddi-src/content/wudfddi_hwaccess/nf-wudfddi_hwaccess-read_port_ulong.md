@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi_hwaccess.READ_PORT_ULONG
 title: READ_PORT_ULONG function
-author: windows-driver-content
 description: The READ_PORT_ULONG function reads a ULONG value from the specified port address.
 old-location: wdf\read_port_ulong.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMDT_DISPLAYMODE_FLAGS
 title: "_D3DKMDT_DISPLAYMODE_FLAGS"
-author: windows-driver-content
 description: The D3DKMDT_DISPLAYMODE_FLAGS structure identifies attributes of a display mode.
 old-location: display\d3dkmdt_displaymode_flags.htm
 ms.assetid: 0b45cd69-5c9e-4772-a68f-d604806e7789

@@ -1,7 +1,6 @@
 ---
 UID: NC:wdbgexts.PWINDBG_OUTPUT_ROUTINE
 title: PWINDBG_OUTPUT_ROUTINE
-author: windows-driver-content
 description: The callback function implements the functionality to print a formatted string to the Debugger Command window.
 old-location: debugger\dprintf.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SWITCHTOHWCONTEXTLIST
 title: DXGKDDI_SWITCHTOHWCONTEXTLIST
-author: windows-driver-content
 description: Clarifies the order of execution of first and second contexts submitted.
 ms.assetid: 37f7d107-50ec-452e-b98f-a1bea73ab2d0
 ms.date: 10/19/2018

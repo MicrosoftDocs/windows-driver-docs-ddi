@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.PDEVICE_RESET_HANDLER
 title: PDEVICE_RESET_HANDLER
-author: windows-driver-content
 description: The DeviceReset routine is used to reset and recover a malfunctioning device.
 old-location: kernel\devicereset.htm
 tech.root: kernel

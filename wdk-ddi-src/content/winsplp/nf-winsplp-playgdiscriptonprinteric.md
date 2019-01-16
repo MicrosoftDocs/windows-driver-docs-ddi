@@ -1,7 +1,6 @@
 ---
 UID: NF:winsplp.PlayGdiScriptOnPrinterIC
 title: PlayGdiScriptOnPrinterIC function
-author: windows-driver-content
 description: 
 old-location: print\playgdiscriptonprinteric.htm
 tech.root: print

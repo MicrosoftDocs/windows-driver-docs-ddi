@@ -1,7 +1,6 @@
 ---
 UID: NS:pep_x._PEP_DEVICE_STARTED
 title: "_PEP_DEVICE_STARTED"
-author: windows-driver-content
 description: The PEP_DEVICE_STARTED structure identifies a device whose driver has completed its registration with the Windows power management framework (PoFx).
 old-location: kernel\pep_device_started.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlAddAce
 title: RtlAddAce function
-author: windows-driver-content
 description: The RtlAddAce routine adds one or more access control entries (ACEs) to a specified access control list (ACL).
 old-location: ifsk\rtladdace.htm
 tech.root: ifsk

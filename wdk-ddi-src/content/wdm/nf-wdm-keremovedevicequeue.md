@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeRemoveDeviceQueue
 title: KeRemoveDeviceQueue function
-author: windows-driver-content
 description: The KeRemoveDeviceQueue routine removes an entry from the head of a specified device queue.
 old-location: kernel\keremovedevicequeue.htm
 tech.root: kernel

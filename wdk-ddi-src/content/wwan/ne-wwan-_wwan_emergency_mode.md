@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_EMERGENCY_MODE
 title: "_WWAN_EMERGENCY_MODE"
-author: windows-driver-content
 description: The WWAN_EMERGENCY_MODE enumeration lists the different types of emergency modes that are supported by the MB device.
 old-location: netvista\wwan_emergency_mode.htm
 tech.root: netvista

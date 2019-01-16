@@ -1,7 +1,6 @@
 ---
 UID: NF:nfccx.NfcCxRegisterSequenceHandler
 title: NfcCxRegisterSequenceHandler function
-author: windows-driver-content
 description: Called by the client driver during initialization to register for handling specific sequences.
 old-location: nfpdrivers\_nfccxregistersequencehandler.htm
 tech.root: nfpdrivers

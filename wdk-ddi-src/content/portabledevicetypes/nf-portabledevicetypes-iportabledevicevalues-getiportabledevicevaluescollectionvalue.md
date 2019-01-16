@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetIPortableDeviceValuesCollectionValue
 title: IPortableDeviceValues::GetIPortableDeviceValuesCollectionValue
-author: windows-driver-content
 description: Retrieves an IPortableDeviceValuesCollection (type VT_UNKNOWN) value specified by a key.
 old-location: wpddk\iportabledevicevalues_getiportabledevicevaluescollectionvalue.htm
 tech.root: wpd_dk

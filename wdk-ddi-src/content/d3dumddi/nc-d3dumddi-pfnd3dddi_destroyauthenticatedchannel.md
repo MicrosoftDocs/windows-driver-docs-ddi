@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DESTROYAUTHENTICATEDCHANNEL
 title: PFND3DDDI_DESTROYAUTHENTICATEDCHANNEL
-author: windows-driver-content
 description: The DestroyAuthenticatedChannel function releases resources for the authenticated channel that the CreateAuthenticatedChannel function creates.
 old-location: display\destroyauthenticatedchannel.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterQueue2.GetPrinterQueueView
 title: IPrinterQueue2::GetPrinterQueueView
-author: windows-driver-content
 description: Retrieves an IPrinterQueueView object, and initializes the object with the range of jobs to be monitored.
 old-location: print\iprinterqueue2_getprinterqueueview.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMMapIoSpace
 title: NdisMMapIoSpace function
-author: windows-driver-content
 description: NdisMMapIoSpace maps a given bus-relative &#0034;physical&#0034; range of device RAM or registers onto a system-space virtual range.
 old-location: netvista\ndismmapiospace.htm
 tech.root: netvista

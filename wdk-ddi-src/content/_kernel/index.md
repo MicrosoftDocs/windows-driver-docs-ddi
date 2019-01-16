@@ -1,8 +1,6 @@
 ---
 UID: TP:kernel
-author: windows-driver-content
 ms.assetid: f7c71d77-9a5b-3320-80a1-302b75314d1e
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltFastIoMdlReadComplete
 title: FltFastIoMdlReadComplete function
-author: windows-driver-content
 description: The FltFastIoMdlReadComplete routine completes the read operation that the FltFastIoMdlRead routine initiated.
 old-location: ifsk\fltfastiomdlreadcomplete.htm
 tech.root: ifsk

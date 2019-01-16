@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsGateInitialize
 title: KsGateInitialize function
-author: windows-driver-content
 description: The KsGateInitialize function initializes a gate for use.
 old-location: stream\ksgateinitialize.htm
 tech.root: stream

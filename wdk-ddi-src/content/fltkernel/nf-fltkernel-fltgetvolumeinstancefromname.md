@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetVolumeInstanceFromName
 title: FltGetVolumeInstanceFromName function
-author: windows-driver-content
 description: The FltGetVolumeInstanceFromName routine returns an opaque instance pointer for the given minifilter driver instance on the given volume.
 old-location: ifsk\fltgetvolumeinstancefromname.htm
 tech.root: ifsk

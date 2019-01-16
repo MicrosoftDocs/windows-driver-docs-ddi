@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.ExecuteCommandFile
 title: IDebugControl::ExecuteCommandFile
-author: windows-driver-content
 description: The ExecuteCommandFile method opens the specified file and executes the debugger commands that are contained within.
 old-location: debugger\executecommandfile.htm
 tech.root: debugger

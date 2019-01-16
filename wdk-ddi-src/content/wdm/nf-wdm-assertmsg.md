@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ASSERTMSG
 title: ASSERTMSG macro
-author: windows-driver-content
 description: ASSERTMSG tests an expression. If the expression is false, it breaks into the kernel debugger and sends it the specified message.
 old-location: devtest\assertmsg.htm
 tech.root: devtest

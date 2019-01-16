@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetFileNameInformationUnsafe
 title: FltGetFileNameInformationUnsafe function
-author: windows-driver-content
 description: The FltGetFileNameInformationUnsafe routine returns name information for an open file or directory.
 old-location: ifsk\fltgetfilenameinformationunsafe.htm
 tech.root: ifsk

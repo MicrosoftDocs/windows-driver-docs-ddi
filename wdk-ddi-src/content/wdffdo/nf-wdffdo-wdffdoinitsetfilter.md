@@ -1,7 +1,6 @@
 ---
 UID: NF:wdffdo.WdfFdoInitSetFilter
 title: WdfFdoInitSetFilter function
-author: windows-driver-content
 description: The WdfFdoInitSetFilter method identifies the calling driver as an upper-level or lower-level filter driver, for a specified device.
 old-location: wdf\wdffdoinitsetfilter.htm
 tech.root: wdf

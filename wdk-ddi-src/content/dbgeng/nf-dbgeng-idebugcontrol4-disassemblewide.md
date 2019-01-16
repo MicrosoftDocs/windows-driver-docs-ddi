@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.DisassembleWide
 title: IDebugControl4::DisassembleWide
-author: windows-driver-content
 description: The DisassembleWide method disassembles a processor instruction in the target's memory.
 old-location: debugger\disassemblewide.htm
 tech.root: debugger

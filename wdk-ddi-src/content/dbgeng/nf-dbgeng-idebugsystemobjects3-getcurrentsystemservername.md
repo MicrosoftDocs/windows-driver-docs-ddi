@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetCurrentSystemServerName
 title: IDebugSystemObjects3::GetCurrentSystemServerName
-author: windows-driver-content
 description: Gets the server name for the current process.
 old-location: debugger\idebugsystemobjects3_getcurrentsystemservername.htm
 tech.root: debugger

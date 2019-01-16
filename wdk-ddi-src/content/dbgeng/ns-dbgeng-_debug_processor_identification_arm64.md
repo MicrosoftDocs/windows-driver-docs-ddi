@@ -1,7 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_PROCESSOR_IDENTIFICATION_ARM64
 title: "_DEBUG_PROCESSOR_IDENTIFICATION_ARM64"
-author: windows-driver-content
 description: Identifies an ARM64 processor.
 old-location: debugger\debug_processor_identification_arm64.htm
 tech.root: debugger

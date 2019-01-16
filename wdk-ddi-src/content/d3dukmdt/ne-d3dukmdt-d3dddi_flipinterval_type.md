@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dukmdt.D3DDDI_FLIPINTERVAL_TYPE
 title: D3DDDI_FLIPINTERVAL_TYPE
-author: windows-driver-content
 description: The D3DDDI_FLIPINTERVAL_TYPE enumeration type contains values that identify the type of flip that occurs in present operations.
 old-location: display\d3dddi_flipinterval_type.htm
 tech.root: display

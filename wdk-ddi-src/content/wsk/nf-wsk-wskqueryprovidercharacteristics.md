@@ -1,7 +1,6 @@
 ---
 UID: NF:wsk.WskQueryProviderCharacteristics
 title: WskQueryProviderCharacteristics function
-author: windows-driver-content
 description: The WskQueryProviderCharacteristics function queries the range of WSK NPI versions supported by the WSK subsystem.
 old-location: netvista\wskqueryprovidercharacteristics.htm
 tech.root: netvista

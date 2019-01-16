@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE
 title: "_NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE"
-author: windows-driver-content
 description: The NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE enumeration specifies the type of status information for a proprietary policy property, or feature, of a Hyper-V extensible switch port.
 old-location: netvista\ndis_switch_port_feature_status_type.htm
 tech.root: netvista

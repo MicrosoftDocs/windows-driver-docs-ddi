@@ -1,7 +1,6 @@
 ---
 UID: NN:printerextension.IPrintSchemaElement
 title: IPrintSchemaElement
-author: windows-driver-content
 description: Provides access to the underlying XML node and &#0034;name&#0034; attribute information for a Print Schema element.
 old-location: print\iprintschemaelement_interface.htm
 tech.root: print

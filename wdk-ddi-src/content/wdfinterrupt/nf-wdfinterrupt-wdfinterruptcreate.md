@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfinterrupt.WdfInterruptCreate
 title: WdfInterruptCreate function
-author: windows-driver-content
 description: The WdfInterruptCreate method creates a framework interrupt object.
 old-location: wdf\wdfinterruptcreate.htm
 tech.root: wdf

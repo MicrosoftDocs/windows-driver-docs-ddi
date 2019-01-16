@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._DEVICE_CAPABILITIES
 title: "_DEVICE_CAPABILITIES"
-author: windows-driver-content
 description: A DEVICE_CAPABILITIES structure describes PnP and power capabilities of a device. This structure is returned in response to an IRP_MN_QUERY_CAPABILITIES IRP.
 old-location: kernel\device_capabilities.htm
 tech.root: kernel

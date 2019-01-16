@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnClientDisconnect
 title: ISensorDriver::OnClientDisconnect
-author: windows-driver-content
 description: The ISensorDriver::OnClientDisconnect method notifies the sensor driver that a client application has disconnected.
 old-location: sensors\isensordriver_onclientdisconnect.htm
 tech.root: sensors

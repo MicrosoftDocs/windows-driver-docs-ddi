@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.FILTER_STATUS
 title: FILTER_STATUS
-author: windows-driver-content
 description: The FilterStatus function indicates status changes that are reported by NDIS or an underlying driver.Note  You must declare the function by using the FILTER_STATUS type.
 old-location: netvista\filterstatus.htm
 tech.root: netvista

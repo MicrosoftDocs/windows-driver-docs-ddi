@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.CWiauFormatConverter.ConvertToBmp
 title: CWiauFormatConverter::ConvertToBmp
-author: windows-driver-content
 description: The CWiauFormatConverter::ConvertToBmp method converts an image to BMP format.
 old-location: image\cwiauformatconverter_converttobmp.htm
 tech.root: image

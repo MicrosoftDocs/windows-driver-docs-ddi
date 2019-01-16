@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia._DDPIXELFORMAT
 title: "_DDPIXELFORMAT"
-author: windows-driver-content
 description: The DDPIXELFORMAT structure describes the pixel format of a DirectDrawSurface object.
 old-location: display\ddpixelformat.htm
 tech.root: display

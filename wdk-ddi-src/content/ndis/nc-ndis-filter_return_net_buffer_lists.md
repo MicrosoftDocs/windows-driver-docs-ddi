@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.FILTER_RETURN_NET_BUFFER_LISTS
 title: FILTER_RETURN_NET_BUFFER_LISTS
-author: windows-driver-content
 description: NDIS calls the FilterReturnNetBufferLists function to return a linked list of NET_BUFFER_LIST structures and associated data to a filter driver.Note  You must declare the function by using the FILTER_RETURN_NET_BUFFER_LISTS type.
 old-location: netvista\filterreturnnetbufferlists.htm
 tech.root: netvista

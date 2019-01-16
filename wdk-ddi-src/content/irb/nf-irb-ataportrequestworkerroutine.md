@@ -1,7 +1,6 @@
 ---
 UID: NF:irb.AtaPortRequestWorkerRoutine
 title: AtaPortRequestWorkerRoutine function
-author: windows-driver-content
 description: The AtaPortRequestWorkerRoutine routine requests a worker routine.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportrequestworkerroutine.htm
 tech.root: storage

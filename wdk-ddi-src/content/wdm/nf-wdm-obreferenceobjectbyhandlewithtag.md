@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ObReferenceObjectByHandleWithTag
 title: ObReferenceObjectByHandleWithTag function
-author: windows-driver-content
 description: The ObReferenceObjectByHandleWithTag routine increments the reference count of the object that is identified by the specified handle, and writes a four-byte tag value to the object to support object reference tracing.
 old-location: kernel\obreferenceobjectbyhandlewithtag.htm
 tech.root: kernel

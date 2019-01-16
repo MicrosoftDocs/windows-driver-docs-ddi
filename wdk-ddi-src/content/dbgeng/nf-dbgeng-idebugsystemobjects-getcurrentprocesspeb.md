@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects.GetCurrentProcessPeb
 title: IDebugSystemObjects::GetCurrentProcessPeb
-author: windows-driver-content
 description: The GetCurrentProcessPeb method returns the process environment block (PEB) of the current process.
 old-location: debugger\getcurrentprocesspeb.htm
 tech.root: debugger

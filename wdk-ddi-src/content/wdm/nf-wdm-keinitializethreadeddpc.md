@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeInitializeThreadedDpc
 title: KeInitializeThreadedDpc function
-author: windows-driver-content
 description: The KeInitializeThreadedDpc routine initializes a threaded DPC object, and registers a CustomThreadedDpc routine for that object.
 old-location: kernel\keinitializethreadeddpc.htm
 tech.root: kernel

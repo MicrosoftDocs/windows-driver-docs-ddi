@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMCommandCallback
 title: OEMCommandCallback function
-author: windows-driver-content
 description: OEMCommandCallback function
 old-location: print\oemcommandcallback.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.SetValues
 title: IDebugRegisters2::SetValues
-author: windows-driver-content
 description: The SetValues method sets the value of several of the target's registers.
 old-location: debugger\setvalues.htm
 tech.root: debugger

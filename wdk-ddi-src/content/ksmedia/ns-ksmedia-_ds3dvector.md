@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia._DS3DVECTOR
 title: "_DS3DVECTOR"
-author: windows-driver-content
 description: The DS3DVECTOR structure contains three-dimensional position coordinates, position vector components, or velocity vector components.
 old-location: audio\ds3dvector.htm
 tech.root: audio

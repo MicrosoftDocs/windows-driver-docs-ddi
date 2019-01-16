@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortMoveMemory
 title: StorPortMoveMemory function
-author: windows-driver-content
 description: The StorPortMoveMemory routine copies memory from one buffer to another.
 old-location: storage\storportmovememory.htm
 tech.root: storage

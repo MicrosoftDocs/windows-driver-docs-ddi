@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.PoClearPowerRequest
 title: PoClearPowerRequest function
-author: windows-driver-content
 description: The PoClearPowerRequest routine decrements the count for the specified power request type.
 old-location: kernel\poclearpowerrequest.htm
 tech.root: kernel

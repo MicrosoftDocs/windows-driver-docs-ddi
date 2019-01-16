@@ -1,7 +1,6 @@
 ---
 UID: NC:video.PMINIPORT_DPC_ROUTINE
 title: PMINIPORT_DPC_ROUTINE
-author: windows-driver-content
 description: The HwVidDpcRoutine function is a miniport driver-implemented callback that is called when a queued DPC gets scheduled.
 old-location: display\hwviddpcroutine.htm
 tech.root: display

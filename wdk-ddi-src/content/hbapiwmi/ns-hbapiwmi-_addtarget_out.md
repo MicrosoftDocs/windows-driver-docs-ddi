@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._AddTarget_OUT
 title: "_AddTarget_OUT"
-author: windows-driver-content
 description: The AddTarget_OUT structure is used by a WMI provider to report the output parameter data of the AddTarget WMI method to the WMI client.
 old-location: storage\addtarget_out.htm
 tech.root: storage

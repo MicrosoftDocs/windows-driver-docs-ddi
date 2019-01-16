@@ -1,7 +1,6 @@
 ---
 UID: NC:udecxwdfdevice.EVT_UDECX_WDF_DEVICE_RESET
 title: EVT_UDECX_WDF_DEVICE_RESET
-author: windows-driver-content
 description: The UDE client driver's implementation to reset the emulated host controller or the devices attached to it.
 old-location: buses\evt_udecx_wdf_device_reset.htm
 tech.root: usbref

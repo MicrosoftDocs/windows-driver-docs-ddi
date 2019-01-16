@@ -1,7 +1,6 @@
 ---
 UID: NF:ufxclient.UFX_ENDPOINT_CALLBACKS_INIT
 title: UFX_ENDPOINT_CALLBACKS_INIT function
-author: windows-driver-content
 description: The UFX_ENDPOINT_CALLBACKS_INIT macro initializes the UFX_ENDPOINT_CALLBACKS structure.
 old-location: buses\ufx_endpoint_callbacks_init.htm
 tech.root: usbref

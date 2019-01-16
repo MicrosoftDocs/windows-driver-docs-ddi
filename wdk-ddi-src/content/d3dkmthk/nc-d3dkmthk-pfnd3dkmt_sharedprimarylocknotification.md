@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_SHAREDPRIMARYLOCKNOTIFICATION
 title: PFND3DKMT_SHAREDPRIMARYLOCKNOTIFICATION
-author: windows-driver-content
 description: The PFND3DKMT_SHAREDPRIMARYLOCKNOTIFICATION callback function notifies the operating system about an upcoming lock to a shared primary surface.
 ms.assetid: ceb858a0-a82b-4649-9a97-884cdf09b822
 ms.date: 10/19/2018

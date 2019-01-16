@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_RELEASE_LAM
 title: NDK_FN_RELEASE_LAM
-author: windows-driver-content
 description: The NdkReleaseLam (NDK_FN_RELEASE_LAM) function releases an NDK adapter logical address mapping (LAM).
 old-location: netvista\ndk_fn_release_lam.htm
 tech.root: netvista

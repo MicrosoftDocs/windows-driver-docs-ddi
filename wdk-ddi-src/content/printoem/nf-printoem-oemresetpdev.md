@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMResetPDEV
 title: OEMResetPDEV function
-author: windows-driver-content
 description: OEMResetPDEV function
 old-location: print\oemresetpdev.htm
 tech.root: print

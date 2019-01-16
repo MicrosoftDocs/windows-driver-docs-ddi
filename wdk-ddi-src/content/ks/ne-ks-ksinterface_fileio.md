@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_10
 title: KSINTERFACE_FILEIO
-author: windows-driver-content
 description: 
 old-location: stream\ksinterface_fileio.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltObjectDereference
 title: FltObjectDereference function
-author: windows-driver-content
 description: The FltObjectDereference routine removes a rundown reference from an opaque filter, instance, or volume pointer.
 old-location: ifsk\fltobjectdereference.htm
 tech.root: ifsk

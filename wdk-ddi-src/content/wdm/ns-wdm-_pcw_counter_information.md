@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._PCW_COUNTER_INFORMATION
 title: "_PCW_COUNTER_INFORMATION"
-author: windows-driver-content
 description: The PCW_COUNTER_INFORMATION structure describes attributes that identify a specific instance of a counter set.
 old-location: devtest\pcw_counter_information.htm
 tech.root: devtest

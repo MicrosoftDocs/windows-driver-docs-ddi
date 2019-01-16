@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.KeStackAttachProcess
 title: KeStackAttachProcess function
-author: windows-driver-content
 description: The KeStackAttachProcess routine attaches the current thread to the address space of the target process.
 old-location: ifsk\kestackattachprocess.htm
 tech.root: ifsk

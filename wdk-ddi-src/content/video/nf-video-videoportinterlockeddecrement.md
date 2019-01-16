@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortInterlockedDecrement
 title: VideoPortInterlockedDecrement function
-author: windows-driver-content
 description: The VideoPortInterlockedDecrement function decrements a caller-supplied variable as an atomic operation.
 old-location: display\videoportinterlockeddecrement.htm
 tech.root: display

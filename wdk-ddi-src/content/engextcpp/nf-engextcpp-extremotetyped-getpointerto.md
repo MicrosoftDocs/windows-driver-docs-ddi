@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.GetPointerTo
 title: ExtRemoteTyped::GetPointerTo
-author: windows-driver-content
 description: The GetPointerTo method returns typed data that is a pointer to the typed data represented by this object.
 old-location: debugger\extremotetyped_getpointerto.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_COMPONENT_PERF_INFO
 title: "_PEP_COMPONENT_PERF_INFO"
-author: windows-driver-content
 description: The PEP_COMPONENT_PERF_INFO structure describes the performance states (P-states) of a component.
 old-location: kernel\pep_component_perf_info.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetExtensionByPath
 title: IDebugControl3::GetExtensionByPath
-author: windows-driver-content
 description: The GetExtensionByPath method returns the handle for an already loaded extension library.
 old-location: debugger\getextensionbypath.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.SetScope
 title: IDebugSymbols2::SetScope
-author: windows-driver-content
 description: The SetScope method sets the current scope.
 old-location: debugger\setscope.htm
 tech.root: debugger

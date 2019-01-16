@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dukmdt._DXGK_PTE
 title: "_DXGK_PTE"
-author: windows-driver-content
 description: A page table entry (PTE) provides a physical address of a page and other attributes. The exact format of PTE depends on hardware implementation.
 old-location: display\dxgk_pte.htm
 tech.root: display

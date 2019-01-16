@@ -1,7 +1,6 @@
 ---
 UID: NE:dxgiddi.DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 title: DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
-author: windows-driver-content
 description: Identifies YUV range and conversion info that describes a multiplane overlay.
 old-location: display\dxgi_ddi_multiplane_overlay_ycbcr_flags.htm
 tech.root: display

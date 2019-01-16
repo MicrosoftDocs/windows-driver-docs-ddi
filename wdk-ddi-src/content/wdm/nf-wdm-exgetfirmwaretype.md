@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExGetFirmwareType
 title: ExGetFirmwareType function
-author: windows-driver-content
 description: Returns the system firmware type.
 old-location: kernel\exgetfirmwaretype.htm
 tech.root: kernel

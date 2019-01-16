@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SET_NETWORK_BLACKLIST
 title: _NDIS_WWAN_SET_NETWORK_BLACKLIST
-author: windows-driver-content
 description: The NDIS_WWAN_SET_NETWORK_BLACKLIST structure describes network blacklists that a mobile broadband (MBB) device should use to overwrite any existing blacklists in the modem.
 tech.root: netvista
 ms.assetid: 11ffe280-f068-4196-9dc9-85c20e0527b0

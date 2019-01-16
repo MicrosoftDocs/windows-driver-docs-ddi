@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.PsRevertToSelf
 title: PsRevertToSelf function
-author: windows-driver-content
 description: The PsRevertToSelf routine ends the calling thread's impersonation of a client.
 old-location: ifsk\psreverttoself.htm
 tech.root: ifsk

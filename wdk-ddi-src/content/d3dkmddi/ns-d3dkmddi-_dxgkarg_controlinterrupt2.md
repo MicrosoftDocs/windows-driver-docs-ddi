@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_CONTROLINTERRUPT2
 title: "_DXGKARG_CONTROLINTERRUPT2"
-author: windows-driver-content
 description: The DXGKARG_CONTROLINTERRUPT2 structure is used in DxgkDdi_ControlInterrupt2 calls to describe the state of interrupts.
 old-location: display\dxgkarg_controlinterrupt2.htm
 ms.assetid: 881F93B2-999F-4E3A-A71D-731946E8AA97

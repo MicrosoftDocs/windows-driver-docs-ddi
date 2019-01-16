@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_RETRIEVESUBOBJECT
 title: PFND3D10DDI_RETRIEVESUBOBJECT
-author: windows-driver-content
 description: Retrieves subparts of the Microsoft Direct3D driver device object.
 old-location: display\retrievesubobject_d3d11_1_.htm
 ms.assetid: 9029ec8d-102f-4d83-8ab5-fc208d8b5249

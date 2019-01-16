@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CHECKPRESENTDURATIONSUPPORT
 title: PFND3DDDI_CHECKPRESENTDURATIONSUPPORT
-author: windows-driver-content
 description: Called by the Microsoft Direct3D runtime to request that the user-mode display driver get hardware device capabilities for seamlessly switching to a new monitor refresh rate.
 old-location: display\checkpresentdurationsupport.htm
 tech.root: display

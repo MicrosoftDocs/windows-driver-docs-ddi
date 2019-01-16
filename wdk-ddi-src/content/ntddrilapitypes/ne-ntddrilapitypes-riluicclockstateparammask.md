@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILUICCLOCKSTATEPARAMMASK
 title: RILUICCLOCKSTATEPARAMMASK
-author: windows-driver-content
 description: This enumeration describes the RILUICCLOCKSTATEPARAMMASK.
 old-location: netvista\riluicclockstateparammask.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSourceFileLineOffsetsWide
 title: IDebugSymbols3::GetSourceFileLineOffsetsWide
-author: windows-driver-content
 description: The GetSourceFileLineOffsetsWide method maps each line in a source file to a location in the target's memory.
 old-location: debugger\getsourcefilelineoffsetswide.htm
 tech.root: debugger

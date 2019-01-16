@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_LOAD_MEDIA
 title: IOCTL_CDROM_LOAD_MEDIA
-author: windows-driver-content
 description: Draws a protruding CDROM tray back into the drive.
 old-location: storage\ioctl_cdrom_load_media.htm
 tech.root: storage

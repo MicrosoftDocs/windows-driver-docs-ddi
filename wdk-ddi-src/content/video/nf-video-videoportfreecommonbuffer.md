@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortFreeCommonBuffer
 title: VideoPortFreeCommonBuffer function
-author: windows-driver-content
 description: The VideoPortFreeCommonBuffer function is obsolete and is supported only for backward compatibility with existing drivers.
 old-location: display\videoportfreecommonbuffer.htm
 tech.root: display

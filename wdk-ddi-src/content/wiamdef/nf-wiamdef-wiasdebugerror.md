@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasDebugError
 title: wiasDebugError function
-author: windows-driver-content
 description: This function prints a debug error string in the Device Manager debug console. The output color is always red.
 old-location: image\wiasdebugerror.htm
 tech.root: image

@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSCAMERA_EXTENDEDPROP_ROI_FOCUS
 title: tagKSCAMERA_EXTENDEDPROP_ROI_FOCUS
-author: windows-driver-content
 description: This structure contains the ROI info structure for focus.
 old-location: stream\kscamera_extendedprop_roi_focus.htm
 tech.root: stream

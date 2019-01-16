@@ -1,7 +1,6 @@
 ---
 UID: NE:acpitabl._ACPI_PLD_JOINT_TYPE
 title: _ACPI_PLD_JOINT_TYPE enumeration
-author: windows-driver-content
 description: Describes joint type bits 6:9.
 ms.assetid: 908bbaeb-3dd4-4dbb-a5d4-c2356d9ea0e7
 ms.date: 10/02/2018

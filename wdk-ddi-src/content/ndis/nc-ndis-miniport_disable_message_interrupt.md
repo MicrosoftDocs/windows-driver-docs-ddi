@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_DISABLE_MESSAGE_INTERRUPT
 title: MINIPORT_DISABLE_MESSAGE_INTERRUPT
-author: windows-driver-content
 description: NDIS can call a miniport driver's MiniportDisableMessageInterrupt handler to disable a message interrupt for diagnostic and troubleshooting purposes.
 old-location: netvista\miniportdisablemessageinterrupt.htm
 tech.root: netvista

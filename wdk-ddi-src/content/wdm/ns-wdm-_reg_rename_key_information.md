@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._REG_RENAME_KEY_INFORMATION
 title: "_REG_RENAME_KEY_INFORMATION"
-author: windows-driver-content
 description: The REG_RENAME_KEY_INFORMATION structure contains the new name for a registry key whose name is about to be changed.
 old-location: kernel\reg_rename_key_information.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_ENUMERATE_SECURE_SERVICES
 title: EVT_TR_ENUMERATE_SECURE_SERVICES
-author: windows-driver-content
 description: 
 ms.assetid: 23793977-ce47-48ab-abf8-2b02ebd3bdd3
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER
 title: "_PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER"
-author: windows-driver-content
 description: The PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER structure describes a PCI Express (PCIe) device capabilities register of a PCIe capability structure.
 old-location: pci\pci_express_device_capabilities_register.htm
 tech.root: PCI

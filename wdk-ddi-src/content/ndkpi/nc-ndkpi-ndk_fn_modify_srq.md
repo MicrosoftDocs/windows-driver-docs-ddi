@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_MODIFY_SRQ
 title: NDK_FN_MODIFY_SRQ
-author: windows-driver-content
 description: The NdkModifySrq (NDK_FN_MODIFY_SRQ) function modifies the size and notification threshold of an NDK shared receive queue (SRQ).
 old-location: netvista\ndk_fn_modify_srq.htm
 tech.root: netvista

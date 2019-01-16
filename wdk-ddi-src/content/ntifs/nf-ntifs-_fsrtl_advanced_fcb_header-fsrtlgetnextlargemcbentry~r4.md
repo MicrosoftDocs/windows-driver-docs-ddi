@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlGetNextLargeMcbEntry~r4
 title: FsRtlGetNextLargeMcbEntry function
-author: windows-driver-content
 description: The FsRtlGetNextLargeMcbEntry routine retrieves a mapping run from a map control block (MCB).
 old-location: ifsk\fsrtlgetnextlargemcbentry.htm
 tech.root: ifsk

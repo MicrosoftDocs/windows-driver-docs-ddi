@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.CcGetFileObjectFromSectionPtrs
 title: CcGetFileObjectFromSectionPtrs function
-author: windows-driver-content
 description: Given a pointer to the section object pointers for a cached file, the CcGetFileObjectFromSectionPtrs routine returns a pointer to the file object that the cache manager is using for the file.
 old-location: ifsk\ccgetfileobjectfromsectionptrs.htm
 tech.root: ifsk

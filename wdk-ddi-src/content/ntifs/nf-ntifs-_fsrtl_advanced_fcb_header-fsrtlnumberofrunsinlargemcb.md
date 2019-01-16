@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlNumberOfRunsInLargeMcb
 title: FsRtlNumberOfRunsInLargeMcb function
-author: windows-driver-content
 description: The FsRtlNumberOfRunsInLargeMcb routine returns the number of runs in a map control block (MCB).
 old-location: ifsk\fsrtlnumberofrunsinlargemcb.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionEventArgs.get_BidiNotification
 title: IPrinterExtensionEventArgs::get_BidiNotification
-author: windows-driver-content
 description: Gets the text of the bidirectional communication (Bidi) notification, if applicable.
 old-location: print\iprinterextensioneventargs_bidinotification.htm
 tech.root: print

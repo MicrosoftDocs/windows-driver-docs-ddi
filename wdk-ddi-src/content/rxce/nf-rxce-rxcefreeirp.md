@@ -1,7 +1,6 @@
 ---
 UID: NF:rxce.RxCeFreeIrp
 title: RxCeFreeIrp function
-author: windows-driver-content
 description: RxCeFreeIrp frees an IRP.
 old-location: ifsk\rxcefreeirp.htm
 tech.root: ifsk

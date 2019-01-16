@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwClose
 title: ZwClose function
-author: windows-driver-content
 description: The ZwClose routine closes an object handle.
 old-location: kernel\zwclose.htm
 tech.root: kernel

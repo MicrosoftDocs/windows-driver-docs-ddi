@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorsutils.IsKeyPresentInCollectionList
 title: IsKeyPresentInCollectionList function
-author: windows-driver-content
 description: This routine determine if a key is present in a collection list.
 ms.assetid: 80e70dfa-7f4b-4617-83cb-6c3c7d5396fe
 ms.date: 08/08/2018

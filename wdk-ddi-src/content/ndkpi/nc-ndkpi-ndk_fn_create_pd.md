@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_CREATE_PD
 title: NDK_FN_CREATE_PD
-author: windows-driver-content
 description: The NdkCreatePd (NDK_FN_CREATE_PD) function creates an NDK protection domain (PD) object.
 old-location: netvista\ndk_fn_create_pd.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETINDICES
 title: PFND3DDDI_SETINDICES
-author: windows-driver-content
 description: The SetIndices function sets the current index buffer.
 old-location: display\setindices.htm
 tech.root: display

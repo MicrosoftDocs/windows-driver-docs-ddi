@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_MIRACAST_SEND_MESSAGE_CALLBACK
 title: DXGKCB_MIRACAST_SEND_MESSAGE_CALLBACK
-author: windows-driver-content
 description: Called in kernel mode when the message that was sent to the user-mode driver with a call to the DxgkCbMiracastSendMessage function has completed or has been canceled.
 old-location: display\dxgkcbmiracastsendmessage.htm
 tech.root: display

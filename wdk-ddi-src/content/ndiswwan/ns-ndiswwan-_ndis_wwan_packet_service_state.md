@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_PACKET_SERVICE_STATE
 title: "_NDIS_WWAN_PACKET_SERVICE_STATE"
-author: windows-driver-content
 description: The NDIS_WWAN_PACKET_SERVICE_STATE structure represents the packet service attachment state of the MB device.
 old-location: netvista\ndis_wwan_packet_service_state.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfobject._WDF_OBJECT_ATTRIBUTES
 title: "_WDF_OBJECT_ATTRIBUTES"
-author: windows-driver-content
 description: The WDF_OBJECT_ATTRIBUTES structure describes attributes that can be associated with any framework object.
 old-location: wdf\wdf_object_attributes.htm
 tech.root: wdf

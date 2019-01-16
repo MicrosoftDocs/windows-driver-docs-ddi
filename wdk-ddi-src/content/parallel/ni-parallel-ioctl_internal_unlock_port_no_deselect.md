@@ -1,7 +1,6 @@
 ---
 UID: NI:parallel.IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT
 title: IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT
-author: windows-driver-content
 description: The IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT request frees a parallel device's parent parallel port.
 old-location: parports\ioctl_internal_unlock_port_no_deselect.htm
 tech.root: parports

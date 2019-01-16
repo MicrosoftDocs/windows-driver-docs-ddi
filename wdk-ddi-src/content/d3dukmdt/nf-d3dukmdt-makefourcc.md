@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dukmdt.MAKEFOURCC
 title: MAKEFOURCC macro
-author: windows-driver-content
 description: A macro to format and load texture.
 ms.assetid: c87722a0-3f6d-4d67-a303-d5fef4405daf
 ms.date: 10/19/2018

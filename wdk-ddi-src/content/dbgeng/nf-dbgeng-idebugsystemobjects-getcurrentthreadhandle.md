@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects.GetCurrentThreadHandle
 title: IDebugSystemObjects::GetCurrentThreadHandle
-author: windows-driver-content
 description: The GetCurrentThreadHandle method returns the system handle for the current thread.
 old-location: debugger\getcurrentthreadhandle.htm
 tech.root: debugger

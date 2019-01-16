@@ -1,7 +1,6 @@
 ---
 UID: NI:usbfnioctl.IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET
 title: IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET
-author: windows-driver-content
 description: The class driver sends this request to get the entire USB interface descriptor set for a function on the device.
 old-location: buses\ioctl_internal_usbfn_get_interface_descriptor_set_.htm
 tech.root: usbref

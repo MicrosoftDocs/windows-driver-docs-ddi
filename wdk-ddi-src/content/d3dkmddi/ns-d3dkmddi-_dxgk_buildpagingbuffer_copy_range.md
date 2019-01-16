@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_BUILDPAGINGBUFFER_COPY_RANGE
 title: "_DXGK_BUILDPAGINGBUFFER_COPY_RANGE"
-author: windows-driver-content
 description: DXGK_BUILDPAGINGBUFFER_COPY_RANGE is used as part of a page table entry copy operation.
 old-location: display\dxgk_buildpagingbuffer_copy_range.htm
 ms.assetid: BA35F50C-7399-41DC-A10B-2F5E4BB24B49

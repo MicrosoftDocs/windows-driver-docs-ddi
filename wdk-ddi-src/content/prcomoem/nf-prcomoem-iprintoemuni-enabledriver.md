@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.EnableDriver
 title: IPrintOemUni::EnableDriver
-author: windows-driver-content
 description: The IPrintOemUni::EnableDriver method allows a rendering plug-in for Unidrv to hook out some graphics DDI functions.
 old-location: print\iprintoemuni_enabledriver.htm
 tech.root: print

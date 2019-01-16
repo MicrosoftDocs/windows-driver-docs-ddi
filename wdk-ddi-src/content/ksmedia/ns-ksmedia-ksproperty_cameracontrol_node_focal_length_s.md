@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_119
 title: KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S
-author: windows-driver-content
 description: The KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S structure returns node-specific data requested using the KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH property.
 old-location: stream\ksproperty_cameracontrol_node_focal_length_s.htm
 tech.root: stream

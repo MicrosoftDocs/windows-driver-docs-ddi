@@ -1,7 +1,6 @@
 ---
 UID: NS:storport._STOR_ADDR_BTL8
 title: "_STOR_ADDR_BTL8"
-author: windows-driver-content
 description: The STOR_ADDR_BTL8 address structure contains the addressing information for an 8-bit Bus-Target-LUN (BTL8) address.
 old-location: storage\stor_addr_btl8.htm
 tech.root: storage

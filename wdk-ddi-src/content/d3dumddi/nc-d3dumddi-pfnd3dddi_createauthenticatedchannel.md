@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATEAUTHENTICATEDCHANNEL
 title: PFND3DDDI_CREATEAUTHENTICATEDCHANNEL
-author: windows-driver-content
 description: The CreateAuthenticatedChannel function creates a channel that the Microsoft Direct3D runtime and the driver can use to set and query protections.
 old-location: display\createauthenticatedchannel.htm
 tech.root: display

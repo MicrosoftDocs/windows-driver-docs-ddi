@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveCyclic.Init
 title: IMiniportWaveCyclic::Init method
-author: windows-driver-content
 description: The Init method initializes the WaveCyclic miniport object. Initialization includes verification of the hardware using the resources specified in the resource list.
 old-location: audio\iminiportwavecyclic_init.htm
 tech.root: audio

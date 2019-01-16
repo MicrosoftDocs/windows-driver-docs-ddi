@@ -1,7 +1,6 @@
 ---
 UID: NS:ucxusbdevice._ADDRESS0_OWNERSHIP_ACQUIRE
 title: "_ADDRESS0_OWNERSHIP_ACQUIRE"
-author: windows-driver-content
 description: Contains parameters for configuring the device.
 old-location: buses\_address0_ownership_acquire.htm
 tech.root: usbref

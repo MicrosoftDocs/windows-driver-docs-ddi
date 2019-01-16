@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFDeviceDepot2.QuerySingle
 title: IWDTFDeviceDepot2::QuerySingle
-author: windows-driver-content
 description: Returns a single target device from the DeviceDepot.
 old-location: dtf\iwdtfdevicedepot2_querysingle.htm
 tech.root: dtf

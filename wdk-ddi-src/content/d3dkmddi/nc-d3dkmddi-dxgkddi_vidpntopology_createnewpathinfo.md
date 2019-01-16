@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTOPOLOGY_CREATENEWPATHINFO
 title: DXGKDDI_VIDPNTOPOLOGY_CREATENEWPATHINFO
-author: windows-driver-content
 description: The pfnCreateNewPathInfo function returns a pointer to a D3DKMDT_VIDPN_PRESENT_PATH structure that the display miniport driver populates before calling pfnAddPath.
 old-location: display\dxgk_vidpntopology_interface_pfncreatenewpathinfo.htm
 ms.assetid: 2d9a4e10-514d-4ea9-9d60-0bbb7cdca29d

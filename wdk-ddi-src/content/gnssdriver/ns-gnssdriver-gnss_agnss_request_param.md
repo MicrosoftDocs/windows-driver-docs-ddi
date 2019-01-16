@@ -1,7 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_28
 title: GNSS_AGNSS_REQUEST_PARAM
-author: windows-driver-content
 description: This structure defines AGNSS request parameters.
 old-location: gnss\gnss_agnss_request_param.htm
 tech.root: gnss

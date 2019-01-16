@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddtape.IOCTL_TAPE_CREATE_PARTITION
 title: IOCTL_TAPE_CREATE_PARTITION
-author: windows-driver-content
 description: Creates the specified number of fixed, select, or initiator partition(s) of the given size on the media.
 old-location: storage\ioctl_tape_create_partition.htm
 tech.root: storage

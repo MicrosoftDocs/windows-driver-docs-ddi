@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetBreakpointByIndex
 title: IDebugControl2::GetBreakpointByIndex
-author: windows-driver-content
 description: The GetBreakpointByIndex method returns the breakpoint located at the specified index.
 old-location: debugger\getbreakpointbyindex.htm
 tech.root: debugger

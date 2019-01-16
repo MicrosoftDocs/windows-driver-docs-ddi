@@ -1,7 +1,6 @@
 ---
 UID: NF:winppi.GdiEndDocEMF
 title: GdiEndDocEMF function
-author: windows-driver-content
 description: The GdiEndDocEMF function ends EMF playback operations for an EMF-formatted print job.
 old-location: print\gdienddocemf.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlReserveChunk
 title: RtlReserveChunk function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\rtlreservechunk.htm
 tech.root: ifsk

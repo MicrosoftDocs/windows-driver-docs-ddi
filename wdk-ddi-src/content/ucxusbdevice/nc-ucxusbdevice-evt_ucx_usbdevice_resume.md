@@ -1,7 +1,6 @@
 ---
 UID: NC:ucxusbdevice.EVT_UCX_USBDEVICE_RESUME
 title: EVT_UCX_USBDEVICE_RESUME
-author: windows-driver-content
 description: UCX invokes this callback function to resume a device from suspend state.
 old-location: buses\evt_ucx_usbdevice_resume.htm
 tech.root: usbref

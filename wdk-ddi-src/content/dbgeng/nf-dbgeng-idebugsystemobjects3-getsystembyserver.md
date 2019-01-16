@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetSystemByServer
 title: IDebugSystemObjects3::GetSystemByServer
-author: windows-driver-content
 description: Gets the system for a server.
 old-location: debugger\idebugsystemobjects3_getsystembyserver.htm
 tech.root: debugger

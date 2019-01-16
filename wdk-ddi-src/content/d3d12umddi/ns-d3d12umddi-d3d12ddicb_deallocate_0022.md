@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDICB_DEALLOCATE_0022
 title: D3D12DDICB_DEALLOCATE_0022
-author: windows-driver-content
 description: Specifies values for use with a deallocation callback function.
 old-location: display\d3d12ddicb_deallocate_0022.htm
 ms.assetid: 977868D1-02E1-4460-9194-2079B986045E

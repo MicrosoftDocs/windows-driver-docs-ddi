@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.PcForwardContentToDeviceObject
 title: PcForwardContentToDeviceObject function
-author: windows-driver-content
 description: The PcForwardContentToDeviceObject function accepts a device object representing a device to which the caller intends to forward protected content.
 old-location: audio\pcforwardcontenttodeviceobject.htm
 tech.root: audio

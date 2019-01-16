@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDIARG_CREATERESOURCE2
 title: "_D3DDDIARG_CREATERESOURCE2"
-author: windows-driver-content
 description: Contains information for creating a resource. Used by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 old-location: display\d3dddiarg_createresource2.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFNamedPropertyStore.SetNamedValue
 title: IWDFNamedPropertyStore::SetNamedValue
-author: windows-driver-content
 description: The SetNamedValue method sets the value of a property.
 old-location: wdf\iwdfnamedpropertystore_setnamedvalue.htm
 tech.root: wdf

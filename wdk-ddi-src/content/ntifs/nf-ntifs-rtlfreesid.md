@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlFreeSid
 title: RtlFreeSid function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\rtlfreesid.htm
 tech.root: ifsk

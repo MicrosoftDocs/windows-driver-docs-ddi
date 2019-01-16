@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WDF_REMOVE_LOCK_OPTIONS_INIT
 title: WDF_REMOVE_LOCK_OPTIONS_INIT function
-author: windows-driver-content
 description: The WDF_REMOVE_LOCK_OPTIONS_INIT function initializes a WDF_REMOVE_LOCK_OPTIONS structure.
 old-location: wdf\wdf_remove_lock_options_init.htm
 tech.root: wdf

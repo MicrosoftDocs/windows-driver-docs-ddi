@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetChar
 title: ExtRemoteData::GetChar
-author: windows-driver-content
 description: The GetChar method returns a CHAR version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getchar.htm
 tech.root: debugger

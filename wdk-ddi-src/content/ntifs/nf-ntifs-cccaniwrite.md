@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.CcCanIWrite
 title: CcCanIWrite function
-author: windows-driver-content
 description: The CcCanIWrite routine determines whether the caller can write to a cached file.
 old-location: ifsk\cccaniwrite.htm
 tech.root: ifsk

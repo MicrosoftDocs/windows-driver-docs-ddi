@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoGetParent
 title: WdfPdoGetParent function
-author: windows-driver-content
 description: The WdfPdoGetParent method returns a handle to the framework device object that represents the parent device of a specified device.
 old-location: wdf\wdfpdogetparent.htm
 tech.root: wdf

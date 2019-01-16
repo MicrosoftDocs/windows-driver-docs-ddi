@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlRandom
 title: RtlRandom function
-author: windows-driver-content
 description: The RtlRandom routine returns a random number that was generated from a given seed value.
 old-location: ifsk\rtlrandom.htm
 tech.root: ifsk

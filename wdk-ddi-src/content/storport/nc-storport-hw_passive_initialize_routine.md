@@ -1,7 +1,6 @@
 ---
 UID: NC:storport.HW_PASSIVE_INITIALIZE_ROUTINE
 title: HW_PASSIVE_INITIALIZE_ROUTINE
-author: windows-driver-content
 description: The HwStorPassiveInitializeRoutine callback routine is called after the HwStorInitialize routine when the current IRQL is at PASSIVE_LEVEL.
 old-location: storage\hwstorpassiveinitializeroutine.htm
 tech.root: storage

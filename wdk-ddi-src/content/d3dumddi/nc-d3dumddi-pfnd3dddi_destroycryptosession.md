@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DESTROYCRYPTOSESSION
 title: PFND3DDDI_DESTROYCRYPTOSESSION
-author: windows-driver-content
 description: The DestroyCryptoSession function releases resources for the encryption session that the CreateCryptoSession function creates.
 old-location: display\destroycryptosession.htm
 tech.root: display

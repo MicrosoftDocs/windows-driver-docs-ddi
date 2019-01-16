@@ -1,7 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_INTERNAL_USB_REQ_GLOBAL_SUSPEND
 title: IOCTL_INTERNAL_USB_REQ_GLOBAL_SUSPEND
-author: windows-driver-content
 description: The IOCTL_INTERNAL_USB_REQ_GLOBAL_SUSPEND IOCTL is used by the USB hub driver. Do not use.
 old-location: buses\ioctl_internal_usb_req_global_suspend.htm
 tech.root: usbref

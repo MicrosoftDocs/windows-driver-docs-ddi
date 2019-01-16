@@ -1,7 +1,6 @@
 ---
 UID: NF:sercx.SerCx2SystemDmaReceiveGetDmaEnabler
 title: SerCx2SystemDmaReceiveGetDmaEnabler function
-author: windows-driver-content
 description: The SerCx2SystemDmaReceiveGetDmaEnabler method gets the DMA enabler for the system DMA controller that is used for system-DMA-receive transactions.
 old-location: serports\sercx2systemdmareceivegetdmaenabler.htm
 tech.root: serports

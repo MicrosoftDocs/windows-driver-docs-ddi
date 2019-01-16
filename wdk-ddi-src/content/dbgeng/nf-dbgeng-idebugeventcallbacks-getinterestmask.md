@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacks.GetInterestMask
 title: IDebugEventCallbacks::GetInterestMask
-author: windows-driver-content
 description: The GetInterestMask callback method is called to determine which events the IDebugEventCallbacks object is interested in. The engine calls GetInterestMask when the object is registered with a client by using SetEventCallbacks.
 old-location: debugger\idebugeventcallbacks_getinterestmask.htm
 tech.root: debugger

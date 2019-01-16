@@ -1,7 +1,6 @@
 ---
 UID: NC:dbgeng.PDEBUG_EXTENSION_KNOWN_STRUCT_EX
 title: PDEBUG_EXTENSION_KNOWN_STRUCT_EX
-author: windows-driver-content
 description: The DebugExtensionKnownStructEx callback function is called by extensions in order to dump structures that are well known to them.
 old-location: debugger\debugextensionknownstructex.htm
 tech.root: debugger

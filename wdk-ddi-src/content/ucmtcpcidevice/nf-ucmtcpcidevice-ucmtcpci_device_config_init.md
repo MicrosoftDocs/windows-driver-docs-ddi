@@ -1,7 +1,6 @@
 ---
 UID: NF:ucmtcpcidevice.UCMTCPCI_DEVICE_CONFIG_INIT
 title: UCMTCPCI_DEVICE_CONFIG_INIT function
-author: windows-driver-content
 description: Initializes the UCMTCPCI_DEVICE_CONFIG structure.
 old-location: buses\ucmtcpci_device_config_init.htm
 tech.root: usbref

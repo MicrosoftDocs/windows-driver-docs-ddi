@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_MODE_PREFERENCE
 title: "_D3DKMDT_MODE_PREFERENCE"
-author: windows-driver-content
 description: The D3DKMDT_MODE_PREFERENCE enumeration is used to indicate whether a particular mode is one of the modes preferred by the monitor connected to a given video present target.
 old-location: display\d3dkmdt_mode_preference.htm
 tech.root: display

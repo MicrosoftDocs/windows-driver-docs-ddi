@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsControl.KsEvent
 title: IKsControl::KsEvent
-author: windows-driver-content
 description: The KsEvent method enables or disables an event, along with any other defined support operations available on an event set.
 old-location: stream\ikscontrol_ksevent.htm
 tech.root: stream

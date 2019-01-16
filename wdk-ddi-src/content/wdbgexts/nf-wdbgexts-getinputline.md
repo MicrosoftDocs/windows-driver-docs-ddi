@@ -1,7 +1,6 @@
 ---
 UID: NF:wdbgexts.GetInputLine
 title: GetInputLine function
-author: windows-driver-content
 description: The GetInputLine function requests an input string from the debugger.
 old-location: debugger\getinputline.htm
 tech.root: debugger

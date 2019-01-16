@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient.EndSession
 title: IDebugClient::EndSession
-author: windows-driver-content
 description: The EndSession method ends the current debugger session.
 old-location: debugger\endsession.htm
 tech.root: debugger

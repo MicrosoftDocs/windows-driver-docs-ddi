@@ -1,7 +1,6 @@
 ---
 UID: NN:ksproxy.IKsObject
 title: IKsObject
-author: windows-driver-content
 description: The IKsObject interface provides a method to retrieve the file handle of a KS object.
 old-location: stream\iksobject.htm
 tech.root: stream

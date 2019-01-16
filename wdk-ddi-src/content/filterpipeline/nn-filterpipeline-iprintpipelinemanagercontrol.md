@@ -1,7 +1,6 @@
 ---
 UID: NN:filterpipeline.IPrintPipelineManagerControl
 title: IPrintPipelineManagerControl
-author: windows-driver-content
 description: The IPrintPipelineManagerControl interface is passed to each filter in the IPrintPipelineFilter::InitializeFilter method.
 old-location: print\iprintpipelinemanagercontrol.htm
 tech.root: print

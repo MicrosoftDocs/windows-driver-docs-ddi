@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortGetDeviceBase
 title: VideoPortGetDeviceBase function
-author: windows-driver-content
 description: The VideoPortGetDeviceBase function maps a range of bus-relative device memory or I/O addresses into system space.
 old-location: display\videoportgetdevicebase.htm
 tech.root: display

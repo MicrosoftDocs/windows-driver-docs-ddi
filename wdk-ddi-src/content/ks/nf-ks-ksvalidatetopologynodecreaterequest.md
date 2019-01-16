@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsValidateTopologyNodeCreateRequest
 title: KsValidateTopologyNodeCreateRequest function
-author: windows-driver-content
 description: The KsValidateTopologyNodeCreateRequest function validates a topology node creation request and returns the create structure associated with the request. The function can only be called at PASSIVE_LEVEL.
 old-location: stream\ksvalidatetopologynodecreaterequest.htm
 tech.root: stream

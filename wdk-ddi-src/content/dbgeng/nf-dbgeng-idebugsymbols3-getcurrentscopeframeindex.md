@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetCurrentScopeFrameIndex
 title: IDebugSymbols3::GetCurrentScopeFrameIndex
-author: windows-driver-content
 description: The GetCurrentScopeFrameIndex method returns the index of the current stack frame in the call stack.
 old-location: debugger\getcurrentscopeframeindex.htm
 tech.root: debugger

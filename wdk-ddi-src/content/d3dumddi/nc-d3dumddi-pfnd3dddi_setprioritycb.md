@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETPRIORITYCB
 title: PFND3DDDI_SETPRIORITYCB
-author: windows-driver-content
 description: The pfnSetPriorityCb function sets the priority level of a resource or list of allocations.
 old-location: display\pfnsetprioritycb.htm
 tech.root: display

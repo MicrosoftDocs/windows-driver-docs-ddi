@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlSetBit
 title: RtlSetBit function
-author: windows-driver-content
 description: The RtlSetBit routine sets the specified bit in a bitmap to one.
 old-location: kernel\rtlsetbit.htm
 tech.root: kernel

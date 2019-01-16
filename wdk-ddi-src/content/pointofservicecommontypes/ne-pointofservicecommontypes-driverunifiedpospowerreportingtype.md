@@ -1,7 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes.DriverUnifiedPosPowerReportingType
 title: DriverUnifiedPosPowerReportingType
-author: windows-driver-content
 description: This enumeration defines the type of power reporting that is supported by the device (for example, advanced, standard, and so on).
 old-location: pos\unifiedpospowerreportingtype.htm
 tech.root: pos

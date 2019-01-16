@@ -1,7 +1,6 @@
 ---
 UID: NF:bdasup.BdaMethodDeletePin
 title: BdaMethodDeletePin function
-author: windows-driver-content
 description: The BdaMethodDeletePin function deletes a pin factory.
 old-location: stream\bdamethoddeletepin.htm
 tech.root: stream

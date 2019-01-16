@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm._KEY_INFORMATION_CLASS
 title: "_KEY_INFORMATION_CLASS"
-author: windows-driver-content
 description: The KEY_INFORMATION_CLASS enumeration type represents the type of information to supply about a registry key.
 old-location: kernel\key_information_class.htm
 tech.root: kernel

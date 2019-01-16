@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.WaitForEvent
 title: IDebugControl2::WaitForEvent
-author: windows-driver-content
 description: The WaitForEvent method waits for an event that breaks into the debugger engine application.
 old-location: debugger\waitforevent.htm
 tech.root: debugger

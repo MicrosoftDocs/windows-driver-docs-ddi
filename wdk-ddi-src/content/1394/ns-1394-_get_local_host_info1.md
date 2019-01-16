@@ -1,7 +1,6 @@
 ---
 UID: NS:1394._GET_LOCAL_HOST_INFO1
 title: "_GET_LOCAL_HOST_INFO1"
-author: windows-driver-content
 description: The GET_LOCAL_HOST_INFO1 structure contains the data returned by a REQUEST_GET_LOCAL_HOST_INFO request using u.GetLocalHostInformation.nLevel GET_HOST_UNIQUE_ID.
 old-location: ieee\get_local_host_info1.htm
 tech.root: IEEE

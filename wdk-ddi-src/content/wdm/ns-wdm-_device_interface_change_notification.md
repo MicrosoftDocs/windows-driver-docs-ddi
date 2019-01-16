@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._DEVICE_INTERFACE_CHANGE_NOTIFICATION
 title: "_DEVICE_INTERFACE_CHANGE_NOTIFICATION"
-author: windows-driver-content
 description: The DEVICE_INTERFACE_CHANGE_NOTIFICATION structure describes a device interface that has been enabled (arrived) or disabled (removed).
 old-location: kernel\device_interface_change_notification.htm
 tech.root: kernel

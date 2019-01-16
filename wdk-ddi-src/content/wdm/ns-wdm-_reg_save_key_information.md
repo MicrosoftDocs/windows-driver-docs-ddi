@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._REG_SAVE_KEY_INFORMATION
 title: "_REG_SAVE_KEY_INFORMATION"
-author: windows-driver-content
 description: The REG_SAVE_KEY_INFORMATION structure contains the information for a registry key that is about to be saved.
 old-location: kernel\reg_save_key_information.htm
 tech.root: kernel

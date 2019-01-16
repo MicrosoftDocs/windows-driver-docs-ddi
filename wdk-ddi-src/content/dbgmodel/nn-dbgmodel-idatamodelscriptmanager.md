@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgmodel.IDataModelScriptManager
 title: IDataModelScriptManager
-author: windows-driver-content
 description: The core interface to the script management capabilities of the data model manager.  Queried from the data model manager.
 ms.assetid: 456082be-779f-4504-a068-4c625759cc54
 ms.date: 07/13/2018

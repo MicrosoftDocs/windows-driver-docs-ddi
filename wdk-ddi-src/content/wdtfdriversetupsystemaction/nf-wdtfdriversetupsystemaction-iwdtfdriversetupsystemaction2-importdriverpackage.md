@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfdriversetupsystemaction.IWDTFDriverSetupSystemAction2.ImportDriverPackage
 title: IWDTFDriverSetupSystemAction2::ImportDriverPackage
-author: windows-driver-content
 description: Imports a driver packge to the system driver store.
 old-location: dtf\iwdtfdriversetupsystemaction2_importdriverpackage.htm
 tech.root: dtf

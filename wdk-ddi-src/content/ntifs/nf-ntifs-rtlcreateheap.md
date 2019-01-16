@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlCreateHeap
 title: RtlCreateHeap function
-author: windows-driver-content
 description: The RtlCreateHeap routine creates a heap object that can be used by the calling process. This routine reserves space in the virtual address space of the process and allocates physical storage for a specified initial portion of this block.
 old-location: ifsk\rtlcreateheap.htm
 tech.root: ifsk

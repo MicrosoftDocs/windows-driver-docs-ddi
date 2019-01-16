@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.WmiQueryTraceInformation
 title: WmiQueryTraceInformation function
-author: windows-driver-content
 description: The WmiQueryTraceInformation routine returns information about a WMI event trace.
 old-location: kernel\wmiquerytraceinformation.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:ucxendpoint.UcxEndpointNoPingResponseError
 title: UcxEndpointNoPingResponseError function
-author: windows-driver-content
 description: Notifies UCX about a &#0034;No Ping Response&#0034; error for a transfer on the specified endpoint object.
 old-location: buses\_ucxendpointnopingresponseerror.htm
 tech.root: usbref

@@ -1,7 +1,6 @@
 ---
 UID: NI:usbscan.IOCTL_RESET_PIPE
 title: IOCTL_RESET_PIPE
-author: windows-driver-content
 description: Resets the specified USB transfer pipe that is associated with the specified device handle.
 old-location: image\ioctl_reset_pipe.htm
 tech.root: image

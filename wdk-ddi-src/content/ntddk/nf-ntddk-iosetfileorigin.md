@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoSetFileOrigin
 title: IoSetFileOrigin function
-author: windows-driver-content
 description: The IoSetFileOrigin routine specifies whether a given file object is for a remote create request.
 old-location: ifsk\iosetfileorigin.htm
 tech.root: ifsk

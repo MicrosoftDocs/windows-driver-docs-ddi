@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice3.CreateWorkItem
 title: IWDFDevice3::CreateWorkItem
-author: windows-driver-content
 description: The CreateWorkItem method creates a framework work-item object, which can subsequently be added to the framework’s work-item queue.
 old-location: wdf\iwdfdevice3_createworkitem.htm
 tech.root: wdf

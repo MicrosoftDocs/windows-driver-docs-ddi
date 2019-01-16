@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IInterruptSync.Connect
 title: IInterruptSync::Connect
-author: windows-driver-content
 description: The Connect method connects the synchronization object to the interrupt.
 old-location: audio\iinterruptsync_connect.htm
 tech.root: audio

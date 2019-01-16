@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPN_GETTOPOLOGY
 title: DXGKDDI_VIDPN_GETTOPOLOGY
-author: windows-driver-content
 description: The pfnGetTopology function returns a handle to the VidPN topology object contained by a specified VidPN object.
 old-location: display\dxgk_vidpn_interface_pfngettopology.htm
 ms.assetid: 2bc43cd0-97a2-4120-8e6f-425664d3d28c

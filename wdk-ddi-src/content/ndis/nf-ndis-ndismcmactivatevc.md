@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMCmActivateVc
 title: NdisMCmActivateVc function
-author: windows-driver-content
 description: NdisMCmActivateVc notifies NDIS that an MCM driver is ready to make transfers on a particular VC.
 old-location: netvista\ndismcmactivatevc.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:pep_x._PEP_ACPI_IO_MEMORY_RESOURCE
 title: "_PEP_ACPI_IO_MEMORY_RESOURCE"
-author: windows-driver-content
 description: The PEP_ACPI_IO_MEMORY_RESOURCE structure describes an ACPI IO port descriptor resource.
 old-location: kernel\pep_acpi_io_memory_resource.htm
 tech.root: kernel

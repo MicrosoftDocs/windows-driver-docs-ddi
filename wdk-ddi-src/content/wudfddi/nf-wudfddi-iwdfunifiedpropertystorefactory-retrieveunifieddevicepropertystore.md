@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFUnifiedPropertyStoreFactory.RetrieveUnifiedDevicePropertyStore
 title: IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore
-author: windows-driver-content
 description: The RetrieveUnifiedDevicePropertyStore method retrieves a unified property store interface.
 old-location: wdf\iwdfunifiedpropertystorefactory_retrieveunifieddevicepropertystore.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IPrintPipelinePropertyBag.DeleteProperty
 title: IPrintPipelinePropertyBag::DeleteProperty
-author: windows-driver-content
 description: The DeleteProperty method deletes a property from a property bag.
 old-location: print\iprintpipelinepropertybag_deleteproperty.htm
 tech.root: print

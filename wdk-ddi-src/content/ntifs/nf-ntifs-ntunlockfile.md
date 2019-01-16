@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.NtUnlockFile
 title: NtUnlockFile function
-author: windows-driver-content
 description: The ZwUnlockFile routine unlocks a byte-range lock in a file.
 old-location: kernel\zwunlockfile.htm
 tech.root: kernel

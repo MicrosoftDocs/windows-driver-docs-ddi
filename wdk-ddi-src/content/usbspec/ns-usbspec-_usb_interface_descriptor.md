@@ -1,7 +1,6 @@
 ---
 UID: NS:usbspec._USB_INTERFACE_DESCRIPTOR
 title: "_USB_INTERFACE_DESCRIPTOR"
-author: windows-driver-content
 description: The USB_INTERFACE_DESCRIPTOR structure is used by USB client drivers to retrieve a USB-defined interface descriptor.
 old-location: buses\usb_interface_descriptor.htm
 tech.root: usbref

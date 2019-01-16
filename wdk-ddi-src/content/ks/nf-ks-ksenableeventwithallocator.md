@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsEnableEventWithAllocator
 title: KsEnableEventWithAllocator function
-author: windows-driver-content
 description: The KsEnableEventWithAllocator function enables events requested through IOCTL_KS_ENABLE_EVENT but also allows an optional allocator callback to be used to provide a buffer for the parameters.
 old-location: stream\ksenableeventwithallocator.htm
 tech.root: stream

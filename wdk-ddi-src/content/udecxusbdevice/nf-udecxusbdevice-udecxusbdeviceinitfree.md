@@ -1,7 +1,6 @@
 ---
 UID: NF:udecxusbdevice.UdecxUsbDeviceInitFree
 title: UdecxUsbDeviceInitFree function
-author: windows-driver-content
 description: Releases the resources that were allocated by the UdecxUsbDeviceInitAllocate call.
 old-location: buses\udecxusbdeviceinitfree.htm
 tech.root: usbref

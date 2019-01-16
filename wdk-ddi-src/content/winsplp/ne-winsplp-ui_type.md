@@ -1,7 +1,6 @@
 ---
 UID: NE:winsplp.__unnamed_enum_1
 title: UI_TYPE
-author: windows-driver-content
 description: 
 old-location: print\ui_type.htm
 tech.root: print

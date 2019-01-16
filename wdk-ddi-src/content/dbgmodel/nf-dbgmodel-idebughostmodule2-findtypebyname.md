@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostModule2.FindTypeByName
 title: IDebugHostModule2::FindTypeByName
-author: windows-driver-content
 description: The FindTypeByName method finds a type defined within the module by the type name and returns a type symbol for it.
 ms.assetid: 4916e8cc-aeb9-4bb0-a849-a099004bfe5d
 ms.date: 09/18/2018

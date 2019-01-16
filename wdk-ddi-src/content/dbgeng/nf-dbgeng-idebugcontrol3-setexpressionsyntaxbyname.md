@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.SetExpressionSyntaxByName
 title: IDebugControl3::SetExpressionSyntaxByName
-author: windows-driver-content
 description: The SetExpressionSyntaxByName method sets the syntax that the engine will use to evaluate expressions.
 old-location: debugger\setexpressionsyntaxbyname.htm
 tech.root: debugger

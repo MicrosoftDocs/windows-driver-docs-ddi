@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_SRQ_NOTIFICATION_CALLBACK
 title: NDK_FN_SRQ_NOTIFICATION_CALLBACK
-author: windows-driver-content
 description: The NdkSrqNotificationCallback (NDK_FN_SRQ_NOTIFICATION_CALLBACK) function provides NDK shared receive queue (SRQ) notifications from an NDK provider.
 old-location: netvista\ndk_fn_srq_notification_callback.htm
 tech.root: netvista

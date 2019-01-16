@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS
 title: D3D12DDI_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS
-author: windows-driver-content
 description: Holds the parameters used in the D3D12DDI_RENDER_PASS_ENDING_ACCESS_0053 structure, when the Render Pass is ending access.
 ms.assetid: b8f4b925-15e6-48d4-8186-0005219796d8
 ms.date: 10/19/2018

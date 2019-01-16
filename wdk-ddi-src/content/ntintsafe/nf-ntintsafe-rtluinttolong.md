@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlUIntToLong
 title: RtlUIntToLong function
-author: windows-driver-content
 description: Converts a value of type UINT to a value of type LONG.
 old-location: kernel\rtluinttolong.htm
 tech.root: kernel

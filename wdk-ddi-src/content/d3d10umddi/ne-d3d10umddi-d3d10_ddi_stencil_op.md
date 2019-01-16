@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D10_DDI_STENCIL_OP
 title: D3D10_DDI_STENCIL_OP
-author: windows-driver-content
 description: The D3D10_DDI_STENCIL_OP enumeration type contains values that identify operations on stencil buffers in a call to the driver's CreateDepthStencilState function.
 old-location: display\d3d10_ddi_stencil_op.htm
 ms.assetid: 624decb3-6279-45ba-8cdd-5a52de80dd71

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestFormatRequestUsingCurrentType
 title: WdfRequestFormatRequestUsingCurrentType function
-author: windows-driver-content
 description: The WdfRequestFormatRequestUsingCurrentType method formats a specified I/O request so that the driver can forward it, unmodified, to the driver's local I/O target.
 old-location: wdf\wdfrequestformatrequestusingcurrenttype.htm
 tech.root: wdf

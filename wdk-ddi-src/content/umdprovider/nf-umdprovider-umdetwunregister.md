@@ -1,7 +1,6 @@
 ---
 UID: NF:umdprovider.UMDEtwUnregister
 title: UMDEtwUnregister function
-author: windows-driver-content
 description: Unregisters the event trace provider. Call this function before the user-mode driver is unloaded. After this function is called, the driver should not make any other calls to log events.
 old-location: display\umdetwunregister.htm
 tech.root: display

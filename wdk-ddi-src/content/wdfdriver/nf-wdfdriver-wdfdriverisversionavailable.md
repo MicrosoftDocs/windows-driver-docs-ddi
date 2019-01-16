@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdriver.WdfDriverIsVersionAvailable
 title: WdfDriverIsVersionAvailable function
-author: windows-driver-content
 description: The WdfDriverIsVersionAvailable method returns a Boolean value that indicates whether the driver is running with a specified version of the Kernel-Mode Driver Framework library.
 old-location: wdf\wdfdriverisversionavailable.htm
 tech.root: wdf

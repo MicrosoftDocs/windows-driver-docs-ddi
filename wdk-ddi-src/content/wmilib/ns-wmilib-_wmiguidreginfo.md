@@ -1,7 +1,6 @@
 ---
 UID: NS:wmilib._WMIGUIDREGINFO
 title: "_WMIGUIDREGINFO"
-author: windows-driver-content
 description: The WMIGUIDREGINFO structure contains registration information for a given data block or event block exposed by a driver that uses the WMI library support routines.
 old-location: kernel\wmiguidreginfo.htm
 tech.root: kernel

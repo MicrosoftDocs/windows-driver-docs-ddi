@@ -1,7 +1,6 @@
 ---
 UID: NS:bdasup._KSM_PIN
 title: "_KSM_PIN"
-author: windows-driver-content
 description: The KSM_PIN structure describes a method request to create or delete a pin factory for a filter.
 old-location: stream\ksm_pin.htm
 tech.root: stream

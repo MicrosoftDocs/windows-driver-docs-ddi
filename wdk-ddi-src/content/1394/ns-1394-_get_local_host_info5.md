@@ -1,7 +1,6 @@
 ---
 UID: NS:1394._GET_LOCAL_HOST_INFO5
 title: "_GET_LOCAL_HOST_INFO5"
-author: windows-driver-content
 description: The GET_LOCAL_HOST_INFO5 structure contains the data returned by a REQUEST_GET_LOCAL_HOST_INFO request using u.GetLocalHostInformation.nLevel = GET_HOST_CONFIG_ROM.
 old-location: ieee\get_local_host_info5.htm
 tech.root: IEEE

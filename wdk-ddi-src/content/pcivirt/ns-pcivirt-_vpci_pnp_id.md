@@ -1,7 +1,6 @@
 ---
 UID: NS:pcivirt._VPCI_PNP_ID
 title: "_VPCI_PNP_ID"
-author: windows-driver-content
 description: Stores the PnP identifiers for a virtual PCI device. For example strings, see Identifiers for PCI Devices.
 old-location: pci\vpci_pnp_id.htm
 tech.root: PCI

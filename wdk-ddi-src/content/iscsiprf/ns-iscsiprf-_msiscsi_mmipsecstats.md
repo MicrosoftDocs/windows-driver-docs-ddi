@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiprf._MSiSCSI_MMIPSECStats
 title: "_MSiSCSI_MMIPSECStats"
-author: windows-driver-content
 description: The MSiSCSI_MMIPSECStats structure is used to report main mode IPsec statistics.
 old-location: storage\msiscsi_mmipsecstats.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NI:winsmcrd.IOCTL_SMARTCARD_IS_ABSENT
 title: IOCTL_SMARTCARD_IS_ABSENT
-author: windows-driver-content
 description: The IOCTL_SMARTCARD_IS_ABSENT control code returns immediately with STATUS_SUCCESS if no smart card is currently detected.
 old-location: nfpdrivers\ioctl_smartcard_is_absent.htm
 tech.root: nfpdrivers

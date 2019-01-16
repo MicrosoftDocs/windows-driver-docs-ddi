@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfqueryinterface.WDF_QUERY_INTERFACE_CONFIG_INIT
 title: WDF_QUERY_INTERFACE_CONFIG_INIT function
-author: windows-driver-content
 description: The WDF_QUERY_INTERFACE_CONFIG_INIT function initializes a driver's WDF_QUERY_INTERFACE_CONFIG structure.
 old-location: wdf\wdf_query_interface_config_init.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetDescriptionWide
 title: IDebugRegisters2::GetDescriptionWide
-author: windows-driver-content
 description: The GetDescriptionWide method returns the description of a register.
 old-location: debugger\getdescriptionwide.htm
 tech.root: debugger

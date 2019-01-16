@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_PCIXDEVICE_ERROR_SECTION
 title: "_WHEA_PCIXDEVICE_ERROR_SECTION"
-author: windows-driver-content
 description: The WHEA_PCIXDEVICE_ERROR_SECTION structure describes PCI or PCI-X device error data.
 old-location: whea\whea_pcixdevice_error_section.htm
 tech.root: whea

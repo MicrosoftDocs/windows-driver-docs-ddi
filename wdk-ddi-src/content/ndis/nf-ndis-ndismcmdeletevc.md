@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMCmDeleteVc
 title: NdisMCmDeleteVc function
-author: windows-driver-content
 description: NdisMCmDeleteVc destroys a caller-created VC.
 old-location: netvista\ndismcmdeletevc.htm
 tech.root: netvista

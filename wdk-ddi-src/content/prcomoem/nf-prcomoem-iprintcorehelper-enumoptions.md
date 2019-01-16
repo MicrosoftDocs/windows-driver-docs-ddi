@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelper.EnumOptions
 title: IPrintCoreHelper::EnumOptions
-author: windows-driver-content
 description: The IPrintCoreHelper::EnumOptions method gets a list of available options for the given feature.
 old-location: print\iprintcorehelper_enumoptions.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.GetModuleParameters
 title: IDebugSymbols::GetModuleParameters
-author: windows-driver-content
 description: The GetModuleParameters method returns parameters for modules in the target.
 old-location: debugger\getmoduleparameters.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfobject.WDF_OBJECT_ATTRIBUTES_INIT
 title: WDF_OBJECT_ATTRIBUTES_INIT function
-author: windows-driver-content
 description: The WDF_OBJECT_ATTRIBUTES_INIT function initializes a driver's WDF_OBJECT_ATTRIBUTES structure.
 old-location: wdf\wdf_object_attributes_init.htm
 tech.root: wdf

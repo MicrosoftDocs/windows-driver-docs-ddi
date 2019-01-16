@@ -1,7 +1,6 @@
 ---
 UID: NS:pmi._PMI_BUDGETING_CONFIGURATION
 title: "_PMI_BUDGETING_CONFIGURATION"
-author: windows-driver-content
 description: The PMI_BUDGETING_CONFIGURATION structure contains information about the current power budget of a power meter. A power budget defines how much power that the system can consume from the set of power supplies monitored by the power meter.
 old-location: powermeter\pmi_budgeting_configuration.htm
 tech.root: powermeter

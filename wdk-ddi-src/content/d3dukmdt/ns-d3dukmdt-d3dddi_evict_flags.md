@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dukmdt.D3DDDI_EVICT_FLAGS
 title: D3DDDI_EVICT_FLAGS
-author: windows-driver-content
 description: D3DDDI_EVICT_FLAGS specifies the eviction behavior.
 old-location: display\d3dddi_evict_flags.htm
 tech.root: display

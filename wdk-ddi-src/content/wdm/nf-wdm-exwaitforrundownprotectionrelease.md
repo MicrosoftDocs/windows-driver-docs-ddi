@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExWaitForRundownProtectionRelease
 title: ExWaitForRundownProtectionRelease function
-author: windows-driver-content
 description: The ExWaitForRundownProtectionRelease routine waits until all drivers that have already been granted run-down protection complete their accesses of the shared object.
 old-location: kernel\exwaitforrundownprotectionrelease.htm
 tech.root: kernel

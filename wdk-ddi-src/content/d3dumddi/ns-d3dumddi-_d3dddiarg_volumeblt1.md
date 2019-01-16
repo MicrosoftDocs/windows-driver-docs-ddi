@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_VOLUMEBLT1
 title: "_D3DDDIARG_VOLUMEBLT1"
-author: windows-driver-content
 description: Describes parameters for a volume bit-block transfer (bitblt) operation.
 old-location: display\d3dddiarg_volumeblt1.htm
 tech.root: display

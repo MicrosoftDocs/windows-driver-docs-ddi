@@ -1,7 +1,6 @@
 ---
 UID: NC:wudfwdm.DRIVER_INITIALIZE
 title: DRIVER_INITIALIZE
-author: windows-driver-content
 description: DriverEntry is the first routine called after a driver is loaded, and is responsible for initializing the driver.
 old-location: kernel\driverentry.htm
 tech.root: kernel

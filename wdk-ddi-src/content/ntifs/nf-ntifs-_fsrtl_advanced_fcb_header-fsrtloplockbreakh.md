@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlOplockBreakH
 title: FsRtlOplockBreakH function
-author: windows-driver-content
 description: The FsRtlOplockBreakH routine breaks CACHE_HANDLE_LEVEL opportunistic locks (oplocks).
 old-location: ifsk\fsrtloplockbreakh.htm
 tech.root: ifsk

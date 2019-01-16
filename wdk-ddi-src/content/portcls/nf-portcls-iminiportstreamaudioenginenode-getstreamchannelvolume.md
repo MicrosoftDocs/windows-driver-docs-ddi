@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.GetStreamChannelVolume
 title: IMiniportStreamAudioEngineNode::GetStreamChannelVolume
-author: windows-driver-content
 description: Gets the current volume level that is applied to the audio stream.
 old-location: audio\iminiportstreamaudioenginenode_getstreamchannelvolume.htm
 tech.root: audio

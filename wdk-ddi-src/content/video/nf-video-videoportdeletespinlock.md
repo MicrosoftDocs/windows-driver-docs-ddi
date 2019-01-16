@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortDeleteSpinLock
 title: VideoPortDeleteSpinLock function
-author: windows-driver-content
 description: The VideoPortDeleteSpinLock function deletes a given spin lock.
 old-location: display\videoportdeletespinlock.htm
 tech.root: display

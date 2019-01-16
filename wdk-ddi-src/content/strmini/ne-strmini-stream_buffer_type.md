@@ -1,7 +1,6 @@
 ---
 UID: NE:strmini.__unnamed_enum_2
 title: STREAM_BUFFER_TYPE
-author: windows-driver-content
 description: This enumeration defines the buffer types for StreamClassGetPhysicalAddress.
 old-location: stream\stream_buffer_type.htm
 tech.root: stream

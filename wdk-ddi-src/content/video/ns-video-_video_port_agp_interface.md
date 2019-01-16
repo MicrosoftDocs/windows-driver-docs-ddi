@@ -1,7 +1,6 @@
 ---
 UID: NS:video._VIDEO_PORT_AGP_INTERFACE
 title: "_VIDEO_PORT_AGP_INTERFACE"
-author: windows-driver-content
 description: The VIDEO_PORT_AGP_INTERFACE structure describes the AGP service routines provided by the video port driver.
 old-location: display\video_port_agp_interface.htm
 tech.root: display

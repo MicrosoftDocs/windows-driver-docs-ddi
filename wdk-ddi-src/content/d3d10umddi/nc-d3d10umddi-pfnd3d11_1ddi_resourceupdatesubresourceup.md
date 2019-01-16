@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_RESOURCEUPDATESUBRESOURCEUP
 title: PFND3D11_1DDI_RESOURCEUPDATESUBRESOURCEUP
-author: windows-driver-content
 description: Updates a destination subresource region that stores constant buffers from a source system-memory region. Implemented by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 old-location: display\defaultconstantbufferupdatesubresourceup_d3d11_1_.htm
 ms.assetid: 67FCC9A4-B3C5-46FC-83ED-CFFB8186328F

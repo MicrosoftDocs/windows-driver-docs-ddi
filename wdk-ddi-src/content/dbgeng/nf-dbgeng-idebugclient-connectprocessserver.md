@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient.ConnectProcessServer
 title: IDebugClient::ConnectProcessServer
-author: windows-driver-content
 description: The ConnectProcessServer methods connect to a process server.
 old-location: debugger\connectprocessserver.htm
 tech.root: debugger

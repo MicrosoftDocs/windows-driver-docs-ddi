@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.KeStallExecutionProcessor
 title: KeStallExecutionProcessor function
-author: windows-driver-content
 description: The KeStallExecutionProcessor routine stalls the caller on the current processor for a specified time interval.
 old-location: kernel\kestallexecutionprocessor.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.ResetPDEV
 title: IPrintOemUni::ResetPDEV
-author: windows-driver-content
 description: The IPrintOemUni::ResetPDEV method allows a rendering plug-in for Unidrv to reset its PDEV structure.
 old-location: print\iprintoemuni_resetpdev.htm
 tech.root: print

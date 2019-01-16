@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_WORK_POWER_CONTROL
 title: "_PEP_WORK_POWER_CONTROL"
-author: windows-driver-content
 description: The PEP_WORK_POWER_CONTROL structure contains the parameters for a power control request that the platform extension plug-in (PEP) sends directly to a processor driver.
 old-location: kernel\pep_work_power_control.htm
 tech.root: kernel

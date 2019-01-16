@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SETVIRTUALMACHINEDATA
 title: DXGKDDI_SETVIRTUALMACHINEDATA
-author: windows-driver-content
 description: Set the virtual machine data.
 ms.assetid: 1fae41c4-5e88-4936-a6ea-f69668ba2bf1
 ms.date: 10/19/2018

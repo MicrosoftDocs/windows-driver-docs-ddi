@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_AUTH_AKA_CHALLENGE
 title: "_WWAN_AUTH_AKA_CHALLENGE"
-author: windows-driver-content
 description: The WWAN_AUTH_AKA_CHALLENGE structure represents an authentication challenge using the AKA method.
 old-location: netvista\wwan_auth_aka_challenge.htm
 tech.root: netvista

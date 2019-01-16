@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetMonitorColorSpaceTransform
 title: D3DKMTSetMonitorColorSpaceTransform function
-author: windows-driver-content
 description: Used to set the color space transform for the selected monitor.
 old-location: display\d3dkmtsetmonitorcolorspacetransform.htm
 ms.assetid: cb831371-4684-4756-bc01-6c42e5af7e1b

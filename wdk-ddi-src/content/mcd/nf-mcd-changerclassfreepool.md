@@ -1,7 +1,6 @@
 ---
 UID: NF:mcd.ChangerClassFreePool
 title: ChangerClassFreePool function
-author: windows-driver-content
 description: The ChangerClassFreePool routine frees pool memory previously allocated using ChangerClassAllocatePool.
 old-location: storage\changerclassfreepool.htm
 tech.root: storage

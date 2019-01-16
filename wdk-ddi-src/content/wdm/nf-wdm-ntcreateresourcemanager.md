@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.NtCreateResourceManager
 title: NtCreateResourceManager function
-author: windows-driver-content
 description: The ZwCreateResourceManager routine creates a resource manager object.
 old-location: kernel\zwcreateresourcemanager.htm
 tech.root: kernel

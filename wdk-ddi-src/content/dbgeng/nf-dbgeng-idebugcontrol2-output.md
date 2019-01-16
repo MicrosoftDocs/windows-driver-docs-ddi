@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.Output
 title: IDebugControl2::Output
-author: windows-driver-content
 description: The Output method formats a string and send the result to output callbacks that have been registered with the engine's clients.
 old-location: debugger\output.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdbgexts.SetThreadForOperation
 title: SetThreadForOperation function
-author: windows-driver-content
 description: The SetThreadForOperation function sets the thread to use for the next StackTrace call.
 old-location: debugger\setthreadforoperation.htm
 tech.root: debugger

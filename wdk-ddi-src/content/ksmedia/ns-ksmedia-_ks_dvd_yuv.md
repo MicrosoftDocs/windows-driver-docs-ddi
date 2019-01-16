@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia._KS_DVD_YUV
 title: "_KS_DVD_YUV"
-author: windows-driver-content
 description: The KS_DVD_YUV structure is used to describe a color in the YUV colorspace.
 old-location: stream\ks_dvd_yuv.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWavePciStream.NormalizePhysicalPosition
 title: IMiniportWavePciStream::NormalizePhysicalPosition
-author: windows-driver-content
 description: The NormalizePhysicalPosition method converts a physical buffer position to a time-based value.
 old-location: audio\iminiportwavepcistream_normalizephysicalposition.htm
 tech.root: audio

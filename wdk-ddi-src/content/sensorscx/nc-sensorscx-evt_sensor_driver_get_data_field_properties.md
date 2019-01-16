@@ -1,7 +1,6 @@
 ---
 UID: NC:sensorscx.EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES
 title: EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES
-author: windows-driver-content
 description: This callback function returns the properties of a given data field associated with a sensor.
 old-location: sensors\evtsensorgetdatafieldproperties.htm
 tech.root: sensors

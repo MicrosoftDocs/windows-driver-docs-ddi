@@ -1,7 +1,6 @@
 ---
 UID: NF:netioddk.NmrClientDetachProviderComplete
 title: NmrClientDetachProviderComplete function
-author: windows-driver-content
 description: The NmrClientDetachProviderComplete function notifies the NMR that a client module has completed detaching from a provider module.
 old-location: netvista\nmrclientdetachprovidercomplete.htm
 tech.root: netvista

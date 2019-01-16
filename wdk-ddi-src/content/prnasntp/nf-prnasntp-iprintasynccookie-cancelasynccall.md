@@ -1,7 +1,6 @@
 ---
 UID: NF:prnasntp.IPrintAsyncCookie.CancelAsyncCall
 title: IPrintAsyncCookie::CancelAsyncCall
-author: windows-driver-content
 description: 
 old-location: print\iprintasyncnotify_cancelasynccall.htm
 tech.root: print

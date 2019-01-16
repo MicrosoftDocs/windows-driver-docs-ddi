@@ -1,7 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_CALLBACK_CONSTRAINT
 title: "_WDF_CALLBACK_CONSTRAINT"
-author: windows-driver-content
 description: WDF_CALLBACK_CONSTRAINT enumeration
 old-location: wdf\wdf_callback_constraint.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoQueue.ConfigureRequestDispatching
 title: IWDFIoQueue::ConfigureRequestDispatching
-author: windows-driver-content
 description: The ConfigureRequestDispatching method configures the queuing of I/O requests of the given type.
 old-location: wdf\iwdfioqueue_configurerequestdispatching.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag.SetString
 title: IPrinterScriptablePropertyBag::SetString
-author: windows-driver-content
 description: Writes a string property.
 old-location: print\iprinterscriptablepropertybag_setstring.htm
 tech.root: print

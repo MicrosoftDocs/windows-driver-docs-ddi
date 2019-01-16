@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.Query
 title: IWDTFTargets2::Query
-author: windows-driver-content
 description: Returns a subset of the items in the collection.
 old-location: dtf\iwdtftargets2_query.htm
 tech.root: dtf

@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IResourceList.AddEntry
 title: IResourceList::AddEntry
-author: windows-driver-content
 description: The AddEntry method adds an entry to a resource list.
 old-location: audio\iresourcelist_addentry.htm
 tech.root: audio

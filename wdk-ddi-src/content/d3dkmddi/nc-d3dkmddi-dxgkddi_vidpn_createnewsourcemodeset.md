@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPN_CREATENEWSOURCEMODESET
 title: DXGKDDI_VIDPN_CREATENEWSOURCEMODESET
-author: windows-driver-content
 description: The pfnCreateNewSourceModeSet function creates a new source mode set object within a specified VidPN object.
 old-location: display\dxgk_vidpn_interface_pfncreatenewsourcemodeset.htm
 ms.assetid: d46ffa49-6e75-4cd4-9d14-aa2c9fa671be

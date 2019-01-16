@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterBidiSetRequestCallback.Completed
 title: IPrinterBidiSetRequestCallback::Completed
-author: windows-driver-content
 description: Invoked when the Bidi “Set”” operation is completed.
 old-location: print\iprinterbidisetrequestcallback_completed.htm
 tech.root: print

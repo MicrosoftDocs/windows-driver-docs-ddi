@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetVolumeFromName
 title: FltGetVolumeFromName function
-author: windows-driver-content
 description: The FltGetVolumeFromName routine returns an opaque pointer for the volume whose name matches the value of the VolumeName parameter.
 old-location: ifsk\fltgetvolumefromname.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsCloneStreamData0
 title: FwpsCloneStreamData0 function
-author: windows-driver-content
 description: The FwpsCloneStreamData0 function allocates a clone of an existing FWPS_STREAM_DATA0 data stream.Note  FwpsCloneStreamData0 is a specific version of FwpsCloneStreamData.
 old-location: netvista\fwpsclonestreamdata0.htm
 tech.root: netvista

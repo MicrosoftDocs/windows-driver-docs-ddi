@@ -1,7 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_NOTIFY_ON_TRANSPORT_CHARACTERISTICS_CHANGE
 title: IOCTL_USB_NOTIFY_ON_TRANSPORT_CHARACTERISTICS_CHANGE
-author: windows-driver-content
 description: This request notifies the caller of change in transport characteristics.
 old-location: buses\ioctl_usb_notify_on_transport_characteristics_change.htm
 tech.root: usbref

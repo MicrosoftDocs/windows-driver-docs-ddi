@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_ASSIGNDEBUGBINARY
 title: PFND3D11_1DDI_ASSIGNDEBUGBINARY
-author: windows-driver-content
 description: Provides the full shader binary that is available after shader creation. The full shader binary lets a driver retrieve debugging information or other shader binary information that would not normally be available to the driver.
 old-location: display\assigndebugbinary.htm
 ms.assetid: eb1e3c27-71c1-4920-9aa4-3253306fa3f4

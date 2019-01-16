@@ -1,7 +1,6 @@
 ---
 UID: NF:ufxclient.UfxDeviceNotifyHardwareReady
 title: UfxDeviceNotifyHardwareReady function
-author: windows-driver-content
 description: Notifies UFX that the hardware is ready.
 old-location: buses\ufxdevicenotifyhardwareready.htm
 tech.root: usbref

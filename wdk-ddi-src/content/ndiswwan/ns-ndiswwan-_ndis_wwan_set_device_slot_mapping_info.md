@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO
 title: "_NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO"
-author: windows-driver-content
 description: The NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO structure sets the executor-to-slot mapping relationship of the MB device.
 old-location: netvista\ndis_wwan_set_device_slot_mappings.htm
 tech.root: netvista

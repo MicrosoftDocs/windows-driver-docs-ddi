@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltCommitFinalizeComplete
 title: FltCommitFinalizeComplete function
-author: windows-driver-content
 description: The FltCommitFinalizeComplete routine acknowledges a TRANSACTION_NOTIFY_COMMIT_FINALIZE notification.
 old-location: ifsk\fltcommitfinalizecomplete.htm
 tech.root: ifsk

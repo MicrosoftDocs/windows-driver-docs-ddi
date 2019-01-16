@@ -1,8 +1,6 @@
 ---
 UID: NA:ursdevice
-author: windows-driver-content
 ms.assetid: 56f6c740-1ee6-329c-b645-7535d1122c7e
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

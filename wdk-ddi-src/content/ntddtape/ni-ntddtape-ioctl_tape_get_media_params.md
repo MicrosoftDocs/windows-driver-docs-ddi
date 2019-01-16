@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddtape.IOCTL_TAPE_GET_MEDIA_PARAMS
 title: IOCTL_TAPE_GET_MEDIA_PARAMS
-author: windows-driver-content
 description: Returns information about the media's total and remaining capacity, its block size, the number of partitions, and whether it is write-protected.
 old-location: storage\ioctl_tape_get_media_params.htm
 tech.root: storage

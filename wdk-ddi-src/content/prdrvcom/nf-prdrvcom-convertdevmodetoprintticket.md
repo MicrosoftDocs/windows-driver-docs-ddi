@@ -1,7 +1,6 @@
 ---
 UID: NF:prdrvcom.ConvertDevModeToPrintTicket
 title: ConvertDevModeToPrintTicket function
-author: windows-driver-content
 description: The IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket method converts a DEVMODEW structure into a print ticket.
 old-location: print\iprintoemprintticketprovider_convertdevmodetoprintticket.htm
 tech.root: print

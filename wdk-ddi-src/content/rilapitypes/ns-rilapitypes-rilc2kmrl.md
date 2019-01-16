@@ -1,7 +1,6 @@
 ---
 UID: NS:rilapitypes.RILC2KMRL
 title: RILC2KMRL
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilc2kmrl_2.htm
 tech.root: netvista

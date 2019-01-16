@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.get_Item
 title: IWDTFTargets2::get_Item
-author: windows-driver-content
 description: Gets an individual item in the collection.
 old-location: dtf\iwdtftargets2_item.htm
 tech.root: dtf

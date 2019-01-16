@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.DocumentPropertySheets
 title: IPrintOemUI::DocumentPropertySheets
-author: windows-driver-content
 description: The IPrintOemUI::DocumentPropertySheets method allows a user interface plug-in to append a new page to a printer device's document property sheet.
 old-location: print\iprintoemui_documentpropertysheets.htm
 tech.root: print

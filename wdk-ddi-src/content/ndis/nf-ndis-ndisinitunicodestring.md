@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisInitUnicodeString
 title: NdisInitUnicodeString macro
-author: windows-driver-content
 description: The NdisInitUnicodeString function initializes a counted Unicode string.
 old-location: netvista\ndisinitunicodestring.htm
 tech.root: netvista

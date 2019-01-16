@@ -1,7 +1,6 @@
 ---
 UID: NF:hidpi.HidP_InitializeReportForID
 title: HidP_InitializeReportForID function
-author: windows-driver-content
 description: The HidP_InitializeReportForID routine initializes a HID report.
 old-location: hid\hidp_initializereportforid.htm
 tech.root: hid

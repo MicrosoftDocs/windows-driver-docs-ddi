@@ -1,7 +1,6 @@
 ---
 UID: NF:rxce.RxCeBuildAddress
 title: RxCeBuildAddress function
-author: windows-driver-content
 description: RxCeBuildAddress associates a transport address with a transport binding.
 old-location: ifsk\rxcebuildaddress.htm
 tech.root: ifsk

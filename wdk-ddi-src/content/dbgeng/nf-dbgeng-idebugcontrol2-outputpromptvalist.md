@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.OutputPromptVaList
 title: IDebugControl2::OutputPromptVaList
-author: windows-driver-content
 description: The OutputPromptVaList method formats and sends a user prompt to the output callback objects.
 old-location: debugger\outputpromptvalist.htm
 tech.root: debugger

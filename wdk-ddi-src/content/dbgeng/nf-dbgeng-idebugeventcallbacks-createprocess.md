@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacks.CreateProcess
 title: IDebugEventCallbacks::CreateProcess
-author: windows-driver-content
 description: The CreateProcess callback method is called by the engine when a create-processdebugging event occurs in the target.
 old-location: debugger\idebugeventcallbacks_createprocess.htm
 tech.root: debugger
