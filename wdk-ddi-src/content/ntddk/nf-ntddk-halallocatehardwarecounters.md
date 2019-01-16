@@ -53,14 +53,14 @@ The <b>HalAllocateHardwareCounters</b> routine allocates a set of hardware perfo
 ## -parameters
 
 
-### -param GroupAffinity [in]
+### -param GroupAffinty [in]
 
 <p>A pointer to a set of <b>GROUP_AFFINITY</b> structures indicating which processors' counter resources the consumer requests. If this parameter is <b>NULL</b>, then the request indicates an allocation across all processors in the system.</p>
 
 
 ### -param GroupCount [in]
 
-Supplies the number of <b>GROUP_AFFINITY</b> structures provided by the GroupAffinity parameter, or zero if GroupAffinity is <b>NULL</b>.
+Supplies the number of <b>GROUP_AFFINITY</b> structures provided by the GroupAffinty parameter, or zero if GroupAffinity is <b>NULL</b>.
 
 
 ### -param ResourceList [in]
