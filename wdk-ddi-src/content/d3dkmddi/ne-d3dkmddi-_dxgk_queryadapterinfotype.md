@@ -241,11 +241,11 @@ Indicates a request for an integrated panel descriptor where the input buffer to
 
 ### -field DXGKQAITYPE_NODEPERFDATA
 
-Represent performance data collected per engine from an adapter on an interval basis.
+Represents performance data collected per engine from an adapter on an interval basis.
 
 ### -field DXGKQAITYPE_ADAPTERPERFDATA
 
-Represent performance data collected per adapter on an interval basis.
+Represents performance data collected per adapter on an interval basis.
 
 ### -field DXGKQAITYPE_ADAPTERPERFDATA_CAPS
 
@@ -253,7 +253,7 @@ Represents data caps that are static and queried once per GPU during initializat
 
 ### -field DXGKQAITYPE_GPUVERSION
 
-Used to collect the bios version and gpu architecture name once during GPU initialization.
+Used to collect the bios version and GPU architecture name once during GPU initialization.
 
 
 ### -field DXGKQAITYPE_DEVICE_TYPE_CAPS
@@ -261,6 +261,8 @@ Used to collect the bios version and gpu architecture name once during GPU initi
 The device type capabilities.
 
 ### -field DXGKQAITYPE_WDDMDEVICECAPS
+
+The device capabilities that are queried by the OS during device initialization.
 
 ### -field DXGKQAITYPE_GPUPCAPS
 

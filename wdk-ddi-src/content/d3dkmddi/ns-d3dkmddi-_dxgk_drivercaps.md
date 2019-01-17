@@ -316,6 +316,10 @@ Detachable, i.e. hot-pluggable. Drivers will set this bit during adapter initial
 
 The adapter should not be used by Direct3D applications on the host.
 
+### -field MiscCaps.ComputeOnly
+
+Supports Compute-Only devices by rendering WDDM's render-only device capabilities. This member is available starting in Windows 10, version 1901.
+
 ### -field MiscCaps.Reserved
 
 Reserved.
